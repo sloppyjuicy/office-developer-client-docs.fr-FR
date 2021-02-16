@@ -1,5 +1,5 @@
 ---
-title: Référence de l'application web personnalisée Access
+title: Référence de l’application web personnalisée Access
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer

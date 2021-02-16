@@ -43,11 +43,11 @@ HRESULT Shutdown (
 
 S_OK 
   
-> L'appel a réussi à arrêter le fournisseur de transport.
+> L’appel a réussi à arrêter le fournisseur de transport.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle la méthode **IXPProvider:: Shutdown** juste avant de publier un objet de fournisseur de transport. Avant d'appeler **Shutdown**, MAPI libère tous les objets d'ouverture de session pour un fournisseur.
+Lepooler MAPI appelle la méthode **IXPProvider::Shutdown** juste avant de libérer un objet fournisseur de transport. Avant **d’appeler l’arrêt,** MAPI libère tous les objets d’accès pour un fournisseur.
   
 ## <a name="see-also"></a>Voir aussi
 

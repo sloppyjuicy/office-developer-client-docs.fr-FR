@@ -25,7 +25,7 @@ ms.locfileid: "33406233"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un code de diagnostic qui fait partie d'un rapport de livraison incomplète.
+Contient un code de diagnostic qui fait partie d’un rapport nondelivery.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient un code de diagnostic qui fait partie d'un rapport de livraison incompl
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut avoir exactement l'une des valeurs suivantes:
+Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
 MAPI_DIAG_ALPHABETIC_CHARACTER_LOST 
   
@@ -232,15 +232,15 @@ MAPI_DIAG_TOO_MANY_RECIPIENTS
     
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

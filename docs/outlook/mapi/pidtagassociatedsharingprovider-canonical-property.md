@@ -21,18 +21,18 @@ ms.locfileid: "33408921"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine si un fournisseur de magasins de fichiers de dossiers personnels (PST) est configuré en tant que fichier PST Microsoft SharePoint 2010.
+Détermine si un fournisseur de magasins de dossiers personnels (PST) est configuré en tant que PST Microsoft SharePoint 2010.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ASSOCIATED_SHARING_PROVIDER  <br/> |
 |Identificateur :  <br/> |0x0EA00048  <br/> |
 |Type de données :  <br/> |PT_CLSID  <br/> |
-|Domaine :  <br/> |Table de stockage personnel (. pst) interne  <br/> |
+|Domaine :  <br/> |Table de stockage personnel (.pst) interne  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété indique si un fichier PST est configuré pour Microsoft SharePoint 2010. Si la propriété n'est pas présente, le fichier PST n'a pas été configuré en tant que fichier PST Microsoft SharePoint 2010.
+Cette propriété indique si un PST est configuré pour Microsoft SharePoint 2010. Si la propriété n’est pas présente, le PST n’a pas été configuré en tant que PST Microsoft SharePoint 2010.
   
 ## <a name="see-also"></a>Voir aussi
 

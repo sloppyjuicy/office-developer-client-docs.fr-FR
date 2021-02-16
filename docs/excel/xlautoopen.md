@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAutoOpen
 keywords:
-- fonction xlAutoOpen [Excel 2007]
+- fonction xlautoopen [excel 2007]
 localization_priority: Normal
 ms.assetid: 748cecb6-61d0-496b-a1a4-a73d22eb29e2
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33406646"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de rappel qui doit être implémentée et exportée par chaque XLL valide. La fonction **xlAutoOpen** est l'emplacement recommandé à partir duquel enregistrer les fonctions et les commandes XLL, initialiser les structures de données, personnaliser l'interface utilisateur, etc. 
+Fonction de rappel qui doit être implémentée et exportée par chaque XLL valide. La **fonction xlAutoOpen** est l’endroit recommandé où enregistrer les commandes et fonctions XLL, initialiser les structures de données, personnaliser l’interface utilisateur, etc. 
   
 ```cs
 int WINAPI xlAutoOpen(void);
@@ -38,27 +38,27 @@ Votre exécution de cette fonction doit renvoyer 1 (**ent**).
   
 ## <a name="remarks"></a>Remarques
 
-Microsoft Excel appelle **xlAutoOpen** chaque fois que la XLL est activée. Le XLL est activé dans les situations suivantes: 
+Microsoft Excel appelle **xlAutoOpen chaque** fois que le XLL est activé. Le XLL est activé dans les situations suivantes : 
   
-- Au début d'une session Excel si elle était active dans la dernière session Excel qui s'est terminée normalement.
+- Au début d’une session Excel si elle était active dans la dernière session Excel qui s’est terminée normalement.
     
-- S'il est chargé pendant une session Excel.
+- S’il est chargé pendant une session Excel.
     
-- Un XLL peut être chargé de plusieurs façons:
+- Un XLL peut être chargé de plusieurs manières :
     
-- En choisissant **ouvrir** dans le menu **fichier** (où la version d'Excel prend en charge cette méthode de chargement des XLL). 
+- En choisissant **Ouvrir** dans le menu **Fichier** (où la version d’Excel prend en charge cette méthode de chargement de XL). 
     
 - À l’aide du Gestionnaire de compléments.
     
-- À partir d'un autre XLL qui appelle [xlfRegister](xlfregister-form-1.md) avec le nom de cette dll comme étant le seul argument. 
+- À partir d’une autre XLL qui appelle [xlfRegister](xlfregister-form-1.md) avec le nom de cette DLL comme seul argument. 
     
-- À partir d'une feuille macro XLM qui appelle [Register](xlfregister-form-1.md) avec le nom de cette dll comme étant le seul argument. 
+- À partir d’une feuille macro XLM qui appelle [REGISTER](xlfregister-form-1.md) avec le nom de cette DLL comme seul argument. 
     
-- Si le complément est désactivé et réactivé au cours d'une session Excel, cette fonction est appelée lors de la réactivation.
+- Si le add-in est désactivé et réactivé pendant une session Excel, cette fonction est appelée lors de la réactivation.
     
 ### <a name="example"></a>Exemple
 
-Voir les fichiers `SAMPLES\EXAMPLE\EXAMPLE.C` et `SAMPLES\GENERIC\GENERIC.C`et, par exemple, les implémentations de cette fonction.
+Consultez les  `SAMPLES\EXAMPLE\EXAMPLE.C` fichiers  `SAMPLES\GENERIC\GENERIC.C` et, par exemple, les implémentations de cette fonction.
   
 ## <a name="see-also"></a>Voir aussi
 

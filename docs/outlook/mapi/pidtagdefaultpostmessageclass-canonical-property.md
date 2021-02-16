@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 231c288f-547b-4463-9442-1499661b925e
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 0ab904625d3a23462a4fedf3b64f49c54b34ad28
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32357903"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d'une classe de message de formulaire personnalisé.
+Contient le nom d’une classe message de formulaire personnalisée.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ Contient le nom d'une classe de message de formulaire personnalisé.
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété est définie sur un dossier, la valeur doit contenir exactement la classe de message de base (par exemple, «IPM. Contact» pour un dossier contacts ou IPM. Rendez-vous» pour un dossier calendrier ou commencez par la classe de message de base (par exemple, «IPM. Contact. MyContact ").
+Si cette propriété est définie sur un dossier, la valeur doit contenir exactement la classe de message de base (par exemple, « IPM ». Contact » pour un dossier de contacts ou « IPM ». Rendez-vous » pour un dossier de calendrier) ou commencez par la classe de message de base (par exemple, « IPM ». Contact.MyContact »).
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
 > Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

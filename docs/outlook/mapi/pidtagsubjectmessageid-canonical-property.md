@@ -25,7 +25,7 @@ ms.locfileid: "33407101"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur binaire qui est copiée à partir du message pour lequel un État est généré. 
+Contient une valeur binaire qui est copiée à partir du message pour lequel un rapport est généré. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une valeur binaire qui est copiée à partir du message pour lequel un 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, comme la propriété **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), peut être utilisée pour corréler un État avec le message d'origine. 
+Cette propriété, comme la **propriété PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), peut être utilisée pour corréler un état avec le message d’origine. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

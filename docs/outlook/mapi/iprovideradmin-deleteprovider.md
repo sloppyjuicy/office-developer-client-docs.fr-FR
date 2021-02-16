@@ -37,7 +37,7 @@ HRESULT DeleteProvider(
 
  _lpUID_
   
-> [in, out] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l'identificateur unique qui représente le fournisseur à supprimer. 
+> [in, out] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique qui représente le fournisseur à supprimer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,21 +47,21 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> Le **MAPIUID** pointé par le paramètre _lpUID_ n'a pas été reconnu. 
+> Le **MAPIUID pointé** par le  _paramètre lpUID_ n’a pas été reconnu. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProviderAdmin::D eleteprovider** supprime un fournisseur de services du service de messagerie. **DeleteProvider** détermine le fournisseur de services à supprimer en faisant correspondre la structure **MAPIUID** désignée par _lpUID_ à l'ensemble des identificateurs enregistrés par les fournisseurs de services actifs. 
+La **méthode IProviderAdmin::D eleteProvider** supprime un fournisseur de services du service de messagerie. **DeleteProvider** détermine le fournisseur de services à supprimer en faisant correspondre la structure **MAPIUID** pointée par  _lpUID avec l’ensemble_ d’identificateurs enregistrés par les fournisseurs de services actifs. 
   
-La plupart des services de messagerie n'autorisent pas la suppression des fournisseurs lorsque le profil est en cours d'utilisation. Si le fournisseur à supprimer est en cours d'utilisation, **DeleteProvider** le marque pour suppression au lieu de le supprimer immédiatement et renvoie S_OK. Lorsque le fournisseur n'est plus utilisé, il est supprimé. 
+La plupart des services de messagerie n’autorisent pas la suppression des fournisseurs pendant l’utilisation du profil. Si le fournisseur à supprimer est en cours d’utilisation, **DeleteProvider** le marque pour suppression au lieu de le supprimer immédiatement et renvoie S_OK. Lorsque le fournisseur n’est plus utilisé, il est supprimé. 
   
- **DeleteProvider** appelle la fonction de point d'entrée du service de messagerie avant que le fournisseur ne soit supprimé du service. Le paramètre _ulContext_ est défini sur MSG_SERVICE_PROVIDER_DELETE. La fonction de point d'entrée du service de messagerie effectue les tâches suivantes: 
+ **DeleteProvider appelle** la fonction de point d’entrée du service de message avant que le fournisseur ne soit supprimé du service. Le  _paramètre ulContext_ est MSG_SERVICE_PROVIDER_DELETE. La fonction de point d’entrée du service de message effectue les tâches suivantes : 
   
 - Supprime le fournisseur de services.
     
-- Supprime la section Profil du fournisseur de services.
+- Supprime la section de profil du fournisseur de services.
     
-La fonction de point d'entrée du service de messagerie n'est pas rappelée après la suppression du fournisseur.
+La fonction de point d’entrée du service de messagerie n’est pas rappelée après la suppression du fournisseur.
   
 ## <a name="see-also"></a>Voir aussi
 

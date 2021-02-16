@@ -1,5 +1,5 @@
 ---
-title: Développement d'une application cliente MAPI
+title: Développement d’une application cliente MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,32 +15,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410034"
 ---
-# <a name="developing-a-mapi-client-application"></a>Développement d'une application cliente MAPI
+# <a name="developing-a-mapi-client-application"></a>Développement d’une application cliente MAPI
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les applications clientes MAPI sont écrites avec l'interface client MAPI orientée objet. Les clients MAPI interagissent avec un ou plusieurs systèmes de messagerie via le sous-système MAPI et les fournisseurs de services compatibles MAPI. Cette interaction peut se produire de plusieurs façons différentes; Il existe une variété énorme dans les applications clientes. La plupart des clients sont des clients de messagerie, soit l'intégration de la messagerie dans l'ensemble des fonctionnalités établies, soit l'exécution de la messagerie comme fonctionnalité principale. Les autres fonctionnalités que les clients MAPI peuvent fournir incluent l'administration des profils, la gestion des carnets d'adresses et de la Banque de messages.
+Les applications clientes MAPI sont écrites avec l’interface cliente MAPI orientée objet. Les clients MAPI interagissent avec un ou plusieurs systèmes de messagerie via le sous-système MAPI et les fournisseurs de services conformes MAPI. Cette interaction peut se produire de nombreuses manières différentes . il existe une grande variété dans les applications clientes. La plupart des clients sont des clients de messagerie, soit en intégrant la messagerie dans leur ensemble de fonctionnalités établi, soit en les intégrant comme fonctionnalité principale. Les clients MAPI peuvent également fournir d’autres fonctionnalités, notamment l’administration des profils, le carnet d’adresses et la gestion des magasins de messages.
   
-Tous les clients de messagerie initialisent les bibliothèques MAPI et démarrent une **session** avec le sous-système MAPI. Pour plus d'informations, consultez [la rubrique accès aux objets à l'aide de la session](accessing-objects-by-using-the-session.md). Une fois qu'une session a été établie, un client peut:
+Tous les clients de messagerie initialisent les bibliothèques MAPI et démarrent une **session** avec le sous-système MAPI. Pour plus d’informations, [voir Accès aux objets à l’aide de la session.](accessing-objects-by-using-the-session.md) Une fois qu’une session a été établie, un client peut :
   
-- Gérer les messages sortants, y compris les réponses, les messages transférés et les retransmissions.
+- Gérer les messages sortants, y compris les réponses, les messages transmis et les retransmissions.
     
 - Gérer les messages entrants.
     
-- Gérez la Banque de messages en ouvrant des dossiers et des messages, en créant, modifiant, copiant et envoyant des messages, en suivi des conversations et en recherchant dans un ou plusieurs dossiers.
+- Gérer la magasin de messages en ouvrant des dossiers et des messages, en créant, modifiant, copiant et envoyant des messages, en suivant les conversations et en recherchant un ou plusieurs dossiers.
     
-- Gérez le carnet d'adresses en créant et en modifiant des destinataires, en localisant des entrées et en parcourant la hiérarchie de conteneurs.
+- Gérer le carnet d’adresses en créant et en modifiant des destinataires, en localisant des entrées et en parcourant la hiérarchie des conteneurs.
     
-- Gérez un fournisseur de transport en effectuant une reconfiguration, en définissant les options et l'ordre de transport, et en envoyant des messages à la demande.
+- Gérer un fournisseur de transport en effectuer la reconfiguration, définir des options et un ordre de transport et envoyer des messages à la demande.
     
-- Gérer la notification d'événement.
+- Gérer les notifications d’événement.
     
 - Gérer les formulaires.
     
-- Gérer les profils et les services de messagerie.
+- Gérer les profils et les services de message.
     
-Utilisez les rubriques de cette section pour vous aider à implémenter ces tâches de base et les fonctionnalités spécifiques qui feront de votre client MAPI un usage unique.
+Utilisez les rubriques de cette section pour vous aider à implémenter ces tâches de base et les fonctionnalités spécifiques qui rendent votre client MAPI unique.
   
 

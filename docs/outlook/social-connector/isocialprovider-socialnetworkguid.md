@@ -29,7 +29,7 @@ Pointeur vers une valeur GUID qui représente un identificateur unique pour le r
   
 ## <a name="remarks"></a>Remarques
 
-Le GUID doit être immuable et ne doit pas être modifié même si la version du fournisseur change.
+Le GUID doit être immuable et ne doit pas changer même si la version du fournisseur change.
   
 ## <a name="see-also"></a>Voir aussi
 

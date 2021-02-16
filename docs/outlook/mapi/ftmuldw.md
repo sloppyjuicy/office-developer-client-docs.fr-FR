@@ -25,11 +25,11 @@ ms.locfileid: "33406345"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Multiplie un entier non signé 64 bits par un entier non signé 32 bits.
+Multiplie un nombre integer 64 bits non signé par un nombre integer 32 bits non signé.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -44,14 +44,14 @@ FILETIME FtMulDw(
 
  _Multiplicateur_
   
-> dans Un double mot qui contient le multiplicateur de nombres entiers non signés 32 bits. 
+> [in] Mot double qui contient le multiplicateur d’nombres integer 32 bits non signé. 
     
  _Multiplicand_
   
-> dans Une structure [fileTime](filetime.md) qui contient l'entier non signé 64 bits à multiplier par la valeur dans le paramètre _multiplicateur_ . 
+> [in] Structure [FILETIME](filetime.md) qui contient l’integer 64 bits non signé à multiplier par la valeur dans le paramètre Multiplicateur.  
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **FtMulDw** renvoie une structure **fileTime** qui contient le produit des deux entiers. Les deux paramètres d'entrée restent inchangés. 
+La **fonction FtMulDw** renvoie une structure **FILETIME** qui contient le produit des deux nombres entières. Les deux paramètres d’entrée restent inchangés. 
   
 

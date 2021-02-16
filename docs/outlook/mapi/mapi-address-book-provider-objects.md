@@ -1,5 +1,5 @@
 ---
-title: Objets du fournisseur de carnets d'adresses MAPI
+title: Objets de fournisseur de carnet d’adresses MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404343"
 ---
-# <a name="mapi-address-book-provider-objects"></a>Objets du fournisseur de carnets d'adresses MAPI
+# <a name="mapi-address-book-provider-objects"></a>Objets de fournisseur de carnet d’adresses MAPI
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-En plus du fournisseur standard et des objets d'ouverture de session, les fournisseurs de carnet d'adresses implémentent les conteneurs de carnet d'adresses, les listes de distribution, les utilisateurs de messagerie, les tables, les objets d'État et les contrôles.
+Outre les objets fournisseur et d’accès standard, les fournisseurs de carnets d’adresses implémentent des conteneurs de carnet d’adresses, des listes de distribution, des utilisateurs de messagerie, des tables, des objets d’état et des contrôles.
   
-L'illustration suivante montre ces objets, leurs interfaces correspondantes et les composants MAPI qui les utilisent.
+L’illustration suivante montre ces objets, leurs interfaces correspondantes et les composants MAPI qui les utilisent.
   
-![Objets implémentés par les fournisseurs de carnet d'adresses] (media/amapi_64.gif "Objets implémentés par les fournisseurs de carnet d'adresses")
+![Objets implémentant par]les fournisseurs de carnet d’adresses des objets(media/amapi_64.gif "implémentant par les fournisseurs de carnets d’adresses")
   
 ## <a name="see-also"></a>Voir aussi
 

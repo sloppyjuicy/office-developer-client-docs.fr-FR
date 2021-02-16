@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule TextBkgndTrans par index dans un prog
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowText** <br/> |
 |Index de la cellule :  <br/> |**visTxtBlkBkgndTrans** <br/> |
    

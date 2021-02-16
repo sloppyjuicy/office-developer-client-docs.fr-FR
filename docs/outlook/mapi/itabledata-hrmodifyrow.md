@@ -37,27 +37,27 @@ HRESULT HrModifyRow(
 
  _lpSRow_
   
-> dans Pointeur vers une structure [SRow](srow.md) qui décrit la ligne à ajouter ou pour remplacer une ligne existante. L'une des structures de valeurs de propriété vers lesquelles pointe le membre **lpProps** de la structure **SRow** doit contenir la colonne d'index, la valeur qui a été spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l'appel à la [CreateTable ](createtable.md)fonction. 
+> [in] Pointeur vers une structure [SRow](srow.md) qui décrit la ligne à ajouter ou à remplacer une ligne existante. L’une des structures de valeurs de propriétés pointées par le membre **lpProps** de la structure **SRow** doit contenir la colonne d’index, la même valeur que celle spécifiée dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la fonction [CreateTable.](createtable.md) 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La ligne a été insérée ou modifiée.
+> La ligne a été insérée ou modifiée avec succès.
     
 MAPI_E_INVALID_PARAMETER 
   
-> La ligne passée ne possède pas de colonne d'index.
+> La ligne transmise ne comprend pas de colonne d’index.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData:: HrModifyRow** insère la ligne décrite par la structure **SRow** vers laquelle pointe le paramètre _lpSRow_ . Si une ligne qui a la même valeur pour sa colonne d'index que la ligne sur laquelle pointe _lpSRow_ existe déjà dans le tableau, la ligne existante est remplacée. S'il n'existe aucune ligne correspondant à celle incluse dans la structure **SRow** , **HrModifyRow** ajoute la ligne à la fin du tableau. 
+La **méthode ITableData::HrModifyRow** insère la ligne décrite par la structure **SRow** pointée par _le paramètre lpSRow._ Si une ligne qui a la même valeur pour sa colonne d’index que la ligne vers qui  _pointe lpSRow_ existe déjà dans le tableau, la ligne existante est remplacée. S’il n’existe aucune ligne qui corresponde à celle incluse dans la structure **SRow,** **HrModifyRow** ajoute la ligne à la fin du tableau. 
   
-Toutes les vues de la table sont modifiées de façon à inclure la ligne sur laquelle pointe _lpSRow_. Toutefois, si une vue a une restriction en place qui exclut la ligne, elle peut ne pas être visible par l'utilisateur. 
+Tous les affichages du tableau sont modifiés pour inclure la ligne pointée par  _lpSRow_. Toutefois, si une restriction est en place dans un affichage qui exclut la ligne, il se peut qu’elle ne soit pas visible pour l’utilisateur. 
   
-Les colonnes de la ligne sur lesquelles pointe _lpSRow_ n'ont pas besoin d'être dans le même ordre que les colonnes du tableau. L'appelant peut également inclure en tant que propriétés de colonnes qui ne se trouvent pas actuellement dans le tableau. Pour les affichages existants, **HrModifyRow** rend ces nouvelles colonnes disponibles, mais ne les inclut pas dans le jeu de colonnes actuel. Pour les futures vues, **HrModifyRow** inclut les nouvelles colonnes dans l'ensemble de colonnes. 
+Les colonnes de la ligne pointées par  _lpSRow_ ne doivent pas être dans le même ordre que les colonnes du tableau. L’appelant peut également inclure en tant que propriétés de colonnes qui ne figurent pas actuellement dans le tableau. Pour les affichages existants, **HrModifyRow** rend ces nouvelles colonnes disponibles, mais ne les inclut pas dans le jeu de colonnes actuel. Pour les affichages futurs, **HrModifyRow** inclut les nouvelles colonnes dans le jeu de colonnes. 
   
-Une fois que **HrModifyRow** a ajouté la ligne, des notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable:: Advise](imapitable-advise.md) pour s'inscrire aux notifications. 
+Une fois **que HrModifyRow** a ajouté la ligne, des notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable::Advise](imapitable-advise.md) de la table pour s’inscrire aux notifications. 
   
 ## <a name="see-also"></a>Voir aussi
 

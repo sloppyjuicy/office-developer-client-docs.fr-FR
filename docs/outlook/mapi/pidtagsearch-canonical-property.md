@@ -25,30 +25,30 @@ ms.locfileid: "33411028"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un objet Container qui est utilisé pour les recherches avancées.
+Contient un objet conteneur utilisé pour les recherches avancées.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_SEARCH  <br/> |
 |Identificateur :  <br/> |0x3607  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Domaine :  <br/> |Conteneur de carnet d'adresses  <br/> |
+|Domaine :  <br/> |Conteneur de carnet d’adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un conteneur qui ne prend pas en charge les fonctionnalités de recherche avancées ne doit pas fournir la propriété.
+Un conteneur qui ne prend pas en charge les fonctionnalités de recherche avancées n’a pas besoin de fournir la propriété.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

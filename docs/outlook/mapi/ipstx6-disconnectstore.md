@@ -37,7 +37,7 @@ HRESULT DisconnectStore(
 
  _ulFlags_
   
->  [in] Indicateurs pour modifier le comportement. Ce paramètre doit toujours être défini sur 0. 
+>  [in] Indicateurs pour modifier le comportement. Ce paramètre doit toujours avoir la valeur 0. 
     
 ## <a name="see-also"></a>Voir aussi
 

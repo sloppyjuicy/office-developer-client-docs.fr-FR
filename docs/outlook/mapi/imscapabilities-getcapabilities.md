@@ -25,7 +25,7 @@ ms.locfileid: "33409257"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Obtient des informations sur ce qu'une banque peut prendre en charge en fonction du sélecteur spécifié.
+Obtient des informations sur ce qu’un magasin peut prendre en charge en fonction du sélecteur spécifié.
   
 ```cpp
 ULONG GetCapabilities( 
@@ -37,20 +37,20 @@ MSCAP_SELECTOR mscapSelector
 
  *mscapSelector* 
   
-> dans Sélecteur indiquant les fonctionnalités à renvoyer.
+> [in] Sélecteur indiquant les fonctionnalités à renvoyer.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 MSCAP_SECURE_FOLDER_HOMEPAGES
   
-> Prise en charge des page d'accueil de dossier dans une banque non définie par défaut. Cela peut être renvoyé si **MSCAP_SEL_FOLDER** est spécifié dans *mscapSelector* . 
+> Prise en charge des pages d’accueil de dossiers dans un magasin autre que le magasin par défaut. Cela peut être renvoyé si **MSCAP_SEL_FOLDER** est spécifié dans  *mscapSelector*  . 
     
 MSCAP_RES_ANNOTATION
   
-> Si une restriction contient des arguments non valides, tels que des propriétés non valides, la Banque ignore les arguments non valides et traite uniquement les arguments valides. Cela peut être renvoyé si **MSCAP_SEL_RESTRICTION** est spécifié dans *mscapSelector* . 
+> Si une restriction contient des arguments non valides tels que des propriétés non valides, la boutique ignore les arguments non valides et traite uniquement les arguments valides. Cela peut être renvoyé si **MSCAP_SEL_RESTRICTION** est spécifié dans  *mscapSelector*  . 
     
-VALEURS
+NULL
   
-> La Banque ne prend en charge aucune fonctionnalité basée sur le sélecteur donné.
+> Le magasin ne prend en charge aucune fonctionnalité basée sur le sélecteur donné.
     
 

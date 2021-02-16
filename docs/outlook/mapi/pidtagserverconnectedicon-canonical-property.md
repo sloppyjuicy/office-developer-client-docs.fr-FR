@@ -21,7 +21,7 @@ ms.locfileid: "33410461"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l'icône affichée dans la barre d'État.
+Spécifie l’icône affichée dans la barre d’état.
   
 |||
 |:-----|:-----|

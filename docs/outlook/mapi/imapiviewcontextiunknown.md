@@ -25,27 +25,27 @@ ms.locfileid: "33406030"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère un formulaire dans la visionneuse de formulaires d'une application cliente. 
+Gère un formulaire dans la visionneuse de formulaires d’une application cliente. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Exposé par:  <br/> |Afficher les objets de contexte  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Exposé par :  <br/> |Afficher les objets de contexte  <br/> |
 |Implémenté par :  <br/> |Visionneuses de formulaires  <br/> |
 |Appelé par :  <br/> |Objets de formulaires  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIViewContext  <br/> |
-|Type de pointeur:  <br/> |LPMAPIVIEWCONTEXT  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIViewContext  <br/> |
+|Type de pointeur :  <br/> |LPMAPIVIEWCONTEXT  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Gère l'inscription d'un formulaire pour recevoir des notifications sur les modifications apportées à la visionneuse.  <br/> |
+|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Gère l’inscription d’un formulaire pour recevoir des notifications sur les modifications apportées à la visionneuse.  <br/> |
 |[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Active le message suivant ou précédent dans la visionneuse de formulaires.  <br/> |
-|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Récupère les informations d'impression actuelles.  <br/> |
-|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Récupère un flux à utiliser pour enregistrer le message actif.  <br/> |
-|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Récupère l'état actuel de la visionneuse.  <br/> |
-|[Généré](imapiviewcontext-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente qui s'est produite dans l'objet de contexte d'affichage.  <br/> |
+|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Récupère les informations d’impression actuelles.  <br/> |
+|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Extrait un flux à utiliser pour enregistrer le message actuel.  <br/> |
+|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Récupère l’état actuel de la visionneuse.  <br/> |
+|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite dans l’objet de contexte d’affichage.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

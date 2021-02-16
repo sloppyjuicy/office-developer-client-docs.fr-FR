@@ -25,30 +25,30 @@ ms.locfileid: "33409866"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la version d'un formulaire. 
+Contient la version d’un formulaire. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W  <br/> |
 |Identificateur :  <br/> |0x3301  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés indiquent la version de conception actuellement appliquée au formulaire. La version est définie et gérée par le concepteur du formulaire et n'est pas nécessairement liée à une version de composant MAPI. 
+Ces propriétés indiquent la version de conception actuellement en vigueur pour le formulaire. La version est définie et conservée par le concepteur du formulaire et n’est pas nécessairement liée à une version de composant MAPI. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

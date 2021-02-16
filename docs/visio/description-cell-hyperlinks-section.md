@@ -22,7 +22,7 @@ Représente une chaîne de texte descriptive d’un lien hypertexte
   
 ## <a name="remarks"></a>Remarques
 
-Utilisez cette cellule pour stocker des commentaires sur le lien hypertexte; par exemple, «lien vers le site Web de nos tarifs».
+Utilisez cette cellule pour stocker des commentaires sur le lien hypertexte . par exemple, « Lien vers notre site web de tarification ».
   
 Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Liens hypertexte** (cliquez sur **Liens hypertexte** sous l’onglet **Insertion**). 
   
@@ -30,14 +30,14 @@ Pour faire référence à la cellule Description par un nom à partir d'une autr
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | Lien hypertexte.  *Nom* . Description, où hyperLink.  *Name* est le nom de la ligne de lien hypertexte  <br/> |
+| Nom de cellule :  <br/> | Lien hypertexte.  *Nom*  . Description où Lien hypertexte.  *Name*  est le nom de la ligne de lien hypertexte  <br/> |
    
 Pour faire référence à la cellule Description à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionHyperlink** <br/> |
-| Index de la ligne :  <br/> |**visRow1stHyperlink** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRow1stHyperlink**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visHLinkDescription** <br/> |
    
 

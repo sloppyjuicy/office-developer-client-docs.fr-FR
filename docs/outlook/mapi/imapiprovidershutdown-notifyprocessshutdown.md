@@ -25,7 +25,7 @@ ms.locfileid: "33405246"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique au fournisseur MAPI qu'un client MAPI va effectuer un arrêt rapide, afin que le fournisseur puisse prendre des mesures pour empêcher toute perte de données.
+Indique au fournisseur MAPI qu’un client MAPI va faire un arrêt rapide, afin que le fournisseur puisse prendre des mesures pour empêcher la perte de données.
   
 ```cpp
 HRESULT NotifyProcessShutdown ();
@@ -35,7 +35,7 @@ HRESULT NotifyProcessShutdown ();
 
 S_OK
   
-> Le fournisseur MAPI prend des mesures pour empêcher la perte de données lors de l'arrêt du client MAPI.
+> Le fournisseur MAPI prend des mesures pour empêcher la perte de données lorsque le client MAPI s’arrête.
     
 ## <a name="see-also"></a>Voir aussi
 

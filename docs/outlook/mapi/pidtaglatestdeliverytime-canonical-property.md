@@ -25,7 +25,7 @@ ms.locfileid: "33407787"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les dernières date et heure auxquelles un agent de transfert des messages (MTA) doit envoyer un message. 
+Contient la date et l’heure les plus récentes à laquelle un agent de transfert de messages doit remettre un message. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient les dernières date et heure auxquelles un agent de transfert des messa
    
 ## <a name="remarks"></a>Remarques
 
-Si un agent MTA ne peut pas remettre un message au moment spécifié par cette propriété, il annule le message sans remise. 
+Si un MTA ne peut pas remettre un message au moment spécifié par cette propriété, il annule le message sans remise. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

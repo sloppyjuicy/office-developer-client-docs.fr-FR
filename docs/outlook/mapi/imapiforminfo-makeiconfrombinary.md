@@ -25,7 +25,7 @@ ms.locfileid: "33405113"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Génère une icône à partir de l'une des propriétés d'icône d'un formulaire.
+Crée une icône à partir de l’une des propriétés d’icône d’un formulaire.
   
 ```cpp
 HRESULT MakeIconFromBinary(
@@ -38,11 +38,11 @@ HRESULT MakeIconFromBinary(
 
  _nPropID_
   
-> dans Identificateur de propriété d'une propriété d'icône.
+> [in] Identificateur de propriété pour une propriété d’icône.
     
  _phicon_
   
-> remarquer Pointeur vers l'icône renvoyée.
+> [out] Pointeur vers l’icône renvoyée.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes appellent la méthode **IMAPIFormInfo:: MakeIconFromBinary** pour créer une icône à partir de l'une des propriétés d'icône d'un formulaire. Dans le paramètre _nPropID_ , **MakeIconFromBinary** prend l'identificateur de propriété de l'une des propriétés d'icône d'un formulaire. À l'aide de cet identificateur de propriété, il génère une icône qui peut être affichée dans les vues de tableau qui incluent des colonnes de propriétés pour les icônes. 
+Les applications clientes appellent la méthode **IMAPIFormInfo::MakeIconFromBinary** pour créer une icône à partir de l’une des propriétés d’icône d’un formulaire. Dans le  _paramètre nPropID,_ **MakeIconFromBinary** prend l’identificateur de propriété de l’une des propriétés d’icône d’un formulaire. À l’aide de cet identificateur de propriété, il crée une icône qui peut être affichée dans les vues de tableau qui incluent des colonnes de propriété pour les icônes. 
   
 ## <a name="see-also"></a>Voir aussi
 

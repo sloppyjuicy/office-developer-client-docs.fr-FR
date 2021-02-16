@@ -25,7 +25,7 @@ ms.locfileid: "33408424"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère un flux à utiliser pour enregistrer le message actif.
+Extrait un flux à utiliser pour enregistrer le message actuel.
   
 ```cpp
 HRESULT GetSaveStream(
@@ -37,43 +37,43 @@ LPSTREAM FAR * ppstm
 
 ## <a name="parameters"></a>Paramètres
 
- _pulFlags_
+ _graphieFlags_
   
-> remarquer Pointeur vers un masque de des indicateurs qui contrôle la manière dont le texte du message doit être enregistré. L'indicateur suivant peut être défini:
+> [out] Pointeur vers un masque de bits d’indicateurs qui contrôle la façon dont le texte du message doit être enregistré. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Le texte du message est enregistré au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, le texte est enregistré au format ANSI.
+> Le texte du message est enregistré au format Unicode. Si l’MAPI_UNICODE n’est pas définie, le texte est enregistré au format ANSI.
     
- _pulFormat_
+ _atomFormat_
   
-> remarquer Pointeur vers un masque de des indicateurs qui contrôle le format du texte enregistré. Les indicateurs suivants peuvent être définis:
+> [out] Pointeur vers un masque de bits d’indicateurs qui contrôle le format du texte enregistré. Les indicateurs suivants peuvent être définies :
     
 SAVE_FORMAT_RICHTEXT 
   
-> Le texte du message doit être enregistré sous forme de texte mis en forme au format RTF (Rich Text Format). 
+> Le texte du message doit être enregistré en tant que texte formaté au format RTF (Rich Text Format). 
     
 SAVE_FORMAT_TEXT 
   
-> Le texte du message doit être enregistré en tant que texte brut. 
+> Le texte du message doit être enregistré en tant que texte simple. 
     
  _ppstm_
   
-> remarquer Pointeur vers un pointeur vers le flux qui contiendra le message enregistré.
+> [out] Pointeur vers un pointeur vers le flux qui contiendra le message enregistré.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le flux a été correctement récupéré.
+> Le flux a été récupéré avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-Les objets Form appellent la méthode **IMAPIViewContext:: GetSaveStream** pour récupérer un objet qui implémente l'interface **IStream** afin de prendre en charge la gestion du verbe enregistrer sous dans la visionneuse de formulaires. La méthode [IMAPIForm::D overb](imapiform-doverb.md) , qui est implémentée dans le serveur de formulaires et appelée par la visionneuse de formulaires pour appeler un verbe, ne doit pas retourner tant que le message n'est pas entièrement converti au format de texte approprié et placé dans le flux approprié. 
+Les objets form appellent la méthode **IMAPIViewContext::GetSaveStream** pour récupérer un flux d’un objet qui implémente l’interface **IStream** pour prendre en charge la gestion du verbe Enregistrer sous dans la visionneuse de formulaires. La méthode [IMAPIForm::D oVerb,](imapiform-doverb.md) implémentée dans le serveur de formulaires et appelée par la visionneuse de formulaire pour appeler un verbe, ne doit pas renvoyer tant que le message n’a pas été entièrement converti au format de texte approprié et placé dans le flux approprié. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-N'écrivez pas dans le flux vers lequel pointe _ppstm_ avant d'appeler **GetSaveStream**. Lorsque **GetSaveStream** renvoie, ne réinitialisez pas la position du pointeur de recherche. Ce pointeur doit rester à la fin du texte du message enregistré. 
+N’écrivez pas dans le flux pointé par  _ppstm_ avant **d’appeler GetSaveStream**. Lorsque **GetSaveStream est de** retour, ne réinitialisez pas la position du pointeur de recherche. Ce pointeur doit rester à la fin du texte du message enregistré. 
   
 ## <a name="see-also"></a>Voir aussi
 

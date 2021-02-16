@@ -21,28 +21,28 @@ ms.locfileid: "33409663"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet à Microsoft Outlook 2010 et à Microsoft Outlook 2013 de choisir la liste d'adresses globale (LAG) ou le dossier de contacts le plus approprié pour la boîte aux lettres actuelle.
+Permet à Microsoft Outlook 2010 et Microsoft Outlook 2013 de choisir le dossier de contacts ou la liste d’adresses globale le plus approprié pour la boîte aux lettres active.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY  <br/> |
 |Identificateur :  <br/> |0x3D1C000B  <br/> |
-|Type de propriété:  <br/> |PT_BOOLEAN  <br/> |
+|Type de propriété :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Carnet d’adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété correspond à l'option **choisir automatiquement** dans la boîte de dialogue Options du carnet d'adresses. Lorsque cette propriété existe dans la section de profil IID_CAPONE_PROF et qu'elle est définie sur **true**, la boîte de dialogue Carnet d'adresses n'utilise plus par défaut le conteneur spécifié par la méthode [SetDefaultDir](iaddrbook-setdefaultdir.md) , mais choisit un carnet d'adresses outlook 2010 ou Outlook 2013 estime approprié pour le contexte dans lequel la boîte de dialogue s'affichait. Notez que cela peut entraîner une mauvaise expérience des fournisseurs de carnets d'adresses tiers. 
+Cette propriété correspond au paramètre **Choisir** automatiquement dans la boîte de dialogue Options du carnet d’adresses. Lorsque cette propriété existe dans la section profil IID_CAPONE_PROF et est définie sur **true,** la boîte de dialogue carnet d’adresses n’est plus définie par défaut sur le conteneur spécifié par la méthode [SetDefaultDir,](iaddrbook-setdefaultdir.md) mais choisit un carnet d’adresses qu’Outlook 2010 ou Outlook 2013 considère comme approprié pour le contexte dans lequel la boîte de dialogue a été affichée. Notez que cela peut entraîner une expérience médiocre pour les fournisseurs de carnets d’adresses tiers. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

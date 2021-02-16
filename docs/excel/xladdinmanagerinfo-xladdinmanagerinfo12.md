@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlAddInManagerInfo
 keywords:
-- fonction xlAddInManagerInfo [Excel 2007]
+- fonction xladdinmanagerinfo [excel 2007]
 localization_priority: Normal
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,13 +22,13 @@ ms.locfileid: "33407794"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Appelé par Microsoft Excel lorsque le gestionnaire de compléments est appelé pour la première fois dans une session Excel. Cette fonction permet au gestionnaire de compléments d'obtenir des informations sur votre complément.
+Appelé par Microsoft Excel lorsque le Gestionnaire de add-in est appelé pour la première fois dans une session Excel. Cette fonction est utilisée pour fournir au gestionnaire Add-In des informations sur votre add-in.
   
-Excel 2007 et les versions ultérieures appellent **xlAddInManagerInfo12** de préférence sur **xlAddInManagerInfo** s'ils sont exportés par le XLL. La fonction **xlAddInManagerInfo12** doit fonctionner de la même manière que **xlAddInManagerInfo** pour éviter les différences de comportement de la XLL. Excel s'attend à ce qu' **xlAddInManagerInfo12** renvoie un type de données **XLOPER12** , tandis que **xlAddInManagerInfo** doit renvoyer un **XLOPER**.
+Excel 2007 et versions ultérieures **appellent xlAddInManagerInfo12** de préférence à **xlAddInManagerInfo** s’il est exporté par le XLL. La **fonction xlAddInManagerInfo12** doit fonctionner de la même manière que **xlAddInManagerInfo** pour éviter les différences propres à la version du XLL. Excel s’attend à ce que **xlAddInManagerInfo12** retourne un type de données **XLOPER12,** tandis que **xlAddInManagerInfo** doit renvoyer un **XLOPER**.
   
-La fonction **xlAddInManagerInfo12** n'est pas appelée par les versions d'Excel antérieures à Excel 2007, car elles ne prennent pas en charge la méthode **XLOPER12**.
+La **fonction xlAddInManagerInfo12** n’est pas appelée par les versions d’Excel antérieures à Excel 2007, car elles ne sont pas en charge **xlOPER12**.
   
-Excel ne nécessite pas de XLL pour implémenter et exporter l'une ou l'autre de ces fonctions.
+Excel ne nécessite pas de XLL pour implémenter et exporter l’une de ces fonctions.
   
 ```cs
 LPXLOPER WINAPI xlAddInManagerInfo(LPXLOPER pxAction);
@@ -37,19 +37,19 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 
 ## <a name="parameters"></a>Paramètres
 
- _pxAction:_ Pointeur vers un type **XLOPER/XLOPER12** numérique (**xltypeInt** ou **xltypeNum**).
+ _pxAction :_ Pointeur vers un **XLOPER/XLOPER12** numérique (**xltypeInt** ou **xltypeNum**).
   
-Informations demandées par Excel.
+Informations qu’Excel demande.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Si _pxAction_ est, ou peut être forcé, le nombre 1, votre implémentation de cette fonction doit renvoyer une chaîne contenant des informations sur le complément, généralement son nom et peut-être un numéro de version. Sinon, il doit retourner #VALUE!. 
+Si  _pxAction_ est, ou peut être forcé, le numéro 1, votre implémentation de cette fonction doit renvoyer une chaîne contenant des informations sur le module complémentaire, généralement son nom et éventuellement un numéro de version. Sinon, elle doit #VALUE!. 
   
-Si vous ne renvoyez pas de chaîne, Excel essaie de convertir la valeur renvoyée en chaîne.
+Si vous ne renvoyez pas de chaîne, Excel tente de convertir la valeur renvoyée en chaîne.
   
 ## <a name="remarks"></a>Remarques
 
-Si la chaîne renvoyée pointe vers la mémoire tampon allouée dynamiquement, vous devez vous assurer que cette mémoire tampon est finalement libérée. Si la chaîne a été allouée par Excel, vous pouvez le faire en définissant **xlbitXLFree**. Si la chaîne a été allouée par la DLL, vous devez le faire en définissant **xlbitDLLFree**, et vous devez également l'implémenter dans [xlAutoFree](xlautofree-xlautofree12.md) (si vous renvoyez un **XLOPER**) ou **XlAutoFree12** (si vous renvoyez un **XLOPER12**).
+Si la chaîne renvoyée pointe vers une mémoire tampon allouée dynamiquement, vous devez vous assurer que ce tampon est finalement libéré. Si la chaîne a été allouée par Excel, pour ce faire, vous devez définir **xlbitXLFree**. Si la chaîne a été allouée par la DLL, pour ce faire, vous devez définir **xlbitDLLFree** et vous devez également implémenter dans [xlAutoFree](xlautofree-xlautofree12.md) (si vous renvoyez une **XLOPER**) ou **xlAutoFree12** (si vous renvoyez une **XLOPER12**).
   
 ## <a name="example"></a>Exemple
 

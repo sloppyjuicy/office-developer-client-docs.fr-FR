@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - UnhookExcelWindow
 keywords:
-- fonction UnhookExcelWindow
+- fonction unhookexcelwindow
 localization_priority: Normal
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33409446"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Supprime le **ExcelCursorProc** qui a été précédemment installé par **HookExcelWindow**. Cette opération aurait été réalisée de sorte que **ExcelCursorProc** ait été appelé avant Microsoft Excel principal **WndProc**.
+Supprime **l’ExcelCursorProc** qui a été précédemment installé par **HookExcelWindow**. Cela aurait été fait pour **qu’ExcelCursorProc** soit appelé avant le **WndProc** principal de Microsoft Excel.
   
 ```cs
 extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
@@ -30,21 +30,21 @@ extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
 
 ## <a name="parameters"></a>Paramètres
 
- _hWndExcel_ (**Handle**)
+ _hWndExcel_ (**HANDLE**)
   
-Le descripteur Windows principal d'Excel.
+Handle Windows principal Excel.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-La fonction ne renvoie pas de valeur.
+La fonction ne retourne pas de valeur.
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction restaure la valeur par défaut **** d'Excel à l'aide de **SetWindowLong ()** pour restaurer l'adresse enregistrée par **HookExcelWindow ()**.
+Cette fonction restaure le **WndProc** Par défaut d’Excel à l’aide de **SetWindowLong()** pour restaurer l’adresse qui a été enregistrée par **HookExcelWindow()**.
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
+Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

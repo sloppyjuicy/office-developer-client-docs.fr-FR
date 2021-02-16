@@ -25,7 +25,7 @@ ms.locfileid: "33407479"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée de modèle pour un objet utilisateur de messagerie par défaut. 
+Contient l’identificateur d’entrée de modèle pour un objet utilisateur de messagerie par défaut. 
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient l'identificateur d'entrée de modèle pour un objet utilisateur de mess
    
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes utilisent cette propriété pour créer un objet utilisateur de messagerie dans un conteneur. La prise en charge de la création d'entrées est facultative pour les conteneurs du carnet d'adresses; les personnes qui ne le prennent pas en charge n'ont pas besoin d'exposer cette propriété. 
+Les applications clientes utilisent cette propriété pour créer un objet utilisateur de messagerie dans un conteneur. La prise en charge de la création d’entrées est facultative pour les conteneurs de carnet d’adresses . ceux qui ne la prisent pas en charge ne sont pas obligés d’exposer cette propriété. 
   
-Cette propriété spécifie une entrée pouvant apparaître dans la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) pour les utilisateurs de messagerie. Après avoir obtenu l'identificateur, le client l'utilise dans un appel à la méthode [IABContainer:: CreateEntry](iabcontainer-createentry.md) . L'entrée représente le modèle pour l'utilisateur de messagerie par défaut. 
+Cette propriété spécifie une entrée qui peut apparaître dans la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) pour les utilisateurs de messagerie. Une fois l’identificateur obtenu, le client l’utilise dans un appel à la méthode [IABContainer::CreateEntry.](iabcontainer-createentry.md) L’entrée représente le modèle de l’utilisateur de messagerie par défaut. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

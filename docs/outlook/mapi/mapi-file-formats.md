@@ -21,17 +21,17 @@ ms.locfileid: "33406478"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI publie les formats des différents fichiers de configuration utilisés par les clients et les fournisseurs de services pour décrire les services de messagerie et leurs fournisseurs de services et formulaires.
+MAPI publie les formats des différents fichiers de configuration que les clients et les fournisseurs de services utilisent pour décrire les services de messagerie et leurs fournisseurs de services et formulaires.
   
-Le tableau suivant décrit ces fichiers par nom ou type:
+Le tableau suivant décrit ces fichiers par nom ou type :
   
 |**Fichier de configuration**|**Description**|
 |:-----|:-----|
-|MapiSvc. inf  <br/> |Contient des informations de configuration pour le sous-système MAPI, les services de messagerie et les fournisseurs de services.  <br/> |
-|Fichiers avec l'extension. cfg  <br/> |Contient les informations de configuration d'un formulaire.  <br/> |
+|MapiSvc.inf  <br/> |Contient des informations de configuration pour le sous-système MAPI, les services de messagerie et les fournisseurs de services.  <br/> |
+|Fichiers avec l’extension .cfg  <br/> |Contient des informations de configuration pour un formulaire.  <br/> |
    
-Pour plus d'informations sur le format de fichier MapiSvc. inf, voir [format de fichier MAPISVC. inf](file-format-of-mapisvc-inf.md). 
+Pour plus d’informations sur le format de fichier de MapiSvc.inf, voir Format de fichier [de MapiSvc.inf](file-format-of-mapisvc-inf.md). 
   
-Pour plus d'informations sur le format de fichier d'un fichier de configuration de formulaire, voir [format de fichier des fichiers de configuration de formulaire](file-format-of-form-configuration-files.md). 
+Pour plus d’informations sur le format de fichier d’un fichier de configuration de formulaire, voir Format de fichier des fichiers [de configuration de formulaire.](file-format-of-form-configuration-files.md) 
   
 

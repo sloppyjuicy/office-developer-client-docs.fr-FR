@@ -22,21 +22,21 @@ Stocke les relations entre les conteneurs, les listes, les légendes et les form
   
 ## <a name="remarks"></a>Remarques
 
- Microsoft Visio utilise la cellule relations pour stocker les relations qui impliquent cette forme. Une série de fonctions DEPENDSON, avec les paramètres affichés, est utilisée pour représenter les relations avec cette forme, comme l’illustre le tableau suivant. 
+ Microsoft Visio utilise la cellule Relationships pour stocker les relations qui impliquent cette forme. Une série de fonctions DEPENDSON, avec les paramètres affichés, est utilisée pour représenter les relations avec cette forme, comme l’illustre le tableau suivant. 
   
 |**Premier paramètre**|**Paramètres supplémentaires**|
 |:-----|:-----|
-|0,1  <br/> |Formes membres de ce conteneur.  <br/> |
-|n°2  <br/> |Formes membres de cette liste.  <br/> |
-|3  <br/> |Légendes associées à cette forme.  <br/> |
-|4  <br/> |Conteneurs dont cette forme est membre.  <br/> |
-|disque  <br/> |Liste dont cet élément de liste est membre.  <br/> |
-|6.x  <br/> |Forme associée à cette légende.  <br/> |
-|7j/7  <br/> |Conteneur sur le bord de la limite gauche sur laquelle réside la forme.  <br/> |
-|8bits  <br/> |Conteneur sur le bord de la limite droite sur laquelle réside la forme.  <br/> |
-|4,9  <br/> |Conteneur sur le bord de la limite haute sur laquelle réside la forme.  <br/> |
-|10   <br/> |Conteneur sur le bord de la limite basse sur laquelle réside la forme.  <br/> |
-|11   <br/> |Liste sur laquelle chevauche cette liste.  <br/> |
+|1   <br/> |Formes membres de ce conteneur.  <br/> |
+|2   <br/> |Formes membres de cette liste.  <br/> |
+|3   <br/> |Légendes associées à cette forme.  <br/> |
+|4   <br/> |Conteneurs dont cette forme est membre.  <br/> |
+|5   <br/> |Liste dont cet élément de liste est membre.  <br/> |
+|6   <br/> |Forme associée à cette légende.  <br/> |
+|7   <br/> |Conteneur sur le bord de la limite gauche sur laquelle réside la forme.  <br/> |
+|8   <br/> |Conteneur sur le bord de la limite droite sur laquelle réside la forme.  <br/> |
+|9   <br/> |Conteneur sur le bord de la limite haute sur laquelle réside la forme.  <br/> |
+|10   <br/> |Conteneur sur le bord de la limite basse sur laquelle réside la forme.  <br/> |
+|11  <br/> |Liste sur laquelle chevauche cette liste.  <br/> |
    
 Pour obtenir une référence à la cellule Relationships par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -48,7 +48,7 @@ Pour obtenir une référence à la cellule Relationships à l’aide d’un inde
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 |Index de la cellule :  <br/> |**visSLORelationships** <br/> |
    

@@ -19,17 +19,17 @@ ms.locfileid: "33407521"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les clients et fournisseurs de services peuvent mettre à jour une valeur de propriété en appelant:
+Les clients et les fournisseurs de services peuvent mettre à jour une valeur de propriété en appelant :
   
-- La méthode [IMAPIProp:: SetProps](imapiprop-setprops.md) d'un objet pour mettre à jour la valeur d'une ou plusieurs des propriétés d'un objet. 
+- Méthode [IMAPIProp::SetProps](imapiprop-setprops.md) d’un objet pour mettre à jour la valeur d’une ou de plusieurs propriétés d’un objet. 
     
-- La fonction [HrSetOneProp](hrsetoneprop.md) pour mettre à jour une seule propriété à la fois. Utilisez **HrSetOneProp** uniquement si l'objet cible est local; Cette fonction peut entraîner une dégradation des performances lorsqu'elle est utilisée avec des objets distants. 
+- Fonction [HrSetOneProp](hrsetoneprop.md) pour mettre à jour une seule propriété à la fois. Utilisez **HrSetOneProp** uniquement si l’objet cible est local ; Cette fonction peut entraîner une dégradation des performances lorsqu’elle est utilisée avec des objets distants. 
     
-La procédure suivante illustre comment utiliser **SetProps** pour mettre à jour la classe de message ou la propriété PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) d'un message. 
+La procédure suivante montre comment utiliser **SetProps** pour mettre à jour la classe de message, ou la propriété PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), d’un message. 
   
-### <a name="to-update-the-message-class-of-a-message"></a>Pour mettre à jour la classe de message d'un message 
+### <a name="to-update-the-message-class-of-a-message"></a>Pour mettre à jour la classe de message d’un message 
   
-1. AlLouez une structure [SPropValue](spropvalue.md) pour la classe de message et définissez ses membres en fonction de vos besoins. 
+1. Allouez une structure [SPropValue](spropvalue.md) pour la classe de message et définissez ses membres selon le cas. 
     
   ```cpp
     SPropValue spvMsgClass;
@@ -38,7 +38,7 @@ La procédure suivante illustre comment utiliser **SetProps** pour mettre à jou
     
   ```
 
-2. Appelez la méthode **IMAPIProp:: SetProps** pour définir la nouvelle classe de message. 
+2. Appelez la méthode **IMAPIProp::SetProps** du message pour définir la nouvelle classe de message. 
     
   ```cpp
     hRes = lpMessage->SetProps(1, (LPSPropValue) &spvMsgClass, NULL);

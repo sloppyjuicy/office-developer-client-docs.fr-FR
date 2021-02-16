@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ab77f25-ad11-4501-8d35-ef560c07e2f2
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 3daf8a04afc9cf47d808b46f2cee010e15a33cf9
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,37 +25,37 @@ ms.locfileid: "32356491"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique quelle copie est la dernière mise à jour d'une tâche.
+Indique quelle copie est la dernière mise à jour d’une tâche.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidTaskVersion  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Task  <br/> |
-|ID long (couvercle):  <br/> |0x00008112  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Task  <br/> |
+|ID long (LID) :  <br/> |0x00008112  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Tâche  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les mises à jour dont les versions sont inférieures à la tâche sont ignorées. 
+Les mises à jour avec des versions inférieures à la tâche sont ignorées. 
   
-Lors de l'incorporation d'une tâche dans une communication de tâches, le client définit également la version actuelle de la tâche incorporée sur la communication de tâche.
+Lors de l’incorporation d’une tâche dans une communication de tâche, le client définit également la version actuelle de la tâche incorporée sur la communication de tâche.
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Définit plusieurs objets qui modélisent l'équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
+> Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

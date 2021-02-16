@@ -29,7 +29,7 @@ Décrit une erreur liée à une opération impliquant une propriété.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SPropProblem
@@ -45,19 +45,19 @@ typedef struct _SPropProblem
 
  **ulIndex**
   
-> Index dans un tableau de balises de propriété.
+> Index dans un tableau de balises de propriétés.
     
  **ulPropTag**
   
-> Balise de propriété de la propriété présentant l'erreur.
+> Balise de propriété de la propriété qui présente l’erreur.
     
- **SCODE**
+ **scode**
   
-> Valeur d'erreur décrivant le problème lié à la propriété. Cette valeur peut être n'importe quelle valeur [SCODE](scode.md) MAPI. 
+> Valeur d’erreur décrivant le problème avec la propriété. Cette valeur peut être n’importe quelle valeur [MAPI SCODE.](scode.md) 
     
 ## <a name="remarks"></a>Remarques
 
-Un tableau de structures **SPropProblem** est renvoyé à partir des méthodes suivantes: 
+Un tableau de structures **SPropProblem** est renvoyé à partir des méthodes suivantes : 
   
 - [IMAPISupport::DoCopyTo](imapisupport-docopyto.md)
     
@@ -73,9 +73,9 @@ Un tableau de structures **SPropProblem** est renvoyé à partir des méthodes s
     
 - [IPropData::HrAddObjProps](ipropdata-hraddobjprops.md)
     
-Une structure **SPropProblem** contient une valeur d'erreur **SCODE** qui résulte d'une opération tentant de modifier ou de supprimer une propriété MAPI. 
+Une structure **SPropProblem** contient une valeur d’erreur **SCODE** qui résulte d’une opération de modification ou de suppression d’une propriété MAPI. 
   
-Pour plus d'informations sur la façon dont la structure **SPropProblem** fonctionne avec les erreurs liées aux propriétés, consultez la rubrique [MAPI named Properties](mapi-named-properties.md). 
+Pour plus d’informations sur le fonctionnement de la structure **SPropProblem** avec les erreurs liées aux propriétés, voir [PROPRIÉTÉS nommées MAPI](mapi-named-properties.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

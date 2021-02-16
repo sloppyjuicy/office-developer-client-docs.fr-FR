@@ -18,7 +18,7 @@ ms.locfileid: "33407696"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Affiche une boîte de dialogue modale pour collecter des informations auprès de l'utilisateur. Ce point d'entrée est appelé lorsqu'un utilisateur clique sur le bouton **options** en regard de la zone **type de cluster** pour le connecteur de cluster sélectionné dans la boîte de dialogue **Options Excel** (dans la catégorie **avancé** , sous la section **formules** ). Les connecteurs de cluster sont chargés d'implémenter leur propre interface de boîte de dialogue Options et de stocker les données associées dans le registre ou ailleurs. Les options sont internes au connecteur de cluster. Excel ne les prend pas en compte. 
+Affiche une boîte de dialogue modale pour collecter des informations auprès de l’utilisateur. Ce point d’entrée est appelé lorsqu’un utilisateur clique sur le bouton **Options** en dessous de  la zone de **type** cluster pour le connecteur de cluster sélectionné dans la boîte de dialogue **Options Excel** (dans la catégorie Avancé sous la section **Formules).** Les connecteurs de cluster sont chargés d’implémenter leur propre interface de boîte de dialogue d’options et de stocker les données associées dans le Registre ou ailleurs. Les options sont internes au connecteur de cluster. Excel ne les connaît pas. 
   
 ```cpp
 int ShowOptions(HWND hWndParent)
@@ -28,15 +28,15 @@ int ShowOptions(HWND hWndParent)
 
 _hWndParent_
   
-> Handle de la fenêtre Excel.
+> Handle vers la fenêtre Excel.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess** si la boîte de dialogue a été affichée; **xlHpcRetCallFailed** si elle n'a pas été affichée. 
+**xlHpcRetSuccess si** la boîte de dialogue était affichée ; **xlHpcRetCallFailed s’il** n’a pas été affiché. 
   
 ## <a name="remarks"></a>Remarques
 
-Les connecteurs de cluster peuvent utiliser cette boîte de dialogue pour obtenir des informations, telles que le serveur de cluster à utiliser, de l'utilisateur.
+Les connecteurs de cluster peuvent utiliser cette boîte de dialogue pour obtenir des informations, telles que le serveur de cluster à utiliser, de l’utilisateur.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,22 +25,22 @@ ms.locfileid: "33409565"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Implémente un objet de récepteur de notifications pour la gestion de la notification. Un pointeur vers un objet de récepteur Advise est transmis dans un appel à la méthode **Advise** d'un fournisseur de services, le mécanisme utilisé pour s'inscrire à la notification. 
+Implémente un objet de réception de notification pour la gestion des notifications. Un pointeur vers un objet de réception de notification est transmis dans un appel à la méthode **Advise** d’un fournisseur de services, le mécanisme utilisé pour s’inscrire pour la notification. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Exposé par:  <br/> |Objets de récepteur de notifications  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Exposé par :  <br/> |Conseiller les objets de sink  <br/> |
 |Implémenté par :  <br/> |Applications clientes et MAPI  <br/> |
 |Appelé par :  <br/> |Fournisseurs de services et MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIAdviseSink  <br/> |
-|Type de pointeur:  <br/> |LPMAPIADVISESINK  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIAdviseSink  <br/> |
+|Type de pointeur :  <br/> |LPMAPIADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Répond à une notification en effectuant une ou plusieurs tâches. Les tâches effectuées dépendent du type d'événement et de l'objet qui génère la notification.  <br/> |
+|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Répond à une notification en faisant une ou plusieurs tâches. Les tâches effectuées dépendent du type d’événement et de l’objet qui génère la notification.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

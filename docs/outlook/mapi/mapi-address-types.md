@@ -1,5 +1,5 @@
 ---
-title: Types d'adresses MAPI
+title: Types d’adresse MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405435"
 ---
-# <a name="mapi-address-types"></a>Types d'adresses MAPI
+# <a name="mapi-address-types"></a>Types d’adresse MAPI
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Chaque utilisateur de messagerie est associé à un type d'adresse, une chaîne de caractères décrivant le format de l'adresse de l'utilisateur qui est stockée dans la propriété **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)). Les types d'adresses correspondent aux formats d'adresse. En regardant le type d'adresse d'un destinataire, les applications clientes peuvent déterminer comment mettre en forme une adresse appropriée pour le destinataire. 
+Chaque utilisateur de messagerie est associé à un type d’adresse, une chaîne de caractères décrivant le format de l’adresse de l’utilisateur qui est stocké dans la propriété **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)). Les types d’adresses sont map to address formats. Autrement dit, en regardant le type d’adresse d’un destinataire, les applications clientes peuvent déterminer comment mettre en forme une adresse appropriée pour le destinataire. 
   
-Par exemple, le `SMTP` type d'adresse spécifie l'adresse Internet standard: 
+Par exemple, le  `SMTP` type d’adresse spécifie l’adresse Internet standard : 
   
  `username@companyname.com.`
   
-Et le `EX` type d'adresse spécifie une adresse de serveur Exchange. 
+De plus, le  `EX` type d’adresse spécifie une Exchange Server de l’adresse. 
   
-Toutes les entrées de carnet d'adresses doivent avoir un type d'adresse valide. Les clients exigent que leurs utilisateurs spécifient un type d'adresse lors de la création d'un type de destinataire personnalisé non pris en charge par le fournisseur de carnet d'adresses. Pour les entrées qu'ils prennent en charge, les fournisseurs de carnet d'adresses doivent fournir des types d'adresses valides. 
+Toutes les entrées de carnet d’adresses doivent avoir un type d’adresse valide. Les clients exigent que leurs utilisateurs spécifient un type d’adresse lors de la création d’un type de destinataire personnalisé non pris en compte par le fournisseur de carnet d’adresses. Pour les entrées qu’ils prendre en charge, les fournisseurs de carnets d’adresses doivent fournir des types d’adresses valides. 
   
-MAPI définit un seul type d'adresse: MAPIPDL, qui correspond à la liste de distribution personnelle.
+MAPI définit un seul type d’adresse : MAPIPDL, qui signifie liste de distribution personnelle.
   
-Pour obtenir la liste des types d'adresses pris en charge par tous les fournisseurs de transport dans la session, les applications clientes appellent la méthode **IMAPISession:: EnumAdrTypes** . Pour plus d'informations, voir [IMAPISession:: EnumAdrTypes](imapisession-enumadrtypes.md).
+Pour obtenir la liste des types d’adresses pris en charge par tous les fournisseurs de transport dans la session, les applications clientes appellent la méthode **IMAPISession::EnumAdrTypes.** Pour plus d’informations, [voir IMAPISession::EnumAdrTypes](imapisession-enumadrtypes.md).
   
 

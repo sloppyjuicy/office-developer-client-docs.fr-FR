@@ -25,13 +25,13 @@ ms.locfileid: "33408662"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-S'il est défini sur un rapport de non-remise, indique l'heure à laquelle le message a été renvoyé.
+S’il est définie sur un rapport nondelivery, indique l’heure à l’heure de la nouvelle fois que le message a été envoyé.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidResendTime  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Report  <br/> |
-|ID long (couvercle):  <br/> |0x00008D00  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Report  <br/> |
+|ID long (LID) :  <br/> |0x00008D00  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Messagerie générale  <br/> |
    
@@ -41,11 +41,11 @@ S'il est défini sur un rapport de non-remise, indique l'heure à laquelle le me
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

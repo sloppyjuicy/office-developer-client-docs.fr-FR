@@ -19,20 +19,20 @@ ms.locfileid: "33408179"
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-- [Fonctions de conversion (application Web personnalisée Access)](conversion-functions-access-custom-web-app.md)
+- [Fonctions de conversion (application web personnalisée Access)](conversion-functions-access-custom-web-app.md)
     
-- [Fonctions de base de données (application Web personnalisée Access)](database-functions-access-custom-web-app.md)
+- [Fonctions de base de données (application web personnalisée Access)](database-functions-access-custom-web-app.md)
     
-- [Fonctions de date/heure (application Web personnalisée Access)](date-time-functionsaccess-custom-web-app.md)
+- [Fonctions de date/heure (application web personnalisée Access)](date-time-functionsaccess-custom-web-app.md)
     
-- [Fonctions d'inspection (application Web personnalisée Access)](inspection-functions-access-custom-web-app.md)
+- [Fonctions d’inspection (application web personnalisée Access)](inspection-functions-access-custom-web-app.md)
     
-- [Fonctions mathématiques (application Web personnalisée Access)](math-functions-access-custom-web-app.md)
+- [Fonctions mathématiques (application web personnalisée Access)](math-functions-access-custom-web-app.md)
     
-- [Fonctions de flux de programme (application Web personnalisée Access)](program-flow-functions-access-custom-web-app.md)
+- [Program flow functions (Access custom web app)](program-flow-functions-access-custom-web-app.md)
     
-- [Fonctions de texte (application Web personnalisée Access)](text-functions-access-custom-web-app.md)
+- [Fonctions de texte (application web personnalisée Access)](text-functions-access-custom-web-app.md)
     
-- [Opérateurs (application Web personnalisée Access)](operators-access-custom-web-app.md)
+- [Operators (Access custom web app)](operators-access-custom-web-app.md)
     
 

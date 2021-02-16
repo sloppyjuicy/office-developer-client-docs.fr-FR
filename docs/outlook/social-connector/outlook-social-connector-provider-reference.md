@@ -50,6 +50,6 @@ Si vous débutez en tant que développeur de solutions pour Outlook, consultez [
 - [Mention de droits d'auteur sur la référence du fournisseur Outlook Social Connector 2013](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
 - [Conventions de document](https://msdn.microsoft.com/office/aa905365.aspx)   
 - [Accessibilité dans les produits Microsoft (éventuellement en anglais)](https://www.microsoft.com/enable/products/default.aspx)  
-- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/en-us/privacystatement)
+- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/fr-FR/privacystatement)
     
 

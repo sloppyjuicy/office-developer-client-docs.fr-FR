@@ -37,25 +37,25 @@ BOOKMARK bkPosition
 
  _bkPosition_
   
-> dans Signet à libérer, créé en appelant la méthode [IMAPITable:: CreateBookmark](imapitable-createbookmark.md) . 
+> [in] Signet à libérer, créé en appelant la [méthode IMAPITable::CreateBookmark.](imapitable-createbookmark.md) 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le signet a été libéré avec succès.
+> Le signet a été libéré.
     
 MAPI_E_INVALID_BOOKMARK 
   
-> Le signet spécifié n'existe pas.
+> Le signet spécifié n’existe pas.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable:: FreeBookmark** libère un signet qui n'est plus nécessaire. Le signet n'est plus valide après cet appel. Chaque fois qu'un tableau est libéré de la mémoire, tous ses signets associés sont également publiés. 
+La **méthode IMAPITable::FreeBookmark** libère un signet qui n’est plus nécessaire. Le signet n’est plus valide après cet appel. Chaque fois qu’un tableau est libéré de la mémoire, tous ses signets associés sont également libérés. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si l'appelant transmet l'un des trois signets prédéfinis dans le paramètre _bkPosition_ , ignorez la demande et renvoyez S_OK. 
+Si l’appelant passe l’un des trois signets prédéfincis dans le paramètre  _bkPosition,_ ignorez la demande et renvoyez S_OK. 
   
 ## <a name="see-also"></a>Voir aussi
 

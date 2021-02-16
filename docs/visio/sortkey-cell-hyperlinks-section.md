@@ -28,14 +28,14 @@ Pour obtenir une référence à la cellule SortKey par un nom dans une autre for
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Lien hypertexte. *nom* . SortKey où hyperLink *. nom* est le nom de la ligne  <br/> |
+|Nom de cellule :  <br/> |Lien hypertexte. *nom*  . SortKey où Hyperlink  *.name*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule SortKey par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionHyperlink** <br/> |
-|Index de la ligne :  <br/> |**visRow1stHyperlink** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRow1stHyperlink**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visHLinkSortKey** <br/> |
    
 

@@ -21,20 +21,20 @@ Représente une personne sur le réseau social.
   
 ## <a name="members"></a>Members
 
-Le tableau suivant indique les membres qui sont disponibles sur l'interface **ISocialPerson** . 
+Le tableau suivant indique les membres qui sont disponibles sur l’interface **ISocialPerson.** 
   
-|**Nom**|**Type de membre**|**Description**|
+|**Name**|**Type de membre**|**Description**|
 |:-----|:-----|:-----|
-|[GetActivities](isocialperson-getactivities.md) <br/> |Méthode  <br/> |Cette méthode a été déconseillée depuis Outlook Social Connector 2013.  <br/> |
-|[GetDetails](isocialperson-getdetails.md) <br/> |Méthode  <br/> |Obtient une valeur de type String qui représente les détails de la personne, tels que le prénom, le nom et l'URL d'une image de profil.  <br/> |
-|[GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) <br/> |Méthode  <br/> |Obtient une valeur de type String qui représente une collection de personnes.  <br/> |
-|[GetFriendsAndColleaguesIDs](isocialperson-getfriendsandcolleaguesids.md) <br/> |Méthode  <br/> |Cette méthode n'est pas prise en charge actuellement.  <br/> |
-|[GetPicture](isocialperson-getpicture.md) <br/> |Méthode  <br/> |Obtient un tableau d'octets qui contient la ressource image de la personne.  <br/> |
-|[GetStatus](isocialperson-getstatus.md) <br/> |Méthode  <br/> |Cette méthode n'est pas prise en charge actuellement.  <br/> |
+|[GetActivities](isocialperson-getactivities.md) <br/> |Méthode  <br/> |Cette méthode est dépréciée depuis Outlook Social Connector 2013.  <br/> |
+|[GetDetails](isocialperson-getdetails.md) <br/> |Méthode  <br/> |Obtient une chaîne qui représente les détails de la personne, tels que le prénom, le nom et l’URL d’une image de profil.  <br/> |
+|[GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) <br/> |Méthode  <br/> |Obtient une chaîne qui représente une collection de personnes.  <br/> |
+|[GetFriendsAndColleaguesIDs](isocialperson-getfriendsandcolleaguesids.md) <br/> |Méthode  <br/> |Cette méthode n’est actuellement pas prise en charge.  <br/> |
+|[GetPicture](isocialperson-getpicture.md) <br/> |Méthode  <br/> |Obtient un tableau d’octets qui contient la ressource d’image de la personne.  <br/> |
+|[GetStatus](isocialperson-getstatus.md) <br/> |Méthode  <br/> |Cette méthode n’est actuellement pas prise en charge.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Un fournisseur Outlook Social Connector (OSC) doit implémenter cette interface pour communiquer avec OSC.
+Un fournisseur Outlook Social Connector (OSC) doit implémenter cette interface pour communiquer avec l’OSC.
   
 ## <a name="see-also"></a>Voir aussi
 

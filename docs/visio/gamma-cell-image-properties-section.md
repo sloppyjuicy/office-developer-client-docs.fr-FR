@@ -32,7 +32,7 @@ Pour obtenir une référence à la cellule Gamma à l'aide d'un index à partir 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowImage** <br/> |
 | Index de la cellule :  <br/> |**visImageGamma** <br/> |
    

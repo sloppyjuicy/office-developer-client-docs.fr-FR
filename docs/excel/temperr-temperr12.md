@@ -8,7 +8,7 @@ f1_keywords:
 - TempErr
 - TempErr12
 keywords:
-- fonction tempérée [Excel 2007], fonction TempErr12 [Excel 2007]
+- function [excel 2007],TempErr12 function [Excel 2007]
 localization_priority: Normal
 ms.assetid: cf8c26b2-ca2b-4dda-a02d-0ccbeac19106
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33410608"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d'infrastructure qui crée une liste **XLOPER**/ **** temporaire contenant une erreur de feuille de calcul Microsoft Excel. 
+Fonction de bibliothèque Framework qui crée une **xlOPER** /  **XLOPER12** temporaire contenant une erreur de feuille de calcul Microsoft Excel. 
   
 ```cs
 LPXLOPER TempErr(WORD err);
@@ -34,13 +34,13 @@ LPXLOPER12 TempErr12(BOOL err);
 
  _err_
   
-Le code d'erreur souhaité ou son équivalent numérique littéral, comme indiqué dans le tableau suivant.
+Code d’erreur souhaité, ou son équivalent numérique littéral, comme indiqué dans le tableau suivant.
   
-|**Error**|**Code d'erreur défini dans XLCALL. H**|**Équivalent décimal**|
+|**Error**|**Code d’erreur défini dans XLCALL. H**|**Équivalent décimal**|
 |:-----|:-----|:-----|
 |#NULL  <br/> |**xlerrNull** <br/> |0  <br/> |
-|#DIV/0!  <br/> |**xlerrDiv0** <br/> |7j/7  <br/> |
-|#VALUE!  <br/> |**xlerrValue** <br/> |15   <br/> |
+|#DIV/0!  <br/> |**xlerrDiv0** <br/> |7   <br/> |
+|#VALUE!  <br/> |**xlerrValue** <br/> |15   <br/> |
 |#REF!  <br/> |**xlerrRef** <br/> |23  <br/> |
 |#NAME ?  <br/> |**xlerrName** <br/> |29  <br/> |
 |#NUM!  <br/> |**xlerrNum** <br/> |36  <br/> |
@@ -48,14 +48,14 @@ Le code d'erreur souhaité ou son équivalent numérique littéral, comme indiqu
    
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie un **xltypeBool** contenant le code d'erreur transmis. 
+Renvoie un **xltypeBool** contenant le code d’erreur passé. 
   
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la fonction **TempErr12** pour renvoyer une #VALUE! erreur à Excel. 
+Cet exemple utilise la **fonction TempErr12** pour renvoyer une #VALUE! à Excel. 
   
 > [!NOTE]
-> La fonction de bibliothèque d'infrastructure **TempErr12** alloue de la mémoire à partir d'une mémoire tampon interne, normalement libérée lors de l'appel de la fonction d'infrastructure **Excel12f** . Si cet exemple de fonction est appelé à plusieurs reprises sans appel de **Excel12f** , une fuite de mémoire se produit. 
+> La fonction de bibliothèque **Framework TempErr12** alloue de la mémoire à partir d’une mémoire tampon interne, qui est normalement libérée lorsque la fonction **Framework Excel12f** est appelée. Si cet exemple de fonction est appelé à plusieurs reprises sans **qu’Excel12f** soit appelé, une fuite de mémoire se produit. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

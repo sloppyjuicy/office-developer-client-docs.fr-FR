@@ -27,20 +27,20 @@ Indique si les formes appartenant au calque sont visibles sur la page de dessin.
    
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l' **option visible** dans la boîte de dialogue **Propriétés** des calques (sous l'onglet **Accueil** , dans le groupe **modification** , cliquez sur calques, puis sur **Propriétés des calques** ). **** 
+Cette cellule correspond à l’option **Visible** dans la  boîte de  dialogue Propriétés des calques (sous l’onglet Accueil, dans le groupe Édition, cliquez sur Calques, puis sur Propriétés des **calques).**   
   
 Pour obtenir une référence à la cellule Visible par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers. visible [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Layers.Visible[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Visible par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowLayer**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visLayerVisible** <br/> |
    
 

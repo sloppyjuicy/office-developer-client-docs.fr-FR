@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
-description: 'Dernière modification le: 02 juillet 2012'
+description: 'Last modified: July 02, 2012'
 ms.openlocfilehash: 96f472d67f144a451046ff61a3ed6c6ff2ff9acf
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,19 +17,19 @@ ms.locfileid: "33408985"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avant de pouvoir ouvrir une session MAPI sur un fournisseur de magasins PST encapsulé, vous devez initialiser et configurer le fournisseur de magasins de fichiers de dossiers personnels (PST). Pour plus d'informations, consultez [la rubrique initialisation d'un fournisseur de magasins de fichiers PST encapsulés](initializing-a-wrapped-pst-store-provider.md).
+Avant de pouvoir vous connecter à MAPI auprès d’un fournisseur de magasins PST wrapped, vous devez initialiser et configurer le fournisseur de magasin de dossiers personnels wrapped (PST). Pour plus d’informations, [voir Initializing a Wrapped PST Store Provider](initializing-a-wrapped-pst-store-provider.md).
   
-Une fois que vous avez initialisé et configuré un fournisseur de magasins PST encapsulé, vous devez implémenter deux routines d'ouverture de session. La fonction **[IMSProvider:: Logon](imsprovider-logon.md)** ouvre une session MAPI sur le fournisseur de magasins PST encapsulé. La fonction **[IMSProvider:: SpoolerLogon](imsprovider-spoolerlogon.md)** enregistre le spouleur MAPI sur le fournisseur de banque de fichiers PST encapsulé. 
+Après avoir initialisé et configuré un fournisseur de magasin PST wrapped, vous devez implémenter deux routines d’ouverture de contrat. La **[fonction IMSProvider::Logon](imsprovider-logon.md)** se connecte sur MAPI au fournisseur de magasin PST wrapped. La **[fonction IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** enregistre lepooler MAPI sur le fournisseur de magasin PST wrapped. 
   
-Dans cette rubrique, la fonction **IMSProvider:: Logon** et la fonction **IMSProvider:: SpoolerLogon** sont démontrées à l'aide d'exemples de code issus de l'exemple de fournisseur de magasins PST encapsulé. L'exemple implémente un fournisseur PST encapsulé destiné à être utilisé conjointement avec l'API de réPlication. Pour plus d'informations sur le téléchargement et l'installation de l'exemple de fournisseur de magasins PST encapsulé, consultez [la rubrique installation de l'exemple de fournisseur de magasins PST encapsulé](installing-the-sample-wrapped-pst-store-provider.md). Pour plus d'informations sur l'API de réPlication, voir [à propos de l'API](about-the-replication-api.md)de réplication.
+Dans cette rubrique, les fonctions **IMSProvider::Logon** et **IMSProvider::SpoolerLogon** sont démontrées à l’aide d’exemples de code du fournisseur de magasin PST Wrapped sample. L’exemple implémente un fournisseur PST wrapped qui est destiné à être utilisé conjointement avec l’API de réplication. Pour plus d’informations sur le téléchargement et l’installation de l’exemple de fournisseur de magasin PST [Wrapped, voir Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md). Pour plus d’informations sur l’API de réplication, voir [à propos de l’API de réplication.](about-the-replication-api.md)
   
-Une fois que MAPI et le spouleur MAPI sont connectés au fournisseur de magasins PST encapsulé, il est prêt à être utilisé. Pour plus d'informations, consultez [la rubrique utilisation d'un fournisseur de magasins PST encapsulé](using-a-wrapped-pst-store-provider.md).
+Une fois que MAPI et lepooler MAPI sont connectés au fournisseur de magasin PST wrapped, il est prêt à être utilisé. Pour plus d’informations, voir [Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md).
   
-## <a name="mapi-logon-routine"></a>Routine de connexion MAPI
+## <a name="mapi-logon-routine"></a>Routine d’logo MAPI
 
-Une fois le fournisseur de banque de fichiers PST encapsulé initialisé, vous devez implémenter la fonction **[IMSProvider:: Logon](imsprovider-logon.md)** pour vous connecter à la Banque de fichiers PST encapsulée via MAPI. Cette fonction valide les informations d'identification de l'utilisateur et obtient les propriétés de configuration pour le fournisseur. Vous devez également implémenter `SetOLFIInOST` la fonction pour définir les informations de fichier hors connexion (**[OLFI](olfi.md)** ). **OLFI** est une file d'attente de structures d'ID à long terme utilisée par le fournisseur de magasins PST encapsulé pour affecter un ID d'entrée pour un nouveau message ou dossier en mode hors connexion. Enfin, la fonction **IMSProvider:: Logon** renvoie un objet de banque de messages auquel le spouleur MAPI et les applications clientes peuvent `ppMDB` se connecter dans le paramètre. 
+Une fois le fournisseur de magasin PST wrapped initialisé, vous devez implémenter la fonction **[IMSProvider::Logon](imsprovider-logon.md)** pour vous connecter à MAPI dans le magasin PST wrapped. Cette fonction valide les informations d’identification de l’utilisateur et obtient les propriétés de configuration du fournisseur. Vous devez également implémenter la fonction pour définir les informations de fichier hors  `SetOLFIInOST` connexion (**[OLFI](olfi.md)** ). **OLFI** est une file d’attente de structures d’ID à long terme qui est utilisée par le fournisseur de magasin PST wrapped pour affecter un ID d’entrée pour un nouveau message ou dossier en mode hors connexion. Enfin, la **fonction IMSProvider::Logon** renvoie un objet de magasin de messages sur qui lepooler MAPI et les applications clientes peuvent se connecter dans le  `ppMDB` paramètre. 
   
-### <a name="cmsproviderlogon-example"></a>CMSProvider:: Logon () exemple
+### <a name="cmsproviderlogon-example"></a>Exemple CMSProvider::Logon()
 
 ```cpp
 STDMETHODIMP CMSProvider::Logon( 
@@ -101,11 +101,11 @@ STDMETHODIMP CMSProvider::Logon(
 }
 ```
 
-## <a name="mapi-spooler-logon-routine"></a>Routine de connexion du spouleur MAPI
+## <a name="mapi-spooler-logon-routine"></a>Routine d’logo mapi Spooler
 
-De la même manière que pour **IMSProvider:: Logon**, vous devez implémenter la fonction **[IMSProvider:: SpoolerLogon](imsprovider-spoolerlogon.md)** pour enregistrer le spouleur MAPI sur la Banque de fichiers PST encapsulée. Un objet de banque de messages auquel le spouleur MAPI et les applications clientes peuvent se connecter `ppMDB` est renvoyé dans le paramètre. 
+Similaire à **IMSProvider::Logon**, vous devez implémenter la fonction **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** pour connecter lepooler MAPI au magasin PST wrapped. Un objet de magasin de messages à qui lepooler MAPI et les applications clientes peuvent se connecter est renvoyé dans le  `ppMDB` paramètre. 
   
-### <a name="cmsproviderspoolerlogon-example"></a>CMSProvider:: SpoolerLogon () exemple
+### <a name="cmsproviderspoolerlogon-example"></a>Exemple CMSProvider::SpoolerLogon()
 
 ```cpp
 STDMETHODIMP CMSProvider::SpoolerLogon ( 
@@ -159,9 +159,9 @@ STDMETHODIMP CMSProvider::SpoolerLogon (
 
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de l'exemple de fournisseur de banque d'informations PST encapsulé](about-the-sample-wrapped-pst-store-provider.md) 
-- [Installation de l'exemple de fournisseur de magasins PST encapsulé](installing-the-sample-wrapped-pst-store-provider.md) 
-- [Initialisation d'un fournisseur de magasins PST encapsulé](initializing-a-wrapped-pst-store-provider.md)
-- [Utilisation d'un fournisseur de magasins PST encapsulé](using-a-wrapped-pst-store-provider.md)
-- [Arrêt d'un fournisseur de magasins PST encapsulé](shutting-down-a-wrapped-pst-store-provider.md)
+- [À propos de l’exemple de fournisseur de magasin PST wrapped](about-the-sample-wrapped-pst-store-provider.md) 
+- [Installation de l’exemple de fournisseur de magasin PST Wrapped](installing-the-sample-wrapped-pst-store-provider.md) 
+- [Initialisation d’un fournisseur de magasin PST wrapped](initializing-a-wrapped-pst-store-provider.md)
+- [Utilisation d’un fournisseur de magasin PST wrapped](using-a-wrapped-pst-store-provider.md)
+- [Arrêt d’un fournisseur de magasin PST wrapped](shutting-down-a-wrapped-pst-store-provider.md)
 

@@ -25,26 +25,26 @@ ms.locfileid: "33406870"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Apporte des modifications à un service de messagerie dans un profil.
+Modifie un service de message dans un profil.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiaux. h  <br/> |
-|Exposé par:  <br/> |Objets d'administration du service de messagerie  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiaux.h  <br/> |
+|Exposé par :  <br/> |Objets d’administration de service de message  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMsgServiceAdmin2  <br/> |
-|Type de pointeur:  <br/> |LPSERVICEADMIN2  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMsgServiceAdmin2  <br/> |
+|Type de pointeur :  <br/> |LPSERVICEADMIN2  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Ajoute un service de messagerie au profil actif et renvoie cet UID de service nouvellement ajouté.  <br/> |
+|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Ajoute un service de message au profil actuel et renvoie l’UID du service nouvellement ajouté.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L'interface **IMsgServiceAdmin2** est exposée par les mêmes objets qui exposent l'interface [IMsgServiceAdmin](imsgserviceadminiunknown.md) et elle est disponible à l'aide de l'implémentation Outlook du sous-système MAPI depuis Microsoft Outlook 2003. 
+L’interface **IMsgServiceAdmin2** est exposée par les mêmes objets qui exposent l’interface [IMsgServiceAdmin](imsgserviceadminiunknown.md) et est disponible à l’aide de l’implémentation d’Outlook du sous-système MAPI depuis Microsoft Outlook 2003. 
   
 ## <a name="see-also"></a>Voir aussi
 

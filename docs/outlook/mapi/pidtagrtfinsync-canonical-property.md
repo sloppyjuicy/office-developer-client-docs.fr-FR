@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 443cc68e-7898-4285-a606-f916fcd18554
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ed038faf44f350b041191373cf573e7e185337c7
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32357875"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) a le même contenu de texte que la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) pour ce message.
+Contient TRUE si la **propriété PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) a le même contenu de texte que la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) pour ce message.
   
 |||
 |:-----|:-----|
@@ -36,37 +36,37 @@ Contient la valeur TRUE si la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompr
    
 ## <a name="remarks"></a>Remarques
 
-La valeur TRUE indique que la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la version texte brut de ce message et la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la version au format RTF (Rich Text Format), sont identiques, à l'exception de espace blanc dans **PR_BODY** et mise en forme dans **PR_RTF_COMPRESSED**. Le texte dans les deux versions se compose des mêmes caractères dans la même séquence.
+La valeur TRUE signifie que la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la version en texte simple de ce message et la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), la version RTF (Rich Text Format), sont identiques, sauf pour les espaces blancs dans **PR_BODY** et la mise en forme dans **PR_RTF_COMPRESSED**. Le texte des deux versions se compose des mêmes caractères dans la même séquence.
   
-La valeur FALSe signifie que les deux versions ne sont pas synchronisées pour le contenu de texte, mais qu'elles peuvent être synchronisées par la fonction [RTFSync](rtfsync.md) . Une version a été modifiée et l'autre n'a pas été modifiée. 
+La valeur FALSE signifie que les deux versions ne sont pas synchronisées pour le contenu de texte, mais sont capables d’être synchronisées par la [fonction RTFSync.](rtfsync.md) Une version a été modifiée et l’autre version n’a pas été modifiée. 
   
-Aucune valeur signifie que les deux versions, si elles existent ou si elles existaient, ne peuvent pas être synchronisées. Une version a été supprimée ou modifiée si bien que la synchronisation n'est plus possible.
+Aucune valeur ne signifie que les deux versions, si elles existent ou existent déjà, ne peuvent pas être synchronisées. Une version a été supprimée ou modifiée de façon si radicale que la synchronisation n’est plus possible.
   
-Une application cliente qui a modifié **PR_RTF_COMPRESSED** doit définir la valeur false dans cette propriété pour forcer la synchronisation. Les banques de messages prenant en charge le format RTF doivent effectuer la synchronisation à l'aide de **RTFSync** pendant un appel [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Les clients compatibles avec le format RTF doivent vérifier la valeur de **PR_RTF_IN_SYNC** avant de lire **PR_RTF_COMPRESSED**et appeler **RTFSync** d'abord si nécessaire. 
+Une application cliente qui a modifié **PR_RTF_COMPRESSED** doit définir la valeur FALSE dans cette propriété pour forcer la synchronisation. Les magasins de messages rtF doivent effectuer la synchronisation à l’aide de **RTFSync** pendant un appel [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Les clients rtF doivent vérifier  le paramètre de PR_RTF_IN_SYNC avant de lire **PR_RTF_COMPRESSED** et appeler **d’abord RTFSync** si nécessaire. 
   
-Si **PR_BODY** a eu des modifications apportées à d'autres éléments que son espace blanc, la Banque de messages doit supprimer **PR_RTF_IN_SYNC** pour mettre fin à la synchronisation. 
+Si **PR_BODY** des modifications ont été apportées à autre chose que son espace blanc, la boutique de messages doit supprimer PR_RTF_IN_SYNC **pour** mettre fin à la synchronisation. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et Attachment.
+> Gère les objets de message et de pièce jointe.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

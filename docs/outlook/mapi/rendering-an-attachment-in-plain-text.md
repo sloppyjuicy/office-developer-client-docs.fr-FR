@@ -1,5 +1,5 @@
 ---
-title: Rendu d'une pièce jointe en texte brut
+title: Rendu d’une pièce jointe en texte simple
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,28 +15,28 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410874"
 ---
-# <a name="rendering-an-attachment-in-plain-text"></a>Rendu d'une pièce jointe en texte brut
+# <a name="rendering-an-attachment-in-plain-text"></a>Rendu d’une pièce jointe en texte simple
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour afficher une pièce jointe dans un message en texte brut, récupérez la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) de la pièce jointe et appliquez-la aux données de **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) inspecteur. Il existe deux façons de récupérer **PR_RENDERING_POSITION**:
+Pour restituer une pièce jointe dans un message en texte simple, récupérez la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) de la pièce jointe et appliquez-la aux données de la propriété **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)). Il existe deux façons de récupérer **PR_RENDERING_POSITION**:
   
-- Ouvrez la pièce jointe en appelant la méthode **IMessage:: OpenAttach** du message, puis demandez la propriété **PR_RENDERING_POSITION** en appelant la méthode **IMAPIProp:: GetProps** de la pièce jointe. Pour plus d'informations, consultez [IMessage:: OpenAttach](imessage-openattach.md) et [IMAPIProp:: GetProps](imapiprop-getprops.md).
+- Ouvrez la pièce jointe en appelant la méthode **IMessage::OpenAttach** du message, puis demandez la propriété **PR_RENDERING_POSITION** en appelant la méthode **IMAPIProp::GetProps** de la pièce jointe. Pour plus d’informations, [voir IMessage::OpenAttach](imessage-openattach.md) et [IMAPIProp::GetProps](imapiprop-getprops.md).
     
-- Appelez la méthode **IMessage:: GetAttachmentTable** du message pour accéder à sa table de pièces jointes et récupérer la colonne qui contient la propriété **PR_RENDERING_POSITION** . Cette méthode est toujours préférable. For more information, see [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
+- Appelez la méthode **IMessage::GetAttachmentTable** du message pour accéder à sa table de pièces jointes et récupérer la colonne qui contient la propriété **PR_RENDERING_POSITION.** De cette façon, il est toujours préférable. For more information, see [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
     
-N'oubliez pas que de nombreuses banques de messages prenant en charge le format RTF ne calculent pas **PR_RENDERING_POSITION** tant que le client ne demande pas la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) d'un message. Jusqu'à ce moment, **PR_RENDERING_POSITION** représente généralement une valeur approximative. Les fournisseurs de banques de messages sont autorisés à fournir aux clients une valeur approximative pour améliorer les performances. 
+N’oubliez pas que de nombreuses magasins  de messages rtF ne calculent pas PR_RENDERING_POSITION tant qu’un client n’a pas demandé la **propriété PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) d’un message. Jusqu’à ce **moment, PR_RENDERING_POSITION** représente généralement une valeur approximative. Les fournisseurs de magasins de messages sont autorisés à fournir aux clients une valeur approximative pour améliorer les performances. 
   
-Le rendu d'un fichier ou d'une pièce jointe binaire est stocké dans sa propriété **PR_ATTACH_RENDERING** . Vous pouvez extraire **PR_ATTACH_RENDERING** de la même façon que vous avez récupéré **PR_RENDERING_POSITION**: directement à partir de la pièce jointe ou de la table des pièces jointes. Pour **PR_ATTACH_RENDERING**, la première stratégie, bien qu'elle prend plus de temps, est plus sûre. Étant donné que certains fournisseurs de banques de messages tronquent leurs colonnes de table à 255 octets, ou dans quelques cas 510 octets, il est difficile de s'assurer que la colonne **PR_ATTACH_RENDERING** contient le rendu complet. Lors de la récupération de la propriété directement à partir de la pièce jointe, elle sera toujours terminée. 
+Le rendu d’un fichier ou d’une pièce jointe binaire est stocké dans **sa PR_ATTACH_RENDERING** de données. Vous avez la possibilité d’extraire PR_ATTACH_RENDERING de la même manière que vous avez récupéré **PR_RENDERING_POSITION**: directement à partir de la pièce jointe ou de la table des pièces jointes.  Par **PR_ATTACH_RENDERING,** la première stratégie, bien que plus longue, est plus sûre. Étant donné que certains fournisseurs de magasins de messages tronquées leurs colonnes de tableau à 255 octets, ou dans certains cas 510 octets, il est difficile de s’assurer que la colonne **PR_ATTACH_RENDERING** contient le rendu complet. Lorsque vous récupérez la propriété directement à partir de la pièce jointe, elle est toujours complète. 
   
-Ni OLE ni les pièces jointes de message ne définissent **PR_ATTACH_RENDERING**. Au lieu de cela, les informations de rendu pour les pièces jointes OLE 1 sont stockées dans le flux de texte du message. Pour les pièces jointes OLE 2, elle est stockée dans un flux enfant spécial de l'objet de stockage. Le rendu des informations pour les pièces jointes des messages est disponible via le gestionnaire de formulaires. 
+Ni les pièces jointes OLE ni les pièces jointes **de message PR_ATTACH_RENDERING**. Au lieu de cela, les informations de rendu des pièces jointes OLE 1 sont stockées dans le flux de texte du message. Pour les pièces jointes OLE 2, elle est stockée dans un flux enfant spécial de l’objet de stockage. Les informations de rendu des pièces jointes des messages sont disponibles via le gestionnaire de formulaires. 
   
- **Pour récupérer le rendu d'une pièce jointe de message**
+ **Pour récupérer le rendu d’une pièce jointe de message**
   
 1. Utilisez la classe de message du message pour accéder au gestionnaire de formulaires.
     
-2. Accéder à la propriété **PR_MINI_ICON** du gestionnaire de formulaire. Pour plus d'informations, voir **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)).
+2. Accédez à la propriété PR_MINI_ICON du gestionnaire **de** formulaires. Pour plus d’informations, **voir PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)).
     
 

@@ -25,7 +25,7 @@ ms.locfileid: "33409523"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si la divulgation des destinataires est autorisée.
+Contient TRUE si la divulgation des destinataires est autorisée.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contient la valeur TRUE si la divulgation des destinataires est autorisée.
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

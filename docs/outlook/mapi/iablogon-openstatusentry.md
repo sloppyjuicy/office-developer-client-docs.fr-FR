@@ -25,7 +25,7 @@ ms.locfileid: "33410783"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre l'objet d'État du fournisseur.
+Ouvre l’objet d’état du fournisseur.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -40,33 +40,33 @@ HRESULT OpenStatusEntry(
 
  _lpInterface_
   
-> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface qui doit être utilisée pour accéder à l'objet d'État. La transmission de la valeur NULL renvoie l'interface standard de l'objet, [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md).
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface qui doit être utilisée pour accéder à l’objet d’état. La transmission null renvoie l’interface standard de l’objet, [IMAPIStatus : IMAPIProp](imapistatusimapiprop.md).
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le mode d'ouverture de l'objet d'État. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet d’état est ouvert. L’indicateur suivant peut être définie :
     
 MAPI_MODIFY 
   
-> Demande une autorisation en lecture/écriture. Par défaut, les objets sont ouverts avec un accès en lecture seule, et les appelants ne doivent pas supposer que l'autorisation de lecture/écriture a été octroyée.
+> Demande une autorisation de lecture/écriture. Par défaut, les objets sont ouverts avec un accès en lecture seule et les appelants ne doivent pas supposer que l’autorisation lecture/écriture a été accordée.
     
  _lpulObjType_
   
-> remarquer Pointeur vers le type de l'objet ouvert.
+> [out] Pointeur vers le type de l’objet ouvert.
     
  _lppEntry_
   
-> remarquer Pointeur vers un pointeur vers l'objet ouvert.
+> [out] Pointeur vers un pointeur vers l’objet ouvert.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et l'objet d'État a été ouvert.
+> L’appel a réussi et l’objet d’état a été ouvert.
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de carnets d'adresses implémentent la méthode **OpenStatusEntry** pour accorder l'accès à leur objet d'État. Tous les fournisseurs de carnets d'adresses sont requis pour implémenter un objet Status qui prend en charge, au minimum, la méthode [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) . Pour plus d'informations, voir état de l' [objet](status-object-implementation.md).
+Les fournisseurs de carnet d’adresses **implémentent la méthode OpenStatusEntry** pour accorder l’accès à leur objet d’état. Tous les fournisseurs de carnet d’adresses sont requis pour implémenter un objet d’état qui prend en charge, au minimum, la méthode [IMAPIStatus::ValidateState.](imapistatus-validatestate.md) Pour plus d’informations, voir [Status Object Implementation](status-object-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

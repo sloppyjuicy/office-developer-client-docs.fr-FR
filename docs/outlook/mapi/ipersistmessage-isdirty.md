@@ -25,7 +25,7 @@ ms.locfileid: "33407570"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Vérifie si le formulaire a été modifié depuis le dernier enregistrement.
+Recherche dans le formulaire les modifications apportées depuis le dernier sauvegarde.
   
 ```cpp
 HRESULT IsDirty( void );
@@ -39,15 +39,15 @@ Aucun
 
 S_OK 
   
-> Le formulaire comporte des modifications qui ont été effectuées depuis son dernier enregistrement.
+> Le formulaire a des modifications qui ont été apportées depuis son dernier enregistré.
     
 S_FALSE 
   
-> Le formulaire ne comporte pas de modifications effectuées depuis son dernier enregistrement.
+> Le formulaire ne comprend pas de modifications qui ont été apportées depuis son dernier enregistré.
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IPersistMessage:: IsDirty** pour déterminer si le message contient des données non enregistrées. 
+Les visionneuses de formulaires appellent la méthode **IPersistMessage::IsDirty** pour déterminer si le message possède des données nonavées. 
   
 ## <a name="see-also"></a>Voir aussi
 

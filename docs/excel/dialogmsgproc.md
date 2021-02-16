@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - DIALOGMsgProc
 keywords:
-- fonction dialogmsgproc [Excel 2007]
+- fonction dialogmsgproc [excel 2007]
 localization_priority: Normal
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33406513"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Cette procédure est associée à la boîte de dialogue Windows Native affichée par [fShowDialog](fshowdialog.md) . Il fournit les routines de service appelées par Windows pour les événements (messages) qui se produisent lorsque l'utilisateur utilise l'un des boutons, champs d'entrée ou contrôles de la boîte de dialogue. 
+Cette procédure est associée à la boîte de dialogue Windows native affichée [par fShowDialog.](fshowdialog.md) Il fournit les routines de service appelées par Windows pour les événements (messages) qui se produisent lorsque l’utilisateur exploite l’un des boutons, champs d’entrée ou contrôles de la boîte de dialogue. 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
@@ -34,23 +34,23 @@ BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lP
   
 Contient le handle Windows HWND de la boîte de dialogue.
   
- _message_ (**Uint**)
+ _message_ (**UINT**)
   
-Message auquel répondre.
+Message à répondre.
   
- _wParam_ (**WParam**)
+ _wParam_ (**WPARAM**)
   
- _lParam_ (**LParam**)
+ _lParam_ (**LPARAM**)
   
-Arguments passés par Windows.
+Arguments transmis par Windows.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
- **True** si le message a **** été traité, false dans le cas contraire. 
+ **TRUE** si le message est traitée, **FALSE** si ce n’est pas le cas. 
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
+Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,12 +25,12 @@ ms.locfileid: "33406856"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau d'une ou de plusieurs structures [SPropProblem](spropproblem.md) . 
+Contient un tableau d’une ou plusieurs structures [SPropProblem.](spropproblem.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Macros connexes:  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Macros associées :  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
    
 ```cpp
 typedef struct _SPropProblemArray
@@ -45,15 +45,15 @@ typedef struct _SPropProblemArray
 
  **cProblem**
   
-> Nombre de structures [SPropProblem](spropproblem.md) dans le tableau indiqué par le membre **aProblem** . 
+> Nombre de structures [SPropProblem](spropproblem.md) dans le tableau indiqué par le **membre aProblem.** 
     
  **aProblem**
   
-> Tableau de structures **SPropProblem** , qui décrivent chacune une erreur de propriété. 
+> Tableau de structures **SPropProblem,** chacune décrivant une erreur de propriété. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur la façon dont les structures **SPropProblem** et **SPropProblemArray** fonctionnent avec les erreurs liées aux propriétés, voir [MAPI named Properties](mapi-named-properties.md). 
+Pour plus d’informations sur le fonctionnement des structures **SPropProblem** et **SPropProblemArray** avec les erreurs liées aux propriétés, voir PROPRIÉTÉS nommées [MAPI.](mapi-named-properties.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -20,7 +20,7 @@ ms.locfileid: "33406352"
   
 ## <a name="insert-section-title-text"></a>{insert section title text}
 
-{insérer un corps de texte}
+{insert body text}
   
 ### <a name="insert-subsection-title-text"></a>{insert subsection title text}
 

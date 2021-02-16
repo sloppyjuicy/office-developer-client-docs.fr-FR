@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule Position par un nom à partir d'une a
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Taquet.  *IJ* où *i* et *j* = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Onglets.  *ij*            où  *i*  et  *j*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Position à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionTab** <br/> |
-| Index de la ligne :  <br/> |**visRowTab** +  *i* où *i* = 0, 1, 2...  <br/> |
-| Index de la cellule :  <br/> | (*j* * 3) + **visTabPos** <br/> |
+| Index de la ligne :  <br/> |**visRowTab**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la cellule :  <br/> | (*j*  *3) + **visTabPos** <br/> |
    
 

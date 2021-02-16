@@ -25,30 +25,30 @@ ms.locfileid: "33410713"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur qui est utilisée par le spouleur MAPI lors de l'attribution de la responsabilité de remise entre les fournisseurs de transport.
+Contient une valeur utilisée par lepooler MAPI pour attribuer la responsabilité de remise entre les fournisseurs de transport.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_STATUS  <br/> |
 |Identificateur :  <br/> |0x0E15  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-N'utilisez pas cette propriété. Elle est réservée à l'utilisation par MAPI.
+N’utilisez pas cette propriété. Il est réservé à une utilisation par MAPI.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

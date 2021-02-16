@@ -21,40 +21,40 @@ ms.locfileid: "33409537"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Il existe trois types de fournisseurs de services courants:
+Il existe trois types courants de fournisseurs de services :
   
-- Fournisseurs de carnet d'adresses.
+- Fournisseurs de carnet d’adresses.
     
-- Fournisseurs de banques de messages.
+- Fournisseurs de magasins de messages.
     
 - Fournisseurs de transport.
     
-Les fournisseurs de carnet d'adresses et de banque de messages présentent beaucoup de similitudes. Ils enregistrent un identificateur unique avec MAPI qu'ils utilisent pour créer des identificateurs d'entrée pour leurs objets. Elles fournissent une hiérarchie des objets et des propriétés auxquels les clients peuvent accéder et manipuler. Pour leurs objets Container, ils prennent en charge une table de hiérarchie et une table des matières. Elles prennent en charge les notifications d'événement sur ces tables et éventuellement sur des objets individuels afin que les clients puissent être informés des modifications apportées au cours de la session. Lorsque les opérations deviennent longues, elles peuvent afficher un indicateur de progression pour informer l'utilisateur de l'état de l'opération. Les clients peuvent communiquer avec les fournisseurs de carnet d'adresses et de banque de messages soit indirectement via MAPI à l'aide des interfaces [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) et [IMAPISession: IUnknown](imapisessioniunknown.md) , soit directement à l'aide de l'une des interfaces du fournisseur de services dans le tableau suivant. 
+Les fournisseurs de carnet d’adresses et de magasin de messages ont de nombreuses similitudes. Ils enregistrent un identificateur unique auprès de MAPI qu’ils utilisent pour construire des identificateurs d’entrée pour leurs objets. Elles fournissent une hiérarchie d’objets et de propriétés accessibles et manipulées par les clients. Pour leurs objets conteneur, ils supportent une table hiérarchique et une table des matières. Ils peuvent prendre en charge les notifications d’événement sur ces tables et éventuellement sur des objets individuels afin que les clients soient informés des modifications qui se produisent au cours de la session. Lorsque les opérations deviennent longues, elles peuvent afficher un indicateur de progression pour informer l’utilisateur de l’état de l’opération. Les clients peuvent communiquer avec les fournisseurs de carnet d’adresses et de magasin de messages indirectement via MAPI à l’aide de [l’IAddrBook : IMAPIProp](iaddrbookimapiprop.md) et [IMAPISession : interfaces IUnknown](imapisessioniunknown.md) ou directement à l’aide de l’une des interfaces de fournisseur de services dans le tableau suivant. 
   
-|**Interfaces de fournisseur de carnet d'adresses**|**Interfaces du fournisseur de banque de messages**|
+|**Interfaces du fournisseur de carnet d’adresses**|**Interfaces de fournisseur de magasins de messages**|
 |:-----|:-----|
 |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) <br/> |
 |[IDistList : IMAPIContainer](idistlistimapicontainer.md) <br/> |[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) <br/> |
 |[IMailUser : IMAPIProp](imailuserimapiprop.md) <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
 | <br/> |[IAttach : IMAPIProp](iattachimapiprop.md) <br/> |
    
-Les fournisseurs de transport diffèrent des fournisseurs de carnet d'adresses et de banque de messages dans la façon dont ils communiquent avec MAPI et avec les clients. Les fournisseurs de transport attendent généralement que MAPI les invite à entrer des informations au lieu d'initier la communication. Contrairement aux autres fournisseurs, les fournisseurs de transport ne prennent pas en charge un grand nombre d'objets et de tables fréquemment utilisés par les clients. Toutefois, ils prennent en charge un objet Status, tout comme les fournisseurs de services, et publient leurs propriétés dans le tableau d'État. Tandis que les fournisseurs de banques de messages et de carnets d'adresses appellent la méthode [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md) pour enregistrer des identificateurs uniques pour la création de leurs identificateurs d'entrée, les fournisseurs de transport appellent la méthode [IXPLogon:: AddressTypes](ixplogon-addresstypes.md) pour enregistrer des identificateurs uniques, ainsi que des types d'adresses pour la responsabilité de la remise de messages particuliers. 
+Les fournisseurs de transport diffèrent des fournisseurs de carnet d’adresses et de magasin de messages dans la façon dont ils communiquent avec MAPI et avec les clients. Les fournisseurs de transport attendent généralement que MAPI les invite à fournir des informations plutôt que de lancer la communication. Contrairement aux autres fournisseurs, les fournisseurs de transport ne sont pas en charge une variété d’objets et de tables couramment accessibles par les clients. Toutefois, ils ne prisent en charge un objet d’état, comme tous les fournisseurs de services, et publient ses propriétés dans le tableau d’état. Tandis que les fournisseurs de carnet d’adresses et de magasin de messages appellent la méthode [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) pour inscrire des identificateurs uniques pour la construction de leurs identificateurs d’entrée, les fournisseurs de transport appellent la méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) pour inscrire des identificateurs uniques, ainsi que des types d’adresses pour assumer la responsabilité de la remise de messages particuliers. 
   
-Votre fournisseur de services doit avoir trois fichiers d'en-tête: un fichier d'en-tête public et deux fichiers internes. Utilisez le fichier d'en-tête public pour la configuration et pour la documentation des propriétés, ainsi que leurs valeurs. Incluez dans l'un des fichiers d'en-tête internes tous les en-têtes MAPI publics nécessaires; ce fichier d'en-tête doit être inclus dans tous les fichiers sources de votre fournisseur de services. Utilisez l'autre fichier interne pour définir des identificateurs de ressources.
+Votre fournisseur de services doit avoir trois fichiers d’en-tête : un fichier d’en-tête public et deux fichiers internes. Utilisez le fichier d’en-tête public pour la configuration et la documentation des propriétés et de leurs valeurs. Inclure dans l’un des fichiers d’en-tête internes tous les en-têtes MAPI publics nécessaires ; Ce fichier d’en-tête doit être inclus dans tous les fichiers sources de votre fournisseur de services. Utilisez l’autre fichier interne pour définir les identificateurs de ressources.
   
-Les fournisseurs de carnet d'adresses, de banque de messages et de transport effectuent les tâches suivantes:
+Les fournisseurs de carnet d’adresses, de magasin de messages et de transport effectuent les tâches suivantes :
   
-- Fournissez une fonction de point d'entrée. 
+- Fournir une fonction de point d’entrée. 
     
-- Fournissez un objet fournisseur et de connexion pour gérer l'ouverture et l'initialisation de l'ouverture de session. 
+- Fournisse un fournisseur et un objet d’personnalisation pour gérer l’personnalisation et l’initialisation. 
     
-- Si le fournisseur appartient à un service de messagerie, fournissez une fonction de point d'entrée de service de messagerie. 
+- Si le fournisseur appartient à un service de messagerie, fournissons une fonction de point d’entrée de service de messagerie. 
     
-- Prendre en charge la configuration en implémentant une feuille de propriétés.
+- Prise en charge de la configuration en implémentant une feuille de propriétés.
     
-- Implémenter un objet d'État et prendre en charge la table d'État. 
+- Implémenter un objet d’état et la prise en charge de la table d’état. 
     
-- Handle arrêté.
+- Gérer l’arrêt.
     
 ## <a name="see-also"></a>Voir aussi
 

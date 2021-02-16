@@ -25,12 +25,12 @@ ms.locfileid: "33410685"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une étiquette qui sera utilisée dans une boîte de dialogue construite à partir d'une table d'affichage.
+Décrit une étiquette qui sera utilisée dans une boîte de dialogue qui est conçue à partir d’un tableau d’affichage.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Macro connexe  <br/> |[SizedDtblLabel](sizeddtbllabel.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Macro associée  <br/> |[SizedDtblLabel](sizeddtbllabel.md) <br/> |
    
 ```cpp
 typedef struct _DTBLLABEL
@@ -45,27 +45,27 @@ typedef struct _DTBLLABEL
 
  **ulbLpszLabelName**
   
-> Position en mémoire de l'étiquette de chaîne de caractères.
+> Position en mémoire de l’étiquette de chaîne de caractères.
     
  **ulFlags**
   
-> Masque de des indicateurs utilisé pour désigner le format de l'étiquette désignée par le membre **ulbLpszLabelName** . L'indicateur suivant peut être défini: 
+> Masque de bits d’indicateurs utilisé pour désigner le format de l’étiquette pointée par le membre **ulbLpszLabelName.** L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
-> L'étiquette est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, l'étiquette est au format ANSI.
+> L’étiquette est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, l’étiquette est au format ANSI.
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLLABEL** décrit un texte de contrôle d'étiquette qui est affiché avec un autre type de contrôle pour ajouter une signification à ce contrôle. Par exemple, la plupart des contrôles d'édition sont positionnés en regard des étiquettes pour informer l'utilisateur du type d'informations à entrer. Certains contrôles, comme les zones de groupe et les cases d'option, contiennent leurs propres étiquettes. 
+Une structure **DTBLLABEL** décrit un texte de contrôle d’étiquette qui est affiché avec un autre type de contrôle pour ajouter une signification à ce contrôle. Par exemple, la plupart des contrôles d’édition sont placés à côté des étiquettes pour informer l’utilisateur du type d’informations à entrer. Certains contrôles, tels que les zones de groupe et les cases d’radio, tiennent leurs propres étiquettes. 
   
-L'étiquette peut inclure un accélérateur Windows, identifié comme le caractère suivant le signe «&amp;et commercial» (). Appuyer sur la touche d'accès rapide place le focus sur le premier contrôle sans étiquette, sans bouton, après cette étiquette dans la table d'affichage.
+L’étiquette peut inclure un accélérateur Windows, identifié comme le caractère suivant le caractère « ampersand » ( &amp; ). Le fait d’appuyer sur la touche d’accélérateur met le focus sur le premier contrôle sans étiquette, nonbutton, qui suit cette étiquette dans le tableau d’affichage.
   
-Les étiquettes multilignes ne sont pas prises en charge. L'affichage de plusieurs lignes requiert plusieurs étiquettes.
+Il n’existe aucune prise en charge des étiquettes multilignes. L’affichage de plusieurs lignes nécessite plusieurs étiquettes.
   
-Il n'est pas possible d'utiliser une étiquette en tant que contrôle d'édition en lecture seule. La différence réside dans le fait qu'un contrôle d'édition peut être sélectionné et copié tandis qu'une étiquette ne peut pas l'être. 
+Il n’est pas possible d’utiliser une étiquette comme contrôle d’édition en lecture seule. La différence est qu’un contrôle d’édition peut être sélectionné et copié alors qu’une étiquette ne le peut pas. 
   
-Pour une vue d'ensemble des tables d'affichage, voir [afficher les tables](display-tables.md). Pour plus d'informations sur l'implémentation d'une table d'affichage, voir [Implementing a Display table](display-table-implementation.md).
+Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

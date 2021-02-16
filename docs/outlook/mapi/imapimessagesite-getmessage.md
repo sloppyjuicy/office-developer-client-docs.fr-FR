@@ -25,7 +25,7 @@ ms.locfileid: "33409026"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le message actif.
+Renvoie le message actuel.
   
 ```cpp
 HRESULT GetMessage(
@@ -37,7 +37,7 @@ HRESULT GetMessage(
 
  _ppmsg_
   
-> remarquer Pointeur vers un pointeur vers l'interface renvoyée pour le message.
+> [out] Pointeur vers un pointeur vers l’interface renvoyée pour le message.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,15 +47,15 @@ S_OK
     
 S_FALSE 
   
-> Il n'existe actuellement aucun message pour le formulaire appelant.
+> Il n’existe actuellement aucun message pour le formulaire appelant.
     
 ## <a name="remarks"></a>Remarques
 
-Les formulaires appellent la méthode **IMAPIMessageSite:: GetMessage** pour obtenir une interface de message pour le message en cours. Le message actif est le même message que celui précédemment transmis dans la méthode [IPersistMessage:: InitNew](ipersistmessage-initnew.md), [IPersistMessage:: Load](ipersistmessage-load.md), ou [IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) . 
+Les formulaires appellent la méthode **IMAPIMessageSite::GetMessage** pour obtenir une interface de message pour le message actuel. Le message actuel est le même message que celui qui a été passé précédemment dans la méthode [IPersistMessage::InitNew](ipersistmessage-initnew.md), [IPersistMessage::Load](ipersistmessage-load.md)ou [IPersistMessage::SaveCompleted.](ipersistmessage-savecompleted.md) 
   
- **GetMessage** renvoie S_FALSE si aucun message n'existe actuellement. Cet État peut se produire après les appels à la méthode [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md) ou avant l'appel suivant à **IPersistMessage:: Load** ou **IPersistMessage:: SaveCompleted** est effectué. 
+ **GetMessage** renvoie S_FALSE si aucun message n’existe actuellement. Cet état peut se produire après les appels à la méthode [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) ou avant l’appel suivant à **IPersistMessage::Load** ou **IPersistMessage::SaveCompleted** est effectué. 
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -63,7 +63,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite:: GetMessage** pour renvoyer le pointeur de message actuellement mis en cache, s'il est disponible.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetMessage** pour renvoyer le pointeur de message actuellement mis en cache, s’il est disponible.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

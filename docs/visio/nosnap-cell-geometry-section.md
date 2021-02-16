@@ -31,13 +31,13 @@ Pour obtenir une référence à la cellule NoSnap par un nom à partir d'une aut
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Géométrie *i* . NoSnap où *i* = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Geometry  *i*  . NoSnap où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule NoSnap à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**visSectionFirstComponent** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la section :  <br/> |**visSectionFirstComponent**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la ligne :  <br/> |**visRowComponent** <br/> |
 | Index de la cellule :  <br/> |**visCompNoSnap** <br/> |
    

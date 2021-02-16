@@ -19,37 +19,37 @@ ms.locfileid: "33407542"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La gestion d'une banque de messages est une partie importante de l'ensemble des tâches d'un client. Ces tâches incluent l'ouverture, la copie, le mouvement, l'ajout et la suppression de dossiers et de messages, l'affichage de différentes tables, la définition de propriétés et le contrôle des niveaux d'accès.
+La gestion d’une magasin de messages est une partie importante de l’ensemble de tâches de tout client. Ces tâches incluent l’ouverture, la copie, le déplacement, l’ajout et la suppression de dossiers et de messages, l’affichage de différents tableaux, la définition de propriétés et le contrôle des niveaux d’accès.
 
-- [Ouverture d'une banque de messages](opening-a-message-store.md): décrit comment ouvrir un ou plusieurs magasins de messages au cours d'une session.
+- [Ouverture d’une magasin de](opening-a-message-store.md)messages : décrit comment ouvrir une ou plusieurs magasins de messages au cours d’une session.
     
-- [Ouverture de la Banque de messages par défaut](opening-the-default-message-store.md): décrit l'ouverture de la Banque de messages par défaut.
+- [Ouverture de la magasin de messages par défaut](opening-the-default-message-store.md): décrit comment ouvrir la magasin de messages par défaut.
     
-- [Validation et initialisation d'une banque de messages](validating-and-initializing-a-message-store.md): décrit la procédure d'initialisation et de validation d'une banque de messages.
+- [Validation et initialisation d’une magasin de](validating-and-initializing-a-message-store.md)messages : décrit comment initialiser et valider une magasin de messages.
     
-- [Recherche dans une banque de messages](searching-a-message-store.md): décrit comment rechercher un ou plusieurs dossiers à la recherche de messages qui correspondent aux critères de recherche.
+- [Recherche dans une magasin de](searching-a-message-store.md)messages : décrit comment rechercher des messages qui correspondent aux critères de recherche dans un ou plusieurs dossiers.
     
-- [Sélection d'un dossier de réception](selecting-a-receive-folder.md): décrit les étapes de création d'un dossier de réception.
+- [Sélection d’un dossier de réception](selecting-a-receive-folder.md): décrit les étapes de création d’un dossier de réception.
     
-- [Ouverture d'un dossier de banque de messages](opening-a-message-store-folder.md): décrit comment ouvrir un dossier.
+- [Ouverture d’un dossier de la boutique de messages](opening-a-message-store-folder.md): décrit comment ouvrir un dossier.
     
-- [Affichage d'une table de contenu de dossier](displaying-a-folder-contents-table.md): décrit comment afficher la table de contenu de dossier qui contient des informations récapitulatives sur tous ses messages.
+- [Affichage d’une table de contenu de](displaying-a-folder-contents-table.md)dossier : décrit comment afficher la table des matières du dossier qui contient des informations récapitulatifs sur tous ses messages.
     
-- [Parcourir le dossier boîte de réception](traversing-the-inbox-folder.md): décrit comment parcourir tous les messages dans la boîte de réception.
+- [Traversée du dossier Boîte de réception](traversing-the-inbox-folder.md): décrit comment parcourir tous les messages de la boîte de réception.
     
-- [Copie ou déplacement d'un message ou d'un dossier](copying-or-moving-a-message-or-a-folder.md): décrit comment copier ou déplacer un ou plusieurs messages.
+- [Copie ou déplacement d’un message ou](copying-or-moving-a-message-or-a-folder.md)d’un dossier : décrit comment copier ou déplacer un ou plusieurs messages.
     
-- [Ouverture d'un message](opening-a-message.md): décrit comment ouvrir un message.
+- [Ouverture d’un message](opening-a-message.md): décrit comment ouvrir un message.
     
-- [Recherche de l'icône d'un message](finding-the-icon-for-a-message.md): décrit comment rechercher une icône associée à un message.
+- [Recherche de l’icône d’un message](finding-the-icon-for-a-message.md): décrit comment trouver une icône associée à un message.
     
-- [Ouverture d'un](opening-a-view-descriptor.md)descriptEur d'affichage: décrit comment ouvrir un descripteur de vue.
+- [Ouverture d’un descripteur d’affichage](opening-a-view-descriptor.md): décrit comment ouvrir un descripteur d’affichage.
     
-- [Suppression d'un message](deleting-a-message.md): décrit comment supprimer un message.
+- [Suppression d’un message](deleting-a-message.md): décrit comment supprimer un message.
     
-- [Enregistrement d'un message dans la boîte de réception](saving-a-message-in-the-inbox.md): décrit comment stocker un message dans la boîte de réception.
+- [Enregistrement d’un message dans la](saving-a-message-in-the-inbox.md)boîte de réception : décrit comment stocker un message dans la boîte de réception.
     
-- [Recherche de messages envoyés ou enregistrés](finding-sent-or-saved-messages.md): explique comment localiser tous les messages sortants qui ont été enregistrés ou envoyés.
+- [Recherche des messages envoyés](finding-sent-or-saved-messages.md)ou enregistrés : décrit comment localiser tous les messages sortants qui ont été enregistrés ou envoyés.
     
 - [Suivi des conversations](tracking-conversations.md): décrit comment suivre les conversations.
     

@@ -1,5 +1,5 @@
 ---
-title: Charger l'état de la table
+title: Charger l’état de la table
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,31 +13,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405820"
 ---
-# <a name="upload-table-state"></a>Charger l'état de la table
+# <a name="upload-table-state"></a>Charger l’état de la table
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se passe lors de l'état de la table de chargement de la machine à États de réplication. 
+ Cette rubrique décrit ce qui se produit pendant l’état de la table de chargement de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d'État:  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |
-|Structure de données associée:  <br/> |**[UPTBL](uptbl.md)** <br/> |
-|À partir de cet État:  <br/> |[Synchroniser l'état du contenu](synchronize-contents-state.md) <br/> |
-|À cet État:  <br/> |[Télécharger](upload-message-state.md)l'état du message, télécharger l'état de l'état de la [suppression](upload-delete-status-state.md), télécharger l'état de l'état de [lecture](upload-read-status-state.md)ou synchroniser l'état du contenu  <br/> |
+|Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |
+|Structure de données associée :  <br/> |**[UPTBL](uptbl.md)** <br/> |
+|À partir de cet état :  <br/> |[Synchroniser l’état du contenu](synchronize-contents-state.md) <br/> |
+|À cet état :  <br/> |[Télécharger l’état du message,](upload-message-state.md) [télécharger l’état de suppression](upload-delete-status-state.md)d’état, télécharger [l’état de](upload-read-status-state.md)lecture ou synchroniser l’état du contenu  <br/> |
    
 > [!NOTE]
-> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
+> La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
   
 ## <a name="description"></a>Description
 
-Cet État lance le téléchargement du contenu d'un dossier qui a été spécifié dans un état de contenu de synchronisation précédent. Le dossier peut être un dossier courrier, calendrier, contacts, tâches, notes ou journal. Dans cet État, Outlook crée une liste des éléments qui ont été ajoutés, modifiés, déplacés, supprimés ou marqués comme lus, et prépare les informations internes appropriées pour l'état du message de téléchargement correspondant, l'état de la suppression du téléchargement ou le statut de lecture du téléchargement. Etat.
+Cet état lance le téléchargement du contenu d’un dossier qui a été spécifié dans un état de synchronisation de contenu précédent. Le dossier peut être un dossier de courrier, de calendrier, de contacts, de tâches, de notes ou de journal. Au cours de cet état, Outlook crée une liste d’éléments qui ont été ajoutés, modifiés, déplacés, supprimés ou marqués comme lus, et prépare les informations internes appropriées pour l’état du message de chargement, l’état de suppression de téléchargement ou l’état de lecture correspondant.
   
-Lorsque cet État est terminé, Outlook marque le dossier comme étant synchronisé, de sorte que le contenu ne soit pas téléchargé à nouveau tant qu'une autre modification n'est pas effectuée. Le magasin local revient à l'État Synchronize content.
+Lorsque cet état se termine, Outlook marque le dossier comme ayant son contenu synchronisé, afin que le contenu ne soit pas chargé à nouveau tant qu’une autre modification n’est pas apportée. La boutique locale revient à l’état de synchronisation du contenu.
   
 ## <a name="see-also"></a>Voir aussi
 

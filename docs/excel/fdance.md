@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - fDance
 keywords:
-- fonction fdance [Excel 2007]
+- fonction fdance [excel 2007]
 localization_priority: Normal
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33409047"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Exemple de commande définie par l'utilisateur qui modifie les cellules sélectionnées de la feuille de calcul active jusqu'à ce que l'utilisateur appuie sur **Échap**. Lorsque GENERIC. xll est chargé, il crée un menu défini par l'utilisateur, générique, par le biais duquel cette commande est accédée.
+Exemple de commande définie par l’utilisateur qui modifie les cellules sélectionnées dans la feuille de calcul active jusqu’à ce que l’utilisateur appuie sur **ÉCHAP**. Lorsque GENERIC.xll est chargé, il crée un menu défini par l’utilisateur, Generic, via lequel cette commande est accessible.
   
 ```cs
 int WINAPI fDance(void);
@@ -38,11 +38,11 @@ La fonction renvoie toujours 1.
   
 ## <a name="remarks"></a>Remarques
 
-Il s'agit d'un exemple de longue opération. Il appelle de manière occasionnelle la fonction [xlAbort](xlabort.md) . Cela génère le processeur (aide au multitâche coopératif) et vérifie si l'utilisateur a appuyé sur **Échap** pour annuler l'opération. Si c'est le cas, il offre à l'utilisateur la possibilité d'annuler l'abandon. 
+Il s’agit d’un exemple d’une opération longue. Il appelle parfois la fonction [xlAbort.](xlabort.md) Cela permet au processeur (d’aider à la multitâche multinationale) et de vérifier si l’utilisateur a appuyer sur **ÉCHAP** pour annuler l’opération. Si c’est le cas, il offre à l’utilisateur la possibilité d’annuler l’abandon. 
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
+Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

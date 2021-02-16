@@ -19,38 +19,38 @@ ms.locfileid: "33409110"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les adresses ponctuelles sont utilisées pour envoyer des messages à des destinataires uniques, qui n'ont pas d'entrée correspondante dans l'un des conteneurs de carnet d'adresses de la session. Les clients peuvent créer des adresses uniques lorsqu'ils ajoutent de nouvelles entrées dans le carnet d'adresses ou de nouveaux destinataires à la liste des destinataires d'un message sortant. Il est possible d'ajouter des adresses ponctuelles à n'importe quel conteneur pouvant être modifié.
+Les adresses one-off sont utilisées pour envoyer des messages à des destinataires one-off, destinataires qui n’ont pas d’entrée correspondante dans l’un des conteneurs de carnet d’adresses de la session. Les clients peuvent créer des adresses one-off lorsqu’ils ajoutent de nouvelles entrées au carnet d’adresses ou de nouveaux destinataires à la liste des destinataires d’un message sortant. Des adresses non modifiables peuvent être ajoutées à n’importe quel conteneur.
   
-Pour créer une adresse ponctuelle, les clients utilisent un modèle spécial contenant des contrôles d'édition pour entrer toutes les informations qui constituent une adresse ponctuelle. Les adresses ponctuelles, comme les adresses d'autres types, utilisent un format prédéfini. Le format d'adresse unique est défini par MAPI de la manière suivante:
+Pour créer une adresse unique, les clients utilisent un modèle spécial contenant des contrôles de modification pour entrer toutes les informations qui constitue une adresse unique. Les adresses spécifiques, comme les adresses d’autres types, utilisent un format prédéféré. Le format d’adresses est défini par MAPI comme suit :
   
 `Display name[Address type:Email address]`
   
-Ce format comporte six composants et des règles de guillemets. Les composants sont décrits dans le tableau suivant.
+Il existe six composants pour ce format et certaines règles relatives au quoting des caractères. Les composants sont décrits dans le tableau suivant.
   
 |**Composant**|**Utilisation**|**Description**|
 |:-----|:-----|:-----|
-|Nom unique (DN)  <br/> |Facultatif  <br/> |S'il n'est pas présent, **IAddrBook:: ResolveName** utilise la partie visible de l'adresse de messagerie comme nom d'affichage. Peut contenir des espaces. Pour plus d'informations, voir [IAddrBook:: ResolveName](iaddrbook-resolvename.md).  <br/> |
-|[  <br/> |Obligatoire  <br/> |Définit le début des informations de type et d'adresse.  <br/> |
-|]  <br/> |Obligatoire  <br/> |Définit la fin des informations relatives au type et à l'adresse. Si un élément autre que le blanc suit ce caractère, l'entrée n'est pas traitée comme un destinataire personnalisé.  <br/> |
-|Type d'adresse  <br/> |Obligatoire  <br/> |Type d'adresse; correspond à un format d'adresse spécifique. Pour plus d'informations, consultez la rubrique [types d'adresses MAPI](mapi-address-types.md).  <br/> |
-|:  <br/> |Obligatoire  <br/> |Sépare le type d'adresse de l'adresse de messagerie.  <br/> |
-|Adresse de messagerie  <br/> |Obligatoire  <br/> |Adresse du destinataire. Peut contenir des espaces.  <br/> |
+|Nom d’affichage  <br/> |Facultatif  <br/> |S’il n’est pas présent, **IAddrBook::ResolveName** utilise la partie visible de l’adresse e-mail comme nom d’affichage. Peut inclure des espaces vides. Pour plus d’informations, [voir IAddrBook::ResolveName](iaddrbook-resolvename.md).  <br/> |
+|[  <br/> |Obligatoire  <br/> |Définit le début des informations de type et d’adresse.  <br/> |
+|]  <br/> |Obligatoire  <br/> |Définit la fin des informations de type et d’adresse. Si autre chose que l’espacement suit ce caractère, l’entrée n’est pas traitée comme un destinataire personnalisé.  <br/> |
+|Type d’adresse  <br/> |Obligatoire  <br/> |Type d’adresse ; s’map après un format d’adresse spécifique. Pour plus d’informations, voir [Types d’adresses MAPI.](mapi-address-types.md)  <br/> |
+|:  <br/> |Obligatoire  <br/> |Sépare le type d’adresse de l’adresse de messagerie.  <br/> |
+|Adresse e-mail  <br/> |Obligatoire  <br/> |Adresse du destinataire. Peut inclure des espaces vides.  <br/> |
    
-MAPI utilise des jeux de caractères de citation spécifiques pour permettre aux adresses de contenir des caractères spéciaux tels que la virgule (,), le crochet gauche ([) et le signe deux-points (:) et certains caractères non typés tels que le retour chariot ou le saut de ligne ou tout autre équivalent hexadécimal. Le caractère de cotation est la barre oblique\)inverse (. Par conséquent, si les clients ou fournisseurs doivent insérer une barre oblique inverse dans une adresse, ils doivent le faire précèder\\par le caractère guillemet ("").
+MAPI utilise des jeux particuliers de caractères de quoting pour permettre aux adresses de contenir des caractères spéciaux tels que des virgules (,), des crochets gauches ([) et des deux-points (:) et certains caractères nontypes tels que le retour chariot ou le retour à la ligne ou tout autre équivalent hexadécimal. Le caractère de quoting est la barre oblique inverse ( \) . Par conséquent, si les clients ou les fournisseurs doivent insérer une barre oblique inverse dans une adresse, ils doivent la faire précéder du caractère de quoting ( » \\ « ).
   
-Les clients et les fournisseurs de services peuvent utiliser cette technique d'établissement de devis dans l'un des champs pouvant être tapés et non fixes. Par exemple, l'entrée suivante se traduit par Bill Lee comme nom d'affichage, MSPEER comme type d'adresse et \\billll\in comme adresse de messagerie:
+Les clients et les fournisseurs de services peuvent utiliser cette technique de quoting dans l’un des champs nonfixés et typables. Par exemple, l’entrée suivante se traduit par Bill Lee comme nom d’affichage, MSPEER comme type d’adresse et \\ billll\in comme adresse e-mail :
   
 `Bill Lee[MSPEER:\\\\billl\in]`
 
-Pour insérer des caractères spéciaux non typés, les clients et les fournisseurs de services utilisent un caractère de citation suivi d'un x et de deux chiffres hexadécimaux pour représenter leur équivalent hexadécimal. Par exemple, si une adresse est dotée d'un caractère non typé qui équivaut à un retour chariot (\0d) en hexadécimal, un client l'entre comme suit:
+Pour insérer des caractères spéciaux nontypes, les clients et les fournisseurs de services utilisent un caractère de quoting suivi d’un x et de deux chiffres hexadécimals pour représenter leur équivalent hexadécimal. Par exemple, si une adresse possède un caractère nontype qui équivaut à un retour chariot (\0d) en hexadécimal, un client les saisira comme :
   
 `Fax Recipient[fax:recipient\x0dbuilding\x0doffice\x0d555-1212\x0d]`
 
-**IAddrBook:: ResolveName** analyse également automatiquement la plupart des adresses SMTP, en recherchant les adresses avec le format suivant: 
+**IAddrBook::ResolveName** pare également automatiquement la plupart des adresses SMTP, en cherchant des adresses au format suivant : 
   
 `XXX@YYY.ZZZ`
 
-Bien que tous les formats RFC822 possibles ne soient pas gérés, cette analyse automatique est adaptée à la plupart des utilisateurs. **ResolveName** inclut cette fonctionnalité pour permettre aux utilisateurs d'entrer des adresses SMTP directement dans un message et de faire en sorte que ce message soit dirigé vers l'utilisateur Internet. Les composants XXX, YYY et ZZZ de l'adresse peuvent être un ou plusieurs caractères. L'arobase (@) ne peut pas être inclus dans les composants d'adresse XXX, YYY ou ZZZ et le composant YYY ne peut pas non plus inclure le point. Étant donné que les caractères suivants sont des caractères spéciaux dans des adresses SMTP, MAPI convertit automatiquement un nom complet contenant ces caractères en une adresse unique: 
+Bien que tous les formats RFC822 possibles ne soient pas gérés, cette recherche automatique est adaptée à la plupart des utilisateurs. **ResolveName inclut** cette fonctionnalité pour permettre aux utilisateurs d’entrer des adresses SMTP directement dans un message et d’envoyer ce message à l’utilisateur Internet. Les composants XXX, YYY et ZZZ de l’adresse peuvent être un ou plusieurs caractères. Le signe at (@) ne peut pas être inclus dans les composants d’adresse XXX, YYY ou ZZZ et le composant YYY ne peut pas non plus inclure le point. Étant donné que les caractères suivants sont des caractères spéciaux dans les adresses SMTP, MAPI convertit automatiquement un nom complet contenant ces caractères en adresse un-off : 
   
 - \>\>
     
@@ -60,9 +60,9 @@ Bien que tous les formats RFC822 possibles ne soient pas gérés, cette analyse 
     
 - .
     
-Chaque adresse One-Off est assignée à un identificateur d'entrée unique correspondant. Pour effectuer cette attribution, les clients appellent **IAddrBook:: CreateOneOff** et les fournisseurs de transport **IMAPISupport:: CreateOneOff**. Pour plus d'informations, voir [IAddrBook:: CreateOneOff](iaddrbook-createoneoff.md) et [IMAPISupport:: CreateOneOff](imapisupport-createoneoff.md). Lors du traitement des messages entrants, les fournisseurs de transport créent des identificateurs d'entrée uniques pour les adresses de passerelle et pour les adresses qui ne peuvent pas être gérées par les fournisseurs de carnet d'adresses associés au transport. Les fournisseurs de transport vérifient le type de chaque adresse dans un message afin de déterminer si elle peut être gérée par un fournisseur de carnet d'adresses associé au transport. Si ce n'est pas le cas, les fournisseurs de transport appellent **IMAPISupport:: CreateOneOff** pour associer l'adresse à un identificateur d'entrée unique. 
+Un identificateur d’entrée unique correspondant est affecté à chaque adresse unique. Pour effectuer cette affectation, les clients appellent **IAddrBook::CreateOneOff** et les fournisseurs de transport **appellent IMAPISupport::CreateOneOff**. Pour plus d’informations, voir [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md) et [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md). Lors du traitement des messages entrants, les fournisseurs de transport créent des identificateurs d’entrée uniques pour les adresses de passerelle et pour les adresses qui ne peuvent pas être gérées par les fournisseurs de carnets d’adresses associés au transport. Les fournisseurs de transport vérifient le type de chaque adresse dans un message pour déterminer si elle peut être gérée par un fournisseur de carnet d’adresses associé au transport. Si ce n’est pas le cas, les fournisseurs de transport appellent **IMAPISupport::CreateOneOff** pour associer l’adresse à un identificateur d’entrée unique. 
   
-Les identificateurs d'entrée uniques incluent les informations suivantes dans l'ordre suivant:
+Les identificateurs d’entrée uniques incluent les informations suivantes dans l’ordre suivant :
   
 1. **MAPIUID**
     
@@ -70,13 +70,13 @@ Les identificateurs d'entrée uniques incluent les informations suivantes dans l
     
 3. Flags
     
-4. Nom unique (DN)
+4. Nom d’affichage
     
-5. Type d'adresse
+5. Type d’adresse
     
-6. Adresse de messagerie
+6. Adresse e-mail
     
-Dans les appels à **IAddrBook:: CreateOneOff** et **IMAPISupport:: CreateOneOff**, les clients et les fournisseurs de transport peuvent définir un indicateur qui indique si le destinataire représenté par l'adresse unique peut traiter le texte mis en forme ou incorporé OLE objets. Pour indiquer qu'un destinataire peut gérer le texte mis en forme et les objets OLE, les clients et les fournisseurs de transport définissent l'indicateur MAPI_SEND_NO_RICH_INFO dans le paramètre _ulFlags_ . MAPI définit ensuite la propriété **PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) du destinataire unique sur false. Lorsque cet indicateur n'est pas défini, MAPI affecte à **PR_SEND_RICH_INFO** la valeur true, sauf si l'adresse unique est interprétée comme une adresse SMTP. Dans ce cas, **PR_SEND_RICH_INFO** est défini sur false par défaut. 
+Dans les appels à **IAddrBook::CreateOneOff** et **IMAPISupport::CreateOneOff,** les clients et les fournisseurs de transport peuvent définir un indicateur qui indique si le destinataire représenté par l’adresse one-off peut traiter du texte mis en forme ou des objets OLE incorporés. Pour indiquer qu’un destinataire peut gérer du texte mis en forme et des objets OLE, les clients et les fournisseurs de transport définissent l’indicateur MAPI_SEND_NO_RICH_INFO dans le paramètre _ulFlags._ MAPI définit ensuite la propriété  PR_SEND_RICH_INFO[(PidTagSendRichInfo)](pidtagsendrichinfo-canonical-property.md)du destinataire à FALSE. Lorsque cet indicateur n’est pas définie, MAPI définit **PR_SEND_RICH_INFO** sur TRUE, sauf si l’adresse one-off est interprétée comme une adresse SMTP. Dans ce cas, la **valeur PR_SEND_RICH_INFO** par défaut est FALSE. 
   
 ## <a name="see-also"></a>Voir aussi
 

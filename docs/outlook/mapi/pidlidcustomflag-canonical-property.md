@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bfb7fd1e-774f-9a2f-fbbe-ba7f68ed8663
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 9a131c633b8dcf9b0e5070f01de8fcab90a18ade
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,21 +25,21 @@ ms.locfileid: "32357616"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Masque de masque qui spécifie le mode de personnalisation d'un message, par exemple, enregistré avec des propriétés personnalisées.
+Masque de bits qui spécifie la façon dont un message est personnalisé, par exemple, enregistré avec des propriétés personnalisées.
   
 ## 
 
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidCustomFlag  <br/> |
-|ID long (couvercle):  <br/> |0x00008251  <br/> |
+|ID long (LID) :  <br/> |0x00008251  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour récupérer la valeur de cette propriété, utilisez d'abord **[IMAPIProp:: GetIDsFromNames](imapiprop-getidsfromnames.md)** pour obtenir la balise de propriété, puis spécifiez cette balise de propriété dans **[IMAPIProp:: GetProps](imapiprop-getprops.md)** pour obtenir la valeur. 
+Pour récupérer la valeur de cette propriété, utilisez d’abord **[IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)** pour obtenir la balise de propriété, puis spécifiez cette balise de propriété dans **[IMAPIProp::GetProps](imapiprop-getprops.md)** pour obtenir la valeur. 
   
-Les indicateurs possibles sont les suivants:
+Les indicateurs possibles sont les suivants :
   
 ****
 
@@ -48,17 +48,17 @@ Les indicateurs possibles sont les suivants:
 |INSP_ONEOFFFLAGS  <br/> |0x0D000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x02000000  <br/> |
    
-Lors de l'appel de **IMAPIProp:: GetIDsFromNames**, spécifiez les valeurs suivantes pour la structure **[MAPINAMEID](mapinameid.md)** vers laquelle pointe le paramètre d'entrée *lppPropNames* . 
+Lorsque vous appelez **IMAPIProp::GetIDsFromNames**, spécifiez les valeurs suivantes pour la structure **[MAPINAMEID](mapinameid.md)** pointée par le paramètre d’entrée  *lppPropNames*  . 
   
 ****
 
-|**Member**|**Valeur**|
+|**Membre**|**Valeur**|
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
-|ulKind:  <br/> |MNID_ID  <br/> |
-|Type. couvercle:  <br/> |dispidCustomFlag  <br/> |
+|ulKind :  <br/> |MNID_ID  <br/> |
+|Kind.lID :  <br/> |dispidCustomFlag  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
@@ -66,15 +66,15 @@ Lors de l'appel de **IMAPIProp:: GetIDsFromNames**, spécifiez les valeurs suiva
   
 > Fournit des définitions de jeu de propriétés.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

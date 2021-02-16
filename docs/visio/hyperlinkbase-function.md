@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251589
 localization_priority: Normal
 ms.assetid: 4877620c-7df0-da5a-2138-d2c19dce36f9
-description: Renvoie le texte du champ de base de lien hypertexte des propriétés d'un document.
+description: Renvoie le texte du champ de base Lien hypertexte des propriétés d’un document.
 ms.openlocfilehash: 3bd65b3bde2c4005639aa0b60e6a8370c0383735
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33409348"
 ---
 # <a name="hyperlinkbase-function"></a>Fonction HYPERLINKBASE
 
-Renvoie le texte du champ de **base de lien hypertexte** des propriétés d'un document. 
+Renvoie le texte du champ **de base Lien hypertexte** des propriétés d’un document. 
   
 ## <a name="syntax"></a>Syntaxe
 

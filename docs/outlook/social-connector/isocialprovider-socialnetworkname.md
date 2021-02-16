@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 96f32db2-d654-4e72-88d1-ef955e3ff42b
-description: Renvoie une valeur de type String qui représente le nom du réseau social.
+description: Renvoie une chaîne qui représente le nom du réseau social.
 ms.openlocfilehash: 5a6240fa6e609eec8498456fe56c83a761fadab0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33406877"
 ---
 # <a name="isocialprovidersocialnetworkname"></a>ISocialProvider::SocialNetworkName
 
-Renvoie une valeur de type String qui représente le nom du réseau social. 
+Renvoie une chaîne qui représente le nom du réseau social. 
   
 ```cpp
 [propget] HRESULT _stdcall SocialNetworkName([out, retval] BSTR* networkName);

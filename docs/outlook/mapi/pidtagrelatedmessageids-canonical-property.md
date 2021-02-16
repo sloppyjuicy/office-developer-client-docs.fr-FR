@@ -25,7 +25,7 @@ ms.locfileid: "33406051"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d'identificateurs pour les messages auxquels un message est lié.
+Contient une liste d’identificateurs pour les messages avec lesquels un message est lié.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient une liste d'identificateurs pour les messages auxquels un message est l
    
 ## <a name="remarks"></a>Remarques
 
-Les identificateurs utilisent les mêmes règles de construction spécifiques que celles utilisées pour la propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
+Les identificateurs utilisent les mêmes règles de construction spécifiques que pour la **propriété PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

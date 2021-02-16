@@ -38,7 +38,7 @@ LPSPropTagArray FAR * lpPropTagArray
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui indique quel jeu de colonnes doit être renvoyé. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui indique quel jeu de colonnes doit être renvoyé. L’indicateur suivant peut être définie :
     
 TBL_ALL_COLUMNS 
   
@@ -46,7 +46,7 @@ TBL_ALL_COLUMNS
     
  _lpPropTagArray_
   
-> remarquer Pointeur vers une structure [SPropTagArray](sproptagarray.md) contenant les balises de propriété pour le jeu de colonnes. 
+> [out] Pointeur vers une structure [SPropTagArray](sproptagarray.md) contenant les balises de propriété pour le jeu de colonnes. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -56,25 +56,25 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours, ce qui empêche le démarrage de l'opération de récupération du jeu de colonnes. L'opération en cours doit être autorisée ou elle doit être arrêtée.
+> Une autre opération est en cours qui empêche le démarrage de l’opération de récupération du jeu de colonnes. L’opération en cours doit être autorisée ou arrêtée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable:: QueryColumns** peut être appelée pour extraire les éléments suivants: 
+La **méthode IMAPITable::QueryColumns** peut être appelée pour récupérer : 
   
 - Colonne par défaut définie pour un tableau.
     
-- La colonne actuelle définie pour une table, telle qu'établie par un appel à la méthode [IMAPITable:: SetColumns](imapitable-setcolumns.md) . 
+- Colonne actuelle définie pour une table, tel qu’établi par un appel à la méthode [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
     
-- La colonne complète d'un tableau, les colonnes qui sont disponibles, mais qui ne font pas nécessairement partie de l'ensemble actuel.
+- Ensemble de colonnes complet d’un tableau, colonnes disponibles, mais pas nécessairement partie de l’ensemble actuel.
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si vous ne définissez pas l'indicateur TBL_ALL_COLUMNS, **IMAPITable:: QueryColumns** renvoie le jeu de colonnes par défaut ou par défaut d'une table, selon que la table a été affectée ou non par un appel de la méthode **IMAPITable:: SetColumns**. **SetColumns** modifie l'ordre et la sélection des colonnes dans le jeu de colonnes d'un tableau. 
+Si vous ne définissez pas l’indicateur TBL_ALL_COLUMNS, **IMAPITable::QueryColumns** renvoie l’ensemble de colonnes par défaut ou actuel d’une table, selon que la table a été affectée par un appel à **IMAPITable::SetColumns**. **SetColumns** modifie l’ordre et la sélection des colonnes dans le jeu de colonnes d’un tableau. 
   
-Si vous définissez l'indicateur TBL_ALL_COLUMNS, **QueryColumns** renvoie toutes les colonnes susceptibles de se situer dans le jeu de colonnes de la table. 
+Si vous définissez l’TBL_ALL_COLUMNS, **QueryColumns** renvoie toutes les colonnes pouvant être dans le jeu de colonnes de la table. 
   
-Libérez de la mémoire pour le tableau de balises de propriété pointé par le paramètre _lpPropTagArray_ en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) . 
+Libérez la mémoire du tableau de balises de propriétés pointé par le paramètre _lpPropTagArray_ en appelant la [fonction MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -82,7 +82,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI utilise la méthode **IMAPITable:: QueryColumns** pour récupérer le jeu de colonnes actuel d'une table de sorte que l'utilisateur puisse le modifier.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oSetColumns  <br/> |MFCMAPI utilise la méthode **IMAPITable::QueryColumns** pour récupérer le jeu de colonnes actuel d’une table afin que l’utilisateur puisse la modifier.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

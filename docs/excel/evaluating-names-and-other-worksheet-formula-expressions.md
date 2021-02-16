@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- évaluation d'expression [Excel 2007], feuilles de calcul [Excel 2007], évaluation de nom, expressions d'évaluation [Excel 2007], évaluation des noms de feuilles de calcul [Excel 2007], expressions [Excel 2007], évaluation, noms [Excel 2007], évaluation, évaluation de nom [Excel 2007] , chaînes [Excel 2007], conversion en valeurs, fonction xlfEvaluate [Excel 2007], feuilles de calcul [Excel 2007], évaluation de l'expression
+- expression evaluation [excel 2007],worksheets [Excel 2007], name evaluation,evaluating expressions [Excel 2007],evaluating worksheet names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007], evaluating,name evaluation [Excel 2007],strings [Excel 2007], converting to values,xlfEvaluate function [Excel 2007],worksheets [Excel 2007], expression evaluation
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -20,7 +20,7 @@ ms.locfileid: "33406863"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-L'une des fonctionnalités les plus importantes qu'Excel expose via l'API C est la possibilité de convertir toute formule de chaîne pouvant être légalement entrée dans une feuille de calcul en une valeur ou un tableau de valeurs. Ceci est essentiel pour les fonctions et commandes XLL qui doivent lire le contenu de noms définis, par exemple. Cette fonctionnalité est exposée par le biais de la [fonction xlfEvaluate](xlfevaluate.md), comme illustré dans cet exemple.
+L’une des fonctionnalités les plus importantes exposées par Excel via l’API C est la possibilité de convertir toute formule de chaîne qui peut légalement être entrée dans une feuille de calcul en une valeur ou un tableau de valeurs. Cela est essentiel pour les fonctions et commandes XLL qui doivent lire le contenu des noms définis, par exemple. Cette capacité est exposée par le biais de la fonction [xlfEvaluate,](xlfevaluate.md)comme illustré dans cet exemple.
   
 ```C
 int WINAPI evaluate_name_example(void)
@@ -41,25 +41,25 @@ int WINAPI evaluate_name_example(void)
 }
 ```
 
-Notez que lorsque vous évaluez le nom d'une feuille de calcul, qu'il s'agisse de sa part ou d'une formule, vous devez faire précéder le nom de «!», au minimum. Dans le cas contraire, Excel essaie de trouver le nom dans un espace de noms masqué réservé pour les dll. Vous pouvez créer et supprimer des noms de DLL masqués à l'aide de la [fonction xlfSetName](xlfsetname.md). Vous pouvez obtenir la définition de n'importe quel nom défini, qu'il s'agisse d'un nom de DLL masqué ou d'un nom de feuille de calcul, à l'aide de la fonction **xlfGetDef** . 
+Notez que lorsque vous évaluez un nom de feuille de calcul, soit seul, soit dans une formule, vous devez au moins faire précéder le nom par « ! ». Sinon, Excel tente de trouver le nom dans un espace de noms masqué réservé aux DLL. Vous pouvez créer et supprimer des noms de DLL masqués à l’aide de la [fonction xlfSetName](xlfsetname.md). Vous pouvez obtenir la définition de n’importe quel nom défini, qu’il s’agit d’un nom DLL masqué ou d’un nom de feuille de calcul, à l’aide de la fonction **xlfGetDef.** 
   
-La spécification complète d'un nom de feuille de calcul prend la forme suivante:
+La spécification complète d’un nom de feuille de calcul se présente comme suit :
   
 `='C:\example folder\[Book1.xls]Sheet1'!Name`
   
-Notez qu'Excel 2007 a introduit un certain nombre de nouvelles extensions de fichiers. Vous pouvez omettre le chemin d'accès, le nom du classeur et le nom de la feuille où il n'y a aucune ambiguïté entre les classeurs ouverts dans cette session Excel. 
+Notez qu’Excel 2007 a introduit un certain nombre de nouvelles extensions de fichier. Vous pouvez omettre le chemin d’accès, le nom du workbook et le nom de la feuille sans ambiguïté entre les workbooks ouverts dans cette session Excel. 
   
-L'exemple suivant évalue la formule `COUNT(A1:IV65536)` de la feuille de calcul active et affiche le résultat. Remarque la nécessité de préfixer l'adresse de la plage avec «!», qui est cohérente avec la Convention de référence de plage sur les feuilles macro XLM. L'API C XLM suit la Convention suivante: 
+L’exemple suivant évalue la formule de la feuille de calcul active et  `COUNT(A1:IV65536)` affiche le résultat. Notez la nécessité de préfixer l’adresse de la plage par « ! » qui est cohérente avec la convention de référence de plage sur les feuilles macro XLM. La XME de l’API C suit cette convention : 
   
-- `=A1`Référence à la cellule a1 de la feuille macro active. (Non défini pour les XLL). 
+- `=A1` Référence à la cellule A1 de la feuille macro actuelle. (Non défini pour les XL). 
   
-- `=!A1`Référence à la cellule a1 de la feuille active (qui peut être une feuille de calcul ou une feuille macro) 
+- `=!A1` Référence à la cellule A1 de la feuille active (qui peut être une feuille de calcul ou une feuille macro) 
   
-- `=Sheet1!A1`Référence à la cellule a1 de la feuille spécifiée, Sheet1 dans ce cas. 
+- `=Sheet1!A1` Référence à la cellule A1 de la feuille spécifiée, Sheet1 dans ce cas. 
   
-- `=[Book1.xls]Sheet1!A1`Référence à la cellule a1 de la feuille spécifiée dans le classeur spécifié. 
+- `=[Book1.xls]Sheet1!A1` Référence à la cellule A1 de la feuille spécifiée dans le livre de travail spécifié. 
   
-Dans une XLL, une référence sans point d'exclamation de début (**!**) ne peut pas être convertie en valeur. Elle n'a aucune signification, car il n'existe pas de feuille macro active. Notez qu'un signe égal à gauche (**=**) est facultatif et n'est pas pris en compte dans l'exemple suivant.
+Dans une XLL, une référence sans point d’exclamation de début (**!**) ne peut pas être convertie en valeur. Elle n’a aucune signification, car il n’existe pas de feuille macro actuelle. Notez qu’un signe de début égal à ( ) est facultatif et **=** est omis dans l’exemple suivant.
   
 ```C
 int WINAPI evaluate_expression_example(void)
@@ -80,10 +80,10 @@ int WINAPI evaluate_expression_example(void)
 }
 ```
 
-Vous pouvez également utiliser la fonction **xlfEvaluate** pour récupérer l'ID d'enregistrement d'une fonction XLL à partir de son nom enregistré, qui peut ensuite être utilisé pour appeler cette fonction à l'aide de la [fonction xlUDF](xludf.md).
+Vous pouvez également utiliser la fonction **xlfEvaluate** pour récupérer l’ID d’inscription d’une fonction XLL à partir de son nom enregistré, qui peut ensuite être utilisé pour appeler cette fonction à l’aide de la fonction [xlUDF](xludf.md).
   
 > [!NOTE]
-> Le nom enregistré peut être passé directement à la fonction **xlUDF** . Cela signifie que vous pouvez éviter d'avoir à évaluer le nom pour obtenir l'ID avant d'appeler **xlUDF**. Toutefois, si la fonction doit être appelée plusieurs fois, son appel à l'aide de l'ID d'inscription est plus rapide. 
+> Le nom enregistré peut être transmis directement à la **fonction xlUDF.** Cela signifie que vous pouvez éviter d’avoir à évaluer le nom pour obtenir l’ID avant d’appeler **xlUDF**. Toutefois, si la fonction doit être appelée plusieurs fois, son appel à l’aide de l’ID d’inscription est plus rapide. 
   
 ## <a name="see-also"></a>Voir aussi
 

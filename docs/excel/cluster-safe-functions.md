@@ -1,5 +1,5 @@
 ---
-title: Fonctions sécurisées en cluster
+title: Fonctions sécurisées de cluster
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,37 +14,37 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409299"
 ---
-# <a name="cluster-safe-functions"></a>Fonctions sécurisées en cluster
+# <a name="cluster-safe-functions"></a>Fonctions sécurisées de cluster
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Dans Excel 2013, Excel peut décharger les appels UDF (fonction définie par l'utilisateur) vers un cluster informatique à hautes performances via une interface de connecteur de cluster dédiée. Les fournisseurs de cluster de calcul fournissent des connecteurs de cluster. Les auteurs de fichiers UDF peuvent déclarer les fichiers UDF comme étant sécurisés pour les clusters, puis, lorsqu'un connecteur de cluster est présent, Excel envoie des appels à ces UDF au connecteur de cluster pour le déchargement.
+Dans Excel 2013, Excel peut décharger les appels User-Defined Function (UDF) vers un cluster informatique hautes performances via une interface de connecteur de cluster dédiée. Les fournisseurs de clusters de calcul fournissent des connecteurs de cluster. Les auteurs UDF peuvent déclarer leurs UDF comme cluster-safe, puis, lorsqu’un connecteur de cluster est présent, Excel envoie des appels à ces UDF au connecteur de cluster pour le déchargement.
   
-Lorsqu'Excel trouve une FDU de cluster sécurisée lors du recalcul, il transmet le nom de la XLL qui est en cours d'exécution, le nom de la FDU de cluster sécurisée et tous les paramètres du connecteur de cluster. Le connecteur exécute l'appel UDF à distance et renvoie les résultats à Excel. Le calcul non dépendant continue et lorsque le connecteur de cluster a terminé d'exécuter le fichier UDF, il transmet les résultats à Excel et les calculs dépendants continuent. Le mécanisme de ce comportement asynchrone imite le mécanisme utilisé par les fonctions définies par l'utilisateur asynchrone, à l'exception du fait que le connecteur de cluster gère les aspects asynchrones au lieu de l'auteur de la FDU. En règle générale, un connecteur de cluster implémente un shim XLL pour charger des XLL et exécuter des fonctions UDF sur les nœuds de cluster de calcul.
+Lorsqu’Excel découvre une UDF sécurisée pour le cluster lors du recalcul, il transmet le nom de la XLL en cours d’exécution, le nom de l’UDF sécurisée pour le cluster et tous les paramètres au connecteur de cluster. Le connecteur exécute l’appel UDF à distance et renvoie les résultats à Excel. Les calculs non dépendants se poursuivent et lorsque le connecteur de cluster a terminé l’exécution de l’UDF, il transmet les résultats à Excel et les calculs dépendants se poursuivent. Le mécanisme de ce comportement asynchrone imite le mécanisme utilisé par les UDF asynchrones, sauf que le connecteur de cluster gère les aspects asynchrones au lieu de l’auteur UDF. En règle générale, un connecteur de cluster implémente un shim XLL pour charger des XLL et exécuter des UDF sur des nodes de cluster de calcul.
   
-Les mécanismes de déclaration des FDU comme étant sécurisés pour les clusters ressemblent à ceux de la déclaration de FDU en toute sécurité pour le recalcul multi-thread. Toutefois, étant donné que la FDU n'est pas nécessairement exécutée sur le même ordinateur que d'autres UDF à partir de la même session Excel, il y a différentes considérations à prendre en compte lors de l'écriture de FDU de cluster.
+Les mécanismes de déclaration des UDF comme étant sécurisés pour les clusters ressemblent à ceux de la déclaration d’UDF comme étant sûrs pour le recalcul multi-thread. Toutefois, étant donné que l’UDF n’est pas nécessairement en cours d’exécution sur le même ordinateur que d’autres UDF de la même session Excel, il existe différentes considérations lors de l’écriture de UDF sécurisées pour le cluster.
   
-Pour enregistrer une FDU comme étant sécurisée en clusters, vous devez appeler la fonction de rappel [xlfRegister (formulaire 1)](xlfregister-form-1.md) par le biais de l'interface **Excel12** ou **Excel12v** . Pour plus d'informations sur ces interfaces, voir [Excel4/Excel12](excel4-excel12.md) et [Excel4v/Excel12v](excel4v-excel12v.md). L'enregistrement d'une FDU en tant que sécurité de cluster via l'interface **Excel4** ou **Excel4v** n'est pas pris en charge. 
+Pour inscrire une UDF en tant que cluster-safe, vous devez appeler la fonction de rappel [xlfRegister (Formulaire 1)](xlfregister-form-1.md) via l’interface **Excel12** ou **Excel12v.** Pour plus d’informations sur ces interfaces, voir [Excel4/Excel12](excel4-excel12.md) et [Excel4v/Excel12v.](excel4v-excel12v.md) L’inscription d’une UDF en tant que cluster-safe via l’interface **Excel4** ou **Excel4v** n’est pas prise en charge. 
   
-Si vous enregistrez une fonction de manière sécurisée en cluster, vous devez vous assurer que la fonction se comporte de façon sécurisée en cluster. Bien que le comportement exact du connecteur de cluster soit propre à l'implémentation, vous devez concevoir votre fichier UDF pour qu'il s'exécute sur un système informatique distribué et présenter les caractéristiques suivantes:
+Si vous inscrivez une fonction en tant que cluster-safe, vous devez vous assurer que la fonction se comporte de manière sécurisée pour le cluster. Bien que le comportement exact du connecteur de cluster soit spécifique à l’implémentation, vous devez concevoir votre UDF de manière à ce qu’elle s’exécute sur un système informatique distribué et qu’elle présenterait les caractéristiques suivantes :
   
-- Une FDU ne doit pas reposer sur un état de la mémoire. Par exemple, un fichier UDF ne doit pas reposer sur un cache en mémoire existant.
+- Une UDF ne doit pas dépendre d’un état de mémoire. Par exemple, une UDF ne doit pas dépendre d’un cache en mémoire existant.
     
-- Une FDU ne doit pas effectuer de rappels Excel que le fournisseur de connecteur cluster ne prend pas en charge.
+- Une UDF ne doit pas effectuer de rappels Excel que le fournisseur de connecteur de cluster ne prend pas en charge.
     
-Outre le comportement de cluster sécurisé, il existe les restrictions techniques suivantes sur les UDF de cluster:
+Outre le comportement sécurisé des clusters, il existe les restrictions techniques suivantes sur les UDF sécurisées pour les clusters :
   
-1. Pas d'arguments XLOPER (types «P», «R»).
+1. Aucun argument XLOPER (types 'P', 'R').
     
-2. Aucun argument XLOPER12 prenant en charge les références de plage (tapez'U').
+2. Aucun argument XLOPER12 qui prise en charge les références de plage (type « U »).
     
-3. Ne peut pas être une fonction équivalente de feuille macro («&amp;#» et «» ne peuvent pas être combinées).
+3. Impossible d’être une fonction équivalente à une feuille macro (' # ' et &amp; ' ' cannot be combined).
     
-Pour les UDF avec des temps d'exécution plus courts, la charge de travail de déchargement peut être plus importante que le temps nécessaire à l'exécution du fichier UDF, ce qui annule la plupart des avantages de l'utilisation de cette infrastructure.
+Pour les UDF dont les durées d’exécution sont plus courtes, la surcharge du déchargement peut être supérieure au temps nécessaire à l’exécution de l’UDF, ce qui a pour effet de ne pas profiter de nombreux avantages de l’utilisation de cette infrastructure.
   
 > [!NOTE]
-> Vous ne pouvez pas déclarer une FDU de cluster sécurisée en tant que FDU asynchrone. 
+> Vous ne pouvez pas déclarer une UDF sécurisée pour le cluster en tant que UDF asynchrone. 
   
-Une FDU peut déterminer si elle est exécutée à l'aide d'un connecteur de cluster en appelant la fonction de rappel [xlRunningOnCluster](xlrunningoncluster.md) . 
+Une UDF peut déterminer si elle est en cours d’utilisation à l’aide d’un connecteur de cluster en appelant la fonction de rappel [xlRunningOnCluster.](xlrunningoncluster.md) 
   
 

@@ -19,11 +19,11 @@ ms.locfileid: "33406842"
 Renvoie l’identificateur (ID) de la police spécifiée.
   
 > [!NOTE]
-> Il est recommandé d'utiliser la fonction [font](font-function.md) , qui est similaire à la fonction **FONTTOID** . Dans Microsoft Visio 2013, la fonction de **police** a été introduite pour remplacer **FONTTOID**. 
+> Il est recommandé d’utiliser [la fonction FONT,](font-function.md) qui est similaire à la **fonction FONTTOID.** Dans Microsoft Visio 2013, la **fonction FONT** a été introduite pour remplacer **FONTTOID**. 
   
 ## <a name="syntax"></a>Syntaxe
 
-FONTTOID (* * *FONT_NAME* * *) 
+FONTTOID(** *font_name* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

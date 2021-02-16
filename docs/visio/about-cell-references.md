@@ -24,7 +24,7 @@ Dans la formule d’une cellule, vous pouvez faire référence à une cellule de
   
 ## <a name="what-cell-references-can-include"></a>Ce que peuvent inclure les références de cellule
 
-Les références de cellule peuvent inclure des noms ou des ID de forme. Il est toujours possible de faire référence à une forme par son ID, que la forme soit nommée ou non. Si une forme ne possède pas de nom, elle est par défaut identifiée par le nom Sheet. *i* , où *i* est l'ID de la forme. L'ID est attribué lors de la création de la forme et ne change pas à moins que vous ne déplaciez la forme vers une autre page ou un autre document. Si plusieurs formes de la même page portent le même nom, vous devez inclure l'ID attribué automatiquement. 
+Les références de cellule peuvent inclure des noms ou des ID de forme. Il est toujours possible de faire référence à une forme par son ID, que la forme soit nommée ou non. Si une forme ne possède pas de nom, elle est par défaut identifiée par le nom Sheet. *i*  , où  *i est*  l’ID de forme. L'ID est attribué lors de la création de la forme et ne change pas à moins que vous ne déplaciez la forme vers une autre page ou un autre document. Si plusieurs formes de la même page portent le même nom, vous devez inclure l'ID attribué automatiquement. 
   
 ## <a name="cell-reference-syntax-and-examples"></a>Syntaxe des références de cellule et exemples
 
@@ -39,16 +39,16 @@ La syntaxe à utiliser et la possibilité ou non de renvoyer à une cellule par 
 |**Pour faire référence à une cellule**|**Utilisez cette syntaxe**|**Exemple**|
 |:-----|:-----|:-----|
 |De la même forme  <br/> | CellName  <br/> | Largeur  <br/> |
-| D'une forme, d'un groupe ou d'un repère  <br/> | ShapeName! CellName  <br/> | Étoile! Angle  <br/> |
-| D'une forme, d'un groupe ou d'un repère nommé alors qu'il existe au même niveau plusieurs formes du même nom  <br/> | Shapename.ID! CellName  <br/> | Executive. 2! Standard  <br/> |
-| D'une colonne nommée avec des lignes indexées  <br/> | Section. Column [index]  <br/> | Char. font [3]  <br/> |
-| D'une colonne non nommée avec des lignes indexées  <br/> | Section. ColumnIndex  <br/> | Scratch. a5  <br/> |
-| De toute forme, page, forme de base ou style  <br/> | Sheet.ID! CellName  <br/> | Feuille. 8! FillForegnd  <br/> |
-| D'une forme de base  <br/> | Masters [MasterName]! Nom_feuille! CellReference  <br/> | Masters [Gear]! Fût! Geometry1. x1  <br/> |
-| De la page ou de la page de forme de base sur laquelle se trouve l'objet  <br/> | ThePage! CellReference  <br/> | ThePage! User. Vanishing_Point  <br/> |
-| D'une autre page du document  <br/> | Pages [PageName]! Nom_feuille! CellReference  <br/> | Pages [page-3]! Feuille. 4! BeginX  <br/> |
-| D'un style  <br/> | Proposés! Nom_feuille! CellReference  <br/> | Proposés! Dirigeant! LineColor  <br/> |
+| D'une forme, d'un groupe ou d'un repère  <br/> | Shapename! CellName  <br/> | étoile! Angle  <br/> |
+| D'une forme, d'un groupe ou d'un repère nommé alors qu'il existe au même niveau plusieurs formes du même nom  <br/> | Shapename.ID ! CellName  <br/> | Executive.2! Height  <br/> |
+| D'une colonne nommée avec des lignes indexées  <br/> | Section.Column[index]  <br/> | Char.Font[3]  <br/> |
+| D'une colonne non nommée avec des lignes indexées  <br/> | Section.ColumnIndex  <br/> | Scratch.A5  <br/> |
+| De toute forme, page, forme de base ou style  <br/> | Sheet.ID ! CellName  <br/> | Sheet.8! FillForegnd  <br/> |
+| D'une forme de base  <br/> | Masters[MasterName]! SheetName! CellReference  <br/> | Masters[Gear]! C’est le cas ! Geometry1.X1  <br/> |
+| De la page ou de la page de forme de base sur laquelle se trouve l'objet  <br/> | ThePage! CellReference  <br/> | ThePage! User.Vanishing_Point  <br/> |
+| D'une autre page du document  <br/> | Pages[PageName]! SheetName! CellReference  <br/> | Pages[Page-3]! Sheet.4! BeginX  <br/> |
+| D'un style  <br/> | Styles ! SheetName! CellReference  <br/> | Styles ! Responsable ! LineColor  <br/> |
 | Du document  <br/> | TheDoc! CellReference  <br/> | TheDoc! PreviewQuality  <br/> |
-| D'une forme, d'une page, d'une forme de base, d'un document ou d'un style dont le nom n'est pas standard  <br/> | 'Nom_feuille'! CellName  <br/> | ' 1-D'! LineColor  <br/> |
+| D'une forme, d'une page, d'une forme de base, d'un document ou d'un style dont le nom n'est pas standard  <br/> | « Sheetname » ! CellName  <br/> | '1-D'! LineColor  <br/> |
    
 

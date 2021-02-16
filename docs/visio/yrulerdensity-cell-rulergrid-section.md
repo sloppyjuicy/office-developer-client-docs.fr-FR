@@ -1,5 +1,5 @@
 ---
-title: Cellule YRulerDensity (section &amp; règle et grille)
+title: YRulerDensity, cellule (section Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,22 +16,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406800"
 ---
-# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Cellule YRulerDensity (section &amp; règle et grille)
+# <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>YRulerDensity, cellule (section Ruler &amp; Grid)
 
 Définit les graduations verticales de la règle pour la page.
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visRulerFixed** <br/> |
-|8 (&amp;H8)  <br/> |Grossier  <br/> |**visRulerCoarse** <br/> |
+|8 ( &amp; H8)  <br/> |Entâyé  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |Normal (valeur par défaut)  <br/> |**visRulerNormal** <br/> |
-|32 (&amp;H20)  <br/> |Précisément  <br/> |**visRulerFine** <br/> |
+|32 ( &amp; H20)  <br/> |Fine  <br/> |**visRulerFine** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l'option sous- **divisions** verticales de la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l’option **Subdivisions verticales** dans  la boîte de dialogue **&amp; Grille** de règles (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
   
-Pour obtenir une référence à la cellule YRulerDensity par un nom dans une autre formule ou dans un programme en faisant appel à la propriété**CellsU**, utilisez : 
+Pour obtenir une référence à la cellule YRulerDensity par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule YRulerDensity par index dans un progr
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visYRulerDensity** <br/> |
    

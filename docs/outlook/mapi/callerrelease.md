@@ -25,13 +25,13 @@ ms.locfileid: "33408725"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel qui peut publier un objet de données de tableau lors de la publication d'un affichage de tableau. 
+Définit une fonction de rappel qui peut libérer un objet de données de table lorsqu’une vue de table est relâchée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
-|Fonction définie implémentée par:  <br/> |Applications clientes et fournisseurs de services  <br/> |
-|Fonction définie appelée par:  <br/> |MAPI  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
+|Fonction définie implémentée par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
+|Fonction définie appelée par :  <br/> |MAPI  <br/> |
    
 ```cpp
 void CALLERRELEASE(
@@ -45,15 +45,15 @@ void CALLERRELEASE(
 
  _ulCallerData_
   
-> dans Données de l'appelant enregistrées par MAPI avec la vue de table et transmises à la fonction de rappel basée sur **CALLERRELEASE** . Les données fournissent un contexte sur l'affichage tableau en cours de publication. 
+> [in] Données de l’appelant enregistrées par MAPI avec l’affichage Table et transmises à la fonction de rappel basée sur **CALLERRELEASE.** Les données fournissent un contexte sur la vue de table en cours de publication. 
     
  _lpTblData_
   
-> dans Pointeur vers l'interface [ITableData: IUnknown](itabledataiunknown.md) pour l'objet de données de tableau sous-jacent de la vue de tableau en cours de publication. 
+> [in] Pointeur vers [l’interface ITableData : IUnknown](itabledataiunknown.md) pour l’objet de données de table sous-jacent à la vue de table relâchée. 
     
  _lpVue_
   
-> dans Pointeur vers l'interface [IMAPITable: IUnknown](imapitableiunknown.md) pour l'affichage tableau en cours de publication. Il s'agit d'une interface pour l'objet Table renvoyé dans le paramètre _lppMAPITable_ de la méthode [ITableData:: HrGetView](itabledata-hrgetview.md) qui a créé l'objet à libérer. 
+> [in] Pointeur vers [l’interface IMAPITable : IUnknown](imapitableiunknown.md) pour la vue de table en cours de publication. Il s’agit d’une interface pour l’objet table renvoyé dans le paramètre  _lppMAPITable_ de la méthode [ITableData::HrGetView](itabledata-hrgetview.md) qui a créé l’objet à libérer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,8 +61,8 @@ Aucun
   
 ## <a name="remarks"></a>Remarques
 
-Une application cliente ou un fournisseur de services qui a rempli un objet de données de table peut appeler [ITableData:: HrGetView](itabledata-hrgetview.md) pour créer une vue triée en lecture seule de la table. L'appel à **HrGetView** transmet un pointeur vers une fonction de rappel basée sur **CALLERRELEASE** et également un contexte à enregistrer avec la vue de table. Lorsque le décompte de références de l'affichage de tableau est remis à zéro et que la vue est publiée, l'implémentation de la méthode **IMAPITable** appelle la fonction de rappel, en transmettant le contexte dans le paramètre _ulCallerData_ . 
+Une application cliente ou un fournisseur de services qui a rempli un objet de données de table peut appeler [ITableData::HrGetView](itabledata-hrgetview.md) pour créer une vue triée en lecture seule de la table. L’appel **à HrGetView** transmet un pointeur à une fonction de rappel basée sur **CALLERRELEASE,** ainsi qu’un contexte à enregistré avec l’affichage Tableau. Lorsque le nombre de références de l’affichage Table revient à zéro et que l’affichage est libéré, l’implémentation **IMAPITable** appelle la fonction de rappel, en passant le contexte dans le paramètre _ulCallerData._ 
   
-Une utilisation courante d'une fonction de rappel basée sur **CALLERRELEASE** consiste à libérer l'objet de données de la table sous-jacente et à ne pas le suivre pendant un traitement ultérieur. 
+Une utilisation courante d’une fonction de rappel basée sur **CALLERRELEASE** consiste à libérer l’objet de données de table sous-jacent et à ne pas avoir à le suivre lors du traitement ultérieur. 
   
 

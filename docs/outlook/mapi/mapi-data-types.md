@@ -23,11 +23,11 @@ ms.locfileid: "33408795"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les entrées alphabétiques suivantes contiennent une documentation sur les types de données utilisés dans les méthodes, les fonctions et les structures MAPI. 
+Les entrées alphabétisées suivantes contiennent de la documentation pour les types de données utilisés dans les méthodes, fonctions et structures MAPI. 
   
 ||
 |:-----|
-|[BOOKMARK](bookmark.md) <br/> |
+|[Signet](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |
 |[DNTBL](dntbl.md) <br/> |
 |[DNTBLE](dntble.md) <br/> |
@@ -48,7 +48,7 @@ Les entrées alphabétiques suivantes contiennent une documentation sur les type
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[SYNCHRONI](sync.md) <br/> |
+|[SYNC](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
 |[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |

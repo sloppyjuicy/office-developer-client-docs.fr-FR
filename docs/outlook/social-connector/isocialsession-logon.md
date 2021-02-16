@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8b3c9a23-6378-4054-ad1c-193fc15c473c
-description: Ouvre une session sur le site du réseau social en utilisant le nom d'utilisateur et le mot de passe spécifiés.
+description: Se connecte au site de réseau social à l’aide du nom d’utilisateur et du mot de passe spécifiés.
 ms.openlocfilehash: 7915097e456d6fafa713901f8074e6531bfaa001
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "32361039"
 ---
 # <a name="isocialsessionlogon"></a>ISocialSession::Logon
 
-Ouvre une session sur le site du réseau social en utilisant le nom d'utilisateur et le mot de passe spécifiés.
+Se connecte au site de réseau social à l’aide du nom d’utilisateur et du mot de passe spécifiés.
   
 ```cpp
 HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
@@ -25,13 +25,13 @@ HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
 
 ## <a name="parameters"></a>Paramètres
 
-_d_
+_username_
   
-> dans Chaîne qui contient le nom d'utilisateur auquel se connecter.
+> [in] Chaîne qui contient le nom d’utilisateur à connecter.
     
 _mot de passe_
   
-> dans Chaîne qui contient le mot de passe pour se connecter.
+> [in] Chaîne qui contient le mot de passe pour se connecter.
     
 ## <a name="see-also"></a>Voir aussi
 

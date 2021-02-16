@@ -1,5 +1,5 @@
 ---
-title: Reconfiguration d'un fournisseur de transport
+title: Reconfiguration d’un fournisseur de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,26 +15,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408409"
 ---
-# <a name="reconfiguring-a-transport-provider"></a>Reconfiguration d'un fournisseur de transport
+# <a name="reconfiguring-a-transport-provider"></a>Reconfiguration d’un fournisseur de transport
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Vous pouvez utiliser l'objet d'état d'un fournisseur de transport pour modifier certaines des propriétés du fournisseur. La plage de propriétés qui peut être modifiée dépend des propriétés incluses dans la feuille des propriétés du fournisseur et de la façon dont ces propriétés sont définies. 
+Vous pouvez utiliser l’objet d’état d’un fournisseur de transport pour modifier certaines propriétés du fournisseur. La plage de propriétés qui peut être modifiée dépend des propriétés incluses dans la feuille des propriétés du fournisseur et de la façon dont ces propriétés sont définies. 
   
  **Pour reconfigurer un fournisseur de transport actif**
   
-1. Appelez [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) pour accéder à la table d'État. 
+1. Appelez [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour accéder à la table d’état. 
     
-2. Localisez la ligne du fournisseur de transport qui doit être reconfigurée en créant une restriction de propriété qui correspond à **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) avec le nom du fournisseur cible. 
+2. Recherchez la ligne du fournisseur de transport à reconfigurer en créant une restriction de propriété qui correspond à **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) avec le nom du fournisseur cible. 
     
-3. Appelez [IMAPITable:: FindRow](imapitable-findrow.md) pour récupérer la ligne appropriée. 
+3. Appelez [IMAPITable::FindRow](imapitable-findrow.md) pour récupérer la ligne appropriée. 
     
-4. Vérifiez que les indicateurs STATUS_SETTINGS_DIALOG et STATUS_VALIDATE_STATE sont définis dans la propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) du fournisseur de transport cible. Si STATUS_SETTINGS_DIALOG n'est pas défini, le fournisseur de transport n'affiche pas de feuille de propriétés de configuration. Si STATUS_VALIDATE_STATE n'est pas défini, vous ne pouvez pas effectuer une reconfiguration dynamique.
+4. Vérifiez que les indicateurs STATUS_SETTINGS_DIALOG et STATUS_VALIDATE_STATE sont définies dans la propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) du fournisseur de transport cible. Si STATUS_SETTINGS_DIALOG n’est pas définie, le fournisseur de transport n’affiche pas de feuille des propriétés de configuration. Si STATUS_VALIDATE_STATE n’est pas définie, vous ne pouvez pas effectuer de reconfiguration dynamique.
     
-5. Si STATUS_SETTINGS_DIALOG est défini, appelez [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) pour afficher la feuille de propriétés du fournisseur de transport et permettre à l'utilisateur d'effectuer des modifications. 
+5. Si STATUS_SETTINGS_DIALOG est définie, appelez [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) pour afficher la feuille des propriétés du fournisseur de transport et permettre à l’utilisateur d’apporter des modifications. 
     
-6. Une fois que l'utilisateur a terminé la reconfiguration, appelez [IMAPIStatus:: ValidateState](imapistatus-validatestate.md) si STATUS_VALIDATE_STATE est défini, en passant CONFIG_CHANGED. 
+6. Une fois que l’utilisateur a terminé la reconfiguration, appelez [IMAPIStatus::ValidateState](imapistatus-validatestate.md) si STATUS_VALIDATE_STATE est définie, en passant CONFIG_CHANGED. 
     
 

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
-description: 'Dernière modification: 08 08, 2011'
+description: 'Last modified: November 08, 2011'
 ms.openlocfilehash: 6583765d4df7c7bfae9e7a62606beaa857874954
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -23,7 +23,7 @@ ms.locfileid: "33408347"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Enregistre les fichiers de dossiers personnels (. pst) pour le déverrouillage automatique, en évitant d'autres appels à HrTrustedPSTOverrideHandlerCallback.
+Enregistre les fichiers de dossiers personnels (.pst) pour le déverrouillage automatique, en évitant d’autres appels à HrTrustedPSTOverrideHandlerCallback.
   
 ```cpp
 HRESULT SetPersistedRegistrations(
@@ -35,27 +35,27 @@ HRESULT SetPersistedRegistrations(
 
 _pmval_
   
-> dans Une structure [SPropValue](spropvalue.md) qui contient un pointeur vers le chemin d'accès de la bibliothèque de liens dynamiques (dll) à enregistrer. La structure présente les caractéristiques suivantes: 
+> [in] Structure [SPropValue](spropvalue.md) qui contient un pointeur vers le chemin d’accès de la bibliothèque de liens dynamiques (DLL) à inscrire. La structure présente les caractéristiques suivantes : 
     
    - UlPropTag de [PROP_TAG](prop_tag.md)(PT_MV_UNICODE, PROP_ID_NULL).
     
-   - Propriété de valeur MVszW définie sur un tableau de chaînes de caractères Unicode terminées par un caractère null. Pour plus d'informations, consultez la rubrique [SWStringArray](swstringarray.md) . 
+   - Propriété de valeur MVszW définie sur un tableau de chaînes de caractères Unicode terminées par null. Pour plus d’informations, [voir la rubrique SWStringArray.](swstringarray.md) 
     
 > [!NOTE]
-> Le SPropValue est stocké dans une propriété MAPI dans la plage interne du PST. Cette propriété n'est pas accessible aux applications MAPI ordinaires. 
+> La valeur SPropValue est stockée dans une propriété MAPI dans la plage interne du PST. Cette propriété n’est pas accessible aux applications MAPI ordinaires. 
   
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel de la fonction a réussi.
+> L’appel de fonction a réussi.
     
 ## <a name="remarks"></a>Remarques
 
-Les enregistrements rendus persistants peuvent avoir un impact négatif sur les performances des applications, telles que Outlook et Windows Desktop Search, qui ouvrent des fichiers PST. Tenez compte de l'impact sur les performances lors de l'utilisation ou du développement de l'utilisation des enregistrements rendus persistants.
+Les inscriptions persistantes peuvent nuire aux performances des applications, telles qu’Outlook et Windows Desktop Search, qui ouvrent des PST. Prenons en compte l’impact sur les performances lors de l’utilisation ou de l’extension de l’utilisation d’inscriptions persistantes.
   
 > [!IMPORTANT]
-> Cette méthode est implémentée uniquement pour Unicode. De plus, il échouera de manière préventive si l'un des chemins d'accès dans le tableau n'a pas d'extension de nom de fichier. dll. 
+> Cette méthode est implémentée pour Unicode uniquement. En outre, elle échouera de manière préemptive si l’un des chemins d’accès du tableau n’a pas d’extension de nom de fichier .dll. 
   
 ## <a name="see-also"></a>Voir aussi
 

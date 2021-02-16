@@ -28,7 +28,7 @@ Le niveau d’affichage scinde les formes en regroupements, ou bandes. Toutes le
   
 La plage des niveaux d’affichage varie de -32 767 à +32 767. Les formes ayant le même niveau d’affichage sont combinées dans une bande unique, dans laquelle elles sont également classées de manière relative l’une par rapport à l’autre par ordre de plan.
   
-Vous pouvez modifier l'ordre de plan des formes au sein d'une bande à l'aide des commandes **avancer**, **Envoyer**vers l'arrière, **mettre au premier plan**et **Envoyer à l'arrière**-plan. Si ces commandes déplacent une forme en dehors de sa bande donnée, Microsoft Visio affiche la valeur réservée -32 768 dans la cellule DisplayLevel de la forme, à moins que la cellule ne soit protégée. Dans ce cas, la forme ne peut pas être déplacée sur une autre bande et Visio affiche l’avertissement « La protection de la forme et/ou les propriétés de la couche empêchent de terminer l’exécution de cette commande ». 
+Vous pouvez modifier l’ordre de plan des formes au sein d’une bande à l’aide des commandes **Avancer,** Envoyer vers l’arrière, Mettre au premier **plan** et Envoyer à **l’arrière.** Si ces commandes déplacent une forme en dehors de sa bande donnée, Microsoft Visio affiche la valeur réservée -32 768 dans la cellule DisplayLevel de la forme, à moins que la cellule ne soit protégée. Dans ce cas, la forme ne peut pas être déplacée sur une autre bande et Visio affiche l’avertissement « La protection de la forme et/ou les propriétés de la couche empêchent de terminer l’exécution de cette commande ». 
   
 Pour obtenir une référence à la cellule DisplayLevel par le nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule DisplayLevel à l’aide d’un index
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 |Index de la cellule :  <br/> |**visSLODisplayLevel** <br/> |
    

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d96b5f8b-a011-6461-3b5a-f38699cb736c
-description: Ce membre est un espace réservé et n'est pas pris en charge.
+description: Ce membre est un espace réservé et n’est pas pris en charge.
 ms.openlocfilehash: afc5a5b8835017d1d06790a0f04757cd0e7ad84d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33408907"
 ---
 # <a name="ifreebusysupportplaceholder4"></a>IFreeBusySupport::Placeholder4
 
-Ce membre est un espace réservé et n'est pas pris en charge.
+Ce membre est un espace réservé et n’est pas pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -32,7 +32,7 @@ HRESULT Placeholder4(
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Toujours E_NOTIMPL, car ce membre est un espace réservé et n'est pas pris en charge.
+Toujours E_NOTIMPL, car ce membre est un espace réservé et n’est pas pris en charge.
   
 ## <a name="remarks"></a>Remarques
 
@@ -40,7 +40,7 @@ Ce membre doit renvoyer E_NOTIMPL.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Constantes (API de disponibilité)](constants-free-busy-api.md)
+- [Constantes (API de libre/occupé)](constants-free-busy-api.md)
 - [FBUser](fbuser.md) 
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Affichage des alertes et des boîtes de dialogue à l'aide du modèle objet InfoPath 2003
+title: Afficher des alertes et des boîtes de dialogue à l’aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409481"
 ---
-# <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>Affichage des alertes et des boîtes de dialogue à l'aide du modèle objet InfoPath 2003
+# <a name="display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model"></a>Afficher des alertes et des boîtes de dialogue à l’aide du modèle objet InfoPath 2003
 
 Lorsque vous écrivez du code pour développer les fonctionnalités d'un modèle de formulaire utilisant le modèle objet InfoPath 2003, il est souvent utile de communiquer des informations aux utilisateurs par l'intermédiaire de boîtes de dialogue. L'affichage par programme d'une boîte de dialogue et des éléments de l'interface utilisateur dans InfoPath se fait au moyen des méthodes de l'interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) . 
   
@@ -25,12 +25,12 @@ L'interface [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Inter
   
 |Nom|Description|
 |:-----|:-----|
-|[Attirer](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Affiche une boîte de message unique contenant une chaîne de message spécifiée. Cette méthode est recommandée lorsqu'aucune action de la part de l'utilisateur n'est requise et qu'un simple message doit être affiché. Cette boîte de dialogue se ferme lorsque l'utilisateur clique sur le bouton **OK**.<br/> |
-|[Confirm](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Affiche une boîte de message contenant des boutons qui permettent aux utilisateurs d'effectuer des entrées. La valeur renvoyée est l'une des constantes énumérées [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) .  <br/> |
+|[Alerte](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) <br/> |Affiche une boîte de message unique contenant une chaîne de message spécifiée. Cette méthode est recommandée lorsqu'aucune action de la part de l'utilisateur n'est requise et qu'un simple message doit être affiché. Cette boîte de dialogue se ferme lorsque l'utilisateur clique sur le bouton **OK**.<br/> |
+|[Confirm](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Confirm.aspx) <br/> |Affiche une boîte de message contenant des boutons qui permettent aux utilisateurs d'effectuer des entrées. La valeur renvoyée est l’une des constantes [XdConfirmChoice](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdConfirmChoice.aspx) éumées.  <br/> |
 |[SetSaveAsDialogFileName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogFileName.aspx) <br/> |Définit le nom de fichier par défaut d'un formulaire dans la boîte de dialogue **Enregistrer sous**.  <br/> |
 |[SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.SetSaveAsDialogLocation.aspx) <br/> |Définit l'emplacement de recherche initial de la boîte de dialogue **Enregistrer sous**, lors de son ouverture.  <br/> |
-|[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Crée un message électronique dans l'application de messagerie par défaut, avec le formulaire actuellement ouvert joint au message.  <br/> |
-|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Affiche une boîte de dialogue qui exige une réponse de l'utilisateur, sur la base du fichier HTML et des arguments de position spécifiés. Cette méthode doit être utilisée si vous voulez afficher plus qu'un simple message à l'utilisateur et que vous avez besoin de récupérer des données de l'utilisateur (au-delà de la simple confirmation fournie par le **Oui** ). | **Non** | Boutons **Annuler** affichés par la méthode **Confirm** ).  <br/> |
+|[ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowMailItem.aspx) <br/> |Crée un message électronique dans l’application de messagerie par défaut, avec le formulaire actuellement ouvert joint au message.  <br/> |
+|[ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) <br/> |Affiche une boîte de dialogue qui exige une réponse de l'utilisateur, sur la base du fichier HTML et des arguments de position spécifiés. Cette méthode doit être utilisée si vous souhaitez afficher plus qu’un simple message à l’utilisateur et que vous  devez obtenir des données de l’utilisateur (au-delà de la simple confirmation fournie par le oui | **Non** | **Boutons d’annulation** affichés par la **méthode Confirm).**  <br/> |
 |[ShowSignatureDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowSignatureDialog.aspx) <br/> |Affiche la boîte de dialogue intégrée **Signatures numériques**.  <br/> |
    
 ## <a name="using-the-uiobject-interface"></a>Utilisation de l'interface UIObject
@@ -102,6 +102,6 @@ function BtnClick()
 ```
 
 > [!IMPORTANT]
-> [!IMPORTANTE] La méthode [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) nécessite une confiance totale pour pouvoir être exécuté ou afficher un aperçu. Pour plus d'informations, consultez la rubrique [Aperçu et débogage des modèles de formulaire qui nécessitent une confiance totale](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> [!IMPORTANTE] La méthode [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) nécessite une confiance totale pour pouvoir être exécuté ou afficher un aperçu. Pour plus d’informations, voir Les modèles de formulaires d’aperçu et de [débogage qui nécessitent une confiance totale.](how-to-preview-and-debug-form-templates-that-require-full-trust.md) 
   
 

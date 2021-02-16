@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 366ade40-e89f-49b6-b4be-4e4967dbacbf
-description: Détermine le jeu d'effets du thème appliqué à une forme sous la forme d'un entier.
+description: Détermine le modèle d’effet du thème appliqué à une forme, sous la forme d’un nombre integer.
 ms.openlocfilehash: 0d8ed18ca960868b1cd27abe517bfea99e1f2318
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,22 +16,22 @@ ms.locfileid: "33409271"
 ---
 # <a name="effectschemeindex-cell-theme-properties-section"></a>EffectSchemeIndex Cell (Theme Properties Section)
 
-Détermine le jeu d'effets du thème appliqué à une forme sous la forme d'un entier.
+Détermine le modèle d’effet du thème appliqué à une forme, sous la forme d’un nombre integer.
   
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **EffectSchemeIndex** par un nom à partir d'une autre formule, par valeur de l'attribut **N** d'un élément de **cellule** ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
+Pour obtenir une référence à la cellule **EffectSchemeIndex** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de cellule :  <br/> | EffectSchemeIndex  <br/> |
    
-Pour obtenir une référence à la cellule **EffectSchemeIndex** à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants: 
+Pour obtenir une référence à la cellule **EffectSchemeIndex** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowThemeProperties** <br/> |
-| Index de la cellule :  <br/> |* * visEffectSchemeIndex * * <br/> |
+| Index de la cellule :  <br/> |**visEffectSchemeIndex ** <br/> |
    
 

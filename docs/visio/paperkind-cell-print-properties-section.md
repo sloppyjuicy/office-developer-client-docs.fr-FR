@@ -22,9 +22,9 @@ Indique le type de papier sur lequel imprimer la page.
   
 ## <a name="remarks"></a>Remarques
 
-Ce paramètre correspond au paramètre **taille du papier** de la boîte de dialogue Configuration de l' **impression** (sous l'onglet **création** , cliquez sur la flèche **mise en page** , puis, sous l'onglet **configuration** , cliquez sur le bouton **configuration** ). 
+Ce paramètre correspond au paramètre Taille du papier de  la boîte de dialogue Configuration de l’impression (sous  l’onglet Création, cliquez sur la flèche Mise en **page,** puis sous l’onglet Configuration de l’impression, cliquez sur le bouton Installation).    
   
-Les valeurs numériques de cette cellule correspondent aux constantes (portant le préfixe DMPAPER) définies pour les sélections de papier dans le fichier Microsoft Windows WinGDI. h. 
+Les valeurs numériques de cette cellule sont m mappés à des constantes (préfixées par DMPAPER) définies pour les sélections de papier dans le fichier Microsoft Windows wingdi.h. 
   
 Pour obtenir une référence à la cellule PaperKind par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -36,7 +36,7 @@ Pour obtenir une référence à la cellule PaperKind à l'aide d'un index à par
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPrintProperties** <br/> |
 |Index de la cellule :  <br/> |**visPrintPropertiesPaperKind** <br/> |
    

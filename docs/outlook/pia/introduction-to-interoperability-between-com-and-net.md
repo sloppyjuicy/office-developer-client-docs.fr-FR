@@ -1,5 +1,5 @@
 ---
-title: Introduction à l’interopérabilité entre COM et .NET
+title: Introduction à l'interopérabilité entre COM et .NET
 TOCTitle: Introduction to interoperability between COM and .NET
 ms:assetid: 6b2d099a-ec6f-4099-aaf6-e61003fe5a32
 ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610378(v=office.15)
@@ -40,7 +40,7 @@ Figure 1 illustre un client géré qui veut utiliser une bibliothèque de type C
   
 D'une manière générale, dès que vous définissez une référence à une bibliothèque de types, Visual Studio génère une copie d'un assembly d'interopérabilité pour cette bibliothèque. Il peut exister un nombre quelconque d'assemblys d'interopérabilité pour décrire le même type COM. Toutefois, une bibliothèque de types ne peut avoir qu'un seul assembly PIA qui est l'assembly d'interopérabilité publié par elle-même. À la différence des autres assemblys d'interopérabilité, l'assembly PIA n'est pas généré à chaque ajout d'une référence dans Visual Studio. En effet, vous installez l'assembly PIA dans le Global Assembly Cache (GAC) une seule fois sur un ordinateur. Lorsque vous ajoutez une référence à la bibliothèque de types, Visual Studio charge automatiquement l'assembly PIA.
 
-Pour programmer une solution gérée pour Outlook, vous devez utiliser le PIA d’Outlook. Pour incorporer des informations provenant de l'assembly PIA Outlook dans un complément managé, vous devez commencer par installer l'assembly PIA Outlook dans le GAC. Si vous utilisez Visual Studio pour créer le projet managé, après avoir ajouté une référence à la bibliothèque de types Outlook, Visual Studio charge l'assembly PIA. Dans l'Explorateur d'objets, sous l'espace de noms Microsoft.Office.Interop.Outlook, sont affichées les interfaces managées dont les noms correspondent à des objets dans le modèle objet Outlook. Par exemple, l’interface compte correspond à l’objet**compte** dans le modèle objet Outlook. Lorsque vous compilez le projet géré, cette information est incorporée dans votre fichier exécutable.
+Pour programmer une solution gérée pour Outlook, vous devez utiliser le PIA d’Outlook. Pour incorporer des informations provenant de l'assembly PIA Outlook dans un complément managé, vous devez commencer par installer l'assembly PIA Outlook dans le GAC. Si vous utilisez Visual Studio pour créer le projet managé, après avoir ajouté une référence à la bibliothèque de types Outlook, Visual Studio charge l'assembly PIA. Dans l'Explorateur d'objets, sous l'espace de noms Microsoft.Office.Interop.Outlook, sont affichées les interfaces managées dont les noms correspondent à des objets dans le modèle objet Outlook. Par exemple, l’interface compte correspond à l’objet **compte** dans le modèle objet Outlook. Lorsque vous compilez le projet géré, cette information est incorporée dans votre fichier exécutable.
 
 ### <a name="run-time"></a>Temps d’exécution
 

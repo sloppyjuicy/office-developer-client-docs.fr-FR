@@ -25,7 +25,7 @@ ms.locfileid: "33408767"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Génère des rapports de remise et de livraison.
+Génère des rapports de remise et de non remise.
   
 ```cpp
 HRESULT StatusRecips(
@@ -38,11 +38,11 @@ LPADRLIST lpRecipList
 
  _lpMessage_
   
-> dans Pointeur vers le message pour lequel le rapport doit être généré.
+> [in] Pointeur vers le message pour lequel le rapport doit être généré.
     
  _lpRecipList_
   
-> dans Pointeur vers une structure [ADRLIST](adrlist.md) qui décrit les destinataires du message désigné par _lpMessage_.
+> [in] Pointeur vers une structure [ADRLIST](adrlist.md) qui décrit les destinataires du message pointés par  _lpMessage_.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -52,21 +52,21 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> L'appel a réussi globalement, mais il n'y a pas d'options de destinataire pour ce type de destinataire. Lorsque cet avertissement est renvoyé, l'appel doit être géré comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d'informations, consultez la rubrique [utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md).
+> L’appel a réussi globalement, mais il n’existe aucune option de destinataire pour ce type de destinataire. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: StatusRecips** est implémentée pour les objets de prise en charge du fournisseur de transport. Les fournisseurs de transport appellent **StatusRecips** pour demander que MAPI envoie un rapport de remise ou de non-remise à un ensemble d'un ou de plusieurs destinataires d'un message. 
+La **méthode IMAPISupport::StatusRecips est** implémentée pour les objets de prise en charge du fournisseur de transport. Les fournisseurs de transport **appellent StatusRecips** pour demander à MAPI d’envoyer un rapport de remise ou de non remise à un ensemble d’un ou plusieurs destinataires d’un message. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez appeler **StatusRecips** plusieurs fois pendant le traitement d'un message. Toutefois, si vous appelez **StatusRecips** pour un message ouvert, vous pouvez collecter toutes les informations de remise et de non-remise pour les destinataires du message et appeler **StatusRecips** pour cette liste de destinataires. Un seul point de collection est important, car plusieurs appels **StatusRecips** pour un destinataire peuvent entraîner l'envoi de plusieurs rapports identiques. 
+Vous pouvez appeler **StatusRecips plusieurs** fois pendant le traitement d’un message. Toutefois, si vous appelez **StatusRecips** pour un message ouvert, faites de votre mieux pour collecter toutes les informations de remise et de remise pour les destinataires du message et appeler **StatusRecips** pour cette liste de destinataires. Un point de collecte unique est important, car plusieurs appels **StatusRecips** pour un destinataire peuvent entraîner l’envoi de plusieurs rapports identiques. 
   
-Stockez les propriétés liées à la remise ou non à la remise des messages dans la structure **ADRLIST** indiquée par le paramètre _lpRecipList_ . Pour obtenir la liste complète des propriétés requises et facultatives pour les rapports de remise et les rapports de non-remise, voir [Required Report message](required-report-message-properties.md) Properties et [Optional Report Message Properties](optional-report-message-properties.md). 
+Stockez les propriétés liées à la remise ou à la non remise des messages dans la structure **ADRLIST** indiquée par _le paramètre lpRecipList._ Pour obtenir la liste complète des propriétés obligatoires et facultatives pour les rapports de remise et les rapports non remise, voir [Propriétés](required-report-message-properties.md) de message de rapport requises et [propriétés facultatives](optional-report-message-properties.md)du message de rapport. 
   
-AlLouez de la mémoire pour la structure **ADRLIST** dans _lpRecipList_ à l'aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore](mapiallocatemore.md) . MAPI libère la mémoire en appelant la fonction [MAPIFreeBuffer](mapifreebuffer.md) uniquement si **StatusRecips** réussit. 
+Allouez de la mémoire pour la structure **ADRLIST** dans _lpRecipList_ à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore.](mapiallocatemore.md) MAPI libère la mémoire en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) uniquement si **StatusRecips** réussit. 
   
-Pour obtenir une vue d'ensemble des rapports de remise et de non-remise, consultez la rubrique [MAPI Report messages](mapi-report-messages.md).
+Pour une vue d’ensemble des rapports de remise et de non remise, voir [MESSAGES de rapport MAPI](mapi-report-messages.md).
   
 ## <a name="see-also"></a>Voir aussi
 

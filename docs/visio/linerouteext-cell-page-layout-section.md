@@ -23,8 +23,8 @@ Détermine l'aspect par défaut de tous les connecteurs d'une page de dessin.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Par défaut (droit)  <br/> |**visLORouteExtDefault** <br/> |
-| 0,1  <br/> | Tirant  <br/> |**visLORouteExtStraight** <br/> |
-| n°2  <br/> | Courbé  <br/> |**visLORouteExtNURBS** <br/> |
+| 1   <br/> | Droite  <br/> |**visLORouteExtStraight** <br/> |
+| 2   <br/> | Courbe  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule LineRouteExt à l'aide d'un index à 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 | Index de la cellule :  <br/> |**visPLOLineRouteExt** <br/> |
    

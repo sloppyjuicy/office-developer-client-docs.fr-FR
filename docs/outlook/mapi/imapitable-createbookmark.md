@@ -37,7 +37,7 @@ BOOKMARK FAR * lpbkPosition
 
  _lpbkPosition_
   
-> remarquer Pointeur vers la valeur de signet 32 bits renvoyée. Ce signet peut être passé ultérieurement dans un appel à la méthode [IMAPITable:: SeekRow](imapitable-seekrow.md) . 
+> [out] Pointeur vers la valeur de signet 32 bits renvoyée. Ce signet peut ensuite être transmis dans un appel à la [méthode IMAPITable::SeekRow.](imapitable-seekrow.md) 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,25 +47,25 @@ S_OK
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
-> L'opération demandée n'a pas pu aboutir.
+> L’opération demandée n’a pas pu être terminée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable:: CreateBookmark** marque une position de table en créant une valeur appelée signet. Un signet peut être utilisé pour revenir à la position identifiée par le signet. La position avec un signet est associée à l'objet sur cette ligne dans le tableau. 
+La **méthode IMAPITable::CreateBookmark** marque une position de tableau en créant une valeur appelée signet. Un signet peut être utilisé pour revenir à la position identifiée par le signet. La position avec signet est associée à l’objet à cette ligne du tableau. 
   
-Les signets ne sont pas pris en charge dans les tables de pièces jointes et les implémentations de table de pièces jointes de **CreateBookmark** renvoient MAPI_E_NO_SUPPORT. 
+Les signets ne sont pas pris en charge sur les tables de pièces jointes et les implémentations de table de pièces jointes **de CreateBookmark** MAPI_E_NO_SUPPORT. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-En raison du coût de la mémoire de maintien des positions de curseur avec des signets, limitez le nombre de signets que vous pouvez créer. Lorsque vous atteignez ce numéro, renvoyez MAPI_E_UNABLE_TO_COMPLETE de tous les appels suivants à **CreateBookmark**.
+En raison de la dépense de mémoire de la gestion des positions du curseur avec des signets, limitez le nombre de signets que vous pouvez créer. Lorsque vous atteignez ce nombre, renvoyez MAPI_E_UNABLE_TO_COMPLETE de tous les appels suivants **à CreateBookmark**.
   
-Parfois, un signet pointe vers une ligne qui n'est plus dans l'affichage tableau. Si un appelant utilise un signet de ce type, déplacez le curseur sur la ligne visible suivante et arrêtez-le. 
+Parfois, un signet pointe vers une ligne qui n’est plus dans l’affichage Tableau. Si un appelant utilise un signet de ce type, déplacez le curseur sur la ligne visible suivante et arrêtez-le. 
   
-Lorsque l'appelant tente d'utiliser un signet pointant vers une ligne non visible, car il a été réduit, retournez MAPI_W_POSITION_CHANGED après avoir déplacé le signet. Vous pouvez repositionner le signet sur la ligne visible suivante à ce moment ou lorsque la réduction se produit dans la méthode **SetCollapseState** . Si vous déplacez le signet au moment de la réduction de la ligne, vous devez conserver un bit indiquant exactement la date de déplacement du signet: depuis sa dernière utilisation ou s'il n'a jamais été utilisé depuis sa création. 
+Lorsque l’appelant tente d’utiliser un signet qui pointe vers une ligne nonvisible parce qu’elle a été réduire, renvoyer MAPI_W_POSITION_CHANGED après le déplacement du signet. Vous pouvez repositionner le signet sur la ligne visible suivante à ce moment-là ou lorsque la réduction se produit dans la **méthode SetCollapseState.** Si vous déplacez le signet au moment où la ligne est réduire, vous devez conserver un bit dans le signet qui indique exactement quand le signet a été déplacé : depuis sa dernière utilisation ou s’il n’a jamais été utilisé depuis sa création. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **CreateBookmark** alloue de la mémoire pour le signet qu'il crée. Libérez les ressources du signet en appelant la méthode [IMAPITable:: FreeBookmark](imapitable-freebookmark.md) . 
+ **CreateBookmark alloue** de la mémoire pour le signet qu’il crée. Libérez les ressources du signet en appelant la [méthode IMAPITable::FreeBookmark.](imapitable-freebookmark.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

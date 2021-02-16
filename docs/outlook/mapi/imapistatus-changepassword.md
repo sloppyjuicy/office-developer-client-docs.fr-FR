@@ -25,7 +25,7 @@ ms.locfileid: "33410356"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Modifie le mot de passe d'un fournisseur de services sans afficher d'interface utilisateur. Cette méthode est éventuellement prise en charge dans les objets d'État implémentés par les fournisseurs de services.
+Modifie le mot de passe d’un fournisseur de services sans afficher d’interface utilisateur. Cette méthode est éventuellement prise en charge dans les objets d’état implémentés par les fournisseurs de services.
   
 ```cpp
 HRESULT ChangePassword(
@@ -39,19 +39,19 @@ HRESULT ChangePassword(
 
  _lpOldPass_
   
-> dans Pointeur vers l'ancien mot de passe.
+> [in] Pointeur vers l’ancien mot de passe.
     
  _lpNewPass_
   
-> dans Pointeur vers le nouveau mot de passe.
+> [in] Pointeur vers le nouveau mot de passe.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le format des mots de passe. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le format des mots de passe. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les mots de passe sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les mots de passe sont au format ANSI.
+> Les mots de passe sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les mots de passe sont au format ANSI.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,21 +61,21 @@ S_OK
     
 MAPI_E_NO_ACCESS 
   
-> L'ancien mot de passe désigné par _lpOldPass_ n'est pas valide. 
+> L’ancien mot de passe pointé par  _lpOldPass_ n’est pas valide. 
     
 MAPI_E_NO_SUPPORT 
   
-> L'objet Status ne prend pas en charge cette opération, comme indiqué par l'absence de l'indicateur STATUS_CHANGE_PASSWORD dans la propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) de l'objet Status.
+> L’objet status ne prend pas en charge cette opération, comme indiqué par l’absence de l’indicateur STATUS_CHANGE_PASSWORD dans la propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) de l’objet d’état.
     
 ## <a name="remarks"></a>Remarques
 
-Tous les objets d'État ne prennent pas en charge la méthode **IMAPIStatus:: ChangePassword** . Il est pris en charge uniquement par les fournisseurs de services qui nécessitent des clients pour entrer un mot de passe. Aucun des objets d'État que MAPI implémente ne prend en charge l'opération de modification de mot de passe. 
+Les objets d’état ne sont pas tous en charge par la méthode **IMAPIStatus::ChangePassword.** Il est uniquement pris en charge par les fournisseurs de services qui exigent que les clients entrent un mot de passe. Aucun des objets d’état implémentés par MAPI ne permet de modifier le mot de passe. 
   
- **ChangePassword** modifie un mot de passe par programme, sans intervention de l'utilisateur. 
+ **ChangePassword** modifie un mot de passe par programme, sans intervention de l’utilisateur. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Les fournisseurs de transport à distance implémentent **ChangePassword** comme indiqué ici. Il n'y a aucune considération particulière. 
+Les fournisseurs de transport distant **implémentent ChangePassword** comme indiqué ici. Il n’existe aucune considération particulière. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Affichage des éléments d’une demande de tâche envoyés à un destinataire
+title: Afficher les éléments de demande de tâche envoyés à un destinataire
 TOCTitle: Display the task request items sent to a recipient
 ms:assetid: 167c3d52-67b5-467c-a7b6-e8cc96002b63
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184591(v=office.15)
@@ -25,7 +25,7 @@ Cet exemple montre comment afficher tous les éléments de demande de tâche qui
 
 Un objet [TaskRequestItem](https://msdn.microsoft.com/library/bb610737\(v=office.15\)) représente une demande d’affectation d’une tâche à un autre utilisateur. L’objet **TaskRequestItem** est créé lorsque l’élément est reçu dans la boîte de réception du destinataire. Dans l’exemple de code suivant, ShowTaskRequests filtre la boîte de réception d’un destinataire, crée un objet [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)), puis insère une ligne pour chaque élément dont la propriété [MessageClass](https://msdn.microsoft.com/library/bb610592\(v=office.15\)) a la valeur **IPM.TaskRequest**. L’objet de chaque tâche dans le dossier Boîte de réception du destinataire est ensuite inscrit dans les écouteurs de suivi de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

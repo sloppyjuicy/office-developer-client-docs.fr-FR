@@ -18,15 +18,15 @@ ms.locfileid: "33408585"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Les dll de connecteur de cluster Microsoft Excel 2013 doivent implémenter les fonctions décrites dans cette section.
+Les DLL de connecteur de cluster Microsoft Excel 2013 doivent implémenter les fonctions décrites dans cette section.
   
-Les valeurs renvoyées mentionnées dans les rubriques de référence de cette section sont définies dans le fichier include SDK xlcall. h.
+Les valeurs de retour mentionnées dans les rubriques de référence de cette section sont définies dans le SDK incluent le fichier xlcall.h.
   
-## <a name="cluster-connector-architecture"></a>Architecture de connecteur de cluster
+## <a name="cluster-connector-architecture"></a>Architecture du connecteur de cluster
 
-Excel appelle les points d'entrée dans un connecteur de cluster pour transférer les appels de fonction définis par l'utilisateur vers un cluster de calcul à hautes performances et pour la gestion de session de cluster.
+Excel appelle des points d’entrée dans un connecteur de cluster pour transférer des appels de fonctions définies par l’utilisateur vers un cluster de calcul hautes performances et pour la gestion des sessions de cluster.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 [CallUDF](calludf.md)
   

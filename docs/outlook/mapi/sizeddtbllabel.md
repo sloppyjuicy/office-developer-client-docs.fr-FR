@@ -23,12 +23,12 @@ ms.locfileid: "33408613"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLLABEL](dtbllabel.md) pour la description d'un contrôle Label et de l'étiquette associée d'une longueur spécifiée. 
+Crée une structure nommée qui inclut une structure [DTBLLABEL](dtbllabel.md) pour décrire un contrôle d’étiquette et l’étiquette associée d’une longueur spécifiée. 
   
 |||
 |:-----|:-----|
-|Spécifié dans le fichier d'en-tête:  <br/> |Mapidefs. h  <br/> |
-|Structure associée  <br/> |**DTBLLABEL** <br/> |
+|Spécifié dans le fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe  <br/> |**DTBLLABEL** <br/> |
    
 ```cpp
 SizedDtblLabel (n, u)
@@ -38,7 +38,7 @@ SizedDtblLabel (n, u)
 
 _n_
   
-> Longueur de l'étiquette. Cela inclut le caractère de fin NULL. 
+> Longueur de l’étiquette. Cela inclut le caractère NULL de fin. 
     
 _u_
   
@@ -46,14 +46,14 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblLabel** vous permet de définir une étiquette de tableau d'affichage lorsque le nombre de caractères dans l'étiquette est connu. La nouvelle structure est créée avec les membres suivants: 
+La macro **SizedDtblLabel** vous permet de définir une étiquette de tableau d’affichage lorsque le nombre de caractères de l’étiquette est connu. La nouvelle structure est créée avec les membres suivants : 
   
 ```cpp
 DTBLLABEL dtbllabel;
 TCHAR lpszLabelName[n];
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblLabel** en tant que pointeur de structure **DTBLLABEL** , effectuez la conversion suivante: 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblLabel** en tant que pointeur de structure **DTBLLABEL,** effectuez la distribution suivante : 
   
 ```cpp
 lpDtblLabel = (LPDTBLLABEL) &SizedDtblLabel;

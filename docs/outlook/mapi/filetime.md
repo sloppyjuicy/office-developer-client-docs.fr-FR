@@ -25,11 +25,11 @@ ms.locfileid: "33409502"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur de date et d'heure 64 bits non signée pour un fichier. Cette valeur représente le nombre d'unités de 100 nanosecondes depuis le 1er janvier 1601. 
+Contient une valeur de date et d’heure 64 bits non signée pour un fichier. Cette valeur représente le nombre d’unités de 100 nanosecondes depuis le début du 1er janvier 1601. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _FILETIME
@@ -44,17 +44,17 @@ typedef struct _FILETIME
 
  **dwLowDateTime**
   
-> Ordre bas 32 bits de la valeur de l'heure du fichier. 
+> 32 bits de bas ordre de la valeur de temps du fichier. 
     
  **dwHighDateTime**
   
-> Ordre 32 bits de poids fort de la valeur de l'heure du fichier.
+> Ordre élevé de 32 bits de la valeur de temps du fichier.
     
 ## <a name="remarks"></a>Remarques
 
-Une propriété de type PT_SYSTIME a une structure **fileTime** pour sa valeur. Une telle propriété a un type de données **fileTime** pour le membre de **valeur** dans sa définition dans une structure [SPropValue](spropvalue.md) . 
+Une propriété de type PT_SYSTIME a une structure **FILETIME** pour sa valeur. Une telle propriété possède un type **de données FILETIME** pour le membre **Value** dans sa définition dans une structure [SPropValue.](spropvalue.md) 
   
-La définition de la structure **fileTime** se trouve dans le _Guide de référence du programmeur Win32_ et dans le fichier d'en-tête MAPI Mapidefs. h. MAPI définit la structure de façon conditionnelle pour s'assurer qu'elle est définie lorsque la définition Win32 n'est pas disponible. 
+La définition de la structure **FILETIME** se trouve dans la référence du programmeur  _Win32_ et dans le fichier d’en-tête MAPI Mapidefs.h. MAPI définit la structure de manière conditionnelle pour s’assurer qu’elle est définie lorsque la définition Win32 n’est pas disponible. 
   
 ## <a name="see-also"></a>Voir aussi
 

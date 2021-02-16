@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - FuncSum
 keywords:
-- fonction FuncSum [Excel 2007]
+- fonction funcsum [excel 2007]
 localization_priority: Normal
 ms.assetid: 934192ef-8a89-4dbb-bd37-01e92ba24256
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33406940"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Exemple de fonction de feuille de calcul définie par l'utilisateur qui prend 1 à 29 arguments et calcule leur somme. Chaque argument peut être un nombre unique, une plage ou un tableau. Lorsque GENERIC. xll est chargé, il enregistre cette fonction afin qu'elle puisse être appelée à partir de la feuille de calcul. 
+Exemple de fonction de feuille de calcul définie par l’utilisateur qui prend 1 à 29 arguments et calcule leur somme. Chaque argument peut être un nombre unique, une plage ou un tableau. Lorsque GENERIC.xll est chargé, il inscrit cette fonction afin qu’elle puisse être appelée à partir de la feuille de calcul. 
   
 ```cs
 LPXLOPER12 WINAPI FuncSum(LPXLOPER12 px1, LPXLOPER12 px2, LPXLOPER12 px3,LPXLOPER12 px4, LPXLOPER12 px5, LPXLOPER12 px6, LPXLOPER12 px7,LPXLOPER12 px8, LPXLOPER12 px9, LPXLOPER12 px10, LPXLOPER12 px11,LPXLOPER12 px12, LPXLOPER12 px13, LPXLOPER12 px14, LPXLOPER12 px15,LPXLOPER12 px16, LPXLOPER12 px17, LPXLOPER12 px18, LPXLOPER12 px19,LPXLOPER12 px20, LPXLOPER12 px21, LPXLOPER12 px22, LPXLOPER12 px23,LPXLOPER12 px24, LPXLOPER12 px25, LPXLOPER12 px26, LPXLOPER12 px27,LPXLOPER12 px28, LPXLOPER12 px29);
@@ -30,19 +30,19 @@ LPXLOPER12 WINAPI FuncSum(LPXLOPER12 px1, LPXLOPER12 px2, LPXLOPER12 px3,LPXLOPE
 
 ## <a name="parameters"></a>Paramètres
 
- _PX1-px29_ (**LPXLOPER12**)
+ _px1-px29_ (**LPXLOPER12**)
   
-Pointeurs vers des arguments de **XLOPER12** . La fonction accepte n'importe quel type de type d'entrée, mais n'est codée que pour fonctionner sur des nombres, des tableaux littéraux de nombres et des plages qui contiennent uniquement des nombres ou des cellules vides. Si moins de 29 arguments sont fournis, les autres arguments sont fournis en tant que **xltypeMissing**.
+Pointeurs vers les arguments **XLOPER12.** La fonction accepte n’importe quel type d’entrée, mais elle est codée uniquement pour fonctionner sur des nombres, des tableaux littéraux de nombres et des plages contenant uniquement des nombres ou des cellules vides. Si moins de 29 arguments sont fournis, les arguments restants sont fournis sous la forme **xltypeMissing**.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
 (**LPXLOPER12 xltypeNum** ou **xltypeErr**)
   
-La somme des arguments ou des #VALUE! s'il y a des valeurs non numériques dans la liste d'arguments fournie ou dans une cellule d'une plage ou d'un élément d'un tableau.
+Somme des arguments ou des #VALUE ! s’il existe des nombres non numériques dans la liste d’arguments fournie ou dans une cellule d’une plage ou d’un élément dans un tableau.
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
+Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

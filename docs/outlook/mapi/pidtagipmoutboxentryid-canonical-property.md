@@ -25,7 +25,7 @@ ms.locfileid: "33405057"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée du dossier boîte d'envoi de message interpersonnes (IPM) standard. 
+Contient l’identificateur d’entrée du dossier de boîte d’envoi du message interpersonnel standard (IPM). 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient l'identificateur d'entrée du dossier boîte d'envoi de message interpe
    
 ## <a name="remarks"></a>Remarques
 
-Les messages sortants sont généralement créés dans le dossier boîte d'envoi. Les messages interpersonnels doivent être placés dans ce dossier pour être soumis. 
+Les messages sortants sont généralement créés dans le dossier Boîte d’envoi. Les messages interpersonnels doivent être placés dans ce dossier pour l’envoi. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

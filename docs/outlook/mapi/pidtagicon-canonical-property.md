@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: ad8d6934b5e57429de5039e9420742caa9dd4294
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,36 +25,36 @@ ms.locfileid: "32356727"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une image bitmap d'une icône pleine taille pour un formulaire. 
+Contient une image bitmap d’une icône pleine taille pour un formulaire. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ICON  <br/> |
 |Identificateur :  <br/> |0x0FFD  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient une image 32 × 32 pixels d'une icône, le même que le contenu d'un. Fichier. ICO. Cette propriété est généralement copiée à partir du. Fichier. ICO spécifié dans la ligne LargeIcon de la section [Description] appropriée du fichier de configuration du formulaire. 
+Cette propriété contient une image de 32 × 32 pixels d’une icône, identique au contenu d’un . Fichier ICO. Cette propriété est normalement copiée à partir du . Fichier ICO spécifié dans la ligne LargeIcon de la section [Description] appropriée du fichier de configuration du formulaire. 
   
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

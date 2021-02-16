@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407780"
 ---
-# <a name="mapiofflinecallbacktype"></a>MAPIOFFLINE_CALLBACK_TYPE
+# <a name="mapioffline_callback_type"></a>MAPIOFFLINE_CALLBACK_TYPE
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Énumération des types de rappels pris en charge.
+L’éumération des types de rappels pris en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 

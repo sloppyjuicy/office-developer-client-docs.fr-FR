@@ -25,7 +25,7 @@ ms.locfileid: "33409908"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Donne le contrôle de l'UC au spouleur MAPI afin qu'il puisse effectuer toutes les tâches qu'il juge nécessaires.
+Donne le contrôle de l’UC aupooler MAPI afin qu’il puisse effectuer les tâches qu’il considère nécessaires.
   
 ```cpp
 HRESULT SpoolerYield(
@@ -37,29 +37,29 @@ ULONG ulFlags
 
  _ulFlags_
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le fournisseur de transport a libéré le processeur.
+> Le fournisseur de transport a réussi à libérer l’UC.
     
 MAPI_W_CANCEL_MESSAGE 
   
-> Indique au fournisseur de transport d'arrêter la remise du message à tous les destinataires qui ne l'ont pas encore reçu.
+> Demande au fournisseur de transport d’arrêter la remise du message à tous les destinataires qui ne l’ont pas encore reçu.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: SpoolerYield** est implémentée pour les objets de prise en charge du fournisseur de transport. Les fournisseurs de transport appellent **SpoolerYield** pour permettre au spouleur MAPI d'effectuer tout traitement nécessaire. 
+La **méthode IMAPISupport::SpoolerYield** est implémentée pour les objets de prise en charge du fournisseur de transport. Les fournisseurs de transport **appellent SpoolerYield** pour permettre aupooler MAPI d’effectuer tout traitement nécessaire. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **SpoolerYield** lorsque vous effectuez des opérations de longue durée qui peuvent être suspendues. Cela permet aux applications de premier plan de s'exécuter pendant une longue opération, telle que la remise à une grande liste de destinataires sur un réseau occupé. 
+Appelez **SpoolerYield** lorsque vous effectuez des opérations longues qui peuvent être suspendues. Cela permet aux applications au premier plan de s’exécuter pendant une longue opération, telle que la remise à une liste de destinataires importante sur un réseau occupé. 
   
-Si **SpoolerYield** est renvoyé avec MAPI_W_CANCEL_MESSAGE, le spouleur MAPI a déterminé que le message ne doit plus être envoyé. Retournez MAPI_E_USER_CANCEL à votre processus d'appel et quittez, si possible. 
+Si **SpoolerYield** est renvoyé avec MAPI_W_CANCEL_MESSAGE, lepooler MAPI a déterminé que le message ne doit plus être envoyé. Renvoyez MAPI_E_USER_CANCEL processus d’appel et quittez, si possible. 
   
-Pour plus d'informations sur la génération du spouleur MAPI, consultez [la rubrique interaction avec le spouleUR MAPI](interacting-with-the-mapi-spooler.md).
+Pour plus d’informations sur le rendement aupooler MAPI, voir Interaction avec le [spooler MAPI.](interacting-with-the-mapi-spooler.md)
   
 ## <a name="see-also"></a>Voir aussi
 

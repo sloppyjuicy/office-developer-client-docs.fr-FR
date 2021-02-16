@@ -25,37 +25,37 @@ ms.locfileid: "33407661"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet aux clients, aux fournisseurs de services et à MAPI de travailler avec les propriétés. Tous les objets qui prennent en charge les propriétés implémentent cette interface.
+Permet aux clients, aux fournisseurs de services et à MAPI d’fonctionner avec les propriétés. Tous les objets qui la prise en charge des propriétés implémentent cette interface.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Exposé par:  <br/> |Aucun objet n'expose directement cette interface.  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Exposé par :  <br/> |Aucun objet n’expose cette interface directement.  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de services et MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes, fournisseurs de services et MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIProp  <br/> |
-|Type de pointeur:  <br/> |LPMAPIPROP  <br/> |
-|Modèle de transaction:  <br/> |Classe abstraite, jamais implémentée  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIProp  <br/> |
+|Type de pointeur :  <br/> |LPMAPIPROP  <br/> |
+|Modèle de transaction :  <br/> |Classe abstraite, jamais implémentée  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Généré](imapiprop-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente.  <br/> |
-|[SaveChanges](imapiprop-savechanges.md) <br/> |Rend permanentes toutes les modifications qui ont été apportées à un objet depuis la dernière opération d'enregistrement.  <br/> |
-|[GetProps](imapiprop-getprops.md) <br/> |Récupère la valeur de propriété d'une ou de plusieurs propriétés d'un objet.  <br/> |
-|[GetPropList](imapiprop-getproplist.md) <br/> |Renvoie les balises de propriété pour toutes les propriétés.  <br/> |
+|[GetLastError](imapiprop-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente.  <br/> |
+|[SaveChanges](imapiprop-savechanges.md) <br/> |Rend permanentes les modifications apportées à un objet depuis la dernière opération d’enregistrer.  <br/> |
+|[GetProps](imapiprop-getprops.md) <br/> |Extrait la valeur de propriété d’une ou plusieurs propriétés d’un objet.  <br/> |
+|[GetPropList](imapiprop-getproplist.md) <br/> |Renvoie des balises de propriété pour toutes les propriétés.  <br/> |
 |[OpenProperty](imapiprop-openproperty.md) <br/> |Renvoie un pointeur vers une interface qui peut être utilisée pour accéder à une propriété.  <br/> |
 |[SetProps](imapiprop-setprops.md) <br/> |Met à jour une ou plusieurs propriétés.  <br/> |
-|[DeleteProps](imapiprop-deleteprops.md) <br/> |Supprime une ou plusieurs propriétés d'un objet.  <br/> |
-|[CopyTo](imapiprop-copyto.md) <br/> |Copie ou déplace toutes les propriétés, à l'exception des propriétés spécifiquement exclues.  <br/> |
+|[DeleteProps](imapiprop-deleteprops.md) <br/> |Supprime une ou plusieurs propriétés d’un objet.  <br/> |
+|[CopyTo](imapiprop-copyto.md) <br/> |Copie ou déplace toutes les propriétés, à l’exception des propriétés spécifiquement exclues.  <br/> |
 |[CopyProps](imapiprop-copyprops.md) <br/> |Copie ou déplace les propriétés sélectionnées.  <br/> |
-|[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Fournit les noms de propriétés qui correspondent à un ou plusieurs identificateurs de propriété.  <br/> |
+|[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Fournit les noms de propriété qui correspondent à un ou plusieurs identificateurs de propriété.  <br/> |
 |[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriétés.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
- **IMAPIProp** est l'interface de base pour les interfaces suivantes: 
+ **IMAPIProp est l’interface** de base pour les interfaces suivantes : 
   
 - [IAttach](iattachimapiprop.md)
     

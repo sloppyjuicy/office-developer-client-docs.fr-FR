@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d097ed0f-cd41-4f11-9195-56e936308087
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 737aed21163e418afa01e05992b25beb40c10ec0
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,36 +25,36 @@ ms.locfileid: "32356671"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Représente le numéro de destinataire d'un destinataire sur le message.
+Représente le numéro de destinataire d’un destinataire du message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_RECIPIENT_NUMBER  <br/> |
 |Identificateur :  <br/> |0x6662  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Lecture/écriture de messages Exchange  <br/> |
+|Domaine :  <br/> |Message Exchange en lecture-écriture  <br/> |
    
-## <a name="related-resources"></a>Ressources associées
+## <a name="related-resources"></a>Ressources connexes
 
 ### <a name="protocol-specifications"></a>Spécifications de protocole
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations qui sont autorisées pour les messages électroniques.
+> Spécifie les propriétés et opérations autorisées sur les messages électroniques.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,11 +25,11 @@ ms.locfileid: "33408417"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Soustrait un entier non signé 64 bits d'un autre. 
+Soustrait un integer 64 bits non signé d’un autre. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -44,14 +44,14 @@ FILETIME FtSubFt(
 
  _Minuend_
   
-> dans Une structure [fileTime](filetime.md) qui contient l'entier non signé 64 bits à partir duquel la valeur du paramètre _subtrahend_ doit être soustraite. 
+> [in] Structure [FILETIME](filetime.md) qui contient l’entier 64 bits non signé à partir duquel la valeur du paramètre  _Subtrahend_ doit être soustraite. 
     
  _Subtrahend_
   
-> dans Une structure **fileTime** qui contient l'entier non signé 64 bits qui est soustrait de la valeur indiquée par le paramètre _minuend_ . 
+> [in] Structure **FILETIME** qui contient l’entier 64 bits non signé qui est soustrait de la valeur indiquée par le _paramètre Minuend._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **FtSubFt** renvoie une structure **fileTime** qui contient le résultat de la soustraction. Les deux paramètres d'entrée restent inchangés. 
+La **fonction FtSubFt** renvoie une structure **FILETIME** qui contient le résultat de la soustraction. Les deux paramètres d’entrée restent inchangés. 
   
 

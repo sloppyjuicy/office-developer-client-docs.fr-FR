@@ -22,7 +22,7 @@ ms.locfileid: "33408571"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d'infrastructure qui annule l'initialisation de la bibliothèque d'infrastructure, qui réinitialise simplement les structures de données de mémoire de la mémoire de la bibliothèque **XLOPER**/ **** temporaire, libérant ainsi la mémoire qui a déjà été allouée. 
+Fonction de bibliothèque d’infrastructure qui ne initialise pas la bibliothèque Framework, qui initialise simplement les structures de données mémoire /  **XLOPER XLOPER12** temporaires, libérant ainsi toute mémoire déjà allouée. 
   
 ```cs
 short WINAPI QuitFramework(void);
@@ -34,7 +34,7 @@ Cette fonction ne prend aucun argument.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Cette fonction ne renvoie pas de valeur.
+Cette fonction ne retourne pas de valeur.
   
 ## <a name="see-also"></a>Voir aussi
 

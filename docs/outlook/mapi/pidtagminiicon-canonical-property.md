@@ -25,7 +25,7 @@ ms.locfileid: "33405414"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une image bitmap d'une icône de demi-taille pour un formulaire.
+Contient une image bitmap d’une icône à demi-taille pour un formulaire.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient une image bitmap d'une icône de demi-taille pour un formulaire.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient une image 32 × 32 pixels d'une icône, le même que le contenu d'un. Fichier. ICO, mais seuls les 16 × 16 pixels du coin supérieur gauche sont considérés comme significatifs. Cette propriété est généralement copiée à partir du. Fichier. ICO spécifié dans la ligne SmallIcon de la section [Description] appropriée du fichier de configuration du formulaire.
+Cette propriété contient une image de 32 × 32 pixels d’une icône, identique au contenu d’un . Le fichier ICO, mais seul le coin supérieur gauche de 16 × 16 pixels est considéré comme significatif. Cette propriété est normalement copiée à partir du . Fichier ICO spécifié dans la ligne SmallIcon de la section [Description] appropriée du fichier de configuration du formulaire.
   
- **Note** Certaines plateformes ne prennent pas en charge les icônes 16 x 16 pixels. Le format 32 × 32 de cette propriété est utilisable dans ce cas, mais les applications clientes doivent être conscientes des incohérences d'affichage. 
+ **Remarque** Certaines plateformes ne supportent pas les icônes de 16 × 16 pixels. Le format 32 × 32 de cette propriété est utilisable dans ce cas, mais les applications clientes doivent être sensibles aux incohérences d’affichage. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -31,14 +31,14 @@ Pour obtenir une référence à la cellule BeginGroup par un nom à partir d'une
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Mesures. *nom*. BeginGroup, où actions. *nom* est le nom de la ligne Actions  <br/> |
+|Nom de cellule :  <br/> |Actions. *nom*. BeginGroup où Actions. *nom* est le nom de la ligne Actions  <br/> |
    
 Pour obtenir une référence à la cellule BeginGroup à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visActionBeginGroup** <br/> |
    
 

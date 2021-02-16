@@ -1,5 +1,5 @@
 ---
-title: Section [mappages de fichiers d'aide] MapiSvc. inf
+title: Section MapiSvc.inf [Mappages des fichiers d’aide]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,17 +15,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407556"
 ---
-# <a name="mapisvcinf-help-file-mappings-section"></a>Section [mappages de fichiers d'aide] MapiSvc. inf
+# <a name="mapisvcinf-help-file-mappings-section"></a>Section MapiSvc.inf [Mappages des fichiers d’aide]
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La section **[Help file Mappings]** contient des entrées qui permettent de connecter chaque service de messagerie au fichier qui fournit de l'aide pour les erreurs générées par le service. Les entrées de cette section utilisent le format suivant: 
+La section **[Mappages** des fichiers d’aide] contient des entrées qui maient chaque service de message au fichier qui fournit de l’aide pour les erreurs générées par le service. Les entrées de cette section utilisent le format suivant : 
   
- **[Mappages de fichier d'aide]** _nom du service de messagerie_  =   _Nom du fichier d'aide_
+ **Nom de fichier d’aide** du service de _message_  =   [Mappages des fichiers _d’aide]_
   
-Le nom du service de messagerie est le nom du service de messagerie installé; le nom du fichier d'aide est le nom du fichier où se trouvent les informations d'erreur. L'exemple suivant présente une section **[mappages de fichiers d'aide]** classique qui contient les entrées de trois services: MAPI, le service MSGSERVICE et MS service. 
+Le nom du service de message est le nom du service de message installé ; Le nom du fichier d’aide est le nom du fichier où résident les informations d’erreur. L’exemple suivant montre une section **type [Mappages** de fichiers d’aide] qui contient des entrées pour trois services : MAPI, le service MsgService et le service MS. 
   
 ```cpp
 [Help File Mappings]

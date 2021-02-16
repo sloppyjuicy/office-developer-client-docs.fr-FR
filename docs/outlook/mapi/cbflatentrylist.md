@@ -25,12 +25,12 @@ ms.locfileid: "33408438"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [FLATENTRYLIST](flatentrylist.md) existante. 
+Calcule le nombre d’octets dans une structure [FLATENTRYLIST](flatentrylist.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**FLATENTRYLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp
 CbFLATENTRYLIST(_lplist)
@@ -38,7 +38,7 @@ CbFLATENTRYLIST(_lplist)
 
 ## <a name="parameters"></a>Paramètres
 
- __lplist_
+ _ _lplist_
   
 > Pointeur vers la structure **FLATENTRYLIST** en question. 
     

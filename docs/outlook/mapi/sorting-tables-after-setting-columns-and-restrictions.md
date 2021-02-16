@@ -1,5 +1,5 @@
 ---
-title: Tri des tables après la définition des colonnes et des restrictions
+title: Tri des tableaux après la définition de colonnes et de restrictions
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,20 +15,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409880"
 ---
-# <a name="sorting-tables-after-setting-columns-and-restrictions"></a>Tri des tables après la définition des colonnes et des restrictions
+# <a name="sorting-tables-after-setting-columns-and-restrictions"></a>Tri des tableaux après la définition de colonnes et de restrictions
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsque vous devez limiter l'affichage d'un tableau trié, effectuez toujours les appels **IMAPITable** suivants dans l'ordre suivant: 
+Lorsque vous devez limiter l’affichage d’une table triée, faites toujours les appels **IMAPITable** suivants dans l’ordre suivant : 
   
-1. [IMAPITable:: SetColumns](imapitable-setcolumns.md) pour définir le jeu de colonnes. 
+1. [IMAPITable::SetColumns](imapitable-setcolumns.md) pour définir le jeu de colonnes. 
     
-2. [IMAPITable:: restreindre](imapitable-restrict.md) pour imposer la restriction. 
+2. [IMAPITable::Restrict](imapitable-restrict.md) pour imposer la restriction. 
     
-3. [IMAPITable:: SortTable](imapitable-sorttable.md) pour effectuer le tri. 
+3. [IMAPITable::SortTable](imapitable-sorttable.md) pour effectuer le tri. 
     
-Si le tableau trié est classé, effectuez un appel à [IMAPITable:: SetCollapseState](imapitable-setcollapsestate.md), si nécessaire, après l'appel de **SortTable** . Cette classification des appels est importante, car la plupart des fournisseurs de services trient un tableau en tant que dernière tâche pour obtenir les meilleures performances. Si, par exemple, un fournisseur de banque de messages doit catégoriser une table de contenu de dossier avant qu'une restriction puisse être imposée, cette catégorisation sera supprimée lors du traitement de la restriction. Une deuxième catégorisation sera nécessaire. 
+Si le tableau trié est catégorisé, appelez [IMAPITable::SetCollapseState,](imapitable-setcollapsestate.md)si nécessaire, après l’appel **sortTable.** Cet ordre des appels est important, car la plupart des fournisseurs de services trient un tableau en tant que dernière tâche pour obtenir les meilleures performances. Si, par exemple, un fournisseur de magasins de messages doit catégoriser une table de contenu de dossiers avant qu’une restriction puisse être imposée, cette catégorisation sera supprimée pendant le traitement de la restriction. Une deuxième catégorisation sera nécessaire. 
   
 

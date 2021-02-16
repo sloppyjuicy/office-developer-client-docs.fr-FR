@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251435
 localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
-description: Protège les expressions contre la suppression et les modifications par les actions effectuées dans la fenêtre de dessin, par exemple, le mouvement, le redimensionnement, le regroupement ou la dissociation des formes.
+description: Protège l’expression contre la suppression et le changement par des actions effectuées dans la fenêtre de dessin, telles que le déplacement, le resserrage, le regroupement ou la suppression de formes.
 ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33408151"
 ---
 # <a name="guard-function"></a>Fonction GUARD
 
-Protège les *expressions* contre la suppression et les modifications par les actions effectuées dans la fenêtre de dessin, par exemple, le mouvement, le redimensionnement, le regroupement ou la dissociation des formes. 
+Protège  *l’expression*  contre la suppression et le changement par des actions effectuées dans la fenêtre de dessin, telles que le déplacement, le resserrage, le regroupement ou la suppression de formes. 
   
 ## <a name="syntax"></a>Syntaxe
 
-GUARD (* * *expression* * *) 
+GUARD(** *expression* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

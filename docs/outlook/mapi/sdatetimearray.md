@@ -25,11 +25,11 @@ ms.locfileid: "33406779"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de valeurs d'heure utilisées pour décrire une propriété de type PT_MV_SYSTIME.
+Contient un tableau de valeurs d’heure utilisées pour décrire une propriété de type PT_MV_SYSTIME.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SDateTimeArray
@@ -44,15 +44,15 @@ typedef struct _SDateTimeArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpft** . 
+> Nombre de valeurs dans le tableau pointées par **le membre lpft.** 
     
  **lpft**
   
-> Pointeur vers un tableau de structures [fileTime](filetime.md) qui contiennent les valeurs d'heure. 
+> Pointeur vers un tableau de structures [FILETIME](filetime.md) qui contiennent les valeurs d’heure. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur PT_MV_SYSTIME, consultez la rubrique [liste des types de propriétés](property-types.md).
+Pour plus d’informations PT_MV_SYSTIME, voir [Liste des types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

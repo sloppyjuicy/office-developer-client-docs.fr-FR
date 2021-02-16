@@ -38,21 +38,21 @@ HRESULT COfflineObj::Unadvise(
 
  _ulFlags_
   
-> dans Indicateurs pour l'annulation du rappel. Seule la valeur MAPIOFFLINE_UNADVISE_DEFAULT est prise en charge.
+> [in] Indicateurs pour l’annulation du rappel. Seule la valeur MAPIOFFLINE_UNADVISE_DEFAULT est prise en charge.
     
  _ulAdviseToken_
   
-> dans Un jeton d'avertissement qui identifie l'inscription de rappel qui doit être annulée. 
+> [in] Jeton de conseil qui identifie l’inscription de rappel à annuler. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> L'appel a réussi. Cet appel doit retourner S_OK.
+> L’appel a réussi. Cet appel doit renvoyer S_OK.
     
 ## <a name="remarks"></a>Remarques
 
-Supprime l'inscription pour le rappel associé à *ulAdviseToken* renvoyé par un appel antérieur à **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. Fait en sorte que l'objet **IMAPIOfflineMgr** libère sa référence sur l'objet **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associé à *ulAdviseToken* . 
+Supprime l’inscription pour le rappel qui était associé à  *ulAdviseToken*  renvoyé à partir d’un appel précédent à **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Entraîne **l’objet IMAPIOfflineMgr** à libérer sa référence sur l’objet **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associé  *à ulAdviseToken*  . 
   
 ## <a name="see-also"></a>Voir aussi
 

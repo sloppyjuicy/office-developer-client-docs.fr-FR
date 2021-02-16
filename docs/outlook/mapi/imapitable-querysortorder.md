@@ -25,7 +25,7 @@ ms.locfileid: "33407549"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère l'ordre de tri actuel d'une table.
+Extrait l’ordre de tri actuel d’un tableau.
   
 ```cpp
 HRESULT QuerySortOrder(
@@ -37,35 +37,35 @@ LPSSortOrderSet FAR * lppSortCriteria
 
  _lppSortCriteria_
   
-> remarquer Pointeur vers un pointeur vers la structure [SSortOrderSet](ssortorderset.md) qui contient l'ordre de tri actuel. 
+> [out] Pointeur vers un pointeur vers la structure [SSortOrderSet](ssortorderset.md) qui détient l’ordre de tri actuel. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'ordre de tri actuel a été renvoyé.
+> L’ordre de tri actuel a été renvoyé avec succès.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours, ce qui empêche le démarrage de l'opération de récupération de l'ordre de tri. L'opération en cours doit être autorisée ou elle doit être arrêtée.
+> Une autre opération est en cours qui empêche le démarrage de l’opération de récupération de l’ordre de tri. L’opération en cours doit être autorisée ou arrêtée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable:: QuerySortOrder** extrait l'ordre de tri actuel d'une table. Les ordres de tri sont décrits par une structure [SSortOrderSet](ssortorderset.md) . 
+La **méthode IMAPITable::QuerySortOrder** récupère l’ordre de tri actuel d’une table. Les ordres de tri sont décrits avec une structure [SSortOrderSet.](ssortorderset.md) 
   
-- Le membre **cSorts** de la structure **SSortOrderSet** peut être défini sur zéro si: 
+- Le **membre cSorts** de la structure **SSortOrderSet** peut être définie sur zéro si : 
     
-- Le tableau n'est pas trié.
+- Le tableau n’est pas trié.
     
-- Il n'existe aucune information sur la façon dont le tableau est trié.
+- Il n’existe aucune information sur la façon dont le tableau est trié.
     
-- La structure **SSortOrderSet** n'est pas appropriée pour décrire l'ordre de tri. 
+- La structure **SSortOrderSet** n’est pas appropriée pour décrire l’ordre de tri. 
     
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si un appel est passé à votre méthode [IMAPITable:: SortTable](imapitable-sorttable.md) avec une structure **SSortOrderSet** contenant zéro colonne dans la clé de tri, supprimez l'ordre de tri actuel et appliquez l'ordre par défaut, s'il en existe un. Dans les appels suivants à **QuerySortOrder**, vous pouvez choisir de renvoyer zéro ou plusieurs colonnes pour la clé de tri. Vous pouvez renvoyer plus de colonnes que ce qui est dans la vue actuelle.
+Si un appel est effectué à votre méthode [IMAPITable::SortTable](imapitable-sorttable.md) avec une structure **SSortOrderSet** contenant zéro colonne dans la clé de tri, supprimez l’ordre de tri actuel et appliquez l’ordre par défaut, s’il en existe un. Dans les appels suivants **à QuerySortOrder,** vous pouvez choisir de renvoyer zéro ou plusieurs colonnes pour la clé de tri. Vous pouvez renvoyer plus de colonnes que dans l’affichage actuel.
   
-Pour plus d'informations sur le tri, reportez-vous à la rubrique [Tri et catégorisation](sorting-and-categorization.md).
+Pour plus d’informations sur le tri, voir [Tri et catégorisation.](sorting-and-categorization.md)
   
 ## <a name="see-also"></a>Voir aussi
 

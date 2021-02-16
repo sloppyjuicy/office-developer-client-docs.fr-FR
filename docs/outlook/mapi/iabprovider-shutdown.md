@@ -37,17 +37,17 @@ HRESULT Shutdown(
 
  _lpulFlags_
   
-> Dans MSR doit être un pointeur vers zéro.
+> [In] Réservé ; doit être un pointeur vers zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La connexion a été annulée.
+> La connexion a été correctement annulée.
     
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Dans votre implémentation de la méthode **Shutdown** , effectuez toutes les tâches que vous jugez nécessaires. MAPI appelle votre méthode d' **arrêt** uniquement une fois que vous avez publié tous vos objets d'ouverture de session. 
+Dans votre implémentation de la méthode **Shutdown,** effectuez les tâches que vous jugez nécessaires. MAPI appelle votre **méthode d’arrêt** uniquement après avoir libéré tous vos objets d' logo. 
   
 ## <a name="see-also"></a>Voir aussi
 

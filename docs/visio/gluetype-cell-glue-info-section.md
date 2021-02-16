@@ -24,9 +24,9 @@ Détermine si une forme 1D utilise un collage statique (point à point) ou dynam
 |:-----|:-----|:-----|
 | &amp;H0  <br/> | Par défaut. Utilise le collage dynamique uniquement pour les connecteurs dynamiques. Utilise le collage statique dans les autres cas.  <br/> |**visGlueTypeDefault** <br/> |
 | &amp;H1  <br/> | Autorise le collage dynamique.  <br/> | Obsolète dans Visio 2002  <br/> |
-| &amp;H2  <br/> | Autorise le collage dynamique.  <br/> |**visGlueTypeWalking** <br/> |
-| &amp;H4  <br/> | N'autorise pas le collage dynamique.  <br/> |**visGlueTypeNoWalking** <br/> |
-| &amp;H8  <br/> | N'autorise pas le collage dynamique de cette forme 2D.  <br/> |**visGlueTypeNoWalkingTo** <br/> |
+| &amp;H2  <br/> | Autorise le collage dynamique.  <br/> |**visGlueTypeTaping** <br/> |
+| &amp;H4  <br/> | N'autorise pas le collage dynamique.  <br/> |**visGlueTypeNo Quinging** <br/> |
+| &amp;H8  <br/> | N'autorise pas le collage dynamique de cette forme 2D.  <br/> |**visGlueTypeNo QuingTo** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -50,7 +50,7 @@ Pour obtenir une référence à la cellule GlueType à l'aide d'un index à part
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
 | Index de la cellule :  <br/> |**visGlueType** <br/> |
    

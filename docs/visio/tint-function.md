@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c4f176d6-4af0-282d-5640-7d98e84dfb55
-description: Modifie la couleur en augmentant sa luminosité de la valeur (positive ou négative) spécifiée dans le paramètre int.
+description: Modifie la couleur en augmentant sa luminosité par la quantité (positive ou négative) spécifiée dans le paramètre int.
 ms.openlocfilehash: 8924bc0662814e14d01b4bd5332f5fadeb0a1082
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33406576"
 ---
 # <a name="tint-function"></a>Fonction TINT
 
-Modifie la couleur en augmentant sa luminosité de la valeur (positive ou négative) spécifiée dans le paramètre _int_ . 
+Modifie la couleur en augmentant sa luminosité par la quantité (positive ou négative) spécifiée dans le _paramètre int._ 
   
 ## <a name="syntax"></a>Syntaxe
 
-TEINTe (* * *couleur* * *, * * *int* * *) 
+TINT(** *color* **, ** *int* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -35,6 +35,6 @@ TEINTe (* * *couleur* * *, * * *int* * *)
   
 ## <a name="remarks"></a>Remarques
 
-Les limites basse et haute de luminosité sont respectivement 0 et 240. Il n'y a pas de limite quant à la taille de l'entier que vous pouvez transmettre pour le paramètre _int_ , mais la luminosité ne dépasse jamais ces limites. 
+Les limites basse et haute de luminosité sont respectivement 0 et 240. Il n’existe aucune limite sur la taille de l’nombre integer que vous pouvez transmettre pour le paramètre  _int,_ mais la luminosité ne dépasse jamais ces limites. 
   
 

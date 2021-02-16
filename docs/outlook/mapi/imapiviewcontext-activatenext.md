@@ -23,7 +23,7 @@ ms.locfileid: "33410615"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Active le message suivant ou précédent dans l'ordre d'affichage. 
+Active le message suivant ou précédent dans l’ordre d’affichage. 
   
 ```cpp
 HRESULT ActivateNext(
@@ -36,35 +36,35 @@ LPCRECT prcPosRect
 
 _ulDir_
   
-> dans Indicateurs d'État donnant des informations sur le message à activer. Les paramètres d'indicateur valides sont les suivants:
+> [in] Indicateurs d’état donnant des informations sur le message à activer. Les paramètres d’indicateur valides sont les :
     
-  - VCDIR_CATEGORY: la visionneuse doit activer un message dans une autre catégorie de l'affichage. Le message à activer est le suivant: 
+  - VCDIR_CATEGORY : la visionneuse doit activer un message dans une autre catégorie de l’affichage. Le message à activer est le suivant : 
         
-    - Premier message de la catégorie d'affichage suivante si cet indicateur est **ou**Ed avec VCDIR_NEXT. 
+    - Premier message de la catégorie d’affichage suivante si cet indicateur est **OR** avec VCDIR_NEXT. 
         
-    - Dernier message de la catégorie vue précédente si cet indicateur est **ou**Ed avec VCDIR_PREV et si la catégorie précédente est développée. 
+    - Dernier message de la catégorie d’affichage précédente si cet indicateur est **OU** avec VCDIR_PREV et si la catégorie précédente est étendue. 
         
-    - Premier message de la catégorie vue précédente si cet indicateur est **ou**Ed avec VCDIR_PREV et que la catégorie précédente n'est pas développée. Dans ce cas, la catégorie précédente passe automatiquement en expansion. 
+    - Premier message de la catégorie d’affichage précédente si cet indicateur est **OU** avec VCDIR_PREV et si la catégorie précédente n’est pas étendue. Dans ce cas, la catégorie précédente subit une expansion automatique. 
         
-  - VCDIR_DELETE: la visionneuse doit activer le message suivant ou précédent, car le message actif a été supprimé. 
+  - VCDIR_DELETE : la visionneuse doit activer le message suivant ou précédent, car le message actif a été supprimé. 
         
-  - VCDIR_MOVE: la visionneuse doit activer le message suivant ou précédent, car le message actif a été déplacé. 
+  - VCDIR_MOVE : la visionneuse doit activer le message suivant ou précédent, car le message actif a été déplacé. 
         
-  - VCDIR_NEXT: la visionneuse doit activer le prochain message dans l'ordre d'affichage. 
+  - VCDIR_NEXT : la visionneuse doit activer le message suivant dans l’ordre d’affichage. 
         
-  - VCDIR_PREV: la visionneuse doit activer le message précédent dans l'ordre d'affichage. 
+  - VCDIR_PREV : la visionneuse doit activer le message précédent dans l’ordre d’affichage. 
         
-  - VCDIR_UNREAD: la visionneuse doit activer le message non lu suivant ou précédent dans l'ordre d'affichage. 
+  - VCDIR_UNREAD : la visionneuse doit activer le message non lu suivant ou précédent dans l’ordre d’affichage. 
     
 _prcPosRect_
   
-> dans Pointeur vers une structure **Rect** Windows contenant la taille et la position de la fenêtre à utiliser pour afficher le message activé. 
+> [in] Pointeur vers une structure **RECT** Windows contenant la taille et la position de la fenêtre à utiliser pour afficher le message activé. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le message a été correctement activé. 
+> Le message a été activé avec succès. 
     
 S_FALSE 
   
@@ -72,17 +72,17 @@ S_FALSE
     
 ## <a name="remarks"></a>Remarques
 
-Les objets de formulaire appellent la méthode **IMAPIViewContext:: ActivateNext,** pour modifier le message qui est affiché à l'utilisateur. La valeur transmise dans le paramètre _ulDir_ indique quel message doit être activé et, dans certains cas, pourquoi. Les indicateurs VCDIR_NEXT et VCDIR_PREVIOUS correspondent respectivement aux utilisateurs de la commande **suivante** ou **précédente** dans une vue. Ces opérations correspondent généralement au passage d'un message vers le haut ou vers le bas dans la liste des messages de la visionneuse de formulaires. 
+Les objets form appellent **la méthode IMAPIViewContext::ActivateNext** pour modifier le message affiché à l’utilisateur. La valeur transmise dans le  _paramètre ulDir_ indique quel message doit être activé et, dans certains cas, pourquoi. Les VCDIR_NEXT et VCDIR_PREVIOUS d’affichage correspondent aux utilisateurs  qui  choisissent respectivement la commande Suivante ou Précédente dans un affichage. Ces opérations correspondent généralement à un déplacement vers le haut ou vers le bas d’un message dans la liste des messages de la visionneuse de formulaires. 
   
-Les indicateurs VCDIR_DELETE et VCDIR_MOVE sont définis par les méthodes [IMAPIMessageSite::D eletemessage](imapimessagesite-deletemessage.md) et [IMAPIMessageSite:: MoveMessage](imapimessagesite-movemessage.md) , respectivement. Les implémentations de ces méthodes appellent **ActivateNext,** avec la direction appropriée, puis effectuent l'opération demandée sur le message si l'appel de **ActivateNext,** n'a pas échoué. Les visionneuses de formulaires permettent généralement aux utilisateurs de spécifier le sens de déplacement dans la liste des messages. 
+Les indicateurs VCDIR_DELETE et VCDIR_MOVE sont définies par les méthodes [IMAPIMessageSite::D eleteMessage](imapimessagesite-deletemessage.md) et [IMAPIMessageSite::MoveMessage,](imapimessagesite-movemessage.md) respectivement. Les implémentations de ces méthodes appellent **ActivateNext** avec le sens approprié, puis effectuent l’opération demandée sur le message si l’appel **ActivateNext** n’a pas échoué. Les visionneuses de formulaires permettent généralement aux utilisateurs de spécifier le sens de déplacement dans la liste des messages. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Votre implémentation de [IMAPIViewContext:: ActivateNext,](imapiviewcontext-activatenext.md) crée le message suivant ou précédent dans le dossier, en fonction de la valeur de _ulDir_, le message actif. Une fois **ActivateNext,** renvoyé, appelez [IMAPIMessageSite:: GetMessage](imapimessagesite-getmessage.md) pour obtenir un pointeur vers le message nouvellement activé. 
+Votre implémentation de [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) effectue le message suivant ou précédent dans le dossier, en fonction de la valeur de  _ulDir_, le message actuel. Après **le retour d’ActivateNext,** appelez [IMAPIMessageSite::GetMessage](imapimessagesite-getmessage.md) pour obtenir un pointeur vers le message nouvellement activé. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si **ActivateNext,** renvoie S_FALSE ou s'il n'existe pas de message en cours, effectuez votre procédure d'arrêt normale, qui doit inclure l'appel de la méthode [IMAPIForm:: ShutdownForm](imapiform-shutdownform.md) de votre formulaire. Si un message suivant ou précédent est affiché, utilisez le rectangle de fenêtre passé dans le paramètre _prcPosRect_ pour l'afficher. 
+Si **ActivateNext** renvoie S_FALSE, ou si un message actuel n’est pas présent, effectuez votre procédure d’arrêt normal qui doit inclure l’appel de la méthode [IMAPIForm::ShutdownForm](imapiform-shutdownform.md) de votre formulaire. Si un message suivant ou précédent s’affiche, utilisez le rectangle de fenêtre transmis dans le paramètre  _prcPosRect_ pour l’afficher. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: ActivateNext,  <br/> |MFCMAPI implémente la méthode **IMAPIViewContext:: ActivateNext,** dans cette fonction.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI implémente la **méthode IMAPIViewContext::ActivateNext** dans cette fonction.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

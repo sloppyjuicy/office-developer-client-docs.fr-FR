@@ -21,7 +21,7 @@ ms.locfileid: "33410251"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour la synchronisation d'un en-tête de message lors de l' [État d'en-tête de message de téléchargement](download-message-header-state.md).
+Informations pour la synchronisation d’un en-tête de message pendant [l’état d’en-tête du message de téléchargement.](download-message-header-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -40,11 +40,11 @@ struct HDRSYNC
 
  _pupmsg_
   
-- remarquer Informations de l'en-tête de message actuel dans le magasin local.
+- [out] Informations pour l’en-tête de message actuel dans la boutique locale.
     
- _feidPar_
+ _todPar_
   
-- remarquer ID d'entrée du dossier parent de l'élément de message.
+- [out] ID d’entrée pour le dossier parent de l’élément de message.
     
  _pstmReserved_
   
@@ -52,23 +52,23 @@ struct HDRSYNC
     
  _ulFlags_
   
-- dans Indicateurs permettant de modifier le comportement:
+- [in] Indicateurs pour modifier le comportement :
     
 - HSF_LOCAL
     
-  - dans L'élément complet réside dans le même magasin local que l'élément d'en-tête.
+  - [in] L’élément complet réside dans la même boutique locale que l’élément d’en-tête.
     
 - HSF_COPYDESTRUCTIVE
     
-  -  dans Optimiser les opérations de copie interne. Cela peut entraîner une perte de données. **HSF_LOCAL** doit être défini. 
+  -  [in] Optimiser les opérations de copie interne. Cela peut entraîner une perte de données. **HSF_LOCAL** doit être définie. 
     
 - HSF_OK
     
-  - dans La synchronisation d'en-tête a réussi. Le client définit cet élément après avoir téléchargé des informations à partir du serveur.
+  - [in] La synchronisation d’en-tête a réussi. Le client définit cet élément après avoir téléchargé des informations à partir du serveur.
     
      _pmsgFull_
     
-  - dans Élément de message complet incluant l'en-tête de message téléchargé à partir du serveur. Voir mapidefs. h pour la définition de type de **LPMESSAGE**. 
+  - [in] L’élément de message complet, y compris l’en-tête de message téléchargé à partir du serveur. Voir mapidefs.h pour la définition de type **de LPMESSAGE**. 
     
 ## <a name="see-also"></a>Voir aussi
 

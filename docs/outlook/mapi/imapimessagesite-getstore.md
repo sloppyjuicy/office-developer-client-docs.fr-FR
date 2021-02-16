@@ -25,7 +25,7 @@ ms.locfileid: "33410468"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie la Banque de messages qui contient le message actif, si ce type de magasin existe. Cette méthode renvoie la valeur NULL dans le paramètre _ppStore_ pour les messages incorporés, qui sont stockés dans un autre message au lieu d'être directement dans une banque de messages. 
+Renvoie la boutique de messages qui contient le message actuel, si une telle magasin existe. Cette méthode retourne la valeur NULL dans le paramètre  _ppStore_ pour les messages incorporés, qui sont stockés dans un autre message plutôt que directement dans une magasin de messages. 
   
 ```cpp
 HRESULT GetStore(
@@ -37,7 +37,7 @@ HRESULT GetStore(
 
  _ppStore_
   
-> remarquer Pointeur vers un pointeur vers la Banque de messages.
+> [out] Pointeur vers un pointeur vers la boutique de messages.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,11 +47,11 @@ S_OK
     
 S_FALSE 
   
-> Il n'existe pas de magasin qui contient le message.
+> Il n’existe pas de magasin contenant le message.
     
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -59,7 +59,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetStore  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite:: GetStore** pour obtenir le pointeur actuellement en cache sur la Banque spécifiée, si elle est disponible.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetStore  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetStore** pour obtenir le pointeur actuellement mis en cache vers la boutique spécifiée, si elle est disponible.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

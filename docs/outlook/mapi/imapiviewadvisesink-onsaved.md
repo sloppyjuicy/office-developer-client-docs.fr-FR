@@ -25,7 +25,7 @@ ms.locfileid: "33407605"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avertit la visionneuse de formulaires que le message actif d'un formulaire a été enregistré.
+Avertit la visionneuse de formulaire que le message en cours dans un formulaire a été enregistré.
   
 ```cpp
 HRESULT OnSaved( void );
@@ -43,9 +43,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Un objet Form appelle la méthode **IMAPIViewAdviseSink:: OnSaved** une fois que le message actif dans un formulaire a été enregistré avec succès. Cela permet aux utilisateurs de mettre à jour leurs fenêtres afin de refléter les modifications apportées au message. 
+Un objet de formulaire appelle la méthode **IMAPIViewAdviseSink::OnSaved** une fois que le message en cours dans un formulaire a été enregistré. Cela permet aux visiteurs de mettre à jour leurs fenêtres pour refléter les modifications apportées au message. 
   
-Pour plus d'informations sur les notifications de formulaire, consultez la rubrique [envoi et réception de notifications de formulaire](sending-and-receiving-form-notifications.md).
+Pour plus d’informations sur les notifications de formulaire, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Voir aussi
 

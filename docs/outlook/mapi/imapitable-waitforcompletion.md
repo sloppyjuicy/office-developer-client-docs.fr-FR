@@ -25,7 +25,7 @@ ms.locfileid: "33407059"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Interrompt le traitement jusqu'à ce qu'une ou plusieurs opérations asynchrones en cours sur la table soient terminées.
+Suspend le traitement jusqu’à ce qu’une ou plusieurs opérations asynchrones en cours sur la table soient terminées.
   
 ```cpp
 HRESULT WaitForCompletion(
@@ -39,33 +39,33 @@ ULONG FAR * lpulTableStatus
 
  _ulFlags_
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
  _ulTimeout_
   
-> dans Nombre maximal de millisecondes d'attente de l'opération asynchrone ou des opérations à effectuer. Pour attendre indéfiniment jusqu'à la fin de l'opération, définissez _ulTimeout_ sur 0xFFFFFFFF. 
+> [in] Nombre maximal de millisecondes à attendre pour que l’opération ou les opérations asynchrones se terminent. Pour attendre indéfiniment que l’achèvement se produise, définissez  _ulTimeout_ sur 0xFFFFFFFF. 
     
  _lpulTableStatus_
   
-> [in, out] À l'entrée, soit un pointeur valide, soit NULL. Lors de la sortie, si _lpulTableStatus_ est un pointeur valide, il pointe vers l'état le plus récent de la table. Si _lpulTableStatus_ a la valeur null, aucune information d'État n'est renvoyée. Si **WaitForCompletion** renvoie une valeur HRESULT qui ne réussit pas, le contenu de _lpulTableStatus_ n'est pas défini. 
+> [in, out] Lors de l’entrée, pointeur valide ou NULL. En sortie, si  _lpulTableStatus_ est un pointeur valide, il pointe vers l’état le plus récent du tableau. Si  _lpulTableStatus a_ la valeur NULL, aucune information d’état n’est renvoyée. Si **WaitForCompletion** renvoie une valeur HRESULT infructueuse, le contenu de  _lpulTableStatus_ n’est pas définie. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'opération d'attente a réussi.
+> L’opération d’attente a réussi.
     
 MAPI_E_NO_SUPPORT 
   
-> Le tableau ne prend pas en charge l'exécution des opérations asynchrones.
+> Le tableau ne prend pas en charge l’attente de la fin des opérations asynchrones.
     
 MAPI_E_TIMEOUT 
   
-> L'opération asynchrone ou les opérations ne se sont pas terminées dans le temps imparti.
+> L’opération asynchrone ou les opérations ne se sont pas terminées dans l’heure spécifiée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable:: WaitForCompletion** interrompt le traitement jusqu'à ce que toutes les opérations asynchrones actuellement en cours pour la table soient terminées. **WaitForCompletion** permet aux opérations asynchrones d'effectuer entièrement ou d'exécuter un certain nombre de millisecondes, comme indiqué par _ulTimeout_, avant d'être interrompue. Pour détecter les opérations asynchrones en cours, appelez la méthode [IMAPITable:: GetStatus](imapitable-getstatus.md) . 
+La **méthode IMAPITable::WaitForCompletion** suspend le traitement jusqu’à ce que toutes les opérations asynchrones en cours pour la table soient terminées. **WaitForCompletion** peut permettre aux opérations asynchrones soit de se terminer entièrement, soit de s’exécuter pendant un certain nombre de millisecondes, comme indiqué par  _ulTimeout_, avant d’être interrompues. Pour détecter les opérations asynchrones en cours, appelez la méthode [IMAPITable::GetStatus.](imapitable-getstatus.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

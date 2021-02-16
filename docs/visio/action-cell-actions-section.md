@@ -31,14 +31,14 @@ Pour obtenir une référence à la cellule Action à partir du nom d’une autre
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | Mesures.  *nom* . Action à l'endroit où actions. *Name* est le nom de la ligne d'actions  <br/> |
+| Nom de cellule :  <br/> | Actions.  *nom*  . Action où Actions. *name*  est le nom de la ligne actions  <br/> |
    
 Pour obtenir une référence à la cellule Action à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionAction** <br/> |
-| Index de la ligne :  <br/> |**visRowAction** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visActionAction** <br/> |
    
 

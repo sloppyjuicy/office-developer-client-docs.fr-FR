@@ -22,9 +22,9 @@ Détermine la couleur d'arrière-plan du texte dans une forme.
   
 ## <a name="remarks"></a>Remarques
 
-La cellule TextBkgnd peut avoir une valeur comprise entre 0 et 24, ou 255. Les valeurs 0 et 255 ( *visTxtBlklOpaque*) indiquent un arrière-plan de texte transparent. 
+La cellule TextBkgnd peut avoir une valeur comprise entre 0 et 24, ou 255. Les valeurs 0 et 255 *(visTxtBlklOpaque)* indiquent toutes deux un arrière-plan de texte transparent. 
   
-Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL plus un : par exemple RVB(255,127,255) +1. La valeur d'une couleur personnalisée est sa couleur RVB, et RVB ( *r, v, b*) + 1, plutôt qu'un nombre, sont affichés dans la fenêtre ShapeSheet. Lorsqu'elles sont utilisées dans les opérations numériques, les couleurs personnalisées ont des valeurs de 25 et supérieures. 
+Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL plus un : par exemple RVB(255,127,255) +1. La valeur d’une couleur personnalisée est sa couleur RVB, et RVB( *r, g, b*)+1, plutôt qu’un nombre, s’affiche dans la fenêtre Feuille ShapeSheet. Lorsqu'elles sont utilisées dans les opérations numériques, les couleurs personnalisées ont des valeurs de 25 et supérieures. 
   
 Vous pouvez définir la transparence de la couleur du texte d'arrière-plan dans la cellule TextBkgndTrans.
   
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule TextBkgnd par index dans un programme
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowText** <br/> |
 |Index de la cellule :  <br/> |**visTxtBlkBkgnd** <br/> |
    

@@ -25,11 +25,11 @@ ms.locfileid: "33408522"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrémente le décompte de références, nettoie et supprime les données globales par instance pour la DLL MAPI. 
+Décrémente le nombre de références, nettoie et supprime les données globales par instance pour la DLL MAPI. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -47,11 +47,11 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Une application cliente appelle la fonction **MAPIUninitialize** pour mettre fin à son interaction avec MAPI, commencée par un appel à la fonction [MAPIInitialize](mapiinitialize.md) . Après l'appel de **MAPIUninitialize** , aucun autre appel MAPI ne peut être effectué par le client. 
+Une application cliente appelle la **fonction MAPIUninitialize** pour mettre fin à son interaction avec MAPI, commencée par un appel à la fonction [MAPIInitialize.](mapiinitialize.md) Une **fois MAPIUninitialize** appelé, aucun autre appel MAPI ne peut être effectué par le client. 
   
- **MAPIUninitialize** décrémente le décompte de références, et la fonction **MAPIInitialize** correspondante incrémente le nombre de références. Par conséquent, le nombre d'appels à une fonction doit être égal au nombre d'appels à l'autre. 
+ **MAPIUninitialize** décrémente le nombre de références et la fonction **MAPIInitialize** correspondante incrémente le nombre de références. Par conséquent, le nombre d’appels à une fonction doit être égal au nombre d’appels à l’autre. 
   
 > [!NOTE]
-> Vous ne pouvez pas appeler **MAPIInitialize** ou **MAPIUninitialize** à partir d'une fonction **DllMain** Win32 ou de toute autre fonction qui crée ou termine des threads. Pour plus d'informations, consultez la rubrique [utilisation d'objets thread-safe](using-thread-safe-objects.md). 
+> Vous ne pouvez pas appeler **MAPIInitialize** ou **MAPIUninitialize** à partir d’une fonction **Win32 DllMain** ou toute autre fonction qui crée ou termine des threads. Pour plus d’informations, [voir Using Thread-Safe Objects](using-thread-safe-objects.md). 
   
 

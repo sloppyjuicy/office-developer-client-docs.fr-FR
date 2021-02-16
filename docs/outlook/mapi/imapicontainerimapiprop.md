@@ -25,29 +25,29 @@ ms.locfileid: "33406121"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère les opérations de haut niveau sur des objets conteneur, tels que des carnets d'adresses, des listes de distribution et des dossiers. Les interfaces [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md), [IABContainer: IMAPIContainer](iabcontainerimapicontainer.md)et [IDistList: IMAPIContainer](idistlistimapicontainer.md) sont dérivées de **IMAPIContainer**.
+Gère les opérations de haut niveau sur les objets conteneur tels que les carnets d’adresses, les listes de distribution et les dossiers. Les interfaces [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md), [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)et [IDistList : IMAPIContainer](idistlistimapicontainer.md) sont dérivées d’IMAPIContainer . 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Exposé par:  <br/> |Objets de dossier, de carnet d'adresses et de liste de distribution  <br/> |
-|Implémenté par :  <br/> |Banque de messages, carnet d'adresses et fournisseurs de transport à distance  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Exposé par :  <br/> |Objets dossier, conteneur de carnet d’adresses et liste de distribution  <br/> |
+|Implémenté par :  <br/> |Magasin de messages, carnet d’adresses et fournisseurs de transport distants  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIContainer  <br/> |
-|Type de pointeur:  <br/> |LPMAPICONTAINER  <br/> |
-|Modèle de transaction:  <br/> |Classe abstraite, jamais implémentée  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIContainer  <br/> |
+|Type de pointeur :  <br/> |LPMAPICONTAINER  <br/> |
+|Modèle de transaction :  <br/> |Classe abstraite, jamais implémentée  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
 |[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Renvoie un pointeur vers la table des matières du conteneur.  <br/> |
-|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Renvoie un pointeur vers la table de hiérarchie du conteneur.  <br/> |
-|[OpenEntry](imapicontainer-openentry.md) <br/> |Ouvre un objet dans le conteneur, en renvoyant un pointeur d'interface pour un accès supplémentaire.  <br/> |
-|[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Établit les critères de recherche pour le conteneur.  <br/> |
+|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Renvoie un pointeur vers le tableau hiérarchique du conteneur.  <br/> |
+|[OpenEntry](imapicontainer-openentry.md) <br/> |Ouvre un objet dans le conteneur, renvoyant un pointeur d’interface pour un accès supplémentaire.  <br/> |
+|[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Établit des critères de recherche pour le conteneur.  <br/> |
 |[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtient les critères de recherche pour le conteneur.  <br/> |
    
-|**Propriétés requises**|**Accès**|
+|**Propriétés requises**|**Access**|
 |:-----|:-----|
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Lecture seule  <br/> |

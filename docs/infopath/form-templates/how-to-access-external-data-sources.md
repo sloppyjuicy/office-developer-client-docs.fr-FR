@@ -1,5 +1,5 @@
 ---
-title: Accéder à des sources de données externes
+title: Accéder aux sources de données externes
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408312"
 ---
-# <a name="access-external-data-sources"></a>Accéder à des sources de données externes
+# <a name="access-external-data-sources"></a>Accéder aux sources de données externes
 
 Lorsque vous travaillez avec un modèle de formulaire InfoPath, vous pouvez écrire du code pour accéder aux sources de données secondaires du formulaire et manipuler les données qu'elles contiennent. 
   
@@ -36,42 +36,42 @@ Il existe deux types de connexions de données : les connexions de requête perm
 
 La classe [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) fournit aux développeurs les méthodes et propriétés suivantes pour gérer les instances d'objets [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) que contient le formulaire. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Count.aspx)  <br/> |Renvoie le nombre d'instances d'objets **DataSource** que contient la collection.  <br/> |
-|[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.GetEnumerator.aspx) , méthode  <br/> |Renvoie un **IEnumerator** qui peut être utilisé pour lancer une répétition dans la collection.  <br/> |
-|Propriété [Item [Int32]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Renvoie une référence à l'objet **DataSource** spécifié par valeur d'index.  <br/> |
-|Propriété [Item [String]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Renvoie une référence à l'objet **DataSource** spécifié par nom d'index.  <br/> |
+|[Méthode GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.GetEnumerator.aspx)  <br/> |Renvoie un **IEnumerator** qui peut être utilisé pour lancer une répétition dans la collection.  <br/> |
+|[Propriété Item[Int32]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Renvoie une référence à l'objet **DataSource** spécifié par valeur d'index.  <br/> |
+|[Propriété Item[String]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx)  <br/> |Renvoie une référence à l'objet **DataSource** spécifié par nom d'index.  <br/> |
    
 ## <a name="overview-of-the-datasource-class"></a>Présentation de la classe DataSource
 
 La classe [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) offre aux développeurs de formulaires les méthodes et les propriétés ci-dessous pour interagir avec une source de données secondaire InfoPath. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|Méthode [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx)  <br/> |Renvoie un objet [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) pour accéder à la source de données et la modifier  <br/> |
-|[QueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.QueryConnection.aspx) , propriété  <br/> |Obtient une référence à l'objet de connexion de données associé.  <br/> Pour exécuter la requête sur la connexion de données et insérer les données renvoyées au format XML dans le nœud XML associé à l'objet **DataSource** , utilisez la méthode [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.Execute.aspx) de l'objet de connexion de données associé.  <br/> |
+|[CreateNavigator,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) méthode  <br/> |Renvoie un [objet XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) pour accéder à la source de données et la modifier  <br/> |
+|[Propriété QueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.QueryConnection.aspx)  <br/> |Obtient une référence à l'objet de connexion de données associé.  <br/> Pour exécuter la requête sur la connexion de données et insérer les données renvoyées en tant que données XML dans le nœud XML associé à l’objet **DataSource,** utilisez la méthode [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.Execute.aspx) de l’objet de connexion de données associé.  <br/> |
 |Propriété [Name](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.Name.aspx)  <br/> |Obtient le nom de l'objet **DataSource**.  <br/> |
-|[ReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.ReadOnly.aspx) , propriété  <br/> |Obtient une valeur qui indique si la source de données est en lecture seule.  <br/> |
-|[GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx) , méthode  <br/> |Obtient la valeur d'une propriété nommée pour le nœud XML spécifié, lequel doit être un nœud **nonattribute** dans la source de données principale.  <br/> |
-|[SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx) , méthode  <br/> |Définit la valeur d'une propriété nommée pour le nœud XML spécifié, lequel doit être un nœud **nonattribute** dans la source de données principale.  <br/> |
+|[ReadOnly,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.ReadOnly.aspx) propriété  <br/> |Obtient une valeur qui indique si la source de données est en lecture seule.  <br/> |
+|[Méthode GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx)  <br/> |Obtient la valeur d'une propriété nommée pour le nœud XML spécifié, lequel doit être un nœud **nonattribute** dans la source de données principale.  <br/> |
+|[Méthode SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx)  <br/> |Définit la valeur d'une propriété nommée pour le nœud XML spécifié, lequel doit être un nœud **nonattribute** dans la source de données principale.  <br/> |
    
 ## <a name="overview-of-the-data-connection-classes"></a>Présentation des classes de connexion de données
 
 Les classes conçues pour accéder aux connexions de données fournissent plusieurs propriétés et méthodes permettant d'échanger des données via des connexions avec des sources de données externes. La connexion de données associée à un objet **DataSource** dépend du type de connexion de données externe. InfoPath implémente les classes suivantes pour accéder aux connexions de données : 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|Classe [AdoQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.aspx)  <br/> |Interroge une source de données ADO/OLEDB ; limité à Microsoft Access et Microsoft SQL Server.  <br/> |
-|Classe [AdoSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.aspx)  <br/> |Envoie à une source de données ADO/OLEDB ; limité à Microsoft Access et Microsoft SQL Server.  <br/> |
-|Classe [SharePointListRWQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWQueryConnection.aspx)  <br/> |Interroge une liste ou une bibliothèque de documents SharePoint.  <br/> |
+|[Classe AdoQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.aspx)  <br/> |Interroge une source de données ADO/OLEDB ; limité à Microsoft Access et Microsoft SQL Server.  <br/> |
+|[Classe AdoSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.aspx)  <br/> |Envoie à une source de données ADO/OLEDB ; limité à Microsoft Access et Microsoft SQL Server.  <br/> |
+|[Classe SharePointListRWQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWQueryConnection.aspx)  <br/> |Interroge une liste ou une bibliothèque de documents SharePoint.  <br/> |
 |[SharePointListRWSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWSubmitConnection.aspx) <br/> |Envoie à une liste ou une bibliothèque de documents SharePoint.  <br/> |
-|Classe [WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx)  <br/> |Établit une connexion à un service Web XML.  <br/> |
-|Classe [FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx)  <br/> |Interroge un fichier XML.  <br/> |
-|Classe [FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx)  <br/> |Envoie à un fichier XML.  <br/> |
-|Classe [EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx)  <br/> |Envoie un formulaire sous forme de pièce jointe dans un message électronique.  <br/> |
-|Classe [BdcQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcQueryConnection.aspx)  <br/> |Interroge une liste externe sur un serveur exécutant SharePoint Foundation 2010 ou SharePoint Server 2010.  <br/> |
-|Classe [BdcSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcSubmitConnection.aspx)  <br/> |Envoie à une liste externe sur un serveur exécutant SharePoint Foundation 2010 ou SharePoint Server 2010.  <br/> |
+|[Classe WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx)  <br/> |Établit une connexion à un service Web XML.  <br/> |
+|[Classe FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx)  <br/> |Interroge un fichier XML.  <br/> |
+|[Classe FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx)  <br/> |Envoie à un fichier XML.  <br/> |
+|[Classe EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx)  <br/> |Envoie un formulaire en tant que pièce jointe dans un e-mail.  <br/> |
+|[Classe BdcQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcQueryConnection.aspx)  <br/> |Interroge une liste externe sur un serveur exécutant SharePoint Foundation 2010 ou SharePoint Server 2010.  <br/> |
+|[Classe BdcSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcSubmitConnection.aspx)  <br/> |Envoie à une liste externe sur un serveur exécutant SharePoint Foundation 2010 ou SharePoint Server 2010.  <br/> |
    
 ## <a name="using-the-datasourcecollection-and-the-datasource-classes"></a>Utilisation des classes DataSourceCollection et DataSource
 
@@ -99,7 +99,7 @@ MessageBox.Show("Data source data: " &amp; _
    myDataSource.CreateNavigator().InnerXml.ToString())
 ```
 
-Pour manipuler les données figurant dans une source de données secondaire, utilisez la méthode **CreateNavigator** de la classe **DataSource** pour renvoyer une référence à un objet **XPathNavigator** positionné au niveau du nœud où sont stockées les données secondaires. Vous pouvez utiliser les propriétés et méthodes de la classe **XPathNavigator** pour manipuler les données. Pour plus d'informations, consultez [la rubrique utilisation des classes XPathNavigator et XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
+Pour manipuler les données figurant dans une source de données secondaire, utilisez la méthode **CreateNavigator** de la classe **DataSource** pour renvoyer une référence à un objet **XPathNavigator** positionné au niveau du nœud où sont stockées les données secondaires. Vous pouvez utiliser les propriétés et méthodes de la classe **XPathNavigator** pour manipuler les données. Pour plus d’informations, [voir Work with the XPathNavigator and XPathNodeIterator Classes](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
 ## <a name="using-the-dataconnectioncollection-and-the-dataconnection-classes"></a>Utilisation des classes DataConnectionCollection et DataConnection
 

@@ -25,11 +25,11 @@ ms.locfileid: "33406807"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée un objet de données de propriété, autrement dit, un objet [IPropData](ipropdataimapiprop.md) . 
+Crée un objet de données de propriété, c’est-à-dire un [objet IPropData.](ipropdataimapiprop.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -48,19 +48,19 @@ SCODE CreateIProp(
 
  _lpInterface_
   
-> dans Pointeur vers un identificateur d'interface (IID) pour l'objet de données de propriété. L'identificateur d'interface valide est IID_IMAPIPropData. Le fait de transmettre NULL dans le paramètre _lpInterface_ entraîne également le cast de l'objet de données de propriété renvoyé dans le paramètre _lppPropData_ en interface standard pour un objet de données de propriété. 
+> [in] Pointeur vers un identificateur d’interface (IID) pour l’objet de données de propriété. L’identificateur d’interface valide est IID_IMAPIPropData. La transmission de la valeur NULL dans le paramètre  _lpInterface_ entraîne également le cast de l’objet de données de propriété renvoyé dans le paramètre  _lppPropData_ vers l’interface standard d’un objet de données de propriété. 
     
  _lpAllocateBuffer_
   
-> dans Pointeur vers la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire. 
+> [in] Pointeur vers la [fonction MAPIAllocateBuffer,](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire. 
     
  _lpAllocateMore_
   
-> dans Pointeur vers la fonction [MAPIAllocateMore](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire. 
+> [in] Pointeur vers la [fonction MAPIAllocateMore,](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire. 
     
  _lpFreeBuffer_
   
-> dans Pointeur vers la fonction [MAPIFreeBuffer](mapifreebuffer.md) à utiliser pour libérer de la mémoire. 
+> [in] Pointeur vers la [fonction MAPIFreeBuffer,](mapifreebuffer.md) à utiliser pour libérer de la mémoire. 
     
  _lpvReserved_
   
@@ -68,7 +68,7 @@ SCODE CreateIProp(
     
  _lppPropData_
   
-> remarquer Pointeur vers un pointeur vers l'objet de données de propriété renvoyé.
+> [out] Pointeur vers un pointeur vers l’objet de données de propriété renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -78,10 +78,10 @@ S_OK
     
 MAPI_E_INTERFACE_NOT_SUPPORTED 
   
-> L'interface demandée n'est pas prise en charge pour cet objet.
+> L’interface demandée n’est pas prise en charge pour cet objet.
     
 ## <a name="remarks"></a>Remarques
 
-Les paramètres d'entrée _lpAllocateBuffer_, _lpAllocateMore_et _lpFreeBuffer_ pointent vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md) , respectivement. Une application cliente qui appelle **CreateIProp** passe des pointeurs vers les fonctions MAPI que vous venez de nommer; un fournisseur de services transmet les pointeurs à ces fonctions qu'il a reçues dans son appel d'initialisation ou qu'il a récupéré avec un appel à la méthode [IMAPISupport:: GetMemAllocRoutines](imapisupport-getmemallocroutines.md) . 
+Les paramètres d’entrée _lpAllocateBuffer,_ _lpAllocateMore_ et _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer.](mapifreebuffer.md) Une application cliente appelant **CreateIProp** transmet des pointeurs vers les fonctions MAPI nommées ; un fournisseur de services transmet les pointeurs vers ces fonctions qu’il a reçues dans son appel d’initialisation ou récupérées avec un appel à la méthode [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
   
 

@@ -21,12 +21,12 @@ ms.locfileid: "33411112"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour vous aider à organiser les serveurs de formulaires et à les rendre facilement accessibles aux applications clientes, l'architecture des formulaires MAPI inclut des bibliothèques de formulaires qui prennent en charge l'installation, l'administration, la réplication et l'utilisation des serveurs de formulaires.
+Pour faciliter l’organisation des serveurs de formulaires et les rendre facilement accessibles aux applications clientes, l’architecture de formulaire MAPI inclut des bibliothèques de formulaires qui permettent l’installation, l’administration, la réplication et l’utilisation des serveurs de formulaires.
   
-Les bibliothèques de formulaires sont des référentiels de serveurs de formulaires et des informations de configuration qui sont utilisées par le gestionnaire de formulaires lors du chargement des serveurs de formulaires. 
+Les bibliothèques de formulaires sont des référentiels de serveurs de formulaires et des informations de configuration les concernant que le gestionnaire de formulaires utilise lors du chargement des serveurs de formulaires. 
   
 > [!NOTE]
-> Au début de l'histoire de MAPI, les bibliothèques de formulaires étaient nommées «registres». Pour cette raison, le terme «registre» est conservé dans certaines interfaces MAPI, propriétés, entrées de fichiers de configuration et ainsi de suite. Si l'interface de votre application requiert l'utilisation de l'un de ces termes, vous devez utiliser exclusivement le terme «Library». 
+> Au début de l’historique de MAPI, les bibliothèques de formulaires étaient appelées « registres ». C’est pourquoi le terme « Registre » a persisté dans certaines interfaces MAPI, propriétés, entrées de fichier de configuration, etc. liées aux formulaires. Si l’interface de votre application nécessite l’utilisation de l’un de ces termes, vous devez utiliser exclusivement le terme « bibliothèque ». 
   
 ## <a name="see-also"></a>Voir aussi
 

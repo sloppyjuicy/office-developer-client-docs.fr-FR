@@ -25,23 +25,23 @@ ms.locfileid: "33409089"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Conserve et permet d'accéder aux propriétés des pièces jointes dans les messages. L'interface **IAttach** ne possède pas de méthodes uniques. Pour plus d'informations sur l'utilisation des pièces jointes, consultez la rubrique [MAPI Attachments](mapi-attachments.md) and [Attachment tables](attachment-tables.md). 
+Maintient et fournit l’accès aux propriétés des pièces jointes dans les messages. **L’interface IAttach** n’a aucune méthode unique. Pour plus d’informations sur l’utilisation des pièces jointes, voir [Pièces jointes MAPI](mapi-attachments.md) et tables de pièces [jointes.](attachment-tables.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Exposé par:  <br/> |Objets Attachment  <br/> |
-|Implémenté par :  <br/> |Fournisseurs de banques de messages  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Exposé par :  <br/> |Objets de pièce jointe  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de magasins de messages  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IAttachment  <br/> |
-|Type de pointeur:  <br/> |LPATTACH  <br/> |
-|Modèle de transaction:  <br/> |Traitées  <br/> |
+|Identificateur d’interface :  <br/> |IID_IAttachment  <br/> |
+|Type de pointeur :  <br/> |LPATTACH  <br/> |
+|Modèle de transaction :  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
-Cette interface n'a pas de méthodes uniques.
+Cette interface n’a pas de méthode unique.
   
-|**Propriétés requises**|**Accès**|
+|**Propriétés requises**|**Access**|
 |:-----|:-----|
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Lecture/écriture  <br/> |

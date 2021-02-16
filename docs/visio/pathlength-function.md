@@ -25,7 +25,7 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-PATHLENGTH (* * *section* * * * *[, segment]* * *) 
+PATHLENGTH(** *section* ** ** *[,segment]* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -40,8 +40,8 @@ PATHLENGTH (* * *section* * * * *[, segment]* * *)
   
 ## <a name="remarks"></a>Remarques
 
-Si la _section_ ou le _segment_ n'existe pas, Microsoft Visio renvoie #REF!. 
+Si  _section_ ou  _segment_ n’existe pas, Microsoft Visio renvoie #REF!. 
   
-Si vous incluez une valeur de _segment_ , PATHLENGTH renvoie la longueur de ce segment uniquement. 
+Si vous incluez une valeur  _de segment,_ PATHLENGTH renvoie uniquement la longueur de ce segment. 
   
 

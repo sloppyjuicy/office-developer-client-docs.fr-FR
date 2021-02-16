@@ -23,6 +23,6 @@ ms.locfileid: "33405680"
 2. Appuyez sur Suppr, puis sur Entrée.
     
 > [!NOTE]
-> Essayez ceci dans une cellule **Scratch** après avoir inséré une formule locale. La cellule est restaurée sur «aucune formule», car il n'existe pas de formule pour hériter de la forme de base. 
+> Essayez cela dans une **cellule Scratch** après avoir inséré une formule locale. La cellule revient à « Aucune formule » car il n’existe aucune formule à hériter de la base. 
   
 

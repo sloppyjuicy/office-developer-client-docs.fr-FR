@@ -25,7 +25,7 @@ ms.locfileid: "33409019"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l'heure auxquelles un fournisseur de transport a passé un message à son système de messagerie sous-jacent.
+Contient la date et l’heure à laquelle un fournisseur de transport a transmis un message à son système de messagerie sous-jacent.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient la date et l'heure auxquelles un fournisseur de transport a passé un m
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est définie par le fournisseur de transport sortant lors de l'envoi d'un message.
+Cette propriété est définie par le fournisseur de transport sortant au moment de l’envoi d’un message.
   
-Cette propriété correspond à l'attribut d'enveloppe de soumission X. 400 par message. 
+Cette propriété correspond à une enveloppe d’envoi X.400 par attribut de message. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

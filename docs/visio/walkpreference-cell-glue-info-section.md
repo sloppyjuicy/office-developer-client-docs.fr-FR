@@ -22,8 +22,8 @@ Détermine si un point de fin d'une forme 1D se déplace vers un point de connex
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-| 0,1  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion vertical et le point de fin, vers un point de connexion horizontal (connexions haut / bas vers côté).  <br/> |**visWalkPrefBegNS** <br/> |
-| n°2  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion horizontal et le point de fin, vers un point de connexion vertical (connexions côté vers haut ou côté vers bas).  <br/> |**visWalkPrefEndNS** <br/> |
+| 1   <br/> | Le point de début de la forme 1D se déplace vers un point de connexion vertical et le point de fin, vers un point de connexion horizontal (connexions haut / bas vers côté).  <br/> |**vis PremierfBegNS** <br/> |
+| 2   <br/> | Le point de début de la forme 1D se déplace vers un point de connexion horizontal et le point de fin, vers un point de connexion vertical (connexions côté vers haut ou côté vers bas).  <br/> |**vis PremièrePrefEndNS** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -39,8 +39,8 @@ Pour obtenir une référence à la cellule WalkPreference par index dans un prog
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
-| Index de la cellule :  <br/> |**visWalkPref** <br/> |
+| Index de la cellule :  <br/> |**visUziPref** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Administration des profils et des services de messagerie
+title: Administration des profils et des services de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,66 +15,66 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410559"
 ---
-# <a name="administering-profiles-and-message-services"></a>Administration des profils et des services de messagerie
+# <a name="administering-profiles-and-message-services"></a>Administration des profils et des services de message
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'administration des profils et des services de messagerie peut impliquer la création de profils, la suppression d'anciens profils et la modification du contenu des profils existants en modifiant les services de messagerie et les fournisseurs de services qu'ils contiennent. Tous les clients ne prennent pas en charge l'administration des profils et des services de messagerie en tant que fonctionnalités standard. Certains clients n'ont plus rien à voir avec les profils, plutôt que d'autoriser leurs utilisateurs à en sélectionner un lors de l'ouverture de session.
+L’administration des profils et des services de messagerie peut impliquer la création de profils, la suppression d’anciens profils et la modification du contenu des profils existants en modifiant les services de messagerie et les fournisseurs de services qu’ils contiennent. Tous les clients ne sont pas tous en charge l’administration des profils et des services de messages en tant que fonctionnalités standard. Certains clients n’ont rien d’autre à faire avec les profils que d’autoriser leurs utilisateurs à en sélectionner un à l’heure de l’logo.
   
-Si vous prenez en charge l'administration des profils ou des services de messagerie, il est probable que vous utilisiez les interfaces suivantes qui sont implémentées par MAPI:
+Si vous prendre en charge l’administration de profil ou de service de message, il est fort de pouvoir utiliser les interfaces suivantes implémentées par MAPI :
   
-- [IMsgServiceAdmin: IUnknown](imsgserviceadminiunknown.md) pour administrer un service de messagerie dans un profil, accessible via [IMAPISession:: AdminServices](imapisession-adminservices.md) ou [IProfAdmin:: AdminServices](iprofadmin-adminservices.md). Les clients de messagerie appellent généralement **IMAPISession** pendant que les clients de configuration, ou les clients qui n'envoient pas ou ne reçoivent pas de messages, appellent **IProfAdmin**. Dans la mesure du possible, appelez la méthode **IProfAdmin** car elle n'entraîne pas le démarrage du service de messagerie. Pour plus d'informations sur l'utilisation de l'interface **IMsgServiceAdmin** , consultez les rubriques suivantes: [configuration d'un service de messagerie](configuring-a-message-service.md), [copie d'un service de messagerie](copying-a-message-service.md)et [Suppression d'un service de messagerie](deleting-a-message-service.md).
+- [IMsgServiceAdmin : IUnknown](imsgserviceadminiunknown.md) pour administrer un service de message dans un profil, accessible via [IMAPISession::AdminServices](imapisession-adminservices.md) ou [IProfAdmin::AdminServices](iprofadmin-adminservices.md). Les clients de messagerie appellent généralement **IMAPISession** tandis que les clients de configuration, ou les clients qui n’envoient ou ne reçoivent pas de messages, appellent **IProfAdmin**. Dans la mesure du possible, appelez **la méthode IProfAdmin,** car le service de message n’est pas démarré. Pour plus d’informations sur l’utilisation de l’interface **IMsgServiceAdmin,** consultez les rubriques suivantes : Configuration d’un service de [message,](configuring-a-message-service.md)copie d’un [service](copying-a-message-service.md)de message et suppression d’un [service de message.](deleting-a-message-service.md)
     
-- [IProfAdmin: IUnknown](iprofadminiunknown.md) pour administrer un profil, accessible via la fonction [MAPIAdminProfiles](mapiadminprofiles.md) . Pour plus d'informations sur l'utilisation de l'interface **IProfAdmin** , consultez les rubriques suivantes: création d'un profil à [l'aide de code personnalisé](creating-a-profile-by-using-custom-code.md), [copie d'un profil](copying-a-profile.md), [Suppression d'un profil](deleting-a-profile.md), [recherche d'un nom de profil](finding-a-profile-name.md)et [définition d'un Profil par défaut](setting-a-default-profile.md).
+- [IProfAdmin : IUnknown](iprofadminiunknown.md) pour administrer un profil, accessible via la [fonction MAPIAdminProfiles.](mapiadminprofiles.md) Pour plus d’informations sur l’utilisation de l’interface **IProfAdmin,** consultez les rubriques suivantes : Création d’un profil à l’aide de [code](creating-a-profile-by-using-custom-code.md) [personnalisé,](copying-a-profile.md)copie d’un [profil,](deleting-a-profile.md)suppression d’un [profil,](finding-a-profile-name.md)recherche d’un nom de profil et définition d’un profil par [défaut.](setting-a-default-profile.md)
     
-- [IProfSect: IMAPIProp](iprofsectimapiprop.md) pour gérer les propriétés d'une section de profil, accessible via la méthode [IMAPISession:: OpenProfileSection](imapisession-openprofilesection.md) ou [IProviderAdmin:: OpenProfileSection](iprovideradmin-openprofilesection.md) . Pour plus d'informations sur les sections de profil, consultez la rubrique [MAPI Profiles](mapi-profiles.md).
+- [IProfSect : IMAPIProp](iprofsectimapiprop.md) pour gérer les propriétés dans une section de profil, accessibles via la méthode [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md) ou [IProviderAdmin::OpenProfileSection.](iprovideradmin-openprofilesection.md) Pour plus d’informations sur les sections de profil, voir [Profils MAPI.](mapi-profiles.md)
     
-- [IProviderAdmin: IUnknown](iprovideradminiunknown.md) pour administrer les fournisseurs de services dans un service de messagerie, accessible via [IMsgServiceAdmin:: AdminProviders](imsgserviceadmin-adminproviders.md). Pour plus d'informations sur l'utilisation de l'interface **IProviderAdmin** , consultez la rubrique [Ajout ou suppression de fournisseurs dans un service de messagerie](adding-or-deleting-providers-in-a-message-service.md).
+- [IProviderAdmin : IUnknown](iprovideradminiunknown.md) pour administrer les fournisseurs de services dans un service de messagerie, accessible via [IMsgServiceAdmin::AdminProviders](imsgserviceadmin-adminproviders.md). Pour plus d’informations sur l’utilisation de l’interface **IProviderAdmin,** voir Ajout ou suppression de fournisseurs [dans un service de messagerie.](adding-or-deleting-providers-in-a-message-service.md)
     
-Soyez vigilant lors de la prise en charge de l'administration des profils et des services de messagerie. Il n'existe aucune protection contre la modification défavorable d'un profil en cours d'utilisation. MAPI peut vous empêcher de supprimer un profil en cours d'utilisation, mais ne peut pas vous empêcher de supprimer chaque service de messagerie qu'il contient. Si vous supprimez tous les services de messagerie d'un profil, tous les fournisseurs de services de ces services se bloquent, ce qui entraîne des résultats imprévisibles.
+Soyez prudent dans la prise en charge de l’administration des services de profil et de message. Il n’existe aucune protection contre la modification négative d’un profil en cours d’utilisation. MAPI peut vous empêcher de supprimer un profil en cours d’utilisation, mais ne peut pas vous empêcher de supprimer chaque service de message qu’il insérez. Si vous supprimez tous les services de messagerie d’un profil, tous les fournisseurs de services de ces services s’arrêteront, ce qui provoquera des résultats imprévisibles.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-[Création d'un profil](creating-a-profile.md)
+[Création d’un profil](creating-a-profile.md)
   
-> Indique comment créer un profil.
+> Décrit comment créer un profil.
     
-[Copie d'un profil](copying-a-profile.md)
+[Copie d’un profil](copying-a-profile.md)
   
-> Indique comment copier un profil.
+> Décrit comment copier un profil.
     
-[Suppression d'un profil](deleting-a-profile.md)
+[Suppression d’un profil](deleting-a-profile.md)
   
 > Décrit comment supprimer un profil.
     
-[Définition d'un profil par défaut](setting-a-default-profile.md)
+[Définition d’un profil par défaut](setting-a-default-profile.md)
   
-> Indique comment définir un profil par défaut.
+> Décrit comment définir un profil par défaut.
     
-[Recherche d'un nom de profil](finding-a-profile-name.md)
+[Recherche d’un nom de profil](finding-a-profile-name.md)
   
-> Indique comment rechercher le nom d'un profil.
+> Indique comment trouver un nom de profil.
     
-[Ajout d'un service de messagerie](adding-a-message-service.md)
+[Ajout d’un service de message](adding-a-message-service.md)
   
-> Indique comment ajouter un service de messagerie.
+> Décrit comment ajouter un service de message.
     
-[Configuration d'un service de messagerie](configuring-a-message-service.md)
+[Configuration d’un service de message](configuring-a-message-service.md)
   
-> Décrit la configuration d'un service de messagerie.
+> Décrit comment configurer un service de message.
     
-[Copie d'un service de messagerie](copying-a-message-service.md)
+[Copie d’un service de message](copying-a-message-service.md)
   
-> Décrit comment copier un service de messagerie vers un profil.
+> Décrit comment copier un service de message dans un profil.
     
-[Suppression d'un service de messagerie](deleting-a-message-service.md)
+[Suppression d’un service de message](deleting-a-message-service.md)
   
-> Décrit comment supprimer un service de messagerie.
+> Décrit comment supprimer un service de message.
     
 [Ajout ou suppression de fournisseurs dans un service de messagerie](adding-or-deleting-providers-in-a-message-service.md)
   
-> Indique comment ajouter ou supprimer des fournisseurs dans un service de messagerie.
+> Décrit comment ajouter ou supprimer des fournisseurs dans un service de messagerie.
     
 
