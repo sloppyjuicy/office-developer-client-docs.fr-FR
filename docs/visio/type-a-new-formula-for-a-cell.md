@@ -26,10 +26,10 @@ ms.locfileid: "33413450"
     
     La formule que vous tapez remplace la formule précédente de la cellule.
     
-    Si vous tapez un nombre mais ne fournissez aucune unité de mesure, Microsoft Visio utilise les unités de la valeur précédente de la cellule s'il en existe un. Sinon, si la cellule nécessite une unité, Visio utilise l’unité par défaut de la cellule.
+    Si vous tapez un nombre mais que vous ne fournissez pas d’unités de mesure, Microsoft Visio utilise les unités de la valeur précédente de la cellule s’il en existe une. Sinon, si la cellule nécessite une unité, Visio utilise l’unité par défaut de la cellule.
     
-3. Pour accepter la formule, appuyez sur entrée.
+3. Pour accepter la formule, appuyez sur Entrée.
     
-    Si le nombre ou la formule contient une erreur, Visio affiche un message, puis met en surbrillance l'erreur dans la barre de formule ou la cellule. Corrigez l'erreur, puis appuyez sur Entrée pour accepter la correction.
+    Si le nombre ou la formule contient une erreur, Visio affiche un message, puis met en évidence l’erreur dans la barre de formule ou la cellule. Corrigez l'erreur, puis appuyez sur Entrée pour accepter la correction.
     
 

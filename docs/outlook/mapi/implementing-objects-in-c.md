@@ -19,17 +19,17 @@ ms.locfileid: "33414941"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les applications clientes et les fournisseurs de services écrits en C définissent les objets MAPI en créant une structure de données et un tableau de pointeurs de fonctions ordonnées, appelés table de fonctions virtuelles ou vtable. Un pointeur vers vtable doit être le premier membre de la structure de données.
+Les applications clientes et les fournisseurs de services écrits en C définissent des objets MAPI en créant une structure de données et un tableau de pointeurs de fonction ordonnés appelé tableau virtuel ou tableau virtuel. Un pointeur vers le vtable doit être le premier membre de la structure de données.
   
-Dans la vtable, il existe un pointeur pour chaque méthode dans chaque interface prise en charge par l'objet. L'ordre des pointeurs doit suivre l'ordre des méthodes dans la spécification de l'interface publiée dans le fichier d'en-tête Mapidefs. h. Chaque pointeur fonction dans vtable est défini sur l'adresse de l'implémentation réelle de la méthode. En C++, le compilateur configure automatiquement le vtable. Dans C, ce n'est pas le cas. 
+Dans le vtable lui-même, il existe un pointeur pour chaque méthode dans chaque interface prise en charge par l’objet. L’ordre des pointeurs doit suivre l’ordre des méthodes dans la spécification d’interface publiée dans le fichier d’en-tête Mapidefs.h. Chaque pointeur de fonction dans le vtable est définie sur l’adresse de l’implémentation réelle de la méthode. En C++, le compilateur définit automatiquement le vtable. En C, ce n’est pas le cas. 
   
-L'illustration suivante montre comment cela fonctionne. La zone située à l'extrême gauche représente un client qui doit utiliser un objet fournisseur de services. Par le biais de la session, le client obtient un pointeur vers l'objet, **lpObject**. Le vtable apparaît en premier dans l'objet suivi de données et de méthodes privées. Le pointeur vtable pointe vers le vtable réel, qui contient des pointeurs vers chacune des implémentations des méthodes dans l'interface. 
+L’illustration suivante montre comment cela fonctionne. La zone à l’extrême gauche représente un client qui doit utiliser un objet fournisseur de services. Au cours de la session, le client obtient un pointeur vers l’objet, **lpObject**. Le vtable apparaît en premier dans l’objet suivi des données et méthodes privées. Le pointeur vtable pointe vers le vtable réel, qui contient des pointeurs vers chacune des implémentations des méthodes dans l’interface. 
   
 **Implémentation d’objet**
   
-![Implémentation d'objet] (media/amapi_42.gif "Implémentation d'objet")
+![Implémentation d’objet Implémentation](media/amapi_42.gif "d’objet")
   
-L'exemple de code suivant montre comment un fournisseur de services C peut définir un objet d'état simple. Le premier membre est le pointeur vtable; le reste de l'objet est composé de membres de données. 
+L’exemple de code suivant montre comment un fournisseur de services C peut définir un objet d’état simple. Le premier membre est le pointeur vtable ; Le reste de l’objet est composé de membres de données. 
   
 ```C
 typedef struct _MYSTATUSOBJECT
@@ -43,7 +43,7 @@ typedef struct _MYSTATUSOBJECT
  
 ```
 
-Étant donné que cet objet est un objet d'État, le vtable inclut des pointeurs vers les implémentations de chacune des méthodes de l'interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) , ainsi que des pointeurs vers des implémentations de chacune des méthodes dans les interfaces de base — **IUnknown **et **IMAPIProp**. L'ordre des méthodes dans vtable correspond à l'ordre spécifié tel qu'il est défini dans le fichier d'en-tête Mapidefs. h.
+Étant donné que cet objet est un objet d’état, le vtable inclut des pointeurs vers les implémentations de chacune des méthodes dans l’interface [IMAPIStatus : IMAPIProp,](imapistatusimapiprop.md) ainsi que des pointeurs vers les implémentations de chacune des méthodes dans les interfaces de base — **IUnknown** et **IMAPIProp**. L’ordre des méthodes dans le vtable correspond à l’ordre spécifié tel que défini dans le fichier d’en-tête Mapidefs.h.
   
 ```js
 static const MYOBJECT_Vtbl vtblSTATUS =
@@ -70,9 +70,9 @@ static const MYOBJECT_Vtbl vtblSTATUS =
  
 ```
 
-Les clients et fournisseurs de services écrits en C utilisent les objets indirectement via vtable et ajoutent un pointeur d'objet comme premier paramètre dans chaque appel. Chaque appel à une méthode d'interface MAPI nécessite un pointeur vers l'objet appelé comme premier paramètre. C++ définit un pointeur spécial appelé « **This** pointeur» à cet effet. Le compilateur C++ ajoute implicitement le pointeur **This** comme premier paramètre à chaque appel de méthode. En C, il n'y a pas de pointeur de ce type; il doit être ajouté explicitement. 
+Les clients et fournisseurs de services écrits en C utilisent des objets indirectement via le vtable et ajoutent un pointeur d’objet comme premier paramètre dans chaque appel. Chaque appel à une méthode d’interface MAPI nécessite un pointeur vers l’objet appelé comme premier paramètre. C++ définit un pointeur spécial  appelé pointeur à cet effet. Le compilateur C++ ajoute implicitement ce **pointeur** en tant que premier paramètre à chaque appel de méthode. En C, il n’existe pas de pointeur de ce type ; Il doit être ajouté explicitement. 
   
-Le code suivant montre comment un client peut effectuer un appel à une instance de MYSTATUSOBJECT:
+Le code suivant montre comment un client peut appeler une instance de MYSTATUSOBJECT :
   
 ```C
 lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
@@ -81,5 +81,5 @@ lpMyObj->lpVtbl->ValidateState(lpMyObj, ulUIParam, ulFlags);
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Implémentation d'objets MAPI](implementing-mapi-objects.md)
+- [Mise en œuvre des objets MAPI](implementing-mapi-objects.md)
 

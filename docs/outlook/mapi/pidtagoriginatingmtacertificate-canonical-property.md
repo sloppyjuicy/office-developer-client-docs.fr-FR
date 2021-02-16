@@ -25,32 +25,32 @@ ms.locfileid: "33414808"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur pour l'agent de transfert des messages (MTA) à l'origine du message.
+Contient un identificateur pour l’agent de transfert de messages (MTA) à l’origine du message.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINATING_MTA_CERTIFICATE  <br/> |
 |Identificateur :  <br/> |0x0E25  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Server  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, si elle est définie, est disponible dans les messages envoyés dans le dossier éléments envoyés.
+Cette propriété, si elle est définie, est disponible pour les messages envoyés dans le dossier Éléments envoyés.
   
-Cette propriété correspond à l'attribut par message de l'État X. 400.
+Cette propriété correspond à l’attribut de rapport X.400 par message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -29,9 +29,9 @@ Pointeur vers une structure qui spécifie un tableau de chaînes qui représente
   
 ## <a name="remarks"></a>Remarques
 
-Un fournisseur peut prendre en charge plusieurs URL de site. Le OSC définit la propriété [ISocialSession:: SiteUrl](isocialsession-siteurl.md) pour informer le fournisseur de l'URL de site sélectionnée. 
+Un fournisseur peut prendre en charge plusieurs URL de site. L’OSC définit la [propriété ISocialSession::SiteUrl](isocialsession-siteurl.md) pour informer le fournisseur de l’URL du site sélectionné. 
   
-Le OSC utilise le premier élément du tableau comme URL de site par défaut. Un fournisseur peut renvoyer des éléments supplémentaires dans le tableau d'URL du site, mais le OSC ne les utilise pas. 
+L’OSC utilise le premier élément du tableau comme URL de site par défaut. Un fournisseur peut renvoyer des éléments supplémentaires dans le tableau d’URL du site, mais l’OSC ne les utilise pas. 
   
 ## <a name="see-also"></a>Voir aussi
 

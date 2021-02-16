@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413429"
 ---
-# <a name="mapiofflinenotifytype"></a>MAPIOFFLINE_NOTIFY_TYPE
+# <a name="mapioffline_notify_type"></a>MAPIOFFLINE_NOTIFY_TYPE
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le MAPIOFFLINE_NOTIFY_TYPE d'une notification indique si une modification apportée à l'état de connexion doit avoir lieu, a lieu ou s'est terminée. 
+La MAPIOFFLINE_NOTIFY_TYPE d’une notification indique si un changement d’état de connexion va avoir lieu, est en cours ou est terminé. 
   
 ## <a name="quick-info"></a>Informations rapides
 

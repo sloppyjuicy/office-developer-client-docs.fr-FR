@@ -19,9 +19,9 @@ ms.locfileid: "33415102"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les rubriques de cette section décrivent les interactions entre les applications clientes, le gestionnaire de formulaires MAPI, les serveurs de formulaires et les objets de formulaire pour une série d'actions courantes telles que l'ouverture d'un message et la composition d'un nouveau message.
+Les rubriques de cette section décrivent les interactions entre les applications clientes, le gestionnaire de formulaire MAPI, les serveurs de formulaires et les objets de formulaire pour diverses actions courantes telles que l’ouverture d’un message et la composition d’un nouveau message.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Développement de serveurs de formulaires MAPI](developing-mapi-form-servers.md)
+- [Développement de serveurs de formulaire MAPI](developing-mapi-form-servers.md)
 

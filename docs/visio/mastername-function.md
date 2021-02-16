@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251581
 localization_priority: Normal
 ms.assetid: 519d79d4-9178-2231-c26d-aa7f31a43412
-description: Renvoie le nom de la forme de base d'une feuille sous forme de chaîne ou renvoie la chaîne «no Master» si la feuille n'a pas de forme de base.
+description: Renvoie le nom de la feuille en tant que chaîne, ou renvoie la chaîne « no master » si la feuille n’a pas de master.
 ms.openlocfilehash: 7732cf9e8b23e2fd0fc2e3f2cc8d9ef4f39fd67f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33414752"
 ---
 # <a name="mastername-function"></a>Fonction MASTERNAME
 
-Renvoie le nom de la forme de base d'une feuille sous forme de chaîne\<ou renvoie\>la chaîne «aucune forme de base» si la feuille ne possède pas de forme de base.
+Renvoie le nom de la feuille en tant que chaîne, ou renvoie la chaîne « no master » si la feuille \< \> n’a pas de master.
   
 ## <a name="syntax"></a>Syntaxe
 
-MASTERNAME ([* * *langID_opt* * *]) 
+MASTERNAME ([ ** *langID_opt* ** ]) 
   
 ### <a name="parameters"></a>Paramètres
 

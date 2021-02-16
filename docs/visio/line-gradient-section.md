@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3ef39ca1-ffc0-4ec0-8697-7b4ea7406fa4
-description: Affiche les valeurs de couleur du dégradé de ligne appliqué à la forme.
+description: Indique les valeurs de couleur du dégradé de trait appliqué à la forme.
 ms.openlocfilehash: 3ebee7eb7cfcb14beb12e26508375e4488e379d5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.locfileid: "33415452"
 ---
 # <a name="line-gradient-section"></a>Line Gradient Section
 
-Affiche les valeurs de couleur du dégradé de ligne appliqué à la forme. 
+Indique les valeurs de couleur du dégradé de trait appliqué à la forme. 
   
 ## <a name="remarks"></a>Remarques
 
-Chaque ligne point de [dégradé (section dégradé de ligne)](gradient-stop-row-line-gradient-section.md) de la section représente un point de dégradé dans la ligne. Cette section peut être vide. 
+Chaque [ligne Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md) de la section représente un arrêt de dégradé dans la ligne. Cette section peut être vide. 
   
-Seules les 10 premières lignes contenues dans la section sont utilisées par les paramètres de dégradé. Toutes les lignes d' **arrêt de dégradé** au-delà de 10 sont ignorées. 
+Seules les 10 premières lignes contenues dans la section sont utilisées par les paramètres de dégradé. Toutes **les lignes d’arrêt** du dégradé au-delà de 10 sont ignorées. 
   
-Vous pouvez définir les propriétés de dégradé de ligne dans la section **ligne** du volet **format** de la forme (sous l'onglet **Accueil** , dans le groupe **styles de formes** , cliquez sur **trait**, puis sur options de **ligne**). 
+Vous pouvez définir les propriétés de dégradé de trait dans  la **section** Trait du volet **Format** de forme (sous l’onglet Accueil, dans le groupe **Styles** de forme, cliquez sur **Trait,** puis cliquez sur Options de **trait).** 
   
-Vous pouvez activer ou désactiver la couleur d'un trait de dégradé pour la forme en modifiant la valeur de la cellule [LineGradientEnabled (section Propriétés du dégradé)](linegradientenabled-cell-gradient-properties-section.md) . 
+Vous pouvez activer ou désactiver une couleur de trait de dégradé pour la forme en modifiant la valeur de la cellule [LineGradientEnabled Cell (Gradient Properties Section).](linegradientenabled-cell-gradient-properties-section.md) 
   
 

@@ -22,8 +22,8 @@ Indique les attributs de mise en forme de paragraphe du texte de la forme, tels 
   
 ## <a name="remarks"></a>Remarques
 
-Les formats de paragraphe peuvent être définis en insérant une entrée dans une cellule de la section **paragraph** en appliquant un style de texte ou en entrant des valeurs dans la boîte de dialogue **texte** (sous l'onglet **Accueil** , cliquez sur le lanceur de boîte de dialogue dans le groupe **police** ). 
+Les formats de paragraphe peuvent être définies en entrant une entrée dans une cellule  de section **Paragraph** en appliquant un style de  texte ou en entrant des valeurs dans la boîte de dialogue Texte (sous l’onglet Accueil, cliquez sur le lanceur de boîte de dialogue dans le groupe Police).  
   
-La section **paragraph** n'inclut pas les cellules pour les paramètres de tabulation. Pour définir les tabulations du texte d'une forme, utilisez la boîte de dialogue **Texte**. 
+La section **Paragraph** n’inclut pas de cellules pour les paramètres de tabulation. Pour définir les tabulations du texte d'une forme, utilisez la boîte de dialogue **Texte**. 
   
 

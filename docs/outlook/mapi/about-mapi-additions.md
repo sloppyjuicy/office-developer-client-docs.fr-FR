@@ -17,7 +17,7 @@ ms.locfileid: "33415291"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les ajouts MAPI sont des API qui appartiennent à l'interface MAPI (Messaging Application Programming Interface), telles que les types de données, les fonctions et les propriétés, qui n'étaient précédemment pas exposés et documentés dans le cadre du Guide de référence du programmeur MAPI. Elles incluent les définitions et les propriétés suivantes.
+Les ajouts MAPI sont des API qui appartiennent à l’interface MAPI (Messaging Application Programming Interface), telles que les types de données, les fonctions et les propriétés, qui n’ont pas été précédemment exposées et documentées dans le cadre de la Référence du programmeur MAPI. Elles incluent les définitions et propriétés suivantes.
   
 ## <a name="constant-definitions"></a>Définitions des constantes
 
@@ -39,7 +39,7 @@ Les ajouts MAPI sont des API qui appartiennent à l'interface MAPI (Messaging Ap
     
 ## <a name="properties"></a>Propriétés
 
-Les propriétés suivantes sont généralement exposées par les objets message.
+Les propriétés suivantes sont généralement exposées par les objets de message.
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -79,11 +79,11 @@ Les propriétés suivantes sont généralement exposées par les objets message.
     
 - **[PR_SUBJECT_W](pidtagsubject-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets de tableau du contenu du carnet d'adresses.
+Les propriétés suivantes sont exposées par des objets de table de contenu de carnet d’adresses.
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets conteneur du carnet d'adresses.
+Les propriétés suivantes sont exposées par des objets conteneur de carnet d’adresses.
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,7 +91,7 @@ Les propriétés suivantes sont exposées par les objets conteneur du carnet d'a
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets Folder.
+Les propriétés suivantes sont exposées par des objets de dossier.
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
@@ -189,7 +189,7 @@ Les propriétés suivantes sont exposées par les objets utilisateur de messager
     
 - **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets de section de profil.
+Les propriétés suivantes sont exposées par des objets de section de profil.
   
 - **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
@@ -207,7 +207,7 @@ Les propriétés suivantes sont exposées par les objets de section de profil.
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets Store.
+Les propriétés suivantes sont exposées par les objets store.
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ Les propriétés suivantes sont exposées par les objets Store.
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-Les propriétés suivantes sont exposées par les objets Store et sont utilisées pour rechercher des éléments spécifiques d'un courrier électronique dans la Banque.
+Les propriétés suivantes sont exposées par les objets store et sont utilisées pour rechercher des éléments spécifiques d’un e-mail dans la boutique.
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     
@@ -234,7 +234,7 @@ Les propriétés suivantes sont exposées par les objets Store et sont utilisée
 ## <a name="see-also"></a>Voir aussi
 
 - [Accès à une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
-- [Détecter la version d'Exchange Server dans un profil Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [Détecter la version d’Exchange Server dans un profil Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
 - [Ouvrir une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [Gérer un message dans un fichier OST sans appeler de synchronisation en mode Exchange mis en cache](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

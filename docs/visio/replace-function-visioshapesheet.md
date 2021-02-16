@@ -22,16 +22,16 @@ Cette méthode remplace une partie de chaîne de texte, selon le nombre de carac
   
 ## <a name="syntax"></a>Syntaxe
 
-RePLACE (* * *ancien_texte* * *, * * *no_départ* * *, * * *no_car* * *, * * *nouveau_texte* * *) 
+REPLACE (** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _ancien_texte_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte dans lequel vous souhaitez remplacer certains caractères.  <br/> |
-| _no_départ_ <br/> |Obligatoire  <br/> |**Number** <br/> |Position du caractère d' _ancien_texte_ à remplacer par _nouveau_texte_. Le premier caractère de la chaîne est à la position 1.  <br/> |
-| _no_car_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre de caractères d' _ancien_texte_ à remplacer  <br/> |
-| _nouveau_texte_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte qui remplace les caractères d' _ancien_texte_.  <br/> |
+| _old_text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte dans lequel vous souhaitez remplacer certains caractères.  <br/> |
+| _start_num_ <br/> |Obligatoire  <br/> |**Number** <br/> |Position du caractère dans la  _old_text_ que vous souhaitez remplacer par  _new_text_. Le premier caractère de la chaîne est à la position 1.  <br/> |
+| _num_chars_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre de caractères  _dans old_text_ que vous souhaitez remplacer  <br/> |
+| _new_text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte qui remplacera les caractères dans  _old_text_.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

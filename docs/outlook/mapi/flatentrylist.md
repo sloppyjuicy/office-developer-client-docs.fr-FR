@@ -23,12 +23,12 @@ ms.locfileid: "33413856"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de structures [FLATENTRY](flatentry.md) . 
+Contient un tableau de structures [FLATENTRY.](flatentry.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Macros connexes:  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md), [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Macros associées :  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md), [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
    
 ```cpp
 typedef struct
@@ -44,23 +44,23 @@ typedef struct
 
 **cEntries**
   
-> Nombre de structures **FLATENTRY** dans le tableau décrit par le membre **abEntries** . 
+> Nombre de structures **FLATENTRY** dans le tableau décrit par le **membre abEntries.** 
     
 **cbEntries**
   
-> Nombre d'octets dans le tableau décrit par **abEntries**. 
+> Nombre d’octets dans le tableau décrit par **abEntries**. 
     
 **abEntries**
   
-> Tableau d'octets contenant une ou plusieurs structures **FLATENTRY** , organisées de bout en bout. 
+> Tableau d’bytes qui contient une ou plusieurs structures **FLATENTRY,** organisées de bout en bout. 
     
 ## <a name="remarks"></a>Remarques
 
-Dans le tableau **abEntries** , chaque structure **FLATENTRY** est alignée sur une frontière naturellement alignée. Les octets supplémentaires sont inclus comme remplissage afin de s'assurer de l'alignement naturel entre deux structures **FLATENTRY** . La première structure **FLATENTRY** dans le tableau est toujours alignée correctement car l'offset du membre **abEntries** est égal à 8. Pour calculer le décalage de la structure suivante, utilisez la taille de la première entrée arrondie au multiple suivant de 4. Utilisez la macro [CbFLATENTRY](cbflatentry.md) pour calculer la taille d'une structure **FLATENTRY** . 
+Dans le **tableau abEntries,** chaque structure **FLATENTRY** est alignée sur une limite alignée naturellement. Des octets supplémentaires sont inclus comme remplissage pour assurer un alignement naturel entre deux structures **FLATENTRY.** La première structure **FLATENTRY** du tableau est toujours alignée correctement, car le décalage du membre **abEntries** est 8. Pour calculer le décalage de la structure suivante, utilisez la taille de la première entrée arrondie au multiple suivant de 4. Utilisez la macro [CbFLATENTRY](cbflatentry.md) pour calculer la taille d’une structure **FLATENTRY.** 
   
-Par exemple, la deuxième structure **FLATENTRY** démarre à un offset qui se compose du décalage de la première entrée plus la longueur de la première entrée arrondie aux quatre octets suivants. La longueur de la première entrée est la longueur de son membre **CB** plus la longueur de son membre **abEntry** . 
+Par exemple, la deuxième structure **FLATENTRY** commence par un décalage qui se compose du décalage de la première entrée plus la longueur de la première entrée arrondie aux quatre octets suivants. La longueur de la première entrée est la longueur de son membre **cb** ainsi que la longueur de son **membre abEntry.** 
   
-L'exemple de code suivant indique comment calculer les décalages dans une structure **FLATENTRYLIST** . Supposons que _lpFlatEntry_ est un pointeur vers la première structure de la liste. 
+L’exemple de code suivant indique comment calculer des décalages dans une structure **FLATENTRYLIST.** Supposons  _que lpFlatEntry_ est un pointeur vers la première structure de la liste. 
   
 ```cpp
 (offsetof(lpFlatEntry->ab) // for example, 4

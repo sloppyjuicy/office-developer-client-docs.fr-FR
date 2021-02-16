@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfRegister
 keywords:
-- fonction xlfRegister [Excel 2007]
+- fonction xlfregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,15 +22,15 @@ ms.locfileid: "33416040"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Peut être appelée à partir d'une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **Register** à partir d'une feuille macro XLM Excel. 
+Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **REGISTER** à partir d’une feuille macro XLM Excel. 
   
-La fonction **xlfRegister** peut être appelée sous deux formes: 
+La **fonction xlfRegister** peut être appelée sous deux formes : 
   
 - [xlfRegister (formulaire 1)](xlfregister-form-1.md): inscrit une commande ou une fonction individuelle.
     
-- xlfRegister (formulaire 2): charge et active un XLL.
+- xlfRegister (formulaire 2) : charge et active une XLL.
     
-Appelée dans le formulaire 2, cette fonction ne peut être utilisée que pour charger et activer une XLL contenant une procédure [xlAutoOpen](xlautoopen.md) . 
+Appelée dans le formulaire 2, cette fonction ne peut être utilisée que pour charger et activer une XLL contenant une procédure [xlAutoOpen.](xlautoopen.md) 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
@@ -44,7 +44,7 @@ Nom de la DLL à charger et à activer.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Si elle réussit, cette propriété renvoie le nom de la DLL (**xltypeStr**). Dans le cas contraire, elle renvoie une #VALUE! «.
+Si elle réussit, cela renvoie le nom de la DLL (**xltypeStr**). Sinon, elle renvoie une #VALUE ! erreur.
   
 ## <a name="see-also"></a>Voir aussi
 

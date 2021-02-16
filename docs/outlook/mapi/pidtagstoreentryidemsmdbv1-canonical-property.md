@@ -21,20 +21,20 @@ ms.locfileid: "33415151"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'ancien style (Microsoft Outlook 2002 et versions antérieures) de l'identificateur d'entrée d'une banque de messages Microsoft Exchange Server 2010 ou Exchange Server 2013.
+Contient l’ancien style (Microsoft Outlook 2002 et versions antérieures) de l’identificateur d’entrée d’un magasin de messages Microsoft Exchange Server 2010 ou Exchange Server 2013.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_STORE_ENTRYID_EMSMDB_V1  <br/> |
 |Identificateur :  <br/> |0x65F60102  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Propriétés ID  <br/> |
+|Domaine :  <br/> |Propriétés de l’ID  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-À partir de Microsoft Outlook 2003, les noms de domaine complets du serveur ont été intégrés aux identificateurs d'entrée, ce qui permet d'éviter les appels RPC supplémentaires pour les redirections. Toutefois, cela complique davantage les ID d'entrée et présente des scénarios dans lesquels la méthode **CompareEntryIDs** doit être utilisée pour déterminer si deux identificateurs d'entrée sont équivalents. La propriété PR_STORE_ENTRYID_EMSMDB_V1 (PidTagStoreIdEmsbdbV1) accède à l'ancien format de l'ID d'entrée du serveur Exchange utilisé par Microsoft Outlook 2002 (Microsoft Office XP) et les versions antérieures. Cela permet d'économiser de l'espace et de réduire le nombre d'appels **CompareEntryIDs** nécessaires pour déterminer quand les ID d'entrée sont équivalents. Notez que l'utilisation des anciens ID d'entrée pour ouvrir une boîte aux lettres peut entraîner des appels RPC supplémentaires si une référence est requise. 
+À partir de Microsoft Outlook 2003, les FQDN du serveur étaient intégrés dans les ID d’entrée, évitant ainsi d’autres RPCs pour les références. Toutefois, cela rend les ID d’entrée plus longs et introduit d’autres scénarios où la méthode **CompareEntryIDs** doit être utilisée pour déterminer si deux ID d’entrée sont équivalents. La propriété PR_STORE_ENTRYID_EMSMDB_V1 (PidTagStoreIdEmsbdbV1) accède à l’ancien format de l’ID d’entrée Exchange Server utilisé par Microsoft Outlook 2002 (Microsoft Office XP) et les versions antérieures. Cela permet d’économiser de l’espace et de réduire le nombre d’appels **CompareEntryIDs** nécessaires pour déterminer à quel moment les ID d’entrée sont équivalents. Notez que l’utilisation des anciens ID d’entrée pour ouvrir une boîte aux lettres peut incurer des RPCs supplémentaires si une référence est requise. 
   
-Pour accéder à la propriété PR_STORE_ENTRYID_EMSMDB_V1 en mode mis en cache, vous devez ignorer le cache à l'aide de l'indicateur MAPI_NO_CACHE avec la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) . Si **PR_STORE_ENTRYID_EMSMDB_V1** n'est pas disponible, le code doit revenir à PR_STORE_ENTRYID. Seul Outlook 2003 via Microsoft Outlook 2013 prend en charge la propriété PR_STORE_ENTRYID_EMSMDB_V1. 
+Pour accéder à la propriété PR_STORE_ENTRYID_EMSMDB_V1 en mode mis en cache, vous devez contourner le cache à l’aide de l’indicateur MAPI_NO_CACHE avec la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md) Si **PR_STORE_ENTRYID_EMSMDB_V1** n’est pas disponible, le code doit revenir à PR_STORE_ENTRYID. Seuls Outlook 2003 à Microsoft Outlook 2013 peuvent PR_STORE_ENTRYID_EMSMDB_V1 propriété. 
   
 ## <a name="see-also"></a>Voir aussi
 

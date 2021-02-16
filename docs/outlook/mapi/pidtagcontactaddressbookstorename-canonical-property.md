@@ -25,30 +25,30 @@ ms.locfileid: "33414010"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d'affichage du magasin associé au fournisseur de carnet d'adresses. 
+Contient le nom complet du magasin associé au fournisseur de carnet d’adresses. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_STORE_NAME, PR_CONTAB_STORE_NAME_A, PR_CONTAB_STORE_NAME_W  <br/> |
 |Identificateur :  <br/> |0x6612  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_STRING8  <br/> |
-|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont sur un conteneur de carnet d'adresses de contacts et une colonne dans la table des conteneurs du carnet d'adresses des contacts.
+Ces propriétés se font sur un conteneur de carnet d’adresses de contact et dans une colonne de la table des conteneurs de carnet d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

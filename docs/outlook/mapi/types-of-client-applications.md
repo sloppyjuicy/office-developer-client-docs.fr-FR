@@ -1,5 +1,5 @@
 ---
-title: Types d'applications clientes
+title: Types d’applications clientes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,36 +15,36 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417055"
 ---
-# <a name="types-of-client-applications"></a>Types d'applications clientes
+# <a name="types-of-client-applications"></a>Types d’applications clientes
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Il existe principalement deux types de clients de messagerie: ceux qui gèrent les messages interpersonnels (IPM) et ceux qui gèrent les messages de communication interprocessus (IPC). Au sein de ces types, les applications clientes de messagerie peuvent être classées comme suit:
+Il existe principalement deux types de clients de messagerie : ceux qui gèrent les messages interpersonnels (IPM) et ceux qui gèrent les messages de communication interprocessus (IPC). Dans ces types, les applications clientes de messagerie peuvent être classées comme suit :
   
-- De personne à personne
+- Personne à personne
     
-- De personne à ordinateur
+- Personne à ordinateur
     
 - Ordinateur à personne
     
 - Ordinateur à ordinateur
     
-- Mélange de personnes et d'ordinateurs
+- Combinaison de personnes et d’ordinateurs
     
-Les applications de personne à personne impliquent une personne qui initie l'échange de messages et qu'une autre personne répond. Cette catégorie d'applications inclut des applications de messagerie traditionnelles, ainsi que des échanges plus structurés, tels que le routage de documents ou l'approbation des dépenses.
+Les applications de personne à personne impliquent une personne qui lance l’échange de messages et une autre personne répond. Cette catégorie d’applications inclut les applications de messagerie traditionnelles, ainsi que des échanges plus structurés tels que le routage des documents ou l’approbation des dépenses.
   
-Les applications de personne à ordinateur impliquent une personne qui initie l'échange de messages et qu'un ordinateur répond. Cette catégorie inclut les applications qui utilisent la messagerie électronique, par exemple, envoyer une requête de base de données ou s'abonner à une liste de publipostage.
+Les applications de personne à ordinateur impliquent qu’une personne lance l’échange de messages et qu’un ordinateur répond. Cette catégorie inclut les applications qui utilisent le courrier électronique pour, par exemple, soumettre une requête de base de données ou s’abonner à une liste de diffusion.
   
-Les applications ordinateur à personne impliquent un ordinateur qui initie l'échange de messages et une personne qui répond. Cette catégorie comprend les applications qui distribuent des documents tels que des flux d'actualités et des enquêtes sur les opinions.
+Les applications d’ordinateur à personne impliquent un ordinateur qui lance l’échange de messages et une personne qui répond. Cette catégorie inclut les applications qui distribuent des documents tels que des flux d’actualités et des enquêtes d’opinion.
   
-Les applications ordinateur à ordinateur impliquent un ordinateur qui initie l'échange de messages et sur lequel un ordinateur répond. Cette catégorie inclut des applications telles que la surveillance des pulsations de liaison et la réplication des bases de données et des répertoires.
+Les applications d’ordinateur à ordinateur impliquent qu’un ordinateur lance l’échange de messages et qu’un ordinateur répond. Cette catégorie inclut des applications telles que la surveillance des pulsations de liens et la réplication des répertoires et des bases de données.
   
-La dernière catégorie, un mélange de personnes et d'ordinateurs, implique un scénario plus complexe. Cette catégorie inclut les applications qui ne transmettent pas nécessairement les messages entre les expéditeurs et les destinataires. Au lieu de cela, ils peuvent les publier directement dans un dossier public ou un forum de site Web pris en charge par une banque de messages. Les messages peuvent ensuite être utilisés à la demande par d'autres lecteurs, un administrateur ou un agent logiciel.
+La dernière catégorie, un mélange de personnes et d’ordinateurs, implique un scénario plus complexe. Cette catégorie inclut les applications qui ne transmettent pas nécessairement des messages entre les expéditeurs et les destinataires. Au lieu de cela, ils peuvent les publier directement dans un dossier public ou sur un forum de site web pris en charge par une magasin de messages. Les messages peuvent ensuite être consommés à la demande par d’autres lecteurs, un administrateur ou un agent logiciel.
   
-Si vous écrivez une application de personne à personne, une application d'ordinateur à personne ou une application qui publie des messages dans des forums publics, concevez votre application pour envoyer et recevoir des messages IPM. Si vous écrivez une application de personne à ordinateur ou une application de machine à ordinateur, elle peut être conçue pour envoyer et recevoir des messages IPC. Toute application nécessitant l'interaction d'un utilisateur humain doit prendre en charge les messages IPM. Les applications qui impliquent à la fois des personnes et des machines dans un grand nombre de scénarios doivent souvent prendre en charge les messages IPM et IPC. La seule vraie différence entre les deux classes est que les messages IPM dans une banque de messages sont visibles pour les utilisateurs de clients de messagerie, tandis que les messages IPC ne sont généralement pas visibles par les utilisateurs de l'application cliente. 
+Si vous écrivez une application de personne à personne, une application d’ordinateur à personne ou une application qui publie des messages sur des forums publics, concevez votre application pour envoyer et recevoir des messages IPM. Si vous écrivez une application de personne à ordinateur ou d’ordinateur à ordinateur, elle peut être conçue pour envoyer et recevoir des messages IPC. Toute application nécessitant l’interaction d’un utilisateur humain doit prendre en charge les messages IPM. Les applications qui impliquent des personnes et des ordinateurs dans divers scénarios doivent souvent prendre en charge les messages IPM et IPC. La seule différence réelle entre les deux classes est que les messages IPM dans une magasin de messages sont visibles par les utilisateurs des clients de messagerie, tandis que les messages IPC ne sont généralement pas visibles pour les utilisateurs de l’application cliente. 
   
-Au lieu de limiter vos messages aux fonctionnalités fournies par les superclasses MAPI, IPM et IPC, vous pouvez personnaliser et améliorer ces classes en créant de nouvelles sous-classes IPM ou IPC. La création de sous-classes de message implique l'invente de nouvelles classes de message qui héritent des superclasses. Par exemple, si votre application de personne à personne est spécialisée dans la gestion des relations client, vous pouvez sous-classe la superclasse IPM en définissant un IPM. La classe contact. Customer et créer des propriétés qui décrivent un client. En plus de prendre en charge ces propriétés personnalisées, votre IPM. Contacts. les messages client héritent des propriétés prises en charge par tous les messages IPM.
+Au lieu de limiter vos messages aux fonctionnalités fournies par les superclasses MAPI, IPM et IPC, vous pouvez personnaliser et améliorer ces classes en créant de nouvelles sous-classes IPM ou IPC. La création de sous-classes de messages implique l’inventation de nouvelles classes de message qui héritent des superclasses. Par exemple, si votre application de personne à personne est spécialisée dans la gestion de la relation client, vous pouvez sous-classer la superclasse IPM en définissant un IPM. Classe Contact.Customer et créez des propriétés qui décrivent un client. En plus de prendre en charge ces propriétés personnalisées, votre IPM. Les messages Contact.Customer héritent des propriétés pris en charge par tous les messages IPM.
   
 

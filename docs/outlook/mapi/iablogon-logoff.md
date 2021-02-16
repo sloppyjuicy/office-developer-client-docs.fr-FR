@@ -25,7 +25,7 @@ ms.locfileid: "33416397"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lance le processus de fermeture de session.
+Lance le processus de ffage de logo.
   
 ```cpp
 HRESULT Logoff(
@@ -43,19 +43,19 @@ HRESULT Logoff(
 
 S_OK 
   
-> Le processus de fermeture de session a été initié avec succès.
+> Le processus de ffage de logo a été lancé avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-Le processus de déconnexion est généralement démarré lorsqu'un client appelle la méthode [IMAPISession:: Logoff](imapisession-logoff.md) pour mettre fin à une session. MAPI appelle ensuite la méthode **IABLogon:: Logoff** du fournisseur de carnets d'adresses pour démarrer le processus de fermeture de session. 
+Le processus de ffage de session est généralement démarré lorsqu’un client appelle la méthode [IMAPISession::Logoff](imapisession-logoff.md) pour mettre fin à une session. MAPI appelle ensuite la méthode **IABLogon::Logoff** de chaque fournisseur de carnet d’adresses pour démarrer le processus de désabonnement. 
   
-La méthode **IABLogon:: Logoff** effectue les opérations suivantes: 
+La **méthode IABLogon::Logoff** : 
   
-- Libère tous les objets ouverts, tels que les sous-objets ou l'objet d'État.
+- Libère tous les objets ouverts, tels que les sous-objets ou l’objet d’état.
     
-- Libère l'objet de prise en charge du fournisseur.
+- Libère l’objet de support du fournisseur.
     
-Pour plus d'informations sur le processus de fermeture de session des fournisseurs de carnets d'adresses, consultez la rubrique [arrêt d'un fournisseur de services](shutting-down-a-service-provider.md).
+Pour plus d’informations sur le processus de fermeture de logo des fournisseurs de carnets d’adresses, voir [Shutting Down a Service Provider](shutting-down-a-service-provider.md).
   
 ## <a name="see-also"></a>Voir aussi
 

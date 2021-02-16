@@ -25,7 +25,7 @@ ms.locfileid: "33416299"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre un objet Folder ou message et renvoie un pointeur vers l'objet pour fournir un accès supplémentaire. 
+Ouvre un dossier ou un objet message et renvoie un pointeur vers l’objet pour fournir un accès supplémentaire. 
   
 ```cpp
 HRESULT OpenEntry(
@@ -42,39 +42,39 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Taille, en octets, de l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'adresse de l'identificateur d'entrée du dossier ou de l'objet de message à ouvrir. 
+> [in] Pointeur vers l’adresse de l’identificateur d’entrée du dossier ou de l’objet message à ouvrir. 
     
  _lpInterface_
   
-> dans Pointeur vers l'identificateur d'interface (IID) de l'objet. La transmission de la valeur NULL indique que l'objet est casté en interface standard pour ce type d'objet. Le paramètre _lpInterface_ peut également être défini sur un identificateur pour une interface appropriée pour l'objet. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet. Le passage de null indique que l’objet est casté vers l’interface standard pour un tel objet. Le  _paramètre lpInterface peut_ également être définie sur un identificateur pour une interface appropriée pour l’objet. 
     
  _ulOpenFlags_
   
-> dans Masque de des indicateurs qui contrôle le mode d'ouverture de l'objet. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet est ouvert. Les indicateurs suivants peuvent être définies :
     
 MAPI_BEST_ACCESS 
   
-> L'objet doit être ouvert avec les autorisations maximales accordées à l'utilisateur et les autorisations d'application client maximales. Par exemple, si le client dispose d'une autorisation en lecture/écriture, l'objet est ouvert avec une autorisation en lecture/écriture; Si le client dispose d'une autorisation en lecture seule, l'objet est ouvert en lecture seule. Le client peut récupérer le niveau d'autorisation en obtenant la propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+> L’objet doit être ouvert avec les autorisations maximales autorisées pour l’utilisateur et le nombre maximal d’autorisations d’application cliente. Par exemple, si le client dispose d’une autorisation de lecture/écriture, l’objet est ouvert avec une autorisation de lecture/écriture . Si le client dispose d’une autorisation en lecture seule, l’objet est ouvert avec une autorisation en lecture seule. Le client peut récupérer le niveau d’autorisation en obtenant **la propriété PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
     
 MAPI_DEFERRED_ERRORS 
   
-> L'appel est autorisé même si l'objet sous-jacent n'est pas disponible pour l'application appelante. Si l'objet n'est pas disponible, un appel ultérieur à l'objet peut renvoyer une erreur.
+> L’appel est autorisé à réussir même si l’objet sous-jacent n’est pas disponible pour l’application à l’origine de l’appel. Si l’objet n’est pas disponible, un appel ultérieur à l’objet peut renvoyer une erreur.
     
 MAPI_MODIFY 
   
-> Demande une autorisation en lecture/écriture. Par défaut, les objets sont créés avec l'autorisation lecture seule, et les clients ne doivent pas travailler en supposant que l'autorisation de lecture/écriture a été octroyée. 
+> Demande une autorisation de lecture/écriture. Par défaut, les objets sont créés avec une autorisation en lecture seule et les clients ne doivent pas fonctionner sur l’hypothèse que l’autorisation lecture/écriture a été accordée. 
     
  _lpulObjType_
   
-> remarquer Pointeur vers le type de l'objet ouvert.
+> [out] Pointeur vers le type de l’objet ouvert.
     
  _lppUnk_
   
-> remarquer Pointeur vers le pointeur vers l'objet ouvert.
+> [out] Pointeur vers le pointeur vers l’objet ouvert.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -84,11 +84,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la méthode **IMSLogon:: OpenEntry** pour ouvrir un dossier ou un message dans une banque de messages. MAPI transmet l'identificateur d'entrée de l'objet à ouvrir. Le fournisseur de banque de messages doit renvoyer un pointeur qui permet un accès supplémentaire à l'objet spécifié dans le paramètre _lppUnk_ . 
+MAPI appelle la **méthode IMSLogon::OpenEntry** pour ouvrir un dossier ou un message dans une magasin de messages. MAPI transmet l’identificateur d’entrée de l’objet à ouvrir. Le fournisseur de la boutique de messages doit renvoyer un pointeur qui permet un accès supplémentaire à l’objet spécifié dans _le paramètre lppUnk._ 
   
-Avant que MAPI appelle **IMSLogon:: OpenEntry**, il détermine d'abord que l'identificateur d'entrée de dossier ou de message donné correspond à l'un des éléments inscrits par ce fournisseur de banque de messages. Pour plus d'informations sur la façon dont les fournisseurs de magasins inscrivent les identificateurs d'entrée, voir [IMAPISupport:: SetProviderUID](imapisupport-setprovideruid.md).
+Avant que MAPI appelle **IMSLogon::OpenEntry,** il détermine d’abord que l’identificateur d’entrée de message ou de dossier donné correspond à un identificateur enregistré par ce fournisseur de magasin de messages. Pour plus d’informations sur la façon dont les fournisseurs de magasins enregistrent les identificateurs d’entrée, voir [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).
   
- **IMSLogon:: OpenEntry** est identique à la méthode [IMsgStore:: OpenEntry](imsgstore-openentry.md) de l'objet de banque de messages, sauf que le client n'appelle pas **IMSLogon:: OpenEntry**; MAPI appelle **IMSLogon:: OpenEntry** lorsqu'il traite une méthode **IMAPISession:: OpenEntry** . Les objets ouverts à l'aide de **IMSLogon:: OpenEntry** doivent être traités exactement de la même façon que les objets ouverts à l'aide de l'objet de banque de messages; en particulier, les objets ouverts à l'aide de cet appel doivent être invalidés lors de la publication de l'objet de banque de messages. 
+ **IMSLogon::OpenEntry** est identique à la méthode [IMsgStore::OpenEntry](imsgstore-openentry.md) de l’objet de magasin de messages, sauf que le client n’appelle pas **IMSLogon::OpenEntry**; MAPI appelle **IMSLogon::OpenEntry** lorsqu’il traite une **méthode IMAPISession::OpenEntry.** Les objets ouverts à l’aide **d’IMSLogon::OpenEntry** doivent être traités exactement de la même manière que les objets ouverts à l’aide de l’objet de la boutique de messages . en particulier, les objets ouverts à l’aide de cet appel doivent être invalidés lorsque l’objet de la boutique de messages est libéré. 
   
 ## <a name="see-also"></a>Voir aussi
 

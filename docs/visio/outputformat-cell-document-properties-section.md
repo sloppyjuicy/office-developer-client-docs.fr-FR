@@ -23,8 +23,8 @@ Détermine le format de sortie d'un dessin. Les pages de dessin sont généralem
 |**Valeur**|**Format de sortie**|
 |:-----|:-----|
 | 0  <br/> | Impression (par défaut)  <br/> |
-| 0,1  <br/> | Diaporama PowerPoint  <br/> |
-| n°2  <br/> | Sortie HTML ou GIF  <br/> |
+| 1   <br/> | Diaporama PowerPoint  <br/> |
+| 2   <br/> | Sortie HTML ou GIF  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule OutputFormat à l'aide d'un index à 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowDoc** <br/> |
 | Index de la cellule :  <br/> |**visDocOutputFormat** <br/> |
    

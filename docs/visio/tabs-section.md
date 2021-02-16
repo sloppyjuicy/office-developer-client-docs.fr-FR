@@ -22,7 +22,7 @@ Contient les cellules de formes ou de styles qui contrôlent la position de la t
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir ces valeurs à l'aide **** de l'onglet onglets de la boîte de dialogue **texte** (cliquez sur lanceur de boîte de dialogue dans le groupe **police** de l'onglet **Accueil** ) ou à l'aide de la **règle de texte**. Pour afficher la **Règle de texte**, cliquez avec le bouton droit de la souris sur le texte en mode d’édition de texte, puis cliquez sur **Règle de texte** dans le menu contextuel. 
+Vous pouvez également définir ces valeurs à  l’aide de l’onglet  **Onglets** dans  la boîte de dialogue Texte (cliquez sur le lanceur de boîte de dialogue dans le groupe Police de l’onglet Accueil) ou à l’aide de la règle de **texte.** Pour afficher la **Règle de texte**, cliquez avec le bouton droit de la souris sur le texte en mode d’édition de texte, puis cliquez sur **Règle de texte** dans le menu contextuel. 
   
 Vous pouvez associer des taquets de tabulation à certains caractères en sélectionnant le texte, puis en définissant le taquet correspondant. Lorsque vous associez des taquets de tabulation à certains caractères, une nouvelle ligne est ajoutée dans la fenêtre Feuille ShapeSheet. Le nom de la ligne représente le nombre de caractères que contient le taquet de tabulation.
   

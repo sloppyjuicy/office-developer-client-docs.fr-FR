@@ -32,11 +32,11 @@ Contient un pointeur vers une structure pour un contrôle utilisé dans une boî
 |Propriétés associées :  <br/> |PR_CONTROL_STRUCTURE  <br/> |
 |Identificateur :  <br/> |0x3F01  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Table d'affichage MAPI  <br/> |
+|Domaine :  <br/> |Tableau d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété représente un pointeur long qui est casté en une des structures de contrôle. Les structures de contrôle sont les suivantes:
+Cette propriété représente un pointeur long qui est casté vers l’une des structures de contrôle. Les structures de contrôle sont les suivantes :
   
 |||
 |:-----|:-----|
@@ -49,15 +49,15 @@ Cette propriété représente un pointeur long qui est casté en une des structu
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

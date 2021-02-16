@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - HookExcelWindow
 keywords:
-- fonction HookExcelWindow [Excel 2007]
+- fonction hookexcelwindow [excel 2007]
 localization_priority: Normal
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33413506"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Installe **ExcelCursorProc** de sorte qu'elle soit appelée avant Microsoft Excel principal **WndProc**.
+Installe **ExcelCursorProc** afin qu’il soit appelé avant le **WndProc** principal de Microsoft Excel.
   
 ```cs
 extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
@@ -30,21 +30,21 @@ extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 
 ## <a name="parameters"></a>Paramètres
 
- _hWndExcel_ (**Handle**)
+ _hWndExcel_ (**HANDLE**)
   
-Le descripteur Windows principal d'Excel.
+Handle Windows principal Excel.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-La fonction ne renvoie pas de valeur.
+La fonction ne retourne pas de valeur.
   
 ## <a name="remarks"></a>Remarques
 
-La fonction obtient l'adresse d'Excel **WndProc** par le biais de l'utilisation de **GetWindowLong ()**. Il stocke cette valeur dans un global qui peut être utilisé pour appeler la propriété **WndProc** par défaut et pour la restaurer. Enfin, il remplace cette adresse par l'adresse de **ExcelCursorProc** à l'aide de **SetWindowLong ()**.
+La fonction obtient l’adresse du **WndProc** Excel via l’utilisation de **GetWindowLong()**. Elle stocke cette valeur dans un global qui peut être utilisé pour appeler le **WndProc** par défaut et également pour la restaurer. Enfin, elle remplace cette adresse par l’adresse **d’ExcelCursorProc** à l’aide **de SetWindowLong()**.
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
+Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

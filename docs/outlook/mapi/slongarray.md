@@ -25,11 +25,11 @@ ms.locfileid: "33414528"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de types de valeurs longues qui sont utilisés pour décrire une propriété de type PT_MV_LONG. 
+Contient un tableau de types de valeur LONG utilisés pour décrire une propriété de type PT_MV_LONG. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SLongArray
@@ -44,15 +44,15 @@ typedef struct _SLongArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **LPL** . 
+> Nombre de valeurs dans le tableau pointées par le **membre lpl.** 
     
- **LPL**
+ **lpl**
   
-> Pointeur vers un tableau de valeurs de type LONG.
+> Pointeur vers un tableau de valeurs LONG.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur PT_MV_LONG, consultez la rubrique [liste des types de propriétés](property-types.md).
+Pour plus d’informations PT_MV_LONG, voir [Liste des types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

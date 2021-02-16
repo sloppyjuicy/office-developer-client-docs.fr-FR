@@ -25,37 +25,37 @@ ms.locfileid: "33412862"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d'accéder à un fournisseur de banque de messages par le biais d'un objet fournisseur de banque de messages. Cet objet fournisseur de banque de messages est renvoyé lors de l'ouverture de session du fournisseur par la fonction de point d'entrée [MSProviderInit](msproviderinit.md) du fournisseur de banque de messages. L'objet fournisseur de banque de messages est principalement utilisé par les applications clientes et le spouleur MAPI pour ouvrir les banques de messages. 
+Permet d’accéder à un fournisseur de magasins de messages via un objet fournisseur de magasin de messages. Cet objet fournisseur de magasin de messages est renvoyé à l’ouverture de connecté du fournisseur par la fonction de point d’entrée [MSProviderInit](msproviderinit.md) du fournisseur de magasins de messages. L’objet fournisseur de magasin de messages est principalement utilisé par les applications clientes et lepooler MAPI pour ouvrir les magasins de messages. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
-|Exposé par:  <br/> |Objets du fournisseur de banques de messages  <br/> |
-|Implémenté par :  <br/> |Fournisseurs de banques de messages  <br/> |
-|Appelé par :  <br/> |MAPI et spouleur MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMSProvider  <br/> |
-|Type de pointeur:  <br/> |LPMSPROVIDER  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
+|Exposé par :  <br/> |Objets du fournisseur de banques de messages  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de magasins de messages  <br/> |
+|Appelé par :  <br/> |MAPI et lepooler MAPI  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMSProvider  <br/> |
+|Type de pointeur :  <br/> |LPMSPROVIDER  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Arrêt](imsprovider-shutdown.md) <br/> |Ferme un fournisseur de banque de messages de manière ordonnée.  <br/> |
-|[Logon](imsprovider-logon.md) <br/> |Journalise MAPI sur une instance d'un fournisseur de banque de messages.  <br/> |
-|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Enregistre le spouleur MAPI sur une banque de messages.  <br/> |
-|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compare deux identificateurs d'entrée de banque de messages pour déterminer s'ils font référence au même objet Store.  <br/> |
+|[Arrêt](imsprovider-shutdown.md) <br/> |Ferme un fournisseur de magasins de messages de manière ordonnée.  <br/> |
+|[Logon](imsprovider-logon.md) <br/> |Connecte MAPI à une instance d’un fournisseur de magasins de messages.  <br/> |
+|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Connecte lepooler MAPI à une magasin de messages.  <br/> |
+|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compare deux identificateurs d’entrée de magasin de messages pour déterminer s’ils font référence au même objet store.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-MAPI utilise un seul objet fournisseur de banque de messages par session, quel que soit le nombre de banques de messages ouvertes par le fournisseur de banque d'informations. Si une deuxième session MAPI se connecte à des magasins ouverts, MAPI appelle **MSProviderInit** une deuxième fois pour créer un nouvel objet fournisseur de banque de messages pour cette session. 
+MAPI utilise un objet fournisseur de magasin de messages par session, quel que soit le nombre de magasins de messages ouverts par le fournisseur de la boutique. Si une deuxième session MAPI se connecte à des magasins ouverts, MAPI appelle **MSProviderInit** une deuxième fois pour créer un objet fournisseur de magasin de messages pour cette session à utiliser. 
   
-Pour fonctionner correctement, un objet fournisseur de banque de messages doit contenir les éléments suivants:
+Un objet fournisseur de magasin de messages doit contenir les éléments suivants pour fonctionner correctement :
   
-- Pointeur de routine d'allocation de mémoire _lpMalloc_ pour une utilisation par tous les magasins ouverts à l'aide de cet objet fournisseur. 
+- Pointeur de routine d’allocation de mémoire  _lpMalloc_ à utiliser par toutes les magasins ouverts à l’aide de cet objet fournisseur. 
     
-- Les pointeurs de routine _lpfAllocateBuffer_, _ lpfAllocateMore _ et _lpfFreeBuffer_ vers les fonctions d'allocation de mémoire [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md) . 
+- Les pointeurs de routine _lpfAllocateBuffer_, _ lpfAllocateMore _, et _lpfFreeBuffer_ pointent vers les fonctions d’allocation de mémoire [MAPIAllocateBuffer,](mapiallocatebuffer.md) [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer.](mapifreebuffer.md) 
     
-- Liste liée de tous les magasins ouverts à l'aide de cet objet fournisseur et non encore fermés.
+- Liste liée de toutes les magasins ouvertes à l’aide de cet objet fournisseur et pas encore fermées.
     
 ## <a name="see-also"></a>Voir aussi
 

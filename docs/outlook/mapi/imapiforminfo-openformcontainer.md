@@ -25,7 +25,7 @@ ms.locfileid: "33414003"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un pointeur vers le conteneur de formulaires dans lequel un formulaire particulier est installé.
+Renvoie un pointeur vers le conteneur de formulaire dans lequel un formulaire particulier est installé.
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -37,7 +37,7 @@ HRESULT OpenFormContainer(
 
  _ppformcontainer_
   
-> remarquer Pointeur vers un pointeur vers l'objet conteneur de formulaire renvoyé.
+> [out] Pointeur vers un pointeur vers l’objet conteneur de formulaire renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

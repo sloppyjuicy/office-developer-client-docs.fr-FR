@@ -25,30 +25,30 @@ ms.locfileid: "33416089"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le type d'adresse du destinataire initial d'un message autoforwarded.
+Contient le type d’adresse du destinataire initialement prévu d’un message autoforwarded.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE, PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_A, PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_W  <br/> |
 |Identificateur :  <br/> |0x007B  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Server  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont l'une des propriétés d'adresse du destinataire du message initialement prévu. Elle doit être définie par l'agent automatique qui a transféré le message.
+Ces propriétés sont l’une des propriétés d’adresse du destinataire du message initialement prévu. Elle doit être définie par l’agent automatique qui a transmis le message.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

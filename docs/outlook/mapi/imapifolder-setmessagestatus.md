@@ -25,7 +25,7 @@ ms.locfileid: "33417272"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit l'état associé à un message (par exemple, si ce message est marqué pour suppression).
+Définit l’état associé à un message (par exemple, si ce message est marqué pour suppression).
   
 ```cpp
 HRESULT SetMessageStatus(
@@ -41,19 +41,19 @@ HRESULT SetMessageStatus(
 
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée pour le message dont l'État est défini.
+> [in] Pointeur vers l’identificateur d’entrée du message dont l’état est définie.
     
  _ulNewStatus_
   
-> dans Nouvel État à affecter. 
+> [in] Nouveau statut à attribuer. 
     
  _ulNewStatusMask_
   
-> dans Masque de des indicateurs qui est appliqué au nouvel État et indique les indicateurs à définir. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs appliqué au nouvel état et qui indique les indicateurs à définir. Les indicateurs suivants peuvent être définies :
     
 MSGSTATUS_DELMARKED 
   
@@ -65,43 +65,43 @@ MSGSTATUS_HIDDEN
     
 MSGSTATUS_HIGHLIGHTED 
   
-> Le message doit être affiché en surbrillance.
+> Le message doit être affiché en surbrillant.
     
 MSGSTATUS_REMOTE_DELETE 
   
-> Le message a été marqué pour suppression dans le magasin de messages distant sans téléchargement vers le client local.
+> Le message a été marqué pour suppression dans la boutique de messages distante sans téléchargement vers le client local.
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
-> Le message a été marqué pour téléchargement depuis le magasin de messages distant vers le client local.
+> Le message a été marqué pour téléchargement à partir de la boutique de messages distante vers le client local.
     
 MSGSTATUS_TAGGED 
   
-> Le message a été marqué pour un objectif défini par le client.
+> Le message a été marqué à des fins définies par le client.
     
  _lpulOldStatus_
   
-> remarquer Pointeur vers l'état précédent du message.
+> [out] Pointeur vers l’état précédent du message.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'état du message a été correctement défini.
+> L’état du message a été correctement définie.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIFolder:: SetMessageStatus** définit l'état du message sur la valeur stockée dans sa propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
+La **méthode IMAPIFolder::SetMessageStatus** définit l’état du message sur la valeur stockée dans sa propriété **PR_MSG_STATUS** ([PidTagMessageStatus).](pidtagmessagestatus-canonical-property.md) 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-La manière dont les bits d'état des messages sont définis, effacés et utilisés dépend entièrement de votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être nuls. 
+La façon dont les bits d’état du message sont définies, effacées et utilisées dépend entièrement de votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être zéro. 
   
-L'implémentation d'un fournisseur de transport distant de cette méthode doit respecter les sémantiques décrites ici. Il n'y a aucune considération particulière. Les clients utilisent cette méthode pour définir les bits MSGSTATUS_REMOTE_DOWNLOAD et MSGSTATUS_REMOTE_DELETE pour indiquer qu'un message particulier doit être téléchargé ou supprimé de la Banque de messages distante. Un fournisseur de transport distant n'a pas besoin d'implémenter la méthode [IMAPIFolder:: GetMessageStatus](imapifolder-getmessagestatus.md) associée. Les clients doivent consulter la table des matières du dossier pour déterminer l'état d'un message. 
+L’implémentation de cette méthode par un fournisseur de transport distant doit suivre la sémantique décrite ici. Il n’existe aucune considération particulière. Les clients utilisent cette méthode pour définir les bits MSGSTATUS_REMOTE_DOWNLOAD et MSGSTATUS_REMOTE_DELETE pour indiquer qu’un message particulier doit être téléchargé ou supprimé de la boutique de messages distante. Un fournisseur de transport distant n’a pas besoin d’implémenter la méthode [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md) associée. Les clients doivent rechercher dans la table des matières du dossier pour déterminer l’état d’un message. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser la propriété **PR_MSG_STATUS** d'un message pour négocier une opération de verrouillage de message avec d'autres clients. DéSignez un bit comme bit de verrouillage. Pour déterminer si le bit de verrouillage a été défini, examinez la valeur précédente de l'état du message dans le paramètre _lpulOldStatus_ . Utilisez les autres bits dans le paramètre _ulNewStatus_ pour suivre l'état du message sans interférer avec le bit de verrouillage. 
+Vous pouvez utiliser la **propriété PR_MSG_STATUS** d’un message pour négocier une opération de verrouillage de message avec d’autres clients. Désignez un bit comme bit de verrouillage. Pour déterminer si le bit de verrouillage a été définie, examinez la valeur précédente pour l’état du message dans le paramètre _lpulOldStatus._ Utilisez les autres bits du paramètre  _ulNewStatus_ pour suivre l’état du message sans interférer avec le bit de verrouillage. 
   
 ## <a name="see-also"></a>Voir aussi
 

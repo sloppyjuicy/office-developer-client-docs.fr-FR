@@ -25,13 +25,13 @@ ms.locfileid: "33415277"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si Microsoft Outlook a téléchargé sur l'ordinateur client uniquement l'en-tête d'un message, ou à la fois l'en-tête et le corps du message, quand Outlook est configuré en mode Exchange mis en cache.
+Indique si Microsoft Outlook a téléchargé sur l’ordinateur client uniquement l’en-tête d’un message, ou à la fois l’en-tête et le corps du message, lorsqu’Outlook est configuré en mode Exchange mis en cache.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidHeaderItem  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008578  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008578  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |Messagerie générale  <br/> |
    
@@ -41,11 +41,11 @@ Indique si Microsoft Outlook a téléchargé sur l'ordinateur client uniquement 
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

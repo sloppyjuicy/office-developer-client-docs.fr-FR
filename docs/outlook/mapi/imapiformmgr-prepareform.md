@@ -39,19 +39,19 @@ HRESULT PrepareForm(
 
  _ulUIParam_
   
-> dans Handle de la fenêtre parente de l'indicateur de progression qui est affiché pendant le téléchargement du formulaire. Le paramètre _ulUIParam_ est ignoré sauf si l'indicateur MAPI_DIALOG est défini dans le paramètre _ulFlags_ . 
+> [in] Handle vers la fenêtre parent de l’indicateur de progression qui s’affiche pendant le téléchargement du formulaire. Le _paramètre ulUIParam_ est ignoré, sauf si l’MAPI_DIALOG est définie dans le _paramètre ulFlags._ 
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le mode de téléchargement du formulaire. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le mode de téléchargement du formulaire. L’indicateur suivant peut être définie :
     
 MAPI_DIALOG 
   
-> Affiche une interface utilisateur pour fournir l'État ou inviter l'utilisateur à fournir des informations supplémentaires. Si cet indicateur n'est pas défini, aucune interface utilisateur n'est affichée.
+> Affiche une interface utilisateur pour fournir un état ou invite l’utilisateur à fournir plus d’informations. Si cet indicateur n’est pas définie, aucune interface utilisateur n’est affichée.
     
- _pfrmiInfo_
+ _pfinfo_
   
-> dans Pointeur vers un objet d'informations de formulaire pour le formulaire à télécharger.
+> [in] Pointeur vers un objet d’informations de formulaire pour le formulaire à télécharger.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,9 +61,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::P repareform** pour télécharger un formulaire à partir d'un conteneur de formulaire pour l'ouvrir. La plupart des visionneuses de formulaires n'ont pas besoin d'appeler **PrepareForm**, car les méthodes [IMAPIFormMgr:: CreateForm](imapiformmgr-createform.md) et [IMAPIFormMgr:: LoadForm](imapiformmgr-loadform.md) appellent **PrepareForm**, si nécessaire. 
+Les visionneuses de formulaire appellent la méthode **IMAPIFormMgr::P repareForm** pour télécharger un formulaire à partir d’un conteneur de formulaire à ouvrir. La plupart des visionneuses de formulaires n’ont pas besoin d’appeler **PrepareForm,** car les deux méthodes [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) et [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) appellent **PrepareForm,** si nécessaire. 
   
-Vous pouvez utiliser **PrepareForm** pour obtenir les bibliothèques de liens dynamiques (dll) et les autres fichiers associés à un formulaire afin de les modifier. Si le formulaire modifié est chargé à nouveau dans son conteneur de formulaire, il doit être réinstallé. 
+Vous pouvez utiliser **PrepareForm** pour obtenir les bibliothèques de liens dynamiques (DLL) et d’autres fichiers associés à un formulaire pour les modifier. Si le formulaire modifié est chargé à nouveau dans son conteneur de formulaire, il doit être réinstallé. 
   
 ## <a name="see-also"></a>Voir aussi
 

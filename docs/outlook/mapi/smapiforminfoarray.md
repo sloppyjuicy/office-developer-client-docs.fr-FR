@@ -25,12 +25,12 @@ ms.locfileid: "33416971"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de pointeurs vers des objets d'informations de formulaire. 
+Contient un tableau de pointeurs vers des objets d’informations de formulaire. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Macro connexe:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Macro associée :  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,15 +45,15 @@ typedef struct
 
  **cForms**
   
-> Nombre de pointeurs dans le tableau vers lequel pointe le membre **aFormInfo** . 
+> Nombre de pointeurs dans le tableau pointés par le **membre aFormInfo.** 
     
  **aFormInfo**
   
-> Pointeur vers un tableau de pointeurs vers des objets d'informations de formulaire.
+> Pointeur vers un tableau de pointeurs vers des objets d’informations de formulaire.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMAPIFormInfoArray** est transmise en tant que paramètre dans les méthodes suivantes: 
+La structure **SMAPIFormInfoArray** est passée en tant que paramètre dans les méthodes suivantes : 
   
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     

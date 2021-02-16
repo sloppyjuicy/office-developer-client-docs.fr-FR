@@ -25,7 +25,7 @@ ms.locfileid: "33414644"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit l'accès à la table de profils, une table qui contient des informations sur tous les profils disponibles.
+Permet d’accéder à la table de profils, qui contient des informations sur tous les profils disponibles.
   
 ```cpp
 HRESULT GetProfileTable(
@@ -38,27 +38,27 @@ HRESULT GetProfileTable(
 
  _ulFlags_
   
-> dans Toujours NULL.
+> [in] Toujours NULL.
     
  _lppTable_
   
-> remarquer Pointeur vers un pointeur vers le tableau de profils.
+> [out] Pointeur vers un pointeur vers le tableau de profil.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La table de profils a été correctement récupérée.
+> La table de profil a été récupérée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProfAdmin:: GetProfileTable** fournit l'accès à la table de profils, qui contient une ligne pour chaque profil disponible. Chaque ligne comporte uniquement deux colonnes: le nom d'affichage du profil et un indicateur qui indique si le profil est la valeur par défaut. 
+La **méthode IProfAdmin::GetProfileTable** permet d’accéder à la table de profils, qui contient une ligne pour chaque profil disponible. Chaque ligne ne compte que deux colonnes : le nom complet du profil et un indicateur qui indique si le profil est la valeur par défaut. 
   
-Les profils qui ont été supprimés, ou qui sont en cours d'utilisation mais qui ont été marqués pour suppression, ne sont pas inclus dans la table de profils. La table de profils est statique; les ajouts et suppressions de profils suivants ne sont pas répercutés dans le tableau. 
+Les profils qui ont été supprimés ou qui sont en cours d’utilisation mais qui ont été marqués pour suppression ne sont pas inclus dans la table de profils. La table de profils est statique ; Les ajouts et suppressions de profils ultérieurs ne sont pas reflétés dans le tableau. 
   
-Si aucun profil n'existe, **GetProfileTable** renvoie un tableau sans aucune ligne. 
+S’il n’existe aucun **profil, GetProfileTable renvoie** un tableau avec zéro ligne. 
   
-Pour plus d'informations sur la table de profils, voir [Profile tables](profile-tables.md). 
+Pour plus d’informations sur la table de profils, voir [Tables de profils.](profile-tables.md) 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -66,7 +66,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg. cpp  <br/> |CMainDlg:: OnShowProfiles  <br/> |MFCMAPI utilise la méthode **IProfAdmin:: GetProfileTable** pour obtenir la table de profil à afficher dans une nouvelle boîte de dialogue.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI utilise la méthode **IProfAdmin::GetProfileTable** pour obtenir la table de profil à afficher dans une nouvelle boîte de dialogue.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,31 +25,31 @@ ms.locfileid: "33417363"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet aux applications clientes d'accéder aux propriétés propres à la définition de formulaire. En conservant les informations de formulaire dans un objet distinct, le fournisseur de la bibliothèque de formulaires peut décrire un formulaire à un client sans activer le formulaire.
+Donne aux applications clientes l’accès aux propriétés qui sont spécifiques à la définition de formulaire. En conservant les informations de formulaire dans un objet distinct, le fournisseur de bibliothèque de formulaires peut décrire un formulaire à un client sans l’activer.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Exposé par:  <br/> |Objets d'informations de formulaire  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Exposé par :  <br/> |Objets d’informations de formulaire  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de bibliothèques de formulaires  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIFormInfo  <br/> |
-|Type de pointeur:  <br/> |LPMAPIFORMINFO  <br/> |
-|Modèle de transaction:  <br/> |Pas de transaction  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIFormInfo  <br/> |
+|Type de pointeur :  <br/> |LPMAPIFORMINFO  <br/> |
+|Modèle de transaction :  <br/> |Non traduit  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Renvoie un pointeur vers l'ensemble complet des propriétés utilisées par un formulaire.  <br/> |
-|[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Renvoie un pointeur vers l'ensemble complet des verbes utilisés par un formulaire.  <br/> |
-|[MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) <br/> |Génère une icône à partir de la propriété Icon d'un formulaire.  <br/> |
-|[SaveForm](imapiforminfo-saveform.md) <br/> |Enregistre une description d'un formulaire particulier dans un fichier de configuration.  <br/> |
-|[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |Renvoie un pointeur vers le conteneur de formulaires dans lequel un formulaire particulier est installé.  <br/> |
+|[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Renvoie un pointeur vers l’ensemble complet des propriétés qu’un formulaire utilise.  <br/> |
+|[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Renvoie un pointeur vers l’ensemble complet des verbes qu’un formulaire utilise.  <br/> |
+|[MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) <br/> |Crée une icône à partir d’une propriété d’icône d’un formulaire.  <br/> |
+|[SaveForm](imapiforminfo-saveform.md) <br/> |Enregistre une description d’un formulaire particulier dans un fichier de configuration.  <br/> |
+|[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |Renvoie un pointeur vers le conteneur de formulaire dans lequel un formulaire particulier est installé.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Contrairement à la plupart des interfaces définies dans le fichier d'en-tête MapiForm. h, **IMAPIFormInfo** hérite de l'interface [IMAPIProp](imapipropiunknown.md) , car il exporte la plupart des informations de formulaire via des appels à la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) . 
+Contrairement à la plupart des interfaces définies dans le fichier d’en-tête MapiForm.h, **IMAPIFormInfo** hérite de l’interface [IMAPIProp,](imapipropiunknown.md) car il exporte la plupart des informations de formulaire par le biais d’appels à la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

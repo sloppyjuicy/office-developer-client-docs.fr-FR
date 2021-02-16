@@ -25,26 +25,26 @@ ms.locfileid: "33414038"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Active et désactive un contrôle de bouton et exécute des tâches lorsqu'un utilisateur d'une application cliente clique sur le contrôle activé. Les fournisseurs de services implémentent les objets de contrôle pour créer des boutons personnalisés dans les boîtes de dialogue, telles que les feuilles de propriétés de configuration, qui sont définies à l'aide de tables d'affichage. 
+Active et désactive un contrôle de bouton et effectue des tâches lorsqu’un utilisateur d’une application cliente clique sur le contrôle activé. Les fournisseurs de services implémentent des objets de contrôle pour créer des boutons personnalisés dans les boîtes de dialogue, tels que les feuilles de propriétés de configuration, qui sont définis à l’aide de tableaux d’affichage. 
   
-Pour plus d'informations sur l'utilisation des tables d'affichage et des objets de contrôle, consultez la rubrique [afficher les tables](display-tables.md).
+Pour plus d’informations sur l’emploi de tableaux d’affichage et d’objets de contrôle, voir [Tableaux d’affichage.](display-tables.md)
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Exposé par:  <br/> |Objets de contrôle  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Exposé par :  <br/> |Objets de contrôle  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de services  <br/> |
 |Appelé par :  <br/> |MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIControl  <br/> |
-|Type de pointeur:  <br/> |LPMAPICONTROL  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIControl  <br/> |
+|Type de pointeur :  <br/> |LPMAPICONTROL  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Généré](imapicontrol-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur de contrôle de bouton précédente.  <br/> |
-|[Activate](imapicontrol-activate.md) <br/> |Effectue une tâche telle que l'affichage d'une boîte de dialogue ou le lancement d'une opération par programme lorsqu'un utilisateur d'application cliente clique sur le contrôle de bouton.  <br/> |
-|[GetState](imapicontrol-getstate.md) <br/> |Récupère une valeur qui indique si le contrôle de bouton est activé ou désactivé.  <br/> |
+|[GetLastError](imapicontrol-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de contrôle de bouton précédente.  <br/> |
+|[Activate](imapicontrol-activate.md) <br/> |Effectue une tâche telle que l’affichage d’une boîte de dialogue ou le démarrage d’une opération par programme lorsqu’un utilisateur de l’application cliente clique sur le contrôle de bouton.  <br/> |
+|[GetState](imapicontrol-getstate.md) <br/> |Extrait une valeur qui indique si le contrôle de bouton est activé ou désactivé.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,11 +25,11 @@ ms.locfileid: "33414535"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Localise un chemin d'accès UNC (Universal Naming Convention) pour le chemin d'accès local donné.
+Recherche un chemin d’accès UNC (Universal Naming Convention) équivalent au chemin local donné.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -45,21 +45,21 @@ SCODE ScUNCFromLocalPath(
 
  _szLocal_
   
-> dans Chemin d'accès au format [ _lecteur:_]\[ _chemin_d'accès] d'un fichier ou d'un répertoire.
+> [in] Chemin d’accès au format [ _lecteur :_] \[ _chemin_] d’un fichier ou d’un répertoire.
     
  _szUNC_
   
-> remarquer Un chemin d'accès au \\format _[Server_]\[ _share_]\[ _path_] du même fichier ou répertoire que le paramètre _szLocal_ . 
+> [out] Un chemin d’accès au format [ serveur ] partage ] chemin ] du même fichier ou répertoire que pour le \\  \[ paramètre \[  _szLocal._ 
     
  _cchUNC_
   
-> dans Taille de la mémoire tampon pour la chaîne de sortie.
+> [in] Taille de la mémoire tampon pour la chaîne de sortie.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Le chemin d'accès UNC correspondant à la localisation a réussi.
+> L’équivalent du chemin d’accès UNC a été localisé avec succès.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -67,11 +67,11 @@ MAPI_E_INVALID_PARAMETER
     
 MAPI_E_TOO_BIG
   
->  _szUNC_ n'était pas assez grand pour contenir le résultat. 
+>  _szUNC_ n’était pas assez grand pour contenir le résultat. 
     
 S_FALSE
   
-> Le chemin d'accès local était déjà une chaîne UNC.
+> Le chemin d’accès local était déjà une chaîne UNC.
     
 ## <a name="see-also"></a>Voir aussi
 

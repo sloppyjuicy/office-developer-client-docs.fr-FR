@@ -25,22 +25,22 @@ ms.locfileid: "33414780"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des informations sur ce qu'une banque peut prendre en charge.
+Fournit des informations sur ce qu’un magasin peut prendre en charge.
   
 |||
 |:-----|:-----|
-|Fourni par :  <br/> |Fournisseur de banque de messages  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMSCapabilities  <br/> |
+|Fourni par :  <br/> |Fournisseur de magasin de messages  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMSCapabilities  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Renvoie les fonctionnalités d'une banque en fonction de la sélection spécifiée.  <br/> |
+|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Renvoie les fonctionnalités d’un magasin en fonction de la sélection spécifiée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
- **IMSCapabilities** fournit des informations sur ce qu'un magasin peut prendre en charge si le magasin prend en charge cette interface. 
+ **IMSCapabilities fournit** des informations sur ce qu’un magasin peut prendre en charge si elle prend en charge cette interface. 
   
 ## <a name="see-also"></a>Voir aussi
 

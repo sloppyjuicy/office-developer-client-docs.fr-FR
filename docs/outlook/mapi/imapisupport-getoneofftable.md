@@ -25,7 +25,7 @@ ms.locfileid: "33412757"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie un pointeur vers la table ponctuelle MAPI (une liste de modèles que tous les fournisseurs de carnet d'adresses prennent en charge pour la création de destinataires).
+Renvoie un pointeur vers le tableau unique MAPI (liste de modèles que tous les fournisseurs de carnet d’adresses peuvent prendre en charge pour la création de destinataires).
   
 ```cpp
 HRESULT GetOneOffTable(
@@ -38,35 +38,35 @@ HRESULT GetOneOffTable(
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le type des colonnes de chaîne. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le type des colonnes de chaîne. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les colonnes de chaîne sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les colonnes de la chaîne sont au format ANSI.
+> Les colonnes de chaîne sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les colonnes de chaîne sont au format ANSI.
     
  _lppTable_
   
-> remarquer Pointeur vers un pointeur vers la table ponctuelle.
+> [out] Pointeur vers un pointeur vers le tableau one-off.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La table ponctuelle a été récupérée avec succès.
+> La table a été récupérée avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: GetOneOffTable** est implémentée pour les objets de prise en charge du fournisseur de carnets d'adresses. Les fournisseurs de carnets d'adresses appellent **GetOneOffTable** pour récupérer la liste complète des modèles pour la création de nouveaux destinataires. Cette table inclut des modèles qui sont des fournisseurs de carnet d'adresses actifs dans la prise en charge de la session, ainsi que des modèles pris en charge par MAPI. 
+La **méthode IMAPISupport::GetOneOffTable** est implémentée pour les objets de prise en charge du fournisseur de carnet d’adresses. Les fournisseurs de carnet d’adresses **appellent GetOneOffTable** pour récupérer la liste complète des modèles de création de destinataires. Ce tableau inclut des modèles qui sont des fournisseurs de carnet d’adresses qui sont actifs dans la prise en charge de session, ainsi que des modèles que MAPI prend en charge. 
   
-Les destinataires nouvellement créés peuvent être utilisés pour adresser un message ou être ajoutés à un conteneur de carnet d'adresses.
+Les destinataires nouvellement créés peuvent être utilisés pour adresser un message ou peuvent être ajoutés à un conteneur de carnet d’adresses.
   
-Pour obtenir la liste des propriétés qui composent l'ensemble de colonnes obligatoire dans les tables ponctuelles, consultez la rubrique [tables One-Off](one-off-tables.md).
+Pour obtenir la liste des propriétés qui font partie de la colonne requise définie dans des tables uniques, voir [Tables uniques.](one-off-tables.md)
   
-La définition de l'indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable:: QueryColumns](imapitable-querycolumns.md) et [IMAPITable:: QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l'ordre de tri retourné par la méthode [IMAPITable:: QuerySortOrder](imapitable-querysortorder.md) . 
+La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows.](imapitable-queryrows.md) Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si vous êtes inscrit pour recevoir des notifications des modifications apportées à cette table ponctuelle, vous recevrez également des notifications de modifications apportées aux tables ponctuelles d'autres fournisseurs. En fonction de ces notifications, vous pouvez prendre en charge de nouveaux types d'adresses ajoutés lors de la session en cours.
+Si vous êtes inscrit pour recevoir des notifications de modifications apportées à ce tableau one-off, vous recevrez également des notifications de modifications apportées aux tables one-off d’autres fournisseurs. En fonction de ces notifications, vous pouvez prendre en charge les nouveaux types d’adresses ajoutés au cours de la session en cours.
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -89,5 +89,5 @@ Si vous êtes inscrit pour recevoir des notifications des modifications apporté
 [IMAPISupport : IUnknown](imapisupportiunknown.md)
 
 
-[Tables ponctuelles](one-off-tables.md)
+[One-Off Tables](one-off-tables.md)
 

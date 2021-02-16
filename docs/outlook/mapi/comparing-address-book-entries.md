@@ -1,5 +1,5 @@
 ---
-title: Comparaison des entrées du carnet d'adresses
+title: Comparaison des entrées de carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,26 +15,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415354"
 ---
-# <a name="comparing-address-book-entries"></a>Comparaison des entrées du carnet d'adresses
+# <a name="comparing-address-book-entries"></a>Comparaison des entrées de carnet d’adresses
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'implémentation [IABLogon:: CompareEntryIDs](iablogon-compareentryids.md) de votre fournisseur compare les identificateurs d'entrée pour deux des objets de votre fournisseur. MAPI appelle cette méthode après avoir déterminé que les deux identificateurs d'entrée contiennent les [MAPIUID](mapiuid.md)inscrits de votre fournisseur. Par conséquent, votre méthode **CompareEntryIDs** n'a pas besoin de vérifier que les identificateurs d'entrée passés pour les paramètres _lpEntryID1_ et _lpEntryID2_ appartiennent à votre fournisseur. 
+L’implémentation [IABLogon::CompareEntryIDs](iablogon-compareentryids.md) de votre fournisseur compare les identificateurs d’entrée pour deux des objets de votre fournisseur. MAPI appelle cette méthode après avoir déterminé que les deux identificateurs d’entrée contiennent le [MAPIUID](mapiuid.md)enregistré de votre fournisseur. Par conséquent, votre méthode **CompareEntryIDs** ne doit pas vérifier que les identificateurs d’entrée transmis pour les paramètres  _lpEntryID1_ et  _lpEntryID2_ appartiennent à votre fournisseur. 
   
-L'appel de **IABLogon:: CompareEntryIDs** revient à récupérer la propriété **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) pour chacun des deux objets et à les comparer directement.
+Appeler **IABLogon::CompareEntryIDs** équivaut à récupérer la propriété **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) pour chacun des deux objets et à les comparer directement.
   
  **Pour implémenter CompareEntryIds**
   
-1. Vérifiez le type des identificateurs d'entrée transmis si votre fournisseur stocke ces informations. Par exemple, un identificateur d'entrée peut appartenir à un utilisateur de messagerie, tandis que l'autre peut appartenir à une liste de distribution. Si les types ne correspondent pas, définissez le contenu du paramètre _lpulResult_ sur false et Return. 
+1. Vérifiez le type des identificateurs d’entrée transmis si votre fournisseur stocke ces informations. Par exemple, un identificateur d’entrée peut appartenir à un utilisateur de messagerie, tandis que l’autre peut appartenir à une liste de distribution. Si les types ne correspondent pas, définissez le contenu du paramètre  _lpulResult_ sur FALSE et renvoyez. 
     
-2. Comparez les tailles des deux identificateurs d'entrée. Si ce n'est pas le cas, définissez le contenu du paramètre _lpulResult_ sur false et Return. 
+2. Comparez les tailles des deux identificateurs d’entrée. S’ils ne sont pas identiques, définissez le contenu du paramètre  _lpulResult_ sur FALSE et renvoyer. 
     
-3. Vérifiez que la taille des identificateurs d'entrée est correcte pour leur type. Si ce n'est pas le cas, définissez le contenu du paramètre _lpulResult_ sur false et renvoyez la valeur d'erreur MAPI_E_UNKNOWN_ENTRYID. 
+3. Vérifiez que la taille des identificateurs d’entrée est la taille correcte pour leur type. Si ce n’est pas le cas, définissez le contenu du paramètre  _lpulResult_ sur FALSE et renvoyez la valeur d’erreur MAPI_E_UNKNOWN_ENTRYID. 
     
-4. Vérifiez si les identificateurs d'entrée sont identiques. Si elles sont également comparées, définissez le contenu du paramètre _lpulResult_ sur true et Return. Sinon, affectez-lui la valeur FALSe avant de renvoyer. 
+4. Vérifiez si les identificateurs d’entrée sont identiques. S’ils sont comparés de manière égale, définissez le contenu du  _paramètre lpulResult_ sur TRUE et renvoyer. Sinon, définissez-la sur FALSE avant de la renvoyer. 
     
-5. Si votre fournisseur compare un identificateur d'entrée à court terme à un identificateur à long terme, il doit comparer équitablement.
+5. Si votre fournisseur compare un identificateur d’entrée à court terme à un identificateur à long terme, il doit comparer de la même manière.
     
 

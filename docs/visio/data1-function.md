@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251599
 localization_priority: Normal
 ms.assetid: 2b09eed1-1b01-e18e-d28e-674b8fc105fd
-description: Renvoie le texte de la zone données 1 de la boîte de dialogue nom de la forme d'une forme (sous l'onglet Développeur, cliquez sur nom de la forme), sous la forme d'une chaîne.
+description: Renvoie le texte de la zone Données 1 de la boîte de dialogue Nom de la forme d’une forme (sous l’onglet Développeur, cliquez sur Nom de la forme ), sous forme de chaîne.
 ms.openlocfilehash: 608a61f478e95c309051d5dc47919d6e68c7cb43
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33416271"
 ---
 # <a name="data1-function"></a>Fonction DATA1
 
-Renvoie le texte de la zone **données 1** de la boîte de dialogue nom de la **forme** d'une forme (sous l'onglet **développeur** , cliquez sur nom de la **forme** ), sous la forme d'une chaîne. 
+Renvoie le texte de la zone  **Données 1** de la  boîte de dialogue Nom de la forme d’une forme (sous l’onglet Développeur, cliquez sur Nom de la forme **),** sous forme de chaîne. 
   
 ## <a name="syntax"></a>Syntaxe
 

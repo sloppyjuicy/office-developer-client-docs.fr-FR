@@ -25,11 +25,11 @@ ms.locfileid: "33416523"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Mappe une valeur de retour SCODE à partir d'un objet de stockage OLE vers un type HRESULT. 
+Ma cartographie une valeur de retour SCODE d’un objet de stockage OLE à un type HRESULT. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |IMessage. h  <br/> |
+|Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,22 +43,22 @@ SCODE MapStorageSCode(
 
  _StgSCode_
   
-> dans Valeur de retour de la propriété SCODE MAPI d'un objet de stockage OLE à mapper à une valeur HRESULT.
+> [in] Valeur de retour MAPI SCODE à partir d’un objet de stockage OLE à ma mappé à une valeur HRESULT.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la valeur attendue.
+> L’appel a réussi et a renvoyé la valeur attendue.
     
 MAPI_E_CALL_FAILED 
   
-> La fonction ne parvient pas à trouver une valeur correspondante.
+> La fonction ne peut pas trouver de valeur correspondante.
     
 ## <a name="remarks"></a>Remarques
 
-MAPI fournit la fonction **MapStorageSCode** pour l'utilisation interne des composants MAPI qui basent les implémentations de leurs messages sur la dll du message. Étant donné que ces composants ouvrent le stockage OLE eux-mêmes, ils doivent être en mesure de mapper les valeurs d'erreur renvoyées pour les problèmes liés au stockage OLE vers une valeur HRESULT. 
+MAPI fournit la **fonction MapStorageSCode** pour l’utilisation interne des composants MAPI qui basent leurs implémentations de message sur la DLL de message. Étant donné que ces composants ouvrent eux-mêmes le stockage OLE, ils doivent être en mesure de maculer les valeurs d’erreur renvoyées pour les problèmes liés au stockage OLE à une valeur HRESULT. 
   
-Pour plus d'informations, consultez la rubrique [stockage structuré](structured-storage-in-mapi.md). 
+Pour plus d’informations, voir [Stockage structuré.](structured-storage-in-mapi.md) 
   
 

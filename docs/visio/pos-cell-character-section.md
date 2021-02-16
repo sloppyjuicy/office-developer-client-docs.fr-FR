@@ -23,8 +23,8 @@ Détermine la position du texte de la forme par rapport à la ligne de base.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Normal  <br/> |**visPosNormal** <br/> |
-| 0,1  <br/> | Exposant  <br/> |**visPosSuper** <br/> |
-| n°2  <br/> | Indice  <br/> |**visPosSub** <br/> |
+| 1   <br/> | Exposant  <br/> |**visPosSuper** <br/> |
+| 2   <br/> | Indice  <br/> |**visPosSub** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -32,14 +32,14 @@ Pour obtenir une référence à la cellule Pos par un nom à partir d'une autre 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Char. POS [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Char.Pos[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Pos à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionCharacter** <br/> |
-| Index de la ligne :  <br/> |**visRowCharacter** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visCharacterPos** <br/> |
    
 

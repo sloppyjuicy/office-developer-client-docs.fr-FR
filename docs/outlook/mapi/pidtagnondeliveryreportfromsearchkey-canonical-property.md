@@ -25,7 +25,7 @@ ms.locfileid: "33414486"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Si ce paramètre est défini sur un rapport de non-remise, indique la clé de recherche de l'utilisateur ayant échoué envoyer en tant que.
+Si elle est définie sur un rapport de non-mise à jour, indique la clé de recherche de l’utilisateur Send-As échec.
   
 |||
 |:-----|:-----|
@@ -40,17 +40,17 @@ Si ce paramètre est défini sur un rapport de non-remise, indique la clé de re
 
 [[MS-OXPROPS]] 
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

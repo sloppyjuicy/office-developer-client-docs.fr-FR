@@ -15,11 +15,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414766"
 ---
-# <a name="mapiofflinenotify"></a>MAPIOFFLINE_NOTIFY
+# <a name="mapioffline_notify"></a>MAPIOFFLINE_NOTIFY
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Il s'agit de la notification de modification de l'état de connexion. Il indique la partie de l'état de connexion qui a été modifiée, l'ancien état de connexion et le nouvel état de connexion.
+Il s’agit de la notification d’une modification de l’état de connexion. Il indique la partie de l’état de connexion qui a changé, l’ancien état de connexion et le nouvel état de connexion.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -46,11 +46,11 @@ typedef struct
 
  _ulSize_
   
-> Taille de la structure **MAPIOFFLINE_NOTIFY** . 
+> Taille de la **MAPIOFFLINE_NOTIFY** structure. 
     
  _NotifyType_
   
-> Type de notification. Notez que seule une notification sur la modification de l'état de connexion est prise en charge; les seules valeurs prises en charge sont les suivantes:
+> Type de notification. Notez que seule la notification de modification de l’état de connexion est prise en charge ; Les seules valeurs prise en charge sont les :
     
    - MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START
     
@@ -60,15 +60,15 @@ typedef struct
     
  _ulClientToken_
   
-> Un jeton défini par le client dans la structure **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** dans **[IMAPIOfflineMgr:: Advise](imapiofflinemgr-advise.md)**. 
+> Jeton défini par le client dans la structure **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** dans **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. 
     
  _ulMask_
   
-> Partie de l'état de connexion qui a été modifiée. La seule valeur prise en charge est MAPIOFFLINE_STATE_OFFLINE_MASK.
+> Partie de l’état de connexion qui a changé. La seule valeur prise en charge est MAPIOFFLINE_STATE_OFFLINE_MASK.
     
  _ulStateOld_
   
-> L'ancien état de connexion. Les seules valeurs prises en charge sont les suivantes:
+> Ancien état de connexion. Les seules valeurs prise en charge sont :
     
    - MAPIOFFLINE_STATE_OFFLINE
     
@@ -76,7 +76,7 @@ typedef struct
     
  _ulStateNew_
   
-> Nouvel état de connexion. Les seules valeurs prises en charge sont les suivantes:
+> Nouvel état de connexion. Les seules valeurs prise en charge sont :
     
    - MAPIOFFLINE_STATE_OFFLINE
     
@@ -84,13 +84,13 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-L'API d'État hors connexion prend en charge uniquement les notifications pour les modifications en ligne et hors connexion. Un client doit vérifier qu'Outlook renvoie les valeurs suivantes avant d'examiner le changement réel:
+L’API d’état hors connexion prend uniquement en charge les notifications pour les modifications en ligne/hors connexion. Un client doit vérifier qu’Outlook renvoie les valeurs suivantes avant d’examiner la modification réelle :
   
-1.  *NotifyType* a la valeur MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE ou MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE. Dans ce cas, le client peut supposer que la modification est une modification de l'état de connexion et que les *informations* sont de la structure *StateChange* . 
+1.  *NotifyType*  a la valeur MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_START, MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE ou MAPIOFFLINE_NOTIFY_TYPE_STATECHANGE_DONE. Dans ce cas, le client peut supposer que la modification est un changement d’état de connexion et que  *Info*  est de la structure  *StateChange*  . 
     
-2.  *ulMask* a la valeur MAPIOFFLINE_STATE_OFFLINE_MASK. Dans ce cas, le client peut supposer qu'il s'agit d'une modification de l'état de connexion en ligne/hors connexion, et vous pouvez passer à l'examen des *ulStateOld* et *ulStateNew* . 
+2.  *ulMask a*  la valeur MAPIOFFLINE_STATE_OFFLINE_MASK. Dans ce cas, le client peut supposer que la modification est un changement d’état de connexion en ligne/hors connexion et peut passer à l’examen de  *ulStateOld*  et  *ulStateNew*  . 
     
-Il est possible qu'Outlook indique à un client d'autres modifications qui ne sont pas prises en charge. Dans ce cas, *NotifyType* n'est pas l'une des trois valeurs indiquées précédemment, ou *ulMask* n'est pas MAPIOFFLINE_STATE_OFFLINE_MASK, et le client doit ignorer le reste des données dans *info* . 
+Il est possible qu’Outlook avertisse un client d’autres modifications qui ne sont pas pris en charge. Dans ce cas,  *NotifyType*  ne serait pas l’une des trois valeurs précédemment énoncés, ou  *ulMask*  ne serait pas MAPIOFFLINE_STATE_OFFLINE_MASK, et le client doit ignorer le reste des données dans  *Info*  . 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -19,11 +19,11 @@ ms.locfileid: "33414388"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Crée un objet MAPI hors connexion qui est utilisé par le fournisseur et le magasin afin d'informer MAPI lorsque l'objet passe en ligne et hors connexion. 
+ Crée un objet MAPI hors connexion qui est utilisé par le fournisseur et le magasin afin d’avertir MAPI lorsque l’objet est en ligne et hors connexion, 
   
 |||
 |:-----|:-----|
-|Exporté par:  <br/> |Msmapi32. dll  <br/> |
+|Exporté par :  <br/> |Msmapi32.dll  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
 |Appelé par :  <br/> |Client  <br/> |
    
@@ -39,15 +39,15 @@ IMAPIOfflineMgr** ppOffline
 
 _ulFlags_
   
-> dans Il doit être égal à 0.
+> [in] Elle doit être 0.
     
 _pCreateInfo_
   
-> dans Pointeur vers une structure **MAPIOFFLINE_CREATEINFO** qui contient les informations nécessaires à la création de l'objet hors connexion. 
+> [in] Pointeur vers une structure **MAPIOFFLINE_CREATEINFO** qui contient les informations nécessaires pour créer l’objet hors connexion. 
     
 _ppOffline_
   
-> remarquer Pointeur vers l'interface **IMAPIOfflineMgr** . 
+> [out] Pointeur vers l’interface **IMAPIOfflineMgr.** 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

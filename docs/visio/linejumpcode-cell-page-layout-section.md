@@ -23,11 +23,11 @@ Détermine les connecteurs auxquels appliquer des déviations
 |**Valeur**|**Connecteurs auxquels appliquer des déviations**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Aucun  <br/> |**visPLOJumpNone** <br/> |
-|0,1  <br/> |Lignes horizontales  <br/> |**visPLOJumpHorizontal** <br/> |
-|n°2  <br/> |Traits verticaux  <br/> |**visPLOJumpVertical** <br/> |
-|3  <br/> |Dernier trait repositionné  <br/> |**visPLOJumpLastRouted** <br/> |
-|4  <br/> |Dernière ligne affichée (forme du haut dans l'ordre de *plan* )  <br/> |**visPLOJumpDisplayOrder** <br/> |
-|disque  <br/> |Première ligne affichée (forme en bas de l'ordre de *plan* )  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
+|1   <br/> |Lignes horizontales  <br/> |**visPLOJumpHorizontal** <br/> |
+|2   <br/> |Traits verticaux  <br/> |**visPLOJumpVertical** <br/> |
+|3   <br/> |Dernier trait repositionné  <br/> |**visPLOJumpLastRouted** <br/> |
+|4   <br/> |Dernière ligne affichée (forme supérieure dans *l’ordre de z)*  <br/> |**visPLOJumpDisplayOrder** <br/> |
+|5   <br/> |Première ligne affichée (forme au bas de *l’ordre de z)*  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -43,7 +43,7 @@ Pour obtenir une référence à la cellule LineJumpCode à l'aide d'un index à 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOJumpCode** <br/> |
    

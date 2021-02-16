@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 95281e78-6517-428a-93c5-2e4a168d4661
-description: Définit l'URL du site réseau social.
+description: Définit l’URL du site de réseau social.
 ms.openlocfilehash: dd7ebc22c611701c68c5575f2cff5779d4cd603b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33416061"
 ---
 # <a name="isocialsessionsiteurl"></a>ISocialSession::SiteUrl
 
-Définit l'URL du site réseau social. 
+Définit l’URL du site de réseau social. 
   
 ```cpp
 [propput] HRESULT _stdcall siteUrl([in] BSTR rhs);

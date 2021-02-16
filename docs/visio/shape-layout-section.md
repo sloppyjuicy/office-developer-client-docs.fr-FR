@@ -24,6 +24,6 @@ Contient les cellules qui définissent le placement des formes et les paramètre
 
 Vous pouvez également définir les valeurs des cellules spécifiques aux formes dans cette section à l’aide de l’onglet **Placement** de la boîte de dialogue **Comportement** (sous l’onglet [Développeur](run-in-developer-mode-display-the-developer-tab.md), dans le groupe **Création de la forme**, cliquez sur **Comportement**). Vous pouvez définir les valeurs des cellules spécifiques aux liens dans cette section à l’aide de l’onglet **Lien** dans la boîte de dialogue **Comportement**. (Pour afficher l’onglet **Lien**, sélectionnez le lien dans la fenêtre de dessin, puis affichez la boîte de dialogue **Comportement**.) 
   
-Vous pouvez utiliser les valeurs de la section format de la **forme** pour remplacer les valeurs par défaut contenues dans la section **mise en page** . 
+Vous pouvez utiliser des valeurs dans la section **Mise** en forme pour remplacer les valeurs par défaut contenues dans la section **Mise en page.** 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Lignes (référence Visio ShapeSheet)
+title: Rows (Visio ShapeSheet Reference)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413016"
 ---
-# <a name="rows-visio-shapesheet-reference"></a>Lignes (référence Visio ShapeSheet)
+# <a name="rows-visio-shapesheet-reference"></a>Rows (Visio ShapeSheet Reference)
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [Actions, ligne (section Actions)](actions-row-actions-section.md)
     

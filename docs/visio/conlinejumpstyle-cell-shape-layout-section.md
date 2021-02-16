@@ -20,28 +20,28 @@ ms.locfileid: "33415991"
 
 Détermine le style de la déviation de trait pour un connecteur dynamique.
   
-|**Valeur**|**Style de déViation de trait**|**Constante d'automation**|
+|**Valeur**|**Style de saut de ligne**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Valeur par défaut de la page  <br/> |**visLOJumpStyleDefault** <br/> |
-|0,1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
-|n°2  <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
-|3  <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
-|4  <br/> |Signalisation  <br/> |**visLOJumpStyleTriangle** <br/> |
-|disque  <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
-|6.x  <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |
-|7j/7  <br/> |5 côtés  <br/> |**visLOJumpStyle4Point** <br/> |
-|8bits  <br/> |6 côtés  <br/> |**visLOJumpStyle5Point** <br/> |
-|4,9  <br/> |7 côtés  <br/> |**visLOJumpStyle6Point** <br/> |
+|1   <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
+|2   <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
+|3   <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
+|4   <br/> |Triangle  <br/> |**visLOJumpStyleTriangle** <br/> |
+|5   <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
+|6   <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |
+|7   <br/> |5 côtés  <br/> |**visLOJumpStyle4Point** <br/> |
+|8   <br/> |6 côtés  <br/> |**visLOJumpStyle5Point** <br/> |
+|9   <br/> |7 côtés  <br/> |**visLOJumpStyle6Point** <br/> |
    
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 |Index de la cellule :  <br/> |**visSLOJumpStyle** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule en sélectionnant un connecteur dynamique, en cliquant sur **comportement** dans le groupe **création de forme** de l'onglet [développeur](run-in-developer-mode-display-the-developer-tab.md) , puis en cliquant sur l'onglet **connecteur** . 
+Vous pouvez également définir la valeur de cette cellule  en sélectionnant un connecteur [](run-in-developer-mode-display-the-developer-tab.md) dynamique, en cliquant sur Comportement dans le groupe Création de forme sous l’onglet Développeur, puis sur l’onglet **Connecteur.**  
   
 Pour obtenir une référence à la cellule ConLineJumpStyle par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

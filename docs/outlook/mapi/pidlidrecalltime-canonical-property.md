@@ -25,13 +25,13 @@ ms.locfileid: "33414164"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l'heure à laquelle un rappel de message a été initié.
+Indique l’heure à laquelle un rappel de message a été initié.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRecallTime  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008549  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008549  <br/> |
 |Type de données :  <br/> |PT_SYSTIME  <br/> |
 |Domaine :  <br/> |Messagerie générale  <br/> |
    
@@ -41,11 +41,11 @@ Indique l'heure à laquelle un rappel de message a été initié.
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

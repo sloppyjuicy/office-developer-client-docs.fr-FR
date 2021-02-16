@@ -1,5 +1,5 @@
 ---
-title: Opérateurs de comparaison (application Web personnalisée Access)
+title: Comparison Operators (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,29 +13,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412841"
 ---
-# <a name="comparison-operators-access-custom-web-app"></a>Opérateurs de comparaison (application Web personnalisée Access)
+# <a name="comparison-operators-access-custom-web-app"></a>Comparison Operators (Access custom web app)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [\<(Inférieur à) (Application Web personnalisée Access)](less-thanaccess-custom-web-app.md)
+- [\< (Inférieur à) (Application web personnalisée Access)](less-thanaccess-custom-web-app.md)
     
-- [\<= (Inférieur ou égal à) (application Web personnalisée Access)](equalsless-than-or-equal-toaccess-custom-web-app.md)
+- [\<= (Inférieur ou égal à) (application web personnalisée Access)](equalsless-than-or-equal-toaccess-custom-web-app.md)
     
-- [\<\>(Différent de) (Application Web personnalisée Access)](not-equal-toaccess-custom-web-app.md)
+- [\<\> (N’est pas égal à) (Application web personnalisée Access)](not-equal-toaccess-custom-web-app.md)
     
-- [= (Égal à) (application Web personnalisée Access)](equalsequalsaccess-custom-web-app.md)
+- [= (Égal à) (application web personnalisée Access)](equalsequalsaccess-custom-web-app.md)
     
-- [\>(Supérieur à) (Application Web personnalisée Access)](greater-thanaccess-custom-web-app.md)
+- [\> (Supérieur à) (Application web personnalisée Access)](greater-thanaccess-custom-web-app.md)
     
-- [\>= (Supérieur ou égal à) (application Web personnalisée Access)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
+- [\>= (Supérieur ou égal à) (application web personnalisée Access)](equalsgreater-than-or-equal-toaccess-custom-web-app.md)
     
-- [ENTRE (application Web personnalisée Access)](between-access-custom-web-app.md)
+- [BETWEEN (Application web personnalisée Access)](between-access-custom-web-app.md)
     
-- [DANS (application Web personnalisée Access)](in-access-custom-web-app.md)
+- [IN (application web personnalisée Access)](in-access-custom-web-app.md)
     
-- [LIKE (application Web personnalisée Access)](like-access-custom-web-app.md)
+- [LIKE (Application web personnalisée Access)](like-access-custom-web-app.md)
     
 

@@ -25,11 +25,11 @@ ms.locfileid: "33412974"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste d'indicateurs utilisés pour indiquer l'état des entrées d'adresse lors du processus de résolution de noms.
+Contient une liste d’indicateurs utilisés pour indiquer l’état des entrées d’adresse pendant le processus de résolution de noms.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct
@@ -44,27 +44,27 @@ typedef struct
 
  **cFlags**
   
-> Nombre d'indicateurs définis par l'interface MAPI dans la liste.
+> Nombre d’indicateurs définis par MAPI dans la liste.
     
  **ulFlags**
   
-> Tableau d'indicateurs qui fournit l'état de l'opération de résolution de noms pour un destinataire. Les indicateurs suivants peuvent être définis:
+> Tableau d’indicateurs qui fournit l’état de l’opération de résolution de noms pour un destinataire. Les indicateurs suivants peuvent être définies :
     
 MAPI_AMBIGUOUS 
   
-> Le destinataire a été résolu, mais pas à un identificateur d'entrée unique. Les autres conteneurs du carnet d'adresses ne doivent pas essayer de résoudre ce destinataire. 
+> Le destinataire a été résolu, mais pas en un identificateur d’entrée unique. Les autres conteneurs de carnet d’adresses ne doivent pas essayer de résoudre ce destinataire. 
     
 MAPI_RESOLVED 
   
-> Le destinataire a été résolu en un identificateur d'entrée unique. Les autres conteneurs du carnet d'adresses ne doivent pas essayer de résoudre ce destinataire. 
+> Le destinataire a été résolu en un identificateur d’entrée unique. Les autres conteneurs de carnet d’adresses ne doivent pas essayer de résoudre ce destinataire. 
     
 MAPI_UNRESOLVED 
   
-> L'entrée n'a pas été résolue. Les autres conteneurs du carnet d'adresses doivent essayer de résoudre ce destinataire.
+> L’entrée n’a pas été résolue. Les autres conteneurs de carnet d’adresses doivent essayer de résoudre ce destinataire.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **FLAGLIST** est utilisée comme paramètre pour [IABContainer:: ResolveNames](iabcontainer-resolvenames.md). Chacun des destinataires à résoudre est inclus dans une structure [ADRLIST](adrlist.md) . Lorsque le conteneur du carnet d'adresses tente de résoudre chaque destinataire, il définit l'indicateur approprié dans l'entrée correspondante dans la structure **FLAGLIST** . Toutes les entrées de la structure **FLAGLIST** sont dans le même ordre que les entrées de la structure **ADRLIST** . Cela facilite l'Association d'un paramètre d'indicateur à un destinataire. 
+La structure **FLAGLIST** est utilisée comme paramètre pour [IABContainer::ResolveNames](iabcontainer-resolvenames.md). Chacun des destinataires à résoudre est inclus dans une structure [ADRLIST.](adrlist.md) Lorsque le conteneur de carnet d’adresses tente de résoudre chaque destinataire, il définit l’indicateur approprié dans l’entrée correspondante dans la structure **FLAGLIST.** Toutes les entrées de la structure **FLAGLIST** sont dans le même ordre que les entrées de la structure **ADRLIST.** Cela facilite l’association d’un paramètre d’indicateur à un destinataire. 
   
 ## <a name="see-also"></a>Voir aussi
 

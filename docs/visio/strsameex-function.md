@@ -22,7 +22,7 @@ Détermine si deux chaînes sont identiques.
   
 ## <a name="syntax"></a>Syntaxe
 
-STRSAMEEX ("* * *Chaîne1* * *", "* * *Chaîne2* * *", * * *LocaleID* * *, * * *indicateur* * *) 
+STRSAMEEX ( » ** *string1* ** « , " ** *string2* ** « , ** *localeID* **, ** *flag* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -30,8 +30,8 @@ STRSAMEEX ("* * *Chaîne1* * *", "* * *Chaîne2* * *", * * *LocaleID* * *, * * *
 |:-----|:-----|:-----|:-----|
 | _string1_ <br/> |Obligatoire  <br/> |**String** <br/> |Première chaîne à comparer.  <br/> |
 | _string2_ <br/> |Obligatoire  <br/> |**String** <br/> | Deuxième chaîne à comparer.  <br/> |
-| _Régionaux_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Code du pays (paramètre régional).  <br/> |
-| _indicateur_ <br/> |Obligatoire  <br/> |**Numérique** <br/> | Bit qui indique le type de comparaison.  <br/> |
+| _localeID_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Code du pays (paramètre régional).  <br/> |
+| _flag_ <br/> |Obligatoire  <br/> |**Numérique** <br/> | Bit qui indique le type de comparaison.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -45,9 +45,9 @@ Vous pouvez utiliser toute combinaison des indicateurs suivants avec la fonction
   
 |**Indicateur**|**Description**|
 |:-----|:-----|
-|0,1  <br/> |Ne tient pas compte de la casse.  <br/> |
-|n°2  <br/> |Ne tient pas compte des caractères qui ne définissent pas d’espacement.  <br/> |
-|4  <br/> |Ne tient pas compte des symboles.  <br/> |
+|1  <br/> |Ne tient pas compte de la casse.  <br/> |
+|2   <br/> |Ne tient pas compte des caractères qui ne définissent pas d’espacement.  <br/> |
+|4   <br/> |Ne tient pas compte des symboles.  <br/> |
 |4096  <br/> |Traite les signes de ponctuation comme des symboles.  <br/> |
 |65536  <br/> |Ne fait aucune différence entre les caractères Hiragana et Katakana.  <br/> |
 |131072  <br/> |Ne fait aucune différence entre un caractère codé sur un octet et le même caractère codé sur deux octets.  <br/> |

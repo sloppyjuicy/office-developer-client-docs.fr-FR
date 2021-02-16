@@ -25,7 +25,7 @@ ms.locfileid: "33416131"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le nom d'affichage d'un conteneur de formulaire.
+Renvoie le nom complet d’un conteneur de formulaires.
   
 ```cpp
 HRESULT GetDisplay(
@@ -38,15 +38,15 @@ HRESULT GetDisplay(
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le type de la chaîne renvoyée. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le type de la chaîne renvoyée. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> La chaîne renvoyée est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, la chaîne est au format ANSI.
+> La chaîne renvoyée est au format Unicode. Si l MAPI_UNICODE n’est pas définie, la chaîne est au format ANSI.
     
  _pszDisplayName_
   
-> remarquer Pointeur vers une chaîne qui contient le nom complet du conteneur de formulaire.
+> [out] Pointeur vers une chaîne qui contient le nom complet du conteneur de formulaires.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -60,7 +60,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: CFormContainerDlg  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer:: GetDisplay** pour obtenir le nom du conteneur de formulaire lorsqu'il restitue CFormContainerDlg.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::GetDisplay** pour obtenir le nom du conteneur de formulaires lors du rendu de CFormContainerDlg.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

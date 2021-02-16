@@ -25,122 +25,122 @@ Version ajoutée : Visio 2013
   
 ## <a name="syntax"></a>Syntaxe
 
- **THEMEVAL** ([ _"theme_value"_] [, _default_]) 
+ **THEMEVAL**([ _« theme_value »_][, _par défaut_]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _«theme_value»_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom d'une cellule dans la définition de thème à partir de laquelle obtenir une valeur.  <br/> |
-| _default_ <br/> |Facultatif  <br/> |Divers  <br/> |Valeur par défaut si le document n'est pas à thème (il n'y a pas de définition de thème).  <br/> |
+| _« theme_value »_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom d’une cellule de la définition de thème à partir de la valeur à partir de.  <br/> |
+| _default_ <br/> |Facultatif  <br/> |Divers  <br/> |Valeur par défaut si le document n’est pas à thème (il n’existe aucune définition de thème).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si la fonction **THEMEVAL** ne reçoit pas d'argument, elle renvoie la valeur à thème de la cellule hôte. Il s'agit de la valeur stockée dans la définition du thème actuel. La cellule hôte doit pouvoir être déplacée pour renvoyer une valeur; Si la cellule ne peut pas être liée, **THEMEVAL** renvoie une erreur. 
+Si la **fonction THEMEVAL ne** reçoit aucun argument, elle renvoie la valeur à thème de la cellule hôte. Il s’agit de la valeur stockée dans la définition du thème actuel. La cellule hôte doit être capable d’être sur le themed pour renvoyer une valeur ; si la cellule n’est pas capable d’être à thème, **THEMEVAL** renvoie une erreur. 
   
-Si la fonction **THEMEVAL** reçoit un seul argument, elle récupère la valeur à partir de la définition de thème transmise en tant qu'argument. L'argument transmis pour le premier paramètre doit être un entier ou une des chaînes exactes indiquées dans le tableau ci-dessous. 
+Si la **fonction THEMEVAL** reçoit un seul argument, elle extrait la valeur de la définition de thème transmise en tant qu’argument. L’argument passé pour le premier paramètre doit être un nombre integer ou l’une des chaînes exactes répertoriées dans le tableau ci-dessous. 
   
-La fonction **THEMEVAL** peut également accepter un entier pour le premier paramètre, sous la forme d'une valeur comprise entre 1 et 8. Utilisation de valeurs entières récupère une couleur à l'aide d'un index à partir du jeu de couleurs du thème. Par conséquent, la valeur «1» renvoie la couleur «sombre» à partir du thème, «2» renvoie la couleur «clair», «3» renvoie la couleur «accent 1», etc. 
+La **fonction THEMEVAL** peut également accepter un integer pour le premier paramètre, sous la mesure d’une valeur entre 1 et 8. L’utilisation de valeurs de nombres integer extrait une couleur à l’aide d’un index à partir du modèle de couleurs du thème. Par conséquent, une valeur de « 1 » renvoie la couleur « Foncé » à partir du thème, « 2 » renvoie la couleur « Light », « 3 » renvoie la couleur « Accent 1 », etc. 
   
-Si la fonction **THEMEVAL** reçoit deux arguments, elle récupère la valeur à partir de la définition de thème transmise en tant que premier argument. Toutefois, si aucun thème n'est appliqué au document, la fonction **THEMEVAL** utilise la valeur spécifiée comme deuxième argument. 
+Si la **fonction THEMEVAL** reçoit deux arguments, elle récupère la valeur de la définition de thème transmise en tant que premier argument. Toutefois, si aucun thème n’est appliqué au document, la **fonction THEMEVAL** utilise la valeur spécifiée comme deuxième argument. 
   
-**Arguments possibles pour le paramètre «theme_value»**
+**Arguments possibles pour le paramètre « theme_value »**
 
 |**Valeur**|**Description**|
 |:-----|:-----|
-|Obscurci  <br/> |Récupère la couleur RVB foncé de la définition du thème.  <br/> |
-|Activ  <br/> |Récupère la couleur lumière RVB de la définition de thème.  <br/> |
-|BackgroundColor  <br/> |Récupère la couleur d'arrière-plan RVB de la définition de thème.  <br/> |
-|«AccentColor»  <br/> |Récupère la couleur RVB Accent1 à partir de la définition de thème.  <br/> |
-|«AccentColor2»  <br/> |Récupère la couleur RVB Accent2 à partir de la définition de thème.  <br/> |
-|«AccentColor3»  <br/> |Récupère la couleur RVB Accent3 à partir de la définition de thème.  <br/> |
-|«AccentColor4»  <br/> |Récupère la couleur RVB Accent4 à partir de la définition de thème.  <br/> |
-|«AccentColor5»  <br/> |Récupère la couleur RVB Accent5 à partir de la définition de thème.  <br/> |
-|«AccentColor6»  <br/> |Récupère la couleur RVB Accent6 à partir de la définition de thème.  <br/> |
-|LinePattern  <br/> |Récupère la valeur de la cellule LinePattern à partir de la définition du thème.  <br/> |
-|LineWeight  <br/> |Récupère la valeur de la cellule LineWeight à partir de la définition de thème.  <br/> |
-|LineColor  <br/> |Récupère la valeur de la cellule LineColor à partir de la définition de thème.  <br/> |
-|LineCap  <br/> |Récupère la valeur de la cellule LineCap à partir de la définition du thème.  <br/> |
-|«LineBegin»  <br/> |Récupère la valeur de la cellule BeginArrow à partir de la définition du thème.  <br/> |
-|«LineEnd»  <br/> |Récupère la valeur de la cellule EndArrow à partir de la définition de thème.  <br/> |
-|LineColorTrans  <br/> |Récupère la valeur de la cellule LineColorTrans à partir de la définition du thème.  <br/> |
-|«LineCompoundtype»  <br/> |Récupère la valeur de la cellule CompoundType à partir de la définition de thème.  <br/> |
-|«LineBegin»  <br/> |Récupère la valeur de la cellule BeginArrow à partir de la définition du thème.  <br/> |
-|«LineEnd»  <br/> |Récupère la valeur de la cellule EndArrow à partir de la définition de thème.  <br/> |
-|«LineBeginSize»  <br/> |Récupère la valeur de la cellule BeginArrowSize à partir de la définition de thème.  <br/> |
-|«LineEndSize»  <br/> |Récupère la valeur de la cellule EndArrowSize à partir de la définition du thème.  <br/> |
-|«LineRounding»  <br/> |Récupère la valeur de la cellule d'arrondi à partir de la définition de thème.  <br/> |
-|«ConnectorColor»  <br/> |Récupère la valeur de la cellule LineColor à partir de la définition de thème.  <br/> |
-|«ConnectorPattern»  <br/> |Récupère la valeur de la cellule LinePattern à partir de la définition du thème.  <br/> |
-|«ConnectorWeight»  <br/> |Récupère la valeur de la cellule LineWeight à partir de la définition de thème.  <br/> |
-|«ConnectorTransparency»  <br/> |Récupère la valeur de la cellule LineColorTrans à partir de la définition du thème.  <br/> |
-|«ConnectorRounding»  <br/> |Récupère la valeur de la cellule d'arrondi à partir de la définition de thème.  <br/> |
-|«ConnectorBegin»  <br/> |Récupère la valeur de la cellule BeginArrow à partir de la définition du thème.  <br/> |
-|«ConnectorEnd»  <br/> |Récupère la valeur de la cellule EndArrow à partir de la définition de thème.  <br/> |
-|«ConnectorBeginSize»  <br/> |Récupère la valeur de la cellule BeginArrowSize à partir de la définition de thème.  <br/> |
-|«ConnectorEndSize»  <br/> |Récupère la valeur de la cellule EndArrowSize à partir de la définition du thème.  <br/> |
-|FillColor  <br/> |Récupère la valeur de la cellule FillForegnd à partir de la définition de thème.  <br/> |
-|«FillColor2»  <br/> |Récupère la valeur de la cellule FillBkgnd à partir de la définition du thème.  <br/> |
-|«FillTransparency»  <br/> |Récupère la valeur de la cellule FillForegndTrans à partir de la définition du thème.  <br/> |
-|FillPattern  <br/> |Récupère la valeur de la cellule FillPattern à partir de la définition de thème.  <br/> |
-|LineGradientEnabled  <br/> |Récupère la valeur de la cellule LineGradientEnabled à partir de la définition de thème.  <br/> |
-|LineGradientDir  <br/> |Récupère la valeur de la cellule LineGradientDir à partir de la définition de thème.  <br/> |
-|LineGradientAngle  <br/> |Récupère la valeur de la cellule LineGradientAngle à partir de la définition de thème.  <br/> |
-|FillGradientEnabled  <br/> |Récupère la valeur de la cellule FillGradientEnabled à partir de la définition de thème.  <br/> |
-|FillGradientDir  <br/> |Récupère la valeur de la cellule FillGradientDir à partir de la définition de thème.  <br/> |
-|FillGradientAngle  <br/> |Récupère la valeur de la cellule FillGradientAngle à partir de la définition de thème.  <br/> |
-|RotateGradientWithShape  <br/> |Récupère la valeur de la cellule RotateGradientWithShape à partir de la définition de thème.  <br/> |
-|UseGroupGradient  <br/> |Récupère la valeur de la cellule UseGroupGradient à partir de la définition de thème.  <br/> |
-|«ShadowType»  <br/> |Récupère la valeur de la cellule ShapeShdwType à partir de la définition de thème.  <br/> |
-|«ShadowColor»  <br/> |Récupère la valeur de la cellule ShdwColor à partir de la définition de thème.  <br/> |
-|«ShadowTransparency»  <br/> |Récupère la valeur de la cellule ShdwColorTrans à partir de la définition de thème.  <br/> |
-|«ShadowMagnification»  <br/> |Récupère la valeur de la cellule ShapeShdwScaleFactor à partir de la définition de thème.  <br/> |
-|«ShadowBlur»  <br/> |Récupère la valeur de la cellule ShapeShdwBlur à partir de la définition de thème.  <br/> |
-|«ShadowXOffset»  <br/> |Récupère la valeur de cellule ShapeShdwOffsetX à partir de la définition de thème.  <br/> |
-|«ShadowYOffset»  <br/> |Récupère la valeur de la cellule ShapeShdwOffsetY à partir de la définition de thème.  <br/> |
-|«ShadowDirection»  <br/> |Récupère la valeur de la cellule ShapeShdwObliqueAngle à partir de la définition du thème.  <br/> |
-|«ShadowPattern»  <br/> |Récupère la valeur de la cellule ShdwPattern dans la définition du thème.  <br/> |
-|BevelTopType  <br/> |Récupère la valeur de la cellule BevelTopType à partir de la définition de thème.  <br/> |
-|BevelTopWidth  <br/> |Récupère la valeur de la cellule BevelTopWidth à partir de la définition de thème.  <br/> |
-|BevelTopHeight  <br/> |Récupère la valeur de la cellule BevelTopHeight à partir de la définition de thème.  <br/> |
-|«BevelMaterial»  <br/> |Récupère la valeur de la cellule BevelMaterialType à partir de la définition de thème.  <br/> |
-|«BevelLighting»  <br/> |Récupère la valeur de la cellule BevelLightingType à partir de la définition de thème.  <br/> |
-|BevelLightingAngle  <br/> |Récupère la valeur de la cellule BevelLightingAngle à partir de la définition de thème.  <br/> |
-|BevelContourColor  <br/> |Récupère la valeur de la cellule BevelContourColor à partir de la définition de thème.  <br/> |
-|BevelContourSize  <br/> |Récupère la valeur de la cellule BevelContourSize à partir de la définition de thème.  <br/> |
-|ReflectionBlur  <br/> |Récupère la valeur de la cellule ReflectionBlur à partir de la définition de thème.  <br/> |
-|ReflectionDist  <br/> |Récupère la valeur de la cellule ReflectionDist à partir de la définition de thème.  <br/> |
-|ReflectionSize  <br/> |Récupère la valeur de la cellule de réflexion à partir de la définition de thème.  <br/> |
-|ReflectionTrans  <br/> |Récupère la valeur de la cellule ReflectionTrans à partir de la définition de thème.  <br/> |
-|SoftEdgesSize  <br/> |Récupère la valeur de la cellule SoftEdgesSize à partir de la définition de thème.  <br/> |
-|GlowSize  <br/> |Récupère la valeur de la cellule GlowSize à partir de la définition de thème.  <br/> |
-|GlowColor  <br/> |Récupère la valeur de la cellule GlowColor à partir de la définition de thème.  <br/> |
-|«GlowTransparency»  <br/> |Récupère la valeur de la cellule GlowColorTrans à partir de la définition de thème.  <br/> |
-|SketchAmount  <br/> |Récupère la valeur de la cellule SketchAmount à partir de la définition de thème.  <br/> |
-|SketchEnabled  <br/> |Récupère la valeur de la cellule SketchEnabled à partir de la définition de thème.  <br/> |
-|SketchFillChange  <br/> |Récupère la valeur de la cellule SketchFillChange à partir de la définition de thème.  <br/> |
-|SketchLineChange  <br/> |Récupère la valeur de la cellule SketchLineChange à partir de la définition de thème.  <br/> |
-|SketchLineWeight  <br/> |Récupère la valeur de la cellule SketchLineWeight à partir de la définition de thème.  <br/> |
-|«LatinFont»  <br/> |Récupère la valeur de la cellule de police à partir de la définition de thème.  <br/> |
-|TextColor  <br/> |Récupère la valeur de la cellule de couleur à partir de la définition de thème.  <br/> |
-|Attribuer  <br/> |Récupère la valeur de la cellule Character. style à partir de la définition de thème.  <br/> |
-|«ComplexFont»  <br/> |Récupère la valeur de la cellule ComplexScriptFont à partir de la définition de thème.  <br/> |
-|AsianFont  <br/> |Récupère la valeur de la cellule AsianFont à partir de la définition de thème.  <br/> |
-|"FillStop [x] couleur"  <br/> |Récupère la valeur de la cellule de couleur dans la ligne *x* à partir de la définition de thème.  <br/> |
-|"FillStop [x] transparence"  <br/> |Récupère la valeur de la cellule ColorTrans de la ligne *x* à partir de la définition de thème.  <br/> |
-|«FillStop [x] position»  <br/> |Récupère la valeur de la cellule position de la ligne *x* à partir de la définition du thème.  <br/> |
-|"LineStop [x] couleur"  <br/> |Récupère la valeur de la cellule de couleur dans la ligne *x* à partir de la définition de thème.  <br/> |
-|"LineStop [x] transparence"  <br/> |Récupère la valeur de la cellule ColorTrans de la ligne *x* à partir de la définition de thème.  <br/> |
-|«LineStop [x] position»  <br/> |Récupère la valeur de la cellule position de la ligne *x* à partir de la définition du thème.  <br/> |
+|« Sombre »  <br/> |Extrait la couleur RVB foncée de la définition de thème.  <br/> |
+|« Light »  <br/> |Extrait la couleur RVB claire de la définition de thème.  <br/> |
+|« BackgroundColor »  <br/> |Extrait la couleur RVB d’arrière-plan de la définition de thème.  <br/> |
+|« AccentColor »  <br/> |Extrait la couleur RVB Accent1 de la définition de thème.  <br/> |
+|« AccentColor2 »  <br/> |Extrait la couleur RVB Accent2 de la définition de thème.  <br/> |
+|« AccentColor3 »  <br/> |Extrait la couleur RVB Accent3 de la définition de thème.  <br/> |
+|« AccentColor4 »  <br/> |Extrait la couleur RVB Accent4 de la définition de thème.  <br/> |
+|« AccentColor5 »  <br/> |Extrait la couleur RVB Accent5 de la définition de thème.  <br/> |
+|« AccentColor6 »  <br/> |Extrait la couleur RVB Accent6 de la définition de thème.  <br/> |
+|« LinePattern »  <br/> |Extrait la valeur de cellule LinePattern de la définition de thème.  <br/> |
+|« LineWeight »  <br/> |Extrait la valeur de cellule LineWeight de la définition de thème.  <br/> |
+|« LineColor »  <br/> |Extrait la valeur de cellule LineColor de la définition de thème.  <br/> |
+|« LineCap »  <br/> |Extrait la valeur de cellule LineCap de la définition de thème.  <br/> |
+|« LineBegin »  <br/> |Extrait la valeur de cellule BeginArrow de la définition de thème.  <br/> |
+|« LineEnd »  <br/> |Extrait la valeur de cellule EndArrow de la définition de thème.  <br/> |
+|« LineColorTrans »  <br/> |Extrait la valeur de cellule LineColorTrans de la définition de thème.  <br/> |
+|« LineCompoundtype »  <br/> |Extrait la valeur de cellule CompoundType de la définition de thème.  <br/> |
+|« LineBegin »  <br/> |Extrait la valeur de cellule BeginArrow de la définition de thème.  <br/> |
+|« LineEnd »  <br/> |Extrait la valeur de cellule EndArrow de la définition de thème.  <br/> |
+|« LineBeginSize »  <br/> |Extrait la valeur de cellule BeginArrowSize de la définition de thème.  <br/> |
+|« LineEndSize »  <br/> |Extrait la valeur de cellule EndArrowSize de la définition de thème.  <br/> |
+|« LineRounding »  <br/> |Extrait la valeur de cellule Rounding de la définition de thème.  <br/> |
+|« ConnectorColor »  <br/> |Extrait la valeur de cellule LineColor de la définition de thème.  <br/> |
+|« ConnectorPattern »  <br/> |Extrait la valeur de cellule LinePattern de la définition de thème.  <br/> |
+|« ConnectorWeight »  <br/> |Extrait la valeur de cellule LineWeight de la définition de thème.  <br/> |
+|« ConnectorTransparency »  <br/> |Extrait la valeur de cellule LineColorTrans de la définition de thème.  <br/> |
+|« ConnectorRounding »  <br/> |Extrait la valeur de cellule Rounding de la définition de thème.  <br/> |
+|« ConnectorBegin »  <br/> |Extrait la valeur de cellule BeginArrow de la définition de thème.  <br/> |
+|« ConnectorEnd »  <br/> |Extrait la valeur de cellule EndArrow de la définition de thème.  <br/> |
+|« ConnectorBeginSize »  <br/> |Extrait la valeur de cellule BeginArrowSize de la définition de thème.  <br/> |
+|« ConnectorEndSize »  <br/> |Extrait la valeur de cellule EndArrowSize de la définition de thème.  <br/> |
+|« FillColor »  <br/> |Extrait la valeur de cellule FillForegnd de la définition de thème.  <br/> |
+|« FillColor2 »  <br/> |Extrait la valeur de cellule FillBkgnd de la définition de thème.  <br/> |
+|« FillTransparency »  <br/> |Extrait la valeur de cellule FillForegndTrans de la définition de thème.  <br/> |
+|« FillPattern »  <br/> |Extrait la valeur de cellule FillPattern de la définition de thème.  <br/> |
+|« LineGradientEnabled »  <br/> |Extrait la valeur de cellule LineGradientEnabled de la définition de thème.  <br/> |
+|« LineGradientDir »  <br/> |Extrait la valeur de cellule LineGradientDir de la définition de thème.  <br/> |
+|« LineGradientAngle »  <br/> |Extrait la valeur de cellule LineGradientAngle de la définition de thème.  <br/> |
+|« FillGradientEnabled »  <br/> |Extrait la valeur de cellule FillGradientEnabled de la définition de thème.  <br/> |
+|« FillGradientDir »  <br/> |Extrait la valeur de cellule FillGradientDir de la définition de thème.  <br/> |
+|« FillGradientAngle »  <br/> |Extrait la valeur de cellule FillGradientAngle de la définition de thème.  <br/> |
+|« RotateGradientWithShape »  <br/> |Extrait la valeur de cellule RotateGradientWithShape de la définition de thème.  <br/> |
+|« UseGroupGradient »  <br/> |Extrait la valeur de cellule UseGroupGradient de la définition de thème.  <br/> |
+|« ShadowType »  <br/> |Extrait la valeur de cellule ShapeShdwType de la définition de thème.  <br/> |
+|« ShadowColor »  <br/> |Extrait la valeur de cellule ShdwColor de la définition de thème.  <br/> |
+|« ShadowTransparency »  <br/> |Extrait la valeur de cellule ShdwColorTrans de la définition de thème.  <br/> |
+|« ShadowMagnification »  <br/> |Extrait la valeur de cellule ShapeShdwScaleFactor de la définition de thème.  <br/> |
+|« ShadowBlur »  <br/> |Extrait la valeur de cellule ShapeShdwBlur de la définition de thème.  <br/> |
+|« ShadowXOffset »  <br/> |Extrait la valeur de cellule ShapeShdwOffsetX de la définition de thème.  <br/> |
+|« ShadowYOffset »  <br/> |Extrait la valeur de cellule ShapeShdwOffsetY de la définition de thème.  <br/> |
+|« ShadowDirection »  <br/> |Extrait la valeur de cellule ShapeShdwObliqueAngle de la définition de thème.  <br/> |
+|« ShadowPattern »  <br/> |Extrait la valeur de cellule ShdwPattern de la définition de thème.  <br/> |
+|« BevelTopType »  <br/> |Extrait la valeur de cellule BevelTopType de la définition de thème.  <br/> |
+|« BevelTopWidth »  <br/> |Extrait la valeur de cellule BevelTopWidth de la définition de thème.  <br/> |
+|« BevelTopHeight »  <br/> |Extrait la valeur de cellule BevelTopHeight de la définition de thème.  <br/> |
+|« BevelMaterial »  <br/> |Extrait la valeur de cellule BevelMaterialType de la définition de thème.  <br/> |
+|« BevelLighting »  <br/> |Extrait la valeur de cellule BevelLightingType de la définition de thème.  <br/> |
+|« BevelLightingAngle »  <br/> |Extrait la valeur de cellule BevelLightingAngle de la définition de thème.  <br/> |
+|« BevelContourColor »  <br/> |Extrait la valeur de cellule BevelContourColor de la définition de thème.  <br/> |
+|« BevelContourSize »  <br/> |Extrait la valeur de cellule BevelContourSize de la définition de thème.  <br/> |
+|« ReflectionBlur »  <br/> |Extrait la valeur de cellule ReflectionBlur de la définition de thème.  <br/> |
+|« ReflectionDist »  <br/> |Extrait la valeur de cellule ReflectionDist de la définition de thème.  <br/> |
+|« ReflectionSize »  <br/> |Extrait la valeur de cellule ReflectionSize de la définition de thème.  <br/> |
+|« ReflectionTrans »  <br/> |Extrait la valeur de cellule ReflectionTrans de la définition de thème.  <br/> |
+|« SoftEdgesSize »  <br/> |Extrait la valeur de cellule SoftEdgesSize de la définition de thème.  <br/> |
+|« GlowSize »  <br/> |Extrait la valeur de cellule GlowSize de la définition de thème.  <br/> |
+|« GlowColor »  <br/> |Extrait la valeur de cellule GlowColor de la définition de thème.  <br/> |
+|« GlowTransparency »  <br/> |Extrait la valeur de cellule GlowColorTrans de la définition de thème.  <br/> |
+|« SketchAmount »  <br/> |Extrait la valeur de cellule SketchAmount de la définition de thème.  <br/> |
+|« SketchEnabled »  <br/> |Extrait la valeur de cellule SketchEnabled de la définition de thème.  <br/> |
+|« SketchFillChange »  <br/> |Extrait la valeur de cellule SketchFillChange de la définition de thème.  <br/> |
+|« SketchLineChange »  <br/> |Extrait la valeur de cellule SketchLineChange de la définition de thème.  <br/> |
+|« SketchLineWeight »  <br/> |Extrait la valeur de cellule SketchLineWeight de la définition de thème.  <br/> |
+|« LatinFont »  <br/> |Extrait la valeur de cellule Font de la définition de thème.  <br/> |
+|« TextColor »  <br/> |Extrait la valeur de cellule Color de la définition de thème.  <br/> |
+|« TextStyle »  <br/> |Extrait la valeur de cellule Character.Style de la définition de thème.  <br/> |
+|« ComplexFont »  <br/> |Extrait la valeur de cellule ComplexScriptFont de la définition de thème.  <br/> |
+|« AsianFont »  <br/> |Extrait la valeur de cellule AsianFont de la définition de thème.  <br/> |
+|« FillStop[x]Color »  <br/> |Extrait la valeur de cellule Color de la ligne  *x*  à partir de la définition de thème.  <br/> |
+|« FillStop[x]Transparency »  <br/> |Extrait la valeur de cellule ColorTrans de la ligne  *x*  à partir de la définition de thème.  <br/> |
+|« FillStop[x]Position »  <br/> |Extrait la valeur de cellule Position de la ligne  *x*  à partir de la définition de thème.  <br/> |
+|« LineStop[x]Color »  <br/> |Extrait la valeur de cellule Color de la ligne  *x*  à partir de la définition de thème.  <br/> |
+|« LineStop[x]Transparency »  <br/> |Extrait la valeur de cellule ColorTrans de la ligne  *x*  à partir de la définition de thème.  <br/> |
+|« LineStop[x]Position »  <br/> |Extrait la valeur de cellule Position de la ligne  *x*  à partir de la définition de thème.  <br/> |
    
 ## <a name="example"></a>Exemple
 
  `THEMEVAL("5")`
   
-Renvoie la couleur accent 3 de la définition du thème.
+Renvoie la couleur « Accent 3 » à partir de la définition de thème.
   
  `THEMEVAL("LineWeight", "0.7 pt.")`
   
-Renvoie la valeur de la cellule «épaisseur» à partir de la définition de thème. Si aucun thème n'est appliqué à la forme contenant cette fonction, la fonction renvoie la valeur «0,7 PT».
+Renvoie la valeur de la cellule « LineWeight » à partir de la définition de thème. Si aucun thème n’est appliqué à la forme contenant cette fonction, la fonction renvoie « 0,7 pt ».
   
 

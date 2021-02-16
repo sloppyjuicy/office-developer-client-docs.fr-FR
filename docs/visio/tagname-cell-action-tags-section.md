@@ -25,20 +25,20 @@ Nom de la balise d’action utilisé comme référence pour associer la balise d
   
 ## <a name="remarks"></a>Remarques
 
- La cellule TagName de la section Action Tags fonctionne avec la cellule TagName de la section Actions pour associer une balise d’action à ses actions. Les lignes de la section actions ont également une cellule TagName, et les lignes avec la même valeur de cellule TagName que cette cellule définissent les actions à effectuer pour cette balise d'action. 
+ La cellule TagName de la section Action Tags fonctionne avec la cellule TagName de la section Actions pour associer une balise d’action à ses actions. Les lignes de la section Actions ont également une cellule TagName, et ces lignes avec la même valeur de cellule TagName que cette cellule définissent les actions à prendre pour cette balise d’action. 
   
 Pour obtenir une référence à la cellule TagName à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | SmartTag.  *nom* . TagName où SmartTags. *Name* est le nom de la ligne de balise d'action  <br/> |
+| Nom de cellule :  <br/> | SmartTags.  *nom*  . TagName où SmartTags. *name est*  le nom de la ligne de balise d’action  <br/> |
    
 Pour obtenir une référence à la cellule TagName par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visSmartTagName** <br/> |
    
 

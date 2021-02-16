@@ -25,11 +25,11 @@ ms.locfileid: "33416901"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie la taille d'une seule valeur de propriété. 
+Renvoie la taille d’une valeur de propriété unique. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,7 +43,7 @@ ULONG UlPropSize(
 
  _lpSPropValue_
   
-> dans Pointeur vers une structure [SPropValue](spropvalue.md) définissant la propriété à mesurer. 
+> [in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant la propriété à mesurer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -53,10 +53,10 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur d'origine inattendue ou inconnue a empêché l'opération de s'exécuter.
+> Une erreur d’origine inattendue ou inconnue a empêché l’exécution de l’opération.
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **UlPropSize** renvoie la taille en octets de la valeur de la propriété spécifiée. Il ignore la taille du reste de la structure **SPropValue** . 
+La **fonction UlPropSize** renvoie la taille, en octets, de la valeur de la propriété spécifiée. Il ignore la taille du reste de la structure **SPropValue.** 
   
 

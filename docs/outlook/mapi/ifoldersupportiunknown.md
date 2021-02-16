@@ -25,23 +25,23 @@ ms.locfileid: "33415774"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des informations sur la prise en charge du partage par un dossier.
+Fournit des informations sur la prise en charge d’un dossier pour le partage.
   
 |||
 |:-----|:-----|
-|Fourni par :  <br/> |Fournisseur de banque de messages  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IFolderSupport  <br/> |
+|Fourni par :  <br/> |Fournisseur de magasin de messages  <br/> |
+|Identificateur d’interface :  <br/> |IID_IFolderSupport  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Obtient des informations sur la prise en charge d'un dossier pour le partage.  <br/> |
+|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Obtient des informations sur la prise en charge d’un dossier pour le partage.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-En règle générale, Microsoft Office Outlook requiert un fournisseur de banque MAPI pour implémenter cette interface si le fournisseur souhaite partager un dossier. L'exception est le fournisseur de banque d'Exchange Server, qui peut partager des dossiers sans mettre en œuvre cette interface.
+En règle générale, Microsoft Office Outlook un fournisseur de magasin MAPI pour implémenter cette interface si le fournisseur souhaite partager un dossier. L’exception est le fournisseur Exchange Server store, qui peut partager des dossiers sans implémenter cette interface.
   
-Un client peut interroger un **[IMAPIFolder](imapifolderimapicontainer.md)** pour **IFolderSupport**. Si cette opération réussit, appelez **IFolderSupport:: GetSupportMask** et vérifiez que le bit **FS_SUPPORTS_SHARING** doit être défini. 
+Un client peut interroger **[un IMAPIFolder](imapifolderimapicontainer.md)** pour **IFolderSupport**. Si cela réussit, appelez **IFolderSupport::GetSupportMask** et vérifiez la FS_SUPPORTS_SHARING **bit** à définir. 
   
 

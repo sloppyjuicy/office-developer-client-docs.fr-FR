@@ -22,17 +22,17 @@ Exécute la commande identifiée.
   
 ## <a name="syntax"></a>Syntaxe
 
- **DoCmd** ( _CommandID_)
+ **DOCMD**( _commandID_)
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _CommandID_ <br/> |Obligatoire  <br/> |**Number** <br/> | Commande à exécuter  <br/> |
+| _commandID_ <br/> |Obligatoire  <br/> |**Number** <br/> | Commande à exécuter  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des commandes prises en charge par la fonction DOCMD, voir la rubrique relative aux commandes DoCmd/DOCMD dans la référence d'Automation de Microsoft Visio 2013. 
+Pour obtenir la liste des commandes qui sont pris en charge avec la fonction DOCMD, voir la rubrique « Commandes DoCmd/DOCMD » dans la Référence Microsoft Visio 2013 Automation. 
   
 ## <a name="example"></a>Exemple
 

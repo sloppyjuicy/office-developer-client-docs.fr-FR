@@ -25,7 +25,7 @@ ms.locfileid: "33417160"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Modifie la table d'État en ajoutant une nouvelle ligne ou en modifiant une ligne existante.
+Modifie le tableau d’état en ajoutant une nouvelle ligne ou en modifiant une ligne existante.
   
 ```cpp
 HRESULT ModifyStatusRow(
@@ -39,37 +39,37 @@ ULONG ulFlags
 
  _cValues_
   
-> dans Nombre de propriétés à inclure dans la ligne de tableau d'État nouvelle ou modifiée. 
+> [in] Nombre de propriétés à inclure dans la ligne du tableau d’état nouveau ou modifié. 
     
  _lpColumnVals_
   
-> dans Pointeur vers un tableau de valeurs de propriété qui décrivent les propriétés à inclure en tant que colonnes dans la ligne de tableau d'État nouvelle ou modifiée.
+> [in] Pointeur vers un tableau de valeurs de propriété qui décrivent les propriétés à inclure en tant que colonnes dans la ligne du tableau d’état nouveau ou modifié.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont les informations qui définissent la ligne de la table d'État sont traitées. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le traitement des informations qui définissent la ligne de tableau d’état. L’indicateur suivant peut être définie :
     
 STATUSROW_UPDATE 
   
-> Indique à MAPI de fusionner les propriétés incluses dans le tableau vers lequel pointe _lpColumnVals_ avec une ligne de table d'État existante, et non dans une nouvelle ligne. 
+> Indique à MAPI de fusionner les propriétés incluses dans le tableau pointé par  _lpColumnVals_ avec une ligne de tableau d’état existante, plutôt que dans une nouvelle ligne. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La table d'État a été mise à jour avec succès.
+> La table d’état a été correctement mise à jour.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: ModifyStatusRow** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services appellent **ModifyStatusRow** au moment de l'ouverture de session pour ajouter une ligne à la table d'État et à d'autres moments pendant la session pour mettre à jour la ligne. **ModifyStatusRow** fournit à MAPI les informations nécessaires pour créer la table d'État. 
+La **méthode IMAPISupport::ModifyStatusRow** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services **appellent ModifyStatusRow** au moment de l’ouverture de session pour ajouter une ligne à la table d’état et à d’autres moments de la session pour mettre à jour la ligne. **ModifyStatusRow fournit** à MAPI les informations nécessaires pour créer la table d’état. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Définissez l'indicateur STATUSROW_UPDATE lorsque vous appelez **ModifyStatusRow** pour modifier les propriétés de votre ligne de table d'État existante. Cette opération informe MAPI que seules les colonnes modifiées sont transmises dans le paramètre _lpColumnVals_ . 
+Définissez l STATUSROW_UPDATE lorsque vous appelez **ModifyStatusRow** pour apporter des modifications aux propriétés de la ligne de votre table d’état existante. Cela informe MAPI que seules les colonnes modifiées sont passées dans le _paramètre lpColumnVals._ 
   
-Les clients peuvent utiliser les informations de la table d'État pour accéder à votre objet d'État. 
+Les clients peuvent utiliser les informations de la table d’état pour accéder à votre objet d’état. 
   
-Pour obtenir la liste complète des colonnes que vous devez inclure dans la ligne de votre tableau d'État, voir [Status tables](status-tables.md).
+Pour obtenir la liste complète des colonnes que vous devez inclure dans la ligne de votre tableau d’état, voir [Tableaux d’état.](status-tables.md)
   
 ## <a name="see-also"></a>Voir aussi
 

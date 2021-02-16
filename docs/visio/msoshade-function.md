@@ -25,17 +25,17 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-MSOSHADE (* * *couleur* * *, * * *-deltaLum* * *) 
+MS CRYPTODE(** *color* **, ** *-deltaLum* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Obligatoire  <br/> |**RVB** <br/> |Valeur de couleur RVB (rouge, vert, bleu) standard ou référence à une couleur.  <br/> |
-| _-deltaLum_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Pourcentage de changement vers blanc (-100%) ou noir (100%) de la valeur de _couleur_ .  <br/> |
+| _-deltaLum_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Le pourcentage de changement vers le blanc (-100 %) ou noir (100 %) à partir  _de la valeur_ de couleur.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Plus la valeur de _couleur_ est proche de blanc ou noir, plus le changement de dégradé généré par une valeur _-deltaLum_ spécifique est faible. 
+Plus la valeur  _de couleur_ est proche du blanc ou du noir, plus la modification de l’ombre produite par une valeur  _-deltaLum_ spécifique est faible. 
   
 

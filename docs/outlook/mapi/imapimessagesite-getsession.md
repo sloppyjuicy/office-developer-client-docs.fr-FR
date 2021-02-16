@@ -25,7 +25,7 @@ ms.locfileid: "33412687"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie la session MAPI dans laquelle le message actif a été créé ou ouvert.
+Renvoie la session MAPI dans laquelle le message actuel a été créé ou ouvert.
   
 ```cpp
 HRESULT GetSession(
@@ -37,7 +37,7 @@ HRESULT GetSession(
 
  _ppSession_
   
-> remarquer Pointeur vers un pointeur vers l'objet de session renvoyé.
+> [out] Pointeur vers un pointeur vers l’objet de session renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,11 +47,11 @@ S_OK
     
 S_FALSE 
   
-> Il n'existe aucune session pour le message actif.
+> Il n’existe aucune session pour le message actuel.
     
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -59,7 +59,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSession  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite:: GetSession** pour renvoyer le pointeur de session actuellement mis en cache, s'il est disponible.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetSession** pour renvoyer le pointeur de session actuellement mis en cache, s’il est disponible.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

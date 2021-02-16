@@ -29,7 +29,7 @@ Détermine si deux propriétés nommées MAPI sont identiques.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -44,11 +44,11 @@ BOOL FEqualNames(
 
  _lpName1_
   
-> dans Pointeur vers une structure [MAPINAMEID](mapinameid.md) décrivant la première propriété nommée. 
+> [in] Pointeur vers une structure [MAPINAMEID](mapinameid.md) décrivant la première propriété nommée. 
     
  _lpName2_
   
-> dans Pointeur vers une structure **MAPINAMEID** décrivant la deuxième propriété nommée. 
+> [in] Pointeur vers une structure **MAPINAMEID** décrivant la deuxième propriété nommée. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -62,8 +62,8 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-La fonction **FEqualNames** est utile, car la structure **MAPINAMEID** contient un [GUID](guid.md) et peut représenter le nom de la propriété lui-même de plusieurs façons. Cela signifie que les deux structures ne peuvent pas être comparées par des méthodes binaires simples. 
+La **fonction FEqualNames est** utile, car la structure **MAPINAMEID** contient un [GUID](guid.md) et peut représenter le nom de la propriété elle-même de plusieurs manières. Cela signifie que les deux structures ne peuvent pas être comparées par des méthodes binaires simples. 
   
-Le processus de test respecte la casse pour les chaînes de noms de propriétés. 
+Le processus de test est sensible à la cas pour les chaînes de nom de propriété. 
   
 

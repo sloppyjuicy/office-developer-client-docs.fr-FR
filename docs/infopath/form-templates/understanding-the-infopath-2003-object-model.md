@@ -19,49 +19,49 @@ ms.locfileid: "33416656"
 
 Cette section présente le modèle objet pour les solutions InfoPath avec code managé et décrit les tâches de programmation courantes.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 [Modèles objet compatibles avec InfoPath 2003](infopath-2003-compatible-object-models.md)
   
 > Présente les modèles objet utilisés dans les modèles de formulaires InfoPath avec code managé.
     
-[Accès aux données d'application à l'aide du modèle objet InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
+[Accéder aux données d’application à l’aide du modèle objet InfoPath 2003](how-to-access-application-data-using-the-infopath-2003-object-model.md)
   
 > Présente la manière d'accéder aux informations sur l'application InfoPath, le document XML sous-jacent du formulaire, ainsi que le fichier de définition de formulaire (.xsf).
     
-[Accès à des sources de données externes à l'aide du modèle objet InfoPath 2003](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
+[Accéder aux sources de données externes à l’aide du modèle objet InfoPath 2003](how-to-access-external-data-sources-using-the-infopath-2003-object-model.md)
   
 > Présente la manière d'accéder à des données depuis des sources de données externes.
     
-[Accéder aux données de formulaire en utilisant le modèle objet InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
+[Accéder aux données de formulaire à l’aide du modèle objet InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
   
 > Présente la manière d'accéder aux informations sur le document XML sous-jacent du formulaire, les données qu'il contient ou d'effectuer des opérations sur le document XML.
     
-[Affichage des alertes et des boîtes de dialogue à l'aide du modèle objet InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
+[Afficher des alertes et des boîtes de dialogue à l’aide du modèle objet InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
   
 > Présente l'affichage des alertes et des boîtes de dialogue dans les projets InfoPath avec code managé.
     
-[Gérer les erreurs à l'aide du modèle objet InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
+[Gérer les erreurs à l’aide du modèle objet InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md)
   
 > Présente la gestion des erreurs dans les projets InfoPath avec code managé.
     
-[Répondre aux événements de formulaire à l'aide du modèle objet InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+[Répondre aux événements de formulaire à l’aide du modèle objet InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
   
 > Présente la création de gestionnaires d'événements qui réagissent aux événements se produisant lorsque l'utilisateur remplit un formulaire.
     
-[Utilisation des fenêtres de formulaire à l'aide du modèle objet InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+[Utiliser des fenêtres de formulaire à l’aide du modèle objet InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
   
 > Présente l'utilisation de fenêtres de formulaires
     
-[Utilisation des vues à l'aide du modèle objet InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
+[Utiliser des vues à l’aide du modèle objet InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
   
 > Présente l'utilisation de vues.
     
-[Utiliser des signatures numériques à l'aide du modèle objet InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
+[Utiliser des signatures numériques à l’aide du modèle objet InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
   
 > Présente l'utilisation de signatures numériques.
     
-[Utiliser des solutions hors ligne à l'aide du modèle objet InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
+[Utiliser des solutions hors connexion à l’aide du modèle objet InfoPath 2003](how-to-work-with-offline-solutions-using-the-infopath-2003-object-model.md)
   
 > Présente l'utilisation de solutions hors ligne.
     

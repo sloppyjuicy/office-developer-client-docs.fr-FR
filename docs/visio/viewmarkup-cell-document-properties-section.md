@@ -27,7 +27,7 @@ Détermine si les marques de révision apparaissent dans la fenêtre de dessin.
    
 ## <a name="remarks"></a>Remarques
 
- Lorsque le suivi des modifications est activé (la cellule AddMarkup a la valeur TRUE), la cellule ViewMarkup est automatiquement définie sur TRUE et reste TRUE même si le suivi des révisions a été désactivé (la cellule AddMarkup a la valeur FALSe). La valeur de la cellule ViewMarkup n'est pas prise en compte lorsque la cellule AddMarkup est définie sur TRUE. 
+ Lorsque le suivi des marques de bord est allumé (la cellule AddMarkup a la valeur TRUE), la cellule ViewMarkup est automatiquement définie sur TRUE et reste TRUE même après la désactivée (la cellule AddMarkup a la valeur FALSE). La valeur de la cellule ViewMarkup n'est pas prise en compte lorsque la cellule AddMarkup est définie sur TRUE. 
   
 La cellule ViewMarkup est également définie sur TRUE lorsque les commentaires sont insérés dans un dessin (que le suivi des révisions soit activé ou non). Elle doit être également définie sur TRUE pour afficher les commentaires dans le dessin.
   
@@ -43,7 +43,7 @@ Pour obtenir une référence à la cellule ViewMarkup à l'aide d'un index à pa
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowDoc** <br/> |
 |Index de la cellule :  <br/> |**visDocViewMarkup** <br/> |
    

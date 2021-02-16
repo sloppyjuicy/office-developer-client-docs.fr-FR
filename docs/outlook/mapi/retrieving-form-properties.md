@@ -1,5 +1,5 @@
 ---
-title: Récupération des propriétés d'un formulaire
+title: Récupération des propriétés du formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412918"
 ---
-# <a name="retrieving-form-properties"></a>Récupération des propriétés d'un formulaire
+# <a name="retrieving-form-properties"></a>Récupération des propriétés du formulaire
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour émettre une requête significative pour un type de message personnalisé, une application doit déterminer les propriétés attendues sur ce message. Pour obtenir la liste des propriétés utilisées par une classe de message personnalisée, une application cliente interroge le gestionnaire de formulaires MAPI. Le gestionnaire de formulaires obtient ces informations à partir du fichier de configuration de formulaire approprié afin que les applications clientes puissent utiliser ces informations sans avoir à activer le serveur de formulaire lui-même. Pour ce faire, l'application cliente appelle la méthode [IMAPIFormMgr:: ResolveMessageClass](imapiformmgr-resolvemessageclass.md) comme suit: 
+Pour émettre une requête significative pour un type de message personnalisé, une application doit connaître les propriétés attendues sur ce message. Pour obtenir la liste des propriétés qu’une classe de message personnalisée utilise, une application cliente interroge le gestionnaire de formulaire MAPI. Le gestionnaire de formulaires obtient ces informations à partir du fichier de configuration de formulaire approprié afin que les applications clientes peuvent utiliser ces informations sans la surcharge d’activation du serveur de formulaires lui-même. Pour ce faire, l’application cliente appelle la [méthode IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) comme suit : 
   
 ```cpp
 IMAPIFormInfo *pfrminf = NULL;
@@ -29,11 +29,11 @@ hr = pfrmmgr->ResolveMessageClass("IPM.Demo", 0L, NULL, &amp;pfrminf);
 
 ```
 
-Notez que le troisième argument de **ResolveMessageClass** est le dossier qui contient la table des matières associée que la requête doit rechercher pour les serveurs de formulaires. NULL indique que le gestionnaire de formulaire doit rechercher tous les conteneurs de formulaires disponibles. Si la requête doit s'exécuter sur un dossier particulier, il est préférable d'inclure le pointeur [IMAPIFolder](imapifolderimapicontainer.md) approprié à la place. 
+Notez que le troisième argument de **ResolveMessageClass** est le dossier qui contient la table des matières associée que la requête recherchera pour les serveurs de formulaires. NULL indique que le gestionnaire de formulaire doit effectuer une recherche dans tous les conteneurs de formulaires disponibles. Si la requête doit s’exécuter sur un dossier particulier, il est préférable d’inclure le pointeur [IMAPIFolder](imapifolderimapicontainer.md) approprié à la place. 
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Interactions de serveur de formulaire](form-server-interactions.md)
+[Interactions avec le serveur de formulaires](form-server-interactions.md)
 

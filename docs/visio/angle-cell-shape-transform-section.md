@@ -32,7 +32,7 @@ Pour obtenir une référence à la cellule Angle à l'aide d'un index à partir 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowXFormOut** <br/> |
 | Index de la cellule :  <br/> |**visXFormAngle** <br/> |
    

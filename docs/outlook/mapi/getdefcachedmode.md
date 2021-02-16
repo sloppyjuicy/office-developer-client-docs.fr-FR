@@ -21,13 +21,13 @@ ms.locfileid: "33412743"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si le mode Exchange mis en cache pour la Banque d'information privée est activé et s'il est appliqué par la stratégie.
+Indique si le mode Exchange mis en cache pour la banque d’informations privée Exchange est activé et s’il est appliqué par la stratégie.
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Exporté par:  <br/> |msmapi32. dll  <br/> |
+|Exporté par :  <br/> |msmapi32.dll  <br/> |
 |Appelé par :  <br/> |Client  <br/> |
 |Implémenté par :  <br/> |Outlook  <br/> |
    
@@ -40,15 +40,15 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
 
  _pfPolicy_
   
-> remarquer **true** si la valeur de retour est appliquée par stratégie, **false** dans le cas contraire. 
+> [out] **true** si la valeur de retour est appliquée par la stratégie, **false** si ce n’est pas le cas. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
- **a**
+ **true**
   
 - La mise en cache est activée.
     
- **true**
+ **false**
   
 - La mise en cache est désactivée.
     

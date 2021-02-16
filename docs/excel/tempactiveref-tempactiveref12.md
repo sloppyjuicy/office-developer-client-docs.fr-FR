@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveRef
 - TempActiveRef12
 keywords:
-- fonction tempactiveref [Excel 2007], fonction TempActiveRef12 [Excel 2007]
+- fonction tempactiveref [excel 2007],Fonction TempActiveRef12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33415543"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d'infrastructure qui crée ****/ **** une liste composée temporaire contenant une référence externe au bloc rectangulaire de cellules dans la feuille active. 
+Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire contenant une référence externe à un bloc rectangulaire de cellules sur la feuille active. 
   
 ```cs
 LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
@@ -34,31 +34,31 @@ LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
 
  _rwFirst_
   
-Ligne de départ de la référence.
+Ligne de début de la référence.
   
  _rwLast_
   
 Ligne de fin de la référence.
   
-Les arguments de ligne sont basés sur zéro de sorte que la ligne 1 est transmise à 0. Dans Microsoft Office Excel 2003 et les versions antérieures, et en commençant dans Excel 2007 exécutant un classeur en mode de compatibilité, la valeur maximale est 65 535 = 2 ^ 16-1 et représente la valeur maximale pouvant être prise par un entier de mot. À partir d'Excel 2007 exécutant un classeur, la valeur maximale est 1 048 575 = 2 ^ 20-1. RW est défini comme un entier signé 32 bits dans XLCALL. H.
+Les arguments de ligne sont basés sur zéro afin que la ligne 1 soit passée en tant que 0. Dans Microsoft Office Excel 2003 et versions antérieures, et à partir d’Excel 2007 exécutant un livre de calcul en mode de compatibilité, la valeur maximale est 65 535 = 2^16 - 1 et est la valeur maximale qui peut être prise par un nombre total WORD. À partir d’Excel 2007 exécutant un workbook, la valeur maximale est 1 048 575 = 2^20 - 1. RW est défini comme un integer signé 32 bits dans XLCALL.H.
   
  _colFirst_
   
-Numéro de la colonne de départ de la référence.
+Numéro de colonne de début de la référence.
   
  _colLast_
   
-Numéro de la dernière colonne de la référence.
+Numéro de colonne de fin de la référence.
   
-Les arguments de colonne sont basés sur zéro de sorte que la colonne A passe à la valeur 0. Dans Excel 2003 et les versions antérieures, et en commençant dans Excel 2007 exécutant un classeur en mode de compatibilité, la valeur maximale est 255 = 2 ^ 8-1 et est la valeur maximale pouvant être prise par un nombre entier d'octets. À partir d'Excel 2007 exécutant un classeur, la valeur maximale est 16 383 = 2 ^ 14-1. COL est défini comme un entier signé de 32 bits dans XLCALL. H.
+Les arguments de colonne sont basés sur zéro afin que la colonne A soit passée sous la valeur 0. Dans Excel 2003 et versions antérieures, et à partir d’Excel 2007 exécutant un workbook en mode de compatibilité, la valeur maximale est 255 = 2^8 - 1 et est la valeur maximale qui peut être prise par un nombre d’nombres byTE. À partir d’Excel 2007 exécutant un workbook, la valeur maximale est 16 383 = 2^14 - 1. Col est défini comme un integer signé 32 bits dans XLCALL.H.
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-Renvoie une référence externe **xltypeRef** au bloc rectangulaire de cellules transmis. 
+Renvoie une **référence externe xltypeRef** à un bloc rectangulaire de cellules transmises. 
   
 ## <a name="example"></a>Exemple
 
-Cet exemple utilise la fonction **TempActiveRef12** pour sélectionner les cellules A105: C110. 
+Cet exemple utilise la **fonction TempActiveRef12** pour sélectionner les cellules A105:C110. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

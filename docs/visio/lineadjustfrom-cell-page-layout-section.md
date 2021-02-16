@@ -23,9 +23,9 @@ Détermine quels connecteurs dynamiques doivent être espacés par l'application
 |**Valeur**|**Ajustement**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Traits sans relation  <br/> |**visPLOLineAdjustFromNotRelated** <br/> |
-|0,1  <br/> |Tous les traits  <br/> |**visPLOLineAdjustFromAll** <br/> |
-|n°2  <br/> |Aucun trait  <br/> |**visPLOLineAdjustFromNone** <br/> |
-|3  <br/> |Style de positionnement par défaut  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
+|1   <br/> |Tous les traits  <br/> |**visPLOLineAdjustFromAll** <br/> |
+|2   <br/> |Aucun trait  <br/> |**visPLOLineAdjustFromNone** <br/> |
+|3   <br/> |Style de positionnement par défaut  <br/> |**visPLOLineAdjustFromRoutingDefault** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule LineAdjustFrom à l'aide d'un index �
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOLineAdjustFrom** <br/> |
    

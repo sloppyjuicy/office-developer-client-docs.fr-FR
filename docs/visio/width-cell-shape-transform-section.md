@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule Width par index dans un programme, ut
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowXFormOut** <br/> |
 | Index de la cellule :  <br/> |**visXFormWidth** <br/> |
    

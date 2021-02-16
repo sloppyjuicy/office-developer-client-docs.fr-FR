@@ -25,7 +25,7 @@ ms.locfileid: "33415130"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère la liste des inscriptions pour le fichier de dossiers personnels (. pst).
+Extrait la liste des inscriptions pour le fichier de dossiers personnels (.pst).
   
 ```cpp
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
@@ -35,16 +35,16 @@ HRESULT GetPersistedRegistration(SPropValue **ppmval);
 
  _ppmval_
   
-> dans Pointeur vers un pointeur vers une structure [SPropValue](spropvalue.md) . Le membre ulPropTag de cette structure est de type PT_MV_UNICODE et le membre de valeur MVszW sera un tableau de chaînes Unicode terminées par un caractère null. Ces chaînes sont des chemins d'accès aux dll pour lesquelles l'inscription a été rendue persistante. 
+> [in] Pointeur vers un pointeur vers une structure [SPropValue.](spropvalue.md) Le membre ulPropTag de cette structure est du type PT_MV_UNICODE et le membre de valeur MVszW sera un tableau de chaînes Unicode terminées par null. Ces chaînes sont des chemins d’accès aux DLL pour lesquelles l’inscription a été persistante. 
     
 > [!NOTE]
-> la prise en charge des fichiers. pst pour ANSI n'est pas implémentée. 
+> La prise en charge de .pst pour ANSI n’est pas implémentée. 
   
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel de la fonction a réussi.
+> L’appel de fonction a réussi.
     
 ## <a name="see-also"></a>Voir aussi
 

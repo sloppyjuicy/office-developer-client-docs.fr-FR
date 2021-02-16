@@ -25,11 +25,11 @@ ms.locfileid: "33413604"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de chaînes de caractères utilisées pour décrire une propriété de type PT_MV_UNICODE. 
+Contient un tableau de chaînes de caractères qui sont utilisées pour décrire une propriété de type PT_MV_UNICODE. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SWStringArray
@@ -44,7 +44,7 @@ typedef struct _SWStringArray
 
  **cValues**
   
-> Nombre de chaînes dans le tableau vers lequel pointe le membre **lppszW** . 
+> Nombre de chaînes dans le tableau pointées par **le membre lppszW.** 
     
  **lppszW**
   
@@ -52,7 +52,7 @@ typedef struct _SWStringArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur PT_MV_UNICODE, consultez la rubrique [types de propriétés](property-types.md).
+Pour plus d’informations sur PT_MV_UNICODE, voir [Types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,7 +25,7 @@ ms.locfileid: "33417370"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Obtient des informations sur la prise en charge d'un dossier pour le partage.
+Obtient des informations sur la prise en charge d’un dossier pour le partage.
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -37,7 +37,7 @@ HRESULT GetSupportMask(
 
  _pdwSupportMask_
   
-> remarquer Masque de masque indiquant si le dossier prend en charge le partage.
+> [out] Masque de bits indiquant si le dossier prend en charge le partage.
     
  **FS_NONE**
   
@@ -51,6 +51,6 @@ HRESULT GetSupportMask(
 
 S_OK 
   
-> L'appel a réussi.
+> L’appel a réussi.
     
 

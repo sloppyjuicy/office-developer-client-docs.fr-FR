@@ -25,7 +25,7 @@ ms.locfileid: "33417027"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Demande que le message en cours soit mis en file d'attente pour remise.
+Demande que le message actuel soit mis en file d’attente pour remise.
   
 ```cpp
 HRESULT SubmitMessage(
@@ -37,11 +37,11 @@ HRESULT SubmitMessage(
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le mode d'envoi d'un message. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont un message est envoyé. L’indicateur suivant peut être définie :
     
 FORCE_SUBMIT 
   
-> MAPI doit envoyer le message même s'il ne peut pas être envoyé immédiatement.
+> MAPI doit envoyer le message même s’il est possible qu’il ne soit pas envoyé immédiatement.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -51,9 +51,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les objets de formulaire appellent la méthode **IMAPIMessageSite:: SubmitMessage** pour demander qu'un message soit mis en file d'attente pour remise. Le site de message doit appeler la méthode [IPersistMessage:: HandsOffMessage](ipersistmessage-handsoffmessage.md) avant d'envoyer le message. Le message n'a pas besoin d'avoir été précédemment enregistré, car **SubmitMessage** doit entraîner l'enregistrement du message si celui-ci a été modifié. Après le retour de **SubmitMessage**, le formulaire doit vérifier l'existence d'un message en cours, puis le faire disparaître s'il n'en existe pas. 
+Les objets form appellent la méthode **IMAPIMessageSite::SubmitMessage** pour demander qu’un message soit mis en file d’attente pour remise. Le site de message doit appeler la [méthode IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) avant d’envoyer le message. Le message n’a pas besoin d’être enregistré précédemment, car **SubmitMessage** doit provoquer l’enregistrée si le message a été modifié. Après le renvoi de **SubmitMessage,** le formulaire doit vérifier la recherche d’un message en cours, puis se fermer s’il n’en existe aucun. 
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -61,7 +61,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SubmitMessage  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite:: SubmitMessage** pour enregistrer le message. Tout d'abord, il appelle la méthode **IPersistMessage:: HandsOffMessage** , puis appelle **SubmitMessage**.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SubmitMessage  <br/> |MFCMAPI utilise la **méthode IMAPIMessageSite::SubmitMessage** pour enregistrer le message. Tout d’abord, il appelle la méthode **IPersistMessage::HandsOffMessage,** puis **submitMessage**.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

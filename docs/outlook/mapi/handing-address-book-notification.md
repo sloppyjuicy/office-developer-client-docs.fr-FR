@@ -19,22 +19,22 @@ ms.locfileid: "33413534"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les notifications de carnet d'adresses permettent à un client d'apprendre des événements qui se produisent à n'importe quelle entrée de carnet d'adresses ou à une entrée particulière. Vous pouvez vous inscrire pour ces notifications via le carnet d'adresses MAPI en appelant [IAddrBook:: Advise](iaddrbook-advise.md) ou par le biais de la table de hiérarchie ou de contenu du conteneur du carnet d'adresses en appelant la méthode [IMAPITable:: Advise](imapitable-advise.md). 
+Les notifications de carnet d’adresses permettent à un client d’en savoir plus sur les événements qui se produisent à une entrée de carnet d’adresses ou à une entrée particulière. Vous pouvez vous inscrire à ces notifications via le carnet d’adresses MAPI en appelant [IAddrBook::Advise](iaddrbook-advise.md) ou via la hiérarchie ou la table des matières d’un conteneur de carnet d’adresses en appelant [IMAPITable::Advise](imapitable-advise.md). 
   
-Spécifiez l'identificateur d'entrée d'un conteneur de carnet d'adresses, d'une liste de distribution ou d'un utilisateur de messagerie si vous vous inscrivez pour des notifications sur une entrée particulière et si vous vous inscrivez pour des notifications sur l'ensemble du carnet d'adresses. L'identificateur d'entrée doit représenter un utilisateur de messagerie ou une liste de distribution dans un conteneur de carnet d'adresses. **IAddrBook:: Advise** examine cet identificateur d'entrée pour déterminer quel fournisseur de carnet d'adresses est responsable de l'objet correspondant et transfère l'appel à la méthode [IABLogon:: Advise](iablogon-advise.md) du fournisseur de carnet d'adresses approprié. 
+Spécifiez l’identificateur d’entrée d’un conteneur de carnet d’adresses, d’une liste de distribution ou d’un utilisateur de messagerie si vous vous inscrivez pour des notifications sur une entrée particulière et NULL si vous vous inscrivez pour les notifications sur l’intégralité du carnet d’adresses. L’identificateur d’entrée doit représenter un utilisateur de messagerie ou une liste de distribution dans un conteneur de carnet d’adresses. **IAddrBook::Advise** examine cet identificateur d’entrée pour déterminer quel fournisseur de carnet d’adresses est responsable de l’objet correspondant et le fait suivre à la méthode [IABLogon::Advise](iablogon-advise.md) du fournisseur de carnet d’adresses approprié. 
   
-Les clients peuvent s'inscrire aux types d'événements suivants sur les entrées du carnet d'adresses:
+Les clients peuvent s’inscrire aux types d’événements suivants sur les entrées de carnet d’adresses :
   
 - Erreur critique
     
-- Tous les événements d'objet (créés, modifiés, supprimés, déplacés ou copiés)
+- L’un des événements d’objet (créé, modifié, supprimé, déplacé ou copié)
     
-- Table modifiée
+- Tableau modifié
     
-En règle générale, l'inscription se produit uniquement sur le contenu du conteneur du carnet d'adresses et les tables de hiérarchie. Il est rare que les clients s'inscrivent auprès de l'utilisateur de messagerie de niveau inférieur et les objets de liste de distribution. Cela est dû au fait que:
+En règle générale, l’inscription se produit uniquement sur le contenu du conteneur de carnet d’adresses et les tables hiérarchiques. Il est rare que les clients s’inscrivent avec l’utilisateur de messagerie de niveau inférieur et les objets de liste de distribution. Cela est dû aux raisons :
   
-- De nombreux fournisseurs de carnets d'adresses ne prennent pas en charge les notifications sur leurs utilisateurs de messagerie et leurs listes de distribution.
+- De nombreux fournisseurs de carnets d’adresses ne peuvent pas prendre en charge les notifications sur leurs utilisateurs de messagerie et leurs listes de distribution.
     
-- Les notifications de table sont suffisantes pour suivre les modifications et les signaler aux utilisateurs.
+- Les notifications de tableau sont suffisantes pour suivre les modifications et les signaler aux utilisateurs.
     
 

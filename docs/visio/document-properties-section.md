@@ -22,6 +22,6 @@ Contient les cellules d’un document qui contrôlent la qualité, la portée de
   
 ## <a name="remarks"></a>Remarques
 
- Vous pouvez également définir ces valeurs à l'aide de la boîte de dialogue **Propriétés** (cliquez successivement sur l'onglet **fichier** , sur **informations**, sur **Propriétés**, puis sur **Propriétés avancées**).
+ Vous pouvez également définir ces  valeurs à  l’aide de la boîte de dialogue Propriétés (cliquez sur l’onglet Fichier, sur **Informations,** sur Propriétés, puis sur **Propriétés avancées).**
   
 

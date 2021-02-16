@@ -25,12 +25,12 @@ ms.locfileid: "33418392"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [FLATMTSIDLIST](flatmtsidlist.md) existante. 
+Calcule le nombre d’octets dans une structure [FLATMTSIDLIST](flatmtsidlist.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**FLATMTSIDLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
 CbFLATMTSIDLIST (_lplist)
@@ -38,7 +38,7 @@ CbFLATMTSIDLIST (_lplist)
 
 ## <a name="parameters"></a>Paramètres
 
- __lplist_
+ _ _lplist_
   
 > Pointeur vers la structure **FLATMTSIDLIST** existante. 
     

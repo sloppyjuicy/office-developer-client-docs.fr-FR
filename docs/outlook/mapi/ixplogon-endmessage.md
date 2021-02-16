@@ -25,7 +25,7 @@ ms.locfileid: "33414157"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informe le fournisseur de transport que le spouleur MAPI a terminé son traitement sur un message sortant.
+Informe le fournisseur de transport que lepooler MAPI a terminé son traitement sur un message sortant.
   
 ```cpp
 HRESULT EndMessage(
@@ -38,37 +38,37 @@ HRESULT EndMessage(
 
  _ulMsgRef_
   
-> dans Une valeur de référence spécifique à un message qui a été obtenue lors d'un appel précédent à la méthode [IXPLogon:: SubmitMessage](ixplogon-submitmessage.md) . 
+> [in] Valeur de référence spécifique au message obtenue lors d’un appel précédent à la méthode [IXPLogon::SubmitMessage.](ixplogon-submitmessage.md) 
     
  _lpulFlags_
   
-> remarquer Masque de réindicateur des indicateurs qui indique au spouleur MAPI ce qu'il doit faire avec le message. Si aucun indicateur n'est défini, le message a été envoyé. Les indicateurs suivants peuvent être définis:
+> [out] Masque de bits d’indicateurs qui indique aupooler MAPI ce qu’il doit faire avec le message. Si aucun indicateur n’est définie, le message a été envoyé. Les indicateurs suivants peuvent être définies :
     
 END_DONT_RESEND 
   
-> Le fournisseur de transport dispose de toutes les informations nécessaires sur ce message pour le moment. Lorsque le fournisseur de transport demande davantage d'informations ou lorsqu'il a envoyé le message, il avertit le spouleur MAPI en appelant la méthode [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) avec l'indicateur NOTIFY_SENTDEFERRED et en transmettant l'identificateur d'entrée du message. 
+> Pour l’instant, le fournisseur de transport dispose de toutes les informations nécessaires sur ce message. Lorsque le fournisseur de transport requiert plus d’informations ou lorsqu’il a envoyé le message, il avertit lepooler MAPI en appelant la méthode [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) avec l’indicateur NOTIFY_SENTDEFERRED et en passant l’identificateur d’entrée du message. 
     
 END_RESEND_LATER 
   
-> Le fournisseur de transport n'envoie pas le message à l'heure actuelle pour les raisons qui ne sont pas des erreurs. Le fournisseur de transport doit être appelé à nouveau ultérieurement pour envoyer le message.
+> Le fournisseur de transport n’envoie pas le message pour le moment pour des raisons qui ne sont pas des conditions d’erreur. Le fournisseur de transport doit être appelé à nouveau ultérieurement pour envoyer le message.
     
 END_RESEND_NOW 
   
-> Le fournisseur de transport doit redémarrer le message qui lui a été transmis dans un appel de méthode [IMessage:: SubmitMessage](imessage-submitmessage.md) . 
+> Le fournisseur de transport doit redémarrer le message qui lui a été transmis dans un appel de méthode [IMessage::SubmitMessage.](imessage-submitmessage.md) 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la ou les valeurs attendues.
+> L’appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle la méthode **IXPLogon:: EndMessage** une fois qu'il a terminé le traitement impliqué dans la fourniture d'informations de remise étendue ou de non-remise. 
+Lepooler MAPI appelle la méthode **IXPLogon::EndMessage** après avoir terminé le traitement impliqué dans la fourniture d’informations de remise étendues ou de non remise. 
   
-Une fois cet appel retourné, la valeur du paramètre _ulMsgRef_ n'est plus valide pour ce message. Le fournisseur de transport peut réutiliser la même valeur sur un message ultérieur. 
+Une fois que cet appel est revenu, la valeur dans le  _paramètre ulMsgRef_ n’est plus valide pour ce message. Le fournisseur de transport peut réutiliser la même valeur sur un message futur. 
   
-Tous les objets que le fournisseur de transport ouvre pendant le transfert d'un message doivent être libérés avant le renvoi de l'appel **EndMessage** , à l'exception de l'objet message que le spouleur MAPI transmet au fournisseur de transport. L'objet message transmis par le spouleur MAPI n'est pas valide après l'appel **EndMessage** . 
+Tous les objets que le fournisseur de transport ouvre lors du transfert d’un message doivent être libérés avant le retour de l’appel **EndMessage,** à l’exception de l’objet message que lepooler MAPI transmet au fournisseur de transport. L’objet message transmis par lepooler MAPI n’est pas valide après **l’appel EndMessage.** 
   
 ## <a name="see-also"></a>Voir aussi
 

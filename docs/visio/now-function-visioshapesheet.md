@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251470
 localization_priority: Normal
 ms.assetid: 96cac1f6-cc17-466f-23d8-a9006e7de05f
-description: Renvoie la date et l'heure actuelles.
+description: Renvoie la date et l’heure actuelles.
 ms.openlocfilehash: 9e28f51b0e1d1c09a70e54e432a865968c721940
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33414080"
 ---
 # <a name="now-function-visioshapesheet"></a>NOW Function (VisioShapeSheet)
 
-Renvoie la date et l'heure actuelles.
+Renvoie la date et l’heure actuelles.
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -26,7 +26,7 @@ NOW ( )
   
 ### <a name="return-value"></a>Valeur renvoyée
 
-Structure
+Datetime
   
 ## <a name="remarks"></a>Remarques
 
@@ -46,7 +46,7 @@ Renvoie la date et l’heure actuelles au format 27 sept. 2010 12:03.
   
 ## <a name="example-3"></a>Exemple 3
 
-NOW () + 2EW.
+NOW()+2EW.
   
 Renvoie la date et l’heure actuelles plus deux semaines, soit 10/11/10 12:03:30.
   

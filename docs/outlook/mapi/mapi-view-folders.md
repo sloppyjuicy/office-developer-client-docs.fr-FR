@@ -25,9 +25,9 @@ Afficher les dossiers sont les dossiers racine qui contiennent des informations 
   
 MAPI prend en charge deux dossiers d'affichage :
   
-- Communes � Le dossier d'affichage communs contient des vues qui sont standard pour la banque de messages et peuvent �tre utilis�s par n'importe quel utilisateur d'un client qui acc�de � la banque de messages. L'identificateur d'entrée pour le dossier d'affichage commun est stocké dans la propriété **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)) de la Banque.
+- Communes � Le dossier d'affichage communs contient des vues qui sont standard pour la banque de messages et peuvent �tre utilis�s par n'importe quel utilisateur d'un client qui acc�de � la banque de messages. L’identificateur d’entrée du dossier d’affichage commun est stocké dans la propriété PR_COMMON_VIEWS_ENTRYID **(** [PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
     
-- Personnel � Le dossier d'affichage personnel contient des vues qui sont d�finies par un utilisateur particulier. MAPI définit la propriété **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) pour contenir l'identificateur d'entrée du dossier d'affichage personnel. � l'aide des affichages personnels, par exemple, un utilisateur peut se pr�senter � un groupe de messages tri�s par exp�diteur, r�pertoriant uniquement l'objet et l'accus� de r�ception date du message ; un autre utilisateur pourrait ressembler au m�me groupe tri� par date, r�pertoriant le sujet, l'exp�diteur et la taille de message.
+- Personnel � Le dossier d'affichage personnel contient des vues qui sont d�finies par un utilisateur particulier. MAPI définit la propriété **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)) pour la gestion de l’identificateur d’entrée du dossier d’affichage personnel. � l'aide des affichages personnels, par exemple, un utilisateur peut se pr�senter � un groupe de messages tri�s par exp�diteur, r�pertoriant uniquement l'objet et l'accus� de r�ception date du message ; un autre utilisateur pourrait ressembler au m�me groupe tri� par date, r�pertoriant le sujet, l'exp�diteur et la taille de message.
     
 ## <a name="see-also"></a>Voir aussi
 

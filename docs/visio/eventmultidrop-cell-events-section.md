@@ -15,7 +15,7 @@ ms.locfileid: "33416719"
 ---
 # <a name="eventmultidrop-cell-events-section"></a>EventMultiDrop, cellule (section Events)
 
-Cellule Event qui est évaluée lorsque plusieurs formes sont déposées sur la page de dessin, soit comme instances, soit lorsque des formes sont dupliquées ou collées.
+Cellule d’événement évaluée lorsque plusieurs formes sont abandonnées sur la page de dessin, en tant qu’instances ou lorsque des formes sont dupliquées ou copiées.
   
 Les cellules événements ne sont évaluées que lorsque l'événement se produit et non lorsque la formule est saisie.
   
@@ -29,7 +29,7 @@ Pour faire référence à la cellule EventMultiDrop par index dans un programme,
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowEvent** <br/> |
 |Index de la cellule :  <br/> |**visEvtCellMultiDrop** <br/> |
    

@@ -25,7 +25,7 @@ ms.locfileid: "33416173"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Réduit une catégorie de tableau développée, en supprimant les en-têtes de niveau inférieur et les lignes de feuille appartenant à la catégorie de l'affichage tableau.
+Réduit une catégorie de tableau étendu, en supprimant les en-tête de niveau inférieur et les lignes de feuille appartenant à la catégorie de l’affichage Tableau.
   
 ```cpp
 HRESULT CollapseRow(
@@ -40,43 +40,43 @@ ULONG FAR * lpulRowCount
 
  _cbInstanceKey_
   
-> dans Nombre d'octets dans la propriété PR_INSTANCE_KEY vers laquelle pointe le paramètre _pbInstanceKey_ . 
+> [in] Nombre d’octets dans la propriété PR_INSTANCE_KEY pointant vers le _paramètre pbInstanceKey._ 
     
  _pbInstanceKey_
   
-> dans Pointeur vers la propriété **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne d'en-tête pour la catégorie. 
+> [in] Pointeur vers la **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne de titre de la catégorie. 
     
  _ulFlags_
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
  _lpulRowCount_
   
-> remarquer Pointeur vers le nombre total de lignes qui sont supprimées de l'affichage tableau.
+> [out] Pointeur vers le nombre total de lignes supprimées de l’affichage Tableau.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'opération de réduction a réussi.
+> L’opération de réduire a réussi.
     
 MAPI_E_NOT_FOUND 
   
-> La ligne identifiée par le paramètre _pbInstanceKey_ n'existe pas. 
+> La ligne identifiée par le  _paramètre pbInstanceKey_ n’existe pas. 
     
 MAPI_E_INVALID_ENTRYID 
   
-> La ligne identifiée par le paramètre _pbInstanceKey_ n'existe pas. Cette erreur est une alternative à MAPI_E_NOT_FOUND; les fournisseurs de services peuvent retourner l'un ou l'autre. 
+> La ligne identifiée par le  _paramètre pbInstanceKey_ n’existe pas. Cette erreur est une alternative à la MAPI_E_NOT_FOUND ; les fournisseurs de services peuvent renvoyer l’un ou l’autre. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPITable:: CollapseRow** réduit une catégorie de table et la supprime de l'affichage tableau. Les lignes sont réduites en commençant à la ligne identifiée par la propriété **PR_INSTANCE_KEY** désignée par le paramètre _pbInstanceKey_ . Le nombre de lignes supprimées de la vue est renvoyé dans le contenu du paramètre _lpulRowCount_ . 
+La **méthode IMAPITable::CollapseRow** permet de réduire une catégorie de tableau et de la supprimer de l’affichage Tableau. Les lignes sont réduire à partir de la ligne identifiée par la **propriété PR_INSTANCE_KEY** pointée par le _paramètre pbInstanceKey._ Le nombre de lignes supprimées de l’affichage est renvoyé dans le contenu du _paramètre lpulRowCount._ 
   
-Les notifications ne sont jamais générées pour les lignes de tableau qui sont supprimées d'une vue suite à une opération de réduction. 
+Les notifications ne sont jamais générées pour les lignes de tableau qui sont supprimées d’un affichage suite à une opération de réduire. 
   
-Lorsqu'une ligne définie par un signet est réduite en mode affichage, le signet est déplacé pour pointer vers la ligne visible suivante. 
+Lorsqu’une ligne définie par un signet est en dehors de l’affichage, le signet est déplacé pour pointer vers la ligne visible suivante. 
   
-Pour plus d'informations sur les tables classées, reportez-vous à la rubrique [Tri et catégorisation](sorting-and-categorization.md).
+Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation.](sorting-and-categorization.md)
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -84,7 +84,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl. cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI utilise la méthode **IMAPITable:: CollapseRow** pour réduire une catégorie de table.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI utilise la **méthode IMAPITable::CollapseRow** pour réduire une catégorie de tableau.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -31,13 +31,13 @@ Pour obtenir une référence à la cellule FlipX par un nom à partir d'une autr
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Flip  <br/> |
+| Nom de la cellule :  <br/> | FlipX  <br/> |
    
 Pour obtenir une référence à la cellule FlipX à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowXFormOut** <br/> |
 | Index de la cellule :  <br/> |**visXFormFlipX** <br/> |
    

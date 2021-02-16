@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251487
 localization_priority: Normal
 ms.assetid: a95fd86d-ebc1-66b6-e7d9-9c8ea84d23ab
-description: Renvoie la composante rouge d'une couleur.
+description: Renvoie le composant rouge d’une couleur.
 ms.openlocfilehash: e8c6115ac0441b25ce8333485828e8ef0f615459
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33415522"
 ---
 # <a name="red-function"></a>Fonction RED
 
-Renvoie la composante rouge d'une couleur. 
+Renvoie le composant rouge d’une couleur. 
   
 ## <a name="syntax"></a>Syntaxe
 
-ROUGE (* * *expression* * *) 
+RED(** *expression* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**Réelle** <br/> |Index d’une couleur dans la table des couleurs d’un document, expression correspondant à une couleur personnalisée (telle que RVB ou TSL) ou référence à une cellule contenant un index ou un résultat de couleurs.  <br/> |
+| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> |Index d’une couleur dans la table des couleurs d’un document, expression correspondant à une couleur personnalisée (telle que RVB ou TSL) ou référence à une cellule contenant un index ou un résultat de couleurs.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -36,17 +36,17 @@ Nombre
   
 ## <a name="remarks"></a>Remarques
 
-La valeur renvoyée est un nombre compris entre 0 et 255 inclus ou une référence de cellule correspondant à un index. Si _expression_ n'est pas valide, cette fonction renvoie 0 (noir). 
+La valeur renvoyée est un nombre compris entre 0 et 255 inclus ou une référence de cellule correspondant à un index. Si  _l’expression_ n’est pas valide, cette fonction renvoie 0 (noir). 
   
 ## <a name="example-1"></a>Exemple 1
 
-ROUGE (22)
+RED(22)
   
 Renvoie 51 si le document utilise la palette de couleurs par défaut de Microsoft Office Visio, où le gris foncé a l’index de couleur 22.
   
 ## <a name="example-2"></a>Exemple 2
 
-ROUGE (Char. Color)
+RED(Char.Color)
   
 Renvoie la valeur de la composante rouge de la couleur de police actuelle.
   

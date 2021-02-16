@@ -19,7 +19,7 @@ ms.locfileid: "33413839"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations étendues pour le téléchargement du contenu d'un dossier lors de l'état de la [table de chargement](upload-table-state.md).
+Informations étendues pour le chargement du contenu d’un dossier pendant [l’état de la table de téléchargement.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -39,27 +39,27 @@ struct UPTBLE
 
  _iEntMod_
   
->  remarquer Index permettant de suivre le téléchargement du nombre _cEntMod_ d'éléments nouveaux ou modifiés. 
+>  [out] Index pour suivre le téléchargement du  _nombre cEntMod_ d’éléments nouveaux ou modifiés. 
     
  _cEntMod_
   
->  remarquer Nombre d'éléments nouveaux ou modifiés dans le dossier. 
+>  [out] Nombre d’éléments nouveaux ou modifiés dans le dossier. 
     
  _iEntRead_
   
->  remarquer Index permettant de suivre le téléchargement du nombre d'éléments de lecture _cEntRead_ . 
+>  [out] Index pour suivre le téléchargement du nombre d’éléments de lecture _cEntRead._ 
     
  _cEntRead_
   
->  remarquer Nombre d'éléments lus dans le dossier. 
+>  [out] Nombre d’éléments lus dans le dossier. 
     
  _iEntDel_
   
->  remarquer Index permettant de suivre le téléchargement du nombre d'éléments supprimés _cEntDel_ . 
+>  [out] Index pour suivre le téléchargement du nombre d’éléments _supprimés par cEntDel._ 
     
  _cEntDel_
   
->  remarquer Nombre d'éléments supprimés dans le dossier. 
+>  [out] Nombre d’éléments supprimés dans le dossier. 
     
 ## <a name="see-also"></a>Voir aussi
 

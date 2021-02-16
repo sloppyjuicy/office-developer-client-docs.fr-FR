@@ -29,7 +29,7 @@ Décrit une propriété nommée utilisée avec un formulaire.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
    
 ```cpp
 typedef struct _SMAPIFormProp
@@ -56,55 +56,55 @@ typedef struct _SMAPIFormProp
 
  **ulFlags**
   
-> Indicateurs utilisés pour différencier le format des chaînes dans la structure **SMAPIFormProp** . L'indicateur suivant peut être défini: 
+> Indicateurs utilisés pour distinguer le format des chaînes dans la structure **SMAPIFormProp.** L’indicateur suivant peut être définie : 
     
 MAPI_UNICODE 
   
-> Les chaînes renvoyées sont au format Unicode. Si MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
+> Les chaînes renvoyées sont au format Unicode. Si MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
  **nPropType**
   
-> Type de la propriété nommée, avec le mot le plus significatif défini sur zéro. 
+> Type de la propriété nommée, avec le mot le plus significatif à zéro. 
     
- **NMID**
+ **nmid**
   
-> Nom de la propriété nommée, qui inclut une structure **GUID** identifiant le jeu de propriétés et une valeur numérique ou de chaîne qui représente un identificateur d'interface et un nom de formulaire. 
+> Nom de la propriété nommée, qui inclut une structure **GUID** identifiant le jeu de propriétés et une valeur numérique ou de chaîne qui représente un identificateur d’interface et un nom de formulaire. 
     
  **pszDisplayName**
   
-> Pointeur vers le nom d'affichage de la propriété nommée.
+> Pointeur vers le nom complet de la propriété nommée.
     
  **nSpecialType**
   
-> Valeur décrivant le type de données incluses dans le membre **u** . Les valeurs possibles sont les suivantes: 
+> Valeur décrivant le type de données incluses dans le **membre u.** Les valeurs possibles sont les suivantes : 
     
 FPST_VANILLA 
   
-> Le membre **u** ne contient pas d'énumération. 
+> Le **membre u** ne contient pas d’éumération. 
     
 FPST_ENUM_PROP 
   
-> Le membre **u** contient une structure qui décrit une énumération. 
+> Le **membre u** contient une structure qui décrit une éumération. 
     
  **u**
   
-> Union décrivant l'association entre le nom et le numéro de la propriété nommée. À l'aide de certaines propriétés, le membre **u** est vide. Avec d'autres propriétés, il est représenté dans une structure constituée des membres suivants: 
+> Union décrivant l’association entre le nom et le numéro de la propriété nommée. À l’aide de certaines propriétés, le **membre u** est vide. Avec d’autres propriétés, elle est représentée dans une structure composée des membres suivants : 
     
  **nmidIdx**
   
-> La structure [MAPINAMEID](mapinameid.md) qui contient le jeu de propriétés et l'identificateur pour la propriété nommée. 
+> Structure [MAPINAMEID](mapinameid.md) qui contient le jeu de propriétés et l’identificateur de la propriété nommée. 
     
  **cfpevAvailable**
   
-> Nombre de structures [SMAPIFormPropEnumVal](smapiformpropenumval.md) dans le tableau vers lequel pointe le membre **pfpevAvailable** . 
+> Nombre de structures [SMAPIFormPropEnumVal](smapiformpropenumval.md) dans le tableau pointés par **le membre pfpevAvailable.** 
     
  **pfpevAvailable**
   
-> Pointeur vers un tableau de structures **SMAPIFormPropEnumVal** , dont chacune contient une valeur pour la propriété nommée. 
+> Pointeur vers un tableau de structures **SMAPIFormPropEnumVal,** chacune d’elles contient une valeur pour la propriété nommée. 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMAPIFormProp** contient des informations sur une propriété de formulaire utilisée dans le cadre des définitions de l'interface [IMAPIFormInfo](imapiforminfoimapiprop.md) ; **nSpecialType** contient une balise qui s'applique à l'Union **u** Union qui fait partie de **SMAPIFormProp**.
+La structure **SMAPIFormProp** contient des informations sur une propriété de formulaire utilisée dans le cadre des définitions de l’interface [IMAPIFormInfo](imapiforminfoimapiprop.md) ; **nSpecialType contient** une balise qui s’applique à l’union **u** qui fait partie de **SMAPIFormProp**.
   
 ## <a name="see-also"></a>Voir aussi
 

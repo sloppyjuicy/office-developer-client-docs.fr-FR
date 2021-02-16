@@ -20,15 +20,15 @@ ms.locfileid: "33415039"
 
 Détermine la direction de la déviation du trait dans le cas d'un connecteur dynamique horizontal d'une forme.
   
-|**Valeur**|**Direction de la déviation de trait**|**Constante d'automation**|
+|**Valeur**|**Direction du saut de ligne**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valeur par défaut de la page  <br/> |**visLOJumpDirXDefault** <br/> |
-| 0,1  <br/> | Up  <br/> |**visLOJumpDirXUp** <br/> |
-| n°2  <br/> | Down  <br/> |**visLOJumpDirXDown** <br/> |
+| 1   <br/> | Up  <br/> |**visLOJumpDirXUp** <br/> |
+| 2   <br/> | Down  <br/> |**visLOJumpDirXDown** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour définir la direction horizontale par défaut de *toutes les* déviations de connecteur d'une page, utilisez la cellule PageLineJumpDirX de la section Page Layout. 
+Pour définir l’orientation  horizontale par défaut pour tous les sauts de connecteur sur une page, utilisez la cellule PageLineJumpDirX dans la section Mise en page. 
   
 Pour obtenir une référence à la cellule ConLineJumpDirX par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule ConLineJumpDirX à l'aide d'un index 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 | Index de la cellule :  <br/> |**visSLOJumpDirX** <br/> |
    

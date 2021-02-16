@@ -21,23 +21,23 @@ ms.locfileid: "33415116"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le fournisseur de transport contrôle si le spouleur MAPI doit l'interroger pour le courrier entrant ou s'il effectue un appel vers le spouleur MAPI lors de l'arrivée de nouveaux messages. Le fournisseur de transport définit l'indicateur SP_LOGON_POLL lorsqu'il revient de [IXPProvider:: TransportLogon](ixpprovider-transportlogon.md) pour demander l'interrogation. Dans le cas contraire, le fournisseur de transport utilise [IMAPISupport:: SpoolerNotify](imapisupport-spoolernotify.md) lorsque le courrier entrant est disponible. Une fois que le courrier entrant est disponible, le spouleur MAPI ouvre un nouveau message et demande au fournisseur de transport de stocker les propriétés de message reçues dans le message. 
+Le fournisseur de transport contrôle si lepooler MAPI doit l’sonder pour le courrier entrant ou s’il effectue un appel aupooler MAPI lorsque de nouveaux messages arrivent. Le fournisseur de transport définit l’SP_LOGON_POLL lorsqu’il retourne à partir [d’IXPProvider::TransportLogon](ixpprovider-transportlogon.md) pour demander l’interrogation. Dans le cas contraire, le fournisseur de transport utilise [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) lorsque le courrier entrant est disponible. Une fois que vous avez appris que le courrier entrant est disponible, lepooler MAPI ouvre un nouveau message et demande au fournisseur de transport de stocker les propriétés du message reçu dans le message. 
   
-Ce processus fonctionne comme suit:
+Ce processus fonctionne comme suit :
   
-1. Les messages disponibles sont indiqués par le fournisseur de transport appelant **IMAPISupport:: SpoolerNotify** ou par le SPOULEur MAPI qui appelle [IXPLogon::P oll](ixplogon-poll.md).
+1. Les messages disponibles sont indiqués par le fournisseur de transport appelant **IMAPISupport::SpoolerNotify** ou par lepooler MAPI appelant [IXPLogon::P.](ixplogon-poll.md)
     
-2. Le spouleur MAPI appelle [IXPLogon:: StartMessage](ixplogon-startmessage.md) pour lancer le processus. 
+2. Lepooler MAPI appelle [IXPLogon::StartMessage](ixplogon-startmessage.md) pour lancer le processus. 
     
-3. Le fournisseur de transport place une valeur de référence à l'emplacement référencé dans **StartMessage**. Ces valeurs de référence autorisent le fournisseur de transport et le spouleur MAPI à effectuer le suivi du message en cours de traitement lorsqu'il y a plusieurs messages à livrer.
+3. Le fournisseur de transport place une valeur de référence à l’emplacement référencé dans **StartMessage**. Ces valeurs de référence permettent au fournisseur de transport et aupooler MAPI d’assurer le suivi du message en cours de traitement lorsqu’il y a plusieurs messages à remettre.
     
-4. Le fournisseur de transport stocke les données de message dans l'instance [IMessage: IMAPIProp](imessageimapiprop.md) passée. 
+4. Le fournisseur de transport stocke les données de message dans l’instance [IMessage : IMAPIProp](imessageimapiprop.md) transmise. 
     
-5. Le fournisseur de transport appelle la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) sur l'instance **IMessage** et renvoie à partir de **StartMessage**.
+5. Le fournisseur de transport appelle [la méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) sur l’instance **IMessage** et renvoie à partir de **StartMessage**.
     
-6. Le spouleur MAPI appelle [IXPLogon:: TransportNotify](ixplogon-transportnotify.md) s'il doit arrêter la remise des messages. 
+6. Lepooler MAPI appelle [IXPLogon::TransportNotify](ixplogon-transportnotify.md) s’il doit arrêter la remise du message. 
     
 > [!NOTE]
-> Si un fournisseur de transport doit livrer un grand nombre de messages et que le fournisseur de transport utilise **IMAPISupport:: SpoolerNotify** au lieu de **IXPLogon::P oll**, vous devez veiller à ne pas appeler **SpoolerNotify** trop fréquemment pour ne pas priver les autres fournisseurs de transport du temps processeur. Le spouleur MAPI est doté d'une logique pour éviter ce problème, mais en général l'intervalle entre les appels **SpoolerNotify** doit être plus long que le temps nécessaire à votre fournisseur de transport pour traiter un message. > en outre, le spouleur MAPI ne peut pas traiter immédiatement un message entrant. Le spouleur MAPI peut demander au fournisseur de transport d'effectuer d'autres tâches avant de recevoir le message entrant. 
+> Si un fournisseur de transport doit remettre un grand nombre de messages et qu’il utilise **IMAPISupport::SpoolerNotify** au lieu d’IXPLogon::P le, il est important de ne pas appeler **SpoolerNotify** trop souvent afin de ne pas inconfidifier d’autres fournisseurs de transport de temps processeur.  Lepooler MAPI a une logique pour empêcher cela, mais en général l’intervalle entre les appels **SpoolerNotify** doit être plus long que le temps qu’il faut à votre fournisseur de transport pour traiter un message. > également, lepooler MAPI peut ne pas traiter immédiatement un message entrant. Lepooler MAPI peut demander au fournisseur de transport d’effectuer d’autres tâches avant de recevoir le message entrant. 
   
 

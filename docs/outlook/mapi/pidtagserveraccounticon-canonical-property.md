@@ -21,7 +21,7 @@ ms.locfileid: "33412848"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l'icône affichée dans le **Sélecteur de comptes**.
+Spécifie l’icône affichée dans le s **picker de compte.**
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Fonctions de conversion (application Web personnalisée Access)
+title: Fonctions de conversion (application web personnalisée Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -13,23 +13,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415879"
 ---
-# <a name="conversion-functions-access-custom-web-app"></a>Fonctions de conversion (application Web personnalisée Access)
+# <a name="conversion-functions-access-custom-web-app"></a>Fonctions de conversion (application web personnalisée Access)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
 
-- [Fonction CAST (application Web personnalisée Access)](cast-function-access-custom-web-app.md)
+- [Cast function (Access custom web app)](cast-function-access-custom-web-app.md)
     
-- [Fonction COALESCE (application Web personnalisée Access)](coalesce-function-access-custom-web-app.md)
+- [Fonction Coalesce (application web personnalisée Access)](coalesce-function-access-custom-web-app.md)
     
-- [Fonction DateWithTimeFromParts (application Web personnalisée Access)](datewithtimefromparts-function-access-custom-web-app.md)
+- [Fonction DateWithTimeFromParts (application web personnalisée Access)](datewithtimefromparts-function-access-custom-web-app.md)
     
 - [Fonction de format (application web personnalisée Access)](format-function-access-custom-web-app.md)
     
-- [Fonction d'analyse (application Web personnalisée Access)](parse-function-access-custom-web-app.md)
+- [Fonction d’parse (application web personnalisée Access)](parse-function-access-custom-web-app.md)
     
-- [Fonction TimeFromParts (application Web personnalisée Access)](timefromparts-functionaccess-custom-web-app.md)
+- [Fonction TimeFromParts (application web personnalisée Access)](timefromparts-functionaccess-custom-web-app.md)
     
-- [Fonction Try_Parse (application Web personnalisée Access)](try_parse-function-access-custom-web-app.md)
+- [Try_Parse fonction (application web personnalisée Access)](try_parse-function-access-custom-web-app.md)
     
 

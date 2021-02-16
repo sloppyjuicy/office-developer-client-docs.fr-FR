@@ -26,13 +26,13 @@ Pour obtenir une référence à la cellule Sharpen par un nom dans une autre for
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Sharp  <br/> |
+| Nom de la cellule :  <br/> | Accentuer  <br/> |
    
 Pour obtenir une référence à la cellule Sharpen par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowImage** <br/> |
 | Index de la cellule :  <br/> |**visImageSharpen** <br/> |
    

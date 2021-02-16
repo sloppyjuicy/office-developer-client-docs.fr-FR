@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule Denoise par un nom à partir d'une au
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Noise  <br/> |
+| Nom de la cellule :  <br/> | Denoise  <br/> |
    
 Pour obtenir une référence à la cellule Denoise à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowImage** <br/> |
-| Index de la cellule :  <br/> |**visImageDenoise** <br/> |
+| Index de la cellule :  <br/> |**visImageDenimageDenimage** <br/> |
    
 

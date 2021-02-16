@@ -25,12 +25,12 @@ ms.locfileid: "33413975"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [FLATENTRY](flatentry.md) existante. 
+Calcule le nombre d’octets dans une structure [FLATENTRY](flatentry.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**FLATENTRY** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**FLATENTRY** <br/> |
    
 ```cpp
 CbFLATENTRY (_lpentry)
@@ -38,7 +38,7 @@ CbFLATENTRY (_lpentry)
 
 ## <a name="parameters"></a>Paramètres
 
- __lpentry_
+ _ _lpentry_
   
 > Pointeur vers la structure **FLATENTRY** existante. 
     

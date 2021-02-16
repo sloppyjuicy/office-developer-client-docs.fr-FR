@@ -19,7 +19,7 @@ ms.locfileid: "33414920"
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour la synchronisation d'une hiérarchie de dossiers pendant l'état de la [hiérarchie de téléchargement](upload-hierarchy-state.md).
+Informations pour la synchronisation d’une hiérarchie de dossiers pendant [l’état de la hiérarchie de téléchargement.](upload-hierarchy-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -37,25 +37,25 @@ struct UPHIER
 
 _ulFlags_
   
-> dans Indicateurs permettant de modifier le comportement lors de la synchronisation de la hiérarchie de dossiers.
+> [in] Indicateurs pour modifier le comportement lors de la synchronisation de la hiérarchie de dossiers.
     
   - UPH_OK
     
-    - dans Le chargement a réussi. Le client définit ceci après le chargement réussi des informations sur le serveur. À l'affichage de cet indicateur, Outlook efface toutes les informations de suivi internes qui indiquaient la hiérarchie de dossiers nécessaire à la mise à jour. 
+    - [in] Le chargement a réussi. Le client définit cette information après avoir chargé les informations sur le serveur. Lorsqu’il voit cet indicateur, Outlook effacera toutes les informations de comptabilité internes qui signalaient la hiérarchie de dossiers à mettre à jour. 
     
-    - Le client transmet le HRESULT si le chargement a échoué.
+    - Le client transmet le HRESULT si le chargement n’a pas réussi.
     
 _pstmReserved_
   
-> remarquer Ce membre est réservé à un usage interne d'Outlook et n'est pas pris en charge.
+> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
     
 _iEnt_
   
-> remarquer Index pour suivre la synchronisation du nombre de dossiers spécifiés par *cEnt* . 
+> [out] Index pour suivre la synchronisation du nombre de dossiers spécifié par  *cEnt*  . 
     
-_Motivé_
+_cEnt_
   
-> remarquer Nombre de dossiers désynchronisés.
+> [out] Nombre de dossiers non synchronisés.
     
 ## <a name="see-also"></a>Voir aussi
 

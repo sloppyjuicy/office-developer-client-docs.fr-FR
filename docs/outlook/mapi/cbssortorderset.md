@@ -25,12 +25,12 @@ ms.locfileid: "33415690"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [SSortOrderSet](ssortorderset.md) existante. 
+Calcule le nombre d’octets dans une structure [SSortOrderSet](ssortorderset.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SSortOrderSet** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 CbSSortOrderSet (_lpset)
@@ -38,7 +38,7 @@ CbSSortOrderSet (_lpset)
 
 ## <a name="parameters"></a>Paramètres
 
- __lpset_
+ _ _lpset_
   
 > Pointeur vers la structure **SSortOrderSet** existante. 
     

@@ -22,12 +22,12 @@ Détermine si l'aperçu du dessin est en mode brouillon ou détaillé.
   
 |**Valeur**|**Qualité d'aperçu**|**Constante d'automation**|
 |:-----|:-----|:-----|
-| 0  <br/> | Première version  <br/> |**visDocPreviewQualityDraft** <br/> |
-| 0,1  <br/> | Précises  <br/> |**visDocPreviewQualityDetailed** <br/> |
+| 0  <br/> | Brouillon  <br/> |**visDocPreviewQualityDraft** <br/> |
+| 1   <br/> | Détails  <br/> |**visDocPreviewQualityDetailed** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir cette valeur sous l'onglet **Résumé** de la boîte de dialogue **Propriétés** (cliquez sur le bouton **Office** , cliquez sur l'onglet **informations** , cliquez sur **Propriétés du document**, puis cliquez sur **Propriétés avancées**).
+Vous pouvez également définir  cette valeur sous  l’onglet Résumé dans la  boîte de dialogue Propriétés (cliquez sur le bouton **Office,** sur l’onglet Informations, sur Propriétés du **document,** puis sur Propriétés **avancées).**
   
 Pour obtenir une référence à la cellule PreviewQuality par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -39,7 +39,7 @@ Pour obtenir une référence à la cellule PreviewQuality à l'aide d'un index �
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowDoc** <br/> |
 | Index de la cellule :  <br/> |**visDocPreviewQuality** <br/> |
    

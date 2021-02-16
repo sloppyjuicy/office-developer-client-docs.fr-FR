@@ -1,5 +1,5 @@
 ---
-title: Fonction Round (application Web personnalisée Access)
+title: Round Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413744"
 ---
-# <a name="round-function-access-custom-web-app"></a>Fonction Round (application Web personnalisée Access)
+# <a name="round-function-access-custom-web-app"></a>Round Function (Access custom web app)
 
 Renvoie une valeur numérique, arrondie ou tronquée, à la longueur ou à la précision spécifiée.
   
@@ -23,18 +23,18 @@ Renvoie une valeur numérique, arrondie ou tronquée, à la longueur ou à la pr
   
 ## <a name="syntax"></a>Syntaxe
 
- **Arrondi** (*Nombre*, *précision* , [ *TruncateInsteadOfRound* ]) 
+ **Round** (*Number*, *Precision*  , [  *TruncateInsteadOfRound*  ]) 
   
-La fonction **Round** contient les arguments suivants. 
+La **fonction Round** contient les arguments suivants. 
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
 | *Number*  <br/> |Expression numérique.  <br/> |
-| *Dell*  <br/> |Précision à laquelle le *nombre* doit être arrondi.  La *précision* doit être une expression numérique. Lorsque la *précision* est un nombre positif, le *nombre* est arrondi au nombre de positions décimales spécifié par la longueur. Lorsque la *précision* est un nombre négatif, le *nombre* est arrondi à gauche du séparateur décimal, comme spécifié par longueur.  <br/> |
-| *TruncateInsteadOfRound*  <br/> |Type d'opération à effectuer. Si cet argument est omis ou défini sur 0, le *nombre* est arrondi. Lorsqu'une valeur autre que 0 est spécifiée, le *nombre* est tronqué. La valeur par défaut est 0.  <br/> |
+| *Précision*  <br/> |Précision à laquelle le  *nombre*  doit être arrondi.  *La*  précision doit être une expression numérique. Lorsque  *la*  précision est un nombre positif,  *le*  nombre est arrondi au nombre de décimales spécifié par la longueur. Lorsque  *precision*  est un nombre négatif,  *number*  est arrondi à gauche de la virgule décimale, comme spécifié par la longueur.  <br/> |
+| *TruncateInsteadOfRound*  <br/> |Type d’opération à effectuer. Lorsqu’il est omis ou qu’il est 0,  *le nombre*  est arrondi. Lorsqu’une valeur autre que 0 est spécifiée,  *number*  est tronqué. La valeur par défaut est 0.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
- **Round** renvoie toujours une valeur. Si le paramètre longueur est négatif et supérieur au nombre de chiffres avant le séparateur décimal, **Round** renvoie 0. 
+ **Round** renvoie toujours une valeur. Si la longueur est négative et supérieure au nombre de chiffres avant la virgule décimale, **round** renvoie 0. 
   
 

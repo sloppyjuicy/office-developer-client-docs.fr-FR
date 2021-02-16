@@ -1,5 +1,5 @@
 ---
-title: Interfaces (API exportées Outlook)
+title: Interfaces (API exportées outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414822"
 ---
-# <a name="interfaces-outlook-exported-apis"></a>Interfaces (API exportées Outlook)
+# <a name="interfaces-outlook-exported-apis"></a>Interfaces (API exportées outlook)
 
 Cette section décrit les interfaces exportées par Outlook.
   
 |**Interface**|**Description**|
 |:-----|:-----|
-|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Prend en charge la relocalisation des rendez-vous dans un dossier de calendrier.  <br/> |
+|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Prend en charge le rebasing des rendez-vous dans un dossier de calendrier.  <br/> |
    
 

@@ -25,19 +25,19 @@ ms.locfileid: "33413828"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit le niveau de compression à appliquer aux pièces jointes.
+Définit un niveau de compression à appliquer aux pièces jointes d’image.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidImgAttchmtsCompressLevel  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008593  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008593  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Configuration de l'exécution  <br/> |
+|Domaine :  <br/> |Configuration au moment de l’exécuter  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les niveaux de compression valides sont les suivants:
+Les niveaux de compression valides sont les suivants :
   
 ```cpp
 enum PictureCompressLevel
@@ -55,11 +55,11 @@ enum PictureCompressLevel
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

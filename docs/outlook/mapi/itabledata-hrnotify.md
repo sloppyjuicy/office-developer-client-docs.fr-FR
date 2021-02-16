@@ -43,11 +43,11 @@ HRESULT HrNotify(
     
  _cValues_
   
-> dans Nombre de valeurs de propriété dans la structure [SPropValue](spropvalue.md) vers laquelle pointe le paramètre _lpSPropValue_ . 
+> [in] Nombre de valeurs de propriété dans la structure [SPropValue](spropvalue.md) pointée par _le paramètre lpSPropValue._ 
     
  _lpSPropValue_
   
-> dans Pointeur vers une structure **SPropValue** qui décrit les valeurs des colonnes dans la ligne cible. 
+> [in] Pointeur vers une structure **SPropValue** qui décrit les valeurs des colonnes de la ligne cible. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -57,7 +57,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData:: HrNotify** envoie une notification TABLE_ROW_MODIFIED pour la ligne qui correspond à la ligne décrite par le paramètre _lpSPropValue_ . **HrNotify** envoie la notification, que les modifications aient ou non été apportées à la ligne. Tous les clients et fournisseurs de services qui ont des vues de la table et qui ont appelé la méthode [IMAPITable:: conseille](imapitable-advise.md) de s'inscrire aux notifications sur leurs vues recevez cette notification. 
+La **méthode ITableData::HrNotify** envoie une notification TABLE_ROW_MODIFIED pour la ligne qui correspond à la ligne décrite par les propriétés pointées par le paramètre _lpSPropValue._ **HrNotify envoie** la notification, que des modifications soient apportées à la ligne ou non. Tous les clients et fournisseurs de services qui ont des vues de la table et qui ont appelé [IMAPITable::Advise](imapitable-advise.md) pour s’inscrire aux notifications sur leurs vues reçoivent cette notification. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,7 +25,7 @@ ms.locfileid: "33417012"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient une chaîne qui indique l'état d'un transfert distant.
+Cette propriété contient une chaîne qui indique l’état d’un transfert à distance.
   
 |||
 |:-----|:-----|
@@ -40,15 +40,15 @@ Un code numérique associé à ce texte est transmis dans la propriété **PR_RE
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

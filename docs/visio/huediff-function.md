@@ -16,11 +16,11 @@ ms.locfileid: "33416663"
 ---
 # <a name="huediff-function"></a>Fonction HUEDIFF
 
-Renvoie la différence de teinte entre _color1_ et _color2_.
+Renvoie la différence de teinte entre  _color1_ et  _color2_.
   
 ## <a name="syntax"></a>Syntaxe
 
-HUEDIFF (* * *color1* * *, * * *color2* * *) 
+HUEDIFF(** *color1* **, ** *color2* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 

@@ -25,11 +25,11 @@ ms.locfileid: "33415200"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajuste un pointeur dans un tableau de notification d'événement spécifié. 
+Ajuste un pointeur dans un tableau de notifications d’événements spécifié. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -45,25 +45,25 @@ SCODE ScRelocNotifications(
 
 ## <a name="parameters"></a>Paramètres
 
- _CNTF_
+ _cntf_
   
-> dans Nombre de structures de [notification](notification.md) dans le tableau indiqué par le paramètre _rgntf_ . 
+> [in] Nombre de structures [DE NOTIFICATION](notification.md) dans le tableau indiqué par le _paramètre rgntf._ 
     
  _rgntf_
   
-> dans Pointeur vers le tableau de structures de **notification** définissant des notifications d'événement dans lesquelles un pointeur doit être ajusté. 
+> [in] Pointeur vers le tableau de **structures DE NOTIFICATION** définissant les notifications d’événement dans lesquelles un pointeur doit être ajusté. 
     
  _pvBaseOld_
   
-> dans Pointeur vers l'adresse de base d'origine du tableau indiquée par le paramètre _rgntf_ . 
+> [in] Pointeur vers l’adresse de base d’origine du tableau indiquée par le _paramètre rgntf._ 
     
  _pvBaseNew_
   
-> dans Emplacement auquel **ScRelocNotifications** écrit la nouvelle adresse de base du tableau indiquée par le paramètre _rgntf_ . 
+> [in] Emplacement auquel **ScRelocNotifications** écrit la nouvelle adresse de base du tableau indiqué par le _paramètre rgntf._ 
     
- _circuits_
+ _pcb_
   
-> remarquer Pointeur vers la taille, en octets, du tableau indiqué par le paramètre _pvBaseNew_ . 
+> [out] Pointeur vers la taille, en octets, du tableau indiqué par le _paramètre pvBaseNew._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -73,11 +73,11 @@ S_OK
     
 MAPI_E_INVALID_PARAMETER
   
-> Une notification incorrecte a été rencontrée.
+> Une notification non valide a été rencontrée.
     
 ## <a name="remarks"></a>Remarques
 
-Le paramètre _PCB_ de la fonction **ScRelocNotifications** est facultatif. 
+Le  _paramètre pcb_ de la **fonction ScRelocNotifications** est facultatif. 
   
 ## <a name="see-also"></a>Voir aussi
 

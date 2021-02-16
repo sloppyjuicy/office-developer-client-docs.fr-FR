@@ -25,12 +25,12 @@ Définit la mise en forme d'un élément de données de forme qui est une chaîn
 |**Type de données d'article de forme**|**Valeur**|**Contenu de la cellule Format**|
 |:-----|:-----|:-----|
 | String  <br/> | 0  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Liste fixe  <br/> | 0,1  <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
-| Nombre  <br/> | n°2  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Liste variable  <br/> | 4  <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
-| Date ou heure  <br/> | disque  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Duration  <br/> | 6.x  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Devise  <br/> | 7j/7  <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Liste fixe  <br/> | 1   <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
+| Nombre  <br/> | 2   <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Liste variable  <br/> | 4   <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
+| Date ou heure  <br/> | 5   <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Duration  <br/> | 6   <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Devise  <br/> | 7   <br/> | Modèle de format approprié pour le type de données.  <br/> |
    
 Un exemple de modèle de format approprié pour le type de données est « 0,000 u », qui fait apparaître le nombre 250 cm sous la forme 250,000 cm. Pour plus d'informations sur les modèles de format, reportez-vous à [À propos des modèles de format](about-format-pictures.md).
   
@@ -44,14 +44,14 @@ Pour obtenir une référence à la cellule Format par un nom à partir d'une aut
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | Hélice.  *nom* . Format où prop.  *Name* est le nom de la ligne  <br/> |
+| Nom de cellule :  <br/> | Prop.  *nom*  . Format où Prop.  *nom est*  le nom de ligne  <br/> |
    
 Pour obtenir une référence à la cellule Format à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visCustPropsFormat** <br/> |
    
 

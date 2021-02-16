@@ -18,11 +18,11 @@ ms.locfileid: "33414465"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Une gestion correcte de la mémoire est essentielle pour créer des compléments XLL fiables pour Microsoft Excel. L'imPossibilité d'allouer des mémoires tampons de mémoire appropriées et de les libérer lorsqu'elles ne sont plus nécessaires réduit les performances, crée une contention de ressources et déstabilise Excel.
+Une gestion appropriée de la mémoire est essentielle à la création de modules de gestion de fichiers XLL fiables pour Microsoft Excel. Si vous n’allouez pas les mémoires tampons appropriées et que vous les libérez lorsqu’elles ne sont plus nécessaires, vous réduisez les performances, créez un conflit de ressources et déstabilisez Excel.
   
-À partir de Microsoft Office Excel 2007, vous pouvez configurer Excel pour utiliser jusqu'à 1 024 threads simultanés lors du recalcul. Dans certains cas, en particulier lorsque plusieurs processeurs sont disponibles ou lorsque des fonctions définies par l'utilisateur s'exécutent sur des serveurs en cluster, le multithreading peut améliorer les performances.
+À partir Microsoft Office Excel 2007, vous pouvez configurer Excel pour utiliser jusqu’à 1 024 threads simultanés lors du recalcul. Dans certains cas, en particulier lorsque plusieurs processeurs sont disponibles ou avec des fonctions définies par l’utilisateur s’exécutant sur des serveurs en cluster, le multithreading peut améliorer les performances.
   
-Les rubriques suivantes décrivent comment gérer la mémoire et les threads dans les XLL:
+Les rubriques suivantes décrivent comment gérer la mémoire et les threads dans les XL :
   
 - [Gestion de la mémoire dans Excel](memory-management-in-excel.md)
     

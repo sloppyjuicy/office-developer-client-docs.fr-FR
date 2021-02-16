@@ -25,7 +25,7 @@ ms.locfileid: "33416880"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d'accéder au carnet d'adresses.
+Permet d’accéder au carnet d’adresses.
   
 ```cpp
 HRESULT OpenAddressBook(
@@ -39,35 +39,35 @@ LPADRBOOK FAR * lppAdrBook
 
  _lpInterface_
   
-> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder au carnet d'adresses. Les valeurs valides sont NULL, ce qui indique l'interface de carnet d'adresses standard [IAddrBook](iaddrbookimapiprop.md)et IID_IAddrBook.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au carnet d’adresses. Les valeurs valides sont NULL, ce qui indique l’interface de carnet d’adresses standard [IAddrBook](iaddrbookimapiprop.md)et IID_IAddrBook.
     
  _ulFlags_
   
-> MSR doit être égal à zéro.
+> Réservé ; doit être zéro.
     
  _lppAdrBook_
   
-> remarquer Pointeur vers un pointeur vers le carnet d'adresses.
+> [out] Pointeur vers un pointeur vers le carnet d’adresses.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'accès au carnet d'adresses a été fourni.
+> L’accès au carnet d’adresses a été fourni.
     
 MAPI_W_ERRORS_RETURNED 
   
-> L'appel a réussi, mais un ou plusieurs fournisseurs de carnets d'adresses n'ont pas pu être chargés. Lorsque cet avertissement est renvoyé, l'appel doit être géré comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d'informations, consultez la rubrique [utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md).
+> L’appel a réussi, mais un ou plusieurs fournisseurs de carnet d’adresses n’ont pas pu être chargés. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: OpenAddressBook** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services, généralement étroitement couplés et les fournisseurs de transport, appellent **OpenAddressBook** pour accéder au carnet d'adresses. Le pointeur **IAddrBook** renvoyé peut être utilisé pour diverses tâches de carnet d'adresses, y compris l'ouverture de conteneurs de carnet d'adresses, la recherche des utilisateurs de messagerie et l'affichage des boîtes de dialogue d'adresse. 
+La **méthode IMAPISupport::OpenAddressBook** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services, généralement étroitement associés aux fournisseurs de transport et de magasin de messages, appellent **OpenAddressBook** pour accéder au carnet d’adresses. Le pointeur **IAddrBook** renvoyé peut être utilisé pour diverses tâches de carnet d’adresses, notamment l’ouverture de conteneurs de carnet d’adresses, la recherche d’utilisateurs de messagerie et l’affichage de boîtes de dialogue d’adresses. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **OpenAddressBook** peut retourner MAPI_W_ERRORS_RETURNED s'il ne peut pas charger un ou plusieurs des fournisseurs de carnet d'adresses dans le profil actuel. Cette valeur est un avertissement et vous devez traiter l'appel comme réussi. Même si tous les fournisseurs de carnet d'adresses n'ont pas pu être chargés, **OpenAddressBook** réussit, en renvoyant MAPI_W_ERRORS_RETURNED et un pointeur **IAddrBook** dans le paramètre _lppAdrBook_ . Étant donné que **OpenAddressBook** renvoie toujours un pointeur **IAddrBook** valide, vous devez le libérer lorsque vous avez fini de l'utiliser. 
+ **OpenAddressBook peut** renvoyer MAPI_W_ERRORS_RETURNED s’il ne peut pas charger un ou plusieurs des fournisseurs de carnet d’adresses dans le profil actuel. Cette valeur est un avertissement et vous devez traiter l’appel comme réussi. Même si tous les fournisseurs de carnet d’adresses n’ont pas réussi à se charger, **OpenAddressBook** réussit toujours, renvoyant MAPI_W_ERRORS_RETURNED et un pointeur **IAddrBook** dans le paramètre _lppAdrBook._ Étant **donné qu’OpenAddressBook** renvoie toujours un pointeur **IAddrBook** valide, vous devez le libérer lorsque vous avez terminé de l’utiliser. 
   
-Si un ou plusieurs fournisseurs de carnet d'adresses n'ont pas pu être chargés, appelez [IMAPISupport:: GetLastError](imapisupport-getlasterror.md) pour obtenir une structure [MAPIERROR](mapierror.md) qui contient des informations sur les fournisseurs qui n'ont pas été chargés. 
+Si un ou plusieurs fournisseurs de carnet d’adresses n’ont pas pu être chargés, appelez [IMAPISupport::GetLastError](imapisupport-getlasterror.md) pour obtenir une structure [MAPIERROR](mapierror.md) qui contient des informations sur les fournisseurs qui n’ont pas été chargés. 
   
 ## <a name="see-also"></a>Voir aussi
 

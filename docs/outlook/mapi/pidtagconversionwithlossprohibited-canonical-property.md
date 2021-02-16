@@ -25,7 +25,7 @@ ms.locfileid: "33417125"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un agent de transfert des messages (MTA) ne peut pas procéder à des conversions de texte de message qui perdent des informations. 
+Contient TRUE si un agent de transfert de messages (MTA) ne peut pas effectuer de conversions de texte de message qui perdent des informations. 
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la valeur TRUE si un agent de transfert des messages (MTA) ne peut pas 
    
 ## <a name="remarks"></a>Remarques
 
-Le mappage «avec perte» d'Unicode (deux octets par caractère) dans un jeu de caractères codés sur un octet constitue un exemple du type de conversion interdit. 
+Un exemple du type de conversion interdit est le mappage « perte » d’Unicode (deux octets par caractère) en un jeu de caractères sur un octet. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

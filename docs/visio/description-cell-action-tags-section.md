@@ -26,14 +26,14 @@ Pour faire référence à la cellule Description par un nom à partir d'une autr
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | SmartTag.  *nom* . Description où SmartTags. *Name* est le nom de la ligne de balise d'action  <br/> |
+| Nom de cellule :  <br/> | SmartTags.  *nom*  . Description où SmartTags. *name est*  le nom de la ligne de balise d’action  <br/> |
    
 Pour faire référence à la cellule Description à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visSmartTagDescription** <br/> |
    
 

@@ -32,25 +32,25 @@ Contient un identificateur unique pour un contrôle utilisé dans une boîte de 
 |Propriétés associées :  <br/> |PR_CONTROL_ID  <br/> |
 |Identificateur :  <br/> |0x3F07  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Table d'affichage MAPI  <br/> |
+|Domaine :  <br/> |Tableau d’affichage MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient un identificateur unique pour le contrôle. Cet identificateur doit contenir une structure de [GUID](guid.md) et une valeur binaire de type **long**. Tous les contrôles de la boîte de dialogue doivent utiliser le même **GUID** pour identifier le fournisseur de services, et chaque contrôle doit utiliser une valeur de **type long** unique pour s'assurer que les contrôles ne sont pas en conflit. 
+Cette propriété contient un identificateur unique pour le contrôle. Cet identificateur doit contenir une structure [GUID](guid.md) et une valeur binaire de type **LONG**. Tous les contrôles de la boîte de dialogue doivent utiliser le même **GUID** pour identifier le fournisseur de services, et chaque contrôle doit utiliser une valeur **LONG** unique pour s’assurer que les contrôles ne sont pas en conflit. 
   
-Cette propriété est utilisée dans les notifications. Par exemple, les notifications envoyées sur la table d'affichage doivent définir cette propriété pour identifier de manière unique le contrôle à mettre à jour. 
+Cette propriété est utilisée dans les notifications. Par exemple, les notifications envoyées sur le tableau d’affichage doivent définir cette propriété pour identifier de manière unique le contrôle à mettre à jour. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

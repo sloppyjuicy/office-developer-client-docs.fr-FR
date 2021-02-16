@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417202"
 ---
-# <a name="mscapselector"></a>MSCAP_SELECTOR
+# <a name="mscap_selector"></a>MSCAP_SELECTOR
 
   
   
@@ -40,22 +40,22 @@ typedef enum
 
  *MSCAP_SEL_RESERVED1* 
   
-> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
     
  *MSCAP_SEL_RESERVED2* 
   
-> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
     
  *MSCAP_SEL_FOLDER* 
   
-> Fonctionnalités de prise en charge des dossiers sur une banque.
+> Fonctionnalités de prise en charge des dossiers dans une boutique.
     
  *MSCAP_SEL_RESERVED3* 
   
-> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
     
  *MSCAP_SEL_RESTRICTION* 
   
-> Fonctionnalités de prise en charge des restrictions sur une banque.
+> Fonctionnalités relatives à la prise en charge des restrictions sur un magasin.
     
 

@@ -25,7 +25,7 @@ ms.locfileid: "33414381"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Tente de supprimer un message de la file d'attente sortante.
+Tente de supprimer un message de la file d’attente sortante.
   
 ```cpp
 AbortSubmit(
@@ -39,11 +39,11 @@ AbortSubmit(
 
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée du message à supprimer de la file d'attente sortante. 
+> [in] Pointeur vers l’identificateur d’entrée du message à supprimer de la file d’attente sortante. 
     
  _ulFlags_
   
@@ -53,23 +53,23 @@ AbortSubmit(
 
 S_OK 
   
-> Le message a été supprimé de la file d'attente sortante.
+> Le message a été supprimé de la file d’attente sortante.
     
 MAPI_E_NOT_IN_QUEUE 
   
-> Le message identifié par _lpEntryID_ n'est plus dans la file d'attente sortante de la Banque de messages, généralement parce qu'il a déjà été envoyé. 
+> Le message identifié par  _lpEntryID_ ne se trouve plus dans la file d’attente sortante de la boutique de messages, généralement parce qu’il a déjà été envoyé. 
     
 MAPI_E_UNABLE_TO_ABORT 
   
-> Le message identifié par _lpEntryID_ est verrouillé par le spouleur MAPI et l'opération ne peut pas être abandonnée. 
+> Le message identifié par  _lpEntryID_ est verrouillé par lepooler MAPI et l’opération ne peut pas être abandonnée. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgStore:: AbortSubmit** tente de supprimer un message envoyé de la file d'attente sortante de la Banque de messages. 
+La **méthode IMsgStore::AbortSubmit** tente de supprimer un message envoyé de la file d’attente sortante de la boutique de messages. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Après l'envoi d'un message, l'abandon de l'envoi en appelant **AbortSubmit** est la seule action pouvant être effectuée sur le message. Ne pas s'attendre à ce que **AbortSubmit** réussisse toujours. En fonction de la façon dont le système de messagerie sous-jacent est implémenté, il se peut que vous ne soyez pas en mesure d'annuler l'envoi du message. 
+Une fois qu’un message est envoyé, l’abandon de la soumission en appelant **AbortSubmit** est la seule action qui peut être effectuée sur le message. Ne vous attendez **pas à ce que AbortSubmit** réussisse toujours. Selon la façon dont le système de messagerie sous-jacent est implémenté, il peut être impossible d’annuler l’envoi du message. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -77,7 +77,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FolderDlg. cpp  <br/> |CFolderDlg:: OnAbortSubmit  <br/> |MFCMAPI utilise la méthode **IMsgStore:: AbortSubmit** pour abandonner l'envoi du message sélectionné.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI utilise la méthode **IMsgStore::AbortSubmit** pour abandonner l’envoi du message sélectionné.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

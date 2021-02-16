@@ -25,7 +25,7 @@ ms.locfileid: "33413352"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informe la Banque de messages locale que la synchronisation est sur le début.
+Informe la boutique de messages locale que la synchronisation est sur le point de démarrer.
   
 ```cpp
 HRESULT InitSync( 
@@ -37,7 +37,7 @@ HRESULT InitSync(
 
  _ulFlags_
   
-> dans Indicateurs permettant de déterminer le comportement approprié lors de la synchronisation. Outlook utilise ces indicateurs dans chaque État de la machine à États de réplication pour déterminer les informations qu'il doit fournir pour le client. Par exemple, si le client transmet **SYNC_ONLY_ASSOCIATED**, Outlook renverra uniquement les informations relatives aux éléments associés (ou masqués). 
+> [in] Indicateurs pour déterminer le comportement approprié lors de la synchronisation. Outlook utilise ces indicateurs dans chaque état de la machine à états de réplication pour déterminer les informations qu’il doit fournir au client. Par exemple, si le client **SYNC_ONLY_ASSOCIATED,** Outlook retourne uniquement les informations relatives aux éléments associés (ou masqués). 
     
 ## <a name="see-also"></a>Voir aussi
 

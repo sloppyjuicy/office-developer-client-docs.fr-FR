@@ -25,7 +25,7 @@ ms.locfileid: "33417041"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste des fichiers qui appartiennent au service de messagerie.
+Contient une liste des fichiers qui appartiennent au service de message.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient une liste des fichiers qui appartiennent au service de messagerie.
    
 ## <a name="remarks"></a>Remarques
 
-À l'aide d'une boîte de dialogue de l'applet du panneau de configuration, un utilisateur peut obtenir la liste des fichiers qui appartiennent au service de messagerie. Par exemple, l'utilisateur peut obtenir les noms de toutes les bibliothèques de liens dynamiques (dll) qui appartiennent au service. L'utilisateur peut ensuite Rechercher des détails supplémentaires sur les fichiers spécifiés, tels que les noms et les numéros de version de toutes les dll. MAPI utilise les propriétés suivantes pour créer une liste de fichiers de prise en charge dans une boîte de dialogue pour la sélection de l'utilisateur de messagerie.
+À l’aide d’une boîte de dialogue dans l’applet du panneau de contrôle, un utilisateur peut obtenir la liste des fichiers qui appartiennent au service de message. Par exemple, l’utilisateur peut obtenir les noms de toutes les bibliothèques de liens dynamiques (DLL) qui appartiennent au service. L’utilisateur peut ensuite rechercher des détails supplémentaires sur les fichiers spécifiés, tels que les noms et numéros de version de toutes les DLL. MAPI utilise ces propriétés pour créer une liste de fichiers de prise en charge dans une boîte de dialogue pour la sélection de l’utilisateur de messagerie.
   
-MAPI fonctionne uniquement avec les noms de fichier et les autres chaînes qui lui sont transmises, dans le jeu de caractères ANSI (Active Directory Service Interfaces). Les applications clientes qui utilisent des noms de fichier dans un jeu de caractères OEM (Original Equipment Manufacturer) doivent les convertir en ANSI avant d'appeler MAPI.
+MAPI fonctionne uniquement avec les noms de fichiers et les autres chaînes qui lui sont passées, dans le jeu de caractères ANSI (Active Directory Service Interfaces). Les applications clientes qui utilisent des noms de fichiers dans un jeu de caractères OEM (Original Equipment Manufacturer) doivent les convertir en ANSI avant d’appeler MAPI.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

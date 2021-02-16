@@ -25,12 +25,12 @@ ms.locfileid: "33416677"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets qui doivent être alloués pour une nouvelle structure [FLATMTSIDLIST](flatmtsidlist.md) qui contient plusieurs structures [MTSID](mtsid.md) d'une taille spécifiée. 
+Calcule le nombre d’octets qui doivent être alloués à une nouvelle structure [FLATMTSIDLIST](flatmtsidlist.md) qui contient plusieurs structures [MTSID](mtsid.md) d’une taille spécifiée. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**FLATMTSIDLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
 CbNewFLATMTSIDIDLIST (_cb)
@@ -38,9 +38,9 @@ CbNewFLATMTSIDIDLIST (_cb)
 
 ## <a name="parameters"></a>Paramètres
 
- __CB_
+ _ _cb_
   
-> Nombre d'octets dans les structures **MTSID** à inclure dans la nouvelle structure **FLATMTSIDLIST** . 
+> Nombre d’octets dans les structures **MTSID** à inclure dans la nouvelle structure **FLATMTSIDLIST.** 
     
 ## <a name="see-also"></a>Voir aussi
 

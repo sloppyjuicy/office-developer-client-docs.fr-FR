@@ -1,5 +1,5 @@
 ---
-title: Préparation de la publication d'un fournisseur OSC
+title: Préparation à la publication d’un fournisseur OSC
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
-description: Cette section propose des tests que vous pouvez effectuer avant de libérer votre fournisseur Outlook Social Connector (OSC).
+description: Cette section suggère des tests que vous pouvez faire avant de libérer votre fournisseur Outlook Social Connector (OSC).
 ms.openlocfilehash: 8a36b13f8adc42a1834481d3a5942f0350c43cc3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,23 +15,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414661"
 ---
-# <a name="getting-ready-to-release-an-osc-provider"></a>Préparation de la publication d'un fournisseur OSC
+# <a name="getting-ready-to-release-an-osc-provider"></a>Préparation à la publication d’un fournisseur OSC
 
-Cette section propose des tests que vous pouvez effectuer avant de libérer votre fournisseur Outlook Social Connector (OSC). Vous pouvez commencer à vous référer aux rubriques de cette section et effectuer certains de ces tests pendant les phases de développement et de test, mais vous devez avoir effectué ces tests au moment de la publication. 
+Cette section suggère des tests que vous pouvez faire avant de libérer votre fournisseur Outlook Social Connector (OSC). Vous pouvez commencer à faire référence aux rubriques de cette section et effectuer certains de ces tests au cours de vos phases de développement et de test, mais vous devriez avoir effectué ces tests au moment de la publication. 
 
-Ces tests vérifient les fonctionnalités de base de votre implémentation des interfaces du fournisseur OSC en ce qui concerne les fonctionnalités que vous spécifiez pour le fournisseur OSC. Par ailleurs, même si OSC est une fonctionnalité partagée par plusieurs applications clientes Office, ces tests utilisent Outlook comme client pour tester les fonctionnalités fondamentales. Vous devez déterminer si d'autres tests sont nécessaires pour les fonctionnalités spécifiques à votre fournisseur.
+Ces tests vérifient les fonctionnalités de base de votre implémentation des interfaces du fournisseur OSC par rapport aux fonctionnalités que vous spécifiez pour le fournisseur OSC. En outre, même si OSC est une fonctionnalité partagée par plusieurs applications clientes Office, ces tests utilisent Outlook comme client pour tester les fonctionnalités fondamentales. Vous devez déterminer si d’autres tests sont nécessaires pour les fonctionnalités propres à votre fournisseur.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Test du déploiement](testing-deployment.md): décrit les scénarios que vous devez tester pour l'installation et la désinstallation d'un fournisseur OSC.
+- [Test du](testing-deployment.md)déploiement : décrit les scénarios que vous devez tester autour de l’installation et de la désinstallation d’un fournisseur OSC.
     
-- [Test des fonctionnalités, de l'authentification et](testing-capabilities-authentication-and-configuration.md)de la configuration: décrit les tests permettant d'obtenir des fonctionnalités, ainsi que les scénarios de configuration d'un compte et d'authentification d'un utilisateur pour un réseau social.
+- [Test des fonctionnalités,](testing-capabilities-authentication-and-configuration.md)de l’authentification et de la configuration : décrit les tests d’obtention de fonctionnalités et les scénarios de configuration d’un compte et d’authentification d’un utilisateur pour un réseau social.
     
-- [Test suivi des personnes](testing-following-and-stop-following-persons.md)suivantes: décrit les scénarios permettant de tester la capacité du fournisseur OSC à ajouter une personne en tant qu'ami ou à supprimer un ami du réseau social. 
+- [Test des](testing-following-and-stop-following-persons.md)personnes Stop-Following suivantes : décrit les scénarios pour tester la capacité du fournisseur OSC à ajouter une personne en tant qu’ami ou à supprimer un ami du réseau social. 
     
-- [Test des amis](testing-friends.md): décrit les tests et les scénarios pour vérifier que le fournisseur OSC retourne correctement les données des amis et des non-amis, le cas échéant, en fonction du mode de synchronisation pris en charge par le fournisseur.
+- [Testing Friends](testing-friends.md): décrit les tests et les scénarios pour vérifier que le fournisseur OSC renvoie correctement les données d’amis et de non-amis, le cas échéant, en fonction du mode de synchronisation qu’il prend en charge.
     
-- [Activités de test](testing-activities.md): décrit les tests et les scénarios pour vérifier que le fournisseur OSC retourne correctement les activités des amis et des non-amis, le cas échéant, selon le mode de synchronisation pris en charge par le fournisseur.
+- [Activités de](testing-activities.md)test : décrit les tests et les scénarios pour vérifier que le fournisseur OSC renvoie correctement les activités d’amis et de non-amis, le cas échéant, en fonction du mode de synchronisation qu’il prend en charge.
     
 ## <a name="reference"></a>Référence
 

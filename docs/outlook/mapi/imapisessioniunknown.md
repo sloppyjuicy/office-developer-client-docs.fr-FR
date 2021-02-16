@@ -25,40 +25,40 @@ ms.locfileid: "33413380"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Gère les objets associés à une ouverture de session MAPI.
+Gère les objets associés à une session d’ouverture de session MAPI.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapix. h  <br/> |
-|Exposé par:  <br/> |Objets de session  <br/> |
+|Fichier d’en-tête :  <br/> |Mapix.h  <br/> |
+|Exposé par :  <br/> |Objets de session  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPISession  <br/> |
-|Type de pointeur:  <br/> |LPMAPISESSION  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPISession  <br/> |
+|Type de pointeur :  <br/> |LPMAPISESSION  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Généré](imapisession-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur de session précédente.  <br/> |
-|[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Fournit l'accès à la table de banque de messages qui contient des informations sur toutes les banques de messages dans le profil de session.  <br/> |
-|[OpenMsgStore](imapisession-openmsgstore.md) <br/> |Ouvre une banque de messages et renvoie un pointeur [IMsgStore](imsgstoreimapiprop.md) pour un accès supplémentaire.  <br/> |
-|[OpenAddressBook](imapisession-openaddressbook.md) <br/> |Ouvre le carnet d'adresses intégré MAPI, en renvoyant un pointeur [IAddrBook](iaddrbookimapiprop.md) pour un accès supplémentaire.  <br/> |
-|[OpenProfileSection](imapisession-openprofilesection.md) <br/> |Ouvre une section du profil actif et renvoie un pointeur [IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire.  <br/> |
-|[GetStatusTable](imapisession-getstatustable.md) <br/> |Fournit l'accès à la table d'État, un tableau qui contient des informations sur toutes les ressources MAPI de la session.  <br/> |
-|[OpenEntry](imapisession-openentry.md) <br/> |Ouvre un objet et renvoie un pointeur d'interface pour un accès supplémentaire.  <br/> |
-|[CompareEntryIDs](imapisession-compareentryids.md) <br/> |Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet.  <br/> |
-|[Recommander](imapisession-advise.md) <br/> |S'inscrit pour recevoir des notifications d'événements spécifiques affectant la session.  <br/> |
-|[Unadvise](imapisession-unadvise.md) <br/> |Annule l'envoi de notifications précédemment configurées avec un appel à **** la méthode Advise.  <br/> |
+|[GetLastError](imapisession-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur de session précédente.  <br/> |
+|[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Permet d’accéder à la table de la boutique de messages qui contient des informations sur tous les magasins de messages dans le profil de session.  <br/> |
+|[OpenMsgStore](imapisession-openmsgstore.md) <br/> |Ouvre une magasin de messages et renvoie un pointeur [IMsgStore](imsgstoreimapiprop.md) pour un accès supplémentaire.  <br/> |
+|[OpenAddressBook](imapisession-openaddressbook.md) <br/> |Ouvre le carnet d’adresses intégré MAPI, en renvoyant un [pointeur IAddrBook](iaddrbookimapiprop.md) pour un accès supplémentaire.  <br/> |
+|[OpenProfileSection](imapisession-openprofilesection.md) <br/> |Ouvre une section du profil actuel et renvoie un [pointeur IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire.  <br/> |
+|[GetStatusTable](imapisession-getstatustable.md) <br/> |Permet d’accéder à la table d’état, une table qui contient des informations sur toutes les ressources MAPI de la session.  <br/> |
+|[OpenEntry](imapisession-openentry.md) <br/> |Ouvre un objet et renvoie un pointeur d’interface pour un accès supplémentaire.  <br/> |
+|[CompareEntryIDs](imapisession-compareentryids.md) <br/> |Compare deux identificateurs d’entrée pour déterminer s’ils font référence au même objet.  <br/> |
+|[Conseiller](imapisession-advise.md) <br/> |S’inscrit pour recevoir une notification des événements spécifiés qui affectent la session.  <br/> |
+|[Unadvise](imapisession-unadvise.md) <br/> |Annule l’envoi de notifications précédemment définies avec un appel à la **méthode Advise.**  <br/> |
 |**MessageOptions** <br/> | *Non pris en charge ou documenté.*  <br/> |
 |**QueryDefaultMessageOpt** <br/> | *Non pris en charge ou documenté.*  <br/> |
-|[EnumAdrTypes](imapisession-enumadrtypes.md) <br/> |Déconseillé. Renvoie les types d'adresses qui peuvent être gérées par tous les fournisseurs de transport dans la session.  <br/> |
-|[QueryIdentity](imapisession-queryidentity.md) <br/> |Renvoie l'identificateur d'entrée de l'objet qui fournit l'identité principale pour la session.  <br/> |
+|[EnumAdrTypes](imapisession-enumadrtypes.md) <br/> |Déconseillé. Renvoie les types d’adresses qui peuvent être gérés par tous les fournisseurs de transport dans la session.  <br/> |
+|[QueryIdentity](imapisession-queryidentity.md) <br/> |Renvoie l’identificateur d’entrée de l’objet qui fournit l’identité principale de la session.  <br/> |
 |[Logoff](imapisession-logoff.md) <br/> |Met fin à une session MAPI.  <br/> |
-|[SetDefaultStore](imapisession-setdefaultstore.md) <br/> |Établit une banque de messages comme banque de messages par défaut pour la session.  <br/> |
-|[AdminServices](imapisession-adminservices.md) <br/> |Renvoie un pointeur [IMsgServiceAdmin](imsgserviceadminiunknown.md) pour apporter des modifications aux services de messagerie.  <br/> |
+|[SetDefaultStore](imapisession-setdefaultstore.md) <br/> |Établit une magasin de messages comme magasin de messages par défaut pour la session.  <br/> |
+|[AdminServices](imapisession-adminservices.md) <br/> |Renvoie un [pointeur IMsgServiceAdmin](imsgserviceadminiunknown.md) pour apporter des modifications aux services de message.  <br/> |
 |[ShowForm](imapisession-showform.md) <br/> |Affiche un formulaire.  <br/> |
-|[PrepareForm](imapisession-prepareform.md) <br/> |Crée un jeton numérique que la méthode **ShowForm** utilise pour accéder à un message.  <br/> |
+|[PrepareForm](imapisession-prepareform.md) <br/> |Crée un jeton numérique que la **méthode ShowForm** utilise pour accéder à un message.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

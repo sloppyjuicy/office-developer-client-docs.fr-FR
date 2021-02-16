@@ -1,5 +1,5 @@
 ---
-title: Développement de listes de distribution
+title: Développement des listes de distribution
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414136"
 ---
-# <a name="expanding-distribution-lists"></a>Développement de listes de distribution
+# <a name="expanding-distribution-lists"></a>Développement des listes de distribution
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- **Pour inviter MAPI à développer une liste de distribution**
+ **Pour inciter MAPI à développer une liste de distribution**
   
-- Définissez sa propriété **PR_ADDRTYPE** ([PIDTAGADDRESSTYPE](pidtagaddresstype-canonical-property.md)) sur MAPIPDL.
+- Définissez **sa PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) sur MAPIPDL.
     
-    MAPI étend les adresses de ce type avant d'envoyer le message au fournisseur de transport.
+    MAPI développe les adresses de ce type avant d’envoyer le message au fournisseur de transport.
     
 

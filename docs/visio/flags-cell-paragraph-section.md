@@ -23,24 +23,24 @@ Indique si l'orientation du texte est de gauche à droite ou de droite à gauche
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Orientation du texte de gauche à droite (valeur par défaut).  <br/> |
-|0,1  <br/> |Orientation du texte de droite à gauche.  <br/> |
+|1   <br/> |Orientation du texte de droite à gauche.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette cellule correspond au paramètre **direction** de l'onglet **paragraphe** de la boîte de dialogue **texte** (sous l'onglet **Accueil** , cliquez sur la flèche **police** ), qui s'affiche uniquement si une langue qui utilise du texte de scripts complexes a été ajouté dans la boîte de dialogue **Préférences de langue de Microsoft Office** . (Cliquez **sur Démarrer**, **sur tous les programmes**, sur **Microsoft Office**, sur **outils Microsoft Office**, puis sur **Préférences de langue de Microsoft Office**.) 
+La valeur de cette cellule correspond au  paramètre **Direction** sous l’onglet  Paragraphe de  la boîte de dialogue Texte (sous l’onglet Accueil, cliquez sur la flèche Police), qui apparaît uniquement si une langue qui utilise du texte de scripts complexes a été ajoutée dans la boîte de dialogue Préférences de langue **Microsoft Office.**  (Cliquez **sur Démarrer,** **sur** Tous les programmes, sur **Microsoft Office,** sur Microsoft Office **Outils,** puis sur Microsoft Office **langue.)** 
   
 Pour obtenir une référence à la cellule Flags par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Para. Flags [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Para.Flags[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Flags à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionParagraph** <br/> |
-|Index de la ligne :  <br/> |**visRowParagraph** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowParagraph**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visFlags** <br/> |
    
 

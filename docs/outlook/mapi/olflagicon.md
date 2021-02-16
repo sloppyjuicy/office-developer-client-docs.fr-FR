@@ -21,7 +21,7 @@ ms.locfileid: "33416558"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si un élément est marqué et, si c'est le cas, la couleur associée à l'élément marqué.
+Spécifie si un élément est marqué et, si tel est le cas, la couleur associée à l’élément marqué.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -42,31 +42,31 @@ enum OlFlagIcon {
 
  _olNoFlagIcon_
   
-> Aucun indicateur n'a été associé à l'élément.
+> Aucun indicateur n’a été associé à l’élément.
     
  _olPurpleFlagIcon_
   
-> Violet a été associé à l'élément marqué.
+> Le violet a été associé à l’élément marqué.
     
  _olOrangeFlagIcon_
   
-> Orange a été associé à l'élément marqué.
+> Orange a été associé à l’élément marqué.
     
  _olGreenFlagIcon_
   
-> Le vert a été associé à l'élément marqué.
+> Le vert a été associé à l’élément marqué.
     
  _olYellowFlagIcon_
   
-> Le jaune a été associé à l'élément marqué.
+> Le jaune a été associé à l’élément marqué.
     
  _olBlueFlagIcon_
   
-> Le bleu a été associé à l'élément marqué.
+> Le bleu a été associé à l’élément marqué.
     
  _olRedFlagIcon_
   
-> Le rouge a été associé à l'élément marqué.
+> Le rouge a été associé à l’élément marqué.
     
 ## <a name="see-also"></a>Voir aussi
 

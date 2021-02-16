@@ -1,5 +1,5 @@
 ---
-title: Implémentation d'objets thread-safe
+title: Mise en œuvre Thread-Safe objets
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413527"
 ---
-# <a name="implementing-thread-safe-objects"></a>Implémentation d'objets thread-safe
+# <a name="implementing-thread-safe-objects"></a>Mise en œuvre Thread-Safe objets
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avec les objets qui sont renvoyés à partir des appels de méthode d'interface directement, il incombe au fournisseur de s'assurer de la sécurité des threads. Avec les objets callback, il s'agit de la responsabilité de l'application cliente.
+Avec les objets qui sont renvoyés directement par les appels de méthode d’interface, il incombe au fournisseur de garantir la sécurité des threads. Avec les objets de rappel, c’est la responsabilité de l’application cliente.
   
-Un client peut implémenter un rappel de notification thread-safe en appelant l'utilitaire MAPI [HrThisThreadAdviseSink](hrthisthreadadvisesink.md). **HrThisThreadAdviseSink** transforme un récepteur de conseillers non thread-safe en un récepteur thread-safe. Pour les rappels de progression, il n'existe pas d'utilitaire de ce type. Un client peut choisir d'utiliser l'objet de progression thread-safe MAPI ou d'en créer un manuellement. 
+Un client peut implémenter un rappel de notification thread-safe en appelant l’utilitaire MAPI [HrThisThreadAdviseSink](hrthisthreadadvisesink.md). **HrThisThreadAdviseSink** transforme un sink de conseil non thread-safe en un sink thread-safe. Pour les rappels de progression, il n’existe aucun utilitaire de ce type. Un client peut choisir d’utiliser l’objet de progression thread-safe MAPI ou d’en créer un manuellement. 
   
-Un objet thread-safe peut également ou non être pris en charge par les threads. Un objet lié à un thread gère un contexte distinct pour chaque thread qui l'utilise. Les fournisseurs de services ne sont pas tenus de prendre en charge la détection des threads dans leurs objets thread-safe, bien que la prise en charge de la détection des threads puisse être utile dans certaines situations. Deux tables MAPI fournissent toujours leur propre contexte par définition. Une table utilisée sur des threads différents ne doit pas fournir de contexte unique.
+Un objet thread-safe peut ou non être également pris en compte par les threads. Un objet thread-aware conserve un contexte distinct pour chaque thread qui l’utilise. Les fournisseurs de services ne sont pas obligés de prendre en charge la prise en charge de la prise en charge des threads dans leurs objets thread-safe, bien que la prise en charge de la prise en charge de la prise en charge des threads puisse être utile dans certaines situations. Deux tables MAPI fournissent toujours leur propre contexte par définition. Une table utilisée sur différents threads ne fournit pas et ne doit pas fournir de contexte unique.
   
-Un client peut choisir entre recevoir des notifications sur le même thread que celui utilisé pour l'appel **MAPIInitialize** , sur le même thread que celui utilisé pour l'appel de la fonction Advise ou sur un thread distinct appartenant à MAPI. **** Pour vous assurer que les notifications arrivent sur le même thread que celui utilisé pour appeler **MAPIInitialize**, un client appelle [MAPIInitialize](mapiinitialize.md) et transmet zéro dans le membre **ulFlags** de la structure [MAPIINIT_0](mapiinit_0.md) . Les notifications sont ensuite remises lors de la boucle de message principale. 
+Un client peut choisir entre la réception de notifications sur le même thread que celui utilisé pour  l’appel **MAPIInitialize,** sur le même thread que celui utilisé pour l’appel de notification ou sur un thread distinct qui appartient à MAPI. Pour s’assurer que les notifications arrivent sur le même thread que celui utilisé pour appeler **MAPIInitialize,** un client appelle [MAPIInitialize](mapiinitialize.md) et transmet zéro dans le membre **ulFlags** de la structure [MAPIINIT_0.](mapiinit_0.md) Les notifications sont ensuite remis pendant la boucle de message principale. 
   
-Pour recevoir des notifications sur le thread appartenant à MAPI, un client appelle **MAPIInitialize** avec le membre **ulFlags** de la structure **MAPIINIT_0** définie sur MAPI_MULTITHREAD_NOTIFICATIONS. L' **** appel de la fonction Advise est effectué avec l'objet de récepteur de notification du client au lieu d'une version enveloppée. 
+Pour recevoir des notifications sur le thread MAPI, un client appelle **MAPIInitialize** avec le membre **ulFlags** de la structure **MAPIINIT_0** définie sur MAPI_MULTITHREAD_NOTIFICATIONS. **L’appel** de conseil est effectué avec l’objet de sink de conseil du client au lieu d’une version wrapped. 
   
-Pour vous assurer que les notifications arrivent sur le même thread que celui **** utilisé pour appeler Advise, un client appelle [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) et transmet le récepteur de notifications renvoyées nouvellement créé à des **conseils** au lieu du récepteur de notification d'origine. **MAPIInitialize** peut être appelé avec n'importe quelle valeur d'indicateur. 
+Pour s’assurer que les notifications arrivent sur le même thread que celui utilisé pour appeler **Advise,** un client appelle [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) et transmet le nouveau reçu de conseil wrapped à **Advise** plutôt qu’au sink de notification d’origine. **MAPIInitialize peut** être appelé avec l’une ou l’autre valeur d’indicateur. 
   
 

@@ -25,12 +25,12 @@ ms.locfileid: "33413338"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets à allouer pour une nouvelle structure [SPropProblemArray](spropproblemarray.md) qui contient un nombre spécifié de structures [SPropProblem](spropproblem.md) . 
+Calcule le nombre d’octets à allouer pour une nouvelle structure [SPropProblemArray](spropproblemarray.md) qui contient un nombre spécifié de structures [SPropProblem.](spropproblem.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SPropProblemArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbNewSPropProblemArray (_cprob)
@@ -38,9 +38,9 @@ CbNewSPropProblemArray (_cprob)
 
 ## <a name="parameters"></a>Paramètres
 
- __CProb_
+ _ _cprob_
   
-> Nombre de structures **SPropProblem** à inclure dans la nouvelle structure **SPropProblemArray** . 
+> Nombre de structures **SPropProblem** à inclure dans la nouvelle structure **SPropProblemArray.** 
     
 ## <a name="see-also"></a>Voir aussi
 

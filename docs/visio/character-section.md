@@ -22,8 +22,8 @@ Indique les attributs de mise en forme du texte de la forme, notamment la police
   
 ## <a name="remarks"></a>Remarques
 
-Chaque style de caractère d'une forme possède une ligne correspondante dans la section **caractères** , telle qu'elle apparaît dans la fenêtre ShapeSheet. Le nom de la ligne représente le nombre de caractères auquel le style de caractère s'applique. 
+Chaque style de caractère d’une forme possède une ligne correspondante dans la section **Character** telle qu’elle est vue dans la fenêtre Feuille ShapeSheet. Le nom de la ligne représente le nombre de caractères auquel le style de caractère s'applique. 
   
-Vous pouvez définir des formats de texte dans la boîte de dialogue **texte** (cliquez sur le lanceur de boîte de dialogue dans le groupe **police** de l'onglet **Accueil** ), en appliquant un style de texte ou en y apportant une entrée dans une cellule de la section **character** . 
+Vous pouvez définir des  formats de texte dans la boîte  de dialogue  Texte (cliquez sur le lanceur de boîte de dialogue dans le groupe Police sous l’onglet Accueil), en appliquant un style de texte ou en faisant une entrée dans une cellule de **section** Character. 
   
 

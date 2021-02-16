@@ -25,7 +25,7 @@ ms.locfileid: "33413751"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'adresse de transfert physique d'un destinataire de message et est utilisée uniquement avec les rapports sur les messages.
+Contient l’adresse de forwarding physique d’un destinataire de message et est utilisé uniquement avec les rapports de messages.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contient l'adresse de transfert physique d'un destinataire de message et est uti
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

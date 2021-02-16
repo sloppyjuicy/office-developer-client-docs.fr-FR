@@ -1,5 +1,5 @@
 ---
-title: Accéder aux données de l'application
+title: Accéder aux données d’application
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417230"
 ---
-# <a name="access-application-data"></a>Accéder aux données de l'application
+# <a name="access-application-data"></a>Accéder aux données d’application
 
 Le modèle objet InfoPath avec code managé fournit des objets et des collections qui peuvent être utilisés pour accéder aux informations sur l'application InfoPath, y compris celles associées au document XML sous-jacent d'un formulaire et au fichier de définition de formulaire (.xsf). Ces données sont accessibles à travers l'objet de niveau supérieur dans la hiérarchie des modèles d'objets InfoPath qui est instanciée à l'aide de la classe [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . 
   

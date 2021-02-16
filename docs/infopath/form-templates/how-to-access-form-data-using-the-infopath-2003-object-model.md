@@ -1,5 +1,5 @@
 ---
-title: Accéder aux données de formulaire en utilisant le modèle objet InfoPath 2003
+title: Accéder aux données de formulaire à l’aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416474"
 ---
-# <a name="access-form-data-using-the-infopath-2003-object-model"></a>Accéder aux données de formulaire en utilisant le modèle objet InfoPath 2003
+# <a name="access-form-data-using-the-infopath-2003-object-model"></a>Accéder aux données de formulaire à l’aide du modèle objet InfoPath 2003
 
 Pour rendre un formulaire InfoPath plus performant, il est souvent nécessaire d'accéder par programme aux informations sur le document XML sous-jacent du formulaire et aux données qu'il contient ou d'exécuter certaines actions sur le document XML. Le modèle objet d'InfoPath prend en charge l'accès et la manipulation du document XML sous-jacent d'un formulaire grâce à l'utilisation de l'interface [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) en combinaison avec l'interface [XDocumentsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocumentsCollection.aspx) . 
   
@@ -25,13 +25,13 @@ L'interface **XDocument** est l'un des types les plus utiles du modèle objet d'
 
 L'interface **XDocumentsCollection** fournit aux développeurs de formulaires les méthodes et les propriétés suivantes pour gérer les objets **XDocument** que contient la collection. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
 |Méthode [Close](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Close.aspx)  <br/> |Ferme le formulaire spécifié.  <br/> |
-|[New](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.New.aspx) , méthode  <br/> |Crée un nouveau formulaire basé sur un formulaire existant.  <br/> |
-|[NewFromSolution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolution.aspx) , méthode  <br/> |Crée un nouveau formulaire basé sur un formulaire existant.  <br/> |
-|[NewFromSolutionWithData](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolutionWithData.aspx) , méthode  <br/> |Crée un formulaire InfoPath en utilisant le modèle de formulaire et les données XML spécifiés.  <br/> |
-|[Open](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Open.aspx) , méthode  <br/> |Ouvre le formulaire spécifié.  <br/> |
+|[Nouvelle](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.New.aspx) méthode  <br/> |Crée un nouveau formulaire basé sur un formulaire existant.  <br/> |
+|[Méthode NewFromSolution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolution.aspx)  <br/> |Crée un nouveau formulaire basé sur un formulaire existant.  <br/> |
+|[Méthode NewFromSolutionWithData](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolutionWithData.aspx)  <br/> |Crée un formulaire InfoPath en utilisant le modèle de formulaire et les données XML spécifiés.  <br/> |
+|[Open,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Open.aspx) méthode  <br/> |Ouvre le formulaire spécifié.  <br/> |
 |Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Count.aspx)  <br/> |Renvoie le nombre d'objets **XDocument** que contient la collection.  <br/> |
 |Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Item.aspx)  <br/> |Renvoie une référence à l'objet **XDocument** spécifié.  <br/> |
    
@@ -39,33 +39,33 @@ L'interface **XDocumentsCollection** fournit aux développeurs de formulaires le
 
 L'interface **XDocument** fournit aux développeurs de formulaires les méthodes et les propriétés suivantes pour interagir et exécuter des actions sur le document XML sous-jacent d'un formulaire. 
   
-|**Nom**|**Description**|
+|**Name**|**Description**|
 |:-----|:-----|
-|Méthode [GetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDataVariable.aspx)  <br/> |Renvoie la valeur chaîne d'une variable de données spécifiée.  <br/> |
-|[GetDOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDOM.aspx) , méthode  <br/> |Renvoie une référence au DOM (Document Object Model) XML associé à l'objet **DataObject** spécifié.  <br/> |
-|[ImportFile](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ImportFile.aspx) , méthode  <br/> |Importe (ou fusionne) le formulaire spécifié dans le formulaire actif.  <br/> |
-|[PrintOut](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.PrintOut.aspx) , méthode  <br/> |Imprime la vue actuelle d'un formulaire.  <br/> |
-|[Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Query.aspx) , méthode  <br/> |Récupère les données de l'adaptateur de données associé à un formulaire.  <br/> |
+|[Méthode GetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDataVariable.aspx)  <br/> |Renvoie la valeur chaîne d'une variable de données spécifiée.  <br/> |
+|[Méthode GetDOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDOM.aspx)  <br/> |Renvoie une référence au DOM (Document Object Model) XML associé à l'objet **DataObject** spécifié.  <br/> |
+|[ImportFile,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ImportFile.aspx) méthode  <br/> |Importe (ou fusionne) le formulaire spécifié dans le formulaire actif.  <br/> |
+|[PrintOut,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.PrintOut.aspx) méthode  <br/> |Imprime la vue actuelle d'un formulaire.  <br/> |
+|[Méthode de](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Query.aspx) requête  <br/> |Récupère les données de l'adaptateur de données associé à un formulaire.  <br/> |
 |Méthode [Save](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Save.aspx)  <br/> |Enregistre le formulaire actif.  <br/> |
 |Méthode [SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SaveAs.aspx)  <br/> |Enregistre le formulaire actif sous le nom spécifié.  <br/> |
-|[SetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SetDataVariable.aspx) , méthode  <br/> |Définit la valeur d'une variable de données spécifiée.  <br/> |
-|[Submit](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Submit.aspx) , méthode  <br/> |Envoie un formulaire selon les paramètres définis en mode Création.  <br/> |
-|[DataObjects](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx) , propriété  <br/> |Renvoie une référence à la collection **DataObjects**.  <br/> |
-|[DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) , propriété  <br/> |Renvoie une référence au DOM XML rempli par les données XML source d'un formulaire.  <br/> |
-|[Errors](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Errors.aspx) , propriété  <br/> |Renvoie une référence à la collection **Errors**.  <br/> |
-|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Extension.aspx) , propriété  <br/> |Renvoie une référence à un objet représentant l'ensemble des fonctions et des variables contenues dans le fichier de code de formulaire.  <br/> |
-|[IsDirty](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDirty.aspx) , propriété  <br/> |Renvoie une valeur **Boolean** indiquant si les données du formulaire ont été modifiées.  <br/> |
-|[IsDOMReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDOMReadOnly.aspx) , propriété  <br/> |Renvoie une valeur **Boolean** indiquant si le DOM XML est défini en lecture seule.  <br/> |
-|[IsNew](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsNew.aspx) , propriété  <br/> |Renvoie une valeur **Boolean** indiquant si le formulaire a été enregistré après sa création.  <br/> |
-|[IsReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsReadOnly.aspx) , propriété  <br/> |Renvoie une valeur **Boolean** indiquant si le formulaire est en mode lecture seule.  <br/> |
-|[IsSigned](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx) , propriété  <br/> |Renvoie une valeur **Boolean** indiquant si le formulaire est signé numériquement.  <br/> |
-|[Language](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Language.aspx) , propriété  <br/> |Spécifie ou renvoie la valeur chaîne du langage utilisé pour le formulaire.  <br/> |
-|[QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.QueryAdapter.aspx) , propriété  <br/> |Renvoie une référence à l'objet adaptateur de données.  <br/> |
-|[Solution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx) , propriété  <br/> |Renvoie une référence à l'objet **Solution**.  <br/> |
-|Propriété [UI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx)  <br/> |Renvoie une référence à l'objet **UI**.  <br/> |
-|[URI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.URI.aspx) , propriété  <br/> |Renvoie une valeur chaîne contenant l'URI (Uniform Resource Identifier) du formulaire.  <br/> |
-|[View](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.View.aspx) , propriété  <br/> |Renvoie une référence à l'objet **View**.  <br/> |
-|[ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ViewInfos.aspx) , propriété  <br/> |Renvoie une référence à la collection **ViewInfos**.  <br/> |
+|[Méthode SetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SetDataVariable.aspx)  <br/> |Définit la valeur d'une variable de données spécifiée.  <br/> |
+|[Méthode Submit](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Submit.aspx)  <br/> |Envoie un formulaire selon les paramètres définis en mode Création.  <br/> |
+|[DataObjects,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx) propriété  <br/> |Renvoie une référence à la collection **DataObjects**.  <br/> |
+|[DoM,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) propriété  <br/> |Renvoie une référence au DOM XML rempli par les données XML source d'un formulaire.  <br/> |
+|[Errors,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Errors.aspx) propriété  <br/> |Renvoie une référence à la collection **Errors**.  <br/> |
+|[Extension,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Extension.aspx) propriété  <br/> |Renvoie une référence à un objet représentant l'ensemble des fonctions et des variables contenues dans le fichier de code de formulaire.  <br/> |
+|[Propriété IsDirty](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDirty.aspx)  <br/> |Renvoie une valeur **Boolean** indiquant si les données du formulaire ont été modifiées.  <br/> |
+|[Propriété IsDOMReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDOMReadOnly.aspx)  <br/> |Renvoie une valeur **Boolean** indiquant si le DOM XML est défini en lecture seule.  <br/> |
+|[IsNew,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsNew.aspx) propriété  <br/> |Renvoie une valeur **Boolean** indiquant si le formulaire a été enregistré après sa création.  <br/> |
+|[Propriété IsReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsReadOnly.aspx)  <br/> |Renvoie une valeur **Boolean** indiquant si le formulaire est en mode lecture seule.  <br/> |
+|[IsSigned,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx) propriété  <br/> |Renvoie une valeur **Boolean** indiquant si le formulaire est signé numériquement.  <br/> |
+|[Language,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Language.aspx) propriété  <br/> |Spécifie ou renvoie la valeur chaîne du langage utilisé pour le formulaire.  <br/> |
+|[Propriété QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.QueryAdapter.aspx)  <br/> |Renvoie une référence à l'objet adaptateur de données.  <br/> |
+|[Solution,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx) propriété  <br/> |Renvoie une référence à l'objet **Solution**.  <br/> |
+|[Propriété de l’interface](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx) utilisateur  <br/> |Renvoie une référence à l'objet **UI**.  <br/> |
+|[Propriété d’URI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.URI.aspx)  <br/> |Renvoie une valeur chaîne contenant l'URI (Uniform Resource Identifier) du formulaire.  <br/> |
+|[View,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.View.aspx) propriété  <br/> |Renvoie une référence à l'objet **View**.  <br/> |
+|[ViewInfos,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ViewInfos.aspx) propriété  <br/> |Renvoie une référence à la collection **ViewInfos**.  <br/> |
    
 ## <a name="using-the-xdocuments-collection-and-the-xdocument-interfaces"></a>Utilisation de la collection XDocuments et des interfaces XDocument
 

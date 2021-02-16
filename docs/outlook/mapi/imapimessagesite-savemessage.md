@@ -25,7 +25,7 @@ ms.locfileid: "33417104"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Demande l'enregistrement du message actif.
+Demande que le message actuel soit enregistré.
   
 ```cpp
 HRESULT SaveMessage( void );
@@ -43,9 +43,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les formulaires appellent la méthode **IMAPIMessageSite:: SaveMessage** pour demander qu'un message soit enregistré. 
+Les formulaires appellent la méthode **IMAPIMessageSite::SaveMessage** pour demander qu’un message soit enregistré. 
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -53,7 +53,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: SaveMessage  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite:: SaveMessage** pour enregistrer le message.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI utilise la **méthode IMAPIMessageSite::SaveMessage** pour enregistrer le message.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

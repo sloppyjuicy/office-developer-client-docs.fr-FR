@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- fonction xlAbort [Excel 2007], tâches simultanées [Excel 2007], arrêts utilisateur [Excel 2007]
+- xlabort function [excel 2007],concurrent tasks [Excel 2007],user breaks [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -20,13 +20,13 @@ ms.locfileid: "33414689"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Bien que Windows utilise le multitâche préemptif, dans lequel les fonctions ou les commandes peuvent prendre beaucoup de temps à s'exécuter, il est recommandé de prévoir un certain temps pour le système d'exploitation maintenant et à nouveau afin de l'aider à planifier des tâches simultanées. À l'aide des appels Windows natifs, vous pouvez effectuer cette opération à l'aide de la fonction Sleep. À l'aide de l'API C, vous pouvez le faire à l'aide de la [fonction xlAbort](xlabort.md), qui permet non seulement le processeur pour un instant, mais également de vérifier si l'utilisateur a appuyé sur la touche annuler, puis sur **Échap**.
+Même si Windows utilise le multitâche préemptif, où l’exécution de vos fonctions ou commandes peut prendre beaucoup de temps, il est bon de donner un peu de temps au système d’exploitation de temps en temps pour l’aider à planifier des tâches simultanées. À l’aide des appels Windows natifs, vous pouvez le faire à l’aide de la fonction de veille. À l’aide de l’API C, vous pouvez le faire à l’aide de la fonction [xlAbort](xlabort.md), qui produit non seulement le processeur pendant un instant, mais vérifie également si l’utilisateur a appuy sur la touche d’annulation, **ÉCHAP**.
   
-La fonction **xlAbort** permet donc à votre code de vérifier si l'utilisateur souhaite terminer le processus, effectuer le nettoyage nécessaire, puis renvoyer le contrôle à Excel. La fonction vous permet également de désactiver la condition d'arrêt. Cela permet à vos commandes d'afficher une boîte de dialogue pour vérifier si l'utilisateur souhaite terminer la commande. Si l'utilisateur ne souhaite pas terminer la commande, l'appel de la fonction **xlAbort** avec l' ** argument false efface le saut. (L'argument par défaut est *true* , qui vérifie simplement la condition, sans la désactiver.) 
+La **fonction xlAbort** permet donc à votre code de vérifier si l’utilisateur souhaite mettre fin au processus, d’y faire le nettoyage nécessaire, puis de renvoyer le contrôle à Excel. La fonction vous permet également d’effacer la condition d’coupure. Cela permet à vos commandes d’afficher une boîte de dialogue pour vérifier si l’utilisateur souhaite mettre fin à la commande. Si l’utilisateur ne souhaite pas mettre fin à la commande, l’appel de la fonction **xlAbort** avec l’argument  *FALSE*  permet d’effacer la coupure. (L’argument par défaut est  *TRUE,*  qui vérifie simplement la condition, mais ne l’effacera pas.) 
   
-Vous pouvez appeler la fonction **xlAbort** à partir d'une fonction définie par l'utilisateur (UDF) ou d'une commande XLL. Dans un fichier UDF, lorsque la fonction **xlAbort** renvoie la **valeur true**, après avoir détecté une interruption de l'utilisateur, vous pouvez généralement réduire le calcul de la fonction et renvoyer une valeur pour indiquer que le calcul n'a pas été terminé, peut-être une erreur ou un zéro. Vous ne devez pas effacer la condition d'arrêt afin que les autres instances des fonctions longues qui vérifient également cette condition s'arrêtent également. Excel efface implicitement cette condition lorsqu'un recalcul se termine.
+Vous pouvez appeler la **fonction xlAbort** à partir d’une fonction définie par l’utilisateur (UDF) ou d’une commande XLL. Dans une fonction UDF, lorsque la fonction **xlAbort** renvoie **true**, après avoir détecté un coupure utilisateur, vous avez généralement raccourci le calcul de la fonction et renvoyer une valeur pour indiquer que le calcul n’a pas été effectué, peut-être une erreur ou zéro. Vous ne souhaitez pas effacer la condition de rupture afin que d’autres instances de fonctions longues qui vérifient également cette condition se cassent également. Excel permet d’effacer implicitement cette condition à la fin d’un recalcul.
   
-Lorsque vous détectez une condition d'arrêt dans une commande, vous effacez généralement la condition en appelant à nouveau la fonction **xlAbort** avec l'argument **false**, même si Excel efface implicitement cette condition lorsqu'une commande se termine.
+Lorsque vous détectez une condition d’coupure dans une commande, vous l’effacerez généralement en appelant à nouveau la fonction **xlAbort** avec l’argument **FALSE,** bien qu’Excel l’effacera implicitement à la fin d’une commande.
   
 ## <a name="see-also"></a>Voir aussi
 

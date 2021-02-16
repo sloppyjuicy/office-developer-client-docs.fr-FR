@@ -23,9 +23,9 @@ Indique les connecteurs dynamiques qui se superposent.
 |**Valeur**|**Ajustement**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Style de positionnement par défaut  <br/> |**visPLOLineAdjustToDefault** <br/> |
-|0,1  <br/> |Traits proches les uns des autres  <br/> |**visPLOLineAdjustToAll** <br/> |
-|n°2  <br/> |Aucun trait  <br/> |**visPLOLineAdjustToNone** <br/> |
-|3  <br/> |Traits connexes  <br/> |**visPLOLineAdjustToRelated** <br/> |
+|1   <br/> |Traits proches les uns des autres  <br/> |**visPLOLineAdjustToAll** <br/> |
+|2   <br/> |Aucun trait  <br/> |**visPLOLineAdjustToNone** <br/> |
+|3   <br/> |Traits connexes  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule LineAdjustTo à l'aide d'un index à 
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 |Index de la cellule :  <br/> |**visPLOLineAdjustTo** <br/> |
    

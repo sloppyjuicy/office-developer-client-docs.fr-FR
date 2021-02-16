@@ -12,10 +12,10 @@ f1_keywords:
 - Project Server architecture
 - Project Server programmability
 keywords:
-- Project 2013, architecture et programmabilité, programmabilité, Project Server, Project 2013, avantages pour EPM, architecture et Project Server
+- project 2013, architecture et programmabilité, programmabilité, Project Server,Project 2013, avantages pour EPM, Architecture et Project Server
 localization_priority: Normal
 ms.assetid: 9ea3b3c1-fb90-454a-b8e6-abc44fca663d
-description: Les Articles de cette section décrivent l'architecture globale de la solution Enterprise Project Management (EPM), qui combine Project Professional 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
+description: Les articles de cette section décrivent l’architecture globale de la solution De gestion de projet d’entreprise (EPM), qui combine Project Professionnel 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
 ms.openlocfilehash: 44cd5a32b8d3de421ffe3b2d9bf0137146bc4c4e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -25,35 +25,35 @@ ms.locfileid: "33413786"
 ---
 # <a name="project-server-2013-architecture-and-programmability"></a>Architecture et programmabilité de Project Server 2013
 
-Les Articles de cette section décrivent l'architecture globale de la solution Enterprise Project Management (EPM), qui combine Project Professional 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
+Les articles de cette section décrivent l’architecture globale de la solution De gestion de projet d’entreprise (EPM), qui combine Project Professionnel 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
   
-Project Server 2013 est créé avec .NET Framework 4 et est la troisième version majeure de Project Server pour fournir une architecture à plusieurs couches. Pour l'accès Cloud, Project Server 2013 implémente un modèle objet côté client (CSOM) et un service OData pour la création de rapports qui peuvent être utilisés dans les applications Web, les applications mobiles et les applications Silverlight. Pour les applications locales, les clients peuvent utiliser les services CSOM ou interface PSI (Project Server Interface). 
+Project Server 2013 est conçu avec .NET Framework 4 et est la troisième version majeure de Project Server pour fournir une véritable architecture multi-architecture. Pour l’accès au cloud, Project Server 2013 implémente un modèle objet côté client (CSOM) et un service OData pour les rapports qui peuvent être utilisés dans les applications web, les applications mobiles et les applications Silverlight. Pour les applications sur site, les clients peuvent utiliser le CSOM ou les services PSI (Project Server Interface). 
   
-## <a name="introduction-to-project-server-architecture"></a>Présentation de l'architecture de Project Server
+## <a name="introduction-to-project-server-architecture"></a>Présentation de l’architecture Project Server
 
-Les rubriques de cette section décrivent l'architecture globale de la solution Enterprise Project Management (EPM), qui combine Project Professional 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
+Les rubriques de cette section décrivent l’architecture globale de la solution de gestion de projet d’entreprise (EPM), qui combine Project Professionnel 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
   
-Pour un accès par programme à Project Server, vous devez utiliser les services CSOM ou PSI avec l'interface Windows Communication Foundation (WCF). L'interface de service Web ASMX de la PSI est déconseillée dans Project Server 2013, mais fonctionne toujours. La PSI permet un accès efficace à l'aide de jeux de données et vous pouvez créer des gestionnaires pour les événements côté serveur. Le CSOM utilise le PSI pour accéder à la couche d'objets métiers Project Server. Au lieu de quatre bases de données Project Server, Project Server 2013 utilise une seule base de données dans la couche d'accès aux données.
+Pour l’accès par programme à Project Server, vous devez utiliser le CSOM ou les services PSI avec l’interface Windows Communication Foundation (WCF). L’interface de service web ASMX de l’interface PSI est dépréciée dans Project Server 2013, mais fonctionne toujours. L’interface PSI permet un accès efficace à l’aide de jeux de données et vous pouvez créer des handlers pour les événements côté serveur. Le modèle CSOM lui-même utilise l’interface PSI pour accéder à la couche objet métier Project Server. Au lieu de quatre bases de données Project Server, Project Server 2013 utilise une seule base de données dans la couche d’accès aux données.
   
-Project Server 2013 s'intègre de façon approfondie à SharePoint Server 2013. Le service d'application Project peut être associé à d'autres collections de sites SharePoint dans la batterie de serveurs. Project Server peut fonctionner avec les listes de tâches SharePoint et en faire des rapports dans la collection de sites, et peut également bénéficier d'un contrôle total où Project Server importe et gère les listes de tâches en tant que projets d'entreprise. Project Server utilise également la version 4 de Windows Workflow Foundation (WF4) et ajoute des activités de flux de travail pour les solutions de gestion de la demande.
+Project Server 2013 s’intègre profondément à SharePoint Server 2013. Le service d’application Project Peut être associé à d’autres collections de sites SharePoint dans la batterie de serveurs. Project Server peut fonctionner avec les listes de tâches SharePoint dans la collection de sites et peut également obtenir un contrôle total sur l’emplacement où Project Server importe et gère les listes de tâches en tant que projets d’entreprise. Project Server utilise également la version 4 de Windows Workflow Foundation (WF4) et ajoute des activités de flux de travail pour les solutions de gestion de la demande.
   
-Pour plus d'informations sur les nombreuses nouvelles fonctionnalités proposées par Project 2013 pour les développeurs, ainsi que sur les fonctionnalités déconseillées, consultez la rubrique [mises à jour pour les développeurs dans Project 2013](updates-for-developers-in-project-2013.md).
+Pour plus d’informations sur les nombreuses nouvelles fonctionnalités que Project 2013 fournit aux développeurs et sur les fonctionnalités qui sont dépréciées, voir Mises à jour pour les développeurs dans [Project 2013.](updates-for-developers-in-project-2013.md)
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-L' [architecture de Project Server 2013](project-server-2013-architecture.md) décrit les principales parties de la plateforme Project 2013, y compris les clients et les serveurs. 
+[L’architecture Project Server 2013](project-server-2013-architecture.md) décrit les principales parties de la plateforme Project 2013, y compris les clients et les serveurs. 
   
-La programmabilité de [Project Server](project-server-programmability.md) aborde les principales fonctionnalités d'extensibilité de project Server 2013, de la personnalisation de Project Web App et de la mise à niveau des applications qui sont conçues pour les versions antérieures de Project Server. 
+La [programmabilité](project-server-programmability.md) de Project Server décrit les principales fonctionnalités d’extensibilité de Project Server 2013, la personnalisation de Project Web App et la mise à niveau des applications conçues pour les versions précédentes de Project Server. 
   
-[Ce que fait la PSI,](what-the-psi-does-and-does-not-do.md) il décrit les scénarios dans lesquels la PSI peut être utilisée et répertorie les éléments que le PSI ne peut pas faire. 
+[Ce que l’interface PSI](what-the-psi-does-and-does-not-do.md) fait et ne fait pas décrit les scénarios dans lequel l’interface PSI peut être utilisée et répertorie les choses que l’interface PSI ne peut pas faire. 
   
-[Ce que fait et ne fait pas le CSOM](what-the-csom-does-and-does-not-do.md) décrit les scénarios dans lesquels le CSOM peut être utilisé et répertorie les éléments que l'CSOM ne peut pas faire. 
+[Ce que le CSOM](what-the-csom-does-and-does-not-do.md) fait et ne fait pas décrit les scénarios dans lequel le CSOM peut être utilisé et répertorie les choses que le CSOM ne peut pas faire. 
   
-### <a name="topics-not-covered"></a>Rubriques non traitées
+### <a name="topics-not-covered"></a>Rubriques non couvertes
 
-Les Articles de la section *architecture et programmabilité* ne documentent pas les fonctionnalités des clients de bureau Project (project standard 2013 et project professionnel 2013) ou Project Web App. 
+Les articles de la section Architecture et  *programmabilité*  ne documentent pas les fonctionnalités des clients de bureau Project (Project Standard 2013 et Project Professionnel 2013) ou Project Web App. 
   
-L'aide de Visual Basic pour applications (VBA) est disponible dans Visual Basic Editor dans Project standard et Project professionnel.
+Visual Basic pour Applications (VBA) est disponible dans l’éditeur Visual Basic dans Project Standard et Project Professionnel.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="bk_addresources"> </a>

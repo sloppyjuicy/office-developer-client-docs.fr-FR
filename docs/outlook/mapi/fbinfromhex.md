@@ -25,11 +25,11 @@ ms.locfileid: "33414934"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-ConVertit une représentation sous forme de chaîne d'un nombre hexadécimal en données binaires. 
+Convertit une représentation sous forme de chaîne d’un nombre hexadécimal en données binaires. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -42,23 +42,23 @@ BOOL FBinFromHex(
 
 ## <a name="parameters"></a>Paramètres
 
- _t_
+ _sz_
   
-> dans Pointeur vers la chaîne ASCII terminée par un caractère null à convertir. Il ne s'agit pas d'une chaîne Unicode. Les caractères valides incluent les caractères hexadécimaux 0 à 9, ainsi que les caractères majuscules et minuscules A à F.
+> [in] Pointeur vers la chaîne ASCII terminée par null à convertir. Il ne s’agit pas d’une chaîne Unicode. Les caractères valides incluent les caractères hexadécimals de zéro à neuf, ainsi que les caractères en minuscules et en minuscules A à F.
     
  _pb_
   
-> remarquer Pointeur vers le nombre binaire renvoyé.
+> [out] Pointeur vers le nombre binaire renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> La chaîne a été convertie correctement en un nombre binaire. 
+> La chaîne a été convertie en nombre binaire. 
     
 FALSE 
   
-> La chaîne d'entrée contient des caractères hexadécimaux ASCII non valides.
+> La chaîne d’entrée contient des caractères hexadécimals ASCII non valides.
     
 ## <a name="see-also"></a>Voir aussi
 

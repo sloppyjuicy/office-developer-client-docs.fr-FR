@@ -1,5 +1,5 @@
 ---
-title: Cellule YGridSpacing (section &amp; règle et grille)
+title: YGridSpacing, cellule (section Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417461"
 ---
-# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>Cellule YGridSpacing (section &amp; règle et grille)
+# <a name="ygridspacing-cell-ruler-amp-grid-section"></a>YGridSpacing, cellule (section Ruler &amp; Grid)
 
 Précise la distance entre les lignes verticales dans une grille fixe (YGridDensity = 0).
   
 ## <a name="remarks"></a>Remarques
 
-Correspond à l'option **espaceMent minimal** vertical de la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Correspond à l’option d’espacement **minimal** vertical dans  la boîte de dialogue **Grille &amp;** de règle (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
   
 Pour obtenir une référence à la cellule YGridSpacing par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule YGridSpacing par index dans un progra
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visYGridSpacing** <br/> |
    

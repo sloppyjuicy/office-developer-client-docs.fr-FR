@@ -30,8 +30,8 @@ Indique si une pièce jointe est associée à un élément distant.
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidRemoteAttachment  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Remote  <br/> |
-|ID long (couvercle):  <br/> |0x00008F07  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Remote  <br/> |
+|ID long (LID) :  <br/> |0x00008F07  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
 |Domaine :  <br/> |Message distant  <br/> |
    
@@ -41,11 +41,11 @@ Indique si une pièce jointe est associée à un élément distant.
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

@@ -25,7 +25,7 @@ ms.locfileid: "33412883"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine si un formulaire peut gérer ses propres conflits de messages. Un message est en conflit s'il a été modifié simultanément par plusieurs utilisateurs. Cela peut se produire pour les messages dans les dossiers publics.
+Détermine si un formulaire peut gérer ses propres conflits de messages. Un message est en conflit s’il a été modifié simultanément par plusieurs utilisateurs. Cela peut se produire pour les messages dans les dossiers publics.
   
 ```cpp
 HRESULT IsInConflict(
@@ -39,19 +39,19 @@ HRESULT IsInConflict(
 
  _ulMessageFlags_
   
-> dans Pointeur vers un masque de des indicateurs copiés à partir de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d'un message qui indique l'état actuel du message.
+> [in] Pointeur vers un masque de bits d’indicateurs copiés à partir de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d’un message qui indique l’état actuel du message.
     
  _ulMessageStatus_
   
-> dans Masque de bits des indicateurs définis par le client ou par le fournisseur, copié à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) d'un message qui fournit des informations supplémentaires sur l'état du message.
+> [in] Masque de bits d’indicateurs définis par le client ou par un fournisseur copiés à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) d’un message qui fournit des informations supplémentaires sur l’état du message.
     
  _szMessageClass_
   
-> dans Chaîne qui nomme la classe de message du message.
+> [in] Chaîne qui nomme la classe de message du message.
     
  _pFolderFocus_
   
-> dans Pointeur vers le dossier qui contient le message. Le paramètre _pFolderFocus_ peut être null si ce dossier n'existe pas (par exemple, si le message est incorporé dans un autre message). 
+> [in] Pointeur vers le dossier qui contient le message. Le  _paramètre pFolderFocus_ peut être NULL si un tel dossier n’existe pas (par exemple, si le message est incorporé dans un autre message). 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,17 +61,17 @@ S_OK
     
 S_FALSE 
   
-> Le formulaire gère ses propres conflits de messages ou le message pour lequel les informations ont été transmises n'est pas en conflit.
+> Le formulaire gère ses propres conflits de messages, ou le message pour lequel les informations ont été transmises n’est pas en conflit.
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr:: IsInConflict** pour déterminer si un formulaire particulier ne gère pas ses propres conflits de messages. **IsInConflict** vérifie les masques de transparence dans les paramètres _ulMessageFlags_ et _ulMessageStatus_ pour la présence d'un indicateur de conflit. Si un indicateur de conflit est défini, **IsInConflict** résout la classe de message passée dans le paramètre _SZMESSAGECLASS_ et renvoie S_OK si le formulaire ne gère pas ses propres conflits. **IsInConflict** renvoie S_FALSE si le formulaire gère ses propres conflits. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::IsInConflict** pour découvrir si un formulaire particulier ne gère pas ses propres conflits de messages. **IsInConflict** vérifie la présence d’un indicateur de conflit dans les paramètres _ulMessageFlags_ et _ulMessageStatus._ Si un indicateur de conflit est définie, **IsInConflict** résout la classe de message transmise dans le paramètre  _szMessageClass_ et renvoie S_OK si le formulaire ne gère pas ses propres conflits. **IsInConflict** renvoie S_FALSE si le formulaire gère ses propres conflits. 
   
-Un formulaire qui ne gère pas ses propres conflits doit être ouvert à l'aide de la méthode [IMAPIFormMgr:: LoadForm](imapiformmgr-loadform.md) et ne peut pas réutiliser un objet Form existant. 
+Un formulaire qui ne gère pas ses propres conflits doit être ouvert à l’aide de la méthode [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) et ne peut pas réutiliser un objet de formulaire existant. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Les applications clientes doivent généralement traiter les conflits lorsque les applications se déplacent d'un message vers le message suivant ou précédent dans un dossier. Si un message est en conflit, mais que le serveur de formulaires pour ce message peut gérer les conflits, l'application cliente doit exécuter son code habituel pour afficher le message suivant ou précédent. Si le serveur de formulaire ne peut pas gérer les conflits, l'application cliente doit continuer comme s'il n'était pas conscient de la classe de message du message suivant ou précédent. 
+Les applications clientes doivent généralement gérer les conflits lorsque les applications sont passées d’un message au message suivant ou précédent d’un dossier. Si un message est en conflit, mais que le serveur de formulaires de ce message peut gérer les conflits, l’application cliente doit exécuter son code habituel pour afficher le message suivant ou précédent. Si le serveur de formulaires ne peut pas gérer les conflits, l’application cliente doit continuer comme si elle n’avait pas connaissance de la classe de message du message suivant ou précédent. 
   
 ## <a name="see-also"></a>Voir aussi
 

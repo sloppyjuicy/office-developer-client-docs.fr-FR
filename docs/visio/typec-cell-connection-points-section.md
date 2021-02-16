@@ -22,9 +22,9 @@ Définit le type du point de connexion.
   
 |**Valeur**|**Type**|**Constante d'automation**|
 |:-----|:-----|:-----|
-|0  <br/> |Cadre  <br/> |**visCnnctTypeInward** <br/> |
-|0,1  <br/> |Fats  <br/> |**visCnnctTypeOutward** <br/> |
-|n°2  <br/> |Vers &amp; l'intérieur  <br/> |**visCnnctTypeInwardOutward** <br/> |
+|0  <br/> |Vers l’intérieur  <br/> |**visCnnctTypeInward** <br/> |
+|1   <br/> |Vers l’extérieur  <br/> |**visCnnctTypeOutward** <br/> |
+|2   <br/> |Vers &amp; l’intérieur vers l’extérieur  <br/> |**visCnnctTypeInwardOutward** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -34,14 +34,14 @@ Pour obtenir une référence à la cellule Type / C par un nom dans une autre fo
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Connections. type [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Connections.Type[  *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Type / C par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionConnectionPts** <br/> |
-|Index de la ligne :  <br/> |**visRowConnectionPts** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowConnectionPts**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visCnnctType** (lignes non étendues) **visCnnctC** (lignes étendues)  <br/> |
    
 Pour plus d'informations sur les lignes non étendues et étendues, reportez-vous à la ligne Connection Points.

@@ -23,12 +23,12 @@ ms.locfileid: "33416264"
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure nommée qui inclut une structure [DTBLCOMBOBOX](dtblcombobox.md) pour décrire un contrôle de zone de liste déroulante et le nombre maximal de caractères pouvant être entrés dans le contrôle d'édition associé. 
+Crée une structure nommée qui inclut une structure [DTBLCOMBOBOX](dtblcombobox.md) pour décrire un contrôle de zone de liste déroulante et le nombre maximal de caractères qui peuvent être entrés dans le contrôle d’édition associé. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**DTBLCOMBOBOX** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**DTBLCOMBOBOX** <br/> |
    
 ```cpp
 SizedDtblComboBox (n, u)
@@ -38,7 +38,7 @@ SizedDtblComboBox (n, u)
 
 _n_
   
-> Nombre de caractères pouvant être entrés dans le contrôle d'édition de la zone de liste modifiable. 
+> Nombre de caractères qui peuvent être entrés dans le contrôle d’édition de la zone de liste modifiable. 
     
 _u_
   
@@ -46,7 +46,7 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblComboBox** vous permet de définir une zone de liste déroulante lorsque la longueur de la chaîne de caractères activée est connue. La nouvelle structure est créée avec les membres suivants: 
+La macro **SizedDtblComboBox** vous permet de définir une zone de liste déroulante lorsque la longueur de la chaîne de caractères activée est connue. La nouvelle structure est créée avec les membres suivants : 
   
 ```cpp
 DTBLCOMBOBOX dtblcombobox;
@@ -54,7 +54,7 @@ TCHAR lpszCharsAllowed[n];
 
 ```
 
-Pour utiliser un pointeur vers la structure obtenue à partir de la macro **SizedDtblComboBox** en tant que pointeur de structure **DTBLCOMBOBOX** , effectuez la conversion suivante: 
+Pour utiliser un pointeur vers la structure résultante de la macro **SizedDtblComboBox** en tant que pointeur de structure **DTBLCOMBOBOX,** effectuez la distribution suivante : 
   
 ```cpp
 lpDtblComboBox = (LPDTBLCOMBOBOX) &SizedDtblComboBox;

@@ -22,30 +22,30 @@ Produit une chaîne qui détermine l’ordre dans lequel les éléments de la fe
   
 ## <a name="remarks"></a>Remarques
 
-Le calcul utilisé pour comparer les valeurs SortKey est basé sur les paramètres régionaux spécifiques et ne tient pas compte des majuscules et des minuscules. Si les valeurs SortKey sont égales, les données de forme sont présentées dans l'ordre des lignes. Les données de forme qui n'ont pas de clé de tri sont répertoriées après les données de forme qui contiennent une clé de tri.
+Le calcul utilisé pour comparer les valeurs SortKey est basé sur les paramètres régionaux spécifiques et ne tient pas compte des majuscules et des minuscules. Si les valeurs SortKey sont égales, les données de forme sont présentées dans l'ordre des lignes. Les données de forme sans clé de tri sont répertoriées après les données de forme qui contiennent une clé de tri.
   
 Entrez par exemple les clés de tri suivantes pour afficher les données de forme dans la fenêtre **Données de forme** dans l’ordre Référence article, Quantité, Prix. 
   
- *Ligne, étiquette* et *SortKey* font référence à des cellules de la ligne de données de forme. Dans ce cas, les lignes de données de forme ont été nommées. 
+ *Row, Label et*  *SortKey*  font référence aux cellules de la ligne de données de forme. Dans ce cas, les lignes de données de forme ont été nommées. 
   
-|**Ligne**|**Étiquette**|**SortKey**|
+|**Ligne**|**Label**|**SortKey**|
 |:-----|:-----|:-----|
-| Prop. Item  <br/> | Référence article  <br/> | 0,1  <br/> |
-| Prop. Price  <br/> | Price  <br/> | 3  <br/> |
-| Prop. Quan  <br/> | Quantité  <br/> | n°2  <br/> |
+| Prop.Item  <br/> | Référence article  <br/> | 1   <br/> |
+| Prop.Price  <br/> | Price  <br/> | 3   <br/> |
+| Prop.Quan  <br/> | Quantité  <br/> | 2   <br/> |
    
 Pour obtenir une référence à la cellule SortKey par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | Hélice.  *Nom* . SortKey Where.  *Name* est le nom de la ligne de la propriété personnalisée.  <br/> |
+| Nom de cellule :  <br/> | Prop.  *Nom*  . SortKey où Prop.  *Name*  est le nom de la ligne de propriété personnalisée  <br/> |
    
 Pour obtenir une référence à la cellule SortKey par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visCustPropsSortKey** <br/> |
    
 

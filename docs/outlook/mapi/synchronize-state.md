@@ -1,5 +1,5 @@
 ---
-title: Synchroniser l'État
+title: Synchroniser l’état
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,33 +13,33 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414626"
 ---
-# <a name="synchronize-state"></a>Synchroniser l'État
+# <a name="synchronize-state"></a>Synchroniser l’état
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se passe lors de l'état de synchronisation de la machine à États de réplication. 
+ Cette rubrique décrit ce qui se produit pendant l’état de synchronisation de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d'État:  <br/> |**LR_SYNC** <br/> |
-|Structure de données associée:  <br/> |**[SYNCHRONI](sync.md)** <br/> |
-|À partir de cet État:  <br/> |[État inactif](idle-state.md) <br/> |
-|À cet État:  <br/> |[Télécharger](download-hierarchy-state.md)l'état de la hiérarchie, synchroniser l'état du [contenu](synchronize-contents-state.md), [charger l'État](upload-hierarchy-state.md)de la hiérarchie ou état inactif  <br/> |
+|Identificateur d’état :  <br/> |**LR_SYNC** <br/> |
+|Structure de données associée :  <br/> |**[SYNC](sync.md)** <br/> |
+|À partir de cet état :  <br/> |[État inactif](idle-state.md) <br/> |
+|À cet état :  <br/> |[Télécharger l’état de la hiérarchie,](download-hierarchy-state.md) [synchroniser l’état du contenu,](synchronize-contents-state.md) [télécharger l’état de la](upload-hierarchy-state.md)hiérarchie ou l’état inactif  <br/> |
    
 > [!NOTE]
-> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
+> La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
   
 ## <a name="description"></a>Description
 
-Cet État lance la synchronisation. Un magasin local peut effectuer une transition vers un état de téléchargement ou de téléchargement à partir de cet emplacement. Par exemple, un magasin local peut être déplacé vers l'état de la hiérarchie de téléchargement pour charger une hiérarchie de dossiers sur le serveur, ou il peut effectuer une synchronisation complète en téléchargeant d'abord la hiérarchie, puis en téléchargeant la hiérarchie à partir du serveur.
+Cet état lance la synchronisation. Un magasin local peut passer à un état de chargement ou de téléchargement à partir d’ici. Par exemple, un magasin local peut passer à l’état de hiérarchie de téléchargement pour télécharger une hiérarchie de dossiers sur le serveur, ou il peut effectuer une synchronisation complète en téléchargeant d’abord la hiérarchie, puis en téléchargeant la hiérarchie à partir du serveur.
   
-Dans cet État, Outlook initialise la structure de données de **synchronisation** associée avec le chemin d'accès au magasin local, afin qu'Outlook détecte les modifications dans les autres États. 
+Pendant cet état, Outlook initialise la structure de données **SYNC** associée avec le chemin d’accès au magasin local, afin qu’Outlook voit les modifications pendant d’autres états. 
   
-Le client définit les membres [in] de la **synchronisation**, ce qui indique à Outlook comment gérer d'autres États. Par exemple, le client peut définir *ulFlags* sur **UPS_UPLOAD_ONLY** et **UPS_THESE_FOLDERS** et *PEL* sur une liste d'identificateurs d'entrée des dossiers pour indiquer à Outlook que seuls ces dossiers seront chargés. Lorsque cet État se termine, le magasin local revient à l'état inactif. 
+Le client définit les membres [in] **de SYNC**, qui indique à Outlook comment gérer d’autres états. Par exemple, le client peut définir  *ulFlags*  sur **UPS_UPLOAD_ONLY** et **UPS_THESE_FOLDERS** et  *pel*  à une liste d’identificateurs d’entrée des dossiers pour indiquer à Outlook que seuls ces dossiers seront téléchargés. Lorsque cet état se termine, le magasin local revient à l’état inactif. 
   
 ## <a name="see-also"></a>Voir aussi
 

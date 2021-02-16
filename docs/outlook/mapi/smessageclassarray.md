@@ -29,8 +29,8 @@ Contient un tableau de pointeurs vers des chaînes de classe de message.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Macro connexe:  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Macro associée :  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |
    
 ```cpp
 typedef struct 
@@ -53,7 +53,7 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMessageClassArray** est transmise en tant que paramètre dans les méthodes suivantes: 
+La structure **SMessageClassArray** est passée en tant que paramètre dans les méthodes suivantes : 
   
 - [IMAPIFormContainer::ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md)
     

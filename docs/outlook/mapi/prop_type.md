@@ -19,18 +19,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412834"
 ---
-# <a name="proptype"></a>PROP_TYPE
+# <a name="prop_type"></a>PROP_TYPE
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le type de propriété d'une balise de propriété spécifiée.
+Renvoie le type de propriété d’une balise de propriété spécifiée.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |[SPropValue](spropvalue.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |[SPropValue](spropvalue.md) <br/> |
    
 ```cpp
 PROP_TYPE (ulPropTag)
@@ -40,13 +40,13 @@ PROP_TYPE (ulPropTag)
 
  _ulPropTag_
   
-> Balise de propriété qui contient le type de propriété à renvoyer.
+> Balise de propriété qui contient le type de propriété à retourner.
     
 ## <a name="remarks"></a>Remarques
 
-La macro **PROP_TYPE** peut être utilisée pour déterminer le type d'une propriété. Par exemple, l'appel de PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) entraîne le renvoi de la valeur PT_BINARY.
+La **PROP_TYPE** macro peut être utilisée pour déterminer le type d’une propriété. Par exemple, l’appel PROP_TYPE (**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))) entraîne la PT_BINARY renvoyée.
   
-Chaque balise de propriété contient le type de propriété dans le mot de poids faible (bits 0 à 15) et l'identificateur de la propriété dans le mot de poids fort (bits 16 à 31). La macro **PROP_TYPE** extrait le type de propriété et le place dans les bits 0 à 15 de l'entier à renvoyer. Les autres bits de la valeur de retour sont définis sur zéros. 
+Chaque balise de propriété contient le type de propriété dans le mot de bas ordre (bits 0 à 15) et l’identificateur de propriété dans le mot de haut niveau (bits 16 à 31). La **macro PROP_TYPE** extrait le type de propriété et le place en bits 0 à 15 de l’ensemble à retourner. Les autres bits de la valeur de retour sont des zéros. 
   
 ## <a name="see-also"></a>Voir aussi
 

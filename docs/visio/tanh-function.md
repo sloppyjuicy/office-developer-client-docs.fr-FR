@@ -22,13 +22,13 @@ La fonction TANH renvoie la tangente hyperbolique d’un angle.
   
 ## <a name="syntax"></a>Syntaxe
 
-TANH (* * *angle* * *) 
+TANH(** *angle* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle d'obtention de la tangente hypbolic.  <br/> |
+| _angle_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Angle de laquelle obtenir la tangente hypbique.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -36,11 +36,11 @@ Numérique
   
 ## <a name="remarks"></a>Remarques
 
-La fonction TANH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *angle* . 
+La fonction TANH utilise des radians, sauf si vous spécifiez une unité de mesure différente dans *l’angle.* 
   
 ## <a name="example"></a>Exemple
 
-TANH (-45) 
+TANH(-45) 
   
 Renvoie -0,6558. 
   

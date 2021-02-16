@@ -18,7 +18,7 @@ ms.locfileid: "33414717"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Informe le connecteur de cluster qu'un calcul Excel a été annulé et, par conséquent, tous les appels de fonction en attente au sein de cette session peuvent être annulés également (et qu'Excel n'attend pas les rappels avec leurs résultats).
+Informe le connecteur de cluster qu’un calcul Excel a été annulé et que tous les appels de fonction en attente au sein de cette session peuvent également être annulés (et qu’Excel ne s’attend pas à des rappels avec leurs résultats).
   
 ```cpp
 int CancelOutstandingRequests(int SessionId)
@@ -32,11 +32,11 @@ _SessionID_
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess** si l'argument _SessionID_ est valide; **xlHpcRetInvalidSessionId** si l'argument _SessionID_ n'est pas valide; **xlHpcRetCallFailed** sur d'autres défaillances. 
+**xlHpcRetSuccess si** l’argument  _SessionId_ est valide ; **xlHpcRetInvalidSessionId** si l’argument  _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs. 
   
 ## <a name="remarks"></a>Remarques
 
-Les responsables de l'implémentation doivent arrêter tous les processus de la session pour améliorer les performances, comme tout résultat reçu après que cet appel sera ignoré par Excel.
+Les implémenteurs doivent arrêter tous les processus de la session pour améliorer les performances, car tous les résultats reçus après cet appel seront ignorés par Excel.
   
 ## <a name="see-also"></a>Voir aussi
 

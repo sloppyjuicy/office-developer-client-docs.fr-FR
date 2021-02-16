@@ -1,5 +1,5 @@
 ---
-title: Opérateurs (application Web personnalisée Access)
+title: Operators (Access custom web app)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417063"
 ---
-# <a name="operators-access-custom-web-app"></a>Opérateurs (application Web personnalisée Access)
+# <a name="operators-access-custom-web-app"></a>Operators (Access custom web app)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Opérateurs arithmétiques (application Web personnalisée Access)](arithmetic-operators-access-custom-web-app.md)
+- [Opérateurs arithmétiques (application web personnalisée Access)](arithmetic-operators-access-custom-web-app.md)
     
-- [Opérateurs de comparaison (application Web personnalisée Access)](comparison-operators-access-custom-web-app.md)
+- [Comparison Operators (Access custom web app)](comparison-operators-access-custom-web-app.md)
     
-- [Opérateurs logiques (application Web personnalisée Access)](logical-operators-access-custom-web-app.md)
+- [Logical Operators (Access custom web app)](logical-operators-access-custom-web-app.md)
     
-- [Opérateurs de chaîne (application Web personnalisée Access)](string-operators-access-custom-web-app.md)
+- [String Operators (Access custom web app)](string-operators-access-custom-web-app.md)
     
 

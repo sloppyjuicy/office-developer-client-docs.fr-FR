@@ -19,13 +19,13 @@ ms.locfileid: "33416537"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les clients communiquent avec des fournisseurs de transport via les objets d'état fournis par les fournisseurs de transport et le spouleur MAPI. Les clients accèdent aux objets d'État en appelant [IMAPISession:: GetStatusTable](imapisession-getstatustable.md) pour récupérer la table d'État. Les objets d'État implémentent l'interface [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) , qui comporte des méthodes de configuration des fournisseurs, de vidage des files d'attente de messages entrants et sortants, de définition des mots de passe et de validation de l'État. Pour plus d'informations sur les objets d'État, voir [table d'État et objets d'État](status-table-and-status-objects.md).
+Les clients communiquent avec les fournisseurs de transport via les objets d’état fournis par les fournisseurs de transport et lepooler MAPI. Les clients accèdent aux objets d’état en appelant [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour récupérer la table d’état. Les objets d’état implémentent l’interface [IMAPIStatus : IMAPIProp,](imapistatusimapiprop.md) qui dispose de méthodes pour configurer les fournisseurs, vider les files d’attente de messages entrants et sortants, définir des mots de passe et valider l’état. Pour plus d’informations sur les objets d’état, voir [Tableau d’état et Objets d’état.](status-table-and-status-objects.md)
 
 
-- [Envoi ou réception d'un message à la demande](sending-or-receiving-a-message-on-demand.md): explique comment envoyer ou recevoir un message à la demande.
+- [Envoi ou réception d’un message à la demande](sending-or-receiving-a-message-on-demand.md): décrit comment envoyer ou recevoir un message à la demande.
     
-- [Définition](setting-transport-order.md)de l'ordre de transport: décrit la définition de l'ordre de transport.
+- [Définition de l’ordre](setting-transport-order.md)de transport : décrit comment définir l’ordre de transport.
     
-- [Reconfiguration d'un fournisseur de transport](reconfiguring-a-transport-provider.md): décrit comment reconfigurer un fournisseur de transport et quelles propriétés peuvent être définies.
+- [Reconfiguration d’un fournisseur de transport](reconfiguring-a-transport-provider.md): décrit comment reconfigurer un fournisseur de transport et quelles propriétés peuvent être définies.
     
 

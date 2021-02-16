@@ -1,5 +1,5 @@
 ---
-title: Charger l'état de la hiérarchie
+title: Charger l’état de la hiérarchie
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,31 +13,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415424"
 ---
-# <a name="upload-hierarchy-state"></a>Charger l'état de la hiérarchie
+# <a name="upload-hierarchy-state"></a>Charger l’état de la hiérarchie
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se passe lors de l'état de la hiérarchie de téléchargement de la machine à États de réplication. 
+ Cette rubrique décrit ce qui se produit pendant l’état de la hiérarchie de chargement de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d'État:  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
-|Structure de données associée:  <br/> |**[UPHIER](uphier.md)** <br/> |
-|À partir de cet État:  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
-|À cet État:  <br/> |[Charger l'état du dossier](upload-folder-state.md)ou synchroniser l'État  <br/> |
+|Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
+|Structure de données associée :  <br/> |**[UPHIER](uphier.md)** <br/> |
+|À partir de cet état :  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
+|À cet état :  <br/> |[Charger l’état du](upload-folder-state.md)dossier ou synchroniser l’état  <br/> |
    
 > [!NOTE]
-> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui fait passer un État à un autre doit finalement revenir au premier de ce dernier. 
+> La machine à états de réplication est une machine à états déterministe. Un client qui quitte un état vers un autre doit finalement revenir au premier à partir du second. 
   
 ## <a name="description"></a>Description
 
-Cet État lance le téléchargement d'une hiérarchie d'arborescence de dossiers qui a été spécifiée dans un état de synchronisation précédent. Outlook détermine le nombre de dossiers qui ont été créés ou modifiés dans cette hiérarchie et qui initialisent le **** *pourcentage* dans la valeur de la valeur de. Outlook conserve également le nombre de dossiers téléchargés avec un autre membre *iEnt* . Pour télécharger chacun des dossiers *cents* , le client déplace la banque locale dans l'état du dossier de chargement, en retournant à l'état de la hiérarchie de chargement une fois le téléchargement du dossier terminé. 
+Cet état lance le téléchargement d’une hiérarchie d’arborescence de dossiers qui a été spécifiée dans un état de synchronisation précédent. Outlook détermine le nombre de dossiers qui ont été créés ou modifiés dans cette hiérarchie et initialise  *cEnt*  dans **UPHIER**. Outlook conserve également le nombre de dossiers téléchargés avec un autre *iEnt membre.* Pour télécharger chacun des dossiers  *cEnt,*  le client place la boutique locale dans l’état du dossier de chargement, en revenir à l’état de hiérarchie de chargement une fois le chargement du dossier terminé. 
   
-Une fois l'état de la hiérarchie de téléchargement terminé, le magasin local revient à l'État Synchronize.
+Lorsque l’état de la hiérarchie de chargement se termine, le magasin local revient à l’état de synchronisation.
   
 ## <a name="see-also"></a>Voir aussi
 

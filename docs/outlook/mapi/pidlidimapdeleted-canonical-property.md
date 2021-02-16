@@ -30,14 +30,14 @@ Indique les éléments IMAP (Internet Mail Access Protocol) marqués pour suppre
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |dispidImapDeleted  <br/> |
-|Jeu de propriétés:  <br/> |PSETID_Common  <br/> |
-|ID long (couvercle):  <br/> |0x00008570  <br/> |
+|Jeu de propriétés :  <br/> |PSETID_Common  <br/> |
+|ID long (LID) :  <br/> |0x00008570  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
 |Domaine :  <br/> |IMAP  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si la valeur est différente de zéro, l'élément a été marqué pour suppression.
+Si la valeur est définie sur une valeur autre que zéro, l’élément a été marqué pour suppression.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -45,11 +45,11 @@ Si la valeur est différente de zéro, l'élément a été marqué pour suppress
 
 [[MS-OXPROPS]] 
   
-> Fournit des définitions de jeu de propriétés et des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     

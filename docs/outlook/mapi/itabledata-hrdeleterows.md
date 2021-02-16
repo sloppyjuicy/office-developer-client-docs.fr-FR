@@ -39,19 +39,19 @@ HRESULT HrDeleteRows(
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la suppression. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la suppression. L’indicateur suivant peut être définie :
     
 TAD_ALL_ROWS 
   
-> Supprime toutes les lignes de la table et de toutes les vues correspondantes, en envoyant une seule notification TABLE_RELOAD.
+> Supprime toutes les lignes de la table et tous les affichages correspondants, en envoyant une notification TABLE_RELOAD unique.
     
  _lprowsetToDelete_
   
-> dans Pointeur vers un jeu de lignes qui décrit les lignes à supprimer. Le paramètre _lprowsetToDelete_ peut être null si l'indicateur TAD_ALL_ROWS est défini dans le paramètre _ulFlags_ . 
+> [in] Pointeur vers un ensemble de lignes qui décrit les lignes à supprimer. Le _paramètre lprowsetToDelete_ peut être NULL si l’TAD_ALL_ROWS est définie dans le _paramètre ulFlags._ 
     
  _cRowsDeleted_
   
-> remarquer Nombre de lignes supprimées.
+> [out] Nombre de lignes supprimées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,13 +61,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **ITableData:: HrDeleteRows** localise et supprime les lignes de table qui contiennent les colonnes qui correspondent à la propriété sur laquelle pointe le membre **LpProps** de chaque **aRow** entrée du jeu de lignes. Une colonne d'index est utilisée pour identifier chaque ligne; Cette colonne doit avoir la même balise de propriété que la balise de propriété passée dans le paramètre _ulPropTagIndexColumn_ dans l'appel à la fonction [CreateTable](createtable.md) . 
+La **méthode ITableData::HrDeleteRows** localise et supprime les lignes de tableau qui contiennent les colonnes qui correspondent à la propriété pointée par le membre **lpProps** de chaque entrée **aRow** dans le jeu de lignes. Une colonne d’index est utilisée pour identifier chaque ligne ; Cette colonne doit avoir la même balise de propriété que la balise de propriété transmise dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la [fonction CreateTable.](createtable.md) 
   
-Le nombre de lignes réellement supprimées est renvoyé dans _cRowsDeleted_. Aucune erreur n'est renvoyée si une ou plusieurs lignes sont introuvables. 
+Le nombre de lignes réellement supprimées est renvoyé dans  _cRowsDeleted_. Aucune erreur n’est renvoyée si une ou plusieurs lignes sont in trouvées. 
   
-Une fois les lignes supprimées, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable:: Advise](imapitable-advise.md) pour s'inscrire aux notifications. 
+Une fois les lignes supprimées, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable::Advise](imapitable-advise.md) de la table pour s’inscrire aux notifications. 
   
-La suppression de lignes ne réduit pas les colonnes disponibles pour les affichages de tableau existants ou les vues de table ouvertes par la suite, même si les lignes supprimées sont les dernières qui contiennent des valeurs pour une colonne spécifique.
+La suppression de lignes ne réduit pas les colonnes disponibles pour les affichages table existants ou les affichages de tableau ouverts par la suite, même si les lignes supprimées sont les dernières qui ont des valeurs pour une colonne spécifique.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,7 +25,7 @@ ms.locfileid: "33415179"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une valeur de contrôle de redondance cyclique (CRC) sur le texte du message.
+Contient une valeur de vérification de redondance cyclique (CRC) sur le texte du message.
   
 |||
 |:-----|:-----|
@@ -36,21 +36,21 @@ Contient une valeur de contrôle de redondance cyclique (CRC) sur le texte du me
    
 ## <a name="remarks"></a>Remarques
 
-La Banque de messages peut utiliser n'importe quel algorithme CRC qui génère une valeur PT_LONG. Il doit calculer cette propriété dans le cadre de la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) lorsque la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) a été définie pour la première fois et chaque fois qu'elle a été modifiée par la suite.
+La magasin de messages peut utiliser n’importe quel algorithme CRC qui génère une PT_LONG valeur. Elle doit calculer cette propriété dans le cadre de la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) lorsque la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) a été définie pour la première fois et chaque fois qu’elle a été modifiée par la suite.
   
-Une application cliente utilise **PR_BODY_CRC** pour faciliter la comparaison des chaînes de texte de message contenues dans les propriétés **PR_BODY** ou leurs variantes. À l'aide de cette propriété, le client peut rapidement et facilement détecter lorsque le texte du message a changé. Elle peut réaliser des gains de performances significatifs à l'aide de **PR_BODY_CRC** au lieu d'obtenir des **PR_BODY** à partir de la Banque de messages et de la comparer avec une version locale. 
+Une application cliente utilise **PR_BODY_CRC** pour vous aider à comparer les chaînes de texte de message contenues **dans PR_BODY** propriétés ou leurs variantes. À l’aide de cette propriété, le client peut rapidement et facilement détecter si le texte du message a changé. Il peut réaliser des gains de performances significatifs en  utilisant **PR_BODY_CRC** au lieu d’obtenir des PR_BODY dans la boutique de messages et de les comparer à une version locale. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

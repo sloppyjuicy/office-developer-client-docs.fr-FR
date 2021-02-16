@@ -27,11 +27,11 @@ Contient le nom de la balise d’action à laquelle cette action est associée.
 
 La cellule TagName de la section Actions fonctionne avec la cellule TagName de la section Action Tags pour associer une balise d’action à ses actions. 
   
-- Si la cellule TagName d'une ligne actions est vide, l'action apparaît dans un menu contextuel, pas dans un menu de balise d'action.
+- Si la cellule TagName d’une ligne Actions est vide, l’action apparaît dans un menu raccourci, et non dans un menu de balise d’action.
     
-- Si la valeur d'une cellule TagName de la ligne actions correspond à la valeur de la cellule TagName d'une ligne Smart Tags, l'action apparaît dans le menu de la balise d'action.
+- Si une valeur de cellule TagName dans la ligne Actions correspond à la valeur de cellule TagName dans une ligne Smart Tags, l’action apparaît dans le menu de balise d’action.
     
-- Si la cellule TagName d'une action a une valeur mais qu'elle ne correspond pas à la valeur TagName de la ligne de la balise de la forme, cette action n'apparaît pas dans les menus de la balise d'action ou dans les menus contextuels.
+- Si la cellule TagName d’une action a une valeur, mais qu’elle ne correspond à la valeur TagName dans aucune ligne de balise de forme, cette action n’apparaît dans aucun menu de balise d’action ou menu raccourci.
     
 - Si plusieurs lignes Smart Tags contiennent la même valeur TagName, elles présentent toutes les mêmes actions.
     
@@ -39,14 +39,14 @@ Pour obtenir une référence à la cellule TagName par un nom dans une autre for
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Mesures. *nom* . Actions Tagnameoù.  *Name* est le nom de la ligne d'actions  <br/> |
+|Nom de cellule :  <br/> |Actions. *nom*  . Actions TagNamewhere.  *name*  est le nom de la ligne Actions  <br/> |
    
 Pour obtenir une référence à la cellule TagName par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction** +  *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2...  <br/> |
 |Index de la cellule :  <br/> |**visActionTagName** <br/> |
    
 

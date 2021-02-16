@@ -25,12 +25,12 @@ ms.locfileid: "33413121"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [SMessageClassArray](smessageclassarray.md) existante qui contient un nombre spécifié de pointeurs de chaîne vers des classes de message. 
+Calcule le nombre d’octets dans une structure [SMessageClassArray](smessageclassarray.md) existante qui contient un nombre spécifié de pointeurs de chaîne vers des classes de message. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SMessageClassArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SMessageClassArray** <br/> |
    
 ```cpp
 CbMessageClassArray (_c)
@@ -38,9 +38,9 @@ CbMessageClassArray (_c)
 
 ## <a name="parameters"></a>Paramètres
 
- __c_
+ _ _c_
   
-> DéCompte des pointeurs vers les classes de message incluses dans le **SMessageClassArray**existant.
+> Nombre de pointeurs vers les classes de message incluses dans **l’array SMessageClassArray existant.**
     
 ## <a name="see-also"></a>Voir aussi
 
