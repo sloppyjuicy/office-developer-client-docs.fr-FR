@@ -1,5 +1,5 @@
 ---
-title: Suppression d'un service de messagerie
+title: Suppression d’un service de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,18 +15,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428122"
 ---
-# <a name="deleting-a-message-service"></a><span data-ttu-id="2416d-103">Suppression d'un service de messagerie</span><span class="sxs-lookup"><span data-stu-id="2416d-103">Deleting a Message Service</span></span>
+# <a name="deleting-a-message-service"></a><span data-ttu-id="dcd21-103">Suppression d’un service de message</span><span class="sxs-lookup"><span data-stu-id="dcd21-103">Deleting a Message Service</span></span>
 
   
   
-<span data-ttu-id="2416d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2416d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="dcd21-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dcd21-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="2416d-105">**Pour supprimer un service de messagerie d'un profil**</span><span class="sxs-lookup"><span data-stu-id="2416d-105">**To delete a message service from a profile**</span></span>
+ <span data-ttu-id="dcd21-105">**Pour supprimer un service de message d’un profil**</span><span class="sxs-lookup"><span data-stu-id="dcd21-105">**To delete a message service from a profile**</span></span>
   
-1. <span data-ttu-id="2416d-106">Appelez **IMAPISession:: GetMsgServiceTable** pour accéder à la table des services de messagerie.</span><span class="sxs-lookup"><span data-stu-id="2416d-106">Call **IMAPISession::GetMsgServiceTable** to access the message service table.</span></span> 
+1. <span data-ttu-id="dcd21-106">Appelez **IMAPISession::GetMsgServiceTable** pour accéder à la table de service de message.</span><span class="sxs-lookup"><span data-stu-id="dcd21-106">Call **IMAPISession::GetMsgServiceTable** to access the message service table.</span></span> 
     
-2. <span data-ttu-id="2416d-107">Localisez la ligne du service de messagerie et transmettez sa colonne **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) dans le paramètre _Lpuid_ à [IMsgServiceAdmin::D eletemsgservice](imsgserviceadmin-deletemsgservice.md).</span><span class="sxs-lookup"><span data-stu-id="2416d-107">Locate the row for the message service and pass its **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column in the  _lpuid_ parameter to [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md).</span></span> 
+2. <span data-ttu-id="dcd21-107">Recherchez la ligne du service de message et passez sa colonne **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) dans le paramètre  _lpuid_ à [IMsgServiceAdmin::D eleteMsgService](imsgserviceadmin-deletemsgservice.md).</span><span class="sxs-lookup"><span data-stu-id="dcd21-107">Locate the row for the message service and pass its **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column in the  _lpuid_ parameter to [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md).</span></span> 
     
- <span data-ttu-id="2416d-108">**DeleteMsgService** appelle la fonction de point d'entrée du service de messagerie avec le paramètre _ULCONTEXT_ défini sur MSG_SERVICE_DELETE.</span><span class="sxs-lookup"><span data-stu-id="2416d-108">**DeleteMsgService** calls the message service's entry point function with the  _ulContext_ parameter set to MSG_SERVICE_DELETE.</span></span> <span data-ttu-id="2416d-109">Les services de messagerie effectuent toutes les tâches de nettoyage pour le moment précédant leur suppression du profil.</span><span class="sxs-lookup"><span data-stu-id="2416d-109">Message services perform any clean up tasks at this time before they are removed from the profile.</span></span> 
+ <span data-ttu-id="dcd21-108">**DeleteMsgService** appelle la fonction de point d’entrée du service de message avec le paramètre  _ulContext_ MSG_SERVICE_DELETE.</span><span class="sxs-lookup"><span data-stu-id="dcd21-108">**DeleteMsgService** calls the message service's entry point function with the  _ulContext_ parameter set to MSG_SERVICE_DELETE.</span></span> <span data-ttu-id="dcd21-109">Les services de messages effectuent actuellement des tâches de nettoyage avant leur suppression du profil.</span><span class="sxs-lookup"><span data-stu-id="dcd21-109">Message services perform any clean up tasks at this time before they are removed from the profile.</span></span> 
   
 

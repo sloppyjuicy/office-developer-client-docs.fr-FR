@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426778"
 ---
-# <a name="imapisupportdetails"></a><span data-ttu-id="ddc63-103">IMAPISupport::Details</span><span class="sxs-lookup"><span data-stu-id="ddc63-103">IMAPISupport::Details</span></span>
+# <a name="imapisupportdetails"></a><span data-ttu-id="37dae-103">IMAPISupport::Details</span><span class="sxs-lookup"><span data-stu-id="37dae-103">IMAPISupport::Details</span></span>
 
   
   
-<span data-ttu-id="ddc63-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ddc63-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="37dae-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="37dae-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ddc63-105">Affiche une boîte de dialogue qui affiche des détails sur une entrée de carnet d'adresses particulière.</span><span class="sxs-lookup"><span data-stu-id="ddc63-105">Displays a dialog box that shows details about a particular address book entry.</span></span>
+<span data-ttu-id="37dae-105">Affiche une boîte de dialogue qui affiche des détails sur une entrée de carnet d’adresses particulière.</span><span class="sxs-lookup"><span data-stu-id="37dae-105">Displays a dialog box that shows details about a particular address book entry.</span></span>
   
 ```cpp
 HRESULT Details(
@@ -41,75 +41,75 @@ HRESULT Details(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="ddc63-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="ddc63-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="37dae-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="37dae-106">Parameters</span></span>
 
- <span data-ttu-id="ddc63-107">_lpulUIParam_</span><span class="sxs-lookup"><span data-stu-id="ddc63-107">_lpulUIParam_</span></span>
+ <span data-ttu-id="37dae-107">_lpulUIParam_</span><span class="sxs-lookup"><span data-stu-id="37dae-107">_lpulUIParam_</span></span>
   
-> <span data-ttu-id="ddc63-108">remarquer Pointeur vers le handle de la fenêtre parente de la boîte de dialogue renvoyée.</span><span class="sxs-lookup"><span data-stu-id="ddc63-108">[out] A pointer to the handle to the parent window of the returned dialog box.</span></span>
+> <span data-ttu-id="37dae-108">[out] Pointeur vers la poignée vers la fenêtre parente de la boîte de dialogue renvoyée.</span><span class="sxs-lookup"><span data-stu-id="37dae-108">[out] A pointer to the handle to the parent window of the returned dialog box.</span></span>
     
- <span data-ttu-id="ddc63-109">_lpfnDismiss_</span><span class="sxs-lookup"><span data-stu-id="ddc63-109">_lpfnDismiss_</span></span>
+ <span data-ttu-id="37dae-109">_lpfnDismiss_</span><span class="sxs-lookup"><span data-stu-id="37dae-109">_lpfnDismiss_</span></span>
   
-> <span data-ttu-id="ddc63-110">dans Pointeur vers une fonction basée sur le prototype [DISMISSMODELESS](dismissmodeless.md) , ou valeur null.</span><span class="sxs-lookup"><span data-stu-id="ddc63-110">[in] A pointer to a function based on the [DISMISSMODELESS](dismissmodeless.md) prototype, or NULL.</span></span> <span data-ttu-id="ddc63-111">Ce membre s'applique uniquement à la version non modale de la boîte de dialogue, comme indiqué par l'indicateur DIALOG_SDI défini.</span><span class="sxs-lookup"><span data-stu-id="ddc63-111">This member applies only to the modeless version of the dialog box, as indicated by the DIALOG_SDI flag being set.</span></span> <span data-ttu-id="ddc63-112">MAPI appelle la fonction **DISMISSMODELESS** lorsque l'utilisateur fait disparaître la boîte de dialogue d'adresses non modale, en informant un client qui appelle **IMAPISupport::D etails** que la boîte de dialogue n'est plus active.</span><span class="sxs-lookup"><span data-stu-id="ddc63-112">MAPI calls the **DISMISSMODELESS** function when the user dismisses the modeless address dialog box, informing a client that is calling **IMAPISupport::Details** that the dialog box is no longer active.</span></span> 
+> <span data-ttu-id="37dae-110">[in] Pointeur vers une fonction basée sur le prototype [DISMISSMODELESS](dismissmodeless.md) ou NULL.</span><span class="sxs-lookup"><span data-stu-id="37dae-110">[in] A pointer to a function based on the [DISMISSMODELESS](dismissmodeless.md) prototype, or NULL.</span></span> <span data-ttu-id="37dae-111">Ce membre s’applique uniquement à la version sans mode de la boîte de dialogue, comme indiqué par l’indicateur DIALOG_SDI en cours de mise en place.</span><span class="sxs-lookup"><span data-stu-id="37dae-111">This member applies only to the modeless version of the dialog box, as indicated by the DIALOG_SDI flag being set.</span></span> <span data-ttu-id="37dae-112">MAPI appelle la fonction **DISMISSMODELESS** lorsque l’utilisateur fait disparaître la boîte de dialogue d’adresses sans mode, informant un client qui appelle **IMAPISupport::D etails** que la boîte de dialogue n’est plus active.</span><span class="sxs-lookup"><span data-stu-id="37dae-112">MAPI calls the **DISMISSMODELESS** function when the user dismisses the modeless address dialog box, informing a client that is calling **IMAPISupport::Details** that the dialog box is no longer active.</span></span> 
     
- <span data-ttu-id="ddc63-113">_lpvDismissContext_</span><span class="sxs-lookup"><span data-stu-id="ddc63-113">_lpvDismissContext_</span></span>
+ <span data-ttu-id="37dae-113">_lpvDismissContext_</span><span class="sxs-lookup"><span data-stu-id="37dae-113">_lpvDismissContext_</span></span>
   
-> <span data-ttu-id="ddc63-114">dans Pointeur vers les informations de contexte à transmettre à la fonction **DISMISSMODELESS** vers laquelle pointe le paramètre _lpfnDismiss_ .</span><span class="sxs-lookup"><span data-stu-id="ddc63-114">[in] A pointer to context information to pass to the **DISMISSMODELESS** function pointed to by the  _lpfnDismiss_ parameter.</span></span> <span data-ttu-id="ddc63-115">Ce paramètre s'applique uniquement à la version non modale de la boîte de dialogue, en incluant l'indicateur DIALOG_SDI dans le paramètre _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="ddc63-115">This parameter applies only to the modeless version of the dialog box, by including the DIALOG_SDI flag in the  _ulFlags_ parameter.</span></span> 
+> <span data-ttu-id="37dae-114">[in] Pointeur vers les informations de contexte à transmettre à la **fonction DISMISSMODELESS** pointée par le paramètre _lpfnDismiss._</span><span class="sxs-lookup"><span data-stu-id="37dae-114">[in] A pointer to context information to pass to the **DISMISSMODELESS** function pointed to by the  _lpfnDismiss_ parameter.</span></span> <span data-ttu-id="37dae-115">Ce paramètre s’applique uniquement à la version sans mode de la boîte de dialogue, en incluant l’indicateur DIALOG_SDI dans le _paramètre ulFlags._</span><span class="sxs-lookup"><span data-stu-id="37dae-115">This parameter applies only to the modeless version of the dialog box, by including the DIALOG_SDI flag in the  _ulFlags_ parameter.</span></span> 
     
- <span data-ttu-id="ddc63-116">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="ddc63-116">_cbEntryID_</span></span>
+ <span data-ttu-id="37dae-116">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="37dae-116">_cbEntryID_</span></span>
   
-> <span data-ttu-id="ddc63-117">dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ .</span><span class="sxs-lookup"><span data-stu-id="ddc63-117">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="37dae-117">[in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._</span><span class="sxs-lookup"><span data-stu-id="37dae-117">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="ddc63-118">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="ddc63-118">_lpEntryID_</span></span>
+ <span data-ttu-id="37dae-118">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="37dae-118">_lpEntryID_</span></span>
   
-> <span data-ttu-id="ddc63-119">dans Pointeur vers l'identificateur d'entrée pour laquelle les détails sont affichés.</span><span class="sxs-lookup"><span data-stu-id="ddc63-119">[in] A pointer to the entry identifier for which details are displayed.</span></span>
+> <span data-ttu-id="37dae-119">[in] Pointeur vers l’identificateur d’entrée pour lequel les détails sont affichés.</span><span class="sxs-lookup"><span data-stu-id="37dae-119">[in] A pointer to the entry identifier for which details are displayed.</span></span>
     
- <span data-ttu-id="ddc63-120">_lpfButtonCallback_</span><span class="sxs-lookup"><span data-stu-id="ddc63-120">_lpfButtonCallback_</span></span>
+ <span data-ttu-id="37dae-120">_lpfButtonCallback_</span><span class="sxs-lookup"><span data-stu-id="37dae-120">_lpfButtonCallback_</span></span>
   
-> <span data-ttu-id="ddc63-121">dans Pointeur vers une fonction basée sur le prototype de fonction [LPFNBUTTON](lpfnbutton.md) .</span><span class="sxs-lookup"><span data-stu-id="ddc63-121">[in] A pointer to a function based on the [LPFNBUTTON](lpfnbutton.md) function prototype.</span></span> <span data-ttu-id="ddc63-122">Une fonction **LPFNBUTTON** ajoute un bouton à la boîte de dialogue détails.</span><span class="sxs-lookup"><span data-stu-id="ddc63-122">An **LPFNBUTTON** function adds a button to the details dialog box.</span></span> 
+> <span data-ttu-id="37dae-121">[in] Pointeur vers une fonction basée sur le prototype de fonction [LPFNBUTTON.](lpfnbutton.md)</span><span class="sxs-lookup"><span data-stu-id="37dae-121">[in] A pointer to a function based on the [LPFNBUTTON](lpfnbutton.md) function prototype.</span></span> <span data-ttu-id="37dae-122">Une **fonction LPFNBUTTON** ajoute un bouton à la boîte de dialogue Détails.</span><span class="sxs-lookup"><span data-stu-id="37dae-122">An **LPFNBUTTON** function adds a button to the details dialog box.</span></span> 
     
- <span data-ttu-id="ddc63-123">_lpvButtonContext_</span><span class="sxs-lookup"><span data-stu-id="ddc63-123">_lpvButtonContext_</span></span>
+ <span data-ttu-id="37dae-123">_lpvButtonContext_</span><span class="sxs-lookup"><span data-stu-id="37dae-123">_lpvButtonContext_</span></span>
   
-> <span data-ttu-id="ddc63-124">dans Pointeur vers les données utilisées comme paramètre pour la fonction spécifiée par le paramètre _lpfButtonCallback_ .</span><span class="sxs-lookup"><span data-stu-id="ddc63-124">[in] A pointer to data used as a parameter for the function specified by the  _lpfButtonCallback_ parameter.</span></span> 
+> <span data-ttu-id="37dae-124">[in] Pointeur vers des données utilisées comme paramètre pour la fonction spécifiée par le paramètre _lpfButtonCallback._</span><span class="sxs-lookup"><span data-stu-id="37dae-124">[in] A pointer to data used as a parameter for the function specified by the  _lpfButtonCallback_ parameter.</span></span> 
     
- <span data-ttu-id="ddc63-125">_lpszButtonText_</span><span class="sxs-lookup"><span data-stu-id="ddc63-125">_lpszButtonText_</span></span>
+ <span data-ttu-id="37dae-125">_lpszButtonText_</span><span class="sxs-lookup"><span data-stu-id="37dae-125">_lpszButtonText_</span></span>
   
-> <span data-ttu-id="ddc63-126">dans Pointeur vers une chaîne qui contient le texte à appliquer au bouton ajouté si ce bouton est extensible.</span><span class="sxs-lookup"><span data-stu-id="ddc63-126">[in] A pointer to a string that contains text to be applied to the added button if that button is extensible.</span></span> <span data-ttu-id="ddc63-127">Le paramètre _lpszButtonText_ doit être null si aucun bouton extensible n'est nécessaire.</span><span class="sxs-lookup"><span data-stu-id="ddc63-127">The  _lpszButtonText_ parameter should be NULL if an extensible button is not needed.</span></span> 
+> <span data-ttu-id="37dae-126">[in] Pointeur vers une chaîne qui contient du texte à appliquer au bouton ajouté si ce bouton est extensible.</span><span class="sxs-lookup"><span data-stu-id="37dae-126">[in] A pointer to a string that contains text to be applied to the added button if that button is extensible.</span></span> <span data-ttu-id="37dae-127">Le  _paramètre lpszButtonText_ doit être NULL si un bouton extensible n’est pas nécessaire.</span><span class="sxs-lookup"><span data-stu-id="37dae-127">The  _lpszButtonText_ parameter should be NULL if an extensible button is not needed.</span></span> 
     
- <span data-ttu-id="ddc63-128">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="ddc63-128">_ulFlags_</span></span>
+ <span data-ttu-id="37dae-128">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="37dae-128">_ulFlags_</span></span>
   
-> <span data-ttu-id="ddc63-129">dans Masque de des indicateurs qui contrôle le type de texte pour le paramètre _lpszButtonText_ .</span><span class="sxs-lookup"><span data-stu-id="ddc63-129">[in] A bitmask of flags that controls the type of the text for the  _lpszButtonText_ parameter.</span></span> <span data-ttu-id="ddc63-130">L'indicateur suivant peut être défini:</span><span class="sxs-lookup"><span data-stu-id="ddc63-130">The following flag can be set:</span></span> 
+> <span data-ttu-id="37dae-129">[in] Masque de bits d’indicateurs qui contrôle le type du texte pour le _paramètre lpszButtonText._</span><span class="sxs-lookup"><span data-stu-id="37dae-129">[in] A bitmask of flags that controls the type of the text for the  _lpszButtonText_ parameter.</span></span> <span data-ttu-id="37dae-130">L’indicateur suivant peut être définie :</span><span class="sxs-lookup"><span data-stu-id="37dae-130">The following flag can be set:</span></span> 
     
-<span data-ttu-id="ddc63-131">DIALOG_MODAL</span><span class="sxs-lookup"><span data-stu-id="ddc63-131">DIALOG_MODAL</span></span>
+<span data-ttu-id="37dae-131">DIALOG_MODAL</span><span class="sxs-lookup"><span data-stu-id="37dae-131">DIALOG_MODAL</span></span>
   
-> <span data-ttu-id="ddc63-132">Affiche la version modale de la boîte de dialogue adresse commune.</span><span class="sxs-lookup"><span data-stu-id="ddc63-132">Display the modal version of the common address dialog box.</span></span> <span data-ttu-id="ddc63-133">Cet indicateur est mutuellement exclusif avec DIALOG_SDI.</span><span class="sxs-lookup"><span data-stu-id="ddc63-133">This flag is mutually exclusive with DIALOG_SDI.</span></span>
+> <span data-ttu-id="37dae-132">Affiche la version modale de la boîte de dialogue d’adresse commune.</span><span class="sxs-lookup"><span data-stu-id="37dae-132">Display the modal version of the common address dialog box.</span></span> <span data-ttu-id="37dae-133">Cet indicateur s’exclue mutuellement avec DIALOG_SDI.</span><span class="sxs-lookup"><span data-stu-id="37dae-133">This flag is mutually exclusive with DIALOG_SDI.</span></span>
     
-<span data-ttu-id="ddc63-134">DIALOG_SDI</span><span class="sxs-lookup"><span data-stu-id="ddc63-134">DIALOG_SDI</span></span>
+<span data-ttu-id="37dae-134">DIALOG_SDI</span><span class="sxs-lookup"><span data-stu-id="37dae-134">DIALOG_SDI</span></span>
   
->  <span data-ttu-id="ddc63-135">Affiche la version non modale de la boîte de dialogue adresse commune.</span><span class="sxs-lookup"><span data-stu-id="ddc63-135">Display the modeless version of the common address dialog box.</span></span> <span data-ttu-id="ddc63-136">Cet indicateur est mutuellement exclusif avec DIALOG_MODAL.</span><span class="sxs-lookup"><span data-stu-id="ddc63-136">This flag is mutually exclusive with DIALOG_MODAL.</span></span> 
+>  <span data-ttu-id="37dae-135">Affiche la version non modée de la boîte de dialogue d’adresse commune.</span><span class="sxs-lookup"><span data-stu-id="37dae-135">Display the modeless version of the common address dialog box.</span></span> <span data-ttu-id="37dae-136">Cet indicateur s’exclue mutuellement avec DIALOG_MODAL.</span><span class="sxs-lookup"><span data-stu-id="37dae-136">This flag is mutually exclusive with DIALOG_MODAL.</span></span> 
     
-<span data-ttu-id="ddc63-137">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="ddc63-137">MAPI_UNICODE</span></span> 
+<span data-ttu-id="37dae-137">MAPI_UNICODE</span><span class="sxs-lookup"><span data-stu-id="37dae-137">MAPI_UNICODE</span></span> 
   
-> <span data-ttu-id="ddc63-138">Les chaînes transmises sont au format Unicode.</span><span class="sxs-lookup"><span data-stu-id="ddc63-138">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="ddc63-139">Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.</span><span class="sxs-lookup"><span data-stu-id="ddc63-139">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
+> <span data-ttu-id="37dae-138">Les chaînes transmises sont au format Unicode.</span><span class="sxs-lookup"><span data-stu-id="37dae-138">The passed-in strings are in Unicode format.</span></span> <span data-ttu-id="37dae-139">Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.</span><span class="sxs-lookup"><span data-stu-id="37dae-139">If the MAPI_UNICODE flag is not set, the strings are in ANSI format.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="ddc63-140">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="ddc63-140">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="37dae-140">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="37dae-140">Return value</span></span>
 
-<span data-ttu-id="ddc63-141">S_OK</span><span class="sxs-lookup"><span data-stu-id="ddc63-141">S_OK</span></span> 
+<span data-ttu-id="37dae-141">S_OK</span><span class="sxs-lookup"><span data-stu-id="37dae-141">S_OK</span></span> 
   
-> <span data-ttu-id="ddc63-142">La boîte de dialogue détails a été affichée pour l'entrée de carnet d'adresses.</span><span class="sxs-lookup"><span data-stu-id="ddc63-142">The details dialog box was successfully displayed for the address book entry.</span></span>
+> <span data-ttu-id="37dae-142">La boîte de dialogue Détails a été affichée avec succès pour l’entrée du carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="37dae-142">The details dialog box was successfully displayed for the address book entry.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="ddc63-143">Remarques</span><span class="sxs-lookup"><span data-stu-id="ddc63-143">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="37dae-143">Remarques</span><span class="sxs-lookup"><span data-stu-id="37dae-143">Remarks</span></span>
 
-<span data-ttu-id="ddc63-144">La méthode **IMAPISupport::D etails** est implémentée pour les objets de prise en charge du fournisseur de carnets d'adresses.</span><span class="sxs-lookup"><span data-stu-id="ddc63-144">The **IMAPISupport::Details** method is implemented for address book provider support objects.</span></span> <span data-ttu-id="ddc63-145">Fournisseurs de carnet d'adresses **Détails** des appels pour afficher une boîte de dialogue qui fournit des détails sur une entrée particulière dans le carnet d'adresses.</span><span class="sxs-lookup"><span data-stu-id="ddc63-145">Address book providers call **Details** to display a dialog box that gives details on a particular entry in the address book.</span></span> <span data-ttu-id="ddc63-146">Les paramètres _lpfButtonCallback_, _lpvButtonContext_et _lpszButtonText_ peuvent être utilisés pour ajouter un bouton défini par le client à la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="ddc63-146">The  _lpfButtonCallback_,  _lpvButtonContext_, and  _lpszButtonText_ parameters can be used to add a client-defined button to the dialog box.</span></span> <span data-ttu-id="ddc63-147">Lorsque l'utilisateur clique sur le bouton, MAPI appelle la fonction de rappel pointée par _lpfButtonCallback_, en transmettant l'identificateur d'entrée du bouton et les données dans _lpvButtonContext_.</span><span class="sxs-lookup"><span data-stu-id="ddc63-147">When the button is clicked, MAPI calls the callback function pointed to by  _lpfButtonCallback_, passing both the entry identifier of the button and the data in  _lpvButtonContext_.</span></span> <span data-ttu-id="ddc63-148">Si un bouton extensible n'est pas nécessaire, _lpszButtonText_ doit être null.</span><span class="sxs-lookup"><span data-stu-id="ddc63-148">If an extensible button is not needed,  _lpszButtonText_ should be NULL.</span></span> 
+<span data-ttu-id="37dae-144">La **méthode IMAPISupport::D etails** est implémentée pour les objets de prise en charge du fournisseur de carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="37dae-144">The **IMAPISupport::Details** method is implemented for address book provider support objects.</span></span> <span data-ttu-id="37dae-145">Les fournisseurs de carnet d’adresses appellent **Details** pour afficher une boîte de dialogue qui fournit des détails sur une entrée particulière dans le carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="37dae-145">Address book providers call **Details** to display a dialog box that gives details on a particular entry in the address book.</span></span> <span data-ttu-id="37dae-146">Les  _paramètres lpfButtonCallback,_  _lpvButtonContext_ et  _lpszButtonText_ peuvent être utilisés pour ajouter un bouton défini par le client à la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="37dae-146">The  _lpfButtonCallback_,  _lpvButtonContext_, and  _lpszButtonText_ parameters can be used to add a client-defined button to the dialog box.</span></span> <span data-ttu-id="37dae-147">Lorsque vous cliquez sur le bouton, MAPI appelle la fonction de rappel pointée par  _lpfButtonCallback_, en passant l’identificateur d’entrée du bouton et les données dans  _lpvButtonContext_.</span><span class="sxs-lookup"><span data-stu-id="37dae-147">When the button is clicked, MAPI calls the callback function pointed to by  _lpfButtonCallback_, passing both the entry identifier of the button and the data in  _lpvButtonContext_.</span></span> <span data-ttu-id="37dae-148">Si un bouton extensible n’est pas nécessaire,  _lpszButtonText_ doit avoir la valeur NULL.</span><span class="sxs-lookup"><span data-stu-id="37dae-148">If an extensible button is not needed,  _lpszButtonText_ should be NULL.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="ddc63-149">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ddc63-149">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="37dae-149">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="37dae-149">See also</span></span>
 
 
 
-[<span data-ttu-id="ddc63-150">ADRPARM</span><span class="sxs-lookup"><span data-stu-id="ddc63-150">ADRPARM</span></span>](adrparm.md)
+[<span data-ttu-id="37dae-150">ADRPARM</span><span class="sxs-lookup"><span data-stu-id="37dae-150">ADRPARM</span></span>](adrparm.md)
   
-[<span data-ttu-id="ddc63-151">IMAPISupport::Address</span><span class="sxs-lookup"><span data-stu-id="ddc63-151">IMAPISupport::Address</span></span>](imapisupport-address.md)
+[<span data-ttu-id="37dae-151">IMAPISupport::Address</span><span class="sxs-lookup"><span data-stu-id="37dae-151">IMAPISupport::Address</span></span>](imapisupport-address.md)
   
-[<span data-ttu-id="ddc63-152">LPFNBUTTON</span><span class="sxs-lookup"><span data-stu-id="ddc63-152">LPFNBUTTON</span></span>](lpfnbutton.md)
+[<span data-ttu-id="37dae-152">LPFNBUTTON</span><span class="sxs-lookup"><span data-stu-id="37dae-152">LPFNBUTTON</span></span>](lpfnbutton.md)
   
-[<span data-ttu-id="ddc63-153">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="ddc63-153">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="37dae-153">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="37dae-153">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

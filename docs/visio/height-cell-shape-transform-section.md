@@ -16,24 +16,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422865"
 ---
-# <a name="height-cell-shape-transform-section"></a><span data-ttu-id="be73f-103">Height, cellule (section Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="be73f-103">Height Cell (Shape Transform Section)</span></span>
+# <a name="height-cell-shape-transform-section"></a><span data-ttu-id="c4513-103">Height, cellule (section Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="c4513-103">Height Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="be73f-104">Détermine la hauteur de la forme exprimée en unités de dessin.</span><span class="sxs-lookup"><span data-stu-id="be73f-104">Determines the height of the shape in drawing units.</span></span>
+<span data-ttu-id="c4513-104">Détermine la hauteur de la forme exprimée en unités de dessin.</span><span class="sxs-lookup"><span data-stu-id="c4513-104">Determines the height of the shape in drawing units.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="be73f-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="be73f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c4513-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="c4513-105">Remarks</span></span>
 
-<span data-ttu-id="be73f-106">Pour obtenir une référence à la cellule Height par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="be73f-106">To get a reference to the Height cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="c4513-106">Pour obtenir une référence à la cellule Height par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="c4513-106">To get a reference to the Height cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="be73f-107">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="be73f-107">Cell name:</span></span>  <br/> | <span data-ttu-id="be73f-108">Hauteur</span><span class="sxs-lookup"><span data-stu-id="be73f-108">Height</span></span>  <br/> |
+| <span data-ttu-id="c4513-107">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="c4513-107">Cell name:</span></span>  <br/> | <span data-ttu-id="c4513-108">Hauteur</span><span class="sxs-lookup"><span data-stu-id="c4513-108">Height</span></span>  <br/> |
    
-<span data-ttu-id="be73f-109">Pour obtenir une référence à la cellule Height à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="be73f-109">To get a reference to the Height cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="c4513-109">Pour obtenir une référence à la cellule Height à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="c4513-109">To get a reference to the Height cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="be73f-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="be73f-110">Section index:</span></span>  <br/> |<span data-ttu-id="be73f-111">**Définis**</span><span class="sxs-lookup"><span data-stu-id="be73f-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="be73f-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="be73f-112">Row index:</span></span>  <br/> |<span data-ttu-id="be73f-113">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="be73f-113">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="be73f-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="be73f-114">Cell index:</span></span>  <br/> |<span data-ttu-id="be73f-115">**visXFormHeight**</span><span class="sxs-lookup"><span data-stu-id="be73f-115">**visXFormHeight**</span></span> <br/> |
+| <span data-ttu-id="c4513-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="c4513-110">Section index:</span></span>  <br/> |<span data-ttu-id="c4513-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="c4513-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="c4513-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="c4513-112">Row index:</span></span>  <br/> |<span data-ttu-id="c4513-113">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="c4513-113">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="c4513-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="c4513-114">Cell index:</span></span>  <br/> |<span data-ttu-id="c4513-115">**visXFormHeight**</span><span class="sxs-lookup"><span data-stu-id="c4513-115">**visXFormHeight**</span></span> <br/> |
    
 

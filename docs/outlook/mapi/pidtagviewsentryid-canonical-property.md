@@ -19,46 +19,46 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427310"
 ---
-# <a name="pidtagviewsentryid-canonical-property"></a><span data-ttu-id="3e2b4-103">Propriété canonique PidTagViewsEntryId</span><span class="sxs-lookup"><span data-stu-id="3e2b4-103">PidTagViewsEntryId Canonical Property</span></span>
+# <a name="pidtagviewsentryid-canonical-property"></a><span data-ttu-id="3e15d-103">Propriété canonique PidTagViewsEntryId</span><span class="sxs-lookup"><span data-stu-id="3e15d-103">PidTagViewsEntryId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="3e2b4-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3e2b4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3e15d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3e15d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3e2b4-105">Contient l'identificateur d'entrée du dossier vues définies par l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="3e2b4-105">Contains the entry identifier of the user-defined Views folder.</span></span>
+<span data-ttu-id="3e15d-105">Contient l’identificateur d’entrée du dossier Affichages définis par l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="3e15d-105">Contains the entry identifier of the user-defined Views folder.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3e2b4-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="3e2b4-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3e2b4-107">PR_VIEWS_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="3e2b4-107">PR_VIEWS_ENTRYID</span></span>  <br/> |
-|<span data-ttu-id="3e2b4-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="3e2b4-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3e2b4-109">0x35E5</span><span class="sxs-lookup"><span data-stu-id="3e2b4-109">0x35E5</span></span>  <br/> |
-|<span data-ttu-id="3e2b4-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="3e2b4-110">Data type:</span></span>  <br/> |<span data-ttu-id="3e2b4-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="3e2b4-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="3e2b4-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="3e2b4-112">Area:</span></span>  <br/> |<span data-ttu-id="3e2b4-113">Banque de messages MAPI</span><span class="sxs-lookup"><span data-stu-id="3e2b4-113">MAPI message store</span></span>  <br/> |
+|<span data-ttu-id="3e15d-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="3e15d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3e15d-107">PR_VIEWS_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="3e15d-107">PR_VIEWS_ENTRYID</span></span>  <br/> |
+|<span data-ttu-id="3e15d-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="3e15d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3e15d-109">0x35E5</span><span class="sxs-lookup"><span data-stu-id="3e15d-109">0x35E5</span></span>  <br/> |
+|<span data-ttu-id="3e15d-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="3e15d-110">Data type:</span></span>  <br/> |<span data-ttu-id="3e15d-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="3e15d-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="3e15d-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="3e15d-112">Area:</span></span>  <br/> |<span data-ttu-id="3e15d-113">Magasin de messages MAPI</span><span class="sxs-lookup"><span data-stu-id="3e15d-113">MAPI message store</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3e2b4-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="3e2b4-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3e15d-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="3e15d-114">Remarks</span></span>
 
-<span data-ttu-id="3e2b4-115">Le dossier d'affichage commun contient un ensemble prédéfini de spécificateurs d'affichage standard, tandis que le dossier d'affichage contient des spécificateurs définis par un utilisateur de messagerie.</span><span class="sxs-lookup"><span data-stu-id="3e2b4-115">The common view folder contains a predefined set of standard view specifiers, while the view folder contains specifiers defined by a messaging user.</span></span> <span data-ttu-id="3e2b4-116">Ces dossiers, qui ne sont pas visibles dans la hiérarchie des messages interpersonnels (IPM), peuvent contenir de nombreux spécificateurs d'affichage, chacun étant stocké sous forme de message.</span><span class="sxs-lookup"><span data-stu-id="3e2b4-116">These folders, which are not visible in the interpersonal message (IPM) hierarchy, can hold many view specifiers, each one stored as a message.</span></span> <span data-ttu-id="3e2b4-117">L'application cliente peut choisir de fusionner les deux jeux de spécificateurs et les rendre disponibles.</span><span class="sxs-lookup"><span data-stu-id="3e2b4-117">The client application can choose to merge the two sets of specifiers and make them both available.</span></span>
+<span data-ttu-id="3e15d-115">Le dossier d’affichage commun contient un ensemble prédéféré de specifieurs d’affichage standard, tandis que le dossier d’affichage contient des specifieurs définis par un utilisateur de messagerie.</span><span class="sxs-lookup"><span data-stu-id="3e15d-115">The common view folder contains a predefined set of standard view specifiers, while the view folder contains specifiers defined by a messaging user.</span></span> <span data-ttu-id="3e15d-116">Ces dossiers, qui ne sont pas visibles dans la hiérarchie des messages interpersonnels (IPM), peuvent contenir de nombreux spécifiés d’affichage, chacun étant stocké sous la mesure d’un message.</span><span class="sxs-lookup"><span data-stu-id="3e15d-116">These folders, which are not visible in the interpersonal message (IPM) hierarchy, can hold many view specifiers, each one stored as a message.</span></span> <span data-ttu-id="3e15d-117">L’application cliente peut choisir de fusionner les deux ensembles de specifiers et de les rendre disponibles.</span><span class="sxs-lookup"><span data-stu-id="3e15d-117">The client application can choose to merge the two sets of specifiers and make them both available.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="3e2b4-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="3e2b4-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="3e15d-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="3e15d-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="3e2b4-119">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="3e2b4-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="3e15d-119">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="3e15d-119">Header files</span></span>
 
-<span data-ttu-id="3e2b4-120">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="3e2b4-120">Mapidefs.h</span></span>
+<span data-ttu-id="3e15d-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3e15d-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="3e2b4-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="3e2b4-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="3e15d-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="3e15d-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="3e2b4-122">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="3e2b4-122">Mapitags.h</span></span>
+<span data-ttu-id="3e15d-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="3e15d-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="3e2b4-123">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="3e2b4-123">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="3e15d-123">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="3e15d-123">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3e2b4-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3e2b4-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3e15d-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3e15d-124">See also</span></span>
 
 
 
-[<span data-ttu-id="3e2b4-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="3e2b4-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="3e15d-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="3e15d-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="3e2b4-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="3e2b4-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="3e15d-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="3e15d-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="3e2b4-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="3e2b4-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="3e15d-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="3e15d-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="3e2b4-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="3e2b4-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="3e15d-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="3e15d-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

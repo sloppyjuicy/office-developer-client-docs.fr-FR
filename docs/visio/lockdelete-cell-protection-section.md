@@ -16,29 +16,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423138"
 ---
-# <a name="lockdelete-cell-protection-section"></a><span data-ttu-id="f0f28-103">LockDelete, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="f0f28-103">LockDelete Cell (Protection Section)</span></span>
+# <a name="lockdelete-cell-protection-section"></a><span data-ttu-id="47dc7-103">LockDelete, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="47dc7-103">LockDelete Cell (Protection Section)</span></span>
 
-<span data-ttu-id="f0f28-104">Verrouille la forme afin d'empêcher sa suppression.</span><span class="sxs-lookup"><span data-stu-id="f0f28-104">Locks the shape so that it cannot be deleted.</span></span>
+<span data-ttu-id="47dc7-104">Verrouille la forme afin d'empêcher sa suppression.</span><span class="sxs-lookup"><span data-stu-id="47dc7-104">Locks the shape so that it cannot be deleted.</span></span>
   
-|<span data-ttu-id="f0f28-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="f0f28-105">**Value**</span></span>|<span data-ttu-id="f0f28-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="f0f28-106">**Description**</span></span>|
+|<span data-ttu-id="47dc7-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="47dc7-105">**Value**</span></span>|<span data-ttu-id="47dc7-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="47dc7-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="f0f28-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="f0f28-107">TRUE</span></span>  <br/> | <span data-ttu-id="f0f28-108">La forme ne peut pas être supprimée.</span><span class="sxs-lookup"><span data-stu-id="f0f28-108">Shape cannot be deleted</span></span>  <br/> |
-| <span data-ttu-id="f0f28-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="f0f28-109">FALSE</span></span>  <br/> | <span data-ttu-id="f0f28-110">La forme peut être supprimée.</span><span class="sxs-lookup"><span data-stu-id="f0f28-110">Shape can be deleted.</span></span>  <br/> |
+| <span data-ttu-id="47dc7-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="47dc7-107">TRUE</span></span>  <br/> | <span data-ttu-id="47dc7-108">La forme ne peut pas être supprimée.</span><span class="sxs-lookup"><span data-stu-id="47dc7-108">Shape cannot be deleted</span></span>  <br/> |
+| <span data-ttu-id="47dc7-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="47dc7-109">FALSE</span></span>  <br/> | <span data-ttu-id="47dc7-110">La forme peut être supprimée.</span><span class="sxs-lookup"><span data-stu-id="47dc7-110">Shape can be deleted.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f0f28-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="f0f28-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="47dc7-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="47dc7-111">Remarks</span></span>
 
-<span data-ttu-id="f0f28-112">Pour obtenir une référence à la cellule LockDelete par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="f0f28-112">To get a reference to the LockDelete cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="47dc7-112">Pour obtenir une référence à la cellule LockDelete par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="47dc7-112">To get a reference to the LockDelete cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f0f28-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="f0f28-113">Cell name:</span></span>  <br/> | <span data-ttu-id="f0f28-114">LockDelete</span><span class="sxs-lookup"><span data-stu-id="f0f28-114">LockDelete</span></span>  <br/> |
+| <span data-ttu-id="47dc7-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="47dc7-113">Cell name:</span></span>  <br/> | <span data-ttu-id="47dc7-114">LockDelete</span><span class="sxs-lookup"><span data-stu-id="47dc7-114">LockDelete</span></span>  <br/> |
    
-<span data-ttu-id="f0f28-115">Pour obtenir une référence à la cellule LockDelete à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="f0f28-115">To get a reference to the LockDelete cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="47dc7-115">Pour obtenir une référence à la cellule LockDelete à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="47dc7-115">To get a reference to the LockDelete cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f0f28-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="f0f28-116">Section index:</span></span>  <br/> |<span data-ttu-id="f0f28-117">**Définis**</span><span class="sxs-lookup"><span data-stu-id="f0f28-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="f0f28-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="f0f28-118">Row index:</span></span>  <br/> |<span data-ttu-id="f0f28-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="f0f28-119">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="f0f28-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="f0f28-120">Cell index:</span></span>  <br/> |<span data-ttu-id="f0f28-121">**visLockDelete**</span><span class="sxs-lookup"><span data-stu-id="f0f28-121">**visLockDelete**</span></span> <br/> |
+| <span data-ttu-id="47dc7-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="47dc7-116">Section index:</span></span>  <br/> |<span data-ttu-id="47dc7-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="47dc7-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="47dc7-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="47dc7-118">Row index:</span></span>  <br/> |<span data-ttu-id="47dc7-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="47dc7-119">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="47dc7-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="47dc7-120">Cell index:</span></span>  <br/> |<span data-ttu-id="47dc7-121">**visLockDelete**</span><span class="sxs-lookup"><span data-stu-id="47dc7-121">**visLockDelete**</span></span> <br/> |
    
 

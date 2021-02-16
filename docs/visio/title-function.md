@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251574
 localization_priority: Normal
 ms.assetid: 94c640d8-99e9-9d15-8ada-d9abeb3d66f7
-description: Renvoie le texte du champ titre des propriétés d'un document.
+description: Renvoie le texte à partir du champ Titre des propriétés d’un document.
 ms.openlocfilehash: 395356fcffddfaf8d796708acc31db297ef01b35
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424412"
 ---
-# <a name="title-function"></a><span data-ttu-id="9e3b3-103">Fonction TITLE</span><span class="sxs-lookup"><span data-stu-id="9e3b3-103">TITLE Function</span></span>
+# <a name="title-function"></a><span data-ttu-id="bd3a7-103">Fonction TITLE</span><span class="sxs-lookup"><span data-stu-id="bd3a7-103">TITLE Function</span></span>
 
-<span data-ttu-id="9e3b3-104">Renvoie le texte du champ **titre** des propriétés d'un document.</span><span class="sxs-lookup"><span data-stu-id="9e3b3-104">Returns the text from the **Title** field of a document's properties.</span></span> 
+<span data-ttu-id="bd3a7-104">Renvoie le texte à partir du **champ Titre** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="bd3a7-104">Returns the text from the **Title** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="9e3b3-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="9e3b3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bd3a7-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="bd3a7-105">Syntax</span></span>
 
-<span data-ttu-id="9e3b3-106">TITRE ()</span><span class="sxs-lookup"><span data-stu-id="9e3b3-106">TITLE ()</span></span>
+<span data-ttu-id="bd3a7-106">TITLE ()</span><span class="sxs-lookup"><span data-stu-id="bd3a7-106">TITLE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="9e3b3-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="9e3b3-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="bd3a7-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="bd3a7-107">Return value</span></span>
 
-<span data-ttu-id="9e3b3-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="9e3b3-108">String</span></span>
+<span data-ttu-id="bd3a7-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="bd3a7-108">String</span></span>
   
 

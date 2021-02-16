@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423047"
 ---
-# <a name="iolkaccountmanagerenumerateaccounts"></a><span data-ttu-id="8e211-103">IOlkAccountManager::EnumerateAccounts</span><span class="sxs-lookup"><span data-stu-id="8e211-103">IOlkAccountManager::EnumerateAccounts</span></span>
+# <a name="iolkaccountmanagerenumerateaccounts"></a><span data-ttu-id="a7c20-103">IOlkAccountManager::EnumerateAccounts</span><span class="sxs-lookup"><span data-stu-id="a7c20-103">IOlkAccountManager::EnumerateAccounts</span></span>
 
-<span data-ttu-id="8e211-104">Obtient un énumérateur pour les comptes de la catégorie spécifique ou un type.</span><span class="sxs-lookup"><span data-stu-id="8e211-104">Gets an enumerator for the accounts of the specific category or type.</span></span>
+<span data-ttu-id="a7c20-104">Obtient un énumérateur pour les comptes de la catégorie spécifique ou un type.</span><span class="sxs-lookup"><span data-stu-id="a7c20-104">Gets an enumerator for the accounts of the specific category or type.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="8e211-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="8e211-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="a7c20-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="a7c20-105">Quick info</span></span>
 
-<span data-ttu-id="8e211-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="8e211-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
+<span data-ttu-id="a7c20-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="a7c20-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccountManager::EnumerateAccounts (  
@@ -32,55 +32,55 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8e211-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="8e211-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a7c20-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a7c20-107">Parameters</span></span>
 
-<span data-ttu-id="8e211-108">_pclsidCategory_</span><span class="sxs-lookup"><span data-stu-id="8e211-108">_pclsidCategory_</span></span>
+<span data-ttu-id="a7c20-108">_pclsidCategory_</span><span class="sxs-lookup"><span data-stu-id="a7c20-108">_pclsidCategory_</span></span>
   
-> <span data-ttu-id="8e211-p101">[in] L'identificateur de classe de la catégorie à énumérer. La valeur doit être une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="8e211-p101">[in] The class identifier of the category to enumerate. The value must be one of the following:</span></span>
+> <span data-ttu-id="a7c20-p101">[in] L'identificateur de classe de la catégorie à énumérer. La valeur doit être une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="a7c20-p101">[in] The class identifier of the category to enumerate. The value must be one of the following:</span></span>
     
-   - <span data-ttu-id="8e211-111">CLSID_OlkMail</span><span class="sxs-lookup"><span data-stu-id="8e211-111">CLSID_OlkMail</span></span> 
+   - <span data-ttu-id="a7c20-111">CLSID_OlkMail</span><span class="sxs-lookup"><span data-stu-id="a7c20-111">CLSID_OlkMail</span></span> 
     
-   -  <span data-ttu-id="8e211-112">CLSID_OlkAddressBook</span><span class="sxs-lookup"><span data-stu-id="8e211-112">CLSID_OlkAddressBook</span></span> 
+   -  <span data-ttu-id="a7c20-112">CLSID_OlkAddressBook</span><span class="sxs-lookup"><span data-stu-id="a7c20-112">CLSID_OlkAddressBook</span></span> 
     
-   - <span data-ttu-id="8e211-113">CLSID_OlkStore</span><span class="sxs-lookup"><span data-stu-id="8e211-113">CLSID_OlkStore</span></span> 
+   - <span data-ttu-id="a7c20-113">CLSID_OlkStore</span><span class="sxs-lookup"><span data-stu-id="a7c20-113">CLSID_OlkStore</span></span> 
     
-<span data-ttu-id="8e211-114">_pclsidType_</span><span class="sxs-lookup"><span data-stu-id="8e211-114">_pclsidType_</span></span>
+<span data-ttu-id="a7c20-114">_pclsidType_</span><span class="sxs-lookup"><span data-stu-id="a7c20-114">_pclsidType_</span></span>
   
-> <span data-ttu-id="8e211-p102">[in] L'identificateur de classe du type de compte pour énumérer. La valeur doit être une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="8e211-p102">[in] The class identifier of the account type to enumerate. The value must be one of the following:</span></span>
+> <span data-ttu-id="a7c20-p102">[in] L'identificateur de classe du type de compte pour énumérer. La valeur doit être une des opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="a7c20-p102">[in] The class identifier of the account type to enumerate. The value must be one of the following:</span></span>
     
-   - <span data-ttu-id="8e211-117">CLSID_OlkPOP3Account</span><span class="sxs-lookup"><span data-stu-id="8e211-117">CLSID_OlkPOP3Account</span></span>
+   - <span data-ttu-id="a7c20-117">CLSID_OlkPOP3Account</span><span class="sxs-lookup"><span data-stu-id="a7c20-117">CLSID_OlkPOP3Account</span></span>
     
-   - <span data-ttu-id="8e211-118">CLSID_OlkIMAP4Account</span><span class="sxs-lookup"><span data-stu-id="8e211-118">CLSID_OlkIMAP4Account</span></span>
+   - <span data-ttu-id="a7c20-118">CLSID_OlkIMAP4Account</span><span class="sxs-lookup"><span data-stu-id="a7c20-118">CLSID_OlkIMAP4Account</span></span>
     
-   - <span data-ttu-id="8e211-119">CLSID_OlkMAPIAccount</span><span class="sxs-lookup"><span data-stu-id="8e211-119">CLSID_OlkMAPIAccount</span></span>
+   - <span data-ttu-id="a7c20-119">CLSID_OlkMAPIAccount</span><span class="sxs-lookup"><span data-stu-id="a7c20-119">CLSID_OlkMAPIAccount</span></span>
     
-   - <span data-ttu-id="8e211-120">CLSID_OlkHotmailAccount</span><span class="sxs-lookup"><span data-stu-id="8e211-120">CLSID_OlkHotmailAccount</span></span>
+   - <span data-ttu-id="a7c20-120">CLSID_OlkHotmailAccount</span><span class="sxs-lookup"><span data-stu-id="a7c20-120">CLSID_OlkHotmailAccount</span></span>
     
-   - <span data-ttu-id="8e211-121">CLSID_OlkLDAPAccount</span><span class="sxs-lookup"><span data-stu-id="8e211-121">CLSID_OlkLDAPAccount</span></span>
+   - <span data-ttu-id="a7c20-121">CLSID_OlkLDAPAccount</span><span class="sxs-lookup"><span data-stu-id="a7c20-121">CLSID_OlkLDAPAccount</span></span>
     
-<span data-ttu-id="8e211-122">_dwFlags_</span><span class="sxs-lookup"><span data-stu-id="8e211-122">_dwFlags_</span></span>
+<span data-ttu-id="a7c20-122">_dwFlags_</span><span class="sxs-lookup"><span data-stu-id="a7c20-122">_dwFlags_</span></span>
   
-> <span data-ttu-id="8e211-p103">[in] Indicateurs pour modifier le comportement. La seule valeur prise en charge est OLK_ACCOUNT_NO_FLAGS.</span><span class="sxs-lookup"><span data-stu-id="8e211-p103">[in] Flags to modify behavior. The only supported value is OLK_ACCOUNT_NO_FLAGS.</span></span>
+> <span data-ttu-id="a7c20-p103">[in] Indicateurs pour modifier le comportement. La seule valeur prise en charge est OLK_ACCOUNT_NO_FLAGS.</span><span class="sxs-lookup"><span data-stu-id="a7c20-p103">[in] Flags to modify behavior. The only supported value is OLK_ACCOUNT_NO_FLAGS.</span></span>
     
-<span data-ttu-id="8e211-125">_ppEnum_</span><span class="sxs-lookup"><span data-stu-id="8e211-125">_ppEnum_</span></span>
+<span data-ttu-id="a7c20-125">_ppEnum_</span><span class="sxs-lookup"><span data-stu-id="a7c20-125">_ppEnum_</span></span>
   
-> <span data-ttu-id="8e211-126">[out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface.</span><span class="sxs-lookup"><span data-stu-id="8e211-126">[out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface.</span></span> 
+> <span data-ttu-id="a7c20-126">[out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface.</span><span class="sxs-lookup"><span data-stu-id="a7c20-126">[out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="8e211-127">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="8e211-127">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="a7c20-127">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="a7c20-127">Return values</span></span>
 
-|<span data-ttu-id="8e211-128">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="8e211-128">**HRESULT**</span></span>|<span data-ttu-id="8e211-129">**Description**</span><span class="sxs-lookup"><span data-stu-id="8e211-129">**Description**</span></span>|
+|<span data-ttu-id="a7c20-128">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="a7c20-128">**HRESULT**</span></span>|<span data-ttu-id="a7c20-129">**Description**</span><span class="sxs-lookup"><span data-stu-id="a7c20-129">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="8e211-130">S_OK</span><span class="sxs-lookup"><span data-stu-id="8e211-130">S_OK</span></span>  <br/> |<span data-ttu-id="8e211-131">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="8e211-131">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="8e211-132">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="8e211-132">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="8e211-133">Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.</span><span class="sxs-lookup"><span data-stu-id="8e211-133">The account manager has not been initialized for use.</span></span>  <br/> |
+|<span data-ttu-id="a7c20-130">S_OK</span><span class="sxs-lookup"><span data-stu-id="a7c20-130">S_OK</span></span>  <br/> |<span data-ttu-id="a7c20-131">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="a7c20-131">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="a7c20-132">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="a7c20-132">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="a7c20-133">Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.</span><span class="sxs-lookup"><span data-stu-id="a7c20-133">The account manager has not been initialized for use.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="8e211-134">Remarques</span><span class="sxs-lookup"><span data-stu-id="8e211-134">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a7c20-134">Remarques</span><span class="sxs-lookup"><span data-stu-id="a7c20-134">Remarks</span></span>
 
-<span data-ttu-id="8e211-p104">Spécification de valeur NULL pour la catégorie renvoie un énumérateur de tous les comptes du type spécifié. De même, la spécification NULL pour le type renvoie un énumérateur de tous les comptes de la catégorie spécifiée.</span><span class="sxs-lookup"><span data-stu-id="8e211-p104">Specifying NULL for category returns an enumerator of all accounts of the specified type. Similarly, specifying NULL for type returns an enumerator of all accounts of the specified category.</span></span>
+<span data-ttu-id="a7c20-p104">Spécification de valeur NULL pour la catégorie renvoie un énumérateur de tous les comptes du type spécifié. De même, la spécification NULL pour le type renvoie un énumérateur de tous les comptes de la catégorie spécifiée.</span><span class="sxs-lookup"><span data-stu-id="a7c20-p104">Specifying NULL for category returns an enumerator of all accounts of the specified type. Similarly, specifying NULL for type returns an enumerator of all accounts of the specified category.</span></span>
   
- <span data-ttu-id="8e211-137">**IOlkAccountManager::EnumerateAccounts** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange.</span><span class="sxs-lookup"><span data-stu-id="8e211-137">**IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account.</span></span> <span data-ttu-id="8e211-138">Si le compte est un compte Exchange (*pclsidType* est **CLSID_OlkMAPIAccount** ) et que vous essayez d'énumérer les comptes qui implémentent le carnet d'adresses (*prgclsidCategory* est **CLSID_OlkAddressBook** ), l'appel \*\* IOlkAccountManager:: EnumerateAccounts\*\* ne renvoie pas le compte Exchange dans l'énumérateur de comptes *ppEnum* .</span><span class="sxs-lookup"><span data-stu-id="8e211-138">If the account is an Exchange account (*pclsidType*  is **CLSID_OlkMAPIAccount** ), and you are trying to enumerate accounts that implement the address book (*prgclsidCategory*  is **CLSID_OlkAddressBook** ), calling **IOlkAccountManager::EnumerateAccounts** will not return the Exchange account in the accounts enumerator  *ppEnum*  .</span></span> 
+ <span data-ttu-id="a7c20-137">**IOlkAccountManager::EnumerateAccounts** ne prend pas en charge la catégorie de carnet d'adresses pour un compte Exchange.</span><span class="sxs-lookup"><span data-stu-id="a7c20-137">**IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account.</span></span> <span data-ttu-id="a7c20-138">Si le compte est un compte Exchange *(pclsidType*  est **CLSID_OlkMAPIAccount** ), et que vous essayez d’éumerer les comptes qui implémentent le carnet d’adresses (*prgclsidCategory*  est **CLSID_OlkAddressBook** ), l’appel de **IOlkAccountManager::EnumerateAccounts** ne retournera pas le compte Exchange dans l’éumérateur de comptes  *ppEnum*  .</span><span class="sxs-lookup"><span data-stu-id="a7c20-138">If the account is an Exchange account (*pclsidType*  is **CLSID_OlkMAPIAccount** ), and you are trying to enumerate accounts that implement the address book (*prgclsidCategory*  is **CLSID_OlkAddressBook** ), calling **IOlkAccountManager::EnumerateAccounts** will not return the Exchange account in the accounts enumerator  *ppEnum*  .</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="8e211-139">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8e211-139">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a7c20-139">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a7c20-139">See also</span></span>
 
-- [<span data-ttu-id="8e211-140">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="8e211-140">Constants (Account management API)</span></span>](constants-account-management-api.md)  
-- [<span data-ttu-id="8e211-141">IOlkEnum</span><span class="sxs-lookup"><span data-stu-id="8e211-141">IOlkEnum</span></span>](iolkenum.md)
+- [<span data-ttu-id="a7c20-140">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="a7c20-140">Constants (Account management API)</span></span>](constants-account-management-api.md)  
+- [<span data-ttu-id="a7c20-141">IOlkEnum</span><span class="sxs-lookup"><span data-stu-id="a7c20-141">IOlkEnum</span></span>](iolkenum.md)
 

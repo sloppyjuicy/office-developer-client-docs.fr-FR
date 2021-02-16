@@ -19,37 +19,37 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423712"
 ---
-# <a name="cbnewssortorderset"></a><span data-ttu-id="0e738-103">CbNewSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="0e738-103">CbNewSSortOrderSet</span></span>
+# <a name="cbnewssortorderset"></a><span data-ttu-id="c30e2-103">CbNewSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="c30e2-103">CbNewSSortOrderSet</span></span>
 
   
   
-<span data-ttu-id="0e738-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0e738-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c30e2-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c30e2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0e738-105">Calcule le nombre d'octets à allouer pour une nouvelle structure [SizedSSortOrderSet](sizedssortorderset.md) qui contient un nombre spécifié d'ordres de tri représentés par des structures [SSortOrder](ssortorder.md) .</span><span class="sxs-lookup"><span data-stu-id="0e738-105">Computes the number of bytes to be allocated for a new [SizedSSortOrderSet](sizedssortorderset.md) structure that contains a specified number of sort orders represented by [SSortOrder](ssortorder.md) structures.</span></span> 
+<span data-ttu-id="c30e2-105">Calcule le nombre d’octets à allouer pour une nouvelle structure [SizedSSortOrderSet](sizedssortorderset.md) qui contient un nombre spécifié d’ordres de tri représentés par les structures [SSortOrder.](ssortorder.md)</span><span class="sxs-lookup"><span data-stu-id="c30e2-105">Computes the number of bytes to be allocated for a new [SizedSSortOrderSet](sizedssortorderset.md) structure that contains a specified number of sort orders represented by [SSortOrder](ssortorder.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0e738-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="0e738-106">Header file:</span></span>  <br/> |<span data-ttu-id="0e738-107">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="0e738-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="0e738-108">Structure associée:</span><span class="sxs-lookup"><span data-stu-id="0e738-108">Related structure:</span></span>  <br/> |<span data-ttu-id="0e738-109">**SSortOrderSet**</span><span class="sxs-lookup"><span data-stu-id="0e738-109">**SSortOrderSet**</span></span> <br/> |
+|<span data-ttu-id="c30e2-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="c30e2-106">Header file:</span></span>  <br/> |<span data-ttu-id="c30e2-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c30e2-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="c30e2-108">Structure connexe :</span><span class="sxs-lookup"><span data-stu-id="c30e2-108">Related structure:</span></span>  <br/> |<span data-ttu-id="c30e2-109">**SSortOrderSet**</span><span class="sxs-lookup"><span data-stu-id="c30e2-109">**SSortOrderSet**</span></span> <br/> |
    
 ```cpp
 CbNewSSortOrderSet (_csort)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0e738-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="0e738-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c30e2-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c30e2-110">Parameters</span></span>
 
- <span data-ttu-id="0e738-111">__csort_</span><span class="sxs-lookup"><span data-stu-id="0e738-111">__csort_</span></span>
+ <span data-ttu-id="c30e2-111">_ _csort_</span><span class="sxs-lookup"><span data-stu-id="c30e2-111">_ _csort_</span></span>
   
-> <span data-ttu-id="0e738-112">Nombre de structures **SSortOrder** à inclure dans la structure **SSortOrderSet** .</span><span class="sxs-lookup"><span data-stu-id="0e738-112">Count of **SSortOrder** structures to be included in the **SSortOrderSet** structure.</span></span> 
+> <span data-ttu-id="c30e2-112">Nombre de structures **SSortOrder** à inclure dans la structure **SSortOrderSet.**</span><span class="sxs-lookup"><span data-stu-id="c30e2-112">Count of **SSortOrder** structures to be included in the **SSortOrderSet** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="0e738-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0e738-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c30e2-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c30e2-113">See also</span></span>
 
 
 
-[<span data-ttu-id="0e738-114">SizedSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="0e738-114">SizedSSortOrderSet</span></span>](sizedssortorderset.md)
+[<span data-ttu-id="c30e2-114">SizedSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="c30e2-114">SizedSSortOrderSet</span></span>](sizedssortorderset.md)
   
-[<span data-ttu-id="0e738-115">SSortOrder</span><span class="sxs-lookup"><span data-stu-id="0e738-115">SSortOrder</span></span>](ssortorder.md)
+[<span data-ttu-id="c30e2-115">SSortOrder</span><span class="sxs-lookup"><span data-stu-id="c30e2-115">SSortOrder</span></span>](ssortorder.md)
 
 
-[<span data-ttu-id="0e738-116">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="0e738-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="c30e2-116">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="c30e2-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

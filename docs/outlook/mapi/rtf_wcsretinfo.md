@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426169"
 ---
-# <a name="rtfwcsretinfo"></a><span data-ttu-id="b98ba-103">RTF_WCSRETINFO</span><span class="sxs-lookup"><span data-stu-id="b98ba-103">RTF_WCSRETINFO</span></span>
+# <a name="rtf_wcsretinfo"></a><span data-ttu-id="848ca-103">RTF_WCSRETINFO</span><span class="sxs-lookup"><span data-stu-id="848ca-103">RTF_WCSRETINFO</span></span>
 
-<span data-ttu-id="b98ba-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b98ba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="848ca-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="848ca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b98ba-105">Cette structure fournit des informations sur un flux au format natif renvoyé par la décompression du corps d'un message encapsulé en format RTF compressé.</span><span class="sxs-lookup"><span data-stu-id="b98ba-105">This structure provides information about a stream in native format returned from decompressing the body of a message that is encapsulated in compressed Rich Text Format (RTF).</span></span>
+<span data-ttu-id="848ca-105">Cette structure fournit des informations sur un flux au format natif renvoyé par la décompressation du corps d’un message encapsulé au format RTF (Compressed Rich Text Format).</span><span class="sxs-lookup"><span data-stu-id="848ca-105">This structure provides information about a stream in native format returned from decompressing the body of a message that is encapsulated in compressed Rich Text Format (RTF).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="b98ba-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="b98ba-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="848ca-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="848ca-106">Quick info</span></span>
 
 ```cpp
 typedef struct { 
@@ -30,23 +30,23 @@ typedef struct {
 } RTF_WCSRETINFO;
 ```
 
-## <a name="members"></a><span data-ttu-id="b98ba-107">Membres</span><span class="sxs-lookup"><span data-stu-id="b98ba-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="848ca-107">Membres</span><span class="sxs-lookup"><span data-stu-id="848ca-107">Members</span></span>
 
-<span data-ttu-id="b98ba-108">_size_</span><span class="sxs-lookup"><span data-stu-id="b98ba-108">_size_</span></span>
+<span data-ttu-id="848ca-108">_size_</span><span class="sxs-lookup"><span data-stu-id="848ca-108">_size_</span></span>
   
-> <span data-ttu-id="b98ba-109">Taille de la structure **RTF_WCSRETINFO** en nombre d'octets.</span><span class="sxs-lookup"><span data-stu-id="b98ba-109">The size of the **RTF_WCSRETINFO** structure in number of bytes.</span></span> 
+> <span data-ttu-id="848ca-109">Taille de la structure **RTF_WCSRETINFO** nombre d’octets.</span><span class="sxs-lookup"><span data-stu-id="848ca-109">The size of the **RTF_WCSRETINFO** structure in number of bytes.</span></span> 
     
-<span data-ttu-id="b98ba-110">_ulStreamFlags_</span><span class="sxs-lookup"><span data-stu-id="b98ba-110">_ulStreamFlags_</span></span>
+<span data-ttu-id="848ca-110">_ulStreamFlags_</span><span class="sxs-lookup"><span data-stu-id="848ca-110">_ulStreamFlags_</span></span>
   
-> <span data-ttu-id="b98ba-111">Il s'agit d'une valeur qui indique le format du corps natif.</span><span class="sxs-lookup"><span data-stu-id="b98ba-111">This is a value that indicates the format of the native body.</span></span> <span data-ttu-id="b98ba-112">Cette valeur est valide uniquement si l'indicateur **MAPI_NATIVE_BODY** est transmis dans le paramètre _ulFlags_ de la structure [RTF_WCSINFO](rtf_wcsinfo.md) qui est transmise à la fonction [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) .</span><span class="sxs-lookup"><span data-stu-id="b98ba-112">This value is only valid if the **MAPI_NATIVE_BODY** flag is passed in the  _ulFlags_ parameter of the [RTF_WCSINFO](rtf_wcsinfo.md) structure that is passed to the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function.</span></span> <span data-ttu-id="b98ba-113">Il peut s'agir de l'une des valeurs suivantes:</span><span class="sxs-lookup"><span data-stu-id="b98ba-113">This can be one of the following values:</span></span> 
+> <span data-ttu-id="848ca-111">Il s’agit d’une valeur qui indique le format du corps natif.</span><span class="sxs-lookup"><span data-stu-id="848ca-111">This is a value that indicates the format of the native body.</span></span> <span data-ttu-id="848ca-112">Cette valeur n’est valide que si **l’indicateur MAPI_NATIVE_BODY** est transmis dans le paramètre _ulFlags_ de la structure [RTF_WCSINFO](rtf_wcsinfo.md) transmise à la fonction [WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md)</span><span class="sxs-lookup"><span data-stu-id="848ca-112">This value is only valid if the **MAPI_NATIVE_BODY** flag is passed in the  _ulFlags_ parameter of the [RTF_WCSINFO](rtf_wcsinfo.md) structure that is passed to the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function.</span></span> <span data-ttu-id="848ca-113">Il peut s’y trouver avec l’une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="848ca-113">This can be one of the following values:</span></span> 
     
 |||
 |:-----|:-----|
-|<span data-ttu-id="b98ba-114">MAPI_NATIVE_BODY_TYPE_RTF</span><span class="sxs-lookup"><span data-stu-id="b98ba-114">MAPI_NATIVE_BODY_TYPE_RTF</span></span>  <br/> |<span data-ttu-id="b98ba-115">Cette valeur est utilisée uniquement si _ulFlags_ inclut l'indicateur **MAPI_NATIVE_BODY** et si le corps est au format RTF.</span><span class="sxs-lookup"><span data-stu-id="b98ba-115">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is RTF.</span></span>  <br/> |
-|<span data-ttu-id="b98ba-116">MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT</span><span class="sxs-lookup"><span data-stu-id="b98ba-116">MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT</span></span>  <br/> |<span data-ttu-id="b98ba-117">Cette valeur est utilisée uniquement si _ulFlags_ inclut l'indicateur **MAPI_NATIVE_BODY** et si le corps est au format de texte brut.</span><span class="sxs-lookup"><span data-stu-id="b98ba-117">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is plain text format.</span></span>  <br/> |
-|<span data-ttu-id="b98ba-118">MAPI_NATIVE_BODY_TYPE_HTML</span><span class="sxs-lookup"><span data-stu-id="b98ba-118">MAPI_NATIVE_BODY_TYPE_HTML</span></span>  <br/> |<span data-ttu-id="b98ba-119">Cette valeur est utilisée uniquement si _ulFlags_ inclut l'indicateur **MAPI_NATIVE_BODY** et si le corps est au format html (Hypertext Markup Language).</span><span class="sxs-lookup"><span data-stu-id="b98ba-119">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is Hypertext Markup Language (HTML) format.</span></span>  <br/> |
+|<span data-ttu-id="848ca-114">MAPI_NATIVE_BODY_TYPE_RTF</span><span class="sxs-lookup"><span data-stu-id="848ca-114">MAPI_NATIVE_BODY_TYPE_RTF</span></span>  <br/> |<span data-ttu-id="848ca-115">Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et si le corps est RTF.</span><span class="sxs-lookup"><span data-stu-id="848ca-115">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is RTF.</span></span>  <br/> |
+|<span data-ttu-id="848ca-116">MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT</span><span class="sxs-lookup"><span data-stu-id="848ca-116">MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT</span></span>  <br/> |<span data-ttu-id="848ca-117">Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et que le corps est au format texte simple.</span><span class="sxs-lookup"><span data-stu-id="848ca-117">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is plain text format.</span></span>  <br/> |
+|<span data-ttu-id="848ca-118">MAPI_NATIVE_BODY_TYPE_HTML</span><span class="sxs-lookup"><span data-stu-id="848ca-118">MAPI_NATIVE_BODY_TYPE_HTML</span></span>  <br/> |<span data-ttu-id="848ca-119">Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’indicateur MAPI_NATIVE_BODY** et que le corps est au format HTML (Hypertext Markup Language).</span><span class="sxs-lookup"><span data-stu-id="848ca-119">This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is Hypertext Markup Language (HTML) format.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="b98ba-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b98ba-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="848ca-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="848ca-120">See also</span></span>
 
-- [<span data-ttu-id="b98ba-121">WrapCompressedRTFStreamEx</span><span class="sxs-lookup"><span data-stu-id="b98ba-121">WrapCompressedRTFStreamEx</span></span>](wrapcompressedrtfstreamex.md)
+- [<span data-ttu-id="848ca-121">WrapCompressedRTFStreamEx</span><span class="sxs-lookup"><span data-stu-id="848ca-121">WrapCompressedRTFStreamEx</span></span>](wrapcompressedrtfstreamex.md)
 
