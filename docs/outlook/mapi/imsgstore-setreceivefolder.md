@@ -25,7 +25,7 @@ ms.locfileid: "33434087"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Établit un dossier comme destination pour les messages entrants d'une classe de message particulière.
+Établit un dossier comme destination pour les messages entrants d’une classe de message particulière.
   
 ```cpp
 HRESULT SetReceiveFolder(
@@ -40,23 +40,23 @@ HRESULT SetReceiveFolder(
 
  _lpszMessageClass_
   
-> dans Pointeur vers la classe de message qui doit être associée au nouveau dossier de réception. Si le paramètre _lpszMessageClass_ est défini sur null ou sur une chaîne vide, **SetReceiveFolder** définit le dossier de réception par défaut pour la Banque de messages. 
+> [in] Pointeur vers la classe de message à associer au nouveau dossier de réception. Si le  _paramètre lpszMessageClass_ a la valeur NULL ou une chaîne vide, **SetReceiveFolder** définit le dossier de réception par défaut pour la magasin de messages. 
     
  _ulFlags_
   
-> dans Masque de bits des indicateurs qui contrôle le type du texte dans les chaînes transmises. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle le type du texte dans les chaînes transmises. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> La chaîne de la classe de message est au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, la chaîne de la classe de message est au format ANSI.
+> La chaîne de classe de message est au format Unicode. Si l’MAPI_UNICODE n’est pas définie, la chaîne de classe de message est au format ANSI.
     
  _cbEntryID_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée du dossier à établir en tant que dossier de réception. Si le paramètre _lpEntryID_ est défini sur null, **SetReceiveFolder** remplace le dossier de réception actuel par la valeur par défaut de la Banque de messages. 
+> [in] Pointeur vers l’identificateur d’entrée du dossier à établir en tant que dossier de réception. Si le  _paramètre lpEntryID_ est définie sur NULL, **SetReceiveFolder** remplace le dossier de réception actuel par la valeur par défaut de la boutique de messages. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -66,11 +66,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgStore:: SetReceiveFolder** définit ou modifie le dossier de réception d'une classe de message particulière. Avec **SetReceiveFolder**, un client peut, en utilisant des appels successifs, spécifier un autre dossier de réception pour chaque classe de message définie ou spécifier que les messages entrants pour plusieurs classes de message accèdent au même dossier. Par exemple, un client peut avoir sa propre classe de messages arrivant dans son propre dossier. Une application de télécopie peut désigner un dossier dans lequel le fournisseur de banque d'applications place les télécopies entrantes et un autre dossier dans lequel le fournisseur place les télécopies sortantes.
+La **méthode IMsgStore::SetReceiveFolder** définit ou modifie le dossier de réception d’une classe de message particulière. Avec **SetReceiveFolder,** un client peut, à l’aide d’appels successifs, spécifier un dossier de réception différent pour chaque classe de message définie ou spécifier que les messages entrants pour plusieurs classes de messages sont tous placés dans le même dossier. Par exemple, un client peut avoir sa propre classe de messages arrive dans son propre dossier. Une application de télécopie peut désigner un dossier dans lequel le fournisseur de magasins place les télécopies entrantes et un autre dossier dans lequel le fournisseur place les télécopies sortantes.
   
-Si une erreur se produit lors de l'appel à **SetReceiveFolder**, le paramètre de dossier de réception reste inchangé. 
+Si une erreur se produit pendant l’appel à **SetReceiveFolder,** le paramètre du dossier de réception reste inchangé. 
   
-Si **SetReceiveFolder** remplace le paramètre de dossier de réception par _lpEntryID_ par null, ce qui indique que le dossier de réception par défaut doit être défini, **SetReceiveFolder** renvoie S_OK même s'il n'existe aucun paramètre pour le spécifié classe de message. 
+Si **SetReceiveFolder** modifie le paramètre du dossier de réception avec  _lpEntryID_ définie sur NULL, indiquant que le dossier de réception par défaut doit être définie, **SetReceiveFolder** renvoie S_OK même s’il n’y avait aucun paramètre existant pour la classe de message indiquée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -78,7 +78,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg. cpp  <br/> |CMsgStoreDlg:: OnSetReceiveFolder  <br/> |MFCMAPI utilise la méthode **IMsgStore:: SetReceiveFolder** pour définir un dossier en tant que dossier de réception pour une classe de message particulière.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnSetReceiveFolder  <br/> |MFCMAPI utilise la méthode **IMsgStore::SetReceiveFolder** pour définir un dossier comme dossier de réception pour une classe de message particulière.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

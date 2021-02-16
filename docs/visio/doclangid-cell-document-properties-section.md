@@ -22,9 +22,9 @@ Indique la langue par défaut pour le document.
   
 ## <a name="remarks"></a>Remarques
 
-La langue du document est basée sur la langue définie dans la boîte de dialogue **Préférences de langue de Microsoft Office** . (Cliquez **sur Démarrer**, **sur tous les programmes**, sur **Microsoft Office**, sur **outils Microsoft Office**, puis sur **Préférences de langue de Microsoft Office**.)
+La langue du document est basée sur la langue définie dans la boîte de **dialogue Préférences** Microsoft Office langue. (Cliquez **sur Démarrer,** **sur** Tous les programmes, sur **Microsoft Office,** sur Microsoft Office **Outils,** puis sur Microsoft Office **langue.)**
   
-Si vous souhaitez modifier la langue d'un document, au lieu de modifier directement cette cellule, il est préférable de modifier cette valeur dans la boîte de dialogue **Propriétés** (cliquez sur l'onglet **fichier** , sur **informations**, sur **Propriétés**, puis sur **avancé. Properties**) ou par programme, à l'aide de la propriété **Language** de l'objet **document** . 
+Si vous souhaitez modifier la langue d’un document, au lieu de modifier cette  cellule directement,  il est préférable de modifier cette valeur dans la boîte de dialogue Propriétés (cliquez sur l’onglet Fichier, cliquez sur **Informations,** sur Propriétés, puis sur Propriétés **avancées)** ou par programme, à l’aide de la propriété **Language** de l’objet **Document.** 
   
 Le tableau suivant contient une liste des langues et leur LCID correspondant.
   
@@ -51,7 +51,7 @@ Le tableau suivant contient une liste des langues et leur LCID correspondant.
 |Danois  <br/> |1030  <br/> |
 |Dhivehi  <br/> |1125  <br/> |
 |Néerlandais  <br/> |1043  <br/> |
-|ÉDO  <br/> |1126  <br/> |
+|Edo  <br/> |1126  <br/> |
 |Anglais (australien)  <br/> |3081  <br/> |
 |Anglais (canadien)  <br/> |4105  <br/> |
 |Anglais (Royaume-Uni)  <br/> |2057  <br/> |
@@ -72,7 +72,7 @@ Le tableau suivant contient une liste des langues et leur LCID correspondant.
 |Grec  <br/> |1032  <br/> |
 |Goudjrati  <br/> |1095  <br/> |
 |Haoussa  <br/> |1128  <br/> |
-|Hawaïen  <br/> |1141  <br/> |
+|Ukéenne  <br/> |1141  <br/> |
 |Hébreu  <br/> |1037  <br/> |
 |Hindi  <br/> |1081  <br/> |
 |Hongrois  <br/> |1038  <br/> |
@@ -85,7 +85,7 @@ Le tableau suivant contient une liste des langues et leur LCID correspondant.
 |Japonais  <br/> |1041  <br/> |
 |Kannada  <br/> |1099  <br/> |
 |Kanuri  <br/> |1137  <br/> |
-|Kashmiri  <br/> |2144  <br/> |
+|Erzi  <br/> |2144  <br/> |
 |Kachméré (arabe)  <br/> |1120  <br/> |
 |Kazakh  <br/> |1087  <br/> |
 |Kirghiz  <br/> |1088  <br/> |
@@ -95,14 +95,14 @@ Le tableau suivant contient une liste des langues et leur LCID correspondant.
 |Letton  <br/> |1062  <br/> |
 |Lituanien  <br/> |1063  <br/> |
 |Macédonien (Ex-Rép. yougoslave de Macédoine)  <br/> |1071  <br/> |
-|Malais  <br/> |1086  <br/> |
+|Malay  <br/> |1086  <br/> |
 |Malayalam  <br/> |1100  <br/> |
 |Maltais  <br/> |1082  <br/> |
 |Manipuri  <br/> |1112  <br/> |
 |Marathe  <br/> |1102  <br/> |
 |Mongolien  <br/> |1104  <br/> |
 |Népalais  <br/> |1121  <br/> |
-|Bokmal norvégien  <br/> |1044  <br/> |
+|Norwegian Bokmal  <br/> |1044  <br/> |
 |Norvégien Nynorsk  <br/> |2068  <br/> |
 |Odia  <br/> |1096  <br/> |
 |Oromo  <br/> |1138  <br/> |
@@ -118,15 +118,15 @@ Le tableau suivant contient une liste des langues et leur LCID correspondant.
 |Serbe (cyrillique)  <br/> |3098  <br/> |
 |Serbe (latin)  <br/> |2074  <br/> |
 |Sindhi  <br/> |1113  <br/> |
-|Cingalais  <br/> |1115  <br/> |
+|Singlese  <br/> |1115  <br/> |
 |Slovaque  <br/> |1051  <br/> |
 |Slovène  <br/> |1060  <br/> |
-|Shilling  <br/> |1143  <br/> |
+|Bab  <br/> |1143  <br/> |
 |Espagnol  <br/> |3082  <br/> |
 |Swahili  <br/> |1089  <br/> |
 |Suédois  <br/> |1053  <br/> |
 |Syriaque  <br/> |1114  <br/> |
-|Tadjik  <br/> |1064  <br/> |
+|Tajik  <br/> |1064  <br/> |
 |Tamazight (arabe, Maroc)  <br/> |1119  <br/> |
 |Tamazight (alphabet latin)  <br/> |2143  <br/> |
 |Tamoul  <br/> |1097  <br/> |
@@ -146,7 +146,7 @@ Le tableau suivant contient une liste des langues et leur LCID correspondant.
 |Yiddish  <br/> |1085  <br/> |
 |Yorouba  <br/> |1130  <br/> |
    
-Pour obtenir une référence à la cellule DocLangID par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
+Pour obtenir une référence à la cellule DocLangID par un nom à partir d’une autre formule ou d’un programme à l’aide de la **propriété CellsU,** utilisez : 
   
 |||
 |:-----|:-----|
@@ -156,7 +156,7 @@ Pour obtenir une référence à la cellule DocLangID à l’aide d’un index à
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowDoc** <br/> |
 |Index de la cellule :  <br/> |**visDocLangID** <br/> |
    

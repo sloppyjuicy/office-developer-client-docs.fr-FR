@@ -1,5 +1,5 @@
 ---
-title: ENTRE (application Web personnalisée Access)
+title: BETWEEN (Application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429298"
 ---
-# <a name="between-access-custom-web-app"></a>ENTRE (application Web personnalisée Access)
+# <a name="between-access-custom-web-app"></a>BETWEEN (Application web personnalisée Access)
 
 Spécifie une plage à tester.
   
@@ -22,17 +22,17 @@ Spécifie une plage à tester.
   
 ## <a name="syntax"></a>Syntaxe
 
- *test_expression*  AUCUN **Entre** *début_expression* **Et** *fin_expression* 
+ *test_expression*  [ PAS ] **ENTRE** *begin_expression* **ET** *end_expression* 
   
-L'opérateur **between** contient les arguments suivants. 
+**L’opérateur Between** contient les arguments suivants. 
   
 |**Argument**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
-| *test_expression*  <br/> |Oui  <br/> |Expression à tester dans la plage définie par les valeurs *début_expression* et *fin_expression* . Doit être du même type de données que *début_expression* et *fin_expression* .  <br/> |
-| *NOT*  <br/> |Non  <br/> |Spécifie que le résultat du prédicat doit être inversé.  <br/> |
-| *début_expression*  <br/> |Oui  <br/> |Expression valide. Doit être le même type de données que *test_expression* et *fin_expression* .  <br/> |
-| *fin_expression*  <br/> |Oui  <br/> |Expression valide. Doit être le même type de données que *test_expression* et *début_expression* .  <br/> |
-| *AND*  <br/> |Oui  <br/> |Indique que *test_expression* doit être compris dans la plage indiquée par *début_expression* et *fin_expression* .  <br/> |
+| *test_expression*  <br/> |Oui  <br/> |Expression à tester dans la plage définie par begin_expression  *et*  *end_expression*  . Doit être le même type de données que begin_expression  *et*  *end_expression*  .  <br/> |
+| *NOT*  <br/> |Non  <br/> |Spécifie que le résultat du prédicat doit être annulé.  <br/> |
+| *begin_expression*  <br/> |Oui  <br/> |Expression valide. Doit être le même type de données que test_expression  *et*  *end_expression*  .  <br/> |
+| *end_expression*  <br/> |Oui  <br/> |Expression valide. Doit être le même type de données que test_expression  *et*  *begin_expression*  .  <br/> |
+| *AND*  <br/> |Oui  <br/> |Indique  *test_expression*  doit se trouve dans la plage indiquée par les begin_expression  *et*  *end_expression*  .  <br/> |
    
 ## <a name="result-type"></a>Type de résultat
 
@@ -40,10 +40,10 @@ L'opérateur **between** contient les arguments suivants.
   
 ## <a name="remarks"></a>Remarques
 
- **Between** renvoie **true** si la valeur de *test_expression* est supérieure ou égale à la valeur de *début_expression* et inférieure ou égale à la valeur de *fin_expression* . 
+ **BETWEEN** renvoie **TRUE** si la valeur de  *test_expression*  est supérieure ou égale à la valeur de  *begin_expression*  et inférieure ou égale à la valeur de  *end_expression*  . 
   
- **Not between** renvoie **true** si la valeur de *test_expression* est inférieure à la valeur de *début_expression* ou supérieure à celle de *fin_expression* . 
+ **NOT BETWEEN renvoie** **TRUE** si la valeur de *test_expression* est  inférieure à la valeur de begin_expression ou supérieure à la valeur de *end_expression* . 
   
-Pour spécifier une plage exclusive, utilisez les opérateurs supérieur à\>() et inférieur à (\<).
+Pour spécifier une plage exclusive, utilisez les plages supérieure \> () et inférieure aux opérateurs ( \< ).
   
 

@@ -25,12 +25,12 @@ ms.locfileid: "33433296"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [SPropAttrArray](spropattrarray.md) existante. 
+Calcule le nombre d’octets dans une structure [SPropAttrArray](spropattrarray.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |IMessage. h  <br/> |
-|Structure associée:  <br/> |**SPropAttrArray** <br/> |
+|Fichier d’en-tête :  <br/> |Imessage.h  <br/> |
+|Structure connexe :  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
 CbSPropAttrArray (_lparray)
@@ -38,7 +38,7 @@ CbSPropAttrArray (_lparray)
 
 ## <a name="parameters"></a>Paramètres
 
- __LPArray_
+ _ _lparray_
   
 > Pointeur vers la structure **SPropAttrArray** existante. 
     

@@ -8,7 +8,7 @@ f1_keywords:
 - fDialog
 - fDialog12
 keywords:
-- fonction fdialog [Excel 2007], fonction fDialog12 [Excel 2007]
+- fdialog function [excel 2007],fDialog12 function [Excel 2007]
 localization_priority: Normal
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33431525"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Exemple de commande définie par l'utilisateur montrant comment créer une UDD Microsoft Excel (boîte de dialogue définie par l'utilisateur) dans une DLL à l'aide des fonctionnalités de la boîte de dialogue de l'API C. Lorsque GENERIC. xll est chargé, il crée un menu défini par l'utilisateur, générique, par le biais duquel cette commande est accédée.
+Exemple de commande définie par l’utilisateur qui montre comment créer un UDD Microsoft Excel (boîte de dialogue définie par l’utilisateur) dans une DLL à l’aide des fonctionnalités de la boîte de dialogue dans l’API C. Lorsque GENERIC.xll est chargé, il crée un menu défini par l’utilisateur, Generic, via lequel cette commande est accessible.
   
 ```cs
 int WINAPI fDialog(void);
@@ -39,7 +39,7 @@ La fonction renvoie toujours 1.
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
+Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

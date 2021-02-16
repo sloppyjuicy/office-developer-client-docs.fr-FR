@@ -25,7 +25,7 @@ ms.locfileid: "33430125"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie les informations d'un objet de site de messagerie concernant les fonctionnalités du site de messagerie pour le message actif.
+Renvoie des informations à partir d’un objet de site de message sur les fonctionnalités du site de message pour le message actuel.
   
 ```cpp
 HRESULT GetSiteStatus(
@@ -37,7 +37,7 @@ HRESULT GetSiteStatus(
 
  _lpulStatus_
   
-> remarquer Pointeur vers un masque de réindicateur qui fournit des informations sur l'état des messages. Les indicateurs suivants peuvent être définis:
+> [out] Pointeur vers un masque de bits d’indicateurs qui fournit des informations sur l’état du message. Les indicateurs suivants peuvent être définies :
     
 VCSTATUS_COPY 
   
@@ -49,7 +49,7 @@ VCSTATUS_DELETE
     
 VCSTATUS_DELETE_IS_MOVE 
   
-> Une fois supprimé, un message est déplacé vers un dossier **éléments supprimés** dans sa banque de messages au lieu d'être supprimé immédiatement de sa banque de messages. 
+> Lorsqu’il est supprimé, un  message est déplacé vers un dossier Éléments supprimés de sa boutique de messages au lieu d’être immédiatement supprimé de sa boutique de messages. 
     
 VCSTATUS_MOVE 
   
@@ -75,13 +75,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les objets de formulaire appellent la méthode **IMAPIMessageSite:: GetSiteStatus** pour obtenir les fonctionnalités de l'objet de site de message pour le message actif. Les indicateurs renvoyés dans le paramètre _lpulStatus_ fournissent des informations sur le site de messagerie. En règle générale, un formulaire active ou désactive les commandes de menu, en fonction des informations que les indicateurs fournissent à propos des fonctionnalités de l'implémentation de site de message. Si un nouveau message est chargé dans un formulaire à l'aide de la méthode [IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) ou [IPersistMessage:: Load](ipersistmessage-load.md) , les indicateurs d'État doivent être vérifiés. Certains objets de site de messagerie, en particulier les objets en lecture seule, n'autorisent pas l'enregistrement ou la suppression des messages. 
+Les objets form appellent la méthode **IMAPIMessageSite::GetSiteStatus** pour obtenir les fonctionnalités de l’objet de site de message pour le message actuel. Les indicateurs renvoyés dans le  _paramètre lpulStatus_ fournissent des informations sur le site de message. En règle générale, un formulaire active ou désactive les commandes de menu, en fonction des informations fournies par les indicateurs sur les fonctionnalités de l’implémentation du site de message. Si un nouveau message est chargé dans un formulaire par la méthode [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) ou [IPersistMessage::Load,](ipersistmessage-load.md) les indicateurs d’état doivent être vérifiés. Certains objets de site de message, en particulier les objets en lecture seule, n’autorisent pas l’enregistré ou la suppression des messages. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-La méthode **IMAPIMessageSite:: GetSiteStatus** peut demander à l'application cliente d'effectuer un calcul afin de déterminer les opérations qui peuvent ou ne peuvent pas être effectuées sur le message actif. En règle générale, cela implique d'examiner la ligne d'État du fournisseur de banque de messages du message actif ou d'interroger le fournisseur de banque pour déterminer les actions que l'application cliente peut effectuer à l'aide de la Banque de messages. Par exemple, pour déterminer s'il faut renvoyer l'indicateur MAPI_DELETE_IS_MOVE, vérifiez la propriété **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) de l'objet Banque de messages pour voir s'il existe un dossier **éléments supprimés** dans la balise Banque de messages. 
+La **méthode IMAPIMessageSite::GetSiteStatus** peut exiger que l’application cliente effectue un calcul pour déterminer les opérations qui peuvent ou ne peuvent pas être effectuées sur le message actuel. En règle générale, cela implique de regarder la ligne d’état du fournisseur de la boutique de messages du message actuel ou d’interroger le fournisseur de magasin pour déterminer les actions que l’application cliente peut effectuer à l’aide de la magasin de messages. Par exemple, pour déterminer s’il faut renvoyer l’indicateur MAPI_DELETE_IS_MOVE, vérifiez la propriété **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) de l’objet de la boutique de messages pour voir s’il existe un dossier Éléments supprimés dans la magasin de messages.  
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -89,7 +89,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetSiteStatus  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite:: GetSiteStatus** pour obtenir l'état du site spécifié. Elle peut renvoyer VCSTATUS_NEW_MESSAGE, VCSTATUS_SAVE ou VCSTATUS_SUBMIT.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSiteStatus  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetSiteStatus** pour obtenir l’état du site spécifié. Elle peut renvoyer VCSTATUS_NEW_MESSAGE, VCSTATUS_SAVE ou VCSTATUS_SUBMIT.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

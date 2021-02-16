@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlGetName
 keywords:
-- fonction xlGetName [Excel 2007]
+- fonction xlgetname [excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33430587"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Renvoie le chemin d'accès complet et le nom de fichier de la DLL sous la forme d'une chaîne.
+Renvoie le chemin d’accès complet et le nom de fichier de la DLL sous la forme d’une chaîne.
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
@@ -30,11 +30,11 @@ Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 
 ## <a name="parameters"></a>Paramètres
 
-Cette fonction n'a pas d'argument.
+Cette fonction n’a pas d’arguments.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Renvoie le chemin d'accès et le nom de fichier (**xltypeStr**). 
+Renvoie le chemin d’accès et le nom de fichier (**xltypeStr**). 
   
 ## <a name="example"></a>Exemple
 

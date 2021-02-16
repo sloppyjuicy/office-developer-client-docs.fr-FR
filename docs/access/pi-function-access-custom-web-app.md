@@ -1,5 +1,5 @@
 ---
-title: Fonction pi (application Web personnalisée Access)
+title: Pi Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432575"
 ---
-# <a name="pi-function-access-custom-web-app"></a>Fonction pi (application Web personnalisée Access)
+# <a name="pi-function-access-custom-web-app"></a>Pi Function (Access custom web app)
 
 Renvoie la valeur constante de PI.
   

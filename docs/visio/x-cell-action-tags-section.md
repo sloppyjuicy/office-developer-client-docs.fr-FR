@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm60093
 localization_priority: Normal
 ms.assetid: d13e362b-9b69-30c5-003a-9c5df2aa29f6
-description: Position de la coordonnée x dans les coordonnées locales de la forme et entourant laquelle se trouve le bouton de balise d'action.
+description: Position de coordonnée x dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé.
 ms.openlocfilehash: 9f26bec81563c9813a88ed5c69730266834ee101
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33431112"
 ---
 # <a name="x-cell-action-tags-section"></a>X, cellule (section Action Tags)
 
-Position de la coordonnée *x* dans les coordonnées locales de la forme et entourant laquelle se trouve le bouton de balise d'action. 
+Position  *de coordonnée x*  dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé. 
   
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
@@ -31,14 +31,14 @@ Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une 
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> |SmartTag. *nom* . X où SmartTags. *Name* est le nom de la ligne de balise d'action  <br/> |
+| Nom de cellule :  <br/> |SmartTags. *nom*  . X où SmartTags. *name est*  le nom de la ligne de balise d’action  <br/> |
    
 Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visSmartTagX** <br/> |
    
 

@@ -25,7 +25,7 @@ ms.locfileid: "33428843"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique au fournisseur MAPI que le client MAPI quitte immédiatement, afin que le fournisseur MAPI conserve les modifications afin d'éviter toute perte de données.
+Indique au fournisseur MAPI que le client MAPI quitte immédiatement, afin que le fournisseur MAPI continue à apporter des modifications afin d’éviter toute perte de données.
   
 ```cpp
 HRESULT DoFastShutdown ();
@@ -35,7 +35,7 @@ HRESULT DoFastShutdown ();
 
 S_OK
   
-> Le fournisseur MAPI est prêt à quitter le client MAPI immédiatement. 
+> Le fournisseur MAPI est prêt à quitter immédiatement le client MAPI. 
     
 ## <a name="see-also"></a>Voir aussi
 

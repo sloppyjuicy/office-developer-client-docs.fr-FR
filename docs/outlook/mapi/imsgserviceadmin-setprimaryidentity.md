@@ -25,7 +25,7 @@ ms.locfileid: "33430363"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Désigne un service de messagerie en tant que fournisseur de l'identité principale pour le profil.
+Désigne un service de message comme fournisseur de l’identité principale du profil.
   
 ```cpp
 HRESULT SetPrimaryIdentity(
@@ -38,7 +38,7 @@ HRESULT SetPrimaryIdentity(
 
  _lpUID_
   
-> dans Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l'identificateur unique pour le service de message afin de fournir l'identité principale, ou null, qui indique que **SetPrimaryIdentity** doit effacer l'identité actuelle. 
+> [in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique du service de message pour fournir l’identité principale, ou NULL, qui indique que **SetPrimaryIdentity** doit effacer l’identité actuelle. 
     
  _ulFlags_
   
@@ -48,15 +48,15 @@ HRESULT SetPrimaryIdentity(
 
 S_OK 
   
-> Le service de messagerie a été correctement attribué au fournisseur de l'identité principale.
+> Le service de message a été correctement affecté au fournisseur de l’identité principale.
     
 MAPI_E_NO_ACCESS 
   
-> **SetPrimaryIdentity** a tenté de désigner un service de messagerie dont l'indicateur SERVICE_NO_PRIMARY_IDENTITY est défini dans sa propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+> **SetPrimaryIdentity** a tenté de désigner un service de message dont l’indicateur SERVICE_NO_PRIMARY_IDENTITY est PR_RESOURCE_FLAGS **(** [PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin:: SetPrimaryIdentity** établit un service de messagerie en tant que fournisseur de l'identité principale pour le profil. L'identité principale est généralement l'utilisateur qui est connecté au service de messagerie. Il est représenté par trois propriétés: 
+La **méthode IMsgServiceAdmin::SetPrimaryIdentity** établit un service de message en tant que fournisseur de l’identité principale du profil. L’identité principale est généralement l’utilisateur qui est connecté au service de message. Il est représenté par trois propriétés : 
   
 - **PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md))
     
@@ -64,11 +64,11 @@ La méthode **IMsgServiceAdmin:: SetPrimaryIdentity** établit un service de mes
     
 - **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md))
     
-Chaque fournisseur de services dans le service de messages désigné définit ces trois propriétés sur le nom complet, l'identificateur d'entrée et la clé de recherche de l'utilisateur de messagerie qui fournit l'identité principale. Les clients peuvent récupérer l'identificateur d'entrée de l'identité principale en appelant la méthode [IMAPISession:: QueryIdentity](imapisession-queryidentity.md) . 
+Chaque fournisseur de services dans le service de messagerie désigné définit ces trois propriétés sur le nom d’affichage, l’identificateur d’entrée et la clé de recherche de l’utilisateur de messagerie qui fournit l’identité principale. Les clients peuvent récupérer l’identificateur d’entrée de l’identité principale en appelant la méthode [IMAPISession::QueryIdentity.](imapisession-queryidentity.md) 
   
-La propriété **PR_RESOURCE_FLAGS** est définie sur STATUS_PRIMARY_IDENTITY pour chaque fournisseur qui est membre du service de messagerie qui fournit l'identité principale et sur SERVICE_PRIMARY_IDENTITY pour le service de messagerie. Lorsqu'un fournisseur de services ne peut pas fournir l'identité principale pour son service de messagerie, il définit **PR_RESOURCE_FLAGS** sur STATUS_NO_PRIMARY_IDENTITY. **SetPrimaryIdentity** définit la propriété **PR_RESOURCE_FLAGS** de chaque service de messagerie qui ne fournit pas l'identité principale à SERVICE_NO_PRIMARY_IDENTITY. 
+La **propriété PR_RESOURCE_FLAGS** est définie sur STATUS_PRIMARY_IDENTITY pour chaque fournisseur membre du service de messagerie qui fournit l’identité principale et sur SERVICE_PRIMARY_IDENTITY pour le service de messagerie. Lorsqu’un fournisseur de services ne peut pas fournir l’identité principale de son service de messagerie, il PR_RESOURCE_FLAGS **à** STATUS_NO_PRIMARY_IDENTITY. **SetPrimaryIdentity** définit la **propriété PR_RESOURCE_FLAGS** de chaque service de message qui ne fournit pas l’identité principale à SERVICE_NO_PRIMARY_IDENTITY. 
   
-Chaque fournisseur de services de messagerie pour lequel MAPI dispose d'informations sur peut établir une identité pour chacun de ses utilisateurs lorsqu'un client se connecte au service. Toutefois, dans la mesure où MAPI prend en charge les connexions à plusieurs fournisseurs de services pour chaque session MAPI, il n'existe pas de définition ferme de l'identité d'un utilisateur particulier pour la session MAPI dans son ensemble. l'identité d'un utilisateur dépend du service impliqué. Les clients peuvent appeler **SetPrimaryIdentity** pour désigner l'une des nombreuses identités établies pour un utilisateur par les services de messagerie en tant qu'identité principale de cet utilisateur. 
+Chaque fournisseur de services de messagerie dont MAPI dispose d’informations peut établir une identité pour chacun de ses utilisateurs lorsqu’un client se connecte au service. Toutefois, étant donné que MAPI prend en charge les connexions à plusieurs fournisseurs de services pour chaque session MAPI, il n’existe pas de définition précise de l’identité d’un utilisateur particulier pour la session MAPI dans son ensemble ; L’identité d’un utilisateur dépend du service concerné. Les clients peuvent appeler **SetPrimaryIdentity** pour désigner l’une des nombreuses identités établies pour un utilisateur par les services de message en tant qu’identité principale pour cet utilisateur. 
   
 ## <a name="see-also"></a>Voir aussi
 

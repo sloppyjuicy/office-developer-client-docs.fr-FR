@@ -19,6 +19,6 @@ ms.locfileid: "33430846"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fournisseurs de transport peuvent utiliser le traitement personnalisé pour traiter les propriétés sur une pièce jointe elle-même, transmettre des pièces jointes séparément ou les transmettre via le modèle de pièces jointes du système de messagerie. Le format TNEF utilise un mécanisme qui permet au fournisseur de transport d'envoyer les pièces jointes en dehors du message et de les reconnecter côté réception.
+Les fournisseurs de transport peuvent utiliser un traitement personnalisé pour traiter les propriétés d’une pièce jointe proprement dite, transmettre des pièces jointes séparément ou les transmettre via le modèle de pièces jointes du système de messagerie. Le TNEF utilise un mécanisme qui permet au fournisseur de transport d’envoyer les pièces jointes en dehors du message et de les reconnecter du côté de réception.
   
 

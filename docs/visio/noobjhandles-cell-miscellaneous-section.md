@@ -37,7 +37,7 @@ Pour obtenir une référence à la cellule NoObjHandles à l'aide d'un index à 
   
 |||
 |:-----|:-----|
-| Index de la section  :  <br/> |**Définis** <br/> |
+| Index de la section  :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowMisc** <br/> |
 | Index de la cellule :  <br/> |**visNoObjHandles** <br/> |
    

@@ -25,11 +25,11 @@ ms.locfileid: "33433051"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-ConVertit une chaîne terminée par un caractère null de chiffres hexadécimaux en un entier long non signé. 
+Convertit une chaîne de chiffres hexadécimals terminée par null en un nombre long non signé. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,16 +43,16 @@ LPCSTR lpsz
 
  _lpsz_
   
-> dans Pointeur vers la chaîne terminée par un caractère null à convertir. Le paramètre _lpsz_ ne doit pas dépasser 65536 caractères. 
+> [in] Pointeur vers la chaîne terminée par null à convertir. Le  _paramètre lpsz_ ne doit pas dépasser 65 536 caractères. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
- **UlFromSzHex** renvoie un entier long non signé. Si la chaîne ne commence pas par au moins un chiffre hexadécimal, zéro est renvoyé. 
+ **UlFromSzHex** renvoie un long integer non signé. Si la chaîne ne commence pas par au moins un chiffre hexadécimal, zéro est renvoyé. 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **UlFromSzHex** arrête la conversion lorsqu'elle atteint le premier caractère de la chaîne qui n'est pas un chiffre hexadécimal. Par exemple, en fonction de la chaîne «5a», **UlFromSzHex** renvoie la valeur entière 90. Étant donné la chaîne «5g5h», la fonction renvoie la valeur entière 5. Étant donné la chaîne «g5h5», **UlFromSzHex** renvoie zéro. 
+La **fonction UlFromSzHex** cesse de se convertir lorsqu’elle atteint le premier caractère de la chaîne qui n’est pas un chiffre hexadécimal. Par exemple, étant donné la chaîne « 5a », **UlFromSzHex** renvoie la valeur d’ensemble 90. Étant donné la chaîne « 5g5h », la fonction renvoie la valeur d’ensemble 5. Étant donné la chaîne « g5h5 », **UlFromSzHex** renvoie zéro. 
   
- **UlFromSzHex** est sensible aux différences diacritiques, mais autorise «a» à «f» et «a» À «f» pour les chiffres hexadécimaux. Les chaînes au format Unicode et DBCS sont prises en charge. La limite de longueur sur _lpsz_ est exprimée en caractères, pas nécessairement en octets. 
+ **UlFromSzHex** est sensible aux différences diacritiques, mais autorise à la fois « a » et « f » et « A » à « F » pour les chiffres hexadécimals. Les chaînes aux formats Unicode et DBCS sont pris en charge. La limite de longueur sur  _lpsz est_ en caractères, pas nécessairement en octets. 
   
 

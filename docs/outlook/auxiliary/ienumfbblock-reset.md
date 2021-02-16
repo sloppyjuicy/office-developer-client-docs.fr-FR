@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 54bd69c3-a9fa-d2ac-9a91-67187c92fc8a
-description: Réinitialise l'énumérateur en définissant le curseur au début.
+description: Réinitialise l’éumérateur en redéfinissant le curseur au début.
 ms.openlocfilehash: 589f8e310cc1c0053434a9ab4fb78931b339ca46
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33433632"
 ---
 # <a name="ienumfbblockreset"></a>IEnumFBBlock::Reset
 
-Réinitialise l'énumérateur en définissant le curseur au début.
+Réinitialise l’éumérateur en redéfinissant le curseur au début.
   
 ## <a name="quick-info"></a>Informations rapides
 

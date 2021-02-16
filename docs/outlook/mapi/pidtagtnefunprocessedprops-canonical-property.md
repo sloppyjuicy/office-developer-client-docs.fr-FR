@@ -32,23 +32,23 @@ Sérialise les propriétés lors du filtrage du format TNEF (Transport Neutral E
 |Propriétés associées :  <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |
 |Identificateur :  <br/> |0x0E9C  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Utilisé par Microsoft Outlook et Outlook Web Access (OWA) pour enregistrer le format TNEF d'origine dans les cas où le format TNEF contient des propriétés nommées qui ne peuvent pas être créées dans la Banque.
+Utilisé par Microsoft Outlook et Outlook Web Access (OWA) pour enregistrer le TNEF d’origine dans les cas où le TNEF contient des propriétés nommées qui ne peuvent pas être créées dans le store.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

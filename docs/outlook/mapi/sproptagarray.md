@@ -25,12 +25,12 @@ ms.locfileid: "33430699"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de balises de propriété. 
+Contient un tableau de balises de propriétés. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Macros connexes:  <br/> |[CbNewSPropTagArray](cbnewsproptagarray.md), [CbSPropTagArray](cbsproptagarray.md), [SizedSPropTagArray](sizedsproptagarray.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Macros associées :  <br/> |[CbNewSPropTagArray](cbnewsproptagarray.md), [CbSPropTagArray](cbsproptagarray.md), [SizedSPropTagArray](sizedsproptagarray.md) <br/> |
    
 ```cpp
 typedef struct _SPropTagArray
@@ -45,7 +45,7 @@ typedef struct _SPropTagArray
 
  **cValues**
   
-> Nombre de balises de propriété dans le tableau indiqué par le membre **aulPropTag** . 
+> Nombre de balises de propriété dans le tableau indiqué par le **membre aulPropTag.** 
     
  **aulPropTag**
   
@@ -53,25 +53,25 @@ typedef struct _SPropTagArray
     
 ## <a name="remarks"></a>Remarques
 
-Une balise de propriété est un entier non signé 32 bits composé de deux parties: 
+Une balise de propriété est un nombre d’éléments non signés 32 bits composé de deux parties : 
   
-- Identificateur dans l'ordre décroissant de 16 bits.
+- Identificateur de l’ordre élevé de 16 bits.
     
-- Un type dans les bits de poids faible 16.
+- Type de 16 bits de bas ordre.
     
-L'identificateur est une valeur numérique dans une plage particulière. MAPI définit des plages d'identificateurs pour décrire ce à quoi la propriété est utilisée et qui est responsable de sa maintenance. MAPI définit des contraintes pour chacune des balises de propriété qu'il prend en charge dans le fichier d'en-tête Mapitags. h.
+L’identificateur est une valeur numérique dans une plage particulière. MAPI définit des plages pour les identificateurs afin de décrire l’utilisation de la propriété et la personne responsable de sa maintenance. MAPI définit des contraintes pour chacune des balises de propriété qu’il prend en charge dans le fichier d’en-tête Mapitags.h.
   
-Le type indique le format de la valeur de la propriété. MAPI définit des constantes pour chaque type de propriété qu'il prend en charge dans le fichier d'en-tête Mapidefs. h. 
+Le type indique le format de la valeur de la propriété. MAPI définit des constantes pour chacun des types de propriétés qu’il prend en charge dans le fichier d’en-tête Mapidefs.h. 
   
-Pour plus d'informations sur les balises de propriétés et leurs composants, consultez l'une des rubriques suivantes: 
+Pour plus d’informations sur les balises de propriété et leurs composants, consultez l’une des rubriques suivantes : 
   
 [Balises de propriété MAPI](mapi-property-tags.md)
   
-[Vue d'ensemble de l'identificateur de propriété MAPI](mapi-property-identifier-overview.md)
+[Vue d’ensemble de l’identificateur de propriété MAPI](mapi-property-identifier-overview.md)
   
-[Vue d'ensemble du type de propriété MAPI](mapi-property-type-overview.md)
+[Vue d’ensemble du type de propriété MAPI](mapi-property-type-overview.md)
   
-Pour obtenir la liste complète des types de propriétés à valeur unique et à valeurs multiples, consultez l'annexe, [identificateurs et types de propriétés](property-identifiers-and-types.md). 
+Pour obtenir la liste complète des types de propriétés à valeur unique et à valeurs multiples, voir l’annexe, Identificateurs de [propriétés et Types.](property-identifiers-and-types.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

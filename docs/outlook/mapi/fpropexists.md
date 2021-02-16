@@ -25,11 +25,11 @@ ms.locfileid: "33429487"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Recherche une balise de propriété donnée dans une interface [IMAPIProp](imapipropiunknown.md) ou une interface dérivée de **IMAPIProp**, telle que [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
+Recherche une balise de propriété donnée dans une interface [IMAPIProp](imapipropiunknown.md) ou une interface dérivée **d’IMAPIProp,** telle que [IMessage](imessageimapiprop.md) ou [IMAPIFolder](imapifolderimapicontainer.md). 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -44,24 +44,24 @@ BOOL FPropExists(
 
  _pobj_
   
-> dans Pointeur vers l'interface ou l'interface **IMAPIProp** dérivée de **IMAPIProp** dans lequel rechercher la balise de propriété. 
+> [in] Pointeur vers l’interface ou l’interface **IMAPIProp** dérivée **d’IMAPIProp** dans laquelle rechercher la balise de propriété. 
     
  _ulPropTag_
   
-> dans Balise de propriété à rechercher.
+> [in] Balise de propriété pour laquelle effectuer une recherche.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Une correspondance pour la balise de propriété donnée a été trouvée. 
+> Une correspondance a été trouvée pour la balise de propriété donnée. 
     
 FALSE 
   
-> Une correspondance pour la balise de propriété donnée est introuvable.
+> Une correspondance pour la balise de propriété donnée n’a pas été trouvée.
     
 ## <a name="remarks"></a>Remarques
 
-Si la balise de propriété dans le paramètre _ulPropTag_ est de type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l'identificateur de la propriété. Dans le cas contraire, la correspondance est pour l'intégralité de la balise de propriété, y compris le type. 
+Si la balise de propriété dans le paramètre  _ulPropTag_ possède un type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l’identificateur de propriété. Sinon, la correspondance correspond à l’ensemble de la balise de propriété, y compris le type. 
   
 

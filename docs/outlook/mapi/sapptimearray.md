@@ -25,11 +25,11 @@ ms.locfileid: "33430384"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de valeurs d'heure.
+Contient un tableau de valeurs d’heure.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SAppTimeArray
@@ -44,15 +44,15 @@ typedef struct _SAppTimeArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **LPAT** . 
+> Nombre de valeurs dans le tableau pointées par **le membre lpat.** 
     
- **LPAT**
+ **lpat**
   
-> Pointeur vers un tableau de valeurs de temps d'application. 
+> Pointeur vers un tableau de valeurs d’heure d’application. 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SAppTimeArray** est utilisée pour définir les propriétés de type PT_MV_APPTIME. Pour plus d'informations sur PT_MV_APPTIME, consultez la rubrique [liste des types de propriétés](property-types.md).
+La structure **SAppTimeArray permet** de définir des propriétés de type PT_MV_APPTIME. Pour plus d’informations PT_MV_APPTIME, voir [Liste des types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,20 +25,20 @@ ms.locfileid: "33430874"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette interface fournit des fonctionnalités d'assistance lors de l'exécution de la réplication via l'interface **[IOSTX](iostxiunknown.md)** . 
+Cette interface fournit des fonctionnalités d’aide lors de la réplication via l’interface **[IOSTX.](iostxiunknown.md)** 
   
 |||
 |:-----|:-----|
 |Fourni par  <br/> |Requête sur [IMsgStore](imsgstoreimapiprop.md) <br/> |
-|Identificateur de l'interface:  <br/> |IID_IPSTX2  <br/> |
+|Identificateur d’interface :  <br/> |IID_IPSTX2  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Définit l'état suspendu sur le spouleur.  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Définit l’état suspendu sur lepooler.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

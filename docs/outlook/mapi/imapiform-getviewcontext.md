@@ -25,7 +25,7 @@ ms.locfileid: "33430902"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le contexte d'affichage actuel du formulaire. 
+Renvoie le contexte d’affichage actuel du formulaire. 
   
 ```cpp
 HRESULT GetViewContext(
@@ -37,25 +37,25 @@ HRESULT GetViewContext(
 
  _ppViewContext_
   
-> remarquer Pointeur vers un pointeur vers le contexte d'affichage du formulaire.
+> [out] Pointeur vers un pointeur vers le contexte d’affichage du formulaire.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le contexte d'affichage actuel du formulaire a été renvoyé. 
+> Le contexte d’affichage actuel du formulaire a été renvoyé avec succès. 
     
 S_FALSE 
   
-> Il n'existe pas de contexte d'affichage pour le formulaire.
+> Il n’existe aucun contexte d’affichage pour le formulaire.
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent **GetViewContext** pour obtenir un pointeur vers le contexte d'affichage établi dans un appel précédent à [IMAPIForm:: SetViewContext](imapiform-setviewcontext.md). Si aucun appel antérieur n'a été effectué vers **SetViewContext**, **GetViewContext** définit _ppViewContext_ sur null. 
+Les visionneuses de formulaire **appellent GetViewContext** pour obtenir un pointeur vers le contexte d’affichage établi dans un appel précédent à [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Si aucun appel préalable n’a été effectué sur **SetViewContext**, **GetViewContext** définit  _ppViewContext_ sur NULL. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Copiez le pointeur de contexte de vue de votre formulaire dans le pointeur transmis par la visionneuse de formulaire appelant dans le paramètre _ppViewContext_ . Si le formulaire n'a pas de contexte d'affichage, affectez la valeur NULL à _ppViewContext_ . 
+Copiez le pointeur de contexte d’affichage de votre formulaire dans le pointeur transmis par la visionneuse de formulaire appelant dans le _paramètre ppViewContext._ Si le formulaire ne comporte pas de contexte d’affichage, définissez  _ppViewContext_ sur NULL. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -63,7 +63,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions. cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI utilise la méthode **IMAPIForm:: GetViewContext** pour vérifier si un formulaire possède un contexte d'affichage.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI utilise la **méthode IMAPIForm::GetViewContext** pour vérifier si un formulaire possède un contexte d’affichage.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

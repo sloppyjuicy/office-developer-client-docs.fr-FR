@@ -1,5 +1,5 @@
 ---
-title: Télécharger l'état de l'état de lecture
+title: Télécharger l’état de lecture
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,31 +13,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431539"
 ---
-# <a name="upload-read-status-state"></a>Télécharger l'état de l'état de lecture
+# <a name="upload-read-status-state"></a>Télécharger l’état de lecture
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se passe lors de l'état de lecture de téléchargement de l'ordinateur d'état de réplication. 
+ Cette rubrique décrit ce qui se produit pendant l’état de lecture du chargement de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
-|Identificateur d'État:  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |
-|Structure de données associée:  <br/> |**[UPREAD](upread.md)** <br/> |
-|À partir de cet État:  <br/> |[Charger l'état de la table](upload-table-state.md) <br/> |
-|À cet État:  <br/> |Charger l'état de la table  <br/> |
+|Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |
+|Structure de données associée :  <br/> |**[UPREAD](upread.md)** <br/> |
+|À partir de cet état :  <br/> |[Télécharger l’état de la table](upload-table-state.md) <br/> |
+|À cet état :  <br/> |Télécharger l’état de la table  <br/> |
    
 > [!NOTE]
-> L'ordinateur d'état de réplication est un ordinateur d'État déterministe. Un client qui se déplace d'un État à un autre doit finalement revenir au premier de ce dernier. 
+> La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
   
 ## <a name="description"></a>Description
 
-Cet État lance le téléchargement de l'état de lecture des éléments dans un dossier spécifié dans un état de tableau de téléchargement précédent. Dans cet État, Outlook initialise la structure de données de la **lecture** associée avec les informations de ces éléments dans le dossier dont le statut de lecture a changé. Le client met ensuite à jour l'état de lecture de ces éléments sur le serveur comme étant lus ou non lus. 
+Cet état initie le téléchargement de l’état de lecture des éléments dans un dossier spécifié dans un état de table de chargement précédent. Pendant cet état, Outlook initialise la structure de données **UPREAD** associée avec les informations pour les éléments du dossier dont l’état de lecture a changé. Le client met ensuite à jour l’état de lecture de ces éléments sur le serveur comme étant lu ou non lu. 
   
-Lorsque cet État est terminé, Outlook efface les informations internes relatives à l'état de lecture de l'élément, ce qui empêche le chargement de l'état de lecture de l'élément. Le magasin local revient à l'état de la table de chargement.
+Lorsque cet état se termine, Outlook clears the internal information about the item’s read status, preventing the item’s read status from being uploaded again. La boutique locale revient à l’état de la table de chargement.
   
 ## <a name="see-also"></a>Voir aussi
 

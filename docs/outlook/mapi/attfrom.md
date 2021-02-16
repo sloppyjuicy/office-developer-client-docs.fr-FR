@@ -19,24 +19,24 @@ ms.locfileid: "33432414"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L'attribut **attFrom** est encodé sous la forme d'une structure **TRP** qui encode le nom complet et l'adresse de messagerie de l'expéditeur, suivis du nom complet et de l'adresse de l'expéditeur, suivi de tout remplissage nécessaire. Le format de **attFrom** est le suivant: 
+**L’attribut attFrom** est codé en tant que structure **TRP** qui encode le nom complet et l’adresse e-mail de l’expéditeur, suivi du nom complet et de l’adresse de l’expéditeur, puis de tout remplissage nécessaire. Le format de **attFrom** est le suivant : 
   
-**attFrom**: _TRP-structure_ sender-Display-Name _ sender-Address _ Padding 
+**attFrom**: _TRP-structure_ sender-display-name _ sender-address _ padding 
     
-Sender-Display-Name est une chaîne terminée par un caractère null qui est complétée par un caractère null supplémentaire, si nécessaire, pour atteindre une limite de 2 octets. Le remplissage à la fin de l'encodage **attFrom** se compose de autant de caractères nuls que nécessaire pour atteindre une limite **sizeof (TRP)** . 
+Le nom complet de l’expéditeur est une chaîne terminée par un caractère null qui est ajoutée avec un caractère null supplémentaire, si nécessaire, pour atteindre une limite de 2 byte. Le remplissage à la fin du codage **attFrom** se compose d’autant de caractères null que nécessaire pour atteindre une limite **sizeof(TRP).** 
   
-_TRP:_ **trpidOneOff** cbgrtrp CCH CB 
+_TRP-structure:_ **trpidOneOff** cbgrtrp cch cb 
     
-Pour l'élément **attFrom** , la structure **TRP**est toujours un encodage unique, de sorte que l'trpid du champ **TRP**-structure est toujours **trpidOneOff**. Les éléments cbgrtrp, CCH et CB correspondent aux champs restants de la structure **TRP** . 
+Pour l’élément **attFrom,** la structure **TRP** est toujours un codage unique, donc le trpid hors du champ **TRP**-structure est **toujours trpidOneOff**. Les éléments cbgrtrp, cch et cb correspondent aux champs restants de la structure **TRP.** 
   
-Le champ cbgrtrp est calculé comme la somme de **(sizeof (TRP) \*2)**, de la longueur du nom de l'expéditeur-Display-Name par un caractère NULL avec son remplissage, et de la longueur de l'adresse de l'expéditeur-terminé par un caractère null.
+Le champ cbgrtrp est calculé comme la somme **de (sizeof(TRP) \* 2),** la longueur du nom complet de l’expéditeur terminé par null avec son remplissage et la longueur de l’adresse-expéditeur terminée par null.
   
-Le champ CCH est calculé comme la longueur du nom complet terminé par un caractère NULL avec son remplissage.
+Le champ cch est calculé comme la longueur du nom complet terminé par null avec son remplissage.
   
-Le champ CB est calculé comme la longueur de l'adresse de l'expéditeur-terminé par un caractère null.
+Le champ cb est calculé comme la longueur de l’adresse-expéditeur terminée par null.
   
-_sender-Address:_ Address-type **:** address **' \ 0 '**
+_sender-address:_ address-type **:** address **'\0'**
     
-L'adresse de l'expéditeur est une chaîne composée de quatre parties, d'un type d'adresse, d'un signe deux-points (:), de l'adresse proprement dite et d'un caractère de fin null. Par exemple, la chaîne `fax:1-909-555-1234\0` doit être une valeur Legal sender-Address.
+L’adresse de l’expéditeur est une chaîne composée de quatre parties: le type d’adresse, un deux-points littéral (:), l’adresse elle-même et un caractère null de fin. Par exemple, la chaîne `fax:1-909-555-1234\0` serait une valeur d’adresse d’expéditeur légale.
   
 

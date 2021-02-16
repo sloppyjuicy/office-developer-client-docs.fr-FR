@@ -21,26 +21,26 @@ ms.locfileid: "33431854"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les notifications de formulaire sont utilisées dans MAPI pour faciliter la communication à partir du formulaire vers votre afficheur, ainsi que de votre visionneuse vers le formulaire.
+Les notifications de formulaire sont utilisées dans MAPI pour faciliter la communication du formulaire à votre visionneuse, ainsi qu’à partir de votre visionneuse vers le formulaire.
   
-Les formulaires envoient des notifications à votre visionneuse lorsque l'un des événements suivants se produit:
+Les formulaires envoient des notifications à votre visionneuse lorsque l’un des événements suivants se produit :
   
 - Le formulaire est fermé.
     
 - Un nouveau message est chargé dans le formulaire.
     
-- Une opération d'enregistrement est terminée.
+- Une opération d’enregistrer est terminée.
     
 - Un message est envoyé.
     
-Chacun de ces types d'événements correspond à une méthode particulière dans [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md), l'une des interfaces que votre visionneuse de formulaire doit implémenter. Lorsqu'un événement se produit, le formulaire appelle la méthode **IMAPIViewAdviseSink** correspondante dans le récepteur d'avertissement de votre visionneuse. Par exemple, lorsqu'un nouveau message arrive que votre visionneuse doit inclure dans son affichage, le formulaire appelle votre méthode [IMAPIViewAdviseSink:: OnNewMessage](imapiviewadvisesink-onnewmessage.md) . 
+Chacun de ces types d’événements correspond à une méthode particulière dans [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md), l’une des interfaces que votre visionneuse de formulaire doit implémenter. Lorsqu’un événement se produit, le formulaire appelle la méthode **IMAPIViewAdviseSink** correspondante dans le sink de conseil de votre visionneuse. Par exemple, lorsqu’un nouveau message arrive que votre visionneuse doit inclure dans son affichage, le formulaire appelle votre méthode [IMAPIViewAdviseSink::OnNewMessage.](imapiviewadvisesink-onnewmessage.md) 
   
-Implémentez votre récepteur d'avis d'affichage d'une manière adaptée à votre visionneuse; Il n'existe pas d'implémentation standard. Par exemple, dans **OnNewMessage** , vous pouvez mettre à jour l'affichage de la table des matières du dossier actif pour inclure le message nouvellement arrivé. Dans [IMAPIViewAdviseSink:: OnSubmitted](imapiviewadvisesink-onsubmitted.md), la méthode qui est appelée lorsque vous recevez un événement de message envoyé, vous pouvez copier le message envoyé dans un dossier éléments envoyés.
+Implémenter votre affichage conseiller en tant que sink d’une manière qui soit logique pour votre visionneuse ; il n’existe aucune implémentation standard. Par exemple, dans **OnNewMessage,** vous pouvez mettre à jour la vue de la table des matières du dossier actuel pour inclure le message nouvellement arrivé. Dans [IMAPIViewAdviseSink::OnSubmitted](imapiviewadvisesink-onsubmitted.md), la méthode qui est appelée lorsque vous recevez un événement de message envoyé, vous pouvez copier le message envoyé dans un dossier Éléments envoyés.
   
-Les formulaires reçoivent une notification à partir de votre visionneuse lorsqu'une modification se produit et que vous chargez un nouveau message. Pour avertir un formulaire, appelez l'une des méthodes de **IMAPIFormAdviseSink**: [IMAPIFormAdviseSink:: OnChange](imapiformadvisesink-onchange.md) ou [IMAPIFormAdviseSink:: OnActivateNext](imapiformadvisesink-onactivatenext.md). Appelez **OnChange** pour communiquer le statut. Par exemple, si le formulaire affiche le dernier élément dans un dossier lors de l'arrivée d'un nouveau message, appelez la fonction **OnChange** avec l'indicateur VCSTATUS_NEXT défini pour indiquer au formulaire qu'il existe maintenant un élément suivant. 
+Les formulaires reçoivent une notification de votre visionneuse lorsqu’une modification affecte le formulaire et lorsque vous chargez un nouveau message. Pour notifier un formulaire, appelez l’une des méthodes de **IMAPIFormAdviseSink**: [IMAPIFormAdviseSink::OnChange](imapiformadvisesink-onchange.md) ou [IMAPIFormAdviseSink::OnActivateNext](imapiformadvisesink-onactivatenext.md). Appelez **OnChange pour** communiquer l’état. Par exemple, si le formulaire affiche le dernier élément d’un dossier lorsqu’un nouveau message arrive, appelez **OnChange** avec l’indicateur VCSTATUS_NEXT pour indiquer au formulaire qu’il existe désormais un élément suivant. 
   
-Appelez **OnActivateNext** pour alerter le formulaire à l'arrivée d'un nouveau message qu'il peut ou ne peut pas afficher. TransMettez la classe de message du message à **OnActivateNext**. 
+Appelez **OnActivateNext** pour alerter le formulaire de l’arrivée d’un nouveau message qu’il peut ou non afficher. Passez la classe de message du message à **OnActivateNext**. 
   
-Les notifications d'un objet Form à l'application client sont gérées par l'interface **IMAPIViewAdviseSink** de l'application cliente. Pour plus d'informations, consultez la rubrique [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md).
+Les notifications par un objet de formulaire à l’application cliente sont gérées par l’interface **IMAPIViewAdviseSink** de l’application cliente. Pour plus d’informations, [voir IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md).
   
 

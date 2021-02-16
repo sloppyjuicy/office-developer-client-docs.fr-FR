@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251492
 localization_priority: Normal
 ms.assetid: 122c1d30-3cb9-7e7d-b4cc-e93ab8e4da4f
-description: Exécute un complément ou une macro dans un projet Microsoft Visual Basic pour applications (VBA).
+description: Exécute un module ou une macro dans un projet Microsoft Visual Basic pour Applications (VBA).
 ms.openlocfilehash: 280f6eaf1e5db045d8c1d22965df00960d188112
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33432008"
 ---
 # <a name="runaddon-function"></a>Fonction RUNADDON
 
-Exécute un complément ou une macro dans un projet Microsoft Visual Basic pour applications (VBA). 
+Exécute un module ou une macro dans un projet Microsoft Visual Basic pour Applications (VBA). 
   
 ## <a name="syntax"></a>Syntaxe
 
-RUNADDON (" *chaîne* ") 
+RUNADDON( » *string*  « ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,11 +32,11 @@ RUNADDON (" *chaîne* ")
    
 ## <a name="remarks"></a>Remarques
 
-Si le projet du document qui contient l'appel de fonction RUNADDON (ou un autre projet s'il est référencé) n'a pas de macro (une procédure sans argument) nommée _String_, Microsoft Visio exécute le module complémentaire nommé _String_. Si aucun module complémentaire nommé _String_ ne peut être trouvé, Visio ne fait rien et ne signale aucune erreur. (Vous pouvez utiliser la propriété **TraceFlags** pour contrôler les procédures et modules complémentaires que Visio tente d’exécuter.) 
+Si le projet du document qui contient l’appel de fonction RUNADDON (ou un autre projet s’il est référencé) n’a pas de macro (une procédure sans argument) de chaîne _nommée,_ Microsoft Visio exécute la chaîne nommée du module add-on.  Si aucune chaîne  nommée n’est trouvée, Visio ne fait rien et ne signale aucune erreur. (Vous pouvez utiliser la propriété **TraceFlags** pour contrôler les procédures et modules complémentaires que Visio tente d’exécuter.) 
   
-Lorsque vous appelez une procédure dans un module standard, il est recommandé de faire précéder la chaîne du nom du module qui contient la procédure (par exemple, *moduleName.* ProcName), car plusieurs modules peuvent avoir une procédure portant le même nom. 
+Lorsque vous appelez une procédure dans un module standard, il est recommandé de préfixer la chaîne avec le nom du module qui contient la procédure (par exemple,  *moduleName.procName*), car plusieurs modules peuvent avoir une procédure du même nom. 
   
-Pour appeler une procédure dans un projet autre que le projet du document qui contient l'appel de fonction RUNADDON, utilisez la syntaxe *ProjName. n.* procname (vous devez avoir explicitement défini une référence à *ProjName* dans votre projet VBA). 
+Pour appeler une procédure dans un projet autre que le projet du document qui contient l’appel de fonction RUNADDON, utilisez la  *syntaxe projName.modName.procName*  (vous devez avoir explicitement définie une référence à  *projName*  dans votre projet VBA). 
   
 > [!NOTE]
 >  À partir de Visio 2002, la fonction RUNADDON ne peut exécuter une chaîne contenant du code VBA arbitraire. Le code précédemment transmis à la fonction RUNADDON peut être déplacé vers une procédure dans un projet VBA de document appelé à partir de la fonction RUNADDON. 
@@ -47,9 +47,9 @@ Dans les versions précédentes de Visio, cette fonction s’appelait _RUNADDON.
   
 ## <a name="example-1"></a>Exemple 1
 
-RUNADDON ("Calendar. exe")
+RUNADDON(« Calendar.exe »)
   
-Lance un module complémentaire appelé Calendar. exe.
+Lance un module Calendar.exe.
   
 ## <a name="example-2"></a>Exemple 2
 
@@ -59,7 +59,7 @@ Lance le module complémentaire (implémenté par VSL) dont le nom est Array Sha
   
 ## <a name="example-3"></a>Exemple 3
 
-RUNADDON ("ThisDocument. ReportStatistics")
+RUNADDON(« ThisDocument.ReportStatistics »)
   
 Appelle la macro ReportStatistics dans le module **ThisDocument** dans le projet de document contenant cet appel de fonction. 
   
@@ -68,8 +68,8 @@ Appelle la macro ReportStatistics dans le module **ThisDocument** dans le projet
   
 ## <a name="example-4"></a>Exemple 4
 
-RUNADDON (" *modulename* . ReportStatistics ") 
+RUNADDON( » *ModuleName*  . ReportStatistics ») 
   
-Appelle la macro ReportStatistics dans *modulename* dans le projet de document qui contient cet appel de fonction. 
+Appelle la macro ReportStatistics dans  *ModuleName*  dans le projet de document qui contient cet appel de fonction. 
   
 

@@ -19,7 +19,7 @@ ms.locfileid: "33430405"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour la synchronisation du contenu des dossiers spécifiés dans un magasin local avec le serveur lors de l'état de la [synchronisation du contenu](synchronize-contents-state.md). Cela implique le simple téléchargement, ou une synchronisation complète impliquant un chargement, puis un téléchargement.
+Informations pour la synchronisation du contenu des dossiers spécifiés dans un magasin local avec le serveur pendant [l’état de synchronisation du contenu.](synchronize-contents-state.md) Cela implique simplement le chargement ou une synchronisation complète impliquant un téléchargement, puis un téléchargement.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -39,31 +39,31 @@ struct SYNCCONT
 
 _ulFlags_
   
-> dans Indicateurs permettant de déterminer le comportement approprié lors de la synchronisation.
+> [in] Indicateurs pour déterminer le comportement approprié lors de la synchronisation.
     
   - UPC_OK
     
-  - dans Le chargement ou la synchronisation complète a réussi. Le client le définit après avoir synchronisé les informations avec le serveur.
+  - [in] Le chargement ou la synchronisation complète a réussi. Le client définit cette information après la synchronisation des informations avec le serveur.
     
 _iEnt_
   
-> remarquer Index à suivre pour effectuer le suivi de la synchronisation du contenu dans le nombre de dossiers spécifiés par _cEnt_.
+> [out] Index pour suivre la synchronisation du contenu dans le nombre de dossiers spécifié par  _cEnt_.
     
-_Motivé_
+_cEnt_
   
-> remarquer Nombre de dossiers à répliquer.
+> [out] Nombre de dossiers à répliquer.
     
 _pvReserved_
   
-> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
     
 _ptagaReserved_
   
-> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
     
 _psosReserved_
   
-> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
     
 ## <a name="see-also"></a>Voir aussi
 

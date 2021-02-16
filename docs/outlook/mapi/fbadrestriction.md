@@ -25,7 +25,7 @@ ms.locfileid: "33432239"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valide une restriction utilisée pour limiter un affichage de tableau. 
+Valide une restriction utilisée pour limiter un affichage tableau. 
   
 |||
 |:-----|:-----|
@@ -43,20 +43,20 @@ ULONG FBadRestriction(
 
  _lpres_
   
-> dans Structure [SRestriction](srestriction.md) définissant la restriction à valider. 
+> [in] Structure [SRestriction](srestriction.md) définissant la restriction à valider. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> La restriction spécifiée, ou une ou plusieurs de ses sous-restrictions, n'est pas valide. 
+> La restriction spécifiée, ou une ou plusieurs de ses sous-sections, n’est pas valide. 
     
 FALSE 
   
-> La restriction spécifiée et toutes ses sous-restrictions sont valides.
+> La restriction spécifiée et toutes ses sous-sections sont valides.
     
 ## <a name="remarks"></a>Remarques
 
-Une fois qu'une restriction est validée, elle peut être transmise dans les appels à la méthode [IMAPITable:: Restrict](imapitable-restrict.md) pour limiter la table à certaines lignes, jusqu'à la méthode [IMAPITable:: FindRow](imapitable-findrow.md) pour localiser une ligne de table et aux méthodes de [IMAPIContainer](imapicontainerimapiprop.md) interface permettant d'effectuer une restriction sur un objet Container. 
+Une fois qu’une restriction est validée, elle peut être transmise dans des appels à la méthode [IMAPITable::Restrict](imapitable-restrict.md) pour limiter le tableau à certaines lignes, à la méthode [IMAPITable::FindRow](imapitable-findrow.md) pour localiser une ligne de tableau et aux méthodes de l’interface [IMAPIContainer](imapicontainerimapiprop.md) pour effectuer une restriction sur un objet conteneur. 
   
 

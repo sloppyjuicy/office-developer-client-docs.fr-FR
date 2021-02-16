@@ -21,16 +21,16 @@ ms.locfileid: "33430314"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les indicateurs de message MAPI sont mappés aux indicateurs TNEF pour conserver la compatibilité descendante. Tous les indicateurs sont regroupés et codés en un seul octet. Les mappages sont les suivants:
+Les indicateurs de message MAPI sont mappés aux indicateurs TNEF pour préserver la compatibilité ascendante. Tous les indicateurs sont regroupés et codés dans un seul et même byte. Les mappages sont les suivants :
   
 |**Indicateurs de message MAPI**|**Indicateurs TNEF**|
 |:-----|:-----|
 |MSGFLAG_READ  <br/> |fmsRead  <br/> |
-|MSGFLAG_UNMODIFED  <br/> |~ fmsModified  <br/> |
+|MSGFLAG_UNMODIFED  <br/> |~fmsModified  <br/> |
 |MSGFLAG_SUBMIT  <br/> |fmsSubmitted  <br/> |
 |MSGFLAG_HASATTACH  <br/> |fmsHasAttach  <br/> |
 |MSGFLAG_UNSENT  <br/> |fmsLocal  <br/> |
    
-Ces indicateurs sont définis dans le format TNEF. Fichier d'en-tête H.
+Ces indicateurs sont définis dans le TNEF. Fichier d’en-tête H.
   
 

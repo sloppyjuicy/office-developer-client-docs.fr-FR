@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - fShowDialog
 keywords:
-- fonction fShowDialog [Excel 2007]
+- fonction fshowdialog [excel 2007]
 localization_priority: Normal
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33433590"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Exemple de commande définie par l'utilisateur qui charge et affiche un exemple de boîte de dialogue Windows native. Lorsque GENERIC. xll est chargé, il crée un menu défini par l'utilisateur, générique, par le biais duquel cette commande est accédée.
+Exemple de commande définie par l’utilisateur qui charge et affiche un exemple de boîte de dialogue Windows native. Lorsque GENERIC.xll est chargé, il crée un menu défini par l’utilisateur, Generic, via lequel cette commande est accessible.
   
 ```cs
 int WINAPI fShowDialog(void);
@@ -34,23 +34,23 @@ La fonction ne prend aucun paramètre.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-La fonction renvoie un nombre entier égal à zéro pour indiquer la réussite de l'opération
+La fonction retourne l’integer zéro pour indiquer l’achèvement réussi
   
 ## <a name="remarks"></a>Remarques
 
-Les étapes à suivre pour afficher la boîte de dialogue Windows Native sont les suivantes:
+Les étapes d’affichage de la boîte de dialogue Windows native sont les suivantes :
   
-1. Obtenir le handle Windows principal de Microsoft Excel à l'aide de **GetHwnd**.
+1. Obtenez le handle Windows principal De Microsoft Excel à **l’aide de GetHwnd**.
     
-2. Raccorder la fenêtre principale Excel à l'aide de **HookExcelWindow**.
+2. Hook the Excel main window using **HookExcelWindow**.
     
-3. Affichez la boîte de dialogue à l'aide de **DialogBox**.
+3. Afficher la boîte de dialogue à l’aide **de DialogBox**.
     
-4. Décrochez la fenêtre principale Excel à l'aide de **UnhookExcelWindow**.
+4. Unhook the Excel main window using **UnhookExcelWindow**.
     
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
+Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

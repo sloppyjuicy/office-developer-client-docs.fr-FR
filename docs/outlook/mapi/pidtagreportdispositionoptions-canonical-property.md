@@ -23,7 +23,7 @@ ms.locfileid: "33430615"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Mappe sur l'en-tête MIME disposition-options pour les messages qui demandent des accusés de réception. La valeur de cette propriété doit être une chaîne vide.
+Maillons vers l’en-Disposition-Options mime pour les messages qui demandent des reçus. La valeur de cette propriété doit être une chaîne vide.
   
 |||
 |:-----|:-----|
@@ -38,17 +38,17 @@ Mappe sur l'en-tête MIME disposition-options pour les messages qui demandent de
 
 [[MS-OXPROPS]] 
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -23,14 +23,14 @@ ms.locfileid: "33430321"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nouveau mot de passe à utiliser pour l'accès futur à la Banque de dossiers personnels.
+Contient le nouveau mot de passe à utiliser pour un accès futur au magasin de dossiers personnels.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PST_PW_SZ_NEW, PR_PST_PW_SZ_NEW_A, PR_PST_PW_SZ_NEW_W  <br/> |
 |Identificateur :  <br/> |0x6704  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Table de stockage personnel (. pst) interne  <br/> |
+|Domaine :  <br/> |Table de stockage personnel (.pst) interne  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -38,17 +38,17 @@ Contient le nouveau mot de passe à utiliser pour l'accès futur à la Banque de
 
 [[MS-OXPROPS]] 
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

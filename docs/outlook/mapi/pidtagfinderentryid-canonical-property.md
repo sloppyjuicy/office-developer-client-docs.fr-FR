@@ -25,30 +25,30 @@ ms.locfileid: "33429452"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l'identificateur d'entrée du dossier dans lequel les résultats de la recherche sont généralement créés.
+Contient l’identificateur d’entrée pour le dossier dans lequel les résultats de recherche sont généralement créés.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FINDER_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E7  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Banque de messages MAPI  <br/> |
+|Domaine :  <br/> |Magasin de messages MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L'identificateur d'entrée contenu dans cette propriété a le même format que la structure [EntryID](entryid.md) . 
+L’identificateur d’entrée contenu dans cette propriété a le même format que la structure [ENTRYID.](entryid.md) 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

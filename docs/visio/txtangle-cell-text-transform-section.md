@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251272
 localization_priority: Normal
 ms.assetid: b8482cd8-5205-40ef-b4e1-4ceb197ac80f
-description: Détermine l'angle de rotation actuel du bloc de texte par rapport à l'axe x de la forme. La valeur par défaut est de 0 degré.
+description: Détermine l’angle de rotation actuel du bloc de texte par rapport à l’axe x de la forme. La valeur par défaut est de 0 degré.
 ms.openlocfilehash: 701a2b0ce5fccb29cc61309de1d1768a96d92c99
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33432169"
 ---
 # <a name="txtangle-cell-text-transform-section"></a>TxtAngle, cellule (section Text Transform)
 
-Détermine l'angle de rotation actuel du bloc de texte par rapport à l'axe *x* de la forme. La valeur par défaut est de 0 degré. 
+Détermine l’angle de rotation actuel du bloc de texte par rapport à  *l’axe x*  de la forme. La valeur par défaut est de 0 degré. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -32,7 +32,7 @@ Pour obtenir une référence à la cellule TxtAngle par index dans un programme,
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowTextXForm** <br/> |
 | Index de la cellule :  <br/> |**visXFormAngle** <br/> |
    

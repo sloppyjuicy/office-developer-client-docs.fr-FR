@@ -25,30 +25,30 @@ ms.locfileid: "33429676"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de noms complets pour les utilisateurs de messagerie dans le carnet d'adresses des contacts.
+Contient une liste de noms d’affichage pour les utilisateurs de messagerie dans le carnet d’adresses du contact.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_DISPLAY_NAMES, PR_CONTAB_DISPLAY_NAMES_A, PR_CONTAB_DISPLAY_NAMES_W  <br/> |
 |Identificateur :  <br/> |0x6624  <br/> |
 |Type de données :  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
-|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont définies par l'utilisateur et l'organisation de l'utilisateur.
+Ces propriétés sont définies par l’utilisateur et l’organisation de l’utilisateur.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

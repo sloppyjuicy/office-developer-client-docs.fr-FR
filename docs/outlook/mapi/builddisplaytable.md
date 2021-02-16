@@ -25,11 +25,11 @@ ms.locfileid: "33431595"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une table d'affichage à partir des données de la page de propriétés contenues dans une ou plusieurs structures [DTPAGE](dtpage.md) . 
+Crée un tableau d’affichage à partir des données de page de propriétés contenues dans une ou plusieurs structures [DTPAGE.](dtpage.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Fournisseurs de services  <br/> |
    
@@ -52,47 +52,47 @@ STDAPI BuildDisplayTable(
 
  _lpAllocateBuffer_
   
-> dans Pointeur vers la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire. 
+> [in] Pointeur vers la [fonction MAPIAllocateBuffer,](mapiallocatebuffer.md) à utiliser pour allouer de la mémoire. 
     
  _lpAllocateMore_
   
-> dans Pointeur vers la fonction [MAPIAllocateMore](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire. 
+> [in] Pointeur vers la [fonction MAPIAllocateMore,](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire. 
     
  _lpFreeBuffer_
   
-> dans Pointeur vers la fonction [MAPIFreeBuffer](mapifreebuffer.md) à utiliser pour libérer de la mémoire. 
+> [in] Pointeur vers la [fonction MAPIFreeBuffer,](mapifreebuffer.md) à utiliser pour libérer de la mémoire. 
     
  _lpMalloc_
   
-> Inutilisés doit être défini sur NULL. 
+> Inutilisé ; doit être définie sur NULL. 
     
  _hInstance_
   
-> dans Instance d'un objet MAPI à partir de laquelle **BuildDisplayTable** récupère des ressources. 
+> [in] Instance d’un objet MAPI à partir duquel **BuildDisplayTable** récupère des ressources. 
     
  _cPages_
   
-> dans Nombre de structures [DTPAGE](dtpage.md) dans le tableau vers lequel pointe le paramètre _lpPage_ . 
+> [in] Nombre de structures [DTPAGE](dtpage.md) dans le tableau pointées par _le paramètre lpPage._ 
     
  _lpPage_
   
-> dans Pointeur vers un tableau de structures **DTPAGE** qui contiennent des informations sur les pages de table d'affichage à créer. 
+> [in] Pointeur vers un tableau de structures **DTPAGE** qui contiennent des informations sur les pages du tableau d’affichage à construire. 
     
  _ulFlags_
   
-> dans Masque de réindicateur des indicateurs. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
-> Les chaînes transmises sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI. 
+> Les chaînes transmises sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
  _lppTable_
   
-> remarquer Pointeur vers un pointeur vers la table d'affichage, qui expose l'interface [IMAPITable](imapitableiunknown.md) . 
+> [out] Pointeur vers un pointeur vers le tableau d’affichage, qui expose l’interface [IMAPITable.](imapitableiunknown.md) 
     
  _lppTblData_
   
-> [in, out] Pointeur vers un pointeur vers un objet de données de tableau exposant l'interface [ITableData](itabledataiunknown.md) sur le tableau renvoyé dans le paramètre _lppTable_ . Si aucun objet de données de table n'est souhaité, _lppTblData_ doit être défini sur null au lieu d'une valeur de pointeur. 
+> [in, out] Pointeur vers un pointeur vers un objet de données de table exposant [l’interface ITableData](itabledataiunknown.md) sur la table renvoyée dans _le paramètre lppTable._ Si aucun objet de données de table n’est souhaité,  _lppTblData_ doit être définie sur NULL au lieu d’une valeur de pointeur. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -100,18 +100,18 @@ Aucun
   
 ## <a name="remarks"></a>Remarques
 
-MAPI utilise les fonctions pointées par _lpAllocateBuffer_, _lpAllocateMore_et _lpFreeBuffer_ pour la plupart de l'allocation et de la libération de mémoire, notamment pour allouer de la mémoire aux applications clientes lors de l'appel d'interfaces d'objets comme [IMAPIProp:: GetProps](imapiprop-getprops.md) et [IMAPITable:: QueryRows](imapitable-queryrows.md). 
+MAPI utilise les fonctions pointées par  _lpAllocateBuffer_,  _lpAllocateMore_ et  _lpFreeBuffer_ pour la plupart de l’allocation et de la déallocation de la mémoire, en particulier pour allouer de la mémoire pour une utilisation par les applications clientes lors de l’appel d’interfaces d’objets telles que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Tout ce qu'il est possible de lire à partir de la ressource Dialog, y compris:
+Tout ce qui est possible est lu à partir de la ressource de boîte de dialogue, notamment :
   
-- Le titre de la page, qui est le membre _ulbLpszLabel_ de la structure [DTBLPAGE](dtblpage.md) , qui est lu à partir du titre de la boîte de dialogue dans la ressource. 
+- Titre de la page, le membre  _ulbLpszLabel_ de la structure [DTBLPAGE](dtblpage.md) lu à partir du titre de la boîte de dialogue dans la ressource. 
     
-- Tous les titres de contrôle qui sont les membres _ulbLpszLabel_ d'autres structures de contrôle lues à partir du texte du contrôle de la ressource. 
+- Tous les titres de contrôle, c’est-à-dire, les membres  _ulbLpszLabel_ des autres structures de contrôle lisent le texte du contrôle dans la ressource. 
     
- **BuildDisplayTable** remplace tous les éléments transmis dans les structures de contrôle d'entrée par les informations de la ressource Dialog, ce qui signifie que l'appelant de **BuildDisplayTable** ne peut pas spécifier dynamiquement des titres de page ou de contrôle. Les appelants qui doivent effectuer cette opération peuvent avoir **BuildDisplayTable** renvoyer l'objet de données de tableau dans _lppTableData_ et modifier des lignes dans celui-ci; ou ils peuvent créer la table d'affichage manuellement dans un objet de données de table. 
+ **BuildDisplayTable** overwres anything passed in the input control structures with information from the dialog resource, which means the caller of **BuildDisplayTable** cannot dynamically specify page or control titles. Les appelants qui doivent le faire peuvent avoir **BuildDisplayTable** renvoyer l’objet de données de table  _dans lppTableData_ et y modifier des lignes ; ou ils peuvent créer la table d’affichage à la place dans un objet de données de table. 
   
-Si _lppTableData_ n'est pas défini sur null, le fournisseur est responsable de la libération de l'objet de données de table lorsqu'il est terminé avec la table d'affichage. 
+Si  _lppTableData_ n’est pas définie sur NULL, le fournisseur est chargé de libérer l’objet de données de table lorsqu’il a terminé avec le tableau d’affichage. 
   
 

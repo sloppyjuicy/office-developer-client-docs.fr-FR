@@ -25,26 +25,26 @@ ms.locfileid: "33429221"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur MTS (Message Transfer System) pour un message remis à une application cliente.
+Contient un identificateur de système de transfert de messages (MTS) pour un message remis à une application cliente.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MESSAGE_DELIVERY_ID  <br/> |
 |Identificateur :  <br/> |0x001B  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Serveur  <br/> |
+|Domaine :  <br/> |Server  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

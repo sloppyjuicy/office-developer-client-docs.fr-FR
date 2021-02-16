@@ -25,26 +25,26 @@ ms.locfileid: "33433317"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si les conversions de messages sont interdites par défaut pour l'utilisateur de messagerie associé.
+Contient TRUE si les conversions de messages sont interdites par défaut pour l’utilisateur de messagerie associé.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONVERSION_PROHIBITED  <br/> |
 |Identificateur :  <br/> |0x3A03  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Adresse  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,18 +25,18 @@ ms.locfileid: "33431469"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit une méthode pour se connecter à un objet fournisseur de carnet d'adresses et une méthode pour invalider un objet fournisseur de carnet d'adresses.
+Fournit une méthode pour se connecter à un objet fournisseur de carnet d’adresses et une méthode pour invalider un objet fournisseur de carnet d’adresses.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
-|Exposé par:  <br/> |Objets du fournisseur de carnets d’adresses  <br/> |
-|Implémenté par :  <br/> |Fournisseurs de carnets d'adresses  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
+|Exposé par :  <br/> |Objets du fournisseur de carnets d’adresses  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de carnets d’adresses  <br/> |
 |Appelé par :  <br/> |MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IABProvider  <br/> |
-|Type de pointeur:  <br/> |LPABPROVIDER  <br/> |
+|Identificateur d’interface :  <br/> |IID_IABProvider  <br/> |
+|Type de pointeur :  <br/> |LPABPROVIDER  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|

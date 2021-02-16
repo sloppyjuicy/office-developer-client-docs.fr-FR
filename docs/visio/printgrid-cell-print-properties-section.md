@@ -29,7 +29,7 @@ Indique si la grille sera imprimée lors de l'impression d'une page de document.
 
 Cette valeur correspond à la case à cocher **Quadrillage** sous l’onglet **Configuration** de la boîte de dialogue **Mise en page** (sous l’onglet **Création**, cliquez sur **Mise en page**). Exception faite de la couleur (la version imprimée est grise), la grille imprimée est identique à celle que vous voyez dans la fenêtre de dessin Microsoft Office Visio. 
   
-Vous pouvez choisir d’imprimer la grille page par page. Le style de grille peut également être défini page par page dans la boîte de dialogue grille de **règle &amp; ** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ) lorsqu'une page est active. 
+Vous pouvez choisir d’imprimer la grille page par page. Le style de grille peut également être défini page par page dans la  boîte de  dialogue Grille de règle (sous l’onglet Affichage, cliquez sur Afficher la flèche) lorsqu’une page est active. **&amp;** 
   
 Pour obtenir une référence à la cellule PrintGrid par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule PrintGrid à l'aide d'un index à par
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowPrintProperties** <br/> |
 |Index de la cellule :  <br/> |**visPrintPropertiesPrintGrid** <br/> |
    

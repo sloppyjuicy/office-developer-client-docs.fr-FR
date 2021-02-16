@@ -25,7 +25,7 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-LISTMEMBERCOUNT ()
+LISTMEMBERCOUNT()
   
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -37,7 +37,7 @@ Si la forme n’est pas un membre de la liste, la fonction LISTSHEETREF renvoie 
   
 ## <a name="example"></a>Exemple
 
-LISTSHEETREF (1)! Standard 
+LISTSHEETREF(1)! Height 
   
 Renvoie la valeur de la cellule Height de la forme conteneur de liste qui contient la forme. 
   

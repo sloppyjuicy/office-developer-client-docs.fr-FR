@@ -1,5 +1,5 @@
 ---
-title: Regroupement et limitation des tables dans les fournisseurs de banques de messages
+title: Regroupement et restriction des tables dans les fournisseurs de magasins de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,23 +15,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428983"
 ---
-# <a name="grouping-and-restricting-tables-in-message-store-providers"></a>Regroupement et limitation des tables dans les fournisseurs de banques de messages
+# <a name="grouping-and-restricting-tables-in-message-store-providers"></a>Regroupement et restriction des tables dans les fournisseurs de magasins de messages
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les applications clientes permettent souvent aux utilisateurs de contrôler le mode d'affichage du contenu d'un dossier. En règle générale, un utilisateur peut choisir de regrouper les messages en fonction de la valeur d'une ou plusieurs propriétés de message ou choisir d'exclure les messages qui répondent à certains critères. Cette opération est réalisée à l'aide de l'interface [IMAP: IUnknown](imapitableiunknown.md) . Les applications clientes peuvent restreindre les lignes renvoyées par la table à tous les critères spécifiés par l'utilisateur. Par conséquent, un fournisseur de banque de messages doit implémenter les méthodes **IMAPITable** suivantes. 
+Les applications clientes permettent fréquemment aux utilisateurs de contrôler l’affichage du contenu d’un dossier. En règle générale, un utilisateur peut choisir de grouper des messages en fonction de la valeur d’une ou de plusieurs propriétés de message ou d’exclure les messages qui correspondent à certains critères. Pour ce faire, utilisez [l’interface IMAPITable : IUnknown.](imapitableiunknown.md) Les applications clientes peuvent limiter les lignes renvoyées à partir du tableau à tous les critères spécifiés par l’utilisateur. Par conséquent, un fournisseur de magasin de messages doit implémenter les méthodes **IMAPITable** suivantes. 
   
-|IMAPITable * * méthode * *|**Description**|
+|Méthode IMAPITable** **|**Description**|
 |:-----|:-----|
 |[IMAPITable::FindRow](imapitable-findrow.md) <br/> |Renvoie les lignes de tableau qui correspondent aux critères spécifiés.  <br/> |
-|[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |Renvoie le jeu de colonnes d'un tableau ou l'ensemble des colonnes actuellement utilisées.  <br/> |
-|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Renvoie une ou plusieurs lignes d'une table, en commençant à partir d'une position donnée.  <br/> |
-|[IMAPITable::Restrict](imapitable-restrict.md) <br/> |Applique une restriction à un tableau de sorte que les appels ultérieurs à **FindRow** renvoient uniquement les lignes correspondant à la restriction.  <br/> |
-|[IMAPITable::SetColumns](imapitable-setcolumns.md) <br/> |Spécifie les colonnes qui doivent être renvoyées lorsque les lignes sont extraites de la table.  <br/> |
+|[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |Renvoie l’ensemble des colonnes d’un tableau ou l’ensemble des colonnes actuellement utilisées.  <br/> |
+|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Renvoie une ou plusieurs lignes d’un tableau, à partir d’une position donnée.  <br/> |
+|[IMAPITable::Restrict](imapitable-restrict.md) <br/> |Applique une restriction à une table afin que les appels ultérieurs à **FindRow** retournent uniquement les lignes qui correspondent à la restriction.  <br/> |
+|[IMAPITable::SetColumns](imapitable-setcolumns.md) <br/> |Spécifie les colonnes qui doivent être renvoyées lorsque des lignes sont extraites du tableau.  <br/> |
    
-Les restrictions peuvent être complexes à implémenter; Pour plus d'informations, consultez la rubrique [à propos des restrictions](about-restrictions.md). Pour plus d'informations sur l'implémentation des tables, voir [MAPI tables](mapi-tables.md).
+Les restrictions peuvent être complexes à implémenter ; Pour plus d’informations, voir [à propos des restrictions.](about-restrictions.md) Pour plus d’informations sur l’implémentation de tableaux, voir [Tables MAPI](mapi-tables.md).
   
 ## <a name="see-also"></a>Voir aussi
 

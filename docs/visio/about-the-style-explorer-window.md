@@ -24,14 +24,14 @@ Les styles sont des collections nommées d’attributs de mise en forme applicab
   
 À la différence des formes auxquelles vous avez affecté des attributs de mise en forme individuellement, les formes qui tirent leur mise en forme d’un style sont non seulement cohérentes, mais répondent également mieux lors de leur création, déplacement, mise à l’échelle ou rotation. 
   
-La fenêtre **Explorateur de styles** fournit les informations dont vous avez besoin pour mieux comprendre les implications des modifications apportées aux formes. 
+La **fenêtre Explorateur de** styles fournit les informations dont vous avez besoin pour mieux comprendre les implications des modifications apportées aux formes. 
   
 > [!NOTE]
 > Les valeurs de cellule qui s’affichent en noir dans la fenêtre ShapeSheet sont héritées ; celles qui s’affichent en bleu sont locales. 
   
 ## <a name="using-the-style-explorer-window"></a>Utilisation de la Fenêtre Explorateur de styles
 
-Pour afficher la **fenêtre Explorateur de styles** , lorsque la fenêtre ShapeSheet est active, sous l'onglet Outils de **feuille ShapeSheet** , dans le groupe **affichage** , sélectionnez **Explorateur de styles**. La fenêtre **Explorateur de styles** apparaît ancrée dans la fenêtre ShapeSheet par défaut, mais est une fenêtre ancrée qui peut être ancrée, flottante ou fusionnée avec d'autres fenêtres ShapeSheet ancrées disponibles, par exemple, la fenêtre suivi des **formules** . La fenêtre **Explorateur de styles** contient un affichage TreeView de tous les styles définis dans le dessin actif. 
+Pour afficher la fenêtre **Explorateur** de styles, avec la fenêtre Feuille ShapeSheet active, sous l’onglet Création des outils **ShapeSheet,** dans le groupe Affichage, sélectionnez **Explorateur de styles.**  La  fenêtre Explorateur de styles apparaît ancrée dans la fenêtre Feuille ShapeSheet par défaut, mais il s’agit d’une fenêtre ancrée  qui peut être ancrée, flottante ou fusionnée avec d’autres fenêtres ShapeSheet ancrées disponibles, par exemple, la fenêtre Suivi des formules. La **fenêtre Explorateur de** styles contient une arborescence de tous les styles définis dans le dessin actuel. 
   
 > [!NOTE]
 > Pour plus d’informations sur un style, vous pouvez cliquer avec le bouton droit de la souris dans la fenêtre **Explorateur de styles** pour afficher sa feuille ShapeSheet. 

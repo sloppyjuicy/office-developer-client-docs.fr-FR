@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251507
 localization_priority: Normal
 ms.assetid: 53579e0e-fcec-e745-0207-3861b5efa333
-description: Renvoie la valeur de temps représentée par dateheure ou expression, en fonction de la région et des paramètres de langue du système.
+description: Renvoie la valeur d’heure représentée par l’heure ou l’expression, en fonction des paramètres de région et de langue du système.
 ms.openlocfilehash: 61eeafac64ce199eba0f9032c42474d2b44febce
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,27 +18,27 @@ ms.locfileid: "33432323"
 ---
 # <a name="timevalue-function-visioshapesheet"></a>TIMEVALUE Function (VisioShapeSheet)
 
-Renvoie la valeur de temps représentée par _DateHeure_ ou _expression_, en fonction de la région et des paramètres de langue du système.
+Renvoie la valeur d’heure représentée par _l’heure ou_ l’expression, en fonction des paramètres de région et de langue du système. 
   
 ## <a name="syntax"></a>Syntaxe
 
-TIMEVALUE ("* * *DateTime* * *" | * * *expression* * * [, * * *LCID* * *]) 
+TIMEVALUE( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _structure_ <br/> |Obligatoire  <br/> |**String** <br/> | Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
-| _expression_ <br/> |Obligatoire  <br/> |**Réelle** <br/> | Toute expression qui génère une date et une heure.  <br/> |
+| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> | Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
+| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> | Toute expression qui génère une date et une heure.  <br/> |
 | _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Tout composant date dans _DateTime_ ou _expression_ est ignoré. 
+Tout composant de date dans _l’heure de date_ ou l’expression est ignoré.  
   
-Si l'argument _DateHeure_ est introuvable ou ne peut pas être converti en un résultat valide, cette fonction renvoie une #VALUE! «. 
+Si  _la date/heure_ est manquante ou ne peut pas être convertie en un résultat valide, cette fonction renvoie une #VALUE! erreur. 
   
-La fonction TIMEVALUE accepte également une valeur numérique simple pour _expression_ où la partie décimale du résultat représente la fraction du jour depuis minuit. 
+La fonction TIMEVALUE accepte également une valeur de nombre unique pour  _l’expression_ où la partie décimale du résultat représente la fraction d’un jour depuis minuit. 
   
 ## <a name="example-1"></a>Exemple 1
 
@@ -60,13 +60,13 @@ Renvoie la valeur représentant 11:00:00.
   
 ## <a name="example-4"></a>Exemple 4
 
-TIMEVALUE (0.6337)
+TIMEVALUE(0,6337)
   
 Renvoie la valeur représentant 15:12:32.
   
 ## <a name="example-5"></a>Exemple 5
 
-TIMEVALUE ("7:89")
+TIMEVALUE(« 7:89 »)
   
 Renvoie une erreur #VALEUR!.
   

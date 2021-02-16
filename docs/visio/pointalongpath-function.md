@@ -25,15 +25,15 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
-POINTALONGPATH (* * *section* * *, * * *voyages* * * * * *[, décalage]* * * * * *[, segment]* * *) 
+POINTALONGPATH(** *section* **, ** *travel* ** ** *[,offset]* ** ** *[,segment]* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Obligatoire  <br/> |**String** <br/> |Section Geometry qui représente le chemin, spécifiée par une référence à sa cellule Path (par exemple Geometry1.Path).  <br/> |
-| _poche_ <br/> |Obligatoire  <br/> |**Double** <br/> |Pourcentage du chemin parcouru du point de début au point de fin qui identifie le point. La valeur doit être comprise entre 0 et 1.  <br/> |
-| _compensé_ <br/> |Facultatif  <br/> |**Double** <br/> |Distance dont le point est décalé par rapport au chemin. Voir la section Remarques pour plus d’informations.  <br/> |
+| _travel_ <br/> |Obligatoire  <br/> |**Double** <br/> |Pourcentage du chemin parcouru du point de début au point de fin qui identifie le point. La valeur doit être comprise entre 0 et 1.  <br/> |
+| _offset_ <br/> |Facultatif  <br/> |**Double** <br/> |Distance dont le point est décalé par rapport au chemin. Voir la section Remarques pour plus d’informations.  <br/> |
 | _segment_ <br/> |Facultatif  <br/> |**Integer** <br/> |Segment de base 1 du chemin sur lequel calculer les coordonnées.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
@@ -42,11 +42,11 @@ POINTALONGPATH (* * *section* * *, * * *voyages* * * * * *[, décalage]* * * * *
   
 ## <a name="remarks"></a>Remarques
 
-Si la _section_ ou le _segment_ n'existe pas, Microsoft Visio renvoie #REF!. 
+Si  _section_ ou  _segment_ n’existe pas, Microsoft Visio renvoie #REF!. 
   
-Les valeurs de *décalage* positives spécifient les points à gauche du sens de déplacement. 
+Les  *valeurs de*  décalage positif spécifient des points à gauche de la direction du déplacement. 
   
-Les valeurs de *décalage* négatives spécifient les points à droite du sens de déplacement. 
+Les  *valeurs de*  décalage négatives spécifient des points à droite de la direction du déplacement. 
   
 Un **Point** représente une paire classée de coordonnées géométriques (*x,y*) sous forme de valeur unique. 
   

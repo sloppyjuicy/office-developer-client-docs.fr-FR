@@ -25,12 +25,12 @@ ms.locfileid: "33430503"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [SMAPIFormInfoArray](smapiforminfoarray.md) existante qui contient un nombre spécifié d'objets d'informations de formulaire. 
+Calcule le nombre d’octets dans une structure [SMAPIFormInfoArray](smapiforminfoarray.md) existante qui contient un nombre spécifié d’objets d’informations de formulaire. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Structure associée:  <br/> |**SMAPIFormInfoArray** <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Structure connexe :  <br/> |**SMAPIFormInfoArray** <br/> |
    
 ```cpp
 CbMAPIFormInfoArray (_c)
@@ -38,9 +38,9 @@ CbMAPIFormInfoArray (_c)
 
 ## <a name="parameters"></a>Paramètres
 
- __c_
+ _ _c_
   
-> Nombre d'objets d'informations de formulaire dans la structure **SMAPIFormInfoArray** existante. 
+> Nombre d’objets d’informations de formulaire dans la structure **SMAPIFormInfoArray** existante. 
     
 ## <a name="see-also"></a>Voir aussi
 

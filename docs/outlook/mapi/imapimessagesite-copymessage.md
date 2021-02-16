@@ -25,7 +25,7 @@ ms.locfileid: "33429999"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Copie le message actif dans un dossier.
+Copie le message actuel dans un dossier.
   
 ```cpp
 HRESULT CopyMessage(
@@ -37,7 +37,7 @@ HRESULT CopyMessage(
 
  _pFolderDestination_
   
-> dans Pointeur vers le dossier dans lequel le message doit être copié.
+> [in] Pointeur vers le dossier dans lequel le message doit être copié.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,25 +47,25 @@ S_OK
     
 MAPI_E_NO_SUPPORT 
   
-> L'opération n'est pas prise en charge par ce site de messages.
+> L’opération n’est pas prise en charge par ce site de message.
     
 ## <a name="remarks"></a>Remarques
 
-Les objets de formulaire appellent la méthode **IMAPIMessageSite:: CopyMessage** pour copier le message actif dans un nouveau dossier. **CopyMessage** ne change pas le message actuellement affiché à l'utilisateur, et aucune interface n'est renvoyée au formulaire pour le message nouvellement créé. 
+Les objets form appellent la méthode **IMAPIMessageSite::CopyMessage** pour copier le message actuel dans un nouveau dossier. **CopyMessage** ne modifie pas le message actuellement affiché à l’utilisateur et aucune interface du message nouvellement créé n’est renvoyée au formulaire. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Une implémentation type de la méthode **CopyMessage** effectue les tâches suivantes: 
+Une implémentation classique de la **méthode CopyMessage** effectue les tâches suivantes : 
   
-1. Crée un nouveau message pour le message en cours à copier.
+1. Crée un message pour le message actuel à copier.
     
-2. Appelle la méthode [IPersistMessage:: Save](ipersistmessage-save.md) avec un pointeur vers le nouveau message dans le paramètre _pMessage_ et false dans le paramètre _fSameAsLoad_ . 
+2. Appelle la [méthode IPersistMessage::Save](ipersistmessage-save.md) avec un pointeur vers le nouveau message dans le paramètre _pMessage_ et FALSE dans le paramètre _fSameAsLoad._ 
     
-3. Appelle la méthode [IPersistMessage:: SaveCompleted](ipersistmessage-savecompleted.md) , en transmettant la valeur null dans le paramètre _pMessage_ . 
+3. Appelle la [méthode IPersistMessage::SaveCompleted,](ipersistmessage-savecompleted.md) en passant NULL dans le _paramètre pMessage._ 
     
-4. Appelle la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) sur le nouveau message. 
+4. Appelle la [méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) sur le nouveau message. 
     
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -73,7 +73,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: CopyMessage  <br/> |Non implémenté.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CopyMessage  <br/> |Non implémenté.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

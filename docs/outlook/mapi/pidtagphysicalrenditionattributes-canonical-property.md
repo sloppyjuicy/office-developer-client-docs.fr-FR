@@ -25,7 +25,7 @@ ms.locfileid: "33429536"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un identificateur d'objet ASN. 1 utilisé pour le rendu des pièces jointes des messages.
+Contient un identificateur d’objet ASN.1 utilisé pour le rendu des pièces jointes des messages.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contient un identificateur d'objet ASN. 1 utilisé pour le rendu des pièces joi
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,11 +25,11 @@ ms.locfileid: "33431119"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un entier 64 bits signé représentant une valeur monétaire. 
+Contient un integer signé 64 bits représentant une valeur monétaire. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct tagCY
@@ -42,19 +42,19 @@ typedef struct tagCY
 
 ## <a name="members"></a>Members
 
- **Count**
+ **Lo**
   
-> Ordre bas 32 bits de la valeur monétaire. 
+> 32 bits de bas ordre de la valeur monétaire. 
     
  **Salut**
   
-> Ordre 32 bits de poids fort de la valeur monétaire.
+> 32 bits de haut ordre de la valeur monétaire.
     
 ## <a name="remarks"></a>Remarques
 
-La structure **monétaire** est une représentation entière à l'horizontale d'un nombre décimal à quatre chiffres à droite de la virgule. Par exemple, une valeur stockée de 327500 doit être interprétée comme représentant une valeur monétaire de 32,7500. 
+La structure **CURRENCY** est une représentation entière à l’échelle d’un nombre décimal à quatre chiffres à droite de la virgule décimale. Par exemple, une valeur stockée de 327 500 doit être interprétée comme représentant une valeur monétaire de 32,7500. 
   
-La structure **Currency** est utilisée pour décrire une propriété de type PT_CURRENCY. Pour plus d'informations sur les types de propriétés, voir [MAPI Property type Overview](mapi-property-type-overview.md).
+La structure **CURRENCY** est utilisée pour décrire une propriété de type PT_CURRENCY. Pour plus d’informations sur les types de propriétés, voir [MAPI Property Type Overview](mapi-property-type-overview.md).
   
 ## <a name="see-also"></a>Voir aussi
 

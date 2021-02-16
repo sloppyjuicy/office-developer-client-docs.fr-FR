@@ -21,7 +21,7 @@ ms.locfileid: "33428647"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les valeurs possibles pour le sexe d'un utilisateur de messagerie.
+Spécifie les valeurs possibles pour le sexe d’un utilisateur de messagerie.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -41,27 +41,27 @@ enum Gender {
 
  _genderMin_
   
-> Nombre minimal de valeurs différentes prises en charge pour le sexe.
+> Nombre minimal de valeurs différentes pris en charge pour le sexe.
     
  _genderUnspecified_
   
-> Le sexe n'est pas spécifié pour l'utilisateur de messagerie.
+> Le sexe n’est pas spécifié pour l’utilisateur de messagerie.
     
  _genderFemale_
   
-> L'utilisateur de messagerie est femelle.
+> L’utilisateur de messagerie est une femme.
     
  _genderMale_
   
-> L'utilisateur de messagerie est un homme.
+> L’utilisateur de messagerie est un homme.
     
  _genderCount_
   
-> Nombre de valeurs différentes prises en charge pour le sexe.
+> Nombre de valeurs différentes prise en charge pour le sexe.
     
  _genderMax_
   
-> Nombre maximal de valeurs différentes prises en charge pour le sexe.
+> Nombre maximal de valeurs différentes pris en charge pour le sexe.
     
 ## <a name="see-also"></a>Voir aussi
 

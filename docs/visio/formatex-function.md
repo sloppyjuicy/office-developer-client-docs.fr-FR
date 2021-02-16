@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251590
 localization_priority: Normal
 ms.assetid: d375c971-fee2-baa3-dc4f-a26018e70e8a
-description: Renvoie le résultat d'expression évaluée dans srcUnit sous forme de chaîne mise en forme selon le format exprimé en dstUnit.
+description: Renvoie le résultat de l’expression évaluée dans srcUnit sous la forme d’une chaîne mise en forme selon le format exprimé dans dstUnit.
 ms.openlocfilehash: e341cbcb16cc273f0413f98c195f77ad08946ab1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,21 +18,21 @@ ms.locfileid: "33430965"
 ---
 # <a name="formatex-function"></a>Fonction FORMATEX
 
-Renvoie le résultat d'expression évaluée dans srcUnit sous forme de chaîne mise en forme selon le format exprimé en dstUnit.
+Renvoie le résultat de l’expression évaluée dans srcUnit sous la forme d’une chaîne mise en forme selon le format exprimé dans dstUnit.
   
 ## <a name="syntax"></a>Syntaxe
 
-FORMATEX (* * *expression* * *, "* * *format* * *", [* * *srcUnit* * *], [* * *dstUnit* * *], [* * *LangID* * *] [, * * *calID* * *]) 
+FORMATEX(** *expression* **, » ** *format* ** « ,[ ** *srcUnit* ** ],[ ** *dstUnit* ** ],[ ** *langID* ** ][, ** *calID* ** ]) 
   
 ### <a name="parameters"></a>Paramètres
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur.  <br/> |
-| _format_ <br/> |Obligatoire  <br/> |**String** <br/> |Image de format utilisée pour mettre en forme la chaîne. Pour plus d'informations sur la mise en forme des images, voir [à propos](about-format-pictures.md)de la mise en forme des images.  <br/> |
+| _format_ <br/> |Obligatoire  <br/> |**String** <br/> |Image de format utilisée pour mettre en forme la chaîne. Pour plus d’informations sur les images de format, voir [à propos des images de format.](about-format-pictures.md)  <br/> |
 | _srcUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Unités utilisées pour calculer expression (po, cm, etc.).  <br/> |
 | _dstUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Unités à utiliser pour le résultat d’expression (po, cm, etc.).  <br/> |
-| _ID_ <br/> |Facultatif  <br/> |**Number** <br/> |Langue utilisée lors de la mise en forme des dates/heures de Microsoft Office System.  <br/> |
+| _langID_ <br/> |Facultatif  <br/> |**Number** <br/> |Langue utilisée lors de la mise en forme des dates/heures de Microsoft Office System.  <br/> |
 | _calID_ <br/> |Facultatif  <br/> |**Number** <br/> |Calendrier utilisé lors de la mise en forme des dates/heures de Microsoft Office System.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée

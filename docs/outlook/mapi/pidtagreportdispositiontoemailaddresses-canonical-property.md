@@ -23,7 +23,7 @@ ms.locfileid: "33432274"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique les adresses de messagerie des destinataires du rapport pour les messages qui demandent des accusés de réception.
+Indique les adresses de messagerie des destinataires du rapport pour les messages qui demandent des reçus.
   
 |||
 |:-----|:-----|
@@ -38,17 +38,17 @@ Indique les adresses de messagerie des destinataires du rapport pour les message
 
 [[MS-OXPROPS]] 
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

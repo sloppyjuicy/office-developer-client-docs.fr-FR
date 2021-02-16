@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 27732f6d-e030-4080-9684-69293a57598b
-description: Indique s'il faut utiliser le protocole SSL (Secure Socket Layer) pour une boîte aux lettres Internet générale.
+description: Spécifie s’il faut utiliser SSL (Secure Socket Layer) pour une boîte aux lettres Internet générale.
 ms.openlocfilehash: 12b6d803925b0be546273521b171d59a0a6b29d7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429361"
 ---
-# <a name="propinetssl"></a>PROP_INET_SSL
+# <a name="prop_inet_ssl"></a>PROP_INET_SSL
 
-Indique s'il faut utiliser le protocole SSL (Secure Socket Layer) pour une boîte aux lettres Internet générale.
+Spécifie s’il faut utiliser SSL (Secure Socket Layer) pour une boîte aux lettres Internet générale.
   
 ## <a name="quick-info"></a>Informations rapides
 
 |||
 |:-----|:-----|
 |Identificateur :  <br/> |0x0105  <br/> |
-|Type de propriété:  <br/> |PT_DWORD  <br/> |
-|Balise de propriété:  <br/> |0x01050003  <br/> |
-|Access  <br/> |Lecture seule  <br/> |
+|Type de propriété :  <br/> |PT_DWORD  <br/> |
+|Balise de propriété :  <br/> |0x01050003  <br/> |
+|Accès :  <br/> |Lecture seule  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Une valeur nulle signifie ne pas utiliser le protocole SSL, sinon utiliser SSL.
+Une valeur zéro signifie que vous n’utilisez pas SSL, sinon utilisez SSL.
   
 ## <a name="see-also"></a>Voir aussi
 

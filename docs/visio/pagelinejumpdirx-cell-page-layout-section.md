@@ -20,11 +20,11 @@ ms.locfileid: "33431007"
 
 Détermine la direction des déviations de trait pour les connecteurs dynamiques horizontaux de la page de dessin n'ayant pas de direction de déviation locale.
   
-|**Valeur**|**Direction de la déviation de trait**|**Constante d'automation**|
+|**Valeur**|**Direction du saut de ligne**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Par défaut ; à gauche ou paramètres de la page pour les formes  <br/> |**visLOJumpDirXDefault** <br/> |
-| 0,1  <br/> | Up  <br/> |**visLOJumpDirXUp** <br/> |
-| n°2  <br/> | Down  <br/> |**visLOJumpDirXDown** <br/> |
+| 1   <br/> | Up  <br/> |**visLOJumpDirXUp** <br/> |
+| 2   <br/> | Down  <br/> |**visLOJumpDirXDown** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule PageLineJumpDirX à l'aide d'un index
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 | Index de la cellule :  <br/> |**visPLOJumpDirX** <br/> |
    

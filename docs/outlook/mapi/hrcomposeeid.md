@@ -25,11 +25,11 @@ ms.locfileid: "33429046"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée un identificateur d'entrée composée pour un objet, généralement un message dans une banque de messages. 
+Crée un identificateur d’entrée composé pour un objet, généralement un message dans une magasin de messages. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
    
@@ -47,33 +47,33 @@ HrComposeEID(
 
 ## <a name="parameters"></a>Paramètres
 
- _pSession_
+ _psession_
   
-> dans Pointeur vers la session en cours d'utilisation par l'application cliente. 
+> [in] Pointeur vers la session en cours d’utilisation par l’application cliente. 
     
  _cbStoreRecordKey_
   
-> dans Taille, en octets, de la clé d'enregistrement de la Banque de messages contenant le message ou un autre objet. Si zéro est transmis dans le paramètre _cbStoreRecordKey_ , le paramètre _ppEID_ pointe vers une copie de l'identificateur d'entrée de l'objet. 
+> [in] Taille, en octets, de la clé d’enregistrement de la boutique de messages qui détient le message ou un autre objet. Si zéro est transmis dans le paramètre  _cbStoreRecordKey,_ le paramètre  _ppEID_ pointe vers une copie de l’identificateur d’entrée de l’objet. 
     
  _pStoreRecordKey_
   
-> dans Pointeur vers la clé d'enregistrement de la Banque de messages qui contient le message ou un autre objet. 
+> [in] Pointeur vers la clé d’enregistrement de la magasin de messages qui contient le message ou un autre objet. 
     
  _cbMsgEID_
   
-> dans Taille, en octets, de l'identificateur d'entrée du message ou d'un autre objet. 
+> [in] Taille, en octets, de l’identificateur d’entrée du message ou d’un autre objet. 
     
  _pMsgEID_
   
-> dans Pointeur vers l'identificateur d'entrée de l'objet. 
+> [in] Pointeur vers l’identificateur d’entrée de l’objet. 
     
  _pcbEID_
   
-> remarquer Pointeur vers la taille, en octets, de l'identificateur retourné. 
+> [out] Pointeur vers la taille, en octets, de l’identificateur renvoyé. 
     
  _ppEID_
   
-> remarquer Pointeur vers un pointeur vers l'identificateur d'entrée retourné. Si la valeur du paramètre _cbStoreRecordKey_ est supérieure à zéro, le paramètre _ppEID_ pointe vers un pointeur vers l'identificateur d'entrée composé qui est créé. Si _cbStoreRecordKey_ est égal à zéro, _ppEID_ pointe vers un pointeur vers une copie de l'identificateur d'entrée de l'objet. 
+> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé. Si la valeur du paramètre  _cbStoreRecordKey_ est supérieure à zéro, le paramètre  _ppEID_ pointe vers un pointeur vers l’identificateur d’entrée composé créé. Si  _cbStoreRecordKey_ est zéro,  _ppEID_ pointe vers un pointeur vers une copie de l’identificateur d’entrée de l’objet. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -81,9 +81,9 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si le message ou un autre objet pour lequel l'identificateur d'entrée composé est créé réside dans une banque de messages, l'identificateur est créé à partir de l'identificateur d'entrée de l'objet et de la clé d'enregistrement de la Banque. Si l'objet n'est pas dans un magasin, autrement dit, si le nombre d'octets pour la clé d'enregistrement passée dans _cbStoreRecordKey_ est égal à zéro, l'identificateur d'entrée de l'objet est simplement copié. 
+Si le message ou un autre objet pour lequel l’identificateur d’entrée composée est créé réside dans une magasin de messages, l’identificateur est créé à partir de l’identificateur d’entrée de l’objet et de la clé d’enregistrement de la boutique. Si l’objet ne se trouve pas dans une banque, c’est-à-dire, si le nombre d’bytes pour la clé d’enregistrement de la banque transmise dans  _cbStoreRecordKey_ est zéro, l’identificateur d’entrée de l’objet est simplement copié. 
   
-La fonction **HrComposeEID** permet aux applications de travailler avec des objets dans plusieurs magasins via l'utilisation d'identificateurs d'entrée composés. Une application peut appeler la fonction [HrDecomposeEID](hrdecomposeeid.md) pour fractionner l'identificateur d'entrée composée en ses composants d'origine. 
+La **fonction HrComposeEID** permet aux applications de travailler avec des objets dans plusieurs magasins via l’utilisation d’identificateurs d’entrée composés. Une application peut appeler la [fonction HrDecomposeEID](hrdecomposeeid.md) pour fractionner l’identificateur d’entrée composé en ses constituants d’origine. 
   
 ## <a name="see-also"></a>Voir aussi
 

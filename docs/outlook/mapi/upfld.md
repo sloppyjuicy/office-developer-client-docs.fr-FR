@@ -19,7 +19,7 @@ ms.locfileid: "33431357"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le téléchargement d'un dossier lors de l' [État du dossier de chargement](upload-folder-state.md).
+Informations pour le chargement d’un dossier pendant [l’état du dossier de chargement.](upload-folder-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -37,31 +37,31 @@ struct UPFLD
 
 _ulFlags_
   
->  [out]/[in] indicateurs pour déterminer les actions appropriées pour le uplaod. 
+>  [out]/[in] Indicateurs pour déterminer les actions appropriées pour le uplaod. 
     
   - UPF_NEW
     
-    - remarquer Le dossier est nouveau.
+    - [out] Le dossier est nouveau.
     
   - UPF_MOD_PARENT
     
-    - remarquer Le dossier a été déplacé.
+    - [out] Le dossier a été déplacé.
     
   - UPF_MOD_PROPS
     
-    - remarquer Les propriétés du dossier ont été modifiées.
+    - [out] Les propriétés du dossier ont été modifiées.
     
   - UPF_DEL
     
-    - remarquer Le dossier a été supprimé.
+    - [out] Le dossier a été supprimé.
     
   - UPF_OK
     
-    - dans Le chargement a réussi. Le client le définit après avoir téléchargé les informations de dossier sur le serveur.
+    - [in] Le chargement a réussi. Le client définit cette information après le chargement des informations de dossier sur le serveur.
     
 _pfld_
   
-> remarquer Objet Folder ouvert à télécharger.
+> [out] Objet de dossier ouvert à télécharger.
     
 _feid_
   

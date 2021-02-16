@@ -25,7 +25,7 @@ ms.locfileid: "33432197"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime un formulaire particulier d'un conteneur de formulaires.
+Supprime un formulaire particulier d’un conteneur de formulaires.
   
 ```cpp
 HRESULT RemoveForm(
@@ -37,7 +37,7 @@ HRESULT RemoveForm(
 
  _szMessageClass_
   
-> dans Chaîne qui nomme la classe de message du formulaire à supprimer du conteneur de formulaire. Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
+> [in] Chaîne qui nomme la classe de message du formulaire à supprimer du conteneur de formulaires. Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,7 +47,7 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La classe de message passée dans le paramètre _szMessageClass_ ne correspond pas à la classe de message d'un formulaire dans le conteneur de formulaire. 
+> La classe de message transmise dans le  _paramètre szMessageClass_ ne correspond à la classe de message d’aucun formulaire dans le conteneur de formulaire. 
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -55,7 +55,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg. cpp  <br/> |CFormContainerDlg:: OnDeleteSelectedItem  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer:: RemoveForm** pour supprimer un formulaire d'un conteneur de formulaire.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise la **méthode IMAPIFormContainer::RemoveForm** pour supprimer un formulaire d’un conteneur de formulaires.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

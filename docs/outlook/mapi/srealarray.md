@@ -25,11 +25,11 @@ ms.locfileid: "33429872"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de valeurs de type float qui permettent de décrire une propriété de type PT_MV_R4. 
+Contient un tableau de valeurs flottantes utilisées pour décrire une propriété de type PT_MV_R4. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SRealArray
@@ -44,15 +44,15 @@ typedef struct _SRealArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **lpflt** . 
+> Nombre de valeurs dans le tableau pointées par **le membre lpflt.** 
     
  **lpflt**
   
-> Pointeur vers un tableau de valeurs de type float.
+> Pointeur vers un tableau de valeurs flottantes.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur le type de propriété PT_MV_R4, consultez la rubrique [types de propriétés](property-types.md).
+Pour plus d’informations sur PT_MV_R4 type de propriété, voir [Types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -25,32 +25,32 @@ ms.locfileid: "33430174"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si l'utilisateur de messagerie est autorisé à envoyer et recevoir des messages. 
+Contient TRUE si l’utilisateur de messagerie est autorisé à envoyer et recevoir des messages. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_MAIL_PERMISSION  <br/> |
 |Identificateur :  <br/> |0x3A0E  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Address  <br/> |
+|Domaine :  <br/> |Adresse  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété n'est pas définie, MAPI la traite comme ayant une valeur TRUE. 
+Si cette propriété n’est pas définie, MAPI la traite comme ayant une valeur TRUE. 
   
-Définissez cette propriété sur FALSe dans un annuaire d'entreprise dans lequel certaines entrées ne sont pas à extension messagerie. 
+Définissez cette propriété sur FALSE dans un annuaire d’entreprise où certaines entrées ne sont pas activées pour la messagerie. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

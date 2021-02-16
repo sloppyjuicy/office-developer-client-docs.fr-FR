@@ -25,7 +25,7 @@ ms.locfileid: "33429013"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche une feuille de propriétés de configuration.
+Affiche une feuille des propriétés de configuration.
   
 ```cpp
 HRESULT DoConfigPropsheet(
@@ -42,7 +42,7 @@ HRESULT DoConfigPropsheet(
 
  _ulUIParam_
   
-> dans Handle de la fenêtre parent de la feuille de propriétés.
+> [in] Poignée vers la fenêtre parente de la feuille des propriétés.
     
  _ulFlags_
   
@@ -50,35 +50,35 @@ HRESULT DoConfigPropsheet(
     
  _lpszTitle_
   
-> dans Pointeur vers le titre de la feuille de propriétés.
+> [in] Pointeur vers le titre de la feuille des propriétés.
     
  _lpDisplayTable_
   
-> dans Pointeur vers la table d'affichage qui décrit les contrôles à afficher sur la feuille de propriétés.
+> [in] Pointeur vers le tableau d’affichage qui décrit les contrôles à afficher dans la feuille des propriétés.
     
  _lpConfigData_
   
-> dans Pointeur vers l'implémentation [IMAPIProp](imapipropiunknown.md) à utiliser pour accéder aux propriétés de configuration à afficher sur la feuille de propriétés. 
+> [in] Pointeur vers [l’implémentation IMAPIProp](imapipropiunknown.md) à utiliser pour accéder aux propriétés de configuration à afficher dans la feuille des propriétés. 
     
  _ulTopPage_
   
-> dans Index de base zéro de la page supérieure par défaut de la feuille de propriétés.
+> [in] Index de base 0 vers la page supérieure par défaut de la feuille des propriétés.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> La feuille de propriétés de configuration s'est affichée.
+> La feuille des propriétés de configuration a été affichée.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::D oconfigpropsheet** est implémentée pour tous les objets de prise en charge. **DoConfigPropSheet** fournit une interface utilisateur standard pour afficher les propriétés des fournisseurs de services et des services de messagerie. Vous devez utiliser cette boîte de dialogue standard pour tous les affichages de propriétés de configuration afin que les utilisateurs bénéficient d'une interface Windows cohérente. 
+La **méthode IMAPISupport::D oConfigPropsheet** est implémentée pour tous les objets de prise en charge. **DoConfigPropSheet** fournit une interface utilisateur standard pour l’affichage des propriétés des fournisseurs de services et des services de messagerie. Vous devez utiliser cette boîte de dialogue standard pour tous les affichages de propriété de configuration afin que les utilisateurs bénéficient d’une interface Windows cohérente. 
   
-Les fournisseurs de services appellent **DoConfigPropSheet** dans le cadre de l'implémentation de la méthode [IMAPIStatus:: SettingsDialog](imapistatus-settingsdialog.md) ou à partir d'un bouton utilisé pour afficher des détails sur les propriétés. Les services de messagerie appellent **DoConfigPropSheet** à partir de la fonction de point d'entrée de service de messagerie. 
+Les fournisseurs de services **appellent DoConfigPropSheet** dans le cadre de leur implémentation de la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) ou à partir d’un bouton utilisé pour afficher des détails sur les propriétés. Les services de message **appellent DoConfigPropSheet à** partir de leur fonction de point d’entrée de service de message. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez créer la table d'affichage désignée par le paramètre _lpDisplayTable_ en appelant la fonction [BuildDisplayTable](builddisplaytable.md) ou avec du code personnalisé. 
+Vous pouvez créer le tableau d’affichage pointé par le paramètre  _lpDisplayTable_ en appelant la [fonction BuildDisplayTable](builddisplaytable.md) ou avec du code personnalisé. 
   
 ## <a name="see-also"></a>Voir aussi
 

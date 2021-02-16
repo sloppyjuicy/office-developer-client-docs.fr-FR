@@ -32,14 +32,14 @@ HRESULT IOlkAccountManager::DeleteAccount (
 
 _dwAcctID_
   
-> dans ID du compte à supprimer.
+> [in] ID de compte du compte à supprimer.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L'appel a réussi  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est introuvable.  <br/> |
+|S_OK  <br/> |L’appel a réussi  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est in trouver.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

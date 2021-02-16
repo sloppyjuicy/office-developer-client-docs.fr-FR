@@ -1,5 +1,5 @@
 ---
-title: Cellule YGridDensity (section &amp; règle et grille)
+title: YGridDensity, cellule (section Ruler &amp; Grid)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,20 +16,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429809"
 ---
-# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Cellule YGridDensity (section &amp; règle et grille)
+# <a name="ygriddensity-cell-ruler-amp-grid-section"></a>YGridDensity, cellule (section Ruler &amp; Grid)
 
 Indique le type de grille verticale à utiliser.
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
-|n°2  <br/> |Grossier  <br/> |**visGridCoarse** <br/> |
-|4  <br/> |Normal (valeur par défaut)  <br/> |**visGridNormal** <br/> |
-|8bits  <br/> |Précisément  <br/> |**visGridFine** <br/> |
+|2   <br/> |Entâyé  <br/> |**visGridCoarse** <br/> |
+|4   <br/> |Normal (valeur par défaut)  <br/> |**visGridNormal** <br/> |
+|8   <br/> |Fine  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l'option espacement de la **grille** verticale dans la boîte de dialogue **grille de &amp; règle** (sous l'onglet **affichage** , cliquez sur la flèche **Afficher** ). 
+Cette cellule correspond à l’option  d’espacement de la  grille verticale dans la boîte de dialogue Grille de règle (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). **&amp;** 
   
 Pour obtenir une référence à la cellule XGridDensity par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule XGridDensity par index dans un progra
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowRulerGrid** <br/> |
 |Index de la cellule :  <br/> |**visYGridDensity** <br/> |
    

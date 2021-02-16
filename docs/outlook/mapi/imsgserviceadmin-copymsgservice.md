@@ -25,7 +25,7 @@ ms.locfileid: "33432120"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Copie un service de messagerie dans un profil. 
+Copie un service de message dans un profil. 
   
 ```cpp
 HRESULT CopyMsgService(
@@ -43,55 +43,55 @@ HRESULT CopyMsgService(
 
  _lpUID_
   
-> dans Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l'identificateur unique du service de messagerie à copier. 
+> [in] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique du service de message à copier. 
     
  _lpszDisplayName_
   
-> dans Ce paramètre a été déconseillé. 
+> [in] Ce paramètre a été supprimé. 
     
  _lpInterfaceToCopy_
   
-> dans Pointeur vers l'identificateur d'interface (IID) qui représente l'interface à utiliser pour accéder à la section de profil du service de messagerie à copier. Le passage de résultats NULL dans l'interface de section de profil standard, [IProfSect](iprofsectimapiprop.md), est utilisé.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil du service de message à copier. Transmission de résultats NULL dans l’interface de section de profil standard, [IProfSect](iprofsectimapiprop.md), utilisé.
     
  _lpInterfaceDst_
   
-> dans Pointeur vers l'IID qui représente l'interface à utiliser pour accéder à l'objet pointé par le paramètre _lpObjectDst_ . La transmission de résultats NULL dans l'interface de session, [IMAPISession](imapisessioniunknown.md), est utilisée. Le paramètre _lpInterfaceDst_ peut également être défini sur IID_IMsgServiceAdmin. 
+> [in] Pointeur vers l’IID qui représente l’interface à utiliser pour accéder à l’objet pointé par le paramètre _lpObjectDst._ Transmission de résultats NULL dans l’interface de session, [IMAPISession](imapisessioniunknown.md), en cours d’utilisation. Le  _paramètre lpInterfaceDst_ peut également être IID_IMsgServiceAdmin. 
     
  _lpObjectDst_
   
-> dans Pointeur vers un pointeur vers un objet de session ou d'administration du service de messagerie. Le type d'objet doit correspondre à l'identificateur d'interface passé dans _lpInterfaceDst_. Les pointeurs d'objet valides sont LPMAPISESSION et LPSERVICEADMIN.
+> [in] Pointeur vers un pointeur vers un objet d’administration de service de session ou de message. Le type d’objet doit correspondre à l’identificateur d’interface transmis  _dans lpInterfaceDst_. Les pointeurs d’objet valides sont LPMAPISESSION et LPSERVICEADMIN.
     
  _ulUIParam_
   
-> dans Handle de la fenêtre parente de toutes les boîtes de dialogue ou fenêtres que cette méthode affiche.
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont le service de messagerie est copié. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont le service de message est copié. Les indicateurs suivants peuvent être définies :
     
 SERVICE_UI_ALWAYS 
   
-> Demande que le service de messagerie affiche toujours une feuille de propriétés de configuration.
+> Demande au service de message d’afficher toujours une feuille des propriétés de configuration.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le service de messagerie a été correctement copié.
+> Le service de message a été correctement copié.
     
 MAPI_E_NO_ACCESS 
   
-> Le service de messagerie se trouve déjà dans le profil et n'autorise pas plusieurs instances de lui-même.
+> Le service de message est déjà dans le profil et n’autorise pas plusieurs instances d’elle-même.
     
 MAPI_E_NOT_FOUND 
   
-> Le **MAPIUID** pointé par _lpUID_ ne fait pas référence à un service de messagerie existant. 
+> Le **MAPIUID pointé** par  _lpUID_ ne fait pas référence à un service de message existant. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMsgServiceAdmin:: CopyMsgService** copie un service de messagerie dans un profil, qu'il s'agisse du profil actif ou d'un autre profil. Le profil qui contient le service de messagerie à copier et la destination n'ont pas besoin d'être le même profil, mais ils peuvent l'être. 
+La **méthode IMsgServiceAdmin::CopyMsgService** copie un service de message dans un profil, le profil actif ou un autre profil. Le profil qui contient le service de message à copier et la destination ne doivent pas être du même profil, mais ils peuvent l’être. 
   
-La fonction de point d'entrée du service de messagerie n'est pas appelée pour une opération de copie. Le service de messagerie copié a les mêmes paramètres de configuration que son original. Pour modifier ces paramètres, un client doit appeler la méthode [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) . 
+La fonction de point d’entrée du service de message n’est pas appelée pour une opération de copie. Le service de message copié a les mêmes paramètres de configuration que son original. Pour modifier ces paramètres, un client doit appeler la méthode [IMsgServiceAdmin::ConfigureMsgService.](imsgserviceadmin-configuremsgservice.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

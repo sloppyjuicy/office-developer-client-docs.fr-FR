@@ -25,7 +25,7 @@ ms.locfileid: "33430566"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le dossier dans lequel le message actif a été créé ou ouvert, si ce dossier existe. Cette méthode renvoie NULL dans le paramètre _ppFolder_ pour les messages incorporés, qui ne sont pas stockés directement dans un dossier. 
+Renvoie le dossier dans lequel le message actuel a été créé ou ouvert, s’il existe un tel dossier. Cette méthode renvoie la valeur NULL dans le  _paramètre ppFolder_ pour les messages incorporés, qui ne sont pas stockés directement dans un dossier. 
   
 ```cpp
 HRESULT GetFolder(
@@ -37,7 +37,7 @@ HRESULT GetFolder(
 
  _ppFolder_
   
-> remarquer Pointeur vers un pointeur vers le dossier renvoyé.
+> [out] Pointeur vers un pointeur vers le dossier renvoyé.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,11 +47,11 @@ S_OK
     
 S_FALSE 
   
-> Il n'existe aucun dossier pour le message.
+> Il n’existe aucun dossier pour le message.
     
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -59,7 +59,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer. cpp  <br/> |CMyMAPIFormViewer:: GetFolder  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite:: GetFolder** pour renvoyer le pointeur actuellement en cache vers le dossier spécifié.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFolder  <br/> |MFCMAPI utilise la méthode **IMAPIMessageSite::GetFolder** pour renvoyer le pointeur actuellement mis en cache vers le dossier spécifié.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

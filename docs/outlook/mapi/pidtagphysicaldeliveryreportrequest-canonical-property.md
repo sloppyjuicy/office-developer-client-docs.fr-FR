@@ -25,7 +25,7 @@ ms.locfileid: "33431126"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le mode d'un rapport à remettre à un destinataire de message donné à la fin de la remise ou de la remise d'un message physique par le système de gestion des messages.
+Contient le mode d’un état à remettre à un destinataire de message particulier à la fin de la remise ou de la remise des messages physiques par le système de gestion des messages.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Contient le mode d'un rapport à remettre à un destinataire de message donné �
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

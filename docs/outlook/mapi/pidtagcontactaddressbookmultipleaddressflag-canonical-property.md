@@ -25,30 +25,30 @@ ms.locfileid: "33431567"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un indicateur TRUE lorsque le fournisseur prend en charge plusieurs adresses de messagerie par élément de contact.
+Contient un indicateur true lorsque le fournisseur prend en charge plusieurs adresses de messagerie par élément de contact.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_CONTAB_MULTI_ADDR_FLAG  <br/> |
 |Identificateur :  <br/> |0x6614  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Carnet d'adresses des contacts  <br/> |
+|Domaine :  <br/> |Carnet d’adresses de contact  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété a la valeur TRUE, le fournisseur n'autorise pas les contacts sans adresse de messagerie. Si la valeur est FALSe, le fournisseur affiche tous les contacts, qu'ils disposent ou non d'une adresse de messagerie principale. Seule l'adresse de messagerie principale sera honorée. Il s'agit d'une propriété sur un conteneur de carnet d'adresses de contacts et d'une colonne dans la table des conteneurs du carnet d'adresses des contacts.
+Si cette propriété a la valeur TRUE, le fournisseur n’autorise pas les contacts sans adresse de messagerie. Si la false, le fournisseur indique à tous les contacts s’ils ont ou non une adresse de messagerie principale. Seule l’adresse de messagerie principale sera honorée. Il s’agit d’une propriété d’un conteneur de carnet d’adresses de contact et d’une colonne dans la table des conteneurs de carnet d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

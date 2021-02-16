@@ -29,25 +29,25 @@ Définit les méthodes utilisées pour gérer les messages sécurisés.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Exchsec. h  <br/> |
-|Exposé par:  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
+|Fichier d’en-tête :  <br/> |Exchsec.h  <br/> |
+|Exposé par :  <br/> |[IMessage : IMAPIProp](imessageimapiprop.md) <br/> |
 |Implémenté par :  <br/> |Microsoft Outlook 2010 et Microsoft Outlook 2013  <br/> |
 |Appelé par :  <br/> |Client  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
-|Type de pointeur:  <br/> |LPMAPISECUREMESSAGE  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
+|Type de pointeur :  <br/> |LPMAPISECUREMESSAGE  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|Membre de l'espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre de l'espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre de l'espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre de l'espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Récupère le [IMessage: IMAPIProp](imessageimapiprop.md) sous-jacent que cette [IMAPISecureMessage: IUnknown](imapisecuremessageiunknown.md) est en encapsulation.  <br/> |
-|Membre de l'espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre de l'espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|Membre de l'espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
+|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
+|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
+|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
+|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que ce [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule.  <br/> |
+|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
+|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
+|Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

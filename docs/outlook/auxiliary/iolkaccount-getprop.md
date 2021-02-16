@@ -33,23 +33,23 @@ ACCT_VARIANT *pVar
 
 _dwProp_
   
-> dans Balise de propriété de la propriété Account à obtenir.
+> [in] Balise de propriété de la propriété de compte à obtenir.
     
 _pVar_
   
-> remarquer Valeur de la propriété spécifiée.
+> [out] Valeur de la propriété spécifiée.
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |La propriété est introuvable pour le compte donné.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |La propriété n’est pas trouvée pour le compte donné.  <br/> |
 |E_INVALIDARG  <br/> |Une balise de propriété non valide a été spécifiée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Après le renvoi de cette méthode, si la valeur de la propriété Account est un type binaire ou de type chaîne, vous devez libérer *pvar* à l'aide de [IOlkAccount:: FreeMemory](iolkaccount-freememory.md).
+Après le retour de cette méthode, si la valeur de la propriété de compte est binaire ou de type chaîne, vous devez libérer  *pVar*  à l’aide de [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
 ## <a name="see-also"></a>Voir aussi
 

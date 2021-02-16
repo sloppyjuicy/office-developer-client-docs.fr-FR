@@ -25,45 +25,45 @@ ms.locfileid: "33431994"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des méthodes de synchronisation. Cette interface récupère les informations nécessaires pour répliquer les modifications locales sur le serveur et les modifications apportées au serveur dans le magasin local.
+Fournit des méthodes de synchronisation. Cette interface récupère les informations nécessaires pour répliquer les modifications locales apportées au serveur et au magasin local.
   
 |||
 |:-----|:-----|
 |Fourni par :  <br/> |[IPSTX::GetSyncObject](iostx-setsyncresult.md) <br/> |
-|Identificateur de l'interface:  <br/> |IID_IOSTX  <br/> |
+|Identificateur d’interface :  <br/> |IID_IOSTX  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Généré](iostx-getlasterror.md) <br/> |Obtient des informations étendues sur la dernière erreur.  <br/> |
-|[InitSync](iostx-initsync.md) <br/> |Informe le magasin local que la synchronisation est sur le du début.  <br/> |
-|[SyncBeg](iostx-syncbeg.md) <br/> |Prépare le magasin local à la synchronisation dans un état particulier et récupère les informations nécessaires à répliquer.  <br/> |
-|[SyncEnd](iostx-syncend.md) <br/> |Termine la synchronisation à l'état actuel et quitte cet État.  <br/> |
+|[GetLastError](iostx-getlasterror.md) <br/> |Obtient des informations étendues sur la dernière erreur.  <br/> |
+|[InitSync](iostx-initsync.md) <br/> |Informe le magasin local que la synchronisation est sur le point de démarrer.  <br/> |
+|[SyncBeg](iostx-syncbeg.md) <br/> |Prépare le magasin local pour la synchronisation dans un état particulier et récupère les informations nécessaires à répliquer.  <br/> |
+|[SyncEnd](iostx-syncend.md) <br/> |Met fin à la synchronisation dans l’état actuel et quitte cet état.  <br/> |
 |[SyncHdrBeg](iostx-synchdrbeg.md) <br/> |Démarre la synchronisation pour un en-tête de message.  <br/> |
-|[SyncHdrEnd](iostx-synchdrend.md) <br/> |Met fin à la synchronisation pour un en-tête de message.  <br/> |
+|[SyncHdrEnd](iostx-synchdrend.md) <br/> |Met fin à la synchronisation d’un en-tête de message.  <br/> |
 |[SetSyncResult](iostx-setsyncresult.md) <br/> |Définit le résultat de la synchronisation.  <br/> |
-| *Membre de l'espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
+| *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Lorsqu'un client charge ou synchronise des dossiers et du contenu de dossier sur un magasin local, il déplace le magasin local d'un État à un autre, comme illustré dans le diagramme de transition d'État dans [about the Replication State Machine](about-the-replication-state-machine.md). Voici l'ordre des événements pour que le client déplace le magasin local d'un État à l'autre:
+Lorsqu’un client télécharge ou synchronise les dossiers et le contenu d’un dossier sur un magasin local, il déplace la boutique locale d’un état à un autre, comme décrit dans le diagramme de transition d’état dans À propos de la machine à états de [réplication.](about-the-replication-state-machine.md) Voici l’ordre des événements pour que le client déplace le magasin local d’un état à un autre :
   
-1. Le client appelle **IOSTX:: InitSync** pour informer le magasin local que la réplication est sur le le début. 
+1. Le client appelle **IOSTX::InitSync** pour informer le magasin local que la réplication est sur le point de démarrer. 
     
-2. En fonction de la direction de la réplication et des objets à répliquer, le client appelle **IOSTX:: SyncBeg** pour commencer la réplication dans l'état approprié. Outlook fournit au client les informations nécessaires et le client effectue la réplication. 
+2. Selon la direction de la réplication et les objets à répliquer, le client appelle **IOSTX::SyncBeg** pour commencer la réplication dans l’état approprié. Outlook fournit au client les informations nécessaires et le client effectue la réplication. 
     
-3. Le client appelle **IOSTX:: SetSyncResult** pour renvoyer le résultat de la réplication. 
+3. Le client appelle **IOSTX::SetSyncResult** pour renvoyer le résultat de la réplication. 
     
-4. Le client appelle **IOSTX:: SyncEnd,** pour mettre fin à la réplication, fournissant ainsi à Outlook les informations nécessaires à la réplication suivante. 
+4. Le client appelle **IOSTX::SyncEnd** pour mettre fin à la réplication, fournissant à Outlook les informations nécessaires pour la réplication ultérieure. 
     
-En particulier, lorsque vous téléchargez des éléments de message, le client utilise **IOSTX:: SyncHdrBeg** et **IOSTX:: SyncHdrEnd** pour mettre à jour un élément de message complet avec l'en-tête de message sur le magasin local: 
+En particulier, lors du téléchargement d’éléments de message, le client utilise **IOSTX::SyncHdrBeg** et **IOSTX::SyncHdrEnd** pour mettre à jour un élément de message complet avec l’en-tête du message dans la boutique locale : 
   
-1. Sur **IOSTX:: SyncHdrBeg**, le magasin local passe à l'état d'en-tête du message de téléchargement. Outlook fournit à l'origine le client avec l'en-tête de message actuel sur le magasin local.
+1. Sur **IOSTX::SyncHdrBeg**, le magasin local passe à l’état d’en-tête du message de téléchargement. Outlook fournit initialement au client l’en-tête de message actuel dans la boutique locale.
     
-2. Le client télécharge un élément de message complet avec l'en-tête du message.
+2. Le client télécharge un élément de message complet avec l’en-tête du message.
     
-3. Outlook met à jour l'élément sur le magasin local avec l'élément de message complet.
+3. Outlook met à jour l’élément dans la boutique locale avec l’élément de message complet.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -38,5 +38,5 @@ Si vous souhaitez déplacer des assemblys personnalisés auxquels vous faites r�
 
 #### <a name="tasks"></a>Tâches
 
-[Créer un modèle de formulaire à l'aide du modèle objet InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
+[Créer un modèle de formulaire à l’aide du modèle objet InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)
 

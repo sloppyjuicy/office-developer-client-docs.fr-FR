@@ -25,7 +25,7 @@ ms.locfileid: "33433898"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique qu'un expéditeur de message a demandé une conversion de contenu de message pour un destinataire particulier.
+Indique qu’un expéditeur de message a demandé une conversion de contenu de message pour un destinataire particulier.
   
 |||
 |:-----|:-----|
@@ -36,15 +36,15 @@ Indique qu'un expéditeur de message a demandé une conversion de contenu de mes
    
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

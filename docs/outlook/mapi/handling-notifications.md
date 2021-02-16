@@ -19,32 +19,32 @@ ms.locfileid: "33429158"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les notifications permettent à un objet d'informer un autre objet qu'il a subi une modification. Le type de modification est appelé un événement. MAPI définit plusieurs événements pour lesquels des notifications sont générées. 
+Les notifications permettent à un objet d’informer un autre objet qu’il a subi une modification. Le type de modification est appelé « événement ». MAPI définit plusieurs événements pour lesquels des notifications sont générées. 
   
-Les clients s'inscrivent généralement pour un ou plusieurs événements avec un ou plusieurs objets. Ces objets sont appelés sources de notification. Les objets pouvant agir en tant que sources de notification incluent l'objet session, sous le contrôle de l'interface MAPI, ou un objet créé par un fournisseur de services, tel qu'un message. L'objet éclairé, appelé récepteur de notifications, contient une implémentation de l'interface [IMAPIAdviseSink: IUnknown](imapiadvisesinkiunknown.md) ou de l'interface [IMAPIViewAdviseSink: IUnknown](imapiviewadvisesinkiunknown.md) et se trouve dans une application cliente. 
+Les clients s’inscrivent généralement pour un ou plusieurs événements avec un ou plusieurs objets. Ces objets sont appelés sources de conseil. Les objets qui peuvent agir en tant que sources de conseil incluent l’objet de session, sous le contrôle de MAPI, ou un objet créé par un fournisseur de services, tel qu’un message. L’objet informé, appelé sink de conseil, contient soit une implémentation de l’interface [IMAPIAdviseSink : IUnknown,](imapiadvisesinkiunknown.md) soit l’interface [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) et se trouve dans une application cliente. 
   
-Les objets source d'avis **** implémentent une méthode Advise, qui est appelée par les clients pour s'inscrire aux notifications, et une méthode Unadvise qui est appelée pour annuler une inscription. **** L'un des paramètres à **conseiller** est un pointeur vers une implémentation de **IMAPIAdviseSink** ou de * * IMAPIViewAdviseSink * *. La source de notification met en cache ce pointeur afin qu'il puisse appeler [IMAPIAdviseSink:: OnNotify](imapiadvisesink-onnotify.md) ou l'une des méthodes dans **IMAPIViewAdviseSink** lorsqu'une modification se produit. 
+Les objets source advise implémentent une méthode **Advise,** qui est appelée par les clients pour s’inscrire aux notifications, et une méthode **Unadvise,** qui est appelée pour annuler un enregistrement. L’un des paramètres de **Advise** est un pointeur vers une implémentation de **IMAPIAdviseSink** ou ** IMAPIViewAdviseSink **. La source de conseil met en cache ce pointeur afin qu’il puisse appeler [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) ou l’une des méthodes dans **IMAPIViewAdviseSink** lorsqu’une modification se produit. 
   
-Étant donné que la réception des notifications permet aux utilisateurs de visualiser les informations les plus à jour, il est recommandé que tous les clients s'inscrivent et gèrent les notifications. Toutefois, il est facultatif.
+Étant donné que la réception de notifications permet aux utilisateurs d’afficher les informations les plus à jour, il est recommandé que tous les clients s’inscrivent et gèrent les notifications. Toutefois, il est facultatif.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Inscription pour une notification](registering-for-a-notification.md): décrit comment enregistrer un client pour les notifications dans le cadre de son processus d'initialisation.
+- [Inscription à une notification](registering-for-a-notification.md): décrit comment inscrire un client pour les notifications dans le cadre de son processus d’initialisation.
     
-- [Annulation d'une notification](canceling-a-notification.md): explique comment annuler un abonnement à une notification.
+- [Annulation d’une notification](canceling-a-notification.md): décrit comment annuler un abonnement à une notification.
     
-- [Gestion](handling-message-store-notification.md)des notifications de banque de messages: décrit comment s'inscrire pour les notifications de banque de messages.
+- [Gestion des notifications de la boutique](handling-message-store-notification.md)de messages : décrit comment s’inscrire aux notifications de la boutique de messages.
     
-- Gestion des notifications de [carnet](handing-address-book-notification.md)d'adresses: décrit comment inscrire et gérer les notifications de carnet d'adresses.
+- [Notification de carnet d’adresses](handing-address-book-notification.md)de remise : décrit comment s’inscrire et gérer les notifications de carnet d’adresses.
     
-- [Gestion des notifications de table](handling-table-notification.md): décrit comment s'inscrire aux notifications à partir de la table de hiérarchie.
+- [Gestion des notifications de table](handling-table-notification.md): décrit comment s’inscrire aux notifications à partir de la table de hiérarchie.
     
-- [Implémentation d'un objet de récepteur](implementing-an-advise-sink-object.md)de notifications: décrit comment implémenter un objet récepteur de notifications.
+- [Mise en œuvre d’un objet de sink de conseil](implementing-an-advise-sink-object.md): décrit comment implémenter un objet de sink de conseil.
     
-- [Chronométrage d'une notification](timing-a-notification.md): décrit le calendrier des notifications client par les fournisseurs de services.
+- [Minutage d’une notification](timing-a-notification.md): décrit le minutage de la notification du client par les fournisseurs de services.
     
-- [Vérification de la notification de thread-safe](ensuring-a-thread-safe-notification.md): décrit comment garantir la notification thread-safe avec MAPI.
+- [Garantie d’une notification Thread-Safe :](ensuring-a-thread-safe-notification.md)décrit comment garantir une notification thread-safe avec MAPI.
     
-- [Forcer une notification](forcing-a-notification.md): explique comment forcer une notification dans MAPI.
+- [Forçage d’une notification](forcing-a-notification.md): décrit comment forcer une notification dans MAPI.
     
 

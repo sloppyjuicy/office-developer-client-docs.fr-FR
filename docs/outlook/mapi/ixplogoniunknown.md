@@ -25,33 +25,33 @@ ms.locfileid: "33432533"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Autorise l'accès au spouleur MAPI à un fournisseur de transport. 
+Donne aupooler MAPI l’accès à un fournisseur de transport. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
-|Exposé par:  <br/> |Objets de connexion de transport  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
+|Exposé par :  <br/> |Objets d’logo de transport  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de transport  <br/> |
-|Appelé par :  <br/> |Spouleur MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IXPLogon  <br/> |
-|Type de pointeur:  <br/> |LXPLOGON  <br/> |
+|Appelé par :  <br/> |Lepooler MAPI  <br/> |
+|Identificateur d’interface :  <br/> |IID_IXPLogon  <br/> |
+|Type de pointeur :  <br/> |LXPLOGON  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[AddressTypes](ixplogon-addresstypes.md) <br/> |Renvoie les types de destinataire gérés par le fournisseur de transport.  <br/> |
+|[AddressTypes](ixplogon-addresstypes.md) <br/> |Renvoie les types de destinataires gérés par le fournisseur de transport.  <br/> |
 |**RegisterOptions** <br/> | *Non pris en charge ou documenté.*  <br/> |
-|[TransportNotify](ixplogon-transportnotify.md) <br/> |Signale l'occurrence d'un événement sur lequel le fournisseur de transport a demandé une notification.  <br/> |
-|[Engrenage](ixplogon-idle.md) <br/> |Indique que le système est inactif, ce qui permet au fournisseur de transport d'effectuer des opérations de faible priorité.  <br/> |
-|[TransportLogoff](ixplogon-transportlogoff.md) <br/> |Lance le processus de fermeture de session.  <br/> |
-|[SubmitMessage](ixplogon-submitmessage.md) <br/> |Indique que le spouleur MAPI a un message pour le fournisseur de transport à livrer.  <br/> |
-|[EndMessage](ixplogon-endmessage.md) <br/> |Informe le fournisseur de transport que le spouleur MAPI a terminé son traitement sur un message sortant.  <br/> |
-|[Temporisateur](ixplogon-poll.md) <br/> |Indique si le fournisseur de transport a reçu un ou plusieurs messages entrants.  <br/> |
-|[StartMessage](ixplogon-startmessage.md) <br/> |Lance le transfert d'un message entrant depuis le fournisseur de transport vers le spouleur MAPI.  <br/> |
-|[OpenStatusEntry](ixplogon-openstatusentry.md) <br/> |Ouvre l'objet d'État du fournisseur de transport.  <br/> |
-|[ValidateState](ixplogon-validatestate.md) <br/> |Vérifie l'état externe du fournisseur de transport.  <br/> |
-|[FlushQueues](ixplogon-flushqueues.md) <br/> |Demande que le fournisseur de transport remet immédiatement tous les messages entrants ou sortants en attente.  <br/> |
+|[TransportNotify](ixplogon-transportnotify.md) <br/> |Signale l’occurrence d’un événement sur lequel le fournisseur de transport a demandé une notification.  <br/> |
+|[Inactif](ixplogon-idle.md) <br/> |Indique que le système est inactif, ce qui permet au fournisseur de transport d’effectuer des opérations de faible priorité.  <br/> |
+|[TransportLogoff](ixplogon-transportlogoff.md) <br/> |Lance le processus de ffage de logo.  <br/> |
+|[SubmitMessage](ixplogon-submitmessage.md) <br/> |Indique que lepooler MAPI a un message à remettre au fournisseur de transport.  <br/> |
+|[EndMessage](ixplogon-endmessage.md) <br/> |Informe le fournisseur de transport que lepooler MAPI a terminé son traitement sur un message sortant.  <br/> |
+|[Sondage](ixplogon-poll.md) <br/> |Indique si le fournisseur de transport a reçu un ou plusieurs messages entrants.  <br/> |
+|[StartMessage](ixplogon-startmessage.md) <br/> |Lance le transfert d’un message entrant du fournisseur de transport vers lepooler MAPI.  <br/> |
+|[OpenStatusEntry](ixplogon-openstatusentry.md) <br/> |Ouvre l’objet d’état du fournisseur de transport.  <br/> |
+|[ValidateState](ixplogon-validatestate.md) <br/> |Vérifie l’état externe du fournisseur de transport.  <br/> |
+|[FlushQueues](ixplogon-flushqueues.md) <br/> |Demande au fournisseur de transport de remettre immédiatement tous les messages entrants ou sortants en attente.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

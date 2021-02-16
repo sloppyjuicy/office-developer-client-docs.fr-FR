@@ -25,7 +25,7 @@ ms.locfileid: "33428773"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un profil utilisateur de messagerie est le profil MAPI par défaut.
+Contient TRUE si un profil utilisateur de messagerie est le profil mapi par défaut.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la valeur TRUE si un profil utilisateur de messagerie est le profil MAP
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n'apparaît pas sous la forme d'une propriété de n'importe quel objet, mais uniquement sous forme de colonne dans une table de profil. Une application cliente peut utiliser la méthode [IProfAdmin:: SetDefaultProfile](iprofadmin-setdefaultprofile.md) pour désigner le profil par défaut. 
+Cette propriété n’apparaît pas en tant que propriété d’un objet, mais uniquement en tant que colonne dans une table de profils. Une application cliente peut utiliser [la méthode IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md) pour désigner le profil par défaut. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

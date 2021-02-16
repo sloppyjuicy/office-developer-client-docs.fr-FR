@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
-description: Obtient une plage de temps prédéfinie pour une énumération de blocs de données de disponibilité pour un utilisateur.
+description: Obtient une plage de temps prédéfinie pour une éumération des blocs de données de libre/occupé d’un utilisateur.
 ms.openlocfilehash: 26951ea6a885f8d0e5e6a2fb5bcf9a63069c7f44
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33430076"
 ---
 # <a name="ifreebusydatagetfbpublishrange"></a>IFreeBusyData::GetFBPublishRange
 
-Obtient une plage de temps prédéfinie pour une énumération de blocs de données de disponibilité pour un utilisateur.
+Obtient une plage de temps prédéfinie pour une éumération des blocs de données de libre/occupé d’un utilisateur.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -34,11 +34,11 @@ HRESULT GetFBPublishRange(
 
 _prtmStart_
   
-> remarquer Une valeur de temps relative pour le début des informations de disponibilité. Cette valeur correspond au nombre de minutes écoulées depuis le 1er janvier 1601.
+> [out] Valeur d’heure relative pour le début des informations de libre/occupé. Cette valeur est le nombre de minutes depuis le 1er janvier 1601.
     
 _prtmEnd_
   
-> remarquer Valeur d'heure relative pour la fin des informations de disponibilité. Cette valeur correspond au nombre de minutes écoulées depuis le 1er janvier 1601.
+> [out] Valeur d’heure relative pour la fin des informations de libre/occupé. Cette valeur est le nombre de minutes depuis le 1er janvier 1601.
     
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -46,9 +46,9 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
 ## <a name="remarks"></a>Remarques
 
-Un fournisseur de disponibilité appelle [IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md) pour définir la plage horaire pour une énumération. Si [IFreeBusyData:: EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData:: SetFBRange](ifreebusydata-setfbrange.md) n'a pas été appelé, les valeurs par défaut pour **prtmStart** et **PrtmEnd** doivent être définies entre le 1er avril 1601 00:00:00Z et le 31 août 4500 11:59:59Z légumes. En outre, vous ne devez pas définir l'heure de début sur une valeur supérieure à l'heure de fin. 
+Un fournisseur de libre/occupé appelle [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) pour définir la plage de temps d’une éumération. Si [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) n’a pas été appelé, les valeurs par défaut pour **prtmStart** et **prtmEnd** doivent être définies respectivement entre le 1er avril 1601 00:00:00Z et le 31 août 4500 11:59:59Z. En outre, vous ne devez pas définir l’heure de début pour qu’elle soit supérieure à l’heure de fin. 
   
-**IFreeBusyData:: GetFBPublishRange** doit renvoyer les valeurs mises en cache pour la plage horaire définie par l'appel le plus récent pour **IFreeBusyData:: EnumBlocks** ou **IFreeBusyData:: SetFBRange**. 
+**IFreeBusyData::GetFBPublishRange** must return the cached values for the time range set by the most recent call for **IFreeBusyData::EnumBlocks** or **IFreeBusyData::SetFBRange**. 
   
 ## <a name="see-also"></a>Voir aussi
 

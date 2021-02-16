@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c67b46bb-0eb2-f094-2870-c320bd488705
-description: Fusionne deux couleurs dans la proportion spécifiée par le paramètre float.
+description: Combine deux couleurs dans la proportion spécifiée par le paramètre float.
 ms.openlocfilehash: 0a231954370416be201183026424c79942204e12
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33432785"
 ---
 # <a name="blend-function"></a>Fonction BLEND
 
-Fusionne deux couleurs dans la proportion spécifiée par le paramètre _float_ . 
+Combine deux couleurs dans la proportion spécifiée par le _paramètre float._ 
   
 ## <a name="syntax"></a>Syntaxe
 
-BLEND (* * *color1* * *, * * *color2* * *, * * *float [0, 1]* * *) 
+BLEND(** *color1* **, ** *color2* **, ** *float[0,1]* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -28,7 +28,7 @@ BLEND (* * *color1* * *, * * *color2* * *, * * *float [0, 1]* * *)
 |:-----|:-----|:-----|:-----|
 | _color1_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |L’index de couleurs Visio ou la valeur RVB de la première couleur.  <br/> |
 | _color2_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |L’index de couleurs Visio ou la valeur RVB de la deuxième couleur.  <br/> |
-| _flotteur [0, 1]_ <br/> |Obligatoire  <br/> |**Float** <br/> |Proportion de mélange de _color2_ et de _color1_, respectivement. Nombre réel entre 0 et 1 inclus.  <br/> |
+| _float[0,1]_ <br/> |Obligatoire  <br/> |**Float** <br/> |Proportion de fusion respective de _color2_ et _color1._ Nombre réel entre 0 et 1 inclus.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -36,8 +36,8 @@ BLEND (* * *color1* * *, * * *color2* * *, * * *float [0, 1]* * *)
   
 ## <a name="remarks"></a>Remarques
 
-La couleur renvoyée est déterminée par les proportions relatives dans lesquelles fusionner _color2_ et _color1_, respectivement, comme spécifié par le paramètre _float_ . Par exemple, si _float_ est 0,25, la couleur renvoyée est composée de 75% de _color1_ et de 25% de _color2_. 
+La couleur renvoyée est déterminée par les proportions relatives de fusion de _color2_ et _color1,_ respectivement, comme spécifié par le _paramètre float._ Par exemple, si  _float_ est de 0,25, la couleur renvoyée est composée de 75 % de  _color1_ et de 25 % de  _color2_. 
   
-Une autre façon de penser est que la valeur en _virgule flottante_ correspond au point le long du spectre de couleurs de _color1_ à _color2_. Par conséquent, des nombres plus petits (plus proches __ de zéro) pour les produits flottants produisent des fusions plus proches de la taille de _color1_, tandis que les grands nombres (plus de 1) produisent des fusions plus près de _color2_.
+Une autre façon d’y penser est que la valeur  _float_ correspond au point le long de la gamme de couleurs de  _color1_ à  _color2_. Par conséquent, des nombres plus  petits (plus proches de zéro) pour float produisent des fusions plus proches de _color1_, tandis que les nombres plus grands (plus proches de 1) produisent des fusions plus proches de _color2_.
   
 

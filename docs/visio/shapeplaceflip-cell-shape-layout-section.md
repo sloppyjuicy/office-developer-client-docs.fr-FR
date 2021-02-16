@@ -23,16 +23,16 @@ Détermine la façon dont une forme positionnable est retournée et/ou pivote su
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Utiliser la valeur page par défaut.  <br/> |**visLOFlipDefault** <br/> |
-|0,1  <br/> |Retournement horizontal.  <br/> |**visLOFlipX** <br/> |
-|n°2  <br/> |Retournement vertical.  <br/> |**visLOFlipY** <br/> |
-|4  <br/> |Retourner par incréments de 90 degrés entre 0 et 270.  <br/> |**visLOFlipRotate** <br/> |
-|8bits  <br/> |Ne pas retourner.  <br/> |**visLOFlipNone** <br/> |
+|1   <br/> |Retournement horizontal.  <br/> |**visLOFlipX** <br/> |
+|2   <br/> |Retournement vertical.  <br/> |**visLOFlipY** <br/> |
+|4   <br/> |Retourner par incréments de 90 degrés entre 0 et 270.  <br/> |**visLOFlipRotate** <br/> |
+|8   <br/> |Ne pas retourner.  <br/> |**visLOFlipNone** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 La valeur de la cellule ShapePlaceFlip facilite l'orientation d'une forme positionnable vers la forme positionnable suivante à laquelle elle est liée.
   
-Pour définir ce comportement pour *toutes* les formes de la page de dessin, utilisez la cellule PlaceFlip de la section Page Layout. 
+Pour définir ce comportement pour  *toutes les*  formes de la page de dessin, utilisez la cellule PlaceFlip dans la section Mise en page. 
   
 Pour obtenir une référence à la cellule ShapePlaceFlip par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   
@@ -44,7 +44,7 @@ Pour obtenir une référence à la cellule ShapePlaceFlip à l'aide d'un index �
   
 |||
 |:-----|:-----|
-|Index de la section :  <br/> |**Définis** <br/> |
+|Index de la section :  <br/> |**visSectionObject** <br/> |
 |Index de la ligne :  <br/> |**visRowShapeLayout** <br/> |
 |Index de la cellule :  <br/> |**visSLOPlaceFlip** <br/> |
    

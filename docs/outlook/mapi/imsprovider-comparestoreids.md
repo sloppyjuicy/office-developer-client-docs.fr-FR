@@ -25,7 +25,7 @@ ms.locfileid: "33431707"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux identificateurs d'entrée de banque de messages pour déterminer s'ils font référence au même objet Store.
+Compare deux identificateurs d’entrée de magasin de messages pour déterminer s’ils font référence au même objet store.
   
 ```cpp
 HRESULT CompareStoreIDs(
@@ -42,19 +42,19 @@ HRESULT CompareStoreIDs(
 
  _cbEntryID1_
   
-> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ _._
+> [in] Taille, en octets, de l’identificateur d’entrée pointé par  _le paramètre lpEntryID1_  _._
     
  _lpEntryID1_
   
-> dans Pointeur vers le premier identificateur d'entrée à comparer.
+> [in] Pointeur vers le premier identificateur d’entrée à comparer.
     
  _cbEntryID2_
   
-> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ _._
+> [in] Taille, en octets, de l’identificateur d’entrée pointé par  _le paramètre lpEntryID2_  _._
     
  _lpEntryID2_
   
-> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
+> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareStoreIDs(
     
  _lpulResult_
   
-> remarquer Pointeur vers le résultat renvoyé de la comparaison. TRUE si les deux identificateurs d'entrée font référence au même objet; Sinon, FALSe.
+> [out] Pointeur vers le résultat renvoyé de la comparaison. TRUE si les deux identificateurs d’entrée font référence au même objet ; sinon, FALSE.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,11 +72,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la méthode **IMSProvider:: CompareStoreIDs** lorsqu'il traite un appel à la méthode [IMAPISession:: OpenMsgStore](imapisession-openmsgstore.md) . **CompareStoreIDs** est appelé à ce stade pour déterminer quelle section de profil, le cas échéant, est associée à la Banque de messages en cours d'ouverture. Un appel **CompareStoreIDs** peut être effectué lorsqu'aucun magasin de messages n'est ouvert pour un fournisseur de banque particulier. De plus, MAPI appelle également **CompareStoreIDs** lorsqu'il traite un appel de fournisseur de banque à la méthode [IMAPISupport:: OpenProfileSection](imapisupport-openprofilesection.md) . 
+MAPI appelle la méthode **IMSProvider::CompareStoreIDs** lorsqu’elle traite un appel à la méthode [IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) **CompareStoreIDs** est appelée à ce stade pour déterminer la section de profil, le cas cas, est associée à la magasin de messages en cours d’ouverture. Un **appel CompareStoreIDs peut** être effectué lorsqu’aucune boutique de messages n’est ouverte pour un fournisseur de magasins particulier. En outre, MAPI appelle **également CompareStoreIDs** lorsqu’il traite un appel de fournisseur de magasin à la méthode [IMAPISupport::OpenProfileSection.](imapisupport-openprofilesection.md) 
   
-Les identificateurs d'entrée comparés par **CompareStoreIDs** sont tous deux pour la bibliothèque de liens dynamiques (dll) du fournisseur de magasin actuel et sont tous deux des identificateurs d'entrée de magasin non enveloppés. Pour plus d'informations sur les identificateurs d'entrée de magasin de contenu, voir [IMAPISupport:: WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
+Les identificateurs d’entrée comparés par **compares CompareStoreID** sont tous deux pour la bibliothèque de liens dynamiques (DLL) du fournisseur de magasins actuel et sont tous deux des identificateurs d’entrée de magasin non veloppés. Pour plus d’informations sur l’habillage des identificateurs d’entrée de magasin, voir [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
   
-La comparaison des identificateurs d'entrée est utile, car un objet peut avoir plusieurs identificateurs d'entrée valides. Cela peut se produire, par exemple, après l'installation d'une nouvelle version d'un fournisseur de banque de messages. 
+La comparaison des identificateurs d’entrée est utile, car un objet peut avoir plusieurs identificateurs d’entrée valides. Cela peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de magasins de messages. 
   
 ## <a name="see-also"></a>Voir aussi
 

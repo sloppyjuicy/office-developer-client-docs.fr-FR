@@ -25,7 +25,7 @@ ms.locfileid: "33431896"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique qu'une modification a eu lieu dans l'état de la visionneuse de formulaires. 
+Indique qu’une modification s’est produite dans l’état de la visionneuse de formulaires. 
   
 ```cpp
 HRESULT OnChange(
@@ -37,7 +37,7 @@ HRESULT OnChange(
 
  _ulDir_
   
-> dans Masque de des indicateurs qui fournit des informations sur la modification survenue dans la visionneuse et la réponse attendue dans le formulaire. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui fournit des informations sur la modification qui s’est produite dans la visionneuse et la réponse attendue dans le formulaire. Les indicateurs suivants peuvent être définies :
     
 VCSTATUS_CATEGORY 
   
@@ -45,11 +45,11 @@ VCSTATUS_CATEGORY
     
 VCSTATUS_INTERACTIVE 
   
-> Le formulaire doit afficher une interface utilisateur. Si cet indicateur n'est pas défini, le formulaire doit supprimer l'affichage d'une interface utilisateur, même en réponse à un verbe qui entraîne généralement l'affichage d'une interface utilisateur. 
+> Le formulaire doit afficher une interface utilisateur. Si cet indicateur n’est pas définie, le formulaire doit supprimer l’affichage d’une interface utilisateur, même en réponse à un verbe qui entraîne généralement l’affichage d’une interface utilisateur. 
     
 VCSTATUS_MODAL 
   
-> Le formulaire doit être modal dans la visionneuse de formulaire. 
+> Le formulaire doit être modal pour la visionneuse de formulaires. 
     
 VCSTATUS_NEXT 
   
@@ -61,11 +61,11 @@ VCSTATUS_PREV
     
 VCSTATUS_READONLY 
   
-> Les opérations de suppression, d'envoi et de déplacement doivent être désactivées. 
+> Les opérations de suppression, d’soumission et de déplacement doivent être désactivées. 
     
 VCSTATUS_UNREAD 
   
-> Il y a un message non lu suivant ou précédent dans la visionneuse de formulaires.
+> Il existe un message non lu suivant ou précédent dans la visionneuse de formulaires.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -75,13 +75,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormAdviseSink:: OnChange** pour informer le formulaire des modifications apportées à l'état d'une visionneuse. En règle générale, la seule modification consiste à définir ou à désactiver l'indicateur VCSTATUS_NEXT ou VCSTATUS_PREVIOUS en fonction de la présence ou de l'absence d'un message suivant ou précédent dans la visionneuse. Par conséquent, l'objet Form active ou désactive les actions suivantes ou précédentes qu'il prend en charge. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormAdviseSink::OnChange** pour informer le formulaire d’une modification de l’état d’une visionneuse. En règle générale, la seule modification consiste à définir ou effacer l’indicateur VCSTATUS_NEXT ou VCSTATUS_PREVIOUS en fonction de la présence ou de l’absence d’un message suivant ou précédent dans la visionneuse. Par conséquent, l’objet formulaire active ou désactive les actions suivantes ou précédentes qu’il prend en charge. 
   
-Les paramètres de VCSTATUS_MODAL et VCSTATUS_INTERACTIVE ne peuvent pas être modifiés dans un contexte d'affichage une fois qu'il a été créé.
+Les paramètres des VCSTATUS_MODAL et VCSTATUS_INTERACTIVE ne peuvent pas être changés dans un contexte d’affichage après sa création.
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L'implémentation spécifique de cette méthode dépend entièrement des caractéristiques du formulaire. La plupart des objets de formulaire utilisent cette méthode pour modifier leur interface utilisateur (par exemple, pour activer ou désactiver les commandes de menu ou les boutons pour qu'ils correspondent au paramètre indicateurs d'état de la visionneuse).
+L’implémentation spécifique de cette méthode dépend complètement des spécificités du formulaire. La plupart des objets de formulaire utilisent cette méthode pour modifier leur interface utilisateur (par exemple, pour activer ou désactiver des commandes de menu ou des boutons pour qu’ils correspondent au paramètre d’indicateur d’état de la visionneuse).
   
 ## <a name="see-also"></a>Voir aussi
 

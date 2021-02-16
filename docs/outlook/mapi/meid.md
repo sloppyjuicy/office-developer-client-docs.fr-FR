@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 'Dernière modification: 03 juillet 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "33430307"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Identificateur d'un élément Outlook. Il contient un identificateur d'entrée et d'autres informations pertinentes.
+Identificateur d’un élément Outlook. Il contient un identificateur d’entrée et d’autres informations pertinentes.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -40,15 +40,15 @@ struct MEID
 
  _abFlags_
   
-> identificateur d'entrée sur 4 octets pour l'élément Outlook. Pour plus d'informations sur les identificateurs d'entrée MAPI, voir **[EntryID](entryid.md)**. 
+> Identificateur d’entrée de 4 byte pour l’élément Outlook. Pour plus d’informations sur les identificateurs d’entrée MAPI, voir **[ENTRYID](entryid.md)**. 
     
  _muid_
   
-> GUID qui identifie le fournisseur de banque. Voir mapidefs. h pour la définition de type de **MAPIUID**. 
+> GUID qui identifie le fournisseur du magasin. Voir mapidefs.h pour la définition de type **de MAPIUID**. 
     
  _espace réservé_
   
-> Ce membre est réservé à l'usage interne d'Outlook et n'est pas pris en charge.
+> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge.
     
  _ltidFld_
   
@@ -56,7 +56,7 @@ struct MEID
     
  _ltidMsg_
   
-> ID à long terme de l'élément Outlook.
+> ID à long terme de l’élément Outlook.
     
 ## <a name="see-also"></a>Voir aussi
 
@@ -68,7 +68,7 @@ struct MEID
   
 [LTID](ltid.md)
   
-[SYNCHRONI](sync.md)
+[SYNC](sync.md)
   
 [UPMSG](upmsg.md)
 

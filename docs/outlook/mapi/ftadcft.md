@@ -21,7 +21,7 @@ ms.locfileid: "33429704"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajoute un entier non signé 64 bits à un autre, éventuellement à l'aide d'un indicateur de transport.
+Ajoute un integer 64 bits non signé à un autre, éventuellement à l’aide d’un indicateur de transport.
   
 |||
 |:-----|:-----|
@@ -38,25 +38,25 @@ FILETIME FtAdcFt(
 
 ## <a name="parameters"></a>Paramètres
 
- _FT1_
+ _ft1_
   
-> dans Une structure [fileTime](filetime.md) qui contient le premier entier non signé 64 bits à ajouter. 
+> [in] Structure [FILETIME](filetime.md) qui contient le premier entière 64 bits non signé à ajouter. 
     
  _ft2_
   
-> dans Une structure FILETIME qui contient le deuxième entier non signé 64 bits à ajouter.
+> [in] Structure FILETIME qui contient le deuxième integer 64 bits non signé à ajouter.
     
  _pwCarry_
   
-> [in, out, optional] En entrée, pointeur vers l'indicateur de transport entrant. En sortie, pointeur vers le résultat du transport pour l'addition. Ce paramètre peut être NULL si le résultat du transport n'est pas obligatoire.
+> [in, out, optional] Lors de l’entrée, un pointeur vers l’indicateur de transport entrant. En sortie, un pointeur vers le résultat de transport pour l’ajout. Ce paramètre peut être NULL si le résultat de transport n’est pas requis.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-La fonction **FtAdcFt** renvoie une structure **fileTime** qui contient la somme des deux entiers. Les deux paramètres d'entrée restent inchangés. Si **pwCarry** est non null, il contient le résultat de transport pour la somme, 0 ou 1. 
+La **fonction FtAdcFt** renvoie une structure **FILETIME** qui contient la somme des deux nombres entières. Les deux paramètres d’entrée restent inchangés. Si **pwCarry n’est** pas null, il contient le résultat de transport pour la somme, soit 0, soit 1. 
   
 ## <a name="remarks"></a>Remarques
 
-La fonction **FtAdcFt** est identique à **FtAddFt** lorsque _pwCarry_ est null. Si _pwCarry_ n'est pas null et pointe sur 0, **FtAdcFt** renvoie la même valeur **fileTime** que **FtAddFt** . 
+La **fonction FtAdcFt** est identique à **FtAddFt** lorsque  _pwCarry a la valeur_ NULL. Si _pwCarry n’a_ pas la valeur NULL et pointe sur 0, **FtAdcFt** renvoie la même valeur **FILETIME** que **ftAddFt.** 
   
 ## <a name="see-also"></a>Voir aussi
 

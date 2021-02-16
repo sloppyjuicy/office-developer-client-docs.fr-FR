@@ -25,32 +25,32 @@ ms.locfileid: "33428878"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Accède aux ressources d'un objet d'ouverture de session de la Banque de messages.
+Accède aux ressources d’un objet d’ouverture de magasin de messages.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
-|Exposé par:  <br/> |Objets d'ouverture de session de banque de messages  <br/> |
-|Implémenté par :  <br/> |Fournisseurs de banques de messages  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
+|Exposé par :  <br/> |Objets d’ouverture de magasin de messages  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de magasins de messages  <br/> |
 |Appelé par :  <br/> |MAPI  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMSLogon  <br/> |
-|Type de pointeur:  <br/> |LPMSLOGON  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMSLogon  <br/> |
+|Type de pointeur :  <br/> |LPMSLOGON  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[Généré](imslogon-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur survenue pour l'objet de banque de messages.  <br/> |
-|[Logoff](imslogon-logoff.md) <br/> |DéConnecte un fournisseur de banque de messages.  <br/> |
-|[OpenEntry](imslogon-openentry.md) <br/> |Ouvre un objet Folder ou message et renvoie un pointeur vers l'objet pour fournir un accès supplémentaire.  <br/> |
-|[CompareEntryIDs](imslogon-compareentryids.md) <br/> |Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet.  <br/> |
-|[Recommander](imslogon-advise.md) <br/> |Inscrit un objet auprès d'un fournisseur de banque de messages pour les notifications concernant les modifications apportées à la Banque de messages.  <br/> |
-|[Unadvise](imslogon-unadvise.md) <br/> |Supprime l'inscription d'un objet pour la notification des modifications de banque de messages précédemment établies à l'aide d'un appel à la méthode **IMSLogon:: Advise** .  <br/> |
-|[OpenStatusEntry](imslogon-openstatusentry.md) <br/> |Ouvre un objet état.  <br/> |
+|[GetLastError](imslogon-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur qui s’est produite pour l’objet de la boutique de messages.  <br/> |
+|[Logoff](imslogon-logoff.md) <br/> |Déconnecte un fournisseur de magasins de messages.  <br/> |
+|[OpenEntry](imslogon-openentry.md) <br/> |Ouvre un dossier ou un objet message et renvoie un pointeur vers l’objet pour fournir un accès supplémentaire.  <br/> |
+|[CompareEntryIDs](imslogon-compareentryids.md) <br/> |Compare deux identificateurs d’entrée pour déterminer s’ils font référence au même objet.  <br/> |
+|[Conseiller](imslogon-advise.md) <br/> |Enregistre un objet auprès d’un fournisseur de magasins de messages pour les notifications concernant les modifications apportées à la magasin de messages.  <br/> |
+|[Unadvise](imslogon-unadvise.md) <br/> |Supprime l’inscription d’un objet pour la notification des modifications de magasin de messages précédemment établies à l’aide d’un appel à la méthode **IMSLogon::Advise.**  <br/> |
+|[OpenStatusEntry](imslogon-openstatusentry.md) <br/> |Ouvre un objet d’état.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-L'objet d'ouverture de session de la Banque de messages est la partie d'un fournisseur de banque de messages ouverte que MAPI appelle directement. Il existe une correspondance un-à-un entre l'objet de connexion de la Banque de messages que MAPI appelle et l'objet de banque de messages que les applications clientes appellent; vous pouvez considérer les objets Logon et Store comme un seul objet qui expose deux interfaces. Les deux objets sont créés ensemble et libérés ensemble.
+L’objet d’ouverture de magasin de messages est la partie d’un fournisseur de magasin de messages ouvert que MAPI appelle directement. Il existe une correspondance un-à-un entre l’objet d’ouverture de conférence de la boutique de messages que MAPI appelle et l’objet de magasin de messages que les applications clientes appellent ; vous pouvez penser à l’ouverture de site et stocker des objets comme un seul objet qui expose deux interfaces. Les deux objets sont créés ensemble et libérés ensemble.
   
 ## <a name="see-also"></a>Voir aussi
 

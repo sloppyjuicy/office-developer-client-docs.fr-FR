@@ -25,13 +25,13 @@ ms.locfileid: "33432946"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime les informations prétraitées écrites par une fonction basée sur [PreprocessMessage](preprocessmessage.md) à partir d'un message. 
+Supprime d’un message les informations prétraitées écrites par une fonction [preprocessMessage.](preprocessmessage.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapispi. h  <br/> |
-|Fonction définie implémentée par:  <br/> |Fournisseurs de transport  <br/> |
-|Fonction définie appelée par:  <br/> |Spouleur MAPI  <br/> |
+|Fichier d’en-tête :  <br/> |Mapispi.h  <br/> |
+|Fonction définie implémentée par :  <br/> |Fournisseurs de transport  <br/> |
+|Fonction définie appelée par :  <br/> |Pooler MAPI  <br/> |
    
 ```cpp
 HRESULT RemovePreprocessInfo(
@@ -43,18 +43,18 @@ HRESULT RemovePreprocessInfo(
 
  _lpMessage_
   
-> dans Pointeur vers le message prétraité à partir duquel les informations doivent être supprimées.
+> [in] Pointeur vers le message prétraité à partir duquel les informations doivent être supprimées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Les informations prétraitées ont été supprimées.
+> Les informations prétraitées ont été supprimées avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle une fonction basée sur **RemovePreprocessInfo**. Un fournisseur de transport enregistre la fonction basée sur **RemovePreprocessInfo** en même temps qu'il enregistre la fonction **PreprocessMessage** en parallèle dans un appel à la méthode [IMAPISupport:: RegisterPreprocessor](imapisupport-registerpreprocessor.md) . 
+Lepooler MAPI appelle une fonction basée sur **RemovePreprocessInfo**. Un fournisseur de transport inscrit la fonction basée sur **RemovePreprocessInfo** en même temps qu’il inscrit la fonction **basée sur PreprocessMessage** parallèle dans un appel à la méthode [IMAPISupport::RegisterPreprocessor.](imapisupport-registerpreprocessor.md) 
   
-Un rendu d'image adapté à la transmission de télécopie est un exemple d'informations prétraitées écrites par une fonction définie par le prototype de fonction [PreprocessMessage](preprocessmessage.md). Le spouleur MAPI appelle généralement une fonction **RemovePreprocessInfo** après l'envoi d'un message qui contient des informations prétraitées. 
+Un rendu d’image approprié pour la transmission de télécopie est un exemple d’informations prétraitées écrites par une fonction définie par le prototype de fonction [PreprocessMessage.](preprocessmessage.md) Lepooler MAPI appelle généralement une **fonction RemovePreprocessInfo** après l’envoi d’un message contenant des informations prétraitées. 
   
 

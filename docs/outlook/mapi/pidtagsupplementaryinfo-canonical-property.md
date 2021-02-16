@@ -36,19 +36,19 @@ Contient des informations supplémentaires à utiliser dans un rapport.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent des informations générées par l'agent de transfert des messages ou le fournisseur de transport lié au rapport. Elle est généralement utilisée pour le texte du rapport de remise ou de non-remise qui a été généré par le système de messagerie sous-jacent.
+Ces propriétés contiennent des informations générées par l’agent de transfert de messages ou le fournisseur de transport associé au rapport. Il est généralement utilisé pour la remise ou le texte de rapport non remise provenant du système de messagerie sous-jacent.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -23,7 +23,7 @@ ms.locfileid: "33428969"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique la disposition de l'accusé de réception pour les messages qui demandent des accusés de réception. 
+Indique la disposition du reçu pour les messages qui demandent des reçus. 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Indique la disposition de l'accusé de réception pour les messages qui demanden
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs possibles pour cette propriété sont «Manual-action/notification-sent-automatically» et «Manual-action/notification-sent-Manually».
+Les valeurs possibles pour cette propriété sont « manual-action/MDN-sent-automatically » et « manual-action/MDN-sent-manually ».
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -42,17 +42,17 @@ Les valeurs possibles pour cette propriété sont «Manual-action/notification-s
 
 [[MS-OXPROPS]] 
   
-> Fournit des références à des spécifications de protocole Exchange Server connexes.
+> Fournit des références aux spécifications Exchange Server de protocole associées.
     
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 

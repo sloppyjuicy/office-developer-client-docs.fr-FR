@@ -1,5 +1,5 @@
 ---
-title: Flux de programme (application Web personnalisée Access)
+title: Flux de programme (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,17 +14,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428927"
 ---
-# <a name="program-flow-access-custom-web-app"></a>Flux de programme (application Web personnalisée Access)
+# <a name="program-flow-access-custom-web-app"></a>Flux de programme (application web personnalisée Access)
 
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-- [Bloc de macros de commentaire (application Web personnalisée Access)](comment-macro-block-access-custom-web-app.md)
+- [Comment Macro Block (Access custom web app)](comment-macro-block-access-custom-web-app.md)
     
-- [If... Then... Sinon, bloc de macros (application Web personnalisée Access)](ifthenelse-macro-block-access-custom-web-app.md)
+- [Si... Ensuite... Else Macro Block (Access custom web app)](ifthenelse-macro-block-access-custom-web-app.md)
     
-- [Bloc de macro de groupe (application Web personnalisée Access)](group-macro-block-access-custom-web-app.md)
+- [Group Macro Block (Access custom web app)](group-macro-block-access-custom-web-app.md)
     
 

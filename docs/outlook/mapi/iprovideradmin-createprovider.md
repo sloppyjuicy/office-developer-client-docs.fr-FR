@@ -40,47 +40,47 @@ HRESULT CreateProvider(
 
  _lpszProvider_
   
-> dans Pointeur vers le nom du fournisseur à ajouter.
+> [in] Pointeur vers le nom du fournisseur à ajouter.
     
  _cValues_
   
-> dans Nombre de valeurs de propriétés vers lesquelles pointe le paramètre _lpProps_ . 
+> [in] Nombre de valeurs de propriétés pointées par _le paramètre lpProps._ 
     
  _lpProps_
   
-> dans Pointeur vers un tableau de valeurs de propriété qui décrit les propriétés du fournisseur à ajouter.
+> [in] Pointeur vers un tableau de valeurs de propriété qui décrit les propriétés du fournisseur à ajouter.
     
  _ulUIParam_
   
-> dans Handle de la fenêtre parente de toutes les boîtes de dialogue ou fenêtres que cette méthode affiche. Le paramètre _ulUIParam_ est utilisé si l'indicateur MAPI_DIALOG est défini dans le paramètre _ulFlags_ . 
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode. Le _paramètre ulUIParam_ est utilisé si l’MAPI_DIALOG est définie dans _le paramètre ulFlags._ 
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle l'ajout du fournisseur. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle l’ajout du fournisseur. Les indicateurs suivants peuvent être définies :
     
-  - MAPI_DIALOG: affiche une boîte de dialogue pour demander des informations de configuration.
+  - MAPI_DIALOG : affiche une boîte de dialogue pour fournir des informations de configuration.
       
-  - MAPI_UNICODE: le nom du fournisseur et les propriétés de chaîne sont au format Unicode. Si l'indicateur MAPI_UNICODE n'est pas défini, ces chaînes sont au format ANSI.
+  - MAPI_UNICODE : le nom du fournisseur et les propriétés de chaîne sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, ces chaînes sont au format ANSI.
     
  _lpUID_
   
-> remarquer Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l'identificateur unique qui représente le fournisseur à ajouter. 
+> [out] Pointeur vers la structure [MAPIUID](mapiuid.md) qui contient l’identificateur unique qui représente le fournisseur à ajouter. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> Le fournisseur a été ajouté au service de messagerie.
+> Le fournisseur a été ajouté au service de messagerie avec succès.
     
 MAPI_E_USER_CANCEL 
   
-> L'utilisateur a annulé l'opération, généralement en cliquant sur le bouton **Annuler** d'une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IProviderAdmin:: CreateProvider** ajoute un fournisseur de services au service de messagerie. Le paramètre _lpszProvider_ doit pointer vers le nom d'un fournisseur qui appartient au service de messagerie. **CreateProvider** ne vérifie pas si le nom correspond au nom d'un fournisseur dans le service; Si le nom transmis ne correspond pas à un nom de service, l'appel réussit, mais les résultats sont imprévisibles. La plupart des services de message n'autorisent pas l'ajout ou la suppression de fournisseurs lorsque le profil est en cours d'utilisation. 
+La **méthode IProviderAdmin::CreateProvider** ajoute un fournisseur de services au service de messagerie. Le  _paramètre lpszProvider_ doit pointer vers le nom d’un fournisseur qui appartient au service de messagerie. **CreateProvider ne** vérifie pas si le nom correspond au nom d’un fournisseur dans le service ; Si le nom transmis ne correspond pas à un nom de service, l’appel réussit, mais les résultats sont imprévisibles. La plupart des services de messagerie n’autorisent pas l’ajout ou la suppression de fournisseurs pendant l’utilisation du profil. 
   
-Une fois que toutes les informations disponibles sur le fournisseur de services ont été ajoutées au profil à partir du fichier MAPISVC. inf, **CreateProvider** appelle la fonction de point d'entrée du service de messagerie avec le paramètre _ULCONTEXT_ défini sur MSG_SERVICE_ PROVIDER_CREATE. Si MAPI_DIALOG est défini dans le paramètre _ulFlags_ de la méthode **CreateProvider** , les valeurs des paramètres _ulUIParam_ et _ulFlags_ sont également transmises à la fonction de point d'entrée. Ces paramètres supplémentaires permettent au fournisseur de services d'afficher sa feuille de propriétés de sorte que l'utilisateur puisse entrer des paramètres de configuration. 
+Une fois que toutes les informations disponibles sur le fournisseur de services ont été ajoutées au profil à partir du fichier Mapisvc.inf, **CreateProvider** appelle la fonction de point d’entrée du service de messagerie avec le paramètre  _ulContext_ paramétré sur MSG_SERVICE_PROVIDER_CREATE. Si MAPI_DIALOG est définie dans le paramètre _ulFlags_ de la méthode **CreateProvider,** les valeurs des paramètres _ulUIParam_ et _ulFlags_ sont également transmises à la fonction de point d’entrée. Ces paramètres supplémentaires permettent au fournisseur de services d’afficher sa feuille de propriétés afin que l’utilisateur puisse entrer les paramètres de configuration. 
   
 ## <a name="see-also"></a>Voir aussi
 

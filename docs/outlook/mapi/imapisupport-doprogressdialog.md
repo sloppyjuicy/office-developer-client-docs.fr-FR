@@ -39,31 +39,31 @@ HRESULT DoProgressDialog(
 
  _ulUIParam_
   
-> dans Handle de la fenêtre parent de l'indicateur de progression.
+> [in] Handle vers la fenêtre parent de l’indicateur de progression.
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont l'objet Progress doit calculer la progression. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont l’objet de progression doit calculer la progression. L’indicateur suivant peut être définie :
     
 MAPI_TOP_LEVEL 
   
-> La progression est calculée pour un élément de niveau supérieur, tel qu'un dossier parent. L'objet Progress doit utiliser les valeurs des paramètres _ulCount_ et _ulTotal_ de la méthode [méthode imapiprogress::P rogress](imapiprogress-progress.md) , qui indiquent respectivement l'élément actif et le nombre total d'éléments dans l'opération; pour incrémenter la progression indicateur de l'opération. 
+> La progression est calculée pour un élément de niveau supérieur, tel qu’un dossier parent. L’objet de progression doit utiliser les valeurs des paramètres _ulCount_ et _ulTotal_ de la méthode [IMAPIProgress::P rogress,](imapiprogress-progress.md) qui indiquent respectivement l’élément actuel et le nombre total d’éléments de l’opération, pour incrémenter l’indicateur de progression de l’opération. 
     
  _lppProgress_
   
-> remarquer Pointeur vers un pointeur vers l'objet de progression.
+> [out] Pointeur vers un pointeur vers l’objet de progression.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'objet Progress a été correctement récupéré.
+> L’objet de progression a été récupéré avec succès.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport::D oprogressdialog** est implémentée pour les objets de prise en charge des fournisseurs de banques de messages et de carnet d'adresses. Ces fournisseurs appellent **DoProgressDialog** pour accéder à l'implémentation MAPI de l'interface [méthode imapiprogress](imapiprogressiunknown.md) , qui calcule les informations d'avancement et affiche une boîte de dialogue standard. 
+La **méthode IMAPISupport::D oProgressDialog** est implémentée pour les objets de prise en charge du carnet d’adresses et du fournisseur de magasins de messages. Ces fournisseurs **appellent DoProgressDialog** pour accéder à l’implémentation MAPI de l’interface [IMAPIProgress,](imapiprogressiunknown.md) qui calcule les informations de progression et affiche une boîte de dialogue standard. 
   
-Pour plus d'informations sur l'utilisation d'un objet Progress et de l'interface **méthode imapiprogress** , voir [afficher un indicateur de progression](how-to-display-a-progress-indicator.md).
+Pour plus d’informations sur l’utilisation d’un objet de progression et de l’interface **IMAPIProgress,** voir [Afficher un indicateur de progression.](how-to-display-a-progress-indicator.md)
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f332de3-470d-9bc2-0c65-684bb58bcd7a
-description: Obtient une chaîne de message pour l'erreur spécifiée.
+description: Obtient une chaîne de message pour l’erreur spécifiée.
 ms.openlocfilehash: 4d2aa3a7513687484988921734eb4c0e6f91226b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33431700"
 ---
 # <a name="iolkerrorunknowngetlasterror"></a>IOlkErrorUnknown::GetLastError
 
-Obtient une chaîne de message pour l'erreur spécifiée. 
+Obtient une chaîne de message pour l’erreur spécifiée. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -32,13 +32,13 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ## <a name="parameters"></a>Paramètres
 
-_confidentiel_
+_hr_
   
-> dans Code d'erreur à rechercher.
+> [in] Code d’erreur à rechercher.
     
 _ppwszError_
   
-> remarquer Message d'erreur correspondant à *RH* . 
+> [out] Le message d’erreur qui correspond à  *hr*  . 
     
 ## <a name="return-values"></a>Valeurs de retour
 

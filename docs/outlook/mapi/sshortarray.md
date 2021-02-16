@@ -25,11 +25,11 @@ ms.locfileid: "33429613"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de valeurs entières non signées utilisées pour décrire une propriété de type PT_MV_SHORT.
+Contient un tableau de valeurs d’un nombre integer non signé qui sont utilisées pour décrire une propriété de type PT_MV_SHORT.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SShortArray
@@ -44,15 +44,15 @@ typedef struct _SShortArray
 
  **cValues**
   
-> Nombre de valeurs dans le tableau vers lequel pointe le membre **LPP** . 
+> Nombre de valeurs dans le tableau pointées par le **membre lpi.** 
     
- **LPP**
+ **lpi**
   
-> Pointeur vers un tableau de valeurs entières non signées.
+> Pointeur vers un tableau de valeurs d’un nombre integer non signé.
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d'informations sur PT_MV_SHORT et d'autres types de propriétés, consultez la rubrique [types de propriétés](property-types.md). 
+Pour plus d’informations sur PT_MV_SHORT types de propriétés et d’autres types de propriétés, voir [Types de propriétés.](property-types.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -19,9 +19,9 @@ ms.locfileid: "33433926"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La structure de flux FirstSkipBlockContent est le contenu de la première structure [SkipBlock](skipblock-stream-structure.md) dans l'élément de données SkipBlocks d'un flux de [FieldDefinition](fielddefinition-stream-structure.md) . Le flux FirstSkipBlockContent est simplement un élément de données unique, FieldName: 
+La structure de flux FirstSkipBlockContent est le contenu de la première structure [SkipBlock](skipblock-stream-structure.md) dans l’élément de données SkipBlocks d’un [flux FieldDefinition.](fielddefinition-stream-structure.md) Le flux FirstSkipBlockContent est simplement un élément de données unique, FieldName : 
   
-- FieldName: [PackedUnicodeString](packedunicodestring-stream-structure.md), le nom du champ.
+- FieldName : [PackedUnicodeString](packedunicodestring-stream-structure.md), le nom du champ.
     
 ## <a name="see-also"></a>Voir aussi
 

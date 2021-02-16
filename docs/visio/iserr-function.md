@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251448
 localization_priority: Normal
 ms.assetid: 87508007-8ad2-3bcf-55dc-f0207c7c6fe3
-description: "Renvoie TRUE si la valeur de cellreference est un type d'erreur, à l'exception de #N/A; dans le cas contraire, elle renvoie la valeur FALSe. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule."
+description: 'Renvoie TRUE si la valeur de cellreference est un type d’erreur à l’exception #N/A ; Sinon, elle renvoie FALSE. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule.'
 ms.openlocfilehash: e2117c38d3cad2408295ed6894aefc78e107596e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33432106"
 ---
 # <a name="iserr-function"></a>Fonction ISERR
 
-Renvoie TRUE si la valeur de _cellreference_ est un type d'erreur, à l'exception de #N/a; dans le cas contraire, elle renvoie la valeur FALSe. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule. 
+Renvoie TRUE si la valeur de  _cellreference_ est un type d’erreur à l’exception #N/A ; Sinon, elle renvoie FALSE. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule. 
   
 ## <a name="syntax"></a>Syntaxe
 
-ISERR (* * *cellreference* * *) 
+ISERR(** *cellreference* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -32,19 +32,19 @@ ISERR (* * *cellreference* * *)
    
 ## <a name="example-1"></a>Exemple 1
 
-|**Cellule**|**Formula**|**Valeur renvoyée**|
+|**Cell**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
-|Scratch. a1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
-|Scratch. B1  <br/> |= ISERR (Scratch. a1)  <br/> |FALSE  <br/> |
+|Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
+|Scratch.B1  <br/> |=ISERR(Scratch.A1)  <br/> |FALSE  <br/> |
    
 Renvoie FALSE parce que l’erreur #N/A! n’est pas reconnue par la fonction ISERR. Utilisez ISERROR pour trouver tous les types d’erreur.
   
-## <a name="example-2"></a>Exemple 2
+## <a name="example-2"></a>Exemple 2
 
-|**Cellule**|**Formula**|**Valeur renvoyée**|
+|**Cell**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
-|Scratch. x1  <br/> |= «Maison»  <br/> |#VALUE!  <br/> |
-|Scratch. a1  <br/> |= ISERR (Scratch. X1)  <br/> |TRUE  <br/> |
+|Scratch.X1  <br/> |="House »  <br/> |#VALUE!  <br/> |
+|Scratch.A1  <br/> |=ISERR(Scratch.X1)  <br/> |TRUE  <br/> |
    
 Renvoie TRUE parce que l’erreur #VALEUR! est reconnue par la fonction ISERR.
   

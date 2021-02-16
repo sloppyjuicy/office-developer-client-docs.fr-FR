@@ -25,11 +25,11 @@ ms.locfileid: "33430608"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction de commentaire, utilisée pour annoter une restriction. 
+Décrit une restriction de commentaire, qui est utilisée pour annoter une restriction. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SCommentRestriction
@@ -45,23 +45,23 @@ typedef struct _SCommentRestriction
 
  **cValues**
   
-> Nombre de valeurs de propriété dans le tableau vers lequel pointe le membre **lpProp** . 
+> Nombre de valeurs de propriété dans le tableau pointé par **le membre lpProp.** 
     
  **lpRes**
   
-> Pointeur vers une structure [SRestriction](srestriction.md) . 
+> Pointeur vers une structure [SRestriction.](srestriction.md) 
     
  **lpProp**
   
-> Pointeur vers un tableau de structures [SPropValue](spropvalue.md) , chacune contenant la balise de propriété et la valeur d'une propriété nommée. 
+> Pointeur vers un tableau de structures [SPropValue,](spropvalue.md) chacune contenant la balise de propriété et la valeur d’une propriété nommée. 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SCommentRestriction** associe un objet à un ensemble de propriétés nommées. Les restrictions de commentaire sont à la différence des autres restrictions car elles ne sont pas évaluées. Autrement dit, ils sont ignorés par la méthode [IMAPITable:: Restrict](imapitable-restrict.md) . Il n'y a aucun effet sur les lignes renvoyées par la méthode [IMAPITable:: QueryRows](imapitable-queryrows.md) après l'appel de la méthode IMAPITable: **: Restrict** . 
+La structure **SCommentRestriction** associe un objet à un ensemble de propriétés nommées. Les restrictions de commentaire sont contrairement aux autres restrictions, car elles ne sont pas évaluées. Autrement dit, ils sont ignorés par la [méthode IMAPITable::Restrict.](imapitable-restrict.md) Il n’y a aucun effet sur les lignes renvoyées par la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) après qu’un **appel IMAPITable::Restrict** a été effectué. 
   
-La structure **SCommentRestriction** peut être utilisée pour conserver les informations spécifiques à l'application à l'aide d'une restriction lorsqu'elle est enregistrée sur le disque. Par exemple, un client enregistrant le nom d'une propriété nommée utilisée dans une restriction de propriété peut le faire dans une structure **SCommentRestriction** . L'enregistrement d'un nom de propriété n'est pas possible dans une restriction de propriété car la structure [SPropertyRestriction](spropertyrestriction.md) associée contient uniquement la balise de propriété. 
+La structure **SCommentRestriction** peut être utilisée pour conserver des informations spécifiques à l’application avec une restriction lorsqu’elle est enregistrée sur le disque. Par exemple, un client qui sauvegarde le nom d’une propriété nommée utilisée dans une restriction de propriété peut le faire dans une structure **SCommentRestriction.** L’enregistrement d’un nom de propriété n’est pas possible dans une restriction de propriété, car la structure [SPropertyRestriction](spropertyrestriction.md) associée contient uniquement la balise de propriété. 
   
-Pour plus d'informations sur la structure **SCommentRestriction** et les restrictions en général, consultez la rubrique [à propos des restrictions](about-restrictions.md). 
+Pour plus d’informations sur la structure et les **restrictions SCommentRestriction** en général, voir [à propos des restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

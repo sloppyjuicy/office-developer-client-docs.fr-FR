@@ -20,23 +20,23 @@ Détermine si un dégradé de remplissage est activé pour cette forme.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Un remplissage en dégradé est affiché sur la forme.  <br/> |
-|FALSE  <br/> |Les déGradés ne sont pas affichés sur la forme.  <br/> |
+|TRUE  <br/> |Le remplissage dégradé est affiché sur la forme.  <br/> |
+|FALSE  <br/> |Les remplissages dégradés ne sont pas affichés sur la forme.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **FillGradientEnabled** par un nom à partir d'une autre formule, par valeur de l'attribut **N** d'un élément de **cellule** ou d'un programme en faisant appel à la propriété **CellsU** , utilisez: 
+Pour obtenir une référence à la cellule **FillGradientEnabled** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de cellule :  <br/> | FillGradientEnabled  <br/> |
    
-Pour obtenir une référence à la cellule **FillGradientEnabled** à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants: 
+Pour obtenir une référence à la **cellule FillGradientEnabled** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowGradientProperties** <br/> |
-| Index de la cellule :  <br/> |* * visFillGradientEnabled * * <br/> |
+| Index de la cellule :  <br/> |**visFillGradientEnabled ** <br/> |
    
 

@@ -23,9 +23,9 @@ Détermine la méthode utilisée pour analyser le dessin avant la création de l
 |**Valeur**|**Profondeur de placement pour les mises en page verticales et horizontales**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valeur par défaut de la page  <br/> |**visPLOPlaceDepthDefault** <br/> |
-| 0,1  <br/> | Moyen  <br/> |**visPLOPlaceDepthMedium** <br/> |
-| n°2  <br/> | Développée  <br/> |**visPLOPlaceDepthDeep** <br/> |
-| 3  <br/> | Partielle  <br/> |**visPLOPlaceDepthShallow** <br/> |
+| 1   <br/> | Moyen  <br/> |**visPLOPlaceDepthMedium** <br/> |
+| 2   <br/> | Deep  <br/> |**visPLOPlaceDepthDeep** <br/> |
+| 3   <br/> | Superficiel  <br/> |**visPLOPlaceDepthShallow** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -39,7 +39,7 @@ Pour obtenir une référence à la cellule PlaceDepth à l'aide d'un index à pa
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPageLayout** <br/> |
 | Index de la cellule :  <br/> |**visPLOPlaceDepth** <br/> |
    

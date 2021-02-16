@@ -1,5 +1,5 @@
 ---
-title: Surveillance des modifications de l'état de connexion à l'aide d'un complément d'État hors connexion
+title: Surveillance des changements d’état de connexion à l’aide d’un add-in d’état hors connexion
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,26 +13,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431301"
 ---
-# <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Surveillance des modifications de l'état de connexion à l'aide d'un complément d'État hors connexion
+# <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Surveillance des changements d’état de connexion à l’aide d’un add-in d’état hors connexion
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avant de pouvoir utiliser un complément d'État hors connexion pour surveiller les changements d'état de connexion, vous devez implémenter des fonctions pour configurer et initialiser le complément. Pour plus d'informations, consultez la rubrique [configuration d'un complément d'État hors connexion](setting-up-an-offline-state-add-in.md).
+Avant de pouvoir utiliser un add-in d’état hors connexion pour surveiller les changements d’état de connexion, vous devez implémenter des fonctions pour configurer et initialiser le module. Pour plus d’informations, voir [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md).
   
-Après avoir configuré le complément d'État hors connexion, vous devez utiliser la fonction **[HrOpenOfflineObj](hropenofflineobj.md)** pour obtenir un objet hors connexion. À l'aide de cet objet hors connexion, vous pouvez initialiser votre moniteur d'État, puis obtenir et définir l'état actuel. 
+Après avoir installé le add-in d’état hors connexion, vous devez utiliser la fonction **[HrOpenOfflineObj](hropenofflineobj.md)** pour obtenir un objet hors connexion. À l’aide de cet objet hors connexion, vous pouvez initialiser votre moniteur d’état, puis obtenir et définir l’état actuel. 
   
-Dans cette rubrique, ces fonctions d'analyse d'État sont démontrées à l'aide d'exemples de code de l'exemple de complément d'État hors connexion. L'exemple de complément d'État hors connexion est un complément COM qui ajoute un menu d' **État hors** connexion à Outlook et utilise l'API d'État hors connexion. Dans le menu **État hors connexion** , vous pouvez activer ou désactiver l'analyse de l'État, vérifier l'état actuel et modifier l'état actuel. Pour plus d’informations sur le téléchargement et l’installation de l’exemple de complément d’état hors connexion, reportez-vous à l’article [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md). Pour plus d’informations sur l’API d’état hors connexion, reportez-vous à l’article [À propos de l’API d’état hors connexion](about-the-offline-state-api.md).
+Dans cette rubrique, ces fonctions d’analyse d’état sont démontrées à l’aide d’exemples de code de l’exemple de add-in d’état hors connexion. L’exemple de compl?ment d’état hors connexion est un compl?ment COM qui ajoute un **menu** d’état hors connexion dans Outlook et utilise l’API d' ment hors ligne. Dans le menu **État** hors connexion, vous pouvez activer ou désactiver la surveillance de l’état, vérifier l’état actuel et modifier l’état actuel. Pour plus d’informations sur le téléchargement et l’installation de l’exemple de complément d’état hors connexion, reportez-vous à l’article [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md). Pour plus d’informations sur l’API d’état hors connexion, reportez-vous à l’article [À propos de l’API d’état hors connexion](about-the-offline-state-api.md).
   
-Lorsque le complément d’état hors connexion est déconnecté, vous devez implémenter des fonctions pour l’arrêter et le nettoyer correctement. Pour plus d'informations, consultez la rubrique [déconnexion d'un complément d'État hors connexion](disconnecting-an-offline-state-add-in.md).
+Lorsque le complément d’état hors connexion est déconnecté, vous devez implémenter des fonctions pour l’arrêter et le nettoyer correctement. Pour plus d’informations, voir [Disconnecting an Offline State Add-in](disconnecting-an-offline-state-add-in.md).
   
-## <a name="open-offline-object-routine"></a>Ouvrir la routine d'objet hors connexion
+## <a name="open-offline-object-routine"></a>Routine Ouvrir l’objet hors connexion
 
-Pour que le client soit informé lorsqu'un changement d'état de connexion se produit, vous devez appeler la fonction **[HrOpenOfflineObj](hropenofflineobj.md)** . Cette fonction ouvre un objet hors connexion qui prend en charge **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. La fonction **HrOpenOfflineObj** est définie dans le fichier d'en-tête ConnectionState. h. 
+Pour que le client soit averti en cas de changement d’état de connexion, vous devez appeler la fonction **[HrOpenOfflineObj.](hropenofflineobj.md)** Cette fonction ouvre un objet hors connexion qui prend en charge **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. La **fonction HrOpenOfflineObj** est définie dans le fichier d’en-tête ConnectionState.h. 
   
 > [!NOTE]
-> La fonction **HrOpenOfflineObj** est déclarée dans le fichier d'en-tête ImportProcs. `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;`h de la manière suivante:. 
+> La **fonction HrOpenOfflineObj** est déclarée dans le fichier d’en-tête ImportProcs.h comme suit  `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;` : 
   
-### <a name="hropenofflineobj-example"></a>Exemple de HrOpenOfflineObj
+### <a name="hropenofflineobj-example"></a>Exemple HrOpenOfflineObj
 
 ```cpp
 typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)( 
@@ -44,11 +44,11 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 );
 ```
 
-## <a name="initialize-monitor-routine"></a>Initialiser la routine de surveillance
+## <a name="initialize-monitor-routine"></a>Routine Initialize Monitor
 
-La `InitMonitor` fonction appelle la fonction **HrOpenOfflineObj** . La `InitMonitor` fonction appelle **CMyOfflineNotify** afin qu'Outlook puisse envoyer des notifications de rappel au client et enregistre le rappel par le biais de `AdviseInfo`la variable **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** .
+La `InitMonitor` fonction appelle la fonction **HrOpenOfflineObj.** La `InitMonitor` fonction appelle **CMyOfflineNotify** afin qu’Outlook puisse envoyer des notifications de rappel au client et enregistre le rappel via la variable **[MAPIOFFLINE_ADVISEINFO.](mapioffline_adviseinfo.md)** `AdviseInfo`
   
-### <a name="initmonitor-example"></a>Exemple de InitMonitor ()
+### <a name="initmonitor-example"></a>Exemple InitMonitor()
 
 ```cpp
 void InitMonitor(LPCWSTR szProfile) 
@@ -115,11 +115,11 @@ void InitMonitor(LPCWSTR szProfile)
 }
 ```
 
-## <a name="get-current-state-routine"></a>Obtenir la routine d'état actuel
+## <a name="get-current-state-routine"></a>Obtenir la routine d’état actuel
 
-La `GetCurrentState` fonction appelle la fonction **HrOpenOfflineObj** , puis utilise l'objet Offline pour obtenir l'état de connexion actuel. L'état actuel est renvoyé dans la `ulCurState` variable, qui est utilisée dans la `CButtonEventHandler::Click` fonction pour afficher l'état actuel à l'utilisateur. 
+La  `GetCurrentState` fonction appelle la fonction **HrOpenOfflineObj,** puis utilise l’objet hors connexion pour obtenir l’état de connexion actuel. L’état actuel est renvoyé dans la variable, qui est utilisée dans la fonction pour afficher  `ulCurState`  `CButtonEventHandler::Click` l’état actuel à l’utilisateur. 
   
-### <a name="getcurrentstate-example"></a>Exemple de GetCurrentState ()
+### <a name="getcurrentstate-example"></a>Exemple GetCurrentState()
 
 ```cpp
 ULONG (LPCWSTR szProfile) 
@@ -172,11 +172,11 @@ ULONG (LPCWSTR szProfile)
 }
 ```
 
-## <a name="set-current-state-routine"></a>Définir la routine d'état actuel
+## <a name="set-current-state-routine"></a>Définir la routine d’état actuel
 
-La `SetCurrentState` fonction appelle la fonction **HrOpenOfflineObj** , puis utilise l'objet Offline pour définir l'état de connexion actuel. La `CButtonEventHandler::Click` fonction appelle la `SetCurrentState` fonction et le nouvel État est transmis par le biais `ulState` de la variable. 
+La  `SetCurrentState` fonction appelle la fonction **HrOpenOfflineObj,** puis utilise l’objet hors connexion pour définir l’état de connexion actuel. La  `CButtonEventHandler::Click` fonction appelle la fonction et le nouvel état est transmis par le biais de la  `SetCurrentState`  `ulState` variable. 
   
-### <a name="setcurrentstate-example"></a>Exemple de SetCurrentState ()
+### <a name="setcurrentstate-example"></a>Exemple SetCurrentState()
 
 ```cpp
 HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState) 
@@ -241,9 +241,9 @@ HRESULT SetCurrentState(LPCWSTR szProfile, ULONG ulFlags, ULONG ulState)
 
 ## <a name="notification-routine"></a>Routine de notification
 
-La fonction **[IMAPIOfflineNotify:: Notify](imapiofflinenotify-notify.md)** est utilisée par Outlook pour envoyer des notifications à un client lorsqu'il y a des modifications apportées à l'état de connexion. 
+La **[fonction IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** est utilisée par Outlook pour envoyer des notifications à un client en cas de modifications de l’état de connexion. 
   
-### <a name="cmyofflinenotifynotify-example"></a>CMyOfflineNotify:: Notify () exemple
+### <a name="cmyofflinenotifynotify-example"></a>Exemple CMyOfflineNotify::Notify()
 
 ```cpp
 void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo) 
@@ -312,5 +312,5 @@ void CMyOfflineNotify::Notify(const MAPIOFFLINE_NOTIFY *pNotifyInfo)
 - [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md)
 - [À propos de l’exemple de complément d’état hors connexion](about-the-sample-offline-state-add-in.md)
 - [Configuration d’un complément d’état hors connexion](setting-up-an-offline-state-add-in.md)
-- [Déconnexion d'un complément d'État hors connexion](disconnecting-an-offline-state-add-in.md)
+- [Déconnexion d’un add-in d’état hors connexion](disconnecting-an-offline-state-add-in.md)
 

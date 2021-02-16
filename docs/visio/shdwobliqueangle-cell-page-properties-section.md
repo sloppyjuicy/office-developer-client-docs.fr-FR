@@ -24,7 +24,7 @@ Contient une valeur indiquant l'angle de la direction oblique lors de l'applicat
 
 Une valeur de zéro (0) dans cette cellule indique que la direction de l'angle est verticale et mesurée dans le sens des aiguilles d'une montre.
   
- L'angle décrit dans cette cellule est utilisé chaque fois que la cellule ShapeShdwType (le type d'ombre d'une forme sur la page) est définie sur page default (**visFSTPageDefault** ) et que le type d'ombre est oblique. Le type d'ombre par défaut de la page est défini dans la cellule ShdwType. 
+ L’angle décrit dans cette cellule est utilisé chaque fois que la cellule ShapeShdwType (le type d’ombre d’une forme sur la page) est définie sur Page Default (**visFSTPageDefault** ), et que le type d’ombre est oblique. Le type d'ombre par défaut de la page est défini dans la cellule ShdwType. 
   
 Pour définir ce comportement pour une forme individuelle, utilisez la cellule ShapeShdwObliqueAngle dans la section Fill Format.
   
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule ShdwObliqueAngle par index dans un pr
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPage** <br/> |
 | Index de la cellule :  <br/> |**visPageShdwObliqueAngle** <br/> |
    

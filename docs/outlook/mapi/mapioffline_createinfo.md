@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429564"
 ---
-# <a name="mapiofflinecreateinfo"></a>MAPIOFFLINE_CREATEINFO
+# <a name="mapioffline_createinfo"></a>MAPIOFFLINE_CREATEINFO
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette structure est utilisée avec [HrCreateOfflineObj](hrcreateofflineobj.md).
+Cette structure est utilisée [avec HrCreateOfflineObj](hrcreateofflineobj.md).
   
 ```cpp
 typedef struct
@@ -47,7 +47,7 @@ typedef struct
     
  **ulCreateFlags**
   
-> Il doit être égal à 0.
+> Elle doit être 0.
     
  **pwszProfileName**
   
@@ -59,28 +59,28 @@ typedef struct
     
 |||
 |:-----|:-----|
-|MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |L'objet hors connexion est capable de se déconnecter.  <br/> |
-|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |L'objet hors connexion peut être mis en ligne.  <br/> |
+|MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |L’objet hors connexion est capable de passer hors connexion.  <br/> |
+|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |L’objet hors connexion est capable de passer en ligne.  <br/> |
    
  **pGUID**
   
-> Pointeur vers un GUID qui est utilisé pour identifier de manière unique ce type d'objet hors connexion à partir d'autres objets hors connexion. GUID_GlobalState fait référence à l'objet global hors connexion que les objets peuvent utiliser en tant qu'objet parent.
+> Pointeur vers un GUID utilisé pour identifier de manière unique ce type d’objet hors connexion à partir d’autres objets hors connexion. GUID_GlobalState fait référence à l’objet hors connexion global que les objets peuvent utiliser comme objet parent.
     
  **pInstance**
   
-> Pointeur vers le GUID qui identifie de manière unique cet objet hors connexion. Il est utilisé pour lever l'ambiguïté de ces objets hors connexion d'autres objets.
+> Pointeur vers le GUID qui identifie de manière unique cet objet hors connexion. Il est utilisé pour déconnecter ces objets hors connexion des autres objets.
     
  **pParent**
   
-> Pointeur vers un objet hors connexion qui est le parent de cet objet hors connexion et dont les modifications sont héritées par cet objet hors connexion.
+> Pointeur vers l’objet hors connexion qui est le parent de cet objet hors connexion et dont cet objet hors connexion héritera des modifications.
     
  **pMAPISupport**
   
->  Identifie l'objet de prise en charge MAPI qui utilisera cet objet hors connexion. Par exemple, si cet objet hors connexion est utilisé pour assurer le suivi de l'état hors connexion et en ligne d'une banque, il s'agit alors de l'objet de prise en charge des magasins. Toutefois, s'il s'agit d'un objet hors connexion pour un objet sans objet de prise en charge, il peut être NULL. 
+>  Identifie l’objet de prise en charge MAPI qui utilisera cet objet hors connexion. Par exemple, si cet objet hors connexion est utilisé pour suivre l’état hors connexion et en ligne d’un magasin, il s’agit de l’objet de prise en charge des magasins. Toutefois, s’il s’agit d’un objet hors connexion pour un objet sans objet de prise en charge, il peut être NULL. 
     
  **pAggregateInfo**
   
-> Pointeur vers une structure MAPIOFFLINE_AGGREGATEINFO. Pour plus d'informations, consultez la rubrique [MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).
+> Pointeur vers une structure MAPIOFFLINE_AGGREGATEINFO de base. Pour plus d’informations, [voir MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md).
     
  **pConnectInfo**
   

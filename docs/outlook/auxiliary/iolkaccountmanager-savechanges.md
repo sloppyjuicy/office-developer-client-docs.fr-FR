@@ -33,7 +33,7 @@ HRESULT IOlkAccountManager::SaveChanges (
 
 _dwAcctID_
   
-> dans ID de compte à enregistrer. 
+> [in] ID de compte à enregistrer. 
     
 _dwFlags_
   
@@ -43,13 +43,13 @@ _dwFlags_
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |L'appel a réussi  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est introuvable.  <br/> |
+|S_OK  <br/> |L’appel a réussi  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est in found.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Après avoir modifié la valeur des propriétés de compte à l'aide de [IOlkAccount:: SetProp](iolkaccount-setprop.md), utilisez **IOlkAccountManager:: SaveChanges** ou [IOlkAccount:: SaveChanges](iolkaccount-savechanges.md) pour enregistrer ces modifications. 
+Après avoir changé la valeur des propriétés du compte à l’aide [d’IOlkAccount::SetProp](iolkaccount-setprop.md), utilisez **IOlkAccountManager::SaveChanges** ou [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) pour enregistrer ces modifications. 
   
 ## <a name="see-also"></a>Voir aussi
 

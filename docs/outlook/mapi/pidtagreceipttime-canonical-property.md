@@ -25,7 +25,7 @@ ms.locfileid: "33432183"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la date et l'heure auxquelles un rapport de remise est généré.
+Contient la date et l’heure à laquelle une rapport de remise est généré.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient la date et l'heure auxquelles un rapport de remise est généré.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie par le fournisseur de banque de messages recevant le message d'origine et générant le rapport. 
+Cette propriété doit être définie par le fournisseur de la boutique de messages qui reçoit le message d’origine et génère le rapport. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Utiliser des solutions hors ligne à l'aide du modèle objet InfoPath
+title: Utiliser des solutions hors connexion à l’aide du modèle objet InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429242"
 ---
-# <a name="work-with-offline-solutions-using-the-infopath-object-model"></a>Utiliser des solutions hors ligne à l'aide du modèle objet InfoPath
+# <a name="work-with-offline-solutions-using-the-infopath-object-model"></a>Utiliser des solutions hors connexion à l’aide du modèle objet InfoPath
 
 Le modèle objet compatible InfoPath 2003 contient la propriété [MachineOnlineState](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.MachineOnlineState.aspx) de l'objet [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) qui permet au code de votre formulaire de vérifier si l'ordinateur de l'utilisateur est connecté au réseau. Le code de formulaire peut effectuer différentes actions en fonction de l'état de la connexion. 
   
@@ -35,9 +35,9 @@ Cet exemple part du principe que vous avez créé un formulaire de rapports de v
     
 4. Dans l' **Assistant Connexion de données**, cliquez sur **Envoi des données**, puis sur **Suivant**.
     
-5. Sur la page suivante de l'Assistant, cliquez sur **en tant que message électronique**, puis cliquez sur **suivant**.
+5. Sur la page suivante de l’Assistant, cliquez **sur En tant que message électronique,** puis sur **Suivant**.
     
-6. Sur la page suivante de l'Assistant, tapez votre adresse de messagerie dans la zone **à** . 
+6. Sur la page suivante de l’Assistant, tapez votre adresse de messagerie dans la **zone À.** 
     
 7. Dans la zone de texte **Objet**, effectuez les opérations suivantes pour combiner la période de ventes avec le texte « Rapport de ventes » : 
     
@@ -57,7 +57,7 @@ Cet exemple part du principe que vous avez créé un formulaire de rapports de v
     
 8. Dans l'Assistant, cliquez sur **Suivant**.
     
-9. Sur la page suivante de l'Assistant, tapez «envoi par courrier électronique» dans la zone **Entrez un nom pour cette connexion de données** , puis cliquez sur **Terminer**.
+9. Sur la page suivante de l’Assistant,  tapez « Envoyer un courrier électronique » dans la zone Entrez un nom pour cette connexion de données, puis cliquez sur **Terminer.**
     
 ### <a name="add-logic-for-submitting-the-form-depending-on-the-connected-state-of-a-users-computer"></a>Ajouter une logique d'envoi du formulaire en fonction de l'état de la connexion de l'ordinateur de l'utilisateur
 
@@ -119,7 +119,7 @@ Cet exemple part du principe que vous avez créé un formulaire de rapports de v
     
 4. Dans Internet Explorer, cliquez sur **Travailler hors connexion** dans le menu **Fichier**. 
     
-5. Dans InfoPath, cliquez sur **Envoyer**. Vous devez voir apparaître un message indiquant que le formulaire sera envoyé sous forme de message électronique.
+5. Dans InfoPath, cliquez sur **Envoyer**. Vous devriez voir un message vous messageant que le formulaire sera envoyé sous la forme d’un message électronique.
     
 6. Cliquez sur **Envoyer**. Vous devez voir apparaître un message indiquant que le formulaire a été envoyé hors connexion.
     

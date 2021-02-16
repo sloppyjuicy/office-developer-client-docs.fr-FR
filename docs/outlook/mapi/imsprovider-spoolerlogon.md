@@ -25,7 +25,7 @@ ms.locfileid: "33430573"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Enregistre le spouleur MAPI sur une banque de messages.
+Connecte lepooler MAPI à une magasin de messages.
   
 ```cpp
 HRESULT SpoolerLogon(
@@ -48,67 +48,67 @@ HRESULT SpoolerLogon(
 
  _lpMAPISup_
   
-> dans Pointeur vers l'objet de prise en charge MAPI pour la Banque de messages.
+> [in] Pointeur vers l’objet de support MAPI pour la magasin de messages.
     
  _ulUIParam_
   
-> dans Handle de la fenêtre parente de toutes les boîtes de dialogue ou fenêtres que cette méthode affiche. 
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode. 
     
  _lpszProfileName_
   
-> dans Pointeur vers une chaîne qui contient le nom du profil utilisé pour la connexion du spouleur MAPI. Cette chaîne peut être affichée dans les boîtes de dialogue, écrites dans un fichier journal ou simplement ignorée. Elle doit être au format Unicode si l'indicateur MAPI_UNICODE est défini dans le paramètre _ulFlags_ . 
+> [in] Pointeur vers une chaîne qui contient le nom du profil utilisé pour la logo dupooler MAPI. Cette chaîne peut être affichée dans des boîtes de dialogue, écrite dans un fichier journal ou simplement ignorée. Elle doit être au format Unicode si l’MAPI_UNICODE est définie dans le _paramètre ulFlags._ 
     
  _cbEntryID_
   
-> dans Taille, en octets, de l'identificateur d'entrée pointé par le paramètre _lpEntryID_ . 
+> [in] Taille, en octets, de l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
     
  _lpEntryID_
   
-> dans Pointeur vers l'identificateur d'entrée pour la Banque de messages. Le fait de transmettre NULL dans le paramètre _lpEntryID_ indique qu'une banque de messages n'a pas encore été sélectionnée et que les boîtes de dialogue permettant à l'utilisateur de sélectionner une banque de messages peuvent être présentées. 
+> [in] Pointeur vers l’identificateur d’entrée de la boutique de messages. La transmission de la valeur NULL dans le paramètre  _lpEntryID_ indique qu’une magasin de messages n’a pas encore été sélectionnée et que les boîtes de dialogue qui permettent à l’utilisateur de sélectionner une magasin de messages peuvent être présentées. 
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle le mode d'exécution de l'ouverture de session. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle l’utilisation de l’logo. Les indicateurs suivants peuvent être définies :
     
 MAPI_DEFERRED_ERRORS 
   
-> L'appel est autorisé même si l'objet sous-jacent n'est pas disponible pour l'implémentation de l'appel. Si l'objet n'est pas disponible, un appel ultérieur à l'objet peut déclencher une erreur.
+> L’appel est autorisé à réussir même si l’objet sous-jacent n’est pas disponible pour l’implémentation de l’appelant. Si l’objet n’est pas disponible, un appel ultérieur à l’objet peut occasioner une erreur.
     
 MAPI_UNICODE 
   
-> Les chaînes transmises sont au format Unicode. Si MAPI_UNICODE n'est pas défini, les chaînes sont au format ANSI.
+> Les chaînes transmises sont au format Unicode. Si MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI.
     
 MDB_NO_DIALOG 
   
-> Empêche l'affichage des boîtes de dialogue d'ouverture de session. Si cet indicateur est défini, la valeur d'erreur MAPI_E_LOGON_FAILED est renvoyée si l'ouverture de session échoue. Si cet indicateur n'est pas défini, le fournisseur de banque de messages peut demander à l'utilisateur de corriger un nom ou un mot de passe, d'insérer un disque ou d'effectuer d'autres actions nécessaires pour établir une connexion à la Banque.
+> Empêche l’affichage des boîtes de dialogue d’affichage. Si cet indicateur est définie, la valeur d’MAPI_E_LOGON_FAILED’erreur est renvoyée si l’échec de la logon. Si cet indicateur n’est pas définie, le fournisseur de la boutique de messages peut inviter l’utilisateur à corriger un nom ou un mot de passe, à insérer un disque ou à effectuer d’autres actions nécessaires pour établir une connexion à la boutique.
     
 MDB_WRITE 
   
-> Demande une autorisation en lecture/écriture.
+> Demande une autorisation de lecture/écriture.
     
  _lpInterface_
   
-> dans Pointeur vers l'identificateur d'interface (IID) pour la Banque de messages à laquelle se connecter. La transmission de la valeur NULL indique que l'interface MAPI pour la Banque de messages ([IMsgStore](imsgstoreimapiprop.md)) est renvoyée. Le paramètre _lpInterface_ peut également être défini sur un identificateur pour une interface appropriée pour la Banque de messages (par exemple IID_IUnknown ou IID_IMAPIProp). 
+> [in] Pointeur vers l’identificateur d’interface (IID) de connexion à la boutique de messages. La transmission de la valeur NULL indique que l’interface MAPI pour la magasin de messages ([IMsgStore](imsgstoreimapiprop.md)) est renvoyée. Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface appropriée pour la magasin de messages (par exemple, IID_IUnknown ou IID_IMAPIProp). 
     
  _cbSpoolSecurity_
   
-> dans Pointeur vers la taille, en octets, des données de validation dans le paramètre _lppbSpoolSecurity_ . 
+> [in] Pointeur vers la taille, en octets, des données de validation dans _le paramètre lppbSpoolSecurity._ 
     
  _lpbSpoolSecurity_
   
-> dans Pointeur vers un pointeur vers des données de validation. La méthode **SpoolerLogon** utilise ces données pour enregistrer le spouleur MAPI sur le même magasin que le fournisseur de banque de messages précédemment connecté à l'aide de la méthode [IMSProvider:: Logon](imsprovider-logon.md) . 
+> [in] Pointeur vers un pointeur vers des données de validation. La méthode **SpoolerLogon** utilise ces données pour connecter lepooler MAPI à la même boutique que le fournisseur de magasins de messages précédemment connecté à l’aide de la méthode [IMSProvider::Logon.](imsprovider-logon.md) 
     
  _lppMAPIError_
   
-> remarquer Pointeur vers un pointeur vers la structure [MAPIERROR](mapierror.md) renvoyée, le cas échéant, qui contient des informations de version, de composant et de contexte pour une erreur. Le paramètre _lppMAPIError_ peut être défini sur null s'il n'existe aucune structure **MAPIERROR** à renvoyer. 
+> [out] Pointeur vers un pointeur vers la structure [MAPIERROR](mapierror.md) renvoyée, le caser, qui contient des informations de version, de composant et de contexte pour une erreur. Le  _paramètre lppMAPIError_ peut avoir la valeur NULL s’il n’existe aucune structure **MAPIERROR** à renvoyer. 
     
  _lppMSLogon_
   
-> remarquer Pointeur vers le pointeur vers l'objet d'ouverture de session de la Banque de messages pour que MAPI ouvre une session.
+> [out] Pointeur vers le pointeur vers l’objet d’ouverture de session de la boutique de messages pour que MAPI se connecte.
     
  _lppMDB_
   
-> remarquer Pointeur vers le pointeur vers l'objet de la Banque de messages pour le spouleur MAPI et les applications clientes auxquelles se connecter.
+> [out] Pointeur vers le pointeur vers l’objet de magasin de messages pour lepooler MAPI et les applications clientes à connecter.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -118,19 +118,19 @@ S_OK
     
 MAPI_E_UNCONFIGURED 
   
-> Le profil ne contient pas suffisamment d'informations pour que la connexion soit terminée. Lorsque cette valeur est renvoyée, MAPI appelle la fonction de point d'entrée du service de messagerie du fournisseur de banque d'messages.
+> Le profil ne contient pas suffisamment d’informations pour que la logon soit terminée. Lorsque cette valeur est renvoyée, MAPI appelle la fonction de point d’entrée du service de messagerie du fournisseur de messages.
     
 MAPI_W_ERRORS_RETURNED 
   
-> L'appel a réussi, mais le fournisseur de banque de messages contient des informations d'erreur disponibles. Lorsque cet avertissement est renvoyé, l'appel doit être géré comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED** . Pour plus d'informations, consultez la rubrique [utilisation des macros pour la gestion des erreurs](using-macros-for-error-handling.md). Pour obtenir les informations d'erreur du fournisseur, appelez la méthode [IMAPISession:: GetLastError](imapisession-getlasterror.md) . 
+> L’appel a réussi, mais des informations d’erreur sont disponibles pour le fournisseur de la boutique de messages. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md) Pour obtenir les informations d’erreur du fournisseur, appelez la méthode [IMAPISession::GetLastError.](imapisession-getlasterror.md) 
     
 ## <a name="remarks"></a>Remarques
 
-Le spouleur MAPI appelle la méthode **IMSProvider:: SpoolerLogon** pour se connecter à une banque de messages. Le spouleur MAPI doit utiliser l'objet de banque de messages renvoyé par le fournisseur de banque de messages dans le paramètre _lppMDB_ pendant et après l'ouverture de session. 
+Lepooler MAPI appelle la méthode **IMSProvider::SpoolerLogon** pour se connecter à une magasin de messages. Lepooler MAPI doit utiliser l’objet de banque de messages renvoyé par le fournisseur de banque de messages dans le paramètre  _lppMDB_ pendant et après l’ouverture de connecté. 
   
-Pour des opérations de cohérence avec la méthode [IMSProvider:: Logon](imsprovider-logon.md) , le fournisseur renvoie également un objet Logon de banque de messages dans le paramètre _lppMSLogon_ . L'utilisation de l'objet Store et de l'objet Logon est identique pour une ouverture de session de magasin classique; il doit y avoir une correspondance un-à-un entre l'objet d'ouverture de session et l'objet Store de sorte que les objets agissent comme s'il s'agissait d'un objet qui expose deux interfaces. Les deux objets sont créés ensemble et libérés ensemble. 
+Pour des raisons de cohérence avec la méthode [IMSProvider::Logon,](imsprovider-logon.md) le fournisseur renvoie également un objet d’ouverture de messagerie dans le paramètre _lppMSLogon._ L’utilisation de l’objet store et de l’objet d’ouverture de ligne est identique pour l’ouverture de magasin habituelle . il doit y avoir une correspondance un-à-un entre l’objet d’ouverture de ligne et l’objet store afin que les objets agissent comme s’il s’agit d’un objet qui expose deux interfaces. Les deux objets sont créés ensemble et libérés ensemble. 
   
-Le fournisseur de banque d'aide doit marquer en interne l'objet de banque de messages renvoyé pour indiquer que la Banque est utilisée par le spouleur MAPI. Certaines des méthodes de cet objet Store se comportent différemment de celle de l'objet de banque de messages fourni aux applications clientes. Le fait de garder cette marque interne est le moyen le plus courant de déclencher le comportement spécifique au spouleur MAPI.
+Le fournisseur de magasin doit marquer en interne l’objet de magasin de messages renvoyé pour indiquer que la boutique est utilisée par lepooler MAPI. Certaines méthodes de cet objet store se comportent différemment de l’objet de magasin de messages fourni aux applications clientes. Conserver cette marque interne est le moyen le plus courant de déclencher le comportement spécifique aupooler MAPI.
   
 ## <a name="see-also"></a>Voir aussi
 

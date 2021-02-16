@@ -1,5 +1,5 @@
 ---
-title: Création d'un profil
+title: Création d’un profil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432687"
 ---
-# <a name="creating-a-profile"></a>Création d'un profil
+# <a name="creating-a-profile"></a>Création d’un profil
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un client peut créer un profil de l'une des deux façons suivantes, à l'aide de l'Assistant Profil ou en écrivant du code personnalisé.
+Un client peut créer un profil de deux manières : à l’aide de l’Assistant Profil ou en écrivant du code personnalisé.
   
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
-[Création d'un profil à l'aide de l'Assistant Profil](creating-a-profile-by-using-the-profile-wizard.md)
+[Création d’un profil à l’aide de l’Assistant Profil](creating-a-profile-by-using-the-profile-wizard.md)
   
-> Décrit comment appeler l'Assistant Profil, une application qui crée un profil en permettant à l'utilisateur de choisir les services de messagerie et les fournisseurs de services de manière interactive.
+> Décrit comment appeler l’Assistant Profil, une application qui crée un profil en permettant à l’utilisateur de choisir les services de messagerie et les fournisseurs de services de manière interactive.
     
-[Création d'un profil à l'aide d'un code personnalisé](creating-a-profile-by-using-custom-code.md)
+[Création d’un profil à l’aide de code personnalisé](creating-a-profile-by-using-custom-code.md)
   
-> Décrit comment écrire du code C ou C++, souvent le meilleur choix pour les applications clientes non interactives qui nécessitent un ensemble spécifique de services de messagerie.
+> Décrit comment écrire du code C ou C++, souvent le meilleur choix pour les applications clientes noninteractives qui nécessitent un ensemble spécifique de services de message.
     
 

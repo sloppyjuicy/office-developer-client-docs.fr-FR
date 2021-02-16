@@ -19,41 +19,41 @@ ms.locfileid: "33432715"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le spouleur MAPI est une fonction du processus Microsoft Office Outlook responsable de l'envoi et de la réception de messages à partir d'un système de messagerie. Le spouleur MAPI joue un rôle vital dans la réception et la remise des messages. Lorsqu'un système de messagerie est indisponible, le spouleur MAPI stocke les messages et les transfère automatiquement ultérieurement. Cette possibilité de conserver ou d'envoyer des données lorsque cela est nécessaire est appelée Store et Forward, une fonctionnalité essentielle dans les environnements où les connexions distantes sont courantes et où le trafic réseau est élevé. Le spouleur MAPI s'exécute comme un thread d'arrière-plan dans Outlook.
+Lepooler MAPI est une fonction du processus Microsoft Office Outlook qui est responsable de l’envoi et de la réception de messages à partir d’un système de messagerie. Lepooler MAPI joue un rôle vital dans la réception et la remise des messages. Lorsqu’un système de messagerie n’est pas disponible, lepooler MAPI stocke les messages et les a automatiquement transmis ultérieurement. Cette possibilité de conserver ou d’envoyer des données lorsque cela est nécessaire est appelée stocker et transmettre, une fonctionnalité essentielle dans les environnements où les connexions distantes sont courantes et où le trafic réseau est élevé. Lepooler MAPI s’exécute en tant que thread d’arrière-plan dans Outlook.
   
-Le spouleur MAPI dispose de responsabilités supplémentaires liées à la distribution des messages. Ces droits supplémentaires sont les suivants:
+Lepooler MAPI a des responsabilités supplémentaires liées à la distribution des messages. Ces tâches supplémentaires sont les suivantes :
   
-- Assurer le suivi des types de destinataires qui sont gérés par des fournisseurs de transport spécifiques.
+- Suivi des types de destinataires gérés par des fournisseurs de transport spécifiques.
     
-- Informer une application cliente lorsqu'un nouveau message a été remis.
+- Informer une application cliente lorsqu’un nouveau message a été remis.
     
-- Appel du prétraitement des messages et du post-traitement.
+- L’facturation du prétraitment et du post-traitement des messages.
     
-- Génération de rapports indiquant que la remise des messages s'est produite.
+- Génération de rapports qui indiquent que la remise du message s’est produite.
     
-- Gestion de l'état des destinataires traités.
+- Maintien de l’état sur les destinataires traitées.
     
-L'illustration suivante montre à un niveau élevé le flux d'un message d'un client vers le système de messagerie.
+L’illustration suivante montre à un niveau élevé comment un message circule d’un client vers le système de messagerie.
   
 **Flux de message sortant**
   
-![Flux de messages sortants] (media/amapi_46.gif "Flux de messages sortants")
+![Flux de messages sortants](media/amapi_46.gif "Flux de messages sortants")
   
-L'utilisateur d'une application cliente envoie un message à un ou plusieurs destinataires. Le fournisseur de banque de messages lance le processus d'envoi, en mettant en forme le message avec des informations supplémentaires nécessaires pour la transmission.
+L’utilisateur d’une application cliente envoie un message à un ou plusieurs destinataires. Le fournisseur de la boutique de messages lance le processus d’envoi, en formatant le message avec des informations supplémentaires nécessaires à la transmission.
   
-Le spouleur MAPI reçoit le message à traiter si l'une des conditions suivantes se produit:
+Lepooler MAPI reçoit le message à traiter si l’une des conditions suivantes se produit :
   
-- Le fournisseur de banque de messages n'est pas étroitement couplé à un fournisseur de transport.
+- Le fournisseur de magasin de messages n’est pas étroitement associé à un fournisseur de transport.
     
-- Le message doit être prétraité.
+- Le message nécessite un prétraitment.
     
-- La Banque de messages et le fournisseur de transport sont étroitement couplés, mais ils ne peuvent pas gérer tous les destinataires auxquels le message est adressé.
+- La magasin de messages et le fournisseur de transport sont étroitement associés, mais ils ne peuvent pas gérer tous les destinataires auxquels le message est adressé.
     
-Si le spouleur MAPI reçoit le message, il effectue tout prétraitement requis et remet le message au fournisseur de transport approprié. Le fournisseur de transport transmet le message à son système de messagerie, qui l'envoie à son destinataire.
+Si lepooler MAPI reçoit le message, il effectue tout prétraitage requis et le remettre au fournisseur de transport approprié. Le fournisseur de transport envoie le message à son système de messagerie, qui l’envoie à son destinataire prévu.
   
-Avec les messages entrants, le flux est inversé. Le fournisseur de transport reçoit un message de son système de messagerie et avertit le spouleur MAPI. Spooler effectue le post-traitement nécessaire et informe le fournisseur de banque de messages qu'un nouveau message est arrivé. Cette notification fait en sorte que le client actualise son affichage de messages, ce qui permet à l'utilisateur de lire le nouveau message.
+Avec les messages entrants, le flux est inversé. Le fournisseur de transport reçoit un message de son système de messagerie et avertit lepooler MAPI. Spooler effectue tout post-traitement nécessaire et informe le fournisseur de la boutique de messages qu’un nouveau message est arrivé. Cette notification entraîne l’actualisation de l’affichage du message par le client, ce qui permet à l’utilisateur de lire le nouveau message.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Architecture et fonctionnalités MAPI](mapi-features-and-architecture.md)
+- [Fonctionnalités et architecture MAPI](mapi-features-and-architecture.md)
 

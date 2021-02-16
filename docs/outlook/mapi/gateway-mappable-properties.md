@@ -19,28 +19,28 @@ ms.locfileid: "33430475"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les propriétés pouvant être mappées par une passerelle sont des propriétés qui peuvent nécessiter une traduction lorsqu'elles sont envoyées d'un domaine de messagerie à un autre. Les propriétés pouvant être mappées par la passerelle MAPI permettent aux messages d'inclure des informations qui nécessitent une passerelle pour s'assurer que le système de messagerie de destination l'utilise correctement. Bien que les développeurs de passerelles ne soient pas tenus de fournir cette fonctionnalité de traduction, ils doivent envisager des propriétés mappées sur les passerelles pour améliorer la gestion du contenu des messages.
+Les propriétés de passerelle mappables sont des propriétés qui peuvent nécessiter une traduction lorsqu’elles sont envoyées d’un domaine de messagerie à un autre. Les propriétés mappables de passerelle MAPI permettent aux messages d’inclure des informations qui nécessitent une passerelle pour s’assurer que le système de messagerie de destination les utilise correctement. Bien que les développeurs de passerelles ne soient pas obligés de fournir cette fonctionnalité de traduction, ils doivent considérer les propriétés de passerelle mappables comme une opportunité d’améliorer la gestion du contenu des messages.
   
-MAPI spécifie cinq types de propriétés mappées sur la passerelle:
+MAPI spécifie cinq types de propriétés de passerelle mappables :
   
 - Nom unique (DN)
     
 - Nom complet
     
-- Type de courrier électronique
+- Type d’e-mail
     
-- Identificateur d'entrée
+- Identificateur d’entrée
     
 - Clé de recherche
     
-Il s'agit de l'ensemble des propriétés d'adressage associées aux destinataires, aux expéditeurs, aux destinataires des rapports, ainsi qu'aux expéditeurs et destinataires délégués. Pour aider votre client à définir ces propriétés de sorte qu'une passerelle les gère spécialement, MAPI spécifie une convention d'affectation de noms à l'aide de propriétés nommées et de jeux de propriétés. Cinq jeux de propriétés existent pour contenir les propriétés nommées, les propriétés d'adressage qui nécessitent un mappage. Il existe un jeu de propriétés pour chaque type de propriété mappable. Les jeux de propriétés qui contiendront ces propriétés d'adressage nommées sont les suivants.
+Il s’agit de l’ensemble des propriétés d’adressan associées aux destinataires, aux expéditeurs, aux destinataires de rapport et aux expéditeurs et destinataires délégués. Pour aider votre client à définir ces propriétés afin qu’une passerelle les gère spécialement, MAPI spécifie une convention d’attribution de noms à l’aide de propriétés nommées et de jeux de propriétés. Il existe cinq jeux de propriétés pour contenir des propriétés nommées, les propriétés d’adressamage qui nécessitent un mappage. Il existe un jeu de propriétés pour chaque type de propriété mappable. Les jeux de propriétés qui vont contenir ces propriétés d’adressamage nommées sont les suivants.
   
 |**Jeu de propriétés**|**Description**|
 |:-----|:-----|
-|PS_ROUTING_DISPLAY_NAME  <br/> |Contient les propriétés de chaîne utilisées en tant que noms complets.  <br/> |
-|PS_ROUTING_EMAIL_ADDRESSES  <br/> |Contient les propriétés de chaîne utilisées en tant qu'adresses de messagerie.  <br/> |
-|PS_ROUTING_ADDRTYPE  <br/> |Contient les propriétés de chaîne utilisées comme types d'adresses de messagerie.  <br/> |
-|PS_ROUTING_ENTRYID  <br/> |Contient les propriétés binaires utilisées en tant qu'identificateurs d'entrée à long terme.  <br/> |
-|PS_ROUTING_SEARCH_KEY  <br/> |Contient les propriétés binaires utilisées en tant que clés de recherche.  <br/> |
+|PS_ROUTING_DISPLAY_NAME  <br/> |Contient des propriétés de chaîne utilisées comme noms d’affichage.  <br/> |
+|PS_ROUTING_EMAIL_ADDRESSES  <br/> |Contient des propriétés de chaîne utilisées comme adresses de messagerie.  <br/> |
+|PS_ROUTING_ADDRTYPE  <br/> |Contient des propriétés de chaîne utilisées comme types d’adresse de messagerie.  <br/> |
+|PS_ROUTING_ENTRYID  <br/> |Contient des propriétés binaires utilisées comme identificateurs d’entrée à long terme.  <br/> |
+|PS_ROUTING_SEARCH_KEY  <br/> |Contient des propriétés binaires utilisées comme clés de recherche.  <br/> |
    
 

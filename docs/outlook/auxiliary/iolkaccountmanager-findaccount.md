@@ -34,22 +34,22 @@ HRESULT IOlkAccountManager::FindAccount (
 
 _dwProp_
   
-> dans Propriété sur laquelle porte la recherche. Doit être [PROP_ACCT_ID](prop_acct_id.md) ou [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
+> [in] Propriété sur qui effectuer la recherche. Doit être [PROP_ACCT_ID](prop_acct_id.md) ou [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
     
 _pVar_
   
-> dans Valeur à respecter.
+> [in] Valeur à mettre en correspondance.
     
 _ppAccount_
   
-> remarquer Le compte trouvé. Cet objet prend en charge une interface [IOlkAccount](iolkaccount.md) . 
+> [out] Compte trouvé. Cet objet prend en charge une interface [IOlkAccount.](iolkaccount.md) 
     
 ## <a name="return-values"></a>Valeurs de retour
 
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est introuvable.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est in found.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
 |E_OLK_PARAM_NOT_SUPPORTED  <br/> |Un ou plusieurs paramètres ne sont pas valides.  <br/> |
    

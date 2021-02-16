@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - ExcelCursorProc
 keywords:
-- fonction ExcelCursorProc [Excel 2007]
+- fonction excelcursorproc [excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33432491"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Lorsqu'une boîte de dialogue modale est affichée sur la fenêtre Microsoft Excel, le curseur est occupé sur la fenêtre Excel. Cette **WndProc** intercepte les messages Windows de type WM_SETCURSOR et replace le curseur sur une flèche normale. 
+Lorsqu’une boîte de dialogue modale est affichée sur la fenêtre Microsoft Excel, le curseur est un curseur occupé au-dessus de la fenêtre Excel. Ce **WndProc** capture les WM_SETCURSOR messages Windows et modifie le curseur en flèche normale. 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
@@ -34,23 +34,23 @@ LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lPa
   
 Contient le handle Windows HWND de la boîte de dialogue.
   
- _message_ (**Uint**)
+ _message_ (**UINT**)
   
-Message auquel répondre.
+Message à répondre.
   
- _wParam_ (**WParam**)
+ _wParam_ (**WPARAM**)
   
- _lParam_ (**LParam**)
+ _lParam_ (**LPARAM**)
   
-Arguments passés par Windows.
+Arguments transmis par Windows.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-LRESULT: 0 si le message a été géré, sinon le résultat retourné par la valeur **WndProc**par défaut.
+LRESULT : 0 si le message a été géré, sinon le résultat renvoyé par **le WndProc par défaut**.
   
 ### <a name="example"></a>Exemple
 
-Voir `\SAMPLES\GENERIC\GENERIC.C` pour obtenir le code source de cette fonction. 
+Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

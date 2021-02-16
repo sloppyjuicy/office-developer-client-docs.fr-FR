@@ -25,7 +25,7 @@ ms.locfileid: "33432603"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Force tous les messages en attente d'être envoyés ou reçus pour être immédiatement téléchargés ou téléchargés. L'objet d'État du spouleur MAPI et les objets d'État que les fournisseurs de transport implémentent prennent en charge cette méthode.
+Force le téléchargement immédiat de tous les messages en attente d’envoi ou de réception. L’objet d’état dupooler MAPI et les objets d’état implémentés par les fournisseurs de transport la prise en charge de cette méthode.
   
 ```cpp
 HRESULT FlushQueues(
@@ -40,69 +40,69 @@ HRESULT FlushQueues(
 
  _ulUIParam_
   
-> dans Handle de la fenêtre parente des boîtes de dialogue ou des fenêtres que cette méthode affiche.
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode.
     
  _cbTargetTransport_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpTargetTransport_ . Le paramètre _cbTargetTransport_ est défini uniquement sur les appels vers l'objet d'État du spouleur MAPI. Pour les appels à un fournisseur de transport, le paramètre _cbTargetTransport_ est défini sur 0. 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpTargetTransport._ Le  _paramètre cbTargetTransport_ est uniquement définie sur les appels à l’objet d’état dupooler MAPI. Pour les appels à un fournisseur de transport, le  _paramètre cbTargetTransport_ est définie sur 0. 
     
  _lpTargetTransport_
   
-> dans Pointeur vers l'identificateur d'entrée du fournisseur de transport qui doit vider ses files d'attente de messages. Le paramètre _lpTargetTransport_ est défini uniquement sur les appels vers l'objet d'État du spouleur MAPI. Pour les appels à un fournisseur de transport, le paramètre _lpTargetTransport_ est défini sur null. 
+> [in] Pointeur vers l’identificateur d’entrée du fournisseur de transport qui doit vider ses files d’attente de messages. Le  _paramètre lpTargetTransport_ est uniquement définie sur les appels à l’objet d’état dupooler MAPI. Pour les appels à un fournisseur de transport,  _le paramètre lpTargetTransport_ est définie sur NULL. 
     
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle l'opération de vidage. Les indicateurs suivants peuvent être définis:
+> [in] Masque de bits d’indicateurs qui contrôle l’opération de purge. Les indicateurs suivants peuvent être définies :
     
 FLUSH_ASYNC_OK 
   
-> L'opération de vidage peut être effectuée de manière asynchrone. Cet indicateur s'applique uniquement à l'objet d'État du spouleur MAPI. 
+> L’opération de purge peut se produire de manière asynchrone. Cet indicateur s’applique uniquement à l’objet d’état dupooler MAPI. 
     
 FLUSH_DOWNLOAD 
   
-> Les files d'attente de messages entrants doivent être vidées.
+> Les files d’attente de messages entrants doivent être vidées.
     
 FLUSH_FORCE 
   
-> L'opération de vidage doit avoir lieu indépendamment du risque de diminution des performances. Cet indicateur doit être défini lorsqu'un fournisseur de transport asynchrone est ciblé.
+> L’opération de purge doit avoir lieu, malgré le risque de diminution des performances. Cet indicateur doit être définie lorsqu’un fournisseur de transport asynchrone est ciblé.
     
 FLUSH_NO_UI 
   
-> L'objet Status ne doit pas afficher d'indicateur de progression.
+> L’objet d’état ne doit pas afficher d’indicateur de progression.
     
 FLUSH_UPLOAD 
   
-> Les files d'attente de messages sortants doivent être vidées.
+> Les files d’attente de messages sortantes doivent être vidées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'opération de vidage a réussi.
+> L’opération de purge a réussi.
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours; il doit être autorisé à se terminer ou doit être arrêté, avant que cette opération puisse être lancée.
+> Une autre opération est en cours ; Il doit être autorisé à se terminer, ou doit être arrêté, avant que cette opération puisse être lancée.
     
 MAPI_E_NO_SUPPORT 
   
-> L'objet Status ne prend pas en charge cette opération, comme indiqué par l'absence de l'indicateur STATUS_FLUSH_QUEUES dans la propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) de l'objet Status.
+> L’objet status ne prend pas en charge cette opération, comme indiqué par l’absence de l’indicateur STATUS_FLUSH_QUEUES dans la propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) de l’objet d’état.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPIStatus:: FlushQueues** demande que le spouleur MAPI ou un fournisseur de transport envoie immédiatement tous les messages dans la file d'attente sortante ou reçoit tous les messages de la file d'attente entrante. **FlushQueues** est implémenté uniquement par l'objet d'État du spouleur MAPI et par les objets d'état fournis par les fournisseurs de transport. 
+La méthode **IMAPIStatus::FlushQueues** demande aupooler MAPI ou à un fournisseur de transport d’envoyer immédiatement tous les messages de la file d’attente sortante ou de recevoir tous les messages de la file d’attente entrante. **FlushQueues est** implémenté uniquement par l’objet d’état dupooler MAPI et par les objets d’état que les fournisseurs de transport fournissent. 
   
-MAPI_E_BUSY doit être renvoyé pour les demandes asynchrones afin que les clients puissent continuer à travailler. 
+MAPI_E_BUSY les demandes asynchrones doivent être renvoyées afin que les clients continuent à travailler. 
   
-Par défaut, **FlushQueues** est une opération synchrone; le contrôle ne retourne pas à l'appelant tant que le vidage n'est pas terminé. Seule l'opération de vidage effectuée par le spouleur MAPI peut être asynchrone; les clients demandent ce comportement en définissant l'indicateur FLUSH_ASYNC_OK. 
+Par défaut, **FlushQueues est** une opération synchrone ; ne revient pas à l’appelant tant que le purgement n’est pas terminé. Seule l’opération de purge effectuée par lepooler MAPI peut être asynchrone ; les clients demandent ce comportement en FLUSH_ASYNC_OK’indicateur. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L'implémentation d'un fournisseur de transport distant **FlushQueues** définit les bits dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la ligne d'état de l'objet Logon pour contrôler la façon dont les files d'attente sont vidées. Si une visionneuse distante réussit l'indicateur FLUSH_UPLOAD, la méthode **FlushQueues** doit définir les bits STATUS_INBOUND_ENABLED et STATUS_INBOUND_ACTIVE. Si une visionneuse distante réussit l'indicateur FLUSH_DOWNLOAD, la méthode **FlushQueues** doit définir les bits STATUS_OUTBOUND_ENABLED et STATUS_OUTBOUND_ACTIVE. **FlushQueues** doit ensuite renvoyer S_OK. Le spouleur MAPI lance ensuite les actions appropriées pour le chargement et le téléchargement des messages. 
+L’implémentation de **FlushQueues** par un fournisseur de transport distant définit des bits dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la ligne d’état de l’objet d’authentification pour contrôler la façon dont les files d’attente sont vidées. Si une visionneuse distante passe dans l’indicateur FLUSH_UPLOAD, la méthode **FlushQueues** doit définir les STATUS_INBOUND_ENABLED et STATUS_INBOUND_ACTIVE bits. Si une visionneuse distante passe dans l’indicateur FLUSH_DOWNLOAD, la méthode **FlushQueues** doit définir les bits STATUS_OUTBOUND_ENABLED et STATUS_OUTBOUND_ACTIVE distants. **FlushQueues** doit ensuite renvoyer S_OK. Lepooler MAPI lancera ensuite les actions appropriées pour charger et télécharger des messages. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Un appel à l'objet d'État du spouleur MAPI est une directive permettant de transférer tous les messages vers ou à partir du fournisseur de transport approprié. Lorsque vous appelez l'objet d'état d'un fournisseur de transport individuel, seuls les messages de ce fournisseur sont affectés.
+Un appel à l’objet d’état dupooler MAPI est une directive qui consiste à transférer tous les messages vers ou depuis le fournisseur de transport approprié. Lorsque vous appelez l’objet d’état d’un fournisseur de transport individuel, seuls les messages de ce fournisseur sont affectés.
   
 ## <a name="see-also"></a>Voir aussi
 

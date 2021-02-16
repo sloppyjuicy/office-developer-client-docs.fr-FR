@@ -25,12 +25,12 @@ ms.locfileid: "33429039"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [ADRLIST](adrlist.md) existante. 
+Calcule le nombre d’octets dans une structure [ADRLIST](adrlist.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée  <br/> |**ADRLIST** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 CbADRLIST (_lpadrlist)
@@ -38,7 +38,7 @@ CbADRLIST (_lpadrlist)
 
 ## <a name="parameters"></a>Paramètres
 
- __lpadrlist_
+ _ _lpadrlist_
   
 > Pointeur vers la structure **ADRLIST** existante. 
     

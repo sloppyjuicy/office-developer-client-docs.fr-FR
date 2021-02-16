@@ -25,13 +25,13 @@ ms.locfileid: "33430678"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de point d'entrée du fournisseur de services que l'Assistant Profil appelle pour récupérer suffisamment d'informations pour afficher les feuilles de propriétés de configuration du fournisseur. 
+Définit une fonction de point d’entrée de fournisseur de services que l’Assistant Profil appelle pour récupérer suffisamment d’informations pour afficher les feuilles de propriétés de configuration du fournisseur. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiwz. h  <br/> |
-|Fonction définie implémentée par:  <br/> |Fournisseurs de services  <br/> |
-|Fonction définie appelée par:  <br/> |Assistant Profil MAPI  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiwz.h  <br/> |
+|Fonction définie implémentée par :  <br/> |Fournisseurs de services  <br/> |
+|Fonction définie appelée par :  <br/> |Assistant Profil MAPI  <br/> |
    
 ```cpp
 ULONG WIZARDENTRY(
@@ -47,23 +47,23 @@ ULONG WIZARDENTRY(
 
  _hProviderDLLInstance_
   
-> dans Handle d'instance de la DLL du fournisseur de services. 
+> [in] Handle d’instance de la DLL du fournisseur de services. 
     
  _lpcsResourceName_
   
-> remarquer Pointeur vers une chaîne qui contient le nom complet de la ressource de boîte de dialogue qui doit être affichée par l'Assistant Profil lors de la configuration. La taille maximale de la chaîne, y compris la marque de fin NULL, est de 32 caractères. 
+> [out] Pointeur vers une chaîne qui contient le nom complet de la ressource de boîte de dialogue qui doit être affichée par l’Assistant Profil pendant la configuration. La taille maximale de la chaîne, y compris le terminateur NULL, est de 32 caractères. 
     
  _lppDlgProc_
   
-> remarquer Pointeur vers une procédure de boîte de dialogue Windows standard appelée par l'Assistant Profil pour informer le fournisseur de divers événements. 
+> [out] Pointeur vers une procédure de boîte de dialogue Windows standard qui sera appelée par l’Assistant Profil pour notifier le fournisseur de différents événements. 
     
  _lpMAPIProp_
   
-> dans Pointeur vers une implémentation d'interface de propriété qui fournit l'accès aux propriétés de configuration. 
+> [in] Pointeur vers une implémentation d’interface de propriétés qui donne accès aux propriétés de configuration. 
     
  _lpMapiSupportObject_
   
-> dans Pointeur vers l'objet de prise en charge MAPI applicable à cette session.
+> [in] Pointeur vers l’objet de support MAPI applicable à cette session.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -73,20 +73,20 @@ S_OK
     
 MAPI_E_CALL_FAILED 
   
-> Une erreur d'origine inattendue ou inconnue a empêché l'opération de s'exécuter.
+> Une erreur d’origine inattendue ou inconnue a empêché l’exécution de l’opération.
     
 ## <a name="remarks"></a>Remarques
 
-L'Assistant Profil appelle la fonction basée sur **WIZARDENTRY** lorsqu'elle est prête à afficher l'interface utilisateur de configuration du fournisseur de services. Une fois que l'Assistant Profil a terminé la configuration de tous les fournisseurs, il écrit les propriétés de configuration dans le profil en appelant [IMsgServiceAdmin:: ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
+L’Assistant Profil appelle **la fonction BASÉE SUR WIZARDENTRY** lorsqu’il est prêt à afficher l’interface utilisateur de configuration du fournisseur de services. Lorsque l’Assistant Profil a terminé de configurer tous les fournisseurs, il écrit les propriétés de configuration dans le profil en appelant [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Le nom de la fonction basée sur **WIZARDENTRY** doit être placé dans l'entrée WIZARD_ENTRY_NAME dans le fichier MAPISVC. inf. 
+Le nom de la **fonction WIZARDENTRY** doit être placé dans l’entrée WIZARD_ENTRY_NAME dans MAPISVC.INF. 
   
-Le nom de la ressource est celui de la ressource de boîte de dialogue qui sera affichée dans le volet de l'Assistant Profil. La ressource qui est passée doit contenir toutes les pages dans une seule ressource de boîte de dialogue. Lorsque l'Assistant Profil reçoit cette ressource, il ignore le style de la boîte de dialogue, mais pas les styles de contrôle, et crée tous les contrôles en tant qu'enfants de la page de l'Assistant Profil. Tous les contrôles sont initialement masqués. Les fournisseurs doivent s'assurer que les coordonnées de leurs contrôles sont zéro ou de base zéro, et qu'ils ne dépassent pas une largeur maximale de 200 unités de boîte de dialogue et une hauteur maximale de 150 unités de boîte de dialogue. Les identificateurs de contrôle inférieurs à 400 sont réservés à l'Assistant Profil. L'Assistant Profil affiche le titre du fournisseur en texte gras au-dessus de l'interface utilisateur du fournisseur. 
+Le nom de la ressource est celui de la ressource de boîte de dialogue qui sera rendue dans le volet de l’Assistant Profil. La ressource qui est passée en arrière doit contenir toutes les pages dans une seule ressource de boîte de dialogue. Lorsque l’Assistant Profil reçoit cette ressource, il ignore le style de la boîte de dialogue, mais pas les styles de contrôle, et crée tous les contrôles en tant qu’enfants de la page Assistant Profil. Tous les contrôles sont initialement masqués. Les fournisseurs doivent s’assurer que les coordonnées de leurs contrôles sont de base zéro ou zéro, et qu’ils ne dépassent pas une largeur maximale de 200 unités de boîte de dialogue et une hauteur maximale de 150 unités de boîte de dialogue. Les identificateurs de contrôle inférieurs à 400 sont réservés à l’Assistant Profil. L’Assistant Profil affiche le titre du fournisseur en gras au-dessus de l’interface utilisateur du fournisseur. 
   
-Le pointeur d'interface de propriété fourni dans le paramètre _lpMAPIProp_ doit être conservé par le fournisseur pour référence ultérieure. L'Assistant Profil traite uniquement le jeu de propriétés le plus simple et le fournisseur peut utiliser l'implémentation de l'interface de propriétés pour inclure des propriétés supplémentaires. Lors de la configuration, les fournisseurs doivent ajouter leurs propriétés de configuration à l'objet qui implémente l'interface de propriété. Une fois que tous les fournisseurs ont été configurés, l'Assistant Profil ajoute ces propriétés au profil. 
+Le pointeur d’interface de propriétés fourni dans le paramètre  _lpMAPIProp_ doit être conservé par le fournisseur pour référence ultérieure. L’Assistant Profil traite uniquement de l’ensemble de propriétés le plus élémentaire, et le fournisseur peut utiliser l’implémentation de l’interface de propriétés pour inclure des propriétés supplémentaires. Pendant la configuration, les fournisseurs doivent ajouter leurs propriétés de configuration à l’objet qui implémente l’interface de propriétés. Une fois tous les fournisseurs configurés, l’Assistant Profil ajoute ces propriétés au profil. 
   
-Pour plus d'informations sur l'utilisation de cette fonction, voir [prise en charge](supporting-message-service-configuration.md)de la configuration du service de messagerie. 
+Pour plus d’informations sur l’utilisation de cette fonction, voir Prise en charge [de la configuration du service de message.](supporting-message-service-configuration.md) 
   
 

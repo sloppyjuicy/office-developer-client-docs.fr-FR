@@ -30,14 +30,14 @@ Pour obtenir une référence à la cellule Format par un nom à partir d'une aut
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | Fields. format [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+| Nom de cellule :  <br/> | Fields.Format[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Format à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionTextField** <br/> |
-| Index de la ligne :  <br/> |**visRowField** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowField**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visFieldFormat** <br/> |
    
 

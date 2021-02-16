@@ -1,5 +1,5 @@
 ---
-title: Répondre aux événements de formulaire à l'aide du modèle objet InfoPath 2003
+title: Répondre aux événements de formulaire à l’aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433492"
 ---
-# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Répondre aux événements de formulaire à l'aide du modèle objet InfoPath 2003
+# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Répondre aux événements de formulaire à l’aide du modèle objet InfoPath 2003
 
 Vous pouvez écrire du code pour répondre à différents événements qui se produisent lorsqu'un utilisateur remplit un formulaire. Pour utiliser des événements dans InfoPath, vous créez des gestionnaires d'événements dans le Concepteur InfoPath.
   
 Les gestionnaires d'événements InfoPath doivent être créés dans le Concepteur InfoPath car, lors de l'utilisation du modèle objet compatible InfoPath 2003, InfoPath ajoute automatiquement la déclaration appropriée et applique un attribut ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) dans le fichier de code de formulaire (FormCode.cs ou FormCode.vb) pour identifier et réceptionner le gestionnaire d'événements. Après avoir créé un gestionnaire d'événements, vous ne devez pas modifier sa déclaration et son attribut dans le fichier de code du formulaire. 
   
-Pour plus d'informations sur la création de gestionnaires d'événements InfoPath, voir [Ajouter un gestionnaire d'événements à l'aide du modèle objet infopath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Pour plus d’informations sur la création des handlers d’événements InfoPath, voir [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="overview-of-the-event-objects"></a>Vue d'ensemble des objets d'événement
 
 Le modèle objet compatible InfoPath 2003 implémente neuf objets exposés dans l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . Le tableau ci-dessous contient une description de chacun des neuf événements InfoPath, en indiquant les gestionnaires d'événements qui lui sont associés. 
   
-|**Nom**|**Gestionnaires d’événements**|**Description**|
+|**Name**|**Gestionnaires d’événements**|**Description**|
 |:-----|:-----|:-----|
 |[DataDOMEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.aspx) <br/> |[OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx) <br/> [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) , [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) <br/> |Renvoie une référence au document XML sous-jacent d'un formulaire, le statut de renvoi et d'autres propriétés contenant des informations relatives au nœud XML lors d'un changement de DOM (Document Object Model) XML. Comprend également une méthode pour générer une erreur.  <br/> |
 |[DocActionEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent.aspx) <br/> |[OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) <br/> |Renvoie une référence au document XML sous-jacent d'un formulaire, le statut de renvoi et le nœud XML source lors d'un clic de bouton dans la zone du formulaire.  <br/> |

@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm60032
 localization_priority: Normal
 ms.assetid: c1e3d7bf-e6b6-65f1-ae40-80c8ba4821cd
-description: Valeur RVB qui représente la couleur attribuée au balisage d'un réviseur de document.
+description: Valeur RVB qui représente la couleur affectée au code d’un réviseur de documents.
 ms.openlocfilehash: d9df6605ca6c8a22353978b9483989ecfc08130d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33430538"
 ---
 # <a name="color-cell-reviewer-section"></a>Color, cellule (section Reviewer)
 
-Valeur RVB qui représente la couleur attribuée au balisage d'un réviseur de document. 
+Valeur RVB qui représente la couleur affectée au code d’un réviseur de documents. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -30,14 +30,14 @@ Pour obtenir une référence à la cellule Color par un nom à partir d'une autr
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Reviewer. Color [ *i* ] où *i* = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Reviewer.Color [  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Color à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionReviewer** <br/> |
-| Index de la ligne :  <br/> |**visRowReviewer** +  *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowReviewer**  +   *i* où *i* = 0, 1, 2...  <br/> |
 | Index de la cellule :  <br/> |**visReviewerColor** <br/> |
    
 

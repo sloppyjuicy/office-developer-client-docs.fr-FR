@@ -21,17 +21,17 @@ ms.locfileid: "33433107"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une restriction permet de limiter le nombre de lignes d'un affichage aux seules lignes dont les valeurs correspondent à des critères spécifiques. Il existe de nombreuses opportunités différentes pour l'utilisation de restrictions avec des tables. Les applications clientes peuvent utiliser des restrictions, par exemple, pour filtrer une table de contenu pour les messages envoyés par une personne particulière, pour rechercher des lignes qui ne prennent pas en charge une propriété ou ont défini une propriété sur une valeur spécifique, ou pour rechercher des destinataires en double dans un Message. 
+Une restriction est un moyen de limiter le nombre de lignes dans un affichage aux seules lignes avec des valeurs pour les colonnes qui correspondent à des critères spécifiques. Il existe de nombreuses possibilités d’utilisation des restrictions avec des tableaux. Les applications clientes peuvent utiliser des restrictions, par exemple, pour filtrer une table des matières pour les messages envoyés par une personne particulière, pour rechercher des lignes qui ne prenons pas en charge une propriété ou qui ont fixé une valeur spécifique à une propriété, ou pour rechercher des destinataires en double dans un message. 
   
-Les méthodes [IMAPITable](imapitable-restrict.md) :: Restrict et [IMAPITable:: FindRow](imapitable-findrow.md) permettent de définir des restrictions sur une table. **** La méthode Restrict applique la restriction à la table sans récupérer de ligne. Pour récupérer uniquement les lignes qui satisfont à la restriction, un appel suivant à [IMAPITable:: QueryRows](imapitable-queryrows.md) ou une méthode similaire est requise. **FindRow** applique la restriction et récupère la première ligne du tableau qui correspond aux critères. **FindRow** applique une restriction temporaire, qui existe uniquement pendant la durée de l'appel, tandis que **restrict** applique une restriction permanente plus permanente. 
+Les [méthodes IMAPITable::Restrict](imapitable-restrict.md) et [IMAPITable::FindRow](imapitable-findrow.md) sont utilisées pour définir des restrictions sur une table. **Restrict** applique la restriction au tableau sans récupérer de lignes. Pour récupérer uniquement les lignes qui répondent à la restriction, un appel ultérieur à [IMAPITable::QueryRows](imapitable-queryrows.md) ou à une méthode similaire est requis. **FindRow** applique la restriction et récupère la première ligne du tableau qui correspond aux critères. **FindRow** applique une restriction temporaire, qui n’existe que pour la durée de l’appel, tandis que **Restrict** applique une restriction plus permanente. 
   
-Certains clients peuvent créer une restriction à l'aide de colonnes qui ne figurent pas dans le jeu de colonnes actuel. La prise en charge d'une restriction de ce type est facultative et les implémenteurs de tableau qui le prennent en charge ajoutent une valeur ajoutée, en particulier pour les tables des matières. Les implémenteurs de tableau qui ne le prennent pas en charge peuvent renvoyer la **** valeur MAPI_E_TOO_COMPLEX à partir d'un appel de la propriété restrict ou de la valeur MAPI_E_NOT_FOUND à partir d'un appel **FindRow** . 
+Certains clients peuvent créer une restriction à l’aide de colonnes qui ne sont pas dans le jeu de colonnes actuel. La prise en charge d’une telle restriction est facultative et les implémenteurs de tableau qui la prisent en charge ajoutent de la valeur, en particulier pour les tables des matières. Les implémenteurs de tableau qui ne la prisent pas en charge peuvent renvoyer la valeur MAPI_E_TOO_COMPLEX d’un appel Restrict ou la valeur MAPI_E_NOT_FOUND d’un **appel FindRow.**  
   
-Les clients doivent savoir que, même si le fournisseur prend en charge les restrictions sur les colonnes qui ne figurent pas dans le jeu de colonnes actuel, il obtiendra de meilleures performances globales en spécifiant les colonnes qu'ils entendent utiliser dans leurs restrictions avec la fonction [IMAPITable:: SetColumns](imapitable-setcolumns.md) .
+Les clients doivent savoir que, même si le fournisseur prend en charge les restrictions sur les colonnes qui ne font pas l’ensemble de colonnes actuel, ils obtiennent de meilleures performances globales en spécifiant les colonnes qu’ils ont l’intention d’utiliser dans leurs restrictions avec [IMAPITable::SetColumns](imapitable-setcolumns.md).
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Tables MAPI](mapi-tables.md)
+[MAPI Tables](mapi-tables.md)
 

@@ -25,7 +25,7 @@ ms.locfileid: "33430447"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-ConVertit l'identificateur d'entrée interne d'une banque de messages en un identificateur d'entrée au format MAPI standard.
+Convertit l’identificateur d’entrée interne d’une boutique de messages en identificateur d’entrée au format mapi standard.
   
 ```cpp
 HRESULT WrapStoreEntryID(
@@ -40,37 +40,37 @@ LPENTRYID FAR * lppWrappedEntry
 
  _cbOrigEntry_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpOrigEntry_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpOrigEntry._ 
     
  _lpOrigEntry_
   
-> dans Pointeur vers l'identificateur d'entrée privée de la Banque de messages.
+> [in] Pointeur vers l’identificateur d’entrée privée de la banque de messages.
     
  _lpcbWrappedEntry_
   
-> remarquer Pointeur vers le nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lppWrappedEntry_ . 
+> [out] Pointeur vers le nombre d’byte dans l’identificateur d’entrée pointé par _le paramètre lppWrappedEntry._ 
     
  _lppWrappedEntry_
   
-> remarquer Pointeur vers un pointeur vers l'identificateur d'entrée encapsulée.
+> [out] Pointeur vers un pointeur vers l’identificateur d’entrée wrapped.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'identificateur d'entrée a été correctement encapsulé.
+> L’identificateur d’entrée a été correctement wrapped.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: WrapStoreEntryID** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services utilisent **WrapStoreEntryID** pour qu'MAPI génère un identificateur d'entrée pour une banque de messages qui encapsule l'identificateur d'entrée interne de la Banque. 
+La **méthode IMAPISupport::WrapStoreEntryID** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services **utilisent WrapStoreEntryID** pour que MAPI génère un identificateur d’entrée pour une magasin de messages qui encapsule l’identificateur d’entrée interne de la boutique. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsqu'un client appelle la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) de votre magasin de messages pour récupérer sa propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) et que votre banque de messages utilise un identificateur d'entrée dans un format privé, appelez **WrapStoreEntryID **et renvoyer l'identificateur d'entrée pointé par le paramètre _lppWrappedEntry_ . 
+Lorsqu’un client appelle la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) de votre banque de messages pour récupérer sa propriété **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)), et que votre banque de messages utilise un identificateur d’entrée dans un format privé, appelez **WrapStoreEntryID** et renvoyez l’identificateur d’entrée pointé par le paramètre _lppWrappedEntry._ 
   
-Les appels aux méthodes [IMSProvider:: Logon](imsprovider-logon.md) et [IMSLogon:: CompareEntryIDs](imslogon-compareentryids.md) obtiennent toujours l'identificateur d'entrée privé de la Banque; la version incluse dans un wrapper est utilisée uniquement entre les applications clientes et MAPI. 
+Les appels aux méthodes [IMSProvider::Logon](imsprovider-logon.md) et [IMSLogon::CompareEntryIDs](imslogon-compareentryids.md) obtiennent toujours l’identificateur d’entrée privée du magasin ; La version wrapped est utilisée uniquement entre les applications clientes et MAPI. 
   
-Libérez de la mémoire pour l'identificateur d'entrée désigné par le paramètre _lppWrappedEntry_ à l'aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsque vous avez terminé d'utiliser l'identificateur d'entrée. 
+Libérez la mémoire de l’identificateur d’entrée pointé par le paramètre  _lppWrappedEntry_ à l’aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsque vous avez terminé d’utiliser l’identificateur d’entrée. 
   
 ## <a name="see-also"></a>Voir aussi
 

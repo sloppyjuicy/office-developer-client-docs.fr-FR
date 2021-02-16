@@ -25,30 +25,30 @@ ms.locfileid: "33428787"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la sous-catégorie d'un formulaire, telle qu'elle est définie par une application cliente. 
+Contient la sous-catégorie d’un formulaire, telle que définie par une application cliente. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W  <br/> |
 |Identificateur :  <br/> |0x3305  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont subordonnées à la catégorie de formulaire principale fournie dans la propriété **PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
+Ces propriétés sont subordonnées à la catégorie de formulaire principale fournie dans la **propriété PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

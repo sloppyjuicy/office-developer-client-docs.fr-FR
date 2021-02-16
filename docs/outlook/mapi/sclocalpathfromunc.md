@@ -25,11 +25,11 @@ ms.locfileid: "33432232"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Localise un chemin d'accès local équivalent au chemin d'accès UNC (Universal Naming Convention) donné. 
+Recherche un chemin d’accès local équivalent au chemin d’accès UNC (Universal Naming Convention) donné. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -45,33 +45,33 @@ SCODE ScLocalPathFromUNC(
 
  _szUNC_
   
-> dans Un chemin d'accès au \\format [ _Server_]\[ _share_]\[ _path_] d'un fichier ou d'un répertoire.
+> [in] Un chemin d’accès au format \\ [ _serveur_] \[ _partage_] \[ _chemin_] d’un fichier ou d’un répertoire.
     
  _szLocal_
   
-> remarquer Un chemin d'accès au format [ _lecteur:_]\[ _chemin d'accès_] du même fichier ou répertoire que le paramètre _szUNC_ . 
+> [out] Chemin d’accès au format [ _lecteur :_] chemin ] du même fichier ou répertoire que pour le \[ paramètre _szUNC._ 
     
  _cchLocal_
   
-> dans Taille de la mémoire tampon pour la chaîne de sortie.
+> [in] Taille de la mémoire tampon pour la chaîne de sortie.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Un chemin d'accès local a été correctement localisé.
+> Un chemin d’accès local a été localisé.
     
 MAPI_E_TOO_BIG
   
->  _szLocal_ n'était pas assez grand pour contenir le résultat. 
+>  _szLocal n’était_ pas assez grand pour contenir le résultat. 
     
 S_FALSE
   
-> La chaîne UNC était déjà un chemin d'accès local.
+> La chaîne UNC était déjà un chemin d’accès local.
     
 MAPI_E_NOT_FOUND
   
-> Un chemin d'accès local est introuvable.
+> Un chemin d’accès local n’a pas été trouvé.
     
 ## <a name="see-also"></a>Voir aussi
 

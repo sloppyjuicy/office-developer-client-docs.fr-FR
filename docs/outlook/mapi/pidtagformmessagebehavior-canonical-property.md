@@ -25,30 +25,30 @@ ms.locfileid: "33432883"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur TRUE si un message doit être composé dans le dossier actif. 
+Contient TRUE si un message doit être composé dans le dossier actuel. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_FORM_MESSAGE_BEHAVIOR  <br/> |
 |Identificateur :  <br/> |0x330A  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |MAPI commun  <br/> |
+|Domaine :  <br/> |MAPI courant  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur FALSe indique que le message doit être composé de n'importe quel autre message interpersonnel, c'est-à-dire, dans le dossier boîte d'envoi. 
+La valeur FALSE indique que le message doit être composé comme tout autre message interpersonnel, c’est-à-dire, dans le dossier Boîte d’envoi. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

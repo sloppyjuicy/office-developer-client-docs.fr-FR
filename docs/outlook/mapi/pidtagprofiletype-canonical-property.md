@@ -25,38 +25,38 @@ ms.locfileid: "33433891"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le type de banque d'informations.
+Contient le type de magasin d’informations.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PROFILE_TYPE  <br/> |
 |Identificateur :  <br/> |0x660A  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Configuration du profil MAPI  <br/> |
+|Domaine :  <br/> |Configuration de profil MAPI  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Les valeurs possibles pour cette propriété sont les suivantes :
   
-- 1-utilisateur principal
+- 1 - Utilisateur principal
     
-- 2-déLéguer
+- 2 - Délégué
     
-- 3-Banque publique
+- 3 - Magasin public
     
-- 4-abonnement
+- 4 - Abonnement
     
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

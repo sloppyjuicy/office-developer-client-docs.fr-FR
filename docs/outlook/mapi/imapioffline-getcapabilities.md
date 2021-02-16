@@ -35,25 +35,25 @@ HRESULT GetCapabilities(
 
 ## <a name="parameters"></a>Paramètres
 
- _pulCapablities_
+ _OleCapablities_
   
-> remarquer Masque de masque des indicateurs de fonctionnalité suivants:
+> [out] Masque de bits des indicateurs de fonctionnalité suivants :
     
 MAPIOFFLINE_CAPABILITY_OFFLINE
   
-> L'objet hors connexion est capable de fournir des notifications hors connexion.
+> L’objet hors connexion est capable de fournir des notifications hors connexion.
     
 MAPIOFFLINE_CAPABILITY_ONLINE
   
-> L'objet hors connexion est capable de fournir des notifications en ligne.
+> L’objet hors connexion est capable de fournir des notifications en ligne.
     
 ## <a name="remarks"></a>Remarques
 
-Lors de l'ouverture d'un objet hors connexion à l'aide de **[HrOpenOfflineObj](hropenofflineobj.md)**, un client peut effectuer une requête sur [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) pour obtenir un pointeur vers une interface **IMAPIOffline** et appeler **IMAPIOffline:: GetCapabilities** pour connaître les rappels pris en charge par l'objet. Le client peut ensuite choisir de configurer les rappels à l'aide de **IMAPIOfflineMgr**.
+Lors de l’ouverture d’un objet hors connexion à l’aide de **[HrOpenOfflineObj,](hropenofflineobj.md)** un client peut interroger [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) pour obtenir un pointeur vers une interface **IMAPIOffline** et appeler **IMAPIOffline::GetCapabilities** pour rechercher les rappels pris en charge par l’objet. Le client peut ensuite choisir de configurer des rappels à l’aide **d’IMAPIOfflineMgr**.
   
-Notez que, en fonction du serveur de messagerie d'un objet hors connexion, un objet qui prend en charge les rappels de mise en ligne ne prend pas nécessairement en charge les rappels pour le passage en mode hors connexion.
+Notez que, selon le serveur de messagerie d’un objet hors connexion, un objet qui prend en charge les rappels pour la mise en ligne ne prend pas nécessairement en charge les rappels pour la mise hors connexion.
   
-Notez également que, bien qu'un objet hors connexion puisse prendre en charge des rappels pour les modifications autres que Online/Offline, l'API d'État hors connexion prend en charge uniquement les modifications en ligne/hors connexion, et les clients doivent vérifier uniquement ces fonctionnalités.
+Notez également que, bien qu’un objet hors connexion puisse prendre en charge les rappels pour les modifications autres que celles en ligne/hors connexion, l’API d’état hors connexion prend uniquement en charge les modifications en ligne/hors connexion, et les clients doivent vérifier uniquement ces fonctionnalités.
   
 ## <a name="see-also"></a>Voir aussi
 

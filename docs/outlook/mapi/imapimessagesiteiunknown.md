@@ -29,30 +29,30 @@ Manipule les messages et est implémenté par le code de la visionneuse de formu
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Exposé par:  <br/> |Objets de site de messagerie  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Exposé par :  <br/> |Objets de site de message  <br/> |
 |Implémenté par :  <br/> |Visionneuses de formulaires  <br/> |
 |Appelé par :  <br/> |Objets de formulaires  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMAPIMessageSite  <br/> |
-|Type de pointeur:  <br/> |LPMAPIMESSAGESITE  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIMessageSite  <br/> |
+|Type de pointeur :  <br/> |LPMAPIMESSAGESITE  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[GetSession](imapimessagesite-getsession.md) <br/> |Renvoie la session MAPI dans laquelle le message actif a été créé ou ouvert.  <br/> |
-|[GetStore](imapimessagesite-getstore.md) <br/> |Renvoie la Banque de messages qui contient le message actif, si ce type de magasin existe.  <br/> |
-|[GetFolder](imapimessagesite-getfolder.md) <br/> |Renvoie le dossier dans lequel le message actif a été créé ou ouvert, si ce dossier existe.  <br/> |
-|[GetMessage](imapimessagesite-getmessage.md) <br/> |Renvoie le message actif.  <br/> |
-|[GetFormManager](imapimessagesite-getformmanager.md) <br/> |Renvoie une interface du gestionnaire de formulaires, qu'un serveur de formulaires peut utiliser pour ouvrir un autre serveur de formulaires.  <br/> |
+|[GetSession](imapimessagesite-getsession.md) <br/> |Renvoie la session MAPI dans laquelle le message actuel a été créé ou ouvert.  <br/> |
+|[GetStore](imapimessagesite-getstore.md) <br/> |Renvoie la boutique de messages qui contient le message actuel, si une telle magasin existe.  <br/> |
+|[GetFolder](imapimessagesite-getfolder.md) <br/> |Renvoie le dossier dans lequel le message actuel a été créé ou ouvert, s’il existe un tel dossier.  <br/> |
+|[GetMessage](imapimessagesite-getmessage.md) <br/> |Renvoie le message actuel.  <br/> |
+|[GetFormManager](imapimessagesite-getformmanager.md) <br/> |Renvoie une interface de gestionnaire de formulaires, qu’un serveur de formulaires peut utiliser pour ouvrir un autre serveur de formulaires.  <br/> |
 |[NewMessage](imapimessagesite-newmessage.md) <br/> |Crée un message.  <br/> |
-|[CopyMessage](imapimessagesite-copymessage.md) <br/> |Copie le message actif dans un dossier.  <br/> |
-|[MoveMessage](imapimessagesite-movemessage.md) <br/> |Déplace le message actif vers un dossier.  <br/> |
-|[DeleteMessage](imapimessagesite-deletemessage.md) <br/> |Supprime le message actif.  <br/> |
-|[SaveMessage](imapimessagesite-savemessage.md) <br/> |Demande l'enregistrement du message actif.  <br/> |
-|[SubmitMessage](imapimessagesite-submitmessage.md) <br/> |Demande que le message en cours soit mis en file d'attente pour remise.  <br/> |
-|[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Renvoie les informations d'un objet de site de messagerie concernant les fonctionnalités du site de messagerie pour le message actif.  <br/> |
-|[Généré](imapimessagesite-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l'erreur précédente qui s'est produite dans l'objet de site de message.  <br/> |
+|[CopyMessage](imapimessagesite-copymessage.md) <br/> |Copie le message actuel dans un dossier.  <br/> |
+|[MoveMessage](imapimessagesite-movemessage.md) <br/> |Déplace le message actuel vers un dossier.  <br/> |
+|[DeleteMessage](imapimessagesite-deletemessage.md) <br/> |Supprime le message actuel.  <br/> |
+|[SaveMessage](imapimessagesite-savemessage.md) <br/> |Demande que le message actuel soit enregistré.  <br/> |
+|[SubmitMessage](imapimessagesite-submitmessage.md) <br/> |Demande que le message actuel soit mis en file d’attente pour remise.  <br/> |
+|[GetSiteStatus](imapimessagesite-getsitestatus.md) <br/> |Renvoie des informations à partir d’un objet de site de message sur les fonctionnalités du site de message pour le message actuel.  <br/> |
+|[GetLastError](imapimessagesite-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet de site de message.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

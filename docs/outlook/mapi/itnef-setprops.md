@@ -25,7 +25,7 @@ ms.locfileid: "33430790"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit la valeur d'une ou plusieurs propriétés pour un message encapsulé ou une pièce jointe sans modifier le message ou la pièce jointe d'origine. 
+Définit la valeur d’une ou de plusieurs propriétés d’un message ou d’une pièce jointe encapsulé sans modifier le message ou la pièce jointe d’origine. 
   
 ```cpp
 HRESULT SetProps(
@@ -40,38 +40,38 @@ HRESULT SetProps(
 
  _ulFlags_
   
-> dans Masque de des indicateurs qui contrôle la manière dont les valeurs des propriétés sont définies. L'indicateur suivant peut être défini:
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont les valeurs des propriétés sont définies. L’indicateur suivant peut être définie :
     
 TNEF_PROP_CONTAINED 
   
-> Encode uniquement les propriétés du message ou de la pièce jointe spécifiées par le paramètre _ulElemID_ . 
+> Encode uniquement les propriétés du message ou de la pièce jointe spécifiés par le _paramètre ulElemID._ 
     
  _ulElemID_
   
-> dans Propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) d'une pièce jointe, qui contient un numéro qui identifie de manière unique la pièce jointe dans son message parent.
+> [in] Propriété de PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), qui contient un nombre qui identifie de manière unique la pièce jointe dans son message parent.
     
  _cValues_
   
-> dans Nombre de valeurs de propriété dans la structure [SPropValue](spropvalue.md) vers laquelle pointe le paramètre _lpProps_ . 
+> [in] Nombre de valeurs de propriété dans la structure [SPropValue](spropvalue.md) pointée par _le paramètre lpProps._ 
     
  _lpProps_
   
-> dans Pointeur vers une structure **SPropValue** qui contient les valeurs de propriété des propriétés à définir. 
+> [in] Pointeur vers une structure **SPropValue** qui contient les valeurs des propriétés à définir. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK 
   
-> L'appel a réussi et a renvoyé la ou les valeurs attendues.
+> L’appel a réussi et a renvoyé la ou les valeurs attendues.
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de transport, les fournisseurs de banques de messages et les passerelles appellent la méthode **ITnef:: SetProps** pour définir les propriétés à inclure dans l'encapsulation d'un message ou d'une pièce jointe sans modifier le message ou la pièce jointe d'origine. Les propriétés définies avec cet appel remplacent les propriétés existantes dans le message encapsulé. 
+Les fournisseurs de transport, les fournisseurs de magasins de messages et les passerelles appellent la méthode **ITnef::SetProps** pour définir les propriétés à inclure dans l’encapsulation d’un message ou d’une pièce jointe sans modifier le message ou la pièce jointe d’origine. Toutes les propriétés définies avec cet appel remplacent les propriétés existantes dans le message encapsulé. 
   
- **SetProps** est pris en charge uniquement pour les objets TNEF ouverts avec l'indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) . Il est possible de définir n'importe quel nombre de propriétés avec cet appel. 
+ **SetProps est** pris en charge uniquement pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) N’importe quel nombre de propriétés peut être définie avec cet appel. 
   
 > [!NOTE]
-> Aucun codage TNEF réel n'a lieu pour **SetProps** n'a lieu qu'après l'appel de la méthode [ITnef:: Finish](itnef-finish.md) . Cette fonctionnalité signifie que les pointeurs transmis dans **SetProps** doivent rester valides jusqu'à ce **** que l'appel soit effectué. À ce stade, tous les objets et données transmis aux appels **SetProps** peuvent être libérés ou libérés. 
+> Aucun codage TNEF réel pour **SetProps** ne se produit tant que la méthode [ITnef::Finish](itnef-finish.md) n’a pas été appelée. Cette fonctionnalité signifie que les pointeurs passés dans **SetProps** doivent rester valides jusqu’à ce que l’appel à **Finish** soit effectué. À ce stade, tous les objets et données transmis dans les appels **SetProps** peuvent être libérés ou libérés. 
   
 ## <a name="see-also"></a>Voir aussi
 

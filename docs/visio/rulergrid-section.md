@@ -1,5 +1,5 @@
 ---
-title: Section &amp; grille de règle
+title: Ruler &amp; Grid, section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,12 +16,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430783"
 ---
-# <a name="ruler-amp-grid-section"></a>Section &amp; grille de règle
+# <a name="ruler-amp-grid-section"></a>Ruler &amp; Grid, section
 
 Indique les paramètres actuels relatifs aux règles et à la grille de la page.
   
 ## <a name="remarks"></a>Remarques
 
-Il s’agit d’une propriété de page qui ne figure que dans la fenêtre Feuille ShapeSheet de la page concernée. Les cellules qu'elle contient correspondent aux paramètres de la boîte de dialogue **grille de règle &amp; ** (sous l'onglet **affichage** , dans le groupe **Afficher/masquer** , cliquez sur le lanceur de boîte de dialogue). 
+Il s’agit d’une propriété de page qui ne figure que dans la fenêtre Feuille ShapeSheet de la page concernée. Les cellules qu’il contient correspondent aux paramètres de  la boîte de dialogue Grille de règle (sous l’onglet Affichage, dans le groupe **Afficher/Masquer,** cliquez sur le lanceur de boîte de dialogue). **&amp;** 
   
 

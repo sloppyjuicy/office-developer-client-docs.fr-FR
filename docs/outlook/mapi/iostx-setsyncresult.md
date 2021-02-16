@@ -37,11 +37,11 @@ HRESULT SetSyncResult(
 
  _hrSync_
   
->  dans Résultat de la synchronisation. 
+>  [in] Résultat de la synchronisation. 
     
 ## <a name="remarks"></a>Remarques
 
-Appelez **IOSTX:: SetSyncResult** avant d'appeler **IOSTX:: SyncEnd,** pour informer le magasin local du résultat de la synchronisation. 
+Appelez **IOSTX::SetSyncResult** avant **d’appeler IOSTX::SyncEnd** pour informer le magasin local du résultat de la synchronisation. 
   
 ## <a name="see-also"></a>Voir aussi
 

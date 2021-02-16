@@ -1,5 +1,5 @@
 ---
-title: DANS (application Web personnalisée Access)
+title: IN (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430209"
 ---
-# <a name="in-access-custom-web-app"></a>DANS (application Web personnalisée Access)
+# <a name="in-access-custom-web-app"></a>IN (application web personnalisée Access)
 
 Détermine si une valeur spécifiée correspond à une valeur dans une liste.
   
@@ -23,7 +23,7 @@ Détermine si une valeur spécifiée correspond à une valeur dans une liste.
   
 ## <a name="syntax"></a>Syntaxe
 
- *expression* **Dans** le (*expression* [,... n]) 
+ *expression* **IN** (*expression*  [ ,... n ]) 
   
  *expression*  représente toute expression valide. Les deux expressions doivent avoir des types de données implicitement convertibles. La conversion varie en fonction des règles de priorité des types de données. 
   

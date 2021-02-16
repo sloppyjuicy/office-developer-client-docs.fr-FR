@@ -17,13 +17,13 @@ ms.locfileid: "33431812"
 
 Lors du débogage d'un modèle de formulaire InfoPath, il est souvent utile de noter directement les valeurs dans un champ du formulaire pour créer un enregistrement des données de débogage au cours d'une session de test du formulaire. Les procédures qui suivent expliquent comment créer un champ à plusieurs lignes et comment ajouter des fonctions d'assistance au code du formulaire pour permettre l'enregistrement des données de débogage dans ce champ.
   
-## <a name="create-a-multi-line-text-field"></a>Créer un champ de texte multiligne
+## <a name="create-a-multi-line-text-field"></a>Créer un champ de texte multi-lignes
 
 1. Ajouter un contrôle **Zone de texte** au formulaire, puis redimensionnez-le pour qu'il puisse contenir plusieurs lignes. 
     
 2. Cliquez avec le bouton droit dans la zone de texte, cliquez sur **Propriétés de la zone de texte**, puis activez la case à cocher **Multiligne** dans l'onglet **Affichage**. 
     
-## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a>Ajouter des fonctions d'assistance pour enregistrer les informations de débogage dans le champ
+## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a>Ajouter des fonctions d’aide pour enregistrer les informations de débogage dans le champ
 
 1. Dans l'onglet **Développeur**, cliquez sur **Éditeur de code**, puis enregistrez le modèle de formulaire si vous y êtes invité.
     
@@ -76,9 +76,9 @@ Lors du débogage d'un modèle de formulaire InfoPath, il est souvent utile de n
     ```
 
 > [!NOTE] 
-> Lors de l'utilisation de Visual `Imports Microsoft.VisualBasic.Constants` Basic, ajoutez aux directives en haut du fichier de code du formulaire. 
+> Lorsque vous utilisez Visual Basic, ajoutez-les aux directives en haut du fichier de  `Imports Microsoft.VisualBasic.Constants` code du formulaire. 
   
-## <a name="test-the-addtodebugfield-function"></a>Tester la fonction AddToDebugField:
+## <a name="test-the-addtodebugfield-function"></a>Tester la fonction AddToDebugField
 
 1. Dans l'onglet **Développeur**, cliquez sur **Événement Chargement en cours (Loading)**, puis ajoutez la ligne de code suivante au gestionnaire d'événement.
     

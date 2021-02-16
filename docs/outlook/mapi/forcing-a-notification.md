@@ -1,5 +1,5 @@
 ---
-title: Forçage d'une notification
+title: Forcer une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,15 +15,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433282"
 ---
-# <a name="forcing-a-notification"></a>Forçage d'une notification
+# <a name="forcing-a-notification"></a>Forcer une notification
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsque les fournisseurs de services utilisent les méthodes [IMAPISupport: IUnknown](imapisupportiunknown.md) pour la notification, MAPI envoie des notifications à l'aide d'une fenêtre masquée et de la procédure de fenêtre correspondante. Pour chaque processus de réception d'une notification, MAPI publie un message particulier dans la fenêtre masquée. Ce message est nommé à l'aide de la constante **szMAPINotificationMsg** qui est définie dans MAPIDEFS. H. 
+Lorsque les fournisseurs de services utilisent les méthodes [IMAPISupport : IUnknown](imapisupportiunknown.md) pour la notification, MAPI fournit des notifications à l’aide d’une fenêtre masquée et de sa procédure de fenêtre correspondante. Pour chaque processus de réception d’une notification, MAPI publie un message spécial dans la fenêtre masquée. Ce message est nommé avec la constante **szMAPINotificationMsg** définie dans MAPIDEFS.H. 
   
-Ces notifications s'affichent lorsque la procédure de fenêtre masquée traite le message **szMAPINotificationMsg** . Pour garantir la remise des notifications, il est nécessaire d'attendre et de distribuer ce message **szMAPINotificationMsg** . L'implémentation de la logique pour y parvenir peut être réalisée simplement, mais MAPI fournit un point d'entrée dans la DLL MAPI appelée [HrDispatchNotifications](hrdispatchnotifications.md) pour simplifier le traitement. Appelez **HrDispatchNotifications** comme suit pour recevoir des notifications dans votre client: 
+Vous recevez ces notifications lorsque la procédure de fenêtre masquée traite le message **szMAPINotificationMsg.** Pour garantir que les notifications sont remis, il est nécessaire d’attendre et de transmettre ce message **szMAPINotificationMsg.** L’exécution de la logique pour y parvenir peut être effectuée assez simplement, mais MAPI fournit un point d’entrée dans la DLL MAPI appelée [HrDispatchNotifications](hrdispatchnotifications.md) pour simplifier encore le traitement. Appelez **HrDispatchNotifications** comme suit pour recevoir des notifications dans votre client : 
   
 ```cpp
 HRESULT hr = HrDispatchNotifications(0);

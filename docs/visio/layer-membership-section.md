@@ -26,6 +26,6 @@ L’attribution d’un calque est représentée comme un index de la liste des c
   
 Si une forme est associée à plusieurs calques, les différents calques sont séparés par des points-virgules dans la cellule Layer Membership.
   
-Pour faire référence à la valeur de la cellule Membership dans une formule, utilisez le nom **LayerMember**.
+Pour faire référence à la valeur de la cellule Layer Membership dans une formule, utilisez le nom **LayerMember**.
   
 

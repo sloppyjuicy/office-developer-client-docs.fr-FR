@@ -25,12 +25,12 @@ ms.locfileid: "33432890"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Calcule le nombre d'octets dans une structure [SRowSet](srowset.md) existante. 
+Calcule le nombre d’octets dans une structure [SRowSet](srowset.md) existante. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Structure associée:  <br/> |**SRowSet** <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Structure connexe :  <br/> |**SRowSet** <br/> |
    
 ```cpp
 CbSRowSet (_lprowset)
@@ -38,7 +38,7 @@ CbSRowSet (_lprowset)
 
 ## <a name="parameters"></a>Paramètres
 
- __lprowset_
+ _ _lprowset_
   
 > Pointeur vers la structure **SRowSet** existante. 
     

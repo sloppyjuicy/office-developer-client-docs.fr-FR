@@ -22,9 +22,9 @@ Indique le pourcentage d'agrandissement ou de réduction de la forme d'une ombre
   
 ## <a name="remarks"></a>Remarques
 
-Chaque ombre a un axe d'ombre portée, qui est un point sur l'ombre qui correspond à l'axe de la forme. Par exemple, si l'axe d'une forme est au centre de cette dernière, l'axe d'ombre portée est le point central de l'ombre. Lors de l'application d'une mise à l'échelle à des ombres simples, le facteur d'agrandissement est centré sur l'emplacement du code confidentiel ombré; lors de l'application d'une mise à l'échelle aux ombres obliques, le facteur d'agrandissement est appliqué dans la direction oblique. 
+Chaque ombre a un axe d'ombre portée, qui est un point sur l'ombre qui correspond à l'axe de la forme. Par exemple, si l'axe d'une forme est au centre de cette dernière, l'axe d'ombre portée est le point central de l'ombre. Lors de l’application d’une échelle à des ombres simples, l’agrandissement est centré à l’emplacement de la broche ombrée ; lors de l’application d’une échelle aux ombres obliques, le grossissement est appliqué dans le sens oblique. 
   
- Ce pourcentage est utilisé lorsque le type d'ombre d'une forme est défini sur page default (la cellule ShapeShdwType est égale à * * visFSTPageDefault * *). 
+ Ce pourcentage est utilisé lorsque le type d’ombre d’une forme est définie sur Page Default (la cellule ShapeShdwType est égale à ** visFSTPageDefault ** ). 
   
 Pour définir ce comportement pour une forme individuelle, utilisez la cellule ShapeShdwScaleFactor dans la section Fill Format.
   
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule ShdwScaleFactor par index dans un pro
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPage** <br/> |
 | Index de la cellule :  <br/> |**visPageShdwScaleFactor** <br/> |
    

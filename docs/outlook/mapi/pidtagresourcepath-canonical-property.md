@@ -25,7 +25,7 @@ ms.locfileid: "33429858"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un chemin d'accès au serveur du fournisseur de services.
+Contient un chemin d’accès au serveur du fournisseur de services.
   
 |||
 |:-----|:-----|
@@ -36,23 +36,23 @@ Contient un chemin d'accès au serveur du fournisseur de services.
    
 ## <a name="remarks"></a>Remarques
 
-Le chemin d'accès contenu dans ces propriétés représente le chemin d'accès suggéré dans lequel l'utilisateur peut trouver des ressources. La définition de ces propriétés est spécifique au fournisseur. Par exemple, une application de planification utilise ces propriétés pour spécifier l'emplacement suggéré pour ses fichiers d'application de planification.
+Le chemin d’accès contenu dans ces propriétés représente le chemin d’accès suggéré où l’utilisateur peut trouver des ressources. La définition de ces propriétés est spécifique au fournisseur. Par exemple, une application de planification utilise ces propriétés pour spécifier l’emplacement suggéré pour ses fichiers d’application de planification.
   
-Le profil utilisateur de messagerie fournit ces propriétés pour qu'une application cliente n'ait pas besoin d'inviter l'utilisateur de messagerie à indiquer un chemin d'accès réseau ou une lettre de lecteur réseau.
+Le profil utilisateur de messagerie fournit ces propriétés par commodité afin qu’une application cliente n’a pas besoin d’inviter l’utilisateur de messagerie pour un chemin d’accès réseau ou une lettre de lecteur réseau.
   
-MAPI ne fonctionne qu'avec les noms de fichier dans le jeu de caractères ANSI (American National Standards Institute). Les applications qui utilisent des noms de fichier dans un jeu de caractères OEM (Original Equipment Manufacturer) doivent les convertir en ANSI avant d'appeler MAPI.
+MAPI fonctionne uniquement avec les noms de fichiers dans le jeu de caractères ANSI (American National Standards Institute). Les applications qui utilisent des noms de fichiers dans un jeu de caractères OEM (Original Equipment Manufacturer) doivent les convertir en ANSI avant d’appeler MAPI.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -29,8 +29,8 @@ Contient un tableau de structures [SMAPIVerb](smapiverb.md) qui décrivent les v
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |MAPIForm. h  <br/> |
-|Macro connexe:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
+|Fichier d’en-tête :  <br/> |Mapiform.h  <br/> |
+|Macro associée :  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -53,7 +53,7 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SMAPIVerbArray** est transmise sous la forme d'un paramètre dans la méthode [IMAPIFormInfo:: CalcVerbSet](imapiforminfo-calcverbset.md) . 
+La structure **SMAPIVerbArray** est transmise en tant que paramètre dans la méthode [IMAPIFormInfo::CalcVerbSet.](imapiforminfo-calcverbset.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

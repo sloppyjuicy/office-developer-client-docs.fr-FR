@@ -29,30 +29,30 @@ Gère les messages, les pièces jointes et les destinataires.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Exposé par:  <br/> |Message, objet  <br/> |
-|Implémenté par :  <br/> |Fournisseurs de banques de messages  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Exposé par :  <br/> |Message, objet  <br/> |
+|Implémenté par :  <br/> |Fournisseurs de magasins de messages  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
-|Identificateur de l'interface:  <br/> |IID_IMessage  <br/> |
-|Type de pointeur:  <br/> |LPMESSAGE  <br/> |
-|Modèle de transaction:  <br/> |Traitées  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMessage  <br/> |
+|Type de pointeur :  <br/> |LPMESSAGE  <br/> |
+|Modèle de transaction :  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Ordre vtable
+## <a name="vtable-order"></a>Ordre des vtables
 
 |||
 |:-----|:-----|
-|[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Renvoie la table de pièces jointes du message.  <br/> |
+|[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Renvoie la table des pièces jointes du message.  <br/> |
 |[OpenAttach](imessage-openattach.md) <br/> |Ouvre une pièce jointe.  <br/> |
-|[CreateAttach](imessage-createattach.md) <br/> |Crée une nouvelle pièce jointe.  <br/> |
+|[CreateAttach](imessage-createattach.md) <br/> |Crée une pièce jointe.  <br/> |
 |[DeleteAttach](imessage-deleteattach.md) <br/> |Supprime une pièce jointe.  <br/> |
-|[GetRecipientTable](imessage-getrecipienttable.md) <br/> |Renvoie la table de destinataires du message.  <br/> |
+|[GetRecipientTable](imessage-getrecipienttable.md) <br/> |Renvoie la table des destinataires du message.  <br/> |
 |[ModifyRecipients](imessage-modifyrecipients.md) <br/> |Ajoute, supprime ou modifie des destinataires du message.  <br/> |
-|[SubmitMessage](imessage-submitmessage.md) <br/> |Enregistre toutes les modifications apportées au message et les marque comme prêtes pour l'envoi.  <br/> |
-|[SetReadFlag](imessage-setreadflag.md) <br/> |Définit ou efface l'indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message et gère l'envoi des rapports de lecture.  <br/> |
+|[SubmitMessage](imessage-submitmessage.md) <br/> |Enregistre toutes les modifications apportées au message et le marque comme étant prêt pour l’envoi.  <br/> |
+|[SetReadFlag](imessage-setreadflag.md) <br/> |Définit ou désine l’MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message et gère l’envoi de rapports de lecture.  <br/> |
    
-Les propriétés suivantes sont requises sur les messages à un moment donné de leur cycle de vie. La plupart des propriétés en lecture seule sont définies par le fournisseur de banque de messages lorsqu'un client appelle la méthode [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) d'un message. D'autres propriétés en lecture seule sont définies par le fournisseur de transport. 
+Les propriétés suivantes sont requises sur les messages à un moment donné au cours de leur cycle de vie. La plupart des propriétés en lecture seule sont définies par le fournisseur de magasins de messages lorsqu’un client appelle la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) d’un message. D’autres propriétés en lecture seule sont définies par le fournisseur de transport. 
   
-|**Propriétés requises pour les messages de toutes les classes**|**Accès**|
+|**Propriétés requises pour les messages de toutes les classes**|**Access**|
 |:-----|:-----|
 |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))  <br/> |Lecture seule  <br/> |
@@ -69,18 +69,18 @@ Les propriétés suivantes sont requises sur les messages à un moment donné de
 |**PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))  <br/> |Lecture seule  <br/> |
-|Propriétés **PR_ORIGINATOR**  <br/> |Lecture seule  <br/> |
+|**PR_ORIGINATOR** propriétés  <br/> |Lecture seule  <br/> |
 |**PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))  <br/> |Lecture seule  <br/> |
-|Propriétés **PR_RECEIVED_BY**  <br/> |Lecture seule  <br/> |
+|**PR_RECEIVED_BY** propriétés  <br/> |Lecture seule  <br/> |
 |**PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Lecture seule  <br/> |
-|Propriétés **PR_SENDER**  <br/> |Lecture seule  <br/> |
+|**PR_SENDER** propriétés  <br/> |Lecture seule  <br/> |
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Lecture seule  <br/> |
 |**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Lecture seule  <br/> |
    
-Les propriétés suivantes sont toutes en lecture seule pour les clients, à l'exception de **PR_BODY**. Les clients construisent cette propriété lorsqu'ils traitent un rapport.
+Les propriétés suivantes sont toutes en lecture seule pour les clients, à l’exception de **PR_BODY**. Les clients construisent cette propriété lorsqu’ils traitéent un état.
   
 |**Propriétés des messages de rapport**|
 |:-----|
@@ -99,10 +99,10 @@ Les propriétés suivantes sont toutes en lecture seule pour les clients, à l'e
 |**PR_REPORT_TEXT** ([PidTagReportText](pidtagreporttext-canonical-property.md))  <br/> |
 |**PR_REPORT_TIME** ([PidTagReportTime](pidtagreporttime-canonical-property.md))  <br/> |
 |**PR_SEARCH_KEY** <br/> |
-|Propriétés **PR_SENDER**  <br/> |
+|**PR_SENDER** propriétés  <br/> |
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
-|**Propriétés des destinataires des messages**|**Accès**|**Obligatoire ou facultatif**|
+|**Propriétés des destinataires du message**|**Access**|**Obligatoire ou facultatif**|
 |:-----|:-----|:-----|
 |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Lecture seule  <br/> |Obligatoire  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Lecture/écriture  <br/> |Obligatoire  <br/> |

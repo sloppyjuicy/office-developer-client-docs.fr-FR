@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251476
 localization_priority: Normal
 ms.assetid: 6c2154fa-4190-0699-61f7-f2bdf87173ec
-description: Renvoie la valeur TRUE (1) si des expressions logiques transmises en tant que paramètres ont la valeur TRUE.
+description: Renvoie TRUE (1) si l’une des expressions logiques transmises en tant que paramètres est TRUE.
 ms.openlocfilehash: 175a1c72f5109caca786b823966f07836f4737f0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33433506"
 ---
 # <a name="or-function"></a>Fonction OR
 
-Renvoie la valeur TRUE (1) si des expressions logiques transmises en tant que paramètres ont la valeur TRUE.
+Renvoie TRUE (1) si l’une des expressions logiques transmises en tant que paramètres est TRUE.
   
 ## <a name="syntax"></a>Syntaxe
 
-ou (* * *logicalexpression1* * *, * * *logicalexpression2* * *,..., * * *logicalexpressionN* * *) 
+OR(** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpressionN* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -42,7 +42,7 @@ Une expression dont le calcul produit une valeur différente de zéro est consid
   
 ## <a name="example"></a>Exemple
 
-OU (hauteur \> 1, PinX \> 1) 
+OR(Height \> 1,PinX \> 1) 
   
 Renvoie TRUE (1) si l’une des expressions au moins a la valeur TRUE. Renvoie FALSE (0) seulement si les deux expressions sont fausses. 
   

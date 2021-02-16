@@ -23,11 +23,11 @@ ms.locfileid: "33432630"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux valeurs de propriété, généralement des chaînes ou des tableaux binaires, pour voir si l'une d'entre elles contient l'autre. 
+Compare deux valeurs de propriété, généralement des chaînes ou des tableaux binaires, pour voir si l’une contient l’autre. 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil. h  <br/> |
+|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
@@ -43,46 +43,46 @@ BOOL FPropContainsProp(
 
 _lpSPropValueDst_
   
-> dans Pointeur vers une structure [SPropValue](spropvalue.md) définissant la valeur de la propriété susceptible de contenir la chaîne de recherche désignée par le paramètre _lpSPropValueSrc_ . 
+> [in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant la valeur de propriété qui peut contenir la chaîne de recherche pointée par le paramètre _lpSPropValueSrc._ 
     
 _lpSPropValueSrc_
   
-> dans Pointeur vers une structure **SPropValue** définissant la chaîne de recherche que **FPropContainsProp** cherche dans la valeur de la propriété vers laquelle pointe le paramètre _lpSPropValueDst_ . 
+> [in] Pointeur vers une structure **SPropValue** définissant la chaîne de recherche que **FPropContainsProp** recherche dans la valeur de propriété pointée par le paramètre _lpSPropValueDst._ 
     
 _ulFuzzyLevel_
   
-> dans Paramètres d'option définissant le niveau de précision à utiliser dans la comparaison. 
+> [in] Paramètres d’option définissant le niveau de précision à utiliser dans la comparaison. 
 
-  - Les **16 bits inférieurs** s'appliquent aux propriétés de type PT_BINARY et PT_STRING8. Elles doivent être définies sur l'une des valeurs suivantes:
+  - Les **16 bits inférieurs** s’appliquent aux propriétés de type PT_BINARY et PT_STRING8. Elles doivent être définies sur l’une des valeurs suivantes :
       
-    - FL_FULLSTRING: la chaîne de recherche _lpSPropValueSrc_ doit être égale à la valeur de la propriété identifiée par _lpSPropValueDst_.
+    - FL_FULLSTRING : la chaîne de recherche  _lpSPropValueSrc_ doit être égale à la valeur de propriété identifiée par  _lpSPropValueDst_.
         
-    - FL_PREFIX: la chaîne de recherche _lpSPropValueSrc_ doit apparaître au début de la valeur de propriété identifiée par _lpSPropValueDst_. Les deux valeurs ne doivent être comparées qu'à la longueur de la chaîne de recherche indiquée par _lpSPropValueSrc_. 
+    - FL_PREFIX : la chaîne de recherche  _lpSPropValueSrc_ doit apparaître au début de la valeur de propriété identifiée par  _lpSPropValueDst_. Les deux valeurs doivent être comparées uniquement jusqu’à la longueur de la chaîne de recherche indiquée par  _lpSPropValueSrc_. 
         
-    - FL_SUBSTRING: la chaîne de recherche _lpSPropValueSrc_ doit être contenue n'importe où dans la valeur de la propriété identifiée par _lpSPropValueDst_. 
+    - FL_SUBSTRING : la chaîne de recherche  _lpSPropValueSrc_ doit être contenue n’importe où dans la valeur de propriété identifiée par  _lpSPropValueDst_. 
       
-  - Les **16 bits supérieurs** s'appliquent uniquement aux propriétés de type PT_STRING8. Elles peuvent être définies sur les valeurs suivantes dans n'importe quelle combinaison:
+  - Les **16 bits supérieurs** s’appliquent uniquement aux propriétés de type PT_STRING8. Elles peuvent être définies sur les valeurs suivantes dans n’importe quelle combinaison :
     
-    - FL_IGNORECASE: la comparaison doit être effectuée sans prendre en compte le respect de la casse. 
+    - FL_IGNORECASE : la comparaison doit être réalisée sans tenir compte de la sensibilité à la cas. 
         
-    - FL_IGNORENONSPACE: la comparaison doit ignorer les caractères d'espacement définis par Unicode tels que les signes diacritiques. 
+    - FL_IGNORENONSPACE : la comparaison doit ignorer les caractères non définis par Unicode, tels que les signes diacritiques. 
         
-    - FL_LOOSE: la comparaison doit indiquer une correspondance dans la mesure du possible, sans tenir compte du respect de la casse et des caractères sans espacement.
+    - FL_LOOSE : la comparaison doit indiquer une correspondance dans la mesure du possible, en ignorant la sensibilité de la cas et les caractères non espacement.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 TRUE 
   
-> Les paramètres sont tous valides et la chaîne de recherche _lpSPropValueSrc_ est contenue comme indiqué dans la valeur de la propriété _lpSPropValueDst_ . 
+> Les paramètres sont tous valides et la chaîne de recherche _lpSPropValueSrc_ est contenue comme spécifié dans la valeur de la propriété _lpSPropValueDst._ 
     
 FALSE 
   
-> Les valeurs de propriété comparées ne sont pas de type PT_STRING8 ou PT_BINARY, les valeurs de propriété sont de types différents ou la chaîne de recherche _lpSPropValueSrc_ n'est pas contenue comme spécifié dans la valeur de la propriété _lpSPropValueDst_ . 
+> Les valeurs de propriété comparées ne sont pas de type PT_STRING8 ou PT_BINARY, les valeurs de propriété sont de types différents ou la chaîne de recherche _lpSPropValueSrc_ n’est pas contenue comme spécifié dans la valeur de la propriété _lpSPropValueDst._ 
     
 ## <a name="remarks"></a>Remarques
 
-La méthode de comparaison dépend des types de propriétés spécifiés dans les définitions de propriété [SPropValue](spropvalue.md) et de l'heuristique de niveau de fuzzing fournie dans le paramètre _ulFuzzyLevel_ . Les fonctions [FPropCompareProp](fpropcompareprop.md) et **FPropContainsProp** peuvent être utilisées pour préparer les restrictions de génération d'une table. 
+La méthode de comparaison dépend des types de propriétés spécifiés dans les définitions de [propriétés SPropValue](spropvalue.md) et de l’heuristique de niveau fuzzy fourni dans le paramètre _ulFuzzyLevel._ Les [fonctions FPropCompareProp](fpropcompareprop.md) et **FPropContainsProp** peuvent être utilisées pour préparer les restrictions de génération d’une table. 
   
-Les 16 bits supérieurs de _ulFuzzyLevel_ sont ignorés pour le type de propriété PT_BINARY. Si les paramètres dans _ulFuzzyLevel_ sont manquants ou non valides, une correspondance exacte de chaîne complète est effectuée. Pour plus d'informations sur la relation contenant-contenu des propriétés, voir la structure [SContentRestriction](scontentrestriction.md) . 
+Les 16 bits supérieurs de  _ulFuzzyLevel_ sont ignorés pour le type de PT_BINARY. Si les paramètres de  _ulFuzzyLevel_ sont manquants ou non valides, une correspondance exacte de chaîne complète est effectuée. Pour plus d’informations sur le contenu des propriétés, voir la structure [SContentRestriction.](scontentrestriction.md) 
   
 

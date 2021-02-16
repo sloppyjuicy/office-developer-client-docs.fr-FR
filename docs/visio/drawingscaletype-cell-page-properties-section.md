@@ -23,11 +23,11 @@ Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue **Mi
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Pas d'échelle  <br/> |**visNoScale** <br/> |
-| 0,1  <br/> | Échelle architecturale  <br/> |**visArchitectural** <br/> |
-| n°2  <br/> | Échelle Génie civil  <br/> |**visEngineering** <br/> |
-| 3  <br/> | Échelle personnalisée  <br/> |**visScaleCustom** <br/> |
-| 4  <br/> | Liées  <br/> |**visScaleMetric** <br/> |
-| disque  <br/> | Échelle Génie mécanique  <br/> |**visScaleMechanical** <br/> |
+| 1   <br/> | Échelle architecturale  <br/> |**visArchitectural** <br/> |
+| 2   <br/> | Échelle Génie civil  <br/> |**visEngineering** <br/> |
+| 3   <br/> | Échelle personnalisée  <br/> |**visScaleCustom** <br/> |
+| 4   <br/> | Métrique  <br/> |**visScaleMetric** <br/> |
+| 5   <br/> | Échelle Génie mécanique  <br/> |**visScaleMechanical** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule DrawingScaleType à l'aide d'un index
   
 |||
 |:-----|:-----|
-| Index de la section :  <br/> |**Définis** <br/> |
+| Index de la section :  <br/> |**visSectionObject** <br/> |
 | Index de la ligne :  <br/> |**visRowPage** <br/> |
 | Index de la cellule :  <br/> |**visPageDrawScaleType** <br/> |
    

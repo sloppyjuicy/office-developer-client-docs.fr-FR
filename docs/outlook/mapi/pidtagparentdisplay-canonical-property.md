@@ -25,32 +25,32 @@ ms.locfileid: "33429501"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom complet du dossier dans lequel un message a été trouvé lors d'une recherche.
+Contient le nom complet du dossier dans lequel un message a été trouvé au cours d’une recherche.
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_PARENT_DISPLAY, PR_PARENT_DISPLAY_A, PR_PARENT_DISPLAY_W  <br/> |
 |Identificateur :  <br/> |0x0E05  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |MAPI non transmissible  <br/> |
+|Domaine :  <br/> |MAPI non transmetteable  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés ne se trouvent pas sur un objet. Elles ne peuvent apparaître que dans la table des matières d'un dossier Search-results.
+Ces propriétés ne se trouve sur aucun objet. Elles peuvent uniquement apparaître dans la table des matières d’un dossier de résultats de recherche.
   
-Ces propriétés et **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) ne sont pas liées les unes aux autres. Elles appartiennent à des contextes entièrement différents.
+Ces propriétés **et PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) ne sont pas liées les unes aux autres. Ils appartiennent à des contextes totalement différents.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés figurant en tant que noms de substitution.
+> Contient les définitions des propriétés répertoriées en tant que noms de remplacement.
     
 ## <a name="see-also"></a>Voir aussi
 

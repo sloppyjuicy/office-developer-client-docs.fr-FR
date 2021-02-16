@@ -25,7 +25,7 @@ ms.locfileid: "33431042"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux identificateurs d'entrée pour déterminer s'ils font référence au même objet. 
+Compare deux identificateurs d’entrée pour déterminer s’ils font référence au même objet. 
   
 ```cpp
 HRESULT CompareEntryIDs(
@@ -42,19 +42,19 @@ HRESULT CompareEntryIDs(
 
  _cbEntryID1_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID1_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID1._ 
     
  _lpEntryID1_
   
-> dans Pointeur vers le premier identificateur d'entrée à comparer.
+> [in] Pointeur vers le premier identificateur d’entrée à comparer.
     
  _cbEntryID2_
   
-> dans Nombre d'octets dans l'identificateur d'entrée pointé par le paramètre _lpEntryID2_ . 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID2._ 
     
  _lpEntryID2_
   
-> dans Pointeur vers le deuxième identificateur d'entrée à comparer.
+> [in] Pointeur vers le deuxième identificateur d’entrée à comparer.
     
  _ulFlags_
   
@@ -62,7 +62,7 @@ HRESULT CompareEntryIDs(
     
  _lpulResult_
   
-> remarquer Pointeur vers le résultat de la comparaison. TRUE si les deux identificateurs d'entrée font référence au même objet; Sinon, FALSe.
+> [out] Pointeur vers le résultat de la comparaison. TRUE si les deux identificateurs d’entrée font référence au même objet ; sinon, FALSE.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -72,17 +72,17 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L'un des identificateurs d'entrée spécifiés en tant que paramètres ne fait pas référence à des objets valides, car ils ne sont pas actuellement ouverts et indisponibles.
+> L’un ou les deux identificateurs d’entrée spécifiés en tant que paramètres ne font pas référence à des objets valides, éventuellement parce qu’ils sont actuellement non ouvert et indisponibles.
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISupport:: CompareEntryIDs** est implémentée pour les objets de prise en charge du carnet d'adresses et du fournisseur de banque de messages. **CompareEntryIDs** compare deux identificateurs d'entrée qui appartiennent à un seul fournisseur de services pour déterminer s'ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d'entrée afin de déterminer le fournisseur de services responsable des objets. MAPI appelle ensuite la méthode **CompareEntryIDs** de l'objet Logon pour effectuer la comparaison. 
+La **méthode IMAPISupport::CompareEntryIDs** est implémentée pour les objets de prise en charge du carnet d’adresses et du fournisseur de magasins de messages. **CompareEntryIDs** compare deux identificateurs d’entrée qui appartiennent à un seul fournisseur de services pour déterminer s’ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d’entrée pour déterminer le fournisseur de services responsable des objets. MAPI appelle ensuite la méthode **CompareEntryIDs** de son objet d’logo pour effectuer la comparaison. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **CompareEntryIDs** est utile, car un objet peut avoir plus d'un identificateur d'entrée valide. Cette situation peut se produire, par exemple, après l'installation d'une nouvelle version d'un fournisseur de services. 
+ **CompareEntryIDs est utile** car un objet peut avoir plusieurs identificateurs d’entrée valides. Cette situation peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de services. 
   
-Si **CompareEntryIDs** renvoie une erreur, n'effectuez aucune action en fonction du résultat de la comparaison. Au lieu de cela, adoptez l'approche la plus conservatrice possible. **CompareEntryIDs** peut échouer si, par exemple, un ou les deux identificateurs d'entrée contiennent une structure **MAPIUID** incorrecte. 
+Si **CompareEntryIDs** renvoie une erreur, ne pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, prenez l’approche la plus prudent possible. **CompareEntryIDs** peut échouer si, par exemple, l’un des identificateurs d’entrée ou les deux contiennent une structure **MAPIUID** non valide. 
   
 ## <a name="see-also"></a>Voir aussi
 

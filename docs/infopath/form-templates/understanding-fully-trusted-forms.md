@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
-description: InfoPath permet de créer des formulaires entièrement fiables, qui sont des formulaires qui disposent d'autorisations de sécurité plus élevées et peuvent accéder aux ressources système et à d'autres composants sur l'ordinateur d'un utilisateur. Cet article décrit ce qu'est un formulaire entièrement fiable, son utilisation et la création d'un formulaire entièrement fiable en convertissant et en enregistrant manuellement un formulaire standard, ou en signant numériquement un formulaire standard.
+description: InfoPath permet de créer des formulaires entièrement fiables, qui sont des formulaires qui disposent d’autorisations de sécurité plus élevées et qui peuvent accéder aux ressources système et autres composants sur l’ordinateur d’un utilisateur. Cet article décrit ce qu’est un formulaire entièrement fiable et pourquoi il est utilisé, et crée un formulaire entièrement fiable en convertissant et enregistrant manuellement un formulaire standard, ou en signant numériquement un formulaire standard.
 ms.openlocfilehash: 04560e0c844d6a6ff681fd366ca7da2e4db36ba1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "33430391"
 ---
 # <a name="understanding-fully-trusted-forms"></a>Présentation des formulaires entièrement fiables
 
-InfoPath permet de créer des formulaires entièrement fiables, qui sont des formulaires qui disposent d'autorisations de sécurité plus élevées et peuvent accéder aux ressources système et à d'autres composants sur l'ordinateur d'un utilisateur. Cet article décrit ce qu'est un formulaire entièrement fiable, son utilisation et la création d'un formulaire entièrement fiable en convertissant et en enregistrant manuellement un formulaire standard, ou en signant numériquement un formulaire standard.
+InfoPath permet de créer des formulaires entièrement fiables, qui sont des formulaires qui disposent d’autorisations de sécurité plus élevées et qui peuvent accéder aux ressources système et autres composants sur l’ordinateur d’un utilisateur. Cet article décrit ce qu’est un formulaire entièrement fiable et pourquoi il est utilisé, et crée un formulaire entièrement fiable en convertissant et enregistrant manuellement un formulaire standard, ou en signant numériquement un formulaire standard.
 
 Les modèles de formulaire InfoPath peuvent être déployés avec des niveaux de sécurité variables. Le niveau utilisé dépend du niveau d'accès aux ressources externes que vous voulez donner à un formulaire. Par défaut, les modèles de formulaire InfoPath ne peuvent pas accéder aux ressources système, ni utiliser de composant logiciel non marqué comme sécurisé pour l'exécution de script.
   
@@ -66,7 +66,7 @@ Les opérations suivantes, impliquant l'interface utilisateur InfoPath et les fi
    `name="urn:MyForm:MyCompany`
 
    > [!NOTE]
-   > [!REMARQUE] Les valeurs utilisées pour le nom URN peuvent être une valeur de chaîne de quelconque sorte, du moment que cette valeur est unique. Il doit y avoir au moins deux valeurs après `urn:` le préfixe, et ces valeurs doivent être séparées par un signe deux-points. En outre, le nom URN ne doit pas dépasser 255 caractères. 
+   > [!REMARQUE] Les valeurs utilisées pour le nom URN peuvent être une valeur de chaîne de quelconque sorte, du moment que cette valeur est unique. Il doit y avoir au moins deux valeurs après le préfixe, et ces valeurs doivent `urn:` être séparées par un deux-points. En outre, le nom URN ne doit pas dépasser 255 caractères. 
   
 7. Enregistrez et fermez le fichier .xsf, puis ouvrez le fichier de modèle XML (.xml) intitulé  `Template.xml` par défaut, dans un éditeur de texte, tel que Bloc-notes. 
     
@@ -131,7 +131,7 @@ Pour supprimer un formulaire entièrement fiable, utilisez la méthode **Unregis
 
 ### <a name="digitally-signing-a-form-template-to-create-a-fully-trusted-form"></a>Signature numérique d'un modèle de formulaire pour créer un formulaire entièrement fiable
 
-La signature numérique d'un modèle de formulaire vous permet de déployer un modèle de formulaire entièrement fiable par courrier électronique ou sur un serveur Web, tel qu'un serveur qui exécute Microsoft SharePoint Foundation. Utilisez les étapes des trois procédures ci-après pour rendre un formulaire entièrement fiable en spécifiant la fiabilité totale pour le formulaire, en le signant numériquement et en le publiant.
+La signature numérique d’un modèle de formulaire vous permet de déployer un modèle de formulaire entièrement fiable par courrier électronique ou sur un serveur Web, tel qu’un serveur exécutant Microsoft SharePoint Foundation. Utilisez les étapes des trois procédures ci-après pour rendre un formulaire entièrement fiable en spécifiant la fiabilité totale pour le formulaire, en le signant numériquement et en le publiant.
   
 #### <a name="to-digitally-sign-a-form-template"></a>Pour signer un modèle de formulaire numériquement
 

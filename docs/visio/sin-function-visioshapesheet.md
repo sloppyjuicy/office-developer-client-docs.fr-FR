@@ -22,7 +22,7 @@ Renvoie le sinus d’un angle.
   
 ## <a name="syntax"></a>Syntaxe
 
-SIN (* * *angle* * *) 
+SIN(** *angle* ** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -36,7 +36,7 @@ Nombre
   
 ## <a name="remarks"></a>Remarques
 
-La fonction SIN utilise des radians, sauf si vous spécifiez une unité de mesure différente dans _angle_.
+La fonction SIN utilise des radians, sauf si vous spécifiez une unité de mesure différente dans _l’angle._
   
 ## <a name="example"></a>Exemple
 

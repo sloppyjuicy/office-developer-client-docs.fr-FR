@@ -25,13 +25,13 @@ ms.locfileid: "33434017"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel que MAPI appelle pour envoyer une notification d'événement. Cette fonction de rappel ne peut être utilisée que lorsqu'elle est incluse dans un wrapper dans un objet de récepteur de notifications créé en appelant la fonction [HrAllocAdviseSink](hrallocadvisesink.md) . 
+Définit une fonction de rappel que MAPI appelle pour envoyer une notification d’événement. Cette fonction de rappel peut uniquement être utilisée lorsqu’elle est wrapped dans un objet de sink de conseil créé en appelant la fonction [HrAllocAdviseSink.](hrallocadvisesink.md) 
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapidefs. h  <br/> |
-|Fonction définie implémentée par:  <br/> |Applications clientes et fournisseurs de services  <br/> |
-|Fonction définie appelée par:  <br/> |MAPI  <br/> |
+|Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
+|Fonction définie implémentée par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
+|Fonction définie appelée par :  <br/> |MAPI  <br/> |
    
 ```cpp
 ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
@@ -45,27 +45,27 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
 
  _lpvContext_
   
-> dans Pointeur vers une valeur arbitraire passée à la fonction de rappel lorsque MAPI l'appelle. Cette valeur peut représenter une adresse de signification pour l'application cliente ou le fournisseur de services. En règle générale, pour le code C++, le paramètre _lpvContext_ représente un pointeur vers un objet c++. 
+> [in] Pointeur vers une valeur arbitraire transmise à la fonction de rappel lorsque MAPI l’appelle. Cette valeur peut représenter une adresse significative pour l’application cliente ou le fournisseur de services. En règle générale, pour le code C++,  _le paramètre lpvContext_ représente un pointeur vers un objet C++. 
     
  _cNotification_
   
-> dans Nombre de notifications d'événement dans le tableau indiqué par le paramètre _lpNotifications_ . 
+> [in] Nombre de notifications d’événement dans le tableau indiqué par _le paramètre lpNotifications._ 
     
  _lpNotifications_
   
-> remarquer Pointeur vers l'emplacement où cette fonction écrit un tableau de structures de [notification](notification.md) qui contient les notifications d'événement. 
+> [out] Pointeur vers l’emplacement où cette fonction écrit un tableau de structures [DE NOTIFICATION](notification.md) qui contient les notifications d’événement. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-L'ensemble des valeurs de retour valides pour le prototype de fonction **NOTIFCALLBACK** varie selon que la fonction est implémentée par une application cliente ou un fournisseur de services. Les clients doivent toujours retourner S_OK. Les fournisseurs peuvent retourner S_OK ou CALLBACK_DISCONTINUE. 
+L’ensemble des valeurs de retour valides pour le prototype de fonction **NOTIFCALLBACK** varie selon que la fonction est implémentée par une application cliente ou un fournisseur de services. Les clients doivent toujours renvoyer S_OK. Les fournisseurs peuvent renvoyer S_OK ou CALLBACK_DISCONTINUE. 
   
 ## <a name="remarks"></a>Remarques
 
-CALLBACK_DISCONTINUE est une valeur de retour valide pour les fonctions de rappel synchrone uniquement; Il demande que l'interface MAPI cesse immédiatement de traiter les rappels pour cette notification. Lorsque CALLBACK_DISCONTINUE est renvoyé, MAPI définit le paramètre _lpUlFlags_ sur NOTIFY_CANCELED lorsqu'il revient de [IMAPISupport:: Notify](imapisupport-notify.md). 
+CALLBACK_DISCONTINUE est une valeur de retour valide pour les fonctions de rappel synchrones uniquement ; Il demande à MAPI d’arrêter immédiatement le traitement des rappels pour cette notification. Lorsque CALLBACK_DISCONTINUE est renvoyé, MAPI définit le paramètre  _lpUlFlags_ sur NOTIFY_CANCELED lorsqu’il revient à partir [d’IMAPISupport::Notify](imapisupport-notify.md). 
   
-Les éléments suivants sont des limitations de ce qu'une fonction de rappel synchrone peut effectuer:
+Les limitations suivantes limitent ce que peut faire une fonction de rappel synchrone :
   
-- Il ne peut pas provoquer la génération d'une autre notification synchrone.
+- Il ne peut pas générer une autre notification synchrone.
     
 - Il ne peut pas afficher une interface utilisateur.
     

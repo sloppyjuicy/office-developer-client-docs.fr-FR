@@ -25,7 +25,7 @@ ms.locfileid: "33431665"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le certificat ASN. 1 d'un destinataire de message à utiliser dans un rapport.
+Contient le certificat ASN.1 d’un destinataire de message à utiliser dans un état.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ Contient le certificat ASN. 1 d'un destinataire de message à utiliser dans un r
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une copie de la propriété **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) du destinataire pour une utilisation dans un rapport. Elle peut être utilisée pour prouver à l'expéditeur que le destinataire a réellement reçu le message, ce qui n'est pas nécessairement indiqué par un rapport de remise.
+Cette propriété est une copie de la propriété PR_USER_CERTIFICATE **(** [PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) du destinataire à utiliser dans un état. Elle peut être utilisée pour prouver à l’auteur que le destinataire a réellement reçu le message, ce qu’une note de remise n’indique pas nécessairement.
   
 ## <a name="related-resources"></a>Ressources connexes
 
-### <a name="header-files"></a>Fichiers d'en-tête
+### <a name="header-files"></a>Fichiers d’en-tête
 
-Mapidefs. h
+Mapidefs.h
   
 > Fournit des définitions de type de données.
     
-Mapitags. h
+Mapitags.h
   
-> Contient les définitions des propriétés indiquées en tant que propriétés associées.
+> Contient les définitions des propriétés répertoriées en tant que propriétés associées.
     
 ## <a name="see-also"></a>Voir aussi
 
