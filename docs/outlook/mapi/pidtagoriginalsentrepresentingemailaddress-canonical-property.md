@@ -9,7 +9,7 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: e2c3d2c3-5451-45cb-b0ec-bdbf5b39a0ba
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2530e27993163505b28fa7d08fd5caf4cc9b03be
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,58 +17,58 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32341187"
 ---
-# <a name="pidtagoriginalsentrepresentingemailaddress-canonical-property"></a><span data-ttu-id="520fa-103">Propriété canonique PidTagOriginalSentRepresentingEmailAddress</span><span class="sxs-lookup"><span data-stu-id="520fa-103">PidTagOriginalSentRepresentingEmailAddress Canonical Property</span></span>
+# <a name="pidtagoriginalsentrepresentingemailaddress-canonical-property"></a><span data-ttu-id="d6a10-103">Propriété canonique PidTagOriginalSentRepresentingEmailAddress</span><span class="sxs-lookup"><span data-stu-id="d6a10-103">PidTagOriginalSentRepresentingEmailAddress Canonical Property</span></span>
 
   
   
-<span data-ttu-id="520fa-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="520fa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d6a10-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d6a10-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="520fa-105">Contient l'adresse de messagerie de l'utilisateur de messagerie au nom duquel le message d'origine a été envoyé.</span><span class="sxs-lookup"><span data-stu-id="520fa-105">Contains the email address of the messaging user on whose behalf the original message was sent.</span></span>
+<span data-ttu-id="d6a10-105">Contient l’adresse e-mail de l’utilisateur de messagerie au nom de qui le message d’origine a été envoyé.</span><span class="sxs-lookup"><span data-stu-id="d6a10-105">Contains the email address of the messaging user on whose behalf the original message was sent.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="520fa-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="520fa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="520fa-107">PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W</span><span class="sxs-lookup"><span data-stu-id="520fa-107">PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W</span></span>  <br/> |
-|<span data-ttu-id="520fa-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="520fa-108">Identifier:</span></span>  <br/> |<span data-ttu-id="520fa-109">0x0069</span><span class="sxs-lookup"><span data-stu-id="520fa-109">0x0069</span></span>  <br/> |
-|<span data-ttu-id="520fa-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="520fa-110">Data type:</span></span>  <br/> |<span data-ttu-id="520fa-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="520fa-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="520fa-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="520fa-112">Area:</span></span>  <br/> |<span data-ttu-id="520fa-113">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="520fa-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="d6a10-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="d6a10-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="d6a10-107">PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W</span><span class="sxs-lookup"><span data-stu-id="d6a10-107">PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W</span></span>  <br/> |
+|<span data-ttu-id="d6a10-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="d6a10-108">Identifier:</span></span>  <br/> |<span data-ttu-id="d6a10-109">0x0069</span><span class="sxs-lookup"><span data-stu-id="d6a10-109">0x0069</span></span>  <br/> |
+|<span data-ttu-id="d6a10-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="d6a10-110">Data type:</span></span>  <br/> |<span data-ttu-id="d6a10-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="d6a10-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="d6a10-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="d6a10-112">Area:</span></span>  <br/> |<span data-ttu-id="d6a10-113">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="d6a10-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="520fa-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="520fa-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d6a10-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="d6a10-114">Remarks</span></span>
 
-<span data-ttu-id="520fa-115">Ces propriétés sont des exemples de propriétés d'adresse pour l'expéditeur d'origine d'un message.</span><span class="sxs-lookup"><span data-stu-id="520fa-115">These properties are examples of the address properties for the original represented sender of a message.</span></span> <span data-ttu-id="520fa-116">Il est utilisé dans un thread de conversation.</span><span class="sxs-lookup"><span data-stu-id="520fa-116">It is used in a conversation thread.</span></span>
+<span data-ttu-id="d6a10-115">Ces propriétés sont des exemples des propriétés d’adresse de l’expéditeur représenté d’origine d’un message.</span><span class="sxs-lookup"><span data-stu-id="d6a10-115">These properties are examples of the address properties for the original represented sender of a message.</span></span> <span data-ttu-id="d6a10-116">Il est utilisé dans un thread de conversation.</span><span class="sxs-lookup"><span data-stu-id="d6a10-116">It is used in a conversation thread.</span></span>
   
-<span data-ttu-id="520fa-117">Une application client qui envoie un message au nom d'un autre client doit définir ces propriétés sur la valeur de la propriété **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) lors du premier envoi du message.</span><span class="sxs-lookup"><span data-stu-id="520fa-117">A client application sending a message on behalf of another client should set these properties to the value of the **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) property at the first submission of the message.</span></span> <span data-ttu-id="520fa-118">Une fois défini, il ne doit jamais être modifié.</span><span class="sxs-lookup"><span data-stu-id="520fa-118">Once set, it should never be changed.</span></span>
+<span data-ttu-id="d6a10-117">Une application cliente envoyant un message pour le compte d’un autre client doit définir ces propriétés sur la valeur de la propriété **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) lors de la première soumission du message.</span><span class="sxs-lookup"><span data-stu-id="d6a10-117">A client application sending a message on behalf of another client should set these properties to the value of the **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) property at the first submission of the message.</span></span> <span data-ttu-id="d6a10-118">Une fois définie, elle ne doit jamais être modifiée.</span><span class="sxs-lookup"><span data-stu-id="d6a10-118">Once set, it should never be changed.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="520fa-119">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="520fa-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="d6a10-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="d6a10-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="520fa-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="520fa-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="d6a10-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="d6a10-120">Protocol specifications</span></span>
 
-<span data-ttu-id="520fa-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="520fa-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="d6a10-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d6a10-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="520fa-122">Fournit des références à des spécifications de protocole Exchange Server connexes.</span><span class="sxs-lookup"><span data-stu-id="520fa-122">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="d6a10-122">Fournit des références aux spécifications Exchange Server de protocole associées.</span><span class="sxs-lookup"><span data-stu-id="d6a10-122">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="520fa-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="520fa-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="d6a10-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d6a10-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="520fa-124">Spécifie les propriétés et les opérations qui sont autorisées pour les objets message électronique.</span><span class="sxs-lookup"><span data-stu-id="520fa-124">Specifies the properties and operations that are permissible on email message objects.</span></span>
+> <span data-ttu-id="d6a10-124">Spécifie les propriétés et opérations autorisées sur les objets de message électronique.</span><span class="sxs-lookup"><span data-stu-id="d6a10-124">Specifies the properties and operations that are permissible on email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="520fa-125">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="520fa-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="d6a10-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="d6a10-125">Header files</span></span>
 
-<span data-ttu-id="520fa-126">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="520fa-126">Mapidefs.h</span></span>
+<span data-ttu-id="d6a10-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="d6a10-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="520fa-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="520fa-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="d6a10-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="d6a10-127">Provides data type definitions.</span></span>
     
-<span data-ttu-id="520fa-128">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="520fa-128">Mapitags.h</span></span>
+<span data-ttu-id="d6a10-128">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="d6a10-128">Mapitags.h</span></span>
   
-> <span data-ttu-id="520fa-129">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="520fa-129">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="d6a10-129">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="d6a10-129">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="520fa-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="520fa-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d6a10-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d6a10-130">See also</span></span>
 
 
 
-[<span data-ttu-id="520fa-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="520fa-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="d6a10-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="d6a10-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="520fa-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="520fa-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="d6a10-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="d6a10-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="520fa-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="520fa-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="d6a10-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="d6a10-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="520fa-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="520fa-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="d6a10-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="d6a10-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
