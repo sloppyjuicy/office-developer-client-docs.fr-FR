@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 2ed498295de6748dfa50f1f4a8ba2710c8be64f7
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316379"
 ---
-# <a name="pidtagexceptionstarttime-canonical-property"></a><span data-ttu-id="f3d68-103">Propriété canonique PidTagExceptionStartTime</span><span class="sxs-lookup"><span data-stu-id="f3d68-103">PidTagExceptionStartTime Canonical Property</span></span>
+# <a name="pidtagexceptionstarttime-canonical-property"></a><span data-ttu-id="a9c21-103">Propriété canonique PidTagExceptionStartTime</span><span class="sxs-lookup"><span data-stu-id="a9c21-103">PidTagExceptionStartTime Canonical Property</span></span>
 
   
   
-<span data-ttu-id="f3d68-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f3d68-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a9c21-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a9c21-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f3d68-105">Indique la date et l'heure de début de l'exception dans le fuseau horaire local de l'ordinateur lors de la création de l'exception.</span><span class="sxs-lookup"><span data-stu-id="f3d68-105">Indicates the start date and time of the exception in the local time zone of the machine when the exception is created.</span></span>
+<span data-ttu-id="a9c21-105">Indique la date et l’heure de début de l’exception dans le fuseau horaire local de l’ordinateur lors de la création de l’exception.</span><span class="sxs-lookup"><span data-stu-id="a9c21-105">Indicates the start date and time of the exception in the local time zone of the machine when the exception is created.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f3d68-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="f3d68-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f3d68-107">PR_EXCEPTION_STARTTIME</span><span class="sxs-lookup"><span data-stu-id="f3d68-107">PR_EXCEPTION_STARTTIME</span></span>  <br/> |
-|<span data-ttu-id="f3d68-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="f3d68-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f3d68-109">0x7FFB</span><span class="sxs-lookup"><span data-stu-id="f3d68-109">0x7FFB</span></span>  <br/> |
-|<span data-ttu-id="f3d68-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="f3d68-110">Data type:</span></span>  <br/> |<span data-ttu-id="f3d68-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="f3d68-111">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="f3d68-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="f3d68-112">Area:</span></span>  <br/> |<span data-ttu-id="f3d68-113">Non transférable défini par la classe de message</span><span class="sxs-lookup"><span data-stu-id="f3d68-113">Message class-defined non-transmittable</span></span>  <br/> |
+|<span data-ttu-id="a9c21-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="a9c21-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a9c21-107">PR_EXCEPTION_STARTTIME</span><span class="sxs-lookup"><span data-stu-id="a9c21-107">PR_EXCEPTION_STARTTIME</span></span>  <br/> |
+|<span data-ttu-id="a9c21-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="a9c21-108">Identifier:</span></span>  <br/> |<span data-ttu-id="a9c21-109">0x7FFB</span><span class="sxs-lookup"><span data-stu-id="a9c21-109">0x7FFB</span></span>  <br/> |
+|<span data-ttu-id="a9c21-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="a9c21-110">Data type:</span></span>  <br/> |<span data-ttu-id="a9c21-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="a9c21-111">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="a9c21-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="a9c21-112">Area:</span></span>  <br/> |<span data-ttu-id="a9c21-113">Message non transmissable par une classe de message</span><span class="sxs-lookup"><span data-stu-id="a9c21-113">Message class-defined non-transmittable</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f3d68-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="f3d68-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a9c21-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="a9c21-114">Remarks</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f3d68-115">Cette propriété est informatif et ne doit pas être fiable pour les informations importantes.</span><span class="sxs-lookup"><span data-stu-id="f3d68-115">This property is informational and must not be relied on for critical information.</span></span> 
+> <span data-ttu-id="a9c21-115">Cette propriété est informationnelle et ne doit pas être invoquée pour des informations critiques.</span><span class="sxs-lookup"><span data-stu-id="a9c21-115">This property is informational and must not be relied on for critical information.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="f3d68-116">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="f3d68-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="a9c21-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="a9c21-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="f3d68-117">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="f3d68-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="a9c21-117">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="a9c21-117">Protocol specifications</span></span>
 
-<span data-ttu-id="f3d68-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f3d68-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a9c21-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a9c21-118">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="f3d68-119">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="f3d68-119">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="a9c21-119">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="a9c21-119">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="f3d68-120">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="f3d68-120">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="a9c21-120">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="a9c21-120">Header files</span></span>
 
-<span data-ttu-id="f3d68-121">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="f3d68-121">Mapidefs.h</span></span>
+<span data-ttu-id="a9c21-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="a9c21-121">Mapidefs.h</span></span>
   
-> <span data-ttu-id="f3d68-122">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="f3d68-122">Provides data type definitions.</span></span>
+> <span data-ttu-id="a9c21-122">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="a9c21-122">Provides data type definitions.</span></span>
     
-<span data-ttu-id="f3d68-123">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="f3d68-123">Mapitags.h</span></span>
+<span data-ttu-id="a9c21-123">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="a9c21-123">Mapitags.h</span></span>
   
-> <span data-ttu-id="f3d68-124">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="f3d68-124">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="a9c21-124">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="a9c21-124">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f3d68-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f3d68-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a9c21-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a9c21-125">See also</span></span>
 
 
 
-[<span data-ttu-id="f3d68-126">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="f3d68-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="a9c21-126">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="a9c21-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="f3d68-127">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="f3d68-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="a9c21-127">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="a9c21-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="f3d68-128">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="f3d68-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="a9c21-128">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="a9c21-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="f3d68-129">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="f3d68-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="a9c21-129">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="a9c21-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

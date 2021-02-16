@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 278a77f2-65ec-4281-b406-942cc416a476
-description: 'Derni�re modification�: lundi 9 mars 2015'
+description: Dernière modification le 9 mars 2015
 ms.openlocfilehash: 610e9d396442f981b7bcbf126e3086e6885399d6
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -19,56 +19,56 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316190"
 ---
-# <a name="pidtagfreebusycountmonths-canonical-property"></a><span data-ttu-id="d33d2-103">Propriété canonique PidTagFreeBusyCountMonths</span><span class="sxs-lookup"><span data-stu-id="d33d2-103">PidTagFreeBusyCountMonths Canonical Property</span></span>
+# <a name="pidtagfreebusycountmonths-canonical-property"></a><span data-ttu-id="0a5c8-103">Propriété canonique PidTagFreeBusyCountMonths</span><span class="sxs-lookup"><span data-stu-id="0a5c8-103">PidTagFreeBusyCountMonths Canonical Property</span></span>
 
   
   
-<span data-ttu-id="d33d2-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d33d2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0a5c8-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0a5c8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d33d2-105">Contient la valeur pour le calcul des dates de début et de fin de la plage de données de disponibilité à publier dans les dossiers publics.</span><span class="sxs-lookup"><span data-stu-id="d33d2-105">Contains the value for calculating the start and end dates of the range of free/busy data to be published to public folders.</span></span>
+<span data-ttu-id="0a5c8-105">Contient la valeur pour le calcul des dates de début et de fin de la plage de données de libre/occupé à publier dans les dossiers publics.</span><span class="sxs-lookup"><span data-stu-id="0a5c8-105">Contains the value for calculating the start and end dates of the range of free/busy data to be published to public folders.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d33d2-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="d33d2-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="d33d2-107">PR_FREEBUSY_COUNT_MONTHS</span><span class="sxs-lookup"><span data-stu-id="d33d2-107">PR_FREEBUSY_COUNT_MONTHS</span></span>  <br/> |
-|<span data-ttu-id="d33d2-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="d33d2-108">Identifier:</span></span>  <br/> |<span data-ttu-id="d33d2-109">0x6869</span><span class="sxs-lookup"><span data-stu-id="d33d2-109">0x6869</span></span>  <br/> |
-|<span data-ttu-id="d33d2-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="d33d2-110">Data type:</span></span>  <br/> |<span data-ttu-id="d33d2-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="d33d2-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="d33d2-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="d33d2-112">Area:</span></span>  <br/> |<span data-ttu-id="d33d2-113">Transmission définie par la classe de message</span><span class="sxs-lookup"><span data-stu-id="d33d2-113">Message class-defined transmittable</span></span>  <br/> |
+|<span data-ttu-id="0a5c8-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="0a5c8-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="0a5c8-107">PR_FREEBUSY_COUNT_MONTHS</span><span class="sxs-lookup"><span data-stu-id="0a5c8-107">PR_FREEBUSY_COUNT_MONTHS</span></span>  <br/> |
+|<span data-ttu-id="0a5c8-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="0a5c8-108">Identifier:</span></span>  <br/> |<span data-ttu-id="0a5c8-109">0x6869</span><span class="sxs-lookup"><span data-stu-id="0a5c8-109">0x6869</span></span>  <br/> |
+|<span data-ttu-id="0a5c8-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="0a5c8-110">Data type:</span></span>  <br/> |<span data-ttu-id="0a5c8-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="0a5c8-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="0a5c8-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="0a5c8-112">Area:</span></span>  <br/> |<span data-ttu-id="0a5c8-113">Message défini comme transmettable par la classe</span><span class="sxs-lookup"><span data-stu-id="0a5c8-113">Message class-defined transmittable</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d33d2-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="d33d2-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0a5c8-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="0a5c8-114">Remarks</span></span>
 
-<span data-ttu-id="d33d2-115">La valeur de cette propriété doit être supérieure ou égale à 0 et inférieure ou égale à 36.</span><span class="sxs-lookup"><span data-stu-id="d33d2-115">This property's value must be greater than or equal to 0 and less than or equal to 36.</span></span> <span data-ttu-id="d33d2-116">Cette propriété n'est pas obligatoire.</span><span class="sxs-lookup"><span data-stu-id="d33d2-116">This is not a required property.</span></span>
+<span data-ttu-id="0a5c8-115">La valeur de cette propriété doit être supérieure ou égale à 0 et inférieure ou égale à 36.</span><span class="sxs-lookup"><span data-stu-id="0a5c8-115">This property's value must be greater than or equal to 0 and less than or equal to 36.</span></span> <span data-ttu-id="0a5c8-116">Il ne s’agit pas d’une propriété obligatoire.</span><span class="sxs-lookup"><span data-stu-id="0a5c8-116">This is not a required property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="d33d2-117">Ressources associées</span><span class="sxs-lookup"><span data-stu-id="d33d2-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="0a5c8-117">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="0a5c8-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="d33d2-118">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="d33d2-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="0a5c8-118">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="0a5c8-118">Protocol specifications</span></span>
 
-<span data-ttu-id="d33d2-119">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d33d2-119">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="0a5c8-119">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0a5c8-119">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="d33d2-120">Publie la disponibilité d'un utilisateur ou d'une ressource.</span><span class="sxs-lookup"><span data-stu-id="d33d2-120">Publishes the availability of a user or resource.</span></span>
+> <span data-ttu-id="0a5c8-120">Publie la disponibilité d’un utilisateur ou d’une ressource.</span><span class="sxs-lookup"><span data-stu-id="0a5c8-120">Publishes the availability of a user or resource.</span></span>
     
-<span data-ttu-id="d33d2-121">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d33d2-121">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="0a5c8-121">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0a5c8-121">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="d33d2-122">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="d33d2-122">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="0a5c8-122">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="0a5c8-122">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="d33d2-123">Fichiers d'en-tête</span><span class="sxs-lookup"><span data-stu-id="d33d2-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="0a5c8-123">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="0a5c8-123">Header files</span></span>
 
-<span data-ttu-id="d33d2-124">Mapidefs. h</span><span class="sxs-lookup"><span data-stu-id="d33d2-124">Mapidefs.h</span></span>
+<span data-ttu-id="0a5c8-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="0a5c8-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="d33d2-125">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="d33d2-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="0a5c8-125">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="0a5c8-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="d33d2-126">Mapitags. h</span><span class="sxs-lookup"><span data-stu-id="d33d2-126">Mapitags.h</span></span>
+<span data-ttu-id="0a5c8-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="0a5c8-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="d33d2-127">Contient les définitions des propriétés figurant en tant que noms de substitution.</span><span class="sxs-lookup"><span data-stu-id="d33d2-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="0a5c8-127">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="0a5c8-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d33d2-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d33d2-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0a5c8-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0a5c8-128">See also</span></span>
 
 
 
-[<span data-ttu-id="d33d2-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="d33d2-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="0a5c8-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="0a5c8-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="d33d2-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="d33d2-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="0a5c8-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="0a5c8-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="d33d2-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="d33d2-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="0a5c8-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="0a5c8-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="d33d2-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="d33d2-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="0a5c8-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="0a5c8-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
