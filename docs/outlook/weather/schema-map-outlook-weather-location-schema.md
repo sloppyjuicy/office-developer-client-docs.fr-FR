@@ -1,5 +1,5 @@
 ---
-title: Mappage de schéma (schéma d’emplacement météorologique Outlook)
+title: Plan de schéma (schéma d’emplacement météo Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
-description: Cette rubrique présente la définition de schéma pour le schéma XML d’emplacement météorologique Outlook.
+description: Cette rubrique présente la définition de schéma pour le schéma XML d’emplacement météo Outlook.
 ms.openlocfilehash: e35a993c44c9f54168a7ad5c38e13e850d530a2d
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541280"
 ---
-# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="97358-103">Mappage de schéma (schéma d’emplacement météorologique Outlook)</span><span class="sxs-lookup"><span data-stu-id="97358-103">Schema map (Outlook Weather Location Schema)</span></span>
+# <a name="schema-map-outlook-weather-location-schema"></a><span data-ttu-id="0b9c9-103">Plan de schéma (schéma d’emplacement météo Outlook)</span><span class="sxs-lookup"><span data-stu-id="0b9c9-103">Schema map (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="97358-104">Cette rubrique présente la définition de schéma pour le schéma XML d’emplacement météorologique Outlook.</span><span class="sxs-lookup"><span data-stu-id="97358-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
+<span data-ttu-id="0b9c9-104">Cette rubrique présente la définition de schéma pour le schéma XML d’emplacement météo Outlook.</span><span class="sxs-lookup"><span data-stu-id="0b9c9-104">This topic shows the schema definition for the Outlook Weather Location XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>

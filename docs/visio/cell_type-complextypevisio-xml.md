@@ -1,5 +1,5 @@
 ---
-title: ComplexType Cell_Type (Visio XML)
+title: Cell_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542302"
 ---
-# <a name="celltype-complextype-visio-xml"></a><span data-ttu-id="42b7e-102">ComplexType Cell_Type (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="42b7e-102">Cell_Type complexType (Visio XML)</span></span>
+# <a name="cell_type-complextype-visio-xml"></a><span data-ttu-id="9b24f-102">Cell_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="9b24f-102">Cell_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="42b7e-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="42b7e-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="9b24f-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="9b24f-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="42b7e-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="42b7e-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="42b7e-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="42b7e-105">**Schema file**</span></span> <br/> |<span data-ttu-id="42b7e-106">VisioSchema15-2012-06 -05. xsd</span><span class="sxs-lookup"><span data-stu-id="42b7e-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="42b7e-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="42b7e-107">**Extension base**</span></span> <br/> |<span data-ttu-id="42b7e-108">Aucun</span><span class="sxs-lookup"><span data-stu-id="42b7e-108">None</span></span>  <br/> |
+|<span data-ttu-id="9b24f-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="9b24f-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="9b24f-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="9b24f-105">**Schema file**</span></span> <br/> |<span data-ttu-id="9b24f-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="9b24f-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="9b24f-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="9b24f-107">**Extension base**</span></span> <br/> |<span data-ttu-id="9b24f-108">Aucun</span><span class="sxs-lookup"><span data-stu-id="9b24f-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="42b7e-109">Définition</span><span class="sxs-lookup"><span data-stu-id="42b7e-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="9b24f-109">Définition</span><span class="sxs-lookup"><span data-stu-id="9b24f-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="Cell_Type">
@@ -56,24 +56,24 @@ ms.locfileid: "34542302"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="42b7e-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="42b7e-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="9b24f-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="9b24f-110">Elements and attributes</span></span>
 
-<span data-ttu-id="42b7e-111">Si le schéma définit des exigences spécifiques, telles que **Sequence**, **minOccurs**, **maxOccurs**et **Choice**, reportez-vous à la section définition.</span><span class="sxs-lookup"><span data-stu-id="42b7e-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="9b24f-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="9b24f-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="42b7e-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="42b7e-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="9b24f-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="9b24f-112">Child elements</span></span>
 
-|<span data-ttu-id="42b7e-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="42b7e-113">**Element**</span></span>|<span data-ttu-id="42b7e-114">**Type**</span><span class="sxs-lookup"><span data-stu-id="42b7e-114">**Type**</span></span>|<span data-ttu-id="42b7e-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="42b7e-115">**Description**</span></span>|
+|<span data-ttu-id="9b24f-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="9b24f-113">**Element**</span></span>|<span data-ttu-id="9b24f-114">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="9b24f-114">**Type**</span></span>|<span data-ttu-id="9b24f-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="9b24f-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="42b7e-116">RefBy</span><span class="sxs-lookup"><span data-stu-id="42b7e-116">RefBy</span></span>](refby-element-cell_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="42b7e-117">RefBy_Type</span><span class="sxs-lookup"><span data-stu-id="42b7e-117">RefBy_Type</span></span>](refby_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="9b24f-116">RefBy</span><span class="sxs-lookup"><span data-stu-id="9b24f-116">RefBy</span></span>](refby-element-cell_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="9b24f-117">RefBy_Type</span><span class="sxs-lookup"><span data-stu-id="9b24f-117">RefBy_Type</span></span>](refby_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="42b7e-118">Attributs</span><span class="sxs-lookup"><span data-stu-id="42b7e-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="9b24f-118">Attributs</span><span class="sxs-lookup"><span data-stu-id="9b24f-118">Attributes</span></span>
 
-|<span data-ttu-id="42b7e-119">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="42b7e-119">**Attribute**</span></span>|<span data-ttu-id="42b7e-120">**Type**</span><span class="sxs-lookup"><span data-stu-id="42b7e-120">**Type**</span></span>|<span data-ttu-id="42b7e-121">**Obligatoire**</span><span class="sxs-lookup"><span data-stu-id="42b7e-121">**Required**</span></span>|<span data-ttu-id="42b7e-122">**Description**</span><span class="sxs-lookup"><span data-stu-id="42b7e-122">**Description**</span></span>|<span data-ttu-id="42b7e-123">**Valeurs possibles**</span><span class="sxs-lookup"><span data-stu-id="42b7e-123">**Possible values**</span></span>|
+|<span data-ttu-id="9b24f-119">**Attribut**</span><span class="sxs-lookup"><span data-stu-id="9b24f-119">**Attribute**</span></span>|<span data-ttu-id="9b24f-120">**Type**</span><span class="sxs-lookup"><span data-stu-id="9b24f-120">**Type**</span></span>|<span data-ttu-id="9b24f-121">**Obligatoire**</span><span class="sxs-lookup"><span data-stu-id="9b24f-121">**Required**</span></span>|<span data-ttu-id="9b24f-122">**Description**</span><span class="sxs-lookup"><span data-stu-id="9b24f-122">**Description**</span></span>|<span data-ttu-id="9b24f-123">**Valeurs possibles**</span><span class="sxs-lookup"><span data-stu-id="9b24f-123">**Possible values**</span></span>|
 |:-----|:-----|:-----|:-----|:-----|
-|<span data-ttu-id="42b7e-124">E</span><span class="sxs-lookup"><span data-stu-id="42b7e-124">E</span></span>  <br/> |<span data-ttu-id="42b7e-125">xsd: String</span><span class="sxs-lookup"><span data-stu-id="42b7e-125">xsd:string</span></span>  <br/> |<span data-ttu-id="42b7e-126">facultatif</span><span class="sxs-lookup"><span data-stu-id="42b7e-126">optional</span></span>  <br/> ||<span data-ttu-id="42b7e-127">Valeurs du type xsd: String.</span><span class="sxs-lookup"><span data-stu-id="42b7e-127">Values of the xsd:string type.</span></span>  <br/> |
-|<span data-ttu-id="42b7e-128">F</span><span class="sxs-lookup"><span data-stu-id="42b7e-128">F</span></span>  <br/> |<span data-ttu-id="42b7e-129">xsd: String</span><span class="sxs-lookup"><span data-stu-id="42b7e-129">xsd:string</span></span>  <br/> |<span data-ttu-id="42b7e-130">facultatif</span><span class="sxs-lookup"><span data-stu-id="42b7e-130">optional</span></span>  <br/> ||<span data-ttu-id="42b7e-131">Valeurs du type xsd: String.</span><span class="sxs-lookup"><span data-stu-id="42b7e-131">Values of the xsd:string type.</span></span>  <br/> |
-|<span data-ttu-id="42b7e-132">N</span><span class="sxs-lookup"><span data-stu-id="42b7e-132">N</span></span>  <br/> |<span data-ttu-id="42b7e-133">xsd: String</span><span class="sxs-lookup"><span data-stu-id="42b7e-133">xsd:string</span></span>  <br/> |<span data-ttu-id="42b7e-134">obligatoire</span><span class="sxs-lookup"><span data-stu-id="42b7e-134">required</span></span>  <br/> ||<span data-ttu-id="42b7e-135">Valeurs du type xsd: String.</span><span class="sxs-lookup"><span data-stu-id="42b7e-135">Values of the xsd:string type.</span></span>  <br/> |
-|<span data-ttu-id="42b7e-136">U</span><span class="sxs-lookup"><span data-stu-id="42b7e-136">U</span></span>  <br/> |<span data-ttu-id="42b7e-137">xsd: String</span><span class="sxs-lookup"><span data-stu-id="42b7e-137">xsd:string</span></span>  <br/> |<span data-ttu-id="42b7e-138">facultatif</span><span class="sxs-lookup"><span data-stu-id="42b7e-138">optional</span></span>  <br/> ||<span data-ttu-id="42b7e-139">Valeurs du type xsd: String.</span><span class="sxs-lookup"><span data-stu-id="42b7e-139">Values of the xsd:string type.</span></span>  <br/> |
-|<span data-ttu-id="42b7e-140">V</span><span class="sxs-lookup"><span data-stu-id="42b7e-140">V</span></span>  <br/> |<span data-ttu-id="42b7e-141">xsd: String</span><span class="sxs-lookup"><span data-stu-id="42b7e-141">xsd:string</span></span>  <br/> |<span data-ttu-id="42b7e-142">facultatif</span><span class="sxs-lookup"><span data-stu-id="42b7e-142">optional</span></span>  <br/> ||<span data-ttu-id="42b7e-143">Valeurs du type xsd: String.</span><span class="sxs-lookup"><span data-stu-id="42b7e-143">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="9b24f-124">E</span><span class="sxs-lookup"><span data-stu-id="9b24f-124">E</span></span>  <br/> |<span data-ttu-id="9b24f-125">xsd:string</span><span class="sxs-lookup"><span data-stu-id="9b24f-125">xsd:string</span></span>  <br/> |<span data-ttu-id="9b24f-126">facultatif</span><span class="sxs-lookup"><span data-stu-id="9b24f-126">optional</span></span>  <br/> ||<span data-ttu-id="9b24f-127">Valeurs du type xsd:string.</span><span class="sxs-lookup"><span data-stu-id="9b24f-127">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="9b24f-128">F</span><span class="sxs-lookup"><span data-stu-id="9b24f-128">F</span></span>  <br/> |<span data-ttu-id="9b24f-129">xsd:string</span><span class="sxs-lookup"><span data-stu-id="9b24f-129">xsd:string</span></span>  <br/> |<span data-ttu-id="9b24f-130">facultatif</span><span class="sxs-lookup"><span data-stu-id="9b24f-130">optional</span></span>  <br/> ||<span data-ttu-id="9b24f-131">Valeurs du type xsd:string.</span><span class="sxs-lookup"><span data-stu-id="9b24f-131">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="9b24f-132">N</span><span class="sxs-lookup"><span data-stu-id="9b24f-132">N</span></span>  <br/> |<span data-ttu-id="9b24f-133">xsd:string</span><span class="sxs-lookup"><span data-stu-id="9b24f-133">xsd:string</span></span>  <br/> |<span data-ttu-id="9b24f-134">obligatoire</span><span class="sxs-lookup"><span data-stu-id="9b24f-134">required</span></span>  <br/> ||<span data-ttu-id="9b24f-135">Valeurs du type xsd:string.</span><span class="sxs-lookup"><span data-stu-id="9b24f-135">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="9b24f-136">U</span><span class="sxs-lookup"><span data-stu-id="9b24f-136">U</span></span>  <br/> |<span data-ttu-id="9b24f-137">xsd:string</span><span class="sxs-lookup"><span data-stu-id="9b24f-137">xsd:string</span></span>  <br/> |<span data-ttu-id="9b24f-138">facultatif</span><span class="sxs-lookup"><span data-stu-id="9b24f-138">optional</span></span>  <br/> ||<span data-ttu-id="9b24f-139">Valeurs du type xsd:string.</span><span class="sxs-lookup"><span data-stu-id="9b24f-139">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="9b24f-140">V</span><span class="sxs-lookup"><span data-stu-id="9b24f-140">V</span></span>  <br/> |<span data-ttu-id="9b24f-141">xsd:string</span><span class="sxs-lookup"><span data-stu-id="9b24f-141">xsd:string</span></span>  <br/> |<span data-ttu-id="9b24f-142">facultatif</span><span class="sxs-lookup"><span data-stu-id="9b24f-142">optional</span></span>  <br/> ||<span data-ttu-id="9b24f-143">Valeurs du type xsd:string.</span><span class="sxs-lookup"><span data-stu-id="9b24f-143">Values of the xsd:string type.</span></span>  <br/> |
    
 
