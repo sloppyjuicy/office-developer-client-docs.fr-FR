@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417629"
 ---
-# <a name="syncstate"></a><span data-ttu-id="47b2a-103">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="47b2a-103">SYNCSTATE</span></span>
+# <a name="syncstate"></a><span data-ttu-id="28cf0-103">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="28cf0-103">SYNCSTATE</span></span>
 
-<span data-ttu-id="47b2a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="47b2a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="28cf0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="28cf0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="47b2a-105">Cette structure définit les États de la machine à États de réplication.</span><span class="sxs-lookup"><span data-stu-id="47b2a-105">This structure defines the states for the replication state machine.</span></span>
+<span data-ttu-id="28cf0-105">Cette structure définit les états de la machine à états de réplication.</span><span class="sxs-lookup"><span data-stu-id="28cf0-105">This structure defines the states for the replication state machine.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="47b2a-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="47b2a-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="28cf0-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="28cf0-106">Quick info</span></span>
 
 ```cpp
 typedef enum { 
@@ -41,9 +41,9 @@ typedef enum {
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="47b2a-107">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="47b2a-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="28cf0-107">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="28cf0-107">See also</span></span>
 
-- [<span data-ttu-id="47b2a-108">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="47b2a-108">About the Replication API</span></span>](about-the-replication-api.md)
-- [<span data-ttu-id="47b2a-109">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="47b2a-109">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="47b2a-110">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="47b2a-110">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="28cf0-108">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="28cf0-108">About the Replication API</span></span>](about-the-replication-api.md)
+- [<span data-ttu-id="28cf0-109">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="28cf0-109">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="28cf0-110">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="28cf0-110">MAPI Constants</span></span>](mapi-constants.md)
 

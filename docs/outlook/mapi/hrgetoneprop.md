@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416054"
 ---
-# <a name="hrgetoneprop"></a><span data-ttu-id="02c42-103">HrGetOneProp</span><span class="sxs-lookup"><span data-stu-id="02c42-103">HrGetOneProp</span></span>
+# <a name="hrgetoneprop"></a><span data-ttu-id="227c9-103">HrGetOneProp</span><span class="sxs-lookup"><span data-stu-id="227c9-103">HrGetOneProp</span></span>
 
   
   
-<span data-ttu-id="02c42-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="02c42-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="227c9-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="227c9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="02c42-105">Récupère la valeur d'une propriété unique à partir d'une interface de propriété, c'est-à-dire une interface dérivée de [IMAPIProp](imapipropiunknown.md).</span><span class="sxs-lookup"><span data-stu-id="02c42-105">Retrieves the value of a single property from a property interface, that is, an interface derived from [IMAPIProp](imapipropiunknown.md).</span></span> 
+<span data-ttu-id="227c9-105">Extrait la valeur d’une propriété unique à partir d’une interface de propriété, c’est-à-dire une interface dérivée [d’IMAPIProp](imapipropiunknown.md).</span><span class="sxs-lookup"><span data-stu-id="227c9-105">Retrieves the value of a single property from a property interface, that is, an interface derived from [IMAPIProp](imapipropiunknown.md).</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="02c42-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="02c42-106">Header file:</span></span>  <br/> |<span data-ttu-id="02c42-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="02c42-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="02c42-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="02c42-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="02c42-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="02c42-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="02c42-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="02c42-110">Called by:</span></span>  <br/> |<span data-ttu-id="02c42-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="02c42-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="227c9-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="227c9-106">Header file:</span></span>  <br/> |<span data-ttu-id="227c9-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="227c9-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="227c9-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="227c9-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="227c9-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="227c9-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="227c9-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="227c9-110">Called by:</span></span>  <br/> |<span data-ttu-id="227c9-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="227c9-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 HrGetOneProp(
@@ -41,43 +41,43 @@ HrGetOneProp(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="02c42-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="02c42-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="227c9-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="227c9-112">Parameters</span></span>
 
- <span data-ttu-id="02c42-113">_PMP_</span><span class="sxs-lookup"><span data-stu-id="02c42-113">_pmp_</span></span>
+ <span data-ttu-id="227c9-113">_pmp_</span><span class="sxs-lookup"><span data-stu-id="227c9-113">_pmp_</span></span>
   
-> <span data-ttu-id="02c42-114">dans Pointeur vers l'interface [IMAPIProp](imapipropiunknown.md) à partir de laquelle la valeur de propriété doit être récupérée.</span><span class="sxs-lookup"><span data-stu-id="02c42-114">[in] Pointer to the [IMAPIProp](imapipropiunknown.md) interface from which the property value is to be retrieved.</span></span> 
+> <span data-ttu-id="227c9-114">[in] Pointeur vers [l’interface IMAPIProp](imapipropiunknown.md) à partir de laquelle la valeur de propriété doit être récupérée.</span><span class="sxs-lookup"><span data-stu-id="227c9-114">[in] Pointer to the [IMAPIProp](imapipropiunknown.md) interface from which the property value is to be retrieved.</span></span> 
     
- <span data-ttu-id="02c42-115">_ulPropTag_</span><span class="sxs-lookup"><span data-stu-id="02c42-115">_ulPropTag_</span></span>
+ <span data-ttu-id="227c9-115">_ulPropTag_</span><span class="sxs-lookup"><span data-stu-id="227c9-115">_ulPropTag_</span></span>
   
-> <span data-ttu-id="02c42-116">dans Balise de propriété de la propriété à récupérer.</span><span class="sxs-lookup"><span data-stu-id="02c42-116">[in] Property tag of the property to be retrieved.</span></span> 
+> <span data-ttu-id="227c9-116">[in] Balise de propriété de la propriété à récupérer.</span><span class="sxs-lookup"><span data-stu-id="227c9-116">[in] Property tag of the property to be retrieved.</span></span> 
     
- <span data-ttu-id="02c42-117">_ppprop_</span><span class="sxs-lookup"><span data-stu-id="02c42-117">_ppprop_</span></span>
+ <span data-ttu-id="227c9-117">_ppprop_</span><span class="sxs-lookup"><span data-stu-id="227c9-117">_ppprop_</span></span>
   
-> <span data-ttu-id="02c42-118">remarquer Pointeur vers un pointeur vers la structure [SPropValue](spropvalue.md) renvoyée qui définit la valeur de la propriété récupérée.</span><span class="sxs-lookup"><span data-stu-id="02c42-118">[out] Pointer to a pointer to the returned [SPropValue](spropvalue.md) structure defining the retrieved property value.</span></span> 
+> <span data-ttu-id="227c9-118">[out] Pointeur vers un pointeur vers la structure [SPropValue renvoyée](spropvalue.md) définissant la valeur de propriété récupérée.</span><span class="sxs-lookup"><span data-stu-id="227c9-118">[out] Pointer to a pointer to the returned [SPropValue](spropvalue.md) structure defining the retrieved property value.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="02c42-119">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="02c42-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="227c9-119">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="227c9-119">Return value</span></span>
 
-<span data-ttu-id="02c42-120">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="02c42-120">MAPI_E_NOT_FOUND</span></span> 
+<span data-ttu-id="227c9-120">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="227c9-120">MAPI_E_NOT_FOUND</span></span> 
   
-> <span data-ttu-id="02c42-121">La propriété demandée n'est pas disponible à partir de l'interface spécifiée.</span><span class="sxs-lookup"><span data-stu-id="02c42-121">The requested property is not available from the specified interface.</span></span>
+> <span data-ttu-id="227c9-121">La propriété demandée n’est pas disponible à partir de l’interface spécifiée.</span><span class="sxs-lookup"><span data-stu-id="227c9-121">The requested property is not available from the specified interface.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="02c42-122">Remarques</span><span class="sxs-lookup"><span data-stu-id="02c42-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="227c9-122">Remarques</span><span class="sxs-lookup"><span data-stu-id="227c9-122">Remarks</span></span>
 
-<span data-ttu-id="02c42-123">Contrairement à la méthode [IMAPIProp:: GetProps](imapiprop-getprops.md) , la fonction **HrGetOneProp** ne renvoie aucun avertissement.</span><span class="sxs-lookup"><span data-stu-id="02c42-123">Unlike the [IMAPIProp::GetProps](imapiprop-getprops.md) method, the **HrGetOneProp** function never returns any warning.</span></span> <span data-ttu-id="02c42-124">Étant donné qu'elle récupère une seule propriété, elle réussit ou échoue.</span><span class="sxs-lookup"><span data-stu-id="02c42-124">Because it retrieves only one property, it simply either succeeds or fails.</span></span> <span data-ttu-id="02c42-125">Pour récupérer plusieurs propriétés, **GetProps** est plus rapide.</span><span class="sxs-lookup"><span data-stu-id="02c42-125">For retrieving multiple properties, **GetProps** is faster.</span></span> 
+<span data-ttu-id="227c9-123">Contrairement à [la méthode IMAPIProp::GetProps,](imapiprop-getprops.md) la fonction **HrGetOneProp** ne renvoie jamais d’avertissement.</span><span class="sxs-lookup"><span data-stu-id="227c9-123">Unlike the [IMAPIProp::GetProps](imapiprop-getprops.md) method, the **HrGetOneProp** function never returns any warning.</span></span> <span data-ttu-id="227c9-124">Comme elle récupère une seule propriété, elle réussit ou échoue simplement.</span><span class="sxs-lookup"><span data-stu-id="227c9-124">Because it retrieves only one property, it simply either succeeds or fails.</span></span> <span data-ttu-id="227c9-125">Pour récupérer plusieurs propriétés, **GetProps** est plus rapide.</span><span class="sxs-lookup"><span data-stu-id="227c9-125">For retrieving multiple properties, **GetProps** is faster.</span></span> 
   
-<span data-ttu-id="02c42-126">Vous pouvez définir ou modifier une seule propriété à l'aide de la fonction [HrSetOneProp](hrsetoneprop.md) .</span><span class="sxs-lookup"><span data-stu-id="02c42-126">You can set or change a single property with the [HrSetOneProp](hrsetoneprop.md) function.</span></span> 
+<span data-ttu-id="227c9-126">Vous pouvez définir ou modifier une propriété unique avec [la fonction HrSetOneProp.](hrsetoneprop.md)</span><span class="sxs-lookup"><span data-stu-id="227c9-126">You can set or change a single property with the [HrSetOneProp](hrsetoneprop.md) function.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="02c42-127">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="02c42-127">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="227c9-127">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="227c9-127">MFCMAPI reference</span></span>
 
-<span data-ttu-id="02c42-128">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="02c42-128">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="227c9-128">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="227c9-128">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="02c42-129">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="02c42-129">**File**</span></span>|<span data-ttu-id="02c42-130">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="02c42-130">**Function**</span></span>|<span data-ttu-id="02c42-131">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="02c42-131">**Comment**</span></span>|
+|<span data-ttu-id="227c9-129">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="227c9-129">**File**</span></span>|<span data-ttu-id="227c9-130">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="227c9-130">**Function**</span></span>|<span data-ttu-id="227c9-131">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="227c9-131">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="02c42-132">MAPIFunctions. cpp</span><span class="sxs-lookup"><span data-stu-id="02c42-132">MAPIFunctions.cpp</span></span>  <br/> |<span data-ttu-id="02c42-133">GetMAPIObjectType</span><span class="sxs-lookup"><span data-stu-id="02c42-133">GetMAPIObjectType</span></span>  <br/> |<span data-ttu-id="02c42-134">MFCMAPI utilise la méthode **HrGetOneProp** pour récupérer le type d'un objet.</span><span class="sxs-lookup"><span data-stu-id="02c42-134">MFCMAPI uses the **HrGetOneProp** method to retrieve the type of an object.</span></span>  <br/> |
+|<span data-ttu-id="227c9-132">MAPIFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="227c9-132">MAPIFunctions.cpp</span></span>  <br/> |<span data-ttu-id="227c9-133">GetMAPIObjectType</span><span class="sxs-lookup"><span data-stu-id="227c9-133">GetMAPIObjectType</span></span>  <br/> |<span data-ttu-id="227c9-134">MFCMAPI utilise la **méthode HrGetOneProp** pour récupérer le type d’un objet.</span><span class="sxs-lookup"><span data-stu-id="227c9-134">MFCMAPI uses the **HrGetOneProp** method to retrieve the type of an object.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="02c42-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="02c42-135">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="227c9-135">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="227c9-135">See also</span></span>
 
 
 
-[<span data-ttu-id="02c42-136">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="02c42-136">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="227c9-136">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="227c9-136">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

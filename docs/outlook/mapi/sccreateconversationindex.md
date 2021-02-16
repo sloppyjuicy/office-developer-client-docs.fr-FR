@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415655"
 ---
-# <a name="sccreateconversationindex"></a><span data-ttu-id="445a3-103">ScCreateConversationIndex</span><span class="sxs-lookup"><span data-stu-id="445a3-103">ScCreateConversationIndex</span></span>
+# <a name="sccreateconversationindex"></a><span data-ttu-id="61ebf-103">ScCreateConversationIndex</span><span class="sxs-lookup"><span data-stu-id="61ebf-103">ScCreateConversationIndex</span></span>
 
   
   
-<span data-ttu-id="445a3-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="445a3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="61ebf-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="61ebf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="445a3-105">Indique l'emplacement dans un thread de message auquel un message appartient.</span><span class="sxs-lookup"><span data-stu-id="445a3-105">Indicates where in a message thread a message belongs.</span></span> 
+<span data-ttu-id="61ebf-105">Indique où appartient un message dans un thread de message.</span><span class="sxs-lookup"><span data-stu-id="61ebf-105">Indicates where in a message thread a message belongs.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="445a3-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="445a3-106">Header file:</span></span>  <br/> |<span data-ttu-id="445a3-107">Mapiutil. h</span><span class="sxs-lookup"><span data-stu-id="445a3-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="445a3-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="445a3-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="445a3-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="445a3-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="445a3-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="445a3-110">Called by:</span></span>  <br/> |<span data-ttu-id="445a3-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="445a3-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="61ebf-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="61ebf-106">Header file:</span></span>  <br/> |<span data-ttu-id="61ebf-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="61ebf-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="61ebf-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="61ebf-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="61ebf-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="61ebf-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="61ebf-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="61ebf-110">Called by:</span></span>  <br/> |<span data-ttu-id="61ebf-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="61ebf-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE ScCreateConversationIndex(
@@ -42,28 +42,28 @@ SCODE ScCreateConversationIndex(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="445a3-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="445a3-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="61ebf-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="61ebf-112">Parameters</span></span>
 
- <span data-ttu-id="445a3-113">_cbParent_</span><span class="sxs-lookup"><span data-stu-id="445a3-113">_cbParent_</span></span>
+ <span data-ttu-id="61ebf-113">_cbParent_</span><span class="sxs-lookup"><span data-stu-id="61ebf-113">_cbParent_</span></span>
   
-> <span data-ttu-id="445a3-114">dans Nombre d'octets dans l'index de conversation parente.</span><span class="sxs-lookup"><span data-stu-id="445a3-114">[in] Count of bytes in the parent conversation index.</span></span>
+> <span data-ttu-id="61ebf-114">[in] Nombre d’octets dans l’index de conversation parent.</span><span class="sxs-lookup"><span data-stu-id="61ebf-114">[in] Count of bytes in the parent conversation index.</span></span>
     
- <span data-ttu-id="445a3-115">_lpbParent_</span><span class="sxs-lookup"><span data-stu-id="445a3-115">_lpbParent_</span></span>
+ <span data-ttu-id="61ebf-115">_lpbParent_</span><span class="sxs-lookup"><span data-stu-id="61ebf-115">_lpbParent_</span></span>
   
-> <span data-ttu-id="445a3-116">dans Pointeur vers des octets dans l'index de conversation parente.</span><span class="sxs-lookup"><span data-stu-id="445a3-116">[in] Pointer to bytes in the parent conversation index.</span></span> <span data-ttu-id="445a3-117">Cette valeur peut être NULL si _cbParent_ est égal à zéro.</span><span class="sxs-lookup"><span data-stu-id="445a3-117">This may be NULL if  _cbParent_ is zero.</span></span> 
+> <span data-ttu-id="61ebf-116">[in] Pointeur vers des octets dans l’index de conversation parent.</span><span class="sxs-lookup"><span data-stu-id="61ebf-116">[in] Pointer to bytes in the parent conversation index.</span></span> <span data-ttu-id="61ebf-117">Cette valeur peut être NULL si  _cbParent_ a la valeur zéro.</span><span class="sxs-lookup"><span data-stu-id="61ebf-117">This may be NULL if  _cbParent_ is zero.</span></span> 
     
- <span data-ttu-id="445a3-118">_lpcbIndex_</span><span class="sxs-lookup"><span data-stu-id="445a3-118">_lpcbIndex_</span></span>
+ <span data-ttu-id="61ebf-118">_lpcbIndex_</span><span class="sxs-lookup"><span data-stu-id="61ebf-118">_lpcbIndex_</span></span>
   
-> <span data-ttu-id="445a3-119">remarquer Pointeur vers le nombre d'octets dans le nouvel index de conversation renvoyé par l'appel.</span><span class="sxs-lookup"><span data-stu-id="445a3-119">[out] Pointer to the count of bytes in the new conversation index returned by the call.</span></span> 
+> <span data-ttu-id="61ebf-119">[out] Pointeur vers le nombre d’octets dans le nouvel index de conversation renvoyé par l’appel.</span><span class="sxs-lookup"><span data-stu-id="61ebf-119">[out] Pointer to the count of bytes in the new conversation index returned by the call.</span></span> 
     
- <span data-ttu-id="445a3-120">_lppbIndex_</span><span class="sxs-lookup"><span data-stu-id="445a3-120">_lppbIndex_</span></span>
+ <span data-ttu-id="61ebf-120">_lppbIndex_</span><span class="sxs-lookup"><span data-stu-id="61ebf-120">_lppbIndex_</span></span>
   
-> <span data-ttu-id="445a3-121">remarquer Pointeur vers un pointeur vers le nouvel index de conversation renvoyé par l'appel.</span><span class="sxs-lookup"><span data-stu-id="445a3-121">[out] Pointer to a pointer to the new conversation index returned by the call.</span></span>
+> <span data-ttu-id="61ebf-121">[out] Pointeur vers un pointeur vers le nouvel index de conversation renvoyé par l’appel.</span><span class="sxs-lookup"><span data-stu-id="61ebf-121">[out] Pointer to a pointer to the new conversation index returned by the call.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="445a3-122">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="445a3-122">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="61ebf-122">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="61ebf-122">Return value</span></span>
 
-<span data-ttu-id="445a3-123">S_OK</span><span class="sxs-lookup"><span data-stu-id="445a3-123">S_OK</span></span> 
+<span data-ttu-id="61ebf-123">S_OK</span><span class="sxs-lookup"><span data-stu-id="61ebf-123">S_OK</span></span> 
   
-> <span data-ttu-id="445a3-124">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="445a3-124">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="61ebf-124">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="61ebf-124">The call succeeded and has returned the expected value or values.</span></span>
     
 
