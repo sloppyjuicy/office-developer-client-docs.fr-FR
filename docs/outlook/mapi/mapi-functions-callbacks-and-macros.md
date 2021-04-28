@@ -1,7 +1,7 @@
 ---
 title: Fonctions, rappels et macros MAPI
-manager: soliver
-ms.date: 12/07/2015
+manager: lindalu
+ms.date: 04/27/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -9,19 +9,19 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 2474e5b66e9c8147a1e8a554dea21d541c430edf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+description: 'Last modified: April 27, 2021'
+ms.openlocfilehash: cf9761413d26ef56912bba342d52834a23e83935
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423488"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061312"
 ---
 # <a name="mapi-functions-callbacks-and-macros"></a>Fonctions, rappels et macros MAPI
 
  
   
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S'applique** à : Outlook 2013 | Outlook 2016 | Outlook 2019
   
 Les entrées alphabétiques suivantes contiennent de la documentation pour les fonctions MAPI, les rappels et les macros. 
   
@@ -31,7 +31,8 @@ Les entrées alphabétiques suivantes contiennent de la documentation pour les f
 |[BuildDisplayTable](builddisplaytable.md) <br/> |[CALLERRELEASE](callerrelease.md) <br/> |
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |[CheckParameters](checkparms.md) <br/> |
 |[CheckParms](checkparms.md) <br/> |[CloseIMsgSession](closeimsgsession.md) <br/> |
-|[CreateIProp](createiprop.md) <br/> |[CreateTable](createtable.md) <br/> |
+|[CreateIProp](createiprop.md) <br/> |[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md) <br/> |
+|[CreateTable](createtable.md) <br/> |  <br/>|
 |[DeinitMapiUtil](deinitmapiutil.md) <br/> |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |
 |[DISMISSMODELESS](dismissmodeless.md) <br/> |[EnableIdleRoutine](enableidleroutine.md) <br/> |
 |[FBadColumnSet](fbadcolumnset.md) <br/> |[FBadEntryList](fbadentrylist.md) <br/> |
