@@ -8,12 +8,12 @@ api_type:
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 'Derniére modification : samedi 23 juillet 2011'
 localization_priority: Priority
-ms.openlocfilehash: 934bb491c0521b1d76d5400aac4728fbd34ba625
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8b7c02f2ac39875021cd183bbb1657514912fe8d
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334869"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061341"
 ---
 # <a name="file-format-of-mapisvcinf"></a>Format de fichier de MapiSvc.inf
 
@@ -27,9 +27,9 @@ MapiSvc.inf est divisé en sections hiérarchiques liées :
     
    - Section **[Services]** fournissant des liens vers chacune des sections de service de messagerie suivantes. 
     
-   - Section **[Help File Mappings] ** contenant des informations relatives aux fichiers .HLP fournis par les services de messagerie. 
+   - Section **[Help File Mappings]** contenant des informations relatives aux fichiers .HLP fournis par les services de messagerie. 
     
-   - Section **[Default Services] ** répertoriant les services de messagerie qui composent une installation par défaut. 
+   - Section **[Default Services]** répertoriant les services de messagerie qui composent une installation par défaut. 
     
 2. Section contenant des informations qui s’appliquent aux services de messagerie individuels. Les entrées de ces sections fournissent des liens vers les sections de fournisseur de services suivantes.
     
@@ -39,7 +39,7 @@ L’illustration suivante montre l’organisation d’un fichier MapiSvc.inf cla
   
 **Organisation du fichier MapiSvc.inf**
   
-![Organisation des fichiers MapiSvc.inf](media/amapi_30.gif "organisation fichier MapiSvc.inf")
+![Organisation du fichier MapiSvc.inf](media/amapi_30.gif "Organisation du fichier MapiSvc.inf")
   
 MAPI fournit une version squelette du fichier MapiSvc.inf contenant les entrées du sous-système MAPI. Chaque intervenant du service de messagerie ajoute des entrées adaptées à la fois pour leur service et les fournisseurs de services appartenant à leur service. Certaines des entrées sont requises alors que d’autres sont facultatives. Par exemple, MAPI nécessite que vous spécifiiez le nom et le chemin d’accès de chacun des fournisseurs de services dans votre service de messagerie. Sans ces informations, les fournisseurs de services ne peuvent pas être chargés.
   
@@ -49,4 +49,7 @@ Si votre service de messagerie est un service de fournisseur unique, stockez tou
   
 Dans le fichier MapiSvc.inf, ne stockez que les données de configuration publiques. Les informations privées ou qui nécessitent une protection supplémentaire, comme les mots de passe ou d’autres informations d’identification, ne devraient pas être incluses dans ce fichier. Au lieu de cela, choisissez de ne pas stocker les informations de ce type ou de les conserver dans le profil en tant que propriétés sécurisées. Les propriétés sécurisées offrent des fonctionnalités de protection intégrées telles que le chiffrement.
   
+## <a name="reference"></a>Référence
+
+Pour plus d’informations sur la résolution des erreurs si MAPI bloque une DLL de fournisseur, voir [Comment autoriser MAPI à charger les DLL du fournisseur non enregistré](https://support.microsoft.com/topic/how-to-allow-mapi-to-load-unregistered-provider-dlls-18d9a1cd-d3d7-fa10-473e-5dfd62d38b0d).
 
