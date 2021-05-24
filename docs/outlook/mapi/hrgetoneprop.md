@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e5adc7d0c317d8b803645d78227777998d7d241f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 95273bf6025d6ef995d7c21c0e44bdbbf59072f6
+ms.sourcegitcommit: fb521c23df785c9c3aefa5062272b2630a32e587
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416054"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589172"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
@@ -34,14 +34,14 @@ Extrait la valeur d’une propriété unique à partir d’une interface de prop
 |Appelé par :  <br/> |Applications clientes et fournisseurs de services  <br/> |
    
 ```cpp
-HrGetOneProp(
+HRESULT HrGetOneProp(
   LPMAPIPROP pmp,
   ULONG ulPropTag,
   LPSPropValue FAR * ppprop
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pmp_
   
