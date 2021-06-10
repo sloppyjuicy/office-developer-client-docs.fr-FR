@@ -52,5 +52,5 @@ L'instruction ADD USER comporte trois parties :
 
 ## <a name="remarks"></a>Remarques
 
-Une fois *qu’un* utilisateur a  été ajouté à un *groupe,* il dispose de toutes les autorisations qui ont été accordées au *groupe.*
+Une fois *qu’un* utilisateur *a* été ajouté à un groupe, *il* dispose de toutes les autorisations qui ont été accordées au *groupe.*
 

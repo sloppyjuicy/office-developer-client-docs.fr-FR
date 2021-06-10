@@ -19,7 +19,7 @@ ms.locfileid: "32300594"
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. **Long** (en lecture/écriture).
+Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur **Long** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 

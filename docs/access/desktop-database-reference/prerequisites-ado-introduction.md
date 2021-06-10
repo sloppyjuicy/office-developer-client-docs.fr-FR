@@ -18,7 +18,7 @@ ms.locfileid: "32301441"
 
 **S’applique à** : Access 2013, Office 2013
 
-Le *guide du programmeur ADO s’avérera* utile pour les développeurs de tous horizons. Ils doivent néanmoins avoir un niveau d'expérience intermédiaire dans le développement d'applications avec Microsoft Visual Basic, car la plupart des exemples de ce guide sont rédigés dans ce langage. D’autres exemples sont écrits en Microsoft Visual C++, Java, Visual Basic, Scripting Edition (VBScript) et Microsoft JScript.
+Le *guide du programmeur ADO s’avérera* utile pour les développeurs avec un large éventail d’arrière-plans. Ils doivent néanmoins avoir un niveau d'expérience intermédiaire dans le développement d'applications avec Microsoft Visual Basic, car la plupart des exemples de ce guide sont rédigés dans ce langage. D’autres exemples sont écrits en Microsoft Visual C++, Java, Visual Basic, Scripting Edition (VBScript) et Microsoft JScript.
 
 Dans la mesure où ADO est utilisé pour l'accès aux données de différentes sources, les lecteurs doivent également comprendre les concepts fondamentaux de gestion des systèmes de base de données relationnelles, les concepts de traitement analytique en ligne (OLAP), ainsi qu'une connaissance de base d'Internet et de ses protocoles.
 

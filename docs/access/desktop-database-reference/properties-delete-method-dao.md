@@ -26,7 +26,7 @@ Supprime l'objet **Property** spécifié de la collection **Properties**.
 
 *expression* Variable qui représente un objet **Properties.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

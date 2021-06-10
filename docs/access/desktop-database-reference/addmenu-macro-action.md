@@ -33,7 +33,7 @@ Vous pouvez utiliser l’action **AjouterMenu** pour créer les éléments suiva
 
 - un menu contextuel global. Le menu contextuel global remplace le menu contextuel intégré pour les champs des feuilles de données de table et de requête, des formulaires et des états, sauf là où vous avez ajouté un menu contextuel personnalisé pour un formulaire, un état ou un contrôle.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **AjouterMenu** possède les arguments suivants.
 
@@ -55,7 +55,9 @@ L’action **AjouterMenu** possède les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Nom de la macro de menu</strong></p></td>
-<td><p>Nom du groupe de macros qui contient les macros pour les commandes du menu. Cet argument est obligatoire.</p>
+<td><p>Nom du groupe de macros qui contient les macros pour les commandes du menu. Cet argument est obligatoire. 
+
+</p>
 <p><strong>REMARQUE</strong>: si vous exécutez une macro contenant l’action <strong>AjouterMenu</strong> dans une base de données bibliothèque, Microsoft Office Access 2007 recherche uniquement le groupe de macros de ce nom dans la base de données actuelle.</p></td>
 </tr>
 <tr class="odd">

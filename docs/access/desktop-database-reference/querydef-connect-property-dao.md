@@ -1,5 +1,5 @@
 ---
-title: QueryDef.Connect, propriété (DAO)
+title: QueryDef. Connecter property (DAO)
 TOCTitle: Connect Property
 ms:assetid: 14f19205-e92e-acc6-5677-b6d88772d5da
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845479(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301084"
 ---
-# <a name="querydefconnect-property-dao"></a>QueryDef.Connect, propriété (DAO)
+# <a name="querydefconnect-property-dao"></a>QueryDef. Connecter property (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui fournit des informations sur la source de base de données dans une requête SQL directe. Type de données **String** en lecture seule.
+Définit ou renvoie une valeur qui fournit des informations sur la source de base de données dans une requête SQL directe. Type **String** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -32,7 +32,7 @@ Le **Connect** paramètre de la propriété est un **chaîne** composé d’un s
 
 Pour exécuter une requête SQL directe sur une table liée à votre fichier de base de données Microsoft Access, vous devez d'abord affecter une chaîne de connexion ODBC valide à la propriété **Connect** de la base de données de la table liée.
 
-Le chemin d’accès, comme illustré dans le tableau suivant est le chemin d’accès complet pour l’annuaire contenant les fichiers de base de données et doit être précédée de l’identificateur de base de données =. Dans certains cas (comme avec Microsoft Excel et Microsoft Access base de données de bases de données moteur), un nom de fichier spécifiques à inclure dans l’argument de chemin d’accès de base de données.
+Le chemin présenté dans le tableau suivant représente le chemin complet du répertoire contenant les fichiers de base de données ; il doit être précédé par l'identificateur DATABASE=. Dans certains cas (comme avec Microsoft Excel et les bases de données avec moteur de base de données Microsoft Access), vous devez inclure un nom de fichier spécifique à l'argument du chemin de la base de données.
 
 Le tableau suivant indique les types de base de données possible et leur spécificateurs de base de données correspondantes et les chemins d’accès relatifs le **Connect** paramètre de la propriété.
 

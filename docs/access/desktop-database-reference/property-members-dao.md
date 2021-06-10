@@ -49,11 +49,11 @@ Un objet Property représente une caractéristique prédéfinie ou définie par 
 </tr>
 <tr class="even">
 <td><p><strong><a href="property-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. <strong>Entier</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type <strong>Integer</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="property-value-property-dao.md">Valeur</a></strong></p></td>
-<td><p>Définit ou renvoie la valeur d'un objet. Type de données <strong>Variant</strong> en lecture-écriture.</p></td>
+<td><p>Définit ou renvoie la valeur d'un objet. Type <strong>Variant</strong> en lecture/écriture.</p></td>
 </tr>
 </tbody>
 </table>

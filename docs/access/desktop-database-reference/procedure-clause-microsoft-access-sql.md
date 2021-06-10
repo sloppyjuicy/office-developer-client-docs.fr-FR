@@ -1,5 +1,5 @@
 ---
-title: PROCEDURE clause (Microsoft Access SQL)
+title: CLAUSE PROCEDURE (Microsoft Access SQL)
 TOCTitle: PROCEDURE clause (Microsoft Access SQL)
 ms:assetid: a718802c-9260-88d5-ec29-d5e5594927b0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821342(v=office.15)
@@ -20,7 +20,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301378"
 ---
-# <a name="procedure-clause-microsoft-access-sql"></a>PROCEDURE clause (Microsoft Access SQL)
+# <a name="procedure-clause-microsoft-access-sql"></a>CLAUSE PROCEDURE (Microsoft Access SQL)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -37,8 +37,9 @@ La clause PROCEDURE est composée des arguments suivants :
 
 |Élément |Description |
 |:----|:-----------|
-|*name* |Nom de la procédure. Ce nom doit respecter les conventions d'affectation des noms standard.|
-|*param1*, *param2* |Un ou plusieurs noms de champ ou paramètres. Par exemple :<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Pour plus d’informations sur les paramètres, voir [paramètres.](parameters-declaration-microsoft-access-sql.md)|
+|*name* |Nom donné à la procédure. Ce nom doit respecter les conventions d'affectation des noms standard.|
+|*param1*, *param2* |Un ou plusieurs noms de champ ou paramètres. Par exemple :
+<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Pour plus d’informations sur les paramètres, voir [paramètres.](parameters-declaration-microsoft-access-sql.md)|
 |*datatype* | Un des principaux [types de données Microsoft Access SQL](sql-data-types.md) ou un de leurs synonymes. |
 
 

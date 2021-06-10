@@ -38,17 +38,17 @@ Indique si la méthode [UpdateBatch](updatebatch-method-ado.md) est suivie d’u
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAll</strong></p></td>
-<td><p>15 </p></td>
+<td><p>15</p></td>
 <td><p>Appelle <strong>Resync</strong> avec la valeur combinée de tous les autres membes ADCPROP_UPDATERESYNC_ENUM.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncAutoIncrement</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Par défaut. Recherche la nouvelle valeur d'identité des colonnes automatiquement incrémentées ou générées par la source des données, comme les champs Microsoft Jet AutoNumber ou les colonnes Microsoft SQL Server Identity.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adResyncConflicts</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Appelle <strong>Resync</strong> pour toutes les lignes dans lesquelles l'opération de mise à jour ou de suppression a échoué en raison d'un conflit de concurrence.</p></td>
 </tr>
 <tr class="even">

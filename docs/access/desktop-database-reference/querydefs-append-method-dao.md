@@ -1,5 +1,5 @@
 ---
-title: QueryDefs.Append, méthode (DAO)
+title: Méthode QueryDefs.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: 9b62a26b-3b7c-6d26-7707-177b00a23178
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198041(v=office.15)
@@ -26,7 +26,7 @@ Ajoute un nouvel objet **QueryDef** à la collection **QueryDefs**.
 
 *expression* Variable qui représente un **objet QueryDefs.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

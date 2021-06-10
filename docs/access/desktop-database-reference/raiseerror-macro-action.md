@@ -23,7 +23,7 @@ L'action **DéclencherErreur** lève une exception qui peut être gérée par l'
 > [!NOTE]
 > [!REMARQUE] L'action **DéclencherErreur** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **DéclencherErreur** utilise les arguments suivants.
 
