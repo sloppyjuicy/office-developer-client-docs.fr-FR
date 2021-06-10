@@ -38,7 +38,7 @@ Spécifie le format lors de l’extraction d’un [Recordset](recordset-object-a
 <tbody>
 <tr class="odd">
 <td><p><strong>adClipString</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Délimite les lignes par <em>RowDelimiter</em>, les colonnes par <em>ColumnDelimiter</em> et les valeurs nulles par <em>NullExpr</em>. Ces trois paramètres de la méthode <a href="getstring-method-ado.md">GetString</a> ne sont valides qu’avec un <em>StringFormat</em> de <strong>adClipString</strong>.</p></td>
 </tr>
 </tbody>

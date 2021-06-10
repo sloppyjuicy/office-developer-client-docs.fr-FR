@@ -57,7 +57,7 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 </tr>
 <tr class="odd">
 <td><p>dbHiddenObject</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Table masquée (pour une utilisation temporaire).</p></td>
 </tr>
 <tr class="even">

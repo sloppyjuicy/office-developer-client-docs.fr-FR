@@ -41,7 +41,7 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-createindex-method-dao.md">CreateIndex</a></strong></p></td>
-<td><p>Crée un objet <strong><a href="index-object-dao.md">Index</a></strong> (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Crée un nouvel objet <strong><a href="index-object-dao.md">Index</a></strong> (Espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
@@ -83,18 +83,18 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-connect-property-dao.md">Connect</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui fournit des informations sur une table liée. <strong>String</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui donne des informations sur une table liée. Type de données <strong>String</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Type <strong>Variant</strong> en lecture seule.</p></td>
+<td><p>Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Valeur <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-fields-property-dao.md">Fields</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-indexes-property-dao.md">Indexes</a></strong></p></td>
+<td><p><strong><a href="tabledef-indexes-property-dao.md">Index</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Indexes</strong> qui contient tous les objets <strong>Index</strong> stockés pour la table spécifiée. En lecture seule.</p></td>
 </tr>
 <tr class="odd">
@@ -123,7 +123,7 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. <strong>Boolean</strong> (en lecture seule).</p></td>
+<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-validationrule-property-dao.md">ValidationRule</a></strong></p></td>

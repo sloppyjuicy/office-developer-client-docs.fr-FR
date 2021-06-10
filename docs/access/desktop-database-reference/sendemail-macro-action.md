@@ -23,7 +23,7 @@ ms.locfileid: "32314650"
 > [!NOTE]
 > L’action **EnvoyerMessage** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **EnvoyerMessage** utilise les arguments suivants.
 
@@ -42,7 +42,7 @@ L’action **EnvoyerMessage** utilise les arguments suivants.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Pour</strong></p></td>
+<td><p><strong>To</strong></p></td>
 <td><p>Oui</p></td>
 <td><p>Destinataires du message dont vous souhaitez placer les noms sur la ligne <strong>À</strong> du message. Séparez les noms des destinataires que vous spécifiez dans cet argument (et dans les arguments <em>Cc</em> et <em>Cci)</em> par un point-virgule (;).</p></td>
 </tr>
@@ -62,7 +62,7 @@ L’action **EnvoyerMessage** utilise les arguments suivants.
 <td><p>Objet du message. Ce texte apparaît sur la ligne <strong>Objet</strong> du message.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Corps</strong></p></td>
+<td><p><strong>Body</strong></p></td>
 <td><p>Non</p></td>
 <td><p>Texte que vous souhaitez inclure dans le corps du message électronique. Si vous laissez cet argument vide, aucun texte supplémentaire n’est inclus dans le message.</p></td>
 </tr>

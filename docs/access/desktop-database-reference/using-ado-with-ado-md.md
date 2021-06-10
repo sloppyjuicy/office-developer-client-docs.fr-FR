@@ -23,9 +23,9 @@ ADO et ADO MD sont des modèles d'objet apparentés mais distincts. ADO fournit 
 
 Si vous travaillez avec un fournisseur de données multidimensionnelles (MDP), vous pouvez choisir d'utiliser ADO, ADO MD ou les deux avec votre application. En référençant les deux bibliothèques dans votre projet, vous aurez accès à toutes les fonctionnalités fournies par votre fournisseur MDP.
 
-Il peut souvent s'avérer utile d'obtenir une vue tabulaire et bidimensionnelle d'un jeu de données multidimensionnel. Pour cela, il vous suffit d'utiliser l'objet ADO [Recordset](recordset-object-ado.md). Spécifiez la source de votre objet [Cellset](cellset-object-ado-md.md) comme paramètre ***Source*** de la méthode [Open](open-method-ado-recordset.md) d’un objet **Recordset**, et non comme source d’un objet **Cellset** ADO MD.
+Il peut souvent s’avérer utile d’obtenir une vue tabulaire et bidimensionnelle d’un jeu de données multidimensionnel. Pour cela, il vous suffit d’utiliser l’objet ADO [Recordset](recordset-object-ado.md). Spécifiez la source de votre objet [Cellset](cellset-object-ado-md.md) comme paramètre ***Source*** de la méthode [Open](open-method-ado-recordset.md) d’un objet **Recordset**, et non comme source d’un objet **Cellset** ADO MD.
 
-Il peut également s'avérer utile de voir les métadonnées de schéma sous la forme d'un tableau au lieu d'une hiérarchie d'objets. La méthode [OpenSchema](openschema-method-ado.md) ADO de l'objet [Connection](connection-object-ado.md) vous permet d'ouvrir un objet **Recordset** contenant des informations de schéma. Le paramètre ***QueryType*** de la méthode **OpenSchema** comporte plusieurs valeurs [SchemaEnum](schemaenum.md) qui se rapportent aux fournisseurs MDP. Il s'agit des valeurs suivantes :
+Il peut également s’avérer utile de voir les métadonnées de schéma sous la forme d’un tableau au lieu d’une hiérarchie d’objets. La méthode [OpenSchema](openschema-method-ado.md) ADO de l’objet [Connection](connection-object-ado.md) vous permet d’ouvrir un objet **Recordset** contenant des informations de schéma. Le paramètre ***QueryType*** de la méthode **OpenSchema** comporte plusieurs valeurs [SchemaEnum](schemaenum.md) qui se rapportent aux fournisseurs MDP. Il s’agit des valeurs suivantes :
 
   - **adSchemaCubes**
 

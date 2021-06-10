@@ -94,7 +94,7 @@ Le tableau ci-dessous indique les fonctionnalités offertes par chaque composant
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Modifier les propriétés d’un tableau existant.</p></td>
+<td><p>Modifier les propriétés d’une table existante.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X</p></td>
@@ -122,7 +122,7 @@ Le tableau ci-dessous indique les fonctionnalités offertes par chaque composant
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Modifier des requêtes ou des affichages SQL de base stockés.</p></td>
+<td><p>Modifier les requêtes ou vues de base SQL stockées.</p></td>
 <td><p>X</p></td>
 <td><p></p></td>
 <td><p>X*</p></td>
@@ -206,7 +206,7 @@ Le tableau ci-dessous indique les fonctionnalités offertes par chaque composant
 
 \*\* Uniquement disponible pour la manipulation de projets Access.
 
-\*\*\* Bien que le moteur de base de données Access ne prend pas en charge certains SQL ANSI 92, il n’est pas encore entièrement conforme ANSI92.
+\*\*\*Bien que le moteur de base de données Access prend en charge certains SQL ANSI 92, il n’est pas encore entièrement conforme à ANSI92.
 
 1 Utilise un **objet Connection** pour référencer la base de données.
 

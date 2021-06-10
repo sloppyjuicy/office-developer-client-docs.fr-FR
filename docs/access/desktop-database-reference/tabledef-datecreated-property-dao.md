@@ -19,7 +19,7 @@ ms.locfileid: "32314538"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Type **Variant** en lecture seule.
+Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Valeur **Variant** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

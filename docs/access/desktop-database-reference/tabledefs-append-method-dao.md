@@ -26,7 +26,7 @@ Ajoute un nouvel objet **TableDef** à la collection **TableDefs**.
 
 *expression* Variable qui représente un **objet TableDefs.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

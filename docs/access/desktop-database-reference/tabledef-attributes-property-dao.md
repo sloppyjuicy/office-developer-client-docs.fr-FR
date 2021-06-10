@@ -20,7 +20,7 @@ ms.locfileid: "32314391"
 **S’applique à** : Access 2013, Office 2013
 
 
-Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **TableDef**. **Long** (en lecture/écriture).
+Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **TableDef**. Type de données **Long** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 

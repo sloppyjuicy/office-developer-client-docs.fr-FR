@@ -122,5 +122,5 @@ Si la section **adFldLong** de la propriété **Attributes** d'un objet **Field*
 
 S'il n'existe aucun enregistrement actif lorsque vous utilisez la méthode **GetChunk** ou **AppendChunk** sur un objet **Field**, l'erreur 3021 (aucun enregistrement actif) survient.
 
-Pour obtenir un exemple d’utilisation de ces méthodes pour manipuler des données binaires, voir les exemples de méthodes [AppendChunk et](appendchunk-method-ado.md) [GetChunk](getchunk-method-ado.md) dans la référence du *programmeur ADO.*
+Pour obtenir un exemple d’utilisation de ces méthodes pour manipuler des données binaires, voir les exemples [appendChunk Method](appendchunk-method-ado.md) et [GetChunk Method](getchunk-method-ado.md) dans la référence du *programmeur ADO.*
 

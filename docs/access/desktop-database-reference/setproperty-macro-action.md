@@ -24,7 +24,7 @@ ms.locfileid: "32314573"
 
 L'action **DéfinirPropriété** permet de définir une propriété pour un contrôle dans un formulaire ou un état.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **DéfinirPropriété** utilise les arguments suivants :
 

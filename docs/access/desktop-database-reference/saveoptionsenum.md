@@ -38,12 +38,12 @@ Spécifie si un fichier doit être créé ou remplacé en cas de sauvegarde d'un
 <tbody>
 <tr class="odd">
 <td><p><strong>adSaveCreateNotExist</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Par défaut. Crée un nouveau fichier si le fichier spécifié par le paramètre <em>FileName</em> n'existe pas déjà.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSaveCreateOverWrite</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Remplace le fichier avec les données de l'objet <strong>Stream</strong> ouvert, si le fichier spécifié par le paramètre <em>Filename</em> existe déjà.</p></td>
 </tr>
 </tbody>

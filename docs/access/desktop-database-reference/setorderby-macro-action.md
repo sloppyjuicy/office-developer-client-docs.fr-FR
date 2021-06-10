@@ -25,7 +25,7 @@ ms.locfileid: "32314608"
 
 Vous pouvez utiliser l’action **DéfinirOrdrePar** pour spécifier comment vous souhaitez trier les enregistrements d’un formulaire, d’un état, d’une table ou d’un résultat de requête.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **DéfinirOrdrePar** utilise les arguments suivants.
 

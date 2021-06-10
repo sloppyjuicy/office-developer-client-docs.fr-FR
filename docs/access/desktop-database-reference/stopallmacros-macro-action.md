@@ -25,7 +25,7 @@ ms.locfileid: "32314475"
 
 L’action **ArrêtToutesMacros** permet d’arrêter toutes les macros en cours d’exécution.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **ArrêtToutesMacros** n’utilise aucun argument.
 

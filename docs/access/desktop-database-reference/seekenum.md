@@ -38,12 +38,12 @@ Spécifie le type de [Seek](seek-method-ado.md) à exécuter.
 <tbody>
 <tr class="odd">
 <td><p>adSeekFirstEQ</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Recherche la première clé égale à <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="even">
 <td><p>adSeekLastEQ</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Recherche la dernière clé égale à <em>KeyValues</em>.</p></td>
 </tr>
 <tr class="odd">

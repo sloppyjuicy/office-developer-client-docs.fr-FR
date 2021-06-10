@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314279"
 ---
-# <a name="tabledefrefreshlink-method-dao"></a>TableDef.RefreshLink, méthode (DAO)
+# <a name="tabledefrefreshlink-method-dao"></a>TableDef.RefreshLink method (DAO)
 
 **S’applique à** : Access 2013, Office 2013
  

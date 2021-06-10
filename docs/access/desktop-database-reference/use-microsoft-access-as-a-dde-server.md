@@ -95,7 +95,7 @@ Les sections suivantes vous informent sur les sujets DDE valides pris en charge 
 
 ## <a name="the-system-topic"></a>Le sujet System
 
-La rubrique System est une rubrique standard pour toutes les applications Microsoft Windows. It supplies information about the other topics supported by the application. Pour accéder à ces informations, votre code doit d’abord appeler la fonction **DDEInitiate** avec *l’argument* sujet, puis exécuter l’instruction **DDERequest** avec l’une des instructions suivantes fournies pour l’argument  élément.
+La rubrique System est une rubrique standard pour toutes les applications Microsoft Windows basées sur un logiciel. It supplies information about the other topics supported by the application. Pour accéder à ces informations, votre code doit d’abord appeler la fonction **DDEInitiate** avec *l’argument* sujet, puis exécuter l’instruction **DDERequest** avec l’une des instructions suivantes fournies pour l’argument  élément.
 
 <table>
 <colgroup>
@@ -122,7 +122,7 @@ La rubrique System est une rubrique standard pour toutes les applications Micros
 <td><p>&quot;Occupé &quot; ou &quot; prêt &quot; .</p></td>
 </tr>
 <tr class="even">
-<td><p>Topics</p></td>
+<td><p>Rubriques</p></td>
 <td><p>Une liste de toutes les bases de données ouvertes.</p></td>
 </tr>
 </tbody>
@@ -297,16 +297,16 @@ Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *no
 <p>Valeur</p>
 <p><ul>
 <li>0</li>
-<li>1 </li>
-<li>2 </li>
-<li>3 </li>
+<li>1</li>
+<li>2</li>
+<li>3</li>
 <li>4 </li>
 <li>5 </li>
 <li>6 </li>
 <li>7 </li>
 <li>8 </li>
 <li>9 </li>
-<li>10 </li>
+<li>10</li>
 <li>11</li>
 <li>12 </li>
 </ul>
@@ -335,11 +335,11 @@ Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *no
 </tr>
 <tr class="odd">
 <td><p>SQLText</p></td>
-<td><p>Une instruction SQL représentant la table ou la requête. Pour les tableaux, cet élément renvoie une SQL sous la forme &quot; SELECT `*` FROM <em>table</em>; &quot; .</p></td>
+<td><p>Une instruction SQL représentant la table ou la requête. Pour les tableaux, cet élément renvoie une SQL sous la forme &quot; SELECT `*` FROM <em>table</em> &quot; ; .</p></td>
 </tr>
 <tr class="even">
 <td><p>SQLText ; <em>n</em></p></td>
-<td><p>Une instruction SQL, en segments de <em>n</em> caractères, représentant la table ou la requête, où <em>n</em> est un nombre entier dont la valeur ne peut dépasser 256. Par exemple, supposons qu’une requête est représentée par l’instruction SQL suivante : L’élément SQLText ;7 renvoie les blocs délimités par des tabulations suivants : &quot; &quot; L’élément &quot; SQLText ;7 renvoie les blocs délimités par des &quot; tabulations suivants :</p></td>
+<td><p>Une instruction SQL, en segments de <em>n</em> caractères, représentant la table ou la requête, où <em>n</em> est un nombre entier dont la valeur ne peut dépasser 256. Par exemple, supposons qu’une requête est représentée par l’instruction SQL suivante : L’élément SQLText;7 renvoie les blocs délimités par des tabulations suivants : &quot; &quot; L’élément &quot; SQLText ;7 renvoie les blocs délimités par des &quot; tabulations suivants :</p></td>
 </tr>
 </tbody>
 </table>

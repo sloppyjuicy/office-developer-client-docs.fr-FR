@@ -22,7 +22,7 @@ ms.locfileid: "32314370"
 
 **S’applique à** : Access 2013, Office 2013 
 
-Crée un objet **[Index](index-object-dao.md)** (espaces de travail Microsoft Access uniquement). .
+Crée un nouvel objet **[Index](index-object-dao.md)** (Espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -64,9 +64,9 @@ Index
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser la méthode **CreateIndex** afin de créer un un objet **Index** pour un objet **TableDef**. Si vous omettez le nom facultatif lorsque vous utilisez **CreateIndex,** vous pouvez utiliser une instruction d’affectation appropriée pour définir ou réinitialiser la propriété **Name** avant d’ajoutez le nouvel objet à une collection. Après l'ajout de l'objet, il n'est pas toujours possible de définir sa propriété **Name**, selon le type d'objet qui contient la collection **Indexes**. Pour plus d'informations, consultez la rubrique de la propriété **Name**.
+Vous pouvez utiliser la méthode **CreateIndex** afin de créer un un objet **Index** pour un objet **TableDef**. Si vous ne spécifiez pas l'argument name facultatif avec la méthode **CreateIndex**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou redéfinir la propriété **Name** avant d'ajouter le nouvel objet à une collection. Après l'ajout de l'objet, il n'est pas toujours possible de définir sa propriété **Name**, selon le type d'objet qui contient la collection **Indexes**. Pour plus d'informations, consultez la rubrique de la propriété **Name**.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez la **[méthode Append.](fields-append-method-dao.md)**
+Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**
 
 Pour supprimer un objet **Index** d'une collection, appelez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection.
 

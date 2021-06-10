@@ -23,7 +23,7 @@ L'action **DéfinirChamp** peut être utilisée pour assigner une valeur à un c
 > [!NOTE]
 > L’action **DéfinirChamp** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **DéfinirChamp** utilise les arguments répertoriés dans le tableau suivant.
 

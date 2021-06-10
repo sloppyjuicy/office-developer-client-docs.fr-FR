@@ -25,7 +25,7 @@ ms.locfileid: "32314643"
 
 L’action **RechercherEnregistrement** permet de rechercher un enregistrement spécifique dans une table, une requête, un formulaire ou un état.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **RechercherEnregistrement** accepte les arguments suivants.
 
@@ -60,7 +60,7 @@ L’action **RechercherEnregistrement** accepte les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Setting</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -88,7 +88,7 @@ L’action **RechercherEnregistrement** accepte les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Condition Where</strong></p></td>
-<td><p>Entrez les critères de la recherche à l’aide de la même syntaxe qu’une clause WHERE SQL, uniquement sans le mot &quot; WHERE &quot; . Par exemple :</p>
+<td><p>Entrez les critères de la recherche à l’aide de la même syntaxe qu’une clause WHERE SQL, uniquement sans le mot &quot; WHERE &quot; . Par exemple :</p>
 <p>`Description = "Beverages"`</p>
 <p>Pour créer un critère qui comprend une valeur dans une zone de texte d'un formulaire, vous devez créer une expression qui concatène la première partie du critère avec le nom de la zone de texte contenant la valeur à rechercher. Par exemple, le critère suivant recherche le champ Description de la valeur dans la zone de texte txtDescription du formulaire frmCategories. Notez le signe égal ( ) au début de l’expression et l’utilisation de guillemets simples ( ' ) de part et d’autre de la référence de <strong>=</strong> zone de texte :<strong></strong></p>
 <p>`="Description = ' " & Forms![frmCategories]![txtDescription] & "'"`</p></td>
@@ -119,7 +119,7 @@ L’action **RechercherEnregistrement** accepte les arguments suivants.
         
     `Description = "Beverages" and CategoryID = 11`
     
-  - Vous pouvez faire référence à des champs qui se trouvent dans la source d'enregistrement d'un formulaire ou d'un état mais qui n'apparaissent pas dans le formulaire ou l'état. Dans l’exemple précédent, ni Description ni CategoryID ne doivent apparaître dans le formulaire ou l’état pour que les critères fonctionnent.
+  - Vous pouvez faire référence à des champs qui se trouvent dans la source d’enregistrement d’un formulaire ou d’un état mais qui n’apparaissent pas dans le formulaire ou l’état. Dans l’exemple précédent, ni Description ni CategoryID ne doivent apparaître dans le formulaire ou l’état pour que les critères fonctionnent.
     
   - Vous pouvez utiliser des opérateurs logiques, tels que **\<**, **\>**, **ET**, **OU** et **ENTRE**. L'action **TrouverEnregistrement** ne produit que des résultats qui sont égaux à, commencent par ou contiennent la chaîne recherchée.
 

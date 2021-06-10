@@ -37,7 +37,7 @@ Spécifie les options pour l'ouverture d'un objet [Stream](stream-object-ado.md)
 <tbody>
 <tr class="odd">
 <td><p><strong>adOpenStreamAsync</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Ouvre l’objet <strong>Stream</strong> en mode asynchrone.</p></td>
 </tr>
 <tr class="even">
