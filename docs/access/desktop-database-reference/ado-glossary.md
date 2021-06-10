@@ -1,5 +1,5 @@
 ---
-title: ActiveX glossaire ADO (Data Objects)
+title: ActiveX Glossaire Data Objects (ADO)
 TOCTitle: ADO Glossary
 ms:assetid: 40f00876-7525-4117-8f57-f3d87c54be99
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
@@ -30,7 +30,7 @@ Composant COM auto-inscrit et in-process qui possède souvent un élément visue
 
 **ADISAPI (Advanced Data Internet Server Application Programming Interface)**
 
-Une DLL ISAPI qui fournit l’enquête, le contrôle Automation, le marshaling **des recordset** et l’empaquetage MIME. Le composant ADISAPI fonctionne par le biais de l’API fournie par Internet Information Services (IIS). Voir aussi **ISAPI**.
+Une DLL ISAPI qui fournit l’enquête, le contrôle Automation, le marshaling **des recordset** et l’empaquetage MIME. Le composant ADISAPI fonctionne via l’API fournie par Internet Information Services (IIS). Voir aussi **ISAPI**.
 
 **fonction d’agrégation**
 
@@ -38,7 +38,7 @@ Dans une requête, fonction telle que COUNT, AVG ou STDEV qui calcule une valeur
 
 **alias**
 
-Autre nom que vous donnez à une colonne ou une expression dans une SQL SELECT, souvent plus courte ou plus significative. Par exemple, BobSales est l’alias de l’instruction SELECT suivante : « Select wr-Sales as BobSales from SalesDB ». Un alias peut être utilisé pour affecter dynamiquement des colonnes pour contrôler les liaisons sur **l’objet DataControl.**
+Autre nom que vous donnez à une colonne ou à une expression dans une SQL SELECT, souvent plus courte ou plus significative. Par exemple, BobSales est l’alias de l’instruction SELECT suivante : « Select wr-Sales as BobSales from SalesDB ». Un alias peut être utilisé pour affecter dynamiquement des colonnes pour contrôler les liaisons sur **l’objet DataControl.**
 
 **threads de threads d’appart**
 
@@ -58,9 +58,9 @@ Mappage entre un champ d’une table et une variable. Dans les extensions Visual
 
 **masque de bits**
 
-Valeur numérique destinée à une comparaison de valeurs bit par bit avec d’autres valeurs numériques, généralement pour indicateurs des options dans les valeurs de paramètre ou de retour. En règle générale, cette comparaison est effectuée avec des opérateurs logiques au bit, tels que **And** et **Or** dans Visual Basic et **&** en **|** C++.
+Valeur numérique destinée à une comparaison de valeurs bit par bit avec d’autres valeurs numériques, généralement pour indicateurs des options dans les valeurs de paramètre ou de retour. En règle générale, cette comparaison est effectuée avec des opérateurs logiques de bits, tels que **And** et **Or** Visual Basic, **&** et en **|** C++.
 
-Par exemple, les valeurs **FieldAttributeEnum** ADO peuvent être utilisées comme masques de bits pour déterminer les attributs d’un champ. Supposons que vous vouliez déterminer si un champ était actualisable. Vous pouvez le tester avec l’expression suivante dans Visual Basic :  
+Par exemple, les valeurs ADO **FieldAttributeEnum** peuvent être utilisées comme masques de bits pour déterminer les attributs d’un champ. Supposons que vous vouliez déterminer si un champ était actualisable. Vous pouvez le tester avec l’expression suivante Visual Basic :  
   
 
 Si le résultat est TRUE, le champ peut être mis à jour.
@@ -109,25 +109,25 @@ Alias qui fait référence à l’enfant. Voir aussi **alias**, **enfant**.
 
 **CLSID (identificateur de classe)**
 
-Identificateur universel unique (UUID) qui identifie un composant COM. Chaque composant COM possède son CLSID dans le Registre Windows afin qu’il puisse être chargé par d’autres applications. Voir aussi **ProgID**, **COM**.
+Identificateur universel unique (UUID) qui identifie un composant COM. Chaque composant COM possède son CLSID dans le Windows afin qu’il puisse être chargé par d’autres applications. Voir aussi **ProgID**, **COM**.
 
 **niveau client**
 
-Couche logique d’un système distribué qui présente et traite généralement les données entrées par l’utilisateur, parfois appelée « *frontal ».* En règle générale, la couche client demande des données à partir d’un serveur en fonction de l’entrée, puis formate et affiche le résultat. Voir aussi **niveau intermédiaire**, niveau source **de données**, application **distribuée**.
+Couche logique d’un système distribué qui présente généralement des données et traite les entrées de l’utilisateur, parfois appelée « *frontal ».* En règle générale, la couche client demande des données à partir d’un serveur en fonction de l’entrée, puis formate et affiche le résultat. Voir aussi **niveau intermédiaire**, niveau source **de données**, application **distribuée**.
 
 **COM (Component Object Model)**
 
-Une norme binaire qui permet aux objets d’interopérer dans un environnement réseau, quelle que soit la langue dans laquelle ils ont été développés ou sur quels ordinateurs ils résident. Les technologies COM incluent les contrôles ActiveX, l’automatisation et la liaison et l’incorporation d’objets (OLE). COM permet à un objet d’exposer ses fonctionnalités à d’autres composants et d’héberger des applications. Il définit à la fois la façon dont l’objet s’expose lui-même et le fonctionnement de cette exposition sur les processus et sur les réseaux. COM définit également le cycle de vie de l’objet.
+Une norme binaire qui permet aux objets d’interopérer dans un environnement en réseau, quelle que soit la langue dans laquelle ils ont été développés ou sur quels ordinateurs ils résident. Les technologies COM incluent les contrôles ActiveX, l’automatisation et la liaison et l’incorporation d’objets (OLE). COM permet à un objet d’exposer ses fonctionnalités à d’autres composants et d’héberger des applications. Il définit à la fois la façon dont l’objet s’expose lui-même et le fonctionnement de cette exposition sur les processus et sur les réseaux. COM définit également le cycle de vie de l’objet.
 
 **Composant COM**
 
-Fichier binaire, tel que .dll, .ocx et certains fichiers .exe, qui prend en charge la norme COM pour la fourniture d’objets. Un tel fichier contient du code pour une ou plusieurs fabriques de classes, classes COM, mécanismes d’entrée de Registre, chargement de code, etc.
+Fichier binaire, tel que .dll, .ocx et certains fichiers .exe de données, qui prend en charge la norme COM pour la fourniture d’objets. Un tel fichier contient du code pour une ou plusieurs fabriques de classes, classes COM, mécanismes d’entrée de Registre, chargement de code, etc.
 
 **opérateur de comparaison**
 
 Opérateur qui compare deux expressions et renvoie une valeur boolé américaine.
 
-Paramètre de critère qui peut être exprimé sous la forme « ( supérieur à \> ), » (inférieur à), « = » (égal à), « = » (supérieur ou égal à), « = » (inférieur ou égal à), « ( non égal à) » (non égal à) ou « like » \< \> \< \< \> (correspondance de modèle).
+Paramètre de critère qui peut être exprimé sous la forme « ( supérieur à \> ), \< » (inférieur à), « = » (égal à), « = » (supérieur ou égal à), « = » (inférieur ou égal à), « ( non égal à) » (non égal à) ou « like » \> \< \< \> (correspondance de modèle).
 
 **component**
 
@@ -163,7 +163,7 @@ Logiciel qui expose les données à une application ADO directement ou via un fo
 
 **mise en forme des données**
 
-Technique qui utilise une syntaxe formalisée (appelée Langage de **forme)** pour définir un objet **Recordset** spécialisé (appelé jeu d’enregistrements en **forme)** qui contient non seulement des données, mais également des références à d’autres objets **Recordset** et/ou des valeurs calculées en fonction de ces autres objets **Recordset.**
+Technique qui utilise une syntaxe formalisée (appelée Langage de **forme)** pour définir un objet **Recordset** spécialisé (appelé jeu d’enregistrements en **forme)** qui contient non seulement des données, mais aussi des références à d’autres objets **Recordset** et/ou des valeurs calculées basées sur ces autres objets **Recordset.**
 
 **niveau de source de données**
 
@@ -197,7 +197,7 @@ Fichier qui contient une ou plusieurs fonctions compilées, liées et stockées 
 
 Ces instructions dans SQL qui manipulent, au lieu de définir, des données. Les valeurs d’une base de données sont sélectionnées et modifiées avec DML. Par exemple, **INSERT,** **UPDATE,** **DELETE** et **SELECT** sont SQL instructions DML.
 
-**fournisseur de source de documents**
+**fournisseur source de documents**
 
 Classe spéciale de fournisseurs qui gèrent les dossiers et les documents. Lorsqu’un document est représenté par un objet **Record** ou qu’un dossier de documents est représenté par un objet **Recordset,** le fournisseur de sources de documents remplit ces objets avec un ensemble unique de champs qui décrivent les caractéristiques du document, au lieu du document lui-même. Voir aussi **l’enregistrement de ressource.**
 
@@ -215,7 +215,7 @@ Retour au début
 
 **enumeration**
 
-Liste des constantes nommées. Les valeurs éumées ne doivent pas être uniques. Toutefois, le nom de chaque valeur doit être unique dans l’étendue dans laquelle l’éumération est définie. Dans ADO, les éumérations sont utilisées pour les valeurs de paramètre numérique et de retour, pour ajouter une signification au code ADO et protéger le développeur des valeurs numériques (qui peuvent changer de version en version). Par exemple, pour ouvrir un **recordset** statique, utilisez la valeur éumée **adOpenStatic** :  
+Liste des constantes nommées. Les valeurs éumées ne doivent pas être uniques. Toutefois, le nom de chaque valeur doit être unique dans l’étendue dans laquelle l’éumération est définie. Dans ADO, les éumérations sont utilisées pour les valeurs de retour et de paramètre numérique, pour ajouter une signification au code ADO et protéger le développeur des valeurs numériques (qui peuvent changer de version en version). Par exemple, pour ouvrir un **recordset** statique, utilisez la valeur éumée **adOpenStatic** :  
   
 
 Également appelée constante *éumée*. Voir aussi **constante**.
@@ -234,13 +234,13 @@ Routine qui gère une condition ou une opération courante et relativement simpl
 
 **recordset hiérarchique**
 
-Un **recordset** qui contient un autre **recordset**. Voir aussi **mise en forme des** données , **chapitre**.
+Un **recordset** qui contient un autre **recordset**. Voir aussi **mise en forme des données**, **chapitre**.
 
 Pour plus d’informations, [voir Accessing Rows in a Hierarchical Recordset](accessing-rows-in-a-hierarchical-recordset.md)
 
 **hiérarchie**
 
-En règle générale, une hiérarchie est une structure classée avec un niveau supérieur et des niveaux subordonnés. Dans ADO,  les jeux d’enregistrements hiérarchiques sont utilisés pour représenter la relation parent-enfant entre un enregistrement et un chapitre. En outre, dans ADO, les objets **Record** et **Stream** peuvent être utilisés pour accéder aux structures d’arborescence hiérarchiques telles qu’un dossier et des documents. ADO MD inclut également **des objets Hierarchy** pour représenter une relation entre les niveaux d’une dimension dans un cube OLAP. Voir aussi **jeux d’enregistrements hiérarchiques**, **relation parent-enfant**, **chapitre**, **arborescence**.
+En règle générale, une hiérarchie est une structure classée avec un niveau supérieur et des niveaux subordonnés. Dans ADO,  les jeux d’enregistrements hiérarchiques sont utilisés pour représenter la relation parent-enfant entre un enregistrement et un chapitre. Par ailleurs, dans ADO, les objets **Record** et **Stream** peuvent être utilisés pour accéder à des arborescences hiérarchiques telles qu’un dossier et des documents. ADO MD inclut également **des objets Hierarchy** pour représenter une relation entre les niveaux d’une dimension dans un cube OLAP. Voir aussi **jeux d’enregistrements hiérarchiques**, **relation parent-enfant**, **chapitre**, **arborescence**.
 
 **ISAPI (Internet Server Application Programming Interface)**
 
@@ -260,7 +260,7 @@ Processus d’empaquetage, d’envoi et de décompressage des paramètres de mé
 
 **niveau intermédiaire**
 
-Couche logique dans un système distribué entre une interface utilisateur ou un client web et la base de données. C’est généralement là que les objets métier sont ins instantiés. Le niveau intermédiaire est un ensemble de règles et de fonctions métiers qui génèrent et opèrent sur la réception d’informations. Ils y parviennent par le biais de règles métiers, qui peuvent changer fréquemment et sont donc encapsulées dans des composants physiquement séparés de la logique de l’application elle-même. Également appelé niveau *serveur d’applications.* Voir aussi **application distribuée**, **niveau client**, niveau source **de données**.
+Couche logique dans un système distribué entre une interface utilisateur ou un client web et la base de données. C’est généralement là que les objets métier sont ins instantiés. Le niveau intermédiaire est un ensemble de règles et de fonctions métiers qui génèrent et opèrent sur la réception d’informations. Ils y parviennent par le biais de règles métiers, qui peuvent changer fréquemment et sont donc encapsulées dans des composants physiquement séparés de la logique de l’application elle-même. Également appelé niveau *serveur d’applications.* Voir aussi **l’application distribuée,** **la couche client,** la **couche source de données.**
 
 **MIME (Extension de messagerie Internet à usage multiple)**
 
@@ -306,13 +306,13 @@ Retour au début
 
 ## <a name="p"></a>P
 
-**commande paramétrisée**
+**commande paramétisée**
 
 Requête ou commande qui vous permet de définir des valeurs de paramètre avant l’exécution de la commande. Par exemple, une chaîne SQL peut être paramétrisée en insérez des marqueurs de paramètres dans la chaîne SQL (désignée par le caractère « ? »). L’application spécifie ensuite des valeurs pour chaque paramètre et exécute la commande.
 
 **parent**
 
-Côté contrôle d’une relation hiérarchique. Dans une structure hiérarchique, un parent a un ou plusieurs nodes enfants directement en dessous dans la hiérarchie. Voir aussi **parent-alias**, **relation parent-enfant**, **enfant**.
+Côté de contrôle d’une relation hiérarchique. Dans une structure hiérarchique, un parent a un ou plusieurs nodes enfants directement en dessous dans la hiérarchie. Voir aussi **parent-alias**, **relation parent-enfant**, **enfant**.
 
 **parent-alias**
 
@@ -338,7 +338,7 @@ Optimisation des performances basée sur l’utilisation de collections de resso
 
 **ProgID (identificateur programmatique)**
 
-Nom unique mappé au Registre Windows par une application COM. Le ProgID d’une connexion ADO est « ADODB. Connection « . Voir aussi **CLSID**, **COM**.
+Nom unique mappé au registre Windows par une application COM. Le ProgID d’une connexion ADO est « ADODB. Connection « . Voir aussi **CLSID**, **COM**.
 
 **proxy**
 
@@ -360,7 +360,7 @@ Source de données qui existe sur un autre ordinateur, plutôt que sur le systè
 
 Enregistrement d’un fournisseur de source de documents qui contient des champs pour la définition et la description d’un dossier ou d’un document. Le document lui-même n’est pas contenu dans l’enregistrement de ressource, mais il est généralement accessible par le flux par défaut ou un champ dans l’enregistrement de ressource contenant une URL. Voir aussi **le fournisseur source de document**, flux par **défaut**, **URL**.
 
-**racine**
+**root**
 
 Niveau supérieur dans une structure d’arborescence hiérarchique. Le nœud racine n’a pas de parents, mais peut avoir des enfants. Voir aussi **hiérarchie**, **arborescence**, **parent**, **enfant**.
 
@@ -378,7 +378,7 @@ Description d’une base de données vers le système de gestion de base de donn
 
 **scope**
 
-Plage de références pour un objet ou une variable ou une plage d’enregistrements dans une vue ou une table. Par exemple, les variables locales ne peuvent être référencés que dans la procédure dans laquelle elles ont été définies. Les variables publiques sont accessibles n’importe où dans l’application. Les objets, tels que la base de données actuelle, sont dans l’étendue s’ils sont dans le chemin de recherche défini. Les plages d’enregistrement peuvent être spécifiées avec une clause Scope dans de nombreuses commandes.
+Plage de références pour un objet ou une variable ou une plage d’enregistrements dans une vue ou une table. Par exemple, les variables locales peuvent être référencés uniquement dans la procédure dans laquelle elles ont été définies. Les variables publiques sont accessibles n’importe où dans l’application. Les objets, tels que la base de données actuelle, sont dans l’étendue s’ils sont dans le chemin de recherche défini. Les plages d’enregistrement peuvent être spécifiées avec une clause Scope dans de nombreuses commandes.
 
 **fournisseur de services**
 
@@ -390,7 +390,7 @@ Un **recordset** dont les colonnes ont été spécifiquement définies pour cont
 
 **frère**
 
-Au moins deux nodes dans une structure hiérarchique qui se sont au même niveau dans la hiérarchie. Le nœud racine d’une hiérarchie n’a pas de frères.
+Deux ou plusieurs nodes d’une structure hiérarchique qui sont au même niveau dans la hiérarchie. Le nœud racine d’une hiérarchie n’a pas de frères.
 
 **procédure stockée**
 

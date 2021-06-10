@@ -43,7 +43,7 @@ Spécifie si un séparateur de ligne est ajouté à la chaîne écrite dans un o
 </tr>
 <tr class="even">
 <td><p><strong>adWriteLine</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Écrit une chaîne de texte et un caractère de séparateur de ligne dans un objet <strong>Stream</strong>. Si la propriété <a href="lineseparator-property-ado.md">LineSeparator</a> n’est pas définie, une erreur d’exécution est renvoyée.</p></td>
 </tr>
 </tbody>

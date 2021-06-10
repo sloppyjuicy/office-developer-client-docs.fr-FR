@@ -27,7 +27,7 @@ L'action **ExécuterImportationExportationSauvegardée** vous permet d'exécuter
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **ExécuterImportationExportationSauvegardée** possède l’argument suivant.
 

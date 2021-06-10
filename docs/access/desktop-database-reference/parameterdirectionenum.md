@@ -37,17 +37,17 @@ Précise si le [paramètre](parameter-object-ado.md) représente un paramètre d
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamInput</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Par défaut. Indique que le paramètre est un paramètre de saisie.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adParamInputOutput</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indique que le paramètre est un paramètre de saisie et de sortie.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adParamOutput</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique que le paramètre représente un paramètre de sortie.</p></td>
 </tr>
 <tr class="even">

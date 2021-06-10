@@ -38,7 +38,7 @@ Cette propriété vous permet de répliquer des données d'un réplica complet d
 
 Pour répliquer toutes les commandes de la région Californie, vous devez indiquer que la relation entre les tables Orders et Customers sera active lors de la réplication. Une fois le réplica partiel créé, les étapes suivantes le renseignent avec toutes les commandes de la région Californie :
 
-1.  Définissez **la propriété ReplicaFilter** sur l’objet **Customers TableDef** sur « Region = 'CA' ».
+1.  Définissez **la propriété ReplicaFilter** de l’objet **Customers TableDef** sur « Region = 'CA' ».
 
 2.  Définissez la valeur de la propriété **PartialReplica** sur **True** au niveau de l'objet **Relation** correspondant à la relation entre les tables Orders et Customers.
 

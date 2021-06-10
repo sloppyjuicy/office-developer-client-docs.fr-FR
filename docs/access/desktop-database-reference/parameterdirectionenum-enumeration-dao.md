@@ -37,17 +37,17 @@ Cette énumération est utilisée avec la propriété **Direction** pour spécif
 <tbody>
 <tr class="odd">
 <td><p>dbParamInput</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>(Valeur par défaut) Transmet des informations à la procédure.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbParamInputOutput</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Transmet des informations de la procédure et à la procédure.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbParamOutput</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Renvoie des informations de la procédure en tant que paramètre de sortie dans SQL.</p></td>
 </tr>
 <tr class="even">

@@ -30,7 +30,7 @@ Ajoute un nouvel objet **Relation** à la collection **Relations**.
 
 *expression* Variable qui représente un objet **Relations.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

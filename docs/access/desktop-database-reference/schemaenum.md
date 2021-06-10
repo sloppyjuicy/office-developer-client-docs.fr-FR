@@ -58,13 +58,13 @@ CONSTRAINT_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaCatalogs</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Renvoie les attributs physiques associés aux catalogues accessibles depuis le DBMS. (CATALOGS Rowset)</p></td>
 <td><p>CATALOG_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaCharacterSets</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Renvoie les jeux de caractères définis dans le catalogue et accessibles par un utilisateur donné. (CHARACTER_SETS Rowset)</p></td>
 <td><p>CHARACTER_SET_CATALOG<br />
 CHARACTER_SET_SCHEMA<br />
@@ -80,7 +80,7 @@ CONSTRAINT_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaCollations</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Renvoie les collations de caractères définies dans le catalogue et accessibles par un utilisateur donné. (COLLATIONS Rowset)</p></td>
 <td><p>COLLATION_CATALOG<br />
 COLLATION_SCHEMA<br />
@@ -88,7 +88,7 @@ COLLATION_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaColumnPrivileges</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Renvoie les privilèges des colonnes des tables définies dans le catalogue,  accordés à un utilisateur donné, ou accordés par ce dernier. (COLUMN_PRIVILEGES Rowset)</p></td>
 <td><p>TABLE_CATALOG<br />
 TABLE_SCHEMA<br />
@@ -144,13 +144,13 @@ CUBE_NAME</p></td>
 <td><p><strong>adSchemaDBInfoKeywords</strong></p></td>
 <td><p>30</p></td>
 <td><p>Renvoie la liste des mots réservés spécifiques aux fournisseur. (IDBInfo::GetKeywords *)</p></td>
-<td><p>&lt;Aucun&gt;</p></td>
+<td><p>&lt;Aucune&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaDBInfoLiterals</strong></p></td>
 <td><p>31</p></td>
 <td><p>Renvoie la liste des chaînes littérales spécifiques aux fournisseurs et utilisées dans les commandes texte. (IDBInfo::GetLiteralInfo *)</p></td>
-<td><p>&lt;Aucun&gt;</p></td>
+<td><p>&lt;Aucune&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaDimensions</strong></p></td>
@@ -327,7 +327,7 @@ SCHEMA_OWNER</p></td>
 <td><p><strong>adSchemaSQLLanguages</strong></p></td>
 <td><p>18 </p></td>
 <td><p>Renvoie les niveaux de conformité, les options et les dialectes pris en charge par les données de traitement d'implémentation SQL définies dans le catalogue. (SQL_LANGUAGES Rowset)</p></td>
-<td><p>&lt;Aucun&gt;</p></td>
+<td><p>&lt;Aucune&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaStatistics</strong></p></td>
@@ -339,7 +339,7 @@ TABLE_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaTableConstraints</strong></p></td>
-<td><p>10 </p></td>
+<td><p>10</p></td>
 <td><p>Renvoie les contraintes de table définies dans le catalogue et dont est propriétaire un utilisateur donné. (TABLE_CONSTRAINTS Rowset)</p></td>
 <td><p>CONSTRAINT_CATALOG<br />
 CONSTRAINT_SCHEMA<br />
@@ -385,7 +385,7 @@ TRANSLATION_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaUsagePrivileges</strong></p></td>
-<td><p>15 </p></td>
+<td><p>15</p></td>
 <td><p>Renvoie les privilèges USAGE sur les objets définis dans le catalogue et qui sont disponibles pour un utilisateur donné, ou accordés par ce dernier. (USAGE_PRIVILEGES Rowset)</p></td>
 <td><p>OBJECT_CATALOG<br />
 OBJECT_SCHEMA<br />

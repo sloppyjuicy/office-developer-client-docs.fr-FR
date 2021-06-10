@@ -29,7 +29,7 @@ où :
 |*modèle*|Indique comment accéder à la *ressource*.|
 |*Serveur*|Indique le nom de l'ordinateur où réside la *ressource*.|
 |*chemin d'accès*|Indique la séquence de répertoires menant à la cible. Si la *ressource* est omise, la cible est le dernier répertoire figurant dans le *chemin d'accès*.|
-|*resource*|Si elle est incluse, la *ressource* est la cible et indique en général le nom d'un fichier. Il peut s’agit d’un *fichier simple* contenant un seul flux binaire d’octets ou d’un *document* structuré contenant un ou plusieurs stockages et flux binaires d’octets.|
+|*resource*|Si elle est incluse, la *ressource* est la cible et indique en général le nom d'un fichier. Il peut s’agit d’un *fichier simple* contenant un seul flux binaire d’octets ou d’un *document* structuré contenant un ou plusieurs stockages et des flux binaires d’octets.|
 
 Une *URL absolue* contient toutes les informations nécessaires pour localiser une ressource.
 
@@ -37,7 +37,7 @@ Une *URL relative* localise une ressource en utilisant une URL absolue comme poi
 
 ## <a name="url-scheme-registration"></a>Enregistrement du schéma d’URL
 
-Si un fournisseur prend en charge plusieurs URL, il sera enregistré pour un ou plusieurs modèles d'URL. C'est-à-dire que les URL utilisant ces modèles appelleront automatiquement le fournisseur enregistré. Par exemple, le modèle *http* est enregistré pour le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). ADO suppose que toutes les URL avec le préfixe « http » représentent des dossiers web ou des fichiers à utiliser avec le fournisseur de publication Internet. Pour plus d'informations sur les modèles enregistrés par votre fournisseur, consultez la documentation de ce dernier.
+Si un fournisseur prend en charge plusieurs URL, il sera enregistré pour un ou plusieurs modèles d'URL. C'est-à-dire que les URL utilisant ces modèles appelleront automatiquement le fournisseur enregistré. Par exemple, le modèle *http* est enregistré pour le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). ADO suppose que toutes les URL préfixées avec le préfixe « http » représentent des dossiers web ou des fichiers à utiliser avec le fournisseur de publication Internet. Pour plus d'informations sur les modèles enregistrés par votre fournisseur, consultez la documentation de ce dernier.
 
 ## <a name="defining-context-with-a-url"></a>Définition d’un contexte avec une URL
 
@@ -81,5 +81,5 @@ recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect
 
 Le début d'une URL complète est le *modèle* utilisé pour accéder à la ressource identifiée par le reste de l'URL. Par exemple, HTTP (HyperText Transfer Protocol) et FTP (File Transfer Protocol).
 
-ADO supports OLE DB providers that recognize their own URL schemes. Par exemple, le fournisseur [Microsoft OLE DB](microsoft-ole-db-provider-for-internet-publishing.md)pour la publication Internet, qui accède aux fichiers Windows 2000 « publiés », reconnaît le schéma HTTP existant.
+ADO supports OLE DB providers that recognize their own URL schemes. Par exemple, le fournisseur [Microsoft OLE DB](microsoft-ole-db-provider-for-internet-publishing.md)pour la publication Internet, qui accède aux fichiers « publiés » Windows 2000, reconnaît le schéma HTTP existant.
 

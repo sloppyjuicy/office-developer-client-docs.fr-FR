@@ -27,7 +27,7 @@ Vous pouvez utiliser l'action **DéfinirElémentMenu** pour définir l'état des
 > [!NOTE]
 > [!REMARQUE] L'action **DéfinirElémentMenu** fonctionne uniquement avec les menus personnalisés et globaux générés à l'aide de macros de menu. L'action **DéfinirElémentMenu** est incluse dans Microsoft Access à la seule fin de compatibilité avec les versions antérieures. Il ne fonctionne pas avec les fonctionnalités de la barre de commandes. Vous pouvez toutefois utiliser les propriétés **Enabled** et **State** dans un module Visual Basic pour Applications (VBA) afin de désactiver, d'activer, de sélectionner ou de désélectionner des éléments des menus contextuels ou des menus personnalisés ou globaux.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **DéfinirElémentMenu** accepte les arguments suivants.
 

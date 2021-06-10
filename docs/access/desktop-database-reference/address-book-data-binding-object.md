@@ -54,7 +54,7 @@ Le tableau suivant décrit les paramètres associés à la balise OBJECT.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Parameter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -82,7 +82,7 @@ Le tableau suivant décrit les paramètres spécifiques à l’objet **RDS.DataC
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Parameter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

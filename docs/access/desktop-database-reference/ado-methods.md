@@ -1,5 +1,5 @@
 ---
-title: ActiveX data objects (ADO)
+title: ActiveX Data Objects (ADO) methods
 TOCTitle: ADO methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
@@ -66,7 +66,7 @@ ms.locfileid: "32283281"
 </tr>
 <tr class="odd">
 <td><p><a href="clone-method-ado.md">Clone</a></p></td>
-<td><p>Crée une copie de l'objet <strong>Recordset</strong> à partir d'un objet <strong>Recordset</strong> existant. Le cas échéant, spécifie que le clone doit être en lecture seule.</p></td>
+<td><p>Crée une copie de l'objet <strong>Recordset</strong> à partir d'un objet <strong>Recordset</strong> existant. Spécifie éventuellement que le clone doit être en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="close-method-ado.md">Close</a></p></td>
@@ -113,7 +113,7 @@ ms.locfileid: "32283281"
 <td><p>Exécute la requête, l'instruction SQL, la procédure stockée ou le texte propre au fournisseur spécifiés.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Find</a></p></td>
+<td><p><a href="find-method-ado.md">Chercher</a></p></td>
 <td><p>Recherche, dans un objet <strong>Recordset </strong>, la ligne qui répond aux critères spécifiés.</p></td>
 </tr>
 <tr class="even">

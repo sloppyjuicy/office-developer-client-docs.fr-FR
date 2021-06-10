@@ -23,7 +23,7 @@ ms.locfileid: "32308672"
 > [!NOTE]
 > **L’action SetReturnVar** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 **L’action SetReturnVar** possède les arguments suivants.
 

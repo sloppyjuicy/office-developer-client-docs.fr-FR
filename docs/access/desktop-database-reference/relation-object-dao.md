@@ -118,7 +118,7 @@ Cet exemple illustre la façon dont un objet **Relation** existant peut contrôl
 
 <br/>
 
-Cet exemple utilise la méthode **CreateRelation** pour créer une **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** appelé Departments. Elle montre également comment la création d’une **relation** crée également tous les **index** nécessaires dans la table étrangère (l’index DepartmentsEmployees dans la table Employees).
+Cet exemple utilise la méthode **CreateRelation** pour créer une **Relation** entre l'objet **TableDef** Employees et un nouvel objet **TableDef** appelé Departments. Il montre également comment la création d’une **relation** crée également tous les **index** nécessaires dans la table étrangère (l’index DepartmentsEmployees dans la table Employees).
 
 ```vb
     Sub CreateRelationX() 

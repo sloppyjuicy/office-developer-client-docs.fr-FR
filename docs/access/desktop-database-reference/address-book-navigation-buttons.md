@@ -24,7 +24,7 @@ L’application carnet d’adresses affiche les boutons de navigation en bas de 
 
 L'application Carnet d'adresses intègre plusieurs procédures qui permettent aux utilisateurs de parcourir les données en cliquant sur les boutons **Première**, **Suivante**, **Précédente** et **Dernière**.
 
-Par exemple, le fait de cliquer sur **le premier** bouton active la procédure VBScript First \_ OnClick Sub. Cette procédure exécute une méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), qui fait de la première ligne de données la sélection actuelle. Le fait **de** cliquer sur le bouton Dernier active la procédure Last OnClick Sub, qui appelle la méthode \_ [MoveLast,](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) faisant de la dernière ligne de données la sélection actuelle. Les autres boutons de navigation fonctionnent de la même façon.
+Par exemple, le fait de cliquer sur **le premier** bouton active la procédure VBScript First \_ OnClick Sub. Cette procédure exécute une méthode [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-rds.md), qui fait de la première ligne de données la sélection actuelle. Le fait de cliquer **sur** le bouton Dernier active la procédure Last OnClick Sub, qui appelle la méthode \_ [MoveLast,](movefirst-movelast-movenext-and-moveprevious-methods-rds.md) faisant de la dernière ligne de données la sélection actuelle. Les autres boutons de navigation fonctionnent de la même façon.
 
 ```vb 
  

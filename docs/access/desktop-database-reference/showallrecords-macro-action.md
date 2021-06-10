@@ -22,7 +22,7 @@ ms.locfileid: "32308644"
 
 Vous pouvez utiliser l’action **AfficherEnregistrements** pour supprimer tout filtre appliqué de la table active, du jeu de résultats de requête ou du formulaire, et afficher tous les enregistrements de la table ou du jeu de résultats ou tous les enregistrements de la table ou de la requête sous-jacente du formulaire.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 **L’action AfficherEnregistrements** n’a pas d’arguments.
 
@@ -32,7 +32,7 @@ Vous pouvez utiliser cette action pour vous assurer que tous les enregistrements
 
 Vous pouvez également utiliser cette action pour supprimer tout filtre appliqué  avec l’action **AppliquerFiltre,** la commande Filtre sous l’onglet Accueil ou l’argument Nom du filtre ou Condition Where de l’action   **OuvrirFormulation.** 
 
-Cette action a le même  effet que de  cliquer sur Le filtre bascule sous l’onglet Accueil, ou de cliquer avec le bouton droit sur le champ filtré et de cliquer sur Effacer le filtre à partir **de...** en mode Formulaire, Mode Page ou Feuille de données.
+Cette action a le même  effet que de  cliquer sur Le filtre bascule sous l’onglet Accueil ou de cliquer avec le bouton droit sur le champ filtré et de cliquer sur Effacer le filtre à partir **de...** en mode Formulaire, En mode Page ou Feuille de données.
 
 Pour exécuter l’action **ShowAllRecords** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **ShowAllRecords** de l’objet **DoCmd.**
 

@@ -149,7 +149,7 @@ Notez les numéros utilisés dans l'index croisé :
 <td><p>DBPROP_INIT_LCID</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lieu</p></td>
+<td><p>Emplacement</p></td>
 <td><p>DBPROP_INIT_LOCATION</p></td>
 </tr>
 <tr class="even">

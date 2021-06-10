@@ -73,7 +73,7 @@ Aucun.
                             (void**)&adoRConstruct);
     ```
 
-3.  Appelez la méthode de propriété **IADORecordConstruction::p ut \_ Row** pour définir l’objet row OLE **DB** sur l’objet **Record** ADO :
+3.  Appelez la méthode de propriété **IADORecordConstruction::p ut \_ Row** pour définir l’objet Row OLE **DB** sur l’objet **Record** ADO :
     
     ```vb
         IUnknown *pUnk=NULL;

@@ -20,7 +20,7 @@ ms.locfileid: "32308497"
 
 Vous pouvez utiliser l’action **ArrêterMacro** pour arrêter la macro en cours d’exécution.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 **L’action StopMacro** ne comprend aucun argument.
 
@@ -28,7 +28,7 @@ Vous pouvez utiliser l’action **ArrêterMacro** pour arrêter la macro en cour
 
 Cette action est généralement utilisée lorsqu’une condition rend nécessaire l’arrêt de la macro. Vous pouvez utiliser une expression conditionnelle dans la ligne d'action de la macro contenant cette action. Lorsque l’expression est évaluée à **True** (–1), Microsoft Access arrête la macro.
 
-Par exemple, vous pouvez créer une macro qui ouvre un formulaire affichant les totaux de commande quotidiens de la date entrée dans une boîte de dialogue personnalisée. Vous pouvez utiliser une expression conditionnelle  pour vous assurer que le contrôle Date de commande de la boîte de dialogue contient une date valide. Si ce n’est pas le cas, l’action **MessageBox** peut afficher un message d’erreur et l’action **ArrêterMacro** peut arrêter la macro.
+Par exemple, vous pouvez créer une macro qui ouvre un formulaire affichant les totaux de commande quotidiens de la date entrée dans une boîte de dialogue personnalisée. Vous pouvez utiliser une expression conditionnelle pour vous assurer que le contrôle **Date** de commande de la boîte de dialogue contient une date valide. Si ce n’est pas le cas, l’action **MessageBox** peut afficher un message d’erreur et l’action **ArrêterMacro** peut arrêter la macro.
 
 Si la macro a utilisé les actions **Écho** ou **SetWarnings** pour désactiver l’écho ou l’affichage des messages système, l’action **ArrêterMacro** les réensaie automatiquement.
 

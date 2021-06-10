@@ -19,7 +19,7 @@ ms.locfileid: "32307545"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si vous pouvez changer un objet DAO. **Boolean** (en lecture seule).
+Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données **Boolean** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

@@ -24,7 +24,7 @@ ms.locfileid: "32308728"
 
 Vous pouvez utiliser l’action **SélectionnerObjet** pour sélectionner un objet de base de données spécifique.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **SélectionnerObjet** accepte les arguments suivants.
 
@@ -46,7 +46,7 @@ L’action **SélectionnerObjet** accepte les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Nom de l’objet</strong></p></td>
-<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p><p><strong>REMARQUE</strong>: les noms d’objets <STRONG></STRONG> pour les objets <STRONG>d’affichage</STRONG> <STRONG>serveur,</STRONG>de diagramme ou de procédure stockée ne sont pas affichés dans la zone Nom de l’objet d’un projet Access (.adp). <STRONG></STRONG></p></td>
+<td><p>Nom de l’objet à sélectionner. La zone <strong>Nom de l’objet</strong> montre tous les objets de la base de données du type sélectionné par l’argument <strong>Type d’objet</strong>. Cet argument est obligatoire sauf si vous attribuez la valeur <strong>Oui</strong> à l’argument Dans le volet de navigation.</p><p><strong>REMARQUE</strong>: les noms d’objets des objets Server <STRONG>View,</STRONG> <STRONG>Diagram</STRONG> <STRONG></STRONG> ou <STRONG>Stored Procedure</STRONG> ne sont pas affichés dans la zone Nom de l’objet d’un projet Access (.adp).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Dans le volet de navigation</strong></p></td>

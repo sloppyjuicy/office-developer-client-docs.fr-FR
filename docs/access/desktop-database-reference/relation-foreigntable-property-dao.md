@@ -23,7 +23,7 @@ ms.locfileid: "32307046"
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie le nom de la table étrangère dans une relation (espaces de travail Microsoft Access uniquement). .
+Définit ou renvoie le nom de la table étrangère d'une relation (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 

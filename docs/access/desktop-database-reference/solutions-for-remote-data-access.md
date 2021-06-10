@@ -26,7 +26,7 @@ Toutefois, vous souhaitez peut-être accéder aux sources de données indirectem
 
 Par exemple, votre page web intranet contient une application écrite en Microsoft Visual Basic Scripting Edition (VBScript), qui se connecte à IIS. IIS se connecte à son tour à la source de données, extrait les données et les traite d'une façon quelconque, puis retourne les informations traitées à votre application.
 
-Dans cet exemple, votre application ne s’est jamais connectée directement à la source de données ; IIS l’a fait. IiS a également accédé aux données au moyen d’ADO.
+Dans cet exemple, votre application ne se connecte jamais directement à la source de données ; c'est IIS qui s'y connecte et accède aux données par l'intermédiaire d'ADO.
 
 > [!NOTE]
 > L’application client/serveur n’a pas besoin d’être basée sur Internet ou sur un intranet (c’est-à-dire, basé sur le web) ; elle peut se composer uniquement de programmes compilés sur un réseau local. Toutefois, le cas type est une application web.
@@ -37,5 +37,5 @@ Si vous voulez une interface de programmation d'application simple et efficace, 
 
 ## <a name="the-solution"></a>La solution
 
-RDS définit un modèle de programmation( la séquence d’activités nécessaire pour accéder à une source de données et la mettre à jour) pour accéder aux données par le biais d’un intermédiaire, tel qu’Internet Information Services (IIS). Le modèle de programmation résume toutes les fonctionnalités de l'interface RDS.
+RDS définit un modèle de programmation( la séquence d’activités nécessaire pour accéder à une source de données et la mettre à jour) pour accéder aux données par le biais d’un intermédiaire, tel que Internet Information Services (IIS). Le modèle de programmation résume toutes les fonctionnalités de l'interface RDS.
 

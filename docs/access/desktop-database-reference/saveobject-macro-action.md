@@ -27,7 +27,7 @@ Vous pouvez utiliser l'action **EnregistrerObjet** pour enregistrer un objet Acc
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **EnregistrerObjet** utilise les arguments suivants :
 

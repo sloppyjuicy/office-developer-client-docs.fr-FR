@@ -27,7 +27,7 @@ L'action **Avertissements** permet d'activer ou de désactiver les messages syst
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **Avertissements** utilise les arguments suivants :
 

@@ -28,7 +28,7 @@ Renvoie une valeur de type **Variant** qui contient un objet **Command**. La val
 
 La propriété  **ActiveCommand** est en lecture seule.
 
-Si un **objet Command** n’a pas été utilisé pour créer le **recordset** actuel, une référence d’objet **Null** est renvoyée.
+Si un **objet Command** n’a pas été utilisé pour créer l’objet **Recordset** actuel, une référence d’objet **Null** est renvoyée.
 
 Utilisez cette propriété pour rechercher l'objet **Command** associé lorsque vous ne recevez que l'objet **Recordset** qui en résulte.
 

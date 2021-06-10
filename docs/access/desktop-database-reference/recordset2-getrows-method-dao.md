@@ -26,7 +26,7 @@ Récupère plusieurs lignes à partir d’un objet **[Recordset](recordset-objec
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -78,7 +78,7 @@ Si vous demandez plus de lignes qu'il n'y en a de disponibles, **GetRows** ne re
 
 `numReturned = UBound(varA,2) + 1`
 
-Vous devez utiliser « + 1 », car la première ligne renvoyée est l’élément 0 de la matrice. Le nombre de lignes que vous pouvez extraire est limité par la quantité de mémoire disponible. Vous ne devez pas utiliser **GetRows** pour extraire une table entière dans un tableau si celle-ci est volumineuse.
+Vous devez utiliser « +1 », car la première ligne renvoyée se trouve dans l'élément 0 du tableau. Le nombre de lignes que vous pouvez extraire est limité par la quantité de mémoire disponible. Vous ne devez pas utiliser **GetRows** pour extraire une table entière dans un tableau si celle-ci est volumineuse.
 
 Étant donné que **GetRows** renvoie tous les champs de l'objet **Recordset** dans le tableau, y compris les champs de type Memo et Long Binary, il est recommandé d'utiliser une requête qui limite le nombre de champs renvoyés.
 

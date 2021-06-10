@@ -24,9 +24,9 @@ Supprime le formulaire **Workspace** dans la collection **Workspaces**.
 
 *.* Delete(***Name***)
 
-*expression* Variable qui représente un objet **Workspaces.**
+*expression* Variable qui représente un **objet Workspaces.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

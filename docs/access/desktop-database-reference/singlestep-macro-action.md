@@ -24,7 +24,7 @@ ms.locfileid: "32308630"
 
 L’action **PasAPas** permet d’interrompre l’exécution d’une macro et d’ouvrir la boîte de dialogue **Pas à pas**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **PasAPas** n’utilise aucun argument.
 

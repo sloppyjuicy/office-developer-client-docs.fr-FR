@@ -40,7 +40,7 @@ Utilisez ces constantes avec la propriété dynamique "**Update Criteria**" du *
 <tbody>
 <tr class="odd">
 <td><p><strong>adCriteriaAllCols</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Détecte des conflits en cas de modification d'une ligne de la source de données.</p></td>
 </tr>
 <tr class="even">
@@ -50,12 +50,12 @@ Utilisez ces constantes avec la propriété dynamique "**Update Criteria**" du *
 </tr>
 <tr class="odd">
 <td><p><strong>adCriteriaTimeStamp</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Détecte des conflits si l'horodatage de la ligne de source de données a été modifié, signifiant qu'il y a eu un accès après obtention du <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCriteriaUpdCols</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Détecte des conflits si une des colonnes de la ligne de source de données correspondant aux champs mis à jour du <strong>Recordset</strong> a été modifiée.</p></td>
 </tr>
 </tbody>

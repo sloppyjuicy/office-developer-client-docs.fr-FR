@@ -42,7 +42,7 @@ Spécifie le sens d’une recherche d’enregistrement dans un [Recordset](recor
 </tr>
 <tr class="even">
 <td><p><strong>adSearchForward</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Recherche vers la fin, en s’arrêtant en bas du <strong>Recordset</strong>. Si aucune correspondance n’est trouvée, le pointeur de l’enregistrement est placé sur <a href="bof-eof-properties-ado.md">EOF</a>.</p></td>
 </tr>
 </tbody>

@@ -37,7 +37,7 @@ Cette énumération est utilisée avec la méthode **Synchronize** pour détermi
 <tbody>
 <tr class="odd">
 <td><p>dbRepExportChanges</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Envoie les modifications de la base de données active vers la base de données cible.</p></td>
 </tr>
 <tr class="even">
@@ -47,7 +47,7 @@ Cette énumération est utilisée avec la méthode **Synchronize** pour détermi
 </tr>
 <tr class="odd">
 <td><p>dbRepImportChanges</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Reçoit les modifications de la base de données cible.</p></td>
 </tr>
 <tr class="even">

@@ -30,7 +30,7 @@ Remplit tout ou partie d'un cache local pour un objet **Recordset** contenant le
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -52,13 +52,13 @@ Remplit tout ou partie d'un cache local pour un objet **Recordset** contenant le
 <td><p><em>Rows</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>Integer</strong>) qui spécifie le nombre de lignes à stocker dans le cache. Si vous omettez cet argument, la valeur est déterminée par le paramètre de propriété <strong><a href="recordset2-cachesize-property-dao.md">CacheSize.</a></strong></p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>Integer</strong>) qui spécifie le nombre de lignes à stocker dans le cache. Si vous omettez cet argument, la valeur est déterminée par le paramètre de la propriété <strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>StartBookmark</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui spécifie un signet. Le cache est rempli à partir de l’enregistrement indiqué par ce signet. Si vous omettez cet argument, le cache est rempli à partir de l’enregistrement indiqué par la <strong><a href="recordset2-cachestart-property-dao.md">propriété CacheStart.</a></strong></p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui spécifie un signet. Le cache est rempli à partir de l’enregistrement indiqué par ce signet. Si vous ne spécifiez pas cet argument, le cache est rempli à partir de l’enregistrement indiqué par la propriété <strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong>.</p></td>
 </tr>
 </tbody>
 </table>

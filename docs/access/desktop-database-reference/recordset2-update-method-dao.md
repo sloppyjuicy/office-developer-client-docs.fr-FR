@@ -28,7 +28,7 @@ ms.locfileid: "32307167"
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -56,7 +56,7 @@ ms.locfileid: "32307167"
 <td><p><em>Force</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Boolean</strong></p></td>
-<td><p>Valeur <strong>booléenne</strong> indiquant si les modifications doivent être forcées ou non dans la base de données, indépendamment du fait que les données sous-jacentes aient été modifiées par un autre utilisateur depuis l'appel de <strong><a href="recordset-addnew-method-dao.md">AddNew</a></strong>, <strong><a href="fields-delete-method-dao.md">Delete</a></strong> ou <strong><a href="recordset2-edit-method-dao.md">Edit</a></strong>. Si la valeur est <strong>True</strong>, les modifications sont forcées et les modifications apportées par d'autres utilisateurs sont tout simplement remplacées. Si la valeur est <strong>False</strong> (valeur par défaut), les modifications apportées par d'autres utilisateurs tandis que la mise à jour est en attente entraîneront l'échec de la mise à jour pour les modifications en conflit. Aucune erreur ne se produit, mais les propriétés <strong><a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong> et <strong>BatchCollisions</strong> indiquent respectivement le nombre de conflits et les lignes affectées par les conflits (espaces de travail ODBCDirect uniquement).</p></td>
+<td><p>A <strong>booléenne</strong> valeur indiquant forcer les modifications dans la base de données quelle que soit la si les données sous-jacentes a été modifiées par un autre utilisateur depuis ou non le <strong> <a href="recordset-addnew-method-dao.md">AddNew</a> </strong>, <strong> <a href="fields-delete-method-dao.md">Supprimer</a></strong>, ou <strong> <a href="recordset2-edit-method-dao.md">modifier</a> </strong> appeler. Si <strong>vrai</strong>, les modifications sont forcées et les modifications apportées par d’autres utilisateurs sont simplement remplacées. Si <strong>faux</strong> (par défaut), les modifications apportées par un autre utilisateur alors que la mise à jour est en attente entraînera la mise à jour Échec pour ces modifications sont en conflit. Aucune erreur se produit, mais le <strong> <a href="recordset-batchcollisioncount-property-dao.md">BatchCollisionCount</a> </strong> et  <strong>BatchCollisions</strong>  propriétés indique le nombre des conflits et les lignes concernées par conflits, respectivement (espaces).</p></td>
 </tr>
 </tbody>
 </table>

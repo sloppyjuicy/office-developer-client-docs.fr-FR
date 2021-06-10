@@ -92,7 +92,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3367</strong></p></td>
 <td><p><strong>adErrObjectInCollection</strong></p></td>
-<td><p>L'objet est déjà dans la collection. Impossible de l'ajouter. Vous ne pouvez pas ajouter deux fois le même objet à la même collection.</p></td>
+<td><p>L'objet appartient déjà à la collection. Impossible de l'ajouter. Vous ne pouvez pas ajouter deux fois le même objet à la même collection.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3420</strong></p></td>
@@ -132,7 +132,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3709</strong></p></td>
 <td><p><strong>adErrInvalidConnection</strong></p></td>
-<td><p>Cette opération ne peut utiliser la connexion. Elle est soit fermée, soit non valide dans ce contexte.</p></td>
+<td><p>Cette opération ne peut utiliser la connexion. Dans ce contexte, elle est soit fermée, soit non valide.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3710</strong></p></td>
@@ -172,12 +172,12 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="even">
 <td><p><strong>3717</strong></p></td>
 <td><p><strong>adWrnSecurityDialog</strong></p></td>
-<td><p>Utilisation interne uniquement. Utilisation interdite. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
+<td><p>Pour usage interne uniquement. Utilisation interdite. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>3718</strong></p></td>
 <td><p><strong>adWrnSecurityDialogHeader</strong></p></td>
-<td><p>Utilisation interne uniquement. Utilisation interdite. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
+<td><p>Pour usage interne uniquement. Utilisation interdite. (L'entrée a été incluse dans un souci d'exhaustivité. Cette erreur ne doit pas s'afficher dans votre code.)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3719</strong></p></td>
@@ -207,7 +207,7 @@ La constante **ErrorValueEnum** décrit les valeurs des erreurs ADO. Pour obteni
 <tr class="odd">
 <td><p><strong>3724</strong></p></td>
 <td><p><strong>adErrCantConvertvalue</strong></p></td>
-<td><p>La valeur de donnée ne peut être convertie pour des raisons autres qu'une incompatibilité de signes ou un débordement de données. La conversion peut entraîner, par exemple, la troncation des données.</p></td>
+<td><p>La valeur de donnée ne peut être convertie pour des raisons autres qu'une incompatibilité de signes ou un débordement de données. Par exemple, la conversion aurait tronqué les données.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>3725</strong></p></td>

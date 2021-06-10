@@ -40,7 +40,7 @@ Vous pouvez utiliser l'action **EnvoiTouches** pour envoyer directement une séq
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **EnvoiTouches** accepte les arguments suivants.
 

@@ -51,7 +51,7 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 <td><p>Représente une connexion ouverte à une source de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="error-object-ado.md">Error</a></p></td>
+<td><p><a href="error-object-ado.md">Erreur</a></p></td>
 <td><p>Contient le détail des erreurs d'accès aux données concernant une même opération liée au fournisseur.</p></td>
 </tr>
 <tr class="even">
@@ -59,11 +59,11 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 <td><p>Représente une colonne de données avec un type de données commun.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parameter-object-ado.md">Paramètre</a></p></td>
+<td><p><a href="parameter-object-ado.md">Parameter</a></p></td>
 <td><p>Représente un paramètre ou un argument associé à un objet <strong>Command </strong> basé sur une requête paramétrée ou une procédure stockée.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="property-object-ado.md">Propriété</a></p></td>
+<td><p><a href="property-object-ado.md">Property</a></p></td>
 <td><p>Représente une caractéristique dynamique d'un objet ADO qui est définie par le fournisseur.</p></td>
 </tr>
 <tr class="odd">

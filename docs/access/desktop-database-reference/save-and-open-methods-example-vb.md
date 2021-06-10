@@ -133,7 +133,7 @@ End Sub
 
 <br/>
 
-Enfin, vous revenir chez vous. Maintenant, mettez à jour la base de données avec vos modifications.
+Enfin, vous êtes de retour et vous mettez à présent la base de données à jour avec vos modifications.
 
 ```vb 
  

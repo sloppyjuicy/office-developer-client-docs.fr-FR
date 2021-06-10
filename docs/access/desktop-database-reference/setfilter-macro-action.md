@@ -24,7 +24,7 @@ ms.locfileid: "32308693"
 
 Vous pouvez utiliser l’action **AppliquerFiltre** pour appliquer un filtre aux enregistrements de la feuille de données, de l’état, de la table ou du formulaire actif.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **AppliquerFiltre** utilise les arguments suivants.
 

@@ -26,7 +26,7 @@ Atteint le dernier enregistrement d’un objet **Recordset** spécifié et en fa
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

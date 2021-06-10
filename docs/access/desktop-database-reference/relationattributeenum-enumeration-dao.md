@@ -42,7 +42,7 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 </tr>
 <tr class="even">
 <td><p>dbRelationDontEnforce</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Relation non appliquée (aucune intégrité référentielle)</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +62,7 @@ Cette énumération est utilisée avec la propriété **Attributes** (Attributs)
 </tr>
 <tr class="even">
 <td><p>dbRelationUnique</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Relation un-à-un</p></td>
 </tr>
 <tr class="odd">

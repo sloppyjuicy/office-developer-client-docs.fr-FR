@@ -43,17 +43,17 @@ Spécifie le format dans lequel enregistrer un objet [Recordset](recordset-objec
 </tr>
 <tr class="even">
 <td><p><strong>adPersistADO</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indique que le format XML (Extensible Markup Language) propre à ADO sera utilisé. Cette valeur est identique à adPersistXML et autorise la compatibilité ascendante.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPersistXML</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indique le format XML (Extensible Markup Language).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPersistProviderSpecific</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique que le fournisseur maintient <strong>Recordset</strong> à l'aide de son propre format.</p></td>
 </tr>
 </tbody>

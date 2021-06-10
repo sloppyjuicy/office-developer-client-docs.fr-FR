@@ -32,7 +32,7 @@ Lors de l'extraction ou de la définition de la propriété **AbsolutePage**, AD
 
 - Pour extraire **AbsolutePage**, ADO commence par extraire **AbsolutePosition**, qu'il divise par la valeur **PageSize**.
 
-- Pour définir **AbsolutePage**, ADO déplace **AbsolutePosition** de la manière suivante : il multiplie **PageSize** par la nouvelle valeur **AbsolutePage** et y ajoute 1. Par conséquent, la position actuelle dans le jeu d’enregistrements **après** la définition de **AbsolutePage** est le premier enregistrement de cette page.
+- Pour définir **AbsolutePage**, ADO déplace **AbsolutePosition** de la manière suivante : il multiplie **PageSize** par la nouvelle valeur **AbsolutePage** et y ajoute 1. Par conséquent, la position actuelle dans le jeu **d’enregistrements** après la définition de **AbsolutePage** est le premier enregistrement de cette page.
 
 Comme la propriété **AbsolutePosition**, la propriété **AbsolutePage** est en base 1 et est égale à 1 lorsque l'enregistrement actif correspond au premier enregistrement du **Recordset**. Définissez cette propriété pour accéder au premier enregistrement d'une page déterminée. Obtenez le nombre total de pages à partir de la propriété **PageCount**.
 

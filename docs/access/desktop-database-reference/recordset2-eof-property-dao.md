@@ -23,7 +23,7 @@ ms.locfileid: "32309442"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet **Recordset**. **Boolean** (en lecture seule).
+Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet **Recordset**. Type **Boolean** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

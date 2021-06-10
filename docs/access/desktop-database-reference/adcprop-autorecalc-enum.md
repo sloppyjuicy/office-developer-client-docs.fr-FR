@@ -40,7 +40,7 @@ Ces constantes sont utilisées uniquement avec le fournisseur **MSDataShape** et
 <tbody>
 <tr class="odd">
 <td><p><strong>adRecalcAlways</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Par défaut. Effectue un nouveau calcul à chaque fois que le fournisseur <strong>MSDataShape</strong> détermine des valeurs modifiées dont dépendent les colonnes calculées.</p></td>
 </tr>
 <tr class="even">

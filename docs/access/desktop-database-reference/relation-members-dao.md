@@ -67,7 +67,7 @@ Un objet Relation représente une relation entre des champs de tables ou de requ
 </tr>
 <tr class="odd">
 <td><p><strong><a href="relation-foreigntable-property-dao.md">ForeignTable</a></strong></p></td>
-<td><p>Définit ou renvoie le nom de la table étrangère dans une relation (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Définit ou renvoie le nom de la table étrangère d'une relation (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="relation-name-property-dao.md">Name</a></strong></p></td>

@@ -22,7 +22,7 @@ ms.locfileid: "32307629"
 
 **S’applique à** : Access 2013, Office 2013
 
-La propriété **RecordsetType** permet de spécifier le genre de jeu d'enregistrement disponible pour un formulaire. Type de données **Octet** en lecture-écriture.
+La propriété **RecordsetType** permet de spécifier le genre de jeu d'enregistrement disponible pour un formulaire. Type de données **Byte** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,7 +42,7 @@ La propriété **RecordsetType** utilise les paramètres suivants dans une base 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Setting</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Type de jeu d'enregistrement</p></th>
 <th><p>Description</p></th>
 </tr>
@@ -54,12 +54,12 @@ La propriété **RecordsetType** utilise les paramètres suivants dans une base 
 <td><p>(Valeur par défaut) Vous pouvez modifier des contrôles dépendants basés sur une seule ou plusieurs tables avec une relation un-à-un. Pour les contrôles liés à des champs basés sur des tables avec une relation un-à-plusieurs, vous ne pouvez pas modifier les données du champ joint du côté un de la relation, sauf si la mise à jour en cascade est activée entre les &quot; &quot; tables.</p></td>
 </tr>
 <tr class="even">
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Feuille rép.dyn.(MAJ globale)</p></td>
 <td><p>Toutes les tables et tous les contrôles correspondant à leurs champs peuvent être édités.</p></td>
 </tr>
 <tr class="odd">
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Capture instantanée</p></td>
 <td><p>Aucune table ou aucun contrôle correspondant à leurs champs ne peut être édité.</p></td>
 </tr>
@@ -79,14 +79,14 @@ Dans un projet Microsoft Access (.adp), la propriété **RecordsetType** utilise
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Setting</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Type de jeu d'enregistrement</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Capture instantanée</p></td>
 <td><p>Aucune table ou aucun contrôle correspondant à leurs champs ne peut être édité.</p></td>
 </tr>

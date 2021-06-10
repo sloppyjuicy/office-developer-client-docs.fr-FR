@@ -37,7 +37,7 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 <tbody>
 <tr class="odd">
 <td><p>dbSecCreate</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>L'utilisateur peut créer des documents (non valide pour les objets Document).</p></td>
 </tr>
 <tr class="even">
@@ -47,7 +47,7 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 </tr>
 <tr class="odd">
 <td><p>dbSecDBCreate</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>L'utilisateur peut créer des bases de données. Cette option est valide uniquement sur le conteneur de bases de données du fichier de groupe de travail (Systen.mdw). Cette constante n'est pas valide pour les objets Document.</p></td>
 </tr>
 <tr class="even">
@@ -57,7 +57,7 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 </tr>
 <tr class="odd">
 <td><p>dbSecDBOpen</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>L'utilisateur peut ouvrir la base de données.</p></td>
 </tr>
 <tr class="even">

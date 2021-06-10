@@ -26,7 +26,7 @@ Supprime l'objet **Relation** spécifié de la collection **Relations**.
 
 *expression* Variable qui représente un objet **Relations.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

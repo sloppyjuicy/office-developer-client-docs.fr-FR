@@ -37,7 +37,7 @@ Cette énumération est utilisée avec la méthode **CreateWorkspace** pour déf
 <tbody>
 <tr class="odd">
 <td><p>dbUseJet</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Permet de créer un espace de travail Microsoft Access.</p></td>
 </tr>
 </tbody>

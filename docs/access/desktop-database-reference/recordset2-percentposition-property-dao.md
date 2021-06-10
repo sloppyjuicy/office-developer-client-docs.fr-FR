@@ -39,7 +39,7 @@ Pour indiquer ou modifier la position approximative de l'enregistrement actif da
 
 Dès que vous définissez une valeur pour la propriété **PercentPosition**, l'enregistrement qui occupe la position approximative correspondant à cette valeur devient l'enregistrement actif et la propriété **PercentPosition** est réinitialisée avec une valeur qui reflète la position approximative de l'enregistrement actif. Par exemple, si votre objet **Recordset** contient seulement cinq enregistrements et que vous définissez la valeur 77 pour la propriété **PercentPosition**, la valeur renvoyée par la propriété **PercentPosition** sera vraisemblablement 80 et non 77.
 
-La **propriété PercentPosition** s’applique à tous les types d’objets **Recordset** à l’exception des objets **Recordset** de type avant uniquement ou des objets **Recordset** ouverts à partir de requêtes pass-through sur des bases de données distantes.
+La **propriété PercentPosition** s’applique à tous les types d’objets **Recordset** à l’exception des objets **Recordset** de type avant uniquement ou **recordset** ouverts à partir de requêtes pass-through sur des bases de données distantes.
 
 Vous pouvez utiliser la propriété **PercentPosition** avec une barre de défilement dans un formulaire ou une zone de texte pour indiquer l'emplacement de l'enregistrement actif dans un objet **Recordset**.
 

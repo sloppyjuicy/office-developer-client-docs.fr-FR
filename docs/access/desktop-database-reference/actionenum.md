@@ -36,12 +36,12 @@ Indique le type d’action à effectuer lorsque la méthode [SetPermissions](set
 <tbody>
 <tr class="odd">
 <td><p><strong>adAccessDeny</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Les autorisations spécifiées seront refusées au groupe ou à l'utilisateur.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAccessGrant</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Le groupe ou l'utilisateur disposera au moins des autorisations demandées.</p></td>
 </tr>
 <tr class="odd">
@@ -51,7 +51,7 @@ Indique le type d’action à effectuer lorsque la méthode [SetPermissions](set
 </tr>
 <tr class="even">
 <td><p><strong>adAccessSet</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Le groupe ou l'utilisateur disposera exactement des autorisations demandées.</p></td>
 </tr>
 </tbody>

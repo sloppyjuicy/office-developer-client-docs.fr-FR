@@ -19,7 +19,7 @@ ms.locfileid: "32309113"
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur spécifiant une ou plusieurs caractéristiques d'un objet **Relation**. **Long** (en lecture/écriture).
+Définit ou renvoie une valeur spécifiant une ou plusieurs caractéristiques d'un objet **Relation**. Type **Long** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 

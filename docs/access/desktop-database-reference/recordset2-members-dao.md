@@ -173,7 +173,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-bof-property-dao.md">BOF</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si la position d'enregistrement actuelle précède le premier enregistrement d'un objet <strong>Recordset</strong>. <strong>Boolean</strong> (en lecture seule).</p></td>
+<td><p>Renvoie une valeur qui indique si la position d'enregistrement actuelle précède le premier enregistrement d'un objet <strong>Recordset</strong>. Type <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-bookmark-property-dao.md">Bookmark</a></strong></p></td>
@@ -185,7 +185,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-cachesize-property-dao.md">CacheSize</a></strong></p></td>
-<td><p>Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. <strong>Long</strong> (en lecture/écriture).</p></td>
+<td><p>Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur <strong>Long</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-cachestart-property-dao.md">CacheStart</a></strong></p></td>
@@ -197,7 +197,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Renvoie la date et l'heure de création d'une table de base (espaces de travail Microsoft Access uniquement). <strong>Variant</strong> en lecture seule.</p></td>
+<td><p>Renvoie la date et l'heure de création d'une table de base (espaces de travail Microsoft Access uniquement). Type <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-editmode-property-dao.md">EditMode</a></strong></p></td>
@@ -205,7 +205,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-eof-property-dao.md">EOF</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet <strong>Recordset</strong>. <strong>Boolean</strong> (en lecture seule).</p></td>
+<td><p>Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet <strong>Recordset</strong>. Type <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-fields-property-dao.md">Fields</a></strong></p></td>
@@ -213,7 +213,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-filter-property-dao.md">Filter</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui détermine les enregistrements inclus dans l'objet <strong>Recordset</strong> ouvert ultérieurement (espace de travail Microsoft Access uniquement. <strong>String</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui détermine les enregistrements inclus dans l'objet <strong>Recordset</strong> ouvert ultérieurement (espace de travail Microsoft Access uniquement. Type <strong>String</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-index-property-dao.md">Index</a></strong></p></td>
@@ -225,7 +225,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Renvoie la date et l'heure de la dernière modification apportée à une table de base. <strong>Variant</strong> en lecture seule.</p></td>
+<td><p>Renvoie la date et l'heure de la dernière modification apportée à une table de base. Type <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-lockedits-property-dao.md">LockEdits</a></strong></p></td>
@@ -233,7 +233,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Renvoie le nom de l'objet spécifié. <strong>String</strong> en lecture seule.</p></td>
+<td><p>Renvoie le nom de l'objet spécifié. En lecture seule <strong>chaîne</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-nomatch-property-dao.md">NoMatch</a></strong></p></td>
@@ -275,7 +275,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-transactions-property-dao.md">Transactions</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si un objet prend en charge les transactions. <strong>Boolean</strong> (en lecture seule).</p></td>
+<td><p>Renvoie une valeur qui indique si un objet prend en charge les transactions. Valeur <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-type-property-dao.md">Type</a></strong></p></td>
@@ -283,7 +283,7 @@ Un objet Recordset2 représente les enregistrements d'une table de base ou les e
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. <strong>Boolean</strong> (en lecture seule).</p></td>
+<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-updateoptions-property-dao.md">UpdateOptions</a></strong></p></td>

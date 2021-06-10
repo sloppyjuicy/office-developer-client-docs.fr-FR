@@ -45,7 +45,7 @@ Utilisez ces constantes avec la propriété dynamique « **Background Thread Pri
 </tr>
 <tr class="even">
 <td><p><strong>adPriorityBelowNormal</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Définit le niveau de priorité, minimum ou normal.</p></td>
 </tr>
 <tr class="odd">
@@ -55,12 +55,12 @@ Utilisez ces constantes avec la propriété dynamique « **Background Thread Pri
 </tr>
 <tr class="even">
 <td><p><strong>AdPriorityLowest</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Définit le niveau de priorité le plus bas possible.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityNormal</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Définit le niveau de priorité normal.</p></td>
 </tr>
 </tbody>

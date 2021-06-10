@@ -24,7 +24,7 @@ Cette description utilise **adoint.h** comme référence pour les signatures des
 
 - La directive **\# d’importation** résout les **types de** données et les modificateurs de signature de type et de signature de méthode en leurs formes fondamentales.
 
-- Les méthodes virtuelles pures qui doivent être écrasées sont toutes précédées du préfixe «**raw \_**».
+- Les méthodes virtuelles pures qui doivent être écrasées sont toutes précédées de «**raw \_**».
 
 Une partie du code reflète simplement un style de codage.
 

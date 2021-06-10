@@ -26,7 +26,7 @@ Déplace l’enregistrement actif d’un objet **[Recordset](recordset-object-da
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

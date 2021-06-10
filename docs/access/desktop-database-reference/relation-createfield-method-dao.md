@@ -26,7 +26,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft A
 
 *expression* Variable qui représente un objet **Relation.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

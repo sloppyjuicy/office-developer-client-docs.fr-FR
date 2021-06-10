@@ -19,7 +19,7 @@ ms.locfileid: "32309456"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie la date et l'heure de création d'une table de base (espaces de travail Microsoft Access uniquement). **Variant** en lecture seule.
+Renvoie la date et l'heure de création d'une table de base (espaces de travail Microsoft Access uniquement). Type **Variant** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

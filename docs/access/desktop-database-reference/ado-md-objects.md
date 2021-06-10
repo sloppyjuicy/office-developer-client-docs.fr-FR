@@ -44,7 +44,7 @@ ms.locfileid: "32283295"
 </tr>
 <tr class="even">
 <td><p><a href="cellset-object-ado-md.md">Cellset</a></p></td>
-<td><p>Représente les résultats d'une requête multidimensionnelle. Il s'agit d'une collection de cellules sélectionnées à partir de cubes ou d'autres ensembles de cellules.</p></td>
+<td><p>Représente les résultats d'une requête multidimensionnelle. Il s'agit d'une collection de cellules sélectionnées dans des cubes ou d'autres ensembles de cellules.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cubedef-object-ado-md.md">CubeDef</a></p></td>

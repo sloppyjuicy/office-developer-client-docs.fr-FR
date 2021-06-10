@@ -18,7 +18,7 @@ ms.locfileid: "32287988"
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie la valeur d'un objet. **Variant** en lecture/écriture.
+Définit ou renvoie la valeur d'un objet. Type **Variant** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 

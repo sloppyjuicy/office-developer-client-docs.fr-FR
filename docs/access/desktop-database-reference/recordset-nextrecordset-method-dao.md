@@ -31,7 +31,7 @@ Booléen
 
 ## <a name="remarks"></a>Remarques
 
-Dans un espace de travail ODBCDirect, vous pouvez ouvrir un jeu d’enregistrements contenant plusieurs requêtes Select dans l’argument source d’OpenRecordset ou la propriété **[SQL](querydef-sql-property-dao.md)** d’un objet **[QueryDef](querydef-object-dao.md)** de requête de sélection, comme dans l’exemple suivant. **[](recordset-object-dao.md)** 
+Dans un espace de travail ODBCDirect, vous pouvez ouvrir un jeu d’enregistrements contenant plusieurs requêtes Select dans l’argument source d’OpenRecordset ou la propriété **[SQL](querydef-sql-property-dao.md)** d’un objet **[QueryDef](querydef-object-dao.md)** de requête select, comme dans l’exemple suivant. **[](recordset-object-dao.md)** 
 
 ```sql
     SELECT LastName, FirstName FROM Authors 

@@ -52,7 +52,7 @@ Ces rubriques fournissent des exemples de code pour vous aider à comprendre com
 - [DefinedSize, propriété – Exemple (VB)](definedsize-property-example-vb.md)
 - [DeleteRule, propriété – Exemple (VB)](deleterule-property-example-vb.md)
 - [IndexNulls, propriété – Exemple (VB)](indexnulls-property-example-vb.md)
-- [Propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule, keys Append , méthode - Exemple (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+- [Propriétés Key Type, RelatedColumn, RelatedTable et UpdateRule, keys Append, méthode - Exemple (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
 - [Propriété Name, columns et tables append, méthodes - Exemple (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
 - [NumericScale et Precision, propriétés – Exemple (VB)](numericscale-and-precision-properties-example-vb.md)
 - [ParentCatalog, propriété – Exemple (VB)](parentcatalog-property-example-vb.md)

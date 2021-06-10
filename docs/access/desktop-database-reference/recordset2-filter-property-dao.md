@@ -23,7 +23,7 @@ ms.locfileid: "32307328"
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui détermine les enregistrements inclus dans l'objet **Recordset** ouvert ultérieurement (espace de travail Microsoft Access uniquement. **String** en lecture/écriture.
+Définit ou renvoie une valeur qui détermine les enregistrements inclus dans l'objet **Recordset** ouvert ultérieurement (espace de travail Microsoft Access uniquement. Type **String** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 

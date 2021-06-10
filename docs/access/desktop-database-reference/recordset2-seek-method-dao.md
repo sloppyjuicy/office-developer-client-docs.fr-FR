@@ -26,7 +26,7 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

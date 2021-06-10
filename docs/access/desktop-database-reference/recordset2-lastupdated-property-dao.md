@@ -23,7 +23,7 @@ ms.locfileid: "32307307"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie la date et l'heure de la dernière modification apportée à une table de base. **Variant** en lecture seule.
+Renvoie la date et l'heure de la dernière modification apportée à une table de base. Type **Variant** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

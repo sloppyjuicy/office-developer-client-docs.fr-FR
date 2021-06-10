@@ -20,7 +20,7 @@ ms.locfileid: "32308469"
 
 **L’instruction Submacro** définit une macro distincte dans la fenêtre Concepteur de macros.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’instruction **Submacro** utilise les arguments suivants.
 

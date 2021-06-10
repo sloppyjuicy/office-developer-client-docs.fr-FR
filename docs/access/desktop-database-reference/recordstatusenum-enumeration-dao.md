@@ -42,17 +42,17 @@ Cette énumération est utilisée avec la propriété **RecordStatus** pour indi
 </tr>
 <tr class="even">
 <td><p>dbRecordDeleted</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>L'enregistrement a été supprimé, mais il n'a pas encore été supprimé de la base de données.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbRecordModified</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>L'enregistrement a été modifié, mais il n'a pas été mis à jour dans la base de données.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbRecordNew</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>L'enregistrement a été ajouté à l'aide de la méthode <strong>AddNew</strong>, mais il n'a pas été encore ajouté à la base de données.</p></td>
 </tr>
 <tr class="odd">

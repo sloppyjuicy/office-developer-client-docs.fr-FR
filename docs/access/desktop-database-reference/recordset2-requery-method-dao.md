@@ -30,7 +30,7 @@ Met à jour les données dans un objet **[Recordset](recordset-object-dao.md)** 
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ Met à jour les données dans un objet **[Recordset](recordset-object-dao.md)** 
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez cette méthode pour vous assurer qu’un objet **Recordset** contient les données les plus récentes. Cette méthode renseigne à nouveau l’objet **Recordset** actif à partir des paramètres de la requête actuelle ou (dans un espace de travail Microsoft Access) de ceux, nouveaux, fournis par l’argument newquerydef.
+Cette méthode s’avère utile pour s’assurer qu’un objet **Recordset** contient les données les plus récentes. Cette méthode remplit à nouveau l’objet **Recordset** actif à partir des paramètres de la requête actuelle ou (dans un espace de travail Microsoft Access) de ceux, nouveaux, fournis par l’argument défnouvellerequête.
 
 Si vous ne spécifiez pas d’argument newquerydef, l’objet **Recordset** est de nouveau renseigné à partir de la définition et des paramètres de requête déjà utilisés pour renseigner l’objet **Recordset** à l’origine. Any changes to the underlying data will be reflected during this re-population. If you didn't use a **QueryDef** to create the **Recordset**, the **Recordset** is re-created from scratch.
 

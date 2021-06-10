@@ -28,7 +28,7 @@ Met à jour les objets d’une collection pour qu’ils reflètent les objets di
 
 La méthode **Refresh** exécute différentes tâches selon la collection à partir de laquelle vous l'appelez.
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 Lorsque vous appliquez la méthode **Refresh** à la collection [Parameters](command-object-ado.md) d'un objet [Command](parameters-collection-ado.md), des informations de paramètres côté fournisseur sont extraites pour la procédure stockée ou la requête paramétrée spécifiée dans l'objet **Command**. La collection est vide pour les fournisseurs qui ne prennent pas en charge les appels de procédure stockée et les requêtes paramétrées.
 
