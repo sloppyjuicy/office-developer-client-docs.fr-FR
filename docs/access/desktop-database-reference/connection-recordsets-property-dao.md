@@ -23,7 +23,7 @@ ms.locfileid: "32295806"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **Recordsets** qui contient tous les jeux d'enregistrements ouverts pour la connexion spécifiée. En lecture seule.
+Renvoie une collection **Recordsets** qui contient tous les jeux d'enregistrements ouverts pour la connexion spécifiée. Valeur en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

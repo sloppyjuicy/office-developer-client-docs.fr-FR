@@ -21,7 +21,7 @@ ms.locfileid: "32295785"
 > [!NOTE]
 > Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
-Une collection **Connections** contient les objets **Connection** actuels d’un **objet Workspace.** (Espaces de travail ODBCDirect uniquement).
+Une collection **Connections** contient les objets **Connection** actifs d'un objet **Workspace** (Espaces de travail ODBCDirect uniquement).
 
 ## <a name="remarks"></a>Remarques
 

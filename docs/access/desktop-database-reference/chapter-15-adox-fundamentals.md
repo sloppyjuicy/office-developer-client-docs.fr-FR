@@ -28,7 +28,7 @@ Le fournisseur Microsoft OLE DB pour le moteur de base de données Microsoft Jet
 
 Ce document suppose une connaissance approfondie du langage de programmation microsoft Visual Basic et une connaissance générale d’ADO. Pour plus d’informations sur ADO, voir le guide du [programmeur ADO.](ado-programmer-s-guide.md)
 
-Ce chapitre couvre la rubrique suivante :
+Ce chapitre traite de la rubrique suivante :
 
 - [Prise en charge du fournisseur pour ADOX](provider-support-for-adox.md)
 

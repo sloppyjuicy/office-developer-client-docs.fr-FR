@@ -38,17 +38,17 @@ Spécifie si une boîte de dialogue doit s'afficher pour inviter à entrer les p
 <tbody>
 <tr class="odd">
 <td><p><strong>adPromptAlways</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Toujours demander.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPromptComplete</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Ne demander qu'en cas d'informations incomplètes.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPromptCompleteRequired</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Ne demander qu'en cas d'informations incomplètes, les paramètres optionnels n'étant pas autorisés.</p></td>
 </tr>
 <tr class="even">

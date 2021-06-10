@@ -18,7 +18,7 @@ ms.locfileid: "32295827"
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Connection.Connect, propriété (DAO)](connection-connect-property-dao.md)
+- [Connexion. Connecter property (DAO)](connection-connect-property-dao.md)
 - [Connection.Database, propriété (DAO)](connection-database-property-dao.md)
 - [Connection.Name property (DAO)](connection-name-property-dao.md)
 - [Connection.QueryDefs, propriété (DAO)](connection-querydefs-property-dao.md)

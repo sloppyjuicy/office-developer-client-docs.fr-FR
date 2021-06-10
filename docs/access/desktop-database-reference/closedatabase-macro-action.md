@@ -21,7 +21,7 @@ ms.locfileid: "32296296"
 
 Vous pouvez utiliser l’action **FermerBaseDonnées** pour fermer la base de données active.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **FermerBaseDonnées** ne possède aucun argument.
 

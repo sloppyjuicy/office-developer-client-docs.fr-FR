@@ -46,7 +46,7 @@ S'il n'existe pas d'enregistrement actif lorsque vous appelez la méthode **Appe
 > [!NOTE]
 > [!REMARQUE] La méthode **AppendChunk** ne fonctionne pas sur les objets **Field** d'un objet [Record](record-object-ado.md) ; elle n'exécute aucune opération et génère une erreur d'exécution.
 
-### <a name="parameters"></a>Paramètres
+### <a name="parameters"></a>Parameters
 
 Si le bit **adParamLong** de la propriété **Attributes** d'un objet **Parameter** a la valeur true, vous pouvez utiliser la méthode **AppendChunk** pour ce paramètre.
 

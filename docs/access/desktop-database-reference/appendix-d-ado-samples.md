@@ -23,7 +23,7 @@ Le Kit de développement (SDK) Windows contient plusieurs exemples d'application
 > [!NOTE]
 > [!REMARQUE] Sauf mention contraire, les sociétés, noms et données utilisés dans ces exemples sont fictifs.
 
-Pour trouver les exemples ADO, accédez à votre dossier racine du SDK Windows, par exemple C : \\ Program Files \\ Microsoft SDKs \\ Windows \\ v6.0. Accédez ensuite au sous-ensemble ADO Samples \\ \\ dataaccess. Pour commencer à utiliser les exemples d'applications ADO et RDS, ouvrez le fichier default.htm dans les dossiers des exemples ADO et RDS respectivement. Ces fichiers décrivent les exemples d'applications disponibles, expliquent comment les configurer et les exécuter et comment parcourir le code source des exemples.
+Pour trouver les exemples ADO, accédez au dossier racine du SDK Windows, tel que C: \\ Program Files \\ Microsoft SDKs \\ Windows \\ v6.0. Accédez ensuite au sous-ensemble ADO Samples \\ \\ dataaccess. Pour commencer à utiliser les exemples d'applications ADO et RDS, ouvrez le fichier default.htm dans les dossiers des exemples ADO et RDS respectivement. Ces fichiers décrivent les exemples d'applications disponibles, expliquent comment les configurer et les exécuter et comment parcourir le code source des exemples.
 
 La documentation ADO contient également des exemples de code dans plusieurs langages, illustrés dans les rubriques correspondantes de cette aide en ligne. Pour plus d'informations sur ces exemples, consultez [Exemples de code ADO](ado-code-examples.md).
 

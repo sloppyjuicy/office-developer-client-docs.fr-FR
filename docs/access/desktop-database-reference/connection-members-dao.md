@@ -107,7 +107,7 @@ ms.locfileid: "32295904"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-transactions-property-dao.md">Transactions</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si un objet prend en charge les transactions. <strong>Boolean</strong> (en lecture seule).</p></td>
+<td><p>Renvoie une valeur qui indique si un objet prend en charge les transactions. Valeur <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-updatable-property-dao.md">Updatable</a></strong></p></td>

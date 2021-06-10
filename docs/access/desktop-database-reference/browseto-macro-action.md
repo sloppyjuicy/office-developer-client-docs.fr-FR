@@ -24,7 +24,7 @@ ms.locfileid: "32296772"
 
 Vous pouvez utiliser l'action **Parcourir** pour naviguer parmi des objets en place. Vous pouvez également modifier l'objet source d'un contrôle de sous-formulaire en spécifiant l'argument Chemin d'accès au contrôle de sous-formulaire. Utilisez **Parcourir** pour naviguer de formulaire1 à formulaire2 sans ouvrir de nouvelle fenêtre.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **Parcourir** utilise l’argument suivant :
 

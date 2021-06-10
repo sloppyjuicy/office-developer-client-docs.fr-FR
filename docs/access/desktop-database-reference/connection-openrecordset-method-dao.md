@@ -26,7 +26,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l’ajoute à la coll
 
 *expression* Variable qui représente un objet **Connection**.
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

@@ -19,7 +19,7 @@ ms.locfileid: "32295778"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si un objet prend en charge les transactions. **Boolean** (en lecture seule).
+Renvoie une valeur qui indique si un objet prend en charge les transactions. Valeur **Boolean** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

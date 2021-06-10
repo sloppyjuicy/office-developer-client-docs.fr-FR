@@ -26,7 +26,7 @@ ms.locfileid: "32296373"
 
 Utilisez l'action **EffacerMacroErreur** pour effacer les informations sur une erreur qui sont stockées dans l'objet **MacroError**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **EffacerMacroErreur** ne possède aucun argument.
 

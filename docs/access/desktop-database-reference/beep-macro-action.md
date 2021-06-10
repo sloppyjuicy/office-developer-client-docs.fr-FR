@@ -25,7 +25,7 @@ ms.locfileid: "32296863"
 
 Utilisez l’action **Bip** pour émettre un signal sonore dans les haut-parleurs de l’ordinateur.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **Bip** ne possède aucun argument.
 

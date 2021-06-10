@@ -31,7 +31,7 @@ Copie une entité représentée par un objet **Record** vers un autre emplacemen
 |*Source* |Facultatif. Valeur de type **String** contenant une URL spécifiant l’entité à copier (par exemple, un fichier ou un répertoire). Si le paramètre *Source* est omis ou spécifie une chaîne vide, le fichier ou le répertoire représenté par l’objet [Record](record-object-ado.md) actif est copié.|
 |*Destination* |Facultatif. Valeur de type **String** contenant une URL spécifiant l'emplacement dans lequel *Source* va être copié.|
 |*UserName* |Facultatif. Valeur de type **String** contenant l'ID utilisateur, qui le cas échéant, autorise l'accès à *Destination*.|
-|*Password* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, vérifie *UserName*.|
+|*Password* |Facultatif. Valeur de type **String** contenant le mot de passe qui, le cas échéant, vérifie le paramètre *NomUtilisateur*.|
 |*Options* |Facultatif. Valeur de l'énumération [CopyRecordOptionsEnum](copyrecordoptionsenum.md) (par défaut, **adCopyUnspecified** ). Spécifie le comportement de cette méthode.|
 |*Async* |Facultatif. Valeur de type **Boolean** qui, lorsqu'elle correspond à **True**, indique que cette opération doit être asynchrone.|
 

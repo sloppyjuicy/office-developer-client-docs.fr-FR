@@ -38,12 +38,12 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 <tbody>
 <tr class="odd">
 <td><p><strong>adModeRead</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indique des autorisations en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeReadWrite</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indique des autorisations en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
@@ -78,7 +78,7 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 </tr>
 <tr class="odd">
 <td><p><strong>adModeWrite</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique des autorisations en écriture seule.</p></td>
 </tr>
 </tbody>

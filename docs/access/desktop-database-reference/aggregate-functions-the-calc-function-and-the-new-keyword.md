@@ -61,7 +61,8 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 </tr>
 <tr class="odd">
 <td><p>ANY(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
-<td><p>Valeur de la colonne spécifiée. ANY a une valeur prévisible uniquement si la valeur de la colonne est identique pour toutes les lignes du chapitre.</p><p><strong>REMARQUE</strong>: si la colonne ne contient pas la même valeur pour toutes les lignes du chapitre, la commande SHAPE renvoie arbitrairement l’une des valeurs comme valeur de la fonction ANY.</p></td>
+<td><p>Valeur de la colonne spécifiée. ANY a une valeur prévisible uniquement si la valeur de la colonne est identique pour toutes les lignes du chapitre.
+</p><p><strong>REMARQUE</strong>: si la colonne ne contient pas la même valeur pour toutes les lignes du chapitre, la commande SHAPE renvoie arbitrairement l’une des valeurs comme valeur de la fonction ANY.</p></td>
 </tr>
 </tbody>
 </table>

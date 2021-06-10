@@ -1,5 +1,5 @@
 ---
-title: Connection.Connect, propriété (DAO)
+title: Connexion. Connecter property (DAO)
 TOCTitle: Connect Property
 ms:assetid: 58b514a2-91cd-7918-cba5-15d71c2457a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194335(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295925"
 ---
-# <a name="connectionconnect-property-dao"></a>Connection.Connect, propriété (DAO)
+# <a name="connectionconnect-property-dao"></a>Connexion. Connecter property (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui fournit des informations sur la source d'une connexion ouverte. **String** en lecture/écriture.
+Définit ou renvoie une valeur qui fournit des informations sur la source d'une connexion ouverte. Valeur de type **String** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -35,7 +35,7 @@ Pour exécuter une requête SQL directe sur une table liée au fichier de base d
 
 Pour un **TableDef** objet qui représente une table liée, le **Connect** paramètre de la propriété se compose d’une ou deux parties (un spécificateur de type base de données et un chemin d’accès à la base de données), chacune se termine par un point-virgule.
 
-Le chemin d’accès, comme illustré dans le tableau suivant est le chemin d’accès complet pour l’annuaire contenant les fichiers de base de données et doit être précédée de l’identificateur de base de données =. Dans certains cas (comme avec Microsoft Excel et Microsoft Access base de données de bases de données moteur), un nom de fichier spécifiques à inclure dans l’argument de chemin d’accès de base de données.
+Le chemin présenté dans le tableau suivant représente le chemin complet du répertoire contenant les fichiers de base de données ; il doit être précédé par l'identificateur DATABASE=. Dans certains cas (comme avec Microsoft Excel et les bases de données avec moteur de base de données Microsoft Access), vous devez inclure un nom de fichier spécifique à l'argument du chemin de la base de données.
 
 Le tableau suivant indique les types de base de données possible et leur spécificateurs de base de données correspondantes et les chemins d’accès relatifs le **Connect** paramètre de la propriété.
 
@@ -160,7 +160,7 @@ Pour les données dans Microsoft Exchange, vous devez définir la clé MAPILEVEL
 
 Pour les tables de base dans une base de données Microsoft Access, la **Connect** paramètre de la propriété est une chaîne nulle (« »).
 
-Vous pouvez définir la **propriété Connect** d’un objet **Database** en fournissant un argument source à la **méthode OpenDatabase.** Consultez le paramètre pour connaître le type, le chemin d'accès, l'ID d'utilisateur, le mot de passe ou la source de données ODBC de la base de données.
+Vous pouvez définir la propriété **Connecter** d’un objet **Database** en fournissant un argument source à la **méthode OpenDatabase.** Consultez le paramètre pour connaître le type, le chemin d'accès, l'ID d'utilisateur, le mot de passe ou la source de données ODBC de la base de données.
 
 Dans un objet **QueryDef** d'un espace de travail Microsoft Access, vous pouvez utiliser la propriété **Connect** avec la propriété ReturnsRecords afin de créer une requête SQL directe ODBC. L’argument type_base_données de la chaîne de connexion correspond à "ODBC;" et la chaîne contient ensuite des informations spécifiques du pilote ODBC servant à accéder aux données distantes. Pour plus d'informations, consultez la documentation relative au pilote.
 

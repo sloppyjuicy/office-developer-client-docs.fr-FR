@@ -19,7 +19,7 @@ ms.locfileid: "32295834"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **QueryDefs** qui contient tous les objets **QueryDef** de la connexion spécifiée. En lecture seule.
+Renvoie une collection **QueryDefs** qui contient tous les objets **QueryDef** de la connexion spécifiée. Valeur en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

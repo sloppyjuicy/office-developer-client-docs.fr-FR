@@ -26,7 +26,7 @@ Exécute une requête action ou exécute une instruction SQL sur l’objet spéc
 
 *expression* Variable qui représente un objet **Connection**.
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

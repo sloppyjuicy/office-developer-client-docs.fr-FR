@@ -41,7 +41,7 @@ Un objet Container regroupe des types d'objets Document similaires.
 </tr>
 <tr class="even">
 <td><p><strong><a href="container-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Renvoie le nom de l'objet spécifié. <strong>String</strong> en lecture seule.</p></td>
+<td><p>Renvoie le nom de l'objet spécifié. En lecture seule <strong>chaîne</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="container-properties-property-dao.md">Propriétés</a></strong></p></td>

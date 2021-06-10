@@ -23,7 +23,7 @@ Indique le jeu de caractères dans lequel le contenu d'un objet [Stream](stream-
 
 ## <a name="settings-and-return-values"></a>Paramètres et valeurs de retour
 
-Définit ou renvoie une valeur de type **String** qui spécifie le jeu de caractères dans lequel le contenu de l'objet **Stream** est converti. La valeur par défaut est « Unicode ». Les valeurs admises sont des chaînes classiques transmises via l'interface sous forme de chaînes de jeu de caractères Internet (par exemple, « ISO-8859-1 », « Windows-1252 », etc.). Pour obtenir la liste des chaînes de jeu de caractères connues par un système, voir les sous-clés de hKEY \_ CLASSES \_ ROOT \\ MIME Database Charset dans le Registre \\ \\ Windows.
+Définit ou renvoie une valeur de type **String** qui spécifie le jeu de caractères dans lequel le contenu de l'objet **Stream** est converti. La valeur par défaut est « Unicode ». Les valeurs admises sont des chaînes classiques transmises via l'interface sous forme de chaînes de jeu de caractères Internet (par exemple, « ISO-8859-1 », « Windows-1252 », etc.). Pour obtenir la liste des chaînes de jeu de caractères connues par un système, voir les sous-clés de hKEY \_ CLASSES \_ ROOT \\ MIME \\ Database Charset dans le Registre \\ Windows.
 
 ## <a name="remarks"></a>Remarques
 

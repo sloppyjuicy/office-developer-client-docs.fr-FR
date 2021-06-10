@@ -38,12 +38,12 @@ Spécifie la position relative de deux enregistrements représentés par leurs s
 <tbody>
 <tr class="odd">
 <td><p><strong>adCompareEqual</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indique que les signets sont égaux.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCompareGreaterThan</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique que le premier signet est situé après le second.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +58,7 @@ Spécifie la position relative de deux enregistrements représentés par leurs s
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareNotEqual</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indique que les signets ne sont ni égaux, ni classés.</p></td>
 </tr>
 </tbody>

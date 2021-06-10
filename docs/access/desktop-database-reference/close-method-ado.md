@@ -27,7 +27,7 @@ Ferme un objet ouvert, ainsi que tous les objets qui en dépendent.
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **Close** pour fermer un objet [Connection](connection-object-ado.md), [Record](record-object-ado.md), [Recordset](recordset-object-ado.md) ou [Stream](stream-object-ado.md) et libérer ainsi toutes les ressources système associées. La fermeture d'un objet n'entraîne pas sa suppression de la mémoire ; vous pouvez modifier ses paramètres de propriété et le rouvrir ultérieurement. Pour éliminer complètement un objet de la mémoire, définissez la variable objet sur *Nothing* (en Visual Basic) après avoir fermé l’objet.
+Utilisez la méthode **Close** pour fermer un objet [Connection](connection-object-ado.md), [Record](record-object-ado.md), [Recordset](recordset-object-ado.md) ou [Stream](stream-object-ado.md) et libérer ainsi toutes les ressources système associées. La fermeture d'un objet n'entraîne pas sa suppression de la mémoire ; vous pouvez modifier ses paramètres de propriété et le rouvrir ultérieurement. Pour éliminer complètement un objet de la mémoire, définissez la variable objet sur *Nothing* (en Visual Basic) après la fermeture de l’objet.
 
 **Objet Connection**
 

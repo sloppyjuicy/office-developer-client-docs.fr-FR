@@ -24,7 +24,7 @@ Utilisez l’action **CopierFichierBaseDeDonnées** pour créer une copie de la 
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 
@@ -50,7 +50,9 @@ L’action **CopierFichierBaseDeDonnées** possède les arguments suivants.
 </tr>
 <tr class="odd">
 <td><p><strong>Déconnecter tous les utilisateurs</strong></p></td>
-<td><p>Spécifie si Access doit ou non forcer la déconnexion des utilisateurs de la base de données. Si cet argument est défini sur <strong>Oui</strong>, tout utilisateur connecté à la base de données active est déconnecté et l’opération de copie de la base de données peut se poursuivre. S’il est défini sur <strong>Non</strong> et si un ou plusieurs utilisateurs sont connectés à la base de données, l’opération de copie de la base de données échoue. La valeur par défaut est <strong>Non</strong>.</p><p><strong>AVERTISSEMENT :</strong>la déconnexion des utilisateurs d’une base de données sans avertissement adéquat peut entraîner une perte de données.</p></td>
+<td><p>Spécifie si Access doit ou non forcer la déconnexion des utilisateurs de la base de données. Si cet argument est défini sur <strong>Oui</strong>, tout utilisateur connecté à la base de données active est déconnecté et l’opération de copie de la base de données peut se poursuivre. S’il est défini sur <strong>Non</strong> et si un ou plusieurs utilisateurs sont connectés à la base de données, l’opération de copie de la base de données échoue. La valeur par défaut est <strong>Non</strong>. 
+
+</p><p><strong>AVERTISSEMENT :</strong>la déconnexion des utilisateurs d’une base de données sans avertissement adéquat peut entraîner une perte de données.</p></td>
 </tr>
 </tbody>
 </table>

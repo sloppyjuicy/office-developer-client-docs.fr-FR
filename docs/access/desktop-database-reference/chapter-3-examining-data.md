@@ -109,6 +109,6 @@ La section suivante explique comment localiser la position actuelle du curseur d
 
 Ce chapitre présente les rubriques suivantes :
 
-- [Localisation de l’enregistrement actuel (ADO)](locating-the-current-record.md)
+- [Recherche de l’enregistrement actuel (ADO)](locating-the-current-record.md)
 - [Navigation dans les données (ADO)](navigating-through-the-data.md)
 - [Understanding Recordset structure (ADO)](understanding-recordset-structure.md)

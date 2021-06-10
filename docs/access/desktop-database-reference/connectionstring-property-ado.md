@@ -53,7 +53,7 @@ ADO prend en charge cinq arguments pour la propriété **ConnectionString**. Tou
 </tr>
 <tr class="odd">
 <td><p><em>Remote Provider=</em></p></td>
-<td><p>Spécifie le nom d'un fournisseur à utiliser pour les connexions côté client. (Remote Data Service uniquement.)</p></td>
+<td><p>Spécifie le nom d'un fournisseur à utiliser lors de l'ouverture d'une connexion côté client (RDS uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Remote Server=</em></p></td>

@@ -24,7 +24,7 @@ ms.locfileid: "32296632"
 
 Vous pouvez utiliser **l’action AnnulerEvent** pour annuler l’événement qui a entraîné l’utilisation de la macro contenant cette action par Access. Le nom de la macro est le paramètre d’une propriété de type événement comme **AvantMAJ**, **SurOuverture**, **SurLibération** ou **SurImpression**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **AnnulerEvénement** ne possède aucun argument.
 
@@ -69,7 +69,7 @@ Les événements suivants peuvent être annulés par l’action **AnnulerEvénem
 <td><p><strong>Unload</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Delete</strong></p></td>
+<td><p><strong>Supprimer</strong></p></td>
 <td><p></p></td>
 <td><p></p></td>
 </tr>

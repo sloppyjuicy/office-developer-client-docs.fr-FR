@@ -27,7 +27,7 @@ Utilisez l'action **AppliquerFiltre** pour appliquer un filtre, une requête ou 
 > [!NOTE]
 > [!REMARQUE] Vous pouvez utiliser cette action pour appliquer une clause WHERE SQL seulement lorsque vous appliquez un filtre serveur. Il n'est pas possible d'appliquer un filtre serveur à une source d'enregistrement d'une procédure stockée.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **AppliquerFiltre** possède les arguments suivants.
 
@@ -57,7 +57,7 @@ L’action **AppliquerFiltre** possède les arguments suivants.
 </table>
 
 > [!NOTE]
-> [!REMARQUE] Utilisez l'argument Nom du filtre si vous avez déjà défini un filtre qui fournit les données appropriées. Utilisez l'argument ConditionWhere pour entrer directement les critères de restriction. Si vous utilisez les deux arguments, Microsoft Office Access 2007 applique la clause WHERE aux résultats du filtre. Vous devez utiliser au moins l’un de ces deux arguments.
+> [!REMARQUE] Utilisez l'argument Nom du filtre si vous avez déjà défini un filtre qui fournit les données appropriées. Utilisez l'argument Condition Where pour entrer directement les critères de restriction. Si vous utilisez les deux arguments, Microsoft Office Access 2007 applique la clause WHERE aux résultats du filtre. Vous devez utiliser au moins l'un de ces deux arguments.
 
 ## <a name="remarks"></a>Remarques
 

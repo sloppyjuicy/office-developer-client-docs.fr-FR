@@ -1,5 +1,5 @@
 ---
-title: Connection.CreateQueryDef, méthode (DAO)
+title: Connection.CreateQueryDef method (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 254fe81a-9b45-e8e7-108d-503c1c1c0fcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191860(v=office.15)
@@ -30,7 +30,7 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 
 *expression* Variable qui représente un objet **Connection**.
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

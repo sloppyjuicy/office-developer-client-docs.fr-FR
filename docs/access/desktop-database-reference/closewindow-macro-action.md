@@ -25,7 +25,7 @@ ms.locfileid: "32296289"
 
 Vous pouvez utiliser l’action **FermerWindow** pour fermer un onglet de document Access spécifié ou l’onglet de document actif si aucun onglet n’est spécifié.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **FermerFenêtre** utilise les arguments suivants :
 
@@ -43,7 +43,9 @@ L’action **FermerFenêtre** utilise les arguments suivants :
 <tbody>
 <tr class="odd">
 <td><p><strong>Type d’objet</strong></p></td>
-<td><p>Type d’objet dont vous voulez fermer l’onglet de document. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Pour sélectionner l’onglet de document actif, laissez cet argument vide.</p>
+<td><p>Type d’objet dont vous voulez fermer l’onglet de document. Cliquez sur <strong>Table</strong>, <strong>Requête</strong>, <strong>Formulaire</strong>, <strong>État</strong>, <strong>Macro</strong>, <strong>Module</strong>, <strong>Page d’accès aux données</strong>, <strong>Vue serveur</strong>, <strong>Schéma</strong>, <strong>Procédure stockée</strong> ou <strong>Fonction</strong> dans la zone <strong>Type d’objet</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Pour sélectionner l’onglet de document actif, laissez cet argument vide. 
+
+</p>
 
 > [!NOTE]
 > Si vous fermez un module dans Visual Basic Editor, vous devez utiliser **Module** dans l’argument **Type d’objet**.

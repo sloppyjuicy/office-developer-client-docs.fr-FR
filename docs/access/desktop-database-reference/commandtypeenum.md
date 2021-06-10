@@ -43,12 +43,12 @@ Spécifie comment interpréter un argument de commande.
 </tr>
 <tr class="even">
 <td><p><strong>adCmdText</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Evalue <a href="commandtext-property-ado.md">CommandText</a> comme définition textuelle d’une commande ou d’un appel de procédure stockée.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCmdTable</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Evalue <strong>CommandText</strong> comme nom de table dont les colonnes sont toutes renvoyées par une requête SQL générée en interne.</p></td>
 </tr>
 <tr class="even">

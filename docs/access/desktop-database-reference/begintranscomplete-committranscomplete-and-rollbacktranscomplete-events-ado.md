@@ -39,7 +39,7 @@ RollbackTransComplete *pError*, *adStatus*, *pConnection*
 |Paramètre|Description|
 |:--------|:----------|
 |*TransactionLevel* |Valeur de type **Long** contenant le nouveau niveau de transaction de l'événement **BeginTrans** qui a provoqué l'événement.|
-|*pError* |Objet [Error](error-object-ado.md). Il décrit l’erreur qui s’est produite si la valeur de EventStatusEnum **est adStatusErrorsOccurred**; Dans le cas contraire, il n’est pas définie.|
+|*pError* |Objet [Error](error-object-ado.md). Il décrit l’erreur qui s’est produite si la valeur de EventStatusEnum **est adStatusErrorsOccurred**; Sinon, il n’est pas définie.|
 |*adStatus* |[EventStatusEnum](eventstatusenum.md). Ces événements peuvent empêcher la génération de notifications ultérieures en définissant ce paramètre à **adStatusUnwantedEvent** avant que l'événement soit retourné.|
 |*pConnection* |Objet **Connection** pour lequel l'événement s'est produit.|
 

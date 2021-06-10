@@ -77,4 +77,4 @@ Ce chapitre présente les rubriques suivantes :
 - [Identification des éléments pris en charge](determining-what-is-supported.md)
 - [Suppression des enregistrements à l’aide de la méthode Delete](deleting-records-using-the-delete-method.md)
 - [Alternatives : utilisation d’SQL instructions](alternatives-using-sql-statements.md)
-- [Ajout d’enregistrements (ADO)](adding-records.md)
+- [Adding records (ADO)](adding-records.md)

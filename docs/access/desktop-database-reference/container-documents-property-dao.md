@@ -1,5 +1,5 @@
 ---
-title: Container.Documents, propriété (DAO)
+title: Container.Documents Property (DAO)
 TOCTitle: Documents Property
 ms:assetid: d2effd76-a300-c0dd-201a-86c9d04e3a62
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834785(v=office.15)
@@ -23,7 +23,7 @@ ms.locfileid: "32295659"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **Documents** qui contient tous les documents enregistrés dans l'objet spécifié. En lecture seule.
+Renvoie une collection **Documents** qui contient tous les documents enregistrés dans l'objet spécifié. Valeur en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

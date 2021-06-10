@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295631"
 ---
-# <a name="container-object-dao"></a>Objet Container (DAO)
+# <a name="container-object-dao"></a>Container, objet (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 

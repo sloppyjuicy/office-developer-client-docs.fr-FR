@@ -46,7 +46,7 @@ Le modèle de programmation RDS est indiqué ci-dessous. Référez-vous-y à mes
 
 - Les modifications apportées à l'objet **Recordset** sont renvoyées au serveur et utilisées pour la mise à jour de la source de données.
 
-## <a name="step-1-specify-a-server-program"></a>Étape 1 : Spécifier un programme serveur
+## <a name="step-1-specify-a-server-program"></a>Étape 1 : spécifier un programme serveur
 
 Dans la plupart des cas, utilisez la méthode [CreateObject](createobject-method-rds.md) de l’objet [RDS.DataSpace](dataspace-object-rds.md) pour spécifier le programme serveur par défaut, [RDSServer.DataFactory](datafactory-object-rdsserver.md), ou votre propre programme serveur personnalisé (objet métier). Un programme serveur est instancié sur le serveur et une référence à ce programme (ou *proxy*) est retournée.
 
@@ -71,7 +71,7 @@ Si vous n’avez pas utilisé [RDSServer.DataFactory](datafactory-object-rdsserv
 
 1. Définissez **RDS. Propriété Serveur** [d’objets](server-property-rds.md) DataControl pour identifier l’emplacement où le programme serveur doit être inséré.
 
-2. Définissez la [propriété Connect](connect-property-rds.md) pour spécifier la chaîne de connexion pour accéder à la source de données.
+2. Définissez la [Connecter](connect-property-rds.md) pour spécifier la chaîne de connexion pour accéder à la source de données.
 
 3. Définissez [la SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) pour spécifier le texte de la commande de requête. 
 
@@ -237,7 +237,7 @@ End Sub
 
 Il s’agit du didacticiel RDS, écrit dans Microsoft Visual Basic Scripting Edition. Pour obtenir une description de l’objectif de ce didacticiel, consultez l’introduction à cette rubrique.
 
-Dans ce didacticiel, [RDS. DataControl](datacontrol-object-rds.md) et [RDS. L’espace de](dataspace-object-rds.md) données est créé au moment de la conception . autrement dit, elles sont définies avec des balises d’objet. Il est également possible de les créer au moment de l'exécution à l'aide de la méthode **Server.CreateObject**. 
+Dans ce didacticiel, [RDS. DataControl](datacontrol-object-rds.md) et [RDS. DataSpace sont](dataspace-object-rds.md) créés au moment de la conception ; autrement dit, elles sont définies avec des balises d’objet. Il est également possible de les créer au moment de l'exécution à l'aide de la méthode **Server.CreateObject**. 
 
 Par exemple, l'objet **RDS.DataControl** peut être créé de la façon suivante :
 
@@ -260,7 +260,7 @@ Par exemple, l'objet **RDS.DataControl** peut être créé de la façon suivante
      Dim DF1 
 ```
 
-### <a name="step-1-specify-a-server-program"></a>Étape 1 : Spécifier un programme serveur
+### <a name="step-1-specify-a-server-program"></a>Étape 1 : spécifier un programme serveur
 
 VBScript peut découvrir le nom du serveur web IIS sur qui il s’exécute en accédant à la méthode VBScript **Request.ServerVariables** disponible pour les Active Server Pages :
 
