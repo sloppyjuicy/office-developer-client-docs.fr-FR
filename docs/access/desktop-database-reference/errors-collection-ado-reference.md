@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293433"
 ---
-# <a name="errors-collection-ado-reference"></a><span data-ttu-id="cfa3d-102">Errors collection (ADO) reference</span><span class="sxs-lookup"><span data-stu-id="cfa3d-102">Errors collection (ADO) reference</span></span>
+# <a name="errors-collection-ado-reference"></a><span data-ttu-id="e6d42-102">Errors collection (ADO) reference</span><span class="sxs-lookup"><span data-stu-id="e6d42-102">Errors collection (ADO) reference</span></span>
 
-<span data-ttu-id="cfa3d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cfa3d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e6d42-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e6d42-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="cfa3d-104">Errors, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="cfa3d-104">Errors collection (ADO)</span></span>](errors-collection-ado.md)
-- [<span data-ttu-id="cfa3d-105">Errors, collection – Propriétés, méthodes et événements</span><span class="sxs-lookup"><span data-stu-id="cfa3d-105">Errors collection properties, methods, and events</span></span>](errors-collection-properties-methods-and-events.md)
+- [<span data-ttu-id="e6d42-104">Errors, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="e6d42-104">Errors collection (ADO)</span></span>](errors-collection-ado.md)
+- [<span data-ttu-id="e6d42-105">Errors, collection – Propriétés, méthodes et événements</span><span class="sxs-lookup"><span data-stu-id="e6d42-105">Errors collection properties, methods, and events</span></span>](errors-collection-properties-methods-and-events.md)
 

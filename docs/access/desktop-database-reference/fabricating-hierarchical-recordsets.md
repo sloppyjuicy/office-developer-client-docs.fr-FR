@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293202"
 ---
-# <a name="fabricating-hierarchical-recordsets"></a><span data-ttu-id="e4099-102">Fabrication de recordsets hiérarchiques</span><span class="sxs-lookup"><span data-stu-id="e4099-102">Fabricating hierarchical Recordsets</span></span>
+# <a name="fabricating-hierarchical-recordsets"></a><span data-ttu-id="ba07f-102">Fabrication de recordsets hiérarchiques</span><span class="sxs-lookup"><span data-stu-id="ba07f-102">Fabricating hierarchical Recordsets</span></span>
 
 
-<span data-ttu-id="e4099-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4099-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ba07f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ba07f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e4099-104">L'exemple ci-après indique comment créer un jeu d'enregistrements hiérarchique sans source de données sous-jacente en utilisant la syntaxe de mise en forme des données pour définir les colonnes des objets **Recordset** parents, enfants ou petits-enfants.</span><span class="sxs-lookup"><span data-stu-id="e4099-104">The following example shows how to fabricate a hierarchical Recordset without an underlying data source by using the data shaping grammar to define columns for parent, child, and grandchild **Recordsets**.</span></span>
+<span data-ttu-id="ba07f-104">L'exemple ci-après indique comment créer un jeu d'enregistrements hiérarchique sans source de données sous-jacente en utilisant la syntaxe de mise en forme des données pour définir les colonnes des objets **Recordset** parents, enfants ou petits-enfants.</span><span class="sxs-lookup"><span data-stu-id="ba07f-104">The following example shows how to fabricate a hierarchical Recordset without an underlying data source by using the data shaping grammar to define columns for parent, child, and grandchild **Recordsets**.</span></span>
 
-<span data-ttu-id="e4099-p101">Pour créer un **jeu d'enregistrements**, hiérarchique, vous devez spécifier le service de mise en forme des données Microsoft pour OLE DB (MSDataShape). Vous pouvez spécifier la valeur de fournisseur de données NONE dans le paramètre de chaîne de connexion de la méthode [Open](connection-object-ado.md) de l'objet [Connection](open-method-ado-connection.md) . Pour plus d'informations, reportez-vous à la section [Fournisseurs requis pour la mise en forme des données](required-providers-for-data-shaping.md).</span><span class="sxs-lookup"><span data-stu-id="e4099-p101">To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data Shaping Service for OLE DB (MSDataShape), and you may specify a Data Provider value of NONE in the connection string parameter of the [Connection](connection-object-ado.md) object's [Open](open-method-ado-connection.md) method. For more information, see [Required Providers for Data Shaping](required-providers-for-data-shaping.md).</span></span>
+<span data-ttu-id="ba07f-p101">Pour créer un **jeu d'enregistrements**, hiérarchique, vous devez spécifier le service de mise en forme des données Microsoft pour OLE DB (MSDataShape). Vous pouvez spécifier la valeur de fournisseur de données NONE dans le paramètre de chaîne de connexion de la méthode [Open](connection-object-ado.md) de l'objet [Connection](open-method-ado-connection.md) . Pour plus d'informations, reportez-vous à la section [Fournisseurs requis pour la mise en forme des données](required-providers-for-data-shaping.md).</span><span class="sxs-lookup"><span data-stu-id="ba07f-p101">To fabricate a hierarchical **Recordset**, you must specify the Microsoft Data Shaping Service for OLE DB (MSDataShape), and you may specify a Data Provider value of NONE in the connection string parameter of the [Connection](connection-object-ado.md) object's [Open](open-method-ado-connection.md) method. For more information, see [Required Providers for Data Shaping](required-providers-for-data-shaping.md).</span></span>
 
 ```vb
     Dim cn As New ADODB.Connection
@@ -48,5 +48,5 @@ ms.locfileid: "32293202"
     rsCustomers.Open strShape, cn, adOpenStatic, adLockOptimistic, -1
 ```
 
-<span data-ttu-id="e4099-107">Une fois **le recordset** fabriqué, il peut être rempli, manipulé ou persistant dans un fichier.</span><span class="sxs-lookup"><span data-stu-id="e4099-107">After the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.</span></span>
+<span data-ttu-id="ba07f-107">Une fois **le recordset** fabriqué, il peut être rempli, manipulé ou persistant dans un fichier.</span><span class="sxs-lookup"><span data-stu-id="ba07f-107">After the **Recordset** has been fabricated, it can be populated, manipulated, or persisted to a file.</span></span>
 

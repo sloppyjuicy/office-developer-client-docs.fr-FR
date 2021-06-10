@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293811"
 ---
-# <a name="documentdatecreated-property-dao"></a><span data-ttu-id="17cab-102">Document.DateCreated, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="17cab-102">Document.DateCreated property (DAO)</span></span>
+# <a name="documentdatecreated-property-dao"></a><span data-ttu-id="d1cf5-102">Document.DateCreated, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1cf5-102">Document.DateCreated property (DAO)</span></span>
 
 
-<span data-ttu-id="17cab-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="17cab-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d1cf5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1cf5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="17cab-104">Renvoie la date et l'heure de création d'un objet.</span><span class="sxs-lookup"><span data-stu-id="17cab-104">Returns the date and time that an object was created.</span></span> <span data-ttu-id="17cab-105">Type de données **Variant** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="17cab-105">Read-only **Variant**.</span></span>
+<span data-ttu-id="d1cf5-p101">Renvoie la date et l'heure de création d'un objet. Valeur de type **Variant** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="d1cf5-p101">Returns the date and time that an object was created. Read-only **Variant**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="17cab-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="17cab-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d1cf5-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d1cf5-106">Syntax</span></span>
 
-<span data-ttu-id="17cab-107">*.* DateCreated</span><span class="sxs-lookup"><span data-stu-id="17cab-107">*expression* .DateCreated</span></span>
+<span data-ttu-id="d1cf5-107">*.* DateCreated</span><span class="sxs-lookup"><span data-stu-id="d1cf5-107">*expression* .DateCreated</span></span>
 
-<span data-ttu-id="17cab-108">*expression* Variable qui représente un **objet Document.**</span><span class="sxs-lookup"><span data-stu-id="17cab-108">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="d1cf5-108">*expression* Variable qui représente un **objet Document.**</span><span class="sxs-lookup"><span data-stu-id="d1cf5-108">*expression* A variable that represents a **Document** object.</span></span>
 

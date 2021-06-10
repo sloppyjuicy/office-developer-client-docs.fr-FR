@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293377"
 ---
-# <a name="errors-methods-dao"></a><span data-ttu-id="5af8e-102">Errors methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="5af8e-102">Errors methods (DAO)</span></span>
+# <a name="errors-methods-dao"></a><span data-ttu-id="906d4-102">Errors methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="906d4-102">Errors methods (DAO)</span></span>
 
-<span data-ttu-id="5af8e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5af8e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="906d4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="906d4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="5af8e-104">Errors.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="5af8e-104">Errors.Refresh method (DAO)</span></span>](errors-refresh-method-dao.md)
+- [<span data-ttu-id="906d4-104">Errors.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="906d4-104">Errors.Refresh method (DAO)</span></span>](errors-refresh-method-dao.md)
 

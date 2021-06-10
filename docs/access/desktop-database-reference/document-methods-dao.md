@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293797"
 ---
-# <a name="document-methods-dao"></a><span data-ttu-id="f7a5f-102">Méthodes de document (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a5f-102">Document methods (DAO)</span></span>
+# <a name="document-methods-dao"></a><span data-ttu-id="a0883-102">Méthodes de document (DAO)</span><span class="sxs-lookup"><span data-stu-id="a0883-102">Document methods (DAO)</span></span>
 
 
-<span data-ttu-id="f7a5f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7a5f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a0883-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0883-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f7a5f-104">Document.CreateProperty method (DAO)</span><span class="sxs-lookup"><span data-stu-id="f7a5f-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
+- [<span data-ttu-id="a0883-104">Document.CreateProperty method (DAO)</span><span class="sxs-lookup"><span data-stu-id="a0883-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
 

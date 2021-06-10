@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292523"
 ---
-# <a name="fields-methods-dao"></a><span data-ttu-id="7af36-102">Fields methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="7af36-102">Fields methods (DAO)</span></span>
+# <a name="fields-methods-dao"></a><span data-ttu-id="12e20-102">Fields methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e20-102">Fields methods (DAO)</span></span>
 
-<span data-ttu-id="7af36-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7af36-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="12e20-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12e20-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="7af36-104">Fields.Append, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="7af36-104">Fields.Append method (DAO)</span></span>](fields-append-method-dao.md)
-- [<span data-ttu-id="7af36-105">Fields.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="7af36-105">Fields.Delete method (DAO)</span></span>](fields-delete-method-dao.md)
-- [<span data-ttu-id="7af36-106">Fields.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="7af36-106">Fields.Refresh method (DAO)</span></span>](fields-refresh-method-dao.md)
+- [<span data-ttu-id="12e20-104">Fields.Append, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e20-104">Fields.Append method (DAO)</span></span>](fields-append-method-dao.md)
+- [<span data-ttu-id="12e20-105">Fields.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e20-105">Fields.Delete method (DAO)</span></span>](fields-delete-method-dao.md)
+- [<span data-ttu-id="12e20-106">Fields.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="12e20-106">Fields.Refresh method (DAO)</span></span>](fields-refresh-method-dao.md)
 

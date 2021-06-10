@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293069"
 ---
-# <a name="field-object-ado-reference"></a><span data-ttu-id="4358a-102">Référence de l’objet Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="4358a-102">Field object (ADO) reference</span></span>
+# <a name="field-object-ado-reference"></a><span data-ttu-id="7f57c-102">Référence de l’objet Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="7f57c-102">Field object (ADO) reference</span></span>
 
-<span data-ttu-id="4358a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4358a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f57c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f57c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="4358a-104">Field, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="4358a-104">Field object (ADO)</span></span>](field-object-ado.md)
-- [<span data-ttu-id="4358a-105">Field properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="4358a-105">Field properties, methods, and events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="7f57c-104">Field, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="7f57c-104">Field object (ADO)</span></span>](field-object-ado.md)
+- [<span data-ttu-id="7f57c-105">Field properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="7f57c-105">Field properties, methods, and events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
 

@@ -14,27 +14,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292782"
 ---
-# <a name="field2iscomplex-property-dao"></a><span data-ttu-id="646e2-102">Field2.IsComplex, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="646e2-102">Field2.IsComplex property (DAO)</span></span>
+# <a name="field2iscomplex-property-dao"></a><span data-ttu-id="6adad-102">Field2.IsComplex, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="6adad-102">Field2.IsComplex property (DAO)</span></span>
 
-<span data-ttu-id="646e2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="646e2-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="6adad-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6adad-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="646e2-104">Renvoie une valeur **Boolean** qui indique si le champ défini est un type de données à plusieurs valeurs.</span><span class="sxs-lookup"><span data-stu-id="646e2-104">Returns **Boolean** that indicates whether the specified field is a multi-valued data type.</span></span> <span data-ttu-id="646e2-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="646e2-105">Read-only.</span></span>
+<span data-ttu-id="6adad-p101">Renvoie une valeur **Boolean** qui indique si le champ défini est un type de données à plusieurs valeurs. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="6adad-p101">Returns **Boolean** that indicates whether the specified field is a multi-valued data type. Read-only.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="646e2-106">Informations de version</span><span class="sxs-lookup"><span data-stu-id="646e2-106">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="6adad-106">Informations de version</span><span class="sxs-lookup"><span data-stu-id="6adad-106">Version information</span></span>
 
-<span data-ttu-id="646e2-107">Version ajoutée : Access 2007</span><span class="sxs-lookup"><span data-stu-id="646e2-107">Version added: Access 2007</span></span>
+<span data-ttu-id="6adad-107">Version ajoutée : Access 2007</span><span class="sxs-lookup"><span data-stu-id="6adad-107">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="646e2-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="646e2-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6adad-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="6adad-108">Syntax</span></span>
 
-<span data-ttu-id="646e2-109">*.* IsComplex</span><span class="sxs-lookup"><span data-stu-id="646e2-109">*expression* .IsComplex</span></span>
+<span data-ttu-id="6adad-109">*.* IsComplex</span><span class="sxs-lookup"><span data-stu-id="6adad-109">*expression* .IsComplex</span></span>
 
-<span data-ttu-id="646e2-110">*expression* une variable qui représente une **champ2** objet.</span><span class="sxs-lookup"><span data-stu-id="646e2-110">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="6adad-110">*expression* une variable qui représente une **champ2** objet.</span><span class="sxs-lookup"><span data-stu-id="6adad-110">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="646e2-111">Exemple</span><span class="sxs-lookup"><span data-stu-id="646e2-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6adad-111">Exemple</span><span class="sxs-lookup"><span data-stu-id="6adad-111">Example</span></span>
 
-<span data-ttu-id="646e2-112">L’exemple suivant montre comment naviguer dans un Recordset contenant un champ à valeurs multiples.</span><span class="sxs-lookup"><span data-stu-id="646e2-112">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
+<span data-ttu-id="6adad-112">L’exemple suivant montre comment naviguer dans un Recordset contenant un champ à valeurs multiples.</span><span class="sxs-lookup"><span data-stu-id="6adad-112">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
 
-<span data-ttu-id="646e2-113">**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="646e2-113">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="6adad-113">**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="6adad-113">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub PrintStudentsAndClasses()

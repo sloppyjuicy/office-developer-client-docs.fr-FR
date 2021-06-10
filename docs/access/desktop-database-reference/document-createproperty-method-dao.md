@@ -18,19 +18,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293818"
 ---
-# <a name="documentcreateproperty-method-dao"></a><span data-ttu-id="85a4d-102">Document.CreateProperty method (DAO)</span><span class="sxs-lookup"><span data-stu-id="85a4d-102">Document.CreateProperty method (DAO)</span></span>
+# <a name="documentcreateproperty-method-dao"></a><span data-ttu-id="bd3f1-102">Document.CreateProperty method (DAO)</span><span class="sxs-lookup"><span data-stu-id="bd3f1-102">Document.CreateProperty method (DAO)</span></span>
 
-<span data-ttu-id="85a4d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="85a4d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bd3f1-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bd3f1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="85a4d-104">Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="85a4d-104">Creates a new user-defined **[Property](property-object-dao.md)** object (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="bd3f1-104">Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="bd3f1-104">Creates a new user-defined **[Property](property-object-dao.md)** object (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="85a4d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="85a4d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bd3f1-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="bd3f1-105">Syntax</span></span>
 
-<span data-ttu-id="85a4d-106">*.* CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)</span><span class="sxs-lookup"><span data-stu-id="85a4d-106">*expression* .CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)</span></span>
+<span data-ttu-id="bd3f1-106">*.* CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)</span><span class="sxs-lookup"><span data-stu-id="bd3f1-106">*expression* .CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)</span></span>
 
-<span data-ttu-id="85a4d-107">*expression* Variable qui représente un **objet Document.**</span><span class="sxs-lookup"><span data-stu-id="85a4d-107">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="bd3f1-107">*expression* Variable qui représente un **objet Document.**</span><span class="sxs-lookup"><span data-stu-id="bd3f1-107">*expression* A variable that represents a **Document** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="85a4d-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="85a4d-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bd3f1-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="bd3f1-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,57 +41,57 @@ ms.locfileid: "32293818"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="85a4d-109">Nom</span><span class="sxs-lookup"><span data-stu-id="85a4d-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="85a4d-110">Obligatoire/facultatif</span><span class="sxs-lookup"><span data-stu-id="85a4d-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="85a4d-111">Type de données</span><span class="sxs-lookup"><span data-stu-id="85a4d-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="85a4d-112">Description</span><span class="sxs-lookup"><span data-stu-id="85a4d-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="bd3f1-109">Nom</span><span class="sxs-lookup"><span data-stu-id="bd3f1-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="bd3f1-110">Obligatoire/facultatif</span><span class="sxs-lookup"><span data-stu-id="bd3f1-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="bd3f1-111">Type de données</span><span class="sxs-lookup"><span data-stu-id="bd3f1-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="bd3f1-112">Description</span><span class="sxs-lookup"><span data-stu-id="bd3f1-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="85a4d-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="85a4d-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="85a4d-114">Facultatif</span><span class="sxs-lookup"><span data-stu-id="85a4d-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="85a4d-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="85a4d-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="85a4d-116">Valeur de type <strong>String</strong> qui nomme de façon unique le nouvel objet <strong>Property</strong>.</span><span class="sxs-lookup"><span data-stu-id="85a4d-116">A <strong>String</strong> that uniquely names the new <strong>Property</strong> object.</span></span> <span data-ttu-id="85a4d-117">Voir la propriété <strong>Name</strong> pour plus d'informations sur les noms <strong>Property</strong> valides.</span><span class="sxs-lookup"><span data-stu-id="85a4d-117">See the <strong>Name</strong> property for details on valid <strong>Property</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="bd3f1-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-114">Facultatif</span><span class="sxs-lookup"><span data-stu-id="bd3f1-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="bd3f1-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-p101">Valeur de type <strong>String</strong> qui nomme de façon unique le nouvel objet <strong>Property</strong>. Voir la propriété <strong>Name</strong> pour plus d'informations sur les noms <strong>Property</strong> valides.</span><span class="sxs-lookup"><span data-stu-id="bd3f1-p101">A <strong>String</strong> that uniquely names the new <strong>Property</strong> object. See the <strong>Name</strong> property for details on valid <strong>Property</strong> names.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85a4d-118"><em>Type</em></span><span class="sxs-lookup"><span data-stu-id="85a4d-118"><em>Type</em></span></span></p></td>
-<td><p><span data-ttu-id="85a4d-119">Facultatif</span><span class="sxs-lookup"><span data-stu-id="85a4d-119">Optional</span></span></p></td>
-<td><p><span data-ttu-id="85a4d-120"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="85a4d-120"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="85a4d-121">Constante qui définit le type de données du nouvel objet <strong>Property</strong>.</span><span class="sxs-lookup"><span data-stu-id="85a4d-121">A constant that defines the data type of the new <strong>Property</strong> object.</span></span> <span data-ttu-id="85a4d-122">Pour connaître les types de données valides, reportez-vous à la propriété <strong><a href="field-type-property-dao.md">Type</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="85a4d-122">See the <strong><a href="field-type-property-dao.md">Type</a></strong> property for valid data types.</span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-118"><em>Type</em></span><span class="sxs-lookup"><span data-stu-id="bd3f1-118"><em>Type</em></span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-119">Facultatif</span><span class="sxs-lookup"><span data-stu-id="bd3f1-119">Optional</span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-120"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="bd3f1-120"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-p102">Constante qui définit le type de données du nouvel objet <strong>Property</strong>. Pour connaître les types de données valides, reportez-vous à la propriété <strong><a href="field-type-property-dao.md">Type</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="bd3f1-p102">A constant that defines the data type of the new <strong>Property</strong> object. See the <strong><a href="field-type-property-dao.md">Type</a></strong> property for valid data types.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="85a4d-123"><em>Value</em></span><span class="sxs-lookup"><span data-stu-id="85a4d-123"><em>Value</em></span></span></p></td>
-<td><p><span data-ttu-id="85a4d-124">Facultatif</span><span class="sxs-lookup"><span data-stu-id="85a4d-124">Optional</span></span></p></td>
-<td><p><span data-ttu-id="85a4d-125"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="85a4d-125"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="85a4d-126"><strong>Variant</strong> contenant la valeur initiale de la propriété.</span><span class="sxs-lookup"><span data-stu-id="85a4d-126">A <strong>Variant</strong> containing the initial property value.</span></span> <span data-ttu-id="85a4d-127">Pour plus <strong><a href="field-value-property-dao.md">d’informations,</a></strong> voir la propriété Value.</span><span class="sxs-lookup"><span data-stu-id="85a4d-127">See the <strong><a href="field-value-property-dao.md">Value</a></strong> property for details.</span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-123"><em>Value</em></span><span class="sxs-lookup"><span data-stu-id="bd3f1-123"><em>Value</em></span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-124">Facultatif</span><span class="sxs-lookup"><span data-stu-id="bd3f1-124">Optional</span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-125"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="bd3f1-125"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-p103"><strong>Variant</strong> contenant la valeur initiale de la propriété. Pour plus d’informations, reportez-vous à la méthode <strong><a href="field-value-property-dao.md">Value</a></strong>.</span><span class="sxs-lookup"><span data-stu-id="bd3f1-p103">A <strong>Variant</strong> containing the initial property value. See the <strong><a href="field-value-property-dao.md">Value</a></strong> property for details.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="85a4d-128"><em>DDL</em></span><span class="sxs-lookup"><span data-stu-id="85a4d-128"><em>DDL</em></span></span></p></td>
-<td><p><span data-ttu-id="85a4d-129">Facultatif</span><span class="sxs-lookup"><span data-stu-id="85a4d-129">Optional</span></span></p></td>
-<td><p><span data-ttu-id="85a4d-130"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="85a4d-130"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="85a4d-131">Valeur de type <strong>Variant</strong> (sous-type <strong>Boolean</strong>) indiquant si l'objet <strong>Property</strong> est ou non un objet DDL.</span><span class="sxs-lookup"><span data-stu-id="85a4d-131">A <strong>Variant</strong> (<strong>Boolean</strong> subtype) that indicates whether or not the <strong>Property</strong> is a DDL object.</span></span> <span data-ttu-id="85a4d-132">La valeur par défaut est <strong>False</strong>.</span><span class="sxs-lookup"><span data-stu-id="85a4d-132">The default is <strong>False</strong>.</span></span> <span data-ttu-id="85a4d-133">Si DDL a la valeur <strong>True</strong>, les utilisateurs ne peuvent pas modifier ou supprimer cet objet <strong>Property</strong> sauf s'ils détiennent une autorisation <strong>dbSecWriteDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="85a4d-133">If DDL is <strong>True</strong>, users can't change or delete this <strong>Property</strong> object unless they have <strong>dbSecWriteDef</strong> permission.</span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-128"><em>DDL</em></span><span class="sxs-lookup"><span data-stu-id="bd3f1-128"><em>DDL</em></span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-129">Facultatif</span><span class="sxs-lookup"><span data-stu-id="bd3f1-129">Optional</span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-130"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="bd3f1-130"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="bd3f1-p104">Valeur de type <strong>Variant</strong> (sous-type <strong>Boolean</strong>) indiquant si l'objet <strong>Property</strong> est ou non un objet DDL. La valeur par défaut est <strong>False</strong>. Si DDL a la valeur <strong>True</strong>, les utilisateurs ne peuvent pas modifier ou supprimer cet objet <strong>Property</strong> sauf s'ils détiennent une autorisation <strong>dbSecWriteDef</strong>.</span><span class="sxs-lookup"><span data-stu-id="bd3f1-p104">A <strong>Variant</strong> (<strong>Boolean</strong> subtype) that indicates whether or not the <strong>Property</strong> is a DDL object. The default is <strong>False</strong>. If DDL is <strong>True</strong>, users can't change or delete this <strong>Property</strong> object unless they have <strong>dbSecWriteDef</strong> permission.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="85a4d-134">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="85a4d-134">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="bd3f1-134">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="bd3f1-134">Return value</span></span>
 
-<span data-ttu-id="85a4d-135">Propriété</span><span class="sxs-lookup"><span data-stu-id="85a4d-135">Property</span></span>
+<span data-ttu-id="bd3f1-135">Propriété</span><span class="sxs-lookup"><span data-stu-id="bd3f1-135">Property</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="85a4d-136">Remarques</span><span class="sxs-lookup"><span data-stu-id="85a4d-136">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd3f1-136">Remarques</span><span class="sxs-lookup"><span data-stu-id="bd3f1-136">Remarks</span></span>
 
-<span data-ttu-id="85a4d-137">Vous pouvez créer un objet utilisateur **Property** uniquement dans la collection **[Properties](properties-collection-dao.md)** d'un objet qui est persistant.</span><span class="sxs-lookup"><span data-stu-id="85a4d-137">You can create a user-defined **Property** object only in the **[Properties](properties-collection-dao.md)** collection of an object that is persistent.</span></span>
+<span data-ttu-id="bd3f1-137">Vous pouvez créer un objet utilisateur **Property** uniquement dans la collection **[Properties](properties-collection-dao.md)** d'un objet qui est persistant.</span><span class="sxs-lookup"><span data-stu-id="bd3f1-137">You can create a user-defined **Property** object only in the **[Properties](properties-collection-dao.md)** collection of an object that is persistent.</span></span>
 
-<span data-ttu-id="85a4d-p105">Si vous omettez une ou plusieurs parties facultatives lorsque vous utilisez **CreateProperty**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d'ajouter le nouvel objet à une collection. Une fois que vous ajoutez l'objet, vous pouvez modifier certains de ses paramètres de propriété mais pas tous. Pour plus d'informations, reportez-vous aux rubriques des propriétés **Name**, **Type** et **Value**.</span><span class="sxs-lookup"><span data-stu-id="85a4d-p105">If you omit one or more of the optional parts when you use **CreateProperty**, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can alter some but not all of its property settings. See the **Name**, **Type**, and **Value** property topics for more details.</span></span>
+<span data-ttu-id="bd3f1-p105">Si vous omettez une ou plusieurs parties facultatives lorsque vous utilisez **CreateProperty**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d'ajouter le nouvel objet à une collection. Une fois que vous ajoutez l'objet, vous pouvez modifier certains de ses paramètres de propriété mais pas tous. Pour plus d'informations, reportez-vous aux rubriques des propriétés **Name**, **Type** et **Value**.</span><span class="sxs-lookup"><span data-stu-id="bd3f1-p105">If you omit one or more of the optional parts when you use **CreateProperty**, you can use an appropriate assignment statement to set or reset the corresponding property before you append the new object to a collection. After you append the object, you can alter some but not all of its property settings. See the **Name**, **Type**, and **Value** property topics for more details.</span></span>
 
-<span data-ttu-id="85a4d-141">Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="85a4d-141">If name refers to an object that is already a member of the collection, a run-time error occurs when you use the **[Append](fields-append-method-dao.md)** method.</span></span>
+<span data-ttu-id="bd3f1-141">Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="bd3f1-141">If name refers to an object that is already a member of the collection, a run-time error occurs when you use the **[Append](fields-append-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="85a4d-142">Pour supprimer un objet **Property** défini par l’utilisateur de la collection, utilisez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection **Properties.**</span><span class="sxs-lookup"><span data-stu-id="85a4d-142">To remove a user-defined **Property** object from the collection, use the **[Delete](fields-delete-method-dao.md)** method on the **Properties** collection.</span></span> <span data-ttu-id="85a4d-143">Vous ne pouvez pas supprimer de propriétés intégrées.</span><span class="sxs-lookup"><span data-stu-id="85a4d-143">You can't delete built-in properties.</span></span>
+<span data-ttu-id="bd3f1-142">Pour supprimer un objet **Property** défini par l’utilisateur de la collection, utilisez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection **Properties.**</span><span class="sxs-lookup"><span data-stu-id="bd3f1-142">To remove a user-defined **Property** object from the collection, use the **[Delete](fields-delete-method-dao.md)** method on the **Properties** collection.</span></span> <span data-ttu-id="bd3f1-143">Vous ne pouvez pas supprimer de propriétés intégrées.</span><span class="sxs-lookup"><span data-stu-id="bd3f1-143">You can't delete built-in properties.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="85a4d-144">Si vous omettez l’argument DDL, sa valeur par défaut est False (non DDL).</span><span class="sxs-lookup"><span data-stu-id="85a4d-144">If you omit the DDL argument, it defaults to False (non-DDL).</span></span> <span data-ttu-id="85a4d-145">Dans la mesure où la propriété DDL correspondante est exposée, vous devez supprimer et recréer l'objet **Property** pour passer de DDL à non DDL.</span><span class="sxs-lookup"><span data-stu-id="85a4d-145">Because no corresponding DDL property is exposed, you must delete and re-create a **Property** object you want to change from DDL to non-DDL.</span></span>
+> <span data-ttu-id="bd3f1-144">Si vous omettez l’argument DDL, sa valeur par défaut est False (non DDL).</span><span class="sxs-lookup"><span data-stu-id="bd3f1-144">If you omit the DDL argument, it defaults to False (non-DDL).</span></span> <span data-ttu-id="bd3f1-145">Dans la mesure où la propriété DDL correspondante est exposée, vous devez supprimer et recréer l'objet **Property** pour passer de DDL à non DDL.</span><span class="sxs-lookup"><span data-stu-id="bd3f1-145">Because no corresponding DDL property is exposed, you must delete and re-create a **Property** object you want to change from DDL to non-DDL.</span></span>
 
 

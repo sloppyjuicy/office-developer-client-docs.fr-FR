@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293846"
 ---
-# <a name="dimensions-collection-ado-md-reference"></a><span data-ttu-id="b1812-102">Dimensions, collection (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b1812-102">Dimensions collection (ADO MD reference)</span></span>
+# <a name="dimensions-collection-ado-md-reference"></a><span data-ttu-id="69e51-102">Dimensions, collection (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="69e51-102">Dimensions collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="b1812-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1812-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69e51-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69e51-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b1812-104">Dimensions, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b1812-104">Dimensions collection (ADO MD)</span></span>](dimensions-collection-ado-md.md)
-- [<span data-ttu-id="b1812-105">Dimensions, collection - Propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b1812-105">Dimensions collection properties, methods, and events (ADO MD)</span></span>](dimensions-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="69e51-104">Dimensions, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="69e51-104">Dimensions collection (ADO MD)</span></span>](dimensions-collection-ado-md.md)
+- [<span data-ttu-id="69e51-105">Dimensions, collection - Propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="69e51-105">Dimensions collection properties, methods, and events (ADO MD)</span></span>](dimensions-collection-properties-methods-and-events-ado-md.md)
 

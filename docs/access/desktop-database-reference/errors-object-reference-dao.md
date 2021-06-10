@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293370"
 ---
-# <a name="errors-object-reference-dao"></a><span data-ttu-id="1ced0-102">Errors object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ced0-102">Errors object reference (DAO)</span></span>
+# <a name="errors-object-reference-dao"></a><span data-ttu-id="139af-102">Errors object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="139af-102">Errors object reference (DAO)</span></span>
 
-<span data-ttu-id="1ced0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ced0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="139af-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="139af-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="1ced0-104">Errors collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ced0-104">Errors collection (DAO)</span></span>](errors-collection-dao.md)
-- [<span data-ttu-id="1ced0-105">Errors members (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ced0-105">Errors members (DAO)</span></span>](errors-members-dao.md)
-- [<span data-ttu-id="1ced0-106">Errors properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ced0-106">Errors properties (DAO)</span></span>](errors-properties-dao.md)
-- [<span data-ttu-id="1ced0-107">Errors methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ced0-107">Errors methods (DAO)</span></span>](errors-methods-dao.md)
+- [<span data-ttu-id="139af-104">Errors collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="139af-104">Errors collection (DAO)</span></span>](errors-collection-dao.md)
+- [<span data-ttu-id="139af-105">Errors members (DAO)</span><span class="sxs-lookup"><span data-stu-id="139af-105">Errors members (DAO)</span></span>](errors-members-dao.md)
+- [<span data-ttu-id="139af-106">Errors properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="139af-106">Errors properties (DAO)</span></span>](errors-properties-dao.md)
+- [<span data-ttu-id="139af-107">Errors methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="139af-107">Errors methods (DAO)</span></span>](errors-methods-dao.md)
 

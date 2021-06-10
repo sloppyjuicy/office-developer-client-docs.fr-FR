@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293468"
 ---
-# <a name="error-object-reference-dao"></a><span data-ttu-id="bf9db-102">Error object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="bf9db-102">Error object reference (DAO)</span></span>
+# <a name="error-object-reference-dao"></a><span data-ttu-id="73e91-102">Error object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="73e91-102">Error object reference (DAO)</span></span>
 
-<span data-ttu-id="bf9db-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bf9db-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="73e91-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73e91-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="bf9db-104">Error, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="bf9db-104">Error object (DAO)</span></span>](error-object-dao.md)
-- [<span data-ttu-id="bf9db-105">Error members (DAO)</span><span class="sxs-lookup"><span data-stu-id="bf9db-105">Error members (DAO)</span></span>](error-members-dao.md)
-- [<span data-ttu-id="bf9db-106">Error properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="bf9db-106">Error properties (DAO)</span></span>](error-properties-dao.md)
+- [<span data-ttu-id="73e91-104">Error, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="73e91-104">Error object (DAO)</span></span>](error-object-dao.md)
+- [<span data-ttu-id="73e91-105">Error members (DAO)</span><span class="sxs-lookup"><span data-stu-id="73e91-105">Error members (DAO)</span></span>](error-members-dao.md)
+- [<span data-ttu-id="73e91-106">Error properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="73e91-106">Error properties (DAO)</span></span>](error-properties-dao.md)
 

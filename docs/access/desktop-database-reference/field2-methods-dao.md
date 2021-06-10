@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292768"
 ---
-# <a name="field2-methods-dao"></a><span data-ttu-id="286ad-102">Field2 methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="286ad-102">Field2 methods (DAO)</span></span>
+# <a name="field2-methods-dao"></a><span data-ttu-id="db79f-102">Field2 methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="db79f-102">Field2 methods (DAO)</span></span>
 
-<span data-ttu-id="286ad-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="286ad-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="db79f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="db79f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="286ad-104">Field2.AppendChunk, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="286ad-104">Field2.AppendChunk method (DAO)</span></span>](field2-appendchunk-method-dao.md)
-- [<span data-ttu-id="286ad-105">Field2.CreateProperty method (DAO)</span><span class="sxs-lookup"><span data-stu-id="286ad-105">Field2.CreateProperty method (DAO)</span></span>](field2-createproperty-method-dao.md)
-- [<span data-ttu-id="286ad-106">Field2.GetChunk, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="286ad-106">Field2.GetChunk method (DAO)</span></span>](field2-getchunk-method-dao.md)
-- [<span data-ttu-id="286ad-107">Méthode Field2.LoadFromFile (DAO)</span><span class="sxs-lookup"><span data-stu-id="286ad-107">Field2.LoadFromFile method (DAO)</span></span>](field2-loadfromfile-method-dao.md)
-- [<span data-ttu-id="286ad-108">Méthode Field2.SaveToFile (DAO)</span><span class="sxs-lookup"><span data-stu-id="286ad-108">Field2.SaveToFile method (DAO)</span></span>](field2-savetofile-method-dao.md)
+- [<span data-ttu-id="db79f-104">Field2.AppendChunk, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="db79f-104">Field2.AppendChunk method (DAO)</span></span>](field2-appendchunk-method-dao.md)
+- [<span data-ttu-id="db79f-105">Field2.CreateProperty method (DAO)</span><span class="sxs-lookup"><span data-stu-id="db79f-105">Field2.CreateProperty method (DAO)</span></span>](field2-createproperty-method-dao.md)
+- [<span data-ttu-id="db79f-106">Field2.GetChunk, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="db79f-106">Field2.GetChunk method (DAO)</span></span>](field2-getchunk-method-dao.md)
+- [<span data-ttu-id="db79f-107">Field2.LoadFromFile method (DAO)</span><span class="sxs-lookup"><span data-stu-id="db79f-107">Field2.LoadFromFile method (DAO)</span></span>](field2-loadfromfile-method-dao.md)
+- [<span data-ttu-id="db79f-108">Méthode Field2.SaveToFile (DAO)</span><span class="sxs-lookup"><span data-stu-id="db79f-108">Field2.SaveToFile method (DAO)</span></span>](field2-savetofile-method-dao.md)
 

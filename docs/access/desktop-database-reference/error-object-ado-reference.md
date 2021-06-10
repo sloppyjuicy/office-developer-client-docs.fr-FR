@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293489"
 ---
-# <a name="error-object-ado-reference"></a><span data-ttu-id="3a29c-102">Référence de l’objet Error (ADO)</span><span class="sxs-lookup"><span data-stu-id="3a29c-102">Error object (ADO) reference</span></span>
+# <a name="error-object-ado-reference"></a><span data-ttu-id="ea5b2-102">Référence de l’objet Error (ADO)</span><span class="sxs-lookup"><span data-stu-id="ea5b2-102">Error object (ADO) reference</span></span>
 
-<span data-ttu-id="3a29c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3a29c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ea5b2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ea5b2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3a29c-104">Error, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="3a29c-104">Error object (ADO)</span></span>](error-object-ado.md)
-- [<span data-ttu-id="3a29c-105">Error properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="3a29c-105">Error properties, methods, and events (ADO)</span></span>](error-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="ea5b2-104">Error, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="ea5b2-104">Error object (ADO)</span></span>](error-object-ado.md)
+- [<span data-ttu-id="ea5b2-105">Error properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="ea5b2-105">Error properties, methods, and events (ADO)</span></span>](error-properties-methods-and-events-ado.md)
 

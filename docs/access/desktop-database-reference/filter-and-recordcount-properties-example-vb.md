@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292481"
 ---
-# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="fdee1-102">Filter et RecordCount, propriétés – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="fdee1-102">Filter and RecordCount properties example (VB)</span></span>
+# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="757e5-102">Filter et RecordCount, propriétés – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="757e5-102">Filter and RecordCount properties example (VB)</span></span>
 
 
-<span data-ttu-id="fdee1-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fdee1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="757e5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="757e5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fdee1-104">Cet exemple ouvre un objet **Recordset** sur la table Publishers (base de données ***Pubs***).</span><span class="sxs-lookup"><span data-stu-id="fdee1-104">This example open a **Recordset** on the Publishers table in the ***Pubs*** database.</span></span> <span data-ttu-id="fdee1-105">Il utilise ensuite la propriété [Filter](filter-property-ado.md) pour limiter le nombre d'enregistrements visibles aux éditeurs d'une région ou d'un pays donné.</span><span class="sxs-lookup"><span data-stu-id="fdee1-105">It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region.</span></span> <span data-ttu-id="fdee1-106">La propriété **CpteEnregistrement** sert à afficher les différences entre les jeux d'enregistrements filtrés et non filtrés.</span><span class="sxs-lookup"><span data-stu-id="fdee1-106">The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
+<span data-ttu-id="757e5-p101">Cet exemple ouvre un objet **Recordset** sur la table Publishers (base de données ***Pubs***). Il utilise ensuite la propriété [Filter](filter-property-ado.md) pour limiter le nombre d’enregistrements visibles aux éditeurs d’une région ou d’un pays donné. La propriété **CpteEnregistrement** sert à afficher les différences entre les jeux d’enregistrements filtrés et non filtrés.</span><span class="sxs-lookup"><span data-stu-id="757e5-p101">This example open a **Recordset** on the Publishers table in the ***Pubs*** database. It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region. The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
 
 ```vb 
  
@@ -106,7 +106,7 @@ End Sub
 
 
 > [!NOTE]
-> <span data-ttu-id="fdee1-p102">[!REMARQUE] Lorsque vous connaissez les données que vous souhaitez sélectionner, il est généralement plus efficace d'ouvrir un **Recordset** avec une instruction SQL. Cet exemple montre comment créer un seul **Recordset** et obtenir les enregistrements d'une région ou d'un pays particulier.</span><span class="sxs-lookup"><span data-stu-id="fdee1-p102">When you know the data you want to select, it's usually more efficient to open a **Recordset** with an SQL statement. This example shows how you can create just one **Recordset** and obtain records from a particular country/region.</span></span>
+> <span data-ttu-id="757e5-p102">[!REMARQUE] Lorsque vous connaissez les données que vous souhaitez sélectionner, il est généralement plus efficace d'ouvrir un **Recordset** avec une instruction SQL. Cet exemple montre comment créer un seul **Recordset** et obtenir les enregistrements d'une région ou d'un pays particulier.</span><span class="sxs-lookup"><span data-stu-id="757e5-p102">When you know the data you want to select, it's usually more efficient to open a **Recordset** with an SQL statement. This example shows how you can create just one **Recordset** and obtain records from a particular country/region.</span></span>
 
 
 
