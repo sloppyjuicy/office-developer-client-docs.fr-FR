@@ -18,7 +18,7 @@ ms.locfileid: "32294973"
 
 **S’applique à** : Access 2013, Office 2013
 
-Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de travail Microsoft Access uniquement). .
+Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -60,7 +60,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 <td><p><em>Value</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> contenant la valeur initiale de la propriété. Pour plus <strong><a href="field-value-property-dao.md">d’informations,</a></strong> voir la propriété Value.</p></td>
+<td><p><strong>Variant</strong> contenant la valeur initiale de la propriété. Pour plus d’informations, reportez-vous à la méthode <strong><a href="field-value-property-dao.md">Value</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DDL</em></p></td>
@@ -87,7 +87,7 @@ Si le nom fait référence à un objet qui est déjà membre de la collection, u
 Pour supprimer un objet **Property** défini par l’utilisateur de la collection, utilisez la méthode **[Delete](fields-delete-method-dao.md)** sur la collection **Properties.** Vous ne pouvez pas supprimer de propriétés intégrées.
 
 > [!NOTE]
-> Si vous omettez l’argument DDL, sa valeur par défaut est False (non DDL). Dans la mesure où la propriété DDL correspondante est exposée, vous devez supprimer et recréer l'objet **Property** pour passer de DDL à non DDL.
+> Si vous omettez l'argument DDL, sa valeur par défaut est False (non DDL). Aucune propriété DDL correspondante n'étant exposée, vous devez supprimer et recréer un objet **Property** pour en faire un objet non DDL.
 
 
 ## <a name="example"></a>Exemple

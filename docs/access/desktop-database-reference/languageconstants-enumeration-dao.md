@@ -103,7 +103,7 @@ Indique un ordre d'attachement pour la création d'une base de données.
 <tr class="even">
 <td><p>dbLangNordic</p></td>
 <td><p>&quot;; LANGID=0x041D; CP=1252; COUNTRY=0&quot;</p></td>
-<td><p>En-dent</p></td>
+<td><p>Centre d’ment</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbLangNorwDan</p></td>

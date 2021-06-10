@@ -18,7 +18,7 @@ ms.locfileid: "32294651"
 
 **S’applique à** : Access 2013, Office 2013
 
-Dans un espace de travail Microsoft Access, renvoie la version du moteur de base de données Microsoft Jet ou Microsoft Access qui a créé la base de données. Type de données **String** en lecture seule.
+Dans un espace de travail Microsoft Access, renvoie la version du moteur de base de données Microsoft Jet ou Microsoft Access qui a créé la base de données. Valeur **String** en lecture seule
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -81,7 +81,7 @@ Le tableau suivant montre la version du moteur de base de données incluse dans 
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
 <td><p>2.5 (1995)</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 <td><p>4.0 (16 bits)</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>

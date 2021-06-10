@@ -59,7 +59,7 @@ Synchronise deux réplicas. (espaces de travail Microsoft Access uniquement).
 <td><p><em>ExchangeType</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> indiquant le sens de synchronisation des modifications entre les deux bases de données.</p></td>
+<td><p>Constante <strong><a href="synchronizetypeenum-enumeration-dao.md">SynchronizeTypeEnum</a></strong> indiquant la direction de synchronisation des modifications entre les deux bases de données.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ Synchronise deux réplicas. (espaces de travail Microsoft Access uniquement).
 
 ## <a name="remarks"></a>Remarques
 
-Vous utilisez **Synchronize** pour échanger des données et des modifications de conception entre deux bases de données. Les modifications de conception ont toujours lieu en premier. Les deux bases de données doivent se trouver au même niveau de conception avant de pouvoir échanger des données. Par exemple, un échange de type **dbRepExportChanges** peut entraîner des modifications de conception au niveau d’un réplica, même si les modifications de données ne circulent que de la base de données vers DbPathName.
+Vous utilisez **Synchronize** pour échanger des données et des modifications de conception entre deux bases de données. Les modifications de conception ont toujours lieu en premier. Les deux bases de données doivent se trouver au même niveau de conception avant de pouvoir échanger des données. Par exemple, un échange de type **dbRepExportChanges** peut entraîner des modifications de conception au niveau d’un réplica, même si les modifications de données sont uniquement apportées de la base de données à DbPathName.
 
 Le réplica identifié dans DbPathName doit faire partie du même jeu de réplicas. Si les deux réplicas possèdent le même paramètre de propriété **ReplicaID** ou sont des réplicas-maîtres pour deux ensembles de réplicas différents, la synchronisation échoue.
 

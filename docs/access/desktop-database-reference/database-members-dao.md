@@ -41,7 +41,7 @@ Un objet Database représente une base de données ouverte.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Crée un objet utilisateur <strong><a href="property-object-dao.md">Property</a></strong> (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Crée un objet utilisateur <strong><a href="property-object-dao.md">Property</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></p></td>
@@ -49,11 +49,11 @@ Un objet Database représente une base de données ouverte.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></p></td>
-<td><p>Crée un objet <strong><a href="relation-object-dao.md">Relation</a></strong> (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Crée un nouvel objet <strong><a href="relation-object-dao.md">Relation</a></strong> (Espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></p></td>
-<td><p>Crée un nouvel objet <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Crée un objet <strong><a href="tabledef-object-dao.md">TableDef</a></strong> (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-execute-method-dao.md">Execute</a></strong></p></td>
@@ -120,7 +120,7 @@ Un objet Database représente une base de données ouverte.
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Renvoie le nom de l'objet spécifié. <strong>String</strong> en lecture seule.</p></td>
+<td><p>Renvoie le nom de l'objet spécifié. En lecture seule <strong>chaîne</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-properties-property-dao.md">Propriétés</a></strong></p></td>
@@ -156,11 +156,11 @@ Un objet Database représente une base de données ouverte.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-transactions-property-dao.md">Transactions</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si un objet prend en charge les transactions. <strong>Boolean</strong> (en lecture seule).</p></td>
+<td><p>Renvoie une valeur qui indique si un objet prend en charge les transactions. Valeur <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. <strong>Boolean</strong> (en lecture seule).</p></td>
+<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-version-property-dao.md">Version</a></strong></p></td>

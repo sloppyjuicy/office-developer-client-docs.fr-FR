@@ -23,7 +23,7 @@ Indique à la date de la dernière modification de l'objet.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Renvoie une valeur de type **Variant** en spécifiant la date de la modification. La valeur est Null si la propriété **DateModified** n’est pas prise en charge par le fournisseur.
+Renvoie une valeur de type **Variant** en spécifiant la date de la modification. La valeur est Null si la propriété **DateModified** n'est pas prise en charge par le fournisseur.
 
 ## <a name="remarks"></a>Remarques
 

@@ -19,7 +19,7 @@ ms.locfileid: "32294357"
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit le mot de passe servant à créer l'objet **Workspace** par défaut lors de son initialisation. **String** en lecture/écriture.
+Définit le mot de passe servant à créer l'objet **Workspace** par défaut lors de son initialisation. Valeur de type **String** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 

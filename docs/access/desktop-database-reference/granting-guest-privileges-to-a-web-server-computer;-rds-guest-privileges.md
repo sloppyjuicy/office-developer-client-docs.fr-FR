@@ -22,7 +22,7 @@ Le compte de serveur web anonyme (IUSR \_ *ComputerName*) doit être ajouté au 
 
 **Pour accorder des privilèges d’invité à un ordinateur serveur web**
 
-1.  Sur votre ordinateur Microsoft Windows 2000 Server, cliquez sur **Démarrer,** pointez sur **Programmes,** pointez sur Outils d’administration, puis cliquez sur Gestion de **l’ordinateur.**
+1.  Sur votre ordinateur Microsoft Windows Server 2000, cliquez sur **Démarrer,** pointez sur **Programmes,** pointez sur Outils d’administration, puis cliquez sur Gestion de **l’ordinateur.**
 
 2.  Dans l'arborescence de la console, dans **Utilisateurs et groupes locaux**, cliquez sur **Groupes**.
 

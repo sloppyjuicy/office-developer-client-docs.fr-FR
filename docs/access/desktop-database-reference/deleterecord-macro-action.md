@@ -20,7 +20,7 @@ ms.locfileid: "32294014"
 
 Vous pouvez utiliser l’action **SupprimerEnregistrement** pour supprimer un enregistrement.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 Le bloc de données **CréerEnregistrement** utilise les arguments suivants.
 

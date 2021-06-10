@@ -66,7 +66,7 @@ Remplace temporairement les valeurs des clés du moteur de base de données Micr
 
 ## <a name="remarks"></a>Remarques
 
-Chaque constante fait référence à la clé de Registre correspondante dans le chemin d’accès HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access \\ Connectivity Engines \\ ACE (autrement dit, **dbSharedAsyncDelay** correspond à la clé HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE \\ \\ SharedAsyncDelay, etc.).
+Chaque constante fait référence à la clé de Registre correspondante dans le chemin d’accès HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE (autrement \\ dit, **dbSharedAsyncDelay** correspond à la clé HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE \\ \\ SharedAsyncDelay, etc.).
 
 <table>
 <colgroup>

@@ -27,7 +27,7 @@ Dans un projet Access, vous pouvez utiliser l'action **OuvrirVue** pour ouvrir u
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **OuvrirVue** possède les arguments suivants.
 
@@ -45,7 +45,7 @@ L’action **OuvrirVue** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la vue</strong></p></td>
-<td><p>Nom de la vue à ouvrir. La <strong>zone Nom de</strong> l’affichage dans la section Arguments de l’action du volet Générateur de macro affiche tous les affichages de la base de données actuelle. <strong></strong> Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirVue</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la vue portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
+<td><p>Nom de la vue à ouvrir. La <strong>zone Nom de l’affichage</strong> dans la section Arguments de l’action du volet Générateur de macro affiche tous les affichages de la base de données actuelle. <strong></strong> Cet argument est obligatoire. Si vous exécutez une macro contenant l’action <strong>OuvrirVue</strong> dans une base de données bibliothèque, Microsoft Access recherche d’abord la vue portant ce nom dans la base de données bibliothèque, puis dans la base de données active.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>View</strong></p></td>

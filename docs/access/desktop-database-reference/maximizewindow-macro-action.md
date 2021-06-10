@@ -27,7 +27,7 @@ Si Access est configuré pour utiliser des fenêtres superposées au  lieu de do
 > [!NOTE]
 > [!REMARQUE] Cette action ne peut pas être appliquée à des fenêtres Code de Visual Basic Editor. Pour plus d'informations sur la modification des fenêtres Code, consultez la rubrique de la propriété **WindowState**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **AgrandirFenêtre** ne possède aucun argument.
 

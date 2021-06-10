@@ -45,11 +45,11 @@ L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></p></td>
-<td><p>Copie et compacte une base de données fermée, et vous donne la possibilité de changer sa version, son ordre de tri, et son chiffrement. (Espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Copie et compacte une base de données fermée et offre la possibilité d'en modifier la version, l'ordre de classement et le chiffrement. (Pour les espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
-<td><p>Crée un objet <strong><a href="database-object-dao.md">Database</a></strong>, enregistre la base de données sur le disque, et renvoie un objet <strong>Database</strong> ouvert (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Crée un objet <strong><a href="database-object-dao.md">Database</a></strong>, enregistre la base de données sur le disque, et renvoie un objet <strong>Database</strong> ouvert (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-createworkspace-method-dao.md">CreateWorkspace</a></strong></p></td>
@@ -133,7 +133,7 @@ L'objet DBEngine est l'objet de niveau supérieur dans le modèle objet DAO.
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-workspaces-property-dao.md">Workspaces</a></strong></p></td>
-<td><p>Renvoie une collection <strong>Workspaces</strong> qui contient tous les objets <strong>Workspace</strong> actifs et non masqués. En lecture seule.</p></td>
+<td><p>Renvoie une collection <strong>Workspaces</strong> qui contient tous les objets <strong>Workspace</strong> actifs et non masqués. Valeur en lecture seule.</p></td>
 </tr>
 </tbody>
 </table>

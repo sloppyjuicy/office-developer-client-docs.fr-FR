@@ -18,7 +18,7 @@ ms.locfileid: "32291510"
 
 **S’applique à** : Access 2013, Office 2013
 
-- [Indexes, collection (DAO)](indexes-collection-dao.md)
+- [Indexes collection (DAO)](indexes-collection-dao.md)
 - [Indexes members (DAO)](indexes-members-dao.md)
 - [Indexes properties (DAO)](indexes-properties-dao.md)
 - [Indexes methods (DAO)](indexes-methods-dao.md)

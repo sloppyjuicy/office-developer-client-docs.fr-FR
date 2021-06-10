@@ -22,7 +22,7 @@ ms.locfileid: "32291816"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si un objet **[Index](index-object-dao.md)** représente une clé étrangère dans une table (espaces de travail Microsoft Access uniquement). .
+Renvoie une valeur qui indique si un objet **[Index](index-object-dao.md)** représente une clé étrangère d'une table (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 

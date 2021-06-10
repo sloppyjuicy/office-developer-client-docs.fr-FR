@@ -114,7 +114,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="even">
 <td><p><strong>adError</strong></p></td>
-<td><p>10 </p></td>
+<td><p>10</p></td>
 <td><p>Indique un code d'erreur à 32 bits (DBTYPE_ERROR).</p></td>
 </tr>
 <tr class="odd">
@@ -135,12 +135,12 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="even">
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indique un nombre entier signé de 4 octets (DBTYPE_I4).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adIUnknown</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Indique un pointeur vers une interface <strong>IUnknown</strong> sur un objet COM (DBTYPE_IUNKNOWN).</p><p><strong>REMARQUE</strong>: ce type de données n’est actuellement pas pris en charge par ADO. Nous ne pouvons donc pas garantir leur fiabilité.
 </p></td>
 </tr>
@@ -176,7 +176,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="even">
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique un nombre entier signé de 2 octets (DBTYPE_I2).</p></td>
 </tr>
 <tr class="odd">

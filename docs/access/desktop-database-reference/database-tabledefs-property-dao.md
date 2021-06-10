@@ -23,7 +23,7 @@ ms.locfileid: "32294693"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **TableDefs** qui contient tous les objets **TableDef** enregistrés dans la base de données spécifiée. En lecture seule.
+Renvoie une collection **TableDefs** qui contient tous les objets **TableDef** enregistrés dans la base de données spécifiée. Valeur en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

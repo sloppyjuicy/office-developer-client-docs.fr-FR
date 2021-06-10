@@ -38,17 +38,17 @@ Spécifie l'emplacement du service de curseur.
 <tbody>
 <tr class="odd">
 <td><p><strong>adUseClient</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Utilise des curseurs côté client fournis par une bibliothèque de curseurs locale. Les services de curseur locaux disposent de beaucoup plus de fonctions que les curseurs fournis par les pilotes ; ce paramètre peut donc présenter un avantage pour les fonctions activées. Pour des questions de compatibilité ascendante, le synonyme <strong>adUseClientBatch</strong> est également pris en charge.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adUseNone</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>N'utilise pas les services de curseur. (Cette constante est obsolète et n'est présente qu'à des fins de compatibilité ascendante.)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adUseServer</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Valeur par défaut. Utilise des curseurs de type données ou pilote. Ces curseurs sont parfois très souples et acceptent plus facilement les modifications apportées aux données sources. Toutefois, certaines fonctionnalités du service de curseur Microsoft pour <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">OLE DB</a> (telles que les objets <a href="recordset-object-ado.md">Recordset</a> dissociés) ne peuvent pas être simulées avec des curseurs côté serveur, et ces fonctionnalités ne seront pas disponibles avec ce paramètre.</p></td>
 </tr>
 </tbody>

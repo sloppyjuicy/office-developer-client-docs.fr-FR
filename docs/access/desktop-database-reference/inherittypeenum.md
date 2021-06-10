@@ -38,12 +38,12 @@ Indique comment les objets hériteront des autorisations définies à l’aide d
 <tbody>
 <tr class="odd">
 <td><p><strong>adInheritBoth</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Les objets et autres conteneurs de l'objet principal héritent de l'entrée.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adInheritContainers</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>D'autres conteneurs contenus dans l'objet principal héritent de l'entrée.</p></td>
 </tr>
 <tr class="odd">
@@ -58,7 +58,7 @@ Indique comment les objets hériteront des autorisations définies à l’aide d
 </tr>
 <tr class="odd">
 <td><p><strong>adInheritObjects</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Les objets du conteneur qui ne sont pas du type conteneur héritent des autorisations.</p></td>
 </tr>
 </tbody>

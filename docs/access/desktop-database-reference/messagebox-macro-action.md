@@ -20,9 +20,9 @@ ms.locfileid: "32289155"
 
 Vous pouvez utiliser l’action **MessageBox** pour afficher une boîte de message contenant un avertissement ou un message d’information. Par exemple, vous pouvez utiliser l’action **MessageBox** avec des macros de validation. Lorsqu’un contrôle ou un enregistrement échoue à une condition de validation dans la macro, une boîte de message peut afficher un message d’erreur et fournir des instructions sur le type de données à entrer.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
-**L’action MessageBox** possède les arguments suivants.
+**L’action MessageBox** a les arguments suivants.
 
 <table>
 <colgroup>
@@ -50,7 +50,7 @@ Vous pouvez utiliser l’action **MessageBox** pour afficher une boîte de messa
 </tr>
 <tr class="even">
 <td><p><strong>Titre</strong></p></td>
-<td><p>Texte affiché dans la barre de titre de la boîte de message. Par exemple, la barre de titre peut afficher la &quot; validation de l’ID &quot; client. Si vous laissez cet argument vide, &quot; Microsoft Access &quot; s’affiche.</p></td>
+<td><p>Texte affiché dans la barre de titre de la zone de message. Par exemple, la barre de titre peut afficher la &quot; validation de l’ID &quot; client. Si vous laissez cet argument vide, &quot; Microsoft Access &quot; s’affiche.</p></td>
 </tr>
 </tbody>
 </table>
@@ -60,7 +60,7 @@ Vous pouvez utiliser l’action **MessageBox** pour afficher une boîte de messa
 
 Vous pouvez utiliser l’action **MessageBox** pour créer un message d’erreur mis en forme semblable aux messages d’erreur intégrés affichés par Microsoft Access. **L’action MessageBox** vous permet de fournir un message en trois sections pour l’argument Message. Vous séparez les sections par le caractère « @ ».
 
-L’exemple suivant affiche une boîte de message mise en forme avec un message en section. La première section de texte du message s’affiche en gras. La deuxième section s’affiche en texte simple sous ce titre. La troisième section s’affiche sous la deuxième section sous un texte simple, avec une ligne vide entre elles.
+L’exemple suivant affiche une boîte de message mise en forme avec un message en section. La première section de texte du message s’affiche en gras. La deuxième section s’affiche en texte simple sous ce titre. La troisième section s’affiche en tant que texte simple sous la deuxième section, avec une ligne vide entre elles.
 
 Tapez la chaîne suivante dans **l’argument** Message :
 

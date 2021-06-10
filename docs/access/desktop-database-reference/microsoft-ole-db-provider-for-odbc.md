@@ -165,12 +165,12 @@ Le fournisseur OLE DB pour ODBC ajoute plusieurs propriétés à la collection [
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la clause GROUP BY d'une instruction SELECT.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Nombre de colonnes max dans l’index<br />
+<td><p>Nombre maximum de colonnes dans l’index<br />
 (KAGPROP_MAXCOLUMNSININDEX)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être incluses dans un index.</p></td>
 </tr>
 <tr class="even">
-<td><p>Nombre de colonnes max dans l’ordre par<br />
+<td><p>Colonnes max dans l’ordre par<br />
 (KAGPROP_MAXCOLUMNSINORDERBY)</p></td>
 <td><p>Indique le nombre maximal de colonnes qui peuvent être répertoriées dans la clause ORDER BY d'une instruction SELECT.</p></td>
 </tr>
@@ -227,7 +227,7 @@ Pour obtenir le listing des noms de fonctions et des valeurs associées utilisé
 <td><p>Indique les fonctions de date et heure prises en charge par le pilote ODBC. Pour obtenir le listing des noms de fonctions et des valeurs associées utilisés dans ce masque de bits, consultez la rubrique sur les fonctions scalaires dans l'Annexe E de la documentation ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>SQL de grammaire<br />
+<td><p>SQL Prise en charge de la grammaire<br />
 (KAGPROP_ODBCSQLCONFORMANCE)</p></td>
 <td><p>Indique la grammaire SQL prise en charge par le pilote ODBC.</p></td>
 </tr>
@@ -303,7 +303,7 @@ ODBC fournit une syntaxe spécifique pour appeler les procédures stockées. Pou
 
 `"{ [ ? = ] call procedure [ ( ? [, ? [ ,  ]] ) ] }"`
 
-Chaque **?** fait référence à un objet de la collection [Parameters](parameters-collection-ado.md). Le premier **?** references **Parameters**(0), the next **?** fait référence **aux paramètres**(1), etc.
+Chaque **?** fait référence à un objet de la collection [Parameters](parameters-collection-ado.md). Le premier **?** fait référence à l’objet **Parameters** (0), le **?** suivant fait référence à l’objet **Parameters** (1) et ainsi de suite.
 
 Les références aux paramètres sont facultatives et dépendent de la structure de la procédure stockée. Si vous voulez appeler une procédure stockée qui ne définisse aucun paramètre, votre chaîne doit présenter la syntaxe suivante :
 
@@ -549,7 +549,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Supprimer</a></p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
 <td><p>Oui</p></td>
@@ -763,7 +763,7 @@ Les propriétés suivantes sont ajoutées à la collection **Properties** de l'o
 <td><p>DBPROP_INIT_LCID</p></td>
 </tr>
 <tr class="odd">
-<td><p>Lieu</p></td>
+<td><p>Emplacement</p></td>
 <td><p>DBPROP_INIT_LOCATION</p></td>
 </tr>
 <tr class="even">

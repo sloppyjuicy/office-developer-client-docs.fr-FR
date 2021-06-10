@@ -27,7 +27,7 @@ L'action **ImporterListeSharePoint** permet d'importer ou de lier des données �
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **ImporterListeSharePoint** utilise les arguments suivants :
 
@@ -47,8 +47,8 @@ L’action **ImporterListeSharePoint** utilise les arguments suivants :
 <td><p><strong>Type de transfert</strong></p></td>
 <td><p>Sélectionnez le type de transfert.</p>
 <ul>
-<li><p>Sélectionnez <strong>Importer</strong> pour copier les données SharePoint Foundation dans une table dans Microsoft Access. Les mises à jour des données dans Access n’affectent pas les données dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation n’affectent pas les données dans Access.</p></li>
-<li><p>Sélectionnez <strong>Lien</strong> pour créer une table liée dans Access qui est liée aux données dans SharePoint Foundation. Les mises à jour des données dans Access sont reflétées dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation sont reflétées dans Access.</p></li>
+<li><p>Sélectionnez <strong>Importer</strong> pour copier les SharePoint Foundation dans une table dans Microsoft Access. Les mises à jour des données dans Access n’affectent pas les données dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation n’affectent pas les données dans Access.</p></li>
+<li><p>Sélectionnez <strong>Lien</strong> pour créer une table liée dans Access qui relie les données dans SharePoint Foundation. Les mises à jour des données dans Access sont reflétées dans SharePoint Foundation. De même, les mises à jour des données dans SharePoint Foundation sont reflétées dans Access.</p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -94,7 +94,7 @@ L’action **ImporterListeSharePoint** utilise les arguments suivants :
     
   2. Si l'affichage que vous recherchez n'est pas dans la liste, cliquez sur la flèche de la liste déroulante **Affichage** et sélectionnez l'affichage voulu.
     
-  3. Cliquez sur la flèche de la liste déroulante **Affichage**, puis sélectionnez **Modifier cet affichage**.L'adresse dans la barre d'adresse du navigateur contient les GUID de la liste et de l'affichage. Le GUID de la liste est à la suite de **Liste=** et celui de l'affichage est à la suite de **Affichage=**. Cependant, dans l'adresse, chaque caractère **{** (accolade de gauche) est représenté par la chaîne **%7B**, chaque caractère **-** (tiret) est représenté par la chaîne **%2D** et chaque caractère **}** (accolade de droite) est représenté par la chaîne **%7D**. Par exemple :
+  3. Cliquez sur la flèche de la liste déroulante **Affichage**, puis sélectionnez **Modifier cet affichage**.L'adresse dans la barre d'adresse du navigateur contient les GUID de la liste et de l'affichage. Le GUID de la liste est à la suite de **Liste=** et celui de l'affichage est à la suite de **Affichage=**. Cependant, dans l'adresse, chaque caractère **{** (accolade de gauche) est représenté par la chaîne **%7B**, chaque caractère **-** (tiret) est représenté par la chaîne **%2D** et chaque caractère **}** (accolade de droite) est représenté par la chaîne **%7D**. Par exemple :
         
      `https://MySite12/_layouts/ViewEdit.aspx?List=%7B2A82A404%2D5529%2D47DC%2DAE13%2DAC1D9BC0A84F%7D&View=%7B357B4FE6%2D44CF%2D4275%2DB91F%2D46558301579B%7D`
         

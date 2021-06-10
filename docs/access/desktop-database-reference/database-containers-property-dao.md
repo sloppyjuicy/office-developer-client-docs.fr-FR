@@ -23,7 +23,7 @@ ms.locfileid: "32294966"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **Containers** qui représente tous les objets **Container** de la base de données spécifiée. En lecture seule.
+Renvoie une collection **Containers** qui représente tous les objets **Container** de la base de données spécifiée. Valeur en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

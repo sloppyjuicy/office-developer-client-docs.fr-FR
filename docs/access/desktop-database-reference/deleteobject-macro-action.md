@@ -27,7 +27,7 @@ Utilisez l'action **SupprimerObjet** pour supprimer un objet de base de données
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **SupprimerObjet** possède les arguments suivants.
 

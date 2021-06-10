@@ -20,7 +20,7 @@ ms.locfileid: "32294498"
 
 ## <a name="properties"></a>Propriétés
 
-- [Connect, propriété (RDS)](connect-property-rds.md)
+- [Connecter propriété (RDS)](connect-property-rds.md)
 - [ExecuteOptions, propriété (RDS)](executeoptions-property-rds.md)
 - [FetchOptions, propriété (RDS)](fetchoptions-property-rds.md)
 - [FilterColumn, propriété (RDS)](filtercolumn-property-rds.md)
@@ -33,7 +33,7 @@ ms.locfileid: "32294498"
 - [Server, propriété (RDS)](server-property-rds.md)
 - [SortColumn, propriété (RDS)](sortcolumn-property-rds.md)
 - [SortDirection, propriété (RDS)](sortdirection-property-rds.md)
-- [SQL propriété (RDS)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado)
+- [SQL, propriété (RDS)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado)
 - [PROPRIÉTÉ URL (RDS)](url-property-rds.md)
 
 

@@ -62,7 +62,7 @@ Dans ce scénario, vous êtes censé avoir installé sur votre système Microsof
     
    Ce code déclare des références pour les objets globaux **Record** et **Recordset** qui seront utilisés par la suite dans ce scénario.
 
-### <a name="connect-to-a-url-and-populate-lstmain"></a>Se connecter à une URL et remplir lstMain
+### <a name="connect-to-a-url-and-populate-lstmain"></a>Connecter à une URL et remplir lstMain
 
 - Insérez le code suivant dans le gestionnaire d'événements Form Load pour Form1 :
     

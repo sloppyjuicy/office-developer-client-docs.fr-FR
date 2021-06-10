@@ -22,7 +22,7 @@ ms.locfileid: "32302463"
 
 ## <a name="syntax"></a>Syntaxe
 
-*Stream*. Écriture d’une *mémoire tampon*
+*Stream*. Écriture de *mémoire tampon*
 
 ## <a name="parameters"></a>Paramètres
 

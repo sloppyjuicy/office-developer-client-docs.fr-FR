@@ -43,12 +43,12 @@ Spécifie l'état d'un objet : ouvert ou fermé, en cours de connexion à une so
 </tr>
 <tr class="even">
 <td><p><strong>adStateOpen</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indique que l'objet est ouvert.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStateConnecting</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique que l'objet est en train de se connecter.</p></td>
 </tr>
 <tr class="even">

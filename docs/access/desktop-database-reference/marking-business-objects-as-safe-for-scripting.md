@@ -32,7 +32,7 @@ Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}]
 
 où \< *MyActiveXGUID* est le numéro \> GUID hexadécimal de votre objet métier. Save it and merge it into your registry by using the Registry Editor or double-clicking the .reg file in Windows Explorer.
 
-Les objets métier créés dans Microsoft Visual Basic peuvent être automatiquement marqués comme « sécurisés pour l’écriture de scripts » à l’aide de l’Assistant Package et Déploiement. Lorsque l'Assistant vous demande de spécifier les paramètres de sécurité, sélectionnez **Initialisation sécurisée** et **Scripts sécurisés**.
+Les objets métier créés dans Microsoft Visual Basic peuvent être automatiquement marqués comme « sécurisés pour les scripts » à l’aide de l’Assistant Package et Déploiement. Lorsque l'Assistant vous demande de spécifier les paramètres de sécurité, sélectionnez **Initialisation sécurisée** et **Scripts sécurisés**.
 
 En dernier lieu, l'Assistant Configuration de l'application crée un fichier .htm et un fichier .cab. Vous pouvez copier ces deux fichiers sur l'ordinateur cible et double-cliquer sur le fichier .htm pour charger la page et enregistrer correctement le serveur.
 

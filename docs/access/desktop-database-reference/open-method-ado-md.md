@@ -22,7 +22,7 @@ Récupère les résultats d'une requête multidimensionnelle et renvoie les rés
 
 ## <a name="syntax"></a>Syntaxe
 
-*Cellset*. Open *Source*, *ActiveConnection*
+*Cellset*. Open *Source,* *ActiveConnection*
 
 ## <a name="parameters"></a>Paramètres
 

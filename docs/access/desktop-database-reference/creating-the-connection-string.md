@@ -50,7 +50,7 @@ ADO prend directement en charge cinq arguments dans une chaîne de connexion. D'
 </tr>
 <tr class="odd">
 <td><p><em>Serveur distant</em></p></td>
-<td><p>Spécifie le nom de chemin du serveur à utiliser pour les connexions côté client. (Remote Data Service uniquement.)</p></td>
+<td><p>Spécifie le nom du chemin d'accès du serveur à utiliser lors de l'ouverture d'une connexion côté client (RDS uniquement).</p></td>
 </tr>
 </tbody>
 </table>

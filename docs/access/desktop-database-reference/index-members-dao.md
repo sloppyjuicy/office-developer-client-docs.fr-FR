@@ -71,11 +71,11 @@ Les objets Index déterminent l'ordre des enregistrements accessibles depuis les
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-fields-property-dao.md">Fields</a></strong></p></td>
-<td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. Lecture/écriture.</p></td>
+<td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés de l'objet spécifié. Lecture/écriture.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-foreign-property-dao.md">Étranger</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si un objet <strong><a href="index-object-dao.md">Index</a></strong> représente une clé étrangère dans une table (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Renvoie une valeur qui indique si un objet <strong><a href="index-object-dao.md">Index</a></strong> représente une clé étrangère d'une table (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="index-ignorenulls-property-dao.md">IgnoreNulls</a></strong></p></td>

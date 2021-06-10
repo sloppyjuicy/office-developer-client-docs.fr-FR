@@ -38,7 +38,7 @@ Spécifie le caractère utilisé comme séparateur de ligne dans les objets text
 <tbody>
 <tr class="odd">
 <td><p><strong>adCR</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Indique un retour chariot.</p></td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@ Spécifie le caractère utilisé comme séparateur de ligne dans les objets text
 </tr>
 <tr class="odd">
 <td><p><strong>adLF</strong></p></td>
-<td><p>10 </p></td>
+<td><p>10</p></td>
 <td><p>Indique un retour ligne.</p></td>
 </tr>
 </tbody>

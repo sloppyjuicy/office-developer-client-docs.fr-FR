@@ -23,7 +23,7 @@ L'action **ConsignerÉvénement** écrit des informations dans la table système
 > [!NOTE]
 > L’action **USysApplicationLog** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **ConsignerÉvénement** utilise les arguments suivants.
 

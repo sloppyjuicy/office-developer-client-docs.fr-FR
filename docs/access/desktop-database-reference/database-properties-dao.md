@@ -19,7 +19,7 @@ ms.locfileid: "32294819"
 **S’applique à** : Access 2013, Office 2013
 
 - [Database.CollatingOrder, propriété (DAO)](database-collatingorder-property-dao.md)
-- [Database.Connect, propriété (DAO)](database-connect-property-dao.md)
+- [Base de données. Connecter property (DAO)](database-connect-property-dao.md)
 - [Database.Connection, propriété (DAO)](database-connection-property-dao.md)
 - [Database.Containers, propriété (DAO)](database-containers-property-dao.md)
 - [Database.DesignMasterID, propriété (DAO)](database-designmasterid-property-dao.md)

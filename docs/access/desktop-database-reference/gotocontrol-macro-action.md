@@ -20,7 +20,7 @@ ms.locfileid: "32292166"
 
 Vous pouvez utiliser l’action **GoToControl** pour déplacer le focus sur le champ ou le contrôle spécifié dans l’enregistrement actuel du formulaire ouvert, de la feuille de données du formulaire, de la feuille de données de table ou de la feuille de données de requête. Vous pouvez utiliser cette action lorsque vous souhaitez mettre le focus sur un champ ou un contrôle particulier. Ce champ ou le contrôle puis utilisable pour des comparaisons ou des actions **TrouverEnregistrement**. Vous pouvez également utiliser cette action pour naviguer dans un formulaire sous certaines conditions. Par exemple, si l'utilisateur saisit non dans un contrôle conjoint sur un formulaire d'assurance maladie, le focus peut automatiquement passer le contrôle nom du conjoint/partenaire et déplacer vers le contrôle suivant.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 > [!NOTE]
 > Cette action n’est pas disponible pour une utilisation avec des pages d’accès aux données.
@@ -53,7 +53,7 @@ L’action **AtteindreContrôle** possède l’argument suivant.
 Vous ne pouvez pas utiliser **l’action GoToControl** pour déplacer le focus sur un contrôle sur un formulaire masqué.
 
 > [!TIP]
-> Vous pouvez utiliser **l’action GoToControl** pour vous déplacer vers un sous-form, qui est un type de contrôle. Vous pouvez ensuite utiliser **l’action GoToRecord** pour passer à un enregistrement particulier dans le sous-form. Vous pouvez également vous déplacer vers un contrôle d’un sous-form à l’aide de l’action **GoToControl** pour passer d’abord au sous-form, puis au contrôle sur le sous-form.
+> Vous pouvez utiliser **l’action GoToControl** pour vous déplacer vers un sous-form, qui est un type de contrôle. Vous pouvez ensuite utiliser **l’action GoToRecord** pour passer à un enregistrement particulier dans le sous-form. Vous pouvez également vous déplacer vers un contrôle d’un sous-form à l’aide de l’action **GoToControl** pour vous déplacer d’abord vers le sous-form, puis vers le contrôle du sous-form.
 
 Pour exécuter **l’action GoToControl** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **GoToControl** de l’objet **DoCmd.** Vous pouvez également utiliser la méthode **SetFocus** pour placer le focus sur un contrôle dans un formulaire ou un de ses sous-formulaires, ou à un champ dans une table ouverte, une requête ou une feuille de données de formulaire.
 

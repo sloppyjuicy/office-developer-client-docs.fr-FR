@@ -30,7 +30,7 @@ En revanche, ADO comporte deux fichiers contenant les définitions suivantes à 
 
 - Pour les scripts côté client, utilisez Adcjavas.inc, qui est installé par défaut dans le dossier \\ \\ \\ \\ msdac du système de fichiers communs program \\ files.
 
-Vous pouvez copier et coller des définitions de constantes de ces fichiers dans vos pages ASP ou, si vous faites des scripts côté serveur, copiez le fichier Adojavas.inc dans un dossier de votre site web et référencez-le à partir de votre page ASP comme ceci :
+Vous pouvez copier et coller des définitions de constantes de ces fichiers dans vos pages ASP, ou, si vous faites des scripts côté serveur, copiez le fichier Adojavas.inc dans un dossier de votre site web et référencez-le à partir de votre page ASP comme ceci :
 
 ```javascript  
  

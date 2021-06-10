@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294917"
 ---
-# <a name="databasemakereplica-method-dao"></a>Database.MakeReplica, méthode (DAO)
+# <a name="databasemakereplica-method-dao"></a>Méthode Database.MakeReplica (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 

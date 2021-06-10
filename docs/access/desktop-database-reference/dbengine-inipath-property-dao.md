@@ -33,7 +33,7 @@ Définit ou renvoie des informations sur la clé du Registre Windows contenant l
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez configurer le moteur de base de données Microsoft Access avec le Registre Windows. Ce dernier permet de définir des options comme les DLL ISAM installables.
+Vous pouvez configurer le moteur de base de données Microsoft Access avec Windows Registre. Ce dernier permet de définir des options comme les DLL ISAM installables.
 
 Pour que cette option soit efficace, vous devez définir la propriété **IniPath** avant que votre application n'invoque un autre code DAO. L'étendue de ce paramètre est limitée à votre application et ne peut pas être modifiée sans redémarrer votre application.
 

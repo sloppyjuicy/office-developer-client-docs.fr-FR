@@ -24,7 +24,7 @@ ms.locfileid: "32288454"
 
 Utilisez l’action **SurErreur** pour indiquer ce qui doit se passer lorsqu’une erreur se produit dans une macro.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **SurErreur** possède les arguments suivants.
 
@@ -51,7 +51,7 @@ L’action **SurErreur** possède les arguments suivants.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Setting</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

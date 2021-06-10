@@ -24,7 +24,7 @@ ms.locfileid: "32288349"
 
 Faites appel à l'action **OuvrirEtat** pour ouvrir un état en mode Création ou Aperçu avant impression ou pour envoyer l'état directement à l'imprimante. Vous pouvez également limiter les enregistrements qui sont imprimés dans l'état.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **OuvrirEtat** possède les arguments suivants.
 
@@ -42,10 +42,10 @@ L’action **OuvrirEtat** possède les arguments suivants.
 <tbody>
 <tr class="odd">
 <td><p>Nom du rapport</p></td>
-<td><p>Nom de l'état à ouvrir. La zone <strong>Nom de l'état</strong> de la section <strong>Arguments de l'action</strong> du volet <strong>Générateur de macro</strong> présente tous les états dans la base de données actuelle. Il s'agit d'un argument obligatoire. Si vous exécutez une macro contenant l'action OpenReport dans une base de données bibliothèque, Microsoft Access recherche d'abord l'état portant ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
+<td><p>Nom de l'état à ouvrir. La zone <strong>Nom de l'état</strong> de la section <strong>Arguments de l'action</strong> du volet <strong>Générateur de macro</strong> présente tous les états dans la base de données actuelle. Il s'agit d'un argument obligatoire. Si vous exécutez une macro contenant l'action OpenReport dans une base de données bibliothèque, Microsoft Access recherche d'abord l'état portant ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.  </p></td>
 </tr>
 <tr class="even">
-<td><p>Vue</p></td>
+<td><p>Afficher</p></td>
 <td><p>Affichage dans lequel s'ouvre l'état. Cliquez sur <strong>Imprimer</strong> (imprime l'état immédiatement), <strong>Création</strong> ou <strong>Aperçu avant impression</strong> dans la zone <strong>Affichage</strong>. La valeur par défaut est <strong>Imprimer</strong>.  </p></td>
 </tr>
 <tr class="odd">
@@ -55,14 +55,14 @@ L’action **OuvrirEtat** possède les arguments suivants.
 <tr class="even">
 <td><p>Condition Where</p></td>
 <td><p>Clause ou expression WHERE SQL valable (sans le mot WHERE) utilisée par Access pour sélectionner des enregistrements dans la table ou requête sous-jacente de l'état. Si vous sélectionnez un filtre avec l’argument Nom du filtre, Access applique cette clause WHERE aux résultats du filtre. Pour ouvrir un état et limiter ses enregistrements à ceux spécifiés par la valeur d’un contrôle sur un formulaire, utilisez l’expression suivante :<br />
-<strong>[</strong><em>fieldname</em><strong>] = Forms! [</strong><em>nom_formulaire</em><strong>]! [</strong><em>nom du contrôle sur le formulaire</em><strong>]</strong><br />
+<strong>[</strong><em>nom_champ</em><strong>] = Formulaires ! [</strong><em>nom_formulaire</em><strong>]! [</strong><em>nom du contrôle sur le formulaire</em><strong>]</strong><br />
 Remplacez <em>fieldname</em> par le nom d’un champ dans la table ou la requête sous-jacente de l’état que vous souhaitez ouvrir. Remplacez <em>nom_formulaire</em> et <em>nom_contrôle dans le formulaire</em> par le nom du formulaire et du contrôle dans le formulaire qui contient la valeur avec laquelle vous souhaitez que les enregistrements de l’état correspondent.</p>
 <p><b>REMARQUE</b>: la longueur maximale de l’argument Condition Where est de 255 caractères. If you need to enter a more complex SQL WHERE clause longer than this, use the <b>OpenReport</b> method of the <b>DoCmd</b> object in a Visual Basic for Applications (VBA) module instead. You can enter SQL WHERE clause statements of up to 32,768 characters in VBA.</p>
 </td>
 </tr>
 <tr class="odd">
 <td><p>Mode Fenêtre</p></td>
-<td><p>Mode dans lequel s'ouvre l'état. Cliquez sur <strong>Standard</strong>, <strong>Masqué</strong>, <strong>Icône</strong> ou <strong>Boîte de dialogue</strong> dans la zone <strong>Mode Fenêtre</strong>. La valeur par défaut est <strong>Standard</strong>.</p>
+<td><p>Mode dans lequel s'ouvre l'état. Cliquez sur <strong>Standard</strong>, <strong>Masqué</strong>, <strong>Icône</strong> ou <strong>Boîte de dialogue</strong> dans la zone <strong>Mode Fenêtre</strong>. La valeur par défaut est <strong>Standard</strong>.  </p>
 <p><b>REMARQUE</b>: certains paramètres d’argument du mode Fenêtre ne s’appliquent pas lors de l’utilisation de documents à onglets. Pour passer à des fenêtres superposées :
 <ol>
 <li><p>Cliquez sur <strong>Options</strong>.</p></li>
@@ -91,7 +91,7 @@ L'action **OuvrirEtat** équivaut à double-cliquer sur l'état dans le volet de
 
 ## <a name="example"></a>Exemple
 
-L'exemple suivant montre comment utiliser l'action OpenReport pour transmettre un paramètre qui permet de filtrer un état lorsqu'il est ouvert. Le **rapport rptChapters** affiche les enregistrements de l’auteur spécifié en passant l’élément sélectionné dans la zone de liste déroulante **cboAuthors** au paramètre SelectedAuthor.
+L’exemple suivant montre comment utiliser l’action OpenReport pour transmettre un paramètre qui permet de filtrer un état lorsqu’il est ouvert. L’état **rptChapters** affiche les enregistrements de l’auteur spécifié en transmettant l’élément sélectionné dans la zone de liste modifiable **cboAuthors** au paramètre SelectedAuthor.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

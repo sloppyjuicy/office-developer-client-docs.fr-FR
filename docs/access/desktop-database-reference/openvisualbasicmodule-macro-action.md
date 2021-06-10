@@ -27,7 +27,7 @@ Utilisez l'action **OuvrirModuleVisualBasic** pour ouvrir un module Visual Basic
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **OuvrirModuleVisualBasic** utilise les arguments suivants :
 

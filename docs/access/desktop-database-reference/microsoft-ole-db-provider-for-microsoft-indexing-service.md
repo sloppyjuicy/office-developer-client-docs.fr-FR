@@ -62,7 +62,7 @@ La chaîne est composée des mots clé suivants :
 <td><p>Spécifie le fournisseur OLE DB pour le service d'indexation Microsoft. Ce mot clé est généralement le seul spécifié dans la chaîne de connexion.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Data Source</strong></p></td>
+<td><p><strong>Source des données</strong></p></td>
 <td><p>Spécifie le nom du catalogue du service d'indexation. Si ce mot clé n'est pas spécifié, le catalogue système par défaut est utilisé.</p></td>
 </tr>
 <tr class="odd">
@@ -226,7 +226,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-ado-recordset.md">Delete</a></p></td>
+<td><p><a href="delete-method-ado-recordset.md">Supprimer</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="even">

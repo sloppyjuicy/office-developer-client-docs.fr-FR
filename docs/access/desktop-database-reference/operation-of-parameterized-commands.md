@@ -33,7 +33,7 @@ SHAPE {SELECT * FROM customer}
  RELATE cust_id TO PARAMETER 0) 
 ```
 
-Les tables parent et enfant ont un nom de colonne en commun, \_ id cust *.* La *commande enfant a* un espace réservé « ? », auquel la clause RELATE fait référence (autrement dit, « ... PARAMÈTRE 0 « ).
+Les tables parent et enfant ont un nom de colonne en commun, \_ id cust *.* La *commande enfant* a un espace réservé « ? », auquel la clause RELATE fait référence (autrement dit, « ... PARAMÈTRE 0 « ).
 
 > [!NOTE]
 > [!REMARQUE] La clause PARAMETER appartient uniquement à la syntaxe de commande de mise en forme. Elle n'est associée ni à l'objet [Parameter](parameter-object-ado.md), ni à la collection [Parameters](parameters-collection-ado.md) ADO.

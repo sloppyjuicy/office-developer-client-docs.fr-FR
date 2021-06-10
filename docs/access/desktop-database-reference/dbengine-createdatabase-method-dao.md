@@ -22,7 +22,7 @@ ms.locfileid: "32294364"
 
 **S’applique à** : Access 2013, Office 2013
 
-Crée un objet **[Database](database-object-dao.md)**, enregistre la base de données sur le disque, et renvoie un objet **Database** ouvert (espaces de travail Microsoft Access uniquement). .
+Crée un objet **[Database](database-object-dao.md)**, enregistre la base de données sur le disque, et renvoie un objet **Database** ouvert (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -60,7 +60,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 <td><p><strong>String</strong></p></td>
 <td><ul>
 <li><p>Expression de chaîne qui spécifie un ordre de classement pour la création de la base de données, tel qu'il est spécifié dans la section Remarques. Vous devez indiquer cet argument sans quoi une erreur se produit.</p></li>
-<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concassant la chaîne de mot de passe (en commençant par ;p wd= ) avec une constante dans &quot; l’argument &quot; <em>paramètres</em> régionaux, comme ceci :</p></li>
+<li><p>Vous pouvez également créer un mot de passe pour le nouvel objet <strong>Database</strong> en concatenant la chaîne de mot de passe (en commençant par ;p wd= ) avec une constante dans &quot; l’argument &quot; <em>paramètres</em> régionaux, comme ceci :</p></li>
 <li><p>dbLangSpanish &amp; &quot; ;p wd=NewPassword&quot;</p></li>
 <li><p>Si vous souhaitez utiliser la valeur par défaut de <em>locale</em> mais spécifier un mot de passe, entrez simplement une chaîne de mot de passe pour l'argument <em>locale</em> :</p></li>
 <li><p>&quot;;p wd=NewPassword&quot;</p></li>

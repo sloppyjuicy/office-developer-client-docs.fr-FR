@@ -23,7 +23,7 @@ Un **bloc de données ForEachRecord** répète un ensemble d’instructions pour
 > [!NOTE]
 > Le bloc de données **PourChaqueEnregistrement** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **PourChaqueEnregistrement** utilise les arguments suivants.
 

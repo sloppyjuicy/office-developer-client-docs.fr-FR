@@ -68,9 +68,9 @@ Chaque niveau est constitué de membres, comme suit :
 
   - Pays = {Canada, États-Unis, Royaume-Uni, Allemagne}
 
-  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Royaume-Uni, Irlande, Premier pays, Allemagne-Nord, Allemagne-Sud}
+  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Royaume-Uni, Irlande, Allemagne-Nord, Allemagne-Nord, Allemagne-Sud}
 
-  - Cities = {Ottawa, Toronto, Vancouver, Seattle, Seattle, Jeux, Los Seattle, Magasins, Shreveport, Centre d’actualités, États-Unis, États-Unis, New York, Londres, Dover, Jeux, Magasins, Magasins, Magasins, Beapa, Berlin, Centre d’actualités, États-Unis, États-Unis}
+  - Cities = {Ottawa, Toronto, Vancouver, Seattle, Seattle, Jeux, Los Seattle, États-Unis, Magasins, Shreveport, Magasins, New York, Londres, Dover, Jeux, Positions, Position, Position, Position, Berlin, Centre d’actualités, Centre d’actualités, États-Unis, États-Unis}
 
 ## <a name="members"></a>Members
 
@@ -83,7 +83,7 @@ Les membres inférieurs d’une hiérarchie n’ont pas d’enfants et les membr
 
 Les membres peuvent faire partie d'une ou plusieurs hiérachies par dimension.
 
-Cet exemple illustre également une autre caractéristique : certains membres du niveau Semaine de la hiérarchie Year-Week n’apparaissent dans aucun niveau de la Year-Quarter hiérarchique. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
+Cet exemple illustre également une autre caractéristique : certains membres du niveau Week de la hiérarchie Year-Week n’apparaissent dans aucun niveau de la Year-Quarter hiérarchique. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
 
 ## <a name="understanding-multidimensional-schemas"></a>Présentation des schémas multidimensionnels
 
@@ -135,9 +135,9 @@ Chaque niveau est constitué de membres, comme suit :
 
 - Pays = {Canada, États-Unis, Royaume-Uni, Allemagne}
 
-- Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Royaume-Uni, Irlande, Premier pays, Allemagne-Nord, Allemagne-Sud}
+- Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, Royaume-Uni, Irlande, Allemagne-Nord, Allemagne-Nord, Allemagne-Sud}
 
-- Cities = {Ottawa, Toronto, Vancouver, Seattle, Seattle, Jeux, Los Seattle, Cambridge, Shreveport, Centre d’actualités, États-Unis, États-Unis, New York, Londres, Dover, Jeux, Jeux, Magasins, Magasins, Beapa, Berlin, Centre d’actualités, États-Unis, États-Unis}
+- Cities = {Ottawa, Toronto, Vancouver, Seattle, Seattle, Jeux, Los Seattle, États-Unis, Magasins, Shreveport, Magasins, New York, Londres, Dover, Jeux, Positions, Position, Position, Position, Berlin, Centre d’actualités, Centre d’actualités, États-Unis, États-Unis}
 
 ## <a name="members"></a>Members
 
@@ -153,5 +153,5 @@ Les membres inférieurs d’une hiérarchie n’ont pas d’enfants et les membr
 
 Les membres peuvent faire partie d'une ou plusieurs hiérachies par dimension.
 
-Cet exemple illustre également une autre caractéristique : certains membres du niveau Semaine de la hiérarchie Year-Week n’apparaissent dans aucun niveau de la Year-Quarter hiérarchique. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
+Cet exemple illustre également une autre caractéristique : certains membres du niveau Week de la hiérarchie Year-Week n’apparaissent dans aucun niveau de la Year-Quarter hiérarchique. Autrement dit, une hiérarchie ne doit pas nécessairement comprendre tous les membres d'une dimension.
 

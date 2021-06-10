@@ -34,7 +34,7 @@ Définissez *Cell*  =  *Cellset*. Élément (*Positions*)
 
 La propriété **Item** permet de renvoyer un objet [Cell](cell-object-ado-md.md) d’un objet [Cellset](cellset-object-ado-md.md). Si la propriété **Item** ne peut pas trouver la cellule correspondant à l’argument *Positions*, une erreur survient.
 
-La propriété **Item** est la propriété par défaut de l'objet **Cellset**. Les syntaxes suivantes sont interchangeables :
+La propriété **Item** est la propriété par défaut de l'objet **Cellset**. Les syntaxes suivantes sont interchangeables :
 
 ```vb
     Cellset.Item ( Positions )

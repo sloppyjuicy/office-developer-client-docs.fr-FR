@@ -24,7 +24,7 @@ Charge le contenu d’un fichier existant dans un objet [Stream](stream-object-a
 
 *Stream*. LoadFromFile *FileName*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Nom |Description|
 |:----|:----------|

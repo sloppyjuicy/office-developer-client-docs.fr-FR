@@ -1,5 +1,5 @@
 ---
-title: Initialisation du pilote de source de données Microsoft Exchange
+title: Initialisation du pilote de source Exchange données Microsoft
 TOCTitle: Initializing the Microsoft Exchange Data Source driver
 ms:assetid: cf87a746-f846-1a01-f4ec-20a25e335193
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834677(v=office.15)
@@ -18,15 +18,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291406"
 ---
-# <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Initialisation du pilote de source de données Microsoft Exchange
+# <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Initialisation du pilote de source Exchange données Microsoft
 
 **S’applique à** : Access 2013, Office 2013
 
 Lorsque vous installez le pilote de source de données Microsoft Exchange, le programme d’installation écrit un ensemble de valeurs par défaut dans le Registre Microsoft Windows dans les sous-clés Engines et ISAM Formats. Vous ne devez pas modifier ces paramètres directement ; utilisez le programme d’installation de votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de format ISAM pour le pilote de source de données Microsoft Exchange.
 
-## <a name="microsoft-exchange-data-source-initialization-settings"></a>Paramètres d’initialisation de la source de données Microsoft Exchange
+## <a name="microsoft-exchange-data-source-initialization-settings"></a>Paramètres d Exchange d’initialisation de la source de données Microsoft
 
-Le **dossier Exchange access Connectivity \\ Engines \\** inclut les paramètres d’initialisation du pilote Aceexch.dll, utilisé pour l’accès externe aux dossiers Microsoft Outlook et Microsoft Exchange. L'unique entrée dans ce dossier est la suivante :
+Le dossier Exchange Access **Connectivity \\ Engines \\** inclut les paramètres d’initialisation du pilote Aceexch.dll, utilisé pour l’accès externe aux dossiers Microsoft Outlook et Microsoft Exchange. L'unique entrée dans ce dossier est la suivante :
 
 `win32=<path>\ACEEXCH.DLL`
 
@@ -36,7 +36,7 @@ Le format ISAM du client Outlook et le format ISAM du client Exchange donnent de
 
 ## <a name="microsoft-outlook-client-isam-formats"></a>Formats ISAM du client Microsoft Outlook
 
-Le **dossier \\ Outlook \\ 9.0 formats ISAM** du moteur de connectivité Access contient les entrées suivantes.
+Les formats ISAM du moteur **de connectivité Access Outlook \\ \\ 9.0** contiennent les entrées suivantes.
 
 <table>
 <colgroup>
@@ -75,7 +75,7 @@ Le **dossier \\ Outlook \\ 9.0 formats ISAM** du moteur de connectivité Access 
 <tr class="odd">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
@@ -104,7 +104,7 @@ Le **dossier \\ Outlook \\ 9.0 formats ISAM** du moteur de connectivité Access 
 
 ## <a name="microsoft-exchange-client-isam-formats"></a>Formats ISAM du client Microsoft Exchange
 
-Le **dossier Exchange \\ \\ 4.0 formats ISAM** du moteur de connectivité Access contient les entrées suivantes.
+Les formats ISAM du moteur **de connectivité Access Exchange \\ \\ 4.0** contiennent les entrées suivantes.
 
 <table>
 <colgroup>
@@ -143,7 +143,7 @@ Le **dossier Exchange \\ \\ 4.0 formats ISAM** du moteur de connectivité Access
 <tr class="odd">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
@@ -170,7 +170,7 @@ Le **dossier Exchange \\ \\ 4.0 formats ISAM** du moteur de connectivité Access
 
 
 
-## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personnalisation du fichier Schema.ini pour les données Outlook et Exchange
+## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Personnalisation du fichier Schema.ini pour les données Outlook et Exchange données
 
 Le fichier Schema.ini est utilisé par le format ISAM Outlook et le format ISAM Exchange pratiquement de la même manière que par le format ISAM texte. Le fichier Schema.ini contient les paramètres spécifiques d'une source de données : mise en fome des données, noms des colonnes auxquelles accéder.
 

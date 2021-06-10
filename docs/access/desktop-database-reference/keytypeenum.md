@@ -38,17 +38,17 @@ Indique le type de l’objet [Key](key-object-adox.md) : clé primaire, étrang
 <tbody>
 <tr class="odd">
 <td><p><strong>adKeyPrimary</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Valeur par défaut. Il s'agit d'une clé primaire.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adKeyForeign</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>La clé est étrangère.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adKeyUnique</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>La clé est unique.</p></td>
 </tr>
 </tbody>

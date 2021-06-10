@@ -22,7 +22,7 @@ ms.locfileid: "32294952"
 
 **S’applique à** : Access 2013, Office 2013
 
-Crée un objet **[Relation](relation-object-dao.md)** (espaces de travail Microsoft Access uniquement). .
+Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -52,7 +52,7 @@ Crée un objet **[Relation](relation-object-dao.md)** (espaces de travail Micros
 <td><p><em>Name</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Voir la <strong><a href="connection-name-property-dao.md">propriété Name</a></strong> pour plus d’informations sur les noms de <strong>relation valides.</strong></p></td>
+<td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms d’objets <strong>Relation</strong> valides.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Tableau</em></p></td>

@@ -23,7 +23,7 @@ ms.locfileid: "32294189"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie la version de DAO en cours d'utilisation. Type de données **String** en lecture seule.
+Renvoie la version de DAO en cours d'utilisation. Valeur de type **String** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -33,5 +33,5 @@ Renvoie la version de DAO en cours d'utilisation. Type de données **String** en
 
 ## <a name="remarks"></a>Remarques
 
-La valeur renvoyée est une chaîne (type String) correspondant à un numéro de version au format « principale.secondaire ». Par exemple, « 3.0 ». Le numéro de version du produit comprend le numéro de version principale (3), un point, puis le numéro de version secondaire (0).
+La valeur renvoyée est une chaîne (type String) correspondant à un numéro de version au format « principale.secondaire ». Par exemple, « 3.0 ». Le numéro de version du produit comprend le numéro de version principale (3), un point, puis le numéro de version secondaire (0).
 

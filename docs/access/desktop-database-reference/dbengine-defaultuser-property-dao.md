@@ -23,7 +23,7 @@ ms.locfileid: "32294344"
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit le nom d'utilisateur servant à créer l'objet **Workspace** par défaut lors de son initialisation. **String** en lecture/écriture.
+Définit le nom d'utilisateur servant à créer l'objet **Workspace** par défaut lors de son initialisation. Valeur de type **String** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -33,7 +33,7 @@ Définit le nom d'utilisateur servant à créer l'objet **Workspace** par défau
 
 ## <a name="remarks"></a>Remarques
 
-Le paramètre **defaultUser est** un type de données String. Il peut comporter entre 1 et 20 caractères dans les espaces de travail Microsoft Access et peut inclure des caractères alphabétiques, des caractères accentués, des nombres, des espaces et des symboles à l’exception de : " (guillemets), / (barre oblique \\ inverse), \[ \] (barres obliques inverses), (crochets), : (deux-points), | (canal), \< (signe inférieur à), (signe supérieur \> à), + (signe plus), = (signe égal), ; (point-virgule), , ( virgule), ? (point d’interrogation), (astérisque), espaces de tête et caractères de contrôle \* (ASCII 00 à ASCII 31).
+Le paramètre **defaultUser est** un type de données String. Elle peut comporter de 1 à 20 caractères dans les espaces de travail Microsoft Access et peut inclure des caractères alphabétiques, des caractères accentués, des nombres, des espaces et des symboles à l’exception de : " (guillemets), / (barre oblique \\ inverse), \[ \] (barres obliques inverses), (crochets), : (deux-points), | (pipe), \< (signe inférieur à), (signe supérieur \> à), + (signe plus), = (signe égal), ; (point-virgule), , ( virgule), ? (point d’interrogation), (astérisque), espaces de tête et caractères de contrôle \* (ASCII 00 à ASCII 31).
 
 
 > [!NOTE]

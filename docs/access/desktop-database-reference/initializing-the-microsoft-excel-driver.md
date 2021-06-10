@@ -20,13 +20,13 @@ ms.locfileid: "32291434"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Initialisation du pilote Microsoft Excel
 
-**S’applique** à : Excel 2016 | Access 2016 | Access 2013 | Office 2013 | Excel 2013 | Office for business Access 2013 | Excel 2010 | Access 2010
+**S’applique** à : Excel 2016 | Access 2016 | Access 2013 | Office 2013 | Excel 2013 | Office entreprise Access 2013 | Excel 2010 | Access 2010
 
-Lorsque vous installez le pilote Excel, le programme d’installation écrit un ensemble de valeurs par défaut dans le Registre Windows dans les sous-clés Engines et ISAM Formats. Vous ne devez pas modifier ces paramètres directement ; utilisez le programme d’installation de votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de format ISAM pour le pilote de base de données Microsoft Excel.
+Lorsque vous installez le pilote Excel, le programme d’installation écrit un ensemble de valeurs par défaut dans le Registre Windows dans les sous-clés Engines et ISAM Formats. Vous ne devez pas modifier ces paramètres directement ; utilisez le programme d’installation de votre application pour ajouter, supprimer ou modifier ces paramètres. Les sections suivantes décrivent l’initialisation et les paramètres de format ISAM pour le pilote Microsoft Excel base de données.
 
-## <a name="excel-initialization-settings"></a>Paramètres d’initialisation d’Excel
+## <a name="excel-initialization-settings"></a>Excel d’initialisation
 
-Le **dossier Excel Access Connectivity \\ Engines \\** inclut les paramètres d’initialisation du pilote Aceexcl.dll, utilisé pour l’accès externe aux feuilles de calcul Microsoft Excel. L'exemple ci-après montre des paramètres par défaut pour les entrées de ce dossier.
+Le dossier Excel Access **Connectivity \\ Engines \\** inclut les paramètres d’initialisation du pilote Aceexcl.dll, utilisé pour l’accès externe aux feuilles Microsoft Excel de travail. L'exemple ci-après montre des paramètres par défaut pour les entrées de ce dossier.
 
 ```vb
     win32=<path>\ Aceexcl.dll  
@@ -79,7 +79,7 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier E
 
 <br/>
 
-Le **dossier Access Connectivity \\ Engines Excel \\ 8.0** contient les entrées suivantes, qui s’appliquent à Microsoft Excel 97.
+Le **dossier Access Connectivity \\ Engines Excel \\ 8.0** contient les entrées suivantes, qui s’appliquent Microsoft Excel 97.
 
 <table>
 <colgroup>
@@ -118,7 +118,7 @@ Le **dossier Access Connectivity \\ Engines Excel \\ 8.0** contient les entrées
 <tr class="odd">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
@@ -144,32 +144,32 @@ Le **dossier Access Connectivity \\ Engines Excel \\ 8.0** contient les entrées
 </table>
 
 
-## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Utilisation du paramètre TypeGuessRows pour le pilote Excel
-Lorsque vous utilisez pilote Microsoft Excel, vous pouvez utiliser la valeur de Registre **TypeGuessRows** pour configurer le nombre de lignes à vérifier pour le type de données. La **valeur TypeGuessRows se** trouve sous la sous-clé de Registre suivante :
+## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Utilisation du paramètre TypeGuessRows pour Excel pilote
+Lorsque vous utilisez Microsoft Excel Driver, vous pouvez utiliser la valeur de Registre **TypeGuessRows** pour configurer le nombre de lignes à vérifier pour le type de données. La **valeur TypeGuessRows se** trouve sous la sous-clé de Registre suivante :
 
 # <a name="office-2016"></a>[Office 2016](#tab/office-2016)
 
-Pour une installation MSI d’Office
+Pour une installation MSI de Office
 
-- Pour Office 32 bits sur Windows 32 bits ou Office 64 bits sur Windows 64 bits :
+- Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
     
   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
 
-- Pour Office 32 bits sur Windows 64 bits :
+- Pour les Office 32 bits sur des Windows 64 bits :
 
   **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
     
-Pour une installation « En un clic d’Office
+Pour une installation « Click-to-Run Office
 
-- Pour Office 32 bits sur Windows 32 bits ou Office 64 bits sur Windows 64 bits :
+- Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
     
   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
 
-- Pour Office 32 bits sur Windows 64 bits :
+- Pour les Office 32 bits sur des Windows 64 bits :
     
   **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Wow6432Node\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
 
-Le nombre par défaut de lignes à vérifier est **8** (huit). Lorsque vous définissez la valeur **TypeGuessRows** sur **0** (zéro), pilote Excel vérifie les 16 384 premières lignes pour le type de données. Si vous souhaitez vérifier plus de 16 384 lignes, définissez **TypeGuessRows** sur une valeur basée sur la plage souhaitée. Pour vérifier toutes les lignes, définissez **TypeGuessRows** sur 1 048 576 (nombre maximal de lignes autorisées dans Excel).
+Le nombre par défaut de lignes à vérifier est **8** (huit). Lorsque vous définissez la valeur **TypeGuessRows** sur **0** (zéro), Excel Driver vérifie le type de données sur les 16 384 premières lignes. Si vous souhaitez vérifier plus de 16 384 lignes, définissez **TypeGuessRows** sur une valeur basée sur la plage souhaitée. Pour vérifier toutes les lignes, définissez **TypeGuessRows** sur 1 048 576 (nombre maximal de lignes autorisées dans Excel).
  
 Le type de données est déterminé par le nombre maximal de types de données trouvés. En cas d’égalité, le type de données est déterminé dans l’ordre suivant :
 
@@ -177,21 +177,21 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Devise
 - Date
 - Texte
-- Boolean
+- Booléen
 
 Si des données rencontrées ne correspondent pas au type de données de estimation de la colonne, ces données sont renvoyées sous forme **de valeur Null.** Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes.**
 
-# <a name="office-2013"></a>[Office 2013](#tab/office-2013)
+# <a name="office-2013"></a>[Office 2013](#tab/office-2013)
 
-Pour Office 32 bits sur Windows 32 bits ou Office 64 bits sur Windows 64 bits :
+Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
 
-Pour Office 32 bits sur Windows 64 bits :
+Pour les Office 32 bits sur des Windows 64 bits :
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
 
-Le nombre par défaut de lignes à vérifier est **8** (huit). Lorsque vous définissez la valeur **TypeGuessRows** sur **0** (zéro), pilote Excel vérifie les 16 384 premières lignes pour le type de données. Si vous souhaitez vérifier plus de 16 384 lignes, définissez **TypeGuessRows** sur une valeur basée sur la plage souhaitée. Pour vérifier toutes les lignes, définissez **TypeGuessRows** sur 1 048 576 (nombre maximal de lignes autorisées dans Excel).
+Le nombre par défaut de lignes à vérifier est **8** (huit). Lorsque vous définissez la valeur **TypeGuessRows** sur **0** (zéro), Excel Driver vérifie le type de données sur les 16 384 premières lignes. Si vous souhaitez vérifier plus de 16 384 lignes, définissez **TypeGuessRows** sur une valeur basée sur la plage souhaitée. Pour vérifier toutes les lignes, définissez **TypeGuessRows** sur 1 048 576 (nombre maximal de lignes autorisées dans Excel).
  
 Le type de données est déterminé par le nombre maximal de types de données trouvés. En cas d’égalité, le type de données est déterminé dans l’ordre suivant :
 
@@ -199,21 +199,21 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Devise
 - Date
 - Texte
-- Boolean
+- Booléen
 
 Si des données rencontrées ne correspondent pas au type de données de estimation de la colonne, ces données sont renvoyées sous forme **de valeur Null.** Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes.**
 
-# <a name="office-2010"></a>[Office 2010](#tab/office-2010)
+# <a name="office-2010"></a>[Office 2010](#tab/office-2010)
 
-Pour Office 32 bits sur Windows 32 bits ou Office 64 bits sur Windows 64 bits :
+Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
 
-Pour Office 32 bits sur Windows 64 bits :
+Pour les Office 32 bits sur des Windows 64 bits :
 
 **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
 
-Le nombre par défaut de lignes à vérifier est **8** (huit). Lorsque vous définissez la valeur **TypeGuessRows** sur **0** (zéro), pilote Excel vérifie les 16 384 premières lignes pour le type de données. Si vous souhaitez vérifier plus de 16 384 lignes, définissez **TypeGuessRows** sur une valeur basée sur la plage souhaitée. Pour vérifier toutes les lignes, définissez **TypeGuessRows** sur 1 048 576 (nombre maximal de lignes autorisées dans Excel).
+Le nombre par défaut de lignes à vérifier est **8** (huit). Lorsque vous définissez la valeur **TypeGuessRows** sur **0** (zéro), Excel Driver vérifie le type de données sur les 16 384 premières lignes. Si vous souhaitez vérifier plus de 16 384 lignes, définissez **TypeGuessRows** sur une valeur basée sur la plage souhaitée. Pour vérifier toutes les lignes, définissez **TypeGuessRows** sur 1 048 576 (nombre maximal de lignes autorisées dans Excel).
  
 Le type de données est déterminé par le nombre maximal de types de données trouvés. En cas d’égalité, le type de données est déterminé dans l’ordre suivant :
 
@@ -221,7 +221,7 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Devise
 - Date
 - Texte
-- Boolean
+- Booléen
 
 Si des données rencontrées ne correspondent pas au type de données de estimation de la colonne, ces données sont renvoyées sous forme **de valeur Null.** Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes.**
 
@@ -231,5 +231,5 @@ Si des données rencontrées ne correspondent pas au type de données de estimat
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisation du paramètre TypeGuessRows pour le pilote Excel](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+- [Utilisation du paramètre TypeGuessRows pour Excel pilote](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
 

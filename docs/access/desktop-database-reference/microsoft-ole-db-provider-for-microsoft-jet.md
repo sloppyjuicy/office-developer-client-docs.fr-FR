@@ -87,7 +87,7 @@ Le tableau suivant répertorie ces propriétés en indiquant entre parenthèses 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Parameter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -180,7 +180,7 @@ Le tableau suivant répertorie ces propriétés en indiquant entre parenthèses 
 <tr class="even">
 <td><p>Jet OLEDB:New Database Password<br />
 (DBPROP_JETOLEDB_NEWDATABASEPASSWORD)</p></td>
-<td><p>Indique le nouveau mot de passe à définir pour cette base de données. L'ancien mot de passe est enregistré dans <strong>Jet OLEDB:Database Password</strong>.</p></td>
+<td><p>Indique le nouveau mot de passe à définir pour cette base de données. L'ancien mot de passe est enregistré dans <strong>Jet OLEDB:Database Password</strong>.  </p></td>
 </tr>
 <tr class="odd">
 <td><p>Jet OLEDB:ODBC Command Time Out<br />
@@ -293,7 +293,7 @@ Le fournisseur Jet prend aussi en charge plusieurs propriétés spécifiques au 
 <td><p>Indique si les requêtes qui ne renvoient pas de <strong>Recordset</strong> sont transmises sans modification à la source de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Jet OLEDB:Pass Through Query Connect String<br />
+<td><p>Jet OLEDB:Pass Through Query Connecter String<br />
 (DBPROP_JETOLEDB_ODBCPASSTHROUGHCONNECTSTRING)</p></td>
 <td><p>Spécifie la chaîne Jet utilisée pour la connexion à un magasin de données distant. Cette valeur est ignorée sauf si <strong>Jet OLEDB:ODBC Pass-Through Statement</strong> a la valeur True.  </p></td>
 </tr>

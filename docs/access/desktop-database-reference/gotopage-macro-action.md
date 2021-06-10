@@ -24,7 +24,7 @@ ms.locfileid: "32292159"
 
 Utilisez l'action **AtteindrePage** pour placer le focus dans le formulaire actif sur le premier contrôle d'une page spécifique. Vous pouvez utiliser cette action si vous avez créé un formulaire contenant différents groupes d'informations connexes séparés par des sauts de page. Par exemple, un formulaire Employés peut contenir des informations personnelles sur une page, des informations professionnelles sur une autre page et des informations sur les ventes sur une troisième page. Vous pouvez utiliser l'action **AtteindrePage** pour vous placer sur la page de votre choix. Vous pouvez également présenter plusieurs pages d'informations sur un même formulaire en utilisant des contrôles Onglet.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **AtteindrePage** possède les arguments suivants.
 

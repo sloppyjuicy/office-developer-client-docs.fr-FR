@@ -23,7 +23,7 @@ ms.locfileid: "32294182"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **Workspaces** qui contient tous les objets **Workspace** actifs et non masqués. En lecture seule.
+Renvoie une collection **Workspaces** qui contient tous les objets **Workspace** actifs et non masqués. Valeur en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

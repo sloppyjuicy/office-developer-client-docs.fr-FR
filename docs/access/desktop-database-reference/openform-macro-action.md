@@ -20,7 +20,7 @@ ms.locfileid: "32288370"
 
 Faites appel à l'action **OuvrirFormulaire** pour ouvrir un formulaire en mode Formulaire, Création, Aperçu avant impression ou Feuille de données. Vous pouvez sélectionner des modes d'affichage et de saisie des données pour le formulaire et limiter les enregistrements affichés par celui-ci.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **OuvrirFormulaire** utilise les arguments suivants.
 

@@ -27,7 +27,7 @@ Dans un projet Access, vous pouvez utiliser l'action **OuvrirFonction** pour ouv
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **OuvrirFonction** possède les arguments suivants.
 

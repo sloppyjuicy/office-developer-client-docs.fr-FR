@@ -41,7 +41,7 @@ Un objet Parameter représente une valeur fournie à une requête. Le paramètre
 </tr>
 <tr class="even">
 <td><p><strong><a href="parameter-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Renvoie le nom de l'objet spécifié. <strong>String</strong> en lecture seule.</p></td>
+<td><p>Renvoie le nom de l'objet spécifié. En lecture seule <strong>chaîne</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="parameter-properties-property-dao.md">Propriétés</a></strong></p></td>
@@ -49,11 +49,11 @@ Un objet Parameter représente une valeur fournie à une requête. Le paramètre
 </tr>
 <tr class="even">
 <td><p><strong><a href="parameter-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. <strong>Entier</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type <strong>Integer</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="parameter-value-property-dao.md">Valeur</a></strong></p></td>
-<td><p>Définit ou renvoie la valeur d'un objet. Type de données <strong>Variant</strong> en lecture-écriture.</p></td>
+<td><p>Définit ou renvoie la valeur d'un objet. Type <strong>Variant</strong> en lecture/écriture.</p></td>
 </tr>
 </tbody>
 </table>

@@ -27,7 +27,7 @@ Faites appel à l'action **OuvrirRequête** pour ouvrir une requête Sélection 
 > [!NOTE]
 > [!REMARQUE] Cette action n'est disponible que dans l'environnement de base de données Access (.mdb ou .accdb). Reportez-vous aux actions **OuvrirVue**, **OuvrirProcédureStockée** ou **OuvrirFonction** si vous utilisez l'environnement de projet Access (.adp).
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **OuvrirRequête** possède les arguments suivants.
 

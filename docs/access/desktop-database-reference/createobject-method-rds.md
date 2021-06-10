@@ -63,7 +63,7 @@ RDS (Remote Data Service) prend en charge les protocoles suivants : HTTP, HTTPS
 |*Object* |Variable objet correspondant à un objet du type spécifié dans *ProgID*.|
 |*DataSpace* |Variable objet représentant un objet [RDS.DataSpace](dataspace-object-rds.md) utilisé pour créer une instance du nouvel objet.|
 |*ProgID* |Valeur de type **String** contenant l'identificateur programmatique spécifiant un objet métier côté serveur qui implémente les règles métier de votre application.|
-|*awebsrvr* ou *computername* |Valeur de type **String** qui représente une URL identifiant le serveur web IIS (Internet Information Services) où une instance de l’objet métier serveur est créée.|
+|*awebsrvr* ou *computername* |Valeur de type **String** qui représente une URL identifiant le serveur web Internet Information Services (IIS) sur lequel une instance de l’objet métier serveur est créée.|
 
 ## <a name="remarks"></a>Remarques
 

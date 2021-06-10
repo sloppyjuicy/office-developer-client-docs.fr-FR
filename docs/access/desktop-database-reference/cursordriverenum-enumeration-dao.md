@@ -36,7 +36,7 @@ Spécifie le type de pilote de curseur.
 <tbody>
 <tr class="odd">
 <td><p>dbUseClientBatchCursor</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Utilise toujours la bibliothèque de curseurs FoxPro. Cette option est obligatoire pour effectuer des mises à jour par lot.</p></td>
 </tr>
 <tr class="even">
@@ -51,12 +51,12 @@ Spécifie le type de pilote de curseur.
 </tr>
 <tr class="even">
 <td><p>dbUseODBCCursor</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Utilise toujours la bibliothèque de curseurs ODBC. Cette option permet d'améliorer les performances pour les jeux de résultats de petite taille. Les performances diminuent toutefois rapidement pour les jeux de résultats volumineux.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbUseServerCursor</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Utilise toujours des curseurs du côté serveur. Cette option améliore les performances pour la plupart des opérations importantes. Elle risque toutefois d'augmenter le trafic réseau.</p></td>
 </tr>
 </tbody>

@@ -82,7 +82,7 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier T
 <li><p>ANSI — page de code ANSI de la machine. Conversions AnsiToUnicode et UnicodeToAnsi réalisées.</p></li>
 <li><p>OEM — page de code OEM de la machine. Conversions OEMToUnicode et UnicodeToOEM réalisées.</p></li>
 <li><p>Unicode   — conversions de page de code non réalisées.</p></li>
-<li><p>&lt;nombre décimal — Numéro de &gt; page de code d’un jeu de caractères spécifique. Les conversions à partir de et vers Unicode sont réalisées.</p></li>
+<li><p>&lt;nombre décimal &gt; — Numéro de page de code d’un jeu de caractères spécifique. Les conversions à partir de et vers Unicode sont réalisées.</p></li>
 </ul>
 <p></p>
 <p>La valeur par défaut est ANSI. Les valeurs sont de type REG_SZ.</p></td>
@@ -149,7 +149,7 @@ Le **dossier Texte \\ formats \\ ISAM** du moteur de connectivité Access contie
 <tr class="even">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="odd">
 <td><p>IndexDialog</p></td>
@@ -229,7 +229,7 @@ Le **dossier d’importation HTML des \\ formats ISAM \\** du moteur de connecti
 <tr class="odd">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
@@ -303,7 +303,7 @@ Le **dossier d’exportation HTML des \\ formats ISAM \\** du moteur de connecti
 <tr class="odd">
 <td><p>IsamType</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 </tr>
 <tr class="even">
 <td><p>IndexDialog</p></td>
@@ -464,7 +464,7 @@ Le moteur de base de données Microsoft Access utilise les entrées du fichier S
 </tr>
 <tr class="even">
 <td><p>CurrencyPosFormat</p></td>
-<td><p>Vous pouvez définir l’une des valeurs suivantes : Préfixe de symbole monétaire sans suffixe de symbole monétaire de séparation ($1) sans préfixe de symbole monétaire (1$) avec un suffixe de symbole monétaire avec une séparation d’un caractère (1 $) Si cette entrée est absente, la valeur par défaut dans le Panneau de contrôle Windows est utilisée.</p></td>
+<td><p>Vous pouvez définir l’une des valeurs suivantes : Préfixe de symbole monétaire sans suffixe de symbole monétaire de séparation ($1) sans préfixe de symbole monétaire (1$) avec un suffixe de symbole monétaire avec séparation d’un caractère (1 $) Si cette entrée est absente, la valeur par défaut du Panneau de contrôle Windows est utilisée.</p></td>
 </tr>
 <tr class="odd">
 <td><p>CurrencyDigits</p></td>
@@ -496,7 +496,7 @@ Le moteur de base de données Microsoft Access utilise les entrées du fichier S
 </tr>
 <tr class="even">
 <td><p>Col1, Col2, ...</p></td>
-<td><p>Répertorie les colonnes à lire dans le fichier de texte. Le format de cette entrée doit être : <em>Coln</em> = <em>columnName</em> type [Width ] columnName : les noms de colonnes avec des espaces incorporés doivent être entre <em>#</em> guillemets. <em></em> <em>type</em>: peut être Bit, Octets, Court, Long, Décimal, Monétaire, Simple, Double, Date/Heure. Binaire, OLE, Texte ou Mémo. En outre, les types de pilotes de texte ODBC suivants sont pris en charge : Char (identique à Texte) Float (identique à Double) Integer (identique à Short) LongChar (identique à Mémo) Format de <em>date</em> Dans le cas d’un type mémo, un marqueur de format supplémentaire [Lien hypertexte d’attribut] peut être utilisé pour spécifier des colonnes qui doivent être des URL actives dans Microsoft Access. Dans le cas d'un type Décimal, les marqueurs de format supplémentaires [Scale #] Precision #] doivent être utilisés.</p></td>
+<td><p>Répertorie les colonnes à lire dans le fichier de texte. Le format de cette entrée doit être : <em>Coln</em> = <em>columnName</em> type [Width ] columnName : les noms de colonnes avec des espaces incorporés doivent être entre <em>#</em> guillemets. <em></em> <em>type</em>: peut être Bit, Octets, Court, Long, Décimal, Monétaire, Simple, Double, Date/Heure. Binaire, OLE, Texte ou Mémo. En outre, les types de pilotes de texte ODBC suivants sont pris en charge : Char (identique à Text) Float (identique à Double) Integer (identique à Short) LongChar (identique à Mémo) Format de <em>date</em> dans le cas d’un type Mémo, un marqueur de format supplémentaire [Lien hypertexte d’attribut] peut être utilisé pour spécifier des colonnes qui doivent être des URL actives dans Microsoft Access. Dans le cas d'un type Décimal, les marqueurs de format supplémentaires [Scale #] Precision #] doivent être utilisés.</p></td>
 </tr>
 <tr class="odd">
 <td><p>TextDelimiter</p></td>

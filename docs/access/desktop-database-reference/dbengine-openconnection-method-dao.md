@@ -24,7 +24,7 @@ ms.locfileid: "32294259"
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* OpenConnection(***Name***, ***Options***, ***ReadOnly***, ***Connect***)
+*.* OpenConnection(***Name***, ***Options***, ***ReadOnly***, ***Connecter***)
 
 *expression* Variable représentant un objet **DBEngine**.
 
@@ -68,7 +68,7 @@ ms.locfileid: "32294259"
 <td><p><em>Connect</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Chaîne de connexion ODBC. Voir la <strong><a href="connection-connect-property-dao.md">propriété Connect</a></strong> pour connaître les éléments et la syntaxe spécifiques de cette chaîne. OdBC &quot; prédépendant &quot; est requis.</p></td>
+<td><p>Chaîne de connexion ODBC. Voir la <strong><a href="connection-connect-property-dao.md">propriété Connecter</a></strong> pour les éléments et la syntaxe spécifiques de cette chaîne. OdBC prédépendant &quot; &quot; est requis.</p></td>
 </tr>
 </tbody>
 </table>
@@ -82,7 +82,7 @@ Connection
 
 Utilisez la méthode **OpenConnection** pour définir une connexion à une source de données ODBC à partir d'un espace de travail ODBCDirect. La méthode **OpenConnection** est similaire à la méthode **OpenDatabase**, mais elle n'y est pas équivalente. La différence principale est que la méthode **OpenConnection** est disponible dans un espace de travail ODBCDirect.
 
-Si vous spécifiez un nom de source de données ODBC enregistré dans l’argument de connexion, l’argument nom peut être n’importe quelle chaîne valide et fournit également la propriété **Name** de l’objet **Connection.** Si un nom DSN valide n’est pas inclus dans l’argument de connexion, le nom doit faire référence à un nom DSN ODBC valide, qui sera également la propriété **Name.** Si ni le nom ni la connexion ne contiennent un nom DSN valide, le gestionnaire de pilotes ODBC peut être définie (via l’argument Options) pour inviter l’utilisateur à fournir les informations de connexion requises. Le nom DSN indiqué à l'invite fournit ensuite la propriété **Name**.
+Si vous spécifiez un nom de source de données ODBC enregistré dans l’argument de connexion, l’argument nom peut être n’importe quelle chaîne valide et fournit également la propriété **Name** de l’objet **Connection.** Si aucun nom DSN valide n’est inclus dans l’argument de connexion, le nom doit faire référence à un nom DSN ODBC valide, qui sera également la propriété **Name.** Si ni le nom ni la connexion ne contiennent un nom DSN valide, le gestionnaire de pilotes ODBC peut être définie (via l’argument Options) pour inviter l’utilisateur à fournir les informations de connexion requises. Le nom DSN indiqué à l'invite fournit ensuite la propriété **Name**.
 
 L’argument Options détermine si et quand demander à l’utilisateur d’établir la connexion, et s’il faut ou non ouvrir la connexion de manière asynchrone. Vous pouvez utiliser l'une des constantes ci-après.
 

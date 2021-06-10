@@ -76,13 +76,13 @@ Pour certains types de données variables, il est possible de forcer une convers
 <tr class="even">
 <td><p>Fixed</p></td>
 <td><p><strong>adSmallInt</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adInteger</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
@@ -154,7 +154,7 @@ Pour certains types de données variables, il est possible de forcer une convers
 <tr class="odd">
 <td><p>Fixed</p></td>
 <td><p><strong>adError</strong></p></td>
-<td><p>10 </p></td>
+<td><p>10</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">

@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295309"
 ---
-# <a name="cubedef-object-ado-md"></a>CubeDef, objet (ADO MD)
+# <a name="cubedef-object-ado-md"></a>Objet CubeDef (ADO MD)
 
 
 **S’applique à** : Access 2013, Office 2013

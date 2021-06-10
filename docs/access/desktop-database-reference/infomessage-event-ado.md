@@ -1,5 +1,5 @@
 ---
-title: InfoMessage, événement (ADO)
+title: Événement InfoMessage (ADO)
 TOCTitle: InfoMessage event (ADO)
 ms:assetid: 5d4f487f-96c8-4cf6-60ab-583510d3096f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249328(v=office.15)

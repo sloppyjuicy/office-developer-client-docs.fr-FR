@@ -30,7 +30,7 @@ Permet de modifier le mot de passe d’une base de données existante du moteur 
 
 *expression* Expression qui renvoie un objet **Database.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -68,7 +68,7 @@ Permet de modifier le mot de passe d’une base de données existante du moteur 
 
 ## <a name="remarks"></a>Remarques
 
-Les chaînes bstrOld et bstrNew peuvent comporter jusqu’à 20 caractères et inclure n’importe quel caractère à l’exception du caractère ASCII 0 (null). Pour effacer le mot de passe, utilisez une chaîne nulle («  ») pour bstrNew.
+Les chaînes bstrOld et bstrNew peuvent comporter jusqu’à 20 caractères et inclure tous les caractères à l’exception du caractère ASCII 0 (null). Pour effacer le mot de passe, utilisez une chaîne de longueur nulle («  ») pour bstrNew.
 
 Les mots de passe respectent la casse.
 

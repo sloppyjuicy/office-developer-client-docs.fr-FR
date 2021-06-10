@@ -26,7 +26,7 @@ Supprime l'objet **Index** spécifié de la collection **Indexes**.
 
 *expression* Variable qui représente un objet **Indexes.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

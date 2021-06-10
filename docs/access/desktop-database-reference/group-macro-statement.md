@@ -21,7 +21,7 @@ ms.locfileid: "32292110"
 
 **L’instruction** Group vous permet de spécifier un bloc d’actions dans une macro que vous pouvez développer ou réduire.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’instruction **Group** utilise les arguments suivants.
 

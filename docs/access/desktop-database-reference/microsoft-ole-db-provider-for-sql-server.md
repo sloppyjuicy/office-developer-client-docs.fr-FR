@@ -92,7 +92,7 @@ Le fournisseur prend en charge plusieurs paramètres de connexion qui lui sont s
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Parameter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

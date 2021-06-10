@@ -26,7 +26,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft A
 
 *expression* Variable qui représente un objet **Index.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -76,7 +76,7 @@ Vous pouvez utiliser la méthode **CreateField** pour créer un champ, spécifie
 
 Les arguments de type et de taille s’appliquent uniquement aux objets **Field** dans un **objet TableDef.** Les arguments suivants sont ignorés quand un objet **Field** est associé un objet **Index** ou **Relation**.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez la **[méthode Append.](fields-append-method-dao.md)**
+Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**
 
 Pour supprimer un objet **Field** d’une collection **Fields**, utilisez la méthode **[Delete](fields-delete-method-dao.md)** dans la collection. Vous ne pouvez pas supprimer un objet **Field** dans la collection **Fields** d’un objet **TableDef** une fois que vous avez créé un index qui renvoie à ce champ.
 

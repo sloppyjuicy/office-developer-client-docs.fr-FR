@@ -39,5 +39,5 @@ Le paramètre ou la valeur renvoyée peut correspondre à l'une des constantes *
 > [!NOTE]
 > Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
-Le paramètre peut être retravaillé pour un espace de travail unique en attériant l’argument type sur **[la méthode CreateWorkspace.](dbengine-createworkspace-method-dao.md)** 
+Le paramètre peut être retravaillé pour un seul espace de travail en attériant l’argument type sur **[la méthode CreateWorkspace.](dbengine-createworkspace-method-dao.md)** 
 

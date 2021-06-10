@@ -25,7 +25,7 @@ ms.locfileid: "32289870"
 
 Utilisez l'action **VerrouillerVoletNavigation** pour empêcher les utilisateurs de supprimer des objets de base de données qui sont affichés dans le volet de navigation.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **VerrouillerVoletNavigation** possède les arguments suivants.
 

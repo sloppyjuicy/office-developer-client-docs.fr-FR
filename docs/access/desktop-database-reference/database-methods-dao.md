@@ -24,7 +24,7 @@ ms.locfileid: "32294889"
 - [Database.CreateRelation method (DAO)](database-createrelation-method-dao.md)
 - [Database.CreateTableDef, méthode (DAO)](database-createtabledef-method-dao.md)
 - [Database.Execute, méthode (DAO)](database-execute-method-dao.md)
-- [Database.MakeReplica, méthode (DAO)](database-makereplica-method-dao.md)
+- [Méthode Database.MakeReplica (DAO)](database-makereplica-method-dao.md)
 - [Database.NewPassword, méthode (DAO)](database-newpassword-method-dao.md)
 - [Database.OpenRecordset, méthode (DAO)](database-openrecordset-method-dao.md)
 - [Database.PopulatePartial method (DAO)](database-populatepartial-method-dao.md)

@@ -52,7 +52,7 @@ Crée un nouvel objet **[Workspace](workspace-object-dao.md)**.
 <td><p><em>Name</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Type <strong>String</strong> qui identifie par un nom unique le nouvel objet <strong>Workspace</strong>. Voir la <strong><a href="connection-name-property-dao.md">propriété Name</a></strong> pour plus d’informations sur les noms <strong>d’espaces de travail</strong> valides.</p></td>
+<td><p>Type <strong>String</strong> qui identifie par un nom unique le nouvel objet <strong>Workspace</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms d’objets <strong>Workspace</strong> valides.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>UserName</em></p></td>

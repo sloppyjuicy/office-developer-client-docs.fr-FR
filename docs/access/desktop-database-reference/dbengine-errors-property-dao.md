@@ -23,7 +23,7 @@ ms.locfileid: "32294315"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **Errors** qui contient tous les objets **Error** enregistrés pour l'objet spécifié. En lecture seule.
+Renvoie une collection **Errors** qui contient tous les objets **Error** enregistrés pour l'objet spécifié. Valeur en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

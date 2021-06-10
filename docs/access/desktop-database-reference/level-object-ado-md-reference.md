@@ -1,5 +1,5 @@
 ---
-title: Objet Level (référence ADO MD)
+title: Level, objet (référence ADO MD)
 TOCTitle: Level object (ADO MD)
 ms:assetid: 376865c8-b5be-4dd3-8765-0469290e44ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249131(v=office.15)

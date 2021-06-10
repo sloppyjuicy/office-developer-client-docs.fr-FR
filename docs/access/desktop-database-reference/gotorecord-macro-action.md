@@ -25,7 +25,7 @@ ms.locfileid: "32292138"
 
 Utilisez l’action **AtteindreEnregistrement** pour que l’enregistrement spécifié devienne l’enregistrement actif dans le jeu de résultats d’une requête, d’une table ou d’un formulaire ouvert.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **AtteindreEnregistrement** possède les arguments suivants.
 

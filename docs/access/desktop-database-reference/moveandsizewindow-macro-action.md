@@ -20,7 +20,7 @@ ms.locfileid: "32288805"
 
 Si vous avez choisi d’utiliser des fenêtres superposées plutôt que des documents à onglets, vous pouvez utiliser l’action **MoveAndSizeWindow** pour déplacer ou resize la fenêtre active. Pour plus d’informations sur la façon de définir les options de fenêtre de document, voir la section Remarques.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 **L’action MoveAndSizeWindow a** les arguments suivants.
 
@@ -38,7 +38,7 @@ Si vous avez choisi d’utiliser des fenêtres superposées plutôt que des docu
 <tbody>
 <tr class="odd">
 <td><p><strong>Right</strong></p></td>
-<td><p>Nouvelle position horizontale de l'angle supérieur gauche de la fenêtre mesurée depuis le bord gauche de cette fenêtre. Entrez la position dans la <strong>zone</strong> droite de la section <strong>Arguments de l’action</strong> du volet Générateur de macro.</p></td>
+<td><p>Nouvelle position horizontale de l'angle supérieur gauche de la fenêtre mesurée depuis le bord gauche de cette fenêtre. Entrez la position dans la <strong>zone droite</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Down</strong></p></td>
@@ -61,7 +61,7 @@ Si vous laissez un argument vide, Microsoft Access utilise le paramètre actuel 
 Vous devez entrer une valeur pour au moins un argument.
 
 > [!NOTE]
-> Chaque mesure est en pouces ou en centimètres, selon les paramètres régionaux du Panneau de configuration Windows.
+> Chaque mesure est en pouces ou en centimètres, selon les paramètres régionaux du Windows de configuration.
 
 ## <a name="remarks"></a>Remarques
 
@@ -81,7 +81,7 @@ Vous pouvez utiliser cette action sur n’importe quelle fenêtre, dans n’impo
 
 > [!TIP]
 > - Pour déplacer une fenêtre sans la resserriser, entrez  des valeurs pour les **arguments** Droite et Bas, mais laissez les **arguments** Largeur et Hauteur vides. 
-> - Pour re tailler une fenêtre sans la déplacer, entrez des  valeurs pour les **arguments** **Largeur** et Hauteur, mais laissez les **arguments** Droite et Bas vides.
+> - Pour reizer une fenêtre sans la déplacer, entrez des valeurs pour les **arguments** **Largeur** et Hauteur, mais laissez les **arguments** Droite et Bas vides. 
 
 Pour exécuter **l’action MoveAndSizeWindow** dans un module Visual Basic pour Applications (VBA), utilisez la méthode **MoveSize** de l’objet **DoCmd.**
 
@@ -134,7 +134,7 @@ La macro suivante ouvre un formulaire de liste de produits dans le coin inférie
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nom du formulaire</strong>: Affichage <strong>de</strong>la liste des produits : Nom <strong>de DatasheetFilter</strong>: <strong>Condition where</strong>: [ID fournisseur] = [Formulaires]! [Fournisseurs]! [SupplierID] <strong>Mode données</strong>: <strong>mode Lecture seule :</strong> <strong>Normal</strong></p></td>
+<td><p><strong>Nom du formulaire</strong>: Affichage de la liste <strong>des</strong>produits : Nom <strong>de DatasheetFilter</strong>: <strong>Condition where</strong>: [ID fournisseur] = [Formulaires]! [Fournisseurs]! [SupplierID] <strong>Mode données</strong>: <strong>mode Lecture seule :</strong> <strong>Normal</strong></p></td>
 <td><p>Ouvrir le formulaire Liste de produits et afficher les produits du fournisseur actuel.</p></td>
 </tr>
 <tr class="even">

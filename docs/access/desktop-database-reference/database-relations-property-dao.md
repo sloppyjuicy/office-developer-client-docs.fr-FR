@@ -23,7 +23,7 @@ ms.locfileid: "32294721"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une collection **Relations** qui contient tous les objets **Relation** enregistrés pour la base de données spécifiée. En lecture seule.
+Renvoie une collection **Relations** qui contient tous les objets **Relation** enregistrés pour la base de données spécifiée. Valeur en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 

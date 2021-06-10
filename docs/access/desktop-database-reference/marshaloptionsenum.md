@@ -43,7 +43,7 @@ Spécifie les enregistrements qui doivent être renvoyés au serveur.
 </tr>
 <tr class="even">
 <td><p><strong>adMarshalModifiedOnly</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Ne renvoie que les lignes modifiées au serveur.</p></td>
 </tr>
 </tbody>

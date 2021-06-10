@@ -41,17 +41,17 @@ Spécifie le type de verrouillage appliqué aux enregistrements pendant l'éditi
 </tr>
 <tr class="even">
 <td><p><strong>adLockOptimistic</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indique un verrouillage optimiste, enregistrement par enregistrement. Le fournisseur applique ce type de verrouillage lorsque vous faites appel à la méthode <a href="update-method-ado.md">Update</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adLockPessimistic</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique un verrouillage pessimiste, enregistrement par enregistrement. Le fournisseur fait en sorte que l'édition des enregistrements réussisse, en général en verrouillant les enregistrements à la source de données immédiatement après édition.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adLockReadOnly</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indique des enregistrements en lecture seule. Vous ne pouvez pas modifier les données.</p></td>
 </tr>
 <tr class="odd">

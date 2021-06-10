@@ -24,9 +24,9 @@ Ajoute un nouvel objet **Workspace** à la collection **Workspaces**.
 
 *expression* .Append(***Object***)
 
-*expression* Variable qui représente un objet **Workspaces.**
+*expression* Variable qui représente un **objet Workspaces.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

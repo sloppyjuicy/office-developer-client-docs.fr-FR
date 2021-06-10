@@ -118,10 +118,12 @@ La valeur par défaut pour cette chaîne est vt_empty.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Internet Timeout</strong></p></td>
-<td><p>Indique le délai d'attente maximum en millisecondes pour qu'une requête effectue un aller-retour au serveur. (La valeur par défaut est de 5 minutes).</p></td>
+<td><p>Indique le délai d'attente maximum en millisecondes pour qu'une requête effectue un aller-retour au serveur.
+
+(La valeur par défaut est de 5 minutes).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Remote Provider</strong></p></td>
+<td><p><strong>Fournisseur distant</strong></p></td>
 <td><p>Indique le nom du fournisseur de données à utiliser sur le serveur distant.</p></td>
 </tr>
 <tr class="odd">

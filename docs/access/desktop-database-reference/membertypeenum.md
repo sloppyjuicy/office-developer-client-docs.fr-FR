@@ -43,17 +43,17 @@ Spécifie le paramétrage de la propriété [Type](type-property-ado-md.md) d’
 </tr>
 <tr class="even">
 <td><p><strong>adMemberFormula</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indique que l'objet <strong>Member</strong> est calculé à l'aide d'une expression de formule.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adMemberMeasure</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique que l'objet <strong>Member</strong> appartient à la dimension Measures et représente un attribut quantitatif.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adMemberRegular</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Valeur par défaut. Indique que l'objet <strong>Member</strong> représente une instance d'une entité métier.</p></td>
 </tr>
 <tr class="odd">

@@ -19,7 +19,7 @@ ms.locfileid: "32288097"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie le nom de l'objet spécifié. **String** en lecture seule.
+Renvoie le nom de l'objet spécifié. En lecture seule **chaîne**.
 
 ## <a name="syntax"></a>Syntaxe
 
