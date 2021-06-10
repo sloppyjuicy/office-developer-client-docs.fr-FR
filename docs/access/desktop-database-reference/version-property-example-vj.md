@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312032"
 ---
-# <a name="version-property-example-vj"></a><span data-ttu-id="3bdf3-102">Version, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="3bdf3-102">Version property example (VJ++)</span></span>
+# <a name="version-property-example-vj"></a><span data-ttu-id="f2ea9-102">Version, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="f2ea9-102">Version property example (VJ++)</span></span>
 
 
-<span data-ttu-id="3bdf3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3bdf3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f2ea9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f2ea9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3bdf3-p101">Cet exemple utilise la propriété [Version](version-property-ado.md) d'un objet [Connection](connection-object-ado.md) pour afficher la version ADO actuelle. Il utilise aussi plusieurs propriétés dynamiques pour afficher :</span><span class="sxs-lookup"><span data-stu-id="3bdf3-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="f2ea9-p101">Cet exemple utilise la propriété [Version](version-property-ado.md) d'un objet [Connection](connection-object-ado.md) pour afficher la version ADO actuelle. Il utilise aussi plusieurs propriétés dynamiques pour afficher :</span><span class="sxs-lookup"><span data-stu-id="f2ea9-p101">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version. It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="3bdf3-106">le nom et la version du SGBD,</span><span class="sxs-lookup"><span data-stu-id="3bdf3-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="f2ea9-106">le nom et la version du SGBD,</span><span class="sxs-lookup"><span data-stu-id="f2ea9-106">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="3bdf3-107">la version d'OLE DB,</span><span class="sxs-lookup"><span data-stu-id="3bdf3-107">OLE DB version.</span></span>
+  - <span data-ttu-id="f2ea9-107">la version d'OLE DB,</span><span class="sxs-lookup"><span data-stu-id="f2ea9-107">OLE DB version.</span></span>
 
-  - <span data-ttu-id="3bdf3-108">le nom et la version du fournisseur,</span><span class="sxs-lookup"><span data-stu-id="3bdf3-108">provider name and version.</span></span>
+  - <span data-ttu-id="f2ea9-108">le nom et la version du fournisseur,</span><span class="sxs-lookup"><span data-stu-id="f2ea9-108">provider name and version.</span></span>
 
-  - <span data-ttu-id="3bdf3-109">la version d'ODBC,</span><span class="sxs-lookup"><span data-stu-id="3bdf3-109">ODBC version.</span></span>
+  - <span data-ttu-id="f2ea9-109">la version d'ODBC,</span><span class="sxs-lookup"><span data-stu-id="f2ea9-109">ODBC version.</span></span>
 
-  - <span data-ttu-id="3bdf3-110">le nom et la version du pilote ODBC.</span><span class="sxs-lookup"><span data-stu-id="3bdf3-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="f2ea9-110">le nom et la version du pilote ODBC.</span><span class="sxs-lookup"><span data-stu-id="f2ea9-110">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 

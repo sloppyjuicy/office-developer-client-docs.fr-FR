@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312067"
 ---
-# <a name="visual-c-extensions-example"></a><span data-ttu-id="83c91-102">Exemple d’extensions Visual C++</span><span class="sxs-lookup"><span data-stu-id="83c91-102">Visual C++ Extensions example</span></span>
+# <a name="visual-c-extensions-example"></a><span data-ttu-id="e67ef-102">Exemple d’extensions Visual C++</span><span class="sxs-lookup"><span data-stu-id="e67ef-102">Visual C++ Extensions example</span></span>
 
 
-<span data-ttu-id="83c91-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="83c91-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e67ef-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e67ef-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="83c91-104">Ce programme montre comment les valeurs sont extraites des champs, puis converties en variables C/C++.</span><span class="sxs-lookup"><span data-stu-id="83c91-104">This program shows how values are retrieved from fields and converted to C/C++ variables.</span></span>
+<span data-ttu-id="e67ef-104">Ce programme montre comment les valeurs sont extraites des champs, puis converties en variables C/C++.</span><span class="sxs-lookup"><span data-stu-id="e67ef-104">This program shows how values are retrieved from fields and converted to C/C++ variables.</span></span>
 
-<span data-ttu-id="83c91-105">Cet exemple tire également parti des « pointeurs intelligents », qui gèrent automatiquement les détails spécifiques com de l’appel et du décompte de références pour l’interface **IADORecordBinding.**</span><span class="sxs-lookup"><span data-stu-id="83c91-105">This example also takes advantage of "smart pointers," which automatically handle the COM-specific details of calling and reference counting for the **IADORecordBinding** interface.</span></span>
+<span data-ttu-id="e67ef-105">Cet exemple tire également parti des « pointeurs intelligents », qui gèrent automatiquement les détails spécifiques com de l’appel et du décompte de références pour l’interface **IADORecordBinding.**</span><span class="sxs-lookup"><span data-stu-id="e67ef-105">This example also takes advantage of "smart pointers," which automatically handle the COM-specific details of calling and reference counting for the **IADORecordBinding** interface.</span></span>
 
-<span data-ttu-id="83c91-106">Sans pointeurs intelligents, le code se présenterait comme ceci :</span><span class="sxs-lookup"><span data-stu-id="83c91-106">Without smart pointers, you would code:</span></span>
+<span data-ttu-id="e67ef-106">Sans pointeurs intelligents, le code se présenterait comme ceci :</span><span class="sxs-lookup"><span data-stu-id="e67ef-106">Without smart pointers, you would code:</span></span>
 
 ```cpp 
  
@@ -35,21 +35,21 @@ TESTHR(pRs->QueryInterface(
 if (picRs) picRs->Release(); 
 ```
 
-<span data-ttu-id="83c91-107">Avec des pointeurs intelligents, vous dérivez le type IADORecordBindingPtr du type de l’interface IADORecordBinding avec cette instruction :</span><span class="sxs-lookup"><span data-stu-id="83c91-107">With smart pointers, you derive the IADORecordBindingPtr type from the type from the IADORecordBinding interface with this statement:</span></span>
+<span data-ttu-id="e67ef-107">Avec des pointeurs intelligents, vous dérivez le type IADORecordBindingPtr du type de l’interface IADORecordBinding avec cette instruction :</span><span class="sxs-lookup"><span data-stu-id="e67ef-107">With smart pointers, you derive the IADORecordBindingPtr type from the type from the IADORecordBinding interface with this statement:</span></span>
 
 ```cpp 
  
 _COM_SMARTPTR_TYPEDEF(IADORecordBinding, __uuidof(IADORecordBinding)); 
 ```
 
-<span data-ttu-id="83c91-108">Et vous instanciez le pointeur comme suit :</span><span class="sxs-lookup"><span data-stu-id="83c91-108">And instantiate the pointer like this:</span></span>
+<span data-ttu-id="e67ef-108">Et vous instanciez le pointeur comme suit :</span><span class="sxs-lookup"><span data-stu-id="e67ef-108">And instantiate the pointer like this:</span></span>
 
 ```cpp 
  
 IADORecordBindingPtr picRs(pRs); 
 ```
 
-<span data-ttu-id="83c91-109">Étant donné que les extensions Visual C++ sont implémentées par l’objet **Recordset,** le constructeur du pointeur intelligent, picRs , prend le \_ pointeur RecordsetPtr, pRs .</span><span class="sxs-lookup"><span data-stu-id="83c91-109">Because the Visual C++ Extensions are implemented by the **Recordset** object, the constructor for the smart pointer, picRs , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="83c91-110">Le constructeur appelle QueryInterface à l’aide de pRs pour trouver le , prend le \_ pointeur RecordsetPtr, pRs .</span><span class="sxs-lookup"><span data-stu-id="83c91-110">The constructor calls QueryInterface using pRs to find the , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="83c91-111">Le constructeur appelle QueryInterface à l’aide de pRs pour trouver l’interface IADORecordBinding.</span><span class="sxs-lookup"><span data-stu-id="83c91-111">The constructor calls QueryInterface using pRs to find the IADORecordBinding interface.</span></span>
+<span data-ttu-id="e67ef-109">Étant donné que les extensions Visual C++ sont implémentées par l’objet **Recordset,** le constructeur du pointeur intelligent, picRs , prend le \_ pointeur RecordsetPtr, pRs .</span><span class="sxs-lookup"><span data-stu-id="e67ef-109">Because the Visual C++ Extensions are implemented by the **Recordset** object, the constructor for the smart pointer, picRs , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="e67ef-110">Le constructeur appelle QueryInterface à l’aide de pRs pour trouver le , prend le \_ pointeur RecordsetPtr, pRs .</span><span class="sxs-lookup"><span data-stu-id="e67ef-110">The constructor calls QueryInterface using pRs to find the , takes the \_RecordsetPtr pointer, pRs .</span></span> <span data-ttu-id="e67ef-111">Le constructeur appelle QueryInterface à l’aide de pRs pour trouver l’interface IADORecordBinding.</span><span class="sxs-lookup"><span data-stu-id="e67ef-111">The constructor calls QueryInterface using pRs to find the IADORecordBinding interface.</span></span>
 
 ```cpp 
  

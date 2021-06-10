@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311319"
 ---
-# <a name="workspaceproperties-property-dao"></a><span data-ttu-id="8463d-102">Workspace.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="8463d-102">Workspace.Properties property (DAO)</span></span>
+# <a name="workspaceproperties-property-dao"></a><span data-ttu-id="b5709-102">Workspace.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="b5709-102">Workspace.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="8463d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8463d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b5709-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5709-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8463d-104">Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="8463d-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="8463d-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="8463d-105">Read-only.</span></span>
+<span data-ttu-id="b5709-p101">Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="b5709-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8463d-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="8463d-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b5709-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b5709-106">Syntax</span></span>
 
-<span data-ttu-id="8463d-107">*.* Propriétés</span><span class="sxs-lookup"><span data-stu-id="8463d-107">*expression* .Properties</span></span>
+<span data-ttu-id="b5709-107">*.* Propriétés</span><span class="sxs-lookup"><span data-stu-id="b5709-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="8463d-108">*expression* Variable qui représente un objet **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="8463d-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="b5709-108">*expression* Variable qui représente un objet **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="b5709-108">*expression* A variable that represents a **Workspace** object.</span></span>
 

@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306803"
 ---
-# <a name="relations-properties-dao"></a><span data-ttu-id="63d6c-102">Relations properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="63d6c-102">Relations properties (DAO)</span></span>
+# <a name="relations-properties-dao"></a><span data-ttu-id="7ae0b-102">Relations properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="7ae0b-102">Relations properties (DAO)</span></span>
 
-<span data-ttu-id="63d6c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="63d6c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7ae0b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ae0b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="63d6c-104">Relations.Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="63d6c-104">Relations.Count property (DAO)</span></span>](relations-count-property-dao.md)
+- [<span data-ttu-id="7ae0b-104">Relations.Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="7ae0b-104">Relations.Count property (DAO)</span></span>](relations-count-property-dao.md)
 

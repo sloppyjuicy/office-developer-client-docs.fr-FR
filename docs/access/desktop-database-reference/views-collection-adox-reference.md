@@ -1,5 +1,5 @@
 ---
-title: Référence de collection Views (ADOX)
+title: Views, collection - Référence (ADOX)
 TOCTitle: Views collection (ADOX)
 ms:assetid: 7f92e594-160d-4e4d-afc4-e422c2b5b305
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249542(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306061"
 ---
-# <a name="views-collection-adox-reference"></a><span data-ttu-id="95175-102">Views, collection - Référence (ADOX)</span><span class="sxs-lookup"><span data-stu-id="95175-102">Views collection (ADOX) reference</span></span>
+# <a name="views-collection-adox-reference"></a><span data-ttu-id="0c08e-102">Views, collection - Référence (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0c08e-102">Views collection (ADOX) reference</span></span>
 
-<span data-ttu-id="95175-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="95175-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0c08e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0c08e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="95175-104">Views, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="95175-104">Views collection (ADOX)</span></span>](views-collection-adox.md)
-- [<span data-ttu-id="95175-105">Views, collection - Propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="95175-105">Views collection properties, methods, and events (ADOX)</span></span>](views-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="0c08e-104">Views, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0c08e-104">Views collection (ADOX)</span></span>](views-collection-adox.md)
+- [<span data-ttu-id="0c08e-105">Views, collection - Propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0c08e-105">Views collection properties, methods, and events (ADOX)</span></span>](views-collection-properties-methods-and-events-adox.md)
 

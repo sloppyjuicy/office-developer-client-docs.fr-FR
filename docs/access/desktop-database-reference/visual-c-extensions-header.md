@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311324"
 ---
-# <a name="visual-c-extensions-header"></a><span data-ttu-id="ecf7f-102">En-tête d’extensions Visual C++</span><span class="sxs-lookup"><span data-stu-id="ecf7f-102">Visual C++ Extensions header</span></span>
+# <a name="visual-c-extensions-header"></a><span data-ttu-id="f6fcb-102">En-tête d’extensions Visual C++</span><span class="sxs-lookup"><span data-stu-id="f6fcb-102">Visual C++ Extensions header</span></span>
 
 
-<span data-ttu-id="ecf7f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ecf7f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f6fcb-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6fcb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ecf7f-p101">L'en-tête **icrsint.h** décrit l'interface qui permet aux clients d'extraire des champs d'un objet **Recordset** dans des variables définies dans une classe dérivée de **CADORecordBinding**. Vous devez spécifier une macro de liaison ADO pour chacun des champs auxquels vous avez l'intention d'accéder.</span><span class="sxs-lookup"><span data-stu-id="ecf7f-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
+<span data-ttu-id="f6fcb-p101">L'en-tête **icrsint.h** décrit l'interface qui permet aux clients d'extraire des champs d'un objet **Recordset** dans des variables définies dans une classe dérivée de **CADORecordBinding**. Vous devez spécifier une macro de liaison ADO pour chacun des champs auxquels vous avez l'intention d'accéder.</span><span class="sxs-lookup"><span data-stu-id="f6fcb-p101">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**. You must specify an ADO binding macro for each field you intend to access.</span></span>
 
 ```cpp 
  

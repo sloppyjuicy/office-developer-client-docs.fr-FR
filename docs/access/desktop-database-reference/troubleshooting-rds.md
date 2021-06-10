@@ -14,17 +14,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306278"
 ---
-# <a name="troubleshooting-rds"></a><span data-ttu-id="b644b-102">Résolution des problèmes RDS</span><span class="sxs-lookup"><span data-stu-id="b644b-102">Troubleshooting RDS</span></span>
+# <a name="troubleshooting-rds"></a><span data-ttu-id="efcc8-102">Résolution des problèmes RDS</span><span class="sxs-lookup"><span data-stu-id="efcc8-102">Troubleshooting RDS</span></span>
 
-<span data-ttu-id="b644b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b644b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="efcc8-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="efcc8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b644b-104">Reportez-vous à cette section pour trouver des solutions à des erreurs ou des problèmes spécifiques avec RDS :</span><span class="sxs-lookup"><span data-stu-id="b644b-104">Refer to this section for solutions to specific errors or issues with RDS:</span></span>
+<span data-ttu-id="efcc8-104">Reportez-vous à cette section pour trouver des solutions à des erreurs ou des problèmes spécifiques avec RDS :</span><span class="sxs-lookup"><span data-stu-id="efcc8-104">Refer to this section for solutions to specific errors or issues with RDS:</span></span>
 
-- [<span data-ttu-id="b644b-105">Configuration de RDS sur Windows 2000</span><span class="sxs-lookup"><span data-stu-id="b644b-105">Configuring RDS on Windows 2000</span></span>](configuring-rds-on-windows-2000.md)
-- [<span data-ttu-id="b644b-106">Blocages avec niveau d’isolation répétable de lecture</span><span class="sxs-lookup"><span data-stu-id="b644b-106">Deadlocks with read repeatable isolation level</span></span>](deadlocks-with-read-repeatable-isolation-level.md)
-- [<span data-ttu-id="b644b-107">Garantie d’espace TempDB suffisant</span><span class="sxs-lookup"><span data-stu-id="b644b-107">Ensuring sufficient TempDB space</span></span>](ensuring-sufficient-tempdb-space.md)
-- [<span data-ttu-id="b644b-108">Erreur du serveur Internet : accès refusé</span><span class="sxs-lookup"><span data-stu-id="b644b-108">Internet server error: Access Denied</span></span>](internet-server-error-access-denied.md)
-- [<span data-ttu-id="b644b-109">Minimisation de l’espace occupé par le fichier journal</span><span class="sxs-lookup"><span data-stu-id="b644b-109">Minimizing log file space usage</span></span>](minimizing-log-file-space-usage.md)
-- [<span data-ttu-id="b644b-110">RDS renvoie l’erreur « Flux non lu »</span><span class="sxs-lookup"><span data-stu-id="b644b-110">RDS returns "Stream Not Read" error</span></span>](rds-returns-stream-not-read-error.md)
+- [<span data-ttu-id="efcc8-105">Configuration de RDS sur Windows 2000</span><span class="sxs-lookup"><span data-stu-id="efcc8-105">Configuring RDS on Windows 2000</span></span>](configuring-rds-on-windows-2000.md)
+- [<span data-ttu-id="efcc8-106">Blocages avec niveau d’isolation répétable de lecture</span><span class="sxs-lookup"><span data-stu-id="efcc8-106">Deadlocks with read repeatable isolation level</span></span>](deadlocks-with-read-repeatable-isolation-level.md)
+- [<span data-ttu-id="efcc8-107">Garantie d’espace TempDB suffisant</span><span class="sxs-lookup"><span data-stu-id="efcc8-107">Ensuring sufficient TempDB space</span></span>](ensuring-sufficient-tempdb-space.md)
+- [<span data-ttu-id="efcc8-108">Erreur du serveur Internet : accès refusé</span><span class="sxs-lookup"><span data-stu-id="efcc8-108">Internet server error: Access Denied</span></span>](internet-server-error-access-denied.md)
+- [<span data-ttu-id="efcc8-109">Minimisation de l’espace occupé par le fichier journal</span><span class="sxs-lookup"><span data-stu-id="efcc8-109">Minimizing log file space usage</span></span>](minimizing-log-file-space-usage.md)
+- [<span data-ttu-id="efcc8-110">RDS renvoie l’erreur « Flux non lu »</span><span class="sxs-lookup"><span data-stu-id="efcc8-110">RDS returns "Stream Not Read" error</span></span>](rds-returns-stream-not-read-error.md)
 
 

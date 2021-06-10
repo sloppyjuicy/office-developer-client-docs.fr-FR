@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306012"
 ---
-# <a name="working-with-other-applications-access"></a><span data-ttu-id="b3893-102">Utilisation d’autres applications (Access)</span><span class="sxs-lookup"><span data-stu-id="b3893-102">Working with other applications (Access)</span></span>
+# <a name="working-with-other-applications-access"></a><span data-ttu-id="03415-102">Utilisation d’autres applications (Access)</span><span class="sxs-lookup"><span data-stu-id="03415-102">Working with other applications (Access)</span></span>
 
-<span data-ttu-id="b3893-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3893-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="03415-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="03415-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b3893-104">Automation avec Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="b3893-104">Automation with Microsoft Access</span></span>](automation-with-microsoft-access.md)
-- [<span data-ttu-id="b3893-105">Utilisation d’ActiveX Data Objects (ADO)</span><span class="sxs-lookup"><span data-stu-id="b3893-105">Use ActiveX Data Objects</span></span>](using-activex-data-objects.md)
-- [<span data-ttu-id="b3893-106">Utilisation de Microsoft Access en tant que serveur DDE</span><span class="sxs-lookup"><span data-stu-id="b3893-106">Use Microsoft Access as a DDE server</span></span>](use-microsoft-access-as-a-dde-server.md)
+- [<span data-ttu-id="03415-104">Automation avec Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="03415-104">Automation with Microsoft Access</span></span>](automation-with-microsoft-access.md)
+- [<span data-ttu-id="03415-105">Utilisation d’ActiveX Data Objects (ADO)</span><span class="sxs-lookup"><span data-stu-id="03415-105">Use ActiveX Data Objects</span></span>](using-activex-data-objects.md)
+- [<span data-ttu-id="03415-106">Utilisation de Microsoft Access en tant que serveur DDE</span><span class="sxs-lookup"><span data-stu-id="03415-106">Use Microsoft Access as a DDE server</span></span>](use-microsoft-access-as-a-dde-server.md)
 
 
 

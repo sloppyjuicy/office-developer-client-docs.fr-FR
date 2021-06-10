@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302778"
 ---
-# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="839dd-102">Views, collection – Exemple de propriété CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="839dd-102">Views collection, CommandText property example (VB)</span></span>
+# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="ab7a9-102">Views, collection – Exemple de propriété CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="ab7a9-102">Views collection, CommandText property example (VB)</span></span>
 
 
-<span data-ttu-id="839dd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="839dd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ab7a9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ab7a9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="839dd-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) pour mettre à jour le texte d'une vue.</span><span class="sxs-lookup"><span data-stu-id="839dd-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
+<span data-ttu-id="ab7a9-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) pour mettre à jour le texte d'une vue.</span><span class="sxs-lookup"><span data-stu-id="ab7a9-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
 
 ```vb 
  

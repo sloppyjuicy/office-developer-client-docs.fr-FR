@@ -14,32 +14,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306740"
 ---
-# <a name="rowset-property-ado"></a><span data-ttu-id="9c7cc-102">Rowset, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="9c7cc-102">Rowset property (ADO)</span></span>
+# <a name="rowset-property-ado"></a><span data-ttu-id="deaf2-102">Rowset, propriété (ADO)</span><span class="sxs-lookup"><span data-stu-id="deaf2-102">Rowset property (ADO)</span></span>
 
-<span data-ttu-id="9c7cc-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c7cc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="deaf2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="deaf2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9c7cc-104">Récupère ou définit un objet **Rowset** OLE DB sur un objet **ADORecordsetConstruction**.</span><span class="sxs-lookup"><span data-stu-id="9c7cc-104">Gets or sets an OLE DB **Rowset** object from/on an **ADORecordsetConstruction** object.</span></span> <span data-ttu-id="9c7cc-105">Lorsque vous utilisez la mise en jeu de lignes, le jeu de \_ lignes est transformé en objet **Recordset** ADO.</span><span class="sxs-lookup"><span data-stu-id="9c7cc-105">When you use put\_Rowset, the rowset is turned into an ADO **Recordset** object.</span></span>
+<span data-ttu-id="deaf2-104">Récupère ou définit un objet **Rowset** OLE DB sur un objet **ADORecordsetConstruction**.</span><span class="sxs-lookup"><span data-stu-id="deaf2-104">Gets or sets an OLE DB **Rowset** object from/on an **ADORecordsetConstruction** object.</span></span> <span data-ttu-id="deaf2-105">Lorsque vous utilisez \_ rowset, le jeu de lignes est transformé en objet **Recordset** ADO.</span><span class="sxs-lookup"><span data-stu-id="deaf2-105">When you use put\_Rowset, the rowset is turned into an ADO **Recordset** object.</span></span>
 
-<span data-ttu-id="9c7cc-106">Lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="9c7cc-106">Read/write.</span></span>
+<span data-ttu-id="deaf2-106">Lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="deaf2-106">Read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9c7cc-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="9c7cc-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="deaf2-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="deaf2-107">Syntax</span></span>
 
-<span data-ttu-id="9c7cc-108">HRESULT get \_ Rowset( \[ out, retval \] IUnknown \* \* ppRowset);</span><span class="sxs-lookup"><span data-stu-id="9c7cc-108">HRESULT get\_Rowset(\[out, retval\] IUnknown\*\* ppRowset);</span></span>
+<span data-ttu-id="deaf2-108">HRESULT get \_ Rowset( \[ out, retval \] IUnknown \* \* ppRowset);</span><span class="sxs-lookup"><span data-stu-id="deaf2-108">HRESULT get\_Rowset(\[out, retval\] IUnknown\*\* ppRowset);</span></span>
 
-<span data-ttu-id="9c7cc-109">HRESULT put \_ Rowset( \[ in \] IUnknown \* pRowset);</span><span class="sxs-lookup"><span data-stu-id="9c7cc-109">HRESULT put\_Rowset(\[in\] IUnknown\* pRowset);</span></span>
+<span data-ttu-id="deaf2-109">HRESULT put \_ Rowset( \[ in \] IUnknown \* pRowset);</span><span class="sxs-lookup"><span data-stu-id="deaf2-109">HRESULT put\_Rowset(\[in\] IUnknown\* pRowset);</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="9c7cc-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="9c7cc-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="deaf2-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="deaf2-110">Parameters</span></span>
 
-|<span data-ttu-id="9c7cc-111">Paramètre</span><span class="sxs-lookup"><span data-stu-id="9c7cc-111">Parameter</span></span>|<span data-ttu-id="9c7cc-112">Description</span><span class="sxs-lookup"><span data-stu-id="9c7cc-112">Description</span></span>|
+|<span data-ttu-id="deaf2-111">Paramètre</span><span class="sxs-lookup"><span data-stu-id="deaf2-111">Parameter</span></span>|<span data-ttu-id="deaf2-112">Description</span><span class="sxs-lookup"><span data-stu-id="deaf2-112">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="9c7cc-113">*ppRowset*</span><span class="sxs-lookup"><span data-stu-id="9c7cc-113">*ppRowset*</span></span> |<span data-ttu-id="9c7cc-114">Pointeur vers un objet **Rowset** OLE DB.</span><span class="sxs-lookup"><span data-stu-id="9c7cc-114">Pointer to an OLE DB **Rowset** object.</span></span>|
-|<span data-ttu-id="9c7cc-115">*PRowset*</span><span class="sxs-lookup"><span data-stu-id="9c7cc-115">*PRowset*</span></span> |<span data-ttu-id="9c7cc-116">Objet **Rowset** OLE DB.</span><span class="sxs-lookup"><span data-stu-id="9c7cc-116">An OLE DB **Rowset** object.</span></span>|
+|<span data-ttu-id="deaf2-113">*ppRowset*</span><span class="sxs-lookup"><span data-stu-id="deaf2-113">*ppRowset*</span></span> |<span data-ttu-id="deaf2-114">Pointeur vers un objet **Rowset** OLE DB.</span><span class="sxs-lookup"><span data-stu-id="deaf2-114">Pointer to an OLE DB **Rowset** object.</span></span>|
+|<span data-ttu-id="deaf2-115">*PRowset*</span><span class="sxs-lookup"><span data-stu-id="deaf2-115">*PRowset*</span></span> |<span data-ttu-id="deaf2-116">Objet **Rowset** OLE DB.</span><span class="sxs-lookup"><span data-stu-id="deaf2-116">An OLE DB **Rowset** object.</span></span>|
 
-## <a name="return-values"></a><span data-ttu-id="9c7cc-117">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="9c7cc-117">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="deaf2-117">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="deaf2-117">Return values</span></span>
 
-<span data-ttu-id="9c7cc-118">Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S \_ OK et E \_ FAIL.</span><span class="sxs-lookup"><span data-stu-id="9c7cc-118">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
+<span data-ttu-id="deaf2-118">Cette méthode de propriété renvoie les valeurs HRESULT standard, y compris S \_ OK et E \_ FAIL.</span><span class="sxs-lookup"><span data-stu-id="deaf2-118">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
 
-## <a name="applies-to"></a><span data-ttu-id="9c7cc-119">S’applique à</span><span class="sxs-lookup"><span data-stu-id="9c7cc-119">Applies to</span></span>
+## <a name="applies-to"></a><span data-ttu-id="deaf2-119">S’applique à</span><span class="sxs-lookup"><span data-stu-id="deaf2-119">Applies to</span></span>
 
-[<span data-ttu-id="9c7cc-120">ADORecordsetConstruction</span><span class="sxs-lookup"><span data-stu-id="9c7cc-120">ADORecordsetConstruction</span></span>](adorecordsetconstruction-interface-ado.md)
+[<span data-ttu-id="deaf2-120">ADORecordsetConstruction</span><span class="sxs-lookup"><span data-stu-id="deaf2-120">ADORecordsetConstruction</span></span>](adorecordsetconstruction-interface-ado.md)
 

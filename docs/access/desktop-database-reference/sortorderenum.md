@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306460"
 ---
-# <a name="sortorderenum"></a><span data-ttu-id="1bac7-102">SortOrderEnum</span><span class="sxs-lookup"><span data-stu-id="1bac7-102">SortOrderEnum</span></span>
+# <a name="sortorderenum"></a><span data-ttu-id="08bed-102">SortOrderEnum</span><span class="sxs-lookup"><span data-stu-id="08bed-102">SortOrderEnum</span></span>
 
-<span data-ttu-id="1bac7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1bac7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="08bed-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="08bed-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1bac7-104">Spécifie la séquence de tri d'une colonne indexée.</span><span class="sxs-lookup"><span data-stu-id="1bac7-104">Specifies the sort sequence for an indexed column.</span></span>
+<span data-ttu-id="08bed-104">Spécifie la séquence de tri d'une colonne indexée.</span><span class="sxs-lookup"><span data-stu-id="08bed-104">Specifies the sort sequence for an indexed column.</span></span>
 
 <br/>
 
@@ -30,21 +30,21 @@ ms.locfileid: "32306460"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="1bac7-105">Constante</span><span class="sxs-lookup"><span data-stu-id="1bac7-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="1bac7-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="1bac7-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="1bac7-107">Description</span><span class="sxs-lookup"><span data-stu-id="1bac7-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="08bed-105">Constante</span><span class="sxs-lookup"><span data-stu-id="08bed-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="08bed-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="08bed-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="08bed-107">Description</span><span class="sxs-lookup"><span data-stu-id="08bed-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="1bac7-108"><strong>adSortAscending</strong></span><span class="sxs-lookup"><span data-stu-id="1bac7-108"><strong>adSortAscending</strong></span></span></p></td>
-<td><p><span data-ttu-id="1bac7-109">1 </span><span class="sxs-lookup"><span data-stu-id="1bac7-109">1</span></span></p></td>
-<td><p><span data-ttu-id="1bac7-p101">Valeur par défaut. La colonne est triée par ordre croissant.</span><span class="sxs-lookup"><span data-stu-id="1bac7-p101">Default. The sort sequence for the column is ascending.</span></span></p></td>
+<td><p><span data-ttu-id="08bed-108"><strong>adSortAscending</strong></span><span class="sxs-lookup"><span data-stu-id="08bed-108"><strong>adSortAscending</strong></span></span></p></td>
+<td><p><span data-ttu-id="08bed-109">1</span><span class="sxs-lookup"><span data-stu-id="08bed-109">1</span></span></p></td>
+<td><p><span data-ttu-id="08bed-p101">Valeur par défaut. La colonne est triée par ordre croissant.</span><span class="sxs-lookup"><span data-stu-id="08bed-p101">Default. The sort sequence for the column is ascending.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="1bac7-112"><strong>adSortDescending</strong></span><span class="sxs-lookup"><span data-stu-id="1bac7-112"><strong>adSortDescending</strong></span></span></p></td>
-<td><p><span data-ttu-id="1bac7-113">2 </span><span class="sxs-lookup"><span data-stu-id="1bac7-113">2</span></span></p></td>
-<td><p><span data-ttu-id="1bac7-114">La colonne est triée par ordre décroissant.</span><span class="sxs-lookup"><span data-stu-id="1bac7-114">The sort sequence for the column is descending.</span></span></p></td>
+<td><p><span data-ttu-id="08bed-112"><strong>adSortDescending</strong></span><span class="sxs-lookup"><span data-stu-id="08bed-112"><strong>adSortDescending</strong></span></span></p></td>
+<td><p><span data-ttu-id="08bed-113">2</span><span class="sxs-lookup"><span data-stu-id="08bed-113">2</span></span></p></td>
+<td><p><span data-ttu-id="08bed-114">La colonne est triée par ordre décroissant.</span><span class="sxs-lookup"><span data-stu-id="08bed-114">The sort sequence for the column is descending.</span></span></p></td>
 </tr>
 </tbody>
 </table>

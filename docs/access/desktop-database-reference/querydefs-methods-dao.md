@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303226"
 ---
-# <a name="querydefs-methods-dao"></a><span data-ttu-id="a42f6-102">Méthodes QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a42f6-102">QueryDefs methods (DAO)</span></span>
+# <a name="querydefs-methods-dao"></a><span data-ttu-id="5c2e8-102">Méthodes QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c2e8-102">QueryDefs methods (DAO)</span></span>
 
-<span data-ttu-id="a42f6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a42f6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5c2e8-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5c2e8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="a42f6-104">QueryDefs.Append, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="a42f6-104">QueryDefs.Append method (DAO)</span></span>](querydefs-append-method-dao.md)
-- [<span data-ttu-id="a42f6-105">QueryDefs.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="a42f6-105">QueryDefs.Delete method (DAO)</span></span>](querydefs-delete-method-dao.md)
-- [<span data-ttu-id="a42f6-106">QueryDefs.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="a42f6-106">QueryDefs.Refresh method (DAO)</span></span>](querydefs-refresh-method-dao.md)
+- [<span data-ttu-id="5c2e8-104">Méthode QueryDefs.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c2e8-104">QueryDefs.Append method (DAO)</span></span>](querydefs-append-method-dao.md)
+- [<span data-ttu-id="5c2e8-105">QueryDefs.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c2e8-105">QueryDefs.Delete method (DAO)</span></span>](querydefs-delete-method-dao.md)
+- [<span data-ttu-id="5c2e8-106">QueryDefs.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c2e8-106">QueryDefs.Refresh method (DAO)</span></span>](querydefs-refresh-method-dao.md)
 

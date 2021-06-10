@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302932"
 ---
-# <a name="property-properties-methods-and-events-ado"></a><span data-ttu-id="bb47e-102">Property properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="bb47e-102">Property properties, methods, and events (ADO)</span></span>
+# <a name="property-properties-methods-and-events-ado"></a><span data-ttu-id="ac530-102">Property properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="ac530-102">Property properties, methods, and events (ADO)</span></span>
 
-<span data-ttu-id="bb47e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb47e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ac530-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac530-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="bb47e-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="bb47e-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="ac530-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="ac530-104">Properties</span></span>
 
-- [<span data-ttu-id="bb47e-105">Attributes, propriété</span><span class="sxs-lookup"><span data-stu-id="bb47e-105">Attributes property</span></span>](attributes-property-ado.md)
-- [<span data-ttu-id="bb47e-106">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="bb47e-106">Name property</span></span>](name-property-ado.md)
-- [<span data-ttu-id="bb47e-107">Type, propriété</span><span class="sxs-lookup"><span data-stu-id="bb47e-107">Type property</span></span>](type-property-ado.md)
-- [<span data-ttu-id="bb47e-108">Value, propriété</span><span class="sxs-lookup"><span data-stu-id="bb47e-108">Value property</span></span>](value-property-ado.md)
+- [<span data-ttu-id="ac530-105">Attributes, propriété</span><span class="sxs-lookup"><span data-stu-id="ac530-105">Attributes property</span></span>](attributes-property-ado.md)
+- [<span data-ttu-id="ac530-106">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="ac530-106">Name property</span></span>](name-property-ado.md)
+- [<span data-ttu-id="ac530-107">Type, propriété</span><span class="sxs-lookup"><span data-stu-id="ac530-107">Type property</span></span>](type-property-ado.md)
+- [<span data-ttu-id="ac530-108">Value, propriété</span><span class="sxs-lookup"><span data-stu-id="ac530-108">Value property</span></span>](value-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="bb47e-109">Méthodes</span><span class="sxs-lookup"><span data-stu-id="bb47e-109">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="ac530-109">Méthodes</span><span class="sxs-lookup"><span data-stu-id="ac530-109">Methods</span></span>
 
-<span data-ttu-id="bb47e-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="bb47e-110">None.</span></span>
+<span data-ttu-id="ac530-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="ac530-110">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="bb47e-111">Événements</span><span class="sxs-lookup"><span data-stu-id="bb47e-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="ac530-111">Événements</span><span class="sxs-lookup"><span data-stu-id="ac530-111">Events</span></span>
 
-<span data-ttu-id="bb47e-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="bb47e-112">None.</span></span>
+<span data-ttu-id="ac530-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="ac530-112">None.</span></span>
 
