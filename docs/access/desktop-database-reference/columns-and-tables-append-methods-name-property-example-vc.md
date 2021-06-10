@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296219"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="73118-102">Columns et Tables Append, méthodes - Exemple de propriété Name (VC++)</span><span class="sxs-lookup"><span data-stu-id="73118-102">Columns and Tables Append Methods, Name property example (VC++)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a><span data-ttu-id="48290-102">Columns et Tables Append, méthodes - Exemple de propriété Name (VC++)</span><span class="sxs-lookup"><span data-stu-id="48290-102">Columns and Tables Append Methods, Name property example (VC++)</span></span>
 
 
-<span data-ttu-id="73118-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73118-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="48290-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48290-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="73118-104">Le code suivant illustre la création d'une table.</span><span class="sxs-lookup"><span data-stu-id="73118-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="48290-104">Le code suivant illustre la création d'une table.</span><span class="sxs-lookup"><span data-stu-id="48290-104">The following code demonstrates how to create a new table.</span></span>
 
 ```cpp 
  

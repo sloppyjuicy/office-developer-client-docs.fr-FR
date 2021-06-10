@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296107"
 ---
-# <a name="comment-macro-statement"></a><span data-ttu-id="09e2c-102">Comment, instruction de macro</span><span class="sxs-lookup"><span data-stu-id="09e2c-102">Comment macro statement</span></span>
+# <a name="comment-macro-statement"></a><span data-ttu-id="1298f-102">Comment, instruction de macro</span><span class="sxs-lookup"><span data-stu-id="1298f-102">Comment macro statement</span></span>
 
 
-<span data-ttu-id="09e2c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="09e2c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1298f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1298f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="09e2c-104">L’instruction **Comment** peut être utilisée pour fournir des notes explicatives dans une macro.</span><span class="sxs-lookup"><span data-stu-id="09e2c-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
+<span data-ttu-id="1298f-104">L’instruction **Comment** peut être utilisée pour fournir des notes explicatives dans une macro.</span><span class="sxs-lookup"><span data-stu-id="1298f-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="09e2c-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="09e2c-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1298f-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="1298f-105">Remarks</span></span>
 
-<span data-ttu-id="09e2c-p101">Une instruction **Comment** peut comporter jusqu'à 1 000 caractères. Toutefois, par défaut, seule la première ligne du commentaire s'affiche.</span><span class="sxs-lookup"><span data-stu-id="09e2c-p101">A **Comment** may be up to 1000 characters in length. However, by default, only the first line of the comment is displayed.</span></span>
+<span data-ttu-id="1298f-p101">Une instruction **Comment** peut comporter jusqu'à 1 000 caractères. Toutefois, par défaut, seule la première ligne du commentaire s'affiche.</span><span class="sxs-lookup"><span data-stu-id="1298f-p101">A **Comment** may be up to 1000 characters in length. However, by default, only the first line of the comment is displayed.</span></span>
 

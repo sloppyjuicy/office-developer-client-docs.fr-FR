@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295575"
 ---
-# <a name="containers-methods-dao"></a><span data-ttu-id="2d138-102">Containers methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="2d138-102">Containers methods (DAO)</span></span>
+# <a name="containers-methods-dao"></a><span data-ttu-id="d644a-102">Containers methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="d644a-102">Containers methods (DAO)</span></span>
 
-<span data-ttu-id="2d138-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d138-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d644a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d644a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="2d138-104">Containers.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="2d138-104">Containers.Refresh method (DAO)</span></span>](containers-refresh-method-dao.md)
+- [<span data-ttu-id="d644a-104">Containers.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="d644a-104">Containers.Refresh method (DAO)</span></span>](containers-refresh-method-dao.md)
 

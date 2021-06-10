@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296597"
 ---
-# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="0e33b-102">Catalog – ActiveConnection, propriété – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="0e33b-102">Catalog ActiveConnection property example (VC++)</span></span>
+# <a name="catalog-activeconnection-property-example-vc"></a><span data-ttu-id="9f4cd-102">Catalog – ActiveConnection, propriété – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="9f4cd-102">Catalog ActiveConnection property example (VC++)</span></span>
 
 
-<span data-ttu-id="0e33b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0e33b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9f4cd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f4cd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0e33b-p101">L'affectation d'une connexion ouverte et valide à la propriété [ActiveConnection](activeconnection-property-adox.md) « ouvre » le catalogue. À partir d'un catalogue ouvert, vous pouvez accéder aux objets de schéma contenus dans ce catalogue.</span><span class="sxs-lookup"><span data-stu-id="0e33b-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
+<span data-ttu-id="9f4cd-p101">L'affectation d'une connexion ouverte et valide à la propriété [ActiveConnection](activeconnection-property-adox.md) « ouvre » le catalogue. À partir d'un catalogue ouvert, vous pouvez accéder aux objets de schéma contenus dans ce catalogue.</span><span class="sxs-lookup"><span data-stu-id="9f4cd-p101">Setting the [ActiveConnection](activeconnection-property-adox.md) property to a valid, open connection "opens" the catalog. From an open catalog, you can access the schema objects contained within that catalog.</span></span>
 
 ```cpp 
  

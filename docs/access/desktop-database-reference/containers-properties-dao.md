@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295554"
 ---
-# <a name="containers-properties-dao"></a><span data-ttu-id="91994-102">Containers properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="91994-102">Containers properties (DAO)</span></span>
+# <a name="containers-properties-dao"></a><span data-ttu-id="7f4db-102">Containers properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="7f4db-102">Containers properties (DAO)</span></span>
 
-<span data-ttu-id="91994-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="91994-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f4db-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f4db-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="91994-104">Containers.Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="91994-104">Containers.Count property (DAO)</span></span>](containers-count-property-dao.md)
+- [<span data-ttu-id="7f4db-104">Containers.Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="7f4db-104">Containers.Count property (DAO)</span></span>](containers-count-property-dao.md)
 

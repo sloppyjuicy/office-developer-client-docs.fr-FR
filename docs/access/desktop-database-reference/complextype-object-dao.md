@@ -14,17 +14,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296037"
 ---
-# <a name="complextype-object-dao"></a><span data-ttu-id="ad7a8-102">ComplexType, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad7a8-102">ComplexType object (DAO)</span></span>
+# <a name="complextype-object-dao"></a><span data-ttu-id="7bb48-102">ComplexType, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="7bb48-102">ComplexType object (DAO)</span></span>
 
-<span data-ttu-id="ad7a8-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad7a8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7bb48-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7bb48-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ad7a8-104">Représente un champ à valeur multiple.</span><span class="sxs-lookup"><span data-stu-id="ad7a8-104">Represents a multi-valued field.</span></span>
+<span data-ttu-id="7bb48-104">Représente un champ à valeur multiple.</span><span class="sxs-lookup"><span data-stu-id="7bb48-104">Represents a multi-valued field.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="ad7a8-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="ad7a8-105">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="7bb48-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="7bb48-105">Version information</span></span>
 
-<span data-ttu-id="ad7a8-106">Version ajoutée : Access 2007</span><span class="sxs-lookup"><span data-stu-id="ad7a8-106">Version added: Access 2007</span></span>
+<span data-ttu-id="7bb48-106">Version ajoutée : Access 2007</span><span class="sxs-lookup"><span data-stu-id="7bb48-106">Version added: Access 2007</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ad7a8-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="ad7a8-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7bb48-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="7bb48-107">Remarks</span></span>
 
-<span data-ttu-id="ad7a8-108">Utilisez la propriété **[Fields](complextype-fields-property-dao.md)** pour renvoyer la collection **[Fields](fields-collection-dao.md)** pour l'objet **ComplexType**.</span><span class="sxs-lookup"><span data-stu-id="ad7a8-108">Use the **[Fields](complextype-fields-property-dao.md)** property to return the **[Fields](fields-collection-dao.md)** collection for the **ComplexType** object.</span></span>
+<span data-ttu-id="7bb48-108">Utilisez la propriété **[Fields](complextype-fields-property-dao.md)** pour renvoyer la collection **[Fields](fields-collection-dao.md)** pour l'objet **ComplexType**.</span><span class="sxs-lookup"><span data-stu-id="7bb48-108">Use the **[Fields](complextype-fields-property-dao.md)** property to return the **[Fields](fields-collection-dao.md)** collection for the **ComplexType** object.</span></span>
 

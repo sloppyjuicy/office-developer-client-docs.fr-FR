@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296212"
 ---
-# <a name="columns-collection-adox-reference"></a><span data-ttu-id="203cd-102">Référence de collection Columns (ADOX)</span><span class="sxs-lookup"><span data-stu-id="203cd-102">Columns collection (ADOX) reference</span></span>
+# <a name="columns-collection-adox-reference"></a><span data-ttu-id="58d18-102">Référence de collection Columns (ADOX)</span><span class="sxs-lookup"><span data-stu-id="58d18-102">Columns collection (ADOX) reference</span></span>
 
-<span data-ttu-id="203cd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="203cd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="58d18-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58d18-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="203cd-104">Columns, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="203cd-104">Columns collection (ADOX)</span></span>](columns-collection-adox.md)
-- [<span data-ttu-id="203cd-105">Columns collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="203cd-105">Columns collection properties, methods, and events (ADOX)</span></span>](columns-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="58d18-104">Columns, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="58d18-104">Columns collection (ADOX)</span></span>](columns-collection-adox.md)
+- [<span data-ttu-id="58d18-105">Columns collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="58d18-105">Columns collection properties, methods, and events (ADOX)</span></span>](columns-collection-properties-methods-and-events-adox.md)
 

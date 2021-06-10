@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296254"
 ---
-# <a name="column-object-adox-reference"></a><span data-ttu-id="e6504-102">Référence de l’objet Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e6504-102">Column object (ADOX) reference</span></span>
+# <a name="column-object-adox-reference"></a><span data-ttu-id="b1821-102">Référence de l’objet Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b1821-102">Column object (ADOX) reference</span></span>
 
-<span data-ttu-id="e6504-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e6504-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b1821-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1821-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e6504-104">Objet Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e6504-104">Column object (ADOX)</span></span>](column-object-adox.md)
-- [<span data-ttu-id="e6504-105">Column properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e6504-105">Column properties, methods, and events (ADOX)</span></span>](column-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="b1821-104">Objet Column (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b1821-104">Column object (ADOX)</span></span>](column-object-adox.md)
+- [<span data-ttu-id="b1821-105">Column properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b1821-105">Column properties, methods, and events (ADOX)</span></span>](column-properties-methods-and-events-adox.md)
 

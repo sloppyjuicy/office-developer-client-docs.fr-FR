@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296940"
 ---
-# <a name="attributes-property-example-vc"></a><span data-ttu-id="2d0e4-102">Attributes, propriété — Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="2d0e4-102">Attributes property example (VC++)</span></span>
+# <a name="attributes-property-example-vc"></a><span data-ttu-id="ac44b-102">Attributes, propriété — Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="ac44b-102">Attributes property example (VC++)</span></span>
 
 
-<span data-ttu-id="2d0e4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2d0e4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ac44b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac44b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2d0e4-p101">Cet exemple illustre la propriété [Attributes](attributes-property-adox.md) d'un objet [Column](column-object-adox.md). Si elle a la valeur **adColNullable**, l'utilisateur peut affecter la valeur d'une chaîne vide à un objet [Field](recordset-object-ado.md) d'un [Recordset](field-object-ado.md). L'utilisateur peut ainsi distinguer un enregistrement dont les données ne sont pas connues d'un autre dont les données ne sont pas applicables.</span><span class="sxs-lookup"><span data-stu-id="2d0e4-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
+<span data-ttu-id="ac44b-p101">Cet exemple illustre la propriété [Attributes](attributes-property-adox.md) d'un objet [Column](column-object-adox.md). Si elle a la valeur **adColNullable**, l'utilisateur peut affecter la valeur d'une chaîne vide à un objet [Field](recordset-object-ado.md) d'un [Recordset](field-object-ado.md). L'utilisateur peut ainsi distinguer un enregistrement dont les données ne sont pas connues d'un autre dont les données ne sont pas applicables.</span><span class="sxs-lookup"><span data-stu-id="ac44b-p101">This example demonstrates the [Attributes](attributes-property-adox.md) property of a [Column](column-object-adox.md). Setting it to **adColNullable** allows the user to set the value of a [Recordset](recordset-object-ado.md)[Field](field-object-ado.md) to an empty string. In this situation, the user can distinguish between a record where data is not known and a record where the data does not apply.</span></span>
 
 ```cpp 
  
@@ -222,7 +222,7 @@ void AttributesX(void)
 // EndAttributesCpp 
 ```
 
-<span data-ttu-id="2d0e4-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="2d0e4-107">**ADOXAttributesX.h**</span></span>
+<span data-ttu-id="ac44b-107">**ADOXAttributesX.h**</span><span class="sxs-lookup"><span data-stu-id="ac44b-107">**ADOXAttributesX.h**</span></span>
 
 ```cpp
     // BeginAttributesH 

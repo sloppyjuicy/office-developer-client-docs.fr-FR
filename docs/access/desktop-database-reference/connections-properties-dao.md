@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295743"
 ---
-# <a name="connections-properties-dao"></a><span data-ttu-id="b2990-102">Connections properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="b2990-102">Connections properties (DAO)</span></span>
+# <a name="connections-properties-dao"></a><span data-ttu-id="c98fa-102">Connections properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="c98fa-102">Connections properties (DAO)</span></span>
 
-<span data-ttu-id="b2990-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b2990-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c98fa-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c98fa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b2990-104">Connections.Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="b2990-104">Connections.Count property (DAO)</span></span>](connections-count-property-dao.md)
+- [<span data-ttu-id="c98fa-104">Connections.Count, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="c98fa-104">Connections.Count property (DAO)</span></span>](connections-count-property-dao.md)
 

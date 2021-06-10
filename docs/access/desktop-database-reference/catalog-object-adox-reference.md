@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296583"
 ---
-# <a name="catalog-object-adox-reference"></a><span data-ttu-id="f203a-102">Référence de l’objet Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f203a-102">Catalog object (ADOX) reference</span></span>
+# <a name="catalog-object-adox-reference"></a><span data-ttu-id="f5f4a-102">Référence de l’objet Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5f4a-102">Catalog object (ADOX) reference</span></span>
 
-<span data-ttu-id="f203a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f203a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f5f4a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5f4a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f203a-104">Objet Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f203a-104">Catalog object (ADOX)</span></span>](catalog-object-adox.md)
-- [<span data-ttu-id="f203a-105">Catalog properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f203a-105">Catalog properties, methods, and events (ADOX)</span></span>](catalog-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="f5f4a-104">Objet Catalog (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5f4a-104">Catalog object (ADOX)</span></span>](catalog-object-adox.md)
+- [<span data-ttu-id="f5f4a-105">Catalog properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5f4a-105">Catalog properties, methods, and events (ADOX)</span></span>](catalog-properties-methods-and-events-adox.md)
 

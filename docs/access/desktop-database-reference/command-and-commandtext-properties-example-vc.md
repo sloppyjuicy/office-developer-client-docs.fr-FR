@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296177"
 ---
-# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="58e26-102">Command et CommandText, propriétés – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="58e26-102">Command and CommandText properties example (VC++)</span></span>
+# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="6af0e-102">Command et CommandText, propriétés – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="6af0e-102">Command and CommandText properties example (VC++)</span></span>
 
 
-<span data-ttu-id="58e26-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58e26-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6af0e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6af0e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="58e26-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) pour mettre à jour le texte d'une procédure.</span><span class="sxs-lookup"><span data-stu-id="58e26-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
+<span data-ttu-id="6af0e-104">Le code suivant montre comment utiliser la propriété [Command](command-property-adox.md) pour mettre à jour le texte d'une procédure.</span><span class="sxs-lookup"><span data-stu-id="6af0e-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
 
 ```cpp 
  

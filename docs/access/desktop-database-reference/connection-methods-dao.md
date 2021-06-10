@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295890"
 ---
-# <a name="connection-methods-dao"></a><span data-ttu-id="35aa5-102">Connection Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="35aa5-102">Connection methods (DAO)</span></span>
+# <a name="connection-methods-dao"></a><span data-ttu-id="76261-102">Connection Methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="76261-102">Connection methods (DAO)</span></span>
 
-<span data-ttu-id="35aa5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35aa5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="76261-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76261-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="35aa5-104">Connection.Cancel, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="35aa5-104">Connection.Cancel method (DAO)</span></span>](connection-cancel-method-dao.md)
-- [<span data-ttu-id="35aa5-105">Connection.Close, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="35aa5-105">Connection.Close method (DAO)</span></span>](connection-close-method-dao.md)
-- [<span data-ttu-id="35aa5-106">Connection.CreateQueryDef, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="35aa5-106">Connection.CreateQueryDef method (DAO)</span></span>](connection-createquerydef-method-dao.md)
-- [<span data-ttu-id="35aa5-107">Connection.Execute method (DAO)</span><span class="sxs-lookup"><span data-stu-id="35aa5-107">Connection.Execute method (DAO)</span></span>](connection-execute-method-dao.md)
-- [<span data-ttu-id="35aa5-108">Connection.OpenRecordset, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="35aa5-108">Connection.OpenRecordset method (DAO)</span></span>](connection-openrecordset-method-dao.md)
+- [<span data-ttu-id="76261-104">Connection.Cancel, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="76261-104">Connection.Cancel method (DAO)</span></span>](connection-cancel-method-dao.md)
+- [<span data-ttu-id="76261-105">Connection.Close, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="76261-105">Connection.Close method (DAO)</span></span>](connection-close-method-dao.md)
+- [<span data-ttu-id="76261-106">Connection.CreateQueryDef method (DAO)</span><span class="sxs-lookup"><span data-stu-id="76261-106">Connection.CreateQueryDef method (DAO)</span></span>](connection-createquerydef-method-dao.md)
+- [<span data-ttu-id="76261-107">Connection.Execute method (DAO)</span><span class="sxs-lookup"><span data-stu-id="76261-107">Connection.Execute method (DAO)</span></span>](connection-execute-method-dao.md)
+- [<span data-ttu-id="76261-108">Connection.OpenRecordset, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="76261-108">Connection.OpenRecordset method (DAO)</span></span>](connection-openrecordset-method-dao.md)
 

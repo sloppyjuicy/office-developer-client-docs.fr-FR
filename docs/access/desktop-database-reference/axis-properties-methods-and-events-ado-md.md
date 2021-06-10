@@ -14,24 +14,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296905"
 ---
-# <a name="axis-properties-methods-and-events-ado-md"></a><span data-ttu-id="d5990-102">Axis properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d5990-102">Axis properties, methods, and events (ADO MD)</span></span>
+# <a name="axis-properties-methods-and-events-ado-md"></a><span data-ttu-id="a1e15-102">Axis properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a1e15-102">Axis properties, methods, and events (ADO MD)</span></span>
 
 
-<span data-ttu-id="d5990-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d5990-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a1e15-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1e15-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-## <a name="propertiescollections"></a><span data-ttu-id="d5990-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="d5990-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="a1e15-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="a1e15-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="d5990-105">DimensionCount, propriété</span><span class="sxs-lookup"><span data-stu-id="d5990-105">DimensionCount property</span></span>](dimensioncount-property-ado-md.md)
-- [<span data-ttu-id="d5990-106">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="d5990-106">Name property</span></span>](name-property-ado-md.md)
-- [<span data-ttu-id="d5990-107">Positions, collection</span><span class="sxs-lookup"><span data-stu-id="d5990-107">Positions collection</span></span>](positions-collection-ado-md.md)
-- [<span data-ttu-id="d5990-108">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="d5990-108">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="a1e15-105">DimensionCount, propriété</span><span class="sxs-lookup"><span data-stu-id="a1e15-105">DimensionCount property</span></span>](dimensioncount-property-ado-md.md)
+- [<span data-ttu-id="a1e15-106">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="a1e15-106">Name property</span></span>](name-property-ado-md.md)
+- [<span data-ttu-id="a1e15-107">Positions, collection</span><span class="sxs-lookup"><span data-stu-id="a1e15-107">Positions collection</span></span>](positions-collection-ado-md.md)
+- [<span data-ttu-id="a1e15-108">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="a1e15-108">Properties collection</span></span>](properties-collection-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="d5990-109">Méthodes</span><span class="sxs-lookup"><span data-stu-id="d5990-109">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="a1e15-109">Méthodes</span><span class="sxs-lookup"><span data-stu-id="a1e15-109">Methods</span></span>
 
-<span data-ttu-id="d5990-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="d5990-110">None.</span></span>
+<span data-ttu-id="a1e15-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="a1e15-110">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="d5990-111">Événements</span><span class="sxs-lookup"><span data-stu-id="d5990-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="a1e15-111">Événements</span><span class="sxs-lookup"><span data-stu-id="a1e15-111">Events</span></span>
 
-<span data-ttu-id="d5990-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="d5990-112">None.</span></span>
+<span data-ttu-id="a1e15-112">Aucun.</span><span class="sxs-lookup"><span data-stu-id="a1e15-112">None.</span></span>
 

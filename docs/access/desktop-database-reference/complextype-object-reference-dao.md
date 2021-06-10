@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296023"
 ---
-# <a name="complextype-object-reference-dao"></a><span data-ttu-id="9b0fd-102">ComplexType object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="9b0fd-102">ComplexType object reference (DAO)</span></span>
+# <a name="complextype-object-reference-dao"></a><span data-ttu-id="bdc5e-102">ComplexType object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="bdc5e-102">ComplexType object reference (DAO)</span></span>
 
-<span data-ttu-id="9b0fd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b0fd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bdc5e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bdc5e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9b0fd-104">ComplexType, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="9b0fd-104">ComplexType object (DAO)</span></span>](complextype-object-dao.md)
-- [<span data-ttu-id="9b0fd-105">ComplexType members (DAO)</span><span class="sxs-lookup"><span data-stu-id="9b0fd-105">ComplexType members (DAO)</span></span>](complextype-members-dao.md)
-- [<span data-ttu-id="9b0fd-106">ComplexType properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="9b0fd-106">ComplexType properties (DAO)</span></span>](complextype-properties-dao.md)
+- [<span data-ttu-id="bdc5e-104">ComplexType, objet (DAO)</span><span class="sxs-lookup"><span data-stu-id="bdc5e-104">ComplexType object (DAO)</span></span>](complextype-object-dao.md)
+- [<span data-ttu-id="bdc5e-105">ComplexType members (DAO)</span><span class="sxs-lookup"><span data-stu-id="bdc5e-105">ComplexType members (DAO)</span></span>](complextype-members-dao.md)
+- [<span data-ttu-id="bdc5e-106">ComplexType properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="bdc5e-106">ComplexType properties (DAO)</span></span>](complextype-properties-dao.md)
 

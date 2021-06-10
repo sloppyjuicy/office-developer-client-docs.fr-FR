@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296919"
 ---
-# <a name="axes-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="11bb0-102">Axes, collection - Propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="11bb0-102">Axes collection properties, methods, and events (ADO MD)</span></span>
+# <a name="axes-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="2e40d-102">Axes, collection - Propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2e40d-102">Axes collection properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="11bb0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11bb0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2e40d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e40d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="11bb0-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="11bb0-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="2e40d-104">Propriétés</span><span class="sxs-lookup"><span data-stu-id="2e40d-104">Properties</span></span>
 
-- [<span data-ttu-id="11bb0-105">Propriété Count</span><span class="sxs-lookup"><span data-stu-id="11bb0-105">Count property</span></span>](count-property-ado.md)
-- [<span data-ttu-id="11bb0-106">Item, propriété</span><span class="sxs-lookup"><span data-stu-id="11bb0-106">Item property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="2e40d-105">Propriété Count</span><span class="sxs-lookup"><span data-stu-id="2e40d-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="2e40d-106">Propriété Item</span><span class="sxs-lookup"><span data-stu-id="2e40d-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="11bb0-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="11bb0-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="2e40d-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="2e40d-107">Methods</span></span>
 
-- [<span data-ttu-id="11bb0-108">Refresh, méthode</span><span class="sxs-lookup"><span data-stu-id="11bb0-108">Refresh method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="2e40d-108">Refresh, méthode</span><span class="sxs-lookup"><span data-stu-id="2e40d-108">Refresh method</span></span>](refresh-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="11bb0-109">Événements</span><span class="sxs-lookup"><span data-stu-id="11bb0-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="2e40d-109">Événements</span><span class="sxs-lookup"><span data-stu-id="2e40d-109">Events</span></span>
 
-<span data-ttu-id="11bb0-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="11bb0-110">None.</span></span>
+<span data-ttu-id="2e40d-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="2e40d-110">None.</span></span>
 

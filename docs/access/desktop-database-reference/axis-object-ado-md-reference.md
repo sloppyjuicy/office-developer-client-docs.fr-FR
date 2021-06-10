@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296891"
 ---
-# <a name="axis-object-ado-md-reference"></a><span data-ttu-id="e80ff-102">Objet Axis (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e80ff-102">Axis object (ADO MD reference)</span></span>
+# <a name="axis-object-ado-md-reference"></a><span data-ttu-id="1dc37-102">Objet Axis (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1dc37-102">Axis object (ADO MD reference)</span></span>
 
-<span data-ttu-id="e80ff-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e80ff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1dc37-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1dc37-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e80ff-104">Objet Axis (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e80ff-104">Axis object (ADO MD)</span></span>](axis-object-ado-md.md)
-- [<span data-ttu-id="e80ff-105">Axis properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e80ff-105">Axis properties, methods, and events (ADO MD)</span></span>](axis-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="1dc37-104">Objet Axis (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1dc37-104">Axis object (ADO MD)</span></span>](axis-object-ado-md.md)
+- [<span data-ttu-id="1dc37-105">Axis properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1dc37-105">Axis properties, methods, and events (ADO MD)</span></span>](axis-properties-methods-and-events-ado-md.md)
 

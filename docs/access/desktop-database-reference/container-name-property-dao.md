@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295638"
 ---
-# <a name="containername-property-dao"></a><span data-ttu-id="1798b-102">Container.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="1798b-102">Container.Name property (DAO)</span></span>
+# <a name="containername-property-dao"></a><span data-ttu-id="523c3-102">Container.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="523c3-102">Container.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="1798b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1798b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="523c3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="523c3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1798b-104">Renvoie le nom de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="1798b-104">Returns the name of the specified object.</span></span> <span data-ttu-id="1798b-105">**String** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="1798b-105">Read-only **String**.</span></span>
+<span data-ttu-id="523c3-p101">Renvoie le nom de l'objet spécifié. En lecture seule **chaîne**.</span><span class="sxs-lookup"><span data-stu-id="523c3-p101">Returns the name of the specified object. Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1798b-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="1798b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="523c3-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="523c3-106">Syntax</span></span>
 
-<span data-ttu-id="1798b-107">*.* Nom</span><span class="sxs-lookup"><span data-stu-id="1798b-107">*expression* .Name</span></span>
+<span data-ttu-id="523c3-107">*.* Nom</span><span class="sxs-lookup"><span data-stu-id="523c3-107">*expression* .Name</span></span>
 
-<span data-ttu-id="1798b-108">*expression* Variable qui représente un objet **Container.**</span><span class="sxs-lookup"><span data-stu-id="1798b-108">*expression* A variable that represents a **Container** object.</span></span>
+<span data-ttu-id="523c3-108">*expression* Variable qui représente un objet **Container.**</span><span class="sxs-lookup"><span data-stu-id="523c3-108">*expression* A variable that represents a **Container** object.</span></span>
 

@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295806"
 ---
-# <a name="connectionrecordsets-property-dao"></a><span data-ttu-id="a3f97-102">Connection.Recordsets, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="a3f97-102">Connection.Recordsets property (DAO)</span></span>
+# <a name="connectionrecordsets-property-dao"></a><span data-ttu-id="a9671-102">Connection.Recordsets, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="a9671-102">Connection.Recordsets property (DAO)</span></span>
 
 
-<span data-ttu-id="a3f97-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3f97-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a9671-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a9671-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a3f97-104">Renvoie une collection **Recordsets** qui contient tous les jeux d'enregistrements ouverts pour la connexion spécifiée.</span><span class="sxs-lookup"><span data-stu-id="a3f97-104">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified connection.</span></span> <span data-ttu-id="a3f97-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="a3f97-105">Read-only.</span></span>
+<span data-ttu-id="a9671-p101">Renvoie une collection **Recordsets** qui contient tous les jeux d'enregistrements ouverts pour la connexion spécifiée. Valeur en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="a9671-p101">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified connection. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a3f97-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a3f97-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a9671-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a9671-106">Syntax</span></span>
 
-<span data-ttu-id="a3f97-107">*.* Jeux d’enregistrements</span><span class="sxs-lookup"><span data-stu-id="a3f97-107">*expression* .Recordsets</span></span>
+<span data-ttu-id="a9671-107">*.* Jeux d’enregistrements</span><span class="sxs-lookup"><span data-stu-id="a9671-107">*expression* .Recordsets</span></span>
 
-<span data-ttu-id="a3f97-108">*expression* Variable qui représente un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="a3f97-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="a9671-108">*expression* Variable qui représente un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="a9671-108">*expression* A variable that represents a **Connection** object.</span></span>
 

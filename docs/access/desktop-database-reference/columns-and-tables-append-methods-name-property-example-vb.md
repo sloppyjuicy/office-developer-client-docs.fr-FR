@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296226"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="2965f-102">Columns et Tables Append, méthodes - Exemple de propriété Name (VB)</span><span class="sxs-lookup"><span data-stu-id="2965f-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="f8996-102">Columns et Tables Append, méthodes - Exemple de propriété Name (VB)</span><span class="sxs-lookup"><span data-stu-id="f8996-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
 
 
-<span data-ttu-id="2965f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2965f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f8996-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8996-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2965f-104">Le code suivant illustre la création d'une table.</span><span class="sxs-lookup"><span data-stu-id="2965f-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="f8996-104">Le code suivant illustre la création d'une table.</span><span class="sxs-lookup"><span data-stu-id="f8996-104">The following code demonstrates how to create a new table.</span></span>
 
 ```vb 
  

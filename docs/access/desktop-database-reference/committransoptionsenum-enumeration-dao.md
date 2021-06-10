@@ -14,8 +14,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296100"
 ---
-# <a name="committransoptionsenum-enumeration-dao"></a><span data-ttu-id="4baee-102">CommitTransOptionsEnum, éumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="4baee-102">CommitTransOptionsEnum enumeration (DAO)</span></span>
+# <a name="committransoptionsenum-enumeration-dao"></a><span data-ttu-id="b1116-102">CommitTransOptionsEnum, éumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="b1116-102">CommitTransOptionsEnum enumeration (DAO)</span></span>
 
-<span data-ttu-id="4baee-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4baee-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b1116-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1116-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4baee-104">À déterminer</span><span class="sxs-lookup"><span data-stu-id="4baee-104">TBD</span></span>
+<span data-ttu-id="b1116-104">À déterminer</span><span class="sxs-lookup"><span data-stu-id="b1116-104">TBD</span></span>

@@ -14,21 +14,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296576"
 ---
-# <a name="catalog-properties-methods-and-events-ado-md"></a><span data-ttu-id="9ff50-102">Catalog properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9ff50-102">Catalog properties, methods, and events (ADO MD)</span></span>
+# <a name="catalog-properties-methods-and-events-ado-md"></a><span data-ttu-id="fc2e2-102">Catalog properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="fc2e2-102">Catalog properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="9ff50-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9ff50-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc2e2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc2e2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="9ff50-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="9ff50-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="fc2e2-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="fc2e2-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="9ff50-105">ActiveConnection, propriété</span><span class="sxs-lookup"><span data-stu-id="9ff50-105">ActiveConnection property</span></span>](activeconnection-property-ado-md.md)
-- [<span data-ttu-id="9ff50-106">CubeDefs, collection</span><span class="sxs-lookup"><span data-stu-id="9ff50-106">CubeDefs collection</span></span>](cubedefs-collection-ado-md.md)
-- [<span data-ttu-id="9ff50-107">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="9ff50-107">Name property</span></span>](name-property-ado-md.md)
+- [<span data-ttu-id="fc2e2-105">ActiveConnection, propriété</span><span class="sxs-lookup"><span data-stu-id="fc2e2-105">ActiveConnection property</span></span>](activeconnection-property-ado-md.md)
+- [<span data-ttu-id="fc2e2-106">CubeDefs, collection</span><span class="sxs-lookup"><span data-stu-id="fc2e2-106">CubeDefs collection</span></span>](cubedefs-collection-ado-md.md)
+- [<span data-ttu-id="fc2e2-107">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="fc2e2-107">Name property</span></span>](name-property-ado-md.md)
 
-## <a name="methods"></a><span data-ttu-id="9ff50-108">Méthodes</span><span class="sxs-lookup"><span data-stu-id="9ff50-108">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="fc2e2-108">Méthodes</span><span class="sxs-lookup"><span data-stu-id="fc2e2-108">Methods</span></span>
 
-<span data-ttu-id="9ff50-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9ff50-109">None.</span></span>
+<span data-ttu-id="fc2e2-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="fc2e2-109">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="9ff50-110">Événements</span><span class="sxs-lookup"><span data-stu-id="9ff50-110">Events</span></span>
+## <a name="events"></a><span data-ttu-id="fc2e2-110">Événements</span><span class="sxs-lookup"><span data-stu-id="fc2e2-110">Events</span></span>
 
-<span data-ttu-id="9ff50-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="9ff50-111">None.</span></span>
+<span data-ttu-id="fc2e2-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="fc2e2-111">None.</span></span>
 

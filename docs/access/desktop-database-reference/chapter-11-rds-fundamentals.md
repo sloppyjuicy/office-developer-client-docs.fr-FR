@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296506"
 ---
-# <a name="chapter-11-rds-fundamentals"></a><span data-ttu-id="54a50-102">Chapitre 11 : Principes de base du RDS</span><span class="sxs-lookup"><span data-stu-id="54a50-102">Chapter 11: RDS fundamentals</span></span>
+# <a name="chapter-11-rds-fundamentals"></a><span data-ttu-id="95b5a-102">Chapitre 11 : Principes de base du RDS</span><span class="sxs-lookup"><span data-stu-id="95b5a-102">Chapter 11: RDS fundamentals</span></span>
 
-<span data-ttu-id="54a50-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="54a50-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="95b5a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="95b5a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="54a50-p101">Cette section comporte une série de rubriques à lire dans l'ordre recommandé, et notamment les suivantes :</span><span class="sxs-lookup"><span data-stu-id="54a50-p101">This section contains a series of topics that you can read in a prescribed order. The following topics are included:</span></span>
+<span data-ttu-id="95b5a-p101">Cette section comporte une série de rubriques à lire dans l'ordre recommandé, et notamment les suivantes :</span><span class="sxs-lookup"><span data-stu-id="95b5a-p101">This section contains a series of topics that you can read in a prescribed order. The following topics are included:</span></span>
 
-- [<span data-ttu-id="54a50-106">Solutions pour l'accès à distance aux données</span><span class="sxs-lookup"><span data-stu-id="54a50-106">Solutions for Remote Data Access</span></span>](solutions-for-remote-data-access.md)
-- [<span data-ttu-id="54a50-107">Modèle de programmation RDS de base</span><span class="sxs-lookup"><span data-stu-id="54a50-107">Basic RDS programming model</span></span>](basic-rds-programming-model.md)
-- [<span data-ttu-id="54a50-108">Modèle de programmation RDS en détail</span><span class="sxs-lookup"><span data-stu-id="54a50-108">RDS programming model in detail</span></span>](rds-programming-model-in-detail.md)
-- [<span data-ttu-id="54a50-109">Modèle de programmation RDS avec des objets</span><span class="sxs-lookup"><span data-stu-id="54a50-109">RDS programming model with objects</span></span>](rds-programming-model-with-objects.md)
-- [<span data-ttu-id="54a50-110">Résumé du modèle objet RDS</span><span class="sxs-lookup"><span data-stu-id="54a50-110">RDS object model summary</span></span>](rds-object-model-summary.md)
-- [<span data-ttu-id="54a50-111">Scénario RDS</span><span class="sxs-lookup"><span data-stu-id="54a50-111">RDS scenario</span></span>](rds-scenario.md)
+- [<span data-ttu-id="95b5a-106">Solutions pour l'accès à distance aux données</span><span class="sxs-lookup"><span data-stu-id="95b5a-106">Solutions for Remote Data Access</span></span>](solutions-for-remote-data-access.md)
+- [<span data-ttu-id="95b5a-107">Modèle de programmation RDS de base</span><span class="sxs-lookup"><span data-stu-id="95b5a-107">Basic RDS programming model</span></span>](basic-rds-programming-model.md)
+- [<span data-ttu-id="95b5a-108">Modèle de programmation RDS en détail</span><span class="sxs-lookup"><span data-stu-id="95b5a-108">RDS programming model in detail</span></span>](rds-programming-model-in-detail.md)
+- [<span data-ttu-id="95b5a-109">Modèle de programmation RDS avec des objets</span><span class="sxs-lookup"><span data-stu-id="95b5a-109">RDS programming model with objects</span></span>](rds-programming-model-with-objects.md)
+- [<span data-ttu-id="95b5a-110">Résumé du modèle objet RDS</span><span class="sxs-lookup"><span data-stu-id="95b5a-110">RDS object model summary</span></span>](rds-object-model-summary.md)
+- [<span data-ttu-id="95b5a-111">Scénario RDS</span><span class="sxs-lookup"><span data-stu-id="95b5a-111">RDS scenario</span></span>](rds-scenario.md)
 
-<span data-ttu-id="54a50-112">Cette section contient également le didacticiel [RDS](chapter-12-rds-tutorial.md) qui montre comment accéder à une source de données et la mettre à jour, ainsi qu’une série de rubriques sur l’utilisation de [RDS,](chapter-13-rds-usage-and-security.md)qui traite de sujets plus avancés de RDS.</span><span class="sxs-lookup"><span data-stu-id="54a50-112">This section also contains the [RDS tutorial](chapter-12-rds-tutorial.md) which demonstrates how to access and update a data source, and a series of topics about [Using RDS](chapter-13-rds-usage-and-security.md), which discusses more advanced RDS topics.</span></span>
+<span data-ttu-id="95b5a-112">Cette section contient également le didacticiel [RDS](chapter-12-rds-tutorial.md) qui montre comment accéder à une source de données et la mettre à jour, ainsi qu’une série de rubriques sur l’utilisation de [RDS,](chapter-13-rds-usage-and-security.md)qui traite de sujets plus avancés de RDS.</span><span class="sxs-lookup"><span data-stu-id="95b5a-112">This section also contains the [RDS tutorial](chapter-12-rds-tutorial.md) which demonstrates how to access and update a data source, and a series of topics about [Using RDS](chapter-13-rds-usage-and-security.md), which discusses more advanced RDS topics.</span></span>
 

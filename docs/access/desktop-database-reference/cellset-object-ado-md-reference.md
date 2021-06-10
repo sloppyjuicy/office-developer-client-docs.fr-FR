@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296534"
 ---
-# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="956fa-102">Objet Cellset (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="956fa-102">Cellset object (ADO MD reference)</span></span>
+# <a name="cellset-object-ado-md-reference"></a><span data-ttu-id="143eb-102">Objet Cellset (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="143eb-102">Cellset object (ADO MD reference)</span></span>
 
-<span data-ttu-id="956fa-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="956fa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="143eb-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="143eb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="956fa-104">Objet Cellset (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="956fa-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
-- [<span data-ttu-id="956fa-105">Cellset properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="956fa-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="143eb-104">Objet Cellset (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="143eb-104">Cellset object (ADO MD)</span></span>](cellset-object-ado-md.md)
+- [<span data-ttu-id="143eb-105">Cellset properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="143eb-105">Cellset properties, methods, and events (ADO MD)</span></span>](cellset-properties-methods-and-events-ado-md.md)
 

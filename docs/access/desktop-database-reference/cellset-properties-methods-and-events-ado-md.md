@@ -14,26 +14,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296520"
 ---
-# <a name="cellset-properties-methods-and-events-ado-md"></a><span data-ttu-id="b507a-102">Cellset properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b507a-102">Cellset properties, methods, and events (ADO MD)</span></span>
+# <a name="cellset-properties-methods-and-events-ado-md"></a><span data-ttu-id="db236-102">Cellset properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="db236-102">Cellset properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="b507a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b507a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="db236-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="db236-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="b507a-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="b507a-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="db236-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="db236-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="b507a-105">ActiveConnection, propriété</span><span class="sxs-lookup"><span data-stu-id="b507a-105">ActiveConnection property</span></span>](activeconnection-property-ado-md.md)
-- [<span data-ttu-id="b507a-106">Axes (collection)</span><span class="sxs-lookup"><span data-stu-id="b507a-106">Axes collection</span></span>](axes-collection-ado-md.md)
-- [<span data-ttu-id="b507a-107">FilterAxis, propriété</span><span class="sxs-lookup"><span data-stu-id="b507a-107">FilterAxis property</span></span>](filteraxis-property-ado-md.md)
-- [<span data-ttu-id="b507a-108">Propriété Item (Ensemble de cellules)</span><span class="sxs-lookup"><span data-stu-id="b507a-108">Item property (Cellset)</span></span>](item-property-ado-md-cellset.md)
-- [<span data-ttu-id="b507a-109">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="b507a-109">Properties collection</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="b507a-110">Source, propriété</span><span class="sxs-lookup"><span data-stu-id="b507a-110">Source property</span></span>](source-property-ado-md.md)
-- [<span data-ttu-id="b507a-111">State, propriété</span><span class="sxs-lookup"><span data-stu-id="b507a-111">State property</span></span>](state-property-ado-md.md)
+- [<span data-ttu-id="db236-105">ActiveConnection, propriété</span><span class="sxs-lookup"><span data-stu-id="db236-105">ActiveConnection property</span></span>](activeconnection-property-ado-md.md)
+- [<span data-ttu-id="db236-106">Axes (collection)</span><span class="sxs-lookup"><span data-stu-id="db236-106">Axes collection</span></span>](axes-collection-ado-md.md)
+- [<span data-ttu-id="db236-107">FilterAxis, propriété</span><span class="sxs-lookup"><span data-stu-id="db236-107">FilterAxis property</span></span>](filteraxis-property-ado-md.md)
+- [<span data-ttu-id="db236-108">Propriété Item (Ensemble de cellules)</span><span class="sxs-lookup"><span data-stu-id="db236-108">Item property (Cellset)</span></span>](item-property-ado-md-cellset.md)
+- [<span data-ttu-id="db236-109">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="db236-109">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="db236-110">Source, propriété</span><span class="sxs-lookup"><span data-stu-id="db236-110">Source property</span></span>](source-property-ado-md.md)
+- [<span data-ttu-id="db236-111">State, propriété</span><span class="sxs-lookup"><span data-stu-id="db236-111">State property</span></span>](state-property-ado-md.md)
 
-## <a name="methods"></a><span data-ttu-id="b507a-112">Méthodes</span><span class="sxs-lookup"><span data-stu-id="b507a-112">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="db236-112">Méthodes</span><span class="sxs-lookup"><span data-stu-id="db236-112">Methods</span></span>
 
-- [<span data-ttu-id="b507a-113">Close, méthode</span><span class="sxs-lookup"><span data-stu-id="b507a-113">Close method</span></span>](close-method-ado-md.md)
-- [<span data-ttu-id="b507a-114">Open, méthode</span><span class="sxs-lookup"><span data-stu-id="b507a-114">Open method</span></span>](open-method-ado-md.md)
+- [<span data-ttu-id="db236-113">Close, méthode</span><span class="sxs-lookup"><span data-stu-id="db236-113">Close method</span></span>](close-method-ado-md.md)
+- [<span data-ttu-id="db236-114">Open, méthode</span><span class="sxs-lookup"><span data-stu-id="db236-114">Open method</span></span>](open-method-ado-md.md)
 
-## <a name="events"></a><span data-ttu-id="b507a-115">Événements</span><span class="sxs-lookup"><span data-stu-id="b507a-115">Events</span></span>
+## <a name="events"></a><span data-ttu-id="db236-115">Événements</span><span class="sxs-lookup"><span data-stu-id="db236-115">Events</span></span>
 
-<span data-ttu-id="b507a-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="b507a-116">None.</span></span>
+<span data-ttu-id="db236-116">Aucun.</span><span class="sxs-lookup"><span data-stu-id="db236-116">None.</span></span>
 
