@@ -19,7 +19,7 @@ ms.locfileid: "32293034"
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie la position relative d’un **[objet Field](field-object-dao.md)** dans une collection **[Fields.](fields-collection-dao.md)** .
+Définit ou renvoie la position relative d'un objet **[Field](field-object-dao.md)** au sein d'une collection **[Fields](fields-collection-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -73,7 +73,7 @@ La disponibilité de la propriété **OrdinalPosition** dépend de l'objet conte
 
 En règle générale, la position ordinale d'un objet ajouté à une collection dépend de l'ordre dans lequel vous ajoutez l'objet. Le premier objet est ajouté a la première position (0), le second à la seconde position (1) et ainsi de suite. Le dernier objet ajouté se trouve à la position ordinale : 1, où nombre est le nombre d’objets dans la collection, tel que spécifié par le paramètre de propriété **[Count.](containers-count-property-dao.md)**
 
-La propriété **OrdinalPosition** vous permet de spécifier une position ordinale pour les nouveaux objets **Field** qui diffère de l'ordre dans lequel vous les ajoutez à une collection. Ceci vous permet de spécifier un ordre de champs pour vos tables, requêtes et jeux d'enregistrements lorsque vous les utilisez dans une application. Par exemple, l’ordre dans lequel les champs sont renvoyés dans une requête SELECT est déterminé par les valeurs actuelles de la propriété \* **OrdinalPosition.**
+La propriété **OrdinalPosition** vous permet de spécifier une position ordinale pour les nouveaux objets **Field** qui diffère de l'ordre dans lequel vous les ajoutez à une collection. Ceci vous permet de spécifier un ordre de champs pour vos tables, requêtes et jeux d'enregistrements lorsque vous les utilisez dans une application. Par exemple, l’ordre dans lequel les champs sont renvoyés dans une requête SELECT est déterminé par les valeurs actuelles de la \* **propriété OrdinalPosition.**
 
 Vous pouvez à tout moment redéfinir l'ordre de renvoi des champs dans les jeux d'enregistrements en définissant la propriété **OrdinalPosition** sur tout entier positif.
 

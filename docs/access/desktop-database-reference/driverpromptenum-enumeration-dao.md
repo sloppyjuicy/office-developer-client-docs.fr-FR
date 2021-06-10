@@ -42,17 +42,17 @@ Spécifie si le système doit demander à l'utilisateur d'établir une connexion
 </tr>
 <tr class="even">
 <td><p>dbDriverCompleteRequired</p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>(Paramètre par défaut) Se comporte comme <strong>dbDriverComplete</strong>, excepté que le pilote désactive les contrôles pour les informations qui ne sont pas nécessaires à l'établissement de la connexion.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbDriverNoPrompt</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Le gestionnaire de pilotes utilise la chaîne de connexion fournie dans Connect. En l'absence d'informations détaillées, une erreur récupérable est renvoyée.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbDriverPrompt</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Le gestionnaire de pilotes affiche la boîte de dialogue <strong>Sources de données ODBC</strong>. La chaîne de connexion utilisée pour établir la connexion est construite à partir du nom DSN sélectionné et fourni par l'utilisateur par le biais des boîtes de dialogue.</p></td>
 </tr>
 </tbody>

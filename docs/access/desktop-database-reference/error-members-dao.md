@@ -40,7 +40,7 @@ L'objet Error contient des détails sur les erreurs d'accès aux données, chacu
 <td><p>Renvoie une chaîne descriptive associée à une erreur. Il s'agit de la propriété par défaut de l'objet <strong>Error</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="error-number-property-dao.md">Nombre</a></strong></p></td>
+<td><p><strong><a href="error-number-property-dao.md">Number</a></strong></p></td>
 <td><p>Renvoie une valeur numérique spécifiant une erreur.</p></td>
 </tr>
 <tr class="odd">

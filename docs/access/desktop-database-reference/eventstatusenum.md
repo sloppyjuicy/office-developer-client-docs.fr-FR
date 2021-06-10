@@ -43,17 +43,17 @@ Spécifie l'état en cours de l'exécution d'un événement.
 </tr>
 <tr class="even">
 <td><p><strong>adStatusCantDeny</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indique que l'opération ne peut pas demander l'annulation de l'opération en attente.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStatusErrorsOccurred</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique que l'opération qui a provoqué l'événement a échoué en raison d'une ou plusieurs erreurs.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStatusOK</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indique que l'opération qui a provoqué l'événement a réussi.</p></td>
 </tr>
 <tr class="odd">

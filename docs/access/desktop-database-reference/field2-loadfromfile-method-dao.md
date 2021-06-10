@@ -1,5 +1,5 @@
 ---
-title: Méthode Field2.LoadFromFile (DAO)
+title: Field2.LoadFromFile method (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292789"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Méthode Field2.LoadFromFile (DAO)
+# <a name="field2loadfromfile-method-dao"></a>Field2.LoadFromFile method (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 

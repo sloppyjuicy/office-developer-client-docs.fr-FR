@@ -43,12 +43,12 @@ Spécifie l'état d'édition d'un enregistrement.
 </tr>
 <tr class="even">
 <td><p><strong>adEditInProgress</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indique que les données de l'enregistrement en cours ont été modifiées, mais pas enregistrées.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adEditAdd</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique que la méthode <a href="addnew-method-ado.md">AddNew</a> a été appelée et que l’enregistrement en cours dans la zone tampon de copie est un nouvel enregistrement qui n’a pas été enregistré dans la base de données.</p></td>
 </tr>
 <tr class="even">

@@ -27,7 +27,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 *expression* Variable qui représente un objet **Field**.
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>
@@ -61,7 +61,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 <td><p><em>Value</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> contenant la valeur initiale de la propriété. Pour plus <strong><a href="field-value-property-dao.md">d’informations,</a></strong> voir la propriété Value.</p></td>
+<td><p><strong>Variant</strong> contenant la valeur initiale de la propriété. Pour plus d’informations, reportez-vous à la méthode <strong><a href="field-value-property-dao.md">Value</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DDL</em></p></td>

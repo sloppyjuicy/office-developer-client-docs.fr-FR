@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293559"
 ---
-# <a name="endofrecordset-event-ado"></a>Événement EndOfRecordset (ADO)
+# <a name="endofrecordset-event-ado"></a>EndOfRecordset, événement (ADO)
 
 **S’applique à** : Access 2013, Office 2013
 

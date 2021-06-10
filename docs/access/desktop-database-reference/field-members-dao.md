@@ -71,7 +71,7 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-attributes-property-dao.md">Attributs</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet <strong><a href="field-object-dao.md">Field</a></strong>. <strong>Long</strong> (en lecture/écriture).</p></td>
+<td><p>Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet <strong><a href="field-object-dao.md">Field</a></strong>. Valeur de type <strong>Long</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-collatingorder-property-dao.md">CollatingOrder</a></strong></p></td>
@@ -99,7 +99,7 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-ordinalposition-property-dao.md">OrdinalPosition</a></strong></p></td>
-<td><p>Définit ou renvoie la position relative d’un <strong><a href="field-object-dao.md">objet Field</a></strong> dans une collection <strong><a href="fields-collection-dao.md">Fields.</a></strong> .</p></td>
+<td><p>Définit ou renvoie la position relative d'un objet <strong><a href="field-object-dao.md">Field</a></strong> au sein d'une collection <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
@@ -129,7 +129,7 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. <strong>Entier</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type <strong>Integer</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-validateonset-property-dao.md">ValidateOnSet</a></strong></p></td>
@@ -145,7 +145,7 @@ Un objet Field représente une colonne de données avec un type de données comm
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-value-property-dao.md">Valeur</a></strong></p></td>
-<td><p>Définit ou renvoie la valeur d'un objet. Type de données <strong>Variant</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie la valeur d'un objet. Type <strong>Variant</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>

@@ -23,7 +23,7 @@ Un bloc de données **RechercherEnregistrement** effectue un ensemble d'actions 
 > [!NOTE]
 > Le bloc de données **RechercherEnregistrement** est disponible uniquement dans les macros de données.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **DéfinirChamp** utilise les arguments suivants.
 
@@ -62,7 +62,7 @@ L’action **DéfinirChamp** utilise les arguments suivants.
 
 ## <a name="remarks"></a>Remarques
 
-Si les critères spécifiés par les arguments Condition *In* et *Where* renvoient plusieurs enregistrement, le bloc de données **LookupRecord** fonctionne uniquement sur le premier enregistrement.  Si aucun enregistrement ne correspond aux critères spécifiés, Access ignore l’ensemble des actions contenues dans le bloc **LookupRecord,** comme s’il s’agit d’une expression de bloc de macro **[If](if-then-else-macro-block.md)** évaluée comme false.
+Si les critères spécifiés par les arguments *Condition In* et *Where* renvoient plusieurs enregistrement, le bloc de données **LookupRecord** fonctionne uniquement sur le premier enregistrement.  Si aucun enregistrement ne correspond aux critères spécifiés, Access ignore l’ensemble des actions contenues dans le bloc **LookupRecord,** comme s’il s’agit d’une expression de bloc de macro **[If](if-then-else-macro-block.md)** évaluée comme false.
 
 ## <a name="example"></a>Exemple
 

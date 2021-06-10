@@ -26,7 +26,7 @@ Trois formes d'erreur sont répertoriées :
 
 - Décimale négative  La conversion décimale du numéro d'erreur complet.
 
-- Hexadécimale  La représentation héxadécimale du numéro d'erreur complet. Le code de fonction Windows est dans le quatrième chiffre. Le code de la facilité pour les numéros d’erreur ADO est *A*. Par exemple : 0x800 ***A*** 0E7B.
+- Hexadécimale — La représentation héxadécimale du numéro d'erreur complet. Le code de fonction Windows est dans le quatrième chiffre. Le code de fonction des numéros d'erreurs ADO est *A*. Exemple : 0x800 ***A*** 0E7B.
 
 > [!NOTE]
 > Les erreurs OLE DB peuvent être transmises à votre application ADO. En général, elles peuvent être identifiées par un code de fonction Windows *4*. Par exemple, 0x800_ **4** _.... Pour plus d’informations sur ces numéros, voir le chapitre 16 du *OLE DB Programmer’s Reference.*

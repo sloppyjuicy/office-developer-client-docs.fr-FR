@@ -26,7 +26,7 @@ Ajoute des données issues d'une expression de chaîne à un objet **[Field](fie
 
 *expression* Variable qui représente un objet **Field**.
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

@@ -24,7 +24,7 @@ ms.locfileid: "32292372"
 
 You can use the **FindRecord** action to find the first instance of data that meets the criteria specified by the **FindRecord** arguments. This data can be in the current record, in a succeeding or prior record, or in the first record. You can find records in the active table datasheet, query datasheet, form datasheet, or form.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **TrouverEnregistrement** possède les arguments suivants.
 
@@ -59,7 +59,7 @@ L’action **TrouverEnregistrement** possède les arguments suivants.
 <tr class="odd">
 <td><p><strong>Avec mise en forme</strong></p></td>
 <td><p>Spécifie si la recherche inclut les données mises en forme. Cliquez sur <strong>Oui</strong> (Microsoft Office Access 2007 recherche les données telles que mises en forme et affichées dans le champ) ou <strong>Non</strong> (Access recherche les données telles que stockées dans la base de données, ce qui ne correspond pas toujours à la manière dont elles sont affichées). La valeur par défaut est <strong>Non</strong>. Vous pouvez utiliser cette fonctionnalité pour restreindre la recherche aux données correspondant à un format particulier. Par exemple, cliquez sur <strong>Oui</strong> et tapez <strong>1,234</strong> dans l’argument <strong>Rechercher</strong> pour rechercher la valeur 1,234 dans un champ mis en forme avec des virgules. Cliquez sur <strong>Non</strong> si vous souhaitez taper <strong>1234</strong> pour rechercher les données dans ce champ. Pour rechercher des dates, cliquez sur <strong>Oui</strong> afin de rechercher une date correspondant exactement à sa mise en forme, par exemple 08 juillet 2003. Si vous cliquez sur <strong>Non</strong>, entrez la date dans l’argument <strong>Rechercher</strong> en suivant le format défini dans les paramètres régionaux du Panneau de configuration de Windows. Ce format est indiqué dans la zone <strong>Format de date courte</strong> sous l’onglet <strong>Date</strong> des paramètres régionaux. Par exemple, si la zone <strong>Format de date courte</strong> est défini sur <strong>j/m/aa</strong>, vous pouvez entrer 8/7/03 ; Access recherche alors toutes les entrées d’un champ Date qui correspondent à 8 juillet 2003, quelle que soit la mise en forme de ce champ.</p>
-<p><strong>REMARQUE</strong>: <strong></strong> l’argument Rechercher en tant que mise en forme prend effet uniquement si le champ actuel est un contrôle lié, <strong>l’argument</strong> Match est définie sur <strong>Champ</strong>entier , l’argument <strong></strong> Champ actuel uniquement est définie sur <strong>Oui</strong>et <strong>l’argument</strong> Cas de correspondance est définie sur <strong>Non</strong>.</p>
+<p><strong>REMARQUE</strong>: <strong></strong> l’argument Rechercher au formatage prend effet uniquement si le champ actuel est un contrôle lié, si l’argument <strong></strong> Match est définie sur <strong>Champ</strong>entier , l’argument <strong></strong> Champ actuel uniquement est définie sur <strong>Oui</strong>et <strong>l’argument</strong> Cas de correspondance est définie sur <strong>Non</strong>.</p>
 <p>Si vous définissez <strong>Respecter la casse</strong> sur <strong>Oui</strong> ou <strong>Champ actif uniquement</strong> sur <strong>Non</strong>, vous devez également définir <strong>Avec mise en forme</strong> sur <strong>Oui</strong>.</p></td>
 </tr>
 <tr class="even">

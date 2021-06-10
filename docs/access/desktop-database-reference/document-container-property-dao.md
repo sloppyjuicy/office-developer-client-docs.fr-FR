@@ -23,7 +23,7 @@ ms.locfileid: "32293825"
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie le nom de **[l’objet Container](container-object-dao.md)** auquel appartient un objet **Document** (espaces de travail Microsoft Access uniquement). .
+Renvoie le nom de l'objet **[Container](container-object-dao.md)** auquel un objet **Document** appartient (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 

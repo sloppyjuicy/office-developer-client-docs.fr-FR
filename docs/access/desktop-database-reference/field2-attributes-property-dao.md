@@ -24,7 +24,7 @@ ms.locfileid: "32292887"
 **S’applique à** : Access 2013, Office 2013
 
 
-Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **Field2**. **Long** (en lecture/écriture).
+Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **Field2**. Type de données **Long** en lecture/écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -54,7 +54,7 @@ La valeur spécifie les caractéristiques du champ représenté par l'objet **Fi
 </tr>
 <tr class="even">
 <td><p><strong>dbDescending</strong></p></td>
-<td><p>Le champ est trié dans l’ordre décroissant (Z à A ou 100 à 0) ; cette option s’applique uniquement à un objet <strong>Field2</strong> d’une collection <strong>Fields</strong> d’un objet <strong>Index</strong>. Si vous omettez cette constante, le champ est trié par ordre croissant (A à Z ou 0 à 100). Il s’agit de la valeur par défaut pour les champs <strong>Index</strong> et <strong>TableDef</strong> (espaces de travail Microsoft Access uniquement).</p></td>
+<td><p>Le champ est trié dans l’ordre décroissant (Z à A ou 100 à 0) ; cette option s’applique uniquement à un objet <strong>Field2</strong> d’une collection <strong>Fields</strong> d’un objet <strong>Index</strong>. Si vous omettez cette constante, le champ est trié dans l’ordre croissant (A à Z ou 0 à 100). Il s’agit de la valeur par défaut pour les champs <strong>Index</strong> et <strong>TableDef</strong> (espaces de travail Microsoft Access uniquement)..</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFixedField</strong></p></td>

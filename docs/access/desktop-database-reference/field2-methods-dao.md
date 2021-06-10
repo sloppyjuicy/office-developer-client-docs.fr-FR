@@ -21,6 +21,6 @@ ms.locfileid: "32292768"
 - [Field2.AppendChunk, méthode (DAO)](field2-appendchunk-method-dao.md)
 - [Field2.CreateProperty method (DAO)](field2-createproperty-method-dao.md)
 - [Field2.GetChunk, méthode (DAO)](field2-getchunk-method-dao.md)
-- [Méthode Field2.LoadFromFile (DAO)](field2-loadfromfile-method-dao.md)
+- [Field2.LoadFromFile method (DAO)](field2-loadfromfile-method-dao.md)
 - [Méthode Field2.SaveToFile (DAO)](field2-savetofile-method-dao.md)
 

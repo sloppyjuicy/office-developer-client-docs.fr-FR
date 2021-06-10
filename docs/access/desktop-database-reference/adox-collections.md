@@ -33,7 +33,7 @@ ms.locfileid: "32270125"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="columns-collection-adox.md">Columns</a></p></td>
+<td><p><a href="columns-collection-adox.md">Colonnes</a></p></td>
 <td><p>Contient tous les objets <strong>Column</strong> d'une table, d'un index ou d'une clé.</p></td>
 </tr>
 <tr class="even">

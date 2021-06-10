@@ -25,7 +25,7 @@ ms.locfileid: "32293832"
 
 Utilisez l'action **AfficherPointeurSablier** pour transformer le pointeur de la souris en icône de sablier (ou toute autre icône choisie) pendant l'exécution d'une macro. Cette action peut fournir une indication visuelle de l'exécution de la macro. Elle est particulièrement utile lorsque l'exécution d'une action de macro ou de la macro elle-même prend beaucoup de temps.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **AfficherPointeurSablier** utilise l'argument suivant :
 

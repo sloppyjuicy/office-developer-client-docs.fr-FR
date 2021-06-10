@@ -30,7 +30,7 @@ Renvoie l’ensemble ou une partie du contenu d’un objet **Memo** ou **Long Bi
 
 *expression* Variable qui représente un objet **Field**.
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

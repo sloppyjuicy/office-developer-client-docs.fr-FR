@@ -123,7 +123,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-ordinalposition-property-dao.md">OrdinalPosition</a></strong></p></td>
-<td><p>Définit ou renvoie la position relative d’un <strong>objet Field2</strong> dans une collection <strong><a href="fields-collection-dao.md">Fields.</a></strong> .</p></td>
+<td><p>Définit ou renvoie la position relative d'un objet <strong>Field2</strong> au sein d'une collection <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
@@ -153,7 +153,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-type-property-dao.md">Type</a></strong></p></td>
-<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. <strong>Entier</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type <strong>Integer</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-validateonset-property-dao.md">ValidateOnSet</a></strong></p></td>
@@ -169,7 +169,7 @@ Un objet Field2 représente une colonne de données avec un type de données com
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-value-property-dao.md">Valeur</a></strong></p></td>
-<td><p>Définit ou renvoie la valeur d'un objet. Type de données <strong>Variant</strong> en lecture/écriture.</p></td>
+<td><p>Définit ou renvoie la valeur d'un objet. Type <strong>Variant</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-visiblevalue-property-dao.md">VisibleValue</a></strong></p></td>

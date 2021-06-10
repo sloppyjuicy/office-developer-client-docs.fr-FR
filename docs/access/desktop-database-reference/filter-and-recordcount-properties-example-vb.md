@@ -19,7 +19,7 @@ ms.locfileid: "32292481"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple ouvre un objet **Recordset** sur la table Publishers (base de données ***Pubs***). Il utilise ensuite la propriété [Filter](filter-property-ado.md) pour limiter le nombre d'enregistrements visibles aux éditeurs d'une région ou d'un pays donné. La propriété **CpteEnregistrement** sert à afficher les différences entre les jeux d'enregistrements filtrés et non filtrés.
+Cet exemple ouvre un objet **Recordset** sur la table Publishers (base de données ***Pubs***). Il utilise ensuite la propriété [Filter](filter-property-ado.md) pour limiter le nombre d’enregistrements visibles aux éditeurs d’une région ou d’un pays donné. La propriété **CpteEnregistrement** sert à afficher les différences entre les jeux d’enregistrements filtrés et non filtrés.
 
 ```vb 
  

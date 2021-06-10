@@ -38,7 +38,7 @@ Spécifie la cause à l'origine d'un événement.
 <tbody>
 <tr class="odd">
 <td><p><strong>adRsnAddNew</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Une opération a ajouté un nouvel enregistrement.</p></td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@ Spécifie la cause à l'origine d'un événement.
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnDelete</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Une opération a supprimé un enregistrement.</p></td>
 </tr>
 <tr class="even">
@@ -58,7 +58,7 @@ Spécifie la cause à l'origine d'un événement.
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMove</strong></p></td>
-<td><p>10 </p></td>
+<td><p>10</p></td>
 <td><p>Une opération a déplacé le pointeur de l'enregistrement à l'intérieur de l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -68,12 +68,12 @@ Spécifie la cause à l'origine d'un événement.
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMoveLast</strong></p></td>
-<td><p>15 </p></td>
+<td><p>15</p></td>
 <td><p>Une opération a déplacé le pointeur vers le dernier enregistrement dans l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnMoveNext</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Une opération a déplacé le pointeur vers l'enregistrement suivant dans l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -108,7 +108,7 @@ Spécifie la cause à l'origine d'un événement.
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnUpdate</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Une opération a annulé un enregistrement existant.</p></td>
 </tr>
 </tbody>

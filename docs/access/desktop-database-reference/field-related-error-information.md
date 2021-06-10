@@ -37,7 +37,7 @@ Si une erreur est directement liée à un champ  par exemple, si les données 
 <tbody>
 <tr class="odd">
 <td><p><strong>adFieldCantConvertValue</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique que le champ ne peut pas être extrait ni stocké sans perte de données.</p></td>
 </tr>
 <tr class="even">
@@ -47,22 +47,22 @@ Si une erreur est directement liée à un champ  par exemple, si les données 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDefault</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Indique que la valeur par défaut du champ a été utilisée lors de la définition des données.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIgnore</strong></p></td>
-<td><p>15 </p></td>
+<td><p>15</p></td>
 <td><p>Indique que ce champ a été ignoré lors de la définition des valeurs de données dans la source. Aucune valeur n'est définie par le fournisseur.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldIntegrityViolation</strong></p></td>
-<td><p>10 </p></td>
+<td><p>10</p></td>
 <td><p>Indique que le champ ne peut pas être modifié car il s'agit d'une entité calculée ou dérivée.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIsNull</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Indique que le fournisseur a renvoyé une valeur NULL.</p></td>
 </tr>
 <tr class="odd">

@@ -103,7 +103,7 @@ Le tableau suivant résume les effets d' **adFilterPendingRecords** dans différ
 <td><p>Clé unique</p></td>
 <td><p>+</p></td>
 <td><p>-</p></td>
-<td><p>N/A</p></td>
+<td><p>S/O</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clés multiples</p></td>

@@ -24,7 +24,7 @@ Vous pouvez utiliser le bloc de données **ModifierEnregistrement** pour modifie
 > Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données.
 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.
 

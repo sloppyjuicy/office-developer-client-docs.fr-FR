@@ -18,7 +18,7 @@ ms.locfileid: "32293909"
 
 **S’applique à** : Access 2013, Office 2013
 
-La méthode **Supports** permet de déterminer si un objet **Recordset** spécifié prend en charge un type donné de fonctionnalité. Sa syntaxe est la suivante :
+La méthode **Supports** permet de déterminer si un objet **Recordset** spécifié prend en charge un type donné de fonctionnalité. Sa syntaxe est la suivante :
 
 `boolean = recordset.Supports( CursorOptions )`
 

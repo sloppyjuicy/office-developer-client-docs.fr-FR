@@ -1,5 +1,5 @@
 ---
-title: EOS et LineSeparator, propriétés et skipLine, méthodes - Exemple (VB)
+title: EOS et LineSeparator, propriétés et skipline, méthodes - Exemple (VB)
 TOCTitle: EOS and LineSeparator Properties and SkipLine method example (VB)
 ms:assetid: 66508541-cc65-e16a-0f8d-2c0b20342b05
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249396(v=office.15)

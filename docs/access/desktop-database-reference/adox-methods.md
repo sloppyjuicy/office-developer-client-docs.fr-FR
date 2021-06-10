@@ -69,11 +69,11 @@ ms.locfileid: "32270006"
 <td><p>Change le mot de passe d'un compte d'utilisateur.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-method-adox.md">Créer</a></p></td>
+<td><p><a href="create-method-adox.md">Create</a></p></td>
 <td><p>Crée un catalogue.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="delete-method-adox-collections.md">Delete</a></p></td>
+<td><p><a href="delete-method-adox-collections.md">Supprimer</a></p></td>
 <td><p>Supprime un objet d'une collection.</p></td>
 </tr>
 <tr class="even">

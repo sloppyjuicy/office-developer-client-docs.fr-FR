@@ -19,7 +19,7 @@ ms.locfileid: "32292663"
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. **Entier** en lecture/écriture.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type **Integer** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 

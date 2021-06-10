@@ -59,7 +59,7 @@ Un objet Document inclut des informations sur une instance d'un objet. L'objet p
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="document-container-property-dao.md">Conteneur</a></strong></p></td>
-<td><p>Renvoie le nom de <strong><a href="container-object-dao.md">l’objet Container</a></strong> auquel appartient un objet <strong>Document</strong> (espaces de travail Microsoft Access uniquement). .</p></td>
+<td><p>Renvoie le nom de l'objet <strong><a href="container-object-dao.md">Container</a></strong> auquel un objet <strong>Document</strong> appartient (espaces de travail Microsoft Access uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-datecreated-property-dao.md">DateCreated</a></strong></p></td>
@@ -71,7 +71,7 @@ Un objet Document inclut des informations sur une instance d'un objet. L'objet p
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Renvoie le nom de l'objet spécifié. <strong>String</strong> en lecture seule.</p></td>
+<td><p>Renvoie le nom de l'objet spécifié. En lecture seule <strong>chaîne</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="document-properties-property-dao.md">Propriétés</a></strong></p></td>

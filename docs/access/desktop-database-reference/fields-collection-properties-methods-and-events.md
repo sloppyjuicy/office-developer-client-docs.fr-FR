@@ -21,7 +21,7 @@ ms.locfileid: "32292551"
 ## <a name="properties"></a>Propriétés
 
 - [Propriété Count](count-property-ado.md)
-- [Item, propriété](item-property-ado.md)
+- [Propriété Item](item-property-ado.md)
 
 ## <a name="methods"></a>Méthodes
 

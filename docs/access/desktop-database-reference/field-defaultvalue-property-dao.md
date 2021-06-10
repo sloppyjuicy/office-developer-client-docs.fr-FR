@@ -34,7 +34,7 @@ Le paramètre ou la valeur renvoyée est un type de données **String** qui peut
 
 
 > [!NOTE]
-> [!REMARQUE] Vous pouvez également définir la propriété **DefaultValue** d'un objet **Field** dans un objet [TableDef](tabledef-object-dao.md) sur une valeur spéciale appelée « GenUniqueID( ) ». Ce faisant, un nombre aléatoire est affecté à ce champ dès qu'un nouvel enregistrement est ajouté ou créé, créant ainsi un identificateur unique pour chaque enregistrement. La propriété [Type](field-type-property-dao.md) du champ doit être **Long**.
+> [!REMARQUE] Vous pouvez également définir la propriété **DefaultValue** d'un objet **Field** dans un objet [TableDef](tabledef-object-dao.md) sur une valeur spéciale appelée « GenUniqueID( ) ». Chaque enregistrement possède alors un identificateur unique, car un numéro aléatoire est affecté à ce champ lors de l'ajout ou de la création d'un enregistrement. La propriété [Type](field-type-property-dao.md) du champ doit avoir la valeur **Long**.
 
 
 La disponibilité de la propriété **DefaultValue** dépend de l'objet contenant la collection **Fields**, comme illustré dans le tableau suivant.

@@ -20,7 +20,7 @@ ms.locfileid: "32293622"
 
 Vous pouvez utiliser l’action **Écho** pour spécifier si l’écho est allumé. Par exemple, vous pouvez utiliser cette action pour masquer ou afficher les résultats d’une macro pendant qu’elle s’exécute.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
@@ -53,7 +53,7 @@ Vous pouvez utiliser l’action **Écho** pour spécifier si l’écho est allum
 
 Lorsqu’une macro s’exécute, la mise à jour de l’écran affiche souvent des informations non essentielles au fonctionnement de la macro. Lorsque vous définissez **l’argument Écho sur** **non,** la macro s’exécute sans mettre à jour l’écran. À la fin de la macro, Access réessaie automatiquement l’écho et réessaie la fenêtre. Le **paramètre Non** de l’argument Écho **sur** n’affecte pas la fonctionnalité de la macro ou ses résultats.
 
-**L’action Écho** ne supprime pas l’affichage des boîtes de dialogue modales, telles que les messages d’erreur, ou les formulaires de fenêtre publicitaire, tels que les feuilles de propriétés. Vous pouvez utiliser des boîtes de dialogue et des formulaires pop-up pour collecter ou afficher des informations, même si l’écho est désactivé. Pour supprimer tous les messages ou boîtes de dialogue, à l’exception des boîtes de dialogue et des boîtes de dialogue d’erreur qui exigent que l’utilisateur entre des informations, utilisez l’action **DéfinirWarnings.**
+**L’action Écho** ne supprime pas l’affichage des boîtes de dialogue modales, telles que les messages d’erreur, ou les formulaires de fenêtre publicitaire, tels que les feuilles de propriétés. Vous pouvez utiliser des boîtes de dialogue et des formulaires pop-up pour collecter ou afficher des informations, même si l’écho est désactivé. Pour supprimer tous les messages ou boîtes de dialogue à l’exception des boîtes de dialogue et des boîtes de dialogue d’erreur qui exigent que l’utilisateur entre des informations, utilisez l’action **DéfinirWarnings.**
 
 Vous pouvez exécuter l’action **Écho** plusieurs fois dans une macro. Cela vous permet de modifier le texte de la barre d’état pendant l’exécutement de la macro.
 
@@ -112,7 +112,7 @@ La macro suivante ouvre le formulaire Ajouter des produits à partir d’un bout
 
 ### <a name="synchronize-forms-by-using-a-macro"></a>Synchroniser des formulaires à l’aide d’une macro
 
-La macro suivante ouvre le formulaire Liste de produits dans le coin inférieur droit du formulaire Fournisseurs, affichant les produits du fournisseur actuel. Elle présente l'utilisation des actions **Écho**, **ZoneMessage**, **AtteindreContrôle**, **ArrêtMacro**, **OuvrirFormulaire** et **DéplacerEtDimensionnerFenêtre**. Elle décrit également l'utilisation d'une expression conditionnelle avec les actions **ZoneMessage**, **AtteindreContrôle**, et **ArrêtMacro**. Cette macro doit être associée au bouton Consulter les produits dans le formulaire Fournisseurs.
+La macro suivante ouvre le formulaire Liste des produits dans le coin inférieur droit du formulaire Fournisseurs, affichant les produits du fournisseur actuel. Elle présente l'utilisation des actions **Écho**, **ZoneMessage**, **AtteindreContrôle**, **ArrêtMacro**, **OuvrirFormulaire** et **DéplacerEtDimensionnerFenêtre**. Elle décrit également l'utilisation d'une expression conditionnelle avec les actions **ZoneMessage**, **AtteindreContrôle**, et **ArrêtMacro**. Cette macro doit être associée au bouton Consulter les produits dans le formulaire Fournisseurs.
 
 <table>
 <colgroup>
@@ -157,7 +157,7 @@ La macro suivante ouvre le formulaire Liste de produits dans le coin inférieur 
 <tr class="odd">
 <td><p></p></td>
 <td><p><strong>OpenForm</strong></p></td>
-<td><p><strong>Nom du formulaire</strong>: Affichage <strong>de</strong>la liste des produits : Nom <strong>de DatasheetFilter</strong>: <strong>Condition where</strong>: [ID fournisseur] = [Formulaires]! [Fournisseurs]! [SupplierID] <strong>Mode données</strong>: <strong>mode Lecture seule :</strong> <strong>Normal</strong></p></td>
+<td><p><strong>Nom du formulaire</strong>: Affichage de la liste <strong>des</strong>produits : Nom <strong>de DatasheetFilter</strong>: <strong>Condition where</strong>: [ID fournisseur] = [Formulaires]! [Fournisseurs]! [SupplierID] <strong>Mode données</strong>: <strong>mode Lecture seule :</strong> <strong>Normal</strong></p></td>
 <td><p>Ouvrir le formulaire Liste de produits et afficher les produits du fournisseur actuel.</p></td>
 </tr>
 <tr class="even">

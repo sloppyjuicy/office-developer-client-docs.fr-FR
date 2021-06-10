@@ -38,7 +38,7 @@ Spécifie le groupe d’enregistrements à filtrer depuis un objet [Recordset](r
 <tbody>
 <tr class="odd">
 <td><p><strong>adFilterAffectedRecords</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Filtres pour ne visualiser que les enregistrements affectés par le dernier appel <a href="delete-method-ado-recordset.md">Delete</a>, <a href="resync-method-ado.md">Resync</a>, <a href="updatebatch-method-ado.md">UpdateBatch</a> ou <a href="cancelbatch-method-ado.md">CancelBatch</a>.</p></td>
 </tr>
 <tr class="even">
@@ -48,7 +48,7 @@ Spécifie le groupe d’enregistrements à filtrer depuis un objet [Recordset](r
 </tr>
 <tr class="odd">
 <td><p><strong>adFilterFetchedRecords</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Filtres pour visualiser les enregistrements se trouvant en mémoire cache  —- en fait, les résultats de la dernière extraction d'enregistrements de la base de données.</p></td>
 </tr>
 <tr class="even">
@@ -58,7 +58,7 @@ Spécifie le groupe d’enregistrements à filtrer depuis un objet [Recordset](r
 </tr>
 <tr class="odd">
 <td><p><strong>adFilterPendingRecords</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Filtres permettant de ne visualiser que les enregistrements modifiés mais pas encore envoyés au serveur. Applicables seulement en mode de mise à jour par lots.</p></td>
 </tr>
 </tbody>
