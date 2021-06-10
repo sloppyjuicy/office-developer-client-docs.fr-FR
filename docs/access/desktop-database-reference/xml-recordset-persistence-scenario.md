@@ -100,7 +100,7 @@ Cette étape consiste à écrire le code permettant d'ouvrir un objet **Recordse
 
 Dans cette étape, vous allez créer un fichier HTML avec un [rdS incorporé. Objet DataControl](datacontrol-object-rds.md) qui pointe vers le fichier XMLResponse.asp pour obtenir le **recordset**. 
 
-1. Ouvrez default.htm avec un éditeur de texte, tel que le Bloc-notes Windows, et ajoutez le code suivant. Remplacez « sqlserver » dans l'URL par le nom de votre serveur.
+1. Ouvrez default.htm avec un éditeur de texte, tel que Windows Bloc-notes, et ajoutez le code suivant. Remplacez « sqlserver » dans l'URL par le nom de votre serveur.
 
    ```html 
     
@@ -127,7 +127,7 @@ Dans cette étape, vous allez créer un fichier HTML avec un [rdS incorporé. Ob
 
 3. À l’aide d’Internet Explorer 4.0 ou d’une ultérieure, ouvrez l’URL `https://<sqlserver>/XMLPersist/default.htm` et observez les résultats. Les données s'affichent dans un tableau DHTML lié. 
 
-4. Ouvrez maintenant l’URL `https://<sqlserver>/XMLPersist/XMLResponse.asp` et observez les résultats. Le fichier XML s'affiche.
+4. À présent, ouvrez `https://<sqlserver>/XMLPersist/XMLResponse.asp` l’URL et observez les résultats. Le fichier XML s'affiche.
 
 
 

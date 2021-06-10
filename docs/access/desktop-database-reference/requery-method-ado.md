@@ -24,7 +24,7 @@ Cette méthode met à jour les données d’un objet [Recordset](recordset-objec
 
 *recordset*. Options de *requête*
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 |Nom |Description|
 |:----|:----------|

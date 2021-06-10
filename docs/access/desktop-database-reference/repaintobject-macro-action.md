@@ -24,7 +24,7 @@ ms.locfileid: "32306684"
 
 Vous pouvez utiliser l’action **RedessinerObjet** pour effectuer les mises à jour d’écran en attente pour l’objet de base de données spécifié ou pour celui actif si aucun objet n’est spécifié. Ces mises à jour englobent les nouveaux calculs en attente des contrôles de l’objet.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **RedessinerObjet** accepte les arguments suivants.
 

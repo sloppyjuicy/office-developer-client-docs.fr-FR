@@ -26,7 +26,7 @@ Prise en charge non assurée pour cette collection.
 
 *expression* Variable qui représente un **objet QueryDefs.**
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 <table>
 <colgroup>

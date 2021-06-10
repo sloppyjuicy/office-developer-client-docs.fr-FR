@@ -27,7 +27,7 @@ Vous pouvez utiliser l'action **RestaurerFenêtre** pour rétablir la taille ini
 > [!NOTE]
 > [!REMARQUE] Cette action ne peut pas être appliquée à des fenêtres Code de Visual Basic Editor. Pour plus d'informations sur la modification des fenêtres Code, consultez la rubrique de la propriété **WindowState**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **RestaurerFenêtre** ne possède aucun argument.
 

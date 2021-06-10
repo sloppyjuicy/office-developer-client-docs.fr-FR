@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305865"
 ---
-# <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase, méthode (DAO)
+# <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase method (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* CreateDatabase(***Name,*** ***Connect***, ***Option***)
+*.* CreateDatabase(***Name***, ***Connecter***, ***Option***)
 
 *expression* Variable qui représente un objet **Workspace**.
 

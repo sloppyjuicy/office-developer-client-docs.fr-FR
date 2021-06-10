@@ -1,5 +1,5 @@
 ---
-title: Référence de collection Views (ADOX)
+title: Views, collection - Référence (ADOX)
 TOCTitle: Views collection (ADOX)
 ms:assetid: 7f92e594-160d-4e4d-afc4-e422c2b5b305
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249542(v=office.15)

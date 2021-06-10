@@ -25,7 +25,7 @@ ms.locfileid: "32306397"
 
 L'action **DémarrerNouveauFluxTravail** permet de lancer un nouveau flux de travail pour un élément dans une liste Microsoft SharePoint Foundation liée.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **DémarrerNouveauFluxTravail** utilise les arguments suivants :
 

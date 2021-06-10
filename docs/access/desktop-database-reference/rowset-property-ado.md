@@ -18,7 +18,7 @@ ms.locfileid: "32306740"
 
 **S’applique à** : Access 2013, Office 2013
 
-Récupère ou définit un objet **Rowset** OLE DB sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez la mise en jeu de lignes, le jeu de \_ lignes est transformé en objet **Recordset** ADO.
+Récupère ou définit un objet **Rowset** OLE DB sur un objet **ADORecordsetConstruction**. Lorsque vous utilisez \_ rowset, le jeu de lignes est transformé en objet **Recordset** ADO.
 
 Lecture-écriture.
 

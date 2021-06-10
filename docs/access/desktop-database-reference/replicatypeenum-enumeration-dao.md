@@ -37,12 +37,12 @@ Cette énumération est utilisée avec la méthode **MakeReplica** pour spécifi
 <tbody>
 <tr class="odd">
 <td><p>dbRepMakePartial</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Crée un réplica partiel.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbRepMakeReadOnly</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Affecte l'attribut de lecture seule aux éléments réplicables de la nouvelle base de données.</p></td>
 </tr>
 </tbody>

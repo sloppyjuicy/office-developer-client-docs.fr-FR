@@ -22,7 +22,7 @@ Applique un tri ou un filtre à un objet **Recordset** côté client en fonction
 
 ## <a name="syntax"></a>Syntaxe
 
-*DataControl*. Reset(*valeur*)
+*DataControl*. Reset(*value*)
 
 ## <a name="parameters"></a>Paramètres
 

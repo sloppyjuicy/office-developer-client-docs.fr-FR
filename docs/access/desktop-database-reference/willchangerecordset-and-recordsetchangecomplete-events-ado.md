@@ -18,7 +18,7 @@ ms.locfileid: "32302820"
 
 **S’applique à** : Access 2013, Office 2013
 
-L'événement **WillChangeRecordset** est appelé avant qu'une opération en attente modifie l'objet [Recordset](recordset-object-ado.md). À l’inverse, l’événement **RecordsetChangeComplete** est appelé après cette modification de l’objet **Recordset**.
+L'événement **WillChangeRecordset** est appelé avant qu'une opération en attente modifie l'objet [Recordset](recordset-object-ado.md). À l'inverse, l'événement **RecordsetChangeComplete** est appelé après cette modification de l'objet **Recordset**.
 
 ## <a name="syntax"></a>Syntaxe
 

@@ -28,7 +28,7 @@ L'action **AfficherBarreOutils** permet d'afficher ou de masquer un groupe de co
 > - [!REMARQUE] L'action **AfficherBarreOutils** n'affecte pas les menus contextuels.
 > - Cette action ne sera pas autorisée si la base de données n’est pas approuvée. 
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **AfficherBarreOutils** utilise les arguments suivants :
 

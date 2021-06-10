@@ -20,6 +20,6 @@ ms.locfileid: "32305949"
 
 - [Personnalisation des paramètres du registre Windows pour le moteur de base de données Microsoft Access](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
 - [Initialisation du pilote Microsoft Excel](initializing-the-microsoft-excel-driver.md)
-- [Initialisation du pilote de source de données Microsoft Exchange](initializing-the-microsoft-exchange-data-source-driver.md)
+- [Initialisation du pilote de source Exchange données Microsoft](initializing-the-microsoft-exchange-data-source-driver.md)
 - [Initialisation du pilote de source de données texte](initializing-the-text-data-source-driver.md)
 

@@ -25,7 +25,7 @@ Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.
 
 *.* Count
 
-*expression* Variable qui représente un objet **Workspaces.**
+*expression* Variable qui représente un **objet Workspaces.**
 
 ## <a name="remarks"></a>Remarques
 

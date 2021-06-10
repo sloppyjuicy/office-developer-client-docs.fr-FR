@@ -28,7 +28,7 @@ Les sections suivantes résument les détails pour les programmeurs C et C++ qui
 
 ## <a name="using-the-import-compiler-directive"></a>Utilisation de la \# directive du compilateur d’importation
 
-La directive **\# import** du compilateur Visual C++ simplifie l’travail avec les méthodes et propriétés ADO. La directive extrait le nom d'un fichier contenant une bibliothèque de types, telle que le fichier .dll ADO (Msado15.dll), et génère des fichiers d'en-tête contenant des déclarations typedef, des pointeurs intelligents pour les interfaces, ainsi que des constantes énumérées. Chaque interface est encapsulée dans une classe.
+La directive **\# d’importation** du compilateur Visual C++ simplifie l’travail avec les méthodes et propriétés ADO. La directive extrait le nom d'un fichier contenant une bibliothèque de types, telle que le fichier .dll ADO (Msado15.dll), et génère des fichiers d'en-tête contenant des déclarations typedef, des pointeurs intelligents pour les interfaces, ainsi que des constantes énumérées. Chaque interface est encapsulée dans une classe.
 
 Pour chaque opération qui se produit à l'intérieur d'une classe (c'est-à-dire, un appel de méthode ou de propriété), il existe une déclaration permettant d'appeler directement l'opération (c'est-à-dire, la forme « brute » de l'opération), et une déclaration qui appelle l'opération brute et lève une exception COM si l'opération ne s'exécute pas correctement. Si l'opération est une propriété, il existe généralement une directive de compilateur qui crée une autre syntaxe si l'opération présente une syntaxe apparentée à Visual Basic.
 
@@ -61,13 +61,13 @@ objectPtr->PutProperty(value); // set property value
 variable = objectPtr->GetProperty; // get property value 
 ```
 
-Le compilateur génère l’appel de propriété **Get***-*, **Put**-, ou **PutRef***,* en fonction de la syntaxe alternative déclarée et selon que la propriété est en cours de lecture ou d’écriture.
+Le compilateur génère l’appel de propriété **Get***-*, **Put**-, or **PutRef***Property* approprié en fonction de la syntaxe alternative déclarée et selon que la propriété est en cours de lecture ou d’écriture.
 
-La directive du compilateur **\_ \_ declspec(property...)** peut uniquement  déclarer **obtenir,** placer ou **obtenir** et placer une syntaxe alternative pour une fonction.  Les opérations en lecture seule ne peuvent avoir qu'une déclaration **get** et les opérations en écriture seule une déclaration **put**; les opérations en lecture et en écriture ont à la fois des déclarations **get** et **put**.
+La directive de  **\_ \_ compilateur declspec(property...)** peut uniquement déclarer **obtenir,** placer ou **obtenir** et placer une syntaxe alternative pour une fonction.  Les opérations en lecture seule ne peuvent avoir qu'une déclaration **get** et les opérations en écriture seule une déclaration **put**; les opérations en lecture et en écriture ont à la fois des déclarations **get** et **put**.
 
 Seules deux déclarations sont possibles avec cette directive ; toutefois, chaque propriété peut avoir trois fonctions de propriété : **Get***Property*, **Put***Property* et **PutRef**Property*. Dans ce cas, deux formes seulement de la propriété possèdent une syntaxe alternative.
 
-Par exemple, la propriété **ActiveConnection de** l’objet **Command** est déclarée avec une syntaxe alternative pour **Get***ActiveConnection* et **PutRef***ActiveConnection*. La syntaxe **PutRef**- s'avère un bon choix car, dans la pratique, il est courant de spécifier un objet **Connection** ouvert (c'est-à-dire, un pointeur d'objet **Connection**) dans cette propriété. En revanche, l’objet **Recordset** possède des opérations **Get**-, **Put**-, et **PutRef***ActiveConnection,* mais aucune syntaxe alternative.
+Par exemple, la propriété **ActiveConnection de** l’objet **Command** est déclarée avec une syntaxe alternative pour **Get***ActiveConnection* et **PutRef***ActiveConnection*. La syntaxe **PutRef**- s'avère un bon choix car, dans la pratique, il est courant de spécifier un objet **Connection** ouvert (c'est-à-dire, un pointeur d'objet **Connection**) dans cette propriété. En revanche, l’objet **Recordset** a **des** opérations Get -, **Put**-, et **PutRef***ActiveConnection,* mais aucune syntaxe alternative.
 
 ## <a name="collections-the-getitem-method-and-the-item-property"></a>Collections, méthode GetItem et propriété Item
 
@@ -130,11 +130,11 @@ Cette règle est explicitement vraie lorsque la section **Parameters** des rubri
 
 La **\_ classe bstr \_ t** encapsule et gère le type de données **BSTR.**
 
-Lorsque la référence de l’API ADO indique qu’une méthode ou une propriété prend une valeur **string,** cela signifie que la valeur est sous la forme d’un **\_ bstr \_ t**.
+Lorsque la référence de l’API ADO indique qu’une méthode ou une propriété prend une valeur string, cela signifie que la valeur est sous la forme d’un **\_ bstr \_ t**. 
 
 #### <a name="casting-_variant_t-and-_bstr_t-classes"></a>Casting \_ des \_ classes variant t \_ et bstr \_ t
 
-Souvent, il n’est pas nécessaire de coder explicitement une **\_ variante \_ t** ou **\_ bstr \_ t** dans un argument d’une opération. Si la classe **\_ variant \_ t** ou **\_ bstr \_ t** possède un constructeur qui correspond au type de données de l’argument, le compilateur génère la variante **\_ \_ t** ou **\_ bstr \_ t appropriée.**
+Il n’est souvent pas nécessaire de coder explicitement une **\_ variante \_ t** ou **\_ bstr \_ t** dans un argument d’une opération. Si la classe **\_ variant \_ t** ou **\_ bstr \_ t** possède un constructeur qui correspond au type de données de l’argument, le compilateur génère la variante **\_ \_ t** ou **\_ bstr \_ t appropriée.**
 
 Toutefois, si l'argument est ambigu, c'est-à-dire si le type de données de l'argument correspond à plusieurs constructeurs, vous devez attribuer à l'argument le type de données approprié pour appeler le constructeur correct.
 
@@ -158,7 +158,7 @@ Vous pouvez également coder explicitement une variante **\_ \_ t** contenant un
 
 Bien qu'il s'agisse d'un fait rarement mentionné, il est essentiel de rappeler qu'ADO est une interface IDispatch. Chaque fois qu'un pointeur d'objet ADO doit être passé en tant que **Variant**, ce pointeur doit être converti en pointeur vers une interface IDispatch.
 
-Dans le dernier cas, le deuxième argument booléen du constructeur est explicitement codé avec sa valeur facultative par défaut, true. Cet argument entraîne l’appel de la méthode **AddRef**() par le constructeur **Variant,** ce qui permet à ADO d’appeler automatiquement la méthode **\_ \_ variant t::Release**() une fois l’appel de la méthode ou de la propriété ADO terminé.
+Dans le dernier cas, le deuxième argument booléen du constructeur est explicitement codé avec sa valeur facultative par défaut, true. Cet argument amène le constructeur **Variant** à appeler sa méthode **AddRef**(), ce qui permet à ADO d’appeler automatiquement la méthode **\_ variant \_ t::Release**() une fois l’appel de la méthode ou de la propriété ADO terminé.
 
 ### <a name="safearray"></a>SafeArray
 
@@ -204,13 +204,13 @@ pRecordset->NextRecordset(NULL);
 
 ## <a name="error-handling"></a>Gestion des erreurs
 
-Dans COM, la plupart des opérations renvoient un code de retour HRESULT qui indique si une fonction a été correctement exécutée. La directive **\# d’importation** génère du code de wrapper autour de chaque méthode ou propriété « brute » et vérifie le HRESULT renvoyé. Si HRESULT indique un échec, le code wrapper envoie une erreur COM en appelant \_ com \_ issue errorex() avec le code de retour \_ HRESULT comme argument. Les objets d'erreur COM peuvent être interceptés dans un bloc **try**-**catch**. (Pour plus d’efficacité, capturez une référence à un **\_ objet \_ d’erreur com.)**
+Dans COM, la plupart des opérations renvoient un code de retour HRESULT qui indique si une fonction a été correctement exécutée. La directive **\# d’importation** génère du code de wrapper autour de chaque méthode ou propriété « brute » et vérifie le HRESULT renvoyé. Si HRESULT indique un échec, le code wrapper envoie une erreur COM en appelant \_ com \_ issue errorex() avec le code de retour \_ HRESULT comme argument. Les objets d'erreur COM peuvent être interceptés dans un bloc **try**-**catch**. (Pour plus d’efficacité, capturez une référence à un objet **\_ \_ d’erreur com.)**
 
 Rappelez-vous qu'il s'agit d'erreurs ADO : elles sont le résultat de l'échec d'une opération ADO. Les erreurs retournées par le fournisseur sous-jacent apparaissent en tant qu'objets **Error** dans la collection **Errors** de l'objet **Connection**.
 
 La directive **\# d’importation** crée uniquement des routines de gestion des erreurs pour les méthodes et propriétés déclarées dans le .dll ADO. Toutefois, vous pouvez tirer parti de ce même mécanisme de gestion des erreurs en écrivant votre propre fonction inline ou macro de détection d'erreurs. Vous trouverez des exemples dans la rubrique [Extensions Visual C++ pour ADO](visual-c-extensions-for-ado.md), ou le code présenté dans les sections suivantes.
 
-## <a name="visual-c-equivalents-of-visual-basic-conventions"></a>Équivalents Visual C++ des conventions Visual Basic de la conférence
+## <a name="visual-c-equivalents-of-visual-basic-conventions"></a>Équivalents Visual C++ des conventions Visual Basic de conférence
 
 Vous trouverez ci-dessous un récapitulatif de plusieurs conventions décrites dans la documentation ADO, codées en Visual Basic, ainsi que leurs équivalents en Visual C++.
 
@@ -369,7 +369,7 @@ L’exemple Visual C++ suivant illustre l’utilisation **d’un safeArray** uti
 
 3. Le schéma identifié par la constante répertoriée, **adSchemaColumns**, est associé à quatre colonnes de contrainte : TABLE \_ CATALOG, TABLE \_ SCHEMA, TABLE NAME et \_ COLUMN \_ NAME. Par conséquent, un tableau de valeurs **Variant** avec quatre éléments est créé. Ensuite, une valeur de contrainte qui correspond à la troisième colonne, TABLE \_ NAME, est spécifiée. Le **jeu d’enregistrements** renvoyé se compose de plusieurs colonnes, dont un sous-ensemble est constitué des colonnes de contrainte. Les valeurs des colonnes de contrainte pour chaque ligne renvoyée doivent être identiques aux valeurs de contrainte correspondantes.
 
-4. Ceux qui **connaissent SafeArrays** peuvent être surpris que **SafeArrayDestroy**() ne soit pas appelé avant la sortie. En fait, l’appel **de SafeArrayDestroy**() dans ce cas entraîne une exception d’run-time. La raison est que le destructeur pour vtCriteria appelle **VariantClear**() lorsque la **\_ variante \_ t** sort de la portée, ce qui libère **l’array sécurisé**. **L’appel de SafeArrayDestroy,** sans effacer manuellement la **\_ variante \_ t,** aurait pour effet que le destructeur essaierait d’effacer un pointeur **SafeArray** non valide. Si **SafeArrayDestroy a** été appelé, le code se ressemblerait à ceci :
+4. Ceux qui **connaissent SafeArrays** peuvent être surpris que **SafeArrayDestroy**() ne soit pas appelé avant la sortie. En fait, l’appel **de SafeArrayDestroy**() dans ce cas entraîne une exception d’run-time. La raison est que le destructeur pour vtCriteria appelle **VariantClear**() lorsque la **\_ variante \_ t** sort de la portée, ce qui libère **l’array sécurisé**. **L’appel de SafeArrayDestroy,** sans effacer manuellement la **\_ variante \_ t,** entraînerait la suppression d’un pointeur **SafeArray** non valide par le destructeur. Si **SafeArrayDestroy a** été appelé, le code se ressemblerait à ceci :
     
    ```cpp 
      
@@ -598,7 +598,7 @@ L'exemple Visual C++ suivant illustre l'utilisation de (IDispatch \*) pour effec
 > [!NOTE]
 > [!REMARQUE] Les remarques suivantes correspondent aux sections commentées dans l'exemple de code.
 
-1. Spécifiez un objet **Connection** ouvert dans un **Variant** explicitement codé. Castez-le avec (IDispatch ) afin \* que le constructeur correct soit appelé. Définissez également explicitement le deuxième paramètre de variante **\_ \_ t** sur la valeur par défaut true **,** afin que le nombre de références d’objets soit correct à la fin de l’opération **Recordset::Open.**
+1. Spécifiez un objet **Connection** ouvert dans un **Variant** explicitement codé. Castez-le avec (IDispatch ) afin \* que le constructeur correct soit appelé. Définissez également explicitement le deuxième paramètre de variante **\_ \_ t** sur la valeur par défaut **true,** afin que le nombre de références d’objets soit correct lorsque l’opération **Recordset::Open** se termine.
 
 2. L’expression( bstr t) n’est pas un cast, mais un opérateur de variante t qui extrait une chaîne \_ \_ **\_ bstr \_ t** **\_ \_**  à partir de la variante renvoyée par **Value**. L’expression ( char ) n’est pas un cast, mais un opérateur \* **\_ bstr \_ t** qui extrait un pointeur vers la chaîne encapsulée dans un objet **\_ bstr \_ t.** Cette section de code illustre certains des comportements utiles des opérateurs **\_ de variante \_ t** et **\_ bstr \_ t.**
     

@@ -42,12 +42,12 @@ Spécifie les attributs d’un objet [Property](property-object-ado.md).
 </tr>
 <tr class="even">
 <td><p><strong>adPropRequired</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Indique que l'utilisateur doit spécifier une valeur pour cette propriété avant d'initialiser la source de données.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPropOptional</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Indique que l'utilisateur n'a pas besoin de spécifier une valeur pour cette propriété avant d'initialiser la source de données.</p></td>
 </tr>
 <tr class="even">

@@ -76,7 +76,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydef-cachesize-property-dao.md">CacheSize</a></strong></p></td>
-<td><p>Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. <strong>Long</strong> (en lecture/écriture).</p></td>
+<td><p>Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur <strong>Long</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-connect-property-dao.md">Connect</a></strong></p></td>
@@ -84,7 +84,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Type <strong>Variant</strong> en lecture seule.</p></td>
+<td><p>Renvoie la date et l'heure auxquelles un objet a été créé (espaces de travail Microsoft Access uniquement). Valeur <strong>Variant</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-fields-property-dao.md">Fields</a></strong></p></td>
@@ -107,7 +107,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <td><p>Indique le nombre de secondes d'attente avant que ne survienne une erreur d'expiration lors de l'exécution d'un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong> sur une base de données ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-parameters-property-dao.md">Paramètres</a></strong></p></td>
+<td><p><strong><a href="querydef-parameters-property-dao.md">Parameters</a></strong></p></td>
 <td><p>Renvoie une collection <strong><a href="parameters-collection-dao.md">Parameters</a></strong> qui contient tous les objets <strong><a href="parameter-object-dao.md">Parameter</a></strong> de l'objet <strong>QueryDef</strong> spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
@@ -142,7 +142,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></p></td>
-<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. <strong>Boolean</strong> (en lecture seule).</p></td>
+<td><p>Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données <strong>Boolean</strong> en lecture seule.</p></td>
 </tr>
 </tbody>
 </table>

@@ -23,7 +23,7 @@ Indique l'état actuel de l'ensemble de cellules.
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Retourne un entier de type **Long** qui indique la condition actuelle de l'objet [Cellset](cellset-object-ado-md.md) et est en lecture seule. Les valeurs suivantes sont valides :**adStateClosed** (0) et **adStateOpen** (1).
+Retourne un entier de type **Long** qui indique la condition actuelle de l'objet [Cellset](cellset-object-ado-md.md) et est en lecture seule. Les valeurs suivantes sont valides : **adStateClosed** (0) et **adStateOpen** (1).
 
 ## <a name="remarks"></a>Remarques
 

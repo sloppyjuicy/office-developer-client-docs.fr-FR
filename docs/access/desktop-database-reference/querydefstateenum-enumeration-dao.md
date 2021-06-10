@@ -37,12 +37,12 @@ Cette énumération est utilisée avec la propriété **Prepare** afin de spéci
 <tbody>
 <tr class="odd">
 <td><p>dbQPrepare</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>(Valeur par défaut) L'instruction est préparée (l'API ODBC SQLPrepare est appelée).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbQUnprepare</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>L'instruction n'est pas préparée (l'API ODBC SQLExecDirect est appelée).</p></td>
 </tr>
 </tbody>

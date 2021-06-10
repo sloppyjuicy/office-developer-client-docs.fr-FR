@@ -19,7 +19,7 @@ ms.locfileid: "32302751"
 
 **S’applique à** : Access 2013, Office 2013
 
-La méthode préférée de programmation ADO avec Visual C++ consiste à utiliser la **\# directive** d’importation, comme expliqué dans [Microsoft Visual C++ ADO Programming](visual-c-ado-programming.md). Toutefois, les versions antérieures d’ADO sont livrées avec une autre méthode de programmation à l’aide de Visual C++ : les extensions Visual C++. Cette section documente cette fonctionnalité pour les personnes qui doivent gérer du code Visual C++ Extensions, mais le nouveau code ADO doit être écrit à l’aide de \# **l’importation.**
+La méthode préférée de programmation ADO avec Visual C++ consiste à utiliser la **\# directive** d’importation, comme expliqué dans [Microsoft Visual C++ programmation ADO](visual-c-ado-programming.md). Toutefois, les versions antérieures d’ADO sont livrées avec une autre méthode de programmation à l’aide de Visual C++ : les extensions Visual C++. Cette section documente cette fonctionnalité pour les personnes qui doivent gérer du code Visual C++ Extensions, mais le nouveau code ADO doit être écrit à l’aide de \# **l’importation.**
 
 Une des tâches les plus fastidieuses que doivent entreprendre les programmeurs en Visual C++ pour récupérer les données avec ADO consiste à convertir les données retournées en tant que type VARIANT en données C++, puis à stocker les données converties dans une classe ou une structure. De plus, la récupération des données C++ par l'intermédiaire du type VARIANT nuit aux performances du système.
 

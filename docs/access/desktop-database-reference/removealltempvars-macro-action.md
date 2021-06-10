@@ -26,7 +26,7 @@ ms.locfileid: "32306796"
 
 L’action **SupprimerToutesVarTemp** permet de supprimer toutes les variables temporaires que vous avez créées en utilisant l’action **DéfinirVarTemp**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **SupprimerToutesVarTemp** ne possède aucun argument.
 

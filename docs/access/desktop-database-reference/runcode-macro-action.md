@@ -24,7 +24,7 @@ ms.locfileid: "32306831"
 
 Vous pouvez utiliser l’action **ExécuterCode** pour appeler une procédure Function Visual Basic pour Applications (VBA).
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **ExécuterCode** accepte l’argument suivant.
 
@@ -42,7 +42,7 @@ L’action **ExécuterCode** accepte l’argument suivant.
 <tbody>
 <tr class="odd">
 <td><p><strong>Nom de la fonction</strong></p></td>
-<td><p>Nom de la procédure Function VBA à appeler. Placez tous les arguments de la fonction entre parenthèses. Entrez le nom de la fonction dans la zone <strong>Nom fonction</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Cet argument est obligatoire.</p><p><strong>REMARQUE</strong>: dans une base de données Access (.mdb ou .accdb), cliquez sur le bouton Créer pour utiliser le Générateur d’expressions afin de sélectionner une fonction pour cet argument. <strong></strong> Cliquez sur la fonction de votre choix dans la liste proposée par le Générateur d’expression.</p></td>
+<td><p>Nom de la procédure Function VBA à appeler. Placez tous les arguments de la fonction entre parenthèses. Entrez le nom de la fonction dans la zone <strong>Nom fonction</strong> de la section <strong>Arguments de l’action</strong> du volet Générateur de macro. Cet argument est obligatoire.</p><p><strong>REMARQUE</strong>: dans une base de données Access (.mdb ou .accdb), cliquez sur le bouton Créer pour utiliser le Générateur d’expression afin de sélectionner une fonction pour cet argument. <strong></strong> Cliquez sur la fonction de votre choix dans la liste proposée par le Générateur d’expression.</p></td>
 </tr>
 </tbody>
 </table>

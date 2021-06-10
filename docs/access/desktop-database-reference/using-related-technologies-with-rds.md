@@ -34,5 +34,5 @@ Cette section contient des informations spécifiques sur l'utilisation de RDS av
 
 **Microsoft Internet Explorer** Pour plus d’informations sur Microsoft Internet Explorer, consultez le site web Microsoft Internet Explorer, la bibliothèque MSDN et le site Web Workshop.
 
-**Microsoft Windows NT Server/Windows 2000 Server** Pour plus d’informations sur la sécurité dans Microsoft Windows NT Server ou Windows 2000 Server, voir le site web de Microsoft Windows.
+**Microsoft Windows NT Server/Windows Server 2000** Pour plus d’informations sur la sécurité dans Microsoft Windows NT Server ou Windows Server 2000, consultez le site Windows Microsoft.
 

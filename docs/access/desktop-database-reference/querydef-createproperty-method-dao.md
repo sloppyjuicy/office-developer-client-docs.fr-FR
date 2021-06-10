@@ -60,7 +60,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 <td><p><em>Value</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> contenant la valeur initiale de la propriété. Pour plus <strong><a href="field-value-property-dao.md">d’informations,</a></strong> voir la propriété Value.</p></td>
+<td><p><strong>Variant</strong> contenant la valeur initiale de la propriété. Pour plus d’informations, reportez-vous à la méthode <strong><a href="field-value-property-dao.md">Value</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>DDL</em></p></td>
@@ -82,11 +82,11 @@ Vous pouvez créer un objet utilisateur **Property** uniquement dans la collecti
 
 Si vous omettez une ou plusieurs parties facultatives lorsque vous utilisez **CreateProperty**, vous pouvez utiliser une instruction d'affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d'ajouter le nouvel objet à une collection. Une fois que vous ajoutez l'objet, vous pouvez modifier certains de ses paramètres de propriété mais pas tous. Pour plus d'informations, reportez-vous aux rubriques des propriétés **Name**, **Type** et **Value**.
 
-Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez la **[méthode Append.](fields-append-method-dao.md)**
+Si le nom fait référence à un objet qui est déjà membre de la collection, une erreur d’utilisation se produit lorsque vous utilisez **[la méthode Append.](fields-append-method-dao.md)**
 
 Pour supprimer un objet utilisateur **Property** de la collection, utilisez la méthode **[Delete](fields-delete-method-dao.md)** de la collection **[Properties](properties-collection-dao.md)**. Vous ne pouvez pas supprimer de propriétés intégrées.
 
 > [!NOTE]
-> Si vous omettez l’argument DDL, sa valeur par défaut est False (non DDL). Étant donné qu’aucune propriété DDL correspondante n’est exposée, vous devez supprimer et re-créer un objet **Property** que vous souhaitez remplacer de DDL par un objet non DDL.
+> Si vous omettez l'argument DDL, sa valeur par défaut est False (non DDL). Étant donné qu’aucune propriété DDL correspondante n’est exposée, vous devez supprimer et re-créer un objet **Property** que vous souhaitez remplacer de DDL par un objet non DDL.
 
 

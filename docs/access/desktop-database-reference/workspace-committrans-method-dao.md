@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306033"
 ---
-# <a name="workspacecommittrans-method-dao"></a>Workspace.CommitTrans method (DAO)
+# <a name="workspacecommittrans-method-dao"></a>Workspace.CommitTrans, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 

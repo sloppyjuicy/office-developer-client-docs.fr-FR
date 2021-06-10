@@ -21,7 +21,7 @@ ms.locfileid: "32305900"
 
 
 
-Le [fournisseur OLE DB pour la publication Internet](the-ole-db-provider-for-internet-publishing.md) montre un exemple spécifique d'accès à des données hétérogènes avec ADO. Bien que les exemples de cette section soient spécifiques à l’utilisation du fournisseur de publication Internet, les principes démontrés doivent être similaires lors de l’utilisation d’ADO avec d’autres fournisseurs à des données hétérogènes, telles qu’un fournisseur d’un magasin de courrier.
+Le [fournisseur OLE DB pour la publication Internet](the-ole-db-provider-for-internet-publishing.md) montre un exemple spécifique d'accès à des données hétérogènes avec ADO. Bien que les exemples de cette section soient spécifiques à l’utilisation du fournisseur de publication Internet, les principes démontrés doivent être similaires lors de l’utilisation d’ADO avec d’autres fournisseurs à des données hétérogènes, telles qu’un fournisseur vers un magasin de courrier.
 
 ## <a name="urls"></a>URL
 

@@ -24,7 +24,7 @@ ms.locfileid: "32306502"
 
 Vous pouvez utiliser l’action **ExécuterCommandeMenu** pour exécuter une commande Microsoft Office Access.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **ExécuterCommandeMenu** utilise l’argument d’action suivant :
 

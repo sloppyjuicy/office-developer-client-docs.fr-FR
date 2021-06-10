@@ -38,7 +38,7 @@ Indique la règle à appliquer en cas de suppression d’un objet [Key](key-obje
 <tbody>
 <tr class="odd">
 <td><p><strong>adRICascade</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Modifications en cascade.</p></td>
 </tr>
 <tr class="even">
@@ -48,12 +48,12 @@ Indique la règle à appliquer en cas de suppression d’un objet [Key](key-obje
 </tr>
 <tr class="odd">
 <td><p><strong>adRISetDefault</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>La clé étrangère a la valeur par défaut.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRISetNull</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>La clé étrangère a la valeur Null.</p></td>
 </tr>
 </tbody>

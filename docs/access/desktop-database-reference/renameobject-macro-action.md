@@ -27,7 +27,7 @@ Vous pouvez utiliser l'action **RenommerObjet** pour renommer un objet de base d
 > [!NOTE]
 > Cette action ne sera pas autorisée si la base de données n’est pas approuvée.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **RenommerObjet** utilise les arguments suivants :
 
@@ -53,7 +53,9 @@ L’action **RenommerObjet** utilise les arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>Ancien nom</strong></p></td>
-<td><p>Nom de l’objet à renommer. La zone <strong>Ancien nom</strong> affiche tous les objets dans la base de données dont le type correspond à celui sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez cet argument également vide.</p><p><strong>REMARQUE</strong>: si vous exécutez une macro contenant <STRONG>l’action</STRONG> Renommer dans une base de données bibliothèque, Microsoft Access recherche d’abord l’objet de ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
+<td><p>Nom de l’objet à renommer. La zone <strong>Ancien nom</strong> affiche tous les objets dans la base de données dont le type correspond à celui sélectionné par l’argument <strong>Type d’objet</strong>. Si vous laissez l’argument <strong>Type d’objet</strong> vide, laissez cet argument également vide. 
+
+</p><p><strong>REMARQUE</strong>: si vous exécutez une macro contenant <STRONG>l’action</STRONG> Renommer dans une base de données bibliothèque, Microsoft Access recherche d’abord l’objet de ce nom dans la base de données bibliothèque, puis dans la base de données actuelle.</p></td>
 </tr>
 </tbody>
 </table>

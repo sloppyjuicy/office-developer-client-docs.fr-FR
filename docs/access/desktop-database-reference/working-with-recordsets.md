@@ -56,7 +56,7 @@ Seul un nom de colonne unique peut être spécifié comme critère. En effet, ce
 
 L’opérateur de comparaison pour le critère peut être « ( supérieur à **\>** ), » (inférieur à), « = » (égal à), « = » (supérieur ou égal), « = » (inférieur ou égal à), « (inférieur ou égal **\<** \> à), » (non égal) ou « LIKE » \< \< \> (correspondance de modèle).
 
-La valeur du critère doit être une chaîne, un nombre à virgule flottante ou une date. Les valeurs de chaîne sont délimitées par des guillemets simples ou des signes « (signe de \# nombre) (par exemple, « state = 'WA' » ou « state = \# WA \# »). Les valeurs de date sont délimitées par des signes « (signe de nombre) » (par exemple, « date de début \# \_ \> \# 22/07/97 \# »).
+La valeur du critère doit être une chaîne, un nombre à virgule flottante ou une date. Les valeurs de chaîne sont délimitées par des guillemets simples ou des signes « (di diété) ( par exemple, « \# state = 'WA' » ou « state = WA \# \# »). Les valeurs de date sont délimitées par des signes « (di diété) » (par exemple, « date de début \# \_ \> \# 22/07/97 \# »).
 
 Si l'opérateur de comparaison est « like », la valeur de la chaîne peut contenir un astérisque (\*) pour rechercher une ou plusieurs occurrences d'un caractère ou d'une sous-chaîne. Par exemple, « state like 'M\*' » correspond à Maine et Massachusetts. Vous pouvez également utiliser des astérisques au début et à la fin pour rechercher une sous-chaîne dans les valeurs. Par exemple, « state like '\*as\* » correspond à Alaska, Arkansas et Massachusetts.
 
@@ -114,7 +114,7 @@ Le filtre doit être construit comme suit :
 (LastName = 'Smith' AND FirstName = 'John') OR (LastName = 'Jones' AND FirstName = 'John') 
 ```
 
-Dans une clause LIKE, vous pouvez utiliser un caractère générique au début et à la fin du modèle (par exemple, LastName Like 'mit') ou uniquement à la fin du modèle (par exemple, ) ou uniquement à la fin du modèle \* \* (par exemple, LastName Like 'Smit \* ').
+Dans une clause LIKE, vous pouvez utiliser un caractère générique au début et à la fin du modèle (par exemple, LastName Like 'mit') ou uniquement à la fin du modèle (par exemple) ou uniquement à la fin du modèle \* \* (par exemple, LastName Like 'Smit \* ').
 
 ### <a name="filtering-with-a-constant"></a>Filtrage avec une constante
 
@@ -157,7 +157,7 @@ Les constantes suivantes sont disponibles pour le filtrage des objets **Recordse
 
 <br/>
 
-Les constantes de filtre simplifient la résolution des conflits d'enregistrements individuels pendant le mode de mise à jour par lot en vous permettant de n'afficher, par exemple, que les enregistrements affectés par le dernier appel de la méthode **UpdateBatch**, comme illustré dans l'exemple suivant :
+Les constantes de filtre simplifient la résolution des conflits d'enregistrements individuels pendant le mode de mise à jour par lot en vous permettant de n'afficher, par exemple, que les enregistrements affectés par le dernier appel de la méthode **UpdateBatch**, comme illustré dans l'exemple suivant :
 
 ```vb 
  

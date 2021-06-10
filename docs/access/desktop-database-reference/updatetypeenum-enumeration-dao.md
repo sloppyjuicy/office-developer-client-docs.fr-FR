@@ -42,12 +42,12 @@ Cette énumération est utilisée avec la méthode **Update** pour spécifier le
 </tr>
 <tr class="even">
 <td><p>dbUpdateCurrentRecord</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Seules les modifications en attente de l'enregistrement actif sont écrites sur le disque.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbUpdateRegular</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>(Valeur par défaut) Les modifications en attente ne sont pas mises en cache. Elles sont écrites immédiatement sur le disque.</p></td>
 </tr>
 </tbody>

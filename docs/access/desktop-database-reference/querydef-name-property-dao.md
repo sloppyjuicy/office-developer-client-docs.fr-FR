@@ -19,7 +19,7 @@ ms.locfileid: "32302855"
 
 **S’applique à** : Access 2013, Office 2013
 
-Cette propriété renvoie ou définit le nom de l'objet spécifié. **String** en lecture/écriture.
+Cette propriété renvoie ou définit le nom de l'objet spécifié. En lecture/écriture, **chaîne**.
 
 ## <a name="syntax"></a>Syntaxe
 

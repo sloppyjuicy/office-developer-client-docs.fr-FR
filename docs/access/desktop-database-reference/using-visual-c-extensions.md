@@ -112,7 +112,7 @@ _**Entrées de liaison de fin**_
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Paramètre</p></th>
+<th><p>Parameter</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -151,7 +151,7 @@ _**Entrées de liaison de fin**_
 <td><p>Nombre de chiffres pouvant être représenté dans une variable numérique.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>´Mise à l’échelle</em></p></td>
+<td><p><em>Scale</em></p></td>
 <td><p>Nombre de décimales dans une variable numérique.</p></td>
 </tr>
 <tr class="even">
@@ -189,17 +189,17 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="even">
 <td><p><strong>adFldBadAccessor</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Liaison non valide.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldCantConvertValue</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>La valeur n'a pas pu être convertie pour une raison autre qu'une non correspondance de signes ou un dépassement de capacité.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldNull</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Lors de l'obtention d'un champ, indique qu'une valeur null a été retournée. Lors de la définition d'un champ, indique que le champ doit être affecté de la valeur <strong>NULL</strong> lorsqu'il ne peut pas coder lui-même la valeur <strong>NULL</strong> (par exemple, un tableau de caractères ou un nombre entier).</p></td>
 </tr>
 <tr class="odd">
@@ -234,7 +234,7 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="odd">
 <td><p><strong>adFldIntegrityViolation</strong></p></td>
-<td><p>10 </p></td>
+<td><p>10</p></td>
 <td><p>Lors d'une mise à jour, la valeur du champ enfreint l'intégrité de la colonne.</p></td>
 </tr>
 <tr class="even">
@@ -249,7 +249,7 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="even">
 <td><p><strong>adFldDefault</strong></p></td>
-<td><p>13 </p></td>
+<td><p>13</p></td>
 <td><p>Lors d'une mise à jour, une valeur par défaut a été utilisée.</p></td>
 </tr>
 </tbody>

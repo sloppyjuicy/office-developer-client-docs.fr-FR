@@ -25,7 +25,7 @@ ms.locfileid: "32306005"
 
 L’action **TâchesFluxTravail** permet d’afficher la boîte de dialogue **Tâche du flux de travail**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **TâchesFluxTravail** utilise l’argument suivant :
 

@@ -27,7 +27,7 @@ ms.locfileid: "32306754"
 
 L’action **SupprimerVarTemp** permet de supprimer une seule variable temporaire que vous avez créée en utilisant l’action **DéfinirVarTemp**.
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **SupprimerVarTemp** possède l’argument suivant.
 
