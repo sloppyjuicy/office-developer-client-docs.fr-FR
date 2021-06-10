@@ -14,26 +14,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308434"
 ---
-# <a name="table-properties-methods-and-events-adox"></a><span data-ttu-id="a27eb-102">Table properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="a27eb-102">Table properties, methods, and events (ADOX)</span></span>
+# <a name="table-properties-methods-and-events-adox"></a><span data-ttu-id="4cbb6-102">Table properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="4cbb6-102">Table properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="a27eb-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a27eb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4cbb6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4cbb6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="a27eb-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="a27eb-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="4cbb6-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="4cbb6-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="a27eb-105">DateCreated, propriété</span><span class="sxs-lookup"><span data-stu-id="a27eb-105">DateCreated property</span></span>](datecreated-property-adox.md)
-- [<span data-ttu-id="a27eb-106">DateModified, propriété</span><span class="sxs-lookup"><span data-stu-id="a27eb-106">DateModified property</span></span>](datemodified-property-adox.md)
-- [<span data-ttu-id="a27eb-107">Indexes, collection</span><span class="sxs-lookup"><span data-stu-id="a27eb-107">Indexes collection</span></span>](indexes-collection-adox.md)
-- [<span data-ttu-id="a27eb-108">Keys, collection</span><span class="sxs-lookup"><span data-stu-id="a27eb-108">Keys collection</span></span>](keys-collection-adox.md)
-- [<span data-ttu-id="a27eb-109">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="a27eb-109">Name property</span></span>](name-property-adox.md)
-- [<span data-ttu-id="a27eb-110">ParentCatalog, propriété</span><span class="sxs-lookup"><span data-stu-id="a27eb-110">ParentCatalog property</span></span>](parentcatalog-property-adox.md)
-- [<span data-ttu-id="a27eb-111">Type, propriété (Table)</span><span class="sxs-lookup"><span data-stu-id="a27eb-111">Type property (Table)</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
+- [<span data-ttu-id="4cbb6-105">DateCreated, propriété</span><span class="sxs-lookup"><span data-stu-id="4cbb6-105">DateCreated property</span></span>](datecreated-property-adox.md)
+- [<span data-ttu-id="4cbb6-106">DateModified, propriété</span><span class="sxs-lookup"><span data-stu-id="4cbb6-106">DateModified property</span></span>](datemodified-property-adox.md)
+- [<span data-ttu-id="4cbb6-107">Indexes, collection</span><span class="sxs-lookup"><span data-stu-id="4cbb6-107">Indexes collection</span></span>](indexes-collection-adox.md)
+- [<span data-ttu-id="4cbb6-108">Keys, collection</span><span class="sxs-lookup"><span data-stu-id="4cbb6-108">Keys collection</span></span>](keys-collection-adox.md)
+- [<span data-ttu-id="4cbb6-109">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="4cbb6-109">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="4cbb6-110">ParentCatalog, propriété</span><span class="sxs-lookup"><span data-stu-id="4cbb6-110">ParentCatalog property</span></span>](parentcatalog-property-adox.md)
+- [<span data-ttu-id="4cbb6-111">Type, propriété (Table)</span><span class="sxs-lookup"><span data-stu-id="4cbb6-111">Type property (Table)</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
 
 
-## <a name="methods"></a><span data-ttu-id="a27eb-112">Méthodes</span><span class="sxs-lookup"><span data-stu-id="a27eb-112">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="4cbb6-112">Méthodes</span><span class="sxs-lookup"><span data-stu-id="4cbb6-112">Methods</span></span>
 
-<span data-ttu-id="a27eb-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="a27eb-113">None.</span></span>
+<span data-ttu-id="4cbb6-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="4cbb6-113">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="a27eb-114">Événements</span><span class="sxs-lookup"><span data-stu-id="a27eb-114">Events</span></span>
+## <a name="events"></a><span data-ttu-id="4cbb6-114">Événements</span><span class="sxs-lookup"><span data-stu-id="4cbb6-114">Events</span></span>
 
-<span data-ttu-id="a27eb-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="a27eb-115">None.</span></span>
+<span data-ttu-id="4cbb6-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="4cbb6-115">None.</span></span>
 

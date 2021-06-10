@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282536"
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a><span data-ttu-id="70c3c-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction, propriétés – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="70c3c-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a><span data-ttu-id="24d42-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction, propriétés – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="24d42-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)</span></span>
 
-<span data-ttu-id="70c3c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="70c3c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="24d42-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="24d42-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="70c3c-104">Cet exemple utilise les propriétés [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) et [Direction](direction-property-ado.md) pour exécuter une procédure stockée.</span><span class="sxs-lookup"><span data-stu-id="70c3c-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+<span data-ttu-id="24d42-104">Cet exemple utilise les propriétés [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md) et [Direction](direction-property-ado.md) pour exécuter une procédure stockée.</span><span class="sxs-lookup"><span data-stu-id="24d42-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```java 
  

@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283302"
 ---
-# <a name="ado-md-enumerated-constants"></a><span data-ttu-id="21d0c-102">Constantes énumérées MD ADO</span><span class="sxs-lookup"><span data-stu-id="21d0c-102">ADO MD enumerated constants</span></span>
+# <a name="ado-md-enumerated-constants"></a><span data-ttu-id="6d4a3-102">Constantes énumérées MD ADO</span><span class="sxs-lookup"><span data-stu-id="6d4a3-102">ADO MD enumerated constants</span></span>
 
-<span data-ttu-id="21d0c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="21d0c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6d4a3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d4a3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="21d0c-p101">Pour faciliter le débogage, les constantes énumérées ADO MD répertorient une valeur pour chaque constante. Cependant, cette valeur est purement indicative et peut changer d'une version d'ADO MD à l'autre. Votre code doit uniquement dépendre du nom, et non de la valeur réelle, des constantes énumérées.</span><span class="sxs-lookup"><span data-stu-id="21d0c-p101">To assist debugging, the ADO MD enumerated constants list a value for each constant. However, this value is purely advisory, and may change from one release of ADO MD to another. Your code should only depend on the name, not the actual value, of enumerated constants.</span></span>
+<span data-ttu-id="6d4a3-p101">Pour faciliter le débogage, les constantes énumérées ADO MD répertorient une valeur pour chaque constante. Cependant, cette valeur est purement indicative et peut changer d'une version d'ADO MD à l'autre. Votre code doit uniquement dépendre du nom, et non de la valeur réelle, des constantes énumérées.</span><span class="sxs-lookup"><span data-stu-id="6d4a3-p101">To assist debugging, the ADO MD enumerated constants list a value for each constant. However, this value is purely advisory, and may change from one release of ADO MD to another. Your code should only depend on the name, not the actual value, of enumerated constants.</span></span>
 
-<span data-ttu-id="21d0c-107">L’éumération suivante est définie :</span><span class="sxs-lookup"><span data-stu-id="21d0c-107">The following enumeration is defined:</span></span>
+<span data-ttu-id="6d4a3-107">L’éumération suivante est définie :</span><span class="sxs-lookup"><span data-stu-id="6d4a3-107">The following enumeration is defined:</span></span>
 
-- [<span data-ttu-id="21d0c-108">MemberTypeEnum</span><span class="sxs-lookup"><span data-stu-id="21d0c-108">MemberTypeEnum</span></span>](membertypeenum.md)
+- [<span data-ttu-id="6d4a3-108">MemberTypeEnum</span><span class="sxs-lookup"><span data-stu-id="6d4a3-108">MemberTypeEnum</span></span>](membertypeenum.md)
 

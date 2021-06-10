@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282837"
 ---
-# <a name="adox-api-reference"></a><span data-ttu-id="c5d78-102">Référence des API ADOX</span><span class="sxs-lookup"><span data-stu-id="c5d78-102">ADOX API reference</span></span>
+# <a name="adox-api-reference"></a><span data-ttu-id="bcfb0-102">Référence des API ADOX</span><span class="sxs-lookup"><span data-stu-id="bcfb0-102">ADOX API reference</span></span>
 
-<span data-ttu-id="c5d78-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c5d78-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bcfb0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bcfb0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c5d78-p101">Cette section de la documentation ADOX contient des rubriques pour chaque objet, collection, méthode et propriété ADOX, ainsi qu'un exemple de code, le cas échéant. Pour plus d'informations, recherchez une rubrique spécifique dans l'index ou reportez-vous aux rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="c5d78-p101">This section of the ADOX documentation contains topics for each ADOX object, collection, method, and property, as well as example code when appropriate. For more information, search for a specific topic in the index or refer to the following topics:</span></span>
+<span data-ttu-id="bcfb0-p101">Cette section de la documentation ADOX contient des rubriques pour chaque objet, collection, méthode et propriété ADOX, ainsi qu'un exemple de code, le cas échéant. Pour plus d'informations, recherchez une rubrique spécifique dans l'index ou reportez-vous aux rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="bcfb0-p101">This section of the ADOX documentation contains topics for each ADOX object, collection, method, and property, as well as example code when appropriate. For more information, search for a specific topic in the index or refer to the following topics:</span></span>
 
-- [<span data-ttu-id="c5d78-106">Objets ADOX</span><span class="sxs-lookup"><span data-stu-id="c5d78-106">ADOX objects</span></span>](adox-objects.md)
-- [<span data-ttu-id="c5d78-107">Collections ADOX</span><span class="sxs-lookup"><span data-stu-id="c5d78-107">ADOX collections</span></span>](adox-collections.md)
-- [<span data-ttu-id="c5d78-108">Propriétés ADOX</span><span class="sxs-lookup"><span data-stu-id="c5d78-108">ADOX properties</span></span>](adox-properties.md)
-- [<span data-ttu-id="c5d78-109">Méthodes ADOX</span><span class="sxs-lookup"><span data-stu-id="c5d78-109">ADOX methods</span></span>](adox-methods.md)
-- [<span data-ttu-id="c5d78-110">Constantes énumérées ADOX</span><span class="sxs-lookup"><span data-stu-id="c5d78-110">ADOX enumerated constants</span></span>](adox-enumerated-constants.md)
-- [<span data-ttu-id="c5d78-111">Exemples de code ADOX</span><span class="sxs-lookup"><span data-stu-id="c5d78-111">ADOX code examples</span></span>](adox-code-examples.md)
+- [<span data-ttu-id="bcfb0-106">Objets ADOX</span><span class="sxs-lookup"><span data-stu-id="bcfb0-106">ADOX objects</span></span>](adox-objects.md)
+- [<span data-ttu-id="bcfb0-107">Collections ADOX</span><span class="sxs-lookup"><span data-stu-id="bcfb0-107">ADOX collections</span></span>](adox-collections.md)
+- [<span data-ttu-id="bcfb0-108">Propriétés ADOX</span><span class="sxs-lookup"><span data-stu-id="bcfb0-108">ADOX properties</span></span>](adox-properties.md)
+- [<span data-ttu-id="bcfb0-109">Méthodes ADOX</span><span class="sxs-lookup"><span data-stu-id="bcfb0-109">ADOX methods</span></span>](adox-methods.md)
+- [<span data-ttu-id="bcfb0-110">Constantes énumérées ADOX</span><span class="sxs-lookup"><span data-stu-id="bcfb0-110">ADOX enumerated constants</span></span>](adox-enumerated-constants.md)
+- [<span data-ttu-id="bcfb0-111">Exemples de code ADOX</span><span class="sxs-lookup"><span data-stu-id="bcfb0-111">ADOX code examples</span></span>](adox-code-examples.md)
 

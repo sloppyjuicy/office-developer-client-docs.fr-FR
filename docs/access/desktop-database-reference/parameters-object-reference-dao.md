@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287831"
 ---
-# <a name="parameters-object-reference-dao"></a><span data-ttu-id="3bab7-102">Parameters object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bab7-102">Parameters object reference (DAO)</span></span>
+# <a name="parameters-object-reference-dao"></a><span data-ttu-id="64765-102">Parameters object reference (DAO)</span><span class="sxs-lookup"><span data-stu-id="64765-102">Parameters object reference (DAO)</span></span>
 
-<span data-ttu-id="3bab7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3bab7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="64765-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="64765-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3bab7-104">Parameters, collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bab7-104">Parameters collection (DAO)</span></span>](parameters-collection-dao.md)
-- [<span data-ttu-id="3bab7-105">Parameters members (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bab7-105">Parameters members (DAO)</span></span>](parameters-members-dao.md)
-- [<span data-ttu-id="3bab7-106">Parameters properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bab7-106">Parameters properties (DAO)</span></span>](parameters-properties-dao.md)
-- [<span data-ttu-id="3bab7-107">Parameters methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bab7-107">Parameters methods (DAO)</span></span>](parameters-methods-dao.md)
+- [<span data-ttu-id="64765-104">Parameters, collection (DAO)</span><span class="sxs-lookup"><span data-stu-id="64765-104">Parameters collection (DAO)</span></span>](parameters-collection-dao.md)
+- [<span data-ttu-id="64765-105">Parameters members (DAO)</span><span class="sxs-lookup"><span data-stu-id="64765-105">Parameters members (DAO)</span></span>](parameters-members-dao.md)
+- [<span data-ttu-id="64765-106">Parameters properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="64765-106">Parameters properties (DAO)</span></span>](parameters-properties-dao.md)
+- [<span data-ttu-id="64765-107">Parameters methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="64765-107">Parameters methods (DAO)</span></span>](parameters-methods-dao.md)
 

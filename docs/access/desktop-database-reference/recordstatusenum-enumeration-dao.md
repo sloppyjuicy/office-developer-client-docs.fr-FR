@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309233"
 ---
-# <a name="recordstatusenum-enumeration-dao"></a><span data-ttu-id="13543-102">RecordStatusEnum, éumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="13543-102">RecordStatusEnum enumeration (DAO)</span></span>
+# <a name="recordstatusenum-enumeration-dao"></a><span data-ttu-id="c573b-102">RecordStatusEnum, éumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="c573b-102">RecordStatusEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="13543-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="13543-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c573b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c573b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="13543-104">Cette énumération est utilisée avec la propriété **RecordStatus** pour indiquer l'état de mise à jour de l'enregistrement actif s'il fait partie d'une mise à jour par lot.</span><span class="sxs-lookup"><span data-stu-id="13543-104">Used with the **RecordStatus** property to indicate the update status of the current record if it is part of a batch update.</span></span>
+<span data-ttu-id="c573b-104">Cette énumération est utilisée avec la propriété **RecordStatus** pour indiquer l'état de mise à jour de l'enregistrement actif s'il fait partie d'une mise à jour par lot.</span><span class="sxs-lookup"><span data-stu-id="c573b-104">Used with the **RecordStatus** property to indicate the update status of the current record if it is part of a batch update.</span></span>
 
 <table>
 <colgroup>
@@ -29,36 +29,36 @@ ms.locfileid: "32309233"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="13543-105">Nom</span><span class="sxs-lookup"><span data-stu-id="13543-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="13543-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="13543-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="13543-107">Description</span><span class="sxs-lookup"><span data-stu-id="13543-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="c573b-105">Nom</span><span class="sxs-lookup"><span data-stu-id="c573b-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="c573b-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="c573b-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="c573b-107">Description</span><span class="sxs-lookup"><span data-stu-id="c573b-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="13543-108">dbRecordDBDeleted</span><span class="sxs-lookup"><span data-stu-id="13543-108">dbRecordDBDeleted</span></span></p></td>
-<td><p><span data-ttu-id="13543-109">4 </span><span class="sxs-lookup"><span data-stu-id="13543-109">4</span></span></p></td>
-<td><p><span data-ttu-id="13543-110">L'enregistrement a été supprimé localement dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="13543-110">The record has been deleted locally and in the database.</span></span></p></td>
+<td><p><span data-ttu-id="c573b-108">dbRecordDBDeleted</span><span class="sxs-lookup"><span data-stu-id="c573b-108">dbRecordDBDeleted</span></span></p></td>
+<td><p><span data-ttu-id="c573b-109">4 </span><span class="sxs-lookup"><span data-stu-id="c573b-109">4</span></span></p></td>
+<td><p><span data-ttu-id="c573b-110">L'enregistrement a été supprimé localement dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="c573b-110">The record has been deleted locally and in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="13543-111">dbRecordDeleted</span><span class="sxs-lookup"><span data-stu-id="13543-111">dbRecordDeleted</span></span></p></td>
-<td><p><span data-ttu-id="13543-112">3 </span><span class="sxs-lookup"><span data-stu-id="13543-112">3</span></span></p></td>
-<td><p><span data-ttu-id="13543-113">L'enregistrement a été supprimé, mais il n'a pas encore été supprimé de la base de données.</span><span class="sxs-lookup"><span data-stu-id="13543-113">The record has been deleted, but not yet deleted in the database.</span></span></p></td>
+<td><p><span data-ttu-id="c573b-111">dbRecordDeleted</span><span class="sxs-lookup"><span data-stu-id="c573b-111">dbRecordDeleted</span></span></p></td>
+<td><p><span data-ttu-id="c573b-112">3</span><span class="sxs-lookup"><span data-stu-id="c573b-112">3</span></span></p></td>
+<td><p><span data-ttu-id="c573b-113">L'enregistrement a été supprimé, mais il n'a pas encore été supprimé de la base de données.</span><span class="sxs-lookup"><span data-stu-id="c573b-113">The record has been deleted, but not yet deleted in the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="13543-114">dbRecordModified</span><span class="sxs-lookup"><span data-stu-id="13543-114">dbRecordModified</span></span></p></td>
-<td><p><span data-ttu-id="13543-115">1 </span><span class="sxs-lookup"><span data-stu-id="13543-115">1</span></span></p></td>
-<td><p><span data-ttu-id="13543-116">L'enregistrement a été modifié, mais il n'a pas été mis à jour dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="13543-116">The record has been modified and not updated in the database.</span></span></p></td>
+<td><p><span data-ttu-id="c573b-114">dbRecordModified</span><span class="sxs-lookup"><span data-stu-id="c573b-114">dbRecordModified</span></span></p></td>
+<td><p><span data-ttu-id="c573b-115">1</span><span class="sxs-lookup"><span data-stu-id="c573b-115">1</span></span></p></td>
+<td><p><span data-ttu-id="c573b-116">L'enregistrement a été modifié, mais il n'a pas été mis à jour dans la base de données.</span><span class="sxs-lookup"><span data-stu-id="c573b-116">The record has been modified and not updated in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="13543-117">dbRecordNew</span><span class="sxs-lookup"><span data-stu-id="13543-117">dbRecordNew</span></span></p></td>
-<td><p><span data-ttu-id="13543-118">2 </span><span class="sxs-lookup"><span data-stu-id="13543-118">2</span></span></p></td>
-<td><p><span data-ttu-id="13543-119">L'enregistrement a été ajouté à l'aide de la méthode <strong>AddNew</strong>, mais il n'a pas été encore ajouté à la base de données.</span><span class="sxs-lookup"><span data-stu-id="13543-119">The record has been inserted with the <strong>AddNew</strong> method, but not yet inserted into the database.</span></span></p></td>
+<td><p><span data-ttu-id="c573b-117">dbRecordNew</span><span class="sxs-lookup"><span data-stu-id="c573b-117">dbRecordNew</span></span></p></td>
+<td><p><span data-ttu-id="c573b-118">2</span><span class="sxs-lookup"><span data-stu-id="c573b-118">2</span></span></p></td>
+<td><p><span data-ttu-id="c573b-119">L'enregistrement a été ajouté à l'aide de la méthode <strong>AddNew</strong>, mais il n'a pas été encore ajouté à la base de données.</span><span class="sxs-lookup"><span data-stu-id="c573b-119">The record has been inserted with the <strong>AddNew</strong> method, but not yet inserted into the database.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="13543-120">dbRecordUnmodified</span><span class="sxs-lookup"><span data-stu-id="13543-120">dbRecordUnmodified</span></span></p></td>
-<td><p><span data-ttu-id="13543-121">0</span><span class="sxs-lookup"><span data-stu-id="13543-121">0</span></span></p></td>
-<td><p><span data-ttu-id="13543-122">(Valeur par défaut) L'enregistrement n'a pas été modifié ou il a été mis à jour.</span><span class="sxs-lookup"><span data-stu-id="13543-122">(Default) The record has not been modified or has been updated successfully.</span></span></p></td>
+<td><p><span data-ttu-id="c573b-120">dbRecordUnmodified</span><span class="sxs-lookup"><span data-stu-id="c573b-120">dbRecordUnmodified</span></span></p></td>
+<td><p><span data-ttu-id="c573b-121">0</span><span class="sxs-lookup"><span data-stu-id="c573b-121">0</span></span></p></td>
+<td><p><span data-ttu-id="c573b-122">(Valeur par défaut) L'enregistrement n'a pas été modifié ou il a été mis à jour.</span><span class="sxs-lookup"><span data-stu-id="c573b-122">(Default) The record has not been modified or has been updated successfully.</span></span></p></td>
 </tr>
 </tbody>
 </table>

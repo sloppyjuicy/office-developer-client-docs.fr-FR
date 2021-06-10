@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281838"
 ---
-# <a name="ado-code-examples-in-microsoft-visual-basic-scripting-edition"></a><span data-ttu-id="40bf9-102">Exemples de code ADO dans Microsoft Visual Basic Scripting Edition</span><span class="sxs-lookup"><span data-stu-id="40bf9-102">ADO code examples in Microsoft Visual Basic Scripting Edition</span></span>
+# <a name="ado-code-examples-in-microsoft-visual-basic-scripting-edition"></a><span data-ttu-id="b65e6-102">Exemples de code ADO dans Microsoft Visual Basic Scripting Edition</span><span class="sxs-lookup"><span data-stu-id="b65e6-102">ADO code examples in Microsoft Visual Basic Scripting Edition</span></span>
 
-<span data-ttu-id="40bf9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="40bf9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b65e6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b65e6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="40bf9-104">Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes ADO lorsque vous écrivez du code en Visual Basic Scripting Edition (VBScript).</span><span class="sxs-lookup"><span data-stu-id="40bf9-104">Use the following code examples to learn about how to use the ADO methods when writing in Visual Basic Scripting Edition (VBScript).</span></span>
+<span data-ttu-id="b65e6-104">Utilisez les exemples de code suivants pour apprendre à utiliser les méthodes ADO lorsque vous écrivez du code en Visual Basic Scripting Edition (VBScript).</span><span class="sxs-lookup"><span data-stu-id="b65e6-104">Use the following code examples to learn about how to use the ADO methods when writing in Visual Basic Scripting Edition (VBScript).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="40bf9-p101">[!REMARQUE] Collez l'exemple de code entier, du début à la fin, dans votre éditeur de code. L'exemple risque de ne pas s'exécuter correctement s'il est copié partiellement ou si la mise en forme de paragraphes n'est pas respectée.</span><span class="sxs-lookup"><span data-stu-id="40bf9-p101">Paste the entire code example, from beginning to end, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.</span></span>
+> <span data-ttu-id="b65e6-p101">[!REMARQUE] Collez l'exemple de code entier, du début à la fin, dans votre éditeur de code. L'exemple risque de ne pas s'exécuter correctement s'il est copié partiellement ou si la mise en forme de paragraphes n'est pas respectée.</span><span class="sxs-lookup"><span data-stu-id="b65e6-p101">Paste the entire code example, from beginning to end, into your code editor. The example may not run correctly if partial examples are used or if paragraph formatting is lost.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="40bf9-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="40bf9-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="b65e6-107">Méthodes</span><span class="sxs-lookup"><span data-stu-id="b65e6-107">Methods</span></span>
 
-- [<span data-ttu-id="40bf9-108">AddNew, méthode - Exemple</span><span class="sxs-lookup"><span data-stu-id="40bf9-108">AddNew method example</span></span>](addnew-method-example-vbscript.md)
-- [<span data-ttu-id="40bf9-109">Clone, méthode - Exemple</span><span class="sxs-lookup"><span data-stu-id="40bf9-109">Clone method example</span></span>](clone-method-example-vbscript.md)
-- [<span data-ttu-id="40bf9-110">Delete, méthode - Exemple</span><span class="sxs-lookup"><span data-stu-id="40bf9-110">Delete method example</span></span>](delete-method-example-vbscript.md)
-- [<span data-ttu-id="40bf9-111">Execute, Requery et Clear, méthodes - Exemple</span><span class="sxs-lookup"><span data-stu-id="40bf9-111">Execute, Requery, and Clear methods example</span></span>](execute-requery-and-clear-methods-example-vbscript.md)
-- [<span data-ttu-id="40bf9-112">Move (méthode) – Exemple</span><span class="sxs-lookup"><span data-stu-id="40bf9-112">Move method example</span></span>](move-method-example-vbscript.md)
-- [<span data-ttu-id="40bf9-113">MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes - Exemple</span><span class="sxs-lookup"><span data-stu-id="40bf9-113">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example</span></span>](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
-- [<span data-ttu-id="40bf9-114">Open et Close, méthodes - Exemple</span><span class="sxs-lookup"><span data-stu-id="40bf9-114">Open and Close methods example</span></span>](open-and-close-methods-example-vbscript.md)
+- [<span data-ttu-id="b65e6-108">AddNew, méthode - Exemple</span><span class="sxs-lookup"><span data-stu-id="b65e6-108">AddNew method example</span></span>](addnew-method-example-vbscript.md)
+- [<span data-ttu-id="b65e6-109">Clone, méthode - Exemple</span><span class="sxs-lookup"><span data-stu-id="b65e6-109">Clone method example</span></span>](clone-method-example-vbscript.md)
+- [<span data-ttu-id="b65e6-110">Delete, méthode - Exemple</span><span class="sxs-lookup"><span data-stu-id="b65e6-110">Delete method example</span></span>](delete-method-example-vbscript.md)
+- [<span data-ttu-id="b65e6-111">Execute, Requery et Clear, méthodes - Exemple</span><span class="sxs-lookup"><span data-stu-id="b65e6-111">Execute, Requery, and Clear methods example</span></span>](execute-requery-and-clear-methods-example-vbscript.md)
+- [<span data-ttu-id="b65e6-112">Move (méthode) – Exemple</span><span class="sxs-lookup"><span data-stu-id="b65e6-112">Move method example</span></span>](move-method-example-vbscript.md)
+- [<span data-ttu-id="b65e6-113">MoveFirst, MoveLast, MoveNext et MovePrevious, méthodes - Exemple</span><span class="sxs-lookup"><span data-stu-id="b65e6-113">MoveFirst, MoveLast, MoveNext, and MovePrevious methods example</span></span>](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
+- [<span data-ttu-id="b65e6-114">Open et Close, méthodes - Exemple</span><span class="sxs-lookup"><span data-stu-id="b65e6-114">Open and Close methods example</span></span>](open-and-close-methods-example-vbscript.md)
 

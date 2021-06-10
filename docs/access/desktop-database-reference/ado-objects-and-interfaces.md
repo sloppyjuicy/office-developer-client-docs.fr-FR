@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283260"
 ---
-# <a name="ado-objects-and-interfaces"></a><span data-ttu-id="232ca-102">Objets et interfaces ADO</span><span class="sxs-lookup"><span data-stu-id="232ca-102">ADO objects and interfaces</span></span>
+# <a name="ado-objects-and-interfaces"></a><span data-ttu-id="fc905-102">Objets et interfaces ADO</span><span class="sxs-lookup"><span data-stu-id="fc905-102">ADO objects and interfaces</span></span>
 
-<span data-ttu-id="232ca-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="232ca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc905-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc905-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="232ca-104">Les relations entre ces objets sont représentées dans le ActiveX objet Data Objects (ADO).</span><span class="sxs-lookup"><span data-stu-id="232ca-104">The relationships between these objects are represented in the ActiveX Data Objects (ADO) Object Model.</span></span>
+<span data-ttu-id="fc905-104">Les relations entre ces objets sont représentées dans le ActiveX objet Data Objects (ADO).</span><span class="sxs-lookup"><span data-stu-id="fc905-104">The relationships between these objects are represented in the ActiveX Data Objects (ADO) Object Model.</span></span>
 
-<span data-ttu-id="232ca-105">Chaque objet peut être contenu dans sa collection correspondante.</span><span class="sxs-lookup"><span data-stu-id="232ca-105">Each object can be contained in its corresponding collection.</span></span> <span data-ttu-id="232ca-106">Un objet [Error](error-object-ado.md) peut, par exemple, être contenu dans une collection [Errors](errors-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="232ca-106">For example, an [Error](error-object-ado.md) object can be contained in an [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="232ca-107">Pour plus d’informations, voir [les collections ADO](ado-collections.md) ou une rubrique de collection spécifique.</span><span class="sxs-lookup"><span data-stu-id="232ca-107">For more information, see [ADO collections](ado-collections.md) or a specific collection topic.</span></span>
+<span data-ttu-id="fc905-105">Chaque objet peut être contenu dans sa collection correspondante.</span><span class="sxs-lookup"><span data-stu-id="fc905-105">Each object can be contained in its corresponding collection.</span></span> <span data-ttu-id="fc905-106">Un objet [Error](error-object-ado.md) peut, par exemple, être contenu dans une collection [Errors](errors-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="fc905-106">For example, an [Error](error-object-ado.md) object can be contained in an [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="fc905-107">Pour plus d’informations, voir [les collections ADO](ado-collections.md) ou une rubrique de collection spécifique.</span><span class="sxs-lookup"><span data-stu-id="fc905-107">For more information, see [ADO collections](ado-collections.md) or a specific collection topic.</span></span>
 
 <br/>
 
@@ -31,52 +31,52 @@ ms.locfileid: "32283260"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="232ca-108">Objet</span><span class="sxs-lookup"><span data-stu-id="232ca-108">Object</span></span></th>
-<th><span data-ttu-id="232ca-109">Description</span><span class="sxs-lookup"><span data-stu-id="232ca-109">Description</span></span></th>
+<th><span data-ttu-id="fc905-108">Objet</span><span class="sxs-lookup"><span data-stu-id="fc905-108">Object</span></span></th>
+<th><span data-ttu-id="fc905-109">Description</span><span class="sxs-lookup"><span data-stu-id="fc905-109">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="232ca-110"><a href="adorecordconstruction-interface-ado.md">ADORecordConstruction</a></span><span class="sxs-lookup"><span data-stu-id="232ca-110"><a href="adorecordconstruction-interface-ado.md">ADORecordConstruction</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-111">Crée un objet <strong>Record</strong> ADO à partir d'un objet <strong>Row</strong> OLE DB dans une application C/C++.</span><span class="sxs-lookup"><span data-stu-id="232ca-111">Constructs an ADO <strong>Record</strong> object from an OLE DB <strong>Row</strong> object in a C/C++ application.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-110"><a href="adorecordconstruction-interface-ado.md">ADORecordConstruction</a></span><span class="sxs-lookup"><span data-stu-id="fc905-110"><a href="adorecordconstruction-interface-ado.md">ADORecordConstruction</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-111">Crée un objet <strong>Record</strong> ADO à partir d'un objet <strong>Row</strong> OLE DB dans une application C/C++.</span><span class="sxs-lookup"><span data-stu-id="fc905-111">Constructs an ADO <strong>Record</strong> object from an OLE DB <strong>Row</strong> object in a C/C++ application.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="232ca-112"><a href="adorecordsetconstruction-interface-ado.md">ADORecordsetConstruction</a></span><span class="sxs-lookup"><span data-stu-id="232ca-112"><a href="adorecordsetconstruction-interface-ado.md">ADORecordsetConstruction</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-113">Crée un objet <strong>Recordset</strong> ADO à partir d'un objet <strong>Rowset</strong> OLE DB dans une application C/C++.</span><span class="sxs-lookup"><span data-stu-id="232ca-113">Constructs an ADO <strong>Recordset</strong> object from an OLE DB <strong>Rowset</strong> object in a C/C++ application.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-112"><a href="adorecordsetconstruction-interface-ado.md">ADORecordsetConstruction</a></span><span class="sxs-lookup"><span data-stu-id="fc905-112"><a href="adorecordsetconstruction-interface-ado.md">ADORecordsetConstruction</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-113">Crée un objet <strong>Recordset</strong> ADO à partir d'un objet <strong>Rowset</strong> OLE DB dans une application C/C++.</span><span class="sxs-lookup"><span data-stu-id="fc905-113">Constructs an ADO <strong>Recordset</strong> object from an OLE DB <strong>Rowset</strong> object in a C/C++ application.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="232ca-114"><a href="error-object-ado.md">Command</a></span><span class="sxs-lookup"><span data-stu-id="232ca-114"><a href="error-object-ado.md">Command</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-115">Définit une commande spécifique que vous avez l'intention d'exécuter sur une source de données.</span><span class="sxs-lookup"><span data-stu-id="232ca-115">Defines a specific command that you intend to execute against a data source.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-114"><a href="error-object-ado.md">Command</a></span><span class="sxs-lookup"><span data-stu-id="fc905-114"><a href="error-object-ado.md">Command</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-115">Définit une commande spécifique que vous avez l'intention d'exécuter sur une source de données.</span><span class="sxs-lookup"><span data-stu-id="fc905-115">Defines a specific command that you intend to execute against a data source.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="232ca-116"><a href="field-object-ado.md">Connection</a></span><span class="sxs-lookup"><span data-stu-id="232ca-116"><a href="field-object-ado.md">Connection</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-117">Représente une connexion ouverte à une source de données.</span><span class="sxs-lookup"><span data-stu-id="232ca-117">Represents an open connection to a data source.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-116"><a href="field-object-ado.md">Connection</a></span><span class="sxs-lookup"><span data-stu-id="fc905-116"><a href="field-object-ado.md">Connection</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-117">Représente une connexion ouverte à une source de données.</span><span class="sxs-lookup"><span data-stu-id="fc905-117">Represents an open connection to a data source.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="232ca-118"><a href="error-object-ado.md">Error</a></span><span class="sxs-lookup"><span data-stu-id="232ca-118"><a href="error-object-ado.md">Error</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-119">Contient le détail des erreurs d'accès aux données concernant une même opération liée au fournisseur.</span><span class="sxs-lookup"><span data-stu-id="232ca-119">Contains details about data access errors that pertain to a single operation involving the provider.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-118"><a href="error-object-ado.md">Erreur</a></span><span class="sxs-lookup"><span data-stu-id="fc905-118"><a href="error-object-ado.md">Error</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-119">Contient le détail des erreurs d'accès aux données concernant une même opération liée au fournisseur.</span><span class="sxs-lookup"><span data-stu-id="fc905-119">Contains details about data access errors that pertain to a single operation involving the provider.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="232ca-120"><a href="field-object-ado.md">Field</a></span><span class="sxs-lookup"><span data-stu-id="232ca-120"><a href="field-object-ado.md">Field</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-121">Représente une colonne de données avec un type de données commun.</span><span class="sxs-lookup"><span data-stu-id="232ca-121">Represents a column of data with a common data type.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-120"><a href="field-object-ado.md">Field</a></span><span class="sxs-lookup"><span data-stu-id="fc905-120"><a href="field-object-ado.md">Field</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-121">Représente une colonne de données avec un type de données commun.</span><span class="sxs-lookup"><span data-stu-id="fc905-121">Represents a column of data with a common data type.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="232ca-122"><a href="parameter-object-ado.md">Paramètre</a></span><span class="sxs-lookup"><span data-stu-id="232ca-122"><a href="parameter-object-ado.md">Parameter</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-123">Représente un paramètre ou un argument associé à un objet <strong>Command </strong> basé sur une requête paramétrée ou une procédure stockée.</span><span class="sxs-lookup"><span data-stu-id="232ca-123">Represents a parameter or argument associated with a <strong>Command</strong> object based on a parameterized query or stored procedure.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-122"><a href="parameter-object-ado.md">Parameter</a></span><span class="sxs-lookup"><span data-stu-id="fc905-122"><a href="parameter-object-ado.md">Parameter</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-123">Représente un paramètre ou un argument associé à un objet <strong>Command </strong> basé sur une requête paramétrée ou une procédure stockée.</span><span class="sxs-lookup"><span data-stu-id="fc905-123">Represents a parameter or argument associated with a <strong>Command</strong> object based on a parameterized query or stored procedure.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="232ca-124"><a href="property-object-ado.md">Propriété</a></span><span class="sxs-lookup"><span data-stu-id="232ca-124"><a href="property-object-ado.md">Property</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-125">Représente une caractéristique dynamique d'un objet ADO qui est définie par le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="232ca-125">Represents a dynamic characteristic of an ADO object that is defined by the provider.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-124"><a href="property-object-ado.md">Property</a></span><span class="sxs-lookup"><span data-stu-id="fc905-124"><a href="property-object-ado.md">Property</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-125">Représente une caractéristique dynamique d'un objet ADO qui est définie par le fournisseur.</span><span class="sxs-lookup"><span data-stu-id="fc905-125">Represents a dynamic characteristic of an ADO object that is defined by the provider.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="232ca-126"><a href="record-object-ado.md">Record</a></span><span class="sxs-lookup"><span data-stu-id="232ca-126"><a href="record-object-ado.md">Record</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-127">Représente une ligne d'un objet <strong>Recordset</strong> ou un répertoire ou un fichier dans un système de fichiers.</span><span class="sxs-lookup"><span data-stu-id="232ca-127">Represents a row of a <strong>Recordset</strong>, or a directory or file in a file system.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-126"><a href="record-object-ado.md">Record</a></span><span class="sxs-lookup"><span data-stu-id="fc905-126"><a href="record-object-ado.md">Record</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-127">Représente une ligne d'un objet <strong>Recordset</strong> ou un répertoire ou un fichier dans un système de fichiers.</span><span class="sxs-lookup"><span data-stu-id="fc905-127">Represents a row of a <strong>Recordset</strong>, or a directory or file in a file system.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="232ca-128"><a href="recordset-object-ado.md">Recordset</a></span><span class="sxs-lookup"><span data-stu-id="232ca-128"><a href="recordset-object-ado.md">Recordset</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-p102">Représente le jeu entier d'enregistrements d'une table de base ou les résultats d'une commande exécutée. L'objet <strong>Recordset</strong> ne peut faire référence qu'à un seul enregistrement à l'intérieur du jeu en tant qu'enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="232ca-p102">Represents the entire set of records from a base table or the results of an executed command. At any time, the <strong>Recordset</strong> object refers to only a single record within the set as the current record.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-128"><a href="recordset-object-ado.md">Recordset</a></span><span class="sxs-lookup"><span data-stu-id="fc905-128"><a href="recordset-object-ado.md">Recordset</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-p102">Représente le jeu entier d'enregistrements d'une table de base ou les résultats d'une commande exécutée. L'objet <strong>Recordset</strong> ne peut faire référence qu'à un seul enregistrement à l'intérieur du jeu en tant qu'enregistrement actif.</span><span class="sxs-lookup"><span data-stu-id="fc905-p102">Represents the entire set of records from a base table or the results of an executed command. At any time, the <strong>Recordset</strong> object refers to only a single record within the set as the current record.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="232ca-131"><a href="stream-object-ado.md">Stream</a></span><span class="sxs-lookup"><span data-stu-id="232ca-131"><a href="stream-object-ado.md">Stream</a></span></span></p></td>
-<td><p><span data-ttu-id="232ca-132">Représente un flux binaire de données.</span><span class="sxs-lookup"><span data-stu-id="232ca-132">Represents a binary stream of data.</span></span></p></td>
+<td><p><span data-ttu-id="fc905-131"><a href="stream-object-ado.md">Stream</a></span><span class="sxs-lookup"><span data-stu-id="fc905-131"><a href="stream-object-ado.md">Stream</a></span></span></p></td>
+<td><p><span data-ttu-id="fc905-132">Représente un flux binaire de données.</span><span class="sxs-lookup"><span data-stu-id="fc905-132">Represents a binary stream of data.</span></span></p></td>
 </tr>
 </tbody>
 </table>

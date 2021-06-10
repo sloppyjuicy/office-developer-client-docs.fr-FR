@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307020"
 ---
-# <a name="relation-properties-dao"></a><span data-ttu-id="ad97f-102">Relation properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad97f-102">Relation properties (DAO)</span></span>
+# <a name="relation-properties-dao"></a><span data-ttu-id="fc843-102">Relation properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc843-102">Relation properties (DAO)</span></span>
 
-<span data-ttu-id="ad97f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad97f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc843-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc843-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ad97f-104">Relation.Attributes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad97f-104">Relation.Attributes property (DAO)</span></span>](relation-attributes-property-dao.md)
-- [<span data-ttu-id="ad97f-105">Relation.Fields, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad97f-105">Relation.Fields property (DAO)</span></span>](relation-fields-property-dao.md)
-- [<span data-ttu-id="ad97f-106">Relation.ForeignTable, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad97f-106">Relation.ForeignTable property (DAO)</span></span>](relation-foreigntable-property-dao.md)
-- [<span data-ttu-id="ad97f-107">Relation.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad97f-107">Relation.Name property (DAO)</span></span>](relation-name-property-dao.md)
-- [<span data-ttu-id="ad97f-108">Relation.PartialReplica, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad97f-108">Relation.PartialReplica property (DAO)</span></span>](relation-partialreplica-property-dao.md)
-- [<span data-ttu-id="ad97f-109">Relation.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad97f-109">Relation.Properties property (DAO)</span></span>](relation-properties-property-dao.md)
-- [<span data-ttu-id="ad97f-110">Relation.Table, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="ad97f-110">Relation.Table property (DAO)</span></span>](relation-table-property-dao.md)
+- [<span data-ttu-id="fc843-104">Relation.Attributes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc843-104">Relation.Attributes property (DAO)</span></span>](relation-attributes-property-dao.md)
+- [<span data-ttu-id="fc843-105">Relation.Fields, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc843-105">Relation.Fields property (DAO)</span></span>](relation-fields-property-dao.md)
+- [<span data-ttu-id="fc843-106">Relation.ForeignTable, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc843-106">Relation.ForeignTable property (DAO)</span></span>](relation-foreigntable-property-dao.md)
+- [<span data-ttu-id="fc843-107">Relation.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc843-107">Relation.Name property (DAO)</span></span>](relation-name-property-dao.md)
+- [<span data-ttu-id="fc843-108">Relation.PartialReplica, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc843-108">Relation.PartialReplica property (DAO)</span></span>](relation-partialreplica-property-dao.md)
+- [<span data-ttu-id="fc843-109">Relation.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc843-109">Relation.Properties property (DAO)</span></span>](relation-properties-property-dao.md)
+- [<span data-ttu-id="fc843-110">Relation.Table, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc843-110">Relation.Table property (DAO)</span></span>](relation-table-property-dao.md)
 
 

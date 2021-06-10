@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308763"
 ---
-# <a name="section-v-appendixes"></a><span data-ttu-id="f6ca7-102">Section V : Annexes</span><span class="sxs-lookup"><span data-stu-id="f6ca7-102">Section V: Appendixes</span></span>
+# <a name="section-v-appendixes"></a><span data-ttu-id="461c8-102">Section V : Annexes</span><span class="sxs-lookup"><span data-stu-id="461c8-102">Section V: Appendixes</span></span>
 
-<span data-ttu-id="f6ca7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6ca7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="461c8-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="461c8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f6ca7-104">Le guide du programmeur ADO contient les annexes suivantes :</span><span class="sxs-lookup"><span data-stu-id="f6ca7-104">The ADO programmer's guide contains the following appendixes:</span></span>
+<span data-ttu-id="461c8-104">Le guide du programmeur ADO contient les annexes suivantes :</span><span class="sxs-lookup"><span data-stu-id="461c8-104">The ADO programmer's guide contains the following appendixes:</span></span>
 
-- [<span data-ttu-id="f6ca7-105">Annexe A : Fournisseurs</span><span class="sxs-lookup"><span data-stu-id="f6ca7-105">Appendix A: Providers</span></span>](appendix-a-providers.md)
-- [<span data-ttu-id="f6ca7-106">Annexe B : Erreurs ADO</span><span class="sxs-lookup"><span data-stu-id="f6ca7-106">Appendix B: ADO errors</span></span>](appendix-b-ado-errors.md)
-- [<span data-ttu-id="f6ca7-107">Annexe C : Programmation avec ADO</span><span class="sxs-lookup"><span data-stu-id="f6ca7-107">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
-- [<span data-ttu-id="f6ca7-108">Annexe D : Exemples ADO</span><span class="sxs-lookup"><span data-stu-id="f6ca7-108">Appendix D: ADO samples</span></span>](appendix-d-ado-samples.md)
+- [<span data-ttu-id="461c8-105">Annexe A : Fournisseurs</span><span class="sxs-lookup"><span data-stu-id="461c8-105">Appendix A: Providers</span></span>](appendix-a-providers.md)
+- [<span data-ttu-id="461c8-106">Annexe B : Erreurs ADO</span><span class="sxs-lookup"><span data-stu-id="461c8-106">Appendix B: ADO errors</span></span>](appendix-b-ado-errors.md)
+- [<span data-ttu-id="461c8-107">Annexe C : Programmation avec ADO</span><span class="sxs-lookup"><span data-stu-id="461c8-107">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
+- [<span data-ttu-id="461c8-108">Annexe D : Exemples ADO</span><span class="sxs-lookup"><span data-stu-id="461c8-108">Appendix D: ADO samples</span></span>](appendix-d-ado-samples.md)
 

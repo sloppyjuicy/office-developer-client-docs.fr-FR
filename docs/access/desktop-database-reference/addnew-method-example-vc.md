@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282484"
 ---
-# <a name="addnew-method-example-vc"></a><span data-ttu-id="af948-102">AddNew, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="af948-102">AddNew method example (VC++)</span></span>
+# <a name="addnew-method-example-vc"></a><span data-ttu-id="b0c66-102">AddNew, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="b0c66-102">AddNew method example (VC++)</span></span>
 
 
-<span data-ttu-id="af948-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="af948-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b0c66-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b0c66-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="af948-104">Cet exemple fait appel à la méthode [AddNew](addnew-method-ado.md) pour créer un enregistrement avec le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="af948-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="b0c66-104">Cet exemple fait appel à la méthode [AddNew](addnew-method-ado.md) pour créer un enregistrement avec le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="b0c66-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```cpp 
  
@@ -238,7 +238,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="af948-105">**AddNewX.h**</span><span class="sxs-lookup"><span data-stu-id="af948-105">**AddNewX.h**</span></span>
+<span data-ttu-id="b0c66-105">**AddNewX.h**</span><span class="sxs-lookup"><span data-stu-id="b0c66-105">**AddNewX.h**</span></span>
 
 ```cpp 
  

@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308609"
 ---
-# <a name="sort-property-example-vj"></a><span data-ttu-id="61583-102">Sort, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="61583-102">Sort property example (VJ++)</span></span>
+# <a name="sort-property-example-vj"></a><span data-ttu-id="d8581-102">Sort, propriété – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="d8581-102">Sort property example (VJ++)</span></span>
 
 
-<span data-ttu-id="61583-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="61583-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d8581-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8581-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="61583-104">Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***.</span><span class="sxs-lookup"><span data-stu-id="61583-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="61583-105">Une routine utilitaire secondaire imprime chaque ligne.</span><span class="sxs-lookup"><span data-stu-id="61583-105">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="d8581-p101">Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***. Une routine utilitaire secondaire imprime chaque ligne.</span><span class="sxs-lookup"><span data-stu-id="d8581-p101">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database. A secondary utility routine prints each row.</span></span>
 
 ```java 
  

@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282495"
 ---
-# <a name="addnew-method-example-vb"></a><span data-ttu-id="f1841-102">AddNew, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="f1841-102">AddNew method example (VB)</span></span>
+# <a name="addnew-method-example-vb"></a><span data-ttu-id="76c52-102">AddNew, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="76c52-102">AddNew method example (VB)</span></span>
 
 
-<span data-ttu-id="f1841-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1841-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="76c52-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76c52-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f1841-104">Cet exemple utilise la méthode [AddNew](addnew-method-ado.md) pour créer un nouvel enregistrement portant le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="f1841-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="76c52-104">Cet exemple utilise la méthode [AddNew](addnew-method-ado.md) pour créer un nouvel enregistrement portant le nom spécifié.</span><span class="sxs-lookup"><span data-stu-id="76c52-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```vb 
  

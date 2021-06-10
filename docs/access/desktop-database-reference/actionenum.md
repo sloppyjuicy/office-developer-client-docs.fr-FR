@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280655"
 ---
-# <a name="actionenum"></a><span data-ttu-id="e96c7-102">ActionEnum</span><span class="sxs-lookup"><span data-stu-id="e96c7-102">ActionEnum</span></span>
+# <a name="actionenum"></a><span data-ttu-id="b7033-102">ActionEnum</span><span class="sxs-lookup"><span data-stu-id="b7033-102">ActionEnum</span></span>
 
-<span data-ttu-id="e96c7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e96c7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b7033-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b7033-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e96c7-104">Indique le type d’action à effectuer lorsque la méthode [SetPermissions](setpermissions-method-adox.md) est appelée.</span><span class="sxs-lookup"><span data-stu-id="e96c7-104">Specifies the type of action to be performed when [SetPermissions](setpermissions-method-adox.md) is called.</span></span>
+<span data-ttu-id="b7033-104">Indique le type d’action à effectuer lorsque la méthode [SetPermissions](setpermissions-method-adox.md) est appelée.</span><span class="sxs-lookup"><span data-stu-id="b7033-104">Specifies the type of action to be performed when [SetPermissions](setpermissions-method-adox.md) is called.</span></span>
 
 <table>
 <colgroup>
@@ -28,31 +28,31 @@ ms.locfileid: "32280655"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e96c7-105">Constante</span><span class="sxs-lookup"><span data-stu-id="e96c7-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="e96c7-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="e96c7-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="e96c7-107">Description</span><span class="sxs-lookup"><span data-stu-id="e96c7-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="b7033-105">Constante</span><span class="sxs-lookup"><span data-stu-id="b7033-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="b7033-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="b7033-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="b7033-107">Description</span><span class="sxs-lookup"><span data-stu-id="b7033-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e96c7-108"><strong>adAccessDeny</strong></span><span class="sxs-lookup"><span data-stu-id="e96c7-108"><strong>adAccessDeny</strong></span></span></p></td>
-<td><p><span data-ttu-id="e96c7-109">3 </span><span class="sxs-lookup"><span data-stu-id="e96c7-109">3</span></span></p></td>
-<td><p><span data-ttu-id="e96c7-110">Les autorisations spécifiées seront refusées au groupe ou à l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="e96c7-110">The group or user will be denied the specified permissions.</span></span></p></td>
+<td><p><span data-ttu-id="b7033-108"><strong>adAccessDeny</strong></span><span class="sxs-lookup"><span data-stu-id="b7033-108"><strong>adAccessDeny</strong></span></span></p></td>
+<td><p><span data-ttu-id="b7033-109">3</span><span class="sxs-lookup"><span data-stu-id="b7033-109">3</span></span></p></td>
+<td><p><span data-ttu-id="b7033-110">Les autorisations spécifiées seront refusées au groupe ou à l'utilisateur.</span><span class="sxs-lookup"><span data-stu-id="b7033-110">The group or user will be denied the specified permissions.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e96c7-111"><strong>adAccessGrant</strong></span><span class="sxs-lookup"><span data-stu-id="e96c7-111"><strong>adAccessGrant</strong></span></span></p></td>
-<td><p><span data-ttu-id="e96c7-112">1 </span><span class="sxs-lookup"><span data-stu-id="e96c7-112">1</span></span></p></td>
-<td><p><span data-ttu-id="e96c7-113">Le groupe ou l'utilisateur disposera au moins des autorisations demandées.</span><span class="sxs-lookup"><span data-stu-id="e96c7-113">The group or user will have at least the requested permissions.</span></span></p></td>
+<td><p><span data-ttu-id="b7033-111"><strong>adAccessGrant</strong></span><span class="sxs-lookup"><span data-stu-id="b7033-111"><strong>adAccessGrant</strong></span></span></p></td>
+<td><p><span data-ttu-id="b7033-112">1</span><span class="sxs-lookup"><span data-stu-id="b7033-112">1</span></span></p></td>
+<td><p><span data-ttu-id="b7033-113">Le groupe ou l'utilisateur disposera au moins des autorisations demandées.</span><span class="sxs-lookup"><span data-stu-id="b7033-113">The group or user will have at least the requested permissions.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e96c7-114"><strong>adAccessRevoke</strong></span><span class="sxs-lookup"><span data-stu-id="e96c7-114"><strong>adAccessRevoke</strong></span></span></p></td>
-<td><p><span data-ttu-id="e96c7-115">4 </span><span class="sxs-lookup"><span data-stu-id="e96c7-115">4</span></span></p></td>
-<td><p><span data-ttu-id="e96c7-116">Tous les droits d'accès explicites que le groupe ou l'utilisateur possède seront révoqués.</span><span class="sxs-lookup"><span data-stu-id="e96c7-116">Any explicit access rights the group or user has will be revoked.</span></span></p></td>
+<td><p><span data-ttu-id="b7033-114"><strong>adAccessRevoke</strong></span><span class="sxs-lookup"><span data-stu-id="b7033-114"><strong>adAccessRevoke</strong></span></span></p></td>
+<td><p><span data-ttu-id="b7033-115">4 </span><span class="sxs-lookup"><span data-stu-id="b7033-115">4</span></span></p></td>
+<td><p><span data-ttu-id="b7033-116">Tous les droits d'accès explicites que le groupe ou l'utilisateur possède seront révoqués.</span><span class="sxs-lookup"><span data-stu-id="b7033-116">Any explicit access rights the group or user has will be revoked.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e96c7-117"><strong>adAccessSet</strong></span><span class="sxs-lookup"><span data-stu-id="e96c7-117"><strong>adAccessSet</strong></span></span></p></td>
-<td><p><span data-ttu-id="e96c7-118">2 </span><span class="sxs-lookup"><span data-stu-id="e96c7-118">2</span></span></p></td>
-<td><p><span data-ttu-id="e96c7-119">Le groupe ou l'utilisateur disposera exactement des autorisations demandées.</span><span class="sxs-lookup"><span data-stu-id="e96c7-119">The group or user will have exactly the requested permissions.</span></span></p></td>
+<td><p><span data-ttu-id="b7033-117"><strong>adAccessSet</strong></span><span class="sxs-lookup"><span data-stu-id="b7033-117"><strong>adAccessSet</strong></span></span></p></td>
+<td><p><span data-ttu-id="b7033-118">2</span><span class="sxs-lookup"><span data-stu-id="b7033-118">2</span></span></p></td>
+<td><p><span data-ttu-id="b7033-119">Le groupe ou l'utilisateur disposera exactement des autorisations demandées.</span><span class="sxs-lookup"><span data-stu-id="b7033-119">The group or user will have exactly the requested permissions.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280638"
 ---
-# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="d4df6-102">ActiveCommand, propriété – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="d4df6-102">ActiveCommand property example (JScript)</span></span>
+# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="761e3-102">ActiveCommand, propriété – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="761e3-102">ActiveCommand property example (JScript)</span></span>
 
-<span data-ttu-id="d4df6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4df6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="761e3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="761e3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d4df6-p101">Cet exemple illustre la propriété [ActiveCommand](activecommand-property-ado.md). Coupez et collez le code ci-après dans le Bloc-notes ou dans un autre éditeur de texte, et enregistrez-le sous **ActiveCommandJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="d4df6-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
+<span data-ttu-id="761e3-p101">Cet exemple illustre la propriété [ActiveCommand](activecommand-property-ado.md). Coupez et collez le code ci-après dans le Bloc-notes ou dans un autre éditeur de texte, et enregistrez-le sous **ActiveCommandJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="761e3-p101">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property. Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActiveCommandJS --> 

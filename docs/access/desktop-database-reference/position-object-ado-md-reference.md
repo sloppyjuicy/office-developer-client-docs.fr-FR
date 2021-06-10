@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287558"
 ---
-# <a name="position-object-ado-md-reference"></a><span data-ttu-id="60982-102">Objet Position (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="60982-102">Position object (ADO MD reference)</span></span>
+# <a name="position-object-ado-md-reference"></a><span data-ttu-id="b3054-102">Objet Position (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3054-102">Position object (ADO MD reference)</span></span>
 
-<span data-ttu-id="60982-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="60982-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b3054-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3054-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="60982-104">Position, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="60982-104">Position object (ADO MD)</span></span>](position-object-ado-md.md)
-- [<span data-ttu-id="60982-105">Position des propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="60982-105">Position properties, methods, and events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="b3054-104">Position, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3054-104">Position object (ADO MD)</span></span>](position-object-ado-md.md)
+- [<span data-ttu-id="b3054-105">Position des propriétés, méthodes et événements (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b3054-105">Position properties, methods, and events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
 

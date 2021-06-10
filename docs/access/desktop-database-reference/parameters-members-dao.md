@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287852"
 ---
-# <a name="parameters-members-dao"></a><span data-ttu-id="3dbfe-102">Parameters members (DAO)</span><span class="sxs-lookup"><span data-stu-id="3dbfe-102">Parameters members (DAO)</span></span>
+# <a name="parameters-members-dao"></a><span data-ttu-id="5fe0f-102">Parameters members (DAO)</span><span class="sxs-lookup"><span data-stu-id="5fe0f-102">Parameters members (DAO)</span></span>
 
 
-<span data-ttu-id="3dbfe-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3dbfe-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5fe0f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5fe0f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3dbfe-104">Une collection Parameters contient tous les objets Parameter d'un objet QueryDef.</span><span class="sxs-lookup"><span data-stu-id="3dbfe-104">A Parameters collection contains all the Parameter objects of a QueryDef object.</span></span>
+<span data-ttu-id="5fe0f-104">Une collection Parameters contient tous les objets Parameter d'un objet QueryDef.</span><span class="sxs-lookup"><span data-stu-id="5fe0f-104">A Parameters collection contains all the Parameter objects of a QueryDef object.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="3dbfe-105">Méthodes</span><span class="sxs-lookup"><span data-stu-id="3dbfe-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="5fe0f-105">Méthodes</span><span class="sxs-lookup"><span data-stu-id="5fe0f-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -30,20 +30,20 @@ ms.locfileid: "32287852"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3dbfe-106">Nom</span><span class="sxs-lookup"><span data-stu-id="3dbfe-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="3dbfe-107">Description</span><span class="sxs-lookup"><span data-stu-id="3dbfe-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="5fe0f-106">Nom</span><span class="sxs-lookup"><span data-stu-id="5fe0f-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="5fe0f-107">Description</span><span class="sxs-lookup"><span data-stu-id="5fe0f-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3dbfe-108"><strong><a href="parameters-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="3dbfe-108"><strong><a href="parameters-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="3dbfe-109">Met à jour les objets dans la collection spécifiée pour répercuter la structure actuelle de la base de données.</span><span class="sxs-lookup"><span data-stu-id="3dbfe-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
+<td><p><span data-ttu-id="5fe0f-108"><strong><a href="parameters-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="5fe0f-108"><strong><a href="parameters-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="5fe0f-109">Met à jour les objets dans la collection spécifiée pour répercuter la structure actuelle de la base de données.</span><span class="sxs-lookup"><span data-stu-id="5fe0f-109">Updates the objects in the specified colletion to reflect the database's current schema.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="3dbfe-110">Propriétés</span><span class="sxs-lookup"><span data-stu-id="3dbfe-110">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="5fe0f-110">Propriétés</span><span class="sxs-lookup"><span data-stu-id="5fe0f-110">Properties</span></span>
 
 <table>
 <colgroup>
@@ -52,14 +52,14 @@ ms.locfileid: "32287852"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3dbfe-111">Nom</span><span class="sxs-lookup"><span data-stu-id="3dbfe-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="3dbfe-112">Description</span><span class="sxs-lookup"><span data-stu-id="3dbfe-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="5fe0f-111">Nom</span><span class="sxs-lookup"><span data-stu-id="5fe0f-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="5fe0f-112">Description</span><span class="sxs-lookup"><span data-stu-id="5fe0f-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="3dbfe-113"><strong><a href="parameters-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="3dbfe-113"><strong><a href="parameters-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="3dbfe-114">Renvoie le nombre d'objets de la collection spécifiée.</span><span class="sxs-lookup"><span data-stu-id="3dbfe-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="3dbfe-115">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="3dbfe-115">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="5fe0f-113"><strong><a href="parameters-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="5fe0f-113"><strong><a href="parameters-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="5fe0f-p101">Renvoie le nombre d'objets de la collection spécifiée. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="5fe0f-p101">Returns the number of objects in the specified collection. Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

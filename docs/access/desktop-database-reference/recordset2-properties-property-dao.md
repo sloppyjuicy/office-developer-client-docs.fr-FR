@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309126"
 ---
-# <a name="recordset2properties-property-dao"></a><span data-ttu-id="13b51-102">Recordset2.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="13b51-102">Recordset2.Properties property (DAO)</span></span>
+# <a name="recordset2properties-property-dao"></a><span data-ttu-id="728d3-102">Recordset2.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="728d3-102">Recordset2.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="13b51-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="13b51-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="728d3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="728d3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="13b51-104">Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="13b51-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="13b51-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="13b51-105">Read-only.</span></span>
+<span data-ttu-id="728d3-p101">Renvoie la collection **[Properties](properties-collection-dao.md)** de l'objet spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="728d3-p101">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="13b51-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="13b51-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="728d3-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="728d3-106">Syntax</span></span>
 
-<span data-ttu-id="13b51-107">*.* Propriétés</span><span class="sxs-lookup"><span data-stu-id="13b51-107">*expression* .Properties</span></span>
+<span data-ttu-id="728d3-107">*.* Propriétés</span><span class="sxs-lookup"><span data-stu-id="728d3-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="13b51-108">*expression* Variable qui représente un **objet Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="13b51-108">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="728d3-108">*expression* Variable qui représente un **objet Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="728d3-108">*expression* A variable that represents a **Recordset2** object.</span></span>
 

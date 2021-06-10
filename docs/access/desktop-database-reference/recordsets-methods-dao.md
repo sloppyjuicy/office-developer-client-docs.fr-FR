@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309275"
 ---
-# <a name="recordsets-methods-dao"></a><span data-ttu-id="317d5-102">Recordsets methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="317d5-102">Recordsets methods (DAO)</span></span>
+# <a name="recordsets-methods-dao"></a><span data-ttu-id="09e96-102">Recordsets methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="09e96-102">Recordsets methods (DAO)</span></span>
 
-<span data-ttu-id="317d5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="317d5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="09e96-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="09e96-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="317d5-104">Recordsets.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="317d5-104">Recordsets.Refresh method (DAO)</span></span>](recordsets-refresh-method-dao.md)
+- [<span data-ttu-id="09e96-104">Recordsets.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="09e96-104">Recordsets.Refresh method (DAO)</span></span>](recordsets-refresh-method-dao.md)
 

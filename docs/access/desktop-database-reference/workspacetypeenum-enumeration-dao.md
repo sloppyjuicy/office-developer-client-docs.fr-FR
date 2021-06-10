@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308273"
 ---
-# <a name="workspacetypeenum-enumeration-dao"></a><span data-ttu-id="d78a5-102">WorkspaceTypeEnum, éumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="d78a5-102">WorkspaceTypeEnum enumeration (DAO)</span></span>
+# <a name="workspacetypeenum-enumeration-dao"></a><span data-ttu-id="b3d49-102">WorkspaceTypeEnum, éumération (DAO)</span><span class="sxs-lookup"><span data-stu-id="b3d49-102">WorkspaceTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="d78a5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d78a5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b3d49-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b3d49-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d78a5-104">Cette énumération est utilisée avec la méthode **CreateWorkspace** pour définir le type d'espace de travail à créer.</span><span class="sxs-lookup"><span data-stu-id="d78a5-104">Used with the **CreateWorkspace** method to specify the type of workspace to create.</span></span>
+<span data-ttu-id="b3d49-104">Cette énumération est utilisée avec la méthode **CreateWorkspace** pour définir le type d'espace de travail à créer.</span><span class="sxs-lookup"><span data-stu-id="b3d49-104">Used with the **CreateWorkspace** method to specify the type of workspace to create.</span></span>
 
 <table>
 <colgroup>
@@ -29,16 +29,16 @@ ms.locfileid: "32308273"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d78a5-105">Nom</span><span class="sxs-lookup"><span data-stu-id="d78a5-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="d78a5-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="d78a5-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="d78a5-107">Description</span><span class="sxs-lookup"><span data-stu-id="d78a5-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="b3d49-105">Nom</span><span class="sxs-lookup"><span data-stu-id="b3d49-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="b3d49-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="b3d49-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="b3d49-107">Description</span><span class="sxs-lookup"><span data-stu-id="b3d49-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d78a5-108">dbUseJet</span><span class="sxs-lookup"><span data-stu-id="d78a5-108">dbUseJet</span></span></p></td>
-<td><p><span data-ttu-id="d78a5-109">2 </span><span class="sxs-lookup"><span data-stu-id="d78a5-109">2</span></span></p></td>
-<td><p><span data-ttu-id="d78a5-110">Permet de créer un espace de travail Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="d78a5-110">Create a Microsoft Access workspace.</span></span></p></td>
+<td><p><span data-ttu-id="b3d49-108">dbUseJet</span><span class="sxs-lookup"><span data-stu-id="b3d49-108">dbUseJet</span></span></p></td>
+<td><p><span data-ttu-id="b3d49-109">2</span><span class="sxs-lookup"><span data-stu-id="b3d49-109">2</span></span></p></td>
+<td><p><span data-ttu-id="b3d49-110">Permet de créer un espace de travail Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="b3d49-110">Create a Microsoft Access workspace.</span></span></p></td>
 </tr>
 </tbody>
 </table>
