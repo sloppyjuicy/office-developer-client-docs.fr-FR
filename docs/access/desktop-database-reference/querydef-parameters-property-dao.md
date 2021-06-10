@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300993"
 ---
-# <a name="querydefparameters-property-dao"></a><span data-ttu-id="e0b65-102">QueryDef.Parameters, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0b65-102">QueryDef.Parameters property (DAO)</span></span>
+# <a name="querydefparameters-property-dao"></a><span data-ttu-id="2c6fa-102">QueryDef.Parameters, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c6fa-102">QueryDef.Parameters property (DAO)</span></span>
 
 
-<span data-ttu-id="e0b65-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0b65-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2c6fa-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c6fa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e0b65-104">Renvoie une collection **[Parameters](parameters-collection-dao.md)** qui contient tous les objets **[Parameter](parameter-object-dao.md)** de l'objet **QueryDef** spécifié.</span><span class="sxs-lookup"><span data-stu-id="e0b65-104">Returns a **[Parameters](parameters-collection-dao.md)** collection that contains all of the **[Parameter](parameter-object-dao.md)** objects of the specified **QueryDef**.</span></span> <span data-ttu-id="e0b65-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="e0b65-105">Read-only.</span></span>
+<span data-ttu-id="2c6fa-p101">Renvoie une collection **[Parameters](parameters-collection-dao.md)** qui contient tous les objets **[Parameter](parameter-object-dao.md)** de l'objet **QueryDef** spécifié. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="2c6fa-p101">Returns a **[Parameters](parameters-collection-dao.md)** collection that contains all of the **[Parameter](parameter-object-dao.md)** objects of the specified **QueryDef**. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e0b65-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e0b65-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2c6fa-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2c6fa-106">Syntax</span></span>
 
-<span data-ttu-id="e0b65-107">*.* Paramètres</span><span class="sxs-lookup"><span data-stu-id="e0b65-107">*expression* .Parameters</span></span>
+<span data-ttu-id="2c6fa-107">*.* Paramètres</span><span class="sxs-lookup"><span data-stu-id="2c6fa-107">*expression* .Parameters</span></span>
 
-<span data-ttu-id="e0b65-108">*expression* Variable représentant un objet **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="e0b65-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="2c6fa-108">*expression* Variable représentant un objet **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="2c6fa-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 

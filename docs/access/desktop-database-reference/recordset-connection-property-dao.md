@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300601"
 ---
-# <a name="recordsetconnection-property-dao"></a><span data-ttu-id="19294-102">Recordset.Connection, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="19294-102">Recordset.Connection property (DAO)</span></span>
+# <a name="recordsetconnection-property-dao"></a><span data-ttu-id="d6ae0-102">Recordset.Connection, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6ae0-102">Recordset.Connection property (DAO)</span></span>
 
 
-<span data-ttu-id="19294-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="19294-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d6ae0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6ae0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="19294-104">Renvoie l’objet **[connexion](connection-object-dao.md)** qui correspond à la base de données.</span><span class="sxs-lookup"><span data-stu-id="19294-104">Returns the **[Connection](connection-object-dao.md)** object that corresponds to the database.</span></span>
+<span data-ttu-id="d6ae0-104">Renvoie l’objet **[connexion](connection-object-dao.md)** qui correspond à la base de données.</span><span class="sxs-lookup"><span data-stu-id="d6ae0-104">Returns the **[Connection](connection-object-dao.md)** object that corresponds to the database.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="19294-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="19294-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d6ae0-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d6ae0-105">Syntax</span></span>
 
-<span data-ttu-id="19294-106">*.* Connexion</span><span class="sxs-lookup"><span data-stu-id="19294-106">*expression* .Connection</span></span>
+<span data-ttu-id="d6ae0-106">*.* Connexion</span><span class="sxs-lookup"><span data-stu-id="d6ae0-106">*expression* .Connection</span></span>
 
-<span data-ttu-id="19294-107">*expression* Variable qui représente un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="19294-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="d6ae0-107">*expression* Variable qui représente un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="d6ae0-107">*expression* A variable that represents a **Recordset** object.</span></span>
 

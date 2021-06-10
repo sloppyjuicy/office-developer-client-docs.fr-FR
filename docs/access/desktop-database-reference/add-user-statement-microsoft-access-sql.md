@@ -14,17 +14,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280424"
 ---
-# <a name="add-user-statement-microsoft-access-sql"></a><span data-ttu-id="2cd64-102">ADD USER, instruction (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="2cd64-102">ADD USER statement (Microsoft Access SQL)</span></span>
+# <a name="add-user-statement-microsoft-access-sql"></a><span data-ttu-id="ef666-102">ADD USER, instruction (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="ef666-102">ADD USER statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="2cd64-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2cd64-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ef666-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ef666-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2cd64-104">Ajoute un ou plusieurs *utilisateurs* existants à un *groupe* existant.</span><span class="sxs-lookup"><span data-stu-id="2cd64-104">Adds one or more existing *user* s to an existing *group*.</span></span>
+<span data-ttu-id="ef666-104">Ajoute un ou plusieurs *utilisateurs* existants à un *groupe* existant.</span><span class="sxs-lookup"><span data-stu-id="ef666-104">Adds one or more existing *user* s to an existing *group*.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2cd64-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2cd64-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ef666-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ef666-105">Syntax</span></span>
 
-<span data-ttu-id="2cd64-106">AJOUTER un *utilisateur,* \[ un *utilisateur,*... \] Groupe  TO</span><span class="sxs-lookup"><span data-stu-id="2cd64-106">ADD USER *user*\[, *user*, …\] TO *group*</span></span>
+<span data-ttu-id="ef666-106">AJOUTER un *utilisateur,* \[ un *utilisateur,*... \] Groupe  TO</span><span class="sxs-lookup"><span data-stu-id="ef666-106">ADD USER *user*\[, *user*, …\] TO *group*</span></span>
 
-<span data-ttu-id="2cd64-107">L'instruction ADD USER comporte trois parties :</span><span class="sxs-lookup"><span data-stu-id="2cd64-107">The ADD USER statement has these parts:</span></span>
+<span data-ttu-id="ef666-107">L'instruction ADD USER comporte trois parties :</span><span class="sxs-lookup"><span data-stu-id="ef666-107">The ADD USER statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -33,24 +33,24 @@ ms.locfileid: "32280424"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="2cd64-108">Élément</span><span class="sxs-lookup"><span data-stu-id="2cd64-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="2cd64-109">Description</span><span class="sxs-lookup"><span data-stu-id="2cd64-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="ef666-108">Élément</span><span class="sxs-lookup"><span data-stu-id="ef666-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="ef666-109">Description</span><span class="sxs-lookup"><span data-stu-id="ef666-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="2cd64-110"><em>user</em></span><span class="sxs-lookup"><span data-stu-id="2cd64-110"><em>user</em></span></span></p></td>
-<td><p><span data-ttu-id="2cd64-111">Nom de l'utilisateur à ajouter au fichier d'informations du groupe de travail.</span><span class="sxs-lookup"><span data-stu-id="2cd64-111">The name of a user to be added to the workgroup information file.</span></span></p></td>
+<td><p><span data-ttu-id="ef666-110"><em>user</em></span><span class="sxs-lookup"><span data-stu-id="ef666-110"><em>user</em></span></span></p></td>
+<td><p><span data-ttu-id="ef666-111">Nom de l'utilisateur à ajouter au fichier d'informations du groupe de travail.</span><span class="sxs-lookup"><span data-stu-id="ef666-111">The name of a user to be added to the workgroup information file.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="2cd64-112"><em>group</em></span><span class="sxs-lookup"><span data-stu-id="2cd64-112"><em>group</em></span></span></p></td>
-<td><p><span data-ttu-id="2cd64-113">Nom du groupe à ajouter au fichier d'informations du groupe de travail.</span><span class="sxs-lookup"><span data-stu-id="2cd64-113">The name of a group to be added to the workgroup information file.</span></span></p></td>
+<td><p><span data-ttu-id="ef666-112"><em>group</em></span><span class="sxs-lookup"><span data-stu-id="ef666-112"><em>group</em></span></span></p></td>
+<td><p><span data-ttu-id="ef666-113">Nom du groupe à ajouter au fichier d'informations du groupe de travail.</span><span class="sxs-lookup"><span data-stu-id="ef666-113">The name of a group to be added to the workgroup information file.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="2cd64-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="2cd64-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ef666-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="ef666-114">Remarks</span></span>
 
-<span data-ttu-id="2cd64-115">Une fois *qu’un* utilisateur a  été ajouté à un *groupe,* il dispose de toutes les autorisations qui ont été accordées au *groupe.*</span><span class="sxs-lookup"><span data-stu-id="2cd64-115">After a *user* had been added to a *group*, the *user* has all the permissions that have been granted to the *group*.</span></span>
+<span data-ttu-id="ef666-115">Une fois *qu’un* utilisateur *a* été ajouté à un groupe, *il* dispose de toutes les autorisations qui ont été accordées au *groupe.*</span><span class="sxs-lookup"><span data-stu-id="ef666-115">After a *user* had been added to a *group*, the *user* has all the permissions that have been granted to the *group*.</span></span>
 

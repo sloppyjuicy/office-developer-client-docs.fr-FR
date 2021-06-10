@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300839"
 ---
-# <a name="rds-properties"></a><span data-ttu-id="8d717-102">Propriétés RDS</span><span class="sxs-lookup"><span data-stu-id="8d717-102">RDS properties</span></span>
+# <a name="rds-properties"></a><span data-ttu-id="788e0-102">Propriétés RDS</span><span class="sxs-lookup"><span data-stu-id="788e0-102">RDS properties</span></span>
 
-<span data-ttu-id="8d717-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d717-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="788e0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="788e0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 <br/>
 
@@ -27,68 +27,68 @@ ms.locfileid: "32300839"
 </colgroup>
 <tbody>
 <tr class="even">
-<th><span data-ttu-id="8d717-104">Propriété</span><span class="sxs-lookup"><span data-stu-id="8d717-104">Property</span></span></th>
-<th><span data-ttu-id="8d717-105">Description</span><span class="sxs-lookup"><span data-stu-id="8d717-105">Description</span></span></th>
+<th><span data-ttu-id="788e0-104">Propriété</span><span class="sxs-lookup"><span data-stu-id="788e0-104">Property</span></span></th>
+<th><span data-ttu-id="788e0-105">Description</span><span class="sxs-lookup"><span data-stu-id="788e0-105">Description</span></span></th>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d717-106"><a href="connect-property-rds.md">Connect</a></span><span class="sxs-lookup"><span data-stu-id="8d717-106"><a href="connect-property-rds.md">Connect</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-107">Indique le nom de la base de données dans laquelle les opérations de requête et de mise à jour sont exécutées.</span><span class="sxs-lookup"><span data-stu-id="8d717-107">Indicates the database name from which the query and update operations are run.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-106"><a href="connect-property-rds.md">Connect</a></span><span class="sxs-lookup"><span data-stu-id="788e0-106"><a href="connect-property-rds.md">Connect</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-107">Indique le nom de la base de données dans laquelle les opérations de requête et de mise à jour sont exécutées.</span><span class="sxs-lookup"><span data-stu-id="788e0-107">Indicates the database name from which the query and update operations are run.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d717-108"><a href="executeoptions-property-rds.md">ExecuteOptions</a></span><span class="sxs-lookup"><span data-stu-id="8d717-108"><a href="executeoptions-property-rds.md">ExecuteOptions</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-109">Indique si l'exécution asynchrone est activée.</span><span class="sxs-lookup"><span data-stu-id="8d717-109">Indicates whether asynchronous execution is enabled.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-108"><a href="executeoptions-property-rds.md">ExecuteOptions</a></span><span class="sxs-lookup"><span data-stu-id="788e0-108"><a href="executeoptions-property-rds.md">ExecuteOptions</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-109">Indique si l'exécution asynchrone est activée.</span><span class="sxs-lookup"><span data-stu-id="788e0-109">Indicates whether asynchronous execution is enabled.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d717-110"><a href="fetchoptions-property-rds.md">FetchOptions</a></span><span class="sxs-lookup"><span data-stu-id="8d717-110"><a href="fetchoptions-property-rds.md">FetchOptions</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-111">Indique le type d'extraction asynchrone.</span><span class="sxs-lookup"><span data-stu-id="8d717-111">Indicates the type of asynchronous fetching.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-110"><a href="fetchoptions-property-rds.md">FetchOptions</a></span><span class="sxs-lookup"><span data-stu-id="788e0-110"><a href="fetchoptions-property-rds.md">FetchOptions</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-111">Indique le type d'extraction asynchrone.</span><span class="sxs-lookup"><span data-stu-id="788e0-111">Indicates the type of asynchronous fetching.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d717-112"><a href="filtercolumn-property-rds.md">FilterColumn</a></span><span class="sxs-lookup"><span data-stu-id="8d717-112"><a href="filtercolumn-property-rds.md">FilterColumn</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-113">Indique la colonne sur laquelle portent les critères de filtre.</span><span class="sxs-lookup"><span data-stu-id="8d717-113">Indicates the column on which to evaluate the filter criteria.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-112"><a href="filtercolumn-property-rds.md">FilterColumn</a></span><span class="sxs-lookup"><span data-stu-id="788e0-112"><a href="filtercolumn-property-rds.md">FilterColumn</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-113">Indique la colonne sur laquelle portent les critères de filtre.</span><span class="sxs-lookup"><span data-stu-id="788e0-113">Indicates the column on which to evaluate the filter criteria.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d717-114"><a href="filtercriterion-property-rds.md">FilterCriterion</a></span><span class="sxs-lookup"><span data-stu-id="8d717-114"><a href="filtercriterion-property-rds.md">FilterCriterion</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-115">Indique l'opérateur d'évaluation à utiliser dans la valeur du filtre.</span><span class="sxs-lookup"><span data-stu-id="8d717-115">Indicates the evaluation operator to use in the filter value.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-114"><a href="filtercriterion-property-rds.md">FilterCriterion</a></span><span class="sxs-lookup"><span data-stu-id="788e0-114"><a href="filtercriterion-property-rds.md">FilterCriterion</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-115">Indique l'opérateur d'évaluation à utiliser dans la valeur du filtre.</span><span class="sxs-lookup"><span data-stu-id="788e0-115">Indicates the evaluation operator to use in the filter value.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d717-116"><a href="filtervalue-property-rds.md">FilterValue</a></span><span class="sxs-lookup"><span data-stu-id="8d717-116"><a href="filtervalue-property-rds.md">FilterValue</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-117">Indique la valeur à utiliser pour filtrer des enregistrements.</span><span class="sxs-lookup"><span data-stu-id="8d717-117">Indicates the value to filter records.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-116"><a href="filtervalue-property-rds.md">FilterValue</a></span><span class="sxs-lookup"><span data-stu-id="788e0-116"><a href="filtervalue-property-rds.md">FilterValue</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-117">Indique la valeur à utiliser pour filtrer des enregistrements.</span><span class="sxs-lookup"><span data-stu-id="788e0-117">Indicates the value to filter records.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d717-118"><a href="handler-property-rds.md">Handler</a></span><span class="sxs-lookup"><span data-stu-id="8d717-118"><a href="handler-property-rds.md">Handler</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-119">Indique le nom d'un programme de personnalisation côté serveur (<em>gestionnaire</em>) qui étend les fonctionnalités de <strong>RDSServer.DataFactory</strong> et tous les paramètres utilisés par le <em>gestionnaire</em>.</span><span class="sxs-lookup"><span data-stu-id="8d717-119">Indicates the name of a server-side customization program (<em>handler</em>) that extends the functionality of the <strong>RDSServer.DataFactory</strong>, and any parameters used by the <em>handler</em>.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-118"><a href="handler-property-rds.md">Handler</a></span><span class="sxs-lookup"><span data-stu-id="788e0-118"><a href="handler-property-rds.md">Handler</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-119">Indique le nom d'un programme de personnalisation côté serveur (<em>gestionnaire</em>) qui étend les fonctionnalités de <strong>RDSServer.DataFactory</strong> et tous les paramètres utilisés par le <em>gestionnaire</em>.</span><span class="sxs-lookup"><span data-stu-id="788e0-119">Indicates the name of a server-side customization program (<em>handler</em>) that extends the functionality of the <strong>RDSServer.DataFactory</strong>, and any parameters used by the <em>handler</em>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d717-120"><a href="internettimeout-property-rds.md">InternetTimeout</a></span><span class="sxs-lookup"><span data-stu-id="8d717-120"><a href="internettimeout-property-rds.md">InternetTimeout</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-121">Indique le nombre de millisecondes s'écoulant avant l'expiration d'une requête.</span><span class="sxs-lookup"><span data-stu-id="8d717-121">Indicates the number of milliseconds to wait before a request times out.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-120"><a href="internettimeout-property-rds.md">InternetTimeout</a></span><span class="sxs-lookup"><span data-stu-id="788e0-120"><a href="internettimeout-property-rds.md">InternetTimeout</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-121">Indique le nombre de millisecondes s'écoulant avant l'expiration d'une requête.</span><span class="sxs-lookup"><span data-stu-id="788e0-121">Indicates the number of milliseconds to wait before a request times out.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d717-122"><a href="readystate-property-rds.md">ReadyState</a></span><span class="sxs-lookup"><span data-stu-id="8d717-122"><a href="readystate-property-rds.md">ReadyState</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-123">Indique la progression d'un objet <strong>DataControl</strong> lorsqu'il procède à l'extraction des données dans son objet <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="8d717-123">Indicates the progress of a <strong>DataControl</strong> object as it fetches data into its <strong>Recordset</strong> object.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-122"><a href="readystate-property-rds.md">ReadyState</a></span><span class="sxs-lookup"><span data-stu-id="788e0-122"><a href="readystate-property-rds.md">ReadyState</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-123">Indique la progression d'un objet <strong>DataControl</strong> lorsqu'il procède à l'extraction des données dans son objet <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="788e0-123">Indicates the progress of a <strong>DataControl</strong> object as it fetches data into its <strong>Recordset</strong> object.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d717-124"><a href="recordset-sourcerecordset-properties-rds.md">Recordset et SourceRecordset</a></span><span class="sxs-lookup"><span data-stu-id="8d717-124"><a href="recordset-sourcerecordset-properties-rds.md">Recordset and SourceRecordset</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-125">Indique l'objet <strong>Recordset</strong> retourné d'un objet métier personnalisé.</span><span class="sxs-lookup"><span data-stu-id="8d717-125">Indicates the <strong>Recordset</strong> object returned from a custom business object.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-124"><a href="recordset-sourcerecordset-properties-rds.md">Recordset et SourceRecordset</a></span><span class="sxs-lookup"><span data-stu-id="788e0-124"><a href="recordset-sourcerecordset-properties-rds.md">Recordset and SourceRecordset</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-125">Indique l'objet <strong>Recordset</strong> retourné d'un objet métier personnalisé.</span><span class="sxs-lookup"><span data-stu-id="788e0-125">Indicates the <strong>Recordset</strong> object returned from a custom business object.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d717-126"><a href="server-property-rds.md">Server</a></span><span class="sxs-lookup"><span data-stu-id="8d717-126"><a href="server-property-rds.md">Server</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-127">Indique le nom de l'IIS (Internet Information Services) et du protocole de communication.</span><span class="sxs-lookup"><span data-stu-id="8d717-127">Indicates the Internet Information Services (IIS) name and communication protocol.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-126"><a href="server-property-rds.md">Server</a></span><span class="sxs-lookup"><span data-stu-id="788e0-126"><a href="server-property-rds.md">Server</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-127">Indique le nom de l'IIS (Internet Information Services) et du protocole de communication.</span><span class="sxs-lookup"><span data-stu-id="788e0-127">Indicates the Internet Information Services (IIS) name and communication protocol.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d717-128"><a href="sortcolumn-property-rds.md">SortColumn</a></span><span class="sxs-lookup"><span data-stu-id="8d717-128"><a href="sortcolumn-property-rds.md">SortColumn</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-129">Indique la colonne selon laquelle les enregistrements sont triés.</span><span class="sxs-lookup"><span data-stu-id="8d717-129">Indicates by which column to sort the records.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-128"><a href="sortcolumn-property-rds.md">SortColumn</a></span><span class="sxs-lookup"><span data-stu-id="788e0-128"><a href="sortcolumn-property-rds.md">SortColumn</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-129">Indique la colonne selon laquelle les enregistrements sont triés.</span><span class="sxs-lookup"><span data-stu-id="788e0-129">Indicates by which column to sort the records.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d717-130"><a href="sortdirection-property-rds.md">SortDirection</a></span><span class="sxs-lookup"><span data-stu-id="8d717-130"><a href="sortdirection-property-rds.md">SortDirection</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-131">Indique si l'ordre de tri est croissant ou décroissant.</span><span class="sxs-lookup"><span data-stu-id="8d717-131">Indicates whether a sort order is ascending or descending.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-130"><a href="sortdirection-property-rds.md">SortDirection</a></span><span class="sxs-lookup"><span data-stu-id="788e0-130"><a href="sortdirection-property-rds.md">SortDirection</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-131">Indique si l'ordre de tri est croissant ou décroissant.</span><span class="sxs-lookup"><span data-stu-id="788e0-131">Indicates whether a sort order is ascending or descending.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d717-132"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></span><span class="sxs-lookup"><span data-stu-id="8d717-132"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-133">Indique la chaîne de requête utilisée pour extraire le <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="8d717-133">Indicates the query string used to retrieve the <strong>Recordset</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-132"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></span><span class="sxs-lookup"><span data-stu-id="788e0-132"><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-133">Indique la chaîne de requête utilisée pour extraire le <strong>Recordset</strong>.</span><span class="sxs-lookup"><span data-stu-id="788e0-133">Indicates the query string used to retrieve the <strong>Recordset</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d717-134"><a href="url-property-rds.md">URL</a></span><span class="sxs-lookup"><span data-stu-id="8d717-134"><a href="url-property-rds.md">URL</a></span></span></p></td>
-<td><p><span data-ttu-id="8d717-135">Indique une chaîne contenant une URL relative ou absolue.</span><span class="sxs-lookup"><span data-stu-id="8d717-135">Indicates a string that contains a relative or absolute URL.</span></span></p></td>
+<td><p><span data-ttu-id="788e0-134"><a href="url-property-rds.md">URL</a></span><span class="sxs-lookup"><span data-stu-id="788e0-134"><a href="url-property-rds.md">URL</a></span></span></p></td>
+<td><p><span data-ttu-id="788e0-135">Indique une chaîne contenant une URL relative ou absolue.</span><span class="sxs-lookup"><span data-stu-id="788e0-135">Indicates a string that contains a relative or absolute URL.</span></span></p></td>
 </tr>
 </tbody>
 </table>

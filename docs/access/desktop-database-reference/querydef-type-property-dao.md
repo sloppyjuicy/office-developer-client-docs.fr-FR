@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300944"
 ---
-# <a name="querydeftype-property-dao"></a><span data-ttu-id="20187-102">QueryDef.Type, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="20187-102">QueryDef.Type property (DAO)</span></span>
+# <a name="querydeftype-property-dao"></a><span data-ttu-id="4be5e-102">QueryDef.Type, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="4be5e-102">QueryDef.Type property (DAO)</span></span>
 
 
-<span data-ttu-id="20187-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20187-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4be5e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4be5e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="20187-104">Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet.</span><span class="sxs-lookup"><span data-stu-id="20187-104">Sets or returns a value that indicates the operational type or data type of an object.</span></span> <span data-ttu-id="20187-105">En lecture seule **integer**.</span><span class="sxs-lookup"><span data-stu-id="20187-105">Read-only **Integer**.</span></span>
+<span data-ttu-id="4be5e-104">Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet.</span><span class="sxs-lookup"><span data-stu-id="4be5e-104">Sets or returns a value that indicates the operational type or data type of an object.</span></span> <span data-ttu-id="4be5e-105">En lecture seule **integer**.</span><span class="sxs-lookup"><span data-stu-id="4be5e-105">Read-only **Integer**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="20187-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="20187-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4be5e-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4be5e-106">Syntax</span></span>
 
-<span data-ttu-id="20187-107">*expression* .Type</span><span class="sxs-lookup"><span data-stu-id="20187-107">*expression* .Type</span></span>
+<span data-ttu-id="4be5e-107">*expression* .Type</span><span class="sxs-lookup"><span data-stu-id="4be5e-107">*expression* .Type</span></span>
 
-<span data-ttu-id="20187-108">*expression* Variable représentant un objet **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="20187-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="4be5e-108">*expression* Variable représentant un objet **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="4be5e-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="20187-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="20187-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4be5e-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="4be5e-109">Remarks</span></span>
 
-<span data-ttu-id="20187-110">Les paramètres et valeurs de retour possible d'un objet **QueryDef** sont décrits dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="20187-110">For a **QueryDef** object, the possible settings and return values are shown in the following table.</span></span>
+<span data-ttu-id="4be5e-110">Les paramètres et valeurs de retour possible d'un objet **QueryDef** sont décrits dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="4be5e-110">For a **QueryDef** object, the possible settings and return values are shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -38,66 +38,66 @@ ms.locfileid: "32300944"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="20187-111">Constante</span><span class="sxs-lookup"><span data-stu-id="20187-111">Constant</span></span></p></th>
-<th><p><span data-ttu-id="20187-112">Type de requête</span><span class="sxs-lookup"><span data-stu-id="20187-112">Query type</span></span></p></th>
+<th><p><span data-ttu-id="4be5e-111">Constante</span><span class="sxs-lookup"><span data-stu-id="4be5e-111">Constant</span></span></p></th>
+<th><p><span data-ttu-id="4be5e-112">Type de requête</span><span class="sxs-lookup"><span data-stu-id="4be5e-112">Query type</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="20187-113"><strong>dbQAction</strong></span><span class="sxs-lookup"><span data-stu-id="20187-113"><strong>dbQAction</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-114">Action</span><span class="sxs-lookup"><span data-stu-id="20187-114">Action</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-113"><strong>dbQAction</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-113"><strong>dbQAction</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-114">Action</span><span class="sxs-lookup"><span data-stu-id="4be5e-114">Action</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="20187-115"><strong>dbQAppend</strong></span><span class="sxs-lookup"><span data-stu-id="20187-115"><strong>dbQAppend</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-116">Ajout</span><span class="sxs-lookup"><span data-stu-id="20187-116">Append</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-115"><strong>dbQAppend</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-115"><strong>dbQAppend</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-116">Ajout</span><span class="sxs-lookup"><span data-stu-id="4be5e-116">Append</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="20187-117"><strong>dbQCompound</strong></span><span class="sxs-lookup"><span data-stu-id="20187-117"><strong>dbQCompound</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-118">Composé</span><span class="sxs-lookup"><span data-stu-id="20187-118">Compound</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-117"><strong>dbQCompound</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-117"><strong>dbQCompound</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-118">Composé</span><span class="sxs-lookup"><span data-stu-id="4be5e-118">Compound</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="20187-119"><strong>dbQCrosstab</strong></span><span class="sxs-lookup"><span data-stu-id="20187-119"><strong>dbQCrosstab</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-120">Crosstab</span><span class="sxs-lookup"><span data-stu-id="20187-120">Crosstab</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-119"><strong>dbQCrosstab</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-119"><strong>dbQCrosstab</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-120">Crosstab</span><span class="sxs-lookup"><span data-stu-id="4be5e-120">Crosstab</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="20187-121"><strong>dbQDDL</strong></span><span class="sxs-lookup"><span data-stu-id="20187-121"><strong>dbQDDL</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-122">Définition des données</span><span class="sxs-lookup"><span data-stu-id="20187-122">Data-definition</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-121"><strong>dbQDDL</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-121"><strong>dbQDDL</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-122">Définition des données</span><span class="sxs-lookup"><span data-stu-id="4be5e-122">Data-definition</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="20187-123"><strong>dbQDelete</strong></span><span class="sxs-lookup"><span data-stu-id="20187-123"><strong>dbQDelete</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-124">Supprimer</span><span class="sxs-lookup"><span data-stu-id="20187-124">Delete</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-123"><strong>dbQDelete</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-123"><strong>dbQDelete</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-124">Supprimer</span><span class="sxs-lookup"><span data-stu-id="4be5e-124">Delete</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="20187-125"><strong>dbQMakeTable</strong></span><span class="sxs-lookup"><span data-stu-id="20187-125"><strong>dbQMakeTable</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-126">Création de table</span><span class="sxs-lookup"><span data-stu-id="20187-126">Make-table</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-125"><strong>dbQMakeTable</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-125"><strong>dbQMakeTable</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-126">Création de table</span><span class="sxs-lookup"><span data-stu-id="4be5e-126">Make-table</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="20187-127"><strong>dbQProcedure</strong></span><span class="sxs-lookup"><span data-stu-id="20187-127"><strong>dbQProcedure</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-128">Procédure (espaces de travail ODBCDirect uniquement)</span><span class="sxs-lookup"><span data-stu-id="20187-128">Procedure (ODBCDirect workspaces only)</span></span></p><p><span data-ttu-id="20187-129"><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="20187-129"><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="20187-130">Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="20187-130">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-127"><strong>dbQProcedure</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-127"><strong>dbQProcedure</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-128">Procédure (espaces de travail ODBCDirect uniquement)</span><span class="sxs-lookup"><span data-stu-id="4be5e-128">Procedure (ODBCDirect workspaces only)</span></span></p><p><span data-ttu-id="4be5e-129"><strong>NOTE</strong> : Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="4be5e-129"><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="4be5e-130">Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="4be5e-130">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="20187-131"><strong>dbQSelect</strong></span><span class="sxs-lookup"><span data-stu-id="20187-131"><strong>dbQSelect</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-132">Sélectionner</span><span class="sxs-lookup"><span data-stu-id="20187-132">Select</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-131"><strong>dbQSelect</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-131"><strong>dbQSelect</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-132">Sélectionner</span><span class="sxs-lookup"><span data-stu-id="4be5e-132">Select</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="20187-133"><strong>dbQSetOperation</strong></span><span class="sxs-lookup"><span data-stu-id="20187-133"><strong>dbQSetOperation</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-134">Union</span><span class="sxs-lookup"><span data-stu-id="20187-134">Union</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-133"><strong>dbQSetOperation</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-133"><strong>dbQSetOperation</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-134">Union</span><span class="sxs-lookup"><span data-stu-id="4be5e-134">Union</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="20187-135"><strong>dbQSPTBulk</strong></span><span class="sxs-lookup"><span data-stu-id="20187-135"><strong>dbQSPTBulk</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-136">Utilisé avec <strong>dbQSQLPassThrough</strong> pour spécifier une requête qui ne renvoie pas d’enregistrements (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="20187-136">Used with <strong>dbQSQLPassThrough</strong> to specify a query that doesn't return records (Microsoft Access workspaces only).</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-135"><strong>dbQSPTBulk</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-135"><strong>dbQSPTBulk</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-136">Utilisé avec <strong>dbQSQLPassThrough</strong> pour spécifier une requête qui ne renvoie pas d’enregistrements (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="4be5e-136">Used with <strong>dbQSQLPassThrough</strong> to specify a query that doesn't return records (Microsoft Access workspaces only).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="20187-137"><strong>dbQSQLPassThrough</strong></span><span class="sxs-lookup"><span data-stu-id="20187-137"><strong>dbQSQLPassThrough</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-138">Requête SQL directe (espaces de travail Microsoft Access uniquement)</span><span class="sxs-lookup"><span data-stu-id="20187-138">Pass-through (Microsoft Access workspaces only)</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-137"><strong>dbQSQLPassThrough</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-137"><strong>dbQSQLPassThrough</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-138">Requête SQL directe (espaces de travail Microsoft Access uniquement)</span><span class="sxs-lookup"><span data-stu-id="4be5e-138">Pass-through (Microsoft Access workspaces only)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="20187-139"><strong>dbQUpdate</strong></span><span class="sxs-lookup"><span data-stu-id="20187-139"><strong>dbQUpdate</strong></span></span></p></td>
-<td><p><span data-ttu-id="20187-140">Update</span><span class="sxs-lookup"><span data-stu-id="20187-140">Update</span></span></p></td>
+<td><p><span data-ttu-id="4be5e-139"><strong>dbQUpdate</strong></span><span class="sxs-lookup"><span data-stu-id="4be5e-139"><strong>dbQUpdate</strong></span></span></p></td>
+<td><p><span data-ttu-id="4be5e-140">Update</span><span class="sxs-lookup"><span data-stu-id="4be5e-140">Update</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="20187-141">Lorsque vous ajoutez un nouvel objet **[Field](field-object-dao.md)**, **[Parameter](parameter-object-dao.md)** ou **[Property](property-object-dao.md)** à la collection d'un objet **[Index](index-object-dao.md)**, **QueryDef**, **[Recordset](recordset-object-dao.md)** ou **[TableDef](tabledef-object-dao.md)**, une erreur se produit si la base de données sous-jacente ne prend pas en charge le type de données spécifié du nouvel objet.</span><span class="sxs-lookup"><span data-stu-id="20187-141">When you append a new **[Field](field-object-dao.md)**, **[Parameter](parameter-object-dao.md)**, or **[Property](property-object-dao.md)** object to the collection of an **[Index](index-object-dao.md)**, **QueryDef**, **[Recordset](recordset-object-dao.md)**, or **[TableDef](tabledef-object-dao.md)** object, an error occurs if the underlying database doesn't support the data type specified for the new object.</span></span>
+<span data-ttu-id="4be5e-141">Lorsque vous ajoutez un nouvel objet **[Field](field-object-dao.md)**, **[Parameter](parameter-object-dao.md)** ou **[Property](property-object-dao.md)** à la collection d'un objet **[Index](index-object-dao.md)**, **QueryDef**, **[Recordset](recordset-object-dao.md)** ou **[TableDef](tabledef-object-dao.md)**, une erreur se produit si la base de données sous-jacente ne prend pas en charge le type de données spécifié du nouvel objet.</span><span class="sxs-lookup"><span data-stu-id="4be5e-141">When you append a new **[Field](field-object-dao.md)**, **[Parameter](parameter-object-dao.md)**, or **[Property](property-object-dao.md)** object to the collection of an **[Index](index-object-dao.md)**, **QueryDef**, **[Recordset](recordset-object-dao.md)**, or **[TableDef](tabledef-object-dao.md)** object, an error occurs if the underlying database doesn't support the data type specified for the new object.</span></span>
 

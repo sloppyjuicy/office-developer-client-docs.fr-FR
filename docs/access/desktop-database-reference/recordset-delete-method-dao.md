@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300545"
 ---
-# <a name="recordsetdelete-method-dao"></a><span data-ttu-id="f97c9-102">Recordset.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="f97c9-102">Recordset.Delete method (DAO)</span></span>
+# <a name="recordsetdelete-method-dao"></a><span data-ttu-id="feddd-102">Recordset.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="feddd-102">Recordset.Delete method (DAO)</span></span>
 
 
-<span data-ttu-id="f97c9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f97c9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="feddd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="feddd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f97c9-104">Non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="f97c9-104">Not supported for this object.</span></span>
+<span data-ttu-id="feddd-104">Non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="feddd-104">Not supported for this object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f97c9-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f97c9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="feddd-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="feddd-105">Syntax</span></span>
 
-<span data-ttu-id="f97c9-106">*.* Supprimer</span><span class="sxs-lookup"><span data-stu-id="f97c9-106">*expression* .Delete</span></span>
+<span data-ttu-id="feddd-106">*.* Supprimer</span><span class="sxs-lookup"><span data-stu-id="feddd-106">*expression* .Delete</span></span>
 
-<span data-ttu-id="f97c9-107">*expression* Variable qui représente un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="f97c9-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="feddd-107">*expression* Variable qui représente un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="feddd-107">*expression* A variable that represents a **Recordset** object.</span></span>
 

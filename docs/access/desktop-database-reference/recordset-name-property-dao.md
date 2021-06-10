@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300378"
 ---
-# <a name="recordsetname-property-dao"></a><span data-ttu-id="beb91-102">Recordset.Name, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="beb91-102">Recordset.Name property (DAO)</span></span>
+# <a name="recordsetname-property-dao"></a><span data-ttu-id="50856-102">Recordset.Name, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="50856-102">Recordset.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="beb91-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="beb91-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="50856-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50856-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="beb91-104">Renvoie le nom de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="beb91-104">Returns the name of the specified object.</span></span> <span data-ttu-id="beb91-105">**String** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="beb91-105">Read-only **String**.</span></span>
+<span data-ttu-id="50856-p101">Renvoie le nom de l'objet spécifié. En lecture seule **chaîne**.</span><span class="sxs-lookup"><span data-stu-id="50856-p101">Returns the name of the specified object. Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="beb91-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="beb91-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="50856-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="50856-106">Syntax</span></span>
 
-<span data-ttu-id="beb91-107">*.* Nom</span><span class="sxs-lookup"><span data-stu-id="beb91-107">*expression* .Name</span></span>
+<span data-ttu-id="50856-107">*.* Nom</span><span class="sxs-lookup"><span data-stu-id="50856-107">*expression* .Name</span></span>
 
-<span data-ttu-id="beb91-108">*expression* Variable qui représente un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="beb91-108">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="50856-108">*expression* Variable qui représente un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="50856-108">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="beb91-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="beb91-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="50856-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="50856-109">Remarks</span></span>
 
-<span data-ttu-id="beb91-110">La propriété **Name** d'un objet **Recordset** ouvert à l'aide d'une instruction SQL représente les 256 premiers caractères de l'instruction.</span><span class="sxs-lookup"><span data-stu-id="beb91-110">The **Name** property of a **Recordset** object opened by using an SQL statement is the first 256 characters of the SQL statement.</span></span>
+<span data-ttu-id="50856-110">La propriété **Name** d'un objet **Recordset** ouvert à l'aide d'une instruction SQL représente les 256 premiers caractères de l'instruction.</span><span class="sxs-lookup"><span data-stu-id="50856-110">The **Name** property of a **Recordset** object opened by using an SQL statement is the first 256 characters of the SQL statement.</span></span>
 

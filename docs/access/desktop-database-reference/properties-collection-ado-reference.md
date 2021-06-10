@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301315"
 ---
-# <a name="properties-collection-ado-reference"></a><span data-ttu-id="c0638-102">Properties collection (ADO) reference</span><span class="sxs-lookup"><span data-stu-id="c0638-102">Properties collection (ADO) reference</span></span>
+# <a name="properties-collection-ado-reference"></a><span data-ttu-id="bf47b-102">Properties collection (ADO) reference</span><span class="sxs-lookup"><span data-stu-id="bf47b-102">Properties collection (ADO) reference</span></span>
 
-<span data-ttu-id="c0638-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0638-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bf47b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bf47b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c0638-104">Properties, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="c0638-104">Properties collection (ADO)</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="c0638-105">Properties, collection – Propriétés, méthodes et événements</span><span class="sxs-lookup"><span data-stu-id="c0638-105">Properties collection properties, methods, and events</span></span>](properties-collection-properties-methods-and-events.md)
+- [<span data-ttu-id="bf47b-104">Properties, collection (ADO)</span><span class="sxs-lookup"><span data-stu-id="bf47b-104">Properties collection (ADO)</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="bf47b-105">Properties, collection – Propriétés, méthodes et événements</span><span class="sxs-lookup"><span data-stu-id="bf47b-105">Properties collection properties, methods, and events</span></span>](properties-collection-properties-methods-and-events.md)
 

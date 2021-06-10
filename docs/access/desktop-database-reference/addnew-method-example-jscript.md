@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280208"
 ---
-# <a name="addnew-method-example-jscript"></a><span data-ttu-id="3b583-102">AddNew, méthode – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="3b583-102">AddNew method example (JScript)</span></span>
+# <a name="addnew-method-example-jscript"></a><span data-ttu-id="c2e7c-102">AddNew, méthode – Exemple (JScript)</span><span class="sxs-lookup"><span data-stu-id="c2e7c-102">AddNew method example (JScript)</span></span>
 
-<span data-ttu-id="3b583-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b583-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c2e7c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2e7c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3b583-p101">Cet exemple fait appel à la méthode [AddNew](addnew-method-ado.md) pour créer un enregistrement avec le nom spécifié. Coupez le code suivant, collez-le dans le Bloc-notes ou dans un autre éditeur de texte, puis enregistrez-le sous le nom **AddNewJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="3b583-p101">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
+<span data-ttu-id="c2e7c-p101">Cet exemple fait appel à la méthode [AddNew](addnew-method-ado.md) pour créer un enregistrement avec le nom spécifié. Coupez le code suivant, collez-le dans le Bloc-notes ou dans un autre éditeur de texte, puis enregistrez-le sous le nom **AddNewJS.asp**.</span><span class="sxs-lookup"><span data-stu-id="c2e7c-p101">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name. Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginAddNewJS --> 

@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301371"
 ---
-# <a name="procedures-append-method-example-vb"></a><span data-ttu-id="68e16-102">Procedures Append, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="68e16-102">Procedures Append method example (VB)</span></span>
+# <a name="procedures-append-method-example-vb"></a><span data-ttu-id="f8fcd-102">Procedures Append, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="f8fcd-102">Procedures Append method example (VB)</span></span>
 
 
-<span data-ttu-id="68e16-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="68e16-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f8fcd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8fcd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="68e16-104">Le code suivant indique comment utiliser un objet [Command](command-object-ado.md) et la méthode [Append](procedures-collection-adox.md) de la collection [Procedures](append-method-adox-procedures.md) pour créer une procédure dans la source de données sous-jacente.</span><span class="sxs-lookup"><span data-stu-id="68e16-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Procedures](procedures-collection-adox.md) collection [Append](append-method-adox-procedures.md) method to create a new procedure in the underlying data source.</span></span>
+<span data-ttu-id="f8fcd-104">Le code suivant indique comment utiliser un objet [Command](command-object-ado.md) et la méthode [Append](procedures-collection-adox.md) de la collection [Procedures](append-method-adox-procedures.md) pour créer une procédure dans la source de données sous-jacente.</span><span class="sxs-lookup"><span data-stu-id="f8fcd-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Procedures](procedures-collection-adox.md) collection [Append](append-method-adox-procedures.md) method to create a new procedure in the underlying data source.</span></span>
 
 ```vb 
  
