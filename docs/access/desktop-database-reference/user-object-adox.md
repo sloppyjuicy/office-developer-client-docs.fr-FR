@@ -14,26 +14,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313159"
 ---
-# <a name="user-object-adox"></a><span data-ttu-id="01f0a-102">Objet User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="01f0a-102">User object (ADOX)</span></span>
+# <a name="user-object-adox"></a><span data-ttu-id="9b33e-102">Objet User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="9b33e-102">User object (ADOX)</span></span>
 
 
-<span data-ttu-id="01f0a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="01f0a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9b33e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b33e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="01f0a-104">Représente un compte d'utilisateur qui dispose d'autorisations d'accès à une base de données sécurisée.</span><span class="sxs-lookup"><span data-stu-id="01f0a-104">Represents a user account that has access permissions within a secured database.</span></span>
+<span data-ttu-id="9b33e-104">Représente un compte d'utilisateur qui dispose d'autorisations d'accès à une base de données sécurisée.</span><span class="sxs-lookup"><span data-stu-id="9b33e-104">Represents a user account that has access permissions within a secured database.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="01f0a-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="01f0a-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9b33e-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="9b33e-105">Remarks</span></span>
 
-<span data-ttu-id="01f0a-p101">La collection [Users](users-collection-adox.md) d’un [catalogue](catalog-object-adox.md) représente tous les utilisateurs du catalogue. La collection **Users** d’un [groupe](group-object-adox.md) représente les utilisateurs du groupe spécifique uniquement.</span><span class="sxs-lookup"><span data-stu-id="01f0a-p101">The [Users](users-collection-adox.md) collection of a [Catalog](catalog-object-adox.md) represents all the catalog's users. The **Users** collection for a [Group](group-object-adox.md) represents only the users of the specific group.</span></span>
+<span data-ttu-id="9b33e-p101">La collection [Users](users-collection-adox.md) d’un [catalogue](catalog-object-adox.md) représente tous les utilisateurs du catalogue. La collection **Users** d’un [groupe](group-object-adox.md) représente les utilisateurs du groupe spécifique uniquement.</span><span class="sxs-lookup"><span data-stu-id="9b33e-p101">The [Users](users-collection-adox.md) collection of a [Catalog](catalog-object-adox.md) represents all the catalog's users. The **Users** collection for a [Group](group-object-adox.md) represents only the users of the specific group.</span></span>
 
-<span data-ttu-id="01f0a-108">Avec les propriétés, collections et méthodes d'un objet **User**, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="01f0a-108">With the properties, collections, and methods of a **User** object, you can:</span></span>
+<span data-ttu-id="9b33e-108">Avec les propriétés, collections et méthodes d'un objet **User**, vous pouvez :</span><span class="sxs-lookup"><span data-stu-id="9b33e-108">With the properties, collections, and methods of a **User** object, you can:</span></span>
 
-  - <span data-ttu-id="01f0a-109">Identifier l’utilisateur à l’aide de la propriété [Name](name-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="01f0a-109">Identify the user with the [Name](name-property-adox.md) property.</span></span>
+  - <span data-ttu-id="9b33e-109">Identifier l’utilisateur à l’aide de la propriété [Name](name-property-adox.md).</span><span class="sxs-lookup"><span data-stu-id="9b33e-109">Identify the user with the [Name](name-property-adox.md) property.</span></span>
 
-  - <span data-ttu-id="01f0a-110">Modifier le mot de passe d’un utilisateur à l’aide de la méthode [ChangePassword](changepassword-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="01f0a-110">Change the password for a user with the [ChangePassword](changepassword-method-adox.md) method.</span></span>
+  - <span data-ttu-id="9b33e-110">Modifier le mot de passe d’un utilisateur à l’aide de la méthode [ChangePassword](changepassword-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="9b33e-110">Change the password for a user with the [ChangePassword](changepassword-method-adox.md) method.</span></span>
 
-  - <span data-ttu-id="01f0a-111">Déterminer si un utilisateur dispose des autorisations de lecture, écriture ou suppression à l’aide des méthodes [GetPermissions](getpermissions-method-adox.md) et [SetPermissions](setpermissions-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="01f0a-111">Determine whether a user has read, write, or delete permissions with the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span>
+  - <span data-ttu-id="9b33e-111">Déterminer si un utilisateur dispose des autorisations de lecture, écriture ou suppression à l’aide des méthodes [GetPermissions](getpermissions-method-adox.md) et [SetPermissions](setpermissions-method-adox.md).</span><span class="sxs-lookup"><span data-stu-id="9b33e-111">Determine whether a user has read, write, or delete permissions with the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods.</span></span>
 
-  - <span data-ttu-id="01f0a-112">Accéder aux groupes auxquels un utilisateur appartient à l’aide de la collection [Groups](groups-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="01f0a-112">Access the groups to which a user belongs with the [Groups](groups-collection-adox.md) collection.</span></span>
+  - <span data-ttu-id="9b33e-112">Accéder aux groupes auxquels un utilisateur appartient à l’aide de la collection [Groups](groups-collection-adox.md).</span><span class="sxs-lookup"><span data-stu-id="9b33e-112">Access the groups to which a user belongs with the [Groups](groups-collection-adox.md) collection.</span></span>
 
-  - <span data-ttu-id="01f0a-113">Accéder aux propriétés spécifiques au fournisseur à l’aide de la collection [Properties](properties-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="01f0a-113">Access provider-specific properties with the [Properties](properties-collection-ado.md) collection.</span></span>
+  - <span data-ttu-id="9b33e-113">Accéder aux propriétés spécifiques au fournisseur à l’aide de la collection [Properties](properties-collection-ado.md).</span><span class="sxs-lookup"><span data-stu-id="9b33e-113">Access provider-specific properties with the [Properties](properties-collection-ado.md) collection.</span></span>
 

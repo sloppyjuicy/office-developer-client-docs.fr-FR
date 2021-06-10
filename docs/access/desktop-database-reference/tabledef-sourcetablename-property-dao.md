@@ -18,26 +18,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314258"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a><span data-ttu-id="39e18-102">TableDef.SourceTableName, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="39e18-102">TableDef.SourceTableName property (DAO)</span></span>
+# <a name="tabledefsourcetablename-property-dao"></a><span data-ttu-id="ac439-102">TableDef.SourceTableName, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="ac439-102">TableDef.SourceTableName property (DAO)</span></span>
 
 
-<span data-ttu-id="39e18-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="39e18-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="ac439-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac439-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="39e18-104">Définit ou renvoie un valeur spécifiant le nom d’une table liée ou celui d’une table de base (espaces de travail Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="39e18-104">Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="ac439-104">Définit ou renvoie un valeur spécifiant le nom d’une table liée ou celui d’une table de base (espaces de travail Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="ac439-104">Sets or returns a value that specifies the name of a linked table or the name of a base table (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="39e18-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="39e18-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ac439-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ac439-105">Syntax</span></span>
 
-<span data-ttu-id="39e18-106">*.* SourceTableName</span><span class="sxs-lookup"><span data-stu-id="39e18-106">*expression* .SourceTableName</span></span>
+<span data-ttu-id="ac439-106">*.* SourceTableName</span><span class="sxs-lookup"><span data-stu-id="ac439-106">*expression* .SourceTableName</span></span>
 
-<span data-ttu-id="39e18-107">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="39e18-107">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="ac439-107">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="ac439-107">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="39e18-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="39e18-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ac439-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="ac439-108">Remarks</span></span>
 
-<span data-ttu-id="39e18-p101">Le paramètre de cette propriété est en lecture seule pour une table de base et en lecture-écriture pour une table liée ou un objet qui n’est pas ajouté à une collection. Dans le cas d’une table de base, le paramètre est une chaîne nulle ("").</span><span class="sxs-lookup"><span data-stu-id="39e18-p101">This property setting is read-only for a base table and read/write for a linked table or an object not appended to a collection. For a base table, the setting is a zero-length string ("").</span></span>
+<span data-ttu-id="ac439-p101">Le paramètre de cette propriété est en lecture seule pour une table de base et en lecture-écriture pour une table liée ou un objet qui n’est pas ajouté à une collection. Dans le cas d’une table de base, le paramètre est une chaîne nulle ("").</span><span class="sxs-lookup"><span data-stu-id="ac439-p101">This property setting is read-only for a base table and read/write for a linked table or an object not appended to a collection. For a base table, the setting is a zero-length string ("").</span></span>
 
-## <a name="example"></a><span data-ttu-id="39e18-111">Exemple</span><span class="sxs-lookup"><span data-stu-id="39e18-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ac439-111">Exemple</span><span class="sxs-lookup"><span data-stu-id="ac439-111">Example</span></span>
 
-<span data-ttu-id="39e18-p102">Cet exemple utilise les propriétés **Connect** et **SourceTableName** pour attacher plusieurs tables externes à une base de données Microsoft Access. La fonction ConnectOutput est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="39e18-p102">This example uses the **Connect** and **SourceTableName** properties to link various external tables to a Microsoft Access database. The ConnectOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="ac439-p102">Cet exemple utilise les propriétés **Connect** et **SourceTableName** pour attacher plusieurs tables externes à une base de données Microsoft Access. La fonction ConnectOutput est nécessaire à l'exécution de cette procédure.</span><span class="sxs-lookup"><span data-stu-id="ac439-p102">This example uses the **Connect** and **SourceTableName** properties to link various external tables to a Microsoft Access database. The ConnectOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub ConnectX() 

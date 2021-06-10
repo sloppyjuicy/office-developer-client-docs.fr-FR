@@ -14,27 +14,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314391"
 ---
-# <a name="tabledefattributes-property-dao"></a><span data-ttu-id="2da57-102">TableDef.Attributes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="2da57-102">TableDef.Attributes property (DAO)</span></span>
+# <a name="tabledefattributes-property-dao"></a><span data-ttu-id="e0c8a-102">TableDef.Attributes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0c8a-102">TableDef.Attributes property (DAO)</span></span>
 
 
-<span data-ttu-id="2da57-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2da57-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e0c8a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0c8a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="2da57-104">Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="2da57-104">Sets or returns a value that indicates one or more characteristics of a **TableDef** object.</span></span> <span data-ttu-id="2da57-105">**Long** (en lecture/écriture).</span><span class="sxs-lookup"><span data-stu-id="2da57-105">Read/write **Long**.</span></span>
+<span data-ttu-id="e0c8a-p101">Définit ou renvoie une valeur qui indique une ou plusieurs caractéristiques d'un objet **TableDef**. Type de données **Long** en lecture/écriture.</span><span class="sxs-lookup"><span data-stu-id="e0c8a-p101">Sets or returns a value that indicates one or more characteristics of a **TableDef** object. Read/write **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2da57-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2da57-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e0c8a-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e0c8a-106">Syntax</span></span>
 
-<span data-ttu-id="2da57-107">*expression* .Attributes</span><span class="sxs-lookup"><span data-stu-id="2da57-107">*expression* .Attributes</span></span>
+<span data-ttu-id="e0c8a-107">*expression* .Attributes</span><span class="sxs-lookup"><span data-stu-id="e0c8a-107">*expression* .Attributes</span></span>
 
-<span data-ttu-id="2da57-108">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="2da57-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="e0c8a-108">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="e0c8a-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2da57-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="2da57-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e0c8a-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="e0c8a-109">Remarks</span></span>
 
-<span data-ttu-id="2da57-110">Cette propriété est en lecture/écriture pour les objets non encore ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="2da57-110">For an object not yet appended to a collection, this property is read/write.</span></span>
+<span data-ttu-id="e0c8a-110">Cette propriété est en lecture/écriture pour les objets non encore ajoutés à une collection.</span><span class="sxs-lookup"><span data-stu-id="e0c8a-110">For an object not yet appended to a collection, this property is read/write.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2da57-111">Exemple</span><span class="sxs-lookup"><span data-stu-id="2da57-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e0c8a-111">Exemple</span><span class="sxs-lookup"><span data-stu-id="e0c8a-111">Example</span></span>
 
-<span data-ttu-id="2da57-112">Cet exemple affiche la propriété **Attributes** des objets **Field**, **Relation** et **TableDef** dans la base de données Northwind.</span><span class="sxs-lookup"><span data-stu-id="2da57-112">This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
+<span data-ttu-id="e0c8a-112">Cet exemple affiche la propriété **Attributes** des objets **Field**, **Relation** et **TableDef** dans la base de données Northwind.</span><span class="sxs-lookup"><span data-stu-id="e0c8a-112">This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
 
 ```vb 
 Sub AttributesX() 

@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312144"
 ---
-# <a name="view-object-adox-reference"></a><span data-ttu-id="51dfd-102">Référence de l’objet View (ADOX)</span><span class="sxs-lookup"><span data-stu-id="51dfd-102">View object (ADOX) reference</span></span>
+# <a name="view-object-adox-reference"></a><span data-ttu-id="c2a17-102">Référence de l’objet View (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c2a17-102">View object (ADOX) reference</span></span>
 
-<span data-ttu-id="51dfd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51dfd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c2a17-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2a17-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="51dfd-104">View, objet (ADOX)</span><span class="sxs-lookup"><span data-stu-id="51dfd-104">View object (ADOX)</span></span>](view-object-adox.md)
-- [<span data-ttu-id="51dfd-105">Afficher les propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="51dfd-105">View properties, methods, and events (ADOX)</span></span>](view-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="c2a17-104">View, objet (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c2a17-104">View object (ADOX)</span></span>](view-object-adox.md)
+- [<span data-ttu-id="c2a17-105">Afficher les propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c2a17-105">View properties, methods, and events (ADOX)</span></span>](view-properties-methods-and-events-adox.md)
 

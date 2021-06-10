@@ -14,24 +14,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314314"
 ---
-# <a name="tabledef-properties-dao"></a><span data-ttu-id="fde48-102">TableDef, propriétés (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-102">TableDef properties (DAO)</span></span>
+# <a name="tabledef-properties-dao"></a><span data-ttu-id="1fcd0-102">TableDef, propriétés (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-102">TableDef properties (DAO)</span></span>
 
-<span data-ttu-id="fde48-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fde48-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1fcd0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1fcd0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="fde48-104">TableDef.Attributes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-104">TableDef.Attributes property (DAO)</span></span>](tabledef-attributes-property-dao.md)
-- [<span data-ttu-id="fde48-105">TableDef.ConflictTable, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-105">TableDef.ConflictTable property (DAO)</span></span>](tabledef-conflicttable-property-dao.md)
-- [<span data-ttu-id="fde48-106">TableDef.Connect, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-106">TableDef.Connect property (DAO)</span></span>](tabledef-connect-property-dao.md)
-- [<span data-ttu-id="fde48-107">TableDef.DateCreated, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-107">TableDef.DateCreated property (DAO)</span></span>](tabledef-datecreated-property-dao.md)
-- [<span data-ttu-id="fde48-108">TableDef.Fields, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-108">TableDef.Fields property (DAO)</span></span>](tabledef-fields-property-dao.md)
-- [<span data-ttu-id="fde48-109">TableDef.Indexes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-109">TableDef.Indexes property (DAO)</span></span>](tabledef-indexes-property-dao.md)
-- [<span data-ttu-id="fde48-110">TableDef.LastUpdated, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-110">TableDef.LastUpdated property (DAO)</span></span>](tabledef-lastupdated-property-dao.md)
-- [<span data-ttu-id="fde48-111">TableDef.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-111">TableDef.Name property (DAO)</span></span>](tabledef-name-property-dao.md)
-- [<span data-ttu-id="fde48-112">TableDef.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-112">TableDef.Properties property (DAO)</span></span>](tabledef-properties-property-dao.md)
-- [<span data-ttu-id="fde48-113">TableDef.RecordCount, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-113">TableDef.RecordCount property (DAO)</span></span>](tabledef-recordcount-property-dao.md)
-- [<span data-ttu-id="fde48-114">TableDef.ReplicaFilter, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-114">TableDef.ReplicaFilter property (DAO)</span></span>](tabledef-replicafilter-property-dao.md)
-- [<span data-ttu-id="fde48-115">TableDef.SourceTableName, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-115">TableDef.SourceTableName property (DAO)</span></span>](tabledef-sourcetablename-property-dao.md)
-- [<span data-ttu-id="fde48-116">TableDef.Updatable, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-116">TableDef.Updatable property (DAO)</span></span>](tabledef-updatable-property-dao.md)
-- [<span data-ttu-id="fde48-117">TableDef.ValidationRule, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-117">TableDef.ValidationRule property (DAO)</span></span>](tabledef-validationrule-property-dao.md)
-- [<span data-ttu-id="fde48-118">TableDef.ValidationText, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="fde48-118">TableDef.ValidationText property (DAO)</span></span>](tabledef-validationtext-property-dao.md)
+- [<span data-ttu-id="1fcd0-104">TableDef.Attributes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-104">TableDef.Attributes property (DAO)</span></span>](tabledef-attributes-property-dao.md)
+- [<span data-ttu-id="1fcd0-105">TableDef.ConflictTable, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-105">TableDef.ConflictTable property (DAO)</span></span>](tabledef-conflicttable-property-dao.md)
+- [<span data-ttu-id="1fcd0-106">TableDef.Connect, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-106">TableDef.Connect property (DAO)</span></span>](tabledef-connect-property-dao.md)
+- [<span data-ttu-id="1fcd0-107">TableDef.DateCreated, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-107">TableDef.DateCreated property (DAO)</span></span>](tabledef-datecreated-property-dao.md)
+- [<span data-ttu-id="1fcd0-108">TableDef.Fields, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-108">TableDef.Fields property (DAO)</span></span>](tabledef-fields-property-dao.md)
+- [<span data-ttu-id="1fcd0-109">TableDef.Indexes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-109">TableDef.Indexes property (DAO)</span></span>](tabledef-indexes-property-dao.md)
+- [<span data-ttu-id="1fcd0-110">TableDef.LastUpdated, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-110">TableDef.LastUpdated property (DAO)</span></span>](tabledef-lastupdated-property-dao.md)
+- [<span data-ttu-id="1fcd0-111">TableDef.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-111">TableDef.Name property (DAO)</span></span>](tabledef-name-property-dao.md)
+- [<span data-ttu-id="1fcd0-112">TableDef.Properties, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-112">TableDef.Properties property (DAO)</span></span>](tabledef-properties-property-dao.md)
+- [<span data-ttu-id="1fcd0-113">TableDef.RecordCount, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-113">TableDef.RecordCount property (DAO)</span></span>](tabledef-recordcount-property-dao.md)
+- [<span data-ttu-id="1fcd0-114">TableDef.ReplicaFilter, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-114">TableDef.ReplicaFilter property (DAO)</span></span>](tabledef-replicafilter-property-dao.md)
+- [<span data-ttu-id="1fcd0-115">TableDef.SourceTableName, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-115">TableDef.SourceTableName property (DAO)</span></span>](tabledef-sourcetablename-property-dao.md)
+- [<span data-ttu-id="1fcd0-116">TableDef.Updatable, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-116">TableDef.Updatable property (DAO)</span></span>](tabledef-updatable-property-dao.md)
+- [<span data-ttu-id="1fcd0-117">TableDef.ValidationRule, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-117">TableDef.ValidationRule property (DAO)</span></span>](tabledef-validationrule-property-dao.md)
+- [<span data-ttu-id="1fcd0-118">TableDef.ValidationText, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="1fcd0-118">TableDef.ValidationText property (DAO)</span></span>](tabledef-validationtext-property-dao.md)
 
 

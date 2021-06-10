@@ -14,23 +14,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312956"
 ---
-# <a name="user-properties-methods-and-events-adox"></a><span data-ttu-id="f6ae7-102">User properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f6ae7-102">User properties, methods, and events (ADOX)</span></span>
+# <a name="user-properties-methods-and-events-adox"></a><span data-ttu-id="63485-102">User properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="63485-102">User properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="f6ae7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f6ae7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="63485-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="63485-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="f6ae7-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="f6ae7-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="63485-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="63485-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="f6ae7-105">Groups, collection</span><span class="sxs-lookup"><span data-stu-id="f6ae7-105">Groups collection</span></span>](groups-collection-adox.md)
-- [<span data-ttu-id="f6ae7-106">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="f6ae7-106">Name property</span></span>](name-property-adox.md)
-- [<span data-ttu-id="f6ae7-107">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="f6ae7-107">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="63485-105">Groups, collection</span><span class="sxs-lookup"><span data-stu-id="63485-105">Groups collection</span></span>](groups-collection-adox.md)
+- [<span data-ttu-id="63485-106">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="63485-106">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="63485-107">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="63485-107">Properties collection</span></span>](properties-collection-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="f6ae7-108">Méthodes</span><span class="sxs-lookup"><span data-stu-id="f6ae7-108">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="63485-108">Méthodes</span><span class="sxs-lookup"><span data-stu-id="63485-108">Methods</span></span>
 
-- [<span data-ttu-id="f6ae7-109">ChangePassword, méthode</span><span class="sxs-lookup"><span data-stu-id="f6ae7-109">ChangePassword method</span></span>](changepassword-method-adox.md)
-- [<span data-ttu-id="f6ae7-110">GetPermissions, méthode</span><span class="sxs-lookup"><span data-stu-id="f6ae7-110">GetPermissions method</span></span>](getpermissions-method-adox.md)
-- [<span data-ttu-id="f6ae7-111">SetPermissions, méthode</span><span class="sxs-lookup"><span data-stu-id="f6ae7-111">SetPermissions method</span></span>](setpermissions-method-adox.md)
+- [<span data-ttu-id="63485-109">ChangePassword, méthode</span><span class="sxs-lookup"><span data-stu-id="63485-109">ChangePassword method</span></span>](changepassword-method-adox.md)
+- [<span data-ttu-id="63485-110">GetPermissions, méthode</span><span class="sxs-lookup"><span data-stu-id="63485-110">GetPermissions method</span></span>](getpermissions-method-adox.md)
+- [<span data-ttu-id="63485-111">SetPermissions, méthode</span><span class="sxs-lookup"><span data-stu-id="63485-111">SetPermissions method</span></span>](setpermissions-method-adox.md)
 
-## <a name="events"></a><span data-ttu-id="f6ae7-112">Événements</span><span class="sxs-lookup"><span data-stu-id="f6ae7-112">Events</span></span>
+## <a name="events"></a><span data-ttu-id="63485-112">Événements</span><span class="sxs-lookup"><span data-stu-id="63485-112">Events</span></span>
 
-<span data-ttu-id="f6ae7-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="f6ae7-113">None.</span></span>
+<span data-ttu-id="63485-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="63485-113">None.</span></span>
 

@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314244"
 ---
-# <a name="tabledefvalidationtext-property-dao"></a><span data-ttu-id="7145e-102">TableDef.ValidationText, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="7145e-102">TableDef.ValidationText property (DAO)</span></span>
+# <a name="tabledefvalidationtext-property-dao"></a><span data-ttu-id="411a3-102">TableDef.ValidationText, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="411a3-102">TableDef.ValidationText property (DAO)</span></span>
 
 
-<span data-ttu-id="7145e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7145e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="411a3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="411a3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7145e-p101">Définit ou renvoie une valeur qui spécifie le texte du message que votre application affiche si la valeur d'un objet **Field** n'est pas conforme à la règle de validation spécifiée par la valeur de la propriété **ValidationRule** (espaces de travail Microsoft Access uniquement). Valeur **String** en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="7145e-p101">Sets or returns a value that specifies the text of the message that your application displays if the value of a **Field** object doesn't satisfy the validation rule specified by the **ValidationRule** property setting (Microsoft Access workspaces only). Read/write **String**.</span></span>
+<span data-ttu-id="411a3-p101">Définit ou renvoie une valeur qui spécifie le texte du message que votre application affiche si la valeur d'un objet **Field** n'est pas conforme à la règle de validation spécifiée par la valeur de la propriété **ValidationRule** (espaces de travail Microsoft Access uniquement). Valeur **String** en lecture-écriture.</span><span class="sxs-lookup"><span data-stu-id="411a3-p101">Sets or returns a value that specifies the text of the message that your application displays if the value of a **Field** object doesn't satisfy the validation rule specified by the **ValidationRule** property setting (Microsoft Access workspaces only). Read/write **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7145e-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7145e-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="411a3-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="411a3-106">Syntax</span></span>
 
-<span data-ttu-id="7145e-107">*.* ValidationText</span><span class="sxs-lookup"><span data-stu-id="7145e-107">*expression* .ValidationText</span></span>
+<span data-ttu-id="411a3-107">*.* ValidationText</span><span class="sxs-lookup"><span data-stu-id="411a3-107">*expression* .ValidationText</span></span>
 
-<span data-ttu-id="7145e-108">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="7145e-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="411a3-108">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="411a3-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7145e-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="7145e-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="411a3-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="411a3-109">Remarks</span></span>
 
-<span data-ttu-id="7145e-110">Pour un objet **[TableDef](tabledef-object-dao.md)**, cette propriété est en lecture seule pour une table liée et en lecture/écriture pour une table de base.</span><span class="sxs-lookup"><span data-stu-id="7145e-110">For a **[TableDef](tabledef-object-dao.md)** object, this property setting is read-only for a linked table and read/write for a base table.</span></span>
+<span data-ttu-id="411a3-110">Pour un objet **[TableDef](tabledef-object-dao.md)**, cette propriété est en lecture seule pour une table liée et en lecture/écriture pour une table de base.</span><span class="sxs-lookup"><span data-stu-id="411a3-110">For a **[TableDef](tabledef-object-dao.md)** object, this property setting is read-only for a linked table and read/write for a base table.</span></span>
 

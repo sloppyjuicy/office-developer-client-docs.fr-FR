@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313166"
 ---
-# <a name="user-object-adox-reference"></a><span data-ttu-id="c2aa5-102">Référence de l’objet User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c2aa5-102">User object (ADOX) reference</span></span>
+# <a name="user-object-adox-reference"></a><span data-ttu-id="5f4ff-102">Référence de l’objet User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5f4ff-102">User object (ADOX) reference</span></span>
 
-<span data-ttu-id="c2aa5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2aa5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5f4ff-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5f4ff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c2aa5-104">Objet User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c2aa5-104">User object (ADOX)</span></span>](user-object-adox.md)
-- [<span data-ttu-id="c2aa5-105">User properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="c2aa5-105">User properties, methods, and events (ADOX)</span></span>](user-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="5f4ff-104">Objet User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5f4ff-104">User object (ADOX)</span></span>](user-object-adox.md)
+- [<span data-ttu-id="5f4ff-105">User properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="5f4ff-105">User properties, methods, and events (ADOX)</span></span>](user-properties-methods-and-events-adox.md)
 

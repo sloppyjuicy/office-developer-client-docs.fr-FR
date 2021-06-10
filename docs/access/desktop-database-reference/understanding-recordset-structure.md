@@ -14,15 +14,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314125"
 ---
-# <a name="understanding-recordset-structure"></a><span data-ttu-id="48e49-102">Présentation de la structure du recordset</span><span class="sxs-lookup"><span data-stu-id="48e49-102">Understanding Recordset structure</span></span>
+# <a name="understanding-recordset-structure"></a><span data-ttu-id="32583-102">Présentation de la structure du recordset</span><span class="sxs-lookup"><span data-stu-id="32583-102">Understanding Recordset structure</span></span>
 
-<span data-ttu-id="48e49-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48e49-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="32583-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="32583-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="48e49-104">Chaque objet **Recordset** possède une collection **Fields** constituée d'un ou plusieurs objets **Field**.</span><span class="sxs-lookup"><span data-stu-id="48e49-104">Every **Recordset** has a **Fields** collection consisting of one or more **Field** objects.</span></span> <span data-ttu-id="48e49-105">Un objet **Field** représente généralement une colonne de table.</span><span class="sxs-lookup"><span data-stu-id="48e49-105">A **Field** object usually represents a table column.</span></span> 
+<span data-ttu-id="32583-104">Chaque objet **Recordset** possède une collection **Fields** constituée d'un ou plusieurs objets **Field**.</span><span class="sxs-lookup"><span data-stu-id="32583-104">Every **Recordset** has a **Fields** collection consisting of one or more **Field** objects.</span></span> <span data-ttu-id="32583-105">Un objet **Field** représente généralement une colonne de table.</span><span class="sxs-lookup"><span data-stu-id="32583-105">A **Field** object usually represents a table column.</span></span> 
 
-<span data-ttu-id="48e49-106">Les rubriques suivantes expliquent comment parcourir la collection **Fields** et obtenir des informations sur chaque champ.</span><span class="sxs-lookup"><span data-stu-id="48e49-106">The following topics explain how to navigate through the **Fields** collection and get information about each field.</span></span> <span data-ttu-id="48e49-107">Ils discutent ensuite du type d’informations qui vous sont disponibles via l’objet **Field** et de la façon de les utiliser.</span><span class="sxs-lookup"><span data-stu-id="48e49-107">They then discuss what kind of information is available to you via the **Field** object and how to use it.</span></span>
+<span data-ttu-id="32583-106">Les rubriques suivantes expliquent comment parcourir la collection **Fields** et obtenir des informations sur chaque champ.</span><span class="sxs-lookup"><span data-stu-id="32583-106">The following topics explain how to navigate through the **Fields** collection and get information about each field.</span></span> <span data-ttu-id="32583-107">Ils discutent ensuite du type d’informations qui vous sont disponibles via l’objet **Field** et de la façon de les utiliser.</span><span class="sxs-lookup"><span data-stu-id="32583-107">They then discuss what kind of information is available to you via the **Field** object and how to use it.</span></span>
 
-- [<span data-ttu-id="48e49-108">Fields, collection</span><span class="sxs-lookup"><span data-stu-id="48e49-108">Fields collection</span></span>](the-fields-collection.md)
-- [<span data-ttu-id="48e49-109">Field (objet)</span><span class="sxs-lookup"><span data-stu-id="48e49-109">Field object</span></span>](the-field-object.md)
-- [<span data-ttu-id="48e49-110">Utilisation des jeux d'enregistrements</span><span class="sxs-lookup"><span data-stu-id="48e49-110">Working with Recordsets</span></span>](working-with-recordsets.md)
+- [<span data-ttu-id="32583-108">Fields, collection</span><span class="sxs-lookup"><span data-stu-id="32583-108">Fields collection</span></span>](the-fields-collection.md)
+- [<span data-ttu-id="32583-109">Field (objet)</span><span class="sxs-lookup"><span data-stu-id="32583-109">Field object</span></span>](the-field-object.md)
+- [<span data-ttu-id="32583-110">Utilisation des jeux d'enregistrements</span><span class="sxs-lookup"><span data-stu-id="32583-110">Working with Recordsets</span></span>](working-with-recordsets.md)
 

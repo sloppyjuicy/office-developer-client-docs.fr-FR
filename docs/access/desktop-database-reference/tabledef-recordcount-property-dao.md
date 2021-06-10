@@ -14,22 +14,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314286"
 ---
-# <a name="tabledefrecordcount-property-dao"></a><span data-ttu-id="f3680-102">TableDef.RecordCount, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="f3680-102">TableDef.RecordCount property (DAO)</span></span>
+# <a name="tabledefrecordcount-property-dao"></a><span data-ttu-id="162fe-102">TableDef.RecordCount, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="162fe-102">TableDef.RecordCount property (DAO)</span></span>
 
 
-<span data-ttu-id="f3680-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3680-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="162fe-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="162fe-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f3680-104">Renvoie le nombre total d'enregistrements dans un objet **[TableDef](tabledef-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="f3680-104">Returns the total number of records in a **[TableDef](tabledef-object-dao.md)** object.</span></span> <span data-ttu-id="f3680-105">Type de données **Long** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="f3680-105">Read-only **Long**.</span></span>
+<span data-ttu-id="162fe-p101">Renvoie le nombre total d'enregistrements dans un objet **[TableDef](tabledef-object-dao.md)**. Type de données **Long** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="162fe-p101">Returns the total number of records in a **[TableDef](tabledef-object-dao.md)** object. Read-only **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f3680-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f3680-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="162fe-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="162fe-106">Syntax</span></span>
 
-<span data-ttu-id="f3680-107">*expression* .RecordCount</span><span class="sxs-lookup"><span data-stu-id="f3680-107">*expression* .RecordCount</span></span>
+<span data-ttu-id="162fe-107">*expression* .RecordCount</span><span class="sxs-lookup"><span data-stu-id="162fe-107">*expression* .RecordCount</span></span>
 
-<span data-ttu-id="f3680-108">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="f3680-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="162fe-108">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="162fe-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="f3680-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="f3680-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="162fe-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="162fe-109">Remarks</span></span>
 
-<span data-ttu-id="f3680-110">A **jeu d’enregistrements** ou **TableDef** de l’objet sans enregistrement contient un **RecordCount** paramètre de la propriété de 0.</span><span class="sxs-lookup"><span data-stu-id="f3680-110">A **Recordset** or **TableDef** object with no records has a **RecordCount** property setting of 0.</span></span>
+<span data-ttu-id="162fe-110">A **jeu d’enregistrements** ou **TableDef** de l’objet sans enregistrement contient un **RecordCount** paramètre de la propriété de 0.</span><span class="sxs-lookup"><span data-stu-id="162fe-110">A **Recordset** or **TableDef** object with no records has a **RecordCount** property setting of 0.</span></span>
 
-<span data-ttu-id="f3680-111">Lorsque vous travaillez avec des objets **TableDef** liés, la valeur de la propriété **RecordCount** est toujours égale à –1.</span><span class="sxs-lookup"><span data-stu-id="f3680-111">When you work with linked **TableDef** objects, the **RecordCount** property setting is always –1.</span></span>
+<span data-ttu-id="162fe-111">Lorsque vous travaillez avec des objets **TableDef** liés, la valeur de la propriété **RecordCount** est toujours égale à –1.</span><span class="sxs-lookup"><span data-stu-id="162fe-111">When you work with linked **TableDef** objects, the **RecordCount** property setting is always –1.</span></span>
 

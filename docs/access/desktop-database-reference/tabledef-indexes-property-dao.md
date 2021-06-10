@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314342"
 ---
-# <a name="tabledefindexes-property-dao"></a><span data-ttu-id="f9094-102">TableDef.Indexes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="f9094-102">TableDef.Indexes property (DAO)</span></span>
+# <a name="tabledefindexes-property-dao"></a><span data-ttu-id="65ed6-102">TableDef.Indexes, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="65ed6-102">TableDef.Indexes property (DAO)</span></span>
 
 
-<span data-ttu-id="f9094-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9094-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="65ed6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="65ed6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f9094-104">Renvoie une collection **Indexes** qui contient tous les objets **Index** stockés pour la table spécifiée.</span><span class="sxs-lookup"><span data-stu-id="f9094-104">Returns an **Indexes** collection that contains all of the stored **Index** objects for the specified table.</span></span> <span data-ttu-id="f9094-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="f9094-105">Read-only.</span></span>
+<span data-ttu-id="65ed6-p101">Renvoie une collection **Indexes** qui contient tous les objets **Index** stockés pour la table spécifiée. En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="65ed6-p101">Returns an **Indexes** collection that contains all of the stored **Index** objects for the specified table. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f9094-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f9094-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="65ed6-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="65ed6-106">Syntax</span></span>
 
-<span data-ttu-id="f9094-107">*.* Index</span><span class="sxs-lookup"><span data-stu-id="f9094-107">*expression* .Indexes</span></span>
+<span data-ttu-id="65ed6-107">*.* Index</span><span class="sxs-lookup"><span data-stu-id="65ed6-107">*expression* .Indexes</span></span>
 
-<span data-ttu-id="f9094-108">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="f9094-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="65ed6-108">*expression* Variable représentant un objet **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="65ed6-108">*expression* A variable that represents a **TableDef** object.</span></span>
 

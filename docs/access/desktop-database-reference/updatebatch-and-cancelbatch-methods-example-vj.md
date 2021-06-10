@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313558"
 ---
-# <a name="updatebatch-and-cancelbatch-methods-example-vj"></a><span data-ttu-id="a61cc-102">UpdateBatch et CancelBatch, méthodes – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="a61cc-102">UpdateBatch and CancelBatch methods example (VJ++)</span></span>
+# <a name="updatebatch-and-cancelbatch-methods-example-vj"></a><span data-ttu-id="6b31b-102">UpdateBatch et CancelBatch, méthodes – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="6b31b-102">UpdateBatch and CancelBatch methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="a61cc-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a61cc-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6b31b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b31b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a61cc-104">Cet exemple illustre la méthode [UpdateBatch](updatebatch-method-ado.md) conjointement à la méthode [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="a61cc-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
+<span data-ttu-id="6b31b-104">Cet exemple illustre la méthode [UpdateBatch](updatebatch-method-ado.md) conjointement à la méthode [CancelBatch](cancelbatch-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="6b31b-104">This example demonstrates the [UpdateBatch](updatebatch-method-ado.md) method in conjunction with the [CancelBatch](cancelbatch-method-ado.md) method.</span></span>
 
 ```java 
  
