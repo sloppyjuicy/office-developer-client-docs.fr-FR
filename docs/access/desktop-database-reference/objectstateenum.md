@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288524"
 ---
-# <a name="objectstateenum"></a><span data-ttu-id="7aefa-102">ObjectStateEnum</span><span class="sxs-lookup"><span data-stu-id="7aefa-102">ObjectStateEnum</span></span>
+# <a name="objectstateenum"></a><span data-ttu-id="d4631-102">ObjectStateEnum</span><span class="sxs-lookup"><span data-stu-id="d4631-102">ObjectStateEnum</span></span>
 
-<span data-ttu-id="7aefa-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7aefa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d4631-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4631-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7aefa-104">Spécifie l'état d'un objet : ouvert ou fermé, en cours de connexion à une source de données, d'exécution d'une commande ou d'extraction de données.</span><span class="sxs-lookup"><span data-stu-id="7aefa-104">Specifies whether an object is open or closed, connecting to a data source, executing a command, or retrieving data.</span></span>
+<span data-ttu-id="d4631-104">Spécifie l'état d'un objet : ouvert ou fermé, en cours de connexion à une source de données, d'exécution d'une commande ou d'extraction de données.</span><span class="sxs-lookup"><span data-stu-id="d4631-104">Specifies whether an object is open or closed, connecting to a data source, executing a command, or retrieving data.</span></span>
 
 <br/>
 
@@ -30,44 +30,44 @@ ms.locfileid: "32288524"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7aefa-105">Constante</span><span class="sxs-lookup"><span data-stu-id="7aefa-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="7aefa-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="7aefa-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="7aefa-107">Description</span><span class="sxs-lookup"><span data-stu-id="7aefa-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="d4631-105">Constante</span><span class="sxs-lookup"><span data-stu-id="d4631-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="d4631-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="d4631-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="d4631-107">Description</span><span class="sxs-lookup"><span data-stu-id="d4631-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7aefa-108"><strong>adStateClosed</strong></span><span class="sxs-lookup"><span data-stu-id="7aefa-108"><strong>adStateClosed</strong></span></span></p></td>
-<td><p><span data-ttu-id="7aefa-109">0</span><span class="sxs-lookup"><span data-stu-id="7aefa-109">0</span></span></p></td>
-<td><p><span data-ttu-id="7aefa-110">Indique que l'objet est fermé.</span><span class="sxs-lookup"><span data-stu-id="7aefa-110">Indicates that the object is closed.</span></span></p></td>
+<td><p><span data-ttu-id="d4631-108"><strong>adStateClosed</strong></span><span class="sxs-lookup"><span data-stu-id="d4631-108"><strong>adStateClosed</strong></span></span></p></td>
+<td><p><span data-ttu-id="d4631-109">0</span><span class="sxs-lookup"><span data-stu-id="d4631-109">0</span></span></p></td>
+<td><p><span data-ttu-id="d4631-110">Indique que l'objet est fermé.</span><span class="sxs-lookup"><span data-stu-id="d4631-110">Indicates that the object is closed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7aefa-111"><strong>adStateOpen</strong></span><span class="sxs-lookup"><span data-stu-id="7aefa-111"><strong>adStateOpen</strong></span></span></p></td>
-<td><p><span data-ttu-id="7aefa-112">1 </span><span class="sxs-lookup"><span data-stu-id="7aefa-112">1</span></span></p></td>
-<td><p><span data-ttu-id="7aefa-113">Indique que l'objet est ouvert.</span><span class="sxs-lookup"><span data-stu-id="7aefa-113">Indicates that the object is open.</span></span></p></td>
+<td><p><span data-ttu-id="d4631-111"><strong>adStateOpen</strong></span><span class="sxs-lookup"><span data-stu-id="d4631-111"><strong>adStateOpen</strong></span></span></p></td>
+<td><p><span data-ttu-id="d4631-112">1</span><span class="sxs-lookup"><span data-stu-id="d4631-112">1</span></span></p></td>
+<td><p><span data-ttu-id="d4631-113">Indique que l'objet est ouvert.</span><span class="sxs-lookup"><span data-stu-id="d4631-113">Indicates that the object is open.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7aefa-114"><strong>adStateConnecting</strong></span><span class="sxs-lookup"><span data-stu-id="7aefa-114"><strong>adStateConnecting</strong></span></span></p></td>
-<td><p><span data-ttu-id="7aefa-115">2 </span><span class="sxs-lookup"><span data-stu-id="7aefa-115">2</span></span></p></td>
-<td><p><span data-ttu-id="7aefa-116">Indique que l'objet est en train de se connecter.</span><span class="sxs-lookup"><span data-stu-id="7aefa-116">Indicates that the object is connecting.</span></span></p></td>
+<td><p><span data-ttu-id="d4631-114"><strong>adStateConnecting</strong></span><span class="sxs-lookup"><span data-stu-id="d4631-114"><strong>adStateConnecting</strong></span></span></p></td>
+<td><p><span data-ttu-id="d4631-115">2</span><span class="sxs-lookup"><span data-stu-id="d4631-115">2</span></span></p></td>
+<td><p><span data-ttu-id="d4631-116">Indique que l'objet est en train de se connecter.</span><span class="sxs-lookup"><span data-stu-id="d4631-116">Indicates that the object is connecting.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7aefa-117"><strong>adStateExecuting</strong></span><span class="sxs-lookup"><span data-stu-id="7aefa-117"><strong>adStateExecuting</strong></span></span></p></td>
-<td><p><span data-ttu-id="7aefa-118">4 </span><span class="sxs-lookup"><span data-stu-id="7aefa-118">4</span></span></p></td>
-<td><p><span data-ttu-id="7aefa-119">Indique que l'objet est en train d'exécuter une commande.</span><span class="sxs-lookup"><span data-stu-id="7aefa-119">Indicates that the object is executing a command.</span></span></p></td>
+<td><p><span data-ttu-id="d4631-117"><strong>adStateExecuting</strong></span><span class="sxs-lookup"><span data-stu-id="d4631-117"><strong>adStateExecuting</strong></span></span></p></td>
+<td><p><span data-ttu-id="d4631-118">4 </span><span class="sxs-lookup"><span data-stu-id="d4631-118">4</span></span></p></td>
+<td><p><span data-ttu-id="d4631-119">Indique que l'objet est en train d'exécuter une commande.</span><span class="sxs-lookup"><span data-stu-id="d4631-119">Indicates that the object is executing a command.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7aefa-120"><strong>adStateFetching</strong></span><span class="sxs-lookup"><span data-stu-id="7aefa-120"><strong>adStateFetching</strong></span></span></p></td>
-<td><p><span data-ttu-id="7aefa-121">8 </span><span class="sxs-lookup"><span data-stu-id="7aefa-121">8</span></span></p></td>
-<td><p><span data-ttu-id="7aefa-122">Indique que les lignes de l'objet sont en cours d'extraction.</span><span class="sxs-lookup"><span data-stu-id="7aefa-122">Indicates that the rows of the object are being retrieved.</span></span></p></td>
+<td><p><span data-ttu-id="d4631-120"><strong>adStateFetching</strong></span><span class="sxs-lookup"><span data-stu-id="d4631-120"><strong>adStateFetching</strong></span></span></p></td>
+<td><p><span data-ttu-id="d4631-121">8 </span><span class="sxs-lookup"><span data-stu-id="d4631-121">8</span></span></p></td>
+<td><p><span data-ttu-id="d4631-122">Indique que les lignes de l'objet sont en cours d'extraction.</span><span class="sxs-lookup"><span data-stu-id="d4631-122">Indicates that the rows of the object are being retrieved.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="7aefa-123">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="7aefa-123">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="d4631-123">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="d4631-123">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="7aefa-124">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="7aefa-124">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="d4631-124">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="d4631-124">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -75,24 +75,24 @@ ms.locfileid: "32288524"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7aefa-125">Constante</span><span class="sxs-lookup"><span data-stu-id="7aefa-125">Constant</span></span></p></th>
+<th><p><span data-ttu-id="d4631-125">Constante</span><span class="sxs-lookup"><span data-stu-id="d4631-125">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7aefa-126">AdoEnums.ObjectState.CLOSED</span><span class="sxs-lookup"><span data-stu-id="7aefa-126">AdoEnums.ObjectState.CLOSED</span></span></p></td>
+<td><p><span data-ttu-id="d4631-126">AdoEnums.ObjectState.CLOSED</span><span class="sxs-lookup"><span data-stu-id="d4631-126">AdoEnums.ObjectState.CLOSED</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7aefa-127">AdoEnums.ObjectState.OPEN</span><span class="sxs-lookup"><span data-stu-id="7aefa-127">AdoEnums.ObjectState.OPEN</span></span></p></td>
+<td><p><span data-ttu-id="d4631-127">AdoEnums.ObjectState.OPEN</span><span class="sxs-lookup"><span data-stu-id="d4631-127">AdoEnums.ObjectState.OPEN</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7aefa-128">AdoEnums.ObjectState.CONNECTING</span><span class="sxs-lookup"><span data-stu-id="7aefa-128">AdoEnums.ObjectState.CONNECTING</span></span></p></td>
+<td><p><span data-ttu-id="d4631-128">AdoEnums.ObjectState.CONNECTING</span><span class="sxs-lookup"><span data-stu-id="d4631-128">AdoEnums.ObjectState.CONNECTING</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7aefa-129">AdoEnums.ObjectState.EXECUTING</span><span class="sxs-lookup"><span data-stu-id="7aefa-129">AdoEnums.ObjectState.EXECUTING</span></span></p></td>
+<td><p><span data-ttu-id="d4631-129">AdoEnums.ObjectState.EXECUTING</span><span class="sxs-lookup"><span data-stu-id="d4631-129">AdoEnums.ObjectState.EXECUTING</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7aefa-130">AdoEnums.ObjectState.FETCHING</span><span class="sxs-lookup"><span data-stu-id="7aefa-130">AdoEnums.ObjectState.FETCHING</span></span></p></td>
+<td><p><span data-ttu-id="d4631-130">AdoEnums.ObjectState.FETCHING</span><span class="sxs-lookup"><span data-stu-id="d4631-130">AdoEnums.ObjectState.FETCHING</span></span></p></td>
 </tr>
 </tbody>
 </table>

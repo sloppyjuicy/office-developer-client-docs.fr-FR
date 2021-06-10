@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289699"
 ---
-# <a name="member-object-ado-md-reference"></a><span data-ttu-id="0eede-102">Objet Member (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0eede-102">Member object (ADO MD reference)</span></span>
+# <a name="member-object-ado-md-reference"></a><span data-ttu-id="b4320-102">Objet Member (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b4320-102">Member object (ADO MD reference)</span></span>
 
-<span data-ttu-id="0eede-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0eede-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b4320-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4320-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="0eede-104">Objet Member (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0eede-104">Member object (ADO MD)</span></span>](member-object-ado-md.md)
-- [<span data-ttu-id="0eede-105">Member properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0eede-105">Member properties, methods, and events (ADO MD)</span></span>](member-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="b4320-104">Objet Member (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b4320-104">Member object (ADO MD)</span></span>](member-object-ado-md.md)
+- [<span data-ttu-id="b4320-105">Member properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="b4320-105">Member properties, methods, and events (ADO MD)</span></span>](member-properties-methods-and-events-ado-md.md)
 

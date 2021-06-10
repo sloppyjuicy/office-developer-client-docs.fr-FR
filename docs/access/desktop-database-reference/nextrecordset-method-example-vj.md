@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288566"
 ---
-# <a name="nextrecordset-method-example-vj"></a><span data-ttu-id="69ed0-102">NextRecordset, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="69ed0-102">NextRecordset method example (VJ++)</span></span>
+# <a name="nextrecordset-method-example-vj"></a><span data-ttu-id="0ce25-102">NextRecordset, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="0ce25-102">NextRecordset method example (VJ++)</span></span>
 
 
-<span data-ttu-id="69ed0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69ed0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0ce25-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ce25-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="69ed0-104">Cet exemple utilise la méthode [NextRecordset](nextrecordset-method-ado.md) pour consulter les données d’un jeu d’enregistrements qui utilise une instruction de commandes composée, constituée de trois instructions **SELECT** distinctes.</span><span class="sxs-lookup"><span data-stu-id="69ed0-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
+<span data-ttu-id="0ce25-104">Cet exemple utilise la méthode [NextRecordset](nextrecordset-method-ado.md) pour consulter les données d’un jeu d’enregistrements qui utilise une instruction de commandes composée, constituée de trois instructions **SELECT** distinctes.</span><span class="sxs-lookup"><span data-stu-id="0ce25-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
 
 ```java 
  

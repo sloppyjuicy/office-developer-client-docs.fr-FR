@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294700"
 ---
-# <a name="databasetransactions-property-dao"></a><span data-ttu-id="446af-102">Database.Transactions, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="446af-102">Database.Transactions property (DAO)</span></span>
+# <a name="databasetransactions-property-dao"></a><span data-ttu-id="c4751-102">Database.Transactions, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="c4751-102">Database.Transactions property (DAO)</span></span>
 
 
-<span data-ttu-id="446af-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="446af-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c4751-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4751-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="446af-104">Renvoie une valeur qui indique si un objet prend en charge les transactions.</span><span class="sxs-lookup"><span data-stu-id="446af-104">Returns a value that indicates whether an object supports transactions.</span></span> <span data-ttu-id="446af-105">**Boolean** (en lecture seule).</span><span class="sxs-lookup"><span data-stu-id="446af-105">Read-only **Boolean**.</span></span>
+<span data-ttu-id="c4751-p101">Renvoie une valeur qui indique si un objet prend en charge les transactions. Valeur **Boolean** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="c4751-p101">Returns a value that indicates whether an object supports transactions. Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="446af-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="446af-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c4751-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c4751-106">Syntax</span></span>
 
-<span data-ttu-id="446af-107">*.* Transactions</span><span class="sxs-lookup"><span data-stu-id="446af-107">*expression* .Transactions</span></span>
+<span data-ttu-id="c4751-107">*.* Transactions</span><span class="sxs-lookup"><span data-stu-id="c4751-107">*expression* .Transactions</span></span>
 
-<span data-ttu-id="446af-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="446af-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="c4751-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="c4751-108">*expression* A variable that represents a **Database** object.</span></span>
 

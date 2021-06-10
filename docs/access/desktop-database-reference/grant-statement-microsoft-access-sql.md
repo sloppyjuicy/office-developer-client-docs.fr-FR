@@ -18,19 +18,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292131"
 ---
-# <a name="grant-statement-microsoft-access-sql"></a><span data-ttu-id="4bef5-102">GRANT, instruction (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="4bef5-102">GRANT statement (Microsoft Access SQL)</span></span>
+# <a name="grant-statement-microsoft-access-sql"></a><span data-ttu-id="16fca-102">GRANT, instruction (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="16fca-102">GRANT statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="4bef5-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4bef5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="16fca-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="16fca-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4bef5-104">Accorde des privilèges spécifiques à un utilisateur ou un groupe existant.</span><span class="sxs-lookup"><span data-stu-id="4bef5-104">Grants specific privileges to an existing user or group.</span></span>
+<span data-ttu-id="16fca-104">Accorde des privilèges spécifiques à un utilisateur ou un groupe existant.</span><span class="sxs-lookup"><span data-stu-id="16fca-104">Grants specific privileges to an existing user or group.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4bef5-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4bef5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="16fca-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="16fca-105">Syntax</span></span>
 
-<span data-ttu-id="4bef5-106">GRANT {*privilège* \[ , *privilège*, ... \] } ON{Table *|* OBJECT, *objet*|</span><span class="sxs-lookup"><span data-stu-id="4bef5-106">GRANT {*privilege*\[, *privilege*, …\]} ON{TABLE *table* | OBJECT *object*|</span></span>
+<span data-ttu-id="16fca-106">GRANT {*privilège* \[ , *privilège*, ... \] } ON{Table *|* OBJECT, *objet*|</span><span class="sxs-lookup"><span data-stu-id="16fca-106">GRANT {*privilege*\[, *privilege*, …\]} ON{TABLE *table* | OBJECT *object*|</span></span>
 
-<span data-ttu-id="4bef5-107">CONTAINER *container* } TO {*authorizationname* \[ , *authorizationname*, ... \] }</span><span class="sxs-lookup"><span data-stu-id="4bef5-107">CONTAINER *container* } TO {*authorizationname*\[, *authorizationname*, …\]}</span></span>
+<span data-ttu-id="16fca-107">CONTAINER *container* } TO {*authorizationname* \[ , *authorizationname*, ... \] }</span><span class="sxs-lookup"><span data-stu-id="16fca-107">CONTAINER *container* } TO {*authorizationname*\[, *authorizationname*, …\]}</span></span>
 
-<span data-ttu-id="4bef5-108">L'instruction GRANT est composée des arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="4bef5-108">The GRANT statement has these parts:</span></span>
+<span data-ttu-id="16fca-108">L'instruction GRANT est composée des arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="16fca-108">The GRANT statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -39,30 +39,30 @@ ms.locfileid: "32292131"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4bef5-109">Élément</span><span class="sxs-lookup"><span data-stu-id="4bef5-109">Part</span></span></p></th>
-<th><p><span data-ttu-id="4bef5-110">Description</span><span class="sxs-lookup"><span data-stu-id="4bef5-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="16fca-109">Élément</span><span class="sxs-lookup"><span data-stu-id="16fca-109">Part</span></span></p></th>
+<th><p><span data-ttu-id="16fca-110">Description</span><span class="sxs-lookup"><span data-stu-id="16fca-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4bef5-111"><em>privilège</em></span><span class="sxs-lookup"><span data-stu-id="4bef5-111"><em>privilege</em></span></span></p></td>
-<td><p><span data-ttu-id="4bef5-112">Privilège à accorder.</span><span class="sxs-lookup"><span data-stu-id="4bef5-112">The privilege or privileges to be granted.</span></span> <span data-ttu-id="4bef5-113">Les privilèges sont spécifiés à l’aide des mots clés suivants : SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA et UPDATEOWNER.</span><span class="sxs-lookup"><span data-stu-id="4bef5-113">Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</span></span></p></td>
+<td><p><span data-ttu-id="16fca-111"><em>privilège</em></span><span class="sxs-lookup"><span data-stu-id="16fca-111"><em>privilege</em></span></span></p></td>
+<td><p><span data-ttu-id="16fca-112">Privilège à accorder.</span><span class="sxs-lookup"><span data-stu-id="16fca-112">The privilege or privileges to be granted.</span></span> <span data-ttu-id="16fca-113">Les privilèges sont spécifiés à l’aide des mots clés suivants : SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA et UPDATEOWNER.</span><span class="sxs-lookup"><span data-stu-id="16fca-113">Privileges are specified using the following keywords: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA, and UPDATEOWNER.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4bef5-114"><em>tablename</em></span><span class="sxs-lookup"><span data-stu-id="4bef5-114"><em>tablename</em></span></span></p></td>
-<td><p><span data-ttu-id="4bef5-115">Tout nom de table valide.</span><span class="sxs-lookup"><span data-stu-id="4bef5-115">Any valid table name.</span></span></p></td>
+<td><p><span data-ttu-id="16fca-114"><em>tablename</em></span><span class="sxs-lookup"><span data-stu-id="16fca-114"><em>tablename</em></span></span></p></td>
+<td><p><span data-ttu-id="16fca-115">Tout nom de table valide.</span><span class="sxs-lookup"><span data-stu-id="16fca-115">Any valid table name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4bef5-116"><em>object</em></span><span class="sxs-lookup"><span data-stu-id="4bef5-116"><em>object</em></span></span></p></td>
-<td><p><span data-ttu-id="4bef5-117">Tout objet autre qu'une table.</span><span class="sxs-lookup"><span data-stu-id="4bef5-117">This can encompass any non-table object.</span></span> <span data-ttu-id="4bef5-118">Il peut s'agir d'une requête stockée (vue ou procédure), par exemple.</span><span class="sxs-lookup"><span data-stu-id="4bef5-118">A stored query (view or procedure) is one example.</span></span></p></td>
+<td><p><span data-ttu-id="16fca-116"><em>object</em></span><span class="sxs-lookup"><span data-stu-id="16fca-116"><em>object</em></span></span></p></td>
+<td><p><span data-ttu-id="16fca-p102">Tout objet autre qu'une table. Il peut s'agir d'une requête stockée (vue ou procédure), par exemple.</span><span class="sxs-lookup"><span data-stu-id="16fca-p102">This can encompass any non-table object. A stored query (view or procedure) is one example.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4bef5-119"><em>conteneur</em></span><span class="sxs-lookup"><span data-stu-id="4bef5-119"><em>container</em></span></span></p></td>
-<td><p><span data-ttu-id="4bef5-120">Nom d'un conteneur valide.</span><span class="sxs-lookup"><span data-stu-id="4bef5-120">The name of a valid container.</span></span></p></td>
+<td><p><span data-ttu-id="16fca-119"><em>conteneur</em></span><span class="sxs-lookup"><span data-stu-id="16fca-119"><em>container</em></span></span></p></td>
+<td><p><span data-ttu-id="16fca-120">Nom d'un conteneur valide.</span><span class="sxs-lookup"><span data-stu-id="16fca-120">The name of a valid container.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4bef5-121"><em>authorizationname</em></span><span class="sxs-lookup"><span data-stu-id="4bef5-121"><em>authorizationname</em></span></span></p></td>
-<td><p><span data-ttu-id="4bef5-122">Nom d'utilisateur ou de groupe.</span><span class="sxs-lookup"><span data-stu-id="4bef5-122">A user or group name.</span></span></p></td>
+<td><p><span data-ttu-id="16fca-121"><em>authorizationname</em></span><span class="sxs-lookup"><span data-stu-id="16fca-121"><em>authorizationname</em></span></span></p></td>
+<td><p><span data-ttu-id="16fca-122">Nom d'utilisateur ou de groupe.</span><span class="sxs-lookup"><span data-stu-id="16fca-122">A user or group name.</span></span></p></td>
 </tr>
 </tbody>
 </table>

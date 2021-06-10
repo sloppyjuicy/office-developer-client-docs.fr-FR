@@ -1,5 +1,5 @@
 ---
-title: Objet Level (référence ADO MD)
+title: Level, objet (référence ADO MD)
 TOCTitle: Level object (ADO MD)
 ms:assetid: 376865c8-b5be-4dd3-8765-0469290e44ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249131(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290137"
 ---
-# <a name="level-object-ado-md-reference"></a><span data-ttu-id="9b96b-102">Level, objet (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9b96b-102">Level object (ADO MD reference)</span></span>
+# <a name="level-object-ado-md-reference"></a><span data-ttu-id="e9adb-102">Level, objet (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e9adb-102">Level object (ADO MD reference)</span></span>
 
-<span data-ttu-id="9b96b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9b96b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e9adb-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9adb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="9b96b-104">Level, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9b96b-104">Level object (ADO MD)</span></span>](level-object-ado-md.md)
-- [<span data-ttu-id="9b96b-105">Level properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="9b96b-105">Level properties, methods, and events (ADO MD)</span></span>](level-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="e9adb-104">Level, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e9adb-104">Level object (ADO MD)</span></span>](level-object-ado-md.md)
+- [<span data-ttu-id="e9adb-105">Level properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e9adb-105">Level properties, methods, and events (ADO MD)</span></span>](level-properties-methods-and-events-ado-md.md)
 

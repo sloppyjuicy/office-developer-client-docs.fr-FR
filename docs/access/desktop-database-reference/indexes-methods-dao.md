@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291503"
 ---
-# <a name="indexes-methods-dao"></a><span data-ttu-id="f621a-102">Indexes methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="f621a-102">Indexes methods (DAO)</span></span>
+# <a name="indexes-methods-dao"></a><span data-ttu-id="73355-102">Indexes methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="73355-102">Indexes methods (DAO)</span></span>
 
-<span data-ttu-id="f621a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f621a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="73355-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73355-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f621a-104">Indexes.Append, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="f621a-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
-- [<span data-ttu-id="f621a-105">Indexes.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="f621a-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
-- [<span data-ttu-id="f621a-106">Indexes.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="f621a-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
+- [<span data-ttu-id="73355-104">Indexes.Append, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="73355-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
+- [<span data-ttu-id="73355-105">Indexes.Delete, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="73355-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
+- [<span data-ttu-id="73355-106">Indexes.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="73355-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
 

@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294721"
 ---
-# <a name="databaserelations-property-dao"></a><span data-ttu-id="46882-102">Database.Relations, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="46882-102">Database.Relations property (DAO)</span></span>
+# <a name="databaserelations-property-dao"></a><span data-ttu-id="0699f-102">Database.Relations, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="0699f-102">Database.Relations property (DAO)</span></span>
 
 
-<span data-ttu-id="46882-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="46882-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0699f-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0699f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="46882-104">Renvoie une collection **Relations** qui contient tous les objets **Relation** enregistrés pour la base de données spécifiée.</span><span class="sxs-lookup"><span data-stu-id="46882-104">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database.</span></span> <span data-ttu-id="46882-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="46882-105">Read-only.</span></span>
+<span data-ttu-id="0699f-p101">Renvoie une collection **Relations** qui contient tous les objets **Relation** enregistrés pour la base de données spécifiée. Valeur en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="0699f-p101">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="46882-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="46882-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0699f-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0699f-106">Syntax</span></span>
 
-<span data-ttu-id="46882-107">*.* Relations</span><span class="sxs-lookup"><span data-stu-id="46882-107">*expression* .Relations</span></span>
+<span data-ttu-id="0699f-107">*.* Relations</span><span class="sxs-lookup"><span data-stu-id="0699f-107">*expression* .Relations</span></span>
 
-<span data-ttu-id="46882-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="46882-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="0699f-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="0699f-108">*expression* A variable that represents a **Database** object.</span></span>
 

@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294581"
 ---
-# <a name="databasesrefresh-method-dao"></a><span data-ttu-id="0ece4-102">Databases.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="0ece4-102">Databases.Refresh method (DAO)</span></span>
+# <a name="databasesrefresh-method-dao"></a><span data-ttu-id="0ef16-102">Databases.Refresh, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="0ef16-102">Databases.Refresh method (DAO)</span></span>
 
 
-<span data-ttu-id="0ece4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ece4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0ef16-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ef16-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0ece4-104">Non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="0ece4-104">Not supported for this object.</span></span>
+<span data-ttu-id="0ef16-104">Non prise en charge pour cet objet.</span><span class="sxs-lookup"><span data-stu-id="0ef16-104">Not supported for this object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0ece4-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0ece4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0ef16-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0ef16-105">Syntax</span></span>
 
-<span data-ttu-id="0ece4-106">*.* Actualiser</span><span class="sxs-lookup"><span data-stu-id="0ece4-106">*expression* .Refresh</span></span>
+<span data-ttu-id="0ef16-106">*.* Actualiser</span><span class="sxs-lookup"><span data-stu-id="0ef16-106">*expression* .Refresh</span></span>
 
-<span data-ttu-id="0ece4-107">*expression* Variable qui représente un objet **Databases.**</span><span class="sxs-lookup"><span data-stu-id="0ece4-107">*expression* A variable that represents a **Databases** object.</span></span>
+<span data-ttu-id="0ef16-107">*expression* Variable qui représente un objet **Databases.**</span><span class="sxs-lookup"><span data-stu-id="0ef16-107">*expression* A variable that represents a **Databases** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="0ece4-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="0ece4-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0ef16-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="0ef16-108">Remarks</span></span>
 
-<span data-ttu-id="0ece4-109">Vous ne pouvez pas utiliser la méthode **Refresh** avec des collections qui ne sont pas persistantes, comme les collections **Connections**, **Databases**, **Recordsets**, **Workspaces** et **QueryDefs** d'un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="0ece4-109">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
+<span data-ttu-id="0ef16-109">Vous ne pouvez pas utiliser la méthode **Refresh** avec des collections qui ne sont pas persistantes, comme les collections **Connections**, **Databases**, **Recordsets**, **Workspaces** et **QueryDefs** d'un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="0ef16-109">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
 

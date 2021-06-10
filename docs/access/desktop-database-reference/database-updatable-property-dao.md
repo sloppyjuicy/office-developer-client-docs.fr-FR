@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294665"
 ---
-# <a name="databaseupdatable-property-dao"></a><span data-ttu-id="bb232-102">Database.Updatable, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="bb232-102">Database.Updatable property (DAO)</span></span>
+# <a name="databaseupdatable-property-dao"></a><span data-ttu-id="53d41-102">Database.Updatable, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="53d41-102">Database.Updatable property (DAO)</span></span>
 
 
-<span data-ttu-id="bb232-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb232-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="53d41-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="53d41-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bb232-104">Renvoie une valeur qui indique si vous pouvez changer un objet DAO.</span><span class="sxs-lookup"><span data-stu-id="bb232-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="bb232-105">**Boolean** (en lecture seule).</span><span class="sxs-lookup"><span data-stu-id="bb232-105">Read-only **Boolean**.</span></span>
+<span data-ttu-id="53d41-p101">Renvoie une valeur qui indique si vous pouvez changer un objet DAO. Type de données **Boolean** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="53d41-p101">Returns a value that indicates whether you can change a DAO object. Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bb232-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="bb232-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="53d41-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="53d41-106">Syntax</span></span>
 
-<span data-ttu-id="bb232-107">*.* Updatable</span><span class="sxs-lookup"><span data-stu-id="bb232-107">*expression* .Updatable</span></span>
+<span data-ttu-id="53d41-107">*.* Updatable</span><span class="sxs-lookup"><span data-stu-id="53d41-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="bb232-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="bb232-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="53d41-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="53d41-108">*expression* A variable that represents a **Database** object.</span></span>
 

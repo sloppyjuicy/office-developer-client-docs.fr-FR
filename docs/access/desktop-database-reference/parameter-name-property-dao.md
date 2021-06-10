@@ -14,16 +14,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288097"
 ---
-# <a name="parametername-property-dao"></a><span data-ttu-id="dd5e6-102">Parameter.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="dd5e6-102">Parameter.Name property (DAO)</span></span>
+# <a name="parametername-property-dao"></a><span data-ttu-id="f5389-102">Parameter.Name property (DAO)</span><span class="sxs-lookup"><span data-stu-id="f5389-102">Parameter.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="dd5e6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd5e6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f5389-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5389-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dd5e6-104">Renvoie le nom de l'objet spécifié.</span><span class="sxs-lookup"><span data-stu-id="dd5e6-104">Returns the name of the specified object.</span></span> <span data-ttu-id="dd5e6-105">**String** en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="dd5e6-105">Read-only **String**.</span></span>
+<span data-ttu-id="f5389-p101">Renvoie le nom de l'objet spécifié. En lecture seule **chaîne**.</span><span class="sxs-lookup"><span data-stu-id="f5389-p101">Returns the name of the specified object. Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="dd5e6-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="dd5e6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f5389-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f5389-106">Syntax</span></span>
 
-<span data-ttu-id="dd5e6-107">*.* Nom</span><span class="sxs-lookup"><span data-stu-id="dd5e6-107">*expression* .Name</span></span>
+<span data-ttu-id="f5389-107">*.* Nom</span><span class="sxs-lookup"><span data-stu-id="f5389-107">*expression* .Name</span></span>
 
-<span data-ttu-id="dd5e6-108">*expression* Variable qui représente un objet **Parameter.**</span><span class="sxs-lookup"><span data-stu-id="dd5e6-108">*expression* A variable that represents a **Parameter** object.</span></span>
+<span data-ttu-id="f5389-108">*expression* Variable qui représente un objet **Parameter.**</span><span class="sxs-lookup"><span data-stu-id="f5389-108">*expression* A variable that represents a **Parameter** object.</span></span>
 

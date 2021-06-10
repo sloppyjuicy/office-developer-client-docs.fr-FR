@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290175"
 ---
-# <a name="keys-collection-adox-reference"></a><span data-ttu-id="0dcd0-102">Référence de collection keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0dcd0-102">Keys collection (ADOX) reference</span></span>
+# <a name="keys-collection-adox-reference"></a><span data-ttu-id="4fce3-102">Référence de collection keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="4fce3-102">Keys collection (ADOX) reference</span></span>
 
-<span data-ttu-id="0dcd0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0dcd0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4fce3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4fce3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="0dcd0-104">Keys, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0dcd0-104">Keys collection (ADOX)</span></span>](keys-collection-adox.md)
-- [<span data-ttu-id="0dcd0-105">Keys, collection - Propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0dcd0-105">Keys collection properties, methods, and events (ADOX)</span></span>](keys-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="4fce3-104">Keys, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="4fce3-104">Keys collection (ADOX)</span></span>](keys-collection-adox.md)
+- [<span data-ttu-id="4fce3-105">Keys, collection - Propriétés, méthodes et événements (ADOX)</span><span class="sxs-lookup"><span data-stu-id="4fce3-105">Keys collection properties, methods, and events (ADOX)</span></span>](keys-collection-properties-methods-and-events-adox.md)
 

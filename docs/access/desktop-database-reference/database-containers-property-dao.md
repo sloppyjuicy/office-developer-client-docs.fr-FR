@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294966"
 ---
-# <a name="databasecontainers-property-dao"></a><span data-ttu-id="5231d-102">Database.Containers, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="5231d-102">Database.Containers property (DAO)</span></span>
+# <a name="databasecontainers-property-dao"></a><span data-ttu-id="5c785-102">Database.Containers, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="5c785-102">Database.Containers property (DAO)</span></span>
 
 
-<span data-ttu-id="5231d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5231d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5c785-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5c785-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5231d-104">Renvoie une collection **Containers** qui représente tous les objets **Container** de la base de données spécifiée.</span><span class="sxs-lookup"><span data-stu-id="5231d-104">Returns a **Containers** collection that represents all of the **Container** objects in the specifed database.</span></span> <span data-ttu-id="5231d-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="5231d-105">Read-only.</span></span>
+<span data-ttu-id="5c785-p101">Renvoie une collection **Containers** qui représente tous les objets **Container** de la base de données spécifiée. Valeur en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="5c785-p101">Returns a **Containers** collection that represents all of the **Container** objects in the specifed database. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5231d-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="5231d-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5c785-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="5c785-106">Syntax</span></span>
 
-<span data-ttu-id="5231d-107">*.* Conteneurs</span><span class="sxs-lookup"><span data-stu-id="5231d-107">*expression* .Containers</span></span>
+<span data-ttu-id="5c785-107">*.* Conteneurs</span><span class="sxs-lookup"><span data-stu-id="5c785-107">*expression* .Containers</span></span>
 
-<span data-ttu-id="5231d-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="5231d-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="5c785-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="5c785-108">*expression* A variable that represents a **Database** object.</span></span>
 

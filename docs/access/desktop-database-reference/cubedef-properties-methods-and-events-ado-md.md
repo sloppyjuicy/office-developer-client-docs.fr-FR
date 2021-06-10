@@ -14,18 +14,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295295"
 ---
-# <a name="cubedef-properties-methods-and-events-ado-md"></a><span data-ttu-id="0c496-102">CubeDef properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0c496-102">CubeDef properties, methods, and events (ADO MD)</span></span>
+# <a name="cubedef-properties-methods-and-events-ado-md"></a><span data-ttu-id="6cc37-102">CubeDef properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6cc37-102">CubeDef properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="0c496-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0c496-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6cc37-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6cc37-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="0c496-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="0c496-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="6cc37-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="6cc37-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="0c496-105">Description (propriété)</span><span class="sxs-lookup"><span data-stu-id="0c496-105">Description property</span></span>](description-property-ado-md.md)
-- [<span data-ttu-id="0c496-106">Dimensions, collection</span><span class="sxs-lookup"><span data-stu-id="0c496-106">Dimensions collection</span></span>](dimensions-collection-ado-md.md)
-- [<span data-ttu-id="0c496-107">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="0c496-107">Name property</span></span>](name-property-ado-md.md)
-- [<span data-ttu-id="0c496-108">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="0c496-108">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="6cc37-105">Description (propriété)</span><span class="sxs-lookup"><span data-stu-id="6cc37-105">Description property</span></span>](description-property-ado-md.md)
+- [<span data-ttu-id="6cc37-106">Dimensions, collection</span><span class="sxs-lookup"><span data-stu-id="6cc37-106">Dimensions collection</span></span>](dimensions-collection-ado-md.md)
+- [<span data-ttu-id="6cc37-107">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="6cc37-107">Name property</span></span>](name-property-ado-md.md)
+- [<span data-ttu-id="6cc37-108">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="6cc37-108">Properties collection</span></span>](properties-collection-ado.md)
 
-## <a name="events"></a><span data-ttu-id="0c496-109">Événements</span><span class="sxs-lookup"><span data-stu-id="0c496-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="6cc37-109">Événements</span><span class="sxs-lookup"><span data-stu-id="6cc37-109">Events</span></span>
 
-<span data-ttu-id="0c496-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="0c496-110">None.</span></span>
+<span data-ttu-id="6cc37-110">Aucun.</span><span class="sxs-lookup"><span data-stu-id="6cc37-110">None.</span></span>
 

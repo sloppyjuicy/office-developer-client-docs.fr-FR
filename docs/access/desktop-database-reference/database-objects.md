@@ -14,23 +14,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294868"
 ---
-# <a name="database-objects"></a><span data-ttu-id="be1ef-102">Objets de base de données</span><span class="sxs-lookup"><span data-stu-id="be1ef-102">Database objects</span></span>
+# <a name="database-objects"></a><span data-ttu-id="95021-102">Objets de base de données</span><span class="sxs-lookup"><span data-stu-id="95021-102">Database objects</span></span>
 
-<span data-ttu-id="be1ef-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be1ef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="95021-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="95021-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="be1ef-104">CopyObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-104">CopyObject macro action</span></span>](copyobject-macro-action.md)
-- [<span data-ttu-id="be1ef-105">DeleteObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-105">DeleteObject macro action</span></span>](deleteobject-macro-action.md)
-- [<span data-ttu-id="be1ef-106">GoToControl, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-106">GoToControl macro action</span></span>](gotocontrol-macro-action.md)
-- [<span data-ttu-id="be1ef-107">GoToPage, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-107">GoToPage macro action</span></span>](gotopage-macro-action.md)
-- [<span data-ttu-id="be1ef-108">GoToRecord, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-108">GoToRecord macro action</span></span>](gotorecord-macro-action.md)
-- [<span data-ttu-id="be1ef-109">OpenForm, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-109">OpenForm macro action</span></span>](openform-macro-action.md)
-- [<span data-ttu-id="be1ef-110">OpenReport, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-110">OpenReport macro action</span></span>](openreport-macro-action.md)
-- [<span data-ttu-id="be1ef-111">OpenTable, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-111">OpenTable macro action</span></span>](opentable-macro-action.md)
-- [<span data-ttu-id="be1ef-112">RenameObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-112">RenameObject macro action</span></span>](renameobject-macro-action.md)
-- [<span data-ttu-id="be1ef-113">RepaintObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-113">RepaintObject macro action</span></span>](repaintobject-macro-action.md)
-- [<span data-ttu-id="be1ef-114">SaveObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-114">SaveObject macro action</span></span>](saveobject-macro-action.md)
-- [<span data-ttu-id="be1ef-115">SelectObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-115">SelectObject macro action</span></span>](selectobject-macro-action.md)
-- [<span data-ttu-id="be1ef-116">SetProperty, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-116">SetProperty macro action</span></span>](setproperty-macro-action.md)
-- [<span data-ttu-id="be1ef-117">SetValue, action de macro</span><span class="sxs-lookup"><span data-stu-id="be1ef-117">SetValue macro action</span></span>](setvalue-macro-action.md)
+- [<span data-ttu-id="95021-104">CopyObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-104">CopyObject macro action</span></span>](copyobject-macro-action.md)
+- [<span data-ttu-id="95021-105">DeleteObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-105">DeleteObject macro action</span></span>](deleteobject-macro-action.md)
+- [<span data-ttu-id="95021-106">GoToControl, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-106">GoToControl macro action</span></span>](gotocontrol-macro-action.md)
+- [<span data-ttu-id="95021-107">GoToPage, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-107">GoToPage macro action</span></span>](gotopage-macro-action.md)
+- [<span data-ttu-id="95021-108">GoToRecord, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-108">GoToRecord macro action</span></span>](gotorecord-macro-action.md)
+- [<span data-ttu-id="95021-109">OpenForm, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-109">OpenForm macro action</span></span>](openform-macro-action.md)
+- [<span data-ttu-id="95021-110">OpenReport, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-110">OpenReport macro action</span></span>](openreport-macro-action.md)
+- [<span data-ttu-id="95021-111">OpenTable, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-111">OpenTable macro action</span></span>](opentable-macro-action.md)
+- [<span data-ttu-id="95021-112">RenameObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-112">RenameObject macro action</span></span>](renameobject-macro-action.md)
+- [<span data-ttu-id="95021-113">RepaintObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-113">RepaintObject macro action</span></span>](repaintobject-macro-action.md)
+- [<span data-ttu-id="95021-114">SaveObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-114">SaveObject macro action</span></span>](saveobject-macro-action.md)
+- [<span data-ttu-id="95021-115">SelectObject, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-115">SelectObject macro action</span></span>](selectobject-macro-action.md)
+- [<span data-ttu-id="95021-116">SetProperty, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-116">SetProperty macro action</span></span>](setproperty-macro-action.md)
+- [<span data-ttu-id="95021-117">SetValue, action de macro</span><span class="sxs-lookup"><span data-stu-id="95021-117">SetValue macro action</span></span>](setvalue-macro-action.md)
 
 

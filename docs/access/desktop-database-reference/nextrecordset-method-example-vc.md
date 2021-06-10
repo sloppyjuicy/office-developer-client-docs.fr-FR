@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288580"
 ---
-# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="a2216-102">NextRecordset, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="a2216-102">NextRecordset method example (VC++)</span></span>
+# <a name="nextrecordset-method-example-vc"></a><span data-ttu-id="fcf6e-102">NextRecordset, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="fcf6e-102">NextRecordset method example (VC++)</span></span>
 
 
-<span data-ttu-id="a2216-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2216-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fcf6e-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fcf6e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2216-104">Cet exemple utilise la méthode [NextRecordset](nextrecordset-method-ado.md) pour consulter les données d’un jeu d’enregistrements qui utilise une instruction de commandes composée, constituée de trois instructions **SELECT** distinctes.</span><span class="sxs-lookup"><span data-stu-id="a2216-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
+<span data-ttu-id="fcf6e-104">Cet exemple utilise la méthode [NextRecordset](nextrecordset-method-ado.md) pour consulter les données d’un jeu d’enregistrements qui utilise une instruction de commandes composée, constituée de trois instructions **SELECT** distinctes.</span><span class="sxs-lookup"><span data-stu-id="fcf6e-104">This example uses the [NextRecordset](nextrecordset-method-ado.md) method to view the data in a recordset that uses a compound command statement made up of three separate **SELECT** statements.</span></span>
 
 ```cpp 
  

@@ -14,25 +14,25 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290012"
 ---
-# <a name="level-properties-methods-and-events-ado-md"></a><span data-ttu-id="30368-102">Level properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="30368-102">Level properties, methods, and events (ADO MD)</span></span>
+# <a name="level-properties-methods-and-events-ado-md"></a><span data-ttu-id="20a0a-102">Level properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="20a0a-102">Level properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="30368-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="30368-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="20a0a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20a0a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="30368-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="30368-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="20a0a-104">Propriétés/Collections</span><span class="sxs-lookup"><span data-stu-id="20a0a-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="30368-105">Caption, propriété</span><span class="sxs-lookup"><span data-stu-id="30368-105">Caption property</span></span>](caption-property-ado-md.md)
-- [<span data-ttu-id="30368-106">Depth, propriété</span><span class="sxs-lookup"><span data-stu-id="30368-106">Depth property</span></span>](depth-property-ado-md.md)
-- [<span data-ttu-id="30368-107">Description (propriété)</span><span class="sxs-lookup"><span data-stu-id="30368-107">Description property</span></span>](description-property-ado-md.md)
-- [<span data-ttu-id="30368-108">Members, collection</span><span class="sxs-lookup"><span data-stu-id="30368-108">Members collection</span></span>](members-collection-ado-md.md)
-- [<span data-ttu-id="30368-109">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="30368-109">Name property</span></span>](name-property-ado-md.md)
-- [<span data-ttu-id="30368-110">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="30368-110">Properties collection</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="30368-111">UniqueName, propriété</span><span class="sxs-lookup"><span data-stu-id="30368-111">UniqueName property</span></span>](uniquename-property-ado-md.md)
+- [<span data-ttu-id="20a0a-105">Caption, propriété</span><span class="sxs-lookup"><span data-stu-id="20a0a-105">Caption property</span></span>](caption-property-ado-md.md)
+- [<span data-ttu-id="20a0a-106">Depth, propriété</span><span class="sxs-lookup"><span data-stu-id="20a0a-106">Depth property</span></span>](depth-property-ado-md.md)
+- [<span data-ttu-id="20a0a-107">Description (propriété)</span><span class="sxs-lookup"><span data-stu-id="20a0a-107">Description property</span></span>](description-property-ado-md.md)
+- [<span data-ttu-id="20a0a-108">Members, collection</span><span class="sxs-lookup"><span data-stu-id="20a0a-108">Members collection</span></span>](members-collection-ado-md.md)
+- [<span data-ttu-id="20a0a-109">Name, propriété</span><span class="sxs-lookup"><span data-stu-id="20a0a-109">Name property</span></span>](name-property-ado-md.md)
+- [<span data-ttu-id="20a0a-110">Properties, collection</span><span class="sxs-lookup"><span data-stu-id="20a0a-110">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="20a0a-111">UniqueName, propriété</span><span class="sxs-lookup"><span data-stu-id="20a0a-111">UniqueName property</span></span>](uniquename-property-ado-md.md)
 
-## <a name="methods"></a><span data-ttu-id="30368-112">Méthodes</span><span class="sxs-lookup"><span data-stu-id="30368-112">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="20a0a-112">Méthodes</span><span class="sxs-lookup"><span data-stu-id="20a0a-112">Methods</span></span>
 
-<span data-ttu-id="30368-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="30368-113">None.</span></span>
+<span data-ttu-id="20a0a-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="20a0a-113">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="30368-114">Événements</span><span class="sxs-lookup"><span data-stu-id="30368-114">Events</span></span>
+## <a name="events"></a><span data-ttu-id="20a0a-114">Événements</span><span class="sxs-lookup"><span data-stu-id="20a0a-114">Events</span></span>
 
-<span data-ttu-id="30368-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="30368-115">None.</span></span>
+<span data-ttu-id="20a0a-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="20a0a-115">None.</span></span>
 

@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294525"
 ---
-# <a name="datacontrol-rds-ado"></a><span data-ttu-id="1e5ff-102">DataControl (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="1e5ff-102">DataControl (RDS) (ADO)</span></span>
+# <a name="datacontrol-rds-ado"></a><span data-ttu-id="ffc80-102">DataControl (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="ffc80-102">DataControl (RDS) (ADO)</span></span>
 
-<span data-ttu-id="1e5ff-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1e5ff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ffc80-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ffc80-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="1e5ff-104">Objet DataControl (RDS)</span><span class="sxs-lookup"><span data-stu-id="1e5ff-104">DataControl object (RDS)</span></span>](datacontrol-object-rds.md)
-- [<span data-ttu-id="1e5ff-105">DataControl properties, methods, and events (RDS)</span><span class="sxs-lookup"><span data-stu-id="1e5ff-105">DataControl properties, methods, and events (RDS)</span></span>](datacontrol-properties-methods-and-events-rds.md)
+- [<span data-ttu-id="ffc80-104">Objet DataControl (RDS)</span><span class="sxs-lookup"><span data-stu-id="ffc80-104">DataControl object (RDS)</span></span>](datacontrol-object-rds.md)
+- [<span data-ttu-id="ffc80-105">DataControl properties, methods, and events (RDS)</span><span class="sxs-lookup"><span data-stu-id="ffc80-105">DataControl properties, methods, and events (RDS)</span></span>](datacontrol-properties-methods-and-events-rds.md)
 

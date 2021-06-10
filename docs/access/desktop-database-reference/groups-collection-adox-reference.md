@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292061"
 ---
-# <a name="groups-collection-adox-reference"></a><span data-ttu-id="bae98-102">Référence de collection Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="bae98-102">Groups collection (ADOX) reference</span></span>
+# <a name="groups-collection-adox-reference"></a><span data-ttu-id="ca420-102">Référence de collection Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ca420-102">Groups collection (ADOX) reference</span></span>
 
-<span data-ttu-id="bae98-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bae98-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ca420-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ca420-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="bae98-104">Groups, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="bae98-104">Groups collection (ADOX)</span></span>](groups-collection-adox.md)
-- [<span data-ttu-id="bae98-105">Groups collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="bae98-105">Groups collection properties, methods, and events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="ca420-104">Groups, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ca420-104">Groups collection (ADOX)</span></span>](groups-collection-adox.md)
+- [<span data-ttu-id="ca420-105">Groups collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ca420-105">Groups collection properties, methods, and events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
 

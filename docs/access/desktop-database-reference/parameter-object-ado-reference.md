@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288104"
 ---
-# <a name="parameter-object-ado-reference"></a><span data-ttu-id="7e6a1-102">Référence de l’objet Parameter (ADO)</span><span class="sxs-lookup"><span data-stu-id="7e6a1-102">Parameter object (ADO) reference</span></span>
+# <a name="parameter-object-ado-reference"></a><span data-ttu-id="4fb8c-102">Référence de l’objet Parameter (ADO)</span><span class="sxs-lookup"><span data-stu-id="4fb8c-102">Parameter object (ADO) reference</span></span>
 
-<span data-ttu-id="7e6a1-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e6a1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4fb8c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4fb8c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="7e6a1-104">Parameter, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="7e6a1-104">Parameter object (ADO)</span></span>](parameter-object-ado.md)
-- [<span data-ttu-id="7e6a1-105">Parameter properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="7e6a1-105">Parameter properties, methods, and events (ADO)</span></span>](parameter-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="4fb8c-104">Parameter, objet (ADO)</span><span class="sxs-lookup"><span data-stu-id="4fb8c-104">Parameter object (ADO)</span></span>](parameter-object-ado.md)
+- [<span data-ttu-id="4fb8c-105">Parameter properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="4fb8c-105">Parameter properties, methods, and events (ADO)</span></span>](parameter-properties-methods-and-events-ado.md)
 

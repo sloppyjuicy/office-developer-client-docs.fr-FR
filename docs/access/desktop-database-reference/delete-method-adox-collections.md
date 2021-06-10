@@ -14,25 +14,25 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294077"
 ---
-# <a name="delete-method-adox-collections"></a><span data-ttu-id="e349d-102">Delete, méthode (collections ADOX)</span><span class="sxs-lookup"><span data-stu-id="e349d-102">Delete method (ADOX Collections)</span></span>
+# <a name="delete-method-adox-collections"></a><span data-ttu-id="69003-102">Delete, méthode (collections ADOX)</span><span class="sxs-lookup"><span data-stu-id="69003-102">Delete method (ADOX Collections)</span></span>
 
-<span data-ttu-id="e349d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e349d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69003-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69003-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e349d-104">Supprime un objet d'une collection.</span><span class="sxs-lookup"><span data-stu-id="e349d-104">Removes an object from a collection.</span></span>
+<span data-ttu-id="69003-104">Supprime un objet d'une collection.</span><span class="sxs-lookup"><span data-stu-id="69003-104">Removes an object from a collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e349d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e349d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="69003-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="69003-105">Syntax</span></span>
 
-<span data-ttu-id="e349d-106">*Collection*. Supprimer un *nom*</span><span class="sxs-lookup"><span data-stu-id="e349d-106">*Collection*.Delete *Name*</span></span>
+<span data-ttu-id="69003-106">*Collection*. Supprimer un *nom*</span><span class="sxs-lookup"><span data-stu-id="69003-106">*Collection*.Delete *Name*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="e349d-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="e349d-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="69003-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="69003-107">Parameters</span></span>
 
-|<span data-ttu-id="e349d-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="e349d-108">Parameter</span></span>|<span data-ttu-id="e349d-109">Description</span><span class="sxs-lookup"><span data-stu-id="e349d-109">Description</span></span>|
+|<span data-ttu-id="69003-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="69003-108">Parameter</span></span>|<span data-ttu-id="69003-109">Description</span><span class="sxs-lookup"><span data-stu-id="69003-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="e349d-110">*Name*</span><span class="sxs-lookup"><span data-stu-id="e349d-110">*Name*</span></span> |<span data-ttu-id="e349d-111">Valeur de type **Variant** qui spécifie le nom ou la position ordinale (index) de l'objet à supprimer.</span><span class="sxs-lookup"><span data-stu-id="e349d-111">A **Variant** that specifies the name or ordinal position (index) of the object to delete.</span></span>|
+|<span data-ttu-id="69003-110">*Name*</span><span class="sxs-lookup"><span data-stu-id="69003-110">*Name*</span></span> |<span data-ttu-id="69003-111">Valeur de type **Variant** qui spécifie le nom ou la position ordinale (index) de l'objet à supprimer.</span><span class="sxs-lookup"><span data-stu-id="69003-111">A **Variant** that specifies the name or ordinal position (index) of the object to delete.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="e349d-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="e349d-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="69003-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="69003-112">Remarks</span></span>
 
-<span data-ttu-id="e349d-113">Une erreur se produit si le paramètre *Name* n'existe pas dans la collection.</span><span class="sxs-lookup"><span data-stu-id="e349d-113">An error will occur if the *Name* does not exist in the collection.</span></span>
+<span data-ttu-id="69003-113">Une erreur se produit si le paramètre *Name* n'existe pas dans la collection.</span><span class="sxs-lookup"><span data-stu-id="69003-113">An error will occur if the *Name* does not exist in the collection.</span></span>
 
-<span data-ttu-id="e349d-p101">Pour les collections [Tables](tables-collection-adox.md) et [Users](users-collection-adox.md), une erreur se produit si le fournisseur ne prend pas en charge la suppression respective des tables ou des utilisateurs. Pour les collections [Procedures](procedures-collection-adox.md) et [Views](views-collection-adox.md), la méthode **Delete** échoue si le fournisseur ne prend pas en charge les commandes persistantes.</span><span class="sxs-lookup"><span data-stu-id="e349d-p101">For [Tables](tables-collection-adox.md) and [Users](users-collection-adox.md) collections, an error will occur if the provider does not support deleting tables or users, respectively. For [Procedures](procedures-collection-adox.md) and [Views](views-collection-adox.md) collections, **Delete** will fail if the provider does not support persisting commands.</span></span>
+<span data-ttu-id="69003-p101">Pour les collections [Tables](tables-collection-adox.md) et [Users](users-collection-adox.md), une erreur se produit si le fournisseur ne prend pas en charge la suppression respective des tables ou des utilisateurs. Pour les collections [Procedures](procedures-collection-adox.md) et [Views](views-collection-adox.md), la méthode **Delete** échoue si le fournisseur ne prend pas en charge les commandes persistantes.</span><span class="sxs-lookup"><span data-stu-id="69003-p101">For [Tables](tables-collection-adox.md) and [Users](users-collection-adox.md) collections, an error will occur if the provider does not support deleting tables or users, respectively. For [Procedures](procedures-collection-adox.md) and [Views](views-collection-adox.md) collections, **Delete** will fail if the provider does not support persisting commands.</span></span>
 

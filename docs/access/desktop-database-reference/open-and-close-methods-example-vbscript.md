@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288433"
 ---
-# <a name="open-and-close-methods-example-vbscript"></a><span data-ttu-id="88043-102">Open et Close, méthodes – Exemple (VBScript)</span><span class="sxs-lookup"><span data-stu-id="88043-102">Open and Close methods example (VBScript)</span></span>
+# <a name="open-and-close-methods-example-vbscript"></a><span data-ttu-id="94df0-102">Open et Close, méthodes – Exemple (VBScript)</span><span class="sxs-lookup"><span data-stu-id="94df0-102">Open and Close methods example (VBScript)</span></span>
 
 
-<span data-ttu-id="88043-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88043-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="94df0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94df0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="88043-104">Cet exemple utilise les méthodes [Open](open-method-ado-recordset.md) et [Close](close-method-ado.md) sur des objets [Recordset](recordset-object-ado.md) et [Connection](connection-object-ado.md) qui ont été ouverts.</span><span class="sxs-lookup"><span data-stu-id="88043-104">This example uses the [Open](open-method-ado-recordset.md) and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
+<span data-ttu-id="94df0-104">Cet exemple utilise les méthodes [Open](open-method-ado-recordset.md) et [Close](close-method-ado.md) sur des objets [Recordset](recordset-object-ado.md) et [Connection](connection-object-ado.md) qui ont été ouverts.</span><span class="sxs-lookup"><span data-stu-id="94df0-104">This example uses the [Open](open-method-ado-recordset.md) and [Close](close-method-ado.md) methods on both [Recordset](recordset-object-ado.md) and [Connection](connection-object-ado.md) objects that have been opened.</span></span>
 
-<span data-ttu-id="88043-p101">Utilisez l'exemple suivant dans une page ASP (Active Server Page). Utilisez **Rechercher** pour localiser le fichier Adovbs.inc et placez-le dans le répertoire que vous avez l'intention d'utiliser. Coupez et collez le code suivant dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **OpenVBS.asp**. Vous pouvez consulter le résultat dans n'importe quel navigateur.</span><span class="sxs-lookup"><span data-stu-id="88043-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **OpenVBS.asp**. You can view the result in any browser.</span></span>
+<span data-ttu-id="94df0-p101">Utilisez l'exemple suivant dans une page ASP (Active Server Page). Utilisez **Rechercher** pour localiser le fichier Adovbs.inc et placez-le dans le répertoire que vous avez l'intention d'utiliser. Coupez et collez le code suivant dans le Bloc-notes ou un autre éditeur de texte et enregistrez-le sous **OpenVBS.asp**. Vous pouvez consulter le résultat dans n'importe quel navigateur.</span><span class="sxs-lookup"><span data-stu-id="94df0-p101">Use the following example in an Active Server Page (ASP). Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use. Cut and paste the following code into Notepad or another text editor, and save it as **OpenVBS.asp**. You can view the result in any browser.</span></span>
 
 ```vb 
  

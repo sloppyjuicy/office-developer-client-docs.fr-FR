@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292250"
 ---
-# <a name="getpermissions-and-setpermissions-methods-example-vc"></a><span data-ttu-id="0fc9c-102">GetPermissions et SetPermissions, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="0fc9c-102">GetPermissions and SetPermissions methods example (VC++)</span></span>
+# <a name="getpermissions-and-setpermissions-methods-example-vc"></a><span data-ttu-id="51079-102">GetPermissions et SetPermissions, méthodes – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="51079-102">GetPermissions and SetPermissions methods example (VC++)</span></span>
 
 
-<span data-ttu-id="0fc9c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0fc9c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="51079-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51079-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0fc9c-p101">Cet exemple illustre les méthodes [GetPermissions](getpermissions-method-adox.md) et [SetPermissions](setpermissions-method-adox.md). Le code suivant octroie à l'utilisateur « Admin » l'accès complet à la table « Orders ».</span><span class="sxs-lookup"><span data-stu-id="0fc9c-p101">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods. The following code gives full access to the Orders table to the Admin user.</span></span>
+<span data-ttu-id="51079-p101">Cet exemple illustre les méthodes [GetPermissions](getpermissions-method-adox.md) et [SetPermissions](setpermissions-method-adox.md). Le code suivant octroie à l'utilisateur « Admin » l'accès complet à la table « Orders ».</span><span class="sxs-lookup"><span data-stu-id="51079-p101">This example demonstrates the [GetPermissions](getpermissions-method-adox.md) and [SetPermissions](setpermissions-method-adox.md) methods. The following code gives full access to the Orders table to the Admin user.</span></span>
 
 ```cpp 
  

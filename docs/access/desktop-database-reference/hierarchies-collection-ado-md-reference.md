@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291984"
 ---
-# <a name="hierarchies-collection-ado-md-reference"></a><span data-ttu-id="10de0-102">Hierarchies, collection (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="10de0-102">Hierarchies collection (ADO MD reference)</span></span>
+# <a name="hierarchies-collection-ado-md-reference"></a><span data-ttu-id="2f6b0-102">Hierarchies, collection (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2f6b0-102">Hierarchies collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="10de0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="10de0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2f6b0-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2f6b0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="10de0-104">Hierarchies, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="10de0-104">Hierarchies collection (ADO MD)</span></span>](hierarchies-collection-ado-md.md)
-- [<span data-ttu-id="10de0-105">Hierarchies collection properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="10de0-105">Hierarchies collection properties, methods, and events (ADO MD)</span></span>](hierarchies-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="2f6b0-104">Hierarchies, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2f6b0-104">Hierarchies collection (ADO MD)</span></span>](hierarchies-collection-ado-md.md)
+- [<span data-ttu-id="2f6b0-105">Hierarchies collection properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2f6b0-105">Hierarchies collection properties, methods, and events (ADO MD)</span></span>](hierarchies-collection-properties-methods-and-events-ado-md.md)
 

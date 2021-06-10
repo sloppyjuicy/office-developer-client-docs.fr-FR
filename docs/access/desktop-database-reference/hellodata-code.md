@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292005"
 ---
-# <a name="hellodata-code"></a><span data-ttu-id="5f1b7-102">Code HelloData</span><span class="sxs-lookup"><span data-stu-id="5f1b7-102">HelloData code</span></span>
+# <a name="hellodata-code"></a><span data-ttu-id="7c989-102">Code HelloData</span><span class="sxs-lookup"><span data-stu-id="7c989-102">HelloData code</span></span>
 
 
-<span data-ttu-id="5f1b7-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5f1b7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7c989-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c989-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 ```vb 
  

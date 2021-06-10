@@ -18,19 +18,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294196"
 ---
-# <a name="dbenginesetoption-method-dao"></a><span data-ttu-id="8d337-102">DBEngine.SetOption, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="8d337-102">DBEngine.SetOption method (DAO)</span></span>
+# <a name="dbenginesetoption-method-dao"></a><span data-ttu-id="271f3-102">DBEngine.SetOption, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="271f3-102">DBEngine.SetOption method (DAO)</span></span>
 
-<span data-ttu-id="8d337-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d337-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="271f3-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="271f3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8d337-104">Remplace temporairement les valeurs des clés du moteur de base de données Microsoft Access dans le Registre de Windows (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="8d337-104">Temporarily overrides values for the Microsoft Access database engine keys in the Windows Registry (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="271f3-104">Remplace temporairement les valeurs des clés du moteur de base de données Microsoft Access dans le Registre de Windows (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="271f3-104">Temporarily overrides values for the Microsoft Access database engine keys in the Windows Registry (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8d337-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="8d337-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="271f3-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="271f3-105">Syntax</span></span>
 
-<span data-ttu-id="8d337-106">*.* SetOption(***Option***, ***Value***)</span><span class="sxs-lookup"><span data-stu-id="8d337-106">*expression* .SetOption(***Option***, ***Value***)</span></span>
+<span data-ttu-id="271f3-106">*.* SetOption(***Option***, ***Value***)</span><span class="sxs-lookup"><span data-stu-id="271f3-106">*expression* .SetOption(***Option***, ***Value***)</span></span>
 
-<span data-ttu-id="8d337-107">*expression* Expression renvoyant un objet **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="8d337-107">*expression* An expression that returns a **DBEngine** object.</span></span>
+<span data-ttu-id="271f3-107">*expression* Expression renvoyant un objet **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="271f3-107">*expression* An expression that returns a **DBEngine** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="8d337-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="8d337-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="271f3-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="271f3-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,32 +41,32 @@ ms.locfileid: "32294196"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8d337-109">Nom</span><span class="sxs-lookup"><span data-stu-id="8d337-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="8d337-110">Obligatoire/facultatif</span><span class="sxs-lookup"><span data-stu-id="8d337-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="8d337-111">Type de données</span><span class="sxs-lookup"><span data-stu-id="8d337-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="8d337-112">Description</span><span class="sxs-lookup"><span data-stu-id="8d337-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="271f3-109">Nom</span><span class="sxs-lookup"><span data-stu-id="271f3-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="271f3-110">Obligatoire/facultatif</span><span class="sxs-lookup"><span data-stu-id="271f3-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="271f3-111">Type de données</span><span class="sxs-lookup"><span data-stu-id="271f3-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="271f3-112">Description</span><span class="sxs-lookup"><span data-stu-id="271f3-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8d337-113"><em>Option</em></span><span class="sxs-lookup"><span data-stu-id="8d337-113"><em>Option</em></span></span></p></td>
-<td><p><span data-ttu-id="8d337-114">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="8d337-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="8d337-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-115"><strong>Long</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-116">Constante décrite dans les Notes.</span><span class="sxs-lookup"><span data-stu-id="8d337-116">A constant as described in Remarks.</span></span></p></td>
+<td><p><span data-ttu-id="271f3-113"><em>Option</em></span><span class="sxs-lookup"><span data-stu-id="271f3-113"><em>Option</em></span></span></p></td>
+<td><p><span data-ttu-id="271f3-114">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="271f3-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="271f3-115"><strong>Long</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-115"><strong>Long</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-116">Constante décrite dans les Notes.</span><span class="sxs-lookup"><span data-stu-id="271f3-116">A constant as described in Remarks.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d337-117"><em>Value</em></span><span class="sxs-lookup"><span data-stu-id="8d337-117"><em>Value</em></span></span></p></td>
-<td><p><span data-ttu-id="8d337-118">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="8d337-118">Required</span></span></p></td>
-<td><p><span data-ttu-id="8d337-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-119"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-120">Valeur à définir pour l’option.</span><span class="sxs-lookup"><span data-stu-id="8d337-120">The value that you want to set option to.</span></span></p></td>
+<td><p><span data-ttu-id="271f3-117"><em>Value</em></span><span class="sxs-lookup"><span data-stu-id="271f3-117"><em>Value</em></span></span></p></td>
+<td><p><span data-ttu-id="271f3-118">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="271f3-118">Required</span></span></p></td>
+<td><p><span data-ttu-id="271f3-119"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-119"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-120">Valeur à définir pour l’option.</span><span class="sxs-lookup"><span data-stu-id="271f3-120">The value that you want to set option to.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="8d337-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="8d337-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="271f3-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="271f3-121">Remarks</span></span>
 
-<span data-ttu-id="8d337-122">Chaque constante fait référence à la clé de Registre correspondante dans le chemin d’accès HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access \\ Connectivity Engines \\ ACE (autrement dit, **dbSharedAsyncDelay** correspond à la clé HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE \\ \\ SharedAsyncDelay, etc.).</span><span class="sxs-lookup"><span data-stu-id="8d337-122">Each constant refers to the corresponding registry key in the path HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\12.0\\Access Connectivity Engine\\Engines\\ACE (that is, **dbSharedAsyncDelay** corresponds to the key HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\12.0\\Access Connectivity Engine\\Engines\\ACE\\SharedAsyncDelay, and so on).</span></span>
+<span data-ttu-id="271f3-122">Chaque constante fait référence à la clé de Registre correspondante dans le chemin d’accès HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE (autrement \\ dit, **dbSharedAsyncDelay** correspond à la clé HKEY \_ LOCAL MACHINE SOFTWARE Microsoft Office \_ \\ \\ \\ \\ 12.0 \\ Access Connectivity \\ Engines ACE \\ \\ SharedAsyncDelay, etc.).</span><span class="sxs-lookup"><span data-stu-id="271f3-122">Each constant refers to the corresponding registry key in the path HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\12.0\\Access Connectivity Engine\\Engines\\ACE (that is, **dbSharedAsyncDelay** corresponds to the key HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Microsoft\\Office\\12.0\\Access Connectivity Engine\\Engines\\ACE\\SharedAsyncDelay, and so on).</span></span>
 
 <table>
 <colgroup>
@@ -75,58 +75,58 @@ ms.locfileid: "32294196"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8d337-123">Constante</span><span class="sxs-lookup"><span data-stu-id="8d337-123">Constant</span></span></p></th>
-<th><p><span data-ttu-id="8d337-124">Description</span><span class="sxs-lookup"><span data-stu-id="8d337-124">Description</span></span></p></th>
+<th><p><span data-ttu-id="271f3-123">Constante</span><span class="sxs-lookup"><span data-stu-id="271f3-123">Constant</span></span></p></th>
+<th><p><span data-ttu-id="271f3-124">Description</span><span class="sxs-lookup"><span data-stu-id="271f3-124">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8d337-125"><strong>dbPageTimeout</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-125"><strong>dbPageTimeout</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-126">Clé PageTimeout</span><span class="sxs-lookup"><span data-stu-id="8d337-126">The PageTimeout key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-125"><strong>dbPageTimeout</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-125"><strong>dbPageTimeout</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-126">Clé PageTimeout</span><span class="sxs-lookup"><span data-stu-id="271f3-126">The PageTimeout key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d337-127"><strong>dbSharedAsyncDelay</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-127"><strong>dbSharedAsyncDelay</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-128">Clé SharedAsyncDelay</span><span class="sxs-lookup"><span data-stu-id="8d337-128">The SharedAsyncDelay key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-127"><strong>dbSharedAsyncDelay</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-127"><strong>dbSharedAsyncDelay</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-128">Clé SharedAsyncDelay</span><span class="sxs-lookup"><span data-stu-id="271f3-128">The SharedAsyncDelay key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d337-129"><strong>dbExclusiveAsyncDelay</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-129"><strong>dbExclusiveAsyncDelay</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-130">Clé ExclusiveAsyncDelay</span><span class="sxs-lookup"><span data-stu-id="8d337-130">The ExclusiveAsyncDelay key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-129"><strong>dbExclusiveAsyncDelay</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-129"><strong>dbExclusiveAsyncDelay</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-130">Clé ExclusiveAsyncDelay</span><span class="sxs-lookup"><span data-stu-id="271f3-130">The ExclusiveAsyncDelay key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d337-131"><strong>dbLockRetry</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-131"><strong>dbLockRetry</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-132">Clé LockRetry</span><span class="sxs-lookup"><span data-stu-id="8d337-132">The LockRetry key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-131"><strong>dbLockRetry</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-131"><strong>dbLockRetry</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-132">Clé LockRetry</span><span class="sxs-lookup"><span data-stu-id="271f3-132">The LockRetry key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d337-133"><strong>dbUserCommitSync</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-133"><strong>dbUserCommitSync</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-134">Clé UserCommitSync</span><span class="sxs-lookup"><span data-stu-id="8d337-134">The UserCommitSync key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-133"><strong>dbUserCommitSync</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-133"><strong>dbUserCommitSync</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-134">Clé UserCommitSync</span><span class="sxs-lookup"><span data-stu-id="271f3-134">The UserCommitSync key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d337-135"><strong>dbImplicitCommitSync</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-135"><strong>dbImplicitCommitSync</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-136">Clé ImplicitCommitSync</span><span class="sxs-lookup"><span data-stu-id="8d337-136">The ImplicitCommitSync key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-135"><strong>dbImplicitCommitSync</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-135"><strong>dbImplicitCommitSync</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-136">Clé ImplicitCommitSync</span><span class="sxs-lookup"><span data-stu-id="271f3-136">The ImplicitCommitSync key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d337-137"><strong>dbMaxBufferSize</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-137"><strong>dbMaxBufferSize</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-138">Clé MaxBufferSize</span><span class="sxs-lookup"><span data-stu-id="8d337-138">The MaxBufferSize key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-137"><strong>dbMaxBufferSize</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-137"><strong>dbMaxBufferSize</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-138">Clé MaxBufferSize</span><span class="sxs-lookup"><span data-stu-id="271f3-138">The MaxBufferSize key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d337-139"><strong>dbMaxLocksPerFile</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-139"><strong>dbMaxLocksPerFile</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-140">Clé MaxLocksPerFile</span><span class="sxs-lookup"><span data-stu-id="8d337-140">The MaxLocksPerFile key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-139"><strong>dbMaxLocksPerFile</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-139"><strong>dbMaxLocksPerFile</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-140">Clé MaxLocksPerFile</span><span class="sxs-lookup"><span data-stu-id="271f3-140">The MaxLocksPerFile key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d337-141"><strong>dbLockDelay</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-141"><strong>dbLockDelay</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-142">Clé LockDelay</span><span class="sxs-lookup"><span data-stu-id="8d337-142">The LockDelay key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-141"><strong>dbLockDelay</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-141"><strong>dbLockDelay</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-142">Clé LockDelay</span><span class="sxs-lookup"><span data-stu-id="271f3-142">The LockDelay key</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d337-143"><strong>dbRecycleLVs</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-143"><strong>dbRecycleLVs</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-144">Clé RecycleLVs</span><span class="sxs-lookup"><span data-stu-id="8d337-144">The RecycleLVs key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-143"><strong>dbRecycleLVs</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-143"><strong>dbRecycleLVs</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-144">Clé RecycleLVs</span><span class="sxs-lookup"><span data-stu-id="271f3-144">The RecycleLVs key</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d337-145"><strong>dbFlushTransactionTimeout</strong></span><span class="sxs-lookup"><span data-stu-id="8d337-145"><strong>dbFlushTransactionTimeout</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d337-146">Clé FlushTransactionTimeout</span><span class="sxs-lookup"><span data-stu-id="8d337-146">The FlushTransactionTimeout key</span></span></p></td>
+<td><p><span data-ttu-id="271f3-145"><strong>dbFlushTransactionTimeout</strong></span><span class="sxs-lookup"><span data-stu-id="271f3-145"><strong>dbFlushTransactionTimeout</strong></span></span></p></td>
+<td><p><span data-ttu-id="271f3-146">Clé FlushTransactionTimeout</span><span class="sxs-lookup"><span data-stu-id="271f3-146">The FlushTransactionTimeout key</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="8d337-p101">Utilisez la méthode **SetOption** pour remplacer les valeurs de registre lors de l'exécution. Les nouvelles valeurs définies avec la méthode **SetOption** restent activées tant qu'elles ne sont pas modifiées de nouveau par un autre appel de la méthode **SetOption** ou que l'objet **DBEngine** n'est pas fermé.</span><span class="sxs-lookup"><span data-stu-id="8d337-p101">Use the **SetOption** method to override registry values at run-time. New values established with the **SetOption** method remain in effect until changed again by another **SetOption** call, or until the **DBEngine** object is closed.</span></span>
+<span data-ttu-id="271f3-p101">Utilisez la méthode **SetOption** pour remplacer les valeurs de registre lors de l'exécution. Les nouvelles valeurs définies avec la méthode **SetOption** restent activées tant qu'elles ne sont pas modifiées de nouveau par un autre appel de la méthode **SetOption** ou que l'objet **DBEngine** n'est pas fermé.</span><span class="sxs-lookup"><span data-stu-id="271f3-p101">Use the **SetOption** method to override registry values at run-time. New values established with the **SetOption** method remain in effect until changed again by another **SetOption** call, or until the **DBEngine** object is closed.</span></span>
 

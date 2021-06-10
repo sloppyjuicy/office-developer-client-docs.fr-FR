@@ -14,26 +14,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288251"
 ---
-# <a name="optimize-dynamic-property-ado"></a><span data-ttu-id="4e105-102">Optimiser la propriété dynamique (ADO)</span><span class="sxs-lookup"><span data-stu-id="4e105-102">Optimize dynamic property (ADO)</span></span>
+# <a name="optimize-dynamic-property-ado"></a><span data-ttu-id="10d5a-102">Optimiser la propriété dynamique (ADO)</span><span class="sxs-lookup"><span data-stu-id="10d5a-102">Optimize dynamic property (ADO)</span></span>
 
 
-<span data-ttu-id="4e105-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4e105-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="10d5a-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="10d5a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4e105-104">Indique s'il est nécessaire de créer un index sur un champ.</span><span class="sxs-lookup"><span data-stu-id="4e105-104">Specifies whether an index should be created on a field.</span></span>
+<span data-ttu-id="10d5a-104">Indique s'il est nécessaire de créer un index sur un champ.</span><span class="sxs-lookup"><span data-stu-id="10d5a-104">Specifies whether an index should be created on a field.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="4e105-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="4e105-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="10d5a-105">Paramètres et valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="10d5a-105">Settings and return values</span></span>
 
-<span data-ttu-id="4e105-106">Définit ou renvoie une valeur **booléenne** indiquant si un index doit être créé.</span><span class="sxs-lookup"><span data-stu-id="4e105-106">Sets or returns a **Boolean** value that indicates whether an index should be created.</span></span>
+<span data-ttu-id="10d5a-106">Définit ou renvoie une valeur **booléenne** indiquant si un index doit être créé.</span><span class="sxs-lookup"><span data-stu-id="10d5a-106">Sets or returns a **Boolean** value that indicates whether an index should be created.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4e105-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="4e105-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="10d5a-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="10d5a-107">Remarks</span></span>
 
-<span data-ttu-id="4e105-p101">Un index peut améliorer les performances des opérations de recherche ou de tri des valeurs d'un objet [Recordset](recordset-object-ado.md). L'index est interne à ADO : vous ne pouvez pas y accéder explicitement ni l'utiliser dans votre application.</span><span class="sxs-lookup"><span data-stu-id="4e105-p101">An index can improve the performance of operations that find or sort values in a [Recordset](recordset-object-ado.md). The index is internal to ADO — you cannot explicitly access or use it in your application.</span></span>
+<span data-ttu-id="10d5a-p101">Un index peut améliorer les performances des opérations de recherche ou de tri des valeurs d'un objet [Recordset](recordset-object-ado.md). L'index est interne à ADO : vous ne pouvez pas y accéder explicitement ni l'utiliser dans votre application.</span><span class="sxs-lookup"><span data-stu-id="10d5a-p101">An index can improve the performance of operations that find or sort values in a [Recordset](recordset-object-ado.md). The index is internal to ADO — you cannot explicitly access or use it in your application.</span></span>
 
-<span data-ttu-id="4e105-p102">Pour créer un index sur un champ, donnez à la propriété **Optimize** la valeur **True**. Pour supprimer l'index, donnez à cette propriété la valeur **False**.</span><span class="sxs-lookup"><span data-stu-id="4e105-p102">To create an index on a field, set the **Optimize** property to **True**. To delete the index, set this property to **False**.</span></span>
+<span data-ttu-id="10d5a-p102">Pour créer un index sur un champ, donnez à la propriété **Optimize** la valeur **True**. Pour supprimer l'index, donnez à cette propriété la valeur **False**.</span><span class="sxs-lookup"><span data-stu-id="10d5a-p102">To create an index on a field, set the **Optimize** property to **True**. To delete the index, set this property to **False**.</span></span>
 
-<span data-ttu-id="4e105-112">**Optimize** est une propriété dynamique ajoutée à la collection [Properties](field-object-ado.md) de l'objet [Field](properties-collection-ado.md) lorsque la valeur de la propriété [CursorLocation](cursorlocation-property-ado.md) est **adUseClient**.</span><span class="sxs-lookup"><span data-stu-id="4e105-112">**Optimize** is a dynamic property appended to the [Field](field-object-ado.md) object [Properties](properties-collection-ado.md) collection when the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**.</span></span>
+<span data-ttu-id="10d5a-112">**Optimize** est une propriété dynamique ajoutée à la collection [Properties](field-object-ado.md) de l'objet [Field](properties-collection-ado.md) lorsque la valeur de la propriété [CursorLocation](cursorlocation-property-ado.md) est **adUseClient**.</span><span class="sxs-lookup"><span data-stu-id="10d5a-112">**Optimize** is a dynamic property appended to the [Field](field-object-ado.md) object [Properties](properties-collection-ado.md) collection when the [CursorLocation](cursorlocation-property-ado.md) property is set to **adUseClient**.</span></span>
 
-<span data-ttu-id="4e105-113">**Utilisation**</span><span class="sxs-lookup"><span data-stu-id="4e105-113">**Usage**</span></span>
+<span data-ttu-id="10d5a-113">**Utilisation**</span><span class="sxs-lookup"><span data-stu-id="10d5a-113">**Usage**</span></span>
 
 ```vb
     Dim rs As New Recordset

@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295127"
 ---
-# <a name="data-blocks"></a><span data-ttu-id="74df6-102">Blocs de données</span><span class="sxs-lookup"><span data-stu-id="74df6-102">Data blocks</span></span>
+# <a name="data-blocks"></a><span data-ttu-id="7d951-102">Blocs de données</span><span class="sxs-lookup"><span data-stu-id="7d951-102">Data blocks</span></span>
 
-<span data-ttu-id="74df6-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="74df6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7d951-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d951-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="74df6-104">Bloc de données CreateRecord</span><span class="sxs-lookup"><span data-stu-id="74df6-104">CreateRecord data block</span></span>](createrecord-data-block.md)
-- [<span data-ttu-id="74df6-105">Bloc de données EditRecord</span><span class="sxs-lookup"><span data-stu-id="74df6-105">EditRecord data block</span></span>](editrecord-data-block.md)
-- [<span data-ttu-id="74df6-106">Bloc de données ForEachRecord</span><span class="sxs-lookup"><span data-stu-id="74df6-106">ForEachRecord data block</span></span>](foreachrecord-data-block.md)
-- [<span data-ttu-id="74df6-107">LookupRecord, bloc de données</span><span class="sxs-lookup"><span data-stu-id="74df6-107">LookupRecord data block</span></span>](lookuprecord-data-block.md)
+- [<span data-ttu-id="7d951-104">Bloc de données CreateRecord</span><span class="sxs-lookup"><span data-stu-id="7d951-104">CreateRecord data block</span></span>](createrecord-data-block.md)
+- [<span data-ttu-id="7d951-105">Bloc de données EditRecord</span><span class="sxs-lookup"><span data-stu-id="7d951-105">EditRecord data block</span></span>](editrecord-data-block.md)
+- [<span data-ttu-id="7d951-106">Bloc de données ForEachRecord</span><span class="sxs-lookup"><span data-stu-id="7d951-106">ForEachRecord data block</span></span>](foreachrecord-data-block.md)
+- [<span data-ttu-id="7d951-107">LookupRecord, bloc de données</span><span class="sxs-lookup"><span data-stu-id="7d951-107">LookupRecord data block</span></span>](lookuprecord-data-block.md)
 

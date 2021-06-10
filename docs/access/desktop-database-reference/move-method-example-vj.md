@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288812"
 ---
-# <a name="move-method-example-vj"></a><span data-ttu-id="28826-102">Move, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="28826-102">Move method example (VJ++)</span></span>
+# <a name="move-method-example-vj"></a><span data-ttu-id="83ec4-102">Move, méthode – Exemple (VJ++)</span><span class="sxs-lookup"><span data-stu-id="83ec4-102">Move method example (VJ++)</span></span>
 
 
-<span data-ttu-id="28826-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="28826-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="83ec4-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="83ec4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="28826-104">Cet exemple de code montre comment utiliser la méthode [Move](move-method-ado.md) pour positionner le pointeur d’enregistrement en fonction de l’entrée de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="28826-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="83ec4-104">Cet exemple de code montre comment utiliser la méthode [Move](move-method-ado.md) pour positionner le pointeur d’enregistrement en fonction de l’entrée de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="83ec4-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```java 
  

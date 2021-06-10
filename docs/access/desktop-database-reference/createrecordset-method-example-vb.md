@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295344"
 ---
-# <a name="createrecordset-method-example-vb"></a><span data-ttu-id="7e0a9-102">CreateRecordset, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="7e0a9-102">CreateRecordset method example (VB)</span></span>
+# <a name="createrecordset-method-example-vb"></a><span data-ttu-id="6be50-102">CreateRecordset, méthode – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="6be50-102">CreateRecordset method example (VB)</span></span>
 
 
-<span data-ttu-id="7e0a9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e0a9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6be50-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6be50-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7e0a9-p101">Vous pouvez créer un objet [Recordset](recordset-object-ado.md) et spécifier les informations de colonne, puis insérer des données dans cet objet **Recordset**; l'ensemble de lignes sous-jacent place les insertions dans la mémoire tampon.</span><span class="sxs-lookup"><span data-stu-id="7e0a9-p101">You can create a [Recordset](recordset-object-ado.md) object and specify the column information. You can then insert data into the **Recordset** object; the underlying rowset buffers the inserts.</span></span>
+<span data-ttu-id="6be50-p101">Vous pouvez créer un objet [Recordset](recordset-object-ado.md) et spécifier les informations de colonne, puis insérer des données dans cet objet **Recordset**; l'ensemble de lignes sous-jacent place les insertions dans la mémoire tampon.</span><span class="sxs-lookup"><span data-stu-id="6be50-p101">You can create a [Recordset](recordset-object-ado.md) object and specify the column information. You can then insert data into the **Recordset** object; the underlying rowset buffers the inserts.</span></span>
 
-<span data-ttu-id="7e0a9-p102">L'exemple de code suivant montre comment définir un objet **Recordset** à l'aide de l'objet [RDSServer.DataFactory](datafactory-object-rdsserver.md). Vous pouvez également effectuer cette opération avec l'objet [RDS.DataControl](datacontrol-object-rds.md).</span><span class="sxs-lookup"><span data-stu-id="7e0a9-p102">The following code example shows how to define a **Recordset** by using the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object. You can also do this with the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>
+<span data-ttu-id="6be50-p102">L'exemple de code suivant montre comment définir un objet **Recordset** à l'aide de l'objet [RDSServer.DataFactory](datafactory-object-rdsserver.md). Vous pouvez également effectuer cette opération avec l'objet [RDS.DataControl](datacontrol-object-rds.md).</span><span class="sxs-lookup"><span data-stu-id="6be50-p102">The following code example shows how to define a **Recordset** by using the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object. You can also do this with the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>
 
 ```vb 
  

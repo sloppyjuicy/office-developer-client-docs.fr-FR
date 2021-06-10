@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291596"
 ---
-# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="537dd-102">Indexes Append, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="537dd-102">Indexes Append method example (VC++)</span></span>
+# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="a4338-102">Indexes Append, méthode – Exemple (VC++)</span><span class="sxs-lookup"><span data-stu-id="a4338-102">Indexes Append method example (VC++)</span></span>
 
 
-<span data-ttu-id="537dd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="537dd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a4338-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4338-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="537dd-p101">Le code suivant illustre la création d'un index. Celui-ci porte sur deux colonnes de la table.</span><span class="sxs-lookup"><span data-stu-id="537dd-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
+<span data-ttu-id="a4338-p101">Le code suivant illustre la création d'un index. Celui-ci porte sur deux colonnes de la table.</span><span class="sxs-lookup"><span data-stu-id="a4338-p101">The following code demonstrates how to create a new index. The index is on two columns in the table.</span></span>
 
 ```cpp 
  

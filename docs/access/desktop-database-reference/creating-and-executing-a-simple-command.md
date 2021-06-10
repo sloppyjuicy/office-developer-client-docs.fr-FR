@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295316"
 ---
-# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="9c6da-102">Création et exécution d’une commande simple</span><span class="sxs-lookup"><span data-stu-id="9c6da-102">Creating and executing a simple command</span></span>
+# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="b55bf-102">Création et exécution d’une commande simple</span><span class="sxs-lookup"><span data-stu-id="b55bf-102">Creating and executing a simple command</span></span>
 
 
-<span data-ttu-id="9c6da-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c6da-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b55bf-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b55bf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9c6da-p101">Bien qu'il ne s'agisse pas d'une utilisation habituelle de l'objet **Command**, le code suivant présente une méthode de base qui consiste à utiliser l'objet **Command** pour exécuter une commande sur une source de données. Dans ce cas, il s'agit d'une commande de renvoi de ligne, c'est-à-dire qu'elle retourne les résultats de la commande dans un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="9c6da-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
+<span data-ttu-id="b55bf-p101">Bien qu'il ne s'agisse pas d'une utilisation habituelle de l'objet **Command**, le code suivant présente une méthode de base qui consiste à utiliser l'objet **Command** pour exécuter une commande sur une source de données. Dans ce cas, il s'agit d'une commande de renvoi de ligne, c'est-à-dire qu'elle retourne les résultats de la commande dans un objet **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="b55bf-p101">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source. In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
 
 ```vb 
  
@@ -79,11 +79,11 @@ ErrHandler:
 'EndBasicCmd 
 ```
 
-<span data-ttu-id="9c6da-106">La commande à exécuter est spécifiée à l'aide de la propriété **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="9c6da-106">The command to be executed is specified with the **CommandText** property.</span></span>
+<span data-ttu-id="b55bf-106">La commande à exécuter est spécifiée à l'aide de la propriété **CommandText**.</span><span class="sxs-lookup"><span data-stu-id="b55bf-106">The command to be executed is specified with the **CommandText** property.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="9c6da-107">Plusieurs exemples de cette section appellent une fonction utilitaire, **GetNewConnection,** pour établir une connexion avec le fournisseur de données.</span><span class="sxs-lookup"><span data-stu-id="9c6da-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="9c6da-108">Pour éviter la redondance, elle n’est répertoriée qu’une seule fois :</span><span class="sxs-lookup"><span data-stu-id="9c6da-108">To avoid redundancy, it is listed only once:</span></span>
+> <span data-ttu-id="b55bf-107">Plusieurs exemples de cette section appellent une fonction utilitaire, **GetNewConnection,** pour établir une connexion avec le fournisseur de données.</span><span class="sxs-lookup"><span data-stu-id="b55bf-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="b55bf-108">Pour éviter la redondance, elle n’est répertoriée qu’une seule fois :</span><span class="sxs-lookup"><span data-stu-id="b55bf-108">To avoid redundancy, it is listed only once:</span></span>
 
 ```vb 
  

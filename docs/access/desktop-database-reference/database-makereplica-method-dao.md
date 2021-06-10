@@ -18,19 +18,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294917"
 ---
-# <a name="databasemakereplica-method-dao"></a><span data-ttu-id="83a07-102">Database.MakeReplica, méthode (DAO)</span><span class="sxs-lookup"><span data-stu-id="83a07-102">Database.MakeReplica method (DAO)</span></span>
+# <a name="databasemakereplica-method-dao"></a><span data-ttu-id="a7d85-102">Méthode Database.MakeReplica (DAO)</span><span class="sxs-lookup"><span data-stu-id="a7d85-102">Database.MakeReplica method (DAO)</span></span>
 
-<span data-ttu-id="83a07-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="83a07-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a7d85-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a7d85-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="83a07-104">Crée un nouveau réplica à partir d’un autre réplica de base de données (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="83a07-104">Makes a new replica from another database replica (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="a7d85-104">Crée un nouveau réplica à partir d’un autre réplica de base de données (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="a7d85-104">Makes a new replica from another database replica (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="83a07-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="83a07-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a7d85-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a7d85-105">Syntax</span></span>
 
-<span data-ttu-id="83a07-106">*.* MakeReplica(***PathName***, ***Description***, ***Options***)</span><span class="sxs-lookup"><span data-stu-id="83a07-106">*expression* .MakeReplica(***PathName***, ***Description***, ***Options***)</span></span>
+<span data-ttu-id="a7d85-106">*.* MakeReplica(***PathName***, ***Description***, ***Options***)</span><span class="sxs-lookup"><span data-stu-id="a7d85-106">*expression* .MakeReplica(***PathName***, ***Description***, ***Options***)</span></span>
 
-<span data-ttu-id="83a07-107">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="83a07-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="a7d85-107">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="a7d85-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="83a07-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="83a07-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a7d85-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a7d85-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,42 +41,42 @@ ms.locfileid: "32294917"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="83a07-109">Nom</span><span class="sxs-lookup"><span data-stu-id="83a07-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="83a07-110">Obligatoire/facultatif</span><span class="sxs-lookup"><span data-stu-id="83a07-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="83a07-111">Type de données</span><span class="sxs-lookup"><span data-stu-id="83a07-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="83a07-112">Description</span><span class="sxs-lookup"><span data-stu-id="83a07-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="a7d85-109">Nom</span><span class="sxs-lookup"><span data-stu-id="a7d85-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="a7d85-110">Obligatoire/facultatif</span><span class="sxs-lookup"><span data-stu-id="a7d85-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="a7d85-111">Type de données</span><span class="sxs-lookup"><span data-stu-id="a7d85-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="a7d85-112">Description</span><span class="sxs-lookup"><span data-stu-id="a7d85-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="83a07-113"><em>PathName</em></span><span class="sxs-lookup"><span data-stu-id="83a07-113"><em>PathName</em></span></span></p></td>
-<td><p><span data-ttu-id="83a07-114">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="83a07-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="83a07-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="83a07-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="83a07-116">Chemin d'accès et nom de fichier du nouveau réplica.</span><span class="sxs-lookup"><span data-stu-id="83a07-116">The path and file name of the new replica.</span></span> <span data-ttu-id="83a07-117">Si l'argument réplica correspond à un nom de fichier existant, une erreur se produit.</span><span class="sxs-lookup"><span data-stu-id="83a07-117">If replica is an existing file name, then an error occurs.</span></span></p></td>
+<td><p><span data-ttu-id="a7d85-113"><em>PathName</em></span><span class="sxs-lookup"><span data-stu-id="a7d85-113"><em>PathName</em></span></span></p></td>
+<td><p><span data-ttu-id="a7d85-114">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="a7d85-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="a7d85-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="a7d85-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="a7d85-p101">Chemin d'accès et nom de fichier du nouveau réplica. Si l'argument réplica correspond à un nom de fichier existant, une erreur se produit.</span><span class="sxs-lookup"><span data-stu-id="a7d85-p101">The path and file name of the new replica. If replica is an existing file name, then an error occurs.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="83a07-118"><em>Description</em></span><span class="sxs-lookup"><span data-stu-id="83a07-118"><em>Description</em></span></span></p></td>
-<td><p><span data-ttu-id="83a07-119">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="83a07-119">Required</span></span></p></td>
-<td><p><span data-ttu-id="83a07-120"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="83a07-120"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="83a07-121">Valeur de type <strong>String</strong> décrivant le réplica que vous créez.</span><span class="sxs-lookup"><span data-stu-id="83a07-121">A <strong>String</strong> that describes the replica that you are creating</span></span></p></td>
+<td><p><span data-ttu-id="a7d85-118"><em>Description</em></span><span class="sxs-lookup"><span data-stu-id="a7d85-118"><em>Description</em></span></span></p></td>
+<td><p><span data-ttu-id="a7d85-119">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="a7d85-119">Required</span></span></p></td>
+<td><p><span data-ttu-id="a7d85-120"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="a7d85-120"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="a7d85-121">Valeur de type <strong>String</strong> décrivant le réplica que vous créez.</span><span class="sxs-lookup"><span data-stu-id="a7d85-121">A <strong>String</strong> that describes the replica that you are creating</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="83a07-122"><em>Options</em></span><span class="sxs-lookup"><span data-stu-id="83a07-122"><em>Options</em></span></span></p></td>
-<td><p><span data-ttu-id="83a07-123">Facultatif</span><span class="sxs-lookup"><span data-stu-id="83a07-123">Optional</span></span></p></td>
-<td><p><span data-ttu-id="83a07-124"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="83a07-124"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="83a07-125">Constante <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> qui spécifie les caractéristiques du réplica que vous créez.</span><span class="sxs-lookup"><span data-stu-id="83a07-125">A <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> constant that specifies characteristics of the replica you are creating.</span></span></p></td>
+<td><p><span data-ttu-id="a7d85-122"><em>Options</em></span><span class="sxs-lookup"><span data-stu-id="a7d85-122"><em>Options</em></span></span></p></td>
+<td><p><span data-ttu-id="a7d85-123">Facultatif</span><span class="sxs-lookup"><span data-stu-id="a7d85-123">Optional</span></span></p></td>
+<td><p><span data-ttu-id="a7d85-124"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="a7d85-124"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="a7d85-125">Constante <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> qui spécifie les caractéristiques du réplica que vous créez.</span><span class="sxs-lookup"><span data-stu-id="a7d85-125">A <strong><a href="replicatypeenum-enumeration-dao.md">ReplicaTypeEnum</a></strong> constant that specifies characteristics of the replica you are creating.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="83a07-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="83a07-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a7d85-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="a7d85-126">Remarks</span></span>
 
-<span data-ttu-id="83a07-127">Les propriétés **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** d'un réplica nouvellement créé sont toutes affectées de la valeur **False**, ce qui signifie que les tables ne comporteront pas de données.</span><span class="sxs-lookup"><span data-stu-id="83a07-127">A newly created partial replica will have all **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** properties set to **False**, meaning that no data will be in the tables.</span></span>
+<span data-ttu-id="a7d85-127">Les propriétés **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** d'un réplica nouvellement créé sont toutes affectées de la valeur **False**, ce qui signifie que les tables ne comporteront pas de données.</span><span class="sxs-lookup"><span data-stu-id="a7d85-127">A newly created partial replica will have all **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** properties set to **False**, meaning that no data will be in the tables.</span></span>
 
-## <a name="example"></a><span data-ttu-id="83a07-128">Exemple</span><span class="sxs-lookup"><span data-stu-id="83a07-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a7d85-128">Exemple</span><span class="sxs-lookup"><span data-stu-id="a7d85-128">Example</span></span>
 
-<span data-ttu-id="83a07-129">Cette fonction s'appuie sur la méthode **MakeReplica** pour créer un réplica supplémentaire d'un réplica-maître existant.</span><span class="sxs-lookup"><span data-stu-id="83a07-129">This function uses the **MakeReplica** method to create an additional replica of an existing Design Master.</span></span> <span data-ttu-id="83a07-130">L’argument intOptions peut être une combinaison des constantes **dbRepMakeReadOnly** et **dbRepMakePartial,** ou il peut être 0.</span><span class="sxs-lookup"><span data-stu-id="83a07-130">The intOptions argument can be a combination of the constants **dbRepMakeReadOnly** and **dbRepMakePartial**, or it can be 0.</span></span> <span data-ttu-id="83a07-131">Par exemple, pour créer un réplica partiel en lecture seule, vous devez transmettre la valeur **dbRepMakeReadOnly**  +  **dbRepMakePartial** en tant que valeur d’intOptions.</span><span class="sxs-lookup"><span data-stu-id="83a07-131">For example, to create a read-only partial replica, you should pass the value **dbRepMakeReadOnly** + **dbRepMakePartial** as the value of intOptions.</span></span>
+<span data-ttu-id="a7d85-129">Cette fonction s'appuie sur la méthode **MakeReplica** pour créer un réplica supplémentaire d'un réplica-maître existant.</span><span class="sxs-lookup"><span data-stu-id="a7d85-129">This function uses the **MakeReplica** method to create an additional replica of an existing Design Master.</span></span> <span data-ttu-id="a7d85-130">L’argument intOptions peut être une combinaison des constantes **dbRepMakeReadOnly** et **dbRepMakePartial,** ou il peut être 0.</span><span class="sxs-lookup"><span data-stu-id="a7d85-130">The intOptions argument can be a combination of the constants **dbRepMakeReadOnly** and **dbRepMakePartial**, or it can be 0.</span></span> <span data-ttu-id="a7d85-131">Par exemple, pour créer un réplica partiel en lecture seule, vous devez transmettre la valeur **dbRepMakeReadOnly**  +  **dbRepMakePartial** en tant que valeur d’intOptions.</span><span class="sxs-lookup"><span data-stu-id="a7d85-131">For example, to create a read-only partial replica, you should pass the value **dbRepMakeReadOnly** + **dbRepMakePartial** as the value of intOptions.</span></span>
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

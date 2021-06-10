@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289941"
 ---
-# <a name="lineseparatorsenum"></a><span data-ttu-id="91d15-102">LineSeparatorsEnum</span><span class="sxs-lookup"><span data-stu-id="91d15-102">LineSeparatorsEnum</span></span>
+# <a name="lineseparatorsenum"></a><span data-ttu-id="c4884-102">LineSeparatorsEnum</span><span class="sxs-lookup"><span data-stu-id="c4884-102">LineSeparatorsEnum</span></span>
 
-<span data-ttu-id="91d15-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="91d15-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c4884-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c4884-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="91d15-104">Spécifie le caractère utilisé comme séparateur de ligne dans les objets texte [Stream](stream-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="91d15-104">Specifies the character used as a line separator in text [Stream](stream-object-ado.md) objects.</span></span>
+<span data-ttu-id="c4884-104">Spécifie le caractère utilisé comme séparateur de ligne dans les objets texte [Stream](stream-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="c4884-104">Specifies the character used as a line separator in text [Stream](stream-object-ado.md) objects.</span></span>
 
 <br/>
 
@@ -30,32 +30,32 @@ ms.locfileid: "32289941"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="91d15-105">Constante</span><span class="sxs-lookup"><span data-stu-id="91d15-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="91d15-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="91d15-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="91d15-107">Description</span><span class="sxs-lookup"><span data-stu-id="91d15-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="c4884-105">Constante</span><span class="sxs-lookup"><span data-stu-id="c4884-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="c4884-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="c4884-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="c4884-107">Description</span><span class="sxs-lookup"><span data-stu-id="c4884-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="91d15-108"><strong>adCR</strong></span><span class="sxs-lookup"><span data-stu-id="91d15-108"><strong>adCR</strong></span></span></p></td>
-<td><p><span data-ttu-id="91d15-109">13 </span><span class="sxs-lookup"><span data-stu-id="91d15-109">13</span></span></p></td>
-<td><p><span data-ttu-id="91d15-110">Indique un retour chariot.</span><span class="sxs-lookup"><span data-stu-id="91d15-110">Indicates carriage return.</span></span></p></td>
+<td><p><span data-ttu-id="c4884-108"><strong>adCR</strong></span><span class="sxs-lookup"><span data-stu-id="c4884-108"><strong>adCR</strong></span></span></p></td>
+<td><p><span data-ttu-id="c4884-109">13</span><span class="sxs-lookup"><span data-stu-id="c4884-109">13</span></span></p></td>
+<td><p><span data-ttu-id="c4884-110">Indique un retour chariot.</span><span class="sxs-lookup"><span data-stu-id="c4884-110">Indicates carriage return.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="91d15-111"><strong>adCRLF</strong></span><span class="sxs-lookup"><span data-stu-id="91d15-111"><strong>adCRLF</strong></span></span></p></td>
-<td><p><span data-ttu-id="91d15-112">-1</span><span class="sxs-lookup"><span data-stu-id="91d15-112">-1</span></span></p></td>
-<td><p><span data-ttu-id="91d15-p101">Par défaut. Indique un retour chariot et un retour ligne.</span><span class="sxs-lookup"><span data-stu-id="91d15-p101">Default. Indicates carriage return line feed.</span></span></p></td>
+<td><p><span data-ttu-id="c4884-111"><strong>adCRLF</strong></span><span class="sxs-lookup"><span data-stu-id="c4884-111"><strong>adCRLF</strong></span></span></p></td>
+<td><p><span data-ttu-id="c4884-112">-1</span><span class="sxs-lookup"><span data-stu-id="c4884-112">-1</span></span></p></td>
+<td><p><span data-ttu-id="c4884-p101">Par défaut. Indique un retour chariot et un retour ligne.</span><span class="sxs-lookup"><span data-stu-id="c4884-p101">Default. Indicates carriage return line feed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="91d15-115"><strong>adLF</strong></span><span class="sxs-lookup"><span data-stu-id="91d15-115"><strong>adLF</strong></span></span></p></td>
-<td><p><span data-ttu-id="91d15-116">10 </span><span class="sxs-lookup"><span data-stu-id="91d15-116">10</span></span></p></td>
-<td><p><span data-ttu-id="91d15-117">Indique un retour ligne.</span><span class="sxs-lookup"><span data-stu-id="91d15-117">Indicates line feed.</span></span></p></td>
+<td><p><span data-ttu-id="c4884-115"><strong>adLF</strong></span><span class="sxs-lookup"><span data-stu-id="c4884-115"><strong>adLF</strong></span></span></p></td>
+<td><p><span data-ttu-id="c4884-116">10</span><span class="sxs-lookup"><span data-stu-id="c4884-116">10</span></span></p></td>
+<td><p><span data-ttu-id="c4884-117">Indique un retour ligne.</span><span class="sxs-lookup"><span data-stu-id="c4884-117">Indicates line feed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="91d15-118">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="91d15-118">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="c4884-118">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="c4884-118">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="91d15-119">Ces constantes ne possèdent pas d'équivalent ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="91d15-119">These constants do not have ADO/WFC equivalents.</span></span>
+<span data-ttu-id="c4884-119">Ces constantes ne possèdent pas d'équivalent ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="c4884-119">These constants do not have ADO/WFC equivalents.</span></span>
 

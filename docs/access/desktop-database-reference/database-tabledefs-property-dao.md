@@ -18,16 +18,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294693"
 ---
-# <a name="databasetabledefs-property-dao"></a><span data-ttu-id="13c20-102">Database.TableDefs, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="13c20-102">Database.TableDefs property (DAO)</span></span>
+# <a name="databasetabledefs-property-dao"></a><span data-ttu-id="c788c-102">Database.TableDefs, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="c788c-102">Database.TableDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="13c20-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="13c20-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c788c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c788c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="13c20-104">Renvoie une collection **TableDefs** qui contient tous les objets **TableDef** enregistrés dans la base de données spécifiée.</span><span class="sxs-lookup"><span data-stu-id="13c20-104">Returns a **TableDefs** collection that contains all of the **TableDef** objects stored in the specified database.</span></span> <span data-ttu-id="13c20-105">En lecture seule.</span><span class="sxs-lookup"><span data-stu-id="13c20-105">Read-only.</span></span>
+<span data-ttu-id="c788c-p101">Renvoie une collection **TableDefs** qui contient tous les objets **TableDef** enregistrés dans la base de données spécifiée. Valeur en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="c788c-p101">Returns a **TableDefs** collection that contains all of the **TableDef** objects stored in the specified database. Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="13c20-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="13c20-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c788c-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c788c-106">Syntax</span></span>
 
-<span data-ttu-id="13c20-107">*.* TableDefs</span><span class="sxs-lookup"><span data-stu-id="13c20-107">*expression* .TableDefs</span></span>
+<span data-ttu-id="c788c-107">*.* TableDefs</span><span class="sxs-lookup"><span data-stu-id="c788c-107">*expression* .TableDefs</span></span>
 
-<span data-ttu-id="13c20-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="13c20-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="c788c-108">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="c788c-108">*expression* A variable that represents a **Database** object.</span></span>
 

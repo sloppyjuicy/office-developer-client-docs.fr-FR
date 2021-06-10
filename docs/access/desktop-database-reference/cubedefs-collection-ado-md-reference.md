@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295274"
 ---
-# <a name="cubedefs-collection-ado-md-reference"></a><span data-ttu-id="6a5de-102">Collection CubeDefs (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6a5de-102">CubeDefs collection (ADO MD reference)</span></span>
+# <a name="cubedefs-collection-ado-md-reference"></a><span data-ttu-id="ae6e2-102">Collection CubeDefs (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ae6e2-102">CubeDefs collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="6a5de-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a5de-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ae6e2-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae6e2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6a5de-104">CubeDefs, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6a5de-104">CubeDefs collection (ADO MD)</span></span>](cubedefs-collection-ado-md.md)
-- [<span data-ttu-id="6a5de-105">CubeDefs collection properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6a5de-105">CubeDefs collection properties, methods, and events (ADO MD)</span></span>](cubedefs-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="ae6e2-104">CubeDefs, collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ae6e2-104">CubeDefs collection (ADO MD)</span></span>](cubedefs-collection-ado-md.md)
+- [<span data-ttu-id="ae6e2-105">CubeDefs collection properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ae6e2-105">CubeDefs collection properties, methods, and events (ADO MD)</span></span>](cubedefs-collection-properties-methods-and-events-ado-md.md)
 

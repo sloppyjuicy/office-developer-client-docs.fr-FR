@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291907"
 ---
-# <a name="hybrid-commands"></a><span data-ttu-id="49418-102">Commandes hybrides</span><span class="sxs-lookup"><span data-stu-id="49418-102">Hybrid commands</span></span>
+# <a name="hybrid-commands"></a><span data-ttu-id="7bc87-102">Commandes hybrides</span><span class="sxs-lookup"><span data-stu-id="7bc87-102">Hybrid commands</span></span>
 
 
-<span data-ttu-id="49418-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="49418-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7bc87-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7bc87-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="49418-p101">Les commandes hybrides sont des commandes partiellement paramétrées. Par exemple :</span><span class="sxs-lookup"><span data-stu-id="49418-p101">Hybrid commands are partially parameterized commands. For example:</span></span>
+<span data-ttu-id="7bc87-p101">Les commandes hybrides sont des commandes partiellement paramétrées. Par exemple :</span><span class="sxs-lookup"><span data-stu-id="7bc87-p101">Hybrid commands are partially parameterized commands. For example:</span></span>
 
 ```vb 
  
@@ -29,5 +29,5 @@ SHAPE {select * from plants}
  PlantRegion TO CustomerRegion ) 
 ```
 
-<span data-ttu-id="49418-106">Le comportement de mise en cache d'une commande hybride est identique à celui des commandes paramétrées standard.</span><span class="sxs-lookup"><span data-stu-id="49418-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
+<span data-ttu-id="7bc87-106">Le comportement de mise en cache d'une commande hybride est identique à celui des commandes paramétrées standard.</span><span class="sxs-lookup"><span data-stu-id="7bc87-106">The caching behavior for a hybrid command is the same as that of regular parameterized commands.</span></span>
 

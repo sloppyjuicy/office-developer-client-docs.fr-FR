@@ -18,31 +18,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294714"
 ---
-# <a name="databasereplicaid-property-dao"></a><span data-ttu-id="c7b02-102">Database.ReplicaID, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7b02-102">Database.ReplicaID property (DAO)</span></span>
+# <a name="databasereplicaid-property-dao"></a><span data-ttu-id="9fe23-102">Database.ReplicaID, propriété (DAO)</span><span class="sxs-lookup"><span data-stu-id="9fe23-102">Database.ReplicaID property (DAO)</span></span>
 
 
-<span data-ttu-id="c7b02-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7b02-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9fe23-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9fe23-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="c7b02-104">Renvoie une valeur de 16 octets qui identifie de façon unique un réplica de base de données (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="c7b02-104">Returns a 16-byte value that uniquely identifies a database replica (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="9fe23-104">Renvoie une valeur de 16 octets qui identifie de façon unique un réplica de base de données (espaces de travail Microsoft Access uniquement).</span><span class="sxs-lookup"><span data-stu-id="9fe23-104">Returns a 16-byte value that uniquely identifies a database replica (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c7b02-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c7b02-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9fe23-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="9fe23-105">Syntax</span></span>
 
-<span data-ttu-id="c7b02-106">*.* ReplicaID</span><span class="sxs-lookup"><span data-stu-id="c7b02-106">*expression* .ReplicaID</span></span>
+<span data-ttu-id="9fe23-106">*.* ReplicaID</span><span class="sxs-lookup"><span data-stu-id="9fe23-106">*expression* .ReplicaID</span></span>
 
-<span data-ttu-id="c7b02-107">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="c7b02-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="9fe23-107">*expression* Variable qui représente un objet **Database**.</span><span class="sxs-lookup"><span data-stu-id="9fe23-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c7b02-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="c7b02-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9fe23-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="9fe23-108">Remarks</span></span>
 
-<span data-ttu-id="c7b02-109">La valeur de retour est une valeur **GUID** qui identifie de façon unique le réplica ou le réplica-maître.</span><span class="sxs-lookup"><span data-stu-id="c7b02-109">The return value is a **GUID** value that uniquely identifies the replica or Design Master.</span></span>
+<span data-ttu-id="9fe23-109">La valeur de retour est une valeur **GUID** qui identifie de façon unique le réplica ou le réplica-maître.</span><span class="sxs-lookup"><span data-stu-id="9fe23-109">The return value is a **GUID** value that uniquely identifies the replica or Design Master.</span></span>
 
-<span data-ttu-id="c7b02-110">Le moteur de base de données Microsoft Access génère automatiquement cette valeur lorsque vous créez un nouveau réplica.</span><span class="sxs-lookup"><span data-stu-id="c7b02-110">The Microsoft Access database engine automatically generates this value when you create a new replica.</span></span>
+<span data-ttu-id="9fe23-110">Le moteur de base de données Microsoft Access génère automatiquement cette valeur lorsque vous créez un nouveau réplica.</span><span class="sxs-lookup"><span data-stu-id="9fe23-110">The Microsoft Access database engine automatically generates this value when you create a new replica.</span></span>
 
-<span data-ttu-id="c7b02-111">La propriété **ReplicaID** de chaque réplica (et réplica-maître) est stockée dans la table système MSysReplicas.</span><span class="sxs-lookup"><span data-stu-id="c7b02-111">The **ReplicaID** property of each replica (and the Design Master) is stored in the MSysReplicas system table.</span></span>
+<span data-ttu-id="9fe23-111">La propriété **ReplicaID** de chaque réplica (et réplica-maître) est stockée dans la table système MSysReplicas.</span><span class="sxs-lookup"><span data-stu-id="9fe23-111">The **ReplicaID** property of each replica (and the Design Master) is stored in the MSysReplicas system table.</span></span>
 
-## <a name="example"></a><span data-ttu-id="c7b02-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="c7b02-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="9fe23-112">Exemple</span><span class="sxs-lookup"><span data-stu-id="9fe23-112">Example</span></span>
 
-<span data-ttu-id="c7b02-p101">Cet exemple réalise un réplica à partir du réplica-maître de Northwind.mdb puis renvoie la valeur de la propriété **ReplicaID** du réplica, automatiquement créée par le moteur de base de données Microsoft Access. (Si vous n'avez pas encore créé de réplica-maître de Northwind, consultez la propriété **Replicable** ou remplacez le nom de la base de données figurant dans le code par un réplica-maître existant.)</span><span class="sxs-lookup"><span data-stu-id="c7b02-p101">This example makes a replica from the Design Master of Northwind.mdb, and then returns the replica's **ReplicaID**, which is automatically created by the Microsoft Access database engine. (If you have not yet created a Design Master of Northwind, refer to the **Replicable** property, or change the name of the database in the code to an existing Design Master.)</span></span>
+<span data-ttu-id="9fe23-p101">Cet exemple réalise un réplica à partir du réplica-maître de Northwind.mdb puis renvoie la valeur de la propriété **ReplicaID** du réplica, automatiquement créée par le moteur de base de données Microsoft Access. (Si vous n'avez pas encore créé de réplica-maître de Northwind, consultez la propriété **Replicable** ou remplacez le nom de la base de données figurant dans le code par un réplica-maître existant.)</span><span class="sxs-lookup"><span data-stu-id="9fe23-p101">This example makes a replica from the Design Master of Northwind.mdb, and then returns the replica's **ReplicaID**, which is automatically created by the Microsoft Access database engine. (If you have not yet created a Design Master of Northwind, refer to the **Replicable** property, or change the name of the database in the code to an existing Design Master.)</span></span>
 
 ```vb 
 Sub MakeReplicaReplicaIDX() 

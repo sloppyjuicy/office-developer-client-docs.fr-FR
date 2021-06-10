@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291963"
 ---
-# <a name="hierarchy-object-ado-md-reference"></a><span data-ttu-id="93f7c-102">Objet Hierarchy (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="93f7c-102">Hierarchy object (ADO MD reference)</span></span>
+# <a name="hierarchy-object-ado-md-reference"></a><span data-ttu-id="d2a03-102">Objet Hierarchy (référence ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d2a03-102">Hierarchy object (ADO MD reference)</span></span>
 
-<span data-ttu-id="93f7c-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="93f7c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d2a03-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2a03-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="93f7c-104">Hierarchy, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="93f7c-104">Hierarchy object (ADO MD)</span></span>](hierarchy-object-ado-md.md)
-- [<span data-ttu-id="93f7c-105">Hierarchy properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="93f7c-105">Hierarchy properties, methods, and events (ADO MD)</span></span>](hierarchy-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="d2a03-104">Hierarchy, objet (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d2a03-104">Hierarchy object (ADO MD)</span></span>](hierarchy-object-ado-md.md)
+- [<span data-ttu-id="d2a03-105">Hierarchy properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d2a03-105">Hierarchy properties, methods, and events (ADO MD)</span></span>](hierarchy-properties-methods-and-events-ado-md.md)
 

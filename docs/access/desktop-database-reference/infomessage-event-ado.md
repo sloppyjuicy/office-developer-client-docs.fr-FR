@@ -1,5 +1,5 @@
 ---
-title: InfoMessage, événement (ADO)
+title: Événement InfoMessage (ADO)
 TOCTitle: InfoMessage event (ADO)
 ms:assetid: 5d4f487f-96c8-4cf6-60ab-583510d3096f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249328(v=office.15)
@@ -14,21 +14,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291441"
 ---
-# <a name="infomessage-event-ado"></a><span data-ttu-id="27d75-102">Événement InfoMessage (ADO)</span><span class="sxs-lookup"><span data-stu-id="27d75-102">InfoMessage event (ADO)</span></span>
+# <a name="infomessage-event-ado"></a><span data-ttu-id="73155-102">Événement InfoMessage (ADO)</span><span class="sxs-lookup"><span data-stu-id="73155-102">InfoMessage event (ADO)</span></span>
 
-<span data-ttu-id="27d75-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="27d75-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="73155-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73155-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="27d75-104">L'événement **InfoMessage** est appelé à chaque avertissement généré lors d'une opération **ConnectionEvent**.</span><span class="sxs-lookup"><span data-stu-id="27d75-104">The **InfoMessage** event is called whenever a warning occurs during a **ConnectionEvent** operation.</span></span>
+<span data-ttu-id="73155-104">L'événement **InfoMessage** est appelé à chaque avertissement généré lors d'une opération **ConnectionEvent**.</span><span class="sxs-lookup"><span data-stu-id="73155-104">The **InfoMessage** event is called whenever a warning occurs during a **ConnectionEvent** operation.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="27d75-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="27d75-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="73155-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="73155-105">Syntax</span></span>
 
-<span data-ttu-id="27d75-106">InfoMessage *pError*, *adStatus*, *pConnection*</span><span class="sxs-lookup"><span data-stu-id="27d75-106">InfoMessage *pError*, *adStatus*, *pConnection*</span></span>
+<span data-ttu-id="73155-106">InfoMessage *pError*, *adStatus*, *pConnection*</span><span class="sxs-lookup"><span data-stu-id="73155-106">InfoMessage *pError*, *adStatus*, *pConnection*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="27d75-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="27d75-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="73155-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="73155-107">Parameters</span></span>
 
-|<span data-ttu-id="27d75-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="27d75-108">Parameter</span></span>|<span data-ttu-id="27d75-109">Description</span><span class="sxs-lookup"><span data-stu-id="27d75-109">Description</span></span>|
+|<span data-ttu-id="73155-108">Paramètre</span><span class="sxs-lookup"><span data-stu-id="73155-108">Parameter</span></span>|<span data-ttu-id="73155-109">Description</span><span class="sxs-lookup"><span data-stu-id="73155-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="27d75-110">*pError*</span><span class="sxs-lookup"><span data-stu-id="27d75-110">*pError*</span></span> |<span data-ttu-id="27d75-p101">Objet [Error](error-object-ado.md). Ce paramètre contient toutes les erreurs générées lors de l'opération. Si plusieurs erreurs sont retournées, énumérez la collection **Errors** pour les identifier.</span><span class="sxs-lookup"><span data-stu-id="27d75-p101">An [Error](error-object-ado.md) object. This parameter contains any errors that are returned. If multiple errors are returned, enumerate the **Errors** collection to find them.</span></span>|
-|<span data-ttu-id="27d75-114">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="27d75-114">*adStatus*</span></span> |<span data-ttu-id="27d75-115">[EventStatusEnum](eventstatusenum.md).</span><span class="sxs-lookup"><span data-stu-id="27d75-115">[EventStatusEnum](eventstatusenum.md).</span></span> <span data-ttu-id="27d75-116">Avant que cet événement soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre pour éviter toute notification ultérieure.</span><span class="sxs-lookup"><span data-stu-id="27d75-116">Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.</span></span>|
-|<span data-ttu-id="27d75-117">*pConnection*</span><span class="sxs-lookup"><span data-stu-id="27d75-117">*pConnection*</span></span> |<span data-ttu-id="27d75-p103">Objet [Connection](connection-object-ado.md). Connexion pour laquelle l'avertissement a été émis. Par exemple, des avertissements peuvent être générés lors de l'ouverture d'un objet **Connection** ou pendant l'exécution d'un objet [Command](command-object-ado.md) sur un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="27d75-p103">A [Connection](connection-object-ado.md) object. The connection for which the warning occurred. For example, warnings can occur when opening a **Connection** object or executing a [Command](command-object-ado.md) on a **Connection**.</span></span>|
+|<span data-ttu-id="73155-110">*pError*</span><span class="sxs-lookup"><span data-stu-id="73155-110">*pError*</span></span> |<span data-ttu-id="73155-p101">Objet [Error](error-object-ado.md). Ce paramètre contient toutes les erreurs générées lors de l'opération. Si plusieurs erreurs sont retournées, énumérez la collection **Errors** pour les identifier.</span><span class="sxs-lookup"><span data-stu-id="73155-p101">An [Error](error-object-ado.md) object. This parameter contains any errors that are returned. If multiple errors are returned, enumerate the **Errors** collection to find them.</span></span>|
+|<span data-ttu-id="73155-114">*adStatus*</span><span class="sxs-lookup"><span data-stu-id="73155-114">*adStatus*</span></span> |<span data-ttu-id="73155-115">[EventStatusEnum](eventstatusenum.md).</span><span class="sxs-lookup"><span data-stu-id="73155-115">[EventStatusEnum](eventstatusenum.md).</span></span> <span data-ttu-id="73155-116">Avant que cet événement soit retourné, affectez la valeur **adStatusUnwantedEvent** à ce paramètre pour éviter toute notification ultérieure.</span><span class="sxs-lookup"><span data-stu-id="73155-116">Before this event returns, set this parameter to **adStatusUnwantedEvent** to prevent subsequent notifications.</span></span>|
+|<span data-ttu-id="73155-117">*pConnection*</span><span class="sxs-lookup"><span data-stu-id="73155-117">*pConnection*</span></span> |<span data-ttu-id="73155-p103">Objet [Connection](connection-object-ado.md). Connexion pour laquelle l'avertissement a été émis. Par exemple, des avertissements peuvent être générés lors de l'ouverture d'un objet **Connection** ou pendant l'exécution d'un objet [Command](command-object-ado.md) sur un objet **Connection**.</span><span class="sxs-lookup"><span data-stu-id="73155-p103">A [Connection](connection-object-ado.md) object. The connection for which the warning occurred. For example, warnings can occur when opening a **Connection** object or executing a [Command](command-object-ado.md) on a **Connection**.</span></span>|
 

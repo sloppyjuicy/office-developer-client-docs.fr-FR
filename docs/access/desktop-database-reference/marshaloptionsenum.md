@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289727"
 ---
-# <a name="marshaloptionsenum"></a><span data-ttu-id="140bb-102">MarshalOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="140bb-102">MarshalOptionsEnum</span></span>
+# <a name="marshaloptionsenum"></a><span data-ttu-id="cbc67-102">MarshalOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="cbc67-102">MarshalOptionsEnum</span></span>
 
-<span data-ttu-id="140bb-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="140bb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cbc67-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cbc67-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="140bb-104">Spécifie les enregistrements qui doivent être renvoyés au serveur.</span><span class="sxs-lookup"><span data-stu-id="140bb-104">Specifies which records should be returned to the server.</span></span>
+<span data-ttu-id="cbc67-104">Spécifie les enregistrements qui doivent être renvoyés au serveur.</span><span class="sxs-lookup"><span data-stu-id="cbc67-104">Specifies which records should be returned to the server.</span></span>
 
 <br/>
 
@@ -30,29 +30,29 @@ ms.locfileid: "32289727"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="140bb-105">Constante</span><span class="sxs-lookup"><span data-stu-id="140bb-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="140bb-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="140bb-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="140bb-107">Description</span><span class="sxs-lookup"><span data-stu-id="140bb-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="cbc67-105">Constante</span><span class="sxs-lookup"><span data-stu-id="cbc67-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="cbc67-106">Valeur</span><span class="sxs-lookup"><span data-stu-id="cbc67-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="cbc67-107">Description</span><span class="sxs-lookup"><span data-stu-id="cbc67-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="140bb-108"><strong>adMarshalAll</strong></span><span class="sxs-lookup"><span data-stu-id="140bb-108"><strong>adMarshalAll</strong></span></span></p></td>
-<td><p><span data-ttu-id="140bb-109">0</span><span class="sxs-lookup"><span data-stu-id="140bb-109">0</span></span></p></td>
-<td><p><span data-ttu-id="140bb-p101">Par défaut. Renvoie toutes les lignes au serveur.</span><span class="sxs-lookup"><span data-stu-id="140bb-p101">Default. Returns all rows to the server.</span></span></p></td>
+<td><p><span data-ttu-id="cbc67-108"><strong>adMarshalAll</strong></span><span class="sxs-lookup"><span data-stu-id="cbc67-108"><strong>adMarshalAll</strong></span></span></p></td>
+<td><p><span data-ttu-id="cbc67-109">0</span><span class="sxs-lookup"><span data-stu-id="cbc67-109">0</span></span></p></td>
+<td><p><span data-ttu-id="cbc67-p101">Par défaut. Renvoie toutes les lignes au serveur.</span><span class="sxs-lookup"><span data-stu-id="cbc67-p101">Default. Returns all rows to the server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="140bb-112"><strong>adMarshalModifiedOnly</strong></span><span class="sxs-lookup"><span data-stu-id="140bb-112"><strong>adMarshalModifiedOnly</strong></span></span></p></td>
-<td><p><span data-ttu-id="140bb-113">1 </span><span class="sxs-lookup"><span data-stu-id="140bb-113">1</span></span></p></td>
-<td><p><span data-ttu-id="140bb-114">Ne renvoie que les lignes modifiées au serveur.</span><span class="sxs-lookup"><span data-stu-id="140bb-114">Returns only modified rows to the server.</span></span></p></td>
+<td><p><span data-ttu-id="cbc67-112"><strong>adMarshalModifiedOnly</strong></span><span class="sxs-lookup"><span data-stu-id="cbc67-112"><strong>adMarshalModifiedOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="cbc67-113">1</span><span class="sxs-lookup"><span data-stu-id="cbc67-113">1</span></span></p></td>
+<td><p><span data-ttu-id="cbc67-114">Ne renvoie que les lignes modifiées au serveur.</span><span class="sxs-lookup"><span data-stu-id="cbc67-114">Returns only modified rows to the server.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="140bb-115">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="140bb-115">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="cbc67-115">Équivalent ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="cbc67-115">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="140bb-116">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="140bb-116">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="cbc67-116">Module : **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="cbc67-116">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -60,15 +60,15 @@ ms.locfileid: "32289727"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="140bb-117">Constante</span><span class="sxs-lookup"><span data-stu-id="140bb-117">Constant</span></span></p></th>
+<th><p><span data-ttu-id="cbc67-117">Constante</span><span class="sxs-lookup"><span data-stu-id="cbc67-117">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="140bb-118">AdoEnums.MarshalOptions.ALL</span><span class="sxs-lookup"><span data-stu-id="140bb-118">AdoEnums.MarshalOptions.ALL</span></span></p></td>
+<td><p><span data-ttu-id="cbc67-118">AdoEnums.MarshalOptions.ALL</span><span class="sxs-lookup"><span data-stu-id="cbc67-118">AdoEnums.MarshalOptions.ALL</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="140bb-119">AdoEnums.MarshalOptions.MODIFIEDONLY</span><span class="sxs-lookup"><span data-stu-id="140bb-119">AdoEnums.MarshalOptions.MODIFIEDONLY</span></span></p></td>
+<td><p><span data-ttu-id="cbc67-119">AdoEnums.MarshalOptions.MODIFIEDONLY</span><span class="sxs-lookup"><span data-stu-id="cbc67-119">AdoEnums.MarshalOptions.MODIFIEDONLY</span></span></p></td>
 </tr>
 </tbody>
 </table>

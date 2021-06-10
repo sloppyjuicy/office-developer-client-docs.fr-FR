@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289741"
 ---
-# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="4a02b-102">MarshalOptions, propriété – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="4a02b-102">MarshalOptions property example (VB)</span></span>
+# <a name="marshaloptions-property-example-vb"></a><span data-ttu-id="94ba9-102">MarshalOptions, propriété – Exemple (VB)</span><span class="sxs-lookup"><span data-stu-id="94ba9-102">MarshalOptions property example (VB)</span></span>
 
 
-<span data-ttu-id="4a02b-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a02b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="94ba9-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94ba9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4a02b-104">Cet exemple utilise la propriété [MarshalOptions](marshaloptions-property-ado.md) pour spécifier les lignes renvoyées au serveur : toutes les lignes ou uniquement les lignes modifiées.</span><span class="sxs-lookup"><span data-stu-id="4a02b-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="94ba9-104">Cet exemple utilise la propriété [MarshalOptions](marshaloptions-property-ado.md) pour spécifier les lignes renvoyées au serveur : toutes les lignes ou uniquement les lignes modifiées.</span><span class="sxs-lookup"><span data-stu-id="94ba9-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```vb 
  

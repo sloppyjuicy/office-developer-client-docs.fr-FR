@@ -14,10 +14,10 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291572"
 ---
-# <a name="indexes-collection-adox-reference"></a><span data-ttu-id="b52bd-102">Référence de collection Indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b52bd-102">Indexes collection (ADOX) reference</span></span>
+# <a name="indexes-collection-adox-reference"></a><span data-ttu-id="f9c6d-102">Référence de collection Indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f9c6d-102">Indexes collection (ADOX) reference</span></span>
 
-<span data-ttu-id="b52bd-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b52bd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f9c6d-103">**S’applique à** : Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9c6d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b52bd-104">Indexes, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b52bd-104">Indexes collection (ADOX)</span></span>](indexes-collection-adox.md)
-- [<span data-ttu-id="b52bd-105">Indexes collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b52bd-105">Indexes collection properties, methods, and events (ADOX)</span></span>](indexes-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="f9c6d-104">Indexes, collection (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f9c6d-104">Indexes collection (ADOX)</span></span>](indexes-collection-adox.md)
+- [<span data-ttu-id="f9c6d-105">Indexes collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f9c6d-105">Indexes collection properties, methods, and events (ADOX)</span></span>](indexes-collection-properties-methods-and-events-adox.md)
 
