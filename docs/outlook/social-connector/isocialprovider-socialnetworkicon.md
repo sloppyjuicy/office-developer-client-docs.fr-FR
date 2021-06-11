@@ -15,23 +15,23 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438686"
 ---
-# <a name="isocialprovidersocialnetworkicon"></a><span data-ttu-id="f2fe8-103">ISocialProvider::SocialNetworkIcon</span><span class="sxs-lookup"><span data-stu-id="f2fe8-103">ISocialProvider::SocialNetworkIcon</span></span>
+# <a name="isocialprovidersocialnetworkicon"></a><span data-ttu-id="1f12a-103">ISocialProvider::SocialNetworkIcon</span><span class="sxs-lookup"><span data-stu-id="1f12a-103">ISocialProvider::SocialNetworkIcon</span></span>
 
-<span data-ttu-id="f2fe8-104">Renvoie un tableau d’octets qui représente l’icône du réseau social.</span><span class="sxs-lookup"><span data-stu-id="f2fe8-104">Returns an array of bytes that represents the icon for the social network.</span></span> 
+<span data-ttu-id="1f12a-104">Renvoie un tableau d’octets qui représente l’icône du réseau social.</span><span class="sxs-lookup"><span data-stu-id="1f12a-104">Returns an array of bytes that represents the icon for the social network.</span></span> 
   
 ```cpp
 [propget] HRESULT _stdcall SocialNetworkIcon([out, retval] SAFEARRAY(unsigned char)* networkIcon);
 ```
 
-## <a name="property-value"></a><span data-ttu-id="f2fe8-105">Valeur de la propriété</span><span class="sxs-lookup"><span data-stu-id="f2fe8-105">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="1f12a-105">Valeur de la propriété</span><span class="sxs-lookup"><span data-stu-id="1f12a-105">Property value</span></span>
 
-<span data-ttu-id="f2fe8-106">Pointeur vers une structure qui spécifie un tableau d’octets qui contient l’icône du réseau social.</span><span class="sxs-lookup"><span data-stu-id="f2fe8-106">A pointer to a structure that specifies an array of bytes that contains the icon for the social network.</span></span>
+<span data-ttu-id="1f12a-106">Pointeur vers une structure qui spécifie un tableau d’octets qui contient l’icône du réseau social.</span><span class="sxs-lookup"><span data-stu-id="1f12a-106">A pointer to a structure that specifies an array of bytes that contains the icon for the social network.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f2fe8-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="f2fe8-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1f12a-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="1f12a-107">Remarks</span></span>
 
-<span data-ttu-id="f2fe8-108">Les ressources d’image pris en charge sont les formats .bmp, .jpeg et .png.</span><span class="sxs-lookup"><span data-stu-id="f2fe8-108">The supported picture resources are .bmp, .jpeg, and .png formats.</span></span>
+<span data-ttu-id="1f12a-108">Les ressources d’image .bmp, .jpeg et les formats .png pris en charge.</span><span class="sxs-lookup"><span data-stu-id="1f12a-108">The supported picture resources are .bmp, .jpeg, and .png formats.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="f2fe8-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f2fe8-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1f12a-109">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1f12a-109">See also</span></span>
 
-- [<span data-ttu-id="f2fe8-110">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="f2fe8-110">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
+- [<span data-ttu-id="1f12a-110">ISocialProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1f12a-110">ISocialProvider : IUnknown</span></span>](isocialprovideriunknown.md)
 

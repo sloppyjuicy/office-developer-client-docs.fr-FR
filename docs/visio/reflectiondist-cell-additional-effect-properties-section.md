@@ -14,24 +14,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433023"
 ---
-# <a name="reflectiondist-cell-additional-effect-properties-section"></a><span data-ttu-id="a894b-103">ReflectionDist Cell (Additional Effect Properties Section)</span><span class="sxs-lookup"><span data-stu-id="a894b-103">ReflectionDist Cell (Additional Effect Properties Section)</span></span>
+# <a name="reflectiondist-cell-additional-effect-properties-section"></a><span data-ttu-id="4f35f-103">ReflectionDist Cell (Additional Effect Properties Section)</span><span class="sxs-lookup"><span data-stu-id="4f35f-103">ReflectionDist Cell (Additional Effect Properties Section)</span></span>
 
-<span data-ttu-id="a894b-104">Détermine la distance de décalage d’une réflexion par rapport à une forme, en points, de 0,0 à 100,0.</span><span class="sxs-lookup"><span data-stu-id="a894b-104">Determines the distance that a reflection is offset from a shape, in points from 0.0 to 100.0.</span></span> 
+<span data-ttu-id="4f35f-104">Détermine la distance de décalage d’une réflexion par rapport à une forme, en points, de 0,0 à 100,0.</span><span class="sxs-lookup"><span data-stu-id="4f35f-104">Determines the distance that a reflection is offset from a shape, in points from 0.0 to 100.0.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="a894b-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="a894b-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4f35f-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="4f35f-105">Remarks</span></span>
 
-<span data-ttu-id="a894b-106">Pour obtenir une référence à la cellule **ReflectionDist** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="a894b-106">To get a reference to the **ReflectionDist** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="4f35f-106">Pour obtenir une référence à la cellule **ReflectionDist** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="4f35f-106">To get a reference to the **ReflectionDist** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a894b-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="a894b-107">Cell name:</span></span>  <br/> | <span data-ttu-id="a894b-108">ReflectionDist</span><span class="sxs-lookup"><span data-stu-id="a894b-108">ReflectionDist</span></span>  <br/> |
+| <span data-ttu-id="4f35f-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="4f35f-107">Cell name:</span></span>  <br/> | <span data-ttu-id="4f35f-108">ReflectionDist</span><span class="sxs-lookup"><span data-stu-id="4f35f-108">ReflectionDist</span></span>  <br/> |
    
-<span data-ttu-id="a894b-109">Pour obtenir une référence à la cellule **ReflectionDist** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="a894b-109">To get a reference to the **ReflectionDist** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="4f35f-109">Pour obtenir une référence à la cellule **ReflectionDist** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="4f35f-109">To get a reference to the **ReflectionDist** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a894b-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="a894b-110">Section index:</span></span>  <br/> |<span data-ttu-id="a894b-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="a894b-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="a894b-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="a894b-112">Row index:</span></span>  <br/> |<span data-ttu-id="a894b-113">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="a894b-113">**visRowOtherEffectProperties**</span></span> <br/> |
-| <span data-ttu-id="a894b-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="a894b-114">Cell index:</span></span>  <br/> |<span data-ttu-id="a894b-115">**visReflectionDist**</span><span class="sxs-lookup"><span data-stu-id="a894b-115">**visReflectionDist**</span></span> <br/> |
+| <span data-ttu-id="4f35f-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="4f35f-110">Section index:</span></span>  <br/> |<span data-ttu-id="4f35f-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="4f35f-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="4f35f-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="4f35f-112">Row index:</span></span>  <br/> |<span data-ttu-id="4f35f-113">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="4f35f-113">**visRowOtherEffectProperties**</span></span> <br/> |
+| <span data-ttu-id="4f35f-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="4f35f-114">Cell index:</span></span>  <br/> |<span data-ttu-id="4f35f-115">**visReflectionDist**</span><span class="sxs-lookup"><span data-stu-id="4f35f-115">**visReflectionDist**</span></span> <br/> |
    
 

@@ -16,29 +16,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432085"
 ---
-# <a name="lockheight-cell-protection-section"></a><span data-ttu-id="f5c84-103">LockHeight, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="f5c84-103">LockHeight Cell (Protection Section)</span></span>
+# <a name="lockheight-cell-protection-section"></a><span data-ttu-id="17b73-103">LockHeight, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="17b73-103">LockHeight Cell (Protection Section)</span></span>
 
-<span data-ttu-id="f5c84-104">Verrouille la hauteur d'une forme afin qu'elle demeure intacte lorsque la forme est redimensionnée.</span><span class="sxs-lookup"><span data-stu-id="f5c84-104">Locks the height of the shape so that its height remains unchanged when the shape is resized.</span></span>
+<span data-ttu-id="17b73-104">Verrouille la hauteur d'une forme afin qu'elle demeure intacte lorsque la forme est redimensionnée.</span><span class="sxs-lookup"><span data-stu-id="17b73-104">Locks the height of the shape so that its height remains unchanged when the shape is resized.</span></span>
   
-|<span data-ttu-id="f5c84-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="f5c84-105">**Value**</span></span>|<span data-ttu-id="f5c84-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="f5c84-106">**Description**</span></span>|
+|<span data-ttu-id="17b73-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="17b73-105">**Value**</span></span>|<span data-ttu-id="17b73-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="17b73-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="f5c84-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="f5c84-107">TRUE</span></span>  <br/> | <span data-ttu-id="f5c84-108">La hauteur est verrouillée.</span><span class="sxs-lookup"><span data-stu-id="f5c84-108">Height is locked.</span></span>  <br/> |
-| <span data-ttu-id="f5c84-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="f5c84-109">FALSE</span></span>  <br/> | <span data-ttu-id="f5c84-110">La hauteur n'est pas verrouillée.</span><span class="sxs-lookup"><span data-stu-id="f5c84-110">Height is not locked.</span></span>  <br/> |
+| <span data-ttu-id="17b73-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="17b73-107">TRUE</span></span>  <br/> | <span data-ttu-id="17b73-108">La hauteur est verrouillée.</span><span class="sxs-lookup"><span data-stu-id="17b73-108">Height is locked.</span></span>  <br/> |
+| <span data-ttu-id="17b73-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="17b73-109">FALSE</span></span>  <br/> | <span data-ttu-id="17b73-110">La hauteur n'est pas verrouillée.</span><span class="sxs-lookup"><span data-stu-id="17b73-110">Height is not locked.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f5c84-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="f5c84-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="17b73-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="17b73-111">Remarks</span></span>
 
-<span data-ttu-id="f5c84-112">Pour obtenir une référence à la cellule LockHeight par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="f5c84-112">To get a reference to the LockHeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="17b73-112">Pour obtenir une référence à la cellule LockHeight par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="17b73-112">To get a reference to the LockHeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f5c84-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="f5c84-113">Cell name:</span></span>  <br/> | <span data-ttu-id="f5c84-114">LockHeight</span><span class="sxs-lookup"><span data-stu-id="f5c84-114">LockHeight</span></span>  <br/> |
+| <span data-ttu-id="17b73-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="17b73-113">Cell name:</span></span>  <br/> | <span data-ttu-id="17b73-114">LockHeight</span><span class="sxs-lookup"><span data-stu-id="17b73-114">LockHeight</span></span>  <br/> |
    
-<span data-ttu-id="f5c84-115">Pour obtenir une référence à la cellule LockHeight à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="f5c84-115">To get a reference to the LockHeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="17b73-115">Pour obtenir une référence à la cellule LockHeight à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="17b73-115">To get a reference to the LockHeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="f5c84-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="f5c84-116">Section index:</span></span>  <br/> |<span data-ttu-id="f5c84-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="f5c84-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="f5c84-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="f5c84-118">Row index:</span></span>  <br/> |<span data-ttu-id="f5c84-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="f5c84-119">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="f5c84-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="f5c84-120">Cell index:</span></span>  <br/> |<span data-ttu-id="f5c84-121">**visLockHeight**</span><span class="sxs-lookup"><span data-stu-id="f5c84-121">**visLockHeight**</span></span> <br/> |
+| <span data-ttu-id="17b73-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="17b73-116">Section index:</span></span>  <br/> |<span data-ttu-id="17b73-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="17b73-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="17b73-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="17b73-118">Row index:</span></span>  <br/> |<span data-ttu-id="17b73-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="17b73-119">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="17b73-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="17b73-120">Cell index:</span></span>  <br/> |<span data-ttu-id="17b73-121">**visLockHeight**</span><span class="sxs-lookup"><span data-stu-id="17b73-121">**visLockHeight**</span></span> <br/> |
    
 

@@ -19,30 +19,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438749"
 ---
-# <a name="tempinttempint12"></a><span data-ttu-id="2d787-104">TempInt/TempInt12</span><span class="sxs-lookup"><span data-stu-id="2d787-104">TempInt/TempInt12</span></span>
+# <a name="tempinttempint12"></a><span data-ttu-id="a8bf4-104">TempInt/TempInt12</span><span class="sxs-lookup"><span data-stu-id="a8bf4-104">TempInt/TempInt12</span></span>
 
- <span data-ttu-id="2d787-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2d787-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="a8bf4-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a8bf4-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="2d787-106">Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire contenant unger.</span><span class="sxs-lookup"><span data-stu-id="2d787-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** that contains an integer.</span></span> 
+<span data-ttu-id="a8bf4-106">Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire qui contient unger.</span><span class="sxs-lookup"><span data-stu-id="a8bf4-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** that contains an integer.</span></span> 
   
 ```cs
 LPXLOPER TempInt(short int i);
 LPXLOPER12 TempInt12(int i);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2d787-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="2d787-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a8bf4-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="a8bf4-107">Parameters</span></span>
 
- <span data-ttu-id="2d787-108">_i_</span><span class="sxs-lookup"><span data-stu-id="2d787-108">_i_</span></span>
+ <span data-ttu-id="a8bf4-108">_i_</span><span class="sxs-lookup"><span data-stu-id="a8bf4-108">_i_</span></span>
   
-<span data-ttu-id="2d787-109">Valeur de l’objet integer prévu.</span><span class="sxs-lookup"><span data-stu-id="2d787-109">The intended integer value.</span></span> <span data-ttu-id="2d787-110">Notez que l’integer **XLOPER** est un integer 16 bits signé (int court), tandis que l’integer **XLOPER12** est un integer 32 bits signé ([long] int).</span><span class="sxs-lookup"><span data-stu-id="2d787-110">Note that the **XLOPER** integer is a signed 16-bit integer (short int), whereas the **XLOPER12** integer is a signed 32-bit integer ([long] int).</span></span> 
+<span data-ttu-id="a8bf4-109">Valeur de l’objet integer prévu.</span><span class="sxs-lookup"><span data-stu-id="a8bf4-109">The intended integer value.</span></span> <span data-ttu-id="a8bf4-110">Notez que l’integer **XLOPER** est un integer 16 bits signé (int court), tandis que l’integer **XLOPER12** est un integer 32 bits signé ([long] int).</span><span class="sxs-lookup"><span data-stu-id="a8bf4-110">Note that the **XLOPER** integer is a signed 16-bit integer (short int), whereas the **XLOPER12** integer is a signed 32-bit integer ([long] int).</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="2d787-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="2d787-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a8bf4-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="a8bf4-111">Return value</span></span>
 
-<span data-ttu-id="2d787-112">Renvoie un **integer xltypeInt** contenant la valeur transmise.</span><span class="sxs-lookup"><span data-stu-id="2d787-112">Returns an **xltypeInt** integer containing the value passed in.</span></span> 
+<span data-ttu-id="a8bf4-112">Renvoie un **integer xltypeInt** contenant la valeur transmise.</span><span class="sxs-lookup"><span data-stu-id="a8bf4-112">Returns an **xltypeInt** integer containing the value passed in.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="2d787-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="2d787-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a8bf4-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="a8bf4-113">Example</span></span>
 
-<span data-ttu-id="2d787-114">Cet exemple utilise la **fonction TempInt12** pour passer un argument à **xlfGetWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="2d787-114">This example uses the **TempInt12** function to pass an argument to **xlfGetWorkspace**.</span></span>
+<span data-ttu-id="a8bf4-114">Cet exemple utilise la **fonction TempInt12** pour passer un argument à **xlfGetWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="a8bf4-114">This example uses the **TempInt12** function to pass an argument to **xlfGetWorkspace**.</span></span>
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,9 +56,9 @@ short WINAPI TempIntExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="2d787-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2d787-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a8bf4-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a8bf4-115">See also</span></span>
 
 
 
-[<span data-ttu-id="2d787-116">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="2d787-116">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="a8bf4-116">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="a8bf4-116">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

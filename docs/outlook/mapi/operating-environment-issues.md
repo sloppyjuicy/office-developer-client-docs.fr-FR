@@ -15,19 +15,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434465"
 ---
-# <a name="operating-environment-issues"></a><span data-ttu-id="06817-103">Problèmes de l’environnement d’exploitation</span><span class="sxs-lookup"><span data-stu-id="06817-103">Operating Environment Issues</span></span>
+# <a name="operating-environment-issues"></a><span data-ttu-id="a686b-103">Problèmes de l’environnement d’exploitation</span><span class="sxs-lookup"><span data-stu-id="a686b-103">Operating Environment Issues</span></span>
 
   
   
-<span data-ttu-id="06817-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="06817-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a686b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a686b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="06817-105">Les problèmes de système d’exploitation et d’environnement d’exploitation sont importants lorsque les développeurs MAPI choisissent un environnement de développement et un environnement pour l’installation du SDK Windows.</span><span class="sxs-lookup"><span data-stu-id="06817-105">The issues of operating system and operating environment are important when MAPI developers choose a development environment and an environment for Windows SDK installation.</span></span>
+<span data-ttu-id="a686b-105">Les problèmes de système d’exploitation et d’environnement d’exploitation sont importants lorsque les développeurs MAPI choisissent un environnement de développement et un environnement pour Windows’installation du SDK.</span><span class="sxs-lookup"><span data-stu-id="a686b-105">The issues of operating system and operating environment are important when MAPI developers choose a development environment and an environment for Windows SDK installation.</span></span>
   
-<span data-ttu-id="06817-106">Les développeurs MAPI doivent savoir que ces choix affectent le système d’exploitation sur qui leur composant s’exécutera et la plage de composants qu’ils pourront cibler.</span><span class="sxs-lookup"><span data-stu-id="06817-106">MAPI developers must be aware that these choices affect the operating system that their component will run on and the range of components that they will be able to target.</span></span>
+<span data-ttu-id="a686b-106">Les développeurs MAPI doivent savoir que ces choix affectent le système d’exploitation sur qui leur composant s’exécutera et la plage de composants qu’ils pourront cibler.</span><span class="sxs-lookup"><span data-stu-id="a686b-106">MAPI developers must be aware that these choices affect the operating system that their component will run on and the range of components that they will be able to target.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="06817-107">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="06817-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a686b-107">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a686b-107">See also</span></span>
 
 
 
-[<span data-ttu-id="06817-108">Vue d’ensemble de la programmation MAPI</span><span class="sxs-lookup"><span data-stu-id="06817-108">MAPI Programming Overview</span></span>](mapi-programming-overview.md)
+[<span data-ttu-id="a686b-108">Vue d’ensemble de la programmation MAPI</span><span class="sxs-lookup"><span data-stu-id="a686b-108">MAPI Programming Overview</span></span>](mapi-programming-overview.md)
 

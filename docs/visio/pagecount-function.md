@@ -16,16 +16,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431293"
 ---
-# <a name="pagecount-function"></a><span data-ttu-id="6ad1c-103">Fonction PAGECOUNT</span><span class="sxs-lookup"><span data-stu-id="6ad1c-103">PAGECOUNT Function</span></span>
+# <a name="pagecount-function"></a><span data-ttu-id="9091a-103">Fonction PAGECOUNT</span><span class="sxs-lookup"><span data-stu-id="9091a-103">PAGECOUNT Function</span></span>
 
-<span data-ttu-id="6ad1c-104">Renvoie le nombre de pages de premier plan dans un document.</span><span class="sxs-lookup"><span data-stu-id="6ad1c-104">Returns the number of foreground pages in a document.</span></span> 
+<span data-ttu-id="9091a-104">Renvoie le nombre de pages de premier plan dans un document.</span><span class="sxs-lookup"><span data-stu-id="9091a-104">Returns the number of foreground pages in a document.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="6ad1c-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="6ad1c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9091a-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="9091a-105">Syntax</span></span>
 
-<span data-ttu-id="6ad1c-106">PAGECOUNT ()</span><span class="sxs-lookup"><span data-stu-id="6ad1c-106">PAGECOUNT ()</span></span>
+<span data-ttu-id="9091a-106">PAGECOUNT ()</span><span class="sxs-lookup"><span data-stu-id="9091a-106">PAGECOUNT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="6ad1c-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="6ad1c-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="9091a-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="9091a-107">Return value</span></span>
 
-<span data-ttu-id="6ad1c-108">Nombre</span><span class="sxs-lookup"><span data-stu-id="6ad1c-108">Number</span></span>
+<span data-ttu-id="9091a-108">Nombre</span><span class="sxs-lookup"><span data-stu-id="9091a-108">Number</span></span>
   
 

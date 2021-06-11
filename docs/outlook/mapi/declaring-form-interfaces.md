@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437510"
 ---
-# <a name="declaring-form-interfaces"></a><span data-ttu-id="d0928-103">Déclaration d’interfaces de formulaire</span><span class="sxs-lookup"><span data-stu-id="d0928-103">Declaring Form Interfaces</span></span>
+# <a name="declaring-form-interfaces"></a><span data-ttu-id="80bf7-103">Déclaration d’interfaces de formulaire</span><span class="sxs-lookup"><span data-stu-id="80bf7-103">Declaring Form Interfaces</span></span>
 
   
   
-<span data-ttu-id="d0928-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d0928-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="80bf7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="80bf7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d0928-105">Vous pouvez simplifier les déclarations de vos implémentations d’interfaces de formulaire MAPI à l’aide des macros MAPI_ _interface__METHOD, où  _l’interface_ est une interface de formulaire définie dans le fichier d’en-tête Mapiform.h.</span><span class="sxs-lookup"><span data-stu-id="d0928-105">You can simplify the declarations of your implementations of MAPI form interfaces by using the MAPI_ _interface__METHOD macros, where  _interface_ is a form interface defined in the Mapiform.h header file.</span></span> <span data-ttu-id="d0928-106">Vous n’êtes pas obligé d’utiliser ces macros, mais si ce n’est pas le cas, vous devez particulièrement vous occuper que vos déclarations soient conformes aux déclarations dans le fichier d’en-tête Mapiform.h.</span><span class="sxs-lookup"><span data-stu-id="d0928-106">You are not required to use these macros, but if you do not, you should take particular care that your declarations conform to the declarations in the Mapiform.h header file.</span></span> <span data-ttu-id="d0928-107">Par exemple, vous pouvez déclarer la classe d’objet de formulaire de votre serveur de formulaires comme suit :</span><span class="sxs-lookup"><span data-stu-id="d0928-107">For example, you could declare your form server's form object class like the following:</span></span> 
+<span data-ttu-id="80bf7-105">Vous pouvez simplifier les déclarations de vos implémentations d’interfaces de formulaire MAPI à l’aide des macros MAPI_ _interface__METHOD, où  _l’interface_ est une interface de formulaire définie dans le fichier d’en-tête Mapiform.h.</span><span class="sxs-lookup"><span data-stu-id="80bf7-105">You can simplify the declarations of your implementations of MAPI form interfaces by using the MAPI_ _interface__METHOD macros, where  _interface_ is a form interface defined in the Mapiform.h header file.</span></span> <span data-ttu-id="80bf7-106">Vous n’êtes pas obligé d’utiliser ces macros, mais si ce n’est pas le cas, vous devez particulièrement vous occuper que vos déclarations soient conformes aux déclarations dans le fichier d’en-tête Mapiform.h.</span><span class="sxs-lookup"><span data-stu-id="80bf7-106">You are not required to use these macros, but if you do not, you should take particular care that your declarations conform to the declarations in the Mapiform.h header file.</span></span> <span data-ttu-id="80bf7-107">Par exemple, vous pouvez déclarer la classe d’objet de formulaire de votre serveur de formulaires comme suit :</span><span class="sxs-lookup"><span data-stu-id="80bf7-107">For example, you could declare your form server's form object class like the following:</span></span> 
   
 ```cpp
 class CMyForm : public IPersistMessage, public IMAPIForm,
@@ -41,9 +41,9 @@ public:
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="d0928-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d0928-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="80bf7-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="80bf7-108">See also</span></span>
 
 
 
-[<span data-ttu-id="d0928-109">Écriture de code serveur de formulaire</span><span class="sxs-lookup"><span data-stu-id="d0928-109">Writing Form Server Code</span></span>](writing-form-server-code.md)
+[<span data-ttu-id="80bf7-109">Écriture de code serveur de formulaires</span><span class="sxs-lookup"><span data-stu-id="80bf7-109">Writing Form Server Code</span></span>](writing-form-server-code.md)
 

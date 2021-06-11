@@ -16,22 +16,22 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436061"
 ---
-# <a name="na-function"></a><span data-ttu-id="b673d-103">Fonction NA</span><span class="sxs-lookup"><span data-stu-id="b673d-103">NA Function</span></span>
+# <a name="na-function"></a><span data-ttu-id="313be-103">Fonction NA</span><span class="sxs-lookup"><span data-stu-id="313be-103">NA Function</span></span>
 
-<span data-ttu-id="b673d-104">Renvoie la valeur d’erreur #NA!.</span><span class="sxs-lookup"><span data-stu-id="b673d-104">Returns the error value #NA!.</span></span> 
+<span data-ttu-id="313be-104">Renvoie la valeur d’erreur #NA!.</span><span class="sxs-lookup"><span data-stu-id="313be-104">Returns the error value #NA!.</span></span> 
   
-<span data-ttu-id="b673d-105">Utilisez cette fonction dans une cellule de feuille ShapeSheet dans laquelle manquent des informations pour que la valeur par défaut de la cellule ne soit pas utilisée dans les calculs.</span><span class="sxs-lookup"><span data-stu-id="b673d-105">Use the NA function in a ShapeSheet cell where information is missing, so that the cell's default value is not used in calculations.</span></span>
+<span data-ttu-id="313be-105">Utilisez cette fonction dans une cellule de feuille ShapeSheet dans laquelle manquent des informations pour que la valeur par défaut de la cellule ne soit pas utilisée dans les calculs.</span><span class="sxs-lookup"><span data-stu-id="313be-105">Use the NA function in a ShapeSheet cell where information is missing, so that the cell's default value is not used in calculations.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="b673d-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b673d-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="313be-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="313be-106">Syntax</span></span>
 
-<span data-ttu-id="b673d-107">NA( )</span><span class="sxs-lookup"><span data-stu-id="b673d-107">NA( )</span></span>
+<span data-ttu-id="313be-107">NA( )</span><span class="sxs-lookup"><span data-stu-id="313be-107">NA( )</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="b673d-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="b673d-108">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="313be-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="313be-108">Return value</span></span>
 
-<span data-ttu-id="b673d-109">Chaîne</span><span class="sxs-lookup"><span data-stu-id="b673d-109">String</span></span>
+<span data-ttu-id="313be-109">Chaîne</span><span class="sxs-lookup"><span data-stu-id="313be-109">String</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="b673d-110">Remarques</span><span class="sxs-lookup"><span data-stu-id="b673d-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="313be-110">Remarques</span><span class="sxs-lookup"><span data-stu-id="313be-110">Remarks</span></span>
 
-<span data-ttu-id="b673d-111">NA est la valeur d’erreur qui signifie « pas de valeur disponible ».</span><span class="sxs-lookup"><span data-stu-id="b673d-111">NA is the error value that means "no value available."</span></span>
+<span data-ttu-id="313be-111">NA est la valeur d’erreur qui signifie « pas de valeur disponible ».</span><span class="sxs-lookup"><span data-stu-id="313be-111">NA is the error value that means "no value available."</span></span>
   
 

@@ -19,17 +19,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438287"
 ---
-# <a name="sbinaryarray"></a><span data-ttu-id="ae764-103">SBinaryArray</span><span class="sxs-lookup"><span data-stu-id="ae764-103">SBinaryArray</span></span>
+# <a name="sbinaryarray"></a><span data-ttu-id="a27ad-103">SBinaryArray</span><span class="sxs-lookup"><span data-stu-id="a27ad-103">SBinaryArray</span></span>
 
   
   
-<span data-ttu-id="ae764-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ae764-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a27ad-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a27ad-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ae764-105">Contient un tableau de valeurs binaires.</span><span class="sxs-lookup"><span data-stu-id="ae764-105">Contains an array of binary values.</span></span> 
+<span data-ttu-id="a27ad-105">Contient un tableau de valeurs binaires.</span><span class="sxs-lookup"><span data-stu-id="a27ad-105">Contains an array of binary values.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ae764-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="ae764-106">Header file:</span></span>  <br/> |<span data-ttu-id="ae764-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ae764-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="a27ad-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="a27ad-106">Header file:</span></span>  <br/> |<span data-ttu-id="a27ad-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="a27ad-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SBinaryArray
@@ -40,30 +40,30 @@ typedef struct _SBinaryArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="ae764-108">Members</span><span class="sxs-lookup"><span data-stu-id="ae764-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="a27ad-108">Members</span><span class="sxs-lookup"><span data-stu-id="a27ad-108">Members</span></span>
 
- <span data-ttu-id="ae764-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="ae764-109">**cValues**</span></span>
+ <span data-ttu-id="a27ad-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="a27ad-109">**cValues**</span></span>
   
-> <span data-ttu-id="ae764-110">Nombre de valeurs dans le tableau pointées par **le membre lpbin.**</span><span class="sxs-lookup"><span data-stu-id="ae764-110">Count of values in the array pointed to by the **lpbin** member.</span></span> 
+> <span data-ttu-id="a27ad-110">Nombre de valeurs dans le tableau pointées par **le membre lpbin.**</span><span class="sxs-lookup"><span data-stu-id="a27ad-110">Count of values in the array pointed to by the **lpbin** member.</span></span> 
     
- <span data-ttu-id="ae764-111">**lpbin**</span><span class="sxs-lookup"><span data-stu-id="ae764-111">**lpbin**</span></span>
+ <span data-ttu-id="a27ad-111">**lpbin**</span><span class="sxs-lookup"><span data-stu-id="a27ad-111">**lpbin**</span></span>
   
-> <span data-ttu-id="ae764-112">Pointeur vers un tableau de structures [SBinary](sbinary.md) qui contient les valeurs binaires.</span><span class="sxs-lookup"><span data-stu-id="ae764-112">Pointer to an array of [SBinary](sbinary.md) structures that holds the binary values.</span></span> 
+> <span data-ttu-id="a27ad-112">Pointeur vers un tableau de structures [SBinary](sbinary.md) qui contient les valeurs binaires.</span><span class="sxs-lookup"><span data-stu-id="a27ad-112">Pointer to an array of [SBinary](sbinary.md) structures that holds the binary values.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="ae764-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="ae764-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a27ad-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="a27ad-113">Remarks</span></span>
 
-<span data-ttu-id="ae764-114">La structure **SBinaryArray est** utilisée pour décrire les propriétés de type PT_MV_BINARY.</span><span class="sxs-lookup"><span data-stu-id="ae764-114">The **SBinaryArray** structure is used to describe properties of type PT_MV_BINARY.</span></span> 
+<span data-ttu-id="a27ad-114">La structure **SBinaryArray est** utilisée pour décrire les propriétés de type PT_MV_BINARY.</span><span class="sxs-lookup"><span data-stu-id="a27ad-114">The **SBinaryArray** structure is used to describe properties of type PT_MV_BINARY.</span></span> 
   
-<span data-ttu-id="ae764-115">Pour plus d’informations sur PT_MV_BINARY, voir [Liste des types de propriétés.](property-types.md)</span><span class="sxs-lookup"><span data-stu-id="ae764-115">For more information about PT_MV_BINARY, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="a27ad-115">Pour plus d’informations sur PT_MV_BINARY, voir [Liste des types de propriétés.](property-types.md)</span><span class="sxs-lookup"><span data-stu-id="a27ad-115">For more information about PT_MV_BINARY, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ae764-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ae764-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a27ad-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a27ad-116">See also</span></span>
 
 
 
-[<span data-ttu-id="ae764-117">SBinary</span><span class="sxs-lookup"><span data-stu-id="ae764-117">SBinary</span></span>](sbinary.md)
+[<span data-ttu-id="a27ad-117">SBinary</span><span class="sxs-lookup"><span data-stu-id="a27ad-117">SBinary</span></span>](sbinary.md)
   
-[<span data-ttu-id="ae764-118">SPropValue</span><span class="sxs-lookup"><span data-stu-id="ae764-118">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="a27ad-118">SPropValue</span><span class="sxs-lookup"><span data-stu-id="a27ad-118">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="ae764-119">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="ae764-119">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="a27ad-119">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="a27ad-119">MAPI Structures</span></span>](mapi-structures.md)
 

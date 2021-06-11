@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433051"
 ---
-# <a name="ulfromszhex"></a><span data-ttu-id="3ca90-103">UlFromSzHex</span><span class="sxs-lookup"><span data-stu-id="3ca90-103">UlFromSzHex</span></span>
+# <a name="ulfromszhex"></a><span data-ttu-id="9ad9a-103">UlFromSzHex</span><span class="sxs-lookup"><span data-stu-id="9ad9a-103">UlFromSzHex</span></span>
 
   
   
-<span data-ttu-id="3ca90-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3ca90-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9ad9a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9ad9a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3ca90-105">Convertit une chaîne de chiffres hexadécimals terminée par null en un nombre long non signé.</span><span class="sxs-lookup"><span data-stu-id="3ca90-105">Converts a null-terminated string of hexadecimal digits into an unsigned long integer.</span></span> 
+<span data-ttu-id="9ad9a-105">Convertit une chaîne terminée par null de chiffres hexadécimals en un nombre long non signé.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-105">Converts a null-terminated string of hexadecimal digits into an unsigned long integer.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3ca90-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="3ca90-106">Header file:</span></span>  <br/> |<span data-ttu-id="3ca90-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3ca90-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="3ca90-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="3ca90-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="3ca90-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="3ca90-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="3ca90-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="3ca90-110">Called by:</span></span>  <br/> |<span data-ttu-id="3ca90-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="3ca90-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="9ad9a-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="9ad9a-106">Header file:</span></span>  <br/> |<span data-ttu-id="9ad9a-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="9ad9a-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="9ad9a-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="9ad9a-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="9ad9a-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="9ad9a-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="9ad9a-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="9ad9a-110">Called by:</span></span>  <br/> |<span data-ttu-id="9ad9a-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="9ad9a-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 ULONG UlFromSzHex(
@@ -39,20 +39,20 @@ LPCSTR lpsz
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3ca90-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="3ca90-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9ad9a-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="9ad9a-112">Parameters</span></span>
 
- <span data-ttu-id="3ca90-113">_lpsz_</span><span class="sxs-lookup"><span data-stu-id="3ca90-113">_lpsz_</span></span>
+ <span data-ttu-id="9ad9a-113">_lpsz_</span><span class="sxs-lookup"><span data-stu-id="9ad9a-113">_lpsz_</span></span>
   
-> <span data-ttu-id="3ca90-114">[in] Pointeur vers la chaîne terminée par null à convertir.</span><span class="sxs-lookup"><span data-stu-id="3ca90-114">[in] Pointer to the null-terminated string to be converted.</span></span> <span data-ttu-id="3ca90-115">Le  _paramètre lpsz_ ne doit pas dépasser 65 536 caractères.</span><span class="sxs-lookup"><span data-stu-id="3ca90-115">The  _lpsz_ parameter must not exceed 65536 characters.</span></span> 
+> <span data-ttu-id="9ad9a-114">[in] Pointeur vers la chaîne terminée par null à convertir.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-114">[in] Pointer to the null-terminated string to be converted.</span></span> <span data-ttu-id="9ad9a-115">Le  _paramètre lpsz_ ne doit pas dépasser 65 536 caractères.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-115">The  _lpsz_ parameter must not exceed 65536 characters.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="3ca90-116">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="3ca90-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9ad9a-116">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="9ad9a-116">Return value</span></span>
 
- <span data-ttu-id="3ca90-117">**UlFromSzHex** renvoie un long integer non signé.</span><span class="sxs-lookup"><span data-stu-id="3ca90-117">**UlFromSzHex** returns an unsigned long integer.</span></span> <span data-ttu-id="3ca90-118">Si la chaîne ne commence pas par au moins un chiffre hexadécimal, zéro est renvoyé.</span><span class="sxs-lookup"><span data-stu-id="3ca90-118">If the string does not begin with at least one hexadecimal digit, zero is returned.</span></span> 
+ <span data-ttu-id="9ad9a-117">**UlFromSzHex** renvoie un long integer non signé.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-117">**UlFromSzHex** returns an unsigned long integer.</span></span> <span data-ttu-id="9ad9a-118">Si la chaîne ne commence pas par au moins un chiffre hexadécimal, zéro est renvoyé.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-118">If the string does not begin with at least one hexadecimal digit, zero is returned.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="3ca90-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="3ca90-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9ad9a-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="9ad9a-119">Remarks</span></span>
 
-<span data-ttu-id="3ca90-120">La **fonction UlFromSzHex** cesse de se convertir lorsqu’elle atteint le premier caractère de la chaîne qui n’est pas un chiffre hexadécimal.</span><span class="sxs-lookup"><span data-stu-id="3ca90-120">The **UlFromSzHex** function stops converting when it reaches the first character in the string that is not a hexadecimal digit.</span></span> <span data-ttu-id="3ca90-121">Par exemple, étant donné la chaîne « 5a », **UlFromSzHex** renvoie la valeur d’ensemble 90.</span><span class="sxs-lookup"><span data-stu-id="3ca90-121">For example, given the string "5a", **UlFromSzHex** returns the integer value 90.</span></span> <span data-ttu-id="3ca90-122">Étant donné la chaîne « 5g5h », la fonction renvoie la valeur d’ensemble 5.</span><span class="sxs-lookup"><span data-stu-id="3ca90-122">Given the string "5g5h", the function returns the integer value 5.</span></span> <span data-ttu-id="3ca90-123">Étant donné la chaîne « g5h5 », **UlFromSzHex** renvoie zéro.</span><span class="sxs-lookup"><span data-stu-id="3ca90-123">Given the string "g5h5", **UlFromSzHex** returns zero.</span></span> 
+<span data-ttu-id="9ad9a-120">La **fonction UlFromSzHex** cesse de se convertir lorsqu’elle atteint le premier caractère de la chaîne qui n’est pas un chiffre hexadécimal.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-120">The **UlFromSzHex** function stops converting when it reaches the first character in the string that is not a hexadecimal digit.</span></span> <span data-ttu-id="9ad9a-121">Par exemple, étant donné la chaîne « 5a », **UlFromSzHex** renvoie la valeur d’ensemble 90.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-121">For example, given the string "5a", **UlFromSzHex** returns the integer value 90.</span></span> <span data-ttu-id="9ad9a-122">Étant donné la chaîne « 5g5h », la fonction renvoie la valeur d’ensemble 5.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-122">Given the string "5g5h", the function returns the integer value 5.</span></span> <span data-ttu-id="9ad9a-123">Étant donné la chaîne « g5h5 », **UlFromSzHex** renvoie zéro.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-123">Given the string "g5h5", **UlFromSzHex** returns zero.</span></span> 
   
- <span data-ttu-id="3ca90-124">**UlFromSzHex** est sensible aux différences diacritiques, mais autorise à la fois « a » et « f » et « A » à « F » pour les chiffres hexadécimals.</span><span class="sxs-lookup"><span data-stu-id="3ca90-124">**UlFromSzHex** is sensitive to diacritical differences but allows both 'a' through 'f' and 'A' through 'F' for hexadecimal digits.</span></span> <span data-ttu-id="3ca90-125">Les chaînes aux formats Unicode et DBCS sont pris en charge.</span><span class="sxs-lookup"><span data-stu-id="3ca90-125">Strings in the Unicode and DBCS formats are supported.</span></span> <span data-ttu-id="3ca90-126">La limite de longueur sur  _lpsz est_ en caractères, pas nécessairement en octets.</span><span class="sxs-lookup"><span data-stu-id="3ca90-126">The length limit on  _lpsz_ is in characters, not necessarily bytes.</span></span> 
+ <span data-ttu-id="9ad9a-124">**UlFromSzHex** est sensible aux différences diacritiques, mais autorise à la fois « a » et « f » et « A » à « F » pour les chiffres hexadécimals.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-124">**UlFromSzHex** is sensitive to diacritical differences but allows both 'a' through 'f' and 'A' through 'F' for hexadecimal digits.</span></span> <span data-ttu-id="9ad9a-125">Les chaînes aux formats Unicode et DBCS sont pris en charge.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-125">Strings in the Unicode and DBCS formats are supported.</span></span> <span data-ttu-id="9ad9a-126">La limite de longueur sur  _lpsz est_ en caractères, pas nécessairement en octets.</span><span class="sxs-lookup"><span data-stu-id="9ad9a-126">The length limit on  _lpsz_ is in characters, not necessarily bytes.</span></span> 
   
 

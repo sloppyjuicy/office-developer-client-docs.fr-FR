@@ -16,12 +16,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436635"
 ---
-# <a name="open-each-shapesheet-in-the-same-window"></a><span data-ttu-id="e5a25-102">Ouvrir chaque feuille ShapeSheet dans la même fenêtre</span><span class="sxs-lookup"><span data-stu-id="e5a25-102">Open Each ShapeSheet in the Same Window</span></span>
+# <a name="open-each-shapesheet-in-the-same-window"></a><span data-ttu-id="4517d-102">Ouvrir chaque feuille ShapeSheet dans la même fenêtre</span><span class="sxs-lookup"><span data-stu-id="4517d-102">Open Each ShapeSheet in the Same Window</span></span>
 
-1. <span data-ttu-id="e5a25-103">Cliquez sur **l’onglet** Fichier, **sur Options,** puis sur **Avancé**.</span><span class="sxs-lookup"><span data-stu-id="e5a25-103">Click the **File** tab, click **Options**, and then click **Advanced**.</span></span>
+1. <span data-ttu-id="4517d-103">Cliquez sur **l’onglet** Fichier, **sur Options,** puis sur **Avancé**.</span><span class="sxs-lookup"><span data-stu-id="4517d-103">Click the **File** tab, click **Options**, and then click **Advanced**.</span></span>
     
-2. <span data-ttu-id="e5a25-104">Sous **Général**, sélectionnez **Ouvrir toutes les feuilles Shapesheet dans la même fenêtre**.</span><span class="sxs-lookup"><span data-stu-id="e5a25-104">Under **General**, select **Open each ShapeSheet in the same window**.</span></span>
+2. <span data-ttu-id="4517d-104">Sous **Général**, sélectionnez **Ouvrir toutes les feuilles Shapesheet dans la même fenêtre**.</span><span class="sxs-lookup"><span data-stu-id="4517d-104">Under **General**, select **Open each ShapeSheet in the same window**.</span></span>
     
-3. <span data-ttu-id="e5a25-105">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="e5a25-105">Click **OK**.</span></span> 
+3. <span data-ttu-id="4517d-105">Cliquez sur **OK**.</span><span class="sxs-lookup"><span data-stu-id="4517d-105">Click **OK**.</span></span> 
     
 

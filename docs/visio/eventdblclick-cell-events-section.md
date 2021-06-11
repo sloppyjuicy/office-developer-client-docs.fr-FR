@@ -16,26 +16,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438217"
 ---
-# <a name="eventdblclick-cell-events-section"></a><span data-ttu-id="a0d79-103">EventDblClick, cellule (section Events)</span><span class="sxs-lookup"><span data-stu-id="a0d79-103">EventDblClick Cell (Events Section)</span></span>
+# <a name="eventdblclick-cell-events-section"></a><span data-ttu-id="d73e5-103">EventDblClick, cellule (section Events)</span><span class="sxs-lookup"><span data-stu-id="d73e5-103">EventDblClick Cell (Events Section)</span></span>
 
-<span data-ttu-id="a0d79-104">Cellule Event qui est évaluée lors d'un double-clic sur une forme.</span><span class="sxs-lookup"><span data-stu-id="a0d79-104">An event cell that is evaluated when a shape is double-clicked.</span></span>
+<span data-ttu-id="d73e5-104">Cellule Event qui est évaluée lors d'un double-clic sur une forme.</span><span class="sxs-lookup"><span data-stu-id="d73e5-104">An event cell that is evaluated when a shape is double-clicked.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a0d79-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="a0d79-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d73e5-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="d73e5-105">Remarks</span></span>
 
-<span data-ttu-id="a0d79-106">Les cellules Event ne sont évaluées que lorsque l'événement se produit, et non lors de l'entrée de la formule.</span><span class="sxs-lookup"><span data-stu-id="a0d79-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
+<span data-ttu-id="d73e5-106">Les cellules Event ne sont évaluées que lorsque l'événement se produit, et non lors de l'entrée de la formule.</span><span class="sxs-lookup"><span data-stu-id="d73e5-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
   
-<span data-ttu-id="a0d79-107">Pour obtenir une référence à la cellule EventDblClick par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="a0d79-107">To get a reference to the EventDblClick cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d73e5-107">Pour obtenir une référence à la cellule EventDblClick par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="d73e5-107">To get a reference to the EventDblClick cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a0d79-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="a0d79-108">Cell name:</span></span>  <br/> | <span data-ttu-id="a0d79-109">EventDblClick</span><span class="sxs-lookup"><span data-stu-id="a0d79-109">EventDblClick</span></span>  <br/> |
+| <span data-ttu-id="d73e5-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d73e5-108">Cell name:</span></span>  <br/> | <span data-ttu-id="d73e5-109">EventDblClick</span><span class="sxs-lookup"><span data-stu-id="d73e5-109">EventDblClick</span></span>  <br/> |
    
-<span data-ttu-id="a0d79-110">Pour obtenir une référence à la cellule EventDblClick à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="a0d79-110">To get a reference to the EventDblClick cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d73e5-110">Pour obtenir une référence à la cellule EventDblClick à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="d73e5-110">To get a reference to the EventDblClick cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a0d79-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="a0d79-111">Section index:</span></span>  <br/> |<span data-ttu-id="a0d79-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="a0d79-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="a0d79-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="a0d79-113">Row index:</span></span>  <br/> |<span data-ttu-id="a0d79-114">**visRowEvent**</span><span class="sxs-lookup"><span data-stu-id="a0d79-114">**visRowEvent**</span></span> <br/> |
-| <span data-ttu-id="a0d79-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="a0d79-115">Cell index:</span></span>  <br/> |<span data-ttu-id="a0d79-116">**visEvtCellDblClick**</span><span class="sxs-lookup"><span data-stu-id="a0d79-116">**visEvtCellDblClick**</span></span> <br/> |
+| <span data-ttu-id="d73e5-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="d73e5-111">Section index:</span></span>  <br/> |<span data-ttu-id="d73e5-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="d73e5-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="d73e5-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="d73e5-113">Row index:</span></span>  <br/> |<span data-ttu-id="d73e5-114">**visRowEvent**</span><span class="sxs-lookup"><span data-stu-id="d73e5-114">**visRowEvent**</span></span> <br/> |
+| <span data-ttu-id="d73e5-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d73e5-115">Cell index:</span></span>  <br/> |<span data-ttu-id="d73e5-116">**visEvtCellDblClick**</span><span class="sxs-lookup"><span data-stu-id="d73e5-116">**visEvtCellDblClick**</span></span> <br/> |
    
 

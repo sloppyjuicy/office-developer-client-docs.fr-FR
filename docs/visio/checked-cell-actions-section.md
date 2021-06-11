@@ -16,32 +16,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438329"
 ---
-# <a name="checked-cell-actions-section"></a><span data-ttu-id="c2dfa-103">Checked, cellule (section Actions)</span><span class="sxs-lookup"><span data-stu-id="c2dfa-103">Checked Cell (Actions Section)</span></span>
+# <a name="checked-cell-actions-section"></a><span data-ttu-id="63c68-103">Checked, cellule (section Actions)</span><span class="sxs-lookup"><span data-stu-id="63c68-103">Checked Cell (Actions Section)</span></span>
 
-<span data-ttu-id="c2dfa-104">Indique si une option est cochée dans le menu contextuel ou de balise d’action.</span><span class="sxs-lookup"><span data-stu-id="c2dfa-104">Indicates whether an item is checked on the shortcut or action tag menu.</span></span>
+<span data-ttu-id="63c68-104">Indique si une option est cochée dans le menu contextuel ou de balise d’action.</span><span class="sxs-lookup"><span data-stu-id="63c68-104">Indicates whether an item is checked on the shortcut or action tag menu.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="c2dfa-105">Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ».</span><span class="sxs-lookup"><span data-stu-id="c2dfa-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="63c68-105">Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ».</span><span class="sxs-lookup"><span data-stu-id="63c68-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-|<span data-ttu-id="c2dfa-106">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="c2dfa-106">**Value**</span></span>|<span data-ttu-id="c2dfa-107">**Description**</span><span class="sxs-lookup"><span data-stu-id="c2dfa-107">**Description**</span></span>|
+|<span data-ttu-id="63c68-106">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="63c68-106">**Value**</span></span>|<span data-ttu-id="63c68-107">**Description**</span><span class="sxs-lookup"><span data-stu-id="63c68-107">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c2dfa-108">TRUE</span><span class="sxs-lookup"><span data-stu-id="c2dfa-108">TRUE</span></span>  <br/> |<span data-ttu-id="c2dfa-109">La coche est affichée.</span><span class="sxs-lookup"><span data-stu-id="c2dfa-109">Check mark is displayed.</span></span>  <br/> |
-|<span data-ttu-id="c2dfa-110">FALSE</span><span class="sxs-lookup"><span data-stu-id="c2dfa-110">FALSE</span></span>  <br/> |<span data-ttu-id="c2dfa-111">La coche n'est pas affichée (valeur par défaut).</span><span class="sxs-lookup"><span data-stu-id="c2dfa-111">Check mark is not displayed (the default).</span></span>  <br/> |
+|<span data-ttu-id="63c68-108">TRUE</span><span class="sxs-lookup"><span data-stu-id="63c68-108">TRUE</span></span>  <br/> |<span data-ttu-id="63c68-109">La coche est affichée.</span><span class="sxs-lookup"><span data-stu-id="63c68-109">Check mark is displayed.</span></span>  <br/> |
+|<span data-ttu-id="63c68-110">FALSE</span><span class="sxs-lookup"><span data-stu-id="63c68-110">FALSE</span></span>  <br/> |<span data-ttu-id="63c68-111">La coche n'est pas affichée (valeur par défaut).</span><span class="sxs-lookup"><span data-stu-id="63c68-111">Check mark is not displayed (the default).</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c2dfa-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="c2dfa-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="63c68-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="63c68-112">Remarks</span></span>
 
-<span data-ttu-id="c2dfa-113">Pour obtenir une référence à la cellule Checked à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="c2dfa-113">To get a reference to the Checked cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="63c68-113">Pour obtenir une référence à la cellule Checked à partir du nom d’une autre formule ou d’un programme à l’aide de la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="63c68-113">To get a reference to the Checked cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c2dfa-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="c2dfa-114">Cell name:</span></span>  <br/> |<span data-ttu-id="c2dfa-115">Actions.</span><span class="sxs-lookup"><span data-stu-id="c2dfa-115">Actions.</span></span> <span data-ttu-id="c2dfa-116">*nom*  . Checked where Actions.</span><span class="sxs-lookup"><span data-stu-id="c2dfa-116">*name*  .Checked           where Actions.</span></span> <span data-ttu-id="c2dfa-117">*name*  est le nom de la ligne Actions</span><span class="sxs-lookup"><span data-stu-id="c2dfa-117">*name*  is the name of the Actions row</span></span>  <br/> |
+|<span data-ttu-id="63c68-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="63c68-114">Cell name:</span></span>  <br/> |<span data-ttu-id="63c68-115">Actions.</span><span class="sxs-lookup"><span data-stu-id="63c68-115">Actions.</span></span> <span data-ttu-id="63c68-116">*nom*  . Checked where Actions.</span><span class="sxs-lookup"><span data-stu-id="63c68-116">*name*  .Checked           where Actions.</span></span> <span data-ttu-id="63c68-117">*name*  est le nom de la ligne Actions</span><span class="sxs-lookup"><span data-stu-id="63c68-117">*name*  is the name of the Actions row</span></span>  <br/> |
    
-<span data-ttu-id="c2dfa-118">Pour obtenir une référence à la cellule Checked à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="c2dfa-118">To get a reference to the Checked cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="63c68-118">Pour obtenir une référence à la cellule Checked à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="63c68-118">To get a reference to the Checked cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c2dfa-119">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="c2dfa-119">Section index:</span></span>  <br/> |<span data-ttu-id="c2dfa-120">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="c2dfa-120">**visSectionAction**</span></span> <br/> |
-|<span data-ttu-id="c2dfa-121">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="c2dfa-121">Row index:</span></span>  <br/> |<span data-ttu-id="c2dfa-122">**visRowAction**  +   *i* où *i* = 0, 1, 2, ...</span><span class="sxs-lookup"><span data-stu-id="c2dfa-122">**visRowAction** +  *i*           where  *i*  = 0, 1, 2, ...</span></span>  <br/> |
-|<span data-ttu-id="c2dfa-123">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="c2dfa-123">Cell index:</span></span>  <br/> |<span data-ttu-id="c2dfa-124">**visActionChecked**</span><span class="sxs-lookup"><span data-stu-id="c2dfa-124">**visActionChecked**</span></span> <br/> |
+|<span data-ttu-id="63c68-119">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="63c68-119">Section index:</span></span>  <br/> |<span data-ttu-id="63c68-120">**visSectionAction**</span><span class="sxs-lookup"><span data-stu-id="63c68-120">**visSectionAction**</span></span> <br/> |
+|<span data-ttu-id="63c68-121">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="63c68-121">Row index:</span></span>  <br/> |<span data-ttu-id="63c68-122">**visRowAction**  +   *i* où *i* = 0, 1, 2, ...</span><span class="sxs-lookup"><span data-stu-id="63c68-122">**visRowAction** +  *i*           where  *i*  = 0, 1, 2, ...</span></span>  <br/> |
+|<span data-ttu-id="63c68-123">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="63c68-123">Cell index:</span></span>  <br/> |<span data-ttu-id="63c68-124">**visActionChecked**</span><span class="sxs-lookup"><span data-stu-id="63c68-124">**visActionChecked**</span></span> <br/> |
    
 

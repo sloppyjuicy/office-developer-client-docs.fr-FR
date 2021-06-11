@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432869"
 ---
-# <a name="iostxsetsyncresult"></a><span data-ttu-id="708b4-103">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="708b4-103">IOSTX::SetSyncResult</span></span>
+# <a name="iostxsetsyncresult"></a><span data-ttu-id="f83b3-103">IOSTX::SetSyncResult</span><span class="sxs-lookup"><span data-stu-id="f83b3-103">IOSTX::SetSyncResult</span></span>
 
   
   
-<span data-ttu-id="708b4-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="708b4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f83b3-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f83b3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="708b4-105">Définit le résultat de la synchronisation.</span><span class="sxs-lookup"><span data-stu-id="708b4-105">Sets the result of the synchronization.</span></span>
+<span data-ttu-id="f83b3-105">Définit le résultat de la synchronisation.</span><span class="sxs-lookup"><span data-stu-id="f83b3-105">Sets the result of the synchronization.</span></span>
   
 ```cpp
 HRESULT SetSyncResult( 
@@ -33,32 +33,32 @@ HRESULT SetSyncResult(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="708b4-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="708b4-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f83b3-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="f83b3-106">Parameters</span></span>
 
- <span data-ttu-id="708b4-107">_hrSync_</span><span class="sxs-lookup"><span data-stu-id="708b4-107">_hrSync_</span></span>
+ <span data-ttu-id="f83b3-107">_hrSync_</span><span class="sxs-lookup"><span data-stu-id="f83b3-107">_hrSync_</span></span>
   
->  <span data-ttu-id="708b4-108">[in] Résultat de la synchronisation.</span><span class="sxs-lookup"><span data-stu-id="708b4-108">[in] The result of the synchronization.</span></span> 
+>  <span data-ttu-id="f83b3-108">[in] Résultat de la synchronisation.</span><span class="sxs-lookup"><span data-stu-id="f83b3-108">[in] The result of the synchronization.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="708b4-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="708b4-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f83b3-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="f83b3-109">Remarks</span></span>
 
-<span data-ttu-id="708b4-110">Appelez **IOSTX::SetSyncResult** avant **d’appeler IOSTX::SyncEnd** pour informer le magasin local du résultat de la synchronisation.</span><span class="sxs-lookup"><span data-stu-id="708b4-110">Call **IOSTX::SetSyncResult** before calling **IOSTX::SyncEnd** to inform the local store of the result of synchronization.</span></span> 
+<span data-ttu-id="f83b3-110">Appelez **IOSTX::SetSyncResult** avant **d’appeler IOSTX::SyncEnd** pour informer le magasin local du résultat de la synchronisation.</span><span class="sxs-lookup"><span data-stu-id="f83b3-110">Call **IOSTX::SetSyncResult** before calling **IOSTX::SyncEnd** to inform the local store of the result of synchronization.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="708b4-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="708b4-111">See also</span></span>
-
-
-
-[<span data-ttu-id="708b4-112">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="708b4-112">IOSTX::GetLastError</span></span>](iostx-getlasterror.md)
-  
-[<span data-ttu-id="708b4-113">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="708b4-113">IOSTX::InitSync</span></span>](iostx-initsync.md)
-  
-[<span data-ttu-id="708b4-114">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="708b4-114">IOSTX::SyncBeg</span></span>](iostx-syncbeg.md)
-  
-[<span data-ttu-id="708b4-115">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="708b4-115">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
-  
-[<span data-ttu-id="708b4-116">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="708b4-116">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
-  
-[<span data-ttu-id="708b4-117">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="708b4-117">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
+## <a name="see-also"></a><span data-ttu-id="f83b3-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f83b3-111">See also</span></span>
 
 
-[<span data-ttu-id="708b4-118">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="708b4-118">MAPI Constants</span></span>](mapi-constants.md)
+
+[<span data-ttu-id="f83b3-112">IOSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="f83b3-112">IOSTX::GetLastError</span></span>](iostx-getlasterror.md)
+  
+[<span data-ttu-id="f83b3-113">IOSTX::InitSync</span><span class="sxs-lookup"><span data-stu-id="f83b3-113">IOSTX::InitSync</span></span>](iostx-initsync.md)
+  
+[<span data-ttu-id="f83b3-114">IOSTX::SyncBeg</span><span class="sxs-lookup"><span data-stu-id="f83b3-114">IOSTX::SyncBeg</span></span>](iostx-syncbeg.md)
+  
+[<span data-ttu-id="f83b3-115">IOSTX::SyncEnd</span><span class="sxs-lookup"><span data-stu-id="f83b3-115">IOSTX::SyncEnd</span></span>](iostx-syncend.md)
+  
+[<span data-ttu-id="f83b3-116">IOSTX::SyncHdrBeg</span><span class="sxs-lookup"><span data-stu-id="f83b3-116">IOSTX::SyncHdrBeg</span></span>](iostx-synchdrbeg.md)
+  
+[<span data-ttu-id="f83b3-117">IOSTX::SyncHdrEnd</span><span class="sxs-lookup"><span data-stu-id="f83b3-117">IOSTX::SyncHdrEnd</span></span>](iostx-synchdrend.md)
+
+
+[<span data-ttu-id="f83b3-118">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="f83b3-118">MAPI Constants</span></span>](mapi-constants.md)
 

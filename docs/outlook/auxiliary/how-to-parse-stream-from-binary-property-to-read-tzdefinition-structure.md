@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434206"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a><span data-ttu-id="558e6-103">Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZDEFINITION</span><span class="sxs-lookup"><span data-stu-id="558e6-103">Parse a stream from a binary property to read the TZDEFINITION structure</span></span>
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a><span data-ttu-id="6b029-103">Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZDEFINITION</span><span class="sxs-lookup"><span data-stu-id="6b029-103">Parse a stream from a binary property to read the TZDEFINITION structure</span></span>
 
-<span data-ttu-id="558e6-104">Cette rubrique montre comment lire la structure [TZDEFINITION](tzdefinition.md) à partir du format persistant stocké dans une propriété binaire.</span><span class="sxs-lookup"><span data-stu-id="558e6-104">This topic shows how to read the [TZDEFINITION](tzdefinition.md) structure from the persisted format stored in a binary property.</span></span> 
+<span data-ttu-id="6b029-104">Cette rubrique montre comment lire la structure [TZDEFINITION](tzdefinition.md) à partir du format persistant stocké dans une propriété binaire.</span><span class="sxs-lookup"><span data-stu-id="6b029-104">This topic shows how to read the [TZDEFINITION](tzdefinition.md) structure from the persisted format stored in a binary property.</span></span> 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 
@@ -83,8 +83,8 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="558e6-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="558e6-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6b029-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6b029-105">See also</span></span>
 
-- [<span data-ttu-id="558e6-106">À propos de la persistance de TZDEFINITION dans un flux de validation dans une propriété binaire</span><span class="sxs-lookup"><span data-stu-id="558e6-106">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
-- [<span data-ttu-id="558e6-107">Lire les propriétés de fuseau horaire à partir d’un rendez-vous</span><span class="sxs-lookup"><span data-stu-id="558e6-107">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
+- [<span data-ttu-id="6b029-106">À propos de la persistance de TZDEFINITION dans un flux de validation dans une propriété binaire</span><span class="sxs-lookup"><span data-stu-id="6b029-106">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [<span data-ttu-id="6b029-107">Lire les propriétés de fuseau horaire à partir d’un rendez-vous</span><span class="sxs-lookup"><span data-stu-id="6b029-107">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
 

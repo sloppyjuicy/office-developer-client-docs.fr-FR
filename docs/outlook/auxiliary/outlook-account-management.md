@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437846"
 ---
-# <a name="outlook-account-management"></a><span data-ttu-id="e4059-104">Gestion des comptes Outlook</span><span class="sxs-lookup"><span data-stu-id="e4059-104">Outlook account management</span></span>
+# <a name="outlook-account-management"></a><span data-ttu-id="f6df0-104">Gestion des comptes Outlook</span><span class="sxs-lookup"><span data-stu-id="f6df0-104">Outlook account management</span></span>
 
-<span data-ttu-id="e4059-105">Cette section décrit l’API de gestion des comptes qui fournit l’accès aux informations de compte et prend en charge les notifications de modification de compte.</span><span class="sxs-lookup"><span data-stu-id="e4059-105">This section describes the Account Management API which provides access to account information and supports account-change notifications.</span></span> <span data-ttu-id="e4059-106">Il inclut également des informations sur la protection des comptes contre le courrier indésirable et la gestion des téléchargements de messages pour les comptes POP3.</span><span class="sxs-lookup"><span data-stu-id="e4059-106">It also includes information about protecting accounts from spam and managing message downloads for POP3 accounts.</span></span>
+<span data-ttu-id="f6df0-105">Cette section décrit l’API de gestion des comptes qui fournit l’accès aux informations de compte et prend en charge les notifications de modification de compte.</span><span class="sxs-lookup"><span data-stu-id="f6df0-105">This section describes the Account Management API which provides access to account information and supports account-change notifications.</span></span> <span data-ttu-id="f6df0-106">Il inclut également des informations sur la protection des comptes contre le courrier indésirable et la gestion des téléchargements de messages pour les comptes POP3.</span><span class="sxs-lookup"><span data-stu-id="f6df0-106">It also includes information about protecting accounts from spam and managing message downloads for POP3 accounts.</span></span>
 
-- [<span data-ttu-id="e4059-107">À propos de l'API de gestion de compte</span><span class="sxs-lookup"><span data-stu-id="e4059-107">About the Account Management API</span></span>](about-the-account-management-api.md)
+- [<span data-ttu-id="f6df0-107">À propos de l'API de gestion de compte</span><span class="sxs-lookup"><span data-stu-id="f6df0-107">About the Account Management API</span></span>](about-the-account-management-api.md)
     
-- [<span data-ttu-id="e4059-108">À propos des paramètres anti-spam</span><span class="sxs-lookup"><span data-stu-id="e4059-108">About anti-spam settings</span></span>](about-anti-spam-settings.md)
+- [<span data-ttu-id="f6df0-108">À propos des paramètres anti-spam</span><span class="sxs-lookup"><span data-stu-id="f6df0-108">About anti-spam settings</span></span>](about-anti-spam-settings.md)
     
-- [<span data-ttu-id="e4059-109">Gestion des téléchargements de messages pour les comptes POP3</span><span class="sxs-lookup"><span data-stu-id="e4059-109">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md)
+- [<span data-ttu-id="f6df0-109">Gestion des téléchargements de messages pour les comptes POP3</span><span class="sxs-lookup"><span data-stu-id="f6df0-109">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md)
     
 

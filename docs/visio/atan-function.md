@@ -16,24 +16,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434542"
 ---
-# <a name="atan-function"></a><span data-ttu-id="2a660-104">Fonction ATAN</span><span class="sxs-lookup"><span data-stu-id="2a660-104">ATAN Function</span></span>
+# <a name="atan-function"></a><span data-ttu-id="0e3d8-104">Fonction ATAN</span><span class="sxs-lookup"><span data-stu-id="0e3d8-104">ATAN Function</span></span>
 
-<span data-ttu-id="2a660-105">Renvoie l’arc tangente d’un nombre, par exemple, l’angle dont la tangente est  _le nombre_.</span><span class="sxs-lookup"><span data-stu-id="2a660-105">Returns the arctangent of a number, for example, the angle whose tangent is  _number_.</span></span> <span data-ttu-id="2a660-106">L’angle obtenu se situe dans la limite -PI/2 <= angle <= PI/2 radians (soit -90 <= angle <= 90 degrés).</span><span class="sxs-lookup"><span data-stu-id="2a660-106">The resulting angle is in the range -PI/2 <= angle <= PI/2 radians (-90 <= angle <= 90 degrees).</span></span> 
+<span data-ttu-id="0e3d8-105">Renvoie l’arc tangente d’un nombre, par exemple, l’angle dont la tangente est  _le nombre_.</span><span class="sxs-lookup"><span data-stu-id="0e3d8-105">Returns the arctangent of a number, for example, the angle whose tangent is  _number_.</span></span> <span data-ttu-id="0e3d8-106">L’angle obtenu se situe dans la limite -PI/2 <= angle <= PI/2 radians (soit -90 <= angle <= 90 degrés).</span><span class="sxs-lookup"><span data-stu-id="0e3d8-106">The resulting angle is in the range -PI/2 <= angle <= PI/2 radians (-90 <= angle <= 90 degrees).</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="2a660-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2a660-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0e3d8-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0e3d8-107">Syntax</span></span>
 
-<span data-ttu-id="2a660-108">ATAN(\*\* *number* \*\* )</span><span class="sxs-lookup"><span data-stu-id="2a660-108">ATAN(\*\* *number* \*\* )</span></span> 
+<span data-ttu-id="0e3d8-108">ATAN(\*\* *number* \*\* )</span><span class="sxs-lookup"><span data-stu-id="0e3d8-108">ATAN(\*\* *number* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="2a660-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="2a660-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="0e3d8-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="0e3d8-109">Parameters</span></span>
 
-|<span data-ttu-id="2a660-110">**Nom**</span><span class="sxs-lookup"><span data-stu-id="2a660-110">**Name**</span></span>|<span data-ttu-id="2a660-111">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="2a660-111">**Required/Optional**</span></span>|<span data-ttu-id="2a660-112">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="2a660-112">**Data Type**</span></span>|<span data-ttu-id="2a660-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="2a660-113">**Description**</span></span>|
+|<span data-ttu-id="0e3d8-110">**Nom**</span><span class="sxs-lookup"><span data-stu-id="0e3d8-110">**Name**</span></span>|<span data-ttu-id="0e3d8-111">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="0e3d8-111">**Required/Optional**</span></span>|<span data-ttu-id="0e3d8-112">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="0e3d8-112">**Data Type**</span></span>|<span data-ttu-id="0e3d8-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="0e3d8-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="2a660-114">_number_</span><span class="sxs-lookup"><span data-stu-id="2a660-114">_number_</span></span> <br/> |<span data-ttu-id="2a660-115">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="2a660-115">Required</span></span>  <br/> |<span data-ttu-id="2a660-116">**Numérique**</span><span class="sxs-lookup"><span data-stu-id="2a660-116">**Numeric**</span></span> <br/> |<span data-ttu-id="2a660-117">Tangente de l’angle.</span><span class="sxs-lookup"><span data-stu-id="2a660-117">The tangent of the angle.</span></span>  <br/> |
+| <span data-ttu-id="0e3d8-114">_number_</span><span class="sxs-lookup"><span data-stu-id="0e3d8-114">_number_</span></span> <br/> |<span data-ttu-id="0e3d8-115">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="0e3d8-115">Required</span></span>  <br/> |<span data-ttu-id="0e3d8-116">**Numérique**</span><span class="sxs-lookup"><span data-stu-id="0e3d8-116">**Numeric**</span></span> <br/> |<span data-ttu-id="0e3d8-117">Tangente de l’angle.</span><span class="sxs-lookup"><span data-stu-id="0e3d8-117">The tangent of the angle.</span></span>  <br/> |
    
-## <a name="example"></a><span data-ttu-id="2a660-118">Exemple</span><span class="sxs-lookup"><span data-stu-id="2a660-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0e3d8-118">Exemple</span><span class="sxs-lookup"><span data-stu-id="0e3d8-118">Example</span></span>
 
-<span data-ttu-id="2a660-119">ATAN(1)</span><span class="sxs-lookup"><span data-stu-id="2a660-119">ATAN(1)</span></span> 
+<span data-ttu-id="0e3d8-119">ATAN(1)</span><span class="sxs-lookup"><span data-stu-id="0e3d8-119">ATAN(1)</span></span> 
   
-<span data-ttu-id="2a660-120">Renvoie 45 deg</span><span class="sxs-lookup"><span data-stu-id="2a660-120">Returns 45 deg</span></span> 
+<span data-ttu-id="0e3d8-120">Renvoie 45 deg</span><span class="sxs-lookup"><span data-stu-id="0e3d8-120">Returns 45 deg</span></span> 
   
 

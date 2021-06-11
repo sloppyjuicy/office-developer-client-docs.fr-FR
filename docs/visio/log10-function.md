@@ -16,28 +16,28 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434122"
 ---
-# <a name="log10-function"></a><span data-ttu-id="d3fdb-104">Fonction LOG10</span><span class="sxs-lookup"><span data-stu-id="d3fdb-104">LOG10 Function</span></span>
+# <a name="log10-function"></a><span data-ttu-id="ea632-104">Fonction LOG10</span><span class="sxs-lookup"><span data-stu-id="ea632-104">LOG10 Function</span></span>
 
-<span data-ttu-id="d3fdb-105">Renvoie le logarithme base 10 d’un nombre.</span><span class="sxs-lookup"><span data-stu-id="d3fdb-105">Returns the base 10 logarithm of a number.</span></span> <span data-ttu-id="d3fdb-106">Le nombre doit être positif ou LOG10 renvoie la valeur d’erreur #NUM.</span><span class="sxs-lookup"><span data-stu-id="d3fdb-106">The number must be positive or LOG10 returns the error value #NUM.</span></span>
+<span data-ttu-id="ea632-105">Renvoie le logarithme base 10 d’un nombre.</span><span class="sxs-lookup"><span data-stu-id="ea632-105">Returns the base 10 logarithm of a number.</span></span> <span data-ttu-id="ea632-106">Le nombre doit être positif ou LOG10 renvoie la valeur d’erreur #NUM.</span><span class="sxs-lookup"><span data-stu-id="ea632-106">The number must be positive or LOG10 returns the error value #NUM.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="d3fdb-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d3fdb-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ea632-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ea632-107">Syntax</span></span>
 
-<span data-ttu-id="d3fdb-108">LOG10(\*\* *number* \*\* )</span><span class="sxs-lookup"><span data-stu-id="d3fdb-108">LOG10(\*\* *number* \*\* )</span></span> 
+<span data-ttu-id="ea632-108">LOG10(\*\* *number* \*\* )</span><span class="sxs-lookup"><span data-stu-id="ea632-108">LOG10(\*\* *number* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="d3fdb-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="d3fdb-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="ea632-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="ea632-109">Parameters</span></span>
 
-|<span data-ttu-id="d3fdb-110">**Nom**</span><span class="sxs-lookup"><span data-stu-id="d3fdb-110">**Name**</span></span>|<span data-ttu-id="d3fdb-111">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="d3fdb-111">**Required/Optional**</span></span>|<span data-ttu-id="d3fdb-112">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="d3fdb-112">**Data Type**</span></span>|<span data-ttu-id="d3fdb-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="d3fdb-113">**Description**</span></span>|
+|<span data-ttu-id="ea632-110">**Nom**</span><span class="sxs-lookup"><span data-stu-id="ea632-110">**Name**</span></span>|<span data-ttu-id="ea632-111">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="ea632-111">**Required/Optional**</span></span>|<span data-ttu-id="ea632-112">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="ea632-112">**Data Type**</span></span>|<span data-ttu-id="ea632-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="ea632-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="d3fdb-114">_number_</span><span class="sxs-lookup"><span data-stu-id="d3fdb-114">_number_</span></span> <br/> |<span data-ttu-id="d3fdb-115">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="d3fdb-115">Required</span></span>  <br/> |<span data-ttu-id="d3fdb-116">**Numérique**</span><span class="sxs-lookup"><span data-stu-id="d3fdb-116">**Numeric**</span></span> <br/> | <span data-ttu-id="d3fdb-117">Nombre dont vous souhaitez trouver le logarithme en base 10.</span><span class="sxs-lookup"><span data-stu-id="d3fdb-117">The number whose base 10 logarithm you want to find.</span></span>  <br/> |
+| <span data-ttu-id="ea632-114">_number_</span><span class="sxs-lookup"><span data-stu-id="ea632-114">_number_</span></span> <br/> |<span data-ttu-id="ea632-115">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="ea632-115">Required</span></span>  <br/> |<span data-ttu-id="ea632-116">**Numérique**</span><span class="sxs-lookup"><span data-stu-id="ea632-116">**Numeric**</span></span> <br/> | <span data-ttu-id="ea632-117">Nombre dont vous souhaitez trouver le logarithme en base 10.</span><span class="sxs-lookup"><span data-stu-id="ea632-117">The number whose base 10 logarithm you want to find.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="d3fdb-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="d3fdb-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="ea632-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="ea632-118">Return value</span></span>
 
-<span data-ttu-id="d3fdb-119">Numérique</span><span class="sxs-lookup"><span data-stu-id="d3fdb-119">Numeric</span></span>
+<span data-ttu-id="ea632-119">Numérique</span><span class="sxs-lookup"><span data-stu-id="ea632-119">Numeric</span></span>
   
-## <a name="example"></a><span data-ttu-id="d3fdb-120">Exemple</span><span class="sxs-lookup"><span data-stu-id="d3fdb-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ea632-120">Exemple</span><span class="sxs-lookup"><span data-stu-id="ea632-120">Example</span></span>
 
-<span data-ttu-id="d3fdb-121">LOG10(42)</span><span class="sxs-lookup"><span data-stu-id="d3fdb-121">LOG10(42)</span></span> 
+<span data-ttu-id="ea632-121">LOG10(42)</span><span class="sxs-lookup"><span data-stu-id="ea632-121">LOG10(42)</span></span> 
   
-<span data-ttu-id="d3fdb-122">Renvoie 1,6232.</span><span class="sxs-lookup"><span data-stu-id="d3fdb-122">Returns 1.6232.</span></span> 
+<span data-ttu-id="ea632-122">Renvoie 1,6232.</span><span class="sxs-lookup"><span data-stu-id="ea632-122">Returns 1.6232.</span></span> 
   
 

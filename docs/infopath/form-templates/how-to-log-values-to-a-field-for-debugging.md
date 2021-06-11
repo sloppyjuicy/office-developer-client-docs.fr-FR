@@ -13,24 +13,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431812"
 ---
-# <a name="log-values-to-a-field-for-debugging"></a><span data-ttu-id="d198f-104">Enregistrement des valeurs dans un champ pour réaliser le débogage</span><span class="sxs-lookup"><span data-stu-id="d198f-104">Log values to a field for debugging</span></span>
+# <a name="log-values-to-a-field-for-debugging"></a><span data-ttu-id="d89fc-104">Enregistrement des valeurs dans un champ pour réaliser le débogage</span><span class="sxs-lookup"><span data-stu-id="d89fc-104">Log values to a field for debugging</span></span>
 
-<span data-ttu-id="d198f-p102">Lors du débogage d'un modèle de formulaire InfoPath, il est souvent utile de noter directement les valeurs dans un champ du formulaire pour créer un enregistrement des données de débogage au cours d'une session de test du formulaire. Les procédures qui suivent expliquent comment créer un champ à plusieurs lignes et comment ajouter des fonctions d'assistance au code du formulaire pour permettre l'enregistrement des données de débogage dans ce champ.</span><span class="sxs-lookup"><span data-stu-id="d198f-p102">When debugging an InfoPath form template, it is often useful to log values directly into a field in the form to create a record of debug data during a session of testing the form. The following procedures show how to create a multi-line field, and then add helper functions to the form code that enable you log debug data into that field.</span></span>
+<span data-ttu-id="d89fc-p102">Lors du débogage d'un modèle de formulaire InfoPath, il est souvent utile de noter directement les valeurs dans un champ du formulaire pour créer un enregistrement des données de débogage au cours d'une session de test du formulaire. Les procédures qui suivent expliquent comment créer un champ à plusieurs lignes et comment ajouter des fonctions d'assistance au code du formulaire pour permettre l'enregistrement des données de débogage dans ce champ.</span><span class="sxs-lookup"><span data-stu-id="d89fc-p102">When debugging an InfoPath form template, it is often useful to log values directly into a field in the form to create a record of debug data during a session of testing the form. The following procedures show how to create a multi-line field, and then add helper functions to the form code that enable you log debug data into that field.</span></span>
   
-## <a name="create-a-multi-line-text-field"></a><span data-ttu-id="d198f-107">Créer un champ de texte multi-lignes</span><span class="sxs-lookup"><span data-stu-id="d198f-107">Create a multi-line text field</span></span>
+## <a name="create-a-multi-line-text-field"></a><span data-ttu-id="d89fc-107">Créer un champ de texte multi-lignes</span><span class="sxs-lookup"><span data-stu-id="d89fc-107">Create a multi-line text field</span></span>
 
-1. <span data-ttu-id="d198f-108">Ajouter un contrôle **Zone de texte** au formulaire, puis redimensionnez-le pour qu'il puisse contenir plusieurs lignes.</span><span class="sxs-lookup"><span data-stu-id="d198f-108">Add a **Text Box** control to the form, and then resize it so that it can display multiple lines.</span></span> 
+1. <span data-ttu-id="d89fc-108">Ajouter un contrôle **Zone de texte** au formulaire, puis redimensionnez-le pour qu'il puisse contenir plusieurs lignes.</span><span class="sxs-lookup"><span data-stu-id="d89fc-108">Add a **Text Box** control to the form, and then resize it so that it can display multiple lines.</span></span> 
     
-2. <span data-ttu-id="d198f-109">Cliquez avec le bouton droit dans la zone de texte, cliquez sur **Propriétés de la zone de texte**, puis activez la case à cocher **Multiligne** dans l'onglet **Affichage**.</span><span class="sxs-lookup"><span data-stu-id="d198f-109">Right-click the text box, click **Text Box Properties**, and then click the **Multi-line** check box on the **Display** tab.</span></span> 
+2. <span data-ttu-id="d89fc-109">Cliquez avec le bouton droit dans la zone de texte, cliquez sur **Propriétés de la zone de texte**, puis activez la case à cocher **Multiligne** dans l'onglet **Affichage**.</span><span class="sxs-lookup"><span data-stu-id="d89fc-109">Right-click the text box, click **Text Box Properties**, and then click the **Multi-line** check box on the **Display** tab.</span></span> 
     
-## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a><span data-ttu-id="d198f-110">Ajouter des fonctions d’aide pour enregistrer les informations de débogage dans le champ</span><span class="sxs-lookup"><span data-stu-id="d198f-110">Add helper functions to log debug information to the field</span></span>
+## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a><span data-ttu-id="d89fc-110">Ajouter des fonctions d’aide pour enregistrer les informations de débogage dans le champ</span><span class="sxs-lookup"><span data-stu-id="d89fc-110">Add helper functions to log debug information to the field</span></span>
 
-1. <span data-ttu-id="d198f-111">Dans l'onglet **Développeur**, cliquez sur **Éditeur de code**, puis enregistrez le modèle de formulaire si vous y êtes invité.</span><span class="sxs-lookup"><span data-stu-id="d198f-111">On the **Developer** tab, click **Code Editor**, and then save the form template if you are prompted.</span></span>
+1. <span data-ttu-id="d89fc-111">Dans l'onglet **Développeur**, cliquez sur **Éditeur de code**, puis enregistrez le modèle de formulaire si vous y êtes invité.</span><span class="sxs-lookup"><span data-stu-id="d89fc-111">On the **Developer** tab, click **Code Editor**, and then save the form template if you are prompted.</span></span>
     
-2. <span data-ttu-id="d198f-112">Dans l'éditeur de code, ajoutez les trois fonctions d'assistance à la classe publique dans le fichier de code du formulaire.</span><span class="sxs-lookup"><span data-stu-id="d198f-112">In the Code Editor, add the following three helper functions to the public class in the form code file.</span></span>
+2. <span data-ttu-id="d89fc-112">Dans l'éditeur de code, ajoutez les trois fonctions d'assistance à la classe publique dans le fichier de code du formulaire.</span><span class="sxs-lookup"><span data-stu-id="d89fc-112">In the Code Editor, add the following three helper functions to the public class in the form code file.</span></span>
     
    > [!IMPORTANT]
-   > <span data-ttu-id="d198f-113">[!IMPORTANTE] Assurez-vous de mettre à jour la valeur de la variable  `debugFieldXpath` dans la fonction  `AddToDebugField` pour qu'elle contienne la bonne expression XPath pour le champ lié au contrôle créé dans la première procédure.</span><span class="sxs-lookup"><span data-stu-id="d198f-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
+   > <span data-ttu-id="d89fc-113">[!IMPORTANTE] Assurez-vous de mettre à jour la valeur de la variable  `debugFieldXpath` dans la fonction  `AddToDebugField` pour qu'elle contienne la bonne expression XPath pour le champ lié au contrôle créé dans la première procédure.</span><span class="sxs-lookup"><span data-stu-id="d89fc-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
   
     ```cs
         private void AddToDebugField(string valueToAdd)
@@ -76,11 +76,11 @@ ms.locfileid: "33431812"
     ```
 
 > [!NOTE] 
-> <span data-ttu-id="d198f-114">Lorsque vous utilisez Visual Basic, ajoutez-les aux directives en haut du fichier de  `Imports Microsoft.VisualBasic.Constants` code du formulaire.</span><span class="sxs-lookup"><span data-stu-id="d198f-114">When using Visual Basic, add  `Imports Microsoft.VisualBasic.Constants` to the directives at the top of the form code file.</span></span> 
+> <span data-ttu-id="d89fc-114">Lorsque vous utilisez Visual Basic, ajoutez-les aux directives en haut du fichier de `Imports Microsoft.VisualBasic.Constants` code du formulaire.</span><span class="sxs-lookup"><span data-stu-id="d89fc-114">When using Visual Basic, add  `Imports Microsoft.VisualBasic.Constants` to the directives at the top of the form code file.</span></span> 
   
-## <a name="test-the-addtodebugfield-function"></a><span data-ttu-id="d198f-115">Tester la fonction AddToDebugField</span><span class="sxs-lookup"><span data-stu-id="d198f-115">Test the AddToDebugField function</span></span>
+## <a name="test-the-addtodebugfield-function"></a><span data-ttu-id="d89fc-115">Tester la fonction AddToDebugField</span><span class="sxs-lookup"><span data-stu-id="d89fc-115">Test the AddToDebugField function</span></span>
 
-1. <span data-ttu-id="d198f-116">Dans l'onglet **Développeur**, cliquez sur **Événement Chargement en cours (Loading)**, puis ajoutez la ligne de code suivante au gestionnaire d'événement.</span><span class="sxs-lookup"><span data-stu-id="d198f-116">On the **Developer** tab, click **Loading Event**, and then add the following line of code to the event handler.</span></span>
+1. <span data-ttu-id="d89fc-116">Dans l'onglet **Développeur**, cliquez sur **Événement Chargement en cours (Loading)**, puis ajoutez la ligne de code suivante au gestionnaire d'événement.</span><span class="sxs-lookup"><span data-stu-id="d89fc-116">On the **Developer** tab, click **Loading Event**, and then add the following line of code to the event handler.</span></span>
     
    ```cs
     AddToDebugField("Form loaded");
@@ -90,7 +90,7 @@ ms.locfileid: "33431812"
     AddToDebugField("Form loaded")
    ```
 
-2. <span data-ttu-id="d198f-117">Dans l'onglet **Développeur**, cliquez sur **Événement Vue modifiée (ViewSwitched)**, puis ajoutez la ligne de code suivante au gestionnaire d'événement.</span><span class="sxs-lookup"><span data-stu-id="d198f-117">On the **Developer** tab, click **View Switched Event**, and then add the following line of code to the event handler.</span></span>
+2. <span data-ttu-id="d89fc-117">Dans l'onglet **Développeur**, cliquez sur **Événement Vue modifiée (ViewSwitched)**, puis ajoutez la ligne de code suivante au gestionnaire d'événement.</span><span class="sxs-lookup"><span data-stu-id="d89fc-117">On the **Developer** tab, click **View Switched Event**, and then add the following line of code to the event handler.</span></span>
     
    ```cs
     AddToDebugField("View switched: " + this.CurrentView.ViewInfo.Name);
@@ -100,8 +100,8 @@ ms.locfileid: "33431812"
     AddToDebugField("View switched: " &amp; Me.CurrentView.ViewInfo.Name)
    ```
 
-3. <span data-ttu-id="d198f-118">Dans l'onglet **Accueil**, cliquez sur **Aperçu**.</span><span class="sxs-lookup"><span data-stu-id="d198f-118">On the **Home** tab, click **Preview**.</span></span>
+3. <span data-ttu-id="d89fc-118">Dans l'onglet **Accueil**, cliquez sur **Aperçu**.</span><span class="sxs-lookup"><span data-stu-id="d89fc-118">On the **Home** tab, click **Preview**.</span></span>
     
-   <span data-ttu-id="d198f-p103">Le champ de débogage doit afficher deux entrées : une indiquant que le formulaire est chargé et l'autre indiquant le nom de la vue. Ces exemples utilisent des gestionnaires d'événements pour les événements qui se produisent à l'ouverture du formulaire. Cependant, une fois le formulaire chargé, vous pouvez appeler la fonction  `AddToDebugField` à partir d'autres gestionnaires d'événements en plus du code qui s'exécute dans le contexte du formulaire.</span><span class="sxs-lookup"><span data-stu-id="d198f-p103">The debug field should display two entries: one indicating that the form is loaded, and another indicating the name of the view. These examples use event handlers for events that occur as the form is opened. However, after the form is loaded, you can call the  `AddToDebugField` function from other event handlers in addition to any other code running in the context of the form.</span></span> 
+   <span data-ttu-id="d89fc-p103">Le champ de débogage doit afficher deux entrées : une indiquant que le formulaire est chargé et l'autre indiquant le nom de la vue. Ces exemples utilisent des gestionnaires d'événements pour les événements qui se produisent à l'ouverture du formulaire. Cependant, une fois le formulaire chargé, vous pouvez appeler la fonction  `AddToDebugField` à partir d'autres gestionnaires d'événements en plus du code qui s'exécute dans le contexte du formulaire.</span><span class="sxs-lookup"><span data-stu-id="d89fc-p103">The debug field should display two entries: one indicating that the form is loaded, and another indicating the name of the view. These examples use event handlers for events that occur as the form is opened. However, after the form is loaded, you can call the  `AddToDebugField` function from other event handlers in addition to any other code running in the context of the form.</span></span> 
   
 

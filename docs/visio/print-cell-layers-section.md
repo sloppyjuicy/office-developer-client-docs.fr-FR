@@ -16,31 +16,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435214"
 ---
-# <a name="print-cell-layers-section"></a><span data-ttu-id="dbff3-103">Print, cellule (section Layers)</span><span class="sxs-lookup"><span data-stu-id="dbff3-103">Print Cell (Layers Section)</span></span>
+# <a name="print-cell-layers-section"></a><span data-ttu-id="df122-103">Print, cellule (section Layers)</span><span class="sxs-lookup"><span data-stu-id="df122-103">Print Cell (Layers Section)</span></span>
 
-<span data-ttu-id="dbff3-104">Indique si les formes appartenant au calque peuvent être imprimées.</span><span class="sxs-lookup"><span data-stu-id="dbff3-104">Specifies whether shapes belonging to the layer can be printed.</span></span>
+<span data-ttu-id="df122-104">Indique si les formes appartenant au calque peuvent être imprimées.</span><span class="sxs-lookup"><span data-stu-id="df122-104">Specifies whether shapes belonging to the layer can be printed.</span></span>
   
-|<span data-ttu-id="dbff3-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="dbff3-105">**Value**</span></span>|<span data-ttu-id="dbff3-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="dbff3-106">**Description**</span></span>|
+|<span data-ttu-id="df122-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="df122-105">**Value**</span></span>|<span data-ttu-id="df122-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="df122-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="dbff3-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="dbff3-107">TRUE</span></span>  <br/> |<span data-ttu-id="dbff3-108">Les formes peuvent être imprimées.</span><span class="sxs-lookup"><span data-stu-id="dbff3-108">Shapes can be printed.</span></span>  <br/> |
-|<span data-ttu-id="dbff3-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="dbff3-109">FALSE</span></span>  <br/> |<span data-ttu-id="dbff3-110">Les formes ne peuvent pas être imprimées.</span><span class="sxs-lookup"><span data-stu-id="dbff3-110">Shapes cannot be printed.</span></span>  <br/> |
+|<span data-ttu-id="df122-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="df122-107">TRUE</span></span>  <br/> |<span data-ttu-id="df122-108">Les formes peuvent être imprimées.</span><span class="sxs-lookup"><span data-stu-id="df122-108">Shapes can be printed.</span></span>  <br/> |
+|<span data-ttu-id="df122-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="df122-109">FALSE</span></span>  <br/> |<span data-ttu-id="df122-110">Les formes ne peuvent pas être imprimées.</span><span class="sxs-lookup"><span data-stu-id="df122-110">Shapes cannot be printed.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="dbff3-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="dbff3-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="df122-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="df122-111">Remarks</span></span>
 
-<span data-ttu-id="dbff3-112">Vous pouvez également définir cette valeur à l’aide de l’option **Imprimer** de la boîte de dialogue **Propriétés des calques** (sous l’onglet **Accueil**, dans le groupe **Modification**, cliquez sur **Calques**, puis sur **Propriétés des calques**).</span><span class="sxs-lookup"><span data-stu-id="dbff3-112">You can also set this value by using the **Print** option in the **Layer Properties** dialog box (on the **Home** tab, in the **Editing** group, click **Layers**, and then click **Layer Properties**).</span></span>
+<span data-ttu-id="df122-112">Vous pouvez également définir cette valeur à l’aide de l’option **Imprimer** de la boîte de dialogue **Propriétés des calques** (sous l’onglet **Accueil**, dans le groupe **Modification**, cliquez sur **Calques**, puis sur **Propriétés des calques**).</span><span class="sxs-lookup"><span data-stu-id="df122-112">You can also set this value by using the **Print** option in the **Layer Properties** dialog box (on the **Home** tab, in the **Editing** group, click **Layers**, and then click **Layer Properties**).</span></span>
   
-<span data-ttu-id="dbff3-113">Pour obtenir une référence à la cellule Print par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="dbff3-113">To get a reference to the Print cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="df122-113">Pour obtenir une référence à la cellule Print par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="df122-113">To get a reference to the Print cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="dbff3-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="dbff3-114">Cell name:</span></span>  <br/> |<span data-ttu-id="dbff3-115">Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="dbff3-115">Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="df122-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="df122-114">Cell name:</span></span>  <br/> |<span data-ttu-id="df122-115">Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="df122-115">Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="dbff3-116">Pour obtenir une référence à la cellule Print à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="dbff3-116">To get a reference to the Print cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="df122-116">Pour obtenir une référence à la cellule Print à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="df122-116">To get a reference to the Print cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="dbff3-117">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="dbff3-117">Section index:</span></span>  <br/> |<span data-ttu-id="dbff3-118">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="dbff3-118">**visSectionLayer**</span></span> <br/> |
-|<span data-ttu-id="dbff3-119">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="dbff3-119">Row index:</span></span>  <br/> |<span data-ttu-id="dbff3-120">**visRowLayer**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="dbff3-120">**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="dbff3-121">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="dbff3-121">Cell index:</span></span>  <br/> |<span data-ttu-id="dbff3-122">**visDocPreviewScope**</span><span class="sxs-lookup"><span data-stu-id="dbff3-122">**visDocPreviewScope**</span></span> <br/> |
+|<span data-ttu-id="df122-117">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="df122-117">Section index:</span></span>  <br/> |<span data-ttu-id="df122-118">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="df122-118">**visSectionLayer**</span></span> <br/> |
+|<span data-ttu-id="df122-119">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="df122-119">Row index:</span></span>  <br/> |<span data-ttu-id="df122-120">**visRowLayer**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="df122-120">**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="df122-121">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="df122-121">Cell index:</span></span>  <br/> |<span data-ttu-id="df122-122">**visDocPreviewScope**</span><span class="sxs-lookup"><span data-stu-id="df122-122">**visDocPreviewScope**</span></span> <br/> |
    
 
