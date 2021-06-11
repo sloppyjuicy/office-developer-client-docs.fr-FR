@@ -30,7 +30,7 @@ HRESULT IOlkAccountManager::Init (
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pAcctHelper_
   
@@ -46,7 +46,7 @@ _dwFlags_
    
    - **ACCT_INIT_NO_NOTIFICATIONS** : empêche le gestionnaire de comptes d’intercepter les messages de diffusion destinés à d’autres applications. 
    
-   - **OLK_ACCOUNT_NO_FLAGS** — Synchronise les services MAPI avec les comptes. 
+   - **OLK_ACCOUNT_NO_FLAGS** : synchronise les services MAPI avec les comptes. 
     
 ## <a name="return-values"></a>Valeurs de retour
 
@@ -58,7 +58,7 @@ _dwFlags_
    
 ## <a name="remarks"></a>Remarques
 
-Le client doit appeler **IOlkAccountManager::Init** pour initialiser le gestionnaire de comptes avant d’utiliser le gestionnaire de comptes pour accéder aux comptes ou configurer des notifications. Étant donné qu’Outlook synchronise automatiquement les services MAPI avec les comptes au démarrage, utilisez **ACCT_INIT_NOSYNCH_MAPI_ACCTS** sauf s’il existe une cause spécifique à synchroniser. 
+Le client doit appeler **IOlkAccountManager::Init** pour initialiser le gestionnaire de comptes avant d’utiliser le gestionnaire de comptes pour accéder aux comptes ou configurer des notifications. Comme Outlook synchronise automatiquement les services MAPI avec les comptes au démarrage, utilisez **ACCT_INIT_NOSYNCH_MAPI_ACCTS** à moins qu’il n’existe une cause spécifique à synchroniser. 
   
 ## <a name="see-also"></a>Voir aussi
 

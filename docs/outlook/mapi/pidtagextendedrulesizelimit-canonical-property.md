@@ -32,13 +32,13 @@ Contient la taille maximale, en octets, que l’utilisateur est autorisé à cum
 |Propriétés associées :  <br/> |PR_EXTENDED_RULE_SIZE_LIMIT  <br/> |
 |Identificateur :  <br/> |0x0E9B  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Rules  <br/> |
+|Domaine :  <br/> |Règles  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Si cette propriété est définie sur l’objet d’affichage, le client doit conserver la taille de la propriété **PR_EXTENDED_RULE_MSG_CONDITION** ([PidTagExtendedRuleMessageCondition](pidtagextendedrulemessagecondition-canonical-property.md)) sous la valeur spécifiée par cette propriété. À l’inverse, le serveur doit renvoyer une erreur si le client tente de définir une propriété binaire trop grande.
   
-Pour plus d’informations sur les règles étendues, [voir [MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
+Pour plus d’informations sur les règles [étendues, voir [MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur les règles étendues, [voir [MS-OXORULE]](https:
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   

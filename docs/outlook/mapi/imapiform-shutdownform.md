@@ -33,7 +33,7 @@ HRESULT ShutdownForm(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulSaveOptions_
   
@@ -63,11 +63,11 @@ E_UNEXPECTED
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaire appellent la méthode **IMAPIForm::ShutdownForm** pour fermer un formulaire. 
+Les visionneuses de formulaire **appellent la méthode IMAPIForm::ShutdownForm** pour fermer un formulaire. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Effectuez les tâches suivantes dans votre implémentation **de ShutdownForm**:
+Effectuez les tâches suivantes dans votre implémentation de **ShutdownForm**:
   
 1. Vérifiez qu’une visionneuse n’a pas encore appelé **ShutdownForm** et E_UNEXPECTED si c’est le cas. Bien que cela soit peu probable, vous devez vérifier.
     
@@ -85,7 +85,7 @@ Effectuez les tâches suivantes dans votre implémentation **de ShutdownForm**:
     
 8. Appelez la [fonction MAPIFreeBuffer](mapifreebuffer.md) pour libérer de la mémoire pour les propriétés de votre formulaire. 
     
-9. Appelez la méthode **IUnknown::Release** de votre formulaire, correspondant à l’appel **AddRef** effectué à l’étape 2. 
+9. Appelez la méthode **IUnknown::Release** de votre formulaire, en correspondant à l’appel **AddRef** effectué à l’étape 2. 
     
 10. Elles retournent S_OK.
     

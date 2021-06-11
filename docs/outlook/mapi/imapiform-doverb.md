@@ -25,7 +25,7 @@ ms.locfileid: "32329455"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Demande au formulaire d’effectuer toutes les tâches qu’il associe à un verbe spécifique.
+Demande au formulaire d’effectuer les tâches qu’il associe à un verbe spécifique.
   
 ```cpp
 HRESULT DoVerb(
@@ -36,7 +36,7 @@ HRESULT DoVerb(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _iVerb_
   
@@ -68,7 +68,7 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
 
 Les visionneuses de formulaire appellent la méthode **IMAPIForm::D oVerb** pour demander au formulaire d’effectuer les tâches qu’il associe à chaque verbe qu’il prend en charge. 
   
-Chacun des verbes pris en charge est identifié par une valeur numérique, transmise à **DoVerb** dans le _paramètre iVerb._ Les implémentations classiques **de DoVerb** contiennent une instruction **switch** qui teste les valeurs valides pour le  _paramètre iVerb_ du formulaire. 
+Chacun des verbes pris en charge est identifié par une valeur numérique, transmise à **DoVerb** dans le _paramètre iVerb._ Les implémentations classiques **de DoVerb** contiennent une instruction **switch** qui teste les valeurs valides pour le paramètre  _iVerb_ du formulaire. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
@@ -78,13 +78,13 @@ Effectuez les tâches suivantes dans votre **implémentation DoVerb** :
   
 - Exécutez le code nécessaire pour le verbe particulier associé au _paramètre iVerb._ 
     
-- Si nécessaire, restituer le contexte d’affichage d’origine.
+- Si nécessaire, restituer le contexte de l’affichage d’origine.
     
-- Si un nombre de verbes inconnu a été transmis, renvoyez MAPI_E_NO_SUPPORT. Sinon, renvoyer un résultat en fonction de la réussite ou de l’échec du verbe exécuté.
+- Si un nombre de verbes inconnu a été transmis, renvoyez-MAPI_E_NO_SUPPORT. Sinon, renvoyer un résultat en fonction de la réussite ou de l’échec du verbe exécuté.
     
 - Fermez le formulaire. Il est toujours de votre responsabilité de fermer le formulaire une fois qu’un appel **DoVerb** est terminé. 
     
-Certains verbes, tels que Print, doivent être modaux par rapport à l’appel **DoVerb,** c’est-à-dire que l’opération indiquée doit être terminée avant le retour de l’appel **DoVerb.** 
+Certains verbes, tels que Print, doivent être modaux par rapport à l’appel **DoVerb,** c’est-à-dire que l’opération indiquée doit être terminée avant le retour de **l’appel DoVerb.** 
   
 Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la [fonction GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
   

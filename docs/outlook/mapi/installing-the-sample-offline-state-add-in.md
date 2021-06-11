@@ -19,18 +19,18 @@ ms.locfileid: "32317212"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique vous fait suivre les étapes de téléchargement et d’installation de l’exemple de add-in d’état hors connexion. L’exemple de compl?ment d’état hors ligne est un compl?ment COM qui ajoute un **menu** d’état hors connexion dans Outlook et utilise l’API d’état hors connexion. Le menu État hors connexion vous permet d’activer ou de désactiver la surveillance de l’état, de vérifier l’état actuel et de modifier l’état actuel. Pour plus d’informations sur la façon dont le add-in d’état hors connexion est implémenté, voir [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md).
+Cette rubrique vous fait suivre les étapes de téléchargement et d’installation de l’exemple de add-in d’état hors connexion. L’exemple de compl?ment d’état hors ligne est un compl?ment COM qui ajoute un **menu** d’état hors connexion Outlook et utilise l’API d’état hors connexion. Le menu État hors connexion vous permet d’activer ou de désactiver la surveillance de l’état, de vérifier l’état actuel et de modifier l’état actuel. Pour plus d’informations sur la façon dont le add-in d’état hors connexion est implémenté, voir [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md).
   
 ## <a name="install-the-sample-offline-state-add-in"></a>Installer l’exemple de add-in d’état hors connexion
 
-1. Téléchargez l’exemple de add-in d’état hors connexion ici : exemples de code de référence auxiliaire [Outlook 2007 et programme d’installation redistribuable.](https://www.microsoft.com/en-us/download/details.aspx?id=24102)
+1. Téléchargez l’exemple de add-in d’état hors connexion ici [: Outlook 2007 Auxiliary Reference Code Samples and Redistributable Installer](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Exécutez Visual Studio 2005 en tant qu’administrateur.
     
     > [!NOTE]
-    > Si votre ordinateur exécute Windows XP, vous devez être connecté en tant qu’administrateur. Si votre ordinateur exécute Windows Vista, vous devez être connecté en tant qu’administrateur. Cliquez avec le bouton droit sur Visual Studio icône 2005, puis cliquez **sur Exécuter en tant qu’administrateur.** 
+    > Si votre ordinateur exécute Windows XP, vous devez être connecté en tant qu’administrateur. Si votre ordinateur exécute Windows Vista, vous devez être connecté en tant qu’administrateur. Cliquez avec le bouton droit sur Visual Studio icône 2005 et cliquez **sur Exécuter en tant qu’administrateur.** 
   
-3. Dans Visual Studio 2005, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Projet/Solution.**
+3. Dans Visual Studio 2005, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Project/Solution.**
     
 4. Accédez à l’emplacement où vous avez enregistré l’exemple, cliquez **sur ConnectionStateAddin,** puis cliquez sur **Ouvrir**.
     
@@ -54,7 +54,7 @@ Cette rubrique vous fait suivre les étapes de téléchargement et d’installat
   
 11. Dans la **boîte de dialogue RegSrv32,** cliquez sur **OK.**
     
-12. Redémarrez Outlook pour voir le menu **État hors** connexion. 
+12. Redémarrez Outlook pour voir le menu **État** hors connexion. 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -36,11 +36,11 @@ Contient l’URL de la page d’accueil d’un dossier dans Microsoft Outlook. C
    
 ## <a name="remarks"></a>Remarques
 
-Une URL de page d’accueil peut être spécifiée pour n’importe quel dossier Outlook. Ces informations sont accessibles dans Outlook à partir de l’onglet **Page** d’accueil de la boîte de dialogue Propriétés d’un dossier. 
+Une URL de page d’accueil peut être spécifiée pour tout Outlook dossier. Ces informations sont accessibles dans Outlook l’onglet **Page** d’accueil de la boîte de dialogue Propriétés d’un dossier. 
   
 Selon certains paramètres de stratégie, la page d’accueil peut être ignorée par Outlook si le magasin MAPI qui contient ce dossier ne signale pas MSCAP_SECURE_FOLDER_HOMEPAGES dans son implémentation [IMSCapabilities::GetCapabilities.](pidtagfolderwebviewinfo-cannonical-property.md) 
   
-Le dossier **Outlook Today** et un dossier public peuvent avoir des URL de page d’accueil. Toutefois, **le dossier Outlook Today** utilise un mécanisme différent pour gérer l’URL de sa page d’accueil . ce mécanisme n’est pas abordé dans cette rubrique. Une URL de page d’accueil spécifique à un utilisateur peut également être définie dans un dossier public. Toutefois, cette fonctionnalité n’est pas décrite dans cette rubrique. 
+Le dossier **Outlook Aujourd’hui** et un dossier public peuvent avoir des URL de page d’accueil. Toutefois, **le Outlook Today** utilise un mécanisme différent pour gérer l’URL de sa page d’accueil . ce mécanisme n’est pas abordé dans cette rubrique. Une URL de page d’accueil spécifique à un utilisateur peut également être définie dans un dossier public. Toutefois, cette fonctionnalité n’est pas décrite dans cette rubrique. 
   
 La valeur de cette propriété est un flux binaire appelé **WebViewPersistenceObject**.
   
@@ -51,7 +51,7 @@ La structure **de flux WebViewPersistenceObject** contient des informations sur 
 Les éléments de données de cette structure sont stockés dans l’ordre des petits bouts, immédiatement après les autres dans l’ordre spécifié suivant. 
   
 > [!NOTE]
-> La description suivante peut ne pas lister toutes les valeurs de champ pris en charge par Outlook ; par conséquent, lorsque votre code lit un flux existant, certains indicateurs qui ne sont pas répertoriés ici peuvent également être trouvés. Toutefois, vous pouvez utiliser cette description pour créer par programme des valeurs pour la **propriété PidTagFolderWebViewInfo** qu’Outlook comprendra. 
+> La description suivante peut ne pas lister toutes les valeurs de champ pris en charge par Outlook ; par conséquent, lorsque votre code lit un flux existant, certains indicateurs qui ne sont pas répertoriés ici peuvent également être trouvés. Toutefois, vous pouvez utiliser cette description pour créer par programme des valeurs pour la propriété **PidTagFolderWebViewInfo** que vous Outlook comprendre. 
   
  _dwVersion_
   

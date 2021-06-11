@@ -46,7 +46,7 @@ Sauf si ce FolderUserFieldsA est annulé par la partie FolderUserFieldsW de la s
   
 ## <a name="folderuserfieldsw-stream-structure"></a>Structure de flux FolderUserFieldsW
 
-Une structure de flux FolderUserFieldsW est un tableau de structures de flux FolderFieldDefinitionW qui contiennent des définitions pour tous les champs définis par l’utilisateur dans un dossier Outlook.
+Une structure de flux FolderUserFieldsW est un tableau de structures de flux FolderFieldDefinitionW qui contiennent des définitions pour tous les champs définis par l’utilisateur dans Outlook dossier.
   
 Les éléments de données de ce flux sont stockés dans l’ordre des petits bouts, immédiatement après les autres dans l’ordre spécifié suivant :
   
@@ -54,7 +54,7 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
     
 - **FieldDefinitions**: tableau de structures de flux FolderFieldDefinitionW. Le nombre de ce tableau est égal à **l’élément de données FieldDefinitionCount.**
     
-Le **tableau FieldDefinitions** doit être « terminé par null » en ayant son dernier champ Common.FieldType d’élément FolderFieldDefinitionW égal à ftNull.
+Le **tableau FieldDefinitions doit** être « terminé par null » en ayant son dernier champ Common.FieldType de l’élément FolderFieldDefinitionW égal à ftNull.
   
 ## <a name="folderfielddefinitiona-stream-structure"></a>FolderFieldDefinitionA Stream Structure
 
@@ -83,7 +83,7 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
     
 - **FieldNameLength**: WORD (2 octets), nombre d’éléments dans le tableau **FieldName.**
     
-- **FieldName :** tableau de WCHAR. Il s’agit de la représentation Unicode (UTF-16) du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom du champ doit satisfaire les restrictions sur le paramètre Name, comme spécifié dans la [méthode UserProperties.Add.](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) 
+- **FieldName**: tableau de WCHAR. Il s’agit de la représentation Unicode (UTF-16) du nom du champ. Le nombre de ce tableau est égal à **FieldNameLength**. Le nom du champ doit satisfaire les restrictions sur le paramètre Name, comme spécifié dans la [méthode UserProperties.Add.](https://msdn.microsoft.com/library/microsoft.office.interop.outlook.userproperties.add.aspx) 
     
    > [!NOTE]
    > Pour des raisons de compatibilité héritée, Outlook peut être en mesure de gérer certaines valeurs **FieldName** ne satisfaisant pas ces restrictions, mais ces cas ne sont pas couverts par cette rubrique. 
@@ -101,12 +101,12 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
 |ftInteger  <br/> |0x3  <br/> |Entier  <br/> |
 |ftTime  <br/> |0x5  <br/> |Date/Heure  <br/> |
 |ftBoolean  <br/> |0x6  <br/> |Oui/Non  <br/> |
-|ftDuration  <br/> |0x7  <br/> |Duration  <br/> |
+|ftDuration  <br/> |0x7  <br/> |Durée  <br/> |
 |ftMultiString  <br/> |0xB  <br/> |Mots clés  <br/> |
 |ftFloat  <br/> |0xC  <br/> |Nombre ou pourcentage  <br/> |
-|ftCurrency  <br/> |0xE  <br/> |Devise  <br/> |
+|ftCurrency  <br/> |0xE  <br/> |Monétaire  <br/> |
 |ftCalc  <br/> |0x12  <br/> |Formule  <br/> |
-|ftSwitch  <br/> |0x13  <br/> |Combinaison de type affichant uniquement le premier champ non vide , en ignorant les champs suivants.  <br/> |
+|ftSwitch  <br/> |0x13  <br/> |Combinaison de type affichant uniquement le premier champ non vide , en ignorant les suivants.  <br/> |
 |ftConcat  <br/> |0x17  <br/> |Combinaison de champs de jointage de type et de fragments de texte les uns aux autres.  <br/> |
    
 ## <a name="folderfielddefinitioncommon-stream-structure"></a>Structure de flux FolderFieldDefinitionCommon
@@ -148,12 +148,12 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
 > [!NOTE]
 > Bien que les valeurs **de dwString,** **dwBitmap** et **dwDisplay** soient déterminées de manière unique en fonction de la valeur **FldType** et de la valeur **iFmt,** qui sont redondantes, leurs valeurs correctes sont toujours nécessaires pour un traitement correct de la définition de champ par Outlook. Il n’existe aucune description simple de l’algorithme qui effectue cette détermination. 
 > 
-> Par conséquent, pour savoir quelles valeurs **dwString,** **dwBitmap** et **dwDisplay** correspondent à une valeur **FldType** et à une valeur **iFmt** données, effectuez un test en créant un champ défini par l’utilisateur de ce type et en sélectionnant ce format dans la zone de liste déroulante **Format,** en supposant son applicabilité, examinez le flux **FolderUserFields** créé par Outlook pour ce champ défini par l’utilisateur. 
+> Par conséquent, pour savoir quelles valeurs **dwString,** **dwBitmap** et **dwDisplay** correspondent à une valeur **FldType** et à une valeur **iFmt** données, effectuez un test en créant un champ défini par l’utilisateur de ce type et en sélectionnant ce format dans la zone de liste déroulante **Format,** en supposant son applicabilité, examinez le flux **FolderUserFields** qui en résulte créé par Outlook pour ce champ défini par l’utilisateur. 
   
 La formule du champ dans son format d’interface utilisateur est modifiée dans la  zone de texte Formule des boîtes de dialogue Nouveau **champ,** Modifier le champ et Propriétés du champ pour le champ défini par l’utilisateur.  L’algorithme permettant de convertir une formule du format d’interface utilisateur au format standard dépend du type de champ décrit ci-après : 
 - Pour les champs de types **ftCalc** et **ftSwitch**, le format standard des champs intégrés, dont les propriétés MAPI correspondantes ne sont pas des propriétés nommées du type MNID STRING, est obtenu en remplaçant les fragments de nom de champ, c’est-à-dire par des \_ `[<field_name>]` `[_<field_dispid_decimal>]` fragments. 
 
-  Par exemple, si le format d’interface utilisateur d’une formule pour un champ du type **Formula**, c’est-à-dire **ftCalc**, avec la langue de l’interface utilisateur Office étant anglais (États-Unis), est , où est le nom d’un champ défini par l’utilisateur, le format standard d’une telle formule serait `[Business Phone] & [My custom field]` `My custom field` `[_14856] & [My custom field]` .
+  Par exemple, si le format d’interface utilisateur d’une formule pour un champ de type **Formula**, c’est-à-dire **ftCalc**, avec la langue de l’interface utilisateur Office étant anglais (États-Unis), est , où est le nom d’un champ défini par l’utilisateur, le format standard d’une telle formule serait `[Business Phone] & [My custom field]` `My custom field` `[_14856] & [My custom field]` .
 
 - Pour les champs de type **ftConcat,** le format standard est obtenu en suivant les procédures ci-après :
 

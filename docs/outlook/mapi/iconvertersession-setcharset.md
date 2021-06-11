@@ -34,7 +34,7 @@ HRESULT SetCharset(
      CSETAPPLYTYPE csetapplytype); 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _fApply_
   
@@ -42,7 +42,7 @@ HRESULT SetCharset(
     
  _hcharset_
   
-> [in] Handle vers un jeu de caractères défini dans mimeole.h de Windows Mail. Spécifiez **null** pour spécifier que vous ne souhaitez pas appliquer de jeu de caractères spécifique. Pour les valeurs **non null,** utilisez une fonction telle que [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) pour obtenir un handle pour le jeu de caractères. 
+> [in] Handle vers un jeu de caractères défini dans mimeole.h de Windows Mail. Spécifiez **null** pour spécifier que vous ne souhaitez pas appliquer de jeu de caractères spécifique. Pour les valeurs **non null,** utilisez une fonction telle que [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) pour obtenir un handle vers le jeu de caractères. 
     
  _csetapplytype_
   

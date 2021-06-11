@@ -41,7 +41,7 @@ SCODE OpenIMsgSession(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMalloc_
   
@@ -71,7 +71,7 @@ MAPI_E_INVALID_FLAGS
     
 MAPI_UNICODE
   
-> Lorsque vous appelez cette fonction, un client ou un fournisseur de services définit l MAPI_UNICODE pour créer des fichiers .msg Unicode. Le fichier [Imessage](imessageimapiprop.md) qui en résulte affiche STORE_UNICODE_OK sa PR_STORE_SUPPORT_MASK et prend en charge les propriétés Unicode. 
+> Lorsque vous appelez cette fonction, un client ou un fournisseur de services définit l’MAPI_UNICODE pour créer des fichiers .msg Unicode. Le fichier [Imessage](imessageimapiprop.md) qui en résulte affiche les STORE_UNICODE_OK sa PR_STORE_SUPPORT_MASK et prend en charge les propriétés Unicode. 
     
 ## <a name="remarks"></a>Remarques
 

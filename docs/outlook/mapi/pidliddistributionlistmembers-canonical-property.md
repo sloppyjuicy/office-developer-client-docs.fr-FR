@@ -41,9 +41,9 @@ Les membres de la liste de distribution personnelle peuvent être d’autres lis
   
 Lors de la définition de cette propriété, le client ou le serveur doit s’assurer que sa taille totale est inférieure à 15 000 octets.
   
-Cette propriété spécifie la liste des EntryIds qui correspondent aux membres de la liste de distribution personnelle. Ces EntryIds encapsulent les noms d’affichage et les adresses e-mail des membres de la liste de distribution personnelle.
+Cette propriété spécifie la liste des EntryIds one-off qui correspondent aux membres de la liste de distribution personnelle. Ces EntryIds encapsulent les noms d’affichage et les adresses e-mail des membres de la liste de distribution personnelle.
   
-Si le client ou le serveur a définie cette propriété, elle doit être synchronisée avec cette propriété **dispidDLMembers** pour chaque entrée dans la propriété **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), il doit y avoir une entrée à la même position dans le **dispidDLOneOffMembers**.
+Si le client ou le serveur définisse cette propriété, elle doit être synchronisée avec cette propriété **dispidDLMembers** pour chaque entrée dans la propriété **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), il doit y avoir une entrée à la même position dans la **dispidDLOneOffMembers**.
   
 ## <a name="related-resources"></a>Ressources connexes
 

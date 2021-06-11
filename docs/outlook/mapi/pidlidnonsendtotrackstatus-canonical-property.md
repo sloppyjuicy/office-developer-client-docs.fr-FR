@@ -37,7 +37,7 @@ Contient la valeur de chaque participant répertorié dans la **propriété disp
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est requise que lorsque la **propriété dispidNonSendableTo** est définie. Le nombre de valeurs dans cette propriété doit être égal au nombre de valeurs dans **dispidNonSendableTo**. Chaque PT_LONG valeur de cette propriété correspond au participant dans la propriété **dispidNonSendableTo** au même index. 
+Cette propriété n’est requise que lorsque la **propriété dispidNonSendableTo** est définie. Le nombre de valeurs dans cette propriété doit être égal au nombre de valeurs dans **dispidNonSendableTo**. Chaque PT_LONG valeur de cette propriété correspond au participant dans la **propriété dispidNonSendableTo** au même index. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

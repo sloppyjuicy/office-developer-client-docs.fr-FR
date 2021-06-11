@@ -37,11 +37,11 @@ BOOL FGetComponentPath(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _szComponent_
   
-> [in] La clé de registre MSIComponentID décrite [ dansMapi32.dll paramètres](https://msdn.microsoft.com/library/dd162409.aspx)de Registre Stub .
+> [in] La clé de registre MSIComponentID décrite dans [Mapi32.dll registre Stub Paramètres](https://msdn.microsoft.com/library/dd162409.aspx).
     
  _szQualifier_
   
@@ -80,5 +80,5 @@ Utilisez la **fonction FGetComponentPath** lorsque vous avez besoin d’obtenir 
 [Choisir une version spécifique de MAPI à charger](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Mapi32.dll de Registre Stub](https://msdn.microsoft.com/library/dd162409.aspx)
+[Mapi32.dll registre Stub Paramètres](https://msdn.microsoft.com/library/dd162409.aspx)
 

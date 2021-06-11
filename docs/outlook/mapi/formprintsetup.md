@@ -75,7 +75,7 @@ La structure **FORMPRINTSETUP** est utilisée pour décrire les informations de 
   
 Si l’indicateur MAPI_UNICODE est transmis dans le paramètre  _ulFlags_ de **GetPrintSetup**, les chaînes référencés par les membres **hDevmode** et **hDevnames** doivent être au format Unicode. Dans le cas contraire, les chaînes doivent être au format ANSI. 
   
-Les visionneuses de formulaires implémentant **IMAPIViewContext** doivent allouer la structure **FORMPRINTSETUP** à l’aide de la fonction d’allocation [MAPIAllocateBuffer,](mapiallocatebuffer.md)mais allouer les membres individuels, **hDevMode** et **hDevNames**, avec la fonction Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). La libération de mémoire est gérée de la même manière. Les membres **hDevMode** et **hDevNames** doivent être libérés à l’aide de la fonction Windows [GlobalFree,](https://go.microsoft.com/fwlink/?LinkId=132108) tandis que la structure **FORMPRINTSETUP** doit être libérée avec la fonction [MAPIFreeBuffer.](mapifreebuffer.md) 
+Les visionneuses de formulaires implémentant **IMAPIViewContext** doivent allouer la structure **FORMPRINTSETUP** à l’aide de la fonction d’allocation [MAPIAllocateBuffer,](mapiallocatebuffer.md)mais allouer les membres individuels, **hDevMode** et **hDevNames,** avec la fonction Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). La libération de mémoire est gérée de la même manière. Les membres **hDevMode** et **hDevNames** doivent être libérés à l’aide de la fonction Windows [GlobalFree,](https://go.microsoft.com/fwlink/?LinkId=132108) tandis que la structure **FORMPRINTSETUP** doit être libérée avec la fonction [MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

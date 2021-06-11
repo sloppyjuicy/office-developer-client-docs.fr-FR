@@ -31,7 +31,7 @@ Voir [IOlkAccount](iolkaccount.md).
    
 ## <a name="remarks"></a>Remarques
 
- **PROP \_ MAPI \_ IDENTITY \_ ENTRYID n’est** pas censé exister sur chaque compte. Par exemple, un compte Exchange peut avoir **PROP \_ MAPI \_ IDENTITY \_ ENTRYID** définie et non [PROP \_ ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), tandis que pour un compte SMTP/POP3, la situation est inversée. **PROP \_ MAPI_IDENTITY_ENTRYID** renvoie un ID d’entrée similaire à la valeur renvoyée par  _lppEntryID_ dans [IMAPISession::QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
+ **PROP \_ MAPI \_ IDENTITY \_ ENTRYID n’est** pas censé exister sur chaque compte. Par exemple, un compte Exchange peut avoir PROP **\_ MAPI \_ IDENTITY \_ ENTRYID** définie et non [PROP \_ ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), tandis que pour un compte SMTP/POP3, la situation est inversée. **PROP \_ MAPI_IDENTITY_ENTRYID** renvoie un ID d’entrée similaire à la valeur renvoyée par  _lppEntryID_ dans [IMAPISession::QueryIdentity](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -32,7 +32,7 @@ Contient l’identificateur global unique (GUID) du modèle de réponse.
 |Propriétés associées :  <br/> |PR_REPLY_TEMPLATE_ID  <br/> |
 |Identificateur :  <br/> |0x65C2  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Rules  <br/> |
+|Domaine :  <br/> |Règles  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -42,9 +42,9 @@ Cette propriété spécifie le type de récurrence de la série périodique à l
 |**État**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |rectypeNone  <br/> |0  <br/> |Rendez-vous d’instance unique.  <br/> |
-|rectypeDaily  <br/> |1   <br/> |Une récurrence quotidienne.  <br/> |
-|rectypeWeekly  <br/> |2   <br/> |Une récurrence hebdomadaire.  <br/> |
-|rectypeMonthly  <br/> |3   <br/> |Une récurrence mensuelle.  <br/> |
+|rectypeDaily  <br/> |1  <br/> |Une récurrence quotidienne.  <br/> |
+|rectypeWeekly  <br/> |2  <br/> |Une récurrence hebdomadaire.  <br/> |
+|rectypeMonthly  <br/> |3  <br/> |Une récurrence mensuelle.  <br/> |
 |rectypeYearly  <br/> |4   <br/> |Une récurrence annuel.  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes

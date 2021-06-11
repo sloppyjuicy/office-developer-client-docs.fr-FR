@@ -32,7 +32,7 @@ Spécifie le serveur qu’un client tente actuellement d’utiliser pour envoyer
 |Propriétés associées :  <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |Identificateur :  <br/> |0x0E29  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Application Outlook  <br/> |
+|Domaine :  <br/> |Outlook application  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -44,7 +44,7 @@ Le format de cette propriété dépend de l’implémentation. Cette propriété
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   

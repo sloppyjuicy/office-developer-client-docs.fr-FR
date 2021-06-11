@@ -25,18 +25,18 @@ ms.locfileid: "32327887"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient **l’EntryID** du dossier Brouillons Outlook. 
+Contient **l’EntryID** du dossier Outlook Brouillons. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_DRAFTS_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x36D7  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est stockée dans le dossier Boîte de réception, ainsi que dans le dossier racine de la magasin de messages. Pour accéder à la propriété d’une magasin de messages spécifique, vous pouvez : 
+Cette propriété est stockée dans le dossier Boîte de réception, ainsi que dans le dossier racine de la boutique de messages. Pour accéder à la propriété d’une magasin de messages spécifique, vous pouvez : 
   
 1. Tout d’abord, recherchez la propriété dans le dossier Boîte de réception. Utilisez [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) pour obtenir une référence à **EntryID** pour le dossier Boîte de réception. 
     

@@ -25,7 +25,7 @@ ms.locfileid: "32326144"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le quatrième champ du contact qui est destiné à une utilisation diverses pour le contact.
+Spécifie le quatrième champ du contact destiné à un usage divers pour le contact.
   
 |||
 |:-----|:-----|

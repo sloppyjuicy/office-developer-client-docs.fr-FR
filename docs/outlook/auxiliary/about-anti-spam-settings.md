@@ -18,7 +18,7 @@ ms.locfileid: "32316960"
 
 Outlook permet aux utilisateurs de spécifier des paramètres pour chaque compte afin de protéger le compte contre le courrier indésirable. Ces paramètres anti-courrier indésirable sont stockés dans une section désignée pour ce compte dans le profil de l’utilisateur. Utilisez la [propriété PROP_ACCT_PREFERENCES_UID](prop_acct_preferences_uid.md) pour obtenir l’ID unique (UID) de la section du profil qui stocke les préférences de l’utilisateur pour ce compte, y compris les paramètres anti-courrier indésirable. 
   
-Utilisez les propriétés suivantes pour obtenir les paramètres anti-courrier indésirable pour le compte :
+Utilisez les propriétés suivantes pour obtenir les paramètres de courrier indésirable du compte :
   
 - [PidTagSpamJunkSenders](https://msdn.microsoft.com/library/3c5182a7-7d7a-48e8-b9cb-5abd7739f0fd%28Office.15%29.aspx): spécifie une liste délimitée par des points-virgules d’adresses e-mail et de domaines que l’utilisateur a spécifiés comme expéditeurs bloqués pour le compte.
     
@@ -28,7 +28,7 @@ Utilisez les propriétés suivantes pour obtenir les paramètres anti-courrier i
 |:-----|:-----|
 |Aucun  <br/> |0xFFFFFFFF  <br/> |
 |Faible  <br/> |0x00000006  <br/> |
-|Moyen  <br/> |0x00000005  <br/> |
+|Moyenne  <br/> |0x00000005  <br/> |
 |Élevé  <br/> |0x00000003  <br/> |
    
 - [PidTagSpamTrustedRecipients](https://msdn.microsoft.com/library/59f43316-3ff6-4ed0-bc29-b31039192b08%28Office.15%29.aspx): spécifie une liste délimitée par des points-virgules d’adresses e-mail et de domaines que l’utilisateur a spécifiés comme destinataires fiables pour le compte.

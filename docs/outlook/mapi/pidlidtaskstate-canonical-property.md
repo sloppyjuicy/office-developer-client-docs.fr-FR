@@ -43,7 +43,7 @@ La valeur de cette propriété doit être l’une des suivantes.
 |:-----|:-----|
 |0x00000000  <br/> |Cette tâche a été créée pour correspondre à une tâche qui a été incorporée dans un rejet de tâche mais qui n’a pas pu être trouvée localement.  <br/> |
 |0x00000001  <br/> |La tâche n’est pas affectée.  <br/> |
-|0x00000002  <br/> |La tâche est la copie de la tâche affectée à la personne affectée.  <br/> |
+|0x00000002  <br/> |La tâche est la copie d’une tâche affectée à la personne affectée.  <br/> |
 |0x00000003  <br/> |La tâche est la copie d’une tâche affectée par l’assigneur de la tâche.  <br/> |
 |0x00000004  <br/> |La tâche est la copie d’une tâche rejetée par l’assigneur de la tâche.  <br/> |
    

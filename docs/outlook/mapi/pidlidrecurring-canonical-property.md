@@ -39,7 +39,7 @@ Spécifie si un message de rendez-vous est récurrent.
 
 Cette propriété a la valeur TRUE si le rendez-vous est un rendez-vous périodique et false si elle n’est pas périodique.
   
-Cette propriété spécifie si l’objet représente ou non une série périodique. La valeur TRUE indique que l’objet représente une série périodique. La valeur FALSE ou l’absence de cette propriété indique que l’objet représente une instance unique ou une exception (y compris une instance orpheline). Notez la différence entre cette propriété et **la LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)).
+Cette propriété spécifie si l’objet représente ou non une série périodique. La valeur TRUE indique que l’objet représente une série périodique. La valeur FALSE ou l’absence de cette propriété indique que l’objet représente une instance unique ou une exception (y compris une instance orpheline). Notez la différence entre cette propriété et la **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

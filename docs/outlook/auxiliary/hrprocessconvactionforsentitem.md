@@ -34,7 +34,7 @@ HRESULT WINAPI HrProcessConvActionForSentItem(
     DWORD dwFlags)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pmbinStoreEid_
   
@@ -67,6 +67,6 @@ _dwFlags_
 
 Les catégories sont considérées comme des informations personnelles et ne doivent pas être transmises en dehors de la boîte aux lettres de l’utilisateur. Par conséquent, n’appelez **pas HrProcessConvActionForSentItem** sur un élément de courrier non envoyé. Envoyez plutôt l’élément, puis appelez **HrProcessConvActionForSentItem** sur la copie archivée. La copie archivée peut être stockée dans le dossier Éléments envoyés ou dans un emplacement équivalent. 
   
-Votre application doit être en cours de Outlook.exe, par exemple à partir d’un compl?ment COM, pour appeler **HrProcessConvActionForSentItem**. Si vous essayez d’appeler **HrProcessConvActionForSentItem** hors processus, **HrProcessConvActionForSentItem** va lancer une exception de violation d’accès. 
+Votre application doit être en cours de traitement avec Outlook.exe, par exemple à partir d’un compl?ment COM, pour appeler **HrProcessConvActionForSentItem**. Si vous essayez d’appeler **HrProcessConvActionForSentItem** hors processus, **HrProcessConvActionForSentItem** va lancer une exception de violation d’accès. 
   
 

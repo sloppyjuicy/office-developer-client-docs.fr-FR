@@ -43,11 +43,11 @@ _m_lpEid_
     
 _m_ulReserved_
   
-> Ce paramètre est réservé à un usage interne à Outlook et n’est pas pris en charge.
+> Ce paramètre est réservé à un Outlook interne et n’est pas pris en charge.
     
 _m_pwszReserved_
   
-> Ce paramètre est réservé à un usage interne à Outlook et n’est pas pris en charge.
+> Ce paramètre est réservé à un Outlook interne et n’est pas pris en charge.
     
 ## <a name="see-also"></a>Voir aussi
 

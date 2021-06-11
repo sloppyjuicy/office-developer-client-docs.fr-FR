@@ -21,7 +21,7 @@ ms.locfileid: "32328384"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsque MAPI ou lepooler MAPI a terminé d’utiliser un objet d’logo de transport :
+Lorsque MAPI ou lepooler MAPI a terminé d’utiliser un objet de transport :
   
 1. MAPI ou lepooler MAPI appelle la méthode [IXPLogon::TransportLogoff](ixplogon-transportlogoff.md) du fournisseur de transport. 
     

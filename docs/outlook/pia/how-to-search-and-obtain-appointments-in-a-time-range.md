@@ -57,8 +57,8 @@ Par ailleurs, si vous cherchez également des rendez-vous qui se chevauchent par
 Dans C\#, vous pouvez exprimer le filtre Jet comme suit.
 
 ```csharp
-string filter = "[Start] <= '"
-    + endTime.ToString("g")
+string filter = "[Start] <= '&quot;
+    + endTime.ToString(&quot;g")
     + "' AND [End] >= '"
     + startTime.ToString("g") + "'";
 ```

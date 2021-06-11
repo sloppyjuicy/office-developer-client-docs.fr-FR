@@ -33,7 +33,7 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
@@ -55,7 +55,7 @@ Les visionneuses de formulaires appellent la méthode **IMAPIForm::Unadvise** po
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Ignorer le pointeur que vous maintenez dans la vue de la visionneuse de formulaires pour le conseiller en appelant sa méthode [IUnknown::Release.](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) En règle générale, **Release** est appelé pendant l’appel **Unadvise.** Toutefois, si un autre thread est en train d’appeler l’une des méthodes [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) pour le sink de conseil d’affichage, retardez l’appel release jusqu’à ce que la méthode **IMAPIViewAdviseSink** renvoie.  
+Ignorer le pointeur que vous maintenez dans la vue de la visionneuse de formulaires pour le conseiller en appelant sa méthode [IUnknown::Release.](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) En règle générale, **Release** est appelé pendant **l’appel Unadvise.** Toutefois, si un autre thread est en train d’appeler l’une des méthodes [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) pour le sink de conseil d’affichage, retardez l’appel release jusqu’à ce que la méthode **IMAPIViewAdviseSink** renvoie.  
   
 ## <a name="see-also"></a>Voir aussi
 

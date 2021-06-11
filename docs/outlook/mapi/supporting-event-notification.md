@@ -29,7 +29,7 @@ Pour utiliser les méthodes de support, appelez [IMAPISupport::Subscribe](imapis
   
 Vous pouvez transmettre l’indicateur NOTIFY_SYNC  s’abonner pour demander que **Notify** se comporte de manière synchrone et ne retourne pas tant qu’il n’a pas effectué tous les appels aux méthodes [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) des sinks de notification inscrits. Définissez cet indicateur uniquement pour votre propre utilisation interne. Ne la définissez pas lorsque vous répondez à un **appel** de conseil client. La notification d’événement entre les clients et les fournisseurs est toujours asynchrone. Autrement dit, MAPI garantit que l’appel au cours duquel un événement se produit sera de retour au client avant que les appels **OnNotify** ne soient effectués. 
   
-Si vous définissez l’indicateur NOTIFY_SYNC, n’abonnez aucune modification aux objets de sink de conseil et ne passez pas de wrapper advise sink créé par [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour s’abonner. **HrThisThreadAdviseSink** crée une version thread-safe d’un réception de conseil à utiliser uniquement avec une notification asynchrone. 
+Si vous définissez l’indicateur NOTIFY_SYNC, n’abonnez aucune modification à l’un des objets de sink de conseil et ne passez pas un wrapper advise sink créé par [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour s’abonner. **HrThisThreadAdviseSink** crée une version thread-safe d’un réception de conseil à utiliser uniquement avec une notification asynchrone. 
   
 Si un réception de notification inscrit pour une notification synchrone renvoie à partir de **OnNotify** avec l’indicateur CALLBACK_DISCONTINUE définie, [IMAPISupport::Notify](imapisupport-notify.md) définit l’indicateur NOTIFY_CANCELED et renvoie sans effectuer d’appels à **OnNotify**. 
   
@@ -41,7 +41,7 @@ Lorsqu’un événement se produit, allouez une ou plusieurs structures [de NOTI
   
 Notez qu’une structure **de NOTIFICATION** distincte est nécessaire pour chaque événement, même pour plusieurs événements du même type. Par exemple, si trois clients sont inscrits pour la notification de table sur une table particulière et que cinq lignes sont ajoutées à la table, vous devez créer cinq structures **OBJECT_NOTIFICATION** pour votre appel **Notify.** Une notification par lot comme celle-ci se traduit par de meilleures performances que l’appel **de Notification** cinq fois. Pour chaque **appel Notify,** MAPI appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) de chaque reçu de notification inscrit. S’il n’existe aucun reçu de conseil inscrit, MAPI ignore l’appel. 
   
-Les fournisseurs de services qui envoient des notifications par lots doivent les commander afin qu’ils soient interprétés de la première notification à la dernière. Ce traitement est particulièrement nécessaire lorsqu’un lot de notifications contient une série d’événements, tels que TABLE_ROW_ADDED avec un événement qui fait référence à une ligne précédente qui a été ajoutée dans un autre événement dans le même lot.
+Les fournisseurs de services qui envoient des notifications par lots doivent les commander afin qu’ils soient interprétés de la première notification à la dernière. Ce traitement est particulièrement nécessaire lorsqu’un lot de notifications contient une série d’événements, tels que TABLE_ROW_ADDED avec un événement qui fait référence à une ligne précédente ajoutée dans un autre événement du même lot.
   
 ## <a name="see-also"></a>Voir aussi
 

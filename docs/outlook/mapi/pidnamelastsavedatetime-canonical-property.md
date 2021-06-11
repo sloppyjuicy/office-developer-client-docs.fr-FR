@@ -25,7 +25,7 @@ ms.locfileid: "32338135"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie l’heure à quel moment le fichier a été enregistré pour la dernière fois.
+Spécifie l’heure du dernier enregistré du fichier.
   
 |||
 |:-----|:-----|

@@ -26,7 +26,7 @@ L’installation d’un nouveau fournisseur sur un système nécessite la mise �
 - Le **PR_PROVIDER_DLL_NAME** est spécifié dans la section **[Fournisseur de services].** 
     
 > [!NOTE]
-> L’attente est que vous définissez le nom du .dll de votre fournisseur (sans le suffixe « 32 »). MAPI charge ensuite votre fournisseur en le cherchant sur le chemin d’accès. 
+> L’objectif est que vous définissez le nom de l'.dll de votre fournisseur (sans le suffixe « 32 »). MAPI charge ensuite votre fournisseur en le cherchant sur le chemin d’accès. 
   
 ## <a name="putting-a-path-in-mapisvcinf"></a>Mise d’un chemin d’accès dans MapiSvc.inf
 
@@ -36,14 +36,14 @@ Lors de l’inscription de votre fournisseur dans MapiSvc.inf, vous pouvez place
   
 Dans l’une ou l’autre des propriétés, le chemin d’accès complet doit être sans le suffixe « 32 », car MAPI continue à l’ajouter au nom de fichier avant de chercher votre fichier. Cela signifie que si vous inscrivez le chemin d’accès « c:\mypath\myprovider.dll », MAPI tentera de charger « c:\mypath\myprovider32.dll ».
   
-Étant donné que MAPI d’Outlook n’a pas été initialement conçu pour prendre en charge les chemins d’accès complets, il réalise cette insertion du suffixe « 32 » en cherchant la première période dans la chaîne, ce qui signifie que les chemins qui contiennent d’autres périodes ne peuvent pas fonctionner, vous ne pouvez donc pas utiliser des chemins d’accès tels que « c:\my.path\myprovider.dll » ou « c:\mypath\my.provider.dll ».
+Étant donné que le MAPI de Outlook n’a pas été initialement conçu pour prendre en charge les chemins d’accès complets, il réalise cette insertion du suffixe « 32 » en cherchant la première période dans la chaîne, ce qui signifie que les chemins qui contiennent d’autres périodes ne peuvent pas fonctionner, vous ne pouvez donc pas utiliser des chemins d’accès tels que « c:\my.path\myprovider.dll » ou « c:\mypath\my.provider.dll ».
   
-Parfois, dans un fournisseur de magasin, vous générez des identificateurs d’entrée à l’aide de la fonction **WrapStoreEntryID,** qui prend comme paramètre le nom de votre fournisseur. 
+Parfois, dans un fournisseur de magasins, vous générez des identificateurs d’entrée à l’aide de la fonction **WrapStoreEntryID,** qui prend comme paramètre le nom de votre fournisseur. 
   
 > [!IMPORTANT]
 > Si vous utilisez des chemins d’accès complets dans MapiSvc.inf, vous devez utiliser le même chemin d’accès dans tous les appels à **WrapStoreEntryID**. 
   
-En outre, le chemin d’accès que vous utilisez peut être converti vers et depuis Unicode à l’aide de la page de code fournie par la [fonction GetACP.](https://msdn.microsoft.com/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) 
+En outre, le chemin d’accès que vous utilisez peut être converti vers et à partir d’Unicode à l’aide de la page de code fournie par la [fonction GetACP.](https://msdn.microsoft.com/library/windows/desktop/dd318070%28v=vs.85%29.aspx/) 
   
 > [!CAUTION]
 > Vous échouerez si vous choisissez un chemin d’accès qui contient des caractères qui ne peuvent pas résister à un tel aller-retour à travers les fonctions [MultiByteToWideChar](https://msdn.microsoft.com/library/windows/desktop/dd319072%28v=vs.85%29.aspx/) et [WideCharToMultiByte.](https://msdn.microsoft.com/library/windows/desktop/dd374130%28v=vs.85%29.aspx/) 

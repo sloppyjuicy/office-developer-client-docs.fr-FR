@@ -36,7 +36,7 @@ Contient TRUE si un client ou un serveur doit répondre automatiquement à toute
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous répondez, la réponse doit être d’acceptation, sauf si une contrainte supplémentaire spécifiée par les propriétés **PR_SCHDINFO_DISALLOW_RECURRING_APPTS** ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)) ou **PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS** ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)) est remplie. La valeur FALSE ou l’absence de cette propriété indique qu’un client ou un serveur ne doit pas accepter automatiquement les demandes de réunion. Il ne s’agit pas d’une propriété obligatoire.
+Lorsque vous répondez, la réponse doit être acceptée, sauf si une contrainte supplémentaire spécifiée par les propriétés **PR_SCHDINFO_DISALLOW_RECURRING_APPTS** ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)) ou **PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS** ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)) est remplie. La valeur FALSE ou l’absence de cette propriété indique qu’un client ou un serveur ne doit pas accepter automatiquement les demandes de réunion. Il ne s’agit pas d’une propriété obligatoire.
   
 ## <a name="related-resources"></a>Ressources connexes
 

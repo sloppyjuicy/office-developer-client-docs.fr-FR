@@ -30,7 +30,7 @@ HRESULT EndEnumerateAppointments(
     SRowSet **ppRows);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pContext_
   

@@ -43,7 +43,7 @@ Cette propriété doit être l’une des valeurs suivantes.
 |:-----|:-----|
 |0x00000000  <br/> |La tâche n’est pas affectée.  <br/> |
 |0x00000001  <br/> |La tâche est la copie de la tâche de l’assigneur de la tâche.  <br/> |
-|0x00000002  <br/> |La tâche est la copie de la tâche de la personne à qui la tâche est assignée.  <br/> |
+|0x00000002  <br/> |La tâche est la copie de la tâche de l’affectation de la tâche.  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

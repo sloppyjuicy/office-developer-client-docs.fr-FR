@@ -36,7 +36,7 @@ HRESULT OpenAddressBook(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -76,7 +76,7 @@ La **méthode IMAPISession::OpenAddressBook** ouvre le carnet d’adresses inté
 
  **OpenAddressBook renvoie** MAPI_W_ERRORS_RETURNED si elle ne peut pas charger un ou plusieurs des fournisseurs de carnet d’adresses dans le profil. Cette valeur est un avertissement, et non une valeur d’erreur . gérer comme vous le feriez S_OK. **OpenAddressBook renvoie** toujours un pointeur valide dans le paramètre  _lppAdrBook,_ quel que soit le nombre de fournisseurs de carnet d’adresses dont le chargement a échoué. Par conséquent, vous devez toujours appeler la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) du carnet d’adresses à un moment donné avant de vous dé connecter. 
   
-Lorsque **OpenAddressBook** renvoie MAPI_W_ERRORS_RETURNED, appelez [IMAPISession::GetLastError](imapisession-getlasterror.md) pour obtenir une structure [MAPIERROR](mapierror.md) qui contient des informations sur les fournisseurs défaillants. Une structure **MAPIERROR** unique qui contient les informations fournies par tous les fournisseurs est renvoyée. 
+Lorsque **OpenAddressBook** renvoie MAPI_W_ERRORS_RETURNED, appelez [IMAPISession::GetLastError](imapisession-getlasterror.md) pour obtenir une structure [MAPIERROR](mapierror.md) qui contient des informations sur les fournisseurs défaillants. Une structure **MAPIERROR unique** qui contient les informations fournies par tous les fournisseurs est renvoyée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

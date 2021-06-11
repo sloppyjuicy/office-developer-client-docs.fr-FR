@@ -33,7 +33,7 @@ Contient TRUE si la liste de distribution est également un groupe de service. C
 |Jeu de propriétés :  <br/> |Carnet d’adresses  <br/> |
 |ID long (LID) :  <br/> |0x8CDD  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Carnet d’adresses Exchange  <br/> |
+|Domaine :  <br/> |Exchange Carnet d’adresses  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

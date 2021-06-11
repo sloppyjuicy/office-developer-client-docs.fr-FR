@@ -36,7 +36,7 @@ Spécifie la date et l’heure en temps universel coordonné (UTC) à laquelle l
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est supprimée si l’objet message n’est pas marqué comme terminé. La résolution la plus petite de l’heure doit être de minutes (la valeur doit être un multiple de 600 000 000). Cette propriété ne doit pas exister si l’objet est un objet lié à la réunion et qu’il ne doit pas exister sur un objet de tâche.
+Cette propriété est supprimée si l’objet message n’est pas marqué comme terminé. La résolution la plus petite de l’heure doit être de minutes (la valeur doit être un multiple de 600 000 000). Cette propriété ne doit pas exister si l’objet est un objet lié à la réunion et qu’elle ne doit pas exister sur un objet de tâche.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Cette propriété est supprimée si l’objet message n’est pas marqué comme 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   

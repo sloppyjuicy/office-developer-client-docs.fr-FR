@@ -30,7 +30,7 @@ HRESULT BeginRebaseAppointments(
     void **ppContext);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pRows_
   

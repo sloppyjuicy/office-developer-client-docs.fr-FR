@@ -25,7 +25,7 @@ ms.locfileid: "32315952"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si l’utilisateur final souhaite que cet objet de message soit masqué aux autres utilisateurs qui ont accès à l’objet message.
+Indique si l’utilisateur final souhaite que cet objet message soit masqué aux autres utilisateurs qui ont accès à l’objet de message.
   
 |||
 |:-----|:-----|

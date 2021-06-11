@@ -48,7 +48,7 @@ Cette propriété est renvoyée par le MTA à la fin de l’envoi du message. To
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

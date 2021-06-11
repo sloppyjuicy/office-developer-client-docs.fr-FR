@@ -25,7 +25,7 @@ ms.locfileid: "32328713"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si les adresses e-mail des contacts dans le dossier Contacts sont traitées spécialement par rapport au filtre de courrier indésirable.
+Indique si les adresses e-mail des contacts dans le dossier Contacts sont traitées spécialement en ce qui concerne le filtre de courrier indésirable.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Indique si les adresses e-mail des contacts dans le dossier Contacts sont trait�
    
 ## <a name="remarks"></a>Remarques
 
-Si la propriété est définie sur « 0x00000001 », ces adresses de messagerie doivent remplir la partie « adresse e-mail de contact approuvé » de la restriction de règle de courrier indésirable afin que le courrier provenant de ces adresses soit considéré comme « non indésirable ». Si la valeur est « 0x00000000 », les adresses de messagerie du dossier Contacts ne doivent pas être ajoutées à la règle de courrier indésirable et la section de la règle doit être NULL.
+Si la propriété est définie sur « 0x00000001 », ces adresses de messagerie doivent remplir la partie « approuvé » de la restriction de règle de courrier indésirable afin que le courrier provenant de ces adresses soit considéré comme « non indésirable ». Si la valeur est « 0x00000000 », les adresses de messagerie du dossier Contacts ne doivent pas être ajoutées à la règle de courrier indésirable et la section de la règle doit être NULL.
   
 Si cette propriété est présente avec la valeur « 0x00000001 » et si le contact ajouté a des adresses de messagerie qui ne sont pas encore incluses dans la section contacts de confiance de la règle de courrier indésirable, ces adresses de messagerie doivent être ajoutées à la restriction. Si cette propriété est « 0x00000000 », aucune action n’est requise.
   
@@ -46,11 +46,11 @@ Si cette propriété est présente avec la valeur « 0x00000001 » et si le cont
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
+> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

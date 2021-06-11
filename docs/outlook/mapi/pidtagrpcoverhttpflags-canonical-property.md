@@ -36,10 +36,10 @@ La **PR_ROH_FLAGS** est stockée dans la section Profil global d’un profil MAP
   
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Connectez-vous au Exchange Server à l’aide de RPC sur HTTP.  <br/> |
-|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Connectez-vous au Exchange Server à l’aide du SSL (Secure Socket Layer) uniquement.  <br/> |
+|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Connecter au Exchange Server l’aide de RPC sur HTTP.  <br/> |
+|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Connecter au Exchange Server à l’aide du SSL (Secure Socket Layer) uniquement.  <br/> |
 |**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Authentifier mutuellement la session lors de la connexion à l’aide de SSL.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |Sur les réseaux rapides, connectez-vous d’abord à l’aide du protocole HTTP. Ensuite, connectez-vous à l’aide de TCP/IP.  <br/> |
+|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |Sur les réseaux rapides, connectez-vous en utilisant d’abord HTTP. Ensuite, connectez-vous à l’aide de TCP/IP.  <br/> |
 |**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |Sur les réseaux lents, connectez-vous d’abord à l’aide du protocole HTTP. Ensuite, connectez-vous à l’aide de TCP/IP.  <br/> |
    
 Par exemple, pour définir la propriété **PR_ROH_FLAGS** pour activer RPC sur HTTP, pour exiger SSL et pour spécifier que le protocole HTTP doit être utilisé en premier sur les connexions lentes, définissez la valeur de la propriété **PR_ROH_FLAGS** égale à  `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` 0x23. 
@@ -50,7 +50,7 @@ Par exemple, pour définir la propriété **PR_ROH_FLAGS** pour activer RPC sur 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

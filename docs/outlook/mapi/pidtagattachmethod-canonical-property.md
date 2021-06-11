@@ -70,7 +70,7 @@ ATTACH_BY_WEBREFERENCE
   
 > Le contenu de la pièce jointe ne se trouve pas dans le message. 
     
-Une fois créés, tous les objets de pièce jointe ont une **valeur initiale PR_ATTACH_METHOD** de NO_ATTACHMENT .  
+Une fois créés, tous les objets de pièce jointe ont une **PR_ATTACH_METHOD** initiale **de** NO_ATTACHMENT . 
   
 Les applications clientes et les fournisseurs de services sont requis uniquement pour prendre en charge la méthode de pièce jointe représentée par **ATTACH_BY_VALUE** valeur. Les autres méthodes de pièce jointe sont facultatives. La magasin de messages n’applique aucune cohérence entre la valeur de **PR_ATTACH_METHOD** et les valeurs des autres propriétés de pièce jointe. 
   
@@ -82,13 +82,13 @@ Si **ATTACH_BY_REF_RESOLVE** est définie, **PR_ATTACH_DATA_BIN** doit être vid
   
 Si **ATTACH_BY_REF_ONLY** est définie, **PR_ATTACH_DATA_BIN** doit être vide et le système de messagerie ne résout jamais la référence de pièce jointe. Utilisez cette valeur lorsque vous souhaitez envoyer le lien, mais pas les données. 
   
-Lorsque l’objet OLE est au format **IStorage** OLE 2.0, les données sont accessibles via **PR_ATTACH_DATA_OBJ**. Lorsque l’objet OLE est au format OLE 1.0 **OLESTREAM,** les données sont accessibles PR_ATTACH_DATA_BIN **en** tant **qu’IStream**. Le type du codage OLE peut être déterminé par la PR_ATTACH_TAG **(** [PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+Lorsque l’objet OLE est au format **IStorage** OLE 2.0, les données sont accessibles via **PR_ATTACH_DATA_OBJ**. Lorsque l’objet OLE est au format OLE 1.0 **OLESTREAM,** les données sont accessibles PR_ATTACH_DATA_BIN **en** tant **qu’IStream**. Le type du codage OLE peut être déterminé par la **valeur PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
-Pour plus d’informations sur les interfaces et les formats OLE, voir la *référence du programmeur OLE.* 
+Pour plus d’informations sur les interfaces et les formats OLE, voir la référence du *programmeur OLE.* 
   
 ## <a name="remarks"></a>Remarques
 
-Lorsque le **PR_ATTACH_METHOD** est **ATTACH_BY_WEBREFERENCE,** le contenu de la pièce jointe n’est pas dans le message. Au lieu de cela, **la PR_ATTACH_LONG_FILENAME** contient une URL absolue vers le contenu de la pièce jointe, qui est stocké en ligne. 
+Lorsque le **PR_ATTACH_METHOD** est **ATTACH_BY_WEBREFERENCE,** le contenu de la pièce jointe n’est pas dans le message. Au lieu de cela, **la PR_ATTACH_LONG_FILENAME** contient une URL absolue du contenu de la pièce jointe, qui est stockée en ligne. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -96,7 +96,7 @@ Lorsque le **PR_ATTACH_METHOD** est **ATTACH_BY_WEBREFERENCE,** le contenu de la
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

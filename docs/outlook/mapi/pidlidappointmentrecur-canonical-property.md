@@ -25,7 +25,7 @@ ms.locfileid: "32331779"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les dates et heures de la série périodique à l’aide de l’une des plages et des modèles de récurrence spécifiés dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
+Spécifie les dates et heures de la série périodique en utilisant l’une des plages et modèles de récurrence spécifiés dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Spécifie les dates et heures de la série périodique à l’aide de l’une de
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie les dates et heures de la série périodique en utilisant l’une des plages et modèles de récurrence détaillés dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). La valeur de cette propriété contient également des informations sur les exceptions modifiées et supprimées ; telles que les dates, l’objet, l’emplacement et plusieurs autres propriétés d’exceptions. Les données binaires de cette propriété pour les éléments de calendrier périodiques sont stockées en tant que structure **AppointmentRecurrencePattern.** Cette propriété ne doit pas exister sur les éléments de calendrier d’instance unique. 
+Cette propriété spécifie les dates et heures de la série périodique à l’aide de l’une des plages et modèles de récurrence détaillés dans [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx). La valeur de cette propriété contient également des informations sur les exceptions modifiées et supprimées ; telles que les dates, l’objet, l’emplacement et plusieurs autres propriétés d’exceptions. Les données binaires de cette propriété pour les éléments de calendrier périodiques sont stockées en tant que structure **AppointmentRecurrencePattern.** Cette propriété ne doit pas exister sur les éléments de calendrier d’instance unique. 
   
 Il existe certaines limitations aux récurrences :
   

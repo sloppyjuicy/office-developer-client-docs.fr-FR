@@ -32,7 +32,7 @@ Contient **l’EntryID** du dossier Outlook Notes.
 |Propriétés associées :  <br/> |PR_IPM_NOTE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x36D3  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -40,7 +40,7 @@ Cette propriété est stockée dans le dossier Boîte de réception, ainsi que d
   
 1. Tout d’abord, recherchez la propriété dans le dossier Boîte de réception. Utilisez [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) pour obtenir une référence à **EntryID** pour le dossier Boîte de réception. 
     
-2. Si ** IMsgStore::GetReceiveFolder ** réussit, utilisez la référence à **EntryID** de la boîte de réception et de [l’IMsgStore::OpenEntry](imsgstore-openentry.md) pour ouvrir la boîte de réception et obtenir une référence à un objet **IMAPIFolder.** 
+2. Si ** IMsgStore::GetReceiveFolder ** réussit, utilisez la référence à **EntryID** de la boîte de réception et [de l’IMsgStore::OpenEntry](imsgstore-openentry.md) pour ouvrir la boîte de réception et obtenir une référence à un objet **IMAPIFolder.** 
     
 3. Si **IMsgStore::OpenEntry** réussit, utilisez la référence renvoyée à l’objet **IMAPIFolder** et [à IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la propriété souhaitée. 
     

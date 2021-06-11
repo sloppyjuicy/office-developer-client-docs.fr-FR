@@ -26,7 +26,7 @@ Voici quelques valeurs d’heure relatives couramment utilisées :
     
 Utilisez les valeurs d’heure relatives maximales et minimales précédentes pour vérifier que vos valeurs d’heure relatives sont valides.
   
-Étant donné que NTFS enregistre les heures de fichier en natif au format [FILETIME,](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) il peut être pratique d’utiliser l’exemple de code suivant pour convertir le temps relatif vers et à partir de **FILETIME**. 
+Étant donné que NTFS enregistre les heures de fichier en natif au format [FILETIME,](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) il peut être pratique d’utiliser l’exemple de code suivant pour convertir l’heure relative vers et à partir de **FILETIME**. 
   
 ```cpp
 static const LONGLONG UnitsPerMinute = 600000000; 

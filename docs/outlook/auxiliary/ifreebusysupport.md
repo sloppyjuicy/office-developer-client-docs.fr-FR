@@ -56,7 +56,7 @@ Prend en charge la spécification des interfaces qui accèdent aux données de l
    
 ## <a name="remarks"></a>Remarques
 
-La plupart des membres de cette interface sont des espaces réservés réservés à l’utilisation interne d’Outlook et peuvent faire l’objet de changements. Les fournisseurs de libre/occupé doivent les implémenter uniquement comme spécifié, en renvoyant uniquement les valeurs de retour spécifiées.
+La plupart des membres de cette interface sont des espaces réservés à l’utilisation interne des Outlook et peuvent faire l’objet de changements. Les fournisseurs de libre/occupé doivent les implémenter uniquement comme spécifié, en renvoyant uniquement les valeurs de retour spécifiées.
   
 ## <a name="see-also"></a>Voir aussi
 

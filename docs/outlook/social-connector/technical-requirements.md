@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
-description: Cette rubrique décrit les langages de programmation pris en charge, la visibilité COM et les exigences de type de retour de méthode, ainsi que les détails de la DLL d’extensibilité du fournisseur Outlook Social Connector (OSC).
+description: Cette rubrique décrit les langages de programmation pris en charge, la visibilité COM et les exigences de type de retour de méthode, ainsi que les détails de la DLL d’extensibilité du fournisseur OSC (Outlook Social Connector).
 ms.openlocfilehash: 14dfcf52d714177775c5610b5da91d174f81a132
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "32329154"
 ---
 # <a name="technical-requirements"></a>Exigences techniques
 
-Cette rubrique décrit les langages de programmation pris en charge, la visibilité COM et les exigences de type de retour de méthode, ainsi que les détails de la DLL d’extensibilité du fournisseur Outlook Social Connector (OSC). 
+Cette rubrique décrit les langages de programmation pris en charge, la visibilité COM et les exigences de type de retour de méthode, ainsi que les détails de la DLL d’extensibilité du fournisseur OSC (Outlook Social Connector). 
   
 ## <a name="programming-language-and-com-requirements"></a>Langage de programmation et exigences COM
 
@@ -35,7 +35,7 @@ Un fournisseur OSC doit être visible par COM comme défini par les suivants :
     
 - Un fournisseur OSC doit ajouter au Registre Windows des valeurs qui indiquent que le fournisseur DLL prend en charge les modèles de threads à thread unique (STA) et multithread apartment (MTA). Pour plus d’informations sur les modèles de thread COM, voir [Descriptions et fonctionnements des modèles de thread OLE.](https://support.microsoft.com/kb/150777)
     
-Les méthodes dans l’extensibilité du fournisseur OSC doivent renvoyer des types primitifs tels que **chaîne** ou **bool**. Certaines **valeurs** de retour de chaîne doivent être conformes à la définition de schéma pour l’extensibilité du fournisseur OSC. Seul le XML est pris en charge en tant que valeur de retour. 
+Les méthodes dans l’extensibilité du fournisseur OSC doivent renvoyer des types primitifs tels que **chaîne** ou **bool**. Certaines **valeurs** de retour de chaîne doivent être conformes à la définition de schéma pour l’extensibilité du fournisseur OSC. Seul le XML est pris en charge comme valeur de retour. 
   
 ## <a name="details-of-the-osc-provider-extensibility-dll"></a>Détails de la DLL d’extensibilité du fournisseur OSC
 
@@ -43,7 +43,7 @@ Le composant qui prend en charge l’extensibilité du fournisseur OSC est la DL
   
 - Nom de fichier DLL d’extensibilité : socialprovider.dll
     
-- Nom convivial de la DLL d’extensibilité : Extensibilité du fournisseur social Microsoft Outlook
+- Nom convivial de la DLL d’extensibilité : Microsoft Outlook Social Provider Extensibility
     
 - Extensibilité DLL version principale : 15.0
     

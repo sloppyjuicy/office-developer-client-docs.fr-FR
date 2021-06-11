@@ -31,7 +31,7 @@ HRESULT IConverterSession::SetSaveFormat (
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _mstSaveFormat_
   

@@ -33,7 +33,7 @@ HRESULT IConverterSession::MAPIToMIMEStm(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pmsg_
   
@@ -61,7 +61,7 @@ CCSF_GLOBAL_MESSAGE
     
 CCSF_INCLUDE_BCC
   
-> Les destinataires Bc du message MAPI doivent être inclus dans le flux MIME.
+> Les destinataires BcC du message MAPI doivent être inclus dans le flux MIME.
     
 CCSF_NO_MSGID
   

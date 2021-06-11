@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidFax3AddressType
+title: Propriété canonique PidLidFax3AddressType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32331989"
 ---
-# <a name="pidlidfax3addresstype-canonical-property"></a>Propri t canonique PidLidFax3AddressType
+# <a name="pidlidfax3addresstype-canonical-property"></a>Propriété canonique PidLidFax3AddressType
 
   
   
@@ -45,7 +45,7 @@ Cette propriété, si elle est présente, doit être définie sur « FAX ».
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.
+> Fournit des définitions de définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

@@ -25,7 +25,7 @@ ms.locfileid: "32330120"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient TRUE si un fournisseur de transport a déjà accepté la responsabilité de la livraison du message à ce destinataire et FALSE si lepooler MAPI considère que ce fournisseur de transport doit accepter la responsabilité.
+Contient TRUE si un fournisseur de transport a déjà accepté la responsabilité de remettre le message à ce destinataire, et FALSE si lepooler MAPI considère que ce fournisseur de transport doit accepter la responsabilité.
   
 |||
 |:-----|:-----|
@@ -36,9 +36,9 @@ Contient TRUE si un fournisseur de transport a déjà accepté la responsabilit�
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque lepooler MAPI présente un message sortant à un fournisseur de transport, via [IXPLogon::SubmitMessage](ixplogon-submitmessage.md), il définit cette propriété sur FALSE pour tous les destinataires pour lesquels lepooler MAPI considère ce fournisseur de transport comme responsable, et TRUE pour tous les autres destinataires. Le fournisseur de transport doit tenter de gérer tous les destinataires dont **la PR_RESPONSIBILITY** définie sur FALSE. Après l’envoi réussi ou l’échec de l’envoi à un destinataire, le fournisseur de transport doit définir cette propriété sur TRUE dans le message source pour indiquer qu’il a accepté la responsabilité de ce destinataire. 
+Lorsque lepooler MAPI présente un message sortant à un fournisseur de transport, via [IXPLogon::SubmitMessage](ixplogon-submitmessage.md), il définit cette propriété sur FALSE pour tous les destinataires pour lesquels lepooler MAPI considère ce fournisseur de transport comme responsable, et TRUE pour tous les autres destinataires. Le fournisseur de transport doit tenter de gérer tous les destinataires dont **la PR_RESPONSIBILITY** définie sur FALSE. Après l’envoi réussi ou l’échec d’envoi à un destinataire, le fournisseur de transport doit définir cette propriété sur TRUE dans le message source pour indiquer qu’il a accepté la responsabilité de ce destinataire. 
   
-Si, après avoir examiné un destinataire, un fournisseur de transport décide qu’il ne peut pas ou ne doit pas le gérer, le fournisseur de transport doit laisser la PR_RESPONSIBILITY **définie** sur FALSE. Lepooler MAPI recherche ensuite un autre fournisseur de transport qui peut gérer ce destinataire. Lepooler MAPI crée finalement un rapport nondelivery pour tous les destinataires pour lesquels aucun fournisseur de transport n’accepte la responsabilité. 
+Si, après avoir examiné un destinataire, un fournisseur de transport décide qu’il  ne peut pas ou ne doit pas le gérer, le fournisseur de transport doit laisser la PR_RESPONSIBILITY définie sur FALSE. Lepooler MAPI recherche ensuite un autre fournisseur de transport qui peut gérer ce destinataire. Lepooler MAPI crée finalement un rapport nondelivery pour tous les destinataires pour lesquels aucun fournisseur de transport n’accepte la responsabilité. 
   
 Si le fournisseur de transport tente et ne parvient pas à remettre le message, il doit appeler la méthode [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) pour indiquer à MAPI les raisons de l’échec, afin que MAPI puisse générer un rapport non remis. 
   
@@ -48,7 +48,7 @@ Si le fournisseur de transport tente et ne parvient pas à remettre le message, 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

@@ -25,14 +25,14 @@ ms.locfileid: "32327901"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient **l’EntryID** du dossier Contacts Outlook. 
+Contient **l’EntryID** du dossier Outlook Contacts. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_CONTACT_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x36D1  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Cette propriété est stockée dans le dossier Boîte de réception et dans le d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   

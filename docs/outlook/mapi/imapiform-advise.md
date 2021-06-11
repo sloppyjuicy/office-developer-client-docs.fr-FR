@@ -34,7 +34,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pAdvise_
   
@@ -60,7 +60,7 @@ Les visionneuses de formulaire appellent la méthode **IMAPIForm::Advise** d’u
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Conservez une copie du pointeur de l’affichage conseillé transmis dans le paramètre  _pAdvise_ afin de pouvoir l’utiliser pour appeler la méthode [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) appropriée lorsqu’un événement se produit. Appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de l’affichage pour conserver le pointeur jusqu’à l’annulation de l’inscription de la notification. Définissez le contenu du  _paramètreconnection sur_ un nombre autre que zéro. 
+Conservez une copie du pointeur de l’avis de vue transmis dans le paramètre  _pAdvise_ afin de pouvoir l’utiliser pour appeler la méthode [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) appropriée lorsqu’un événement se produit. Appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de l’affichage pour conserver le pointeur jusqu’à l’annulation de l’inscription de la notification. Définissez le contenu du  _paramètreconnection sur_ un nombre autre que zéro. 
   
 De nombreux formulaires implémentent un objet d’aide pour gérer l’inscription et la notification ultérieure des événements. 
   

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 265028b7-a583-f6ba-0214-5a4322f98f35
-description: Initialise un objet IOlkApptRebaser pour une utilisation dans le rebasing de rendez-vous dans les calendriers Outlook.
+description: Initialise un objet IOlkApptRebaser pour une utilisation dans le rebasing de rendez-vous dans Outlook calendriers.
 ms.openlocfilehash: 33ad47d59ee2ca1b2461f730494f3466b9f8b54a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32317611"
 ---
 # <a name="hrcreateapptrebaser"></a>HrCreateApptRebaser
 
-Initialise un objet [IOlkApptRebaser](iolkapptrebaser.md) pour une utilisation dans le rebasing de rendez-vous dans les calendriers Outlook. 
+Initialise un objet [IOlkApptRebaser](iolkapptrebaser.md) à utiliser dans le rebasing de rendez-vous Outlook calendriers. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -44,13 +44,13 @@ HRESULT HrCreateApptRebaser(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ulFlags_
   
 > [in] Obligatoire. Masque de bits d’indicateurs utilisés pour contrôler la façon dont le rebasing est effectué. Les indicateurs suivants peuvent être définis et définis dans tzmovelib.h :
     
-   - **REBASE_FLAG_UPDATE_ORGANIZED_MEETINGS** : les éléments de rendez-vous dont l’utilisateur est l’organisateur de la réunion sont rebasenés. Notez que, par défaut, Outlook envoie les mises à jour de réunion à tous les participants d’une réunion en cours de rebase. Vous pouvez combiner cet indicateur avec des REBASE_FLAG_FORCE_NO_EX_UPDATES **ou** **REBASE_FLAG_FORCE_NO_UPDATES** pour modifier la façon dont les mises à jour de réunion sont gérées. 
+   - **REBASE_FLAG_UPDATE_ORGANIZED_MEETINGS** : les éléments de rendez-vous dont l’utilisateur est l’organisateur de la réunion sont rebasenés. Notez que, par défaut, cela Outlook envoyer des mises à jour de réunion à tous les participants d’une réunion en cours de rebase. Vous pouvez combiner cet indicateur avec des REBASE_FLAG_FORCE_NO_EX_UPDATES **ou** **REBASE_FLAG_FORCE_NO_UPDATES** pour modifier la façon dont les mises à jour de réunion sont gérées. 
     
    - **REBASE_FLAG_UPDATE_UNMARKED** : mettre à jour les éléments de rendez-vous qui n’ont pas été marqués avec un fuseau horaire. Si cet indicateur est spécifié, la valeur  *pTZMissing*  est utilisée comme fuseau horaire où un élément est créé pour tous les éléments qui n’ont pas de données de fuseau horaire. 
     
@@ -120,7 +120,7 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
 
 Lorsque vous [utilisez GetProcAddress](https://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx) pour rechercher l’adresse de cette fonction dans tzmovelib.dll, spécifiez **HrCreateApptRebaser@44** comme nom de procédure. Tous les indicateurs ne sont pas valides en combinaison les uns avec les autres. 
   
-Pour plus d’informations sur les différentes options, voir la section « Glossaire des options de ligne de commande pour l’outil de mise à jour des données de fuseau horaire Outlook » dans l’article [931667](https://support.microsoft.com/kb/931667/en-us)de la base de données : Comment résoudre les changements de fuseau horaire à l’aide de l’outil de mise à jour des données de fuseau horaire pour Microsoft Office Outlook .
+Pour plus d’informations sur les différentes options, voir la section « Glossaire des options de ligne de commande pour l’outil de mise à jour des données de fuseau horaire Outlook » dans la base de données [931667](https://support.microsoft.com/kb/931667/en-us)de la base de données : Comment résoudre les changements de fuseau horaire à l’aide de l’outil de mise à jour des données de fuseau horaire pour Microsoft Office Outlook .
   
 ## <a name="see-also"></a>Voir aussi
 

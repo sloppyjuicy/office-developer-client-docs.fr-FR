@@ -42,7 +42,7 @@ Cette propriété permet la gestion automatisée des messages reçus au moment d
   
 La remise des messages qui résulte de l’extension de la liste de distribution ne provoque pas la mise en place de cette propriété. Le destinataire doit être nommé explicitement. 
   
-Les messages non envoyés ne définissent généralement pas cette **propriété, PR_MESSAGE_CC_ME** ou **PR_MESSAGE_TO_ME**. S’ils sont présents dans des messages accessibles par l’utilisateur dans des magasins de messages publics, dans des magasins privés d’autres utilisateurs, dans des fichiers sur disque ou incorporés à d’autres messages reçus, ils contiennent généralement les valeurs à laquelle ils ont été fixés la dernière fois qu’un fournisseur de transport a remis le message. 
+Les messages non envoyés ne définissent généralement pas cette **propriété, PR_MESSAGE_CC_ME** ou **PR_MESSAGE_TO_ME**. S’ils sont présents dans des messages accessibles par l’utilisateur dans des magasins de messages publics, dans des magasins privés d’autres utilisateurs, dans des fichiers sur disque ou incorporés à d’autres messages reçus, ils contiennent généralement les valeurs pour lesquelles ils ont été définies la dernière fois qu’un fournisseur de transport a remis le message. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,7 +50,7 @@ Les messages non envoyés ne définissent généralement pas cette **propriété
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

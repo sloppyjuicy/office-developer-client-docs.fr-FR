@@ -23,7 +23,7 @@ ms.locfileid: "32331107"
   
 Cet exemple prend en charge un conteneur en lecture seule unique pour les noms complets et les adresses e-mail, qui sont lus à partir d’un fichier binaire plat. L’exemple prend en charge les modèles unique et toutes les options de configuration à l’exception de l’Assistant Profil.
   
-Vous pouvez télécharger cet exemple à partir d’exemples de [code MAPI (Outlook Messaging API).](https://go.microsoft.com/fwlink/?LinkId=129740
+Vous pouvez télécharger cet exemple à partir [Outlook de code MAPI (Messaging API).](https://go.microsoft.com/fwlink/?LinkId=129740
 )
   
 |||
@@ -45,9 +45,9 @@ Cet exemple prend en charge les fonctionnalités suivantes :
     
 - Boîte de dialogue de recherche avancée.
     
-- Interface [IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Cette interface est partiellement prise en charge ; ses **méthodes IMAPIProp** sont déléguées à l’interface **IPropData.** Pour plus d’informations, voir [l’interface IPropData : IMAPIProp.](ipropdataimapiprop.md) 
+- Interface [IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Cette interface est partiellement prise en charge . ses **méthodes IMAPIProp** sont déléguées à l’interface **IPropData.** Pour plus d’informations, voir [l’interface IPropData : IMAPIProp.](ipropdataimapiprop.md) 
     
-- Configuration interactive et par programme.
+- Configuration interactive et par programmation.
     
 ## <a name="unsupported-features"></a>Fonctionnalités non pris en compte
 
@@ -63,19 +63,19 @@ Cet exemple ne prend pas en charge les fonctionnalités suivantes :
     
 - Propriétés nommées.
     
-- Faire la distinction entre le prénom et le nom dans les noms d’affichage.
+- Distinction entre le prénom et le nom de famille dans les noms d’affichage.
     
  **Pour installer l’exemple de fournisseur de carnet d’adresses**
   
-1. Pour télécharger l’exemple de fournisseur de carnet d’adresses, voir [Téléchargement des exemples MAPI Outlook.](downloading-the-outlook-mapi-samples.md)
+1. Pour télécharger l’exemple de fournisseur de carnet d’adresses, consultez [la Outlook exemples MAPI.](downloading-the-outlook-mapi-samples.md)
     
-2. Recherchez le dossier dans lequel vous avez enregistré les exemples MAPI Outlook. Cliquez avec le bouton droit sur le dossier zip du numéro de **\< \> version d’OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
+2. Recherchez le dossier dans lequel vous avez enregistré Outlook exemples MAPI. Cliquez avec le bouton droit sur le dossier zip du numéro de **\< \> version d’OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
     
 3. Cliquez **sur Parcourir,** sélectionnez l’emplacement où vous souhaitez enregistrer l’exemple, puis cliquez sur **Extraire.**
     
 4. Exécutez Visual Studio 2008.
     
-5. Dans Visual Studio 2008, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Projet/Solution.**
+5. Dans Visual Studio 2008, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Project/Solution**.
     
 6. Accédez à l’emplacement où vous avez enregistré l’exemple, cliquez sur **SABP.vcproj,** puis cliquez sur **Ouvrir**.
     
@@ -83,11 +83,11 @@ Cet exemple ne prend pas en charge les fonctionnalités suivantes :
     
 8. Dans la **boîte de dialogue Enregistrer le fichier sous,** cliquez sur **Enregistrer.**
     
-9. Dans le dossier où vous avez enregistré l’exemple, cliquez avec le bouton droit sur **install.bat** fichier, puis cliquez sur **Exécuter en tant qu’administrateur.**
+9. Dans le dossier où vous avez enregistré l’exemple, cliquez avec le bouton droit sur **le fichierinstall.bat** puis cliquez sur Exécuter en tant **qu’administrateur.**
     
 10. Dans la boîte **de dialogue Contrôle de compte** d’utilisateur, cliquez sur **Continuer.**
     
     > [!NOTE]
-    > **Install.bat** copie le fichier .dll dans le dossier d Microsoft Office d’installation par défaut, C:\Program Files\Microsoft Office\Office12\. Si vous avez installé les produits Office à un autre emplacement, cliquez avec le bouton droit sur **Install.bat** puis cliquez sur **Modifier**. Le fichier s’ouvre dans le Bloc-notes. Remplacez le chemin d’installation par défaut par le chemin d’installation utilisé sur votre ordinateur. 
+    > **Install.bat** copie le .dll dans le dossier d Microsoft Office d’installation par défaut, C:\Program Files\Microsoft Office\Office12\. Si vous avez installé Office produits à un autre emplacement, cliquez avec le bouton droit sur **Install.bat** puis cliquez sur **Modifier**. Le fichier s’ouvre en Bloc-notes. Remplacez le chemin d’installation par défaut par le chemin d’installation utilisé sur votre ordinateur. 
   
 

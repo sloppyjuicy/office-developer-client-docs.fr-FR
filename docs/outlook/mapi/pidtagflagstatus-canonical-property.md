@@ -40,7 +40,7 @@ Cette propriété ne doit pas exister sur un objet lié à la réunion et elle n
   
 |**Valeur numérique**|**Name**|**Description**|
 |:-----|:-----|:-----|
-|Non présent  <br/> |N/A  <br/> |Non survolé  <br/> |
+|Non présent  <br/> |S/O  <br/> |Non survolé  <br/> |
 |0x00000001  <br/> |followupComplete  <br/> |Marqué comme terminé  <br/> |
 |0x00000002  <br/> |followupFlagged  <br/> |Marqué d’un indicateur  <br/> |
    
@@ -50,7 +50,7 @@ Cette propriété ne doit pas exister sur un objet lié à la réunion et elle n
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   

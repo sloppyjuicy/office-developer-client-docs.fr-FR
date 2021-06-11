@@ -35,7 +35,7 @@ HRESULT OpenProperty(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   
@@ -114,7 +114,7 @@ Pour accéder aux pièces jointes des messages, ouvrez la propriété **PR_ATTAC
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    
-**IStreamDocfile** est une dérivée de l’interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) basée sur un fichier composé OLE 2.0. **IStreamDocfile** est le meilleur choix pour accéder aux pièces jointes OLE 2.0, car il implique la charge de travail la moins importante. Vous pouvez utiliser IID_IStreamDocFile pour les propriétés qui contiennent des données stockées dans un stockage structuré disponible via l’interface [IStorage.](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) 
+**IStreamDocfile est** une dérivée de l’interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) basée sur un fichier composé OLE 2.0. **IStreamDocfile** est le meilleur choix pour accéder aux pièces jointes OLE 2.0, car il implique la charge de travail la moins importante. Vous pouvez utiliser IID_IStreamDocFile pour les propriétés qui contiennent des données stockées dans un stockage structuré disponible via l’interface [IStorage.](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) 
   
 Pour plus d’informations sur l’utilisation **d’OpenProperty** avec des pièces jointes, voir la **propriété PR_ATTACH_DATA_OBJ** et [l’ouverture d’une pièce jointe.](opening-an-attachment.md)
   
@@ -126,7 +126,7 @@ N’essayez pas d’ouvrir une propriété avec **OpenProperty** plusieurs fois.
   
 Si vous avez besoin de modifier la propriété à ouvrir, définissez l’MAPI_MODIFY’indicateur. Si vous ne savez pas si l’objet prend en charge la propriété, mais vous pensez qu’elle le devrait, définissez les MAPI_CREATE et MAPI_MODIFY indicateurs. Chaque MAPI_CREATE est définie, MAPI_MODIFY doit également être définie.
   
-Vous êtes responsable de la rediffusion du pointeur d’interface renvoyé dans le paramètre _lppUnk_ sur un point approprié pour l’interface spécifiée dans le _paramètre lpiid._ Vous devez également utiliser le pointeur renvoyé pour appeler sa méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) lorsque vous en avez terminé. 
+Vous êtes responsable de la rediffusion du pointeur d’interface renvoyé dans le paramètre _lppUnk_ à un pointeur approprié pour l’interface spécifiée dans le _paramètre lpiid._ Vous devez également utiliser le pointeur renvoyé pour appeler sa méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) lorsque vous en avez terminé. 
   
 Parfois, la définition des indicateurs dans le  _paramètre ulFlags_ n’est pas suffisante pour indiquer le type d’accès à la propriété qui est requis. Vous pouvez placer des données supplémentaires, telles que des indicateurs, dans le _paramètre ulInterfaceOptions._ Ces données dépendent de l’interface. Certaines interfaces (telles que **IStream)** l’utilisent, tandis que d’autres ne l’utilisent pas. Par exemple, lorsque vous ouvrez une propriété à modifier avec **IStream,** définissez l’indicateur STGM_WRITE dans le paramètre  _ulInterfaceOptions_ en plus de MAPI_MODIFY. Lorsque vous ouvrez un tableau à l’aide de l’interface [IMAPITable,](imapitableiunknown.md) vous pouvez définir  _ulInterfaceOptions_ sur MAPI_UNICODE pour indiquer si les colonnes du tableau qui détiennent des propriétés de chaîne doivent être au format Unicode. 
   
@@ -136,7 +136,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|StreamEditor.cpp  <br/> |CStreamEditor::ReadTextStreamFromProperty  <br/> |MFCMAPI utilise **la méthode IMAPIProp::OpenProperty** pour récupérer une interface de flux pour les propriétés binaires et de texte de grande taille.  <br/> |
+|StreamEditor.cpp  <br/> |CStreamEditor::ReadTextStreamFromProperty  <br/> |MFCMAPI utilise la **méthode IMAPIProp::OpenProperty** pour récupérer une interface de flux pour les propriétés binaires et de texte de grande taille.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

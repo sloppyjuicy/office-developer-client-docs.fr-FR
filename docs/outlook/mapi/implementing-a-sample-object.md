@@ -103,7 +103,7 @@ static const ADVISE_Vtbl vtblADVISE =
  
 ```
 
-Après avoir déclaré un objet en C, vous devez l’initialiser en fixant le pointeur vtable sur l’adresse du tableau vtable construit, comme illustré dans le code suivant :
+Après avoir déclaré un objet en C, vous devez l’initialiser en fixant le pointeur vtable sur l’adresse de la table vtable construite, comme illustré dans le code suivant :
   
 ```cpp
 LPADVISESINK lpMyObj = NULL;

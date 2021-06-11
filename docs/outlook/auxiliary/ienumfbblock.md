@@ -32,7 +32,7 @@ Prend en charge l’accès et l’éumation des blocs de données de libre/occup
 |[Next](ienumfbblock-next.md) <br/> |Obtient le nombre spécifié suivant de blocs de données de libre/occupé dans une éumération.  <br/> |
 |[Skip](ienumfbblock-skip.md) <br/> |Ignore un nombre spécifié de blocs de données de libre/occupé.  <br/> |
 |[Reset](ienumfbblock-reset.md) <br/> |Réinitialise l’éumérateur en redéfinissant le curseur au début.  <br/> |
-|[Clone](ienumfbblock-clone.md) <br/> |Crée une copie de l’éumérateur, en utilisant la même restriction de temps, mais en lui fixant le début de l’éumérateur.  <br/> |
+|[Clone](ienumfbblock-clone.md) <br/> |Crée une copie de l’éumérateur, en utilisant la même restriction de temps, mais en fixant le curseur au début de l’éumérateur.  <br/> |
 |[Restrict](ienumfbblock-restrict.md) <br/> |Limite l’éumération à une période spécifiée.  <br/> |
    
 ## <a name="remarks"></a>Remarques

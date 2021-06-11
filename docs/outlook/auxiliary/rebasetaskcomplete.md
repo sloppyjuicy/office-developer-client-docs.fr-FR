@@ -24,7 +24,7 @@ Signale l’achèvement du rebasage des rendez-vous.
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |tzmovelib.h  <br/> |
 |Implémenté par :  <br/> |Applications clientes MAPI  <br/> |
-|Appelé par :  <br/> |Objet rebasing Outlook  <br/> |
+|Appelé par :  <br/> |Outlook de rebasing  <br/> |
 |Type de pointeur :  <br/> |**PFNREBASETASKCOMPLETE** tel que défini dans tzmovelib.h  <br/> |
    
 ```cpp
@@ -38,7 +38,7 @@ void STDAPICALLTYPE RebaseTaskComplete(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ulRowIndex_
   

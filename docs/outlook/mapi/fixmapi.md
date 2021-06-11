@@ -39,13 +39,13 @@ DWORD STDAPICALLTYPE FixMAPI(void);
 
 Si la fonction réussit, la valeur de retour est une valeur non nulle.
   
-Si la fonction échoue, la valeur de retour est zéro. Pour obtenir des informations d’erreur étendues, appelez la fonction du Kit de développement logiciel (SDK) Microsoft Windows, **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**. 
+Si la fonction échoue, la valeur de retour est zéro. Pour obtenir des informations d’erreur étendues, appelez la fonction Du Kit de développement logiciel (SDK) microsoft Windows, **[GetLastError](https://msdn.microsoft.com/library/ms679360.aspx)**. 
   
 ## <a name="remarks"></a>Remarques
 
  **FixMAPI ne** remplace pas le fichier mapi32.dll si le fichier est marqué comme étant en lecture seule. 
   
- **FixMAPI ne** remplace pas le mapi32.dll si Microsoft Exchange Server est installé sur l’ordinateur. 
+ **FixMAPI ne** remplace pas la valeur actuelle mapi32.dll si Microsoft Exchange Server est installé sur l’ordinateur. 
   
 Lorsque **FixMAPI** effectue une copie de sauvegarde de la copie actuelle de mapi32.dll sur l’ordinateur, il attribue à la copie de sauvegarde un nom différent de « mapi32.dll ». Il dirige ensuite les appels ultérieurs destinés à cet assembly vers la copie de sauvegarde. 
   
@@ -53,7 +53,7 @@ Lorsque **FixMAPI** effectue une copie de sauvegarde de la copie actuelle de map
 
 
 
-[KB 256946 : Vous recevez un message d’erreur de conflit de programme lorsque vous démarrez Outlook 2000](https://support.microsoft.com/kb/256946)
+[KB 256946 : un message d’erreur de conflit de programme s’Outlook 2000](https://support.microsoft.com/kb/256946)
   
 [KB 228457 : Description de l’outil Fixmapi.exe inclus dans Internet Explorer 5](https://support.microsoft.com/kb/228457)
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0cd5a5ae-118f-c7da-4eda-e97590fc39d4
-description: Obtient une interface qui éumène les blocs de données de libre/occupé pour un utilisateur dans un délai spécifié.
+description: Obtient une interface qui éumène les blocs de données de la période spécifiée pour un utilisateur.
 ms.openlocfilehash: 51a77b2f47166628db07259ef841e0d6173ee370
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "32317555"
 ---
 # <a name="ifreebusydataenumblocks"></a>IFreeBusyData::EnumBlocks
 
-Obtient une interface qui éumène les blocs de données de libre/occupé pour un utilisateur dans un délai spécifié.
+Obtient une interface qui éumène les blocs de données de la période spécifiée pour un utilisateur.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -31,7 +31,7 @@ HRESULT EnumBlocks(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ppenumfb_
   

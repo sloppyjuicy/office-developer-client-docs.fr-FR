@@ -1,5 +1,5 @@
 ---
-title: Intégration du code serveur de formulaire MAPI avec du code Windows
+title: Intégration du code de serveur de formulaire MAPI à Windows code
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32332178"
 ---
-# <a name="integrating-mapi-form-server-code-with-windows-code"></a>Intégration du code serveur de formulaire MAPI avec du code Windows
+# <a name="integrating-mapi-form-server-code-with-windows-code"></a>Intégration du code de serveur de formulaire MAPI à Windows code
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Rappelez-vous que votre serveur de formulaires est une application Win32. Par conséquent, certaines tâches sont liées au chargement de votre serveur de formulaires en mémoire et à la sortie propre. Comme toutes les applications Windows, le point d’entrée de votre serveur de formulaires est **la fonction WinMain.** Cette fonction est l’endroit approprié pour effectuer les tâches suivantes : 
+Rappelez-vous que votre serveur de formulaires est une application Win32. Par conséquent, certaines tâches sont liées au chargement de votre serveur de formulaires en mémoire et à la sortie propre. Comme toutes Windows applications, le point d’entrée de votre serveur de formulaires est la **fonction WinMain.** Cette fonction est l’endroit approprié pour effectuer les tâches suivantes : 
   
 - Création et inscription d’une classe de fenêtre afin que votre serveur de formulaires puisse interagir avec d’autres composants OLE.
     
@@ -49,5 +49,5 @@ Lorsque votre serveur de formulaire se quitte, il doit effectuer les tâches sui
 
 
 
-[Écriture de code serveur de formulaire](writing-form-server-code.md)
+[Écriture de code serveur de formulaires](writing-form-server-code.md)
 

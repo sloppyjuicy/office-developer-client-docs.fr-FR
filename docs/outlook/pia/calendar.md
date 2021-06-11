@@ -16,7 +16,7 @@ ms.locfileid: "32318976"
 ---
 # <a name="calendar"></a>Calendrier
 
-Cette section fournit des exemples de tâches qui impliquent le dossier Calendrier Outlook.
+Cette section fournit des exemples de tâches qui impliquent Calendrier Outlook dossier.
 
 ## <a name="in-this-section"></a>Dans cette section
 

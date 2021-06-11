@@ -24,7 +24,7 @@ Signale l’avancement de l’éumération et de la rebasation des rendez-vous.
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |tzmovelib.h  <br/> |
 |Implémenté par :  <br/> |Applications clientes MAPI  <br/> |
-|Appelé par :  <br/> |Objet rebasing Outlook  <br/> |
+|Appelé par :  <br/> |Outlook de rebasing  <br/> |
 |Type de pointeur :  <br/> |**PFNREBASETASKPROGRESS** tel que défini dans tzmovelib.h  <br/> |
    
 ```cpp
@@ -37,7 +37,7 @@ void STDAPICALLTYPE RebaseTaskProgress(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ulMin_
   
@@ -45,7 +45,7 @@ _ulMin_
     
 _ulMax_
   
-> [in] Fin de la plage de rendez-vous en cours de traitement. Il s’agit généralement du nombre d’éléments du dossier calendrier en cours de traitement.
+> [in] Haut de la plage de rendez-vous en cours de traitement. Il s’agit généralement du nombre d’éléments du dossier calendrier en cours de traitement.
     
 _ulCur_
   

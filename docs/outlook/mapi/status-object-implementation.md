@@ -19,17 +19,17 @@ ms.locfileid: "32336336"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Tous les fournisseurs de services doivent implémenter un objet d’état et en fournir les propriétés dans la table d’état de session. Vous pouvez inclure une ou plusieurs lignes dans la table d’état, selon le nombre de ressources que vous contrôlez. Un fournisseur de transport, par exemple, doit créer une ligne dans la table d’état pour chaque file d’attente de messages qu’il gère. Lorsque des modifications se produisent, la ligne de tableau d’état appropriée doit être mise à jour. Les objets d’état sont implémentés pour fournir l’accès aux informations incluses dans la table d’état et aux informations supplémentaires non incluses dans le tableau.
+Tous les fournisseurs de services doivent implémenter un objet d’état et en fournir les propriétés dans la table d’état de session. Vous pouvez inclure une ou plusieurs lignes dans la table d’état, en fonction du nombre de ressources que vous contrôlez. Un fournisseur de transport, par exemple, doit créer une ligne dans la table d’état pour chaque file d’attente de messages qu’il gère. Lorsque des modifications se produisent, la ligne de tableau d’état appropriée doit être mise à jour. Les objets d’état sont implémentés pour fournir l’accès aux informations incluses dans la table d’état et aux informations supplémentaires non incluses dans le tableau.
   
 ### <a name="to-implement-a-status-object"></a>Pour implémenter un objet d’état
 
 1. Implémentez **la méthode OpenStatusEntry** de votre objet d’ouverture de connecté. Lorsque les clients souhaitent ouvrir votre objet d’état, ils appellent [IMAPISession::OpenEntry](imapisession-openentry.md). MAPI remplit la demande d’ouverture en appelant la méthode **OpenStatusEntry** de votre fournisseur, ce qui a pour effet que votre fournisseur ouvre son objet d’état et retourne au client un pointeur vers son implémentation **IMAPIStatus.** Dans votre **implémentation OpenStatusEntry,** complétez les étapes suivantes : 
     
-   1. Effectuez les tâches suivantes si votre objet d’logo n’a pas encore créé d’objet d’état :
+   1. Effectuez les tâches suivantes si votre objet de logo n’a pas encore créé d’objet d’état :
     
       1. Appelez la méthode [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) de l’objet de support pour accéder à la section de profil de votre fournisseur. 
           
-      2. Créez un objet d’état.
+      2. Crée un objet d’état.
           
       3. Stockez une référence à la section de profil dans l’objet d’état de votre fournisseur et appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) de la section de profil pour incrémenter son nombre de références. 
           
@@ -63,13 +63,13 @@ Tous les fournisseurs de services doivent implémenter un objet d’état et en 
     
 3. Implémentez [les méthodes IMAPIStatus : IMAPIProp](imapistatusimapiprop.md) appropriées pour votre fournisseur. Selon votre fournisseur, vous n’avez pas besoin d’implémenter les quatre méthodes dans **IMAPIStatus**. Chaque fournisseur doit implémenter une version en lecture seule des méthodes de l’interface [IMAPIProp : IUnknown](imapipropiunknown.md) et de la méthode [IMAPIStatus::ValidateState.](imapistatus-validatestate.md) 
 
-   Les fournisseurs de transport doivent également implémenter [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md)et tous les fournisseurs doivent prendre en charge [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md). Toutefois, la prise [en charge d’IMAPIStatus::ChangePassword est](imapistatus-changepassword.md) facultative. Seuls les fournisseurs de services qui nécessitent des mots de passe et qui souhaitent autoriser les utilisateurs à les modifier par programme doivent implémenter cette méthode. Pour chaque méthode prise en charge, définissez le bit correspondant dans **PR_RESOURCE_METHODS** propriété. Par exemple, si vous ne prenons **en charge que ValidateState** et **SettingsDialog,** **PR_RESOURCE_METHODS** les paramètres suivants : 
+   Les fournisseurs de transport doivent également implémenter [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md)et tous les fournisseurs doivent prendre en charge [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md). Toutefois, la prise [en charge d’IMAPIStatus::ChangePassword est](imapistatus-changepassword.md) facultative. Seuls les fournisseurs de services qui nécessitent des mots de passe et qui souhaitent autoriser les utilisateurs à les modifier par programme doivent implémenter cette méthode. Pour chaque méthode prise en charge, définissez le bit correspondant dans **PR_RESOURCE_METHODS** propriété. Par exemple, si vous ne prenons **en charge que ValidateState** et **SettingsDialog,** **PR_RESOURCE_METHODS** sur les paramètres suivants : 
     
    `STATUS_VALIDATE_STATE | STATUS_SETTINGS_DIALOG`
     
    Les clients doivent vérifier la valeur de **PR_RESOURCE_METHODS** avant d’appeler votre objet d’état. Gérer les appels à l’une de vos méthodes non pris en charge en renvoyant MAPI_E_NO_SUPPORT. 
     
-4. Appelez [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) pendant l’logo pour ajouter vos lignes au tableau d’état. Passez un tableau de valeurs de propriété qui contient les informations de colonne pour la ligne et 0 pour le _paramètre ulFlags._ Si, à un moment donné plus tard dans la session, l’état de votre fournisseur change et qu’il devient nécessaire de mettre à jour les informations de colonne, appelez à nouveau **ModifyStatusRow** avec l’indicateur STATUSROW_UPDATE définie. 
+4. Appelez [IMAPISupport::ModifyStatusRow](imapisupport-modifystatusrow.md) pendant l’accès pour ajouter vos lignes au tableau d’état. Passez un tableau de valeurs de propriété qui contient les informations de colonne pour la ligne et 0 pour le _paramètre ulFlags._ Si, plus tard dans la session, l’état de votre fournisseur change et qu’il devient nécessaire de mettre à jour les informations de colonne, appelez à nouveau **ModifyStatusRow** avec l’indicateur STATUSROW_UPDATE définie. 
     
 Pour plus d’informations sur les objets d’état, voir [MAPI Status Objects](mapi-status-objects.md).
   

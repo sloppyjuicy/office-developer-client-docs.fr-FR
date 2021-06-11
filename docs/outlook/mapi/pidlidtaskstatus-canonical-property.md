@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidTaskStatus
+title: Propri t canonique PidLidTaskStatus
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316666"
 ---
-# <a name="pidlidtaskstatus-canonical-property"></a>Propriété canonique PidLidTaskStatus
+# <a name="pidlidtaskstatus-canonical-property"></a>Propri t canonique PidLidTaskStatus
 
   
   
@@ -89,11 +89,11 @@ Mapidefs.h
 
 
 
-[Propriété canonique PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)
+[Propri t canonique PidLidPercentComplete](pidlidpercentcomplete-canonical-property.md)
   
 [Propriété canonique PidLidTaskDateCompleted](pidlidtaskdatecompleted-canonical-property.md)
   
-[Propriété canonique PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)
+[Propri t canonique PidLidTaskComplete](pidlidtaskcomplete-canonical-property.md)
 
 
 [Propriétés MAPI](mapi-properties.md)

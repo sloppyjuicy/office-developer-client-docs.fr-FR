@@ -25,7 +25,7 @@ ms.locfileid: "32317310"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Enregistre un objet auprès d’un fournisseur de magasins de messages pour les notifications concernant les modifications apportées à la magasin de messages. La boutique de messages envoie ensuite des notifications concernant les modifications apportées à l’objet inscrit.
+Enregistre un objet auprès d’un fournisseur de magasins de messages pour les notifications concernant les modifications apportées à la boutique de messages. La boutique de messages envoie ensuite des notifications concernant les modifications apportées à l’objet inscrit.
   
 ```cpp
 HRESULT Advise(
@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -69,7 +69,7 @@ HRESULT Advise(
     
  _lpulConnection_
   
-> [out] Pointeur vers une variable qui, en cas de retour réussi, contient le numéro de connexion pour l’inscription de notification. Le numéro de connexion doit être non zéro.
+> [out] Pointeur vers une variable qui, en cas de retour réussi, contient le numéro de connexion pour l’inscription de la notification. Le numéro de connexion doit être non zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

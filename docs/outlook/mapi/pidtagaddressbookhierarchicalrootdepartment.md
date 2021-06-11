@@ -33,7 +33,7 @@ ms.locfileid: "32326123"
 |Jeu de propriétés :  <br/> |Carnet d’adresses  <br/> |
 |ID long (LID) :  <br/> |0x8C98  <br/> |
 |Type de données :  <br/> |PT_STRING8  <br/> |
-|Domaine :  <br/> |Carnet d’adresses Exchange  <br/> |
+|Domaine :  <br/> |Exchange Carnet d’adresses  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -43,7 +43,7 @@ Une fois le service racine obtenu, il peut avoir un type d’objet MAPI_MAILUSER
   
 - Microsoft Office Outlook 2007 Service Pack 2 prend en charge les deux schémas. 
     
-- Microsoft Outlook 2010 et Microsoft Outlook 2013 supportent le nouveau schéma.
+- Microsoft Outlook 2010 et Microsoft Outlook 2013 prise en charge du nouveau schéma.
     
 Dans le nouveau schéma, tous les groupes de service sont également des listes de distribution et sont de type MAPI_DISTLIST. Les membres des groupes de service et les services au sein de groupes de service sont obtenus à l’aide de PR_EMS_AB_MEMBER, exactement comme les membres de liste de distribution.
   

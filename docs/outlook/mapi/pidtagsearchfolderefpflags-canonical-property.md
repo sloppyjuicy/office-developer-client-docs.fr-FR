@@ -36,7 +36,7 @@ Contient des indicateurs de dossier étendu qui s’appliquent au conteneur de d
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit contenir spécifiquement les indicateurs dans la propriété **PR_EXTENDED_FOLDER_FLAGS** ([PidTagExtendedFolderFlags](pidtagextendedfolderflags-canonical-property.md)) et la sous-propriété **ExtendedFlags,** dans le champ b du dossier. Pour plus d’informations sur les indicateurs de dossier, [voir [MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx).
+Cette propriété doit contenir spécifiquement les indicateurs dans la propriété **PR_EXTENDED_FOLDER_FLAGS** ([PidTagExtendedFolderFlags](pidtagextendedfolderflags-canonical-property.md)) et la sous-propriété **ExtendedFlags,** dans le champ b pour le dossier. Pour plus d’informations sur les indicateurs de dossier, [voir [MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,15 +44,15 @@ Cette propriété doit contenir spécifiquement les indicateurs dans la proprié
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
+> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

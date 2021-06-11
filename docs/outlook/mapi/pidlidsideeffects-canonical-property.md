@@ -43,7 +43,7 @@ Doit être définie sur un bit ou zéro ou plusieurs des indicateurs suivants.
 |:-----|:-----|:-----|
 |seOpenToDelete  <br/> |0x0001  <br/> |Un traitement supplémentaire est requis sur l’objet message lors de la suppression.  <br/> |
 |seNoFrame  <br/> |0x0008  <br/> |Aucune interface utilisateur n’est associée à l’objet message.  <br/> |
-|seCoerceToInbox  <br/> |0x0010  <br/> |Un traitement supplémentaire est requis sur l’objet message lors du déplacement ou de la copie vers un objet de dossier avec une **propriété PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) de « IPF. Note ».  <br/> |
+|seCoerceToInbox  <br/> |0x0010  <br/> |Un traitement supplémentaire est requis sur l’objet message lors du déplacement ou de la copie vers un objet de dossier avec une **propriété PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) de « IPF. Remarque.  <br/> |
 |seOpenTocopy  <br/> |0x0020  <br/> |Un traitement supplémentaire est requis sur l’objet message lors de la copie dans un autre dossier.  <br/> |
 |seOpenToMove  <br/> |0x0040  <br/> |Un traitement supplémentaire est requis sur l’objet message lors du déplacement vers un autre dossier.  <br/> |
 |seOpenForCtxMenu  <br/> |0x0100  <br/> |Un traitement supplémentaire est requis sur l’objet message lors de l’affichage de verbes à l’utilisateur final.  <br/> |
@@ -63,7 +63,7 @@ Doit être définie sur un bit ou zéro ou plusieurs des indicateurs suivants.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

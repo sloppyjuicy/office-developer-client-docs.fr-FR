@@ -25,7 +25,7 @@ Une balise de propriété est un nombre 32 bits qui contient un identificateur d
   
 ![Éléments de balise de propriété Éléments de]balise(media/amapi_10.gif "Property")
   
-Les balises de propriété sont utilisées pour identifier les propriétés MAPI et chaque propriété doit en avoir une, que la propriété soit définie par MAPI, un client ou un fournisseur de services. MAPI définit un ensemble de constantes de balise de propriété pour ses propriétés dans le fichier d’en-tête Mapitags.h ; Ces propriétés sont appelées « propriétés définies par MAPI ». 
+Les balises de propriété sont utilisées pour identifier les propriétés MAPI et chaque propriété doit en avoir une, que la propriété soit définie par MAPI, un client ou un fournisseur de services. MAPI définit un ensemble de constantes de balise de propriété pour ses propriétés dans le fichier d’en-tête Mapitags.h ; ces propriétés sont appelées « propriétés définies par MAPI ». 
   
 Les constantes de balise de propriété suivent une convention d’attribution de noms pour des raisons de cohérence et de simplicité d’utilisation. Le nom de chaque balise de propriété est en deux parties : un préfixe PR_ et une ou plusieurs chaînes de caractères qui décrivent le contenu de la propriété. Plusieurs chaînes de caractères sont séparées par des traits de soulignement. Par exemple, la balise de propriété pour le type d’adresse d’un destinataire de message est **PR \_ ADDRTYPE** ([PidTagOrgAddrtype](https://msdn.microsoft.com/library/d40b5707-e4d5-4746-88d4-8616a3789789%28Office.15%29.aspx)) et l’identificateur d’entrée pour le dossier désigné pour recevoir une copie de chaque message sortant est **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
   

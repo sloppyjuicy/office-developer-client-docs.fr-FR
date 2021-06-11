@@ -41,8 +41,8 @@ Les valeurs possibles **pour PR_AGING_GRANULARITY** peuvent être l’une des va
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** est défini en nombre de mois.  <br/> |
-|**AG_WEEKS** <br/> |1   <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines.  <br/> |
-|**AG_DAYS** <br/> |2   <br/> |**PR_AGING_PERIOD** est défini en nombre de jours.  <br/> |
+|**AG_WEEKS** <br/> |1  <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines.  <br/> |
+|**AG_DAYS** <br/> |2  <br/> |**PR_AGING_PERIOD** est défini en nombre de jours.  <br/> |
    
 La durée pendant qu’un élément reste dans un dossier avant d’être archivé est déterminée par deux propriétés, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) et **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** représente le nombre d’unités de temps pendant que l’élément reste dans le dossier avant d’être archivé. 
   

@@ -32,11 +32,11 @@ Contient le nombre de messages dans un dossier, tel que calculé par la boutique
 |Propriétés associées :  <br/> |PR_CONTENT_COUNT  <br/> |
 |Identificateur :  <br/> |0x3602  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété calculée par la magasin de messages est utilisée à deux fins différentes, bien qu’associées. Sur un objet MapiFolder, il contient le nombre de messages dans un dossier. Dans une ligne de titre des tableaux MAPI classés, elle contient le nombre de messages non associés dans la catégorie correspondant à cette ligne de titre.
+Cette propriété calculée par la boutique de messages est utilisée à deux fins différentes, bien qu’associées. Sur un objet MapiFolder, il contient le nombre de messages dans un dossier. Dans une ligne de titre dans les tableaux MAPI catégorisés, il contient le nombre de messages non associés dans la catégorie correspondant à cette ligne de titre.
   
 Le numéro contenu dans cette propriété n’inclut pas les entrées associées dans le dossier. **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md)) contient le nombre de messages non lus pour le dossier. Une application cliente peut lire, mais pas modifier cette propriété et **PR_CONTENT_UNREAD**. 
   
@@ -46,7 +46,7 @@ Le numéro contenu dans cette propriété n’inclut pas les entrées associées
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Microsoft Exchange Server de protocole associées.
+> Fournit des références aux spécifications Microsoft Exchange Server protocole.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

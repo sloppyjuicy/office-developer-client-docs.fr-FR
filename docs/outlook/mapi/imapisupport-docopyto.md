@@ -43,7 +43,7 @@ HRESULT DoCopyTo(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpSrcInterface_
   
@@ -121,11 +121,11 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative d’accès à un objet pour lequel l’appelant dispose d’autorisations insuffisantes a été tentée. Cette erreur est renvoyée si l’objet de destination est identique à l’objet source.
+> Une tentative d’accès à un objet pour lequel l’appelant ne dispose pas des autorisations suffisantes a été tentée. Cette erreur est renvoyée si l’objet de destination est identique à l’objet source.
     
 MAPI_E_INVALID_PARAMETER 
   
-> Le  _paramètre lpSrcInterface est_ NULL. 
+> Le  _paramètre lpSrcInterface_ est NULL. 
     
 Les valeurs suivantes peuvent être renvoyées dans la structure **SPropProblemArray,** mais pas en tant que valeurs de retour **pour DoCopyTo**. Ces erreurs s’appliquent à une seule propriété.
   
@@ -159,9 +159,9 @@ Pour exclure des propriétés de l’opération de copie ou de déplacement, inc
   
  `PROP_TAG(PT_LONG, 0x8002)`
   
-Pour éviter de copier l’heure de remise d’un message lorsque vous copiez le message dans un autre dossier, spécifiez **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) dans le tableau d’exclusion de balise de propriété. Pour exclure la liste des destinataires d’un message, ajoutez la propriété **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) au tableau d’exclusion. Pour exclure les pièces jointes d’un message, ajoutez la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) au tableau.
+Pour éviter de copier le temps de remise d’un message lorsque vous copiez le message dans un autre dossier, spécifiez **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) dans le tableau d’exclusion de balise de propriété. Pour exclure la liste des destinataires d’un message, ajoutez la propriété **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) au tableau d’exclusion. Pour exclure les pièces jointes d’un message, ajoutez la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) au tableau.
   
-De même, pour empêcher la copie ou le déplacement de la hiérarchie ou de la table des matières d’un conteneur de dossiers ou de carnets d’adresses, incluez **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) dans le tableau d’exclusion de balise de propriété.
+De même, pour empêcher la copie ou le déplacement de la hiérarchie ou de la table des matières d’un conteneur de dossier ou de carnet d’adresses, incluez **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) dans le tableau d’exclusion de balise de propriété.
   
 Ignorez MAPI_E_COMPUTED erreurs renvoyées dans la structure **SPropProblemArray** dans le paramètre _lppProblems._ 
   

@@ -42,11 +42,11 @@ Si elle est présente, la propriété doit avoir six entrées, chacune correspon
 |**Index basé sur un dans la propriété à valeurs multiples**|**La valeur doit être l’une des suivantes :**|**Description**|
 |:-----|:-----|:-----|
 |1  <br/> |0x00000001  <br/> |L’application doit afficher l’adresse du domicile du contact.  <br/> |
-|1   <br/> |0x00000002 ou 0x00000000  <br/> |L’application doit afficher le travail du contact.  <br/> |
-|1   <br/> |0x00000003  <br/> |L’application doit afficher l’autre adresse du contact.  <br/> |
-|2   <br/> |0x00008080  <br/> |L’application doit afficher Email1.  <br/> |
-|2   <br/> |0x00008090  <br/> |L’application doit afficher Email2.  <br/> |
-|2   <br/> |0x000080A0  <br/> |L’application doit afficher Email3.  <br/> |
+|1  <br/> |0x00000002 ou 0x00000000  <br/> |L’application doit afficher le travail du contact.  <br/> |
+|1  <br/> |0x00000003  <br/> |L’application doit afficher l’autre adresse du contact.  <br/> |
+|2  <br/> |0x00008080  <br/> |L’application doit afficher Email1.  <br/> |
+|2  <br/> |0x00008090  <br/> |L’application doit afficher Email2.  <br/> |
+|2  <br/> |0x000080A0  <br/> |L’application doit afficher Email3.  <br/> |
 |3,4,5,6  <br/> |PropertyID de l’une des propriétés téléphoniques ou des numéros de télécopie spécifiés dans [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).  <br/> |L’application doit afficher la propriété correspondante.  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes

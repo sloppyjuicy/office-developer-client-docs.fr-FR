@@ -25,18 +25,18 @@ ms.locfileid: "32327908"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient **l’EntryID** du dossier Journal Outlook. 
+Contient **l’EntryID** du dossier Outlook Journal. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_JOURNAL_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x36D2  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est stockée dans le dossier Boîte de réception, ainsi que dans le dossier racine de la magasin de messages. Pour accéder à la propriété d’une magasin de messages spécifique, vous pouvez : 
+Cette propriété est stockée dans le dossier Boîte de réception, ainsi que dans le dossier racine de la boutique de messages. Pour accéder à la propriété d’une magasin de messages spécifique, vous pouvez : 
   
 1. Tout d’abord, recherchez la propriété dans le dossier Boîte de réception. Utilisez [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md) pour obtenir une référence à **EntryID** pour le dossier Boîte de réception. 
     
@@ -54,7 +54,7 @@ Cette propriété est stockée dans le dossier Boîte de réception, ainsi que d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   

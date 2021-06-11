@@ -32,7 +32,7 @@ Contient la valeur pour le calcul des dates de début et de fin de la plage de d
 |Propriétés associées :  <br/> |PR_FREEBUSY_COUNT_MONTHS  <br/> |
 |Identificateur :  <br/> |0x6869  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Message défini comme transmettable par la classe  <br/> |
+|Domaine :  <br/> |Message définissable par la classe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidEmail2DisplayName
+title: Propri t canonique PidLidEmail2DisplayName
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32328776"
 ---
-# <a name="pidlidemail2displayname-canonical-property"></a>Propriété canonique PidLidEmail2DisplayName
+# <a name="pidlidemail2displayname-canonical-property"></a>Propri t canonique PidLidEmail2DisplayName
 
   
   

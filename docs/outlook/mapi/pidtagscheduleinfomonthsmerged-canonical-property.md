@@ -25,7 +25,7 @@ ms.locfileid: "32336476"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste des mois pendant lesquels les données de type occupé ou un message d’absence du bureau sont présents dans le message de libre/occupé. 
+Contient une liste des mois pendant lesquels des données de type occupé ou un message d’absence du bureau (OOF) sont présents dans le message de libre/occupé. 
   
 |||
 |:-----|:-----|

@@ -36,7 +36,7 @@ HRESULT IStorageFromStream(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUnkIn_
   
@@ -86,7 +86,7 @@ L’objet de stockage créé par **IStorageFromStream** appelle la méthode [IUn
 
 Lorsque la [méthode IMAPIProp::OpenProperty](imapiprop-openproperty.md) de l’un de vos objets est appelée pour ouvrir une propriété avec l’interface **IStorage,** effectuez les tâches suivantes : 
   
-1. Ouvrez un objet stream avec une autorisation de lecture/écriture pour la propriété.
+1. Ouvrez un objet de flux avec une autorisation de lecture/écriture pour la propriété.
     
 2. Marquez en interne le flux de propriété en tant qu’objet de stockage.
     

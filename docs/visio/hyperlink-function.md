@@ -29,7 +29,7 @@ HYPERLINK( » ** *address* ** « [, » ** *subaddress* ** « , » ** *extra
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _adresse_ <br/> |Obligatoire  <br/> |**String** <br/> |Chemin d’accès complet ou relatif.  <br/> |
-| _sous-adresse_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Spécifie un emplacement dans l’adresse à lier. Par exemple, si l’adresse est un fichier Microsoft Visio, la sous-adresse peut être un nom de page ; si un fichier Microsoft Excel, sous-adresse peut être une feuille de calcul ou une plage dans une feuille de calcul ; Si une URL pour une page HTML, sous-adresse peut être un ancrage.  <br/> |
+| _sous-adresse_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Spécifie un emplacement dans address auquel se lier. Par exemple, si address est un fichier Microsoft Visio, subaddress peut être un nom de page. S’il s’agit d’un fichier Microsoft Excel, subaddress peut être une feuille de calcul ou une plage d’une feuille de calcul. Dans le cas d’une URL permettant d’accéder à une page HTML, subaddress peut être un point d’ancrage.  <br/> |
 | _extrainfo_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Transmet les informations utilisées pour la résolution de l’URL, comme les coordonnées d’une image interactive.  <br/> |
 | _window_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Indique si le lien hypertexte s’ouvre dans une nouvelle fenêtre. La valeur par défaut est FALSE.  <br/> |
 | _frame_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Spécifie le nom d’un cadre à cibler lorsque Visio est ouvert comme document ActiveX dans un navigateur ActiveX, tel que Microsoft Internet Explorer 3.0 ou ultérieur. Par défaut, cette chaîne est vide.  <br/> |
@@ -46,7 +46,7 @@ Vous pouvez utiliser la fonction GOTOPAGE pour naviguer vers différentes pages 
 
  `HYPERLINK("C:\My Documents\Drawing1.vsdx")`
   
-## <a name="example-2"></a>Exemple 2
+## <a name="example-2"></a>Exemple 2
 
  `HYPERLINK("\\Server\Share\Drawing1.vsdx")`
   

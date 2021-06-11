@@ -39,11 +39,11 @@ HRESULT HrCreateNewWrappedObject(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pvUnwrapped_
   
-> [in] Objet Outlook initialement déballé. Doit implémenter l’une des interfaces suivantes :
+> [in] L’objet d’Outlook initialement déballé. Doit implémenter l’une des interfaces suivantes :
     
    - [IMailUser : IMAPIProp](https://msdn.microsoft.com/library/74c25870-62d9-484a-9a99-4dc35c52479e%28Office.15%29.aspx), [IMAPIFolder : IMAPIContainer](https://msdn.microsoft.com/library/bc2e8d17-7687-43c2-8f01-b677703f7288%28Office.15%29.aspx), [IMessage : IMAPIProp](https://msdn.microsoft.com/library/7e244d40-595e-432c-aa8c-f9f62ca3c138%28Office.15%29.aspx), [IMsgStore : IMAPIProp](https://msdn.microsoft.com/library/20090114-b183-4767-8971-a304a9aa47e6%28Office.15%29.aspx), [IMSLogon : IUnknown](https://msdn.microsoft.com/library/d87093dc-f705-465f-ab3c-944ca0cd3e54%28Office.15%29.aspx)ou [IOSTX](https://msdn.microsoft.com/library/f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f%28Office.15%29.aspx).
     
@@ -85,7 +85,7 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
   
 ## <a name="remarks"></a>Remarques
 
-La transmission d’un objet wrapped avec  _fCheckWrap_ définie sur **true** entraîne un objet non enveloppé. Que l’objet renvoyé soit wrapped ou non, le client est responsable de la libération de la référence sur l’objet renvoyé. 
+La transmission d’un objet wrapped avec  _fCheckWrap_ définie sur **true** entraîne un objet non enveloppé. Que l’objet renvoyé soit wrapped ou non, le client est chargé de libérer la référence sur l’objet renvoyé. 
   
 Lorsque vous **utilisez GetProcAddress** pour rechercher l’adresse de cette fonction dans msmapi32.dll, spécifiez **HrCreateNewWrappedObject@28** comme nom de procédure. 
   

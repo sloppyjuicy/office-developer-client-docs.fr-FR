@@ -18,7 +18,7 @@ ms.locfileid: "32316974"
 
 Les propriétés de fuseau horaire, [PidLidAppointmentTimeZoneDefinitionEndDisplay](https://msdn.microsoft.com/library/7b6193cb-612b-408e-b9bc-285df313e2cc%28Office.15%29.aspx), [PidLidAppointmentTimeZoneDefinitionRecur](https://msdn.microsoft.com/library/52fd57a0-9e34-4452-9ecd-2acb454446c9%28Office.15%29.aspx)et [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) sont des propriétés nommées binaires, chacune contenant un flux qui est mapmé sur le format persistant d’une structure [TZDEFINITION.](tzdefinition.md) 
   
-Cette rubrique décrit un petit format endian qui peut être utilisé lors de la persistance de **TZDEFINITION** dans un flux pour valider l’une des trois propriétés binaires. Utilisez le même format de fin dans un l’interpréteur pour interpréter une valeur de flux obtenue à partir de l’une de ces propriétés. 
+Cette rubrique décrit un petit format endian qui peut être utilisé lors de la persistance de **TZDEFINITION** dans un flux pour valider l’une des trois propriétés binaires. Utilisez le même format de fin dans un parseur pour interpréter une valeur de flux obtenue à partir de l’une de ces propriétés. 
   
 ```cpp
 BYTE  bMajorVersion;    // breaking change

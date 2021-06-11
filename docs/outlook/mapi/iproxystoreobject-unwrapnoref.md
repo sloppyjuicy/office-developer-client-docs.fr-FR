@@ -31,7 +31,7 @@ Obtient un pointeur vers un objet de magasin IMAP (Internet Message Access Proto
 HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject ); 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ppvObject_
   

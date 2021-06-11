@@ -32,7 +32,7 @@ Contient TRUE si un message comporte au moins une règle d’action différée.
 |Propriétés associées :  <br/> |PR_HAS_DAMS  <br/> |
 |Identificateur :  <br/> |0x3FEA  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Rules  <br/> |
+|Domaine :  <br/> |Règles  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

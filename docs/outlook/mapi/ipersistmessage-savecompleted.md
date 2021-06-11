@@ -31,7 +31,7 @@ HRESULT SaveCompleted(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pMessage_
   
@@ -69,7 +69,7 @@ La **méthode IPersistMessage::SaveCompleted** est appelée par une visionneuse 
     
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Il existe plusieurs actions possibles que la méthode **SaveCompleted** peut effectuer, en fonction du contenu du paramètre de pointeur de message et de l’état dans le message. Toutefois, lorsqu’une action réussit, enregistrez toujours l’état actuel du message vers qui pointe le paramètre  _pMessage_ et transition du formulaire à son [état](normal-state.md) Normal. 
+Il existe plusieurs actions possibles que la méthode **SaveCompleted** peut effectuer, en fonction du contenu du paramètre de pointeur de message et de l’état dans le message. Toutefois, lorsqu’une action réussit, enregistrez toujours l’état actuel du message vers qui pointe le paramètre _pMessage_ et transition du formulaire vers son [état Normal.](normal-state.md) 
   
 Le tableau suivant décrit les conditions qui affectent les actions que vous devez prendre dans votre implémentation de **SaveCompleted**.
   
@@ -79,7 +79,7 @@ Le tableau suivant décrit les conditions qui affectent les actions que vous dev
 |Le  _paramètre pMessage_ est NULL et le paramètre  _fSameAsLoad_ de la méthode **IPersistMessage::Save** est définie sur FALSE.  <br/> |Elles retournent S_OK.  <br/> |
 |Le formulaire est à l’état HandsOffFromNormal.  <br/> |Relâchez le message actuel et remplacez-le par le message pointé par _le paramètre pMessage._ Appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) du message de remplacement et renvoyez S_OK.  <br/> |
 |Le formulaire est à l’état HandsOffAfterSave.  <br/> |Appelez **la méthode IMAPIViewAdviseSink::OnSaved** de toutes les visionneuses inscrites, marquez le formulaire comme propre et renvoyez S_OK.  <br/> |
-|Le formulaire est dans [l’état NoScribble.](noscribble-state.md)  <br/> |Release the current message and replace it with the message pointed to by  _pMessage_. Appelez la méthode **IUnknown::AddRef** du message de remplacement. Appelez **la méthode IMAPIViewAdviseSink::OnSaved** de toutes les visionneuses inscrites, marquez le formulaire comme propre et renvoyez S_OK.  <br/> |
+|Le formulaire est dans [l’état NoScribble.](noscribble-state.md)  <br/> |Relâchez le message actuel et remplacez-le par le message pointé  _par pMessage_. Appelez la méthode **IUnknown::AddRef** du message de remplacement. Appelez **la méthode IMAPIViewAdviseSink::OnSaved** de toutes les visionneuses inscrites, marquez le formulaire comme propre et renvoyez S_OK.  <br/> |
 |Le formulaire est dans l’un des états HandsOff et le  _paramètre pMessage_ est définie sur NULL.  <br/> |Renvoyer E_INVALIDARG.  <br/> |
 |Le formulaire est dans un état autre que l’un des états HandsOff ou NoScribble.  <br/> |Renvoyer E_UNEXPECTED.  <br/> |
    

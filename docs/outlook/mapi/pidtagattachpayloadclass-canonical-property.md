@@ -32,13 +32,13 @@ Contient la valeur d’un champ d’en-tête MIME X-Payload-Class.
 |Propriétés associées :  <br/> |PR_ATTACH_PAYLOAD_CLASS, PR_ATTACH_PAYLOAD_CLASS_A, PR_ATTACH_PAYLOAD_CLASS_W  <br/> |
 |Identificateur :  <br/> |0x371A  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Application Outlook  <br/> |
+|Domaine :  <br/> |Outlook application  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 Pour définir la valeur de ces propriétés, les clients MIME doivent écrire un champ d’en-tête de classe de charge utile X dans une entité MIME qui sera analysée en tant que pièce jointe.
   
-Les lecteurs MIME doivent copier cette valeur de champ d’en-tête sur la valeur de la propriété correspondante. Les lecteurs MIME doivent ignorer ce champ d’en-tête lorsqu’il apparaît sur une entité MIME analysée en tant que message ou corps de message, plutôt qu’en tant que pièce jointe.
+Les lecteurs MIME doivent copier cette valeur de champ d’en-tête sur la valeur de la propriété correspondante. Les lecteurs MIME doivent ignorer ce champ d’en-tête lorsqu’il apparaît sur une entité MIME analysée sous forme de message ou de corps de message, plutôt que sous forme de pièce jointe.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Les lecteurs MIME doivent copier cette valeur de champ d’en-tête sur la valeu
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

@@ -19,9 +19,9 @@ ms.locfileid: "32336700"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsqu’un message est envoyé, le fournisseur de transport peut créer un fichier qui est utilisé pour contenir le message lors de la transmission. Ensuite, une interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) est enveloppée autour du fichier. Le fournisseur de transport utilise ensuite des méthodes [ITnef](itnefiunknown.md) pour écrire les propriétés du message dans le flux dans un format balisé qui permet aux propriétés d’être facilement décodées par les fournisseurs de transport de réception. 
+Lorsqu’un message est envoyé, le fournisseur de transport peut créer un fichier qui est utilisé pour contenir le message pendant la transmission. Ensuite, une interface [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) est enveloppée autour du fichier. Le fournisseur de transport utilise ensuite des méthodes [ITnef](itnefiunknown.md) pour écrire les propriétés du message dans le flux dans un format balisé qui permet aux propriétés d’être facilement décodées par les fournisseurs de transport de réception. 
   
-**Pour représenter un message entier dans un fichier unique**
+**Pour représenter un message entier dans un seul fichier**
   
 1. Obtenez un objet TNEF en passant un objet [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) et un message dans la [fonction OpenTnefStreamEx.](opentnefstreamex.md) 
     

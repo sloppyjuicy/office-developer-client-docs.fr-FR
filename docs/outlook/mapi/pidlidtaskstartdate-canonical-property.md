@@ -39,7 +39,7 @@ Date à laquelle l’utilisateur s’attend à commencer la tâche.
 
 Si cette valeur de propriété n’est pas jeu, la tâche n’a pas de date de début. La valeur « 0x5AE980E0 » (1 525 252 320) signifie également que la tâche n’a pas de date de début. Si la tâche a une date de début, la valeur doit avoir un composant d’heure de minuit et les propriétés **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) et **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) doivent également être définies.
   
-Cette propriété est partagée par les spécifications de protocole Informational Flagging et Task-Related Object Protocol situées [dans [MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
+Cette propriété est partagée par les spécifications de protocole Informational Flagging et Task-Related Object Protocol situées dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 

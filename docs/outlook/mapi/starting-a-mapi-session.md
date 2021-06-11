@@ -33,7 +33,7 @@ Bien qu’une quantité importante de travail soit effectuée au démarrage de l
     
 4. Appelez **MAPILogonEx avec** un profil valide pour vous connecter au sous-système MAPI. **MAPILogonEx** vérifie la configuration de chacun des fournisseurs de services dans les services de messagerie inclus dans le profil, en inviteant l’utilisateur à fournir des informations supplémentaires si nécessaire et possible. Une **fois MAPILogonEx** terminé, les fournisseurs de services configurés sont prêts pour le service. 
     
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Initialisation de MAPI](initializing-mapi.md)
   

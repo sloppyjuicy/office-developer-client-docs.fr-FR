@@ -1,12 +1,12 @@
 ---
-title: Bienvenue dans la référence auxiliaire d’Outlook
+title: Bienvenue dans la Outlook auxiliaire
 manager: soliver
 ms.date: 09/10/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2e48a625-b3f7-9fd0-253e-fe12a1aca446
-description: La référence auxiliaire d’Outlook contient du contenu conceptuel et de la documentation de référence pour quatre ensembles d’API, des exemples de code et un programme d’installation redistribuable qui permettent aux développeurs d’étendre et d’intégrer Outlook. Les API de cette référence sont exposées par Outlook pour l’extensibilité, en dehors du modèle objet Outlook.
+description: La référence auxiliaire Outlook contient du contenu conceptuel et de la documentation de référence pour quatre ensembles d’API, des exemples de code et un programme d’installation redistribuable qui permettent aux développeurs d’étendre et d’intégrer les Outlook. Les API de cette référence sont exposées Outlook pour l’extensibilité, en dehors Outlook modèle objet.
 ms.openlocfilehash: 445d35c12e4c8984d47adcef3ecf50ebd881875b
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -14,15 +14,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32328979"
 ---
-# <a name="welcome-to-the-outlook-auxiliary-reference"></a>Bienvenue dans la référence auxiliaire d’Outlook
+# <a name="welcome-to-the-outlook-auxiliary-reference"></a>Bienvenue dans la Outlook auxiliaire
 
-La référence auxiliaire d’Outlook contient du contenu conceptuel et de la documentation de référence pour quatre ensembles d’API, des exemples de code et un programme d’installation redistribuable qui permettent aux développeurs d’étendre et d’intégrer Outlook. Les API de cette référence sont exposées par Outlook pour l’extensibilité, en dehors du modèle objet Outlook. 
+La référence auxiliaire Outlook contient du contenu conceptuel et de la documentation de référence pour quatre ensembles d’API, des exemples de code et un programme d’installation redistribuable qui permettent aux développeurs d’étendre et d’intégrer les Outlook. Les API de cette référence sont exposées Outlook pour l’extensibilité, en dehors Outlook modèle objet. 
   
 Si vous débutez en tant que développeur de solutions pour Outlook, consultez [Sélection d'une API ou d'une technologie pour développer des solutions pour Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) pour identifier les API et technologies les plus adaptées à vos besoins. 
 
-Pour plus d’informations sur le modèle objet Outlook, voir la référence [VBA Outlook.](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx) 
+Pour obtenir des informations spécifiques sur Outlook modèle objet, voir la [Outlook VBA.](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx) 
 
-Pour plus d’informations sur l’API de messagerie (MAPI) prise en charge par Outlook, voir la référence [MAPI Outlook.](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)
+Pour plus d’informations sur l’API de messagerie (MAPI) prise en charge par Outlook, voir la Outlook [référence MAPI .](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)
 
 ## <a name="conceptual"></a>Conceptuel 
 
@@ -44,7 +44,7 @@ La discussion conceptuelle comprend les sujets suivants :
     
 - [À propos des demandes de réunion sous la forme d'informations mises à jour et mises à jour intégrales](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
-- À propos de la [rebasing](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) de calendriers par programme pour l’heure d’été (il existe également un programme d’installation redistribuable pour les outils de rebasing de calendrier tiers, qui fonctionne également pour les versions précédentes d’Outlook, depuis Outlook 2010. Pour télécharger le programme d’installation, voir [Outlook 2010: Auxiliary Reference Redistributable Installer and Header File for Rebasing Calendars](https://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b).)
+- À propos de la [rebasing](about-rebasing-calendars-programmatically-for-daylight-saving-time.md) de calendriers par programme pour l’heure d’été (il existe également un programme d’installation redistribuable pour les outils de rebasing de calendrier tiers, qui fonctionne également pour les versions précédentes de Outlook, depuis Outlook 2010. Pour télécharger le programme d’installation, [voir Outlook 2010: Auxiliary Reference Redistributable Installer and Header File for Rebasing Calendars](https://www.microsoft.com/downloads/details.aspx?FamilyID=77748863-4352-4b99-ae57-1d4ae803983b).)
     
 - [À propos de la persistance de TZDEFINITION dans un flux de validation dans une propriété binaire](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
 
@@ -56,13 +56,13 @@ Le contenu de référence inclut les suivants :
     
 - [L’API de gestion des](about-the-account-management-api.md) comptes permet d’accéder aux informations de compte d’utilisateur et aux notifications de modifications de compte. 
     
-- [L’API de couche](about-the-data-degradation-layer-api.md) de dégradation des données prend en charge les clients qui accèdent à un élément Outlook dans un format de caractère préféré plutôt que dans le format de caractère natif de l’objet. 
+- [L’API de couche](about-the-data-degradation-layer-api.md) de dégradation des données prend en charge les clients qui accèdent à un Outlook dans un format de caractère préféré plutôt que dans le format de caractère natif de l’objet. 
     
 - [L’API de libre/occupé](about-the-free-busy-api.md) fournit des informations d’état de libre/occupé sur des comptes d’utilisateurs spécifiques dans un délai spécifique. 
 
 ## <a name="sample-tasks"></a>Exemples de tâches
 
-Les exemples de tâches de la référence auxiliaire d’Outlook sont les suivants :
+Les exemples de tâches de la Outlook auxiliaire sont les suivants :
     
 - [Déterminer si un élément Outlook a été modifié mais pas enregistré (référence auxiliaire d'Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
     
@@ -79,6 +79,6 @@ Les exemples de tâches de la référence auxiliaire d’Outlook sont les suivan
 La référence pour chaque API répertorie les constantes, définitions de types et interfaces qu’un développeur doit implémenter pour utiliser les fonctionnalités supplémentaires.
   
 > [!NOTE]
-> Les développeurs doivent implémenter ces API uniquement comme documenté dans cette référence. Certains membres d’interface et paramètres de méthode sont nommés comme espaces réservés, car ils sont réservés à l’utilisation interne d’Outlook et sont sujets à modification sans préavis. 
+> Les développeurs doivent implémenter ces API uniquement comme documenté dans cette référence. Certains membres d’interface et paramètres de méthode sont nommés comme espaces réservés, car ils sont réservés à l’utilisation interne de Outlook et peuvent être changés sans préavis. 
   
 

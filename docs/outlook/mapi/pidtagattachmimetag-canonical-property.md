@@ -36,7 +36,7 @@ Contient des informations de mise en forme sur une pièce jointe MIME (Multipurp
    
 ## <a name="remarks"></a>Remarques
 
-Si **la PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contient la valeur **OID_MIMETAG**, le fournisseur de transport doit examiner ces propriétés pour déterminer comment la pièce jointe est mise en forme. 
+Si **la propriété PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) contient la valeur **OID_MIMETAG**, le fournisseur de transport doit examiner ces propriétés pour déterminer comment la pièce jointe est mise en forme. 
   
 Ces propriétés sont copiées à partir du paramètre Content-type de l’en-tête MIME entrant. La composition de la chaîne est définie dans le document RFC 1521. Le format est type/sous-type, par exemple application/binaire ou texte/simple. 
   
@@ -46,7 +46,7 @@ Ces propriétés sont copiées à partir du paramètre Content-type de l’en-t�
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   

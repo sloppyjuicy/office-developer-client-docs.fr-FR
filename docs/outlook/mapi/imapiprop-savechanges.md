@@ -33,7 +33,7 @@ HRESULT SaveChanges(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -57,7 +57,7 @@ KEEP_OPEN_READWRITE
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **SaveChanges de** renvoyer correctement, éventuellement avant que les modifications n’ont été entièrement engagés. 
+> Permet à **SaveChanges de** retourner correctement, éventuellement avant que les modifications n’ont été entièrement engagés. 
     
 SPAMFILTER_ONSAVE
   
@@ -67,7 +67,7 @@ SPAMFILTER_ONSAVE
 
 S_OK 
   
-> L’engagement de modifications a réussi.
+> L’engagement des modifications a réussi.
     
 MAPI_E_NO_ACCESS 
   
@@ -103,19 +103,19 @@ Si un fournisseur de transport distant fournit une implémentation fonctionnelle
 
 Si un client passe KEEP_OPEN_READONLY, appelle la méthode [IMAPIProp::SetProps,](imapiprop-setprops.md) puis appelle à nouveau **SaveChanges,** la même implémentation peut échouer. 
   
-Après avoir reçu MAPI_E_NO_ACCESS d’un appel dans lequel vous avez KEEP_OPEN_READWRITE, vous continuerez à avoir une autorisation de lecture/écriture sur l’objet. Vous pouvez appeler **à nouveau SaveChanges,** en passant l’indicateur KEEP_OPEN_READONLY ou aucun indicateur avec KEEP_OPEN_SUFFIX. 
+Après avoir reçu MAPI_E_NO_ACCESS d’un appel dans lequel vous avez KEEP_OPEN_READWRITE, vous continuerez à avoir une autorisation de lecture/écriture sur l’objet. Vous pouvez appeler à nouveau **SaveChanges,** en passant l’indicateur KEEP_OPEN_READONLY ou aucun indicateur avec KEEP_OPEN_SUFFIX. 
   
 Le fait qu’un fournisseur prend en charge KEEP_OPEN_READWRITE’indicateur dépend de l’implémentation du fournisseur. 
   
-Pour indiquer que le seul appel à appeler sur l’objet après **SaveChanges** est **IUnknown::Release**, ne définissez aucun indicateur pour le _paramètre ulFlags._ Une erreur **de SaveChanges indique** qu’il n’a pas pu rendre permanentes les modifications en attente. Différents fournisseurs gèrent différemment l’absence d’indicateurs sur **l’appel SaveChanges.** Certains fournisseurs traitent cet état de la même façon que KEEP_OPEN_READONLY ; d’autres fournisseurs l’interprètent de la même KEEP_OPEN_READWRITE. D’autres fournisseurs arrêtent l’objet lorsqu’ils ne reçoivent pas d’indicateurs lors de l’appel **SaveChanges.** 
+Pour indiquer que le seul appel à appeler sur l’objet après **SaveChanges** est **IUnknown::Release**, ne définissez aucun indicateur pour le _paramètre ulFlags._ Une erreur **de SaveChanges indique** qu’il n’a pas pu rendre permanentes les modifications en attente. Différents fournisseurs gèrent différemment l’absence d’indicateurs sur **l’appel SaveChanges.** Certains fournisseurs traitent cet état de la même façon que KEEP_OPEN_READONLY ; d’autres fournisseurs l’interprètent de la même KEEP_OPEN_READWRITE. D’autres fournisseurs arrêtent l’objet lorsqu’ils ne reçoivent pas d’indicateurs lors de **l’appel SaveChanges.** 
   
 Certaines propriétés, généralement calculées, ne peuvent pas être traitées tant que vous n’avez pas appelé **SaveChanges** et, dans certains cas, **Release**.
   
 Lorsque vous a majeurez des modifications, telles que l’enregistrement de pièces jointes dans plusieurs messages, reportez le traitement des erreurs en MAPI_DEFERRED_ERRORS’indicateur dans  _ulFlags_. Si vous enregistrez plusieurs pièces jointes dans plusieurs messages, faites un appel **SaveChanges** à chaque pièce jointe et un appel **SaveChanges** à chaque message. Définissez l MAPI_DEFERRED_ERRORS pour chaque appel de pièce jointe et pour tous les messages à l’exception du dernier. 
   
-Si **SaveChanges renvoie** MAPI_E_OBJECT_CHANGED, vérifiez si l’objet d’origine a été modifié. Si c’est le cas, avertissez l’utilisateur, qui peut demander que les modifications ont changé ou enregistrer l’objet ailleurs. Si l’objet d’origine a été supprimé, avertissez l’utilisateur de lui donner la possibilité d’enregistrer l’objet à un autre emplacement. 
+Si **SaveChanges renvoie** MAPI_E_OBJECT_CHANGED, vérifiez si l’objet d’origine a été modifié. Si c’est le cas, avertissez l’utilisateur, qui peut demander que les modifications ont été réécrites ou enregistrer l’objet ailleurs. Si l’objet d’origine a été supprimé, avertissez l’utilisateur de lui donner la possibilité d’enregistrer l’objet à un autre emplacement. 
   
-Vous ne pouvez pas **appeler SaveChanges** avec l’FORCE_SAVE sur un objet ouvert qui a été supprimé. 
+Vous ne pouvez **pas appeler SaveChanges** avec l’FORCE_SAVE sur un objet ouvert qui a été supprimé. 
   
 Si **SaveChanges renvoie** une erreur, l’objet dont les modifications doivent être enregistrées reste ouvert, quels que soient les indicateurs définies dans le _paramètre ulFlags._ 
   

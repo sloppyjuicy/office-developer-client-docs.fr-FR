@@ -33,7 +33,7 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::Unadvise** annule l’inscription à la notification. **Unadvise relâche** son pointeur vers le réception de conseil de l’appelant, qu’il a reçu dans l’appel **De** conseil utilisé pour l’inscription. 
+La **méthode IMAPISession::Unadvise** annule l’inscription à la notification. **Unadvise libère** son pointeur vers le sink de conseil de l’appelant, qu’il a reçu dans l’appel **Advise** utilisé pour l’inscription. 
   
 En règle **générale, Unadvise** appelle la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) du sink de conseil pendant l’appel **Unadvise.** Toutefois, si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) du sink de conseil, l’appel de publication est différé jusqu’à ce que la méthode **OnNotify** soit de retour.  
   

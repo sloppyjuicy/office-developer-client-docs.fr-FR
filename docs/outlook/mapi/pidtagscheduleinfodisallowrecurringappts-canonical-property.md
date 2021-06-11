@@ -36,7 +36,7 @@ Contient TRUE lorsque la réponse automatique aux rendez-vous périodiques est r
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est significative que lorsque la valeur de la **propriété PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) est TRUE. L’absence de cette propriété indique que les réunions périodiques doivent être acceptées. Il ne s’agit pas d’une propriété obligatoire.
+Cette propriété n’est significative que si la valeur de la **propriété PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) est TRUE. L’absence de cette propriété indique que les réunions périodiques doivent être acceptées. Il ne s’agit pas d’une propriété obligatoire.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Cette propriété n’est significative que lorsque la valeur de la **propriét�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

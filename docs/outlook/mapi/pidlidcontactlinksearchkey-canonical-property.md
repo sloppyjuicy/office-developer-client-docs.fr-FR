@@ -37,7 +37,7 @@ Contient la liste **de SearchKeys pour** le contact lié par cet objet de messag
 
 |**Longueur en octets**|**Description**|**Notes**|
 |:-----|:-----|:-----|
-|2   <br/> |ContactEntryCount  <br/> |Aucun  <br/> |
+|2  <br/> |ContactEntryCount  <br/> |Aucun  <br/> |
 |variable  <br/> |Données SearchKey  <br/> |Répète les heures ContactEntryCount  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
@@ -50,7 +50,7 @@ Contient la liste **de SearchKeys pour** le contact lié par cet objet de messag
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

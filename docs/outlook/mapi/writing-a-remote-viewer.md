@@ -19,7 +19,7 @@ ms.locfileid: "32325661"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une visionneuse à distance est une fenêtre d’une application cliente qui fournit un accès contrôlé aux messages stockés sur un autre ordinateur. Cet accès contrôlé peut fonctionner sur une liaison de communication lente. Au lieu de récupérer une sélection complète des messages disponibles chaque fois qu’un utilisateur ouvre un dossier, la visionneuse distante affiche d’abord uniquement les en-têtes. L’utilisateur sélectionne ensuite dans les en-têtes les messages à afficher en intégralité. Les clients de visionneuse distante peuvent autoriser leurs utilisateurs à supprimer des messages avant qu’ils ne soient téléchargés. 
+Une visionneuse à distance est une fenêtre dans une application cliente qui fournit un accès contrôlé aux messages stockés sur un autre ordinateur. Cet accès contrôlé peut fonctionner sur une liaison de communication lente. Au lieu de récupérer une sélection complète des messages disponibles chaque fois qu’un utilisateur ouvre un dossier, la visionneuse distante affiche d’abord uniquement les en-têtes. L’utilisateur sélectionne ensuite dans les en-têtes les messages à afficher en intégralité. Les clients de visionneuse distante peuvent autoriser leurs utilisateurs à supprimer des messages avant qu’ils ne soient téléchargés. 
   
 ## <a name="to-retrieve-the-headers-of-messages-stored-remotely"></a>Pour récupérer les en-têtes des messages stockés à distance
   

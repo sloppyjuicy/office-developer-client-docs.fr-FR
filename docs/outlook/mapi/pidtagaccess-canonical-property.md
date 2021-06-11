@@ -36,18 +36,18 @@ Contient un masque de bits d’indicateurs indiquant les opérations disponibles
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est en lecture seule pour le client. Il doit s’agit d’un **OU** au niveau du bit de zéro ou de plusieurs valeurs du tableau suivant. 
+Cette propriété est en lecture seule pour le client. Il doit s’agit d’un **OR** au niveau du bit de zéro ou de plusieurs valeurs du tableau suivant. 
   
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Write  <br/> |
-|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Lire  <br/> |
+|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Lecture  <br/> |
 |MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Supprimer  <br/> |
 |MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |Créer des sous-dossiers dans la hiérarchie de dossiers  <br/> |
 |MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Créer des messages de contenu  <br/> |
 |MAPI_ACCESS_CREATE_ASSOCIATED  <br/> |0x00000020  <br/> |Créer des messages de contenu associés  <br/> |
    
-Les indicateurs MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY et MAPI_ACCESS_READ sont trouvés sur les objets de dossier et de message, ainsi que dans la colonne **PR_ACCESS** des tables des matières et des tables des matières associées. Les MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS et MAPI_ACCESS_CREATE_HIERARCHY sont trouvés uniquement sur les objets de dossier. 
+Les indicateurs MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY et MAPI_ACCESS_READ sont trouvés sur les objets de dossier et de message, ainsi que dans la colonne **PR_ACCESS** des tables des matières et des tables des matières associées. Les indicateurs MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS et MAPI_ACCESS_CREATE_HIERARCHY sont trouvés uniquement sur les objets de dossier. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

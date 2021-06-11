@@ -25,14 +25,14 @@ ms.locfileid: "32327915"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient **l’EntryID** du dossier Calendrier Outlook. 
+Contient **l’EntryID** du dossier Calendrier Outlook dossier. 
   
 |||
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_IPM_APPOINTMENT_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x36D0  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

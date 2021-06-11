@@ -35,7 +35,7 @@ HRESULT MoveMessage(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pFolderDestination_
   
@@ -65,7 +65,7 @@ Les objets form appellent la méthode **IMAPIMessageSite::MoveMessage** pour dé
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L’implémentation de **MoveMessage** d’une visionneuse de formulaire doit appeler la méthode [IMAPIViewContext::ActivateNext,](imapiviewcontext-activatenext.md) en passant l’indicateur VCDIR_MOVE, avant de déplacer réellement le message vers un nouveau dossier. Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la fonction Windows [GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
+L’implémentation de **MoveMessage** d’une visionneuse de formulaire doit appeler la méthode [IMAPIViewContext::ActivateNext,](imapiviewcontext-activatenext.md) en passant l’indicateur VCDIR_MOVE, avant de déplacer réellement le message vers un nouveau dossier. Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez Windows [fonction GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
   
 Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   

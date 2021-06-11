@@ -25,7 +25,7 @@ ms.locfileid: "32321321"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une liste de blocs de données qui représentent les réunions qui ont été refusées.
+Contient une liste de blocs de données qui représentent des réunions qui ont été refusées.
   
 |||
 |:-----|:-----|

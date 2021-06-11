@@ -120,7 +120,7 @@ Un administrateur peut également utiliser la stratégie de groupe pour désacti
 |**Clé** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**Nom de valeur** <br/> |**UseOnlineContent** <br/> |
 |**Type de valeur** <br/> |REG_DWORD  <br/> |
-|**Valeur par défaut** <br/> |2   <br/> |
+|**Valeur par défaut** <br/> |2  <br/> |
 |**Description** <br/> |Une valeur de 2 active la barre météorologique. Toute autre valeur la désactive.  <br/> |
    
 Si la fonctionnalité de barre météorologique a été désactivée par la stratégie de groupe, l'onglet **Calendrier** ne comprend pas la case à cocher **Afficher la météo sur le calendrier**. Consultez l'administrateur pour réactiver la fonctionnalité. 

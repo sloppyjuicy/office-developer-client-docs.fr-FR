@@ -30,7 +30,7 @@ Pour un utilisateur donné, obtient et définit un délai et renvoie une interfa
 |||
 |:-----|:-----|
 |[Placeholder1](ifreebusydata-placeholder1.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
-|[EnumBlocks](ifreebusydata-enumblocks.md) <br/> |Obtient une interface qui éumène les blocs de données de libre/occupé pour un utilisateur dans un délai spécifié.  <br/> |
+|[EnumBlocks](ifreebusydata-enumblocks.md) <br/> |Obtient une interface qui éumène les blocs de données de la période spécifiée pour un utilisateur.  <br/> |
 |[Placeholder2](ifreebusydata-placeholder2.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
 |[Placeholder3](ifreebusydata-placeholder3.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
 |[Placeholder4](ifreebusydata-placeholder4.md) <br/> | *Ce membre est un espace réservé et n’est pas pris en charge.*  <br/> |
@@ -41,7 +41,7 @@ Pour un utilisateur donné, obtient et définit un délai et renvoie une interfa
    
 ## <a name="remarks"></a>Remarques
 
-La plupart des membres de cette interface sont des espaces réservés réservés à l’utilisation interne d’Outlook et peuvent faire l’objet de changements. Les fournisseurs de libre/occupé doivent les implémenter uniquement comme spécifié, en renvoyant uniquement les valeurs de retour spécifiées.
+La plupart des membres de cette interface sont des espaces réservés à l’utilisation interne des Outlook et peuvent faire l’objet de changements. Les fournisseurs de libre/occupé doivent les implémenter uniquement comme spécifié, en renvoyant uniquement les valeurs de retour spécifiées.
   
 ## <a name="see-also"></a>Voir aussi
 

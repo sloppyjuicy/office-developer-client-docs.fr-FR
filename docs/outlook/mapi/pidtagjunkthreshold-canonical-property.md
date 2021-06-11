@@ -36,7 +36,7 @@ Indique la façon dont le courrier entrant doit être envoyé de manière agress
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété correspond au paramètre de filtre élevé/faible/aucun. La valeur « 0xFFFFFFFF » indique que le filtrage du courrier indésirable ne doit pas être appliqué, mais que les listes d’adresses bloqués doivent toujours être appliquées. La valeur « 0x80000000 » indique que tous les messages sont du courrier indésirable, à l’exception des messages provenant d’expéditeurs de la liste des expéditeurs fiables ou envoyés à des destinataires de la liste des destinataires fiables. Les valeurs sont les suivantes :
+Cette propriété correspond au paramètre de filtre élevé/faible/aucun. La valeur « 0xFFFFFFFF » indique que le filtrage du courrier indésirable ne doit pas être appliqué, mais que les listes d’adresses bloqués doivent toujours être appliquées. La valeur « 0x80000000 » indique que tous les messages sont du courrier indésirable à l’exception des messages provenant d’expéditeurs de la liste des expéditeurs fiables ou envoyés à des destinataires de la liste des destinataires fiables. Les valeurs sont les suivantes :
   
 |**Valeur**|**Description**|
 |:-----|:-----|
@@ -51,7 +51,7 @@ Cette propriété correspond au paramètre de filtre élevé/faible/aucun. La va
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   

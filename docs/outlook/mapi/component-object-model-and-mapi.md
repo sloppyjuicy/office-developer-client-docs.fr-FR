@@ -21,7 +21,7 @@ ms.locfileid: "32334467"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La documentation du SDK Windows inclut une discussion complète des règles d’implémentation d’objets conformes au modèle objet composant (COM). Ces règles d’ment comment faire les choses suivantes :
+La documentation Windows SDK inclut une discussion complète des règles d’implémentation d’objets conformes au modèle objet composant (COM). Ces règles d mentent la procédure suivante :
   
 - Interfaces et objets de conception.
     
@@ -47,10 +47,10 @@ Les autres écarts par rapport aux règles COM standard sont décrits dans le ta
   
 |**Règle de programmation COM**|**Variante MAPI**|
 |:-----|:-----|
-|Tous les paramètres de chaîne dans les méthodes d’interface doivent être Unicode.  <br/> |Les interfaces MAPI sont définies pour autoriser les paramètres de chaîne Unicode ou ANSI. De nombreuses méthodes qui ont un paramètre de chaîne ont également **un paramètre ulFlags** ; la largeur d’un paramètre de chaîne est indiquée par la valeur de l’indicateur MAPI_UNICODE dans **ulFlags**. Certaines interfaces MAPI ne prisent pas en charge Unicode et ne retournent pas MAPI_E_BAD_CHARWIDTH lorsque l’MAPI_UNICODE est définie.  <br/> |
+|Tous les paramètres de chaîne dans les méthodes d’interface doivent être Unicode.  <br/> |Les interfaces MAPI sont définies pour autoriser les paramètres de chaîne Unicode ou ANSI. De nombreuses méthodes qui ont un paramètre de chaîne ont également **un paramètre ulFlags** ; la largeur d’un paramètre de chaîne est indiquée par la valeur de l’indicateur MAPI_UNICODE dans **ulFlags**. Certaines interfaces MAPI ne prisent pas en charge Unicode et retournent des MAPI_E_BAD_CHARWIDTH lorsque l’MAPI_UNICODE est définie.  <br/> |
 |Toutes les méthodes d’interface doivent avoir un type de retour HRESULT.  <br/> |MAPI possède au moins une méthode qui renvoie une valeur non HRESULT : [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md).  <br/> |
 |Les appelants et les implémenteurs doivent allouer et libérer de la mémoire pour les paramètres d’interface à l’aide des allocations de tâches COM standard.  <br/> |Toutes les méthodes MAPI utilisent les allocateurs liés [MAPIAllocateBuffer,](mapiallocatebuffer.md) [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md) pour gérer la mémoire des paramètres d’interface. Toutes les implémentations MAPI des interfaces définies par OLE, telles que [IStream,](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx)utilisent les allocations de tâches COM standard.  <br/> |
-|Tous les paramètres de pointeur sortant doivent être explicitement définies sur NULL en cas d’échec d’une méthode.  <br/> |Les interfaces MAPI exigent que les paramètres de pointeur de sortie soient soit définies sur NULL, soit restent inchangées en cas d’échec d’une méthode. Toutes les implémentations MAPI des interfaces définies par OLE définissent explicitement les paramètres sur NULL en cas d’échec.  <br/> |
+|Tous les paramètres de pointeur sortant doivent être explicitement définies sur NULL en cas d’échec d’une méthode.  <br/> |Les interfaces MAPI nécessitent que les paramètres de pointeur de sortie soient définies sur NULL ou restent inchangées en cas d’échec d’une méthode. Toutes les implémentations MAPI des interfaces définies par OLE définissent explicitement les paramètres sur NULL en cas d’échec.  <br/> |
 |Implémenter des objets aggrégables dans la mesure du possible.  <br/> |Les interfaces MAPI ne sont pas aggrégables.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

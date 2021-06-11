@@ -38,7 +38,7 @@ HRESULT __stdcall WrapCompressedRTFStreamEx(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _lpCompressedRTFStream_
   
@@ -72,7 +72,7 @@ MAPI_E_INVALID_PARAMETER
 
 **WrapCompressedRTFStreamEx** vous permet d’accéder au corps d’un message électronique encapsulé dans un format RTF compressé en décompressant le flux, renvoie le flux décompressé et son format, et éventuellement le flux de corps natif. Le flux de corps natif peut être au format RTF, en texte brut ou au format HTML. 
   
-Le Microsoft Office Outlook objet fournit une propriété **Body** pour les objets **MailItem** et une [propriété MailItem.BodyFormat (Outlook)](https://msdn.microsoft.com/library/f635a0bc-20b7-206c-f558-a4ca2519670f%28Office.15%29.aspx) qui indique le format du corps de texte. Par conception, une solution non fiable par Outlook appelle les boîtes de dialogue de sécurité générées par Outlook Security Guard. L’utilisation de la fonction MAPI **exportée WrapCompressedRTFStreamEx** permet à une solution d’utiliser MAPI au lieu du modèle objet Outlook et d’éviter ces boîtes de dialogue de sécurité. 
+Le modèle objet Microsoft Office Outlook fournit une propriété **Body** pour les objets **MailItem** et une [propriété MailItem.BodyFormat (Outlook)](https://msdn.microsoft.com/library/f635a0bc-20b7-206c-f558-a4ca2519670f%28Office.15%29.aspx) qui indique le format du corps de texte. Par conception, une solution qui n’est pas Outlook appelle des boîtes de dialogue de sécurité générées par Outlook Security Guard. L’utilisation de la fonction MAPI **exportée WrapCompressedRTFStreamEx** permet à une solution d’utiliser MAPI au lieu du modèle objet Outlook et d’éviter ces boîtes de dialogue de sécurité. 
   
 Étant donné que l’indicateur **\_ NATIVE_BODY MAPI** ne peut pas être combiné avec l’indicateur **MAPI \_ MODIFY** dans le champ **ulFlags** de la structure **\_ WCSINFO RTF** pointée par *pWCSInfo,* vous pouvez uniquement accéder au flux de corps natif en mode lecture seule. Pour accéder au flux de corps natif en mode lecture/écriture, vous devez utiliser la fonction **WrapCompressedRTFStream.** 
   

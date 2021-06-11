@@ -25,7 +25,7 @@ Spécifie le cachet « envoyer » du compte secondaire pour le message.
 |Propriétés associées :  <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |Identificateur :  <br/> |0x0E29  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Application Outlook  <br/> |
+|Domaine :  <br/> |Outlook application  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

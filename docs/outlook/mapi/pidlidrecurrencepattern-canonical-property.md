@@ -37,7 +37,7 @@ Spécifie une description de la récurrence de l’objet calendrier.
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété est définie, elle doit être définie sur une description de la périodisation spécifiée par la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
+Si cette propriété est définie, elle doit être définie sur une description de la périodence spécifiée par la propriété **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

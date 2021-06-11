@@ -33,7 +33,7 @@ Spécifie la couleur d’arrière-plan suggérée de la note.
 |Jeu de propriétés :  <br/> |PSETID_Note  <br/> |
 |ID long (LID) :  <br/> |0x00008B00  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Notes pense-tout  <br/> |
+|Domaine :  <br/> |Pense-bêtes  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -34,13 +34,13 @@ La figure suivante montre l’apparence de l’affichage Page complète, De la s
   
 **Affichages OneNote**
 
-![Affichages de fenêtre OneNote affichages](media/ON15Con_views.jpg "de fenêtre OneNote")
+![OneNote fenêtre et les](media/ON15Con_views.jpg "OneNote fenêtre")
   
 ## <a name="interfaces"></a>Interfaces
 
 Cette section répertorie les interfaces et les membres que vous pouvez utiliser pour modifier par programme les fenêtres OneNote.
   
-### <a name="windows-interface"></a>Interface Windows
+### <a name="windows-interface"></a>Windows interface
 
 L'interface **Windows** permet à l'utilisateur d'accéder à l'ensemble des fenêtres ouvertes de OneNote. Il s'agit d'une propriété de la classe **Application** OneNote, accédée via **Application.Windows**. Ce qui retourne l'ensemble énuméré des fenêtres OneNote. 
   

@@ -34,7 +34,7 @@ HRESULT InitNew(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pMessageSite_
   
@@ -64,9 +64,9 @@ Toutefois, si le traitement de vos messages nouvellement initialisés inclut la 
   
 Si votre formulaire a une référence à un site de message actif autre que celui qui est transmis dans **InitNew**, release the original site because it will no longer be used. Stockez les pointeurs vers le site de message et le message à partir des paramètres  _pMessageSite_ et  _pMessage_ et appelez les méthodes [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) des deux objets pour incrémenter leur nombre de références. 
   
-Définissez les propriétés **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) et **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) pour le nouveau message à quelque chose de approprié pour votre classe de message. De nombreuses classes de messages, par exemple, **PR_MESSAGE_FLAGS** à MSGFLAG_UNSENT pour les nouveaux messages. 
+Définissez les propriétés **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) et **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) pour le nouveau message sur quelque chose de approprié pour votre classe de message. De nombreuses classes de messages, par exemple, **PR_MESSAGE_FLAGS** à MSGFLAG_UNSENT pour les nouveaux messages. 
   
-Avant de renvoyer, transition du formulaire à [l’état Normal](normal-state.md) si aucune erreur ne s’est produite. Envoyez une nouvelle notification de message à tous les utilisateurs inscrits en appelant leurs méthodes [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) et renvoyez S_OK. 
+Avant de renvoyer le formulaire, transition vers l’état [Normal](normal-state.md) si aucune erreur ne s’est produite. Envoyez une nouvelle notification de message à toutes les visionneuses inscrites en appelant leurs méthodes [IMAPIViewAdviseSink::OnNewMessage](imapiviewadvisesink-onnewmessage.md) et renvoyez S_OK. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

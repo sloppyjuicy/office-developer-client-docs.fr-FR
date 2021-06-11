@@ -36,9 +36,9 @@ Contient le chemin d’accès complet et le nom de fichier d’une pièce jointe
    
 ## <a name="remarks"></a>Remarques
 
-Il est recommandé que les sous-objets de pièce jointe exposent ces propriétés. Leur définition indique que les données de pièce jointe ne sont pas incluses dans le message, mais sont disponibles sur un serveur de fichiers commun. Ces propriétés sont requises conjointement avec l’un des indicateurs **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) qui indiquent la pièce jointe par référence **: ATTACH_BY_REFERENCE,** **ATTACH_BY_REF_RESOLVE** ou **ATTACH_BY_REF_ONLY**. 
+Il est recommandé que les sous-objets de pièce jointe exposent ces propriétés. Leur définition indique que les données de pièce jointe ne sont pas incluses dans le message, mais qu’elles sont disponibles sur un serveur de fichiers commun. Ces propriétés sont requises conjointement avec l’un des indicateurs **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) qui indiquent la pièce jointe par référence **: ATTACH_BY_REFERENCE,** **ATTACH_BY_REF_RESOLVE** ou **ATTACH_BY_REF_ONLY**. 
   
-Chaque répertoire ou nom de fichier est limité à un nom de huit caractères plus une extension à trois caractères. Le chemin d’accès global est limité à 256 caractères. Pour une plateforme qui prend en charge les noms de fichiers longs, définissez ces propriétés et **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
+Chaque répertoire ou nom de fichier est limité à un nom de huit caractères plus une extension de trois caractères. Le chemin d’accès global est limité à 256 caractères. Pour une plateforme qui prend en charge les noms de fichiers longs, définissez ces propriétés et **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)). 
   
 Les applications clientes doivent utiliser une convention d’attribution de noms universelle (UNC) dans la plupart des cas lorsque le fichier est partagé et doivent utiliser un chemin d’accès absolu lorsque le fichier est local.
   
@@ -50,7 +50,7 @@ MAPI fonctionne uniquement avec les chemins d’accès et les noms de fichiers d
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   

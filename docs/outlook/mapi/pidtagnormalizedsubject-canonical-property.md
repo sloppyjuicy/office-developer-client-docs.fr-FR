@@ -38,7 +38,7 @@ Contient l’objet du message avec un préfixe supprimé.
 
 Ces propriétés sont calculées par la boutique de messages ou les fournisseurs de transport à partir des propriétés **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et **PR_SUBJECT_PREFIX** ([PidTagSubjectPrefix](pidtagsubjectprefix-canonical-property.md)) de la manière suivante.
   
-- Si le **PR_SUBJECT_PREFIX** est présent et qu’il s’agit d’une **sous-propriété** initiale de PR_SUBJECT , **PR_NORMALIZED_SUBJECT** et les propriétés associées sont définies sur le contenu de **PR_SUBJECT** avec le préfixe supprimé. 
+- Si le **PR_SUBJECT_PREFIX** est présent et qu’il s’agit d’une **sous-stration** initiale de PR_SUBJECT , **PR_NORMALIZED_SUBJECT** et les propriétés associées sont définies sur le contenu de **PR_SUBJECT** avec le préfixe supprimé. 
     
 - Si **PR_SUBJECT_PREFIX** est présent, mais qu’il ne s’agit pas d’une sous-chaîne initiale de **PR_SUBJECT**, **PR_SUBJECT_PREFIX** est supprimé et recalculé à partir de **PR_SUBJECT** à l’aide de la règle suivante : si la chaîne contenue dans **PR_SUBJECT** commence par un à trois caractères non numériques suivis d’un signe deux-points et d’un espace, la chaîne avec le signe deux-points et le vide devient le préfixe. Les nombres, les espaces vides et les caractères de ponctuation ne sont pas des caractères de préfixe valides. 
     
@@ -50,7 +50,7 @@ En fin de compte, cette propriété doit être la partie **de** PR_SUBJECT suiva
   
  **PR_SUBJECT_PREFIX** et cette propriété doivent être calculées dans le cadre de l’implémentation [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Une application cliente ne doit pas demander à la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) leurs valeurs tant qu’elles n’ont pas été engagés par un appel **IMAPIProp::SaveChanges.** 
   
-Les propriétés de l’objet sont généralement de petites chaînes de moins de 256 caractères, et un fournisseur de magasins de messages n’est pas obligé de prendre en charge l’interface **IStream** OLE (Object Linking and Embedding) sur ces derniers. Le client doit toujours essayer d’accéder en premier via l’interface **IMAPIProp** et recourir à **IStream** uniquement si MAPI_E_NOT_ENOUGH_MEMORY est renvoyé. 
+Les propriétés de l’objet sont généralement de petites chaînes de moins de 256 caractères, et un fournisseur de magasins de messages n’est pas obligé de prendre en charge l’interface **IStream** OLE (Object Linking and Embedding) sur ces derniers. Le client doit toujours essayer d’accéder via l’interface **IMAPIProp** en premier, et recourir à **IStream** uniquement si MAPI_E_NOT_ENOUGH_MEMORY est renvoyé. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -58,7 +58,7 @@ Les propriétés de l’objet sont généralement de petites chaînes de moins d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   

@@ -25,7 +25,7 @@ ms.locfileid: "32327826"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le numéro de téléphone du destinataire qui est capable de prendre en compte isdn. 
+Contient le numéro de téléphone du destinataire qui est capable de prendre en compte ISDN. 
   
 |||
 |:-----|:-----|
@@ -44,7 +44,7 @@ Ces propriétés fournissent des informations d’identification et d’accès p
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

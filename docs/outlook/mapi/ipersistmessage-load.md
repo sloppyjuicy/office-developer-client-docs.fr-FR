@@ -36,11 +36,11 @@ HRESULT Load(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pMessageSite_
   
-> [in] Pointeur vers le site du message pour le formulaire à charger.
+> [in] Pointeur vers le site de message pour le formulaire à charger.
     
  _pMessage_
   
@@ -52,7 +52,7 @@ HRESULT Load(
     
  _ulMessageFlags_
   
-> [in] Masque de bits d’indicateurs, copié à partir de la propriété **PR_MESSAGE_FLAGS (** [PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)du message, qui fournit des informations supplémentaires sur l’état du message.
+> [in] Masque de bits d’indicateurs, copié à partir de la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)du message, qui fournit des informations supplémentaires sur l’état du message.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -76,7 +76,7 @@ Les visionneuses de formulaires appellent la méthode **IPersistMessage::Load** 
     
 Si une visionneuse de formulaire appelle **Load** alors que le formulaire est dans un autre état, la méthode renvoie E_UNEXPECTED. 
   
-Si votre formulaire a une référence à un site de message actif autre que celui qui est transmis au chargement **,** release the original site because it will no longer be used. Stockez les pointeurs vers le site de message et le message à partir des paramètres  _pMessageSite_ et  _pMessage_ et appelez les méthodes [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) des deux objets pour incrémenter leur nombre de références. 
+Si votre formulaire a une référence à un site de message actif autre que celui qui est transmis au chargement **,** libèrez le site d’origine car il ne sera plus utilisé. Stockez les pointeurs vers le site de message et le message à partir des paramètres  _pMessageSite_ et  _pMessage_ et appelez les méthodes [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) des deux objets pour incrémenter leur nombre de références. 
   
 Une **fois AddRef** terminé, stockez les propriétés des  _paramètres ulMessageStatus_ et  _ulMessageFlags_ dans le formulaire. Transition du formulaire vers son état [Normal](normal-state.md) avant de l’afficher et avertir les visionneuses inscrites en appelant leurs méthodes [IMAPIViewAdviseSink::OnNewMessage.](imapiviewadvisesink-onnewmessage.md) 
   

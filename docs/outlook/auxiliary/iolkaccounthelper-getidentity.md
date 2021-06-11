@@ -29,7 +29,7 @@ HRESULT IOlkAccountHelper::GetIdentity (
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pwszIdentity_
   
@@ -49,7 +49,7 @@ _pcch_
    
 ## <a name="remarks"></a>Remarques
 
-Si  _pwszIdentity_ est trop petit pour contenir le nom du profil, il ne sera pas définie lors de l’retour et  _pcch_ pointera vers la taille requise pour  _pwszIdentity_.
+Si  _pwszIdentity_ est trop petit pour contenir le nom du profil, il ne sera pas définie lors du retour et  _pcch_ pointera vers la taille requise pour  _pwszIdentity_.
   
 ## <a name="see-also"></a>Voir aussi
 

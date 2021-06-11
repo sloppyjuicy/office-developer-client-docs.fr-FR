@@ -34,7 +34,7 @@ HRESULT DeleteMessage(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pViewContext_
   
@@ -72,11 +72,11 @@ Une implémentation classique de **DeleteMessage effectue** les tâches suivante
     
 2. Il appelle la **méthode IMAPIViewContext::ActivateNext,** en passant l’VCDIR_DELETE dans le _paramètre ulDir._ 
     
-3. Si **l’appel ActivateNext** échoue, il est de retour. Si **ActivateNext renvoie** S_FALSE, il appelle la méthode [IPersistMessage::HandsOffMessage.](ipersistmessage-handsoffmessage.md) 
+3. Si **l’appel ActivateNext échoue,** il est de retour. Si **ActivateNext renvoie** S_FALSE, il appelle la méthode [IPersistMessage::HandsOffMessage.](ipersistmessage-handsoffmessage.md) 
     
-4. Elle supprime ou déplace le message.
+4. Il supprime ou déplace le message.
     
-Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la fonction Windows [GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
+Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez Windows [fonction GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
   
 Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   

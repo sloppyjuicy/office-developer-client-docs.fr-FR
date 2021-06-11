@@ -25,7 +25,7 @@ ms.locfileid: "32316197"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient les **EntryIDs** du message d’informations du délégué, le message de libre/occupé de l’utilisateur connecté et le dossier dont la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est égale à « FreeBusy Data ».
+Contient les **EntryIDs** du message d’informations de délégué, le message de libre/occupé de l’utilisateur connecté et le dossier dont la **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) est égale à « FreeBusy Data ».
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ Contient les **EntryIDs** du message d’informations du délégué, le message 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

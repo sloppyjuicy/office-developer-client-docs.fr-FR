@@ -36,7 +36,7 @@ Contient TRUE si les rendez-vous qui se chevauchent ne sont pasallés.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété n’est significative que lorsque la valeur de la **propriété PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) est TRUE. La valeur TRUE indique que lorsque vous répondez automatiquement aux demandes de réunion, un client ou un serveur doit refuser les instances qui chevauchent les événements précédemment programmés. La valeur FALSE ou l’absence de cette propriété indique que les instances qui se chevauchent doivent être acceptées. Il ne s’agit pas d’une propriété obligatoire.
+Cette propriété n’est significative que si la valeur de la **propriété PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PidTagScheduleInfoAutoAcceptAppointments](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) est TRUE. La valeur TRUE indique que lorsque vous répondez automatiquement aux demandes de réunion, un client ou un serveur doit refuser les instances qui chevauchent les événements précédemment programmés. La valeur FALSE ou l’absence de cette propriété indique que les instances qui se chevauchent doivent être acceptées. Il ne s’agit pas d’une propriété obligatoire.
   
 ## <a name="related-resources"></a>Ressources connexes
 

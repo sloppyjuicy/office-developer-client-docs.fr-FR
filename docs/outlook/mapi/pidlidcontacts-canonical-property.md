@@ -37,7 +37,7 @@ Contient les noms des contacts associés à l’élément.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de chaque **EntryID** du carnet d’adresses référencé dans la valeur de la propriété **dispidContactLinkEntry** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)). Il peut inclure des noms non référencés dans **dispidContactLinkEntry**.
+Cette propriété contient la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) de chaque **EntryID** de carnet d’adresses référencé dans la valeur de la propriété **dispidContactLinkEntry** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)). Il peut inclure des noms non référencés dans **dispidContactLinkEntry**.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -57,7 +57,7 @@ Cette propriété contient la propriété **PR_DISPLAY_NAME** ([PidTagDisplayNam
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

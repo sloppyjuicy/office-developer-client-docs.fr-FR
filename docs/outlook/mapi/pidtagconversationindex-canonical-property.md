@@ -42,7 +42,7 @@ MAPI fournit la [fonction ScCreateConversationIndex](sccreateconversationindex.m
   
 Un fournisseur de magasins de messages a la possibilité de s’assurer PR_CONVERSATION_INDEX **est** toujours définie sur les messages entrants ou sortants. Pour ce faire, il peut appeler **ScCreateConversationIndex,** soit avec la valeur existante si cette propriété est définie, soit avec null si ce n’est pas le cas. Cette action doit être prise avant [l’appel d’IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
-Tous les messages qui ont la même valeur **pour PR_CONVERSATION_TOPIC** peuvent être triés sur cette propriété pour révéler la relation hiérarchique des messages. 
+Tous les messages qui ont la même valeur **PR_CONVERSATION_TOPIC** peuvent être triés sur cette propriété pour révéler la relation hiérarchique des messages. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

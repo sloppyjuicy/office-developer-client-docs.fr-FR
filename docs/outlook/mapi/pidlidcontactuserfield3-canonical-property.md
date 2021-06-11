@@ -25,7 +25,7 @@ ms.locfileid: "32319536"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le troisième champ du contact qui est destiné à une utilisation diverses pour le contact.
+Spécifie le troisième champ du contact qui est destiné à un usage divers pour le contact.
   
 |||
 |:-----|:-----|

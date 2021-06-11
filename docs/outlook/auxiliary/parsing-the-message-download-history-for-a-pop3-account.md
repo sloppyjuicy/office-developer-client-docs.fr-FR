@@ -42,7 +42,7 @@ La structure BLOB POP, comme décrit dans le tableau 1, commence  par deux champ
 |:-----|:-----|:-----|
 |**Version** <br/> |2 octets  <br/> |Doit être 3 (**PBLOB_VERSION_NUM**).  <br/> |
 |**Count** <br/> |2 octets  <br/> |Nombre de balises de ressource dans cet objet BLOB.  <br/> |
-|Balise de ressource  <br/> |Variable  <br/> |0 ou plus chaînes UTF-8 terminées par null qui encodent les balises de ressource. Le nombre de chaînes terminées par null doit correspondre à **Nombre**.  <br/> |
+|Balise de ressource  <br/> |Variable  <br/> |0 ou plus chaînes UTF-8 terminées par null qui encodent les balises de ressource. Le nombre de chaînes terminées par null doit correspondre au **nombre**.  <br/> |
    
 Chaque balise de ressource spécifie l’opération qui est appliquée à un message, certaines métadonnées date-heure sur l’opération et code l’UID du message. Le format d’une chaîne de balise de ressource est décomposé comme suit et est expliqué plus en détail dans le tableau 2. 
   
@@ -53,7 +53,7 @@ Chaque balise de ressource spécifie l’opération qui est appliquée à un mes
 |**Champ dans une balise de ressource**|**Taille**|**Description**|
 |:-----|:-----|:-----|
 | `O` <br/> |1 caractère  <br/> |Opération effectuée sur le message électronique. La valeur doit être « + », « - » ou « », ce qui indique une opération get, delete ou &amp; get-and-delete réussie, respectivement.  <br/> |
-| `c` <br/> |1 caractère  <br/> |Partie du contenu du message impliquée dans l’opération. La valeur doit être « « , « h » ou « b », ce qui indique le contenu d’aucun, d’en-tête ou de corps, respectivement.  <br/> |
+| `c` <br/> |1 caractère  <br/> |Partie du contenu du message impliqué dans l’opération. La valeur doit être « « , « h » ou « b », ce qui indique le contenu d’aucun, d’en-tête ou de corps, respectivement.  <br/> |
 | `yyyy` <br/> |4 caractères  <br/> |Année à quatre chiffres de l’opération.  <br/> |
 | `MM` <br/> |2 caractères  <br/> |Mois à deux chiffres de l’opération.  <br/> |
 | `dd` <br/> |2 caractères  <br/> |Jour à deux chiffres de l’opération.  <br/> |
@@ -72,9 +72,9 @@ La figure 1 montre un exemple d’objet BLOB qui représente l’historique de t
 
 ![BLOB de l’historique de téléchargement des messages d’un compte POP3](media/OL15Con_AuxRef_ParsingMsgsHistory_Blob.gif)
   
-En fonction de la structure décrite dans les tableaux 1 et 2, ce BLOB représente l’historique de téléchargement de 23 messages électroniques.
+En fonction de la structure décrite dans les tableaux 1 et 2, cet objet BLOB représente l’historique de téléchargement de 23 messages électroniques.
   
-Pour identifier l’UID brut dans chaque balise de ressource, n’ignorez pas que l’UID suit ce codage : les caractères d’un UID sont principalement des caractères alphanumériques et chaque caractère non alphanumérique est précédé du caractère ASCII « $ » (0x24). Ainsi, les caractères ASCII $2d représentent le caractère non alphanumérique « - ». La figure 2 montre un exemple de conversion de l’UID brut dans la balise de ressource 1 en représentation ASCII, puis de tout caractère non alphanumérique précédé de « $ » pour produire l’UID réel :
+Pour identifier l’UID brut dans chaque balise de ressource, sachez que l’UID suit ce codage : les caractères d’un UID sont principalement des caractères alphanumériques, et chaque caractère non alphanumérique est précédé du caractère ASCII « $ » (0x24). Ainsi, les caractères ASCII $2d représentent le caractère non alphanumérique « - ». La figure 2 montre un exemple de conversion de l’UID brut dans la balise de ressource 1 en représentation ASCII, puis de la conversion de tout caractère non alphanumérique précédé de « $ » pour produire l’UID réel :
   
 `0BC535DB-EA63-11E1-A75C-00215AD7BB74`
   
@@ -84,7 +84,7 @@ Pour identifier l’UID brut dans chaque balise de ressource, n’ignorez pas qu
   
 Pour interpréter la balise de ressource 1 dans ce BLOB : le message avec l’UID a été récupéré avec succès le 6 septembre  `0BC535DB-EA63-11E1-A75C-00215AD7BB74` 2012 à 13:11:38. 
   
-Vous pouvez de même, pour ce BLOB, l’une des 22 balises de ressources restantes.
+Vous pouvez de la même façon parer les 22 balises de ressource restantes pour ce BLOB.
   
 ## <a name="see-also"></a>Voir aussi
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_AdditionalRsc"> </a>
