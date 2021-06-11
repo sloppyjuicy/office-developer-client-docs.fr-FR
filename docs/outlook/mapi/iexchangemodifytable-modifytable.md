@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418175"
 ---
-# <a name="iexchangemodifytablemodifytable"></a><span data-ttu-id="6cb95-103">IExchangeModifyTable::ModifyTable</span><span class="sxs-lookup"><span data-stu-id="6cb95-103">IExchangeModifyTable::ModifyTable</span></span>
+# <a name="iexchangemodifytablemodifytable"></a><span data-ttu-id="bf143-103">IExchangeModifyTable::ModifyTable</span><span class="sxs-lookup"><span data-stu-id="bf143-103">IExchangeModifyTable::ModifyTable</span></span>
 
   
   
-<span data-ttu-id="6cb95-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6cb95-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bf143-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bf143-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6cb95-105">Met à jour un objet table MAPI.</span><span class="sxs-lookup"><span data-stu-id="6cb95-105">Updates a MAPI table object.</span></span>
+<span data-ttu-id="bf143-105">Met à jour un objet table MAPI.</span><span class="sxs-lookup"><span data-stu-id="bf143-105">Updates a MAPI table object.</span></span>
   
 ```cpp
 HRESULT ModifyTable( 
@@ -35,54 +35,54 @@ HRESULT ModifyTable(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="6cb95-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="6cb95-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bf143-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="bf143-106">Parameters</span></span>
 
- <span data-ttu-id="6cb95-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="6cb95-107">_ulFlags_</span></span>
+ <span data-ttu-id="bf143-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="bf143-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="6cb95-108">[in] Utilisez l’une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="6cb95-108">[in] Use one of the following values:</span></span> 
+> <span data-ttu-id="bf143-108">[in] Utilisez l’une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="bf143-108">[in] Use one of the following values:</span></span> 
     
-<span data-ttu-id="6cb95-109">0 (zéro)</span><span class="sxs-lookup"><span data-stu-id="6cb95-109">0 (zero)</span></span>
+<span data-ttu-id="bf143-109">0 (zéro)</span><span class="sxs-lookup"><span data-stu-id="bf143-109">0 (zero)</span></span>
   
-> <span data-ttu-id="6cb95-110">Utilisez la valeur du membre **ulRowFlags** de la structure [ROWENTRY.](rowentry.md)</span><span class="sxs-lookup"><span data-stu-id="6cb95-110">Use the value of the **ulRowFlags** member of the [ROWENTRY](rowentry.md) structure.</span></span> 
+> <span data-ttu-id="bf143-110">Utilisez la valeur du **membre ulRowFlags** de la structure [ROWENTRY.](rowentry.md)</span><span class="sxs-lookup"><span data-stu-id="bf143-110">Use the value of the **ulRowFlags** member of the [ROWENTRY](rowentry.md) structure.</span></span> 
     
-<span data-ttu-id="6cb95-111">ACLTABLE_FREEBUSY</span><span class="sxs-lookup"><span data-stu-id="6cb95-111">ACLTABLE_FREEBUSY</span></span>
+<span data-ttu-id="bf143-111">ACLTABLE_FREEBUSY</span><span class="sxs-lookup"><span data-stu-id="bf143-111">ACLTABLE_FREEBUSY</span></span>
   
-> <span data-ttu-id="6cb95-112">Définit de nouveaux droits.</span><span class="sxs-lookup"><span data-stu-id="6cb95-112">Sets new rights.</span></span>
+> <span data-ttu-id="bf143-112">Définit de nouveaux droits.</span><span class="sxs-lookup"><span data-stu-id="bf143-112">Sets new rights.</span></span>
     
-<span data-ttu-id="6cb95-113">frightsFreeBusyDetailed</span><span class="sxs-lookup"><span data-stu-id="6cb95-113">frightsFreeBusyDetailed</span></span>
+<span data-ttu-id="bf143-113">frightsFreeBusyDetailed</span><span class="sxs-lookup"><span data-stu-id="bf143-113">frightsFreeBusyDetailed</span></span>
   
-> <span data-ttu-id="6cb95-114">Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage détaillé des nouveaux droits de libre/occupé.</span><span class="sxs-lookup"><span data-stu-id="6cb95-114">When ACLTABLE_FREEBUSY is passed, provides a detailed display of new free/busy rights.</span></span>
+> <span data-ttu-id="bf143-114">Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage détaillé des nouveaux droits de libre/occupé.</span><span class="sxs-lookup"><span data-stu-id="bf143-114">When ACLTABLE_FREEBUSY is passed, provides a detailed display of new free/busy rights.</span></span>
     
-<span data-ttu-id="6cb95-115">frightsFreeBusySimple</span><span class="sxs-lookup"><span data-stu-id="6cb95-115">frightsFreeBusySimple</span></span>
+<span data-ttu-id="bf143-115">frightsFreeBusySimple</span><span class="sxs-lookup"><span data-stu-id="bf143-115">frightsFreeBusySimple</span></span>
   
-> <span data-ttu-id="6cb95-116">Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage simple des nouveaux droits de libre/occupé.</span><span class="sxs-lookup"><span data-stu-id="6cb95-116">When ACLTABLE_FREEBUSY is passed, provides a simple display of new free/busy rights.</span></span>
+> <span data-ttu-id="bf143-116">Lorsque ACLTABLE_FREEBUSY est passé, fournit un affichage simple des nouveaux droits de libre/occupé.</span><span class="sxs-lookup"><span data-stu-id="bf143-116">When ACLTABLE_FREEBUSY is passed, provides a simple display of new free/busy rights.</span></span>
     
-<span data-ttu-id="6cb95-117">ROWLIST_REPLACE</span><span class="sxs-lookup"><span data-stu-id="6cb95-117">ROWLIST_REPLACE</span></span>
+<span data-ttu-id="bf143-117">ROWLIST_REPLACE</span><span class="sxs-lookup"><span data-stu-id="bf143-117">ROWLIST_REPLACE</span></span>
   
-> <span data-ttu-id="6cb95-118">Remplacez toutes les lignes du tableau.</span><span class="sxs-lookup"><span data-stu-id="6cb95-118">Replace all the rows in the table.</span></span>
+> <span data-ttu-id="bf143-118">Remplacez toutes les lignes du tableau.</span><span class="sxs-lookup"><span data-stu-id="bf143-118">Replace all the rows in the table.</span></span>
     
- <span data-ttu-id="6cb95-119">_lpMods_</span><span class="sxs-lookup"><span data-stu-id="6cb95-119">_lpMods_</span></span>
+ <span data-ttu-id="bf143-119">_lpMods_</span><span class="sxs-lookup"><span data-stu-id="bf143-119">_lpMods_</span></span>
   
-> <span data-ttu-id="6cb95-120">[in] Pointe vers une structure [ROWLIST](rowlist.md) contenant les propriétés de l’objet table.</span><span class="sxs-lookup"><span data-stu-id="6cb95-120">[in] Points to a [ROWLIST](rowlist.md) structure containing the properties for the table object.</span></span> 
+> <span data-ttu-id="bf143-120">[in] Pointe vers une structure [ROWLIST](rowlist.md) contenant les propriétés de l’objet table.</span><span class="sxs-lookup"><span data-stu-id="bf143-120">[in] Points to a [ROWLIST](rowlist.md) structure containing the properties for the table object.</span></span> 
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="6cb95-121">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="6cb95-121">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="bf143-121">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="bf143-121">MFCMAPI reference</span></span>
 
-<span data-ttu-id="6cb95-122">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="6cb95-122">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="bf143-122">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="bf143-122">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="6cb95-123">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="6cb95-123">**File**</span></span>|<span data-ttu-id="6cb95-124">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="6cb95-124">**Function**</span></span>|<span data-ttu-id="6cb95-125">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="6cb95-125">**Comment**</span></span>|
+|<span data-ttu-id="bf143-123">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="bf143-123">**File**</span></span>|<span data-ttu-id="bf143-124">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="bf143-124">**Function**</span></span>|<span data-ttu-id="bf143-125">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="bf143-125">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="6cb95-126">RulesDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="6cb95-126">RulesDlg.cpp</span></span>  <br/> |<span data-ttu-id="6cb95-127">CRulesDlg::OnModifySelectedItem</span><span class="sxs-lookup"><span data-stu-id="6cb95-127">CRulesDlg::OnModifySelectedItem</span></span>  <br/> |<span data-ttu-id="6cb95-128">MFCMAPI utilise la méthode **IExchangeModifyTable::ModifyTable** pour écrire une règle modifiée dans la table des règles.</span><span class="sxs-lookup"><span data-stu-id="6cb95-128">MFCMAPI uses the **IExchangeModifyTable::ModifyTable** method to write a modified rule back to the table of rules.</span></span>  <br/> |
+|<span data-ttu-id="bf143-126">RulesDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="bf143-126">RulesDlg.cpp</span></span>  <br/> |<span data-ttu-id="bf143-127">CRulesDlg::OnModifySelectedItem</span><span class="sxs-lookup"><span data-stu-id="bf143-127">CRulesDlg::OnModifySelectedItem</span></span>  <br/> |<span data-ttu-id="bf143-128">MFCMAPI utilise la méthode **IExchangeModifyTable::ModifyTable** pour écrire une règle modifiée dans la table des règles.</span><span class="sxs-lookup"><span data-stu-id="bf143-128">MFCMAPI uses the **IExchangeModifyTable::ModifyTable** method to write a modified rule back to the table of rules.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="6cb95-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6cb95-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bf143-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bf143-129">See also</span></span>
 
 
 
-[<span data-ttu-id="6cb95-130">IExchangeModifyTable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="6cb95-130">IExchangeModifyTable : IUnknown</span></span>](iexchangemodifytableiunknown.md)
+[<span data-ttu-id="bf143-130">IExchangeModifyTable : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bf143-130">IExchangeModifyTable : IUnknown</span></span>](iexchangemodifytableiunknown.md)
   
-[<span data-ttu-id="6cb95-131">ROWENTRY</span><span class="sxs-lookup"><span data-stu-id="6cb95-131">ROWENTRY</span></span>](rowentry.md)
+[<span data-ttu-id="bf143-131">ROWENTRY</span><span class="sxs-lookup"><span data-stu-id="bf143-131">ROWENTRY</span></span>](rowentry.md)
   
-[<span data-ttu-id="6cb95-132">ROWLIST</span><span class="sxs-lookup"><span data-stu-id="6cb95-132">ROWLIST</span></span>](rowlist.md)
+[<span data-ttu-id="bf143-132">ROWLIST</span><span class="sxs-lookup"><span data-stu-id="bf143-132">ROWLIST</span></span>](rowlist.md)
 
 
-[<span data-ttu-id="6cb95-133">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="6cb95-133">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="bf143-133">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="bf143-133">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

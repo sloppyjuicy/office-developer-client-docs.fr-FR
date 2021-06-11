@@ -15,12 +15,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417608"
 ---
-# <a name="mapi-application-development"></a><span data-ttu-id="5da96-103">D�veloppement d'applications MAPI</span><span class="sxs-lookup"><span data-stu-id="5da96-103">MAPI Application Development</span></span>
+# <a name="mapi-application-development"></a><span data-ttu-id="0f573-103">D�veloppement d'applications MAPI</span><span class="sxs-lookup"><span data-stu-id="0f573-103">MAPI Application Development</span></span>
 
   
   
-<span data-ttu-id="5da96-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5da96-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0f573-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0f573-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5da96-105">Les rubriques de cette section s’appliquent aux développeurs d’applications clientes et de fournisseurs de services.</span><span class="sxs-lookup"><span data-stu-id="5da96-105">The topics in this section apply to developers of client applications and service providers.</span></span> <span data-ttu-id="5da96-106">Ces rubriques sont organisées par ordre d’importance.</span><span class="sxs-lookup"><span data-stu-id="5da96-106">These topics are arranged in order of importance.</span></span> <span data-ttu-id="5da96-107">Autrement dit, les rubriques qui sont essentielles pour tous les programmeurs apparaissent en premier et les rubriques d’importance minimale ou qui ne s’appliquent pas à tous les programmeurs apparaissent en dernier.</span><span class="sxs-lookup"><span data-stu-id="5da96-107">That is, topics that are critical to all programmers appear first and topics that are either of minimal importance or do not apply to all programmers appear last.</span></span>
+<span data-ttu-id="0f573-105">Les rubriques de cette section s’appliquent aux développeurs d’applications clientes et de fournisseurs de services.</span><span class="sxs-lookup"><span data-stu-id="0f573-105">The topics in this section apply to developers of client applications and service providers.</span></span> <span data-ttu-id="0f573-106">Ces rubriques sont organisées par ordre d’importance.</span><span class="sxs-lookup"><span data-stu-id="0f573-106">These topics are arranged in order of importance.</span></span> <span data-ttu-id="0f573-107">Autrement dit, les rubriques qui sont essentielles pour tous les programmeurs apparaissent en premier et les rubriques d’importance minimale ou qui ne s’appliquent pas à tous les programmeurs apparaissent en dernier.</span><span class="sxs-lookup"><span data-stu-id="0f573-107">That is, topics that are critical to all programmers appear first and topics that are either of minimal importance or do not apply to all programmers appear last.</span></span>
   
 

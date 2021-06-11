@@ -16,8 +16,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417321"
 ---
-# <a name="image-properties-section"></a><span data-ttu-id="3f324-103">Image Properties, section</span><span class="sxs-lookup"><span data-stu-id="3f324-103">Image Properties Section</span></span>
+# <a name="image-properties-section"></a><span data-ttu-id="29e12-103">Image Properties, section</span><span class="sxs-lookup"><span data-stu-id="29e12-103">Image Properties Section</span></span>
 
-<span data-ttu-id="3f324-104">Contient les valeurs Gamma, Brightness, Contraste Blur, Sharpen et Denoise des bitmaps (images en mode point) et apparaît dans la fenêtre Feuille ShapeSheet pour ce type d'objet uniquement.</span><span class="sxs-lookup"><span data-stu-id="3f324-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
+<span data-ttu-id="29e12-104">Contient les valeurs Gamma, Brightness, Contraste Blur, Sharpen et Denoise des bitmaps (images en mode point) et apparaît dans la fenêtre Feuille ShapeSheet pour ce type d'objet uniquement.</span><span class="sxs-lookup"><span data-stu-id="29e12-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
   
 

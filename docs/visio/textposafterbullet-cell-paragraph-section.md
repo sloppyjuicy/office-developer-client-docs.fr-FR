@@ -16,26 +16,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422151"
 ---
-# <a name="textposafterbullet-cell-paragraph-section"></a><span data-ttu-id="1b783-103">TextPosAfterBullet, cellule (section Paragraph)</span><span class="sxs-lookup"><span data-stu-id="1b783-103">TextPosAfterBullet Cell (Paragraph Section)</span></span>
+# <a name="textposafterbullet-cell-paragraph-section"></a><span data-ttu-id="d6476-103">TextPosAfterBullet, cellule (section Paragraph)</span><span class="sxs-lookup"><span data-stu-id="d6476-103">TextPosAfterBullet Cell (Paragraph Section)</span></span>
 
-<span data-ttu-id="1b783-104">Représente la distance entre la première ligne du paragraphe et la puce.</span><span class="sxs-lookup"><span data-stu-id="1b783-104">Represents the distance between the first line of the paragraph and the bullet.</span></span> 
+<span data-ttu-id="d6476-104">Représente la distance entre la première ligne du paragraphe et la puce.</span><span class="sxs-lookup"><span data-stu-id="d6476-104">Represents the distance between the first line of the paragraph and the bullet.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="1b783-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="1b783-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d6476-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="d6476-105">Remarks</span></span>
 
-<span data-ttu-id="1b783-p101">Cette distance est ajoutée à celle contenue dans la cellule IndFirst, qui est le retrait gauche par défaut. Cette valeur est indépendante de l'échelle du dessin.</span><span class="sxs-lookup"><span data-stu-id="1b783-p101">This distance is added to the distance contained in the IndFirst cell, which is the default left indent. This value is independent of the scale of the drawing.</span></span> 
+<span data-ttu-id="d6476-p101">Cette distance est ajoutée à celle contenue dans la cellule IndFirst, qui est le retrait gauche par défaut. Cette valeur est indépendante de l'échelle du dessin.</span><span class="sxs-lookup"><span data-stu-id="d6476-p101">This distance is added to the distance contained in the IndFirst cell, which is the default left indent. This value is independent of the scale of the drawing.</span></span> 
   
-<span data-ttu-id="1b783-108">Pour obtenir une référence à la cellule TextPosAfterBullet à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="1b783-108">To get a reference to the TextPosAfterBullet cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d6476-108">Pour obtenir une référence à la cellule TextPosAfterBullet à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="d6476-108">To get a reference to the TextPosAfterBullet cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="1b783-109">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="1b783-109">Cell name:</span></span>  <br/> | <span data-ttu-id="1b783-110">Para.TextPosAfterBullet[  *i*  ] where  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="1b783-110">Para.TextPosAfterBullet[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="d6476-109">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d6476-109">Cell name:</span></span>  <br/> | <span data-ttu-id="d6476-110">Para.TextPosAfterBullet[  *i*  ] where  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="d6476-110">Para.TextPosAfterBullet[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="1b783-111">Pour obtenir une référence à la cellule TextPosAfterBullet à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="1b783-111">To get a reference to the TextPosAfterBullet cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d6476-111">Pour obtenir une référence à la cellule TextPosAfterBullet à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="d6476-111">To get a reference to the TextPosAfterBullet cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="1b783-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="1b783-112">Section index:</span></span>  <br/> |<span data-ttu-id="1b783-113">**visSectionParagraph**</span><span class="sxs-lookup"><span data-stu-id="1b783-113">**visSectionParagraph**</span></span> <br/> |
-| <span data-ttu-id="1b783-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="1b783-114">Row index:</span></span>  <br/> |<span data-ttu-id="1b783-115">**visRowParagraph**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="1b783-115">**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="1b783-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="1b783-116">Cell index:</span></span>  <br/> |<span data-ttu-id="1b783-117">**visTextPosAfterBullet**</span><span class="sxs-lookup"><span data-stu-id="1b783-117">**visTextPosAfterBullet**</span></span> <br/> |
+| <span data-ttu-id="d6476-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="d6476-112">Section index:</span></span>  <br/> |<span data-ttu-id="d6476-113">**visSectionParagraph**</span><span class="sxs-lookup"><span data-stu-id="d6476-113">**visSectionParagraph**</span></span> <br/> |
+| <span data-ttu-id="d6476-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="d6476-114">Row index:</span></span>  <br/> |<span data-ttu-id="d6476-115">**visRowParagraph**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="d6476-115">**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="d6476-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d6476-116">Cell index:</span></span>  <br/> |<span data-ttu-id="d6476-117">**visTextPosAfterBullet**</span><span class="sxs-lookup"><span data-stu-id="d6476-117">**visTextPosAfterBullet**</span></span> <br/> |
    
 

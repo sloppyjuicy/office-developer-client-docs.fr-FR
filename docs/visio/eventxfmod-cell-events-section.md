@@ -16,26 +16,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418532"
 ---
-# <a name="eventxfmod-cell-events-section"></a><span data-ttu-id="25af5-103">EventXFMod, cellule (section Events)</span><span class="sxs-lookup"><span data-stu-id="25af5-103">EventXFMod Cell (Events Section)</span></span>
+# <a name="eventxfmod-cell-events-section"></a><span data-ttu-id="7786a-103">EventXFMod, cellule (section Events)</span><span class="sxs-lookup"><span data-stu-id="7786a-103">EventXFMod Cell (Events Section)</span></span>
 
-<span data-ttu-id="25af5-104">Cellule Event qui est évaluée lorsque la position ou l'orientation d'une forme sur la page est modifiée (« XF »).</span><span class="sxs-lookup"><span data-stu-id="25af5-104">An event cell that is evaluated when a shape's position or orientation on the page is transformed ("XF").</span></span>
+<span data-ttu-id="7786a-104">Cellule Event qui est évaluée lorsque la position ou l'orientation d'une forme sur la page est modifiée (« XF »).</span><span class="sxs-lookup"><span data-stu-id="7786a-104">An event cell that is evaluated when a shape's position or orientation on the page is transformed ("XF").</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="25af5-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="25af5-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7786a-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="7786a-105">Remarks</span></span>
 
-<span data-ttu-id="25af5-106">Les cellules Event ne sont évaluées que lorsque l'événement se produit, et non lors de l'entrée de la formule.</span><span class="sxs-lookup"><span data-stu-id="25af5-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
+<span data-ttu-id="7786a-106">Les cellules Event ne sont évaluées que lorsque l'événement se produit, et non lors de l'entrée de la formule.</span><span class="sxs-lookup"><span data-stu-id="7786a-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
   
-<span data-ttu-id="25af5-107">Pour obtenir une référence à la cellule EventXFMod par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="25af5-107">To get a reference to the EventXFMod cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="7786a-107">Pour obtenir une référence à la cellule EventXFMod par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="7786a-107">To get a reference to the EventXFMod cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="25af5-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="25af5-108">Cell name:</span></span>  <br/> | <span data-ttu-id="25af5-109">EventXFMod</span><span class="sxs-lookup"><span data-stu-id="25af5-109">EventXFMod</span></span>  <br/> |
+| <span data-ttu-id="7786a-108">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="7786a-108">Cell name:</span></span>  <br/> | <span data-ttu-id="7786a-109">EventXFMod</span><span class="sxs-lookup"><span data-stu-id="7786a-109">EventXFMod</span></span>  <br/> |
    
-<span data-ttu-id="25af5-110">Pour obtenir une référence à la cellule Event XFMod à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="25af5-110">To get a reference to the EventXFMod cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="7786a-110">Pour obtenir une référence à la cellule Event XFMod à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="7786a-110">To get a reference to the EventXFMod cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="25af5-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="25af5-111">Section index:</span></span>  <br/> |<span data-ttu-id="25af5-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="25af5-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="25af5-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="25af5-113">Row index:</span></span>  <br/> |<span data-ttu-id="25af5-114">**visRowEvent**</span><span class="sxs-lookup"><span data-stu-id="25af5-114">**visRowEvent**</span></span> <br/> |
-| <span data-ttu-id="25af5-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="25af5-115">Cell index:</span></span>  <br/> |<span data-ttu-id="25af5-116">**visEvtCellXFMod**</span><span class="sxs-lookup"><span data-stu-id="25af5-116">**visEvtCellXFMod**</span></span> <br/> |
+| <span data-ttu-id="7786a-111">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="7786a-111">Section index:</span></span>  <br/> |<span data-ttu-id="7786a-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="7786a-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="7786a-113">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="7786a-113">Row index:</span></span>  <br/> |<span data-ttu-id="7786a-114">**visRowEvent**</span><span class="sxs-lookup"><span data-stu-id="7786a-114">**visRowEvent**</span></span> <br/> |
+| <span data-ttu-id="7786a-115">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="7786a-115">Cell index:</span></span>  <br/> |<span data-ttu-id="7786a-116">**visEvtCellXFMod**</span><span class="sxs-lookup"><span data-stu-id="7786a-116">**visEvtCellXFMod**</span></span> <br/> |
    
 

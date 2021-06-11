@@ -16,32 +16,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422928"
 ---
-# <a name="fillpattern-cell-fill-format-section"></a><span data-ttu-id="fa454-104">FillPattern, cellule (section Fill Format)</span><span class="sxs-lookup"><span data-stu-id="fa454-104">FillPattern Cell (Fill Format Section)</span></span>
+# <a name="fillpattern-cell-fill-format-section"></a><span data-ttu-id="cf9e9-104">FillPattern, cellule (section Fill Format)</span><span class="sxs-lookup"><span data-stu-id="cf9e9-104">FillPattern Cell (Fill Format Section)</span></span>
 
-<span data-ttu-id="fa454-105">Détermine le motif de remplissage de la forme.</span><span class="sxs-lookup"><span data-stu-id="fa454-105">Determines the fill pattern for the shape.</span></span> <span data-ttu-id="fa454-106">Pour définir un motif de remplissage personnalisé, utilisez la fonction UTILISATION dans cette cellule.</span><span class="sxs-lookup"><span data-stu-id="fa454-106">To specify a custom fill pattern, use the USE function in this cell.</span></span>
+<span data-ttu-id="cf9e9-p102">Détermine le motif de remplissage de la forme. Pour définir un motif de remplissage personnalisé, utilisez la fonction UTILISATION dans cette cellule.</span><span class="sxs-lookup"><span data-stu-id="cf9e9-p102">Determines the fill pattern for the shape. To specify a custom fill pattern, use the USE function in this cell.</span></span>
   
-|<span data-ttu-id="fa454-107">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="fa454-107">**Value**</span></span>|<span data-ttu-id="fa454-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="fa454-108">**Description**</span></span>|
+|<span data-ttu-id="cf9e9-107">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="cf9e9-107">**Value**</span></span>|<span data-ttu-id="cf9e9-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="cf9e9-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="fa454-109">0</span><span class="sxs-lookup"><span data-stu-id="fa454-109">0</span></span>  <br/> |<span data-ttu-id="fa454-110">Aucun (remplissage transparent).</span><span class="sxs-lookup"><span data-stu-id="fa454-110">None (transparent fill).</span></span>  <br/> |
-|<span data-ttu-id="fa454-111">1 </span><span class="sxs-lookup"><span data-stu-id="fa454-111">1</span></span>  <br/> |<span data-ttu-id="fa454-112">Couleur d'arrière-plan unie.</span><span class="sxs-lookup"><span data-stu-id="fa454-112">Solid foreground color.</span></span>  <br/> |
-|<span data-ttu-id="fa454-113">2 - 40</span><span class="sxs-lookup"><span data-stu-id="fa454-113">2 - 40</span></span>  <br/> |<span data-ttu-id="fa454-114">Motifs de remplissage correspondant aux entrées indexées de la boîte de dialogue **Remplir**.</span><span class="sxs-lookup"><span data-stu-id="fa454-114">Assorted fill patterns that correspond to indexed entries in the **Fill** dialog box.</span></span>  <br/> |
+|<span data-ttu-id="cf9e9-109">0</span><span class="sxs-lookup"><span data-stu-id="cf9e9-109">0</span></span>  <br/> |<span data-ttu-id="cf9e9-110">Aucun (remplissage transparent).</span><span class="sxs-lookup"><span data-stu-id="cf9e9-110">None (transparent fill).</span></span>  <br/> |
+|<span data-ttu-id="cf9e9-111">1</span><span class="sxs-lookup"><span data-stu-id="cf9e9-111">1</span></span>  <br/> |<span data-ttu-id="cf9e9-112">Couleur d'arrière-plan unie.</span><span class="sxs-lookup"><span data-stu-id="cf9e9-112">Solid foreground color.</span></span>  <br/> |
+|<span data-ttu-id="cf9e9-113">2 - 40</span><span class="sxs-lookup"><span data-stu-id="cf9e9-113">2 - 40</span></span>  <br/> |<span data-ttu-id="cf9e9-114">Motifs de remplissage correspondant aux entrées indexées de la boîte de dialogue **Remplir**.</span><span class="sxs-lookup"><span data-stu-id="cf9e9-114">Assorted fill patterns that correspond to indexed entries in the **Fill** dialog box.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="fa454-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="fa454-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cf9e9-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="cf9e9-115">Remarks</span></span>
 
-<span data-ttu-id="fa454-116">Vous pouvez également définir cette valeur au moyen de la boîte de dialogue **Remplissage** (sous l’onglet **Accueil**, dans le groupe **Forme**, cliquez sur **Remplissage**, puis cliquez sur **Options de remplissage**).</span><span class="sxs-lookup"><span data-stu-id="fa454-116">You can also set this value using the **Fill** dialog box (on the **Home** tab, in the **Shape** group, click **Fill** and then click **Fill Options**).</span></span>
+<span data-ttu-id="cf9e9-116">Vous pouvez également définir cette valeur au moyen de la boîte de dialogue **Remplissage** (sous l’onglet **Accueil**, dans le groupe **Forme**, cliquez sur **Remplissage**, puis cliquez sur **Options de remplissage**).</span><span class="sxs-lookup"><span data-stu-id="cf9e9-116">You can also set this value using the **Fill** dialog box (on the **Home** tab, in the **Shape** group, click **Fill** and then click **Fill Options**).</span></span>
   
-<span data-ttu-id="fa454-117">Pour obtenir une référence à la cellule FillPattern par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="fa454-117">To get a reference to the FillPattern cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="cf9e9-117">Pour obtenir une référence à la cellule FillPattern par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="cf9e9-117">To get a reference to the FillPattern cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="fa454-118">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="fa454-118">Cell name:</span></span>  <br/> |<span data-ttu-id="fa454-119">FillPattern</span><span class="sxs-lookup"><span data-stu-id="fa454-119">FillPattern</span></span>  <br/> |
+|<span data-ttu-id="cf9e9-118">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="cf9e9-118">Cell name:</span></span>  <br/> |<span data-ttu-id="cf9e9-119">FillPattern</span><span class="sxs-lookup"><span data-stu-id="cf9e9-119">FillPattern</span></span>  <br/> |
    
-<span data-ttu-id="fa454-120">Pour obtenir une référence à la cellule FillPattern à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="fa454-120">To get a reference to the FillPattern cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="cf9e9-120">Pour obtenir une référence à la cellule FillPattern à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="cf9e9-120">To get a reference to the FillPattern cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="fa454-121">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="fa454-121">Section index:</span></span>  <br/> |<span data-ttu-id="fa454-122">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="fa454-122">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="fa454-123">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="fa454-123">Row index:</span></span>  <br/> |<span data-ttu-id="fa454-124">**visRowFill**</span><span class="sxs-lookup"><span data-stu-id="fa454-124">**visRowFill**</span></span> <br/> |
-|<span data-ttu-id="fa454-125">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="fa454-125">Cell index:</span></span>  <br/> |<span data-ttu-id="fa454-126">**visFillPattern**</span><span class="sxs-lookup"><span data-stu-id="fa454-126">**visFillPattern**</span></span> <br/> |
+|<span data-ttu-id="cf9e9-121">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="cf9e9-121">Section index:</span></span>  <br/> |<span data-ttu-id="cf9e9-122">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cf9e9-122">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="cf9e9-123">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="cf9e9-123">Row index:</span></span>  <br/> |<span data-ttu-id="cf9e9-124">**visRowFill**</span><span class="sxs-lookup"><span data-stu-id="cf9e9-124">**visRowFill**</span></span> <br/> |
+|<span data-ttu-id="cf9e9-125">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="cf9e9-125">Cell index:</span></span>  <br/> |<span data-ttu-id="cf9e9-126">**visFillPattern**</span><span class="sxs-lookup"><span data-stu-id="cf9e9-126">**visFillPattern**</span></span> <br/> |
    
 

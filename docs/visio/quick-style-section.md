@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418098"
 ---
-# <a name="quick-style-section"></a><span data-ttu-id="69541-103">Quick Style Section</span><span class="sxs-lookup"><span data-stu-id="69541-103">Quick Style Section</span></span>
+# <a name="quick-style-section"></a><span data-ttu-id="3890c-103">Quick Style Section</span><span class="sxs-lookup"><span data-stu-id="3890c-103">Quick Style Section</span></span>
 
-<span data-ttu-id="69541-104">Indique les valeurs actuelles de mise en forme du style rapide appliquées à la forme, notamment la couleur et le style de trait, la couleur de remplissage et le style, la couleur de l’ombre, les effets, la police et le type de style.</span><span class="sxs-lookup"><span data-stu-id="69541-104">Shows the current Quick Style formatting values applied to the shape, including line color and style, fill color and style, shadow color, effects, font, and style type.</span></span> 
+<span data-ttu-id="3890c-104">Indique les valeurs actuelles de mise en forme du style rapide appliquées à la forme, notamment la couleur et le style de trait, la couleur de remplissage et le style, la couleur de l’ombre, les effets, la police et le type de style.</span><span class="sxs-lookup"><span data-stu-id="3890c-104">Shows the current Quick Style formatting values applied to the shape, including line color and style, fill color and style, shadow color, effects, font, and style type.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="69541-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="69541-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3890c-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="3890c-105">Remarks</span></span>
 
-<span data-ttu-id="69541-106">Vous pouvez sélectionner la forme, puis un nouveau style  rapide (sous l’onglet Accueil, dans le groupe **Styles** de forme, cliquez sur **Plus,** puis sélectionnez un autre style rapide dans la galerie).</span><span class="sxs-lookup"><span data-stu-id="69541-106">You can Quick Style selecting the shape and then selecting a new Quick Style (on the **Home** tab, in the **Shape Styles** group, click **More**, and then select another Quick Style from the gallery).</span></span>
+<span data-ttu-id="3890c-106">Vous pouvez sélectionner la forme, puis un nouveau style  rapide (sous l’onglet Accueil, dans le groupe **Styles** de forme, cliquez sur **Plus,** puis sélectionnez un autre style rapide dans la galerie).</span><span class="sxs-lookup"><span data-stu-id="3890c-106">You can Quick Style selecting the shape and then selecting a new Quick Style (on the **Home** tab, in the **Shape Styles** group, click **More**, and then select another Quick Style from the gallery).</span></span>
   
 

@@ -14,31 +14,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423012"
 ---
-# <a name="callouttargetref-function"></a><span data-ttu-id="4837f-103">Fonction CALLOUTTARGETREF</span><span class="sxs-lookup"><span data-stu-id="4837f-103">CALLOUTTARGETREF Function</span></span>
+# <a name="callouttargetref-function"></a><span data-ttu-id="54efa-103">Fonction CALLOUTTARGETREF</span><span class="sxs-lookup"><span data-stu-id="54efa-103">CALLOUTTARGETREF Function</span></span>
 
-<span data-ttu-id="4837f-104">Renvoie une référence de feuille à la forme cible de la forme de légende.</span><span class="sxs-lookup"><span data-stu-id="4837f-104">Returns a sheet reference to the target shape of the callout shape.</span></span>
+<span data-ttu-id="54efa-104">Renvoie une référence de feuille à la forme cible de la forme de légende.</span><span class="sxs-lookup"><span data-stu-id="54efa-104">Returns a sheet reference to the target shape of the callout shape.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="4837f-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="4837f-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="54efa-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="54efa-105">Version Information</span></span>
 
-<span data-ttu-id="4837f-106">Version ajoutée : Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="4837f-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="54efa-106">Version ajoutée : Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="54efa-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="4837f-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4837f-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="54efa-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="54efa-107">Syntax</span></span>
 
-<span data-ttu-id="4837f-108">CALLOUTTARGETREF()!</span><span class="sxs-lookup"><span data-stu-id="4837f-108">CALLOUTTARGETREF()!</span></span>
+<span data-ttu-id="54efa-108">CALLOUTTARGETREF()!</span><span class="sxs-lookup"><span data-stu-id="54efa-108">CALLOUTTARGETREF()!</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="4837f-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="4837f-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="54efa-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="54efa-109">Return value</span></span>
 
-<span data-ttu-id="4837f-110">Référence ShapeSheet</span><span class="sxs-lookup"><span data-stu-id="4837f-110">ShapeSheet reference</span></span>
+<span data-ttu-id="54efa-110">Référence ShapeSheet</span><span class="sxs-lookup"><span data-stu-id="54efa-110">ShapeSheet reference</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4837f-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="4837f-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="54efa-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="54efa-111">Remarks</span></span>
 
-<span data-ttu-id="4837f-112">Si la forme n’est pas une forme de fin ou si elle n’est pas associée à une forme cible, callOUTTARGETREF renvoie #REF.</span><span class="sxs-lookup"><span data-stu-id="4837f-112">If the shape is not a callout shape, or if it is not associated with a target shape, CALLOUTTARGETREF returns #REF.</span></span>
+<span data-ttu-id="54efa-112">Si la forme n’est pas une forme de fin ou si elle n’est pas associée à une forme cible, callOUTTARGETREF renvoie #REF.</span><span class="sxs-lookup"><span data-stu-id="54efa-112">If the shape is not a callout shape, or if it is not associated with a target shape, CALLOUTTARGETREF returns #REF.</span></span>
   
-## <a name="example"></a><span data-ttu-id="4837f-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="4837f-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="54efa-113">Exemple</span><span class="sxs-lookup"><span data-stu-id="54efa-113">Example</span></span>
 
-<span data-ttu-id="4837f-114">CALLOUTTARGETREF()! Height</span><span class="sxs-lookup"><span data-stu-id="4837f-114">CALLOUTTARGETREF()!Height</span></span> 
+<span data-ttu-id="54efa-114">CALLOUTTARGETREF()! Height</span><span class="sxs-lookup"><span data-stu-id="54efa-114">CALLOUTTARGETREF()!Height</span></span> 
   
-<span data-ttu-id="4837f-115">Renvoie la valeur de la cellule Height de la forme associée à la légende.</span><span class="sxs-lookup"><span data-stu-id="4837f-115">Returns the value in the Height cell of the shape that is associated with the callout.</span></span> 
+<span data-ttu-id="54efa-115">Renvoie la valeur de la cellule Height de la forme associée à la légende.</span><span class="sxs-lookup"><span data-stu-id="54efa-115">Returns the value in the Height cell of the shape that is associated with the callout.</span></span> 
   
 

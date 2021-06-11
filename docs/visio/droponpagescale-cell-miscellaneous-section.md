@@ -15,34 +15,34 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423761"
 ---
-# <a name="droponpagescale-cell-miscellaneous-section"></a><span data-ttu-id="327d1-102">DropOnPageScale, cellule (section Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="327d1-102">DropOnPageScale Cell (Miscellaneous Section)</span></span>
+# <a name="droponpagescale-cell-miscellaneous-section"></a><span data-ttu-id="77a71-102">DropOnPageScale, cellule (section Miscellaneous)</span><span class="sxs-lookup"><span data-stu-id="77a71-102">DropOnPageScale Cell (Miscellaneous Section)</span></span>
 
-<span data-ttu-id="327d1-103">Contient le pourcentage auquel une forme est mise à l'échelle lorsqu'elle est glissée sur la page de dessin.</span><span class="sxs-lookup"><span data-stu-id="327d1-103">Contains the percentage by which a shape is scaled when dropped on the drawing page.</span></span>
+<span data-ttu-id="77a71-103">Contient le pourcentage auquel une forme est mise à l'échelle lorsqu'elle est glissée sur la page de dessin.</span><span class="sxs-lookup"><span data-stu-id="77a71-103">Contains the percentage by which a shape is scaled when dropped on the drawing page.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="327d1-104">Remarques</span><span class="sxs-lookup"><span data-stu-id="327d1-104">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="77a71-104">Remarques</span><span class="sxs-lookup"><span data-stu-id="77a71-104">Remarks</span></span>
 
-<span data-ttu-id="327d1-105">Dans les deux cas suivants, Visio met à l'échelle les formes pour qu'elles apparaissent correctement sur la page de dessin :</span><span class="sxs-lookup"><span data-stu-id="327d1-105">In the following two cases, Visio scales shapes so that they appear appropriately on the drawing page:</span></span>
+<span data-ttu-id="77a71-105">Dans les deux cas suivants, Visio met à l'échelle les formes pour qu'elles apparaissent correctement sur la page de dessin :</span><span class="sxs-lookup"><span data-stu-id="77a71-105">In the following two cases, Visio scales shapes so that they appear appropriately on the drawing page:</span></span>
   
-- <span data-ttu-id="327d1-106">lorsque des formes non mesurées sont glissées sur des dessins mis à l'échelle ;</span><span class="sxs-lookup"><span data-stu-id="327d1-106">When unmeasured shapes are dropped onto scaled drawings.</span></span>
+- <span data-ttu-id="77a71-106">lorsque des formes non mesurées sont glissées sur des dessins mis à l'échelle ;</span><span class="sxs-lookup"><span data-stu-id="77a71-106">When unmeasured shapes are dropped onto scaled drawings.</span></span>
     
-- <span data-ttu-id="327d1-107">Lorsque les formes mesurées sont déposés sur des dessins non retentés.</span><span class="sxs-lookup"><span data-stu-id="327d1-107">When measured shapes are dropped onto unscaled drawings.</span></span>
+- <span data-ttu-id="77a71-107">Lorsque les formes sont mesurées, elles sont déposés sur des dessins non retentés.</span><span class="sxs-lookup"><span data-stu-id="77a71-107">When measured shapes are dropped onto unscaled drawings.</span></span>
     
-<span data-ttu-id="327d1-108">Le pourcentage dans la cellule DropOnPageScale indique le facteur selon lequel Visio a mis la forme à l’échelle, soit vers le haut (100) soit vers le \> bas ( \< 100).</span><span class="sxs-lookup"><span data-stu-id="327d1-108">The percentage in the DropOnPageScale cell indicates the factor by which Visio scaled the shape, either up (\>100) or down (\<100).</span></span> <span data-ttu-id="327d1-109">Vous pouvez utiliser ce nombre comme facteur lorsque vous calculez des valeurs préprogrammées.</span><span class="sxs-lookup"><span data-stu-id="327d1-109">You can use this number as a factor when calculating hard-coded values.</span></span> 
+<span data-ttu-id="77a71-108">Le pourcentage dans la cellule DropOnPageScale indique le facteur selon lequel Visio mise à l’échelle de la forme, soit vers le haut (100) soit vers le \> bas ( \< 100).</span><span class="sxs-lookup"><span data-stu-id="77a71-108">The percentage in the DropOnPageScale cell indicates the factor by which Visio scaled the shape, either up (\>100) or down (\<100).</span></span> <span data-ttu-id="77a71-109">Vous pouvez utiliser ce nombre comme facteur lorsque vous calculez des valeurs préprogrammées.</span><span class="sxs-lookup"><span data-stu-id="77a71-109">You can use this number as a factor when calculating hard-coded values.</span></span> 
   
-<span data-ttu-id="327d1-110">Cette valeur est de 100 % pour les formes mesurées sur des dessins mis à l'échelle ou les formes non mesurées sur des dessins non mis à l'échelle.</span><span class="sxs-lookup"><span data-stu-id="327d1-110">This value is 100% for measured shapes on scaled drawings or unmeasured shapes on unscaled drawings.</span></span> 
+<span data-ttu-id="77a71-110">Cette valeur est de 100 % pour les formes mesurées sur des dessins mis à l'échelle ou les formes non mesurées sur des dessins non mis à l'échelle.</span><span class="sxs-lookup"><span data-stu-id="77a71-110">This value is 100% for measured shapes on scaled drawings or unmeasured shapes on unscaled drawings.</span></span> 
   
-<span data-ttu-id="327d1-111">Pour obtenir une référence à la cellule DropOnPageScale par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="327d1-111">To get a reference to the DropOnPageScale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="77a71-111">Pour obtenir une référence à la cellule DropOnPageScale par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="77a71-111">To get a reference to the DropOnPageScale cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="327d1-112">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="327d1-112">Cell name:</span></span>  <br/> | <span data-ttu-id="327d1-113">DropOnPageScale</span><span class="sxs-lookup"><span data-stu-id="327d1-113">DropOnPageScale</span></span>  <br/> |
+| <span data-ttu-id="77a71-112">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="77a71-112">Cell name:</span></span>  <br/> | <span data-ttu-id="77a71-113">DropOnPageScale</span><span class="sxs-lookup"><span data-stu-id="77a71-113">DropOnPageScale</span></span>  <br/> |
    
-<span data-ttu-id="327d1-114">Pour obtenir une référence à la cellule DropOnPageScale à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="327d1-114">To get a reference to the DropOnPageScale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="77a71-114">Pour obtenir une référence à la cellule DropOnPageScale à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="77a71-114">To get a reference to the DropOnPageScale cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="327d1-115">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="327d1-115">Section index:</span></span>  <br/> |<span data-ttu-id="327d1-116">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="327d1-116">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="327d1-117">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="327d1-117">Row index:</span></span>  <br/> |<span data-ttu-id="327d1-118">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="327d1-118">**visRowMisc**</span></span> <br/> |
-| <span data-ttu-id="327d1-119">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="327d1-119">Cell index:</span></span>  <br/> |<span data-ttu-id="327d1-120">**visObjDropOnPageScale**</span><span class="sxs-lookup"><span data-stu-id="327d1-120">**visObjDropOnPageScale**</span></span> <br/> |
+| <span data-ttu-id="77a71-115">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="77a71-115">Section index:</span></span>  <br/> |<span data-ttu-id="77a71-116">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="77a71-116">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="77a71-117">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="77a71-117">Row index:</span></span>  <br/> |<span data-ttu-id="77a71-118">**visRowMisc**</span><span class="sxs-lookup"><span data-stu-id="77a71-118">**visRowMisc**</span></span> <br/> |
+| <span data-ttu-id="77a71-119">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="77a71-119">Cell index:</span></span>  <br/> |<span data-ttu-id="77a71-120">**visObjDropOnPageScale**</span><span class="sxs-lookup"><span data-stu-id="77a71-120">**visObjDropOnPageScale**</span></span> <br/> |
    
 

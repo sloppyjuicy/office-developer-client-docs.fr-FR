@@ -14,24 +14,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420499"
 ---
-# <a name="fontschemeindex-cell-theme-properties-section"></a><span data-ttu-id="854b9-103">FontSchemeIndex Cell (Theme Properties Section)</span><span class="sxs-lookup"><span data-stu-id="854b9-103">FontSchemeIndex Cell (Theme Properties Section</span></span>
+# <a name="fontschemeindex-cell-theme-properties-section"></a><span data-ttu-id="8fc82-103">FontSchemeIndex Cell (Theme Properties Section)</span><span class="sxs-lookup"><span data-stu-id="8fc82-103">FontSchemeIndex Cell (Theme Properties Section</span></span>
 
-<span data-ttu-id="854b9-104">Détermine le modèle de police d’un thème qui est appliqué à la forme, sous la forme d’un nombre integer.</span><span class="sxs-lookup"><span data-stu-id="854b9-104">Determines the font scheme of a theme that is applied to the shape, as an integer.</span></span> 
+<span data-ttu-id="8fc82-104">Détermine le modèle de police d’un thème qui est appliqué à la forme, sous la forme d’un nombre integer.</span><span class="sxs-lookup"><span data-stu-id="8fc82-104">Determines the font scheme of a theme that is applied to the shape, as an integer.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="854b9-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="854b9-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8fc82-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="8fc82-105">Remarks</span></span>
 
-<span data-ttu-id="854b9-106">Pour obtenir une référence à la cellule **FontSchemeIndex** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="854b9-106">To get a reference to the **FontSchemeIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="8fc82-106">Pour obtenir une référence à la cellule **FontSchemeIndex** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="8fc82-106">To get a reference to the **FontSchemeIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="854b9-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="854b9-107">Cell name:</span></span>  <br/> | <span data-ttu-id="854b9-108">FontSchemeIndex</span><span class="sxs-lookup"><span data-stu-id="854b9-108">FontSchemeIndex</span></span>  <br/> |
+| <span data-ttu-id="8fc82-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="8fc82-107">Cell name:</span></span>  <br/> | <span data-ttu-id="8fc82-108">FontSchemeIndex</span><span class="sxs-lookup"><span data-stu-id="8fc82-108">FontSchemeIndex</span></span>  <br/> |
    
-<span data-ttu-id="854b9-109">Pour obtenir une référence à la **cellule FontSchemeIndex** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="854b9-109">To get a reference to the **FontSchemeIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="8fc82-109">Pour obtenir une référence à la **cellule FontSchemeIndex** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="8fc82-109">To get a reference to the **FontSchemeIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="854b9-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="854b9-110">Section index:</span></span>  <br/> |<span data-ttu-id="854b9-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="854b9-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="854b9-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="854b9-112">Row index:</span></span>  <br/> |<span data-ttu-id="854b9-113">**visRowThemeProperties**</span><span class="sxs-lookup"><span data-stu-id="854b9-113">**visRowThemeProperties**</span></span> <br/> |
-| <span data-ttu-id="854b9-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="854b9-114">Cell index:</span></span>  <br/> |<span data-ttu-id="854b9-115">**visFontSchemeIndex**</span><span class="sxs-lookup"><span data-stu-id="854b9-115">**visFontSchemeIndex**</span></span> <br/> |
+| <span data-ttu-id="8fc82-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="8fc82-110">Section index:</span></span>  <br/> |<span data-ttu-id="8fc82-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="8fc82-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="8fc82-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="8fc82-112">Row index:</span></span>  <br/> |<span data-ttu-id="8fc82-113">**visRowThemeProperties**</span><span class="sxs-lookup"><span data-stu-id="8fc82-113">**visRowThemeProperties**</span></span> <br/> |
+| <span data-ttu-id="8fc82-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="8fc82-114">Cell index:</span></span>  <br/> |<span data-ttu-id="8fc82-115">**visFontSchemeIndex**</span><span class="sxs-lookup"><span data-stu-id="8fc82-115">**visFontSchemeIndex**</span></span> <br/> |
    
 

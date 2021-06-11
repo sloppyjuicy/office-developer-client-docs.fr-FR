@@ -14,19 +14,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421689"
 ---
-# <a name="user-interface-commands-access-custom-web-app"></a><span data-ttu-id="7d8ac-102">Commandes d’interface utilisateur (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="7d8ac-102">User interface commands (Access custom web app)</span></span>
+# <a name="user-interface-commands-access-custom-web-app"></a><span data-ttu-id="6a13c-102">Commandes d’interface utilisateur (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="6a13c-102">User interface commands (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="7d8ac-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="7d8ac-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="6a13c-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="6a13c-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="7d8ac-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="7d8ac-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6a13c-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="6a13c-105">In this section</span></span>
 
-- [<span data-ttu-id="7d8ac-106">ChangeView Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="7d8ac-106">ChangeView Macro Action (Access custom web app)</span></span>](changeview-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="6a13c-106">ChangeView Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="6a13c-106">ChangeView Macro Action (Access custom web app)</span></span>](changeview-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="7d8ac-107">ClosePopup Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="7d8ac-107">ClosePopup Macro Action (Access custom web app)</span></span>](closepopup-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="6a13c-107">ClosePopup Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="6a13c-107">ClosePopup Macro Action (Access custom web app)</span></span>](closepopup-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="7d8ac-108">MessageBox Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="7d8ac-108">MessageBox Macro Action (Access custom web app)</span></span>](messagebox-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="6a13c-108">MessageBox Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="6a13c-108">MessageBox Macro Action (Access custom web app)</span></span>](messagebox-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="7d8ac-109">OpenPopup Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="7d8ac-109">OpenPopup Macro Action (Access custom web app)</span></span>](openpopup-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="6a13c-109">OpenPopup Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="6a13c-109">OpenPopup Macro Action (Access custom web app)</span></span>](openpopup-macro-action-access-custom-web-app.md)
     
 

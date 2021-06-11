@@ -14,25 +14,25 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423929"
 ---
-# <a name="listorder-function"></a><span data-ttu-id="d43d9-103">Fonction LISTORDER</span><span class="sxs-lookup"><span data-stu-id="d43d9-103">LISTORDER Function</span></span>
+# <a name="listorder-function"></a><span data-ttu-id="cb12b-103">Fonction LISTORDER</span><span class="sxs-lookup"><span data-stu-id="cb12b-103">LISTORDER Function</span></span>
 
-<span data-ttu-id="d43d9-104">Renvoie la position de base 1 de la forme dans la liste.</span><span class="sxs-lookup"><span data-stu-id="d43d9-104">Returns the 1-based position of the shape in the list.</span></span>
+<span data-ttu-id="cb12b-104">Renvoie la position de base 1 de la forme dans la liste.</span><span class="sxs-lookup"><span data-stu-id="cb12b-104">Returns the 1-based position of the shape in the list.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="d43d9-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="d43d9-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="cb12b-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="cb12b-105">Version Information</span></span>
 
-<span data-ttu-id="d43d9-106">Version ajoutée : Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="d43d9-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="cb12b-106">Version ajoutée : Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="cb12b-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="d43d9-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d43d9-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cb12b-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="cb12b-107">Syntax</span></span>
 
-<span data-ttu-id="d43d9-108">LISTORDER()</span><span class="sxs-lookup"><span data-stu-id="d43d9-108">LISTORDER()</span></span>
+<span data-ttu-id="cb12b-108">LISTORDER()</span><span class="sxs-lookup"><span data-stu-id="cb12b-108">LISTORDER()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="d43d9-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="d43d9-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="cb12b-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="cb12b-109">Return value</span></span>
 
-<span data-ttu-id="d43d9-110">Entier</span><span class="sxs-lookup"><span data-stu-id="d43d9-110">Integer</span></span>
+<span data-ttu-id="cb12b-110">Entier</span><span class="sxs-lookup"><span data-stu-id="cb12b-110">Integer</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d43d9-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="d43d9-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cb12b-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="cb12b-111">Remarks</span></span>
 
-<span data-ttu-id="d43d9-112">Si la forme n’est pas un membre de la liste, la fonction LISTORDER renvoie -1.</span><span class="sxs-lookup"><span data-stu-id="d43d9-112">If the shape is not a list member, the LISTORDER function returns -1.</span></span>
+<span data-ttu-id="cb12b-112">Si la forme n’est pas un membre de la liste, la fonction LISTORDER renvoie -1.</span><span class="sxs-lookup"><span data-stu-id="cb12b-112">If the shape is not a list member, the LISTORDER function returns -1.</span></span>
   
 

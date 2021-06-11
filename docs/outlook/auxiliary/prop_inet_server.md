@@ -14,21 +14,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417601"
 ---
-# <a name="prop_inet_server"></a><span data-ttu-id="17a52-103">PROP_INET_SERVER</span><span class="sxs-lookup"><span data-stu-id="17a52-103">PROP_INET_SERVER</span></span>
+# <a name="prop_inet_server"></a><span data-ttu-id="5c764-103">PROP_INET_SERVER</span><span class="sxs-lookup"><span data-stu-id="5c764-103">PROP_INET_SERVER</span></span>
 
-<span data-ttu-id="17a52-104">Représente le nom de serveur d’une boîte aux lettres Internet générale.</span><span class="sxs-lookup"><span data-stu-id="17a52-104">Represents the server name of a general Internet mailbox.</span></span>
+<span data-ttu-id="5c764-104">Représente le nom de serveur d’une boîte aux lettres Internet générale.</span><span class="sxs-lookup"><span data-stu-id="5c764-104">Represents the server name of a general Internet mailbox.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="17a52-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="17a52-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="5c764-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="5c764-105">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="17a52-106">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="17a52-106">Identifier:</span></span>  <br/> |<span data-ttu-id="17a52-107">0x0100</span><span class="sxs-lookup"><span data-stu-id="17a52-107">0x0100</span></span>  <br/> |
-|<span data-ttu-id="17a52-108">Type de propriété :</span><span class="sxs-lookup"><span data-stu-id="17a52-108">Property type:</span></span>  <br/> |<span data-ttu-id="17a52-109">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="17a52-109">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="17a52-110">Balise de propriété :</span><span class="sxs-lookup"><span data-stu-id="17a52-110">Property tag:</span></span>  <br/> |<span data-ttu-id="17a52-111">0x0100001F</span><span class="sxs-lookup"><span data-stu-id="17a52-111">0x0100001F</span></span>  <br/> |
-|<span data-ttu-id="17a52-112">Accès :</span><span class="sxs-lookup"><span data-stu-id="17a52-112">Access:</span></span>  <br/> |<span data-ttu-id="17a52-113">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="17a52-113">Read-only</span></span>  <br/> |
+|<span data-ttu-id="5c764-106">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="5c764-106">Identifier:</span></span>  <br/> |<span data-ttu-id="5c764-107">0x0100</span><span class="sxs-lookup"><span data-stu-id="5c764-107">0x0100</span></span>  <br/> |
+|<span data-ttu-id="5c764-108">Type de propriété :</span><span class="sxs-lookup"><span data-stu-id="5c764-108">Property type:</span></span>  <br/> |<span data-ttu-id="5c764-109">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="5c764-109">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="5c764-110">Balise de propriété :</span><span class="sxs-lookup"><span data-stu-id="5c764-110">Property tag:</span></span>  <br/> |<span data-ttu-id="5c764-111">0x0100001F</span><span class="sxs-lookup"><span data-stu-id="5c764-111">0x0100001F</span></span>  <br/> |
+|<span data-ttu-id="5c764-112">Accès :</span><span class="sxs-lookup"><span data-stu-id="5c764-112">Access:</span></span>  <br/> |<span data-ttu-id="5c764-113">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="5c764-113">Read-only</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="17a52-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="17a52-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5c764-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5c764-114">See also</span></span>
 
-- [<span data-ttu-id="17a52-115">Gestion des téléchargements de messages pour les comptes POP3</span><span class="sxs-lookup"><span data-stu-id="17a52-115">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
-- [<span data-ttu-id="17a52-116">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="17a52-116">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="5c764-115">Gestion des téléchargements de messages pour les comptes POP3</span><span class="sxs-lookup"><span data-stu-id="5c764-115">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
+- [<span data-ttu-id="5c764-116">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="5c764-116">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422599"
 ---
-# <a name="data-types-account-management-api"></a><span data-ttu-id="1d557-103">Types de données (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="1d557-103">Data types (Account management API)</span></span>
+# <a name="data-types-account-management-api"></a><span data-ttu-id="7fa61-103">Types de données (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="7fa61-103">Data types (Account management API)</span></span>
 
-<span data-ttu-id="1d557-104">Cette section décrit les types de données dans l’API de gestion des comptes.</span><span class="sxs-lookup"><span data-stu-id="1d557-104">This section describes the data types in the Account Management API.</span></span>
+<span data-ttu-id="7fa61-104">Cette section décrit les types de données dans l’API de gestion des comptes.</span><span class="sxs-lookup"><span data-stu-id="7fa61-104">This section describes the data types in the Account Management API.</span></span>
   
-|<span data-ttu-id="1d557-105">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="1d557-105">**Data type**</span></span>|<span data-ttu-id="1d557-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="1d557-106">**Description**</span></span>|
+|<span data-ttu-id="7fa61-105">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="7fa61-105">**Data type**</span></span>|<span data-ttu-id="7fa61-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="7fa61-106">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="1d557-107">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="1d557-107">ACCT_BIN</span></span>](acct_bin.md) <br/> |<span data-ttu-id="1d557-108">Une variable de ce type de données contient une valeur binaire.</span><span class="sxs-lookup"><span data-stu-id="1d557-108">A variable of this data type holds a binary value.</span></span>  <br/> |
-|[<span data-ttu-id="1d557-109">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="1d557-109">ACCT_VARIANT</span></span>](acct_variant.md) <br/> |<span data-ttu-id="1d557-110">Une variable de ce type de données contient la valeur d’une propriété, qui est d’un type de données variant.</span><span class="sxs-lookup"><span data-stu-id="1d557-110">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>  <br/> |
+|[<span data-ttu-id="7fa61-107">ACCT_BIN</span><span class="sxs-lookup"><span data-stu-id="7fa61-107">ACCT_BIN</span></span>](acct_bin.md) <br/> |<span data-ttu-id="7fa61-108">Une variable de ce type de données contient une valeur binaire.</span><span class="sxs-lookup"><span data-stu-id="7fa61-108">A variable of this data type holds a binary value.</span></span>  <br/> |
+|[<span data-ttu-id="7fa61-109">ACCT_VARIANT</span><span class="sxs-lookup"><span data-stu-id="7fa61-109">ACCT_VARIANT</span></span>](acct_variant.md) <br/> |<span data-ttu-id="7fa61-110">Une variable de ce type de données contient la valeur d’une propriété, qui est d’un type de données variant.</span><span class="sxs-lookup"><span data-stu-id="7fa61-110">A variable of this data type holds the value of a property, which is of a variant data type.</span></span>  <br/> |
    
 

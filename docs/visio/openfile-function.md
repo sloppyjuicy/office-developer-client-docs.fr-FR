@@ -16,32 +16,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419575"
 ---
-# <a name="openfile-function"></a><span data-ttu-id="76656-103">Fonction OPENFILE</span><span class="sxs-lookup"><span data-stu-id="76656-103">OPENFILE Function</span></span>
+# <a name="openfile-function"></a><span data-ttu-id="a766b-103">Fonction OPENFILE</span><span class="sxs-lookup"><span data-stu-id="a766b-103">OPENFILE Function</span></span>
 
-<span data-ttu-id="76656-104">Ouvre un document Microsoft Visio, s’il n’est pas déjà ouvert, et active la fenêtre de document.</span><span class="sxs-lookup"><span data-stu-id="76656-104">Opens a Microsoft Visio document, if it's not already open, and activates the document window.</span></span>
+<span data-ttu-id="a766b-104">Ouvre un document Microsoft Visio, s’il n’est pas déjà ouvert, et active la fenêtre de document.</span><span class="sxs-lookup"><span data-stu-id="a766b-104">Opens a Microsoft Visio document, if it's not already open, and activates the document window.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="76656-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="76656-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a766b-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a766b-105">Syntax</span></span>
 
- <span data-ttu-id="76656-106">**OPENFILE**( _« filename »_)</span><span class="sxs-lookup"><span data-stu-id="76656-106">**OPENFILE**( _"filename"_)</span></span>
+ <span data-ttu-id="a766b-106">**OPENFILE**( _« filename »_)</span><span class="sxs-lookup"><span data-stu-id="a766b-106">**OPENFILE**( _"filename"_)</span></span>
   
-### <a name="parameters"></a><span data-ttu-id="76656-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="76656-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="a766b-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a766b-107">Parameters</span></span>
 
-|<span data-ttu-id="76656-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="76656-108">**Name**</span></span>|<span data-ttu-id="76656-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="76656-109">**Required/Optional**</span></span>|<span data-ttu-id="76656-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="76656-110">**Data Type**</span></span>|<span data-ttu-id="76656-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="76656-111">**Description**</span></span>|
+|<span data-ttu-id="a766b-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="a766b-108">**Name**</span></span>|<span data-ttu-id="a766b-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="a766b-109">**Required/Optional**</span></span>|<span data-ttu-id="a766b-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="a766b-110">**Data Type**</span></span>|<span data-ttu-id="a766b-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="a766b-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="76656-112">_filename_</span><span class="sxs-lookup"><span data-stu-id="76656-112">_filename_</span></span> <br/> |<span data-ttu-id="76656-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="76656-113">Required</span></span>  <br/> |<span data-ttu-id="76656-114">**String**</span><span class="sxs-lookup"><span data-stu-id="76656-114">**String**</span></span> <br/> |<span data-ttu-id="76656-115">Nom du fichier, y compris le chemin d’accès au fichier, que vous souhaitez ouvrir.</span><span class="sxs-lookup"><span data-stu-id="76656-115">The name of the file, including file path, you want to open.</span></span>  <br/> |
+| <span data-ttu-id="a766b-112">_filename_</span><span class="sxs-lookup"><span data-stu-id="a766b-112">_filename_</span></span> <br/> |<span data-ttu-id="a766b-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="a766b-113">Required</span></span>  <br/> |<span data-ttu-id="a766b-114">**String**</span><span class="sxs-lookup"><span data-stu-id="a766b-114">**String**</span></span> <br/> |<span data-ttu-id="a766b-115">Nom du fichier, y compris le chemin d’accès du fichier, que vous souhaitez ouvrir.</span><span class="sxs-lookup"><span data-stu-id="a766b-115">The name of the file, including file path, you want to open.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="76656-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="76656-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a766b-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="a766b-116">Remarks</span></span>
 
-<span data-ttu-id="76656-p101">Si plusieurs fonctions OPENFILE sont déclenchées, elles sont mises en file d’attente et exécutées dans l’ordre d’évaluation. Si le document Visio ouvert est activé pour une modification à l’écran (dans une autre application), une nouvelle copie de Visio est lancée avec le nom de fichier demandé.</span><span class="sxs-lookup"><span data-stu-id="76656-p101">Multiple OPENFILE function calls are queued and executed in order of evaluation. If the current Visio document is activated for visual (in-place) editing, a new Visio instance is launched with the requested file name.</span></span> 
+<span data-ttu-id="a766b-p101">Si plusieurs fonctions OPENFILE sont déclenchées, elles sont mises en file d’attente et exécutées dans l’ordre d’évaluation. Si le document Visio ouvert est activé pour une modification à l’écran (dans une autre application), une nouvelle copie de Visio est lancée avec le nom de fichier demandé.</span><span class="sxs-lookup"><span data-stu-id="a766b-p101">Multiple OPENFILE function calls are queued and executed in order of evaluation. If the current Visio document is activated for visual (in-place) editing, a new Visio instance is launched with the requested file name.</span></span> 
   
-<span data-ttu-id="76656-119">Cette fonction renvoie toujours la valeur FALSE.</span><span class="sxs-lookup"><span data-stu-id="76656-119">This function always returns FALSE.</span></span> 
+<span data-ttu-id="a766b-119">Cette fonction renvoie toujours la valeur FALSE.</span><span class="sxs-lookup"><span data-stu-id="a766b-119">This function always returns FALSE.</span></span> 
   
-<span data-ttu-id="76656-p102">Dans les versions précédentes de Visio, cette fonction s’appelait _OPENFILE. Les versions Visio 4.0 et ultérieures acceptent les deux styles.</span><span class="sxs-lookup"><span data-stu-id="76656-p102">In earlier versions of the Visio application, this function appears as _OPENFILE. Visio versions 4.0 and later accept either style.</span></span> 
+<span data-ttu-id="a766b-p102">Dans les versions précédentes de Visio, cette fonction s’appelait _OPENFILE. Les versions Visio 4.0 et ultérieures acceptent les deux styles.</span><span class="sxs-lookup"><span data-stu-id="a766b-p102">In earlier versions of the Visio application, this function appears as _OPENFILE. Visio versions 4.0 and later accept either style.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="76656-122">Exemple</span><span class="sxs-lookup"><span data-stu-id="76656-122">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a766b-122">Exemple</span><span class="sxs-lookup"><span data-stu-id="a766b-122">Example</span></span>
 
  `OPENFILE("C:/MyFile.vsdx")`
   
-<span data-ttu-id="76656-123">Ouvre le fichier spécifié « MyFile.vsdx » dans une nouvelle fenêtre ou active la fenêtre si le fichier est déjà ouvert.</span><span class="sxs-lookup"><span data-stu-id="76656-123">Opens the specified file "MyFile.vsdx" in a new window, or activates the window if the file is already open.</span></span> 
+<span data-ttu-id="a766b-123">Ouvre le fichier spécifié « MyFile.vsdx » dans une nouvelle fenêtre ou active la fenêtre si le fichier est déjà ouvert.</span><span class="sxs-lookup"><span data-stu-id="a766b-123">Opens the specified file "MyFile.vsdx" in a new window, or activates the window if the file is already open.</span></span> 
   
 

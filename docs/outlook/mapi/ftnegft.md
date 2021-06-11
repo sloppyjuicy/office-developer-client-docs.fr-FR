@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423383"
 ---
-# <a name="ftnegft"></a><span data-ttu-id="aef84-103">FtNegFt</span><span class="sxs-lookup"><span data-stu-id="aef84-103">FtNegFt</span></span>
+# <a name="ftnegft"></a><span data-ttu-id="36ce8-103">FtNegFt</span><span class="sxs-lookup"><span data-stu-id="36ce8-103">FtNegFt</span></span>
 
   
   
-<span data-ttu-id="aef84-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="aef84-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="36ce8-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="36ce8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="aef84-105">Calcule le complément des deux d’un nombre integer 64 bits non signé.</span><span class="sxs-lookup"><span data-stu-id="aef84-105">Computes the two's complement of an unsigned 64-bit integer.</span></span> 
+<span data-ttu-id="36ce8-105">Calcule le complément des deux d’un nombre integer 64 bits non signé.</span><span class="sxs-lookup"><span data-stu-id="36ce8-105">Computes the two's complement of an unsigned 64-bit integer.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="aef84-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="aef84-106">Header file:</span></span>  <br/> |<span data-ttu-id="aef84-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="aef84-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="aef84-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="aef84-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="aef84-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="aef84-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="aef84-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="aef84-110">Called by:</span></span>  <br/> |<span data-ttu-id="aef84-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="aef84-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="36ce8-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="36ce8-106">Header file:</span></span>  <br/> |<span data-ttu-id="36ce8-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="36ce8-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="36ce8-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="36ce8-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="36ce8-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="36ce8-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="36ce8-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="36ce8-110">Called by:</span></span>  <br/> |<span data-ttu-id="36ce8-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="36ce8-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 FILETIME FtNegFt(
@@ -39,14 +39,14 @@ FILETIME FtNegFt(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="aef84-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="aef84-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="36ce8-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="36ce8-112">Parameters</span></span>
 
- <span data-ttu-id="aef84-113">_ft_</span><span class="sxs-lookup"><span data-stu-id="aef84-113">_ft_</span></span>
+ <span data-ttu-id="36ce8-113">_ft_</span><span class="sxs-lookup"><span data-stu-id="36ce8-113">_ft_</span></span>
   
-> <span data-ttu-id="aef84-114">[in] Structure [FILETIME](filetime.md) qui contient l’ensemble non signé 64 bits pour lequel calculer le complément des deux.</span><span class="sxs-lookup"><span data-stu-id="aef84-114">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer for which to compute the two's complement.</span></span> 
+> <span data-ttu-id="36ce8-114">[in] Structure [FILETIME](filetime.md) qui contient l’ensemble non signé 64 bits pour lequel calculer le complément des deux.</span><span class="sxs-lookup"><span data-stu-id="36ce8-114">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer for which to compute the two's complement.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="aef84-115">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="aef84-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="36ce8-115">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="36ce8-115">Return value</span></span>
 
-<span data-ttu-id="aef84-116">La **fonction FtNegFt** renvoie une structure **FILETIME** qui contient le complément de l’ensemble des deux.</span><span class="sxs-lookup"><span data-stu-id="aef84-116">The **FtNegFt** function returns a **FILETIME** structure that contains the two's complement of the integer.</span></span> <span data-ttu-id="aef84-117">Le paramètre d’entrée reste inchangé.</span><span class="sxs-lookup"><span data-stu-id="aef84-117">The input parameter remains unchanged.</span></span> 
+<span data-ttu-id="36ce8-116">La **fonction FtNegFt** renvoie une structure **FILETIME** qui contient le complément de l’ensemble des deux.</span><span class="sxs-lookup"><span data-stu-id="36ce8-116">The **FtNegFt** function returns a **FILETIME** structure that contains the two's complement of the integer.</span></span> <span data-ttu-id="36ce8-117">Le paramètre d’entrée reste inchangé.</span><span class="sxs-lookup"><span data-stu-id="36ce8-117">The input parameter remains unchanged.</span></span> 
   
 

@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424615"
 ---
-# <a name="iaddrbooksetpab"></a><span data-ttu-id="139d5-103">IAddrBook::SetPAB</span><span class="sxs-lookup"><span data-stu-id="139d5-103">IAddrBook::SetPAB</span></span>
+# <a name="iaddrbooksetpab"></a><span data-ttu-id="52e0d-103">IAddrBook::SetPAB</span><span class="sxs-lookup"><span data-stu-id="52e0d-103">IAddrBook::SetPAB</span></span>
 
   
   
-<span data-ttu-id="139d5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="139d5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="52e0d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="52e0d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="139d5-105">Désigne un conteneur particulier en tant que carnet d’adresses personnel (PAB).</span><span class="sxs-lookup"><span data-stu-id="139d5-105">Designates a particular container as the personal address book (PAB).</span></span>
+<span data-ttu-id="52e0d-105">Désigne un conteneur particulier en tant que carnet d’adresses personnel (PAB).</span><span class="sxs-lookup"><span data-stu-id="52e0d-105">Designates a particular container as the personal address book (PAB).</span></span>
   
 ```cpp
 HRESULT SetPAB(
@@ -34,50 +34,50 @@ HRESULT SetPAB(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="139d5-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="139d5-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="52e0d-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="52e0d-106">Parameters</span></span>
 
- <span data-ttu-id="139d5-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="139d5-107">_cbEntryID_</span></span>
+ <span data-ttu-id="52e0d-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="52e0d-107">_cbEntryID_</span></span>
   
-> <span data-ttu-id="139d5-108">[in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._</span><span class="sxs-lookup"><span data-stu-id="139d5-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="52e0d-108">[in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._</span><span class="sxs-lookup"><span data-stu-id="52e0d-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="139d5-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="139d5-109">_lpEntryID_</span></span>
+ <span data-ttu-id="52e0d-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="52e0d-109">_lpEntryID_</span></span>
   
-> <span data-ttu-id="139d5-110">[in] Pointeur vers l’identificateur d’entrée du conteneur à désigner en tant que PAB.</span><span class="sxs-lookup"><span data-stu-id="139d5-110">[in] A pointer to the entry identifier of the container to be designated as the PAB.</span></span> <span data-ttu-id="139d5-111">Le  _paramètre lpEntryID_ ne peut pas être NULL.</span><span class="sxs-lookup"><span data-stu-id="139d5-111">The  _lpEntryID_ parameter cannot be NULL.</span></span> 
+> <span data-ttu-id="52e0d-110">[in] Pointeur vers l’identificateur d’entrée du conteneur à désigner en tant que PAB.</span><span class="sxs-lookup"><span data-stu-id="52e0d-110">[in] A pointer to the entry identifier of the container to be designated as the PAB.</span></span> <span data-ttu-id="52e0d-111">Le  _paramètre lpEntryID_ ne peut pas être NULL.</span><span class="sxs-lookup"><span data-stu-id="52e0d-111">The  _lpEntryID_ parameter cannot be NULL.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="139d5-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="139d5-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="52e0d-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="52e0d-112">Return value</span></span>
 
-<span data-ttu-id="139d5-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="139d5-113">S_OK</span></span> 
+<span data-ttu-id="52e0d-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="52e0d-113">S_OK</span></span> 
   
-> <span data-ttu-id="139d5-114">Le conteneur spécifié a été établi en tant que PAB.</span><span class="sxs-lookup"><span data-stu-id="139d5-114">The specified container has been established as the PAB.</span></span>
+> <span data-ttu-id="52e0d-114">Le conteneur spécifié a été établi en tant que PAB.</span><span class="sxs-lookup"><span data-stu-id="52e0d-114">The specified container has been established as the PAB.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="139d5-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="139d5-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="52e0d-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="52e0d-115">Remarks</span></span>
 
-<span data-ttu-id="139d5-116">Les clients et les fournisseurs de services appellent la **méthode SetPAB** pour désigner un conteneur particulier en tant que PAB.</span><span class="sxs-lookup"><span data-stu-id="139d5-116">Clients and service providers call the **SetPAB** method to designate a particular container as the PAB.</span></span> <span data-ttu-id="139d5-117">Le PAB est un conteneur qui se compose d’entrées copiées à partir d’autres conteneurs, ainsi que de nouvelles entrées.</span><span class="sxs-lookup"><span data-stu-id="139d5-117">The PAB is a container that consists of entries copied from other containers as well as new entries.</span></span> 
+<span data-ttu-id="52e0d-116">Les clients et les fournisseurs de services appellent la **méthode SetPAB** pour désigner un conteneur particulier en tant que PAB.</span><span class="sxs-lookup"><span data-stu-id="52e0d-116">Clients and service providers call the **SetPAB** method to designate a particular container as the PAB.</span></span> <span data-ttu-id="52e0d-117">Le PAB est un conteneur constitué d’entrées copiées à partir d’autres conteneurs, ainsi que de nouvelles entrées.</span><span class="sxs-lookup"><span data-stu-id="52e0d-117">The PAB is a container that consists of entries copied from other containers as well as new entries.</span></span> 
   
-<span data-ttu-id="139d5-118">Un appel à **SetPAB** établit un conteneur en tant que PAB jusqu’à ce que ce conteneur soit rendu indisponible ou qu’un nouveau conteneur devienne le PAB via un appel ultérieur à **SetPAB**.</span><span class="sxs-lookup"><span data-stu-id="139d5-118">A call to **SetPAB** establishes a container as the PAB until that container is made unavailable or a new container becomes the PAB through a subsequent call to **SetPAB**.</span></span> 
+<span data-ttu-id="52e0d-118">Un appel à **SetPAB** établit un conteneur en tant que PAB jusqu’à ce que ce conteneur soit rendu indisponible ou qu’un nouveau conteneur devienne le PAB via un appel ultérieur à **SetPAB**.</span><span class="sxs-lookup"><span data-stu-id="52e0d-118">A call to **SetPAB** establishes a container as the PAB until that container is made unavailable or a new container becomes the PAB through a subsequent call to **SetPAB**.</span></span> 
   
-<span data-ttu-id="139d5-119">Les clients et fournisseurs n’ont pas besoin d’appeler la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour rendre la modification du PAB permanente.</span><span class="sxs-lookup"><span data-stu-id="139d5-119">Clients and providers do not have to call the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to make the PAB change permanent.</span></span> 
+<span data-ttu-id="52e0d-119">Les clients et fournisseurs n’ont pas besoin d’appeler la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) pour rendre la modification du PAB permanente.</span><span class="sxs-lookup"><span data-stu-id="52e0d-119">Clients and providers do not have to call the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to make the PAB change permanent.</span></span> 
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="139d5-120">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="139d5-120">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="52e0d-120">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="52e0d-120">MFCMAPI reference</span></span>
 
-<span data-ttu-id="139d5-121">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="139d5-121">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="52e0d-121">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="52e0d-121">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="139d5-122">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="139d5-122">**File**</span></span>|<span data-ttu-id="139d5-123">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="139d5-123">**Function**</span></span>|<span data-ttu-id="139d5-124">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="139d5-124">**Comment**</span></span>|
+|<span data-ttu-id="52e0d-122">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="52e0d-122">**File**</span></span>|<span data-ttu-id="52e0d-123">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="52e0d-123">**Function**</span></span>|<span data-ttu-id="52e0d-124">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="52e0d-124">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="139d5-125">AbContDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="139d5-125">AbContDlg.cpp</span></span>  <br/> |<span data-ttu-id="139d5-126">CAbContDlg::OnSetPAB</span><span class="sxs-lookup"><span data-stu-id="139d5-126">CAbContDlg::OnSetPAB</span></span>  <br/> |<span data-ttu-id="139d5-127">MFCMAPI utilise la **méthode SetPAB** pour faire du conteneur spécifié le PAB.</span><span class="sxs-lookup"><span data-stu-id="139d5-127">MFCMAPI uses the **SetPAB** method to make the specified container the PAB.</span></span>  <br/> |
+|<span data-ttu-id="52e0d-125">AbContDlg.cpp</span><span class="sxs-lookup"><span data-stu-id="52e0d-125">AbContDlg.cpp</span></span>  <br/> |<span data-ttu-id="52e0d-126">CAbContDlg::OnSetPAB</span><span class="sxs-lookup"><span data-stu-id="52e0d-126">CAbContDlg::OnSetPAB</span></span>  <br/> |<span data-ttu-id="52e0d-127">MFCMAPI utilise la **méthode SetPAB** pour faire du conteneur spécifié le PAB.</span><span class="sxs-lookup"><span data-stu-id="52e0d-127">MFCMAPI uses the **SetPAB** method to make the specified container the PAB.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="139d5-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="139d5-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="52e0d-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="52e0d-128">See also</span></span>
 
 
 
-[<span data-ttu-id="139d5-129">IAddrBook::GetPAB</span><span class="sxs-lookup"><span data-stu-id="139d5-129">IAddrBook::GetPAB</span></span>](iaddrbook-getpab.md)
+[<span data-ttu-id="52e0d-129">IAddrBook::GetPAB</span><span class="sxs-lookup"><span data-stu-id="52e0d-129">IAddrBook::GetPAB</span></span>](iaddrbook-getpab.md)
   
-[<span data-ttu-id="139d5-130">IAddrBook::GetSearchPath</span><span class="sxs-lookup"><span data-stu-id="139d5-130">IAddrBook::GetSearchPath</span></span>](iaddrbook-getsearchpath.md)
+[<span data-ttu-id="52e0d-130">IAddrBook::GetSearchPath</span><span class="sxs-lookup"><span data-stu-id="52e0d-130">IAddrBook::GetSearchPath</span></span>](iaddrbook-getsearchpath.md)
   
-[<span data-ttu-id="139d5-131">Propriété canonique PidTagContainerFlags</span><span class="sxs-lookup"><span data-stu-id="139d5-131">PidTagContainerFlags Canonical Property</span></span>](pidtagcontainerflags-canonical-property.md)
+[<span data-ttu-id="52e0d-131">Propriété canonique PidTagContainerFlags</span><span class="sxs-lookup"><span data-stu-id="52e0d-131">PidTagContainerFlags Canonical Property</span></span>](pidtagcontainerflags-canonical-property.md)
   
-[<span data-ttu-id="139d5-132">IAddrBook : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="139d5-132">IAddrBook : IMAPIProp</span></span>](iaddrbookimapiprop.md)
+[<span data-ttu-id="52e0d-132">IAddrBook : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="52e0d-132">IAddrBook : IMAPIProp</span></span>](iaddrbookimapiprop.md)
 
 
-[<span data-ttu-id="139d5-133">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="139d5-133">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="52e0d-133">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="52e0d-133">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

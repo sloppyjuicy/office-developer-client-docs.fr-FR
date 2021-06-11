@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419589"
 ---
-# <a name="iprofadmindeleteprofile"></a><span data-ttu-id="c815e-103">IProfAdmin::DeleteProfile</span><span class="sxs-lookup"><span data-stu-id="c815e-103">IProfAdmin::DeleteProfile</span></span>
+# <a name="iprofadmindeleteprofile"></a><span data-ttu-id="e5d3a-103">IProfAdmin::DeleteProfile</span><span class="sxs-lookup"><span data-stu-id="e5d3a-103">IProfAdmin::DeleteProfile</span></span>
 
   
   
-<span data-ttu-id="c815e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c815e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e5d3a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e5d3a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c815e-105">Supprime un profil.</span><span class="sxs-lookup"><span data-stu-id="c815e-105">Deletes a profile.</span></span>
+<span data-ttu-id="e5d3a-105">Supprime un profil.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-105">Deletes a profile.</span></span>
   
 ```cpp
 HRESULT DeleteProfile(
@@ -34,52 +34,52 @@ HRESULT DeleteProfile(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c815e-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c815e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e5d3a-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="e5d3a-106">Parameters</span></span>
 
- <span data-ttu-id="c815e-107">_lpszProfileName_</span><span class="sxs-lookup"><span data-stu-id="c815e-107">_lpszProfileName_</span></span>
+ <span data-ttu-id="e5d3a-107">_lpszProfileName_</span><span class="sxs-lookup"><span data-stu-id="e5d3a-107">_lpszProfileName_</span></span>
   
-> <span data-ttu-id="c815e-108">[in] Pointeur vers le nom du profil à supprimer.</span><span class="sxs-lookup"><span data-stu-id="c815e-108">[in] A pointer to the name of the profile to be deleted.</span></span>
+> <span data-ttu-id="e5d3a-108">[in] Pointeur vers le nom du profil à supprimer.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-108">[in] A pointer to the name of the profile to be deleted.</span></span>
     
- <span data-ttu-id="c815e-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c815e-109">_ulFlags_</span></span>
+ <span data-ttu-id="e5d3a-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="e5d3a-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="c815e-110">[in] Toujours NULL.</span><span class="sxs-lookup"><span data-stu-id="c815e-110">[in] Always NULL.</span></span> 
+> <span data-ttu-id="e5d3a-110">[in] Toujours NULL.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-110">[in] Always NULL.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="c815e-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c815e-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e5d3a-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="e5d3a-111">Return value</span></span>
 
-<span data-ttu-id="c815e-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="c815e-112">S_OK</span></span> 
+<span data-ttu-id="e5d3a-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="e5d3a-112">S_OK</span></span> 
   
-> <span data-ttu-id="c815e-113">Le profil a été supprimé avec succès.</span><span class="sxs-lookup"><span data-stu-id="c815e-113">The profile was successfully deleted.</span></span>
+> <span data-ttu-id="e5d3a-113">Le profil a été supprimé avec succès.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-113">The profile was successfully deleted.</span></span>
     
-<span data-ttu-id="c815e-114">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="c815e-114">MAPI_E_NOT_FOUND</span></span> 
+<span data-ttu-id="e5d3a-114">MAPI_E_NOT_FOUND</span><span class="sxs-lookup"><span data-stu-id="e5d3a-114">MAPI_E_NOT_FOUND</span></span> 
   
-> <span data-ttu-id="c815e-115">Le profil spécifié n’existe pas.</span><span class="sxs-lookup"><span data-stu-id="c815e-115">The specified profile does not exist.</span></span>
+> <span data-ttu-id="e5d3a-115">Le profil spécifié n’existe pas.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-115">The specified profile does not exist.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="c815e-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="c815e-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e5d3a-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="e5d3a-116">Remarks</span></span>
 
-<span data-ttu-id="c815e-117">La **méthode IProfAdmin::D eleteProfile** supprime un profil.</span><span class="sxs-lookup"><span data-stu-id="c815e-117">The **IProfAdmin::DeleteProfile** method deletes a profile.</span></span> <span data-ttu-id="c815e-118">Si le profil à supprimer est en cours d’utilisation lorsque **DeleteProfile** est appelé, **DeleteProfile** renvoie S_OK mais ne supprime pas immédiatement le profil.</span><span class="sxs-lookup"><span data-stu-id="c815e-118">If the profile to delete is in use when **DeleteProfile** is called, **DeleteProfile** returns S_OK but does not delete the profile immediately.</span></span> <span data-ttu-id="c815e-119">Au lieu de cela, **DeleteProfile** marque le profil à supprimer et le supprime une fois qu’il n’est plus utilisé, une fois toutes ses sessions actives terminées.</span><span class="sxs-lookup"><span data-stu-id="c815e-119">Instead, **DeleteProfile** marks the profile for deletion and deletes it after it is no longer being used, when all of its active sessions have ended.</span></span> 
+<span data-ttu-id="e5d3a-117">La **méthode IProfAdmin::D eleteProfile** supprime un profil.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-117">The **IProfAdmin::DeleteProfile** method deletes a profile.</span></span> <span data-ttu-id="e5d3a-118">Si le profil à supprimer est en cours d’utilisation lorsque **DeleteProfile** est appelé, **DeleteProfile** renvoie S_OK mais ne supprime pas immédiatement le profil.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-118">If the profile to delete is in use when **DeleteProfile** is called, **DeleteProfile** returns S_OK but does not delete the profile immediately.</span></span> <span data-ttu-id="e5d3a-119">Au lieu de cela, **DeleteProfile** marque le profil à supprimer et le supprime une fois qu’il n’est plus utilisé, une fois toutes ses sessions actives terminées.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-119">Instead, **DeleteProfile** marks the profile for deletion and deletes it after it is no longer being used, when all of its active sessions have ended.</span></span> 
   
-<span data-ttu-id="c815e-120">La fonction de point d’entrée pour chaque service de message dans le profil est appelée avec la valeur MSG_SERVICE_DELETE définie dans le _paramètre ulContext._</span><span class="sxs-lookup"><span data-stu-id="c815e-120">The entry point function for each message service in the profile is called with the MSG_SERVICE_DELETE value set in the  _ulContext_ parameter.</span></span> <span data-ttu-id="c815e-121">Tout d’abord, la fonction supprime le service, puis supprime la section de profil du service.</span><span class="sxs-lookup"><span data-stu-id="c815e-121">First, the function deletes the service, and then it deletes the service's profile section.</span></span> <span data-ttu-id="c815e-122">La fonction de point d’entrée du service de message n’est pas rappelée après la suppression du service.</span><span class="sxs-lookup"><span data-stu-id="c815e-122">The message service entry point function is not called again after the service has been deleted.</span></span> 
+<span data-ttu-id="e5d3a-120">La fonction de point d’entrée pour chaque service de message dans le profil est appelée avec la valeur MSG_SERVICE_DELETE définie dans le _paramètre ulContext._</span><span class="sxs-lookup"><span data-stu-id="e5d3a-120">The entry point function for each message service in the profile is called with the MSG_SERVICE_DELETE value set in the  _ulContext_ parameter.</span></span> <span data-ttu-id="e5d3a-121">Tout d’abord, la fonction supprime le service, puis supprime la section de profil du service.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-121">First, the function deletes the service, and then it deletes the service's profile section.</span></span> <span data-ttu-id="e5d3a-122">La fonction de point d’entrée du service de message n’est pas rappelée après la suppression du service.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-122">The message service entry point function is not called again after the service has been deleted.</span></span> 
   
-<span data-ttu-id="c815e-123">Aucun mot de passe n’est requis pour supprimer un profil.</span><span class="sxs-lookup"><span data-stu-id="c815e-123">No password is required to delete a profile.</span></span>
+<span data-ttu-id="e5d3a-123">Aucun mot de passe n’est requis pour supprimer un profil.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-123">No password is required to delete a profile.</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="c815e-124">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="c815e-124">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="e5d3a-124">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="e5d3a-124">MFCMAPI reference</span></span>
 
-<span data-ttu-id="c815e-125">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="c815e-125">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="e5d3a-125">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-125">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="c815e-126">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="c815e-126">**File**</span></span>|<span data-ttu-id="c815e-127">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="c815e-127">**Function**</span></span>|<span data-ttu-id="c815e-128">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="c815e-128">**Comment**</span></span>|
+|<span data-ttu-id="e5d3a-126">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="e5d3a-126">**File**</span></span>|<span data-ttu-id="e5d3a-127">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="e5d3a-127">**Function**</span></span>|<span data-ttu-id="e5d3a-128">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="e5d3a-128">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="c815e-129">MAPIProfileFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="c815e-129">MAPIProfileFunctions.cpp</span></span>  <br/> |<span data-ttu-id="c815e-130">HrRemoveProfile</span><span class="sxs-lookup"><span data-stu-id="c815e-130">HrRemoveProfile</span></span>  <br/> |<span data-ttu-id="c815e-131">MFCMAPI utilise **la méthode IProfAdmin::D eleteProfile** pour supprimer le profil sélectionné.</span><span class="sxs-lookup"><span data-stu-id="c815e-131">MFCMAPI uses the **IProfAdmin::DeleteProfile** method to delete the selected profile.</span></span>  <br/> |
+|<span data-ttu-id="e5d3a-129">MAPIProfileFunctions.cpp</span><span class="sxs-lookup"><span data-stu-id="e5d3a-129">MAPIProfileFunctions.cpp</span></span>  <br/> |<span data-ttu-id="e5d3a-130">HrRemoveProfile</span><span class="sxs-lookup"><span data-stu-id="e5d3a-130">HrRemoveProfile</span></span>  <br/> |<span data-ttu-id="e5d3a-131">MFCMAPI utilise **la méthode IProfAdmin::D eleteProfile** pour supprimer le profil sélectionné.</span><span class="sxs-lookup"><span data-stu-id="e5d3a-131">MFCMAPI uses the **IProfAdmin::DeleteProfile** method to delete the selected profile.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="c815e-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c815e-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e5d3a-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e5d3a-132">See also</span></span>
 
 
 
-[<span data-ttu-id="c815e-133">IMsgServiceAdmin::DeleteMsgService</span><span class="sxs-lookup"><span data-stu-id="c815e-133">IMsgServiceAdmin::DeleteMsgService</span></span>](imsgserviceadmin-deletemsgservice.md)
+[<span data-ttu-id="e5d3a-133">IMsgServiceAdmin::DeleteMsgService</span><span class="sxs-lookup"><span data-stu-id="e5d3a-133">IMsgServiceAdmin::DeleteMsgService</span></span>](imsgserviceadmin-deletemsgservice.md)
   
-[<span data-ttu-id="c815e-134">MSGSERVICEENTRY</span><span class="sxs-lookup"><span data-stu-id="c815e-134">MSGSERVICEENTRY</span></span>](msgserviceentry.md)
+[<span data-ttu-id="e5d3a-134">MSGSERVICEENTRY</span><span class="sxs-lookup"><span data-stu-id="e5d3a-134">MSGSERVICEENTRY</span></span>](msgserviceentry.md)
   
-[<span data-ttu-id="c815e-135">IProfAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c815e-135">IProfAdmin : IUnknown</span></span>](iprofadminiunknown.md)
+[<span data-ttu-id="e5d3a-135">IProfAdmin : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e5d3a-135">IProfAdmin : IUnknown</span></span>](iprofadminiunknown.md)
 
 
-[<span data-ttu-id="c815e-136">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="c815e-136">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="e5d3a-136">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="e5d3a-136">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

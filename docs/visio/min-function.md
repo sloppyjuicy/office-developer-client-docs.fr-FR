@@ -16,30 +16,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420835"
 ---
-# <a name="min-function"></a><span data-ttu-id="07c10-104">Fonction MIN</span><span class="sxs-lookup"><span data-stu-id="07c10-104">MIN Function</span></span>
+# <a name="min-function"></a><span data-ttu-id="5436a-104">Fonction MIN</span><span class="sxs-lookup"><span data-stu-id="5436a-104">MIN Function</span></span>
 
-<span data-ttu-id="07c10-105">Renvoie le plus petit nombre d’une liste.</span><span class="sxs-lookup"><span data-stu-id="07c10-105">Returns the smallest number from a list.</span></span> <span data-ttu-id="07c10-106">La plus petite signifie la plus proche de l’infini négatif.</span><span class="sxs-lookup"><span data-stu-id="07c10-106">Smallest means closest to negative infinity.</span></span>
+<span data-ttu-id="5436a-105">Renvoie le plus petit nombre d’une liste.</span><span class="sxs-lookup"><span data-stu-id="5436a-105">Returns the smallest number from a list.</span></span> <span data-ttu-id="5436a-106">La plus petite signifie la plus proche de l’infini négatif.</span><span class="sxs-lookup"><span data-stu-id="5436a-106">Smallest means closest to negative infinity.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="07c10-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="07c10-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5436a-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="5436a-107">Syntax</span></span>
 
-<span data-ttu-id="07c10-108">MIN(\*\* *number1* \*\*, \*\* *number2* \*\*,..., \*\* *numberN* \*\* )</span><span class="sxs-lookup"><span data-stu-id="07c10-108">MIN(\*\* *number1* \*\*, \*\* *number2* \*\*,..., \*\* *numberN* \*\* )</span></span> 
+<span data-ttu-id="5436a-108">MIN(\*\* *number1* \*\*, \*\* *number2* \*\*,..., \*\* *numberN* \*\* )</span><span class="sxs-lookup"><span data-stu-id="5436a-108">MIN(\*\* *number1* \*\*, \*\* *number2* \*\*,..., \*\* *numberN* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="07c10-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="07c10-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="5436a-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="5436a-109">Parameters</span></span>
 
-|<span data-ttu-id="07c10-110">**Nom**</span><span class="sxs-lookup"><span data-stu-id="07c10-110">**Name**</span></span>|<span data-ttu-id="07c10-111">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="07c10-111">**Required/Optional**</span></span>|<span data-ttu-id="07c10-112">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="07c10-112">**Data Type**</span></span>|<span data-ttu-id="07c10-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="07c10-113">**Description**</span></span>|
+|<span data-ttu-id="5436a-110">**Nom**</span><span class="sxs-lookup"><span data-stu-id="5436a-110">**Name**</span></span>|<span data-ttu-id="5436a-111">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="5436a-111">**Required/Optional**</span></span>|<span data-ttu-id="5436a-112">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="5436a-112">**Data Type**</span></span>|<span data-ttu-id="5436a-113">**Description**</span><span class="sxs-lookup"><span data-stu-id="5436a-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="07c10-114">_number1_</span><span class="sxs-lookup"><span data-stu-id="07c10-114">_number1_</span></span> <br/> |<span data-ttu-id="07c10-115">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="07c10-115">Required</span></span>  <br/> |<span data-ttu-id="07c10-116">**Varie**</span><span class="sxs-lookup"><span data-stu-id="07c10-116">**Varies**</span></span> <br/> |<span data-ttu-id="07c10-117">Premier nombre de la liste</span><span class="sxs-lookup"><span data-stu-id="07c10-117">The first number in the list.</span></span>  <br/> |
-| <span data-ttu-id="07c10-118">_number2_</span><span class="sxs-lookup"><span data-stu-id="07c10-118">_number2_</span></span> <br/> |<span data-ttu-id="07c10-119">Facultatif</span><span class="sxs-lookup"><span data-stu-id="07c10-119">Optional</span></span>  <br/> |<span data-ttu-id="07c10-120">**Varie**</span><span class="sxs-lookup"><span data-stu-id="07c10-120">**Varies**</span></span> <br/> | <span data-ttu-id="07c10-121">Deuxième nombre de la liste</span><span class="sxs-lookup"><span data-stu-id="07c10-121">The second number in the list.</span></span>  <br/> |
-| <span data-ttu-id="07c10-122">_numberN_</span><span class="sxs-lookup"><span data-stu-id="07c10-122">_numberN_</span></span> <br/> |<span data-ttu-id="07c10-123">Facultatif</span><span class="sxs-lookup"><span data-stu-id="07c10-123">Optional</span></span>  <br/> |<span data-ttu-id="07c10-124">**Varie**</span><span class="sxs-lookup"><span data-stu-id="07c10-124">**Varies**</span></span> <br/> |<span data-ttu-id="07c10-125">Nième nombre de la liste</span><span class="sxs-lookup"><span data-stu-id="07c10-125">The nth number in the list.</span></span>  <br/> |
+| <span data-ttu-id="5436a-114">_number1_</span><span class="sxs-lookup"><span data-stu-id="5436a-114">_number1_</span></span> <br/> |<span data-ttu-id="5436a-115">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="5436a-115">Required</span></span>  <br/> |<span data-ttu-id="5436a-116">**Varie**</span><span class="sxs-lookup"><span data-stu-id="5436a-116">**Varies**</span></span> <br/> |<span data-ttu-id="5436a-117">Premier nombre de la liste</span><span class="sxs-lookup"><span data-stu-id="5436a-117">The first number in the list.</span></span>  <br/> |
+| <span data-ttu-id="5436a-118">_number2_</span><span class="sxs-lookup"><span data-stu-id="5436a-118">_number2_</span></span> <br/> |<span data-ttu-id="5436a-119">Facultatif</span><span class="sxs-lookup"><span data-stu-id="5436a-119">Optional</span></span>  <br/> |<span data-ttu-id="5436a-120">**Varie**</span><span class="sxs-lookup"><span data-stu-id="5436a-120">**Varies**</span></span> <br/> | <span data-ttu-id="5436a-121">Deuxième nombre de la liste</span><span class="sxs-lookup"><span data-stu-id="5436a-121">The second number in the list.</span></span>  <br/> |
+| <span data-ttu-id="5436a-122">_numberN_</span><span class="sxs-lookup"><span data-stu-id="5436a-122">_numberN_</span></span> <br/> |<span data-ttu-id="5436a-123">Facultatif</span><span class="sxs-lookup"><span data-stu-id="5436a-123">Optional</span></span>  <br/> |<span data-ttu-id="5436a-124">**Varie**</span><span class="sxs-lookup"><span data-stu-id="5436a-124">**Varies**</span></span> <br/> |<span data-ttu-id="5436a-125">Nième nombre de la liste</span><span class="sxs-lookup"><span data-stu-id="5436a-125">The nth number in the list.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="07c10-126">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="07c10-126">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="5436a-126">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="5436a-126">Return value</span></span>
 
-<span data-ttu-id="07c10-127">Variables</span><span class="sxs-lookup"><span data-stu-id="07c10-127">Varies</span></span>
+<span data-ttu-id="5436a-127">Variables</span><span class="sxs-lookup"><span data-stu-id="5436a-127">Varies</span></span>
   
-## <a name="example"></a><span data-ttu-id="07c10-128">Exemple</span><span class="sxs-lookup"><span data-stu-id="07c10-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5436a-128">Exemple</span><span class="sxs-lookup"><span data-stu-id="5436a-128">Example</span></span>
 
-<span data-ttu-id="07c10-129">MIN(330,2 mm;30,48 cm;20 cm)</span><span class="sxs-lookup"><span data-stu-id="07c10-129">MIN(13 in,1 ft, 20 cm)</span></span> 
+<span data-ttu-id="5436a-129">MIN(330,2 mm;30,48 cm;20 cm)</span><span class="sxs-lookup"><span data-stu-id="5436a-129">MIN(13 in,1 ft, 20 cm)</span></span> 
   
-<span data-ttu-id="07c10-130">Renvoie 20 centimètres.</span><span class="sxs-lookup"><span data-stu-id="07c10-130">Returns 20 centimeters.</span></span> 
+<span data-ttu-id="5436a-130">Renvoie 20 centimètres.</span><span class="sxs-lookup"><span data-stu-id="5436a-130">Returns 20 centimeters.</span></span> 
   
 

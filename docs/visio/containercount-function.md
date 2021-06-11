@@ -14,21 +14,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419134"
 ---
-# <a name="containercount-function"></a><span data-ttu-id="509ff-103">Fonction CONTAINERCOUNT</span><span class="sxs-lookup"><span data-stu-id="509ff-103">CONTAINERCOUNT Function</span></span>
+# <a name="containercount-function"></a><span data-ttu-id="4e78d-103">Fonction CONTAINERCOUNT</span><span class="sxs-lookup"><span data-stu-id="4e78d-103">CONTAINERCOUNT Function</span></span>
 
-<span data-ttu-id="509ff-104">Renvoie le nombre total de conteneurs dont la forme est membre (y compris les relations imbriquées).</span><span class="sxs-lookup"><span data-stu-id="509ff-104">Returns the total number of containers that include the shape as a member (including nested relationships).</span></span>
+<span data-ttu-id="4e78d-104">Renvoie le nombre total de conteneurs dont la forme est membre (y compris les relations imbriquées).</span><span class="sxs-lookup"><span data-stu-id="4e78d-104">Returns the total number of containers that include the shape as a member (including nested relationships).</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="509ff-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="509ff-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="4e78d-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="4e78d-105">Version Information</span></span>
 
-<span data-ttu-id="509ff-106">Version ajoutée : Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="509ff-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="4e78d-106">Version ajoutée : Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="4e78d-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="509ff-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="509ff-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4e78d-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4e78d-107">Syntax</span></span>
 
-<span data-ttu-id="509ff-108">CONTAINERCOUNT()</span><span class="sxs-lookup"><span data-stu-id="509ff-108">CONTAINERCOUNT()</span></span>
+<span data-ttu-id="4e78d-108">CONTAINERCOUNT()</span><span class="sxs-lookup"><span data-stu-id="4e78d-108">CONTAINERCOUNT()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="509ff-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="509ff-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="4e78d-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="4e78d-109">Return value</span></span>
 
- <span data-ttu-id="509ff-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="509ff-110">**Integer**</span></span>
+ <span data-ttu-id="4e78d-110">**Integer**</span><span class="sxs-lookup"><span data-stu-id="4e78d-110">**Integer**</span></span>
   
 

@@ -19,46 +19,46 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421318"
 ---
-# <a name="pidtagassociatedcontentcount-canonical-property"></a><span data-ttu-id="91157-103">Propriété canonique PidTagAssociatedContentCount</span><span class="sxs-lookup"><span data-stu-id="91157-103">PidTagAssociatedContentCount Canonical Property</span></span>
+# <a name="pidtagassociatedcontentcount-canonical-property"></a><span data-ttu-id="cfd76-103">Propriété canonique PidTagAssociatedContentCount</span><span class="sxs-lookup"><span data-stu-id="cfd76-103">PidTagAssociatedContentCount Canonical Property</span></span>
 
   
   
-<span data-ttu-id="91157-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="91157-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cfd76-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cfd76-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="91157-105">Contient le nombre d’éléments dans la table des matières associée du dossier.</span><span class="sxs-lookup"><span data-stu-id="91157-105">Contains the count of items in the associated contents table of the folder.</span></span>
+<span data-ttu-id="cfd76-105">Contient le nombre d’éléments dans la table des matières associée du dossier.</span><span class="sxs-lookup"><span data-stu-id="cfd76-105">Contains the count of items in the associated contents table of the folder.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="91157-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="91157-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="91157-107">PR_ASSOC_CONTENT_COUNT</span><span class="sxs-lookup"><span data-stu-id="91157-107">PR_ASSOC_CONTENT_COUNT</span></span>  <br/> |
-|<span data-ttu-id="91157-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="91157-108">Identifier:</span></span>  <br/> |<span data-ttu-id="91157-109">0x3617</span><span class="sxs-lookup"><span data-stu-id="91157-109">0x3617</span></span>  <br/> |
-|<span data-ttu-id="91157-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="91157-110">Data type:</span></span>  <br/> |<span data-ttu-id="91157-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="91157-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="91157-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="91157-112">Area:</span></span>  <br/> |<span data-ttu-id="91157-113">Folder</span><span class="sxs-lookup"><span data-stu-id="91157-113">Folder</span></span>  <br/> |
+|<span data-ttu-id="cfd76-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="cfd76-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="cfd76-107">PR_ASSOC_CONTENT_COUNT</span><span class="sxs-lookup"><span data-stu-id="cfd76-107">PR_ASSOC_CONTENT_COUNT</span></span>  <br/> |
+|<span data-ttu-id="cfd76-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="cfd76-108">Identifier:</span></span>  <br/> |<span data-ttu-id="cfd76-109">0x3617</span><span class="sxs-lookup"><span data-stu-id="cfd76-109">0x3617</span></span>  <br/> |
+|<span data-ttu-id="cfd76-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="cfd76-110">Data type:</span></span>  <br/> |<span data-ttu-id="cfd76-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="cfd76-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="cfd76-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="cfd76-112">Area:</span></span>  <br/> |<span data-ttu-id="cfd76-113">Dossier</span><span class="sxs-lookup"><span data-stu-id="cfd76-113">Folder</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="91157-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="91157-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cfd76-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="cfd76-114">Remarks</span></span>
 
-<span data-ttu-id="91157-115">Cette propriété contient le nombre d’entrées dans la table des matières du dossier.</span><span class="sxs-lookup"><span data-stu-id="91157-115">This property contains the number of entries in the contents table of the folder.</span></span> 
+<span data-ttu-id="cfd76-115">Cette propriété contient le nombre d’entrées dans la table des matières du dossier.</span><span class="sxs-lookup"><span data-stu-id="cfd76-115">This property contains the number of entries in the contents table of the folder.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="91157-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="91157-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="cfd76-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="cfd76-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="91157-117">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="91157-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="cfd76-117">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="cfd76-117">Header files</span></span>
 
-<span data-ttu-id="91157-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="91157-118">Mapidefs.h</span></span>
+<span data-ttu-id="cfd76-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cfd76-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="91157-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="91157-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="cfd76-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="cfd76-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="91157-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="91157-120">Mapitags.h</span></span>
+<span data-ttu-id="cfd76-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="cfd76-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="91157-121">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="91157-121">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="cfd76-121">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="cfd76-121">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="91157-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="91157-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cfd76-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cfd76-122">See also</span></span>
 
 
 
-[<span data-ttu-id="91157-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="91157-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="cfd76-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="cfd76-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="91157-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="91157-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="cfd76-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="cfd76-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="91157-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="91157-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="cfd76-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="cfd76-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="91157-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="91157-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="cfd76-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="cfd76-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
