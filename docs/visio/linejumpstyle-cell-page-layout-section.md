@@ -23,9 +23,9 @@ Détermine le style de déviation de tous les connecteurs de la page de dessin n
 |**Valeur**|**Style de déviation de trait**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Arc  <br/> |**visLOJumpStyleDefault** <br/> |
-|1   <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
-|2   <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
-|3   <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
+|1  <br/> |Arc  <br/> |**visLOJumpStyleArc** <br/> |
+|2  <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
+|3  <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
 |4   <br/> |2 côtés  <br/> |**visLOJumpStyleTriangle** <br/> |
 |5   <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
 |6   <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |

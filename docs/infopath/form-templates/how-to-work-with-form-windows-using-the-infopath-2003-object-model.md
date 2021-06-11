@@ -1,5 +1,5 @@
 ---
-title: Utiliser des fenêtres de formulaire à l’aide du modèle objet InfoPath 2003
+title: Utiliser des formulaires Windows l’aide du modèle objet InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427576"
 ---
-# <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Utiliser des fenêtres de formulaire à l’aide du modèle objet InfoPath 2003
+# <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Utiliser des formulaires Windows l’aide du modèle objet InfoPath 2003
 
 Lorsque vous programmez un formulaire InfoPath, vous pouvez écrire du code pour accéder aux fenêtres d'un formulaire, puis personnaliser certains des éléments qu'elles contiennent. Le modèle objet compatible InfoPath 2003 prend en charge l'accès aux fenêtres d'un formulaire grâce à l'utilisation de l'interface [WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) en association avec l'interface [WindowsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowsCollection.aspx) . 
   
@@ -34,7 +34,7 @@ L'interface **WindowsCollection** fournit les propriétés suivantes, que les d�
 |**Name**|**Description**|
 |:-----|:-----|
 |Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Renvoie le nombre d'objets **Window** que contient la collection.  <br/> |
-|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Renvoie une référence à l'objet **Window** spécifié.  <br/> **REMARQUE**: Visual C# accède aux collections à l’aide d’un indexeur au lieu d’appeler la **propriété Item.** Par exemple : `thisApplication.Windows[0].Caption`.           |
+|Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Renvoie une référence à l'objet **Window** spécifié.  <br/> **REMARQUE**: Visual C# aux collections à l’aide d’un indexeur au lieu d’appeler la **propriété Item.** Par exemple : `thisApplication.Windows[0].Caption`.           |
    
 ## <a name="overview-of-the-window-object"></a>Vue d'ensemble de l'objet Window
 

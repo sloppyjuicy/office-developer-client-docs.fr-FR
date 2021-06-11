@@ -29,7 +29,7 @@ Spécifie s’il faut utiliser SSL (Secure Socket Layer) pour une boîte aux let
    
 ## <a name="remarks"></a>Remarques
 
-Une valeur zéro signifie que vous n’utilisez pas SSL, sinon utilisez SSL.
+Une valeur nulle signifie que vous n’utilisez pas SSL, sinon utilisez SSL.
   
 ## <a name="see-also"></a>Voir aussi
 

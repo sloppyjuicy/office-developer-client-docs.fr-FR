@@ -35,7 +35,7 @@ HRESULT SetDefaultStore(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -47,7 +47,7 @@ MAPI_DEFAULT_STORE
     
 MAPI_PRIMARY_STORE
   
-> Établit la boutique de messages en tant que magasin à utiliser lors de l’ouverture de ouverture de ouverture de ligne. Si la magasin de messages n’est pas la boutique par défaut, les clients doivent en faire la valeur par défaut. Met à jour la ligne de table d’état de la boutique de messages en STATUS_PRIMARY_STORE **l’indicateur** PR_RESOURCE_FLAGS colonne. 
+> Établit la boutique de messages en tant que magasin à utiliser lors de l’ouverture de site. Si la boutique de messages n’est pas la boutique par défaut, les clients doivent en faire la valeur par défaut. Met à jour la ligne de table d’état de la boutique de messages en STATUS_PRIMARY_STORE **l’indicateur** PR_RESOURCE_FLAGS colonne. 
     
 MAPI_SECONDARY_STORE
   
@@ -55,11 +55,11 @@ MAPI_SECONDARY_STORE
     
 MAPI_SIMPLE_STORE_PERMANENT
   
-> Définit l’STATUS_SIMPLE_STORE dans la propriété **PR_RESOURCE_FLAGS** de la boutique de messages dans sa ligne de table d’état, la ligne de table de la boutique de messages et dans le profil de session. 
+> Définit l’STATUS_SIMPLE_STORE dans la propriété **PR_RESOURCE_FLAGS** de la boutique de messages dans sa ligne de table d’état, la ligne de la table de la boutique de messages et dans le profil de session. 
     
 MAPI_SIMPLE_STORE_TEMPORARY
   
-> Définit l’STATUS_SIMPLE_STORE dans la propriété  PR_RESOURCE_FLAGS de la boutique de messages dans la ligne de table d’état et la ligne de table de la boutique de messages. Le profil n’est pas modifié. 
+> Définit l’STATUS_SIMPLE_STORE dans la propriété  PR_RESOURCE_FLAGS de la boutique de messages dans la ligne de table d’état et la ligne de la table de la boutique de messages. Le profil n’est pas modifié. 
     
  _cbEntryID_
   
@@ -67,7 +67,7 @@ MAPI_SIMPLE_STORE_TEMPORARY
     
  _lpEntryID_
   
-> [in] Pointeur vers l’identificateur d’entrée de la magasin de messages prévu comme valeur par défaut. Si un client transmet la valeur NULL dans  _lpEntryID,_ aucune magasine de messages n’est sélectionnée par défaut.
+> [in] Pointeur vers l’identificateur d’entrée de la magasin de messages prévu comme valeur par défaut. Si un client transmet la valeur NULL dans  _lpEntryID,_ aucune magasine de messages n’est sélectionnée comme valeur par défaut.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -95,13 +95,13 @@ Pour établir une magasin de messages comme magasin de messages par défaut, les
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez déterminer la magasin de messages par défaut pour la session en récupérant la table d’état et en recherchant le paramètre de l’indicateur STATUS_DEFAULT_STORE dans la **colonne PR_RESOURCE_FLAGS.** La ligne qui possède ce paramètre représente la magasin de messages désignée comme session par défaut. 
+Vous pouvez déterminer la boutique de messages par défaut pour la session en récupérant la table d’état et en recherchant le paramètre de l’indicateur STATUS_DEFAULT_STORE dans la **colonne PR_RESOURCE_FLAGS.** La ligne qui possède ce paramètre représente la boutique de messages désignée comme session par défaut. 
   
 Lorsque l’MAPI_DEFAULT_STORE ou l’indicateur MAPI_SIMPLE_STORE_PERMANENT est définie, MAPI met à jour le profil, la table de la boutique de messages et la table d’état. 
   
 Chaque fois qu’une modification est apporté au paramètre par défaut de la boutique de messages, les notifications suivantes sont générées :
   
-- Une notification **d’événement fnevTableModified** est émise pour chaque ligne concernée dans la table d’état et la magasin de messages. 
+- Une notification **d’événement fnevTableModified** est émise pour chaque ligne concernée à la fois dans la table des messages et dans la table d’état. 
     
 - Une notification interne est émise aupooler MAPI. Les opérations en cours sont terminées sans modification . les nouvelles opérations qui impliquent la magasin de messages par défaut, telles que le téléchargement des messages, sont traitées pour la nouvelle boutique par défaut.
     

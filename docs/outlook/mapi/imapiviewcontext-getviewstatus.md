@@ -33,7 +33,7 @@ ULONG FAR * lpulStatus
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulStatus_
   

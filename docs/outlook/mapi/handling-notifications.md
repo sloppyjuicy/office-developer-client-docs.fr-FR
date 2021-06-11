@@ -23,11 +23,11 @@ Les notifications permettent à un objet d’informer un autre objet qu’il a s
   
 Les clients s’inscrivent généralement pour un ou plusieurs événements avec un ou plusieurs objets. Ces objets sont appelés sources de conseil. Les objets qui peuvent agir en tant que sources de conseil incluent l’objet de session, sous le contrôle de MAPI, ou un objet créé par un fournisseur de services, tel qu’un message. L’objet informé, appelé sink de conseil, contient soit une implémentation de l’interface [IMAPIAdviseSink : IUnknown,](imapiadvisesinkiunknown.md) soit l’interface [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) et se trouve dans une application cliente. 
   
-Les objets source advise implémentent une méthode **Advise,** qui est appelée par les clients pour s’inscrire aux notifications, et une méthode **Unadvise,** qui est appelée pour annuler un enregistrement. L’un des paramètres de **Advise** est un pointeur vers une implémentation de **IMAPIAdviseSink** ou ** IMAPIViewAdviseSink **. La source de conseil met en cache ce pointeur afin qu’il puisse appeler [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) ou l’une des méthodes dans **IMAPIViewAdviseSink** lorsqu’une modification se produit. 
+Les objets source advise implémentent une méthode **Advise,** qui est appelée par les clients pour s’inscrire aux notifications, et une méthode **Unadvise,** qui est appelée pour annuler une inscription. L’un des paramètres de **Advise** est un pointeur vers une implémentation de **IMAPIAdviseSink** ou ** IMAPIViewAdviseSink **. La source de conseil met en cache ce pointeur afin qu’il puisse appeler [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) ou l’une des méthodes dans **IMAPIViewAdviseSink** lorsqu’une modification se produit. 
   
 Étant donné que la réception de notifications permet aux utilisateurs d’afficher les informations les plus à jour, il est recommandé que tous les clients s’inscrivent et gèrent les notifications. Toutefois, il est facultatif.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Inscription à une notification](registering-for-a-notification.md): décrit comment inscrire un client pour les notifications dans le cadre de son processus d’initialisation.
     

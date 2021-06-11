@@ -25,7 +25,7 @@ Lorsque vous ajoutez un champ défini par l’utilisateur à un élément Micros
     
 2. Si des définitions de champ existantes sont au format PropDefV1, convertissez-les au format PropDefV2. Pour plus d’informations sur les formats de définition de champ, voir [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md) et [FieldDefinition Stream Structure](fielddefinition-stream-structure.md).
     
-3. Créez une définition du nouveau champ défini par l’utilisateur au format PropDefV2 et ajoutez-la au tableau.
+3. Créez une définition du nouveau champ défini par l’utilisateur au format PropDefV2 et ajoutez-le au tableau.
     
 4. Définissez l’élément Version de la structure de flux PropertyDefinition comme 0x0103, si l’élément Version n’a pas été définie sur cette valeur.
     

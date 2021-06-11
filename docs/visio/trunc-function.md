@@ -37,7 +37,7 @@ Numérique.
   
 ## <a name="remarks"></a>Remarques
 
-Si  _numberofdigits_ est supérieur à  _0,_ le nombre est tronqué en  _nombreofdigits_ à droite de la décimale. Si  _le nombreofdigits_ est 0,  _le_ nombre est tronqué à un nombre total. Si _numberofdigits_ est inférieur à  0, le nombre est tronqué en _nombreofdigits_ à gauche de la décimale. 
+Si  _numberofdigits_ est supérieur à  _0,_ le nombre est tronqué en  _nombreofdigits_ à droite de la décimale. Si  _le nombreofdigits_ est 0,  _le_ nombre est tronqué sur un nombre total. Si _numberofdigits_ est inférieur à  0, le nombre est tronqué en _nombreofdigits_ à gauche de la décimale. 
   
 ## <a name="example-1"></a>Exemple 1
 

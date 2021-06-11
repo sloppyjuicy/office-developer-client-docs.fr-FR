@@ -36,7 +36,7 @@ Contient des indicateurs qui indiquent si les fournisseurs vont prendre en charg
    
 ## <a name="remarks"></a>Remarques
 
-Si les indicateurs de cette propriété sont TRUE, le fournisseur n’inclut pas les contacts sans adresses e-mail. Seule l’adresse de messagerie principale sera honorée. Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact.
+Si les indicateurs de cette propriété sont TRUE, le fournisseur n’inclut pas les contacts sans adresse de messagerie. Seule l’adresse de messagerie principale sera honorée. Il s’agit d’une propriété d’une section de profil de carnet d’adresses de contact.
   
 ## <a name="related-resources"></a>Ressources connexes
 

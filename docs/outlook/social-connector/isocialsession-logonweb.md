@@ -23,7 +23,7 @@ Se connecte au site de réseau social à l’aide de l’authentification basée
 HRESULT _stdcall LogonWeb([in] BSTR connectIn, [out] BSTR* connectOut);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _connectIn_
   
@@ -35,7 +35,7 @@ _connectOut_
     
 ## <a name="remarks"></a>Remarques
 
-Outlook Social Connector (OSC) appelle la méthode **LogonWeb** uniquement si le fournisseur indique qu’il prend en charge l’authentification basée sur les formulaires. Le fournisseur indique qu’il requiert une authentification basée sur les formulaires en étiquetant **useLogonWebAuth** comme **vrai** dans le XML pour **les fonctionnalités.** Si le fournisseur définit **useLogonWebAuth** comme **false,** l’OSC utilise l’authentification de base et appelle la [méthode ISocialSession::Logon.](isocialsession-logon.md) 
+Le Outlook Social Connector (OSC) appelle la méthode **LogonWeb** uniquement si le fournisseur indique qu’il prend en charge l’authentification basée sur les formulaires. Le fournisseur indique qu’il requiert une authentification basée sur les formulaires en étiquetant **useLogonWebAuth** comme **vrai** dans le XML pour **les fonctionnalités.** Si le fournisseur définit **useLogonWebAuth** comme **false,** l’OSC utilise l’authentification de base et appelle la [méthode ISocialSession::Logon.](isocialsession-logon.md) 
   
 La connexion à un site de réseau social à l’aide de l’authentification basée sur les formulaires implique l’appel des méthodes **LogonWeb** et [ISocialSession::GetLogonUrl](isocialsession-getlogonurl.md) dans un ordre spécifique : 
   
@@ -51,9 +51,9 @@ La connexion à un site de réseau social à l’aide de l’authentification ba
     
 6. L’OSC appelle ensuite **LogonWeb** une deuxième fois, en passant l’URL au formulaire de connexion dans le _paramètre connectIn._ 
     
-7. Si l’authentification réussit, le fournisseur renvoie les informations d’identification de connexion dans le  _paramètre connectOut_ à l’OSC. En cas d’échec de l’authentification, le fournisseur OSC_E_AUTH_ERROR l’osc. 
+7. Si l’authentification réussit, le fournisseur renvoie les informations d’identification de connexion dans le  _paramètre connectOut_ à l’OSC. En cas d’échec de l’authentification, le fournisseur OSC_E_AUTH_ERROR d’erreur à l’OSC. 
     
-Si le fournisseur OSC prend en charge la connexion à l’aide des informations d’identification mises en cache, il spécifie **useLogonCached** comme **true** dans le XML **des** fonctionnalités. Le fournisseur doit placer toutes les informations d’identification de connexion dans la chaîne  _connectOut_ que le fournisseur souhaite que l’OSC stocke sur plusieurs connexions. L’OSC n’interprète pas la _chaîne connectOut._ Une fois que l’OSC a vérifié que **useLogonCached** est **vrai,** l’OSC chiffre la chaîne pour la sécurité avant de la stocker dans le Registre Windows. L’OSC transmet cette chaîne au paramètre  _connectIn_ lors des tentatives suivantes de connexion au réseau social en appelant [ISocialSession2::LogonCached](isocialsession2-logoncached.md). 
+Si le fournisseur OSC prend en charge la connexion à l’aide des informations d’identification mises en cache, il spécifie **useLogonCached** comme **true** dans le XML **des** fonctionnalités. Le fournisseur doit placer toutes les informations d’identification de connexion dans la chaîne  _connectOut_ que le fournisseur souhaite que l’OSC stocke sur plusieurs connexions. L’OSC n’interprète pas la _chaîne connectOut._ Une fois que l’OSC a vérifié que **l’utilisation deLogonCached** est **vraie,** l’OSC chiffre la chaîne pour des raisons de sécurité avant de la stocker dans Windows registre. L’OSC transmet cette chaîne au paramètre  _connectIn_ lors des tentatives suivantes de connexion au réseau social en appelant [ISocialSession2::LogonCached](isocialsession2-logoncached.md). 
   
 Pour plus d’informations sur les codes d’erreur, consultez la rubrique relative aux [codes d’erreur du fournisseur Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
   

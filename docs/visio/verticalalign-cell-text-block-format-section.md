@@ -23,8 +23,8 @@ Détermine l'alignement vertical du texte dans le bloc de texte.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Haut  <br/> |**visVertTop** <br/> |
-| 1   <br/> | Milieu  <br/> |**visVertMiddle** <br/> |
-| 2   <br/> | Bas  <br/> |**visVertBottom** <br/> |
+| 1  <br/> | Milieu  <br/> |**visVertMiddle** <br/> |
+| 2  <br/> | Bas  <br/> |**visVertBottom** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

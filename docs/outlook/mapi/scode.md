@@ -40,7 +40,7 @@ Une **valeur SCODE** est divisée en quatre champs :
     
 - Champ réservé 11 bits
     
-- Code d’installation 4 bits qui indique la zone responsable de l’erreur ou de l’avertissement.
+- Code de la facilité 4 bits qui indique la zone responsable de l’erreur ou de l’avertissement.
     
 - Erreur 16 bits ou code d’avertissement qui décrit le problème à l’origine de l’erreur ou de l’avertissement.
     
@@ -49,7 +49,7 @@ De nombreuses fonctions et méthodes MAPI retournent des valeurs **SCODE** défi
 > [!NOTE]
 > Dans MAPI 64 bits, **SCODE** est toujours une valeur 32 bits. 
   
-Pour plus d’informations sur la façon dont MAPI utilise le type de données **SCODE,** voir [Gestion des erreurs.](error-handling-in-mapi.md) Pour plus d’informations sur OLE et le type de données **SCODE,** voir la *référence du programmeur OLE.* 
+Pour plus d’informations sur la façon dont MAPI utilise le type de données **SCODE,** voir [Gestion des erreurs.](error-handling-in-mapi.md) Pour plus d’informations sur OLE et le type de données **SCODE,** voir  *OLE Programmer’s Reference*  . 
   
 ## <a name="see-also"></a>Voir aussi
 

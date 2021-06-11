@@ -25,7 +25,7 @@ ms.locfileid: "33425546"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Maillons vers l’en-tête des lignes MIME.
+Cartes à l’en-tête lignes MIME.
   
 |||
 |:-----|:-----|

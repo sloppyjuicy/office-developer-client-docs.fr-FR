@@ -36,7 +36,7 @@ FILETIME FtAdcFt(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ft1_
   
@@ -56,7 +56,7 @@ La **fonction FtAdcFt** renvoie une structure **FILETIME** qui contient la somme
   
 ## <a name="remarks"></a>Remarques
 
-La **fonction FtAdcFt** est identique à **FtAddFt** lorsque  _pwCarry a la valeur_ NULL. Si _pwCarry n’a_ pas la valeur NULL et pointe sur 0, **FtAdcFt** renvoie la même valeur **FILETIME** que **ftAddFt.** 
+La **fonction FtAdcFt** est identique à **FtAddFt** lorsque  _pwCarry a la_ valeur NULL. Si _pwCarry n’a_ pas la valeur NULL et pointe sur 0, **FtAdcFt** renvoie la même valeur **FILETIME** que **ftAddFt.** 
   
 ## <a name="see-also"></a>Voir aussi
 

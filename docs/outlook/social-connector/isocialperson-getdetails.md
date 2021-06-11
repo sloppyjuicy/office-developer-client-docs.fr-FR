@@ -23,7 +23,7 @@ Obtient une chaîne qui représente les détails de la personne, tels que le pr�
 HRESULT _stdcall GetDetails([out, retval] BSTR* details);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _détails_
   
@@ -31,7 +31,7 @@ _détails_
     
 ## <a name="remarks"></a>Remarques
 
-La chaîne XML de  _détails_ renvoyée doit être conforme à la définition de schéma de la **personne,** telle que définie dans le schéma pour l’extensibilité du fournisseur Outlook Social Connector (OSC).
+La chaîne XML de _détails_ renvoyée doit être conforme à la définition de schéma de la **personne,** telle que définie dans le schéma pour l’extensibilité du fournisseur Outlook Social Connector (OSC).
   
 L’OSC appelle **GetDetails si** le fournisseur OSC prend en charge la synchronisation mise en cache ou hybride des amis sur le réseau social. Lorsque l’OSC obtient initialement les activités des amis de l’utilisateur connecté, il appelle [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md)et stocke les informations des amis dans un dossier de contacts spécifique au réseau social, dans le magasin Outlook par défaut de l’utilisateur connecté. Par la suite, OSC n’appelle **pas GetFriendsAndColleagues** ou **GetDetails,** sauf si l’intervalle d’actualisation du cache a expiré. Pour plus d’informations sur la façon dont OSC met en cache les informations des amis dans un dossier de contacts, voir [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
   

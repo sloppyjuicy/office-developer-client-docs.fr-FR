@@ -36,7 +36,7 @@ HRESULT DeleteMessages(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMsgList_
   
@@ -92,7 +92,7 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
    
 Lorsque **DeleteMessages n’est** pas en mesure de se terminer, ne supposez pas qu’aucun travail n’a été effectué. **DeleteMessages a** peut-être pu supprimer un ou plusieurs des messages avant de rencontrer l’erreur. 
   
- **DeleteMessages** renvoie MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, en fonction de l’implémentation de la boutique de messages. 
+ **DeleteMessages renvoie** MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, en fonction de l’implémentation de la boutique de messages. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

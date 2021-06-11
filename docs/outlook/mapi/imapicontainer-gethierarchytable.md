@@ -34,7 +34,7 @@ HRESULT GetHierarchyTable(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -54,7 +54,7 @@ MAPI_UNICODE
     
 SHOW_SOFT_DELETES
   
-> Affiche les éléments qui sont actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
+> Affiche les éléments actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
     
  _lppTable_
   
@@ -78,9 +78,9 @@ MAPI_E_NO_SUPPORT
 
 La **méthode IMAPIContainer::GetHierarchyTable** renvoie un pointeur vers la table hiérarchique d’un conteneur. Une table de hiérarchie contient des informations récapitulatifs sur les conteneurs enfants dans le conteneur. Les tables de hiérarchie de dossiers contient des informations sur les sous-dossiers . Les tables de hiérarchie de carnet d’adresses contenint des informations sur les conteneurs de carnet d’adresses et les listes de distribution enfants. 
   
-Il est possible que certains conteneurs n’ont pas de conteneurs enfants. Ces conteneurs retournent MAPI_E_NO_SUPPORT à partir de leurs implémentations **de GetHierarchyTable**.
+Certains conteneurs peuvent ne pas avoir de conteneurs enfants. Ces conteneurs retournent MAPI_E_NO_SUPPORT à partir de leurs implémentations **de GetHierarchyTable**.
   
-Lorsque l CONVENIENT_DEPTH est définie, chaque ligne de la table hiérarchique inclut également la propriété **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) en tant que colonne. **PR_DEPTH** indique le niveau de chaque conteneur par rapport au conteneur qui implémente la table. Les conteneurs enfants immédiats du conteneur d’implémentation sont à la profondeur zéro, les conteneurs enfants dans les conteneurs de profondeur zéro sont à la profondeur 1, et ainsi de suite. Les valeurs des **PR_DEPTH** augmentent de manière séquentielle à mesure que la hiérarchie des niveaux s’accroît. 
+Lorsque l CONVENIENT_DEPTH est définie, chaque ligne de la table hiérarchique inclut également la propriété **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)) en tant que colonne. **PR_DEPTH** indique le niveau de chaque conteneur par rapport au conteneur qui implémente la table. Les conteneurs enfants immédiats du conteneur d’implémentation sont à la profondeur zéro, les conteneurs enfants dans les conteneurs de profondeur zéro sont à la profondeur 1, etc. Les valeurs des **PR_DEPTH** augmentent de manière séquentielle à mesure que la hiérarchie des niveaux s’accroît. 
   
 Pour obtenir la liste complète des colonnes obligatoires et facultatives dans les tableaux hiérarchiques, voir [Tables de hiérarchie.](hierarchy-tables.md)
   

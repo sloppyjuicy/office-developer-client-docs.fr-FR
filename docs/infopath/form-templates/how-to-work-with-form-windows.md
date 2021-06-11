@@ -1,5 +1,5 @@
 ---
-title: Travailler avec les fenêtres de formulaire
+title: Travailler avec les formulaires Windows
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431063"
 ---
-# <a name="work-with-form-windows"></a>Travailler avec les fenêtres de formulaire
+# <a name="work-with-form-windows"></a>Travailler avec les formulaires Windows
 
 Lorsque vous utilisez un formulaire InfoPath par programmation, vous pouvez écrire du code pour accéder à ses fenêtres et personnaliser certains éléments qu'elles contiennent. Le modèle objet InfoPath fourni par l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) prend en charge l'accès aux fenêtres d'un formulaire par le biais de la classe [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) associée à la classe [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.aspx) . 
   

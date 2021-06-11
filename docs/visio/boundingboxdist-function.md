@@ -44,9 +44,9 @@ BOUNDINGBOXDIST(** *Index* ** )
 |**Élément**|**Valeur**|
 |:-----|:-----|
 |Largeur  <br/> |0  <br/> |
-|Hauteur  <br/> |1   <br/> |
-|Bord gauche à l’axe de la forme  <br/> |2   <br/> |
-|Axe de la forme au bord droit  <br/> |3   <br/> |
+|Hauteur  <br/> |1  <br/> |
+|Bord gauche à l’axe de la forme  <br/> |2  <br/> |
+|Axe de la forme au bord droit  <br/> |3  <br/> |
 |Axe de la forme au bord supérieur  <br/> |4   <br/> |
 |Bord inférieur à l’axe de la forme  <br/> |5   <br/> |
 |Centre du cadre englobant à AxeX  <br/> |6   <br/> |

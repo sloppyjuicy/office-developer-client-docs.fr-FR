@@ -34,7 +34,7 @@ Crée une structure [nommée SPropTagArray](sproptagarray.md) qui inclut un nomb
 SizedSPropTagArray (_ctag, _name)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ _ctag_
   

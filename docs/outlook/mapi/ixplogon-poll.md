@@ -33,7 +33,7 @@ HRESULT Poll(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulIncoming_
   
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Lepooler MAPI appelle régulièrement la méthode **IXPLogon::P élément** si le fournisseur de transport indique qu’il doit être interrogé pour de nouveaux messages, ce que le fournisseur fait en passant l’indicateur LOGON_SP_POLL à l’appel à la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) au début d’une session. Si le fournisseur de transport  indique en réponse à l’appel de sondage qu’un ou plusieurs messages entrants sont disponibles pour le traitement, lepooler MAPI appelle la méthode [IXPLogon::StartMessage](ixplogon-startmessage.md) pour permettre au fournisseur de traiter le premier message entrant. Le fournisseur de transport indique les messages entrants en fixant la valeur du paramètre  _lpulIncoming_ sur une valeur autre que zéro. 
+Lepooler MAPI appelle régulièrement la méthode **IXPLogon::P élément** si le fournisseur de transport indique qu’il doit être interrogé pour de nouveaux messages, ce que le fournisseur fait en passant l’indicateur LOGON_SP_POLL à l’appel à la méthode [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) au début d’une session. Si le fournisseur de transport  indique en réponse à l’appel de sondage qu’un ou plusieurs messages entrants peuvent être traitées, lepooler MAPI appelle la méthode [IXPLogon::StartMessage](ixplogon-startmessage.md) pour permettre au fournisseur de traiter le premier message entrant. Le fournisseur de transport indique les messages entrants en fixant la valeur du paramètre  _lpulIncoming_ sur une valeur autre que zéro. 
   
 ## <a name="see-also"></a>Voir aussi
 

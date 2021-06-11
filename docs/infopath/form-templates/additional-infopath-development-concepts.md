@@ -17,7 +17,7 @@ ms.locfileid: "33427541"
 
 Cette section offre des informations sur des concepts et des tâches supplémentaires du développement InfoPath.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [À propos des composants de modèle de formulaire](about-form-template-components.md)
   

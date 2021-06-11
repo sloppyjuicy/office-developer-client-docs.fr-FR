@@ -23,7 +23,7 @@ Obtient une chaîne qui représente une URL utilisée pour présenter un formula
 HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _url_
   

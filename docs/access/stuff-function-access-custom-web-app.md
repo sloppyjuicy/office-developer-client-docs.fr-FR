@@ -30,7 +30,7 @@ La **fonction Stuff** contient les arguments suivants.
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
 | *IntoTextExpression*  <br/> |Expression de texte qui spécifie le texte dans lequel le texte spécifié par  *ThisTextExpression*  sera inséré.  <br/> |
-| *Démarrage*  <br/> |Valeur d’un nombre integer qui spécifie l’emplacement de démarrage de la suppression et de l’insertion. Si le début ou la longueur est négatif, une chaîne null est renvoyée. Si le début est plus long que le premier  *IntoTextExpression*  , une chaîne null est renvoyée.  <br/> |
+| *Start*  <br/> |Valeur d’un nombre integer qui spécifie l’emplacement de démarrage de la suppression et de l’insertion. Si le début ou la longueur est négatif, une chaîne null est renvoyée. Si le début est plus long que le premier  *IntoTextExpression*  , une chaîne null est renvoyée.  <br/> |
 | *Length*  <br/> |Nombre total qui spécifie le nombre de caractères à supprimer. Si la longueur est plus longue que la première  *intoTextExpression*  , la suppression se produit jusqu’au dernier caractère du dernier  *IntoTextExpression*  .  <br/> |
 | *ThisTextExpression*  <br/> |Un bonnet d’expression de texte spécifie le texte à insérer  *dans IntoTextExpression*  . Cette expression remplace les caractères de longueur *de IntoTextExpression* à partir de *l’écran de démarrage.*  <br/> |
    

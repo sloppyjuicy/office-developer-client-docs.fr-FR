@@ -25,7 +25,7 @@ ms.locfileid: "33428577"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que ce [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule. 
+Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que cet [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule. 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -33,7 +33,7 @@ HRESULT GetBaseMessage(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ppmsg_
   

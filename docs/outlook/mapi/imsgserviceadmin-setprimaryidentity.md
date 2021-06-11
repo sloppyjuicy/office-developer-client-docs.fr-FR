@@ -34,7 +34,7 @@ HRESULT SetPrimaryIdentity(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
@@ -64,11 +64,11 @@ La **méthode IMsgServiceAdmin::SetPrimaryIdentity** établit un service de mess
     
 - **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md))
     
-Chaque fournisseur de services dans le service de messagerie désigné définit ces trois propriétés sur le nom d’affichage, l’identificateur d’entrée et la clé de recherche de l’utilisateur de messagerie qui fournit l’identité principale. Les clients peuvent récupérer l’identificateur d’entrée de l’identité principale en appelant la méthode [IMAPISession::QueryIdentity.](imapisession-queryidentity.md) 
+Chaque fournisseur de services dans le service de messagerie désigné définit ces trois propriétés sur le nom complet, l’identificateur d’entrée et la clé de recherche de l’utilisateur de messagerie qui fournit l’identité principale. Les clients peuvent récupérer l’identificateur d’entrée de l’identité principale en appelant la méthode [IMAPISession::QueryIdentity.](imapisession-queryidentity.md) 
   
 La **propriété PR_RESOURCE_FLAGS** est définie sur STATUS_PRIMARY_IDENTITY pour chaque fournisseur membre du service de messagerie qui fournit l’identité principale et sur SERVICE_PRIMARY_IDENTITY pour le service de messagerie. Lorsqu’un fournisseur de services ne peut pas fournir l’identité principale de son service de messagerie, il PR_RESOURCE_FLAGS **à** STATUS_NO_PRIMARY_IDENTITY. **SetPrimaryIdentity** définit la **propriété PR_RESOURCE_FLAGS** de chaque service de message qui ne fournit pas l’identité principale à SERVICE_NO_PRIMARY_IDENTITY. 
   
-Chaque fournisseur de services de messagerie dont MAPI dispose d’informations peut établir une identité pour chacun de ses utilisateurs lorsqu’un client se connecte au service. Toutefois, étant donné que MAPI prend en charge les connexions à plusieurs fournisseurs de services pour chaque session MAPI, il n’existe pas de définition précise de l’identité d’un utilisateur particulier pour la session MAPI dans son ensemble ; L’identité d’un utilisateur dépend du service concerné. Les clients peuvent appeler **SetPrimaryIdentity** pour désigner l’une des nombreuses identités établies pour un utilisateur par les services de message en tant qu’identité principale pour cet utilisateur. 
+Chaque fournisseur de services de messagerie dont MAPI dispose d’informations peut établir une identité pour chacun de ses utilisateurs lorsqu’un client se connecte au service. Toutefois, étant donné que MAPI prend en charge les connexions à plusieurs fournisseurs de services pour chaque session MAPI, il n’existe aucune définition précise de l’identité d’un utilisateur particulier pour la session MAPI dans son ensemble ; L’identité d’un utilisateur dépend du service concerné. Les clients peuvent appeler **SetPrimaryIdentity** pour désigner l’une des nombreuses identités établies pour un utilisateur par les services de message en tant qu’identité principale pour cet utilisateur. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -35,9 +35,9 @@ Les sections du service de message peuvent contenir une variété d’entrées s
   
  **PR_SERVICE_ENTRY_NAME**  =   _nom de la fonction de point d’entrée_
   
- **PR_SERVICE_SUPPORT_FILES**  =   _liste des fichiers_
+ **PR_SERVICE_SUPPORT_FILES**  =   _liste de fichiers_
   
- **PR_SERVICE_DELETE_FILES**  =   _liste des fichiers_
+ **PR_SERVICE_DELETE_FILES**  =   _liste de fichiers_
   
  **PR_RESOURCE_FLAGS**  =   _masque de bits_
   

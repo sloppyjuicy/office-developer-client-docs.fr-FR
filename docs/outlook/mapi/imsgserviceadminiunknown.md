@@ -41,7 +41,7 @@ Modifie un service de message dans un profil.
 |||
 |:-----|:-----|
 |[GetLastError](imsgserviceadmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur la dernière erreur générée par un objet d’administration de service de message.  <br/> |
-|[GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) <br/> |Permet d’accéder à la table des services de message, liste des services de message dans le profil.  <br/> |
+|[GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) <br/> |Permet d’accéder à la table des services de message, une liste des services de message dans le profil.  <br/> |
 |[CreateMsgService](imsgserviceadmin-createmsgservice.md) <br/> |Ajoute un service de message au profil actuel.  <br/> <br/>**REMARQUE**: cette méthode est dépréciée. Utilisez [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) à la place.           |
 |[DeleteMsgService](imsgserviceadmin-deletemsgservice.md) <br/> |Supprime un service de message d’un profil.  <br/> |
 |[CopyMsgService](imsgserviceadmin-copymsgservice.md) <br/> |Copie un service de message dans un profil.  <br/> |

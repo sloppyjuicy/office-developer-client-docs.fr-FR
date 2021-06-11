@@ -22,14 +22,14 @@ ms.locfileid: "33425455"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Renvoie le handle de fenêtre de la fenêtre Microsoft Excel de niveau supérieur.
+Renvoie le handle de fenêtre de la fenêtre de niveau Microsoft Excel niveau supérieur.
   
 ```cs
 Excel4(xlGetHwnd, LPXLOPER pxRes, 0); /* returns low part only */
 Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 Cette fonction n’a pas d’arguments.
   
@@ -39,9 +39,9 @@ Contient le handle de fenêtre (**xltypeInt**) dans le **champ val.w.**
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction est utile pour écrire du code d’API Windows.
+Cette fonction est utile pour écrire du code Windows API.
   
-Lorsque vous appelez cette fonction à l’aide [d’Excel4](excel4-excel12.md) ou [d’Excel4v,](excel4v-excel12v.md)la variable d’integer XLOPER renvoyée est un int court signé 16 bits. Cette capacité ne peut contenir que les 16 bits faibles du handle Windows 32 bits. Pour trouver la partie la plus élevée, votre code doit itérer dans toutes les fenêtres ouvertes à la recherche d’une correspondance avec la partie basse. À compter d’Excel 2007, la variable entière de la **xlOPER12** est un entier signé 32 bits et contient donc la poignée entière, ce qui supprime la nécessité d’itérer toutes les fenêtres ouvertes. 
+Lorsque vous appelez cette fonction à l’aide [d’Excel4](excel4-excel12.md) ou [d’Excel4v,](excel4v-excel12v.md)la variable d’integer XLOPER renvoyée est un int court signé 16 bits. Cette capacité ne peut contenir que les 16 bits faibles de la poignée de Windows 32 bits. Pour trouver la partie la plus élevée, votre code doit itérer dans toutes les fenêtres ouvertes à la recherche d’une correspondance avec la partie basse. À compter de Excel 2007, la variable entière de la **xlOPER12** est un entier signé 32 bits et contient donc la poignée entière, ce qui supprime la nécessité d’itérer toutes les fenêtres ouvertes. 
   
 ### <a name="example"></a>Exemple
 

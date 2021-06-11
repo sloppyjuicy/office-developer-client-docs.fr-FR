@@ -31,7 +31,7 @@ Les fournisseurs de services, généralement des fournisseurs de carnets d’adr
     
 Ces propriétés sont définies sur l’identificateur d’entrée, le nom d’affichage et la clé de recherche de l’objet d’identité correspondant, qui est généralement un utilisateur de messagerie. Les fournisseurs qui fournissent une identité définissent également l’STATUS_PRIMARY_IDENTITY dans leur propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
   
-Selon vos besoins, vous pouvez utiliser l’identité d’un fournisseur particulier ou l’identité principale de la session. Vous pouvez également utiliser l’identité d’un fournisseur à des fins d’affichage ou pour récupérer des propriétés, telles que **PR_RESOURCE_PATH** ([PidTagResourcePath](pidtagresourcepath-canonical-property.md)). **PR_RESOURCE_PATH,** s’il est définie, contient le chemin d’accès aux fichiers utilisés ou créés par le fournisseur. Récupérez **la PR_RESOURCE_PATH** du fournisseur fournissant l’identité principale lorsque vous souhaitez localiser les fichiers qui se rapportent à l’utilisateur de la session. 
+Selon vos besoins, vous pouvez utiliser l’identité d’un fournisseur particulier ou l’identité principale de la session. Vous pouvez également utiliser l’identité d’un fournisseur à des fins d’affichage ou pour récupérer des propriétés, telles que **PR_RESOURCE_PATH** ([PidTagResourcePath](pidtagresourcepath-canonical-property.md)). **PR_RESOURCE_PATH,** si elle est définie, contient le chemin d’accès aux fichiers utilisés ou créés par le fournisseur. Récupérez **la PR_RESOURCE_PATH** du fournisseur fournissant l’identité principale lorsque vous souhaitez localiser les fichiers qui se rapportent à l’utilisateur de la session. 
   
  **Pour récupérer l’identité d’un fournisseur spécifique**
   
@@ -43,7 +43,7 @@ Selon vos besoins, vous pouvez utiliser l’identité d’un fournisseur particu
     
  **Pour récupérer l’identité principale d’une session**
   
-- Appelez [IMAPISession::QueryIdentity](imapisession-queryidentity.md). **QueryIdentity** base l’identité de session sur l’existence de la valeur STATUS_PRIMARY_IDENTITY dans la **colonne PR_RESOURCE_FLAGS’une** des lignes de la table d’état. Si aucune des lignes d’état n’a cette valeur définie, **QueryIdentity** affecte l’identité au premier fournisseur de services qui définit les trois propriétés PR_IDENTITY données. Si aucun fournisseur de services ne fournit d’identité, **QueryIdentity** renvoie MAPI_W_NO_SERVICE. Lorsque cela se produit, vous devez créer une chaîne de caractères pour représenter un utilisateur générique qui peut servir d’identité principale. 
+- Appelez [IMAPISession::QueryIdentity](imapisession-queryidentity.md). **QueryIdentity** base l’identité de session sur l’existence de la valeur STATUS_PRIMARY_IDENTITY dans la **colonne PR_RESOURCE_FLAGS’une** des lignes de la table d’état. Si aucune des lignes d’état n’a cette valeur définie, **QueryIdentity** affecte l’identité au premier fournisseur de services qui définit les trois PR_IDENTITY de service. Si aucun fournisseur de services ne fournit d’identité, **QueryIdentity** renvoie MAPI_W_NO_SERVICE. Lorsque cela se produit, vous devez créer une chaîne de caractères pour représenter un utilisateur générique qui peut servir d’identité principale. 
     
  **Pour définir explicitement l’identité principale d’une session**
   

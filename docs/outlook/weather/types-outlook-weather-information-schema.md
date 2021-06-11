@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1120ad84-577f-6a72-cd3d-bb9bf3ffaa08
-description: Cette rubrique répertorie les types dans le schéma XML des informations météorologiques Outlook.
+description: Cette rubrique répertorie les types dans le Outlook XML des informations météorologiques.
 ms.openlocfilehash: 8c8881caec8cde94c91bcdc258647959848974d5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33428675"
 ---
 # <a name="types-outlook-weather-information-schema"></a>Types (Outlook Weather Information Schema)
 
-Cette rubrique répertorie les types dans le schéma XML des informations météorologiques Outlook.
+Cette rubrique répertorie les types dans le Outlook XML des informations météorologiques.
   
 - [currentType complexType](currenttype-complextype-outlook-weather-information-schema.md)
     

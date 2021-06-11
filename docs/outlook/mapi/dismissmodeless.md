@@ -40,11 +40,11 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
-> [in] Valeur spécifique à l’implémentation généralement utilisée pour transmettre des informations d’interface utilisateur à une fonction. Par exemple, dans Microsoft Windows, ce paramètre est le handle de fenêtre parent de la boîte de dialogue et est de type HWND, cast en **ULONG_PTR**. La valeur zéro indique qu’il n’y a pas de fenêtre parente. 
+> [in] Valeur spécifique à l’implémentation généralement utilisée pour transmettre des informations d’interface utilisateur à une fonction. Par exemple, dans Microsoft Windows ce paramètre est le handle de fenêtre parent de la boîte de dialogue et est de type HWND, cast en **un ULONG_PTR**. La valeur zéro indique qu’il n’y a pas de fenêtre parente. 
     
  _lpvContext_
   
@@ -56,7 +56,7 @@ Aucun
   
 ## <a name="remarks"></a>Remarques
 
-Lorsque l’application cliente appelle une boîte de dialogue de carnet d’adresses sans mode, elle inclut dans sa boucle de message Windows un appel à une fonction basée sur le prototype [ACCELERATEABSDI,](accelerateabsdi.md) qui vérifie et traite les touches d’accès rapide. Lorsque la boîte de dialogue est fermée, MAPI appelle la fonction **basée DISMISSMODELESS** afin que l’application cliente cesse d’appeler la fonction **basée sur ACCELERATEABSDI.** 
+Lorsque l’application cliente appelle une boîte de dialogue de carnet d’adresses sans mode, elle inclut dans son message Windows un appel à une fonction basée sur le prototype [ACCELERATEABSDI,](accelerateabsdi.md) qui vérifie et traite les touches d’accès rapide. Lorsque la boîte de dialogue est fermée, MAPI appelle la fonction **basée DISMISSMODELESS** afin que l’application cliente cesse d’appeler la fonction **basée sur ACCELERATEABSDI.** 
   
 ## <a name="see-also"></a>Voir aussi
 

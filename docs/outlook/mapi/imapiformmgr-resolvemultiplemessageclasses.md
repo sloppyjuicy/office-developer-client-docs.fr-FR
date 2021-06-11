@@ -36,7 +36,7 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pMsgClasses_
   
@@ -78,7 +78,7 @@ Pour résoudre un groupe de classes de message en formulaires, une visionneuse d
   
 Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
   
-Si une classe de message ne peut pas être résolue en formulaire, la valeur NULL est renvoyée pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, les visionneuses de formulaires ne doivent pas fonctionner sur l’hypothèse que toutes les classes de message ont été correctement résolues. Au lieu de cela, les visionneuses de formulaire doivent vérifier les valeurs dans le tableau renvoyé.
+Si une classe de message ne peut pas être résolue en formulaire, null est renvoyé pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, les visionneuses de formulaires ne doivent pas fonctionner sur l’hypothèse que toutes les classes de message ont été correctement résolues. Au lieu de cela, les visionneuses de formulaire doivent vérifier les valeurs dans le tableau renvoyé.
   
 ## <a name="see-also"></a>Voir aussi
 

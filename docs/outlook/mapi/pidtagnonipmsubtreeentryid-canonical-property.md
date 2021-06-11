@@ -25,7 +25,7 @@ ms.locfileid: "33427590"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche l’ID d’entrée **du dossier NON_IPM_SUBTREE** dans une magasin de dossiers publics Exchange. 
+Affiche l’ID d’entrée **du dossier NON_IPM_SUBTREE** dans une Exchange dossiers publics. 
   
 |||
 |:-----|:-----|

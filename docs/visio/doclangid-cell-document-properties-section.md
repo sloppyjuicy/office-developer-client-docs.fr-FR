@@ -22,7 +22,7 @@ Indique la langue par défaut pour le document.
   
 ## <a name="remarks"></a>Remarques
 
-La langue du document est basée sur la langue définie dans la boîte de **dialogue Préférences** Microsoft Office langue. (Cliquez **sur Démarrer,** **sur** Tous les programmes, sur **Microsoft Office,** sur Microsoft Office **Outils,** puis sur Microsoft Office **langue.)**
+La langue du document est basée sur la langue définie dans la boîte de Microsoft Office préférences **de** langue. (Cliquez **sur** Démarrer, sur Tous les **programmes,** sur **Microsoft Office,** sur Microsoft Office **Outils,** puis sur Microsoft Office **langue.)**
   
 Si vous souhaitez modifier la langue d’un document, au lieu de modifier cette  cellule directement,  il est préférable de modifier cette valeur dans la boîte de dialogue Propriétés (cliquez sur l’onglet Fichier, cliquez sur **Informations,** sur Propriétés, puis sur Propriétés **avancées)** ou par programme, à l’aide de la propriété **Language** de l’objet **Document.** 
   

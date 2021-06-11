@@ -34,7 +34,7 @@ LPFORMPRINTSETUP FAR * lppFormPrintSetup
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -64,7 +64,7 @@ Allouez **les membres hDevMode** et **hDevName** de la structure [FORMPRINTSETUP
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si vous vous attendez à ce que les membres **hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** pointés par le paramètre  _lppFormPrintSetup_ soient des chaînes Unicode, définissez  _ulFlags_ sur MAPI_UNICODE. Sinon, **GetPrintSetup** retournera ces chaînes au format ANSI. 
+Si vous attendez que les membres **hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** pointés par le paramètre  _lppFormPrintSetup_ soient des chaînes Unicode, définissez  _ulFlags_ sur MAPI_UNICODE. Sinon, **GetPrintSetup** retournera ces chaînes au format ANSI. 
   
 Libérez **les membres hDevMode** et **hDevName** de la structure **FORMPRINTSETUP** en appelant la fonction Win32 **GlobalFree**. Libérez toute la structure **FORMPRINTSETUP** en appelant [MAPIFreeBuffer](mapifreebuffer.md). 
   

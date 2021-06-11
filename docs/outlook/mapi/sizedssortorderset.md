@@ -23,7 +23,7 @@ ms.locfileid: "33428605"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Crée une structure [SSortOrderSet nommée](ssortorderset.md) qui contient un nombre spécifié d’ordres de tri. 
+Crée une structure [SSortOrderSet](ssortorderset.md) nommée qui contient un nombre spécifié d’ordres de tri. 
   
 |||
 |:-----|:-----|
@@ -34,7 +34,7 @@ Crée une structure [SSortOrderSet nommée](ssortorderset.md) qui contient un no
 SizedSSortOrderSet (_csort,_name)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ _csort_
   

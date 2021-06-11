@@ -23,11 +23,11 @@ ms.locfileid: "33429445"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Appelle une fonction de feuille de calcul Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une commande ou une fonction spéciale XLL uniquement, à partir d’une DLL/XLL ou d’une ressource de code.
+Appelle une fonction de feuille Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une commande ou une fonction spéciale XLL uniquement, à partir d’une DLL/XLL ou d’une ressource de code.
   
-Toutes les versions récentes d’Excel prise **en charge Excel4**. À compter d’Excel 2007, **Excel12** est pris en charge. 
+Toutes les versions récentes de Excel prise **en charge d’Excel4.** À compter Excel 2007, **Excel12** est pris en charge. 
   
-Ces fonctions ne peuvent être appelées que lorsqu’Excel a transmis le contrôle à la DLL ou au XLL. Ils peuvent également être appelés lorsqu’Excel a passé le contrôle indirectement via un appel Visual Basic pour Applications (VBA). Ils ne peuvent pas être appelés à un autre moment. Par exemple, ils ne peuvent pas être appelés pendant les appels à la fonction [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) ou à d’autres moments où le système d’exploitation a appelé la DLL, ou à partir d’un thread créé par la DLL. 
+Ces fonctions ne peuvent être appelées que si Excel a passé le contrôle à la DLL ou au XLL. Ils peuvent également être appelés lorsque Excel a passé le contrôle indirectement via un appel à Visual Basic pour Applications (VBA). Ils ne peuvent pas être appelés à un autre moment. Par exemple, ils ne peuvent pas être appelés pendant les appels à la fonction [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) ou à d’autres moments où le système d’exploitation a appelé la DLL, ou à partir d’un thread créé par la DLL. 
   
 Les [fonctions Excel4v et Excel12v](excel4v-excel12v.md) acceptent leurs arguments en tant que tableau, tandis que les fonctions **Excel4** et **Excel12** acceptent leurs arguments en tant que liste de longueur variable dans la pile. À tous les autres égards, **Excel4** se comporte de la même manière **qu’Excel4v** et **Excel12** se comporte de la même manière **qu’Excel12v**.
   
@@ -36,7 +36,7 @@ int Excel4(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER argument1, ...);
 int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, ...);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _iFunction_ (**int**)
   
@@ -48,7 +48,7 @@ Pointeur vers une **XLOPER** (avec **Excel4**) ou une **XLOPER12** (avec **Excel
   
  _iCount_ (**int**)
   
-Nombre d’arguments suivants qui seront transmis à la fonction. Dans les versions d’Excel jusqu’en 2003, ce nombre peut être n’importe quel nombre de 0 à 30. À compter d’Excel 2007, ce nombre peut être n’importe quel nombre entre 0 et 255.
+Nombre d’arguments ultérieurs qui seront transmis à la fonction. Dans les versions Excel jusqu’en 2003, ce nombre peut être n’importe quel nombre de 0 à 30. À compter Excel 2007, ce nombre peut être n’importe quel nombre entre 0 et 255.
   
  _argument1, ..._ (**LPXLOPER** ou **LPXLOPER12**)
   
@@ -60,15 +60,15 @@ Renvoie l’une des valeurs d’un nombre **integer (int)** suivantes.
   
 |**Valeur**|**Code de retour**|**Description**|
 |:-----|:-----|:-----|
-|0  <br/> |**xlretSuccess** <br/> |La fonction a été appelée avec succès. Cela ne signifie pas que la fonction n’a pas renvoyé de valeur d’erreur Excel ; Pour le savoir, vous devez examiner le type et la valeur du paramètre  _pxRes_ résultant.  <br/> |
-|1   <br/> |**xlretAbort** <br/> |La commande ou la fonction a été interrompue anormalement (abandon interne). Cela peut se produire si une feuille macro XLM se ferme en appelant **CLOSE** ou si Excel est en mémoire. Si Excel renvoie cette erreur, la fonction d’appel doit se quitter immédiatement. La DLL est autorisée à appeler **xlFree** uniquement avant de quitter. Tous les autres appels à l’API C ne sont pas autorisés. L’utilisateur peut enregistrer n’importe quel travail de manière interactive à l’aide de la commande **Enregistrer** **dans** le menu Fichier.  <br/> |
-|2   <br/> |**xlretInvXlfn** <br/> |Un numéro de fonction non valide a été fourni. Si vous utilisez des constantes du fichier d’en-tête Xlcall.h, cela ne doit pas se produire, sauf si vous appelez un appel qui n’est pas pris en charge dans la version d’Excel que vous exécutez.  <br/> |
-|4   <br/> |**xlretInvCount** <br/> |Un nombre d’arguments non valide a été entré. Dans les versions jusqu’à Excel 2003, le nombre maximal d’arguments qu’une fonction peut prendre est de 30. À compter d’Excel 2007, le nombre maximal est 255. Certains nécessitent un nombre fixe ou minimal d’arguments.  <br/> |
-|8   <br/> |**xlretInvXloper** <br/> |Un **XLOPER ou** **XLOPER12** non valide a été transmis à la fonction ou un argument de type erroné a été utilisé.  <br/> |
+|0  <br/> |**xlretSuccess** <br/> |La fonction a été appelée avec succès. Cela ne signifie pas que la fonction n’a pas Excel d’erreur ; Pour le savoir, vous devez examiner le type et la valeur du paramètre _pxRes_ résultant.  <br/> |
+|1  <br/> |**xlretAbort** <br/> |La commande ou la fonction a été interrompue anormalement (abandon interne). Cela peut se produire si une feuille macro XLM se ferme en appelant **CLOSE** ou si Excel est en mémoire. Si Excel renvoie cette erreur, la fonction d’appel doit se quitter immédiatement. La DLL est autorisée à appeler **xlFree** uniquement avant de quitter. Tous les autres appels à l’API C ne sont pas autorisés. L’utilisateur peut enregistrer n’importe quel travail de manière interactive à l’aide de la commande **Enregistrer** **dans** le menu Fichier.  <br/> |
+|2  <br/> |**xlretInvXlfn** <br/> |Un numéro de fonction non valide a été fourni. Si vous utilisez des constantes du fichier d’en-tête Xlcall.h, cela ne doit pas se produire, sauf si vous appelez un appel qui n’est pas pris en charge dans la version de Excel que vous exécutez.  <br/> |
+|4   <br/> |**xlretInvCount** <br/> |Un nombre d’arguments non valide a été entré. Dans les versions jusqu Excel 2003, le nombre maximal d’arguments qu’une fonction peut prendre est de 30. À compter Excel 2007, le nombre maximal est 255. Certains nécessitent un nombre fixe ou minimal d’arguments.  <br/> |
+|8   <br/> |**xlretInvXloper** <br/> |Une **XLOPER ou** **XLOPER12** non valide a été transmise à la fonction ou un argument de type erroné a été utilisé.  <br/> |
 |16   <br/> |**xlretStackOvfl** <br/> |Un dépassement de la pile s’est produit. Utilisez **xlStack** pour surveiller la quantité d’espace laissé sur la pile. Évitez d’allouer de très grandes matrices et structures locales (automatiques) sur la pile dans la mesure du possible ; les rendre statiques; (Notez qu’un dépassement de la pile peut se produire sans être détecté.)  <br/> |
 |32  <br/> |**xlretFailed** <br/> |Échec d’une fonction équivalente à une commande. Cela équivaut à une commande de macro affichant la boîte de dialogue d’alerte d’erreur de macro.  <br/> |
-|64  <br/> |**xlretUncalced** <br/> |Une tentative de déréférencement d’une cellule qui n’a pas encore été calculée a été tentée, car elle est programmée pour être recalculée après la cellule actuelle. Dans ce cas, la DLL doit renvoyer immédiatement le contrôle à Excel. La DLL est autorisée à appeler **xlFree** uniquement avant de quitter. Tous les autres appels à l’API C ne sont pas autorisés. Pour plus d’informations sur les fonctions qui peuvent ou ne peuvent pas accéder aux valeurs des cellules qui n’ont pas été recalculées, voir Commandes, fonctions et états [Excel.](excel-commands-functions-and-states.md)  <br/> |
-|128  <br/> |**xlretNotThreadSafe** <br/> |Une tentative d’appel d’une fonction qui n’est pas thread-safe ou qui ne l’est peut-être pas lors d’un recalcul multithread du workbook a été tentée.  <br/> À compter d’Excel 2007, cette valeur est renvoyée, et uniquement dans les fonctions de feuille de calcul XLL déclarées comme thread-safe.  <br/> |
+|64  <br/> |**xlretUncalced** <br/> |Une tentative de déréférencement d’une cellule qui n’a pas encore été calculée a été tentée, car elle est programmée pour être recalculée après la cellule actuelle. Dans ce cas, la DLL doit retourner le contrôle Excel immédiatement. La DLL est autorisée à appeler **xlFree** uniquement avant de quitter. Tous les autres appels à l’API C ne sont pas autorisés. Pour plus d’informations sur les fonctions qui peuvent ou ne peuvent pas accéder aux valeurs des cellules qui n’ont pas été recalculées, voir Excel [Commands, Functions, and States](excel-commands-functions-and-states.md).  <br/> |
+|128  <br/> |**xlretNotThreadSafe** <br/> |Une tentative d’appel d’une fonction qui n’est pas thread-safe ou qui peut ne pas l’être pendant un recalcul multithread du workbook a été tentée.  <br/> À compter Excel 2007, cette valeur est renvoyée et uniquement dans les fonctions de feuille de calcul XLL déclarées comme thread-safe.  <br/> |
 |256  <br/> |**xlRetInvAsynchronousContext** <br/> |Le handle de fonction asynchrone n’est pas valide.  <br/> Cette valeur est utilisée uniquement par Excel 2010.  <br/> |
 |512  <br/> |**xlRetNotClusterSafe** <br/> |L’appel n’est pas pris en charge sur les clusters.  <br/> Cette valeur est utilisée uniquement par Excel 2010.  <br/> |
    
@@ -87,37 +87,37 @@ Les **valeurs iFunction** valides sont l’une des constantes **xlf...** ou **xl
    
 ### <a name="different-types-of-functions"></a>Différents types de fonctions
 
- **Excel4 et** **Excel12** font la distinction entre trois classes de fonctions. Les fonctions sont classées en fonction des trois états dans lesquels Excel peut appeler la DLL. 
+ **Excel4** et **Excel12** font la distinction entre trois classes de fonctions. Les fonctions sont classées en fonction des trois états dans lesquels Excel peuvent appeler la DLL. 
   
 - La classe 1 s’applique lorsque la DLL est appelée à partir d’une feuille de calcul suite à un recalcul. 
     
 - La classe 2 s’applique lorsque la DLL est appelée à partir d’une macro de fonction ou d’une feuille de calcul où elle a été inscrite avec un signe de numéro (#) dans le texte du type.
     
-- La classe 3 s’applique lorsqu’une DLL est appelée à partir d’un objet, d’une macro, d’un menu, d’une barre d’outils, d’une touche de raccourci, d’une méthode **ExecuteExcel4Macro** ou de la commande **Outils/Macro/Exécuter.** Pour plus d’informations, [voir Commandes, fonctions et états Excel.](excel-commands-functions-and-states.md)
+- La classe 3 s’applique lorsqu’une DLL est appelée à partir d’un objet, d’une macro, d’un menu, d’une barre d’outils, d’une touche de raccourci, d’une méthode **ExecuteExcel4Macro** ou de la commande **Outils/Macro/Exécuter.** Pour plus d’informations, [voir Excel Commands, Functions et States](excel-commands-functions-and-states.md).
     
 Le tableau suivant indique les fonctions valides dans chaque classe.
   
 |**Classe 1**|**Classe 2**|**Classe 3**|
 |:-----|:-----|:-----|
-|N’importe quelle fonction de feuille de calcul  <br/> Toute fonction XLL uniquement **xl...** à l’exception **de xlSet**.  <br/> **xlfCaller** <br/> |N’importe quelle fonction de feuille de calcul  <br/> Toute **fonction xl...** à l’exception **de xlSet**.  <br/> Fonctions de feuille macro, y compris **xlfCaller,** qui retournent une valeur mais n’effectuent aucune action qui affecte l’espace de travail ou tout classeur ouvert.  <br/> |N’importe quelle fonction, **y compris xlSet** et les fonctions équivalentes aux commandes.  <br/> |
+|N’importe quelle fonction de feuille de calcul  <br/> Toute fonction XLL uniquement **xl...** à l’exception **de xlSet**.  <br/> **xlfCaller** <br/> |N’importe quelle fonction de feuille de calcul  <br/> Toute **fonction xl...** à l’exception **de xlSet**.  <br/> Fonctions de feuille macro, y compris **xlfCaller,** qui retournent une valeur mais n’effectuent aucune action qui affecte l’espace de travail ou tout classeur ouvert.  <br/> |N’importe quelle fonction, **y compris xlSet** et les fonctions équivalentes à la commande.  <br/> |
    
 ### <a name="displaying-the-dialog-box-for-a-command-equivalent-function"></a>Affichage de la boîte de dialogue pour une Command-Equivalent de boîte de dialogue
 
-Si une fonction équivalente à une commande est associée à une boîte de dialogue, vous pouvez définir le bit **xlPrompt** dans **iFunction**. Cela signifie qu’Excel affiche la boîte de dialogue appropriée avant d’exécuter la commande.
+Si une fonction équivalente à une commande est associée à une boîte de dialogue, vous pouvez définir le bit **xlPrompt** dans **iFunction**. Cela signifie que Excel affiche la boîte de dialogue appropriée avant d’exécuter la commande.
   
 ### <a name="writing-international-dlls"></a>Écriture de DLLs internationales
 
-Si vous définissez le bit **xlIntl** dans **iFunction,** la fonction ou la commande est exécutée comme si elle était appelée à partir d’une feuille macro internationale. Cela signifie que la commande se comporte comme elle le ferait sur la version américaine d’Excel, même si elle est en cours d’exécution sur une version internationale (localisée).
+Si vous définissez le bit **xlIntl** dans **iFunction,** la fonction ou la commande est exécutée comme si elle était appelée à partir d’une feuille macro internationale. Cela signifie que la commande se comporte comme elle le ferait sur la version américaine de Excel, même si elle est en cours d’exécution sur une version internationale (localisée).
   
 ### <a name="xlretuncalced-or-xlretabort"></a>xlretUncalced ou xlretAbort
 
-Après avoir reçu l’une de ces valeurs de retour, votre DLL doit nettoyer et renvoyer immédiatement le contrôle à Excel. Les rappels dans Excel via l’API C, à l’exception de **xlFree,** sont désactivés après la réception de l’une de ces valeurs de retour.
+Après avoir reçu l’une de ces valeurs de retour, votre DLL doit nettoyer et retourner le contrôle Excel immédiatement. Les rappels dans Excel via l’API C, à l’exception de **xlFree,** sont désactivés après la réception de l’une de ces valeurs de retour.
   
 ## <a name="example"></a>Exemple
 
 L’exemple suivant utilise la **fonction Excel12** pour sélectionner la cellule à partir de laquelle elle a été appelée. 
   
-Cet exemple de code fait partie d’un exemple plus important fourni dans le SDK XLL Excel 2010, à l’emplacement suivant où vous avez installé le SDK :
+Cet exemple de code fait partie d’un exemple plus vaste fourni dans le SDK XLL Excel 2010, à l’emplacement suivant où vous avez installé le SDK :
   
 \Samples\Example\Example.c.
   

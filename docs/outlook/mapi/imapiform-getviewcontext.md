@@ -33,7 +33,7 @@ HRESULT GetViewContext(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ppViewContext_
   
@@ -51,7 +51,7 @@ S_FALSE
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaire **appellent GetViewContext** pour obtenir un pointeur vers le contexte d’affichage établi dans un appel précédent à [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Si aucun appel préalable n’a été effectué sur **SetViewContext**, **GetViewContext** définit  _ppViewContext_ sur NULL. 
+Les visionneuses de formulaire **appellent GetViewContext** pour obtenir un pointeur vers le contexte d’affichage établi dans un appel précédent à [IMAPIForm::SetViewContext](imapiform-setviewcontext.md). Si aucun appel préalable n’a été effectué sur **SetViewContext,** **GetViewContext** définit  _ppViewContext_ sur NULL. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 

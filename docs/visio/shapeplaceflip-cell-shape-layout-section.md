@@ -23,8 +23,8 @@ Détermine la façon dont une forme positionnable est retournée et/ou pivote su
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Utiliser la valeur page par défaut.  <br/> |**visLOFlipDefault** <br/> |
-|1   <br/> |Retournement horizontal.  <br/> |**visLOFlipX** <br/> |
-|2   <br/> |Retournement vertical.  <br/> |**visLOFlipY** <br/> |
+|1  <br/> |Retournement horizontal.  <br/> |**visLOFlipX** <br/> |
+|2  <br/> |Retournement vertical.  <br/> |**visLOFlipY** <br/> |
 |4   <br/> |Retourner par incréments de 90 degrés entre 0 et 270.  <br/> |**visLOFlipRotate** <br/> |
 |8   <br/> |Ne pas retourner.  <br/> |**visLOFlipNone** <br/> |
    

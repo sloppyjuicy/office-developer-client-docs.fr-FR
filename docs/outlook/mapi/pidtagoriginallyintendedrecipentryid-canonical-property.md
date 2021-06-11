@@ -38,7 +38,7 @@ Contient l’identificateur d’entrée du destinataire initialement prévu d’
 
 Cette propriété est l’une des propriétés d’adresse du destinataire du message initialement prévu. Elle doit être définie par l’agent automatique qui a transmis le message.
   
-Cette propriété correspond à l’attribut d’état X.400 par destinataire.
+Cette propriété correspond à l’attribut de rapport X.400 par destinataire.
   
 ## <a name="related-resources"></a>Ressources connexes
 

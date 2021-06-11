@@ -19,7 +19,7 @@ ms.locfileid: "33427268"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le chargement d’un élément Outlook pendant [l’état de chargement du message.](upload-message-state.md)
+Informations pour le chargement d’un Outlook pendant [l’état de chargement du message.](upload-message-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -66,7 +66,7 @@ struct UPMSG
     
   - UPM_OK
     
-    - [in] Le chargement a réussi. Le client définit cette information après le téléchargement d’informations sur le serveur.
+    - [in] Télécharger a réussi. Le client définit cette information après le téléchargement d’informations sur le serveur.
     
   - UPM_MOVED
     
@@ -94,11 +94,11 @@ _meid_
     
 _binReserved1_
   
-> [in] Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
+> [in] Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge. 
     
 _binReserved2_
   
-> [in] Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
+> [in] Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge. 
     
 _feid_
   

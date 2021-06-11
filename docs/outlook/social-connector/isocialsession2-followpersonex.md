@@ -23,7 +23,7 @@ Ajoute la personne identifiée par les paramètres  _emailAddresses_ et  _displa
 HRESULT _stdcall FollowPersonEx([in] SAFEARRAY(BSTR) emailAddresses, [in] BSTR displayName);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _emailAddresses_
   
@@ -39,9 +39,9 @@ Si Outlook Social Connector (OSC) fournit davantage que l’adresse SMTP dans le
   
 Si le fournisseur a définie l’élément **followPerson** comme **vrai** dans le **XML** de fonctionnalités et qu’aucun des éléments pour  _emailAddresses_ ne correspond à un utilisateur sur le réseau, le fournisseur doit renvoyer l’erreur OSC_E_NOT_FOUND. Si le fournisseur a définie **followPerson** comme **false** dans les **fonctionnalités,** le fournisseur doit renvoyer l’OSC_E_FAIL erreur. 
   
-Si la méthode **FollowPersonEx** réussit, le fournisseur peut utiliser la chaîne dans le paramètre  _displayName_ pour adresser la personne dans n’importe quel e-mail de confirmation d’ami ultérieur, plutôt que de l’adresser à la personne par l’adresse SMTP. En revanche, le fournisseur doit être en mesure de gérer l’OSC en passant une chaîne vide pour le _paramètre displayName._ 
+Si la méthode **FollowPersonEx** réussit, le fournisseur peut utiliser la chaîne dans le paramètre  _displayName_ pour adresser la personne dans n’importe quel e-mail de confirmation d’ami ultérieur, plutôt que d’adresser la personne par l’adresse SMTP. En revanche, le fournisseur doit être en mesure de gérer l’OSC en passant une chaîne vide pour le _paramètre displayName._ 
   
-Si le fournisseur implémente l’interface [ISocialSession2](isocialsession2iunknown.md) et a définie **followPerson** comme **true** dans le XML de fonctionnalités, l’OSC appelle **FollowPersonEx** au lieu de [ISocialSession::FollowPerson](isocialsession-followperson.md). Si le fournisseur a définie **followPerson** comme **true** mais n’implémente pas l’interface **ISocialSession2,** ou **si FollowPersonEx** renvoie l’erreur OSC_E_NOTIMPL, l’OSC appelle **ISocialSession::FollowPerson**.
+Si le fournisseur implémente l’interface [ISocialSession2](isocialsession2iunknown.md) et a définie **followPerson** comme **true** dans les fonctionnalités XML, l’OSC appelle **FollowPersonEx** au lieu de [ISocialSession::FollowPerson](isocialsession-followperson.md). Si le fournisseur a définie **followPerson** comme **true** mais n’implémente pas l’interface **ISocialSession2,** ou **si FollowPersonEx** renvoie l’erreur OSC_E_NOTIMPL, l’OSC appelle **ISocialSession::FollowPerson**.
   
 ## <a name="see-also"></a>Voir aussi
 

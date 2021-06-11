@@ -40,7 +40,7 @@ Un ou plusieurs des indicateurs suivants peuvent être définies pour cette prop
   
 DT_ACCEPT_DBCS 
   
-> Le contrôle peut avoir des Double-Byte de jeu de caractères (DBCS). Cet indicateur est utilisé avec les contrôles d’édition. Il autorise les jeux de caractères à plusieurs caractères.
+> Le contrôle peut être Double-Byte de jeu de caractères (DBCS). Cet indicateur est utilisé avec les contrôles d’édition. Il autorise les jeux de caractères multi-sur-deux.
     
 DT_EDITABLE 
   
@@ -52,7 +52,7 @@ DT_MULTILINE
     
 DT_PASSWORD_EDIT 
   
-> S’applique aux contrôles d’édition. Le contrôle d’édition est traité comme un mot de passe. La valeur est affichée à l’aide d’astérisques au lieu d’un écho des caractères entrés.
+> S’applique aux contrôles d’édition. Le contrôle d’édition est traité comme un mot de passe. La valeur est affichée à l’aide d’astérisques au lieu d’un écho des caractères réels entrés.
     
 DT_REQUIRED 
   
@@ -70,7 +70,7 @@ Cette propriété est stockée dans le membre ulCtlFlags de la structure [DTCTL]
   
 La plupart des valeurs d’indicateur sont explicites. Par exemple, lorsque DT_REQUIRED est définie pour un contrôle, elle doit contenir une valeur avant que la boîte de dialogue ne soit autorisée à être rejetée. Le fournisseur de services peut fournir une valeur via son **implémentation IMAPIProp** ou l’utilisateur peut en entrer une. DT_EDITABLE indique que la valeur du contrôle peut être modifiée. DT_MULTILINE permet à la valeur d’un contrôle d’édition de s’étendre sur plusieurs lignes. 
   
-Certains indicateurs de contrôle ne sont pas aussi évidents à comprendre. Lorsqu’un contrôle définit l’DT_SET_IMMEDIATE, toute modification apportée à sa valeur est répercuté dès que l’utilisateur passe à un nouveau contrôle. MAPI effectue un appel unique à la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) de l’interface de propriétés pour la propriété du contrôle. Ce comportement est différent du comportement par défaut, qui consiste à reporter l’application des modifications apportées aux valeurs de contrôle jusqu’à ce que l’utilisateur sélectionne le bouton **OK** ou qu’il a fait disparaître la boîte de dialogue. L DT_SET_IMMEDIATE est souvent utilisé en combinaison avec les notifications du tableau d’affichage. 
+Certains indicateurs de contrôle ne sont pas aussi évidents à comprendre. Lorsqu’un contrôle définit l’DT_SET_IMMEDIATE, les modifications apportées à sa valeur prennent effet dès que l’utilisateur passe à un nouveau contrôle. MAPI effectue un appel unique à la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) de l’interface de propriétés pour la propriété du contrôle. Ce comportement est différent du comportement par défaut, qui consiste à reporter l’application des modifications apportées aux valeurs de contrôle jusqu’à ce que l’utilisateur sélectionne le bouton **OK** ou qu’il a fait disparaître la boîte de dialogue. L DT_SET_IMMEDIATE est souvent utilisé en combinaison avec les notifications du tableau d’affichage. 
   
 Le tableau suivant répertorie les types de contrôles et toutes les valeurs d’indicateur qui peuvent être définies pour chaque type.
   

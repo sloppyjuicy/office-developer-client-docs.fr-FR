@@ -21,7 +21,7 @@ ms.locfileid: "33426036"
   
 Les applications clientes peuvent rechercher dans un ou plusieurs dossiers la recherche de messages qui correspondent aux critères de recherche. La technique de recherche la plus simple consiste à appliquer une restriction pour définir des critères et à placer les résultats dans un dossier de résultats de recherche, créé explicitement pour cette recherche ou pour une recherche antérieure. Toutes les magasins de messages ne la prisent pas en charge. 
 
-Pour déterminer si la boutique de messages que vous utilisez prend en charge l’utilisation des dossiers de résultats de recherche, appelez sa méthode [IMAPIProp::GetProps](imapiprop-getprops.md) pour récupérer la propriété **PR \_ STORE_SUPPORT_MASK** ([PidTagStoreSupportMask).](pidtagstoresupportmask-canonical-property.md) Si l’STORE_SEARCH_OK est définie, la recherche est prise en charge. Si elle n’est pas définie, vous aurez besoin d’une autre approche, telle que l’inspection manuelle des dossiers cibles.
+Pour déterminer si la boutique de messages que vous utilisez prend en charge l’utilisation des dossiers de résultats de recherche, appelez sa méthode [IMAPIProp::GetProps](imapiprop-getprops.md) pour récupérer la propriété **\_ PR STORE_SUPPORT_MASK** ([PidTagStoreSupportMask).](pidtagstoresupportmask-canonical-property.md) Si l’STORE_SEARCH_OK est définie, la recherche est prise en charge. Si elle n’est pas définie, vous aurez besoin d’une autre approche, telle que l’inspection manuelle des dossiers cibles.
   
 ### <a name="to-search-one-or-more-folders-in-a-message-store"></a>Pour rechercher un ou plusieurs dossiers dans une magasin de messages
   
@@ -39,7 +39,7 @@ Pour déterminer si la boutique de messages que vous utilisez prend en charge l�
     
 4. Appelez la méthode [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) du dossier de résultats de recherche, en pointant  _lpContainerList_ vers le tableau d’identificateurs d’entrée et  _lpRestriction_ vers la restriction. 
     
-5. Si vous vous êtes inscrit aux notifications de fin de recherche auprès de la boutique de messages, attendez que la notification arrive.
+5. Si vous vous êtes inscrit pour les notifications de fin de recherche auprès de la boutique de messages, attendez que la notification arrive.
     
 6. Affichez les résultats de la recherche en appelant la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) du dossier de résultats de recherche pour accéder à sa table des matières. 
     

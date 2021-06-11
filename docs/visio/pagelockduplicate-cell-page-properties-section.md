@@ -20,7 +20,7 @@ Détermine si la page peut être dupliquée, en tant que booléen.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Le** doublon dans le menu de raccourci de page et la **méthode d’automatisation Page.Duplicate** sont tous deux désactivés pour la page.  <br/> |
+|TRUE  <br/> |**Les doublons** dans le menu de raccourci de page et la **méthode d’automatisation Page.Duplicate** sont tous deux désactivés pour la page.  <br/> |
 |FALSE  <br/> |La page peut être dupliquée.  <br/> |
    
 ## <a name="remarks"></a>Remarques

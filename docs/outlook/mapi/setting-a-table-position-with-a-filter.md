@@ -21,11 +21,11 @@ ms.locfileid: "33425469"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les utilisateurs du tableau peuvent déplacer le curseur vers une ligne qui correspond à un ensemble de critères de filtre. Les filtres peuvent être basés sur diverses recommandations telles que les valeurs des propriétés de colonne, les masques de bits ou les sous-objets. Les filtres sont spécifiés dans MAPI à l’aide d’une structure [SRestriction.](srestriction.md) 
+Les utilisateurs du tableau peuvent déplacer le curseur vers une ligne qui correspond à un ensemble de critères de filtre. Les filtres peuvent être basés sur diverses recommandations, telles que des valeurs de propriété de colonne, des masques de bits ou des sous-objets. Les filtres sont spécifiés dans MAPI à l’aide d’une structure [SRestriction.](srestriction.md) 
   
  **Pour positionner une table sur la première ligne qui correspond aux critères établis dans une restriction**
   
-- Appelez [la méthode IMAPITable::FindRow.](imapitable-findrow.md) À partir de la ligne représentée par un signet particulier, **FindRow** recherche dans un sens avant ou arrière pour rechercher une ligne qui correspond aux critères spécifiés dans la restriction. **FindRow peut** être utile pour implémenter une barre de défilement basée sur des chaînes de caractères, plutôt que sur des valeurs fractionnaires. Par exemple, un client peut appeler l’implémentation mapi de **FindRow** lors de la recherche dans le carnet d’adresses intégré pour permettre à un utilisateur, en entrant un ou plusieurs caractères, de localiser le prénom qui commence par les caractères spécifiés. 
+- Appelez [la méthode IMAPITable::FindRow.](imapitable-findrow.md) À partir de la ligne représentée par un signet particulier, **FindRow** recherche dans un sens avant ou arrière pour rechercher une ligne qui correspond aux critères spécifiés dans la restriction. **FindRow** peut être utile pour implémenter une barre de défilement basée sur des chaînes de caractères, plutôt que sur des valeurs fractionnaires. Par exemple, un client peut appeler l’implémentation mapi de **FindRow** lors de la recherche dans le carnet d’adresses intégré pour permettre à un utilisateur, en entrant un ou plusieurs caractères, de localiser le prénom qui commence par les caractères spécifiés. 
     
 ## <a name="see-also"></a>Voir aussi
 

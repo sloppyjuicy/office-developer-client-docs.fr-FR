@@ -36,7 +36,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulAttachmentNum_
   
@@ -44,7 +44,7 @@ ULONG ulFlags
     
  _ulUIParam_
   
-> [in] Handle to the parent window of any dialog boxes or windows this method displays. Le _paramètre ulUIParam_ est ignoré, sauf si l’ATTACH_DIALOG est définie dans _le paramètre ulFlags._ 
+> [in] Handle vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode. Le _paramètre ulUIParam_ est ignoré, sauf si l’ATTACH_DIALOG est définie dans le _paramètre ulFlags._ 
     
  _lpProgress_
   
@@ -74,7 +74,7 @@ Une pièce jointe supprimée n’est pas définitivement supprimée tant que la 
 
 Avant **d’appeler DeleteAttach,** appelez la méthode **IUnknown::Release** pour la pièce jointe et chacun de ses flux. 
   
-Étant donné que la suppression d’une pièce jointe peut être un processus long, **DeleteAttach** fournit le mécanisme qui affiche un indicateur de progression. Vous pouvez demander l’affichage d’un indicateur de progression en passant un pointeur à votre [IMAPIProgress : implémentation IUnknown](imapiprogressiunknown.md) ou NULL si vous n’avez pas d’implémentation. Vous devez également spécifier une poignée de fenêtre dans le paramètre _ulUIParam_ et l’indicateur ATTACH_DIALOG dans le _paramètre ulFlags._ 
+Étant donné que la suppression d’une pièce jointe peut être un processus long, **DeleteAttach** fournit le mécanisme qui affiche un indicateur de progression. Vous pouvez demander l’affichage d’un indicateur de progression en passant un pointeur vers votre [implémentation IMAPIProgress : IUnknown](imapiprogressiunknown.md) ou NULL si vous n’avez pas d’implémentation. Vous devez également spécifier une poignée de fenêtre dans le paramètre _ulUIParam_ et l’indicateur ATTACH_DIALOG dans le _paramètre ulFlags._ 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

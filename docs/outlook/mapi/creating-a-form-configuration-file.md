@@ -23,7 +23,7 @@ ms.locfileid: "33425217"
   
 Un fichier de configuration de formulaire fournit des informations sur un formulaire à la fois au gestionnaire de formulaires utilisé et aux applications clientes. Un fichier de configuration de formulaire contient une spécification complète pour un formulaire, y compris les propriétés publiées par le formulaire pour une utilisation par les clients de messagerie, les verbes implémentés par le formulaire et les plateformes pris en charge par le formulaire.
   
-Un fichier de configuration de formulaire est un fichier avec une extension .cfg et a un format similaire à celui d’un fichier d’initialisation de Windows. Il s’agit d’un fichier en texte simple avec un certain nombre de sections. Chaque section commence par un nom de section, entre crochets. Chaque section contient une ou plusieurs lignes qui définissent des valeurs et des paramètres pertinents pour cette section. Les valeurs ont l’un des types suivants :
+Un fichier de configuration de formulaire est un fichier avec une extension .cfg et a un format similaire à celui d’un Windows d’initialisation. Il s’agit d’un fichier en texte simple avec un certain nombre de sections. Chaque section commence par un nom de section, entre crochets. Chaque section contient une ou plusieurs lignes qui définissent des valeurs et des paramètres pertinents pour cette section. Les valeurs ont l’un des types suivants :
   
 - String
     

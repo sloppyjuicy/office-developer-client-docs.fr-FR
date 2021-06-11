@@ -52,7 +52,7 @@ Fournit des méthodes utilitaires pour travailler avec des tableaux. MAPI fourni
    
 ## <a name="remarks"></a>Remarques
 
-L’implémentation MAPI **d’ITableData** fonctionne avec les tables en maintenant toutes les données et les restrictions associées en mémoire, ce qui la rend inadaptée pour une utilisation avec des tableaux très grands. Les restrictions importantes et les opérations complexes telles que la catégorisation ne sont pas pris en charge. 
+L’implémentation MAPI **d’ITableData** fonctionne avec les tableaux en maintenant toutes les données et les restrictions associées en mémoire, ce qui la rend inadaptée pour une utilisation avec des tables très grandes. Les restrictions importantes et les opérations complexes telles que la catégorisation ne sont pas pris en charge. 
   
 Les objets de données de tableau identifient les lignes à l’aide d’une colonne d’index, propriété dont la valeur est unique pour chaque ligne. La plupart des fournisseurs de services **utilisent la PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) comme colonne d’index. Les propriétés qui ont plusieurs valeurs ne peuvent pas être utilisées comme colonne d’index.
   

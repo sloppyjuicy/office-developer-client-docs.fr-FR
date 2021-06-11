@@ -34,7 +34,7 @@ ULONG FAR * lpulCount
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -68,7 +68,7 @@ La **méthode IMAPITable::GetRowCount** récupère le nombre total de lignes dan
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si vous ne pouvez pas déterminer le nombre exact de lignes du tableau, renvoyez MAPI_W_APPROX_COUNT nombre de lignes et un nombre approximatif de lignes dans le contenu du _paramètre lpulCount._ 
+Si vous ne pouvez pas déterminer le nombre exact de lignes du tableau, renvoyez MAPI_W_APPROX_COUNT et un nombre approximatif de lignes dans le contenu du _paramètre lpulCount._ 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
@@ -76,7 +76,7 @@ Utilisez **GetRowCount pour** connaître le nombre de lignes qu’une table cont
   
 Certaines tables ne peuvent pas prendre **en charge GetRowCount** et renvoyer des MAPI_E_NO_SUPPORT. Si **GetRowCount n’est** pas pris en charge, une alternative peut être d’appeler [IMAPITable::QueryPosition](imapitable-queryposition.md). Avec les résultats **de QueryPosition,** vous pouvez déterminer la relation entre la ligne actuelle et la dernière ligne. 
   
-Lorsque **GetRowCount renvoie** MAPI_E_BUSY car il est temporairement incapable de récupérer un nombre de lignes, appelez la méthode [IMAPITable::WaitForCompletion.](imapitable-waitforcompletion.md) Lorsque **WaitForCompletion est** de retour, réessayez l’appel **à GetRowCount**. Une autre façon de détecter si une opération asynchrone est en cours consiste à appeler la méthode [IMAPITable::GetStatus](imapitable-getstatus.md) et à vérifier le contenu du paramètre _lpulTableState._ 
+Lorsque **GetRowCount renvoie** MAPI_E_BUSY car il est temporairement incapable de récupérer un nombre de lignes, appelez la méthode [IMAPITable::WaitForCompletion.](imapitable-waitforcompletion.md) Lorsque **WaitForCompletion renvoie,** réessayez l’appel **à GetRowCount**. Une autre façon de détecter si une opération asynchrone est en cours consiste à appeler la méthode [IMAPITable::GetStatus](imapitable-getstatus.md) et à vérifier le contenu du paramètre _lpulTableState._ 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

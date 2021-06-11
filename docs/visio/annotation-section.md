@@ -21,7 +21,7 @@ ms.locfileid: "33427422"
 Contient des informations sur les commentaires insérés sur une page de document. 
   
 > [!NOTE]
-> Cette section est utilisée pour suivre les commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd. Il n’est pas utilisé pour le suivi des commentaires dans les nouveaux documents .vsdx dans Visio 2013. 
+> Cette section est utilisée pour suivre les commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd. Il n’est pas utilisé pour le suivi des commentaires dans les nouveaux documents .vsdx Visio 2013. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -29,6 +29,6 @@ La section **Annotation** de la feuille ShapeSheet d’une page contient une lig
   
 Pour afficher la feuille ShapeSheet d’une page, assurez-vous que rien n’est sélectionné sur la page, cliquez avec le bouton droit sur la page, puis cliquez sur **Afficher la feuille ShapeSheet**.
   
-Pour plus d’informations sur des relecteurs particuliers, voir la section **Relecteur** dans la feuille ShapeSheet du document. 
+Pour plus d’informations sur des relecteurs particuliers, voir la section **Réviseur** dans la feuille ShapeSheet du document. 
   
 

@@ -35,7 +35,7 @@ LPMESSAGE FAR * lppEmptyMessage
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -81,7 +81,7 @@ Un rapport lu ou non lu ne doit être envoyé qu’une seule fois pour un messag
   
 Si le paramètre _lppEmptyMessage_ pointe vers un message de rapport valide lorsque MAPI revient de **ReadReceipt,** appelez la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) pour envoyer le message, puis relâchez le pointeur en appelant sa méthode **IUnknown:s:Release.** 
   
-En **cas d’échec de ReadReceipt,** le message doit être libéré sans être envoyé. Si vous stockez l’état de lecture du message, vous pouvez tenter de générer le rapport lu ou non lu ultérieurement. 
+En **cas d’échec de ReadReceipt,** le message doit être libéré sans être envoyé. Si vous stockez l’état de lecture du message, vous pouvez tenter de générer le rapport en lecture ou non lu ultérieurement. 
   
 Vous pouvez masquer ou afficher des rapports de lecture et non lus générés par les magasins dans vos dossiers. Le stockage de rapports lus et non lus dans des dossiers masqués vous permet d’implémenter une sécurité plus étroite.
   

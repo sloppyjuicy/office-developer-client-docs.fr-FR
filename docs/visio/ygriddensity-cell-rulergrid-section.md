@@ -23,13 +23,13 @@ Indique le type de grille verticale à utiliser.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
-|2   <br/> |Entâyé  <br/> |**visGridCoarse** <br/> |
+|2  <br/> |Entâyé  <br/> |**visGridCoarse** <br/> |
 |4   <br/> |Normal (valeur par défaut)  <br/> |**visGridNormal** <br/> |
 |8   <br/> |Fine  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l’option  d’espacement de la  grille verticale dans la boîte de dialogue Grille de règle (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). **&amp;** 
+Cette cellule correspond à l’option d’espacement de la  grille verticale dans la boîte de dialogue **Grille &amp;** de règle (sous l’onglet Affichage, cliquez sur **Afficher** la flèche).  
   
 Pour obtenir une référence à la cellule XGridDensity par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

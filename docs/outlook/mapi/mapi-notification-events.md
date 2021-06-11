@@ -21,7 +21,7 @@ ms.locfileid: "33427954"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsque les applications clientes s’inscrivent pour la notification d’événement, elles doivent spécifier un ou plusieurs événements. Les événements qu’ils peuvent spécifier dépendent de l’ensemble d’événements que la source de conseil prévue prend en charge. Les clients et les fournisseurs de services peuvent s’inscrire pour dix types de notifications, chacun représenté par une constante. La notification d’objet d’état est une exception. La notification d’objet d’état est une notification MAPI interne ; les clients ne peuvent pas s’y inscrire et les fournisseurs de services ne peuvent pas le générer. Le tableau suivant décrit les types d’événements et les objets source de conseil qui peuvent les prendre en charge. La constante d’événement est incluse dans le type d’événement.
+Lorsque les applications clientes s’inscrivent pour la notification d’événement, elles doivent spécifier un ou plusieurs événements. Les événements qu’ils peuvent spécifier dépendent de l’ensemble d’événements que la source de conseil prévue prend en charge. Les clients et les fournisseurs de services peuvent s’inscrire pour dix types de notifications, chacun représenté par une constante. La notification d’objet d’état est une exception. La notification d’objet d’état est une notification MAPI interne ; les clients ne peuvent pas s’y inscrire et les fournisseurs de services ne peuvent pas le générer. Le tableau suivant décrit les types d’événements et les objets source de conseil qui peuvent les prendre en charge. La constante d’événement est incluse avec le type d’événement.
   
 |**Type d’événement**|**Description**|**Conseiller les objets source**|
 |:-----|:-----|:-----|

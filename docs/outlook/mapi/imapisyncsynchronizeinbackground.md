@@ -25,7 +25,7 @@ ms.locfileid: "33426855"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Lance une synchronisation. Cette méthode est appelée par Microsoft Outlook 2010 et Microsoft Outlook 2013 et implémentée par les fournisseurs de magasins de messages. 
+ Lance une synchronisation. Cette méthode est appelée par les Microsoft Outlook 2010 et Microsoft Outlook 2013 et implémentée par les fournisseurs de magasins de messages. 
   
 ```cpp
 HRESULT SynchronizeInBackground (
@@ -33,7 +33,7 @@ HRESULT SynchronizeInBackground (
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _psibpb_
   

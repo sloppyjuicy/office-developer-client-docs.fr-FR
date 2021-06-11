@@ -18,7 +18,7 @@ ms.locfileid: "33424188"
 ---
 # <a name="blocksizex-cell-page-layout-section"></a>BlockSizeX, cellule (section Page Layout)
 
-Détermine la taille horizontale du bloc, la zone dans laquelle chacune de vos formes doit tenir sur la  page de dessin  lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de **page,** puis cliquez sur Autres  **options** de disposition).
+Détermine la taille horizontale du bloc, la zone dans laquelle chacune de vos formes doit tenir sur la  page de dessin  lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur **Re-Disposition** de la page, puis cliquez sur Autres  **options** de disposition).
   
 ## <a name="remarks"></a>Remarques
 

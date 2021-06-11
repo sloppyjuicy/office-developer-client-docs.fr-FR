@@ -23,8 +23,8 @@ Indique le type d'ombre d'une forme.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Utiliser la valeur par défaut de la page (valeur par défaut)  <br/> |**visFSTPageDefault** <br/> |
-|1   <br/> |Simple  <br/> |**visFSTSimple** <br/> |
-|2   <br/> |Oblique  <br/> |**visFSTOblique** <br/> |
+|1  <br/> |Simple  <br/> |**visFSTSimple** <br/> |
+|2  <br/> |Oblique  <br/> |**visFSTOblique** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

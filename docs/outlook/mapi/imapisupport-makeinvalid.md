@@ -36,7 +36,7 @@ ULONG cMethods
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -64,13 +64,13 @@ S_OK
 
 La **méthode IMAPISupport::MakeInvalid** est implémentée pour tous les objets de prise en charge. L’objet à invalider doit être dérivé de l’interface **IUnknown** ou d’une interface dérivée de **IUnknown**.
   
- **MakeInvalid** marque un objet comme inutilisable en remplaçant le vtable de l’objet par un vtable stub de taille similaire dans lequel les méthodes **IUnknown::AddRef** **et IUnknown::Release** s’exécutent comme prévu. Toutefois, toutes les autres méthodes échouent, renvoyant la valeur MAPI_E_INVALID_OBJECT. 
+ **MakeInvalid** marque un objet comme inutilisable en remplaçant le vtable de l’objet par un vtable stub de taille similaire dans lequel les méthodes **IUnknown::AddRef** et **IUnknown::Release** s’exécutent comme prévu. Toutefois, toutes les autres méthodes échouent, renvoyant la valeur MAPI_E_INVALID_OBJECT. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 Les fournisseurs de services et les services de messagerie **appellent généralement MakeInvalid** au moment de l’arrêt. Toutefois, **MakeInvalid** peut être appelé à tout moment. Par exemple, si un client libère un objet sans libérer certains de ses sous-objets, vous pouvez appeler **MakeInvalid** immédiatement pour libérer ces sous-objets. 
   
-Vous devez posséder l’objet que vous tentez d’invalider. Elle doit avoir une longueur d’au moins 16 octets et avoir au moins trois méthodes dans sa table vtable. 
+Vous devez posséder l’objet que vous tentez d’invalider. Elle doit avoir au moins 16 octets de long et avoir au moins trois méthodes dans sa table vtable. 
   
 Vous pouvez appeler **MakeInvalid,** puis effectuer n’importe quel travail d’arrêt, par exemple ignorer les structures de données associées, généralement effectué lors de la libération d’un objet. Le code de prise en charge de l’objet n’a pas besoin d’être conservé en mémoire, car MAPI libère la mémoire en appelant [MAPIFreeBuffer,](mapifreebuffer.md) puis libère l’objet. Vous pouvez libérer des ressources, **appeler MakeInvalid,** puis ignorer l’objet invalidé. 
   

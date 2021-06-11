@@ -29,7 +29,7 @@ Pour implémenter les tables des matières associées, votre fournisseur de maga
     
 - Prise en charge MAPI_ASSOCIATED’indicateur dans la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) afin que les applications clientes peuvent ajouter des messages à la table des matières associée d’un dossier. 
     
-- Définissez MAPI_ACCESS_CREATE_ASSOCIATED bit dans la **propriété PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) sur les objets de dossier.
+- Définissez le bit MAPI_ACCESS_CREATE_ASSOCIATED dans la **propriété PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) sur les objets de dossier.
     
 - Prise en charge DEL_ASSOCIATED’indicateur dans la [méthode IMAPIFolder::EmptyFolder.](imapifolder-emptyfolder.md) 
     
@@ -39,7 +39,7 @@ Pour implémenter les tables des matières associées, votre fournisseur de maga
     
 - Conservez **la PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md)) sur les dossiers.
     
-La propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)ne contient aucun bit pour indiquer si votre fournisseur de magasins de messages prend en charge les tables de contenu associées. Si votre fournisseur de magasins de messages ne les prend pas en charge, il doit renvoyer MAPI_E_NO_SUPPORT lorsque les applications clientes appellent l’une des méthodes ci-dessus avec l’indicateur MAPI_ASSOCIATED message.
+La propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)ne contient aucun bit pour indiquer si votre fournisseur de magasins de messages prend en charge les tables de contenu associées. Si votre fournisseur de magasin de messages ne les prend pas en charge, il doit renvoyer MAPI_E_NO_SUPPORT lorsque les applications clientes appellent l’une des méthodes ci-dessus avec l’indicateur MAPI_ASSOCIATED.
   
 ## <a name="see-also"></a>Voir aussi
 

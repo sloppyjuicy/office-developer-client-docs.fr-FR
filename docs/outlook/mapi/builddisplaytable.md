@@ -100,7 +100,7 @@ Aucun
   
 ## <a name="remarks"></a>Remarques
 
-MAPI utilise les fonctions pointées par  _lpAllocateBuffer_,  _lpAllocateMore_ et  _lpFreeBuffer_ pour la plupart de l’allocation et de la déallocation de la mémoire, en particulier pour allouer de la mémoire pour une utilisation par les applications clientes lors de l’appel d’interfaces d’objets telles que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). 
+MAPI utilise les fonctions pointées par  _lpAllocateBuffer_,  _lpAllocateMore_ et  _lpFreeBuffer_ pour la plupart de l’allocation et de la déallocation de mémoire, en particulier pour allouer de la mémoire pour une utilisation par les applications clientes lors de l’appel d’interfaces d’objets telles que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
@@ -112,6 +112,6 @@ Tout ce qui est possible est lu à partir de la ressource de boîte de dialogue,
     
  **BuildDisplayTable** overwres anything passed in the input control structures with information from the dialog resource, which means the caller of **BuildDisplayTable** cannot dynamically specify page or control titles. Les appelants qui doivent le faire peuvent avoir **BuildDisplayTable** renvoyer l’objet de données de table  _dans lppTableData_ et y modifier des lignes ; ou ils peuvent créer la table d’affichage à la place dans un objet de données de table. 
   
-Si  _lppTableData_ n’est pas définie sur NULL, le fournisseur est chargé de libérer l’objet de données de table lorsqu’il a terminé avec le tableau d’affichage. 
+Si  _lppTableData_ n’est pas définie sur NULL, le fournisseur est chargé de libérer l’objet de données de table lorsqu’il est terminé avec le tableau d’affichage. 
   
 

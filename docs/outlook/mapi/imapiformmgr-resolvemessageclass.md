@@ -36,7 +36,7 @@ HRESULT ResolveMessageClass(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _szMsgClass_
   
@@ -70,7 +70,7 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::ResolveMessageClass** pour résoudre une classe de message dans son formulaire dans un conteneur de formulaire. L’objet informations du formulaire renvoyé dans le  _paramètre ppResult_ fournit un accès supplémentaire aux propriétés du formulaire qui possède la classe de message donnée. 
+Les visionneuses de formulaire appellent la méthode **IMAPIFormMgr::ResolveMessageClass** pour résoudre une classe de message dans son formulaire dans un conteneur de formulaire. L’objet informations du formulaire renvoyé dans le  _paramètre ppResult_ fournit un accès supplémentaire aux propriétés du formulaire qui possède la classe de message donnée. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
@@ -80,7 +80,7 @@ L’ordre des conteneurs recherchés dépend de l’implémentation du fournisse
   
 Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
   
-L’identificateur de classe pour la classe de message résolue est renvoyé dans le cadre de l’objet d’informations du formulaire. Une visionneuse de formulaire ne doit pas fonctionner sur l’hypothèse que l’identificateur de classe existe dans la bibliothèque OLE tant que la visionneuse n’a pas appelé la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm.](imapiformmgr-createform.md) 
+L’identificateur de classe de la classe de message résolue est renvoyé dans le cadre de l’objet d’informations du formulaire. Une visionneuse de formulaire ne doit pas fonctionner sur l’hypothèse que l’identificateur de classe existe dans la bibliothèque OLE tant que la visionneuse n’a pas appelé la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm.](imapiformmgr-createform.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

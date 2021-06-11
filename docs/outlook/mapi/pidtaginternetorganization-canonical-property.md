@@ -25,7 +25,7 @@ ms.locfileid: "33430146"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Maillons vers l’en-tête de l’organisation MIME.
+Cartes’en-tête de l’organisation MIME.
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ Maillons vers l’en-tête de l’organisation MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

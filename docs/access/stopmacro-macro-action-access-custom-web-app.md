@@ -27,6 +27,6 @@ Vous pouvez utiliser l’action **ArrêterMacro** pour arrêter la macro en cour
   
 ## <a name="remarks"></a>Remarques
 
-Cette action est généralement utilisée lorsqu’une condition rend nécessaire l’arrêt de la macro. Par exemple, vous pouvez créer une macro d’interface utilisateur qui ouvre une vue affichant les totaux de la commande quotidienne pour la date entrée dans l’affichage actuel. Vous pouvez utiliser une expression conditionnelle pour vous assurer que le contrôle Date de commande de la boîte de dialogue contient une date valide. Si ce n’est pas le cas, l’action **MessageBox** peut afficher un message d’erreur et l’action **ArrêterMacro** peut arrêter la macro d’interface utilisateur. 
+Cette action est généralement utilisée lorsqu’une condition rend nécessaire l’arrêt de la macro. Par exemple, vous pouvez créer une macro d’interface utilisateur qui ouvre une vue affichant les totaux de commande quotidiens pour la date entrée dans l’affichage actuel. Vous pouvez utiliser une expression conditionnelle pour vous assurer que le contrôle Date de commande de la boîte de dialogue contient une date valide. Si ce n’est pas le cas, l’action **MessageBox** peut afficher un message d’erreur et l’action **ArrêterMacro** peut arrêter la macro d’interface utilisateur. 
   
 

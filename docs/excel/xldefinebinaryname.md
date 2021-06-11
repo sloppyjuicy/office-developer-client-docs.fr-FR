@@ -22,13 +22,13 @@ ms.locfileid: "33430251"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Utilisé pour allouer un stockage persistant pour **un xltypeBigData** **XLOPER** /  **XLOPER12**. Les données avec un nom binaire défini sont enregistrées avec le workbook et sont accessibles par nom à tout moment. Pour plus d’informations, voir « Limitation de l’étendue du nom binaire » dans [Problèmes connus dans le développement XLL Excel.](known-issues-in-excel-xll-development.md)
+Utilisé pour allouer un stockage persistant pour **un xltypeBigData** **XLOPER** /  **XLOPER12**. Les données avec un nom binaire défini sont enregistrées avec le workbook et sont accessibles par nom à tout moment. Pour plus d’informations, voir « Limite d’étendue du nom binaire » dans Problèmes connus [Excel développement XLL .](known-issues-in-excel-xll-development.md)
   
 ```cs
 Excel12(xlDefineBinaryName, 0, 2, LPXLOPER12 pxName, LPXLOPER12 pxData);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pxName_ (**xltypeStr**)
   
@@ -36,7 +36,7 @@ Chaîne spécifiant le nom des données. La chaîne est soumise aux mêmes restr
   
  _pxData_ (**xltypeBigData**)
   
-Structure bigdata spécifiant les données à stocker. Lorsque vous appelez cette fonction, le membre **lpbData** de la structure **bigdata** doit pointer vers les données pour lesquelles le nom est défini et le membre **cbData** doit contenir la longueur des données en octets. 
+Structure Bigdata spécifiant les données à stocker. Lorsque vous appelez cette fonction, le membre **lpbData** de la structure **bigdata** doit pointer vers les données pour lesquelles le nom est défini et le membre **cbData** doit contenir la longueur des données en octets. 
   
 Si  _l’argument pxData_ n’est pas spécifié (**xltypeMissing**), l’allocation nommée spécifiée par  _pxName_ est supprimée. 
   
@@ -49,5 +49,5 @@ Si  _l’argument pxData_ n’est pas spécifié (**xltypeMissing**), l’alloca
 
 [Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
-[Problèmes connus dans le développement XLL Excel](known-issues-in-excel-xll-development.md)
+[Problèmes connus dans le développement Excel XLL](known-issues-in-excel-xll-development.md)
 

@@ -32,7 +32,7 @@ Cette propriété contient TRUE si l’Assistant Profil doit supprimer la page d
 |Propriétés associées :  <br/> |PR_WIZARD_NO_PAB_PAGE  <br/> |
 |Identificateur :  <br/> |0x6701  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Administration Exchange  <br/> |
+|Domaine :  <br/> |Exchange Administrative  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

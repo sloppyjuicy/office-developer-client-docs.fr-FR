@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ea5cbf9f-25cc-9cca-9be0-d2deed576153
-description: Désinsère un client auprès du gestionnaire de comptes pour les notifications pour tous les comptes.
+description: Désinsère un client auprès du gestionnaire de comptes pour les notifications de tous les comptes.
 ms.openlocfilehash: 0b954413b06cb1aa1b6fc4e0e9666f108bf81fbe
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33430986"
 ---
 # <a name="iolkaccountmanagerunadvise"></a>IOlkAccountManager::Unadvise
 
-Désinsère un client auprès du gestionnaire de comptes pour les notifications pour tous les comptes. 
+Désinsère un client auprès du gestionnaire de comptes pour les notifications de tous les comptes. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -29,7 +29,7 @@ HRESULT Unadvise(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _dwCookie_
   

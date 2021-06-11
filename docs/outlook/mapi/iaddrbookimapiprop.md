@@ -48,11 +48,11 @@ Prend en charge l’accès au carnet d’adresses MAPI et inclut des opérations
 |[CreateOneOff](iaddrbook-createoneoff.md) <br/> |Crée un identificateur d’entrée pour une adresse unique.  <br/> |
 |[NewEntry](iaddrbook-newentry.md) <br/> |Ajoute un nouveau destinataire à un conteneur de carnet d’adresses ou à la liste des destinataires d’un message sortant.  <br/> |
 |[ResolveName](iaddrbook-resolvename.md) <br/> |Effectue la résolution de noms, en attribuant des identificateurs d’entrée aux destinataires d’une liste de destinataires.  <br/> |
-|[Address](iaddrbook-address.md) <br/> |Affiche la boîte de dialogue carnet d’adresses Outlook.  <br/> |
+|[Address](iaddrbook-address.md) <br/> |Affiche la boîte de dialogue Outlook carnet d’adresses.  <br/> |
 |[Détails](iaddrbook-details.md) <br/> |Affiche une boîte de dialogue qui affiche des détails sur une entrée de carnet d’adresses particulière.  <br/> |
 |**RecipOptions** <br/> | *Non pris en charge ou documenté.*  <br/> |
 |**QueryDefaultRecipOpt** <br/> | *Non pris en charge ou documenté.*  <br/> |
-|[GetPAB](iaddrbook-getpab.md) <br/> |Renvoie l’identificateur d’entrée du conteneur désigné comme carnet d’adresses personnel .  <br/> |
+|[GetPAB](iaddrbook-getpab.md) <br/> |Renvoie l’identificateur d’entrée du conteneur désigné comme carnet d’adresses personnel.  <br/> |
 |[SetPAB](iaddrbook-setpab.md) <br/> |Désigne un conteneur particulier en tant que carnet d’adresses personnel (PAB).  <br/> |
 |[GetDefaultDir](iaddrbook-getdefaultdir.md) <br/> |Renvoie l’identificateur d’entrée pour le conteneur de carnet d’adresses initial.  <br/> |
 |[SetDefaultDir](iaddrbook-setdefaultdir.md) <br/> |Établit le conteneur spécifié en tant que conteneur de carnet d’adresses par défaut initialement disponible.  <br/> |

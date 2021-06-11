@@ -40,7 +40,7 @@ BOOL FPropExists(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pobj_
   
@@ -62,6 +62,6 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-Si la balise de propriété dans le paramètre  _ulPropTag_ possède un type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l’identificateur de propriété. Sinon, la correspondance correspond à l’ensemble de la balise de propriété, y compris le type. 
+Si la balise de propriété dans le paramètre  _ulPropTag_ possède un type PT_UNSPECIFIED, la fonction **FPropExists** recherche une correspondance basée uniquement sur l’identificateur de propriété. Sinon, la correspondance est pour la balise de propriété entière, y compris le type. 
   
 

@@ -25,7 +25,7 @@ ms.locfileid: "33427345"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Libère les fonctions utilitaires appelées explicitement par la [fonction ScInitMapiUtil](scinitmapiutil.md) ou implicitement par la [fonction MAPIInitialize.](mapiinitialize.md) 
+Libère les fonctions utilitaires appelées explicitement par la [fonction ScInitMapiUtil](scinitmapiutil.md) ou implicitement par la fonction [MAPIInitialize.](mapiinitialize.md) 
   
 |||
 |:-----|:-----|

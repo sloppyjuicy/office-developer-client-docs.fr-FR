@@ -23,7 +23,7 @@ ms.locfileid: "33431028"
   
 Cette section inclut des sous-rubriques sur la façon d’implémenter certaines des fonctionnalités les plus rares ou difficiles dans une application cliente.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Écriture d’un client automatisé](writing-an-automated-client.md)
   

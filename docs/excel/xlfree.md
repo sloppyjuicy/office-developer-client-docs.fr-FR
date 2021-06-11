@@ -29,11 +29,11 @@ Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
 Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _px_1, ..., px_n_
   
-Une ou plusieurs **XLOPER** /  **XLOPER12** à libérer. Dans les versions d’Excel jusqu’en 2003, le nombre maximal de pointeurs qui peuvent être transmis est de 30. À compter d’Excel 2007, ce nombre est passé à 255.
+Une ou plusieurs **XLOPER** /  **XLOPER12** à libérer. Dans Excel versions jusqu’en 2003, le nombre maximal de pointeurs qui peuvent être transmis est de 30. À compter Excel 2007, ce nombre est passé à 255.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
@@ -41,13 +41,13 @@ Cette fonction ne retourne pas de valeur.
   
 ## <a name="remarks"></a>Remarques
 
-Vous devez libérer chaque **XLOPER** que vous obtenez en tant que valeur de retour à partir **d’Excel4** ou **Excel4v** et de chaque **XLOPER12** que vous obtenez en tant que valeur de retour d’Excel12 ou **Excel12v** s’ils sont de l’un des types suivants : **xltypeStr,** **xltypeMulti** ou **xltypeRef**.  Il est toujours sûr de libérer d’autres types même s’ils n’utilisent pas de mémoire auxiliaire, tant que vous les avez obtenus à partir **d’Excel4** ou **Excel12**.
+Vous devez libérer chaque **XLOPER** que vous obtenez en tant que valeur de retour à partir d’Excel4 ou **Excel4v** et de chaque **XLOPER12** que vous obtenez en tant que valeur de retour à partir d’Excel12 ou **Excel12v** s’ils sont de l’un des types suivants : **xltypeStr**, **xltypeMulti** ou **xltypeRef**.   Il est toujours sûr de libérer d’autres types même s’ils n’utilisent pas de mémoire auxiliaire, tant que vous les avez obtenus à partir **d’Excel4** ou **Excel12**.
   
-Lorsque vous retournez à Excel un pointeur vers une /  **XLOPER XLOPER12** qui contient encore la mémoire allouée par Excel à libérer, vous devez définir **xlbitXLFree** pour vous assurer qu’Excel libère la mémoire. 
+Lorsque vous revenir à Excel pointeur vers une **XLOPER** XLOPER12 qui contient encore une mémoire allouée Excel à libérer, vous devez définir /   **xlbitXLFree** pour vous assurer que Excel libère la mémoire. 
   
 ## <a name="example"></a>Exemple
 
-Cet exemple appelle **GET. WORKSPACE(1)** pour renvoyer la plateforme sur laquelle Excel est actuellement en cours d’exécution sous forme de chaîne. Le code copie cette chaîne renvoyée dans une mémoire tampon pour une utilisation ultérieure. Le code place la mémoire tampon dans **xlOPER12** pour une utilisation ultérieure avec la fonction Excel. Enfin, le code affiche la chaîne dans une zone d’alerte. 
+Cet exemple appelle **GET. WORKSPACE(1)** pour renvoyer la plateforme sur laquelle Excel est en cours d’exécution sous forme de chaîne. Le code copie cette chaîne renvoyée dans une mémoire tampon pour une utilisation ultérieure. Le code place la mémoire tampon dans **xlOPER12** pour une utilisation ultérieure avec Excel fonction. Enfin, le code affiche la chaîne dans une zone d’alerte. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

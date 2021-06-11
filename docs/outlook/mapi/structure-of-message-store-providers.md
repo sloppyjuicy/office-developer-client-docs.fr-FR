@@ -23,7 +23,7 @@ Un fournisseur de magasin de messages, lorsqu’il est en cours d’exécution e
   
 Étant donné que les interfaces **IMSLogon** et **IMsgStore** partagent certaines méthodes, il peut être plus facile de créer un objet de classe qui hérite de ces deux interfaces. Vous pouvez également implémenter ces interfaces dans des objets distincts et écrire des fonctions d’aide internes à votre DLL qui implémentent les méthodes partagées qui peuvent ensuite être appelées à partir des méthodes des interfaces **IMSLogon** et **IMsgStore.** 
   
-L’illustration suivante montre un plan de haut niveau de la hiérarchie d’objets au sein d’une magasin de messages en cours d’exécution.
+L’illustration suivante montre un plan de haut niveau de la hiérarchie d’objets dans une magasin de messages en cours d’exécution.
   
 **Hiérarchie d’objets de banque de messages**
   

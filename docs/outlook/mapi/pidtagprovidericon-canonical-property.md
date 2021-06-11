@@ -38,11 +38,11 @@ Contient une chaîne Unicode qui spécifie une ou plusieurs icônes personnalis�
 
 Ces propriétés spécifient le fichier de ressources qui contient une icône personnalisée qui représente un fournisseur MAPI dans un état en ligne, et éventuellement une autre icône personnalisée en mode hors connexion. Outlook demande toujours ces propriétés dans la représentation Unicode. 
   
-Par exemple, la valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir du module mymod32.dll et d’utiliser cette icône pour l’état en ligne  `mymod32.dll,#1001` : Étant donné qu’il n’existe aucune icône spécifique au fournisseur pour l’état hors connexion, dans ce cas, l’icône Outlook hors connexion standard est utilisée dans la barre d’état. 
+Par exemple, la valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir de la mymod32.dll de module et d’utiliser cette icône pour l’état en ligne `mymod32.dll,#1001` : Étant donné qu’il n’existe aucune icône spécifique au fournisseur pour l’état hors connexion, dans ce cas, l’icône Outlook hors connexion standard est utilisée dans la barre d’état. 
   
-La valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir du module mymod32.dll et d’utiliser cette icône pour l’état en ligne, ainsi que de charger l’ID d’icône 1002 à partir de ce même module à utiliser pour l’état hors connexion : `mymod32.dll,#1001,#1002` Aucune icône Outlook n’est utilisée dans la barre d’état. 
+La valeur de propriété suivante indique à Outlook de charger l’ID d’icône 1001 à partir de l'mymod32.dll de module et d’utiliser cette icône pour l’état en ligne, ainsi que de charger l’ID d’icône 1002 à partir de ce même module à utiliser pour l’état hors connexion : `mymod32.dll,#1001,#1002` Aucune Outlook’icône n’est utilisée dans la barre d’état. 
   
-Par défaut, si aucune icône personnalisée n’est spécifiée, le fournisseur est représenté par les icônes Par défaut d’Outlook pour l’état en ligne et l’état hors connexion. Le fournisseur peut éventuellement spécifier un nom d’affichage à afficher en adjacent à l’icône dans la barre d’état. Pour plus d’informations, **PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
+Par défaut, si aucune icône personnalisée n’est spécifiée, le fournisseur est représenté par les Outlook par défaut pour l’état en ligne et l’état hors connexion. Le fournisseur peut éventuellement spécifier un nom d’affichage à afficher en adjacent à l’icône dans la barre d’état. Pour plus d’informations, **PR_PROVIDER_DISPLAY_NAME_W** ([PidTagProviderDisplayName](pidtagproviderdisplayname-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

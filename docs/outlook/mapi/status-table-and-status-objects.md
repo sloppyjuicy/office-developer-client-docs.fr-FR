@@ -1,5 +1,5 @@
 ---
-title: Table d’état et objets d’état
+title: Tableau d’état et objets d’état
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425175"
 ---
-# <a name="status-table-and-status-objects"></a>Table d’état et objets d’état
+# <a name="status-table-and-status-objects"></a>Tableau d’état et objets d’état
 
   
   
@@ -47,7 +47,7 @@ Il existe deux façons d’accéder à un objet d’état :
     
 6. Appelez [IMAPISession::OpenEntry](imapisession-openentry.md), en spécifiant l’identificateur d’entrée à partir de la ligne de table d’état, pour ouvrir l’objet d’état et récupérer un pointeur **IMAPIStatus.** 
     
-Pour afficher une feuille de propriétés, appelez la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) de l’objet d’état pour le fournisseur cible. **SettingsDialog affiche une** feuille de propriétés pour l’affichage et, dans certains cas, la modification des propriétés de configuration d’un fournisseur. 
+Pour afficher une feuille de propriétés, appelez la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) de l’objet d’état pour le fournisseur cible. **SettingsDialog affiche** une feuille de propriétés pour l’affichage et, dans certains cas, la modification des propriétés de configuration d’un fournisseur. 
   
 Pour communiquer avec un fournisseur de transport, appelez la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) de son objet d’état. **ValidateState** peut reconfigurer un fournisseur de transport, l’empêcher d’afficher une interface utilisateur et contrôler une session qui implique le téléchargement d’en-têtes de message à partir d’un serveur distant, en fonction des indicateurs que vous passez. Par exemple, pour annuler le téléchargement des en-têtes distants, passez l’ABORT_XP_HEADER_OPERATION à **ValidateState**. Pour vous connecter ou vous déconnecter du serveur distant, FORCE_XP_CONNECT ou FORCE_XP_DISCONNECT. Pour reconfigurer le fournisseur, passez CONFIG_CHANGED. 
   

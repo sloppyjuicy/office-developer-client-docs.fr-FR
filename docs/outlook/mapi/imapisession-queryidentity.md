@@ -34,7 +34,7 @@ HRESULT QueryIdentity(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpcbEntryID_
   
@@ -84,7 +84,7 @@ Lorsque vous avez terminé d’utiliser l’identificateur d’entrée pour l’
   
 Pour plus d’informations sur l’identité en général, voir [MAPI Primary Identity](mapi-primary-identity.md). 
   
-Pour plus d’informations sur la récupération de l’identité de session MAPI, voir Récupérer l’identité principale [et l’identité du fournisseur.](retrieving-primary-and-provider-identity.md) 
+Pour plus d’informations sur la récupération de l’identité de session MAPI, voir Récupération de l’identité principale [et de l’identité du fournisseur.](retrieving-primary-and-provider-identity.md) 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -115,5 +115,5 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md)
   
-[Table d’état et objets d’état](status-table-and-status-objects.md)
+[Tableau d’état et objets d’état](status-table-and-status-objects.md)
 

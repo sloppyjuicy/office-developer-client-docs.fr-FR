@@ -23,8 +23,8 @@ Détermine la direction des déviations de trait pour les connecteurs dynamiques
 |**Valeur**|**Direction du saut de ligne**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Par défaut ; à gauche ou paramètres de la page pour les formes  <br/> |**visLOJumpDirXDefault** <br/> |
-| 1   <br/> | Up  <br/> |**visLOJumpDirXUp** <br/> |
-| 2   <br/> | Down  <br/> |**visLOJumpDirXDown** <br/> |
+| 1  <br/> | Up  <br/> |**visLOJumpDirXUp** <br/> |
+| 2  <br/> | Down  <br/> |**visLOJumpDirXDown** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

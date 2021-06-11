@@ -16,7 +16,7 @@ ms.locfileid: "33424286"
 ---
 # <a name="less-than-access-custom-web-app"></a>Less Than (Application web personnalisée Access)
 
-Compare deux expressions. Lorsque vous comparez des expressions non null, le résultat est TRUE si l’opérande gauche a une valeur inférieure à l’opérande droit ; Sinon, le résultat est FALSE.
+Compare deux expressions. Lorsque vous comparez des expressions non null, le résultat est TRUE si la valeur de l’opérande gauche est inférieure à celle de l’opérande droit . Sinon, le résultat est FALSE.
   
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 

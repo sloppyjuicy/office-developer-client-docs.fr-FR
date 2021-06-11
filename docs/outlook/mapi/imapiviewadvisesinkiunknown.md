@@ -40,7 +40,7 @@ Reçoit des notifications à partir de formulaires.
 
 |||
 |:-----|:-----|
-|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Avertit la visionneuse de formulaire qu’un formulaire est en cours de fermeture.  <br/> |
+|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Avertit la visionneuse de formulaires qu’un formulaire est en cours de fermeture.  <br/> |
 |[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Avertit la visionneuse de formulaire qu’un nouveau message ou un message existant a été chargé dans un formulaire.  <br/> |
 |[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Avertit la visionneuse de formulaires de l’état d’impression d’un formulaire.  <br/> |
 |[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Avertit la visionneuse de formulaire que le message actuel a été envoyé aupooler MAPI.  <br/> |

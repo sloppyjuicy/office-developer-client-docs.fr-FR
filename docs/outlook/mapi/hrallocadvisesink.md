@@ -41,7 +41,7 @@ STDAPI HrAllocAdviseSink(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpfnCallback_
   

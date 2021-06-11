@@ -34,7 +34,7 @@ Renvoie une balise de propriété créée en combinant un type de propriété et
 PROP_TAG (ulPropType, ulPropID)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ulPropType_
   

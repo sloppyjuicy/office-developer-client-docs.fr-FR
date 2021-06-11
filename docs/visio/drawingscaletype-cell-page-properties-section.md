@@ -23,9 +23,9 @@ Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue **Mi
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Pas d'échelle  <br/> |**visNoScale** <br/> |
-| 1   <br/> | Échelle architecturale  <br/> |**visArchitectural** <br/> |
-| 2   <br/> | Échelle Génie civil  <br/> |**visEngineering** <br/> |
-| 3   <br/> | Échelle personnalisée  <br/> |**visScaleCustom** <br/> |
+| 1  <br/> | Échelle architecturale  <br/> |**visArchitectural** <br/> |
+| 2  <br/> | Échelle Génie civil  <br/> |**visEngineering** <br/> |
+| 3  <br/> | Échelle personnalisée  <br/> |**visScaleCustom** <br/> |
 | 4   <br/> | Métrique  <br/> |**visScaleMetric** <br/> |
 | 5   <br/> | Échelle Génie mécanique  <br/> |**visScaleMechanical** <br/> |
    

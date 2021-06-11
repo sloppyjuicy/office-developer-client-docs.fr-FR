@@ -44,7 +44,7 @@ HRESULT HrAddColumnsEx(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lptbl_
   
@@ -88,7 +88,7 @@ La fonction **HrAddColumnsEx** permet à l’appelant de fournir une fonction de
   
  **HrAddColumnsEx** appelle d’abord la fonction de rappel s’il en existe une, ajoute ou déplace les colonnes spécifiées, puis appelle [IMAPITable::SetColumns](imapitable-setcolumns.md). 
   
-Les paramètres d’entrée _lpAllocateBuffer_ et _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIFreeBuffer.](mapifreebuffer.md) Les valeurs exactes des pointeurs transmis à **HrAddColumnsEx** varient selon que l’appelant est une application cliente ou un fournisseur de services. Un client transmet les pointeurs vers les fonctions MAPI avec les noms spécifiés. Un fournisseur de services transmet les pointeurs qu’il a reçus dans son appel d’initialisation ou récupérés en appelant la méthode [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
+Les paramètres d’entrée _lpAllocateBuffer_ et _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIFreeBuffer.](mapifreebuffer.md) Les valeurs exactes des pointeurs transmis à **HrAddColumnsEx** varient selon que l’appelant est une application cliente ou un fournisseur de services. Un client transmet des pointeurs vers les fonctions MAPI avec les noms spécifiés. Un fournisseur de services transmet les pointeurs qu’il a reçus dans son appel d’initialisation ou récupérés en appelant la méthode [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

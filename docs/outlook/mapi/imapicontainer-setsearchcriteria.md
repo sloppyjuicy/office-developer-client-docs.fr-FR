@@ -35,7 +35,7 @@ HRESULT SetSearchCriteria(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpRestriction_
   
@@ -59,7 +59,7 @@ FOREGROUND_SEARCH
     
 NON_CONTENT_INDEXED_SEARCH
   
-> La recherche ne doit pas utiliser l’indexation de contenu pour rechercher des entrées correspondantes. Cet indicateur n’est valide que pour les magasins Exchange.
+> La recherche ne doit pas utiliser l’indexation de contenu pour rechercher des entrées correspondantes. Cet indicateur n’est valide que pour Exchange magasins.
     
 RECURSIVE_SEARCH 
   
@@ -71,7 +71,7 @@ RESTART_SEARCH
     
 SHALLOW_SEARCH 
   
-> La recherche doit uniquement rechercher les entrées correspondantes dans les conteneurs spécifiés dans le _paramètre lpContainerList._ Cet indicateur ne peut pas être définie en même temps que l’RECURSIVE_SEARCH’indicateur. 
+> La recherche doit uniquement rechercher des entrées correspondantes dans les conteneurs spécifiés dans le _paramètre lpContainerList._ Cet indicateur ne peut pas être définie en même temps que l’RECURSIVE_SEARCH’indicateur. 
     
 STOP_SEARCH 
   
@@ -111,7 +111,7 @@ La définition FOREGROUND_SEARCH’indicateur dans le  _paramètre ulSearchFlags
   
 Vous pouvez utiliser **SetSearchCriteria** pour modifier les critères de recherche d’une recherche déjà en cours. Vous pouvez spécifier de nouvelles restrictions, de nouvelles listes de dossiers à rechercher et une nouvelle priorité de recherche, telle que la mise à niveau d’une recherche vers une priorité plus élevée. Les modifications apportées à la priorité de recherche n’entraînent pas le redémarrage d’une recherche existante, mais d’autres modifications apportées aux critères de recherche le peuvent. 
   
-Lorsque vous utilisez un dossier de résultats de recherche, vous pouvez supprimer le dossier ou le laisser ouvert pour une utilisation ultérieure. Si vous supprimez le dossier de résultats de recherche, seuls les liens de messages sont supprimés. Les messages réels restent dans leurs dossiers parents. 
+Lorsque vous utilisez un dossier de résultats de recherche, vous pouvez supprimer le dossier ou le laisser ouvert pour une utilisation ultérieure. Si vous supprimez le dossier de résultats de recherche, seuls les liens de message sont supprimés. Les messages réels restent dans leurs dossiers parents. 
   
 Pour plus d’informations sur les dossiers de résultats de recherche, voir [Dossiers de recherche MAPI.](mapi-search-folders.md) 
   

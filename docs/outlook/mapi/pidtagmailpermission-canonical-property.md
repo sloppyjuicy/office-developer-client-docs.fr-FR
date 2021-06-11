@@ -38,7 +38,7 @@ Contient TRUE si l’utilisateur de messagerie est autorisé à envoyer et recev
 
 Si cette propriété n’est pas définie, MAPI la traite comme ayant une valeur TRUE. 
   
-Définissez cette propriété sur FALSE dans un annuaire d’entreprise où certaines entrées ne sont pas activées pour la messagerie. 
+Définissez cette propriété sur FALSE dans un annuaire d’entreprise où certaines entrées ne sont pas à messagerie. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -19,7 +19,7 @@ ms.locfileid: "33426330"
 
 Empêche l’application d’effets de thème à la forme. 
   
-Correspond au paramètre De la case à **cocher Effets** de thème dans la **boîte de dialogue Protection.** 
+Correspond au paramètre De la case à **cocher Effets** du thème dans la **boîte de dialogue Protection.** 
   
 Pour faire référence à la cellule LockThemeEffects par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

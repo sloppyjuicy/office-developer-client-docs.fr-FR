@@ -22,9 +22,9 @@ ms.locfileid: "33431672"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonctions de bibliothèque d’infrastructure. **Excel** est un wrapper pour la [fonction Excel4.](excel4-excel12.md) **Excel12f est** un wrapper pour la [fonction Excel12.](excel4-excel12.md) Chaque vérification vérifie qu’aucun des arguments n’est nul, ce qui indique que la création d’une **XLOPER** ou **d’une XLOPER12** temporaire a échoué. Si une erreur se produit, chacun imprime un message de débogage. Lorsque vous avez terminé, chacune libère toute la mémoire temporaire qui a peut-être été créée pour les **xlOPER** et **XLOPER12** temporaires.
+Fonctions de bibliothèque d’infrastructure. **Excel** est un wrapper pour la [fonction Excel4.](excel4-excel12.md) **Excel12f est** un wrapper pour la [fonction Excel12.](excel4-excel12.md) Chaque vérification vérifie qu’aucun des arguments n’est nul, ce qui indique que la création d’une XLOPER ou **XLOPER12** temporaire a échoué.  Si une erreur se produit, chacun imprime un message de débogage. Lorsque vous avez terminé, chacune libère toute la mémoire temporaire qui a peut-être été créée pour les **xlOPER** et **XLOPER12** temporaires.
   
- **Excel12f ne** peut être appelé qu’à partir d’une DLL commençant par la bibliothèque d’API C d’Excel 2007. En outre, il fonctionne uniquement lors de l’exécution à partir d’Excel 2007 et échoue avec **xlretFailed dans le** cas contraire. 
+ **Excel12f ne** peut être appelé qu’à partir d’une DLL à partir de la bibliothèque Excel API C 2007. En outre, il fonctionne uniquement lorsque l’exécution commence Excel 2007 et échoue avec **xlretFailed dans le** cas contraire. 
   
 ```cs
 int Excel(int iFunction, LPXLOPER pxRes, int iCount, 
@@ -33,7 +33,7 @@ int Excel12f(int iFunction, LPXLOPER12 pxRes, int iCount,
 LPXLOPER12 argument1, ...);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _iFunction_ (**int**)
   
@@ -41,15 +41,15 @@ Numéro indiquant la commande ou la fonction que vous souhaitez appeler. Pour pl
   
  _pxRes_
   
-Pointeur vers le résultat de la fonction évaluée. Toute mémoire pointée vers le résultat a été allouée par Excel et doit être libérée dans un appel à [xlFree](xlfree.md) une fois qu’elle n’est plus nécessaire, ou en paramètre **xlbitXLFree** en cas de renvoi vers Excel. 
+Pointeur vers le résultat de la fonction évaluée. Toute mémoire pointée vers le résultat a été allouée par Excel et doit être libérée dans un appel à [xlFree](xlfree.md) une fois qu’elle n’est plus nécessaire, ou en libérant **xlbitXLFree** si elle est Excel. 
   
  _iCount_ (**int**)
   
-Nombre d’arguments qui seront transmis à la fonction. À compter d’Excel 2007, la limite est de 255 arguments. Dans les versions antérieures, la limite est de 30.
+Nombre d’arguments qui seront transmis à la fonction. À compter Excel 2007, la limite est de 255 arguments. Dans les versions antérieures, la limite est de 30.
   
  _argument1, ..._
   
-Arguments facultatifs de la fonction. Tous les arguments doivent être des pointeurs vers **xlOPER** s dans le cas **d’Excel**, ou **XLOPER12** s dans le cas **d’Excel12f**.
+Arguments facultatifs de la fonction. Tous les arguments doivent être des pointeurs vers **xlOPER** s dans le cas de **Excel** ou **XLOPER12** s dans le cas **d’Excel12f**.
   
 ## <a name="return-value"></a>Valeur renvoyée
 

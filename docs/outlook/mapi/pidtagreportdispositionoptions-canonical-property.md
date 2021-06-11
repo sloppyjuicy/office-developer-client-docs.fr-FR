@@ -23,7 +23,7 @@ ms.locfileid: "33430615"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Maillons vers l’en-Disposition-Options mime pour les messages qui demandent des reçus. La valeur de cette propriété doit être une chaîne vide.
+Cartes à l’en-tête Disposition-Options MIME pour les messages qui demandent des reçus. La valeur de cette propriété doit être une chaîne vide.
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Maillons vers l’en-Disposition-Options mime pour les messages qui demandent de
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

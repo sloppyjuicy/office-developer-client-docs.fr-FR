@@ -1,5 +1,5 @@
 ---
-title: Codes d’erreur du fournisseur Outlook Social Connector
+title: Outlook Codes d’erreur du fournisseur Social Connector
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,11 +15,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425350"
 ---
-# <a name="outlook-social-connector-provider-error-codes"></a>Codes d’erreur du fournisseur Outlook Social Connector
+# <a name="outlook-social-connector-provider-error-codes"></a>Outlook Codes d’erreur du fournisseur Social Connector
 
 Les fournisseurs doivent renvoyer des erreurs à l’appelant à l’aide de l’un des codes d’erreur indiqués dans le tableau suivant. 
   
-|**Error**|**Code d’erreur (hexadécimal)**|**Description**|
+|**Erreur**|**Code d’erreur (hexadécimal)**|**Description**|
 |:-----|:-----|:-----|
 |OSC_E_AUTH_ERROR  <br/> |0x80041404  <br/> |Échec de l’authentification sur le réseau du site de réseau social.  <br/> |
 |OSC_E_COULDNOTCONNECT  <br/> |0x80041402  <br/> |Aucune connexion n’est disponible pour se connecter au site de réseau social.  <br/> |

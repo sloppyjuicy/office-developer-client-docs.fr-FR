@@ -27,7 +27,7 @@ Masque le texte d'une forme. Vous pouvez visualiser le texte, modifier ses propr
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule HideText par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
+Pour obtenir une référence à la cellule HideText par un nom à partir d’une autre formule ou d’un programme en faisant appel à la **propriété CellsU,** utilisez : 
   
 |||
 |:-----|:-----|

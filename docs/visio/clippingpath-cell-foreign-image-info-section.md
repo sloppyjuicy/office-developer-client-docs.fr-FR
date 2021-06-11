@@ -23,7 +23,7 @@ Contient une référence à la géométrie du chemin d’accès d’une image.
 Si la **cellule ClippingPath** pointe vers un chemin d’accès valide, l’image est découpée de sorte que l’image soit restituer à l’intérieur du chemin d’accès. Si la **cellule ClippingPath** est vide ou contient une entrée non valide, l’image est rendue avec un clip rectangulaire, à l’aide des valeurs d’échelle et de décalage. 
   
 > [!NOTE]
-> Seuls les chemins définis par une section [Geometry](geometry-section.md) dans la feuille ShapeSheet de l’image sont des entrées valides pour la **cellule ClippingPath.** Les références de feuille croisée ne peuvent pas être utilisées pour définir un chemin de découpage d’image. 
+> Seuls les chemins définis par une section [Geometry](geometry-section.md) dans la feuille ShapeSheet de l’image sont des entrées valides pour **la cellule ClippingPath.** Les références de feuille croisée ne peuvent pas être utilisées pour définir un chemin de découpage d’image. 
   
 Pour obtenir une référence à la cellule **ClippingPath** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
   

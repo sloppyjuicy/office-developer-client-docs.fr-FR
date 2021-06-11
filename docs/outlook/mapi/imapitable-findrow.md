@@ -35,7 +35,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpRestriction_
   
@@ -43,11 +43,11 @@ ULONG ulFlags
     
  _BkOrigin_
   
-> [in] Signet identifiant la ligne dans laquelle **FindRow** doit commencer sa recherche. Un signet peut être créé à l’aide de la méthode [IMAPITable::CreateBookmark,](imapitable-createbookmark.md) ou l’une des valeurs prédéfinës suivantes peut être passée. 
+> [in] Signet identifiant la ligne où **FindRow** doit commencer sa recherche. Un signet peut être créé à l’aide de la méthode [IMAPITable::CreateBookmark,](imapitable-createbookmark.md) ou l’une des valeurs prédéfinës suivantes peut être passée. 
     
 BOOKMARK_BEGINNING 
   
-> Recherche depuis le début du tableau. 
+> Recherche à partir du début du tableau. 
     
 BOOKMARK_CURRENT 
   
@@ -101,7 +101,7 @@ Le type de recherche de préfixe effectué par **FindRow** est utile uniquement 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser **FindRow** pour prendre en charge le défilement en fonction des chaînes tapées par l’utilisateur, en particulier dans les zones de liste dans les boîtes de dialogue d’adresse. Dans ce type de défilement, les utilisateurs entrent progressivement des préfixes plus longs d’une valeur de chaîne souhaitée et vous pouvez régulièrement émettre un appel **FindRow** pour accéder à la première ligne qui correspond au préfixe. La direction dans laquelle le curseur passe dépend de la direction dans laquelle la recherche est définie pour s’exécuter. 
+Vous pouvez utiliser **FindRow** pour prendre en charge le défilement en fonction des chaînes tapées par l’utilisateur, en particulier dans les zones de liste dans les boîtes de dialogue d’adresse. Dans ce type de défilement, les utilisateurs entrent progressivement des préfixes plus longs d’une valeur de chaîne souhaitée, et vous pouvez régulièrement émettre un appel **FindRow** pour accéder à la première ligne qui correspond au préfixe. La direction dans laquelle le curseur passe dépend de la direction dans laquelle la recherche est définie pour s’exécuter. 
   
 Pour utiliser **FindRow,** un signet doit être définie. La recherche de chaîne peut provenir de n’importe quel signet, y compris des signets prédéfins indiquant la position actuelle et le début et la fin du tableau. Si le tableau compte un grand nombre de lignes, l’opération de recherche peut être lente.
   

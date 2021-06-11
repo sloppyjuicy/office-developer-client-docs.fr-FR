@@ -33,7 +33,7 @@ ULONG_PTR ulConnection
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **IMAPITable::Unadvise** pour libérer le pointeur vers l’objet de réception de notification transmis dans le paramètre  _lpAdviseSink_ dans l’appel précédent à **IMAPITable::Advise,** ce qui annule l’inscription d’une notification. Dans le cadre de l’ignorer, la méthode **IUnknown::Release** de l’objet est appelée. En règle générale, **Release** est appelé pendant l’appel **Unadvise,** mais si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour le sink de conseil, l’appel **de** publication est retardé jusqu’à ce que la méthode **OnNotify** renvoie. 
+Utilisez la méthode **IMAPITable::Unadvise** pour libérer le pointeur vers l’objet de réception de notification transmis dans le paramètre  _lpAdviseSink_ dans l’appel précédent à **IMAPITable::Advise,** ce qui annule l’inscription d’une notification. Dans le cadre de l’ignorer, la méthode **IUnknown::Release** de l’objet est appelée. En règle générale, **Release** est appelé pendant l’appel **Unadvise,** mais si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour le sink advise, l’appel **de** publication est différé jusqu’à ce que la méthode **OnNotify** soit de retour. 
   
 Pour plus d’informations sur le processus de notification, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). Pour plus d’informations sur les notifications de tableau, voir [À propos des notifications de tableau.](about-table-notifications.md) Pour plus d’informations sur l’utilisation des méthodes **IMAPISupport** pour prendre en charge la notification, voir [Notification d’événement de prise en charge.](supporting-event-notification.md)
   

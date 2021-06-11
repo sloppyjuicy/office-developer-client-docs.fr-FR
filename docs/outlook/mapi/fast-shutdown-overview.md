@@ -21,13 +21,13 @@ ms.locfileid: "33427205"
   
 L’arrêt rapide est un mécanisme permettant à un client MAPI de lancer un arrêt rapide du processus client, en notifiant à tous les fournisseurs avec lesquels le client dispose d’une session MAPI active d’enregistrer les données et les paramètres avant la fin du processus client. Cette rubrique décrit le mécanisme de base de l’arrêt rapide. 
 
-À compter de Microsoft Outlook 2010 et maintenant, y compris Microsoft Outlook 2013, le sous-système MAPI fournit l’interface [IMAPIClientShutdown : IUnknown.](imapiclientshutdowniunknown.md) Outlook et d’autres clients MAPI peuvent adopter l’arrêt rapide comme mécanisme par défaut pour quitter le processus client. Un paramètre de niveau utilisateur dans le Registre Windows de l’ordinateur client contrôle l’adoption de l’arrêt rapide pour tous les clients MAPI pour cet utilisateur sur cet ordinateur. Pour plus d’informations sur les paramètres du Registre, voir Options utilisateur d’arrêt [rapide.](fast-shutdown-user-options.md)
+À compter Microsoft Outlook 2010 et maintenant Microsoft Outlook 2013, le sous-système MAPI fournit l’interface [IMAPIClientShutdown : IUnknown.](imapiclientshutdowniunknown.md) Outlook clients MAPI peuvent adopter l’arrêt rapide comme mécanisme par défaut pour quitter le processus client. Un paramètre de niveau utilisateur dans le Registre Windows de l’ordinateur client contrôle l’adoption de l’arrêt rapide pour tous les clients MAPI pour cet utilisateur sur cet ordinateur. Pour plus d’informations sur les paramètres du Registre, voir Options utilisateur d’arrêt [rapide.](fast-shutdown-user-options.md)
   
 Si un client MAPI doit adopter un arrêt rapide, il doit utiliser l’interface **IMAPIClientShutdown : IUnknown.** Voici le cours d’événements classique lorsque le client tente de s’arrêter : 
   
 1. Le client MAPI lance l’arrêt en appelant la méthode [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) pour déterminer si le sous-système MAPI prend en charge l’arrêt rapide. 
     
-2. Le sous-système MAPI répond avec la prise en charge de l’arrêt rapide disponible pour l’appel **IMAPIClientShutdown::QueryFastShutdown** du client à l’aide de la procédure suivante : 
+2. Le sous-système MAPI répond avec la prise en charge de l’arrêt rapide disponible à l’appel **IMAPIClientShutdown::QueryFastShutdown** du client à l’aide de la procédure suivante : 
     
     1. Le sous-système MAPI appelle la méthode [IMAPIProviderShutdown::QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) pour chaque fournisseur MAPI avec lequel le processus client MAPI possède une session MAPI active, si le fournisseur a implémenté l’interface [IMAPIProviderShutdown : IUnknown.](imapiprovidershutdowniunknown.md) 
         

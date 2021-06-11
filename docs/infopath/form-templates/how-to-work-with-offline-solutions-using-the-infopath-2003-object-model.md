@@ -35,7 +35,7 @@ Cet exemple part du principe que vous avez créé un formulaire de rapports de v
     
 4. Dans l' **Assistant Connexion de données**, cliquez sur **Envoi des données**, puis sur **Suivant**.
     
-5. Sur la page suivante de l’Assistant, cliquez **sur En tant que message électronique,** puis sur **Suivant**.
+5. Sur la page suivante de l’Assistant, cliquez sur En tant **que message électronique,** puis sur **Suivant**.
     
 6. Sur la page suivante de l’Assistant, tapez votre adresse de messagerie dans la **zone À.** 
     

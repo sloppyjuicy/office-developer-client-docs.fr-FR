@@ -23,7 +23,7 @@ ms.locfileid: "33424349"
   
 Le tableau de profils répertorie les informations sur tous les profils associés à une application cliente particulière. Il existe une table de profil pour chaque session, implémentée par MAPI pour une utilisation par les clients. 
   
-Les clients accèdent à la table de profil en appelant la [méthode IProfAdmin::GetProfileTable.](iprofadmin-getprofiletable.md) 
+Les clients accèdent à la table de profil en appelant la méthode [IProfAdmin::GetProfileTable.](iprofadmin-getprofiletable.md) 
   
 La table de profil est une table statique. Les profils qui ont été marqués pour suppression ne sont pas inclus dans la table de profils.
   

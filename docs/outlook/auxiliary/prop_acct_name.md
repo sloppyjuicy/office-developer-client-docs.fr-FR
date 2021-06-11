@@ -31,7 +31,7 @@ Voir [IOlkAccount](iolkaccount.md).
    
 ## <a name="remarks"></a>Remarques
 
-Obtenez ou définissez cette propriété à l’aide de [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivement.
+Obtenez ou définissez cette propriété à l’aide [d’IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivement.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -31,9 +31,9 @@ Voir [IOlkAccount](iolkaccount.md).
    
 ## <a name="remarks"></a>Remarques
 
-Obtenez ou définissez cette propriété à l’aide de [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivement.
+Obtenez ou définissez cette propriété à l’aide [d’IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivement.
   
-Le dossier de remise par défaut est **Boîte de réception**.
+Le dossier de remise par défaut est **Boîte de réception.**
   
 ## <a name="see-also"></a>Voir aussi
 

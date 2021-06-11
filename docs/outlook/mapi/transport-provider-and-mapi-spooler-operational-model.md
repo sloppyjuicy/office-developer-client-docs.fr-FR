@@ -35,7 +35,7 @@ L’initialisation, le démarrage, le traitement, l’arrêt et la désinitialis
     
 6. Si le fournisseur de transport le demande dans son retour pour l’appel **TransportLogon,** lepooler MAPI appelle régulièrement la méthode [IXPLogon::Idle.](ixplogon-idle.md) Le traitement inactif est utile si le fournisseur de transport doit sondé le système de messagerie sous-jacent à la recherche de nouveaux messages ou effectuer d’autres tâches de faible priorité. 
     
-7. Lepooler MAPI et le fournisseur de transport envoient et reçoivent des messages. Pour plus d’informations, [voir modèle de dépôt de message](message-submission-model.md) et modèle de réception de [message.](message-reception-model.md) Lepooler MAPI traite les demandes de transport et les appels sur les objets de support, de message et de pièce jointe.
+7. Le fournisseur de transport et lepooler MAPI envoient et reçoivent des messages. Pour plus d’informations, [voir modèle de dépôt de message](message-submission-model.md) et modèle de réception de [message.](message-reception-model.md) Lepooler MAPI traite les demandes de transport et les appels sur les objets de support, de message et de pièce jointe.
     
 8. Lepooler MAPI appelle la **méthode TransportNotify** pour désactiver la transmission et la réception des messages. 
     

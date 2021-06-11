@@ -1,5 +1,5 @@
 ---
-title: Types de tables
+title: Types de tableaux
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426463"
 ---
-# <a name="types-of-tables"></a>Types de tables
+# <a name="types-of-tables"></a>Types de tableaux
 
   
   
@@ -25,9 +25,9 @@ Il existe de nombreux types de tableaux différents, chaque type se différencie
   
 Certaines tables, telles que les tables des matières, offrent un autre moyen d’accéder aux propriétés. Par exemple, un client peut récupérer l’objet d’un message ( sa propriété **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) directement à partir du message en appelant sa méthode [IMAPIProp::GetProps](imapiprop-getprops.md) ou via la table des matières du message. D’autres tables offrent le seul moyen d’accéder aux propriétés de l’objet. Par exemple, un client ne peut pas accéder à la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) d’une pièce jointe en appelant **IMAPIProp::GetProps**; Elle doit toujours récupérer la table des pièces jointes du message auquel elle est jointe. **PR_ATTACH_METHOD** est une colonne obligatoire dans toutes les tables de pièces jointes. 
   
-Un affichage tableau peut être statique ou dynamique. Avec une vue de table statique, les modifications apportées aux données sous-jacentes n’entraînent pas la mise à jour de l’affichage. Une fois l’affichage ins instantié, il ne change pas. Les utilisateurs de tables statiques peuvent être informés des modifications apportées aux données par le biais de notifications de tableau. Une vue de tableau dynamique est mise à jour lorsque des modifications sont apportées aux données. Il existe deux types de tableaux dynamiques : un qui met à jour les colonnes de chaque ligne, mais les lignes restent statiques et l’autre qui met à jour les colonnes et les lignes. Ce dernier type de tableau reflète toujours exactement les données sous-jacentes.
+Un affichage tableau peut être statique ou dynamique. Avec une vue de table statique, les modifications apportées aux données sous-jacentes n’entraînent pas la mise à jour de l’affichage. Une fois l’affichage ins instantié, il ne change pas. Les utilisateurs de tables statiques peuvent être informés des modifications apportées aux données par le biais de notifications de tableau. Une vue de table dynamique est mise à jour lorsque des modifications sont apportées aux données. Il existe deux types de tableaux dynamiques : un qui met à jour les colonnes de chaque ligne, mais les lignes restent statiques et l’autre qui met à jour les colonnes et les lignes. Ce dernier type de tableau reflète toujours exactement les données sous-jacentes.
   
-Les tableaux ont un ensemble de colonnes par défaut, l’ensemble minimal de colonnes qu’un client ou un fournisseur de services peut s’attendre à voir lors de la récupération des lignes d’une table qui n’a pas encore été affectée par un appel [IMAPITable::SetColumns.](imapitable-setcolumns.md) Les clients et les fournisseurs de services peuvent ajouter ou supprimer des colonnes de cet ensemble par défaut en appelant la **méthode SetColumns.** Les modifications peuvent être apportées de manière statique ou dynamique, à la suite d’une demande du client. Tous les tableaux ne sont pas en charge la modification dynamique des ensembles de colonnes. 
+Les tableaux ont un ensemble de colonnes par défaut, l’ensemble minimal de colonnes qu’un client ou un fournisseur de services peut s’attendre à voir lors de la récupération des lignes d’une table qui n’a pas encore été affectée par un appel [IMAPITable::SetColumns.](imapitable-setcolumns.md) Les clients et les fournisseurs de services peuvent ajouter ou supprimer des colonnes de cet ensemble par défaut en appelant la **méthode SetColumns.** Les modifications peuvent être apportées de manière statique ou dynamique, à la suite d’une demande du client. Tous les tableaux ne sont pas en charge la modification de l’ensemble de colonnes dynamiques. 
   
 Les tables MAPI et leurs implémenteurs et utilisateurs sont les suivants :
   
@@ -41,7 +41,7 @@ Les tables MAPI et leurs implémenteurs et utilisateurs sont les suivants :
 |Magasin de messages  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
 |Un-off  <br/> |Implémenté par les fournisseurs de carnets d’adresses. Utilisé par MAPI.  <br/> |
 |File d’attente sortante  <br/> |Implémenté par les fournisseurs de magasins de messages. Utilisé par lepooler MAPI.  <br/> |
-|Profils  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
+|Profil  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
 |Fournisseur  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
 |Dossier de r�ception  <br/> |Implémenté par les fournisseurs de magasins de messages. Utilisé par les clients.  <br/> |
 |Destinataire  <br/> |Implémenté par les fournisseurs de magasins de messages. Utilisé par les clients et les fournisseurs de transport.  <br/> |

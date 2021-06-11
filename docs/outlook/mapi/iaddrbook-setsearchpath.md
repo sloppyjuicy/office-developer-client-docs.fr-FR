@@ -34,7 +34,7 @@ HRESULT SetSearchPath(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT SetSearchPath(
     
  _lpSearchPath_
   
-> [in] Pointeur vers la structure [SRowSet](srowset.md) utilisée pour contenir le chemin de recherche. La première propriété de chaque **membre aRow** dans **SRowSet** doit être PR_ENTRYID **(** [PidTagEntryId](pidtagentryid-canonical-property.md)).
+> [in] Pointeur vers la structure [SRowSet utilisée](srowset.md) pour contenir le chemin de recherche. La première propriété de chaque **membre aRow** dans **SRowSet** doit être **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## <a name="return-value"></a>Valeur renvoyée
 

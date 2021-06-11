@@ -30,7 +30,7 @@ HRESULT IOlkAccountManager::FindAccount (
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _dwProp_
   
@@ -49,7 +49,7 @@ _ppAccount_
 |**[HRESULT]**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L'appel a réussi.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est in found.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Le compte spécifié est in trouver.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
 |E_OLK_PARAM_NOT_SUPPORTED  <br/> |Un ou plusieurs paramètres ne sont pas valides.  <br/> |
    

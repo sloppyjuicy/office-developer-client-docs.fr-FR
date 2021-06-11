@@ -38,12 +38,12 @@ _size_
     
 _ulStreamFlags_
   
-> Il s’agit d’une valeur qui indique le format du corps natif. Cette valeur n’est valide que si **l’indicateur MAPI_NATIVE_BODY** est transmis dans le paramètre _ulFlags_ de la structure [RTF_WCSINFO](rtf_wcsinfo.md) transmise à la fonction [WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md) Il peut s’y trouver avec l’une des valeurs suivantes : 
+> Il s’agit d’une valeur qui indique le format du corps natif. Cette valeur n’est valide que si l’indicateur **MAPI_NATIVE_BODY** est transmis dans le paramètre _ulFlags_ de la structure [RTF_WCSINFO](rtf_wcsinfo.md) transmise à la fonction [WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md) Il peut s’y trouver avec l’une des valeurs suivantes : 
     
 |||
 |:-----|:-----|
 |MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et si le corps est RTF.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et que le corps est au format texte simple.  <br/> |
+|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et si le corps est au format texte simple.  <br/> |
 |MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’indicateur MAPI_NATIVE_BODY** et que le corps est au format HTML (Hypertext Markup Language).  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

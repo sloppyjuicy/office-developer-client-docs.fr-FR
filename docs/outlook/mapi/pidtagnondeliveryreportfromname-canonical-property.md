@@ -40,7 +40,7 @@ S’il est définie sur un rapport nondelivery, indique le nom de l’utilisateu
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -27,7 +27,7 @@ Vous pouvez utiliser l’action **ChangeView** pour naviguer entre les vues en p
 |**Argument de l'action**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
 |Tableau  <br/> |Oui  <br/> |Nom de la table à ouvrir.  <br/> |
-|Vue  <br/> |Oui  <br/> |Nom de la vue à ouvrir.  <br/> |
+|Afficher  <br/> |Oui  <br/> |Nom de la vue à ouvrir.  <br/> |
 |Où  <br/> |Non  <br/> |Spécifié, remplace la condition Where de la source de l'enregistrement de l'objet.  <br/> |
 |Trier par  <br/> |Non  <br/> |Une expression de chaîne qui inclut le nom du champ ou des champs à partir desquels trier les enregistrements et les mots clés ASC ou DESC facultatifs. Par défaut, cet argument est vide.  <br/> |
    

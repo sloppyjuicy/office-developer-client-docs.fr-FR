@@ -35,7 +35,7 @@ HRESULT FinishedMsg(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -71,7 +71,7 @@ Il est possible qu’aucun **PR_DELETE_AFTER_SUBMIT** ou **PR_SENTMAIL_ENTRYID**
   
 |||
 |:-----|:-----|
-|Si aucune des propriétés n’est définie :  <br/> |Laissez le message dans le dossier à partir duquel il a été envoyé (généralement la boîte d’envoi).  <br/> |
+|Si aucune des deux propriétés n’est définie :  <br/> |Laissez le message dans le dossier à partir duquel il a été envoyé (généralement la boîte d’envoi).  <br/> |
 |Si les deux propriétés sont définies :  <br/> |Déplacez le message dans le dossier indiqué, si vous le souhaitez, puis supprimez-le.  <br/> |
 |Si PR_SENTMAIL_ENTRYID est définie :  <br/> |Déplacez le message vers le dossier indiqué.  <br/> |
 |Si PR_DELETE_AFTER_SUBMIT est définie :  <br/> |Supprimez le message.  <br/> |

@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
@@ -69,7 +69,7 @@ Utilisez la méthode **IMSLogon::GetLastError** pour récupérer les information
   
 Pour libérer toute la mémoire allouée par MAPI pour la structure **MAPIERROR** renvoyée, les applications clientes doivent appeler uniquement la [fonction MAPIFreeBuffer.](mapifreebuffer.md) 
   
-La valeur de retour **de GetLastError** doit être S_OK pour qu’une application utilise **mapIERROR**. Même si la valeur renvoyée est S_OK, il se peut **qu’un MAPIERROR** ne soit pas renvoyé. Si l’implémentation ne peut pas déterminer la dernière erreur ou si **un MAPIERROR** n’est pas disponible pour cette erreur, **GetLastError** renvoie un pointeur vers NULL dans  _lppMAPIError_ à la place. 
+La valeur de retour **de GetLastError** doit être S_OK pour qu’une application utilise **mapIERROR**. Même si la valeur renvoyée est S_OK, il se peut **qu’un MAPIERROR** ne soit pas renvoyé. Si l’implémentation ne peut pas déterminer la dernière erreur ou si un **MAPIERROR** n’est pas disponible pour cette erreur, **GetLastError** renvoie un pointeur vers NULL dans  _lppMAPIError_ à la place. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
@@ -72,11 +72,11 @@ S_OK
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’un ou les deux identificateurs d’entrée spécifiés en tant que paramètres ne font pas référence à des objets, car ces objets sont actuellement non ouvert et indisponibles.
+> L’un des identificateurs d’entrée ou les deux spécifiés en tant que paramètres ne font pas référence à des objets, peut-être parce que ces objets sont actuellement non ouvert et indisponibles.
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::CompareEntryIDs** compare deux identificateurs d’entrée appartenant à un seul fournisseur de services pour déterminer s’ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d’entrée pour déterminer le fournisseur de services responsable des objets, puis appelle la méthode **CompareEntryIDs** de son objet d’inscription pour effectuer la comparaison. 
+La **méthode IMAPISession::CompareEntryIDs** compare deux identificateurs d’entrée qui appartiennent à un seul fournisseur de services pour déterminer s’ils font référence au même objet. MAPI extrait la partie [MAPIUID](mapiuid.md) des identificateurs d’entrée pour déterminer le fournisseur de services responsable des objets, puis appelle la méthode **CompareEntryIDs** de son objet d’inscription pour effectuer la comparaison. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

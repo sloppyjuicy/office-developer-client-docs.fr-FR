@@ -32,7 +32,7 @@ Version ajoutée : Visio 2013
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre représentant un index dans la palette de couleurs du document.  <br/> |
-| _gradient_stop_number_ <br/> |Obligatoire  <br/> |**Number** <br/> |Fin du dégradé (teinte ou nuance) stocké dans les paramètres de dégradé du thème actif à appliquer à la couleur.  <br/> |
+| _gradient_stop_number_ <br/> |Obligatoire  <br/> |**Number** <br/> |L’arrêt de dégradé (teinte ou ombre) stocké dans les paramètres de dégradé du thème actif à appliquer à la couleur.  <br/> |
    
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -41,11 +41,11 @@ Version ajoutée : Visio 2013
 ## <a name="remarks"></a>Remarques
 
 > [!NOTE]
-> La fonction THEMECBV n’a aucune fonction sur la couleur transmise en tant qu’argument si le QuickStyle affecté à la forme n’a pas de dégradé. 
+> La fonction THEMECBV ne fait rien à la couleur transmise en tant qu’argument si le QuickStyle qui est affecté à la forme n’a pas de dégradé. 
   
 Les paramètres de dégradé d’un thème sont une série d’arrêts de dégradé numérotés qui correspondent à un « éclaircissement » (teinte) ou à un assombrissement (ombre). Ces nuances et teintes sont appliquées à une couleur de base pour créer un effet de dégradé de couleur.
   
-La **fonction THEMECBV** prend une entrée de couleur et en sort une fois modifiée par la teinte ou l’ombre du dégradé spécifié. Les teintes et nuances proviennent de la définition du thème, si le style rapide actuel contient un dégradé de remplissage. Si le style rapide actif ne spécifie pas de remplissage dégradé ou si la forme est définie sur Aucun thème, cette formule renvoie simplement la couleur qui a été passée pour le premier argument. 
+La **fonction THEMECBV** prend une entrée de couleur et produit la couleur après avoir été modifiée par la teinte ou l’ombre de l’arrêt de dégradé spécifié. Les teintes et nuances proviennent de la définition du thème, si le style rapide actuel contient un remplissage en dégradé. Si le style rapide actif ne spécifie pas de remplissage dégradé ou si la forme est définie sur Aucun thème, cette formule renvoie simplement la couleur qui a été passée pour le premier argument. 
   
 ## <a name="example"></a>Exemple
 

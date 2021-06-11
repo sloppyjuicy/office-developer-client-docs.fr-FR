@@ -25,7 +25,7 @@ ms.locfileid: "33430790"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit la valeur d’une ou de plusieurs propriétés d’un message ou d’une pièce jointe encapsulé sans modifier le message ou la pièce jointe d’origine. 
+Définit la valeur d’une ou de plusieurs propriétés pour un message ou une pièce jointe encapsulé sans modifier le message ou la pièce jointe d’origine. 
   
 ```cpp
 HRESULT SetProps(
@@ -36,7 +36,7 @@ HRESULT SetProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   

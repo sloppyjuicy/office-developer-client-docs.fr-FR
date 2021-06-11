@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée du dossier Éléments supprimés du mess
 |Propriétés associées :  <br/> |PR_IPM_WASTEBASKET_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E3  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

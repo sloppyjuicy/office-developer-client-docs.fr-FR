@@ -49,7 +49,7 @@ Si  _find_text_:
     
 Si  _start_num_:
   
-- n’est pas supérieur à zéro (0), FIND renvoie la valeur d’erreur #VALEUR! ; 
+- n’est pas supérieur à zéro (0), FIND renvoie la valeur d’erreur #VALEUR! ; 
     
 - Est supérieur à la longueur de  _within_text_, FINDreturns le #VALUE! Autrement, la méthode INDEX renvoie la valeur d'erreur #REF!. 
     

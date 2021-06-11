@@ -33,7 +33,7 @@ HRESULT GetSiteStatus(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulStatus_
   
@@ -79,7 +79,7 @@ Les objets form appellent la méthode **IMAPIMessageSite::GetSiteStatus** pour o
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-La **méthode IMAPIMessageSite::GetSiteStatus** peut exiger que l’application cliente effectue un calcul pour déterminer les opérations qui peuvent ou ne peuvent pas être effectuées sur le message actuel. En règle générale, cela implique de regarder la ligne d’état du fournisseur de la boutique de messages du message actuel ou d’interroger le fournisseur de magasin pour déterminer les actions que l’application cliente peut effectuer à l’aide de la magasin de messages. Par exemple, pour déterminer s’il faut renvoyer l’indicateur MAPI_DELETE_IS_MOVE, vérifiez la propriété **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) de l’objet de la boutique de messages pour voir s’il existe un dossier Éléments supprimés dans la magasin de messages.  
+La **méthode IMAPIMessageSite::GetSiteStatus** peut exiger que l’application cliente effectue un calcul pour déterminer les opérations qui peuvent ou ne peuvent pas être effectuées sur le message actuel. En règle générale, cela implique de regarder la ligne d’état du fournisseur de la boutique de messages du message actuel ou d’interroger le fournisseur de magasin pour déterminer les actions que l’application cliente peut effectuer à l’aide de la boutique de messages. Par exemple, pour déterminer s’il faut renvoyer l’indicateur MAPI_DELETE_IS_MOVE, vérifiez la propriété **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)) de l’objet de la boutique de messages pour voir s’il existe un dossier Éléments supprimés dans la magasin de messages.  
   
 Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   

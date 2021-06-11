@@ -41,7 +41,7 @@ Chaque destinataire doit avoir un ensemble principal de propriétés dans son ta
     
 Ces propriétés sont utilisées pour accéder au destinataire, lui envoyer des messages et les comparer à d’autres. Toutes ces propriétés ne doivent pas être disponibles immédiatement. Vous pouvez ajouter un destinataire initialement sans connaître son identificateur d’entrée, en vous appuyant sur le processus de résolution de noms pour affecter cette propriété. Avant d’envoyer un message, appelez [IAddrBook::ResolveName](iaddrbook-resolvename.md) pour vous assurer que tous les destinataires de votre liste de destinataires sont résolus. Pour plus d’informations, [voir Résolution d’un nom de destinataire.](resolving-a-recipient-name.md)
   
-Les listes de destinataires peuvent être créées à partir d’utilisateurs de messagerie ou d’entrées de liste de distribution dans un conteneur de carnet d’adresses ou à partir d’un conteneur de carnet d’adresses. Les destinataires à usage unique sont des destinataires créés en tant qu’entrées temporaires à utiliser uniquement pour l’adressare d’un seul message ou en tant qu’entrées à ajouter à un carnet d’adresses personnel. Le format d’un identificateur et d’une adresse d’entrée uniques est défini par MAPI. Pour plus d’informations sur ces formats, voir [Adresses uniques](one-off-addresses.md) et Identificateurs d’entrée [uniques.](one-off-entry-identifiers.md)
+Les listes de destinataires peuvent être créées à partir d’utilisateurs de messagerie ou d’entrées de liste de distribution dans un conteneur de carnet d’adresses ou à partir d’un conteneur de carnet d’adresses. Les destinataires à usage unique sont des destinataires créés en tant qu’entrées temporaires à utiliser uniquement pour traiter un seul message ou en tant qu’entrées à ajouter à un carnet d’adresses personnel. Le format d’un identificateur et d’une adresse d’entrée uniques est défini par MAPI. Pour plus d’informations sur ces formats, voir [Adresses uniques](one-off-addresses.md) et Identificateurs d’entrée [uniques.](one-off-entry-identifiers.md)
   
 Vous pouvez permettre aux utilisateurs de créer leurs listes de destinataires :
   
@@ -65,7 +65,7 @@ Vous pouvez permettre aux utilisateurs de créer leurs listes de destinataires :
   
 1. Allouez une structure **ADRLIST** qui contient une structure [ADRENTRY](adrentry.md) pour chacun des destinataires à inclure dans la liste. Rendez chaque **structure ADRENTRY** suffisamment grande pour contenir chacune des propriétés et PR_RECIPIENT_TYPE **(** [PidTagRecipientType](pidtagrecipienttype-canonical-property.md)).
     
-2. Pour chaque destinataire, définissez le tableau de valeurs de propriété pour son membre **aEntries** dans la structure **ADRLIST.** 
+2. Pour chaque destinataire, définissez le tableau des valeurs de propriété pour son membre **aEntries** dans la structure **ADRLIST.** 
     
 3. Appelez [IMessage::ModifyRecipients](imessage-modifyrecipients.md) avec l’MODRECIP_ADD d’appel. 
     

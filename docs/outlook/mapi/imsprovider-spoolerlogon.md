@@ -25,7 +25,7 @@ ms.locfileid: "33430573"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Connecte lepooler MAPI à une magasin de messages.
+Connecte lepooler MAPI à une boutique de messages.
   
 ```cpp
 HRESULT SpoolerLogon(
@@ -44,11 +44,11 @@ HRESULT SpoolerLogon(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMAPISup_
   
-> [in] Pointeur vers l’objet de support MAPI pour la magasin de messages.
+> [in] Pointeur vers l’objet de support MAPI pour la boutique de messages.
     
  _ulUIParam_
   
@@ -68,7 +68,7 @@ HRESULT SpoolerLogon(
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle l’utilisation de l’logo. Les indicateurs suivants peuvent être définies :
+> [in] Masque de bits d’indicateurs qui contrôle l’utilisation de la logon. Les indicateurs suivants peuvent être définies :
     
 MAPI_DEFERRED_ERRORS 
   
@@ -88,7 +88,7 @@ MDB_WRITE
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de connexion à la boutique de messages. La transmission de la valeur NULL indique que l’interface MAPI pour la magasin de messages ([IMsgStore](imsgstoreimapiprop.md)) est renvoyée. Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface appropriée pour la magasin de messages (par exemple, IID_IUnknown ou IID_IMAPIProp). 
+> [in] Pointeur vers l’identificateur d’interface (IID) de connexion à la boutique de messages. La transmission de la valeur NULL indique que l’interface MAPI pour la magasin de messages ([IMsgStore](imsgstoreimapiprop.md)) est renvoyée. Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface appropriée pour la boutique de messages (par exemple, IID_IUnknown ou IID_IMAPIProp). 
     
  _cbSpoolSecurity_
   
@@ -100,7 +100,7 @@ MDB_WRITE
     
  _lppMAPIError_
   
-> [out] Pointeur vers un pointeur vers la structure [MAPIERROR](mapierror.md) renvoyée, le caser, qui contient des informations de version, de composant et de contexte pour une erreur. Le  _paramètre lppMAPIError_ peut avoir la valeur NULL s’il n’existe aucune structure **MAPIERROR** à renvoyer. 
+> [out] Pointeur vers un pointeur vers la structure [MAPIERROR](mapierror.md) renvoyée, le cas besoin, qui contient des informations de version, de composant et de contexte pour une erreur. Le  _paramètre lppMAPIError_ peut avoir la valeur NULL s’il n’existe aucune structure **MAPIERROR** à renvoyer. 
     
  _lppMSLogon_
   
@@ -108,7 +108,7 @@ MDB_WRITE
     
  _lppMDB_
   
-> [out] Pointeur vers le pointeur vers l’objet de magasin de messages pour lepooler MAPI et les applications clientes à connecter.
+> [out] Pointeur vers le pointeur vers l’objet de la boutique de messages pour lepooler MAPI et les applications clientes à connecter.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -118,7 +118,7 @@ S_OK
     
 MAPI_E_UNCONFIGURED 
   
-> Le profil ne contient pas suffisamment d’informations pour que la logon soit terminée. Lorsque cette valeur est renvoyée, MAPI appelle la fonction de point d’entrée du service de messagerie du fournisseur de messages.
+> Le profil ne contient pas suffisamment d’informations pour la fin de l’accès. Lorsque cette valeur est renvoyée, MAPI appelle la fonction de point d’entrée du service de messagerie du fournisseur de messages.
     
 MAPI_W_ERRORS_RETURNED 
   
@@ -130,7 +130,7 @@ Lepooler MAPI appelle la méthode **IMSProvider::SpoolerLogon** pour se connecte
   
 Pour des raisons de cohérence avec la méthode [IMSProvider::Logon,](imsprovider-logon.md) le fournisseur renvoie également un objet d’ouverture de messagerie dans le paramètre _lppMSLogon._ L’utilisation de l’objet store et de l’objet d’ouverture de ligne est identique pour l’ouverture de magasin habituelle . il doit y avoir une correspondance un-à-un entre l’objet d’ouverture de ligne et l’objet store afin que les objets agissent comme s’il s’agit d’un objet qui expose deux interfaces. Les deux objets sont créés ensemble et libérés ensemble. 
   
-Le fournisseur de magasin doit marquer en interne l’objet de magasin de messages renvoyé pour indiquer que la boutique est utilisée par lepooler MAPI. Certaines méthodes de cet objet store se comportent différemment de l’objet de magasin de messages fourni aux applications clientes. Conserver cette marque interne est le moyen le plus courant de déclencher le comportement spécifique aupooler MAPI.
+Le fournisseur de magasin doit marquer en interne l’objet de magasin de messages renvoyé pour indiquer que la boutique est utilisée par lepooler MAPI. Certaines méthodes de cet objet store se comportent différemment de l’objet de magasin de messages fourni aux applications clientes. Conserver cette marque interne est la façon la plus courante de déclencher le comportement spécifique aupooler MAPI.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -23,7 +23,7 @@ Détermine le motif de remplissage de l'ombre d'une forme.
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun (remplissage transparent).  <br/> |
-|1   <br/> |Couleur de premier plan unie  <br/> |
+|1  <br/> |Couleur de premier plan unie  <br/> |
 |2 - 40  <br/> |Motifs assortis  <br/> |
    
 ## <a name="remarks"></a>Remarques

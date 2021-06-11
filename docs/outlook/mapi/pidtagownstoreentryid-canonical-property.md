@@ -25,7 +25,7 @@ ms.locfileid: "33427373"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’identificateur d’entrée de la magasin de messages fortement couplé d’un transport.
+Contient l’identificateur d’entrée de la magasin de messages fortement couplée d’un transport.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient l’identificateur d’entrée de la magasin de messages fortement coup
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie l’identificateur d’entrée pour le magasin étroitement couplé, s’il en existe un. Par exemple, un fournisseur de transport peut spécifier l’identificateur d’entrée du magasin de dossiers privés afin que lepooler MAPI puisse connecter le fournisseur de transport à la banque.
+Cette propriété spécifie l’identificateur d’entrée pour le magasin étroitement couplé, s’il en existe un. Par exemple, un fournisseur de transport peut spécifier l’identificateur d’entrée du magasin de dossiers privés afin que lepooler MAPI puisse connecter le fournisseur de transport au magasin.
   
 ## <a name="related-resources"></a>Ressources connexes
 

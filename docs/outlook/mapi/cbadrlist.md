@@ -36,7 +36,7 @@ Calcule le nombre d’octets dans une structure [ADRLIST](adrlist.md) existante.
 CbADRLIST (_lpadrlist)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ _lpadrlist_
   

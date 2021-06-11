@@ -34,7 +34,7 @@ HRESULT GetProviderTable(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -58,7 +58,7 @@ Contrairement à la table fournisseur renvoyée par le biais de la méthode [IPr
   
 Les fournisseurs qui ont été supprimés ou qui sont en cours d’utilisation mais qui ont été marqués pour suppression ne sont pas inclus dans la table des fournisseurs. Les tables de fournisseurs sont statiques, ce qui signifie que les ajouts ou suppressions ultérieurs du profil ne sont pas reflétés dans le tableau. 
   
-Si le profil n’a pas de fournisseur, **GetProviderTable** renvoie un tableau avec zéro ligne et la valeur S_OK de retour. 
+Si le profil n’a pas de fournisseur, **GetProviderTable** renvoie un tableau avec zéro ligne et la S_OK valeur de retour. 
   
 Pour obtenir la liste complète des colonnes dans la table provider, voir [Provider Table](provider-tables.md). 
   
@@ -78,7 +78,7 @@ Si vous récupérez les colonnes **PR_SERVICE_UID** ([PidTagServiceUid](pidtagse
   
 La définition de MAPI_UNICODE’indicateur dans  _le paramètre ulFlags_ permet d': 
   
-- Définit le type de chaîne sur Unicode pour les données renvoyées pour les colonnes actives initiales de la table fournisseur par la méthode [IMAPITable::QueryColumns.](imapitable-querycolumns.md) Les colonnes actives initiales d’une table fournisseur sont les colonnes que la méthode **QueryColumns** renvoie avant que le fournisseur qui contient la table appelle la méthode [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
+- Définit le type de chaîne sur Unicode pour les données renvoyées pour les colonnes actives initiales de la table fournisseur par la méthode [IMAPITable::QueryColumns.](imapitable-querycolumns.md) Les colonnes actives initiales d’une table de fournisseur sont les colonnes que la méthode **QueryColumns** renvoie avant que le fournisseur qui contient la table appelle la méthode [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
     
 - Définit le type de chaîne sur Unicode pour les données renvoyées pour les lignes actives initiales de la table fournisseur par **QueryRows**. Les premières lignes actives d’une table de fournisseur sont les lignes que **QueryRows** renvoie avant le fournisseur qui contient la table appelle **SetColumns**. 
     

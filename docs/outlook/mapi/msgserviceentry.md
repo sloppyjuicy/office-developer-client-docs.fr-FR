@@ -48,7 +48,7 @@ HRESULT MSGSERVICEENTRY(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hInstance_
   
@@ -108,15 +108,15 @@ MSG_SERVICE_DELETE
     
 MSG_SERVICE_INSTALL 
   
-> Le service a été installé sur la station de travail de l’utilisateur à partir d’un réseau, d’une disquette ou d’un autre support externe. Après réception de cet événement, le service renvoie généralement S_OK. 
+> Le service a été installé sur la station de travail de l’utilisateur à partir d’un réseau, d’une disquette ou d’un autre support externe. Après avoir reçu cet événement, le service renvoie généralement S_OK. 
     
 MSG_SERVICE_PROVIDER_CREATE 
   
-> Demande au service de créer une instance supplémentaire d’un fournisseur. Si le service prend en charge cette opération, il doit appeler [IProviderAdmin::CreateProvider](iprovideradmin-createprovider.md). Si le service ne prend pas en charge cette opération, il peut renvoyer MAPI_E_NO_SUPPORT. 
+> Demande au service de créer une instance supplémentaire d’un fournisseur. Si le service prend en charge cette opération, il doit appeler [IProviderAdmin::CreateProvider](iprovideradmin-createprovider.md). Si le service ne prend pas en charge cette opération, il peut MAPI_E_NO_SUPPORT. 
     
 MSG_SERVICE_PROVIDER_DELETE 
   
-> Demande au service de supprimer une instance de fournisseur. Si le service prend en charge cette opération, il doit appeler [IProviderAdmin::D eleteProvider](iprovideradmin-deleteprovider.md). Si le service ne prend pas en charge cette opération, il peut renvoyer MAPI_E_NO_SUPPORT.
+> Demande au service de supprimer une instance de fournisseur. Si le service prend en charge cette opération, il doit appeler [IProviderAdmin::D eleteProvider](iprovideradmin-deleteprovider.md). Si le service ne prend pas en charge cette opération, il peut MAPI_E_NO_SUPPORT.
     
 MSG_SERVICE_UNINSTALL 
   

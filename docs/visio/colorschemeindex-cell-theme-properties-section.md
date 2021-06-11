@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb84f71e-59c4-43d4-a28b-c3d6f267d2ae
-description: Détermine l’index du thème après le modèle de couleurs de la forme, sous la forme d’un nombre.
+description: Détermine l’index du thème après quoi le modèle de couleurs de la forme prend, sous la forme d’un nombre.
 ms.openlocfilehash: d67363b48454a717914b8ff9e39952609d848118
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33430762"
 ---
 # <a name="colorschemeindex-cell-theme-properties-section"></a>ColorSchemeIndex Cell (Theme Properties Section)
 
-Détermine l’index du thème après le modèle de couleurs de la forme, sous la forme d’un nombre.
+Détermine l’index du thème après quoi le modèle de couleurs de la forme prend, sous la forme d’un nombre.
   
 ## <a name="remarks"></a>Remarques
 

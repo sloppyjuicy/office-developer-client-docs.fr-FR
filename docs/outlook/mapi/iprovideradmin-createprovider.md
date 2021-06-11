@@ -36,7 +36,7 @@ HRESULT CreateProvider(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpszProvider_
   
@@ -52,7 +52,7 @@ HRESULT CreateProvider(
     
  _ulUIParam_
   
-> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode. Le _paramètre ulUIParam_ est utilisé si l’MAPI_DIALOG est définie dans _le paramètre ulFlags._ 
+> [in] Poignée vers la fenêtre parente de toutes les boîtes de dialogue ou fenêtres affichées par cette méthode. Le _paramètre ulUIParam_ est utilisé si l’MAPI_DIALOG est définie dans le _paramètre ulFlags._ 
     
  _ulFlags_
   

@@ -52,9 +52,9 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-Les [méthodes Subscribe](imapisupport-subscribe.md) et [Notify](imapisupport-notify.md) d’IMAPISupport utilisent la structure **NOTIFKEY** pour générer des notifications au réception de notifications approprié concernant la source de notification appropriée. [](imapisupportiunknown.md) 
+Les [méthodes Subscribe](imapisupport-subscribe.md) et [Notify](imapisupport-notify.md) d’IMAPISupport utilisent la structure **NOTIFKEY** pour générer des notifications au réception de notifications approprié concernant la source de conseil appropriée. [](imapisupportiunknown.md) 
   
-Les fournisseurs de services génèrent des clés de notification lorsque leur méthode **Advise** est appelée et qu’ils souhaitent appeler **Subscribe** pour gérer l’inscription de la notification et l’envoi ultérieur de notifications. Une clé de notification peut être l’identificateur d’entrée de la source de notification ou tout autre élément d’identification tel qu’une constante. Par exemple, un fournisseur de magasins de messages peut utiliser le chemin d’accès d’un dossier comme clé de notification. 
+Les fournisseurs de services génèrent des clés de notification lorsque leur méthode **Advise** est appelée et qu’ils souhaitent appeler **Subscribe** pour gérer l’inscription de notification et l’envoi ultérieur de notifications. Une clé de notification peut être l’identificateur d’entrée de la source de notification ou tout autre élément d’identification tel qu’une constante. Par exemple, un fournisseur de magasins de messages peut utiliser le chemin d’accès d’un dossier comme clé de notification. 
   
 La clé de notification doit fonctionner sur plusieurs processus. 
   

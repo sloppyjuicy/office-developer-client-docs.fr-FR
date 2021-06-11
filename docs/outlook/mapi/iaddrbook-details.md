@@ -41,7 +41,7 @@ HRESULT Details(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulUIParam_
   
@@ -85,11 +85,11 @@ AB_TELL_DETAILS_CHANGE
     
 DIALOG_MODAL
   
-> Affichez la version modale de la boîte de dialogue d’adresse commune, qui est toujours affichée dans les clients autres que Outlook. Cet indicateur s’exclue mutuellement avec DIALOG_SDI.
+> Affichez la version modale de la boîte de dialogue d’adresses commune, qui est toujours affichée dans les clients Outlook courants. Cet indicateur s’exclue mutuellement avec DIALOG_SDI.
     
 DIALOG_SDI
   
->  Affiche la version non modée de la boîte de dialogue d’adresse commune. Cet indicateur est ignoré pour les clients non Outlook. 
+>  Affiche la version non modée de la boîte de dialogue d’adresse commune. Cet indicateur est ignoré pour les clients non Outlook client. 
     
 MAPI_UNICODE 
   
@@ -113,7 +113,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|BaseDialog.cpp  <br/> |CBaseDialog::OnOpenEntryID  <br/> |MFCMAPI utilise la méthode **Details** pour afficher une boîte de dialogue qui affiche les détails d’une entrée de carnet d’adresses.  <br/> |
+|BaseDialog.cpp  <br/> |CBaseDialog::OnOpenEntryID  <br/> |MFCMAPI utilise la **méthode Details** pour afficher une boîte de dialogue qui affiche les détails d’une entrée de carnet d’adresses.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

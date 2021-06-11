@@ -16,7 +16,7 @@ ms.locfileid: "33427688"
 ---
 # <a name="account-management-api-reference"></a>Référence de l’API de gestion de compte
 
-Cette section fournit du contenu de référence pour l’API de gestion des comptes, qui permet d’accéder aux informations de compte, prend en charge les notifications de modifications de compte, la protection des comptes contre le courrier indésirable et la gestion des téléchargements de messages pour les comptes POP3.
+Cette section fournit du contenu de référence pour l’API de gestion des comptes, qui fournit l’accès aux informations de compte, prend en charge les notifications de modifications de compte, la protection des comptes contre le courrier indésirable et la gestion des téléchargements de messages pour les comptes POP3.
 
 
 - [Constants](constants-account-management-api.md)

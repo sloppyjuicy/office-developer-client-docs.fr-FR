@@ -28,7 +28,7 @@ Exemple de commande définie par l’utilisateur qui décharge GENERIC.xll. Lors
 int WINAPI fExit(void);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 La fonction ne prend aucun paramètre.
   

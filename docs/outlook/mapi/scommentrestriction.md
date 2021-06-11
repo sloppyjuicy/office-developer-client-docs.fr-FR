@@ -57,11 +57,11 @@ typedef struct _SCommentRestriction
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SCommentRestriction** associe un objet à un ensemble de propriétés nommées. Les restrictions de commentaire sont contrairement aux autres restrictions, car elles ne sont pas évaluées. Autrement dit, ils sont ignorés par la [méthode IMAPITable::Restrict.](imapitable-restrict.md) Il n’y a aucun effet sur les lignes renvoyées par la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) après qu’un **appel IMAPITable::Restrict** a été effectué. 
+La structure **SCommentRestriction** associe un objet à un ensemble de propriétés nommées. Les restrictions de commentaire sont contrairement aux autres restrictions, car elles ne sont pas évaluées. Autrement dit, elles sont ignorées par la [méthode IMAPITable::Restrict.](imapitable-restrict.md) Il n’y a aucun effet sur les lignes renvoyées par la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) après qu’un **appel IMAPITable::Restrict** a été effectué. 
   
 La structure **SCommentRestriction** peut être utilisée pour conserver des informations spécifiques à l’application avec une restriction lorsqu’elle est enregistrée sur le disque. Par exemple, un client qui sauvegarde le nom d’une propriété nommée utilisée dans une restriction de propriété peut le faire dans une structure **SCommentRestriction.** L’enregistrement d’un nom de propriété n’est pas possible dans une restriction de propriété, car la structure [SPropertyRestriction](spropertyrestriction.md) associée contient uniquement la balise de propriété. 
   
-Pour plus d’informations sur la structure et les **restrictions SCommentRestriction** en général, voir [à propos des restrictions](about-restrictions.md). 
+Pour plus d’informations sur la structure et les restrictions **SCommentRestriction** en général, voir [à propos des restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

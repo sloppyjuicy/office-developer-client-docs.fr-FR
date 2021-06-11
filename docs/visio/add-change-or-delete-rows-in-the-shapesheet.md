@@ -20,7 +20,7 @@ ms.locfileid: "33425084"
 
 Vous pouvez ajouter de nouvelles lignes, modifier le type des lignes existantes ou supprimer des lignes dans la feuille ShapeSheet dans Microsoft Visio.
   
-### <a name="to-add-a-new-row-to-a-section-in-the-shapesheet"></a>Pour ajouter une nouvelle ligne à une section dans la feuille ShapeSheet
+### <a name="to-add-a-new-row-to-a-section-in-the-shapesheet"></a>Pour ajouter une nouvelle ligne à une section de la feuille ShapeSheet
 
 1. Sélectionnez une cellule dans la ligne.
     

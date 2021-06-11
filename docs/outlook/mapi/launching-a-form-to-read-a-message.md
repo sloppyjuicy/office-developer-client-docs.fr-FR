@@ -21,7 +21,7 @@ ms.locfileid: "33425931"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les implémenteurs de serveur de formulaire doivent s’attendre à ce que la séquence suivante d’appels de méthode soit appliquée à leur serveur de formulaires et à leurs objets de formulaire lorsqu’une application cliente charge un message :
+Les implémenteurs de serveur de formulaire doivent s’attendre à la séquence suivante d’appels de méthode à leur serveur de formulaires et à leurs objets de formulaire lorsqu’une application cliente charge un message :
   
 1. L’application cliente ouvre le gestionnaire de formulaires avec un appel à la [fonction MAPIOpenFormMgr.](mapiopenformmgr.md) 
     

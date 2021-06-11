@@ -82,7 +82,7 @@ ADDRESS_ONE
     
 DIALOG_MODAL
   
-> Entraîne l’affichage de la version modale de la boîte de dialogue d’adresse commune. Cet indicateur ou cet DIALOG_SDI doit être définie ; Ils ne peuvent pas être tous les deux définies. 
+> Entraîne l’affichage de la version modale de la boîte de dialogue d’adresses commune. Cet indicateur ou cet DIALOG_SDI doit être définie ; Ils ne peuvent pas être tous les deux définies. 
     
 DIALOG_OPTIONS
   
@@ -90,7 +90,7 @@ DIALOG_OPTIONS
     
 DIALOG_SDI
   
-> Entraîne l’affichage de la version non modée de la boîte de dialogue d’adresse commune. Cet indicateur ou cet DIALOG_MODAL doit être définie ; Ils ne peuvent pas être tous les deux définies. L DIALOG_SDI est ignoré pour les clients autres qu’Outlook et la version modale de la boîte de dialogue s’affiche. Par conséquent, un pointeur vers un handle ne doit pas être attendu dans le paramètre  _lpulUIParam_ de [IAddrBook::Address](iaddrbook-address.md).
+> Entraîne l’affichage de la version non modée de la boîte de dialogue d’adresse commune. Cet indicateur ou cet DIALOG_MODAL doit être définie ; Ils ne peuvent pas être tous les deux définies. L DIALOG_SDI est ignoré pour les clients non Outlook, et la version modale de la boîte de dialogue s’affiche. Par conséquent, un pointeur vers un handle ne doit pas être attendu dans le paramètre  _lpulUIParam_ de [IAddrBook::Address](iaddrbook-address.md).
     
 **lpReserved**
   
@@ -98,11 +98,11 @@ DIALOG_SDI
     
 **ulHelpContext**
   
-> Spécifie le contexte  dans l’aide qui s’affiche pour la première fois lorsque l’utilisateur clique sur le bouton Aide dans la boîte de dialogue Adresse. 
+> Spécifie le contexte  dans l’aide qui s’affiche pour la première fois lorsque l’utilisateur clique sur le bouton Aide de la boîte de dialogue d’adresse. 
     
 **lpszHelpFileName**
   
-> Pointeur vers le nom d’un fichier d’aide qui sera associé à la boîte de dialogue d’adresses. Le **membre lpszHelpFileName** est utilisé avec **ulHelpContext** pour appeler la fonction Windows **WinHelp.** 
+> Pointeur vers le nom d’un fichier d’aide qui sera associé à la boîte de dialogue d’adresses. Le **membre lpszHelpFileName** est utilisé avec **ulHelpContext** pour appeler Windows **fonction WinHelp.** 
     
 **lpfnABSDI**
   
@@ -118,7 +118,7 @@ DIALOG_SDI
     
 **lpszCaption**
   
-> Pointeur vers le texte à utiliser comme titre pour la boîte de dialogue Adresse commune.
+> Pointeur vers le texte à utiliser comme titre pour la boîte de dialogue d’adresse commune.
     
 **lpszNewEntryTitle**
   
@@ -130,7 +130,7 @@ DIALOG_SDI
     
 **cDestFields**
   
-> Nombre de contrôles de zone de texte de destinataire dans la version modale de la boîte de dialogue d’adresse, ou zéro si la boîte de dialogue est sans mode. La boîte de dialogue d’adresse est ouverte pour la navigation uniquement lorsque les conditions suivantes sont vraies : 
+> Nombre de contrôles de zone de texte de destinataire dans la version modale de la boîte de dialogue d’adresses, ou zéro si la boîte de dialogue est sans mode. La boîte de dialogue d’adresse est ouverte pour la navigation uniquement lorsque les conditions suivantes sont vraies : 
     
   - Le **membre cDestFields** est définie sur zéro. 
     
@@ -150,7 +150,7 @@ DIALOG_SDI
     
 **lpulDestComps**
   
-> Pointeur vers un tableau de valeurs de type de destinataire, telles que MAPI_TO, MAPI_CC et MAPI_BCC, qui est associé à chaque contrôle de zone de texte. La valeur du **membre CDestFields** indique le nombre de types de destinataires inclus dans le tableau. Les valeurs pointées par **lpulDestComps** peuvent être utilisées pour définir la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) de chaque destinataire. Si le **membre lpulDestComps** est NULL, la méthode **Address** utilise les types de destinataires par défaut. 
+> Pointeur vers un tableau de valeurs de type destinataire, telles que MAPI_TO, MAPI_CC et MAPI_BCC, qui est associé à chaque contrôle de zone de texte. La valeur du **membre CDestFields** indique le nombre de types de destinataires inclus dans le tableau. Les valeurs pointées par **lpulDestComps** peuvent être utilisées pour définir la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) de chaque destinataire. Si le **membre lpulDestComps** est NULL, la méthode **Address** utilise les types de destinataires par défaut. 
     
 **lpContRestriction**
   
@@ -162,7 +162,7 @@ DIALOG_SDI
     
 ## <a name="remarks"></a>Remarques
 
-Les structures **ADRPARM** sont utilisées par les clients et les fournisseurs de services pour contrôler l’apparence et le comportement des boîtes de dialogue d’adresse commune MAPI. Il existe deux variantes de la boîte de dialogue d’adresse : modeless et modal. Certains des membres de la structure **ADRPARM** s’appliquent aux deux versions de la boîte de dialogue, mais d’autres s’appliquent uniquement à l’une des deux versions. Le tableau suivant relie les membres d’une structure **ADRPARM** à leur utilisation avec les boîtes de dialogue d’adresses communes. 
+Les structures **ADRPARM** sont utilisées par les clients et les fournisseurs de services pour contrôler l’apparence et le comportement des boîtes de dialogue d’adresse commune MAPI. Il existe deux variantes de la boîte de dialogue d’adresse : modeless et modal. Certains des membres de la structure **ADRPARM** s’appliquent aux deux versions de la boîte de dialogue, mais d’autres s’appliquent uniquement à l’une des deux versions. Le tableau suivant relie les membres d’une structure **ADRPARM** à leur utilisation avec les boîtes de dialogue d’adresse communes. 
   
 |Membre ADRPARM|Type de boîte de dialogue|
 |:-----|:-----|

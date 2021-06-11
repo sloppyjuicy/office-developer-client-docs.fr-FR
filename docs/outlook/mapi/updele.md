@@ -52,7 +52,7 @@ _ulFlags_
     
   - UPD_OK 
     
-    - [in] Le chargement a réussi. Le client définit cette information après le téléchargement d’informations sur le serveur.
+    - [in] Télécharger a réussi. Le client définit cette information après le téléchargement d’informations sur le serveur.
     
   - UPD_MOVED
     

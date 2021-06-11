@@ -19,7 +19,7 @@ ms.locfileid: "33425917"
 
 Vous devez respecter les pratiques suivantes lorsque vous développez un fournisseur Outlook Social Connector 2013 (OSC) :
   
-- Pour des raisons de sécurité, les fournisseurs qui communiquent avec des serveurs sur Internet doivent utiliser le protocole HTTPS (Hypertext Transfer Protocol) avec SSL (Secure Socket Layer). Dans le cas contraire, il existe un risque que des adresses de messagerie, des activités de réseau social et d’autres données utilisateur soient interceptées ou exposées pendant le transit.
+- Pour des raisons de sécurité, les fournisseurs qui communiquent avec des serveurs sur Internet doivent utiliser le protocole HTTPS (Hypertext Transfer Protocol) avec SSL (Secure Socket Layer). Dans le cas contraire, il existe un risque que des adresses de messagerie, des activités de réseau social et d’autres données utilisateur soient interceptées ou exposées en transit.
     
 - Si vous développez un fournisseur OSC pour un réseau social tiers, votre fournisseur doit respecter les conditions d’utilisation du réseau social.
     
@@ -27,11 +27,11 @@ Vous devez respecter les pratiques suivantes lorsque vous développez un fournis
     
 - Dans votre fournisseur, créez un agent utilisateur unique qui est envoyé au réseau social pour suivre les appels effectués par le fournisseur vers le réseau social.
     
-- La [méthode ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) ne doit pas compter sur l’appel du réseau social sur Internet pour obtenir les fonctionnalités du fournisseur. Par exemple, les utilisateurs peuvent démarrer Outlook hors connexion ; Si l’OSC appelle **GetCapabilities** et qu’il n’y a pas de connexion réseau, l’appel **GetCapabilities** ne retourne pas de XML de **fonctionnalités** valides. La meilleure pratique consiste à stocker les **fonctionnalités** XML en tant que ressource dans votre fournisseur. 
+- La [méthode ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) ne doit pas compter sur l’appel du réseau social sur Internet pour obtenir les fonctionnalités du fournisseur. Par exemple, les utilisateurs peuvent démarrer Outlook hors connexion ; Si l’OSC appelle **GetCapabilities** et qu’il n’y a pas de connexion réseau, l’appel **GetCapabilities** ne retournera pas de **fonctionnalités** XML valides. La meilleure pratique consiste à stocker les **fonctionnalités** XML en tant que ressource dans votre fournisseur. 
     
 - Votre fournisseur OSC peut générer un volume important d’appels vers un réseau social. Selon les conditions d’utilisation de votre réseau social, envisagez de mettre en cache des amis dans un dossier Outlook pour réduire le nombre d’appels de l’OSC à votre fournisseur et, à son tour, de votre fournisseur vers le réseau social.
     
-- Office 2013 est disponible dans les versions 32 bits et 64 bits. Les versions d’Office antérieures à Office 2010 sont disponibles uniquement dans une version 32 bits. L’installation par défaut d’Office 2013 sur Windows 64 bits est 32 bits. Si vous envisagez de prendre en charge la version 64 bits d’OSC installée avec Office 2013 64 bits, vous devez également publier une version 64 bits de votre fournisseur. 
+- Office 2013 est disponible dans les versions 32 bits et 64 bits. Les versions Office antérieures Office 2010 sont disponibles uniquement dans une version 32 bits. L’installation par Office 2013 sur les Windows 64 bits est 32 bits. Si vous envisagez de prendre en charge la version 64 bits d’OSC installée avec Office 2013 64 bits, vous devez également publier une version 64 bits de votre fournisseur. 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -29,7 +29,7 @@ Excel4(xlGetInst, LPXLOPER pxRes, 0); /* returns low part only */
 Excel12(xlGetInst, LPXLOPER12 pxRes, 0); /* returns full handle */
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 Cette fonction n’a pas d’arguments.
   
@@ -39,16 +39,16 @@ Le handle d’instance (**xltypeInt**) sera dans le **champ val.w.**
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances d’Excel en cours d’exécution qui appellent la DLL.
+Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances de Excel qui appellent la DLL.
   
-Lorsque vous appelez cette fonction à l’aide [d’Excel4](excel4-excel12.md) ou [d’Excel4v,](excel4v-excel12v.md)la variable d’integer XLOPER renvoyée est un int court signé 16 bits. Cette capacité ne peut contenir que les 16 bits faibles du handle Windows 32 bits. À compter d’Excel 2007, la variable entière de la **xlOPER12** est un entier signé 32 bits et contient donc la poignée entière, ce qui supprime la nécessité d’itérer toutes les fenêtres ouvertes. 
+Lorsque vous appelez cette fonction à l’aide [d’Excel4](excel4-excel12.md) ou [d’Excel4v,](excel4v-excel12v.md)la variable d’integer XLOPER renvoyée est un int court signé 16 bits. Cette capacité ne peut contenir que les 16 bits faibles de la poignée de Windows 32 bits. À compter de Excel 2007, la variable entière de la **xlOPER12** est un entier signé 32 bits et contient donc la poignée entière, ce qui supprime la nécessité d’itérer toutes les fenêtres ouvertes. 
   
 > [!IMPORTANT]
-> Si la **fonction xlGetInst** est utilisée avec la version 64 bits de Microsoft Excel, la fonction échoue. Cela est dû au fait que le type de valeur **xltypeInt** n’est pas suffisamment large pour contenir la poignée longue 64 bits renvoyée par Excel dans ce cas. À cet effet, Excel 2010 a introduit une nouvelle fonction nommée [xlGetInstPtr](xlgetinstptr.md), qui s’exécute correctement avec les versions 32 bits et 64 bits d’Excel. 
+> Si la **fonction xlGetInst** est utilisée avec la version 64 bits de Microsoft Excel, la fonction échoue. Cela est dû au fait que le type de valeur **xltypeInt** n’est pas assez large pour contenir la poignée longue 64 bits renvoyée par Excel dans ce cas. À cet effet, Excel 2010 a introduit une nouvelle fonction nommée [xlGetInstPtr](xlgetinstptr.md), qui s’exécute correctement avec les versions 32 bits et 64 bits de Excel. 
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant compare l’instance de la dernière copie d’Excel qui l’a appelée à la copie actuelle d’Excel qui l’a appelée. Si elles sont identiques, elle renvoie 1 ; si ce n’est pas le cas, elle renvoie 0 ; Si la fonction échoue, elle renvoie -1.
+L’exemple suivant compare l’instance de la dernière copie de Excel qui l’a appelée à la copie actuelle de la Excel qui l’a appelée. Si elles sont identiques, elle renvoie 1 ; si ce n’est pas le cas, elle renvoie 0 ; Si la fonction échoue, elle renvoie -1.
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

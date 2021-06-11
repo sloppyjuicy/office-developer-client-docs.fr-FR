@@ -21,7 +21,7 @@ ms.locfileid: "33429907"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Effectue la même fonction que [HrOpenABEntryWithExchangeContext,](hropenabentrywithexchangecontext.md) sauf qu’il obtient automatiquement **emsabpUID** à partir de la ligne résolue et ouvre l’entryID . 
+Effectue la même fonction que [HrOpenABEntryWithExchangeContext,](hropenabentrywithexchangecontext.md) sauf qu’il obtient automatiquement **emsabpUID** de la ligne résolue et ouvre l’entryID . 
   
 |||
 |:-----|:-----|
@@ -42,11 +42,11 @@ HRESULT HrOpenABEntryWithResolvedRow(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _prwResolved_
   
-> [in] Pointeur vers la ligne résolue utilisée pour obtenir **emsabpUID** et ouvrir **l’entryID**.
+> [in] Pointeur vers la ligne résolue qui est utilisée pour obtenir **emsabpUID** et ouvrir **l’entryID**.
     
  _pAddrBook_
   
@@ -74,23 +74,23 @@ MAPI_BEST_ACCESS
     
 MAPI_CACHE_ONLY
   
-> Utilise uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> Utilise uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
 MAPI_DEFERRED_ERRORS
   
-> Permet à l’appel de réussir, potentiellement avant que l’entrée soit entièrement ouverte et disponible, ce qui signifie que les appels ultérieurs à l’entrée peuvent renvoyer une erreur.
+> Permet de réussir l’appel, éventuellement avant que l’entrée soit entièrement ouverte et disponible, ce qui signifie que les appels ultérieurs à l’entrée peuvent renvoyer une erreur.
     
 MAPI_GAL_ONLY
   
-> Utilise uniquement la LA GAL pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> Utilise uniquement la LA GAL pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
 MAPI_MODIFY
   
-> Demande l’ouverture de l’entrée avec une autorisation de lecture et d’écriture. Étant donné que les entrées sont ouvertes avec un accès en lecture seule par défaut, les clients ne doivent pas supposer que les autorisations de lecture et d’écriture ont été accordées, qu’MAPI_MODIFY soit définie ou non.
+> Demande l’ouverture de l’entrée avec une autorisation de lecture et d’écriture. Étant donné que les entrées sont ouvertes avec un accès en lecture seule par défaut, les clients ne doivent pas supposer que l’autorisation de lecture et d’écriture a été accordée, qu’MAPI_MODIFY soit définie ou non.
     
 MAPI_NO_CACHE
   
-> N’utilise pas le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> N’utilise pas le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
  _lpulObjType_
   

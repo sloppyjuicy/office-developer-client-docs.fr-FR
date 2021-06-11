@@ -19,7 +19,7 @@ ms.locfileid: "33425259"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La méthode [IABContainer::D eleteEntries](iabcontainer-deleteentries.md) de votre conteneur est appelée pour supprimer un ou plusieurs destinataires. **DeleteEntries a** deux paramètres : un tableau d’identificateurs d’entrée représentant les destinataires à supprimer et une valeur d’indicateurs réservés. La suppression d’un destinataire affecte la table des matières de votre conteneur . En plus de supprimer le destinataire, votre conteneur doit supprimer la ligne de table des matières qui représente le destinataire. Lorsque la ligne a été supprimée de la table, votre conteneur doit émettre une notification de table à chaque client inscrit. 
+La méthode [IABContainer::D eleteEntries](iabcontainer-deleteentries.md) de votre conteneur est appelée pour supprimer un ou plusieurs destinataires. **DeleteEntries a** deux paramètres : un tableau d’identificateurs d’entrée représentant les destinataires à supprimer et une valeur d’indicateurs réservés. La suppression d’un destinataire affecte la table des matières de votre conteneur ; En plus de supprimer le destinataire, votre conteneur doit supprimer la ligne de table des matières qui représente le destinataire. Lorsque la ligne a été supprimée de la table, votre conteneur doit émettre une notification de table à chaque client inscrit. 
   
 ### <a name="to-implement-iabcontainerdeleteentries"></a>Pour implémenter IABContainer::D eleteEntries
   

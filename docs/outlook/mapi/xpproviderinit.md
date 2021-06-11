@@ -47,7 +47,7 @@ HRESULT XPProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hInstance_
   
@@ -83,7 +83,7 @@ MAPI_NT_SERVICE
     
  _lpulProviderVer_
   
-> [out] Pointeur vers le numéro de version du spi utilisé par ce fournisseur de transport. 
+> [out] Pointeur vers le numéro de version du SPI utilisé par ce fournisseur de transport. 
     
  _lppXPProvider_
   
@@ -101,15 +101,15 @@ MAPI_E_VERSION
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la fonction de point d’entrée **XPProviderInit** pour initialiser un fournisseur de transport après une logon client. **XPProviderInit est** appelé une fois pour chaque fournisseur de transport spécifié dans le profil du client. 
+MAPI appelle la fonction de point d’entrée **XPProviderInit** pour initialiser un fournisseur de transport à la suite d’une logon client. **XPProviderInit est** appelé une fois pour chaque fournisseur de transport spécifié dans le profil du client. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Un fournisseur de transport doit implémenter **XPProviderInit** en tant que fonction de point d’entrée dans la DLL du fournisseur. L’implémentation doit être basée sur le prototype de fonction **XPPROVIDERINIT,** également spécifié dans Mapispi.h. MAPI définit **XPPROVIDERINIT** pour utiliser le type d’appel d’initialisation MAPI standard, STDMAPIINITCALLTYPE, ce qui entraîne **XPProviderInit** à respecter la convention d’appel CDECL. Un avantage de CDECL est que les appels peuvent être tentés même si le nombre de paramètres d’appel ne correspond pas au nombre de paramètres définis. 
+Un fournisseur de transport doit implémenter **XPProviderInit** en tant que fonction de point d’entrée dans la DLL du fournisseur. L’implémentation doit être basée sur le prototype de fonction **XPPROVIDERINIT,** également spécifié dans Mapispi.h. MAPI définit **XPPROVIDERINIT** pour utiliser le type d’appel d’initialisation MAPI standard, STDMAPIINITCALLTYPE, qui entraîne **XPProviderInit** à respecter la convention d’appel CDECL. Un avantage de CDECL est que les appels peuvent être tentés même si le nombre de paramètres d’appel ne correspond pas au nombre de paramètres définis. 
   
-Un fournisseur peut être initialisé plusieurs fois suite à l’apparition de plusieurs profils dans une utilisation simultanée ou de l’apparition de plusieurs fois dans le même profil. Étant donné que l’objet fournisseur contient du contexte, **XPProviderInit** doit renvoyer un autre objet fournisseur dans  _lppXPProvider_ pour chaque initialisation, même pour plusieurs initialisations dans le même processus. 
+Un fournisseur peut être initialisé plusieurs fois suite à l’apparition de plusieurs profils dans une utilisation simultanée ou de l’apparition de plusieurs fois dans le même profil. Étant donné que l’objet fournisseur contient du contexte, **XPProviderInit** doit retourner un autre objet fournisseur dans  _lppXPProvider_ pour chaque initialisation, même pour plusieurs initialisations dans le même processus. 
   
-Le fournisseur de transport doit utiliser les fonctions pointées par  _lpAllocateBuffer,_  _lpAllocateMore_ et  _lpFreeBuffer_ pour la plupart des allocations de mémoire et de la déallocation. En particulier, le fournisseur doit utiliser ces fonctions pour allouer de la mémoire aux applications clientes lors de l’appel d’interfaces d’objets telles que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). Si le fournisseur s’attend également à utiliser l’allocation de mémoire OLE, il doit appeler la méthode **IUnknown::AddRef** de l’objet d’allocation pointé par le paramètre _lpMalloc._ 
+Le fournisseur de transport doit utiliser les fonctions pointées par  _lpAllocateBuffer,_  _lpAllocateMore_ et  _lpFreeBuffer_ pour la plupart des allocations de mémoire et de la déallocation. En particulier, le fournisseur doit utiliser ces fonctions pour allouer de la mémoire pour une utilisation par les applications clientes lors de l’appel d’interfaces d’objet telles que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). Si le fournisseur s’attend également à utiliser l’allocation de mémoire OLE, il doit appeler la méthode **IUnknown::AddRef** de l’objet d’allocation pointé par le paramètre _lpMalloc._ 
   
 Pour plus d’informations **sur l’écriture de XPProviderInit,** voir [Initialisation du fournisseur de transport.](initializing-the-transport-provider.md) Pour plus d’informations sur les fonctions de point d’entrée, voir [Implementing a Service Provider Entry Point Function](implementing-a-service-provider-entry-point-function.md). 
   

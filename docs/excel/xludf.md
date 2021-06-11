@@ -29,7 +29,7 @@ Excel12(xlUDF, LPXLOPER12 pxRes, int iCount, LPXLOPER12 pxFnRef,
 LPXLOPER12 pxArg1, ...);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxFnRef_ (**xltypeRef**, **xltypeSRef**, **xltypeStr** ou **xltypeNum**)
   
@@ -37,7 +37,7 @@ Référence de la fonction que vous souhaitez appeler. Il peut s’agit d’une 
   
 _pxArg1, ..._
   
-Zéro ou plusieurs arguments de la fonction définie par l’utilisateur. Lorsque vous appelez cette fonction dans les versions antérieures à Excel 2007, le nombre maximal d’arguments supplémentaires qui peuvent être passés est 29, soit 30,  _pxFnRef_ compris. À compter d’Excel 2007, cette limite est élevée à 254, soit 255,  _pxFnRef_ compris.
+Zéro ou plusieurs arguments de la fonction définie par l’utilisateur. Lorsque vous appelez cette fonction dans les versions antérieures à Excel 2007, le nombre maximal d’arguments supplémentaires qui peuvent être passés est 29, soit 30, _pxFnRef_ compris. À compter Excel 2007, cette limite est élevée à 254, soit 255, _pxFnRef compris._
   
 ## <a name="return-value"></a>Valeur renvoyée
 

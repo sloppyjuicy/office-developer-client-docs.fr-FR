@@ -32,7 +32,7 @@ HRESULT TransportNotify(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
@@ -44,7 +44,7 @@ NOTIFY_ABORT_DEFERRED
     
 NOTIFY_BEGIN_INBOUND 
   
-> Lepooler MAPI peut désormais accepter les messages entrants pour cette session de fournisseur de transport. Lepooler MAPI appelle régulièrement la méthode [IXPLogon::P élément](ixplogon-poll.md) si le fournisseur de transport a pour but de définir l’indicateur LOGON_SP_POLL avec l’appel [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) à l’LOGON_SP_POLL. Une fois que l’indicateur NOTIFY_BEGIN_INBOUND est définie, lepooler MAPI honore l’indicateur NOTIFY_NEWMAIL passé dans l’appel à la méthode [IMAPISupport::SpoolerNotify.](imapisupport-spoolernotify.md) La ligne de tableau d’état de la session du fournisseur de transport doit être mise à jour avant d’être retourné en appelant la méthode [IMAPISupport::ModifyStatusRow.](imapisupport-modifystatusrow.md) Les indicateurs NOTIFY_BEGIN_INBOUND et NOTIFY_END_INBOUND sont mutuellement exclusifs. 
+> Lepooler MAPI peut désormais accepter les messages entrants pour cette session de fournisseur de transport. Lepooler MAPI appelle régulièrement la méthode [IXPLogon::P élément](ixplogon-poll.md) si le fournisseur de transport a pour but de définir l’indicateur LOGON_SP_POLL avec l’appel [IXPProvider::TransportLogon](ixpprovider-transportlogon.md) à l’LOGON_SP_POLL. Une fois que l’indicateur NOTIFY_BEGIN_INBOUND est définie, lepooler MAPI honore l’indicateur NOTIFY_NEWMAIL passé dans l’appel à la méthode [IMAPISupport::SpoolerNotify.](imapisupport-spoolernotify.md) La ligne de table d’état de la session du fournisseur de transport doit être mise à jour avant d’être retourné en appelant la méthode [IMAPISupport::ModifyStatusRow.](imapisupport-modifystatusrow.md) Les indicateurs NOTIFY_BEGIN_INBOUND et NOTIFY_END_INBOUND sont mutuellement exclusifs. 
     
 NOTIFY_BEGIN_INBOUND_FLUSH 
   
@@ -64,15 +64,15 @@ NOTIFY_CANCEL_MESSAGE
     
 NOTIFY_END_INBOUND 
   
-> Les opérations entrantes doivent cesser pour cette session de fournisseur de transport. Lepooler MAPI cesse d’utiliser la méthode **Poll** et ignore NOTIFY_NEWMAIL pour cette session. Les messages in-process doivent être terminés. La ligne de tableau d’état de la session de transport doit être mise à jour en appelant [ModifyStatusRow](imapisupport-modifystatusrow.md) avant de la renvoyer. Les indicateurs NOTIFY_END_INBOUND et NOTIFY_BEGIN_INBOUND s’excluent mutuellement. 
+> Les opérations entrantes doivent cesser pour cette session de fournisseur de transport. Lepooler MAPI cesse d’utiliser la méthode **Poll** et ignore les NOTIFY_NEWMAIL pour cette session. Les messages in-process doivent être terminés. La ligne de tableau d’état de la session de transport doit être mise à jour en appelant [ModifyStatusRow](imapisupport-modifystatusrow.md) avant de la renvoyer. Les indicateurs NOTIFY_END_INBOUND et NOTIFY_BEGIN_INBOUND sont mutuellement exclusifs. 
     
 NOTIFY_END_INBOUND_FLUSH 
   
-> Avertit le fournisseur de transport de sorte qu’il sorte du mode de purge entrant. Le fournisseur de transport ne doit pas arrêter le téléchargement, mais le téléchargement doit être effectué en arrière-plan. La ligne de table d’état de la session de transport doit être mise à jour en appelant **ModifyStatusRow** lorsque le fournisseur de transport peut se conformer à cette notification. 
+> Avertit le fournisseur de transport qu’il doit sortir du mode de purge entrant. Le fournisseur de transport ne doit pas arrêter le téléchargement, mais le téléchargement doit être effectué en arrière-plan. La ligne de table d’état de la session de transport doit être mise à jour en appelant **ModifyStatusRow** lorsque le fournisseur de transport peut se conformer à cette notification. 
     
 NOTIFY_END_OUTBOUND 
   
-> Les opérations sortantes doivent cesser pour cette session de fournisseur de transport. Lepooler MAPI cesse d’appeler **SubmitMessage** et ignore l’indicateur **NOTIFY_READYTOSEND SpoolerNotify.** S’il existe un message sortant en cours d’envoi, il ne doit pas être arrêté ; pour arrêter la remise d’un message, utilisez l’NOTIFY_CANCEL_MESSAGE message. La ligne de tableau d’état de cette session doit être mise à jour en appelant **ModifyStatusRow** avant de la renvoyer. Les indicateurs NOTIFY_END_INBOUND et NOTIFY_BEGIN_OUTBOUND sont mutuellement exclusifs. 
+> Les opérations sortantes doivent cesser pour cette session de fournisseur de transport. Lepooler MAPI cesse d’appeler **SubmitMessage** et ignore **l’indicateur NOTIFY_READYTOSEND SpoolerNotify.** S’il existe un message sortant en cours d’envoi, il ne doit pas être arrêté ; pour arrêter la remise d’un message, utilisez l’indicateur NOTIFY_CANCEL_MESSAGE message. La ligne de tableau d’état de cette session doit être mise à jour en appelant **ModifyStatusRow** avant de la renvoyer. Les indicateurs NOTIFY_END_INBOUND et NOTIFY_BEGIN_OUTBOUND sont mutuellement exclusifs. 
     
 NOTIFY_END_OUTBOUND_FLUSH 
   

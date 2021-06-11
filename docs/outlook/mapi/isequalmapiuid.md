@@ -36,7 +36,7 @@ Teste deux structures [MAPIUID](mapiuid.md) pour déterminer si elles contiennen
 IsEqualMAPIUID(lpuid1, lpuid2)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpuid1_
   

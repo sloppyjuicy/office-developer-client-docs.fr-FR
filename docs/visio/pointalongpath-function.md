@@ -42,9 +42,9 @@ POINTALONGPATH(** *section* **, ** *travel* ** ** *[,offset]* ** ** *[,segment]*
   
 ## <a name="remarks"></a>Remarques
 
-Si  _section_ ou  _segment_ n’existe pas, Microsoft Visio renvoie #REF!. 
+Si _section_ ou _segment_ n’existe pas, Microsoft Visio renvoie #REF!. 
   
-Les  *valeurs de*  décalage positif spécifient des points à gauche de la direction du déplacement. 
+Les  *valeurs de*  décalage positif spécifient des points à gauche du sens de déplacement. 
   
 Les  *valeurs de*  décalage négatives spécifient des points à droite de la direction du déplacement. 
   

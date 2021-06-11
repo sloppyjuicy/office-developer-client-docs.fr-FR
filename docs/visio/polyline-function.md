@@ -28,7 +28,7 @@ POLYLINE(** *xType* **, ** *yType* **, ** *x1* **, ** *y1* **...)
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _xType_ <br/> |Obligatoire  <br/> |**Booléen** <br/> |Indique comment interpréter les _données d’entrée x._ Si  _xType est_ 0, les  _données x_ d’entrée sont interprétées comme un pourcentage de la largeur. Si  _xType est_ 1, les  _données x_ d’entrée sont interprétées comme une coordonnée locale.  <br/> |
+| _xType_ <br/> |Obligatoire  <br/> |**Booléen** <br/> |Indique comment interpréter les _données d’entrée x._ Si  _xType est_ 0, les  _données x_ d’entrée sont interprétées comme un pourcentage de width. Si  _xType est_ 1, les  _données x_ d’entrée sont interprétées comme une coordonnée locale.  <br/> |
 | _yType_ <br/> |Obligatoire  <br/> |**Booléen** <br/> |Indique comment interpréter les données _d’entrée y._ Si  _yType est_ 0, l’entrée  _y_-data est interprétée comme un pourcentage de height. Si  _yType est_ 1, l’entrée  _y_-data est interprétée comme une coordonnée locale.  <br/> |
 | _x1_ <br/> |Obligatoire  <br/> |**Number** <br/> | Coordonnée _x._  <br/> |
 | _y1_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée _y._  <br/> |

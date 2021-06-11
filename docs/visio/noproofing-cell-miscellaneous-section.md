@@ -20,8 +20,8 @@ Détermine si l’orthographe est corrigée automatiquement et si les fautes d�
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |L’orthographe n’est pas corrigée automatiquement et les fautes d’orthographe ne sont pas affichées pour la forme sélectionnée.  <br/> |
-|FALSE  <br/> |L’orthographe est automatiquement corrigée et les fautes d’orthographe sont affichées pour la forme sélectionnée.  <br/> |
+|TRUE  <br/> |L’orthographe n’est pas corrigée automatiquement et les fautes d’orthographe ne s’affichent pas pour la forme sélectionnée.  <br/> |
+|FALSE  <br/> |L’orthographe est automatiquement corrigée et les fautes d’orthographe s’affichent pour la forme sélectionnée.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

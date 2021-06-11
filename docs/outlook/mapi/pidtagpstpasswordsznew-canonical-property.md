@@ -38,7 +38,7 @@ Contient le nouveau mot de passe à utiliser pour un accès futur au magasin de 
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -43,7 +43,7 @@ ULONG WIZARDENTRY(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hProviderDLLInstance_
   
@@ -51,11 +51,11 @@ ULONG WIZARDENTRY(
     
  _lpcsResourceName_
   
-> [out] Pointeur vers une chaîne qui contient le nom complet de la ressource de boîte de dialogue qui doit être affichée par l’Assistant Profil pendant la configuration. La taille maximale de la chaîne, y compris le terminateur NULL, est de 32 caractères. 
+> [out] Pointeur vers une chaîne qui contient le nom complet de la ressource de boîte de dialogue qui doit être affichée par l’Assistant Profil lors de la configuration. La taille maximale de la chaîne, y compris le terminateur NULL, est de 32 caractères. 
     
  _lppDlgProc_
   
-> [out] Pointeur vers une procédure de boîte de dialogue Windows standard qui sera appelée par l’Assistant Profil pour notifier le fournisseur de différents événements. 
+> [out] Pointeur vers une procédure Windows boîte de dialogue standard qui sera appelée par l’Assistant Profil pour informer le fournisseur de divers événements. 
     
  _lpMAPIProp_
   
@@ -87,6 +87,6 @@ Le nom de la ressource est celui de la ressource de boîte de dialogue qui sera 
   
 Le pointeur d’interface de propriétés fourni dans le paramètre  _lpMAPIProp_ doit être conservé par le fournisseur pour référence ultérieure. L’Assistant Profil traite uniquement de l’ensemble de propriétés le plus élémentaire, et le fournisseur peut utiliser l’implémentation de l’interface de propriétés pour inclure des propriétés supplémentaires. Pendant la configuration, les fournisseurs doivent ajouter leurs propriétés de configuration à l’objet qui implémente l’interface de propriétés. Une fois tous les fournisseurs configurés, l’Assistant Profil ajoute ces propriétés au profil. 
   
-Pour plus d’informations sur l’utilisation de cette fonction, voir Prise en charge [de la configuration du service de message.](supporting-message-service-configuration.md) 
+Pour plus d’informations sur l’utilisation de cette fonction, voir [Prise en charge de la configuration du service de message.](supporting-message-service-configuration.md) 
   
 

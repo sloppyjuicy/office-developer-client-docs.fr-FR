@@ -33,7 +33,7 @@ SETF( GETREF(** *cell* ** ), ** *formula* ** )
    
 ## <a name="remarks"></a>Remarques
 
-Lorsqu’elle est évaluée, le résultat de l’expression _dans_ la formule devient la nouvelle formule dans la _cellule._ Si _la formule_ est entre guillemets, l’expression entre guillemets est écrite dans la _cellule._ Pour définir  _une cellule_ sur une chaîne, inséz-la  _entre_ trois guillemets. 
+Lorsqu’elle est évaluée, le résultat de l’expression _dans_ la formule devient la nouvelle formule dans la _cellule._ Si  _la formule_ est entre guillemets, l’expression entre guillemets est écrite dans la  _cellule_. Pour définir  _une cellule_ sur une chaîne, inséz-la  _entre_ trois guillemets. 
   
 La cellule cible doit être définie à l’aide d’une référence GETREF() ou sous forme de chaîne pour éviter la circularité. Il est préférable d’utiliser GETREF, car Microsoft Visio peut ajuster les références lorsque la forme est déplacée vers un autre document.
   

@@ -33,7 +33,7 @@ Cette rubrique recommande aux administrateurs, clients MAPI et fournisseurs MAPI
     
 - Un client MAPI ne doit jamais appeler directement l’interface **IMAPIProviderShutdown d’un** fournisseur. Les clients MAPI doivent toujours utiliser l’interface [IMAPIClientShutdown : IUnknown.](imapiclientshutdowniunknown.md) 
     
-- Si un fournisseur MAPI doit s’assurer que l’arrêt rapide n’est pas utilisé pendant son chargement, il doit implémenter l’interface **IMAPIProviderShutdown** et renvoyer MAPI_E_NO_SUPPORT pour la méthode **IMAPIProviderShutdown::QueryFastShutdown.** Toutefois, pour les clients MAPI tels qu’Outlook, le client abandonnera l’arrêt rapide et prendra plus de temps à s’arrêter. 
+- Si un fournisseur MAPI doit s’assurer que l’arrêt rapide n’est pas utilisé pendant son chargement, il doit implémenter l’interface **IMAPIProviderShutdown** et renvoyer MAPI_E_NO_SUPPORT pour la méthode **IMAPIProviderShutdown::QueryFastShutdown.** Toutefois, pour les clients MAPI tels que Outlook, le client abandonnera l’arrêt rapide et prendra plus de temps à s’arrêter. 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -28,7 +28,7 @@ Renvoie le chemin d’accès complet et le nom de fichier de la DLL sous la form
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 Cette fonction n’a pas d’arguments.
   

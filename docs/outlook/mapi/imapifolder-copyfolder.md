@@ -40,7 +40,7 @@ HRESULT CopyFolder(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -158,7 +158,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFolder::CopyFolder** pour copier des dossiers d’un emplacement à un autre. MFCMAPI se souvenir du dossier source pendant l’opération de copie et effectue en fait la copie pendant l’opération de coller.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFolder::CopyFolder** pour copier des dossiers d’un emplacement à un autre. MFCMAPI mémorisera le dossier source pendant l’opération de copie et effectuera en fait la copie pendant l’opération de coller.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

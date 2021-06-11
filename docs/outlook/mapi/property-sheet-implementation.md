@@ -21,7 +21,7 @@ ms.locfileid: "33430048"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une feuille de propriétés est une boîte de dialogue qui affiche les propriétés d’un objet. Les propriétés peuvent être en lecture seule, ce qui permet à l’utilisateur de les afficher uniquement, ou en lecture/écriture, ce qui lui permet d’apporter des modifications. Une feuille de propriétés contient une ou plusieurs fenêtres enfants superposées appelées pages. Chaque page contient des fenêtres de contrôle pour définir un groupe de propriétés connexes. Les utilisateurs naviguent d’une page à l’autre en sélectionnant un onglet qui place la page correspondante au premier plan de la feuille des propriétés.
+Une feuille de propriétés est une boîte de dialogue qui affiche les propriétés d’un objet. Les propriétés peuvent être en lecture seule, ce qui permet à l’utilisateur de les afficher uniquement, ou en lecture/écriture, ce qui lui permet d’apporter des modifications. Une feuille de propriétés contient une ou plusieurs fenêtres enfants superposées appelées pages. Chaque page contient des fenêtres de contrôle pour la définition d’un groupe de propriétés connexes. Les utilisateurs naviguent d’une page à l’autre en sélectionnant un onglet qui place la page correspondante au premier plan de la feuille des propriétés.
   
 Les fournisseurs de services doivent implémenter une feuille de propriétés qui affiche un ensemble minimal de propriétés liées à la configuration dans le service de messagerie. Si vous autorisez la modification de ces propriétés de service de message, vous pouvez autoriser les utilisateurs d’applications clientes, telles que le Panneau de contrôle, à apporter les modifications ou à implémenter les modifications par programme. L’implémentation de feuilles de propriétés pour afficher et modifier d’autres types de propriétés est facultative. 
   
@@ -39,13 +39,13 @@ Vous pouvez utiliser l’une des trois techniques suivantes pour créer une feui
   
 - Manuellement, comme vous le feriez pour n’importe quelle boîte de dialogue.
     
-- À l’aide du contrôle commun de feuille de propriétés fourni dans le SDK Windows.
+- À l’aide du contrôle commun de feuille de propriétés fourni dans Windows SDK.
     
 - À l’aide d’un tableau d’affichage MAPI.
     
-Les fournisseurs doivent choisir la dernière option (créer une feuille de propriétés à l’aide d’un tableau d’affichage). Il s’agit de l’option la plus simple, car elle élimine la nécessité d’utiliser l’interface utilisateur Windows. 
+Les fournisseurs doivent choisir la dernière option (créer une feuille de propriétés à l’aide d’un tableau d’affichage). Il s’agit de l’option la plus simple, car elle élimine la nécessité d’utiliser l’interface Windows’utilisateur. 
   
-Pour implémenter une feuille de propriétés construite à partir d’un tableau d’affichage pour les propriétés de votre service de message, utilisez la procédure suivante :
+Pour implémenter une feuille de propriétés conçue à partir d’une table d’affichage pour les propriétés de votre service de message, utilisez la procédure suivante :
   
 1. Appelez [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) pour ouvrir une section dans le profil actuel. Passez votre [MAPIUID](mapiuid.md) ou NULL pour ouvrir la section de profil de votre fournisseur. 
     
@@ -59,13 +59,13 @@ Pour implémenter une feuille de propriétés construite à partir d’un tablea
     
 6. Lorsque toutes les modifications ont été apportées dans la feuille des propriétés, appelez la méthode **IMAPIProp::CopyTo** de l’objet de données de propriété pour copier les propriétés modifiées dans la section de profil. 
     
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) 
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) 
   
 Pour plus d’informations sur les tableaux d’affichage, voir [Display Table Implementation](display-table-implementation.md). 
   
 Pour plus d’informations sur l’implémentation d’un contrôle, voir [Control Object Implementation](control-object-implementation.md).
   
-Pour récupérer l’index d’un contrôle qu’un utilisateur sélectionne dans une zone de liste de tableau d’affichage, attendez que l’utilisateur clique sur **OK** ou **Applique.** À ce stade, l’identificateur d’entrée de l’élément sélectionné est écrit dans l’interface [IMAPIProp : IUnknown](imapipropiunknown.md) en tant que valeur de la propriété spécifiée par le membre **ulPRSetProperty** dans la structure [DTBLLBX.](dtbllbx.md) 
+Pour récupérer l’index d’un contrôle qu’un utilisateur sélectionne dans une zone de liste de tableau d’affichage, attendez que l’utilisateur clique sur **OK** ou **Appliquer.** À ce stade, l’identificateur d’entrée de l’élément sélectionné est écrit dans l’interface [IMAPIProp : IUnknown](imapipropiunknown.md) en tant que valeur de la propriété spécifiée par le membre **ulPRSetProperty** dans la structure [DTBLLBX.](dtbllbx.md) 
   
 Si vous devez pouvoir ajouter ou supprimer des éléments de votre zone de liste, l’utilisation d’un tableau d’affichage et de la méthode [IMAPISupport::D oConfigPropsheet](imapisupport-doconfigpropsheet.md) ne fonctionne pas. Envisagez plutôt d’implémenter une feuille de propriétés avec l’API de feuille de propriétés Win32 contenue dans comdlg32.dll fichier. 
   

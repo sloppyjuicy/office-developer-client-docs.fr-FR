@@ -31,7 +31,7 @@ L’ouverture d’une pièce jointe implique l’affichage de ses données. Par 
     
     1. Ouvrez la pièce jointe en passant le numéro de pièce jointe représenté dans la **colonne PR_ATTACH_NUM** dans un appel à la méthode **IMessage::OpenAttach** du message. Pour plus d’informations, [voir IMessage::OpenAttach](imessage-openattach.md). **OpenAttach renvoie** un pointeur vers une implémentation **IAttach** qui fournit l’accès aux propriétés de pièce jointe. 
         
-    2. Appelez la méthode **IMAPIProp::GetProps** de la pièce jointe pour récupérer **sa PR_ATTACH_METHOD** jointe. Pour plus d’informations, [voir IMAPIProp::GetProps](imapiprop-getprops.md) et **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)).
+    2. Appelez la méthode **IMAPIProp::GetProps** de la pièce jointe pour récupérer **PR_ATTACH_METHOD** propriété. Pour plus d’informations, [voir IMAPIProp::GetProps](imapiprop-getprops.md) et **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)).
         
     3. Si **PR_ATTACH_METHOD** est définie sur ATTACH_BY_REF_ONLY, appelez **IMAPIProp::GetProps** pour récupérer la **PR_ATTACH_PATHNAME** propriété. Pour plus d’informations, **voir PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)).
         
@@ -39,7 +39,7 @@ L’ouverture d’une pièce jointe implique l’affichage de ses données. Par 
         
     5. Si **PR_ATTACH_METHOD** est définie sur ATTACH_OLE et que la pièce jointe est un objet OLE 2 : 
         
-        1. Appelez **IMAPIProp::OpenProperty** pour ouvrir la propriété **pr \_ ATTACH_DATA_OBJ** avec l’interface **IStreamDocfile.** Essayez d’utiliser cette interface, car il s’agit d’une implémentation **d’IStream** dont l’utilisation du stockage structuré est garantie avec le moins de surcharge. Pour plus d’informations, **voir PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)).
+        1. Appelez **IMAPIProp::OpenProperty** pour ouvrir la propriété **pr \_ ATTACH_DATA_OBJ** avec l’interface **IStreamDocfile.** Essayez d’utiliser cette interface, car il s’agit d’une implémentation **d’IStream** dont l’utilisation du stockage structuré est garantie avec la charge de travail la moins importante. Pour plus d’informations, **voir PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)).
             
         2. Si **l’appel OpenProperty** échoue, appelez-le à nouveau pour récupérer la propriété **PR_ATTACH_DATA_BIN** avec l’interface **IStreamDocfile.** 
             

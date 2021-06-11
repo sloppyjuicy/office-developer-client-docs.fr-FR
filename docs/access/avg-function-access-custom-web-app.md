@@ -28,7 +28,7 @@ La **fonction Avg** contient l’argument suivant.
   
 |**Argument**|**Description**|
 |:-----|:-----|
-|NumericExpression  <br/> |Expression chaîne identifiant le champ qui contient les données numériques que vous souhaitez moyenner ou une expression qui effectue un calcul à l’aide des données de ce champ. Les opérandes dans  *NumericExpression*  peuvent inclure le nom d’un champ de table, d’une variable ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas une des autres fonctions d’agrégation SQL).  <br/> |
+|NumericExpression  <br/> |Expression chaîne identifiant le champ qui contient les données numériques que vous souhaitez moyenner ou une expression qui effectue un calcul à l’aide des données de ce champ. Les opérandes dans *NumericExpression* peuvent inclure le nom d’un champ de table, d’une variable ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas une des autres fonctions d’agrégation SQL).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

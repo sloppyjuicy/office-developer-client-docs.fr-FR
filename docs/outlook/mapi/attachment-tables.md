@@ -27,7 +27,7 @@ Une table de pièces jointes est accessible en appelant l’une des opérations 
   
 - [IMessage::GetAttachmentTable](imessage-getattachmenttable.md)
     
-- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), demandant la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)).
+- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), requesting the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property.
     
 Les tables de pièces jointes sont dynamiques.
   
@@ -47,11 +47,11 @@ Les tables de pièces jointes peuvent être petites ; il n’y a que quatre colo
     
  **PR_ATTACH_NUM** est nontransmitable et contient une valeur permettant d’identifier de manière unique une pièce jointe dans un message. Cette propriété est souvent utilisée comme index dans les lignes du tableau. **PR_ATTACH_NUM** a une courte durée de vie ; il n’est valide que lorsque le message contenant la pièce jointe est ouvert. Sa valeur reste constante tant que la table des pièces jointes est ouverte. 
   
- **PR_INSTANCE_KEY** est requis dans presque tous les tableaux. Il est utilisé pour identifier de manière unique une ligne particulière. 
+ **PR_INSTANCE_KEY** est obligatoire dans presque tous les tableaux. Il est utilisé pour identifier de manière unique une ligne particulière. 
   
- **PR_RECORD_KEY** est généralement utilisé pour identifier de manière unique un objet à des fins de comparaison. Contrairement **PR_ATTACH_NUM**, **PR_RECORD_KEY** a la même étendue qu’un identificateur d’entrée à long terme ; Il reste disponible et valide même après la fermeture et la réouverture du message. Pour plus d’informations sur l’utilisation des clés d’enregistrement dans MAPI, voir [MapI Record and Search Keys](mapi-record-and-search-keys.md).
+ **PR_RECORD_KEY** est généralement utilisé pour identifier de manière unique un objet à des fins de comparaison. Contrairement **PR_ATTACH_NUM**, **PR_RECORD_KEY** a la même étendue qu’un identificateur d’entrée à long terme ; il reste disponible et valide même après la fermeture et la réouverture du message. Pour plus d’informations sur l’utilisation des clés d’enregistrement dans MAPI, voir [MapI Record and Search Keys](mapi-record-and-search-keys.md).
   
- **PR_RENDERING_POSITION** indique comment une pièce jointe doit être affichée dans un message texte enrichi. Il peut être décalé en caractères, le premier caractère du contenu du message étant stocké dans la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) étant décalé de 0 ou de -1 (0xFFFFFFFF), indiquant que la pièce jointe ne doit pas être rendue du tout dans le texte du message. Ne pas **définir PR_RENDERING_POSITION** est également une option. 
+ **PR_RENDERING_POSITION** indique comment une pièce jointe doit être affichée dans un message texte enrichi. Il peut être décalé en caractères, le premier caractère du contenu du message étant stocké dans la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) étant décalé de 0 ou de -1 (0xFFFFFFFF), ce qui indique que la pièce jointe ne doit pas être rendue du tout dans le texte du message. Ne pas **définir PR_RENDERING_POSITION** est également une option. 
   
 Lorsqu’une table de pièces jointes est triée par position de rendu, le fournisseur de la boutique de messages la traite comme une valeur signée (PT_LONG). Par conséquent, les pièces jointes dont les positions de rendu sont de -1 sont triées avant les pièces jointes dont les positions de rendu reflètent des décalages valides. 
   
@@ -59,7 +59,7 @@ Pour plus d’informations sur le rendu d’une pièce jointe dans un message en
   
 Pour plus d’informations sur le rendu d’une pièce jointe dans du texte formaté tel que RTF (Rich Text Format), voir [Rendering an Attachment in RTF Text](rendering-an-attachment-in-rtf-text.md).
   
-Voici quelques-unes des propriétés que les fournisseurs de magasins de messages incluent généralement dans une table de pièces jointes, car elles sont faciles à calculer ou à récupérer :
+Certaines des propriétés que les fournisseurs de magasins de messages incluent généralement dans une table de pièces jointes, car elles sont faciles à calculer ou à récupérer sont les suivantes :
   
 |||
 |:-----|:-----|

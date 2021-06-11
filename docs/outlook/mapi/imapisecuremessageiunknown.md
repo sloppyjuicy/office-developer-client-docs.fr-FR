@@ -44,7 +44,7 @@ Définit les méthodes utilisées pour gérer les messages sécurisés.
 |Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
 |Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
 |Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que ce [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule.  <br/> |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que cet [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule.  <br/> |
 |Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
 |Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |
 |Membre d’espace réservé.  <br/> |Non pris en charge ou documenté.  <br/> |

@@ -25,7 +25,7 @@ ms.locfileid: "33429109"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Met à jour l’état dans la boîte de dialogue d’envoi/réception. Le fournisseur de magasin appelle périodiquement cette fonction.
+Met à jour l’état dans la boîte de dialogue d’envoi/réception. Le fournisseur de magasins appelle régulièrement cette fonction.
   
 ```cpp
 HRESULT Progress(
@@ -35,7 +35,7 @@ HRESULT Progress(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  **pwczsProgress**
   

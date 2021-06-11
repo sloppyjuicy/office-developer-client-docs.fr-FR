@@ -34,7 +34,7 @@ HRESULT GetContentsTable(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT GetContentsTable(
     
 MAPI_ASSOCIATED 
   
-> La table des matières associée au conteneur doit être renvoyée à la place de la table des matières standard. Cet indicateur est utilisé uniquement avec les dossiers. Les messages qui sont inclus dans la table des matières associée ont été créés avec l’indicateur MAPI_ASSOCIATED définie dans l’appel à la méthode [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) Les clients utilisent généralement la table des matières associée pour récupérer des formulaires, des affichages et d’autres messages masqués. 
+> La table des matières associée au conteneur doit être renvoyée au lieu de la table des matières standard. Cet indicateur est utilisé uniquement avec les dossiers. Les messages qui sont inclus dans la table des matières associée ont été créés avec l’indicateur MAPI_ASSOCIATED définie dans l’appel à la méthode [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) Les clients utilisent généralement la table des matières associée pour récupérer des formulaires, des affichages et d’autres messages masqués. 
     
 ACLTABLE_FREEBUSY
   
@@ -50,15 +50,15 @@ ACLTABLE_FREEBUSY
     
 MAPI_DEFERRED_ERRORS 
   
-> **GetContentsTable** peut renvoyer correctement, éventuellement avant que la table soit disponible pour l’appelant. Si la table n’est pas disponible, un appel de table ultérieur peut occasioner une erreur. 
+> **GetContentsTable** peut renvoyer correctement, éventuellement avant que la table soit disponible pour l’appelant. Si la table n’est pas disponible, effectuer un appel de table ultérieur peut occasioner une erreur. 
     
 MAPI_UNICODE 
   
-> Demande que les colonnes qui contiennent des données de chaîne soient renvoyées au format Unicode. Si l MAPI_UNICODE n’est pas définie, les chaînes doivent être renvoyées au format ANSI. 
+> Demande que les colonnes qui contiennent des données de chaîne soient renvoyées au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes doivent être renvoyées au format ANSI. 
     
 SHOW_SOFT_DELETES
   
-> Affiche les éléments qui sont actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
+> Affiche les éléments actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
     
  _lppTable_
   
@@ -96,7 +96,7 @@ Si vous prendre en charge une table des matières pour votre conteneur, vous dev
     
     [Méthodes IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPIProp::GetPropList.](imapiprop-getproplist.md) 
     
-L’implémentation de cette méthode par un fournisseur de transport distant doit renvoyer un pointeur vers une interface [IMAPITable : IUnknown](imapitableiunknown.md) dans le paramètre _ppTable_ transmis à la méthode **GetContentsTable.** Si votre fournisseur de transport possède une table des matières existante, il suffit de renvoyer un pointeur vers cette table. Si ce n’est pas le cas, cette méthode doit créer un objet [IMAPITable : IUnknown,](imapitableiunknown.md) remplir le tableau avec des en-têtes de message (le cas cas sont disponibles) et renvoyer un pointeur vers le nouveau tableau. La [méthode ITableData::HrGetView](itabledata-hrgetview.md) est utile pour générer une valeur de retour et stocker le pointeur de table dans le _paramètre ppTable._ La table des matières doit prendre en charge au moins les colonnes de propriétés suivantes : 
+L’implémentation de cette méthode par un fournisseur de transport distant doit renvoyer un pointeur vers une interface [IMAPITable : IUnknown](imapitableiunknown.md) dans le paramètre _ppTable_ transmis à la méthode **GetContentsTable.** Si votre fournisseur de transport possède une table des matières existante, il suffit de renvoyer un pointeur vers cette table. Si ce n’est pas le cas, cette méthode doit créer un objet [IMAPITable : IUnknown,](imapitableiunknown.md) remplir le tableau avec des en-têtes de message (le cas cas sont disponibles) et renvoyer un pointeur vers le nouveau tableau. La [méthode ITableData::HrGetView](itabledata-hrgetview.md) est utile pour générer une valeur de retour et stocker le pointeur de table dans le _paramètre ppTable._ La table des matières doit prendre en charge au moins les colonnes de propriété suivantes : 
   
 - **PR_ENTRYID** ([PidTagEntryID](pidtagentryid-canonical-property.md))
     

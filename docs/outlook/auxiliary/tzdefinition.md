@@ -33,11 +33,11 @@ typedef struct {
 
 _wFlags_
   
-> Indique que le nom de clé qui représente le fuseau horaire dans le Registre Windows est valide. Étant donné que chaque fuseau horaire doit toujours être identifié par un nom de **clé,** ce membre doit toujours avoir la valeur TZDEFINITION_FLAG_VALID_KEYNAME .
+> Indique que le nom de clé qui représente le fuseau horaire dans le Windows registre est valide. Étant donné que chaque fuseau horaire doit toujours être identifié par un nom de **clé,** ce membre doit toujours avoir la valeur TZDEFINITION_FLAG_VALID_KEYNAME .
     
 _pwszKeyName_
   
-> Nom de la clé pour ce fuseau horaire dans le Registre Windows. Ce nom ne doit pas être localisée. Sa taille maximale est **MAX_PATH,** qui est définie dans le fichier d’en-tête du Kit de développement logiciel (SDK) Windows windows.h. 
+> Nom de la clé pour ce fuseau horaire dans le Windows registre. Ce nom ne doit pas être localisée. Il a une taille maximale de **MAX_PATH**, qui est définie dans le fichier d’en-tête du Kit de développement logiciel (SDK) Windows windows.h. 
     
 _cRules_
   

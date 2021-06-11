@@ -22,7 +22,7 @@ Indique le pourcentage d'agrandissement ou de réduction de la forme d'une ombre
   
 ## <a name="remarks"></a>Remarques
 
-Chaque ombre a un axe d'ombre portée, qui est un point sur l'ombre qui correspond à l'axe de la forme. Par exemple, si l'axe d'une forme est au centre de cette dernière, l'axe d'ombre portée est le point central de l'ombre. Lors de l’application d’une échelle à des ombres simples, l’agrandissement est centré à l’emplacement de la broche ombrée ; lors de l’application d’une échelle aux ombres obliques, le grossissement est appliqué dans le sens oblique. 
+Chaque ombre a un axe d'ombre portée, qui est un point sur l'ombre qui correspond à l'axe de la forme. Par exemple, si l'axe d'une forme est au centre de cette dernière, l'axe d'ombre portée est le point central de l'ombre. Lors de l’application d’une échelle à des ombres simples, le grossissement est centré à l’emplacement de la broche ombrée ; lors de l’application d’une échelle aux ombres obliques, le grossissement est appliqué dans le sens oblique. 
   
  Ce pourcentage est utilisé lorsque le type d’ombre d’une forme est définie sur Page Default (la cellule ShapeShdwType est égale à ** visFSTPageDefault ** ). 
   

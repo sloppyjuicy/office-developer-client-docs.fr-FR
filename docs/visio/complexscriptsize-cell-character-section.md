@@ -22,7 +22,7 @@ Taille de la police utilisée pour mettre en forme du texte composé de caractè
   
 ## <a name="remarks"></a>Remarques
 
-Les tailles de police de script  complexes sont répertoriées sous  l’onglet Police dans la boîte de dialogue Texte (cliquez sur la flèche du groupe Police sous **l’onglet Accueil).**  Cette liste apparaît uniquement si vous avez ajouté une langue qui contient des caractères asiatiques ou des caractères de script complexe dans la boîte de dialogue **Préférences de langue Microsoft Office**. (Cliquez sur **Démarrer**, cliquez sur **Tous les programmes**, cliquez sur **Microsoft Office**, cliquez sur **Outils Microsoft Office**, puis cliquez sur **Préférences de langue Microsoft Office**.
+Les tailles de police de script  complexes sont répertoriées sous  l’onglet Police de la boîte de dialogue Texte (cliquez sur la flèche du groupe Police sous **l’onglet Accueil).**  Cette liste apparaît uniquement si vous avez ajouté une langue qui contient des caractères asiatiques ou des caractères de script complexe dans la boîte de dialogue **Préférences de langue Microsoft Office**. (Cliquez sur **Démarrer**, cliquez sur **Tous les programmes**, cliquez sur **Microsoft Office**, cliquez sur **Outils Microsoft Office**, puis cliquez sur **Préférences de langue Microsoft Office**.
   
 Vous pouvez entrer cette valeur comme taille de point explicite ou comme pourcentage. Si vous indiquez un pourcentage, la valeur est basée sur celle de la cellule Size. Une valeur par défaut de 0 (zéro) signifie 100 %. 
   

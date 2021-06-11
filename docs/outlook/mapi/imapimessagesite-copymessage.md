@@ -33,7 +33,7 @@ HRESULT CopyMessage(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pFolderDestination_
   
@@ -59,7 +59,7 @@ Une implémentation classique de la **méthode CopyMessage** effectue les tâche
   
 1. Crée un message pour le message actuel à copier.
     
-2. Appelle la [méthode IPersistMessage::Save](ipersistmessage-save.md) avec un pointeur vers le nouveau message dans le paramètre _pMessage_ et FALSE dans le paramètre _fSameAsLoad._ 
+2. Appelle la méthode [IPersistMessage::Save](ipersistmessage-save.md) avec un pointeur vers le nouveau message dans le paramètre _pMessage_ et FALSE dans le paramètre _fSameAsLoad._ 
     
 3. Appelle la [méthode IPersistMessage::SaveCompleted,](ipersistmessage-savecompleted.md) en passant NULL dans le _paramètre pMessage._ 
     

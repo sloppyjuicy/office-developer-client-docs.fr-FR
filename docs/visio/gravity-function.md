@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251433
 localization_priority: Normal
 ms.assetid: db80f147-71a0-0b23-bc7e-fe1915dfdd21
-description: Calcule l’angle de rotation correct d’un bloc de texte pour la rotation de forme indiquée afin d’empêcher le texte de basculer vers le bas.
+description: Calcule l’angle de rotation correct d’un bloc de texte pour la rotation de forme indiquée afin d’empêcher le texte de se retourner vers le bas.
 ms.openlocfilehash: 77c944d954292e231f8bacbe3c8a4433aad5d689
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33429284"
 ---
 # <a name="gravity-function"></a>Fonction GRAVITY
 
-Calcule l’angle de rotation correct d’un bloc de texte pour la rotation de forme indiquée afin d’empêcher le texte de basculer vers le bas.
+Calcule l’angle de rotation correct d’un bloc de texte pour la rotation de forme indiquée afin d’empêcher le texte de se retourner vers le bas.
   
 ## <a name="syntax"></a>Syntaxe
 

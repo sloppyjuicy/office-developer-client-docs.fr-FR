@@ -29,7 +29,7 @@ FORMATEX(** *expression* **, » ** *format* ** « ,[ ** *srcUnit* ** ],[ ** *d
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur.  <br/> |
-| _format_ <br/> |Obligatoire  <br/> |**String** <br/> |Image de format utilisée pour mettre en forme la chaîne. Pour plus d’informations sur les images de format, voir [à propos des images de format.](about-format-pictures.md)  <br/> |
+| _format_ <br/> |Obligatoire  <br/> |**String** <br/> |Image de format utilisée pour mettre en forme la chaîne. Pour plus d’informations sur les images de format, voir [À propos des images de format.](about-format-pictures.md)  <br/> |
 | _srcUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> | Unités utilisées pour calculer expression (po, cm, etc.).  <br/> |
 | _dstUnit_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Unités à utiliser pour le résultat d’expression (po, cm, etc.).  <br/> |
 | _langID_ <br/> |Facultatif  <br/> |**Number** <br/> |Langue utilisée lors de la mise en forme des dates/heures de Microsoft Office System.  <br/> |

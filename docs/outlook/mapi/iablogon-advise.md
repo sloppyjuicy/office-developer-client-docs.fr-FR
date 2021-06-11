@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -76,7 +76,7 @@ S_OK
     
 MAPI_E_INVALID_ENTRYID 
   
-> L’identificateur d’entrée transmis  _dans le paramètre lpEntryID_ n’est pas dans le format approprié. 
+> L’identificateur d’entrée transmis dans  _le paramètre lpEntryID_ n’est pas dans le format approprié. 
     
 MAPI_E_NO_SUPPORT 
   
@@ -104,7 +104,7 @@ Vous pouvez prendre en charge les notifications avec ou sans l’aide de MAPI. M
     
 - [IMAPISupport::Notify](imapisupport-notify.md)
     
-Si vous utilisez les méthodes de support MAPI, appelez **Subscribe** lorsque votre méthode **Advise** est appelée et relâchez le pointeur _lpAdviseSink._ 
+Si vous avez choisi d’utiliser les méthodes de support MAPI, appelez **Subscribe** lorsque votre méthode **Advise** est appelée et relâchez le pointeur _lpAdviseSink._ 
   
 Si vous avez choisi de prendre en charge la notification vous-même, appelez la méthode **AddRef** du sink de notification représenté par le paramètre  _lpAdviseSink_ pour conserver une copie de ce pointeur. Conservez cette copie jusqu’à ce que votre [méthode IABLogon::Unadvise](iablogon-unadvise.md) soit appelée pour annuler l’inscription. 
   

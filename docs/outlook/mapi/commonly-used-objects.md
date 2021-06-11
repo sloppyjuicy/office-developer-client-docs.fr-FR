@@ -21,13 +21,13 @@ ms.locfileid: "33429410"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les informations sur les objets sont documentées dans différentes sections de la Référence MAPI Microsoft Outlook 2013. Étant donné que presque tous les objets MAPI exposent une interface MAPI unique, l’approche consiste à traiter les objets et les interfaces qu’ils exposent comme synonymes.
+Les informations sur les objets sont documentées dans différentes sections du Microsoft Outlook 2013 référence MAPI. Étant donné que presque tous les objets MAPI exposent une interface MAPI unique, l’approche consiste à traiter les objets et les interfaces qu’ils exposent comme synonymes.
   
 Vous trouverez des informations sur les objets et les interfaces dans les sections suivantes.
   
 - [Interfaces MAPI](mapi-interfaces.md)
     
-    Décrit les interfaces dans la référence MAPI Outlook 2013. Dans cette section, vous pouvez, par exemple, rechercher des informations sur la façon d’implémenter et d’utiliser un dossier sous son interface standard, **IMAPIFolder**.
+    Décrit les interfaces de la Outlook MAPI Reference 2013. Dans cette section, vous pouvez, par exemple, rechercher des informations sur la façon d’implémenter et d’utiliser un dossier sous son interface standard, **IMAPIFolder**.
     
 - [Vue d’ensemble de l’interface et de l’objet MAPI](mapi-object-and-interface-overview.md)
     

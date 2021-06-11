@@ -25,12 +25,12 @@ Lors de la préparation à l’envoi d’un message avec du texte mis en forme, 
   
 Pour améliorer les performances d’envoi de messages formatés, vous pouvez :
   
-- Mettre à niveau l’UC, une solution qui n’est pas toujours simple.
+- Mettre à niveau l’UC, une solution qui n’est pas toujours très simple.
     
     - Ou -
     
 - Écrivez du texte non compressé dans **PR_RTF_COMPRESSED** propriété. 
     
-La procédure de définition **d PR_RTF_COMPRESSED** texte non compressé est la même que pour la définition avec du texte compressé, à une exception près. Lorsque vous [appelez WrapCompressedRTFStream,](wrapcompressedrtfstream.md)définissez l’STORE_UNCOMPRESSED_RTF dans le _paramètre ulFlags._ La définition de texte non compressé présente l’inconvénient d’augmenter la taille des messages. 
+La procédure de définition **PR_RTF_COMPRESSED** texte non compressé est la même que pour la définition avec du texte compressé, à une exception près. Lorsque vous [appelez WrapCompressedRTFStream,](wrapcompressedrtfstream.md)définissez l’STORE_UNCOMPRESSED_RTF dans le _paramètre ulFlags._ La définition de texte non compressé présente l’inconvénient d’augmenter la taille des messages. 
   
 

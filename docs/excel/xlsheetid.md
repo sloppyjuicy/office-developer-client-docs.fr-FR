@@ -28,7 +28,7 @@ Recherche l’ID de feuille d’une feuille nommée afin de construire des réf�
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxSheetName_ (**xltypeStr**)
   
@@ -43,7 +43,7 @@ Renvoie l’ID de feuille  _dans pxRes- \> val.mref.idSheet_.
   
 ## <a name="remarks"></a>Remarques
 
-Le workbook contenant la feuille spécifiée doit être ouvert pour utiliser cette fonction. Il n’existe aucun moyen de construire une référence à un livre de travail non ouvert à partir d’une DLL. Pour plus d’informations sur l’utilisation de **xlSheetId** pour construire des références, voir Gestion de la mémoire dans [Excel](memory-management-in-excel.md) pour obtenir des exemples de construction **xltypeRef.** 
+Le workbook contenant la feuille spécifiée doit être ouvert pour utiliser cette fonction. Il n’existe aucun moyen de construire une référence à un livre de travail non ouvert à partir d’une DLL. Pour plus d’informations sur l’utilisation de **xlSheetId** pour construire des références, voir Gestion de [la mémoire dans Excel](memory-management-in-excel.md) pour obtenir des exemples de construction **xltypeRef.** 
   
 ## <a name="example"></a>Exemple
 

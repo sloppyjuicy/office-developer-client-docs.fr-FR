@@ -45,7 +45,7 @@ HrComposeEID(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _psession_
   
@@ -83,7 +83,7 @@ Aucun.
 
 Si le message ou un autre objet pour lequel l’identificateur d’entrée composée est créé réside dans une magasin de messages, l’identificateur est créé à partir de l’identificateur d’entrée de l’objet et de la clé d’enregistrement de la boutique. Si l’objet ne se trouve pas dans une banque, c’est-à-dire, si le nombre d’bytes pour la clé d’enregistrement de la banque transmise dans  _cbStoreRecordKey_ est zéro, l’identificateur d’entrée de l’objet est simplement copié. 
   
-La **fonction HrComposeEID** permet aux applications de travailler avec des objets dans plusieurs magasins via l’utilisation d’identificateurs d’entrée composés. Une application peut appeler la [fonction HrDecomposeEID](hrdecomposeeid.md) pour fractionner l’identificateur d’entrée composé en ses constituants d’origine. 
+La **fonction HrComposeEID** permet aux applications de travailler avec des objets dans plusieurs magasins via l’utilisation d’identificateurs d’entrée composés. Une application peut appeler la [fonction HrDecomposeEID](hrdecomposeeid.md) pour fractionner l’identificateur d’entrée composée en ses constituants d’origine. 
   
 ## <a name="see-also"></a>Voir aussi
 

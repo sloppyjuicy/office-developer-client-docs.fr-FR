@@ -60,7 +60,7 @@ typedef struct
 |||
 |:-----|:-----|
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |L’objet hors connexion est capable de passer hors connexion.  <br/> |
-|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |L’objet hors connexion est capable de passer en ligne.  <br/> |
+|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |L’objet hors connexion est capable d’être en ligne.  <br/> |
    
  **pGUID**
   

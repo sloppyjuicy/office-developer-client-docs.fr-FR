@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 13c0ae8c-d268-4bf0-942d-2a6160142f5e
-description: Cette rubrique propose quelques étapes pour en savoir plus sur le développement d’un fournisseur Outlook Social Connector (OSC).
+description: Cette rubrique suggère quelques étapes pour en savoir plus sur le développement d’un fournisseur Outlook Social Connector (OSC).
 ms.openlocfilehash: 581997ab257d59062761d97bfef49a88b90bb1e1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -19,7 +19,7 @@ ms.locfileid: "33424216"
 
 Pour développer un fournisseur OSC, vous devez effectuer les étapes générales suivantes :
   
-- Implémenter les quatre interfaces obligatoires : [ISocialProvider](isocialprovideriunknown.md), [ISocialSession](isocialsessioniunknown.md), [ISocialProfile](isocialprofileisocialperson.md)et [ISocialPerson](isocialpersoniunknown.md). En fonction de la prise en charge de votre réseau social pour la mise en cache des informations d’identification de connexion, le suivi d’une personne sur le réseau social ou la synchronisation dynamique des amis et de leurs activités, vous pouvez implémenter l’interface [ISocialSession2.](isocialsession2iunknown.md) 
+- Implémenter les quatre interfaces obligatoires : [ISocialProvider](isocialprovideriunknown.md), [ISocialSession](isocialsessioniunknown.md), [ISocialProfile](isocialprofileisocialperson.md)et [ISocialPerson](isocialpersoniunknown.md). Selon la prise en charge de votre réseau social pour la mise en cache des informations d’identification de connexion, le suivi d’une personne sur le réseau social ou la synchronisation dynamique des amis et de leurs activités, vous pouvez implémenter l’interface [ISocialSession2.](isocialsession2iunknown.md) 
     
 - Parallèlement à l’implémentation d’interfaces, testez et déboguer le fournisseur OSC. 
 
@@ -33,7 +33,7 @@ Un fournisseur OSC implémente des interfaces afin que l’OSC puisse utiliser c
   
 - Présentation de la boîte de dialogue d’accès au compte à un utilisateur.    
 - Indique si le fournisseur prend en charge l’affichage d’amis ou d’activités tels qu’ils sont affichés sur le réseau social.    
-- Comment afficher des amis et des activités dans la carte de visite ou le volet Contacts d’Outlook.     
+- Comment afficher des amis et des activités dans la carte de visite ou Outlook volet Contacts.     
 - Quand actualiser les informations d’amis ou d’activités sur la carte de visite ou le volet Contacts.
     
 Les informations sont généralement transmises du fournisseur à OSC, sous la forme de chaînes XML en tant que paramètres de sortie des méthodes d’interface. OsC et un fournisseur OSC sont conformes au schéma XML du fournisseur OSC. Par conséquent, au cours de l’implémentation des interfaces, vous devez bien comprendre comment le schéma XML vous permet de spécifier des informations telles que répertoriées ci-dessus. 
@@ -42,7 +42,7 @@ Les ressources suivantes expliquent comment spécifier du XML pour les fonctionn
   
 - [Séquences d'appels classiques OSC](osc-typical-calling-sequences.md)    
 - [Synchronisation des amis et des activités](synchronizing-friends-and-activities.md)    
-- [Exemple XML de fonctionnalités](capabilities-xml-example.md)   
+- [Exemple de fonctionnalités XML](capabilities-xml-example.md)   
 - [XML pour les fonctionnalités](xml-for-capabilities.md)    
 - [Exemple XML Friends](friends-xml-example.md)    
 - [XML pour les amis](xml-for-friends.md)   

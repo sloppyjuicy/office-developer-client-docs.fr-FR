@@ -25,7 +25,7 @@ ms.locfileid: "33429013"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche une feuille des propriétés de configuration.
+Affiche une feuille de propriétés de configuration.
   
 ```cpp
 HRESULT DoConfigPropsheet(
@@ -38,7 +38,7 @@ HRESULT DoConfigPropsheet(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -62,7 +62,7 @@ HRESULT DoConfigPropsheet(
     
  _ulTopPage_
   
-> [in] Index de base 0 vers la page supérieure par défaut de la feuille des propriétés.
+> [in] Index de base zéro vers la page supérieure par défaut de la feuille des propriétés.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -74,7 +74,7 @@ S_OK
 
 La **méthode IMAPISupport::D oConfigPropsheet** est implémentée pour tous les objets de prise en charge. **DoConfigPropSheet** fournit une interface utilisateur standard pour l’affichage des propriétés des fournisseurs de services et des services de messagerie. Vous devez utiliser cette boîte de dialogue standard pour tous les affichages de propriété de configuration afin que les utilisateurs bénéficient d’une interface Windows cohérente. 
   
-Les fournisseurs de services **appellent DoConfigPropSheet** dans le cadre de leur implémentation de la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) ou à partir d’un bouton utilisé pour afficher des détails sur les propriétés. Les services de message **appellent DoConfigPropSheet à** partir de leur fonction de point d’entrée de service de message. 
+Les fournisseurs de services **appellent DoConfigPropSheet** dans le cadre de leur implémentation de la méthode [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) ou à partir d’un bouton utilisé pour afficher des détails sur les propriétés. Les services de messages **appellent DoConfigPropSheet à** partir de leur fonction de point d’entrée de service de message. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

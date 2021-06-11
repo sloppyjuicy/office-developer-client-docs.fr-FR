@@ -8,7 +8,7 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- fonction tempnum12 [excel 2007],fonction TempNum [Excel 2007]
+- fonction tempnum12 [excel 2007],tempNum function [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -23,14 +23,14 @@ ms.locfileid: "33426631"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** XLOPER12 temporaire contenant un numéro de feuille de calcul /   Microsoft Excel (un double de 8 sur 8 d’IEEE). 
+Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** XLOPER12 temporaire contenant un numéro Microsoft Excel feuille de calcul (un double de /   8 byte IEEE). 
   
 ```cs
 LPXLOPER TempNum(double d);
 LPXLOPER12 TempNum12(double d);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _d_ (**double**)
   

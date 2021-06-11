@@ -23,7 +23,7 @@ Les notifications sur une table d’affichage sont envoyées par le fournisseur 
   
 Comme pour toutes les notifications de tableau, les notifications de tableau d’affichage incluent [TABLE_NOTIFICATION](table_notification.md) structure. Seuls **les membres ulTableEvent** et **propIndex** de cette structure sont significatifs ; les autres membres sont ignorés. Le **membre ulTableEvent** est définie sur TABLE_ROW_MODIFIED et le membre **propIndex** sur la valeur de la colonne **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) dans la ligne correspondante. MAPI répond à la notification en appelant la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) pour la propriété affichée dans le contrôle et en affichant la nouvelle valeur. 
   
-Les notifications de tableau d’affichage peuvent être utilisées par un fournisseur de services pour coordonner les modifications apportées aux contrôles associés dans la boîte de dialogue. Par exemple, si l’implémentation de l’interface de propriétés doit actualiser un ou plusieurs champs dans la boîte de dialogue , peut-être en réponse à un autre contrôle qui a définie l’indicateur DT_SET_IMMEDIATE dans sa propriété **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)), elle peut générer une notification de tableau d’affichage. Une notification de tableau d’affichage peut avertir l’implémentation de l’interface de propriétés que la valeur d’un ou plusieurs contrôles doit être relue en raison d’une modification ou d’un événement externe qui se produit. 
+Les notifications de tableau d’affichage peuvent être utilisées par un fournisseur de services pour coordonner les modifications apportées aux contrôles associés dans la boîte de dialogue. Par exemple, si l’implémentation de l’interface de propriétés doit actualiser un ou plusieurs champs dans la boîte de dialogue , peut-être en réponse à un autre contrôle qui a définie l’indicateur DT_SET_IMMEDIATE dans sa propriété **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)), elle peut générer une notification de tableau d’affichage. Une notification de tableau d’affichage peut avertir l’implémentation de l’interface de propriété que la valeur d’un ou plusieurs contrôles doit être relue en raison d’une modification ou d’un événement externe qui se produit. 
   
 Un fournisseur de services peut émettre des notifications de tableau d’affichage en :
   
@@ -46,7 +46,7 @@ MAPI répond aux notifications de tableau d’affichage lorsque cela est nécess
 |Étiquette  <br/> |Ignore la notification.  <br/> |
 |Zone de liste à sélection multiple  <br/> |Si l’une des colonnes est un identificateur d’entrée, actualisez la zone de liste. L’objet correspondant n’est ni fermé ni rechargé.  <br/> |
 |Zone de liste à sélection unique  <br/> |Lit la propriété set, en essayant de l’identifier.  <br/> |
-|Zone de liste à valeurs multiples  <br/> |Relecture la propriété et retentre la zone de liste.  <br/> |
+|Zone de liste à valeurs multiples  <br/> |Relecture la propriété et retente la zone de liste.  <br/> |
 |Page à onglets  <br/> |Il n’existe aucune notification pour ce contrôle ; tout est statique.  <br/> |
 |Bouton d’radio  <br/> |Relecture la propriété associée au bouton et est stockée dans le membre **ulPropTag** de la structure [DTBLRADIOBUTTON](dtblradiobutton.md) et effectue la sélection appropriée avec les contrôles.  <br/> |
    

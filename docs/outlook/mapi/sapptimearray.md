@@ -52,7 +52,7 @@ typedef struct _SAppTimeArray
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SAppTimeArray permet** de définir des propriétés de type PT_MV_APPTIME. Pour plus d’informations PT_MV_APPTIME, voir [Liste des types de propriétés.](property-types.md)
+La structure **SAppTimeArray est** utilisée pour définir des propriétés de type PT_MV_APPTIME. Pour plus d’informations PT_MV_APPTIME, voir [Liste des types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

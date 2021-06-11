@@ -29,7 +29,7 @@ La publication d’un message est similaire à l’envoi d’un message. La prin
     
 3. Appelez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) du message pour définir : 
     
-   - L MSGFLAG_READ dans la **propriété PidTagMessageFlags** [(PR_MESSAGE_FLAGS).](pidtagmessageflags-canonical-property.md)
+   - L MSGFLAG_READ de la **propriété PidTagMessageFlags** [(PR_MESSAGE_FLAGS).](pidtagmessageflags-canonical-property.md)
     
    - Propriétés **PR_SENDER** propriétés. 
     

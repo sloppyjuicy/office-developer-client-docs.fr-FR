@@ -32,7 +32,7 @@ HRESULT IConverterSession::SetAdrBook(
 LPADRBOOK pab); 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pab_
   

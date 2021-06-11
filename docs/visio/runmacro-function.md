@@ -33,7 +33,7 @@ RUNMACRO (** *nommacro* ** [, ** *projname_opt* ** ])
    
 ## <a name="remarks"></a>Remarques
 
-Si un projet est spécifié, Microsoft Visio recherche dans tous les documents ouverts celui contenant  _projname_opt_ et appelle le  _nom de macro_ dans ce projet. Si  _projname_opt_ est omis ou null (« ») le nom de  _macro_ est supposé se trouver dans le projet VBA du document qui contient la formule RUNMACRO évaluée. 
+Si un projet est spécifié, Microsoft Visio tous les documents  ouverts pour celui contenant projname_opt et appelle le _nom de macro_ dans ce projet. Si projname_opt est omis ou null («  _»)_ le nom de  _macro_ est supposé se trouver dans le projet VBA du document qui contient la formule RUNMACRO évaluée. 
   
 La fonction RUNMACRO diffère de la fonction CALLTHIS en ce qu’elle ne passe pas de référence à la forme propriétaire de la formule évaluée au nom _de macro._ Comme CALLTHIS, la fonction RUNMACRO ne nécessite pas de référence à projname_opt  _pour_ l’appeler. 
   

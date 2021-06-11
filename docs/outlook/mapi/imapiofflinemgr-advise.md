@@ -35,7 +35,7 @@ HRESULT COfflineObj::Advise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,7 +43,7 @@ HRESULT COfflineObj::Advise(
     
  _pAdviseInfo_
   
-> [in] Informations sur le type de rappel, le moment où recevoir un rappel, une interface de rappel pour l’appelant et d’autres détails. Il contient également un jeton client qu’Outlook utilise pour envoyer des rappels de notification ultérieurs à l’appelant client.
+> [in] Informations sur le type de rappel, le moment où recevoir un rappel, une interface de rappel pour l’appelant et d’autres détails. Il contient également un jeton client qui Outlook lors de l’envoi de rappels de notification ultérieurs à l’appelant client.
     
  _péAdviseToken_
   

@@ -23,9 +23,9 @@ Détermine la taille du dessin.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Identique au papier de l’imprimante  <br/> |**visPrintSetup** <br/> |
-|1   <br/> |Ajuster la page au contenu du dessin  <br/> |**visTight** <br/> |
-|2   <br/> |Standard  <br/> |**visStandard** <br/> |
-|3   <br/> |Taille de page personnalisée  <br/> |**visCustom** <br/> |
+|1  <br/> |Ajuster la page au contenu du dessin  <br/> |**visTight** <br/> |
+|2  <br/> |Standard  <br/> |**visStandard** <br/> |
+|3  <br/> |Taille de page personnalisée  <br/> |**visCustom** <br/> |
 |4   <br/> |Taille de dessin à l’échelle personnalisée  <br/> |**visLogical** <br/> |
 |5   <br/> |Métrique (ISO)  <br/> |**visDSMetric** <br/> |
 |6   <br/> |Ingénierie ANSI  <br/> |**visDSEngr** <br/> |

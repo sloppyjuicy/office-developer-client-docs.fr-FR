@@ -20,6 +20,6 @@ Affiche les effets supplémentaires appliqués à la forme, y compris la réflex
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir les effets de réflexion, d’éclat et de bordures souples dans la boîte de dialogue **Format** de forme **(effets** de styles de forme de  >    >  **la page d’accueil).** Un effet Sketch peut être appliqué à une forme à l’aide de l’un des thèmes de croquis (**Design** Themes Effects ) ou en a apporté des modifications aux valeurs dans les cellules  >    >  ShapeSheet correspondantes.
+Vous pouvez définir les effets de réflexion, d’éclat et de bordures souples dans la boîte de dialogue **Format** de forme (**Effets** de styles de forme de  >    >  **la page d’accueil).** Un effet Sketch peut être appliqué à une forme à l’aide de l’un des thèmes de croquis (**Design** Themes Effects ) ou en a apporté des modifications aux valeurs dans les cellules  >    >  ShapeSheet correspondantes.
   
 

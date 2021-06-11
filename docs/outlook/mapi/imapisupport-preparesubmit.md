@@ -34,7 +34,7 @@ ULONG FAR * lpulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
@@ -42,7 +42,7 @@ ULONG FAR * lpulFlags
     
  _lpulFlags_
   
-> [in, out] En entrée, le  _paramètre lpulFlags_ est réservé et doit être zéro. En sortie,  _lpulFlags doit_ avoir la valeur NULL. 
+> [in, out] En entrée, le  _paramètre lpulFlags_ est réservé et doit être zéro. En sortie,  _les lpulFlags doivent_ être NULL. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -54,13 +54,13 @@ S_OK
 
 La **méthode IMAPISupport::P repareSubmit** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages appellent **PrepareSubmit** dans leur implémentation de la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) pour préparer un message à envoyer aupooler MAPI. 
   
- **PrepareSubmit** est utilisé pour gérer les messages dont l’indicateur MSGFLAG_RESEND est PR_MESSAGE_FLAGS **(** [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). MSGFLAG_RESEND est définie pour les messages qui incluent une demande à envoyer en cas d’échec d’une transmission initiale. **PrepareSubmit** détermine lequel des destinataires de la liste des destinataires a reçu le message avec succès et qui ne l’a pas été. 
+ **PrepareSubmit** est utilisé pour gérer les messages dont l’indicateur MSGFLAG_RESEND est PR_MESSAGE_FLAGS **(** [PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). MSGFLAG_RESEND est définie pour les messages qui incluent une demande à envoyer en cas d’échec d’une transmission initiale. **PrepareSubmit** détermine lequel des destinataires de la liste des destinataires a reçu le message et qui ne l’a pas été. 
   
-Pour accéder à la liste des **destinataires, PrepareSubmit** appelle la méthode [IMessage::GetRecipientTable](imessage-getrecipienttable.md) du message. Pour récupérer les données du destinataire, **PrepareSubmit** appelle la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) de la table des destinataires. Pour chaque ligne du tableau, **PrepareSubmit** vérifie la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) et prend l’une des actions suivantes :
+Pour accéder à la liste des destinataires, **PrepareSubmit** appelle la méthode [IMessage::GetRecipientTable](imessage-getrecipienttable.md) du message. Pour récupérer les données du destinataire, **PrepareSubmit** appelle la méthode [IMAPITable::QueryRows](imapitable-queryrows.md) de la table des destinataires. Pour chaque ligne du tableau, **PrepareSubmit** vérifie la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) et prend l’une des actions suivantes :
   
 - Si l MAPI_SUBMITTED est définie, **PrepareSubmit** l’effacera et définit la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) sur FALSE.
     
-- Si l’MAPI_SUBMITTED n’est pas définie, **PrepareSubmit** PR_RECIPIENT_TYPE **à** MAPI_P1 et définit PR_RESPONSIBILITY **sur** TRUE. 
+- Si l’MAPI_SUBMITTED n’est pas définie, **PrepareSubmit** PR_RECIPIENT_TYPE à MAPI_P1 et définit PR_RESPONSIBILITY **sur** TRUE.  
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

@@ -25,7 +25,7 @@ ms.locfileid: "33428591"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Présente une boîte de dialogue qui permet à l’utilisateur de sélectionner un conteneur de formulaires et renvoie une interface pour l’objet conteneur sélectionné par l’utilisateur.
+Présente une boîte de dialogue qui permet à l’utilisateur de sélectionner un conteneur de formulaire et renvoie une interface pour l’objet conteneur sélectionné par l’utilisateur.
   
 ```cpp
 HRESULT SelectFormContainer(
@@ -35,7 +35,7 @@ HRESULT SelectFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -55,7 +55,7 @@ MAPIFORM_SELECT_FOLDER_REGISTRY_ONLY
     
 MAPIFORM_SELECT_NON_FOLDER_REGISTRY_ONLY 
   
-> La sélection ne peut être réalisée qu’à partir de conteneurs qui ne sont pas associés à des dossiers.
+> La sélection peut être réalisée uniquement à partir de conteneurs qui ne sont pas associés à des dossiers.
     
  _lppfcnt_
   

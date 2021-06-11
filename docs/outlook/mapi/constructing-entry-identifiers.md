@@ -23,7 +23,7 @@ ms.locfileid: "33427947"
   
 Les identificateurs d’entrée sont construits avec la structure [ENTRYID.](entryid.md) La structure **ENTRYID** se compose d’un indicateur qui décrit les attributs de l’identificateur d’entrée et de l’identificateur d’entrée réel. 
   
-## <a name="entryid-structure"></a>EntryID, structure
+## <a name="entryid-structure"></a>ENTRYID Structure
 
 La structure **ENTRYID** est définie comme suit : 
   
@@ -42,17 +42,17 @@ Le premier byte du membre **abFlags** de 4 caractères décrit le type et l’ut
   
 - MAPI_NOTRECI : indique que l’identificateur d’entrée ne peut pas être utilisé comme destinataire d’un message.
     
-- MAPI_NOTRESERVED : indique que d’autres utilisateurs ne peuvent pas accéder à l’identificateur d’entrée.
+- MAPI_NOTRESERVED : indique que les autres utilisateurs ne peuvent pas accéder à l’identificateur d’entrée.
     
 - MAPI_NOW : indique que l’identificateur d’entrée ne peut pas être utilisé à d’autres moments.
     
-- MAPI_SHORTTERM : indique que l’identificateur d’entrée est à court terme. Toutes les autres valeurs de cet byte doivent être définies, sauf si d’autres utilisations de l’identificateur d’entrée sont autorisées.
+- MAPI_SHORTTERM — Indique que l’identificateur d’entrée est à court terme. Toutes les autres valeurs de cet byte doivent être définies, sauf si d’autres utilisations de l’identificateur d’entrée sont autorisées.
     
 - MAPI_THISSESSION : indique que l’identificateur d’entrée ne peut pas être utilisé sur d’autres sessions.
     
 - MAPI_NOTRESERVED : indique que l’identificateur d’entrée peut être utilisé par d’autres fournisseurs de services pour d’autres objets.
     
-Le **membre ab** des identificateurs d’entrée créés par les fournisseurs de carnet d’adresses et de magasins de messages se compose de deux éléments : une structure [MAPIUID](mapiuid.md) de 16 byte qui identifie le fournisseur de services et une partie pour identifier l’objet. **MAPIUID est** une structure qui contient un identificateur global unique, ou GUID. Un GUID est un identificateur indépendant de l’ordre d’un byte qui peut être créé à l’aide de l’outil Microsoft Visual Studio *Créer un GUID** . 
+Le **membre ab** des identificateurs d’entrée créés par les fournisseurs de carnet d’adresses et de magasin de messages est composé de deux éléments : une structure [MAPIUID](mapiuid.md) de 16 byte qui identifie le fournisseur de services et une partie permettant d’identifier l’objet. **MAPIUID est** une structure qui contient un identificateur global unique, ou GUID. Un GUID est un identificateur indépendant de l’ordre d’un byte qui peut être créé à l’aide *Microsoft Visual Studio’outil Créer un GUID** . 
   
 Un fournisseur de services inscrit sa structure **MAPIUID** auprès de MAPI pendant le processus d’inscription dans un appel à la méthode [IMAPISupport::SetProviderUID.](imapisupport-setprovideruid.md) Lorsqu’un client appelle **une méthode OpenEntry** pour accéder à un objet, MAPI utilise la structure **MAPIUID** pour déterminer quel fournisseur de services peut fournir cet accès. Les fournisseurs de services doivent utiliser la même structure **MAPIUID** pour toutes les versions de leur DLL. Cela permet aux clients avec la version la plus récente de répondre aux messages envoyés et enregistrés avec l’ancienne version. 
   

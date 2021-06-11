@@ -30,9 +30,9 @@ Spécifie une plage à tester.
 |:-----|:-----|:-----|
 | *test_expression*  <br/> |Oui  <br/> |Expression à tester dans la plage définie par begin_expression  *et*  *end_expression*  . Doit être le même type de données que begin_expression  *et*  *end_expression*  .  <br/> |
 | *NOT*  <br/> |Non  <br/> |Spécifie que le résultat du prédicat doit être annulé.  <br/> |
-| *begin_expression*  <br/> |Oui  <br/> |Expression valide. Doit être le même type de données que test_expression  *et*  *end_expression*  .  <br/> |
+| *begin_expression*  <br/> |Oui  <br/> |Expression valide. Doit être le même type de données que les  *test_expression*  et  *end_expression*  .  <br/> |
 | *end_expression*  <br/> |Oui  <br/> |Expression valide. Doit être le même type de données que test_expression  *et*  *begin_expression*  .  <br/> |
-| *AND*  <br/> |Oui  <br/> |Indique  *test_expression*  doit se trouve dans la plage indiquée par les begin_expression  *et*  *end_expression*  .  <br/> |
+| *ET*  <br/> |Oui  <br/> |Indique  *test_expression*  doit se trouve dans la plage indiquée par les begin_expression  *et*  *end_expression*  .  <br/> |
    
 ## <a name="result-type"></a>Type de résultat
 
@@ -40,10 +40,10 @@ Spécifie une plage à tester.
   
 ## <a name="remarks"></a>Remarques
 
- **BETWEEN** renvoie **TRUE** si la valeur de  *test_expression*  est supérieure ou égale à la valeur de  *begin_expression*  et inférieure ou égale à la valeur de  *end_expression*  . 
+ **Between** renvoie **TRUE** si la valeur de  *test_expression*  est supérieure ou égale à la valeur de  *begin_expression*  et inférieure ou égale à la valeur de  *end_expression*  . 
   
  **NOT BETWEEN renvoie** **TRUE** si la valeur de *test_expression* est  inférieure à la valeur de begin_expression ou supérieure à la valeur de *end_expression* . 
   
-Pour spécifier une plage exclusive, utilisez les plages supérieure \> () et inférieure aux opérateurs ( \< ).
+Pour spécifier une plage exclusive, utilisez les plages supérieure ( \> ) et inférieure aux opérateurs ( \< ).
   
 

@@ -22,7 +22,7 @@ Détermine si les objets sont positionnables ou repositionnables dans les diagra
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-|&amp;H0  <br/> |Valeur par défaut. L'application décide en fonction du contexte de dessin.  <br/> |**visLOFlagsVisDecides** <br/> |
+|&amp;H0  <br/> |Par défaut. L'application décide en fonction du contexte de dessin.  <br/> |**visLOFlagsVisDecides** <br/> |
 |&amp;H1  <br/> |La forme est positionnable.  <br/> |**visLOFlagsPlacable** <br/> |
 |&amp;H2  <br/> |La forme est repositionnable. Il doit s'agir d'une forme à une dimension (1D).  <br/> |**visLOFlagsRoutable** <br/> |
 |&amp;H4  <br/> |La forme n'est ni positionnable ni repositionnable.  <br/> |**visLOFlagsDont** <br/> |

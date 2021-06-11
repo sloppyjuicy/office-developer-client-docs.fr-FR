@@ -23,9 +23,9 @@ Détermine l'alignement des tabulations.
 |**Valeur**|**Alignment**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Gauche  <br/> |**visTabStopLeft** <br/> |
-| 1   <br/> | Centre  <br/> |**visTabStopCenter** <br/> |
-| 2   <br/> | À droite  <br/> |**visTabStopRight** <br/> |
-| 3   <br/> | Décimal  <br/> |**visTabStopDecimal** <br/> |
+| 1  <br/> | Centre  <br/> |**visTabStopCenter** <br/> |
+| 2  <br/> | À droite  <br/> |**visTabStopRight** <br/> |
+| 3  <br/> | Décimal  <br/> |**visTabStopDecimal** <br/> |
 | 4   <br/> | Virgule  <br/> |**visTabStopComma** <br/> |
    
 ## <a name="remarks"></a>Remarques

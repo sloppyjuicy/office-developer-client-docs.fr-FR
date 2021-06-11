@@ -36,7 +36,7 @@ LPENTRYID FAR * lppWrappedEntry
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbOrigEntry_
   
@@ -62,7 +62,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::WrapStoreEntryID** est implémentée pour tous les objets de prise en charge du fournisseur de services. Les fournisseurs de services **utilisent WrapStoreEntryID** pour que MAPI génère un identificateur d’entrée pour une magasin de messages qui encapsule l’identificateur d’entrée interne de la boutique. 
+La **méthode IMAPISupport::WrapStoreEntryID** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services **utilisent WrapStoreEntryID** pour que MAPI génère un identificateur d’entrée pour une magasin de messages qui encapsule l’identificateur d’entrée interne de la boutique. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
@@ -70,7 +70,7 @@ Lorsqu’un client appelle la méthode [IMAPIProp::GetProps](imapiprop-getprops.
   
 Les appels aux méthodes [IMSProvider::Logon](imsprovider-logon.md) et [IMSLogon::CompareEntryIDs](imslogon-compareentryids.md) obtiennent toujours l’identificateur d’entrée privée du magasin ; La version wrapped est utilisée uniquement entre les applications clientes et MAPI. 
   
-Libérez la mémoire de l’identificateur d’entrée pointé par le paramètre  _lppWrappedEntry_ à l’aide de la fonction [MAPIFreeBuffer](mapifreebuffer.md) lorsque vous avez terminé d’utiliser l’identificateur d’entrée. 
+Libérez la mémoire de l’identificateur d’entrée pointé par le paramètre  _lppWrappedEntry_ à l’aide de la [fonction MAPIFreeBuffer](mapifreebuffer.md) lorsque vous avez terminé d’utiliser l’identificateur d’entrée. 
   
 ## <a name="see-also"></a>Voir aussi
 

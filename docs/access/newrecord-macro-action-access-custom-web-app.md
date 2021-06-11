@@ -1,5 +1,5 @@
 ---
-title: NewRecord Macro Action (Application web personnalisée Access)
+title: NewRecord Macro Action (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424594"
 ---
-# <a name="newrecord-macro-action-access-custom-web-app"></a>NewRecord Macro Action (Application web personnalisée Access)
+# <a name="newrecord-macro-action-access-custom-web-app"></a>NewRecord Macro Action (Access custom web app)
 
 Crée un enregistrement vide dans l’affichage actuel.
   

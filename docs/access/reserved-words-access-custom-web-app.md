@@ -60,13 +60,13 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |CONVERT  <br/> |KILL  <br/> |SOME  <br/> |
 |CREATE  <br/> |LEFT  <br/> |STATISTIQUES  <br/> |
 |CROSS  <br/> |J’AIME  <br/> |SYSTEM_USER  <br/> |
-|Devise  <br/> |LINENO  <br/> |TABLE  <br/> |
+|Monétaire  <br/> |LINENO  <br/> |TABLE  <br/> |
 |CURRENT  <br/> |LOAD  <br/> |TABLESAMPLE  <br/> |
 |CURRENT_DATE  <br/> |LongText  <br/> |Texte  <br/> |
 |CURRENT_TIME  <br/> |MERGE  <br/> |TEXTIZE  <br/> |
 |CURRENT_TIMESTAMP  <br/> |Milliseconde  <br/> |THEN  <br/> |
 |CURRENT_USER  <br/> |Minute  <br/> |Temps  <br/> |
-|CURSOR  <br/> |Month  <br/> |TO  <br/> |
+|CURSOR  <br/> |Mois  <br/> |TO  <br/> |
 |DATABASE  <br/> |NATIONAL  <br/> |Retour au début  <br/> |
 |Date  <br/> |Non  <br/> |TRAN  <br/> |
 |DateWithTime  <br/> |NOCHECK  <br/> |TRANSACTION  <br/> |
@@ -84,7 +84,7 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |DISTRIBUTED  <br/> |OPENROWSET  <br/> |VALEURS  <br/> |
 |DOUBLE  <br/> |OPENXML  <br/> |VARYING  <br/> |
 |DROP  <br/> |OPTION  <br/> |VIEW  <br/> |
-|DUMP  <br/> |Ou  <br/> |WAITFOR  <br/> |
+|DUMP  <br/> |OU  <br/> |WAITFOR  <br/> |
 |ELSE  <br/> |ORDER  <br/> |Semaine  <br/> |
 |Fin  <br/> |OUTER  <br/> |Jour de la semaine  <br/> |
 |ERRLVL  <br/> |OVER  <br/> |WHEN  <br/> |
@@ -94,8 +94,8 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |EXECUTE  <br/> |PRECISION  <br/> |AU SEIN DU GROUPE  <br/> |
 |EXISTS  <br/> |PRIMARY  <br/> |WRITETEXT  <br/> |
 |EXIT  <br/> |PRINT  <br/> |Year  <br/> |
-|EXTERNAL  <br/> |PROC  <br/> |Oui  <br/> |
-|FETCH  <br/> |PROCÉDURE  <br/> |YesNo  <br/> |
+|EXTERNE  <br/> |PROC  <br/> |Oui  <br/> |
+|FETCH  <br/> |PROCEDURE  <br/> |YesNo  <br/> |
 |FILE  <br/> |PUBLIC  <br/> ||
    
 
@@ -104,16 +104,16 @@ Le tableau suivant répertorie les mots clés réservés Access.
 
 En outre, la norme ISO définit une liste de mots clés réservés. Évitez d’utiliser des mots clés réservés ISO pour les noms d’objets et les identificateurs. La liste de mots clés réservés ODBC, indiquée dans le tableau suivant, est identique à la liste de mots clés réservés ISO.
 
-Les mots suivants sont réservés pour être utilisés dans les appels de fonction ODBC. Ces mots ne limitent pas la grammaire SQL minimale ; toutefois, pour garantir la compatibilité avec les pilotes qui SQL la grammaire principale, les applications doivent éviter d’utiliser ces mots clés.
+Les mots suivants sont réservés pour être utilisés dans les appels de fonction ODBC. Ces mots ne limitent pas la grammaire SQL minimale ; toutefois, pour garantir la compatibilité avec les pilotes qui assurent la prise en charge de la grammaire SQL base, les applications doivent éviter d’utiliser ces mots clés.
   
 Il s’agit de la liste actuelle des mots clés réservés ODBC.
   
 ||||
 |:-----|:-----|:-----|
-|ABSOLUTE  <br/> |EXEC  <br/> |OVERLAPS  <br/> |
+|ABSOLUTE  <br/> |EXEC  <br/> |CHEVAUCHEMENTS  <br/> |
 |ACTION  <br/> |EXECUTE  <br/> |PAD  <br/> |
 |ADA  <br/> |EXISTS  <br/> |PARTIAL  <br/> |
-|ADD  <br/> |EXTERNAL  <br/> |PASCAL  <br/> |
+|ADD  <br/> |EXTERNE  <br/> |PASCAL  <br/> |
 |TOUT  <br/> |EXTRACT  <br/> |POSITION  <br/> |
 |ALLOCATE  <br/> |FALSE  <br/> |PRECISION  <br/> |
 |ALTER  <br/> |FETCH  <br/> |PREPARE  <br/> |
@@ -121,7 +121,7 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
 |ANY  <br/> |FLOAT  <br/> |PRIMARY  <br/> |
 |ARE  <br/> |FOR  <br/> |PRIOR  <br/> |
 |AS  <br/> |FOREIGN  <br/> |PRIVILEGES  <br/> |
-|CROIS.  <br/> |FORTRAN  <br/> |PROCÉDURE  <br/> |
+|CROIS.  <br/> |FORTRAN  <br/> |PROCEDURE  <br/> |
 |ASSERTION  <br/> |FOUND  <br/> |PUBLIC  <br/> |
 |AT  <br/> |FROM  <br/> |READ  <br/> |
 |AUTHORIZATION  <br/> |FULL  <br/> |REAL  <br/> |
@@ -184,7 +184,7 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
 |DOUBLE  <br/> |UNIQUEMENT  <br/> |WHENEVER  <br/> |
 |DROP  <br/> |OPEN  <br/> |WHERE  <br/> |
 |ELSE  <br/> |OPTION  <br/> |WITH  <br/> |
-|Fin  <br/> |Ou  <br/> |WORK  <br/> |
+|Fin  <br/> |OU  <br/> |WORK  <br/> |
 |END-EXEC  <br/> |ORDER  <br/> |WRITE  <br/> |
 |ESCAPE  <br/> |OUTER  <br/> |YEAR  <br/> |
 |SAUF  <br/> |OUTPUT  <br/> |ZONE  <br/> |
@@ -192,7 +192,7 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
    
 ## <a name="future-keywords"></a>Mots clés futurs
 
-Les mots clés suivants peuvent être réservés dans les prochaines SQL Server à mesure que de nouvelles fonctionnalités sont implémentées. Évitez d’utiliser ces mots comme identificateurs.
+Les mots clés suivants peuvent être réservés dans les prochaines SQL Server que de nouvelles fonctionnalités sont implémentées. Évitez d’utiliser ces mots comme identificateurs.
   
 ||||
 |:-----|:-----|:-----|
@@ -266,7 +266,7 @@ Les mots clés suivants peuvent être réservés dans les prochaines SQL Server 
 |DIAGNOSTICS  <br/> |PREORDER  <br/> |WITHIN  <br/> |
 |DISCONNECT  <br/> |PREPARE  <br/> |WORK  <br/> |
 |DOMAIN  <br/> |PERCENT_RANK  <br/> |WRITE  <br/> |
-|DYNAMIQUE  <br/> |PERCENTILE_CONT  <br/> |XMLAGG  <br/> |
+|DYNAMIC  <br/> |PERCENTILE_CONT  <br/> |XMLAGG  <br/> |
 |CHAQUE  <br/> |PERCENTILE_DISC  <br/> |XMLATTRIBUTES  <br/> |
 |ELEMENT  <br/> |POSITION_REGEX  <br/> |XMLBINARY  <br/> |
 |END-EXEC  <br/> |PRESERVE  <br/> |XMLCAST  <br/> |

@@ -27,6 +27,6 @@ Renvoie l’adresse e-mail de l’utilisateur actuel.
   
 ## <a name="remarks"></a>Remarques
 
-La **fonction UserEmailAddress est** disponible uniquement dans les macros d’interface utilisateur. 
+La **fonction UserEmailAddress** est disponible uniquement dans les macros d’interface utilisateur. 
   
 

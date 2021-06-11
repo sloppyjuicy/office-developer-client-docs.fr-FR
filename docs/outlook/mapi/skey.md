@@ -21,7 +21,7 @@ ms.locfileid: "33426806"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Clé source d’un élément Outlook.
+Clé source d’un Outlook’élément.
   
 ## <a name="quick-info"></a>Informations rapides
 

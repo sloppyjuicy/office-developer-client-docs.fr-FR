@@ -43,7 +43,7 @@ _ulFlags_
     
   - UPC_OK
     
-  - [in] Le chargement ou la synchronisation complète a réussi. Le client définit cette information après la synchronisation des informations avec le serveur.
+  - [in] Télécharger synchronisation complète a réussi. Le client définit cette information après la synchronisation des informations avec le serveur.
     
 _iEnt_
   
@@ -55,15 +55,15 @@ _cEnt_
     
 _pvReserved_
   
-> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge. 
     
 _ptagaReserved_
   
-> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge. 
     
 _psosReserved_
   
-> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge. 
     
 ## <a name="see-also"></a>Voir aussi
 
