@@ -13,17 +13,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540272"
 ---
-# <a name="snapsettings_type-complextype-visio-xml"></a><span data-ttu-id="5192b-102">SnapSettings_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="5192b-102">SnapSettings_Type complexType (Visio XML)</span></span>
+# <a name="snapsettings_type-complextype-visio-xml"></a><span data-ttu-id="c176e-102">SnapSettings_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="c176e-102">SnapSettings_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="5192b-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="5192b-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="c176e-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="c176e-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="5192b-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="5192b-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="5192b-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="5192b-105">**Schema file**</span></span> <br/> |<span data-ttu-id="5192b-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="5192b-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="5192b-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="5192b-107">**Extension base**</span></span> <br/> |<span data-ttu-id="5192b-108">xsd:int</span><span class="sxs-lookup"><span data-stu-id="5192b-108">xsd:int</span></span>  <br/> |
+|<span data-ttu-id="c176e-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="c176e-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="c176e-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="c176e-105">**Schema file**</span></span> <br/> |<span data-ttu-id="c176e-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="c176e-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="c176e-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="c176e-107">**Extension base**</span></span> <br/> |<span data-ttu-id="c176e-108">xsd:int</span><span class="sxs-lookup"><span data-stu-id="c176e-108">xsd:int</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="5192b-109">Définition</span><span class="sxs-lookup"><span data-stu-id="5192b-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="c176e-109">Définition</span><span class="sxs-lookup"><span data-stu-id="c176e-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="SnapSettings_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34540272"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="5192b-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="5192b-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="c176e-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="c176e-110">Elements and attributes</span></span>
 
-<span data-ttu-id="5192b-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="5192b-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="c176e-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="c176e-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="5192b-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="5192b-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c176e-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="c176e-112">Child elements</span></span>
 
-<span data-ttu-id="5192b-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="5192b-113">None.</span></span>
+<span data-ttu-id="c176e-113">Aucun.</span><span class="sxs-lookup"><span data-stu-id="c176e-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="5192b-114">Attributs</span><span class="sxs-lookup"><span data-stu-id="5192b-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c176e-114">Attributs</span><span class="sxs-lookup"><span data-stu-id="c176e-114">Attributes</span></span>
 
-<span data-ttu-id="5192b-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="5192b-115">None.</span></span>
+<span data-ttu-id="c176e-115">Aucun.</span><span class="sxs-lookup"><span data-stu-id="c176e-115">None.</span></span>
   
 

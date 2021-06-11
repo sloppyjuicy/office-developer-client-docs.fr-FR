@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439995"
 ---
-# <a name="getattribimsgonistg"></a><span data-ttu-id="3c23e-103">GetAttribIMsgOnIStg</span><span class="sxs-lookup"><span data-stu-id="3c23e-103">GetAttribIMsgOnIStg</span></span>
+# <a name="getattribimsgonistg"></a><span data-ttu-id="834ea-103">GetAttribIMsgOnIStg</span><span class="sxs-lookup"><span data-stu-id="834ea-103">GetAttribIMsgOnIStg</span></span>
 
   
   
-<span data-ttu-id="3c23e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3c23e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="834ea-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="834ea-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3c23e-105">Récupère les attributs des propriétés d’un objet [IMessage](imessageimapiprop.md) fourni par la [fonction OpenIMsgOnIStg.](openimsgonistg.md)</span><span class="sxs-lookup"><span data-stu-id="3c23e-105">Retrieves attributes of properties on an [IMessage](imessageimapiprop.md) object supplied by the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
+<span data-ttu-id="834ea-105">Récupère les attributs des propriétés d’un objet [IMessage](imessageimapiprop.md) fourni par la [fonction OpenIMsgOnIStg.](openimsgonistg.md)</span><span class="sxs-lookup"><span data-stu-id="834ea-105">Retrieves attributes of properties on an [IMessage](imessageimapiprop.md) object supplied by the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3c23e-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="3c23e-106">Header file:</span></span>  <br/> |<span data-ttu-id="3c23e-107">Imessage.h</span><span class="sxs-lookup"><span data-stu-id="3c23e-107">Imessage.h</span></span>  <br/> |
-|<span data-ttu-id="3c23e-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="3c23e-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="3c23e-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="3c23e-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="3c23e-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="3c23e-110">Called by:</span></span>  <br/> |<span data-ttu-id="3c23e-111">Applications clientes et fournisseurs de magasins de messages</span><span class="sxs-lookup"><span data-stu-id="3c23e-111">Client applications and message store providers</span></span>  <br/> |
+|<span data-ttu-id="834ea-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="834ea-106">Header file:</span></span>  <br/> |<span data-ttu-id="834ea-107">Imessage.h</span><span class="sxs-lookup"><span data-stu-id="834ea-107">Imessage.h</span></span>  <br/> |
+|<span data-ttu-id="834ea-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="834ea-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="834ea-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="834ea-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="834ea-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="834ea-110">Called by:</span></span>  <br/> |<span data-ttu-id="834ea-111">Applications clientes et fournisseurs de magasins de messages</span><span class="sxs-lookup"><span data-stu-id="834ea-111">Client applications and message store providers</span></span>  <br/> |
    
 ```cpp
 HRESULT GetAttribIMsgOnIStg(
@@ -41,37 +41,37 @@ HRESULT GetAttribIMsgOnIStg(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3c23e-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="3c23e-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="834ea-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="834ea-112">Parameters</span></span>
 
- <span data-ttu-id="3c23e-113">_lpObject_</span><span class="sxs-lookup"><span data-stu-id="3c23e-113">_lpObject_</span></span>
+ <span data-ttu-id="834ea-113">_lpObject_</span><span class="sxs-lookup"><span data-stu-id="834ea-113">_lpObject_</span></span>
   
-> <span data-ttu-id="3c23e-114">[in] Pointeur vers un **objet IMessage** obtenu à partir de la [fonction OpenIMsgOnIStg.](openimsgonistg.md)</span><span class="sxs-lookup"><span data-stu-id="3c23e-114">[in] Pointer to an **IMessage** object obtained from the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
+> <span data-ttu-id="834ea-114">[in] Pointeur vers un **objet IMessage** obtenu à partir de la [fonction OpenIMsgOnIStg.](openimsgonistg.md)</span><span class="sxs-lookup"><span data-stu-id="834ea-114">[in] Pointer to an **IMessage** object obtained from the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
     
- <span data-ttu-id="3c23e-115">_lpPropTagArray_</span><span class="sxs-lookup"><span data-stu-id="3c23e-115">_lpPropTagArray_</span></span>
+ <span data-ttu-id="834ea-115">_lpPropTagArray_</span><span class="sxs-lookup"><span data-stu-id="834ea-115">_lpPropTagArray_</span></span>
   
-> <span data-ttu-id="3c23e-116">[in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant les propriétés pour lesquelles les attributs doivent être récupérés.</span><span class="sxs-lookup"><span data-stu-id="3c23e-116">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags indicating the properties for which attributes are to be retrieved.</span></span> 
+> <span data-ttu-id="834ea-116">[in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété indiquant les propriétés pour lesquelles les attributs doivent être récupérés.</span><span class="sxs-lookup"><span data-stu-id="834ea-116">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags indicating the properties for which attributes are to be retrieved.</span></span> 
     
- <span data-ttu-id="3c23e-117">_lppPropAttrArray_</span><span class="sxs-lookup"><span data-stu-id="3c23e-117">_lppPropAttrArray_</span></span>
+ <span data-ttu-id="834ea-117">_lppPropAttrArray_</span><span class="sxs-lookup"><span data-stu-id="834ea-117">_lppPropAttrArray_</span></span>
   
-> <span data-ttu-id="3c23e-118">[out] Pointeur vers un pointeur vers la structure [SPropAttrArray](spropattrarray.md) renvoyée qui contient les attributs de propriété récupérés.</span><span class="sxs-lookup"><span data-stu-id="3c23e-118">[out] Pointer to a pointer to the returned [SPropAttrArray](spropattrarray.md) structure that contains the retrieved property attributes.</span></span> 
+> <span data-ttu-id="834ea-118">[out] Pointeur vers un pointeur vers la structure [SPropAttrArray](spropattrarray.md) renvoyée qui contient les attributs de propriété récupérés.</span><span class="sxs-lookup"><span data-stu-id="834ea-118">[out] Pointer to a pointer to the returned [SPropAttrArray](spropattrarray.md) structure that contains the retrieved property attributes.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="3c23e-119">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="3c23e-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="834ea-119">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="834ea-119">Return value</span></span>
 
-<span data-ttu-id="3c23e-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="3c23e-120">S_OK</span></span> 
+<span data-ttu-id="834ea-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="834ea-120">S_OK</span></span> 
   
-> <span data-ttu-id="3c23e-121">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="3c23e-121">The call succeeded and has returned the expected value or values.</span></span> 
+> <span data-ttu-id="834ea-121">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="834ea-121">The call succeeded and has returned the expected value or values.</span></span> 
     
-<span data-ttu-id="3c23e-122">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="3c23e-122">MAPI_W_ERRORS_RETURNED</span></span> 
+<span data-ttu-id="834ea-122">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="834ea-122">MAPI_W_ERRORS_RETURNED</span></span> 
   
-> <span data-ttu-id="3c23e-123">L’appel a réussi globalement, mais une ou plusieurs propriétés n’ont pas pu être accessibles et ont été renvoyées avec un type de propriété PT_ERROR.</span><span class="sxs-lookup"><span data-stu-id="3c23e-123">The call succeeded overall, but one or more properties could not be accessed and were returned with a property type of PT_ERROR.</span></span>
+> <span data-ttu-id="834ea-123">L’appel a réussi globalement, mais une ou plusieurs propriétés n’ont pas pu être accessibles et ont été renvoyées avec un type de propriété PT_ERROR.</span><span class="sxs-lookup"><span data-stu-id="834ea-123">The call succeeded overall, but one or more properties could not be accessed and were returned with a property type of PT_ERROR.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="3c23e-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="3c23e-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="834ea-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="834ea-124">Remarks</span></span>
 
-<span data-ttu-id="3c23e-125">Les attributs de propriété sont accessibles uniquement sur les objets de propriété, c’est-à-dire les objets implémentant l’interface [IMAPIProp : IUnknown.](imapipropiunknown.md)</span><span class="sxs-lookup"><span data-stu-id="3c23e-125">Property attributes can only be accessed on property objects, that is, objects implementing the [IMAPIProp : IUnknown](imapipropiunknown.md) interface.</span></span> <span data-ttu-id="3c23e-126">Pour rendre les propriétés MAPI disponibles sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) crée un objet [IMessage : IMAPIProp](imessageimapiprop.md) au-dessus de l’objet **OLE IStorage.**</span><span class="sxs-lookup"><span data-stu-id="3c23e-126">To make MAPI properties available on an OLE structured storage object, [OpenIMsgOnIStg](openimsgonistg.md) builds an [IMessage : IMAPIProp](imessageimapiprop.md) object on top of the OLE **IStorage** object.</span></span> <span data-ttu-id="3c23e-127">Les attributs de propriété de ces objets peuvent être définies ou modifiées avec [SetAttribIMsgOnIStg](setattribimsgonistg.md) et récupérées avec **GetAttribIMsgOnIStg**.</span><span class="sxs-lookup"><span data-stu-id="3c23e-127">The property attributes on such objects can be set or altered with [SetAttribIMsgOnIStg](setattribimsgonistg.md) and retrieved with **GetAttribIMsgOnIStg**.</span></span> 
+<span data-ttu-id="834ea-125">Les attributs de propriété sont accessibles uniquement sur les objets de propriété, c’est-à-dire les objets implémentant l’interface [IMAPIProp : IUnknown.](imapipropiunknown.md)</span><span class="sxs-lookup"><span data-stu-id="834ea-125">Property attributes can only be accessed on property objects, that is, objects implementing the [IMAPIProp : IUnknown](imapipropiunknown.md) interface.</span></span> <span data-ttu-id="834ea-126">Pour rendre les propriétés MAPI disponibles sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) crée un objet [IMessage : IMAPIProp](imessageimapiprop.md) au-dessus de l’objet **OLE IStorage.**</span><span class="sxs-lookup"><span data-stu-id="834ea-126">To make MAPI properties available on an OLE structured storage object, [OpenIMsgOnIStg](openimsgonistg.md) builds an [IMessage : IMAPIProp](imessageimapiprop.md) object on top of the OLE **IStorage** object.</span></span> <span data-ttu-id="834ea-127">Les attributs de propriété sur ces objets peuvent être définies ou modifiées avec [SetAttribIMsgOnIStg](setattribimsgonistg.md) et récupérées avec **GetAttribIMsgOnIStg**.</span><span class="sxs-lookup"><span data-stu-id="834ea-127">The property attributes on such objects can be set or altered with [SetAttribIMsgOnIStg](setattribimsgonistg.md) and retrieved with **GetAttribIMsgOnIStg**.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="3c23e-128">**GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous les objets **IMessage.**</span><span class="sxs-lookup"><span data-stu-id="3c23e-128">**GetAttribIMsgOnIStg** and **SetAttribIMsgOnIStg** do not operate on all **IMessage** objects.</span></span> <span data-ttu-id="3c23e-129">Ils sont uniquement valides pour les objets **IMessage**-on- **IStorage** renvoyés par **OpenIMsgOnIStg**.</span><span class="sxs-lookup"><span data-stu-id="3c23e-129">They are only valid for **IMessage**-on- **IStorage** objects returned by **OpenIMsgOnIStg**.</span></span> 
+> <span data-ttu-id="834ea-128">**GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous les objets **IMessage.**</span><span class="sxs-lookup"><span data-stu-id="834ea-128">**GetAttribIMsgOnIStg** and **SetAttribIMsgOnIStg** do not operate on all **IMessage** objects.</span></span> <span data-ttu-id="834ea-129">Ils sont uniquement valides pour les objets **IMessage**-on- **IStorage** renvoyés par **OpenIMsgOnIStg**.</span><span class="sxs-lookup"><span data-stu-id="834ea-129">They are only valid for **IMessage**-on- **IStorage** objects returned by **OpenIMsgOnIStg**.</span></span> 
   
-<span data-ttu-id="3c23e-130">Le nombre et les positions des attributs dans le paramètre _lppPropAttrArray_ correspondent au nombre et aux positions des balises de propriété dans le paramètre _lpPropTagArray._</span><span class="sxs-lookup"><span data-stu-id="3c23e-130">The number and positions of the attributes in the  _lppPropAttrArray_ parameter correspond to the number and positions of the property tags in the  _lpPropTagArray_ parameter.</span></span> 
+<span data-ttu-id="834ea-130">Le nombre et les positions des attributs dans le paramètre _lppPropAttrArray_ correspondent au nombre et aux positions des balises de propriété dans le paramètre _lpPropTagArray._</span><span class="sxs-lookup"><span data-stu-id="834ea-130">The number and positions of the attributes in the  _lppPropAttrArray_ parameter correspond to the number and positions of the property tags in the  _lpPropTagArray_ parameter.</span></span> 
   
 

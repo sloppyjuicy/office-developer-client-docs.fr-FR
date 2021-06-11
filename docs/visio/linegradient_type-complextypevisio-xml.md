@@ -13,17 +13,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541168"
 ---
-# <a name="linegradient_type-complextype-visio-xml"></a><span data-ttu-id="11ae5-102">LineGradient_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="11ae5-102">LineGradient_Type complexType (Visio XML)</span></span>
+# <a name="linegradient_type-complextype-visio-xml"></a><span data-ttu-id="407f8-102">LineGradient_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="407f8-102">LineGradient_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="11ae5-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="11ae5-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="407f8-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="407f8-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="11ae5-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="11ae5-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="11ae5-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="11ae5-105">**Schema file**</span></span> <br/> |<span data-ttu-id="11ae5-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="11ae5-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="11ae5-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="11ae5-107">**Extension base**</span></span> <br/> |<span data-ttu-id="11ae5-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="11ae5-108">Section_Type</span></span>  <br/> |
+|<span data-ttu-id="407f8-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="407f8-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="407f8-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="407f8-105">**Schema file**</span></span> <br/> |<span data-ttu-id="407f8-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="407f8-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="407f8-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="407f8-107">**Extension base**</span></span> <br/> |<span data-ttu-id="407f8-108">Section_Type</span><span class="sxs-lookup"><span data-stu-id="407f8-108">Section_Type</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="11ae5-109">Définition</span><span class="sxs-lookup"><span data-stu-id="11ae5-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="407f8-109">Définition</span><span class="sxs-lookup"><span data-stu-id="407f8-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="LineGradient_Type">
@@ -42,18 +42,18 @@ ms.locfileid: "34541168"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="11ae5-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="11ae5-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="407f8-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="407f8-110">Elements and attributes</span></span>
 
-<span data-ttu-id="11ae5-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="11ae5-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="407f8-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="407f8-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="11ae5-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="11ae5-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="407f8-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="407f8-112">Child elements</span></span>
 
-|<span data-ttu-id="11ae5-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="11ae5-113">**Element**</span></span>|<span data-ttu-id="11ae5-114">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="11ae5-114">**Type**</span></span>|<span data-ttu-id="11ae5-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="11ae5-115">**Description**</span></span>|
+|<span data-ttu-id="407f8-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="407f8-113">**Element**</span></span>|<span data-ttu-id="407f8-114">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="407f8-114">**Type**</span></span>|<span data-ttu-id="407f8-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="407f8-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="11ae5-116">Row</span><span class="sxs-lookup"><span data-stu-id="11ae5-116">Row</span></span>](row-element-line-gradient-sectionvisio-xml.md) <br/> |[<span data-ttu-id="11ae5-117">LineGradientRow_Type</span><span class="sxs-lookup"><span data-stu-id="11ae5-117">LineGradientRow_Type</span></span>](linegradientrow_type-complextypevisio-xml.md) <br/> ||
+|[<span data-ttu-id="407f8-116">Row</span><span class="sxs-lookup"><span data-stu-id="407f8-116">Row</span></span>](row-element-line-gradient-sectionvisio-xml.md) <br/> |[<span data-ttu-id="407f8-117">LineGradientRow_Type</span><span class="sxs-lookup"><span data-stu-id="407f8-117">LineGradientRow_Type</span></span>](linegradientrow_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="11ae5-118">Attributs</span><span class="sxs-lookup"><span data-stu-id="11ae5-118">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="407f8-118">Attributs</span><span class="sxs-lookup"><span data-stu-id="407f8-118">Attributes</span></span>
 
-<span data-ttu-id="11ae5-119">Aucun.</span><span class="sxs-lookup"><span data-stu-id="11ae5-119">None.</span></span>
+<span data-ttu-id="407f8-119">Aucun.</span><span class="sxs-lookup"><span data-stu-id="407f8-119">None.</span></span>
   
 

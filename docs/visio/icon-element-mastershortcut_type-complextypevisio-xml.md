@@ -14,42 +14,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541497"
 ---
-# <a name="icon-element-mastershortcut_type-complextype-visio-xml"></a><span data-ttu-id="bd379-103">Élément Icon (MasterShortcut_Type complexType) (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="bd379-103">Icon element (MasterShortcut_Type complexType) (Visio XML)</span></span>
+# <a name="icon-element-mastershortcut_type-complextype-visio-xml"></a><span data-ttu-id="c9500-103">Élément Icon (MasterShortcut_Type complexType) (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="c9500-103">Icon element (MasterShortcut_Type complexType) (Visio XML)</span></span>
 
-<span data-ttu-id="bd379-104">Spécifie une icône binaire codée MIME (Multipurpose Internet Mail Extensions) (au format .ico) pour un élément MasterShortcut dans un document.</span><span class="sxs-lookup"><span data-stu-id="bd379-104">Specifies a MIME (Multipurpose Internet Mail Extensions) encoded binary icon (in .ico format) for a MasterShortcut element in a document.</span></span>
+<span data-ttu-id="c9500-104">Spécifie une icône binaire codée MIME (Multipurpose Internet Mail Extensions) (au format .ico) pour un élément MasterShortcut dans un document.</span><span class="sxs-lookup"><span data-stu-id="c9500-104">Specifies a MIME (Multipurpose Internet Mail Extensions) encoded binary icon (in .ico format) for a MasterShortcut element in a document.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="bd379-105">Informations sur l’élément</span><span class="sxs-lookup"><span data-stu-id="bd379-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="c9500-105">Informations sur l’élément</span><span class="sxs-lookup"><span data-stu-id="c9500-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="bd379-106">**Type d’élément**</span><span class="sxs-lookup"><span data-stu-id="bd379-106">**Element type**</span></span> <br/> |[<span data-ttu-id="bd379-107">Icon_Type</span><span class="sxs-lookup"><span data-stu-id="bd379-107">Icon_Type</span></span>](icon_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="bd379-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="bd379-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="bd379-109">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="bd379-109">**Schema file**</span></span> <br/> |<span data-ttu-id="bd379-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="bd379-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="bd379-111">**Composants de document**</span><span class="sxs-lookup"><span data-stu-id="bd379-111">**Document parts**</span></span> <br/> |<span data-ttu-id="bd379-112">masters.xml</span><span class="sxs-lookup"><span data-stu-id="bd379-112">masters.xml</span></span>  <br/> |
+|<span data-ttu-id="c9500-106">**Type d’élément**</span><span class="sxs-lookup"><span data-stu-id="c9500-106">**Element type**</span></span> <br/> |[<span data-ttu-id="c9500-107">Icon_Type</span><span class="sxs-lookup"><span data-stu-id="c9500-107">Icon_Type</span></span>](icon_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="c9500-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="c9500-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="c9500-109">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="c9500-109">**Schema file**</span></span> <br/> |<span data-ttu-id="c9500-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="c9500-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="c9500-111">**Composants de document**</span><span class="sxs-lookup"><span data-stu-id="c9500-111">**Document parts**</span></span> <br/> |<span data-ttu-id="c9500-112">masters.xml</span><span class="sxs-lookup"><span data-stu-id="c9500-112">masters.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="bd379-113">Définition</span><span class="sxs-lookup"><span data-stu-id="bd379-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="c9500-113">Définition</span><span class="sxs-lookup"><span data-stu-id="c9500-113">Definition</span></span>
 
 ```XML
 < xs:element name="Icon" type="Icon_Type" minOccurs="0" maxOccurs="1" >
 </xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="bd379-114">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="bd379-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="c9500-114">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="c9500-114">Elements and attributes</span></span>
 
-<span data-ttu-id="bd379-115">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="bd379-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="c9500-115">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="c9500-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="bd379-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="bd379-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="c9500-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="c9500-116">Parent elements</span></span>
 
-|<span data-ttu-id="bd379-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="bd379-117">**Element**</span></span>|<span data-ttu-id="bd379-118">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="bd379-118">**Type**</span></span>|<span data-ttu-id="bd379-119">**Description**</span><span class="sxs-lookup"><span data-stu-id="bd379-119">**Description**</span></span>|
+|<span data-ttu-id="c9500-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="c9500-117">**Element**</span></span>|<span data-ttu-id="c9500-118">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="c9500-118">**Type**</span></span>|<span data-ttu-id="c9500-119">**Description**</span><span class="sxs-lookup"><span data-stu-id="c9500-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="bd379-120">MasterShortcut</span><span class="sxs-lookup"><span data-stu-id="bd379-120">MasterShortcut</span></span>](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="bd379-121">MasterShortcut_Type</span><span class="sxs-lookup"><span data-stu-id="bd379-121">MasterShortcut_Type</span></span>](mastershortcut_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="bd379-122">Spécifie un format de forme de maître inutilisé.</span><span class="sxs-lookup"><span data-stu-id="bd379-122">Specifies an unused master format.</span></span>  <br/> |
+|[<span data-ttu-id="c9500-120">MasterShortcut</span><span class="sxs-lookup"><span data-stu-id="c9500-120">MasterShortcut</span></span>](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="c9500-121">MasterShortcut_Type</span><span class="sxs-lookup"><span data-stu-id="c9500-121">MasterShortcut_Type</span></span>](mastershortcut_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="c9500-122">Spécifie un format de forme de maître inutilisé.</span><span class="sxs-lookup"><span data-stu-id="c9500-122">Specifies an unused master format.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="bd379-123">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="bd379-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="c9500-123">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="c9500-123">Child elements</span></span>
 
-<span data-ttu-id="bd379-124">Aucun.</span><span class="sxs-lookup"><span data-stu-id="bd379-124">None.</span></span>
+<span data-ttu-id="c9500-124">Aucun.</span><span class="sxs-lookup"><span data-stu-id="c9500-124">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="bd379-125">Attributs</span><span class="sxs-lookup"><span data-stu-id="bd379-125">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="c9500-125">Attributs</span><span class="sxs-lookup"><span data-stu-id="c9500-125">Attributes</span></span>
 
-<span data-ttu-id="bd379-126">Aucun.</span><span class="sxs-lookup"><span data-stu-id="bd379-126">None.</span></span>
+<span data-ttu-id="c9500-126">Aucun.</span><span class="sxs-lookup"><span data-stu-id="c9500-126">None.</span></span>
   
 

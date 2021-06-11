@@ -13,20 +13,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438875"
 ---
-# <a name="about-the-attachment-security-api"></a><span data-ttu-id="acc76-103">À propos de l’API de sécurité des pièces jointes</span><span class="sxs-lookup"><span data-stu-id="acc76-103">About the Attachment Security API</span></span>
+# <a name="about-the-attachment-security-api"></a><span data-ttu-id="f4d97-103">À propos de l’API de sécurité des pièces jointes</span><span class="sxs-lookup"><span data-stu-id="f4d97-103">About the Attachment Security API</span></span>
 
   
   
-<span data-ttu-id="acc76-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="acc76-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f4d97-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f4d97-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="acc76-105">L’API de sécurité des pièces jointes permet aux solutions Outlook de découvrir si une pièce jointe est considérée comme non sûre par Outlook et est bloquée pour l’affichage et l’indexation.</span><span class="sxs-lookup"><span data-stu-id="acc76-105">The Attachment Security API allows Outlook solutions to discover whether an attachment is considered unsafe by Outlook and is blocked for viewing and indexing.</span></span> <span data-ttu-id="acc76-106">Il fournit les définitions et l’interface suivantes.</span><span class="sxs-lookup"><span data-stu-id="acc76-106">It provides the following definitions and interface.</span></span>
+<span data-ttu-id="f4d97-105">L’API de sécurité des pièces jointes permet Outlook solutions de déterminer si une pièce jointe est considérée comme non sûre par Outlook et est bloquée pour l’affichage et l’indexation.</span><span class="sxs-lookup"><span data-stu-id="f4d97-105">The Attachment Security API allows Outlook solutions to discover whether an attachment is considered unsafe by Outlook and is blocked for viewing and indexing.</span></span> <span data-ttu-id="f4d97-106">Il fournit les définitions et l’interface suivantes.</span><span class="sxs-lookup"><span data-stu-id="f4d97-106">It provides the following definitions and interface.</span></span>
   
-<span data-ttu-id="acc76-107">Définitions</span><span class="sxs-lookup"><span data-stu-id="acc76-107">Definitions</span></span>
+<span data-ttu-id="f4d97-107">Définitions</span><span class="sxs-lookup"><span data-stu-id="f4d97-107">Definitions</span></span>
   
-- [<span data-ttu-id="acc76-108">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="acc76-108">MAPI Constants</span></span>](mapi-constants.md)
+- [<span data-ttu-id="f4d97-108">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="f4d97-108">MAPI Constants</span></span>](mapi-constants.md)
     
-<span data-ttu-id="acc76-109">Interface</span><span class="sxs-lookup"><span data-stu-id="acc76-109">Interface</span></span>
+<span data-ttu-id="f4d97-109">Interface</span><span class="sxs-lookup"><span data-stu-id="f4d97-109">Interface</span></span>
   
-- <span data-ttu-id="acc76-110">**[IAttachmentSecurity](iattachmentsecurityiunknown.md)**</span><span class="sxs-lookup"><span data-stu-id="acc76-110">**[IAttachmentSecurity](iattachmentsecurityiunknown.md)**</span></span>
+- <span data-ttu-id="f4d97-110">**[IAttachmentSecurity](iattachmentsecurityiunknown.md)**</span><span class="sxs-lookup"><span data-stu-id="f4d97-110">**[IAttachmentSecurity](iattachmentsecurityiunknown.md)**</span></span>
     
 

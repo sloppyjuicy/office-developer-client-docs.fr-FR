@@ -19,17 +19,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439400"
 ---
-# <a name="scurrencyarray"></a><span data-ttu-id="cd133-103">SCurrencyArray</span><span class="sxs-lookup"><span data-stu-id="cd133-103">SCurrencyArray</span></span>
+# <a name="scurrencyarray"></a><span data-ttu-id="5ab3e-103">SCurrencyArray</span><span class="sxs-lookup"><span data-stu-id="5ab3e-103">SCurrencyArray</span></span>
 
   
   
-<span data-ttu-id="cd133-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cd133-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5ab3e-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5ab3e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cd133-105">Contient un tableau de valeurs monétaires utilisées pour décrire une propriété de type PT_MV_CURRENCY.</span><span class="sxs-lookup"><span data-stu-id="cd133-105">Contains an array of currency values that are used to describe a property of type PT_MV_CURRENCY.</span></span> 
+<span data-ttu-id="5ab3e-105">Contient un tableau de valeurs monétaires utilisées pour décrire une propriété de type PT_MV_CURRENCY.</span><span class="sxs-lookup"><span data-stu-id="5ab3e-105">Contains an array of currency values that are used to describe a property of type PT_MV_CURRENCY.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cd133-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="cd133-106">Header file:</span></span>  <br/> |<span data-ttu-id="cd133-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cd133-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="5ab3e-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="5ab3e-106">Header file:</span></span>  <br/> |<span data-ttu-id="5ab3e-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5ab3e-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SCurrencyArray
@@ -40,28 +40,28 @@ typedef struct _SCurrencyArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="cd133-108">Members</span><span class="sxs-lookup"><span data-stu-id="cd133-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="5ab3e-108">Members</span><span class="sxs-lookup"><span data-stu-id="5ab3e-108">Members</span></span>
 
- <span data-ttu-id="cd133-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="cd133-109">**cValues**</span></span>
+ <span data-ttu-id="5ab3e-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="5ab3e-109">**cValues**</span></span>
   
-> <span data-ttu-id="cd133-110">Nombre de valeurs dans le tableau pointées par **le membre lpcur.**</span><span class="sxs-lookup"><span data-stu-id="cd133-110">Count of values in the array pointed to by the **lpcur** member.</span></span> 
+> <span data-ttu-id="5ab3e-110">Nombre de valeurs dans le tableau pointées par **le membre lpcur.**</span><span class="sxs-lookup"><span data-stu-id="5ab3e-110">Count of values in the array pointed to by the **lpcur** member.</span></span> 
     
- <span data-ttu-id="cd133-111">**lpcur**</span><span class="sxs-lookup"><span data-stu-id="cd133-111">**lpcur**</span></span>
+ <span data-ttu-id="5ab3e-111">**lpcur**</span><span class="sxs-lookup"><span data-stu-id="5ab3e-111">**lpcur**</span></span>
   
-> <span data-ttu-id="cd133-112">Pointeur vers un tableau de structures [CURRENCY](currency.md) qui contiennent les valeurs monétaires.</span><span class="sxs-lookup"><span data-stu-id="cd133-112">Pointer to an array of [CURRENCY](currency.md) structures that contain the currency values.</span></span> 
+> <span data-ttu-id="5ab3e-112">Pointeur vers un tableau de structures [CURRENCY](currency.md) qui contiennent les valeurs monétaires.</span><span class="sxs-lookup"><span data-stu-id="5ab3e-112">Pointer to an array of [CURRENCY](currency.md) structures that contain the currency values.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="cd133-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="cd133-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5ab3e-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="5ab3e-113">Remarks</span></span>
 
-<span data-ttu-id="cd133-114">Pour plus d’informations PT_MV_CURRENCY, voir [Liste des types de propriétés.](property-types.md)</span><span class="sxs-lookup"><span data-stu-id="cd133-114">For information about PT_MV_CURRENCY, see [List of Property Types](property-types.md).</span></span> 
+<span data-ttu-id="5ab3e-114">Pour plus d’informations PT_MV_CURRENCY, voir [Liste des types de propriétés.](property-types.md)</span><span class="sxs-lookup"><span data-stu-id="5ab3e-114">For information about PT_MV_CURRENCY, see [List of Property Types](property-types.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="cd133-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cd133-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5ab3e-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5ab3e-115">See also</span></span>
 
 
 
-[<span data-ttu-id="cd133-116">CURRENCY</span><span class="sxs-lookup"><span data-stu-id="cd133-116">CURRENCY</span></span>](currency.md)
+[<span data-ttu-id="5ab3e-116">CURRENCY</span><span class="sxs-lookup"><span data-stu-id="5ab3e-116">CURRENCY</span></span>](currency.md)
   
-[<span data-ttu-id="cd133-117">SPropValue</span><span class="sxs-lookup"><span data-stu-id="cd133-117">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="5ab3e-117">SPropValue</span><span class="sxs-lookup"><span data-stu-id="5ab3e-117">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="cd133-118">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="cd133-118">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="5ab3e-118">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="5ab3e-118">MAPI Structures</span></span>](mapi-structures.md)
 

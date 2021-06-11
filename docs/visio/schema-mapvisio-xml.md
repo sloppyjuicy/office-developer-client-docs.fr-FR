@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3ff1f2e1-bdfe-2766-3c0f-0f299cc256e9
-description: Cette rubrique présente la définition de schéma XML pour le format de fichier Visio 2013.
+description: Cette rubrique présente la définition de schéma XML pour Visio format de fichier 2013.
 ms.openlocfilehash: 1822134546b730ceecb2f30183b4a8c325f37906
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539081"
 ---
-# <a name="schema-map-visio-xml"></a><span data-ttu-id="89cd5-103">Plan de schéma (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="89cd5-103">Schema map (Visio XML)</span></span>
+# <a name="schema-map-visio-xml"></a><span data-ttu-id="fa99a-103">Plan de schéma (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="fa99a-103">Schema map (Visio XML)</span></span>
 
-<span data-ttu-id="89cd5-104">Cette rubrique présente la définition de schéma XML pour le format de fichier Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="89cd5-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
+<span data-ttu-id="fa99a-104">Cette rubrique présente la définition de schéma XML pour Visio format de fichier 2013.</span><span class="sxs-lookup"><span data-stu-id="fa99a-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

@@ -19,39 +19,39 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439876"
 ---
-# <a name="imapiofflinenotify--iunknown"></a><span data-ttu-id="040f6-103">IMAPIOfflineNotify : IUnknown</span><span class="sxs-lookup"><span data-stu-id="040f6-103">IMAPIOfflineNotify : IUnknown</span></span>
+# <a name="imapiofflinenotify--iunknown"></a><span data-ttu-id="1d3a4-103">IMAPIOfflineNotify : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1d3a4-103">IMAPIOfflineNotify : IUnknown</span></span>
 
   
   
-<span data-ttu-id="040f6-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="040f6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1d3a4-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1d3a4-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="040f6-105">Prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 dans l’envoi de rappels de notification à un client.</span><span class="sxs-lookup"><span data-stu-id="040f6-105">Supports Microsoft Outlook 2010 and Microsoft Outlook 2013 in sending notification callbacks to a client.</span></span>
+<span data-ttu-id="1d3a4-105">Prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 l’envoi de rappels de notification à un client.</span><span class="sxs-lookup"><span data-stu-id="1d3a4-105">Supports Microsoft Outlook 2010 and Microsoft Outlook 2013 in sending notification callbacks to a client.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="040f6-106">Fourni par :</span><span class="sxs-lookup"><span data-stu-id="040f6-106">Provided by:</span></span>  <br/> |<span data-ttu-id="040f6-107">Client</span><span class="sxs-lookup"><span data-stu-id="040f6-107">Client</span></span>  <br/> |
-|<span data-ttu-id="040f6-108">Identificateur d’interface :</span><span class="sxs-lookup"><span data-stu-id="040f6-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="040f6-109">IID_IMAPIOfflineNotify</span><span class="sxs-lookup"><span data-stu-id="040f6-109">IID_IMAPIOfflineNotify</span></span>  <br/> |
+|<span data-ttu-id="1d3a4-106">Fourni par :</span><span class="sxs-lookup"><span data-stu-id="1d3a4-106">Provided by:</span></span>  <br/> |<span data-ttu-id="1d3a4-107">Client</span><span class="sxs-lookup"><span data-stu-id="1d3a4-107">Client</span></span>  <br/> |
+|<span data-ttu-id="1d3a4-108">Identificateur d’interface :</span><span class="sxs-lookup"><span data-stu-id="1d3a4-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="1d3a4-109">IID_IMAPIOfflineNotify</span><span class="sxs-lookup"><span data-stu-id="1d3a4-109">IID_IMAPIOfflineNotify</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="040f6-110">Ordre des vtables</span><span class="sxs-lookup"><span data-stu-id="040f6-110">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="1d3a4-110">Ordre des vtables</span><span class="sxs-lookup"><span data-stu-id="1d3a4-110">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-|[<span data-ttu-id="040f6-111">Notification</span><span class="sxs-lookup"><span data-stu-id="040f6-111">Notify</span></span>](imapiofflinenotify-notify.md) <br/> |<span data-ttu-id="040f6-112">Envoie des notifications à un client concernant les modifications apportées à l’état de connexion.</span><span class="sxs-lookup"><span data-stu-id="040f6-112">Sends notifications to a client about changes in connection state.</span></span>  <br/> |
+|[<span data-ttu-id="1d3a4-111">Notification</span><span class="sxs-lookup"><span data-stu-id="1d3a4-111">Notify</span></span>](imapiofflinenotify-notify.md) <br/> |<span data-ttu-id="1d3a4-112">Envoie des notifications à un client concernant les modifications apportées à l’état de connexion.</span><span class="sxs-lookup"><span data-stu-id="1d3a4-112">Sends notifications to a client about changes in connection state.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="040f6-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="040f6-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1d3a4-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="1d3a4-113">Remarks</span></span>
 
-<span data-ttu-id="040f6-114">Le client doit implémenter cette interface et lui transmettre un pointeur en tant que membre dans **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** lors de la configuration des rappels à l’aide **[d’IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**.</span><span class="sxs-lookup"><span data-stu-id="040f6-114">The client must implement this interface and pass a pointer to it as a member in **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** when setting up callbacks using **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**.</span></span> <span data-ttu-id="040f6-115">Par la suite, Outlook 2010 ou Outlook 2013 pourra utiliser cette interface pour envoyer des rappels de notification au client.</span><span class="sxs-lookup"><span data-stu-id="040f6-115">Subsequently, Outlook 2010 or Outlook 2013 will be able to use this interface to send notification callbacks to the client.</span></span> 
+<span data-ttu-id="1d3a4-114">Le client doit implémenter cette interface et lui transmettre un pointeur en tant que membre dans **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** lors de la configuration des rappels à l’aide **[d’IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**.</span><span class="sxs-lookup"><span data-stu-id="1d3a4-114">The client must implement this interface and pass a pointer to it as a member in **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** when setting up callbacks using **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**.</span></span> <span data-ttu-id="1d3a4-115">Par la suite, Outlook 2010 ou Outlook 2013 pourra utiliser cette interface pour envoyer des rappels de notification au client.</span><span class="sxs-lookup"><span data-stu-id="1d3a4-115">Subsequently, Outlook 2010 or Outlook 2013 will be able to use this interface to send notification callbacks to the client.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="040f6-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="040f6-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1d3a4-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1d3a4-116">See also</span></span>
 
 
 
-[<span data-ttu-id="040f6-117">IMAPIOfflineMgr::Advise</span><span class="sxs-lookup"><span data-stu-id="040f6-117">IMAPIOfflineMgr::Advise</span></span>](imapiofflinemgr-advise.md)
+[<span data-ttu-id="1d3a4-117">IMAPIOfflineMgr::Advise</span><span class="sxs-lookup"><span data-stu-id="1d3a4-117">IMAPIOfflineMgr::Advise</span></span>](imapiofflinemgr-advise.md)
 
 
-[<span data-ttu-id="040f6-118">À propos de l’API d’état hors connexion</span><span class="sxs-lookup"><span data-stu-id="040f6-118">About the Offline State API</span></span>](about-the-offline-state-api.md)
+[<span data-ttu-id="1d3a4-118">À propos de l’API d’état hors connexion</span><span class="sxs-lookup"><span data-stu-id="1d3a4-118">About the Offline State API</span></span>](about-the-offline-state-api.md)
   
-[<span data-ttu-id="040f6-119">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="040f6-119">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="1d3a4-119">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="1d3a4-119">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="040f6-120">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="040f6-120">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md)
+[<span data-ttu-id="1d3a4-120">MAPIOFFLINE_ADVISEINFO</span><span class="sxs-lookup"><span data-stu-id="1d3a4-120">MAPIOFFLINE_ADVISEINFO</span></span>](mapioffline_adviseinfo.md)
 

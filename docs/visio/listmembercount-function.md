@@ -14,25 +14,25 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52061257"
 ---
-# <a name="listmembercount-function"></a><span data-ttu-id="f1203-103">Fonction LISTMEMBERCOUNT</span><span class="sxs-lookup"><span data-stu-id="f1203-103">LISTMEMBERCOUNT Function</span></span>
+# <a name="listmembercount-function"></a><span data-ttu-id="1eb3d-103">Fonction LISTMEMBERCOUNT</span><span class="sxs-lookup"><span data-stu-id="1eb3d-103">LISTMEMBERCOUNT Function</span></span>
 
-<span data-ttu-id="f1203-104">Renvoie le nombre de formes membres de la forme conteneur de liste.</span><span class="sxs-lookup"><span data-stu-id="f1203-104">Returns the number of member shapes in the list container shape.</span></span>
+<span data-ttu-id="1eb3d-104">Renvoie le nombre de formes membres de la forme conteneur de liste.</span><span class="sxs-lookup"><span data-stu-id="1eb3d-104">Returns the number of member shapes in the list container shape.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="f1203-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="f1203-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="1eb3d-105">Informations de version</span><span class="sxs-lookup"><span data-stu-id="1eb3d-105">Version Information</span></span>
 
-<span data-ttu-id="f1203-106">Version ajoutée : Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="f1203-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="1eb3d-106">Version ajoutée : Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="1eb3d-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f1203-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f1203-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1eb3d-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="1eb3d-107">Syntax</span></span>
 
-<span data-ttu-id="f1203-108">LISTMEMBERCOUNT()</span><span class="sxs-lookup"><span data-stu-id="f1203-108">LISTMEMBERCOUNT()</span></span>
+<span data-ttu-id="1eb3d-108">LISTMEMBERCOUNT()</span><span class="sxs-lookup"><span data-stu-id="1eb3d-108">LISTMEMBERCOUNT()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="f1203-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="f1203-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="1eb3d-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="1eb3d-109">Return value</span></span>
 
-<span data-ttu-id="f1203-110">Entier</span><span class="sxs-lookup"><span data-stu-id="f1203-110">Integer</span></span>
+<span data-ttu-id="1eb3d-110">Entier</span><span class="sxs-lookup"><span data-stu-id="1eb3d-110">Integer</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f1203-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="f1203-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1eb3d-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="1eb3d-111">Remarks</span></span>
 
-<span data-ttu-id="f1203-112">Si la forme n’est pas un conteneur de liste, la fonction LISTMEMBERCOUNT renvoie 0.</span><span class="sxs-lookup"><span data-stu-id="f1203-112">If the shape is not a list container, the LISTMEMBERCOUNT function returns 0.</span></span>
+<span data-ttu-id="1eb3d-112">Si la forme n’est pas un conteneur de liste, la fonction LISTMEMBERCOUNT renvoie 0.</span><span class="sxs-lookup"><span data-stu-id="1eb3d-112">If the shape is not a list container, the LISTMEMBERCOUNT function returns 0.</span></span>
   
 

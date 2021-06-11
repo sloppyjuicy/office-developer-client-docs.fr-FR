@@ -14,24 +14,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439673"
 ---
-# <a name="bevelbottomwidth-cell-bevel-properties-section"></a><span data-ttu-id="3bdc4-103">BevelBottomWidth Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="3bdc4-103">BevelBottomWidth Cell (Bevel Properties Section)</span></span>
+# <a name="bevelbottomwidth-cell-bevel-properties-section"></a><span data-ttu-id="71d22-103">BevelBottomWidth Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="71d22-103">BevelBottomWidth Cell (Bevel Properties Section)</span></span>
 
-<span data-ttu-id="3bdc4-104">Détermine la largeur du biseau inférieur en points.</span><span class="sxs-lookup"><span data-stu-id="3bdc4-104">Determines the width of the bottom bevel in points.</span></span> 
+<span data-ttu-id="71d22-104">Détermine la largeur du biseau inférieur en points.</span><span class="sxs-lookup"><span data-stu-id="71d22-104">Determines the width of the bottom bevel in points.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="3bdc4-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="3bdc4-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="71d22-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="71d22-105">Remarks</span></span>
 
-<span data-ttu-id="3bdc4-106">Pour obtenir une référence à la cellule **BevelBottomWidth** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="3bdc4-106">To get a reference to the **BevelBottomWidth** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="71d22-106">Pour obtenir une référence à la cellule **BevelBottomWidth** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="71d22-106">To get a reference to the **BevelBottomWidth** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3bdc4-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="3bdc4-107">Cell name:</span></span>  <br/> | <span data-ttu-id="3bdc4-108">BevelBottomWidth</span><span class="sxs-lookup"><span data-stu-id="3bdc4-108">BevelBottomWidth</span></span>  <br/> |
+| <span data-ttu-id="71d22-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="71d22-107">Cell name:</span></span>  <br/> | <span data-ttu-id="71d22-108">BevelBottomWidth</span><span class="sxs-lookup"><span data-stu-id="71d22-108">BevelBottomWidth</span></span>  <br/> |
    
-<span data-ttu-id="3bdc4-109">Pour obtenir une référence à la **cellule BevelBottomWidth** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="3bdc4-109">To get a reference to the **BevelBottomWidth** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="71d22-109">Pour obtenir une référence à la **cellule BevelBottomWidth** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="71d22-109">To get a reference to the **BevelBottomWidth** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="3bdc4-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="3bdc4-110">Section index:</span></span>  <br/> |<span data-ttu-id="3bdc4-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="3bdc4-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="3bdc4-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="3bdc4-112">Row index:</span></span>  <br/> |<span data-ttu-id="3bdc4-113">**visRowBevelProperties**</span><span class="sxs-lookup"><span data-stu-id="3bdc4-113">**visRowBevelProperties**</span></span> <br/> |
-| <span data-ttu-id="3bdc4-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="3bdc4-114">Cell index:</span></span>  <br/> |<span data-ttu-id="3bdc4-115">**visBevelBottomWidth**</span><span class="sxs-lookup"><span data-stu-id="3bdc4-115">**visBevelBottomWidth**</span></span> <br/> |
+| <span data-ttu-id="71d22-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="71d22-110">Section index:</span></span>  <br/> |<span data-ttu-id="71d22-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="71d22-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="71d22-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="71d22-112">Row index:</span></span>  <br/> |<span data-ttu-id="71d22-113">**visRowBevelProperties**</span><span class="sxs-lookup"><span data-stu-id="71d22-113">**visRowBevelProperties**</span></span> <br/> |
+| <span data-ttu-id="71d22-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="71d22-114">Cell index:</span></span>  <br/> |<span data-ttu-id="71d22-115">**visBevelBottomWidth**</span><span class="sxs-lookup"><span data-stu-id="71d22-115">**visBevelBottomWidth**</span></span> <br/> |
    
 

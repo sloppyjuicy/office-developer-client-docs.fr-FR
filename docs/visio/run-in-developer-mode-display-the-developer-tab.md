@@ -15,12 +15,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438791"
 ---
-# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="789fd-102">Exécuter en mode développeur (afficher l’onglet Développeur)</span><span class="sxs-lookup"><span data-stu-id="789fd-102">Run in Developer Mode (Display the Developer Tab)</span></span>
+# <a name="run-in-developer-mode-display-the-developer-tab"></a><span data-ttu-id="4d606-102">Exécuter en mode développeur (afficher l’onglet Développeur)</span><span class="sxs-lookup"><span data-stu-id="4d606-102">Run in Developer Mode (Display the Developer Tab)</span></span>
 
-- <span data-ttu-id="789fd-103">Cliquez sur **l’onglet** Fichier, puis sur **Options.**</span><span class="sxs-lookup"><span data-stu-id="789fd-103">Click the **File** tab and then click **Options**.</span></span>
+- <span data-ttu-id="4d606-103">Cliquez sur **l’onglet** Fichier, puis sur **Options.**</span><span class="sxs-lookup"><span data-stu-id="4d606-103">Click the **File** tab and then click **Options**.</span></span>
     
-- <span data-ttu-id="789fd-104">Dans la **boîte de dialogue Options Visio,** cliquez sur **Avancé,** puis sous **Général,** sélectionnez Exécuter **en mode développeur.**</span><span class="sxs-lookup"><span data-stu-id="789fd-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
+- <span data-ttu-id="4d606-104">Dans la **boîte Visio Options** de développement, cliquez sur Avancé, puis sous **Général,** sélectionnez Exécuter **en mode développeur.** </span><span class="sxs-lookup"><span data-stu-id="4d606-104">In the **Visio Options** dialog box, click **Advanced**, and then under **General**, select **Run in developer mode**.</span></span>
     
-<span data-ttu-id="789fd-105">Vous pouvez ensuite sélectionner un objet et cliquer sur **Afficher la feuille ShapeSheet** pour accéder plus rapidement à la fenêtre de feuille ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="789fd-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
+<span data-ttu-id="4d606-105">Vous pouvez ensuite sélectionner un objet et cliquer sur **Afficher la feuille ShapeSheet** pour accéder plus rapidement à la fenêtre de feuille ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="4d606-105">You then can select an object and click **Show ShapeSheet** for quicker access to the ShapeSheet window.</span></span> 
   
 

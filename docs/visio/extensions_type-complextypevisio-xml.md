@@ -13,17 +13,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542372"
 ---
-# <a name="extensions_type-complextype-visio-xml"></a><span data-ttu-id="f41e8-102">Extensions_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="f41e8-102">Extensions_Type complexType (Visio XML)</span></span>
+# <a name="extensions_type-complextype-visio-xml"></a><span data-ttu-id="8788c-102">Extensions_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="8788c-102">Extensions_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="f41e8-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="f41e8-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="8788c-103">Informations sur le type</span><span class="sxs-lookup"><span data-stu-id="8788c-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f41e8-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="f41e8-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="f41e8-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="f41e8-105">**Schema file**</span></span> <br/> |<span data-ttu-id="f41e8-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="f41e8-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="f41e8-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="f41e8-107">**Extension base**</span></span> <br/> |<span data-ttu-id="f41e8-108">Aucun</span><span class="sxs-lookup"><span data-stu-id="f41e8-108">None</span></span>  <br/> |
+|<span data-ttu-id="8788c-104">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="8788c-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="8788c-105">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="8788c-105">**Schema file**</span></span> <br/> |<span data-ttu-id="8788c-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="8788c-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="8788c-107">**Base d’extension**</span><span class="sxs-lookup"><span data-stu-id="8788c-107">**Extension base**</span></span> <br/> |<span data-ttu-id="8788c-108">Aucun</span><span class="sxs-lookup"><span data-stu-id="8788c-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="f41e8-109">Définition</span><span class="sxs-lookup"><span data-stu-id="f41e8-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="8788c-109">Définition</span><span class="sxs-lookup"><span data-stu-id="8788c-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="Extensions_Type">
@@ -52,20 +52,20 @@ ms.locfileid: "34542372"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="f41e8-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="f41e8-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="8788c-110">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="8788c-110">Elements and attributes</span></span>
 
-<span data-ttu-id="f41e8-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="f41e8-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="8788c-111">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="8788c-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="f41e8-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="f41e8-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="8788c-112">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="8788c-112">Child elements</span></span>
 
-|<span data-ttu-id="f41e8-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="f41e8-113">**Element**</span></span>|<span data-ttu-id="f41e8-114">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="f41e8-114">**Type**</span></span>|<span data-ttu-id="f41e8-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="f41e8-115">**Description**</span></span>|
+|<span data-ttu-id="8788c-113">**Élément**</span><span class="sxs-lookup"><span data-stu-id="8788c-113">**Element**</span></span>|<span data-ttu-id="8788c-114">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="8788c-114">**Type**</span></span>|<span data-ttu-id="8788c-115">**Description**</span><span class="sxs-lookup"><span data-stu-id="8788c-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="f41e8-116">CellDef</span><span class="sxs-lookup"><span data-stu-id="f41e8-116">CellDef</span></span> <br/> |[<span data-ttu-id="f41e8-117">CellDef_Type</span><span class="sxs-lookup"><span data-stu-id="f41e8-117">CellDef_Type</span></span>](celldef_type-complextypevisio-xml.md) <br/> ||
-|<span data-ttu-id="f41e8-118">FunctionDef</span><span class="sxs-lookup"><span data-stu-id="f41e8-118">FunctionDef</span></span> <br/> |[<span data-ttu-id="f41e8-119">FunctionDef_Type</span><span class="sxs-lookup"><span data-stu-id="f41e8-119">FunctionDef_Type</span></span>](functiondef_type-complextypevisio-xml.md) <br/> ||
-|<span data-ttu-id="f41e8-120">SectionDef</span><span class="sxs-lookup"><span data-stu-id="f41e8-120">SectionDef</span></span> <br/> |[<span data-ttu-id="f41e8-121">SectionDef_Type</span><span class="sxs-lookup"><span data-stu-id="f41e8-121">SectionDef_Type</span></span>](sectiondef_type-complextypevisio-xml.md) <br/> ||
+|<span data-ttu-id="8788c-116">CellDef</span><span class="sxs-lookup"><span data-stu-id="8788c-116">CellDef</span></span> <br/> |[<span data-ttu-id="8788c-117">CellDef_Type</span><span class="sxs-lookup"><span data-stu-id="8788c-117">CellDef_Type</span></span>](celldef_type-complextypevisio-xml.md) <br/> ||
+|<span data-ttu-id="8788c-118">FunctionDef</span><span class="sxs-lookup"><span data-stu-id="8788c-118">FunctionDef</span></span> <br/> |[<span data-ttu-id="8788c-119">FunctionDef_Type</span><span class="sxs-lookup"><span data-stu-id="8788c-119">FunctionDef_Type</span></span>](functiondef_type-complextypevisio-xml.md) <br/> ||
+|<span data-ttu-id="8788c-120">SectionDef</span><span class="sxs-lookup"><span data-stu-id="8788c-120">SectionDef</span></span> <br/> |[<span data-ttu-id="8788c-121">SectionDef_Type</span><span class="sxs-lookup"><span data-stu-id="8788c-121">SectionDef_Type</span></span>](sectiondef_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="f41e8-122">Attributs</span><span class="sxs-lookup"><span data-stu-id="f41e8-122">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="8788c-122">Attributs</span><span class="sxs-lookup"><span data-stu-id="8788c-122">Attributes</span></span>
 
-<span data-ttu-id="f41e8-123">Aucun.</span><span class="sxs-lookup"><span data-stu-id="f41e8-123">None.</span></span>
+<span data-ttu-id="8788c-123">Aucun.</span><span class="sxs-lookup"><span data-stu-id="8788c-123">None.</span></span>
   
 

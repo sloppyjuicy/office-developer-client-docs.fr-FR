@@ -19,57 +19,57 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540944"
 ---
-# <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a><span data-ttu-id="9873b-103">Propriété canonique PidNameExchangeJunkEmailMoveStamp</span><span class="sxs-lookup"><span data-stu-id="9873b-103">PidNameExchangeJunkEmailMoveStamp Canonical Property</span></span>
+# <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a><span data-ttu-id="e1b5c-103">Propriété canonique PidNameExchangeJunkEmailMoveStamp</span><span class="sxs-lookup"><span data-stu-id="e1b5c-103">PidNameExchangeJunkEmailMoveStamp Canonical Property</span></span>
 
   
   
-<span data-ttu-id="9873b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9873b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e1b5c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e1b5c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9873b-105">Contient la valeur de message persistante qui indique que le message ne doit pas être traitée par un filtre de courrier indésirable, car le message a déjà été ou est sécurisé.</span><span class="sxs-lookup"><span data-stu-id="9873b-105">Contains the persisted message value that indicates that the message should not be processed by a spam filter because the message was either already processed or is safe.</span></span>
+<span data-ttu-id="e1b5c-105">Contient la valeur de message persistante qui indique que le message ne doit pas être traitée par un filtre de courrier indésirable, car le message a déjà été ou est sécurisé.</span><span class="sxs-lookup"><span data-stu-id="e1b5c-105">Contains the persisted message value that indicates that the message should not be processed by a spam filter because the message was either already processed or is safe.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9873b-106">Noms convivial :</span><span class="sxs-lookup"><span data-stu-id="9873b-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="9873b-107">Aucun</span><span class="sxs-lookup"><span data-stu-id="9873b-107">None</span></span>  <br/> |
-|<span data-ttu-id="9873b-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="9873b-108">Property set:</span></span>  <br/> |<span data-ttu-id="9873b-109">PS_PUBLIC_STRINGS</span><span class="sxs-lookup"><span data-stu-id="9873b-109">PS_PUBLIC_STRINGS</span></span>  <br/> |
-|<span data-ttu-id="9873b-110">Nom de la propriété :</span><span class="sxs-lookup"><span data-stu-id="9873b-110">Property name:</span></span>  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
-|<span data-ttu-id="9873b-111">Type de données :</span><span class="sxs-lookup"><span data-stu-id="9873b-111">Data type:</span></span>  <br/> |<span data-ttu-id="9873b-112">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="9873b-112">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="9873b-113">Domaine :</span><span class="sxs-lookup"><span data-stu-id="9873b-113">Area:</span></span>  <br/> |<span data-ttu-id="9873b-114">Messagerie sécurisée</span><span class="sxs-lookup"><span data-stu-id="9873b-114">Secure messaging</span></span>  <br/> |
+|<span data-ttu-id="e1b5c-106">Noms convivial :</span><span class="sxs-lookup"><span data-stu-id="e1b5c-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="e1b5c-107">Aucun</span><span class="sxs-lookup"><span data-stu-id="e1b5c-107">None</span></span>  <br/> |
+|<span data-ttu-id="e1b5c-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="e1b5c-108">Property set:</span></span>  <br/> |<span data-ttu-id="e1b5c-109">PS_PUBLIC_STRINGS</span><span class="sxs-lookup"><span data-stu-id="e1b5c-109">PS_PUBLIC_STRINGS</span></span>  <br/> |
+|<span data-ttu-id="e1b5c-110">Nom de la propriété :</span><span class="sxs-lookup"><span data-stu-id="e1b5c-110">Property name:</span></span>  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|<span data-ttu-id="e1b5c-111">Type de données :</span><span class="sxs-lookup"><span data-stu-id="e1b5c-111">Data type:</span></span>  <br/> |<span data-ttu-id="e1b5c-112">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="e1b5c-112">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="e1b5c-113">Domaine :</span><span class="sxs-lookup"><span data-stu-id="e1b5c-113">Area:</span></span>  <br/> |<span data-ttu-id="e1b5c-114">Messagerie sécurisée</span><span class="sxs-lookup"><span data-stu-id="e1b5c-114">Secure messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="9873b-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="9873b-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e1b5c-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="e1b5c-115">Remarks</span></span>
 
-<span data-ttu-id="9873b-116">Cette propriété est estampillée sur chaque message déplacé par la règle de courrier indésirable ou par un contenu approuvé.</span><span class="sxs-lookup"><span data-stu-id="9873b-116">This property is stamped on every message that is moved by the Junk E-Mail Rule or is otherwise trusted content.</span></span>
+<span data-ttu-id="e1b5c-116">Cette propriété est estampillée sur chaque message déplacé par la règle de courrier indésirable ou par un contenu approuvé.</span><span class="sxs-lookup"><span data-stu-id="e1b5c-116">This property is stamped on every message that is moved by the Junk E-Mail Rule or is otherwise trusted content.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="9873b-117">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="9873b-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e1b5c-117">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="e1b5c-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="9873b-118">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="9873b-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="e1b5c-118">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="e1b5c-118">Protocol specifications</span></span>
 
-<span data-ttu-id="9873b-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9873b-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e1b5c-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e1b5c-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="9873b-120">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="9873b-120">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="e1b5c-120">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="e1b5c-120">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="9873b-121">[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9873b-121">[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e1b5c-121">[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e1b5c-121">[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="9873b-122">Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.</span><span class="sxs-lookup"><span data-stu-id="9873b-122">Enables the handling of allow/block lists and the determination of junk email messages.</span></span>
+> <span data-ttu-id="e1b5c-122">Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.</span><span class="sxs-lookup"><span data-stu-id="e1b5c-122">Enables the handling of allow/block lists and the determination of junk email messages.</span></span>
     
-<span data-ttu-id="9873b-123">[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9873b-123">[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e1b5c-123">[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e1b5c-123">[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="9873b-124">Spécifie les propriétés et les opérations qui représentent des éléments RSS.</span><span class="sxs-lookup"><span data-stu-id="9873b-124">Specifies the properties and operations that represent RSS items.</span></span>
+> <span data-ttu-id="e1b5c-124">Spécifie les propriétés et les opérations qui représentent des éléments RSS.</span><span class="sxs-lookup"><span data-stu-id="e1b5c-124">Specifies the properties and operations that represent RSS items.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="9873b-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="9873b-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e1b5c-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="e1b5c-125">Header files</span></span>
 
-<span data-ttu-id="9873b-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="9873b-126">Mapidefs.h</span></span>
+<span data-ttu-id="e1b5c-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e1b5c-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="9873b-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="9873b-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="e1b5c-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="e1b5c-127">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="9873b-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9873b-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e1b5c-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e1b5c-128">See also</span></span>
 
 
 
-[<span data-ttu-id="9873b-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="9873b-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e1b5c-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="e1b5c-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="9873b-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="9873b-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e1b5c-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="e1b5c-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="9873b-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="9873b-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e1b5c-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="e1b5c-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="9873b-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="9873b-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e1b5c-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="e1b5c-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

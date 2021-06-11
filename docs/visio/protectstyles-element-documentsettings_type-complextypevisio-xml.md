@@ -14,42 +14,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538934"
 ---
-# <a name="protectstyles-element-documentsettings_type-complextype-visio-xml"></a><span data-ttu-id="f55a9-103">Élément ProtectStyles (DocumentSettings_Type complexType) (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="f55a9-103">ProtectStyles element (DocumentSettings_Type complexType) (Visio XML)</span></span>
+# <a name="protectstyles-element-documentsettings_type-complextype-visio-xml"></a><span data-ttu-id="f272d-103">Élément ProtectStyles (DocumentSettings_Type complexType) (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="f272d-103">ProtectStyles element (DocumentSettings_Type complexType) (Visio XML)</span></span>
 
-<span data-ttu-id="f55a9-104">Spécifie si l’utilisateur est empêché de créer ou de modifier des styles.</span><span class="sxs-lookup"><span data-stu-id="f55a9-104">Specifies whether the user is prevented from creating or editing styles.</span></span>
+<span data-ttu-id="f272d-104">Spécifie si l’utilisateur est empêché de créer ou de modifier des styles.</span><span class="sxs-lookup"><span data-stu-id="f272d-104">Specifies whether the user is prevented from creating or editing styles.</span></span>
   
-## <a name="element-information"></a><span data-ttu-id="f55a9-105">Informations sur l’élément</span><span class="sxs-lookup"><span data-stu-id="f55a9-105">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="f272d-105">Informations sur l’élément</span><span class="sxs-lookup"><span data-stu-id="f272d-105">Element information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f55a9-106">**Type d’élément**</span><span class="sxs-lookup"><span data-stu-id="f55a9-106">**Element type**</span></span> <br/> |[<span data-ttu-id="f55a9-107">ProtectStyles_Type</span><span class="sxs-lookup"><span data-stu-id="f55a9-107">ProtectStyles_Type</span></span>](protectstyles_type-complextypevisio-xml.md) <br/> |
-|<span data-ttu-id="f55a9-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="f55a9-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|<span data-ttu-id="f55a9-109">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="f55a9-109">**Schema file**</span></span> <br/> |<span data-ttu-id="f55a9-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="f55a9-110">VisioSchema15.xsd</span></span>  <br/> |
-|<span data-ttu-id="f55a9-111">**Composants de document**</span><span class="sxs-lookup"><span data-stu-id="f55a9-111">**Document parts**</span></span> <br/> |<span data-ttu-id="f55a9-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="f55a9-112">document.xml</span></span>  <br/> |
+|<span data-ttu-id="f272d-106">**Type d’élément**</span><span class="sxs-lookup"><span data-stu-id="f272d-106">**Element type**</span></span> <br/> |[<span data-ttu-id="f272d-107">ProtectStyles_Type</span><span class="sxs-lookup"><span data-stu-id="f272d-107">ProtectStyles_Type</span></span>](protectstyles_type-complextypevisio-xml.md) <br/> |
+|<span data-ttu-id="f272d-108">**Namespace**</span><span class="sxs-lookup"><span data-stu-id="f272d-108">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|<span data-ttu-id="f272d-109">**Fichier de schéma**</span><span class="sxs-lookup"><span data-stu-id="f272d-109">**Schema file**</span></span> <br/> |<span data-ttu-id="f272d-110">VisioSchema15.xsd</span><span class="sxs-lookup"><span data-stu-id="f272d-110">VisioSchema15.xsd</span></span>  <br/> |
+|<span data-ttu-id="f272d-111">**Composants de document**</span><span class="sxs-lookup"><span data-stu-id="f272d-111">**Document parts**</span></span> <br/> |<span data-ttu-id="f272d-112">document.xml</span><span class="sxs-lookup"><span data-stu-id="f272d-112">document.xml</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="f55a9-113">Définition</span><span class="sxs-lookup"><span data-stu-id="f55a9-113">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="f272d-113">Définition</span><span class="sxs-lookup"><span data-stu-id="f272d-113">Definition</span></span>
 
 ```XML
 < xs:element name="ProtectStyles" type="ProtectStyles_Type" minOccurs="0" maxOccurs="1" >
 </xs:element >
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="f55a9-114">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="f55a9-114">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="f272d-114">Éléments et attributs</span><span class="sxs-lookup"><span data-stu-id="f272d-114">Elements and attributes</span></span>
 
-<span data-ttu-id="f55a9-115">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="f55a9-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="f272d-115">Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition.</span><span class="sxs-lookup"><span data-stu-id="f272d-115">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="parent-elements"></a><span data-ttu-id="f55a9-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="f55a9-116">Parent elements</span></span>
+### <a name="parent-elements"></a><span data-ttu-id="f272d-116">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="f272d-116">Parent elements</span></span>
 
-|<span data-ttu-id="f55a9-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="f55a9-117">**Element**</span></span>|<span data-ttu-id="f55a9-118">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="f55a9-118">**Type**</span></span>|<span data-ttu-id="f55a9-119">**Description**</span><span class="sxs-lookup"><span data-stu-id="f55a9-119">**Description**</span></span>|
+|<span data-ttu-id="f272d-117">**Élément**</span><span class="sxs-lookup"><span data-stu-id="f272d-117">**Element**</span></span>|<span data-ttu-id="f272d-118">**Type (Type)**</span><span class="sxs-lookup"><span data-stu-id="f272d-118">**Type**</span></span>|<span data-ttu-id="f272d-119">**Description**</span><span class="sxs-lookup"><span data-stu-id="f272d-119">**Description**</span></span>|
 |:-----|:-----|:-----|
-|[<span data-ttu-id="f55a9-120">DocumentSettings</span><span class="sxs-lookup"><span data-stu-id="f55a9-120">DocumentSettings</span></span>](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f55a9-121">DocumentSettings_Type</span><span class="sxs-lookup"><span data-stu-id="f55a9-121">DocumentSettings_Type</span></span>](documentsettings_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="f55a9-122">Contient des éléments qui spécifient les paramètres de document.</span><span class="sxs-lookup"><span data-stu-id="f55a9-122">Contains elements that specify document settings.</span></span>  <br/> |
+|[<span data-ttu-id="f272d-120">DocumentSettings</span><span class="sxs-lookup"><span data-stu-id="f272d-120">DocumentSettings</span></span>](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[<span data-ttu-id="f272d-121">DocumentSettings_Type</span><span class="sxs-lookup"><span data-stu-id="f272d-121">DocumentSettings_Type</span></span>](documentsettings_type-complextypevisio-xml.md) <br/> |<span data-ttu-id="f272d-122">Contient des éléments qui spécifient les paramètres de document.</span><span class="sxs-lookup"><span data-stu-id="f272d-122">Contains elements that specify document settings.</span></span>  <br/> |
    
-### <a name="child-elements"></a><span data-ttu-id="f55a9-123">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="f55a9-123">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="f272d-123">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="f272d-123">Child elements</span></span>
 
-<span data-ttu-id="f55a9-124">Aucun.</span><span class="sxs-lookup"><span data-stu-id="f55a9-124">None.</span></span>
+<span data-ttu-id="f272d-124">Aucun.</span><span class="sxs-lookup"><span data-stu-id="f272d-124">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f55a9-125">Attributs</span><span class="sxs-lookup"><span data-stu-id="f55a9-125">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="f272d-125">Attributs</span><span class="sxs-lookup"><span data-stu-id="f272d-125">Attributes</span></span>
 
-<span data-ttu-id="f55a9-126">Aucun.</span><span class="sxs-lookup"><span data-stu-id="f55a9-126">None.</span></span>
+<span data-ttu-id="f272d-126">Aucun.</span><span class="sxs-lookup"><span data-stu-id="f272d-126">None.</span></span>
   
 

@@ -19,35 +19,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438427"
 ---
-# <a name="cbsproptagarray"></a><span data-ttu-id="8aa46-103">CbSPropTagArray</span><span class="sxs-lookup"><span data-stu-id="8aa46-103">CbSPropTagArray</span></span>
+# <a name="cbsproptagarray"></a><span data-ttu-id="6d5aa-103">CbSPropTagArray</span><span class="sxs-lookup"><span data-stu-id="6d5aa-103">CbSPropTagArray</span></span>
 
   
   
-<span data-ttu-id="8aa46-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8aa46-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6d5aa-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6d5aa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8aa46-105">Calcule le nombre d’octets dans une structure [SPropTagArray](sproptagarray.md) existante.</span><span class="sxs-lookup"><span data-stu-id="8aa46-105">Computes the number of bytes in an existing [SPropTagArray](sproptagarray.md) structure.</span></span> 
+<span data-ttu-id="6d5aa-105">Calcule le nombre d’octets dans une structure [SPropTagArray](sproptagarray.md) existante.</span><span class="sxs-lookup"><span data-stu-id="6d5aa-105">Computes the number of bytes in an existing [SPropTagArray](sproptagarray.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8aa46-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="8aa46-106">Header file:</span></span>  <br/> |<span data-ttu-id="8aa46-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="8aa46-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="8aa46-108">Structure connexe :</span><span class="sxs-lookup"><span data-stu-id="8aa46-108">Related structure:</span></span>  <br/> |<span data-ttu-id="8aa46-109">**SPropTagArray**</span><span class="sxs-lookup"><span data-stu-id="8aa46-109">**SPropTagArray**</span></span> <br/> |
+|<span data-ttu-id="6d5aa-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="6d5aa-106">Header file:</span></span>  <br/> |<span data-ttu-id="6d5aa-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="6d5aa-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="6d5aa-108">Structure connexe :</span><span class="sxs-lookup"><span data-stu-id="6d5aa-108">Related structure:</span></span>  <br/> |<span data-ttu-id="6d5aa-109">**SPropTagArray**</span><span class="sxs-lookup"><span data-stu-id="6d5aa-109">**SPropTagArray**</span></span> <br/> |
    
 ```cpp
 CbSPropTagArray (_lparray)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8aa46-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="8aa46-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6d5aa-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="6d5aa-110">Parameters</span></span>
 
- <span data-ttu-id="8aa46-111">_ _lparray_</span><span class="sxs-lookup"><span data-stu-id="8aa46-111">_ _lparray_</span></span>
+ <span data-ttu-id="6d5aa-111">_ _lparray_</span><span class="sxs-lookup"><span data-stu-id="6d5aa-111">_ _lparray_</span></span>
   
-> <span data-ttu-id="8aa46-112">Pointeur vers la structure **SPropTagArray** existante.</span><span class="sxs-lookup"><span data-stu-id="8aa46-112">Pointer to the existing **SPropTagArray** structure.</span></span> 
+> <span data-ttu-id="6d5aa-112">Pointeur vers la structure **SPropTagArray** existante.</span><span class="sxs-lookup"><span data-stu-id="6d5aa-112">Pointer to the existing **SPropTagArray** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="8aa46-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8aa46-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6d5aa-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6d5aa-113">See also</span></span>
 
 
 
-[<span data-ttu-id="8aa46-114">SPropTagArray</span><span class="sxs-lookup"><span data-stu-id="8aa46-114">SPropTagArray</span></span>](sproptagarray.md)
+[<span data-ttu-id="6d5aa-114">SPropTagArray</span><span class="sxs-lookup"><span data-stu-id="6d5aa-114">SPropTagArray</span></span>](sproptagarray.md)
 
 
-[<span data-ttu-id="8aa46-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="8aa46-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="6d5aa-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="6d5aa-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

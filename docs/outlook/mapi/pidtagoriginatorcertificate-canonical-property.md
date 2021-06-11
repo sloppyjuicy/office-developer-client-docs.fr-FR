@@ -19,46 +19,46 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438938"
 ---
-# <a name="pidtagoriginatorcertificate-canonical-property"></a><span data-ttu-id="3ba35-103">Propriété canonique PidTagOriginatorCertificate</span><span class="sxs-lookup"><span data-stu-id="3ba35-103">PidTagOriginatorCertificate Canonical Property</span></span>
+# <a name="pidtagoriginatorcertificate-canonical-property"></a><span data-ttu-id="c4258-103">Propriété canonique PidTagOriginatorCertificate</span><span class="sxs-lookup"><span data-stu-id="c4258-103">PidTagOriginatorCertificate Canonical Property</span></span>
 
   
   
-<span data-ttu-id="3ba35-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3ba35-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c4258-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c4258-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3ba35-105">Contient un certificat ASN.1 pour l’auteur du message.</span><span class="sxs-lookup"><span data-stu-id="3ba35-105">Contains an ASN.1 certificate for the message originator.</span></span>
+<span data-ttu-id="c4258-105">Contient un certificat ASN.1 pour l’auteur du message.</span><span class="sxs-lookup"><span data-stu-id="c4258-105">Contains an ASN.1 certificate for the message originator.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3ba35-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="3ba35-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3ba35-107">PR_ORIGINATOR_CERTIFICATE</span><span class="sxs-lookup"><span data-stu-id="3ba35-107">PR_ORIGINATOR_CERTIFICATE</span></span>  <br/> |
-|<span data-ttu-id="3ba35-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="3ba35-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3ba35-109">0x0022</span><span class="sxs-lookup"><span data-stu-id="3ba35-109">0x0022</span></span>  <br/> |
-|<span data-ttu-id="3ba35-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="3ba35-110">Data type:</span></span>  <br/> |<span data-ttu-id="3ba35-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="3ba35-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="3ba35-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="3ba35-112">Area:</span></span>  <br/> |<span data-ttu-id="3ba35-113">MIME</span><span class="sxs-lookup"><span data-stu-id="3ba35-113">MIME</span></span>  <br/> |
+|<span data-ttu-id="c4258-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c4258-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c4258-107">PR_ORIGINATOR_CERTIFICATE</span><span class="sxs-lookup"><span data-stu-id="c4258-107">PR_ORIGINATOR_CERTIFICATE</span></span>  <br/> |
+|<span data-ttu-id="c4258-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="c4258-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c4258-109">0x0022</span><span class="sxs-lookup"><span data-stu-id="c4258-109">0x0022</span></span>  <br/> |
+|<span data-ttu-id="c4258-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c4258-110">Data type:</span></span>  <br/> |<span data-ttu-id="c4258-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="c4258-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="c4258-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c4258-112">Area:</span></span>  <br/> |<span data-ttu-id="c4258-113">MIME</span><span class="sxs-lookup"><span data-stu-id="c4258-113">MIME</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3ba35-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="3ba35-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c4258-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="c4258-114">Remarks</span></span>
 
-<span data-ttu-id="3ba35-115">Cette propriété est une copie de la propriété PR_USER_CERTIFICATE **(** [PidTagUserCertificate](pidtagusercertificate-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="3ba35-115">This property is a copy of the originator's **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) property.</span></span>
+<span data-ttu-id="c4258-115">Cette propriété est une copie de la propriété PR_USER_CERTIFICATE **(** [PidTagUserCertificate](pidtagusercertificate-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="c4258-115">This property is a copy of the originator's **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="3ba35-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="3ba35-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c4258-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="c4258-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="3ba35-117">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="3ba35-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c4258-117">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="c4258-117">Header files</span></span>
 
-<span data-ttu-id="3ba35-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3ba35-118">Mapidefs.h</span></span>
+<span data-ttu-id="c4258-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c4258-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="3ba35-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="3ba35-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="c4258-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="c4258-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="3ba35-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="3ba35-120">Mapitags.h</span></span>
+<span data-ttu-id="c4258-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="c4258-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="3ba35-121">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="3ba35-121">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="c4258-121">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="c4258-121">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3ba35-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3ba35-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c4258-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c4258-122">See also</span></span>
 
 
 
-[<span data-ttu-id="3ba35-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="3ba35-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c4258-123">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="c4258-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="3ba35-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="3ba35-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c4258-124">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="c4258-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="3ba35-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="3ba35-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c4258-125">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="c4258-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="3ba35-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="3ba35-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c4258-126">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="c4258-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

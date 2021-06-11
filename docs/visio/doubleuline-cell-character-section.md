@@ -16,33 +16,33 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438840"
 ---
-# <a name="doubleuline-cell-character-section"></a><span data-ttu-id="3e3b0-103">DoubleULine, cellule (section Character)</span><span class="sxs-lookup"><span data-stu-id="3e3b0-103">DoubleULine Cell (Character Section)</span></span>
+# <a name="doubleuline-cell-character-section"></a><span data-ttu-id="105ac-103">DoubleULine, cellule (section Character)</span><span class="sxs-lookup"><span data-stu-id="105ac-103">DoubleULine Cell (Character Section)</span></span>
 
-<span data-ttu-id="3e3b0-104">Détermine si la plage de texte est soulignée ou non d'une ligne double.</span><span class="sxs-lookup"><span data-stu-id="3e3b0-104">Determines whether the range of text has a double underline below it.</span></span>
+<span data-ttu-id="105ac-104">Détermine si la plage de texte est soulignée ou non d'une ligne double.</span><span class="sxs-lookup"><span data-stu-id="105ac-104">Determines whether the range of text has a double underline below it.</span></span>
   
-|<span data-ttu-id="3e3b0-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="3e3b0-105">**Value**</span></span>|<span data-ttu-id="3e3b0-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="3e3b0-106">**Description**</span></span>|
+|<span data-ttu-id="105ac-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="105ac-105">**Value**</span></span>|<span data-ttu-id="105ac-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="105ac-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="3e3b0-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="3e3b0-107">TRUE</span></span>  <br/> |<span data-ttu-id="3e3b0-108">Le texte est souligné en double.</span><span class="sxs-lookup"><span data-stu-id="3e3b0-108">Text has a double underline below it.</span></span>  <br/> |
-|<span data-ttu-id="3e3b0-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="3e3b0-109">FALSE</span></span>  <br/> |<span data-ttu-id="3e3b0-110">Le texte n'est pas souligné en double.</span><span class="sxs-lookup"><span data-stu-id="3e3b0-110">Text does not have a double underline below it.</span></span>  <br/> |
+|<span data-ttu-id="105ac-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="105ac-107">TRUE</span></span>  <br/> |<span data-ttu-id="105ac-108">Le texte est souligné en double.</span><span class="sxs-lookup"><span data-stu-id="105ac-108">Text has a double underline below it.</span></span>  <br/> |
+|<span data-ttu-id="105ac-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="105ac-109">FALSE</span></span>  <br/> |<span data-ttu-id="105ac-110">Le texte n'est pas souligné en double.</span><span class="sxs-lookup"><span data-stu-id="105ac-110">Text does not have a double underline below it.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3e3b0-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="3e3b0-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="105ac-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="105ac-111">Remarks</span></span>
 
-<span data-ttu-id="3e3b0-p101">La cellule DoubleULine contient des informations de mise en forme qui s'appliquent à une plage du texte de la forme si la section Character contient plusieurs lignes ou à l'ensemble du texte dans le cas contraire.</span><span class="sxs-lookup"><span data-stu-id="3e3b0-p101">The DoubleULine cell contains formatting information applied to a sub-range of a shape's text if the Characters section contains multiple rows. Otherwise, it contains formatting information for all of the shape's text.</span></span>
+<span data-ttu-id="105ac-p101">La cellule DoubleULine contient des informations de mise en forme qui s'appliquent à une plage du texte de la forme si la section Character contient plusieurs lignes ou à l'ensemble du texte dans le cas contraire.</span><span class="sxs-lookup"><span data-stu-id="105ac-p101">The DoubleULine cell contains formatting information applied to a sub-range of a shape's text if the Characters section contains multiple rows. Otherwise, it contains formatting information for all of the shape's text.</span></span>
   
-<span data-ttu-id="3e3b0-114">Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Texte** (cliquez sur la flèche **Police** sous l’onglet **Accueil**).</span><span class="sxs-lookup"><span data-stu-id="3e3b0-114">You can also set the value of this cell by using the **Text** dialog box (click the **Font** arrow on the **Home** tab).</span></span> 
+<span data-ttu-id="105ac-114">Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Texte** (cliquez sur la flèche **Police** sous l’onglet **Accueil**).</span><span class="sxs-lookup"><span data-stu-id="105ac-114">You can also set the value of this cell by using the **Text** dialog box (click the **Font** arrow on the **Home** tab).</span></span> 
   
-<span data-ttu-id="3e3b0-115">Pour obtenir une référence à la cellule DoubleULine par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="3e3b0-115">To get a reference to the DoubleULine cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="105ac-115">Pour obtenir une référence à la cellule DoubleULine par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="105ac-115">To get a reference to the DoubleULine cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3e3b0-116">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="3e3b0-116">Cell name:</span></span>  <br/> |<span data-ttu-id="3e3b0-117">Char.DblUnderline[ *i*  ] où  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="3e3b0-117">Char.DblUnderline[ *i*  ]           where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="105ac-116">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="105ac-116">Cell name:</span></span>  <br/> |<span data-ttu-id="105ac-117">Char.DblUnderline[ *i*  ] où  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="105ac-117">Char.DblUnderline[ *i*  ]           where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="3e3b0-118">Pour obtenir une référence à la cellule DoubleULine à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="3e3b0-118">To get a reference to the DoubleULine cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="105ac-118">Pour obtenir une référence à la cellule DoubleULine à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="105ac-118">To get a reference to the DoubleULine cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3e3b0-119">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="3e3b0-119">Section index:</span></span>  <br/> |<span data-ttu-id="3e3b0-120">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="3e3b0-120">**visSectionCharacter**</span></span> <br/> |
-|<span data-ttu-id="3e3b0-121">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="3e3b0-121">Row index:</span></span>  <br/> |<span data-ttu-id="3e3b0-122">**visRowCharacter**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="3e3b0-122">**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="3e3b0-123">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="3e3b0-123">Cell index:</span></span>  <br/> |<span data-ttu-id="3e3b0-124">**visCharacterDblUnderline**</span><span class="sxs-lookup"><span data-stu-id="3e3b0-124">**visCharacterDblUnderline**</span></span> <br/> |
+|<span data-ttu-id="105ac-119">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="105ac-119">Section index:</span></span>  <br/> |<span data-ttu-id="105ac-120">**visSectionCharacter**</span><span class="sxs-lookup"><span data-stu-id="105ac-120">**visSectionCharacter**</span></span> <br/> |
+|<span data-ttu-id="105ac-121">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="105ac-121">Row index:</span></span>  <br/> |<span data-ttu-id="105ac-122">**visRowCharacter**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="105ac-122">**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="105ac-123">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="105ac-123">Cell index:</span></span>  <br/> |<span data-ttu-id="105ac-124">**visCharacterDblUnderline**</span><span class="sxs-lookup"><span data-stu-id="105ac-124">**visCharacterDblUnderline**</span></span> <br/> |
    
 
