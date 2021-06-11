@@ -56,7 +56,7 @@ DTCT_COMBOBOX (0x00000003)
 
 DTCT_DDLBX (0x00000004)
   
-> Boîte de dialogue de liste.
+> Boîte de dialogue de listes.
 
 DTCT_CHECKBOX (0x00000005)
   
@@ -84,7 +84,7 @@ DTCT_MVLISTBOX (0x0000000B)
     
 DTCT_MVDDLBX (0x0000000C)
   
-> Zone de listes listes à valeurs multiples remplie par une propriété à valeurs multiples de type chaîne.
+> Zone de liste de listes à valeurs multiples remplie par une propriété à valeurs multiples de type chaîne.
     
 ## <a name="related-resources"></a>Ressources connexes
 

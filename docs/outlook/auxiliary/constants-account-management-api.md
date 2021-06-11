@@ -31,32 +31,32 @@ Cette rubrique contient des définitions de constantes, des identificateurs de c
 |E_ACCT_NOT_FOUND  <br/> |0x800C8101  <br/> |
 |E_ACCT_UI_BUSY  <br/> |0x800C8102  <br/> |
 |E_ACCT_WRONG_SORT_ORDER  <br/> |0x800C8105  <br/> |
-|E_INVALIDARG  <br/> | *Comme défini dans le fichier d’en-tête du Kit de développement logiciel (SDK) Windows winerror.h.*  <br/> |
-|E_NOTIMPL  <br/> | *Comme défini dans le fichier d’en-tête du SDK Windows winerror.h.*  <br/> |
+|E_INVALIDARG  <br/> | *Tel que défini dans le Windows d’en-tête du Kit de développement logiciel (SDK) winerror.h.*  <br/> |
+|E_NOTIMPL  <br/> | *Comme défini dans le fichier d Windows en-tête du SDK winerror.h.*  <br/> |
 |E_OLK_ALREADY_INITIALIZED  <br/> |0x800C8002  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |0x800C8005  <br/> |
 |E_OLK_PARAM_NOT_SUPPORTED  <br/> |0x800C8003  <br/> |
 |E_OLK_PROP_READ_ONLY  <br/> |0x800C800D  <br/> |
 |E_OLK_REGISTRY  <br/> |0x800C8001  <br/> |
 |Les constantes suivantes commençant par ENCRYPT_ sont utilisées par la [propriété PROP_SMTP_SECURE_CONNECTION](prop_smtp_secure_connection.md) pour spécifier le type de connexion chiffrée.  <br/> ||
-|ENCRYPT_CONN_AUTO  <br/> |3   <br/> |
+|ENCRYPT_CONN_AUTO  <br/> |3  <br/> |
 |ENCRYPT_CONN_NO_SECURITY  <br/> |0  <br/> |
-|ENCRYPT_CONN_SSL  <br/> |1   <br/> |
-|ENCRYPT_CONN_TLS  <br/> |2   <br/> |
+|ENCRYPT_CONN_SSL  <br/> |1  <br/> |
+|ENCRYPT_CONN_TLS  <br/> |2  <br/> |
 |MAPIACCT_SEND_ONLY  <br/> |0x00000001  <br/> |
-|NOTIFY_ACCT_CHANGED  <br/> |1   <br/> |
-|NOTIFY_ACCT_CREATED  <br/> |2   <br/> |
-|NOTIFY_ACCT_DELETED  <br/> |3   <br/> |
+|NOTIFY_ACCT_CHANGED  <br/> |1  <br/> |
+|NOTIFY_ACCT_CREATED  <br/> |2  <br/> |
+|NOTIFY_ACCT_DELETED  <br/> |3  <br/> |
 |NOTIFY_ACCT_ORDER_CHANGED  <br/> |4   <br/> |
 |NOTIFY_ACCT_PREDELETED  <br/> |5   <br/> |
 |OLK_ACCOUNT_NO_FLAGS  <br/> |0  <br/> |
-|S_OK  <br/> | *Comme défini dans le fichier d’en-tête du SDK Windows winerror.h.*  <br/> |
-|S_FALSE  <br/> | *Comme défini dans le fichier d’en-tête du SDK Windows winerror.h.*  <br/> |
+|S_OK  <br/> | *Comme défini dans le fichier d Windows en-tête du SDK winerror.h.*  <br/> |
+|S_FALSE  <br/> | *Comme défini dans le fichier d Windows en-tête du SDK winerror.h.*  <br/> |
 |SECURE_FLAG  <br/> |0x8000  <br/> |
 |Les constantes suivantes commençant par SMTP_ sont utilisées par la [propriété PROP_SMTP_AUTH_METHOD](prop_smtp_auth_method.md) et spécifient la méthode d’authentification.  <br/> ||
 |SMTP_AUTH_SAME_AS_POP  <br/> |0  <br/> |
-|SMTP_AUTH_RECEIVE_BEFORE_SEND  <br/> |2   <br/> |
-|SMTP_AUTH_USER_PASS  <br/> |1   <br/> |
+|SMTP_AUTH_RECEIVE_BEFORE_SEND  <br/> |2  <br/> |
+|SMTP_AUTH_USER_PASS  <br/> |1  <br/> |
 |Les 5 constantes et macros suivantes sont utilisées par la propriété [PROP_POP_LEAVE_ON_SERVER](prop_pop_leave_on_server.md) et spécifient des options pour que les comptes POP laissent une copie d’un message sur le serveur.  <br/> ||
 |LEAVE_ON_SERVER  <br/> |0x1  <br/> |
 |REMOVE_AFTER  <br/> |0x2  <br/> |
@@ -66,7 +66,7 @@ Cette rubrique contient des définitions de constantes, des identificateurs de c
    
 ## <a name="class-identifiers"></a>Identificateurs de classe
 
-Utilisez la macro DEFINE_GUID définie dans le fichier d’en-tête guiddef.h du SDK Windows pour associer le nom symbolique GUID à sa valeur.
+Utilisez la macro DEFINE_GUID définie dans le fichier d’en-tête du SDK Windows guiddef.h pour associer le nom symbolique GUID à sa valeur.
   
 {ed475410-b0d6-11d2-8c3b-00104b2a6676}
   
@@ -106,7 +106,7 @@ DEFINE_GUID(CLSID_OlkLDAPAccount, 0x4db5cbf2, 0x3b77, 0x4852, 0xbc, 0x8e, 0xbb, 
   
 ## <a name="interface-identifiers"></a>Identificateurs d’interface
 
-Utilisez la macro DEFINE_GUID définie dans le fichier d’en-tête guiddef.h du SDK Windows pour associer le nom symbolique GUID à sa valeur.
+Utilisez la macro DEFINE_GUID définie dans le fichier d’en-tête du SDK Windows guiddef.h pour associer le nom symbolique GUID à sa valeur.
   
 {9240A6C0-AF41-11d2-8C3B-00104B2A6676}
   

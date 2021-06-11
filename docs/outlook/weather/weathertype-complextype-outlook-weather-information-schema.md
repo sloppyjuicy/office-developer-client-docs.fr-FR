@@ -1,5 +1,5 @@
 ---
-title: weatherType complexType (Outlook Weather Information Schema)
+title: complexType weatherType (Outlook Weather Information Schema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542946"
 ---
-# <a name="weathertype-complextype-outlook-weather-information-schema"></a>weatherType complexType (Outlook Weather Information Schema)
+# <a name="weathertype-complextype-outlook-weather-information-schema"></a>complexType weatherType (Outlook Weather Information Schema)
 
 Spécifie les conditions météorologiques d’un emplacement.
   

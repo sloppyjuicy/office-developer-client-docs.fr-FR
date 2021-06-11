@@ -48,19 +48,19 @@ La proc�dure suivante d�crit les t�ches requises d'un fournisseur de banqu
     
 6. Ex�cute les t�ches suivantes si l'indicateur de message NEEDS_PREPROCESSING est d�fini :
     
-   - Place le message dans la file d’attente sortante avec la SUBMITFLAG_PREPROCESS bits définie dans la propriété **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)).
+   - Place le message dans la file d’attente sortante avec la SUBMITFLAG_PREPROCESS bits définie dans la **propriété PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)).
    - Avertit le spouleur MAPI que la file d'attente a �t� modifi�e.
    - Rend le contr�le au client et le flux de messages continue dans le spouleur MAPI. 
    - Le spouleur MAPI effectue les t�ches suivantes :
      - Verrouille le message en appelant IMsgStore::SetLockState. 
-     - Effectue le prétraitage nécessaire en appelant toutes les fonctions de prétraitage dans l’ordre d’inscription. Les fournisseurs de transport appellent IMAPISupport::RegisterPreprocessor pour enregistrer les fonctions de prétraitment. 
+     - Effectue le prétraitage nécessaire en appelant toutes les fonctions de prétraitation dans l’ordre d’inscription. Les fournisseurs de transport appellent IMAPISupport::RegisterPreprocessor pour enregistrer les fonctions de prétraitment. 
      - Appelle IMessage::SubmitMessage sur le message ouvert pour indiquer à la boutique de messages que le prétraitement est terminé.
 
 <br/>
 
-Les deux étapes suivantes se produisent dans le processus client en l’absence de prétraitement et lorsque lepooler MAPI appelle **SubmitMessage** s’il y a eu un prétraitement. 
+Les deux étapes suivantes se produisent dans le processus client en l’absence de prétraitement et lorsque lepooler MAPI appelle **SubmitMessage** en cas de prétraitement. 
 
-**Le fournisseur de la boutique de messages**:
+**Fournisseur de la boutique de messages**:
 
 1. Performs the following tasks if the message store is tightly coupled to a transport and the NEEDS_SPOOLER flag was returned from [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md):
     

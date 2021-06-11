@@ -63,7 +63,7 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-Contrairement à [la méthode IMAPIProp::GetProps,](imapiprop-getprops.md) la fonction **HrGetOneProp** ne renvoie jamais d’avertissement. Comme elle récupère une seule propriété, elle réussit ou échoue simplement. Pour récupérer plusieurs propriétés, **GetProps** est plus rapide. 
+Contrairement à [la méthode IMAPIProp::GetProps,](imapiprop-getprops.md) la fonction **HrGetOneProp** ne renvoie jamais d’avertissement. Étant donné qu’elle récupère une seule propriété, elle réussit ou échoue simplement. Pour récupérer plusieurs propriétés, **GetProps** est plus rapide. 
   
 Vous pouvez définir ou modifier une propriété unique avec [la fonction HrSetOneProp.](hrsetoneprop.md) 
   

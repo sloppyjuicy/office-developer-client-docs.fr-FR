@@ -1,11 +1,11 @@
 ---
-title: Intégration des applications de gestion avec le programme d’installation « Exécuter en un clic de Microsoft 365 Apps
+title: Intégration d’applications de gestion Microsoft 365 Apps programme d’installation « Exécuter en un clic
 manager: lindalu
 ms.date: 09/28/2020
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
-description: Découvrez comment intégrer le programme d’installation « Exécuter en un clic » de Microsoft 365 Apps à une solution de gestion des logiciels.
+description: Découvrez comment intégrer le programme d Microsoft 365 Apps d’installation « En un clic » à une solution de gestion des logiciels.
 ms.openlocfilehash: eccd634f7906acf25b521ed2deb456ca914f37da
 ms.sourcegitcommit: c8c51bd3f51c0a59fe44c014c8e56f1ba7c7aa03
 ms.translationtype: MT
@@ -13,27 +13,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 09/28/2020
 ms.locfileid: "48297313"
 ---
-# <a name="integrating-manageability-applications-with-microsoft-365-apps-click-to-run-installer"></a>Intégration des applications de gestion avec le programme d’installation « Exécuter en un clic de Microsoft 365 Apps
+# <a name="integrating-manageability-applications-with-microsoft-365-apps-click-to-run-installer"></a>Intégration d’applications de gestion Microsoft 365 Apps programme d’installation « Exécuter en un clic
 
-Découvrez comment intégrer le programme d’installation « Exécuter en un clic » de Microsoft 365 Apps à une solution de gestion des logiciels.
+Découvrez comment intégrer le programme d Microsoft 365 Apps d’installation « En un clic » à une solution de gestion des logiciels.
   
-Le programme d’installation « Exécuter en un clic » de Microsoft 365 Apps fournit une interface COM qui permet aux professionnels de l’informatique et aux solutions de gestion des logiciels de contrôler par programme la gestion des mises à jour. Cette interface offre des fonctionnalités de gestion supplémentaires au-delà de ce qui est fourni par l’outil Déploiement d’Office.
+Le Microsoft 365 Apps installer « En un clic » fournit une interface COM qui permet aux professionnels de l’informatique et aux solutions de gestion de logiciels de contrôler par programme la gestion des mises à jour. Cette interface offre des fonctionnalités de gestion supplémentaires au-delà de ce qui est fourni par l’outil Office Deployment.
   
 > [!NOTE]
-> Cet article s’applique aux applications Office qui utilisent le programme d’installation « En un clic ». 
+> Cet article s’applique Office applications qui utilisent le programme d’installation « En un clic ». 
   
 ## <a name="integrating-with-the-click-to-run"></a>Intégration à l’outil « Click-to-Run
 
 Pour utiliser cette interface, une application de gestion appelle l’interface COM et appelle les API exposées qui communiquent directement avec le service d’installation « En un clic ». 
   
 > [!NOTE]
-> Le programme d’installation Office « En un clic » peut être exécuté à partir de la ligne de commande avec des paramètres qui peuvent contrôler le comportement, comme documenté dans l’outil Déploiement d’Office pour « [Click-to-Run](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool)». 
+> Le programme d’installation Office « En un clic » peut être exécuté à partir de la ligne de commande avec des paramètres qui peuvent contrôler le comportement, comme documenté dans [Office Deployment Tool for Click-to-Run](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool). 
   
 **Voici un diagramme conceptuel de l’interface COM**
 
-![Diagramme de l’utilisation de l’interface COM sur le programme d’installation d’Office Démarrer en un clic.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Diagramme de l’utilisation de l’interface COM sur le programme d’installation Office « Exécuter en un clic")
+![Diagramme de l’utilisation de l’interface COM sur le programme d’installation d’Office Démarrer en un clic.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Diagramme de l’utilisation de l’interface COM Office programme d’installation « Exécuter en un clic")
   
-Le programme d’installation « Exécuter en un clic » de Microsoft 365 Apps implémente une interface COM, **IUpdateNotify** inscrite sur CLSID **CLSID_UpdateNotifyObject**.
+Le Microsoft 365 Apps installer « En un clic » implémente une interface COM, **IUpdateNotify** inscrite dans CLSID **CLSID_UpdateNotifyObject**.
   
 Cette interface peut être invoquée comme suit :
   
@@ -127,13 +127,13 @@ Dans la documentation de référence de l’API suivante :
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
-#### <a name="parameters"></a>Paramètres
+#### <a name="parameters"></a>Parameters
 
 -  _displaylevel_: **true pour** afficher l’état de l’installation, y compris les erreurs, pendant le processus de mise à jour ; **false pour** masquer l’état de l’installation, y compris les erreurs, pendant le processus de mise à jour. La valeur par défaut est **False**.
     
--  _forceappshutdown_: **true pour** forcer les applications Office à s’arrêter immédiatement lorsque **l’action** Appliquer est déclenchée ; **false** pour échouer si des applications Office sont en cours d’exécution. La valeur par défaut est **False**. Pour [plus d’informations,](#bk_ApplyRemark) voir la remarque. 
+-  _forceappshutdown_: **true** pour forcer Office applications à s’arrêter immédiatement lorsque l’action  Appliquer est déclenchée ; **false** pour échouer si des applications Office sont en cours d’exécution. La valeur par défaut est **False**. Pour [plus d’informations,](#bk_ApplyRemark) voir la remarque. 
     
-  Si une application Office est en cours d’exécution lorsque **l’action Appliquer** est déclenchée, l’action **Appliquer** échoue généralement. Le passage à la méthode Apply entraîne l’arrêt immédiat des applications par le `forceappshutdown=true` service  **OfficeClickToRun** et l’application de la mise à jour. L’utilisateur peut être en perte de données dans ce cas. 
+  Si une Office’application est en  cours d’exécution lorsque l’action Appliquer est déclenchée, l’action  Appliquer échoue généralement. Le passage à la méthode Apply entraîne l’arrêt immédiat des applications par le `forceappshutdown=true` service  **OfficeClickToRun** et l’application de la mise à jour. L’utilisateur peut être en perte de données dans ce cas. 
     
 #### <a name="return-results"></a>Renvoyer des résultats
 
@@ -148,7 +148,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 
 #### <a name="remarks"></a>Remarques
 
-- Si une application Office est en cours d’exécution lorsque **l’action Appliquer** est déclenchée, l’action **Appliquer** échoue. Le passage à la méthode Apply entraîne l’arrêt immédiat par le `forceappshutdown=true` service  **OfficeClickToRun** de toutes les applications Office en cours d’exécution et l’application de la mise à jour. L’utilisateur peut faire l’expérience des données car il n’est pas invité à enregistrer les modifications apportées aux documents ouverts. 
+- Si une Office’application est  en cours d’exécution lorsque l’action Appliquer est déclenchée, **l’action** Appliquer échoue. La transmission à la méthode Apply entraîne l’arrêt immédiat par le `forceappshutdown=true` service  **OfficeClickToRun** de toutes les applications Office en cours d’exécution et applique la mise à jour. L’utilisateur peut faire l’expérience des données car il n’est pas invité à enregistrer les modifications apportées aux documents ouverts. 
     
 - Cette action ne peut être déclenchée que lorsque l’état COM est l’un des suivants : 
     
@@ -191,13 +191,13 @@ HRESULT Cancel() // Cancel the download action.
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
-#### <a name="parameters"></a>Paramètres
+#### <a name="parameters"></a>Parameters
 
 -  _displaylevel_: **true pour** afficher l’état de l’installation, y compris les erreurs, pendant le processus de mise à jour ; **false pour** masquer l’état de l’installation, y compris les erreurs, pendant le processus de mise à jour. La valeur par défaut est **False**.
     
 -  _updatebaseurl_: URL de l’autre source de téléchargement.
     
--  _updatetoversion_: version vers la mise à jour d’Office. Définissez ce paramètre si vous souhaitez mettre à jour une version antérieure à la version actuellement installée.
+-  _updatetoversion_: version vers Office mise à jour. Définissez ce paramètre si vous souhaitez mettre à jour une version antérieure à la version actuellement installée.
     
 -  _downloadsource_: CLSID de l’implémentation **IBackgroundCopyManager** personnalisée (gestionnaire BITS). 
     
@@ -234,7 +234,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
     
   - **eAPPLY_FAILED**
     
-- Si vous appelez la méthode **Apply** sans contenu  téléchargé précédemment, la méthode **Apply** indique Réussite car elle n’a détecté aucun résultat à appliquer et a terminé le **processus Appliquer** avec succès. 
+- Si vous appelez la méthode **Apply** sans contenu  téléchargé précédemment, la méthode **Apply** indique Réussite car elle n’a détecté aucun résultat à appliquer et a terminé le processus **Appliquer** avec succès. 
     
 #### <a name="examples"></a>Exemples
 
@@ -244,9 +244,9 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
   "downloadsource=CLSIDofBITSInterface contentid=BITSServerContentIdentifier"
   ```
 
-- Pour télécharger le contenu à partir du réseau de distribution de contenu Office : appelez la fonction **download()** sans spécifier les paramètres _downloadsource,_ _contentid_ ou _updatebaseurl._ 
+- Pour télécharger le contenu à partir de la Office réseau de distribution de contenu (CDN) : appelez la fonction **download()** sans spécifier les paramètres _downloadsource,_ _contentid_ ou _updatebaseurl._ 
     
-- Pour télécharger le contenu à partir d’un emplacement personnalisé : Appelez la **fonction download()** en passant le paramètre suivant : 
+- Pour télécharger le contenu à partir d’un emplacement personnalisé : appelez la fonction **download()** en passant le paramètre suivant : 
     
   ```cpp
   "updatebaseurl=yourcontentserverurl"
@@ -264,7 +264,7 @@ typdef struct _UPDATE_STATUS_REPORT
 HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status of current action
 ```
 
-#### <a name="parameters"></a>Paramètres
+#### <a name="parameters"></a>Parameters
 
 |||
 |:-----|:-----|
@@ -278,7 +278,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
    
 #### <a name="remarks"></a>Remarques
 
-- Le champ d’état du  `UPDATE_STATUS_REPORT` contient l’état de l’action en cours. L’une des valeurs d’état suivantes est renvoyée : 
+- Le champ d’état du  `UPDATE_STATUS_REPORT` champ contient l’état de l’action en cours. L’une des valeurs d’état suivantes est renvoyée : 
     
   ```cpp
   typedef enum _UPDATE_STATUS
@@ -298,7 +298,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
   ```
 
-- Si la dernière commande a entraîné une erreur, le champ d’erreur du champ contient des informations détaillées  `UPDATE_STATUS_REPORT` sur l’erreur. Deux types de codes d’erreur sont renvoyés à partir de **la méthode Status.** 
+- Si la dernière commande a entraîné une erreur, le champ d’erreur contient des informations détaillées  `UPDATE_STATUS_REPORT` sur l’erreur. Deux types de codes d’erreur sont renvoyés à partir de la **méthode Status.** 
     
 - Si l’erreur est inférieure à , l’erreur est l’un des  `UPDATE_ERROR_CODE::eUNKNOWN` codes d’erreur prédéfin définis suivants :
     
@@ -328,7 +328,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
     
   La liste complète des valeurs d’état et d’erreur peut être vue en inspectant la bibliothèque de types **IUpdateNotify** incorporée dans OfficeC2RCom.dll. 
     
-- Le champ contentid est utilisé  pour les appels à **l’état** une fois le téléchargement lancé et renvoie le contentid qui a été transmis à l’appel **de** téléchargement. Il est préférable d’initialiser ce champ sur **null** avant d’appeler la méthode **Status,** puis de vérifier la valeur une fois **l’état** renvoyé. Si la valeur est toujours **null,** cela signifie qu’il n’y a aucun contentid à renvoyer. Si la valeur n’est pas **null,** vous devez la libérer avec un appel à **SysFreeString()**. Voici un extrait de code de la façon d’appeler **l’état** après le **téléchargement.**
+- Le champ contentid est utilisé  pour les appels à **l’état** une fois le téléchargement lancé et renvoie le contentid qui a été transmis à l’appel **de** téléchargement. Il est préférable d’initialiser ce champ sur **null** avant d’appeler  la méthode **Status,** puis de vérifier la valeur une fois l’état renvoyé. Si la valeur est toujours **null,** cela signifie qu’il n’y a aucun contentid à renvoyer. Si la valeur n’est pas **null,** vous devez la libérer avec un appel à **SysFreeString()**. Voici un extrait de code de la façon d’appeler **l’état** après le **téléchargement.**
     
   ```cpp
   std::wstring contentID;
@@ -356,9 +356,9 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
     
 - Nouvelles méthodes ajoutées à IUpdateNotify2 :
     
-  - **HRESULT** GetBlockingApps([out] BSTR \* AppsList). Obtenir la liste des applications de blocage des mises à jour. Cet appel retourne l’exécution des applications Office qui bloquent le processus de mise à jour. 
+  - **HRESULT** GetBlockingApps([out] BSTR \* AppsList). Obtenir la liste des applications de blocage des mises à jour. Cet appel retourne l’exécution Office applications qui bloquent le processus de mise à jour de poursuivre. 
     
-  - **HRESULT** GetOfficeDeploymentData([in] int dataType, [in] **LPCWSTR** pcwszName, [out] BSTR * OfficeData). Obtenir les données de déploiement d’Office. 
+  - **HRESULT** GetOfficeDeploymentData([in] int dataType, [in] **LPCWSTR** pcwszName, [out] BSTR * OfficeData). Obtenir Office de déploiement. 
     
 - Si vous souhaitez utiliser les nouvelles méthodes, vous devez vous assurer que :
     
@@ -370,11 +370,11 @@ Si vous n’utilisez aucune des nouvelles méthodes, vous n’avez rien à modif
   
 ## <a name="implementing-the-bits-interface"></a>Mise en œuvre de l’interface BITS
 
-Le [service BITS (Background Intelligent Transfer Service)](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) est un service fourni par Microsoft pour transférer des fichiers entre un client et un serveur. BITS est l’un des canaux que le programme d’installation Office « En un clic » peut utiliser pour télécharger du contenu. Par défaut, le programme d’installation d’Applications Microsoft 365 « Exécuter en un clic » utilise l’implémentation intégrée de BITS de Windows pour télécharger le contenu à partir du CDN. 
+Le [service BITS (Background Intelligent Transfer Service)](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) est un service fourni par Microsoft pour transférer des fichiers entre un client et un serveur. BITS est l’un des canaux Office le programme d’installation « Exécuter en un clic » peut utiliser pour télécharger du contenu. Par défaut, le programme d Microsoft 365 Apps d’installation « En un clic » utilise l’implémentation intégrée de BITS du Windows pour télécharger le contenu à partir du CDN. 
   
-En fournissant une implémentation BITS personnalisée à la méthode **download()** de l’interface **IUpdateNotify,** votre logiciel de gestion peut contrôler où et comment le client télécharge le contenu. Une interface BITS personnalisée est utile lorsque vous fournissez un canal de distribution de contenu personnalisé autre que les canaux intégrés « Click-to-Run » tels que le CDN, les serveurs IIS ou les partages de fichiers. 
+En fournissant une implémentation BITS personnalisée à la méthode **download()** de l’interface **IUpdateNotify,** votre logiciel de gestion peut contrôler où et comment le client télécharge le contenu. Une interface BITS personnalisée est utile lorsque vous fournissez un canal de distribution de contenu personnalisé autre que les canaux intégrés « Click-to-Run » tels que les CDN, les serveurs IIS ou les partages de fichiers. 
   
-La condition minimale requise pour qu’une interface BITS personnalisée fonctionne avec le service Office C2R est :
+La condition minimale requise pour qu’une interface BITS personnalisée fonctionne avec Office service C2R est :
   
 - Pour **IBackgroundCopyManager**:
     
@@ -430,7 +430,7 @@ La condition minimale requise pour qu’une interface BITS personnalisée foncti
     
   -  _\<relative path to target file\>_ fournit l’emplacement et le nom du fichier à télécharger. 
     
-    Par exemple, si vous avez fourni un _contentid_ de la méthode Download() et qu’Office C2R souhaite télécharger le fichier cab version, tel que le fichier, il appelle `f732af58-5d86-4299-abe9-7595c35136ef`  `v32.cab` **AddFile()** avec les informations suivantes `RemoteUrl` :
+    Par exemple, si vous avez fourni un _contentid_ de la méthode Download() et que Office C2R souhaite télécharger le fichier cab version, tel que le fichier, il appelle `f732af58-5d86-4299-abe9-7595c35136ef`  `v32.cab` **AddFile()** avec les informations suivantes `RemoteUrl` :
     
   ```cpp
   cmbits://f732af58-5d86-4299-abe9-7595c35136ef/Office/Data/V32.cab
@@ -454,25 +454,25 @@ La condition minimale requise pour qu’une interface BITS personnalisée foncti
   ```
 ## <a name="automating-content-staging"></a>Automatisation de la zone de transit de contenu
 
-Les administrateurs informatiques peuvent choisir que les clients de bureau soient activés pour recevoir automatiquement les mises à jour lorsqu’ils sont disponibles directement à partir du CDN ou ils peuvent choisir de contrôler le déploiement des mises à jour disponibles à partir des canaux de mise à jour à l’aide de l’outil Déploiement d’Office ou de Microsoft Endpoint Configuration Manager.
+Les administrateurs informatiques peuvent choisir que les clients de bureau soient activés pour recevoir automatiquement les mises à jour lorsqu’ils sont disponibles directement à partir du CDN ou ils peuvent choisir de contrôler le déploiement des mises à jour disponibles à partir des canaux de mise à jour à l’aide de l’outil déploiement Office ou de Microsoft Endpoint Configuration Manager.
   
 Le service prend en charge la possibilité pour les outils de gestion de reconnaître et d’automatiser le téléchargement du contenu lorsque des mises à jour sont disponibles.
   
 **L’image suivante est une vue d’ensemble du téléchargement d’une image personnalisée**
 
-![Diagramme de l’utilisation de l’interface COM sur le programme d’installation d’Office Démarrer en un clic.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Diagramme de l’utilisation de l’interface COM sur le programme d’installation Office « Exécuter en un clic")
+![Diagramme de l’utilisation de l’interface COM sur le programme d’installation d’Office Démarrer en un clic.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Diagramme de l’utilisation de l’interface COM Office programme d’installation « Exécuter en un clic")
   
 ### <a name="overview-of-downloading-a-custom-image"></a>Vue d’ensemble du téléchargement d’une image personnalisée
   
-Dans le diagramme précédent, vous voyez qu’une nouvelle image microsoft 365 Apps est disponible sur le CDN. En plus de l’image Microsoft 365 Apps, une API est disponible et dispose des informations nécessaires pour permettre aux logiciels de gestion de créer directement des images personnalisées en remplaçant la nécessité d’utiliser l’outil Déploiement d’Office.
+Dans le diagramme précédent, vous voyez qu’une nouvelle image Microsoft 365 Apps est disponible sur le CDN. Parallèlement à l’image Microsoft 365 Apps, une API est disponible et dispose des informations nécessaires pour permettre aux logiciels de gestion de créer directement des images personnalisées en remplaçant la nécessité d’utiliser l’outil déploiement Office.
 
-Une entreprise configure son service WSUS pour synchroniser les mises à jour de Microsoft 365 Apps. Ces mises à jour ne contiennent pas la charge utile réelle de l’image, mais permettent au logiciel de gestion de reconnaître quand du nouveau contenu est disponible. Le logiciel de gestion peut ensuite lire les métadonnées de la mise à jour des applications Microsoft 365 pour comprendre à quelle version d’Office s’applique la mise à jour.
+Une entreprise configure son service WSUS pour synchroniser les mises Microsoft 365 Apps jour. Ces mises à jour ne contiennent pas la charge utile réelle de l’image, mais permettent au logiciel de gestion de reconnaître quand du nouveau contenu est disponible. Le logiciel de gestion peut ensuite lire les Microsoft 365 Apps de mise à jour pour comprendre à quelle version Office la mise à jour s’applique.
 
 Si la mise à jour est applicable, le logiciel de gestion peut utiliser le contenu CDN et la liste de fichiers pour créer l’image personnalisée et la stocker sur l’emplacement de partage de fichiers qu’il est configuré pour utiliser.
   
-### <a name="using-the-microsoft-365-apps-file-list-api"></a>Utilisation de l’API de liste de fichiers Microsoft 365 Apps
+### <a name="using-the-microsoft-365-apps-file-list-api"></a>Utilisation de l’API Microsoft 365 Apps liste de fichiers
 
-L’API de liste de fichiers Microsoft 365 Apps permet de récupérer les noms des fichiers nécessaires à une mise à jour microsoft 365 Apps particulière.
+L Microsoft 365 Apps API de liste de fichiers est utilisée pour récupérer les noms des fichiers nécessaires à une mise à jour Microsoft 365 Apps spécifique.
 
 Requête HTTP
 
@@ -488,13 +488,13 @@ Paramètres facultatifs de la requête
 |:-----|:-----|
 | canal <br/>| Spécifie le nom du canal  <br/> Facultatif : valeur par défaut « SemiAnnual » <br/> Valeurs pris en charge https://docs.microsoft.com/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element |
 | version <br/>| Spécifie la version de mise à jour <br/> Facultatif : valeur par défaut de la dernière version disponible pour le canal spécifié |
-| arch <br/>| Spécifie l’architecture du client <br/> Facultatif : valeur par défaut : « x64 » <br/> Valeurs prise en charge : x64, x86 |
+| arch <br/>| Spécifie l’architecture du client <br/> Facultatif : valeur par défaut de ' x64' <br/> Valeurs prise en charge : x64, x86 |
 | lid <br/>| Spécifie les fichiers de langue à inclure <br/> Facultatif : aucune valeur par défaut <br/> Pour spécifier plusieurs langues, incluez un paramètre de requête de capot pour chaque langue <br/> Utilisez le format d’identificateur de langue, par exemple. 'en-us', 'fr-fr' |
 | alllanguages <br/>| Spécifie d’inclure tous les fichiers de langue <br/> Facultatif : valeurs par défaut sur false |
 
 Réponse HTTP
 
-Si elle réussit, cette méthode renvoie un code de réponse 200 OK et la collection d’objets de fichier dans le corps de la réponse.
+Si elle réussit, cette méthode renvoie un code de réponse 200 OK et une collection d’objets de fichier dans le corps de la réponse.
 
 Pour créer une image, suivez les étapes suivantes :
 1.  Appelez l’API, en fournissant les paramètres de requête appropriés pour le canal, la version et l’architecture de la mise à jour qui vous intéresse.
@@ -522,7 +522,7 @@ Les outils de création d’images peuvent vérifier l’intégrité des fichier
 },
 ```
 
-- **L’attribut hashLocation** spécifie l’emplacement du chemin d’accès relatif du fichier .cab qui contient la valeur de hachage. Construisez l’emplacement du fichier de hachage en concatenant l’URL + relativePath + hashLocation. Dans l’exemple suivant, l stream.x64.bg-bg.hash serait : 
+- **L’attribut hashLocation** spécifie l’emplacement du chemin d’accès relatif .cab fichier contenant la valeur de hachage. Construisez l’emplacement du fichier de hachage en concatenant l’URL + relativePath + hashLocation. Dans l’exemple suivant, l stream.x64.bg-bg.hash serait : 
     
   ```http
   https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
@@ -532,24 +532,24 @@ Les outils de création d’images peuvent vérifier l’intégrité des fichier
     
   Pour valider l’intégrité du fichier stream.x64.bg-bg.dat, ouvrez le fichier stream.x64.bg-bg.hash et lisez la valeur HASH qui est la première ligne de texte du fichier de hachage. Comparez cette valeur à la valeur de hachage calculée (à l’aide de l’algorithme de hachage spécifié) pour vérifier l’intégrité du fichier .dat téléchargé.
     
-  L’exemple suivant montre le code C# pour lire le hachage.
+  L’exemple suivant montre comment C# code pour lire le hachage.
     
   ```cs
     string[] readHashes = System.IO.File.ReadAllLines(tmpFile, Encoding.Unicode);
     string readHash = readHashes.First();
   ```
 
-### <a name="microsoft-365-apps-updates"></a>Mises à jour des applications Microsoft 365
+### <a name="microsoft-365-apps-updates"></a>Microsoft 365 Apps Mises à jour
 
-Toutes les mises à jour des applications Microsoft 365 sont publiées dans le [catalogue Microsoft Update.](https://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client)
+Toutes Microsoft 365 Apps mises à jour sont publiées dans le [catalogue Microsoft Update.](https://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client)
   
-Les mises à jour des applications Microsoft 365 permettent aux logiciels de gestion de traiter les mises à jour des applications Microsoft 365 d’une manière très similaire à toute autre mise à jour WU à une exception près . les mises à jour du client ne contiennent pas de charge utile réelle. Les mises à jour des applications Microsoft 365 ne doivent pas être installées sur les clients, mais plutôt utilisées pour déclencher les flux de travail avec le logiciel de gestion remplaçant la commande d’installation par le mécanisme d’installation COM indiqué ci-dessus.
+Microsoft 365 Apps Les mises à jour permettent aux logiciels de gestion de traiter Microsoft 365 Apps mises à jour d’une manière très similaire à toute autre mise à jour WU, à une exception près . les mises à jour du client ne contiennent pas de charge utile réelle. Les mises à jour Microsoft 365 Apps ne doivent pas être installées sur les clients, mais plutôt utilisées pour déclencher les flux de travail avec le logiciel de gestion remplaçant la commande d’installation par le mécanisme d’installation COM indiqué ci-dessus.
 
-**La figure suivante illustre un diagramme du flux de travail de mise à jour du client Office 365.**
+**La figure suivante montre un diagramme du flux de travail Office 365 de mise à jour du client.**
 
 ![Diagramme de flux de travail pour les mises à jour du client O365PP.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Diagramme de flux de travail pour les mises à jour du client O365PP")
   
-Chaque mise à jour des applications Microsoft 365 publiée inclut des métadonnées sur la mise à jour. Ces métadonnées incluent un paramètre appelé MoreInfoUrl qui peut être utilisé pour dériver l’appel d’API à l’API de liste de fichiers pour cette mise à jour spécifique.
+Chaque Microsoft 365 Apps mise à jour publiée inclut des métadonnées sur la mise à jour. Ces métadonnées incluent un paramètre appelé MoreInfoUrl qui peut être utilisé pour dériver l’appel d’API à l’API de liste de fichiers pour cette mise à jour spécifique.
 
 Dans l’exemple suivant, l’API de liste de fichiers est incorporée dans moreInfoURL et commence par « ServicePath= »
 
@@ -559,7 +559,7 @@ http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Inside
 
 **API d’historique des sorties**
   
-L’API d’historique des publication de Microsoft 365 Apps permet de récupérer les détails de chacune des mises à jour publiées sur le CDN, ainsi que les noms des canaux et d’autres attributs de canal.
+L Microsoft 365 Apps’API d’historique des mises à jour est utilisée pour récupérer les détails de chacune des mises à jour publiées sur le CDN avec les noms de canaux et d’autres attributs de canal.
 
 Requête HTTP
 
@@ -573,11 +573,11 @@ Aucune autorisation n’est requise pour appeler cette API.
 
 Réponse HTTP
 
-Si elle réussit, cette méthode renvoie un code de réponse 200 OK et la collection d’objets de fichier dans le corps de la réponse.
+Si elle réussit, cette méthode renvoie un code de réponse 200 OK et une collection d’objets de fichier dans le corps de la réponse.
 
 **SKUs API**
   
-L’API SSK retourne des informations utiles pour déterminer les produits disponibles pour le déploiement et la maintenance à partir du CDN Office, ainsi que différentes options pour chacun d’eux.
+L’API SSK retourne des informations utiles pour déterminer les produits disponibles pour le déploiement et la maintenance à partir du Office CDN avec différentes options pour chacun d’eux.
 
 Requête HTTP
 
@@ -591,4 +591,4 @@ Aucune autorisation n’est requise pour appeler cette API.
 
 Réponse HTTP
 
-Si elle réussit, cette méthode renvoie un code de réponse 200 OK et la collection d’objets de fichier dans le corps de la réponse.
+Si elle réussit, cette méthode renvoie un code de réponse 200 OK et une collection d’objets de fichier dans le corps de la réponse.
