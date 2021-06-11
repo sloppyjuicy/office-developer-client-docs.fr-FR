@@ -42,7 +42,7 @@ SCODE ScCopyProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cprop_
   
@@ -50,7 +50,7 @@ SCODE ScCopyProps(
     
  _rgprop_
   
-> [in] Pointeur vers un tableau de structures [SPropValue](spropvalue.md) qui définissent les propriétés à copier. Le  _paramètre rgprop_ ne doit pas pointer vers le début du tableau, mais il doit pointer vers le début de l’une des structures **SPropValue** dans le tableau. 
+> [in] Pointeur vers un tableau de structures [SPropValue](spropvalue.md) qui définissent les propriétés à copier. Le  _paramètre rgprop_ n’a pas besoin de pointer vers le début du tableau, mais il doit pointer vers le début de l’une des structures **SPropValue** dans le tableau. 
     
  _pvDst_
   
@@ -64,7 +64,7 @@ SCODE ScCopyProps(
 
 S_OK
   
-> Les propriétés ont été copiées avec succès.
+> Les propriétés ont été correctement copiées.
     
 MAPI_E_INVALID_PARAMETER
   

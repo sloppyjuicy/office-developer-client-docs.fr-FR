@@ -40,13 +40,15 @@ Booléen
 ## <a name="remarks"></a>Remarques
 
 STRSAMEEX renvoie TRUE si les deux chaînes d’entrée sont identiques et FALSE dans le cas contraire. Utilisez cette fonction pour comparer des chaînes multi-octets ou pour effectuer des comparaisons qui font appel à des règles de casse pour un paramètre régional spécifique.
+			
+
   
 Vous pouvez utiliser toute combinaison des indicateurs suivants avec la fonction STRSAMEEX.
   
 |**Indicateur**|**Description**|
 |:-----|:-----|
 |1  <br/> |Ne tient pas compte de la casse.  <br/> |
-|2   <br/> |Ne tient pas compte des caractères qui ne définissent pas d’espacement.  <br/> |
+|2  <br/> |Ne tient pas compte des caractères qui ne définissent pas d’espacement.  <br/> |
 |4   <br/> |Ne tient pas compte des symboles.  <br/> |
 |4096  <br/> |Traite les signes de ponctuation comme des symboles.  <br/> |
 |65536  <br/> |Ne fait aucune différence entre les caractères Hiragana et Katakana.  <br/> |

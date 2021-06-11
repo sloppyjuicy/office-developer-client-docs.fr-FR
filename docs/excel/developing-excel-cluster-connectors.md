@@ -1,5 +1,5 @@
 ---
-title: Développement de connecteurs de cluster Excel
+title: Développement de connecteurs Excel cluster
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,17 +14,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412596"
 ---
-# <a name="developing-excel-cluster-connectors"></a>Développement de connecteurs de cluster Excel
+# <a name="developing-excel-cluster-connectors"></a>Développement de connecteurs Excel cluster
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Les connecteurs de cluster Excel permettent de décharger automatiquement les appels de fonctions définies par l’utilisateur sécurisés par un cluster dans une XLL vers un serveur en cluster. Pour obtenir une description des fonctions définies par l’utilisateur sécurisées pour le cluster, voir [Fonctions sécurisées de cluster.](cluster-safe-functions.md) Ce déchargement peut améliorer les performances en permettant d’utiliser davantage de ressources informatiques. Un connecteur de cluster est généralement développé par un fournisseur de cluster de calcul hautes performances.
+Excel connecteurs de cluster fournissent un moyen de décharger automatiquement les appels de fonctions définies par l’utilisateur sécurisés du cluster dans une XLL vers un serveur en cluster. Pour obtenir une description des fonctions définies par l’utilisateur sécurisées pour le cluster, voir [Fonctions sécurisées de cluster.](cluster-safe-functions.md) Ce déchargement peut améliorer les performances en permettant d’utiliser davantage de ressources informatiques. Un connecteur de cluster est généralement développé par un fournisseur de cluster de calcul hautes performances.
   
 ## <a name="cluster-connectors"></a>Connecteurs de cluster
 
-Un connecteur de cluster est une DLL qui fournit des points d’entrée définis qu’Excel utilise pour coordonner les appels de fonctions définies par l’utilisateur sécurisés du cluster. Il sert d’interface entre Excel et le cluster de calcul hautes performances, pour la gestion des sessions, pour effectuer des appels de fonction (en passant le nom complet de la fonction et les arguments réels de l’appel) et pour renvoyer les résultats des appels à Excel via un mécanisme de rappel.
+Un connecteur de cluster est une DLL qui fournit des points d’entrée définis qui Excel pour coordonner les appels de fonctions définies par l’utilisateur sécurisés du cluster. Il sert d’interface entre Excel et le cluster de calcul hautes performances, pour la gestion des sessions, pour effectuer des appels de fonction (en passant le nom complet de la fonction et les arguments réels de l’appel) et pour renvoyer les résultats des appels à Excel via un mécanisme de rappel.
   
-Pour créer un connecteur de cluster, créez une DLL qui expose les points d’entrée répertoriés dans les fonctions du [connecteur de cluster Excel.](excel-cluster-connector-functions.md)
+Pour créer un connecteur de cluster, créez une DLL qui expose les points d’entrée répertoriés dans Excel fonctions du connecteur [de cluster.](excel-cluster-connector-functions.md)
   
 ## <a name="installing-a-cluster-connector"></a>Installation d’un connecteur de cluster
 

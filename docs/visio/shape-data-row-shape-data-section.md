@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251344
 localization_priority: Normal
 ms.assetid: f3a83496-fccc-9d6a-02b9-60ebaf4911ea
-description: Contient les informations d'un seul élément de données de forme associé à une forme. Une forme contient une ligne Données de forme pour chaque élément de données de forme. Les lignes Données de forme sont nommées Prop.name et contiennent les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules.
+description: Contient les informations d'un seul élément de données de forme associé à une forme. Une forme contient une ligne Shape Data pour chaque élément de données de forme.Les lignes Shape Data sont nommées Prop.nom et contiennent les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules.
 ms.openlocfilehash: 058f8f180a2eca4736d06dfcc533d81f45150c86
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33415396"
 ---
 # <a name="shape-data-row-shape-data-section"></a>Shape Data Row (Shape Data Section)
 
-Contient les informations d'un seul élément de données de forme associé à une forme. Une forme contient une ligne Données de forme pour chaque élément de données de forme. Les lignes Données de forme sont nommées Prop.name et contiennent les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules.
+Contient les informations d'un seul élément de données de forme associé à une forme. Une forme contient une ligne Shape Data pour chaque élément de données de forme.Les lignes Shape Data sont nommées Prop.nom et contiennent les cellules suivantes. Pour plus de détails, consultez les rubriques spécifiques aux cellules.
   
 |**Cell**|**Description**|
 |:-----|:-----|

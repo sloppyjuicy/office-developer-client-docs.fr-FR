@@ -34,7 +34,7 @@ ULONG ulDenominator
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulNumerator_
   
@@ -56,7 +56,7 @@ MAPI_E_BUSY
     
 ## <a name="remarks"></a>Remarques
 
-La position du curseur dans une table après un appel à la méthode **IMAPITable::SeekRowApprox** est heuristiquement la fraction et peut ne pas être exacte. Par exemple, certains fournisseurs peuvent implémenter une table au-dessus d’une arborescence binaire, en traitant le point à mi-chemin de la table comme le haut de l’arborescence pour des raisons de performances. Si l’arborescence n’est pas équilibrée, le point à mi-chemin utilisé risque de ne pas être exactement à mi-chemin du tableau. 
+La position du curseur dans une table après un appel à la méthode **IMAPITable::SeekRowApprox** est heuristiquement la fraction et peut ne pas être exacte. Par exemple, certains fournisseurs peuvent implémenter un tableau au-dessus d’une arborescence binaire, en traitant le point à mi-chemin de la table comme le haut de l’arborescence pour des raisons de performances. Si l’arborescence n’est pas équilibrée, le point à mi-chemin utilisé risque de ne pas être exactement à mi-chemin du tableau. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

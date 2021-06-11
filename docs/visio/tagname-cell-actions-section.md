@@ -31,7 +31,7 @@ La cellule TagName de la section Actions fonctionne avec la cellule TagName de l
     
 - Si une valeur de cellule TagName dans la ligne Actions correspond à la valeur de cellule TagName dans une ligne Smart Tags, l’action apparaît dans le menu de balise d’action.
     
-- Si la cellule TagName d’une action a une valeur, mais qu’elle ne correspond à la valeur TagName dans aucune ligne de balise de forme, cette action n’apparaît dans aucun menu de balise d’action ou menu raccourci.
+- Si la cellule TagName d’une action a une valeur mais qu’elle ne correspond à la valeur TagName dans aucune ligne de balise de forme, cette action n’apparaît dans aucun menu de balise d’action ou menu raccourci.
     
 - Si plusieurs lignes Smart Tags contiennent la même valeur TagName, elles présentent toutes les mêmes actions.
     

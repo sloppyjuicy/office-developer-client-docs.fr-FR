@@ -41,15 +41,15 @@ La **méthode GetProps** permet de récupérer une ou plusieurs propriétés qui
     
 3. Appelez [IMAPIProp::GetProps](imapiprop-getprops.md) pour ouvrir la ou les propriétés. 
     
-La **méthode OpenProperty** permet d’ouvrir des propriétés plus volumineuses qui nécessitent une autre interface telle que **IStream** ou [IMAPITable](imapitableiunknown.md) pour l’accès. **OpenProperty est** généralement utilisé pour ouvrir des propriétés de chaîne de caractères, binaires et d’objets de grande taille et ne peut ouvrir qu’une seule propriété à la fois. Les appelants passent l’identificateur de l’interface supplémentaire requise comme l’un des paramètres d’entrée. 
+La **méthode OpenProperty** permet d’ouvrir des propriétés plus volumineuses qui nécessitent une autre interface telle que **IStream** ou [IMAPITable](imapitableiunknown.md) pour l’accès. **OpenProperty est** généralement utilisé pour ouvrir des propriétés de chaîne de caractères, binaires et objets de grande taille et ne peut ouvrir qu’une seule propriété à la fois. Les appelants passent l’identificateur de l’interface supplémentaire requise comme l’un des paramètres d’entrée. 
   
-Certaines des utilisations courantes **d’OpenProperty** incluent l’ouverture de **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propriété qui contient le corps d’un message texte, **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)), la propriété qui contient un objet OLE ou une pièce jointe de message, et **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), la propriété qui contient un dossier ou une table de contenu de conteneur de carnet d’adresses. 
+Certaines des utilisations courantes **d’OpenProperty** incluent l’ouverture de **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propriété qui contient le corps d’un message texte, **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)), la propriété qui contient un objet OLE ou une pièce jointe de message, et **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), la propriété qui contient une table de contenu de conteneur de dossier ou de carnet d’adresses. 
   
-En fonction de la propriété, une interface différente est demandée à partir **d’OpenProperty**. **IStream**, une interface qui permet de lire et d’écrire des données de propriété sous la mesure d’un flux d’octets, est généralement utilisé pour accéder **à PR_BODY**. [IMessage ou](imessageimapiprop.md) **IStream** peut être utilisé pour accéder **à PR_ATTACH_DATA_OBJ**. Les pièces jointes de messages incorporés qui sont des messages standard utilisent **IMessage** alors que les messages au format TNEF **utilisent IStream**. Comme **PR_CONTAINER_CONTENTS** est un objet table, il est accessible avec [IMAPITable](imapitableiunknown.md).
+En fonction de la propriété, une interface différente est demandée à partir **d’OpenProperty**. **IStream**, une interface qui permet aux données de propriété d’être lues et écrites en tant que flux d’octets, est généralement utilisé pour accéder **à PR_BODY**. [IMessage ou](imessageimapiprop.md) **IStream** peut être utilisé pour accéder à **PR_ATTACH_DATA_OBJ**. Les pièces jointes de messages incorporés qui sont des messages standard utilisent **IMessage,** tandis que les messages au format TNEF **utilisent IStream**. Comme **PR_CONTAINER_CONTENTS** est un objet table, il est accessible avec [IMAPITable](imapitableiunknown.md).
   
  **Pour récupérer la propriété d’PR_ATTACH_DATA_BIN pièce jointe**
   
-1. Appelez la [fonction OpenStreamOnFile](openstreamonfile.md) pour ouvrir un flux pour le fichier. 
+1. Appelez la [fonction OpenStreamOnFile pour](openstreamonfile.md) ouvrir un flux pour le fichier. 
     
 2. Appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du message pour récupérer la propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) avec l’interface **IStream.** Définissez les indicateurs MAPI_MODIFY et MAPI_CREATE de l’indicateur. 
     
@@ -63,7 +63,7 @@ Lorsque **IStream est** utilisé pour l’accès aux propriétés, certains four
   
 La [fonction HrGetOneProp,](hrgetoneprop.md) comme **OpenProperty,** ouvre une propriété à la fois. **HrGetOneProp ne** doit être utilisé que lorsque l’objet cible existe sur l’ordinateur local. Lorsque l’objet cible n’est pas disponible localement, l’utilisation répétée de **HrGetOneProp** peut entraîner plusieurs appels de procédure distante et une dégradation des performances. 
   
-Les appelants qui ont besoin de plusieurs propriétés peuvent appeler **HrGetOneProp** ou **OpenProperty** en boucle ou effectuer un appel **à GetProps.** Appeler **GetProps une** fois est plus efficace. 
+Les appelants qui ont besoin de plusieurs propriétés peuvent appeler **HrGetOneProp** ou **OpenProperty** dans une boucle ou effectuer un appel **à GetProps.** Appeler **GetProps une** fois est plus efficace. 
   
 > [!NOTE]
 > Les propriétés sécurisées ne sont pas automatiquement disponibles avec d’autres propriétés dans un appel **GetProps,** **HrGetOneProp** ou **GetPropList.** Les propriétés sécurisées doivent être demandées explicitement à l’aide de leurs identificateurs de propriété. 

@@ -70,7 +70,7 @@ static const MYOBJECT_Vtbl vtblSTATUS =
  
 ```
 
-Les clients et fournisseurs de services écrits en C utilisent des objets indirectement via le vtable et ajoutent un pointeur d’objet comme premier paramètre dans chaque appel. Chaque appel à une méthode d’interface MAPI nécessite un pointeur vers l’objet appelé comme premier paramètre. C++ définit un pointeur spécial  appelé pointeur à cet effet. Le compilateur C++ ajoute implicitement ce **pointeur** en tant que premier paramètre à chaque appel de méthode. En C, il n’existe pas de pointeur de ce type ; Il doit être ajouté explicitement. 
+Les clients et les fournisseurs de services écrits en C utilisent des objets indirectement via le vtable et ajoutent un pointeur d’objet comme premier paramètre dans chaque appel. Chaque appel à une méthode d’interface MAPI nécessite un pointeur vers l’objet appelé comme premier paramètre. C++ définit un pointeur spécial  appelé pointeur à cet effet. Le compilateur C++ ajoute implicitement ce **pointeur** en tant que premier paramètre à chaque appel de méthode. En C, il n’existe pas de pointeur de ce type ; Il doit être ajouté explicitement. 
   
 Le code suivant montre comment un client peut appeler une instance de MYSTATUSOBJECT :
   

@@ -27,7 +27,7 @@ MAPI définit les interfaces suivantes relatives aux formulaires.
 |:-----|:-----|
 |[IMAPIForm](imapiformiunknown.md) <br/> |Manipule les objets de formulaire et gère les commandes d’objet de formulaire.  <br/> |
 |[IMAPIFormAdviseSink](imapiformadvisesinkiunknown.md) <br/> |Détermine si l’objet de formulaire peut gérer le message suivant et modifie l’état suivant ou précédent de l’objet de formulaire.  <br/> |
-|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |Prend en charge l’installation, la désinstallation et la résolution des serveurs de formulaires par rapport à un conteneur de formulaire spécifique.  <br/> |
+|[IMAPIFormContainer](imapiformcontaineriunknown.md) <br/> |Prend en charge l’installation, la désinstallation et la résolution des serveurs de formulaires sur un conteneur de formulaire spécifique.  <br/> |
 |[IMAPIFormFactory](imapiformfactoryiunknown.md) <br/> |Prend en charge l’utilisation de serveurs de formulaires configurables au moment de l’utilisation.  <br/> |
 |[IMAPIFormInfo](imapiforminfoimapiprop.md) <br/> |Permet aux applications clientes de fonctionner avec des propriétés spécifiques à une classe de message.  <br/> |
 |[IMAPIFormMgr](imapiformmgriunknown.md) <br/> |Permet aux applications clientes d’obtenir des informations sur les serveurs de formulaires, d’activer les serveurs de formulaires et d’installer des serveurs de formulaires dans le système de messagerie.  <br/> |

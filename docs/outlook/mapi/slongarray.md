@@ -52,7 +52,7 @@ typedef struct _SLongArray
     
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations PT_MV_LONG, voir [Liste des types de propriétés.](property-types.md)
+Pour plus d’informations sur PT_MV_LONG, voir [Liste des types de propriétés.](property-types.md)
   
 ## <a name="see-also"></a>Voir aussi
 

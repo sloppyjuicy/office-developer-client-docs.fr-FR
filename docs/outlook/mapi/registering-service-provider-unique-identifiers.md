@@ -21,7 +21,7 @@ ms.locfileid: "33410174"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fournisseurs de carnet d’adresses, de magasin de messages et de transport utilisent un identificateur unique appelé [MAPIUID](mapiuid.md) pour s’inscrire aux objets de service de différents types. **MapIUID est** un identificateur de 16 byte qui contient un GUID. Vous pouvez créer un **MAPIUID** à l’aide de la procédure suivante : 
+Les fournisseurs de carnet d’adresses, de magasin de messages et de transport utilisent un identificateur unique appelé [MAPIUID](mapiuid.md) pour s’inscrire aux objets de service de différents types. Un **MAPIUID est** un identificateur de 16 byte qui contient un GUID. Vous pouvez créer un **MAPIUID à l’aide** de la procédure suivante : 
   
 1. Définissez une constante.
     
@@ -35,11 +35,11 @@ Par exemple, un fournisseur de carnet d’adresses peut inclure la constante sui
   
 1. Appelez [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).
     
-2. Inscrivez un **MAPIUID** pour chaque objet d’inscription que vous inséziez et incluez ce **MAPIUID** dans les 16 premiers octets du membre **ab** de chaque identificateur d’entrée que vous créez. MAPI utilise des structures **MAPIUID** pour associer des objets à des fournisseurs de services. Lorsqu’un client appelle la méthode [IMAPISession::OpenEntry](imapisession-openentry.md) pour ouvrir un objet, MAPI examine la partie **MAPIUID** de l’identificateur d’entrée, en la faisant correspondre à l’identificateur **MAPIUID** enregistré, pour déterminer quel objet d’ouverture doit recevoir la demande d’ouverture.
+2. Inscrivez un **MAPIUID** pour chaque objet d’inscription que vous inséziez et incluez ce **MAPIUID** dans les 16 premiers octets du membre **ab** de chaque identificateur d’entrée que vous créez. MAPI utilise des structures **MAPIUID** pour associer des objets à des fournisseurs de services. Lorsqu’un client appelle la méthode [IMAPISession::OpenEntry](imapisession-openentry.md) pour ouvrir un objet, MAPI examine la partie **MAPIUID** de l’identificateur d’entrée, en la faisant correspondre à la méthode **MAPIUID** enregistrée, pour déterminer l’objet d’ouverture qui doit recevoir la demande d’ouverture.
     
 3. Si votre fournisseur est un transport, inscrivez une ou plusieurs structures **MAPIUID** lorsque MAPI appelle votre **méthode IXPLogon::AddressTypes.** MAPI utilise les structures **MAPIUID** enregistrées par les fournisseurs de transport pour attribuer la responsabilité de la remise des messages. 
     
-Bien que les fournisseurs de services enregistrent généralement un **seul MAPIUID,** vous pouvez inscrire plusieurs structures **MAPIUID.** Si votre carnet d’adresses ou votre fournisseur de magasins de messages prend en charge plusieurs objets d’ouverture de page, par exemple en permettant à un utilisateur d’ajouter plusieurs instances de votre fournisseur à son profil, vous pouvez implémenter un **MAPIUID** différent pour chaque objet d’ouverture de page. Il existe quelques autres raisons de prendre en charge plusieurs **MAPIUID**:
+Bien que les fournisseurs de services enregistrent généralement un **seul MAPIUID,** vous pouvez inscrire plusieurs structures **MAPIUID.** Si votre fournisseur de carnet d’adresses ou de magasin de messages prend en charge plusieurs objets d’ouverture de page, par exemple en permettant à un utilisateur d’ajouter plusieurs instances de votre fournisseur à son profil, vous pouvez implémenter un **MAPIUID** différent pour chaque objet d’ouverture de page. Il existe quelques autres raisons de prendre en charge plusieurs **MAPIUID**:
   
 - Vous devez prendre en charge plusieurs versions de votre fournisseur et les identificateurs d’entrée doivent représenter la version appropriée. Affectez un **MAPIUID différent** pour chaque version. 
     

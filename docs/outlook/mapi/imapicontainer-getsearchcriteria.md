@@ -36,7 +36,7 @@ HRESULT GetSearchCriteria(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -68,7 +68,7 @@ SEARCH_REBUILD
     
 SEARCH_RECURSIVE 
   
-> La recherche recherche des entrées correspondantes dans les conteneurs spécifiés et tous leurs conteneurs enfants. Si cet indicateur n’est pas définie, seuls les conteneurs inclus explicitement dans le dernier appel à la méthode [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) sont recherchés. 
+> La recherche recherche les entrées correspondantes dans les conteneurs spécifiés et tous leurs conteneurs enfants. Si cet indicateur n’est pas définie, seuls les conteneurs explicitement inclus dans le dernier appel à la méthode [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) sont recherchés. 
     
 SEARCH_RUNNING 
   
@@ -106,7 +106,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI utilise la **méthode IMAPIContainer::GetSearchCriteria** pour obtenir des critères de recherche à partir d’un dossier à afficher.  <br/> |
+|HierarchyTableDlg.cpp  <br/> |CHierarchyTableDlg::OnEditSearchCriteria  <br/> |MFCMAPI utilise la méthode **IMAPIContainer::GetSearchCriteria** pour obtenir les critères de recherche à partir d’un dossier à afficher.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

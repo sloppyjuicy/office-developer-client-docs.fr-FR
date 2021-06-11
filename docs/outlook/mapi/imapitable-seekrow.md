@@ -35,7 +35,7 @@ LONG FAR * lplRowsSought
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _bkOrigin_
   
@@ -91,7 +91,7 @@ Si la ligne pointée par  _bkOrigin_ n’existe plus dans le tableau et que vous
   
 Un signet pointant vers une ligne qui est réduire en dehors de l’affichage Tableau peut toujours être utilisé. Si l’appelant tente de déplacer le curseur vers un signet de ce type, déplacez le curseur vers la ligne visible suivante et renvoyez-MAPI_W_POSITION_CHANGED. 
   
-Vous pouvez déplacer des signets pour les positions qui sont en dehors de l’affichage, au moment de l’utilisation ou au moment où la ligne est réduire. Si un signet est déplacé au moment où la ligne est réduire, conservez un peu dans le signet qui indique si le signet a été déplacé depuis sa dernière utilisation ou, s’il n’a jamais été utilisé, depuis sa création.
+Vous pouvez déplacer des signets pour les positions qui sont en dehors de l’affichage, soit au moment de l’utilisation, soit au moment où la ligne est réduire. Si un signet est déplacé au moment où la ligne est réduire, conservez un peu dans le signet qui indique si le signet a été déplacé depuis sa dernière utilisation ou, s’il n’a jamais été utilisé, depuis sa création.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

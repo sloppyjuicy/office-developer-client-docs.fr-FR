@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
@@ -69,7 +69,7 @@ La **méthode IMAPIFormContainer::GetLastError** fournit des informations sur un
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser la structure **MAPIERROR** pointée par le paramètre  _lppMAPIError_ si MAPI en fournit un uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas, un pointeur vers NULL est renvoyé dans  _lppMAPIError_ à la place. 
+Vous pouvez utiliser la structure **MAPIERROR** pointée par le paramètre  _lppMAPIError_ si MAPI en fournit un uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler sur l’erreur. Dans ce cas, un pointeur vers NULL est renvoyé dans  _lppMAPIError_ à la place. 
   
 Pour plus d’informations sur **la méthode GetLastError,** voir [Using Extended Errors](mapi-extended-errors.md).
   

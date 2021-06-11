@@ -20,6 +20,6 @@ Indique les propriétés des effets de dégradé de remplissage ou de trait appl
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez définir les paramètres de dégradé dans la boîte de **dialogue Format de** forme ( Options de remplissage remplissage des  >  **styles** de forme de la page d’accueil Remplissage  >    >    >    >  **Remplissage remplissage dégradé).** 
+Vous pouvez définir les paramètres de dégradé dans la boîte de **dialogue Format** de forme **(** Les options de remplissage des styles de forme de la page d’accueil remplissent le  >    >    >    >    >  **remplissage dégradé).** 
   
 

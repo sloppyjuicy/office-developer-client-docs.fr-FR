@@ -19,7 +19,7 @@ ms.locfileid: "33414388"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Crée un objet MAPI hors connexion qui est utilisé par le fournisseur et le magasin afin d’avertir MAPI lorsque l’objet est en ligne et hors connexion, 
+ Crée un objet MAPI hors connexion utilisé par le fournisseur et stocké afin d’avertir MAPI lorsque l’objet est en ligne et hors connexion. 
   
 |||
 |:-----|:-----|
@@ -35,7 +35,7 @@ IMAPIOfflineMgr** ppOffline
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ulFlags_
   

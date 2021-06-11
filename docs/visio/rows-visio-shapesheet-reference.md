@@ -15,7 +15,7 @@ ms.locfileid: "33413016"
 ---
 # <a name="rows-visio-shapesheet-reference"></a>Rows (Visio ShapeSheet Reference)
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Actions, ligne (section Actions)](actions-row-actions-section.md)
     

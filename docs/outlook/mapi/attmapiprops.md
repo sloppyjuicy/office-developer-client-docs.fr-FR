@@ -37,7 +37,7 @@ La balise de propriété est simplement la valeur associée à l’identificateu
   
  _Propriété :_
   
->  _Valeur-nombre_ de  _valeurs,..._
+>  _Value-count_  _Value,..._
     
  _Valeur :_
   
@@ -51,7 +51,7 @@ L’encapsulation de chaque propriété varie en fonction de l’identificateur 
   
 Si la propriété est une propriété nommée, la balise de propriété est immédiatement suivie du nom de la propriété MAPI, constitué d’un identificateur global unique (GUID), d’un type et d’un identificateur ou d’une chaîne Unicode.
   
-Les propriétés à valeurs multiples et les propriétés avec des valeurs de longueur variable, telles que les types de propriétés PT_BINARY, PT_STRING8, PT_UNICODE ou PT_OBJECT, sont traitées de la manière suivante. Tout d’abord, le nombre de valeurs, codées comme un long non signé 32 bits, est placé dans le flux TNEF, suivi des valeurs individuelles. Les données de valeur de chaque propriété sont codées en octets, suivies des données de valeur proprement dite. Les données de valeur sont ajoutées à une limite de 4 byte, bien que la quantité de remplissage ne soit pas incluse dans la taille de la valeur.
+Les propriétés à valeurs multiples et les propriétés avec des valeurs de longueur variable, telles que les types de propriétés PT_BINARY, PT_STRING8, PT_UNICODE ou PT_OBJECT, sont traitées de la manière suivante. Tout d’abord, le nombre de valeurs, codées comme un long non signé 32 bits, est placé dans le flux TNEF, suivi des valeurs individuelles. Les données de valeur de chaque propriété sont codées en tant que taille en octets, suivies des données de valeur proprement dite. Les données de valeur sont ajoutées à une limite de 4 byte, bien que la quantité de remplissage ne soit pas incluse dans la taille de la valeur.
   
 Si la propriété est de type PT_OBJECT, la taille de la valeur est suivie de l’identificateur d’interface de l’objet. L’implémentation actuelle de TNEF prend uniquement en charge les identificateurs IID_IMessage, IID_IStorage et IID_Istream’interface. La taille de l’identificateur d’interface est incluse dans la taille de la valeur.
   

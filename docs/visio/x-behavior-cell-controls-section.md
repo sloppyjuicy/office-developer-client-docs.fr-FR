@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251285
 localization_priority: Normal
 ms.assetid: 82423d08-b6ce-0f23-8b61-354c3e5f323e
-description: Contrôle le type de comportement de la coordonnée x de la poignée de contrôle une fois la poignée déplacée.
+description: Contrôle le type de comportement de la coordonnée x de la poignée de contrôle une fois le handle déplacé.
 ms.openlocfilehash: 50b08664deec69659ff70a0bf9a17a148ed0e110
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,14 +18,14 @@ ms.locfileid: "33413947"
 ---
 # <a name="x-behavior-cell-controls-section"></a>X Behavior, cellule (section Controls)
 
-Contrôle le type de comportement de la  *coordonnée x*  de la poignée de contrôle une fois la poignée déplacée. 
+Contrôle le type de comportement de  *la coordonnée x*  de la poignée de contrôle une fois le handle déplacé. 
   
 |**Valeur**|**Comportement**|**Définition**|**Constante d'automation**|
 |:-----|:-----|:-----|:-----|
 | 0  <br/> | Proportionnel  <br/> | La poignée de contrôle peut être déplacée et se déplace proportionnellement à la forme lorsque cette dernière est redimensionnée.  <br/> |**visCtlProportional** <br/> |
-| 1   <br/> | Proportionnel verrouillé  <br/> | La poignée de contrôle se déplace proportionnellement à la forme lorsque cette dernière est redimensionnée mais ne peut être déplacée indépendamment de la forme.  <br/> |**visCtlLocked** <br/> |
-| 2   <br/> | Décalé du bord gauche  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au côté gauche de la forme.  <br/> |**visCtlOffsetMin** <br/> |
-| 3   <br/> | Décalé du centre  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au centre de la forme.  <br/> |**visCtlOffsetMid** <br/> |
+| 1  <br/> | Proportionnel verrouillé  <br/> | La poignée de contrôle se déplace proportionnellement à la forme lorsque cette dernière est redimensionnée mais ne peut être déplacée indépendamment de la forme.  <br/> |**visCtlLocked** <br/> |
+| 2  <br/> | Décalé du bord gauche  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au côté gauche de la forme.  <br/> |**visCtlOffsetMin** <br/> |
+| 3  <br/> | Décalé du centre  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au centre de la forme.  <br/> |**visCtlOffsetMid** <br/> |
 | 4   <br/> | Décalé du bord droit  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au côté droit de la forme.  <br/> |**visCtlOffsetMax** <br/> |
 | 5   <br/> | Proportionnel, masqué  <br/> | Identique à 0 mais la poignée de contrôle n'est pas visible.  <br/> |**visCtlProportionalHidden** <br/> |
 | 6   <br/> | Proportionnel verrouillé, masqué  <br/> | Identique à 1 mais la poignée de contrôle n'est pas visible.  <br/> |**visCtlLockedHiddenv** <br/> |

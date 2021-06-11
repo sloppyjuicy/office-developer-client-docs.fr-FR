@@ -35,7 +35,7 @@ HRESULT SetProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cValues_
   
@@ -47,7 +47,7 @@ HRESULT SetProps(
     
  _lppProblems_
   
-> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; Dans le cas contraire, NULL, indiquant qu’il n’est pas nécessaire d’obtenir des informations sur l’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **SetProps** renvoie des informations détaillées sur les erreurs de mise à jour d’une ou plusieurs propriétés. 
+> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; sinon, NULL, indiquant qu’il n’est pas nécessaire d’obtenir des informations sur l’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **SetProps** renvoie des informations détaillées sur les erreurs de mise à jour d’une ou plusieurs propriétés. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -63,7 +63,7 @@ MAPI_E_BAD_CHARWIDTH
     
 MAPI_E_COMPUTED 
   
-> La propriété ne peut pas être mise à jour, car elle est en lecture seule, calculée par le fournisseur de services responsable de l’objet.
+> La propriété ne peut pas être mise à jour car elle est en lecture seule, calculée par le fournisseur de services responsable de l’objet.
     
 MAPI_E_INVALID_TYPE 
   
@@ -99,7 +99,7 @@ Notez que la S_OK valeur de retour ne garantit pas que toutes les propriétés o
   
 Si **SetProps renvoie** S_OK, vérifiez la structure **SPropProblemArray** pointée par  _lppProblems_ pour les problèmes de mise à jour des propriétés individuelles. Si **SetProps renvoie** une erreur, ne vérifiez pas le tableau des problèmes de propriété. Appelez plutôt la méthode [IMAPIProp::GetLastError](imapiprop-getlasterror.md) de l’objet. 
   
-Lors de la mise à jour de propriétés de grande taille, **SetProps** peut échouer et renvoyer des MAPI_E_NOT_ENOUGH_MEMORY. Il n’existe aucune taille maximale pour les propriétés, et différents objets peuvent avoir des limites différentes. Si vous traitez des propriétés potentiellement importantes, soyez prêt à appeler la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) avec IID_IStream comme identificateur d’interface si **SetProps** renvoie cette valeur d’erreur. 
+Lors de la mise à jour de propriétés de grande taille, **SetProps** peut échouer et renvoyer des MAPI_E_NOT_ENOUGH_MEMORY. Il n’existe pas de taille maximale pour les propriétés, et différents objets peuvent avoir des limites différentes. Si vous traitez des propriétés potentiellement importantes, soyez prêt à appeler la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) avec IID_IStream comme identificateur d’interface si **SetProps** renvoie cette valeur d’erreur. 
   
 Appelez la [fonction MAPIFreeBuffer](mapifreebuffer.md) pour libérer la structure **SPropProblemArray.** 
   

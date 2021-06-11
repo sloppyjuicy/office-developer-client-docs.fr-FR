@@ -19,7 +19,7 @@ ms.locfileid: "33410048"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La clé de conversation de messagerie Windows for Workgroups 3.1 est une chaîne de texte. L’équivalent MAPI est une valeur binaire. Pour assurer la compatibilité ascendante, l’implémentation TNEF convertit les données binaires en texte et ajoute un caractère null final.
+La Windows de conversation de messagerie workgroups 3.1 est une chaîne de texte. L’équivalent MAPI est une valeur binaire. Pour assurer la compatibilité ascendante, l’implémentation TNEF convertit les données binaires en texte et ajoute un caractère null de fin.
   
 > [!NOTE]
 > Les propriétés correspondantes dans MAPI sur lesquelles ces attributs TNEF sont mappés, PR_CONVERSATION_KEY et PR_PARENT_KEY, ont été dépréciées dans Microsoft Exchange Server : l’utilisation de **PR_CONVERSATION_KEY**, la propriété canonique [PidTagConversationKey](pidtagconversationkey-canonical-property.md), persiste dans Outlook uniquement, pour localiser **IPM. Messages MessageManager.** 

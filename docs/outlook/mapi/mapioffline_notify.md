@@ -90,7 +90,7 @@ L’API d’état hors connexion prend uniquement en charge les notifications po
     
 2.  *ulMask a*  la valeur MAPIOFFLINE_STATE_OFFLINE_MASK. Dans ce cas, le client peut supposer que la modification est un changement d’état de connexion en ligne/hors connexion et peut passer à l’examen de  *ulStateOld*  et  *ulStateNew*  . 
     
-Il est possible qu’Outlook avertisse un client d’autres modifications qui ne sont pas pris en charge. Dans ce cas,  *NotifyType*  ne serait pas l’une des trois valeurs précédemment énoncés, ou  *ulMask*  ne serait pas MAPIOFFLINE_STATE_OFFLINE_MASK, et le client doit ignorer le reste des données dans  *Info*  . 
+Il est possible que Outlook avertisse un client d’autres modifications qui ne sont pas pris en charge. Dans ce cas,  *NotifyType*  ne serait pas l’une des trois valeurs précédemment énoncés, ou  *ulMask*  ne serait pas MAPIOFFLINE_STATE_OFFLINE_MASK, et le client doit ignorer le reste des données dans  *Info*  . 
   
 ## <a name="see-also"></a>Voir aussi
 

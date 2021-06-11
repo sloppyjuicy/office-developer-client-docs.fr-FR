@@ -23,11 +23,11 @@ Indique si l'orientation du texte est de gauche à droite ou de droite à gauche
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Orientation du texte de gauche à droite (valeur par défaut).  <br/> |
-|1   <br/> |Orientation du texte de droite à gauche.  <br/> |
+|1  <br/> |Orientation du texte de droite à gauche.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-La valeur de cette cellule correspond au  paramètre **Direction** sous l’onglet  Paragraphe de  la boîte de dialogue Texte (sous l’onglet Accueil, cliquez sur la flèche Police), qui apparaît uniquement si une langue qui utilise du texte de scripts complexes a été ajoutée dans la boîte de dialogue Préférences de langue **Microsoft Office.**  (Cliquez **sur Démarrer,** **sur** Tous les programmes, sur **Microsoft Office,** sur Microsoft Office **Outils,** puis sur Microsoft Office **langue.)** 
+La valeur de cette cellule correspond au  paramètre **Direction** sous l’onglet  Paragraphe de  la boîte de dialogue Texte (sous l’onglet Accueil, cliquez sur la flèche Police), qui apparaît uniquement si une langue qui utilise du texte de script complexe a été ajoutée dans la boîte de dialogue Préférences de langue **Microsoft Office.**  (Cliquez **sur** Démarrer, sur Tous les **programmes,** sur **Microsoft Office,** sur Microsoft Office **Outils,** puis sur Microsoft Office **langue.)** 
   
 Pour obtenir une référence à la cellule Flags par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

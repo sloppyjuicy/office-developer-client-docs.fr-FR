@@ -35,7 +35,7 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -63,7 +63,7 @@ S_OK
 
 Les visionneuses de formulaire appellent la méthode **IMAPIFormMgr::P repareForm** pour télécharger un formulaire à partir d’un conteneur de formulaire à ouvrir. La plupart des visionneuses de formulaires n’ont pas besoin d’appeler **PrepareForm,** car les deux méthodes [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) et [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) appellent **PrepareForm,** si nécessaire. 
   
-Vous pouvez utiliser **PrepareForm** pour obtenir les bibliothèques de liens dynamiques (DLL) et d’autres fichiers associés à un formulaire pour les modifier. Si le formulaire modifié est chargé à nouveau dans son conteneur de formulaire, il doit être réinstallé. 
+Vous pouvez utiliser **PrepareForm** pour obtenir les bibliothèques de liens dynamiques (DLL) et d’autres fichiers associés à un formulaire pour les modifier. Si le formulaire modifié est chargé à nouveau dans son conteneur de formulaires, il doit être réinstallé. 
   
 ## <a name="see-also"></a>Voir aussi
 

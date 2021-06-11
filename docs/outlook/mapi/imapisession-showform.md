@@ -43,7 +43,7 @@ HRESULT ShowForm(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -79,7 +79,7 @@ MAPI_NEW_MESSAGE
     
 MAPI_POST_MESSAGE 
   
-> Le message doit être enregistré dans son dossier parent. Le message n’est pas traitée pour l’envoi, mais publiée dans le dossier à la place. Si cet indicateur n’est pas définie, le message est copié dans la boîte d’envoi et est traitée pour l’envoi. 
+> Le message doit être enregistré dans son dossier parent. Le message n’est pas traitée pour l’envoi, mais est publié dans le dossier à la place. Si cet indicateur n’est pas définie, le message est copié dans la boîte d’envoi et est traitée pour l’envoi. 
     
  _ulMessageStatus_
   

@@ -22,17 +22,17 @@ ms.locfileid: "33413506"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Installe **ExcelCursorProc** afin qu’il soit appelé avant le **WndProc** principal de Microsoft Excel.
+Installe **ExcelCursorProc** afin qu’il soit appelé avant le Microsoft Excel **principal WndProc**.
   
 ```cs
 extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hWndExcel_ (**HANDLE**)
   
-Handle Windows principal Excel.
+Le Excel de Windows principal.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
@@ -40,7 +40,7 @@ La fonction ne retourne pas de valeur.
   
 ## <a name="remarks"></a>Remarques
 
-La fonction obtient l’adresse du **WndProc** Excel via l’utilisation de **GetWindowLong()**. Elle stocke cette valeur dans un global qui peut être utilisé pour appeler le **WndProc** par défaut et également pour la restaurer. Enfin, elle remplace cette adresse par l’adresse **d’ExcelCursorProc** à l’aide **de SetWindowLong()**.
+La fonction obtient l’adresse du Excel **WndProc** via l’utilisation de **GetWindowLong()**. Elle stocke cette valeur dans un global qui peut être utilisé pour appeler le **WndProc** par défaut et également pour la restaurer. Enfin, elle remplace cette adresse par l’adresse **d’ExcelCursorProc** à l’aide **de SetWindowLong()**.
   
 ### <a name="example"></a>Exemple
 

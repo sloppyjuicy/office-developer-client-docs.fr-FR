@@ -34,7 +34,7 @@ Crée une structure [SRowSet nommée](srowset.md) qui contient un nombre spécif
 SizedSRowSet (_crow, _name)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _
   

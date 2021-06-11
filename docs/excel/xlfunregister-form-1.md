@@ -22,7 +22,7 @@ ms.locfileid: "33410083"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **UNREGISTER à** partir d’une feuille macro XLM Excel. 
+Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **UNREGISTER** à partir d’Excel feuille macro XLM. 
   
 **xlfUnregister** peut être appelé sous deux formes : 
   
@@ -32,13 +32,13 @@ Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été
     
 Appelée dans le formulaire 1, cette fonction réduit le nombre d’utilisations d’une fonction ou d’une commande DLL précédemment inscrite à l’aide de **xlfRegister** ou **REGISTER**. Si le nombre d’utilisations est déjà zéro, cette fonction n’a aucun effet. Lorsque le nombre d’utilisations de toutes les fonctions dans une DLL atteint zéro, la DLL est déchargée de la mémoire.
   
-**xlfRegister** (formulaire 1) définit également un nom masqué qui est l’argument de texte de la fonction,  _pxFunctionText_, et qui est évalué en fonction de l’ID d’inscription de la fonction ou de la commande. Lors de la désinssion de la fonction, ce nom doit être supprimé à l’aide de **xlfSetName** afin que le nom de la fonction ne soit plus répertorié par l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
+**xlfRegister** (formulaire 1) définit également un nom masqué qui est l’argument de texte de la fonction,  _pxFunctionText_, et qui évalue l’ID d’inscription de la fonction ou de la commande. Lors de la désinssion de la fonction, ce nom doit être supprimé à l’aide de **xlfSetName** afin que le nom de la fonction ne soit plus répertorié par l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxRegisterId_ (**xltypeNum**)
   

@@ -35,7 +35,7 @@ HRESULT GetMemAllocRoutines(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lppAllocateBuffer_
   
@@ -57,7 +57,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::GetMemAllocRoutines** est implémentée pour tous les objets de prise en charge. Les fournisseurs de services appellent **GetMemAllocRoutines** pour obtenir les adresses des trois fonctions d’allocation de mémoire transmises à leur fonction d’initialisation ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)). 
+La **méthode IMAPISupport::GetMemAllocRoutines** est implémentée pour tous les objets de prise en charge. Les fournisseurs de services **appellent GetMemAllocRoutines** pour obtenir les adresses des trois fonctions d’allocation de mémoire transmises à leur fonction d’initialisation ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)). 
   
 ## <a name="see-also"></a>Voir aussi
 

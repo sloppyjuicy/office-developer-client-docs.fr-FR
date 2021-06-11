@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a637dcab-81e0-4195-a1d5-61d9957fcf10
-description: Affiche la boîte de dialogue Paramètres du compte ou Ajouter un nouveau compte.
+description: Affiche la boîte de dialogue Paramètres compte ou Ajouter un nouveau compte.
 ms.openlocfilehash: ecf5242fa4f224516e12e667ab66fd0adfe4a25d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33415032"
 ---
 # <a name="iolkaccountmanagerdisplayaccountlist"></a>IOlkAccountManager::DisplayAccountList
 
-Affiche la boîte de **dialogue Paramètres du compte** ou Ajouter un **nouveau** compte. 
+Affiche la boîte de **dialogue Paramètres** compte ou Ajouter **un** nouveau compte. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -34,7 +34,7 @@ HRESULT IOlkAccountManager::DisplayAccountList (
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _hwnd_
   
@@ -44,9 +44,9 @@ _dwFlags_
   
 > [in] Indicateurs pour modifier le comportement de l’affichage. 
     
-   - **ACCTUI_NO_WARNING**: n’affichez pas l’avertissement signalant que les modifications ne prennent effet qu’après le redémarrage d’Outlook. S’applique uniquement si l’application est en cours d’exécution in-process avec Outlook.exe.
+   - **ACCTUI_NO_WARNING**: n’affichez pas l’avertissement signalant que les modifications ne prennent effet qu’une fois Outlook redémarrage. S’applique uniquement si l’application est en cours d’exécution in-process avec Outlook.exe.
     
-   - **ACCTUI_SHOW_DATA_TAB**: afficher la boîte de dialogue **Paramètres du** compte avec **l’onglet** Données sélectionné. Valide uniquement si **ACCTUI_SHOW_ACCTWIZARD** n’est pas définie. 
+   - **ACCTUI_SHOW_DATA_TAB**:afficher la boîte de **dialogue Paramètres** compte avec **l’onglet** Données sélectionné. Valide uniquement si **ACCTUI_SHOW_ACCTWIZARD** n’est pas définie. 
     
    - **ACCTUI_SHOW_ACCTWIZARD**: affiche la boîte de dialogue Ajouter **un nouveau** compte. 
     
@@ -75,7 +75,7 @@ _pclsidType_
 |E_OLK_NOT_INITIALIZED  <br/> |Le Gestionnaire de comptes n'a pas été initialisé pour une utilisation.  <br/> |
 |MAPI_E_CALL_FAILED  <br/> |La **boîte de dialogue Ajouter un nouveau compte** a renvoyé une erreur.  <br/> |
 |MAPI_E_INVALID_PARAMETER  <br/> |Le  _paramètre cCategories_,  _rgclsidCategories_ ou  _pclsidType_ est non NULL.  <br/> |
-|MAPI_E_USER_CANCEL  <br/> |La **boîte de dialogue Paramètres du compte** a renvoyé une erreur.  <br/> |
+|MAPI_E_USER_CANCEL  <br/> |La **boîte de dialogue Paramètres** compte a renvoyé une erreur.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

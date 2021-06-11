@@ -56,7 +56,7 @@ ms.locfileid: "33411091"
     
    ```
 
-2. Appelez **OpenIMsgOnIStg pour** récupérer un pointeur d’interface **IMessage** pour accéder au message. 
+2. Appelez **OpenIMsgOnIStg** pour récupérer un pointeur d’interface **IMessage** pour accéder au message. 
     
    ```cpp
     LPMESSAGE pMessage = NULL;

@@ -35,7 +35,7 @@ LPPROFSECT FAR * lppProfileObj
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUid_
   
@@ -61,7 +61,7 @@ MAPI_MODIFY
 
 S_OK 
   
-> La section de profil a été ouverte avec succès.
+> La section profil a été ouverte avec succès.
     
 MAPI_E_NO_ACCESS 
   

@@ -36,7 +36,7 @@ Contient un identificateur pour l’agent de transfert de messages (MTA) à l’
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété, si elle est définie, est disponible pour les messages envoyés dans le dossier Éléments envoyés.
+Si elle est définie, cette propriété est disponible pour les messages envoyés dans le dossier Éléments envoyés.
   
 Cette propriété correspond à l’attribut de rapport X.400 par message.
   

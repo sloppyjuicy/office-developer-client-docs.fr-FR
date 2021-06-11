@@ -25,7 +25,7 @@ Les clients et les fournisseurs de services peuvent copier une ou plusieurs prop
   
 - La [méthode IMAPIProp::CopyTo](imapiprop-copyto.md) copie toutes les propriétés d’un objet dans un autre objet, en excluant éventuellement les propriétés sélectionnées. **CopyTo** est utilisé pour copier ou déplacer n’importe quel type d’objet. 
     
-- La [méthode IMAPIProp::CopyProps](imapiprop-copyprops.md) copie les propriétés sélectionnées d’un objet. **CopyProps est** utilisé principalement avec les messages. Lorsqu’un client crée une copie avancée d’un message ou d’une réponse, **CopyProps** gère la copie des propriétés appropriées à partir du message d’origine. 
+- La [méthode IMAPIProp::CopyProps](imapiprop-copyprops.md) copie les propriétés sélectionnées d’un objet. **CopyProps est** principalement utilisé avec les messages. Lorsqu’un client crée une copie avancée d’un message ou d’une réponse, **CopyProps** gère la copie des propriétés appropriées à partir du message d’origine. 
     
 - La [fonction PropCopyMore](propcopymore.md) copie une valeur de propriété unique d’un emplacement à un autre. Utilisez **PropCopyMore avec** précaution. Il est possible, lors de la copie d’une valeur à la fois, d’allouer de nombreux petits blocs de mémoire et de fragmenter la mémoire. 
     

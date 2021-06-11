@@ -23,9 +23,9 @@ Détermine les connecteurs auxquels appliquer des déviations
 |**Valeur**|**Connecteurs auxquels appliquer des déviations**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Aucun  <br/> |**visPLOJumpNone** <br/> |
-|1   <br/> |Lignes horizontales  <br/> |**visPLOJumpHorizontal** <br/> |
-|2   <br/> |Traits verticaux  <br/> |**visPLOJumpVertical** <br/> |
-|3   <br/> |Dernier trait repositionné  <br/> |**visPLOJumpLastRouted** <br/> |
+|1  <br/> |Lignes horizontales  <br/> |**visPLOJumpHorizontal** <br/> |
+|2  <br/> |Traits verticaux  <br/> |**visPLOJumpVertical** <br/> |
+|3  <br/> |Dernier trait repositionné  <br/> |**visPLOJumpLastRouted** <br/> |
 |4   <br/> |Dernière ligne affichée (forme supérieure dans *l’ordre de z)*  <br/> |**visPLOJumpDisplayOrder** <br/> |
 |5   <br/> |Première ligne affichée (forme au bas de *l’ordre de z)*  <br/> |**visPLOJumpReverseDisplayOrder** <br/> |
    

@@ -34,7 +34,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpRestriction_
   
@@ -46,7 +46,7 @@ ULONG ulFlags
     
 TBL_ASYNC 
   
-> Démarre l’opération de manière asynchrone et renvoie avant la fin de l’opération.
+> Démarre l’opération de manière asynchrone et la renvoie avant la fin de l’opération.
     
 TBL_BATCH 
   
@@ -83,7 +83,7 @@ Pour plus d’informations sur les restrictions, voir [À propos des restriction
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour ignorer la restriction actuelle sans en créer une, passez NULL dans  _lpRestriction_.
+Pour ignorer la restriction actuelle sans en créer une nouvelle, passez NULL dans  _lpRestriction_.
   
 Si un autre appel de table asynchrone est en cours, ce qui a pour effet de restreindre le retour de MAPI_E_BUSY, vous pouvez appeler [IMAPITable::Abort](imapitable-abort.md) pour arrêter l’appel.  
   

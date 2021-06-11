@@ -34,6 +34,6 @@ La **fonction Parse** contient les arguments suivants.
    
 ## <a name="remarks"></a>Remarques
 
-Utilisez **l’utilisation de l’exemple** uniquement pour la conversion de chaînes en types de date/heure et de nombre. Pour les conversions de type général, utilisez **la fonction Convert.** Gardez à l’esprit qu’il existe une certaine surcharge de performances lors de l’l’exécution de l’une des valeurs de chaîne. 
+Utilisez **l’utilisation d’Parse** uniquement pour la conversion de chaîne en types de date/heure et de nombre. Pour les conversions de type général, utilisez **la fonction Convert.** Gardez à l’esprit qu’il existe une certaine surcharge de performances lors de l’exécution de l’une des valeurs de chaîne. 
   
 

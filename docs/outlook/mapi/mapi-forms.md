@@ -26,6 +26,6 @@ Après avoir lu cette vue d’ensemble de l’architecture de formulaire MAPI, v
 Avant de lire cette section, familiarisez-vous avec les documents de la rubrique Vue d’ensemble des [formulaires MAPI.](mapi-forms-overview.md) 
   
 > [!NOTE]
-> Étant donné que l’architecture de formulaire MAPI est basée sur le modèle com (Component Object Model), le développement d’applications serveur de formulaires nécessite une connaissance de la programmation COM. Pour plus d’informations sur COM, voir la section COM et ActiveX Object Services dans le SDK Windows. 
+> Étant donné que l’architecture de formulaire MAPI est basée sur le modèle objet composant (COM), le développement d’applications serveur de formulaires nécessite une connaissance de la programmation COM. Pour plus d’informations sur COM, voir la section COM et ActiveX Object Services dans Windows SDK. 
   
 

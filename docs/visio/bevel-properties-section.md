@@ -20,6 +20,6 @@ Affiche les attributs des effets de biseau appliqués à la forme.
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez appliquer un biseau à une forme dans le volet **Format** de forme **(** Options  >    >    >  **3D** de style Forme de la page d’accueil, ou en a apporté des modifications aux cellules de la section **Propriétés** du biseau de la feuille ShapeSheet. 
+Vous pouvez appliquer un biseau à une forme dans le volet **Format** de forme **(Options**  >    >    >  **3D** de biseau style Forme d’accueil, ou en a apporté des modifications aux cellules de la section **Propriétés** du biseau de la feuille ShapeSheet. 
   
 

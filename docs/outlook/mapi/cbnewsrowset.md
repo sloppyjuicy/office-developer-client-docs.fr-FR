@@ -36,7 +36,7 @@ Calcule le nombre d’octets à allouer pour une nouvelle structure [SRowSet](sr
 CbNewSRowSet (_crow)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _
   

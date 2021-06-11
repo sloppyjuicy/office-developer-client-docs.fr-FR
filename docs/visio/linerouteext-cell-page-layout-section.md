@@ -23,8 +23,8 @@ Détermine l'aspect par défaut de tous les connecteurs d'une page de dessin.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Par défaut (droit)  <br/> |**visLORouteExtDefault** <br/> |
-| 1   <br/> | Droite  <br/> |**visLORouteExtStraight** <br/> |
-| 2   <br/> | Courbe  <br/> |**visLORouteExtNURBS** <br/> |
+| 1  <br/> | Droite  <br/> |**visLORouteExtStraight** <br/> |
+| 2  <br/> | Courbe  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

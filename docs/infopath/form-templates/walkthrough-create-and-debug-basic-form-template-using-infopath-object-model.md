@@ -7,7 +7,7 @@ keywords:
 - form templates [infopath 2007], walkthroughs,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2003-compatible form templates, walkthroughs
 localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
-description: Cette rubrique fournit une procédure pas à pas de création d’un modèle de formulaire InfoPath avec code géré de base qui fonctionne avec le modèle objet compatible InfoPath 2003 fourni par l’espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust.
+description: Cette rubrique fournit une procédure pas à pas de création d’un modèle de formulaire InfoPath avec code géré de base qui fonctionne avec le modèle objet compatible InfoPath 2003 fourni par Microsoft. Office espace de noms.Interop.InfoPath.SemiTrust.
 ms.openlocfilehash: c559aedad5c62134c796196c63c1a84f70c4dc3e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -43,7 +43,7 @@ Dans l’exemple suivant, vous allez apprendre à afficher une boîte de dialogu
     
 5. Cliquez sur **Modifier le code du formulaire**.
     
-   Un squelette de handler d’événements pour l’événement [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) est créé et le focus passe à l’éditeur de code dans Visual Studio 2012. Pour plus d’informations sur l’utilisation des handlers d’événements, voir [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
+   Un squelette de handler d’événements pour l’événement [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) est créé et le focus se déplace vers l’éditeur de code dans Visual Studio 2012. Pour plus d’informations sur l’utilisation des handlers d’événements, voir [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
     
    Vous pouvez maintenant ajouter du code de formulaire au gestionnaire d'événements du bouton.
     
@@ -77,7 +77,7 @@ Dans l’exemple suivant, vous allez apprendre à afficher une boîte de dialogu
    ```
 
    > [!NOTE]
-   > Au lieu d'employer la méthode **Alert**, vous pouvez utiliser la méthode **MessageBox.Show** de l'espace de noms **System.Windows.Forms** pour afficher un message. Pour ce faire, vous devez ajouter une référence à l’assembly System.Windows.Forms, ajouter ou aux directives au début de votre fichier  `using System.Windows.Forms;` de code, puis taper une ligne de code telle que la suivante  `Imports System.Windows.Forms` :  `MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
+   > Au lieu d'employer la méthode **Alert**, vous pouvez utiliser la méthode **MessageBox.Show** de l'espace de noms **System.Windows.Forms** pour afficher un message. Pour ce faire, vous devez ajouter une référence au système. Windows. Assembly de formulaires, ajout ou ajout aux directives au début de votre fichier de code, puis tapez une ligne de code telle que `using System.Windows.Forms;` `Imports System.Windows.Forms` la suivante :`MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
   
 2. Basculez dans la fenêtre du mode Création d'InfoPath, puis cliquez sur le bouton **Aperçu** sous l'onglet **Accueil**. 
     
@@ -109,7 +109,7 @@ Dans l’exemple suivant, vous allez apprendre à afficher une boîte de dialogu
     
 4. Dans le menu **Débogage**, cliquez sur **Pas à pas principal** (ou appuyez sur Maj+F8 pour continuer pas à pas dans le code). 
     
-   Le code **de** la méthode Alert est exécuté et le « Hello World! » l’alerte s’affiche dans la fenêtre Aperçu **d’InfoPath.** 
+   Le code de la méthode **Alert** s'exécute et l'alerte « Hello World! » s'affiche dans la fenêtre **Aperçu** d'InfoPath. 
     
 ## <a name="getting-the-current-users-name"></a>Récupération du nom d'utilisateur actuel
 

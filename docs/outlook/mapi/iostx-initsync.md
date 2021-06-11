@@ -33,11 +33,11 @@ HRESULT InitSync(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
-> [in] Indicateurs pour déterminer le comportement approprié lors de la synchronisation. Outlook utilise ces indicateurs dans chaque état de la machine à états de réplication pour déterminer les informations qu’il doit fournir au client. Par exemple, si le client **SYNC_ONLY_ASSOCIATED,** Outlook retourne uniquement les informations relatives aux éléments associés (ou masqués). 
+> [in] Indicateurs pour déterminer le comportement approprié lors de la synchronisation. Outlook utilise ces indicateurs dans chaque état de la machine à états de réplication pour déterminer les informations qu’il doit fournir au client. Par exemple, si le client SYNC_ONLY_ASSOCIATED **,** Outlook retournera uniquement les informations relatives aux éléments associés (ou masqués). 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -32,7 +32,7 @@ Gère l’accès aux comptes et définit les notifications concernant les modifi
 |||
 |:-----|:-----|
 |[Init](iolkaccountmanager-init.md) <br/> |Initialise le gestionnaire de comptes à utiliser.  <br/> |
-|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Affiche la boîte de **dialogue Paramètres du compte** ou Ajouter un **nouveau** compte.  <br/> |
+|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Affiche la boîte de **dialogue Paramètres** compte ou Ajouter **un** nouveau compte.  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
@@ -52,7 +52,7 @@ Gère l’accès aux comptes et définit les notifications concernant les modifi
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 |[FreeMemory](iolkaccountmanager-freememory.md) <br/> |Libère la mémoire allouée par **l’interface IOlkAccountManager.**  <br/> |
 |[Conseiller](iolkaccountmanager-advise.md) <br/> |Enregistre un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.  <br/> |
-|[Unadvise](iolkaccountmanager-unadvise.md) <br/> |Désinsère un client auprès du gestionnaire de comptes pour les notifications pour tous les comptes.  <br/> |
+|[Unadvise](iolkaccountmanager-unadvise.md) <br/> |Désinsère un client auprès du gestionnaire de comptes pour les notifications de tous les comptes.  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté*  <br/> |

@@ -23,8 +23,8 @@ Détermine la position du texte de la forme par rapport à la ligne de base.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Normal  <br/> |**visPosNormal** <br/> |
-| 1   <br/> | Exposant  <br/> |**visPosSuper** <br/> |
-| 2   <br/> | Indice  <br/> |**visPosSub** <br/> |
+| 1  <br/> | Exposant  <br/> |**visPosSuper** <br/> |
+| 2  <br/> | Indice  <br/> |**visPosSub** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

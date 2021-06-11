@@ -25,7 +25,7 @@ ms.locfileid: "33416523"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ma cartographie une valeur de retour SCODE d’un objet de stockage OLE à un type HRESULT. 
+Cartes valeur de retour SCODE d’un objet de stockage OLE à un type HRESULT. 
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ SCODE MapStorageSCode(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _StgSCode_
   
@@ -59,6 +59,6 @@ MAPI_E_CALL_FAILED
 
 MAPI fournit la **fonction MapStorageSCode** pour l’utilisation interne des composants MAPI qui basent leurs implémentations de message sur la DLL de message. Étant donné que ces composants ouvrent eux-mêmes le stockage OLE, ils doivent être en mesure de maculer les valeurs d’erreur renvoyées pour les problèmes liés au stockage OLE à une valeur HRESULT. 
   
-Pour plus d’informations, voir [Stockage structuré.](structured-storage-in-mapi.md) 
+Pour plus d’informations, voir [Structured Stockage](structured-storage-in-mapi.md). 
   
 

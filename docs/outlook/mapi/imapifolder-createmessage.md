@@ -35,11 +35,11 @@ HRESULT CreateMessage(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au nouveau message. Les identificateurs d’interface valides incluent IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer et IID_IMAPIFolder. La transmission de null entraîne le fournisseur de magasin de messages à renvoyer l’interface de message standard, [IMessage : IMAPIProp](imessageimapiprop.md). 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au nouveau message. Les identificateurs d’interface valides incluent IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer et IID_IMAPIFolder. Si la valeur NULL est passé, le fournisseur de magasin de messages retourne l’interface de message [standard, IMessage : IMAPIProp](imessageimapiprop.md). 
     
  _ulFlags_
   
@@ -79,7 +79,7 @@ Pour plus d’informations sur l’emploi des informations associées, voir [Tab
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Certains fournisseurs de magasins de messages permettent que l’identificateur d’entrée du nouveau message soit disponible immédiatement après le retour de **CreateMessage** . d’autres fournisseurs de magasins de messages retardent sa disponibilité jusqu’à ce que le message soit enregistré. Étant donné que tous les fournisseurs de magasins de messages ne génèrent pas d’identificateur d’entrée pour un nouveau message tant que vous n’avez pas appelé la méthode **IMAPIProp::SaveChanges** du message, il se peut que vous ne soyez pas en mesure d’accéder à l’identificateur d’entrée lorsque **CreateMessage** est de retour. En outre, le nouveau message peut ne pas être inclus dans la table des matières du dossier tant que l’opération d’enregistrer n’a pas eu lieu. 
+Certains fournisseurs de magasins de messages permettent à l’identificateur d’entrée du nouveau message d’être disponible immédiatement après le retour de **CreateMessage** . d’autres fournisseurs de magasins de messages retardent sa disponibilité jusqu’à ce que le message soit enregistré. Étant donné que tous les fournisseurs de magasins de messages ne génèrent pas d’identificateur d’entrée pour un nouveau message tant que vous n’avez pas appelé la méthode **IMAPIProp::SaveChanges** du message, il se peut que vous ne soyez pas en mesure d’accéder à l’identificateur d’entrée lors du retour de **CreateMessage.** En outre, le nouveau message peut ne pas être inclus dans la table des matières du dossier tant que l’opération d’enregistrer n’a pas eu lieu. 
   
 Attendez-vous à ce que l’identificateur d’entrée affecté au nouveau message soit unique non seulement dans la boutique de messages actuelle, mais probablement dans toutes les magasins de messages ouverts en même temps. Une exception à cette règle se produit lorsque plusieurs entrées d’une magasin de messages apparaissent dans le profil. Cela entraîne l’ouverture multiple de la magasin de messages et la duplication des identificateurs d’entrée. 
   

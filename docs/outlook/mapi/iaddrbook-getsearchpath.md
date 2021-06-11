@@ -34,7 +34,7 @@ HRESULT GetSearchPath(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -56,11 +56,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent la **méthode GetSearchPath** pour obtenir le chemin de recherche utilisé pour résoudre les noms avec la **méthode ResolveName.** En règle générale, les clients appellent la méthode [IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md) pour établir un chemin de recherche de conteneur dans le profil avant d’appeler **GetSearchPath** pour le récupérer. Toutefois, **l’appel de SetSearchPath est** facultatif. 
+Les clients et les fournisseurs de services appellent la **méthode GetSearchPath** pour obtenir le chemin de recherche utilisé pour résoudre les noms avec **la méthode ResolveName.** En règle générale, les clients appellent la méthode [IAddrBook::SetSearchPath](iaddrbook-setsearchpath.md) pour établir un chemin de recherche de conteneur dans le profil avant d’appeler **GetSearchPath** pour le récupérer. Toutefois, **l’appel de SetSearchPath** est facultatif. 
   
 Si **SetSearchPath n’a** jamais été appelé, **GetSearchPath** crée un chemin d’accès en passant par les tables hiérarchiques du carnet d’adresses. Le chemin de recherche par défaut établi par **GetSearchPath** se compose des conteneurs suivants dans l’ordre suivant : 
   
-1. Premier conteneur avec autorisation de lecture/écriture, généralement le carnet d’adresses personnel (PAB).
+1. Premier conteneur avec autorisation de lecture/écriture, généralement le carnet d’adresses personnel .
     
 2. Chaque conteneur dont la propriété **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) est définie sur DT_GLOBAL. Ce paramètre indique que le conteneur contient des destinataires. 
     

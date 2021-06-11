@@ -47,7 +47,7 @@ struct FEID
     
  _espace réservé_
   
-> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge.
+> Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge.
     
  _ltid_
   

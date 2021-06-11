@@ -234,7 +234,7 @@ Les propriétés suivantes sont exposées par les objets store et sont utilisée
 ## <a name="see-also"></a>Voir aussi
 
 - [Accès à une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
-- [Détecter la version d’Exchange Server dans un profil Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [Détecter la version d’Exchange Server dans un profil Outlook client](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
 - [Ouvrir une banque sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [Gérer un message dans un fichier OST sans appeler de synchronisation en mode Exchange mis en cache](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

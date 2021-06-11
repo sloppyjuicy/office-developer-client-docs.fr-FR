@@ -38,7 +38,7 @@ Indique l’expéditeur d’origine du message pour les messages qui demandent d
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

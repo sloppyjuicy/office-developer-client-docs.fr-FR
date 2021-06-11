@@ -24,7 +24,7 @@ Utilisé pour renvoyer le résultat d’une fonction asynchrone définie par l�
 Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12 pxFunctionResult);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxAsyncHandle_ (**xltypeBigData**)
   
@@ -40,9 +40,9 @@ Si elle réussit, renvoie **TRUE** (**xltypeBool**). En cas d’échec, renvoie 
   
 ## <a name="remarks"></a>Remarques
 
-**xlAsyncReturn** est le seul rappel qu’Excel autorise sur les threads sans calcul pendant le recalcul. La partie asynchrone d’une UDF asynchrone ne doit effectuer aucun rappel autre que **xlAsyncReturn**. Le XLL doit libérer de la mémoire allouée pour contenir la valeur de retour.
+**xlAsyncReturn** est le seul rappel Excel threads non de calcul lors du recalcul. La partie asynchrone d’une UDF asynchrone ne doit effectuer aucun rappel autre que **xlAsyncReturn**. Le XLL doit libérer de la mémoire allouée pour contenir la valeur de retour.
   
-Les _paramètres pxAsyncHandle_ et  _pxFunctionResult_ peuvent également être de type **xltypeMulti** lorsqu’ils sont utilisés pour renvoyer un tableau de handles et de valeurs correspondantes dans un rappel unique. Lorsque vous utilisez un rappel unique, passez un LPXLOPER12 qui pointe vers des structures XLOPER12 qui contiennent des tableaux à une dimension qui contiennent les poignées asynchrones et les valeurs de retour. Ces tableaux doivent être dans le même ordre pour qu’Excel corresponde correctement à un handle asynchrone avec sa valeur correspondante. 
+Les paramètres _pxAsyncHandle_ et  _pxFunctionResult_ peuvent également être de type **xltypeMulti** lorsqu’ils sont utilisés pour renvoyer un tableau de handles et de valeurs correspondantes dans un rappel unique. Lorsque vous utilisez un rappel unique, passez un LPXLOPER12 qui pointe vers des structures XLOPER12 qui contiennent des tableaux à une dimension qui contiennent les poignées asynchrones et les valeurs de retour. Ces tableaux doivent être dans le même ordre pour que les Excel correspondent correctement à un handle asynchrone avec sa valeur correspondante. 
   
 L’exemple suivant montre comment effectuer un appel par lots à l’aide **de xlAsyncReturn**.
   

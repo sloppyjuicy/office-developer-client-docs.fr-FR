@@ -23,8 +23,8 @@ Détermine la direction des déviations de trait pour les connecteurs dynamiques
 |**Valeur**|**Direction du saut de ligne**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Par défaut ; vers le haut ou paramètres de la page pour les formes  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1   <br/> | À gauche  <br/> |**visLOJumpDirYLeft** <br/> |
-| 2   <br/> | À droite  <br/> |**visLOJumpDirYRight** <br/> |
+| 1  <br/> | À gauche  <br/> |**visLOJumpDirYLeft** <br/> |
+| 2  <br/> | À droite  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -32,7 +32,7 @@ Pour obtenir une référence à la cellule PageLineJumpDirY par un nom à partir
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | PageLineJumpDirY  <br/> |
+| Nom de la cellule :  <br/> | PageLineJumpDiry  <br/> |
    
 Pour obtenir une référence à la cellule PageLineJumpDirY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

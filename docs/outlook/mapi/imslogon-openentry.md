@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -50,7 +50,7 @@ HRESULT OpenEntry(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet. Le passage de null indique que l’objet est casté vers l’interface standard pour un tel objet. Le  _paramètre lpInterface peut_ également être définie sur un identificateur pour une interface appropriée pour l’objet. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet. Le passage de null indique que l’objet est casté vers l’interface standard pour un tel objet. Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface appropriée pour l’objet. 
     
  _ulOpenFlags_
   
@@ -88,7 +88,7 @@ MAPI appelle la **méthode IMSLogon::OpenEntry** pour ouvrir un dossier ou un me
   
 Avant que MAPI appelle **IMSLogon::OpenEntry,** il détermine d’abord que l’identificateur d’entrée de message ou de dossier donné correspond à un identificateur enregistré par ce fournisseur de magasin de messages. Pour plus d’informations sur la façon dont les fournisseurs de magasins enregistrent les identificateurs d’entrée, voir [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).
   
- **IMSLogon::OpenEntry** est identique à la méthode [IMsgStore::OpenEntry](imsgstore-openentry.md) de l’objet de magasin de messages, sauf que le client n’appelle pas **IMSLogon::OpenEntry**; MAPI appelle **IMSLogon::OpenEntry** lorsqu’il traite une **méthode IMAPISession::OpenEntry.** Les objets ouverts à l’aide **d’IMSLogon::OpenEntry** doivent être traités exactement de la même manière que les objets ouverts à l’aide de l’objet de la boutique de messages . en particulier, les objets ouverts à l’aide de cet appel doivent être invalidés lorsque l’objet de la boutique de messages est libéré. 
+ **IMSLogon::OpenEntry** est identique à la méthode [IMsgStore::OpenEntry](imsgstore-openentry.md) de l’objet de magasin de messages, sauf que le client n’appelle pas **IMSLogon::OpenEntry**; MAPI appelle **IMSLogon::OpenEntry** lorsqu’il traite une méthode **IMAPISession::OpenEntry.** Les objets ouverts à l’aide **d’IMSLogon::OpenEntry** doivent être traités exactement de la même manière que les objets ouverts à l’aide de l’objet de la boutique de messages . en particulier, les objets ouverts à l’aide de cet appel doivent être invalidés lorsque l’objet de la boutique de messages est libéré. 
   
 ## <a name="see-also"></a>Voir aussi
 

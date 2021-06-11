@@ -22,7 +22,7 @@ ms.locfileid: "33413758"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Ajouté par Microsoft Excel chaque fois que l’utilisateur active le XLL au cours d’une session Excel à l’aide Add-In Manager. Cette fonction n’est pas appelée lorsque Excel démarre et charge un module préinstallé.
+Ajouté par le Microsoft Excel chaque fois que l’utilisateur active le XLL au cours d’une session Excel à l’aide Add-In manager. Cette fonction n’est pas appelée lorsque Excel démarre et charge un module préinstallé.
   
 Cette fonction permet d’afficher une boîte de dialogue personnalisée qui indique à l’utilisateur que le module complémentaire a été activé, de lire ou d’écrire dans le Registre, ou de vérifier les informations de licence, par exemple.
   

@@ -36,11 +36,11 @@ Calcule le nombre d’octets dans une structure [SMessageClassArray](smessagecla
 CbMessageClassArray (_c)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ _c_
   
-> Nombre de pointeurs vers les classes de message incluses dans **l’array SMessageClassArray existant.**
+> Nombre de pointeurs vers les classes de message qui sont incluses dans **l’existant SMessageClassArray**.
     
 ## <a name="see-also"></a>Voir aussi
 

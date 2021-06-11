@@ -21,7 +21,7 @@ ms.locfileid: "33413429"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La MAPIOFFLINE_NOTIFY_TYPE d’une notification indique si un changement d’état de connexion va avoir lieu, est en cours ou est terminé. 
+La MAPIOFFLINE_NOTIFY_TYPE d’une notification identifie si un changement d’état de connexion va avoir lieu, est en cours ou est terminé. 
   
 ## <a name="quick-info"></a>Informations rapides
 

@@ -23,7 +23,7 @@ Détermine le motif de trait d'une forme. La valeur entrée dans la cellule Line
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun motif de trait  <br/> |
-|1   <br/> |Solid  <br/> |
+|1  <br/> |Solid  <br/> |
 |2 - 23  <br/> |Motifs de trait assortis  <br/> |
    
 ## <a name="remarks"></a>Remarques

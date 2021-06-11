@@ -22,9 +22,9 @@ Détermine la couleur de thème que l’ombre d’une forme utilise, sous la for
 |:-----|:-----|
 |Valeur  <br/> |Description  <br/> |
 |0  <br/> |La couleur d’ombre de forme hérite de la couleur de thème Foncé.  <br/> |
-|1   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Clair.  <br/> |
-|2   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 1.  <br/> |
-|3   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 2.  <br/> |
+|1  <br/> |La couleur de l’ombre de la forme hérite de la couleur de thème Clair.  <br/> |
+|2  <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 1.  <br/> |
+|3  <br/> |La couleur de l’ombre de la forme hérite de la couleur de thème Accent 2.  <br/> |
 |4   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 3.  <br/> |
 |5   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 4.  <br/> |
 |6   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 5.  <br/> |

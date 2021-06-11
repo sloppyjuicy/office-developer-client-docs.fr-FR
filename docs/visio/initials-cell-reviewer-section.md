@@ -22,7 +22,7 @@ Contient les initiales du réviseur d’un document.
   
 ## <a name="remarks"></a>Remarques
 
-Cette valeur est par défaut les initiales  de la zone **Initiales** de l’onglet Général de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, cliquez sur  **Options,** puis sur **Général).** 
+Cette valeur est par défaut les initiales  de la zone **Initiales** de l’onglet  Général de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, cliquez sur **Options,** puis sur **Général).** 
   
 Pour obtenir une référence à la cellule Initials par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

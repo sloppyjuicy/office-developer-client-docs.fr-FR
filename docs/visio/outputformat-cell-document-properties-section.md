@@ -23,8 +23,8 @@ Détermine le format de sortie d'un dessin. Les pages de dessin sont généralem
 |**Valeur**|**Format de sortie**|
 |:-----|:-----|
 | 0  <br/> | Impression (par défaut)  <br/> |
-| 1   <br/> | Diaporama PowerPoint  <br/> |
-| 2   <br/> | Sortie HTML ou GIF  <br/> |
+| 1  <br/> | Diaporama PowerPoint  <br/> |
+| 2  <br/> | Sortie HTML ou GIF  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

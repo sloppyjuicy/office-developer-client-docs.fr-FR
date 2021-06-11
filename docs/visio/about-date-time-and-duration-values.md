@@ -51,7 +51,7 @@ Pour utiliser des dates et des heures dans une expression (plutôt qu'une consta
 |[NOW](now-function-visioshapesheet.md) <br/> | Renvoie la date système actuelle sous forme de valeur de date et d'heure.  <br/> |
 |[TIME](time-function-visioshapesheet.md) <br/> | Convertit un nombre en valeur d'heure.  <br/> |
 |[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | Convertit une chaîne en valeur d'heure.  <br/> |
-|[DAY](day-function-visioshapesheet.md) <br/> | Renvoie le jour d'une expression de date et d'heure.  <br/> |
+|[JOUR](day-function-visioshapesheet.md) <br/> | Renvoie le jour d'une expression de date et d'heure.  <br/> |
 |[DAYOFYEAR](dayofyear-function.md) <br/> | Renvoie le jour de l'année d'une expression de date et d'heure.  <br/> |
 |[HEURE](hour-function-visioshapesheet.md) <br/> | Renvoie l'heure d'une expression de date et d'heure.  <br/> |
 |[MINUTE](minute-function-visioshapesheet.md) <br/> | Renvoie les minutes d'une expression de date et d'heure.  <br/> |
@@ -60,7 +60,7 @@ Pour utiliser des dates et des heures dans une expression (plutôt qu'une consta
 |[WEEKDAY](weekday-function-visioshapesheet.md) <br/> | Renvoie le numéro du jour de la semaine d'une expression de date et d'heure.  <br/> |
 |[YEAR](year-function-visioshapesheet.md) <br/> | Renvoie l'année d'une expression de date et d'heure.  <br/> |
    
-## <a name="duration"></a>Duration
+## <a name="duration"></a>Durée
 
 Vous pouvez effectuer des opérations permettant de calculer une durée ou un temps écoulé. La durée est enregistrée en interne sous forme de jours et de fractions de jour. Par exemple, 1 semaine, 7 jours et 168 heures écoulés sont tous représentés par le nombre 7,0 mais s'affichent avec les unités appropriées.
   

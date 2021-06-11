@@ -26,7 +26,7 @@ Prend en charge le rebasing des rendez-vous dans un dossier de calendrier.
 |Fichier d’en-tête :  <br/> |tzmovelib.h  <br/> |
 |Implémenté par :  <br/> |tzmovelib.dll  <br/> |
 |Appelé par :  <br/> |Applications clientes MAPI  <br/> |
-|Exposé sur :  <br/> |Objet rebasing Outlook  <br/> |
+|Exposé sur :  <br/> |Outlook de rebasing  <br/> |
    
 ## <a name="vtable-order"></a>Ordre des vtables
 
@@ -34,7 +34,7 @@ Prend en charge le rebasing des rendez-vous dans un dossier de calendrier.
 |:-----|:-----|
 |**[BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Commence une tâche pour l'énumération de rendez-vous dans un dossier de calendrier pour rechercher les rendez-vous qui ont besoin de relocalisation.  <br/> |
 |**[EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md)** <br/> |Attend pour l'énumération de rendez-vous dans un dossier de calendrier pour terminer et renvoie une liste de rendez-vous à cette nécessité la relocalisation.  <br/> |
-|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Commence une tâche pour le rebasing de rendez-vous étant donné une liste de rendez-vous, généralement obtenue à partir de **EndEnumerateAppointments**.  <br/> |
+|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Commence une tâche pour le rebasing de rendez-vous, en fonction d’une liste de rendez-vous, généralement obtenue à partir de **EndEnumerateAppointments**.  <br/> |
 |**[EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)** <br/> |Attend des rendez-vous pour terminer la relocalisation et récupère les résultats.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

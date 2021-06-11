@@ -25,7 +25,7 @@ Une application cliente MAPI est toute application qui utilise l’interface de 
   
 Les activités de messagerie peuvent inclure, par exemple,  une application de traitement de texte qui possède une commande Envoyer dans son **menu** Fichier pour permettre l’envoi de documents, la messagerie Microsoft Office Outlook, les programmes d’automatisation du flux de travail et les services de tableaux d’affichage. 
   
-Les applications clientes peuvent inclure l’utilisateur pour créer un environnement interactif ou fonctionner sans utilisateur dans un environnement automatisé. Bien que MAPI fournit un ensemble de boîtes de dialogue communes avec son interface utilisateur standard, les applications clientes ne sont pas requises pour présenter une interface utilisateur. En fait, tout le traitement peut être géré dans l’application, si vous le souhaitez. Par exemple, une application cliente automatisée serait une application de gestion des stocks programmée pour router régulièrement des éléments d’un type particulier vers des destinataires standard.
+Les applications clientes peuvent inclure l’utilisateur pour créer un environnement interactif ou fonctionner sans utilisateur dans un environnement automatisé. Bien que MAPI fournit un ensemble de boîtes de dialogue courantes avec son interface utilisateur standard, les applications clientes ne sont pas requises pour présenter une interface utilisateur. En fait, tout le traitement peut être géré dans l’application, si vous le souhaitez. Par exemple, une application cliente automatisée serait une application de gestion d’inventaire programmée pour router régulièrement des éléments d’un type particulier vers des destinataires standard.
   
 ## <a name="see-also"></a>Voir aussi
 

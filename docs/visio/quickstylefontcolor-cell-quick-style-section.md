@@ -22,7 +22,7 @@ Détermine la couleur de police des styles rapides dont le texte d’une forme h
 |:-----|:-----|
 |Valeur  <br/> |Description  <br/> |
 |0  <br/> |Le texte de la forme utilise la couleur de police Foncé.  <br/> |
-|1   <br/> |Le texte de la forme utilise la couleur de police Light.  <br/> |
+|1  <br/> |Le texte de la forme utilise la couleur de police Light.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

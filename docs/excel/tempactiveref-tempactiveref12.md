@@ -8,7 +8,7 @@ f1_keywords:
 - TempActiveRef
 - TempActiveRef12
 keywords:
-- fonction tempactiveref [excel 2007],Fonction TempActiveRef12 [Excel 2007]
+- fonction tempactiveref [excel 2007],TempActiveRef12 function [Excel 2007]
 localization_priority: Normal
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -30,7 +30,7 @@ LPXLOPER TempActiveRef(WORD rwFirst, WORD rwLast, BYTE colFirst, BYTE colLast);
 LPXLOPER12 TempActiveRef12(ROW rwFirst, ROW rwLast, COL colFirst, COL colLast);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _rwFirst_
   
@@ -40,7 +40,7 @@ Ligne de début de la référence.
   
 Ligne de fin de la référence.
   
-Les arguments de ligne sont basés sur zéro afin que la ligne 1 soit passée en tant que 0. Dans Microsoft Office Excel 2003 et versions antérieures, et à partir d’Excel 2007 exécutant un livre de calcul en mode de compatibilité, la valeur maximale est 65 535 = 2^16 - 1 et est la valeur maximale qui peut être prise par un nombre total WORD. À partir d’Excel 2007 exécutant un workbook, la valeur maximale est 1 048 575 = 2^20 - 1. RW est défini comme un integer signé 32 bits dans XLCALL.H.
+Les arguments de ligne sont basés sur zéro afin que la ligne 1 soit passée en tant que 0. Dans Microsoft Office Excel 2003 et versions antérieures, et à partir de Excel 2007 exécutant un livre de travail en mode de compatibilité, la valeur maximale est 65 535 = 2^16 - 1 et est la valeur maximale qui peut être prise par un nombre total WORD. À compter Excel 2007 exécutant un manuel, la valeur maximale est 1 048 575 = 2^20 - 1. RW est défini comme un integer signé 32 bits dans XLCALL.H.
   
  _colFirst_
   
@@ -50,7 +50,7 @@ Numéro de colonne de début de la référence.
   
 Numéro de colonne de fin de la référence.
   
-Les arguments de colonne sont basés sur zéro afin que la colonne A soit passée sous la valeur 0. Dans Excel 2003 et versions antérieures, et à partir d’Excel 2007 exécutant un workbook en mode de compatibilité, la valeur maximale est 255 = 2^8 - 1 et est la valeur maximale qui peut être prise par un nombre d’nombres byTE. À partir d’Excel 2007 exécutant un workbook, la valeur maximale est 16 383 = 2^14 - 1. Col est défini comme un integer signé 32 bits dans XLCALL.H.
+Les arguments de colonne sont basés sur zéro afin que la colonne A soit passée sous la valeur 0. Dans Excel 2003 et versions antérieures, et à partir de Excel 2007 exécutant un livre de travail en mode de compatibilité, la valeur maximale est 255 = 2^8 - 1 et est la valeur maximale qui peut être prise par un nombre d’nombres byTE. À partir Excel 2007 exécutant un manuel, la valeur maximale est 16 383 = 2^14 - 1. Col est défini comme un integer signé 32 bits dans XLCALL.H.
   
 ## <a name="return-value"></a>Valeur renvoyée
 

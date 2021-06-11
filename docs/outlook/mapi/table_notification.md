@@ -65,7 +65,7 @@ TABLE_ERROR
     
 TABLE_RELOAD 
   
-> Les données de la table doivent être rechargées. Les fournisseurs de services TABLE_RELOAD lorsque, par exemple, les données sous-jacentes sont stockées dans une base de données et que la base de données est remplacée. Gérer cet événement en supposant que rien sur la table n’est toujours valide et en relisant le tableau. Tous les signets, les clés d’instance, les informations d’état et de positionnement ne sont pas valides.
+> Les données de la table doivent être rechargées. Les fournisseurs de services TABLE_RELOAD lorsque, par exemple, les données sous-jacentes sont stockées dans une base de données et que la base de données est remplacée. Gérer cet événement en supposant que rien sur le tableau n’est toujours valide et en relisant le tableau. Tous les signets, les clés d’instance, les informations d’état et de positionnement ne sont pas valides.
     
 TABLE_RESTRICT_DONE 
   
@@ -111,7 +111,7 @@ TABLE_SORT_DONE
     
 ## <a name="remarks"></a>Remarques
 
-La **structure \_ DE NOTIFICATION** TABLE est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Le **membre d’informations** inclut une structure **DE \_ NOTIFICATION DE TABLE** lorsque le membre **ulEventType** de la structure est définie sur  _fnevTableModified_.
+La **structure DE NOTIFICATION \_ TABLE** est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Le **membre d’informations** inclut une structure **DE \_ NOTIFICATION DE TABLE** lorsque le membre **ulEventType** de la structure est définie sur  _fnevTableModified_.
   
 L’ordre et le type des colonnes dans le membre de ligne reflètent l’ordre et le type en vigueur au moment où la notification a été générée. La commande et le type au moment où la notification a été générée ne sont pas nécessairement les mêmes que lors de la livraison de la notification. 
   

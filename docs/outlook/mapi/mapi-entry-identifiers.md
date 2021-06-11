@@ -25,7 +25,7 @@ Les identificateurs d’entrée sont des éléments de données binaires stocké
   
 ## <a name="entry-identifiers"></a>Identificateurs d’entrée
 
-Les fournisseurs de magasins de messages affectent des identificateurs d’entrée aux magasins de messages, aux dossiers et aux messages ; Les fournisseurs de carnets d’adresses les affectent à des conteneurs de carnet d’adresses, à des listes de distribution et à des utilisateurs de messagerie. Les identificateurs d’entrée sont également utilisés pour ouvrir un objet représenté par une ligne dans une table, tel qu’un objet d’état dans la table d’état. Les objets stockent leurs identificateurs d’entrée dans **PR_ENTRYID** propriété ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
+Les fournisseurs de magasins de messages attribuent des identificateurs d’entrée aux magasins de messages, aux dossiers et aux messages ; Les fournisseurs de carnets d’adresses les affectent à des conteneurs de carnet d’adresses, à des listes de distribution et à des utilisateurs de messagerie. Les identificateurs d’entrée sont également utilisés pour ouvrir un objet représenté par une ligne dans une table, tel qu’un objet d’état dans la table d’état. Les objets stockent leurs identificateurs d’entrée dans **PR_ENTRYID** propriété ([PidTagEntryId](pidtagentryid-canonical-property.md)). 
   
 Tandis que les fournisseurs de services créent, affectent et examinent les identificateurs d’entrée, les applications clientes les utilisent uniquement comme outils pour ouvrir des objets. Pour les clients, les identificateurs d’entrée sont des éléments opaques de données binaires et n’ont rien à voir avec le système de messagerie sous-jacent. 
   

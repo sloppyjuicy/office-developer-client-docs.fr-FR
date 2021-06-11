@@ -39,7 +39,7 @@ HRESULT MAPIInitialize(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMapiInit_
   
@@ -55,7 +55,7 @@ S_OK
 
 La **fonction MAPIInitialize** incrémente le nombre de références MAPI pour le sous-système MAPI, et la fonction [MAPIUninitialize](mapiuninitialize.md) décrémente le nombre de références internes. Par conséquent, le nombre d’appels à une fonction doit être égal au nombre d’appels à l’autre. **MAPIInitialize** renvoie S_OK si MAPI n’a pas été initialisé précédemment. 
   
-Un client ou un fournisseur de services doit appeler **MAPIInitialize** avant d’effectuer tout autre appel MAPI. Si vous ne le faites pas, les appels du client ou du fournisseur de services retournent la MAPI_E_NOT_INITIALIZED valeur. 
+Un client ou un fournisseur de services doit appeler **MAPIInitialize avant** d’effectuer tout autre appel MAPI. Si vous ne le faites pas, les appels du client ou du fournisseur de services retournent la MAPI_E_NOT_INITIALIZED valeur. 
   
 Lorsque vous appelez **MAPIInitialize** à partir d’une application multithread, définissez le paramètre  _lpMapiInit_ sur une structure [MAPIINIT_0](mapiinit_0.md) déclarée comme suit : 
   
@@ -65,12 +65,12 @@ et appelez :
   
  **MAPIInitialize** ( &amp; MAPIINIT) ; 
   
-Lorsque cette structure est déclarée, MAPI crée un thread distinct pour gérer la fenêtre de notification, qui se poursuit jusqu’à ce que le nombre de références d’initialisation tombe à zéro. Un service Windows doit définir le membre **lags** de la structure **MAPIINIT_0** pointée par  _lpMapiInit_ sur MAPI_NT_SERVICE. 
+Lorsque cette structure est déclarée, MAPI crée un thread distinct pour gérer la fenêtre de notification, qui se poursuit jusqu’à ce que le nombre de références d’initialisation tombe à zéro. Un service Windows doit définir le membre **lags** de la structure **MAPIINIT_0** pointée par _lpMapiInit_ sur MAPI_NT_SERVICE. 
   
 > [!NOTE]
 > Vous ne pouvez pas appeler **MAPIInitialize** ou **MAPIUninitialize** à partir d’une fonction **Win32 DllMain** ou toute autre fonction qui crée ou termine des threads. Pour plus d’informations, [voir Using Thread-Safe Objects](using-thread-safe-objects.md). 
   
- **MAPIInitialize ne** retourne aucune information d’erreur étendue. Contrairement à la plupart des autres appels MAPI, les significations de ses valeurs de retour sont strictement définies pour correspondre à l’étape particulière de l’initialisation qui a échoué : 
+ **MAPIInitialize ne retourne** aucune information d’erreur étendue. Contrairement à la plupart des autres appels MAPI, les significations de ses valeurs de retour sont strictement définies pour correspondre à l’étape particulière de l’initialisation qui a échoué : 
   
 1. Vérifie les paramètres et les indicateurs.
     
@@ -78,7 +78,7 @@ Lorsque cette structure est déclarée, MAPI crée un thread distinct pour gére
     
 2. Initialise les clés de Registre requises par MAPI et confirme le type de système d’exploitation. Cette étape se produit uniquement si le processus client s’exécute en tant que service sous Windows et définit l’indicateur MAPI_NT SERVICE dans la structure **MAPIINIT_0** client. 
     
-    MAPI_E_TOO_COMPLEX. Le processus d’appel est un service Windows et les clés de Registre requises par MAPI n’ont pas pu être initialisées. 
+    MAPI_E_TOO_COMPLEX. Le processus appelant est un service Windows et les clés de Registre requises par MAPI n’ont pas pu être initialisées. 
     
     Des informations supplémentaires peuvent être disponibles dans le journal des événements de l’application.
     
@@ -106,7 +106,7 @@ Lorsque cette structure est déclarée, MAPI crée un thread distinct pour gére
     
 7. Charge et initialise le fournisseur de profils. Vérifie que **MAPIInitialize** peut accéder à la clé de Registre dans laquelle les données de profil sont stockées. 
     
-    MAPI_E_NOT_INITIALIZED. Le fournisseur de profils a rencontré une erreur. 
+    MAPI_E_NOT_INITIALIZED. Le fournisseur de profil a rencontré une erreur. 
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

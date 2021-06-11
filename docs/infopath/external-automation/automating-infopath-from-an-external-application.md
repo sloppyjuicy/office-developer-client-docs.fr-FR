@@ -35,10 +35,10 @@ La collection **XDocuments** contient les méthodes suivantes qui peuvent être 
 |Méthode **Close**  <br/> |Ferme le formulaire InfoPath Microsoft Office spécifié.  <br/> |
 |**Nouvelle** méthode  <br/> |Crée une nouvelle Microsoft Office formulaire InfoPath.  <br/> |
 |**Méthode NewFromSolution**  <br/> |Crée un nouveau Microsoft Office Formulaire InfoPath basé sur le modèle de formulaire spécifié.  <br/> |
-|**Méthode NewFromSolutionWithData**  <br/> |Crée une nouvelle Microsoft Office Formulaire InfoPath à l’aide des données XML et du modèle de formulaire spécifiés.  <br/> |
-|**Open,** méthode  <br/> |Ouvre le formulaire InfoPath Microsoft Office spécifié.  <br/> |
+|**Méthode NewFromSolutionWithData**  <br/> |Crée une nouvelle Microsoft Office formulaire InfoPath à l’aide des données XML et du modèle de formulaire spécifiés.  <br/> |
+|**Méthode Open**  <br/> |Ouvre le formulaire InfoPath Microsoft Office spécifié.  <br/> |
    
-Pour utiliser l’objet **Application** d’une application externe, utilisez la fonction **CreateObject** avec le ProgID de l’application InfoPath (« InfoPath.Application ») pour créer une variable objet qui représente l’application InfoPath. Vous pouvez ensuite utiliser la **propriété XDocuments** pour accéder à la collection **XDocuments** et utiliser ses méthodes pour ouvrir ou créer un formulaire InfoPath. L’exemple suivant illustre la création d’une référence à l’objet **Application** à l’aide du langage de programmation Microsoft Visual Basic 6.0 ou Visual Basic pour Applications (VBA) : 
+Pour utiliser l’objet **Application** à partir d’une application externe, utilisez la fonction **CreateObject** avec le ProgID de l’application InfoPath (« InfoPath.Application ») pour créer une variable objet qui représente l’application InfoPath. Vous pouvez ensuite utiliser la **propriété XDocuments** pour accéder à la collection **XDocuments** et utiliser ses méthodes pour ouvrir ou créer un formulaire InfoPath. L’exemple suivant illustre la création d’une référence à l’objet **Application** à l’aide du langage de programmation Microsoft Visual Basic 6.0 ou Visual Basic pour Applications (VBA) : 
   
 ```vb
 Dim objIP As Object 
@@ -54,6 +54,6 @@ objIP.XDocuments.NewFromSolution ("C:\MyFolder\MyForm.xsn")
 ```
 
 > [!NOTE]
-> Étant donné que **la fonction CreateObject** crée une variable objet à l’aide de la liaison tardive, l’achèvement automatique de l’instruction ne sera pas disponible dans l’éditeur Visual Basic. Reportez-vous aux liens des tableaux précédents pour plus d’informations sur la syntaxe d’appel correcte. 
+> Étant donné que **la fonction CreateObject** crée une variable objet à l’aide de la liaison tardive, l’achèvement automatique des instructions ne sera pas disponible dans l’éditeur Visual Basic. Reportez-vous aux liens des tableaux précédents pour plus d’informations sur la syntaxe d’appel correcte. 
   
 

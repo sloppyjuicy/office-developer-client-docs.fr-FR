@@ -25,6 +25,6 @@ Les passerelles et les transports qui se connectent à des systèmes Internet, c
   
 La valeur de l’en-tête MessageID du message sortant doit être copiée dans la propriété **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) et codée dans l’attribut [attMAPIProps](attmapiprops.md) du flux TNEF. Notez **que PR_TNEF_CORRELATION_KEY** est une propriété binaire, tandis que MessageID est une chaîne ; le terminateur null doit être inclus dans la copie et dans la comparaison. 
   
-Cette technique est utilisée par tous les logiciels Microsoft qui connectent des systèmes de messagerie MAPI à Internet, tels que Microsoft Exchange Server. Cette technique doit être utilisée par les passerelles et les transports SMTP qui se connectent aux systèmes qui prendre en charge les clients MAPI afin d’optimiser l’interopérabilité.
+Cette technique est utilisée par tous les logiciels Microsoft qui connectent des systèmes de messagerie MAPI à Internet, tels que Microsoft Exchange Server. Cette technique doit être utilisée par les passerelles smTP et les transports qui se connectent aux systèmes qui prendre en charge les clients MAPI afin d’optimiser l’interopérabilité.
   
 

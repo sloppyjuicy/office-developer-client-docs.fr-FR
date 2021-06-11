@@ -25,7 +25,7 @@ ms.locfileid: "33416131"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le nom complet d’un conteneur de formulaires.
+Renvoie le nom complet d’un conteneur de formulaire.
   
 ```cpp
 HRESULT GetDisplay(
@@ -34,7 +34,7 @@ HRESULT GetDisplay(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   

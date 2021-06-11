@@ -36,7 +36,7 @@ HRESULT GetProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpPropTagArray_
   
@@ -48,7 +48,7 @@ HRESULT GetProps(
     
 MAPI_UNICODE 
   
-> Les valeurs de chaîne pour ces propriétés doivent être renvoyées au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les valeurs de chaîne doivent être renvoyées au format ANSI.
+> Les valeurs de chaîne de ces propriétés doivent être renvoyées au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les valeurs de chaîne doivent être renvoyées au format ANSI.
     
  _lpcValues_
   
@@ -70,13 +70,13 @@ MAPI_W_ERRORS_RETURNED
     
 MAPI_E_INVALID_PARAMETER 
   
-> Zéro a été transmis dans le membre **cValues** de la structure **SPropTagArray** pointée vers  _lpPropTagArray_.
+> Zéro a été transmis dans le membre **cValues** de la structure **SPropTagArray** pointée par  _lpPropTagArray_.
     
 ## <a name="remarks"></a>Remarques
 
 La **méthode IMAPIProp::GetProps** obtient les valeurs de propriété d’une ou plusieurs propriétés d’un objet. 
   
-Les valeurs des propriétés sont renvoyées dans le même ordre que celui demandé (autrement dit, l’ordre des propriétés dans le tableau de balises de propriétés pointé par  _lpPropTagArray_ correspond à l’ordre dans le tableau des structures de valeurs de propriétés pointées par  _lppPropArray_). 
+Les valeurs des propriétés sont renvoyées dans le même ordre que celui demandé (autrement dit, l’ordre des propriétés dans le tableau de balises de propriétés pointés par  _lpPropTagArray_ correspond à l’ordre dans le tableau des structures de valeurs de propriétés pointées par  _lppPropArray_). 
   
 Les types de propriété spécifiés dans les membres **aulPropTag** du tableau de balises de propriété indiquent le type de valeur qui doit être renvoyé dans le membre **Value** de chaque structure de valeurs de propriété. Toutefois, si l’appelant ne connaît pas le type d’une propriété, le type dans le membre **aulPropTag** peut être définie à la place sur PT_UNSPECIFIED. Lors de la récupération de la valeur, **GetProps** définit le type correct dans le membre **aulPropTag** de la structure de valeurs de propriété pour la propriété. 
   
@@ -86,9 +86,9 @@ Les propriétés de chaîne peuvent avoir l’un des deux types de propriétés 
   
 - Le  _paramètre lpPropTagArray_ est définie sur NULL pour demander toutes les propriétés. 
     
-- Le **membre aulPropTag** inclut la valeur PT_UNSPECIFIED comme type de propriété dans le tableau de balises de propriétés. 
+- Le **membre aulPropTag inclut** la valeur PT_UNSPECIFIED comme type de propriété dans le tableau de balises de propriétés. 
     
-Si le  _paramètre lpPropTagArray_ a la valeur NULL pour récupérer toutes les propriétés de l’objet et qu’il n’existe aucune propriété, **GetProps** : 
+Si le  _paramètre lpPropTagArray_ est définie sur NULL pour récupérer toutes les propriétés de l’objet et qu’il n’existe aucune propriété, **GetProps** : 
   
 - Renvoie S_OK.
     
@@ -102,13 +102,13 @@ Si le  _paramètre lpPropTagArray_ a la valeur NULL pour récupérer toutes les 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Appelez la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) pour allouer initialement de la mémoire pour la structure [SPropValue](spropvalue.md) pointée par  _lpPropTagArray_; appelez [MAPIAllocateMore](mapiallocatemore.md) pour allouer toute mémoire supplémentaire nécessaire aux membres de la structure. 
+Appelez la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) pour allouer initialement de la mémoire pour la structure [SPropValue](spropvalue.md) pointée par  _lpPropTagArray_; appelez [MAPIAllocateMore pour](mapiallocatemore.md) allouer toute mémoire supplémentaire nécessaire aux membres de la structure. 
   
 Renvoyer MAPI_W_ERRORS_RETURNED si vous ne pouvez pas récupérer la valeur d’une ou plusieurs des propriétés demandées. Dans la structure de valeurs de propriété, définissez le type dans le membre **aulPropTag** sur PT_ERROR et le membre **Valeur** sur un code d’état qui décrit l’erreur. Par exemple, si vous devez convertir une chaîne en Unicode et ne pas prendre en charge Unicode, définissez le membre **Value** sur MAPI_E_BAD_CHARWIDTH. Si la propriété est trop grande, définissez-la sur MAPI_E_NOT_ENOUGH_MEMORY. Si l’objet ne prend pas en charge la propriété, définissez-la sur MAPI_E_NOT_FOUND. 
   
 L’implémentation de la méthode **GetProps** par un fournisseur de transport distant doit renvoyer les valeurs de propriétés du dossier pour les propriétés demandées par l’appelant. Votre implémentation doit : 
   
-- Allouez un tableau de valeurs de propriété pour revenir à l’appelant et stocker son adresse dans le paramètre de pointeur de valeur de propriété transmis à cet effet.
+- Allouez un tableau de valeurs de propriétés à renvoyer à l’appelant et stockez son adresse dans le paramètre de pointeur de valeur de propriété transmis à cet effet.
     
 - Copiez les balises de propriété des propriétés du dossier dans les balises de propriété dans le tableau des valeurs de propriété en fonction du tableau des balises de propriété transmises **à GetProps**.
     
@@ -154,13 +154,13 @@ Si **GetProps renvoie** MAPI_W_ERRORS_RETURNED car il n’a pas pu accéder à u
   
 - Type de propriété dans le **membre aulPropTag** définie sur PT_ERROR. 
     
-- La valeur de propriété dans le **membre Value** est définie sur un code d’état pour l’erreur, par exemple MAPI_E_NOT_FOUND. 
+- La valeur de la propriété dans le **membre Value** est définie sur un code d’état pour l’erreur, par exemple MAPI_E_NOT_FOUND. 
     
-Les propriétés qui échouent parce qu’elles sont trop  grandes pour être renvoyées dans la structure de valeurs de propriété ont leur membre Value MAPI_E_NOT_ENOUGH_MEMORY. En règle générale, cela se produit avec des propriétés de type chaîne ou binaire de type PT_STRING8, PT_UNICODE ou PT_BINARY lorsque la valeur de la propriété est supérieure ou supérieure à 4 Ko. Appelez **IMAPIProp::OpenProperty pour** récupérer des propriétés de grande taille. 
+Les propriétés qui échouent parce qu’elles sont trop  grandes pour être renvoyées dans la structure de valeurs de propriété ont leur membre Value MAPI_E_NOT_ENOUGH_MEMORY. En règle générale, cela se produit avec des chaînes ou des propriétés binaires de type PT_STRING8, PT_UNICODE ou PT_BINARY lorsque la valeur de la propriété est supérieure ou supérieure à 4 Ko. Appelez **IMAPIProp::OpenProperty pour** récupérer des propriétés de grande taille. 
   
 Toutes les implémentations de **GetProps** ne peuvent pas prendre en charge les formats Unicode et ANSI pour les chaînes de caractères. Lorsqu’une propriété particulière nécessite une conversion de format de chaîne et **que GetProps** ne peut pas la prendre en charge, le membre **Value** de la propriété est MAPI_E_BAD_CHARWIDTH. 
   
-Pour vérifier si un PST est un PST SharePoint, montez le PST à l’aide de [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md), puis appelez **GetProps** sur l’objet de magasin de messages demandant cette propriété. S’il existe, vous pouvez supposer que le PST a été configuré pour SharePoint ; si ce n’est pas le cas, le PST n’a pas été configuré en tant que PST SharePoint. 
+Pour vérifier si un PST est un PST SharePoint, montez le PST à l’aide de [IMAPISession::OpenMsgStore,](imapisession-openmsgstore.md)puis appelez **GetProps** sur l’objet de la boutique de messages demandant cette propriété. S’il existe, vous pouvez supposer que le PST a été configuré pour SharePoint ; si ce n’est pas le cas, le PST n’a pas été configuré comme SharePoint PST. 
   
 Pour plus d’informations sur l’utilisation de **GetProps** pour accéder aux propriétés, voir [Récupération des propriétés MAPI.](retrieving-mapi-properties.md)
   

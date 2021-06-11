@@ -32,11 +32,11 @@ La **fonction Coalesce** contient les arguments suivants :
    
 ## <a name="remarks"></a>Remarques
 
-Si tous les arguments sont NULL, **Coalesce** renvoie NULL. 
+Si tous les arguments sont NULL, **Coalesce** renvoie la valeur NULL. 
   
 ## <a name="example"></a>Exemple
 
-L’expression suivante est utilisée comme règle de validation pour une table. L’expression garantit que les entrées sont entrées dans les champs Prénom, Nom, Courrier électronique, Téléphone mobile, Téléphone de travail, Téléphone à domicile et Société avant qu’un enregistrement ne soit engagé. Si l’un des champs répertoriés est laissé vide, la fonction **Coalesce** renvoie la valeur Null, ce qui enfreint la règle de validation. 
+L’expression suivante est utilisée comme règle de validation pour une table. L’expression garantit que les entrées sont entrées dans les champs Prénom, Nom, Courrier électronique, Mobile Téléphone, Téléphone de travail, Famille Téléphone et Société avant qu’un enregistrement ne soit engagé. Si l’un des champs répertoriés est laissé vide, la fonction **Coalesce** renvoie la valeur Null, ce qui enfreint la règle de validation. 
   
 ```vb
 Coalesce([First Name],[Last Name],[Email],[Mobile Phone],[Work Phone],[Home Phone],[Company]) Is Not Null

@@ -40,7 +40,7 @@ BOOL FBinFromHex(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _sz_
   

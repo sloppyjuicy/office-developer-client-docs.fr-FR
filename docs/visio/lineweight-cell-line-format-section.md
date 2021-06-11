@@ -24,7 +24,7 @@ Détermine l’épaisseur d’un trait. Pour définir l’épaisseur, entrez un 
 
 Vous pouvez également définir la valeur de LineWeight dans la boîte de dialogue **Trait** (sous l’onglet **Trait**, dans le groupe **Forme**, cliquez sur **Trait**, pointez sur **Épaisseur**, puis cliquez sur **Autres traits**).
   
-Si l’unité de mesure n’est pas entrée, l’unité de mesure du  texte spécifié dans la boîte de dialogue **Options Visio** est utilisée (cliquez sur l’onglet Fichier, puis sur **Options).** L’épaisseur de trait est indépendante de l’échelle du dessin. Si le dessin est mis à l’échelle, l’épaisseur de trait ne change pas. 
+Si l’unité de mesure n’est pas entrée, l’unité de mesure du texte  spécifié dans la boîte de dialogue **Options Visio** est utilisée (cliquez sur l’onglet Fichier, puis sur **Options).** L’épaisseur de trait est indépendante de l’échelle du dessin. Si le dessin est mis à l’échelle, l’épaisseur de trait ne change pas. 
   
 Pour obtenir une référence à la cellule LineWeight par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

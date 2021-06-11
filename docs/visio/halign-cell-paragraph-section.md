@@ -23,9 +23,9 @@ Détermine l'alignement horizontal du texte dans le bloc de texte de la forme.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Alignement à gauche  <br/> |**visHorzLeft** <br/> |
-| 1   <br/> | Centre  <br/> |**visHorzCenter** <br/> |
-| 2   <br/> | Alignement à droite  <br/> |**visHorzRight** <br/> |
-| 3   <br/> | Justifier  <br/> |**visHorzJustify** <br/> |
+| 1  <br/> | Centre  <br/> |**visHorzCenter** <br/> |
+| 2  <br/> | Alignement à droite  <br/> |**visHorzRight** <br/> |
+| 3  <br/> | Justifier  <br/> |**visHorzJustify** <br/> |
 | 4   <br/> | Justification forcée  <br/> |**visHorzForce** <br/> |
    
 ## <a name="remarks"></a>Remarques

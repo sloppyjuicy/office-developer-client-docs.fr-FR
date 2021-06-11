@@ -25,7 +25,7 @@ ms.locfileid: "33414486"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Si elle est définie sur un rapport de non-mise à jour, indique la clé de recherche de l’utilisateur Send-As échec.
+S’il est définie sur un rapport nondelivery, indique la clé de recherche de l’utilisateur Send-As échec.
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ Si elle est définie sur un rapport de non-mise à jour, indique la clé de rech
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

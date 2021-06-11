@@ -34,7 +34,7 @@ HRESULT SyncBeg(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _uiSync_
   
@@ -150,9 +150,9 @@ LR_SYNC_DOWNLOAD_TABLE
     
 ## <a name="remarks"></a>Remarques
 
-Le client appelle **[IOSTX::SetSyncResult](iostx-setsyncresult.md)** pour définir le résultat de la synchronisation, puis appelle **[IOSTX::SyncEnd](iostx-syncend.md)** pour mettre fin à cet état. Le client doit appeler **[IOSTX::SyncEnd](iostx-syncend.md)** pour chaque appel à **IOSTX::SyncBeg** afin de déterminer si l’état a été répliqué avec succès. Une fois cela déterminé, Outlook peut commencer à nettoyer son état interne. 
+Le client appelle **[IOSTX::SetSyncResult](iostx-setsyncresult.md)** pour définir le résultat de la synchronisation, puis appelle **[IOSTX::SyncEnd](iostx-syncend.md)** pour mettre fin à cet état. Le client doit appeler **[IOSTX::SyncEnd](iostx-syncend.md)** pour chaque appel à **IOSTX::SyncBeg** afin de déterminer si l’état a été répliqué avec succès. Une fois cela déterminé, Outlook pouvez commencer à nettoyer son état interne. 
   
-La plupart de ces structures contiennent des informations [out]/[in], ce qui permet à Outlook de transmettre des informations au client et au client de transmettre des informations à Outlook. Lorsque le client appelle **IOSTX::SyncBeg**, Outlook alloue la structure de données pour un état donné et l’initialise avec des informations pour cet état. Il s’agit des informations [sortantes]. Lorsqu’il est dans un état, le client met à jour la structure de données correspondante pour cet état. Il s’agit des informations [in]. 
+La plupart de ces structures contiennent des informations [out]/[in], ce qui permet aux Outlook de transmettre des informations au client et au client de transmettre des informations à Outlook. Lorsque le client appelle **IOSTX::SyncBeg**, Outlook alloue la structure de données pour un état donné et l’initialise avec des informations pour cet état. Il s’agit des informations [sortantes]. Lorsqu’il est dans un état, le client met à jour la structure de données correspondante pour cet état. Il s’agit des informations [in]. 
   
 ## <a name="see-also"></a>Voir aussi
 

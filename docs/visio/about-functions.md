@@ -35,6 +35,6 @@ De nombreuses fonctions utilisables dans les formules ressemblent à celles que 
 Pour plus d'informations sur des fonctions spécifiques, reportez-vous à l'aide Référence ShapeSheet.
   
 > [!NOTE]
->  Certaines fonctions apparaissent dans les formules générées par  Visio, mais ne sont pas affichées dans la boîte de dialogue Modifier la formule ou décrites dans cette référence, car elles sont réservées à un usage interne et ne doivent pas être utilisées dans d’autres formules. Voici quelques exemples : ELLIPSE_THETA, _ELLIPSE_ECC, _UCON_C1 et _SHAPEMIN. 
+>  Certaines fonctions apparaissent dans les formules générées par Visio,  mais ne sont pas affichées dans la boîte de dialogue Modifier la formule ou décrites dans cette référence, car elles sont réservées à un usage interne et ne doivent pas être utilisées dans d’autres formules. Voici quelques exemples : ELLIPSE_THETA, _ELLIPSE_ECC, _UCON_C1 et _SHAPEMIN. 
   
 

@@ -31,7 +31,7 @@ REPLACE (** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* *
 | _old_text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte dans lequel vous souhaitez remplacer certains caractères.  <br/> |
 | _start_num_ <br/> |Obligatoire  <br/> |**Number** <br/> |Position du caractère dans la  _old_text_ que vous souhaitez remplacer par  _new_text_. Le premier caractère de la chaîne est à la position 1.  <br/> |
 | _num_chars_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre de caractères  _dans old_text_ que vous souhaitez remplacer  <br/> |
-| _new_text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte qui remplacera les caractères dans  _old_text_.  <br/> |
+| _new_text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte qui remplace les caractères dans  _old_text_.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

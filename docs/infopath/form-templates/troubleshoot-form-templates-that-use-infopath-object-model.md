@@ -19,7 +19,7 @@ ms.locfileid: "33413660"
 
 Cette section contient des conseils pour la résolution de problèmes courants, susceptibles d'apparaître lors de la création d'un modèle de formulaire avec code managé qui utilise le modèle objet compatible InfoPath 2003.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 Dépannage des modèles de formulaire qui utilisent le modèle objet [InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model-at-runtime.md)au moment de l’utilisation : décrit les problèmes de dépannage qui peuvent survenir lors de la création et de l’aperçu de modèles de formulaire InfoPath avec code géré qui utilisent le modèle objet compatible InfoPath 2003.
     
@@ -27,7 +27,7 @@ Dépannage des modèles de formulaires qui utilisent le modèle objet [InfoPath 
     
 ## <a name="related-sections"></a>Sections connexes
 
-[Déployer des modèles](how-to-deploy-infopath-form-templates-with-code.md)de formulaire InfoPath avec code : fournit des informations sur le déploiement de vos solutions, y compris les problèmes de sécurité et les problèmes à prendre en compte lors du choix d’un modèle de déploiement.
+[Déployer des modèles](how-to-deploy-infopath-form-templates-with-code.md)de formulaire InfoPath avec code : fournit des informations sur le déploiement de vos solutions, notamment des problèmes de sécurité et des problèmes à prendre en compte lors du choix d’un modèle de déploiement.
     
 Gérer les erreurs à l’aide du modèle objet [InfoPath 2003](how-to-handle-errors-using-the-infopath-2003-object-model.md): explique comment gérer les erreurs dans les solutions InfoPath avec code mana gère.
     

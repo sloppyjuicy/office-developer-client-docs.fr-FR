@@ -15,7 +15,7 @@ ms.locfileid: "33416719"
 ---
 # <a name="eventmultidrop-cell-events-section"></a>EventMultiDrop, cellule (section Events)
 
-Cellule d’événement évaluée lorsque plusieurs formes sont abandonnées sur la page de dessin, en tant qu’instances ou lorsque des formes sont dupliquées ou copiées.
+Cellule d’événement évaluée lorsque plusieurs formes sont abandonnées sur la page de dessin, soit en tant qu’instances, soit lorsque des formes sont dupliquées ou copiées.
   
 Les cellules événements ne sont évaluées que lorsque l'événement se produit et non lorsque la formule est saisie.
   

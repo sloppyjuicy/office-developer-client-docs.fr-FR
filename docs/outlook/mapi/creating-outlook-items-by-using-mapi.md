@@ -1,5 +1,5 @@
 ---
-title: Création d’éléments Outlook à l’aide de MAPI
+title: Création d Outlook à l’aide de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409859"
 ---
-# <a name="creating-outlook-items-by-using-mapi"></a>Création d’éléments Outlook à l’aide de MAPI
+# <a name="creating-outlook-items-by-using-mapi"></a>Création d Outlook à l’aide de MAPI
 
   
   

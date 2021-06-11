@@ -1,5 +1,5 @@
 ---
-title: Charger l’état de la hiérarchie
+title: Télécharger État de la hiérarchie
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415424"
 ---
-# <a name="upload-hierarchy-state"></a>Charger l’état de la hiérarchie
+# <a name="upload-hierarchy-state"></a>Télécharger État de la hiérarchie
 
   
   
@@ -28,14 +28,14 @@ ms.locfileid: "33415424"
 |Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
 |Structure de données associée :  <br/> |**[UPHIER](uphier.md)** <br/> |
 |À partir de cet état :  <br/> |[Synchronisation de l’état](synchronize-state.md) <br/> |
-|À cet état :  <br/> |[Charger l’état du](upload-folder-state.md)dossier ou synchroniser l’état  <br/> |
+|À cet état :  <br/> |[Télécharger’état du dossier](upload-folder-state.md)ou synchroniser l’état  <br/> |
    
 > [!NOTE]
 > La machine à états de réplication est une machine à états déterministe. Un client qui quitte un état vers un autre doit finalement revenir au premier à partir du second. 
   
 ## <a name="description"></a>Description
 
-Cet état lance le téléchargement d’une hiérarchie d’arborescence de dossiers qui a été spécifiée dans un état de synchronisation précédent. Outlook détermine le nombre de dossiers qui ont été créés ou modifiés dans cette hiérarchie et initialise  *cEnt*  dans **UPHIER**. Outlook conserve également le nombre de dossiers téléchargés avec un autre *iEnt membre.* Pour télécharger chacun des dossiers  *cEnt,*  le client place la boutique locale dans l’état du dossier de chargement, en revenir à l’état de hiérarchie de chargement une fois le chargement du dossier terminé. 
+Cet état lance le téléchargement d’une hiérarchie d’arborescence de dossiers qui a été spécifiée dans un état de synchronisation précédent. Outlook détermine le nombre de dossiers qui ont été créés ou modifiés dans cette hiérarchie et initialise *cEnt* dans **UPHIER**. Outlook également le nombre de dossiers téléchargés avec un autre *iEnt membre.* Pour télécharger chacun des dossiers  *cEnt,*  le client place la boutique locale dans l’état du dossier de chargement, en revenir à l’état de hiérarchie de chargement une fois le chargement du dossier terminé. 
   
 Lorsque l’état de la hiérarchie de chargement se termine, le magasin local revient à l’état de synchronisation.
   

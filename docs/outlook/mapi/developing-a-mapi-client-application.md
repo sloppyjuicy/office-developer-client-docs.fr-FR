@@ -21,7 +21,7 @@ ms.locfileid: "33410034"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les applications clientes MAPI sont écrites avec l’interface cliente MAPI orientée objet. Les clients MAPI interagissent avec un ou plusieurs systèmes de messagerie via le sous-système MAPI et les fournisseurs de services conformes MAPI. Cette interaction peut se produire de nombreuses manières différentes . il existe une grande variété dans les applications clientes. La plupart des clients sont des clients de messagerie, soit en intégrant la messagerie dans leur ensemble de fonctionnalités établi, soit en les intégrant comme fonctionnalité principale. Les clients MAPI peuvent également fournir d’autres fonctionnalités, notamment l’administration des profils, le carnet d’adresses et la gestion des magasins de messages.
+Les applications clientes MAPI sont écrites avec l’interface cliente MAPI orientée objet. Les clients MAPI interagissent avec un ou plusieurs systèmes de messagerie via le sous-système MAPI et les fournisseurs de services conformes MAPI. Cette interaction peut se produire de nombreuses manières différentes . il existe une grande variété dans les applications clientes. La plupart des clients sont des clients de messagerie, soit en intégrant la messagerie dans leur ensemble de fonctionnalités établi, soit en intégrant la messagerie comme fonctionnalité principale. Les clients MAPI peuvent également fournir d’autres fonctionnalités, notamment l’administration des profils, le carnet d’adresses et la gestion de la boutique de messages.
   
 Tous les clients de messagerie initialisent les bibliothèques MAPI et démarrent une **session** avec le sous-système MAPI. Pour plus d’informations, [voir Accès aux objets à l’aide de la session.](accessing-objects-by-using-the-session.md) Une fois qu’une session a été établie, un client peut :
   
@@ -33,7 +33,7 @@ Tous les clients de messagerie initialisent les bibliothèques MAPI et démarren
     
 - Gérer le carnet d’adresses en créant et en modifiant des destinataires, en localisant des entrées et en parcourant la hiérarchie des conteneurs.
     
-- Gérer un fournisseur de transport en effectuer la reconfiguration, définir des options et un ordre de transport et envoyer des messages à la demande.
+- Gérer un fournisseur de transport en reconfigurant, en dédiant des options et un ordre de transport et en envoyant des messages à la demande.
     
 - Gérer les notifications d’événement.
     

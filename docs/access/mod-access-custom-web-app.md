@@ -25,7 +25,7 @@ Renvoie le reste d’un nombre divisé par un autre.
 
   *divisor de mod de resserr*  
   
- *2016*  Est l’expression numérique à diviser. 
+ *24h0*  Est l’expression numérique à diviser. 
   
  *Diviseur*  Est l’expression numérique par laquelle diviser le versement. 
   

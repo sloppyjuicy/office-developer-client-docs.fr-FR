@@ -21,7 +21,7 @@ Indique si les valeurs des cellules spécifiées dans une forme de base remplace
 |**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> | Le texte de la forme de maître le sur-place sur l’ancienne forme. En outre, la forme de base remplace les valeurs des cellules des sections suivantes lors d’une opération de remplacement de forme :  <br/> **Section Champs de** texte  <br/> **Section Format de bloc de** texte  <br/> |
-|FALSE  <br/> |La forme de remplacement contient du texte, des champs de texte ou d’autres propriétés de texte de l’ancienne forme qui ont été ajoutées à la forme.  <br/> Lorsque la forme de remplacement contient des propriétés de texte de l’ancienne forme, la forme de remplacement possède également les valeurs des sections **Character** et **Paragraph** de l’ancienne forme si elles contiennent plusieurs lignes.  <br/> |
+|FALSE  <br/> |La forme de remplacement contient du texte, des champs de texte ou d’autres propriétés de texte de l’ancienne forme qui ont été ajoutées à la forme.  <br/> Lorsque la forme de remplacement contient des propriétés de texte de l’ancienne forme, la forme de remplacement possède également les valeurs des sections **Character** et **Paragraph** de l’ancienne forme si elles ont plusieurs lignes.  <br/> |
    
 Si la valeur TRUE (1) est définie, les valeurs de la forme master remplacent les valeurs suivantes sur la forme en cours de remplacement :
   
@@ -41,7 +41,7 @@ Pour obtenir une référence à la cellule **ReplaceLockText** par un nom à par
 |:-----|:-----|
 | Nom de cellule :  <br/> | ReplaceLockText  <br/> |
    
-Pour obtenir une référence à la **cellule ReplaceLockText** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la **cellule ReplaceLockText** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

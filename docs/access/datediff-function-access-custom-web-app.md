@@ -1,5 +1,5 @@
 ---
-title: Fonction DateDiff (application web personnalisée Access)
+title: DateDiff, fonction (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415613"
 ---
-# <a name="datediff-function-access-custom-web-app"></a>Fonction DateDiff (application web personnalisée Access)
+# <a name="datediff-function-access-custom-web-app"></a>DateDiff, fonction (application web personnalisée Access)
 
 Renvoie le nombre de limites de partie de date spécifiées entre la date de début spécifiée et la date de fin.
   

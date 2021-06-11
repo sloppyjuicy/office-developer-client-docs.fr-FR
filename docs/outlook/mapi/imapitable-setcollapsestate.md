@@ -36,7 +36,7 @@ BOOKMARK FAR * lpbkLocation
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -52,7 +52,7 @@ BOOKMARK FAR * lpbkLocation
     
  _lpbkLocation_
   
-> [out] Pointeur vers un signet identifiant la ligne dans le tableau à partir de laquelle l’état réduire ou développé doit être reconstruit. Ce signet et la clé d’instance transmises dans le paramètre  _lpbInstanceKey_ dans l’appel à [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identifient la même ligne. 
+> [out] Pointeur vers un signet identifiant la ligne du tableau à partir de laquelle l’état réduire ou développé doit être reconstruit. Ce signet et la clé d’instance transmises dans le paramètre  _lpbInstanceKey_ dans l’appel à [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identifient la même ligne. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -66,7 +66,7 @@ MAPI_E_BUSY
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
-> Le tableau n’a pas pu terminer la reconstruction de la vue réduire ou étendue.
+> Le tableau n’a pas pu terminer la reconstruction de la vue collapsed ou expanded.
     
 ## <a name="remarks"></a>Remarques
 
@@ -82,7 +82,7 @@ Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisati
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous devez vérifier que l’ordre de tri et les restrictions sont exactement les mêmes qu’au moment de l’appel **getCollapseState.** Si une modification a été réalisée, **SetCollapseState** ne doit pas être appelé, car les résultats peuvent être imprévisibles. Cela peut se produire si, par exemple, un client appelle **GetCollapseState,** puis **SortTable** pour modifier la clé de tri avant d’appeler **SetCollapseState**. Pour des raisons de sécurité, vérifiez que les données enregistrées sont toujours valides avant de poursuivre la restauration. 
+Vous devez vérifier que l’ordre de tri et les restrictions sont exactement les mêmes qu’au moment de l’appel **getCollapseState.** Si une modification a été faite, **SetCollapseState** ne doit pas être appelé, car les résultats peuvent être imprévisibles. Cela peut se produire si, par exemple, un client appelle **GetCollapseState,** puis **SortTable** pour modifier la clé de tri avant d’appeler **SetCollapseState**. Pour des raisons de sécurité, vérifiez que les données enregistrées sont toujours valides avant de poursuivre la restauration. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

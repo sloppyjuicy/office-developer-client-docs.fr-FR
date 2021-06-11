@@ -45,7 +45,7 @@ typedef struct
 
  **abFlags**
   
-> Masque de bits d’indicateurs qui fournissent des informations décrivent l’objet. Seul le premier byte des indicateurs, **abFlags[0]**, peut être définie par le fournisseur ; les trois autres sont réservés. Ces indicateurs ne doivent pas être définies pour les identificateurs d’entrée permanents ; Elles sont uniquement définies pour les identificateurs d’entrée à court terme. Pour les clients, cette structure est en lecture seule. Les indicateurs suivants peuvent être **définies dans abFlags[0]**:
+> Masque de bits d’indicateurs qui fournissent des informations décrivent l’objet. Seul le premier byte des indicateurs, **abFlags[0]**, peut être définie par le fournisseur ; les trois autres sont réservés. Ces indicateurs ne doivent pas être définies pour les identificateurs d’entrée permanents ; Elles sont uniquement définies pour les identificateurs d’entrée à court terme. Pour les clients, cette structure est en lecture seule. Les indicateurs suivants peuvent être définies dans **abFlags[0]**:
     
 MAPI_NOTRECIP 
   
@@ -113,7 +113,7 @@ Une structure **ENTRYID** ressemble à une structure [FLATENTRY.](flatentry.md) 
     
 Les clients doivent toujours transmettre des identificateurs d’entrée alignés naturellement. Bien que les fournisseurs doivent gérer des identificateurs d’entrée arbitrairement alignés, les clients ne doivent pas s’attendre à ce comportement. L’échec de la passe d’un bon identificateur d’entrée aligné à une méthode peut provoquer une erreur d’alignement sur les processeurs RISC. 
   
-Le facteur d’alignement naturel, généralement 8 octets, est le plus grand type de données pris en charge par le processeur, et généralement le même facteur d’alignement utilisé par l’allocation de mémoire système. Une adresse mémoire alignée naturellement permet au processeur d’accéder à n’importe quel type de données qu’il prend en charge à cette adresse sans générer de panne d’alignement. Pour les processeurs RISC, un type de données de taille N octets doit généralement être aligné sur un même multiple de N octets, l’adresse étant un même multiple de N.
+Le facteur d’alignement naturel, généralement 8 octets, est le plus grand type de données pris en charge par l’UC, et généralement le même facteur d’alignement utilisé par l’allocation de mémoire système. Une adresse mémoire alignée naturellement permet à l’UC d’accéder à n’importe quel type de données qu’elle prend en charge à cette adresse sans générer de panne d’alignement. Pour les processeurs RISC, un type de données de taille N octets doit généralement être aligné sur un même multiple de N octets, l’adresse étant un même multiple de N.
   
 Pour plus d’informations, voir [Identificateurs d’entrée.](mapi-entry-identifiers.md) 
   

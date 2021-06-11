@@ -33,7 +33,7 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -51,7 +51,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les objets form appellent la méthode **IMAPIMessageSite::SubmitMessage** pour demander qu’un message soit mis en file d’attente pour remise. Le site de message doit appeler la [méthode IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) avant d’envoyer le message. Le message n’a pas besoin d’être enregistré précédemment, car **SubmitMessage** doit provoquer l’enregistrée si le message a été modifié. Après le renvoi de **SubmitMessage,** le formulaire doit vérifier la recherche d’un message en cours, puis se fermer s’il n’en existe aucun. 
+Les objets form appellent la méthode **IMAPIMessageSite::SubmitMessage** pour demander qu’un message soit mis en file d’attente pour remise. Le site de message doit appeler la [méthode IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) avant d’envoyer le message. Le message n’a pas besoin d’être enregistré précédemment, car **SubmitMessage** doit provoquer l’enregistrée si le message a été modifié. Après le retour de **SubmitMessage,** le formulaire doit vérifier la recherche d’un message en cours, puis se fermer s’il n’en existe aucun. 
   
 Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
   

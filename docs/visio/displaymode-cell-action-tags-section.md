@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60039
 localization_priority: Normal
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
-description: Détermine si la balise d’action s’affiche lorsque l’utilisateur place le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.
+description: Détermine si la balise d’action s’affiche lorsque l’utilisateur déplace le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.
 ms.openlocfilehash: 0254ad361c63dfdeddaf8a1c2173e99aa1c05398
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -26,8 +26,8 @@ Détermine si la balise d’action s’affiche lorsque l’utilisateur déplace 
 |**Valeur**|**Mode d’affichage**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | S’affiche lorsque la souris est suspendue sur la balise (valeur par défaut).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
-| 1   <br/> | Apparaît tant que la forme est sélectionnée.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
-| 2   <br/> | Apparaît tout le temps.  <br/> |**visSmartTagDispModeAlways** <br/> |
+| 1  <br/> | Apparaît tant que la forme est sélectionnée.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
+| 2  <br/> | Apparaît tout le temps.  <br/> |**visSmartTagDispModeAlways** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

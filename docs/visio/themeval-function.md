@@ -31,8 +31,8 @@ Version ajoutée : Visio 2013
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _« theme_value »_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom d’une cellule de la définition de thème à partir de la valeur à partir de.  <br/> |
-| _default_ <br/> |Facultatif  <br/> |Divers  <br/> |Valeur par défaut si le document n’est pas à thème (il n’existe aucune définition de thème).  <br/> |
+| _« theme_value »_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom d’une cellule de la définition de thème à partir de qui obtenir une valeur.  <br/> |
+| _default_ <br/> |Facultatif  <br/> |Divers  <br/> |Valeur par défaut si le document n’est pas sur le thème (il n’existe aucune définition de thème).  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -42,7 +42,7 @@ Si la **fonction THEMEVAL** reçoit un seul argument, elle extrait la valeur de 
   
 La **fonction THEMEVAL** peut également accepter un integer pour le premier paramètre, sous la mesure d’une valeur entre 1 et 8. L’utilisation de valeurs de nombres integer extrait une couleur à l’aide d’un index à partir du modèle de couleurs du thème. Par conséquent, une valeur de « 1 » renvoie la couleur « Foncé » à partir du thème, « 2 » renvoie la couleur « Light », « 3 » renvoie la couleur « Accent 1 », etc. 
   
-Si la **fonction THEMEVAL** reçoit deux arguments, elle récupère la valeur de la définition de thème transmise en tant que premier argument. Toutefois, si aucun thème n’est appliqué au document, la **fonction THEMEVAL** utilise la valeur spécifiée comme deuxième argument. 
+Si la **fonction THEMEVAL** reçoit deux arguments, elle extrait la valeur de la définition de thème transmise en tant que premier argument. Toutefois, si aucun thème n’est appliqué au document, la **fonction THEMEVAL** utilise la valeur spécifiée comme deuxième argument. 
   
 **Arguments possibles pour le paramètre « theme_value »**
 

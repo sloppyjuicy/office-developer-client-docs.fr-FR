@@ -23,15 +23,15 @@ ms.locfileid: "33410538"
   
 Le pointeur de session que vous recevez de votre appel [à MAPILogonEx](mapilogonex.md) peut être utilisé pour accéder à un large éventail d’objets. Le tableau suivant répertorie les méthodes utilisées pour accéder à différents objets : 
   
-|**Object**|**Méthode de session**|
+|**Object**|**Méthode session**|
 |:-----|:-----|
 |Section Profil  <br/> |[IMAPISession::OpenProfileSection](imapisession-openprofilesection.md) <br/> |
 |Magasin de messages  <br/> |[IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) <br/> |
 |Carnet d’adresses  <br/> |[IMAPISession::OpenAddressBook](imapisession-openaddressbook.md) <br/> |
-|Objet d’administration de service de message  <br/> |[IMAPISession::AdminServices](imapisession-adminservices.md) <br/> |
+|Objet d’administration du service de message  <br/> |[IMAPISession::AdminServices](imapisession-adminservices.md) <br/> |
 |Dossier, message, conteneur de carnet d’adresses, liste de distribution ou utilisateur de messagerie  <br/> |[IMAPISession::OpenEntry](imapisession-openentry.md) <br/> |
    
-Avec la **méthode OpenEntry et** un identificateur d’entrée valide, vous pouvez ouvrir n’importe quel objet fournisseur de carnet d’adresses ou de magasin de messages. Il existe **d’autres méthodes OpenEntry** dans MAPI, en plus de la **méthode IMAPISession.** **OpenEntry est** implémenté dans les objets suivants : 
+Avec la **méthode OpenEntry et** un identificateur d’entrée valide, vous pouvez ouvrir n’importe quel objet fournisseur de carnet d’adresses ou de magasin de messages. Il existe **d’autres méthodes OpenEntry** dans MAPI, en plus de la méthode **IMAPISession.** **OpenEntry est** implémenté dans les objets suivants : 
   
 |**Object**|**Méthode**|
 |:-----|:-----|
@@ -41,10 +41,10 @@ Avec la **méthode OpenEntry et** un identificateur d’entrée valide, vous pou
 |Session  <br/> |[IMAPISession::OpenEntry](imapisession-openentry.md) <br/> |
 |Magasin de messages  <br/> |[IMsgStore::OpenEntry](imsgstore-openentry.md) <br/> |
 |Objet d’ouverture de messagerie du fournisseur de magasins de messages  <br/> |[IMSLogon::OpenEntry](imslogon-openentry.md) <br/> |
-|Folder  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
+|Dossier  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
 |Objet Support  <br/> |[IMAPISupport::OpenEntry](imapisupport-openentry.md) <br/> |
    
-Certaines **méthodes OpenEntry** nécessitent l’ouverture d’un identificateur d’entrée de l’objet, tout comme **IMAPISession::OpenEntry**; d’autres méthodes permettent de spécifier la valeur NULL. Un identificateur d’entrée NULL est interprété différemment en fonction de l’objet. Par exemple, lorsque vous appelez **IAddrBook::OpenEntry** avec un identificateur d’entrée NULL, MAPI ouvre le conteneur racine du carnet d’adresses. La méthode **OpenEntry** de la boutique de messages se comporte de la même manière ; il ouvre le dossier racine de la magasin de messages. **IMAPIContainer::OpenEntry**, implémenté par les conteneurs de dossiers et de carnet d’adresses, peut renvoyer MAPI_E_INVALID_PARAMETER ou le conteneur racine, selon l’implémenteur. 
+Certaines **méthodes OpenEntry** nécessitent l’ouverture d’un identificateur d’entrée de l’objet, tout comme **IMAPISession::OpenEntry**; d’autres méthodes permettent de spécifier la valeur NULL. Un identificateur d’entrée NULL est interprété différemment en fonction de l’objet. Par exemple, lorsque vous appelez **IAddrBook::OpenEntry** avec un identificateur d’entrée NULL, MAPI ouvre le conteneur racine du carnet d’adresses. La méthode **OpenEntry** de la boutique de messages se comporte de la même manière . il ouvre le dossier racine de la boutique de messages. **IMAPIContainer::OpenEntry**, implémenté par les conteneurs de dossiers et de carnet d’adresses, peut renvoyer MAPI_E_INVALID_PARAMETER ou le conteneur racine, en fonction de l’implémenteur. 
   
 En plus de refuser une valeur NULL pour l’identificateur d’entrée, la méthode **OpenEntry** de la session diffère des autres méthodes **OpenEntry,** car son travail n’est pas d’ouvrir des objets. Au lieu de cela, il examine l’identificateur d’entrée et fait suivre l’appel à une autre méthode **OpenEntry** implémentée par le fournisseur de services approprié. Par exemple, si vous appelez **IMAPISession::OpenEntry** avec l’identificateur d’entrée d’un message, MAPI appelle la méthode **IMSLogon::OpenEntry** de la boutique de messages responsable du message. 
   
@@ -56,6 +56,6 @@ Comme **OpenEntry**, **CompareEntryIDs** est implémenté par plusieurs objets. 
     
 - Si vous savez que les objets cibles sont des entrées de carnet d’adresses plutôt que, par exemple, des dossiers, appelez la méthode [IAddrBook::OpenEntry](iaddrbook-openentry.md) ou [IAddrBook::CompareEntryIDs.](iaddrbook-compareentryids.md) **IAddrBook::OpenEntry** ouvre le conteneur racine du carnet d’adresses lorsque NULL est spécifié en tant qu’objet cible. Cette approche permet d’accéder à n’importe quel objet de carnet d’adresses et est plus rapide que d’utiliser **IMAPISession,** mais plus lente que d’utiliser **IMAPIContainer**.
     
-- Si l’identificateur d’entrée utilisé est un identificateur d’entrée à court terme ou si vous savez que les objets cibles appartiennent à un conteneur ou dossier de carnet d’adresses particulier, appelez la méthode [IMAPIContainer::OpenEntry.](imapicontainer-openentry.md) Cette approche offre les performances les plus rapides, mais permet d’accéder uniquement aux objets d’un conteneur ou d’un dossier spécifique. 
+- Si l’identificateur d’entrée utilisé est un identificateur d’entrée à court terme ou si vous savez que les objets cibles appartiennent à un conteneur ou dossier de carnet d’adresses particulier, appelez la méthode [IMAPIContainer::OpenEntry.](imapicontainer-openentry.md) Cette approche permet d’obtenir les performances les plus rapides, mais permet d’accéder uniquement aux objets d’un conteneur ou d’un dossier spécifique. 
     
 

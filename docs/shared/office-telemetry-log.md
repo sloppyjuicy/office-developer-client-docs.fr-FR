@@ -19,7 +19,7 @@ Trouvez des informations sur le Journal de télémétrie inclus dans Office 2013
   
 Explorez les liens suivants pour en savoir plus sur l'utilisation de Journal de télémétrie pour Office 2013 et l'interprétation des résultats qu'il affiche.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Dépannage des fichiers et des solutions personnalisées d'Office avec le journal de télémétrie](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
     

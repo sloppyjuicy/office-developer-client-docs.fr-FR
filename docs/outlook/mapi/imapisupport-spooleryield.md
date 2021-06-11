@@ -33,7 +33,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -59,7 +59,7 @@ Appelez **SpoolerYield** lorsque vous effectuez des opérations longues qui peuv
   
 Si **SpoolerYield** est renvoyé avec MAPI_W_CANCEL_MESSAGE, lepooler MAPI a déterminé que le message ne doit plus être envoyé. Renvoyez MAPI_E_USER_CANCEL processus d’appel et quittez, si possible. 
   
-Pour plus d’informations sur le rendement aupooler MAPI, voir Interaction avec le [spooler MAPI.](interacting-with-the-mapi-spooler.md)
+Pour plus d’informations sur le rendement aupooler MAPI, voir Interaction avec le [spooler MAPI](interacting-with-the-mapi-spooler.md).
   
 ## <a name="see-also"></a>Voir aussi
 

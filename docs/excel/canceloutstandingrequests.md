@@ -18,13 +18,13 @@ ms.locfileid: "33414717"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Informe le connecteur de cluster qu’un calcul Excel a été annulé et que tous les appels de fonction en attente au sein de cette session peuvent également être annulés (et qu’Excel ne s’attend pas à des rappels avec leurs résultats).
+Informe le connecteur de cluster qu’un calcul Excel a été annulé et que tous les appels de fonction en attente au sein de cette session peuvent également être annulés (et que le Excel ne s’attend pas à des rappels avec leurs résultats).
   
 ```cpp
 int CancelOutstandingRequests(int SessionId)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _SessionID_
   
@@ -36,7 +36,7 @@ _SessionID_
   
 ## <a name="remarks"></a>Remarques
 
-Les implémenteurs doivent arrêter tous les processus de la session pour améliorer les performances, car tous les résultats reçus après cet appel seront ignorés par Excel.
+Les implémenteurs doivent arrêter tous les processus de la session pour améliorer les performances, car tous les résultats reçus après cet appel sont ignorés par Excel.
   
 ## <a name="see-also"></a>Voir aussi
 

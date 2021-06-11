@@ -34,7 +34,7 @@ HRESULT SaveContentsSort(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpSortCriteria_
   
@@ -52,7 +52,7 @@ RECURSIVE_SORT
 
 S_OK 
   
-> L’ordre de tri a été enregistré.
+> L’ordre de tri a été enregistré avec succès.
     
 MAPI_E_NO_SUPPORT 
   
@@ -60,7 +60,7 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPIFolder::SaveContentsSort** établit un ordre de tri par défaut pour la table des matières d’un dossier. Autrement dit, lorsqu’un client appelle la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) du dossier après que le code a appelé **SaveContentsSort,** les lignes de la table des matières retournée apparaissent dans l’ordre établi par **SaveContentsSort**.
+La **méthode IMAPIFolder::SaveContentsSort** établit un ordre de tri par défaut pour la table des matières d’un dossier. Autrement dit, lorsqu’un client appelle la méthode [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) du dossier après que le code appelle **SaveContentsSort,** les lignes de la table des matières retournée apparaissent dans l’ordre établi par **SaveContentsSort**.
   
 Tous les fournisseurs de magasins de messages ne sont pas en charge **SaveContentsSort**; Il est acceptable que les fournisseurs de magasins de messages MAPI_E_NO_SUPPORT à partir de la **méthode SaveContentsSort.** 
   

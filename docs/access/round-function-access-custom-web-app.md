@@ -30,11 +30,11 @@ La **fonction Round** contient les arguments suivants.
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
 | *Number*  <br/> |Expression numérique.  <br/> |
-| *Précision*  <br/> |Précision à laquelle le  *nombre*  doit être arrondi.  *La*  précision doit être une expression numérique. Lorsque  *la*  précision est un nombre positif,  *le*  nombre est arrondi au nombre de décimales spécifié par la longueur. Lorsque  *precision*  est un nombre négatif,  *number*  est arrondi à gauche de la virgule décimale, comme spécifié par la longueur.  <br/> |
+| *Précision*  <br/> |Précision à laquelle le  *nombre*  doit être arrondi.  *La*  précision doit être une expression numérique. Lorsque  *la*  précision est un nombre positif,  *le*  nombre est arrondi au nombre de positions décimales spécifié par la longueur. Lorsque  *precision*  est un nombre négatif,  *number*  est arrondi à gauche de la virgule décimale, comme spécifié par la longueur.  <br/> |
 | *TruncateInsteadOfRound*  <br/> |Type d’opération à effectuer. Lorsqu’il est omis ou qu’il est 0,  *le nombre*  est arrondi. Lorsqu’une valeur autre que 0 est spécifiée,  *number*  est tronqué. La valeur par défaut est 0.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
- **Round** renvoie toujours une valeur. Si la longueur est négative et supérieure au nombre de chiffres avant la virgule décimale, **round** renvoie 0. 
+ **Round** renvoie toujours une valeur. Si la longueur est négative et supérieure au nombre de chiffres avant la virgule, **round** renvoie 0. 
   
 

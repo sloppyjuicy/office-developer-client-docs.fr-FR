@@ -25,7 +25,7 @@ Une vue est décrite dans un message appelé descripteur d’affichage. Les desc
   
 ### <a name="to-open-a-view-descriptor"></a>Pour ouvrir un descripteur d’affichage
   
-1. Appelez [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) pour récupérer la table des matières associée pour le dossier. 
+1. Appelez [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) pour récupérer la table des matières associée au dossier. 
     
 2. Créez une restriction qui localise uniquement les messages avec la classe de message réservée aux descripteurs d’affichage et appelez [IMAPITable::Restrict](imapitable-restrict.md) pour limiter la table et [IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer les lignes appropriées, ou...
     

@@ -34,7 +34,7 @@ LPSPropTagArray FAR * lpPropTagArray
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -64,7 +64,7 @@ La **méthode IMAPITable::QueryColumns** peut être appelée pour récupérer :
   
 - Colonne par défaut définie pour un tableau.
     
-- Colonne actuelle définie pour une table, tel qu’établi par un appel à la méthode [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
+- Ensemble de colonnes actuel pour une table, tel qu’établi par un appel à la méthode [IMAPITable::SetColumns.](imapitable-setcolumns.md) 
     
 - Ensemble de colonnes complet d’un tableau, colonnes disponibles, mais pas nécessairement partie de l’ensemble actuel.
     

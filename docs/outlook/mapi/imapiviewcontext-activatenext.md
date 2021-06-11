@@ -32,7 +32,7 @@ LPCRECT prcPosRect
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ulDir_
   
@@ -42,9 +42,9 @@ _ulDir_
         
     - Premier message de la catégorie d’affichage suivante si cet indicateur est **OR** avec VCDIR_NEXT. 
         
-    - Dernier message de la catégorie d’affichage précédente si cet indicateur est **OU** avec VCDIR_PREV et si la catégorie précédente est étendue. 
+    - Dernier message de la catégorie d’affichage précédente si cet indicateur est **OR** avec VCDIR_PREV et si la catégorie précédente est étendue. 
         
-    - Premier message de la catégorie d’affichage précédente si cet indicateur est **OU** avec VCDIR_PREV et si la catégorie précédente n’est pas étendue. Dans ce cas, la catégorie précédente subit une expansion automatique. 
+    - Premier message de la catégorie d’affichage précédente si cet indicateur est **OR** avec VCDIR_PREV et si la catégorie précédente n’est pas étendue. Dans ce cas, la catégorie précédente subit une expansion automatique. 
         
   - VCDIR_DELETE : la visionneuse doit activer le message suivant ou précédent, car le message actif a été supprimé. 
         
@@ -58,7 +58,7 @@ _ulDir_
     
 _prcPosRect_
   
-> [in] Pointeur vers une structure **RECT** Windows contenant la taille et la position de la fenêtre à utiliser pour afficher le message activé. 
+> [in] Pointeur vers une Windows **RECT** contenant la taille et la position de la fenêtre à utiliser pour afficher le message activé. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI implémente la **méthode IMAPIViewContext::ActivateNext** dans cette fonction.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::ActivateNext  <br/> |MFCMAPI implémente **la méthode IMAPIViewContext::ActivateNext** dans cette fonction.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

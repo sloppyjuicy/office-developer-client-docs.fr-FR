@@ -31,7 +31,7 @@ L'interface **XDocumentsCollection** fournit aux développeurs de formulaires le
 |[Nouvelle](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.New.aspx) méthode  <br/> |Crée un nouveau formulaire basé sur un formulaire existant.  <br/> |
 |[Méthode NewFromSolution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolution.aspx)  <br/> |Crée un nouveau formulaire basé sur un formulaire existant.  <br/> |
 |[Méthode NewFromSolutionWithData](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolutionWithData.aspx)  <br/> |Crée un formulaire InfoPath en utilisant le modèle de formulaire et les données XML spécifiés.  <br/> |
-|[Open,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Open.aspx) méthode  <br/> |Ouvre le formulaire spécifié.  <br/> |
+|[Méthode Open](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Open.aspx)  <br/> |Ouvre le formulaire spécifié.  <br/> |
 |Propriété [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Count.aspx)  <br/> |Renvoie le nombre d'objets **XDocument** que contient la collection.  <br/> |
 |Propriété [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Item.aspx)  <br/> |Renvoie une référence à l'objet **XDocument** spécifié.  <br/> |
    
@@ -63,7 +63,7 @@ L'interface **XDocument** fournit aux développeurs de formulaires les méthodes
 |[Propriété QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.QueryAdapter.aspx)  <br/> |Renvoie une référence à l'objet adaptateur de données.  <br/> |
 |[Solution,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx) propriété  <br/> |Renvoie une référence à l'objet **Solution**.  <br/> |
 |[Propriété de l’interface](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx) utilisateur  <br/> |Renvoie une référence à l'objet **UI**.  <br/> |
-|[Propriété d’URI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.URI.aspx)  <br/> |Renvoie une valeur chaîne contenant l'URI (Uniform Resource Identifier) du formulaire.  <br/> |
+|[Propriété URI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.URI.aspx)  <br/> |Renvoie une valeur chaîne contenant l'URI (Uniform Resource Identifier) du formulaire.  <br/> |
 |[View,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.View.aspx) propriété  <br/> |Renvoie une référence à l'objet **View**.  <br/> |
 |[ViewInfos,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ViewInfos.aspx) propriété  <br/> |Renvoie une référence à la collection **ViewInfos**.  <br/> |
    

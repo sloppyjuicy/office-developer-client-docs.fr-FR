@@ -40,11 +40,11 @@ typedef enum
 
  *MSCAP_SEL_RESERVED1* 
   
-> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge. 
     
  *MSCAP_SEL_RESERVED2* 
   
-> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge. 
     
  *MSCAP_SEL_FOLDER* 
   
@@ -52,7 +52,7 @@ typedef enum
     
  *MSCAP_SEL_RESERVED3* 
   
-> Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge. 
+> Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge. 
     
  *MSCAP_SEL_RESTRICTION* 
   

@@ -24,9 +24,9 @@ Une référence dans Microsoft Excel est un type de données qui fait référenc
   
 ## <a name="active-vs-current"></a>Actif ou actif
 
-Dans Excel, le terme actif fait référence à ce que l’utilisateur affiche. Le workbook et la feuille de calcul actifs sont ceux que l’utilisateur regarde actuellement, ou, si Excel a perdu le focus sur une autre application, regardait quand Excel avait le focus pour la dernière fois. La feuille active se trouve toujours dans le livre de travail actif. Les cellules sélectionnées dans la feuille active sont appelées cellules actives. Si un objet incorporé a le focus, les dernières cellules sélectionnées sont toujours actives. 
+Dans Excel, le terme actif fait référence à ce que l’utilisateur affiche. Le workbook et la feuille de calcul actifs sont ceux que l’utilisateur recherche actuellement ou, si Excel Excel perdu le focus sur une autre application, était à l’Excel le dernier focus. La feuille active se trouve toujours dans le livre de travail actif. Les cellules sélectionnées dans la feuille active sont appelées cellules actives. Si un objet incorporé a le focus, les dernières cellules sélectionnées sont toujours actives. 
   
-Le terme actuel fait référence à ce qu’Excel recalcule. Le workbook et la feuille de calcul actuels sont ceux qui sont actuellement recalculés. La feuille actuelle se trouve toujours dans le manuel en cours. La cellule en cours de recalcul est appelée la cellule actuelle ou, dans le cas d’une formule de tableau en cours de recalcul, les cellules actuelles. 
+Le terme actuel fait référence au Excel le recalcul. Le workbook et la feuille de calcul actuels sont ceux qui sont en cours de recalcul. La feuille actuelle se trouve toujours dans le workbook actuel. La cellule en cours de recalcul est appelée la cellule actuelle ou, dans le cas d’une formule de tableau en cours de recalcul, les cellules actuelles. 
   
 Les points importants à retenir sont les suivants :
   
@@ -34,7 +34,7 @@ Les points importants à retenir sont les suivants :
     
 - Une fonction de add-in, que ce soit dans un module Visual Basic pour Applications (VBA), une DLL ou une XLL, est toujours appelée à partir de la cellule actuelle de la feuille actuelle, ou l’une d’elles dans le cas d’un recalcul multithread (MTR).
     
-De nombreuses fonctions Excel qui fournissent des informations sur une cellule, une plage de cellules ou une feuille de calcul font la distinction entre le workbook actif, la feuille ou la cellule et le workbook, la feuille ou la cellule actif. Cette différence est reflétée dans les types de données utilisés pour décrire les références à des blocs de cellules, comme décrit dans la section suivante.
+De nombreuses Excel qui fournissent des informations sur une cellule, une plage de cellules ou une feuille dans un workbook font la distinction entre le workbook actif, la feuille ou la cellule et le workbook, la feuille ou la cellule actif. Cette différence est reflétée dans les types de données utilisés pour décrire les références à des blocs de cellules, comme décrit dans la section suivante.
   
 ## <a name="internal-and-external-worksheet-references"></a>Références internes et externes aux feuilles de calcul
 

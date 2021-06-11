@@ -25,7 +25,7 @@ ms.locfileid: "33411413"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet aux solutions Microsoft Outlook 2010 et Microsoft Outlook 2013 de savoir si une pièce jointe est considérée comme non sûre et bloquée pour l’affichage et l’indexation.
+Permet aux Microsoft Outlook 2010 et Microsoft Outlook 2013 de savoir si une pièce jointe est considérée comme non sûre et bloquée pour l’affichage et l’indexation.
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ Permet aux solutions Microsoft Outlook 2010 et Microsoft Outlook 2013 de savoir 
    
 ## <a name="remarks"></a>Remarques
 
-Les solutions Outlook 2010 et Outlook 2013 peuvent interroger cette interface pour voir si une pièce jointe est bloquée. Les pièces jointes bloquées par Outlook 2010 ou Outlook 2013 varient en fonction de la configuration d’Outlook 2010 ou d’Outlook 2013 et des stratégies appliquées par un administrateur.
+Outlook solutions 2010 et Outlook 2013 peuvent interroger cette interface pour voir si une pièce jointe est bloquée. Les pièces jointes bloquées par Outlook 2010 ou Outlook 2013 varient en fonction de la configuration de Outlook 2010 ou Outlook 2013 et des stratégies appliquées par un administrateur.
   
 ## <a name="see-also"></a>Voir aussi
 

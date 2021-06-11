@@ -41,13 +41,13 @@ _ulFlags_
     
   - UPH_OK
     
-    - [in] Le chargement a réussi. Le client définit cette information après avoir chargé les informations sur le serveur. Lorsqu’il voit cet indicateur, Outlook effacera toutes les informations de comptabilité internes qui signalaient la hiérarchie de dossiers à mettre à jour. 
+    - [in] Télécharger a réussi. Le client définit cette information après avoir chargé les informations sur le serveur. Lorsque vous voyez cet indicateur, Outlook effacer toutes les informations de comptabilité internes qui signalaient la hiérarchie de dossiers à mettre à jour. 
     
     - Le client transmet le HRESULT si le chargement n’a pas réussi.
     
 _pstmReserved_
   
-> [out] Ce membre est réservé à un usage interne d’Outlook et n’est pas pris en charge.
+> [out] Ce membre est réservé à un Outlook interne et n’est pas pris en charge.
     
 _iEnt_
   

@@ -44,7 +44,7 @@ La syntaxe à utiliser et la possibilité ou non de renvoyer à une cellule par 
 | D'une colonne nommée avec des lignes indexées  <br/> | Section.Column[index]  <br/> | Char.Font[3]  <br/> |
 | D'une colonne non nommée avec des lignes indexées  <br/> | Section.ColumnIndex  <br/> | Scratch.A5  <br/> |
 | De toute forme, page, forme de base ou style  <br/> | Sheet.ID ! CellName  <br/> | Sheet.8! FillForegnd  <br/> |
-| D'une forme de base  <br/> | Masters[MasterName]! SheetName! CellReference  <br/> | Masters[Gear]! C’est le cas ! Geometry1.X1  <br/> |
+| D'une forme de base  <br/> | Masters[MasterName]! SheetName! CellReference  <br/> | Masters[Gear]! Vous n’y parlez pas Geometry1.X1  <br/> |
 | De la page ou de la page de forme de base sur laquelle se trouve l'objet  <br/> | ThePage! CellReference  <br/> | ThePage! User.Vanishing_Point  <br/> |
 | D'une autre page du document  <br/> | Pages[PageName]! SheetName! CellReference  <br/> | Pages[Page-3]! Sheet.4! BeginX  <br/> |
 | D'un style  <br/> | Styles ! SheetName! CellReference  <br/> | Styles ! Responsable ! LineColor  <br/> |

@@ -35,7 +35,7 @@ HRESULT EmptyFolder(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -51,7 +51,7 @@ HRESULT EmptyFolder(
     
 DEL_ASSOCIATED 
   
-> Supprime tous les sous-fichiers, y compris les sous-fichiers qui contiennent des messages avec le contenu associé. L DEL_ASSOCIATED’indicateur n’a de signification que pour le dossier de niveau supérieur sur qui l’appel agit.
+> Supprime tous les sous-fichiers, y compris les sous-fichiers qui contiennent des messages avec le contenu associé. L DEL_ASSOCIATED’indicateur de niveau supérieur a une signification uniquement pour le dossier de niveau supérieur sur qui l’appel agit.
     
 DELETE_HARD_DELETE
   

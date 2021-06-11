@@ -33,13 +33,13 @@ Masque l’option d’envoi de mises à jour de réunion aux participants ajout�
 |:-----|:-----|
 |Exposé sur :  <br/> |[IMsgStore : objet IMAPIProp](imsgstoreimapiprop.md)  <br/> |
 |Créé par :  <br/> |Fournisseur du Store  <br/> |
-|Accessible par :  <br/> |Outlook et d’autres clients  <br/> |
+|Accessible par :  <br/> |Outlook clients et autres clients  <br/> |
 |Type de propriété :  <br/> |PT_BOOLEAN  <br/> |
 |Type d’accès :  <br/> |Lecture/écriture  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour fournir l’une des fonctionnalités du magasin, le fournisseur de magasin doit implémenter [IMAPIProp : IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour l’une de ces propriétés transmises à un appel [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Lorsque la balise de propriété de l’une de ces propriétés est transmise à [IMAPIProp::GetProps](imapiprop-getprops.md), le fournisseur de magasins doit également renvoyer la valeur de propriété correcte. Les fournisseurs du Store peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
+Pour fournir l’une des fonctionnalités du magasin, le fournisseur de magasin doit implémenter [IMAPIProp : IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour l’une de ces propriétés transmises à un appel [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Lorsque la balise de propriété pour l’une de ces propriétés est transmise à [IMAPIProp::GetProps](imapiprop-getprops.md), le fournisseur de magasin doit également renvoyer la valeur de propriété correcte. Les fournisseurs du Store peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
   
 Pour récupérer la valeur de cette propriété, le client doit d’abord utiliser [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété, puis spécifier cette balise de propriété dans [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lorsque vous appelez [IMAPIProp::GetIDsFromNames,](imapiprop-getidsfromnames.md)spécifiez les valeurs suivantes pour la structure [MAPINAMEID](mapinameid.md) pointée par le paramètre d’entrée  _lppPropNames_:
   
@@ -51,6 +51,6 @@ Pour récupérer la valeur de cette propriété, le client doit d’abord utilis
    
 Un fournisseur de magasins qui utilise un serveur pour envoyer des mises à jour de réunion peut modifier la boîte de dialogue Envoyer la mise à jour aux **participants.** Cette fonctionnalité est utile car lorsque le serveur envoie une mise à jour de réunion, le serveur ne sait pas quels participants ont été ajoutés ou supprimés par l’utilisateur depuis la demande de réunion initiale. Lorsque cette propriété est **true,** l’option Envoyer uniquement aux participants ajoutés ou **supprimés** n’est pas affichée dans la boîte de dialogue Envoyer la mise à jour aux **participants.** 
   
-Cette propriété est ignorée si la version d’Outlook est antérieure à Microsoft Office Outlook 2003 Service Pack 1, ou si sa valeur est **false**.
+Cette propriété est ignorée si la version de Outlook est antérieure à Microsoft Office Outlook 2003 Service Pack 1, ou si sa valeur est **false**.
   
 

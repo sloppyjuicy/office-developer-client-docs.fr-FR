@@ -41,7 +41,7 @@ Tâches courantes effectuées lors de la programmation de modèles de formulaire
     
 - [Utiliser des vues à l’aide du modèle objet InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
     
-- [Utiliser des fenêtres de formulaire à l’aide du modèle objet InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+- [Utiliser des formulaires Windows l’aide du modèle objet InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
     
 - [Afficher des alertes et des boîtes de dialogue à l’aide du modèle objet InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
     
@@ -71,7 +71,7 @@ Présente les tâches courantes et fournit des informations sur la sécurité et
     
 - [Déployer des modèles de formulaire InfoPath avec code](how-to-deploy-infopath-form-templates-with-code.md)
     
-- [Configurer les paramètres de sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md)
+- [Configurer l’Paramètres sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md)
     
 - [Afficher un aperçu et déboguer des modèles de formulaire exigeant l'autorisation totale](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
     

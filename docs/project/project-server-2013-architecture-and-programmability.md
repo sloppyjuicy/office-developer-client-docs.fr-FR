@@ -1,5 +1,5 @@
 ---
-title: Architecture et programmabilité de Project Server 2013
+title: Project Architecture et programmabilité de Server 2013
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ keywords:
 - project 2013, architecture et programmabilité, programmabilité, Project Server,Project 2013, avantages pour EPM, Architecture et Project Server
 localization_priority: Normal
 ms.assetid: 9ea3b3c1-fb90-454a-b8e6-abc44fca663d
-description: Les articles de cette section décrivent l’architecture globale de la solution De gestion de projet d’entreprise (EPM), qui combine Project Professionnel 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
+description: Les articles de cette section décrivent l’architecture globale de la solution de gestion Enterprise Project (EPM), qui combine Project Professionnel 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
 ms.openlocfilehash: 44cd5a32b8d3de421ffe3b2d9bf0137146bc4c4e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -23,27 +23,27 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413786"
 ---
-# <a name="project-server-2013-architecture-and-programmability"></a>Architecture et programmabilité de Project Server 2013
+# <a name="project-server-2013-architecture-and-programmability"></a>Project Architecture et programmabilité de Server 2013
 
-Les articles de cette section décrivent l’architecture globale de la solution De gestion de projet d’entreprise (EPM), qui combine Project Professionnel 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
+Les articles de cette section décrivent l’architecture globale de la solution de gestion Enterprise Project (EPM), qui combine Project Professionnel 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
   
-Project Server 2013 est conçu avec .NET Framework 4 et est la troisième version majeure de Project Server pour fournir une véritable architecture multi-architecture. Pour l’accès au cloud, Project Server 2013 implémente un modèle objet côté client (CSOM) et un service OData pour les rapports qui peuvent être utilisés dans les applications web, les applications mobiles et les applications Silverlight. Pour les applications sur site, les clients peuvent utiliser le CSOM ou les services PSI (Project Server Interface). 
+Project Server 2013 est conçu avec le .NET Framework 4 et est la troisième version majeure de Project Server pour fournir une véritable architecture multitente. Pour l’accès au cloud, Project Server 2013 implémente un modèle objet côté client (CSOM) et un service OData pour les rapports qui peuvent être utilisés dans les applications web, les applications mobiles et les applications Silverlight. Pour les applications sur site, les clients peuvent utiliser le CSOM ou les services PSI (Project Server Interface). 
   
 ## <a name="introduction-to-project-server-architecture"></a>Présentation de l’architecture Project Server
 
-Les rubriques de cette section décrivent l’architecture globale de la solution de gestion de projet d’entreprise (EPM), qui combine Project Professionnel 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
+Les rubriques de cette section décrivent l’architecture globale de la solution de gestion Enterprise Project (EPM), qui combine Project Professionnel 2013, Project Server 2013, Project Web App et SharePoint Server 2013.
   
-Pour l’accès par programme à Project Server, vous devez utiliser le CSOM ou les services PSI avec l’interface Windows Communication Foundation (WCF). L’interface de service web ASMX de l’interface PSI est dépréciée dans Project Server 2013, mais fonctionne toujours. L’interface PSI permet un accès efficace à l’aide de jeux de données et vous pouvez créer des handlers pour les événements côté serveur. Le modèle CSOM lui-même utilise l’interface PSI pour accéder à la couche objet métier Project Server. Au lieu de quatre bases de données Project Server, Project Server 2013 utilise une seule base de données dans la couche d’accès aux données.
+Pour l’accès par programme à Project Server, vous devez utiliser le CSOM ou les services PSI avec l’interface WCF (Windows Communication Foundation). L’interface de service web ASMX de l’interface PSI est Project Server 2013, mais fonctionne toujours. L’interface PSI permet un accès efficace à l’aide de jeux de données et vous pouvez créer des handlers pour les événements côté serveur. Le modèle CSOM lui-même utilise l’interface PSI pour accéder à la couche Project’objet métier serveur. Au lieu de quatre bases de données Project server, Project Server 2013 utilise une seule base de données dans la couche d’accès aux données.
   
-Project Server 2013 s’intègre profondément à SharePoint Server 2013. Le service d’application Project Peut être associé à d’autres collections de sites SharePoint dans la batterie de serveurs. Project Server peut fonctionner avec les listes de tâches SharePoint dans la collection de sites et peut également obtenir un contrôle total sur l’emplacement où Project Server importe et gère les listes de tâches en tant que projets d’entreprise. Project Server utilise également la version 4 de Windows Workflow Foundation (WF4) et ajoute des activités de flux de travail pour les solutions de gestion de la demande.
+Project Server 2013 s’intègre de SharePoint Server 2013. Le Project d’application peut être associé à d’SharePoint collections de sites dans la batterie de serveurs. Project Le serveur peut fonctionner avec des listes de tâches SharePoint dans la collection de sites et peut également obtenir un contrôle total sur l’emplacement où Project Server importe et gère les listes de tâches en tant que projets d’entreprise. Project Le serveur utilise également la version 4 de Windows Workflow Foundation (WF4) et ajoute des activités de flux de travail pour les solutions de gestion de la demande.
   
 Pour plus d’informations sur les nombreuses nouvelles fonctionnalités que Project 2013 fournit aux développeurs et sur les fonctionnalités qui sont dépréciées, voir Mises à jour pour les développeurs dans [Project 2013.](updates-for-developers-in-project-2013.md)
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
-[L’architecture Project Server 2013](project-server-2013-architecture.md) décrit les principales parties de la plateforme Project 2013, y compris les clients et les serveurs. 
+[Project Server 2013 décrit](project-server-2013-architecture.md) les principales parties de la plateforme Project 2013, y compris les clients et les serveurs. 
   
-La [programmabilité](project-server-programmability.md) de Project Server décrit les principales fonctionnalités d’extensibilité de Project Server 2013, la personnalisation de Project Web App et la mise à niveau des applications conçues pour les versions précédentes de Project Server. 
+[Project Server programmabilité](project-server-programmability.md) décrit les principales fonctionnalités d’extensibilité de Project Server 2013, la personnalisation de Project Web App et la mise à niveau des applications conçues pour les versions précédentes de Project Server. 
   
 [Ce que l’interface PSI](what-the-psi-does-and-does-not-do.md) fait et ne fait pas décrit les scénarios dans lequel l’interface PSI peut être utilisée et répertorie les choses que l’interface PSI ne peut pas faire. 
   
@@ -51,7 +51,7 @@ La [programmabilité](project-server-programmability.md) de Project Server décr
   
 ### <a name="topics-not-covered"></a>Rubriques non couvertes
 
-Les articles de la section Architecture et  *programmabilité*  ne documentent pas les fonctionnalités des clients de bureau Project (Project Standard 2013 et Project Professionnel 2013) ou Project Web App. 
+Les articles de la section Architecture et *programmabilité* ne documentent pas les fonctionnalités des clients de bureau Project (Project Standard 2013 et Project Professionnel 2013) ou Project Web App. 
   
 Visual Basic pour Applications (VBA) est disponible dans l’éditeur Visual Basic dans Project Standard et Project Professionnel.
   

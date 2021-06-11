@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1236a59e-2a25-449f-8e20-8553518d79ec
-description: Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de trait.
+description: Contient la couleur, la transparence et la position d’un arrêt de dégradé pour un dégradé de trait.
 ms.openlocfilehash: 1a6d9c60bc83160067123007cf873c5681e9bc85
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33411406"
 ---
 # <a name="gradient-stop-row-line-gradient-section"></a>Gradient Stop Row (Line Gradient Section)
 
-Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de trait.
+Contient la couleur, la transparence et la position d’un arrêt de dégradé pour un dégradé de trait.
   
 Une **ligne Gradient Stop** contient les cellules suivantes. 
   

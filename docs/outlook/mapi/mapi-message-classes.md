@@ -23,11 +23,11 @@ ms.locfileid: "33412085"
   
 Chaque message possède une propriété de classe de message, **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), qui identifie le type, l’objectif ou le contenu du message. **PR_MESSAGE_CLASS** est une propriété obligatoire sur tous les nouveaux messages. La classe d’un message détermine le formulaire utilisé pour présenter le message à l’utilisateur et le dossier pour le placement des messages entrants. 
   
-Les classes de message sont des chaînes de caractères sensibles à la cas qui contiennent des caractères ASCII 32 à 127 et sont délimitées par des périodes, mais elles ne peuvent pas se terminer par un point. Chaque chaîne représente un niveau de sous-classe et il n’existe aucune limite au nombre de niveaux autorisés. 
+Les classes de message sont des chaînes de caractères sensibles à la cas qui contiennent des caractères ASCII 32 à 127 et sont délimitées par des périodes, mais elles ne peuvent pas se terminer par un point. Chaque chaîne représente un niveau de sous-classe et le nombre de niveaux autorisé n’est pas limité. 
   
 Par exemple, la plupart des messages que les applications clientes envoient et reçoivent relèvent de la classe de message **IPM,** une catégorie large qui décrit tous les messages interpersonnels (c’est-à-dire, les messages destinés à être lus par un utilisateur humain, plutôt que par programme par un ordinateur). Les fournisseurs de magasins de messages décrivent plus précisément un message IPM en créant une **sous-classe IPM.** La **sous-classe IPM** hérite des propriétés de la classe de message **IPM.** Les sous-classes de la **classe IPM** sont nommées en concatenant d’autres chaînes de caractères sur l’identificateur **IPM, comme IPM. Remarque** pour décrire un message de note et **un IPM. Contactez** pour décrire un message de contact. 
   
-Pour gérer l’affichage et la gestion des messages IPM, les clients peuvent utiliser un formulaire standard que MAPI fournit. Pour gérer l’affichage et la gestion des nouvelles classes de messages, en tant que développeur d’applications clientes, vous avez deux options :
+Pour gérer l’affichage et la gestion des messages IPM, les clients peuvent utiliser un formulaire standard que MAPI fournit. Pour gérer l’affichage et la gestion de nouvelles classes de messages, en tant que développeur d’applications clientes, vous avez deux options :
   
 1. Vous pouvez créer un formulaire à l’aide de l’ensemble d’interfaces de formulaire définies par MAPI qu’un client standard peut utiliser.
     

@@ -38,7 +38,7 @@ BOOL (STDAPICALLTYPE FNIDLE)(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpvContext_
   
@@ -52,9 +52,9 @@ FALSE
     
 ## <a name="remarks"></a>Remarques
 
-Les fonctionnalités spécifiques de la routine d’inactivité sont déterminées par l’application cliente ou le fournisseur de services d’implémentation. 
+La fonctionnalité spécifique de la routine d’inactivité est déterminée par l’application cliente ou le fournisseur de services qui implémente. 
   
-Le client ou le fournisseur doit limiter la durée d’exécution de chaque état d’une routine inactive. Chaque état doit effectuer une quantité minimale de traitement, mettre à jour l’état actuel dans les données de contexte pointées par  _lpvContext_ et revenir au moteur INACTIF MAPI. 
+Le client ou le fournisseur doit limiter la durée d’exécution de chaque état d’une routine inactive. Chaque état doit effectuer une quantité minimale de traitement, mettre à jour l’état actuel dans les données de contexte pointées par  _lpvContext_ et revenir au moteur d’inactivité MAPI. 
   
 Le client ou le fournisseur doit appeler la fonction [MAPI MAPIInitIdle](mapiinitidle.md) avant de pouvoir inscrire sa propre routine inactive avec un appel à la fonction [FtgRegisterIdleRoutine.](ftgregisteridleroutine.md) 
   
@@ -62,7 +62,7 @@ Les fonctions suivantes traitent du moteur inactif MAPI et des routines inactive
   
 |**Fonction de routine inactive**|**Utilisation**|
 |:-----|:-----|
-|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d’une routine d’inactivité inscrite.  <br/> |
+|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d’une routine inactive inscrite.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Supprime une routine d’inactivité enregistrée du système MAPI.  <br/> |
 |[EnableIdleRoutine](enableidleroutine.md) <br/> |Désactive ou réactive une routine d’inactivité enregistrée sans la supprimer du système MAPI.  <br/> |
 |[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |Ajoute une routine inactive au système MAPI, avec ou sans l’activer.  <br/> |

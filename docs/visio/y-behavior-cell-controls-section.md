@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1190
 localization_priority: Normal
 ms.assetid: 6d5062d3-743b-8664-8ec9-5a8f11d5edf9
-description: Contrôle le type de comportement de la coordonnée y de la poignée de contrôle une fois le handle déplacé. Les formules suivantes sont disponibles.
+description: Contrôle le type de comportement de la coordonnée y de la poignée de contrôle une fois la poignée déplacée. Les formules suivantes sont disponibles.
 ms.openlocfilehash: bf8cbd490884244c92b68784dcbf041093539c94
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,14 +18,14 @@ ms.locfileid: "33413576"
 ---
 # <a name="y-behavior-cell-controls-section"></a>Y Behavior, cellule (section Controls)
 
-Contrôle le type de comportement de la coordonnée  *y*  de la poignée de contrôle une fois le handle déplacé. Les formules suivantes sont disponibles. 
+Contrôle le type de comportement de la coordonnée  *y*  de la poignée de contrôle une fois la poignée déplacée. Les formules suivantes sont disponibles. 
   
 |**Valeur**|**Comportement**|**Définition**|**Constante d'automation**|
 |:-----|:-----|:-----|:-----|
 | 0  <br/> | Proportionnel  <br/> | La poignée de contrôle peut être déplacée et se déplace proportionnellement à la forme lorsque cette dernière est redimensionnée.  <br/> |**visCtlProportional** <br/> |
-| 1   <br/> | Proportionnel verrouillé  <br/> | La poignée de contrôle se déplace proportionnellement à la forme lorsque cette dernière est redimensionnée mais ne peut être déplacée indépendamment de la forme.  <br/> |**visCtlLocked** <br/> |
-| 2   <br/> | Décalé du bord inférieur  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au bas de la forme.  <br/> |**visCtlOffsetMin** <br/> |
-| 3   <br/> | Décalé du centre  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au centre de la forme.  <br/> |**visCtlOffsetMid** <br/> |
+| 1  <br/> | Proportionnel verrouillé  <br/> | La poignée de contrôle se déplace proportionnellement à la forme lorsque cette dernière est redimensionnée mais ne peut être déplacée indépendamment de la forme.  <br/> |**visCtlLocked** <br/> |
+| 2  <br/> | Décalé du bord inférieur  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au bas de la forme.  <br/> |**visCtlOffsetMin** <br/> |
+| 3  <br/> | Décalé du centre  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au centre de la forme.  <br/> |**visCtlOffsetMid** <br/> |
 | 4   <br/> | Décalé du bord supérieur  <br/> | La poignée de contrôle est décalée d'une valeur constante par rapport au haut de la forme.  <br/> |**visCtlOffsetMax** <br/> |
 | 5   <br/> | Proportionnel, masqué  <br/> | Identique à 0 mais la poignée de contrôle n'est pas visible.  <br/> |**visCtlProportionalHidden** <br/> |
 | 6   <br/> | Proportionnel verrouillé, masqué  <br/> | Identique à 1 mais la poignée de contrôle n'est pas visible.  <br/> |**visCtlLockedHiddenv** <br/> |

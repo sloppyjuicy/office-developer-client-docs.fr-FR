@@ -36,7 +36,7 @@ HRESULT CreateEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -78,7 +78,7 @@ La **méthode IABContainer::CreateEntry** crée une entrée d’un type particul
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Tous les conteneurs qui la prise en charge de la méthode **IABContainer::CreateEntry** doivent être modifiables. Définissez l’indicateur AB_MODIFIABLE conteneur dans sa propriété **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) pour indiquer qu’il est modifiable. 
+Tous les conteneurs qui la prise en charge de la **méthode IABContainer::CreateEntry** doivent être modifiables. Définissez l’indicateur AB_MODIFIABLE conteneur dans sa propriété **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)) pour indiquer qu’il est modifiable. 
   
 Vous devez prendre en charge tous les _indicateurs ulCreateFlags._ Toutefois, l’interprétation et l’utilisation de ces indicateurs sont spécifiques à l’implémentation, c’est-à-dire que vous pouvez déterminer ce que signifient les sémantiques de CREATE_CHECK_DUP_LOOSE et de CREATE_CHECK_DUP_STRICT dans le contexte de votre implémentation. Si vous ne pouvez pas ou ne déterminez pas si une entrée est en double, autorisez toujours la création de l’entrée. 
   
@@ -88,7 +88,7 @@ Certains fournisseurs implémentent une vérification stricte des entrées en me
 
 Si votre conteneur peut créer des entrées à partir des modèles d’autres fournisseurs, votre implémentation de **CreateEntry** doit fournir un stockage pour une partie ou l’ensemble des propriétés associées aux entrées créées. Par exemple, si vous fournissez un stockage pour la propriété **PR_DETAILS_TABLE (** [PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) d’une entrée, vous pouvez générer sa boîte de dialogue de détails sans dépendre du fournisseur étranger. 
   
-Si votre conteneur peut créer des entrées qui PR_TEMPLATEID **(** [PidTagTemplateid](pidtagtemplateid-canonical-property.md)), votre implémentation de **CreateEntry** doit : 
+Si votre conteneur peut créer des entrées qui PR_TEMPLATEID **la** propriété ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)), votre implémentation de **CreateEntry** doit : 
   
 1. Appelez [la méthode IMAPISupport::OpenTemplateID.](imapisupport-opentemplateid.md) **OpenTemplateID** permet au code du fournisseur étranger de lier l’entrée à la nouvelle entrée en cours de création. Les fournisseurs étrangers assurent la prise en charge de ce processus de liaison pour maintenir le contrôle sur les entrées créées à partir de leurs modèles dans les conteneurs des fournisseurs de carnets d’adresses hôtes. 
     
@@ -96,7 +96,7 @@ Si votre conteneur peut créer des entrées qui PR_TEMPLATEID **(** [PidTagTempl
     
 Si **OpenTemplateID** réussit, copiez les propriétés vers l’implémentation pointée par le paramètre _lppMAPIPropNew_ plutôt que directement vers l’implémentation pointée par le paramètre _lpMAPIPropData._ Initialisez la nouvelle entrée pour une utilisation hors connexion comme vous le feriez pour toute autre entrée provenant d’un fournisseur étranger. 
   
-Si **OpenTemplateID renvoie** une erreur, **CreateEntry** doit échouer. N’autorisez pas la création de l’entrée. Étant donné que le fournisseur étranger peut effectuer des hypothèses sur les données de votre fournisseur, ne créez pas d’entrée avec un identificateur de modèle qui n’a pas été lié avec succès au fournisseur étranger. 
+Si **OpenTemplateID renvoie** une erreur, **CreateEntry** doit échouer. N’autorisez pas la création de l’entrée. Étant donné que le fournisseur étranger peut effectuer des hypothèses sur les données de votre fournisseur, ne créez pas d’entrée avec un identificateur de modèle qui n’a pas été lié au fournisseur étranger. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

@@ -40,7 +40,7 @@ Fournit des informations sur la prise en charge d’un dossier pour le partage.
    
 ## <a name="remarks"></a>Remarques
 
-En règle générale, Microsoft Office Outlook un fournisseur de magasin MAPI pour implémenter cette interface si le fournisseur souhaite partager un dossier. L’exception est le fournisseur Exchange Server store, qui peut partager des dossiers sans implémenter cette interface.
+En règle générale, Microsoft Office Outlook un fournisseur de magasin MAPI doit implémenter cette interface si le fournisseur souhaite partager un dossier. L’exception est le fournisseur Exchange Server store, qui peut partager des dossiers sans implémenter cette interface.
   
 Un client peut interroger **[un IMAPIFolder](imapifolderimapicontainer.md)** pour **IFolderSupport**. Si cela réussit, appelez **IFolderSupport::GetSupportMask** et vérifiez la FS_SUPPORTS_SHARING **bit** à définir. 
   

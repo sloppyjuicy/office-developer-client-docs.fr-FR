@@ -19,7 +19,7 @@ ms.locfileid: "33415445"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Étant donné que tous les messages MAPI sont des instances de formulaires, les applications clientes affichent et interagissent avec les objets de formulaire de la même manière qu’avec d’autres objets de message.
+Étant donné que tous les messages MAPI sont des instances de formulaires, les applications clientes affichent des objets de formulaire et interagissent avec ceux-ci de la même manière qu’avec d’autres objets de message.
   
 Les applications clientes qui utilisent les interfaces de formulaire MAPI peuvent fournir une interaction supplémentaire avec les objets de formulaire. Les applications clientes peuvent utiliser n’importe quel verbe spécial défini par un formulaire pour fournir aux utilisateurs la gamme complète des interactions prévues par le concepteur du formulaire. Les clients peuvent également utiliser toutes les propriétés personnalisées que le serveur de formulaires expose pour aider les utilisateurs à trier, prévisualiser ou gérer les formulaires dans l’interface du client.
   

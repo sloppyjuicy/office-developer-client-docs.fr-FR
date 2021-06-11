@@ -41,7 +41,7 @@ SCODE ScUNCFromLocalPath(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _szLocal_
   
@@ -59,7 +59,7 @@ SCODE ScUNCFromLocalPath(
 
 S_OK
   
-> L’équivalent du chemin d’accès UNC a été localisé avec succès.
+> L’équivalent du chemin d’accès UNC a été correctement localisé.
     
 MAPI_E_INVALID_PARAMETER
   

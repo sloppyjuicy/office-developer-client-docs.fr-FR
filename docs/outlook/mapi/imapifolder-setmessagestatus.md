@@ -37,7 +37,7 @@ HRESULT SetMessageStatus(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -53,7 +53,7 @@ HRESULT SetMessageStatus(
     
  _ulNewStatusMask_
   
-> [in] Masque de bits d’indicateurs appliqué au nouvel état et qui indique les indicateurs à définir. Les indicateurs suivants peuvent être définies :
+> [in] Masque de bits d’indicateurs qui est appliqué au nouvel état et indique les indicateurs à définir. Les indicateurs suivants peuvent être définies :
     
 MSGSTATUS_DELMARKED 
   

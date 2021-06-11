@@ -25,7 +25,7 @@ ms.locfileid: "33415277"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si Microsoft Outlook a téléchargé sur l’ordinateur client uniquement l’en-tête d’un message, ou à la fois l’en-tête et le corps du message, lorsqu’Outlook est configuré en mode Exchange mis en cache.
+Spécifie si Microsoft Outlook a téléchargé sur l’ordinateur client uniquement l’en-tête d’un message, ou à la fois l’en-tête et le corps du message, lorsque Outlook est configuré en mode Exchange mis en cache.
   
 |||
 |:-----|:-----|

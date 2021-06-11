@@ -57,9 +57,9 @@ typedef struct _EXTENDED_NOTIFICATION
     
 ## <a name="remarks"></a>Remarques
 
-La **EXTENDED_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Lorsque le **membre d’informations** d’une structure **notification** contient une structure **EXTENDED_NOTIFICATION,** le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevExtended_.
+La **EXTENDED_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Lorsque le membre **d’informations** d’une structure **notification** contient une structure **EXTENDED_NOTIFICATION,** le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevExtended_.
   
-L’événement étendu est défini par un fournisseur de services pour représenter un type de modification qui ne peut être couvert par aucun autre événement prédéféré. Seuls les clients qui savent avant qu’ils s’inscrivent qu’un fournisseur de services prend en charge un événement étendu peuvent s’inscrire à cet événement. Il n’est pas possible pour les clients de déterminer sans connaissances avancées si un fournisseur de services prend en charge un événement étendu. Si un fournisseur de services prend en charge un événement étendu, il indique comment gérer un tel événement lorsqu’il est reçu.
+L’événement étendu est défini par un fournisseur de services pour représenter un type de modification qui ne peut être couvert par aucun des autres événements prédéfin définis. Seuls les clients qui savent avant qu’ils s’inscrivent qu’un fournisseur de services prend en charge un événement étendu peuvent s’inscrire à cet événement. Il n’est pas possible pour les clients de déterminer sans connaissances avancées si un fournisseur de services prend en charge un événement étendu. Si un fournisseur de services prend en charge un événement étendu, il indique comment gérer un tel événement lorsqu’il est reçu.
   
 Une notification étendue est envoyée par la session lorsqu’un client se déconnecte. Inscrivez-vous à cette notification en appelant [IMAPISession::Advise](imapisession-advise.md) avec le paramètre  _lpEntryID_ sur NULL et le paramètre  _cbEntryID_ sur zéro. 
   

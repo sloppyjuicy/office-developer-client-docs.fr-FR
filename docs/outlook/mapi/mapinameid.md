@@ -59,7 +59,7 @@ PS_MAPI
   
 > 
     
-Une valeur définie par le client
+Valeur définie par le client
   
 > 
     

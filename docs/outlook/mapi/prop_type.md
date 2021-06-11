@@ -36,7 +36,7 @@ Renvoie le type de propriété d’une balise de propriété spécifiée.
 PROP_TYPE (ulPropTag)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   

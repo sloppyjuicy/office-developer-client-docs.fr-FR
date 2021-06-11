@@ -1,5 +1,5 @@
 ---
-title: Fonctionnalités facultatives pour les fournisseurs de carnets d’adresses
+title: Fonctionnalités facultatives pour les fournisseurs de carnet d’adresses
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414570"
 ---
-# <a name="optional-features-for-address-book-providers"></a>Fonctionnalités facultatives pour les fournisseurs de carnets d’adresses
+# <a name="optional-features-for-address-book-providers"></a>Fonctionnalités facultatives pour les fournisseurs de carnet d’adresses
 
   
   
@@ -42,8 +42,8 @@ Le tableau suivant décrit brièvement ces fonctionnalités facultatives et la f
 |Modèles de fourniture pour la création d’entrées pour les listes de destinataires des messages  <br/> |Implémentez [la méthode IABLogon::GetOneOffTable.](iablogon-getoneofftable.md) Pour plus d’informations, [voir Tableaux one-off](one-off-tables.md) et [Implémentation One-Off Tables .](implementing-one-off-tables.md)  <br/> |
 |Grouper les destinataires dans une unité nommée  <br/> |Prise en charge des propriétés des listes de distribution en implémentant [l’interface IDistList : IMAPIContainer.](idistlistimapicontainer.md)  <br/> |
 |Agir en tant que fournisseur de carnet d’adresses étranger en permettant l’ajout d’entrées à un conteneur dans un autre fournisseur  <br/> | Prendre en charge le code de liaison aux données dans le fournisseur hôte en :  <br/>  Prise en **charge PR_TEMPLATEID** propriété ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) sur les utilisateurs de messagerie et les listes de distribution. Pour plus d’informations, [voir Identificateurs de carnet d’adresses.](address-book-identifiers.md)  <br/>  Mise en œuvre [de la méthode IABLogon::OpenTemplateID.](iablogon-opentemplateid.md) Pour plus d’informations, [voir Agir en tant que fournisseur de carnet d’adresses étranger.](acting-as-a-foreign-address-book-provider.md)  <br/> |
-|Agir en tant que fournisseur de carnet d’adresses hôte en insérant des entrées d’un autre fournisseur  <br/> |Prendre en charge la liaison de données au code à partir d’un fournisseur étranger en appelant [la méthode IMAPISupport::OpenTemplateID.](imapisupport-opentemplateid.md) Pour plus d’informations, [voir Agir en tant que fournisseur de carnet d’adresses hôte.](acting-as-a-host-address-book-provider.md)  <br/> |
-|Défilement de préfixe  <br/> |Prise en charge des restrictions sur les tables de contenu de conteneur. Pour plus d’informations, voir [à propos des restrictions.](about-restrictions.md)  <br/> |
+|Agir en tant que fournisseur de carnet d’adresses hôte en insérant des entrées d’un autre fournisseur  <br/> |Prendre en charge la liaison de données au code à partir d’un fournisseur étranger en appelant la méthode [IMAPISupport::OpenTemplateID.](imapisupport-opentemplateid.md) Pour plus d’informations, [voir Agir en tant que fournisseur de carnet d’adresses hôte.](acting-as-a-host-address-book-provider.md)  <br/> |
+|Défilement de préfixe  <br/> |Prise en charge des restrictions sur les tables de contenu de conteneur. Pour plus d’informations, voir [À propos des restrictions.](about-restrictions.md)  <br/> |
 |Recherche avancée dans un conteneur  <br/> |Prise en **charge PR_SEARCH** propriété ([PidTagSearch](pidtagsearch-canonical-property.md)) sur les conteneurs. Pour plus d’informations, voir [Implementing Advanced Searching](implementing-advanced-searching.md).  <br/> |
 |Notification d’événement  <br/> |Implémentez [les méthodes IABLogon::Advise](iablogon-advise.md) et [IABLogon::Unadvise.](iablogon-unadvise.md) Pour plus d’informations, [voir notification d’événement dans MAPI](event-notification-in-mapi.md) et [notification d’événement de prise en charge.](supporting-event-notification.md)  <br/> |
    

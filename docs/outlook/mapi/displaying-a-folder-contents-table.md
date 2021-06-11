@@ -19,7 +19,7 @@ ms.locfileid: "33412393"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La table des matières d’un dossier contient des informations récapitulatifs sur tous ses messages. Des informations récapitulatifs sur les nouveaux messages entrants apparaissent dans la table des matières du dossier de réception pour la classe de message. Pour mettre ces informations à la disposition des utilisateurs, récupérez le tableau et affichez les colonnes et les lignes selon les cas.
+La table des matières d’un dossier contient des informations récapitulatifs sur tous ses messages. Des informations récapitulatifs sur les nouveaux messages entrants apparaissent dans la table des matières du dossier de réception de la classe de message. Pour mettre ces informations à la disposition des utilisateurs, récupérez le tableau et affichez les colonnes et lignes selon le cas.
   
 **Pour afficher une table de contenu de dossier**
   

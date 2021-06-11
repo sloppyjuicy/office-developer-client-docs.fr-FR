@@ -22,24 +22,24 @@ ms.locfileid: "33410748"
   
 Microsoft Excel appelle généralement des fonctions XLL pendant le recalcul normal du manuel, ou une partie de celui-ci si le calcul est sous le contrôle d’une macro. N’oubliez pas que la fonction peut ne pas résider dans une formule de cellule, mais peut faire partie d’une définition de plage nommée ou d’une expression de mise en forme conditionnelle.
   
-Il existe deux cas où une fonction peut être appelée à partir d’une boîte de dialogue Excel. La première est la **boîte de dialogue Arguments de** la fonction coller, dans laquelle les utilisateurs peuvent construire un appel de fonction un argument à la fois. L’autre est lorsque les formules sont modifiées et réentées par Excel dans la **boîte** de dialogue Remplacer. Pour la **boîte de dialogue Arguments de** la fonction coller, vous ne souhaitez peut-être pas que votre fonction s’exécute normalement. Cela peut être dû au fait que l’exécution prend beaucoup de temps et que vous ne souhaitez pas ralentir l’utilisation de la boîte de dialogue. 
+Il existe deux cas où une fonction peut être appelée à partir d’une boîte Excel dialogue. La première est la **boîte de dialogue Arguments de** la fonction coller, dans laquelle les utilisateurs peuvent construire un appel de fonction un argument à la fois. L’autre est lorsque les formules sont modifiées et réentées par Excel dans la **boîte de** dialogue Remplacer. Pour la **boîte de dialogue Arguments de** la fonction coller, vous ne souhaitez peut-être pas que votre fonction s’exécute normalement. Cela peut être dû au fait que l’exécution prend beaucoup de temps et que vous ne souhaitez pas ralentir l’utilisation de la boîte de dialogue. 
   
-La boîte de dialogue  **Coller la** fonction et la boîte de dialogue Remplacer ont le nom de classe Windows **bosa_sdm_XL** n, où n est un nombre. Windows fournit une fonction API, **GetClassName**, qui obtient ce nom à partir d’un handle Windows, un type de variable HWND. Il fournit également une autre fonction, **EnumWindows,** qui appelle une fonction de rappel fournie (dans votre DLL) une fois pour chaque fenêtre de niveau supérieur actuellement ouverte.
+La boîte de dialogue  **Coller la** fonction et la boîte de dialogue Remplacer ont le Windows de classe bosa_sdm_XL **n,** où n est un nombre. Windows fournit une fonction API, **GetClassName,** qui obtient ce nom à partir d’un handle Windows, un type de variable HWND. Il fournit également une autre fonction, **EnumWindows,** qui appelle une fonction de rappel fournie (dans votre DLL) une fois pour chaque fenêtre de niveau supérieur actuellement ouverte.
   
 La fonction de rappel doit effectuer uniquement les étapes suivantes :
   
-1. Vérifiez si le parent de cette fenêtre est l’instance actuelle d’Excel (si plusieurs instances sont en cours d’exécution).
+1. Vérifiez si le parent de cette fenêtre est l’instance actuelle de Excel (au cas où plusieurs instances s’exécutent).
     
 2. Obtenez le nom de classe à partir du handle transmis par Windows.
     
 3. Vérifiez si le nom de la classe est au **bosa_sdm_XL** n.
     
-4. Si vous devez faire la distinction entre les deux boîtes de dialogue, vérifiez si le titre de la boîte de dialogue contient du texte d’identification. Le titre de la fenêtre est obtenu à l’aide de l’appel de l’API Windows **GetWindowText**.
+4. Si vous devez faire la distinction entre les deux boîtes de dialogue, vérifiez si le titre de la boîte de dialogue contient du texte d’identification. Le titre de la fenêtre est obtenu à l’aide Windows’API **getWindowText**.
     
 Le code C++ suivant montre une classe et un rappel à passer à Windows qui effectue ces étapes. Cette fonction est appelée par les fonctions qui appellent le test spécifiquement pour l’une des boîtes de dialogue concernées. 
   
 > [!NOTE]
-> Les titres de fenêtre des versions ultérieures d’Excel peuvent modifier et invalider ce code. Notez également que la **définition window_title_text** **sur NULL** a pour effet d’ignorer le titre de la fenêtre dans la recherche de rappel. 
+> Les titres de fenêtre Excel versions ultérieures peuvent modifier et invalider ce code. Notez également que la **définition window_title_text** **sur NULL** a pour effet d’ignorer le titre de la fenêtre dans la recherche de rappel. 
   
 ```cs
 #define CLASS_NAME_BUFFSIZE  50

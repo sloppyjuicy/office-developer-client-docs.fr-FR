@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
@@ -61,7 +61,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L MAPI_UNICODE a été définie et l’objet d’administration du service de message ne prend pas en charge Unicode.
+> L’MAPI_UNICODE a été définie et l’objet d’administration du service de message ne prend pas en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 
@@ -71,7 +71,7 @@ La **méthode IMsgServiceAdmin::GetLastError** récupère des informations sur l
 
 Vous pouvez utiliser la structure **MAPIERROR,** si MAPI en fournit une, pointée par le paramètre  _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler sur l’erreur. Dans ce cas, **GetLastError** renvoie un pointeur vers NULL dans  _lppMAPIError_ à la place. 
   
-Pour plus d’informations **sur la méthode GetLastError,** voir [Using Extended Errors](mapi-extended-errors.md).
+Pour plus d’informations sur **la méthode GetLastError,** voir [Using Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

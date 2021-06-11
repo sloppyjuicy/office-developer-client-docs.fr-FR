@@ -19,13 +19,13 @@ ms.locfileid: "33414661"
 
 Cette section suggère des tests que vous pouvez faire avant de libérer votre fournisseur Outlook Social Connector (OSC). Vous pouvez commencer à faire référence aux rubriques de cette section et effectuer certains de ces tests au cours de vos phases de développement et de test, mais vous devriez avoir effectué ces tests au moment de la publication. 
 
-Ces tests vérifient les fonctionnalités de base de votre implémentation des interfaces du fournisseur OSC par rapport aux fonctionnalités que vous spécifiez pour le fournisseur OSC. En outre, même si OSC est une fonctionnalité partagée par plusieurs applications clientes Office, ces tests utilisent Outlook comme client pour tester les fonctionnalités fondamentales. Vous devez déterminer si d’autres tests sont nécessaires pour les fonctionnalités propres à votre fournisseur.
+Ces tests vérifient les fonctionnalités de base de votre implémentation des interfaces du fournisseur OSC par rapport aux fonctionnalités que vous spécifiez pour le fournisseur OSC. En outre, même si OSC est une fonctionnalité partagée par plusieurs applications clientes Office, ces tests utilisent Outlook comme client pour tester les fonctionnalités fondamentales. Vous devez déterminer si d’autres tests sont nécessaires pour les fonctionnalités spécifiques à votre fournisseur.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Test du](testing-deployment.md)déploiement : décrit les scénarios que vous devez tester autour de l’installation et de la désinstallation d’un fournisseur OSC.
     
-- [Test des fonctionnalités,](testing-capabilities-authentication-and-configuration.md)de l’authentification et de la configuration : décrit les tests d’obtention de fonctionnalités et les scénarios de configuration d’un compte et d’authentification d’un utilisateur pour un réseau social.
+- [Test des fonctionnalités,](testing-capabilities-authentication-and-configuration.md)de l’authentification et de la configuration : décrit les tests d’obtention des fonctionnalités et les scénarios de configuration d’un compte et d’authentification d’un utilisateur pour un réseau social.
     
 - [Test des](testing-following-and-stop-following-persons.md)personnes Stop-Following suivantes : décrit les scénarios pour tester la capacité du fournisseur OSC à ajouter une personne en tant qu’ami ou à supprimer un ami du réseau social. 
     

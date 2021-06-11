@@ -39,11 +39,11 @@ ULONG MAPIFreeBuffer(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpBuffer_
   
-> [in] Pointeur vers une mémoire tampon précédemment allouée. Si NULL est transmis dans  _le paramètre lpBuffer,_ **MAPIFreeBuffer** ne fait rien. 
+> [in] Pointeur vers une mémoire tampon précédemment allouée. Si NULL est transmis dans le  _paramètre lpBuffer,_ **MAPIFreeBuffer** ne fait rien. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

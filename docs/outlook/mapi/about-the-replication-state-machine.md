@@ -19,14 +19,14 @@ ms.locfileid: "33416481"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique contient une vue d’ensemble de la machine à états pour la réplication des données Microsoft Outlook 2013 et Microsoft Outlook 2010.
+Cette rubrique contient une vue d’ensemble de la machine à états pour Microsoft Outlook 2013 et Microsoft Outlook 2010 réplication des données.
   
 > [!NOTE]
-> L’API de réplication doit être entièrement implémentée conformément aux instructions de cette rubrique afin d’être utile ou prise en charge. L’API de réplication est disponible exclusivement pour répliquer les modifications Outlook 2013 ou Outlook 2010 vers et à partir d’un serveur. 
+> L’API de réplication doit être entièrement implémentée conformément aux instructions de cette rubrique afin d’être utile ou prise en charge. L’API de réplication est disponible exclusivement pour répliquer Outlook 2013 ou Outlook 2010 vers et à partir d’un serveur. 
   
 ## <a name="iostx-and-the-state-machine"></a>IOSTX et la machine à états
 
-Un client appelle **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd,](iostx-syncend.md)** **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** et **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** dans une séquence pour synchroniser les dossiers et les éléments Outlook 2013 ou Outlook 2010 entre un magasin local et un serveur. La séquence d’appels réelle dépend des données qui doivent être répliquées (par exemple, une hiérarchie de dossiers Outlook 2013 ou Outlook 2010, d’un dossier Outlook 2013 ou Outlook 2010, des éléments de courrier, des éléments de calendrier, et ainsi de suite) et du sens de la synchronisation (que ce soit le téléchargement à partir du magasin local vers le serveur ou le téléchargement du serveur vers la boutique locale). Voici une séquence d’appels classique : 
+Un client appelle **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd,](iostx-syncend.md)** **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** et **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** dans une séquence pour synchroniser les dossiers et éléments Outlook 2013 ou Outlook 2010 entre un magasin local et un serveur. La séquence réelle d’appels dépend des données qui doivent être répliquées (par exemple, une hiérarchie de dossiers Outlook 2013 ou Outlook 2010, un dossier Outlook 2013 ou Outlook 2010, des éléments de courrier, des éléments de calendrier, et ainsi de suite) et du sens de la synchronisation (que ce soit le téléchargement à partir du magasin local vers le serveur ou le téléchargement du serveur vers le magasin local). Voici une séquence d’appels classique : 
   
 1. Le client appelle **IOSTX::SyncBeg** pour commencer la réplication, en spécifiant un identificateur d’état et un pointeur vers une adresse d’une structure de données correspondante. 
     
@@ -49,13 +49,13 @@ Un client appelle **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd,](io
 |**État** <br/> |**Données répliquées** <br/> |**Identificateur d’état** <br/> |**Structure des données** <br/> |
 |[État inactif](idle-state.md) <br/> | *Aucune*  <br/> |**LR_SYNC_IDLE** <br/> | *Aucune*  <br/> |
 |[Synchronisation de l’état](synchronize-state.md) <br/> |Dossiers ou éléments  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
-|[Télécharger l’état de la hiérarchie](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
-|[Télécharger l’état du dossier](upload-folder-state.md) <br/> |Folder  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
+|[Télécharger hiérarchie](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
+|[Télécharger dossier](upload-folder-state.md) <br/> |Dossier  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
 |[Synchroniser l’état du contenu](synchronize-contents-state.md) <br/> |Éléments  <br/> |**LR_SYNC_CONTENTS** <br/> |**[SYNCCONT](synccont.md)** <br/> |
-|[Charger l’état de la table](upload-table-state.md) <br/> |Éléments  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
-|[Charger l’état du message](upload-message-state.md) <br/> |Item  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
-|[Télécharger l’état de lecture](upload-read-status-state.md) <br/> |Éléments  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |**[UPREAD](upread.md)** <br/> |
-|[Télécharger l’état de suppression d’état](upload-delete-status-state.md) <br/> |Éléments  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |**[UPDEL](updel.md)** <br/> |
+|[Télécharger table](upload-table-state.md) <br/> |Éléments  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
+|[Télécharger message](upload-message-state.md) <br/> |Item  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
+|[Télécharger statut de lecture](upload-read-status-state.md) <br/> |Éléments  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |**[UPREAD](upread.md)** <br/> |
+|[Télécharger l’état de suppression](upload-delete-status-state.md) <br/> |Éléments  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |**[UPDEL](updel.md)** <br/> |
 |[Télécharger l’état de la hiérarchie](download-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
 |[Télécharger l’état de la table](download-table-state.md) <br/> |Éléments  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |**[DNTBL](dntbl.md)** <br/> |
 |[Télécharger l’état d’en-tête du message](download-message-header-state.md) <br/> |En-tête de message  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
@@ -76,10 +76,10 @@ Le diagramme suivant illustre les transitions d’état qui se produisent lors d
 |1.  <br/> |Le client lance le chargement de hiérarchie avec **IOSTX::SyncBeg**.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |2.  <br/> |Outlook 2013 ou Outlook 2010 remplit **UPHIER** avec des informations pour le client. Cela inclut l’initialisation des paramètres [out] :  *iEnt*  est définie sur 0 et  *cEnt*  sur le nombre de dossiers dans la hiérarchie qui doivent être téléchargés.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |3.  <br/> |Le client charge la hiérarchie réelle. Par exemple, si  *cEnt*  est 10, pour chacun des 10 dossiers, le client appelle **IOSTX::SyncBeg**, en spécifiant l’identificateur d’état et la structure de données appropriés pour le téléchargement d’un dossier.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
-|4.  <br/> |Outlook 2013 ou Outlook 2010 remplit **UPFLD** en initialisant ses paramètres [out], y compris la raison du chargement du dossier, le pointeur vers l’objet dossier et l’ID d’entrée pour le dossier.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
+|4.  <br/> |Outlook 2013 ou Outlook 2010 remplit **UPFLD** en initialisant ses paramètres [out], y compris la raison du chargement du dossier, le pointeur vers l’objet dossier et l’ID d’entrée du dossier.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
 |5.  <br/> |Le client charge le dossier spécifié.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
 |6.  <br/> |Le client avertit le magasin local de la fin du chargement du dossier : en cas de réussite, le client définit le paramètre [in]  *ulFlags*  dans **UPFLD** avec **UPF_OK,** puis appelle **IOSTX::SetSyncResult (S_OK)** et **IOSTX::SyncEnd**. En cas d’échec, le client ne définirait pas  *ulFlags*  avec **l’UPF_OK** défaut. Il appelle **IOSTX::SetSyncResult**, en passant la valeur **HRESULT** et **IOSTX::SyncEnd**.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
-|7.  <br/> |Si **UPF_OK** est définie, Outlook 2013 ou Outlook 2010 effacera la demande interne de téléchargement du dossier. Ensuite, quel que soit l’état  *des ulFlags,*  il nettoie toutes les informations de comptabilité internes. Bien qu’il existe encore des dossiers dans la hiérarchie à télécharger *(iEnt*  est toujours inférieur à  *cEnt),* le client et Outlook 2013 ou Outlook 2010 répètent les étapes 3 à 7.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
+|7.  <br/> |Si **UPF_OK** est définie, Outlook 2013 ou Outlook 2010 effacera la demande interne de téléchargement du dossier. Ensuite, quel que soit l’état  *des ulFlags,*  il nettoie toutes les informations de comptabilité internes. Bien qu’il existe encore des dossiers dans la hiérarchie à télécharger *(iEnt* est toujours inférieur à *cEnt),* le client et Outlook 2013 ou Outlook 2010 répètent les étapes 3 à 7.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
 |8.  <br/> |Le client informe le magasin local de la fin du chargement de la hiérarchie : en cas de réussite, le client définit l’indicateur [in] dans **UPHIER** avec **UPH_OK,** puis appelle **IOSTX::SetSyncResult (S_OK)** et **IOSTX::SyncEnd**. En cas d’échec, le client ne définirait pas **l’UPH_OK** défaut. Il appelle **IOSTX::SetSyncResult**, en passant la valeur **HRESULT** et **IOSTX::SyncEnd**.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |9.  <br/> |Si **UPH_OK** est définie, Outlook 2013 ou Outlook 2010 effacera la demande interne de téléchargement de la hiérarchie. Ensuite, quel que soit l’état  *des ulFlags,*  il nettoie toutes les informations de comptabilité internes.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
    

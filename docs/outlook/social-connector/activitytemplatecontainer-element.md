@@ -36,7 +36,7 @@ Le tableau suivant décrit les éléments enfants de **activityTemplate**, qui d
 |**type** <br/> |Type d’activité, tel qu’une mise à jour de l’état, d’une photo ou d’un document.  <br/> |
 |**data** <br/> |Toute information supplémentaire pour l’élément de flux, telles que des images, du texte ou des liens.  <br/> |
    
-Pour obtenir un exemple de données XML de flux d’activités, voir [l’exemple XML des flux d’activités](activity-feed-xml-example.md)
+Pour obtenir un exemple de XML de flux d’activités, voir [l’exemple XML des flux d’activités](activity-feed-xml-example.md)
   
 ## <a name="see-also"></a>Voir aussi
 
@@ -45,6 +45,6 @@ Pour obtenir un exemple de données XML de flux d’activités, voir [l’exempl
 - [Variables de modèle](template-variables.md)  
 - [Recommandations en matière d’affichage correct des activités](guidelines-for-properly-displaying-activities.md)  
 - [XML pour les activités](xml-for-activities.md)  
-- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Outlook Schéma XML du fournisseur Social Connector](outlook-social-connector-provider-xml-schema.md)
 - [Développement d'un fournisseur avec le schéma XML OSC](developing-a-provider-with-the-osc-xml-schema.md)
 

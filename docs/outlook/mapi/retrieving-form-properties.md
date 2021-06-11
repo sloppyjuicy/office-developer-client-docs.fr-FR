@@ -21,7 +21,7 @@ ms.locfileid: "33412918"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour émettre une requête significative pour un type de message personnalisé, une application doit connaître les propriétés attendues sur ce message. Pour obtenir la liste des propriétés qu’une classe de message personnalisée utilise, une application cliente interroge le gestionnaire de formulaire MAPI. Le gestionnaire de formulaires obtient ces informations à partir du fichier de configuration de formulaire approprié afin que les applications clientes peuvent utiliser ces informations sans la surcharge d’activation du serveur de formulaires lui-même. Pour ce faire, l’application cliente appelle la [méthode IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) comme suit : 
+Pour émettre une requête significative pour un type de message personnalisé, une application doit connaître les propriétés attendues sur ce message. Pour obtenir la liste des propriétés qu’une classe de message personnalisée utilise, une application cliente interroge le gestionnaire de formulaire MAPI. Le gestionnaire de formulaires obtient ces informations à partir du fichier de configuration de formulaire approprié afin que les applications clientes peuvent utiliser ces informations sans la surcharge d’activation du serveur de formulaires lui-même. Pour ce faire, l’application cliente appelle la méthode [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) comme suit : 
   
 ```cpp
 IMAPIFormInfo *pfrminf = NULL;

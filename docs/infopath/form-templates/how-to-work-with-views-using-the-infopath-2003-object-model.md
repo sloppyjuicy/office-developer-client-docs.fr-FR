@@ -39,7 +39,7 @@ L'interface [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Int
 |[SelectText,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SelectText.aspx) méthode  <br/> |Sélectionne le texte contenu dans le nœud XML spécifié de la vue.  <br/> |
 |[SwitchView,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.SwitchView.aspx) méthode  <br/> |Bascule le formulaire InfoPath vers la vue spécifiée.  <br/> |
 |Propriété [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Name.aspx)  <br/> |Renvoie une valeur chaîne indiquant le nom de la vue active.  <br/> |
-|[Window,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Window.aspx) propriété  <br/> |Renvoie une référence à [l’interface WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) qui accède à **la fenêtre** associée à l’affichage.  <br/> |
+|[Window,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Window.aspx) propriété  <br/> |Renvoie une référence à [l’interface WindowObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WindowObject.aspx) qui accède à **la fenêtre** associée à la vue.  <br/> |
    
 > [!NOTE]
 > [!REMARQUE] Le modèle objet compatible InfoPath 2003 fournit également l'interface [ViewInfosCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewInfosCollection.aspx) qui peut être utilisée pour obtenir des informations sur toutes les vues mises en œuvre dans un formulaire. 

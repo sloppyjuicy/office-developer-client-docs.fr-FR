@@ -29,7 +29,7 @@ La **fonction Rand** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Seed*  <br/> |Expression d’un groupe de valeurs qui donne la valeur de début. Si  *Seed*  n’est pas spécifié, une valeur d’amorçage est affectée de manière aléatoire.  <br/> |
+| *Seed*  <br/> |Expression d’un groupe de valeurs qui donne la valeur de l’amorçage. Si  *Seed*  n’est pas spécifié, une valeur d’amorçage est affectée de manière aléatoire.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

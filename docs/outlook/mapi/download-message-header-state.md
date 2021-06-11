@@ -35,7 +35,7 @@ ms.locfileid: "33417118"
   
 ## <a name="description"></a>Description
 
-Pendant cet état, le client met à jour l’en-tête d’un message dans un magasin local. Le magasin local entre cet état sur **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** et se quitte lorsque **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** est appelé. Pendant cet état, Outlook initialise les membres de la structure de données **HDRSYNC** associée avec des informations sur l’en-tête d’un message. Le client télécharge d’abord l’élément de message complet à partir du serveur, puis met à jour l’en-tête de l’élément de message localement. 
+Pendant cet état, le client met à jour l’en-tête d’un message dans un magasin local. Le magasin local entre cet état sur **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** et se quitte lorsque **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** est appelé. Au cours de cet état, Outlook initialise les membres de la structure de données **HDRSYNC** associée avec des informations sur l’en-tête d’un message. Le client télécharge d’abord l’élément de message complet à partir du serveur, puis met à jour l’en-tête de l’élément de message localement. 
   
 Lorsque la synchronisation se termine, le client définit les résultats du téléchargement. Le magasin local revient à l’état inactif.
   

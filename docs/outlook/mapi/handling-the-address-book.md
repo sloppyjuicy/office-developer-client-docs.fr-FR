@@ -35,7 +35,7 @@ Gestion du carnet d'adresses MAPI peut inclure extraction des entr�es � util
     
 - [Copie d’un destinataire](copying-a-recipient.md): décrit comment copier des destinataires d’un conteneur dans un autre conteneur ou dans le même conteneur.
     
-- [Suppression d’un destinataire](deleting-a-recipient.md): décrit comment supprimer une ou plusieurs entrées de carnet d’adresses d’un conteneur modifiable.
+- [Suppression d’un destinataire :](deleting-a-recipient.md)décrit comment supprimer une ou plusieurs entrées de carnet d’adresses d’un conteneur modifiable.
     
 - [Préparation](preparing-a-recipient.md)d’un destinataire : décrit comment préparer les destinataires en convertissant leurs identificateurs d’entrée à court terme en identificateurs d’entrée à long terme et éventuellement en ajoutant, modifiant ou réordant des propriétés.
     
@@ -49,6 +49,6 @@ Gestion du carnet d'adresses MAPI peut inclure extraction des entr�es � util
     
 - [Résolution d’un nom de destinataire](resolving-a-recipient-name.md): décrit comment résoudre un nom dans un carnet d’adresses.
     
-- [Développement des listes de distribution](expanding-distribution-lists.md): décrit comment inciter MAPI à développer une liste de distribution.
+- [Développement des listes de distribution](expanding-distribution-lists.md): explique comment inviter MAPI à développer une liste de distribution.
     
 

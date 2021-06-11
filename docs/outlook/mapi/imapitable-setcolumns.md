@@ -34,7 +34,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpPropTagArray_
   
@@ -46,7 +46,7 @@ ULONG ulFlags
     
 TBL_ASYNC 
   
-> Demande que l’opération de paramètre de colonne soit effectuée de manière asynchrone, ce qui peut entraîner le retour de **SetColumns** avant que l’opération ne soit entièrement terminée. 
+> Demande que l’opération de paramètre de colonne soit effectuée de manière asynchrone, ce qui peut entraîner le retour de **SetColumns** avant que l’opération soit entièrement terminée. 
     
 TBL_BATCH 
   
@@ -64,7 +64,7 @@ MAPI_E_BUSY
     
 ## <a name="remarks"></a>Remarques
 
-L’ensemble de colonnes d’un tableau est le groupe de propriétés qui constitue les colonnes des lignes du tableau. Il existe un ensemble de colonnes par défaut pour chaque type de tableau. Le jeu de colonnes par défaut est composé des propriétés que l’implémenteur de table inclut automatiquement. Les utilisateurs du tableau peuvent modifier ce jeu par défaut en appelant la **méthode IMAPITable::SetColumns.** Ils peuvent demander que d’autres colonnes soient ajoutées à l’ensemble par défaut si l’implémenteur de tableau les prend en charge pour que les colonnes soient supprimées ou que l’ordre des colonnes soit modifié. **SetColumns** spécifie les colonnes qui sont renvoyées avec chaque ligne et l’ordre de ces colonnes dans la ligne. 
+L’ensemble de colonnes d’un tableau est le groupe de propriétés qui constitue les colonnes des lignes du tableau. Il existe un jeu de colonnes par défaut pour chaque type de tableau. L’ensemble de colonnes par défaut est composé des propriétés que l’implémenteur de table inclut automatiquement. Les utilisateurs du tableau peuvent modifier ce jeu par défaut en appelant la **méthode IMAPITable::SetColumns.** Ils peuvent demander que d’autres colonnes soient ajoutées à l’ensemble par défaut si l’implémenteur de tableau les prend en charge, que les colonnes soient supprimées ou que l’ordre des colonnes soit modifié. **SetColumns** spécifie les colonnes qui sont renvoyées avec chaque ligne et l’ordre de ces colonnes dans la ligne. 
   
 La réussite de **l’opération SetColumns** n’apparaît qu’après qu’un appel ultérieur a été effectué pour récupérer les données de la table. C’est alors que les erreurs sont signalées. 
   
@@ -80,7 +80,7 @@ Ne générez pas de notifications pour les lignes de tableau qui sont masquées 
   
 Lors de l’envoi de notifications  de table, l’ordre des propriétés dans le membre de ligne de la structure TABLE_NOTIFICATION et l’ordre spécifié par l’appel **SetColumns** le plus récent doivent être identiques au moment où la demande de notification [a](table_notification.md) été envoyée. 
   
-Un autre indicateur, TBL_BATCH, permet aux appelants de spécifier que l’implémenteur de table peut différer l’évaluation des résultats de l’opération jusqu’à une date ultérieure. Dans la mesure du possible, les appelants doivent définir cet indicateur, car l’opération par lot améliore les performances.
+Un autre indicateur, TBL_BATCH, permet aux appelants de spécifier que l’implémenteur de table peut différer l’évaluation des résultats de l’opération jusqu’à une date ultérieure. Dans la mesure du possible, les appelants doivent définir cet indicateur car l’opération par lot améliore les performances.
   
 Il est souvent pratique pour les appelants de réserver certaines colonnes dans le jeu de lignes récupéré pour que les valeurs soient ajoutées ultérieurement. Pour ce faire, les appelants placent **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) aux positions souhaitées dans le tableau de balises de propriétés transmis à **SetColumns**; La table est ensuite resserré **PR_NULL** à ces positions dans toutes les lignes récupérées avec **QueryRows**.
   
@@ -99,7 +99,7 @@ La macro MVI_PROP définira MVI_FLAG pour la propriété, ce qui transformera la
   
 Vous pouvez inclure des balises de propriété définies **PR_NULL** dans le tableau de balises de propriétés pour réserver de l’espace dans le jeu de colonnes. La réservation d’espace vous permet d’ajouter un jeu de colonnes sans devoir allouer un nouveau tableau de balises de propriétés. 
   
-Lorsque votre appel à **SetColumns** modifie l’ordre des colonnes d’un tableau et qu’une ou plusieurs de ces colonnes représentent une propriété à valeurs multiples, il est possible d’augmenter le nombre de lignes du tableau. Si cela se produit, tous les signets de la table sont ignorés. Pour plus d’informations sur l’impact des colonnes à valeurs multiples sur les tableaux, voir [Working with Multivalued Columns](working-with-multivalued-columns.md).
+Lorsque votre appel à **SetColumns** modifie l’ordre des colonnes d’un tableau et qu’une ou plusieurs de ces colonnes représentent une propriété à valeurs multiples, il est possible d’augmenter le nombre de lignes du tableau. Si cela se produit, tous les signets du tableau sont ignorés. Pour plus d’informations sur l’impact des colonnes à valeurs multiples sur les tableaux, voir [Working with Multivalued Columns](working-with-multivalued-columns.md).
   
 La définition de colonnes est une opération synchrone par défaut. Toutefois, vous pouvez autoriser la table à reporter l’opération jusqu’à ce que les données soient nécessaires en TBL_BATCH’indicateur. La définition de cet indicateur peut améliorer les performances. Un autre indicateur, TBL_ASYNC, rend l’opération asynchrone, ce qui permet à **SetColumns** de revenir avant la fin de l’opération. Pour déterminer quand l’achèvement se produit, appelez [IMAPITable::GetStatus](imapitable-getstatus.md).
   

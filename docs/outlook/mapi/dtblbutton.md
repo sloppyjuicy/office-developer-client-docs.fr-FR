@@ -64,11 +64,11 @@ MAPI_UNICODE
 
 Une structure **DTBLBUTTON** décrit un bouton d’un contrôle qui, lorsqu’on clique dessus, permet à un utilisateur de commencer une opération. En règle générale, le fait de cliquer sur un bouton entraîne l’affichage d’une boîte de dialogue modale ou l’appel d’une tâche par programme. Les fournisseurs de services peuvent implémenter n’importe quoi par le biais d’un contrôle de bouton. Si le bouton est censé effectuer une tâche basée sur les valeurs d’autres contrôles, ces contrôles doivent avoir DT_SET_IMMEDIATE indicateur. 
   
-Le **membre ulbLpszLabel** est la position dans la mémoire de la chaîne de caractères qui s’affiche sur le bouton. Les fournisseurs de services peuvent ajouter un caractère « eter » () pour indiquer un accélérateur &amp; Windows dans l’étiquette du bouton. Appuyer sur une touche d’accélérateur a le même effet que de cliquer sur le bouton. 
+Le **membre ulbLpszLabel** est la position dans la mémoire de la chaîne de caractères qui s’affiche sur le bouton. Les fournisseurs de services peuvent ajouter un caractère « eter » () pour indiquer un Windows &amp; dans l’étiquette du bouton. Appuyer sur une touche d’accélérateur a le même effet que de cliquer sur le bouton. 
   
 Le **membre ulPRControl** décrit une propriété d’objet qui, lorsqu’elle est ouverte avec la méthode **IMAPIProp::OpenProperty,** renvoie un pointeur vers un objet de contrôle. L’implémentation d’un objet de contrôle qui prend en charge l’interface **IMAPIControl** est un moyen d’étendre l’ensemble de fonctionnalités MAPI et de définir l’opération ou la tâche qui se produit lorsque l’utilisateur clique sur le bouton. **IMAPIControl fournit** deux méthodes de manipulation des boutons : [GetState](imapicontrol-getstate.md) pour désactiver ou activer les boutons et [Activate](imapicontrol-activate.md) pour gérer les clics de bouton. 
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

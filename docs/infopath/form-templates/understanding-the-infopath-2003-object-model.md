@@ -19,7 +19,7 @@ ms.locfileid: "33416656"
 
 Cette section présente le modèle objet pour les solutions InfoPath avec code managé et décrit les tâches de programmation courantes.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Modèles objet compatibles avec InfoPath 2003](infopath-2003-compatible-object-models.md)
   
@@ -49,7 +49,7 @@ Cette section présente le modèle objet pour les solutions InfoPath avec code m
   
 > Présente la création de gestionnaires d'événements qui réagissent aux événements se produisant lorsque l'utilisateur remplit un formulaire.
     
-[Utiliser des fenêtres de formulaire à l’aide du modèle objet InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+[Utiliser des formulaires Windows l’aide du modèle objet InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
   
 > Présente l'utilisation de fenêtres de formulaires
     

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21002267-1400-4398-b937-f5b289cf0ed2
-description: Stocke l’éumération du thème Microsoft Visio intégré appliqué au document, sous la mesure d’un nombre. Lorsqu’un nouveau thème est choisi pour le document, la cellule ThemeIndex du document et toutes les pages et formes qu’il contient est mise à jour avec l’index du thème intégré.
+description: Stocke l’éumération du thème microsoft Visio intégré appliqué au document, sous la mesure d’un nombre. Lorsqu’un nouveau thème est choisi pour le document, la cellule ThemeIndex du document et toutes les pages et formes qu’il contient est mise à jour avec l’index du thème intégré.
 ms.openlocfilehash: 6ddede864a54fbd7127552499d3ee1ae3d36efc1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33411910"
 ---
 # <a name="themeindex-cell-theme-properties-section"></a>ThemeIndex Cell (Theme Properties Section)
 
-Stocke l’éumération du thème Microsoft Visio intégré appliqué au document, sous la mesure d’un nombre. Lorsqu’un nouveau thème est choisi pour le document, la cellule **ThemeIndex** du document et toutes les pages et formes qu’il contient est mise à jour avec l’index du thème intégré. 
+Stocke l’éumération du thème microsoft Visio intégré appliqué au document, sous la mesure d’un nombre. Lorsqu’un nouveau thème est choisi pour le document, la cellule **ThemeIndex** du document et toutes les pages et formes qu’il contient est mise à jour avec l’index du thème intégré. 
   
 ## <a name="remarks"></a>Remarques
 

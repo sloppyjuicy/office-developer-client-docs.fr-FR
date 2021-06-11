@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f61960f7-e018-4d2e-8e32-426ed46d9064
-description: Cette section décrit les séquences d’appels classiques d’Outlook Social Connector (OSC) des membres dans les interfaces d’extensibilité du fournisseur OSC, qu’un fournisseur OSC implémente.
+description: Cette section décrit les séquences d’appels classiques Outlook Social Connector (OSC) des membres dans les interfaces d’extensibilité du fournisseur OSC, qu’un fournisseur OSC implémente.
 ms.openlocfilehash: f7829b710d6840ccd1fa0f990d6e03b2eb879431
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,21 +17,21 @@ ms.locfileid: "33413611"
 ---
 # <a name="osc-typical-calling-sequences"></a>Séquences d’appels classiques OSC
 
-Cette section décrit les séquences d’appels classiques d’Outlook Social Connector (OSC) des membres dans les interfaces d’extensibilité du fournisseur OSC, qu’un fournisseur OSC implémente. Les séquences d’appels classiques illustrent comment et quand OSC utilise ces interfaces et méthodes, pour vous aider à mieux déterminer comment implémenter un membre donné sur une interface d’extensibilité de fournisseur. La séquence d’appels réelle peut varier en fonction des fonctionnalités renvoyées par la méthode [ISocialProvider::GetCapabilities.](isocialprovider-getcapabilities.md) Voici quelques exemples de fonctionnalités : 
+Cette section décrit les séquences d’appels classiques Outlook Social Connector (OSC) des membres dans les interfaces d’extensibilité du fournisseur OSC, qu’un fournisseur OSC implémente. Les séquences d’appels classiques illustrent comment et quand OSC utilise ces interfaces et méthodes, pour vous aider à mieux déterminer comment implémenter un membre donné sur une interface d’extensibilité de fournisseur. La séquence d’appels réelle peut varier en fonction des fonctionnalités renvoyées par la méthode [ISocialProvider::GetCapabilities.](isocialprovider-getcapabilities.md) Voici quelques exemples de fonctionnalités : 
   
 - Prise en charge par les fournisseurs pour l’obtention, la mise en cache ou la recherche dynamique d’amis et d’activités à partir du réseau social.
     
-- L’interface utilisateur que l’OSC doit afficher pour l’utilisateur.
+- Interface utilisateur que l’OSC doit afficher pour l’utilisateur.
     
 - Type d’authentification (par exemple, authentification basée sur les formulaires) que l’OSC doit utiliser.
     
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
-- [Authentification de](basic-authentication.md)base : décrit la séquence d’appels classique de l’OSC pour prendre en charge un utilisateur Office qui se connecte à un réseau social, si le fournisseur OSC prend en charge l’authentification de base.
+- [Authentification](basic-authentication.md)de base : décrit la séquence d’appels classique de l’OSC pour prendre en charge un utilisateur Office qui se connecte à un réseau social, si le fournisseur OSC prend en charge l’authentification de base.
     
-- [Authentification](forms-based-authentication.md)basée sur les formulaires : décrit la séquence d’appels classique de l’OSC pour prendre en charge un utilisateur Office qui se connecte à un réseau social, si le fournisseur OSC prend en charge l’authentification basée sur les formulaires.
+- [](forms-based-authentication.md)Authentification basée sur les formulaires : décrit la séquence d’appels classique de l’OSC pour prendre en charge un utilisateur Office qui se connecte à un réseau social, si le fournisseur OSC prend en charge l’authentification basée sur les formulaires.
     
-- [Obtention d’activités](getting-activities.md): décrit la séquence d’appels classique de l’OSC pour synchroniser les activités des amis de l’utilisateur Office à partir d’un réseau social, si le fournisseur OSC du réseau social prend en charge la synchronisation des activités.
+- [Obtention](getting-activities.md)d’activités : décrit la séquence d’appels classique de l’OSC pour synchroniser les activités des amis de l’utilisateur Office à partir d’un réseau social, si le fournisseur OSC du réseau social prend en charge la synchronisation des activités.
     
 - [Obtention d’informations](getting-friends-information.md)sur les amis : décrit la séquence d’appels classique de l’OSC pour synchroniser la liste des amis de l’utilisateur Office à partir d’un réseau social, si le fournisseur OSC du réseau social prend en charge la synchronisation des contacts mise en cache.
     

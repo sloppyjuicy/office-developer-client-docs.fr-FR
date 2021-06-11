@@ -36,7 +36,7 @@ Définit le MVI_FLAG d’une propriété spécifiée.
 MVI_PROP (tag)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _tag_
   

@@ -29,7 +29,7 @@ Spécifie de laisser une copie d’un message sur le serveur pour un compte POP.
    
 ## <a name="remarks"></a>Remarques
 
-Le tableau suivant répertorie les valeurs possibles. Pour plus d’informations sur les [constantes, voir Constantes (API](constants-account-management-api.md) de gestion des comptes). 
+Le tableau suivant répertorie les valeurs possibles. Voir [Constantes (API de gestion des comptes)](constants-account-management-api.md) pour plus d’informations sur les constantes. 
   
 |**Valeurs possibles**|**Description**|
 |:-----|:-----|

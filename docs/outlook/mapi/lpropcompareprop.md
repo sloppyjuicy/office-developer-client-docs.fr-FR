@@ -40,7 +40,7 @@ LONG LPropCompareProp(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpSPropValueA_
   
@@ -66,7 +66,7 @@ Pour les types de propriétés qui n’ont aucun ordre intrinsèque, comme les t
 
 Utilisez la **fonction LPropCompareProp** uniquement si les types des deux propriétés à comparer sont identiques. 
   
-Avant d’appeler **LPropCompareProp,** une application cliente ou un fournisseur de services doit d’abord récupérer les propriétés à des fins de comparaison avec un appel à la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md) Lorsqu’un client ou un fournisseur appelle **LPropCompareProp,** la fonction examine d’abord les balises de propriété pour s’assurer que la comparaison des valeurs de propriété est valide. La fonction compare ensuite les valeurs de propriété, en renvoyant une valeur appropriée. 
+Avant **d’appeler LPropCompareProp,** une application cliente ou un fournisseur de services doit d’abord récupérer les propriétés à des fins de comparaison avec un appel à la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md) Lorsqu’un client ou un fournisseur appelle **LPropCompareProp,** la fonction examine d’abord les balises de propriété pour s’assurer que la comparaison des valeurs de propriété est valide. La fonction compare ensuite les valeurs des propriétés, en renvoyant une valeur appropriée. 
   
 Si les valeurs de propriété sont différentes, **LPropCompareProp** détermine celle qui est la plus grande. Les propriétés **que LPropCompareProp** compare n’ont pas besoin d’appartenir au même objet. 
   

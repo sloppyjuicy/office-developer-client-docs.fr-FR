@@ -44,7 +44,7 @@ La fonction SETATREF possède deux fonctions connexes :
     
 - Fonction SETATREFEVAL, que vous pouvez utiliser pour  indiquer qu’une partie set_expression doit être évaluée et remplacée par son résultat. 
     
-La fonction SETATREF est conçue pour une utilisation dans des cellules qui peuvent être modifiées par des actions de l’utilisateur dans la fenêtre de dessin. Les cellules suivantes sont prises en charge :
+La fonction SETATREF est conçue pour être utilisé dans des cellules qui peuvent être modifiées par des actions de l’utilisateur dans la fenêtre de dessin. Les cellules suivantes sont prises en charge :
   
 - Section ShapeTransform — cellules Width, Height, Angle, PinX et PinY
     

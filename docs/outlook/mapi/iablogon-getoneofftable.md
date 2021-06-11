@@ -34,7 +34,7 @@ HRESULT GetOneOffTable(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -64,7 +64,7 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-MAPI appelle la **méthode GetOneOffTable** pour mettre à disposition des modèles one-off pour créer des destinataires. Les nouveaux destinataires sont ajoutés à la liste des destinataires d’un message sortant. Les fournisseurs de carnets d’adresses doivent prendre en charge les notifications sur leur tableau unique pour informer MAPI des modifications apportées aux modèles. MAPI maintient la table ouverte pour activer la mise à jour dynamique. 
+MAPI appelle la **méthode GetOneOffTable** pour mettre à disposition des modèles one-off pour créer des destinataires. Les nouveaux destinataires sont ajoutés à la liste des destinataires d’un message sortant. Les fournisseurs de carnets d’adresses doivent prendre en charge les notifications sur leur tableau unique pour informer MAPI des modifications apportées aux modèles. MAPI maintient la table one-off ouverte pour activer la mise à jour dynamique. 
   
 Les fournisseurs de carnets d’adresses peuvent également prendre en charge une table one-off pour chacun de leurs conteneurs. Les appelants récupèrent cette table en appelant la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur et en demandant la propriété **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). Les modèles disponibles dans ce tableau sont utilisés pour ajouter des destinataires au conteneur. Pour obtenir une discussion sur les différences entre les deux types de tableaux one-off, voir [Implementing One-Off Tables](implementing-one-off-tables.md).
   

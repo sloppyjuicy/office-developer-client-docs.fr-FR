@@ -23,9 +23,9 @@ Ajoute deux nombres. Cet opérateur arithmétique d’ajout peut également ajou
   
 ## <a name="syntax"></a>Syntaxe
 
- *expression*  +  *expression* 
+ *expression*   +   *expression* 
   
- *expression*  Toute expression valide de l’un des types de données de la catégorie numérique à l’exception du type **de données bits.** Ne peut pas être utilisé avec des types de données de date ou d’heure. 
+ *expression*  Toute expression valide d’un des types de données de la catégorie numérique à l’exception du type **de données bits.** Ne peut pas être utilisé avec des types de données de date ou d’heure. 
   
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -46,7 +46,7 @@ STDMETHODIMP CMSProvider::Shutdown(ULONG * pulFlags)
 
 
 
-[À propos de l’exemple de fournisseur de magasin PST wrapped](about-the-sample-wrapped-pst-store-provider.md)
+[À propos de l’exemple de fournisseur de magasins PST wrapped](about-the-sample-wrapped-pst-store-provider.md)
   
 [Installation de l’exemple de fournisseur de magasin PST Wrapped](installing-the-sample-wrapped-pst-store-provider.md)
   

@@ -19,7 +19,7 @@ ms.locfileid: "33411686"
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [RunDataMacro Macro Action (Application web personnalisée Access)](rundatamacro-macro-action-access-custom-web-app.md)
     

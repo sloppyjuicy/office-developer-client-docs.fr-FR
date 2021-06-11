@@ -29,6 +29,6 @@ Lorsque vous devez limiter l’affichage d’une table triée, faites toujours l
     
 3. [IMAPITable::SortTable](imapitable-sorttable.md) pour effectuer le tri. 
     
-Si le tableau trié est catégorisé, appelez [IMAPITable::SetCollapseState,](imapitable-setcollapsestate.md)si nécessaire, après l’appel **sortTable.** Cet ordre des appels est important, car la plupart des fournisseurs de services trient un tableau en tant que dernière tâche pour obtenir les meilleures performances. Si, par exemple, un fournisseur de magasins de messages doit catégoriser une table de contenu de dossiers avant qu’une restriction puisse être imposée, cette catégorisation sera supprimée pendant le traitement de la restriction. Une deuxième catégorisation sera nécessaire. 
+Si la table triée est classée, appelez [IMAPITable::SetCollapseState,](imapitable-setcollapsestate.md)si nécessaire, après l’appel **sortTable.** Cet ordre des appels est important, car la plupart des fournisseurs de services trient un tableau en tant que dernière tâche pour obtenir les meilleures performances. Si, par exemple, un fournisseur de magasins de messages doit catégoriser une table de contenu de dossiers avant qu’une restriction puisse être imposée, cette catégorisation sera supprimée pendant le traitement de la restriction. Une deuxième catégorisation sera nécessaire. 
   
 

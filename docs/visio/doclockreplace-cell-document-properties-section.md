@@ -21,7 +21,7 @@ Détermine si l’interface utilisateur de la forme de remplacement doit être d
 |||
 |:-----|:-----|
 |TRUE  <br/> |Le **bouton Remplacer la** forme est grisé dans l’interface utilisateur.  <br/> |
-|FALSE  <br/> |Le **bouton Remplacer la** forme est actif dans l’interface utilisateur. Les utilisateurs peuvent utiliser la fonctionnalité Remplacer la forme dans ce document.  <br/> |
+|FALSE  <br/> |Le **bouton Remplacer la** forme est actif dans l’interface utilisateur. Les utilisateurs peuvent utiliser la fonctionnalité Remplacer une forme dans ce document.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

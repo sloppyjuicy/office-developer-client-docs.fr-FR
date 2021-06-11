@@ -42,5 +42,5 @@ Un fournisseur OSC doit implémenter cette interface pour communiquer avec l’O
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Interfaces de fournisseur Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
+- [Outlook Interfaces de fournisseur de connecteurs sociaux](outlook-social-connector-provider-interfaces.md)
 

@@ -35,7 +35,7 @@ HRESULT PrepareRecips(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,11 +43,11 @@ HRESULT PrepareRecips(
     
 MAPI_CACHE_ONLY
   
-> Utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> Utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
  _lpSPropTagArray_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriétés qui indiquent les propriétés, le cas contraire, qui nécessitent une mise à jour. Le  _paramètre lpSPropTagArray_ peut être NULL. 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété qui indiquent les propriétés, le cas contraire, qui nécessitent une mise à jour. Le  _paramètre lpSPropTagArray_ peut être NULL. 
     
  _lpRecipList_
   
@@ -69,7 +69,7 @@ Les clients et les fournisseurs de services appellent **la méthode PrepareRecip
     
 MAPI convertit les identificateurs d’entrée à court terme de chaque destinataire en identificateurs d’entrée à long terme. Si nécessaire, les identificateurs d’entrée à long terme des destinataires sont extraits du fournisseur de carnet d’adresses approprié et toutes les propriétés supplémentaires sont demandées.
   
-Dans une entrée de destinataire individuelle, les propriétés demandées sont d’abord ordre, suivies de toutes les propriétés déjà présentes pour l’entrée. Si une ou plusieurs des propriétés demandées dans le paramètre  _lpSPropTagArray_ ne sont pas gérées par le fournisseur de carnet d’adresses approprié, leurs types de propriétés sont PT_ERROR. Leurs valeurs de propriété sont définies sur MAPI_E_NOT_FOUND ou sur une autre valeur qui donne une raison plus spécifique pour laquelle les propriétés ne sont pas disponibles. Chaque structure [SPropValue](spropvalue.md) incluse dans le paramètre  _lpRecipList_ doit être allouée séparément à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore](mapiallocatemore.md) afin qu’elle puisse être libérée individuellement. 
+Dans une entrée de destinataire individuelle, les propriétés demandées sont d’abord commandées, suivies des propriétés déjà présentes pour l’entrée. Si une ou plusieurs des propriétés demandées dans le paramètre  _lpSPropTagArray_ ne sont pas gérées par le fournisseur de carnet d’adresses approprié, leurs types de propriétés sont PT_ERROR. Leurs valeurs de propriété seront définies sur MAPI_E_NOT_FOUND ou sur une autre valeur qui donne une raison plus spécifique pour laquelle les propriétés ne sont pas disponibles. Chaque structure [SPropValue](spropvalue.md) incluse dans le paramètre  _lpRecipList_ doit être allouée séparément à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore](mapiallocatemore.md) afin qu’elle puisse être libérée individuellement. 
   
 Pour plus d’informations PT_ERROR, voir [Types de propriétés.](property-types.md)
   

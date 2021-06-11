@@ -19,7 +19,7 @@ ms.locfileid: "33413534"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les notifications de carnet d’adresses permettent à un client d’en savoir plus sur les événements qui se produisent à une entrée de carnet d’adresses ou à une entrée particulière. Vous pouvez vous inscrire à ces notifications via le carnet d’adresses MAPI en appelant [IAddrBook::Advise](iaddrbook-advise.md) ou via la hiérarchie ou la table des matières d’un conteneur de carnet d’adresses en appelant [IMAPITable::Advise](imapitable-advise.md). 
+Les notifications de carnet d’adresses permettent à un client d’apprendre les événements qui se produisent à une entrée de carnet d’adresses ou à une entrée particulière. Vous pouvez vous inscrire à ces notifications via le carnet d’adresses MAPI en appelant [IAddrBook::Advise](iaddrbook-advise.md) ou via la hiérarchie ou la table des matières d’un conteneur de carnet d’adresses en appelant [IMAPITable::Advise](imapitable-advise.md). 
   
 Spécifiez l’identificateur d’entrée d’un conteneur de carnet d’adresses, d’une liste de distribution ou d’un utilisateur de messagerie si vous vous inscrivez pour des notifications sur une entrée particulière et NULL si vous vous inscrivez pour les notifications sur l’intégralité du carnet d’adresses. L’identificateur d’entrée doit représenter un utilisateur de messagerie ou une liste de distribution dans un conteneur de carnet d’adresses. **IAddrBook::Advise** examine cet identificateur d’entrée pour déterminer quel fournisseur de carnet d’adresses est responsable de l’objet correspondant et le fait suivre à la méthode [IABLogon::Advise](iablogon-advise.md) du fournisseur de carnet d’adresses approprié. 
   

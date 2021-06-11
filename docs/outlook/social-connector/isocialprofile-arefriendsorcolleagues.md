@@ -23,7 +23,7 @@ Détermine si les utilisateurs spécifiés sont des amis.
 HRESULT _stdcall AreFriendsOrColleagues(SAFEARRAY(BSTR) userIds, [out, retval] SAFEARRAY(VARIANT_BOOL)* results);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _userIds_
   
@@ -35,7 +35,7 @@ _results_
     
 ## <a name="remarks"></a>Remarques
 
-Pour chaque personne représentée dans le tableau d’entrée du paramètre  _userIds,_ cette méthode définit l’élément correspondant dans le tableau de sortie du  _paramètre de_ résultats. **true** indique que la personne est un ami et **false** indique que la personne n’est pas un ami. 
+Pour chaque personne représentée dans le tableau d’entrée du paramètre  _userIds,_ cette méthode définit l’élément correspondant dans le tableau de sortie du  _paramètre de_ résultats. **true** indique que la personne est un ami, et **false** indique que la personne n’est pas un ami. 
   
 ## <a name="see-also"></a>Voir aussi
 

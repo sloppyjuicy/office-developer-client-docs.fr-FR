@@ -23,7 +23,7 @@ ms.locfileid: "33411147"
   
 Étant donné que la notification d’événement est un processus asynchrone, vous pouvez être averti à tout moment, pas nécessairement immédiatement après que l’événement s’est produit.
   
- Le délai des appels à votre méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) varie en fonction du fournisseur de services qui implémente la source de conseil. Les fournisseurs de services peuvent notifier votre client : 
+ Le minutage des appels à votre méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) varie en fonction du fournisseur de services qui implémente la source de conseil. Les fournisseurs de services peuvent notifier votre client : 
   
 - Simultanément avec l’événement.
     

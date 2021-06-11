@@ -42,7 +42,7 @@ struct HDRSYNC
   
 - [out] Informations pour l’en-tête de message actuel dans la boutique locale.
     
- _todPar_
+ _pare-vie_
   
 - [out] ID d’entrée pour le dossier parent de l’élément de message.
     

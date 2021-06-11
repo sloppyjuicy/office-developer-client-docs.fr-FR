@@ -36,7 +36,7 @@ ULONG FAR * lpulRowCount
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbInstanceKey_
   

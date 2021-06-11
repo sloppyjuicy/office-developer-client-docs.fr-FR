@@ -32,7 +32,7 @@ HRESULT LoadFreeBusyData(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _cMax_
   
@@ -40,7 +40,7 @@ _cMax_
     
 _rgfbuser_
   
-> [in] Tableau des utilisateurs de la période de libre/occupé pour qui récupérer des données.
+> [in] Tableau des utilisateurs de libre/occupé pour qui récupérer des données.
     
 _prgfbdata_
   

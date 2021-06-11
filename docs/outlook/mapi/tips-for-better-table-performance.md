@@ -35,7 +35,7 @@ ms.locfileid: "33412512"
     
 - **Retarder une opération à l’aide de l’TBL_BATCH si possible**
     
-    La définition de l’indicateur BATCH TBL sur une méthode permet à l’implémenteur de table de collecter plusieurs appels avant d’agir \_ sur l’un d’eux. Au lieu d’effectuer potentiellement de nombreux appels vers un serveur distant ; un implémenteur de table peut en effectuer un, en effectuer toutes les opérations en même temps. Les résultats des opérations ne sont pas évalués tant qu’ils ne sont pas nécessaires. 
+    La définition de l’indicateur BATCH TBL sur une méthode permet à l’implémenteur de table de collecter plusieurs appels avant d’agir \_ sur l’un d’eux. Au lieu d’effectuer potentiellement de nombreux appels vers un serveur distant ; un implémenteur de table peut en effectuer une, en effectuer toutes les opérations en même temps. Les résultats des opérations ne sont pas évalués tant qu’ils ne sont pas nécessaires. 
     
     Par exemple, lorsqu’un client appelle [IMAPITable::Restrict](imapitable-restrict.md) pour spécifier une restriction avec l’indicateur BATCH TBL, la restriction n’a pas besoin d’entrer en vigueur tant que le client n’appelle \_ [pas IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer les données. Cela permet à l’implémenteur de table de combiner le travail de deux appels en un seul. Les utilisateurs de tableau qui tirez parti de l’indicateur BATCH TBL doivent savoir que la gestion des erreurs dans ces \_ conditions peut être plus complexe. 
     

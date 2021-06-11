@@ -32,7 +32,7 @@ Exécute la commande identifiée.
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des commandes qui sont pris en charge avec la fonction DOCMD, voir la rubrique « Commandes DoCmd/DOCMD » dans la Référence Microsoft Visio 2013 Automation. 
+Pour obtenir la liste des commandes qui sont pris en charge avec la fonction DOCMD, voir la rubrique « Commandes DoCmd/DOCMD » dans microsoft Visio 2013 Automation Reference. 
   
 ## <a name="example"></a>Exemple
 

@@ -27,7 +27,7 @@ Pour utiliser un formulaire pour composer un nouveau message, créez d’abord u
   
 1. Appelez la méthode [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) du gestionnaire de formulaires pour récupérer un pointeur vers un objet d’informations de formulaire , un objet qui implémente l’interface [IMAPIFormInfo : IMAPIProp.](imapiforminfoimapiprop.md) 
     
-2. Passez le pointeur à l’objet d’informations du formulaire dans un appel [à IMAPIFormMgr::CreateForm](imapiformmgr-createform.md). **CreateForm charge** le serveur de formulaires approprié. En outre, passez un identificateur d’interface à **CreateForm** pour spécifier l’interface à utiliser pour accéder au nouveau message. En règle générale, vous [demandez IPersistMessage : IUnknown](ipersistmessageiunknown.md) en IID_IPersistMessage **à CreateForm**.
+2. Passez le pointeur à l’objet d’informations du formulaire dans un appel [à IMAPIFormMgr::CreateForm](imapiformmgr-createform.md). **CreateForm charge** le serveur de formulaire approprié. En outre, passez un identificateur d’interface à **CreateForm** pour spécifier l’interface à utiliser pour accéder au nouveau message. En règle générale, vous [demandez IPersistMessage : IUnknown](ipersistmessageiunknown.md) en IID_IPersistMessage **à CreateForm**.
     
 3. Enregistrez le nouveau message en appelant sa [méthode IPersistMessage::Save.](ipersistmessage-save.md) Le serveur de formulaire doit définir des valeurs pour les propriétés requises du message lors de sa création. 
     

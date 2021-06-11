@@ -21,16 +21,16 @@ Détermine le type de matériau dont le biseau est composé.
 |**Description**|**Valeur**|
 |:-----|:-----|
 |0  <br/> |Aucun document spécial  <br/> |
-|1   <br/> |Matte  <br/> |
-|2   <br/> |Mat chaud  <br/> |
-|3   <br/> |Pays-De-La  <br/> |
+|1  <br/> |Matte  <br/> |
+|2  <br/> |Mat chaud  <br/> |
+|3  <br/> |Pays-De-La  <br/> |
 |4   <br/> |Metal  <br/> |
-|5   <br/> |Bordure sombre  <br/> |
+|5   <br/> |Bordure foncée  <br/> |
 |6   <br/> |Bordure arrondie  <br/> |
 |7   <br/> |À deux dimensions  <br/> |
 |8   <br/> |Wireframe  <br/> |
 |9   <br/> |Err.  <br/> |
-|10   <br/> |Poudre transparente  <br/> |
+|10  <br/> |Poudre transparente  <br/> |
 |11  <br/> |Effacer  <br/> |
    
 ## <a name="remarks"></a>Remarques

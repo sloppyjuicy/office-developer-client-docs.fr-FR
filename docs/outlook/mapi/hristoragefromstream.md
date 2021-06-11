@@ -42,7 +42,7 @@ HRESULT HrIStorageFromStream(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUnkIn_
   
@@ -50,7 +50,7 @@ HRESULT HrIStorageFromStream(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet de flux. L’une des valeurs suivantes peut être transmise dans le paramètre  _lpInterface_ : NULL, IID_IStream ou IID_ILockBytes. La transmission de la valeur NULL  _dans lpInterface_ est la même que la transmission IID_IStream. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet de flux. L’une des valeurs suivantes peut être transmise dans le paramètre  _lpInterface_ : NULL, IID_IStream ou IID_ILockBytes. La transmission de null  _dans lpInterface_ est la même que la transmission IID_IStream. 
     
  _ulFlags_
   
@@ -66,7 +66,7 @@ STGSTRM_CURRENT
     
 STGSTRM_MODIFY 
   
-> Permet au fournisseur de services d’appel d’écrire dans le stockage renvoyé. Cet indicateur ne peut pas être définie si l’STGSTRM_RESET est définie. 
+> Permet au fournisseur de services appelants d’écrire dans le stockage renvoyé. Cet indicateur ne peut pas être définie si l’STGSTRM_RESET est définie. 
     
 STGSTRM_RESET 
   
@@ -84,6 +84,6 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de magasins de messages supportent la fonction **HrIStorageFromStream** à l’aide de l’interface **IStorage** pour les pièces jointes. Les fournisseurs du Store doivent implémenter **l’interface IStream.** **HrIStorageFromStream fournit** l’interface **IStorage** pour l’objet **IStream.** Il est possible de transmettre un **ILockBytes** ou une interface **IStream** dans  _lpUnkIn_. 
+Les fournisseurs de magasins de messages supportent la fonction **HrIStorageFromStream** à l’aide de l’interface **IStorage** pour les pièces jointes. Les fournisseurs du Store doivent implémenter **l’interface IStream.** **HrIStorageFromStream fournit** l’interface **IStorage** pour l’objet **IStream.** Il est possible de transmettre une interface **ILockBytes** ou **IStream** dans  _lpUnkIn_. 
   
 

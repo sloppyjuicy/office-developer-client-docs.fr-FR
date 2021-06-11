@@ -23,9 +23,9 @@ Indique les connecteurs dynamiques qui se superposent.
 |**Valeur**|**Ajustement**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Style de positionnement par défaut  <br/> |**visPLOLineAdjustToDefault** <br/> |
-|1   <br/> |Traits proches les uns des autres  <br/> |**visPLOLineAdjustToAll** <br/> |
-|2   <br/> |Aucun trait  <br/> |**visPLOLineAdjustToNone** <br/> |
-|3   <br/> |Traits connexes  <br/> |**visPLOLineAdjustToRelated** <br/> |
+|1  <br/> |Traits proches les uns des autres  <br/> |**visPLOLineAdjustToAll** <br/> |
+|2  <br/> |Aucun trait  <br/> |**visPLOLineAdjustToNone** <br/> |
+|3  <br/> |Traits connexes  <br/> |**visPLOLineAdjustToRelated** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

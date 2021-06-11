@@ -23,7 +23,7 @@ Visio 2013 fournit une plateforme unique puissante pour vos solutions de dessin 
 ## <a name="new-and-changed-cells"></a>Cellules nouvelles et modifiées
 <a name="vis15_WhatsNew_Cells"> </a>
 
-Le tableau suivant répertorie les nouvelles cellules que vous pouvez utiliser pour créer des solutions ShapeSheet dans Visio 2013.
+Le tableau suivant répertorie les nouvelles cellules que vous pouvez utiliser pour créer des solutions ShapeSheet Visio 2013.
   
 |**Nouvelle cellule**|**Section**|
 |:-----|:-----|
@@ -98,7 +98,7 @@ Le tableau suivant répertorie les nouvelles cellules que vous pouvez utiliser p
 |[ThemeIndex](themeindex-cell-theme-properties-section.md) <br/> |Propriétés de thème  <br/> |
 |[UseGroupGradient](usegroupgradient-cell-gradient-properties-section.md) <br/> |Propriétés de dégradé  <br/> |
    
-Le tableau suivant répertorie les cellules qui ont été modifiées dans Visio 2013.
+Le tableau suivant répertorie les cellules qui ont été modifiées Visio 2013.
   
 |**Cellule modifiée**|**Notes**|
 |:-----|:-----|
@@ -107,7 +107,7 @@ Le tableau suivant répertorie les cellules qui ont été modifiées dans Visio 
 ## <a name="new-rows"></a>Nouvelles lignes
 <a name="vis15_WhatsNew_Rows"> </a>
 
-Le tableau suivant répertorie les nouvelles lignes que vous pouvez utiliser pour créer des solutions ShapeSheet dans Visio 2013.
+Le tableau suivant répertorie les nouvelles lignes que vous pouvez utiliser pour créer des solutions ShapeSheet Visio 2013.
   
 |**Nouvelle ligne**|**Section**|
 |:-----|:-----|
@@ -133,7 +133,7 @@ Le tableau suivant répertorie les nouvelles fonctions dans Visio 2013.
 ||
 |[THEMEVAL](themeval-function.md) <br/> |
    
-Le tableau suivant répertorie les fonctions dépréciées dans Visio 2013.
+Le tableau suivant répertorie les fonctions Visio 2013.
   
 |**Fonction dépréciée**|**Notes**|
 |:-----|:-----|

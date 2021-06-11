@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée de la racine de la sous-arborescence du 
 |Propriétés associées :  <br/> |PR_IPM_SUBTREE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E0  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

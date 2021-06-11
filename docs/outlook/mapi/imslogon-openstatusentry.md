@@ -25,7 +25,7 @@ ms.locfileid: "33413177"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre un objet d’état.
+Ouvre un objet status.
   
 ```cpp
 HRESULT OpenStatusEntry(
@@ -36,11 +36,11 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet d’état à ouvrir. La transmission de la valeur NULL indique que l’interface standard de l’objet est renvoyée (dans ce cas, l’interface [IMAPIStatus).](imapistatusimapiprop.md) Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface appropriée pour l’objet. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet d’état à ouvrir. La transmission null indique que l’interface standard de l’objet est renvoyée (dans ce cas, l’interface [IMAPIStatus).](imapistatusimapiprop.md) Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface appropriée pour l’objet. 
     
  _ulFlags_
   

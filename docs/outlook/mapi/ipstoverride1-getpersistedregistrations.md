@@ -31,11 +31,11 @@ Extrait la liste des inscriptions pour le fichier de dossiers personnels (.pst).
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ppmval_
   
-> [in] Pointeur vers un pointeur vers une structure [SPropValue.](spropvalue.md) Le membre ulPropTag de cette structure est du type PT_MV_UNICODE et le membre de valeur MVszW sera un tableau de chaînes Unicode terminées par null. Ces chaînes sont des chemins d’accès aux DLL pour lesquelles l’inscription a été persistante. 
+> [in] Pointeur vers un pointeur vers une structure [SPropValue.](spropvalue.md) Le membre ulPropTag de cette structure est de type PT_MV_UNICODE et le membre de valeur MVszW sera un tableau de chaînes Unicode terminées par null. Ces chaînes sont des chemins d’accès aux DLLs pour lesquelles l’inscription a été persistante. 
     
 > [!NOTE]
 > La prise en charge de .pst pour ANSI n’est pas implémentée. 

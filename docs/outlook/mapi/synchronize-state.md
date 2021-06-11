@@ -28,7 +28,7 @@ ms.locfileid: "33414626"
 |Identificateur d’état :  <br/> |**LR_SYNC** <br/> |
 |Structure de données associée :  <br/> |**[SYNC](sync.md)** <br/> |
 |À partir de cet état :  <br/> |[État inactif](idle-state.md) <br/> |
-|À cet état :  <br/> |[Télécharger l’état de la hiérarchie,](download-hierarchy-state.md) [synchroniser l’état du contenu,](synchronize-contents-state.md) [télécharger l’état de la](upload-hierarchy-state.md)hiérarchie ou l’état inactif  <br/> |
+|À cet état :  <br/> |[Télécharger l’état de la hiérarchie,](download-hierarchy-state.md) [synchroniser l’état du contenu,](synchronize-contents-state.md) [charger l’état de la](upload-hierarchy-state.md)hiérarchie ou état inactif  <br/> |
    
 > [!NOTE]
 > La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
@@ -37,9 +37,9 @@ ms.locfileid: "33414626"
 
 Cet état lance la synchronisation. Un magasin local peut passer à un état de chargement ou de téléchargement à partir d’ici. Par exemple, un magasin local peut passer à l’état de hiérarchie de téléchargement pour télécharger une hiérarchie de dossiers sur le serveur, ou il peut effectuer une synchronisation complète en téléchargeant d’abord la hiérarchie, puis en téléchargeant la hiérarchie à partir du serveur.
   
-Pendant cet état, Outlook initialise la structure de données **SYNC** associée avec le chemin d’accès au magasin local, afin qu’Outlook voit les modifications pendant d’autres états. 
+Au cours de cet état, Outlook initialise la structure de données **SYNC** associée avec le chemin d’accès au magasin local, afin Outlook voir les modifications pendant d’autres états. 
   
-Le client définit les membres [in] **de SYNC**, qui indique à Outlook comment gérer d’autres états. Par exemple, le client peut définir  *ulFlags*  sur **UPS_UPLOAD_ONLY** et **UPS_THESE_FOLDERS** et  *pel*  à une liste d’identificateurs d’entrée des dossiers pour indiquer à Outlook que seuls ces dossiers seront téléchargés. Lorsque cet état se termine, le magasin local revient à l’état inactif. 
+Le client définit les membres [in] de **SYNC,** qui Outlook comment gérer d’autres états. Par exemple, le client peut définir *ulFlags* sur **UPS_UPLOAD_ONLY** et **UPS_THESE_FOLDERS** et *pel* à une liste d’identificateurs d’entrée des dossiers pour indiquer à Outlook que seuls ces dossiers seront téléchargés. Lorsque cet état se termine, le magasin local revient à l’état inactif. 
   
 ## <a name="see-also"></a>Voir aussi
 

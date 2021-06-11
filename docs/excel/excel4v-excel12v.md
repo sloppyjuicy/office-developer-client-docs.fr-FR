@@ -23,20 +23,20 @@ ms.locfileid: "33414990"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Appelle une fonction de feuille de calcul Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une commande ou une fonction spéciale XLL uniquement, à partir d’une DLL, XLL ou ressource de code.
+Appelle une fonction de feuille de Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une commande ou une fonction spéciale XLL uniquement, à partir d’une DLL, XLL ou ressource de code.
   
-Toutes les versions récentes d’Excel prise **en charge Excel4v**. À compter d’Excel 2007, **Excel12v** est pris en charge. 
+Toutes les versions récentes de Excel prise **en charge d’Excel4v.** À compter Excel 2007, **Excel12v** est pris en charge. 
   
-Ces fonctions ne peuvent être appelées que lorsqu’Excel a transmis le contrôle à la DLL ou au XLL. Ils peuvent également être appelés lorsqu’Excel a passé le contrôle indirectement via un appel Visual Basic pour Applications (VBA). Ils ne peuvent pas être appelés à un autre moment. Par exemple, ils ne peuvent pas être appelés pendant les appels à la fonction DllMain ou à d’autres moments où le système d’exploitation a appelé la DLL, ou à partir d’un thread créé par la DLL. 
+Ces fonctions ne peuvent être appelées que si Excel a passé le contrôle à la DLL ou au XLL. Ils peuvent également être appelés lorsque Excel a passé le contrôle indirectement via un appel à Visual Basic pour Applications (VBA). Ils ne peuvent pas être appelés à un autre moment. Par exemple, ils ne peuvent pas être appelés pendant les appels à la fonction DllMain ou à d’autres moments où le système d’exploitation a appelé la DLL, ou à partir d’un thread créé par la DLL. 
   
-Les fonctions Excel4 et [Excel12](excel4-excel12.md) acceptent leurs arguments en tant que liste de longueur variable sur la pile, tandis que les fonctions **Excel4v** et **Excel12v** acceptent leurs arguments sous la mesure d’un tableau. À tous les autres égards, **Excel4** se comporte de la même manière **qu’Excel4v** et **Excel12** se comporte de la même manière **qu’Excel12v**.
+Les fonctions Excel4 et [Excel12](excel4-excel12.md) acceptent leurs arguments en tant que liste de longueur variable sur la pile, tandis que les fonctions **Excel4v** et **Excel12v** acceptent leurs arguments en tant que tableau. À tous les autres égards, **Excel4** se comporte de la même manière **qu’Excel4v** et **Excel12** se comporte de la même manière **qu’Excel12v**.
   
 ```cs
 int _cdecl Excel4v(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER rgx[]);
 int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[]);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _iFunction_ (**int**)
   
@@ -48,7 +48,7 @@ Pointeur vers une **XLOPER** (dans le cas **d’Excel4v)** ou une **XLOPER12** (
   
  _iCount_ (**int**)
   
-Nombre d’arguments suivants qui seront transmis à la fonction. Dans les versions d’Excel jusqu’en 2003, ce nombre peut être n’importe quel nombre de 0 à 30. À compter d’Excel 2007, ce nombre peut être n’importe quel nombre entre 0 et 255.
+Nombre d’arguments ultérieurs qui seront transmis à la fonction. Dans les versions Excel jusqu’en 2003, ce nombre peut être n’importe quel nombre de 0 à 30. À compter Excel 2007, ce nombre peut être n’importe quel nombre entre 0 et 255.
   
  _rgx_ (**LPXLOPER []** ou **LPXLOPER12 []**)
   
@@ -60,7 +60,7 @@ Ces fonctions retournent les mêmes valeurs **qu’Excel4** et **Excel12**.
   
 ## <a name="remarks"></a>Remarques
 
-Ces fonctions sont utiles lorsque le nombre d’arguments transmis à l’opérateur est variable. Par exemple, **Excel4v** et **Excel12v** sont utiles lorsque vous inscrivez des fonctions à l’aide de [xlfRegister](xlfregister-form-1.md) où le nombre total d’arguments dépend du nombre d’arguments pris par la fonction inscrite. **Excel4v et** **Excel12v** sont également utiles lorsque vous écrivez une fonction wrapper pour **Excel4** ou **Excel12**. Dans ce cas, vous devez convertir une liste d’arguments variables, comme normalement fourni à **Excel4** ou **Excel12,** en un argument de tableau unique de taille variable pour rappeler Dans Excel à l’aide d’Excel4v ou **Excel12v**. 
+Ces fonctions sont utiles lorsque le nombre d’arguments transmis à l’opérateur est variable. Par exemple, **Excel4v** et **Excel12v** sont utiles lorsque vous inscrivez des fonctions à l’aide de [xlfRegister](xlfregister-form-1.md) où le nombre total d’arguments dépend du nombre d’arguments pris par la fonction inscrite. **Excel4v et** **Excel12v** sont également utiles lorsque vous écrivez une fonction wrapper pour **Excel4** ou **Excel12**. Dans ce cas, vous devez convertir une liste d’arguments variables, comme normalement fourni à **Excel4** ou **Excel12,** en un argument de tableau unique de taille variable pour rappeler en Excel à l’aide d’Excel4v ou **Excel12v**. 
   
 ### <a name="example"></a>Exemple
 

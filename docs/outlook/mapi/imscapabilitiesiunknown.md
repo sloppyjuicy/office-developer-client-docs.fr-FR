@@ -40,7 +40,7 @@ Fournit des informations sur ce qu’un magasin peut prendre en charge.
    
 ## <a name="remarks"></a>Remarques
 
- **IMSCapabilities fournit** des informations sur ce qu’un magasin peut prendre en charge si elle prend en charge cette interface. 
+ **IMSCapabilities fournit des** informations sur ce qu’un magasin peut prendre en charge si elle prend en charge cette interface. 
   
 ## <a name="see-also"></a>Voir aussi
 

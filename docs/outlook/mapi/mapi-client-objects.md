@@ -23,14 +23,14 @@ Les applications clientes de messagerie standard implémentent un seul objet : u
   
 Les clients plus complexes qui la prise en charge des formulaires personnalisés implémentent un autre objet de sink de conseil et quelques autres objets, tels que l’objet de site de message qui hérite de l’interface [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) et l’objet de contexte d’affichage qui hérite de l’interface [IMAPIViewContext : IUnknown.](imapiviewcontextiunknown.md) L’objet de sink advise supplémentaire hérite de l’interface [IMAPIViewAdviseSink : IUnknown.](imapiviewadvisesinkiunknown.md) 
   
-Le tableau suivant récapitule les objets MAPI implémentés par les clients de messagerie standard et les clients qui supportent l’affichage de formulaires personnalisés.
+Le tableau suivant récapitule les objets MAPI implémentés par les clients de messagerie standard et par les clients qui supportent l’affichage de formulaires personnalisés.
   
 |**Objet client**|**Description**|
 |:-----|:-----|
 |Conseiller le sink  <br/> |Fournit une fonction de rappel pour les événements qui se produisent dans le magasin de messages, le carnet d’adresses ou la session.  <br/> |
 |Site de message  <br/> |Gère la manipulation des objets de formulaire.  <br/> |
 |Progression  <br/> |Affiche une boîte de dialogue pour afficher la progression d’une opération.  <br/> |
-|Afficher le dos à l’avis  <br/> |Fournit des fonctions de rappel pour les événements qui se produisent dans un formulaire.  <br/> |
+|Afficher le sink de conseil  <br/> |Fournit des fonctions de rappel pour les événements qui se produisent dans un formulaire.  <br/> |
 |Contexte d’affichage  <br/> |Prend en charge les commandes d’impression et d’enregistrement des formulaires et de navigation entre les formulaires.  <br/> |
    
 L’illustration suivante montre la relation entre ces différents objets clients, les interfaces dont ils héritent et les composants MAPI qui les utilisent. 

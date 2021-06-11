@@ -42,7 +42,7 @@ Fournit des implémentations pour les tâches généralement effectuées par les
 |:-----|:-----|
 |[GetLastError](imapisupport-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente de l’objet de support.  <br/> |
 |[GetMemAllocRoutines](imapisupport-getmemallocroutines.md) <br/> |Récupère les adresses des fonctions d’allocation et de désallocation de mémoire MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md)).  <br/> |
-|[Subscribe](imapisupport-subscribe.md) <br/> |Inscrit un réception de notification pour recevoir des notifications via MAPI.  <br/> |
+|[Subscribe](imapisupport-subscribe.md) <br/> |Inscrit un recevoir de notification pour recevoir des notifications via MAPI.  <br/> |
 |[Se désabonner](imapisupport-unsubscribe.md) <br/> |Annule la responsabilité de l’envoi de notifications précédemment établies avec un appel à la **méthode Subscribe.**  <br/> |
 |[Notification](imapisupport-notify.md) <br/> |Envoie une notification d’un événement spécifié à une source de conseil qui s’est inscrite à l’origine pour la notification via la **méthode Subscribe.**  <br/> |
 |[ModifyStatusRow](imapisupport-modifystatusrow.md) <br/> |Modifie le tableau d’état en ajoutant une nouvelle ligne ou en modifiant une ligne existante.  <br/> |
@@ -50,7 +50,7 @@ Fournit des implémentations pour les tâches généralement effectuées par les
 |[RegisterPreprocessor](imapisupport-registerpreprocessor.md) <br/> |Inscrit la fonction de préprocesseur d’un fournisseur de transport (fonction conforme au prototype [PreprocessMessage).](preprocessmessage.md)  <br/> |
 |[NewUID](imapisupport-newuid.md) <br/> |Crée une structure [MAPIUID](mapiuid.md) à utiliser comme identificateur unique.  <br/> |
 |[MakeInvalid](imapisupport-makeinvalid.md) <br/> |Marque un objet comme inutilisable.  <br/> |
-|[SpoolerYield](imapisupport-spooleryield.md) <br/> |Donne le contrôle de l’UC aupooler MAPI afin qu’il puisse effectuer toutes les tâches qu’il considère nécessaires.  <br/> |
+|[SpoolerYield](imapisupport-spooleryield.md) <br/> |Donne le contrôle de l’UC aupooler MAPI afin qu’il puisse effectuer les tâches qu’il considère nécessaires.  <br/> |
 |[SpoolerNotify](imapisupport-spoolernotify.md) <br/> |Avertit lepooler MAPI d’un changement d’état ou d’une demande de service.  <br/> |
 |[CreateOneOff](imapisupport-createoneoff.md) <br/> |Crée un identificateur d’entrée pour une adresse unique.  <br/> |
 |[SetProviderUID](imapisupport-setprovideruid.md) <br/> |Inscrit une structure **MAPIUID** qui représente de manière unique le fournisseur de services.  <br/> |
@@ -61,7 +61,7 @@ Fournit des implémentations pour les tâches généralement effectuées par les
 |[Address](imapisupport-address.md) <br/> |Affiche la boîte de dialogue Adresse commune.  <br/> |
 |[Détails](imapisupport-details.md) <br/> |Affiche une boîte de dialogue qui affiche des détails sur une entrée de carnet d’adresses particulière.  <br/> |
 |[NewEntry](imapisupport-newentry.md) <br/> |Ajoute un nouveau destinataire directement à un conteneur de carnet d’adresses ou à la liste des destinataires d’un message sortant.  <br/> |
-|[DoConfigPropsheet](imapisupport-doconfigpropsheet.md) <br/> |Affiche une feuille des propriétés de configuration.  <br/> |
+|[DoConfigPropsheet](imapisupport-doconfigpropsheet.md) <br/> |Affiche une feuille de propriétés de configuration.  <br/> |
 |[CopyMessages](imapisupport-copymessages.md) <br/> |Copie ou déplace des messages d’un dossier vers un autre dossier.  <br/> |
 |[CopyFolder](imapisupport-copyfolder.md) <br/> |Copie ou déplace un dossier de son dossier parent actuel vers un autre dossier parent.  <br/> |
 |[DoCopyTo](imapisupport-docopyto.md) <br/> |Copie ou déplace toutes les propriétés d’un objet, à l’exception des propriétés spécifiquement exclues, vers un autre objet.  <br/> |

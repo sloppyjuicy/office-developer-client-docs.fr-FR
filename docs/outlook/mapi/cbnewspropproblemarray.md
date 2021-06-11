@@ -36,7 +36,7 @@ Calcule le nombre d’octets à allouer pour une nouvelle structure [SPropProble
 CbNewSPropProblemArray (_cprob)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ _cprob_
   

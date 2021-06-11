@@ -35,7 +35,7 @@ HRESULT CreateClassFactory(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _clsidForm_
   
@@ -47,7 +47,7 @@ HRESULT CreateClassFactory(
     
  _lppClassFactory_
   
-> [out] Pointeur vers l’objet fabrique de classes.
+> [out] Pointeur vers l’objet fabrique de classe.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -63,7 +63,7 @@ La **méthode CreateClassFactory est** appelée par les visionneuses de formulai
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous pouvez retourner à partir de votre **implémentation CreateClassFactory** le même objet de fabrique de classe sur plusieurs appels pour le même identificateur de classe. La création d’une instance d’usine de classe n’est pas obligatoire. 
+Vous pouvez retourner à partir de votre **implémentation CreateClassFactory** le même objet de fabrique de classe sur plusieurs appels pour le même identificateur de classe. La création d’une instance de fabrique de classe n’est pas obligatoire. 
   
 Vous pouvez avoir une implémentation d’usine de classe unique qui crée des instances d’usine de classe appropriées à la demande, ou plusieurs implémentations d’usine de classe, une pour chaque classe de message.
   

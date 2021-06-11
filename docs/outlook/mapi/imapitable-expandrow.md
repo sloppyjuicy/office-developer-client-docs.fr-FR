@@ -25,7 +25,7 @@ ms.locfileid: "33415165"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Développe une catégorie de tableaux réduit, en ajoutant les lignes de titre de niveau inférieur ou feuille appartenant à la catégorie à l’affichage tableau.
+Développe une catégorie de tableaux réduit, en ajoutant les lignes de titre de niveau inférieur ou feuille appartenant à la catégorie à l’affichage Tableau.
   
 ```cpp
 HRESULT ExpandRow(
@@ -38,7 +38,7 @@ ULONG FAR * lpulMoreRows
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbInstanceKey_
   

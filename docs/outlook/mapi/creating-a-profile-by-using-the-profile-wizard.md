@@ -21,7 +21,7 @@ ms.locfileid: "33411735"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’Assistant Profil est une fonctionnalité MAPI qui permet à un utilisateur de créer un profil de la manière la plus simple possible. L’Assistant Profil affiche une série de boîtes de dialogue qui invitent l’utilisateur à sélectionner les services de message et à entrer des valeurs pour quelques-unes des propriétés de configuration les plus essentielles. Pour la plupart des autres propriétés requises, l’Assistant Profil utilise les valeurs par défaut fournies. Pour appeler l’Assistant Profil, appelez **LaunchWizard**, une fonction basée sur le prototype [LAUNCHWIZARDENTRY.](launchwizardentry.md) 
+L’Assistant Profil est une fonctionnalité MAPI qui permet à un utilisateur de créer un profil de la manière la plus simple possible. L’Assistant Profil affiche une série de boîtes de dialogue qui invitent l’utilisateur à sélectionner les services de message et à entrer des valeurs pour quelques-unes des propriétés de configuration les plus essentielles. Pour la plupart des autres propriétés requises, l’Assistant Profil utilise les valeurs par défaut fournies. Pour appeler l’Assistant Profil, **appelez LaunchWizard**, une fonction basée sur le prototype [LAUNCHWIZARDENTRY.](launchwizardentry.md) 
   
 L’utilisateur peut ajouter uniquement ces services de messagerie et fournisseurs de services au nouveau profil qui permet de prendre en charge l’Assistant Profil. Étant donné que chaque service de messagerie peut nécessiter plus de propriétés que ce que l’Assistant Profil peut gérer, sachez que si vous utilisez cette approche, un ou plusieurs des services ou fournisseurs sélectionnés peuvent être configurés de manière incomplète.
   

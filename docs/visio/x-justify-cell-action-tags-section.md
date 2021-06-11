@@ -26,8 +26,8 @@ Décalage  *x*  du bouton de balise d’action par rapport au point défini par 
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Aligné à gauche (valeur par défaut).  <br/> |**visSmartTagXJustifyLeft** <br/> |
-| 1   <br/> | Centré.  <br/> |**visSmartTagXJustifyCenter** <br/> |
-| 2   <br/> | Aligné à droite.  <br/> |**visSmartTagXJustifyRight** <br/> |
+| 1  <br/> | Centré.  <br/> |**visSmartTagXJustifyCenter** <br/> |
+| 2  <br/> | Aligné à droite.  <br/> |**visSmartTagXJustifyRight** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -35,7 +35,7 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pMsgClassArray_
   
@@ -67,7 +67,7 @@ Les applications clientes appellent la méthode **IMAPIFormContainer::ResolveMul
 
 Pour résoudre un groupe de classes de message en formulaires, passez un tableau de noms de classes de messages à résoudre. Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags._ 
   
-Si une classe de message ne peut pas être résolue en formulaire, la valeur NULL est renvoyée pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, ne supposez pas que toutes les classes de message ont été correctement résolues. Vérifiez plutôt les valeurs dans le tableau renvoyé.
+Si une classe de message ne peut pas être résolue en formulaire, null est renvoyé pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, ne supposez pas que toutes les classes de message ont été correctement résolues. Vérifiez plutôt les valeurs dans le tableau renvoyé.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

@@ -20,7 +20,7 @@ Détermine si un dégradé de trait est activé pour un trait ou la bordure d’
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Le dégradé est affiché sur le trait ou la bordure d’une forme.  <br/> |
+|TRUE  <br/> |Le dégradé est affiché sur la ligne ou la bordure d’une forme.  <br/> |
 |FALSE  <br/> |Les dégradés ne sont pas affichés sur le trait ou la bordure d’une forme.  <br/> |
    
 ## <a name="remarks"></a>Remarques

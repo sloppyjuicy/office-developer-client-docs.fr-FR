@@ -35,7 +35,7 @@ HRESULT ChangePassword(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpOldPass_
   

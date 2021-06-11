@@ -47,7 +47,7 @@ HRESULT MSProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hInstance_
   
@@ -105,13 +105,13 @@ MAPI appelle la fonction de point d’entrée **MSProviderInit** pour initialise
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Un fournisseur de magasins de messages doit implémenter **MSProviderInit** en tant que fonction de point d’entrée dans la DLL du fournisseur. L’implémentation doit être basée sur le prototype de fonction **MSPROVIDERINIT,** également spécifié dans MAPISPI.H. MAPI définit **MSPROVIDERINIT** pour utiliser le type d’appel d’initialisation MAPI standard, STDMAPIINITCALLTYPE, qui entraîne **MSProviderInit** à respecter la convention d’appel CDECL. Un avantage de CDECL est que les appels peuvent être tentés même si le nombre de paramètres d’appel ne correspond pas au nombre de paramètres définis. 
+Un fournisseur de magasins de messages doit implémenter **MSProviderInit** en tant que fonction de point d’entrée dans la DLL du fournisseur. L’implémentation doit être basée sur le prototype de fonction **MSPROVIDERINIT,** également spécifié dans MAPISPI.H. MAPI définit **MSPROVIDERINIT** pour utiliser le type d’appel d’initialisation MAPI standard, STDMAPIINITCALLTYPE, ce qui entraîne **MSProviderInit** à respecter la convention d’appel CDECL. Un avantage de CDECL est que les appels peuvent être tentés même si le nombre de paramètres d’appel ne correspond pas au nombre de paramètres définis. 
   
 Un fournisseur peut être initialisé plusieurs fois, suite à l’apparition de plusieurs profils dans une utilisation simultanée ou de l’apparition de plusieurs fois dans le même profil. Étant donné que l’objet fournisseur contient du contexte, **MSProviderInit** doit retourner un autre objet fournisseur dans  _lppMSProvider_ pour chaque initialisation, même pour plusieurs initialisations dans le même processus. 
   
 La DLL du fournisseur ne doit pas être liée à Mapix.dll. Au lieu de cela, il doit utiliser ces pointeurs pour l’allocation ou la déallocation de la mémoire. 
   
-Le fournisseur de magasin de messages doit utiliser les fonctions pointées par  _lpAllocateBuffer,_  _lpAllocateMore_ et  _lpFreeBuffer_ pour la plupart des allocations et des déallocations de mémoire. En particulier, le fournisseur doit utiliser ces fonctions pour allouer de la mémoire aux applications clientes lors de l’appel d’interfaces d’objets telles que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). Si le fournisseur s’attend également à utiliser l’allocation de mémoire OLE, il doit appeler la méthode **IUnknown::AddRef** de l’objet allocateur pointé par le paramètre _lpMalloc._ 
+Le fournisseur de la boutique de messages doit utiliser les fonctions pointées par  _lpAllocateBuffer,_  _lpAllocateMore_ et  _lpFreeBuffer_ pour la plupart des allocations de mémoire et de la déallocation. En particulier, le fournisseur doit utiliser ces fonctions pour allouer de la mémoire pour une utilisation par les applications clientes lors de l’appel d’interfaces d’objet telles que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). Si le fournisseur s’attend également à utiliser l’allocation de mémoire OLE, il doit appeler la méthode **IUnknown::AddRef** de l’objet d’allocation pointé par le paramètre _lpMalloc._ 
   
 Pour plus d’informations sur **l’écriture de MSProviderInit,** voir [Loading Message Store Providers](loading-message-store-providers.md). Pour plus d’informations sur les fonctions de point d’entrée, voir [Implementing a Service Provider Entry Point Function](implementing-a-service-provider-entry-point-function.md). 
   

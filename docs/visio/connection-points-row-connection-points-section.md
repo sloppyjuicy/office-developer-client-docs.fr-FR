@@ -33,7 +33,7 @@ Si les lignes Connection Points sont nommées, leurs noms apparaissent sous la f
    
 ## <a name="remarks"></a>Remarques
 
-Les cellules de la ligne Connections. *sont*  étiquetées DirX/A, DirY/B et Type/C, car ces lignes peuvent être étendues ou non étendues. 
+Les cellules de la ligne Connections. *les*  lignes de nom sont étiquetées DirX/A, DirY/B et Type/C, car ces lignes peuvent être étendues ou non étendues. 
   
 La plupart des points de connexion (tous les points de connexion créés via l'interface utilisateur) ne sont pas étendus et possèdent des cellules DirX, DirY et Type. Leur type de ligne est **visTagCnnctPt** ou **visTagCnnctNamed.**
   
@@ -51,7 +51,7 @@ Les lignes étendues possèdent des cellules A, B, C et D et se comportent comme
   
 Vous pouvez désigner les cellules d'une ligne Connection Points à l'aide de leur nom de ligne, qui apparaît en rouge dans la fenêtre Feuille ShapeSheet. Pour modifier le nom de la ligne, cliquez dessus, puis tapez un nom tel que  *Personnalisé,*  par exemple, pour créer le nom de ligne Connections.Custom. Vous pouvez ensuite faire référence à la cellule X à l'aide de l'instruction Connections.Personnalisée.X par exemple, ou Connections.X1 si vous souhaitez utiliser le numéro de ligne. 
   
-Le nom de ligne que vous entrez doit être unique dans la section. Lorsque vous créez un nom pour une ligne dans la section Connection Points, Microsoft Office Visio nomme toutes les lignes de la section avec le nom par défaut, Connections.Row_ *n*  . 
+Le nom de ligne que vous entrez doit être unique dans la section. Lorsque vous créez un nom pour une ligne dans la section Connection Points, Microsoft Office Visio nomme toutes les lignes de la section avec le nom par défaut, Connections.Row_ *n* . 
   
 Les lignes Connection Points nommées ne sont pas compatibles avec les versions de Visio antérieures à Visio 5.0. Lorsque vous enregistrez un fichier de dessin Visio 5.0 avec des lignes Connection Points nommées dans le format d'une version antérieure, les références aux lignes Connection Points nommées sont converties en références indexées, et les noms de lignes sont perdus.
   

@@ -35,7 +35,7 @@ LPSRowSet FAR * lppRows
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lRowCount_
   
@@ -79,9 +79,9 @@ Le **membre cRows** dans la structure [SRowSet](srowset.md) pointée par le para
     
 Le nombre de colonnes et leur ordre sont les mêmes pour chaque ligne. Si une propriété n’existe pas pour une ligne ou s’il existe une erreur lors de la lecture d’une propriété, la structure **SPropValue** de la propriété de la ligne contient les valeurs suivantes : 
   
-- PT_ERROR pour le type de propriété dans le **membre ulPropTag.** 
+- PT_ERROR type de propriété dans le **membre ulPropTag.** 
     
-- MAPI_E_NOT_FOUND pour le **membre** Valeur. 
+- MAPI_E_NOT_FOUND pour le **membre Valeur.** 
     
 La mémoire utilisée pour les structures [SPropValue](spropvalue.md) dans le jeu de lignes pointé par le paramètre  _lppRows_ doit être allouée séparément et libérée pour chaque ligne. Utilisez [MAPIFreeBuffer pour](mapifreebuffer.md) libérer les structures de valeurs de propriété et pour libérer le jeu de lignes. Toutefois, lorsqu’un appel **à QueryRows** renvoie zéro, indiquant le début ou la fin de la table, seule la structure **SRowSet** elle-même doit être libérée. Pour plus d’informations sur la façon d’allouer et de libérer de la mémoire dans une structure **SRowSet,** voir [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
@@ -103,11 +103,11 @@ Renvoyer uniquement les lignes que l’utilisateur verra lorsque des lignes sont
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-En règle générale, vous finirez par avoir autant de lignes que vous l’avez spécifié dans _le paramètre lRowCount._ Toutefois, lorsque les limites de mémoire ou d’implémentation sont un problème ou lorsque l’opération atteint prématurément le début ou la fin de la table, **QueryRows** retourne moins de lignes que demandé. 
+En règle générale, vous finirez par avoir autant de lignes que vous l’avez spécifié dans _le paramètre lRowCount._ Toutefois, lorsque les limites de mémoire ou d’implémentation sont un problème ou lorsque l’opération atteint le début ou la fin de la table prématurément, **QueryRows** retourne moins de lignes que demandé. 
   
 Si **QueryRows** renvoie MAPI_E_BUSY, appelez la méthode [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) et réessayez l’appel à **QueryRows** une fois l’opération asynchrone terminée. 
   
-Lorsque vous appelez **QueryRows,** sachez que le minutage des notifications asynchrones peut potentiellement entraîner le fait que le jeu de lignes que vous obtenez de **QueryRows** ne représente pas précisément les données sous-jacentes. Par exemple, un appel de **QueryRows** à la table des matières d’un dossier après la suppression d’un message mais avant la réception de la notification correspondante entraîne le retour de la ligne supprimée dans le jeu de lignes. Attendez toujours l’arrivée d’une notification avant de mettre à jour la vue des données de l’utilisateur. 
+Lorsque vous appelez **QueryRows,** sachez que le minutage des notifications asynchrones peut potentiellement entraîner le fait que le jeu de lignes que vous obtenez à partir de **QueryRows** ne représente pas précisément les données sous-jacentes. Par exemple, un appel de **QueryRows** à la table des matières d’un dossier après la suppression d’un message mais avant la réception de la notification correspondante entraîne le retour de la ligne supprimée dans le jeu de lignes. Attendez toujours l’arrivée d’une notification avant de mettre à jour la vue des données de l’utilisateur. 
   
 Pour plus d’informations sur la récupération de lignes à partir de tables, voir Récupération des données à partir des [lignes de tableau.](retrieving-data-from-table-rows.md)
   

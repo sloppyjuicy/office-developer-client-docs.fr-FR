@@ -32,7 +32,7 @@ MS CRYPTODE(** *color* **, ** *-deltaLum* ** )
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Obligatoire  <br/> |**RVB** <br/> |Valeur de couleur RVB (rouge, vert, bleu) standard ou référence à une couleur.  <br/> |
-| _-deltaLum_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Le pourcentage de changement vers le blanc (-100 %) ou noir (100 %) à partir  _de la valeur_ de couleur.  <br/> |
+| _-deltaLum_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Le pourcentage de changement vers le blanc (-100 %) ou noir (100 %) à partir de  _la valeur de_ couleur.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

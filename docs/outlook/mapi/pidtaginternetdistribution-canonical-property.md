@@ -25,7 +25,7 @@ ms.locfileid: "33411056"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Maillons vers l’en-tête de distribution MIME.
+Cartes à l’en-tête DE DISTRIBUTION MIME.
   
 |||
 |:-----|:-----|

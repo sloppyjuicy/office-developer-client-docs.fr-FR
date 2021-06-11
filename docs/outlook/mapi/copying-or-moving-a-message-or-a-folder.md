@@ -29,7 +29,7 @@ Un client peut utiliser l’une des quatre méthodes pour copier ou déplacer un
     
 - [IMAPIProp::CopyProps](imapiprop-copyprops.md)
     
-En paramétrez les indicateurs et paramètres appropriés, **CopyTo** et **CopyProps** peuvent fonctionner comme **CopyFolder** ou **CopyMessages**. Prenons en compte les problèmes suivants lors du choix de la méthode à appeler :
+En paramétrez les indicateurs et paramètres appropriés, **CopyTo** et **CopyProps** peuvent être faits pour fonctionner comme **CopyFolder** ou **CopyMessages**. Prenons en compte les problèmes suivants lors du choix de la méthode à appeler :
   
 - Copiez-vous ou déplacez-vous un dossier ou un message ?
     
@@ -39,9 +39,9 @@ En paramétrez les indicateurs et paramètres appropriés, **CopyTo** et **CopyP
     
 Vous pouvez utiliser les **méthodes IMAPIProp** pour copier ou déplacer un dossier ou un message. **IMAPIFolder::CopyMessages** fonctionne uniquement avec les messages ; **IMAPIFolder::CopyFolder** fonctionne uniquement avec les dossiers. 
   
-Alors que l’utilisation des méthodes **IMAPIFolder** ne nécessite aucune connaissance des propriétés prise en charge par le dossier ou le message à copier ou déplacer, vous devez avoir quelques connaissances pour utiliser les méthodes **IMAPIProp.** Avec **IMAPIProp::CopyProps,** vous devez être en mesure de spécifier explicitement quelles propriétés de dossier ou de message vous souhaitez copier ou déplacer. Avec **IMAPIProp::CopyTo**, sauf si vous souhaitez copier ou déplacer toutes les propriétés, vous devez spécifier explicitement les propriétés qui doivent être exclues. Pour plus d’informations sur ces méthodes, voir [Copie des propriétés MAPI.](copying-mapi-properties.md)
+Alors que l’utilisation des méthodes **IMAPIFolder** ne nécessite aucune connaissance des propriétés pris en charge par le dossier ou le message pour être copié ou déplacé, vous devez avoir quelques connaissances pour utiliser les méthodes **IMAPIProp.** Avec **IMAPIProp::CopyProps,** vous devez être en mesure de spécifier explicitement quelles propriétés de dossier ou de message vous souhaitez copier ou déplacer. Avec **IMAPIProp::CopyTo**, sauf si vous souhaitez copier ou déplacer toutes les propriétés, vous devez spécifier explicitement les propriétés à exclure. Pour plus d’informations sur ces méthodes, voir [Copie des propriétés MAPI.](copying-mapi-properties.md)
   
-Le nombre de propriétés à copier ou à déplacer peut affecter votre décision quant à la méthode à utiliser. Si vous copiez ou déplacez plusieurs messages, appelez **IMAPIFolder::CopyMessages**. Un autre choix consiste à appeler **IMAPIProp::CopyProps** pour copier uniquement la propriété **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)). La procédure suivante montre comment utiliser **CopyMessages**. 
+Le nombre de propriétés à copier ou à déplacer peut affecter votre décision quant à la méthode à utiliser. Si vous copiez ou déplacez plusieurs messages, appelez **IMAPIFolder::CopyMessages**. Un autre choix consiste à appeler **IMAPIProp::CopyProps** pour copier uniquement la propriété **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) du dossier. La procédure suivante montre comment utiliser **CopyMessages**. 
   
 ### <a name="to-copy-or-move-one-or-more-messages"></a>Pour copier ou déplacer un ou plusieurs messages
   
@@ -49,7 +49,7 @@ Le nombre de propriétés à copier ou à déplacer peut affecter votre décisio
     
 2. Ouvrez ces dossiers en mode lecture/écriture en appelant [IMAPISession::OpenEntry](imapisession-openentry.md) ou [IMsgStore::OpenEntry](imsgstore-openentry.md) et en MAPI_MODIFY’indicateur. 
     
-3. Vérifiez que le pointeur d’interface renvoyé par **OpenEntry** est un **pointeur d’interface IMAPIFolder.** Si ce n’est pas le cas, cast vers le type LPMAPIFOLDER. 
+3. Vérifiez que le pointeur d’interface renvoyé par **OpenEntry** est un pointeur d’interface **IMAPIFolder.** Si ce n’est pas le cas, cast vers le type LPMAPIFOLDER. 
     
 4. Créez un tableau d’identificateurs d’entrée représentant un ou plusieurs messages à copier ou déplacer. 
     
@@ -83,6 +83,6 @@ Pour copier ou déplacer uniquement les propriétés du dossier, sans inclure de
     
 Les méthodes de copie peuvent renvoyer S_OK, indiquant le nombre total de réussites, MAPI_W_PARTIAL_COMPLETION, indiquant une réussite partielle ou une erreur. Si MAPI_W_PARTIAL_COMPLETION est renvoyé, utilisez la macro **HR_FAILED** pour accéder à une erreur plus spécifique. Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
   
-Si vous copiez des messages d’une banque de messages vers une autre et qu’Unicode n’est pas pris en charge par les deux, sachez que les informations peuvent être perdues en raison de la conversion de page de code. En règle générale, vous ne pouvez pas savoir si les magasins de messages prend en charge un ou les deux formats, ce qui rend impossible de déterminer s’il faut copier les propriétés de texte en tant que chaînes ASCII ou en tant que chaînes Unicode. Si vous prendre en charge Unicode, essayez d’effectuer une copie Unicode ; si elle échoue avec la valeur d’erreur MAPI_E_BAD_CHARWIDTH, recourez à ASCII.
+Si vous copiez des messages d’une banque de messages vers une autre et qu’Unicode n’est pas pris en charge par les deux, sachez que les informations peuvent être perdues en raison de la conversion de page de code. En règle générale, vous ne pouvez pas savoir si les magasins de messages prend en charge un format ou les deux, ce qui rend impossible de déterminer s’il faut copier les propriétés de texte en tant que chaînes ASCII ou en tant que chaînes Unicode. Si vous prendre en charge Unicode, essayez d’effectuer une copie Unicode ; si elle échoue avec la valeur d’erreur MAPI_E_BAD_CHARWIDTH, recourez à ASCII.
   
 

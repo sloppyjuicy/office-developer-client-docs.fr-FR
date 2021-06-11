@@ -25,12 +25,12 @@ Définit la mise en forme d'un élément de données de forme qui est une chaîn
 |**Type de données d'article de forme**|**Valeur**|**Contenu de la cellule Format**|
 |:-----|:-----|:-----|
 | String  <br/> | 0  <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Liste fixe  <br/> | 1   <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
-| Nombre  <br/> | 2   <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Liste fixe  <br/> | 1  <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
+| Nombre  <br/> | 2  <br/> | Modèle de format approprié pour le type de données.  <br/> |
 | Liste variable  <br/> | 4   <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
 | Date ou heure  <br/> | 5   <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Duration  <br/> | 6   <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Devise  <br/> | 7   <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Durée  <br/> | 6   <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Monétaire  <br/> | 7   <br/> | Modèle de format approprié pour le type de données.  <br/> |
    
 Un exemple de modèle de format approprié pour le type de données est « 0,000 u », qui fait apparaître le nombre 250 cm sous la forme 250,000 cm. Pour plus d'informations sur les modèles de format, reportez-vous à [À propos des modèles de format](about-format-pictures.md).
   

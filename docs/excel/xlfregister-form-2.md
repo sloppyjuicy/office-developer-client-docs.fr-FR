@@ -22,7 +22,7 @@ ms.locfileid: "33416040"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **REGISTER** à partir d’une feuille macro XLM Excel. 
+Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **REGISTER** à partir d’Excel feuille macro XLM. 
   
 La **fonction xlfRegister** peut être appelée sous deux formes : 
   
@@ -36,7 +36,7 @@ Appelée dans le formulaire 2, cette fonction ne peut être utilisée que pour c
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pxModuleText_ (**xltypeStr**)
   
@@ -44,7 +44,7 @@ Nom de la DLL à charger et à activer.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Si elle réussit, cela renvoie le nom de la DLL (**xltypeStr**). Sinon, elle renvoie une #VALUE ! erreur.
+Si elle réussit, cela renvoie le nom de la DLL (**xltypeStr**). Sinon, elle renvoie une #VALUE! erreur.
   
 ## <a name="see-also"></a>Voir aussi
 

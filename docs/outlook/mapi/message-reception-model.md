@@ -33,11 +33,11 @@ Ce processus fonctionne comme suit :
     
 4. Le fournisseur de transport stocke les données de message dans l’instance [IMessage : IMAPIProp](imessageimapiprop.md) transmise. 
     
-5. Le fournisseur de transport appelle [la méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) sur l’instance **IMessage** et renvoie à partir de **StartMessage**.
+5. Le fournisseur de transport appelle [la méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) sur l’instance **IMessage** et retourne à partir de **StartMessage**.
     
 6. Lepooler MAPI appelle [IXPLogon::TransportNotify](ixplogon-transportnotify.md) s’il doit arrêter la remise du message. 
     
 > [!NOTE]
-> Si un fournisseur de transport doit remettre un grand nombre de messages et qu’il utilise **IMAPISupport::SpoolerNotify** au lieu d’IXPLogon::P le, il est important de ne pas appeler **SpoolerNotify** trop souvent afin de ne pas inconfidifier d’autres fournisseurs de transport de temps processeur.  Lepooler MAPI a une logique pour empêcher cela, mais en général l’intervalle entre les appels **SpoolerNotify** doit être plus long que le temps qu’il faut à votre fournisseur de transport pour traiter un message. > également, lepooler MAPI peut ne pas traiter immédiatement un message entrant. Lepooler MAPI peut demander au fournisseur de transport d’effectuer d’autres tâches avant de recevoir le message entrant. 
+> Si un fournisseur de transport doit remettre un grand nombre de messages et qu’il utilise **IMAPISupport::SpoolerNotify** au lieu d’IXPLogon::P le, il est important de ne pas appeler trop souvent **SpoolerNotify** afin de ne pas inconfidifier d’autres fournisseurs de transport de temps processeur.  Lepooler MAPI a une logique pour empêcher cela, mais en général l’intervalle entre les appels **SpoolerNotify** doit être plus long que le temps qu’il faut à votre fournisseur de transport pour traiter un message. > également, lepooler MAPI peut ne pas traiter immédiatement un message entrant. Lepooler MAPI peut demander au fournisseur de transport d’effectuer d’autres tâches avant de recevoir le message entrant. 
   
 

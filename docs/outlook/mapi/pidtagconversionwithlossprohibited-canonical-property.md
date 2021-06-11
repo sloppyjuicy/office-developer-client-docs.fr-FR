@@ -36,7 +36,7 @@ Contient TRUE si un agent de transfert de messages (MTA) ne peut pas effectuer d
    
 ## <a name="remarks"></a>Remarques
 
-Un exemple du type de conversion interdit est le mappage « perte » d’Unicode (deux octets par caractère) en un jeu de caractères sur un octet. 
+Un exemple du type de conversion interdit est le mappage « perte » d’Unicode (deux octets par caractère) en un jeu de caractères à un octet. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

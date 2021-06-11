@@ -25,7 +25,7 @@ Les propriétés suivantes sont présentes pour les rapports d’état de remise
   
 **Titre du tableau**
 
-|**Propriété**|**Decription**|
+|**Property**|**Decription**|
 |:-----|:-----|
 |**PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md))  <br/> |Contient la date et l’heure de livraison du message d’origine.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contient le nom complet d’un objet MAPI donné.  <br/> |

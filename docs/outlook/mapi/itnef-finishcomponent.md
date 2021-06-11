@@ -38,7 +38,7 @@ HRESULT FinishComponent(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -66,7 +66,7 @@ TNEF_COMPONENT_MESSAGE
     
  _lpPropList_
   
-> [in] Pointeur vers une structure **SPropTagArray** qui contient des balises de propriété pour les propriétés à coder. 
+> [in] Pointeur vers une structure **SPropTagArray** qui contient des balises de propriété pour les propriétés à encoder. 
     
  _lppProblems_
   
@@ -90,7 +90,7 @@ L’implémentation TNEF signale des problèmes de codage de flux TNEF sans arr�
   
 Si un fournisseur ou une passerelle ne fonctionne pas avec des tableaux à problème, il peut transmettre null dans  _lppProblems_; dans ce cas, aucun tableau de problèmes n’est renvoyé.
   
-La valeur renvoyée dans  _lppProblems n’est_ valide que si l’appel S_OK. Lorsque S_OK est renvoyé, le fournisseur ou la passerelle doit vérifier les valeurs renvoyées dans la structure [STnefProblemArray.](stnefproblemarray.md) Si une erreur se produit lors de l’appel, la structure **STnefProblemArray** n’est pas remplie et le fournisseur ou la passerelle appelant ne doit pas utiliser ou libérer la structure. Si aucune erreur ne se produit lors de l’appel, le fournisseur ou la passerelle appelant doit libérer la mémoire de **l’objet STnefProblemArray** en appelant la fonction [MAPIFreeBuffer.](mapifreebuffer.md) 
+La valeur renvoyée dans  _lppProblems n’est_ valide que si l’appel S_OK. Lorsque S_OK est renvoyé, le fournisseur ou la passerelle doit vérifier les valeurs renvoyées dans la structure [STnefProblemArray.](stnefproblemarray.md) Si une erreur se produit lors de l’appel, la structure **STnefProblemArray** n’est pas remplie et le fournisseur ou la passerelle appelant ne doit pas utiliser ou libérer la structure. Si aucune erreur ne se produit sur l’appel, le fournisseur ou la passerelle appelant doit libérer la mémoire de **l’objet STnefProblemArray** en appelant la fonction [MAPIFreeBuffer.](mapifreebuffer.md) 
   
 ## <a name="see-also"></a>Voir aussi
 
