@@ -15,24 +15,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424727"
 ---
-# <a name="copying-a-profile"></a><span data-ttu-id="af0a7-103">Copie d’un profil</span><span class="sxs-lookup"><span data-stu-id="af0a7-103">Copying a Profile</span></span>
+# <a name="copying-a-profile"></a><span data-ttu-id="78c02-103">Copie d’un profil</span><span class="sxs-lookup"><span data-stu-id="78c02-103">Copying a Profile</span></span>
 
   
   
-<span data-ttu-id="af0a7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="af0a7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="78c02-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="78c02-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="af0a7-105">L’une des façons de créer un profil consiste à copier à partir d’un profil existant et à modifier les services de messagerie et les fournisseurs de services nécessaires.</span><span class="sxs-lookup"><span data-stu-id="af0a7-105">One way to create a profile is to copy from an existing profile and alter the necessary message services and service providers.</span></span> <span data-ttu-id="af0a7-106">La copie d’un profil implique l’utilisation d’un objet d’administration de profil, fourni par MAPI via la [fonction MAPIAdminProfiles.](mapiadminprofiles.md)</span><span class="sxs-lookup"><span data-stu-id="af0a7-106">Copying a profile involves using a profile administration object, provided by MAPI through the [MAPIAdminProfiles](mapiadminprofiles.md) function.</span></span> 
+<span data-ttu-id="78c02-105">L’une des façons de créer un profil consiste à copier à partir d’un profil existant et à modifier les services de messagerie et les fournisseurs de services nécessaires.</span><span class="sxs-lookup"><span data-stu-id="78c02-105">One way to create a profile is to copy from an existing profile and alter the necessary message services and service providers.</span></span> <span data-ttu-id="78c02-106">La copie d’un profil implique l’utilisation d’un objet d’administration de profil, fourni par MAPI via la [fonction MAPIAdminProfiles.](mapiadminprofiles.md)</span><span class="sxs-lookup"><span data-stu-id="78c02-106">Copying a profile involves using a profile administration object, provided by MAPI through the [MAPIAdminProfiles](mapiadminprofiles.md) function.</span></span> 
   
- <span data-ttu-id="af0a7-107">**Pour copier un profil**</span><span class="sxs-lookup"><span data-stu-id="af0a7-107">**To copy a profile**</span></span>
+ <span data-ttu-id="78c02-107">**Pour copier un profil**</span><span class="sxs-lookup"><span data-stu-id="78c02-107">**To copy a profile**</span></span>
   
-1. <span data-ttu-id="af0a7-108">Appelez **MAPIAdminProfiles** pour récupérer un pointeur d’interface **IProfAdmin.**</span><span class="sxs-lookup"><span data-stu-id="af0a7-108">Call **MAPIAdminProfiles** to retrieve an **IProfAdmin** interface pointer.</span></span> 
+1. <span data-ttu-id="78c02-108">Appelez **MAPIAdminProfiles** pour récupérer un pointeur d’interface **IProfAdmin.**</span><span class="sxs-lookup"><span data-stu-id="78c02-108">Call **MAPIAdminProfiles** to retrieve an **IProfAdmin** interface pointer.</span></span> 
     
-2. <span data-ttu-id="af0a7-109">Appelez [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) pour accéder à la table de profil.</span><span class="sxs-lookup"><span data-stu-id="af0a7-109">Call [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) to access the profile table.</span></span> 
+2. <span data-ttu-id="78c02-109">Appelez [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) pour accéder à la table de profil.</span><span class="sxs-lookup"><span data-stu-id="78c02-109">Call [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) to access the profile table.</span></span> 
     
-3. <span data-ttu-id="af0a7-110">Créez une restriction de propriété avec une structure [SPropertyRestriction](spropertyrestriction.md) pour faire correspondre **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) avec le nom du profil à copier.</span><span class="sxs-lookup"><span data-stu-id="af0a7-110">Build a property restriction with an [SPropertyRestriction](spropertyrestriction.md) structure to match **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) with the name of the profile to be copied.</span></span> 
+3. <span data-ttu-id="78c02-110">Créez une restriction de propriété avec une structure [SPropertyRestriction](spropertyrestriction.md) pour faire correspondre **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) avec le nom du profil à copier.</span><span class="sxs-lookup"><span data-stu-id="78c02-110">Build a property restriction with an [SPropertyRestriction](spropertyrestriction.md) structure to match **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) with the name of the profile to be copied.</span></span> 
     
-4. <span data-ttu-id="af0a7-111">Appelez [IMAPITable::FindRow](imapitable-findrow.md) pour localiser la ligne appropriée dans la table de profil.</span><span class="sxs-lookup"><span data-stu-id="af0a7-111">Call [IMAPITable::FindRow](imapitable-findrow.md) to locate the appropriate row in the profile table.</span></span> 
+4. <span data-ttu-id="78c02-111">Appelez [IMAPITable::FindRow](imapitable-findrow.md) pour localiser la ligne appropriée dans la table de profil.</span><span class="sxs-lookup"><span data-stu-id="78c02-111">Call [IMAPITable::FindRow](imapitable-findrow.md) to locate the appropriate row in the profile table.</span></span> 
     
-5. <span data-ttu-id="af0a7-112">Appelez [IProfAdmin::CopyProfile](iprofadmin-copyprofile.md), en passant la valeur de la colonne **PR_DISPLAY_NAME** comme paramètre _lpszOldProfileName._</span><span class="sxs-lookup"><span data-stu-id="af0a7-112">Call [IProfAdmin::CopyProfile](iprofadmin-copyprofile.md), passing the value of the **PR_DISPLAY_NAME** column as the  _lpszOldProfileName_ parameter.</span></span> 
+5. <span data-ttu-id="78c02-112">Appelez [IProfAdmin::CopyProfile](iprofadmin-copyprofile.md), en passant la valeur de la colonne **PR_DISPLAY_NAME** comme paramètre _lpszOldProfileName._</span><span class="sxs-lookup"><span data-stu-id="78c02-112">Call [IProfAdmin::CopyProfile](iprofadmin-copyprofile.md), passing the value of the **PR_DISPLAY_NAME** column as the  _lpszOldProfileName_ parameter.</span></span> 
     
 

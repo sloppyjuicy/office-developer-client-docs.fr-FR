@@ -16,12 +16,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430748"
 ---
-# <a name="group-properties-section"></a><span data-ttu-id="17d6f-103">Group Properties Section</span><span class="sxs-lookup"><span data-stu-id="17d6f-103">Group Properties Section</span></span>
+# <a name="group-properties-section"></a><span data-ttu-id="ac9d1-103">Group Properties Section</span><span class="sxs-lookup"><span data-stu-id="ac9d1-103">Group Properties Section</span></span>
 
-<span data-ttu-id="17d6f-104">Contient les cellules d’un groupe qui contrôlent le mode d’ajout des formes dans un groupe, le déplacement des membres d’un groupe et la sélection des groupes.</span><span class="sxs-lookup"><span data-stu-id="17d6f-104">Contains cells for a group that control how you add shapes to a group, move members of a group, and select groups.</span></span> 
+<span data-ttu-id="ac9d1-104">Contient les cellules d’un groupe qui contrôlent le mode d’ajout des formes dans un groupe, le déplacement des membres d’un groupe et la sélection des groupes.</span><span class="sxs-lookup"><span data-stu-id="ac9d1-104">Contains cells for a group that control how you add shapes to a group, move members of a group, and select groups.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="17d6f-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="17d6f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ac9d1-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="ac9d1-105">Remarks</span></span>
 
-<span data-ttu-id="17d6f-106">Vous pouvez également définir ces valeurs sous l’onglet **Comportement** dans la boîte de dialogue **Comportement** (cliquez sur **Comportement** dans le groupe **Création de la forme** sous l’onglet [Développeur](run-in-developer-mode-display-the-developer-tab.md)).</span><span class="sxs-lookup"><span data-stu-id="17d6f-106">You can also set these values on the **Behavior** tab in the **Behavior** dialog box (click **Behavior** in the **Shape Design** group on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab).</span></span> 
+<span data-ttu-id="ac9d1-106">Vous pouvez également définir ces valeurs sous l’onglet **Comportement** dans la boîte de dialogue **Comportement** (cliquez sur **Comportement** dans le groupe **Création de la forme** sous l’onglet [Développeur](run-in-developer-mode-display-the-developer-tab.md)).</span><span class="sxs-lookup"><span data-stu-id="ac9d1-106">You can also set these values on the **Behavior** tab in the **Behavior** dialog box (click **Behavior** in the **Shape Design** group on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab).</span></span> 
   
 

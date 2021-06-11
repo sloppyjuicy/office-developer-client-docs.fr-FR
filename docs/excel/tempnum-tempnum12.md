@@ -8,7 +8,7 @@ f1_keywords:
 - TempNum
 - TempNum12
 keywords:
-- fonction tempnum12 [excel 2007],fonction TempNum [Excel 2007]
+- fonction tempnum12 [excel 2007],tempNum function [Excel 2007]
 localization_priority: Normal
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -19,30 +19,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426631"
 ---
-# <a name="tempnumtempnum12"></a><span data-ttu-id="9ee47-104">TempNum/TempNum12</span><span class="sxs-lookup"><span data-stu-id="9ee47-104">TempNum/TempNum12</span></span>
+# <a name="tempnumtempnum12"></a><span data-ttu-id="d5fe3-104">TempNum/TempNum12</span><span class="sxs-lookup"><span data-stu-id="d5fe3-104">TempNum/TempNum12</span></span>
 
- <span data-ttu-id="9ee47-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="9ee47-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="d5fe3-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d5fe3-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="9ee47-106">Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** XLOPER12 temporaire contenant un numéro de feuille de calcul /   Microsoft Excel (un double de 8 sur 8 d’IEEE).</span><span class="sxs-lookup"><span data-stu-id="9ee47-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** containing a Microsoft Excel worksheet number (an IEEE 8-byte double).</span></span> 
+<span data-ttu-id="d5fe3-106">Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** XLOPER12 temporaire contenant un numéro Microsoft Excel feuille de calcul (un double de /   8 byte IEEE).</span><span class="sxs-lookup"><span data-stu-id="d5fe3-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** containing a Microsoft Excel worksheet number (an IEEE 8-byte double).</span></span> 
   
 ```cs
 LPXLOPER TempNum(double d);
 LPXLOPER12 TempNum12(double d);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9ee47-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="9ee47-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d5fe3-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="d5fe3-107">Parameters</span></span>
 
- <span data-ttu-id="9ee47-108">_d_ (**double**)</span><span class="sxs-lookup"><span data-stu-id="9ee47-108">_d_ (**double**)</span></span>
+ <span data-ttu-id="d5fe3-108">_d_ (**double**)</span><span class="sxs-lookup"><span data-stu-id="d5fe3-108">_d_ (**double**)</span></span>
   
-<span data-ttu-id="9ee47-109">Valeur prévue.</span><span class="sxs-lookup"><span data-stu-id="9ee47-109">The intended value.</span></span> <span data-ttu-id="9ee47-110">Notez que les nombres sous-normaux de l’IEEE ne sont actuellement pas pris en charge et sont arrondis à zéro.</span><span class="sxs-lookup"><span data-stu-id="9ee47-110">Note that IEEE sub-normal numbers are not currently supported and are rounded to zero.</span></span> <span data-ttu-id="9ee47-111">L’infini négatif est pris en charge.</span><span class="sxs-lookup"><span data-stu-id="9ee47-111">Negative infinity is supported.</span></span>
+<span data-ttu-id="d5fe3-109">Valeur prévue.</span><span class="sxs-lookup"><span data-stu-id="d5fe3-109">The intended value.</span></span> <span data-ttu-id="d5fe3-110">Notez que les nombres sous-normaux de l’IEEE ne sont actuellement pas pris en charge et sont arrondis à zéro.</span><span class="sxs-lookup"><span data-stu-id="d5fe3-110">Note that IEEE sub-normal numbers are not currently supported and are rounded to zero.</span></span> <span data-ttu-id="d5fe3-111">L’infini négatif est pris en charge.</span><span class="sxs-lookup"><span data-stu-id="d5fe3-111">Negative infinity is supported.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="9ee47-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="9ee47-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d5fe3-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="d5fe3-112">Return value</span></span>
 
-<span data-ttu-id="9ee47-113">Renvoie une valeur **xltypeNum** numérique contenant la valeur transmise dans ou zéro si la valeur transmise était sous-normale.</span><span class="sxs-lookup"><span data-stu-id="9ee47-113">Returns a numeric **xltypeNum** containing the value passed in or zero if the passed in value was sub-normal.</span></span> 
+<span data-ttu-id="d5fe3-113">Renvoie une valeur **xltypeNum** numérique contenant la valeur transmise dans ou zéro si la valeur transmise était sous-normale.</span><span class="sxs-lookup"><span data-stu-id="d5fe3-113">Returns a numeric **xltypeNum** containing the value passed in or zero if the passed in value was sub-normal.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="9ee47-114">Exemple</span><span class="sxs-lookup"><span data-stu-id="9ee47-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d5fe3-114">Exemple</span><span class="sxs-lookup"><span data-stu-id="d5fe3-114">Example</span></span>
 
-<span data-ttu-id="9ee47-115">Cet exemple utilise la **fonction TempNum12** pour passer un argument à **xlfGetWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="9ee47-115">This example uses the **TempNum12** function to pass an argument to **xlfGetWorkspace**.</span></span>
+<span data-ttu-id="d5fe3-115">Cet exemple utilise la **fonction TempNum12** pour passer un argument à **xlfGetWorkspace**.</span><span class="sxs-lookup"><span data-stu-id="d5fe3-115">This example uses the **TempNum12** function to pass an argument to **xlfGetWorkspace**.</span></span>
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,9 +56,9 @@ short WINAPI TempNumExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="9ee47-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9ee47-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5fe3-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d5fe3-116">See also</span></span>
 
 
 
-[<span data-ttu-id="9ee47-117">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="9ee47-117">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="d5fe3-117">Fonctions de la bibliothèque Framework</span><span class="sxs-lookup"><span data-stu-id="d5fe3-117">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

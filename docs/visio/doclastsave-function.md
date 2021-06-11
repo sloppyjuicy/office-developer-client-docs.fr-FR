@@ -16,16 +16,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425987"
 ---
-# <a name="doclastsave-function"></a><span data-ttu-id="c0b91-103">Fonction DOCLASTSAVE</span><span class="sxs-lookup"><span data-stu-id="c0b91-103">DOCLASTSAVE Function</span></span>
+# <a name="doclastsave-function"></a><span data-ttu-id="cc19c-103">Fonction DOCLASTSAVE</span><span class="sxs-lookup"><span data-stu-id="cc19c-103">DOCLASTSAVE Function</span></span>
 
-<span data-ttu-id="c0b91-104">Renvoie la date et l’heure du dernier enregistré d’un document, en tant que valeur de série.</span><span class="sxs-lookup"><span data-stu-id="c0b91-104">Returns the date and time a document was last saved, as a serial value.</span></span>
+<span data-ttu-id="cc19c-104">Renvoie la date et l’heure du dernier enregistré d’un document, en tant que valeur de série.</span><span class="sxs-lookup"><span data-stu-id="cc19c-104">Returns the date and time a document was last saved, as a serial value.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="c0b91-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c0b91-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="cc19c-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="cc19c-105">Syntax</span></span>
 
-<span data-ttu-id="c0b91-106">DOCLASTSAVE ()</span><span class="sxs-lookup"><span data-stu-id="c0b91-106">DOCLASTSAVE ()</span></span>
+<span data-ttu-id="cc19c-106">DOCLASTSAVE ()</span><span class="sxs-lookup"><span data-stu-id="cc19c-106">DOCLASTSAVE ()</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c0b91-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="c0b91-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cc19c-107">Remarques</span><span class="sxs-lookup"><span data-stu-id="cc19c-107">Remarks</span></span>
 
-<span data-ttu-id="c0b91-108">La fonction FORMAT permet de mettre en forme la valeur.</span><span class="sxs-lookup"><span data-stu-id="c0b91-108">Use the FORMAT function to format the value.</span></span> 
+<span data-ttu-id="cc19c-108">La fonction FORMAT permet de mettre en forme la valeur.</span><span class="sxs-lookup"><span data-stu-id="cc19c-108">Use the FORMAT function to format the value.</span></span> 
   
 

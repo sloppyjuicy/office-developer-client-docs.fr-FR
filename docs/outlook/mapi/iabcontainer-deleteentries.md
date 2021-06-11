@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425595"
 ---
-# <a name="iabcontainerdeleteentries"></a><span data-ttu-id="341eb-103">IABContainer::DeleteEntries</span><span class="sxs-lookup"><span data-stu-id="341eb-103">IABContainer::DeleteEntries</span></span>
+# <a name="iabcontainerdeleteentries"></a><span data-ttu-id="1e7ea-103">IABContainer::DeleteEntries</span><span class="sxs-lookup"><span data-stu-id="1e7ea-103">IABContainer::DeleteEntries</span></span>
 
   
   
-<span data-ttu-id="341eb-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="341eb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1e7ea-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1e7ea-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="341eb-105">Supprime une ou plusieurs entrées, généralement des utilisateurs de messagerie, des listes de distribution ou d’autres conteneurs.</span><span class="sxs-lookup"><span data-stu-id="341eb-105">Removes one or more entries, typically messaging users, distribution lists, or other containers.</span></span>
+<span data-ttu-id="1e7ea-105">Supprime une ou plusieurs entrées, généralement des utilisateurs de messagerie, des listes de distribution ou d’autres conteneurs.</span><span class="sxs-lookup"><span data-stu-id="1e7ea-105">Removes one or more entries, typically messaging users, distribution lists, or other containers.</span></span>
   
 ```cpp
 HRESULT DeleteEntries(
@@ -34,40 +34,40 @@ HRESULT DeleteEntries(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="341eb-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="341eb-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1e7ea-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="1e7ea-106">Parameters</span></span>
 
- <span data-ttu-id="341eb-107">_lpEntries_</span><span class="sxs-lookup"><span data-stu-id="341eb-107">_lpEntries_</span></span>
+ <span data-ttu-id="1e7ea-107">_lpEntries_</span><span class="sxs-lookup"><span data-stu-id="1e7ea-107">_lpEntries_</span></span>
   
-> <span data-ttu-id="341eb-108">[in] Pointeur vers un tableau de structures [ENTRYLIST](entrylist.md) qui contiennent des identificateurs d’entrée qui représentent les entrées supprimées.</span><span class="sxs-lookup"><span data-stu-id="341eb-108">[in] A pointer to an array of [ENTRYLIST](entrylist.md) structures that contain entry identifiers that represent the entries being deleted.</span></span> 
+> <span data-ttu-id="1e7ea-108">[in] Pointeur vers un tableau de structures [ENTRYLIST](entrylist.md) qui contiennent des identificateurs d’entrée qui représentent les entrées supprimées.</span><span class="sxs-lookup"><span data-stu-id="1e7ea-108">[in] A pointer to an array of [ENTRYLIST](entrylist.md) structures that contain entry identifiers that represent the entries being deleted.</span></span> 
     
- <span data-ttu-id="341eb-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="341eb-109">_ulFlags_</span></span>
+ <span data-ttu-id="1e7ea-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="1e7ea-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="341eb-110">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="341eb-110">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="1e7ea-110">[in] R�serv� ; doit �tre �gal � z�ro.</span><span class="sxs-lookup"><span data-stu-id="1e7ea-110">[in] Reserved; must be zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="341eb-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="341eb-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1e7ea-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="1e7ea-111">Return value</span></span>
 
-<span data-ttu-id="341eb-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="341eb-112">S_OK</span></span> 
+<span data-ttu-id="1e7ea-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="1e7ea-112">S_OK</span></span> 
   
-> <span data-ttu-id="341eb-113">Les entrées spécifiées ont été supprimées avec succès.</span><span class="sxs-lookup"><span data-stu-id="341eb-113">The specified entries have been successfully deleted.</span></span> 
+> <span data-ttu-id="1e7ea-113">Les entrées spécifiées ont été supprimées avec succès.</span><span class="sxs-lookup"><span data-stu-id="1e7ea-113">The specified entries have been successfully deleted.</span></span> 
     
-<span data-ttu-id="341eb-114">MAPI_W_PARTIAL_COMPLETION</span><span class="sxs-lookup"><span data-stu-id="341eb-114">MAPI_W_PARTIAL_COMPLETION</span></span> 
+<span data-ttu-id="1e7ea-114">MAPI_W_PARTIAL_COMPLETION</span><span class="sxs-lookup"><span data-stu-id="1e7ea-114">MAPI_W_PARTIAL_COMPLETION</span></span> 
   
-> <span data-ttu-id="341eb-115">L’appel a réussi, mais une ou plusieurs des entrées n’ont pas pu être supprimées.</span><span class="sxs-lookup"><span data-stu-id="341eb-115">The call succeeded, but one or more of the entries could not be deleted.</span></span> <span data-ttu-id="341eb-116">Lorsque cette valeur est renvoyée, l’appel doit être géré comme réussi.</span><span class="sxs-lookup"><span data-stu-id="341eb-116">When this value is returned, the call should be handled as successful.</span></span> <span data-ttu-id="341eb-117">Pour tester cette valeur, utilisez la macro **HR_FAILED** macro.</span><span class="sxs-lookup"><span data-stu-id="341eb-117">To test for this value, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="341eb-118">Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)</span><span class="sxs-lookup"><span data-stu-id="341eb-118">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
+> <span data-ttu-id="1e7ea-115">L’appel a réussi, mais une ou plusieurs des entrées n’ont pas pu être supprimées.</span><span class="sxs-lookup"><span data-stu-id="1e7ea-115">The call succeeded, but one or more of the entries could not be deleted.</span></span> <span data-ttu-id="1e7ea-116">Lorsque cette valeur est renvoyée, l’appel doit être géré comme réussi.</span><span class="sxs-lookup"><span data-stu-id="1e7ea-116">When this value is returned, the call should be handled as successful.</span></span> <span data-ttu-id="1e7ea-117">Pour tester cette valeur, utilisez la macro **HR_FAILED** macro.</span><span class="sxs-lookup"><span data-stu-id="1e7ea-117">To test for this value, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="1e7ea-118">Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)</span><span class="sxs-lookup"><span data-stu-id="1e7ea-118">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
     
-## <a name="mfcmapi-reference"></a><span data-ttu-id="341eb-119">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="341eb-119">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="1e7ea-119">Référence MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="1e7ea-119">MFCMAPI reference</span></span>
 
-<span data-ttu-id="341eb-120">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="341eb-120">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="1e7ea-120">Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="1e7ea-120">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="341eb-121">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="341eb-121">**File**</span></span>|<span data-ttu-id="341eb-122">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="341eb-122">**Function**</span></span>|<span data-ttu-id="341eb-123">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="341eb-123">**Comment**</span></span>|
+|<span data-ttu-id="1e7ea-121">**Fichier**</span><span class="sxs-lookup"><span data-stu-id="1e7ea-121">**File**</span></span>|<span data-ttu-id="1e7ea-122">**Fonction**</span><span class="sxs-lookup"><span data-stu-id="1e7ea-122">**Function**</span></span>|<span data-ttu-id="1e7ea-123">**Commentaire**</span><span class="sxs-lookup"><span data-stu-id="1e7ea-123">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="341eb-124">Abdlg.cpp</span><span class="sxs-lookup"><span data-stu-id="341eb-124">Abdlg.cpp</span></span>  <br/> |<span data-ttu-id="341eb-125">CabDlg::OnDeleteSelectedItem</span><span class="sxs-lookup"><span data-stu-id="341eb-125">CabDlg::OnDeleteSelectedItem</span></span>  <br/> |<span data-ttu-id="341eb-126">MFCMAPI utilise la **méthode DeleteEntries** pour supprimer une entrée spécifique d’un conteneur de carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="341eb-126">MFCMAPI uses the **DeleteEntries** method to delete a specific entry from an address book container.</span></span>  <br/> |
+|<span data-ttu-id="1e7ea-124">Abdlg.cpp</span><span class="sxs-lookup"><span data-stu-id="1e7ea-124">Abdlg.cpp</span></span>  <br/> |<span data-ttu-id="1e7ea-125">CabDlg::OnDeleteSelectedItem</span><span class="sxs-lookup"><span data-stu-id="1e7ea-125">CabDlg::OnDeleteSelectedItem</span></span>  <br/> |<span data-ttu-id="1e7ea-126">MFCMAPI utilise la **méthode DeleteEntries** pour supprimer une entrée spécifique d’un conteneur de carnet d’adresses.</span><span class="sxs-lookup"><span data-stu-id="1e7ea-126">MFCMAPI uses the **DeleteEntries** method to delete a specific entry from an address book container.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="341eb-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="341eb-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1e7ea-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1e7ea-127">See also</span></span>
 
 
 
-[<span data-ttu-id="341eb-128">IABContainer : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="341eb-128">IABContainer : IMAPIContainer</span></span>](iabcontainerimapicontainer.md)
+[<span data-ttu-id="1e7ea-128">IABContainer : IMAPIContainer</span><span class="sxs-lookup"><span data-stu-id="1e7ea-128">IABContainer : IMAPIContainer</span></span>](iabcontainerimapicontainer.md)
 
 
-[<span data-ttu-id="341eb-129">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="341eb-129">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="1e7ea-129">MFCMAPI comme un exemple de Code</span><span class="sxs-lookup"><span data-stu-id="1e7ea-129">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

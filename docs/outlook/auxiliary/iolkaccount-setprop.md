@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431987"
 ---
-# <a name="iolkaccountsetprop"></a><span data-ttu-id="a3b34-103">IOlkAccount::SetProp</span><span class="sxs-lookup"><span data-stu-id="a3b34-103">IOlkAccount::SetProp</span></span>
+# <a name="iolkaccountsetprop"></a><span data-ttu-id="ee071-103">IOlkAccount::SetProp</span><span class="sxs-lookup"><span data-stu-id="ee071-103">IOlkAccount::SetProp</span></span>
 
-<span data-ttu-id="a3b34-104">Définit la valeur de la propriété de compte spécifiée.</span><span class="sxs-lookup"><span data-stu-id="a3b34-104">Sets the value of the specified account property.</span></span>
+<span data-ttu-id="ee071-104">Définit la valeur de la propriété de compte spécifiée.</span><span class="sxs-lookup"><span data-stu-id="ee071-104">Sets the value of the specified account property.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="a3b34-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="a3b34-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="ee071-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="ee071-105">Quick info</span></span>
 
-<span data-ttu-id="a3b34-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="a3b34-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="ee071-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="ee071-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccount::SetProp(  
@@ -29,29 +29,29 @@ HRESULT IOlkAccount::SetProp(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a3b34-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a3b34-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ee071-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="ee071-107">Parameters</span></span>
 
-<span data-ttu-id="a3b34-108">_dwProp_</span><span class="sxs-lookup"><span data-stu-id="a3b34-108">_dwProp_</span></span>
+<span data-ttu-id="ee071-108">_dwProp_</span><span class="sxs-lookup"><span data-stu-id="ee071-108">_dwProp_</span></span>
   
-> <span data-ttu-id="a3b34-109">[in] Balise de propriété de la propriété de compte à définir.</span><span class="sxs-lookup"><span data-stu-id="a3b34-109">[in] The property tag of the account property to set.</span></span>
+> <span data-ttu-id="ee071-109">[in] Balise de propriété de la propriété de compte à définir.</span><span class="sxs-lookup"><span data-stu-id="ee071-109">[in] The property tag of the account property to set.</span></span>
     
-<span data-ttu-id="a3b34-110">_pVar_</span><span class="sxs-lookup"><span data-stu-id="a3b34-110">_pVar_</span></span>
+<span data-ttu-id="ee071-110">_pVar_</span><span class="sxs-lookup"><span data-stu-id="ee071-110">_pVar_</span></span>
   
-> <span data-ttu-id="a3b34-111">[in] Valeur de la propriété spécifiée.</span><span class="sxs-lookup"><span data-stu-id="a3b34-111">[in] The value of the specified property.</span></span>
+> <span data-ttu-id="ee071-111">[in] Valeur de la propriété spécifiée.</span><span class="sxs-lookup"><span data-stu-id="ee071-111">[in] The value of the specified property.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="a3b34-112">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="a3b34-112">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="ee071-112">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="ee071-112">Return values</span></span>
 
-|<span data-ttu-id="a3b34-113">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="a3b34-113">**HRESULT**</span></span>|<span data-ttu-id="a3b34-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="a3b34-114">**Description**</span></span>|
+|<span data-ttu-id="ee071-113">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="ee071-113">**HRESULT**</span></span>|<span data-ttu-id="ee071-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="ee071-114">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="a3b34-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="a3b34-115">S_OK</span></span>  <br/> |<span data-ttu-id="a3b34-116">L’appel de méthode a réussi.</span><span class="sxs-lookup"><span data-stu-id="a3b34-116">The method call was successful.</span></span>  <br/> |
-|<span data-ttu-id="a3b34-117">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="a3b34-117">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="a3b34-118">Une balise de propriété non valide a été spécifiée.</span><span class="sxs-lookup"><span data-stu-id="a3b34-118">An invalid property tag was specified.</span></span>  <br/> |
+|<span data-ttu-id="ee071-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="ee071-115">S_OK</span></span>  <br/> |<span data-ttu-id="ee071-116">L’appel de méthode a réussi.</span><span class="sxs-lookup"><span data-stu-id="ee071-116">The method call was successful.</span></span>  <br/> |
+|<span data-ttu-id="ee071-117">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="ee071-117">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="ee071-118">Une balise de propriété non valide a été spécifiée.</span><span class="sxs-lookup"><span data-stu-id="ee071-118">An invalid property tag was specified.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a3b34-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="a3b34-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ee071-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="ee071-119">Remarks</span></span>
 
-<span data-ttu-id="a3b34-120">Utilisez [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) pour enregistrer les modifications apportées à la valeur des propriétés du compte.</span><span class="sxs-lookup"><span data-stu-id="a3b34-120">Use [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) to save changes to the value of account properties.</span></span> 
+<span data-ttu-id="ee071-120">Utilisez [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) pour enregistrer les modifications apportées à la valeur des propriétés du compte.</span><span class="sxs-lookup"><span data-stu-id="ee071-120">Use [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) to save changes to the value of account properties.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="a3b34-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a3b34-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ee071-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ee071-121">See also</span></span>
 
-- [<span data-ttu-id="a3b34-122">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="a3b34-122">Constants (Account management API)</span></span>](constants-account-management-api.md) 
-- [<span data-ttu-id="a3b34-123">IOlkAccount::GetProp</span><span class="sxs-lookup"><span data-stu-id="a3b34-123">IOlkAccount::GetProp</span></span>](iolkaccount-getprop.md)
+- [<span data-ttu-id="ee071-122">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="ee071-122">Constants (Account management API)</span></span>](constants-account-management-api.md) 
+- [<span data-ttu-id="ee071-123">IOlkAccount::GetProp</span><span class="sxs-lookup"><span data-stu-id="ee071-123">IOlkAccount::GetProp</span></span>](iolkaccount-getprop.md)
 

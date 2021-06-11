@@ -14,29 +14,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425980"
 ---
-# <a name="pagelockduplicate-cell-page-properties-section"></a><span data-ttu-id="50cab-103">PageLockDuplicate Cell (Page Properties Section)</span><span class="sxs-lookup"><span data-stu-id="50cab-103">PageLockDuplicate Cell (Page Properties Section)</span></span>
+# <a name="pagelockduplicate-cell-page-properties-section"></a><span data-ttu-id="9e025-103">PageLockDuplicate Cell (Page Properties Section)</span><span class="sxs-lookup"><span data-stu-id="9e025-103">PageLockDuplicate Cell (Page Properties Section)</span></span>
 
-<span data-ttu-id="50cab-104">Détermine si la page peut être dupliquée, en tant que booléen.</span><span class="sxs-lookup"><span data-stu-id="50cab-104">Determines whether the page can be duplicated, as a Boolean.</span></span>
+<span data-ttu-id="9e025-104">Détermine si la page peut être dupliquée, en tant que booléen.</span><span class="sxs-lookup"><span data-stu-id="9e025-104">Determines whether the page can be duplicated, as a Boolean.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="50cab-105">TRUE</span><span class="sxs-lookup"><span data-stu-id="50cab-105">TRUE</span></span>  <br/> |<span data-ttu-id="50cab-106">**Le** doublon dans le menu de raccourci de page et la **méthode d’automatisation Page.Duplicate** sont tous deux désactivés pour la page.</span><span class="sxs-lookup"><span data-stu-id="50cab-106">**Duplicate** in the page shortcut menu and the **Page.Duplicate** automation method are both disabled for the page.</span></span>  <br/> |
-|<span data-ttu-id="50cab-107">FALSE</span><span class="sxs-lookup"><span data-stu-id="50cab-107">FALSE</span></span>  <br/> |<span data-ttu-id="50cab-108">La page peut être dupliquée.</span><span class="sxs-lookup"><span data-stu-id="50cab-108">The page can be duplicated.</span></span>  <br/> |
+|<span data-ttu-id="9e025-105">TRUE</span><span class="sxs-lookup"><span data-stu-id="9e025-105">TRUE</span></span>  <br/> |<span data-ttu-id="9e025-106">**Les doublons** dans le menu de raccourci de page et la **méthode d’automatisation Page.Duplicate** sont tous deux désactivés pour la page.</span><span class="sxs-lookup"><span data-stu-id="9e025-106">**Duplicate** in the page shortcut menu and the **Page.Duplicate** automation method are both disabled for the page.</span></span>  <br/> |
+|<span data-ttu-id="9e025-107">FALSE</span><span class="sxs-lookup"><span data-stu-id="9e025-107">FALSE</span></span>  <br/> |<span data-ttu-id="9e025-108">La page peut être dupliquée.</span><span class="sxs-lookup"><span data-stu-id="9e025-108">The page can be duplicated.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="50cab-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="50cab-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9e025-109">Remarques</span><span class="sxs-lookup"><span data-stu-id="9e025-109">Remarks</span></span>
 
-<span data-ttu-id="50cab-110">Pour obtenir une référence à la cellule **PageLockDuplicate** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="50cab-110">To get a reference to the **PageLockDuplicate** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="9e025-110">Pour obtenir une référence à la cellule **PageLockDuplicate** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="9e025-110">To get a reference to the **PageLockDuplicate** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="50cab-111">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="50cab-111">Cell name:</span></span>  <br/> | <span data-ttu-id="50cab-112">PageLockDuplicate</span><span class="sxs-lookup"><span data-stu-id="50cab-112">PageLockDuplicate</span></span>  <br/> |
+| <span data-ttu-id="9e025-111">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="9e025-111">Cell name:</span></span>  <br/> | <span data-ttu-id="9e025-112">PageLockDuplicate</span><span class="sxs-lookup"><span data-stu-id="9e025-112">PageLockDuplicate</span></span>  <br/> |
    
-<span data-ttu-id="50cab-113">Pour obtenir une référence à la **cellule PageLockDuplicate** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="50cab-113">To get a reference to the **PageLockDuplicate** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="9e025-113">Pour obtenir une référence à la **cellule PageLockDuplicate** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="9e025-113">To get a reference to the **PageLockDuplicate** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="50cab-114">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="50cab-114">Section index:</span></span>  <br/> |<span data-ttu-id="50cab-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="50cab-115">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="50cab-116">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="50cab-116">Row index:</span></span>  <br/> |<span data-ttu-id="50cab-117">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="50cab-117">**visRowPage**</span></span> <br/> |
-| <span data-ttu-id="50cab-118">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="50cab-118">Cell index:</span></span>  <br/> |<span data-ttu-id="50cab-119">**visPageLockDuplicate**</span><span class="sxs-lookup"><span data-stu-id="50cab-119">**visPageLockDuplicate**</span></span> <br/> |
+| <span data-ttu-id="9e025-114">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="9e025-114">Section index:</span></span>  <br/> |<span data-ttu-id="9e025-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="9e025-115">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="9e025-116">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="9e025-116">Row index:</span></span>  <br/> |<span data-ttu-id="9e025-117">**visRowPage**</span><span class="sxs-lookup"><span data-stu-id="9e025-117">**visRowPage**</span></span> <br/> |
+| <span data-ttu-id="9e025-118">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="9e025-118">Cell index:</span></span>  <br/> |<span data-ttu-id="9e025-119">**visPageLockDuplicate**</span><span class="sxs-lookup"><span data-stu-id="9e025-119">**visPageLockDuplicate**</span></span> <br/> |
    
 

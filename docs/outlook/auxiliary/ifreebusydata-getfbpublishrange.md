@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430076"
 ---
-# <a name="ifreebusydatagetfbpublishrange"></a><span data-ttu-id="84823-103">IFreeBusyData::GetFBPublishRange</span><span class="sxs-lookup"><span data-stu-id="84823-103">IFreeBusyData::GetFBPublishRange</span></span>
+# <a name="ifreebusydatagetfbpublishrange"></a><span data-ttu-id="851c1-103">IFreeBusyData::GetFBPublishRange</span><span class="sxs-lookup"><span data-stu-id="851c1-103">IFreeBusyData::GetFBPublishRange</span></span>
 
-<span data-ttu-id="84823-104">Obtient une plage de temps prédéfinie pour une éumération des blocs de données de libre/occupé d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="84823-104">Gets a preset time range for an enumeration of free/busy blocks of data for a user.</span></span>
+<span data-ttu-id="851c1-104">Obtient une plage de temps prédéfinie pour une éumération des blocs de données de libre/occupé d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="851c1-104">Gets a preset time range for an enumeration of free/busy blocks of data for a user.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="84823-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="84823-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="851c1-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="851c1-105">Quick info</span></span>
 
-<span data-ttu-id="84823-106">Voir [IFreeBusyData](ifreebusydata.md).</span><span class="sxs-lookup"><span data-stu-id="84823-106">See [IFreeBusyData](ifreebusydata.md).</span></span>
+<span data-ttu-id="851c1-106">Voir [IFreeBusyData](ifreebusydata.md).</span><span class="sxs-lookup"><span data-stu-id="851c1-106">See [IFreeBusyData](ifreebusydata.md).</span></span>
   
 ```cpp
 HRESULT GetFBPublishRange( 
@@ -30,29 +30,29 @@ HRESULT GetFBPublishRange(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="84823-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="84823-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="851c1-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="851c1-107">Parameters</span></span>
 
-<span data-ttu-id="84823-108">_prtmStart_</span><span class="sxs-lookup"><span data-stu-id="84823-108">_prtmStart_</span></span>
+<span data-ttu-id="851c1-108">_prtmStart_</span><span class="sxs-lookup"><span data-stu-id="851c1-108">_prtmStart_</span></span>
   
-> <span data-ttu-id="84823-109">[out] Valeur d’heure relative pour le début des informations de libre/occupé.</span><span class="sxs-lookup"><span data-stu-id="84823-109">[out] A relative time value for the start of free/busy information.</span></span> <span data-ttu-id="84823-110">Cette valeur est le nombre de minutes depuis le 1er janvier 1601.</span><span class="sxs-lookup"><span data-stu-id="84823-110">This value is the number of minutes since January 1, 1601.</span></span>
+> <span data-ttu-id="851c1-109">[out] Valeur d’heure relative pour le début des informations de libre/occupé.</span><span class="sxs-lookup"><span data-stu-id="851c1-109">[out] A relative time value for the start of free/busy information.</span></span> <span data-ttu-id="851c1-110">Cette valeur est le nombre de minutes depuis le 1er janvier 1601.</span><span class="sxs-lookup"><span data-stu-id="851c1-110">This value is the number of minutes since January 1, 1601.</span></span>
     
-<span data-ttu-id="84823-111">_prtmEnd_</span><span class="sxs-lookup"><span data-stu-id="84823-111">_prtmEnd_</span></span>
+<span data-ttu-id="851c1-111">_prtmEnd_</span><span class="sxs-lookup"><span data-stu-id="851c1-111">_prtmEnd_</span></span>
   
-> <span data-ttu-id="84823-112">[out] Valeur d’heure relative pour la fin des informations de libre/occupé.</span><span class="sxs-lookup"><span data-stu-id="84823-112">[out] A relative time value for the end of free/busy information.</span></span> <span data-ttu-id="84823-113">Cette valeur est le nombre de minutes depuis le 1er janvier 1601.</span><span class="sxs-lookup"><span data-stu-id="84823-113">This value is the number of minutes since January 1, 1601.</span></span>
+> <span data-ttu-id="851c1-112">[out] Valeur d’heure relative pour la fin des informations de libre/occupé.</span><span class="sxs-lookup"><span data-stu-id="851c1-112">[out] A relative time value for the end of free/busy information.</span></span> <span data-ttu-id="851c1-113">Cette valeur est le nombre de minutes depuis le 1er janvier 1601.</span><span class="sxs-lookup"><span data-stu-id="851c1-113">This value is the number of minutes since January 1, 1601.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="84823-114">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="84823-114">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="851c1-114">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="851c1-114">Return values</span></span>
 
-<span data-ttu-id="84823-115">S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.</span><span class="sxs-lookup"><span data-stu-id="84823-115">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="851c1-115">S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.</span><span class="sxs-lookup"><span data-stu-id="851c1-115">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="84823-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="84823-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="851c1-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="851c1-116">Remarks</span></span>
 
-<span data-ttu-id="84823-117">Un fournisseur de libre/occupé appelle [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) pour définir la plage de temps d’une éumération.</span><span class="sxs-lookup"><span data-stu-id="84823-117">A free/busy provider calls [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) or [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) to set the time range for an enumeration.</span></span> <span data-ttu-id="84823-118">Si [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) n’a pas été appelé, les valeurs par défaut pour **prtmStart** et **prtmEnd** doivent être définies respectivement entre le 1er avril 1601 00:00:00Z et le 31 août 4500 11:59:59Z.</span><span class="sxs-lookup"><span data-stu-id="84823-118">If either [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) or [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) has not been called, the default values for **prtmStart** and **prtmEnd** must be set between April 1st, 1601 00:00:00Z and August 31, 4500 11:59:59Z respectively.</span></span> <span data-ttu-id="84823-119">En outre, vous ne devez pas définir l’heure de début pour qu’elle soit supérieure à l’heure de fin.</span><span class="sxs-lookup"><span data-stu-id="84823-119">Additionally, you should not set the start time to be greater than the end time.</span></span> 
+<span data-ttu-id="851c1-117">Un fournisseur de libre/occupé appelle [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) pour définir la plage de temps d’une éumération.</span><span class="sxs-lookup"><span data-stu-id="851c1-117">A free/busy provider calls [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) or [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) to set the time range for an enumeration.</span></span> <span data-ttu-id="851c1-118">Si [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) ou [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) n’a pas été appelé, les valeurs par défaut pour **prtmStart** et **prtmEnd** doivent être définies respectivement entre le 1er avril 1601 00:00:00Z et le 31 août 4500 11:59:59Z.</span><span class="sxs-lookup"><span data-stu-id="851c1-118">If either [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md) or [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md) has not been called, the default values for **prtmStart** and **prtmEnd** must be set between April 1st, 1601 00:00:00Z and August 31, 4500 11:59:59Z respectively.</span></span> <span data-ttu-id="851c1-119">En outre, vous ne devez pas définir l’heure de début pour qu’elle soit supérieure à l’heure de fin.</span><span class="sxs-lookup"><span data-stu-id="851c1-119">Additionally, you should not set the start time to be greater than the end time.</span></span> 
   
-<span data-ttu-id="84823-120">**IFreeBusyData::GetFBPublishRange** must return the cached values for the time range set by the most recent call for **IFreeBusyData::EnumBlocks** or **IFreeBusyData::SetFBRange**.</span><span class="sxs-lookup"><span data-stu-id="84823-120">**IFreeBusyData::GetFBPublishRange** must return the cached values for the time range set by the most recent call for **IFreeBusyData::EnumBlocks** or **IFreeBusyData::SetFBRange**.</span></span> 
+<span data-ttu-id="851c1-120">**IFreeBusyData::GetFBPublishRange** must return the cached values for the time range set by the most recent call for **IFreeBusyData::EnumBlocks** or **IFreeBusyData::SetFBRange**.</span><span class="sxs-lookup"><span data-stu-id="851c1-120">**IFreeBusyData::GetFBPublishRange** must return the cached values for the time range set by the most recent call for **IFreeBusyData::EnumBlocks** or **IFreeBusyData::SetFBRange**.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="84823-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="84823-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="851c1-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="851c1-121">See also</span></span>
 
-- [<span data-ttu-id="84823-122">Utiliser l’heure relative pour accéder aux données de disponibilité</span><span class="sxs-lookup"><span data-stu-id="84823-122">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
-- [<span data-ttu-id="84823-123">IFreeBusyData::EnumBlocks</span><span class="sxs-lookup"><span data-stu-id="84823-123">IFreeBusyData::EnumBlocks</span></span>](ifreebusydata-enumblocks.md)
-- [<span data-ttu-id="84823-124">IFreeBusyData::SetFBRange</span><span class="sxs-lookup"><span data-stu-id="84823-124">IFreeBusyData::SetFBRange</span></span>](ifreebusydata-setfbrange.md)
+- [<span data-ttu-id="851c1-122">Utiliser l’heure relative pour accéder aux données de disponibilité</span><span class="sxs-lookup"><span data-stu-id="851c1-122">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
+- [<span data-ttu-id="851c1-123">IFreeBusyData::EnumBlocks</span><span class="sxs-lookup"><span data-stu-id="851c1-123">IFreeBusyData::EnumBlocks</span></span>](ifreebusydata-enumblocks.md)
+- [<span data-ttu-id="851c1-124">IFreeBusyData::SetFBRange</span><span class="sxs-lookup"><span data-stu-id="851c1-124">IFreeBusyData::SetFBRange</span></span>](ifreebusydata-setfbrange.md)
 

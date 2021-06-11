@@ -15,30 +15,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425952"
 ---
-# <a name="pidtagservertypedisplayname-canonical-property"></a><span data-ttu-id="2826c-103">Propriété canonique PidTagServerTypeDisplayName</span><span class="sxs-lookup"><span data-stu-id="2826c-103">PidTagServerTypeDisplayName Canonical Property</span></span>
+# <a name="pidtagservertypedisplayname-canonical-property"></a><span data-ttu-id="7c845-103">Propriété canonique PidTagServerTypeDisplayName</span><span class="sxs-lookup"><span data-stu-id="7c845-103">PidTagServerTypeDisplayName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="2826c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2826c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7c845-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7c845-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2826c-105">Spécifie la chaîne Unicode à afficher dans la barre d’état avec cette propriété.</span><span class="sxs-lookup"><span data-stu-id="2826c-105">Specifies the Unicode string to display in the status bar with this property.</span></span>
+<span data-ttu-id="7c845-105">Spécifie la chaîne Unicode à afficher dans la barre d’état avec cette propriété.</span><span class="sxs-lookup"><span data-stu-id="7c845-105">Specifies the Unicode string to display in the status bar with this property.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2826c-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="2826c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="2826c-107">PR_SERVER_TYPE_DISPLAY_NAME</span><span class="sxs-lookup"><span data-stu-id="2826c-107">PR_SERVER_TYPE_DISPLAY_NAME</span></span>  <br/> |
-|<span data-ttu-id="2826c-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="2826c-108">Identifier:</span></span>  <br/> |<span data-ttu-id="2826c-109">0x341D</span><span class="sxs-lookup"><span data-stu-id="2826c-109">0x341D</span></span>  <br/> |
-|<span data-ttu-id="2826c-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="2826c-110">Data type:</span></span>  <br/> |<span data-ttu-id="2826c-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="2826c-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="2826c-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="2826c-112">Area:</span></span>  <br/> |<span data-ttu-id="2826c-113">Courant</span><span class="sxs-lookup"><span data-stu-id="2826c-113">Common</span></span>  <br/> |
+|<span data-ttu-id="7c845-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="7c845-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7c845-107">PR_SERVER_TYPE_DISPLAY_NAME</span><span class="sxs-lookup"><span data-stu-id="7c845-107">PR_SERVER_TYPE_DISPLAY_NAME</span></span>  <br/> |
+|<span data-ttu-id="7c845-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="7c845-108">Identifier:</span></span>  <br/> |<span data-ttu-id="7c845-109">0x341D</span><span class="sxs-lookup"><span data-stu-id="7c845-109">0x341D</span></span>  <br/> |
+|<span data-ttu-id="7c845-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="7c845-110">Data type:</span></span>  <br/> |<span data-ttu-id="7c845-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="7c845-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="7c845-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="7c845-112">Area:</span></span>  <br/> |<span data-ttu-id="7c845-113">Courant</span><span class="sxs-lookup"><span data-stu-id="7c845-113">Common</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="2826c-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="2826c-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7c845-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7c845-114">See also</span></span>
 
 
 
-[<span data-ttu-id="2826c-115">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="2826c-115">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="7c845-115">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="7c845-115">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="2826c-116">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="2826c-116">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="7c845-116">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="7c845-116">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="2826c-117">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="2826c-117">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="7c845-117">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="7c845-117">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="2826c-118">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="2826c-118">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="7c845-118">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="7c845-118">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

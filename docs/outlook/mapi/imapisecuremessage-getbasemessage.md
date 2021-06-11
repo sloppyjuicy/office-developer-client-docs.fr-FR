@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428577"
 ---
-# <a name="imapisecuremessagegetbasemessage"></a><span data-ttu-id="9ede5-103">IMAPISecureMessage::GetBaseMessage</span><span class="sxs-lookup"><span data-stu-id="9ede5-103">IMAPISecureMessage::GetBaseMessage</span></span>
+# <a name="imapisecuremessagegetbasemessage"></a><span data-ttu-id="d299b-103">IMAPISecureMessage::GetBaseMessage</span><span class="sxs-lookup"><span data-stu-id="d299b-103">IMAPISecureMessage::GetBaseMessage</span></span>
 
   
   
-<span data-ttu-id="9ede5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9ede5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d299b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d299b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9ede5-105">Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que ce [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule.</span><span class="sxs-lookup"><span data-stu-id="9ede5-105">Retrieves the underlying [IMessage : IMAPIProp](imessageimapiprop.md) that this [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) is encapsulating.</span></span> 
+<span data-ttu-id="d299b-105">Extrait [l’IMessage sous-jacent : IMAPIProp](imessageimapiprop.md) que cet [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) encapsule.</span><span class="sxs-lookup"><span data-stu-id="d299b-105">Retrieves the underlying [IMessage : IMAPIProp](imessageimapiprop.md) that this [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) is encapsulating.</span></span> 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -33,23 +33,23 @@ HRESULT GetBaseMessage(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9ede5-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="9ede5-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d299b-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="d299b-106">Parameters</span></span>
 
- <span data-ttu-id="9ede5-107">_ppmsg_</span><span class="sxs-lookup"><span data-stu-id="9ede5-107">_ppmsg_</span></span>
+ <span data-ttu-id="d299b-107">_ppmsg_</span><span class="sxs-lookup"><span data-stu-id="d299b-107">_ppmsg_</span></span>
   
-> <span data-ttu-id="9ede5-108">[out] Objet de message sécurisé.</span><span class="sxs-lookup"><span data-stu-id="9ede5-108">[out] A secure message object.</span></span>
+> <span data-ttu-id="d299b-108">[out] Objet de message sécurisé.</span><span class="sxs-lookup"><span data-stu-id="d299b-108">[out] A secure message object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="9ede5-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="9ede5-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d299b-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="d299b-109">Return value</span></span>
 
-<span data-ttu-id="9ede5-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="9ede5-110">S_OK</span></span>
+<span data-ttu-id="d299b-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="d299b-110">S_OK</span></span>
   
-> <span data-ttu-id="9ede5-111">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="9ede5-111">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="d299b-111">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="d299b-111">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="9ede5-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9ede5-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d299b-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d299b-112">See also</span></span>
 
 
 
-[<span data-ttu-id="9ede5-113">IMAPISecureMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9ede5-113">IMAPISecureMessage : IUnknown</span></span>](imapisecuremessageiunknown.md)
+[<span data-ttu-id="d299b-113">IMAPISecureMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d299b-113">IMAPISecureMessage : IUnknown</span></span>](imapisecuremessageiunknown.md)
   
-[<span data-ttu-id="9ede5-114">IMessage : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="9ede5-114">IMessage : IMAPIProp</span></span>](imessageimapiprop.md)
+[<span data-ttu-id="d299b-114">IMessage : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="d299b-114">IMessage : IMAPIProp</span></span>](imessageimapiprop.md)
 

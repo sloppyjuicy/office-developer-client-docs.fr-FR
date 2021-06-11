@@ -19,17 +19,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429613"
 ---
-# <a name="sshortarray"></a><span data-ttu-id="5cd0f-103">SShortArray</span><span class="sxs-lookup"><span data-stu-id="5cd0f-103">SShortArray</span></span>
+# <a name="sshortarray"></a><span data-ttu-id="6a1f9-103">SShortArray</span><span class="sxs-lookup"><span data-stu-id="6a1f9-103">SShortArray</span></span>
 
   
   
-<span data-ttu-id="5cd0f-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5cd0f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6a1f9-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6a1f9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5cd0f-105">Contient un tableau de valeurs d’un nombre integer non signé qui sont utilisées pour décrire une propriété de type PT_MV_SHORT.</span><span class="sxs-lookup"><span data-stu-id="5cd0f-105">Contains an array of unsigned integer values that are used to describe a property of type PT_MV_SHORT.</span></span>
+<span data-ttu-id="6a1f9-105">Contient un tableau de valeurs d’un nombre integer non signé qui sont utilisées pour décrire une propriété de type PT_MV_SHORT.</span><span class="sxs-lookup"><span data-stu-id="6a1f9-105">Contains an array of unsigned integer values that are used to describe a property of type PT_MV_SHORT.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5cd0f-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="5cd0f-106">Header file:</span></span>  <br/> |<span data-ttu-id="5cd0f-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5cd0f-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="6a1f9-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="6a1f9-106">Header file:</span></span>  <br/> |<span data-ttu-id="6a1f9-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="6a1f9-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SShortArray
@@ -40,26 +40,26 @@ typedef struct _SShortArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="5cd0f-108">Members</span><span class="sxs-lookup"><span data-stu-id="5cd0f-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="6a1f9-108">Members</span><span class="sxs-lookup"><span data-stu-id="6a1f9-108">Members</span></span>
 
- <span data-ttu-id="5cd0f-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="5cd0f-109">**cValues**</span></span>
+ <span data-ttu-id="6a1f9-109">**cValues**</span><span class="sxs-lookup"><span data-stu-id="6a1f9-109">**cValues**</span></span>
   
-> <span data-ttu-id="5cd0f-110">Nombre de valeurs dans le tableau pointées par le **membre lpi.**</span><span class="sxs-lookup"><span data-stu-id="5cd0f-110">Count of values in the array pointed to by the **lpi** member.</span></span> 
+> <span data-ttu-id="6a1f9-110">Nombre de valeurs dans le tableau pointées par le **membre lpi.**</span><span class="sxs-lookup"><span data-stu-id="6a1f9-110">Count of values in the array pointed to by the **lpi** member.</span></span> 
     
- <span data-ttu-id="5cd0f-111">**lpi**</span><span class="sxs-lookup"><span data-stu-id="5cd0f-111">**lpi**</span></span>
+ <span data-ttu-id="6a1f9-111">**lpi**</span><span class="sxs-lookup"><span data-stu-id="6a1f9-111">**lpi**</span></span>
   
-> <span data-ttu-id="5cd0f-112">Pointeur vers un tableau de valeurs d’un nombre integer non signé.</span><span class="sxs-lookup"><span data-stu-id="5cd0f-112">Pointer to an array of unsigned integer values.</span></span>
+> <span data-ttu-id="6a1f9-112">Pointeur vers un tableau de valeurs d’un nombre integer non signé.</span><span class="sxs-lookup"><span data-stu-id="6a1f9-112">Pointer to an array of unsigned integer values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="5cd0f-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="5cd0f-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6a1f9-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="6a1f9-113">Remarks</span></span>
 
-<span data-ttu-id="5cd0f-114">Pour plus d’informations sur PT_MV_SHORT types de propriétés et d’autres types de propriétés, voir [Types de propriétés.](property-types.md)</span><span class="sxs-lookup"><span data-stu-id="5cd0f-114">For more information about PT_MV_SHORT and other property types, see [Property Types](property-types.md).</span></span> 
+<span data-ttu-id="6a1f9-114">Pour plus d’informations sur PT_MV_SHORT types de propriétés et d’autres types de propriétés, voir [Types de propriétés.](property-types.md)</span><span class="sxs-lookup"><span data-stu-id="6a1f9-114">For more information about PT_MV_SHORT and other property types, see [Property Types](property-types.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="5cd0f-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5cd0f-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6a1f9-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6a1f9-115">See also</span></span>
 
 
 
-[<span data-ttu-id="5cd0f-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="5cd0f-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="6a1f9-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="6a1f9-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="5cd0f-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="5cd0f-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="6a1f9-117">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="6a1f9-117">MAPI Structures</span></span>](mapi-structures.md)
 

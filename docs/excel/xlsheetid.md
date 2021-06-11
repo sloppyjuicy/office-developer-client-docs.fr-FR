@@ -18,34 +18,34 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428430"
 ---
-# <a name="xlsheetid"></a><span data-ttu-id="9e3ce-104">xlSheetId</span><span class="sxs-lookup"><span data-stu-id="9e3ce-104">xlSheetId</span></span>
+# <a name="xlsheetid"></a><span data-ttu-id="de4ca-104">xlSheetId</span><span class="sxs-lookup"><span data-stu-id="de4ca-104">xlSheetId</span></span>
 
-<span data-ttu-id="9e3ce-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="9e3ce-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="de4ca-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="de4ca-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="9e3ce-106">Recherche l’ID de feuille d’une feuille nommée afin de construire des références externes.</span><span class="sxs-lookup"><span data-stu-id="9e3ce-106">Finds the sheet ID of a named sheet in order to construct external references.</span></span>
+<span data-ttu-id="de4ca-106">Recherche l’ID de feuille d’une feuille nommée afin de construire des références externes.</span><span class="sxs-lookup"><span data-stu-id="de4ca-106">Finds the sheet ID of a named sheet in order to construct external references.</span></span>
   
 ```cs
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="9e3ce-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="9e3ce-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="de4ca-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="de4ca-107">Parameters</span></span>
 
-<span data-ttu-id="9e3ce-108">_pxSheetName_ (**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="9e3ce-108">_pxSheetName_ (**xltypeStr**)</span></span>
+<span data-ttu-id="de4ca-108">_pxSheetName_ (**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="de4ca-108">_pxSheetName_ (**xltypeStr**)</span></span>
   
-<span data-ttu-id="9e3ce-109">(Facultatif).</span><span class="sxs-lookup"><span data-stu-id="9e3ce-109">(Optional).</span></span> <span data-ttu-id="9e3ce-110">Nom du livre et de la feuille que vous souhaitez connaître.</span><span class="sxs-lookup"><span data-stu-id="9e3ce-110">The name of the book and sheet you want to find out about.</span></span> <span data-ttu-id="9e3ce-111">Si elle est omise, **la fonction xlSheetId** renvoie l’ID de feuille de la feuille active (avant).</span><span class="sxs-lookup"><span data-stu-id="9e3ce-111">If omitted, the **xlSheetId** function returns the sheet ID of the active (front) sheet.</span></span> 
+<span data-ttu-id="de4ca-109">(Facultatif).</span><span class="sxs-lookup"><span data-stu-id="de4ca-109">(Optional).</span></span> <span data-ttu-id="de4ca-110">Nom du livre et de la feuille que vous souhaitez connaître.</span><span class="sxs-lookup"><span data-stu-id="de4ca-110">The name of the book and sheet you want to find out about.</span></span> <span data-ttu-id="de4ca-111">Si elle est omise, **la fonction xlSheetId** renvoie l’ID de feuille de la feuille active (avant).</span><span class="sxs-lookup"><span data-stu-id="de4ca-111">If omitted, the **xlSheetId** function returns the sheet ID of the active (front) sheet.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="9e3ce-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="9e3ce-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="de4ca-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="de4ca-112">Return value</span></span>
 
-<span data-ttu-id="9e3ce-113">Renvoie l’ID de feuille  _dans pxRes- \> val.mref.idSheet_.</span><span class="sxs-lookup"><span data-stu-id="9e3ce-113">Returns the sheet ID in  _pxRes-\>val.mref.idSheet_.</span></span> 
+<span data-ttu-id="de4ca-113">Renvoie l’ID de feuille  _dans pxRes- \> val.mref.idSheet_.</span><span class="sxs-lookup"><span data-stu-id="de4ca-113">Returns the sheet ID in  _pxRes-\>val.mref.idSheet_.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="9e3ce-114">Le pointeur du tableau  _pxRes- \> val.mref.lpmref_ est définie sur NULL après cet appel, de sorte qu’il n’est pas nécessaire d’appeler **xlFree** pour libérer la mémoire que ce type contient normalement, bien qu’il soit totalement sûr de le faire.</span><span class="sxs-lookup"><span data-stu-id="9e3ce-114">The  _pxRes-\>val.mref.lpmref_ array pointer is set to NULL after this call so that there is no need to call **xlFree** to release the memory that this type normally contains, although it is completely safe to do so.</span></span> 
+> <span data-ttu-id="de4ca-114">Le pointeur du tableau  _pxRes- \> val.mref.lpmref_ est définie sur NULL après cet appel, de sorte qu’il n’est pas nécessaire d’appeler **xlFree** pour libérer la mémoire que ce type contient normalement, bien qu’il soit totalement sûr de le faire.</span><span class="sxs-lookup"><span data-stu-id="de4ca-114">The  _pxRes-\>val.mref.lpmref_ array pointer is set to NULL after this call so that there is no need to call **xlFree** to release the memory that this type normally contains, although it is completely safe to do so.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="9e3ce-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="9e3ce-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="de4ca-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="de4ca-115">Remarks</span></span>
 
-<span data-ttu-id="9e3ce-116">Le workbook contenant la feuille spécifiée doit être ouvert pour utiliser cette fonction.</span><span class="sxs-lookup"><span data-stu-id="9e3ce-116">The workbook containing the specified sheet must be open to use this function.</span></span> <span data-ttu-id="9e3ce-117">Il n’existe aucun moyen de construire une référence à un livre de travail non ouvert à partir d’une DLL.</span><span class="sxs-lookup"><span data-stu-id="9e3ce-117">There is no way to construct a reference to an unopened workbook from a DLL.</span></span> <span data-ttu-id="9e3ce-118">Pour plus d’informations sur l’utilisation de **xlSheetId** pour construire des références, voir Gestion de la mémoire dans [Excel](memory-management-in-excel.md) pour obtenir des exemples de construction **xltypeRef.**</span><span class="sxs-lookup"><span data-stu-id="9e3ce-118">For more information about using **xlSheetId** to construct references, see [Memory Management in Excel](memory-management-in-excel.md) for examples of **xltypeRef** construction.</span></span> 
+<span data-ttu-id="de4ca-116">Le workbook contenant la feuille spécifiée doit être ouvert pour utiliser cette fonction.</span><span class="sxs-lookup"><span data-stu-id="de4ca-116">The workbook containing the specified sheet must be open to use this function.</span></span> <span data-ttu-id="de4ca-117">Il n’existe aucun moyen de construire une référence à un livre de travail non ouvert à partir d’une DLL.</span><span class="sxs-lookup"><span data-stu-id="de4ca-117">There is no way to construct a reference to an unopened workbook from a DLL.</span></span> <span data-ttu-id="de4ca-118">Pour plus d’informations sur l’utilisation de **xlSheetId** pour construire des références, voir Gestion de [la mémoire dans Excel](memory-management-in-excel.md) pour obtenir des exemples de construction **xltypeRef.**</span><span class="sxs-lookup"><span data-stu-id="de4ca-118">For more information about using **xlSheetId** to construct references, see [Memory Management in Excel](memory-management-in-excel.md) for examples of **xltypeRef** construction.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="9e3ce-119">Exemple</span><span class="sxs-lookup"><span data-stu-id="9e3ce-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="de4ca-119">Exemple</span><span class="sxs-lookup"><span data-stu-id="de4ca-119">Example</span></span>
 
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -62,8 +62,8 @@ short WINAPI xlSheetIdExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="9e3ce-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9e3ce-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="de4ca-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="de4ca-120">See also</span></span>
 
-- [<span data-ttu-id="9e3ce-121">xlSheetNm</span><span class="sxs-lookup"><span data-stu-id="9e3ce-121">xlSheetNm</span></span>](xlsheetnm.md)
-- [<span data-ttu-id="9e3ce-122">Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="9e3ce-122">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="de4ca-121">xlSheetNm</span><span class="sxs-lookup"><span data-stu-id="de4ca-121">xlSheetNm</span></span>](xlsheetnm.md)
+- [<span data-ttu-id="de4ca-122">Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="de4ca-122">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

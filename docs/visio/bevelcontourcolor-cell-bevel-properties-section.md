@@ -14,24 +14,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428381"
 ---
-# <a name="bevelcontourcolor-cell-bevel-properties-section"></a><span data-ttu-id="dccbf-103">BevelContourColor Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="dccbf-103">BevelContourColor Cell (Bevel Properties Section)</span></span>
+# <a name="bevelcontourcolor-cell-bevel-properties-section"></a><span data-ttu-id="ec7bd-103">BevelContourColor Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="ec7bd-103">BevelContourColor Cell (Bevel Properties Section)</span></span>
 
-<span data-ttu-id="dccbf-104">Détermine la couleur du contour du biseau dans la valeur RVB ou en fonction du thème actif.</span><span class="sxs-lookup"><span data-stu-id="dccbf-104">Determines the color of the bevel's contour in RGB value or as determined by the active theme.</span></span>
+<span data-ttu-id="ec7bd-104">Détermine la couleur du contour du biseau dans la valeur RVB ou en fonction du thème actif.</span><span class="sxs-lookup"><span data-stu-id="ec7bd-104">Determines the color of the bevel's contour in RGB value or as determined by the active theme.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="dccbf-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="dccbf-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ec7bd-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="ec7bd-105">Remarks</span></span>
 
-<span data-ttu-id="dccbf-106">Pour obtenir une référence à la cellule **BevelContourColor** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="dccbf-106">To get a reference to the **BevelContourColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="ec7bd-106">Pour obtenir une référence à la cellule **BevelContourColor** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="ec7bd-106">To get a reference to the **BevelContourColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="dccbf-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="dccbf-107">Cell name:</span></span>  <br/> | <span data-ttu-id="dccbf-108">BevelContourColor</span><span class="sxs-lookup"><span data-stu-id="dccbf-108">BevelContourColor</span></span>  <br/> |
+| <span data-ttu-id="ec7bd-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="ec7bd-107">Cell name:</span></span>  <br/> | <span data-ttu-id="ec7bd-108">BevelContourColor</span><span class="sxs-lookup"><span data-stu-id="ec7bd-108">BevelContourColor</span></span>  <br/> |
    
-<span data-ttu-id="dccbf-109">Pour obtenir une référence à la cellule **BevelContourColor** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="dccbf-109">To get a reference to the **BevelContourColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="ec7bd-109">Pour obtenir une référence à la **cellule BevelContourColor** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="ec7bd-109">To get a reference to the **BevelContourColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="dccbf-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="dccbf-110">Section index:</span></span>  <br/> |<span data-ttu-id="dccbf-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="dccbf-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="dccbf-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="dccbf-112">Row index:</span></span>  <br/> |<span data-ttu-id="dccbf-113">**visRowBevelProperties**</span><span class="sxs-lookup"><span data-stu-id="dccbf-113">**visRowBevelProperties**</span></span> <br/> |
-| <span data-ttu-id="dccbf-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="dccbf-114">Cell index:</span></span>  <br/> |<span data-ttu-id="dccbf-115">**vis BevelContourColor**</span><span class="sxs-lookup"><span data-stu-id="dccbf-115">**vis BevelContourColor**</span></span> <br/> |
+| <span data-ttu-id="ec7bd-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="ec7bd-110">Section index:</span></span>  <br/> |<span data-ttu-id="ec7bd-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="ec7bd-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="ec7bd-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="ec7bd-112">Row index:</span></span>  <br/> |<span data-ttu-id="ec7bd-113">**visRowBevelProperties**</span><span class="sxs-lookup"><span data-stu-id="ec7bd-113">**visRowBevelProperties**</span></span> <br/> |
+| <span data-ttu-id="ec7bd-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="ec7bd-114">Cell index:</span></span>  <br/> |<span data-ttu-id="ec7bd-115">**vis BevelContourColor**</span><span class="sxs-lookup"><span data-stu-id="ec7bd-115">**vis BevelContourColor**</span></span> <br/> |
    
 

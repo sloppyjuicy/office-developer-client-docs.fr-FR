@@ -13,54 +13,54 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427541"
 ---
-# <a name="additional-infopath-development-concepts"></a><span data-ttu-id="e832c-103">Concepts de développement InfoPath supplémentaires</span><span class="sxs-lookup"><span data-stu-id="e832c-103">Additional InfoPath Development Concepts</span></span>
+# <a name="additional-infopath-development-concepts"></a><span data-ttu-id="3ceb5-103">Concepts de développement InfoPath supplémentaires</span><span class="sxs-lookup"><span data-stu-id="3ceb5-103">Additional InfoPath Development Concepts</span></span>
 
-<span data-ttu-id="e832c-104">Cette section offre des informations sur des concepts et des tâches supplémentaires du développement InfoPath.</span><span class="sxs-lookup"><span data-stu-id="e832c-104">This section provides information about additional InfoPath development concepts and tasks.</span></span>
+<span data-ttu-id="3ceb5-104">Cette section offre des informations sur des concepts et des tâches supplémentaires du développement InfoPath.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-104">This section provides information about additional InfoPath development concepts and tasks.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="e832c-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="e832c-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="3ceb5-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="3ceb5-105">In this section</span></span>
 
-[<span data-ttu-id="e832c-106">À propos des composants de modèle de formulaire</span><span class="sxs-lookup"><span data-stu-id="e832c-106">About Form Template Components</span></span>](about-form-template-components.md)
+[<span data-ttu-id="3ceb5-106">À propos des composants de modèle de formulaire</span><span class="sxs-lookup"><span data-stu-id="3ceb5-106">About Form Template Components</span></span>](about-form-template-components.md)
   
-> <span data-ttu-id="e832c-107">Décrit les composants contenus dans un fichier .xsn de modèle de formulaire InfoPath.</span><span class="sxs-lookup"><span data-stu-id="e832c-107">Describes the components contained in an InfoPath form template .xsn file.</span></span>
+> <span data-ttu-id="3ceb5-107">Décrit les composants contenus dans un fichier .xsn de modèle de formulaire InfoPath.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-107">Describes the components contained in an InfoPath form template .xsn file.</span></span>
     
-[<span data-ttu-id="e832c-108">À propos de la prise en charge InfoPath pour les technologies XML</span><span class="sxs-lookup"><span data-stu-id="e832c-108">About InfoPath Support for XML Technologies</span></span>](about-infopath-support-for-xml-technologies.md)
+[<span data-ttu-id="3ceb5-108">À propos de la prise en charge InfoPath pour les technologies XML</span><span class="sxs-lookup"><span data-stu-id="3ceb5-108">About InfoPath Support for XML Technologies</span></span>](about-infopath-support-for-xml-technologies.md)
   
-> <span data-ttu-id="e832c-109">Décrit l'utilisation des technologies XML dans les formulaires InfoPath.</span><span class="sxs-lookup"><span data-stu-id="e832c-109">Describes the use of XML technologies in InfoPath forms.</span></span>
+> <span data-ttu-id="3ceb5-109">Décrit l'utilisation des technologies XML dans les formulaires InfoPath.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-109">Describes the use of XML technologies in InfoPath forms.</span></span>
     
-[<span data-ttu-id="e832c-110">Consignes pour améliorer les performances des formulaires InfoPath</span><span class="sxs-lookup"><span data-stu-id="e832c-110">Guidelines for Improving the Performance of InfoPath Forms</span></span>](guidelines-for-improving-the-performance-of-infopath-forms.md)
+[<span data-ttu-id="3ceb5-110">Consignes pour améliorer les performances des formulaires InfoPath</span><span class="sxs-lookup"><span data-stu-id="3ceb5-110">Guidelines for Improving the Performance of InfoPath Forms</span></span>](guidelines-for-improving-the-performance-of-infopath-forms.md)
   
-> <span data-ttu-id="e832c-111">Indique des liens vers des informations relatives aux méthodes d'amélioration des performances de formulaire.</span><span class="sxs-lookup"><span data-stu-id="e832c-111">Provides links to information about how to improve form performance.</span></span>
+> <span data-ttu-id="3ceb5-111">Indique des liens vers des informations relatives aux méthodes d'amélioration des performances de formulaire.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-111">Provides links to information about how to improve form performance.</span></span>
     
-[<span data-ttu-id="e832c-112">Utilisation des schémas XML dans InfoPath</span><span class="sxs-lookup"><span data-stu-id="e832c-112">Working with XML Schemas in InfoPath</span></span>](working-with-xml-schemas-in-infopath.md)
+[<span data-ttu-id="3ceb5-112">Utilisation des schémas XML dans InfoPath</span><span class="sxs-lookup"><span data-stu-id="3ceb5-112">Working with XML Schemas in InfoPath</span></span>](working-with-xml-schemas-in-infopath.md)
   
-> <span data-ttu-id="e832c-113">Décrit l'utilisation des fichiers de schéma XML dans les formulaires InfoPath.</span><span class="sxs-lookup"><span data-stu-id="e832c-113">Describes how to work with XML Schema files in InfoPath forms.</span></span>
+> <span data-ttu-id="3ceb5-113">Décrit l'utilisation des fichiers de schéma XML dans les formulaires InfoPath.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-113">Describes how to work with XML Schema files in InfoPath forms.</span></span>
     
-[<span data-ttu-id="e832c-114">Utilisation de langage XSLT personnalisé dans les modèles de formulaire InfoPath</span><span class="sxs-lookup"><span data-stu-id="e832c-114">Using Custom XSLT in InfoPath Form Templates</span></span>](using-custom-xslt-in-infopath-form-templates.md)
+[<span data-ttu-id="3ceb5-114">Utilisation de langage XSLT personnalisé dans les modèles de formulaire InfoPath</span><span class="sxs-lookup"><span data-stu-id="3ceb5-114">Using Custom XSLT in InfoPath Form Templates</span></span>](using-custom-xslt-in-infopath-form-templates.md)
   
-> <span data-ttu-id="e832c-115">Décrit la méthode à suivre pour modifier le fichier de transformation XSL (XSLT) que InfoPath utilise pour générer une vue dans un formulaire.</span><span class="sxs-lookup"><span data-stu-id="e832c-115">Describes how to modify the XSL Transformation (XSLT) that InfoPath uses to generate a view in a form.</span></span>
+> <span data-ttu-id="3ceb5-115">Décrit la méthode à suivre pour modifier le fichier de transformation XSL (XSLT) que InfoPath utilise pour générer une vue dans un formulaire.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-115">Describes how to modify the XSL Transformation (XSLT) that InfoPath uses to generate a view in a form.</span></span>
     
-[<span data-ttu-id="e832c-116">Hébergement d'InfoPath en tant qu'éditeur XML dans une autre application</span><span class="sxs-lookup"><span data-stu-id="e832c-116">Hosting InfoPath as an XML Editor in Another Application</span></span>](hosting-infopath-as-an-xml-editor-in-another-application.md)
+[<span data-ttu-id="3ceb5-116">Hébergement d'InfoPath en tant qu'éditeur XML dans une autre application</span><span class="sxs-lookup"><span data-stu-id="3ceb5-116">Hosting InfoPath as an XML Editor in Another Application</span></span>](hosting-infopath-as-an-xml-editor-in-another-application.md)
   
-> <span data-ttu-id="e832c-117">Fournit des liens vers des informations relatives à la manière d'héberger InfoPath en tant qu'éditeur XML dans une autre application.</span><span class="sxs-lookup"><span data-stu-id="e832c-117">Provides links to information about how to host InfoPath as an XML editor in another application.</span></span>
+> <span data-ttu-id="3ceb5-117">Fournit des liens vers des informations relatives à la manière d'héberger InfoPath en tant qu'éditeur XML dans une autre application.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-117">Provides links to information about how to host InfoPath as an XML editor in another application.</span></span>
     
-[<span data-ttu-id="e832c-118">Texte enrichi et services Web</span><span class="sxs-lookup"><span data-stu-id="e832c-118">Rich Text and Web Services</span></span>](rich-text-and-web-services.md)
+[<span data-ttu-id="3ceb5-118">Texte enrichi et services Web</span><span class="sxs-lookup"><span data-stu-id="3ceb5-118">Rich Text and Web Services</span></span>](rich-text-and-web-services.md)
   
-> <span data-ttu-id="e832c-119">Décrit la méthode à suivre pour associer un contrôle de zone de texte enrichi à un élément XML extrait d'un service Web.</span><span class="sxs-lookup"><span data-stu-id="e832c-119">Describes how to bind a rich text box control to an XML element that is retrieved from a Web service.</span></span>
+> <span data-ttu-id="3ceb5-119">Décrit la méthode à suivre pour associer un contrôle de zone de texte enrichi à un élément XML extrait d'un service Web.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-119">Describes how to bind a rich text box control to an XML element that is retrieved from a Web service.</span></span>
     
-[<span data-ttu-id="e832c-120">InfoPath, chiffrement RPC et services Web</span><span class="sxs-lookup"><span data-stu-id="e832c-120">InfoPath, RPC Encoding and Web Services</span></span>](infopath-rpc-encoding-and-web-services.md)
+[<span data-ttu-id="3ceb5-120">InfoPath, chiffrement RPC et services Web</span><span class="sxs-lookup"><span data-stu-id="3ceb5-120">InfoPath, RPC Encoding and Web Services</span></span>](infopath-rpc-encoding-and-web-services.md)
   
-> <span data-ttu-id="e832c-121">Décrit la méthode à suivre pour créer un service Web de proxy sur un service Web/RPC chiffré.</span><span class="sxs-lookup"><span data-stu-id="e832c-121">Describes how to create a proxy Web service to an RPC/encoded Web service.</span></span>
+> <span data-ttu-id="3ceb5-121">Décrit la méthode à suivre pour créer un service Web de proxy sur un service Web/RPC chiffré.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-121">Describes how to create a proxy Web service to an RPC/encoded Web service.</span></span>
     
-[<span data-ttu-id="e832c-122">Intégration d'un formulaire InfoPath à une base de données Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="e832c-122">Integrate an InfoPath Form with a Microsoft Access Database</span></span>](integrate-an-infopath-form-with-a-microsoft-access-database.md)
+[<span data-ttu-id="3ceb5-122">Intégration d'un formulaire InfoPath à une base de données Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="3ceb5-122">Integrate an InfoPath Form with a Microsoft Access Database</span></span>](integrate-an-infopath-form-with-a-microsoft-access-database.md)
   
-> <span data-ttu-id="e832c-123">Décrit la méthode à suivre pour utiliser une base de données Microsoft Access 2010 en tant que source de données.</span><span class="sxs-lookup"><span data-stu-id="e832c-123">Describes how to use an Microsoft Access 2010 database as a data source.</span></span>
+> <span data-ttu-id="3ceb5-123">Décrit la méthode à suivre pour utiliser une base de données Microsoft Access 2010 en tant que source de données.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-123">Describes how to use an Microsoft Access 2010 database as a data source.</span></span>
     
-[<span data-ttu-id="e832c-124">Création d'un contrôle ActiveX pouvant lier des données de formulaire InfoPath</span><span class="sxs-lookup"><span data-stu-id="e832c-124">Create an ActiveX Control that can Bind to InfoPath Form Data</span></span>](create-an-activex-control-that-can-bind-to-infopath-form-data.md)
+[<span data-ttu-id="3ceb5-124">Création d'un contrôle ActiveX pouvant lier des données de formulaire InfoPath</span><span class="sxs-lookup"><span data-stu-id="3ceb5-124">Create an ActiveX Control that can Bind to InfoPath Form Data</span></span>](create-an-activex-control-that-can-bind-to-infopath-form-data.md)
   
-> <span data-ttu-id="e832c-125">Fournit des informations relatives à la création de contrôles ActiveX pouvant lier des données de formulaire InfoPath</span><span class="sxs-lookup"><span data-stu-id="e832c-125">Provides information about how to create ActiveX controls that can bind to InfoPath form data.</span></span>
+> <span data-ttu-id="3ceb5-125">Fournit des informations relatives à la création de contrôles ActiveX pouvant lier des données de formulaire InfoPath</span><span class="sxs-lookup"><span data-stu-id="3ceb5-125">Provides information about how to create ActiveX controls that can bind to InfoPath form data.</span></span>
     
-[<span data-ttu-id="e832c-126">Activation de la fusion personnalisée de formulaires InfoPath</span><span class="sxs-lookup"><span data-stu-id="e832c-126">Enable Custom Merging of InfoPath Forms</span></span>](enable-custom-merging-of-infopath-forms.md)
+[<span data-ttu-id="3ceb5-126">Activation de la fusion personnalisée de formulaires InfoPath</span><span class="sxs-lookup"><span data-stu-id="3ceb5-126">Enable Custom Merging of InfoPath Forms</span></span>](enable-custom-merging-of-infopath-forms.md)
   
-> <span data-ttu-id="e832c-127">Provides information about how to use the merge forms feature of InfoPath.</span><span class="sxs-lookup"><span data-stu-id="e832c-127">Provides information about how to use the merge forms feature of InfoPath.</span></span>
+> <span data-ttu-id="3ceb5-127">Provides information about how to use the merge forms feature of InfoPath.</span><span class="sxs-lookup"><span data-stu-id="3ceb5-127">Provides information about how to use the merge forms feature of InfoPath.</span></span>
     
 

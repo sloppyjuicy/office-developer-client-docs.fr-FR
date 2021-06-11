@@ -16,16 +16,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426848"
 ---
-# <a name="subject-function"></a><span data-ttu-id="1ef3e-103">Fonction SUBJECT</span><span class="sxs-lookup"><span data-stu-id="1ef3e-103">SUBJECT Function</span></span>
+# <a name="subject-function"></a><span data-ttu-id="2abdf-103">Fonction SUBJECT</span><span class="sxs-lookup"><span data-stu-id="2abdf-103">SUBJECT Function</span></span>
 
-<span data-ttu-id="1ef3e-104">Renvoie le texte du champ **Objet** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="1ef3e-104">Returns the text from the **Subject** field of a document's properties.</span></span> 
+<span data-ttu-id="2abdf-104">Renvoie le texte du champ **Objet** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="2abdf-104">Returns the text from the **Subject** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="1ef3e-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="1ef3e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2abdf-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="2abdf-105">Syntax</span></span>
 
-<span data-ttu-id="1ef3e-106">SUBJECT ()</span><span class="sxs-lookup"><span data-stu-id="1ef3e-106">SUBJECT ()</span></span>
+<span data-ttu-id="2abdf-106">SUBJECT ()</span><span class="sxs-lookup"><span data-stu-id="2abdf-106">SUBJECT ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="1ef3e-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="1ef3e-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="2abdf-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="2abdf-107">Return value</span></span>
 
-<span data-ttu-id="1ef3e-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="1ef3e-108">String</span></span>
+<span data-ttu-id="2abdf-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="2abdf-108">String</span></span>
   
 

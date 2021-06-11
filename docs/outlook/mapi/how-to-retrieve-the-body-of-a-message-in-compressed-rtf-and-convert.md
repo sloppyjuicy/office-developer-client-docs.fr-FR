@@ -13,11 +13,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426113"
 ---
-# <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a><span data-ttu-id="50fd0-103">Récupérer le corps du message au format RTF compressé et le convertir dans son format natif</span><span class="sxs-lookup"><span data-stu-id="50fd0-103">Retrieve body of message in compressed RTF and convert to its native format</span></span>
+# <a name="retrieve-body-of-message-in-compressed-rtf-and-convert-to-its-native-format"></a><span data-ttu-id="92379-103">Récupérer le corps du message au format RTF compressé et le convertir dans son format natif</span><span class="sxs-lookup"><span data-stu-id="92379-103">Retrieve body of message in compressed RTF and convert to its native format</span></span>
 
-<span data-ttu-id="50fd0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="50fd0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="92379-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="92379-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="50fd0-105">Cet exemple de code en Microsoft C++ vous montre comment utiliser la fonction Exportée microsoft Outlook 2010 ou Microsoft Outlook 2013 [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) pour accéder au corps d’un message qui est encapsulé en RTF compressé et pour obtenir le corps dans son format natif.</span><span class="sxs-lookup"><span data-stu-id="50fd0-105">This code example in Microsoft C++ shows you how to use the exported Microsoft Outlook 2010 or Microsoft Outlook 2013 function [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) to access the body of a message that is encapsulated in compressed RTF, and to obtain the body in its native format.</span></span> 
+<span data-ttu-id="92379-105">Cet exemple de code en Microsoft C++ vous montre comment utiliser la fonction Microsoft Outlook 2010 ou Microsoft Outlook 2013 [exportée WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) pour accéder au corps d’un message encapsulé dans un format RTF compressé et obtenir le corps dans son format natif.</span><span class="sxs-lookup"><span data-stu-id="92379-105">This code example in Microsoft C++ shows you how to use the exported Microsoft Outlook 2010 or Microsoft Outlook 2013 function [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) to access the body of a message that is encapsulated in compressed RTF, and to obtain the body in its native format.</span></span> 
   
 ```cpp
 //These are definitions for the WrapCompressedRTFStreamEx function. 

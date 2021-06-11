@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430790"
 ---
-# <a name="itnefsetprops"></a><span data-ttu-id="4da1d-103">ITnef::SetProps</span><span class="sxs-lookup"><span data-stu-id="4da1d-103">ITnef::SetProps</span></span>
+# <a name="itnefsetprops"></a><span data-ttu-id="0eeaf-103">ITnef::SetProps</span><span class="sxs-lookup"><span data-stu-id="0eeaf-103">ITnef::SetProps</span></span>
 
   
   
-<span data-ttu-id="4da1d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4da1d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0eeaf-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0eeaf-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4da1d-105">Définit la valeur d’une ou de plusieurs propriétés d’un message ou d’une pièce jointe encapsulé sans modifier le message ou la pièce jointe d’origine.</span><span class="sxs-lookup"><span data-stu-id="4da1d-105">Sets the value of one or more properties for an encapsulated message or attachment without modifying the original message or attachment.</span></span> 
+<span data-ttu-id="0eeaf-105">Définit la valeur d’une ou de plusieurs propriétés pour un message ou une pièce jointe encapsulé sans modifier le message ou la pièce jointe d’origine.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-105">Sets the value of one or more properties for an encapsulated message or attachment without modifying the original message or attachment.</span></span> 
   
 ```cpp
 HRESULT SetProps(
@@ -36,56 +36,56 @@ HRESULT SetProps(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4da1d-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4da1d-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0eeaf-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="0eeaf-106">Parameters</span></span>
 
- <span data-ttu-id="4da1d-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="4da1d-107">_ulFlags_</span></span>
+ <span data-ttu-id="0eeaf-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="0eeaf-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="4da1d-108">[in] Masque de bits d’indicateurs qui contrôle la façon dont les valeurs des propriétés sont définies.</span><span class="sxs-lookup"><span data-stu-id="4da1d-108">[in] A bitmask of flags that controls how property values are set.</span></span> <span data-ttu-id="4da1d-109">L’indicateur suivant peut être définie :</span><span class="sxs-lookup"><span data-stu-id="4da1d-109">The following flag can be set:</span></span>
+> <span data-ttu-id="0eeaf-108">[in] Masque de bits d’indicateurs qui contrôle la façon dont les valeurs des propriétés sont définies.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-108">[in] A bitmask of flags that controls how property values are set.</span></span> <span data-ttu-id="0eeaf-109">L’indicateur suivant peut être définie :</span><span class="sxs-lookup"><span data-stu-id="0eeaf-109">The following flag can be set:</span></span>
     
-<span data-ttu-id="4da1d-110">TNEF_PROP_CONTAINED</span><span class="sxs-lookup"><span data-stu-id="4da1d-110">TNEF_PROP_CONTAINED</span></span> 
+<span data-ttu-id="0eeaf-110">TNEF_PROP_CONTAINED</span><span class="sxs-lookup"><span data-stu-id="0eeaf-110">TNEF_PROP_CONTAINED</span></span> 
   
-> <span data-ttu-id="4da1d-111">Encode uniquement les propriétés du message ou de la pièce jointe spécifiés par le _paramètre ulElemID._</span><span class="sxs-lookup"><span data-stu-id="4da1d-111">Encodes only properties from the message or attachment specified by the  _ulElemID_ parameter.</span></span> 
+> <span data-ttu-id="0eeaf-111">Encode uniquement les propriétés du message ou de la pièce jointe spécifiés par le _paramètre ulElemID._</span><span class="sxs-lookup"><span data-stu-id="0eeaf-111">Encodes only properties from the message or attachment specified by the  _ulElemID_ parameter.</span></span> 
     
- <span data-ttu-id="4da1d-112">_ulElemID_</span><span class="sxs-lookup"><span data-stu-id="4da1d-112">_ulElemID_</span></span>
+ <span data-ttu-id="0eeaf-112">_ulElemID_</span><span class="sxs-lookup"><span data-stu-id="0eeaf-112">_ulElemID_</span></span>
   
-> <span data-ttu-id="4da1d-113">[in] Propriété de PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), qui contient un nombre qui identifie de manière unique la pièce jointe dans son message parent.</span><span class="sxs-lookup"><span data-stu-id="4da1d-113">[in] An attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message.</span></span>
+> <span data-ttu-id="0eeaf-113">[in] Propriété de PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), qui contient un nombre qui identifie de manière unique la pièce jointe dans son message parent.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-113">[in] An attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message.</span></span>
     
- <span data-ttu-id="4da1d-114">_cValues_</span><span class="sxs-lookup"><span data-stu-id="4da1d-114">_cValues_</span></span>
+ <span data-ttu-id="0eeaf-114">_cValues_</span><span class="sxs-lookup"><span data-stu-id="0eeaf-114">_cValues_</span></span>
   
-> <span data-ttu-id="4da1d-115">[in] Nombre de valeurs de propriété dans la structure [SPropValue](spropvalue.md) pointée par _le paramètre lpProps._</span><span class="sxs-lookup"><span data-stu-id="4da1d-115">[in] The number of property values in the [SPropValue](spropvalue.md) structure pointed to by the  _lpProps_ parameter.</span></span> 
+> <span data-ttu-id="0eeaf-115">[in] Nombre de valeurs de propriété dans la structure [SPropValue](spropvalue.md) pointée par _le paramètre lpProps._</span><span class="sxs-lookup"><span data-stu-id="0eeaf-115">[in] The number of property values in the [SPropValue](spropvalue.md) structure pointed to by the  _lpProps_ parameter.</span></span> 
     
- <span data-ttu-id="4da1d-116">_lpProps_</span><span class="sxs-lookup"><span data-stu-id="4da1d-116">_lpProps_</span></span>
+ <span data-ttu-id="0eeaf-116">_lpProps_</span><span class="sxs-lookup"><span data-stu-id="0eeaf-116">_lpProps_</span></span>
   
-> <span data-ttu-id="4da1d-117">[in] Pointeur vers une structure **SPropValue** qui contient les valeurs des propriétés à définir.</span><span class="sxs-lookup"><span data-stu-id="4da1d-117">[in] A pointer to an **SPropValue** structure that contains the property values of the properties to set.</span></span> 
+> <span data-ttu-id="0eeaf-117">[in] Pointeur vers une structure **SPropValue** qui contient les valeurs des propriétés à définir.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-117">[in] A pointer to an **SPropValue** structure that contains the property values of the properties to set.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="4da1d-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="4da1d-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0eeaf-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="0eeaf-118">Return value</span></span>
 
-<span data-ttu-id="4da1d-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="4da1d-119">S_OK</span></span> 
+<span data-ttu-id="0eeaf-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="0eeaf-119">S_OK</span></span> 
   
-> <span data-ttu-id="4da1d-120">L’appel a réussi et a renvoyé la ou les valeurs attendues.</span><span class="sxs-lookup"><span data-stu-id="4da1d-120">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="0eeaf-120">L’appel a réussi et a renvoyé la ou les valeurs attendues.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-120">The call succeeded and returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4da1d-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="4da1d-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0eeaf-121">Remarques</span><span class="sxs-lookup"><span data-stu-id="0eeaf-121">Remarks</span></span>
 
-<span data-ttu-id="4da1d-122">Les fournisseurs de transport, les fournisseurs de magasins de messages et les passerelles appellent la méthode **ITnef::SetProps** pour définir les propriétés à inclure dans l’encapsulation d’un message ou d’une pièce jointe sans modifier le message ou la pièce jointe d’origine.</span><span class="sxs-lookup"><span data-stu-id="4da1d-122">Transport providers, message store providers, and gateways call the **ITnef::SetProps** method to set properties to include in the encapsulation of a message or an attachment without modifying the original message or attachment.</span></span> <span data-ttu-id="4da1d-123">Toutes les propriétés définies avec cet appel remplacent les propriétés existantes dans le message encapsulé.</span><span class="sxs-lookup"><span data-stu-id="4da1d-123">Any properties set with this call override existing properties in the encapsulated message.</span></span> 
+<span data-ttu-id="0eeaf-122">Les fournisseurs de transport, les fournisseurs de magasins de messages et les passerelles appellent la méthode **ITnef::SetProps** pour définir les propriétés à inclure dans l’encapsulation d’un message ou d’une pièce jointe sans modifier le message ou la pièce jointe d’origine.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-122">Transport providers, message store providers, and gateways call the **ITnef::SetProps** method to set properties to include in the encapsulation of a message or an attachment without modifying the original message or attachment.</span></span> <span data-ttu-id="0eeaf-123">Toutes les propriétés définies avec cet appel remplacent les propriétés existantes dans le message encapsulé.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-123">Any properties set with this call override existing properties in the encapsulated message.</span></span> 
   
- <span data-ttu-id="4da1d-124">**SetProps est** pris en charge uniquement pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md)</span><span class="sxs-lookup"><span data-stu-id="4da1d-124">**SetProps** is supported only for TNEF objects that are opened with the TNEF_ENCODE flag for the [OpenTnefStream](opentnefstream.md) or [OpenTnefStreamEx](opentnefstreamex.md) function.</span></span> <span data-ttu-id="4da1d-125">N’importe quel nombre de propriétés peut être définie avec cet appel.</span><span class="sxs-lookup"><span data-stu-id="4da1d-125">Any number of properties can be set with this call.</span></span> 
+ <span data-ttu-id="0eeaf-124">**SetProps est** pris en charge uniquement pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md)</span><span class="sxs-lookup"><span data-stu-id="0eeaf-124">**SetProps** is supported only for TNEF objects that are opened with the TNEF_ENCODE flag for the [OpenTnefStream](opentnefstream.md) or [OpenTnefStreamEx](opentnefstreamex.md) function.</span></span> <span data-ttu-id="0eeaf-125">N’importe quel nombre de propriétés peut être définie avec cet appel.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-125">Any number of properties can be set with this call.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="4da1d-126">Aucun codage TNEF réel pour **SetProps** ne se produit tant que la méthode [ITnef::Finish](itnef-finish.md) n’a pas été appelée.</span><span class="sxs-lookup"><span data-stu-id="4da1d-126">No actual TNEF encoding for **SetProps** happens until after the [ITnef::Finish](itnef-finish.md) method is called.</span></span> <span data-ttu-id="4da1d-127">Cette fonctionnalité signifie que les pointeurs passés dans **SetProps** doivent rester valides jusqu’à ce que l’appel à **Finish** soit effectué.</span><span class="sxs-lookup"><span data-stu-id="4da1d-127">This functionality means that pointers passed into **SetProps** must remain valid until after the call to **Finish** is made.</span></span> <span data-ttu-id="4da1d-128">À ce stade, tous les objets et données transmis dans les appels **SetProps** peuvent être libérés ou libérés.</span><span class="sxs-lookup"><span data-stu-id="4da1d-128">At that point, all objects and data passed into **SetProps** calls can be released or freed.</span></span> 
+> <span data-ttu-id="0eeaf-126">Aucun codage TNEF réel pour **SetProps** ne se produit tant que la méthode [ITnef::Finish](itnef-finish.md) n’a pas été appelée.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-126">No actual TNEF encoding for **SetProps** happens until after the [ITnef::Finish](itnef-finish.md) method is called.</span></span> <span data-ttu-id="0eeaf-127">Cette fonctionnalité signifie que les pointeurs passés dans **SetProps** doivent rester valides jusqu’à ce que l’appel à **Finish** soit effectué.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-127">This functionality means that pointers passed into **SetProps** must remain valid until after the call to **Finish** is made.</span></span> <span data-ttu-id="0eeaf-128">À ce stade, tous les objets et données transmis dans les appels **SetProps** peuvent être libérés ou libérés.</span><span class="sxs-lookup"><span data-stu-id="0eeaf-128">At that point, all objects and data passed into **SetProps** calls can be released or freed.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="4da1d-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4da1d-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0eeaf-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0eeaf-129">See also</span></span>
 
 
 
-[<span data-ttu-id="4da1d-130">ITnef::Finish</span><span class="sxs-lookup"><span data-stu-id="4da1d-130">ITnef::Finish</span></span>](itnef-finish.md)
+[<span data-ttu-id="0eeaf-130">ITnef::Finish</span><span class="sxs-lookup"><span data-stu-id="0eeaf-130">ITnef::Finish</span></span>](itnef-finish.md)
   
-[<span data-ttu-id="4da1d-131">OpenTnefStream</span><span class="sxs-lookup"><span data-stu-id="4da1d-131">OpenTnefStream</span></span>](opentnefstream.md)
+[<span data-ttu-id="0eeaf-131">OpenTnefStream</span><span class="sxs-lookup"><span data-stu-id="0eeaf-131">OpenTnefStream</span></span>](opentnefstream.md)
   
-[<span data-ttu-id="4da1d-132">OpenTnefStreamEx</span><span class="sxs-lookup"><span data-stu-id="4da1d-132">OpenTnefStreamEx</span></span>](opentnefstreamex.md)
+[<span data-ttu-id="0eeaf-132">OpenTnefStreamEx</span><span class="sxs-lookup"><span data-stu-id="0eeaf-132">OpenTnefStreamEx</span></span>](opentnefstreamex.md)
   
-[<span data-ttu-id="4da1d-133">Propriété canonique PidTagAttachNumber</span><span class="sxs-lookup"><span data-stu-id="4da1d-133">PidTagAttachNumber Canonical Property</span></span>](pidtagattachnumber-canonical-property.md)
+[<span data-ttu-id="0eeaf-133">Propriété canonique PidTagAttachNumber</span><span class="sxs-lookup"><span data-stu-id="0eeaf-133">PidTagAttachNumber Canonical Property</span></span>](pidtagattachnumber-canonical-property.md)
   
-[<span data-ttu-id="4da1d-134">SPropValue</span><span class="sxs-lookup"><span data-stu-id="4da1d-134">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="0eeaf-134">SPropValue</span><span class="sxs-lookup"><span data-stu-id="0eeaf-134">SPropValue</span></span>](spropvalue.md)
   
-[<span data-ttu-id="4da1d-135">ITnef : IUnknown</span><span class="sxs-lookup"><span data-stu-id="4da1d-135">ITnef : IUnknown</span></span>](itnefiunknown.md)
+[<span data-ttu-id="0eeaf-135">ITnef : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0eeaf-135">ITnef : IUnknown</span></span>](itnefiunknown.md)
 

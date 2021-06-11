@@ -16,8 +16,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428444"
 ---
-# <a name="glue-info-section"></a><span data-ttu-id="b6cce-103">Glue Info Section</span><span class="sxs-lookup"><span data-stu-id="b6cce-103">Glue Info Section</span></span>
+# <a name="glue-info-section"></a><span data-ttu-id="4d4b7-103">Glue Info Section</span><span class="sxs-lookup"><span data-stu-id="4d4b7-103">Glue Info Section</span></span>
 
-<span data-ttu-id="b6cce-104">Contient les formules générées pour une forme 1D lorsqu'elle est collée à d'autres formes.</span><span class="sxs-lookup"><span data-stu-id="b6cce-104">Contains formulas generated for a 1-D shape when the 1-D shape is glued to other shapes.</span></span>
+<span data-ttu-id="4d4b7-104">Contient les formules générées pour une forme 1D lorsqu'elle est collée à d'autres formes.</span><span class="sxs-lookup"><span data-stu-id="4d4b7-104">Contains formulas generated for a 1-D shape when the 1-D shape is glued to other shapes.</span></span>
   
 

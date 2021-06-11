@@ -14,25 +14,25 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429361"
 ---
-# <a name="prop_inet_ssl"></a><span data-ttu-id="0d5ad-103">PROP_INET_SSL</span><span class="sxs-lookup"><span data-stu-id="0d5ad-103">PROP_INET_SSL</span></span>
+# <a name="prop_inet_ssl"></a><span data-ttu-id="31cdc-103">PROP_INET_SSL</span><span class="sxs-lookup"><span data-stu-id="31cdc-103">PROP_INET_SSL</span></span>
 
-<span data-ttu-id="0d5ad-104">Spécifie s’il faut utiliser SSL (Secure Socket Layer) pour une boîte aux lettres Internet générale.</span><span class="sxs-lookup"><span data-stu-id="0d5ad-104">Specifies whether to use Secure Socket Layer (SSL) for a general Internet mailbox.</span></span>
+<span data-ttu-id="31cdc-104">Spécifie s’il faut utiliser SSL (Secure Socket Layer) pour une boîte aux lettres Internet générale.</span><span class="sxs-lookup"><span data-stu-id="31cdc-104">Specifies whether to use Secure Socket Layer (SSL) for a general Internet mailbox.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="0d5ad-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="0d5ad-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="31cdc-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="31cdc-105">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="0d5ad-106">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="0d5ad-106">Identifier:</span></span>  <br/> |<span data-ttu-id="0d5ad-107">0x0105</span><span class="sxs-lookup"><span data-stu-id="0d5ad-107">0x0105</span></span>  <br/> |
-|<span data-ttu-id="0d5ad-108">Type de propriété :</span><span class="sxs-lookup"><span data-stu-id="0d5ad-108">Property type:</span></span>  <br/> |<span data-ttu-id="0d5ad-109">PT_DWORD</span><span class="sxs-lookup"><span data-stu-id="0d5ad-109">PT_DWORD</span></span>  <br/> |
-|<span data-ttu-id="0d5ad-110">Balise de propriété :</span><span class="sxs-lookup"><span data-stu-id="0d5ad-110">Property tag:</span></span>  <br/> |<span data-ttu-id="0d5ad-111">0x01050003</span><span class="sxs-lookup"><span data-stu-id="0d5ad-111">0x01050003</span></span>  <br/> |
-|<span data-ttu-id="0d5ad-112">Accès :</span><span class="sxs-lookup"><span data-stu-id="0d5ad-112">Access:</span></span>  <br/> |<span data-ttu-id="0d5ad-113">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="0d5ad-113">Read-only</span></span>  <br/> |
+|<span data-ttu-id="31cdc-106">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="31cdc-106">Identifier:</span></span>  <br/> |<span data-ttu-id="31cdc-107">0x0105</span><span class="sxs-lookup"><span data-stu-id="31cdc-107">0x0105</span></span>  <br/> |
+|<span data-ttu-id="31cdc-108">Type de propriété :</span><span class="sxs-lookup"><span data-stu-id="31cdc-108">Property type:</span></span>  <br/> |<span data-ttu-id="31cdc-109">PT_DWORD</span><span class="sxs-lookup"><span data-stu-id="31cdc-109">PT_DWORD</span></span>  <br/> |
+|<span data-ttu-id="31cdc-110">Balise de propriété :</span><span class="sxs-lookup"><span data-stu-id="31cdc-110">Property tag:</span></span>  <br/> |<span data-ttu-id="31cdc-111">0x01050003</span><span class="sxs-lookup"><span data-stu-id="31cdc-111">0x01050003</span></span>  <br/> |
+|<span data-ttu-id="31cdc-112">Accès :</span><span class="sxs-lookup"><span data-stu-id="31cdc-112">Access:</span></span>  <br/> |<span data-ttu-id="31cdc-113">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="31cdc-113">Read-only</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="0d5ad-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="0d5ad-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="31cdc-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="31cdc-114">Remarks</span></span>
 
-<span data-ttu-id="0d5ad-115">Une valeur zéro signifie que vous n’utilisez pas SSL, sinon utilisez SSL.</span><span class="sxs-lookup"><span data-stu-id="0d5ad-115">A zero value means do not use SSL, otherwise use SSL.</span></span>
+<span data-ttu-id="31cdc-115">Une valeur nulle signifie que vous n’utilisez pas SSL, sinon utilisez SSL.</span><span class="sxs-lookup"><span data-stu-id="31cdc-115">A zero value means do not use SSL, otherwise use SSL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="0d5ad-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0d5ad-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="31cdc-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="31cdc-116">See also</span></span>
 
-- [<span data-ttu-id="0d5ad-117">Gestion des téléchargements de messages pour les comptes POP3</span><span class="sxs-lookup"><span data-stu-id="0d5ad-117">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md)  
-- [<span data-ttu-id="0d5ad-118">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="0d5ad-118">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="31cdc-117">Gestion des téléchargements de messages pour les comptes POP3</span><span class="sxs-lookup"><span data-stu-id="31cdc-117">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md)  
+- [<span data-ttu-id="31cdc-118">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="31cdc-118">Constants (Account management API)</span></span>](constants-account-management-api.md)
 
