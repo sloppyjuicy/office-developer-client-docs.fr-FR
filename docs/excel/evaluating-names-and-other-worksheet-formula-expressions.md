@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- expression evaluation [excel 2007],worksheets [Excel 2007], name evaluation,evaluating expressions [Excel 2007],evaluating worksheet names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007], evaluating,name evaluation [Excel 2007],strings [Excel 2007], converting to values,xlfEvaluate function [Excel 2007],worksheets [Excel 2007], expression evaluation
+- expression evaluation [excel 2007],worksheets [Excel 2007], name evaluation,evaluating expressions [Excel 2007],evaluating worksheet names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007] Excel 2007], evaluating,name evaluation [Excel 2007],strings [Excel 2007], converting to values,xlfEvaluate function [Excel 2007],worksheets [Excel 2007], expression evaluation
 localization_priority: Normal
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -41,13 +41,13 @@ int WINAPI evaluate_name_example(void)
 }
 ```
 
-Notez que lorsque vous évaluez un nom de feuille de calcul, soit seul, soit dans une formule, vous devez au moins faire précéder le nom par « ! ». Sinon, Excel tente de trouver le nom dans un espace de noms masqué réservé aux DLL. Vous pouvez créer et supprimer des noms de DLL masqués à l’aide de la [fonction xlfSetName](xlfsetname.md). Vous pouvez obtenir la définition de n’importe quel nom défini, qu’il s’agit d’un nom DLL masqué ou d’un nom de feuille de calcul, à l’aide de la fonction **xlfGetDef.** 
+Notez que lorsque vous évaluez un nom de feuille de calcul, soit seul, soit dans une formule, vous devez au moins faire précéder le nom par « ! ». Sinon, Excel tente de trouver le nom dans un espace de noms masqué réservé aux DLLs. Vous pouvez créer et supprimer des noms de DLL masqués à l’aide de la [fonction xlfSetName](xlfsetname.md). Vous pouvez obtenir la définition de n’importe quel nom défini, qu’il s’agit d’un nom DLL masqué ou d’un nom de feuille de calcul, à l’aide de la fonction **xlfGetDef.** 
   
 La spécification complète d’un nom de feuille de calcul se présente comme suit :
   
 `='C:\example folder\[Book1.xls]Sheet1'!Name`
   
-Notez qu’Excel 2007 a introduit un certain nombre de nouvelles extensions de fichier. Vous pouvez omettre le chemin d’accès, le nom du workbook et le nom de la feuille sans ambiguïté entre les workbooks ouverts dans cette session Excel. 
+Notez que Excel 2007 a introduit un certain nombre de nouvelles extensions de fichier. Vous pouvez omettre le chemin d’accès, le nom du Excel feuille et le nom de la feuille sans ambiguïté. 
   
 L’exemple suivant évalue la formule de la feuille de calcul active et  `COUNT(A1:IV65536)` affiche le résultat. Notez la nécessité de préfixer l’adresse de la plage par « ! » qui est cohérente avec la convention de référence de plage sur les feuilles macro XLM. La XME de l’API C suit cette convention : 
   
@@ -59,7 +59,7 @@ L’exemple suivant évalue la formule de la feuille de calcul active et  `COUNT
   
 - `=[Book1.xls]Sheet1!A1` Référence à la cellule A1 de la feuille spécifiée dans le livre de travail spécifié. 
   
-Dans une XLL, une référence sans point d’exclamation de début (**!**) ne peut pas être convertie en valeur. Elle n’a aucune signification, car il n’existe pas de feuille macro actuelle. Notez qu’un signe de début égal à ( ) est facultatif et **=** est omis dans l’exemple suivant.
+Dans une XLL, une référence sans point d’exclamation de début (**!**) ne peut pas être convertie en valeur. Elle n’a aucune signification, car il n’existe pas de feuille macro actuelle. Notez qu’un signe égal à ( ) est facultatif et **=** est omis dans l’exemple suivant.
   
 ```C
 int WINAPI evaluate_expression_example(void)

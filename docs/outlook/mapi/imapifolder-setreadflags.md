@@ -34,7 +34,7 @@ HRESULT SetReadFlags(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _lpMsgList_
   
@@ -58,7 +58,7 @@ _ulFlags_
         
   - CLEAR_RN_PENDING : l’indicateur MSGFLAG_RN_PENDING doit être  effacé dans PR_MESSAGE_FLAGS et un rapport de lecture ne doit pas être envoyé. 
         
-  - GENERATE_RECEIPT_ONLY : un rapport de lecture doit être envoyé s’il est en attente, mais l’état de l’indicateur MSGFLAG_READ ne doit pas être changé.
+  - GENERATE_RECEIPT_ONLY : un rapport de lecture doit être envoyé s’il est en attente, mais l’état de l’indicateur MSGFLAG_READ ne doit pas changer.
         
   - MAPI_DEFERRED_ERRORS : permet à **SetReadFlags** de renvoyer correctement, éventuellement avant la fin de l’opération. 
         
@@ -140,7 +140,7 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
 |**SetReadFlags n’a** pas pu traiter correctement chaque message.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
 |**SetReadFlags n’a** pas pu se terminer.  <br/> |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
    
-Lorsque **SetReadFlags ne** parvient pas à se terminer, ne supposez pas qu’aucun travail n’a été effectué. **SetReadFlags** a peut-être pu définir ou effacer l’indicateur MSGFLAG_READ’un ou plusieurs des messages avant de rencontrer l’erreur. 
+Lorsque **SetReadFlags n’est** pas en mesure de se terminer, ne supposez pas qu’aucun travail n’a été effectué. **SetReadFlags** a peut-être pu définir ou effacer l’MSGFLAG_READ pour un ou plusieurs des messages avant de rencontrer l’erreur. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

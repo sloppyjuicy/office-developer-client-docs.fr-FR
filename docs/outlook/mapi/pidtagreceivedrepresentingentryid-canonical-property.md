@@ -38,7 +38,7 @@ Contient l’identificateur d’entrée de l’utilisateur de messagerie représ
 
 Cette propriété est l’une des propriétés d’adresse de l’utilisateur de messagerie représenté par l’utilisateur de réception. Elle doit être définie par le fournisseur de transport entrant, qui est également responsable de l’autorisation ou de la vérification du délégué. Si aucun utilisateur de messagerie n’est représenté, cette propriété doit être définie sur l’identificateur d’entrée contenu dans la propriété **PR_RECEIVED_BY_ENTRYID** ([PidTagReceivedByEntryId](pidtagreceivedbyentryid-canonical-property.md)).
   
-Une application cliente répondant à un message reçu pour le compte d’un autre client doit copier cette propriété du message reçu dans la propriété **PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) pour la réponse.
+Une application cliente répondant à un message reçu au nom d’un autre client doit copier cette propriété du message reçu dans la propriété **PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) pour la réponse.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Une application cliente répondant à un message reçu pour le compte d’un aut
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

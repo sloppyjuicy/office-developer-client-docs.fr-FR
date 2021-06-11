@@ -57,7 +57,7 @@ Une **structure FLATENTRY** ressemble à une structure [ENTRYID.](entryid.md) To
   
 - Une structure **FLATENTRY** stocke la taille de l’identificateur d’entrée ; **ENTRYID ne** le fait pas. 
     
-- Une structure **FLATENTRY stocke** les données d’indicateur avec le reste de l’identificateur d’entrée ; **ENTRYID les** stocke séparément. 
+- Une structure **FLATENTRY** stocke les données d’indicateur avec le reste de l’identificateur d’entrée ; **ENTRYID les** stocke séparément. 
     
 - Une structure **FLATENTRY** permet de stocker un identificateur d’entrée dans un fichier ou de le transmettre dans un flux d’octets, tandis qu’une structure **ENTRYID** est utilisée par les méthodes d’interface [IMAPIProp](imapipropiunknown.md) et par les méthodes **OpenEntry** suivantes : [IABLogon::OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)
     

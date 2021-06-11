@@ -18,7 +18,7 @@ ms.locfileid: "32360295"
 ---
 # <a name="day-function-visioshapesheet"></a>DAY Function (VisioShapeSheet)
 
-Renvoie un integer, de 1 à 31, qui représente le jour dans _l’heure de date ou_ l’expression .  La fonction DAY utilise le calendrier grégorien.
+Renvoie un integer, de 1 à 31, représentant le jour dans _l’heure de date_ ou l’expression .  La fonction DAY utilise le calendrier grégorien.
   
 ## <a name="syntax"></a>Syntaxe
 

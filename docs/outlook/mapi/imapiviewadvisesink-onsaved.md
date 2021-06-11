@@ -43,7 +43,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Un objet de formulaire appelle la méthode **IMAPIViewAdviseSink::OnSaved** une fois que le message en cours dans un formulaire a été enregistré. Cela permet aux visiteurs de mettre à jour leurs fenêtres pour refléter les modifications apportées au message. 
+Un objet de formulaire appelle la méthode **IMAPIViewAdviseSink::OnSaved** une fois que le message en cours dans un formulaire a été enregistré avec succès. Cela permet aux visiteurs de mettre à jour leurs fenêtres pour refléter les modifications apportées au message. 
   
 Pour plus d’informations sur les notifications de formulaire, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   

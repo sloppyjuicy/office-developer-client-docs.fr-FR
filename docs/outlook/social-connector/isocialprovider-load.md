@@ -23,7 +23,7 @@ Initialise le fournisseur Outlook Social Connector (OSC).
 HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR languageTag);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _socialProviderInterfaceVersion_
   
@@ -31,7 +31,7 @@ _socialProviderInterfaceVersion_
     
 _languageTag_
   
-> [in] Balise de langue IETF (Internet Engineering Task Force), définie par [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) et [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt)qui représente la langue actuelle de l’interface utilisateur Outlook.
+> [in] Balise de langue IETF (Internet Engineering Task Force), définie par [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) et [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt)qui représente la langue d’interface utilisateur Outlook actuelle.
     
 ## <a name="remarks"></a>Remarques
 

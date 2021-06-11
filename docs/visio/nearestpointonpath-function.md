@@ -41,6 +41,6 @@ NEARESTPOINTONPATH(** *section* **, ** *x* **, ** *y* ** )
   
 ## <a name="remarks"></a>Remarques
 
-Si  _la section_ n’existe pas, Microsoft Visio renvoie #REF!. 
+Si _la section_ n’existe pas, Microsoft Visio renvoie #REF!. 
   
 

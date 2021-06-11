@@ -25,7 +25,7 @@ ms.locfileid: "33407906"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Affiche la boîte de dialogue carnet d’adresses Outlook. 
+Affiche la boîte de dialogue Outlook carnet d’adresses. 
   
 ```cpp
 HRESULT Address(
@@ -35,7 +35,7 @@ HRESULT Address(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulUIParam_
   
@@ -57,7 +57,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Si le membre **ulFlags** du paramètre  _lpAdrParms_ a la valeur DIALOG_SDI anticipant le retour de la poignée de fenêtre de la boîte de dialogue sans mode lors de la sortie, il est ignoré dans Outlook ; La version modale de la boîte de dialogue est toujours affichée dans les clients non Outlook. 
+Si le membre **ulFlags** du paramètre _lpAdrParms_ a la valeur DIALOG_SDI anticipant le retour de la poignée de fenêtre de la boîte de dialogue sans mode lors de la sortie, il est ignoré dans Outlook ; La version modale de la boîte de dialogue est toujours affichée dans les clients Outlook non-clients. 
   
 La structure **ADRLIST** transmise par MAPI à l’appelant via le paramètre  _lppAdrList_ contient un tableau de structures [ADRENTRY,](adrentry.md) une structure pour chaque destinataire. Lorsqu’elle est transmise à la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) d’un message sortant dans le paramètre  _lpMods,_ la structure **ADRLIST** peut être utilisée pour mettre à jour sa liste des destinataires. 
   
@@ -75,9 +75,9 @@ En plus de **PR_ENTRYID,** les destinataires résolus incluent les propriétés 
     
 La structure **ADRLIST** que l’appelant transmet peut être d’une taille différente de la structure que MAPI renvoie. Si MAPI doit renvoyer une structure **ADRLIST** plus grande, il libère la structure d’origine et en alloue une nouvelle. Lorsque vous allouez de la mémoire pour la structure **ADRLIST,** allouez la mémoire pour chaque structure **SPropValue** séparément. Pour plus d’informations sur l’allocation et la gratuité des structures **ADRLIST,** voir [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md)
   
- **L’adresse** renvoie immédiatement si l’DIALOG_SDI est définie dans le membre **ulFlags** de la structure **ADRPARM** dans le paramètre _lpAdrParms._ L DIALOG_SDI est ignoré pour les clients non Outlook. Si DIALOG_SDI est ignoré, la version modale de la boîte de dialogue s’affiche et un pointeur vers un handle ne doit pas être attendu dans  _lpulUIParam_.
+ **L’adresse** renvoie immédiatement si l’DIALOG_SDI est définie dans le membre **ulFlags** de la structure **ADRPARM** dans le paramètre _lpAdrParms._ L DIALOG_SDI est ignoré pour les clients non Outlook client. Si DIALOG_SDI est ignoré, la version modale de la boîte de dialogue s’affiche et un pointeur vers un handle ne doit pas être attendu dans  _lpulUIParam_.
   
- **Address** prend en charge les chaînes de caractères Unicode dans la structure **ADRPARM** si AB_UNICODEUI a été spécifié dans le membre **ulFlags** d’ADRPARM dans le paramètre _lpAdrParms_ et prend en charge les chaînes de caractères Unicode dans **ADRLIST**.  Les chaînes Unicode sont converties au format de chaîne de caractères multioctets (MBCS) avant d’être affichées dans la boîte de dialogue du carnet d’adresses Outlook.
+ **Address** prend en charge les chaînes de caractères Unicode dans la structure **ADRPARM** si AB_UNICODEUI a été spécifié dans le membre **ulFlags** d’ADRPARM dans le paramètre _lpAdrParms_ et prend en charge les chaînes de caractères Unicode dans **ADRLIST**.  Les chaînes Unicode sont converties au format de chaîne de caractères multioctets (MBCS) avant d’être affichées dans la boîte de dialogue Outlook carnet d’adresses.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

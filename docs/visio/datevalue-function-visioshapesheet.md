@@ -38,7 +38,7 @@ Datetime
   
 ## <a name="remarks"></a>Remarques
 
-Tout composant d’heure *dans l’heure ou* l’expression est ignoré.  
+Tout composant d’heure  *dans l’heure ou*  *l’expression*  est ignoré. 
   
 Si  *date/heure*  est manquante ou ne peut pas être convertie en un résultat valide, DATEVALUE renvoie une valeur #VALUE! erreur. 
   

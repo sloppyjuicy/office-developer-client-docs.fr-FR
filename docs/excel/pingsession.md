@@ -18,13 +18,13 @@ ms.locfileid: "33408361"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Vérifie si une session est valide. Cette fonction est généralement appelée lorsqu’Excel doit déterminer si un ID de session renvoyé précédemment est toujours actif et peut être utilisé.
+Vérifie si une session est valide. Cette fonction est généralement appelée lorsque Excel doit déterminer si un ID de session précédemment renvoyé est toujours actif et peut être utilisé.
   
 ```cpp
 int PingSession(int SessionId)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _SessionID_
   

@@ -35,6 +35,6 @@ TINT(** *color* **, ** *int* ** )
   
 ## <a name="remarks"></a>Remarques
 
-Les limites basse et haute de luminosité sont respectivement 0 et 240. Il n’existe aucune limite sur la taille de l’nombre integer que vous pouvez transmettre pour le paramètre  _int,_ mais la luminosité ne dépasse jamais ces limites. 
+Les limites basse et haute de luminosité sont respectivement 0 et 240. Il n’y a aucune limite sur la taille de l’nombre integer que vous pouvez transmettre pour le paramètre  _int,_ mais la luminosité ne dépasse jamais ces limites. 
   
 

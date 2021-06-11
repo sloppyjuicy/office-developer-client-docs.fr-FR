@@ -34,7 +34,7 @@ Contient une chaîne Unicode en cours d’interrogation dans la liste des adress
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est uniquement pertinente pour les messages de la boutique qui n’ont pas été envoyés, car les messages qui ont été envoyés ou reçus ne contiennent pas d’informations Bc.
+Cette propriété est uniquement pertinente pour les messages de la boutique qui n’ont pas été envoyés, car les messages qui ont été envoyés ou reçus ne contiennent pas d’informations bcc.
   
 > [!NOTE]
 > Cette balise de restriction MAPI, utilisée lors de la recherche d’adresses de messagerie ou de noms complets vers lesquels le message sera envoyé en tant que copie carbone non voyante, peut ne pas être définie dans le fichier d’en-tête téléchargeable dont vous disposez actuellement. Vous pouvez l’ajouter à votre code en utilisant la valeur suivante : >  `#define PR_SEARCH_RECIP_EMAIL_BCC_W PROP_TAG(PT_UNICODE, 0x0EA8)`
@@ -45,7 +45,7 @@ Cette propriété est uniquement pertinente pour les messages de la boutique qui
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Microsoft Exchange Server de protocole associées.
+> Fournit des références aux spécifications Microsoft Exchange Server protocole.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   

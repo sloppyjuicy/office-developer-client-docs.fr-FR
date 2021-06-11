@@ -153,7 +153,7 @@ myDate.SetValue(strCurDate)
 
 Pour spécifier des champs ou des groupes récurrents dont le nombre n'est pas déterminé, utilisez la méthode **Select** de la classe **XPathNavigator**. Cette méthode retourne un objet XPathNodeIterator que vous pouvez utiliser pour parcourir la collection de nœuds. 
   
-Dans l'exemple suivant, votre modèle de formulaire contient une **Liste à puces** ou un autre contrôle récurrent qui est lié à un élément récurrent appelé  `field1`. Le XPath de ce champ est transmis à la méthode **Select** et la valeur **XPathNodeIterator** retournée est affectée à la variable  `nodes`. Vous pouvez utiliser la méthode MoveNext pour parcourir la collection de nœuds et la propriété Current pour retourner un objet **XPathNavigator** placé sur le nœud actif. Enfin, utilisez la **propriété Value** pour récupérer et afficher la valeur de chaque champ répété. 
+Dans l'exemple suivant, votre modèle de formulaire contient une **Liste à puces** ou un autre contrôle récurrent qui est lié à un élément récurrent appelé  `field1`. Le XPath de ce champ est transmis à la méthode **Select** et la valeur **XPathNodeIterator** retournée est affectée à la variable  `nodes`. Vous pouvez utiliser la méthode MoveNext pour parcourir la collection de nœuds et la propriété Current pour retourner un objet **XPathNavigator** placé sur le nœud actif. Enfin, utilisez la **propriété Value** pour récupérer et afficher la valeur de chaque champ ext. exe. 
   
 ```cs
 string message = String.Empty;

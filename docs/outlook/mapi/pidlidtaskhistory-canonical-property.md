@@ -37,14 +37,14 @@ Indique le type de modification qui a été apporté pour la dernière fois à l
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque la valeur de cette propriété est définie, la propriété **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) doit également être définie sur l’heure actuelle. Le tableau suivant indique les valeurs de propriété **dispidTaskHistory,** répertoriées par ordre de priorité décroissante. 
+Lorsque la valeur de cette propriété est définie, la propriété **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) doit également être définie sur l’heure actuelle. Le tableau suivant indique les valeurs de la **propriété dispidTaskHistory,** répertoriées par ordre de priorité décroissante. 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0x00000004  <br/> |La **propriété dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) a été modifiée.  <br/> |
 |0x00000003  <br/> |Une autre propriété a été modifiée.  <br/> |
 |0x00000001  <br/> |L’affectation de la tâche a accepté cette tâche.  <br/> |
-|0x00000002  <br/> |L’affectation de la tâche a rejeté cette tâche.  <br/> |
+|0x00000002  <br/> |La personne à l’emploi de la tâche a rejeté cette tâche.  <br/> |
 |0x00000005  <br/> |La tâche a été affectée à une personne affectée à la tâche.  <br/> |
 |0x00000000  <br/> |Aucune modification n’a été apportée.  <br/> |
    

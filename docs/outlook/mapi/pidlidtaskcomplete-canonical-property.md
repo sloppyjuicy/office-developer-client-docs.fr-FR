@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidTaskComplete
+title: Propri t canonique PidLidTaskComplete
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303359"
 ---
-# <a name="pidlidtaskcomplete-canonical-property"></a>Propriété canonique PidLidTaskComplete
+# <a name="pidlidtaskcomplete-canonical-property"></a>Propri t canonique PidLidTaskComplete
 
   
   

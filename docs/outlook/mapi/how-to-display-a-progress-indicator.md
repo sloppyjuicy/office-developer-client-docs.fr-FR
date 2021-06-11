@@ -23,7 +23,7 @@ Pour afficher un indicateur de progression, appelez [IMAPIProgress::GetFlags](im
   
 Si l’MAPI_TOP_LEVEL est définie, complétez les étapes suivantes :
   
-1. Définir une variable égale au nombre total d’éléments à traiter dans l’opération. Par exemple, si vous copiez le contenu d’un dossier, cette valeur est égale au nombre de sous-dossiers du dossier plus le nombre de messages. 
+1. Définissez une variable sur le nombre total d’éléments à traiter dans l’opération. Par exemple, si vous copiez le contenu d’un dossier, cette valeur est égale au nombre de sous-dossiers du dossier plus le nombre de messages. 
     
 2. Définissez une variable sur 1 000 divisé par le nombre d’éléments. 
     
@@ -79,7 +79,7 @@ Si l’MAPI_TOP_LEVEL n’est pas définie, complétez les étapes suivantes :
       
    3. Appelez [IMAPIProgress::P rogress](imapiprogress-progress.md) et passez les valeurs suivantes pour les trois paramètres : 
       
-     - Définissez  _le paramètre ulValue_ sur un jeu de variables à l’étape 2 multiplié par l’objet actuel. 
+     - Définissez  _le paramètre ulValue_ sur variable définie à l’étape 2 multipliée par l’objet actuel. 
       
      - Définissez  _le paramètre ulCount_ sur 0. 
       

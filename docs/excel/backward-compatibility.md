@@ -24,7 +24,7 @@ Cette rubrique traite des problèmes de compatibilité XLL dans différentes ver
   
 ## <a name="useful-constant-definitions"></a>Définitions de constantes utiles
 
-Envisagez d’inclure des définitions similaires à celles-ci dans le code de votre projet XLL et de remplacer toutes les instances de nombres littéraux utilisés dans ce contexte. Cela permet de clarifier le code propre à la version et de réduire la probabilité de bogues liés à la version sous la forme de numéros noncuous.
+Envisagez d’inclure des définitions similaires à celles-ci dans le code de votre projet XLL et de remplacer toutes les instances de nombres littéraux utilisés dans ce contexte. Cela permet de clarifier le code propre à la version et de réduire la probabilité de bogues liés à la version sous la forme de numéros sans effet.
   
 ```cpp
 #define MAX_XL11_ROWS            65536
@@ -39,37 +39,37 @@ Envisagez d’inclure des définitions similaires à celles-ci dans le code de v
 
 ## <a name="getting-the-running-version"></a>Obtention de la version en cours d’exécution
 
-Vous devez détecter quelle version est en cours d’exécution, où est une XLOPER numérique définie sur 2 et la version est une `Excel4(xlfGetWorkspace, &amp;version, 1, &amp;arg)` `arg` chaîne **XLOPER**  qui peut ensuite être contrainte en un nombre. Pour Microsoft Excel 2013, il s’agit de la 15.0. Vous devez le faire dans la fonction [xlAutoOpen](xlautoopen.md) ou à partir de celle-ci. Vous pouvez ensuite définir une variable globale qui informe tous les modules de votre projet sur la version d’Excel en cours d’exécution. Votre code peut ensuite décider d’appeler l’API C à l’aide **d’Excel12** et **xlOPER12** ou d’Excel4 à l’aide **de XLOPER.** 
+Vous devez détecter quelle version est en cours d’exécution, où est une XLOPER numérique définie sur 2 et la version est une `Excel4(xlfGetWorkspace, &amp;version, 1, &amp;arg)` `arg` chaîne **XLOPER**  qui peut ensuite être contrainte en un nombre. Par Microsoft Excel 2013, il s’agit de 15.0. Vous devez le faire dans la fonction [xlAutoOpen](xlautoopen.md) ou à partir de celle-ci. Vous pouvez ensuite définir une variable globale qui informe tous les modules de votre projet sur la version de Excel en cours d’exécution. Votre code peut ensuite décider d’appeler l’API C à l’aide **d’Excel12** et **xlOPER12** ou d’Excel4 à l’aide **de XLOPER.** 
   
-Vous pouvez appeler **XLCallVer** pour découvrir la version de l’API C, mais cela n’indique pas laquelle des versions antérieures à Excel 2007 que vous exécutez. 
+Vous pouvez appeler **XLCallVer** pour découvrir la version de l’API C, mais cela n’indique pas quelle version pré-Excel 2007 que vous exécutez. 
   
 ## <a name="creating-add-ins-that-export-dual-interfaces"></a>Création de add-ins qui exportent des interfaces doubles
 
-Considérons une fonction XLL qui prend une chaîne et renvoie une valeur qui peut être n’importe quel type de données de feuille de calcul. Vous pouvez exporter une fonction inscrite en tant que type « PD » et prototyped comme suit, où la chaîne est passée en tant que chaîne d’byte comptée de longueur.
+Considérons une fonction XLL qui prend une chaîne et renvoie une valeur qui peut être n’importe quel type de données de feuille de calcul. Vous pouvez exporter une fonction enregistrée en tant que type « PD » et prototyped comme suit, où la chaîne est passée en tant que chaîne d’byte comptée de longueur.
   
 `LPXLOPER WINAPI my_xll_fn(unsigned char *arg);`
   
-Bien que cela fonctionne parfaitement, il existe plusieurs raisons pour lesquelles il ne s’agit pas de l’interface idéale pour votre code à partir d’Excel 2007 :
+Bien que cela fonctionne parfaitement, il existe plusieurs raisons pour lesquelles il ne s’agit pas de l’interface idéale pour votre code à partir de Excel 2007 :
   
-- Il est soumis aux limitations des chaînes d’byte de l’API C et ne peut pas accéder aux longues chaînes Unicode prise en charge à partir d’Excel 2007.
+- Il est soumis aux limitations des chaînes d’byte de l’API C et ne peut pas accéder aux chaînes Unicode longues prise en charge à partir de Excel 2007.
     
-- Bien que, à partir d’Excel 2007, Excel puisse passer et accepter des **XLOPER,** en interne il les convertit en **XLOPER12** s, il existe donc une surcharge de conversion implicite commençant dans Excel 2007 qui n’existe pas lorsque le code s’exécute dans les versions antérieures d’Excel.
+- Bien que, à partir de Excel 2007, Excel puisse passer et accepter des **XLOPER,** en interne il les convertit en **XLOPER12,** il existe donc une surcharge de conversion implicite à partir de Excel 2007 qui n’existe pas lorsque le code s’exécute dans les versions antérieures de Excel.
     
-- Il se peut que cette fonction puisse être rendue thread-safe, mais si la chaîne de type est modifiée, l’inscription échoue au démarrage avant  `PD$` Excel 2007.
+- Cette fonction peut être rendue thread-safe, mais si la chaîne de type est modifiée, l’inscription échoue au démarrage avant `PD$` Excel 2007.
     
-Pour ces raisons, dans l’idéal, à partir d’Excel 2007, vous devez exporter une fonction pour vos utilisateurs qui a été enregistrée en tant que , en supposant que votre code est thread-safe et prototyped comme  `QD%$` suit.
+Pour ces raisons, dans l’idéal, à partir de Excel 2007, vous devez exporter une fonction pour vos utilisateurs qui a été inscrite en tant que , en supposant que votre code est thread-safe et prototyped comme `QD%$` suit.
   
 `LPXLOPER12 WINAPI my_xll_fn_v12(wchar_t *arg);`
   
-Une autre raison pour laquelle vous souhaitez peut-être inscrire une autre fonction à partir d’Excel 2007 est qu’elle autorise les fonctions XLL à prendre jusqu’à 255 arguments, au lieu de la limite de 30 versions antérieures.
+Une autre raison pour laquelle vous souhaitez peut-être inscrire une autre fonction à partir de Excel 2007 est qu’elle autorise les fonctions XLL à prendre jusqu’à 255 arguments, au lieu de la limite de 30 versions antérieures.
   
-Heureusement, vous pouvez bénéficier des deux avantages en exportant les deux versions à partir de votre projet. Vous pouvez ensuite détecter la version d’Excel en cours d’exécution et inscrire de manière conditionnable la fonction la plus appropriée. Pour plus d’informations et un exemple d’implémentation, voir [Developing Add-ins (XLLs) in Excel 2007](https://msdn.microsoft.com/library/aa730920.aspx).
+Heureusement, vous pouvez bénéficier des deux avantages en exportant les deux versions à partir de votre projet. Vous pouvez ensuite détecter la version Excel en cours d’exécution et inscrire de manière conditionnable la fonction la plus appropriée. Pour plus d’informations et un exemple d’implémentation, voir [Developing Add-ins (XLLs) in Excel 2007](https://msdn.microsoft.com/library/aa730920.aspx).
   
-Cette approche entraîne la possibilité qu’une feuille de calcul s’exécutant dans Excel 2003 puisse afficher des résultats différents de la même feuille en cours d’exécution à partir d’Excel 2007. Par exemple, Excel 2003 masque une chaîne Unicode dans une cellule de feuille de calcul Excel 2003 à une chaîne d’byte ASCII et la tronque avant de la transmettre à une fonction XLL. À partir d’Excel 2007, Excel passe une chaîne Unicode non inversée à une fonction XLL inscrite de la bonne façon. Cela peut entraîner un résultat différent. Vous devez être conscient de cette possibilité et des conséquences pour vos utilisateurs, pas seulement dans la mise à niveau. Par exemple, certaines fonctions numériques intégrées ont été améliorées entre Excel 2000 et Excel 2003.
+Cette approche conduit à la possibilité qu’une feuille de calcul s’exécutant dans Excel 2003 puisse afficher des résultats différents de ceux de la même feuille en cours d’exécution depuis Excel 2007. Par exemple, Excel 2003 maque une chaîne Unicode dans une cellule de feuille de calcul Excel 2003 à une chaîne d’byte-ASCII et la tronque avant de la transmettre à une fonction XLL. À compter Excel 2007, Excel passe une chaîne Unicode non inversée à une fonction XLL inscrite de la bonne façon. Cela peut entraîner un résultat différent. Vous devez être conscient de cette possibilité et des conséquences pour vos utilisateurs, pas seulement dans la mise à niveau. Par exemple, certaines fonctions numériques intégrées ont été améliorées entre Excel 2000 et Excel 2003.
   
 ## <a name="new-worksheet-functions-and-analysis-toolpak-functions"></a>Nouvelles fonctions de feuille de calcul et fonctions de la boîte à outils Analyse
 
-Les fonctions De la boîte à outils d’analyse (ATP) font partie d’Excel à partir d’Excel 2007. Auparavant, une XLL pouvait uniquement appeler une fonction ATP à l’aide [de xlUDF](xludf.md). À partir d’Excel 2007, les fonctions ATP doivent être appelées à l’aide des éumérations de fonction définies dans xlcall.h. L’exemple dans Calling User-defined Functions from DLLs illustre les deux méthodes différentes.
+Les fonctions de la boîte à outils Analysis Toolpak (ATP) font partie Excel à partir Excel 2007. Auparavant, une XLL pouvait uniquement appeler une fonction ATP à l’aide [de xlUDF](xludf.md). À compter Excel 2007, les fonctions ATP doivent être appelées à l’aide des éumérations de fonction définies dans xlcall.h. L’exemple dans Calling User-defined Functions from DLLs illustre les deux méthodes différentes.
   
 ## <a name="see-also"></a>Voir aussi
 

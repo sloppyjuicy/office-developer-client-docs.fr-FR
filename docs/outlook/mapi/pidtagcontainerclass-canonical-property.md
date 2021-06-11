@@ -36,7 +36,7 @@ Contient une chaîne de texte décrivant le type d’un dossier. Bien que cette 
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés ne sont normalement pas utilisées par les Exchange Server. Toutefois, Microsoft Office Outlook® les joint à des dossiers de boîte aux lettres. En outre, les versions de Exchange Server antérieures à Exchange Server 2003 Mailbox Manager peuvent gérer de manière incorrecte les dossiers qui n’ont pas ces propriétés.
+Ces propriétés ne sont généralement pas utilisées par les Exchange Server. Toutefois, Microsoft Office Outlook® les joint à des dossiers de boîte aux lettres. En outre, les versions de Exchange Server antérieures à Exchange Server 2003 Mailbox Manager peuvent gérer de manière incorrecte les dossiers qui n’ont pas ces propriétés.
   
 Ces propriétés peuvent être affectées aux valeurs de chaîne dans le tableau suivant.
   
@@ -44,9 +44,9 @@ Ces propriétés peuvent être affectées aux valeurs de chaîne dans le tableau
 |:-----|:-----|
 |IPF. Rendez-vous  <br/> |Rendez-vous  <br/> |
 |IPF. Contact  <br/> |Contacts  <br/> |
-|IPF. Journal  <br/> |Entrées du journal Outlook  <br/> |
+|IPF. Journal  <br/> |Outlook Entrées de journal  <br/> |
 |IPF. Remarque  <br/> |Messages électroniques et notes  <br/> |
-|IPF. StickyNote  <br/> |Outlook Sticky Notes  <br/> |
+|IPF. StickyNote  <br/> |Outlook Pense-bêtes  <br/> |
 |IPF. Tâche  <br/> |Tâches Outlook  <br/> |
    
 Pour les dossiers qui contiennent des messages électroniques, ces propriétés doivent être définies sur IPF. Remarque.

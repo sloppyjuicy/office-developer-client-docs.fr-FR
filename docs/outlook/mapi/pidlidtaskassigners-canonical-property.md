@@ -37,7 +37,7 @@ Contient une pile d’entrées qui représentent les personnes qui affectent des
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque le client reçoit une demande de tâche, il l’append à cette propriété, dont la structure est définie dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), une entrée qui représente l’expéditeur de la tâche. Lorsque le client reçoit un rejet de tâche, il supprime la dernière entrée de l’assigneur de la tâche de cette propriété. Lorsque le client envoie une réponse de tâche, il l’envoie au dernier assigneur de tâches répertorié dans la valeur de cette propriété.
+Lorsque le client reçoit une demande de tâche, il l’append à cette propriété, dont la structure est définie dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), une entrée qui représente l’expéditeur de la tâche. Lorsque le client reçoit un rejet de tâche, il supprime la dernière entrée de l’assigneur de la tâche de cette propriété. Lorsque le client envoie une réponse de tâche, il l’envoie au dernier assigneur de tâche répertorié dans la valeur de cette propriété.
   
 ## <a name="related-resources"></a>Ressources connexes
 

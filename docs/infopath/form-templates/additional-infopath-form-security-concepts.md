@@ -108,15 +108,15 @@ Le tableau suivant récapitule les autorisations par défaut pour chaque méthod
 |:-----|:-----|:-----|
 ||**Basé sur l’URL** <br/> |**Basé sur l’URN** <br/> |**ActiveX marqués comme non sécurisés pour les scripts** <br/> |**Accès aux données d’autres domaines** <br/> |**Niveau de sécurité du modèle objet** <br/> |
 |Sites sensibles  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |
-|Internet  <br/> |X  <br/> ||Désactiver  <br/> |Désactiver  <br/> |2   <br/> |
-|Intranet local  <br/> |X  <br/> ||Désactiver  <br/> |Invite  <br/> |2   <br/> |
-|Sites approuvés  <br/> |X  <br/> ||Invite  <br/> |Activer  <br/> |2   <br/> |
-|Ordinateur local  <br/> |X  <br/> |X  <br/> |Désactiver  <br/> |Invite  <br/> |2   <br/> |
-|Formulaire entièrement fiable  <br/> |X (signé par un éditeur approuvé)  <br/> |X  <br/> |Activer  <br/> |Activer  <br/> |3   <br/> |
-|Formulaire entièrement fiable  <br/> ||X  <br/> |Activer  <br/> |Activer  <br/> |3   <br/> |
-|Restreint  <br/> ||X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2   <br/> |
-|Restreint  <br/> |X  <br/> ||Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2   <br/> |
-|Restreint  <br/> |X  <br/> |X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2   <br/> |
+|Internet  <br/> |X  <br/> ||Désactiver  <br/> |Désactiver  <br/> |2  <br/> |
+|Intranet local  <br/> |X  <br/> ||Désactiver  <br/> |Invite  <br/> |2  <br/> |
+|Sites approuvés  <br/> |X  <br/> ||Invite  <br/> |Activer  <br/> |2  <br/> |
+|Ordinateur local  <br/> |X  <br/> |X  <br/> |Désactiver  <br/> |Invite  <br/> |2  <br/> |
+|Formulaire entièrement fiable  <br/> |X (signé par un éditeur approuvé)  <br/> |X  <br/> |Activer  <br/> |Activer  <br/> |3  <br/> |
+|Formulaire entièrement fiable  <br/> ||X  <br/> |Activer  <br/> |Activer  <br/> |3  <br/> |
+|Restreint  <br/> ||X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2  <br/> |
+|Restreint  <br/> |X  <br/> ||Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2  <br/> |
+|Restreint  <br/> |X  <br/> |X  <br/> |Pas d’ActiveX (à part une liste restreinte, codée en dur)  <br/> |Désactiver  <br/> |2  <br/> |
    
 Pour plus d'informations sur les consignes générales de sécurité lors du développement de formulaires, voir [Consignes de sécurité pour développer des formulaires InfoPath](security-guidelines-for-developing-infopath-forms.md).
   
@@ -144,7 +144,7 @@ Vous configurez un formulaire pour qu'il utilise des signatures numériques en s
     
 - La signature numérique contient également un instantané de la vue proposée au signataire à la signature du formulaire. Cet instantané est stocké en tant qu'image base64 au format PNG standard. 
     
-## <a name="email-deployment"></a>Déploiement de la messagerie
+## <a name="email-deployment"></a>Déploiement du courrier électronique
 
 Vous pouvez déployer vos modèles de formulaire en tant que pièces jointes à un message électronique et les déplacer d’un emplacement à un autre. Ce mode de déploiement est un moyen simple et efficace de distribuer des formulaires à vos collègues de bureau et de déployer des formulaires auprès d'utilisateurs distants.
   

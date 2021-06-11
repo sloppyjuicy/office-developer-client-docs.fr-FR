@@ -36,11 +36,11 @@ Contient la version HTML (Hypertext Markup Language) du texte du message.
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent le même texte de message que **le PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), mais en HTML. 
+Ces propriétés contiennent le même texte de message que **PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), mais en HTML. 
   
 Une magasin de messages qui prend en charge le code HTML indique cela en STORE_HTML_OK l’indicateur **PR_STORE_SUPPORT_MASK** **(** [PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
- **Notez** **STORE_HTML_OK** n’est pas défini dans les versions de Mapidefs.h incluses avec Microsoft® Exchange 2000 Server et versions antérieures. Si **STORE_HTML_OK** n’est pas définie, utilisez la valeur 0x00010000 à la place. 
+ **Notez** **STORE_HTML_OK** n’est pas défini dans les versions de Mapidefs.h incluses avec Microsoft® Exchange Server 2000 et versions antérieures. Si **STORE_HTML_OK** n’est pas définie, utilisez la valeur 0x00010000 à la place. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -52,7 +52,7 @@ Une magasin de messages qui prend en charge le code HTML indique cela en STORE_H
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

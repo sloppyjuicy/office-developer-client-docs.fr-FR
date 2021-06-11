@@ -21,7 +21,7 @@ Indique si les valeurs des cellules spécifiées dans une forme de base remplace
 |**Valeur**|**Description**|
 |:-----|:-----|
 |1 (TRUE)  <br/> |Toutes les lignes et valeurs de la section **Données** de forme de la forme de base sont copiées sur la forme de remplacement et toutes les valeurs locales de l’ancienne forme en cours de remplacement sont ignorées.  <br/> |
-|0 (FALSE)  <br/> |Les lignes et les valeurs de la section **Données** de forme de la forme de base sont copiées dans la forme de remplacement. Toutes les lignes de la section **Données de** forme de l’ancienne forme avec des valeurs locales sont transférées vers la forme de remplacement.  <br/> |
+|0 (FALSE)  <br/> |Les lignes et les valeurs de la section **Données** de forme de la forme de base sont copiées dans la forme de remplacement. Toutes les lignes de la section **Données** de forme de l’ancienne forme avec des valeurs locales sont transférées vers la forme de remplacement.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

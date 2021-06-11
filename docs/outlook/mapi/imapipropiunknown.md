@@ -51,11 +51,11 @@ Permet aux clients, aux fournisseurs de services et à MAPI d’fonctionner avec
 |[CopyTo](imapiprop-copyto.md) <br/> |Copie ou déplace toutes les propriétés, à l’exception des propriétés spécifiquement exclues.  <br/> |
 |[CopyProps](imapiprop-copyprops.md) <br/> |Copie ou déplace les propriétés sélectionnées.  <br/> |
 |[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Fournit les noms de propriété qui correspondent à un ou plusieurs identificateurs de propriété.  <br/> |
-|[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriétés.  <br/> |
+|[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriété.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
- **IMAPIProp est l’interface** de base pour les interfaces suivantes : 
+ **IMAPIProp est** l’interface de base pour les interfaces suivantes : 
   
 - [IAttach](iattachimapiprop.md)
     

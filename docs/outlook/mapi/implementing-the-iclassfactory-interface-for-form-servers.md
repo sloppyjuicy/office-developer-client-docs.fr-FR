@@ -28,11 +28,11 @@ ms.locfileid: "32310030"
 |[CreateInstance](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |Crée un objet de formulaire.  <br/> |
 |[LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |Verrouille le serveur de formulaires en mémoire afin d’éviter la surcharge de démarrage lors de la création de plusieurs objets de formulaire.  <br/> |
    
-Pour toutes les informations nécessaires pour implémenter ces méthodes, voir la section COM et ActiveX Object Services dans le SDK Windows.
+Pour toutes les informations nécessaires pour implémenter ces méthodes, voir la section COM et ActiveX Object Services dans Windows SDK.
   
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Écriture de code serveur de formulaire](writing-form-server-code.md)
+[Écriture de code serveur de formulaires](writing-form-server-code.md)
 

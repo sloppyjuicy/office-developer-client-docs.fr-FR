@@ -41,7 +41,7 @@ void CALLERRELEASE(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulCallerData_
   
@@ -49,7 +49,7 @@ void CALLERRELEASE(
     
  _lpTblData_
   
-> [in] Pointeur vers [l’interface ITableData : IUnknown](itabledataiunknown.md) pour l’objet de données de table sous-jacent à la vue de table relâchée. 
+> [in] Pointeur vers l’interface [ITableData : IUnknown](itabledataiunknown.md) pour l’objet de données de table sous-jacent à la vue de table publiée. 
     
  _lpVue_
   

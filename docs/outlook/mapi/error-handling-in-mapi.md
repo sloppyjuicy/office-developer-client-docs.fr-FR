@@ -29,7 +29,7 @@ L’illustration suivante montre le format HRESULT pour les plateformes 32 bits.
   
 ![Format HRESULT au](media/amapi_49.gif "format HRESULT")
   
-Le bit d’ordre élevé dans hrESULT indique si la valeur de retour représente la réussite ou l’échec. Si la valeur est définie sur zéro, la valeur indique la réussite. Si elle est définie sur 1, elle indique un échec.
+Le bit d’ordre élevé dans hrESULT indique si la valeur de retour représente la réussite ou l’échec. Si la valeur est définie sur zéro, la valeur indique la réussite. S’il est définie sur 1, elle indique un échec.
   
 Les bits R, C, N et r sont réservés dans hrESULT.
   
@@ -38,10 +38,10 @@ Le champ de la facilité dans les deux versions indique la zone de responsabilit
 |Facility|Description|
 |:-----|:-----|
 |FACILITY_NULL  <br/> |Pour les codes d’état courants applicables à grande S_OK ou E_OUTOF_MEMORY ; la valeur est zéro.  <br/> |
-|FACILITY_ITF  <br/> |Pour la plupart des codes d’état renvoyés à partir des méthodes d’interface ; la valeur est définie par l’interface. Autrement dit, deux valeurs HRESULT avec exactement la même valeur 32 bits renvoyées à partir de deux interfaces différentes peuvent avoir des significations différentes.  <br/> |
+|FACILITY_ITF  <br/> |Pour la plupart des codes d’état renvoyés par les méthodes d’interface ; la valeur est définie par l’interface. Autrement dit, deux valeurs HRESULT avec exactement la même valeur 32 bits renvoyées à partir de deux interfaces différentes peuvent avoir des significations différentes.  <br/> |
 |FACILITY_DISPATCH  <br/> |Pour les erreurs d’interface [IDispatch de](https://msdn.microsoft.com/library/ms221608.aspx) liaison tardive.  <br/> |
 |FACILITY_RPC  <br/> |Pour les codes d’état renvoyés par les appels de procédure distante.  <br/> |
-|FACILITY_STORAGE  <br/> |Pour les codes d’état renvoyés par les appels de méthode [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) ou [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) relatifs au stockage structuré. Les codes d’état avec des valeurs de code (moins de 16 bits) dans la plage de codes d’erreur Windows (c’est-à-dire, inférieur à 256) ont la même signification que les erreurs Windows correspondantes.  <br/> |
+|FACILITY_STORAGE  <br/> |Pour les codes d’état renvoyés par les appels de méthode [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) ou [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) relatifs au stockage structuré. Les codes d’état avec des valeurs de code (moins de 16 bits) dans la plage de codes d’erreur Windows (c’est-à-dire, inférieur à 256) ont la même signification que les erreurs de Windows correspondantes.  <br/> |
    
 Le champ de code est un numéro unique affecté pour représenter l’erreur ou l’avertissement.
   

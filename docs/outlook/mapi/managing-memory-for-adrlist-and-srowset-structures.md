@@ -19,11 +19,11 @@ ms.locfileid: "33407864"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’exigence d’allouer toute la mémoire pour une mémoire tampon chaque fois que possible avec un seul appel **MAPIAllocateBuffer** ne s’applique pas lors de l’utilisation de la liste d’adresses, ou **ADRLIST**, et jeu de lignes, ou **SRowSet**, structures. 
+L’exigence d’allouer toute la mémoire pour une mémoire tampon chaque fois que possible avec un seul appel **MAPIAllocateBuffer** ne s’applique pas lors de l’utilisation de la liste d’adresses, ou **ADRLIST**, et ensemble de lignes, ou **SRowSet**, structures. 
   
 Ces deux structures sont des exceptions aux règles standard d’allocation et de libération de mémoire. Ils contiennent plusieurs niveaux de structures et sont conçus pour permettre à des membres individuels d’être ajoutés ou supprimés. Par conséquent, chaque propriété doit être une allocation distincte. 
 
-Lorsque la plupart des structures sont libérées avec un appel à **MAPIFreeBuffer**, chaque entrée individuelle dans une structure **ADRLIST** ou **SRowSet** doit être libérée avec son propre appel à **MAPIFreeBuffer** ou un appel unique à **FreeProws** ou **FreePadrlist**. Pour plus d’informations, [voir MAPIFreeBuffer](mapifreebuffer.md), [ADRLIST](adrlist.md)et [SRowSet](srowset.md). 
+Lorsque la plupart des structures sont libérées avec un appel à **MAPIFreeBuffer**, chaque entrée individuelle dans une structure **ADRLIST** ou **SRowSet** doit être libérée avec son propre appel à **MAPIFreeBuffer** ou un seul appel à **FreeProws** ou **FreePadrlist**. Pour plus d’informations, [voir MAPIFreeBuffer](mapifreebuffer.md), [ADRLIST](adrlist.md)et [SRowSet](srowset.md). 
 
 **FreeProws et** **FreePadrlist** sont des fonctions fournies par MAPI pour simplifier la libération de ces structures de données. Pour plus d’informations, [voir FreeProws](freeprows.md) et [FreePadrlist.](freepadrlist.md) **FreePadrlist** libère la mémoire de la structure **ADRLIST** ainsi que toute la mémoire associée pour les membres de la structure . **FreeProws fait** de même pour la structure **SRowSet.** 
   

@@ -19,6 +19,6 @@ ms.locfileid: "32299397"
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Dans la mesure du possible, essayez de récupérer ou de modifier une propriété avec les méthodes [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPIProp::SetProps.](imapiprop-setprops.md) À moins que la propriété que vous travaillez avec soit très grande, ces méthodes doivent être adéquates. L’autre solution consiste à lire ou à écrire dans un flux avec l’interface [IStream.](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) Les flux peuvent gérer des propriétés très importantes, mais ils drainent davantage les ressources, car ils nécessitent les bibliothèques COM. Utilisez l’interface **IStream** uniquement après l’échec de votre appel à **IMAPIProp::GetProps** ou **IMAPIProp::SetProps.** 
+Dans la mesure du possible, essayez de récupérer ou de modifier une propriété avec les méthodes [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPIProp::SetProps.](imapiprop-setprops.md) À moins que la propriété que vous travaillez avec soit très grande, ces méthodes doivent être adéquates. L’autre solution consiste à lire ou à écrire dans un flux avec l’interface [IStream.](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) Flux gérer des propriétés très importantes avec succès, mais elles drainent davantage les ressources, car elles nécessitent les bibliothèques COM. Utilisez l’interface **IStream** uniquement après l’échec de votre appel à **IMAPIProp::GetProps** ou **IMAPIProp::SetProps.** 
   
 

@@ -1,5 +1,5 @@
 ---
-title: À propos des unités de mesure (référence Visio ShapeSheet)
+title: About Units of Measure (Visio ShapeSheet Reference)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32360451"
 ---
-# <a name="about-units-of-measure-visio-shapesheet-reference"></a>À propos des unités de mesure (référence Visio ShapeSheet)
+# <a name="about-units-of-measure-visio-shapesheet-reference"></a>About Units of Measure (Visio ShapeSheet Reference)
 
 Lorsque vous insérez des champs dans du texte ou construisez des formules, vous devez souvent indiquer l’unité de mesure des valeurs que vous tapez.
   
@@ -41,7 +41,7 @@ Dans les formules ShapeSheet, entrez les unités de mesure en utilisant les abr�
 | Minutes écoulées  <br/> | em  <br/> |**visElapsedMin (46)** <br/> |
 | Secondes écoulées  <br/> | es  <br/> |**visElapsedSec (47)** <br/> |
 | Pieds  <br/> | ft  <br/> |**visFeet (66)** <br/> |
-| Pouces  <br/> | dans   <br/> |**visInches (65)** <br/> |
+| Pouces  <br/> | in  <br/> |**visInches (65)** <br/> |
 | Kilomètres  <br/> | km  <br/> |**visKilometers (72)** <br/> |
 | Mètres  <br/> | m  <br/> |**visMeters (71)** <br/> |
 | Miles  <br/> | mi  <br/> |**visMiles (68)** <br/> |
@@ -70,7 +70,7 @@ Par exemple, si vous entrez 45,635°, Visio affiche la valeur équivalente de la
    
 ## <a name="fractional-units-of-measure"></a>Unités de mesure en fraction
 
-Vous pouvez spécifier des unités de mesure fractionnaires dans la cellule **DrawingScale** pour affecter le nombre de sous-sections de règle affichées par Visio dans la fenêtre de dessin. Par défaut, les unités des règles sont divisés en dixièmes. Si vous utilisez des unités de mesure fractionnaires dans la cellule **DrawingScale,** Visio divise la distance en unités suivantes : 
+Vous pouvez spécifier des unités de mesure fractionnaires dans la cellule **DrawingScale** afin d’affecter le nombre de sous-sections de règle Visio dans la fenêtre de dessin. Par défaut, les unités des règles sont divisés en dixièmes. Si vous utilisez des unités de mesure fractionnaires dans la cellule **DrawingScale,** Visio divise la distance en l’une des suivantes : 
   
 - Huitièmes  *pour visInchFrac*  et  *visMileFrac* 
     
@@ -90,7 +90,7 @@ Dans les formules, vous pouvez exprimer des unités de mesure pour les nombres m
   
 |**Pour définir des unités multidimensionnelles**|**Utilisez cette abréviation**|**Constante d’automation**|
 |:-----|:-----|:-----|
-| Propriétés  <br/> | LASER  <br/> |**visAcre (36)** <br/> |
+| Parc  <br/> | LASER  <br/> |**visAcre (36)** <br/> |
 | Centimeters  <br/> | CM. CARRE, CM CARRE, CM.^2, CM^2  <br/> |**visCentimeters (69)** <br/> |
 | Pieds  <br/> | PI. CARRE, PI CARRE, PIEDS^2, PI^2  <br/> |**visFeet (66)** <br/> |
 | Domaine  <br/> | HECTARES, HECTARE, HA., HA  <br/> |**visHectare (37)** <br/> |
@@ -162,7 +162,7 @@ _L’indicateur de_ paramètre est l’une des lettres suivantes (majuscules ou 
 |:-----|:-----|:-----|
 | a, A  <br/> | Angle  <br/> | =5[deg,A]  <br/> |
 | d, D  <br/> | Drawing  <br/> | =5[in,D]  <br/> |
-| e, E  <br/> | Duration  <br/> | =5[eh,E]  <br/> |
+| e, E  <br/> | Durée  <br/> | =5[eh,E]  <br/> |
 | p, P  <br/> | Page  <br/> | =5[in,P]  <br/> |
 | t, T  <br/> | Type  <br/> | =5[pt,T]  <br/> |
    
@@ -178,7 +178,7 @@ Le tableau ci-dessous présente les unités de mesure par défaut avec les param
 |:-----|:-----|
 |**visDrawingUnits** <br/> |Unités de la cellule DrawingScale de la page ou de la forme de base contenant la cellule.  <br/> |
 |**visPageUnits** <br/> |Unités sélectionnées dans la zone **Unités de mesure** de l’onglet **Propriétés de la page** de la boîte de dialogue **Mise en page** (sous l’onglet **Création**, cliquez sur la flèche **Mise en page**).  <br/> |
-|**visTypeUnits** <br/> |Unités sélectionnées dans  la zone de texte sous Affichage sous l’onglet  Avancé de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, puis sur  **Options).**   <br/> |
+|**visTypeUnits** <br/> |Unités sélectionnées dans la zone  de  texte sous Affichage sous l’onglet Avancé  de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, puis sur **Options).**   <br/> |
 |**visAngleUnits** <br/> |Unités sélectionnées dans la zone **Angle** de la section **Affichage** de l’onglet **Avancé** de la boîte de dialogue **Options Visio**.  <br/> |
 |**visDurationUnits** <br/> |Unités sélectionnées dans la zone **Durée** de la section **Affichage** sous l’onglet **Avancé** de la boîte de dialogue **Options Visio**.  <br/> |
    

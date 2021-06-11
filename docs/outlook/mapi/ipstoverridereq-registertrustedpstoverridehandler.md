@@ -35,7 +35,7 @@ HRESULT RegisterTrustedPSTOverrideHandler (
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pwzDllPath_
   

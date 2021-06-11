@@ -60,7 +60,7 @@ typedef struct _DTBLCOMBOBOX
    
  **ulFlags**
   
-> Masque de bits d’indicateurs utilisés pour désigner le format du filtre de chaîne de caractères. L’indicateur suivant peut être définie :
+> Masque de bits d’indicateurs utilisé pour désigner le format du filtre de chaîne de caractères. L’indicateur suivant peut être définie :
     
 MAPI_UNICODE 
   
@@ -82,13 +82,13 @@ MAPI_UNICODE
 
 Une structure **DTBLCOMBOBOX** décrit une zone de liste déroulante composée d’une liste et d’un champ de sélection. La liste présente les informations à partir des lesquelles un utilisateur peut sélectionner, et le champ de sélection affiche la sélection actuelle. Le champ de sélection est un contrôle d’édition qui peut également être utilisé pour entrer du texte qui n’est pas déjà dans la liste. 
   
-Les deux membres de balise de propriété fonctionnent ensemble pour coordonner l’affichage de la liste avec le contrôle d’édition. Lorsque MAPI affiche la zone de liste déroulante pour la première fois, il appelle la méthode **OpenProperty** de l’implémentation **IMAPIProp** associée à la table d’affichage pour récupérer la table représentée par le membre **ulPRTableName.** Cette table contient une colonne contenant les valeurs de la propriété représentée par le membre **ulPRPropertyName.** Par conséquent, cette colonne doit être du même type que la propriété **ulPRPropertyName** et les deux colonnes doivent être des chaînes de caractères. 
+Les deux membres de balise de propriété fonctionnent ensemble pour coordonner l’affichage de liste avec le contrôle d’édition. Lorsque MAPI affiche la zone de liste déroulante pour la première fois, il appelle la méthode **OpenProperty** de l’implémentation **IMAPIProp** associée à la table d’affichage pour récupérer la table représentée par le membre **ulPRTableName.** Cette table contient une colonne contenant les valeurs de la propriété représentée par le membre **ulPRPropertyName.** Par conséquent, cette colonne doit être du même type que la propriété **ulPRPropertyName** et les deux colonnes doivent être des chaînes de caractères. 
   
-Les valeurs de la colonne sont affichées dans la section liste de la zone de liste déroulante. Par conséquent, **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) n’est pas une balise de propriété valide pour **ulPRPropertyName**. Lorsqu’un utilisateur sélectionne l’une des lignes ou entre de nouvelles données dans la zone de texte, la propriété **ulPRPropertyName** est définie sur la valeur sélectionnée ou entrée. 
+Les valeurs de la colonne sont affichées dans la section de liste de la zone de liste déroulante. Par conséquent, **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) n’est pas une balise de propriété valide pour **ulPRPropertyName**. Lorsqu’un utilisateur sélectionne l’une des lignes ou entre de nouvelles données dans la zone de texte, la propriété **ulPRPropertyName** est définie sur la valeur sélectionnée ou entrée. 
   
 Pour afficher une valeur initiale pour le contrôle d’édition, MAPI appelle [IMAPIProp::GetProps](imapiprop-getprops.md) pour récupérer les valeurs de propriété du tableau d’affichage. Si l’une des propriétés récupérées correspond à la propriété représentée par le membre **ulPRPropertyName,** sa valeur devient la valeur initiale. 
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

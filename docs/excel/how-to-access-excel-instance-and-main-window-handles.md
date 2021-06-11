@@ -1,5 +1,5 @@
 ---
-title: Accéder à l’instance Excel et aux poignées de fenêtre principale
+title: Accès Excel instance et de la fenêtre principale
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,19 +16,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32310758"
 ---
-# <a name="access-excel-instance-and-main-window-handles"></a>Accéder à l’instance Excel et aux poignées de fenêtre principale
+# <a name="access-excel-instance-and-main-window-handles"></a>Accès Excel instance et de la fenêtre principale
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Pour programmer dans l’environnement Windows, vous devez parfois connaître le handle d’instance Microsoft Excel ou le handle de fenêtre principale. Par exemple, ces poignées sont utiles lorsque vous créez et affichez des boîtes de dialogue Windows personnalisées.
+Pour programmer dans l’environnement Windows, vous devez parfois connaître la Microsoft Excel d’instance ou le handle de fenêtre principale. Par exemple, ces poignées sont utiles lorsque vous créez et affichez des boîtes de dialogue Windows personnalisées.
   
 Il existe deux fonctions api C XLL uniquement qui permettent d’accéder à ces poignées : la fonction [xlGetInst](xlgetinst.md) et la fonction [xlGetHwnd,](xlgethwnd.md) respectivement. Dans Win32, tous les handles sont des integers 32 bits. Toutefois, lorsque **la xlOPER** a été conçue, Windows était un système 16 bits. Par conséquent, la structure n’est autorisée que pour les poignées 16 bits. Dans Win32, lorsqu’elles sont appelées avec **Excel4** ou **Excel4v,** les fonctions **xlGetInst** et **xlGetHwnd** ne retournent que la partie basse de la poignée 32 bits complète. 
   
-Dans Excel 2007 et les versions ultérieures, lorsque ces fonctions sont appelées avec [Excel12](excel4-excel12.md) ou [Excel12v,](excel4v-excel12v.md)la **xlOPER12** renvoyée contient la poignée 32 bits complète. 
+Dans Excel 2007 et versions ultérieures, lorsque ces fonctions sont appelées avec [Excel12](excel4-excel12.md) ou [Excel12v,](excel4v-excel12v.md)la **xlOPER12** renvoyée contient la poignée 32 bits complète. 
   
-L’obtention de la poignée d’instance complète est simple dans n’importe quelle version d’Excel, car elle est transmise au **DllMain** de rappel Windows , qui est appelé lors du chargement de la DLL. Si vous enregistrez cette poignée d’instance dans une variable globale, vous n’avez jamais besoin d’appeler la **fonction xlGetInst.** 
+L’obtention de la poignée d’instance complète est simple dans n’importe quelle version de Excel, car elle est transmise au **DllMain** de rappel Windows , qui est appelé lors du chargement de la DLL. Si vous enregistrez cette poignée d’instance dans une variable globale, vous n’avez jamais besoin d’appeler la **fonction xlGetInst.** 
   
-## <a name="obtaining-the-main-excel-handle-in-excel-2003-and-earlier"></a>Obtention du handle Excel principal dans Excel 2003 et les éditions antérieures
+## <a name="obtaining-the-main-excel-handle-in-excel-2003-and-earlier"></a>Obtention du handle Excel main dans Excel 2003 et les antérieures
 
 Pour obtenir le handle Excel principal dans Excel 2003 et les versions 32 bits antérieures, vous devez d’abord appeler la fonction **xlGetHwnd** pour obtenir le mot faible du handle réel. Ensuite, vous devez itérer la liste des fenêtres de niveau supérieur pour rechercher une correspondance avec le mot faible renvoyé. Le code suivant illustre la technique. 
   

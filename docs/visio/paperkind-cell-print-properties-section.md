@@ -24,7 +24,7 @@ Indique le type de papier sur lequel imprimer la page.
 
 Ce paramètre correspond au paramètre Taille du papier de  la boîte de dialogue Configuration de l’impression (sous  l’onglet Création, cliquez sur la flèche Mise en **page,** puis sous l’onglet Configuration de l’impression, cliquez sur le bouton Installation).    
   
-Les valeurs numériques de cette cellule sont m mappés à des constantes (préfixées par DMPAPER) définies pour les sélections de papier dans le fichier Microsoft Windows wingdi.h. 
+Les valeurs numériques de cette cellule sont m mappés à des constantes (préfixées par DMPAPER) définies pour les sélections de papier dans le fichier wingdi.h de Microsoft Windows. 
   
 Pour obtenir une référence à la cellule PaperKind par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

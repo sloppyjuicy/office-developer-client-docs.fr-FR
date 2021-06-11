@@ -42,7 +42,7 @@ ms.locfileid: "33408844"
     
 - [Pi Function (Access custom web app)](pi-function-access-custom-web-app.md)
     
-- [Power Function (Access custom web app)](power-function-access-custom-web-app.md)
+- [Power Function (Application web personnalisée Access)](power-function-access-custom-web-app.md)
     
 - [Rand Function (Access custom web app)](rand-function-access-custom-web-app.md)
     

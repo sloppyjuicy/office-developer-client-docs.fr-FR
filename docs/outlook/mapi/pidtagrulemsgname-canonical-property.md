@@ -32,7 +32,7 @@ Contient le nom d’une règle étendue.
 |Propriétés associées :  <br/> |PR_RULE_MSG_NAME  <br/> |
 |Identificateur :  <br/> |0x65EC  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Rules  <br/> |
+|Domaine :  <br/> |Règles  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -40,7 +40,7 @@ Contient le nom d’une règle étendue.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   

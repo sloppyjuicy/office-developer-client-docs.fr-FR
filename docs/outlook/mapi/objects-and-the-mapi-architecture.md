@@ -25,7 +25,7 @@ L’illustration suivante montre où chacun des objets MAPI s’inscrit dans l�
   
 **Couches d’objets dans MAPI**
   
-![Couches d’objet dans les couches](media/amapi_38.gif "objet MAPI dans MAPI")
+![Couches d’objet dans les couches](media/amapi_38.gif "de l’objet MAPI dans MAPI")
   
 ## <a name="see-also"></a>Voir aussi
 

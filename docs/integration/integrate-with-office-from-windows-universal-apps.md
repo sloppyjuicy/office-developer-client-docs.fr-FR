@@ -71,7 +71,7 @@ Votre application doit gérer toutes les communications avec votre service, y co
   
 Le tableau suivant répertorie les paramètres à définir pour gérer les interactions entre votre application et Office.
   
-|**Paramètre**|**Description**|
+|**Parameter**|**Description**|
 |:-----|:-----|
 |[ReadActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Définissez **BeforeAccess** pour autoriser votre application à mettre à jour le fichier avant de l'envoyer à Office.  <br/> |
 |[WriteActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Définissez **ReadOnly** pour faire en sorte que le fichier soit en lecture seule. Définissez **AfterWrite** pour vous assurer que votre application sera déclenchée par l'élément CacheFileUpdater lorsqu'Office aura terminé d'utiliser le fichier.  <br/><br/>**REMARQUE :** si vous ne définissez pas **AfterWrite**, votre application ne sera pas notifiée des modifications, ce qui signifie que les modifications de l’utilisateur seront locales uniquement.           |

@@ -40,7 +40,7 @@ Le modèle InfoPath fourni par l'espace de noms [Microsoft.Office.InfoPath](http
 
 Chacun des 12 événements ont un objet **EventArgs** associé à l'événement transmis au gestionnaire d'événements afin que l'événement fournisse des informations d'état et d'autres fonctionnalités qui peuvent être utilisées dans le code du gestionnaire d'événements. Le tableau suivant recense les événements InfoPath et les objets **EventArgs** associés, ainsi qu'une brève description des fonctionnalités fournies par les propriétés et les méthodes de l'objet. Pour plus d'informations sur les propriétés et les méthodes spécifiques de l'objet, cliquez sur le nom de l'objet **EventArgs** dans le tableau, puis cliquez sur le lien Membres dans la rubrique. 
   
-|**Événement**|**Classe EventsArgs**|**Description**|
+|**Event**|**Classe EventsArgs**|**Description**|
 |:-----|:-----|:-----|
 |**Clicked** <br/> |[ClickedEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ClickedEventArgs.aspx) <br/> |Obtient l'ID du contrôle.  <br/> Obtient un objet **XPathNavigator** placé sur le nœud XML le plus au centre du document XML sous-jacent du formulaire qui contient le contrôle **Bouton**.  <br/> |
 |**ContextChanged** <br/> |[ContextChangedEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ContextChangedEventArgs.aspx) <br/> |Obtient le type de modification de contexte qui a été effectué au moment où l'événement s'est produit.  <br/> Obtient une valeur indiquant si l'événement de modification de contexte s'est produit en réponse à l'annulation ou au rétablissement d'une opération.   <br/> Obtient une référence à un élément **XPathNavigator** placé sur le nœud du contexte qui a déclenché l'événement.   <br/> |

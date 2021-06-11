@@ -18,7 +18,7 @@ ms.locfileid: "33406450"
 ---
 # <a name="x-cell-controls-section"></a>X, cellule (section Controls)
 
-Représente la coordonnée  *x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales. 
+Représente la  *coordonnée x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales. 
   
 ## <a name="remarks"></a>Remarques
 

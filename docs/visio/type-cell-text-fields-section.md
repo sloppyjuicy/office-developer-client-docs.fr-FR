@@ -23,7 +23,7 @@ Indique un type de données pour la valeur du champ de texte.
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Chaîne.  <br/> |
-|2   <br/> |Nombre. Inclut les valeurs de date, d'heure, de durée ainsi que les valeurs monétaires, les échelles, les cotes et les angles. Entrez un modèle de format dans la cellule Format.  <br/> |
+|2  <br/> |Nombre. Inclut les valeurs de date, d'heure, de durée ainsi que les valeurs monétaires, les échelles, les cotes et les angles. Entrez un modèle de format dans la cellule Format.  <br/> |
 |5   <br/> |Valeur de date ou d'heure. Affiche les jours, les mois et les années ou les secondes, les minutes et les heures ou encore une date et une heure en même temps. Entrez un modèle de format dans la cellule Format.  <br/> |
 |6   <br/> |Valeur de durée. Affiche le temps écoulé. Entrez un modèle de format dans la cellule Format.  <br/> |
 |7   <br/> |Valeur monétaire. Utilise les paramètres régionaux actuels de votre système d'exploitation. Entrez un modèle de format dans la cellule Format.  <br/> |
@@ -36,7 +36,7 @@ Pour obtenir une référence à la cellule Type par un nom dans une autre formul
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Fields.Type[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Fields.Type[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Type par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

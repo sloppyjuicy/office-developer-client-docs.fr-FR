@@ -45,9 +45,9 @@ Permet aux serveurs de formulaires de recevoir des notifications de visionneuses
    
 ## <a name="remarks"></a>Remarques
 
-Les serveurs de formulaires utilisent un objet de sink de conseil de formulaire pour implémenter **IMAPIFormAdviseSink** au lieu de l’inclure avec leur objet de formulaire. Par conséquent, les visionneuses de formulaire doivent s’attendre à un appel qui a échoué à la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) d’un formulaire pour obtenir un pointeur vers cette interface. 
+Les serveurs de formulaires utilisent un objet sink de conseil de formulaire pour implémenter **IMAPIFormAdviseSink** au lieu de l’inclure avec leur objet de formulaire. Par conséquent, les visionneuses de formulaire doivent s’attendre à un appel qui a échoué à la méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) d’un formulaire pour obtenir un pointeur vers cette interface. 
   
-Les serveurs de formulaires appellent la méthode [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) d’une visionneuse pour s’inscrire aux notifications. Un pointeur vers leur **implémentation IMAPIFormAdviseSink** est inclus en tant que paramètre. 
+Les serveurs de formulaire appellent la méthode [IMAPIViewContext::SetAdviseSink](imapiviewcontext-setadvisesink.md) d’une visionneuse pour s’inscrire aux notifications. Un pointeur vers leur **implémentation IMAPIFormAdviseSink** est inclus en tant que paramètre. 
   
 ## <a name="see-also"></a>Voir aussi
 

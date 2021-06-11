@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 7fc438ad-ae26-3632-3444-371537eaecb3
-description: Microsoft InfoPath prend en charge le déplacement de modèles de formulaires d’un emplacement à un autre, leur envoi sous forme de pièce jointe à un message électronique et la création de modèles de formulaires De confiance totale signés ou installés numériquement.
+description: Microsoft InfoPath prend en charge le déplacement de modèles de formulaires d’un emplacement à un autre, leur envoi sous forme de pièce jointe à un message électronique et la création de modèles de formulaires Confiance totale signés ou installés numériquement.
 ms.openlocfilehash: 799f2b19bfc4daa4a177d789a811d20ca09e7153
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "32299852"
 ---
 # <a name="security-levels-email-deployment-and-remote-form-templates"></a>Niveaux de sécurité, déploiement de messagerie et modèles de formulaire distants
 
-Microsoft InfoPath prend en charge le déplacement de modèles de formulaires d’un emplacement à un autre, leur envoi sous forme de pièce jointe à un message électronique et la création de modèles de formulaires De confiance totale signés ou installés numériquement.
+Microsoft InfoPath prend en charge le déplacement de modèles de formulaires d’un emplacement à un autre, leur envoi sous forme de pièce jointe à un message électronique et la création de modèles de formulaires Confiance totale signés ou installés numériquement.
   
 ## <a name="security-levels"></a>Niveaux de sécurité
 
@@ -142,15 +142,15 @@ Tous les formulaires créés dans le concepteur InfoPath peuvent être envoyés 
     
 4. Une fois terminé, cliquez sur **Envoyer**. Le formulaire et le modèle seront joints au message.
     
-## <a name="email-deployment-restricted-domain-and-full-trust-form-templates"></a>Déploiement de messagerie électronique : modèles de formulaires restreints, de domaine et de confiance totale
+## <a name="email-deployment-restricted-domain-and-full-trust-form-templates"></a>Déploiement de courrier électronique : modèles de formulaires restreints, de domaine et de confiance totale
 
-Le déploiement par courrier électronique de modèles de formulaires restreints permet d’ouvrir des formulaires dynamiques sans connexion de données depuis n’importe où. Les destinataires peuvent ouvrir des modèles de formulaire envoyés sous forme de pièces jointes de courrier électronique directement à partir de Microsoft Outlook 2010 ou depuis l’endroit où le destinataire a enregistré la pièce jointe. De plus, Outlook 2010 permet aux utilisateurs de modifier les formulaires directement dans le message.
+Le déploiement par courrier électronique de modèles de formulaires restreints permet d’ouvrir des formulaires dynamiques sans connexion de données depuis n’importe où. Les destinataires peuvent ouvrir des modèles de formulaire envoyés sous forme de pièces jointes de courrier électronique directement à partir Microsoft Outlook 2010 ou depuis l’endroit où le destinataire a enregistré la pièce jointe. De plus, Outlook 2010 permet aux utilisateurs de modifier les formulaires directement dans le message.
   
 Les modèles de formulaire avec le niveau de confiance Domaine doivent être ouverts à partir de leur emplacement publié, mais en publiant dans une liste de destinataires de courrier dans l’Assistant Publication, ils peuvent être envoyés en tant que pièces jointes à un message électronique. Lorsque la pièce jointe est ouverte, elle fonctionne comme un lien vers l'emplacement de publication effectif du modèle. Le modèle de formulaire qui se trouve à cet emplacement est ce qui est effectivement ouvert dans l'éditeur InfoPath.
   
-L’utilisation d’un modèle de formulaire au niveau du domaine envoyé en tant que pièce jointe de courrier électronique ressemble à tout autre type de document ; par exemple, un document Microsoft Excel ou un document Microsoft Word. Il suffit à l'utilisateur de cliquer sur le formulaire pour l'ouvrir et l'utiliser. Par ailleurs, tous les avantages des mises à jour du niveau Domaine sont accessibles aux utilisateurs.
+L’utilisation d’un modèle de formulaire au niveau du domaine envoyé en tant que pièce jointe de courrier électronique ressemble à tout autre type de document ; par exemple, un Microsoft Excel ou un document Microsoft Word document. Il suffit à l'utilisateur de cliquer sur le formulaire pour l'ouvrir et l'utiliser. Par ailleurs, tous les avantages des mises à jour du niveau Domaine sont accessibles aux utilisateurs.
   
-Vous pouvez envoyer par courrier électronique des modèles de formulaire qui demandent l’accès Confiance totale, mais ces modèles doivent être signés, sinon ils ne seront pas autorisés à s’ouvrir. Les modèles de formulaire demandant un accès domaine ou restreint n’ont pas besoin d’être signés pour être envoyés en tant que pièce jointe d’un e-mail. InfoPath ne contrôle ni ne vérifie la signature, même si le modèle est signé, sauf pour vérifier s'il peut être mis à jour automatiquement. Vous pouvez signer numériquement un modèle de formulaire de type Domaine ou Restreint et continuer à disposer de la capacité de mise à jour automatique. Dans ce cas, la signature numérique empêche l'affichage de tout message d'avertissement de conflit en cache.
+Vous pouvez envoyer par courrier électronique des modèles de formulaire qui demandent l’accès Confiance totale, mais ces modèles doivent être signés ou ne seront pas autorisés à s’ouvrir. Les modèles de formulaire demandant un accès domaine ou restreint n’ont pas besoin d’être signés pour être envoyés en tant que pièce jointe d’un e-mail. InfoPath ne contrôle ni ne vérifie la signature, même si le modèle est signé, sauf pour vérifier s'il peut être mis à jour automatiquement. Vous pouvez signer numériquement un modèle de formulaire de type Domaine ou Restreint et continuer à disposer de la capacité de mise à jour automatique. Dans ce cas, la signature numérique empêche l'affichage de tout message d'avertissement de conflit en cache.
   
 ## <a name="sharing-forms-by-email-message-or-from-a-common-shared-location"></a>Partage de formulaires par message électronique ou à partir d’un emplacement partagé commun
 
@@ -200,7 +200,7 @@ L'exemple suivant montre de quelle manière un modèle de formulaire mis à jour
     
 7. Demandez-leur ensuite de vous renvoyer le formulaire après l'avoir rempli.
     
-8. Enregistrez de nouveau le formulaire sur le site web qui exécute SharePoint Foundation 2010 et resserre le lien du formulaire à l’aide de l’option **Relinker** les documents à cette bibliothèque dans la page Paramètres de la bibliothèque de **formulaires.** 
+8. **Enregistrez** de nouveau le formulaire sur le site web qui exécute SharePoint Foundation 2010 et resserre le lien du formulaire à l’aide de l’option **Reconnecter** les documents à cette bibliothèque dans la page Paramètres bibliothèque de formulaires. 
     
 ## <a name="signature-verification-failure"></a>Échec de vérification de signature
 

@@ -21,7 +21,7 @@ Représente une personne sur le réseau social.
   
 ## <a name="members"></a>Members
 
-Le tableau suivant indique les membres qui sont disponibles sur l’interface **ISocialPerson.** 
+Le tableau suivant indique les membres disponibles sur l’interface **ISocialPerson.** 
   
 |**Name**|**Type de membre**|**Description**|
 |:-----|:-----|:-----|
@@ -34,9 +34,9 @@ Le tableau suivant indique les membres qui sont disponibles sur l’interface **
    
 ## <a name="remarks"></a>Remarques
 
-Un fournisseur Outlook Social Connector (OSC) doit implémenter cette interface pour communiquer avec l’OSC.
+Un fournisseur Outlook Social Connector (OSC) doit implémenter cette interface pour communiquer avec OSC.
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Interfaces de fournisseur Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
+- [Outlook Interfaces de fournisseur de connecteurs sociaux](outlook-social-connector-provider-interfaces.md)
 

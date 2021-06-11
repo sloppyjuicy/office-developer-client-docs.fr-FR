@@ -19,7 +19,7 @@ ms.locfileid: "32303730"
 
 Les rubriques dans cette section fournissent des informations sur la création de modèles de formulaires comportant une logique métier écrite en code managé (Visual Basic ou C#) sur base des membres de l'espace de noms [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) . 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Mise en route du développement de modèles de formulaire à l'aide de code](getting-started-developing-form-templates-with-code.md)
   

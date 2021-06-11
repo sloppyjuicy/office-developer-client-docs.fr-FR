@@ -40,7 +40,7 @@ Pour générer un champ List-Subscribe'en-tête, les clients doivent définir la
   
 Pour définir la valeur de propriétés liées au serveur comme celles-ci, les clients MIME doivent écrire les champs d’en-tête comme indiqué dans le tableau suivant.
   
-|**Propriété**|**Nom de champ d’en-tête préféré**|**Autre nom de champ d’en-tête**|
+|**Property**|**Nom de champ d’en-tête préféré**|**Autre nom de champ d’en-tête**|
 |:-----|:-----|:-----|
 |**PidTagListSubscribe** <br/> |List-Subscribe  <br/> |X-List-Subscribe  <br/> |
    

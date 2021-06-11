@@ -57,13 +57,13 @@ Cette propriété peut avoir l’une des valeurs suivantes :
 |Recall_S courrier électronique  <br/> |0x0000010C  <br/> |
 |Recall_F courrier électronique  <br/> |0x0000010D  <br/> |
 |Suivi du courrier électronique  <br/> |0x0000010E  <br/> |
-|Courrier en dehors du bureau  <br/> |0x0000011B  <br/> |
+|Courrier électronique Office courrier électronique non envoyé  <br/> |0x0000011B  <br/> |
 |Rappeler le courrier  <br/> |0x0000011C  <br/> |
 |Courrier suivi  <br/> |0x00000139  <br/> |
 |Contact  <br/> |0x00000200  <br/> |
 |Liste de distribution  <br/> |0x00000201  <br/> |
 |Note rouge, Bleu  <br/> |0x00000300  <br/> |
-|Note rouge, vert  <br/> |0x00000301  <br/> |
+|Note sticky, vert  <br/> |0x00000301  <br/> |
 |Note ressoyante, rose  <br/> |0x00000302  <br/> |
 |Note rouge, jaune  <br/> |0x00000303  <br/> |
 |Note rouge, blanc  <br/> |0x00000304  <br/> |
@@ -78,7 +78,7 @@ Cette propriété peut avoir l’une des valeurs suivantes :
 |Annulation  <br/> |0x00000408  <br/> |
 |Mise à jour d’informations  <br/> |0x00000409  <br/> |
 |Mise à jour de tâche/tâche  <br/> |0x00000500  <br/> |
-|Tâche périodique non résignée  <br/> |0x00000501  <br/> |
+|Tâche périodique non assignée  <br/> |0x00000501  <br/> |
 |Tâche de l’affectation  <br/> |0x00000502  <br/> |
 |Tâche de l’assigneur  <br/> |0x00000503  <br/> |
 |Demande de tâche  <br/> |0x00000504  <br/> |
@@ -92,7 +92,7 @@ Cette propriété peut avoir l’une des valeurs suivantes :
 |Réponse de la tâche de journal  <br/> |0x00000607  <br/> |
 |Journal Note  <br/> |0x00000608  <br/> |
 |Télécopie de journal  <br/> |0x00000609  <br/> |
-|Appel téléphonique de journal  <br/> |0x0000060A  <br/> |
+|Appel de journal Téléphone journal  <br/> |0x0000060A  <br/> |
 |Tâche de journal  <br/> |0x0000060B  <br/> |
 |Lettre de journal  <br/> |0x0000060C  <br/> |
 |Journal Microsoft Office Word  <br/> |0x0000060D  <br/> |
@@ -111,7 +111,7 @@ Cette propriété peut avoir l’une des valeurs suivantes :
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   

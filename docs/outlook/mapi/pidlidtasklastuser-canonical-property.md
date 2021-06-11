@@ -37,7 +37,7 @@ Nomme l’utilisateur le plus récent qui était le propriétaire de la tâche.
    
 ## <a name="remarks"></a>Remarques
 
-Avant qu’un client envoie une demande de tâche, il définit cette propriété sur le nom de l’expéditeur de la tâche. Avant qu’un client envoie une acceptation de tâche, il définit cette propriété sur le nom de la personne à qui la tâche a été assignée. Avant qu’un client envoie un rejet de tâche, il définit cette propriété sur le nom de l’assigneur de tâche.
+Avant qu’un client envoie une demande de tâche, il définit cette propriété sur le nom de l’expéditeur de la tâche. Avant qu’un client envoie une acceptation de tâche, il définit cette propriété sur le nom de la personne à qui la tâche est assignée. Avant qu’un client envoie un rejet de tâche, il définit cette propriété sur le nom de l’assigneur de tâche.
   
 ## <a name="related-resources"></a>Ressources connexes
 

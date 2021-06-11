@@ -24,7 +24,7 @@ ms.locfileid: "33408242"
 > [!NOTE]
 > L’action **DéclencherErreur** est disponible uniquement dans les macros de données. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 **L’action RaiseError a** l’argument suivant. 
   

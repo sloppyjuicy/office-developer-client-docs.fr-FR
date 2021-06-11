@@ -36,7 +36,7 @@ Met à jour le type de propriété d’une balise de propriété avec une valeur
 CHANGE_PROP_TYPE (ulPropTag, ulPropType)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   

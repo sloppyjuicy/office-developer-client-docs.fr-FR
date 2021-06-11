@@ -23,11 +23,11 @@ Lorsque vous implémentez votre serveur de formulaires, vous devez avoir une pro
   
 Votre fichier de configuration de formulaire contient une liste des propriétés que votre serveur de formulaires expose pour que les applications clientes l’utilisent, mais il ne doit pas s’agit de la liste complète des propriétés utilisées par votre serveur de formulaires. Les applications clientes utilisent généralement les propriétés exposées pour permettre aux utilisateurs de trier des messages dans un dossier ou de personnaliser leurs interfaces d’une manière ou d’une autre.
   
-MAPI possède un grand ensemble de propriétés prédéfinie qui suffisent pour la plupart des applications. Toutefois, il peut se passer qu’une classe de message personnalisée nécessite une propriété que MAPI ne définit pas. Vous pouvez utiliser des propriétés personnalisées pour étendre l’ensemble de propriétés mapi prédéfinis pour toutes les informations spéciales que votre serveur de formulaires doit prendre en charge.
+MAPI possède un grand ensemble de propriétés prédéfinie qui suffisent pour la plupart des applications. Toutefois, dans certains cas, une classe de message personnalisée a besoin d’une propriété que MAPI ne définit pas. Vous pouvez utiliser des propriétés personnalisées pour étendre l’ensemble prédéféré MAPI des informations spéciales que votre serveur de formulaires doit prendre en charge.
   
 Vous pouvez utiliser l’une des méthodes suivantes pour définir des propriétés personnalisées :
   
-- Choisissez un nom pour la propriété et utilisez la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir une balise de propriété pour cette propriété. [L’interface IMAPIProp](imapipropiunknown.md) par le biais de laquelle vous appelez cette méthode provient du pointeur [IMessage](imessageimapiprop.md) qui est transmis au serveur de formulaire lors de la création du message. Notez que le nom de la propriété doit être une chaîne de caractères larges. 
+- Choisissez un nom pour la propriété et utilisez la méthode [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir une balise de propriété pour elle. [L’interface IMAPIProp](imapipropiunknown.md) par le biais de laquelle vous appelez cette méthode provient du pointeur [IMessage](imessageimapiprop.md) qui est transmis au serveur de formulaire lors de la création du message. Notez que le nom de la propriété doit être une chaîne de caractères larges. 
     
 - Définissez vous-même une balise de propriété personnalisée. Les balises de propriété personnalisée doivent se trouver dans la plage 0x6800 à 0x7BFF. Les propriétés de cette plage sont spécifiques aux classes de message.
     

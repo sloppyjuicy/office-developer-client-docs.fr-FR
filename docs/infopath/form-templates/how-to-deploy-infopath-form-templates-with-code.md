@@ -73,13 +73,13 @@ Pour plus de contrôle sur les autorisations accordées au code managé exécut�
     
     Le modèle de formulaire est compilé et l' **Assistant Publication** démarre. Suivez les étapes dans l' **Assistant Publication** pour déployer votre formulaire. Pour plus d'informations sur l'utilisation de l' **Assistant Publication**, recherchez « Publication d'un modèle de formulaire » dans l'aide d'InfoPath.
     
-3. Effectuez la procédure décrite dans la section « Affectation d’une confiance totale à des formulaires à une URL ou à une UNC spécifique » de la section Configurer les paramètres de sécurité pour les modèles de [formulaires](how-to-configure-security-settings-for-form-templates-with-code.md) avec code
+3. Effectuez la procédure décrite dans la section « Affectation d’une confiance totale à des formulaires à une URL ou à une UNC spécifique » de la rubrique [Configure Security Paramètres for Form Templates with Code](how-to-configure-security-settings-for-form-templates-with-code.md)
     
 ## <a name="see-also"></a>Voir aussi
 
 #### <a name="tasks"></a>Tâches
 
-[Configurer les paramètres de sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md)
+[Configurer l’Paramètres sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md)
 
 
 [À propos du modèle de sécurité pour les modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md)

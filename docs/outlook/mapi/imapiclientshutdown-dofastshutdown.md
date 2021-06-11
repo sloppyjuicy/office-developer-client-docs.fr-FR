@@ -35,7 +35,7 @@ HRESULT DoFastShutdown ();
 
 S_OK
   
-> Le sous-système MAPI a indiqué aux fournisseurs MAPI chargés que le client MAPI se quitte immédiatement et que les fournisseurs MAPI sont prêts pour la sortie du client.
+> Le sous-système MAPI a indiqué aux fournisseurs MAPI chargés que le client MAPI quitte immédiatement et que les fournisseurs MAPI sont prêts pour la sortie du client.
     
 MAPI_E_NO_SUPPORT
   
@@ -43,7 +43,7 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-Pour éviter la perte de données suite à l’arrêt rapide d’un client MAPI, les clients MAPI doivent appeler les méthodes [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) et **IMAPIClientShutdown::D oFastShutdown** en fonction du résultat S_OK renvoyé par le sous-système MAPI dans la méthode [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Pour plus d’informations, voir [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).
+Pour éviter la perte de données suite à l’arrêt rapide d’un client MAPI, les clients MAPI doivent appeler les méthodes [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) et **IMAPIClientShutdown::D oFastShutdown** basées sur le résultat S_OK renvoyé par le sous-système MAPI dans la méthode [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md) Pour plus d’informations, voir [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).
   
 ## <a name="see-also"></a>Voir aussi
 

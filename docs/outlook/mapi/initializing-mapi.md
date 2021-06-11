@@ -25,7 +25,7 @@ Toutes les applications clientes qui utilisent les bibliothèques MAPI doivent a
   
 - MAPI_NT_SERVICE
     
-    Définissez l MAPI_NT_SERVICE si votre client est implémenté en tant que service Windows. Si votre client est un service Windows et que vous ne définissez pas cet indicateur, MAPI ne le reconnaîtra pas en tant que service. 
+    Définissez l MAPI_NT_SERVICE si votre client est implémenté en tant que service Windows client. Si votre client est un service Windows et que vous ne définissez pas cet indicateur, MAPI ne le reconnaîtra pas en tant que service. 
     
 - MAPI_MULTITHREAD_NOTIFICATIONS
     
@@ -35,7 +35,7 @@ Toutes les applications clientes qui utilisent les bibliothèques MAPI doivent a
     
     Définissez l MAPI_NO_COINT de sorte que **MAPIInitialize** n’essaie pas d’initialiser COM avec un appel à [CoInitialize](https://msdn.microsoft.com/library/ms886303.aspx). Si une structure MAPIINIT_0 est transmise à **MAPIInitialize** avec _ulFlags_ définie sur MAPI_NO_COINIT, MAPI suppose que COM **a** déjà été initialisé et ignore l’appel à **CoInitialize**.
     
-Si MAPI_MULTITHREAD_NOTIFICATIONS’indicateur n’est pas passé, MAPI crée la fenêtre de notification sur le thread qui a été utilisé pour votre premier appel **MAPIInitialize.** MAPI crée la fenêtre de notification sur un thread distinct si MAPI_MULTITHREAD_NOTIFICATIONS est transmis : un thread dédié à la gestion des notifications. MAPI attend du thread utilisé pour créer la fenêtre de notification masquée : 
+Si MAPI_MULTITHREAD_NOTIFICATIONS’indicateur n’est pas passé, MAPI crée la fenêtre de notification sur le thread qui a été utilisé pour votre premier appel **MAPIInitialize.** MAPI crée la fenêtre de notification sur un thread distinct si MAPI_MULTITHREAD_NOTIFICATIONS est transmis , un thread dédié à la gestion des notifications. MAPI attend du thread utilisé pour créer la fenêtre de notification masquée : 
   
 - Avoir une boucle de message.
     
@@ -51,7 +51,7 @@ MAPI recommande que les types d’applications clientes suivants utilisent un th
   
 - Tous les clients multithread.
     
-- Services Windows à thread unique et applications console Win32.
+- Les services de Windows thread unique et les applications console Win32.
     
 - Clients à thread unique qui n’ont pas besoin d’utiliser leur thread principal pour la notification.
     

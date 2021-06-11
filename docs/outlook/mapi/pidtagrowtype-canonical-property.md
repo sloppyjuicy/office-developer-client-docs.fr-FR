@@ -36,7 +36,7 @@ Contient une valeur qui indique le type d’une ligne dans un tableau.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété apparaît uniquement dans les tables des matières. Une catégorie n’existe que lorsqu’elle possède des éléments.
+Cette propriété apparaît uniquement sur les tables des matières. Une catégorie n’existe que lorsqu’elle possède des éléments.
   
 Cette propriété peut avoir exactement l’une des valeurs suivantes :
   
@@ -50,7 +50,7 @@ TBL_EMPTY_CATEGORY
     
 TBL_EXPANDED_CATEGORY 
   
-> La catégorie est étendue . L’interface utilisateur l’affiche généralement avec le signe moins ( - ) en face de celle-ci.
+> La catégorie est étendue . l’interface utilisateur l’affiche généralement avec le signe moins ( - ) à côté de celle-ci.
     
 TBL_COLLAPSED_CATEGORY 
   

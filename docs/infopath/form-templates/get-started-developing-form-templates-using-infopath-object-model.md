@@ -19,7 +19,7 @@ ms.locfileid: "33408053"
 
 Cette section fournit des informations sur la manière de démarrer la création de modèles de formulaires avec code managé qui fonctionnent avec le modèle objet compatible InfoPath 2003 fourni par les membres de l'espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - Créer un modèle de formulaire à l’aide du modèle objet [InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md): fournit des informations et des étapes pour créer des modèles de formulaire qui contiennent une logique métier qui fonctionne avec le modèle objet compatible InfoPath 2003.
     
@@ -27,7 +27,7 @@ Cette section fournit des informations sur la manière de démarrer la création
     
 - Tâches courantes pour le développement de modèles de formulaire à l’aide du modèle objet [InfoPath 2003](common-tasks-for-developing-form-templates-using-infopath-object-model.md): vous permet de trouver rapidement les réponses aux questions courantes sur le développement de modèles de formulaires avec une logique métier qui fonctionne avec le modèle objet compatible InfoPath 2003.
     
-- Utilisez les membres [Microsoft.Office.Interop.InfoPath.SemiTrust](how-to-use-microsoft-office-interop-infopath-semitrust-members.md)qui ne sont pas compatibles avec InfoPath 2003 : explique comment utiliser de nouveaux membres du modèle objet qui ont été ajoutés à l’espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) dans Office InfoPath 2007 et InfoPath 2010. 
+- [Utilisez Microsoft. Office.Interop.InfoPath.SemiTrust Members That Are Not Compatible with InfoPath 2003](how-to-use-microsoft-office-interop-infopath-semitrust-members.md): explique comment travailler avec les nouveaux membres du modèle objet qui ont été ajoutés à l’espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) dans Office InfoPath 2007 et InfoPath 2010. 
     
 ## <a name="related-sections"></a>Sections connexes
 

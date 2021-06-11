@@ -23,7 +23,7 @@ Cette section explique comment créer un compl?ment COM InfoPath.
     
 ## <a name="related-sections"></a>Sections connexes
 
-- Développement de modèles de formulaire [InfoPath](https://msdn.microsoft.com/library/b43ada73-349d-498f-a8bb-e8fd5020d207%28Office.15%29.aspx)avec code : décrit comment créer des projets pour des modèles de formulaire InfoPath dont la logique métier est écrite en code géré (Visual Basic ou C#) par rapport aux membres de l’espace de noms [Microsoft.Office.InfoPath.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 
+- Développement de [modèles](https://msdn.microsoft.com/library/b43ada73-349d-498f-a8bb-e8fd5020d207%28Office.15%29.aspx)de formulaire InfoPath avec code : décrit comment créer des projets pour des modèles de formulaire InfoPath dont la logique métier est écrite en code géré (Visual Basic ou C#) par rapport aux membres de [Microsoft.Office. Espace de noms InfoPath.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 
     
 - Développement de modèles de formulaires à l’aide du modèle objet [InfoPath 2003](https://msdn.microsoft.com/library/c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b%28Office.15%29.aspx): décrit comment créer des projets pour des modèles de formulaire InfoPath dont la logique métier est écrite en code géré (Visual Basic ou C#) par rapport aux membres du modèle objet compatible InfoPath 2003 fourni par l’espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) 
     

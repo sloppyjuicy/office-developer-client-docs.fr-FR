@@ -35,7 +35,7 @@ HRESULT ExtractProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -77,7 +77,7 @@ Contrairement à la méthode [ITnef::AddProps,](itnef-addprops.md) qui place en 
   
  **ExtractProps est** pris en charge uniquement pour les objets ouverts avec l’indicateur TNEF_DECODE pour la fonction **OpenTnefStream** ou [OpenTnefStreamEx.](opentnefstreamex.md) 
   
-L’implémentation TNEF signale des problèmes de codage de flux TNEF sans arrêter **le processus ExtractProps.** La structure [STnefProblemArray](stnefproblemarray.md) renvoyée dans  _lpProblems_ indique quels attributs TNEF ou propriétés MAPI, le cas contraire, n’ont pas pu être traitées. La valeur renvoyée dans le membre **scode** de l’une des structures **STnefProblem** contenues dans **STnefProblemArray** indique le problème spécifique. Le fournisseur ou la passerelle peut fonctionner sur l’hypothèse que toutes les propriétés ou attributs pour lesquels **ExtractProps** ne retourne pas de rapport de problème ont été correctement traitées. 
+L’implémentation TNEF signale les problèmes de codage de flux TNEF sans arrêter **le processus ExtractProps.** La structure [STnefProblemArray](stnefproblemarray.md) renvoyée dans  _lpProblems_ indique quels attributs TNEF ou propriétés MAPI, le cas contraire, n’ont pas pu être traitées. La valeur renvoyée dans le membre **scode** de l’une des structures **STnefProblem** contenues dans **STnefProblemArray** indique le problème spécifique. Le fournisseur ou la passerelle peut fonctionner sur l’hypothèse que toutes les propriétés ou attributs pour lesquels **ExtractProps** ne retourne pas de rapport de problème ont été correctement traitées. 
   
 > [!NOTE]
 > Si une propriété dans le bloc d’encapsulation MAPI ne peut pas être traitée et laisse le flux non fiable pendant le décodage d’un flux TNEF, le décodage du bloc d’encapsulation est arrêté et un problème est signalé. Le tableau de problèmes pour ce type de problème contient 0L pour le membre **ulPropTag,** ou pour le membre `attMAPIProps` `attAttachment` **ulAttribute,** et MAPI_E_UNABLE_TO_COMPLETE pour le membre **scode.** Notez que le décodage du flux n’est pas arrêté, mais simplement le décodage du bloc d’encapsulation MAPI. Le décodage de flux se poursuit avec le bloc d’attributs suivant. 

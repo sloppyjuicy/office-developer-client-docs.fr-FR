@@ -38,7 +38,7 @@ Contient le nom du compte du destinataire.
 
 Ces propriétés fournissent des informations d’identification et d’accès pour un destinataire. Elles sont définies par le destinataire et leur organisation.
   
-Ces propriétés contiennent généralement le nom de messagerie du destinataire, c’est-à-dire le composant final de l’adresse de messagerie, qui identifie de manière unique le destinataire dans l’organisation locale. Le nom de l’e-mail correspond au nom unique X.400, qui est destiné à être un nom court garanti pour être unique dans un domaine de messagerie donné.
+Ces propriétés contiennent généralement le nom de messagerie du destinataire, c’est-à-dire le composant final de l’adresse de messagerie, qui identifie de manière unique le destinataire dans l’organisation locale. Le nom de courrier électronique correspond au nom unique X.400, qui est destiné à être un nom court garanti pour être unique dans un domaine de messagerie donné.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Ces propriétés contiennent généralement le nom de messagerie du destinataire
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

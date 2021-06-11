@@ -27,7 +27,7 @@ Certains conteneurs de carnet d’adresses peuvent prendre en charge une fonctio
   
 1. Définissez une propriété pour chacun de vos critères de recherche.
     
-2. Dans la section du code de la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) de votre conteneur qui gère la propriété **PR_SEARCH:** 
+2. Dans la section de code de la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) de votre conteneur qui gère la **propriété PR_SEARCH:** 
     
 1. Vérifiez que le client demande l’interface **IMAPIContainer.** Si une interface inappropriée est demandée, échouez et renvoyez MAPI_E_INTERFACE_NOT_SUPPORTED. 
     

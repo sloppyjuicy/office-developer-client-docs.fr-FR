@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251412
 localization_priority: Normal
 ms.assetid: 2b6c5375-c543-ff2f-f20a-6d92fd65717a
-description: Renvoie la date représentée par l’année, le mois et le jour formatés en fonction du style de date courte dans les paramètres régionaux du système. Les valeurs de l’année, du mois et du jour reflètent le calendrier grégorien.
+description: Renvoie la date représentée par l’année, le mois et le jour formatés en fonction du style de date courte dans les Paramètres du système. Les valeurs de l’année, du mois et du jour reflètent le calendrier grégorien.
 ms.openlocfilehash: 0175c1f06ec3dbdf89774759546c65994d38105e
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "32360332"
 ---
 # <a name="date-function-visioshapesheet"></a>DATE Function (VisioShapeSheet)
 
-Renvoie la date représentée par l’année, le *mois* et le jour formatés en fonction du style de date courte dans les paramètres régionaux du système.  Les valeurs  *de l’année,* *du mois*  et du  *jour*  reflètent le calendrier grégorien. 
+Renvoie la date représentée par l’année, le mois et le jour formatés en fonction du style de date courte dans le Paramètres du système.   Les valeurs  *de l’année,* *du mois*  et du  *jour*  reflètent le calendrier grégorien. 
   
 ## <a name="syntax"></a>Syntaxe
 

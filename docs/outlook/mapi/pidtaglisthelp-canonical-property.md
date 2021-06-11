@@ -36,11 +36,11 @@ Contient la valeur du champ d’en-tête MIME (Multipurpose Internet Mail Extens
    
 ## <a name="remarks"></a>Remarques
 
-Pour générer un champ List-Help'en-tête, les  clients doivent définir la valeur de PR_LIST_HELP ou une propriété associée sur la valeur souhaitée. Les rédacteurs MIME doivent copier cette valeur dans le champ List-Help'en-tête. 
+Pour générer un List-Help d’en-tête, les  clients doivent définir la valeur de PR_LIST_HELP ou une propriété associée sur la valeur souhaitée. Les rédacteurs MIME doivent copier cette valeur dans le champ List-Help'en-tête. 
   
 Pour définir la valeur de ces propriétés liées au serveur de liste, les clients MIME doivent écrire les champs d’en-tête comme indiqué dans le tableau suivant :
   
-|**Propriété**|**Nom de champ d’en-tête préféré**|**Autre nom de champ d’en-tête**|
+|**Property**|**Nom de champ d’en-tête préféré**|**Autre nom de champ d’en-tête**|
 |:-----|:-----|:-----|
 |**PR_LIST_HELP** <br/> |List-Help  <br/> |X-List-Help  <br/> |
    
@@ -50,7 +50,7 @@ Pour définir la valeur de ces propriétés liées au serveur de liste, les clie
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

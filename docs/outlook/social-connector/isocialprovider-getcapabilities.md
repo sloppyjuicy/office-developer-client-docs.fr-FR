@@ -23,7 +23,7 @@ Obtient une chaîne qui décrit les fonctionnalités du fournisseur.
 HRESULT _stdcall GetCapabilities([out, retval] BSTR* result);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _result_
   
@@ -33,7 +33,7 @@ _result_
 
 La  _chaîne_ XML de résultat renvoyée doit être conforme à la définition de schéma de l’élément **capabilities,** tel que défini dans le schéma XML pour l’extensibilité du fournisseur OSC. 
   
-Le fournisseur doit retourner une chaîne  _de_ résultats pour permettre aux appels ultérieurs de l’OSC au fournisseur de fonctionner correctement. 
+Le fournisseur doit renvoyer une chaîne  _de_ résultats pour permettre aux appels ultérieurs de l’OSC au fournisseur de fonctionner correctement. 
   
 ## <a name="see-also"></a>Voir aussi
 

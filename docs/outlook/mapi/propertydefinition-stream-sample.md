@@ -44,7 +44,7 @@ Voici une analyse des exemples de données pour le flux PropertyDefinition :
     
   - VT : décalage 0xA, 2 octets : 0x8 (**VT_BSTR**).
     
-  - DispId : décalage 0xC, 4 octets : 0x0 (0).
+  - DispId : Décalage 0xC, 4 octets : 0x0 (0).
     
   - NmidNameLength : Décalage 0x10, 2 octets : 0xA (10).
     
@@ -62,7 +62,7 @@ Voici une analyse des exemples de données pour le flux PropertyDefinition :
       
     - Caractères : décalage 0x32, tableau de 0 chars. Chaîne ANSI vide.
     
-  - ValidationRuleANSI : offset 0x32, packedAnsiString stream.
+  - ValidationRuleANSI : Offset 0x32, PackedAnsiString stream.
     
     - Longueur : décalage 0x32, 1 0x0 (0).
       
@@ -102,7 +102,7 @@ Voici une analyse des exemples de données pour le flux PropertyDefinition :
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments et champs Outlook](outlook-items-and-fields.md)
+- [Outlook Éléments et champs](outlook-items-and-fields.md)
 - [Structures de flux](stream-structures.md)
 - [Structure de flux PropertyDefinition](propertydefinition-stream-structure.md)
 - [Structure de flux FieldDefinition](fielddefinition-stream-structure.md)

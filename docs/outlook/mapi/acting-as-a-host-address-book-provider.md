@@ -25,7 +25,7 @@ Un fournisseur d’hôte est un fournisseur de carnet d’adresses qui inclut de
   
 Lorsque votre fournisseur appelle **IMAPISupport::OpenTemplateID,** MAPI correspond au **MAPIUID** dans l’identificateur de modèle avec un **MAPIUID** enregistré par un fournisseur et appelle la méthode [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) du fournisseur. Le fournisseur étranger peut renvoyer un pointeur vers l’objet de propriété de votre fournisseur, vers sa propre implémentation d’objet de propriété ou vers une implémentation qui encapsule l’objet de votre fournisseur. Le pointeur renvoyé est placé dans le contenu du _paramètre lppMAPIPropNew._ 
   
-Votre fournisseur peut choisir d’appeler ou non **IMAPISupport::OpenTemplateID** avec l’indicateur FILL_ENTRY définie. Définissez cet indicateur lorsque le destinataire est créé ou qu’un long délai s’est écoulé depuis que votre fournisseur a actualisé les propriétés du destinataire. Une utilisation courante de l’indicateur FILL_ENTRY est de maintenir un destinataire dans votre fournisseur synchronisé avec l’original. L’implémentation de ce type de planification de synchronisation améliore les performances. 
+Votre fournisseur peut choisir d’appeler ou non **IMAPISupport::OpenTemplateID** avec l’indicateur FILL_ENTRY définie. Définissez cet indicateur lorsque le destinataire est créé ou qu’un certain temps s’est écoulé depuis que votre fournisseur a actualisé les propriétés du destinataire. Une utilisation courante de l’indicateur FILL_ENTRY est de maintenir un destinataire dans votre fournisseur synchronisé avec l’original. L’implémentation de ce type de planification de synchronisation améliore les performances. 
   
  **Pour maintenir la synchronisation d’un destinataire étranger**
   
@@ -33,7 +33,7 @@ Votre fournisseur peut choisir d’appeler ou non **IMAPISupport::OpenTemplateID
     
 2. Timestamp each call to [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). 
     
-3. Évaluez s’il est nécessaire d’effectuer une mise à jour complète en fonction de la durée écoulée depuis le dernier appel. Si une mise à jour complète est nécessaire, appelez **IMAPISupport::OpenTemplateID** avec l’FILL_ENTRY’indicateur. Si ce n’est pas nécessaire, ne définissez pas l’indicateur sur l’appel. 
+3. Évaluez s’il est nécessaire d’effectuer une mise à jour complète en fonction de la durée écoulée depuis le dernier appel. Si une mise à jour complète est nécessaire, appelez **IMAPISupport::OpenTemplateID** avec l’indicateur FILL_ENTRY’appel. Si ce n’est pas nécessaire, ne définissez pas l’indicateur sur l’appel. 
     
 Lorsqu’un client effectue une demande pour l’une des propriétés du destinataire copié, votre fournisseur peut choisir de gérer la demande elle-même ou d’utiliser le code fourni par le fournisseur étranger. Votre fournisseur peut s’attendre à ce que le fournisseur étranger intercepte la plupart, sinon la totalité, des appels vers **IMAPIProp,** à l’exception de [IMAPIProp::OpenProperty](imapiprop-openproperty.md). Un appel à **OpenProperty** demandant la **propriété PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) est toujours transmis à votre fournisseur.
   
@@ -41,7 +41,7 @@ Lorsqu’un client effectue une demande pour l’une des propriétés du destina
   
 1. Ouvrez le destinataire et appelez sa méthode [IMAPIProp::GetProps](imapiprop-getprops.md) pour récupérer la PR_TEMPLATEID **(** [PidTagTemplateid](pidtagtemplateid-canonical-property.md)). Si **GetProps échoue** parce **PR_TEMPLATEID** est indisponible, le fournisseur étranger ne prend pas en charge l’identificateur de modèle et le code associé pour ce destinataire. Votre fournisseur devra utiliser son implémentation du destinataire pour toutes les opérations de maintenance. 
     
-2. Si l’identificateur de modèle est renvoyé à partir de **GetProps,** passez-le et un pointeur vers l’implémentation **IMAPIProp** du destinataire dans un appel à la méthode **IMAPISupport::OpenTemplateID.** Définissez l’indicateur FILL_ENTRY si la plupart ou l’ensemble des propriétés du destinataire doivent être mises à jour, par exemple au moment de la création ou si elles n’ont pas été mises à jour pendant un certain temps. 
+2. Si l’identificateur de modèle est renvoyé par **GetProps,** passez-le et un pointeur vers l’implémentation **IMAPIProp** du destinataire dans un appel à la méthode **IMAPISupport::OpenTemplateID.** Définissez l’indicateur FILL_ENTRY si la plupart ou l’ensemble des propriétés du destinataire doivent être mises à jour, par exemple au moment de la création ou si elles n’ont pas été mises à jour pendant un certain temps. 
     
 3. Si **OpenTemplateID** renvoie l’implémentation **IMAPIProp** du fournisseur étranger, retournez au client un pointeur vers cette implémentation. 
     

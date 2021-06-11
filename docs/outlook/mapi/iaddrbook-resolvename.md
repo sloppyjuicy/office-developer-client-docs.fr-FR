@@ -36,7 +36,7 @@ HRESULT ResolveName(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -48,11 +48,11 @@ HRESULT ResolveName(
     
 AB_UNICODEUI
   
-> Indique que  _lpszNewEntryTitle est_ une chaîne UNICODE. 
+> Indique que  _lpszNewEntryTitle_ est une chaîne UNICODE. 
     
 MAPI_CACHE_ONLY
   
-> Utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> Utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
 MAPI_DIALOG 
   
@@ -86,11 +86,11 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent **la méthode ResolveName** pour lancer le processus de résolution de noms. Une entrée non résolue est une entrée qui n’a pas encore d’identificateur d’entrée ou **de PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Les clients et les fournisseurs de services appellent **la méthode ResolveName** pour lancer le processus de résolution de noms. Une entrée non résolue est une entrée qui n’a pas encore d’identificateur d’entrée **ou de PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
  **ResolveName** suit le processus suivant pour chaque entrée non résolue dans la liste d’adresses transmise dans _le paramètre lpAdrList._ 
   
-1. Si le type d’adresse du destinataire respecte le format d’une adresse SMTP ( _nom_ d’affichage @  _domaine.domaine_ de niveau supérieur ), **ResolveName** lui attribue un identificateur d’entrée unique. 
+1. Si le type d’adresse du destinataire respecte le format d’une adresse SMTP _(nom_ d’affichage @  _domain.top-niveau-domaine),_ **ResolveName** lui attribue un identificateur d’entrée unique. 
     
 2. Pour chaque conteneur de la **propriété PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)), **ResolveName** appelle la [méthode IABContainer::ResolveNames.](iabcontainer-resolvenames.md) **ResolveNames tente de** faire correspondre le nom complet de chaque destinataire non résolu avec un nom complet qui appartient à l’une de ses entrées. 
     
@@ -100,9 +100,9 @@ Les clients et les fournisseurs de services appellent **la méthode ResolveName*
     
 5. Si tous les conteneurs de la **propriété PR_AB_SEARCH_PATH** ont été appelés et qu’aucune correspondance n’a été trouvée, le destinataire reste non résolu. 
     
-Si un ou plusieurs destinataires ne sont pas résolus, **ResolveName** renvoie MAPI_E_NOT_FOUND. Si un ou plusieurs destinataires avaient une résolution ambiguë qui n’a pas pu être résolue avec une boîte de dialogue ou parce que l’indicateur MAPI_DIALOG n’a pas été définie, **ResolveName** renvoie MAPI_E_AMBIGUOUS_RECIP. Lorsque certains destinataires sont ambigus et que d’autres ne peuvent pas être résolus, **ResolveName** peut renvoyer l’une ou l’autre des valeurs d’erreur. 
+Si un ou plusieurs destinataires ne sont pas résolus, **ResolveName** renvoie MAPI_E_NOT_FOUND. Si un ou plusieurs destinataires avaient une résolution ambiguë qui n’a pas pu être résolue avec une boîte de dialogue ou parce que l’indicateur MAPI_DIALOG n’a pas été définie, **ResolveName** renvoie MAPI_E_AMBIGUOUS_RECIP. Lorsque certains destinataires sont ambigus et que certains ne peuvent pas être résolus, **ResolveName** peut renvoyer l’une ou l’autre des valeurs d’erreur. 
   
-Si un nom ne peut pas être résolu, le client peut créer une adresse unique avec un identificateur d’adresse et d’entrée spécialement mis en forme. Pour plus d’informations sur le format des identificateurs d’entrée uniques, voir [Identificateurs d’entrée uniques.](one-off-entry-identifiers.md) Pour plus d’informations sur le format des adresses one-off, voir [Adresses one-off.](one-off-addresses.md)
+Si un nom ne peut pas être résolu, le client peut créer une adresse unique avec un identificateur d’adresse et d’entrée spécialement mis en forme. Pour plus d’informations sur le format des identificateurs d’entrée uniques, voir Identificateurs d’entrée [uniques.](one-off-entry-identifiers.md) Pour plus d’informations sur le format des adresses one-off, voir [Adresses one-off.](one-off-addresses.md)
   
 MAPI prend en charge les chaînes de caractères Unicode pour **ADRLIST** et les nouveaux paramètres de titre d’entrée **pour ResolveName**; Si vous définissez l’MAPI_UNICODE, les propriétés suivantes sont renvoyées en tant que PT_UNICODE dans les structures [ADRENTRY](adrentry.md) : 
   

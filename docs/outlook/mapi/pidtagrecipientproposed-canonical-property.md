@@ -36,7 +36,7 @@ Indique si un participant à la réunion a répondu.
    
 ## <a name="remarks"></a>Remarques
 
-La valeur TRUE pour cette propriété indique que le participant a proposé une nouvelle date et/ou heure. La valeur FALSE ou l’absence de cette propriété signifie que le participant n’a pas encore répondu ou que la réponse la plus récente du participant n’a pas inclus de nouvelle proposition de date/heure. Cette valeur ne doit pas être TRUE pour les participants d’une série périodique.
+La valeur TRUE pour cette propriété indique que le participant a proposé une nouvelle date et/ou une nouvelle heure. La valeur FALSE ou l’absence de cette propriété signifie que le participant n’a pas encore répondu ou que la réponse la plus récente du participant n’a pas inclus de nouvelle proposition de date/heure. Cette valeur ne doit pas être TRUE pour les participants d’une série périodique.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ La valeur TRUE pour cette propriété indique que le participant a proposé une 
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

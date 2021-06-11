@@ -38,15 +38,15 @@ Votre exécution de cette fonction doit renvoyer 1 (**ent**).
   
 ## <a name="remarks"></a>Remarques
 
-Microsoft Excel appelle **xlAutoOpen chaque** fois que le XLL est activé. Le XLL est activé dans les situations suivantes : 
+Microsoft Excel **appelle xlAutoOpen** chaque fois que le XLL est activé. Le XLL est activé dans les situations suivantes : 
   
 - Au début d’une session Excel si elle était active dans la dernière session Excel qui s’est terminée normalement.
     
-- S’il est chargé pendant une session Excel.
+- S’il est chargé au cours d Excel session.
     
 - Un XLL peut être chargé de plusieurs manières :
     
-- En choisissant **Ouvrir** dans le menu **Fichier** (où la version d’Excel prend en charge cette méthode de chargement de XL). 
+- En choisissant **Ouvrir** dans **le** menu Fichier (où la version de Excel prend en charge cette méthode de chargement des XL). 
     
 - À l’aide du Gestionnaire de compléments.
     

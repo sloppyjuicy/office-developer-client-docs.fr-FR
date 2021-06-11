@@ -35,7 +35,7 @@ HRESULT Address(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulUIParam_
   
@@ -61,7 +61,7 @@ La **méthode IMAPISupport::Address** est implémentée pour les objets de prise
   
 Chaque destinataire est décrit dans une structure [ADRENTRY](adrentry.md) incluse dans la structure [ADRLIST](adrlist.md) pointée par le _paramètre lppAdrList._ La structure **ADRENTRY** contient un tableau de valeurs de propriété de destinataire, l’une d’entre elles est le type du destinataire ou la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). Cette structure **ADRLIST** peut être transmise à un client pour l’utiliser comme paramètre  _lpMods_ dans un appel à [IMessage::ModifyRecipients](imessage-modifyrecipients.md).
   
-Chaque destinataire de la structure **ADRLIST** peut être résolu, ce qui indique que l’une de ses valeurs de propriété est sa propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) ou non résolue, ce qui indique que la propriété **PR_ENTRYID est** manquante. 
+Chaque destinataire de la structure **ADRLIST** peut être résolu, ce qui indique que l’une de ses valeurs de propriété est sa propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) ou non résolue, ce qui indique que la propriété **PR_ENTRYID** est manquante. 
   
 En plus de **PR_ENTRYID,** les destinataires résolus incluent les propriétés suivantes :
   

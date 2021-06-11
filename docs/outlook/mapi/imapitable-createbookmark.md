@@ -33,7 +33,7 @@ BOOKMARK FAR * lpbkPosition
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpbkPosition_
   
@@ -47,7 +47,7 @@ S_OK
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
-> L’opération demandée n’a pas pu être terminée.
+> L’opération demandée n’a pas pu être achevée.
     
 ## <a name="remarks"></a>Remarques
 
@@ -61,7 +61,7 @@ En raison de la dépense de mémoire de la gestion des positions du curseur avec
   
 Parfois, un signet pointe vers une ligne qui n’est plus dans l’affichage Tableau. Si un appelant utilise un signet de ce type, déplacez le curseur sur la ligne visible suivante et arrêtez-le. 
   
-Lorsque l’appelant tente d’utiliser un signet qui pointe vers une ligne nonvisible parce qu’elle a été réduire, renvoyer MAPI_W_POSITION_CHANGED après le déplacement du signet. Vous pouvez repositionner le signet sur la ligne visible suivante à ce moment-là ou lorsque la réduction se produit dans la **méthode SetCollapseState.** Si vous déplacez le signet au moment où la ligne est réduire, vous devez conserver un bit dans le signet qui indique exactement quand le signet a été déplacé : depuis sa dernière utilisation ou s’il n’a jamais été utilisé depuis sa création. 
+Lorsque l’appelant tente d’utiliser un signet qui pointe vers une ligne nonvisible car elle a été réduire, renvoyer MAPI_W_POSITION_CHANGED après le déplacement du signet. Vous pouvez repositionner le signet sur la ligne visible suivante à ce moment-là ou lorsque la réduction se produit dans la **méthode SetCollapseState.** Si vous déplacez le signet au moment où la ligne est réduire, vous devez conserver un bit dans le signet qui indique exactement quand le signet a été déplacé : depuis sa dernière utilisation ou s’il n’a jamais été utilisé depuis sa création. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

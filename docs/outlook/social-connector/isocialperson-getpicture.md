@@ -23,7 +23,7 @@ Obtient un tableau d’octets qui contient la ressource d’image de la personne
 HRESULT _stdcall GetPicture([out, retval] SAFEARRAY(unsigned char)* picture);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _picture_
   
@@ -31,7 +31,7 @@ _picture_
     
 ## <a name="remarks"></a>Remarques
 
-Les ressources d’image prise en charge sont au format .bmp, .jpeg ou .png.
+Les ressources d’image .bmp, .jpeg ou au format .png pris en charge.
   
 ## <a name="see-also"></a>Voir aussi
 

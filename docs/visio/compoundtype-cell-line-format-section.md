@@ -21,9 +21,9 @@ Détermine le type composé de la ligne d’une forme.
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Simple  <br/> |
-|1   <br/> |Double  <br/> |
-|2   <br/> |Épaisseur fine  <br/> |
-|3   <br/> |Épaisseur fine  <br/> |
+|1  <br/> |Double  <br/> |
+|2  <br/> |Épaisseur fine  <br/> |
+|3  <br/> |Épaisseur fine  <br/> |
 |4   <br/> |Triple  <br/> |
    
 ## <a name="remarks"></a>Remarques
@@ -34,7 +34,7 @@ Pour obtenir une référence à la cellule **CompoundType** par un nom à partir
 |:-----|:-----|
 | Nom de cellule :  <br/> | CompoundType  <br/> |
    
-Pour obtenir une référence à la **cellule CompoundType** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule **CompoundType** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

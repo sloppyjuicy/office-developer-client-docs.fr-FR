@@ -39,7 +39,7 @@ Représente la date et l’heure de fin d’un rendez-vous.
 
 Cette propriété correspond à la propriété **dispidApptEndWhole** du rendez-vous dans Microsoft Office Outlook modèle objet. 
   
-Spécifie la date et l’heure de fin de l’événement ; Il doit être au temps universel coordonné (UTC) et doit être supérieur à la valeur de la propriété **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)). Pour une série périodique, la **propriété dispidApptEndWhole** est la date et l’heure de fin de la première instance en fonction de la récurrence. 
+Spécifie la date et l’heure de fin de l’événement ; Il doit être en temps universel coordonné (UTC) et doit être supérieur à la valeur de la propriété **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)). Pour une série périodique, la **propriété dispidApptEndWhole** est la date et l’heure de fin de la première instance en fonction de la récurrence. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

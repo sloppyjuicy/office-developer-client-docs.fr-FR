@@ -1,5 +1,5 @@
 ---
-title: Notice de copyright de référence auxiliaire d’Outlook
+title: Outlook copyright de référence auxiliaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32359891"
 ---
-# <a name="outlook-auxiliary-reference-copyright-notice"></a>Notice de copyright de référence auxiliaire d’Outlook
+# <a name="outlook-auxiliary-reference-copyright-notice"></a>Outlook copyright de référence auxiliaire
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation.
   

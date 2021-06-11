@@ -56,7 +56,7 @@ FLDSTATUS_TAGGED
   
 > Le dossier est balisé.
     
-Les fournisseurs de magasins de messages définissent cette propriété sur un dossier sur une ou plusieurs de ces valeurs et les clients interprètent l’état comme approprié pour leurs applications. Par exemple, un client peut utiliser l’état du dossier pour différencier visuellement les dossiers d’une table hiérarchique, en affichant les dossiers ayant le même état de la même manière. Les dossiers mis en surbrill plan peuvent être affichés dans la vidéo inversée, les dossiers balisés et les dossiers marqués pour suppression peuvent être affichés avec une icône significative et les dossiers masqués peuvent être masqués.
+Les fournisseurs de magasins de messages définissent cette propriété sur un dossier sur une ou plusieurs de ces valeurs et les clients interprètent l’état comme approprié pour leurs applications. Par exemple, un client peut utiliser l’état du dossier pour différencier visuellement les dossiers d’une table hiérarchique, en affichant les dossiers ayant le même état de la même manière. Les dossiers mis en surbrill plan peuvent être affichés dans une vidéo inversée, les dossiers balisés et les dossiers marqués pour suppression peuvent être affichés avec une icône significative et les dossiers masqués peuvent être masqués.
   
 Les bits 16 à 31 (« 0x10000 » à « 0x80000000 ») de cette propriété peuvent être utilisés par l’application cliente IPM. Tous les autres bits sont réservés à l’utilisation par MAPI ; Celles qui ne sont pas définies dans la liste précédente doivent être initialement définies sur zéro et ne pas être modifiées.
   
@@ -66,11 +66,11 @@ Les bits 16 à 31 (« 0x10000 » à « 0x80000000 ») de cette propriété peuve
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -41,7 +41,7 @@ Il existe plusieurs façons de récupérer le nom d’un profil au cours d’une
     
 3. Créez une restriction de propriété avec une structure [SPropertyRestriction](spropertyrestriction.md) pour faire correspondre PR_DEFAULT_PROFILE **(** [PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) avec la valeur TRUE.
     
-4. Appelez [IMAPITable::FindRow](imapitable-findrow.md) pour localiser la ligne dans la table de profils qui représente le profil par défaut. La **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) contient le nom du profil par défaut.
+4. Appelez [IMAPITable::FindRow](imapitable-findrow.md) pour localiser la ligne dans la table de profil qui représente le profil par défaut. La **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) contient le nom du profil par défaut.
     
  **Pour rechercher le nom du profil actuel**
   

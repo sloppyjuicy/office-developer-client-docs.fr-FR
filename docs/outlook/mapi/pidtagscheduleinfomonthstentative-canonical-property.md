@@ -38,7 +38,7 @@ Contient les mois marqués comme provisoires dans le message de libre/occupé.
 
 Le nombre de valeurs de cette propriété doit être entre zéro et le nombre de mois couverts par la plage de publication, qui est la période entre les propriétés **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) et **PR_FREEBUSY_PUBLISH_END** ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)).
   
-Chaque valeur de cette propriété est codée mois et année. Cette valeur est calculée à l’aide de l’expression « year × 16 + month », où l’année et le mois sont basés sur le calendrier grégorien. Les valeurs sont triées dans l’ordre croissant et sont codées au format little endian. Si un événement est réparti sur plusieurs mois ou plusieurs années, il doit y avoir une valeur pour chacun des mois qui se trouve dans la plage de publication. S’il n’existe aucun événement provisoire dans la plage de publication, cette propriété et **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) ne doivent pas être définies ou supprimées s’ils existent déjà. Sinon, cette propriété doit être définie.
+Chaque valeur de cette propriété est codée sur un mois et une année. Cette valeur est calculée à l’aide de l’expression « year × 16 + month », où l’année et le mois sont basés sur le calendrier grégorien. Les valeurs sont triées dans l’ordre croissant et sont codées au format little endian. Si un événement est réparti sur plusieurs mois ou plusieurs années, il doit y avoir une valeur pour chacun des mois qui se trouve dans la plage de publication. S’il n’existe aucun événement provisoire dans la plage de publication, cette propriété et **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) ne doivent pas être définies ou supprimées s’ils existent déjà. Sinon, cette propriété doit être définie.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Chaque valeur de cette propriété est codée mois et année. Cette valeur est c
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

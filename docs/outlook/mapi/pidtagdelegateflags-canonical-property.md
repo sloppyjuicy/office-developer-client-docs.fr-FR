@@ -32,7 +32,7 @@ Spécifie si un délégué peut afficher les objets de message privés du délé
 |Propriétés associées :  <br/> |PR_DELEGATE_FLAGS  <br/> |
 |Identificateur :  <br/> |0x686B  <br/> |
 |Type de données :  <br/> |PT_MV_LONG  <br/> |
-|Domaine :  <br/> |Message défini comme transmettable par la classe  <br/> |
+|Domaine :  <br/> |Message définissable par la classe de message  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -41,7 +41,7 @@ Chaque entrée de cette propriété doit être définie sur l’une des valeurs 
 |**Indicateur**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
 |HidePrivate  <br/> |0  <br/> |Le délégué ne doit pas être autorisé à afficher les objets de message privés.  <br/> |
-|ShowPrivate  <br/> |1   <br/> |Le délégué doit être autorisé à afficher les objets de message privés.  <br/> |
+|ShowPrivate  <br/> |1  <br/> |Le délégué doit être autorisé à afficher les objets de message privés.  <br/> |
    
 Cette propriété doit être définie dans l’objet d’informations du délégué. La valeur de « ShowPrivate » indique que le délégant souhaite rendre les objets de message privés visibles. Cette préférence s’applique à tous les dossiers pour lesquels le délégué a un rôle de réviseur, d’auteur ou d’éditeur.
   

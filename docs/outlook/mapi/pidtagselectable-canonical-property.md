@@ -25,7 +25,7 @@ ms.locfileid: "32359016"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient TRUE si l’entrée du tableau one-off peut être sélectionnée. 
+Contient TRUE si l’entrée de la table un-off peut être sélectionnée. 
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ Cette propriété est principalement utilisée pour la mise en forme visuelle d�
   
 Cette propriété s’applique uniquement à une table unique, et non à une table de hiérarchie de carnet d’adresses. 
   
-MAPI permet à un fournisseur de carnet d’adresses de grouper visuellement les éléments par deux moyens. Tout d’abord, certaines lignes peuvent fonctionner en tant qu’en-tête en étant désélectionnables. Ensuite, les éléments sélectionnables peuvent être en retrait par rapport à leurs titres à l’aide de la **propriété PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)). Cette propriété est utilisée dans ce regroupement pour indiquer si cet élément peut être sélectionné dans une liste pour créer une adresse unique. Par exemple, si un client possède plusieurs modèles de création d’adresses de télécopie, il peut les afficher comme suit : 
+MAPI permet à un fournisseur de carnet d’adresses de grouper visuellement les éléments par deux moyens. Tout d’abord, certaines lignes peuvent fonctionner en tant qu’en-tête en étant désélectionnables. Ensuite, les éléments sélectionnables peuvent être en retrait par rapport à leurs titres à l’aide de la **propriété PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md)). Cette propriété est utilisée dans ce regroupement pour indiquer si cet élément peut être sélectionné dans une liste pour créer une adresse unique. Par exemple, si un client possède plusieurs modèles pour la création d’adresses de télécopie, il peut les afficher comme suit : 
   
 Modèles FAX (profondeur 0, sélectionnable)
   
@@ -54,7 +54,7 @@ Modèles FAX (profondeur 0, sélectionnable)
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOABKT]](https://msdn.microsoft.com/library/cd5a3e78-1eeb-4a75-88eb-e82c8c96ff31%28Office.15%29.aspx)
   

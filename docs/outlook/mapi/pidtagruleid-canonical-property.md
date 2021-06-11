@@ -25,7 +25,7 @@ ms.locfileid: "32359492"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un identificateur unique que le serveur de messagerie génère pour chaque règle lors de sa première création. 
+Spécifie un identificateur unique que le serveur de messagerie génère pour chaque règle lors de la création de la règle. 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Spécifie un identificateur unique que le serveur de messagerie génère pour ch
    
 ## <a name="remarks"></a>Remarques
 
-Le client ne doit pas spécifier cette propriété lors de la création d’une règle, mais il doit la spécifier lors de la modification ou de la suppression d’une règle.
+Le client ne doit pas spécifier cette propriété lors de la création d’une règle, mais doit la spécifier lors de la modification ou de la suppression d’une règle.
   
 Lors de la suppression d’une règle, la seule propriété que le client doit transmettre **est PR_RULE_ID** et ne doit pas transmettre d’autre propriété. Le serveur doit ignorer les propriétés autres que cette propriété. Lors de l’ajout d’une règle, le client ne doit pas transmettre **PR_RULE_ID**, il doit passer les propriétés **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) et **PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)). Lors de la modification d’une règle, le client doit transmettre **PR_RULE_ID** et transmettre le reste des propriétés qui doivent être modifiées. 
   

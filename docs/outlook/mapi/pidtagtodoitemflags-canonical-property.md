@@ -41,8 +41,8 @@ Cette propriété est un champ de bits dans lequel chaque bit doit être défini
 ||||
 |:-----|:-----|:-----|
 |Valeur numérique  <br/> |Nom  <br/> |Description  <br/> |
-|Non présent  <br/> |N/A  <br/> |Non survolé  <br/> |
-|1   <br/> |todoTimeFlagged  <br/> |L’objet est marqué au moment de l’heure  <br/> |
+|Non présent  <br/> |S/O  <br/> |Non survolé  <br/> |
+|1  <br/> |todoTimeFlagged  <br/> |L’objet est marqué au moment de l’heure  <br/> |
 |8   <br/> |todoRecipientFlagged  <br/> |Ne doit être définie que sur un objet de brouillon de message, ce qui signifie que l’objet est marqué pour les destinataires.  <br/> |
    
 Tous les bits qui ne sont pas spécifiés dans le tableau sont réservés. Elles doivent être ignorées, mais doivent être conservées si elles sont définies.
@@ -53,7 +53,7 @@ Tous les bits qui ne sont pas spécifiés dans le tableau sont réservés. Elles
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   

@@ -21,7 +21,7 @@ ms.locfileid: "33408921"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Détermine si un fournisseur de magasins de dossiers personnels (PST) est configuré en tant que PST Microsoft SharePoint 2010.
+Détermine si un fournisseur de magasins de fichiers de dossiers personnels (PST) est configuré en tant que fournisseur microsoft SharePoint 2010 PST.
   
 |||
 |:-----|:-----|

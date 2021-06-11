@@ -28,7 +28,7 @@ Date de publication de cette référence : octobre 2012
 - [InfoPath Developer Center (éventuellement en anglais)](https://msdn.microsoft.com/office/aa905434.aspx)  
 - [Centre pour développeurs Microsoft Office](https://msdn.microsoft.com/office/default.aspx)
 - [Conventions de document pour les documents des développeurs Office](https://msdn.microsoft.com/office/aa905365.aspx)
-- [Accessibilité Microsoft](https://www.microsoft.com/ENABLE/)
+- [Accessibilité de Microsoft](https://www.microsoft.com/ENABLE/)
 
   
 

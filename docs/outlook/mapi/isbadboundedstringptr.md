@@ -36,7 +36,7 @@ BOOL IsBadBoundedStringPtr(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
@@ -44,7 +44,7 @@ BOOL IsBadBoundedStringPtr(
     
  _cchMax_
   
-> [in] Taille maximale de la chaîne, en chars. La fonction vérifie l’accès en lecture dans tous les caractères jusqu’au caractère null de fin de la chaîne ou jusqu’au nombre de caractères spécifié par ce paramètre, selon la valeur la plus petite. Si ce paramètre est zéro, la valeur de retour est zéro.
+> [in] Taille maximale de la chaîne, en chars. La fonction vérifie l’accès en lecture dans tous les caractères jusqu’au caractère null de fin de la chaîne, ou jusqu’au nombre de caractères spécifié par ce paramètre, selon la valeur la plus petite. Si ce paramètre est zéro, la valeur de retour est zéro.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

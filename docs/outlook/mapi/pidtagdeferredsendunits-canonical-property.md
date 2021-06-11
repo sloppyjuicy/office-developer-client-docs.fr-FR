@@ -42,9 +42,9 @@ Si elle est définie, cette propriété doit avoir l’une des valeurs suivantes
 |:-----|:-----|
 |**PidTagDeferredSendUnits** <br/> |Description  <br/> |
 |0  <br/> |Minutes, par exemple 60 secondes  <br/> |
-|1   <br/> |Heures, par exemple 60 x 60 secondes  <br/> |
-|2   <br/> |Jour, par exemple 24 x 60 x 60 secondes  <br/> |
-|3   <br/> |Semaine, par exemple 7 x 24 x 60 x 60 secondes  <br/> |
+|1  <br/> |Heures, par exemple 60 x 60 secondes  <br/> |
+|2  <br/> |Jour, par exemple 24 x 60 x 60 secondes  <br/> |
+|3  <br/> |Semaine, par exemple 7 x 24 x 60 x 60 secondes  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

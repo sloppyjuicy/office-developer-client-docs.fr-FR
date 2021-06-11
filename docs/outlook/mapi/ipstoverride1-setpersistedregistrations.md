@@ -31,7 +31,7 @@ HRESULT SetPersistedRegistrations(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pmval_
   
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les inscriptions persistantes peuvent nuire aux performances des applications, telles qu’Outlook et Windows Desktop Search, qui ouvrent des PST. Prenons en compte l’impact sur les performances lors de l’utilisation ou de l’extension de l’utilisation d’inscriptions persistantes.
+Les inscriptions persistantes peuvent nuire aux performances des applications, telles que Outlook et Windows Desktop Search, qui ouvrent des PST. Prenons en compte l’impact sur les performances lors de l’utilisation ou de l’extension de l’utilisation d’inscriptions persistantes.
   
 > [!IMPORTANT]
 > Cette méthode est implémentée pour Unicode uniquement. En outre, elle échouera de manière préemptive si l’un des chemins d’accès du tableau n’a pas d’extension de nom de fichier .dll. 

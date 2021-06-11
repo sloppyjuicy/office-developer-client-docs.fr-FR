@@ -36,9 +36,9 @@ Contient l’identificateur d’entrée de l’affichage par défaut d’un doss
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est l’identificateur d’entrée de l’affichage dossier qui doit être définie en tant qu’affichage initial. La propriété ne doit pas être définie si l’affichage « Normal » doit être utilisé comme affichage initial.
+Cette propriété est l’identificateur d’entrée de l’affichage dossier qui doit être définie comme affichage initial. La propriété ne doit pas être définie si l’affichage « Normal » doit être utilisé comme affichage initial.
   
-Une application cliente peut obtenir cette propriété au moment où elle ouvre le dossier et réalise des gains de performances significatifs. Cette propriété peut servir de raccourci pour obtenir l’affichage par défaut, au lieu d’ouvrir la table des matières associée et d’envoyer une restriction.
+Une application cliente peut obtenir cette propriété au moment où elle ouvre le dossier et réalise des gains de performances significatifs. Cette propriété peut être utilisée comme raccourci pour obtenir l’affichage par défaut, au lieu d’ouvrir la table des matières associée et d’envoyer une restriction.
   
 Une implémentation de fournisseur de services de la méthode [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md) peut copier cette propriété lorsqu’elle copie des dossiers. 
   

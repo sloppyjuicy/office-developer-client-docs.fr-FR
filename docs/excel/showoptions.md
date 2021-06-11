@@ -18,17 +18,17 @@ ms.locfileid: "33407696"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Affiche une boîte de dialogue modale pour collecter des informations auprès de l’utilisateur. Ce point d’entrée est appelé lorsqu’un utilisateur clique sur le bouton **Options** en dessous de  la zone de **type** cluster pour le connecteur de cluster sélectionné dans la boîte de dialogue **Options Excel** (dans la catégorie Avancé sous la section **Formules).** Les connecteurs de cluster sont chargés d’implémenter leur propre interface de boîte de dialogue d’options et de stocker les données associées dans le Registre ou ailleurs. Les options sont internes au connecteur de cluster. Excel ne les connaît pas. 
+Affiche une boîte de dialogue modale pour collecter des informations auprès de l’utilisateur. Ce point d’entrée est appelé lorsqu’un utilisateur clique sur le bouton **Options** en dessous de la zone  de **type** cluster pour le connecteur de cluster sélectionné dans la boîte de dialogue **Options Excel** (dans la catégorie Avancé sous la section **Formules).** Les connecteurs de cluster sont chargés d’implémenter leur propre interface de boîte de dialogue d’options et de stocker les données associées dans le Registre ou ailleurs. Les options sont internes au connecteur de cluster. Excel ne les connaît pas. 
   
 ```cpp
 int ShowOptions(HWND hWndParent)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _hWndParent_
   
-> Handle vers la fenêtre Excel.
+> Poignée vers la fenêtre Excel fenêtre.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

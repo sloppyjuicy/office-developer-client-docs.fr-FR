@@ -35,9 +35,9 @@ LPSTREAM FAR * ppstm
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
- _graphieFlags_
+ _nbFlags_
   
 > [out] Pointeur vers un masque de bits d’indicateurs qui contrôle la façon dont le texte du message doit être enregistré. L’indicateur suivant peut être définie :
     

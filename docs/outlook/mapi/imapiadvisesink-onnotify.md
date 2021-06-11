@@ -25,7 +25,7 @@ ms.locfileid: "33407360"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Répond à une notification en faisant une ou plusieurs tâches. Les tâches effectuées dépendent du type d’événement et de l’objet qui génère la notification. 
+Répond à une notification en effectuent une ou plusieurs tâches. Les tâches effectuées dépendent du type d’événement et de l’objet qui génère la notification. 
   
 ```cpp
 ULONG OnNotify(
@@ -34,7 +34,7 @@ ULONG OnNotify(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cNotif_
   
@@ -52,11 +52,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Le processus de notification démarre lorsqu’un client ou MAPI appelle la méthode **Advise** d’un fournisseur de services pour s’inscrire afin de recevoir une notification d’un type particulier pour un objet particulier. L’un des paramètres de la méthode **Advise** est un pointeur vers un objet de sink advise qui implémente l’interface [IMAPIAdviseSink.](imapiadvisesinkiunknown.md) Lorsqu’un événement se produit sur l’objet cible qui correspond à la notification enregistrée, le fournisseur de services, directement ou indirectement via MAPI, appelle la méthode **OnNotify** du sink de notification. 
+Le processus de notification démarre lorsqu’un client ou MAPI appelle la méthode **Advise** d’un fournisseur de services pour s’inscrire afin de recevoir une notification d’un type particulier pour un objet particulier. L’un des paramètres de la méthode **Advise** est un pointeur vers un objet de sink de conseil qui implémente l’interface [IMAPIAdviseSink.](imapiadvisesinkiunknown.md) Lorsqu’un événement se produit sur l’objet cible qui correspond à la notification enregistrée, le fournisseur de services, directement ou indirectement via MAPI, appelle la méthode **OnNotify** du sink de notification. 
   
-L’appel **à OnNotify** peut se produire pendant l’appel MAPI à l’origine de l’événement ou à un moment ultérieur. Sur les systèmes qui prendre en charge plusieurs threads d’exécution, **OnNotify** peut être appelé sur le même thread utilisé pour l’inscription ou sur un autre thread. Les clients peuvent s’assurer que l’appel **OnNotify** est effectué sur le même thread que celui utilisé pour appeler **Advise** en créant le sink de conseil qu’ils passent à **Advise** avec la fonction [HrThisThreadAdviseSink.](hrthisthreadadvisesink.md) 
+L’appel **à OnNotify** peut se produire pendant l’appel MAPI à l’origine de l’événement ou à un moment ultérieur. Sur les systèmes qui supportent plusieurs threads d’exécution, **OnNotify** peut être appelé sur le même thread utilisé pour l’inscription ou sur un autre thread. Les clients peuvent s’assurer que l’appel **OnNotify** est effectué sur le même thread que celui utilisé pour appeler **Advise** en créant le sink de conseil qu’ils passent à **Advise** avec la fonction [HrThisThreadAdviseSink.](hrthisthreadadvisesink.md) 
   
-Le  _paramètre lpNotifications_ pointe vers une ou plusieurs structures **NOTIFICATION** qui décrivent ce qui a changé au cours de l’événement. Il existe un type différent de structure **de NOTIFICATION** pour chaque type d’événement. 
+Le  _paramètre lpNotifications_ pointe vers une ou plusieurs structures **NOTIFICATION** qui décrivent ce qui a changé au cours de l’événement. Il existe un type différent de structure **de notification** pour chaque type d’événement. 
   
 Le tableau suivant répertorie les valeurs utilisées pour représenter les types d’événements possibles et les structures associées à chaque valeur :
   
@@ -85,7 +85,7 @@ Ne modifiez pas ou ne libérez pas la structure **de NOTIFICATION** transmise **
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque des modifications sont apportées à plusieurs objets, vous pouvez avertir un conseiller inscrit dans un seul appel à **OnNotify** ou dans plusieurs appels en fonction des contraintes de mémoire. Cela est vrai que les modifications soient le résultat d’un ou plusieurs appels de méthode. Par exemple, un appel à [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) peut affecter plusieurs messages et dossiers. En tant que fournisseur de magasins de messages, vous pouvez effectuer un appel à **OnNotify** avec un type d’événement **fnevObjectModified** pour le dossier cible ou de nombreux appels, un pour chacun d’eux affectant les messages. De même, si un client effectue des appels répétés à [IMAPIFolder::CreateMessage,](imapifolder-createmessage.md)ces appels peuvent être combinés en un événement **fnevObjectModified** pour le dossier ou séparés en événements **fnevObjectCreated** individuels pour chaque nouveau message. 
+Lorsque des modifications sont apportées à plusieurs objets, vous pouvez avertir un conseiller inscrit dans un seul appel à **OnNotify** ou dans plusieurs appels en fonction des contraintes de mémoire. Cela est vrai que les modifications soient le résultat d’un ou plusieurs appels de méthode. Par exemple, un appel à [IMAPIFolder::CopyMessages](imapifolder-copymessages.md) peut affecter plusieurs messages et dossiers. En tant que fournisseur de magasins de messages, vous pouvez effectuer un appel à **OnNotify** avec un type d’événement **fnevObjectModified** pour le dossier cible ou de nombreux appels, un pour chaque message. De même, si un client effectue des appels répétés à [IMAPIFolder::CreateMessage,](imapifolder-createmessage.md)ces appels peuvent être combinés en un événement **fnevObjectModified** pour le dossier ou séparés en événements **fnevObjectCreated** individuels pour chaque nouveau message. 
   
 Pour plus d’informations sur comment et quand générer des notifications, voir notification d’événement dans [MAPI](event-notification-in-mapi.md) et notification [d’événement de prise en charge.](supporting-event-notification.md) 
   

@@ -41,7 +41,7 @@ Contient une chaîne Unicode en cours d’interrogation dans la liste des adress
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Microsoft Exchange Server de protocole associées.
+> Fournit des références aux spécifications Microsoft Exchange Server protocole.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   

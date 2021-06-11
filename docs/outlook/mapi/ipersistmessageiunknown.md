@@ -53,7 +53,7 @@ Permet aux visionneuses de formulaire de gérer le stockage d’un formulaire et
 
 Tous les formulaires sont requis pour **implémenter l’interface IPersistMessage.** 
   
- **IPersistMessage** fonctionne de la même manière que l’interface OLE [IPersistStorage.](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) Pour plus d’informations, **voir les méthodes IPersistStorage.** 
+ **IPersistMessage** fonctionne de la même manière que l’interface OLE [IPersistStorage.](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) Pour plus d’informations, voir les **méthodes IPersistStorage.** 
   
 ## <a name="see-also"></a>Voir aussi
 

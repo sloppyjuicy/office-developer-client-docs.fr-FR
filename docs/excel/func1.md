@@ -28,11 +28,11 @@ L’exemple de fonction de feuille de calcul définie par l’utilisateur illust
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _px_ (**LPXLOPER**)
   
-Cet argument est ignoré et sert uniquement à déclencher l’appel de la fonction par Microsoft Excel.
+Cet argument est ignoré et sert uniquement à déclencher Microsoft Excel pour appeler la fonction.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 

@@ -29,7 +29,7 @@ Chaîne qui contient le nom du réseau social.
   
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs Outlook Social Connector (OSC) doivent localiser le nom du réseau social.
+Outlook Les fournisseurs OSC (Social Connector) doivent localiser le nom du réseau social.
   
 ## <a name="see-also"></a>Voir aussi
 

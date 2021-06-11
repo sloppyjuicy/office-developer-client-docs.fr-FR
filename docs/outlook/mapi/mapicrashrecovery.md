@@ -37,7 +37,7 @@ La **fonction MAPICrashRecovery** vérifie l’état de la mémoire partagée du
 void MAPICrashRecovery(ULONG ulFlags);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ulFlags_
   
@@ -53,7 +53,7 @@ _ulFlags_
 
 L’byte supérieur (0xFF000000) est réservé aux indicateurs de récupération d’incident spécifiques au fournisseur.
   
-Appelez **MAPICrashRecovery** avec les indicateurs **MAPICRASH \_ RECOVER** et **MAPICRASH_SYSTEM_SHUTDOWN** en réponse au message **WM_ENDSESSION** message. 
+Appelez **MAPICrashRecovery** avec les indicateurs  **MAPICRASH_SYSTEM_SHUTDOWN MAPICRASH \_** en réponse au message **WM_ENDSESSION** message. 
   
 ## <a name="see-also"></a>Voir aussi
 

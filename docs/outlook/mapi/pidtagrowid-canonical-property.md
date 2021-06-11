@@ -36,7 +36,7 @@ Contient un identificateur unique pour un destinataire dans une table de destina
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est une valeur temporaire qui n’est valide que pour la durée de vie de l’objet propriétaire de la table. Il s’affiche sous la direction d’une colonne de la table, mais n’est pas stocké.
+Cette propriété est une valeur temporaire qui n’est valide que pour la durée de vie de l’objet propriétaire de la table. Il apparaît en tant que colonne de la table, mais n’est pas stocké.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Cette propriété est une valeur temporaire qui n’est valide que pour la duré
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

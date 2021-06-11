@@ -28,7 +28,7 @@ HRESULT IOlkAccountManager::FreeMemory (
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pv_
   

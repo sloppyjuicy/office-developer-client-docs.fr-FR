@@ -25,7 +25,7 @@ ms.locfileid: "33408662"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-S’il est définie sur un rapport nondelivery, indique l’heure à l’heure de la nouvelle fois que le message a été envoyé.
+S’il est définie sur un rapport nondelivery, indique l’heure de la nouvelle fois que le message a été envoyé.
   
 |||
 |:-----|:-----|

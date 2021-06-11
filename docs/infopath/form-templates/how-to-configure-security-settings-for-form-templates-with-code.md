@@ -1,5 +1,5 @@
 ---
-title: Configurer les paramètres de sécurité pour les modèles de formulaires avec code
+title: Configurer l’Paramètres sécurité pour les modèles de formulaires avec code
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300158"
 ---
-# <a name="configure-security-settings-for-form-templates-with-code"></a>Configurer les paramètres de sécurité pour les modèles de formulaires avec code
+# <a name="configure-security-settings-for-form-templates-with-code"></a>Configurer l’Paramètres sécurité pour les modèles de formulaires avec code
 
 Vous pouvez personnaliser le jeu d'autorisations qui est appliqué à un modèle de formulaire InfoPath avec code managé en utilisant le composant logiciel enfichable Configuration .NET.
   
@@ -23,7 +23,7 @@ Le CLR (Common Language Runtime) utilisé par InfoPath recherche un groupe de co
   
 Pour que la stratégie de sécurité personnalisée définie à l'aide du composant logiciel enfichable Configuration .NET soit appliquée, elle doit être déployée sur tous les ordinateurs clients sur lesquels le modèle de formulaire sera exécuté.
   
-Pour plus d’informations sur le modèle de sécurité pour les modèles de formulaire InfoPath avec code géré, voir À propos du modèle de sécurité pour les modèles de [formulaires avec code](about-the-security-model-for-form-templates-with-code.md)
+Pour plus d’informations sur le modèle de sécurité pour les modèles de formulaire InfoPath avec code géré, voir À propos du modèle de sécurité pour les [modèles](about-the-security-model-for-form-templates-with-code.md) de formulaire avec code
   
 ## <a name="creating-a-code-group-for-infopath-form-templates"></a>Création d'un groupe de codes pour les modèles de formulaire InfoPath
 
@@ -108,7 +108,7 @@ Après avoir défini une stratégie de sécurité personnalisée pour les modèl
     
 4. Cliquez sur **Terminer** pour créer le package de déploiement. 
     
-5. Pour plus d’informations sur l’utilisation de l’outil de configuration .NET Framework, recherchez « .NET Framework Configuration Tool (Mscorcfg.msc) » sur le site web MSDN ou l’aide de Visual Studio.
+5. Pour plus d’informations sur l’utilisation de l’outil de configuration .NET Framework, recherchez l’aide de Visual Studio ou le site web MSDN pour « outil de configuration .NET Framework (Mscorcfg.msc) ».
     
 ## <a name="see-also"></a>Voir aussi
 

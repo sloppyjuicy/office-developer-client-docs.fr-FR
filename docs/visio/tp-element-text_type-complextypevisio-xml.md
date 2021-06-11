@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
-description: Spécifie le début d’une exécuter les propriétés d’onglets. La suite est définie à la fin du texte ou jusqu’à la balise suivante.
+description: Spécifie le début d’une utilisation des propriétés d’onglets. La suite est définie à la fin du texte ou jusqu’à la balise suivante.
 ms.openlocfilehash: dad7a3de715473a75c601c1e391c9d51fc1cab85
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34542974"
 ---
 # <a name="tp-element-text_type-complextype-visio-xml"></a>élément tp (Text_Type complexType) (Visio XML)
 
-Spécifie le début d’une exécuter les propriétés d’onglets. La suite est définie à la fin du texte ou jusqu’à la balise suivante.
+Spécifie le début d’une utilisation des propriétés d’onglets. La suite est définie à la fin du texte ou jusqu’à la balise suivante.
   
 ## <a name="element-information"></a>Informations sur l’élément
 

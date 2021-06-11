@@ -32,7 +32,7 @@ Contient les ID d’entrée de certains dossiers spéciaux.
 |Propriétés associées :  <br/> |PR_ADDITIONAL_REN_ENTRYIDS  <br/> |
 |Identificateur :  <br/> |0x36D8  <br/> |
 |Type de données :  <br/> |PT_MV_BINARY  <br/> |
-|Domaine :  <br/> |Application Outlook  <br/> |
+|Domaine :  <br/> |Outlook application  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -54,7 +54,7 @@ Les cinq premières entrées de cette propriété à valeurs multiples s’appli
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
@@ -66,7 +66,7 @@ Les cinq premières entrées de cette propriété à valeurs multiples s’appli
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
+> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

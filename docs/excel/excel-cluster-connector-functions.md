@@ -1,5 +1,5 @@
 ---
-title: Fonctions du connecteur de cluster Excel
+title: Excel Fonctions du connecteur de cluster
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,11 +14,11 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408585"
 ---
-# <a name="excel-cluster-connector-functions"></a>Fonctions du connecteur de cluster Excel
+# <a name="excel-cluster-connector-functions"></a>Excel Fonctions du connecteur de cluster
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Les DLL de connecteur de cluster Microsoft Excel 2013 doivent implémenter les fonctions décrites dans cette section.
+Microsoft Excel 2013 DLLs de connecteur de cluster doivent implémenter les fonctions décrites dans cette section.
   
 Les valeurs de retour mentionnées dans les rubriques de référence de cette section sont définies dans le SDK incluent le fichier xlcall.h.
   
@@ -26,7 +26,7 @@ Les valeurs de retour mentionnées dans les rubriques de référence de cette se
 
 Excel appelle des points d’entrée dans un connecteur de cluster pour transférer des appels de fonctions définies par l’utilisateur vers un cluster de calcul hautes performances et pour la gestion des sessions de cluster.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [CallUDF](calludf.md)
   

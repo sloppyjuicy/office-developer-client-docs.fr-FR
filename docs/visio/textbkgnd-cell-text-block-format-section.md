@@ -24,7 +24,7 @@ Détermine la couleur d'arrière-plan du texte dans une forme.
 
 La cellule TextBkgnd peut avoir une valeur comprise entre 0 et 24, ou 255. Les valeurs 0 et 255 *(visTxtBlklOpaque)* indiquent toutes deux un arrière-plan de texte transparent. 
   
-Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL plus un : par exemple RVB(255,127,255) +1. La valeur d’une couleur personnalisée est sa couleur RVB, et RVB( *r, g, b*)+1, plutôt qu’un nombre, s’affiche dans la fenêtre Feuille ShapeSheet. Lorsqu'elles sont utilisées dans les opérations numériques, les couleurs personnalisées ont des valeurs de 25 et supérieures. 
+Pour entrer une couleur personnalisée, utilisez la fonction RVB ou TSL plus un : par exemple RVB(255,127,255) +1. La valeur d’une couleur personnalisée est sa couleur RVB, et RVB( *r, g, b*)+1, au lieu d’un nombre, s’affiche dans la fenêtre Feuille ShapeSheet. Lorsqu'elles sont utilisées dans les opérations numériques, les couleurs personnalisées ont des valeurs de 25 et supérieures. 
   
 Vous pouvez définir la transparence de la couleur du texte d'arrière-plan dans la cellule TextBkgndTrans.
   

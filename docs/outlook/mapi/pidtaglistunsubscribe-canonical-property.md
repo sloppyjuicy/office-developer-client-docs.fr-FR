@@ -40,7 +40,7 @@ Pour générer un champ List-Unsubscribe'en-tête, les clients doivent définir 
   
 Pour définir la valeur de ces propriétés liées au serveur de liste, les clients MIME doivent écrire les champs d’en-tête comme indiqué dans le tableau suivant.
   
-|**Propriété**|**Nom de champ d’en-tête préféré**|**Autre nom de champ d’en-tête**|
+|**Property**|**Nom de champ d’en-tête préféré**|**Autre nom de champ d’en-tête**|
 |:-----|:-----|:-----|
 |**PR_LIST_UNSUBSCRIBE** <br/> |List-Unsubscribe  <br/> |X-List-Unsubscribe  <br/> |
    
@@ -50,7 +50,7 @@ Pour définir la valeur de ces propriétés liées au serveur de liste, les clie
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

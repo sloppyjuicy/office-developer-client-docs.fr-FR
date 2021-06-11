@@ -17,9 +17,9 @@ ms.locfileid: "32299075"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique présente un exemple de code en C++ qui interroge une magasin de messages pour l’interface **[IProxyStoreObject](iproxystoreobject.md)** et utilise le pointeur renvoyé et la fonction **[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** pour obtenir un pointeur vers un objet de magasin IMAP qui a été déballé. L’utilisation de cette magasine non enveloppée permet d’accéder à un message dans son état actuel sans appel d’un téléchargement de l’intégralité du message. 
+Cette rubrique présente un exemple de code en C++ qui interroge une magasin de messages pour l’interface **[IProxyStoreObject](iproxystoreobject.md)** et utilise le pointeur renvoyé et la fonction **[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md)** pour obtenir un pointeur vers un objet de magasin IMAP qui a été déballé. L’utilisation de cette magasine non ballée permet d’accéder à un message dans son état actuel sans appel d’un téléchargement de l’intégralité du message. 
   
-Étant donné que **UnwrapNoRef** n’incrémente pas le nombre de références pour ce nouveau pointeur vers l’objet store non enveloppé, après avoir correctement appelé **UnwrapNoRef,** vous devez appeler [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) pour conserver le nombre de références. 
+Comme **UnwrapNoRef** n’incrémente pas le nombre de références pour ce nouveau pointeur vers l’objet store non enveloppé, après avoir correctement appelé **UnwrapNoRef,** vous devez appeler [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) pour conserver le nombre de références. 
   
 ```cpp
 HRESULT HrUnWrapMDB(LPMDB lpMDBIn, LPMDB* lppMDBOut) 

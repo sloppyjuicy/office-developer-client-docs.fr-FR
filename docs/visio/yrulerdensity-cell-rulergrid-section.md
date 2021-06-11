@@ -29,7 +29,7 @@ Définit les graduations verticales de la règle pour la page.
    
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l’option **Subdivisions verticales** dans  la boîte de dialogue **&amp; Grille** de règles (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
+Cette cellule correspond à l’option **Subdivisions verticales** de  la boîte de dialogue **&amp; Grille** de règles (sous l’onglet Affichage, cliquez sur **Afficher** la flèche). 
   
 Pour obtenir une référence à la cellule YRulerDensity par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

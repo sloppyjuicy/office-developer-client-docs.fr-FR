@@ -1,5 +1,5 @@
 ---
-title: Déterminer si un élément Outlook a été modifié mais pas enregistré (référence auxiliaire d’Outlook)
+title: Déterminer si un Outlook a été modifié mais pas enregistré (Outlook référence auxiliaire)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/02/2020
 ms.locfileid: "43102946"
 ---
-# <a name="determine-if-an-outlook-item-has-been-modified-but-not-saved-outlook-auxiliary-reference"></a>Déterminer si un élément Outlook a été modifié mais pas enregistré (référence auxiliaire d’Outlook)
+# <a name="determine-if-an-outlook-item-has-been-modified-but-not-saved-outlook-auxiliary-reference"></a>Déterminer si un Outlook a été modifié mais pas enregistré (Outlook référence auxiliaire)
 
 Cette rubrique indique comment utiliser l'ID de dispatch **dispidFDirty** pour appeler la propriété correspondante sur un élément Outlook, si l'élément a été modifié et n'a pas été enregistré. 
   

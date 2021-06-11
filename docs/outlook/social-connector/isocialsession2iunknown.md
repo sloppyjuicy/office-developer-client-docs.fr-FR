@@ -32,9 +32,9 @@ Le tableau suivant indique les membres disponibles sur l’interface **ISocialSe
    
 ## <a name="remarks"></a>Remarques
 
-Un fournisseur Outlook Social Connector (OSC) peut choisir d’implémenter cette interface si le fournisseur prend en charge la synchronisation à la demande ou hybride des amis, la synchronisation à la demande des activités ou la connexion au réseau social à l’aide d’informations d’identification mises en cache. Si le fournisseur OSC implémente **ISocialSession2** et prend en charge les personnes suivantes sur le réseau social, l’OSC appelle [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md) au lieu de [ISocialSession::FollowPerson](isocialsession-followperson.md), et le fournisseur doit également implémenter **ISocialSession2::FollowPersonEx.**
+Un fournisseur Outlook Social Connector (OSC) peut choisir d’implémenter cette interface si le fournisseur prend en charge la synchronisation à la demande ou hybride des amis, la synchronisation à la demande des activités ou la connexion au réseau social à l’aide d’informations d’identification mises en cache. Si le fournisseur OSC implémente **ISocialSession2** et prend en charge les personnes suivantes sur le réseau social, l’OSC appelle [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md) au lieu de [ISocialSession::FollowPerson](isocialsession-followperson.md)et le fournisseur doit également implémenter **ISocialSession2::FollowPersonEx.**
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Interfaces de fournisseur Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
+- [Outlook Interfaces de fournisseur de connecteurs sociaux](outlook-social-connector-provider-interfaces.md)
 

@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 157aed97-1cb9-465d-b7eb-343771cc0cba
-description: Cette section contient des rubriques de référence pour l’extensibilité du fournisseur Outlook Social Connector (OSC).
+description: Cette section contient des rubriques de référence pour l Outlook extensibilité du fournisseur OSC (Social Connector).
 ms.openlocfilehash: 0e70993e7773f1c4974f557dfec89cce3eb65b13
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,9 +17,9 @@ ms.locfileid: "32359842"
 ---
 # <a name="outlook-social-connector-provider-reference"></a>Référence du fournisseur Outlook Social Connector
 
-Cette section contient des rubriques de référence pour l’extensibilité du fournisseur Outlook Social Connector (OSC).
+Cette section contient des rubriques de référence pour l Outlook extensibilité du fournisseur OSC (Social Connector).
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Interfaces](outlook-social-connector-provider-interfaces.md)
   

@@ -33,7 +33,7 @@ HRESULT DeleteMsgService(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpuid_
   
@@ -61,7 +61,7 @@ La **méthode IMsgServiceAdmin::D eleteMsgService** supprime un service de messa
     
 3. Supprime la section de profil du service de message.
     
-La fonction de point d’entrée du service de message n’est pas appelée une fois le service supprimé.
+La fonction de point d’entrée du service de message n’est pas rappelée après la suppression du service.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

@@ -19,7 +19,7 @@ ms.locfileid: "36706179"
   
 Cette rubrique répertorie les jeux de propriétés nommées couramment utilisés.
   
-Le tableau suivant répertorie chaque jeu de propriétés avec son GUID et sa zone fonctionnelle.
+Le tableau suivant répertorie chaque ensemble de propriétés avec son GUID et sa zone fonctionnelle.
   
 |Domaine|Nom du jeu de propriétés et valeur GUID|
 |:-----|:-----|
@@ -29,10 +29,10 @@ Le tableau suivant répertorie chaque jeu de propriétés avec son GUID et sa zo
 |Courant  <br/> |PS_PUBLIC_STRINGS{00020329-0000-0000-C000-000000000046}  <br/> |
 |Courant  <br/> |PSETID_Common{00062008-0000-0000-C000-000000000046}  <br/> |
 |Contact  <br/> |PSETID_Address{00062004-0000-0000-C000-000000000046}  <br/> |
-|E-mail  <br/> |PS_INTERNET_HEADERS{00020386-0000-0000-C000-000000000046}  <br/> |
+|E-mail  <br/> |PS_INTERNET_HEADERS{00020386-0000-0000-C000-00000000046}  <br/> |
 |Messagerie générale  <br/> |PSETID_Report{00062013-0000-0000-C000-000000000046}  <br/> |
 |Journal  <br/> |PSETID_Log{0006200A-0000-0000-C000-000000000046}  <br/> |
-|Messagerie   <br/> |PSETID_Messaging{41F28F13-83F4-4114-A584-EEDB5A6B0BFF}  <br/> |
+|Messagerie  <br/> |PSETID_Messaging{41F28F13-83F4-4114-A584-EEDB5A6B0BFF}  <br/> |
 |Messagerie distante  <br/> |PSETID_Remote{00062014-0000-0000-C000-000000000046}  <br/> |
 |Flux RSS  <br/> |PSETID_PostRss{00062041-0000-0000-C000-000000000046}  <br/> |
 |Partage  <br/> |PSETID_Sharing{00062040-0000-0000-C000-000000000046}  <br/> |

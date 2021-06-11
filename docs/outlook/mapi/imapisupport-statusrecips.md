@@ -34,7 +34,7 @@ LPADRLIST lpRecipList
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
@@ -62,11 +62,11 @@ La **méthode IMAPISupport::StatusRecips est** implémentée pour les objets de 
 
 Vous pouvez appeler **StatusRecips plusieurs** fois pendant le traitement d’un message. Toutefois, si vous appelez **StatusRecips** pour un message ouvert, faites de votre mieux pour collecter toutes les informations de remise et de remise pour les destinataires du message et appeler **StatusRecips** pour cette liste de destinataires. Un point de collecte unique est important, car plusieurs appels **StatusRecips** pour un destinataire peuvent entraîner l’envoi de plusieurs rapports identiques. 
   
-Stockez les propriétés liées à la remise ou à la non remise des messages dans la structure **ADRLIST** indiquée par _le paramètre lpRecipList._ Pour obtenir la liste complète des propriétés obligatoires et facultatives pour les rapports de remise et les rapports non remise, voir [Propriétés](required-report-message-properties.md) de message de rapport requises et [propriétés facultatives](optional-report-message-properties.md)du message de rapport. 
+Stockez les propriétés liées à la remise ou à la non remise des messages dans la structure **ADRLIST** indiquée par _le paramètre lpRecipList._ Pour obtenir la liste complète des propriétés obligatoires et facultatives pour les rapports de remise et les rapports non remise, voir [Propriétés](required-report-message-properties.md) de message de rapport obligatoires et [propriétés facultatives](optional-report-message-properties.md)du message de rapport. 
   
 Allouez de la mémoire pour la structure **ADRLIST** dans _lpRecipList_ à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore.](mapiallocatemore.md) MAPI libère la mémoire en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) uniquement si **StatusRecips** réussit. 
   
-Pour une vue d’ensemble des rapports de remise et de non remise, voir [MESSAGES de rapport MAPI](mapi-report-messages.md).
+Pour une vue d’ensemble des rapports de remise et de non remise, voir [messages de rapport MAPI](mapi-report-messages.md).
   
 ## <a name="see-also"></a>Voir aussi
 

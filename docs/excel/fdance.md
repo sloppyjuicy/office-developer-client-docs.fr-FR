@@ -28,7 +28,7 @@ Exemple de commande définie par l’utilisateur qui modifie les cellules sélec
 int WINAPI fDance(void);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 La fonction ne prend aucun paramètre.
   

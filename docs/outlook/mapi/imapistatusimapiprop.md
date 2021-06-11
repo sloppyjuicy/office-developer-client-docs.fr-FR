@@ -68,7 +68,7 @@ Les objets d’état implémentés par MAPI supportent les méthodes suivantes :
    
 Les objets d’état implémentés par MAPI doivent avoir une version en lecture seule des méthodes de l’interface [IMAPIProp](imapipropiunknown.md) et prendre en charge la **méthode ValidateState.** Les fournisseurs de transport doivent également prendre **en charge FlushQueues**. Tous les fournisseurs doivent prendre en charge **SettingsDialog**; la prise **en charge de ChangePassword** est facultative. 
   
-Les clients utilisent des objets d’état pour effectuer la configuration et pour en savoir plus sur l’état de la session. Ils accèdent à un objet d’état en appelant la méthode **OpenStatusEntry** d’un objet d’ouverture de connecté de fournisseur de services ou la méthode [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour récupérer l’objet d’état. 
+Les clients utilisent des objets d’état pour effectuer la configuration et pour en savoir plus sur l’état de la session. Ils accèdent à un objet d’état en appelant la méthode **OpenStatusEntry** d’un objet d’ouverture de ouvert de service ou la méthode [IMAPISession::GetStatusTable](imapisession-getstatustable.md) pour récupérer l’objet d’état. 
   
 ## <a name="see-also"></a>Voir aussi
 

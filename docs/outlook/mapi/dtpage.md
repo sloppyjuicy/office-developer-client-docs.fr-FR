@@ -72,11 +72,11 @@ typedef struct DTPAGE
 
 Pour identifier le fichier d’aide de la page à onglets, définissez le membre **lpszComponent** sur une chaîne codée en dur ou le membre **ulItemID** sur un identificateur de ressource entière. 
   
-Chaque entrée de la section **[Mappages des fichiers d’aide]** dans MAPISVC. INF se compose d’une chaîne de composants, de 30 caractères au plus, à gauche et d’un chemin d’accès au fichier d’aide à droite. **UlItemID et** **lpszResourceName** se trouvent dans le paramètre _hInstance_ de **BuildDisplayTable**. Pour plus d’informations, [voir MAPISVC. Section INF [Mappages des fichiers d’aide]](mapisvc-inf-help-file-mappings-section.md).
+Chaque entrée de la section **[Mappages des fichiers d’aide]** dans MAPISVC. INF se compose d’une chaîne de composants, de 30 caractères au plus, à gauche et d’un chemin d’accès au fichier d’aide à droite. **UlItemID et** **lpszResourceName** se trouvent dans le paramètre _hInstance_ de **BuildDisplayTable**. Pour plus d’informations, [voir MAPISVC. Section INF [Mappages de fichiers d’aide]](mapisvc-inf-help-file-mappings-section.md).
   
 Bien **que BuildDisplayTable** utilise cette structure pour créer la table d’affichage à partir des ressources de contrôle, la structure **DTPAGE** n’apparaît jamais dans le tableau d’affichage lui-même. 
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

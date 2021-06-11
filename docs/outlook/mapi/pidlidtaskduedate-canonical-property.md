@@ -37,7 +37,7 @@ Représente la date à laquelle l’utilisateur s’attend à effectuer la tâch
    
 ## <a name="remarks"></a>Remarques
 
-La tâche n’a aucune date d’échéance si cette propriété n’est pas définie ou 0x5AE980E0 (1 525 252 320). Toutefois, une date d’échéance n’est facultative que si aucune date de début n’est indiquée dans la propriété **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)). Si la tâche a une date d’échéance, la valeur doit avoir un composant d’heure de minuit et la propriété **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) doit également être définie. Si **dispidTaskStartDate** a une date de début, la valeur de la propriété **dispidTaskDueDate** doit être supérieure ou égale à la valeur de **dispidTaskStartDate**.
+La tâche n’a aucune date d’échéance si cette propriété n’est pas définie ou définie sur 0x5AE980E0 (1 525 252 320). Toutefois, une date d’échéance n’est facultative que si aucune date de début n’est indiquée dans la propriété **dispidTaskStartDate** ([PidLidTaskStartDate](pidlidtaskstartdate-canonical-property.md)). Si la tâche a une date d’échéance, la valeur doit avoir un composant d’heure de minuit et la propriété **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) doit également être définie. Si **dispidTaskStartDate** a une date de début, la valeur de la propriété **dispidTaskDueDate** doit être supérieure ou égale à la valeur de **dispidTaskStartDate**.
   
 ## <a name="related-resources"></a>Ressources connexes
 

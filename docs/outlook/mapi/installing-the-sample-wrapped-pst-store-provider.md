@@ -23,7 +23,7 @@ Cette rubrique vous fait suivre les étapes de téléchargement et d’installat
   
 ## <a name="install-the-sample-wrapped-pst-store-provider"></a>Installer l’exemple de fournisseur de magasins PST wrapped
 
-1. Pour télécharger l’exemple de fournisseur de magasin PST Wrapped, voir [Outlook 2007 Auxiliary Reference Code Samples and Redistributable Installer](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Pour télécharger l’exemple de fournisseur de magasins PST wrapped, voir [Outlook 2007 Auxiliary Reference Code Samples and Redistributable Installer](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
     
 2. Ouvrez **le dossier SampleWrappedPSTStoreProvider** et cliquez **sur Extraire tous les fichiers.**
     
@@ -34,9 +34,9 @@ Cette rubrique vous fait suivre les étapes de téléchargement et d’installat
 5. Ouvrez Visual Studio 2005 en tant qu’administrateur.
     
     > [!NOTE]
-    > Si votre ordinateur exécute Windows XP, vous devez être connecté en tant qu’administrateur. Si votre ordinateur exécute Windows Vista, vous devez être connecté en tant qu’administrateur et vous devez cliquer avec le bouton droit sur l’icône Visual Studio 2005 et cliquer sur Exécuter en tant **qu’administrateur.** 
+    > Si votre ordinateur exécute Windows XP, vous devez être connecté en tant qu’administrateur. Si votre ordinateur exécute Windows Vista, vous devez être connecté en tant qu’administrateur et vous devez cliquer avec le bouton droit sur l’icône Visual Studio 2005 et cliquer sur Exécuter en tant qu’administrateur. 
   
-6. Dans Visual Studio 2005, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Projet/Solution.**
+6. Dans Visual Studio 2005, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Project/Solution.**
     
 7. Accédez à l’emplacement où vous avez enregistré l’exemple, cliquez sur **WrapPST,** puis cliquez sur **Ouvrir**.
     
@@ -44,7 +44,7 @@ Cette rubrique vous fait suivre les étapes de téléchargement et d’installat
     
 9. Dans la **boîte de dialogue Enregistrer le fichier sous,** cliquez sur **Enregistrer.**
     
-10. Dans le dossier où vous avez enregistré l’exemple, cliquez avec le bouton droit sur **Install.bat** fichier, puis cliquez sur **Exécuter en tant qu’administrateur.**
+10. Dans le dossier où vous avez enregistré l’exemple, cliquez avec le bouton droit sur **le fichierInstall.bat** puis cliquez sur Exécuter en tant **qu’administrateur.**
     
 11. Dans la boîte **de dialogue Contrôle de compte** d’utilisateur, cliquez sur **Continuer.**
     
@@ -52,7 +52,7 @@ Cette rubrique vous fait suivre les étapes de téléchargement et d’installat
 
 
 
-[À propos de l’exemple de fournisseur de magasin PST wrapped](about-the-sample-wrapped-pst-store-provider.md)
+[À propos de l’exemple de fournisseur de magasins PST wrapped](about-the-sample-wrapped-pst-store-provider.md)
   
 [Initialisation d’un fournisseur de magasin PST wrapped](initializing-a-wrapped-pst-store-provider.md)
   

@@ -27,7 +27,7 @@ Un message sortant est un message qui peut être envoyé à un ou plusieurs dest
     
 2. Ouvrez le dossier Boîte d’envoi. Pour plus d’informations, voir [Ouverture d’un dossier de la boutique de messages.](opening-a-message-store-folder.md)
     
-3. Appelez la méthode **IMAPIFolder::CreateMessage** du dossier Boîte d’envoi pour créer le nouveau message. Pour plus d’informations, [voir IMAPIFolder::CreateMessage](imapifolder-createmessage.md),
+3. Appelez la méthode **IMAPIFolder::CreateMessage** du dossier Outbox pour créer le nouveau message. Pour plus d’informations, [voir IMAPIFolder::CreateMessage](imapifolder-createmessage.md),
     
 4. Créez une liste de destinataires avec un ou plusieurs destinataires résolus. Pour plus d’informations, voir [Création d’une liste de destinataires.](creating-a-recipient-list.md)
     
@@ -43,9 +43,9 @@ Un message sortant est un message qui peut être envoyé à un ou plusieurs dest
     
 10. Supprimez le message envoyé si la propriété **\_ PR DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) est définie sur TRUE ou déplacez-la vers le dossier identifié par la propriété **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)). Pour plus d’informations, [voir Traitement d’un message envoyé.](processing-a-sent-message.md)
     
-Si vous souhaitez enregistrer le message de manière intermittante avant de l’envoyer, appelez la méthode [IMAPIProp::SaveChanges du](imapiprop-savechanges.md) message. Pour plus d’informations, voir [Enregistrement d’un message](saving-a-message.md) ou [envoi d’un message.](sending-a-message.md) 
+Si vous souhaitez enregistrer le message de manière intermittante avant de l’envoyer, appelez la méthode [IMAPIProp::SaveChanges du](imapiprop-savechanges.md) message. Pour plus d’informations, voir [l’enregistrement d’un message](saving-a-message.md) [ou l’envoi d’un message.](sending-a-message.md) 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Création d’une liste de](creating-a-recipient-list.md)destinataires : décrit comment créer une liste de destinataires.
     

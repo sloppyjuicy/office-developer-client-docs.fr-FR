@@ -44,7 +44,7 @@ Modifie un service de message dans un profil.
    
 ## <a name="remarks"></a>Remarques
 
-L’interface **IMsgServiceAdmin2** est exposée par les mêmes objets qui exposent l’interface [IMsgServiceAdmin](imsgserviceadminiunknown.md) et est disponible à l’aide de l’implémentation d’Outlook du sous-système MAPI depuis Microsoft Outlook 2003. 
+L’interface **IMsgServiceAdmin2** est exposée par les mêmes objets qui exposent l’interface [IMsgServiceAdmin](imsgserviceadminiunknown.md) et est disponible à l’aide de l’implémentation de Outlook du sous-système MAPI depuis Microsoft Outlook 2003. 
   
 ## <a name="see-also"></a>Voir aussi
 

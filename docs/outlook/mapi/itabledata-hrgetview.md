@@ -36,7 +36,7 @@ HRESULT HrGetView(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpSSortOrderSet_
   
@@ -66,7 +66,7 @@ La **méthode ITableData::HrGetView** crée une vue en lecture seule des donnée
   
 Les fournisseurs de services **appellent HrGetView** lorsqu’ils ont besoin d’accorder à un client l’accès à une table. **HrGetView crée** l’affichage et renvoie le **pointeur IMAPITable.** À leur tour, les fournisseurs de services passent le pointeur au client. Lorsque le client a terminé d’utiliser la table et appelle sa méthode [IUnknown::Release,](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) **HrGetView** appelle la fonction de rappel pointée par le paramètre _lpfCallerRelease._ 
   
-Si un fournisseur de services doit revenir à un client avec un ensemble de colonnes personnalisé ou une restriction, il peut appeler les méthodes [IMAPITable::SetColumns](imapitable-setcolumns.md) et [IMAPITable::Restrict](imapitable-restrict.md) de l’affichage avant d’autoriser l’accès au client. 
+Si un fournisseur de services doit retourner à un client un affichage qui possède un ensemble de colonnes personnalisé ou une restriction, il peut appeler les méthodes [IMAPITable::SetColumns](imapitable-setcolumns.md) et [IMAPITable::Restrict](imapitable-restrict.md) de l’affichage avant d’autoriser l’accès au client. 
   
 ## <a name="see-also"></a>Voir aussi
 

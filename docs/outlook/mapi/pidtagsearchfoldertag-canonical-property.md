@@ -46,7 +46,7 @@ Cette propriété est modifiée lorsque le message de définition est modifié. 
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
+> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -27,10 +27,10 @@ Date de publication de cette référence : octobre 2012
   
 ## <a name="related-links"></a>Liens associés
 
-[Microsoft Office développeur : Documents](https://developer.microsoft.com/en-us/office/docs)
+[Microsoft Office Centre pour développeurs : Documents](https://developer.microsoft.com/en-us/office/docs)
   
 
-[Accessibilité Microsoft](https://www.microsoft.com/en-us/accessibility/)
+[Accessibilité de Microsoft](https://www.microsoft.com/en-us/accessibility/)
 
   
 

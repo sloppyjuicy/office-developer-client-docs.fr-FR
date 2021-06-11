@@ -27,13 +27,13 @@ La gestion d’une magasin de messages est une partie importante de l’ensemble
     
 - [Validation et initialisation d’une magasin de](validating-and-initializing-a-message-store.md)messages : décrit comment initialiser et valider une magasin de messages.
     
-- [Recherche dans une magasin de](searching-a-message-store.md)messages : décrit comment rechercher des messages qui correspondent aux critères de recherche dans un ou plusieurs dossiers.
+- [Recherche dans une magasin de messages](searching-a-message-store.md): décrit comment rechercher des messages qui correspondent aux critères de recherche dans un ou plusieurs dossiers.
     
 - [Sélection d’un dossier de réception](selecting-a-receive-folder.md): décrit les étapes de création d’un dossier de réception.
     
 - [Ouverture d’un dossier de la boutique de messages](opening-a-message-store-folder.md): décrit comment ouvrir un dossier.
     
-- [Affichage d’une table de contenu de](displaying-a-folder-contents-table.md)dossier : décrit comment afficher la table des matières du dossier qui contient des informations récapitulatifs sur tous ses messages.
+- [Affichage d’une table des matières des](displaying-a-folder-contents-table.md)dossiers : décrit comment afficher la table des matières du dossier qui contient des informations récapitulatifs sur tous ses messages.
     
 - [Traversée du dossier Boîte de réception](traversing-the-inbox-folder.md): décrit comment parcourir tous les messages de la boîte de réception.
     

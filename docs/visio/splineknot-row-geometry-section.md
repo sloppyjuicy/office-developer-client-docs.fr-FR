@@ -18,7 +18,7 @@ ms.locfileid: "33407416"
 ---
 # <a name="splineknot-row-geometry-section"></a>SplineKnot, ligne (section Geometry)
 
-Contient  *les coordonnées*  x et  *y*  du point de contrôle d’une spline et du nœud d’une spline. 
+Contient  *les coordonnées*  x et  *y*  pour le point de contrôle d’une spline et le nœud d’une spline. 
   
 Une ligne SplineKnot contient les cellules suivantes.
   

@@ -39,11 +39,11 @@ Les clients peuvent mettre fin à leurs sessions en réponse à la demande d’u
     
 7. Uninitialize les bibliothèques MAPI en appelant [MAPIUninitialize](mapiuninitialize.md). Si vous avez appelé **OleInitialize** à un moment donné, assurez-vous qu’un appel à **OleUninitialize** a lieu avant cet appel à **MAPIUninitialize**. Le minutage est crucial. Si l’appel à **OleUninitialize** suit l’appel de **MAPIUninitialize**, votre client peut se terminer de manière non réorganisable. 
     
-8. Si vous avez appelé [ScInitMapiUtil](scinitmapiutil.md) pendant le démarrage de la session pour initialiser la bibliothèque d’utilitaires MAPI, désinitialisez-la maintenant en appelant [DeinitMapiUtil](deinitmapiutil.md). Seuls les clients qui ont **appelé ScInitMapiUtil doivent** appeler **DeinitMapiUtil**.
+8. Si vous avez appelé [ScInitMapiUtil](scinitmapiutil.md) pendant le démarrage de la session pour initialiser la bibliothèque d’utilitaires MAPI, désinitialisez-la maintenant en appelant [DeinitMapiUtil](deinitmapiutil.md). Seuls les clients qui ont **appelé ScInitMapiUtil** doivent appeler **DeinitMapiUtil**.
     
 > [!NOTE]
-> Tous les objets ouverts doivent être libérés avant l’appel à **IMAPISession::Logoff**. Les objets qui restent ouverts après **l’appel** de la logoff deviennent non valides ; Ils ne peuvent accepter aucun appel et peuvent ne jamais être libérés. Si un appel est effectué vers l’un de ces objets, attendez-vous à ce que l’appel échoue. 
+> Tous les objets ouverts doivent être libérés avant l’appel à **IMAPISession::Logoff**. Les objets qui restent ouverts après **l’appel** de la ff de logo deviennent non valides ; Ils ne peuvent accepter aucun appel et peuvent ne jamais être libérés. Si un appel est effectué vers l’un de ces objets, attendez-vous à ce que l’appel échoue. 
   
- MAPI ne dispose d’aucun mécanisme pour supprimer des DLL pendant le processus d’arrêt de session. La DLL d’un fournisseur de services ne peut être supprimée que lorsqu’un client de configuration tel que le Panneau de configuration appelle sa fonction de point d’entrée de service de message avec l’MSG_SERVICE_INSTALL de messagerie. 
+ MAPI ne dispose d’aucun mécanisme pour supprimer des DLL pendant le processus d’arrêt de session. La DLL d’un fournisseur de services ne peut être supprimée que lorsqu’un client de configuration tel que le Panneau de configuration appelle sa fonction de point d’entrée de service de message avec l MSG_SERVICE_INSTALL de messagerie. 
   
 

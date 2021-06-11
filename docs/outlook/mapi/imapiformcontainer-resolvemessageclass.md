@@ -35,7 +35,7 @@ HRESULT ResolveMessageClass(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _szMessageClass_
   
@@ -71,7 +71,7 @@ Les applications clientes appellent la méthode **IMAPIFormContainer::ResolveMes
 
 Pour résoudre une classe de message en formulaire, passez le nom de la classe de message à résoudre (par exemple,  `IPM.HelpDesk.Software` ). Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags._ 
   
-L’identificateur de classe pour la classe de message résolue est renvoyé dans le cadre de l’objet d’informations du formulaire. Ne supposez pas que l’identificateur de classe existe dans la bibliothèque OLE tant que vous n’avez pas appelé la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm.](imapiformmgr-createform.md) 
+L’identificateur de classe de la classe de message résolue est renvoyé dans le cadre de l’objet d’informations du formulaire. Ne supposez pas que l’identificateur de classe existe dans la bibliothèque OLE tant que vous n’avez pas appelé la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) ou [IMAPIFormMgr::CreateForm.](imapiformmgr-createform.md) 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

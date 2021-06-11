@@ -38,11 +38,11 @@ Contient l’état du message en fonction des informations disponibles pour lepo
 
 Cette propriété est calculée par MAPI sur les objets de message.
   
-Cette propriété apparaît uniquement sur les messages entrants et est réservée dans tous les autres cas. Il indique si un message a été remis à son emplacement final ou si un fournisseur de hooks de messagerie a potentiellement supprimé le message lors du réaroutage.
+Cette propriété apparaît uniquement sur les messages entrants et est réservée dans tous les autres cas. Il indique si un message a été remis ou non à son emplacement final ou si un fournisseur de hooks de messagerie a potentiellement supprimé le message lors de son réroutage.
   
 Les applications clientes ne doivent jamais définir cette propriété. Pour un message entrant, un client ou un fournisseur de services peut appeler [IMAPIProp::GetProps](imapiprop-getprops.md) sur cette propriété pour déterminer l’état du message. La valeur S_OK indique que le message a été correctement remis à la boutique de messages. La valeur MAPI_E_OBJECT_DELETED indique que le message a été supprimé et n’a jamais été engagé dans la boutique. 
   
-Les fournisseurs de magasins de messages doivent prendre en charge cette propriété dans les messages, les tables des destinataires et la table des files d’attente sortantes. Les clients et fournisseurs doivent être en mesure de définir des colonnes dans la table des files d’attente sortantes et de restreindre en fonction de cette propriété.
+Les fournisseurs de magasins de messages doivent prendre en charge cette propriété dans les messages, les tables des destinataires et la table des files d’attente sortantes. Les clients et les fournisseurs doivent être en mesure de définir des colonnes dans la table de files d’attente sortantes et de restreindre en fonction de cette propriété.
   
 ## <a name="related-resources"></a>Ressources connexes
 

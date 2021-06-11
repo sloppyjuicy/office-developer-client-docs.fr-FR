@@ -31,12 +31,12 @@ Appelez [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgservi
     
 3. Définit et récupère la propriété PR_SERVICE_UID **(** [PidTagServiceUid](pidtagserviceuid-canonical-property.md)) du service de message.
     
- **Pour accéder à un service de message nouvellement ajouté**
+ **Pour accéder à n’importe quel service de message nouvellement ajouté**
   
 1. Appelez [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) pour récupérer la table de service de message. 
     
 2. Appelez la méthode [IMAPITable::Advise](imapitable-advise.md) de la table de service de message pour vous inscrire aux notifications de table. 
     
-3. Lorsque MAPI envoie une notification TABLE_ROW_ADDED, recherchez l’identificateur d’entrée du service de message nouvellement ajouté dans la structure [SRow](srow.md) incluse dans la structure [TABLE_NOTIFICATION](table_notification.md) de message. 
+3. Lorsque MAPI envoie une notification TABLE_ROW_ADDED, recherchez l’identificateur d’entrée du service de message nouvellement ajouté dans la structure [SRow](srow.md) incluse dans la structure [TABLE_NOTIFICATION.](table_notification.md) 
     
 

@@ -24,7 +24,7 @@ Compare l’égalité de deux expressions.
 
 `= (Equals)`
 
-*expression*  =  *expression* 
+*expression*   =   *expression* 
   
 *expression*  représente toute expression valide. Si les expressions ne sont pas du même type de données, le type de données d’une expression doit être implicitement convertible en type de données de l’autre. La conversion varie en fonction des règles de priorité des types de données. 
   
@@ -36,6 +36,6 @@ Compare l’égalité de deux expressions.
 
 Lorsque vous comparez deux expressions NULL, le résultat est TRUE.
   
-La comparaison de null à une valeur non NULL se traduit toujours par FALSE.
+La comparaison de NULL à une valeur non NULL se traduit toujours par FALSE.
   
 

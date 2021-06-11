@@ -21,7 +21,7 @@ ms.locfileid: "32280053"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fonction de point d’entrée du service de messagerie pour qu’un fournisseur de magasin MAPI encapsule un magasin local PST en tant que magasin NST. 
+Fonction de point d’entrée du service de messagerie pour qu’un fournisseur de magasin MAPI encapsule une boutique locale basée sur PST en tant que magasin NST. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -45,7 +45,7 @@ HRESULT NSTServiceEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  **NSTServiceEntry utilise** le prototype de fonction **[MSGSERVICEENTRY.](msgserviceentry.md)** Pour plus d’informations sur ses paramètres, voir **[MSGSERVICEENTRY](msgserviceentry.md)**. 
   
@@ -61,7 +61,7 @@ Pour utiliser l’API de réplication, un fournisseur de magasin MAPI doit d’a
   
 Les remarques suivantes s’appliquent à un magasin NST :
   
-- Ne stockez aucune information dans la section de profil global lors de l’implémentation d’un fournisseur MAPI qui utilise **NSTServiceEntry**. La section profil global est partagée par de nombreux fournisseurs et les données stockées dans ce profil peuvent être écrasées. 
+- Ne stockez pas d’informations dans la section de profil global lors de l’implémentation d’un fournisseur MAPI qui utilise **NSTServiceEntry**. La section profil global est partagée par de nombreux fournisseurs et les données stockées dans ce profil peuvent être écrasées. 
     
 - Seuls les éléments avec des horodaages de modification existants obtiennent leurs cachets mis à jour lorsqu’ils sont enregistrés. 
     

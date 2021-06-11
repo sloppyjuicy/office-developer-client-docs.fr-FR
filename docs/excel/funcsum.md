@@ -28,7 +28,7 @@ Exemple de fonction de feuille de calcul définie par l’utilisateur qui prend 
 LPXLOPER12 WINAPI FuncSum(LPXLOPER12 px1, LPXLOPER12 px2, LPXLOPER12 px3,LPXLOPER12 px4, LPXLOPER12 px5, LPXLOPER12 px6, LPXLOPER12 px7,LPXLOPER12 px8, LPXLOPER12 px9, LPXLOPER12 px10, LPXLOPER12 px11,LPXLOPER12 px12, LPXLOPER12 px13, LPXLOPER12 px14, LPXLOPER12 px15,LPXLOPER12 px16, LPXLOPER12 px17, LPXLOPER12 px18, LPXLOPER12 px19,LPXLOPER12 px20, LPXLOPER12 px21, LPXLOPER12 px22, LPXLOPER12 px23,LPXLOPER12 px24, LPXLOPER12 px25, LPXLOPER12 px26, LPXLOPER12 px27,LPXLOPER12 px28, LPXLOPER12 px29);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _px1-px29_ (**LPXLOPER12**)
   
@@ -38,7 +38,7 @@ Pointeurs vers les arguments **XLOPER12.** La fonction accepte n’importe quel 
 
 (**LPXLOPER12 xltypeNum** ou **xltypeErr**)
   
-Somme des arguments ou des #VALUE ! s’il existe des nombres non numériques dans la liste d’arguments fournie ou dans une cellule d’une plage ou d’un élément dans un tableau.
+Somme des arguments ou des #VALUE! s’il existe des nombres non numériques dans la liste d’arguments fournie ou dans une cellule d’une plage ou d’un élément dans un tableau.
   
 ### <a name="example"></a>Exemple
 

@@ -42,7 +42,7 @@ Si  *datetime*  est manquante ou ne peut pas être interprétée comme une date 
   
 La valeur renvoyée est formatée selon les formats d’heure et de date abrégés définis dans les paramètres régionaux actuels de votre système d’exploitation. 
   
-La fonction DATETIME accepte également une valeur de nombre unique pour  *l’expression*  où la partie nombre inte du résultat représente le nombre de jours depuis le 30 décembre 1899, et la partie décimale représente la fraction d’un jour depuis minuit. 
+La fonction DATETIME accepte également une valeur de nombre unique pour  *l’expression*  où la partie en nombres du résultat représente le nombre de jours depuis le 30 décembre 1899, et la partie décimale représente la fraction d’un jour depuis minuit. 
   
 ## <a name="example-1"></a>Exemple 1
 

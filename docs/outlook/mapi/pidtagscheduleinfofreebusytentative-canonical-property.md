@@ -36,7 +36,7 @@ Contient les blocs de heures pour lesquels l’état de libre/occupé est provis
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété a autant de valeurs que le nombre de valeurs PR_SCHDINFO_MONTHS_TENTATIVE **(** [PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)). Chaque valeur binaire représente un mois et correspond à la valeur au même index dans **PR_SCHDINFO_MONTHS_TENTATIVE**. Les valeurs binaires sont triées dans le même ordre que les valeurs dans **PR_SCHDINFO_MONTHS_TENTATIVE**.
+Cette propriété a autant de valeurs que le nombre de valeurs dans **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)). Chaque valeur binaire représente un mois et correspond à la valeur au même index dans **PR_SCHDINFO_MONTHS_TENTATIVE**. Les valeurs binaires sont triées dans le même ordre que les valeurs dans **PR_SCHDINFO_MONTHS_TENTATIVE**.
   
 Chaque valeur binaire comporte un ou plusieurs blocs de 4 octets et chacun d’eux contient l’heure de début dans les deux premiers octets et l’heure de fin dans les deux deuxièmes octets au format little-endian. L’heure de début est le nombre de minutes entre l’heure UTC (Temps universel coordonné) de minuit du premier jour du mois et l’heure de début de l’événement en UTC. L’heure de fin est le nombre de minutes entre minuit UTC du premier jour du mois et l’heure de fin de l’événement en UTC. Les blocs 4-BYTE sont triés dans l’ordre croissant.
   
@@ -48,7 +48,7 @@ Les blocs de temps consécutifs ou qui se chevauchent sont fusionnés en un seul
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   

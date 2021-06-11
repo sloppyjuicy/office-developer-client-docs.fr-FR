@@ -8,7 +8,7 @@ f1_keywords:
 - TempStr12
 - TempStrConst
 keywords:
-- fonction tempstr12 [excel 2007],tempStrConst function [Excel 2007]
+- fonction tempstr12 [excel 2007],TempStrConst function [Excel 2007]
 localization_priority: Normal
 ms.assetid: faf4ee4e-8d33-4cb3-ae16-5648a837ee4f
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
@@ -42,7 +42,7 @@ Renvoie une **chaîne xltypeStr** contenant une copie de la mémoire tampon de c
   
 ## <a name="remarks"></a>Remarques
 
-Notez que la fonction d’infrastructure de chaîne **XLOPER,** **TempStr**, se comporte différemment et tente de overwrite le premier caractère de la chaîne fournie par la longueur de la chaîne suivante. Ce n’est pas toujours une chose sûre : Microsoft Excel peut se crasher si une chaîne en lecture seule est passée. Cette façon de créer des chaînes temporaires est désormais dépréciée au profit de la façon dont **TempStrConst** et **TempStr12** fonctionnent. Par conséquent, le premier caractère de la chaîne d’entrée est traité comme le début de la chaîne, c’est-à-dire, non comme un caractère de longueur ou comme un espace pour un caractère de longueur. Vous ne devez pas transmettre de chaînes dont le caractère de longueur est codé au début, car les conséquences peuvent être imprévisibles. 
+Notez que la fonction d’infrastructure de chaîne **XLOPER,** **TempStr**, se comporte différemment et tente de overwrite le premier caractère de la chaîne fournie par la longueur de la chaîne suivante. Ce n’est pas toujours une chose sûre : Microsoft Excel risque de se crasher si une chaîne en lecture seule est transmise. Cette façon de créer des chaînes temporaires est désormais dépréciée au profit de la façon dont **TempStrConst** et **TempStr12** fonctionnent. Par conséquent, le premier caractère de la chaîne d’entrée est traité comme le début de la chaîne, c’est-à-dire, non comme un caractère de longueur ou comme un espace pour un caractère de longueur. Vous ne devez pas transmettre de chaînes dont le caractère de longueur est codé au début, car les conséquences peuvent être imprévisibles. 
   
 ## <a name="example"></a>Exemple
 

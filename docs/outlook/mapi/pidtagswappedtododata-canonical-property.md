@@ -36,9 +36,9 @@ Conserve un deuxième ensemble de valeurs de propriété qui n’affectent pas l
    
 ## <a name="remarks"></a>Remarques
 
-Agissant en tant qu’emplacement de stockage d’indicateur secondaire si les indicateurs de l’expéditeur ou les rappels d’expéditeur sont pris en charge, cette structure fournit un emplacement dans lequel stocker toutes les propriétés relatives au protocole Informational Flagging qui sont pris en charge dans les indicateurs d’expéditeur, ainsi que toutes les propriétés relatives au protocole de paramètres de rappel qui sont pris en charge dans les rappels des expéditeurs sans exposer les informations de rappel de l’expéditeur ou de l’expéditeur aux destinataires d’un message.
+Agissant en tant qu’emplacement de stockage d’indicateur secondaire si les indicateurs de l’expéditeur ou les rappels d’expéditeur sont pris en charge, cette structure fournit un emplacement dans lequel stocker toutes les propriétés relatives au protocole Informational Flagging qui sont pris en charge dans les indicateurs d’expéditeur, ainsi que toutes les propriétés relatives au protocole reminder Paramètres qui sont pris en charge dans les rappels d’expéditeur sans exposer les informations de rappel de l’expéditeur ou de l’expéditeur aux destinataires d’un message.
   
-De même, cette structure fournit un emplacement dans lequel stocker toutes les propriétés relatives au protocole Informational Flagging qui sont pris en charge dans les indicateurs de destinataire et les propriétés relatives au protocole de paramètres de rappel qui sont pris en charge dans les rappels de destinataire sur un message précédemment envoyé.
+De même, cette structure fournit un emplacement dans lequel stocker toutes les propriétés relatives au protocole Informational Flagging qui sont pris en charge dans les indicateurs de destinataire et les propriétés relatives au protocole reminder Paramètres qui sont pris en charge dans les rappels de destinataire sur un message précédemment envoyé.
   
 Pour plus d’informations sur cette propriété, [voir [MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx).
   
@@ -48,7 +48,7 @@ Pour plus d’informations sur cette propriété, [voir [MS-OXOFLAG]](https://ms
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   

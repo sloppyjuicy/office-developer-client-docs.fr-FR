@@ -22,17 +22,17 @@ ms.locfileid: "33406513"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Cette procédure est associée à la boîte de dialogue Windows native affichée [par fShowDialog.](fshowdialog.md) Il fournit les routines de service appelées par Windows pour les événements (messages) qui se produisent lorsque l’utilisateur exploite l’un des boutons, champs d’entrée ou contrôles de la boîte de dialogue. 
+Cette procédure est associée à la boîte de dialogue Windows native que [fShowDialog](fshowdialog.md) affiche. Il fournit les routines de service appelées par Windows pour les événements (messages) qui se produisent lorsque l’utilisateur exploite l’un des boutons, champs d’entrée ou contrôles de la boîte de dialogue. 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hWndDlg_ (**HWND**)
   
-Contient le handle Windows HWND de la boîte de dialogue.
+Contient le handle de Windows HWND de la boîte de dialogue.
   
  _message_ (**UINT**)
   

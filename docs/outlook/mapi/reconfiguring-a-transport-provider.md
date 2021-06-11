@@ -31,7 +31,7 @@ Vous pouvez utiliser l’objet d’état d’un fournisseur de transport pour mo
     
 3. Appelez [IMAPITable::FindRow](imapitable-findrow.md) pour récupérer la ligne appropriée. 
     
-4. Vérifiez que les indicateurs STATUS_SETTINGS_DIALOG et STATUS_VALIDATE_STATE sont définies dans la propriété **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) du fournisseur de transport cible. Si STATUS_SETTINGS_DIALOG n’est pas définie, le fournisseur de transport n’affiche pas de feuille des propriétés de configuration. Si STATUS_VALIDATE_STATE n’est pas définie, vous ne pouvez pas effectuer de reconfiguration dynamique.
+4. Vérifiez que les indicateurs STATUS_SETTINGS_DIALOG et STATUS_VALIDATE_STATE sont définies dans la propriété PR_RESOURCE_METHODS ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) du fournisseur de **transport** cible. Si STATUS_SETTINGS_DIALOG n’est pas définie, le fournisseur de transport n’affiche pas de feuille des propriétés de configuration. Si STATUS_VALIDATE_STATE n’est pas définie, vous ne pouvez pas effectuer de reconfiguration dynamique.
     
 5. Si STATUS_SETTINGS_DIALOG est définie, appelez [IMAPIStatus::SettingsDialog](imapistatus-settingsdialog.md) pour afficher la feuille des propriétés du fournisseur de transport et permettre à l’utilisateur d’apporter des modifications. 
     

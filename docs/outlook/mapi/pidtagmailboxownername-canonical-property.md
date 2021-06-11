@@ -32,7 +32,7 @@ Affiche le nom du propriétaire de la boîte aux lettres.
 |Propriétés associées :  <br/> |PR_MAILBOX_OWNER_NAME, PR_MAILBOX_OWNER_NAME_A, PR_MAILBOX_OWNER_NAME_W  <br/> |
 |Identificateur :  <br/> |0x001F  <br/> |
 |Type de données :  <br/> |PT_UNICODE, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Message Store  <br/> |
+|Domaine :  <br/> |Magasin de messages  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -40,7 +40,7 @@ Affiche le nom du propriétaire de la boîte aux lettres.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   

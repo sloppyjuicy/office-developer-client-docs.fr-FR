@@ -36,7 +36,7 @@ Contient la date et l’heure de la dernière modification de l’objet ou du so
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est initialement définie sur la même valeur que la **propriété PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Les sous-objets de pièce jointe peuvent le mettre à jour si nécessaire en copiant l’heure de la dernière modification conservée par le système de fichiers natif. Une application cliente peut définir cette propriété jusqu’au premier appel de la méthode [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) À partir de là, le fournisseur doit mettre PR_LAST_MODIFICATION_TIME **jour** pendant chaque **appel IMAPIProp::SaveChanges.** 
+Cette propriété est initialement définie sur la même valeur que la **propriété PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md)). Les sous-objets de pièce jointe peuvent le mettre à jour si nécessaire en copiant l’heure de la dernière modification conservée par le système de fichiers natif. Une application cliente peut définir cette propriété jusqu’au premier appel de la [méthode IMAPIProp::SaveChanges.](imapiprop-savechanges.md) À partir de là, le fournisseur doit mettre PR_LAST_MODIFICATION_TIME jour **pendant** chaque **appel IMAPIProp::SaveChanges.** 
   
 ## <a name="related-resources"></a>Ressources connexes
 

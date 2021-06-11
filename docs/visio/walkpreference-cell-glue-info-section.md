@@ -22,8 +22,8 @@ Détermine si un point de fin d'une forme 1D se déplace vers un point de connex
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-| 1   <br/> | Le point de début de la forme 1D se déplace vers un point de connexion vertical et le point de fin, vers un point de connexion horizontal (connexions haut / bas vers côté).  <br/> |**vis PremierfBegNS** <br/> |
-| 2   <br/> | Le point de début de la forme 1D se déplace vers un point de connexion horizontal et le point de fin, vers un point de connexion vertical (connexions côté vers haut ou côté vers bas).  <br/> |**vis PremièrePrefEndNS** <br/> |
+| 1  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion vertical et le point de fin, vers un point de connexion horizontal (connexions haut / bas vers côté).  <br/> |**vis PremierfBegNS** <br/> |
+| 2  <br/> | Le point de début de la forme 1D se déplace vers un point de connexion horizontal et le point de fin, vers un point de connexion vertical (connexions côté vers haut ou côté vers bas).  <br/> |**vis PremièrePrefEndNS** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

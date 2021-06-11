@@ -25,7 +25,7 @@ ms.locfileid: "32283127"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un objet de table des matières incorporé qui fournit des informations sur un conteneur.
+Contient un objet de table de contenu incorporé qui fournit des informations sur un conteneur.
   
 |||
 |:-----|:-----|
@@ -42,7 +42,7 @@ Pour récupérer le contenu de la table, une application cliente doit appeler la
   
 Cette propriété, **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) et **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) sont similaires dans l’utilisation. Plusieurs propriétés MAPI permettent d’accéder aux tables : 
   
-|**Propriété**|**Tableau**|
+|**Property**|**Tableau**|
 |:-----|:-----|
 |PidTagContainerContents  <br/> |Table Contents  <br/> |
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Table Hierarchy  <br/> |
@@ -56,7 +56,7 @@ Cette propriété, **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtag
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

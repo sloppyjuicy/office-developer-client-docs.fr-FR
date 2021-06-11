@@ -52,9 +52,9 @@ Prend en charge l’inscription pour les rappels de notification concernant les 
 
 Lors de l’ouverture d’un objet hors connexion pour un profil de compte d’utilisateur à l’aide de **[HrOpenOfflineObj](hropenofflineobj.md)**, un client obtient un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. 
   
-Étant donné que cette interface hérite **[d’IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)** le client peut interroger cette interface (à l’aide de **[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) pour obtenir un objet qui prend en charge **[IMAPIOffline](imapiofflineiunknown.md)**. Le client peut ensuite découvrir les fonctionnalités de rappel de l’objet hors connexion (en appelant **[IMAPIOffline::GetCapabilities),](imapioffline-getcapabilities.md)** puis choisir de configurer des rappels (à l’aide **d’IMAPIOfflineMgr::Advise** ). 
+Étant donné que cette interface hérite de **[IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx)** le client peut interroger cette interface (à l’aide de **[IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)** ) pour obtenir un objet qui prend en charge **[IMAPIOffline](imapiofflineiunknown.md)**. Le client peut ensuite découvrir les fonctionnalités de rappel de l’objet hors connexion (en appelant **[IMAPIOffline::GetCapabilities),](imapioffline-getcapabilities.md)** puis choisir de configurer des rappels (à l’aide **d’IMAPIOfflineMgr::Advise** ). 
   
-La plupart des membres de cette interface sont des espaces réservés réservés à l’utilisation interne d’Outlook et peuvent faire l’objet de changements. Les appelants de cette interface doivent utiliser les membres non-espace réservé uniquement comme documenté.
+La plupart des membres de cette interface sont des espaces réservés à l’utilisation interne des Outlook et peuvent faire l’objet de changements. Les appelants de cette interface doivent utiliser les membres non-espace réservé uniquement comme documenté.
   
 ## <a name="see-also"></a>Voir aussi
 

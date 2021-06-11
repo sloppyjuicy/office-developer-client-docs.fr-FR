@@ -40,7 +40,7 @@ Permet à un fournisseur de magasins de dossiers personnels (PST) de remplacer l
 |:-----|:-----|
 |[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Extrait la liste des inscriptions pour le fichier de dossiers personnels (.pst).  <br/> |
 |[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Enregistre les fichiers de dossiers personnels pour le déverrouillage automatique, en évitant d’autres appels à HrTrustedPSTOverrideHandlerCallback.  <br/> |
-|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Déverrouille un fichier dossiers personnels pour la croissance.  <br/> |
+|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Déverrouille un fichier de dossiers personnels pour la croissance.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
-description: Vous pouvez grandement améliorer les fonctionnalités de vos formulaires InfoPath en les étendant avec du code géré développé dans Visual Studio 2012. Vous pouvez ensuite publier vos formulaires avec du code dans des bibliothèques de formulaires sur SharePoint Server 2013.
+description: Vous pouvez grandement améliorer les fonctionnalités de vos formulaires InfoPath en les étendant avec du code géré développé dans Visual Studio 2012. Vous pouvez ensuite publier vos formulaires avec du code dans des bibliothèques de formulaires SharePoint Server 2013.
 ms.openlocfilehash: 1c67b85823fe567b494366a505be5dad51d20b32
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "32300286"
 ---
 # <a name="develop-with-visual-studio"></a>Développement avec Visual Studio
 
-Vous pouvez grandement améliorer les fonctionnalités de vos formulaires InfoPath en les étendant avec du code géré développé dans Visual Studio 2012. Vous pouvez ensuite publier vos formulaires avec du code dans des bibliothèques de formulaires sur SharePoint Server 2013.
+Vous pouvez grandement améliorer les fonctionnalités de vos formulaires InfoPath en les étendant avec du code géré développé dans Visual Studio 2012. Vous pouvez ensuite publier vos formulaires avec du code dans des bibliothèques de formulaires SharePoint Server 2013.
   
 Vous pouvez commencer à programmer et à développer vos formulaires InfoPath avec code managé en suivant trois étapes importantes :
   
@@ -23,11 +23,11 @@ Vous pouvez commencer à programmer et à développer vos formulaires InfoPath a
     
 2. Définissez votre langage de programmation, puis écrivez et déboguer du code dans l’éditeur de code Visual Studio 2012.
     
-3. Lorsque vous avez terminé de concevoir le formulaire et de développer votre code, le modèle de formulaire peut être publié dans SharePoint Server 2013.
+3. Lorsque vous avez terminé de concevoir le formulaire et de développer votre code, le modèle de formulaire peut être publié sur SharePoint Server 2013.
     
 Voici quelques raisons de créer des formulaires compatibles avec SharePoint Server 2013 :
   
-- Les formulaires déployés sur SharePoint Server 2013 avec Services des formulaires InfoPath peuvent être remplis dans un navigateur. Cela permet aux utilisateurs qui n’ont pas Installé InfoPath d’ouvrir et d’utiliser vos formulaires.
+- Les formulaires déployés SharePoint Server 2013 avec InfoPath Forms Services peuvent être remplis dans un navigateur. Cela permet aux utilisateurs qui n’ont pas Installé InfoPath d’ouvrir et d’utiliser vos formulaires.
     
 - Vous ne concevez qu’une seule version du formulaire. Les formulaires compatibles avec Microsoft SharePoint Server sont également compatibles avec le caractère de remplissage InfoPath, mais vous ne pouvez pas ouvrir les formulaires compatibles uniquement avec le caractère de remplissage InfoPath dans le navigateur.
     
@@ -39,13 +39,13 @@ Avec Visual Studio 2012 et le module complémentaire Microsoft® Visual Studio®
   
 ### <a name="choosing-a-programming-language"></a>Sélection d'un langage de programmation
 
-InfoPath propose des options de programmation à l’aide de quatre versions du modèle objet InfoPath en deux langages : Visual Basic et C#. Les quatre versions du modèle objet assurent la compatibilité avec InfoPath 2013, InfoPath, Office InfoPath 2007 et Microsoft InfoPath 2003.
+InfoPath propose des options de programmation à l’aide de quatre versions du modèle objet InfoPath en deux langues : Visual Basic et C#. Les quatre versions du modèle objet assurent la compatibilité avec InfoPath 2013, InfoPath, Office InfoPath 2007 et Microsoft InfoPath 2003.
   
 ### <a name="to-specify-the-programming-language-and-object-model"></a>Pour spécifier le langage de programmation et le modèle objet
 
 1. Ouvrez un projet de modèle de formulaire dans le concepteur InfoPath, cliquez sur **Langage** dans l'onglet **Développeur**. 
     
-2. Dans la catégorie **Programmation** de la boîte de dialogue **Options de formulaire**, sélectionnez le langage que vous voulez utiliser dans la liste déroulante **Langage de code du modèle de formulaire**. Ensuite, sélectionnez la version du modèle objet dans la liste de listes listes bas de **la version** cible. **L’option de version** cible qui est compatible uniquement avec InfoPath 2013 n’a pas d’année de version après le nom **InfoPath.** 
+2. Dans la catégorie **Programmation** de la boîte de dialogue **Options de formulaire**, sélectionnez le langage que vous voulez utiliser dans la liste déroulante **Langage de code du modèle de formulaire**. Ensuite, sélectionnez la version du modèle objet dans la liste de listes de **listes** bas de la version cible. **L’option de version** cible qui est compatible uniquement avec InfoPath 2013 n’a pas d’année de version suivant le nom **InfoPath.** 
     
     > [!NOTE]
     > Not all form template types support code. For example, the **SharePoint List** form template type and **Template Parts** do not support form code. When designing a form template type that does not support code, the **Developer** tab will not be available. En outre, seuls certains types de modèles de formulaires sont en charge dans les quatre versions du modèle objet. Par exemple, le type de modèle Formulaire vide **(InfoPath Filler)** prend en charge les quatre versions du modèle objet  (et crée un modèle de formulaire compatible uniquement avec InfoPath Filler dans ces versions), mais le modèle Formulaire vide prend uniquement en charge InfoPath 2013 et InfoPath (et crée des modèles de formulaire compatibles avec InfoPath Filler et le navigateur). 
@@ -64,7 +64,7 @@ InfoPath propose des options de programmation à l’aide de quatre versions du 
 
 Vous pouvez maintenant commencer à développer avec InfoPath 2013 et Visual Studio 2012. 
   
-### <a name="to-start-the-visual-studio-code-editor"></a>Pour démarrer l’éditeur Visual Studio code
+### <a name="to-start-the-visual-studio-code-editor"></a>Pour démarrer l’éditeur Visual Studio Code de publication
 
 1. Ouvrez un modèle de formulaire dans le concepteur InfoPath.
     

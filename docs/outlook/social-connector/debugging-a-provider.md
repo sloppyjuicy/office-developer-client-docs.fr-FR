@@ -19,13 +19,13 @@ ms.locfileid: "32281068"
 
 Il existe plusieurs façons de déboguer un fournisseur Outlook Social Connector (OSC) : 
   
-- À l’aide des commandes de débogage dans le composant ruban de l’interface utilisateur Office Fluent dans Outlook ou de l’application cliente Office de prise en charge, OSC doit prendre différentes mesures.
+- À l’aide des commandes de débogage dans le composant ruban de l’interface utilisateur Office Fluent dans Outlook ou de l’application cliente Office de prise en charge pour que l’OSC prenne différentes mesures.
     
 - Utilisation de Fiddler pour suivre les appels d’API et le XML envoyés entre un réseau social et son fournisseur OSC
     
 ## <a name="debug-buttons"></a>Boutons de débogage
 
-L’extensibilité du fournisseur OSC permet de déboguer un fournisseur OSC. Pour déboguer un fournisseur, créez une valeur de type DWORD dans le Registre Windows sous la clé (comme illustré dans la ligne suivante) et définissez la valeur sur  `DebugProviders`  `SocialConnector`  `DebugProviders` 1. 
+L’extensibilité du fournisseur OSC permet de déboguer un fournisseur OSC. Pour déboguer un fournisseur, créez une valeur de type DWORD dans le Registre Windows sous la clé (comme illustré dans la ligne suivante) et définissez la valeur sur `DebugProviders` `SocialConnector` `DebugProviders` 1. 
   
 `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector`
   
@@ -33,16 +33,16 @@ Par défaut, le débogage du fournisseur est hors service. Si la valeur n’est 
   
 Si le débogage du fournisseur est allumé, l’OSC affiche une boîte de dialogue d’alerte avec des informations détaillées sur les erreurs lorsqu’une erreur se produit et valide tout XML de fournisseur OSC par rapport au schéma XML du fournisseur OSC. En fonction de l’espace de noms spécifié pour une chaîne XML, un fournisseur OSC développé à l’aide d’OSC 1.0 est validé par rapport au fichier de schéma OSC 1.0, OutlookSocialProvider.xsd. Un fournisseur OSC développé à l’aide d’OSC 1.1 ou ultérieur est validé par rapport au fichier de schéma, OutlookSocialProvider_1.1.xsd. Lorsque vous utilisez la valeur, l’alerte de débogage s’affiche pour tous les fournisseurs chargés au lieu  `DebugProviders` d’un fournisseur spécifique. 
   
-Pour afficher les boutons de débogage qui peuvent vous aider à déboguer un fournisseur, créez une valeur de type DWORD dans le Registre Windows sous la clé et définissez la valeur sur  `ShowDebugButtons`  `SocialConnector`  `ShowDebugButtons` 1. Pour masquer les boutons de barre de commandes de débogage, définissez  `ShowDebugButtons` la valeur sur 0. 
+Pour afficher les boutons de débogage qui peuvent vous aider à déboguer un fournisseur, créez une valeur de type DWORD dans le Registre Windows sous la clé et définissez la valeur sur `ShowDebugButtons` `SocialConnector` `ShowDebugButtons` 1. Pour masquer les boutons de barre de commandes de débogage, définissez  `ShowDebugButtons` la valeur sur 0. 
   
-Pour Outlook 2010 et les applications clientes depuis Office 2013, les boutons de débogage apparaissent sous l’onglet Des applications du ruban de l’explorateur.  Pour Outlook 2007 et Outlook 2003, les boutons de débogage apparaissent dans la barre de commandes standard de la fenêtre d’explorateur Outlook. 
+Pour Outlook 2010 et les applications clientes depuis Office 2013, les  boutons de débogage apparaissent sous l’onglet Des applications du ruban de l’explorateur. Pour Outlook 2007 et Outlook 2003, les boutons de débogage apparaissent dans la barre de commandes standard de la fenêtre Outlook’explorateur. 
   
 Le tableau suivant décrit les boutons de débogage.
   
 |**Bouton Déboguer**|**Fonction**|
 |:-----|:-----|
 |Synchroniser les contacts  <br/> |Fait que l’OSC demande uniquement au fournisseur OSC les contacts mis en cache.  <br/> |
-|Synchronisation de laxisme  <br/> |Fait que l’OSC remplit les données de la liste d’adresses globale Exchange vers les contacts Outlook.  <br/> |
+|Synchronisation de laxisme  <br/> |Indique à OSC de remplir les données de la Exchange d’adresses globale pour Outlook contacts.  <br/> |
 |Invalider le cache de catégories  <br/> |Entraîne le rechargement par OSC de la liste des catégories pour chaque magasin lors de l’actualisation du flux d’activités.  <br/> |
    
 ## <a name="fiddler"></a>Fiddler

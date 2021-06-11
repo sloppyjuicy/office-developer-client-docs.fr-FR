@@ -38,7 +38,7 @@ Contient une liste délimitée par des points-virgules d’adresses e-mail et de
     
 [[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Permet la gestion des listes d’adresses de courriers indésirables et la détermination des messages électroniques indésirables.
+> Permet la gestion des listes d’adresses de courriers électroniques indésirables et la détermination des listes d’adresses de courrier indésirable.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

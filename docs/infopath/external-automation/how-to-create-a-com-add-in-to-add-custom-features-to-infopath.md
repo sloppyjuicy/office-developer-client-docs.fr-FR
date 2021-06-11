@@ -35,7 +35,7 @@ L’environnement d’édition InfoPath fournit la prise en charge de l’interf
    
 ## <a name="registering-com-add-ins"></a>Inscription de compl?ments COM
 
-Toutes les applications Office, y compris InfoPath, utilisent le Registre pour lister les add-ins dans la collection com Add-Ins, pour stocker l’état de connexion et pour stocker les informations de chargement de démarrage ou de demande. Pour les compl?ments COM InfoPath, le nom de chaque compl?ment s’affiche sous la clé suivante :
+Toutes les applications Office, y compris InfoPath, utilisent le Registre pour lister les modules complémentaires dans la collection Add-Ins COM, stocker l’état de connexion et stocker les informations de chargement de démarrage ou de demande. Pour les compl?ments COM InfoPath, le nom de chaque compl?ment s’affiche sous la clé suivante :
   
 `HKEY_CURRENT_USER\Software\Microsoft\Office\InfoPath\AddIns\`
   
@@ -47,7 +47,7 @@ Le nom de la clé de Registre correspond au **ProgIdAttribute** du add-in et con
   
 |**Name**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|**FriendlyName** <br/> |**String** <br/> |Nom qui s’affiche dans la boîte de dialogue Des compl?ments **COM** et qui figure dans la page Des compl?ments du Centre **de trust**.   <br/> |
+|**FriendlyName** <br/> |**String** <br/> |Nom affiché dans la boîte de dialogue Des applications **COM** et répertorié dans la **page** Des applications du Centre de **confiance.**  <br/> |
 |**Description** <br/> |**String** <br/> |Chaîne qui s’affiche lorsque le module est sélectionné dans le Centre **de confiance.**  <br/> |
 |**LoadBehavior** <br/> |**DWORD** <br/> |Spécifie le mode de chargement du compl?ment COM. La valeur peut être une combinaison de 0, 1, 2, 8 et 16. Pour plus d’informations, voir le tableau ci-dessous.  <br/> |
    
@@ -56,8 +56,8 @@ La **valeur DWORD** pour **LoadBehavior** doit contenir une valeur décrivant le
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Déconnecté. Le compl?ment s’affiche comme inactif dans la **boîte de dialogue Compl?ment COM.**  <br/> |
-|1   <br/> |Connecté. Le compl?ment s’affiche comme actif dans la boîte **de dialogue Compl?ment COM.**  <br/> |
-|2   <br/> |Charger au démarrage. Le add-in est chargé et connecté au démarrage de l’application hôte.  <br/> |
+|1  <br/> |Connecté. Le compl?ment s’affiche comme actif dans la boîte **de dialogue Compl?ment COM.**  <br/> |
+|2  <br/> |Charger au démarrage. Le add-in est chargé et connecté au démarrage de l’application hôte.  <br/> |
 |8   <br/> |Charger à la demande. Le add-in est chargé et connecté lorsque l’application hôte l’exige, par exemple lorsqu’un utilisateur clique sur un bouton qui utilise les fonctionnalités du module.  <br/> |
 |16   <br/> |Connecter la première fois. Le add-in est chargé et connecté la première fois que l’utilisateur exécute l’application hôte après avoir inscrit le module.  <br/> |
    
@@ -69,7 +69,7 @@ Pour créer un add-in COM géré à l’aide de Microsoft Visual Studio 2005 ou 
     
 2. Dans le menu **Fichier**, cliquez sur **Nouveau projet**.
     
-3. Dans le **volet Types**  de projets de la boîte de dialogue Nouveau projet, cliquez sur le dossier Autres **types** de projets, puis cliquez sur **Extensibilité.**
+3. Dans le **Project Types de** la boîte de dialogue Nouveau **Project,** cliquez sur le dossier Autres **types** de projets, puis cliquez sur **Extensibilité.**
     
 4. Dans le **volet Modèles,** cliquez sur **Ajouter partagé.**
     
@@ -79,7 +79,7 @@ Pour créer un add-in COM géré à l’aide de Microsoft Visual Studio 2005 ou 
     
 7. Cliquez **sur Suivant** dans **l’Assistant De ment partagé.** La page **Sélectionner un langage de** programmation s’affiche. 
     
-8. Cliquez **sur Créer un Visual Basic,** puis sur **Suivant**. La page **Sélectionner un hôte d’application** s’affiche. 
+8. Cliquez **sur Créer un Visual Basic,** puis sur **Suivant.** La page **Sélectionner un hôte d’application** s’affiche. 
     
 9. Décochez les cases en dehors de chaque application **à l’exception de Microsoft InfoPath,** puis cliquez sur **Suivant**. La page **Entrer un nom et une description s’affiche.** 
     
@@ -87,13 +87,13 @@ Pour créer un add-in COM géré à l’aide de Microsoft Visual Studio 2005 ou 
     
 11. Dans la **zone Quelle est la description de** votre compl?ment, tapez la description de votre compl?ment COM, puis cliquez sur **Suivant**. La page **Choisir Add-In options s’affiche.** 
     
-12. Vérifiez que je souhaite que mon **add-in** se charge au chargement de l’application hôte et que Mon application soit disponible pour tous les utilisateurs de l’ordinateur sur qui il a été **installé,** et pas seulement la personne qui l’installe. 
+12. Vérifiez que je souhaite que mon **add-in** soit chargé lors du chargement de l’application hôte et que Mon application soit disponible pour tous les utilisateurs de l’ordinateur sur qui il a été **installé,** et pas seulement la personne qui l’installe. 
     
 13. Cliquez **sur Suivant** pour passer en revue la page **Résumé,** puis cliquez sur **Terminer.**
     
 Une fois le projet créé par Visual Studio, vous verrez deux projets dans la fenêtre Explorateur de solutions. Le premier projet est le projet pour le compl?ment COM ; le deuxième projet est un projet d’installation pour le déploiement du compl?ment COM. L’Assistant De 2013 insère uniquement une référence à la bibliothèque d’objets **Microsoft Office 14.0.** Il est donc nécessaire d’insérer une référence à la bibliothèque d’objets InfoPath en suivant les étapes **ci-après** :
   
-1. Double-cliquez **sur Mon projet pour** afficher les propriétés du projet de add-in. Cliquez sur **l’onglet Références** pour afficher les références ajoutées automatiquement au projet. 
+1. Double-cliquez **sur My Project** pour afficher les propriétés du projet de add-in. Cliquez sur **l’onglet Références** pour afficher les références ajoutées automatiquement au projet. 
     
 2. Cliquez sur le **bouton** Ajouter pour afficher la boîte de dialogue **Ajouter une** référence. 
     
@@ -101,21 +101,21 @@ Une fois le projet créé par Visual Studio, vous verrez deux projets dans la fe
     
 4. L’ajout d’une référence à la bibliothèque de types **Microsoft InfoPath 3.0** ajoute également des références à trois assemblys qui doivent être supprimés : **ADODB,** **MSHTML** et **MSXML2**. Dans **l’Explorateur** de solutions, sous **Références,** cliquez avec le bouton droit sur chacune de ces références, puis cliquez sur **Supprimer.**
     
-## <a name="viewing-the-registry-settings"></a>Affichage des paramètres du Registre
+## <a name="viewing-the-registry-settings"></a>Affichage du registre Paramètres
 
 Pour afficher les paramètres de Registre qui seront créés lors de l’installation du compl?ment COM, suivez les étapes ci-après :
   
-1. Cliquez avec le bouton droit sur le nœud racine du projet d’installation dans l’Explorateur de **solutions,** cliquez sur **Afficher,** puis Sur **Éditeur,** puis cliquez sur **Registre .**
+1. Cliquez avec le bouton droit sur le nœud racine du projet d’installation dans l’Explorateur de **solutions,** cliquez sur **Afficher,** puis Sur **Éditeur,** puis cliquez sur **Registre.**
     
-2. Dans le volet de gauche, cliquez sur le plus pour développer HKEY_LOCAL_MACHINE **,** **Logiciel**, **Microsoft**, **InfoPath,** puis **AddIns**.
+2. Dans le volet de gauche, cliquez sur le plus pour développer HKEY_LOCAL_MACHINE **,** **Logiciel,** **Microsoft,** **InfoPath,** puis **AddIns**.
     
-3. Cliquez sur le nom correspondant à **l’progID** de votre projet de add-in partagé.
+3. Cliquez sur le nom correspondant au **ProgID** de votre projet de add-in partagé.
     
 Pour modifier l’une de ces propriétés, cliquez avec  le bouton droit sur la propriété, cliquez sur Fenêtre Propriétés **et** modifiez la zone Valeur dans la fenêtre **Propriétés.**
   
 ## <a name="compiling-and-distributing-the-shared-add-in"></a>Compilation et distribution des Add-In
 
-Pour compiler le add-in COM géré pour le test sur l’ordinateur sur lequel le projet Add-In partagé a été développé, cliquez avec le bouton droit sur le nœud racine du projet Add-In partagé dans l’Explorateur de solutions, puis cliquez sur Créer. Si le projet est build sans erreur, vous pouvez démarrer l’environnement d’édition InfoPath et commencer à utiliser le compl?ment COM géré. Si une instance d’InfoPath est en cours d’exécution, fermez-la avant de créer le projet. Il peut également être nécessaire d’ouvrir la boîte de dialogue Des compl?ments COM pour vérifier que le compl?ment COM est inscrit. Pour ouvrir la boîte de dialogue Des compl?ments COM, suivez les étapes ci-après :
+Pour compiler le add-in COM géré pour le test sur l’ordinateur sur lequel le projet Add-In partagé a été développé, cliquez avec le bouton droit sur le nœud racine du projet Add-In partagé dans l’Explorateur de solutions, puis cliquez sur Créer. Si le projet est build sans erreur, vous pouvez démarrer l’environnement d’édition InfoPath et commencer à utiliser le compl?ment COM géré. Si une instance d’InfoPath est en cours d’exécution, fermez-la avant de créer le projet. Il peut également être nécessaire d’ouvrir la boîte de dialogue Des compl?ments COM pour vérifier que le compl?ment COM est inscrit. Pour ouvrir la boîte de dialogue Des applications COM, suivez les étapes suivantes :
   
 1. Ouvrez l’environnement d’édition InfoPath. Le moyen le plus simple de le faire consiste à ouvrir un modèle de formulaire existant, qui crée un formulaire basé sur ce modèle de formulaire.
     
@@ -123,13 +123,13 @@ Pour compiler le add-in COM géré pour le test sur l’ordinateur sur lequel le
     
 3. Cliquez sur **la catégorie Des add-ins** sur la gauche. 
     
-4. Dans la section **Gérer** située  en bas de la boîte de dialogue Centre de gestion de la relation utilisateur, sélectionnez les applications **COM** dans la liste, puis cliquez sur **le bouton** Aller. 
+4. Dans la section **Gérer** au  bas de la boîte de dialogue Centre de gestion de la relation, sélectionnez les applications **COM** dans la liste, puis cliquez sur **le bouton** Aller. 
     
-5. Dans la boîte de dialogue Des compl?ments **COM,** vous verrez le nom de votre compl?ment récemment construit et une case doit cocher en regard de celui-ci. S’il n’y a pas de case à cocher en regard, le chargement du compl?ment COM n’a pas d fini en raison d’une erreur, qui sera listée dans la **section** Comportement de chargement de la boîte de dialogue. 
+5. Dans la boîte de dialogue Des compl?ments **COM,** vous verrez le nom de votre compl?ment récemment construit et une case doit cocher en regard de celui-ci. S’il n’y a pas de case à cocher en regard, le chargement du compl?ment COM n’a pas t chargé en raison d’une erreur, qui sera listée dans la **section** Comportement de chargement de la boîte de dialogue. 
     
-Pour compiler le complément COM géré à utiliser sur un ordinateur autre que l’ordinateur sur lequel le projet Add-In partagé a été développé, vous devez suivre des étapes supplémentaires pour sécuriser votre code. Pour plus d’informations sur la sécurisation des Add-In partagés à utiliser sur d’autres ordinateurs, consultez les trois articles suivants :
+Pour compiler le complément COM géré à utiliser sur un ordinateur autre que l’ordinateur sur lequel le projet Add-In partagé a été développé, vous devez suivre des étapes supplémentaires pour sécuriser votre code. Pour plus d’informations sur la sécurisation des projets Add-In partagés pour une utilisation sur d’autres ordinateurs, voir les trois articles suivants :
   
-- [Déploiement d’une Add-Ins COM gérée dans Office XP](https://go.microsoft.com/fwlink/?LinkID=73473)
+- [Déploiement de composants COM gérés Add-Ins dans Office XP](https://go.microsoft.com/fwlink/?LinkID=73473)
   
 - [Utilisation de la solution SHIM de compl?ment COM pour déployer des compl?ments COM gérés dans Office XP](https://go.microsoft.com/fwlink/?LinkID=73474)
   
@@ -139,13 +139,13 @@ Pour compiler le complément COM géré à utiliser sur un ordinateur autre que 
 > Le fait de ne pas isoler le compl?ment COM peut provoquer des fuites de m moir et l’instabilité de l’application. 
   
 > [!NOTE]
-> Si .NET Framework ou d’autres assemblys requis du projet d’installation ne sont pas déjà installés sur les ordinateurs cibles, il se peut que le fichier .msi ne s’installe pas correctement. En outre, vous ne pouvez pas distribuer le fichier .msi, puis essayer d’installer le fichier .msi. Vous devez également distribuer les autres fichiers de support dans le même dossier que le fichier .msi d’origine généré par Visual Studio. 
+> Si le .NET Framework ou d’autres assemblys requis du projet d’installation ne sont pas déjà installés sur les ordinateurs cibles, il se peut que le fichier .msi ne s’installe pas correctement. En outre, vous ne pouvez pas distribuer le fichier .msi puis essayer d’installer le .msi fichier. Vous devez également distribuer les autres fichiers de support dans le même dossier que le fichier .msi d’origine généré par Visual Studio. 
   
 ## <a name="coding-in-the-com-add-in"></a>Codage dans le compl?ment COM
 
 Les événements d’application qui se produisent dans l’environnement d’édition de formulaires InfoPath peuvent être capturés par un compl?ment COM. Les événements [suivants de l’objet ApplicationEvents](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.ApplicationEvents.aspx) peuvent être utilisés par le compl?ment COM pour répondre aux actions de l’utilisateur : 
   
-|**Événement**|**Description**|
+|**Event**|**Description**|
 |:-----|:-----|
 |[NewXDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.NewXDocument.aspx) Événement  <br/> |Se produit lorsqu'un nouveau formulaire est créé.  <br/> |
 |[Quit](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.Quit.aspx) Événement  <br/> |Se produit lorsque l’utilisateur quitte InfoPath.  <br/> |
@@ -158,7 +158,7 @@ Les événements d’application qui se produisent dans l’environnement d’é
 |[XDocumentChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentChange.aspx) Événement  <br/> |Se produit lorsqu’un formulaire est créé, lorsqu’un formulaire est ouvert ou lorsqu’un autre formulaire est activé.  <br/> |
 |[XDocumentOpen](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentOpen.aspx) Événement  <br/> |Se produit à l'ouverture d'un document.  <br/> |
    
-Pour capturer ces événements dans le compl?ment COM, vous devez d déclarer les variables de niveau de classe suivantes dans votre **classe Connect** : 
+Pour capturer ces événements dans le compl?ment COM, vous devez d déclarer les variables de niveau de classe suivantes dans **Connecter** classe : 
   
 ```vb
 InfoPathApplication = DirectCast( _
@@ -178,7 +178,7 @@ InfoPathApplicationEvents =
 
 La première ligne caste  l’objet d’application générique reçu par le _Application3 [objet.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._Application3.aspx) La deuxième ligne caste la propriété [Events](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._Application3.Events.aspx) de **l’objet _Application3** (représenté par la variable **InfoPathApplication)** vers l’objet [ApplicationEvents.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.ApplicationEvents.aspx) 
   
-Pour créer des handlers d’événements, sélectionnez  **InfoPathApplicationEvents** dans la zone de liste verte Nom de la  classe en haut de la fenêtre Visual Studio, puis sélectionnez l’événement à gérer dans la zone de listes listes des noms de méthode en haut de la fenêtre Visual Studio. Par exemple, si vous devez contrôler quand un formulaire est enregistré, vous devez gérer l’événement **XDocumentBeforeSave.** La sélection **de XDocumentBeforeSave** dans la liste drop-down **Nom** de la méthode insère automatiquement la procédure suivante : 
+Pour créer des handlers d’événements, sélectionnez  **InfoPathApplicationEvents** dans la zone de liste verte Nom de classe  en haut de la fenêtre Visual Studio, puis sélectionnez l’événement que vous souhaitez gérer dans la zone de liste rouge Nom de la méthode en haut de la fenêtre Visual Studio. Par exemple, si vous devez contrôler quand un formulaire est enregistré, vous devez gérer l’événement **XDocumentBeforeSave.** La sélection **de XDocumentBeforeSave** dans la liste drop-down **Nom** de la méthode insère automatiquement la procédure suivante : 
   
 ```vb
 Private Sub InfoPathApplicationEvents_XDocumentBeforeSave( _
@@ -196,14 +196,14 @@ private void InfoPathApplicationEvents_XDocumentBeforeSave(
 
 ```
 
-Tous les événements de **l’objet ApplicationEvents** peuvent être gérés par le compl?ment COM en utilisant la m me m thth. 
+Tous les événements de **l’objet ApplicationEvents** peuvent être gérés par le add-in COM à l’aide de la même méthode. 
   
 ## <a name="see-also"></a>Voir aussi
 
 - [Création d Microsoft Office 2000 COM](https://go.microsoft.com/fwlink/?LinkID=73468) 
-- [Création d’une Add-Ins COM gérée Office avec Visual Studio .NET](https://go.microsoft.com/fwlink/?LinkID=73470)
+- [Création de Office com géré Add-Ins avec Visual Studio .NET](https://go.microsoft.com/fwlink/?LinkID=73470)
 - [Working with the IDTExtensibility2 Event Procedures](https://go.microsoft.com/fwlink/?LinkID=73471)
-- [Créer un compl?ment COM Office avec Visual Basic .NET](https://go.microsoft.com/fwlink/?LinkID=73469)
-- [Créer un add-in COM Office à l’aide de Visual C# .NET](https://support.microsoft.com/en-us/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
-- [Création de Add-Ins InfoPath 2007 à l’aide Visual Studio Outils 2005 pour Office System SE](https://msdn.microsoft.com/library/bb968857%28office.12%29.aspx)
+- [Créer un Office COM avec Visual Basic .NET](https://go.microsoft.com/fwlink/?LinkID=73469)
+- [Créer un Office COM à l’aide de Visual C# .NET](https://support.microsoft.com/en-us/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
+- [Création d'Add-Ins InfoPath 2007 à l’aide Visual Studio Outils 2005 pour Office système SE](https://msdn.microsoft.com/library/bb968857%28office.12%29.aspx)
 

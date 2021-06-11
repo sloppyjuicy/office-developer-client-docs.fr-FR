@@ -21,7 +21,7 @@ ms.locfileid: "32307804"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsqu’une application cliente ouvre une magasin de messages, MAPI charge la DLL du fournisseur de la boutique de messages en mémoire. Une fois que MAPI a chargé la DLL, une séquence très spécifique d’appels de méthode se produit entre le fournisseur de la boutique de messages et MAPI. Cette séquence d’appels de méthode permet à MAPI d’obtenir des interfaces [IMSProvider de](imsprovideriunknown.md)niveau supérieur : IUnknown , [IMSLogon : IUnknown](imslogoniunknown.md)et [IMsgStore : interfaces IMAPIProp,](imsgstoreimapiprop.md) et permet au fournisseur de magasin de messages d’obtenir un objet de support MAPI. Après la séquence d’appels, le fournisseur de magasin de messages doit être prêt à accepter les connexions des clients. 
+Lorsqu’une application cliente ouvre une magasin de messages, MAPI charge la DLL du fournisseur de la boutique de messages en mémoire. Une fois que MAPI a chargé la DLL, une séquence très spécifique d’appels de méthode se produit entre le fournisseur de la boutique de messages et MAPI. Cette séquence d’appels de méthode permet à MAPI d’obtenir des interfaces [IMSProvider de](imsprovideriunknown.md)niveau supérieur : IUnknown , [IMSLogon : IUnknown](imslogoniunknown.md)et [IMsgStore : interfaces IMAPIProp,](imsgstoreimapiprop.md) et permet au fournisseur de magasin de messages d’obtenir un objet de support MAPI. Après la séquence d’appels, le fournisseur de la boutique de messages doit être prêt à accepter les connexions des clients. 
   
 La séquence d’appels lors du chargement d’une DLL de fournisseur de messages est la suivante :
   
@@ -33,9 +33,9 @@ La séquence d’appels lors du chargement d’une DLL de fournisseur de message
     
 4. MAPI appelle [IMSProvider::Logon](imsprovider-logon.md), en passant l’identificateur d’entrée de magasin de messages de l’application cliente.
     
-5. **IMSProvider::Logon** crée et renvoie une interface [IMSLogon : IUnknown](imslogoniunknown.md) et une interface [IMsgStore : IMAPIProp,](imsgstoreimapiprop.md) puis appelle la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) sur son interface [IMAPISupport : IUnknown.](imapisupportiunknown.md) Si l’identificateur d’entrée de la magasin de messages du client fait référence à une magasin de messages déjà ouverte, le fournisseur de magasin de messages peut renvoyer les interfaces **IMSLogon** et **IMsgStore** existantes et n’a pas besoin d’appeler **AddRef** sur son objet de support. 
+5. **IMSProvider::Logon** crée et renvoie une interface [IMSLogon : IUnknown](imslogoniunknown.md) et une interface [IMsgStore : IMAPIProp,](imsgstoreimapiprop.md) puis appelle la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) sur son interface [IMAPISupport : IUnknown.](imapisupportiunknown.md) Si l’identificateur d’entrée de magasin de messages du client fait référence à une magasin de messages déjà ouverte, le fournisseur de la boutique de messages peut renvoyer les interfaces **IMSLogon** et **IMsgStore** existantes et n’a pas besoin d’appeler **AddRef** sur son objet de support. 
     
-6. Si le client n’a pas définie l’indicateur MAPI_NO_MAIL lorsqu’il s’est connecté et qu’il n’a pas définie le MDB_NO_MAIL à l’étape 1, MAPI fournit l’identificateur d’entrée de la boutique de messages aupooler MAPI afin que lepooler MAPI puisse se connecter à la magasin de messages.
+6. Si le client n’a pas définie l’indicateur MAPI_NO_MAIL lorsqu’il s’est connecté et qu’il n’a pas définie le MDB_NO_MAIL à l’étape 1, MAPI fournit l’identificateur d’entrée de la boutique de messages aupooler MAPI afin que lepooler MAPI puisse se connecter à la boutique de messages.
     
 7. MAPI renvoie **l’interface IMsgStore** au client. 
     

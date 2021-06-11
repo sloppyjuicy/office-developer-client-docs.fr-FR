@@ -45,11 +45,11 @@ typedef struct {
     
  _muidReserved_
   
-- Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge.
+- Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge.
     
  _ulReserved_
   
-- Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge.
+- Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge.
     
  _dwAlloc_
   
@@ -65,13 +65,13 @@ typedef struct {
     
  _ltidNextAlloc_
   
-- Structure d’ID à long terme identifiant l’entrée disponible suivante.
+- Structure d’ID à long terme identifiant la prochaine entrée disponible.
     
 ## <a name="remarks"></a>Remarques
 
 Un ID d’entrée est un identificateur d’entrée MAPI de 4 byte pour un dossier ou un message. Pour plus d’informations, [voir ENTRYID](https://msdn.microsoft.com/library/ms836424).
   
-Lorsqu’un fournisseur de magasin PST affecte un ID d’entrée à un nouvel objet, il a d’abord besoin d’un GUID qui identifie le serveur et d’un index qui identifie l’objet dans le magasin. Même si le GUID n’est pas unique sur tous les ID d’entrée, le GUID et l’index combinés fournissent une entrée unique. Cette paire GUID et index est suivi par une structure d’ID à long terme, **LTID**, qui fait partie de la structure **OLFI.** 
+Lorsqu’un fournisseur de magasin PST affecte un ID d’entrée à un nouvel objet, il a d’abord besoin d’un GUID qui identifie le serveur et d’un index qui identifie l’objet dans le magasin. Même si le GUID n’est pas unique sur tous les ID d’entrée, le GUID et l’index combinés fournissent une entrée unique. Cette paire GUID/index est suivi par une structure d’ID à long terme, **LTID**, qui fait partie de la structure **OLFI.** 
   
 Le fournisseur de magasins PST ne conserve pas physiquement dans **OLFI** une structure **LTID** pour chaque paire GUID-index. Il conserve une structure **LTID,**  *ltidAlloc*  , pour la première paire GUID-index actuellement disponible ; un nombre,  *dwAlloc*  , du nombre d’entrées disponibles qui partagent ce même GUID ; et une deuxième structure **LTID,**  *ltidNextAlloc*  , pour la paire GUID-index disponible suivante qui a un GUID différent. Le fournisseur de magasins PST utilise la structure **OLFI** pour suivre les GUID et les index qu’il a distribués. À un niveau virtuel, le fournisseur conserve une réserve d’un certain nombre de structures **LTID** prêtes à être allouées.  *dwAlloc tient*  à jour le nombre de structures **LTID** disponibles. 
   
@@ -79,7 +79,7 @@ Les demandes d’ID d’entrée sont des blocs. Lorsqu’une demande de bloc est
   
 Si la taille d’une demande est supérieure à  *dwAlloc,*  le fournisseur de magasins PST tente d’utiliser ce qu’il a en réserve, comme spécifié par  *dwNextAlloc*  et  *ltidNextAlloc*  . Il copie  *dwNextAlloc*  et  *ltidNextAlloc*  vers  *dwAlloc*  et  *ltidAlloc*  respectivement, et définit  *dwNextAlloc*  et  *ltidNextAlloc*  sur NULL. 
   
-Un fournisseur qui encapsule le fournisseur de magasin PST doit régulièrement vérifier  *ltidNextAlloc*  pour voir s’il est NULL. Si c’est le cas, le fournisseur doit le remplir avec un nouveau GUID et réinitialiser  *dwNextAlloc*  afin d’allouer davantage d’ID d’entrée. 
+Un fournisseur qui encapsule le fournisseur de magasin PST doit régulièrement vérifier  *ltidNextAlloc*  pour voir s’il est NULL. Si c’est le cas, le fournisseur doit le remplir avec un nouveau GUID et réinitialiser  *dwNextAlloc*  afin que d’autres ID d’entrée soient alloués. 
   
 ## <a name="see-also"></a>Voir aussi
 

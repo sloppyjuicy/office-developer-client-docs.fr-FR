@@ -34,7 +34,7 @@ Crée une structure nommée qui inclut une structure [DTBLPAGE](dtblpage.md) pou
 SizedDtblPage (n, n1, u)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _n_
   
@@ -50,7 +50,7 @@ _u_
     
 ## <a name="remarks"></a>Remarques
 
-La macro **SizedDtblPage** vous permet de définir un contrôle de page à onglets lorsque le nombre de caractères dans l’étiquette associée et l’entrée du fichier d’aide sont connus. La nouvelle structure est créée avec les membres suivants : 
+La macro **SizedDtblPage** vous permet de définir un contrôle de page à onglets lorsque le nombre de caractères dans l’étiquette associée et l’entrée du fichier d’aide est connu. La nouvelle structure est créée avec les membres suivants : 
   
 ```cpp
 DTBLPAGE dtblpage;

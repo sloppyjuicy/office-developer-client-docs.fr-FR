@@ -21,7 +21,7 @@ ms.locfileid: "32270055"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les implémenteurs de serveur de formulaire doivent s’attendre à ce que la séquence d’appels de méthode suivante s’applique à leur serveur de formulaires et à leurs objets de formulaire lorsqu’une application cliente ouvre un nouveau message pour la composition :
+Les implémenteurs de serveur de formulaire doivent s’attendre à ce que la séquence suivante d’appels de méthode soit appliquée à leur serveur de formulaires et à leurs objets de formulaire lorsqu’une application cliente ouvre un nouveau message pour la composition :
   
 1. L’application cliente appelle [la méthode IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) pour obtenir des informations de classe sur la classe de message du serveur de formulaires. 
     

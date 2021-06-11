@@ -21,11 +21,11 @@ ms.locfileid: "33408326"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une propriété est un attribut d’un objet MAPI. Les propriétés décrivent quelque chose sur l’objet, tel que la ligne d’objet d’un message ou le type d’adresse d’un utilisateur de messagerie. MAPI définit de nombreuses propriétés, certaines pour décrire de nombreux objets et d’autres qui sont appropriées uniquement pour un objet d’un type particulier. Les clients et les fournisseurs de services peuvent étendre l’ensemble de propriétés prédéfinie mapi en créant des propriétés personnalisées. Les clients peuvent définir des propriétés pour décrire de nouvelles classes de messages, et les fournisseurs de services peuvent définir des propriétés pour exposer les fonctionnalités uniques de leur système de messagerie.
+Une propriété est un attribut d’un objet MAPI. Les propriétés décrivent quelque chose sur l’objet, comme la ligne d’objet d’un message ou le type d’adresse d’un utilisateur de messagerie. MAPI définit de nombreuses propriétés, certaines pour décrire de nombreux objets et d’autres qui sont appropriées uniquement pour un objet d’un type particulier. Les clients et les fournisseurs de services peuvent étendre l’ensemble de propriétés prédéfinie mapi en créant des propriétés personnalisées. Les clients peuvent définir des propriétés pour décrire de nouvelles classes de messages, et les fournisseurs de services peuvent définir des propriétés pour exposer les fonctionnalités uniques de leur système de messagerie.
   
 Les propriétés peuvent être persistantes ou temporaires. Les propriétés qui persistent d’une session à l’autre peuvent être stockées avec les données de leurs objets ou dans le profil. Les propriétés temporaires existent uniquement pour la durée de la session en cours. 
   
-Les clients et les fournisseurs de services peuvent afficher les propriétés aux utilisateurs avec une table ou une feuille de propriétés. Les tableaux fournissent aux utilisateurs une vue en lecture seule de certaines propriétés appartenant à plusieurs objets. Les données sont affichées au format de ligne et de colonne, chaque ligne représentant un objet et chaque colonne une propriété. Les feuilles de propriétés sont des boîtes de dialogue à onglets qui affichent les propriétés associées d’un seul objet. Les feuilles de propriétés peuvent fournir un accès en lecture seule ou en lecture/écriture aux données. L’implémenteur de la feuille des propriétés décide si un utilisateur est autorisé ou non à apporter des modifications.
+Les clients et les fournisseurs de services peuvent afficher les propriétés aux utilisateurs avec une table ou une feuille de propriétés. Les tableaux offrent aux utilisateurs une vue en lecture seule de certaines propriétés appartenant à plusieurs objets. Les données sont affichées au format de ligne et de colonne, chaque ligne représentant un objet et chaque colonne une propriété. Les feuilles de propriétés sont des boîtes de dialogue à onglets qui affichent les propriétés associées d’un seul objet. Les feuilles de propriétés peuvent fournir un accès en lecture seule ou en lecture/écriture aux données. L’implémenteur de la feuille des propriétés décide si un utilisateur est autorisé ou non à apporter des modifications.
   
 [L’interface IMAPIProp](imapipropiunknown.md) est l’interface principale pour l’utilisation des propriétés. Tous les objets qui la prise en charge des propriétés **implémentent IMAPIProp**. **IMAPIProp** inclut des méthodes pour récupérer des valeurs de propriétés, copier des propriétés, apporter des modifications et enregistrer ces modifications, établir un mappage entre les noms de propriétés et leurs identificateurs et récupérer des informations sur une erreur précédente. 
   
@@ -33,7 +33,7 @@ Il existe plusieurs structures de données pour décrire les propriétés et les
   
 - Données, ou valeur, de la propriété.
     
-- Type de données de la valeur de la propriété, par exemple, un nombre integer ou booléen. 
+- Type de données de la valeur de la propriété, par exemple, integer ou Boolean. 
     
 - Valeur numérique dans une plage particulière qui identifie de manière unique la propriété et le composant responsables de sa maintenance. Par exemple, il existe une plage pour contenir les propriétés de contenu de message définies par MAPI et une autre plage pour contenir les propriétés de contenu de message définies par un client pour une classe de message personnalisée. 
     

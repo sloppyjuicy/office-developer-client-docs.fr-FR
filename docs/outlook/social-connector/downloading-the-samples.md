@@ -21,17 +21,17 @@ Cette rubrique décrit comment télécharger les exemples de code qui accompagne
   
 ### <a name="to-download-the-sample-code-installation-package"></a>Pour télécharger l’exemple de package d’installation de code
 
-1. Téléchargez le OSCProviderSamples.zip à partir [d’Outlook Social Connector 2013 : modèles de fournisseur.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
+1. Téléchargez le fichier OSCProviderSamples.zip à partir [Outlook Social Connector 2013 : Modèles de fournisseur.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
     
-2. Extrayez le fichier .zip dans le dossier de votre choix. Dans Windows 7, le chemin d’accès par Visual Studio 2010 est C:\Users\ _user_\Documents\Visual Studio 2010\Projects.
+2. Extrayez .zip fichier dans le dossier de votre choix. Dans Windows 7, le chemin d’accès par défaut pour Visual Studio 2010 est C:\Users\ _user_\Documents\Visual Studio 2010\Projects.
     
-3. Après avoir extrait le fichier .zip, vous trouverez les projets suivants dans votre dossier de projets :
+3. Après avoir extrait le .zip, vous trouverez les projets suivants dans votre dossier de projets :
     
    - OSCProvider_CPP : contient le modèle de fournisseur C++.
     
-   - OSCProvider_CS — Contient le modèle de fournisseur C#.
+   - OSCProvider_CS : contient le modèle C# fournisseur.
     
-   - OSCProvider_VB contient le modèle Visual Basic fournisseur.
+   - OSCProvider_VB : contient le modèle Visual Basic fournisseur.
     
 ## <a name="see-also"></a>Voir aussi
 

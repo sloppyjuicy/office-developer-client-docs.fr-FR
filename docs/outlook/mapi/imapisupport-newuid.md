@@ -33,7 +33,7 @@ LPMAPIUID lpMuid
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMuid_
   
@@ -47,11 +47,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::NewUID** est implémentée pour tous les objets de prise en charge. Les fournisseurs de services et les services de messagerie **appellent NewUID** chaque fois qu’ils ont besoin de générer un identificateur unique à long terme. Un fournisseur de magasin de messages, par exemple, peut appeler **NewUID** pour obtenir un **MAPIUID** à placer dans la propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) d’un message nouvellement créé.
+La **méthode IMAPISupport::NewUID** est implémentée pour tous les objets de prise en charge. Les fournisseurs de services et les services de messagerie **appellent NewUID** chaque fois qu’ils ont besoin de générer un identificateur unique à long terme. Un fournisseur de magasins de messages, par exemple, peut appeler **NewUID** pour obtenir un **MAPIUID** à placer dans la propriété **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) d’un message nouvellement créé.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Ne confondez pas la structure **MAPIUID** que vous inscrivez au moment de l’inscription avec les structures **MAPIUID** créées par la méthode **NewUID.** La structure **MAPIUID** que vous inscrivez lorsque vous appelez la méthode [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) représente votre carnet d’adresses ou fournisseur de magasin de messages mapi et est utilisée pour distinguer les identificateurs d’entrée créés par différents fournisseurs. Cette structure **MAPIUID** doit être codée en dur et ne doit pas être obtenue via un appel à **NewUID**.
+Ne confondez pas la structure **MAPIUID** que vous inscrivez au moment de l’inscription avec les structures **MAPIUID** créées par la méthode **NewUID.** La structure **MAPIUID** que vous inscrivez lorsque vous appelez la méthode [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md) représente votre carnet d’adresses ou votre fournisseur de magasin de messages mapi et est utilisée pour distinguer les identificateurs d’entrée créés par différents fournisseurs. Cette structure **MAPIUID** doit être codée en dur et ne doit pas être obtenue via un appel à **NewUID**.
   
 ## <a name="see-also"></a>Voir aussi
 

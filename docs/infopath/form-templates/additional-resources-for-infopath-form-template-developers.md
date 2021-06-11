@@ -23,17 +23,17 @@ Les développeurs qui utilisent des projets Microsoft InfoPath avec code managé
 
 - **Microsoft Office InfoPath :** informations conceptuelles et procédurales sur la conception de modèles de formulaires avec InfoPath. Pour accéder Microsoft Office’aide d’InfoPath, sélectionnez **le** bouton Aide dans Microsoft InfoPath. Lorsque vous êtes connecté à Internet, du contenu supplémentaire et des rubriques d’aide mises à jour sont intégrés à l’aide du site web Microsoft Office Online. 
     
-- [Centre de développement InfoPath](https://go.microsoft.com/fwlink?LinkID=11689): ce site web contient des livres blancs, des exemples de formulaires, des outils, des articles et des informations sur le développement de modèles de formulaires InfoPath.
+- [Centre pour développeurs InfoPath](https://go.microsoft.com/fwlink?LinkID=11689): ce site web contient des livres blancs, des exemples de formulaires, des outils, des articles et des informations sur le développement de modèles de formulaires InfoPath.
     
-- Kit de développement logiciel **(SDK) Microsoft SharePoint Server 2010**: informations conceptuelles, procédurales et de programmation pour les développeurs qui utilisent des Services des formulaires InfoPath inclus dans Microsoft SharePoint Server 2010. Pour plus d'informations, voir [SharePoint Developer Center](https://msdn.microsoft.com/sharepoint/default.aspx).
+- Microsoft SharePoint Server Kit de développement logiciel **(SDK) 2010**: informations conceptuelles, procédurales et de programmation pour les développeurs qui travaillent avec des InfoPath Forms Services incluses dans le cadre de Microsoft SharePoint Server 2010. Pour plus d'informations, voir [SharePoint Developer Center](https://msdn.microsoft.com/sharepoint/default.aspx).
     
-- [Centre pour développeurs Office](https://go.microsoft.com/fwlink?LinkID=27128): informations sur l’utilisation des programmes dans Microsoft Office système en tant que plateforme de développement. 
+- [Office développeur :](https://go.microsoft.com/fwlink?LinkID=27128)informations sur l’utilisation de programmes dans le Microsoft Office en tant que plateforme de développement. 
     
-- [Microsoft Developer Network (MSDN)](https://go.microsoft.com/fwlink?LinkId=61826): informations sur divers outils et plateformes de développement Microsoft.
+- [Microsoft Developer Network (MSDN)](https://go.microsoft.com/fwlink?LinkId=61826): informations sur une variété de plateformes et d’outils de développement Microsoft.
     
 - [Centre de développement XML](https://go.microsoft.com/fwlink/?LinkId=61827): informations sur le développement de programmes et de services qui utilisent XML.
     
-- [Centre de développement .NET Framework](https://go.microsoft.com/fwlink/?LinkId=61829): informations sur le développement de programmes et de services qui utilisent .NET Framework.
+- [.NET Framework développeur :](https://go.microsoft.com/fwlink/?LinkId=61829)informations sur le développement de programmes et de services qui utilisent le .NET Framework.
     
 - [Centre de solutions InfoPath](https://support.microsoft.com/ph/11303): informations sur InfoPath, telles que des articles de la Base de connaissances, fournis par les services de support Microsoft.
     

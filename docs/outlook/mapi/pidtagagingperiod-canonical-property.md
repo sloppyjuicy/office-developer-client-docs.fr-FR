@@ -50,7 +50,7 @@ Les valeurs possibles **pour PR_AGING_GRANULARITY** peuvent être l’une des va
 |**AG_WEEKS** <br/> |**PR_AGING_PERIOD** est défini en nombre de semaines.  <br/> |
 |**AG_DAYS** <br/> |**PR_AGING_PERIOD** est défini en nombre de jours.  <br/> |
    
-Par exemple, si un dossier archive un élément uniquement après avoir été  dans le  dossier pendant deux semaines, PR_AGING_GRANULARITY est AG_WEEKS et **PR_AGING_PERIOD** est 2. 
+Par exemple, si un dossier archive un élément uniquement après avoir été dans le  dossier pendant deux semaines, **PR_AGING_GRANULARITY** est AG_WEEKS et **PR_AGING_PERIOD** est 2. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

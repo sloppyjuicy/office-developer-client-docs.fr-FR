@@ -28,7 +28,7 @@ HRESULT BeginEnumerateAppointments(
     void **ppContext);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pfnProgress_
   
