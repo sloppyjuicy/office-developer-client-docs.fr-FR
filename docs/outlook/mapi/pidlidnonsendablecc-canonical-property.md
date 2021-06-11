@@ -19,57 +19,57 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32319655"
 ---
-# <a name="pidlidnonsendablecc-canonical-property"></a><span data-ttu-id="250ef-103">Propriété canonique PidLidNonSendableCc</span><span class="sxs-lookup"><span data-stu-id="250ef-103">PidLidNonSendableCc Canonical Property</span></span>
+# <a name="pidlidnonsendablecc-canonical-property"></a><span data-ttu-id="258b5-103">Propriété canonique PidLidNonSendableCc</span><span class="sxs-lookup"><span data-stu-id="258b5-103">PidLidNonSendableCc Canonical Property</span></span>
 
   
   
-<span data-ttu-id="250ef-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="250ef-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="258b5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="258b5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="250ef-105">Contient une liste de tous les participants qui ne peuvent pas être invités et qui sont également des participants facultatifs.</span><span class="sxs-lookup"><span data-stu-id="250ef-105">Contains a list of all the unsendable attendees who are also optional attendees.</span></span>
+<span data-ttu-id="258b5-105">Contient une liste de tous les participants qui ne peuvent pas être invités et qui sont également des participants facultatifs.</span><span class="sxs-lookup"><span data-stu-id="258b5-105">Contains a list of all the unsendable attendees who are also optional attendees.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="250ef-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="250ef-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="250ef-107">dispidNonSendableCC</span><span class="sxs-lookup"><span data-stu-id="250ef-107">dispidNonSendableCC</span></span>  <br/> |
-|<span data-ttu-id="250ef-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="250ef-108">Property set:</span></span>  <br/> |<span data-ttu-id="250ef-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="250ef-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="250ef-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="250ef-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="250ef-111">0x00008537</span><span class="sxs-lookup"><span data-stu-id="250ef-111">0x00008537</span></span>  <br/> |
-|<span data-ttu-id="250ef-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="250ef-112">Data type:</span></span>  <br/> |<span data-ttu-id="250ef-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="250ef-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="250ef-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="250ef-114">Area:</span></span>  <br/> |<span data-ttu-id="250ef-115">Réunions</span><span class="sxs-lookup"><span data-stu-id="250ef-115">Meetings</span></span>  <br/> |
+|<span data-ttu-id="258b5-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="258b5-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="258b5-107">dispidNonSendableCC</span><span class="sxs-lookup"><span data-stu-id="258b5-107">dispidNonSendableCC</span></span>  <br/> |
+|<span data-ttu-id="258b5-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="258b5-108">Property set:</span></span>  <br/> |<span data-ttu-id="258b5-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="258b5-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="258b5-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="258b5-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="258b5-111">0x00008537</span><span class="sxs-lookup"><span data-stu-id="258b5-111">0x00008537</span></span>  <br/> |
+|<span data-ttu-id="258b5-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="258b5-112">Data type:</span></span>  <br/> |<span data-ttu-id="258b5-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="258b5-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="258b5-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="258b5-114">Area:</span></span>  <br/> |<span data-ttu-id="258b5-115">Réunions</span><span class="sxs-lookup"><span data-stu-id="258b5-115">Meetings</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="250ef-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="250ef-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="258b5-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="258b5-116">Remarks</span></span>
 
-<span data-ttu-id="250ef-117">La valeur de chaque participant est **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) du carnet d’adresses du participant.</span><span class="sxs-lookup"><span data-stu-id="250ef-117">The value for each attendee is the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of the attendee's Address Book.</span></span> <span data-ttu-id="250ef-118">Les entrées distinctes doivent être délimitées par un point-virgule suivi d’un espace.</span><span class="sxs-lookup"><span data-stu-id="250ef-118">Separate entries must be delimited by a semicolon followed by a space.</span></span> <span data-ttu-id="250ef-119">Cette propriété n’est pas obligatoire.</span><span class="sxs-lookup"><span data-stu-id="250ef-119">This property is not required.</span></span>
+<span data-ttu-id="258b5-117">La valeur de chaque participant est **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) du carnet d’adresses du participant.</span><span class="sxs-lookup"><span data-stu-id="258b5-117">The value for each attendee is the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property of the attendee's Address Book.</span></span> <span data-ttu-id="258b5-118">Les entrées distinctes doivent être délimitées par un point-virgule suivi d’un espace.</span><span class="sxs-lookup"><span data-stu-id="258b5-118">Separate entries must be delimited by a semicolon followed by a space.</span></span> <span data-ttu-id="258b5-119">Cette propriété n’est pas obligatoire.</span><span class="sxs-lookup"><span data-stu-id="258b5-119">This property is not required.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="250ef-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="250ef-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="258b5-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="258b5-120">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="250ef-121">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="250ef-121">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="258b5-121">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="258b5-121">Protocol specifications</span></span>
 
-<span data-ttu-id="250ef-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="250ef-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="258b5-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="258b5-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="250ef-123">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="250ef-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="258b5-123">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="258b5-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="250ef-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="250ef-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="258b5-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="258b5-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="250ef-125">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="250ef-125">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="258b5-125">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="258b5-125">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-<span data-ttu-id="250ef-126">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="250ef-126">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="258b5-126">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="258b5-126">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="250ef-127">Convertit les objets RFC2445, RFC2446 et RFC2447 de l’IETF, ainsi que les objets de rendez-vous et de réunion.</span><span class="sxs-lookup"><span data-stu-id="250ef-127">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="258b5-127">Convertit les objets RFC2445, RFC2446 et RFC2447 de l’IETF, ainsi que les objets de rendez-vous et de réunion.</span><span class="sxs-lookup"><span data-stu-id="258b5-127">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="250ef-128">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="250ef-128">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="258b5-128">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="258b5-128">Header files</span></span>
 
-<span data-ttu-id="250ef-129">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="250ef-129">Mapidefs.h</span></span>
+<span data-ttu-id="258b5-129">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="258b5-129">Mapidefs.h</span></span>
   
-> <span data-ttu-id="250ef-130">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="250ef-130">Provides data type definitions.</span></span>
+> <span data-ttu-id="258b5-130">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="258b5-130">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="250ef-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="250ef-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="258b5-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="258b5-131">See also</span></span>
 
 
 
-[<span data-ttu-id="250ef-132">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="250ef-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="258b5-132">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="258b5-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="250ef-133">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="250ef-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="258b5-133">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="258b5-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="250ef-134">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="250ef-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="258b5-134">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="258b5-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="250ef-135">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="250ef-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="258b5-135">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="258b5-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

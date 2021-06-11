@@ -19,56 +19,56 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32330106"
 ---
-# <a name="pidtagscheduleinfodontmaildelegates-canonical-property"></a><span data-ttu-id="4f0cd-103">Propriété canonique PidTagScheduleInfoDontMailDelegates</span><span class="sxs-lookup"><span data-stu-id="4f0cd-103">PidTagScheduleInfoDontMailDelegates Canonical Property</span></span>
+# <a name="pidtagscheduleinfodontmaildelegates-canonical-property"></a><span data-ttu-id="b92ee-103">Propriété canonique PidTagScheduleInfoDontMailDelegates</span><span class="sxs-lookup"><span data-stu-id="b92ee-103">PidTagScheduleInfoDontMailDelegates Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4f0cd-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4f0cd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b92ee-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b92ee-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4f0cd-105">Contient TRUE si le délégué ne souhaite pas recevoir de mises à jour.</span><span class="sxs-lookup"><span data-stu-id="4f0cd-105">Contains TRUE if the delegate does not want to receive updates.</span></span>
+<span data-ttu-id="b92ee-105">Contient TRUE si le délégué ne souhaite pas recevoir de mises à jour.</span><span class="sxs-lookup"><span data-stu-id="b92ee-105">Contains TRUE if the delegate does not want to receive updates.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4f0cd-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="4f0cd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4f0cd-107">PR_SCHDINFO_DONT_MAIL_DELEGATES</span><span class="sxs-lookup"><span data-stu-id="4f0cd-107">PR_SCHDINFO_DONT_MAIL_DELEGATES</span></span>  <br/> |
-|<span data-ttu-id="4f0cd-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="4f0cd-108">Identifier:</span></span>  <br/> |<span data-ttu-id="4f0cd-109">0x6843</span><span class="sxs-lookup"><span data-stu-id="4f0cd-109">0x6843</span></span>  <br/> |
-|<span data-ttu-id="4f0cd-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="4f0cd-110">Data type:</span></span>  <br/> |<span data-ttu-id="4f0cd-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="4f0cd-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="4f0cd-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="4f0cd-112">Area:</span></span>  <br/> |<span data-ttu-id="4f0cd-113">Libre/Occupé</span><span class="sxs-lookup"><span data-stu-id="4f0cd-113">Free/Busy</span></span>  <br/> |
+|<span data-ttu-id="b92ee-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="b92ee-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b92ee-107">PR_SCHDINFO_DONT_MAIL_DELEGATES</span><span class="sxs-lookup"><span data-stu-id="b92ee-107">PR_SCHDINFO_DONT_MAIL_DELEGATES</span></span>  <br/> |
+|<span data-ttu-id="b92ee-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="b92ee-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b92ee-109">0x6843</span><span class="sxs-lookup"><span data-stu-id="b92ee-109">0x6843</span></span>  <br/> |
+|<span data-ttu-id="b92ee-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="b92ee-110">Data type:</span></span>  <br/> |<span data-ttu-id="b92ee-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="b92ee-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="b92ee-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="b92ee-112">Area:</span></span>  <br/> |<span data-ttu-id="b92ee-113">Libre/Occupé</span><span class="sxs-lookup"><span data-stu-id="b92ee-113">Free/Busy</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4f0cd-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="4f0cd-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b92ee-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="b92ee-114">Remarks</span></span>
 
-<span data-ttu-id="4f0cd-115">Cette propriété doit être définie dans l’objet d’informations du délégué.</span><span class="sxs-lookup"><span data-stu-id="4f0cd-115">This property must be set in the delegate information object.</span></span>
+<span data-ttu-id="b92ee-115">Cette propriété doit être définie dans l’objet d’informations du délégué.</span><span class="sxs-lookup"><span data-stu-id="b92ee-115">This property must be set in the delegate information object.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="4f0cd-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="4f0cd-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="b92ee-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="b92ee-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="4f0cd-117">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="4f0cd-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="b92ee-117">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="b92ee-117">Protocol specifications</span></span>
 
-<span data-ttu-id="4f0cd-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4f0cd-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="b92ee-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b92ee-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4f0cd-119">Fournit des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="4f0cd-119">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="b92ee-119">Fournit des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="b92ee-119">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="4f0cd-120">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4f0cd-120">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="b92ee-120">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b92ee-120">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4f0cd-121">Publie la disponibilité d’un utilisateur ou d’une ressource.</span><span class="sxs-lookup"><span data-stu-id="4f0cd-121">Publishes the availability of a user or resource.</span></span>
+> <span data-ttu-id="b92ee-121">Publie la disponibilité d’un utilisateur ou d’une ressource.</span><span class="sxs-lookup"><span data-stu-id="b92ee-121">Publishes the availability of a user or resource.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="4f0cd-122">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="4f0cd-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="b92ee-122">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="b92ee-122">Header files</span></span>
 
-<span data-ttu-id="4f0cd-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4f0cd-123">Mapidefs.h</span></span>
+<span data-ttu-id="b92ee-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b92ee-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4f0cd-124">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="4f0cd-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="b92ee-124">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="b92ee-124">Provides data type definitions.</span></span>
     
-<span data-ttu-id="4f0cd-125">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="4f0cd-125">Mapitags.h</span></span>
+<span data-ttu-id="b92ee-125">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="b92ee-125">Mapitags.h</span></span>
   
-> <span data-ttu-id="4f0cd-126">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="4f0cd-126">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="b92ee-126">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="b92ee-126">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4f0cd-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4f0cd-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b92ee-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b92ee-127">See also</span></span>
 
 
 
-[<span data-ttu-id="4f0cd-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="4f0cd-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="b92ee-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="b92ee-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4f0cd-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="4f0cd-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="b92ee-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="b92ee-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4f0cd-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="4f0cd-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="b92ee-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="b92ee-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4f0cd-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="4f0cd-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="b92ee-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="b92ee-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32336924"
 ---
-# <a name="pidlidlogend-canonical-property"></a><span data-ttu-id="b91e6-103">Propriété canonique PidLidLogEnd</span><span class="sxs-lookup"><span data-stu-id="b91e6-103">PidLidLogEnd Canonical Property</span></span>
+# <a name="pidlidlogend-canonical-property"></a><span data-ttu-id="7b594-103">Propriété canonique PidLidLogEnd</span><span class="sxs-lookup"><span data-stu-id="7b594-103">PidLidLogEnd Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b91e6-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b91e6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7b594-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7b594-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b91e6-105">Représente la date et l’heure de fin du message de journal.</span><span class="sxs-lookup"><span data-stu-id="b91e6-105">Represents the end date and time for the journal message.</span></span>
+<span data-ttu-id="7b594-105">Représente la date et l’heure de fin du message de journal.</span><span class="sxs-lookup"><span data-stu-id="7b594-105">Represents the end date and time for the journal message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b91e6-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="b91e6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b91e6-107">dispidLogEnd</span><span class="sxs-lookup"><span data-stu-id="b91e6-107">dispidLogEnd</span></span>  <br/> |
-|<span data-ttu-id="b91e6-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="b91e6-108">Property set:</span></span>  <br/> |<span data-ttu-id="b91e6-109">PSETID_Log</span><span class="sxs-lookup"><span data-stu-id="b91e6-109">PSETID_Log</span></span>  <br/> |
-|<span data-ttu-id="b91e6-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="b91e6-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="b91e6-111">0x00008708</span><span class="sxs-lookup"><span data-stu-id="b91e6-111">0x00008708</span></span>  <br/> |
-|<span data-ttu-id="b91e6-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="b91e6-112">Data type:</span></span>  <br/> |<span data-ttu-id="b91e6-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="b91e6-113">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="b91e6-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="b91e6-114">Area:</span></span>  <br/> |<span data-ttu-id="b91e6-115">Journal</span><span class="sxs-lookup"><span data-stu-id="b91e6-115">Journal</span></span>  <br/> |
+|<span data-ttu-id="7b594-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="7b594-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7b594-107">dispidLogEnd</span><span class="sxs-lookup"><span data-stu-id="7b594-107">dispidLogEnd</span></span>  <br/> |
+|<span data-ttu-id="7b594-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="7b594-108">Property set:</span></span>  <br/> |<span data-ttu-id="7b594-109">PSETID_Log</span><span class="sxs-lookup"><span data-stu-id="7b594-109">PSETID_Log</span></span>  <br/> |
+|<span data-ttu-id="7b594-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="7b594-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="7b594-111">0x00008708</span><span class="sxs-lookup"><span data-stu-id="7b594-111">0x00008708</span></span>  <br/> |
+|<span data-ttu-id="7b594-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="7b594-112">Data type:</span></span>  <br/> |<span data-ttu-id="7b594-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="7b594-113">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="7b594-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="7b594-114">Area:</span></span>  <br/> |<span data-ttu-id="7b594-115">Journal</span><span class="sxs-lookup"><span data-stu-id="7b594-115">Journal</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b91e6-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="b91e6-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7b594-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="7b594-116">Remarks</span></span>
 
-<span data-ttu-id="b91e6-117">Heure à laquelle l’activité s’est terminée en temps universel coordonné (UTC), qui doit être égal à la propriété **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) et supérieur ou égal à la propriété **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="b91e6-117">The time when the activity ended in Coordinated Universal Time The (UTC), which must be equal to the **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) property and greater than or equal to **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)) property.</span></span>
+<span data-ttu-id="7b594-117">Heure à laquelle l’activité s’est terminée en temps universel coordonné (UTC), qui doit être égal à la propriété **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) et supérieur ou égal à la propriété **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="7b594-117">The time when the activity ended in Coordinated Universal Time The (UTC), which must be equal to the **dispidCommonEnd** ([PidLidCommonEnd](pidlidcommonend-canonical-property.md)) property and greater than or equal to **dispidLogStart** ([PidLidLogStart](pidlidlogstart-canonical-property.md)) property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="b91e6-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="b91e6-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="7b594-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="7b594-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b91e6-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="b91e6-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="7b594-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="7b594-119">Protocol specifications</span></span>
 
-<span data-ttu-id="b91e6-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b91e6-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7b594-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7b594-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b91e6-121">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="b91e6-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="7b594-121">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="7b594-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="b91e6-122">[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b91e6-122">[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7b594-122">[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7b594-122">[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b91e6-123">Spécifie les propriétés et opérations autorisées pour les journaux.</span><span class="sxs-lookup"><span data-stu-id="b91e6-123">Specifies the properties and operations that are permissible for journals.</span></span>
+> <span data-ttu-id="7b594-123">Spécifie les propriétés et opérations autorisées pour les journaux.</span><span class="sxs-lookup"><span data-stu-id="7b594-123">Specifies the properties and operations that are permissible for journals.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b91e6-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="b91e6-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="7b594-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="7b594-124">Header files</span></span>
 
-<span data-ttu-id="b91e6-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b91e6-125">Mapidefs.h</span></span>
+<span data-ttu-id="7b594-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7b594-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b91e6-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="b91e6-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="7b594-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="7b594-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b91e6-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b91e6-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7b594-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7b594-127">See also</span></span>
 
 
 
-[<span data-ttu-id="b91e6-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="b91e6-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="7b594-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="7b594-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b91e6-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="b91e6-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="7b594-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="7b594-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b91e6-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="b91e6-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="7b594-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="7b594-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b91e6-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="b91e6-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="7b594-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="7b594-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

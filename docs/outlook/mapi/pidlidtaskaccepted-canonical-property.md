@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32331282"
 ---
-# <a name="pidlidtaskaccepted-canonical-property"></a><span data-ttu-id="480d7-103">Propriété canonique PidLidTaskAccepted</span><span class="sxs-lookup"><span data-stu-id="480d7-103">PidLidTaskAccepted Canonical Property</span></span>
+# <a name="pidlidtaskaccepted-canonical-property"></a><span data-ttu-id="c5b95-103">Propriété canonique PidLidTaskAccepted</span><span class="sxs-lookup"><span data-stu-id="c5b95-103">PidLidTaskAccepted Canonical Property</span></span>
 
   
   
-<span data-ttu-id="480d7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="480d7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c5b95-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c5b95-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="480d7-105">Indique si une personne à la tâche a répondu à une demande de tâche.</span><span class="sxs-lookup"><span data-stu-id="480d7-105">Indicates whether a task assignee has replied to a task request.</span></span>
+<span data-ttu-id="c5b95-105">Indique si une personne à la tâche a répondu à une demande de tâche.</span><span class="sxs-lookup"><span data-stu-id="c5b95-105">Indicates whether a task assignee has replied to a task request.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="480d7-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="480d7-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="480d7-107">dispidTaskAccepted</span><span class="sxs-lookup"><span data-stu-id="480d7-107">dispidTaskAccepted</span></span>  <br/> |
-|<span data-ttu-id="480d7-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="480d7-108">Property set:</span></span>  <br/> |<span data-ttu-id="480d7-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="480d7-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="480d7-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="480d7-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="480d7-111">0x00008108</span><span class="sxs-lookup"><span data-stu-id="480d7-111">0x00008108</span></span>  <br/> |
-|<span data-ttu-id="480d7-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="480d7-112">Data type:</span></span>  <br/> |<span data-ttu-id="480d7-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="480d7-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="480d7-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="480d7-114">Area:</span></span>  <br/> |<span data-ttu-id="480d7-115">Tâche</span><span class="sxs-lookup"><span data-stu-id="480d7-115">Task</span></span>  <br/> |
+|<span data-ttu-id="c5b95-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c5b95-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c5b95-107">dispidTaskAccepted</span><span class="sxs-lookup"><span data-stu-id="c5b95-107">dispidTaskAccepted</span></span>  <br/> |
+|<span data-ttu-id="c5b95-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="c5b95-108">Property set:</span></span>  <br/> |<span data-ttu-id="c5b95-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="c5b95-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="c5b95-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="c5b95-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="c5b95-111">0x00008108</span><span class="sxs-lookup"><span data-stu-id="c5b95-111">0x00008108</span></span>  <br/> |
+|<span data-ttu-id="c5b95-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c5b95-112">Data type:</span></span>  <br/> |<span data-ttu-id="c5b95-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="c5b95-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="c5b95-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c5b95-114">Area:</span></span>  <br/> |<span data-ttu-id="c5b95-115">Tâche</span><span class="sxs-lookup"><span data-stu-id="c5b95-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="480d7-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="480d7-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c5b95-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="c5b95-116">Remarks</span></span>
 
-<span data-ttu-id="480d7-117">Le client définit cette propriété sur FALSE pour une nouvelle tâche ou sur TRUE lorsqu’une tâche est acceptée ou rejetée.</span><span class="sxs-lookup"><span data-stu-id="480d7-117">The client sets this property to FALSE for a new task, or the client sets this property to TRUE when a task is either accepted or rejected.</span></span> <span data-ttu-id="480d7-118">Si la propriété n’est pas jeu, la valeur FALSE est supposée.</span><span class="sxs-lookup"><span data-stu-id="480d7-118">If the property is left unset, a value of FALSE is assumed.</span></span>
+<span data-ttu-id="c5b95-117">Le client définit cette propriété sur FALSE pour une nouvelle tâche ou sur TRUE lorsqu’une tâche est acceptée ou rejetée.</span><span class="sxs-lookup"><span data-stu-id="c5b95-117">The client sets this property to FALSE for a new task, or the client sets this property to TRUE when a task is either accepted or rejected.</span></span> <span data-ttu-id="c5b95-118">Si la propriété n’est pas jeu, la valeur FALSE est supposée.</span><span class="sxs-lookup"><span data-stu-id="c5b95-118">If the property is left unset, a value of FALSE is assumed.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="480d7-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="480d7-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c5b95-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="c5b95-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="480d7-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="480d7-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="c5b95-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="c5b95-120">Protocol specifications</span></span>
 
-<span data-ttu-id="480d7-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="480d7-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c5b95-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c5b95-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="480d7-122">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="480d7-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="c5b95-122">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="c5b95-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="480d7-123">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="480d7-123">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c5b95-123">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c5b95-123">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="480d7-124">Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="480d7-124">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="c5b95-124">Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="c5b95-124">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="480d7-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="480d7-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c5b95-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="c5b95-125">Header files</span></span>
 
-<span data-ttu-id="480d7-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="480d7-126">Mapidefs.h</span></span>
+<span data-ttu-id="c5b95-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c5b95-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="480d7-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="480d7-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="c5b95-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="c5b95-127">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="480d7-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="480d7-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c5b95-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c5b95-128">See also</span></span>
 
 
 
-[<span data-ttu-id="480d7-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="480d7-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c5b95-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="c5b95-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="480d7-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="480d7-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c5b95-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="c5b95-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="480d7-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="480d7-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c5b95-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="c5b95-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="480d7-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="480d7-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c5b95-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="c5b95-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

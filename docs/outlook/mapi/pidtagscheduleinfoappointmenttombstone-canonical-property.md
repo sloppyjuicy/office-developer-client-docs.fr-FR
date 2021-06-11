@@ -19,74 +19,74 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32321321"
 ---
-# <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a><span data-ttu-id="4361d-103">Propriété canonique PidTagScheduleInfoAppointmentTombstone</span><span class="sxs-lookup"><span data-stu-id="4361d-103">PidTagScheduleInfoAppointmentTombstone Canonical Property</span></span>
+# <a name="pidtagscheduleinfoappointmenttombstone-canonical-property"></a><span data-ttu-id="33090-103">Propriété canonique PidTagScheduleInfoAppointmentTombstone</span><span class="sxs-lookup"><span data-stu-id="33090-103">PidTagScheduleInfoAppointmentTombstone Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4361d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4361d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="33090-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="33090-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4361d-105">Contient une liste de blocs de données qui représentent les réunions qui ont été refusées.</span><span class="sxs-lookup"><span data-stu-id="4361d-105">Contains a list of data blocks that represent meetings that have been declined.</span></span>
+<span data-ttu-id="33090-105">Contient une liste de blocs de données qui représentent des réunions qui ont été refusées.</span><span class="sxs-lookup"><span data-stu-id="33090-105">Contains a list of data blocks that represent meetings that have been declined.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4361d-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="4361d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4361d-107">PR_SCHDINFO_APPT_TOMBSTONE</span><span class="sxs-lookup"><span data-stu-id="4361d-107">PR_SCHDINFO_APPT_TOMBSTONE</span></span>  <br/> |
-|<span data-ttu-id="4361d-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="4361d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="4361d-109">0x686A</span><span class="sxs-lookup"><span data-stu-id="4361d-109">0x686A</span></span>  <br/> |
-|<span data-ttu-id="4361d-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="4361d-110">Data type:</span></span>  <br/> |<span data-ttu-id="4361d-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="4361d-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="4361d-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="4361d-112">Area:</span></span>  <br/> |<span data-ttu-id="4361d-113">Libre/Occupé</span><span class="sxs-lookup"><span data-stu-id="4361d-113">Free/Busy</span></span>  <br/> |
+|<span data-ttu-id="33090-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="33090-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="33090-107">PR_SCHDINFO_APPT_TOMBSTONE</span><span class="sxs-lookup"><span data-stu-id="33090-107">PR_SCHDINFO_APPT_TOMBSTONE</span></span>  <br/> |
+|<span data-ttu-id="33090-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="33090-108">Identifier:</span></span>  <br/> |<span data-ttu-id="33090-109">0x686A</span><span class="sxs-lookup"><span data-stu-id="33090-109">0x686A</span></span>  <br/> |
+|<span data-ttu-id="33090-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="33090-110">Data type:</span></span>  <br/> |<span data-ttu-id="33090-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="33090-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="33090-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="33090-112">Area:</span></span>  <br/> |<span data-ttu-id="33090-113">Libre/Occupé</span><span class="sxs-lookup"><span data-stu-id="33090-113">Free/Busy</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4361d-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="4361d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="33090-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="33090-114">Remarks</span></span>
 
-<span data-ttu-id="4361d-115">Les blocs de données commencent par un en-tête de valeurs de 32 bits définies comme :</span><span class="sxs-lookup"><span data-stu-id="4361d-115">The data blocks begin with a header of 32 bit values defined as:</span></span>
+<span data-ttu-id="33090-115">Les blocs de données commencent par un en-tête de valeurs de 32 bits définies comme :</span><span class="sxs-lookup"><span data-stu-id="33090-115">The data blocks begin with a header of 32 bit values defined as:</span></span>
   
-|<span data-ttu-id="4361d-116">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="4361d-116">**Value**</span></span>|<span data-ttu-id="4361d-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="4361d-117">**Description**</span></span>|
+|<span data-ttu-id="33090-116">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="33090-116">**Value**</span></span>|<span data-ttu-id="33090-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="33090-117">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="4361d-118">Identifier</span><span class="sxs-lookup"><span data-stu-id="4361d-118">Identifier</span></span>  <br/> |<span data-ttu-id="4361d-119">Ce champ doit être la valeur 0xBEDEAFCD.</span><span class="sxs-lookup"><span data-stu-id="4361d-119">This field must be the value 0xBEDEAFCD.</span></span>  <br/> |
-|<span data-ttu-id="4361d-120">HeaderSize</span><span class="sxs-lookup"><span data-stu-id="4361d-120">HeaderSize</span></span>  <br/> |<span data-ttu-id="4361d-121">Ce champ doit avoir la valeur 0x00000014.</span><span class="sxs-lookup"><span data-stu-id="4361d-121">This field must have the value 0x00000014.</span></span>  <br/> |
-|<span data-ttu-id="4361d-122">Version</span><span class="sxs-lookup"><span data-stu-id="4361d-122">Version</span></span>  <br/> |<span data-ttu-id="4361d-123">Ce champ doit avoir la valeur 3.</span><span class="sxs-lookup"><span data-stu-id="4361d-123">This field must have the value 3.</span></span>  <br/> |
-|<span data-ttu-id="4361d-124">RecordsCount</span><span class="sxs-lookup"><span data-stu-id="4361d-124">RecordsCount</span></span>  <br/> |<span data-ttu-id="4361d-125">Nombre d’enregistrements qui suivent.</span><span class="sxs-lookup"><span data-stu-id="4361d-125">The count of records that follow.</span></span>  <br/> |
-|<span data-ttu-id="4361d-126">RecordsSize</span><span class="sxs-lookup"><span data-stu-id="4361d-126">RecordsSize</span></span>  <br/> |<span data-ttu-id="4361d-127">Ce champ doit avoir la valeur 0x00000014.</span><span class="sxs-lookup"><span data-stu-id="4361d-127">This field must have the value 0x00000014.</span></span>  <br/> |
+|<span data-ttu-id="33090-118">Identifier</span><span class="sxs-lookup"><span data-stu-id="33090-118">Identifier</span></span>  <br/> |<span data-ttu-id="33090-119">Ce champ doit être la valeur 0xBEDEAFCD.</span><span class="sxs-lookup"><span data-stu-id="33090-119">This field must be the value 0xBEDEAFCD.</span></span>  <br/> |
+|<span data-ttu-id="33090-120">HeaderSize</span><span class="sxs-lookup"><span data-stu-id="33090-120">HeaderSize</span></span>  <br/> |<span data-ttu-id="33090-121">Ce champ doit avoir la valeur 0x00000014.</span><span class="sxs-lookup"><span data-stu-id="33090-121">This field must have the value 0x00000014.</span></span>  <br/> |
+|<span data-ttu-id="33090-122">Version</span><span class="sxs-lookup"><span data-stu-id="33090-122">Version</span></span>  <br/> |<span data-ttu-id="33090-123">Ce champ doit avoir la valeur 3.</span><span class="sxs-lookup"><span data-stu-id="33090-123">This field must have the value 3.</span></span>  <br/> |
+|<span data-ttu-id="33090-124">RecordsCount</span><span class="sxs-lookup"><span data-stu-id="33090-124">RecordsCount</span></span>  <br/> |<span data-ttu-id="33090-125">Nombre d’enregistrements qui suivent.</span><span class="sxs-lookup"><span data-stu-id="33090-125">The count of records that follow.</span></span>  <br/> |
+|<span data-ttu-id="33090-126">RecordsSize</span><span class="sxs-lookup"><span data-stu-id="33090-126">RecordsSize</span></span>  <br/> |<span data-ttu-id="33090-127">Ce champ doit avoir la valeur 0x00000014.</span><span class="sxs-lookup"><span data-stu-id="33090-127">This field must have the value 0x00000014.</span></span>  <br/> |
    
-<span data-ttu-id="4361d-128">L’en-tête est suivi des **entrées RecordsCount** de valeurs 32 bits définies comme suit :</span><span class="sxs-lookup"><span data-stu-id="4361d-128">The header is followed by **RecordsCount** entries of 32 bit values defined as:</span></span> 
+<span data-ttu-id="33090-128">L’en-tête est suivi des **entrées RecordsCount** de valeurs 32 bits définies comme suit :</span><span class="sxs-lookup"><span data-stu-id="33090-128">The header is followed by **RecordsCount** entries of 32 bit values defined as:</span></span> 
   
-|<span data-ttu-id="4361d-129">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="4361d-129">**Value**</span></span>|<span data-ttu-id="4361d-130">**Description**</span><span class="sxs-lookup"><span data-stu-id="4361d-130">**Description**</span></span>|
+|<span data-ttu-id="33090-129">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="33090-129">**Value**</span></span>|<span data-ttu-id="33090-130">**Description**</span><span class="sxs-lookup"><span data-stu-id="33090-130">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="4361d-131">StartTime</span><span class="sxs-lookup"><span data-stu-id="4361d-131">StartTime</span></span>  <br/> |<span data-ttu-id="4361d-132">Heure de début de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC).</span><span class="sxs-lookup"><span data-stu-id="4361d-132">The meeting object's start time in minutes since midnight, January 1, 1601, UTC.</span></span>  <br/> |
-|<span data-ttu-id="4361d-133">EndTime</span><span class="sxs-lookup"><span data-stu-id="4361d-133">EndTime</span></span>  <br/> |<span data-ttu-id="4361d-134">Heure de fin de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC).</span><span class="sxs-lookup"><span data-stu-id="4361d-134">The meeting object's end time in minutes since midnight, January 1, 1601, UTC.</span></span>  <br/> |
-|<span data-ttu-id="4361d-135">GlobalObjectIdSize</span><span class="sxs-lookup"><span data-stu-id="4361d-135">GlobalObjectIdSize</span></span>  <br/> |<span data-ttu-id="4361d-136">Taille, en octets, du champ GlobalObjectId.</span><span class="sxs-lookup"><span data-stu-id="4361d-136">The size, in bytes, of the GlobalObjectId field.</span></span>  <br/> |
-|<span data-ttu-id="4361d-137">GlobalObjectId</span><span class="sxs-lookup"><span data-stu-id="4361d-137">GlobalObjectId</span></span>  <br/> |<span data-ttu-id="4361d-138">Valeur de la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion que cet enregistrement représente.</span><span class="sxs-lookup"><span data-stu-id="4361d-138">The value of the **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) property of the meeting this record represents.</span></span>  <br/> |
-|<span data-ttu-id="4361d-139">UserName</span><span class="sxs-lookup"><span data-stu-id="4361d-139">UserName</span></span>  <br/> |<span data-ttu-id="4361d-140">Les deux premiers octets sont la longueur de la chaîne PT_STRING8 suivante.</span><span class="sxs-lookup"><span data-stu-id="4361d-140">The first two bytes are the length of the PT_STRING8 string that follows.</span></span>  <br/> |
+|<span data-ttu-id="33090-131">StartTime</span><span class="sxs-lookup"><span data-stu-id="33090-131">StartTime</span></span>  <br/> |<span data-ttu-id="33090-132">Heure de début de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC).</span><span class="sxs-lookup"><span data-stu-id="33090-132">The meeting object's start time in minutes since midnight, January 1, 1601, UTC.</span></span>  <br/> |
+|<span data-ttu-id="33090-133">EndTime</span><span class="sxs-lookup"><span data-stu-id="33090-133">EndTime</span></span>  <br/> |<span data-ttu-id="33090-134">Heure de fin de l’objet de réunion en minutes depuis le 1er janvier 1601 à minuit(UTC).</span><span class="sxs-lookup"><span data-stu-id="33090-134">The meeting object's end time in minutes since midnight, January 1, 1601, UTC.</span></span>  <br/> |
+|<span data-ttu-id="33090-135">GlobalObjectIdSize</span><span class="sxs-lookup"><span data-stu-id="33090-135">GlobalObjectIdSize</span></span>  <br/> |<span data-ttu-id="33090-136">Taille, en octets, du champ GlobalObjectId.</span><span class="sxs-lookup"><span data-stu-id="33090-136">The size, in bytes, of the GlobalObjectId field.</span></span>  <br/> |
+|<span data-ttu-id="33090-137">GlobalObjectId</span><span class="sxs-lookup"><span data-stu-id="33090-137">GlobalObjectId</span></span>  <br/> |<span data-ttu-id="33090-138">Valeur de la **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) de la réunion que cet enregistrement représente.</span><span class="sxs-lookup"><span data-stu-id="33090-138">The value of the **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) property of the meeting this record represents.</span></span>  <br/> |
+|<span data-ttu-id="33090-139">UserName</span><span class="sxs-lookup"><span data-stu-id="33090-139">UserName</span></span>  <br/> |<span data-ttu-id="33090-140">Les deux premiers octets sont la longueur de la chaîne PT_STRING8 suivante.</span><span class="sxs-lookup"><span data-stu-id="33090-140">The first two bytes are the length of the PT_STRING8 string that follows.</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="4361d-141">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="4361d-141">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="33090-141">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="33090-141">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="4361d-142">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="4361d-142">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="33090-142">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="33090-142">Protocol specifications</span></span>
 
-<span data-ttu-id="4361d-143">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4361d-143">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="33090-143">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="33090-143">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4361d-144">Fournit des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="4361d-144">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="33090-144">Fournit des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="33090-144">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="4361d-145">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4361d-145">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="33090-145">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="33090-145">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4361d-146">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="4361d-146">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="33090-146">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="33090-146">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="4361d-147">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="4361d-147">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="33090-147">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="33090-147">Header files</span></span>
 
-<span data-ttu-id="4361d-148">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4361d-148">Mapidefs.h</span></span>
+<span data-ttu-id="33090-148">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="33090-148">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4361d-149">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="4361d-149">Provides data type definitions.</span></span>
+> <span data-ttu-id="33090-149">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="33090-149">Provides data type definitions.</span></span>
     
-<span data-ttu-id="4361d-150">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="4361d-150">Mapitags.h</span></span>
+<span data-ttu-id="33090-150">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="33090-150">Mapitags.h</span></span>
   
-> <span data-ttu-id="4361d-151">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="4361d-151">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="33090-151">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="33090-151">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4361d-152">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4361d-152">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="33090-152">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="33090-152">See also</span></span>
 
 
 
-[<span data-ttu-id="4361d-153">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="4361d-153">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="33090-153">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="33090-153">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4361d-154">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="4361d-154">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="33090-154">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="33090-154">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4361d-155">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="4361d-155">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="33090-155">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="33090-155">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4361d-156">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="4361d-156">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="33090-156">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="33090-156">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,63 +19,63 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32336826"
 ---
-# <a name="pidlidsharinglocaltype-canonical-property"></a><span data-ttu-id="a3391-103">Propriété canonique PidLidSharingLocalType</span><span class="sxs-lookup"><span data-stu-id="a3391-103">PidLidSharingLocalType Canonical Property</span></span>
+# <a name="pidlidsharinglocaltype-canonical-property"></a><span data-ttu-id="b1e05-103">Propriété canonique PidLidSharingLocalType</span><span class="sxs-lookup"><span data-stu-id="b1e05-103">PidLidSharingLocalType Canonical Property</span></span>
 
   
   
-<span data-ttu-id="a3391-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a3391-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b1e05-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b1e05-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a3391-105">Spécifie la valeur de la **propriété PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) du dossier partagé.</span><span class="sxs-lookup"><span data-stu-id="a3391-105">Specifies the value of the **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of the folder that is being shared.</span></span> <span data-ttu-id="a3391-106">Il s’agit d’une propriété d’un message de partage.</span><span class="sxs-lookup"><span data-stu-id="a3391-106">This is a property of a sharing message.</span></span>
+<span data-ttu-id="b1e05-105">Spécifie la valeur de la **propriété PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) du dossier partagé.</span><span class="sxs-lookup"><span data-stu-id="b1e05-105">Specifies the value of the **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of the folder that is being shared.</span></span> <span data-ttu-id="b1e05-106">Il s’agit d’une propriété d’un message de partage.</span><span class="sxs-lookup"><span data-stu-id="b1e05-106">This is a property of a sharing message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a3391-107">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="a3391-107">Associated properties:</span></span>  <br/> |<span data-ttu-id="a3391-108">dispidSharingLocalType</span><span class="sxs-lookup"><span data-stu-id="a3391-108">dispidSharingLocalType</span></span>  <br/> |
-|<span data-ttu-id="a3391-109">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="a3391-109">Property set:</span></span>  <br/> |<span data-ttu-id="a3391-110">PSETID_Sharing</span><span class="sxs-lookup"><span data-stu-id="a3391-110">PSETID_Sharing</span></span>  <br/> |
-|<span data-ttu-id="a3391-111">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="a3391-111">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="a3391-112">0x00008A14</span><span class="sxs-lookup"><span data-stu-id="a3391-112">0x00008A14</span></span>  <br/> |
-|<span data-ttu-id="a3391-113">Type de données :</span><span class="sxs-lookup"><span data-stu-id="a3391-113">Data type:</span></span>  <br/> |<span data-ttu-id="a3391-114">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="a3391-114">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="a3391-115">Domaine :</span><span class="sxs-lookup"><span data-stu-id="a3391-115">Area:</span></span>  <br/> |<span data-ttu-id="a3391-116">Partage</span><span class="sxs-lookup"><span data-stu-id="a3391-116">Sharing</span></span>  <br/> |
+|<span data-ttu-id="b1e05-107">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="b1e05-107">Associated properties:</span></span>  <br/> |<span data-ttu-id="b1e05-108">dispidSharingLocalType</span><span class="sxs-lookup"><span data-stu-id="b1e05-108">dispidSharingLocalType</span></span>  <br/> |
+|<span data-ttu-id="b1e05-109">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="b1e05-109">Property set:</span></span>  <br/> |<span data-ttu-id="b1e05-110">PSETID_Sharing</span><span class="sxs-lookup"><span data-stu-id="b1e05-110">PSETID_Sharing</span></span>  <br/> |
+|<span data-ttu-id="b1e05-111">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="b1e05-111">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="b1e05-112">0x00008A14</span><span class="sxs-lookup"><span data-stu-id="b1e05-112">0x00008A14</span></span>  <br/> |
+|<span data-ttu-id="b1e05-113">Type de données :</span><span class="sxs-lookup"><span data-stu-id="b1e05-113">Data type:</span></span>  <br/> |<span data-ttu-id="b1e05-114">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="b1e05-114">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="b1e05-115">Domaine :</span><span class="sxs-lookup"><span data-stu-id="b1e05-115">Area:</span></span>  <br/> |<span data-ttu-id="b1e05-116">Partage</span><span class="sxs-lookup"><span data-stu-id="b1e05-116">Sharing</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a3391-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="a3391-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b1e05-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="b1e05-117">Remarks</span></span>
 
-<span data-ttu-id="a3391-118">La valeur de cette propriété doit être l’une des suivantes :</span><span class="sxs-lookup"><span data-stu-id="a3391-118">The value of this property must be one of the following:</span></span>
+<span data-ttu-id="b1e05-118">La valeur de cette propriété doit être l’une des suivantes :</span><span class="sxs-lookup"><span data-stu-id="b1e05-118">The value of this property must be one of the following:</span></span>
   
-- <span data-ttu-id="a3391-119">« IPF. Rendez-vous »</span><span class="sxs-lookup"><span data-stu-id="a3391-119">"IPF.Appointment"</span></span>
+- <span data-ttu-id="b1e05-119">« IPF. Rendez-vous »</span><span class="sxs-lookup"><span data-stu-id="b1e05-119">"IPF.Appointment"</span></span>
     
-- <span data-ttu-id="a3391-120">« IPF. Contact »</span><span class="sxs-lookup"><span data-stu-id="a3391-120">"IPF.Contact"</span></span>
+- <span data-ttu-id="b1e05-120">« IPF. Contact »</span><span class="sxs-lookup"><span data-stu-id="b1e05-120">"IPF.Contact"</span></span>
     
-- <span data-ttu-id="a3391-121">« IPF. Tâche »</span><span class="sxs-lookup"><span data-stu-id="a3391-121">"IPF.Task"</span></span>
+- <span data-ttu-id="b1e05-121">« IPF. Tâche »</span><span class="sxs-lookup"><span data-stu-id="b1e05-121">"IPF.Task"</span></span>
     
-- <span data-ttu-id="a3391-122">« IPF. StickyNote »</span><span class="sxs-lookup"><span data-stu-id="a3391-122">"IPF.StickyNote"</span></span>
+- <span data-ttu-id="b1e05-122">« IPF. StickyNote »</span><span class="sxs-lookup"><span data-stu-id="b1e05-122">"IPF.StickyNote"</span></span>
     
-- <span data-ttu-id="a3391-123">« IPF. Journal »</span><span class="sxs-lookup"><span data-stu-id="a3391-123">"IPF.Journal"</span></span>
+- <span data-ttu-id="b1e05-123">« IPF. Journal »</span><span class="sxs-lookup"><span data-stu-id="b1e05-123">"IPF.Journal"</span></span>
     
-## <a name="related-resources"></a><span data-ttu-id="a3391-124">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="a3391-124">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="b1e05-124">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="b1e05-124">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="a3391-125">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="a3391-125">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="b1e05-125">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="b1e05-125">Protocol specifications</span></span>
 
-<span data-ttu-id="a3391-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a3391-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="b1e05-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b1e05-126">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="a3391-127">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="a3391-127">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="b1e05-127">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="b1e05-127">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="a3391-128">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a3391-128">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="b1e05-128">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b1e05-128">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="a3391-129">Partage des dossiers de boîte aux lettres entre clients.</span><span class="sxs-lookup"><span data-stu-id="a3391-129">Shares mailbox folders between clients.</span></span>
+> <span data-ttu-id="b1e05-129">Partage des dossiers de boîte aux lettres entre clients.</span><span class="sxs-lookup"><span data-stu-id="b1e05-129">Shares mailbox folders between clients.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="a3391-130">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="a3391-130">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="b1e05-130">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="b1e05-130">Header files</span></span>
 
-<span data-ttu-id="a3391-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="a3391-131">Mapidefs.h</span></span>
+<span data-ttu-id="b1e05-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b1e05-131">Mapidefs.h</span></span>
   
-> <span data-ttu-id="a3391-132">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="a3391-132">Provides data type definitions.</span></span>
+> <span data-ttu-id="b1e05-132">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="b1e05-132">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="a3391-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a3391-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b1e05-133">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b1e05-133">See also</span></span>
 
 
 
-[<span data-ttu-id="a3391-134">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="a3391-134">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="b1e05-134">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="b1e05-134">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="a3391-135">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="a3391-135">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="b1e05-135">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="b1e05-135">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="a3391-136">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="a3391-136">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="b1e05-136">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="b1e05-136">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="a3391-137">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="a3391-137">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="b1e05-137">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="b1e05-137">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

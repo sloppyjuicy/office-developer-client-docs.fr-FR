@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32332031"
 ---
-# <a name="pidlidfax2originalentryid-canonical-property"></a><span data-ttu-id="cbc75-103">Propriété canonique PidLidFax2OriginalEntryId</span><span class="sxs-lookup"><span data-stu-id="cbc75-103">PidLidFax2OriginalEntryId Canonical Property</span></span>
+# <a name="pidlidfax2originalentryid-canonical-property"></a><span data-ttu-id="ca5ba-103">Propriété canonique PidLidFax2OriginalEntryId</span><span class="sxs-lookup"><span data-stu-id="ca5ba-103">PidLidFax2OriginalEntryId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="cbc75-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cbc75-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ca5ba-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ca5ba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cbc75-105">Spécifie l’EntryID d’origine de l’adresse de télécopie du domicile du contact.</span><span class="sxs-lookup"><span data-stu-id="cbc75-105">Specifies the original EntryID of the contact's home fax address.</span></span>
+<span data-ttu-id="ca5ba-105">Spécifie l’EntryID d’origine de l’adresse de télécopie du domicile du contact.</span><span class="sxs-lookup"><span data-stu-id="ca5ba-105">Specifies the original EntryID of the contact's home fax address.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cbc75-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="cbc75-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="cbc75-107">dispidFax2OriginalEntryID</span><span class="sxs-lookup"><span data-stu-id="cbc75-107">dispidFax2OriginalEntryID</span></span>  <br/> |
-|<span data-ttu-id="cbc75-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="cbc75-108">Property set:</span></span>  <br/> |<span data-ttu-id="cbc75-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="cbc75-109">PSETID_Address</span></span>  <br/> |
-|<span data-ttu-id="cbc75-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="cbc75-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="cbc75-111">0x000080C5</span><span class="sxs-lookup"><span data-stu-id="cbc75-111">0x000080C5</span></span>  <br/> |
-|<span data-ttu-id="cbc75-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="cbc75-112">Data type:</span></span>  <br/> |<span data-ttu-id="cbc75-113">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="cbc75-113">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="cbc75-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="cbc75-114">Area:</span></span>  <br/> |<span data-ttu-id="cbc75-115">Contact</span><span class="sxs-lookup"><span data-stu-id="cbc75-115">Contact</span></span>  <br/> |
+|<span data-ttu-id="ca5ba-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="ca5ba-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ca5ba-107">dispidFax2OriginalEntryID</span><span class="sxs-lookup"><span data-stu-id="ca5ba-107">dispidFax2OriginalEntryID</span></span>  <br/> |
+|<span data-ttu-id="ca5ba-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="ca5ba-108">Property set:</span></span>  <br/> |<span data-ttu-id="ca5ba-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="ca5ba-109">PSETID_Address</span></span>  <br/> |
+|<span data-ttu-id="ca5ba-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="ca5ba-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="ca5ba-111">0x000080C5</span><span class="sxs-lookup"><span data-stu-id="ca5ba-111">0x000080C5</span></span>  <br/> |
+|<span data-ttu-id="ca5ba-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="ca5ba-112">Data type:</span></span>  <br/> |<span data-ttu-id="ca5ba-113">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="ca5ba-113">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="ca5ba-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="ca5ba-114">Area:</span></span>  <br/> |<span data-ttu-id="ca5ba-115">Contact</span><span class="sxs-lookup"><span data-stu-id="ca5ba-115">Contact</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="cbc75-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="cbc75-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ca5ba-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="ca5ba-116">Remarks</span></span>
 
-<span data-ttu-id="cbc75-117">Cette propriété, si elle est présente, doit spécifier l’entryid one-off qui correspond à cette adresse de télécopie.</span><span class="sxs-lookup"><span data-stu-id="cbc75-117">This property, if present, must specify the one-off EntryId that corresponds to this fax address.</span></span>
+<span data-ttu-id="ca5ba-117">Cette propriété, si elle est présente, doit spécifier l’entryid one-off qui correspond à cette adresse de télécopie.</span><span class="sxs-lookup"><span data-stu-id="ca5ba-117">This property, if present, must specify the one-off EntryId that corresponds to this fax address.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="cbc75-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="cbc75-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ca5ba-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="ca5ba-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="cbc75-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="cbc75-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="ca5ba-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="ca5ba-119">Protocol specifications</span></span>
 
-<span data-ttu-id="cbc75-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cbc75-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ca5ba-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ca5ba-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="cbc75-121">Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="cbc75-121">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="ca5ba-121">Fournit une définition de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="ca5ba-121">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="cbc75-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cbc75-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ca5ba-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ca5ba-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="cbc75-123">Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="cbc75-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="ca5ba-123">Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="ca5ba-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="cbc75-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="cbc75-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ca5ba-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="ca5ba-124">Header files</span></span>
 
-<span data-ttu-id="cbc75-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cbc75-125">Mapidefs.h</span></span>
+<span data-ttu-id="ca5ba-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ca5ba-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="cbc75-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="cbc75-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="ca5ba-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="ca5ba-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="cbc75-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cbc75-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ca5ba-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ca5ba-127">See also</span></span>
 
 
 
-[<span data-ttu-id="cbc75-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="cbc75-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ca5ba-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="ca5ba-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="cbc75-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="cbc75-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ca5ba-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="ca5ba-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="cbc75-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="cbc75-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ca5ba-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="ca5ba-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="cbc75-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="cbc75-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ca5ba-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="ca5ba-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

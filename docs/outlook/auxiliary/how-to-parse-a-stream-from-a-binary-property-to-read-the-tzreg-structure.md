@@ -14,9 +14,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32317653"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a><span data-ttu-id="4ddd5-103">Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZREG</span><span class="sxs-lookup"><span data-stu-id="4ddd5-103">Parse a stream from a binary property to read the TZREG structure</span></span>
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure"></a><span data-ttu-id="ab8ba-103">Analyser un flux de données à partir d’une propriété binaire pour lire la structure TZREG</span><span class="sxs-lookup"><span data-stu-id="ab8ba-103">Parse a stream from a binary property to read the TZREG structure</span></span>
 
-<span data-ttu-id="4ddd5-104">Cette rubrique montre comment lire la structure [TZREG](tzreg.md) à partir du format persistant stocké dans la propriété binaire [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="4ddd5-104">This topic shows how to read the [TZREG](tzreg.md) structure from the persisted format stored in the binary property [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="ab8ba-104">Cette rubrique montre comment lire la structure [TZREG](tzreg.md) à partir du format persistant stocké dans la propriété binaire [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="ab8ba-104">This topic shows how to read the [TZREG](tzreg.md) structure from the persisted format stored in the binary property [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx).</span></span>
   
 ```cpp
 TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)  
@@ -55,7 +55,7 @@ TZREG* BinToTZREG(ULONG cbReg, LPBYTE lpbReg)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="4ddd5-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4ddd5-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ab8ba-105">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ab8ba-105">See also</span></span>
 
-- [<span data-ttu-id="4ddd5-106">Lire les propriétés de fuseau horaire à partir d’un rendez-vous</span><span class="sxs-lookup"><span data-stu-id="4ddd5-106">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
+- [<span data-ttu-id="ab8ba-106">Lire les propriétés de fuseau horaire à partir d’un rendez-vous</span><span class="sxs-lookup"><span data-stu-id="ab8ba-106">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
 

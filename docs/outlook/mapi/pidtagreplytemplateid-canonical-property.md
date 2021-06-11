@@ -19,52 +19,52 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32327810"
 ---
-# <a name="pidtagreplytemplateid-canonical-property"></a><span data-ttu-id="968c9-103">Propriété canonique PidTagReplyTemplateId</span><span class="sxs-lookup"><span data-stu-id="968c9-103">PidTagReplyTemplateId Canonical Property</span></span>
+# <a name="pidtagreplytemplateid-canonical-property"></a><span data-ttu-id="125c6-103">Propriété canonique PidTagReplyTemplateId</span><span class="sxs-lookup"><span data-stu-id="125c6-103">PidTagReplyTemplateId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="968c9-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="968c9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="125c6-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="125c6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="968c9-105">Contient l’identificateur global unique (GUID) du modèle de réponse.</span><span class="sxs-lookup"><span data-stu-id="968c9-105">Contains the globally unique identifier (GUID) for the reply template.</span></span>
+<span data-ttu-id="125c6-105">Contient l’identificateur global unique (GUID) du modèle de réponse.</span><span class="sxs-lookup"><span data-stu-id="125c6-105">Contains the globally unique identifier (GUID) for the reply template.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="968c9-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="968c9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="968c9-107">PR_REPLY_TEMPLATE_ID</span><span class="sxs-lookup"><span data-stu-id="968c9-107">PR_REPLY_TEMPLATE_ID</span></span>  <br/> |
-|<span data-ttu-id="968c9-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="968c9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="968c9-109">0x65C2</span><span class="sxs-lookup"><span data-stu-id="968c9-109">0x65C2</span></span>  <br/> |
-|<span data-ttu-id="968c9-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="968c9-110">Data type:</span></span>  <br/> |<span data-ttu-id="968c9-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="968c9-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="968c9-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="968c9-112">Area:</span></span>  <br/> |<span data-ttu-id="968c9-113">Rules</span><span class="sxs-lookup"><span data-stu-id="968c9-113">Rules</span></span>  <br/> |
+|<span data-ttu-id="125c6-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="125c6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="125c6-107">PR_REPLY_TEMPLATE_ID</span><span class="sxs-lookup"><span data-stu-id="125c6-107">PR_REPLY_TEMPLATE_ID</span></span>  <br/> |
+|<span data-ttu-id="125c6-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="125c6-108">Identifier:</span></span>  <br/> |<span data-ttu-id="125c6-109">0x65C2</span><span class="sxs-lookup"><span data-stu-id="125c6-109">0x65C2</span></span>  <br/> |
+|<span data-ttu-id="125c6-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="125c6-110">Data type:</span></span>  <br/> |<span data-ttu-id="125c6-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="125c6-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="125c6-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="125c6-112">Area:</span></span>  <br/> |<span data-ttu-id="125c6-113">Règles</span><span class="sxs-lookup"><span data-stu-id="125c6-113">Rules</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="968c9-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="968c9-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="125c6-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="125c6-114">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="968c9-115">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="968c9-115">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="125c6-115">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="125c6-115">Protocol specifications</span></span>
 
-<span data-ttu-id="968c9-116">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="968c9-116">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="125c6-116">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="125c6-116">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="968c9-117">Fournit des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="968c9-117">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="125c6-117">Fournit des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="125c6-117">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="968c9-118">[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="968c9-118">[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="125c6-118">[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="125c6-118">[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="968c9-119">Manipule les messages électroniques entrants sur un serveur.</span><span class="sxs-lookup"><span data-stu-id="968c9-119">Manipulates incoming email messages on a server.</span></span>
+> <span data-ttu-id="125c6-119">Manipule les messages électroniques entrants sur un serveur.</span><span class="sxs-lookup"><span data-stu-id="125c6-119">Manipulates incoming email messages on a server.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="968c9-120">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="968c9-120">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="125c6-120">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="125c6-120">Header files</span></span>
 
-<span data-ttu-id="968c9-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="968c9-121">Mapidefs.h</span></span>
+<span data-ttu-id="125c6-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="125c6-121">Mapidefs.h</span></span>
   
-> <span data-ttu-id="968c9-122">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="968c9-122">Provides data type definitions.</span></span>
+> <span data-ttu-id="125c6-122">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="125c6-122">Provides data type definitions.</span></span>
     
-<span data-ttu-id="968c9-123">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="968c9-123">Mapitags.h</span></span>
+<span data-ttu-id="125c6-123">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="125c6-123">Mapitags.h</span></span>
   
-> <span data-ttu-id="968c9-124">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="968c9-124">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="125c6-124">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="125c6-124">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="968c9-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="968c9-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="125c6-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="125c6-125">See also</span></span>
 
 
 
-[<span data-ttu-id="968c9-126">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="968c9-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="125c6-126">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="125c6-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="968c9-127">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="968c9-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="125c6-127">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="125c6-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="968c9-128">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="968c9-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="125c6-128">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="125c6-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="968c9-129">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="968c9-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="125c6-129">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="125c6-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -14,19 +14,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32319613"
 ---
-# <a name="color-categories"></a><span data-ttu-id="25064-102">Catégories de couleurs</span><span class="sxs-lookup"><span data-stu-id="25064-102">Color categories</span></span>
+# <a name="color-categories"></a><span data-ttu-id="d1892-102">Catégories de couleurs</span><span class="sxs-lookup"><span data-stu-id="d1892-102">Color categories</span></span>
 
-<span data-ttu-id="25064-103">Cette section présente des exemples de tâches qui impliquent des catégories de couleurs permettant aux utilisateurs de catégoriser des éléments Outlook et de les afficher par catégorie.</span><span class="sxs-lookup"><span data-stu-id="25064-103">This section provides sample tasks that involve color categories, which enable users to categorize Outlook items and display them by category.</span></span>
+<span data-ttu-id="d1892-103">Cette section présente des exemples de tâches qui impliquent des catégories de couleurs permettant aux utilisateurs de catégoriser des éléments Outlook et de les afficher par catégorie.</span><span class="sxs-lookup"><span data-stu-id="d1892-103">This section provides sample tasks that involve color categories, which enable users to categorize Outlook items and display them by category.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="25064-104">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="25064-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="d1892-104">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="d1892-104">In this section</span></span>
 
-|<span data-ttu-id="25064-105">Rubrique</span><span class="sxs-lookup"><span data-stu-id="25064-105">Topic</span></span>|<span data-ttu-id="25064-106">Description</span><span class="sxs-lookup"><span data-stu-id="25064-106">Description</span></span>|
+|<span data-ttu-id="d1892-105">Rubrique</span><span class="sxs-lookup"><span data-stu-id="d1892-105">Topic</span></span>|<span data-ttu-id="d1892-106">Description</span><span class="sxs-lookup"><span data-stu-id="d1892-106">Description</span></span>|
 |:----|:----------|
-|[<span data-ttu-id="25064-107">Énumérer et ajouter des catégories</span><span class="sxs-lookup"><span data-stu-id="25064-107">Enumerate and add categories</span></span>](how-to-enumerate-and-add-categories.md)  |<span data-ttu-id="25064-108">Montre comment énumérer les catégories et ajouter une catégorie à la liste de catégories principale.</span><span class="sxs-lookup"><span data-stu-id="25064-108">Shows how to enumerate categories and add a category to the main category list.</span></span>|
-|[<span data-ttu-id="25064-109">Affectation des catégories à un élément</span><span class="sxs-lookup"><span data-stu-id="25064-109">Assign categories to an item</span></span>](how-to-assign-categories-to-an-item.md)  |<span data-ttu-id="25064-110">Affecte des catégories à un élément à l’aide de sa propriété **Catégories**.</span><span class="sxs-lookup"><span data-stu-id="25064-110">Assigns categories to an item by using its **Categories** property.</span></span>|
+|[<span data-ttu-id="d1892-107">Énumérer et ajouter des catégories</span><span class="sxs-lookup"><span data-stu-id="d1892-107">Enumerate and add categories</span></span>](how-to-enumerate-and-add-categories.md)  |<span data-ttu-id="d1892-108">Montre comment énumérer les catégories et ajouter une catégorie à la liste de catégories principale.</span><span class="sxs-lookup"><span data-stu-id="d1892-108">Shows how to enumerate categories and add a category to the main category list.</span></span>|
+|[<span data-ttu-id="d1892-109">Affectation des catégories à un élément</span><span class="sxs-lookup"><span data-stu-id="d1892-109">Assign categories to an item</span></span>](how-to-assign-categories-to-an-item.md)  |<span data-ttu-id="d1892-110">Affecte des catégories à un élément à l’aide de sa propriété **Catégories**.</span><span class="sxs-lookup"><span data-stu-id="d1892-110">Assigns categories to an item by using its **Categories** property.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="25064-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="25064-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d1892-111">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d1892-111">See also</span></span>
 
-- [<span data-ttu-id="25064-112">Courrier</span><span class="sxs-lookup"><span data-stu-id="25064-112">Mail</span></span>](mail.md)
-- [<span data-ttu-id="25064-113">Procédure (Référence PIA Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="25064-113">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
+- [<span data-ttu-id="d1892-112">Courrier</span><span class="sxs-lookup"><span data-stu-id="d1892-112">Mail</span></span>](mail.md)
+- [<span data-ttu-id="d1892-113">Procédure (Référence PIA Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="d1892-113">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
 

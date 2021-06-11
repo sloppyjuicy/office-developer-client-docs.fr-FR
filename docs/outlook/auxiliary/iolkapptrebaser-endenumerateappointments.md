@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32321902"
 ---
-# <a name="iolkapptrebaserendenumerateappointments"></a><span data-ttu-id="b059d-103">IOlkApptRebaser::EndEnumerateAppointments</span><span class="sxs-lookup"><span data-stu-id="b059d-103">IOlkApptRebaser::EndEnumerateAppointments</span></span>
+# <a name="iolkapptrebaserendenumerateappointments"></a><span data-ttu-id="8063c-103">IOlkApptRebaser::EndEnumerateAppointments</span><span class="sxs-lookup"><span data-stu-id="8063c-103">IOlkApptRebaser::EndEnumerateAppointments</span></span>
 
-<span data-ttu-id="b059d-104">Attend pour l'énumération de rendez-vous dans un dossier de calendrier pour terminer et renvoie une liste de rendez-vous à cette nécessité la relocalisation.</span><span class="sxs-lookup"><span data-stu-id="b059d-104">Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.</span></span>
+<span data-ttu-id="8063c-104">Attend pour l'énumération de rendez-vous dans un dossier de calendrier pour terminer et renvoie une liste de rendez-vous à cette nécessité la relocalisation.</span><span class="sxs-lookup"><span data-stu-id="8063c-104">Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="b059d-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="b059d-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="8063c-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="8063c-105">Quick info</span></span>
 
-<span data-ttu-id="b059d-106">Voir [IOlkApptRebaser](iolkapptrebaser.md).</span><span class="sxs-lookup"><span data-stu-id="b059d-106">See [IOlkApptRebaser](iolkapptrebaser.md).</span></span>
+<span data-ttu-id="8063c-106">Voir [IOlkApptRebaser](iolkapptrebaser.md).</span><span class="sxs-lookup"><span data-stu-id="8063c-106">See [IOlkApptRebaser](iolkapptrebaser.md).</span></span>
   
 ```cpp
 HRESULT EndEnumerateAppointments( 
@@ -30,29 +30,29 @@ HRESULT EndEnumerateAppointments(
     SRowSet **ppRows);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b059d-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="b059d-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8063c-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="8063c-107">Parameters</span></span>
 
-<span data-ttu-id="b059d-108">_pContext_</span><span class="sxs-lookup"><span data-stu-id="b059d-108">_pContext_</span></span>
+<span data-ttu-id="8063c-108">_pContext_</span><span class="sxs-lookup"><span data-stu-id="8063c-108">_pContext_</span></span>
   
-> <span data-ttu-id="b059d-p101">[in] Obligatoire. Pointeur vers le contexte obtenu par un appel préalable à [IOlkApptRebaser::BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md).</span><span class="sxs-lookup"><span data-stu-id="b059d-p101">[in] Required. A pointer to the context obtained from a prior call to [IOlkApptRebaser::BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md).</span></span>
+> <span data-ttu-id="8063c-p101">[in] Obligatoire. Pointeur vers le contexte obtenu par un appel préalable à [IOlkApptRebaser::BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md).</span><span class="sxs-lookup"><span data-stu-id="8063c-p101">[in] Required. A pointer to the context obtained from a prior call to [IOlkApptRebaser::BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md).</span></span>
     
-<span data-ttu-id="b059d-111">_phResult_</span><span class="sxs-lookup"><span data-stu-id="b059d-111">_phResult_</span></span>
+<span data-ttu-id="8063c-111">_phResult_</span><span class="sxs-lookup"><span data-stu-id="8063c-111">_phResult_</span></span>
   
-> <span data-ttu-id="b059d-p102">[out] Obligatoire. Pointeur vers **HRESULT** pour récupérer les résultats de l'opération d'énumération.</span><span class="sxs-lookup"><span data-stu-id="b059d-p102">[out] Required. A pointer to an **HRESULT** to retrieve the results of the enumeration operation.</span></span> 
+> <span data-ttu-id="8063c-p102">[out] Obligatoire. Pointeur vers **HRESULT** pour récupérer les résultats de l'opération d'énumération.</span><span class="sxs-lookup"><span data-stu-id="8063c-p102">[out] Required. A pointer to an **HRESULT** to retrieve the results of the enumeration operation.</span></span> 
     
-<span data-ttu-id="b059d-114">_ppError_</span><span class="sxs-lookup"><span data-stu-id="b059d-114">_ppError_</span></span>
+<span data-ttu-id="8063c-114">_ppError_</span><span class="sxs-lookup"><span data-stu-id="8063c-114">_ppError_</span></span>
   
-> <span data-ttu-id="b059d-p103">[out] Facultatif. Pointeur vers un pointeur vers une structure **MAPIERROR** pour extraire des informations d'erreur étendues.</span><span class="sxs-lookup"><span data-stu-id="b059d-p103">[out] Optional. A pointer to a pointer to a **MAPIERROR** structure to retrieve extended error information.</span></span> 
+> <span data-ttu-id="8063c-p103">[out] Facultatif. Pointeur vers un pointeur vers une structure **MAPIERROR** pour extraire des informations d'erreur étendues.</span><span class="sxs-lookup"><span data-stu-id="8063c-p103">[out] Optional. A pointer to a pointer to a **MAPIERROR** structure to retrieve extended error information.</span></span> 
     
-<span data-ttu-id="b059d-117">_ppRows_</span><span class="sxs-lookup"><span data-stu-id="b059d-117">_ppRows_</span></span>
+<span data-ttu-id="8063c-117">_ppRows_</span><span class="sxs-lookup"><span data-stu-id="8063c-117">_ppRows_</span></span>
   
-> <span data-ttu-id="b059d-p104">[out] Obligatoire. Pointeur vers un pointeur vers une structure [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) qui décrit les rendez-vous qui ont besoin de relocalisation. Cette structure sera généralement passée à [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span><span class="sxs-lookup"><span data-stu-id="b059d-p104">[out] Required. A pointer to a pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing. This structure will usually be passed to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span></span>
+> <span data-ttu-id="8063c-p104">[out] Obligatoire. Pointeur vers un pointeur vers une structure [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) qui décrit les rendez-vous qui ont besoin de relocalisation. Cette structure sera généralement passée à [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span><span class="sxs-lookup"><span data-stu-id="8063c-p104">[out] Required. A pointer to a pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing. This structure will usually be passed to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="b059d-121">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="b059d-121">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="8063c-121">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="8063c-121">Return values</span></span>
 
-<span data-ttu-id="b059d-122">S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.</span><span class="sxs-lookup"><span data-stu-id="b059d-122">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="8063c-122">S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.</span><span class="sxs-lookup"><span data-stu-id="8063c-122">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b059d-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b059d-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8063c-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8063c-123">See also</span></span>
 
-- [<span data-ttu-id="b059d-124">À propos de la relocalisation des calendriers par programme à l'heure</span><span class="sxs-lookup"><span data-stu-id="b059d-124">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [<span data-ttu-id="8063c-124">À propos de la relocalisation des calendriers par programme à l'heure</span><span class="sxs-lookup"><span data-stu-id="8063c-124">About rebasing calendars programmatically for Daylight Saving Time</span></span>](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
 

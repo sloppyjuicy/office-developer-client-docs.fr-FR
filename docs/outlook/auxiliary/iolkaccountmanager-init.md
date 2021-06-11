@@ -14,13 +14,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32322035"
 ---
-# <a name="iolkaccountmanagerinit"></a><span data-ttu-id="f06eb-103">IOlkAccountManager::Init</span><span class="sxs-lookup"><span data-stu-id="f06eb-103">IOlkAccountManager::Init</span></span>
+# <a name="iolkaccountmanagerinit"></a><span data-ttu-id="8e70e-103">IOlkAccountManager::Init</span><span class="sxs-lookup"><span data-stu-id="8e70e-103">IOlkAccountManager::Init</span></span>
 
-<span data-ttu-id="f06eb-104">Initialise le gestionnaire de comptes à utiliser.</span><span class="sxs-lookup"><span data-stu-id="f06eb-104">Initializes the account manager for use.</span></span>
+<span data-ttu-id="8e70e-104">Initialise le gestionnaire de comptes à utiliser.</span><span class="sxs-lookup"><span data-stu-id="8e70e-104">Initializes the account manager for use.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="f06eb-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="f06eb-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="8e70e-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="8e70e-105">Quick info</span></span>
 
-<span data-ttu-id="f06eb-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="f06eb-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
+<span data-ttu-id="8e70e-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="8e70e-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccountManager::Init (  
@@ -30,37 +30,37 @@ HRESULT IOlkAccountManager::Init (
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f06eb-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="f06eb-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8e70e-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="8e70e-107">Parameters</span></span>
 
-<span data-ttu-id="f06eb-108">_pAcctHelper_</span><span class="sxs-lookup"><span data-stu-id="f06eb-108">_pAcctHelper_</span></span>
+<span data-ttu-id="8e70e-108">_pAcctHelper_</span><span class="sxs-lookup"><span data-stu-id="8e70e-108">_pAcctHelper_</span></span>
   
-> <span data-ttu-id="f06eb-109">[in] Interface [IOlkAccountHelper](iolkaccounthelper.md) qui fournit la fonctionnalité d’aide de compte.</span><span class="sxs-lookup"><span data-stu-id="f06eb-109">[in] An [IOlkAccountHelper](iolkaccounthelper.md) interface that provides account helper functionality.</span></span> 
+> <span data-ttu-id="8e70e-109">[in] Interface [IOlkAccountHelper](iolkaccounthelper.md) qui fournit la fonctionnalité d’aide de compte.</span><span class="sxs-lookup"><span data-stu-id="8e70e-109">[in] An [IOlkAccountHelper](iolkaccounthelper.md) interface that provides account helper functionality.</span></span> 
     
-<span data-ttu-id="f06eb-110">_dwFlags_</span><span class="sxs-lookup"><span data-stu-id="f06eb-110">_dwFlags_</span></span>
+<span data-ttu-id="8e70e-110">_dwFlags_</span><span class="sxs-lookup"><span data-stu-id="8e70e-110">_dwFlags_</span></span>
   
-> <span data-ttu-id="f06eb-111">[in] Indicateurs pour modifier le comportement.</span><span class="sxs-lookup"><span data-stu-id="f06eb-111">[in] Flags to modify behavior.</span></span>
+> <span data-ttu-id="8e70e-111">[in] Indicateurs pour modifier le comportement.</span><span class="sxs-lookup"><span data-stu-id="8e70e-111">[in] Flags to modify behavior.</span></span>
     
-   - <span data-ttu-id="f06eb-112">**ACCT_INIT_NO_STORES_CHECK** : empêche un compte (tel qu’un compte IMAP) de se synchroniser avec un magasin associé.</span><span class="sxs-lookup"><span data-stu-id="f06eb-112">**ACCT_INIT_NO_STORES_CHECK** —Prevents an account (such as an IMAP account) from synchronizing with an associated store.</span></span> 
+   - <span data-ttu-id="8e70e-112">**ACCT_INIT_NO_STORES_CHECK** : empêche un compte (tel qu’un compte IMAP) de se synchroniser avec un magasin associé.</span><span class="sxs-lookup"><span data-stu-id="8e70e-112">**ACCT_INIT_NO_STORES_CHECK** —Prevents an account (such as an IMAP account) from synchronizing with an associated store.</span></span> 
     
-   - <span data-ttu-id="f06eb-113">**ACCT_INIT_NOSYNCH_MAPI_ACCTS** : empêche les services MAPI de se synchroniser avec les comptes.</span><span class="sxs-lookup"><span data-stu-id="f06eb-113">**ACCT_INIT_NOSYNCH_MAPI_ACCTS** —Prevents MAPI services from synchronizing with accounts.</span></span> 
+   - <span data-ttu-id="8e70e-113">**ACCT_INIT_NOSYNCH_MAPI_ACCTS** : empêche les services MAPI de se synchroniser avec les comptes.</span><span class="sxs-lookup"><span data-stu-id="8e70e-113">**ACCT_INIT_NOSYNCH_MAPI_ACCTS** —Prevents MAPI services from synchronizing with accounts.</span></span> 
    
-   - <span data-ttu-id="f06eb-114">**ACCT_INIT_NO_NOTIFICATIONS** : empêche le gestionnaire de comptes d’intercepter les messages de diffusion destinés à d’autres applications.</span><span class="sxs-lookup"><span data-stu-id="f06eb-114">**ACCT_INIT_NO_NOTIFICATIONS** —Prevents the Account Manager from intercepting broadcast messages intended for other applications.</span></span> 
+   - <span data-ttu-id="8e70e-114">**ACCT_INIT_NO_NOTIFICATIONS** : empêche le gestionnaire de comptes d’intercepter les messages de diffusion destinés à d’autres applications.</span><span class="sxs-lookup"><span data-stu-id="8e70e-114">**ACCT_INIT_NO_NOTIFICATIONS** —Prevents the Account Manager from intercepting broadcast messages intended for other applications.</span></span> 
    
-   - <span data-ttu-id="f06eb-115">**OLK_ACCOUNT_NO_FLAGS** — Synchronise les services MAPI avec les comptes.</span><span class="sxs-lookup"><span data-stu-id="f06eb-115">**OLK_ACCOUNT_NO_FLAGS** —Synchronizes MAPI services with accounts.</span></span> 
+   - <span data-ttu-id="8e70e-115">**OLK_ACCOUNT_NO_FLAGS** : synchronise les services MAPI avec les comptes.</span><span class="sxs-lookup"><span data-stu-id="8e70e-115">**OLK_ACCOUNT_NO_FLAGS** —Synchronizes MAPI services with accounts.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="f06eb-116">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="f06eb-116">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="8e70e-116">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="8e70e-116">Return values</span></span>
 
-|<span data-ttu-id="f06eb-117">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="f06eb-117">**HRESULT**</span></span>|<span data-ttu-id="f06eb-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="f06eb-118">**Description**</span></span>|
+|<span data-ttu-id="8e70e-117">**[HRESULT]**</span><span class="sxs-lookup"><span data-stu-id="8e70e-117">**HRESULT**</span></span>|<span data-ttu-id="8e70e-118">**Description**</span><span class="sxs-lookup"><span data-stu-id="8e70e-118">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="f06eb-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="f06eb-119">S_OK</span></span>  <br/> |<span data-ttu-id="f06eb-120">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="f06eb-120">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="f06eb-121">E_OLK_ALREADY_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="f06eb-121">E_OLK_ALREADY_INITIALIZED</span></span>  <br/> |<span data-ttu-id="f06eb-122">**Init** a déjà été appelé.</span><span class="sxs-lookup"><span data-stu-id="f06eb-122">**Init** has already been called.</span></span>  <br/> |
-|<span data-ttu-id="f06eb-123">E_OLK_REGISTRY</span><span class="sxs-lookup"><span data-stu-id="f06eb-123">E_OLK_REGISTRY</span></span>  <br/> |<span data-ttu-id="f06eb-124">Le gestionnaire de comptes n’a pas pu accéder aux paramètres de Registre requis.</span><span class="sxs-lookup"><span data-stu-id="f06eb-124">The account manager could not access the required registry settings.</span></span>  <br/> |
+|<span data-ttu-id="8e70e-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="8e70e-119">S_OK</span></span>  <br/> |<span data-ttu-id="8e70e-120">L'appel a réussi.</span><span class="sxs-lookup"><span data-stu-id="8e70e-120">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="8e70e-121">E_OLK_ALREADY_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="8e70e-121">E_OLK_ALREADY_INITIALIZED</span></span>  <br/> |<span data-ttu-id="8e70e-122">**Init** a déjà été appelé.</span><span class="sxs-lookup"><span data-stu-id="8e70e-122">**Init** has already been called.</span></span>  <br/> |
+|<span data-ttu-id="8e70e-123">E_OLK_REGISTRY</span><span class="sxs-lookup"><span data-stu-id="8e70e-123">E_OLK_REGISTRY</span></span>  <br/> |<span data-ttu-id="8e70e-124">Le gestionnaire de comptes n’a pas pu accéder aux paramètres de Registre requis.</span><span class="sxs-lookup"><span data-stu-id="8e70e-124">The account manager could not access the required registry settings.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f06eb-125">Remarques</span><span class="sxs-lookup"><span data-stu-id="f06eb-125">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8e70e-125">Remarques</span><span class="sxs-lookup"><span data-stu-id="8e70e-125">Remarks</span></span>
 
-<span data-ttu-id="f06eb-126">Le client doit appeler **IOlkAccountManager::Init** pour initialiser le gestionnaire de comptes avant d’utiliser le gestionnaire de comptes pour accéder aux comptes ou configurer des notifications.</span><span class="sxs-lookup"><span data-stu-id="f06eb-126">The client must call **IOlkAccountManager::Init** to initialize the account manager before using the account manager to access accounts or set up notifications.</span></span> <span data-ttu-id="f06eb-127">Étant donné qu’Outlook synchronise automatiquement les services MAPI avec les comptes au démarrage, utilisez **ACCT_INIT_NOSYNCH_MAPI_ACCTS** sauf s’il existe une cause spécifique à synchroniser.</span><span class="sxs-lookup"><span data-stu-id="f06eb-127">Because Outlook automatically synchronizes MAPI services with accounts on startup, use **ACCT_INIT_NOSYNCH_MAPI_ACCTS** unless there is a specific cause to synchronize.</span></span> 
+<span data-ttu-id="8e70e-126">Le client doit appeler **IOlkAccountManager::Init** pour initialiser le gestionnaire de comptes avant d’utiliser le gestionnaire de comptes pour accéder aux comptes ou configurer des notifications.</span><span class="sxs-lookup"><span data-stu-id="8e70e-126">The client must call **IOlkAccountManager::Init** to initialize the account manager before using the account manager to access accounts or set up notifications.</span></span> <span data-ttu-id="8e70e-127">Comme Outlook synchronise automatiquement les services MAPI avec les comptes au démarrage, utilisez **ACCT_INIT_NOSYNCH_MAPI_ACCTS** à moins qu’il n’existe une cause spécifique à synchroniser.</span><span class="sxs-lookup"><span data-stu-id="8e70e-127">Because Outlook automatically synchronizes MAPI services with accounts on startup, use **ACCT_INIT_NOSYNCH_MAPI_ACCTS** unless there is a specific cause to synchronize.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f06eb-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f06eb-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8e70e-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8e70e-128">See also</span></span>
 
-- [<span data-ttu-id="f06eb-129">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="f06eb-129">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="8e70e-129">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="8e70e-129">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

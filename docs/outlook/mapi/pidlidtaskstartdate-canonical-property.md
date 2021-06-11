@@ -19,60 +19,60 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316680"
 ---
-# <a name="pidlidtaskstartdate-canonical-property"></a><span data-ttu-id="963e2-103">Propriété canonique PidLidTaskStartDate</span><span class="sxs-lookup"><span data-stu-id="963e2-103">PidLidTaskStartDate Canonical Property</span></span>
+# <a name="pidlidtaskstartdate-canonical-property"></a><span data-ttu-id="3777a-103">Propriété canonique PidLidTaskStartDate</span><span class="sxs-lookup"><span data-stu-id="3777a-103">PidLidTaskStartDate Canonical Property</span></span>
 
   
   
-<span data-ttu-id="963e2-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="963e2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3777a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3777a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="963e2-105">Date à laquelle l’utilisateur s’attend à commencer la tâche.</span><span class="sxs-lookup"><span data-stu-id="963e2-105">The date when the user expects to begin the task.</span></span>
+<span data-ttu-id="3777a-105">Date à laquelle l’utilisateur s’attend à commencer la tâche.</span><span class="sxs-lookup"><span data-stu-id="3777a-105">The date when the user expects to begin the task.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="963e2-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="963e2-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="963e2-107">dispidTaskStartDate</span><span class="sxs-lookup"><span data-stu-id="963e2-107">dispidTaskStartDate</span></span>  <br/> |
-|<span data-ttu-id="963e2-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="963e2-108">Property set:</span></span>  <br/> |<span data-ttu-id="963e2-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="963e2-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="963e2-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="963e2-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="963e2-111">0x00008104</span><span class="sxs-lookup"><span data-stu-id="963e2-111">0x00008104</span></span>  <br/> |
-|<span data-ttu-id="963e2-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="963e2-112">Data type:</span></span>  <br/> |<span data-ttu-id="963e2-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="963e2-113">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="963e2-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="963e2-114">Area:</span></span>  <br/> |<span data-ttu-id="963e2-115">Tâche</span><span class="sxs-lookup"><span data-stu-id="963e2-115">Task</span></span>  <br/> |
+|<span data-ttu-id="3777a-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="3777a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3777a-107">dispidTaskStartDate</span><span class="sxs-lookup"><span data-stu-id="3777a-107">dispidTaskStartDate</span></span>  <br/> |
+|<span data-ttu-id="3777a-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="3777a-108">Property set:</span></span>  <br/> |<span data-ttu-id="3777a-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="3777a-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="3777a-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="3777a-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="3777a-111">0x00008104</span><span class="sxs-lookup"><span data-stu-id="3777a-111">0x00008104</span></span>  <br/> |
+|<span data-ttu-id="3777a-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="3777a-112">Data type:</span></span>  <br/> |<span data-ttu-id="3777a-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="3777a-113">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="3777a-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="3777a-114">Area:</span></span>  <br/> |<span data-ttu-id="3777a-115">Tâche</span><span class="sxs-lookup"><span data-stu-id="3777a-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="963e2-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="963e2-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3777a-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="3777a-116">Remarks</span></span>
 
-<span data-ttu-id="963e2-117">Si cette valeur de propriété n’est pas jeu, la tâche n’a pas de date de début.</span><span class="sxs-lookup"><span data-stu-id="963e2-117">If this property value is left unset, the task does not have a start date.</span></span> <span data-ttu-id="963e2-118">La valeur « 0x5AE980E0 » (1 525 252 320) signifie également que la tâche n’a pas de date de début.</span><span class="sxs-lookup"><span data-stu-id="963e2-118">A value of "0x5AE980E0" (1,525,252,320) also means that the task does not have a start date.</span></span> <span data-ttu-id="963e2-119">Si la tâche a une date de début, la valeur doit avoir un composant d’heure de minuit et les propriétés **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) et **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) doivent également être définies.</span><span class="sxs-lookup"><span data-stu-id="963e2-119">If the task has a start date, the value must have a time component of midnight, and the **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) and **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) properties must also be set.</span></span>
+<span data-ttu-id="3777a-117">Si cette valeur de propriété n’est pas jeu, la tâche n’a pas de date de début.</span><span class="sxs-lookup"><span data-stu-id="3777a-117">If this property value is left unset, the task does not have a start date.</span></span> <span data-ttu-id="3777a-118">La valeur « 0x5AE980E0 » (1 525 252 320) signifie également que la tâche n’a pas de date de début.</span><span class="sxs-lookup"><span data-stu-id="3777a-118">A value of "0x5AE980E0" (1,525,252,320) also means that the task does not have a start date.</span></span> <span data-ttu-id="3777a-119">Si la tâche a une date de début, la valeur doit avoir un composant d’heure de minuit et les propriétés **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) et **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) doivent également être définies.</span><span class="sxs-lookup"><span data-stu-id="3777a-119">If the task has a start date, the value must have a time component of midnight, and the **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) and **dispidCommonStart** ([PidLidCommonStart](pidlidcommonstart-canonical-property.md)) properties must also be set.</span></span>
   
-<span data-ttu-id="963e2-120">Cette propriété est partagée par les spécifications de protocole Informational Flagging et Task-Related Object Protocol situées [dans [MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="963e2-120">This property is shared by the Informational Flagging Protocol Specification and Task-Related Object Protocol Specification located in [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span></span>
+<span data-ttu-id="3777a-120">Cette propriété est partagée par les spécifications de protocole Informational Flagging et Task-Related Object Protocol situées dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="3777a-120">This property is shared by the Informational Flagging Protocol Specification and Task-Related Object Protocol Specification located in [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="963e2-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="963e2-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="3777a-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="3777a-121">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="963e2-122">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="963e2-122">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="3777a-122">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="3777a-122">Protocol specifications</span></span>
 
-<span data-ttu-id="963e2-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="963e2-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3777a-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3777a-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="963e2-124">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="963e2-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="3777a-124">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="3777a-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="963e2-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="963e2-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3777a-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3777a-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="963e2-126">Spécifie les propriétés et opérations autorisées sur les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="963e2-126">Specifies the properties and operations that are permissible on contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="3777a-126">Spécifie les propriétés et opérations autorisées sur les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="3777a-126">Specifies the properties and operations that are permissible on contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="963e2-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="963e2-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="3777a-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="3777a-127">Header files</span></span>
 
-<span data-ttu-id="963e2-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="963e2-128">Mapidefs.h</span></span>
+<span data-ttu-id="3777a-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3777a-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="963e2-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="963e2-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="3777a-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="3777a-129">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="963e2-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="963e2-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3777a-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3777a-130">See also</span></span>
 
 
 
-[<span data-ttu-id="963e2-131">Propri�t� canonique PidLidTaskDueDate</span><span class="sxs-lookup"><span data-stu-id="963e2-131">PidLidTaskDueDate Canonical Property</span></span>](pidlidtaskduedate-canonical-property.md)
+[<span data-ttu-id="3777a-131">Propri�t� canonique PidLidTaskDueDate</span><span class="sxs-lookup"><span data-stu-id="3777a-131">PidLidTaskDueDate Canonical Property</span></span>](pidlidtaskduedate-canonical-property.md)
   
-[<span data-ttu-id="963e2-132">Propri�t� canonique PidLidCommonStart</span><span class="sxs-lookup"><span data-stu-id="963e2-132">PidLidCommonStart Canonical Property</span></span>](pidlidcommonstart-canonical-property.md)
+[<span data-ttu-id="3777a-132">Propri�t� canonique PidLidCommonStart</span><span class="sxs-lookup"><span data-stu-id="3777a-132">PidLidCommonStart Canonical Property</span></span>](pidlidcommonstart-canonical-property.md)
 
 
-[<span data-ttu-id="963e2-133">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="963e2-133">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="3777a-133">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="3777a-133">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="963e2-134">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="963e2-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="3777a-134">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="3777a-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="963e2-135">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="963e2-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="3777a-135">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="3777a-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="963e2-136">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="963e2-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="3777a-136">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="3777a-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

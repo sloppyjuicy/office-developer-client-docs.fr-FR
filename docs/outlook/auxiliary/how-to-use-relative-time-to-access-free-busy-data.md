@@ -14,19 +14,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32317632"
 ---
-# <a name="use-relative-time-to-access-freebusy-data"></a><span data-ttu-id="c822d-103">Utiliser l’heure relative pour accéder aux données de libre/occupé</span><span class="sxs-lookup"><span data-stu-id="c822d-103">Use relative time to access free/busy data</span></span>
+# <a name="use-relative-time-to-access-freebusy-data"></a><span data-ttu-id="0cc8d-103">Utiliser l’heure relative pour accéder aux données de libre/occupé</span><span class="sxs-lookup"><span data-stu-id="0cc8d-103">Use relative time to access free/busy data</span></span>
 
-<span data-ttu-id="c822d-104">L’interface [IFreeBusyData](ifreebusydata.md) dans l’API de libre/occupé utilise un concept de temps relatif, qui est le nombre de minutes depuis le 1er janvier 1601, exprimé en temps universel (UTC), et est une valeur de type **LONG**.</span><span class="sxs-lookup"><span data-stu-id="c822d-104">The [IFreeBusyData](ifreebusydata.md) interface in the Free/Busy API uses a concept of relative time, which is the number of minutes since January 1, 1601, expressed in Universal Time (UTC), and is a value of type **LONG**.</span></span> 
+<span data-ttu-id="0cc8d-104">L’interface [IFreeBusyData](ifreebusydata.md) dans l’API de libre/occupé utilise un concept de temps relatif, qui est le nombre de minutes depuis le 1er janvier 1601, exprimé en temps universel (UTC), et est une valeur de type **LONG**.</span><span class="sxs-lookup"><span data-stu-id="0cc8d-104">The [IFreeBusyData](ifreebusydata.md) interface in the Free/Busy API uses a concept of relative time, which is the number of minutes since January 1, 1601, expressed in Universal Time (UTC), and is a value of type **LONG**.</span></span> 
   
-<span data-ttu-id="c822d-105">Voici quelques valeurs d’heure relatives couramment utilisées :</span><span class="sxs-lookup"><span data-stu-id="c822d-105">The following are some commonly used relative time values:</span></span>
+<span data-ttu-id="0cc8d-105">Voici quelques valeurs d’heure relatives couramment utilisées :</span><span class="sxs-lookup"><span data-stu-id="0cc8d-105">The following are some commonly used relative time values:</span></span>
   
 - `ULONG ulrtmMax = 1525252319L`
     
 - `ULONG ulrtmMin = 0L`
     
-<span data-ttu-id="c822d-106">Utilisez les valeurs d’heure relatives maximales et minimales précédentes pour vérifier que vos valeurs d’heure relatives sont valides.</span><span class="sxs-lookup"><span data-stu-id="c822d-106">Use the preceding maximum and minimum relative time values to help verify that your relative time values are valid.</span></span>
+<span data-ttu-id="0cc8d-106">Utilisez les valeurs d’heure relatives maximales et minimales précédentes pour vérifier que vos valeurs d’heure relatives sont valides.</span><span class="sxs-lookup"><span data-stu-id="0cc8d-106">Use the preceding maximum and minimum relative time values to help verify that your relative time values are valid.</span></span>
   
-<span data-ttu-id="c822d-107">Étant donné que NTFS enregistre les heures de fichier en natif au format [FILETIME,](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) il peut être pratique d’utiliser l’exemple de code suivant pour convertir le temps relatif vers et à partir de **FILETIME**.</span><span class="sxs-lookup"><span data-stu-id="c822d-107">Because NTFS records file times natively in [FILETIME](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) format, it might be handy to use the following code example to convert relative time to and from **FILETIME**.</span></span> 
+<span data-ttu-id="0cc8d-107">Étant donné que NTFS enregistre les heures de fichier en natif au format [FILETIME,](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) il peut être pratique d’utiliser l’exemple de code suivant pour convertir l’heure relative vers et à partir de **FILETIME**.</span><span class="sxs-lookup"><span data-stu-id="0cc8d-107">Because NTFS records file times natively in [FILETIME](https://msdn.microsoft.com/library/9baf8a0e-59e3-4fbd-9616-2ec9161520d1%28Office.15%29.aspx) format, it might be handy to use the following code example to convert relative time to and from **FILETIME**.</span></span> 
   
 ```cpp
 static const LONGLONG UnitsPerMinute = 600000000; 
@@ -52,8 +52,8 @@ void FileTimeToRTime(FILETIME *pft, LONG* prtime)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="c822d-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c822d-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0cc8d-108">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0cc8d-108">See also</span></span>
 
-- [<span data-ttu-id="c822d-109">À propos de l’API Disponibilité</span><span class="sxs-lookup"><span data-stu-id="c822d-109">About the Free/Busy API</span></span>](about-the-free-busy-api.md)
-- [<span data-ttu-id="c822d-110">IFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="c822d-110">IFreeBusyData</span></span>](ifreebusydata.md)
+- [<span data-ttu-id="0cc8d-109">À propos de l’API Disponibilité</span><span class="sxs-lookup"><span data-stu-id="0cc8d-109">About the Free/Busy API</span></span>](about-the-free-busy-api.md)
+- [<span data-ttu-id="0cc8d-110">IFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="0cc8d-110">IFreeBusyData</span></span>](ifreebusydata.md)
 

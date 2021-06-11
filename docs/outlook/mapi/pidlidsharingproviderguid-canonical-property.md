@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32336882"
 ---
-# <a name="pidlidsharingproviderguid-canonical-property"></a><span data-ttu-id="b40dc-103">Propriété canonique PidLidSharingProviderGuid</span><span class="sxs-lookup"><span data-stu-id="b40dc-103">PidLidSharingProviderGuid Canonical Property</span></span>
+# <a name="pidlidsharingproviderguid-canonical-property"></a><span data-ttu-id="44169-103">Propriété canonique PidLidSharingProviderGuid</span><span class="sxs-lookup"><span data-stu-id="44169-103">PidLidSharingProviderGuid Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b40dc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b40dc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="44169-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="44169-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b40dc-105">Spécifie l’identificateur global unique (GUID) du fournisseur de partage.</span><span class="sxs-lookup"><span data-stu-id="b40dc-105">Specifies the sharing provider globally unique identifier (GUID).</span></span> <span data-ttu-id="b40dc-106">Il s’agit d’une propriété d’un message de partage.</span><span class="sxs-lookup"><span data-stu-id="b40dc-106">This is a property of a sharing message.</span></span>
+<span data-ttu-id="44169-105">Spécifie l’identificateur global unique (GUID) du fournisseur de partage.</span><span class="sxs-lookup"><span data-stu-id="44169-105">Specifies the sharing provider globally unique identifier (GUID).</span></span> <span data-ttu-id="44169-106">Il s’agit d’une propriété d’un message de partage.</span><span class="sxs-lookup"><span data-stu-id="44169-106">This is a property of a sharing message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b40dc-107">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="b40dc-107">Associated properties:</span></span>  <br/> |<span data-ttu-id="b40dc-108">dispidSharingProviderGuid</span><span class="sxs-lookup"><span data-stu-id="b40dc-108">dispidSharingProviderGuid</span></span>  <br/> |
-|<span data-ttu-id="b40dc-109">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="b40dc-109">Property set:</span></span>  <br/> |<span data-ttu-id="b40dc-110">PSETID_Sharing</span><span class="sxs-lookup"><span data-stu-id="b40dc-110">PSETID_Sharing</span></span>  <br/> |
-|<span data-ttu-id="b40dc-111">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="b40dc-111">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="b40dc-112">0x00008A01</span><span class="sxs-lookup"><span data-stu-id="b40dc-112">0x00008A01</span></span>  <br/> |
-|<span data-ttu-id="b40dc-113">Type de données :</span><span class="sxs-lookup"><span data-stu-id="b40dc-113">Data type:</span></span>  <br/> |<span data-ttu-id="b40dc-114">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="b40dc-114">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="b40dc-115">Domaine :</span><span class="sxs-lookup"><span data-stu-id="b40dc-115">Area:</span></span>  <br/> |<span data-ttu-id="b40dc-116">Partage</span><span class="sxs-lookup"><span data-stu-id="b40dc-116">Sharing</span></span>  <br/> |
+|<span data-ttu-id="44169-107">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="44169-107">Associated properties:</span></span>  <br/> |<span data-ttu-id="44169-108">dispidSharingProviderGuid</span><span class="sxs-lookup"><span data-stu-id="44169-108">dispidSharingProviderGuid</span></span>  <br/> |
+|<span data-ttu-id="44169-109">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="44169-109">Property set:</span></span>  <br/> |<span data-ttu-id="44169-110">PSETID_Sharing</span><span class="sxs-lookup"><span data-stu-id="44169-110">PSETID_Sharing</span></span>  <br/> |
+|<span data-ttu-id="44169-111">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="44169-111">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="44169-112">0x00008A01</span><span class="sxs-lookup"><span data-stu-id="44169-112">0x00008A01</span></span>  <br/> |
+|<span data-ttu-id="44169-113">Type de données :</span><span class="sxs-lookup"><span data-stu-id="44169-113">Data type:</span></span>  <br/> |<span data-ttu-id="44169-114">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="44169-114">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="44169-115">Domaine :</span><span class="sxs-lookup"><span data-stu-id="44169-115">Area:</span></span>  <br/> |<span data-ttu-id="44169-116">Partage</span><span class="sxs-lookup"><span data-stu-id="44169-116">Sharing</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b40dc-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="b40dc-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="44169-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="44169-117">Remarks</span></span>
 
-<span data-ttu-id="b40dc-118">La valeur de cette propriété doit être définie sur « %xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.00.46 ».</span><span class="sxs-lookup"><span data-stu-id="b40dc-118">The value of this property must be set to "%xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46".</span></span> 
+<span data-ttu-id="44169-118">La valeur de cette propriété doit être définie sur « %xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.00.46 ».</span><span class="sxs-lookup"><span data-stu-id="44169-118">The value of this property must be set to "%xAE.F0.06.00.00.00.00.00.C0.00.00.00.00.00.00.46".</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="b40dc-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="b40dc-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="44169-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="44169-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b40dc-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="b40dc-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="44169-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="44169-120">Protocol specifications</span></span>
 
-<span data-ttu-id="b40dc-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b40dc-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="44169-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="44169-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b40dc-122">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="b40dc-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="44169-122">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="44169-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="b40dc-123">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b40dc-123">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="44169-123">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="44169-123">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b40dc-124">Partage des dossiers de boîte aux lettres entre clients.</span><span class="sxs-lookup"><span data-stu-id="b40dc-124">Shares mailbox folders between clients.</span></span>
+> <span data-ttu-id="44169-124">Partage des dossiers de boîte aux lettres entre clients.</span><span class="sxs-lookup"><span data-stu-id="44169-124">Shares mailbox folders between clients.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b40dc-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="b40dc-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="44169-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="44169-125">Header files</span></span>
 
-<span data-ttu-id="b40dc-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b40dc-126">Mapidefs.h</span></span>
+<span data-ttu-id="44169-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="44169-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b40dc-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="b40dc-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="44169-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="44169-127">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b40dc-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b40dc-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="44169-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="44169-128">See also</span></span>
 
 
 
-[<span data-ttu-id="b40dc-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="b40dc-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="44169-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="44169-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b40dc-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="b40dc-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="44169-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="44169-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b40dc-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="b40dc-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="44169-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="44169-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b40dc-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="b40dc-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="44169-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="44169-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

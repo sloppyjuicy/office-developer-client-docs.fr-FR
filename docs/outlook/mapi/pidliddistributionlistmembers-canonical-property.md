@@ -19,59 +19,59 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32335069"
 ---
-# <a name="pidliddistributionlistmembers-canonical-property"></a><span data-ttu-id="05424-103">Propri t canonique PidLidDistributionListMembers</span><span class="sxs-lookup"><span data-stu-id="05424-103">PidLidDistributionListMembers Canonical Property</span></span>
+# <a name="pidliddistributionlistmembers-canonical-property"></a><span data-ttu-id="73451-103">Propri t canonique PidLidDistributionListMembers</span><span class="sxs-lookup"><span data-stu-id="73451-103">PidLidDistributionListMembers Canonical Property</span></span>
 
   
   
-<span data-ttu-id="05424-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="05424-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="73451-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="73451-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="05424-105">Spécifie la liste des EntryIds des objets qui correspondent aux membres de la liste de distribution personnelle.</span><span class="sxs-lookup"><span data-stu-id="05424-105">Specifies the list of EntryIds of the objects that correspond to the members of the personal distribution list.</span></span>
+<span data-ttu-id="73451-105">Spécifie la liste des EntryIds des objets qui correspondent aux membres de la liste de distribution personnelle.</span><span class="sxs-lookup"><span data-stu-id="73451-105">Specifies the list of EntryIds of the objects that correspond to the members of the personal distribution list.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="05424-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="05424-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="05424-107">dispidDLMembers</span><span class="sxs-lookup"><span data-stu-id="05424-107">dispidDLMembers</span></span>  <br/> |
-|<span data-ttu-id="05424-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="05424-108">Property set:</span></span>  <br/> |<span data-ttu-id="05424-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="05424-109">PSETID_Address</span></span>  <br/> |
-|<span data-ttu-id="05424-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="05424-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="05424-111">0x00008055</span><span class="sxs-lookup"><span data-stu-id="05424-111">0x00008055</span></span>  <br/> |
-|<span data-ttu-id="05424-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="05424-112">Data type:</span></span>  <br/> |<span data-ttu-id="05424-113">PT_MV_BINARY</span><span class="sxs-lookup"><span data-stu-id="05424-113">PT_MV_BINARY</span></span>  <br/> |
-|<span data-ttu-id="05424-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="05424-114">Area:</span></span>  <br/> |<span data-ttu-id="05424-115">Contact</span><span class="sxs-lookup"><span data-stu-id="05424-115">Contact</span></span>  <br/> |
+|<span data-ttu-id="73451-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="73451-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="73451-107">dispidDLMembers</span><span class="sxs-lookup"><span data-stu-id="73451-107">dispidDLMembers</span></span>  <br/> |
+|<span data-ttu-id="73451-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="73451-108">Property set:</span></span>  <br/> |<span data-ttu-id="73451-109">PSETID_Address</span><span class="sxs-lookup"><span data-stu-id="73451-109">PSETID_Address</span></span>  <br/> |
+|<span data-ttu-id="73451-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="73451-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="73451-111">0x00008055</span><span class="sxs-lookup"><span data-stu-id="73451-111">0x00008055</span></span>  <br/> |
+|<span data-ttu-id="73451-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="73451-112">Data type:</span></span>  <br/> |<span data-ttu-id="73451-113">PT_MV_BINARY</span><span class="sxs-lookup"><span data-stu-id="73451-113">PT_MV_BINARY</span></span>  <br/> |
+|<span data-ttu-id="73451-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="73451-114">Area:</span></span>  <br/> |<span data-ttu-id="73451-115">Contact</span><span class="sxs-lookup"><span data-stu-id="73451-115">Contact</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="05424-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="05424-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="73451-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="73451-116">Remarks</span></span>
 
-<span data-ttu-id="05424-117">Les membres de la liste de distribution personnelle peuvent être d’autres listes de distribution personnelles, des adresses électroniques contenues dans un contact, des utilisateurs de listes d’adresses globales ou des listes de distribution, ou des adresses de messagerie one-off.</span><span class="sxs-lookup"><span data-stu-id="05424-117">Members of the personal distribution list can be other personal distribution lists, electronic addresses contained in a contact, Global Address List users or distribution lists, or one-off email addresses.</span></span> <span data-ttu-id="05424-118">Le format de chaque EntryId doit être un EntryId one-off, comme spécifié dans [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) ou un EntryId wrapped.</span><span class="sxs-lookup"><span data-stu-id="05424-118">The format of each EntryId must be either a one-off EntryId, as specified in [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) or a wrapped EntryId.</span></span> 
+<span data-ttu-id="73451-117">Les membres de la liste de distribution personnelle peuvent être d’autres listes de distribution personnelles, des adresses électroniques contenues dans un contact, des utilisateurs de listes d’adresses globales ou des listes de distribution, ou des adresses de messagerie one-off.</span><span class="sxs-lookup"><span data-stu-id="73451-117">Members of the personal distribution list can be other personal distribution lists, electronic addresses contained in a contact, Global Address List users or distribution lists, or one-off email addresses.</span></span> <span data-ttu-id="73451-118">Le format de chaque EntryId doit être un EntryId one-off, comme spécifié dans [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) ou un EntryId wrapped.</span><span class="sxs-lookup"><span data-stu-id="73451-118">The format of each EntryId must be either a one-off EntryId, as specified in [[MS-OXCDATA],](https://msdn.microsoft.com/library/1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx) or a wrapped EntryId.</span></span> 
   
-<span data-ttu-id="05424-119">Lors de la définition de cette propriété, le client ou le serveur doit s’assurer que sa taille totale est inférieure à 15 000 octets.</span><span class="sxs-lookup"><span data-stu-id="05424-119">When setting this property, the client or the server must ensure its total size is less than 15,000 bytes.</span></span>
+<span data-ttu-id="73451-119">Lors de la définition de cette propriété, le client ou le serveur doit s’assurer que sa taille totale est inférieure à 15 000 octets.</span><span class="sxs-lookup"><span data-stu-id="73451-119">When setting this property, the client or the server must ensure its total size is less than 15,000 bytes.</span></span>
   
-<span data-ttu-id="05424-120">Cette propriété spécifie la liste des EntryIds qui correspondent aux membres de la liste de distribution personnelle.</span><span class="sxs-lookup"><span data-stu-id="05424-120">This property specifies the list of one-off EntryIds that correspond to the members of the personal distribution list.</span></span> <span data-ttu-id="05424-121">Ces EntryIds encapsulent les noms d’affichage et les adresses e-mail des membres de la liste de distribution personnelle.</span><span class="sxs-lookup"><span data-stu-id="05424-121">These one-off EntryIds encapsulate display names and email addresses of the personal distribution list members.</span></span>
+<span data-ttu-id="73451-120">Cette propriété spécifie la liste des EntryIds one-off qui correspondent aux membres de la liste de distribution personnelle.</span><span class="sxs-lookup"><span data-stu-id="73451-120">This property specifies the list of one-off EntryIds that correspond to the members of the personal distribution list.</span></span> <span data-ttu-id="73451-121">Ces EntryIds encapsulent les noms d’affichage et les adresses e-mail des membres de la liste de distribution personnelle.</span><span class="sxs-lookup"><span data-stu-id="73451-121">These one-off EntryIds encapsulate display names and email addresses of the personal distribution list members.</span></span>
   
-<span data-ttu-id="05424-122">Si le client ou le serveur a définie cette propriété, elle doit être synchronisée avec cette propriété **dispidDLMembers** pour chaque entrée dans la propriété **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), il doit y avoir une entrée à la même position dans le **dispidDLOneOffMembers**.</span><span class="sxs-lookup"><span data-stu-id="05424-122">If the client or the server set this property, it must be synchronized with this property **dispidDLMembers** for each entry in the **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)) property, there must be an entry in the same position in the **dispidDLOneOffMembers**.</span></span>
+<span data-ttu-id="73451-122">Si le client ou le serveur définisse cette propriété, elle doit être synchronisée avec cette propriété **dispidDLMembers** pour chaque entrée dans la propriété **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)), il doit y avoir une entrée à la même position dans la **dispidDLOneOffMembers**.</span><span class="sxs-lookup"><span data-stu-id="73451-122">If the client or the server set this property, it must be synchronized with this property **dispidDLMembers** for each entry in the **dispidDLOneOffMembers** ([PidLidDistributionListOneOffMembers](pidliddistributionlistoneoffmembers-canonical-property.md)) property, there must be an entry in the same position in the **dispidDLOneOffMembers**.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="05424-123">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="05424-123">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="73451-123">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="73451-123">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="05424-124">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="05424-124">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="73451-124">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="73451-124">Protocol specifications</span></span>
 
-<span data-ttu-id="05424-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="05424-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="73451-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="73451-125">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="05424-126">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="05424-126">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="73451-126">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="73451-126">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="05424-127">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="05424-127">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="73451-127">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="73451-127">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="05424-128">Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="05424-128">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="73451-128">Spécifie les propriétés et opérations autorisées pour les contacts et les listes de distribution personnelles.</span><span class="sxs-lookup"><span data-stu-id="73451-128">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="05424-129">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="05424-129">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="73451-129">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="73451-129">Header files</span></span>
 
-<span data-ttu-id="05424-130">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="05424-130">Mapidefs.h</span></span>
+<span data-ttu-id="73451-130">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="73451-130">Mapidefs.h</span></span>
   
-> <span data-ttu-id="05424-131">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="05424-131">Provides data type definitions.</span></span>
+> <span data-ttu-id="73451-131">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="73451-131">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="05424-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="05424-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="73451-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="73451-132">See also</span></span>
 
 
 
-[<span data-ttu-id="05424-133">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="05424-133">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="73451-133">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="73451-133">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="05424-134">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="05424-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="73451-134">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="73451-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="05424-135">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="05424-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="73451-135">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="73451-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="05424-136">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="05424-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="73451-136">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="73451-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

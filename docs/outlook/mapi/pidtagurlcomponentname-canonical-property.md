@@ -19,60 +19,60 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32320425"
 ---
-# <a name="pidtagurlcomponentname-canonical-property"></a><span data-ttu-id="b83ef-103">Propriété canonique PidTagUrlComponentName</span><span class="sxs-lookup"><span data-stu-id="b83ef-103">PidTagUrlComponentName Canonical Property</span></span>
+# <a name="pidtagurlcomponentname-canonical-property"></a><span data-ttu-id="1079b-103">Propriété canonique PidTagUrlComponentName</span><span class="sxs-lookup"><span data-stu-id="1079b-103">PidTagUrlComponentName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b83ef-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b83ef-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1079b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1079b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b83ef-105">Nom du composant URL d’un message.</span><span class="sxs-lookup"><span data-stu-id="b83ef-105">The URL component name for a message.</span></span> 
+<span data-ttu-id="1079b-105">Nom du composant URL d’un message.</span><span class="sxs-lookup"><span data-stu-id="1079b-105">The URL component name for a message.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b83ef-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="b83ef-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b83ef-107">PR_URL_COMP_NAME, PR_URL_COMP_NAME_A, PR_URL_COMP_NAME_W</span><span class="sxs-lookup"><span data-stu-id="b83ef-107">PR_URL_COMP_NAME, PR_URL_COMP_NAME_A, PR_URL_COMP_NAME_W</span></span>  <br/> |
-|<span data-ttu-id="b83ef-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="b83ef-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b83ef-109">0x10F3</span><span class="sxs-lookup"><span data-stu-id="b83ef-109">0x10F3</span></span>  <br/> |
-|<span data-ttu-id="b83ef-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="b83ef-110">Data type:</span></span>  <br/> |<span data-ttu-id="b83ef-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="b83ef-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="b83ef-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="b83ef-112">Area:</span></span>  <br/> |<span data-ttu-id="b83ef-113">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="b83ef-113">General messaging</span></span>  <br/> |
+|<span data-ttu-id="1079b-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="1079b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1079b-107">PR_URL_COMP_NAME, PR_URL_COMP_NAME_A, PR_URL_COMP_NAME_W</span><span class="sxs-lookup"><span data-stu-id="1079b-107">PR_URL_COMP_NAME, PR_URL_COMP_NAME_A, PR_URL_COMP_NAME_W</span></span>  <br/> |
+|<span data-ttu-id="1079b-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="1079b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1079b-109">0x10F3</span><span class="sxs-lookup"><span data-stu-id="1079b-109">0x10F3</span></span>  <br/> |
+|<span data-ttu-id="1079b-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="1079b-110">Data type:</span></span>  <br/> |<span data-ttu-id="1079b-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="1079b-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="1079b-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="1079b-112">Area:</span></span>  <br/> |<span data-ttu-id="1079b-113">Messagerie générale</span><span class="sxs-lookup"><span data-stu-id="1079b-113">General messaging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b83ef-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="b83ef-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1079b-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="1079b-114">Remarks</span></span>
 
-<span data-ttu-id="b83ef-115">Ces propriétés doivent être uniques dans un dossier.</span><span class="sxs-lookup"><span data-stu-id="b83ef-115">These properties should be unique within a folder.</span></span> <span data-ttu-id="b83ef-116">Si elle n’est pas définie lors de la création du message, la magasin de messages doit définir ces propriétés en fonction de différentes propriétés de message, en fonction de la classe de message.</span><span class="sxs-lookup"><span data-stu-id="b83ef-116">If not set when the message is created, the message store should set these properties based on various message properties, depending on the message class.</span></span> <span data-ttu-id="b83ef-117">Par exemple, **L’IPM. Remarque** et **IPM. Les** messages de rendez-vous doivent avoir cette propriété définie en fonction **de la propriété PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et de **l’IPM. Les** messages de contact doivent avoir cette propriété définie en fonction de la **propriété dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="b83ef-117">For example, the **IPM.Note** and **IPM.Appointment** messages should have this property set based on the **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) property and the **IPM.Contact** messages should have this property set based on the **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) property.</span></span> <span data-ttu-id="b83ef-118">Pour la plupart des autres classes de message, cette propriété doit être basée sur la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="b83ef-118">For most other message classes, this property should be based on the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.</span></span>
+<span data-ttu-id="1079b-115">Ces propriétés doivent être uniques dans un dossier.</span><span class="sxs-lookup"><span data-stu-id="1079b-115">These properties should be unique within a folder.</span></span> <span data-ttu-id="1079b-116">Si elle n’est pas définie lors de la création du message, la magasin de messages doit définir ces propriétés en fonction de différentes propriétés de message, en fonction de la classe de message.</span><span class="sxs-lookup"><span data-stu-id="1079b-116">If not set when the message is created, the message store should set these properties based on various message properties, depending on the message class.</span></span> <span data-ttu-id="1079b-117">Par exemple, **L’IPM. Remarque** et **IPM. Les** messages de rendez-vous doivent avoir cette propriété définie en fonction **de la propriété PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) et de **l’IPM. Les** messages de contact doivent avoir cette propriété définie en fonction de la **propriété dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="1079b-117">For example, the **IPM.Note** and **IPM.Appointment** messages should have this property set based on the **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) property and the **IPM.Contact** messages should have this property set based on the **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) property.</span></span> <span data-ttu-id="1079b-118">Pour la plupart des autres classes de message, cette propriété doit être basée sur la propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="1079b-118">For most other message classes, this property should be based on the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="b83ef-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="b83ef-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="1079b-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="1079b-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b83ef-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="b83ef-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="1079b-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="1079b-120">Protocol specifications</span></span>
 
-<span data-ttu-id="b83ef-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b83ef-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1079b-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1079b-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b83ef-122">Fournit des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="b83ef-122">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="1079b-122">Fournit des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="1079b-122">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="b83ef-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b83ef-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1079b-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1079b-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b83ef-124">Gère les objets de message et de pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="b83ef-124">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="1079b-124">Gère les objets message et pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="1079b-124">Handles message and attachment objects.</span></span>
     
-<span data-ttu-id="b83ef-125">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b83ef-125">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1079b-125">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1079b-125">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b83ef-126">Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.</span><span class="sxs-lookup"><span data-stu-id="b83ef-126">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
+> <span data-ttu-id="1079b-126">Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.</span><span class="sxs-lookup"><span data-stu-id="1079b-126">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b83ef-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="b83ef-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="1079b-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="1079b-127">Header files</span></span>
 
-<span data-ttu-id="b83ef-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b83ef-128">Mapidefs.h</span></span>
+<span data-ttu-id="1079b-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1079b-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b83ef-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="b83ef-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="1079b-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="1079b-129">Provides data type definitions.</span></span>
     
-<span data-ttu-id="b83ef-130">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="b83ef-130">Mapitags.h</span></span>
+<span data-ttu-id="1079b-130">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="1079b-130">Mapitags.h</span></span>
   
-> <span data-ttu-id="b83ef-131">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="b83ef-131">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="1079b-131">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="1079b-131">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b83ef-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b83ef-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1079b-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1079b-132">See also</span></span>
 
 
 
-[<span data-ttu-id="b83ef-133">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="b83ef-133">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="1079b-133">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="1079b-133">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b83ef-134">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="b83ef-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="1079b-134">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="1079b-134">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b83ef-135">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="b83ef-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="1079b-135">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="1079b-135">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b83ef-136">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="b83ef-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="1079b-136">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="1079b-136">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

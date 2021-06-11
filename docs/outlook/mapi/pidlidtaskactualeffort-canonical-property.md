@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32331170"
 ---
-# <a name="pidlidtaskactualeffort-canonical-property"></a><span data-ttu-id="bbda8-103">Propriété canonique PidLidTaskActualEffort</span><span class="sxs-lookup"><span data-stu-id="bbda8-103">PidLidTaskActualEffort Canonical Property</span></span>
+# <a name="pidlidtaskactualeffort-canonical-property"></a><span data-ttu-id="9e115-103">Propriété canonique PidLidTaskActualEffort</span><span class="sxs-lookup"><span data-stu-id="9e115-103">PidLidTaskActualEffort Canonical Property</span></span>
 
   
   
-<span data-ttu-id="bbda8-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bbda8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9e115-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9e115-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bbda8-105">Indique le nombre de minutes pendantées par l’utilisateur pour effectuer une tâche.</span><span class="sxs-lookup"><span data-stu-id="bbda8-105">Indicates the number of minutes that the user performed a task.</span></span>
+<span data-ttu-id="9e115-105">Indique le nombre de minutes pendantées par l’utilisateur pour effectuer une tâche.</span><span class="sxs-lookup"><span data-stu-id="9e115-105">Indicates the number of minutes that the user performed a task.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bbda8-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="bbda8-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="bbda8-107">dispidTaskActualEffort</span><span class="sxs-lookup"><span data-stu-id="bbda8-107">dispidTaskActualEffort</span></span>  <br/> |
-|<span data-ttu-id="bbda8-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="bbda8-108">Property set:</span></span>  <br/> |<span data-ttu-id="bbda8-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="bbda8-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="bbda8-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="bbda8-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="bbda8-111">0x00008110</span><span class="sxs-lookup"><span data-stu-id="bbda8-111">0x00008110</span></span>  <br/> |
-|<span data-ttu-id="bbda8-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="bbda8-112">Data type:</span></span>  <br/> |<span data-ttu-id="bbda8-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="bbda8-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="bbda8-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="bbda8-114">Area:</span></span>  <br/> |<span data-ttu-id="bbda8-115">Tâche</span><span class="sxs-lookup"><span data-stu-id="bbda8-115">Task</span></span>  <br/> |
+|<span data-ttu-id="9e115-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="9e115-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="9e115-107">dispidTaskActualEffort</span><span class="sxs-lookup"><span data-stu-id="9e115-107">dispidTaskActualEffort</span></span>  <br/> |
+|<span data-ttu-id="9e115-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="9e115-108">Property set:</span></span>  <br/> |<span data-ttu-id="9e115-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="9e115-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="9e115-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="9e115-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="9e115-111">0x00008110</span><span class="sxs-lookup"><span data-stu-id="9e115-111">0x00008110</span></span>  <br/> |
+|<span data-ttu-id="9e115-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="9e115-112">Data type:</span></span>  <br/> |<span data-ttu-id="9e115-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="9e115-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="9e115-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="9e115-114">Area:</span></span>  <br/> |<span data-ttu-id="9e115-115">Tâche</span><span class="sxs-lookup"><span data-stu-id="9e115-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="bbda8-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="bbda8-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9e115-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="9e115-116">Remarks</span></span>
 
-<span data-ttu-id="bbda8-117">La valeur doit être supérieure ou égale à 0 et inférieure à 0x5AE980DF (1 525 252 319), où 480 minutes sont égales à un jour et 2 400 minutes à une semaine (huit heures dans une journée de travail et cinq jours dans une semaine de travail).</span><span class="sxs-lookup"><span data-stu-id="bbda8-117">The value must be greater than or equal to 0 and less than 0x5AE980DF (1,525,252,319), where 480 minutes equal one day and 2400 minutes equal one week (eight hours in a work day and five days in a work week).</span></span>
+<span data-ttu-id="9e115-117">La valeur doit être supérieure ou égale à 0 et inférieure à 0x5AE980DF (1 525 252 319), où 480 minutes sont égales à un jour et 2 400 minutes à une semaine (huit heures dans une journée de travail et cinq jours dans une semaine de travail).</span><span class="sxs-lookup"><span data-stu-id="9e115-117">The value must be greater than or equal to 0 and less than 0x5AE980DF (1,525,252,319), where 480 minutes equal one day and 2400 minutes equal one week (eight hours in a work day and five days in a work week).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="bbda8-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="bbda8-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="9e115-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="9e115-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="bbda8-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="bbda8-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="9e115-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="9e115-119">Protocol specifications</span></span>
 
-<span data-ttu-id="bbda8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bbda8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="9e115-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9e115-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="bbda8-121">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="bbda8-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="9e115-121">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="9e115-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="bbda8-122">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bbda8-122">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="9e115-122">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9e115-122">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="bbda8-123">Spécifie les propriétés et opérations autorisées pour les objets de liste de distribution personnelle et de contact.</span><span class="sxs-lookup"><span data-stu-id="bbda8-123">Specifies the properties and operations that are permissible for contact and personal distribution list objects.</span></span>
+> <span data-ttu-id="9e115-123">Spécifie les propriétés et opérations autorisées pour les objets de liste de distribution personnelle et de contact.</span><span class="sxs-lookup"><span data-stu-id="9e115-123">Specifies the properties and operations that are permissible for contact and personal distribution list objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="bbda8-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="bbda8-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="9e115-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="9e115-124">Header files</span></span>
 
-<span data-ttu-id="bbda8-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="bbda8-125">Mapidefs.h</span></span>
+<span data-ttu-id="9e115-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="9e115-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="bbda8-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="bbda8-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="9e115-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="9e115-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="bbda8-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="bbda8-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9e115-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9e115-127">See also</span></span>
 
 
 
-[<span data-ttu-id="bbda8-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="bbda8-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="9e115-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="9e115-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="bbda8-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="bbda8-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="9e115-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="9e115-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="bbda8-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="bbda8-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="9e115-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="9e115-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="bbda8-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="bbda8-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="9e115-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="9e115-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
