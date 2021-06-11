@@ -42,7 +42,7 @@ HRESULT CopyFolder(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpSrcInterface_
   
@@ -74,7 +74,7 @@ HRESULT CopyFolder(
     
  _ulUIParam_
   
-> [in] Handle de la fenêtre pour la boîte de dialogue indicateur de progression et les fenêtres associées. Le _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG est définie dans _le paramètre ulFlags._ 
+> [in] Poignée de la fenêtre pour la boîte de dialogue indicateur de progression et les fenêtres associées. Le _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG est définie dans _le paramètre ulFlags._ 
     
  _lpProgress_
   
@@ -132,7 +132,7 @@ Attendez-vous à ce que les valeurs de retour suivantes se placent dans les cond
 |**CopyFolder n’a** pas pu copier ou déplacer tous les dossiers.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
 |**CopyFolder n’a** pas pu se terminer.  <br/> |Toute valeur d’erreur  <br/> |
    
-Si **CopyFolder renvoie** une valeur d’erreur, ne continuez pas sur l’hypothèse qu’aucun travail n’a été effectué. Un ou plusieurs dossiers ont pu être copiés ou déplacés avant **que CopyFolder** ne soit mis en échec. 
+Si **CopyFolder renvoie** une valeur d’erreur, ne continuez pas sur l’hypothèse qu’aucun travail n’a été effectué. Un ou plusieurs dossiers auraient pu être copiés ou déplacés avant **que CopyFolder** ne soit en panne. 
   
 ## <a name="see-also"></a>Voir aussi
 

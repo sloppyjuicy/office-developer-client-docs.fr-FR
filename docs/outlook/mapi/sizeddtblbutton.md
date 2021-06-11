@@ -36,7 +36,7 @@ Crée une structure nommée qui inclut une structure [DTBLBUTTON](dtblbutton.md)
 SizedDtblButton (n, u)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _n_
   

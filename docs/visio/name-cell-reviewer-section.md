@@ -22,7 +22,7 @@ Contient le nom du réviseur d’un document.
   
 ## <a name="remarks"></a>Remarques
 
- Cette valeur est par défaut  le nom trouvé  dans la zone Nom d’utilisateur  sous l’onglet Général de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, cliquez sur **Options,** puis sur **Général).** 
+ Cette valeur est par défaut  le nom trouvé  dans la zone Nom d’utilisateur sous  l’onglet Général de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, cliquez sur **Options,** puis sur **Général).** 
   
 Pour obtenir une référence à la cellule Name par un nom à partir d’une autre formule ou d’un programme en faisant appel à la **propriété CellsU,** utilisez : 
   

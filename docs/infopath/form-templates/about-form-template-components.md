@@ -25,7 +25,7 @@ Il est important de savoir que les modèles de formulaire InfoPath sont composé
 |:-----|:-----|:-----|
 |Définition de formulaire  <br/> |.xsf  <br/> |Fichier généré par InfoPath contenant des informations sur tous les autres fichiers et composants utilisés dans un formulaire. Ce fichier sert de manifeste au formulaire.  <br/> |
 |Schéma XML  <br/> |.xsd  <br/> |Fichiers de schéma XML utilisés pour limiter et valider les fichiers de document XML sous-jacents d'un formulaire.  <br/> |
-|Vue  <br/> |.xsl  <br/> |Fichiers logiques de présentation, utilisés pour présenter, afficher et transformer les données contenues dans les fichiers de document XLM sous-jacents d'un formulaire.  <br/> |
+|Afficher  <br/> |.xsl  <br/> |Fichiers logiques de présentation, utilisés pour présenter, afficher et transformer les données contenues dans les fichiers de document XLM sous-jacents d'un formulaire.  <br/> |
 |Modèle XML  <br/> |.xml  <br/> |Fichier .xml contenant les données par défaut qui s'affichent dans une vue lorsqu'un formulaire est créé.  <br/> |
 |Présentation  <br/> |.htm, .gif, .bmp, et autres formats  <br/> |Fichiers utilisés avec les fichiers d'affichage pour créer une interface utilisateur personnalisée.  <br/> |
 |Logique métier  <br/> |.dll  <br/> |Code de programmation compilée utilisé pour implémenter un comportement de modification spécifique, une validation de données, des gestionnaires d'événements, un contrôle de flux de données  et d'autres logiques métier personnalisées. La logique métier InfoPath peut s'écrire dans les langages de programmation Visual Basic et C# .NET, qui sont compilés et inclus en tant que fichiers binaires.  <br/> |

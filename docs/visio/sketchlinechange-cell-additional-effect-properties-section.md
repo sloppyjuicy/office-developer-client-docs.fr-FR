@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 39192535-b55b-4c49-b63f-edb542c7a2e5
-description: Détermine la quantité de randomisation de la ligne de la forme à partir de la géométrie de la forme lors de l’utilisation d’un effet de croquis, sous la forme d’un pourcentage de la longueur d’une section. Si la valeur de la cellule SketchLineChange est définie sur 0 %, la géométrie du trait de la forme correspond à la géométrie de la forme. Si la valeur est 100 %, la géométrie de la ligne de la forme ne suit pas la géométrie de la forme.
+description: Détermine la quantité de randomisation de la ligne de la forme à partir de la géométrie de la forme lors de l’utilisation d’un effet de croquis, sous forme de pourcentage de la longueur d’une section. Si la valeur de la cellule SketchLineChange est définie sur 0 %, la géométrie du trait de la forme correspond à la géométrie de la forme. Si la valeur est 100 %, la géométrie de la ligne de la forme ne suit pas la géométrie de la forme.
 ms.openlocfilehash: ba57a4d2e43a91475f4c3ab4862f723eb2653a89
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -20,7 +20,7 @@ Détermine la quantité de randomisation de la ligne de la forme à partir de la
   
 ## <a name="remarks"></a>Remarques
 
-Pour de meilleurs résultats, la plage idéale de valeurs pour la cellule **SketchLineChange** est entre 15 et 50 %. Une valeur inférieure à 15 % est à peine perceptible . une valeur supérieure à 50 % peut aléatoirer trop la ligne. 
+Pour de meilleurs résultats, la plage idéale de valeurs pour la cellule **SketchLineChange** est entre 15 et 50 %. Une valeur inférieure à 15 % est à peine perceptible . Une valeur supérieure à 50 % peut aléatoirer trop la ligne. 
   
 Pour obtenir une référence à la cellule **SketchLineChange** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
   

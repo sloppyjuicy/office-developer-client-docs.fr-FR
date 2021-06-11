@@ -21,9 +21,9 @@ ms.locfileid: "33422060"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avant de pouvoir communiquer avec des fournisseurs de services et un système de messagerie sous-jacent, vous devez établir une session. Une session MAPI est un lien entre un client et d’autres composants MAPI. Suite au démarrage réussi d’une session, MAPI renvoie aux clients un pointeur vers un objet de session , un objet qui implémente l’interface **IMAPISession.** Pour plus d’informations, [voir IMAPISession : IUnknown](imapisessioniunknown.md). Vous pouvez utiliser les méthodes de l’interface **IMAPISession** pour accéder aux objets des fournisseurs de carnet d’adresses et de magasins de messages, accéder à plusieurs tables, afficher des formulaires, définir des propriétés de fournisseur de transport et effectuer l’administration de service de profil et de message. 
+Avant de pouvoir communiquer avec les fournisseurs de services et un système de messagerie sous-jacent, vous devez établir une session. Une session MAPI est un lien entre un client et d’autres composants MAPI. Suite au démarrage réussi d’une session, MAPI renvoie aux clients un pointeur vers un objet de session , un objet qui implémente l’interface **IMAPISession.** Pour plus d’informations, [voir IMAPISession : IUnknown](imapisessioniunknown.md). Vous pouvez utiliser les méthodes de l’interface **IMAPISession** pour accéder aux objets des fournisseurs de carnet d’adresses et de magasins de messages, accéder à plusieurs tables, afficher des formulaires, définir des propriétés de fournisseur de transport et effectuer l’administration de service de profil et de message. 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Démarrage d’une session MAPI](starting-a-mapi-session.md)
   
@@ -41,7 +41,7 @@ Avant de pouvoir communiquer avec des fournisseurs de services et un système de
   
 > Décrit les propriétés utilisées pour récupérer l’identité principale et l’identité du fournisseur.
     
-[Table d’état et objets d’état](status-table-and-status-objects.md)
+[Tableau d’état et objets d’état](status-table-and-status-objects.md)
   
 > Décrit comment accéder aux informations à partir du tableau d’état.
     

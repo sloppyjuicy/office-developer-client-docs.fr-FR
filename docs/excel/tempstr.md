@@ -22,7 +22,7 @@ ms.locfileid: "33418042"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque Deprecated Framework qui crée une **structure XLOPER** temporaire contenant une chaîne d’byte **xltypeStr.** Il prend une chaîne source terminée par null comme entrée. Il tente de faire en quoi le premier caractère de la chaîne fournie est réécrit par la longueur de la chaîne suivante. Ce n’est pas toujours une chose sûre : Microsoft Excel peut se crasher si une chaîne en lecture seule est passée. 
+Fonction de bibliothèque Deprecated Framework qui crée une **structure XLOPER** temporaire contenant une chaîne d’byte **xltypeStr.** Il prend une chaîne source terminée par null comme entrée. Il tente de faire ententer le premier caractère de la chaîne fournie par la longueur de la chaîne suivante. Ce n’est pas toujours une chose sûre : Microsoft Excel risque de se crasher si une chaîne en lecture seule est transmise. 
   
 ```cs
 LPXLOPER TempStr(LPSTR str);

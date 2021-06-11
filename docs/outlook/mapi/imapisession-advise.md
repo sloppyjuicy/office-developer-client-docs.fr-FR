@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -49,7 +49,7 @@ HRESULT Advise(
     
  _ulEventMask_
   
-> [in] Masque de valeurs qui indiquent les types d’événements de notification qui intéressent le client et qui doivent être inclus dans l’inscription. Si  _lpEntryID_ est NULL, MAPI inscrit automatiquement le client pour les événements d’erreur critiques qui affectent uniquement la session. Lorsque  _lpEntryID_ pointe vers un identificateur d’entrée, les valeurs suivantes sont valides pour le  _paramètre ulEventMask_ : 
+> [in] Masque de valeurs qui indiquent les types d’événements de notification qui intéressent le client et doivent être inclus dans l’inscription. Si  _lpEntryID_ est NULL, MAPI inscrit automatiquement le client pour les événements d’erreur critiques qui affectent uniquement la session. Lorsque  _lpEntryID_ pointe vers un identificateur d’entrée, les valeurs suivantes sont valides pour le  _paramètre ulEventMask_ : 
     
 fnevCriticalError 
   
@@ -93,7 +93,7 @@ fnevSearchComplete
     
  _lpulConnection_
   
-> [out] Pointeur vers un numéro autre que zéro qui représente la connexion entre l’objet de l’objet de conseiller de l’appelant et la session.
+> [out] Pointeur vers un numéro autre que zéro qui représente la connexion entre l’objet de l’objet de conseil de l’appelant et la session.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -111,11 +111,11 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur d’entrée pointé par  _lpEntryID_ ne peut être géré par aucun des fournisseurs de services dans le profil. 
+> L’identificateur d’entrée pointé  _par lpEntryID_ ne peut être géré par aucun des fournisseurs de services dans le profil. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::Advise** établit une connexion entre l’objet de l’objet de conseiller de l’appelant, la session et éventuellement un fournisseur de services. Cette connexion est utilisée pour envoyer des notifications au réception de notification lorsqu’un ou plusieurs événements spécifiés dans le paramètre  _ulEventMask_ se produisent à l’objet pointé par  _lpEntryID_. Lorsque  _lpEntryID_ est NULL, l’objet cible est la session et les notifications sont envoyées uniquement pour les erreurs critiques et les événements étendus. 
+La **méthode IMAPISession::Advise** établit une connexion entre l’objet de l’appelant qui le conseille, la session et éventuellement un fournisseur de services. Cette connexion est utilisée pour envoyer des notifications au réception de notification lorsqu’un ou plusieurs événements spécifiés dans le paramètre  _ulEventMask_ se produisent à l’objet pointé par  _lpEntryID_. Lorsque  _lpEntryID_ est NULL, l’objet cible est la session et les notifications sont envoyées uniquement pour les erreurs critiques et les événements étendus. 
   
 Lorsque  _lpEntryID_ pointe vers un identificateur d’entrée valide, MAPI appelle la méthode **Advise** de l’objet d’inscription qui appartient au fournisseur de services responsable. Par exemple, si  _lpEntryID_ pointe vers l’identificateur d’entrée d’une liste de distribution, MAPI appelle la méthode [IABLogon::Advise](iablogon-advise.md) du fournisseur de carnet d’adresses approprié. 
   
@@ -123,7 +123,7 @@ Pour envoyer une notification, le fournisseur de services ou MAPI appelle la mé
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Sur les systèmes qui prendre en charge plusieurs threads d’exécution, l’appel à **OnNotify** peut également se produire sur n’importe quel thread à tout moment. Si vous avez besoin d’assurance que les notifications ne se produisent qu’à un moment particulier sur un thread particulier, appelez la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour générer l’objet de réception de notification que vous passez à la méthode **Advise.** 
+Sur les systèmes qui supportent plusieurs threads d’exécution, l’appel à **OnNotify** peut également se produire sur n’importe quel thread à tout moment. Si vous avez besoin d’assurance que les notifications ne se produisent qu’à un moment particulier sur un thread particulier, appelez la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour générer l’objet de réception de notification que vous passez à la méthode **Advise.** 
   
 Pour déterminer quand un client s’est déconnecté, inscrivez-vous aux notifications dans votre fournisseur de services en appelant **Advise** avec  _lpEntryID_ sur NULL et  _cbEntryID_ sur 0. Lorsque la logoff se produit, vous recevez une notification fnevExtended. 
   

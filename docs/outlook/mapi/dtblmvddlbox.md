@@ -48,17 +48,17 @@ typedef struct _DTBLMVDDLBX
     
  **ulMVPropTag**
   
-> Balise de propriété pour une propriété à valeurs multiples de type PT_MV_TSTRING. Les différentes valeurs de cette propriété sont affichées sous forme d’entrées distinctes dans la liste liste.
+> Balise de propriété pour une propriété à valeurs multiples de type PT_MV_TSTRING. Les différentes valeurs de cette propriété sont affichées sous forme d’entrées distinctes dans la liste de listes.
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLMVDDLBOX** décrit une liste de listes à valeurs multiples, une liste d’éléments en lecture seule. À l’aide d’une liste de listes à valeurs multiples, les valeurs sont affichées lorsqu’un utilisateur clique sur une barre de défilement. 
+Une structure **DTBLMVDDLBOX** décrit une liste de listes à valeurs multiples, une liste d’éléments en lecture seule. À l’aide d’une liste finale à valeurs multiples, les valeurs sont affichées lorsqu’un utilisateur clique sur une barre de défilement. 
   
 Les données affichées proviennent de la propriété identifiée dans le **membre ulMVPropTag.** Il n’est pas nécessaire de lire l’interface de propriétés associée au tableau d’affichage. En outre, étant donné que les utilisateurs ne sont pas en mesure d’effectuer des sélections à partir de ces types de zones de liste, les données ne sont pas écrites dans l’interface des propriétés. 
   
 Seules les propriétés de chaîne à valeurs multiples sont pris en charge pour la liste de listes listes à valeurs multiples ; les autres types de propriétés à valeurs multiples ne sont pas pris en charge. 
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

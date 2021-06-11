@@ -26,21 +26,21 @@ Vous pouvez obtenir la liste des commandes et fonctions de la XLL actuellement i
   
 - Chemin d’accès complet et nom du XLL
     
-- Nom de l’UDF ou de la commande exportée à partir du XLL
+- Nom de l’UDF ou de la commande exportée à partir de la XLL
     
 - Chaîne de code de retour et d’argument
     
 > [!NOTE]
-> Le nom exporté à partir de la XLL peut ne pas être identique au nom enregistré par lequel Excel connaît l’UDF ou la commande. 
+> Le nom exporté à partir du XLL peut ne pas être identique au nom enregistré par lequel Excel connaît la UDF ou la commande. 
   
-À compter d’Excel 2007, les fonctions de la boîte à outils Analysis Toolpak (ATP) sont entièrement intégrées et l’API C possède ses propres éumérations pour des fonctions telles que PRICE, **xlfPrice**. Dans les versions antérieures, vous deviez utiliser **xlUDF** pour appeler ces fonctions. Si votre add-in doit fonctionner avec Excel 2003 et Excel 2007 ou versions ultérieures, et qu’il utilise ces fonctions, vous devez détecter la version actuelle et appeler la fonction de la manière appropriée. 
+À compter de Excel 2007, les fonctions de la boîte à outils Analysis Toolpak (ATP) sont entièrement intégrées et l’API C possède ses propres éumérations pour des fonctions telles que PRICE, **xlfPrice**. Dans les versions antérieures, vous deviez utiliser **xlUDF** pour appeler ces fonctions. Si votre add-in doit fonctionner avec Excel 2003 et Excel 2007 ou versions ultérieures et qu’il utilise ces fonctions, vous devez détecter la version actuelle et appeler la fonction de la manière appropriée. 
   
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre la **fonction xlUDF** utilisée pour appeler la fonction **ATP PRICE** lorsque la version en cours d’exécution d’Excel est 2003 ou une version antérieure. Pour plus d’informations sur la définition d’une variable de version globale, telle que **gExcelVersion12plus** dans cet exemple, voir [Compatibilité ascendante.](backward-compatibility.md)
+L’exemple suivant montre la fonction **xlUDF** utilisée pour appeler la fonction ATP **PRICE** lorsque la version d’exécution de Excel est 2003 ou une version antérieure. Pour plus d’informations sur la définition d’une variable de version globale, telle que **gExcelVersion12plus** dans cet exemple, voir [Compatibilité ascendante.](backward-compatibility.md)
   
 > [!NOTE]
-> Cet exemple utilise les fonctions Framework **TempNum**, **TempStrConst** pour configurer les arguments et Excel pour appeler l’API C. 
+> Cet exemple utilise les fonctions **Framework TempNum**, **TempStrConst** pour configurer les arguments et Excel l’API C. 
   
 ```C
 LPXLOPER TempNum(double d);
@@ -111,7 +111,7 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 
 Lorsque **UDF \_ 2** appelle **UDF \_ 1,** la valeur de **pxArg** reste inchangée après l’appel à **Excel12** et la valeur renvoyée par **UDF_1** est contenue dans **xRetVal**.
   
-Lorsque vous faites un grand nombre d’appels à une fonction UDF de cette façon, vous pouvez d’abord évaluer le nom de la fonction à l’aide de la fonction [xlfEvaluate](xlfevaluate.md). Le nombre résultant, qui est identique à l’ID d’inscription renvoyé par la fonction **xlfRegister,** peut être passé à la place du nom de la fonction comme premier argument de la fonction **xlUDF.** Cela permet à Excel de rechercher et d’appeler la fonction plus rapidement que si elle doit rechercher le nom de la fonction à chaque fois. 
+Lorsque vous faites un grand nombre d’appels à une fonction UDF de cette façon, vous pouvez d’abord évaluer le nom de la fonction à l’aide de la fonction [xlfEvaluate](xlfevaluate.md). Le numéro résultant, qui est identique à l’ID d’inscription renvoyé par la fonction **xlfRegister,** peut être passé à la place du nom de la fonction comme premier argument de la fonction **xlUDF.** Cela permet Excel rechercher et appeler la fonction plus rapidement que si elle doit rechercher le nom de la fonction à chaque fois. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -22,13 +22,13 @@ ms.locfileid: "33422907"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Routine de conversion utilisée pour convertir à partir de la **nouvelle XLOPER12** vers l’ancienne **XLOPER**.
+Routine de conversion utilisée pour convertir à partir de la **nouvelle XLOPER12 vers** l’ancienne **XLOPER**.
   
 ```cs
 BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxloper12_ (**LPXLOPER12**)
   
@@ -44,7 +44,7 @@ Pointeur vers la **XLOPER cible** pour contenir la valeur convertie.
   
 ## <a name="remarks"></a>Remarques
 
-Selon le type de **XLOPER12**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties, qui sont pointées vers la **XLOPER cible**. L’appelant est chargé de libérer la mémoire associée à la copie si la conversion est réussie . **FreeXLOperT peut être** utilisé, ou vous pouvez le faire directement à l’aide de **la gratuité.**
+Selon le type de **XLOPER12**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties, qui sont pointées vers la **XLOPER cible**. L’appelant est chargé de libérer la mémoire associée à la copie si la conversion est réussie ; **FreeXLOperT peut** être utilisé, ou vous pouvez le faire directement à l’aide de **la gratuité.**
   
 Si la conversion échoue, l’appelant n’a pas besoin de libérer de mémoire.
   

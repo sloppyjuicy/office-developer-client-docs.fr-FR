@@ -64,7 +64,7 @@ HANDLE          *phSyncDoneEvent;
     
  **\*phSyncDoneEvent**
   
-> [OUT] Événement qui se produit lorsque le thread qui vient d’être créé est terminé. Le pointeur doit être valide car il contiendra l’événement.
+> [OUT] L’événement qui se produit lorsque le thread qui vient d’être créé est terminé. Le pointeur doit être valide car il contiendra l’événement.
     
 ## <a name="see-also"></a>Voir aussi
 

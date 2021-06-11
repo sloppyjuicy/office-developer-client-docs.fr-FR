@@ -32,7 +32,7 @@ Contient le nombre d’éléments dans la table des matières associée du dossi
 |Propriétés associées :  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |Identificateur :  <br/> |0x3617  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

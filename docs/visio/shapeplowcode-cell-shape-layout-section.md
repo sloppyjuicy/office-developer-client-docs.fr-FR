@@ -23,14 +23,14 @@ Détermine si cette forme positionnable se déplace lorsque vous placez une autr
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Tracer selon les paramètres de la page.  <br/> |**visSLOPlowDefault** <br/> |
-|1   <br/> |Ne tracer aucune forme.  <br/> |**visSLOPlowNever** <br/> |
-|2   <br/> |Tracer chaque forme.  <br/> |**visSLOPlowAlways** <br/> |
+|1  <br/> |Ne tracer aucune forme.  <br/> |**visSLOPlowNever** <br/> |
+|2  <br/> |Tracer chaque forme.  <br/> |**visSLOPlowAlways** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez également définir la valeur de cette cellule pour  une forme particulière sous l’onglet [](run-in-developer-mode-display-the-developer-tab.md) **Placement** de  la boîte de dialogue Comportement (avec une forme sélectionnée, sous l’onglet Développeur, dans le groupe Création de formes, cliquez sur **Comportement,** puis cliquez sur l’onglet **Placement).** 
+Vous pouvez également définir la valeur de cette cellule pour  une forme particulière sous l’onglet [](run-in-developer-mode-display-the-developer-tab.md) **Placement** de  la boîte de dialogue Comportement (avec une forme sélectionnée, sous l’onglet Développeur, dans le groupe Création de forme, cliquez sur **Comportement,** puis cliquez sur l’onglet **Placement).** 
   
-Pour définir ce comportement pour  *toutes les formes*  de la page de dessin, utilisez la cellule PlowCode dans la section Mise en page. 
+Pour définir ce comportement pour  *toutes les formes*  de la page de dessin, utilisez la cellule PlowCode de la section Mise en page. 
   
 Pour obtenir une référence à la cellule ShapePlowCode par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

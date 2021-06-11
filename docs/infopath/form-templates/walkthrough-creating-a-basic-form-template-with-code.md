@@ -7,7 +7,7 @@ keywords:
 - form templates [infopath 2007], creating managed code,managed code form templates [InfoPath 2007], creating,form templates [InfoPath 2007], walkthroughs,InfoPath 2007, walkthroughs
 localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
-description: Dans Microsoft InfoPath, vous pouvez écrire une logique métier en Visual Basic ou C# en ouvrant un modèle de formulaire dans le concepteur InfoPath, puis en utilisant l’une des commandes d’interface utilisateur pour ajouter un handler d’événements, qui ouvre l’environnement de développement Visual Studio 2012 pour écrire votre code.
+description: Dans Microsoft InfoPath, vous pouvez écrire une logique métier dans Visual Basic ou C# en ouvrant un modèle de formulaire dans le concepteur InfoPath, puis en utilisant l’une des commandes de l’interface utilisateur pour ajouter un handler d’événements, qui ouvre l’environnement de développement Visual Studio 2012 pour écrire votre code.
 ms.openlocfilehash: cc09856750ced28d35c8da172a08a31c4e3cd4a2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,11 +17,11 @@ ms.locfileid: "33420646"
 ---
 # <a name="walkthrough-create-a-basic-form-template-with-code"></a>Procédure pas à pas : créer un modèle de formulaire de base avec du code
 
-Dans Microsoft InfoPath, vous pouvez écrire une logique métier en Visual Basic ou C# en ouvrant un modèle de formulaire dans le concepteur InfoPath, puis en utilisant l’une des commandes d’interface utilisateur pour ajouter un handler d’événements, qui ouvre l’environnement de développement Visual Studio 2012 pour écrire votre code. Par défaut, les projets de modèle de formulaire créés Visual Studio 2012 fonctionnent sur le modèle objet avec code géré fourni par l’espace de noms [Microsoft.Office.InfoPath.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 
+Dans Microsoft InfoPath, vous pouvez écrire une logique métier dans Visual Basic ou C# en ouvrant un modèle de formulaire dans le concepteur InfoPath, puis en utilisant l’une des commandes de l’interface utilisateur pour ajouter un handler d’événements, qui ouvre l’environnement de développement Visual Studio 2012 pour écrire votre code. Par défaut, les projets de modèle de formulaire créés Visual Studio 2012 fonctionnent par rapport au modèle objet de code géré fourni par [Microsoft.Office. Espace de noms InfoPath.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 
   
-Cette procédure pas à pas vous montre tout d’abord comment créer une application Hello World simple en C# ou Visual Basic dans l’environnement de développement Visual Studio 2012. La procédure pas à pas se termine par un exemple de code qui vous montre comment utiliser la propriété [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) de la classe [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) pour récupérer le nom de l’utilisateur actuel et remplir un contrôle **zone** de texte avec cette valeur. 
+Cette procédure pas à pas vous montre tout d’abord comment créer une application Hello World simple à l’aide de C# ou Visual Basic dans l’environnement de développement Visual Studio 2012. La procédure pas à pas se termine par un exemple de code qui vous montre comment utiliser la propriété [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) de la classe [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) pour récupérer le nom de l’utilisateur actuel et remplir un contrôle **zone** de texte avec cette valeur. 
   
-## <a name="prerequisites"></a>Configuration requise
+## <a name="prerequisites"></a>Conditions préalables
 
 Pour effectuer cette walkthrough à l’aide de l Visual Studio de développement 2012, vous aurez besoin des ressources ci-après :
   
@@ -136,7 +136,7 @@ Dans la procédure pas à pas suivante, vous allez apprendre à écrire du code 
     
 4. Dans la fenêtre **Aperçu** d'InfoPath, cliquez sur le bouton Hello du formulaire.  
     
-5. L Visual Studio éditeur de code 2012 est mis au point et la ligne de point d’arrêt est mise en surbrillant.
+5. Le focus Visual Studio’éditeur de code 2012 est mis au point et la ligne de point d’arrêt est mise en surbrillant.
     
 6. Dans le menu **Débogage**, cliquez sur **Pas à pas principal** (ou appuyez sur Maj+F8 pour continuer pas à pas dans le code). 
     
@@ -146,7 +146,7 @@ Dans la procédure pas à pas suivante, vous allez apprendre à écrire du code 
     
 ## <a name="getting-the-current-users-name"></a>Obtention du nom de l’utilisateur actuel
 
-Dans l’exemple suivant, vous allez apprendre à utiliser la propriété [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) de la classe [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx)  pour récupérer le nom de l’utilisateur actuel et remplir la valeur d’un contrôle zone de texte à l’aide d’un handler d’événements pour l’événement [Loading.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) 
+Dans l’exemple suivant, vous allez apprendre à utiliser la propriété [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) de la classe [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) pour récupérer le nom de l’utilisateur actuel et remplir la valeur d’un contrôle **zone** de texte à l’aide d’un handler d’événements pour l’événement [Loading.](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) 
   
 Pour remplir le contrôle **Zone** de texte, vous pouvez utiliser une instance de la classe [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) pour écrire le nom de l’utilisateur actuel dans le nœud XML lié au contrôle. 
   

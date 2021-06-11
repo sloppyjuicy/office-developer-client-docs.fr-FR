@@ -36,7 +36,7 @@ Calcule le nombre d’octets à allouer pour une nouvelle structure [SizedSSortO
 CbNewSSortOrderSet (_csort)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ _csort_
   

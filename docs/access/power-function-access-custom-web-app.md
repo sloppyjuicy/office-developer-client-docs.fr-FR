@@ -1,5 +1,5 @@
 ---
-title: Power Function (Access custom web app)
+title: Power Function (Application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423992"
 ---
-# <a name="power-function-access-custom-web-app"></a>Power Function (Access custom web app)
+# <a name="power-function-access-custom-web-app"></a>Power Function (Application web personnalisée Access)
 
 Renvoie la valeur de l’expression spécifiée à la puissance spécifiée.
   

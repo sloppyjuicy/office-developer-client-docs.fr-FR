@@ -24,8 +24,8 @@ Contient différents attributs de formes et de groupes, comme la visibilité et 
 
 Vous pouvez définir la valeur de la plupart des cellules de cette section dans la fenêtre Feuille ShapeSheet ou sous l’onglet **Comportement** dans la boîte de dialogue **Comportement** (cliquez sur **Comportement** dans le groupe **Création de la forme** sous l’onglet [Développeur](run-in-developer-mode-display-the-developer-tab.md)) dans la fenêtre de dessin. Vous pouvez définir d’autres propriétés de groupe en utilisant les cellules de la section Group Properties. 
   
-Dans les produits Visio version 5.0, cette section incluait les cellules **ObjInteract** et **ObjBehavior.** Le comportement dans la cellule **ObjInteract** est désormais mappé aux cellules suivantes dans la section Shape Layout : **ShapeFixedCode**, **ShapePermeableX**, **ShapePermeableY** et **ShapePermeablePlace**. Le comportement dans la cellule ObjBehavior est désormais mappé aux cellules **ConFixedCode** et **ShapeRouteStyle.** 
+Dans Visio version 5.0, cette section incluait les cellules **ObjInteract** et **ObjBehavior.** Le comportement dans la cellule **ObjInteract** est désormais mappé aux cellules suivantes dans la section Shape Layout : **ShapeFixedCode**, **ShapePermeableX**, **ShapePermeableY** et **ShapePermeablePlace**. Le comportement dans la cellule ObjBehavior est désormais mappé aux cellules **ConFixedCode** et **ShapeRouteStyle.** 
   
-Dans les produits japonais Visio version 5.0, cette section incluait une **cellule VerticalText.** Dans les produits Visio version 2000 et versions ultérieures, la valeur de cette cellule est stockée dans la cellule **TextDirection** de la section Format de bloc **de** texte. 
+Dans Visio produits japonais version 5.0, cette section incluait **une cellule VerticalText.** Dans Visio versions 2000 et ultérieures, la valeur de cette cellule est stockée dans la cellule **TextDirection** de la section **Format** de bloc de texte. 
   
 

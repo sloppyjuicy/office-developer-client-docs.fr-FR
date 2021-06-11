@@ -27,6 +27,6 @@ La position actuelle dans un tableau est toujours indiquée par un curseur. Il e
     
 - Valeur fractionnaire.
     
-- Filtre.
+- Descripteur de filtre.
     
 

@@ -38,7 +38,7 @@ HRESULT SelectMultipleForms(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -84,7 +84,7 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::SelectMultipleForms** pour présenter d’abord une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires, puis de récupérer un tableau d’objets d’informations sur les formulaires qui décrivent les formulaires sélectionnés. La boîte de dialogue **SelectMultipleForms** affiche tous les formulaires, qu’ils soient masqués ou non (c’est-à-dire, si leurs propriétés masquées sont claires ou non). 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::SelectMultipleForms** pour présenter d’abord une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires, puis de récupérer un tableau d’objets d’informations sur les formulaires qui décrivent les formulaires sélectionnés. La **boîte de dialogue SelectMultipleForms** affiche tous les formulaires, qu’ils soient masqués ou non (autrement dit, si leurs propriétés masquées sont claires ou non). 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 

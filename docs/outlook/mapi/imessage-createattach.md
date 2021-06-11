@@ -36,11 +36,11 @@ LPATTACH FAR * lppAttach
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) représentant l’interface à utiliser pour accéder au message. La transmission DE NULL entraîne le retour de l’interface standard du message, **ou IMessage.** 
+> [in] Pointeur vers l’identificateur d’interface (IID) représentant l’interface à utiliser pour accéder au message. La transmission de null entraîne le retour de l’interface standard du message, **ou IMessage.** 
     
  _ulFlags_
   

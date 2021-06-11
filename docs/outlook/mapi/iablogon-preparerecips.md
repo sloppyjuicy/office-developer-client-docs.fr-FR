@@ -33,13 +33,13 @@ HRESULT PrepareRecips(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ulFlags_
   
 > [in] Masque de bits d’indicateurs qui contrôle le type du texte dans les chaînes renvoyées. L’indicateur suivant peut être définie :
     
-  - MAPI_CACHE_ONLY : utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution des noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+  - MAPI_CACHE_ONLY : utilisez uniquement le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
 _lpPropTagArray_
   
@@ -73,11 +73,11 @@ Un client appelle la méthode MAPI [IAddrBook::P repareRecips](iaddrbook-prepare
     
 - Garantit que l’ordre des propriétés dans la structure [ADRENTRY](adrentry.md) de chaque destinataire dans la structure **ADRLIST** est le même que dans le tableau de valeurs des propriétés. 
     
-La structure **ADRENTRY** dans le  _paramètre lpRecipList_ contient une structure **ADRENTRY** pour chaque destinataire. Chaque structure **ADRENTRY contient** un tableau de structures [SPropValue](spropvalue.md) pour décrire les propriétés du destinataire. Lorsque **IABLogon::P repareRecips** renvoie, le tableau de structure **SPropValue** pour chaque destinataire inclut les propriétés de  _lpPropTagArray_ suivies des autres propriétés pour le destinataire. 
+La structure **ADRENTRY** dans le  _paramètre lpRecipList_ contient une structure **ADRENTRY** pour chaque destinataire. Chaque structure **ADRENTRY** contient un tableau de structures [SPropValue](spropvalue.md) pour décrire les propriétés du destinataire. Lorsque **IABLogon::P repareRecips** renvoie, le tableau de structure **SPropValue** pour chaque destinataire inclut les propriétés de  _lpPropTagArray_ suivies des autres propriétés pour le destinataire. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L’implémentation **d’IABLogon::P repareRecips** implique de placer les propriétés dans un ordre spécifique, de récupérer les valeurs des propriétés et de convertir les identificateurs d’entrée à court terme en identificateurs d’entrée à long terme. Les propriétés demandées dans le paramètre _lpPropTagArray_ doivent se trouver au début du tableau de valeurs de propriétés associé à la structure **ADRENTRY** de chaque destinataire dans le paramètre _lpRecipList._ Si les valeurs de ces propriétés n’existent pas, ouvrez l’utilisateur de messagerie ou la liste de distribution associé à l’aide de son identificateur d’entrée et récupérez les valeurs de propriété manquantes. 
+L’implémentation **d’IABLogon::P repareRecips** implique de placer les propriétés dans un ordre spécifique, de récupérer les valeurs des propriétés et de convertir les identificateurs d’entrée à court terme en identificateurs d’entrée à long terme. Les propriétés qui sont demandées dans le paramètre _lpPropTagArray_ doivent se trouver au début du tableau de valeurs de propriétés associé à la structure **ADRENTRY** de chaque destinataire dans le paramètre _lpRecipList._ Si les valeurs de ces propriétés n’existent pas, ouvrez l’utilisateur de messagerie ou la liste de distribution associé à l’aide de son identificateur d’entrée et récupérez les valeurs de propriété manquantes. 
   
 Allouez chaque structure **SPropValue** transmise dans  _lpRecipList_ séparément afin que les structures soient libérées individuellement. Si vous devez allouer de l’espace supplémentaire à une structure **SPropValue,** par exemple, pour stocker les données d’une propriété de chaîne, utilisez la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) pour allouer de l’espace supplémentaire au tableau de valeurs de propriété complète. Utilisez la [fonction MAPIFreeBuffer](mapifreebuffer.md) pour libérer le tableau de valeurs de propriété d’origine, puis utilisez la [fonction MAPIAllocateMore](mapiallocatemore.md) pour allouer toute mémoire supplémentaire requise. 
   

@@ -23,7 +23,7 @@ Ajoute la personne identifiée par le  _paramètre emailAddress_ en tant qu’am
 HRESULT _stdcall FollowPerson([in] BSTR emailAddress);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _emailAddress_
   
@@ -31,11 +31,11 @@ _emailAddress_
     
 ## <a name="remarks"></a>Remarques
 
-Le  _paramètre emailAddress_ doit être une adresse SMTP valide. Si le fournisseur Outlook Social Connector (OSC)  a définie la méthode **followPerson** comme true dans les fonctionnalités **et** que l’argument de _emailAddress_ ne correspond pas à un utilisateur sur le réseau, le fournisseur doit renvoyer l’erreur OSC_E_NOT_FOUND. Si le fournisseur a définie **followPerson** comme **false** dans les **fonctionnalités,** le fournisseur doit renvoyer l’OSC_E_FAIL erreur.
+Le  _paramètre emailAddress_ doit être une adresse SMTP valide. Si le fournisseur Outlook Social Connector (OSC) a définie  la méthode **followPerson** comme true dans les fonctionnalités **et** que l’argument de _emailAddress_ ne correspond pas à un utilisateur sur le réseau, le fournisseur doit renvoyer l’erreur OSC_E_NOT_FOUND. Si le fournisseur a définie **followPerson** comme **false** dans les **fonctionnalités,** le fournisseur doit renvoyer l’OSC_E_FAIL erreur.
   
 Si le fournisseur implémente l’interface [ISocialSession2](isocialsession2iunknown.md) et a définie **followPerson** comme **true** dans les fonctionnalités, l’OSC appelle [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md) au lieu de **ISocialSession::FollowPerson**. Si le fournisseur n’implémente pas l’interface **ISocialSession2** ou **si ISocialSession2::FollowPersonEx** renvoie l’erreur OSC_E_NOTIMPL, l’OSC appelle **ISocialSession::FollowPerson** tant que le fournisseur a définie **followPerson** comme **vrai** dans les **fonctionnalités.** Pour plus d’informations sur les codes d’erreur, consultez la rubrique relative aux [codes d’erreur du fournisseur Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
   
-Pour décider s’il faut implémenter **ISocalSession::FollowPerson** ou **ISocialSession2::FollowPersonEx**, vous devez déterminer si votre fournisseur a besoin des autres méthodes dans **ISocialSession2** et si vous pouvez utiliser le paramètre  _djsplayName_ dans **FollowPersonEx**.
+Pour décider s’il faut implémenter **ISocalSession::FollowPerson** ou **ISocialSession2::FollowPersonEx,** vous devez déterminer si votre fournisseur a besoin des autres méthodes dans **ISocialSession2** et si vous pouvez utiliser le paramètre  _djsplayName_ dans **FollowPersonEx**.
   
 ## <a name="see-also"></a>Voir aussi
 

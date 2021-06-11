@@ -30,9 +30,9 @@ Entrez par exemple les clés de tri suivantes pour afficher les données de form
   
 |**Ligne**|**Label**|**SortKey**|
 |:-----|:-----|:-----|
-| Prop.Item  <br/> | Référence article  <br/> | 1   <br/> |
-| Prop.Price  <br/> | Price  <br/> | 3   <br/> |
-| Prop.Quan  <br/> | Quantité  <br/> | 2   <br/> |
+| Prop.Item  <br/> | Référence article  <br/> | 1  <br/> |
+| Prop.Price  <br/> | Price  <br/> | 3  <br/> |
+| Prop.Quan  <br/> | Quantité  <br/> | 2  <br/> |
    
 Pour obtenir une référence à la cellule SortKey par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

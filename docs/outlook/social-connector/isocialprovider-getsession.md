@@ -31,7 +31,7 @@ _session_
     
 ## <a name="remarks"></a>Remarques
 
-Outlook Social Connector (OSC) utilise l’interface **ISocialSession** pour se connecter au réseau social. 
+Le Outlook Social Connector (OSC) utilise l’interface **ISocialSession** pour se connecter au réseau social. 
   
 ## <a name="see-also"></a>Voir aussi
 

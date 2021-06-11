@@ -29,6 +29,6 @@ La **fonction Max** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à évaluer ou expression qui effectue un calcul à l’aide des données de ce champ. Les opérandes dans  *Expression*  peuvent inclure le nom d’un champ de table, d’une constante ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas une des autres fonctions d’agrégation SQL).  <br/> |
+| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à évaluer ou expression qui effectue un calcul à l’aide des données de ce champ. Les opérandes dans *Expression* peuvent inclure le nom d’un champ de table, d’une constante ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas une des autres fonctions d’agrégation SQL).  <br/> |
    
 

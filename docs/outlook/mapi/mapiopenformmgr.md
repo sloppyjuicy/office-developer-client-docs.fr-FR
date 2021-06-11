@@ -40,7 +40,7 @@ MAPIOpenFormMgr(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pSession_
   
@@ -56,7 +56,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Après qu’une application cliente a appelé la fonction **MAPIOpenFormMgr,** la plupart des interactions ultérieures liées aux formulaires ont lieu via le fournisseur de bibliothèque de formulaires ou une interface renvoyée par le fournisseur de bibliothèque de formulaires. **L’interface IMAPIFormMgr** permet au client d’utiliser des handlers de messages et d’effectuer des résolutions entre les classes de messages et les bibliothèques de formulaires. 
+Après qu’une application cliente a appelé la fonction **MAPIOpenFormMgr,** la plupart des interactions ultérieures liées aux formulaires ont lieu via le fournisseur de bibliothèque de formulaires ou une interface renvoyée par le fournisseur de bibliothèque de formulaires. **L’interface IMAPIFormMgr** permet au client d’utiliser des gestions de messages et d’effectuer des résolutions entre les classes de messages et les bibliothèques de formulaires. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

@@ -26,13 +26,13 @@ Renvoie une valeur qui indique si la fonction définie par l’utilisateur est e
 Excel12(xlRunningOnCluster, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 Cette fonction n’a pas d’arguments.
   
 ## <a name="return-value"></a>Valeur renvoyée
 
-Si la fonction est en cours d’exécution dans un processus Excel, renvoie 0 dans une **XLOPER12** de type **xlTypeInt**. Si la fonction est en cours d’exécution sur un cluster, le type de retour et la valeur sont déterminés par le fournisseur de connecteur de cluster.
+Si la fonction est en cours d’Excel, renvoie 0 dans une **XLOPER12** de type **xlTypeInt**. Si la fonction est en cours d’exécution sur un cluster, le type de retour et la valeur sont déterminés par le fournisseur de connecteur de cluster.
   
 ## <a name="requirements"></a>Conditions requises
 

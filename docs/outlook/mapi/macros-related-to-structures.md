@@ -1,5 +1,5 @@
 ---
-title: Macros liées aux structures
+title: Macros associées aux structures
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -17,7 +17,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420583"
 ---
-# <a name="macros-related-to-structures"></a>Macros liées aux structures
+# <a name="macros-related-to-structures"></a>Macros associées aux structures
 
   
   

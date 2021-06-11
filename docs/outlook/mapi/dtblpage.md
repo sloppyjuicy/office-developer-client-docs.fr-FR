@@ -59,7 +59,7 @@ MAPI_UNICODE
     
  **ulbLpszComponent**
   
-> Position en mémoire d’une chaîne de caractères identifiant la section [Mappages des fichiers **d’aide]** dans MAPISVC. Fichier de configuration INF ou 0. Nom du fichier qui apparaît dans MAPISVC. La section INF peut être utilisée par un utilisateur pour accéder  à l’aide étendue de la page à onglets en cliquant sur le bouton Aide de la boîte de dialogue. Pour plus d’informations sur les entrées dans MAPISVC. INF, voir [Format de fichier de MAPISVC. INF](file-format-of-mapisvc-inf.md).
+> Position en mémoire d’une chaîne de caractères identifiant la section **[Mappages des fichiers d’aide]** dans MAPISVC. Fichier de configuration INF ou 0. Nom de fichier apparaissant dans MAPISVC. La section INF peut être utilisée par un utilisateur pour accéder  à l’aide étendue de la page à onglets en cliquant sur le bouton Aide de la boîte de dialogue. Pour plus d’informations sur les entrées dans MAPISVC. INF, voir [Format de fichier de MAPISVC. INF](file-format-of-mapisvc-inf.md).
     
  **ulContext**
   
@@ -67,11 +67,11 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLPAGE** décrit une page à onglets, un contrôle utilisé pour séparer plusieurs boîtes de dialogue associées. En règle générale, ces boîtes de dialogue sont des feuilles de propriétés pour l’affichage des options de configuration, de message ou de destinataire. En cliquant sur l’onglet, l’utilisateur peut passer d’une feuille à une autre. 
+Une structure **DTBLPAGE** décrit une page à onglets d’un contrôle utilisé pour séparer plusieurs boîtes de dialogue associées. En règle générale, ces boîtes de dialogue sont des feuilles de propriétés pour l’affichage des options de configuration, de message ou de destinataire. En cliquant sur l’onglet, l’utilisateur peut passer d’une feuille à une autre. 
   
 La chaîne de composant et l’identificateur de contexte fournissent des informations pour savoir si l’aide étendue est disponible pour la page à onglets. Si une aide étendue est disponible, la chaîne de composant et l’identificateur de contexte fournissent des informations sur la façon d’y accéder. La chaîne de composant est m m filée vers le fichier d’aide . l’identificateur de contexte est map pour la rubrique d’aide initiale. Si l’identificateur de contexte est zéro et que la chaîne du composant est NULL, l’aide étendue n’est pas disponible.
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

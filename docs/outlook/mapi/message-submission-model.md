@@ -31,7 +31,7 @@ L’envoi du message est effectué par une série d’appels dupooler MAPI au fo
     
 4. Le fournisseur de transport peut utiliser la méthode [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) pour indiquer s’il reconnaît les destinataires qui ne peuvent pas être remis ou pour créer un rapport de remise standard. **StatusRecips** est pratique pour les fournisseurs de transport qui ont déterminé que certains destinataires ne peuvent pas être remis ou qui ont reçu des informations de remise de leur système de messagerie sous-jacent que l’utilisateur ou l’application cliente peut trouver utiles. 
     
-5. L’appel dupooler MAPI à [IXPLogon::EndMessage](ixplogon-endmessage.md) est la dernière responsabilité de remise du message dupooler MAPI au fournisseur de transport. 
+5. L’appel dupooler MAPI à [IXPLogon::EndMessage](ixplogon-endmessage.md) est la dernière responsabilité du message dupooler MAPI au fournisseur de transport. 
     
 6. Lepooler MAPI peut utiliser [IXPLogon::TransportNotify](ixplogon-transportnotify.md) pour annuler le traitement des messages pendant les appels **SubmitMessage** ou **EndMessage.** 
     

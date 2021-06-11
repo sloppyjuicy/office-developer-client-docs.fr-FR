@@ -23,7 +23,7 @@ ms.locfileid: "33417552"
   
 Les applications clientes et les fournisseurs de services compatibles MAPI peuvent utiliser des caractères ANSI (un seul sur deux caractères) ou unicode (sur deux caractères). Les jeux de caractères OEM ne sont pas pris en charge. Une chaîne OEM transmise à une méthode ou une fonction MAPI entraîne l’échec de cette méthode ou fonction. Les applications clientes qui fonctionnent avec des noms de fichiers dans le jeu de caractères OEM doivent être attentives à les convertir en ANSI avant de les transmettre à une méthode ou une fonction MAPI.
   
-La prise en charge du jeu de caractères Unicode est facultative, à la fois pour les clients et les fournisseurs de services. Tous les fournisseurs de services doivent écrire leur code afin qu’ils soient compilés, qu’ils soient ou non en charge Unicode. Les clients sont compilés de manière conditionnable, en fonction de leur niveau de support, mais pas les fournisseurs de services. Elles ne doivent pas être recompilées lorsque le jeu de caractères change. Rien dans le code du fournisseur de services ne doit être conditionnel. 
+La prise en charge du jeu de caractères Unicode est facultative, à la fois pour les clients et les fournisseurs de services. Tous les fournisseurs de services doivent écrire leur code afin de pouvoir compiler, qu’ils soient ou non en charge Unicode. Les clients sont compilés de manière conditionnable, en fonction de leur niveau de support, mais pas les fournisseurs de services. Elles ne doivent pas être recompilées lorsque le jeu de caractères change. Rien dans le code du fournisseur de services ne doit être conditionnel. 
   
 Lorsque des clients ou des fournisseurs de services qui supportent Unicode appellent une méthode qui inclut des chaînes de caractères en tant que paramètres d’entrée ou de sortie, ils définissent l’MAPI_UNICODE de sortie. La définition de cet indicateur indique à l’implémentation que toutes les chaînes entrantes sont des chaînes Unicode. Lors de la sortie, la définition de cet indicateur demande que toutes les chaînes passées à partir de l’implémentation soient des chaînes Unicode si possible. Les implémenteurs de méthodes qui la prise en charge d’Unicode seront conformes à la demande ; les implémenteurs de méthode qui ne fournissent pas de prise en charge Unicode ne seront pas conformes. Les propriétés de chaîne qui ne sont pas au format Unicode sont de type PT_STRING8.
   
@@ -35,11 +35,11 @@ Les fournisseurs de services qui ne prisent pas en charge Unicode doivent :
     
 - Ne passez jamais l’indicateur MAPI_UNICODE dans les appels de méthode.
     
-- Renvoyer MAPI_E_BAD_CHARWIDTH lorsque l’MAPI_UNICODE est passé.
+- Renvoyer MAPI_E_BAD_CHARWIDTH lorsque l’MAPI_UNICODE est transmis.
     
 - Déclarez explicitement les propriétés de chaîne ANSI. 
     
-Les fournisseurs de services peuvent également renvoyer MAPI_E_BAD_CHARWIDTH lorsqu’ils ne peuvent prendre en charge Unicode et que les clients ne passent pas l’indicateur MAPI_UNICODE de service. 
+Les fournisseurs de services peuvent également renvoyer MAPI_E_BAD_CHARWIDTH lorsqu’ils ne peuvent prendre en charge Unicode et que les clients ne passent pas l’indicateur MAPI_UNICODE’accès. 
   
  La version actuelle de MAPI prend en charge Unicode dans les méthodes suivantes : 
   
@@ -53,6 +53,6 @@ Les fournisseurs de services peuvent également renvoyer MAPI_E_BAD_CHARWIDTH lo
   
 [IMAPIProp::GetLastError](imapiprop-getlasterror.md) (**implémentation IAddrBook** uniquement) 
   
-Pour ces méthodes, les appelants peuvent s’attendre à ce que les chaînes renvoyées soient des chaînes Unicode. Les chaînes de caractères renvoyées à partir des implémentations MAPI de toute autre méthode seront des chaînes de caractères ANSI.
+Pour ces méthodes, les appelants peuvent s’attendre à ce que les chaînes renvoyées soient des chaînes Unicode. Les chaînes de caractères renvoyées par les implémentations MAPI de toute autre méthode seront des chaînes de caractères ANSI.
   
 

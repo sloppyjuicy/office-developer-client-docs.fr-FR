@@ -21,7 +21,7 @@ ms.locfileid: "33423026"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique présente une description Bakus-Nauer la syntaxe de flux TNEF. Dans cette description, les éléments nonterminaux qui ont une définition supplémentaire sont en italique. Les constantes et les éléments littéraux sont en gras. Les séquences d’éléments sont répertoriées dans l’ordre sur une seule ligne. Par exemple, _l’élément Stream_ se compose de la **constante TNEF_SIGNATURE**, suivie d’une clé , suivie d’un  _objet_. Lorsqu’un élément possède plusieurs implémentations possibles, les alternatives sont répertoriées sur des lignes consécutives. Par exemple, un _objet_ peut se composer  _d’un Message_Seq,_ d’un Message_Seq suivi d’un _Attach_Seq_ ou simplement d’un _Attach_Seq_.
+Cette rubrique présente une description Bakus-Nauer de la syntaxe de flux TNEF. Dans cette description, les éléments nonterminaux qui ont une définition supplémentaire sont en italique. Les constantes et les éléments littéraux sont en gras. Les séquences d’éléments sont répertoriées dans l’ordre sur une seule ligne. Par exemple, _l’élément Stream_ se compose de la **constante TNEF_SIGNATURE**, suivie d’une clé , suivie d’un  _objet_. Lorsqu’un élément possède plusieurs implémentations possibles, les alternatives sont répertoriées sur des lignes consécutives. Par exemple, un _objet_ peut se composer  _d’un Message_Seq,_ d’un Message_Seq suivi d’un _Attach_Seq_ ou simplement d’un _Attach_Seq_.
   
  _TNEF_Stream :_
   
@@ -55,7 +55,7 @@ Les transports TNEF activés génèrent cette valeur avant d’utiliser l’impl
     
  _Msg_Attribute :_
   
->  LVL_MESSAGE’attribut-ID attribute-length attribute-data checksum 
+> **LVL_MESSAGE** attribute-ID attribute-length attribute-data checksum 
     
 Attribute-ID est l’un des identificateurs d’attributS TNEF, tels **que attSubject**. La longueur d’attribut est la longueur en octets des données d’attribut. Les données d’attribut sont les données associées à l’attribut.
   
@@ -67,7 +67,7 @@ Attribute-ID est l’un des identificateurs d’attributS TNEF, tels **que attSu
   
 > **LVL_ATTACHMENT attRenddata** **sizeof(RENDDATA)** renddata checksum 
     
-Renddata est les données associées à la structure **RENDDATA** qui contient les informations de rendu pour la pièce jointe correspondante. La **structure RENDDATA** est définie dans le format TNEF. Fichier d’en-tête H. 
+Renddata est les données associées à la structure **RENDDATA** qui contient les informations de rendu pour la pièce jointe correspondante. La structure **RENDDATA** est définie dans le format TNEF. Fichier d’en-tête H. 
   
  _Att_Attribute_Seq :_
   

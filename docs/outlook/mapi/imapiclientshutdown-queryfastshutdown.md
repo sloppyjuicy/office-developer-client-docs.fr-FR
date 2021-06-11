@@ -43,7 +43,7 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-Le fait que le sous-système MAPI prend en charge le client MAPI pour un arrêt rapide dépend du paramètre de Registre Windows de l’utilisateur ou du comportement par défaut du client MAPI pour l’arrêt rapide. Cela dépend également de la capacité des fournisseurs MAPI chargés à prendre en charge l’arrêt rapide. Pour plus d’informations, voir [Options utilisateur d’arrêt rapide.](fast-shutdown-user-options.md)
+Le fait que le sous-système MAPI prend en charge le client MAPI pour l’arrêt rapide dépend du paramètre de Registre Windows de l’utilisateur ou du comportement par défaut du client MAPI pour l’arrêt rapide. Cela dépend également de la capacité des fournisseurs MAPI chargés à prendre en charge l’arrêt rapide. Pour plus d’informations, voir [Options utilisateur d’arrêt rapide.](fast-shutdown-user-options.md)
   
 ## <a name="see-also"></a>Voir aussi
 

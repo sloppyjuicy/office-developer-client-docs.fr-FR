@@ -19,7 +19,7 @@ ms.locfileid: "33418854"
 
 Cette section fournit des informations sur les tâches développeur courantes lors du développement de modèles de formulaires InfoPath utilisant du code managé.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Accéder aux données d’application](how-to-access-application-data.md)
   
@@ -41,7 +41,7 @@ Cette section fournit des informations sur les tâches développeur courantes lo
   
 > Explique comment écrire du code qui effectue une action différente selon que le formulaire est ouvert dans InfoPath, un navigateur Web ou un navigateur mobile.
     
-[Travailler avec les fenêtres de formulaire](how-to-work-with-form-windows.md)
+[Travailler avec les formulaires Windows](how-to-work-with-form-windows.md)
   
 > Présente l'utilisation de fenêtres de formulaires
     
@@ -61,7 +61,7 @@ Cette section fournit des informations sur les tâches développeur courantes lo
   
 > Présente la gestion des erreurs dans les projets InfoPath avec code managé.
     
-[Travailler avec les paramètres de gestion des droits de l’information](how-to-work-with-information-rights-management-settings.md)
+[Travailler avec la gestion des droits Paramètres](how-to-work-with-information-rights-management-settings.md)
   
 > Présente l'utilisation des paramètres Gestion des droits relatifs à l'information (IRM).
     

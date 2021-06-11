@@ -33,7 +33,7 @@ enum
 
 ## <a name="remarks"></a>Remarques
 
-L’état de libre/occupé d’un bloc de temps détermine la façon dont il s’affiche dans un calendrier **:** **Libre,** Occupé, **Provisoire** ou En **dehors du bureau**. 
+L’état de libre/occupé d’un bloc de temps détermine la façon dont il s’affiche dans un calendrier : **Libre,** **Occupé,** **Provisoire** ou **Hors** Office . 
   
 ## <a name="see-also"></a>Voir aussi
 

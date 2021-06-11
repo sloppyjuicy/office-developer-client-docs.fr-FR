@@ -20,23 +20,23 @@ ms.locfileid: "33420597"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Le dossier contient les fichiers Visual Studio projet Microsoft et les fichiers de code source nécessaires pour compiler l’exemple  `\EXAMPLES\GENERIC\` DLL GENERIC.xll. Vous pouvez utiliser ce projet comme modèle pour écrire vos propres XL Microsoft Excel. Le code source de ce projet illustre de nombreuses fonctionnalités de l’API C Excel. 
+Le dossier contient les Microsoft Visual Studio de projet et les fichiers de code source nécessaires pour compiler l’exemple `\EXAMPLES\GENERIC\` DLL GENERIC.xll. Vous pouvez utiliser ce projet comme modèle pour écrire votre propre Microsoft Excel XL. Le code source de ce projet illustre de nombreuses fonctionnalités de l’API Excel C. 
   
 Lorsque vous chargez GENERIC.xll, il crée un menu **générique** avec quatre commandes : 
   
-- **Boîte de** dialogue : affiche une boîte de dialogue Microsoft Excel. 
+- **Boîte** de dialogue : affiche une boîte Microsoft Excel dialogue. 
     
-- **Dépôt** : déplace la sélection jusqu’à ce que vous appuyiez sur la **touche ÉCHAP.** 
+- **- Déplace** la sélection jusqu’à ce que vous appuyiez sur la **touche ÉCHAP.** 
     
-- **Boîte de dialogue native** : affiche une boîte de dialogue Windows. 
+- **Boîte de dialogue** native : affiche une boîte Windows dialogue. 
     
 - **Exit** : décharge GENERIC.xll et supprime le menu **générique.** 
     
-GENERIC.xll fournit également trois fonctions de feuille de calcul, Func1, FuncSum et FuncFib, qui peuvent être utilisées chaque fois que GENERIC.xll est chargé. GENERIC.xll peut être chargé à l’aide du Gestionnaire de modules, ou il est chargé s’il était actif à la fin normale de la dernière session Excel.
+GENERIC.xll fournit également trois fonctions de feuille de calcul, Func1, FuncSum et FuncFib, qui peuvent être utilisées chaque fois que GENERIC.xll est chargé. GENERIC.xll peut être chargé à l’aide du Gestionnaire de Excel, ou il est chargé s’il était actif à la fin normale de la dernière session Excel session.
   
 Ce projet utilise la bibliothèque d’infrastructure (FRMWRK32.lib).
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [DIALOGMsgProc](dialogmsgproc.md)
   

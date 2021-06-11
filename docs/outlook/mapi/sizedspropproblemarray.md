@@ -34,7 +34,7 @@ Crée une structure [nommée SPropProblemArray](spropproblemarray.md) qui contie
 SizedSPropProblemArray(_cprob, _name)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ _cprob_
   

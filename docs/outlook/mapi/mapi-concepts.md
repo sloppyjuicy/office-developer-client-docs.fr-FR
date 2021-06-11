@@ -19,7 +19,7 @@ ms.locfileid: "33422179"
   
 Cette section fournit un guide pour comprendre et programmer avec MAPI.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Fonctionnalités et architecture MAPI](mapi-features-and-architecture.md): contient des informations sur la conception et les concepts MAPI généraux.
     
@@ -31,7 +31,7 @@ Cette section fournit un guide pour comprendre et programmer avec MAPI.
     
 ## <a name="related-sections"></a>Sections connexes
 
-- [Mise en route avec la référence MAPI Outlook](getting-started-with-the-outlook-mapi-reference.md)
+- [Getting started with the Outlook MAPI Reference](getting-started-with-the-outlook-mapi-reference.md)
 - [Exemples MAPI](mapi-samples.md)
 - [Référence MAPI](mapi-reference.md)
   

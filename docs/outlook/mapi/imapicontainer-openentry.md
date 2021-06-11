@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -50,7 +50,7 @@ HRESULT OpenEntry(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet. La transmission DE NULL entraîne le retour de l’identificateur de l’interface standard de l’objet. Pour les messages, l’interface standard [est IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md); pour les dossiers, il s’agit [de IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les interfaces standard pour les objets de carnet d’adresses sont [IDistList : IMAPIContainer](idistlistimapicontainer.md) pour une liste de distribution et [IMailUser : IMAPIProp](imailuserimapiprop.md) pour un utilisateur de messagerie. 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet. La transmission DE NULL entraîne le retour de l’identificateur de l’interface standard de l’objet. Pour les messages, l’interface standard [est IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md); pour les dossiers, il [s’agit de IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les interfaces standard pour les objets de carnet d’adresses sont [IDistList : IMAPIContainer](idistlistimapicontainer.md) pour une liste de distribution et [IMailUser : IMAPIProp](imailuserimapiprop.md) pour un utilisateur de messagerie. 
     
  _ulFlags_
   
@@ -66,11 +66,11 @@ MAPI_DEFERRED_ERRORS
     
 MAPI_MODIFY 
   
-> Demande une autorisation de lecture/écriture. Par défaut, les objets sont ouverts avec un accès en lecture seule et les clients ne doivent pas fonctionner sur l’hypothèse que l’autorisation lecture/écriture a été accordée. 
+> Demande une autorisation de lecture/écriture. Par défaut, les objets sont ouverts avec un accès en lecture seule et les clients ne doivent pas travailler sur l’hypothèse que l’autorisation lecture/écriture a été accordée. 
     
 SHOW_SOFT_DELETES
   
-> Affiche les éléments qui sont actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
+> Affiche les éléments actuellement marqués comme supprimés (supprimés (supprimés( en d’autres cas), ils sont dans la phase de rétention des éléments supprimés.
     
  _lpulObjType_
   
@@ -106,7 +106,7 @@ La **méthode IMAPIContainer::OpenEntry** ouvre un objet dans un conteneur et re
 
 Étant donné que les fournisseurs de services ne sont pas tenus de retourner une implémentation d’interface du type spécifié par l’identificateur d’interface dans le paramètre _lpInterface,_ vérifiez la valeur pointée par le paramètre _lpulObjType._ Si nécessaire, cast le pointeur renvoyé dans  _lppUnk_ vers un pointeur du type approprié. 
   
-Par défaut, les fournisseurs de services ouvrent des objets avec un accès en lecture seule, sauf si vous définissez l’MAPI_MODIFY ou MAPI_BEST_ACCESS’indicateur. Lorsque l’un de ces indicateurs est définie, les fournisseurs de services tentent de renvoyer un objet modifiable. Toutefois, ne supposez pas que, étant donné que vous avez demandé un objet modifiable, l’objet ouvert dispose d’une autorisation de lecture/écriture. Planifiez l’échec d’une modification ultérieure ou récupérez la propriété **PR_ACCESS_LEVEL** de l’objet pour déterminer le niveau d’accès accordé par **OpenEntry**.
+Par défaut, les fournisseurs de services ouvrent des objets avec un accès en lecture seule, sauf si vous définissez l’MAPI_MODIFY ou MAPI_BEST_ACCESS’indicateur. Lorsque l’un de ces indicateurs est définie, les fournisseurs de services tentent de renvoyer un objet modifiable. Toutefois, ne supposez pas que, étant donné que vous avez demandé un objet modifiable, l’objet ouvert dispose d’une autorisation de lecture/écriture. Planifiez la possibilité qu’une modification ultérieure échoue ou récupérez la propriété **PR_ACCESS_LEVEL** de l’objet pour déterminer le niveau d’accès accordé par **OpenEntry**.
   
 ## <a name="see-also"></a>Voir aussi
 

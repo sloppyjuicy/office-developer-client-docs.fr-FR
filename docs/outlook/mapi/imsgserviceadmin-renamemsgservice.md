@@ -35,7 +35,7 @@ HRESULT RenameMsgService(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
@@ -53,7 +53,7 @@ HRESULT RenameMsgService(
 
 MAPI_E_NO_SUPPORT 
   
-> MAPI ne prend pas en charge le changement de nom de ce service de message. **RenameMsgService** renvoie toujours cette valeur. 
+> MAPI ne prend pas en charge le changement de nom de ce service de message. **RenameMsgService renvoie** toujours cette valeur. 
     
 ## <a name="remarks"></a>Remarques
 

@@ -34,7 +34,7 @@ Crée une structure nommée qui inclut une structure [DTBLGROUPBOX](dtblgroupbox
 SizedDtblGroupBox (n, u)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _n_
   

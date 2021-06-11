@@ -23,7 +23,7 @@ Indique si cette forme peut fractionner les formes fractionnables.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Ne pas autoriser cette forme à en fractionner d’autres.  <br/> |**visSLOSplitNone** <br/> |
-| 1   <br/> | Autoriser cette forme à en fractionner d’autres.  <br/> |**visSLOSplitAllow** <br/> |
+| 1  <br/> | Autoriser cette forme à en fractionner d’autres.  <br/> |**visSLOSplitAllow** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -31,7 +31,7 @@ Une forme qui peut en fractionner d’autres doit être une forme 2D ou une form
   
 Le fractionnement automatique des formes est activé et désactivé à trois niveaux différents : application, page et forme. Par défaut, le fractionnement est activé aux niveaux application et page ; pour les formes, il varie en fonction du type de dessin. 
   
-Pour activer ou désactiver le fractionnement  au niveau de  l’application, utilisez le paramètre Activer  le fractionnement de connecteur sous l’onglet Avancé de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, sur **Options,** puis sur **Options** avancées). 
+Pour activer ou désactiver le fractionnement  au niveau de  l’application, utilisez le paramètre Activer  le fractionnement de connecteur sous l’onglet Avancé de la boîte de dialogue **Options Visio** (cliquez sur l’onglet Fichier, cliquez sur **Options,** puis sur **Options** avancées). 
   
 Pour activer ou désactiver le fractionnement sur une page, reportez-vous à la cellule PageShapeSplit. 
   

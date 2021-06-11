@@ -23,8 +23,8 @@ Indique le mode de redimensionnement actuel pour la forme.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Utiliser les paramètres du groupe  <br/> |**visXFormResizeDontCare** <br/> |
-|1   <br/> |Repositionner seulement  <br/> |**visXFormResizeSpread** <br/> |
-|2   <br/> |Mettre à l'échelle avec le groupe  <br/> |**visXFormResizeScale** <br/> |
+|1  <br/> |Repositionner seulement  <br/> |**visXFormResizeSpread** <br/> |
+|2  <br/> |Mettre à l'échelle avec le groupe  <br/> |**visXFormResizeScale** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

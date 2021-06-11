@@ -43,15 +43,15 @@ Avec le tri standard, toutes les lignes sont affichées dans une liste plate en 
     
 - **PR_ROW_TYPE** ([PidTagRowType](pidtagrowtype-canonical-property.md)) 
     
-Le retrait sous la ligne de titre correspond à toutes les lignes du tableau qui contiennent des colonnes dont les valeurs correspondent à la clé de tri. Ces lignes sont appelées lignes feuilles. Les lignes de feuille contiennent toutes les colonnes du jeu de colonnes moins les colonnes de clé de tri. 
+Le retrait sous la ligne de titre correspond à toutes les lignes du tableau qui contiennent des colonnes dont les valeurs correspondent à la clé de tri. Ces lignes sont appelées lignes feuilles. Les lignes de feuille contiennent toutes les colonnes du jeu de colonnes moins les colonnes de touche de tri. 
   
-Les tables des matières des dossiers peuvent souvent prendre en charge le tri par catégories en plus du tri standard. Les tables de contenu des conteneurs de carnet d’adresses ne prend généralement en charge que le tri standard. 
+Les tables des matières des dossiers peuvent souvent prendre en charge le tri catégorisé en plus du tri standard. Les tables de contenu des conteneurs de carnet d’adresses ne prend généralement en charge que le tri standard. 
   
 Une catégorie peut avoir deux états : collapsed et expanded. Lorsqu’une catégorie est dans l’état collapsed, seule la ligne de titre est renvoyée à partir [d’IMAPITable::QueryRows](imapitable-queryrows.md). Lorsqu’une catégorie est dans l’état développé, toutes les lignes associées à la catégorie sont renvoyées. Cela inclut la ligne de titre et les lignes de feuille. 
   
-Chaque catégorie d’un affichage Tableau peut être étendue ou réduire indépendamment. Autrement dit, toutes les catégories ne doivent pas être dans le même état en même temps ; Certaines catégories peuvent être réduire tandis que d’autres sont étendues. 
+Chaque catégorie d’une vue de table peut être étendue ou réduire indépendamment. Autrement dit, toutes les catégories ne doivent pas être dans le même état en même temps ; Certaines catégories peuvent être réduire tandis que d’autres sont étendues. 
   
-L’utilisateur d’un tableau catégorisé décide de son affichage. Une option courante consiste à utiliser un contrôle fourni dans le SDK Windows appelé contrôle Treeview. Les contrôles Treeview sont des zones de liste qui gèrent les informations dans une structure arborescence. Les lignes de titre pour les catégories dans l’état développé sont marquées avec un signe moins, tandis que les lignes de titre pour les catégories dans l’état collapsed sont marquées avec un signe plus. Les catégories étendues sont affichées avec les lignes de feuille en retrait sous les lignes de titre. 
+L’utilisateur d’un tableau catégorisé décide de son affichage. Une option courante consiste à utiliser un contrôle fourni dans le SDK Windows appelé contrôle Treeview. Les contrôles Treeview sont des zones de liste qui gèrent les informations dans une structure arborescence. Les lignes de titre pour les catégories à l’état développé sont marquées avec un signe moins, tandis que les lignes de titre pour les catégories dans l’état collapsed sont marquées avec un signe plus. Les catégories étendues sont affichées avec les lignes de feuille en retrait sous les lignes de titre. 
   
 Pour réduire et développer une catégorie, une application cliente ou un fournisseur de services utilise les méthodes [IMAPITable : IUnknown](imapitableiunknown.md) suivantes : 
   

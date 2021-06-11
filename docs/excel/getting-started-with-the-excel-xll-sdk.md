@@ -20,18 +20,18 @@ ms.locfileid: "33417188"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Le Kit de développement logiciel (SDK) XLL Microsoft Excel 2013 fournit des informations pour vous aider à commencer à créer des add-ins DLL pour Excel 2013 qui utilisent l’API C. Cette section fournit des informations sur l’API C et des liens vers de la documentation de référence pour vous aider à démarrer avec le développement XLL Excel 2013.
+Le Kit de développement logiciel (SDK) Microsoft Excel 2013 XLL fournit des informations pour vous aider à commencer à créer des modules complémentaires DLL pour Excel 2013 qui utilisent l’API C. Cette section fournit des informations sur l’API C et des liens vers de la documentation de référence pour vous aider à prendre en Excel développement XLL 2013.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Programmation avec l’API C](programming-with-the-c-api-in-excel.md)dans Excel : présente l’API C et explique comment elle se compare à d’autres options de programmation dans Excel 2013.
     
 - [Nouveautés de l’API C pour Excel](what-s-new-in-the-c-api-for-excel.md): décrit les mises à jour de l’API C pour Excel 2013.
     
-- [Problèmes connus dans le développement XLL Excel](known-issues-in-excel-xll-development.md): traite des problèmes rencontrés dans la programmation XLL Excel.
+- [Problèmes connus dans Excel développement XLL](known-issues-in-excel-xll-development.md): traite des problèmes rencontrés dans Excel programmation XLL.
     
 ## <a name="related-sections"></a>Sections connexes
 
-- Référence des fonctions api [du SDK XLL Excel](excel-xll-sdk-api-function-reference.md): fournit une référence pour les rappels Excel que le XLL peut appeler, les rappels XLL qu’Excel recherche et les fonctions clés dans les projets d’exemple et d’infrastructure.
+- Excel référence de la fonction [API du SDK XLL](excel-xll-sdk-api-function-reference.md): fournit une référence pour les rappels Excel que le XLL peut appeler, les rappels XLL que Excel recherche et les fonctions clés dans les projets d’exemple et d’infrastructure.
     
 

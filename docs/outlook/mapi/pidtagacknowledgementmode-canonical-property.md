@@ -41,7 +41,7 @@ Cette propriété peut avoir exactement l’une des valeurs suivantes :
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Accusé de réception manuel.  <br/> |
-|1   <br/> |Accusé de réception automatique.  <br/> |
+|1  <br/> |Accusé de réception automatique.  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

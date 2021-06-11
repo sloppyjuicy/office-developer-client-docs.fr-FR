@@ -24,7 +24,7 @@ Met fin à une session avec un cluster.
 int CloseSession(int SessionId)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _SessionId_
   

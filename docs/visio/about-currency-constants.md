@@ -27,14 +27,14 @@ Si vous affichez des symboles monétaires ne figurant pas dans les paramètres r
 |**ID**|**Abréviation**|**Currency**|
 |:-----|:-----|:-----|
 | 0  <br/> | SYS  <br/> | Utilise les paramètres du système  <br/> |
-| 1   <br/> | XXX  <br/> | Met en forme sous forme de nombre  <br/> |
+| 1  <br/> | XXX  <br/> | Met en forme sous forme de nombre  <br/> |
 | 2 - 9  <br/> | Reserved  <br/> |
-| 10   <br/> | EUR  <br/> | Euro  <br/> |
+| 10  <br/> | EUR  <br/> | Euro  <br/> |
 | 11  <br/> | USD  <br/> | Dollar américain  <br/> |
 | 12   <br/> | ATS  <br/> | Schilling autrichien  <br/> |
-| 13   <br/> | AUD  <br/> | Dollar australien  <br/> |
+| 13  <br/> | AUD  <br/> | Dollar australien  <br/> |
 | 14   <br/> | BEF  <br/> | Franc belge  <br/> |
-| 15   <br/> | CAD  <br/> | Dollar canadien  <br/> |
+| 15  <br/> | CAD  <br/> | Dollar canadien  <br/> |
 | 16   <br/> | CHF  <br/> | Franc suisse  <br/> |
 | 17   <br/> | CNY  <br/> | Yuan renminbi chinois  <br/> |
 | 18   <br/> | DEM  <br/> | Deutsche Mark  <br/> |
@@ -100,7 +100,7 @@ Si vous affichez des symboles monétaires ne figurant pas dans les paramètres r
 | 82  <br/> | SVC  <br/> | Colon salvadorien  <br/> |
 | 83  <br/> | TRY  <br/> | Nouvelle Livre turque  <br/> |
 | 84  <br/> | TTD  <br/> | Dollar de Trinidad et Tobago  <br/> |
-| 85  <br/> | UGY  <br/> | Peso uruguayen  <br/> |
+| 85  <br/> | UYOU  <br/> | Peso uruguayen  <br/> |
 | 86  <br/> | VEB  <br/> | Bolívar vénézuélien  <br/> |
 | 87  <br/> | VND  <br/> | Dong vietnamien  <br/> |
 | 88  <br/> | BRL  <br/> | Real brésilien  <br/> |

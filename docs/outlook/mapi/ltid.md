@@ -21,7 +21,7 @@ ms.locfileid: "33419435"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-ID générique à long terme d’un objet dans une boutique Outlook.
+ID générique à long terme d’un objet dans un magasin Outlook de données.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -42,11 +42,11 @@ struct LTID
     
  _globcnt_
   
-- [out] Nombre unique de 6 byte qui identifie l’objet dans la boutique Outlook.
+- [out] Nombre unique de 6 Outlook.
     
  _wLevel_
   
-- [out] Niveau de hiérarchie de l’ID d’entrée pour un dossier public Favori Exchange.
+- [out] Niveau de hiérarchie de l’ID d’entrée d’Exchange dossier public favori.
     
 ## <a name="see-also"></a>Voir aussi
 

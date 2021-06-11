@@ -36,7 +36,7 @@ HRESULT GetMessageStatus(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -68,7 +68,7 @@ MSGSTATUS_HIGHLIGHTED
     
 MSGSTATUS_REMOTE_DELETE 
   
-> Le message a été marqué pour suppression dans la boutique de messages distante sans téléchargement sur le client local.
+> Le message a été marqué pour suppression dans la boutique de messages distante sans téléchargement vers le client local.
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
@@ -90,7 +90,7 @@ La **méthode IMAPIFolder::GetMessageStatus** renvoie l’état d’un message. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-La façon dont les bits d’état de message sont définies, effacées et utilisées dépend entièrement de votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être zéro. Si vous stockez des messages dans la sous-arbre IPM, MAPI réserve les bits 16 à 31 pour une utilisation par les clients IPM. Si vous stockez des messages dans d’autres sous-arbre, vous pouvez utiliser les bits 16 à 31 à vos propres fins.
+La façon dont les bits d’état du message sont définies, effacées et utilisées dépend entièrement de votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être zéro. Si vous stockez des messages dans la sous-arbre IPM, MAPI réserve les bits 16 à 31 pour une utilisation par les clients IPM. Si vous stockez des messages dans d’autres sous-arbre, vous pouvez utiliser les bits 16 à 31 à vos propres fins.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

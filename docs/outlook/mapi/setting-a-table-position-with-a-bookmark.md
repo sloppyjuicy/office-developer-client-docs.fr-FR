@@ -33,7 +33,7 @@ Les implémenteurs de tableau sont requis pour prendre en charge ces signets sta
   
  **Pour définir un signet à la position actuelle du tableau**
   
-- Appelez [IMAPITable::CreateBookmark](imapitable-createbookmark.md). Il peut arriver que la mémoire disponible soit insuffisante pour allouer le nouveau signet, ce qui entraîne le retour de la valeur d’erreur MAPI_E_UNABLE_TO_COMPLETE **CreateBookmark.** 
+- Appelez [IMAPITable::CreateBookmark](imapitable-createbookmark.md). Il peut arriver que la mémoire disponible soit  insuffisante pour allouer le nouveau signet, ce qui a pour effet de renvoyer la valeur MAPI_E_UNABLE_TO_COMPLETE’erreur. 
     
  **Pour libérer un signet**
   

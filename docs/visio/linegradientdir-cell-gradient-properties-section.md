@@ -26,7 +26,7 @@ Détermine la direction du dégradé de trait. Un dégradé peut être linéaire
 |0  <br/> |Dégradé linéaire. La **cellule LineGradientAngle** détermine la direction du dégradé.  <br/> |
 |1-7  <br/> |Dégradés radiaux. Le dégradé étend l’extérieur dans un cercle à partir d’un point central.  <br/> |
 |8-12  <br/> |Dégradés rectangulaires. Le dégradé s’étend sous la forme d’une ligne directionnelle à partir d’une origine avec un fondu rectangulaire.  <br/> |
-|13   <br/> |Dégradé de chemin d’accès.  <br/> |
+|13  <br/> |Dégradé de chemin d’accès.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

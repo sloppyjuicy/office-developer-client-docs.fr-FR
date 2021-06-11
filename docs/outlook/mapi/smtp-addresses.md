@@ -21,15 +21,15 @@ ms.locfileid: "33419624"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le format des adresses de messagerie SMTP est défini dans la RFC 822. Les composants MAPI doivent gérer n’importe quelle adresse conforme à cette norme. Toutefois, il existe une forme particulière d’adresse RFC 822 qui code le mieux les adresses MAPI :
+Le format des adresses de messagerie SMTP est défini dans RFC 822. Les composants MAPI doivent gérer n’importe quelle adresse conforme à cette norme. Toutefois, il existe une forme particulière d’adresse RFC 822 qui code le mieux les adresses MAPI :
   
  _display-name_ **\<** _email-address_**\>**
   
-Les crochets sont inclus en tant que littéraux. Les espaces vides sont courants dans les noms d’affichage ; Ils n’ont pas besoin d’être entre eux. Une adresse type peut ressembler à celle-ci, qui appartient à l’un des co-auteurs de la RFC 1521 :
+Les crochets sont inclus en tant que littéraux. Les espaces vides sont courants dans les noms d’affichage ; ils n’ont pas besoin d’être entre eux. Une adresse type peut ressembler à celle-ci, qui appartient à l’un des co-auteurs de la RFC 1521 :
   
 Nsb@bellcore.com \<\>
   
-Si le nom complet contient des caractères qui ont une signification spéciale dans les adresses SMTP, telles que @, le nom complet doit être entre \< guillemets doubles. Sur le courrier sortant, si la longueur totale de l’adresse de messagerie et du nom complet dépasse 255 caractères, le nom complet doit être supprimé.
+Si le nom complet contient des caractères qui ont une signification spéciale dans les adresses SMTP, telles que @, le nom complet doit être entre \< guillemets doubles. Sur le courrier sortant, si la longueur totale de l’adresse e-mail et du nom complet dépasse 255 caractères, le nom complet doit être supprimé.
   
 Les composants d’une adresse SMTP sont mappés dans les propriétés MAPI comme suit :
   

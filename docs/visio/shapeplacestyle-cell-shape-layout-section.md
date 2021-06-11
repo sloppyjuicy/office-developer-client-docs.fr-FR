@@ -18,7 +18,7 @@ ms.locfileid: "33418574"
 ---
 # <a name="shapeplacestyle-cell-shape-layout-section"></a>ShapePlaceStyle, cellule (section Shape Layout)
 
-Spécifie la façon dont les formes sont placées sur la page  lorsque les formes sont disposés dans la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition **page,** puis cliquez sur Autres **options** de disposition).   Stocke le style de disposition et les valeurs d’alignement de **VisCellIndices**. 
+Spécifie la façon dont les formes sont placées sur la page  lorsque les formes sont mises en page dans la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur  **Re-Disposition de la page,** puis cliquez sur Autres **options** de disposition).  Stocke le style de disposition et les valeurs d’alignement de **VisCellIndices**. 
   
 |**Constante**|**Valeur**|
 |:-----|:-----|
@@ -26,12 +26,12 @@ Spécifie la façon dont les formes sont placées sur la page  lorsque les forme
 |**visLOPlaceCircular** <br/> |6   <br/> |
 |**visLOPlaceCompactDownLeft** <br/> |14   <br/> |
 |**visLOPlaceCompactDownRight** <br/> |7   <br/> |
-|**visLOPlaceCompactLeftDown** <br/> |13   <br/> |
+|**visLOPlaceCompactLeftDown** <br/> |13  <br/> |
 |**visLOPlaceCompactLeftUp** <br/> |12   <br/> |
 |**visLOPlaceCompactRightDown** <br/> |8   <br/> |
 |**visLOPlaceCompactRightUp** <br/> |9   <br/> |
 |**visLOPlaceCompactUpLeft** <br/> |11  <br/> |
-|**visLOPlaceCompactUpRight** <br/> |10   <br/> |
+|**visLOPlaceCompactUpRight** <br/> |10  <br/> |
 |**visLOPlaceDefault** <br/> |0  <br/> |
 |**visLOPlaceHierarchyBottomToTopCenter** <br/> |20  <br/> |
 |**visLOPlaceHierarchyBottomToTopLeft** <br/> |19  <br/> |
@@ -45,11 +45,11 @@ Spécifie la façon dont les formes sont placées sur la page  lorsque les forme
 |**visLOPlaceHierarchyTopToBottomCenter** <br/> |17   <br/> |
 |**visLOPlaceHierarchyTopToBottomLeft** <br/> |16   <br/> |
 |**visLOPlaceHierarchyTopToBottomRight** <br/> |18   <br/> |
-|**visLOPlaceLeftToRight** <br/> |2   <br/> |
-|**visLOPlaceParentDefault** <br/> |15   <br/> |
-|**visLOPlaceRadial** <br/> |3   <br/> |
+|**visLOPlaceLeftToRight** <br/> |2  <br/> |
+|**visLOPlaceParentDefault** <br/> |15  <br/> |
+|**visLOPlaceRadial** <br/> |3  <br/> |
 |**visLOPlaceRightToLeft** <br/> |5   <br/> |
-|**visLOPlaceTopToBottom** <br/> |1   <br/> |
+|**visLOPlaceTopToBottom** <br/> |1  <br/> |
    
 Pour faire référence à la cellule ShapePlaceStyle par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

@@ -22,13 +22,13 @@ ms.locfileid: "33420058"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Peut être appelée à partir d’une DLL qui a elle-même été appelée par Microsoft Excel. Si une fonction est déjà inscrite, elle renvoie l’ID de registre existant pour cette fonction sans la réins inscrire à nouveau. Si une fonction n’est pas encore inscrite, elle l’inscrit et renvoie l’ID de registre résultant.
+Peut être appelée à partir d’une DLL qui a elle-même été appelée par Microsoft Excel. Si une fonction est déjà inscrite, elle renvoie l’ID de registre existant pour cette fonction sans l’réinsister. Si une fonction n’est pas encore inscrite, elle l’inscrit et renvoie l’ID de registre résultant.
   
 ```cs
 Excel12(xlfRegisterId, LPXLOPER12 pxRes, 3,     LPXLOPER12 pxModuleText, LPXLOPER12 pxProcedure, LPXLOPER12 pxTypeText);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxModuleText_ (**xltypeStr**)
   
@@ -36,7 +36,7 @@ Nom de la DLL contenant la fonction.
   
 _pxProcedure_ (**xltypeStr** ou **xltypeNum**)
   
-S’il s’agit d’une chaîne, le nom de la fonction à appeler. S’il s’agit d’un nombre, il s’agit du numéro d’exportation ordinal de la fonction à appeler. Pour plus de clarté et de robustesse, utilisez toujours la forme de chaîne.
+S’il s’agit d’une chaîne, le nom de la fonction à appeler. S’il s’agit d’un nombre, le numéro d’exportation ordinal de la fonction à appeler. Pour plus de clarté et de robustesse, utilisez toujours la forme de chaîne.
   
 _pxTypeText_ (**xltypeStr**)
   
@@ -44,11 +44,11 @@ Chaîne facultative spécifiant les types de tous les arguments de la fonction e
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Renvoie l’ID de registre de la fonction (**xltypeNum**), qui peut être utilisé dans les appels suivants **à xlfUnregister**.
+Renvoie l’ID de registre de la fonction (**xltypeNum**), qui peut être utilisé dans les appels ultérieurs **à xlfUnregister**.
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction est utile lorsque vous ne souhaitez pas vous soucier de la maintenance d’un ID de registre, mais que vous en avez besoin ultérieurement pour la désins inscription. Il est également utile pour affecter des menus, des outils et des boutons lorsque la fonction que vous souhaitez affecter se trouve dans une DLL.
+Cette fonction est utile lorsque vous ne souhaitez pas vous soucier de la maintenance d’un ID de registre, mais vous en avez besoin ultérieurement pour l’inscription. Il est également utile pour affecter des menus, des outils et des boutons lorsque la fonction que vous souhaitez affecter se trouve dans une DLL.
   
 Lorsqu’une fonction DLL ou XLL a été inscrite avec un argument  _pxFunctionText_ valide ayant été fourni à **xlfRegister**, son ID de registre peut également être obtenu en passant  _le pxFunctionText_ à la fonction **xlfEvaluate**.
   

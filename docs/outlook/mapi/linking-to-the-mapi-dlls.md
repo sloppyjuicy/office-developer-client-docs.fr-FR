@@ -21,7 +21,7 @@ ms.locfileid: "33419302"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les clients MAPI peuvent établir un lien vers les DLL MAPI implicitement ou explicitement à l’aide des fonctions Windows **LoadLibrary** et **GetProcAddress**. Pour plus d’informations sur la liaison explicite des DLL MAPI, voir [Lien vers les fonctions MAPI.](how-to-link-to-mapi-functions.md)
+Les clients MAPI peuvent établir un lien vers les DLL MAPI implicitement ou explicitement à l’aide des fonctions Windows **LoadLibrary** et **GetProcAddress**. Pour plus d’informations sur la liaison explicite des DLL MAPI, voir Lien vers les [fonctions MAPI.](how-to-link-to-mapi-functions.md)
   
 MAPI fournit des instructions de définition de type dans MAPIX. Fichier d’en-tête H pour chacune des fonctions suivantes :
   

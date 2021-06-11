@@ -22,7 +22,7 @@ ms.locfileid: "33419904"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **UNREGISTER à** partir d’une feuille macro XLM Excel. 
+Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **UNREGISTER** à partir d’Excel feuille macro XLM. 
   
 **xlfUnregister** peut être appelé sous deux formes : 
   
@@ -36,7 +36,7 @@ Appelée dans le formulaire 2, cette fonction force le déchargement complet d�
 Excel12(xlfUnregister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxModuleText_ (**xltypeStr**)
   
@@ -53,7 +53,7 @@ Si elle réussit, renvoie **TRUE** (**xltypeBool**). En cas d’échec, renvoie 
   
 ### <a name="remember-to-delete-names"></a>N’oubliez pas de supprimer des noms
 
-Si vous avez spécifié l’argument  _pxFunctionText_ à **xlfRegister**, lors de l’inscription des fonctions et commandes de la DLL, vous devez explicitement supprimer les noms en appelant **xlfSetName** pour chacun d’eux, en omettant le deuxième argument afin que la fonction n’apparaisse plus dans l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
+Si vous avez spécifié l’argument  _pxFunctionText_ à **xlfRegister,** lors de l’inscription des fonctions et commandes de la DLL, vous devez explicitement supprimer les noms en appelant **xlfSetName** pour chacun d’eux, en omettant le deuxième argument afin que la fonction n’apparaisse plus dans l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -41,7 +41,7 @@ FTG FtgRegisterIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pfnIdle_
   
@@ -53,11 +53,11 @@ _pvIdleParam_
     
 _priIdle_
   
-> [in] Priorité initiale de la routine inactive. Les priorités possibles pour les routines définies par l’implémentation sont supérieure ou inférieure à zéro, mais pas à zéro. La priorité zéro est réservée à un événement utilisateur tel qu’un clic de souris ou un WM_PAINT message. Les priorités supérieures à zéro représentent des tâches en arrière-plan dont la priorité est plus élevée que les événements utilisateur et qui sont envoyées dans le cadre de la boucle de message Windows standard. Les priorités inférieures à zéro représentent les tâches inactives qui s’exécutent uniquement pendant la période d’inactivité des messages. Voici quelques exemples de priorités : 1 pour l’envoi au premier plan, 2 pour l’insertion de caractères avec modification d’alimentation et 3 pour le téléchargement de nouveaux messages.
+> [in] Priorité initiale de la routine inactive. Les priorités possibles pour les routines définies par l’implémentation sont supérieure ou inférieure à zéro, mais pas à zéro. La priorité zéro est réservée à un événement utilisateur tel qu’un clic de souris ou un WM_PAINT message. Les priorités supérieures à zéro représentent des tâches en arrière-plan dont la priorité est plus élevée que les événements utilisateur et qui sont envoyées dans le cadre de la boucle de boucle de Windows de message standard. Les priorités inférieures à zéro représentent les tâches inactives qui s’exécutent uniquement pendant les périodes d’inactivité des messages. Voici quelques exemples de priorités : 1 pour l’envoi au premier plan, 2 pour l’insertion de caractères avec modification d’alimentation et 3 pour le téléchargement de nouveaux messages.
     
 _csecIdle_
   
-> [in] Valeur d’heure initiale, en centièmes de seconde, à utiliser pour spécifier les paramètres de routine inactifs. La signification de la valeur d’heure initiale varie en fonction de ce qui est transmis dans le _paramètre iroIdle._ La signification peut être l’une des suivantes : 
+> [in] Valeur de temps initiale, en centièmes de seconde, à utiliser pour spécifier les paramètres de routine inactifs. La signification de la valeur d’heure initiale varie en fonction de ce qui est transmis dans le _paramètre iroIdle._ La signification peut être l’une des suivantes : 
     
   - Période minimale d’inaction de l’utilisateur qui doit s’écoulée avant que le moteur inactif MAPI appelle la routine d’inactivité pour la première fois, si l’indicateur FIROWAIT est définie en  _iroIdle_. Une fois ce délai passé, le moteur inactif peut appeler la routine d’inactivité aussi souvent que nécessaire. 
     
@@ -73,7 +73,7 @@ _iroIdle_
       
   FIRODISABLED
     
-  > La routine inactive doit être désactivée lorsqu’elle est inscrite. L’action par défaut consiste à activer la routine inactive lorsque **FtgRegisterIdleRoutine** l’inscrit. 
+  > La routine d’inactivité doit être désactivée lorsqu’elle est inscrite. L’action par défaut consiste à activer la routine inactive lorsque **FtgRegisterIdleRoutine** l’inscrit. 
       
   FIROINTERVAL 
     
@@ -81,11 +81,11 @@ _iroIdle_
       
   FIROONCEONLY 
     
-  > Obsolète. Ne pas utiliser. 
+  > Obsolète. Ne pas utiliser.  
       
   FIROPERBLOCK 
     
-  > Obsolète. Ne pas utiliser. 
+  > Obsolète. Ne pas utiliser.  
       
   FIROWAIT 
     
@@ -101,7 +101,7 @@ Les fonctions suivantes traitent du moteur inactif MAPI et des routines d’inac
   
 |**Fonction de routine inactive**|**Utilisation**|
 |:-----|:-----|
-|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d’une routine d’inactivité inscrite.  <br/> |
+|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d’une routine inactive inscrite.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Supprime une routine d’inactivité enregistrée du système MAPI.  <br/> |
 |[EnableIdleRoutine](enableidleroutine.md) <br/> |Désactive ou réactive une routine d’inactivité enregistrée sans la supprimer du système MAPI.  <br/> |
 |**FtgRegisterIdleRoutine** <br/> |Ajoute une routine inactive au système MAPI, avec ou sans l’activer.  <br/> |
@@ -110,7 +110,7 @@ Les fonctions suivantes traitent du moteur inactif MAPI et des routines d’inac
    
 **ChangeIdleRoutine**, **DeregisterIdleRoutine** et **EnableIdleRoutine** prennent comme paramètre d’entrée la balise de fonction renvoyée par **FtgRegisterIdleRoutine**. 
   
-Lorsque toutes les tâches au premier plan de la plateforme deviennent inactives, le moteur inactif MAPI appelle la routine d’inactivité la plus prioritaire prête à être exécuté. Il n’existe aucune garantie d’appel d’ordre parmi les routines inactives de la même priorité. 
+Lorsque toutes les tâches au premier plan de la plateforme deviennent inactives, le moteur inactif MAPI appelle la routine d’inactivité la plus prioritaire prête à être exécuté. Il n’existe aucune garantie d’appel de l’ordre parmi les routines inactives de la même priorité. 
   
 Voici un exemple d’utilisation de l’indicateur FIRONOADJUSTMENT dans le _paramètre iroIdle._ 
   
@@ -120,6 +120,6 @@ Voici un exemple d’utilisation de l’indicateur FIRONOADJUSTMENT dans le _par
     
 3. Reprendront l’ordinateur 10 minutes plus tard.
     
-Le comportement par défaut, sans FIRONOADJUSTMENT, est que vous devez toujours attendre 4 minutes supplémentaires pour que votre routine s’exécute. Autrement dit, votre système de temps a été ajusté pour autoriser la durée de veille de l’ordinateur. Toutefois, si vous passez FIRONOADJUSTMENT, votre routine d’inactivité s’exécutera immédiatement car plus de 5 minutes de temps réel se sont écoulées.
+Le comportement par défaut, sans FIRONOADJUSTMENT, est que vous devez toujours attendre 4 minutes supplémentaires pour que votre routine s’exécute. Autrement dit, votre système de temps a été ajusté pour autoriser la durée d’veille de l’ordinateur. Toutefois, si vous passez FIRONOADJUSTMENT, votre routine d’inactivité s’exécutera immédiatement car plus de 5 minutes de temps réel se sont écoulées.
   
 

@@ -36,7 +36,7 @@ Contient TRUE si un expéditeur de message souhaite recevoir une notification de
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété contient FALSE et que la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) contient TRUE, le fournisseur de services peut remplacer la propriété **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** et générer une non-remise. 
+Si cette propriété contient FALSE et que la propriété **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) contient TRUE, le fournisseur de services peut remplacer la propriété **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** et générer une déclaration d’absence de remise. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

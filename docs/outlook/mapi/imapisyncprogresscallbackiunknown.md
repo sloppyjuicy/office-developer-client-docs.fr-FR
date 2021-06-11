@@ -25,7 +25,7 @@ ms.locfileid: "33418336"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Transmet le fournisseur de magasin en tant que champ sur la structure MAPISIB pendant un appel à [IMAPISync : SynchronizeInBackground](imapisyncsynchronizeinbackground.md). Le fournisseur de magasin utilise cette interface pour fournir des commentaires à Microsoft Outlook sur l’état de la synchronisation.
+Transmet le fournisseur de magasin en tant que champ sur la structure MAPISIB pendant un appel à [IMAPISync : SynchronizeInBackground](imapisyncsynchronizeinbackground.md). Le fournisseur du Store utilise cette interface pour fournir des commentaires à Microsoft Outlook sur l’état de la synchronisation.
   
 |||
 |:-----|:-----|
@@ -40,8 +40,8 @@ Transmet le fournisseur de magasin en tant que champ sur la structure MAPISIB pe
 |||
 |:-----|:-----|
 |[Progress](imapisyncprogresscallback-progress.md) <br/> |Le fournisseur de magasins appelle régulièrement cette fonction pour mettre à jour l’état dans la boîte de dialogue d’envoi/réception.  <br/> |
-|[Error](imapisyncprogresscallback-error.md) <br/> |Si des erreurs se sont rencontrées lors de la synchronisation, le fournisseur de magasins appelle cette fonction pour fournir des détails affichés dans la boîte de dialogue d’envoi/réception.  <br/> |
-|[Terminé](imapisyncprogresscallback-done.md) <br/> |Le fournisseur de magasin appelle cette fonction pour informer Outlook que la synchronisation est terminée.  <br/> |
+|[Erreur](imapisyncprogresscallback-error.md) <br/> |Si des erreurs se sont rencontrées lors de la synchronisation, le fournisseur de magasins appelle cette fonction pour fournir des détails affichés dans la boîte de dialogue d’envoi/réception.  <br/> |
+|[Terminé](imapisyncprogresscallback-done.md) <br/> |Le fournisseur de magasin appelle cette fonction pour Outlook que la synchronisation est terminée.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

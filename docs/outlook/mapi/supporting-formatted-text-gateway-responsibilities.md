@@ -33,7 +33,7 @@ ms.locfileid: "33419428"
     
 5. Si des modifications ont été apportées, appelez **RTFSync** avec les indicateurs RTF_SYNC_RTF_CHANGED et RTF_SYNC_BODY_CHANGED définies. **RTFSync** recalcule les propriétés auxilliary RTF à partir du texte modifié. 
     
-6. A effectuez des modifications inversables dans le texte du message, telles que l’insertion d’espaces réservé de pièce jointe et la conversion de page de code nondestructive.
+6. A apporter des modifications inversionables au texte du message, telles que l’insertion d’espaces réservé aux pièces jointes et l’insertion de conversions de page de code non sécurisables.
     
 7. Envoyez le message.
     
@@ -43,7 +43,7 @@ ms.locfileid: "33419428"
     
 2. Appelez **RTFSync** si le message contient les propriétés **PR_RTF_COMPRESSED** et **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). 
     
-3. Mettez à jour le message dans la magasin de messages avec **la propriété PR_RTF_COMPRESSED** si le message le contient ; mise à jour avec **la propriété PR_BODY** uniquement si **PR_RTF_COMPRESSED** est absent. 
+3. Mettez à jour le message dans la boutique de messages avec **la propriété PR_RTF_COMPRESSED** si le message le contient ; mise à jour avec **la propriété PR_BODY** uniquement si **PR_RTF_COMPRESSED** est absent. 
     
 4. Ignorer **PR_BODY** si le message contient à la fois cette propriété et **PR_RTF_COMPRESSED**.
     

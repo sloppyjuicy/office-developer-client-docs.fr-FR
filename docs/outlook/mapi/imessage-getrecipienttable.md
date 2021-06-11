@@ -34,7 +34,7 @@ HRESULT GetRecipientTable(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -50,7 +50,7 @@ MAPI_UNICODE
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers le tableau des destinataires.
+> [out] Pointeur vers un pointeur vers la table des destinataires.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -36,7 +36,7 @@ HRESULT SetCurrentState(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -68,7 +68,7 @@ MAPIOFFLINE_STATE_OFFLINE
     
  _pReserved_
   
-> Ce paramètre est réservé à un usage interne à Outlook et n’est pas pris en charge. 
+> Ce paramètre est réservé à un Outlook interne et n’est pas pris en charge. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

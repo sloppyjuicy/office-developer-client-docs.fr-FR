@@ -23,7 +23,7 @@ Supprime la personne identifiée par le paramètre  _userID_ en tant qu’ami su
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _userID_
   

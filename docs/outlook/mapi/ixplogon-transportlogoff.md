@@ -33,7 +33,7 @@ HRESULT TransportLogoff(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -53,7 +53,7 @@ Lepooler MAPI appelle la méthode **IXPLogon::TransportLogoff** pour mettre fin 
 
 Le fournisseur de transport doit être prêt à accepter un appel à **TransportLogoff** à tout moment. Si un message est en cours, le fournisseur doit arrêter le processus d’envoi. 
   
-Le fournisseur de transport doit libérer toutes les ressources allouées pour sa session actuelle. Si elle a alloué de la mémoire pour cette session avec la fonction [MAPIAllocateBuffer,](mapiallocatebuffer.md) elle doit libérer de la mémoire à l’aide de la fonction [MAPIFreeBuffer.](mapifreebuffer.md) Toute mémoire allouée par le fournisseur de transport pour satisfaire les appels à la méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) peut être libérée en toute sécurité pour le moment. 
+Le fournisseur de transport doit libérer toutes les ressources allouées pour sa session en cours. Si elle a alloué de la mémoire pour cette session avec la fonction [MAPIAllocateBuffer,](mapiallocatebuffer.md) elle doit libérer de la mémoire à l’aide de la fonction [MAPIFreeBuffer.](mapifreebuffer.md) Toute mémoire allouée par le fournisseur de transport pour satisfaire les appels à la méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) peut être libérée en toute sécurité pour le moment. 
   
 En règle générale, lors de l’exécution d’un appel **TransportLogoff,** un fournisseur doit d’abord invalider son objet d’accès en appelant la méthode [IMAPISupport::MakeInvalid,](imapisupport-makeinvalid.md) puis libérer son objet de support. L’implémentation du fournisseur de **TransportLogoff** doit libérer l’objet de support en dernier, car lorsque l’objet de support est libéré, lepooler MAPI peut également libérer l’objet fournisseur lui-même. 
   

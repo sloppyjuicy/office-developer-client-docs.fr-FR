@@ -25,7 +25,7 @@ ms.locfileid: "33419645"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Implémente un objet de progression qui fournit aux applications clientes un indicateur de progression. Un indicateur de progression est un affichage de l’interface utilisateur qui indique le pourcentage d’achèvement d’une opération, tel que la copie de dossiers entre les magasins de messages. MAPI et les applications clientes implémentent des objets de progression et les fournisseurs de services les utilisent. 
+Implémente un objet de progression qui fournit aux applications clientes un indicateur de progression. Un indicateur de progression est un affichage de l’interface utilisateur qui indique le pourcentage d’achèvement d’une opération, tel que la copie de dossiers entre les magasins de messages. MapI et les applications clientes implémentent des objets de progression et les fournisseurs de services les utilisent. 
   
 |||
 |:-----|:-----|

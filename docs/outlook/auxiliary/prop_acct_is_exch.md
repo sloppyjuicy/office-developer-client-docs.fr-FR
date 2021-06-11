@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 599bfc7d-7b62-7cc1-69ff-6db04c96a49b
-description: True si le compte est un compte Exchange.
+description: Cette valeur a la valeur True si le compte est Exchange client.
 ms.openlocfilehash: 2df750b208ff9d2a18cb0d7c22ec6b32b658c7b4
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33418231"
 ---
 # <a name="prop_acct_is_exch"></a>PROP_ACCT_IS_EXCH
 
-True si le compte est un compte Exchange.
+Cette valeur a la valeur True si le compte est Exchange client.
   
 ## <a name="quick-info"></a>Informations rapides
 

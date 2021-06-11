@@ -26,8 +26,8 @@ Décalage  *y*  du bouton de balise d’action par rapport au point défini par 
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Aligné en haut (valeur par défaut).  <br/> |**visSmartTagYJustifyTop** <br/> |
-| 1   <br/> | Centré.  <br/> |**visSmartTagYJustifyMiddle** <br/> |
-| 2   <br/> | Aligné en bas.  <br/> |**visSmartTagYJustifyBottom** <br/> |
+| 1  <br/> | Centré.  <br/> |**visSmartTagYJustifyMiddle** <br/> |
+| 2  <br/> | Aligné en bas.  <br/> |**visSmartTagYJustifyBottom** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

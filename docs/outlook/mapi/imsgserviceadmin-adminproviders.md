@@ -35,7 +35,7 @@ HRESULT AdminProviders(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
@@ -67,7 +67,7 @@ La **méthode IMsgServiceAdmin::AdminProviders** permet d’accéder à un objet
     
 - Supprimer des fournisseurs de services d’un service de messagerie.
     
-- Ouvrir des sections de profil.
+- Ouvrir les sections de profil.
     
 - Accéder à la table des fournisseurs de services de messagerie.
     

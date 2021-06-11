@@ -81,7 +81,7 @@ typedef struct _contab_entryid
 
 Un carnet d’adresses de contacts est un carnet d’adresses qui contient tous les éléments de contact d’un dossier Contacts qui ont une adresse de messagerie ou un numéro de télécopie. Chaque entrée d’un carnet d’adresses de contacts est associée à une adresse de messagerie ou à un numéro de télécopie. Étant donné qu’un élément de contact peut avoir jusqu’à trois adresses de messagerie et trois numéros de télécopie, un élément de contact peut être représenté par six entrées au plus dans le carnet d’adresses des contacts correspondant.
   
-L’objectif d’un carnet d’adresses de contacts est de prendre en charge les utilisateurs qui adressent des messages électroniques à des contacts dans un dossier Contacts. Le fournisseur de carnet d’adresses contacts que Microsoft Outlook 2010 et Microsoft Outlook 2013 prendre en charge est contab32.dll.
+L’objectif d’un carnet d’adresses de contacts est de prendre en charge les utilisateurs qui adressent des messages électroniques à des contacts dans un dossier Contacts. Le fournisseur de carnet d’adresses Microsoft Outlook 2010 contacts Microsoft Outlook 2013 prise en charge est contab32.dll.
   
 La **structure CONTAB_ENTRYID** prend en charge un sous-ensemble des informations présentes dans le message de contact MAPI sous-jacent. Il identifie le message de contact associé à une entrée de carnet d’adresses de contacts particulière. 
   

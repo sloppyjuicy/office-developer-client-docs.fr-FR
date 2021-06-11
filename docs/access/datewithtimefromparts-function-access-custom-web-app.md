@@ -22,7 +22,7 @@ Renvoie une date et une heure basées sur une année, un mois, un jour et une he
   
 ## <a name="syntax"></a>Syntaxe
 
-**DateWithTimeFromParts** (*Year*, *Month*, *Day*, *Hour*, *Minute*, *Second*) 
+**DateWithTimeFromParts** (*Year*, *Month*, *Day,* *Hour,* *Minute*, *Second*) 
   
 La **fonction DateWithTimeFromParts** contient les arguments suivants. 
   

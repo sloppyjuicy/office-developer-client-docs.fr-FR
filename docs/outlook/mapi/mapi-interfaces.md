@@ -41,7 +41,7 @@ Après chaque rubrique d’interface, les méthodes de l’interface sont ensuit
   
 |**Titre**|**Content**|
 |:-----|:-----|
-|Paramètres  <br/> |Description de chaque paramètre de la méthode.  <br/> |
+|Parameters  <br/> |Description de chaque paramètre de la méthode.  <br/> |
 |Valeur de retour  <br/> |Description des valeurs uniques que la méthode peut renvoyer. Voici les valeurs que les appelants doivent vérifier dans leur code.  <br/> |
 |Remarques  <br/> |Description du pourquoi et de la façon dont la méthode est utilisée.  <br/> |
 |Voir aussi  <br/> |Renvois à d’autres rubriques de cette référence.  <br/> |

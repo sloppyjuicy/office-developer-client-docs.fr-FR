@@ -37,7 +37,7 @@ HRESULT RenameProfile(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpszOldProfileName_
   
@@ -75,7 +75,7 @@ MAPI_E_USER_CANCEL
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IProfAdmin::RenameProfile** attribue un nouveau nom à un profil, s’il en possède un. Si le profil à renommer est utilisé par un client lorsque **RenameProfile** est appelé, **RenameProfile** marque le profil et renvoie S_OK au lieu de tenter l’opération de changement de nom pendant l’utilisation du profil. Lorsque le profil n’est plus utilisé, **RenameProfile** lui attribue le nouveau nom. 
+La **méthode IProfAdmin::RenameProfile** attribue un nouveau nom à un profil, s’il en possède un. Si le profil à renommer est utilisé par un client lorsque **RenameProfile** est appelé, **RenameProfile** marque le profil et renvoie S_OK au lieu de tenter l’opération de changement de nom pendant que le profil est en cours d’utilisation. Lorsque le profil n’est plus utilisé, **RenameProfile** lui attribue le nouveau nom. 
   
 L’ancien et le nouveau nom du profil peuvent comporter jusqu’à 64 caractères et inclure les caractères suivants :
   

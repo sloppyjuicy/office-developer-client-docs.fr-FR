@@ -25,7 +25,7 @@ ms.locfileid: "33419001"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie une [structure MAPIERROR](mapierror.md) contenant des informations sur l’erreur précédente sur le tableau. 
+Renvoie une structure [MAPIERROR](mapierror.md) contenant des informations sur l’erreur précédente sur le tableau. 
   
 ```cpp
 HRESULT GetLastError(
@@ -35,7 +35,7 @@ LPMAPIERROR FAR * lppMAPIError
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hResult_
   

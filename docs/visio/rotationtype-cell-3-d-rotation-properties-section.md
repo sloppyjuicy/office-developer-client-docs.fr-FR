@@ -21,9 +21,9 @@ Détermine si la forme suit une rotation parallèle, une rotation de perspective
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |La forme n’a aucune rotation.  <br/> |
-|1   <br/> |La forme a une rotation parallèle.  <br/> |
-|2   <br/> |La forme a une rotation de perspective.  <br/> |
-|3   <br/> |La forme possède une rotation oblique supérieure gauche.  <br/> |
+|1  <br/> |La forme a une rotation parallèle.  <br/> |
+|2  <br/> |La forme a une rotation de perspective.  <br/> |
+|3  <br/> |La forme possède une rotation oblique supérieure gauche.  <br/> |
 |4   <br/> |La forme possède une rotation oblique supérieure droite.  <br/> |
 |5   <br/> |La forme a une rotation oblique vers le bas à gauche.  <br/> |
 |6   <br/> |La forme a une rotation oblique vers le bas à droite.  <br/> |

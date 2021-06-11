@@ -23,6 +23,6 @@ Indique les valeurs actuelles de l’angle de rotation d’une forme le long des
   
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez modifier les valeurs de  rotation 3D dans la boîte de dialogue Format de forme **(** Les styles de formes de base ont des effets de rotation 3D ou modifier l’une des cellules de la section Propriétés de  >    >    >   **rotation 3D.** 
+Vous pouvez modifier les valeurs de  rotation 3D dans la boîte de dialogue Format de forme **(** Les styles de forme de base effets de rotation 3D ou en antant une des cellules dans la section Propriétés de  >    >    >   **rotation 3D.** 
   
 

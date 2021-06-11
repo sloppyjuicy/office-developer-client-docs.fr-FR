@@ -33,7 +33,7 @@ HRESULT GetFlags(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
@@ -51,13 +51,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-MAPI permet aux fournisseurs de services de différencier les objets de niveau supérieur des sous-objets avec l’indicateur MAPI_TOP_LEVEL afin que tous les objets impliqués dans une opération peuvent utiliser la même implémentation [IMAPIProgress](imapiprogressiunknown.md) pour afficher la progression. Ainsi, l’affichage de l’indicateur se déroule sans problèmes dans une seule direction positive. Si l’MAPI_TOP_LEVEL est définie détermine comment les fournisseurs de services définissent les autres paramètres dans les appels ultérieurs à l’objet de progression. 
+MAPI permet aux fournisseurs de services de différencier les objets de niveau supérieur des sous-objets avec l’indicateur MAPI_TOP_LEVEL afin que tous les objets impliqués dans une opération peuvent utiliser la même implémentation [IMAPIProgress](imapiprogressiunknown.md) pour afficher la progression. Ainsi, l’affichage de l’indicateur se déroule sans problèmes dans une seule direction positive. Si l’MAPI_TOP_LEVEL est définie détermine comment les fournisseurs de services définissent les autres paramètres dans les appels suivants à l’objet de progression. 
   
 La valeur renvoyée par **GetFlags** est définie initialement par l’implémenteur, puis par le fournisseur de services via un appel à la méthode [IMAPIProgress::SetLimits.](imapiprogress-setlimits.md) 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Initialisez toujours l’indicateur MAPI_TOP_LEVEL puis comptez sur les fournisseurs de services pour l’effacer le cas échéant. Les fournisseurs de services peuvent effacer et réinitialiser l’indicateur en appelant la méthode **IMAPIProgress::SetLimits.** Pour plus d’informations sur l’implémentation de **GetFlags** et des autres méthodes **IMAPIProgress,** voir [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
+Initiaisez toujours l’indicateur MAPI_TOP_LEVEL puis comptez sur les fournisseurs de services pour l’effacer le cas échéant. Les fournisseurs de services peuvent effacer et réinitialiser l’indicateur en appelant la méthode **IMAPIProgress::SetLimits.** Pour plus d’informations sur l’implémentation de **GetFlags** et des autres méthodes **IMAPIProgress,** voir [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

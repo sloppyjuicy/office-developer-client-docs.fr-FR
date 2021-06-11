@@ -36,7 +36,7 @@ HRESULT TransportLogon(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _lpMAPISup_: [in] Pointeur vers l’objet de support du fournisseur de transport pour les fonctions de rappel dans MAPI pour cette session. Cet objet reste valide jusqu’à ce que le fournisseur de transport le relâche.
     
@@ -52,21 +52,21 @@ _lpulFlags_: [in, out] Masque de bits d’indicateurs qui contrôle la façon do
         
   - LOGON_NO_INBOUND : le fournisseur de transport n’a pas besoin de s’initialiser pour la réception des messages et n’accepte pas les messages entrants. Lepooler MAPI peut utiliser la méthode [IXPLogon::TransportNotify](ixplogon-transportnotify.md) ultérieurement pour indiquer au fournisseur de transport d’activer le traitement des messages entrants. 
         
-  - LOGON_NO_OUTBOUND : le fournisseur de transport n’a pas à s’initialiser pour l’envoi de messages, car lepooler MAPI n’en fournit aucun. Si une application cliente nécessite une connexion à un fournisseur distant pendant la composition d’un message afin de pouvoir effectuer des appels de méthode [IXPLogon::AddressTypes,](ixplogon-addresstypes.md) le fournisseur de transport doit établir la connexion. Lepooler MAPI peut utiliser **TransportNotify** pour signaler au fournisseur de transport que les opérations sortantes peuvent commencer. 
+  - LOGON_NO_OUTBOUND : le fournisseur de transport n’a pas besoin de s’initialiser pour envoyer des messages, car lepooler MAPI n’en fournit aucun. Si une application cliente nécessite une connexion à un fournisseur distant pendant la composition d’un message afin de pouvoir effectuer des appels de méthode [IXPLogon::AddressTypes,](ixplogon-addresstypes.md) le fournisseur de transport doit établir la connexion. Lepooler MAPI peut utiliser **TransportNotify** pour signaler au fournisseur de transport que les opérations sortantes peuvent commencer. 
       
-  - MAPI_UNICODE : la chaîne transmise pour le nom de profil est au format Unicode. Si l’indicateur UNICODE MAPI \_ n’est pas définie, la chaîne est au format ANSI.
+  - MAPI_UNICODE : la chaîne transmise pour le nom de profil est au format Unicode. Si l’indicateur UNICODE MAPI n’est pas définie, la chaîne \_ est au format ANSI.
       
     Les indicateurs suivants peuvent être définies sur la sortie par le fournisseur de transport :
       
   - LOGON_SP_IDLE : demande aupooler MAPI d’appeler fréquemment la méthode [IXPLogon::Idle](ixplogon-idle.md) du fournisseur de transport pour le traitement des périodes d’inactivité. 
       
-  - LOGON_SP_POLL : demande aupooler MAPI d’appeler fréquemment la méthode [IXPLogon::P élément](ixplogon-poll.md) sur l’objet d’enregistrement renvoyé pour vérifier la création de nouveaux messages. Si cet indicateur n’est pas définie, lepooler MAPI vérifie uniquement les nouveaux messages lorsque le fournisseur de transport utilise la méthode [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) pour informer lepooler qu’il y a de nouveaux messages à traiter. Un fournisseur de transport devient en réalité un fournisseur d’envoi uniquement en ne fixant pas cet indicateur et en notifiant lepooler MAPI de la réception du message. 
+  - LOGON_SP_POLL : demande aupooler MAPI d’appeler fréquemment la méthode [IXPLogon::P élément](ixplogon-poll.md) sur l’objet d’enregistrement renvoyé pour vérifier la création de nouveaux messages. Si cet indicateur n’est pas définie, lepooler MAPI vérifie uniquement les nouveaux messages lorsque le fournisseur de transport utilise la méthode [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) pour informer lepooler qu’il y a de nouveaux messages à traiter. Un fournisseur de transport devient en réalité un fournisseur d’envoi uniquement en ne mettant pas en place cet indicateur et en n’notifiant pas lepooler MAPI de la réception du message. 
       
-  - LOGON_SP_RESOLVE : demande que lepooler MAPI résolve en adresses complètes toutes les adresses de message pour les destinataires non pris en charge par ce fournisseur de transport. Par conséquent, le fournisseur de transport peut construire un chemin de réponse pour tous les destinataires.
+  - LOGON_SP_RESOLVE : demande aupooler MAPI de résoudre en adresses complètes toutes les adresses de message pour les destinataires non pris en charge par ce fournisseur de transport. Par conséquent, le fournisseur de transport peut construire un chemin de réponse pour tous les destinataires.
       
   - MAPI_UNICODE : les chaînes renvoyées dans la structure [MAPIERROR,](mapierror.md) le caser, sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
-_lppMAPIError_: [out] Pointeur vers un pointeur vers la structure **MAPIERROR** renvoyée, le cas cas, qui contient les informations de version, de composant et de contexte de l’erreur. Le  _paramètre lppMAPIError_ peut avoir la valeur NULL s’il n’existe aucune structure **MAPIERROR** à renvoyer. 
+_lppMAPIError_: [out] Pointeur vers un pointeur vers la structure **MAPIERROR** renvoyée, le cas cas, qui contient des informations de version, de composant et de contexte pour l’erreur. Le  _paramètre lppMAPIError_ peut avoir la valeur NULL s’il n’existe aucune structure **MAPIERROR** à renvoyer. 
     
 _lppXPLogon_: [out] Pointeur vers le pointeur vers l’objet d’logon du fournisseur de transport renvoyé.
     
@@ -82,23 +82,23 @@ MAPI_E_UNKNOWN_CPID : le fournisseur ne peut pas la prise en charge de la page d
     
 MAPI_E_UNKNOWN_LCID : le fournisseur ne peut pas la prise en charge des informations de paramètres régionaux du client.
     
-MAPI_E_USER_CANCEL : l’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+MAPI_E_USER_CANCEL : l’utilisateur a annulé l’opération,  généralement en cliquant sur le bouton Annuler dans une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
 Lepooler MAPI appelle la méthode **IXPProvider::TransportLogon** pour établir une session d’ouverture de session pour un utilisateur. 
   
-La plupart des fournisseurs de transport utilisent la méthode [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) fournie avec l’objet de support pointé par le paramètre  _lpMAPISup_ pour enregistrer et récupérer les informations d’identité utilisateur, les adresses serveur et les informations d’identification. À **l’aide d’OpenProfileSection,** un fournisseur de transport peut enregistrer des informations arbitraires et les associer à une ouverture de conférence à une ressource particulière. Par exemple, un fournisseur peut utiliser **OpenProfileSection** pour enregistrer le nom de compte et le mot de passe associés à une session particulière, ainsi que les noms de serveur ou autres informations nécessaires nécessaires pour accéder aux ressources de cette session. MAPI masque les informations associées à une ressource de l’accès externe. La section de profil rendue disponible via  _lpMAPISup_ est gérée par lepooler MAPI de sorte que les données liées à ce contexte utilisateur sont séparées des données pour d’autres contextes. 
+La plupart des fournisseurs de transport utilisent la méthode [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) fournie avec l’objet de support pointé par le paramètre  _lpMAPISup_ pour enregistrer et récupérer les informations d’identité utilisateur, les adresses de serveur et les informations d’identification. À **l’aide d’OpenProfileSection,** un fournisseur de transport peut enregistrer des informations arbitraires et les associer à une ouverture de conférence à une ressource particulière. Par exemple, un fournisseur peut utiliser **OpenProfileSection** pour enregistrer le nom de compte et le mot de passe associés à une session particulière, ainsi que les noms de serveur ou autres informations nécessaires nécessaires pour accéder aux ressources de cette session. MAPI masque les informations associées à une ressource de l’accès externe. La section de profil rendue disponible via  _lpMAPISup_ est gérée par lepooler MAPI de sorte que les données liées à ce contexte utilisateur sont séparées des données pour d’autres contextes. 
   
 Le fournisseur de transport doit appeler la méthode **IUnknown::AddRef** sur l’objet de support et conserver une copie du pointeur vers cet objet dans le cadre de l’objet d’accès fournisseur. 
   
 Le nom d’affichage du  _profil dans lpszProfileName_ est fourni afin que le fournisseur de transport puisse l’utiliser dans les messages d’erreur ou les boîtes de dialogue d’accès. Si le fournisseur conserve ce nom, il doit être copié dans le stockage alloué par le fournisseur. 
   
-Les fournisseurs de transport qui sont étroitement associés à d’autres fournisseurs de services peuvent avoir à faire des opérations supplémentaires lors de l’connexion afin d’établir les bonnes informations d’identification requises pour les opérations entre les fournisseurs complémentaires.
+Les fournisseurs de transport qui sont étroitement associés à d’autres fournisseurs de services peuvent avoir à faire des opérations supplémentaires lors de l’connexion pour établir les bonnes informations d’identification requises pour les opérations entre les fournisseurs complémentaires.
   
 En règle générale, les fournisseurs de transport sont ouverts lorsque l’utilisateur se connecte pour la première fois à un profil. Étant donné que la première ouverture de page à un profil intervient généralement avant l’ouverture de page d’une magasin de messages, lepooler MAPI appelle généralement **TransportLogon** avec les indicateurs LOGON_NO_INBOUND et LOGON_NO_OUTBOUND définies dans  _lpulFlags_. Plus tard, lorsque les magasins de messages appropriés sont disponibles dans la session de profil, lepooler MAPI appelle **TransportNotify** pour lancer les opérations entrantes et sortantes pour le fournisseur de transport. 
   
-Transmission de l LOGON_NO_CONNECT dans  _les lpulFlags_ signale le fonctionnement hors connexion du fournisseur de transport. Cet indicateur indique qu’aucune connexion externe ne doit être réalisée . Si le fournisseur de transport ne peut pas établir une session sans connexion externe, il doit renvoyer une valeur d’erreur pour l’ouverture de session. 
+Transmission de l LOGON_NO_CONNECT de transport dans  _les indicateurs lpulFlags_ signalant le fonctionnement hors connexion du fournisseur de transport. Cet indicateur indique qu’aucune connexion externe ne doit être réalisée . Si le fournisseur de transport ne peut pas établir une session sans connexion externe, il doit renvoyer une valeur d’erreur pour l’ouverture de session. 
   
 Un fournisseur de transport doit définir l’indicateur LOGON_SP_IDLE dans  _les lpulFlags_ au moment de l’initialisation s’il est conçu pour utiliser le temps d’inactivité du système. Cette durée est souvent utilisée pour gérer les opérations automatiques, telles que le téléchargement automatique des messages, le téléchargement de messages timed ou l’envoi de messages timed. Si cet indicateur est définie, lepooler MAPI appelle **Idle** lorsque la durée d’inactivité du système se produit pour lancer de telles opérations. Lepooler MAPI n’appelle pas **Inactif** à intervalles définis ; Au lieu de cela, il est appelé uniquement pendant les périodes d’inactivité réelles. Par conséquent, les fournisseurs ne doivent pas travailler sur une hypothèse sur la fréquence d’appel de leurs méthodes **Idle.** Les fournisseurs qui prendre en charge les opérations de temps d’inactivité doivent fournir une interface utilisateur de configuration pour celle-ci dans leur feuille de propriétés de fournisseur. 
   
@@ -106,7 +106,7 @@ Si l’logo du fournisseur de transport réussit, le fournisseur doit renvoyer d
   
 Pour la plupart des valeurs d’erreur **renvoyées par TransportLogon**, MAPI désactive les services de messagerie à laquelle le fournisseur appartient. MAPI n’appellera aucun fournisseur qui appartient à ce service pour le reste de la session MAPI. En revanche, lorsque **TransportLogon** renvoie la valeur d’erreur MAPI_E_FAILONEPROVIDER à partir de son logo, MAPI ne désactive pas le service de messagerie auquel appartient le fournisseur. **TransportLogon** doit renvoyer MAPI_E_FAILONEPROVIDER si elle rencontre une erreur qui ne justifie pas la désactivation du service pour le reste de la session. 
   
-Si un fournisseur renvoie MAPI_E_UNCONFIGURED à partir de sa logon, MAPI appelle la fonction d’entrée de service de messagerie du fournisseur, puis réessaye d’y revenir. MAPI passe MSG_SERVICE_CONFIGURE comme contexte, pour donner au service la possibilité de se configurer lui-même. Si le client a choisi d’autoriser une interface utilisateur sur la logon, le service peut présenter sa feuille de propriétés de configuration afin que l’utilisateur puisse entrer des informations de configuration. 
+Si un fournisseur renvoie MAPI_E_UNCONFIGURED à partir de sa logon, MAPI appelle la fonction d’entrée de service de messagerie du fournisseur, puis réessaye d’y revenir. MAPI transmet MSG_SERVICE_CONFIGURE en tant que contexte, pour donner au service la possibilité de se configurer lui-même. Si le client a choisi d’autoriser une interface utilisateur sur la logon, le service peut présenter sa feuille de propriétés de configuration afin que l’utilisateur puisse entrer des informations de configuration. 
   
 Si le fournisseur trouve que toutes les informations requises ne se trouvent pas dans le profil, il doit renvoyer MAPI_E_UNCONFIGURED afin que MAPI appelle la fonction de point d’entrée du service de messagerie du fournisseur. 
   

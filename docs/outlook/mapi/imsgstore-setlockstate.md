@@ -34,7 +34,7 @@ HRESULT SetLockState(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
@@ -62,7 +62,7 @@ S_OK
 
 La **méthode IMsgStore::SetLockState** verrouille ou déverrouille un message. **SetLockState peut** être appelé uniquement par lepooler MAPI lors de l’envoi du message. 
   
-En règle générale, lorsque lepooler MAPI appelle **SetLockState** pour verrouiller un message, il verrouille uniquement le message le plus ancien (autrement dit, le message suivant mis en file d’attente pour que lepooler MAPI envoie). Si le message le plus ancien de la file d’attente attend un fournisseur de transport temporairement indisponible et que le message suivant dans la file d’attente utilise un autre fournisseur de transport, lepooler MAPI peut commencer à traiter le message suivant. Il commence le traitement en verrouiller ce message à l’aide **de SetLockState**.
+En règle générale, lorsque lepooler MAPI appelle **SetLockState** pour verrouiller un message, il verrouille uniquement le message le plus ancien (autrement dit, le message suivant mis en file d’attente pour que lepooler MAPI envoie). Si le message le plus ancien de la file d’attente attend un fournisseur de transport temporairement indisponible et que le message suivant dans la file d’attente utilise un autre fournisseur de transport, lepooler MAPI peut commencer à traiter le message ultérieur. Il commence le traitement en verrouiller ce message à l’aide **de SetLockState**.
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 

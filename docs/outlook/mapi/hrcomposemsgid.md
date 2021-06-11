@@ -44,7 +44,7 @@ HrComposeMsgID(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _psession_
   
@@ -76,7 +76,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si le message ou un autre objet pour lequel l’identificateur d’entrée composé est créé réside dans une magasin de messages, la chaîne d’identificateur est créée à partir de l’identificateur d’entrée de l’objet et de la clé d’enregistrement de la boutique. Si l’objet ne se trouve pas dans une banque, c’est-à-dire, si le nombre d’caractères de la clé d’enregistrement de la banque transmise dans le paramètre  _cbStoreRecordKey_ est zéro, l’identificateur d’entrée de l’objet est simplement copié et converti en chaîne. 
+Si le message ou un autre objet pour lequel l’identificateur d’entrée composée est créé réside dans une magasin de messages, la chaîne d’identificateur est créée à partir de l’identificateur d’entrée de l’objet et de la clé d’enregistrement de la boutique. Si l’objet ne se trouve pas dans un magasin, c’est-à-dire, si le nombre d’bytes pour la clé d’enregistrement de la banque transmise dans le paramètre  _cbStoreRecordKey_ est zéro, l’identificateur d’entrée de l’objet est simplement copié et converti en chaîne. 
   
 Appeler la **fonction HrComposeMsgID** équivaut à appeler la fonction [HrComposeEID,](hrcomposeeid.md) puis la [fonction HrSzFromEntryID.](hrszfromentryid.md) 
   

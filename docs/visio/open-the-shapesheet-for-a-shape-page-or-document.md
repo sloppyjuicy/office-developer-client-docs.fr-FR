@@ -24,7 +24,7 @@ La fenêtre Feuille ShapeSheet est masquée par défaut dans Microsoft Visio. Po
 
 1. Cliquez sur **l’onglet** Fichier, puis sur **Options.**
     
-2. Dans la **boîte de dialogue Options Visio,** cliquez sur **Avancé,** puis, sous **Général,** sélectionnez Exécuter **en mode développeur.**
+2. Dans la **boîte Visio Options** de développement, cliquez sur Avancé, puis, sous **Général,** sélectionnez Exécuter **en mode développeur.** 
     
 ### <a name="to-view-the-shapesheet-for-a-shape"></a>Pour afficher la feuille ShapeSheet d’une forme
 

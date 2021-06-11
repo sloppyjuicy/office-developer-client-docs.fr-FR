@@ -24,7 +24,7 @@ Crée une session dans laquelle les fonctions définies par l’utilisateur peuv
 int OpenSession(WCHAR *Params)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _Paramètres_
   

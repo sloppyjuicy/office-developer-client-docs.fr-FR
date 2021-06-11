@@ -34,7 +34,7 @@ LPVOID lpvData
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -74,7 +74,7 @@ NOTIFY_SENTDEFERRED
     
  _lpvData_
   
-> [in] Pointeur vers les données associées applicables à une notification. Le  _paramètre lpvData_ pointe vers des données valides uniquement lorsque les indicateurs suivants sont définies (_lpvData_ est NULL lorsque  _ulFlags_ est définie sur les autres types de notifications) : 
+> [in] Pointeur vers les données associées applicables à une notification. Le  _paramètre lpvData_ pointe vers des données valides uniquement lorsque les indicateurs suivants sont définies (_lpvData_ est NULL lorsque  _ulFlags_ est définie sur les autres types de notification) : 
     
 |**_Paramètre ulFlags_**|**_Valeur lpvData_**|
 |:-----|:-----|
@@ -96,11 +96,11 @@ La **méthode IMAPISupport::SpoolerNotify** est implémentée pour les objets de
 
 Si vous avez modifié la configuration de votre fournisseur de transport, appelez **SpoolerNotify** et définissez  _ulFlags_ sur NOTIFY_CONFIG_CHANGED. **SpoolerNotify répond** en appelant la méthode [IXPLogon::AddressTypes](ixplogon-addresstypes.md) pour demander une modification des types d’adresses pris en charge. 
   
-Si vous avez besoin d’une section critique pour garantir un traitement ininterrompu, appelez **SpoolerNotify** avec  _ulFlags_ définie sur NOTIFY_CRITSEC. La définition de cet indicateur informe lepooler MAPI qu’il ne doit pas appeler les méthodes [IXPLogon::Idle](ixplogon-idle.md) et [IXPLogon::P élément.](ixplogon-poll.md) Bien qu’une section critique soit ouverte, MAPI_E_BUSY chaque fois que la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) est appelée. Lorsque vous avez terminé avec la section critique, faites un autre appel à **SpoolerNotify** avec  _ulFlags_ définie sur NOTIFY_NONCRIT. 
+Si vous avez besoin d’une section critique pour garantir un traitement ininterrompu, appelez **SpoolerNotify** avec  _ulFlags_ définie sur NOTIFY_CRITSEC. La définition de cet indicateur informe lepooler MAPI qu’il ne doit pas appeler les méthodes [IXPLogon::Idle](ixplogon-idle.md) et [IXPLogon::P élément.](ixplogon-poll.md) Bien qu’une section critique soit ouverte, MAPI_E_BUSY chaque fois que la méthode [IMAPIStatus::ValidateState](imapistatus-validatestate.md) est appelée. Lorsque vous avez terminé avec la section critique, appelez de nouveau **SpoolerNotify** avec  _ulFlags_ définie sur NOTIFY_NONCRIT. 
   
 Par exemple, si votre fournisseur de transport distant est en train de télécharger des messages, vous devrez peut-être autoriser un utilisateur à entrer un numéro de téléphone pour établir la connexion à distance. Avant de passer en boucle dans la procédure de la boîte de dialogue, vous devez déclarer une section critique. Lorsque l’utilisateur ferme la boîte de dialogue et termine la procédure de la boîte de dialogue, vous devez libérer la section critique.
   
-Lorsque vous définissez  _ulFlags_ sur NOTIFY_CRITICAL_ERROR, lepooler MAPI ne fait aucun autre appel au fournisseur, sauf pour le libérer. Si vous appelez **SpoolerNotify** avec NOTIFY_CRITICAL_ERROR définie à partir des méthodes [IXPLogon::StartMessage](ixplogon-startmessage.md) ou [IXPLogon::SubmitMessage,](ixplogon-submitmessage.md) renvoyez avec une valeur d’erreur appropriée à partir de l’appel **StartMessage** ou ** SubmitMessage ** immédiatement après l’appel **SpoolerNotify.** 
+Lorsque vous définissez  _ulFlags_ sur NOTIFY_CRITICAL_ERROR, lepooler MAPI n’effectue aucun autre appel au fournisseur, sauf pour le libérer. Si vous appelez **SpoolerNotify** avec NOTIFY_CRITICAL_ERROR définie à partir des méthodes [IXPLogon::StartMessage](ixplogon-startmessage.md) ou [IXPLogon::SubmitMessage,](ixplogon-submitmessage.md) renvoyez avec une valeur d’erreur appropriée à partir de l’appel **StartMessage** ou ** SubmitMessage ** immédiatement après l’appel **SpoolerNotify.** 
   
 Si votre fournisseur de transport a récupéré d’une condition qui a précédemment provoqué son échec, appelez **SpoolerNotify** avec  _ulFlags_ définie sur NOTIFY_READYTOSEND. Cet indicateur indique que le fournisseur est à nouveau prêt à gérer les messages. 
   

@@ -25,7 +25,7 @@ ms.locfileid: "33417363"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Donne aux applications clientes l’accès aux propriétés qui sont spécifiques à la définition de formulaire. En conservant les informations de formulaire dans un objet distinct, le fournisseur de bibliothèque de formulaires peut décrire un formulaire à un client sans l’activer.
+Permet aux applications clientes d’accéder aux propriétés qui sont spécifiques à la définition de formulaire. En conservant les informations de formulaire dans un objet distinct, le fournisseur de bibliothèque de formulaires peut décrire un formulaire à un client sans l’activer.
   
 |||
 |:-----|:-----|

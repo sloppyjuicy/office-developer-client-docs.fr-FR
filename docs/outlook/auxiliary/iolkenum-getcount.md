@@ -29,7 +29,7 @@ HRESULT IOlkEnum::GetCount (
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _qu’est-ce que c'_
   

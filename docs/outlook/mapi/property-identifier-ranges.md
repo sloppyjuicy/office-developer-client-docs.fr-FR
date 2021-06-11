@@ -46,7 +46,7 @@ La plage entre 3 000 et 3FFF est réservée aux propriétés qui ne sont pas li�
 |:-----|:-----|
 |3000 - 33FF  <br/> |Propriétés courantes qui apparaissent sur plusieurs objets, telles que **PR_DISPLAY_NAME** et **PR_ENTRYID**.  <br/> |
 |3400 - 35FF  <br/> |Propriétés de la boutique de messages  <br/> |
-|3600 - 36FF  <br/> |Propriétés du conteneur de dossiers et de carnets d’adresses  <br/> |
+|3600 - 36FF  <br/> |Propriétés de conteneur de dossiers et de carnets d’adresses  <br/> |
 |3700 - 38FF  <br/> |Propriétés de pièce jointe  <br/> |
 |3900 - 39FF  <br/> |Propriétés du carnet d’adresses  <br/> |
 |3A00 - 3BFF  <br/> |Propriétés utilisateur de messagerie  <br/> |

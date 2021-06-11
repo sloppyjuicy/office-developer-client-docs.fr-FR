@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251391
 localization_priority: Normal
 ms.assetid: 434d7ceb-1050-c667-fb3d-b6634440c18e
-description: Renvoie TRUE (1) si toutes les expressions logiques fournies sont TRUE. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
+description: Renvoie TRUE (1) si toutes les expressions logiques fournies sont true. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
 ms.openlocfilehash: 74e8301718e69a2ab61f6bf9992d0d6855bbc6f1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33422011"
 ---
 # <a name="and-function"></a>Fonction AND
 
-Renvoie TRUE (1) si toutes les expressions logiques fournies sont TRUE. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
+Renvoie TRUE (1) si toutes les expressions logiques fournies sont true. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
   
 ## <a name="syntax"></a>Syntaxe
 

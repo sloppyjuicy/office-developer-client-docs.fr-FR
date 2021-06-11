@@ -23,7 +23,7 @@ Vous pouvez utiliser le bloc de données **ModifierEnregistrement** pour modifie
 > [!NOTE]
 > Le bloc de données **ModifierEnregistrement** est disponible uniquement dans les macros de données. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 Le bloc de données **ModifierEnregistrement** utilise les arguments suivants. 
   
@@ -33,7 +33,7 @@ Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.
    
 ## <a name="remarks"></a>Remarques
 
-Après **l’instruction EditRecord,** vous pouvez insérer un bloc de commandes qui s’exécute avant que les modifications apportées à l’enregistrement ne soient enregistrées. Les actions suivantes sont disponibles dans un bloc **de données EditRecord.** 
+Après **l’instruction EditRecord,** vous pouvez insérer un bloc de commandes qui s’exécute avant que les modifications apportées à l’enregistrement soient enregistrées. Les actions suivantes sont disponibles dans un bloc **de données EditRecord.** 
   
 ||
 |:-----|

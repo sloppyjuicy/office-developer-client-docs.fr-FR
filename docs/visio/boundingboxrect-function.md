@@ -44,9 +44,9 @@ BOUNDINGBOXRECT(** *Index* ** )
 |**Élément**|**Valeur**|
 |:-----|:-----|
 |Bord gauche  <br/> |0  <br/> |
-|Bord droit  <br/> |1   <br/> |
-|Bord supérieur  <br/> |2   <br/> |
-|Bord inférieur  <br/> |3   <br/> |
+|Bord droit  <br/> |1  <br/> |
+|Bord supérieur  <br/> |2  <br/> |
+|Bord inférieur  <br/> |3  <br/> |
    
 Si la forme a un parent, la valeur de retour se trouve dans le système de coordonnées de ce parent.
   

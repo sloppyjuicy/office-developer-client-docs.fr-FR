@@ -33,11 +33,11 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
-> [in] Numéro de connexion associé à un enregistrement de notification actif. Un appel précédent à **Advise** doit avoir renvoyé la valeur  _de ulConnection_.
+> [in] Numéro de connexion associé à un enregistrement de notification actif. Un appel précédent au **conseil** doit avoir renvoyé la valeur  _de ulConnection_.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

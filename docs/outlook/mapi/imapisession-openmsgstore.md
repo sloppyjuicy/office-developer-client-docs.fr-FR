@@ -36,7 +36,7 @@ HRESULT OpenMsgStore(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ulUIParam_
   
@@ -62,11 +62,11 @@ _ulFlags_
       
   - MAPI_DEFERRED_ERRORS : permet à **OpenMsgStore** de renvoyer correctement, éventuellement avant que la boutique de messages ne soit entièrement disponible pour le client appelant. Si la boutique de messages n’est pas disponible, un appel d’objet ultérieur peut occasioner une erreur. 
       
-  - MDB NO_DIALOG : empêche l’affichage des boîtes de \_ dialogue d' logo. Si cet indicateur est définie et **qu’OpenMsgStore** ne dispose pas d’informations de configuration suffisantes pour ouvrir la magasin de messages sans l’aide de l’utilisateur, il renvoie MAPI_E_LOGON_FAILED. Si cet indicateur n’est pas définie, le fournisseur de la boutique de messages peut inviter l’utilisateur à corriger un nom ou un mot de passe ou à effectuer d’autres actions nécessaires pour établir une connexion à la magasin de messages. 
+  - MDB NO_DIALOG : empêche l’affichage des boîtes de dialogue \_ d’affichage. Si cet indicateur est définie et **qu’OpenMsgStore** ne dispose pas d’informations de configuration suffisantes pour ouvrir la boutique de messages sans l’aide de l’utilisateur, il renvoie MAPI_E_LOGON_FAILED. Si cet indicateur n’est pas définie, le fournisseur de la boutique de messages peut invite l’utilisateur à corriger un nom ou un mot de passe ou à effectuer d’autres actions nécessaires pour établir une connexion à la magasin de messages. 
       
-  - MDB \_ NO_MAIL : la banque de messages ne doit pas être utilisée pour envoyer ou recevoir des messages. Lorsque cet indicateur est définie, MAPI n’informe pas lepooler MAPI que cette magasin de messages est en cours d’ouverture.
+  - MDB NO_MAIL : la banque de messages ne doit pas être utilisée pour \_ envoyer ou recevoir des messages. Lorsque cet indicateur est définie, MAPI n’informe pas lepooler MAPI que cette boutique de messages est ouverte.
       
-  - MDB ONLINE : en mode Exchange mis en cache, un client ou un fournisseur de services peut appeler cette méthode avec MDB_ONLINE pour remplacer la connexion à la banque de messages locale et ouvrir la banque sur le serveur \_ distant. Vous ne pouvez pas ouvrir une boutique Exchange en mode mis en cache et en mode non mis en cache en même temps dans la même session MAPI. Si vous avez déjà ouvert la banque de messages mise en cache, vous devez fermer la banque avant de l’ouvrir avec cet indicateur, ou ouvrir une nouvelle session MAPI où vous pouvez ouvrir la banque d'informations Exchange sur le serveur distant à l’aide de cet indicateur.
+  - MDB ONLINE : en mode Exchange mis en cache, un client ou un fournisseur de services peut appeler cette méthode avec MDB_ONLINE pour remplacer la connexion à la banque de messages locale et ouvrir la banque sur le serveur \_ distant. Vous ne pouvez pas ouvrir une Exchange en mode mis en cache et en mode non mis en cache en même temps dans la même session MAPI. Si vous avez déjà ouvert la banque de messages mise en cache, vous devez fermer la banque avant de l’ouvrir avec cet indicateur, ou ouvrir une nouvelle session MAPI où vous pouvez ouvrir la banque d'informations Exchange sur le serveur distant à l’aide de cet indicateur.
       
   - MDB_TEMPORARY : indique à MAPI que la magasin de messages n’est pas permanente et qu’elle ne doit pas être ajoutée à la table de la boutique de messages. Cet indicateur est utilisé pour se connecter à la magasin de messages afin que les informations soient récupérées par programme à partir de la section de profil. 
       
@@ -74,7 +74,7 @@ _ulFlags_
     
 _lppMDB_
   
-> [out] Pointeur vers un pointeur de la magasin de messages.
+> [out] Pointeur vers un pointeur de la boutique de messages.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -112,7 +112,7 @@ Le niveau d’autorisation par défaut pour les magasins de messages est en lect
   
 Si vous appelez **OpenMsgStore** pour ouvrir une magasin de messages avec une autorisation en lecture seule, les données suivantes se produisent : 
   
-- La propriété **STORE_SUPPORT_MASK \_** [(PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)du magasin n’aura pas ses bits de MODIFY_OK store et STORE CREATE_OK \_ \_ bits. 
+- La propriété **STORE_SUPPORT_MASK \_** [(PidTagStoreSupportMask)](pidtagstoresupportmask-canonical-property.md)du magasin n’aura pas ses bits d’MODIFY_OK store et store CREATE_OK \_ \_ bits. 
     
 - Les appels pour ouvrir l’un des messages ou dossiers de la boutique de messages à l’aide [d’IMAPISession::OpenEntry](imapisession-openentry.md) avec l’indicateur MAPI_MODIFY échouent. 
     
@@ -134,7 +134,7 @@ Si vous appelez **OpenMsgStore** pour ouvrir une magasin de messages avec une au
     
   - [IMAPIProp::DeleteProps](imapiprop-deleteprops.md)
   
-- Les appels aux méthodes suivantes échouent si la destination du message copié est en lecture seule, que la destination soit identique à la magasin de messages source ou qu’elle soit une autre magasin en lecture seule.
+- Les appels aux méthodes suivantes échouent si la destination du message copié est en lecture seule, que la destination soit la même que la boutique de messages source ou s’il s’agit d’un autre magasin en lecture seule.
     
   - [IMAPIFolder::CopyMessages](imapifolder-copymessages.md)
     
@@ -148,7 +148,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI utilise la **méthode IMAPISession::OpenMsgStore** pour ouvrir une magasin de messages.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI utilise la méthode **IMAPISession::OpenMsgStore** pour ouvrir une magasin de messages.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

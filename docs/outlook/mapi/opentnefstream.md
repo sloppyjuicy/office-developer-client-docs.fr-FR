@@ -43,7 +43,7 @@ HRESULT OpenTnefStream(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _lpvSupport_
   
@@ -67,7 +67,7 @@ TNEF_BEST_DATA
     
 TNEF_COMPATIBILITY 
   
-> Fournit une compatibilité ascendante avec les anciennes applications clientes. Les flux TNEF codés avec cet indicateur map fourniront toutes les propriétés possibles dans leur attribut de bas niveau correspondant. Ce mode entraîne également la valeur par défaut de certaines propriétés qui sont requises par les clients de bas niveau. 
+> Fournit une compatibilité ascendante avec les anciennes applications clientes. Les flux TNEF codés avec cet indicateur maient toutes les propriétés possibles dans leur attribut de bas niveau correspondant. Ce mode entraîne également la mise en valeur par défaut de certaines propriétés qui sont requises par les clients de bas niveau. 
     
   > [!CAUTION]
   > Cet indicateur est obsolète et ne doit pas être utilisé. 

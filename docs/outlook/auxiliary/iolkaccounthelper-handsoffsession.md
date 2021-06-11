@@ -16,7 +16,7 @@ ms.locfileid: "33418630"
 ---
 # <a name="iolkaccounthelperhandsoffsession"></a>IOlkAccountHelper::HandsOffSession
 
-Libère l’objet de session MAPI renvoyé par - [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).
+Libère l’objet de session MAPI qui a été renvoyé par - [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).
   
 ## <a name="quick-info"></a>Informations rapides
 

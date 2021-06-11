@@ -38,7 +38,7 @@ Les propriétés suivantes définissent la colonne requise dans la table de serv
    
  **PR_DISPLAY_NAME** est le nom affichable pour le service de message et la colonne de clé de tri par défaut. 
   
- **PR_INSTANCE_KEY** sert de colonne d’index pour la table, identifiant de manière unique une ligne. 
+ **PR_INSTANCE_KEY** sert de colonne d’index pour le tableau, identifiant de manière unique une ligne. 
   
  **PR_RESOURCE_FLAGS** décrit les fonctionnalités du service de message. 
   
@@ -46,7 +46,7 @@ Les propriétés suivantes définissent la colonne requise dans la table de serv
   
  **PR_SERVICE_ENTRY_NAME** est le nom de la fonction de point d’entrée du service de message conforme au prototype [MSGSERVICEENTRY.](msgserviceentry.md) 
   
- **PR_SERVICE_NAME** est une entrée obligatoire dans la section **[Services]** de MAPISVC.INF. La valeur de cette propriété ne sera jamais modifiée ni localisée. **PR_SERVICE_NAME** permet d’identifier par programme le service de message. 
+ **PR_SERVICE_NAME** est une entrée obligatoire dans la section **[Services]** dans MAPISVC.INF. La valeur de cette propriété ne sera jamais modifiée ou localisée. **PR_SERVICE_NAME** permet d’identifier par programme le service de message. 
   
  **PR_SERVICE_SUPPORT_FILES** liste des fichiers qui doivent être installés avec le service de message. 
   

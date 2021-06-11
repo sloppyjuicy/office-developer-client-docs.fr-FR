@@ -34,11 +34,11 @@ HRESULT Done(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  **hThreadDoneEvent**
   
-> Événement transmis pour permettre à Microsoft Outlook de fermer le handle. Elle peut être NULL.
+> Événement transmis pour permettre à Microsoft Outlook fermer le handle. Elle peut être NULL.
     
  **hResult**
   

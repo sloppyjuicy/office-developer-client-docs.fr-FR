@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
@@ -80,7 +80,7 @@ Les applications clientes et les fournisseurs de services appellent la méthode 
   
 MAPI transmet cet appel au fournisseur de carnet d’adresses responsable des identificateurs d’entrée, en déterminant le fournisseur approprié en faisant correspondre la structure [MAPIUID](mapiuid.md) dans les identificateurs d’entrée avec la structure **MAPIUID** inscrite par le fournisseur. 
   
-Si les deux identificateurs d’entrée font référence au même objet, **CompareEntryIDs** définit le contenu du paramètre  _lpulResult_ sur TRUE ; s’ils font référence à différents objets, **CompareEntryIDs** définit le contenu sur FALSE. Dans les deux cas, **CompareEntryIDs** renvoie S_OK. Si **CompareEntryIDs** renvoie une erreur, qui peut se produire si aucun fournisseur de carnet d’adresses n’a inscrit une structure **MAPIUID** qui correspond à celle des identificateurs d’entrée, les clients et les fournisseurs ne doivent pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, ils doivent prendre l’approche la plus prudent de l’action en cours. 
+Si les deux identificateurs d’entrée font référence au même objet, **CompareEntryIDs** définit le contenu du paramètre  _lpulResult_ sur TRUE ; S’ils font référence à différents objets, **CompareEntryIDs** définit le contenu sur FALSE. Dans les deux cas, **CompareEntryIDs** renvoie S_OK. Si **CompareEntryIDs** renvoie une erreur, qui peut se produire si aucun fournisseur de carnet d’adresses n’a inscrit une structure **MAPIUID** qui correspond à celle des identificateurs d’entrée, les clients et les fournisseurs ne doivent pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, ils doivent prendre l’approche la plus prudent de l’action en cours. 
   
 ## <a name="see-also"></a>Voir aussi
 

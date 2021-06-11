@@ -39,7 +39,7 @@ SCODE ScInitMapiUtil(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -53,7 +53,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les **fonctions ScInitMapiUtil** et [DeinitMapiUtil](deinitmapiutil.md) collaborent pour appeler et libérer des fonctions utilitaires sélectionnées, par opposition à [MAPIInitialize](mapiinitialize.md), qui appelle core ainsi que des fonctions utilitaires. Lorsque **ScInitMapiUtil** appelle des fonctions utilitaires, il initialise également la mémoire nécessaire. 
+Les fonctions **ScInitMapiUtil** et [DeinitMapiUtil](deinitmapiutil.md) collaborent pour appeler et libérer des fonctions utilitaires de sélection, par opposition à [MAPIInitialize](mapiinitialize.md), qui appelle core ainsi que des fonctions utilitaires. Lorsque **ScInitMapiUtil** appelle des fonctions utilitaires, il initialise également la mémoire nécessaire. 
   
 Lorsque l’utilisation des fonctions appelées par **ScInitMapiUtil** est terminée, **DeinitMapiUtil** doit être explicitement appelée pour les libérer. En revanche, **MAPIInitialize** appelle implicitement **DeinitMapiUtil**. 
   

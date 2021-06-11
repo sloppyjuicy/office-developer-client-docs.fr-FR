@@ -31,14 +31,14 @@ Le texte du message n’est pas wrapped ligne sauf si une ligne dépasse 140 car
     
      _Content-Transfer-Encoding: quoted-printable_
     
-Pour les messages MIME entrants, si le premier élément de contenu de message possède _content-type: text/ \* (c’est-à-dire,_ n’importe quel type de texte) et que son jeu de caractères est reconnu, il est mappé sur **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Un premier élément de contenu de message qui ne satisfait pas à ce critère devient une pièce jointe. Les parties suivantes deviennent également des pièces jointes.
+Pour les messages MIME entrants, si le premier élément de contenu de message possède _content-type: text/ \*_ (autrement dit, n’importe quel type de texte) et que son jeu de caractères est reconnu, il est mappé à **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)). Un premier élément de contenu de message qui ne satisfait pas à ce critère devient une pièce jointe. Les parties suivantes deviennent également des pièces jointes.
   
-En mode uuencode, le texte du message dans les messages sortants est entouré de 78 colonnes, comme pour MS Mail 3.x. Le type de contenu est « text/plain ». Pour conserver les interruptions de paragraphe du message d’origine dans ces circonstances, respectez les conventions suivantes dans le texte wrapped. Il existe trois raisons possibles pour mettre fin à une ligne de texte, chacune avec sa propre séquence de caractères :
+En mode uuencode, le texte du message dans les messages sortants est entouré de 78 colonnes, comme pour MS Mail 3.x. Le type de contenu est « text/plain ». Pour conserver les interruptions de paragraphe du message d’origine dans ces circonstances, respectez les conventions suivantes dans le texte wrapped. Il existe trois raisons possibles de mettre fin à une ligne de texte, chacune avec sa propre séquence de caractères :
   
 - Line-break. Le texte d’origine contenait une nouvelle ligne entrée par l’utilisateur (marque de paragraphe). Dans le transport, cela est mapcé sur une nouvelle ligne sans aucun vide précédent. Si l’utilisateur entre une nouvelle ligne précédée de vides, ces derniers doivent être retirés.
     
-- Line-nobreak. Le texte d’origine contenait un mot trop long pour tenir sur une seule ligne du message. Dans le transport, cela est mapcé sur une nouvelle ligne précédée de deux espaces vides.
+- Line-nobreak. Le texte d’origine contenait un mot trop long pour tenir sur une seule ligne du message. Dans le transport, cette carte est une nouvelle ligne précédée de deux espaces vides.
     
-- Wrap- line-wrap. Le texte d’origine ne contenait aucune nouvelle ligne, le texte est trop long pour tenir sur une seule ligne du message, mais il peut être rompu entre deux mots. Dans le transport, cela est mapcé sur une nouvelle ligne précédée d’un seul vide.
+- Wrap- line-wrap. Le texte d’origine ne contenait pas de nouvelle ligne, le texte est trop long pour tenir sur une seule ligne du message, mais il peut être rompu entre deux mots. Dans le transport, cela est mapcé sur une nouvelle ligne précédée d’un seul vide.
     
 

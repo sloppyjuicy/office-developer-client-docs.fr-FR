@@ -38,7 +38,7 @@ Contient le nom complet du destinataire qui doit obtenir des rapports pour ce me
 
 Ces propriétés sont des exemples de propriétés d’adresse pour le destinataire que l’expéditeur a délégué pour recevoir tous les rapports générés pour ce message.
   
-Une application cliente qui doit router les rapports vers un autre utilisateur doit définir ces propriétés au moment de l’envoi du message. S’ils ne sont pas définies, les rapports sont envoyés à l’expéditeur du message.
+Une application cliente qui doit router des rapports vers un autre utilisateur doit définir ces propriétés au moment de l’envoi du message. S’ils ne sont pas définies, les rapports sont envoyés à l’expéditeur du message.
   
 ## <a name="related-resources"></a>Ressources connexes
 

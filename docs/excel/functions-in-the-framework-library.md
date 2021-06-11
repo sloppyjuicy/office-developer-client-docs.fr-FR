@@ -65,7 +65,7 @@ Les fonctions suivantes sont incluses dans la bibliothèque Framework :
    
 L’utilisation de ces fonctions réduit le temps nécessaire à l’écriture d’une DLL ou d’une XLL. Le démarrage du développement à partir de l’exemple d’application GENERIC raccourcit également le temps de développement. Utilisez GENERIC. C en tant que modèle pour vous aider à configurer l’infrastructure d’une XLL, puis à remplacer le code existant par le vôtre.
   
-Les fonctions **XLOPER** /  **XLOPER12** temporaires créent des valeurs  /  **XLOPER XLOPER12** à l’aide de la mémoire d’un tas local géré par la bibliothèque Framework. Les **valeurs XLOPER** XLOPER12 restent valides jusqu’à ce que vous appeliez la fonction /   **FreeAllTempMemory** ou l’une des fonctions **Excel** **ou Excel12f.** (Les **fonctions Excel** et **Excel12f** libèrent toute la mémoire temporaire avant de revenir.) 
+Les fonctions **XLOPER** /  **XLOPER12** temporaires créent des valeurs  /  **XLOPER XLOPER12** à l’aide de la mémoire d’un tas local géré par la bibliothèque Framework. Les **valeurs XLOPER** XLOPER12 restent valides jusqu’à ce que vous appeliez la fonction /   **FreeAllTempMemory** ou l’une des fonctions **Excel** ou **Excel12f.** (Les **fonctions Excel** **excel12f** libèrent toute la mémoire temporaire avant de revenir.) 
   
 Pour utiliser les fonctions de la bibliothèque Framework, vous devez inclure FRAMEWRK. Fichier H dans votre code C et ajoutez frameWRK. C ou FRMWRK32. Fichiers LIB dans votre projet de code.
   

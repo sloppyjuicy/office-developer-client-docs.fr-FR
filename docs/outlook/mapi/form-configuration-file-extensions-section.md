@@ -39,7 +39,7 @@ Chaque section de propriété d’extension définit un attribut d’extension �
   
  **Valeur**  =   _string_  |   _integer_
   
-Voici un exemple de section **[Extensions]** et une section connexe suivante. 
+Un exemple d’une section **[Extensions]** et d’une section connexe suivante est illustré ci-après. 
   
 ```
 [Extensions]

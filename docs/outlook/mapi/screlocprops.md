@@ -43,7 +43,7 @@ SCODE ScRelocProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cprop_
   
@@ -83,9 +83,9 @@ La **fonction ScRelocProps** fonctionne sur l’hypothèse que le tableau de val
   
 1. Avant d’écrire le tableau et les données sur un disque, appelez **ScRelocProps** sur le tableau avec le paramètre  _pvBaseNew_ pointant vers une valeur standard zéro, par exemple. 
     
-2. Après avoir lu le tableau et les données à partir d’un disque, appelez **ScRelocProps** sur le tableau avec le paramètre  _pvBaseOld_ égal à la valeur standard utilisée à l’étape 1. Le tableau et les données doivent être lus dans une mémoire tampon créée avec une allocation unique. 
+2. Après avoir lu le tableau et les données à partir d’un disque, appelez **ScRelocProps** sur le tableau avec le paramètre  _pvBaseOld_ égal à la même valeur standard utilisée à l’étape 1. Le tableau et les données doivent être lus dans une mémoire tampon créée avec une allocation unique. 
     
-3. Le  _paramètre pcb_ de **ScRelocProps est** facultatif. 
+3. Le  _paramètre pcb_ de **ScRelocProps** est facultatif. 
     
 ## <a name="see-also"></a>Voir aussi
 

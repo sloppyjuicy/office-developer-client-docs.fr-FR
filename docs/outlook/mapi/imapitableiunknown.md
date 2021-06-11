@@ -40,10 +40,10 @@ Fournit une vue en lecture seule d’un tableau. **IMAPITable est utilisé** par
 
 |||
 |:-----|:-----|
-|[GetLastError](imapitable-getlasterror.md) <br/> |Renvoie une [structure MAPIERROR](mapierror.md) contenant des informations sur l’erreur précédente sur le tableau.  <br/> |
+|[GetLastError](imapitable-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) contenant des informations sur l’erreur précédente sur le tableau.  <br/> |
 |[Conseiller](imapitable-advise.md) <br/> |S’inscrit pour recevoir une notification des événements spécifiés affectant la table.  <br/> |
 |[Unadvise](imapitable-unadvise.md) <br/> |Annule l’envoi de notifications précédemment définies avec un appel à la **méthode IMAPITable::Advise.**  <br/> |
-|[GetStatus](imapitable-getstatus.md) <br/> |Renvoie l’état et le type du tableau.  <br/> |
+|[GetStatus](imapitable-getstatus.md) <br/> |Renvoie l’état et le type de la table.  <br/> |
 |[SetColumns](imapitable-setcolumns.md) <br/> |Définit les propriétés et l’ordre particuliers des propriétés à voir apparaître sous la valeur de colonnes dans le tableau.  <br/> |
 |[QueryColumns](imapitable-querycolumns.md) <br/> |Renvoie une liste de colonnes pour le tableau.  <br/> |
 |[GetRowCount](imapitable-getrowcount.md) <br/> |Renvoie le nombre total de lignes dans le tableau.  <br/> |
@@ -59,7 +59,7 @@ Fournit une vue en lecture seule d’un tableau. **IMAPITable est utilisé** par
 |[QueryRows](imapitable-queryrows.md) <br/> |Renvoie une ou plusieurs lignes d’un tableau, en commençant à la position actuelle du curseur.  <br/> |
 |[Abandonner](imapitable-abort.md) <br/> |Arrête toutes les opérations asynchrones en cours pour la table.  <br/> |
 |[ExpandRow](imapitable-expandrow.md) <br/> |Développe une catégorie de tableaux réduire, en ajoutant les lignes de feuille appartenant à la catégorie à l’affichage tableau.  <br/> |
-|[CollapseRow](imapitable-collapserow.md) <br/> |Cette propriété permet de réduire une catégorie de tableaux développés, en supprimant les lignes de feuille appartenant à la catégorie de l’affichage Tableau.  <br/> |
+|[CollapseRow](imapitable-collapserow.md) <br/> |Cette propriété permet de réduire une catégorie de tableau étendu, en supprimant les lignes de feuille appartenant à la catégorie de l’affichage Tableau.  <br/> |
 |[WaitForCompletion](imapitable-waitforcompletion.md) <br/> |Suspend le traitement jusqu’à ce qu’une ou plusieurs opérations asynchrones en cours sur la table soient terminées.  <br/> |
 |[GetCollapseState](imapitable-getcollapsestate.md) <br/> |Renvoie les données nécessaires pour reconstruire l’état actuel, réduire ou développé, d’une table classée.  <br/> |
 |[SetCollapseState](imapitable-setcollapsestate.md) <br/> |Reconstruit l’état étendu ou réduire actuel d’une table classée à l’aide de données enregistrées par un appel précédent à la méthode **IMAPITable::GetCollapseState.**  <br/> |

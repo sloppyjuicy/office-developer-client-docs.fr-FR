@@ -110,11 +110,11 @@ DTCT_MVLISTBOX
     
 DTCT_MVDDLBX 
   
-> Contrôle de listes listes de listes listes à valeurs multiples.
+> Contrôle de listes de listes listes à valeurs multiples.
     
 **ulCtlFlags**
   
-> Masque de bits d’indicateurs qui décrit les fonctionnalités du contrôle et correspond à la propriété **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)). Ces indicateurs peuvent être définies uniquement pour les cases à cocher, les zones de liste déroulante, les zones de liste et les contrôles d’édition. Les valeurs possibles sont les suivantes :
+> Masque de bits d’indicateurs qui décrit les fonctionnalités du contrôle et correspond à la propriété **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)). Ces indicateurs peuvent être définies pour les cases à cocher, les zones de liste déroulante, les zones de liste et les contrôles de modification uniquement. Les valeurs possibles sont les suivantes :
     
 DT_ACCEPT_DBCS 
   
@@ -174,13 +174,13 @@ La structure **DTCTL** décrit un contrôle de n’importe quel type. La plupart
   
 Le **membre ctl** est une union de structures liées à un type particulier de contrôle. Si la structure **DTCTL** décrit un contrôle d’édition, par exemple, le membre **ctl** pointe vers une structure [DTBLEDIT.](dtbledit.md) Cette structure correspond à la propriété PR_CONTROL_STRUCTURE **du** contrôle. L’union possède comme premier membre une variable de type LPVOID pour permettre l’initialisation du temps de compilation de la structure **DTCTL.** 
   
-Bien que la [fonction BuildDisplayTable](builddisplaytable.md) utilise la structure **DTCTL** pour créer le tableau d’affichage à partir des ressources de contrôle, la structure **DTCTL** n’apparaît jamais dans le tableau d’affichage lui-même. Cette structure fournit simplement des informations **à BuildDisplayTable**.
+Bien que la [fonction BuildDisplayTable](builddisplaytable.md) utilise la structure **DTCTL** pour créer la table d’affichage à partir des ressources de contrôle, la structure **DTCTL** n’apparaît jamais dans le tableau d’affichage lui-même. Cette structure fournit simplement des informations **à BuildDisplayTable**.
   
 Dans le **membre ulCtlFlags,** quatre indicateurs DT_ACCEPT_DBCS, DT_EDITABLE, DT_MULTILINE_and DT_PASSWORD_EDIT les contrôles d’édition uniquement. Deux autres DT_REQUIRED et DT_SET_IMMEDIATE un contrôle modifiable. 
   
 Les contrôles disponibles pour une boîte de dialogue sont étiquette, zone de texte, zone de texte sensible à l’encre, liste, liste déroulante, zone de liste déroulante, case à cocher, zone de groupe, bouton, case d’radio et page à onglets.
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

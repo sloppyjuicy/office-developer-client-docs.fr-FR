@@ -23,7 +23,7 @@ ms.locfileid: "33420296"
   
 Cette section contient des exemples de code de trois fournisseurs de services MAPI :
   
-- [Téléchargement des exemples MAPI Outlook](downloading-the-outlook-mapi-samples.md)
+- [Téléchargement des exemples Outlook MAPI](downloading-the-outlook-mapi-samples.md)
     
     Cette rubrique décrit comment télécharger les exemples.
     

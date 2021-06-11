@@ -39,7 +39,7 @@ LPMAPIPROP lpMAPIPropSibling
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbTemplateID_
   
@@ -59,7 +59,7 @@ FILL_ENTRY
     
  _lpMAPIPropData_
   
-> [in] Pointeur vers l’implémentation de l’interface que l’appelant utilise pour accéder à l’entrée. Il s’agit de l’implémentation que le fournisseur étranger peut encapsuler avec sa propre implémentation et retourner dans le paramètre _lppMAPIPropNew._ Le _paramètre lpMAPIPropData_ doit pointer vers une implémentation d’interface en lecture/écriture qui dérive d’IMAPIProp [: IUnknown](imapipropiunknown.md) et prend en charge l’interface demandée dans le paramètre _lpInterface._ 
+> [in] Pointeur vers l’implémentation de l’interface que l’appelant utilise pour accéder à l’entrée. Il s’agit de l’implémentation que le fournisseur étranger peut encapsuler avec sa propre implémentation et retourner dans le paramètre _lppMAPIPropNew._ Le paramètre _lpMAPIPropData_ doit pointer vers une implémentation d’interface en lecture/écriture qui dérive [d’IMAPIProp : IUnknown](imapipropiunknown.md) et prend en charge l’interface demandée dans le paramètre _lpInterface._ 
     
  _lpInterface_
   
@@ -89,7 +89,7 @@ La **méthode IMAPISupport::OpenTemplateID** est implémentée uniquement pour l
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **OpenTemplateID uniquement** si vous appelez le stockage d’entrées avec des identificateurs de modèles provenant de fournisseurs de carnets d’adresses étrangers. Cette prise en charge place des exigences supplémentaires sur vos [implémentations IABContainer::CreateEntry](iabcontainer-createentry.md) et [IABLogon::OpenEntry.](iablogon-openentry.md) Pour plus d’informations, voir les descriptions de ces méthodes et agir en tant que fournisseur de carnet [d’adresses hôte.](acting-as-a-host-address-book-provider.md)
+Appelez **OpenTemplateID uniquement** si vous appelez le stockage d’entrées avec des identificateurs de modèles provenant de fournisseurs de carnets d’adresses étrangers. Cette prise en charge place des exigences supplémentaires sur vos [implémentations IABContainer::CreateEntry](iabcontainer-createentry.md) et [IABLogon::OpenEntry.](iablogon-openentry.md) Pour plus d’informations, voir les descriptions de ces méthodes et agir en tant que fournisseur de [carnet d’adresses hôte.](acting-as-a-host-address-book-provider.md)
   
 Si **l’appel OpenTemplateID** renvoie en tant qu’interface liée la même implémentation d’objet de propriété que celle que vous avez passée, vous pouvez libérer votre référence à votre objet de propriété. Cela est dû au fait que le fournisseur étranger a appelé la méthode **AddRef** de l’objet pour conserver sa propre référence. Si le fournisseur étranger n’a pas besoin de conserver une référence à l’objet de propriété, **OpenTemplateID** retourne l’objet de propriété indépendant. 
   

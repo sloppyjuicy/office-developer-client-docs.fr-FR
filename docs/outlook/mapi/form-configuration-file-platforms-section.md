@@ -40,7 +40,7 @@ Chaque **[plateforme.** _section chaîne de_ **plateforme ]** contient les deux 
   
 |**Entrée processeur**|**Processeur**|
 |:-----|:-----|
-|Ix86  <br/> |Processeurs de série Intel 80x86 et Pentium, ainsi que des processeurs équivalents d’AMD, Cyrix, NextGen et d’autres fabricants.  <br/> |
+|Ix86  <br/> |Processeurs de série Intel 80x86 et Pentium, ainsi que processeurs équivalents d’AMD, Cyrix, NextGen et d’autres fabricants.  <br/> |
 |MIPS  <br/> |Processeurs de série MIPS R4000.  <br/> |
 |AXP  <br/> |Processeur Alpha AXP Digital Equipment Corporation.  <br/> |
 |CPP  <br/> |Processeurs de série Power PC.  <br/> |
@@ -50,13 +50,13 @@ Les valeurs **OSVersion** valides sont décrites dans le tableau suivant.
   
 |**Entrée OSVersion**|**Système d'exploitation**|
 |:-----|:-----|
-|Win3.1  <br/> |Windows 3.1 et Windows for Workgroups 3.11.  <br/> |
+|Win3.1  <br/> |Windows 3.1 et Windows pour Workgroups 3.11.  <br/> |
 |WinNT3.5  <br/> |Windows NT 3.5 ou inférieur.  <br/> |
 |Win95  <br/> |Windows 95.  <br/> |
 |WinNT4.0  <br/> |Windows NT 4.0.  <br/> |
 |Mac7  <br/> |Système Macintosh 7.  <br/> |
    
-En outre, la **[plateforme.** _la_ section chaîne de plateforme **]** doit contenir une **entrée Fichier** ou **LinkTo.** **L’entrée** Fichier répertorie le fichier exécutable de l’application serveur de formulaires que la bibliothèque de formulaires tient à jour et charge dans un nouveau sous-dossier dans le cache disque lors du lancement du formulaire. Si une **entrée LinkTo** est utilisée à la place, elle contient le nom d’une chaîne de plateforme différente à partir de laquelle les informations **de** fichier sont prises. Cela est utile si une version d’un formulaire prend en charge plusieurs plateformes. 
+En outre, la **[plateforme.** _la_ section chaîne de plateforme **]** doit contenir une **entrée Fichier** ou **LinkTo.** **L’entrée** de fichier répertorie le fichier exécutable de l’application serveur de formulaires que la bibliothèque de formulaires tient à jour et charge dans un nouveau sous-dossier dans le cache disque lors du lancement du formulaire. Si une **entrée LinkTo** est utilisée à la place, elle contient le nom d’une chaîne de plateforme différente à partir de laquelle les informations **de** fichier sont prises. Cela est utile si une version d’un formulaire prend en charge plusieurs plateformes. 
   
 **L’entrée** de Registre  est utilisée chaque fois que l’entrée de fichier est utilisée, elle identifie la clé de Registre de la bibliothèque de formulaires dans laquelle le fichier exécutable de l’application de serveur de formulaires est stocké. Les chaînes précédées d’une barre oblique inverse ( \ ) sont placées à la racine du Registre. Les chaînes non précédées d’une barre oblique inverse sont placées dans la HKEY_CLASSES_ROOT\CLSID\  _GUID_\ clé de Registre, où  _GUID_ est le **GUID** du formulaire. Les caractères « %d » peuvent être utilisés pour indiquer le chemin d’accès du répertoire à partir duquel le fichier de configuration du formulaire a été lu. Cela est utile pour spécifier d’autres fichiers avec des noms de chemin d’accès relatifs au fichier de configuration du formulaire. **Plusieurs entrées** de fichier ou de **Registre** peuvent être spécifiées en utilisant Fichier ou Registre comme préfixe suivi de tout autre texte. Format de **la [plateforme.** _la_ section chaîne **de plateforme ]** est la suivante : 
   

@@ -28,7 +28,7 @@ Ouvre un document Microsoft Visio, s’il n’est pas déjà ouvert, et active l
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _filename_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom du fichier, y compris le chemin d’accès au fichier, que vous souhaitez ouvrir.  <br/> |
+| _filename_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom du fichier, y compris le chemin d’accès du fichier, que vous souhaitez ouvrir.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

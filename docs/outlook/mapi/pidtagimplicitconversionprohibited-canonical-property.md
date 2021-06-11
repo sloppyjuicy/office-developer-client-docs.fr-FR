@@ -36,7 +36,7 @@ Contient TRUE si un agent de transfert de messages (MTA) n’est pas en train d�
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété a la valeur TRUE, le système de messagerie ne doit effectuer aucune conversion de contenu sur le message, sauf si elle est demandée explicitement par destinataire avec la propriété **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
+Si cette propriété a la valeur TRUE, le système de messagerie ne doit effectuer aucune conversion de contenu sur le message, sauf si elle est explicitement demandée par destinataire avec la propriété **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

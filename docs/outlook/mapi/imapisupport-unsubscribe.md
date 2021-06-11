@@ -33,7 +33,7 @@ ULONG ulConnection
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulConnection_
   
@@ -51,9 +51,9 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::Unsubscribe** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services **appellent Unsubscribe** pour annuler une inscription de notification précédemment définie par **Subscribe**. **Annuler l’abonnement annule** l’inscription en libérant le pointeur de sink de conseil transmis dans **l’appel d’abonnement.** 
+La **méthode IMAPISupport::Unsubscribe** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services **appellent Unsubscribe** pour annuler une inscription de notification précédemment définie par **Subscribe**. **L’annulation de l’abonnement** annule l’inscription en libérant le pointeur de sink de conseil transmis dans **l’appel d’abonnement.** 
   
-En règle générale, la méthode **IUnknown::Release** du sink de conseil est appelée pendant l’appel **de désabonnement.** Toutefois, si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de sink de conseil, l’appel de publication est différé jusqu’à ce que la méthode **OnNotify** renvoie.  
+En règle générale, la méthode **IUnknown::Release** du sink de conseil est appelée pendant l’appel **de désabonnement.** Toutefois, si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de sink de conseil, l’appel de publication est retardé jusqu’à ce que la méthode **OnNotify** renvoie.  
   
 ## <a name="see-also"></a>Voir aussi
 

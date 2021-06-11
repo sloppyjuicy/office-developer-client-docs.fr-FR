@@ -34,7 +34,7 @@ HRESULT GetPAB(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpcbEntryID_
   
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les clients appellent **la méthode GetPAB** pour récupérer l’identificateur d’entrée du conteneur désigné comme PAB. Si un carnet d’adresses en mode page n’a pas été établi dans le profil, MAPI sélectionne comme carnet d’adresses en mode page le premier conteneur dans la hiérarchie de carnet d’adresses qui autorise les modifications. 
+Les clients appellent **la méthode GetPAB** pour récupérer l’identificateur d’entrée du conteneur désigné comme PAB. Si un carnet d’adresses en mode page n’a pas été établi dans le profil, MAPI sélectionne comme carnet d’adresses en mode page le premier conteneur de la hiérarchie de carnet d’adresses qui autorise les modifications. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

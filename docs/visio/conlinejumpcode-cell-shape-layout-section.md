@@ -23,9 +23,9 @@ Détermine la déviation des traits de connecteurs.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Défini pour la page ; sous l’onglet **Création**, cliquez sur la flèche dans le groupe **Mise en page**, puis cliquez sur sur l’onglet **Disposition et positionnement** pour afficher les spécifications de la page  <br/> |**visSLOJumpDefault** <br/> |
-|1   <br/> |Jamais  <br/> |**visSLOJumpNever** <br/> |
-|2   <br/> |Toujours  <br/> |**visSLOJumpAlways** <br/> |
-|3   <br/> |L'autre connecteur est dévié  <br/> |**visSLOJumpOther** <br/> |
+|1  <br/> |Jamais  <br/> |**visSLOJumpNever** <br/> |
+|2  <br/> |Toujours  <br/> |**visSLOJumpAlways** <br/> |
+|3  <br/> |L'autre connecteur est dévié  <br/> |**visSLOJumpOther** <br/> |
 |4   <br/> |Aucun connecteur n'est dévié  <br/> |**visSLOJumpNeither** <br/> |
    
 ## <a name="remarks"></a>Remarques

@@ -23,7 +23,7 @@ Détermine le motif de remplissage de la forme. Pour définir un motif de rempli
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun (remplissage transparent).  <br/> |
-|1   <br/> |Couleur d'arrière-plan unie.  <br/> |
+|1  <br/> |Couleur d'arrière-plan unie.  <br/> |
 |2 - 40  <br/> |Motifs de remplissage correspondant aux entrées indexées de la boîte de dialogue **Remplir**.  <br/> |
    
 ## <a name="remarks"></a>Remarques

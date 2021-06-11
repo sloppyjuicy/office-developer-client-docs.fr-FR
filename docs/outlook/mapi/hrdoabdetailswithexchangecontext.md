@@ -47,7 +47,7 @@ HRESULT HrOpenABEntryWithExchangeContext(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pmsess_
   
@@ -55,7 +55,7 @@ HRESULT HrOpenABEntryWithExchangeContext(
     
  _pEmsmdbUID_
   
-> Pointeur vers **un élément emsmdbUID** qui identifie le service Exchange qui contient le fournisseur de carnet d’adresses Exchange utilisé par la fonction pour ouvrir l’identificateur d’entrée. Si l’identificateur d’entrée entrante n’est pas un identificateur d’entrée du fournisseur de carnet d’adresses Exchange, ce paramètre est ignoré et la fonction se comporte comme [IAddrBook::OpenEntry](iaddrbook-openentry.md). Si ce paramètre est NULL ou un **MAPIUID** zéro, cette fonction agit également exactement comme [IAddrBook::OpenEntry](iaddrbook-openentry.md). 
+> Pointeur vers **un élément emsmdbUID** qui identifie le service Exchange qui contient le fournisseur de carnet d’adresses Exchange utilisé par la fonction pour ouvrir l’identificateur d’entrée. Si l’identificateur d’entrée entrante n’est pas un identificateur d’entrée de fournisseur de carnet d’adresses Exchange, ce paramètre est ignoré et la fonction se comporte comme [IAddrBook::OpenEntry](iaddrbook-openentry.md). Si ce paramètre est NULL ou un **MAPIUID** zéro, cette fonction agit également exactement comme [IAddrBook::OpenEntry](iaddrbook-openentry.md). 
     
  _pAddrBook_
   
@@ -103,7 +103,7 @@ AB_TELL_DETAILS_CHANGE
     
 DIALOG_MODAL
   
-> Affiche la version modale de la boîte de dialogue Adresse commune. Cet indicateur s’exclue mutuellement avec DIALOG_SDI.
+> Affiche la version modale de la boîte de dialogue d’adresse commune. Cet indicateur s’exclue mutuellement avec DIALOG_SDI.
     
 DIALOG_SDI
   

@@ -23,7 +23,7 @@ ms.locfileid: "33422606"
   
 Les objets de contrôle, ou les objets qui prendre en charge l’interface [IMAPIControl : IUnknown,](imapicontroliunknown.md) sont implémentés par les fournisseurs pour ajouter des fonctionnalités à un bouton qui apparaît dans une boîte de dialogue MAPI. Les objets de contrôle ne peuvent être implémentés que pour les boutons. 
   
- **IMAPIControl** a trois méthodes : [GetLastError](imapicontrol-getlasterror.md), [GetState](imapicontrol-getstate.md)et [Activate](imapicontrol-activate.md). 
+ **IMAPIControl a** trois méthodes : [GetLastError](imapicontrol-getlasterror.md), [GetState](imapicontrol-getstate.md)et [Activate](imapicontrol-activate.md). 
   
 MAPI appelle **GetState** pour déterminer si le bouton est désactivé ou non. **GetState** est appelé dans les situations suivantes : 
   
@@ -37,7 +37,7 @@ Lorsque l’utilisateur clique sur le bouton, MAPI appelle **Activate**. **Activ
   
 Si la tâche réussit et qu’elle est liée à une modification de propriété qui est reflétée dans un autre contrôle de la boîte de dialogue, appelez [ITableData::HrNotify](itabledata-hrnotify.md). **HrNotify est** appelé pour émettre une notification de table d’affichage avec la propriété **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)) dans la structure [TABLE_NOTIFICATION](table_notification.md) modifiée. Ne placez pas la nouvelle valeur de propriété dans la structure ; à la place, renvoyez-la [lorsque IMAPIProp::GetProps](imapiprop-getprops.md) est appelé. Bien qu’il soit généralement impossible d’utiliser une notification de tableau d’affichage pour désactiver ou activer un contrôle, elle peut être utilisée avec un bouton. MAPI actualise le contrôle modifié pour répondre à la notification. 
   
-MAPI appelle la méthode **GetLastError** du contrôle lorsque **Activate** renvoie une erreur autre que MAPI_E_USER_CANCEL. Si **GetLastError** place des informations d’erreur étendues dans la structure [MAPIERROR](mapierror.md) qu’il renvoie dans le contenu du paramètre  _lppMAPIError,_ MAPI les affiche pour l’utilisateur. 
+MAPI appelle la méthode **GetLastError** du contrôle lorsque **Activate** renvoie une erreur autre que MAPI_E_USER_CANCEL. Si **GetLastError** place des informations d’erreur étendues dans la structure [MAPIERROR](mapierror.md) qu’il renvoie dans le contenu du paramètre  _lppMAPIError,_ MAPI l’affiche pour l’utilisateur. 
   
 ## <a name="see-also"></a>Voir aussi
 

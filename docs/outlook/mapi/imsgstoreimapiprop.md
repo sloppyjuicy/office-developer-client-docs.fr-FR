@@ -30,7 +30,7 @@ Permet d’accéder aux informations de la boutique de messages et aux messages 
 |||
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
-|Exposé par :  <br/> |Objet de magasin de messages  <br/> |
+|Exposé par :  <br/> |Objet de la boutique de messages  <br/> |
 |Implémenté par :  <br/> |Fournisseurs de magasins de messages  <br/> |
 |Appelé par :  <br/> |Applications clientes, lepooler MAPI et MAPI  <br/> |
 |Identificateur d’interface :  <br/> |IID_IMsgStore  <br/> |
@@ -42,7 +42,7 @@ Permet d’accéder aux informations de la boutique de messages et aux messages 
 |||
 |:-----|:-----|
 |[Conseiller](imsgstore-advise.md) <br/> |S’inscrit pour recevoir une notification des événements spécifiés qui affectent la boutique de messages.  <br/> |
-|[Unadvise](imsgstore-unadvise.md) <br/> |Annule l’envoi de notifications précédemment définies avec un appel à la **méthode IMsgStore::Advise.**  <br/> |
+|[Unadvise](imsgstore-unadvise.md) <br/> |Annule l’envoi de notifications précédemment définies avec un appel à la méthode **IMsgStore::Advise.**  <br/> |
 |[CompareEntryIDs](imsgstore-compareentryids.md) <br/> |Compare deux identificateurs d’entrée pour déterminer s’ils font référence à la même entrée dans une magasin de messages.  <br/> |
 |[OpenEntry](imsgstore-openentry.md) <br/> |Ouvre un dossier ou un message et renvoie un pointeur d’interface pour un accès supplémentaire.  <br/> |
 |[SetReceiveFolder](imsgstore-setreceivefolder.md) <br/> |Établit un dossier comme destination pour les messages entrants d’une classe de message particulière.  <br/> |

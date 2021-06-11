@@ -39,7 +39,7 @@ La structure de flux PackedUnicodeString contient une représentation Unicode (U
 
 
 
-[Éléments et champs Outlook](outlook-items-and-fields.md)
+[Outlook Éléments et champs](outlook-items-and-fields.md)
   
 [Structures de flux](stream-structures.md)
   

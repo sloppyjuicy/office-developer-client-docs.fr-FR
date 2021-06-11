@@ -19,13 +19,13 @@ ms.locfileid: "33421689"
 > [!IMPORTANT]
 > Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
-- [ChangeView Macro Action (Application web personnalisée Access)](changeview-macro-action-access-custom-web-app.md)
+- [ChangeView Macro Action (Access custom web app)](changeview-macro-action-access-custom-web-app.md)
     
 - [ClosePopup Macro Action (Application web personnalisée Access)](closepopup-macro-action-access-custom-web-app.md)
     
-- [MessageBox Macro Action (Access custom web app)](messagebox-macro-action-access-custom-web-app.md)
+- [MessageBox Macro Action (Application web personnalisée Access)](messagebox-macro-action-access-custom-web-app.md)
     
 - [OpenPopup Macro Action (Application web personnalisée Access)](openpopup-macro-action-access-custom-web-app.md)
     

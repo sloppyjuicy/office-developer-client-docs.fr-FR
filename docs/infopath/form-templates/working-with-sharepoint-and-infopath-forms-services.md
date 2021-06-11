@@ -19,7 +19,7 @@ ms.locfileid: "33418252"
 
 Cette section fournit des informations sur l'utilisation de modèles de formulaire compatibles avec le navigateur qui seront déployés sur Microsoft SharePoint Server 2010 avec InfoPath Forms Services.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Création de modèles de formulaires InfoPath fonctionnant avec InfoPath Forms Services](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
   

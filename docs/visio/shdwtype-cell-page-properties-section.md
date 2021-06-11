@@ -22,9 +22,9 @@ Indique le type d'ombre par défaut d'une page.
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-| 1   <br/> | Simple  <br/> |**visFSTSimple** <br/> |
-| 2   <br/> | Oblique  <br/> |**visFSTOblique** <br/> |
-|3   <br/> |Interne  <br/> |**visFSTInner** <br/> |
+| 1  <br/> | Simple  <br/> |**visFSTSimple** <br/> |
+| 2  <br/> | Oblique  <br/> |**visFSTOblique** <br/> |
+|3  <br/> |Interne  <br/> |**visFSTInner** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

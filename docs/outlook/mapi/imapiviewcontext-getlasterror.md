@@ -35,7 +35,7 @@ LPMAPIERROR FAR * lppMAPIError
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
@@ -51,7 +51,7 @@ MAPI_UNICODE
     
  _lppMAPIError_
   
-> [out] Pointeur vers un pointeur vers la structure **MAPIERROR** renvoyée qui contient les informations de version, de composant et de contexte de l’erreur. Ce paramètre peut être définie sur NULL s’il n’existe aucune structure **MAPIERROR** à renvoyer. 
+> [out] Pointeur vers un pointeur vers la structure **MAPIERROR renvoyée** qui contient les informations de version, de composant et de contexte de l’erreur. Ce paramètre peut être définie sur NULL s’il n’existe aucune structure **MAPIERROR** à renvoyer. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

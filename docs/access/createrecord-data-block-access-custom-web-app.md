@@ -23,7 +23,7 @@ Vous pouvez utiliser le bloc de données **CréerEnregistrement** pour créer un
 > [!NOTE]
 > Le bloc de données **CréerEnregistrement** est disponible uniquement dans les macros de données. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 Le bloc de données **CréerEnregistrement** utilise les arguments suivants. 
   

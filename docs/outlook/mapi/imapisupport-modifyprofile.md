@@ -33,7 +33,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -51,11 +51,11 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::ModifyProfile** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages **appellent ModifyProfile** pour demander à MAPI de modifier leurs informations de profil. 
+La **méthode IMAPISupport::ModifyProfile** est implémentée pour les objets de prise en charge du fournisseur de magasins de messages. Les fournisseurs de magasins de messages **appellent ModifyProfile pour** demander à MAPI de modifier leurs informations de profil. 
   
  **ModifyProfile ajoute la** section de profil associée au fournisseur appelant à la liste des ressources de fournisseur de magasins de messages installées. Cela entraîne la liste de la magasin de messages dans la table de la boutique de messages, accessible aux clients via la méthode [IMAPISession::GetMsgStoresTable,](imapisession-getmsgstorestable.md) et ouverte sans l’affichage d’une boîte de dialogue. 
   
-Si l MDB_TEMPORARY est définie, MAPI ne fait rien et la méthode est immédiatement S_OK.
+Si l’MDB_TEMPORARY est définie, MAPI ne fait rien et la méthode est immédiatement S_OK.
   
 ## <a name="see-also"></a>Voir aussi
 

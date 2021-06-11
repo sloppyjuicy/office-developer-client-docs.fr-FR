@@ -34,7 +34,7 @@ HRESULT DoSentMail(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -56,7 +56,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
   
  **DoSentMail** effectue les t�ches suivantes : 
   
-- Vérifie le message pour la **propriété PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) pour déterminer si le message doit être supprimé après l’envoi.
+- Vérifie la propriété **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) pour déterminer si le message doit être supprimé après l’envoi.
     
 - D�termine l'emplacement du dossier �l�ments envoy�s.
     

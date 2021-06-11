@@ -25,7 +25,7 @@ ms.locfileid: "33419848"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre un formulaire pour créer un message en fonction de la classe de message du formulaire.
+Ouvre un formulaire pour créer un message basé sur la classe de message du formulaire.
   
 ```cpp
 HRESULT CreateForm(
@@ -37,7 +37,7 @@ HRESULT CreateForm(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -75,7 +75,7 @@ MAPI_E_NO_INTERFACE
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaire appellent la méthode **IMAPIFormMgr::CreateForm** pour ouvrir un formulaire afin de créer un message en fonction de la classe de message du formulaire. **CreateForm** ouvre le formulaire en créant une instance du serveur de formulaire pour ce formulaire, comme décrit dans l’objet d’informations du formulaire donné. Si nécessaire, **CreateForm** appelle la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) pour télécharger le code du serveur de formulaire sur le disque de l’utilisateur. 
+Les visionneuses de formulaire appellent la méthode **IMAPIFormMgr::CreateForm** pour ouvrir un formulaire afin de créer un message basé sur la classe de message du formulaire. **CreateForm** ouvre le formulaire en créant une instance du serveur de formulaire pour ce formulaire, comme décrit dans l’objet d’informations du formulaire donné. Si nécessaire, **CreateForm** appelle la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) pour télécharger le code du serveur de formulaire sur le disque de l’utilisateur. 
   
 Le  _paramètre pfrminfoToActivate_ doit pointer vers un objet d’informations de formulaire qui a été correctement résolu. 
   

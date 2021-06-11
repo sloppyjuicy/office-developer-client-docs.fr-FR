@@ -33,13 +33,13 @@ Spécifie si Microsoft Office Outlook doit analyser les dossiers d’une boutiqu
 |:-----|:-----|
 |Exposé sur :  <br/> |[IMsgStore : objet IMAPIProp](imsgstoreimapiprop.md)  <br/> |
 |Créé par :  <br/> |Fournisseur du Store  <br/> |
-|Accessible par :  <br/> |Outlook et d’autres clients  <br/> |
+|Accessible par :  <br/> |Outlook clients et autres clients  <br/> |
 |Type de propriété :  <br/> |PT_LONG  <br/> |
 |Type d’accès :  <br/> |En lecture seule ou en lecture/écriture en fonction du fournisseur du magasin  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Pour fournir l’une des fonctionnalités du magasin, le fournisseur de magasin doit implémenter [IMAPIProp : IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour l’une de ces propriétés transmises à un appel [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Lorsque la balise de propriété de l’une de ces propriétés est transmise à [IMAPIProp::GetProps](imapiprop-getprops.md), le fournisseur de magasins doit également renvoyer la valeur de propriété correcte. Les fournisseurs du Store peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
+Pour fournir l’une des fonctionnalités du magasin, le fournisseur de magasin doit implémenter [IMAPIProp : IUnknown](imapipropiunknown.md) et renvoyer une balise de propriété valide pour l’une de ces propriétés transmises à un appel [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Lorsque la balise de propriété pour l’une de ces propriétés est transmise à [IMAPIProp::GetProps](imapiprop-getprops.md), le fournisseur de magasin doit également renvoyer la valeur de propriété correcte. Les fournisseurs du Store peuvent appeler [HrGetOneProp](hrgetoneprop.md) et [HrSetOneProp](hrsetoneprop.md) pour obtenir ou définir ces propriétés. 
   
 Pour récupérer la valeur de cette propriété, le client doit d’abord utiliser [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) pour obtenir la balise de propriété, puis spécifier cette balise de propriété dans [IMAPIProp::GetProps](imapiprop-getprops.md) pour obtenir la valeur. Lorsque vous appelez [IMAPIProp::GetIDsFromNames,](imapiprop-getidsfromnames.md)spécifiez les valeurs suivantes pour la structure [MAPINAMEID](mapinameid.md) pointée par le paramètre d’entrée  _lppPropNames_:
   
@@ -49,9 +49,9 @@ Pour récupérer la valeur de cette propriété, le client doit d’abord utilis
 |ulKind :  <br/> |MNID_STRING  <br/> |
 |Kind.lpwstrName :  <br/> |L"ArchiveSourceSupportMask »  <br/> |
    
-Cette propriété permet aux fournisseurs de magasins de spécifier si Outlook doit analyser les dossiers d’une boutique et les archiver automatiquement.
+Cette propriété permet aux fournisseurs de magasins de spécifier si Outlook doivent analyser les dossiers d’une boutique et les archiver automatiquement.
   
-Par défaut, cette propriété n’est pas exposée dans une boutique, ce qui signifie qu’Outlook peut analyser les dossiers de la boutique. Si la propriété est exposée, les valeurs possibles sont les suivantes :
+Par défaut, cette propriété n’est pas exposée dans une boutique, ce qui signifie Outlook pouvez analyser les dossiers de la boutique. Si la propriété est exposée, les valeurs possibles sont les suivantes :
   
 ```cpp
 enum { 
@@ -63,7 +63,7 @@ enum {
 
 ASM_DEFAULT
   
-- Outlook peut analyser les dossiers de la boutique.
+- Outlook pouvez analyser les dossiers de la boutique.
     
 ASM_DO_NOT_ARCHIVE
   

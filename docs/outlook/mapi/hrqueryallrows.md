@@ -44,7 +44,7 @@ HRESULT HrQueryAllRows(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ptable_
   
@@ -64,7 +64,7 @@ HRESULT HrQueryAllRows(
     
  _maxsMax_
   
-> [in] Nombre maximal de lignes à récupérer. Si la valeur du paramètre  _« zero_ » est zéro, aucune limite n’est définie sur le nombre de lignes récupérées. 
+> [in] Nombre maximal de lignes à récupérer. Si la valeur du paramètre  _0 est zéro,_ aucune limite n’est définie sur le nombre de lignes récupérées. 
     
  _pprows_
   
@@ -82,7 +82,7 @@ MAPI_E_TABLE_TOO_BIG
     
 ## <a name="remarks"></a>Remarques
 
-Une application cliente ou un fournisseur de services n’a aucun contrôle sur le nombre de lignes que **HrQueryAllRows** tente d’extraire, autrement qu’en élisant une restriction pointée par le paramètre _pres._ Le  _paramètre parcsMax_ ne limite pas la récupération à un certain nombre de lignes de tableau, mais définit plutôt une quantité maximale de mémoire disponible pour contenir toutes les lignes récupérées. La seule protection contre le dépassement de mémoire massive est la fonctionnalité stopgap fournie par la définition de _la fonctionmax._ Le retour d’MAPI_E_TABLE_TOO_BIG signifie que le tableau contient trop de lignes pour être maintenues en mémoire en même temps. 
+Une application cliente ou un fournisseur de services n’a aucun contrôle sur le nombre de lignes que **HrQueryAllRows** tente d’extraire, autrement qu’en élisant une restriction pointée par le paramètre _pres._ Le  _paramètre parcsMax_ ne limite pas la récupération à un certain nombre de lignes de tableau, mais définit plutôt une quantité maximale de mémoire disponible pour contenir toutes les lignes récupérées. La seule protection contre le dépassement de mémoire massive est la fonctionnalité stopgap fournie par la définition de _la fonctionmax._ Le retour d’MAPI_E_TABLE_TOO_BIG signifie que le tableau contient trop de lignes pour être tenu en mémoire en même temps. 
   
 Les tables généralement de petite taille, telles qu’une table de magasins de messages ou une table de fournisseurs, peuvent généralement être récupérées en toute sécurité avec **HrQueryAllRows**. Les tables à risque d’être très grandes, telles qu’une table des matières ou même une table des destinataires, doivent être parcourues dans des sous-sections à l’aide de la méthode [IMAPITable::QueryRows.](imapitable-queryrows.md) 
   

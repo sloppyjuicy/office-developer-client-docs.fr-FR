@@ -36,7 +36,7 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -48,7 +48,7 @@ BEGIN_DEFERRED
     
  _lpMessage_
   
-> [in] Pointeur vers un objet de message (représentant le message à remettre) qui dispose d’une autorisation de lecture/écriture, que le fournisseur de transport utilise pour accéder à ce message et le manipuler. Cet objet reste valide jusqu’au retour du fournisseur de transport à partir d’un appel ultérieur à la [méthode IXPLogon::EndMessage.](ixplogon-endmessage.md) 
+> [in] Pointeur vers un objet de message (représentant le message à remettre) qui dispose d’une autorisation de lecture/écriture, que le fournisseur de transport utilise pour accéder à ce message et le manipuler. Cet objet reste valide jusqu’au retour du fournisseur de transport à partir d’un appel ultérieur à la méthode [IXPLogon::EndMessage.](ixplogon-endmessage.md) 
     
  _lpulMsgRef_
   
@@ -92,7 +92,7 @@ Si le fournisseur est prêt à accepter le message, il doit renvoyer une valeur 
   
 L’implémentation de cette méthode par un fournisseur de transport peut :
   
-- Placez le message dans une file d’attente interne pour attendre la transmission, éventuellement en copiant le message dans le stockage local, puis renvoyez-le.
+- Placez le message dans une file d’attente interne pour attendre la transmission, éventuellement en copiant le message dans le stockage local, puis revenir.
     
 - Essayez d’effectuer la transmission réelle et de la renvoyer une fois la transmission terminée, avec succès ou sans succès.
     
@@ -104,7 +104,7 @@ Lors **d’un appel SubmitMessage,** le fournisseur de transport contrôle le tr
   
 Le fournisseur de transport ne doit pas envoyer de propriétés nontransmitables du message. Lorsqu’elle trouve une telle propriété, elle doit continuer pour traiter la propriété suivante. Le fournisseur doit faire tout son possible pour ne pas afficher MAPI_P1 du destinataire dans le cadre du contenu du message transmis . le fournisseur doit utiliser ces informations de destinataire uniquement à des fins d’adressan. MAPI_P1 destinataires sont des destinataires générés en interne qui sont utilisés pour renvoyer des messages ; ils ne doivent pas être transmis. Utilisez plutôt les autres destinataires pour transmettre des informations sur les destinataires. L’objectif de cette disposition est de permettre aux destinataires de renvoyer la même table de destinataires que les destinataires d’origine.
   
-Au cours **d’un appel SubmitMessage,** lepooler MAPI traite les méthodes pour les objets ouverts lors du transfert du message et traite les pièces jointes. Ce traitement peut prendre beaucoup de temps. Les fournisseurs de transport peuvent appeler fréquemment la méthode [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) pour lepooler MAPI pendant ce traitement pour libérer du temps processeur pour d’autres tâches système. 
+Lors **d’un appel SubmitMessage,** lepooler MAPI traite les méthodes pour les objets ouverts lors du transfert du message et traite les pièces jointes. Ce traitement peut prendre beaucoup de temps. Les fournisseurs de transport peuvent appeler fréquemment la méthode [IMAPISupport::SpoolerYield](imapisupport-spooleryield.md) pour lepooler MAPI pendant ce traitement pour libérer du temps processeur pour d’autres tâches système. 
   
 Tous les destinataires du message sont visibles dans la table des destinataires du message que lepooler MAPI a transmis à l’origine. Le fournisseur de transport doit traiter uniquement les destinataires qu’il peut gérer (en fonction de l’identificateur d’entrée, du type d’adresse ou des deux) et dont la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) n’a pas encore la valeur TRUE. Si **PR_RESPONSIBILITY** est déjà définie sur TRUE, un autre fournisseur de transport a géré ce destinataire. Lorsque le fournisseur termine un traitement suffisant d’un destinataire pour déterminer s’il peut gérer les messages pour ce destinataire, il doit définir la propriété **PR_RESPONSIBILITY** de ce destinataire sur TRUE dans le message transmis. En règle générale, le fournisseur effectue cette détermination une fois la remise du message terminée. 
   
@@ -112,7 +112,7 @@ En règle générale, le fournisseur de transport ne revient pas d’un appel **
   
 Si **SubmitMessage renvoie** une erreur, lepooler MAPI libère le message en cours de traitement sans enregistrer les modifications. Si le fournisseur de transport requiert l’enregistrer, il doit appeler la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) sur le message avant de le renvoyer. 
   
-En cas d’erreurs qui se produisent en raison de problèmes de transport, lepooler MAPI conserve le message, mais il retarde le resoumettre le message au fournisseur de transport en fonction de la valeur renvoyée dans  _lpulReturnParm_. Le fournisseur de transport doit remplir cette valeur si sa valeur de retour de **SubmitMessage** est MAPI_E_WAIT ou MAPI_E_NETWORK_ERROR. Si une condition d’erreur grave se produit, le fournisseur de transport doit appeler la méthode [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) avec l’NOTIFY_CRITICAL_ERROR’indicateur. 
+En cas d’erreurs qui se produisent en raison de problèmes de transport, lepooler MAPI conserve le message, mais il retarde le resoumettre le message au fournisseur de transport en fonction de la valeur renvoyée dans  _lpulReturnParm_. Le fournisseur de transport doit remplir cette valeur si sa valeur de retour de **SubmitMessage** est MAPI_E_WAIT ou MAPI_E_NETWORK_ERROR. Si une condition d’erreur grave se produit, le fournisseur de transport doit appeler la méthode [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) avec l’indicateur NOTIFY_CRITICAL_ERROR’erreur. 
   
 ## <a name="see-also"></a>Voir aussi
 

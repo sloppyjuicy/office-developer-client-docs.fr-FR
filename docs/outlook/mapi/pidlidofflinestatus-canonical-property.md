@@ -42,8 +42,8 @@ Le tableau suivant indique les valeurs possibles de cette propriété.
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Le document n’est pas extrait.  <br/> |
-|1   <br/> |Le document est extrait pour l’utilisateur actuel.  <br/> |
-|2   <br/> |Le document n’est pas extrait, mais l’utilisateur actuel dispose d’une copie du fichier enregistrée pour modification sur l’ordinateur actuel.  <br/> |
+|1  <br/> |Le document est extrait pour l’utilisateur actuel.  <br/> |
+|2  <br/> |Le document n’est pas extrait, mais l’utilisateur actuel dispose d’une copie du fichier enregistré pour modification sur l’ordinateur actuel.  <br/> |
    
 Cette propriété est calculée localement et n’est pas envoyée à un serveur à tout moment, sauf si un utilisateur fait glisser l’élément vers un autre compte. Dans ce cas, il est traité comme une propriété personnalisée définie par l’utilisateur.
   

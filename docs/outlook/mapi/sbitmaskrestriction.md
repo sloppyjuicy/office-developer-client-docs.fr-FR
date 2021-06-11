@@ -25,7 +25,7 @@ ms.locfileid: "33424475"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit une restriction de masque de bits, qui est utilisée pour effectuer une opération **AND** au bits et tester le résultat. 
+Décrit une restriction de masque de bits, qui permet d’effectuer une opération **AND** au bits et de tester le résultat. 
   
 |||
 |:-----|:-----|
@@ -65,9 +65,9 @@ BMR_NEZ
     
 ## <a name="remarks"></a>Remarques
 
-La structure **SBitMaskRestriction** effectue une opération **AND** au bits à l’aide du masque de bits décrit dans le membre **ulMask** et de la valeur de la propriété décrite par le membre **ulPropTag.** Si le résultat est zéro, BMR_EQZ est satisfait. Si elle n’est pas zéro, c’est-à-dire si la valeur de la propriété a au moins l’un des mêmes bits que **ulMask,** BMR_NEZ est satisfait.
+La structure **SBitMaskRestriction** effectue une opération **AND** au bits à l’aide du masque de bits décrit dans le membre **ulMask** et de la valeur de la propriété décrite par le membre **ulPropTag.** Si le résultat est zéro, BMR_EQZ est satisfait. Si elle n’est pas zéro, c’est-à-dire, si la valeur de la propriété a au moins l’un des mêmes bits que **ulMask,** BMR_NEZ est satisfait.
   
-Pour plus d’informations sur la structure et les **restrictions SBitMaskRestriction** en général, voir [à propos des restrictions](about-restrictions.md).
+Pour plus d’informations sur la structure et les restrictions **SBitMaskRestriction** en général, voir [à propos des restrictions.](about-restrictions.md)
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -20,11 +20,11 @@ ms.locfileid: "33417867"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Pour afficher une boîte de dialogue Win32 à l’aide, par exemple, de la fonction SDK Windows **DialogBox**, vous devez d’abord obtenir l’instance 32 bits complète et les poignées de fenêtre principale pour Excel. Pour plus d’informations, [voir Instance Excel d’Access et Handles de fenêtre principale.](how-to-access-excel-instance-and-main-window-handles.md) 
+Pour afficher une boîte de dialogue Win32 à l’aide, par exemple, de la fonction SDK Windows **DialogBox**, vous devez d’abord obtenir l’instance 32 bits complète et les poignées de fenêtre principale pour Excel. Pour plus d’informations, [voir Access Excel Instance et Handles de fenêtre principale.](how-to-access-excel-instance-and-main-window-handles.md) 
   
-En supposant que votre projet contient la ressource de boîte de dialogue, vous devez prendre plusieurs mesures pour définir la routine de gestion des messages sur celle de la boîte de dialogue nouvellement affichée et pour restaurer la routine de gestion des messages Excel lorsque la boîte de dialogue est fermée. L’exemple [de commande fShowDialog](fshowdialog.md) dans le projet Generic illustre l’utilisation des fonctions Windows pour le faire correctement. 
+En supposant que votre projet contient la ressource de boîte de dialogue, vous devez suivre plusieurs étapes pour définir la routine de gestion des messages sur celle de la boîte de dialogue qui vient d’être affichée et pour restaurer la routine de gestion des messages Excel lorsque la boîte de dialogue est fermée. L’exemple [de commande fShowDialog](fshowdialog.md) dans le projet Generic illustre l’utilisation des fonctions Windows pour le faire correctement. 
   
-Vous pouvez également afficher des boîtes de dialogue à l’aide de l’API C sans avoir à utiliser les fonctions du SDK Windows. Toutefois, les fonctionnalités de la boîte de dialogue de l’API C sont très limitées par rapport à celles de Windows, Visual Basic pour Applications (VBA) ou microsoft Foundation Classes (MFC). (Par exemple, les boîtes de dialogue de l’API C sont toujours modales).
+Vous pouvez également afficher des boîtes de dialogue à l’aide de l’API C sans avoir à utiliser Windows fonctions du SDK. Toutefois, les fonctionnalités de la boîte de dialogue de l’API C sont très limitées par rapport à celles de Windows, Visual Basic pour Applications (VBA) ou microsoft Foundation Classes (MFC). (Par exemple, les boîtes de dialogue api C sont toujours modales).
   
 ## <a name="see-also"></a>Voir aussi
 

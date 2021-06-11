@@ -43,7 +43,7 @@ HRESULT LoadForm(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -67,7 +67,7 @@ MAPIFORM_EXACTMATCH
     
  _ulMessageStatus_
   
-> [in] Masque de bits d’indicateurs définis par le client ou par un fournisseur copiés à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message qui fournit des informations sur l’état du message. Le  _paramètre ulMessageStatus_ doit être paramétrage si  _lpszMessageClass_ n’est pas NULL ; Dans le  _cas contraire, ulMessageStatus_ est ignoré. 
+> [in] Masque de bits d’indicateurs définis par le client ou par un fournisseur copiés à partir de la propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) du message qui fournit des informations sur l’état du message. Le  _paramètre ulMessageStatus_ doit être paramétrage si  _lpszMessageClass_ est non NULL ; Dans le  _cas contraire, ulMessageStatus_ est ignoré. 
     
  _ulMessageFlags_
   

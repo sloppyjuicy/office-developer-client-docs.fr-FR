@@ -25,12 +25,12 @@ ms.locfileid: "33418105"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Prend en charge l’Microsoft Exchange Server des objets table, en particulier les objets de table de liste de contrôle d’accès système (SACL) et les objets table de règles sur Microsoft Exchange Server dossiers. Cette interface ressemble à l’interface [IMAPITable : IUnknown,](imapitableiunknown.md) mais elle ajoute la prise en charge des structures spécifiques Microsoft Exchange Server utilisées pour contrôler les règles et les saclabes. 
+Prend en charge l’accès Microsoft Exchange Server objets table, en particulier les objets de table de liste de contrôle d’accès système (SACL) et les objets de table de règles sur Microsoft Exchange Server dossiers. Cette interface ressemble à l’interface [IMAPITable : IUnknown,](imapitableiunknown.md) mais elle ajoute la prise en charge des structures spécifiques Microsoft Exchange Server utilisées pour contrôler les règles et les saclabes. 
   
 |||
 |:-----|:-----|
 |Exposé par :  <br/> |Aucun  <br/> |
-|Implémenté par :  <br/> |Objets table serveur  <br/> |
+|Implémenté par :  <br/> |Objets de table de serveur  <br/> |
 |Appelé par :  <br/> |MAPI et applications clientes  <br/> |
 |Identificateur d’interface :  <br/> |IID_IExchangeModifyTable  <br/> |
 |Type de pointeur :  <br/> |LPEXCHANGEMODIFYTABLE  <br/> |
@@ -66,7 +66,7 @@ Prend en charge l’Microsoft Exchange Server des objets table, en particulier l
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir l’interface **IExchangeModifyTable,** appelez la méthode MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur une propriété de type PT_OBJECT sur un objet dossier. Lorsque vous appelez **la méthode OpenProperty,** passez la valeur **IID_IExchangeModifyTable** dans le _paramètre lpiid._ 
+Pour obtenir l’interface **IExchangeModifyTable,** appelez la méthode MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur une propriété de type PT_OBJECT sur un objet dossier. Lorsque vous appelez **la méthode OpenProperty,** passez la **valeur IID_IExchangeModifyTable** dans le _paramètre lpiid._ 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -15,7 +15,7 @@ ms.locfileid: "33420226"
 ---
 # <a name="cells-visio-shapesheet-reference"></a>Cells (Visio ShapeSheet Reference)
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [A, cellule (section Geometry)](a-cell-geometry-section.md)
     

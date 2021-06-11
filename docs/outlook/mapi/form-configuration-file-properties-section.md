@@ -49,7 +49,7 @@ Format d’un [ **Propriété.** _string_] est la suivante :
   
 Chaque **[Propriété.** _section_ **]** décrit une seule propriété. **L’entrée** Type spécifie le type de propriété MAPI, par exemple 3 (PT_I4), de la propriété. **L’entrée NmidPropset** est facultative . avec l’entrée **NmidString** ou **NmidInteger,** l’entrée **NmidPropset** donne le nom de la propriété. **NmidString** donne le nom de la propriété, tandis que **NmidInteger** donne l’identificateur de la propriété. **NmidString et** **NmidInteger** s’excluent mutuellement. 
   
-S’il est définie, **NmidPropset** doit contenir le nom du jeu de propriétés ; En cas d’absence, **NmidPropset** est définie sur une valeur par défaut basée sur la règle suivante : si **NmidInteger** est présent et que sa valeur est inférieure à 0x8000, **NmidPropset** est définie sur PS_MAPI. Si la valeur de **NmidInteger** est définie sur un nombre inférieur à 0x8000 ou si elle est absente, **NmidPropset** est définie sur PS_PUBLIC_STRINGS. 
+S’il est définie, **NmidPropset** doit contenir le nom du jeu de propriétés ; En cas d’absence, **NmidPropset** est définie sur une valeur par défaut basée sur la règle suivante : si **NmidInteger** est présent et que sa valeur est inférieure à 0x8000, **NmidPropset** est définie sur PS_MAPI. Si la valeur de **NmidInteger** est définie sur un nombre supérieur à 0x8000 ou si elle est absente, **NmidPropset** est définie sur PS_PUBLIC_STRINGS. 
   
 **L’entrée DisplayName** contient l’étiquette de la propriété. **L’entrée SpecialType,** si elle est présente et non zéro, indique que cette propriété est une propriété spéciale. Pour l’instant, le seul type de propriété spécial défini est **SpecialType** = 1, qui indique les propriétés d’une chaîne. Si **SpecialType** est définie sur 1, l’entrée **Enum1** fait référence à **[Enum1.** _string_ **]** section. 
   
@@ -103,6 +103,6 @@ Val.3.Index = 3
 
 ```
 
- **[Enum1.**  les sections de chaîne **]** peuvent être utilisées par les applications à deux fins : pour accélérer le filtrage des propriétés à l’aide de l’index au lieu de la chaîne et pour trier dans un ordre différent de l’ordre alphanumérique des valeurs de chaîne. Par exemple, le tri peut être effectué en fonction de l’ordre faible-moyen-élevé au lieu de l’ordre Élevé-Moyen-Bas. 
+ **[Enum1.**  les sections string **]** peuvent être utilisées par les applications à deux fins : pour accélérer le filtrage des propriétés à l’aide de l’index au lieu de la chaîne et pour trier dans un ordre différent de l’ordre alphanumérique des valeurs de chaîne. Par exemple, le tri peut être effectué en fonction de l’ordre faible-moyen-élevé au lieu de l’ordre Élevé-Moyen-Bas. 
   
 

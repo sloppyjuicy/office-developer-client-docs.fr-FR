@@ -27,13 +27,13 @@ Un identificateur d’entrée NULL indique une demande d’ouverture du conteneu
   
 1. Vérifiez que l’identificateur d’entrée est un identificateur valide que votre fournisseur prend en charge. S’il ne s’agit pas d’un identificateur d’entrée valide, MAPI_E_INVALID_ENTRYID. 
     
-2. Vérifiez l’indicateur transmis avec le _paramètre ulFlags._ Si MAPI est passé dans MAPI_MODIFY et que votre fournisseur n’autorise pas la modification de ses objets, échouez et renvoyez la valeur MAPI_E_ACCESS_DENIED’erreur. 
+2. Vérifiez l’indicateur transmis avec le _paramètre ulFlags._ Si MAPI est passé en MAPI_MODIFY et que votre fournisseur n’autorise pas la modification de ses objets, échouez et renvoyez la valeur MAPI_E_ACCESS_DENIED’erreur. 
     
 3. Vérifiez que l’interface demandée dans  _le paramètre lpInterface_ est valide pour le type d’objet que votre fournisseur a été invité à ouvrir. Si un paramètre non valide a été passé, échouez et renvoyez la valeur MAPI_E_INTERFACE_NOT_SUPPORTED’erreur. 
     
 4. Si le  _paramètre cbEntryID_ est zéro, il s’agit d’une demande d’ouverture du conteneur racine de votre fournisseur. Créez le conteneur racine et renvoyez un pointeur vers son **implémentation d’interface IABContainer.** 
     
-5. Si votre fournisseur implémente plusieurs objets d’inscription, chacun avec son propre **MAPIUID** enregistré, mapmez le **MAPIUID** contenu dans l’identificateur d’entrée avec l’objet d' logon approprié. 
+5. Si votre fournisseur implémente plusieurs objets d’inscription, chacun avec son propre **MAPIUID** enregistré, mapmez le **MAPIUID** contenu dans l’identificateur d’entrée avec l’objet d’inscription approprié. 
     
 6. Déterminez le type d’objet représenté par l’identificateur d’entrée : un utilisateur de messagerie, une liste de distribution ou un conteneur appartenant à votre fournisseur ou un utilisateur de messagerie unique ou une liste de distribution afin que la valeur appropriée puisse être définie pour le paramètre _lpulObjectType._ 
     

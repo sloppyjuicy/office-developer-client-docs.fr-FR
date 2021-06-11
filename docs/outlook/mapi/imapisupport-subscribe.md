@@ -25,7 +25,7 @@ ms.locfileid: "33419925"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Inscrit un réception de notification pour recevoir des notifications via MAPI.
+Inscrit un recevoir de notification pour recevoir des notifications via MAPI.
   
 ```cpp
 HRESULT Subscribe(
@@ -37,7 +37,7 @@ ULONG FAR * lpulConnection
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpKey_
   
@@ -53,7 +53,7 @@ ULONG FAR * lpulConnection
     
  _fnevExtended_
   
-> S’inscrit aux notifications sur les événements spécifiques au carnet d’adresses ou au fournisseur de magasin de messages particulier.
+> S’inscrit pour les notifications sur les événements spécifiques au carnet d’adresses ou au fournisseur de magasin de messages particulier.
     
  _fnevNewMail_
   
@@ -107,7 +107,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::Subscribe** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services **appellent Subscribe** à partir de l’une de leurs **méthodes Advise** pour permettre à MAPI de gérer les notifications. 
+La **méthode IMAPISupport::Subscribe** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services **appellent Subscribe** à partir de l’une de leurs méthodes **Advise** pour permettre à MAPI de gérer les notifications. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
@@ -115,7 +115,7 @@ Pour utiliser les méthodes de prise en charge MAPI pour la notification, créez
   
 MAPI utilise la clé de notification pour rechercher les fonctions de rappel enregistrées via la fonction [HrAllocAdviseSink](hrallocadvisesink.md) pour la source de notification correspondante. Passez cette clé à **IMAPISupport::Notify** chaque fois que vous devez générer une notification pour la source de notification correspondante. 
   
-L NOTIFY_SYNC’indicateur affecte le fonctionnement des appels ultérieurs à **Notify**. Lorsque vous définissez NOTIFY_SYNC, **Notify** ne renvoie pas tant qu’il n’a pas terminé d’envoyer toutes les notifications nécessaires. Lorsque vous ne définissez pas NOTIFY_SYNC, **Notify** fonctionne de manière asynchrone, éventuellement avant l’envoi de toutes les notifications. 
+L NOTIFY_SYNC’indicateur affecte le fonctionnement des appels ultérieurs à **Notify**. Lorsque vous définissez NOTIFY_SYNC, **Notify** ne revient pas tant qu’il n’a pas terminé d’envoyer toutes les notifications nécessaires. Lorsque vous ne définissez pas NOTIFY_SYNC, **Notify** fonctionne de manière asynchrone, en renvoyant éventuellement avant que toutes les notifications n’ont été envoyées. 
   
 ## <a name="see-also"></a>Voir aussi
 

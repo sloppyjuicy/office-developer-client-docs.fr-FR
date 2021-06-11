@@ -33,7 +33,7 @@ HRESULT HrDeleteRow(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpSPropValue_
   
@@ -55,7 +55,7 @@ La **méthode ITableData::HrDeleteRow** supprime la ligne de tableau qui contien
   
 Une fois la ligne supprimée, les notifications sont envoyées à tous les clients ou fournisseurs de services qui ont une vue de la table et qui ont appelé la méthode [IMAPITable::Advise](imapitable-advise.md) de la table pour s’inscrire aux notifications. 
   
-La suppression d’une ligne ne réduit pas le jeu de colonnes disponible pour les affichages existants ou les affichages ouverts par la suite, même si la ligne supprimée est la dernière ligne qui a une valeur pour une colonne spécifique.
+La suppression d’une ligne ne réduit pas le jeu de colonnes disponible pour les affichages existants ou les affichages ouverts ultérieurement, même si la ligne supprimée est la dernière ligne qui a une valeur pour une colonne spécifique.
   
 ## <a name="see-also"></a>Voir aussi
 

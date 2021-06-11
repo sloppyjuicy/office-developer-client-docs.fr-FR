@@ -32,6 +32,6 @@ FORMULAEXISTS (** *cellref* ** )
    
 ## <a name="remarks"></a>Remarques
 
-La fonction FORMULAEXISTS renvoie 1 si la cellule contient une formule ; Si elle ne contient pas de formule, elle renvoie zéro (0). 
+La fonction FORMULAEXISTS renvoie 1 si la cellule contient une formule ; si elle ne contient pas de formule, elle renvoie zéro (0). 
   
 

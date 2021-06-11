@@ -47,7 +47,7 @@ Pour prendre en charge la configuration du service de message, utilisez la proc�
     
    - Implémenter une fonction de point d’entrée conforme au prototype [WIZARDENTRY.](wizardentry.md) 
     
-   - Implémenter une procédure de boîte de dialogue Windows standard conforme au prototype [SERVICEWIZARDDLGPROC.](servicewizarddlgproc.md) 
+   - Implémentez une Windows de dialogue standard conforme au prototype [SERVICEWIZARDDLGPROC.](servicewizarddlgproc.md) 
     
    - Améliorez votre fonction de point d’entrée de service de message pour répondre à des événements supplémentaires.
     

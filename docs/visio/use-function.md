@@ -36,7 +36,7 @@ Nombre
   
 ## <a name="remarks"></a>Remarques
 
-Si un  nom nommé de forme de forme de fond est présent dans le gabarit du document, le motif est appliqué en tant que motif de trait, motif de remplissage, flèche de début ou flèche de fin. 
+Si un  nom nommé de forme de fond est présent dans le gabarit du document, le motif est appliqué en tant que motif de trait, motif de remplissage, flèche de début ou flèche de fin. 
   
 Cette fonction renvoie toujours 254.
   

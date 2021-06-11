@@ -39,7 +39,7 @@ Numérique
 
 La fonction SIGN renvoie 1 si le  _nombre_ est positif, 0 si le nombre est zéro, ou -1 si _le nombre_ est négatif. 
   
-Spécifier une  _valeur fuzz_ permet d’éviter les erreurs d’arrondi à un point flottant lorsqu’un calcul est proche de zéro. Si vous ne spécifiez pas de valeur  _fuzz,_ Visio utilise 1E-9 (0,000000001). Cette option vous permet de fournir une valeur différente lorsque vous mettez des dessins à l’échelle ou lorsque vous souhaitez faire une comparaison exacte. 
+Spécifier une  _valeur fuzz_ permet d’éviter les erreurs d’arrondi à un point flottant lorsqu’un calcul est proche de zéro. Si vous ne spécifiez pas de valeur _fuzz,_ Visio utilise 1E-9 (0,000000001). Cette option vous permet de fournir une valeur différente lorsque vous mettez des dessins à l’échelle ou lorsque vous souhaitez faire une comparaison exacte. 
   
 ## <a name="example-1"></a>Exemple 1
 

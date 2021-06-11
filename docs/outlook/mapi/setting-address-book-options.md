@@ -31,7 +31,7 @@ Vous pouvez définir trois propriétés qui décrivent les options d’utilisati
     
 - **PR_AB_DEFAULT_DIR** ([PidTagAbDefaultDir](pidtagabdefaultdir-canonical-property.md))
     
-    La **PR_AB_DEFAULT_DIR** est l’identificateur d’entrée du conteneur de carnet d’adresses à afficher initialement lorsque le carnet d’adresses est affiché. Le paramètre de répertoire par défaut reste en vigueur jusqu’à ce que vous le modifiez en appelant la méthode [IAddrBook::SetDefaultDir.](iaddrbook-setdefaultdir.md) Vous pouvez afficher le répertoire par défaut en appelant la [méthode IAddrBook::GetDefaultDir.](iaddrbook-getdefaultdir.md) 
+    La **PR_AB_DEFAULT_DIR** est l’identificateur d’entrée du conteneur de carnet d’adresses à afficher initialement lors de l’affichage du carnet d’adresses. Le paramètre de répertoire par défaut reste en vigueur jusqu’à ce que vous le modifiez en appelant la méthode [IAddrBook::SetDefaultDir.](iaddrbook-setdefaultdir.md) Vous pouvez afficher le répertoire par défaut en appelant la [méthode IAddrBook::GetDefaultDir.](iaddrbook-getdefaultdir.md) 
     
 - **PR_AB_DEFAULT_PAB** ([PidTagAbDefaultPab](pidtagabdefaultpab-canonical-property.md))
     

@@ -37,11 +37,11 @@ HRESULT GetNamesFromIDs(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lppPropTags_
   
-> [in, out] Lors de l’entrée, un pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété ; sinon, NULL, indiquant que tous les noms doivent être renvoyés. Le **membre cValues** du tableau de balises de propriétés ne peut pas être 0. Si  _lppPropTags est_ un pointeur valide lors de l’entrée, **GetNamesFromIDs** renvoie les noms de chaque identificateur de propriété inclus dans le tableau. 
+> [in, out] Lors de l’entrée, un pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété ; Sinon, NULL, indiquant que tous les noms doivent être renvoyés. Le **membre cValues** du tableau de balises de propriétés ne peut pas être 0. Si  _lppPropTags est_ un pointeur valide lors de l’entrée, **GetNamesFromIDs** renvoie les noms de chaque identificateur de propriété inclus dans le tableau. 
     
  _lpPropSetGuid_
   
@@ -91,7 +91,7 @@ Bien que l’accès à la plupart des propriétés se fait par identificateur de
   
 - Récupérer les noms des identificateurs de propriété spécifiques dans un jeu de propriétés spécifique.
     
-- Récupérer les noms des identificateurs de propriété spécifiques dans n’importe quel jeu de propriétés.
+- Récupérer des noms pour des identificateurs de propriété spécifiques dans n’importe quel jeu de propriétés.
     
 - Récupérer les noms de toutes les propriétés nommées incluses dans le mappage de l’objet.
     

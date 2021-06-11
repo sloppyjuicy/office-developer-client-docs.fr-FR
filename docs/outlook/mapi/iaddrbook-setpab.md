@@ -34,7 +34,7 @@ HRESULT SetPAB(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent la **méthode SetPAB** pour désigner un conteneur particulier en tant que PAB. Le PAB est un conteneur qui se compose d’entrées copiées à partir d’autres conteneurs, ainsi que de nouvelles entrées. 
+Les clients et les fournisseurs de services appellent la **méthode SetPAB** pour désigner un conteneur particulier en tant que PAB. Le PAB est un conteneur constitué d’entrées copiées à partir d’autres conteneurs, ainsi que de nouvelles entrées. 
   
 Un appel à **SetPAB** établit un conteneur en tant que PAB jusqu’à ce que ce conteneur soit rendu indisponible ou qu’un nouveau conteneur devienne le PAB via un appel ultérieur à **SetPAB**. 
   

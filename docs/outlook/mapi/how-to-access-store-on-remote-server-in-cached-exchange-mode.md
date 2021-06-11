@@ -1,5 +1,5 @@
 ---
-title: Accéder à une boutique sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache
+title: Accéder à une boutique sur le serveur distant lorsque Outlook est en mode Exchange mis en cache
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,13 +13,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420730"
 ---
-# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Accéder à une boutique sur le serveur distant lorsqu’Outlook est en mode Exchange mis en cache
+# <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Accéder à une boutique sur le serveur distant lorsque Outlook est en mode Exchange mis en cache
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
 Cette rubrique contient un exemple de code en C++ qui montre comment utiliser l’indicateur **MAPI_NO_CACHE** pour ouvrir un dossier ou un message dans une magasin de messages sur le serveur distant lorsque Microsoft Office Outlook est en mode Exchange mis en cache. 
   
-Le mode Exchange mis en cache permet à Outlook d’utiliser une copie locale de la boîte aux lettres d’un utilisateur, tandis qu’Outlook maintient une connexion en ligne à une copie distante de la boîte aux lettres de l’utilisateur sur le serveur Exchange distant. Lorsqu’Outlook est en cours d’exécution en mode Exchange mis en cache, par défaut, toutes les solutions MAPI qui se connectent à la même session sont également connectées à la magasin de messages mis en cache. Toutes les données accessibles et les modifications apportées sont apportées à la copie locale de la boîte aux lettres.
+Le mode Exchange mis en cache permet à Outlook d’utiliser une copie locale de la boîte aux lettres d’un utilisateur tandis que Outlook maintient une connexion en ligne à une copie distante de la boîte aux lettres de l’utilisateur sur le serveur Exchange distant. Lorsque Outlook est en cours d’exécution en mode Exchange mis en cache, par défaut, toutes les solutions MAPI qui se connectent à la même session sont également connectées à la magasin de messages mis en cache. Toutes les données accessibles et les modifications apportées sont apportées à la copie locale de la boîte aux lettres.
   
 Un client ou un fournisseur de services peut remplacer la connexion à la magasin de messages locale et ouvrir un message ou un dossier sur la boutique distante en paramétrez le bit pour **MAPI_NO_CACHE** dans le paramètre  *ulFlags*  lors de l’appel de **[IMsgStore::OpenEntry](imsgstore-openentry.md)**. 
   

@@ -21,7 +21,7 @@ ms.locfileid: "33417706"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si le mode Exchange mis en cache pour le dossier Favoris du dossier **public** est activé et s’il est appliqué par la stratégie. 
+Indique si le mode Exchange mis en cache pour le dossier Favoris des **dossiers** publics est activé et si cela est appliqué par la stratégie. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -36,7 +36,7 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pfPolicy_
   

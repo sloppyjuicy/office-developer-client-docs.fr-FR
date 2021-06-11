@@ -1,5 +1,5 @@
 ---
-title: Travailler avec les paramètres de gestion des droits de l’information
+title: Travailler avec la gestion des droits Paramètres
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420009"
 ---
-# <a name="work-with-information-rights-management-settings"></a>Travailler avec les paramètres de gestion des droits de l’information
+# <a name="work-with-information-rights-management-settings"></a>Travailler avec la gestion des droits Paramètres
 
 Il existe deux types de paramètres de Gestion des droits relatifs à l'information (IRM) dans Microsoft InfoPath : l'un protège l'accès aux modèles de formulaires InfoPath et l'autre permet de contrôler l'accès aux données contenues dans les formulaires complétés et les actions sur ces données.
   
@@ -111,15 +111,15 @@ Les autorisations d'un utilisateur sont définies ou lues à l'aide des valeurs 
   
 |**Name**|**Description**|
 |:-----|:-----|
-|**PermissionType.Change** <br/> |Permet aux utilisateurs d'afficher, de copier et d'enregistrer un formulaire mais pas de l'imprimer. Elle correspond à la combinaison des autorisations **Read**, **Edit**, **Save** et **Extract**.  <br/> |
+|**PermissionType.Change** <br/> |Permet aux utilisateurs d'afficher, de copier et d'enregistrer un formulaire mais pas de l'imprimer. Elle correspond à la combinaison des autorisations **Read**, **Edit**, **Save** et **Extract**.<br/> |
 |**PermissionType.Edit** <br/> |Permet à l'utilisateur de modifier le formulaire.  <br/> |
 |**PermissionType.Extract** <br/> |Permet à un utilisateur disposant de l'autorisation **Read** de copier un contenu dans le formulaire.  <br/> |
 |**PermissionType.FullControl** <br/> |Permet à l'utilisateur d'ajouter, de modifier et de supprimer les autorisations d'autres utilisateurs d'un formulaire.  <br/> |
-|**PermissionType.ObjectModel** <br/> |Permet à un utilisateur d'accéder au document du formulaire par programme via son modèle objet. Les utilisateurs qui ne disposent pas de l'autorisation **ObjectModel** ne peuvent pas avoir recours au modèle objet pour déterminer leurs propres autorisations.  <br/> |
+|**PermissionType.ObjectModel** <br/> |Permet à un utilisateur d'accéder au document du formulaire par programme via son modèle objet. Les utilisateurs qui ne disposent pas de l'autorisation **ObjectModel** ne peuvent pas avoir recours au modèle objet pour déterminer leurs propres autorisations.<br/> |
 |**PermissionType.Print** <br/> |Permet à l'utilisateur d'imprimer le formulaire.  <br/> |
-|**PermissionType.Read** <br/> |Permet à l'utilisateur de lire (d'afficher) le formulaire. (Les autorisations **Read** et **View** sont équivalentes.)  <br/> |
+|**PermissionType.Read** <br/> |Permet à l'utilisateur de lire (d'afficher) le formulaire. (Les autorisations **Read** et **View** sont équivalentes.)<br/> |
 |**PermissionType.Save** <br/> |Permet à l'utilisateur d'enregistrer le formulaire.  <br/> |
-|**PermissionType.View** <br/> |Permet à l'utilisateur d'afficher (de lire) le formulaire. (Les autorisations **Read** et **View** sont équivalentes.)  <br/> |
+|**PermissionType.View** <br/> |Permet à l'utilisateur d'afficher (de lire) le formulaire. (Les autorisations **Read** et **View** sont équivalentes.) <br/> |
    
 ### <a name="example"></a>Exemple
 

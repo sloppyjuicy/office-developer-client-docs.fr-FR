@@ -28,7 +28,7 @@ La **fonction DateAdd** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *DatePart*  <br/> |Partie de  *Date*  à laquelle un nombre d’nombres integer est ajouté. Reportez-vous à la section Remarques pour obtenir la liste des paramètres valides.  <br/> |
+| *DatePart*  <br/> |Partie de  *Date*  à laquelle un nombre d’nombres est ajouté. Reportez-vous à la section Remarques pour obtenir la liste des paramètres valides.  <br/> |
 | *Number*  <br/> |Est une expression qui peut être résolue en un nombre integer qui est ajouté à un  *datepart*  de  *date*  . Si vous spécifiez une valeur avec une fraction décimale, la fraction est tronquée.  <br/> |
 | *Date*  <br/> |Expression qui peut être résolue en valeur Date/Heure. Expression  *d’argument Date,*  expression de colonne, variable définie par l’utilisateur ou littéral de chaîne.  <br/> |
    

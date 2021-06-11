@@ -91,7 +91,7 @@ Les clients peuvent créer une liste de distribution directement dans un contene
 
 8. Appelez la méthode **IUnknown::QueryInterface** de la nouvelle entrée, en passant IID_IDistList comme identificateur d’interface, pour déterminer si l’entrée est une liste de distribution et prend en charge l’interface [IDistList : IMAPIContainer.](idistlistimapicontainer.md) Étant **donné que CreateEntry** renvoie un pointeur **IMAPIProp** plutôt que le pointeur **IMailUser** ou **IDistList** plus spécifique, vérifiez qu’un objet de liste de distribution a été créé. Si **QueryInterface réussit,** vous pouvez être sûr d’avoir créé une liste de distribution plutôt qu’un utilisateur de messagerie. 
     
-9. Appelez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) de la liste de distribution pour définir son nom d’affichage et d’autres propriétés. 
+9. Appelez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) de la liste de distribution pour définir son nom complet et d’autres propriétés. 
     
 10. Appelez la méthode [IABContainer::CreateEntry](iabcontainer-createentry.md) de la liste de distribution pour ajouter un ou plusieurs utilisateurs de messagerie. 
     

@@ -25,7 +25,7 @@ ms.locfileid: "33421353"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table des dossiers de réception, une table qui inclut des informations sur tous les dossiers de réception de la boutique de messages.
+Permet d’accéder à la table des dossiers de réception, une table qui contient des informations sur tous les dossiers de réception de la boutique de messages.
   
 ```cpp
 HRESULT GetReceiveFolderTable(
@@ -33,7 +33,7 @@ HRESULT GetReceiveFolderTable(
   LPMAPITABLE FAR * lppTable );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   

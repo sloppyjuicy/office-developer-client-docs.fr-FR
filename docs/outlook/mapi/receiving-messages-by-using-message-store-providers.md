@@ -33,9 +33,9 @@ Pour prendre en charge les envois de messages entrants, votre fournisseur de mag
     
 La séquence d’appels de méthode qui se produit lorsqu’un message entrant est remis à une magasin de messages est la suivante :
   
-1. Lepooler MAPI appelle [IMsgStore::OpenEntry](imsgstore-openentry.md) avec [l’ID](entryid.md) d’entrée de boîte de réception pour obtenir une interface [IMAPIFolder.](imapifolderimapicontainer.md) 
+1. Lepooler MAPI appelle [IMsgStore::OpenEntry](imsgstore-openentry.md) avec [l’EntryID](entryid.md) de boîte de réception pour obtenir une interface [IMAPIFolder.](imapifolderimapicontainer.md) 
     
-2. Lepooler MAPI appelle [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour obtenir un nouvel objet message. 
+2. Lepooler MAPI appelle [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) pour obtenir un nouvel objet de message. 
     
 3. Lepooler MAPI transmet l’objet message au fournisseur de transport.
     

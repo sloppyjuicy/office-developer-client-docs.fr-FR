@@ -27,7 +27,7 @@ Un formulaire MAPI est une visionneuse pour un message d’une classe particuli�
     
 - Objet de contexte d’affichage, qui prend en charge l’interface [IMAPIViewContext : IUnknown.](imapiviewcontextiunknown.md) 
     
-Chacun de ces objets est utilisé par un composant appelé serveur de formulaires qui implémente chaque formulaire, qui gère son stockage et les notifications générées par les clients qui gèrent l’affichage. Un autre composant, le fournisseur de bibliothèque de formulaires, implémente un gestionnaire de formulaires. Le gestionnaire de formulaires administre les bibliothèques de formulaires, qui stockent les fichiers exécutables du serveur de formulaires. Cette administration inclut le chargement du serveur de formulaires approprié et la gestion de la communication initiale entre le serveur et le client.
+Chacun de ces objets est utilisé par un composant appelé serveur de formulaires qui implémente chaque formulaire, qui gère son stockage et les notifications générées par les clients qui gèrent l’affichage. Un autre composant, le fournisseur de bibliothèque de formulaires, implémente un gestionnaire de formulaires. Le gestionnaire de formulaires administre les bibliothèques de formulaires, qui stockent les fichiers exécutables du serveur de formulaires. Cette administration inclut le chargement du serveur de formulaire approprié et la gestion de la communication initiale entre le serveur et le client.
   
 Le diagramme suivant illustre la relation entre un client et les autres parties de l’architecture de formulaire MAPI.
   
@@ -49,7 +49,7 @@ Si votre client prévoit de gérer des formulaires MAPI, vous utiliserez l’int
     
 Pour accéder au gestionnaire de formulaires, appelez la [fonction MAPIOpenFormMgr](mapiopenformmgr.md) une fois lors de l’initialisation. 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Mise en œuvre d’une](implementing-a-form-viewer.md)visionneuse de formulaires : décrit comment implémenter une visionneuse de formulaires à l’aide d’un sink de conseil d’affichage, d’un site de message et d’un contexte d’affichage.
     

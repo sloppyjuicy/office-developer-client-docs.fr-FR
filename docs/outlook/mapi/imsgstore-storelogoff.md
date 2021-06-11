@@ -33,7 +33,7 @@ HRESULT StoreLogoff(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulFlags_
   
@@ -41,11 +41,11 @@ HRESULT StoreLogoff(
     
 LOGOFF_ABORT 
   
-> Toute activité de fournisseur de transport pour cette magasin de messages doit être arrêtée avant la ff. Le contrôle est renvoyé à l’appelant après l’arrêt de l’activité. Si une activité de fournisseur de transport a lieu, la logoff ne se produit pas et aucun changement de comportement du fournisseur de transport ou dupooler MAPI ne se produit. Si l’activité du fournisseur de transport est inactive, lepooler MAPI libère le magasin. 
+> Toute activité de fournisseur de transport pour cette magasin de messages doit être arrêtée avant la ff. Le contrôle est renvoyé à l’appelant après l’arrêt de l’activité. Si une activité de fournisseur de transport a lieu, la ffage de logo ne se produit pas et aucun changement de comportement du fournisseur de transport ou dupooler MAPI ne se produit. Si l’activité du fournisseur de transport est inactive, lepooler MAPI libère le magasin. 
     
 LOGOFF_NO_WAIT 
   
-> La magasin de messages ne doit pas attendre les messages des fournisseurs de transport avant de se fermer. Les messages sortants prêts à être envoyés sont envoyés. Si ce magasin contient la boîte de réception par défaut, tous les messages in-process sont reçus, puis la réception supplémentaire est désactivée. Une fois l’activité terminée, lepooler MAPI libère le magasin et le contrôle est immédiatement renvoyé à l’appelant. 
+> La magasin de messages ne doit pas attendre les messages des fournisseurs de transport avant de se fermer. Les messages sortants prêts à être envoyés sont envoyés. Si cette boutique contient la boîte de réception par défaut, tous les messages in-process sont reçus, puis la réception est désactivée. Une fois l’activité terminée, lepooler MAPI libère le magasin et le contrôle est immédiatement renvoyé à l’appelant. 
     
 LOGOFF_ORDERLY 
   
@@ -53,7 +53,7 @@ LOGOFF_ORDERLY
     
 LOGOFF_PURGE 
   
-> La logoff doit fonctionner de la même manière que si l’indicateur LOGOFF_NO_WAIT est définie, mais la méthode [IXPLogon::FlushQueues ou](ixplogon-flushqueues.md) [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) pour les fournisseurs de transport appropriés doit être appelée. L LOGOFF_PURGE de commande renvoie le contrôle à l’appelant une fois l’exécution terminée. 
+> La logoff doit fonctionner de la même manière que si l’indicateur LOGOFF_NO_WAIT est définie, mais la méthode [IXPLogon::FlushQueues ou](ixplogon-flushqueues.md) [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) pour les fournisseurs de transport appropriés doit être appelée. L’LOGOFF_PURGE de contrôle renvoie le contrôle à l’appelant une fois l’exécution terminée. 
     
 LOGOFF_QUIET 
   
@@ -81,7 +81,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgStore::StoreLogoff** exerce le contrôle sur l’interaction entre la boutique de messages et les fournisseurs de transport pendant le processus de ffage de la logo. **L’appel de StoreLogoff** est valide uniquement pour les magasins de messages utilisés uniquement par l’appelant. Par exemple, lorsque deux clients utilisent la même magasin de messages et que l’un d’eux appelle **StoreLogoff,** la magasin de messages est immédiatement libérée et le contrôle est renvoyé au client appelant.
+La **méthode IMsgStore::StoreLogoff** exerce le contrôle sur l’interaction entre la boutique de messages et les fournisseurs de transport pendant le processus de ffage de la logo. **L’appel de StoreLogoff est** valide uniquement pour les magasins de messages utilisés uniquement par l’appelant. Par exemple, lorsque deux clients utilisent la même magasin de messages et que l’un d’eux appelle **StoreLogoff,** la magasin de messages est immédiatement libérée et le contrôle est renvoyé au client appelant.
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 

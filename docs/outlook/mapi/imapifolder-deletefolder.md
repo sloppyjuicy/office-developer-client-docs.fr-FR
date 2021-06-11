@@ -37,7 +37,7 @@ HRESULT DeleteFolder(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -91,7 +91,7 @@ MAPI_W_PARTIAL_COMPLETION
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPIFolder::D eleteFolder** supprime un sous-ensemble. Par défaut, **DeleteFolder** fonctionne uniquement sur les dossiers vides, mais vous pouvez l’utiliser avec succès sur les dossiers non vides en fixant deux indicateurs : DEL_FOLDERS et DEL_MESSAGES. Seuls les dossiers vides ou les dossiers qui définissent les indicateurs DEL_FOLDERS et DEL_MESSAGES sur l’appel **DeleteFolder** peuvent être supprimés. DEL_FOLDERS tous les sous-dossiers du dossier peuvent être supprimés ; DEL_MESSAGES tous les messages du dossier peuvent être supprimés. 
+La **méthode IMAPIFolder::D eleteFolder** supprime un sous-ensemble. Par défaut, **DeleteFolder** fonctionne uniquement sur les dossiers vides, mais vous pouvez l’utiliser avec succès sur des dossiers non vides en fixant deux indicateurs : DEL_FOLDERS et DEL_MESSAGES. Seuls les dossiers vides ou les dossiers qui définissent les indicateurs DEL_FOLDERS et DEL_MESSAGES sur l’appel **DeleteFolder** peuvent être supprimés. DEL_FOLDERS tous les sous-dossiers du dossier peuvent être supprimés ; DEL_MESSAGES tous les messages du dossier peuvent être supprimés. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 

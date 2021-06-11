@@ -49,7 +49,7 @@ Pour ajouter un utilisateur de messagerie ou une liste de distribution à un con
     
 7. Vérifiez si l’objet étranger prend en **charge la PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)). 
     
-8. Si l’objet étranger prend en charge **PR_TEMPLATEID**, appelez [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) pour récupérer une interface d’objet de propriété du fournisseur étranger et définir le contenu du paramètre  _lppMAPIPropEntry_ sur l’implémentation d’objet de propriété étrangère. 
+8. Si l’objet étranger prend en charge **PR_TEMPLATEID**, appelez [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) pour récupérer une interface d’objet de propriété auprès du fournisseur étranger et définissez le contenu du paramètre  _lppMAPIPropEntry_ sur l’implémentation de l’objet de propriété étrangère. 
     
 9. Si l’objet étranger ne prend **pas en charge PR_TEMPLATEID**, définissez le contenu du paramètre  _lppMAPIPropEntry_ sur l’implémentation du nouvel objet par votre fournisseur. 
     

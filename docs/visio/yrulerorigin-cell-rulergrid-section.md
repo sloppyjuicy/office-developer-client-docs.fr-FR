@@ -22,7 +22,7 @@ Indique le point zéro sur l'axe y de la règle de la page.
   
 ## <a name="remarks"></a>Remarques
 
-Cette cellule correspond à l’option Règle zéro verticale dans  la boîte de dialogue **Grille &amp;** de règles (sous l’onglet Affichage, cliquez sur **Afficher** la flèche).  
+Cette cellule correspond à l’option Règle zéro verticale dans  la boîte de dialogue **Grille &amp;** de règle (sous l’onglet Affichage, cliquez sur **Afficher** la flèche).  
   
 Pour obtenir une référence à la cellule YRulerOrigin par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

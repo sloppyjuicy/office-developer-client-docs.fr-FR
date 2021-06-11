@@ -46,7 +46,7 @@ Effectue des opérations sur les messages et sous-dossiers d’un dossier.
 |[DeleteMessages](imapifolder-deletemessages.md) <br/> |Supprime un ou plusieurs messages.  <br/> |
 |[CreateFolder](imapifolder-createfolder.md) <br/> |Crée un sous-ensemble.  <br/> |
 |[CopyFolder](imapifolder-copyfolder.md) <br/> |Copie ou déplace un sous-folder.  <br/> |
-|[DeleteFolder](imapifolder-deletefolder.md) <br/> |Supprime un sous-folder.  <br/> |
+|[DeleteFolder](imapifolder-deletefolder.md) <br/> |Supprime un sous-foldeur.  <br/> |
 |[SetReadFlags](imapifolder-setreadflags.md) <br/> |Définit ou désine l’indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d’un ou plusieurs messages du dossier et gère l’envoi de rapports de lecture.  <br/> |
 |[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |Obtient l’état associé à un message dans un dossier particulier.  <br/> |
 |[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |Définit l’état associé à un message.  <br/> |

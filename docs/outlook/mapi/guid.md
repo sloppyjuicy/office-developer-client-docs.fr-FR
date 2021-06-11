@@ -74,7 +74,7 @@ Les fournisseurs de magasins de messages et de carnets d’adresses génèrent u
   
 En outre, ils sont utilisés dans l’implémentation de Microsoft Remote Procedure Call (RPC) et de l’ODL (Object Description Language). Pour plus d’informations sur ces utilisations, voir le Guide du programmeur  *Microsoft RPC* et la référence, *OLE Programmer’s Reference*  et Inside  *OLE*, *Second Edition*  . 
   
-La structure **GUID** est définie dans le Guide de référence du *programmeur Win32.* Des valeurs spécifiques pour les structures **GUID** utilisées dans MAPI sont définies dans le fichier d’en-tête MAPI Mapiguid.h. 
+La structure **GUID** est définie dans le Guide de référence du *programmeur Win32.* Des valeurs spécifiques **pour les** structures GUID utilisées dans MAPI sont définies dans le fichier d’en-tête MAPI Mapiguid.h. 
   
 ## <a name="see-also"></a>Voir aussi
 

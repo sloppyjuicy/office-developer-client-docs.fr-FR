@@ -20,7 +20,7 @@ ms.locfileid: "33420989"
   
 Vous pouvez utiliser l’action **SupprimerEnregistrement** pour supprimer un enregistrement. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 **L’action SupprimerEnregistrement** ne contient aucun argument lorsqu’elle est utilisée dans une macro d’interface utilisateur. 
   

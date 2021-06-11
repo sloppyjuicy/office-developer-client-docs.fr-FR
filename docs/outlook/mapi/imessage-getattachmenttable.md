@@ -34,7 +34,7 @@ HRESULT GetAttachmentTable(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -60,7 +60,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMessage::GetAttachmentTable** renvoie un pointeur vers la table des pièces jointes du message, qui inclut des informations sur toutes les pièces jointes du message. Les clients peuvent accéder à une pièce jointe uniquement par le biais de la table des pièces jointes. En récupérant le numéro d’une pièce jointe, sa **propriété PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) permet à un client d’utiliser plusieurs méthodes **IMessage** pour travailler avec la pièce jointe. 
+La **méthode IMessage::GetAttachmentTable** renvoie un pointeur vers la table des pièces jointes du message, qui inclut des informations sur toutes les pièces jointes du message. Les clients peuvent accéder à une pièce jointe uniquement par le biais de la table des pièces jointes. En récupérant le numéro d’une pièce jointe, sa propriété **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) permet à un client d’utiliser plusieurs méthodes **IMessage** pour travailler avec la pièce jointe. 
   
 Il existe une ligne pour chaque pièce jointe. Pour obtenir la liste complète des colonnes d’une table de pièces jointes, voir [Tables des pièces jointes.](attachment-tables.md)
   

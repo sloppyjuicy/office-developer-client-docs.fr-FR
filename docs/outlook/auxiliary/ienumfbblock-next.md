@@ -30,7 +30,7 @@ HRESULT Next(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _celt_
   
@@ -42,7 +42,7 @@ _pblk_
     
 _pcfetch_
   
-> [out] Nombre de blocs de libre/occupé réellement renvoyés dans  *pblk*  . 
+> [out] Nombre de blocs de libre/occupé réellement renvoyés en  *pblk*  . 
     
 ## <a name="return-values"></a>Valeurs de retour
 

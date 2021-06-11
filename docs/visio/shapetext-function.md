@@ -42,8 +42,8 @@ Vous pouvez utiliser toute combinaison des indicateurs suivants avec la fonction
 |**Indicateur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Présente le texte tel qu’il est affiché dans la forme.  <br/> |
-|1   <br/> |Comprend des tirets.  <br/> |
-|2   <br/> |Ne comprend pas de texte développé dans les champs.  <br/> |
+|1  <br/> |Comprend des tirets.  <br/> |
+|2  <br/> |Ne comprend pas de texte développé dans les champs.  <br/> |
 |4   <br/> |Convertit les tabulations en un espace simple.  <br/> |
 |8   <br/> |Convertit les tabulations en un jeu d’espaces.  <br/> |
 |16   <br/> |Convertit les retours chariot et les sauts de ligne en espaces.  <br/> |

@@ -62,7 +62,7 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Remarques
 
-Les paramètres transmis entre MAPI et les fournisseurs de services sont supposés être corrects et ne subissent une validation de débogage qu’avec la macro [CheckParms.](checkparms.md) Les fournisseurs doivent vérifier tous les paramètres transmis par les applications clientes, mais les clients doivent supposer que les paramètres MAPI et fournisseur sont corrects. Utilisez la macro **HR_FAILED** pour tester les valeurs de retour. 
+Les paramètres transmis entre MAPI et les fournisseurs de services sont supposés corrects et ne subissent une validation de débogage qu’avec la macro [CheckParms.](checkparms.md) Les fournisseurs doivent vérifier tous les paramètres transmis par les applications clientes, mais les clients doivent supposer que les paramètres MAPI et fournisseur sont corrects. Utilisez la macro **HR_FAILED** pour tester les valeurs de retour. 
   
 La macro **UlValidateParms est** appelée différemment selon que le code appelant est C ou C++. Cette macro est utilisée pour valider les paramètres des quelques méthodes **IUnknown** et MAPI qui retournent ULONG au lieu de valeurs HRESULT ; La macro [ValidateParms fonctionne](validateparms.md) pour tous les autres. 
   

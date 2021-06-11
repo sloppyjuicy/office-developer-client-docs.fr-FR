@@ -34,7 +34,7 @@ Définit une structure [ADRLIST](adrlist.md) avec le nom spécifié qui contient
 SizedADRLIST (_centries,_name)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _ _centries_
   

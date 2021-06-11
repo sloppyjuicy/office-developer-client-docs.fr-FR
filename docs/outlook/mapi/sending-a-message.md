@@ -23,7 +23,7 @@ ms.locfileid: "33423621"
   
 Lorsque vous êtes prêt à envoyer un message, appelez sa [méthode IMessage::SubmitMessage.](imessage-submitmessage.md) **SubmitMessage** place le message dans la file d’attente sortante et définit l’indicateur MSGFLAG_SUBMIT dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) du message.
   
-Le fournisseur de magasins de messages, s’il est étroitement associé à un fournisseur de transport, remet le message directement au transport qui le remet au système de messagerie. S’il n’est pas étroitement couplé, le fournisseur de magasin de messages informe lepooler MAPI que la file d’attente sortante a changé et que lepooler MAPI transfère le message à un fournisseur de transport approprié.
+Le fournisseur de magasins de messages, s’il est étroitement associé à un fournisseur de transport, fournit le message directement au transport qui le remet au système de messagerie. S’il n’est pas étroitement couplé, le fournisseur de magasins de messages informe lepooler MAPI que la file d’attente sortante a changé et que lepooler MAPI transfère le message à un fournisseur de transport approprié.
   
 Si vous autorisez les utilisateurs à annuler une opération d’envoi, appelez [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md) pour implémenter cette fonctionnalité. **AbortSubmit** supprime le message de la file d’attente sortante. Les utilisateurs peuvent être autorisés à empêcher l’envoi jusqu’à ce que le message soit remis au système de messagerie sous-jacent. 
   

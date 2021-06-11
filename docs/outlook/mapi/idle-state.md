@@ -19,7 +19,7 @@ ms.locfileid: "33419477"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se produit pendant l’état inactif de la machine à états de réplication. 
+ Cette rubrique décrit ce qui se produit pendant l’état d’inactivité de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 

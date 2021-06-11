@@ -38,7 +38,7 @@ HRESULT CopyMessages(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMsgList_
   
@@ -46,7 +46,7 @@ HRESULT CopyMessages(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au dossier de destination pointé par le paramètre _lpDestFolder._ En passant NULL, le fournisseur de services retourne l’interface de dossier [standard, IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les clients doivent passer la valeur NULL. D’autres appelants peuvent définir le paramètre  _lpInterface_ sur IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au dossier de destination pointé par le paramètre _lpDestFolder._ La transmission de null entraîne le renvoi par le fournisseur de services de l’interface de dossier [standard, IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les clients doivent transmettre la valeur NULL. D’autres appelants peuvent définir le paramètre  _lpInterface_ sur IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
     
  _lpDestFolder_
   
@@ -66,7 +66,7 @@ HRESULT CopyMessages(
     
 MAPI_DECLINE_OK 
   
-> Informe le fournisseur de magasin de messages de renvoyer immédiatement MAPI_E_DECLINE_COPY s’il implémente **IMAPIFolder::CopyMessages** en appelant la méthode [IMAPISupport::D oCopyTo](imapisupport-docopyto.md) ou [IMAPISupport::D oCopyProps](imapisupport-docopyprops.md) de l’objet de support. 
+> Informe le fournisseur de la boutique de messages de renvoyer immédiatement MAPI_E_DECLINE_COPY s’il implémente **IMAPIFolder::CopyMessages** en appelant la méthode [IMAPISupport::D oCopyTo](imapisupport-docopyto.md) ou [IMAPISupport::D oCopyProps](imapisupport-docopyprops.md) de l’objet de support. 
     
 MESSAGE_DIALOG 
   
@@ -104,7 +104,7 @@ Votre implémentation peut déplacer ou copier les messages dans n’importe que
   
 Lorsque l’opération de copie ou de déplacement implique plusieurs messages, effectuez l’opération aussi complètement que possible. N’arrêtez pas l’opération prématurément, sauf si une défaillance dépasse votre contrôle, par exemple un manque de mémoire, un manque d’espace disque ou une altération de la magasin de messages.
   
-Essayez de conserver les identificateurs d’entrée entre les opérations de déplacement ou de copie. Vous devez également conserver les identificateurs d’entrée, bien que cela ne soit pas obligatoire.
+Essayez de conserver les identificateurs d’entrée dans les opérations de déplacement ou de copie. Vous devez également conserver les identificateurs d’entrée, bien que cela ne soit pas obligatoire.
   
 Envoyez des notifications lorsque vous déplacez ou copiez des messages afin que les clients soient avertis que leurs appels aux méthodes [IMAPIProp::SaveChanges](imapiprop-savechanges.md) des messages risquent d’échouer. 
   
@@ -122,7 +122,7 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
 |**IMAPIFolder::CopyMessages** n’a pas pu copier ou déplacer tous les messages.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
 |**IMAPIFolder::CopyMessages** n’a pas pu se terminer.  <br/> |Toute valeur d’erreur  <br/> |
    
-Lorsque **IMAPIFolder::CopyMessages** ne peut pas se terminer, ne supposez pas qu’aucun travail n’a été effectué. **IMAPIFolder::CopyMessages** a peut-être pu copier ou déplacer un ou plusieurs messages avant de rencontrer l’erreur. 
+Lorsque **IMAPIFolder::CopyMessages** n’est pas en mesure de se terminer, ne supposez pas qu’aucun travail n’a été effectué. **IMAPIFolder::CopyMessages** a peut-être pu copier ou déplacer un ou plusieurs messages avant de rencontrer l’erreur. 
   
 ## <a name="see-also"></a>Voir aussi
 

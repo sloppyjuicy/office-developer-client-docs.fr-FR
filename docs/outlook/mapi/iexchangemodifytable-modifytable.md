@@ -35,7 +35,7 @@ HRESULT ModifyTable(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -43,7 +43,7 @@ HRESULT ModifyTable(
     
 0 (zéro)
   
-> Utilisez la valeur du membre **ulRowFlags** de la structure [ROWENTRY.](rowentry.md) 
+> Utilisez la valeur du **membre ulRowFlags** de la structure [ROWENTRY.](rowentry.md) 
     
 ACLTABLE_FREEBUSY
   

@@ -41,7 +41,7 @@ typedef struct
 
 _ulSize_: taille de **la MAPIOFFLINE_ADVISEINFO**. 
     
-_ulClientToken_: jeton défini par le client à propos d’un rappel. Il s’agit *du membre ulClientToken* de la structure **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** transmise à **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)**. 
+_ulClientToken_: jeton défini par le client sur un rappel. Il s’agit *du membre ulClientToken* de la structure **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** transmise à **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)**. 
     
 _CallbackType_: type de rappel à effectuer.
     
@@ -49,7 +49,7 @@ _CallbackType_: type de rappel à effectuer.
     
    - Le type de rappel est par notification. Il s’agit du seul type de rappel pris en charge.  *pCallback doit*  indiquer l’interface **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
-_pCallback :_ interface à utiliser pour le rappel. Il s’agit de l’implémentation du client **[d’IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+_pCallback_: interface à utiliser pour le rappel. Il s’agit de l’implémentation du client **[de IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
     
 _ulAdviseTypes_: types de conseils, comme identifié par la condition de conseil. Le seul type pris en charge est MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
     

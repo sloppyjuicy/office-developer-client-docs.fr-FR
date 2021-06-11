@@ -33,7 +33,7 @@ HRESULT GetCurrentState(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _l’état de l’état de_
   

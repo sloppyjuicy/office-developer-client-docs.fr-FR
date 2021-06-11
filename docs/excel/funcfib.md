@@ -28,7 +28,7 @@ Exemple de fonction de feuille de calcul définie par l’utilisateur qui calcul
 LPXLOPER12 WINAPI FuncFib (LPXLOPER12 pxN);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pxN_ (**LPXLOPER12**)
   
@@ -42,7 +42,7 @@ Nième numéro Fibonacci.
   
 ## <a name="remarks"></a>Remarques
 
-La fonction utilise une variable statique définie dans le bloc de fonctions en tant que valeur de retour **XLOPER12**. Cette fonction n’est pas thread-safe. Cette fonction, ainsi que toute fonction de feuille de calcul qui utilise cette stratégie pour renvoyer des **XLOPER** ou **XLOPER12,** ne doivent pas être inscrites en tant que thread-safe à partir d’Excel 2007.
+La fonction utilise une variable statique définie dans le bloc de fonctions en tant que valeur de retour **XLOPER12**. Il ne s’agit pas d’une fonction thread-safe. Cette fonction, ainsi que toute fonction de feuille de calcul qui utilise cette stratégie pour renvoyer des **XLOPER** ou **XLOPER12,** ne doivent pas être inscrites en tant que thread-safe à partir de Excel 2007.
   
 ### <a name="example"></a>Exemple
 

@@ -21,7 +21,7 @@ ms.locfileid: "33417951"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les clients s’appuient souvent sur les notifications de tableau pour découvrir les modifications apportées aux objets au lieu de s’inscrire pour recevoir des notifications directement à partir des objets. Les modifications types qui entraînent l’envoi de notifications incluent l’ajout, la suppression ou la modification d’une ligne et toute erreur critique. Lorsque les notifications arrivent, les clients peuvent déterminer s’il faut effectuer un autre appel pour recharger la table. 
+Les clients s’appuient souvent sur des notifications de tableau pour découvrir les modifications apportées aux objets au lieu de s’inscrire pour recevoir des notifications directement à partir des objets. Les modifications types qui provoquent l’envoi de notifications incluent l’ajout, la suppression ou la modification d’une ligne et toute erreur critique. Lorsque les notifications arrivent, les clients peuvent déterminer s’il faut effectuer un autre appel pour recharger la table. 
   
 Étant donné que les notifications de tableau sont asynchrones, il existe quelques problèmes qui peuvent rendre la gestion des notifications moins simple :
   

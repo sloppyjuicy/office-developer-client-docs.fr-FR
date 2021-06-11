@@ -15,7 +15,7 @@ ms.locfileid: "33419225"
 ---
 # <a name="sections-visio-shapesheet-reference"></a>Sections (Visio ShapeSheet Reference)
 
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [1-D Endpoints, section](1-d-endpoints-section.md)
     

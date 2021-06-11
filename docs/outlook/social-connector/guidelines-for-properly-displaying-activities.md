@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 55268188-8432-4145-9527-f5888949fc24
-description: Les fournisseurs Outlook Social Connector (OSC) peuvent définir les éléments getActivities et dynamicActivitiesLookupEx de manière à ce que les éléments d’activité du magasin OSC restent en mémoire.
+description: Outlook Les fournisseurs OSC (Social Connector) peuvent définir les éléments getActivities et dynamicActivitiesLookupEx de manière à ce qu’ILS stockent les éléments d’activité en mémoire.
 ms.openlocfilehash: b2fcaa125ac8bf7924726f4f09ff507769c3a3f7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33422914"
 ---
 # <a name="guidelines-for-properly-displaying-activities"></a>Instructions pour l’affichage correct des activités
 
-Les fournisseurs Outlook Social Connector (OSC) peuvent définir les éléments **getActivities** et **dynamicActivitiesLookupEx** de manière à ce que les éléments d’activité du magasin OSC restent en mémoire. Cette rubrique décrit les API d’extensibilité du fournisseur OSC que l’OSC appelle pour obtenir ou actualiser les activités et les détails du propriétaire de l’activité, si le fournisseur OSC prend en charge la synchronisation des flux d’activités à partir du réseau social. Cette rubrique répertorie également quelques éléments enfants de l’élément **activityFeed** que le fournisseur OSC doit définir pour qu’OSC affiche correctement les activités dans la carte de visite Office ou le volet Contacts Outlook. 
+Outlook Les fournisseurs OSC (Social Connector) peuvent définir les éléments **getActivities** et **dynamicActivitiesLookupEx** de manière à ce qu’ILS stockent les éléments d’activité en mémoire. Cette rubrique décrit les API d’extensibilité du fournisseur OSC que l’OSC appelle pour obtenir ou actualiser les activités et les détails du propriétaire de l’activité, si le fournisseur OSC prend en charge la synchronisation des flux d’activités à partir du réseau social. Cette rubrique répertorie également quelques éléments enfants de l’élément **activityFeed** que le fournisseur OSC doit définir pour qu’OSC affiche correctement les activités dans la carte de visite Office ou le volet contacts Outlook. 
   
 - L’OSC appelle la méthode [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) pour obtenir et stocker les activités dans le dossier Des flux d’actualités pour l’utilisateur connecté. Le fournisseur OSC doit implémenter **GetActivitiesEx** pour retourner une chaîne _XML_ d’activités conforme à la définition de schéma XML du fournisseur OSC de l’élément **activityFeed.** 
     
@@ -27,7 +27,7 @@ Les fournisseurs Outlook Social Connector (OSC) peuvent définir les éléments 
     
    Notez que, selon le schéma XML du fournisseur OSC, **l’élément nameHint** est un élément facultatif. L’OSC l’utilise pour correspondre au nom complet de l’utilisateur sélectionné dans la carte de visite ou le volet Contacts. De même, **l’élément emailAddress** est un élément facultatif dans le schéma XML. L’OSC l’utilise pour correspondre à l’adresse SMTP de l’utilisateur sélectionné dans la carte de visite ou le volet Contacts. 
     
-   Si seul l’élément **ownerID** est spécifié, mais qu’un ou les deux de **nameHint** et **emailAddress** ne sont pas spécifiés, l’OSC appelle la méthode [ISocialSession2::GetPeopleDetails,](isocialsession2-getpeopledetails.md) puis la méthode [ISocialPerson::GetDetails](isocialperson-getdetails.md) pour obtenir plus d’informations sur la personne identifiée par **ownerID**. Lorsque l’OSC appelle **ISocialPerson::GetDetails**, le fournisseur doit retourner le **code** XML de la personne qui spécifie les éléments **fullName** et **emailAddress.** 
+   Si seul l’élément **ownerID** est spécifié, mais qu’un ou les deux de **nameHint** et **emailAddress** ne sont pas spécifiés, l’OSC appelle la méthode [ISocialSession2::GetPeopleDetails,](isocialsession2-getpeopledetails.md) puis la méthode [ISocialPerson::GetDetails](isocialperson-getdetails.md) pour obtenir plus d’informations sur la personne identifiée par **ownerID**. Lorsque l’OSC appelle **ISocialPerson::GetDetails,** le fournisseur doit retourner le **code** XML de la personne qui spécifie les éléments **fullName** et **emailAddress.** 
     
 ## <a name="see-also"></a>Voir aussi
 

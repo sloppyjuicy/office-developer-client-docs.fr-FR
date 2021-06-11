@@ -31,9 +31,9 @@ Voir [IOlkAccount](iolkaccount.md).
    
 ## <a name="remarks"></a>Remarques
 
-Obtenez ou définissez cette propriété à l’aide de [IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivement.
+Obtenez ou définissez cette propriété à l’aide [d’IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivement.
   
-L’un des effets secondaires de la définition d’une banque comme magasin de remise par défaut pour un compte est que lors du démarrage d’Outlook, Outlook crée des dossiers de recherche pour cette banque s’ils n’existent pas déjà et liste la banque dans la barre To-Do.
+L’un des effets secondaires de la définition d’une banque en tant que banque de remise par défaut pour un compte est que lors du démarrage de Outlook, Outlook crée des dossiers de recherche pour cette banque s’ils n’existent pas déjà et liste la banque dans la barre To-Do.
   
 ## <a name="see-also"></a>Voir aussi
 

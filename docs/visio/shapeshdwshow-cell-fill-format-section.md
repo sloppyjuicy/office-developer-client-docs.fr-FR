@@ -21,8 +21,8 @@ Détermine si la forme affiche une ombre, sous la forme d’un nombre integer de
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Toujours afficher l’ombre si une ombre est spécifiée. Les ombres des sous-formes ne sont pas affichées.  <br/> |
-|1   <br/> |Ne restituer une ombre que si la forme n’a pas de parent. Utilisez des ombres de sous-forme si elles sont regroupées.  <br/> |
-|2   <br/> |Toujours afficher une ombre si une ombre est spécifiée. Les ombres des sous-formes sont affichées.  <br/> |
+|1  <br/> |Ne restituer une ombre que si la forme n’a pas de parent. Utilisez des ombres de sous-forme si elles sont regroupées.  <br/> |
+|2  <br/> |Toujours afficher une ombre si une ombre est spécifiée. Les ombres des sous-formes sont affichées.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

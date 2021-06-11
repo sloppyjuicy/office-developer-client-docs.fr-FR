@@ -22,21 +22,21 @@ ms.locfileid: "33421164"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Excel appelle la fonction [xlAutoRegister](xlautoregister-xlautoregister12.md) chaque fois qu’un appel a été effectué à la fonction XLM **REGISTER** ou à la fonction [xlfRegister](xlfregister-form-1.md)équivalente à l’API C, les types de retour et d’argument de la fonction étant manquants. Il permet au XLL de rechercher ses listes internes de fonctions et commandes exportées pour enregistrer la fonction avec l’argument et les types de retour spécifiés.
+Excel appelle la fonction [xlAutoRegister](xlautoregister-xlautoregister12.md) chaque fois qu’un appel a été effectué à la fonction XLM **REGISTER** ou à la fonction [xlfRegister](xlfregister-form-1.md)équivalente à l’API C, les types de retour et d’argument de la fonction étant manquants. Il permet au XLL de rechercher ses listes internes de fonctions et de commandes exportées pour enregistrer la fonction avec l’argument et les types de retour spécifiés.
   
-À partir d’Excel 2007, Excel appelle la fonction **xlAutoRegister12** de préférence à la fonction **xlAutoRegister** si elle est exportée par le XLL. 
+À partir Excel 2007, Excel appelle la fonction **xlAutoRegister12** de préférence à la fonction **xlAutoRegister** si elle est exportée par le XLL. 
   
 Excel ne nécessite pas de XLL pour implémenter et exporter l’une de ces fonctions.
   
 > [!NOTE]
-> Si **xlAutoRegister** /  **xlAutoRegister12** tente d’inscrire la fonction sans fournir les types d’argument et de retour, une boucle d’appel récursive se produit, ce qui finit par déborder la pile d’appels et se crashe dans Excel. 
+> Si **xlAutoRegister** /  **xlAutoRegister12** tente d’inscrire la fonction sans fournir les types d’argument et de retour, une boucle d’appel récursive se produit, ce qui finit par déborder la pile d’appels et se Excel. 
   
 ```cs
 LPXLOPER12 WINAPI xlAutoRegister12(LPXLOPER12 pxName);
 LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pxName_ (**xltypeStr**)
   
@@ -48,7 +48,7 @@ La fonction doit renvoyer le résultat de la tentative d’inscription de la fon
   
 ## <a name="remarks"></a>Remarques
 
-Votre implémentation de **xlAutoRegister** doit effectuer une recherche sans prendre en compte la cas dans les listes internes de votre XLL des fonctions et commandes qu’il exporte à la recherche d’une correspondance avec le nom transmis. Si la fonction ou la commande est trouvée, **xlAutoRegister** doit tenter de l’inscrire à l’aide de la fonction **xlfRegister,** en vous assurez de fournir la chaîne qui indique à Excel les types de retour et d’argument de la fonction, ainsi que toute autre information requise sur la fonction. Il doit ensuite revenir à Excel quel que soit l’appel **à xlfRegister** renvoyé. Si la fonction a été enregistrée avec succès, **xlfRegister** renvoie une valeur **xltypeNum** contenant l’ID Register de la fonction. 
+Votre implémentation de **xlAutoRegister** doit effectuer une recherche sans prendre en compte la cas dans les listes internes de votre XLL des fonctions et commandes qu’il exporte à la recherche d’une correspondance avec le nom transmis. Si la fonction ou la commande est trouvée, **xlAutoRegister** doit tenter de l’enregistrer à l’aide de la fonction **xlfRegister,** en vous assurez de fournir la chaîne qui indique à Excel les types de retour et d’argument de la fonction, ainsi que toute autre information requise sur la fonction. Il doit ensuite revenir à Excel quel que soit l’appel **à xlfRegister** renvoyé. Si la fonction a été enregistrée avec succès, **xlfRegister** renvoie une valeur **xltypeNum** contenant l’ID d’inscription de la fonction. 
   
 ### <a name="example"></a>Exemple
 

@@ -21,7 +21,7 @@ ms.locfileid: "33420919"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-MAPI définit un ensemble d’interfaces liées aux fournisseurs de magasins de messages. En raison de la large gamme de fonctionnalités qu’une magasin de messages peut choisir d’implémenter, certaines de ces interfaces sont requises et d’autres non. Le tableau suivant répertorie les interfaces MAPI liées aux fournisseurs de magasins de messages, indique si les interfaces sont obligatoires ou facultatives et décrit leur objectif.
+MAPI définit un ensemble d’interfaces liées aux fournisseurs de magasins de messages. En raison de la large gamme de fonctionnalités qu’une boutique de messages peut choisir d’implémenter, certaines de ces interfaces sont requises et d’autres non. Le tableau suivant répertorie les interfaces MAPI liées aux fournisseurs de magasins de messages, indique si les interfaces sont obligatoires ou facultatives et décrit leur objectif.
   
 |**Interface**|**État**|**Description**|
 |:-----|:-----|:-----|
@@ -34,10 +34,10 @@ MAPI définit un ensemble d’interfaces liées aux fournisseurs de magasins de 
 |[IMAPIStatus](imapistatusimapiprop.md) <br/> |Obligatoire  <br/> |Permet aux clients de valider l’état d’un magasin de messages et d’effectuer certaines tâches de configuration.  <br/> |
 |[IAttach](iattachimapiprop.md) <br/> |Facultatif  <br/> |Accède aux propriétés des pièces jointes des messages si le fournisseur de magasins prend en charge les pièces jointes.  <br/> |
 |**IStorage** <br/> |Facultatif  <br/> |Gère les objets de stockage structuré si le fournisseur de magasins prend en charge les pièces jointes d’objets OLE.  <br/> |
-|**IStream** <br/> |Facultatif  <br/> |Permet aux objets message et pièce jointe de lire et d’écrire des données dans des objets de flux.  <br/> |
+|**IStream** <br/> |Facultatif  <br/> |Permet aux objets de message et de pièce jointe de lire et d’écrire des données dans des objets de flux.  <br/> |
 |**IStreamDocfile** <br/> |Facultatif  <br/> |Permet à certains fournisseurs de services d’ouvrir un objet de stockage, tel qu’un fichier composé au format de fichier OLE 2.0.  <br/> |
    
-Les informations de base nécessaires pour implémenter **IMAPIFolder,** **IMessage,** **IMAPIStatus** et **IMAPITable** sont documentées dans les rubriques de référence de ces interfaces. Cette section contient des informations supplémentaires plus directement liées aux fournisseurs de magasins de messages. Le reste des interfaces MAPI doit être implémenté en fonction des informations de cette section et des rubriques de référence appropriées. Consultez la section COM et ActiveX Object Services dans le SDK Windows pour plus d’informations sur l’implémentation **d’IStorage,** **IStream** et **IStreamDocFile**.
+Les informations de base nécessaires pour implémenter **IMAPIFolder,** **IMessage,** **IMAPIStatus** et **IMAPITable** sont documentées dans les rubriques de référence de ces interfaces. Cette section contient des informations supplémentaires plus directement liées aux fournisseurs de magasins de messages. Le reste des interfaces MAPI doit être implémenté en fonction des informations de cette section et des rubriques de référence appropriées. Voir la section COM et ActiveX Object Services dans le SDK Windows pour plus d’informations sur l’implémentation **d’IStorage,** **IStream** et **IStreamDocFile**.
   
 ## <a name="see-also"></a>Voir aussi
 

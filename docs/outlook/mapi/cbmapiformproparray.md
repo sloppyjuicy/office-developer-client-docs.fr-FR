@@ -36,7 +36,7 @@ Calcule le nombre d’octets dans une structure [SMAPIFormPropArray](smapiformpr
 CbMAPIFormPropArray (_c)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ _c_
   

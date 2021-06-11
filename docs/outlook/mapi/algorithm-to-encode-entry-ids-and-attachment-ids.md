@@ -19,7 +19,7 @@ ms.locfileid: "33420135"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un fournisseur de magasin peut envoyer dans le cadre d’une URL MAPI un ID d’entrée et un ID de pièce jointe au responsable du protocole MAPI pour identifier un objet prêt pour l’indexation. Le fournisseur de banque d’informations encode l’ID d’entrée et l’ID de pièce jointe en tant que chaînes Unicode. Cette rubrique présente un algorithme qui génère une représentation compacte de l’ID d’entrée ou de l’ID de pièce jointe.
+Un fournisseur de magasins peut envoyer dans le cadre d’une URL MAPI un ID d’entrée et un ID de pièce jointe au responsable du protocole MAPI pour identifier un objet prêt pour l’indexation. Le fournisseur de banque d’informations encode l’ID d’entrée et l’ID de pièce jointe en tant que chaînes Unicode. Cette rubrique présente un algorithme qui génère une représentation compacte de l’ID d’entrée ou de l’ID de pièce jointe.
   
 ```cpp
 const WORD kwBaseOffset = 0xAC00;  // Hangul char range (AC00-D7AF) 
@@ -56,7 +56,7 @@ LPWSTR EncodeID(ULONG cbEID, LPENTRYID rgbID)
 
 
 
-[À propos Notification-Based'indexation dans le Store](about-notification-based-store-indexing.md)
+[À propos Notification-Based'indexation du Store](about-notification-based-store-indexing.md)
   
 [À propos des URL MAPI pour lNotification-Based indexation](about-mapi-urls-for-notification-based-indexing.md)
 

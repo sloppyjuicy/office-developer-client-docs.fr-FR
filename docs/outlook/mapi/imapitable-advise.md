@@ -35,7 +35,7 @@ ULONG_PTR FAR * lpulConnection
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulEventMask_
   

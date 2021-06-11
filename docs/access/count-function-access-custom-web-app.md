@@ -28,7 +28,7 @@ La **fonction Count** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à compter ou expression qui effectue un calcul à l’aide des données du champ. Les opérandes dans  *Expression*  peuvent inclure le nom d’un champ de table ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas d’SQL fonctions d’agrégation). Vous pouvez compter tous les types de données, y compris du texte.  <br/> |
+| *Expression*  <br/> |Expression chaîne identifiant le champ qui contient les données à compter ou expression qui effectue un calcul à l’aide des données du champ. Les opérandes dans *Expression* peuvent inclure le nom d’un champ de table ou d’une fonction (qui peut être intrinsèque ou définie par l’utilisateur, mais pas d’SQL fonctions d’agrégation). Vous pouvez compter tous les types de données, y compris du texte.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

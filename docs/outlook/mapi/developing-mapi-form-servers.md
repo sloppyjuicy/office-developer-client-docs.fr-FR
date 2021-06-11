@@ -39,7 +39,7 @@ Le développement d’un serveur de formulaire comprend les étapes suivantes :
     
 7. Installation du formulaire sur les ordinateurs des utilisateurs. Pour plus d’informations, [voir Installation d’un formulaire dans une bibliothèque.](installing-a-form-into-a-library.md)
     
-Vous effectuerez probablement les étapes 1 à 5 simultanément au lieu de les effectuer dans l’ordre. Le processus de développement d’un serveur de formulaires, comme de nombreux projets de programmation, n’est pas celui dans lequel il existe une séquence particulièrement bien définie. Par exemple, la création d’un fichier de configuration de formulaire s’affiche comme l’avant-dernière étape ci-dessus, mais vous créerez probablement votre fichier de configuration de formulaire de manière incrémentielle et il deviendra plus complet à mesure que vous ajouterez des fonctionnalités à votre serveur de formulaires.
+Vous effectuerez probablement les étapes 1 à 5 simultanément au lieu de les effectuer dans l’ordre. Le processus de développement d’un serveur de formulaires, comme de nombreux projets de programmation, n’est pas celui dans lequel il existe une séquence particulièrement bien définie. Par exemple, la création d’un fichier de configuration de formulaire s’affiche comme avant-dernière étape ci-dessus, mais vous créerez probablement votre fichier de configuration de formulaire de manière incrémentielle et il deviendra plus complet à mesure que vous ajouterez des fonctionnalités à votre serveur de formulaires.
   
 ## <a name="see-also"></a>Voir aussi
 
