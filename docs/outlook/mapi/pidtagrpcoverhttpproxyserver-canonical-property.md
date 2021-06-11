@@ -38,7 +38,7 @@ Contient l’URL du serveur proxy utilisé pour connecter Microsoft Outlook à M
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

@@ -31,7 +31,7 @@ Gère les opérations de haut niveau sur les objets conteneur tels que les carne
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |Mapidefs.h  <br/> |
 |Exposé par :  <br/> |Objets dossier, conteneur de carnet d’adresses et liste de distribution  <br/> |
-|Implémenté par :  <br/> |Magasin de messages, carnet d’adresses et fournisseurs de transport distants  <br/> |
+|Implémenté par :  <br/> |Magasin de messages, carnet d’adresses et fournisseurs de transport distant  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
 |Identificateur d’interface :  <br/> |IID_IMAPIContainer  <br/> |
 |Type de pointeur :  <br/> |LPMAPICONTAINER  <br/> |

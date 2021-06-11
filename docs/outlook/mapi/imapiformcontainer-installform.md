@@ -35,7 +35,7 @@ HRESULT InstallForm(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -91,7 +91,7 @@ Les applications clientes appellent **la méthode IMAPIFormContainer::InstallFor
   
 - Si l MAPI_DIALOG est définie, une interface utilisateur s’affiche, ce qui permet à l’utilisateur qui installe le formulaire de spécifier les détails de l’installation.
     
-- Si l MAPIFORM_INSTALL_OVERWRITEONCONFLICT est définie, tout formulaire précédent pour la même classe de message est remplacé par le formulaire en cours d’installation. Dans le cas contraire, l’installation du formulaire est fusionnée avec la description du formulaire actuel, le cas contraire.
+- Si l MAPIFORM_INSTALL_OVERWRITEONCONFLICT est définie, tout formulaire précédent de la même classe de message est remplacé par le formulaire en cours d’installation. Dans le cas contraire, l’installation du formulaire est fusionnée avec la description du formulaire actuel, le cas contraire.
     
 - Si MAPI_DIALOG est définie, MAPIFORM_INSTALL_OVERWRITEONCONFLICT est ignoré.
     

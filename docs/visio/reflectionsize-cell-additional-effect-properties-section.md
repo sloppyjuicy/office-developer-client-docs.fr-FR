@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7dfeb78e-a0fa-4492-b35f-70b1e2975d38
-description: Détermine la taille de la réflexion par rapport à la forme, sous la forme d’un pourcentage de 0,0 à 100,0 %. Une forme avec une valeur de 0 % dans la cellule ReflectionSize n’a pas de réflexion ; Une valeur de 100 % affiche une image miroir complète de la forme.
+description: Détermine la taille de la réflexion par rapport à la forme, sous forme d’un pourcentage de 0,0 à 100,0 %. Une forme avec une valeur de 0 % dans la cellule ReflectionSize n’a pas de réflexion ; Une valeur de 100 % affiche une image miroir complète de la forme.
 ms.openlocfilehash: 60fcb315ec1b6187082bdcdbbdcfaa4b80bbcfb3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33409075"
 ---
 # <a name="reflectionsize-cell-additional-effect-properties-section"></a>ReflectionSize Cell (Additional Effect Properties Section)
 
-Détermine la taille de la réflexion par rapport à la forme, sous la forme d’un pourcentage de 0,0 à 100,0 %. Une forme avec une valeur de 0 % dans la cellule **ReflectionSize** n’a pas de réflexion ; Une valeur de 100 % affiche une image miroir complète de la forme. 
+Détermine la taille de la réflexion par rapport à la forme, sous forme d’un pourcentage de 0,0 à 100,0 %. Une forme avec une valeur de 0 % dans la cellule **ReflectionSize** n’a pas de réflexion ; Une valeur de 100 % affiche une image miroir complète de la forme. 
   
 ## <a name="remarks"></a>Remarques
 

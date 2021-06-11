@@ -39,7 +39,7 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
   LPMESSAGE  lpMessage );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulCallerData_
   

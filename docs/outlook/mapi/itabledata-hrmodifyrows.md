@@ -34,7 +34,7 @@ HRESULT HrModifyRows(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -56,9 +56,9 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode ITableData::HrModifyRows insère** les lignes décrites par la structure [SRowSet](srowset.md) pointée par _le paramètre lpSRowSet._ Si la valeur de colonne d’index d’une ligne du jeu de lignes correspond à la valeur d’une ligne existante du tableau, la ligne existante est remplacée. S’il n’existe aucune ligne qui corresponde à celle incluse dans la structure **SRowSet,** **HrModifyRows** ajoute la ligne à la fin du tableau. 
+La **méthode ITableData::HrModifyRows insère** les lignes décrites par la structure [SRowSet](srowset.md) pointée vers le _paramètre lpSRowSet._ Si la valeur de colonne d’index d’une ligne du jeu de lignes correspond à la valeur d’une ligne existante du tableau, la ligne existante est remplacée. S’il n’existe aucune ligne qui corresponde à celle incluse dans la structure **SRowSet,** **HrModifyRows** ajoute la ligne à la fin du tableau. 
   
-Tous les affichages de la table sont modifiés pour inclure les lignes pointées par  _lpSRowSet_. Toutefois, si une restriction est en place dans un affichage qui exclut une ligne, il se peut qu’elle ne soit pas visible pour l’utilisateur. 
+Tous les affichages de la table sont modifiés pour inclure les lignes pointées par  _lpSRowSet_. Toutefois, si une restriction est en place sur un affichage qui exclut une ligne, il se peut qu’elle ne soit pas visible pour l’utilisateur. 
   
 Les colonnes des lignes pointées par  _lpSRowSet_ ne doivent pas être dans le même ordre que les colonnes du tableau. L’appelant peut également inclure en tant que propriétés de colonnes qui ne figurent pas actuellement dans le tableau. Pour les affichages **existants, HrModifyRows** rend ces nouvelles colonnes disponibles, mais ne les inclut pas dans le jeu de colonnes actuel. Pour les affichages futurs, **HrModifyRows** inclut les nouvelles colonnes dans le jeu de colonnes. 
   

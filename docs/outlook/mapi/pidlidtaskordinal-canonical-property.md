@@ -37,7 +37,7 @@ Fournit une aide pour les tâches de tri personnalisées.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété peut être laissée non jeun. Si elle est définie, sa valeur doit être supérieure à « 0x800186A0 » (-2 147 383 648) et inférieure à « 0x7FFE7960 » (2 147 383 648) et doit être unique parmi les tâches du même dossier.
+Cette propriété peut être laissée non jeu. Si elle est définie, sa valeur doit être supérieure à « 0x800186A0 » (-2 147 383 648) et inférieure à « 0x7FFE7960 » (2 147 383 648) et doit être unique parmi les tâches du même dossier.
   
 Chaque fois que le client définit cette propriété sur un nombre inférieur au négatif de la valeur actuelle de la propriété **PR_ORDINAL_MOST** ([PidTagOrdinalMost](pidtagordinalmost-canonical-property.md)) du dossier, le client doit également mettre à jour PR_ORDINAL_MOST sur le dossier.  
   

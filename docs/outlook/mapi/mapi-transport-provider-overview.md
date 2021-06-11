@@ -25,7 +25,7 @@ Les fournisseurs de transport gèrent la transmission et la réception des messa
   
 Les applications clientes communiquent avec le fournisseur de transport via un fournisseur de magasins de messages. 
   
-Les fournisseurs de transport s’inscrivent auprès de MAPI pour gérer un ou plusieurs types particuliers d’entrées de destinataire. Lorsqu’un message est prêt à être envoyé, MAPI doit déterminer le fournisseur de transport qui doit gérer la transmission. Selon le type de destinataire, MAPI peut même appeler plusieurs fournisseurs de transport. Si un fournisseur de transport indisponible est le seul à pouvoir gérer le destinataire, la transmission du message est différée jusqu’à ce qu’une connexion avec ce fournisseur puisse être rétablie.
+Les fournisseurs de transport s’inscrivent auprès de MAPI pour gérer un ou plusieurs types particuliers d’entrées de destinataire. Lorsqu’un message est prêt à être envoyé, MAPI doit déterminer le fournisseur de transport qui doit gérer la transmission. Selon le type de destinataire, MAPI peut même appeler plusieurs fournisseurs de transport. Si un fournisseur de transport indisponible est le seul à pouvoir gérer le destinataire, la transmission du message est reportée jusqu’à ce qu’une connexion avec ce fournisseur puisse être rétablie.
   
 Certains systèmes de messagerie sont des systèmes sécurisés ; Tous les utilisateurs potentiels doivent entrer un ensemble d’informations d’identification valides avant d’autoriser l’accès. MAPI empêche l’accès non autorisé à ces systèmes de messagerie sécurisés en faisant valider les informations d’identification par le fournisseur de transport au moment de l’connexion. 
   

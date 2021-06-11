@@ -50,7 +50,7 @@ Cette propriété est une propriété auxiliaire rtf (Rich Text Format). Les pro
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

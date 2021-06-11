@@ -36,7 +36,7 @@ HRESULT OpenAttach(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulAttachmentNum_
   
@@ -56,7 +56,7 @@ MAPI_BEST_ACCESS
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **OpenAttach** de renvoyer correctement, éventuellement avant que la pièce jointe soit entièrement disponible pour le client appelant. Si la pièce jointe n’est pas disponible, un appel ultérieur à celui-ci peut provoquer une erreur. 
+> Permet à **OpenAttach de** renvoyer correctement, éventuellement avant que la pièce jointe soit entièrement disponible pour le client appelant. Si la pièce jointe n’est pas disponible, un appel ultérieur à celui-ci peut provoquer une erreur. 
     
 MAPI_MODIFY 
   
@@ -82,7 +82,7 @@ Pour ouvrir une pièce jointe, vous devez avoir accès à son numéro de pièce 
   
 N’essayez pas d’ouvrir une pièce jointe plusieurs fois ; les résultats ne sont pas définies et dépendent du fournisseur de la boutique de messages.
   
-Vous pouvez demander que la pièce jointe soit ouverte en mode lecture/écriture, au lieu du mode lecture seule par défaut. Toutefois, le fournisseur de la boutique de messages doit décider si la pièce jointe sera réellement ouverte en mode lecture/écriture. Vous pouvez soit essayer de modifier la pièce jointe, soit préparer la gestion de l’échec éventuel, soit vérifier le niveau d’accès accordé en récupérant la propriété **PR_ACCESS_LEVEL (** [PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) de la pièce jointe, si elle est disponible. 
+Vous pouvez demander que la pièce jointe soit ouverte en mode lecture/écriture, au lieu du mode lecture seule par défaut. Toutefois, le fournisseur de la boutique de messages décide si la pièce jointe sera réellement ouverte en mode lecture/écriture. Vous pouvez soit essayer de modifier la pièce jointe, soit préparer la gestion de l’échec éventuel, soit vérifier le niveau d’accès accordé en récupérant la propriété **PR_ACCESS_LEVEL (** [PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) de la pièce jointe, si elle est disponible. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

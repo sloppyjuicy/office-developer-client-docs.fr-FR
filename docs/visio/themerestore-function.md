@@ -16,7 +16,7 @@ ms.locfileid: "33404287"
 ---
 # <a name="themerestore-function"></a>Fonction THEMERESTORE
 
-Stocke la valeur de mise en forme locale d’une forme lorsque vous appliquez un thème afin que vous pouvez restaurer la mise en forme locale si l’utilisateur supprime ensuite le thème.
+Stocke la valeur de mise en forme locale d’une forme lorsque vous appliquez un thème afin de pouvoir restaurer la mise en forme locale si l’utilisateur supprime ensuite le thème.
   
 ## <a name="syntax"></a>Syntaxe
 

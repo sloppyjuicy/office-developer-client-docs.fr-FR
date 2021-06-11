@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251424
 localization_priority: Normal
 ms.assetid: 52f5ef4d-07c6-ab36-bf74-b30b50eea221
-description: Renvoie le résultat de l’expression sous la forme d’une chaîne mise en forme en fonction de formatpicture.
+description: Renvoie le résultat de l’expression sous la forme d’une chaîne mise en forme selon la mise en forme.
 ms.openlocfilehash: 5eb2195c2bc52e9cc8e7aa8bc4068826a5cd14c5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33404651"
 ---
 # <a name="format-function"></a>Fonction FORMAT
 
-Renvoie le résultat de  _l’expression_ sous la forme d’une chaîne mise en forme en fonction de  _formatpicture_.
+Renvoie le résultat de  _l’expression_ sous la forme d’une chaîne mise en forme en fonction  _de formatpicture_.
   
 ## <a name="syntax"></a>Syntaxe
 

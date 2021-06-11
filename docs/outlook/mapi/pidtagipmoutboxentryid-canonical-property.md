@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée du dossier de boîte d’envoi du messag
 |Propriétés associées :  <br/> |PR_IPM_OUTBOX_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E2  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Folder  <br/> |
+|Domaine :  <br/> |Dossier  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

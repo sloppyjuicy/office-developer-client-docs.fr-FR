@@ -40,7 +40,7 @@ Chaque rubrique de référence inclut une table qui nomme le fichier d’en-têt
 |Mapival.h  <br/> |Définit les macros de validation.  <br/> |
 |Mapiwin.h  <br/> |Définit les types, constantes, indicateurs, fonctions et macros pour le développement de fournisseurs de services à source unique.  <br/> |
 |Mapiwz.h  <br/> |Définit des prototypes et des constantes pour l’Assistant Fournisseur.  <br/> |
-|Mapix.h  <br/> |Définit les indicateurs et les interfaces implémentés par MAPI pour les clients.  <br/> |
+|Mapix.h  <br/> |Définit les indicateurs et interfaces implémentés par MAPI pour les clients.  <br/> |
 |Mspst.h  <br/> |Définit les propriétés du magasin d’informations personnelles (fichier .pst).  <br/> |
    
 Pour plus d’informations sur l’obtention des fichiers d’en-tête MAPI, voir Installer les [fichiers d’en-tête MAPI.](how-to-install-mapi-header-files.md)

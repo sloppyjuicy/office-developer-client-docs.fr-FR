@@ -34,7 +34,7 @@ HRESULT hrStatus
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _dwPageNumber_
   
@@ -72,7 +72,7 @@ Les objets de formulaire appellent la méthode **IMAPIViewAdviseSink::OnPrint** 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si le travail d’impression implique plusieurs pages, vous pouvez appeler **OnPrint** après l’impression de chaque page. Définissez  _dwPageNumber_ sur la page en cours d’impression et  _hrStatus_ sur S_OK. Lorsque le travail d’impression est terminé, appelez **OnPrint** avec  _dwPageNumber_ définie sur la dernière page imprimée et  _hrStatus_ sur S_FALSE. 
+Si le travail d’impression implique plusieurs pages, vous pouvez appeler **OnPrint** après l’impression de chaque page. Définissez  _dwPageNumber_ sur la page en cours d’impression et  _hrStatus_ sur S_OK. Une fois la tâche d’impression terminée, appelez **OnPrint** avec  _dwPageNumber_ définie sur la dernière page imprimée et  _hrStatus_ sur S_FALSE. 
   
 Pour plus d’informations sur les notifications de formulaire, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   

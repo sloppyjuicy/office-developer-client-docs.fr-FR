@@ -35,16 +35,16 @@ Le tableau suivant répertorie tous les attributs définis dans l’implémentat
 |**attAttachTitle** <br/> |**PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md))  <br/> |
 |**attAttachTransportFilename** <br/> |**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md))  <br/> |
 |**attBody** <br/> |**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |
-|**attConversationID** <br/> |**PR_CONVERSATION_KEY** ([PidTagConversationKey](pidtagconversationkey-canonical-property.md)) Cette propriété a été dépréciée dans Microsoft Exchange Server : son utilisation persiste uniquement dans Outlook, pour localiser **IPM. Messages MessageManager.**  <br/> |
+|**attConversationID** <br/> |**PR_CONVERSATION_KEY** ([PidTagConversationKey](pidtagconversationkey-canonical-property.md)) Cette propriété a été dépréciée dans Microsoft Exchange Server : son utilisation persiste dans Outlook uniquement, pour localiser **IPM. Messages MessageManager.**  <br/> |
 |**attDateEnd** <br/> |**PR_END_DATE** ([PidTagEndDate](pidtagenddate-canonical-property.md)) See [attDate Attributes](attdate-attributes.md) for details.  <br/> |
 |**attDateModified** <br/> |**PR_LAST_MODIFICATION_TIME** Pour [plus d’informations, voir attDate Attributes.](attdate-attributes.md)  <br/> |
-|**attDateRecd** <br/> |**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) See [attDate Attributes](attdate-attributes.md) for details.  <br/> |
+|**attDateRecd** <br/> |**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) Voir [attDate Attributes](attdate-attributes.md) pour plus d’informations.  <br/> |
 |**attDateSent** <br/> |**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) See [attDate Attributes](attdate-attributes.md) for details.  <br/> |
 |**attDateStart** <br/> |**PR_START_DATE** ([PidTagStartDate](pidtagstartdate-canonical-property.md)) Voir [attDate Attributes](attdate-attributes.md) pour plus d’informations.  <br/> |
 |**attFrom** <br/> |**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) et **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
 |**attMAPIProps** <br/> |Pour plus d’informations sur cet attribut, [voir attMAPIProps](attmapiprops.md).  <br/> |
 |**attMessageClass** <br/> |**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |
-|**attMessageID** <br/> |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) Voir corrélation [TNEF dans les passerelles et transports X.400](tnef-correlation-in-x-400-gateways-and-transports.md).  <br/> |
+|**attMessageID** <br/> |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) Voir [corrélation TNEF dans les passerelles et transports X.400](tnef-correlation-in-x-400-gateways-and-transports.md).  <br/> |
 |**attMessageStatus** <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
 |**attOriginalMessageClass** <br/> |**PR_ORIG_MESSAGE_CLASS ** ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md))  <br/> |
 |**attOwner** <br/> |Voir [attOwner](attowner.md).  <br/> |

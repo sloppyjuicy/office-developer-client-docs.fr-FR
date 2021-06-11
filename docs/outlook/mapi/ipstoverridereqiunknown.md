@@ -30,7 +30,7 @@ Accède aux ressources d’un fournisseur de magasins de fichiers de dossiers pe
 |||
 |:-----|:-----|
 |Hérite de :  <br/> |IUnknown  <br/> |
-|Implémenté par :  <br/> |Fournisseur de magasin PST  <br/> |
+|Implémenté par :  <br/> |Fournisseur de magasins PST  <br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
 |Identificateur d’interface :  <br/> |IID_IPSTOVERRIDEREQ  <br/> |
    

@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32357973"
 ---
-# <a name="pidlidpercentcomplete-canonical-property"></a>Propriété canonique PidLidPercentComplete
+# <a name="pidlidpercentcomplete-canonical-property"></a>Propri t canonique PidLidPercentComplete
 
   
   
@@ -39,7 +39,7 @@ Indique la progression de l’utilisateur sur une tâche.
 
 La valeur de cette propriété doit être un nombre supérieur ou égal à 0.0 et inférieur ou égal à 1.0, où 1.0 indique que le travail est terminé et 0.0 indique que le travail n’a pas commencé.
   
-Pour un objet de message avec marquage dans le temps, la valeur de cette propriété doit être définie sur 1,0 si l’objet est marqué comme terminé et sur 0,0 dans le cas contraire.
+Pour un objet de message avec marquage dans le temps, la valeur de cette propriété doit être définie sur 1.0 si l’objet est marqué comme terminé et doit être définie sur 0.0 dans le cas contraire.
   
 ## <a name="related-resources"></a>Ressources connexes
 

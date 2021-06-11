@@ -38,7 +38,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -88,18 +88,18 @@ MAPI_E_NO_ACCESS
     
 MAPI_NO_CACHE
   
-> Lorsqu’une boutique est ouverte en mode mis en cache, un client ou un fournisseur de services peut appeler **IMsgStore::OpenEntry**, en paramétrie de l’indicateur MAPI_NO_CACHE pour ouvrir un élément ou un dossier sur la boutique distante. Si vous ouvrez la magasin de messages avec l’indicateur MDB_ONLINE sur le serveur distant, vous n’avez pas besoin d’utiliser l’MAPI_NO_CACHE de messagerie.
+> Lorsqu’une boutique est ouverte en mode mis en cache, un client ou un fournisseur de services peut appeler **IMsgStore::OpenEntry**, en paradant l’indicateur MAPI_NO_CACHE pour ouvrir un élément ou un dossier sur la boutique distante. Si vous ouvrez la magasin de messages avec l’indicateur MDB_ONLINE sur le serveur distant, vous n’avez pas besoin d’utiliser l’MAPI_NO_CACHE de messagerie.
     
 ## <a name="remarks"></a>Remarques
 
 La **méthode IMsgStore::OpenEntry** ouvre un dossier ou un message et renvoie un pointeur vers une interface qui peut être utilisée pour un accès supplémentaire. 
   
 > [!IMPORTANT]
-> Lors de l’ouverture d’entrées de dossiers dans une boutique publique, telles que des dossiers et des messages, utilisez **IMsgStore::OpenEntry** au lieu d’IMAPISession::OpenEntry . [](imapisession-openentry.md) Cela garantit que les dossiers publics fonctionnent correctement lorsque plusieurs comptes Exchange sont définis dans un profil. 
+> Lors de l’ouverture d’entrées de dossiers dans une boutique publique, telles que des dossiers et des messages, utilisez **IMsgStore::OpenEntry** au lieu d’IMAPISession::OpenEntry . [](imapisession-openentry.md) Cela garantit que les dossiers publics fonctionnent correctement lorsque plusieurs Exchange sont définis dans un profil. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Les dossiers et messages sont automatiquement ouverts avec une autorisation de lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le paramètre _ulFlags._ La définition de l’un de ces indicateurs ne garantit pas un type d’autorisation particulier ; Les autorisations qui vous sont accordées dépendent du fournisseur de la boutique de messages, de votre niveau d’accès et de l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez sa propriété **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+Les dossiers et messages sont automatiquement ouverts avec une autorisation de lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le _paramètre ulFlags._ La définition de l’un de ces indicateurs ne garantit pas un type d’autorisation particulier ; Les autorisations qui vous sont accordées dépendent du fournisseur de la boutique de messages, de votre niveau d’accès et de l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez PR_ACCESS_LEVEL **propriété** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
   
 Bien que **IMsgStore::OpenEntry** puisse être utilisé pour ouvrir n’importe quel dossier ou message, il est généralement plus rapide d’utiliser la méthode [IMAPIContainer::OpenEntry](imapicontainer-openentry.md) si vous avez accès au dossier parent du dossier ou du message à ouvrir. 
   

@@ -40,7 +40,7 @@ Cette propriété est une valeur binaire qui identifie de manière unique une li
   
 Utilisez les **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) ou **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) pour corréler toutes les lignes d’une expansion. Utilisez **PR_INSTANCE_KEY** pour localiser une instance particulière dans l’extension. 
   
-Lorsqu’une propriété à valeurs multiples est étendue dans un tableau, une ligne est créée pour chaque instance de l’extension, c’est-à-dire pour chaque valeur de cette propriété. Chaque ligne a une valeur unique pour la **propriété PR_INSTANCE_KEY,** tandis que toutes les autres colonnes conservent leurs valeurs d’origine tout au long de l’extension. 
+Lorsqu’une propriété à valeurs multiples est étendue dans un tableau, une ligne est créée pour chaque instance de l’extension, c’est-à-dire pour chaque valeur de cette propriété. Chaque ligne a une valeur unique pour la **propriété PR_INSTANCE_KEY,** tandis que toutes les autres colonnes conservent leurs valeurs d’origine tout au long de l’expansion. 
   
 Dans un tri catégorisé d’un tableau, les lignes qui ne correspondent pas aux données réelles peuvent être ajoutées au résultat du tri. Chacune de ces lignes, comme toutes les lignes de tous les tableaux, possède sa propre clé d’instance unique. 
   
@@ -56,7 +56,7 @@ Cette valeur n’est pas copiée dans le cadre du tableau d’affichage.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

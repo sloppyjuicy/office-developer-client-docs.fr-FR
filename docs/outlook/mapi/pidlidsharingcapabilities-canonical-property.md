@@ -37,7 +37,7 @@ Désigne comme propriété d’un message de partage.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit avoir l’une des valeurs suivantes :
+Cette propriété doit être définie sur l’une des valeurs suivantes :
   
 |**Valeur**|**Scénario**|
 |:-----|:-----|

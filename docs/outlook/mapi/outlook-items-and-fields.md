@@ -1,5 +1,5 @@
 ---
-title: Éléments et champs Outlook
+title: Outlook Éléments et champs
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409117"
 ---
-# <a name="outlook-items-and-fields"></a>Éléments et champs Outlook
+# <a name="outlook-items-and-fields"></a>Outlook Éléments et champs
 
   
   
@@ -29,7 +29,7 @@ Une définition de champ inclut le nom, le type de données et d’autres inform
   
 ### <a name="field-value"></a>Valeur de champ
 
-Chaque champ défini par l’utilisateur d’un élément possède une valeur stockée dans une propriété nommée correspondante. Cette propriété nommée se trouve dans le jeu PS_PUBLIC_STRINGS propriétés et possède une chaîne de caractères Unicode comme nom de propriété. Le type de données de la propriété correspond au type du champ. Si la propriété n’est pas présente dans l’objet **IMessage,** Outlook suppose une valeur par défaut raisonnable pour la propriété. Par exemple, pour un type de chaîne, Outlook suppose une chaîne vide si la propriété n’est pas présente. 
+Chaque champ défini par l’utilisateur d’un élément possède une valeur stockée dans une propriété nommée correspondante. Cette propriété nommée se trouve dans le jeu de PS_PUBLIC_STRINGS et possède une chaîne de caractères Unicode comme nom de propriété. Le type de données de la propriété correspond au type du champ. Si la propriété n’est pas présente dans l’objet **IMessage,** Outlook une valeur par défaut raisonnable pour la propriété. Par exemple, pour un type de chaîne, Outlook une chaîne vide si la propriété n’est pas présente. 
   
 ## <a name="see-also"></a>Voir aussi
 

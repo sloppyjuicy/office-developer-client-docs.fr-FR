@@ -35,18 +35,18 @@ L’exemple MFCMAPI utilise l’API de messagerie pour fournir l’accès aux ma
     
 4. Dans la boîte de dialogue **Téléchargement de fichiers**, cliquez sur **Enregistrer**. Dans la **boîte de dialogue Enregistrer sous,** recherchez le dossier dans lequel vous souhaitez enregistrer les fichiers sources, puis cliquez sur **Enregistrer.**
     
-5. Dans la **boîte de dialogue Télécharger terminé,** cliquez sur Ouvrir le **dossier.** Vous pouvez également cliquer sur **Fermer** pour fermer la boîte de dialogue et localiser les fichiers sources compressés dans le dossier où vous les avez enregistrés. 
+5. Dans la boîte de dialogue Télécharger **terminé,** cliquez **sur Ouvrir le dossier.** Vous pouvez également cliquer sur **Fermer** pour fermer la boîte de dialogue et localiser les fichiers sources compressés dans le dossier dans qui vous les avez enregistrés. 
     
-6. Cliquez avec le bouton droit sur **le fichier \< \> .zip** du numéro de version MFCMAPI, puis cliquez sur **Extraire tout.** Dans la boîte de dialogue qui s’affiche, cliquez sur **Extraire** pour extraire les fichiers dans le dossier qui s’affiche. Vous pouvez également cliquer sur **Parcourir** pour sélectionner ou créer un autre dossier. 
+6. Cliquez avec le bouton droit sur le numéro de **\< version \>.zipMFCMAPI,** puis cliquez sur **Extraire tout.** Dans la boîte de dialogue qui s’affiche, cliquez sur **Extraire** pour extraire les fichiers dans le dossier qui s’affiche. Vous pouvez également cliquer sur **Parcourir** pour sélectionner ou créer un autre dossier. 
     
 7. Exécutez Visual Studio 2008 en tant qu’administrateur.
     
    > [!NOTE]
-   > Si votre ordinateur exécute Windows XP, vous devez être connecté en tant qu’administrateur. Si votre ordinateur exécute Windows Vista, vous devez être connecté en tant qu’administrateur et vous devez cliquer avec le bouton droit sur l’icône Visual Studio 2008, puis cliquer sur Exécuter en tant **qu’administrateur.** 
+   > Si votre ordinateur exécute Windows XP, vous devez être connecté en tant qu’administrateur. Si votre ordinateur exécute Windows Vista, vous devez être connecté en tant qu’administrateur et vous devez cliquer avec le bouton droit sur l’icône Visual Studio 2008, puis cliquer sur Exécuter en tant qu’administrateur. 
   
-8. Dans Visual Studio 2008, cliquez sur **Fichier,** pointez sur **Ouvrir,** puis cliquez sur **Projet/Solution.**
+8. Dans Visual Studio 2008, cliquez sur **Fichier,** pointez sur **Ouvrir,** puis cliquez sur **Project/Solution**.
     
-9. Accédez à l’emplacement où vous avez enregistré l’exemple, sélectionnez **MFCMapi.vcproj,** puis cliquez sur **Ouvrir**.
+9. Accédez à l’emplacement où vous avez enregistré l’exemple, **sélectionnez MFCMapi.vcproj,** puis cliquez sur **Ouvrir**.
     
 10. Dans le menu **Générer**, cliquez sur **Générer la solution**.
     
@@ -54,7 +54,7 @@ L’exemple MFCMAPI utilise l’API de messagerie pour fournir l’accès aux ma
     
 ### <a name="to-use-mfcmapi-as-a-code-sample"></a>Pour utiliser MFCMAPI comme exemple de code
   
-Dans **l’Explorateur** de solutions, développez le **projet MFCMapi** et  examinez les fichiers dans les fichiers d’en-tête, les fichiers de ressources et les fichiers sources pour les scénarios de programmation.   
+Dans **l’Explorateur** de solutions, développez le **projet MFCMapi** et  examinez les fichiers des fichiers d’en-tête, des fichiers de ressources et des fichiers sources pour les scénarios de programmation.   
   
 De nombreuses rubriques de méthode de la section [Interfaces MAPI](mapi-interfaces.md) pointent vers des fichiers sources MFCMAPI pour des exemples de programmation. Par exemple, dans [IMsgStore::GetReceiveFolderTable,](imsgstore-getreceivefoldertable.md) vous êtes invité à examiner la fonction dans le fichier  `CMsgStoreDlg::OnDisplayReceiveFolderTable` MsgStoreDlg.cpp. 
   

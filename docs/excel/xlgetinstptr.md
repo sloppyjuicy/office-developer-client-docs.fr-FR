@@ -24,7 +24,7 @@ Renvoie le handle d’instance de l’instance de Microsoft Excel qui appelle ac
 Excel4(xlGetInstPtr, LPXLOPER pxRes, 0);Excel12(xlGetInstPtr, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 Cette fonction n’a pas d’arguments.
   
@@ -34,15 +34,15 @@ Le handle d’instance (**xltypeBigData**) sera dans le champ **val.bigdata.h.hd
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances d’Excel en cours d’exécution qui appellent la DLL.
+Cette fonction peut être utilisée pour faire la distinction entre plusieurs instances de Excel qui appellent la DLL.
   
-Cette fonction renvoie une valeur correcte avec les versions 32 bits et 64 bits d’Excel. Il a été introduit dans Excel 2010 en tant qu’extension de la fonction [xlGetInst,](xlgetinst.md) qui fonctionne correctement uniquement avec les versions 32 bits d’Excel. 
+Cette fonction renvoie une valeur correcte avec les versions 32 bits et 64 bits de Excel. Il a été introduit dans Excel 2010 en tant qu’extension de la fonction [xlGetInst,](xlgetinst.md) qui fonctionne correctement uniquement avec les versions 32 bits de Excel. 
   
 Cette fonction fonctionne correctement lorsqu’elle est appelée à l’aide des variétés Excel4 et [Excel12](excel4-excel12.md) des fonctions de rappel d’API, car **XLOPER** et **XLOPER12** ont la même structure qui prend en charge le type de valeur **xltypeBigData.** 
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant compare l’instance de la dernière copie d’Excel qui l’a appelée à la copie actuelle d’Excel qui l’a appelée. Si elles sont identiques, elle renvoie 1 ; si ce n’est pas le cas, elle renvoie 0 ; Si la fonction échoue, elle renvoie -1. Cet exemple fonctionne avec les versions 32 bits et 64 bits d’Excel.
+L’exemple suivant compare l’instance de la dernière copie de Excel qui l’a appelée à la copie actuelle de la Excel qui l’a appelée. Si elles sont identiques, elle renvoie 1 ; si ce n’est pas le cas, elle renvoie 0 ; Si la fonction échoue, elle renvoie -1. Cet exemple fonctionne avec les versions 32 bits et 64 bits de Excel.
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

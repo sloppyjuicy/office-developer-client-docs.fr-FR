@@ -102,7 +102,7 @@ DT_WAN
   
 > Un carnet d’adresses réseau large.
     
-Les tables de contenu de carnet d’adresses utilisent les valeurs DT_AGENT, DT_DISTLIST, DT_FORUM, DT_MAILUSER, DT_ORGANIZATION, DT_PRIVATE_DISTLIST et DT_REMOTE_MAILUSER de carnet d’adresses. Les tables de hiérarchie de carnet d’adresses et les tables DT_GLOBAL, DT_LOCAL, DT_MODIFIABLE, DT_NOT_SPECIFIC et DT_WAN de carnet d’adresses. Les tables de hiérarchie de dossiers utilisent DT_FOLDER, DT_FOLDER_LINK et DT_FOLDER_SPECIAL valeurs. 
+Les tables de contenu de carnet d’adresses utilisent les valeurs DT_AGENT, DT_DISTLIST, DT_FORUM, DT_MAILUSER, DT_ORGANIZATION, DT_PRIVATE_DISTLIST et DT_REMOTE_MAILUSER de carnet d’adresses. Les tables de hiérarchie de carnet d’adresses et les tables DT_GLOBAL, DT_LOCAL, DT_MODIFIABLE, DT_NOT_SPECIFIC et DT_WAN de carnet d’adresses. Les tables de hiérarchie de dossiers utilisent les valeurs DT_FOLDER, DT_FOLDER_LINK et DT_FOLDER_SPECIAL de dossiers. 
   
 Si cette propriété n’est pas définie, le client doit supposer le type par défaut approprié pour la table, généralement DT_FOLDER, DT_LOCAL ou DT_MAILUSER. 
   
@@ -114,7 +114,7 @@ Si cette propriété n’est pas définie, le client doit supposer le type par d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   

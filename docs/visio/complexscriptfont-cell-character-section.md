@@ -22,7 +22,7 @@ Contient le numéro de la police utilisée pour mettre en forme du texte compos�
   
 ## <a name="remarks"></a>Remarques
 
-Les tailles de police de script  complexes sont répertoriées sous  l’onglet Police dans la boîte de dialogue Texte (cliquez sur la flèche du groupe Police sous **l’onglet Accueil).**  Cette liste apparaît uniquement si vous avez ajouté une langue qui contient des caractères asiatiques ou des caractères de script complexe dans la boîte de dialogue **Préférences de langue Microsoft Office**. (Cliquez sur **Démarrer**, cliquez sur **Tous les programmes**, cliquez sur **Microsoft Office**, cliquez sur **Outils Microsoft Office**, puis cliquez sur **Préférences de langue Microsoft Office**.
+Les tailles de police de script  complexes sont répertoriées sous  l’onglet Police de la boîte de dialogue Texte (cliquez sur la flèche du groupe Police sous **l’onglet Accueil).**  Cette liste apparaît uniquement si vous avez ajouté une langue qui contient des caractères asiatiques ou des caractères de script complexe dans la boîte de dialogue **Préférences de langue Microsoft Office**. (Cliquez sur **Démarrer**, cliquez sur **Tous les programmes**, cliquez sur **Microsoft Office**, cliquez sur **Outils Microsoft Office**, puis cliquez sur **Préférences de langue Microsoft Office**.
   
 Le numéro 0 (zéro) signifie qu'aucune police n'est spécifiée. La police Latin ou les polices par défaut sont utilisées.
   

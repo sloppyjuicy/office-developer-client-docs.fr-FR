@@ -23,7 +23,7 @@ Renvoie une chaîne qui contient une collection de détails de personne et d’i
 HRESULT _stdcall GetPeopleDetails([in] BSTR personsAddresses, [out, retval] BSTR* personsCollection);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _personsAddresses_
   
@@ -35,11 +35,11 @@ _personsCollection_
     
 ## <a name="remarks"></a>Remarques
 
-Outlook Social Connector (OSC) appelle **GetPeopleDetails** si le fournisseur OSC prend en charge la synchronisation à la demande ou hybride des amis et non-amis. 
+Le Outlook Social Connector (OSC) appelle **GetPeopleDetails** si le fournisseur OSC prend en charge la synchronisation à la demande ou hybride des amis et non-amis. 
   
 Le  _paramètre personsAddresses_ doit être conforme à la définition de schéma pour **hashedAddresses**, telle que définie dans le schéma pour l’extensibilité du fournisseur OSC. La  _chaîne personsAddresses_ représente un ensemble d’adresses SMTP hachées pour chaque utilisateur affiché dans le volet Personnes. L’utilisateur n’a pas besoin d’être un ami de l’utilisateur connecté représenté par la propriété [ISocialSession::LoggedOnUserName.](isocialsession-loggedonusername.md) Les adresses SMTP hachées sont chiffrées à l’aide de la fonction de hachage spécifiée par l’élément **hashFunction** dans le code XML des fonctionnalités **du** fournisseur. L’OSC identifie chaque **hachageAddress** dans la collection _personAddresses_ avec un **élément index.** Le fournisseur doit utiliser **l’élément d’index** pour identifier le **XML** de la personne du destinataire lorsqu’il renvoie des amis **XML** pour **GetPeopleDetails**. Si le destinataire n’est pas un utilisateur inscrit sur le réseau social, le fournisseur ne doit retourner aucun **XML** de personne pour ce destinataire. **L’élément d’index** pour chaque utilisateur réseau représenté par une personne **XML** correspond à **l’élément d’index** pour le destinataire _dans personsAddresses_.
   
-L’OSC stocke les informations renvoyées par le  _paramètre personsCollection_ en mémoire. La  _chaîne XML personsCollection_ doit être conforme à la définition de schéma pour les **amis,** telle que définie dans le schéma pour l’extensibilité du fournisseur OSC. Pour plus d’informations sur la façon dont OSC utilise et met à jour ces informations en mémoire, voir [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
+L’OSC stocke les informations renvoyées par le  _paramètre personsCollection_ en mémoire. La chaîne XML  _personsCollection_ doit être conforme à la définition de schéma pour les **amis,** telle que définie dans le schéma pour l’extensibilité du fournisseur OSC. Pour plus d’informations sur la façon dont OSC utilise et met à jour ces informations en mémoire, voir [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
   
 ## <a name="see-also"></a>Voir aussi
 

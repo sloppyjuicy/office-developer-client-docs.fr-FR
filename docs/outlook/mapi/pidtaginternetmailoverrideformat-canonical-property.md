@@ -48,7 +48,7 @@ Pour plus d’informations sur les sous-parties dans lesquelles cette propriét�
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

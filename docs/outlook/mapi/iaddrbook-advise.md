@@ -37,7 +37,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -67,7 +67,7 @@ HRESULT Advise(
     
  _lpulConnection_
   
-> [out] Pointeur vers un numéro de connexion autre que zéro qui représente l’inscription de la notification.
+> [out] Pointeur vers un numéro de connexion autre que zéro qui représente l’inscription de notification.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -77,7 +77,7 @@ S_OK
     
 MAPI_E_INVALID_ENTRYID 
   
-> Le fournisseur de carnet d’adresses responsable de l’identificateur d’entrée transmis  _dans lpEntryID_ n’a pas pu enregistrer de notification pour l’entrée correspondante. 
+> Le fournisseur de carnet d’adresses responsable de l’identificateur d’entrée transmis dans  _lpEntryID_ n’a pas pu enregistrer de notification pour l’entrée correspondante. 
     
 MAPI_E_NO_SUPPORT 
   
@@ -85,13 +85,13 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur d’entrée transmis  _dans lpEntryID_ ne peut être géré par aucun des fournisseurs de carnet d’adresses dans le profil. 
+> L’identificateur d’entrée transmis dans  _lpEntryID_ ne peut être géré par aucun des fournisseurs de carnet d’adresses dans le profil. 
     
 ## <a name="remarks"></a>Remarques
 
 Les clients et les fournisseurs de services appellent la **méthode Advise** pour s’inscrire à un type particulier ou à des types de notifications sur une entrée de carnet d’adresses. Les types de notification sont indiqués par le masque d’événement transmis avec le _paramètre ulEventMask._ 
   
-MAPI a transmis cet appel **Advise** au fournisseur de carnet d’adresses responsable de l’entrée, comme indiqué par l’identificateur d’entrée dans le paramètre _lpEntryID._ Le fournisseur de carnet d’adresses gère l’inscription proprement dite ou appelle la méthode de support, [IMAPISupport::Subscribe,](imapisupport-subscribe.md)pour demander à MAPI d’inscrire l’appelant. Un numéro de connexion autre que zéro est renvoyé pour représenter l’inscription réussie.
+MAPI a transmis cet appel **Advise** au fournisseur de carnet d’adresses responsable de l’entrée, comme indiqué par l’identificateur d’entrée dans le paramètre _lpEntryID._ Le fournisseur de carnet d’adresses gère l’inscription elle-même ou appelle la méthode de support, [IMAPISupport::Subscribe,](imapisupport-subscribe.md)pour demander à MAPI d’inscrire l’appelant. Un numéro de connexion autre que zéro est renvoyé pour représenter l’inscription réussie.
   
 Chaque fois qu’une modification a lieu sur l’entrée du type indiqué par l’inscription de notification, le fournisseur de carnet d’adresses appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de réception de notification spécifié dans le paramètre _lpAdviseSink._ La **méthode OnNotify inclut** une structure [NOTIFICATION](notification.md) en tant que paramètre d’entrée qui contient des données pour décrire l’événement. 
   

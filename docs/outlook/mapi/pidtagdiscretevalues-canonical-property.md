@@ -40,7 +40,7 @@ Cette propriété est utilisée dans un rapport non remis lorsque le message n�
   
 La table des destinataires d’un rapport non remis contient des entrées pour tous les destinataires auxquels le message n’a pas pu être remis, ainsi que pour les listes de distribution, le cas contraire, à laquelle ils appartiennent. Le fournisseur de transport doit définir cette propriété sur TRUE pour chaque entrée de liste de distribution. elle doit copier les propriétés **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) et **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) de la liste de distribution vers les propriétés **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) et **PR_ORIGINAL_SEARCH_KEY** ([PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) pour chaque membre de cette liste de distribution. 
   
- **PR_DISCRETE_VALUES** ne doivent pas être définies pour toute entrée de destinataire de rapport nondelivery autre qu’une liste de distribution. 
+ **PR_DISCRETE_VALUES** ne doivent pas être définies pour toute entrée de destinataire de rapport autre qu’une liste de distribution. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

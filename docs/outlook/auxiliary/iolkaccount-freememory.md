@@ -16,7 +16,7 @@ ms.locfileid: "33406198"
 ---
 # <a name="iolkaccountfreememory"></a>IOlkAccount::FreeMemory
 
-Libère la mémoire allouée par [l’interface IOlkAccount.](iolkaccount.md) 
+Libère la mémoire allouée par l’interface [IOlkAccount.](iolkaccount.md) 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -29,7 +29,7 @@ HRESULT IOlkAccount::FreeMemory (
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pv_
   

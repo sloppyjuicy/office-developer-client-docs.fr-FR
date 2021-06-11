@@ -27,14 +27,14 @@ L’API d’état hors connexion prend en charge les rappels indiquant les modif
     
 3. Déterminez si l’objet a la possibilité de fournir des notifications en ligne ou hors connexion à l’aide **[d’IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)**. 
     
-4. Inscrivez l’objet pour les notifications en ligne ou hors connexion à l’aide **[de IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Les fournisseurs de messagerie peuvent désormais recevoir des notifications envoyées par Outlook 2013 ou Outlook 2010 à l’aide **d’IMAPIOfflineNotify.** 
+4. Inscrivez l’objet pour les notifications en ligne ou hors connexion à l’aide **[d’IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Les fournisseurs de messagerie peuvent désormais recevoir des notifications Outlook 2013 ou 2010 Outlook 2010 à l’aide **d’IMAPIOfflineNotify**. 
     
 5. Lors de l’arrêt, supprimez l’inscription pour les notifications en ligne et hors connexion à l’aide **[d’IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md)**. 
     
 > [!NOTE]
-> En règle générale, Outlook 2013 et Outlook 2010 peuvent notifier un client de modifications en ligne/hors connexion, ainsi que d’autres modifications, mais l’API d’état hors connexion prend uniquement en charge les notifications pour les modifications en ligne/hors connexion. Le client doit ignorer toutes les autres notifications. Pour plus d’informations, **[voir IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** et **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)**. 
+> En règle générale, Outlook 2013 et Outlook 2010 peuvent notifier un client de modifications en ligne/hors connexion ainsi que d’autres modifications, mais l’API d’état hors connexion prend en charge uniquement les notifications pour les modifications en ligne/hors connexion. Le client doit ignorer toutes les autres notifications. Pour plus d’informations, **[voir IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)** et **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)**. 
   
- Pour obtenir un exemple de client qui utilise l’API d’état hors connexion, voir à propos de l’exemple [de add-in d’état hors connexion.](about-the-sample-offline-state-add-in.md) L’exemple de compl?ment d’état hors connexion est un compl?ment COM qui utilise l’API d’état hors connexion pour surveiller et modifier l’état de connexion.
+ Pour obtenir un exemple de client qui utilise l’API d’état hors connexion, voir à propos de l’exemple [de add-in d’état hors connexion.](about-the-sample-offline-state-add-in.md) L’exemple de compl?ment d’état hors ligne est un compl?ment COM qui utilise l’API d’état hors connexion pour surveiller et modifier l’état de connexion.
   
 Cette API fournit les informations suivantes :
   

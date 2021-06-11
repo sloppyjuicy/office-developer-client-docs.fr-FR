@@ -19,7 +19,7 @@ ms.locfileid: "33405995"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une pièce jointe de message est des données supplémentaires, telles qu’un fichier, un autre message ou un objet OLE, que vous pouvez envoyer ou enregistrer avec un message. Chaque pièce jointe possède une collection de propriétés qui l’identifie et décrit son type et son rendu. Comme les destinataires, les pièces jointes de message sont accessibles uniquement par le biais du message auquel elles appartiennent. Par conséquent, pour qu’une pièce jointe soit utilisable, son message doit être ouvert.
+Une pièce jointe de message est des données supplémentaires, telles qu’un fichier, un autre message ou un objet OLE, que vous pouvez envoyer ou enregistrer avec un message. Chaque pièce jointe possède une collection de propriétés qui l’identifie et décrit son type et la façon dont elle est rendue. Comme les destinataires, les pièces jointes de message sont accessibles uniquement par le biais du message auquel elles appartiennent. Par conséquent, pour qu’une pièce jointe soit utilisable, son message doit être ouvert.
   
 ## <a name="create-a-message-attachment"></a>Créer une pièce jointe de message
   
@@ -45,13 +45,13 @@ Une pièce jointe de message est des données supplémentaires, telles qu’un f
     
 4. Définissez **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) pour contenir la représentation graphique de la pièce jointe pour le fichier ou les pièces jointes binaires. Ne la définissez pas pour les objets OLE, qui stockent les informations de rendu en interne, ou pour les messages joints. 
     
-5. Définissez **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) pour indiquer où la pièce jointe doit être affichée. **PR_RENDERING_POSITION** s’applique uniquement aux clients qui définissent **la PR_BODY** propriété. Si vous ne le **PR_RTF_COMPRESSED,** placez les informations d’espace réservé suivantes dans le flux compressé :
+5. Définissez **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) pour indiquer où la pièce jointe doit être affichée. **PR_RENDERING_POSITION** s’applique uniquement aux clients qui définissent **PR_BODY** propriété. Si vous ne le **PR_RTF_COMPRESSED,** placez les informations d’espace réservé suivantes dans le flux compressé :
     
    `\objattph`
 
    Pour définir **PR_RENDERING_POSITION**, affectez soit un nombre qui représente un décalage ordinal en caractères, avec le premier caractère de **PR_BODY** étant 0, si vous avez besoin de savoir où dans le message la pièce jointe est restituer, ou 0xFFFFFFFF, si vous ne restituer les pièces jointes dans **PR_BODY**.
     
-6. Définissez **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) pour indiquer le nom court du fichier pour une pièce jointe et **pr \_ ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) pour indiquer le nom du fichier tel qu’il est pris en charge sur une plateforme qui gère le format de nom de fichier long. Les deux propriétés sont facultatives. Toutefois, si vous **définissez PR_ATTACH_LONG_FILENAME**, définissez également **PR_ATTACH_FILENAME**. 
+6. Définissez **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) pour indiquer le nom court du fichier pour une pièce jointe et pr **\_ ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md)) pour indiquer le nom du fichier tel qu’il est pris en charge sur une plateforme qui gère le format de nom de fichier long. Les deux propriétés sont facultatives. Toutefois, si vous **définissez PR_ATTACH_LONG_FILENAME**, définissez également **PR_ATTACH_FILENAME**. 
     
 7. Définissez **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) pour indiquer le nom de la pièce jointe qui peut apparaître dans une boîte de dialogue. PR_DISPLAY_NAME est facultatif. 
     
@@ -83,7 +83,7 @@ Une pièce jointe de message est des données supplémentaires, telles qu’un f
   
 1. Allouez une structure [SPropValue,](spropvalue.md) en fixant le membre **ulPropTag** sur **PR_ATTACH_PATHNAME** et le membre **Value.LPSZ** sur la chaîne de caractères qui représente le nom du fichier. 
     
-2. Appelez la méthode [IMAPIProp::SetProps de la](imapiprop-setprops.md) pièce jointe. 
+2. Appelez la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) de la pièce jointe. 
     
 > [!NOTE]
 > Si votre plateforme prend en charge les noms de fichiers longs, PR_ATTACH_PATHNAME **et** **PR_ATTACH_LONG_PATHNAME**. Il peut être nécessaire d’effectuer un appel de système d’exploitation pour récupérer le nom de fichier court. 

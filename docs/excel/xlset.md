@@ -28,7 +28,7 @@ Place très rapidement des valeurs constantes dans des cellules ou des plages. P
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxReference_ (**xltypeRef** ou **xltypeSRef**)
   
@@ -44,7 +44,7 @@ Valeur ou valeur à placer dans la ou les cellules. Pour plus d’informations, 
 
 _pxValue peut_ être une valeur ou un tableau. S’il s’agit d’une valeur, la plage de destination entière est remplie avec cette valeur. S’il s’agit d’un tableau (**xltypeMulti**), les éléments du tableau sont placés aux emplacements correspondants dans le rectangle.
   
-Si vous utilisez un tableau horizontal pour le deuxième argument, il est dupliqué vers le bas pour remplir tout le rectangle. Si vous utilisez un tableau vertical, il est dupliqué à droite pour remplir le rectangle entier. Si vous utilisez un tableau rectangulaire et qu’il est trop petit pour la plage rectangulaire que vous souhaitez y placer, cette plage est ajoutée avec des **#N/A.**
+Si vous utilisez un tableau horizontal pour le deuxième argument, il est dupliqué vers le bas pour remplir le rectangle entier. Si vous utilisez un tableau vertical, il est dupliqué à droite pour remplir le rectangle entier. Si vous utilisez un tableau rectangulaire et qu’il est trop petit pour la plage rectangulaire que vous souhaitez y placer, cette plage est ajoutée avec **#N/A.**
   
 Si la plage cible est plus petite que le tableau source, les valeurs sont copiées dans les limites de la plage cible et les données supplémentaires sont ignorées.
   
@@ -56,7 +56,7 @@ Pour effacer un élément du rectangle de destination, utilisez un élément de 
   
 **XlSet peut** placer uniquement des constantes, et non des formules, dans les cellules. 
   
-**xlSet se** comporte comme une fonction équivalente à une commande de classe 3 ; autrement dit, elle est disponible uniquement à l’intérieur d’une DLL lorsque la DLL  est appelée à partir d’un  objet, d’une macro, d’un menu, d’une barre d’outils, d’une touche de raccourci ou du bouton Exécuter dans la boîte de dialogue **Macro** (accessible à partir de l’onglet Affichage du ruban à partir d’Excel 2007 et du **menu** Outils dans les versions antérieures). 
+**XlSet se** comporte comme une fonction équivalente à une commande de classe 3 ; autrement dit, elle est disponible uniquement à l’intérieur d’une DLL lorsque la DLL  est appelée à partir d’un  objet, d’une macro, d’un menu, d’une barre d’outils, d’une touche de raccourci ou du bouton Exécuter dans la boîte de dialogue **Macro** (accessible à partir de l’onglet Affichage du ruban à partir de Excel 2007 et du **menu** Outils dans les versions antérieures). 
   
 ## <a name="example"></a>Exemple
 

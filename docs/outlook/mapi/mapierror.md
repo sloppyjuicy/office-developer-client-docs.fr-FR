@@ -63,7 +63,7 @@ typedef struct _MAPIERROR
     
  **ulContext**
   
-> Valeur qui représente l’emplacement dans le composant pointé par le membre **lpszComponent** qui identifie où l’erreur s’est produite. 
+> Valeur qui représente l’emplacement dans le composant pointé par le membre **lpszComponent** qui identifie l’endroit où l’erreur s’est produite. 
     
 ## <a name="remarks"></a>Remarques
 

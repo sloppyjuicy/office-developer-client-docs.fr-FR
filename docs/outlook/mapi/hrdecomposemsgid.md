@@ -44,7 +44,7 @@ HrDecomposeMsgID(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _psession_
   
@@ -68,7 +68,7 @@ HrDecomposeMsgID(
     
  _ppMsgEID_
   
-> [out] Pointeur vers un pointeur vers la chaîne d’identificateur d’entrée renvoyée de l’objet dans son magasin. Si le paramètre  _szMsgID_ pointe vers un identificateur d’entrée non saisie,  _ppMsgEID_ pointe vers un pointeur vers une copie convertie de l’identificateur d’entrée non saisie. 
+> [out] Pointeur vers un pointeur vers la chaîne d’identificateur d’entrée renvoyée de l’objet dans son magasin. Si le paramètre  _szMsgID_ pointe vers un identificateur d’entrée non fourni,  _ppMsgEID_ pointe vers un pointeur vers une copie convertie de l’identificateur d’entrée non saisie. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -76,7 +76,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si l’identificateur spécifié par le paramètre  _szMsgID_ est composé, il est converti à partir d’ASCII et divisé en identificateur d’entrée de l’objet au sein de sa boutique de messages et de l’identificateur d’entrée de la boutique. Les chaînes d’identificateur d’entrée non saisie sont simplement converties et copiées. La chaîne d’identificateur composée à séparer est généralement une chaîne créée par la fonction [HrComposeMsgID.](hrcomposemsgid.md) 
+Si l’identificateur spécifié par le paramètre  _szMsgID_ est composé, il est converti à partir d’ASCII et divisé en identificateur d’entrée de l’objet au sein de sa boutique de messages et de l’identificateur d’entrée de la boutique. Les chaînes d’identificateur d’entrée non saisies sont simplement converties et copiées. La chaîne d’identificateur composée à séparer est généralement une chaîne créée par la fonction [HrComposeMsgID.](hrcomposemsgid.md) 
   
 Appeler la **fonction HrDecomposeMsgID** équivaut à appeler la fonction [HrEntryIDFromSz,](hrentryidfromsz.md) puis la fonction [HrDecomposeEID.](hrdecomposeeid.md) 
   

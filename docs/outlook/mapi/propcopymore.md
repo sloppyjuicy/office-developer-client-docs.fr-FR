@@ -42,11 +42,11 @@ SCODE PropCopyMore(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpSPropValueDest_
   
-> [out] Pointeur vers l’emplacement auquel cette fonction écrit une structure [SPropValue](spropvalue.md) définissant la valeur de la propriété copiée. 
+> [out] Pointeur vers l’emplacement où cette fonction écrit une structure [SPropValue](spropvalue.md) définissant la valeur de la propriété copiée. 
     
  _lpSPropValueSrc_
   

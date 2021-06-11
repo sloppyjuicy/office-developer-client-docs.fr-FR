@@ -44,7 +44,7 @@ Si  *start_num*  est :
     
 - Inférieur à la longueur du  *texte,*  mais  *start_num*  plus  *num_chars*  dépasse la longueur du texte  *,*  MID renvoie les caractères jusqu’à la fin du  *texte*  . 
     
-- Inférieur à 1, MID renvoie la #VALUE! Autrement, la méthode INDEX renvoie la valeur d'erreur #REF!. 
+- inférieur à 1, MID renvoie la valeur d’erreur #VALEUR!. 
     
 Si  *num_chars*  est négatif, MID renvoie la valeur #VALUE! Autrement, la méthode INDEX renvoie la valeur d'erreur #REF!. 
   

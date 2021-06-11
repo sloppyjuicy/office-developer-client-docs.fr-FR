@@ -36,7 +36,7 @@ Calcule le nombre d’octets qui doivent être alloués à une nouvelle structur
 CbNewADRLIST (_centries)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ _centries_
   

@@ -43,7 +43,7 @@ Consultez les interfaces suivantes pour obtenir les listes des propriétés asso
     
 - [IProfSect : IMAPIProp](iprofsectimapiprop.md)
     
-Pour obtenir les listes des propriétés requises pour les tables, consultez la documentation de chaque type de table dans les [tableaux MAPI.](mapi-tables.md)
+Pour obtenir les listes des propriétés requises pour les tables, voir la documentation de chaque type de tableau dans [les tables MAPI.](mapi-tables.md)
   
 Pour obtenir la liste des propriétés de message requises et facultatives pour les classes de message définies par MAPI, consultez les rubriques suivantes : 
   

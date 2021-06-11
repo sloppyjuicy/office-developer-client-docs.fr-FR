@@ -44,7 +44,7 @@ Une magasin de messages définit cette propriété pour chaque message qu’elle
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

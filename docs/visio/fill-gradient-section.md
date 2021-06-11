@@ -24,7 +24,7 @@ Chaque [ligne de ligne d’arrêt](gradient-stop-row-fill-gradient-section.md) d
   
 Seules les 10 premières lignes contenues dans la section sont utilisées par les paramètres de dégradé. Toutes **les lignes d’arrêt** du dégradé au-delà de 10 sont ignorées. 
   
-Vous pouvez définir les propriétés de dégradé de  remplissage dans le volet **Format** de forme (sous l’onglet Accueil, dans le groupe **Styles** de forme, cliquez sur **Remplissage,** puis sur Options de **remplissage).** 
+Vous pouvez définir les propriétés de dégradé de  remplissage dans le volet **Format** de forme (sous l’onglet Accueil, dans le groupe **Styles** de forme, cliquez sur **Remplissage,** puis cliquez sur Options de **remplissage).** 
   
 Vous pouvez activer ou désactiver un remplissage dégradé pour la forme en modifiant la valeur de la cellule [FillGradientEnabled Cell (Gradient Properties Section).](fillgradientenabled-cell-gradient-properties-section.md) 
   

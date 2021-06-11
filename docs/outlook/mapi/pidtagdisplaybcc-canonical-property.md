@@ -36,7 +36,7 @@ Contient une liste ASCII des noms d’affichage des destinataires de message en 
    
 ## <a name="remarks"></a>Remarques
 
-La magasin de messages calcule ces propriétés sur les objets de message à l’aide de la méthode [IMessage::ModifyRecipients.](imessage-modifyrecipients.md) La magasin de messages conserve également ces propriétés afin qu’elles reflètent toujours le dernier état enregistré d’un message. La valeur est synchronisée au moment de chaque appel à la méthode [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
+La magasin de messages calcule ces propriétés sur les objets de message à l’aide de la méthode [IMessage::ModifyRecipients.](imessage-modifyrecipients.md) La magasin de messages conserve également ces propriétés afin qu’elle reflète toujours le dernier état enregistré d’un message. La valeur est synchronisée au moment de chaque appel à la méthode [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
 Si un message ne possède aucun destinataire en copie carbone non voyante, la boutique de messages doit répondre à un appel [IMAPIProp::GetProps](imapiprop-getprops.md) avec une valeur de retour de S_OK et une chaîne vide pour **PR_DISPLAY_BCC**. 
   
@@ -48,7 +48,7 @@ En raison de la nécessité possible de la localisation, MAPI fournit les instru
     
 - Les clients doivent traduire chaque point-virgule rencontré dans cette propriété en caractère séparateur traduit avant de rendre les informations de propriété visibles dans l’interface utilisateur. 
     
-- Lors du forwarding de messages, les clients n’ont pas besoin de traduire les caractères de séparation sur la ligne de destinataire de copie carbone non voyante. 
+- Lors du forwarding de messages, les clients n’ont pas besoin de traduire les caractères de séparation sur la ligne de destinataire en copie carbone non voyante. 
     
 ## <a name="related-resources"></a>Ressources connexes
 

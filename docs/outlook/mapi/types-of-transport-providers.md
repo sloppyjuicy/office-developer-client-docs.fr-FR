@@ -27,7 +27,7 @@ Tous les fournisseurs de transport supportent une gamme de fonctionnalités stan
     
 - Envoi et réception de messages à partir du système de messagerie sous-jacent.
     
-- Exposition des types d’adresses que les fournisseurs de transport prendre en charge afin que lepooler MAPI et les applications clientes peuvent les utiliser correctement.
+- Exposition des types d’adresses que les fournisseurs de transport prise en charge afin que lepooler MAPI et les applications clientes peuvent les utiliser correctement.
     
 - Accepter la remise pour des destinataires spécifiques.
     

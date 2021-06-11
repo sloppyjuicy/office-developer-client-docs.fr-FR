@@ -25,7 +25,7 @@ ms.locfileid: "32358813"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur du jeu de caractères d’une pièce jointe de message.
+Contient la valeur du jeu de caractères d’une pièce jointe d’un message.
   
 |||
 |:-----|:-----|

@@ -27,7 +27,7 @@ Le tableau ci-dessous montre des exemples d’expressions avec leurs résultats.
 |**Expression**|**Résultat**|**Description**|
 |:-----|:-----|:-----|
 | 2 \* 5 &amp; »  <br/> | "10 cents"  <br/> | L’opérateur (concatenation de chaîne) requiert des arguments de chaîne, de sorte que le résultat numérique de 2 5 est automatiquement converti en chaîne &amp; \* « 10 ».  <br/> |
-| 5 \* « 2 »  <br/> | 10   <br/> | L’opérateur (multiplication) requiert des arguments numériques, de sorte que la chaîne « 2 » est automatiquement convertie en nombre \* équivalent 2.  <br/> |
+| 5 \* « 2 »  <br/> | 10  <br/> | L’opérateur (multiplication) requiert des arguments numériques, de sorte que la chaîne « 2 » est automatiquement convertie en nombre \* équivalent 2.  <br/> |
 | 5 \* « sous »  <br/> | 0  <br/> | L’opérateur (multiplication) requiert des arguments numériques, donc, étant donné que la chaîne « er » ne peut pas être convertie en nombre, zéro est utilisé comme équivalent \* numérique.  <br/> |
    
 ## <a name="arithmetic-operators"></a>Opérateurs arithmétiques
@@ -40,10 +40,10 @@ Les opérateurs arithmétiques réalisent des opérations sur des nombres. Les o
 | -  <br/> | Négatif  <br/> | -37  <br/> | -37  <br/> |
 | %  <br/> | Pourcentage  <br/> | 37 %  <br/> | .37  <br/> |
 | ^  <br/> | Exponentiation  <br/> | 5 ^ 2  <br/> | 25  <br/> |
-| \*  <br/> | Multiplication  <br/> | 5 \* 2  <br/> | 10   <br/> |
+| \*  <br/> | Multiplication  <br/> | 5 \* 2  <br/> | 10  <br/> |
 | /  <br/> | Division  <br/> | 5/2  <br/> | 2,5  <br/> |
 | +  <br/> | Ajout  <br/> | 5 + 2  <br/> | 7   <br/> |
-| -  <br/> | Soustraction  <br/> | 5 - 2  <br/> | 3   <br/> |
+| -  <br/> | Soustraction  <br/> | 5 - 2  <br/> | 3  <br/> |
    
 ## <a name="comparison-operators"></a>Opérateurs de comparaison
 
@@ -58,7 +58,7 @@ Les opérateurs de comparaison sont utilisés pour construire des expressions lo
 | =  <br/> | _EQ_  <br/> | Égal à  <br/> | 5 = 2  <br/> | FALSE  <br/> |
 | \<\>  <br/> | _NE_  <br/> | Différent de  <br/> | 5 \< \> 2  <br/> | TRUE  <br/> |
    
-Les opérateurs de comparaison symboliques ( et ainsi de suite) sont le meilleur choix \> pour la plupart des \< comparaisons. Les opérateurs alternatifs _(GT,_ _LT,_ etc.) effectuent une comparaison exacte avec les 15 chiffres complets de précision que Visio utilise pour stocker des valeurs en interne.
+Les opérateurs de comparaison symboliques ( et ainsi de suite) sont \> le meilleur choix pour la plupart des \< comparaisons. Les opérateurs alternatifs _(GT,_ _LT,_ etc.) effectuent une comparaison exacte avec les 15 chiffres complets de précision que Visio utilise pour stocker des valeurs en interne.
   
 Lorsque vous comparez des valeurs arrondies ou calculées à l’aide de ces opérateurs de remplacement, la valeur FALSE peut être renvoyée, alors que dans la pratique, l’expression devrait renvoyer TRUE.
   

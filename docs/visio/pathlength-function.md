@@ -40,7 +40,7 @@ PATHLENGTH(** *section* ** ** *[,segment]* ** )
   
 ## <a name="remarks"></a>Remarques
 
-Si  _section_ ou  _segment_ n’existe pas, Microsoft Visio renvoie #REF!. 
+Si _section_ ou _segment_ n’existe pas, Microsoft Visio renvoie #REF!. 
   
 Si vous incluez une valeur  _de segment,_ PATHLENGTH renvoie uniquement la longueur de ce segment. 
   

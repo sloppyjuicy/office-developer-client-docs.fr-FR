@@ -42,7 +42,7 @@ Pour un fichier joint, cette propriété offre généralement une icône pour le
   
 Pour un message joint, cette propriété n’est généralement pas définie. Une application cliente qui doit restituer un message joint doit obtenir sa propriété **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), appeler [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) pour un pointeur vers l’objet d’informations de formulaire correspondant, ouvrir l’interface [IMAPIFormInfo](imapiforminfoimapiprop.md) sur cet objet et utiliser **GetProps** pour récupérer la propriété **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) ou **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
   
-Pour un objet OLE statique incorporé, cette propriété contient un métafichier Microsoft Windows qui peut être utilisé pour dessiner la représentation des pièces jointes dans une fenêtre. 
+Pour un objet OLE statique incorporé, cette propriété contient un métafichier Microsoft Windows qui peut être utilisé pour dessiner la représentation de pièce jointe dans une fenêtre. 
   
 Pour un objet OLE dynamique incorporé, le client doit utiliser les données OLE pour générer les informations de rendu. 
   

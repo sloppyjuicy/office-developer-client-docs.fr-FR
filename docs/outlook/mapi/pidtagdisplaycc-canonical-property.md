@@ -36,9 +36,9 @@ Contient une liste ASCII des noms d’affichage des destinataires des messages e
    
 ## <a name="remarks"></a>Remarques
 
-La magasin de messages calcule ces propriétés sur les objets de message à l’aide de la méthode [IMessage::ModifyRecipients.](imessage-modifyrecipients.md) La magasin de messages conserve également ces propriétés afin qu’elles reflètent toujours le dernier état enregistré d’un message. La valeur est synchronisée au moment de chaque appel à [IMAPIProp::SaveChanges](imapiprop-savechanges.md). 
+La magasin de messages calcule ces propriétés sur les objets de message à l’aide de la méthode [IMessage::ModifyRecipients.](imessage-modifyrecipients.md) La magasin de messages conserve également ces propriétés afin qu’elle reflète toujours le dernier état enregistré d’un message. La valeur est synchronisée au moment de chaque appel à [IMAPIProp::SaveChanges](imapiprop-savechanges.md). 
   
-Si un message ne possède aucun destinataire en copie carbone, la magasin de messages doit répondre à un appel [IMAPIProp::GetProps](imapiprop-getprops.md) avec une valeur de retour de S_OK et une chaîne vide pour ces propriétés. 
+Si un message ne possède aucun destinataire en copie carbone, la boutique de messages doit répondre à un appel [IMAPIProp::GetProps](imapiprop-getprops.md) avec une valeur de retour de S_OK et une chaîne vide pour ces propriétés. 
   
 En raison de la nécessité possible de la localisation, MAPI fournit les instructions suivantes pour tous les noms de destinataires :
   
@@ -48,7 +48,7 @@ En raison de la nécessité possible de la localisation, MAPI fournit les instru
     
 - Les clients doivent traduire chaque point-virgule rencontré dans cette propriété en caractère séparateur traduit avant de rendre les informations de propriété visibles dans l’interface utilisateur. 
     
-- Lors du forwarding de messages, les clients n’ont pas besoin de traduire les caractères de séparation sur la ligne du destinataire en copie carbone. 
+- Lors du forwarding de messages, les clients n’ont pas besoin de traduire les caractères de séparation sur la ligne de destinataire en copie carbone. 
     
 ## <a name="related-resources"></a>Ressources connexes
 

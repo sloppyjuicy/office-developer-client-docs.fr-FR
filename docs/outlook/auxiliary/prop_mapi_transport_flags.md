@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 12cfe096-6882-c0be-b248-87567cb71e83
-description: Représente les paramètres de transport qu’Outlook utilise pour déterminer les tâches de synchronisation nécessaires et pour désactiver les éléments d’interface utilisateur que le compte ne prend pas en charge.
+description: Représente les paramètres de transport que Outlook utilise pour déterminer les tâches de synchronisation nécessaires et pour désactiver les éléments d’interface utilisateur que le compte ne prend pas en charge.
 ms.openlocfilehash: 707306c3bfbeebdd18f82bacfc121274be08aa50
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33404525"
 ---
 # <a name="prop_mapi_transport_flags"></a>PROP_MAPI_TRANSPORT_FLAGS
 
-Représente les paramètres de transport qu’Outlook utilise pour déterminer les tâches de synchronisation nécessaires et pour désactiver les éléments d’interface utilisateur que le compte ne prend pas en charge.
+Représente les paramètres de transport que Outlook utilise pour déterminer les tâches de synchronisation nécessaires et pour désactiver les éléments d’interface utilisateur que le compte ne prend pas en charge.
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -33,7 +33,7 @@ Voir [IOlkAccount](iolkaccount.md).
 
 Obtenez ou définissez cette propriété à l’aide [d’IOlkAccount::GetProp](iolkaccount-getprop.md) ou [IOlkAccount::SetProp,](iolkaccount-setprop.md)respectivement.
   
-Renvoie **MAPIACCT_SEND_ONLY** si le compte peut uniquement envoyer des messages, mais ne peut pas recevoir de messages. Dans ce cas, Outlook désactive l’interface utilisateur qui ne s’applique pas à ce type de comptes (par exemple, l’interface utilisateur pour **l’envoi/réception).**
+Renvoie **MAPIACCT_SEND_ONLY** si le compte peut uniquement envoyer des messages, mais ne peut pas recevoir de messages. Dans ce cas, Outlook’interface utilisateur qui ne s’applique pas à ce type de comptes (par exemple, l’interface utilisateur pour **l’envoi/réception).**
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -21,7 +21,7 @@ ms.locfileid: "33405295"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Une application cliente qui se soucie de l’endroit où sont rendues ses pièces jointes dans un message définit la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) pour ces pièces jointes lors de la composition du message. Un client qui ne se soucie pas placement de rendu laisse cette propri�t� non d�finie.
+Une application cliente qui se soucie de l’endroit où sont rendues ses pièces jointes dans un message définit la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) pour ces pièces jointes pendant la composition du message. Un client qui ne se soucie pas placement de rendu laisse cette propri�t� non d�finie.
   
 Lorsqu'un client ouvre un message contenant des pi�ces jointes, il tente de r�cup�rer la propri�t� de **PR_RENDERING_POSITION** de chaque pi�ce jointe afin de d�terminer o� la pi�ce jointe doit �tre affich�e dans le texte du message. Un client peut utiliser une des m�thodes suivantes pour r�cup�rer **PR_RENDERING_POSITION**:
   

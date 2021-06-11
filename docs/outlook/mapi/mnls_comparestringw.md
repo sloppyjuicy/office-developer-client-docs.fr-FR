@@ -33,7 +33,7 @@ int MNLS_CompareStringW (
   int cch2);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lcid_
   

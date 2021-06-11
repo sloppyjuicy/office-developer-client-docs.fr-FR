@@ -44,7 +44,7 @@ HRESULT STDMETHODCALLTYPE OpenStreamOnFileW(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpAllocateBuffer_
   
@@ -64,11 +64,11 @@ SOF_UNIQUEFILENAME
     
 STGM_CREATE
   
-> Le fichier doit être créé même s’il en existe déjà un. Si le  _paramètre lpszFileName n’est_ pas paramétré, cet indicateur et STGM_DELETEONRELEASE doivent être définies. Si STGM_CREATE est définie, l’STGM_READWRITE doit également être définie. 
+> Le fichier doit être créé même s’il en existe déjà un. Si le  _paramètre lpszFileName_ n’est pas paramétré, cet indicateur et STGM_DELETEONRELEASE doivent être définies. Si STGM_CREATE est définie, l’STGM_READWRITE doit également être définie. 
     
 STGM_DELETEONRELEASE
   
-> Le fichier doit être supprimé lorsque **l’objet IStream** est libéré. Si le  _paramètre lpszFileName n’est_ pas paramétré, cet indicateur et STGM_CREATE doivent être définies. 
+> Le fichier doit être supprimé lorsque **l’objet IStream** est libéré. Si le  _paramètre lpszFileName_ n’est pas paramétré, cet indicateur et STGM_CREATE doivent être définies. 
     
 STGM_READ
   
@@ -76,7 +76,7 @@ STGM_READ
     
 STGM_READWRITE
   
-> Le fichier doit être créé ou ouvert avec une autorisation de lecture/écriture. Si cet indicateur n’est pas définie, l’STGM_CREATE ne doit pas non plus être définie.
+> Le fichier doit être créé ou ouvert avec une autorisation de lecture/écriture. Si cet indicateur n’est pas STGM_CREATE, l’indicateur de STGM_CREATE ne doit pas l’être non plus.
     
  _lpszFileName_
   
@@ -110,13 +110,13 @@ La **fonction OpenStreamOnFileW** a deux utilisations importantes en plus de la 
   
 Lorsque SOF_UNIQUEFILENAME est définie, **OpenStreamOnFileW** crée un fichier temporaire pour contenir les données **d’un objet IStream.** Pour cette utilisation, le paramètre  _lpszFileName_ peut éventuellement désigner le chemin d’accès au répertoire dans lequel le fichier doit être créé, et le paramètre  _lpszPrefix_ peut éventuellement spécifier un préfixe pour le nom de fichier. 
   
-Lorsque l’application cliente ou le fournisseur de services appelant est terminé avec l’objet **IStream,** il doit le libérer en appelant la méthode OLE **IStream::Release.** 
+Lorsque l’application cliente ou le fournisseur de services appelant a terminé avec l’objet **IStream,** il doit le libérer en appelant la méthode OLE **IStream::Release.** 
   
 MAPI utilise les fonctions pointées par  _lpAllocateBuffer_ et  _lpFreeBuffer_ pour la plupart de l’allocation et de la déallocation de la mémoire, en particulier pour allouer de la mémoire pour une utilisation par les applications clientes lors de l’appel d’interfaces objet telles que [IMAPIProp::GetProps](imapiprop-getprops.md) et [IMAPITable::QueryRows](imapitable-queryrows.md). 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-L SOF_UNIQUEFILENAME est utilisé pour créer un fichier temporaire avec un nom propre au système de messagerie. Si cet indicateur est définie, le paramètre  _lpszFileName_ specifes the path for the temporary file, and the  _lpszPrefix_ parameter contains the prefix characters of the filename. Le nom de fichier construit est <prefix> HHHH. TMP, où HHHH est un nombre hexadécimal. Si  _lpszFileName_ est NULL, le fichier est créé dans le répertoire de fichiers temporaire qui est renvoyé à partir de la fonction Windows **GetTempPath**, ou le répertoire actuel si aucun répertoire de fichiers temporaires n’a été désigné.
+L SOF_UNIQUEFILENAME est utilisé pour créer un fichier temporaire avec un nom propre au système de messagerie. Si cet indicateur est définie, le paramètre  _lpszFileName_ specifes the path for the temporary file, and the  _lpszPrefix_ parameter contains the prefix characters of the filename. Le nom de fichier construit est <prefix> HHHH. TMP, où HHHH est un nombre hexadécimal. Si _lpszFileName_ est NULL, le fichier est créé dans le répertoire de fichiers temporaire qui est renvoyé à partir de la fonction Windows **GetTempPath** ou le répertoire actuel si aucun répertoire de fichiers temporaire n’a été désigné.
   
 Si l’indicateur SOF_UNIQUEFILENAME n’est pas définie,  _lpszPrefix_ est ignoré et  _lpszFileName_ doit contenir le chemin d’accès complet et le nom du fichier à ouvrir ou à créer. Le fichier sera ouvert ou créé en fonction des autres indicateurs qui sont définies dans  _ulFlags_.
   

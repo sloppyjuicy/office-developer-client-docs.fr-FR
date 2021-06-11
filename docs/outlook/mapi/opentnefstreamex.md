@@ -44,7 +44,7 @@ HRESULT OpenTnefStreamEx(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _lpvSupport_
   
@@ -68,7 +68,7 @@ TNEF_BEST_DATA
     
 TNEF_COMPATIBILITY 
   
-> Fournit une compatibilité ascendante avec des applications clientes plus anciennes. Les flux TNEF codés avec cet indicateur map fourniront toutes les propriétés possibles dans leur attribut de bas niveau correspondant. Ce mode entraîne également la valeur par défaut de certaines propriétés qui sont requises par les clients de bas niveau. 
+> Fournit une compatibilité ascendante avec des applications clientes plus anciennes. Les flux TNEF codés avec cet indicateur maient toutes les propriétés possibles dans leur attribut de bas niveau correspondant. Ce mode entraîne également la mise en valeur par défaut de certaines propriétés qui sont requises par les clients de bas niveau. 
     
   > [!CAUTION]
   > Cet indicateur est obsolète et ne doit pas être utilisé. 
@@ -111,11 +111,11 @@ S_OK
 
 La **fonction OpenTnefStreamEx** est le remplacement recommandé pour [OpenTnefStream](opentnefstream.md), le point d’entrée d’origine pour l’accès TNEF. 
   
-Un objet TNEF créé par la fonction **OpenTnefStreamEx** appelle ultérieurement la méthode OLE **IUnknown::AddRef** pour ajouter des références pour l’objet de support, l’objet de flux et l’objet message. Le fournisseur de transport peut libérer les références pour les trois objets avec un seul appel à la méthode OLE **IUnknown::Release** sur l’objet TNEF. 
+Un objet TNEF créé par la fonction **OpenTnefStreamEx** appelle ultérieurement la méthode OLE **IUnknown::AddRef** pour ajouter des références pour l’objet de support, l’objet stream et l’objet message. Le fournisseur de transport peut libérer les références pour les trois objets avec un seul appel à la méthode OLE **IUnknown::Release** sur l’objet TNEF. 
   
 **OpenTnefStreamEx** alloue et initialise un objet TNEF pour le fournisseur à utiliser dans le codage d’un message MAPI dans un message de flux TNEF. Sinon, cette fonction peut configurer l’objet que le fournisseur utilisera dans les appels ultérieurs à [ITnef::ExtractProps](itnef-extractprops.md) pour décoder un message de flux TNEF dans un message MAPI. Pour libérer l’objet TNEF et fermer la session, le fournisseur de transport doit appeler la méthode **IUnknown::Release** héritée sur l’objet. 
   
-La valeur de base du  _paramètre wKeyVal_ ne doit pas être zéro et ne doit pas être la même pour chaque appel à **OpenTnefStreamEx**. Au lieu de cela, utilisez des nombres aléatoires basés sur l’heure système à partir du générateur de numéros aléatoires de la bibliothèque d’utilisation.
+La valeur de base du paramètre  _wKeyVal_ ne doit pas être zéro et ne doit pas être identique pour chaque appel à **OpenTnefStreamEx**. Au lieu de cela, utilisez des nombres aléatoires basés sur l’heure système à partir du générateur de numéros aléatoires de la bibliothèque d’utilisation.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

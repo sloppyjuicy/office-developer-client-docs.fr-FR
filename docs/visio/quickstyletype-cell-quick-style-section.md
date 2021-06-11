@@ -21,9 +21,9 @@ Détermine le type de style rapide (2 dimensions, 1 dimension ou connecteur) don
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Visio choisit automatiquement  <br/> |
-|1   <br/> |1 dimension  <br/> |
-|2   <br/> |2 dimensions  <br/> |
-|3   <br/> |Connector  <br/> |
+|1  <br/> |1 dimension  <br/> |
+|2  <br/> |2 dimensions  <br/> |
+|3  <br/> |Connecteur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

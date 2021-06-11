@@ -25,7 +25,7 @@ ms.locfileid: "32360759"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient des informations sur l’enveloppe de message spécifique au transport.
+Contient des informations d’enveloppe de message spécifiques au transport.
   
 |||
 |:-----|:-----|

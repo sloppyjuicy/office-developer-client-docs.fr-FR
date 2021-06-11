@@ -35,16 +35,16 @@ Détermine si une chaîne de caractères spécifique correspond à un modèle sp
    
 ## <a name="remarks"></a>Remarques
 
-Le tableau suivant contient les caractères génériques valides pour une utilisation dans l’argument *Motif.* 
+Le tableau suivant contient les caractères génériques valides pour être utilisés dans l’argument *Motif.* 
   
 |**Caractère générique**|**Description**|**Exemple**|
 |:-----|:-----|:-----|
 |%  <br/> |Toute chaîne de zéro caractères ou plus.  <br/> | *WHERE title LIKE '%computer%'*  finds all book titles with the word 'computer' anywhere in the book title.  <br/> |
-|_ (trait de soulignement)  <br/> |Tout caractère unique.  <br/> | *WHERE au_fname LIKE '_ean'*  finds all four-letter first names that end with ean (Dean, Names, and so on).  <br/> |
+|_ (trait de soulignement)  <br/> |Tout caractère unique.  <br/> | *WHERE au_fname LIKE '_ean'*  trouve tous les prénoms à quatre lettres qui se terminent par ean (Dean, Names, et ainsi de suite).  <br/> |
 |[]  <br/> |Tout caractère unique dans la plage spécifiée ([a-f]) ou jeu ([abcdef]).  <br/> | *WHERE au_lname LIKE '[C-P]arsen'*  finds author last names ending with arsen and starting with any single character between C and P, for example Carsen, Principal, Karsen, and so on.  <br/> |
 |[^]  <br/> |Tout caractère unique ne se trouve pas dans la plage spécifiée ([^a-f]) ou n’est pas définie ([^abcdef]).  <br/> | *WHERE au_lname LIKE 'de[^l]%'*  tous les noms d’auteur commençant par de et où la lettre suivante n’est pas l.  <br/> |
    
-Lorsque vous effectuez des comparaisons de chaînes à l’aide de **LIKE,** tous les caractères de la chaîne de modèle sont significatifs. Cela inclut les espaces de début ou de fin. Si une comparaison dans une requête consiste à renvoyer toutes les lignes avec une chaîne **LIKE** 'abc' (abc suivie d’un espace unique), une ligne dans laquelle la valeur de cette colonne est abc (abc sans espace) n’est pas renvoyée. Toutefois, les blancs de fin, dans l’expression à laquelle le modèle est indiqué, sont ignorés. Si une comparaison dans une requête consiste à renvoyer toutes les lignes avec la chaîne **LIKE** 'abc' (abc sans espace), toutes les lignes qui commencent par abc et ont zéro ou plusieurs vides de fin sont renvoyées. 
+Lorsque vous effectuez des comparaisons de chaînes à l’aide de **LIKE,** tous les caractères de la chaîne de modèle sont significatifs. Cela inclut les espaces de début ou de fin. Si une comparaison dans une requête consiste à renvoyer toutes les lignes avec une chaîne **like** 'abc' (abc suivie d’un espace unique), une ligne dans laquelle la valeur de cette colonne est abc (abc sans espace) n’est pas renvoyée. Toutefois, les blancs de fin, dans l’expression à laquelle le modèle est indiqué, sont ignorés. Si une comparaison dans une requête consiste à renvoyer toutes les lignes avec la chaîne **LIKE** 'abc' (abc sans espace), toutes les lignes qui commencent par abc et ont zéro ou plusieurs vides de fin sont renvoyées. 
   
 Si l’un des arguments n’est pas d’un type de données de chaîne, il est converti en type de données de chaîne, si possible.
   

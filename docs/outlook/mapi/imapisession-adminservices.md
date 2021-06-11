@@ -34,7 +34,7 @@ HRESULT AdminServices(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La **méthode IMAPISession::AdminServices** crée un objet d’administration de service de message, un objet qui prend en charge l’interface **IMsgServiceAdmin** et renvoie un pointeur. À l’aide de ce pointeur, vous pouvez appeler des méthodes **IMsgServiceAdmin** pour modifier les services de message dans le profil de session. N’ignorez pas que ces modifications ne prennent effet qu’après la session suivante . la session en cours n’est pas affectée. 
+La **méthode IMAPISession::AdminServices** crée un objet d’administration de service de message, un objet qui prend en charge l’interface **IMsgServiceAdmin** et renvoie un pointeur. À l’aide de ce pointeur, vous pouvez appeler des méthodes **IMsgServiceAdmin** pour modifier les services de message dans le profil de session. N’ignorez pas que ces modifications ne prennent effet qu’après la prochaine session . la session en cours n’est pas affectée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

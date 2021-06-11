@@ -44,9 +44,9 @@ Vous pouvez spécifier des variables de modèle contenues dans une liste (délim
   
 Une variable de modèle du type **listVariable** est un conteneur d’objets. Il peut contenir des éléments délimités par des virgules (de type **linkVariable** ou **textVariable)** ou des images (du type **pictureVariable).** Les listes peuvent contenir jusqu’à cinq éléments de lien, cinq éléments de texte ou cinq images. 
   
-Outlook Social Connector (OSC) localise les éléments de lien ou de liste de texte en fonction des paramètres régionaux du système Windows.
+Le Outlook Social Connector (OSC) localise les éléments de lien ou de liste de texte en fonction des Windows du système.
   
-Pour pouvoir correctement l’afficher et l’afficher dans un élément de flux d’activités, vous devez inclure des images dans une liste. Toutes les images ont une hauteur de 52 pixels. La largeur de l’image n’est pas resa re resserrisée.
+Pour pouvoir correctement afficher des images dans un élément de flux d’activités, vous devez inclure des images dans une liste. Toutes les images ont une hauteur de 52 pixels. La largeur de l’image n’est pas re resserée.
   
 ## <a name="template-variable-elements"></a>Éléments de variable de modèle
 
@@ -110,6 +110,6 @@ Cette section couvre les éléments obligatoires et facultatifs pris en charge p
 - [activityTemplateContainer, élément](activitytemplatecontainer-element.md)  
 - [Recommandations en matière d’affichage correct des activités](guidelines-for-properly-displaying-activities.md)  
 - [XML pour les activités](xml-for-activities.md)  
-- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Outlook Schéma XML du fournisseur Social Connector](outlook-social-connector-provider-xml-schema.md)
 - [Développement d'un fournisseur avec le schéma XML OSC](developing-a-provider-with-the-osc-xml-schema.md)
 

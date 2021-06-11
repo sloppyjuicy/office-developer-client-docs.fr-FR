@@ -18,7 +18,7 @@ ms.locfileid: "33404805"
 ---
 # <a name="weekday-function-visioshapesheet"></a>WEEKDAY Function (VisioShapeSheet)
 
-Renvoie un integer, de 1 à 7, représentant le jour de la semaine dans _l’heure ou_ l’expression . 
+Renvoie un integer, de 1 à 7, représentant le jour de la semaine dans _l’heure de date ou_ l’expression . 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,7 +42,7 @@ Le composant d’heure  _dans l’heure ou_  _l’expression_ est ignoré.
   
 Le résultat est compris entre lundi (1) et dimanche (7). Aucun arrondissement n’est effectué. Si  _la date/heure_ est manquante ou ne peut pas être interprétée comme une date ou une heure valide, la fonction renvoie une #VALUE! erreur. 
   
-La fonction WEEKDAY accepte également une valeur de nombre unique pour  _l’expression_ où la partie nombre inte du résultat représente le nombre de jours depuis le 30 décembre 1899. 
+La fonction WEEKDAY accepte également une valeur de nombre unique pour  _l’expression,_ où la partie nombre inte du résultat représente le nombre de jours depuis le 30 décembre 1899. 
   
 ## <a name="example-1"></a>Exemple 1
 

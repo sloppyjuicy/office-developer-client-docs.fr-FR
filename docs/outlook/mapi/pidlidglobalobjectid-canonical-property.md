@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidGlobalObjectId
+title: Propri t canonique PidLidGlobalObjectId
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32357763"
 ---
-# <a name="pidlidglobalobjectid-canonical-property"></a>Propriété canonique PidLidGlobalObjectId
+# <a name="pidlidglobalobjectid-canonical-property"></a>Propri t canonique PidLidGlobalObjectId
 
   
   

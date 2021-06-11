@@ -37,7 +37,7 @@ Indique que la demande de réunion représente une exception à une série péri
    
 ## <a name="remarks"></a>Remarques
 
-La valeur FALSE pour cette propriété indique que la demande de réunion n’est pas une instance de demande de réunion. Cette propriété n’est pas obligatoire.
+La valeur FALSE pour cette propriété indique que la demande de réunion n’est pas une instance de forwarded. Cette propriété n’est pas obligatoire.
   
 ## <a name="related-resources"></a>Ressources connexes
 

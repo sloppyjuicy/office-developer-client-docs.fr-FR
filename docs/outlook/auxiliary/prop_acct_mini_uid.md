@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
-description: Renvoie un identificateur de compte unique dans les profils Outlook.
+description: Renvoie un identificateur de compte unique dans Outlook profils.
 ms.openlocfilehash: 209f7dd89b8d947b999f2a068373aaf61a3e9784
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33409432"
 ---
 # <a name="prop_acct_mini_uid"></a>PROP_ACCT_MINI_UID
 
-Renvoie un identificateur de compte unique dans les profils Outlook.
+Renvoie un identificateur de compte unique dans Outlook profils.
   
 ## <a name="quick-info"></a>Informations rapides
 

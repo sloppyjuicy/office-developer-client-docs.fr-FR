@@ -18,7 +18,7 @@ ms.locfileid: "33409572"
 ---
 # <a name="extrainfo-cell-hyperlinks-section"></a>ExtraInfo, cellule (section Hyperlinks)
 
-Représente une chaîne qui passe l'information à utiliser dans la résolution d'une URL, comme les coordonnées d'un point dans une image interactive. Par exemple, dans la cellule ExtraInfo, « x=41 y=7 » spécifie les &amp; coordonnées d’une carte d’image.
+Représente une chaîne qui passe l'information à utiliser dans la résolution d'une URL, comme les coordonnées d'un point dans une image interactive. Par exemple, dans la cellule ExtraInfo, « x=41 y=7 » spécifie les &amp; coordonnées d’un plan d’image.
   
 ## <a name="remarks"></a>Remarques
 

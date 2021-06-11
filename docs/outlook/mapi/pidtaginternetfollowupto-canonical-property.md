@@ -25,7 +25,7 @@ ms.locfileid: "33405309"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Maillons vers l’en-tête Followup-To MIME.
+Cartes à l’en-tête Followup-To MIME.
   
 |||
 |:-----|:-----|

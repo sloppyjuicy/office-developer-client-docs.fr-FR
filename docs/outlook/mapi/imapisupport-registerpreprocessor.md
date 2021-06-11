@@ -38,7 +38,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMuid_
   
@@ -72,7 +72,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::RegisterPreprocessor** est implémentée pour les objets de prise en charge du fournisseur de transport uniquement. Les fournisseurs de transport **appellent RegisterPreprocessor** pour inscrire une fonction de préprocesseur (fonction conforme au prototype [PreprocessMessage).](preprocessmessage.md) Une fonction de préprocesseur doit être enregistrée pour que lepooler MAPI puisse l’appeler. 
+La **méthode IMAPISupport::RegisterPreprocessor** est implémentée uniquement pour les objets de prise en charge du fournisseur de transport. Les fournisseurs de transport **appellent RegisterPreprocessor** pour inscrire une fonction de préprocesseur (fonction conforme au prototype [PreprocessMessage).](preprocessmessage.md) Une fonction de préprocesseur doit être enregistrée pour que lepooler MAPI puisse l’appeler. 
   
 Les paramètres  _lpszPreprocess_,  _lpszRemovePreprocessInfo_ et  _lpszDLLName_ doivent tous pointer vers des chaînes qui peuvent être utilisées conjointement avec des appels à la fonction Win32 **GetProcAddress,** ce qui permet d’appeler correctement le point d’entrée DLL du préprocesseur. 
   

@@ -23,7 +23,7 @@ ms.locfileid: "33404441"
   
 Chaque fournisseur de transport MAPI doit :
   
-- Suivez les instructions générales pour travailler avec MAPI et d’autres fournisseurs de services. Pour plus d’informations, voir [Développement d’applications MAPI](mapi-application-development.md) et Fournisseurs de [services MAPI.](mapi-service-providers.md)
+- Suivez les instructions générales pour travailler avec MAPI et d’autres fournisseurs de services. Pour plus d’informations, voir [Développement d’applications MAPI](mapi-application-development.md) et Fournisseurs [de services MAPI.](mapi-service-providers.md)
     
 - Exposer la DLL de son fournisseur de transport à MAPI avec sa fonction d’initialisation [XPProviderInit.](xpproviderinit.md) 
     

@@ -36,7 +36,7 @@ HRESULT CreateProfile(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
@@ -78,7 +78,7 @@ La **méthode IProfAdmin::CreateProfile** crée un profil.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez appeler **CreateProfile au** moment de l’installation de l’application ou à tout moment pendant une session. Lorsque cette méthode est appelée au moment de l’installation, la plupart des paramètres de configuration proviennent du fichier de configuration Mapisvc.inf. Lorsque cette méthode est appelée au cours d’une session active, les paramètres proviennent de l’utilisateur qui est invité par le biais d’une série de feuilles de propriétés. 
+Vous pouvez appeler **CreateProfile** au moment de l’installation de l’application ou à tout moment pendant une session. Lorsque cette méthode est appelée au moment de l’installation, la plupart des paramètres de configuration proviennent du fichier de configuration Mapisvc.inf. Lorsque cette méthode est appelée au cours d’une session active, les paramètres proviennent de l’utilisateur qui est invité par le biais d’une série de feuilles de propriétés. 
   
 Si l’indicateur MAPI_DEFAULT_SERVICES est définie dans le paramètre  _ulFlags,_ **CreateProfile** appelle la fonction de point d’entrée de service de message pour chaque service de message dans la section [Default Services] du fichier Mapisvc.inf. Chaque fonction de point d’entrée de service de message est appelée avec le paramètre  _ulContext_ MSG_SERVICE_CREATE. 
   

@@ -44,7 +44,7 @@ typedef struct _SSubRestriction
 
  **ulSubObject**
   
-> Type de sous-objet à cibler pour la restriction. Les valeurs possibles sont les suivantes : 
+> Type de sous-objet devant servir de cible pour la restriction. Les valeurs possibles sont les suivantes : 
     
 PR_MESSAGE_RECIPIENTS 
   

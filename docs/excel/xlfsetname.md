@@ -28,11 +28,11 @@ Utilisé pour créer et supprimer des noms définis associés à la DLL.
 Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNameDefinition);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxNameText_ (**xltypeStr**)
   
-Nom de la plage, qui doit être conforme aux limitations habituelles de Microsoft Excel sur les noms valides.
+Nom de la plage, qui doit être conforme aux limitations habituelles dans Microsoft Excel sur les noms valides.
   
 _pxNameDefinition_ (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeSRef**, **xltypeRef** ou **xltypeInt**)
   
@@ -46,11 +46,11 @@ TRUE si l’opération a réussi ou FALSE si le nom n’a pas pu être créé ou
   
 ## <a name="remarks"></a>Remarques
 
-Lorsqu’une fonction ou une commande est inscrite à l’aide de **xlfRegister** avec un argument  _pxFunctionText_ valide, Excel crée un nom associé à la ressource DLL. Lorsque votre DLL est déchargée, ces noms doivent être supprimés à l’aide de la [fonction xlfSetName](xlfsetname.md). Toutefois, en raison d’un problème connu dans Excel, cette opération de suppression échoue. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
+Lorsqu’une fonction ou une commande est inscrite à l’aide de **xlfRegister** avec un argument _pxFunctionText_ valide, Excel crée un nom associé à la ressource DLL. Lorsque votre DLL est déchargée, ces noms doivent être supprimés à l’aide de la [fonction xlfSetName](xlfsetname.md). Toutefois, en raison d’un problème connu dans Excel, cette opération de suppression échoue. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ### <a name="example"></a>Exemple
 
-Voir le code de la **fonction xlAutoClose** dans  `\SAMPLES\GENERIC\GENERIC.C` .
+Consultez le code de la **fonction xlAutoClose** dans  `\SAMPLES\GENERIC\GENERIC.C` .
   
 ## <a name="see-also"></a>Voir aussi
 

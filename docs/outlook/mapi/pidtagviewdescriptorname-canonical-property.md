@@ -44,7 +44,7 @@ Ces propriétés doivent être définies sur une chaîne non vide pour un messag
 
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

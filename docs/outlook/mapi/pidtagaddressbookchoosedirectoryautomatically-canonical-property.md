@@ -21,7 +21,7 @@ ms.locfileid: "33409663"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet à Microsoft Outlook 2010 et Microsoft Outlook 2013 de choisir le dossier de contacts ou la liste d’adresses globale le plus approprié pour la boîte aux lettres active.
+Permet aux Microsoft Outlook 2010 et Microsoft Outlook 2013 de choisir le dossier de contacts ou la liste d’adresses globale le plus approprié pour la boîte aux lettres active.
   
 |||
 |:-----|:-----|
@@ -32,7 +32,7 @@ Permet à Microsoft Outlook 2010 et Microsoft Outlook 2013 de choisir le dossier
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété correspond au paramètre **Choisir** automatiquement dans la boîte de dialogue Options du carnet d’adresses. Lorsque cette propriété existe dans la section profil IID_CAPONE_PROF et est définie sur **true,** la boîte de dialogue carnet d’adresses n’est plus définie par défaut sur le conteneur spécifié par la méthode [SetDefaultDir,](iaddrbook-setdefaultdir.md) mais choisit un carnet d’adresses qu’Outlook 2010 ou Outlook 2013 considère comme approprié pour le contexte dans lequel la boîte de dialogue a été affichée. Notez que cela peut entraîner une expérience médiocre pour les fournisseurs de carnets d’adresses tiers. 
+Cette propriété correspond au paramètre **Choisir** automatiquement dans la boîte de dialogue Options du carnet d’adresses. Lorsque cette propriété existe dans la section profil IID_CAPONE_PROF et est définie sur **true,** la boîte de dialogue carnet d’adresses n’est plus définie par défaut sur le conteneur spécifié par la méthode [SetDefaultDir,](iaddrbook-setdefaultdir.md) mais choisit un carnet d’adresses que Outlook 2010 ou Outlook 2013 considère comme approprié pour le contexte dans lequel la boîte de dialogue a été affichée. Notez que cela peut entraîner une expérience médiocre pour les fournisseurs de carnets d’adresses tiers. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

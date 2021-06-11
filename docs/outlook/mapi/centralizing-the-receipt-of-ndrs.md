@@ -19,11 +19,11 @@ ms.locfileid: "33405855"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-**Pour que les rapports de non-delivery arrivent à un emplacement central lorsque plusieurs instances de votre client sont en cours d’exécution simultanément**
+**Pour que les rapports de non-delivery arrivent à un emplacement central lorsque plusieurs instances de votre client s’exécutent simultanément**
   
 1. Définissez **PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md)), **PR_REPORT_NAME** ([PidTagReportName](pidtagreportname-canonical-property.md)) et **PR_REPORT_SEARCH_KEY** ([PidTagReportSearchKey](pidtagreportsearchkey-canonical-property.md)) sur les valeurs appropriées pour le compte qui doit recevoir les rapports. Créez l’identificateur d’entrée en appelant [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md) si nécessaire. 
     
-2. Comprenez qu’il existe des systèmes de messagerie qui ignorent le compte que vous avez demandé pour les rapports et les envoient à l’expéditeur. Réduisez l’impact que cela aura sur les administrateurs qui devront déplacer des rapports en :
+2. Comprenez qu’il existe des systèmes de messagerie qui ignorent le compte que vous avez demandé pour les rapports et les envoient à l’expéditeur. Réduisez l’impact que cela aura sur les administrateurs qui devront déplacer des rapports par :
     
 - Donner à votre message d’origine une classe de message distincte, telle qu’IPM. Note.MSNNews. Recherchez les messages entrants avec class Report.IPM.Note.MSNNews.NDR et transfertz-les vers le compte vers qui vous souhaitez envoyer des rapports. En même temps, envoyez un courrier électronique au système de messagerie qui a ignoré votre compte de rapport de non-envoi pour signaler qu’il doit respecter la **propriété PR_REPORT_ENTRYID.** 
     

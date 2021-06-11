@@ -25,7 +25,7 @@ ms.locfileid: "33410475"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table des services de message, liste des services de message dans le profil.
+Permet d’accéder à la table des services de message, une liste des services de message dans le profil.
   
 ```cpp
 HRESULT GetMsgServiceTable(
@@ -34,7 +34,7 @@ HRESULT GetMsgServiceTable(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   

@@ -27,7 +27,7 @@ Par exemple, le  `SMTP` type d’adresse spécifie l’adresse Internet standard
   
  `username@companyname.com.`
   
-De plus, le  `EX` type d’adresse spécifie une Exchange Server de l’adresse. 
+De plus, le `EX` type d’adresse spécifie une Exchange Server de l’adresse. 
   
 Toutes les entrées de carnet d’adresses doivent avoir un type d’adresse valide. Les clients exigent que leurs utilisateurs spécifient un type d’adresse lors de la création d’un type de destinataire personnalisé non pris en compte par le fournisseur de carnet d’adresses. Pour les entrées qu’ils prendre en charge, les fournisseurs de carnets d’adresses doivent fournir des types d’adresses valides. 
   

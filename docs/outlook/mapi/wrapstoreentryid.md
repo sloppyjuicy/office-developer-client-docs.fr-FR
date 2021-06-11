@@ -44,7 +44,7 @@ WrapStoreEntryID(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -60,7 +60,7 @@ MAPI_UNICODE
     
  _cbOrigEntry_
   
-> [in] Taille, en octets, de l’identificateur d’entrée d’origine pour la boutique de messages. 
+> [in] Taille, en octets, de l’identificateur d’entrée d’origine de la boutique de messages. 
     
  _lpOrigEntry_
   

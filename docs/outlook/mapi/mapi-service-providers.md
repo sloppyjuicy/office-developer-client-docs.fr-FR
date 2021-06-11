@@ -31,7 +31,7 @@ Il existe trois types courants de fournisseurs de services :
     
 Les fournisseurs de carnet d’adresses et de magasin de messages ont de nombreuses similitudes. Ils enregistrent un identificateur unique auprès de MAPI qu’ils utilisent pour construire des identificateurs d’entrée pour leurs objets. Elles fournissent une hiérarchie d’objets et de propriétés accessibles et manipulées par les clients. Pour leurs objets conteneur, ils supportent une table hiérarchique et une table des matières. Ils peuvent prendre en charge les notifications d’événement sur ces tables et éventuellement sur des objets individuels afin que les clients soient informés des modifications qui se produisent au cours de la session. Lorsque les opérations deviennent longues, elles peuvent afficher un indicateur de progression pour informer l’utilisateur de l’état de l’opération. Les clients peuvent communiquer avec les fournisseurs de carnet d’adresses et de magasin de messages indirectement via MAPI à l’aide de [l’IAddrBook : IMAPIProp](iaddrbookimapiprop.md) et [IMAPISession : interfaces IUnknown](imapisessioniunknown.md) ou directement à l’aide de l’une des interfaces de fournisseur de services dans le tableau suivant. 
   
-|**Interfaces du fournisseur de carnet d’adresses**|**Interfaces de fournisseur de magasins de messages**|
+|**Interfaces du fournisseur de carnet d’adresses**|**Interfaces des fournisseurs de magasins de messages**|
 |:-----|:-----|
 |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) <br/> |
 |[IDistList : IMAPIContainer](idistlistimapicontainer.md) <br/> |[IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) <br/> |
@@ -46,7 +46,7 @@ Les fournisseurs de carnet d’adresses, de magasin de messages et de transport 
   
 - Fournir une fonction de point d’entrée. 
     
-- Fournisse un fournisseur et un objet d’personnalisation pour gérer l’personnalisation et l’initialisation. 
+- Fournir un fournisseur et un objet d’personnalisation pour gérer l’personnalisation et l’personnalisation. 
     
 - Si le fournisseur appartient à un service de messagerie, fournissons une fonction de point d’entrée de service de messagerie. 
     

@@ -36,7 +36,7 @@ Contient un indicateur qui indique qu’un message a été lu, mais pas marqué 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est utilisée dans le dossier de recherche Messages non lus d’Outlook pour effectuer le suivi des messages qui ont été lus sans les marquer comme lus, ce qui les supprimerait du dossier. Lorsque l’affichage change, cette propriété est supprimée et l’élément est marqué comme lu. Cette propriété ne sera pas synchronisée avec le Exchange Server.
+Cette propriété est utilisée dans le dossier de recherche Messages non lus de Outlook pour effectuer le suivi des messages qui ont été lus sans les marquer comme lus, ce qui les supprimerait du dossier. Lorsque l’affichage change, cette propriété est supprimée et l’élément est marqué comme lu. Cette propriété ne sera pas synchronisée avec le Exchange Server.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -44,7 +44,7 @@ Cette propriété est utilisée dans le dossier de recherche Messages non lus d�
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

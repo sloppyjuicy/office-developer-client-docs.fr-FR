@@ -23,9 +23,9 @@ Détermine le repositionnement d'un connecteur.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Repositionner librement  <br/> |**visSLOConFixedRerouteFreely** <br/> |
-|1   <br/> |Repositionner selon les besoins (repositionnement manuel)  <br/> |**visSLOConFixedRerouteAsNeeded** <br/> |
-|2   <br/> |Ne jamais repositionner  <br/> |**visSLOConFixedRerouteNever** <br/> |
-|3   <br/> |Repositionner en cas de croisement  <br/> |**visSLOConFixedRerouteOnCrossover** <br/> |
+|1  <br/> |Repositionner selon les besoins (repositionnement manuel)  <br/> |**visSLOConFixedRerouteAsNeeded** <br/> |
+|2  <br/> |Ne jamais repositionner  <br/> |**visSLOConFixedRerouteNever** <br/> |
+|3  <br/> |Repositionner en cas de croisement  <br/> |**visSLOConFixedRerouteOnCrossover** <br/> |
 |4   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgFrom** <br/> |
 |5   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgTo** <br/> |
 |6   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgFromTo** <br/> |

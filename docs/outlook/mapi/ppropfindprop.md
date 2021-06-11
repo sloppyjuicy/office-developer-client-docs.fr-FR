@@ -41,7 +41,7 @@ LPSPropValue PpropFindProp(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _rgprop_
   
@@ -61,7 +61,7 @@ LPSPropValue PpropFindProp(
   
 ## <a name="remarks"></a>Remarques
 
-Si la balise de propriété donnée indique une propriété de type PT_UNSPECIFIED, la fonction **PpropFindProp** trouve une correspondance uniquement pour l’identificateur de propriété dans la balise. Sinon, il trouve une correspondance pour l’ensemble de la balise de propriété, y compris le type de propriété, et renvoie la propriété identifiée. 
+Si la balise de propriété donnée indique une propriété de type PT_UNSPECIFIED, la fonction **PpropFindProp** trouve une correspondance uniquement pour l’identificateur de propriété dans la balise. Sinon, il trouve une correspondance pour la balise de propriété entière, y compris le type de propriété, et renvoie la propriété identifiée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

@@ -46,7 +46,7 @@ Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
 
 La valeur de retour est l’un des types de données **XLOPER** /  **XLOPER12** suivants : **xltypeRef**, **xltypeSRef**, **xltypeNum**, **xltypeStr**, **xltypeErr** ou **xltypeMulti**. Étant donné que trois de ces types pointent vers la mémoire allouée, la valeur de retour de **xlfCaller** doit toujours être libérée dans un appel à la fonction [xlFree](xlfree.md) lorsqu’elle n’est plus nécessaire. 
   
-Pour plus d’informations **sur xlOPERs** /  **XLOPER12,** voir [Gestion de la mémoire dans Excel.](memory-management-in-excel.md)
+Pour plus d’informations **sur LES XLOPERS** /  **XLOPER12,** voir Gestion de la [mémoire dans Excel](memory-management-in-excel.md).
   
 ## <a name="remarks"></a>Remarques
 

@@ -25,7 +25,7 @@ ms.locfileid: "32360906"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie les notes textuelles attachées à un message vocal.
+Spécifie les notes textuelles qui sont jointes à un message vocal.
   
 |||
 |:-----|:-----|

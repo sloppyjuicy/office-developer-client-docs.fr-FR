@@ -29,7 +29,7 @@ Les identificateurs d’entrée à long terme doivent être uniques dans toutes 
   
 En règle générale, les fournisseurs de magasins de messages implémentent le comportement suivant lorsqu’ils déplacent des dossiers :
   
-- Lorsqu’un dossier est déplacé d’une magasin de messages vers une autre de type différent, il est garanti que l’identificateur d’entrée change.
+- Lorsqu’un dossier est déplacé d’une magasin de messages vers une autre d’un autre type, l’identificateur d’entrée est assuré de changer.
     
 - Lorsqu’un dossier est déplacé d’une magasin de messages vers une autre du même type, l’identificateur d’entrée change presque toujours.
     

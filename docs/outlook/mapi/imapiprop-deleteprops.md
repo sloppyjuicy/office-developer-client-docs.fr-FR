@@ -34,7 +34,7 @@ HRESULT DeleteProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpPropTagArray_
   
@@ -42,7 +42,7 @@ HRESULT DeleteProps(
     
  _lppProblems_
   
-> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; sinon, NULL, qui indique qu’il n’est pas nécessaire d’obtenir des informations d’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **DeleteProps** renvoie des informations détaillées sur les erreurs de suppression d’une ou plusieurs propriétés. 
+> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; sinon, NULL, qui indique qu’il n’est pas nécessaire d’obtenir des informations d’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **DeleteProps** renvoie des informations détaillées sur les erreurs de suppression d’une ou de plusieurs propriétés. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

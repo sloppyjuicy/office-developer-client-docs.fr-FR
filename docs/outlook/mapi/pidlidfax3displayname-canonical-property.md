@@ -41,7 +41,7 @@ Spécifie le nom complet de l’autre adresse de télécopie du contact.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des définitions de définitions de jeu de propriétés et des références aux Exchange Server de protocole associés.
+> Fournit des définitions de définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

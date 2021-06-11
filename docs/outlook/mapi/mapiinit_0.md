@@ -56,7 +56,7 @@ MAPI_MULTITHREAD_NOTIFICATIONS
     
 MAPI_NT_SERVICE 
   
-> L’appelant s’exécute en tant que service Windows. Les appelants qui ne sont pas en cours d’exécution en tant que service Windows ne doivent pas définir cet indicateur . les appelants qui s’exécutent en tant que service doivent définir cet indicateur.
+> L’appelant est en cours d’exécution en tant Windows service. Les appelants qui ne s’exécutent pas en tant que service Windows ne doivent pas définir cet indicateur . les appelants qui s’exécutent en tant que service doivent définir cet indicateur.
     
 MAPI_NO_COINIT
   

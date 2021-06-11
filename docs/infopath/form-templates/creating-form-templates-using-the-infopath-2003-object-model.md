@@ -19,7 +19,7 @@ ms.locfileid: "33410531"
 
 Cette section présente le code d'initialisation et de nettoyage, explique comment ajouter des gestionnaires d'événements, comment déboguer et déployer des modèles de formulaires InfoPath utilisant le modèle objet compatible avec InfoPath 2003 ; elle présente également la gestion des threads et l'utilisation de MSXML (Microsoft XML Core Services) à partir de solutions InfoPath avec code managé.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Code d'initialisation et de nettoyage à l'aide du modèle objet InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
   

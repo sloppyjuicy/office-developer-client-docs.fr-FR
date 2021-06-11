@@ -17,13 +17,13 @@ ms.locfileid: "32361158"
 ---
 # <a name="xml-for-friends"></a>XML pour les amis
 
-**L’élément** friends du schéma XML du fournisseur Microsoft Outlook Social Connector (OSC) permet à un fournisseur OSC de spécifier des informations pour une liste de personnes associées à un utilisateur Outlook dans le réseau social. Si le fournisseur OSC prend en charge la synchronisation mise en cache, cette liste de personnes contient uniquement des amis de l’utilisateur Outlook sur le réseau social. Si OSC prend en charge la synchronisation à la demande ou hybride, cette liste peut contenir des amis et des non-amis de l’utilisateur Outlook. 
+L’élément friends du schéma XML du fournisseur Microsoft Outlook Social Connector (OSC) permet à un fournisseur OSC de spécifier des informations pour une liste de personnes associées à un utilisateur Outlook dans le réseau social.  Si le fournisseur OSC prend en charge la synchronisation mise en cache, cette liste de personnes contient uniquement des amis de l’utilisateur Outlook sur le réseau social. Si OSC prend en charge la synchronisation à la demande ou hybride, cette liste peut contenir des amis et des non-amis de l’Outlook utilisateur. 
 
-Chaque personne de la liste  est représentée en tant qu’élément de personne dans le schéma XML, qui prend en charge des détails tels que le prénom, le nom et les adresses e-mail. Les fournisseurs OSC  utilisent les éléments amis et personne, quelle que soit la façon dont ils souhaitent que l’OSC synchronise les informations d’amis à partir du réseau social.  Notez que les  éléments enfants de la personne sont similaires à certaines des propriétés d’un contact Outlook, ce qui facilite le stockage d’amis dans un dossier de contacts Outlook spécifique au réseau social, si le réseau social prend en charge la synchronisation mise en cache ou hybride des amis avec un dossier de contacts Outlook. 
+Chaque personne de la liste  est représentée en tant qu’élément de personne dans le schéma XML, qui prend en charge des détails tels que le prénom, le nom et les adresses e-mail. Les fournisseurs OSC  utilisent les éléments amis et personne, quelle que soit la façon dont ils souhaitent que l’OSC synchronise les informations d’amis à partir du réseau social.  Notez que les  éléments enfants de la personne sont similaires à certaines des propriétés d’un contact Outlook, ce qui facilite le stockage d’amis dans un dossier de contacts Outlook spécifique au réseau social, si le réseau social prend en charge la synchronisation mise en cache ou hybride des amis dans un dossier de contacts Outlook. 
 
 ## <a name="example-scenarios"></a>Exemples de scénarios
 
-Les exemples de scénarios suivants illustrent les appels d’API d’extensibilité du fournisseur OSC qu’un fournisseur OSC implémente et l’OSC effectue pour obtenir des informations d’ami. Les informations sont exprimées en chaînes XML conformes au schéma XML du fournisseur OSC.
+Les exemples de scénarios suivants illustrent les appels d’API d’extensibilité du fournisseur OSC qu’un fournisseur OSC implémente et l’OSC effectue pour obtenir des informations d’ami. Les informations sont exprimées dans des chaînes XML conformes au schéma XML du fournisseur OSC.
   
 Pour obtenir un exemple de XML d’amis, voir [Friends XML Example](friends-xml-example.md). Pour plus d’informations sur la synchronisation des informations des amis, voir [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
 
@@ -37,7 +37,7 @@ Scénario 1 : OSC obtient une liste d’amis, un objet [ISocialPerson](isocialpe
     
 3. L’OSC appelle **ISocialProvider::GetCapabilities** pour vérifier la valeur des éléments suivants : **getFriends** pour vérifier que le fournisseur OSC prend en charge l’affichage des amis à partir du réseau social et **cacheFriends** pour vérifier que le fournisseur prend en charge la mise en cache des amis. 
     
-4. L’OSC appelle **ISocialSession::GetPerson** pour obtenir un objet **ISocialPerson** pour l’utilisateur Outlook. 
+4. L’OSC appelle **ISocialSession::GetPerson** pour obtenir un objet **ISocialPerson** pour l’Outlook utilisateur. 
     
 5. L’OSC appelle **ISocialPerson::GetFriendsAndColleagues** pour obtenir la liste des amis de l’utilisateur Outlook renvoyée dans la chaîne de paramètre _personCollection._ La  _chaîne personCollection_ est conforme à la définition de schéma XML de l’élément **friends** dans le schéma XML. 
     
@@ -67,12 +67,12 @@ Les éléments suivants sont les deux éléments de niveau supérieur dans **le 
   
 |**Élément**|**Description**|
 |:-----|:-----|
-|**friends** <br/> |Représente l’élément racine d’une liste d’éléments **de** personne. Les **éléments ISocialPerson::GetFriendsAndColleagues,** [ISocialSession::FindPerson](isocialsession-findperson.md)et **ISocialSession2::GetPeopleDetails** retournent des chaînes XML conformes à la définition de schéma de l’élément **friends.**  <br/> |
+|**friends** <br/> |Représente l’élément racine d’une liste d’éléments **de** personne. Les éléments **ISocialPerson::GetFriendsAndColleagues,** [ISocialSession::FindPerson](isocialsession-findperson.md)et **ISocialSession2::GetPeopleDetails** retournent des chaînes XML conformes à la définition de schéma de l’élément **friends.**  <br/> |
 |**person** <br/> |Représente une personne dans une liste d’éléments **de** personne. La [méthode ISocialPerson::GetDetails](isocialperson-getdetails.md) renvoie une chaîne XML conforme à la définition de schéma de l’élément **de** personne.  <br/> |
    
 Le tableau suivant décrit chaque élément enfant de l’élément **person** dans le schéma XML du fournisseur OSC. 
   
-Pour obtenir une définition complète du schéma XML du fournisseur OSC, y compris les éléments obligatoires ou facultatifs, voir Outlook [Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md).
+Pour obtenir une définition complète du schéma XML du fournisseur OSC, y compris les éléments requis ou facultatifs, voir Outlook [Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md).
   
 |**Élément**|**Description**|
 |:-----|:-----|
@@ -86,7 +86,7 @@ Pour obtenir une définition complète du schéma XML du fournisseur OSC, y comp
 |**businessState** <br/> |Département ou province de l’espace de travail de la personne.  <br/> |
 |**businessZip** <br/> |Code postal ou postal de l’espace de travail de la personne.  <br/> |
 |**cell** <br/> |Numéro de téléphone mobile de la personne.  <br/> |
-|**ville** <br/> |Ville de l’adresse physique de la personne.  <br/> |
+|**Ville** <br/> |Ville de l’adresse physique de la personne.  <br/> |
 |**company** <br/> |Nom de la société associée à la personne.  <br/> |
 |**countryOrRegion** <br/> |Pays ou région de l’adresse physique de la personne.  <br/> |
 |**creationTime** <br/> |Heure de création du profil de la personne sur le réseau social.  <br/> |
@@ -94,7 +94,7 @@ Pour obtenir une définition complète du schéma XML du fournisseur OSC, y comp
 |**emailAddress2** <br/> |Adresse de messagerie secondaire de la personne.  <br/> |
 |**emailAddress3** <br/> |Adresse de messagerie troisième de la personne.  <br/> |
 |**expirationTime** <br/> |Heure d’expiration des données de profil de la personne sur le réseau social.  <br/> |
-|**fileAs** <br/> |Chaîne par laquelle la personne doit être classée en tant que contact dans un fichier de contacts Outlook.  <br/> |
+|**fileAs** <br/> |Chaîne par laquelle la personne doit être classée en tant que contact dans un fichier Outlook contacts.  <br/> |
 |**firstName** <br/> |Prénom ou prénom de la personne.  <br/> |
 |**friendStatus** <br/> |Statut d’ami de cette personne avec l’utilisateur connecté sur le réseau social. Doit être l’une des valeurs suivantes : **friend**, **nonfriend**, **pendingin**, **pendingout**.   <br/> |
 |**fullName** <br/> |Nom complet de la personne.  <br/> |

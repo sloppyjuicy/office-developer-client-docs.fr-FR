@@ -34,7 +34,7 @@ HRESULT MakeIconFromBinary(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _nPropID_
   
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes appellent la méthode **IMAPIFormInfo::MakeIconFromBinary** pour créer une icône à partir de l’une des propriétés d’icône d’un formulaire. Dans le  _paramètre nPropID,_ **MakeIconFromBinary** prend l’identificateur de propriété de l’une des propriétés d’icône d’un formulaire. À l’aide de cet identificateur de propriété, il crée une icône qui peut être affichée dans les vues de tableau qui incluent des colonnes de propriété pour les icônes. 
+Les applications clientes appellent la méthode **IMAPIFormInfo::MakeIconFromBinary** pour créer une icône à partir de l’une des propriétés d’icône d’un formulaire. Dans le  _paramètre nPropID,_ **MakeIconFromBinary** prend l’identificateur de propriété d’une des propriétés d’icône d’un formulaire. À l’aide de cet identificateur de propriété, il crée une icône qui peut être affichée dans les vues de tableau qui incluent des colonnes de propriété pour les icônes. 
   
 ## <a name="see-also"></a>Voir aussi
 

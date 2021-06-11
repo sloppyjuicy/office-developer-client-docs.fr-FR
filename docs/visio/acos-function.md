@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251394
 localization_priority: Normal
 ms.assetid: 75807d66-6483-2785-567c-d238067e1e52
-description: Renvoie l’arccosine du nombre, par exemple, l’angle dont le cosin est le nombre .
+description: Renvoie l’arccosine du nombre, par exemple, l’angle dont le cosine est le nombre .
 ms.openlocfilehash: fbfb5f6d9879e2e398fb2ae66d8b5c8a76f9251c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33405827"
 ---
 # <a name="acos-function"></a>Fonction ACOS
 
-Renvoie l’arccosine du nombre, par exemple, l’angle dont le cosin est  *le nombre*  . 
+Renvoie l’arccosine du nombre, par exemple, l’angle dont le cosine est  *le nombre*  . 
   
 ## <a name="syntax"></a>Syntaxe
 

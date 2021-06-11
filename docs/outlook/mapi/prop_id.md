@@ -36,7 +36,7 @@ Renvoie l’identificateur de propriété d’une balise de propriété spécifi
 PROP_ID (ulPropTag)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulPropTag_
   

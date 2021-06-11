@@ -25,7 +25,7 @@ ms.locfileid: "32357609"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la vérification de la redondance cyclique 32 bits (CRC-32) pour une liste de distribution personnelle.
+Spécifie la vérification de la redondance cyclique 32 bits (CRC-32) de la liste de distribution personnelle.
   
 |||
 |:-----|:-----|

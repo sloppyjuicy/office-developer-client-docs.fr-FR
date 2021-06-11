@@ -36,7 +36,7 @@ Contient le type d’une entrée, par rapport à la façon dont l’entrée doit
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie le type d’une entrée, par rapport à la façon dont elle doit être affichée dans la liste d’adresses globale. Il fournit des informations supplémentaires qui ne peuvent pas être représentées **dans PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
+Cette propriété spécifie le type d’une entrée, en ce qui concerne la façon dont elle doit être affichée dans la liste d’adresses globale. Il fournit des informations supplémentaires qui ne peuvent pas être représentées **dans PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
   
 > [!NOTE]
 > Les valeurs de **PR_DISPLAY_TYPE** et de cette propriété commencent par « DT_ » et sont définies dans Mapitags.h. Toutes les valeurs non documentées sont réservées à MAPI. Les applications clientes ne doivent pas définir de nouvelles valeurs et doivent être prêtes à traiter une valeur nondocumentée. 
@@ -61,7 +61,7 @@ Voici quelques remarques sur l’utilisation de ces macros.
   
 - Pour vérifier si une entrée est une entrée distante dans une autre forêt, appliquez la macro DTE_IS_REMOTE_VALID à la valeur de cette propriété pour vérifier si l’indicateur DTE_FLAG_REMOTE_VALID est définie dans l’entrée. S’il s’agit d’une entrée distante, vous pouvez ensuite connaître le type de l’entrée distante à l’aide de la macro DTE_REMOTE distante. 
     
-- Dans les configurations à forêt unique et entre forêts, lorsque **PR_DISPLAY_TYPE** a la valeur DT_DISTLIST et que la DTE_IS_REMOTE_VALID est false, l’application de la DTE_LOCAL macro à la valeur de cette propriété peut vous aider à identifier davantage le type de l’objet en tant que DT_DISTLIST (liste de distribution) ou DT_SEC_DISTLIST (liste de distribution de sécurité). 
+- Dans les configurations à forêt unique et entre forêts, lorsque **PR_DISPLAY_TYPE** a la valeur DT_DISTLIST et DTE_IS_REMOTE_VALID est false, l’application de la DTE_LOCAL macro à la valeur de cette propriété peut vous aider à identifier davantage le type de l’objet en tant que DT_DISTLIST (liste de distribution) ou DT_SEC_DISTLIST (liste de distribution de sécurité). 
     
 - Si vous appliquez la macro DTE_LOCAL la valeur de **PR_DISPLAY_TYPE_EX** et qu’elle renvoie le type DT_REMOTE_MAILUSER, l’entrée est une entrée distante. 
     

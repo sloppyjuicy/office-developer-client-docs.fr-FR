@@ -79,7 +79,7 @@ Une structure **DTBLEDIT décrit** un contrôle d’édition d’une zone dans u
   
 Les contrôles d’édition peuvent également être de ligne unique ou multiligne. Les contrôles d’édition multiligne sont généralement associés à une barre de défilement. 
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

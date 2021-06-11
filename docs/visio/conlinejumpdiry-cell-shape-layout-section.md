@@ -23,8 +23,8 @@ Détermine la direction de la déviation de trait dans le cas d'un connecteur dy
 |**Valeur**|**Direction de la déviation**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valeur par défaut de la page  <br/> |**visLOJumpDirYDefault** <br/> |
-| 1   <br/> | À gauche  <br/> |**visLOJumpDirYLeft** <br/> |
-| 2   <br/> | À droite  <br/> |**visLOJumpDirYRight** <br/> |
+| 1  <br/> | À gauche  <br/> |**visLOJumpDirYLeft** <br/> |
+| 2  <br/> | À droite  <br/> |**visLOJumpDirYRight** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

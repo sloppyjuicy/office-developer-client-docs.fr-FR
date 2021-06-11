@@ -33,7 +33,7 @@ MSCAP_SELECTOR mscapSelector
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  *mscapSelector* 
   
@@ -43,7 +43,7 @@ MSCAP_SELECTOR mscapSelector
 
 MSCAP_SECURE_FOLDER_HOMEPAGES
   
-> Prise en charge des pages d’accueil de dossiers dans un magasin autre que le magasin par défaut. Cela peut être renvoyé si **MSCAP_SEL_FOLDER** est spécifié dans  *mscapSelector*  . 
+> Prise en charge des pages d’accueil de dossiers dans une boutique autre que la valeur par défaut. Cela peut être renvoyé si **MSCAP_SEL_FOLDER** est spécifié dans  *mscapSelector*  . 
     
 MSCAP_RES_ANNOTATION
   

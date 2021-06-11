@@ -22,17 +22,17 @@ ms.locfileid: "33409446"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Supprime **l’ExcelCursorProc** qui a été précédemment installé par **HookExcelWindow**. Cela aurait été fait pour **qu’ExcelCursorProc** soit appelé avant le **WndProc** principal de Microsoft Excel.
+Supprime **l’ExcelCursorProc** qui a été précédemment installé par **HookExcelWindow**. Cela aurait été fait de sorte **qu’ExcelCursorProc** a été appelé avant le Microsoft Excel **principal WndProc**.
   
 ```cs
 extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hWndExcel_ (**HANDLE**)
   
-Handle Windows principal Excel.
+Le Excel de Windows principal.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
@@ -40,7 +40,7 @@ La fonction ne retourne pas de valeur.
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction restaure le **WndProc** Par défaut d’Excel à l’aide de **SetWindowLong()** pour restaurer l’adresse qui a été enregistrée par **HookExcelWindow()**.
+Cette fonction restaure la Excel **WndProc** par défaut à l’aide de **SetWindowLong()** pour restaurer l’adresse enregistrée par **HookExcelWindow()**.
   
 ### <a name="example"></a>Exemple
 

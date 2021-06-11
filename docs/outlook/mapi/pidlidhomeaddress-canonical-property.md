@@ -1,5 +1,5 @@
 ---
-title: Propri t canonique PidLidHomeAddress
+title: Propriété canonique PidLidHomeAddress
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32357742"
 ---
-# <a name="pidlidhomeaddress-canonical-property"></a>Propri t canonique PidLidHomeAddress
+# <a name="pidlidhomeaddress-canonical-property"></a>Propriété canonique PidLidHomeAddress
 
   
   

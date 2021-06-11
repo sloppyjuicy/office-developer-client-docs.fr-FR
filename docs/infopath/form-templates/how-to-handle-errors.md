@@ -51,7 +51,7 @@ La classe [FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPa
 |[DetailedMessage,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.DetailedMessage.aspx) propriété  <br/> |Récupère ou définit le message d'erreur détaillé de l'objet **FormError**.  <br/> |
 |[ErrorCode,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.ErrorCode.aspx) propriété  <br/> |Récupère ou définit le code d'erreur de l'objet **FormError**.  <br/> |
 |[Propriété de](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx) site  <br/> |Récupère un objet **XPathNavigator** qui est placé au niveau du nœud associé à l'objet **FormError**.  <br/> |
-|[Message,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Message.aspx) propriété  <br/> |Récupère ou définit le message d'erreur court de l'objet **FormError**.  <br/> |
+|[Propriété message](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Message.aspx)  <br/> |Récupère ou définit le message d'erreur court de l'objet **FormError**.  <br/> |
 |[FormErrorType,](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.FormErrorType.aspx) propriété  <br/> |Récupère le type de l'objet **FormError**.  <br/> |
    
 ## <a name="using-the-formerrorcollection-and-formerror-classes"></a>Utilisation des classes FormErrorCollection et FormError

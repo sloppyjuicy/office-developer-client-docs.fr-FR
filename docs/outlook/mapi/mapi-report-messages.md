@@ -51,18 +51,18 @@ Un ou plusieurs rapports d’état de remise sont générés par les fournisseur
     
 Presque toutes les informations nécessaires à l’affichage d’un rapport de non-destinataire sont contenues dans la table des destinataires du message joint. Quelques propriétés sont du rapport lui-même. Pour les rapports de remise, les informations nécessaires sont contenues dans la table des destinataires du rapport et dans quelques propriétés de rapport. 
   
-Les rapports sont des messages avec des classes de message distinctes, en fonction de la classe du message envoyé. La plupart des fournisseurs de services utilisent une convention d’attribution de noms selon laquelle la classe de message est composée de plusieurs parties séparées par des périodes. La première partie est « Report » et la dernière est une constante qui représente le type de rapport. La partie intermédiaire est réservée à la classe du message envoyé. Par exemple, comme un rapport de remise utilise la constante DR, la classe de message pour un rapport de remise sur un IPM. Le message de note serait **Report.IPM.Note.DR**.
+Les rapports sont des messages avec des classes de message distinctes, en fonction de la classe du message envoyé. La plupart des fournisseurs de services utilisent une convention d’attribution de noms selon laquelle la classe de message est composée de plusieurs parties séparées par des périodes. La première partie est « Report » et la dernière est une constante qui représente le type de rapport. La partie intermédiaire est réservée à la classe du message envoyé. Par exemple, comme un rapport de remise utilise la constante DR, la classe de message pour un rapport de remise sur un IPM. Le message de note **serait Report.IPM.Note.DR**.
   
 Le tableau suivant indique les constantes qui représentent les types de rapports.
   
 |**Type de rapport**|**Constante utilisée dans la classe de message**|
 |:-----|:-----|
-|Lire  <br/> |IPNRN  <br/> |
+|Lecture  <br/> |IPNRN  <br/> |
 |Non lu  <br/> |IPNNRN  <br/> |
 |Remise  <br/> |DR  <br/> |
-|Nondelivery  <br/> |NDR  <br/> |
+|Non-delivery  <br/> |NDR  <br/> |
    
-Les clients interactifs peuvent afficher des messages de rapport à l’aide de formulaires standard fournis par MAPI ou de formulaires personnalisés qui ont été enregistrés auprès du gestionnaire de formulaires pour la classe de message de l’état. Clients qui reçoivent un rapport de non-delivery pour un IPM. Le message de note, par exemple, peut afficher le formulaire MAPI standard qui présente la liste des destinataires en échec et une suggestion de motif de l’échec. Le formulaire permet également à l’utilisateur de renvoyer le message, si vous le souhaitez. 
+Les clients interactifs peuvent afficher des messages de rapport à l’aide de formulaires standard fournis par MAPI ou de formulaires personnalisés qui ont été enregistrés auprès du gestionnaire de formulaires pour la classe de message de l’état. Clients qui reçoivent un rapport de non-demande pour un IPM. Le message de note, par exemple, peut afficher le formulaire MAPI standard qui présente la liste des destinataires en échec et une suggestion de motif de l’échec. Le formulaire permet également à l’utilisateur de renvoyer le message, si vous le souhaitez. 
   
 ## <a name="see-also"></a>Voir aussi
 

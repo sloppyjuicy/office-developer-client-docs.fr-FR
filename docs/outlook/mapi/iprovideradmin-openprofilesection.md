@@ -36,7 +36,7 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
@@ -70,7 +70,7 @@ MAPI_FORCE_ACCESS
 
 S_OK 
   
-> La section de profil a été ouverte avec succès.
+> La section profil a été ouverte avec succès.
     
 MAPI_E_NO_ACCESS 
   
@@ -90,7 +90,7 @@ Plusieurs clients ou fournisseurs de services peuvent ouvrir simultanément une 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si vous demandez à **OpenProfileSection** d’ouvrir une section de profil inexistante en passant des MAPI_MODIFY dans  _ulFlags_ et un **MAPIUID** inconnu dans  _lpUID,_ la section de profil sera créée. 
+Si vous demandez **qu’OpenProfileSection** ouvre une section de profil inexistante en passant des MAPI_MODIFY dans  _ulFlags_ et un **MAPIUID** inconnu dans  _lpUID,_ la section de profil est créée. 
   
 Si vous demandez **qu’OpenProfileSection** ouvre une section inexistante avec une autorisation en lecture seule, elle renvoie MAPI_E_NOT_FOUND. 
   

@@ -19,25 +19,25 @@ Pour aider les clients à utiliser au mieux Project Online et à améliorer l’
   
 |||
 |:-----|:-----|
-|**UpdateCustomFields** <br/> |Met à jour en bloc les champs personnalisés de projet. Pour Project Online uniquement. Disponible uniquement dans l’API REST.  <br/> |
-|**CreateProjectSite** <br/> | Crée un site de projet. Pour Project Online uniquement. Disponible dans l’API REST, le modèle objet client géré et le modèle objet client JavaScript.  <br/> |
+|**UpdateCustomFields** <br/> |Met à jour en bloc les champs personnalisés du projet. Par Project Online uniquement. Disponible uniquement dans l’API REST.  <br/> |
+|**CreateProjectSite** <br/> | Crée un Project site. Par Project Online uniquement. Disponible dans l’API REST, le modèle objet client géré et le modèle objet client JavaScript.  <br/> |
    
-En plus de fournir plus de flexibilité, ces méthodes offrent également des améliorations significatives en matière de performances lors de l’enregistrement et de la publication de projets dans un flux de travail. Cet article explique comment utiliser les méthodes dans l’API REST et fournit des instructions pour la création d’un flux de travail qui met à jour en bloc des champs personnalisés et un flux de travail qui crée un site de projet.
+En plus de fournir plus de flexibilité, ces méthodes offrent également des améliorations significatives en matière de performances lors de l’enregistrement et de la publication de projets dans un flux de travail. Cet article explique comment utiliser les méthodes dans l’API REST et fournit des instructions pour la création d’un flux de travail qui met à jour en bloc des champs personnalisés et un flux de travail qui crée un site Project.
   
 > [!NOTE]
-> Pour en savoir plus sur l’appel d’API REST à partir de flux de travail SharePoint 2013, voir l’utilisation des [services REST SharePoint](https://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl) à partir du flux de travail avec la méthode POST et l’appel de l’API [Rest SharePoint 2013](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/)à partir d’un flux de travail SharePoint Designer. 
+> Pour en savoir plus sur l’appel d’API REST à partir de flux de travail SharePoint 2013, voir Utilisation des [services REST SharePoint](https://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl) à partir d’un flux de travail avec la méthode POST et appel de l’API rest SharePoint [2013](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/)à partir d’un flux de travail SharePoint Designer. 
   
 ## <a name="bulk-update-project-custom-fields-from-a-workflow"></a>Mettre à jour en bloc des champs personnalisés de projet à partir d’un flux de travail
 <a name="BulkUpdateCustomFields"> </a>
 
-Auparavant, les flux de travail ne pouvaient mettre à jour qu’un seul champ personnalisé à la fois. La mise à jour des champs personnalisés de projet un par un peut entraîner une expérience médiocre de l’utilisateur final lorsque les utilisateurs passe d’une page de détails de projet à l’autre. Chaque mise à jour nécessitait une demande de serveur distincte à l’aide de **l’action** Définir le champ de projet, et la mise à jour de plusieurs champs personnalisés sur un réseau à faible bande passante à latence élevée a entraîné une surcharge non triviale. Pour résoudre ce problème, nous avons ajouté la méthode **UpdateCustomFields** à l’API REST qui vous permet de mettre à jour en bloc des champs personnalisés. Pour utiliser **UpdateCustomFields,** vous passez un dictionnaire qui contient les noms et les valeurs de tous les champs personnalisés que vous souhaitez mettre à jour.
+Auparavant, les flux de travail ne pouvaient mettre à jour qu’un seul champ personnalisé à la fois. La mise à jour des champs personnalisés de projet un par un peut entraîner une expérience médiocre de l’utilisateur final lorsque les utilisateurs passe d’Project pages de détails. Chaque mise à jour nécessitait une demande de serveur distincte à l’aide de l’action Définir un champ **Project,** et la mise à jour de plusieurs champs personnalisés sur un réseau à faible bande passante à latence élevée a entraîné une surcharge non triviale. Pour résoudre ce problème, nous avons ajouté la méthode **UpdateCustomFields** à l’API REST qui vous permet de mettre à jour en bloc des champs personnalisés. Pour utiliser **UpdateCustomFields,** vous passez un dictionnaire qui contient les noms et les valeurs de tous les champs personnalisés que vous souhaitez mettre à jour.
   
 La méthode REST se trouve au point de terminaison suivant :
   
 `https://<site-url>/_api/ProjectServer/Projects('<guid>')/Draft/UpdateCustomFields()`
   
 > [!NOTE]
-> Remplacez l’espace réservé dans les exemples par l’URL de votre site Project Web App (PWA) et l’espace réservé par  `<site-url>`  `<guid>` votre UID de projet. 
+> Remplacez l’espace réservé dans les exemples par l’URL de votre site Project Web App (PWA) et l’espace réservé par `<site-url>` `<guid>` l’UID de votre projet. 
   
 Cette section explique comment créer un flux de travail qui met à jour en bloc les champs personnalisés d’un projet. Le flux de travail suit les étapes de haut niveau suivantes :
   
@@ -65,9 +65,9 @@ Le flux de travail final de bout en bout ressemble à ceci :
     
     ![Stocker l’URL du projet dans une variable]Stocker l’URL du projet dans une(media/a880c5c6-8e7a-44dd-87e9-7e532169d489.png "variable")
   
-2. Ajoutez **l’action Attendre un événement de** projet au flux de travail et choisissez l’événement Lorsqu’un projet **est** vérifié. 
+2. Ajoutez **l’action Attendre Project événement** au flux de travail et choisissez l’événement Lorsqu’un projet **est** vérifié. 
     
-    ![Attendre que le projet soit vérifié dans]Attendre que le projet soit(media/699aa9c7-b3c9-426e-a775-96993a13559c.png "vérifié")
+    ![Attendre que le projet soit vérifié dans Attendre]que le projet soit(media/699aa9c7-b3c9-426e-a775-96993a13559c.png "vérifié")
   
 3. Créez un **dictionnaire requestHeader** à l’aide de **l’action Créer un dictionnaire.** Vous utiliserez le même en-tête de requête pour tous les appels de service web dans ce flux de travail. 
     
@@ -96,7 +96,7 @@ Le flux de travail final de bout en bout ressemble à ceci :
     
        ![Définition d’une mise à jour de champ personnalisé]Définition(media/a4423493-6603-42ee-ae50-1ef74c5c59bd.png "d’une mise à jour de champ personnalisé")
   
-    - **Touche** Nom interne du champ personnalisé, au format *: Custom_ce23fbf43fa0e411941000155d3c8201* 
+    - **Touche** Nom interne du champ personnalisé, au format : *Custom_ce23fbf43fa0e411941000155d3c8201* 
     
        Vous pouvez trouver le nom interne d’un champ personnalisé en naviguant jusqu’à son point de terminaison **InternalName** : `https://<site-url>/_api/ProjectServer/CustomFields('<guid>')/InternalName`
     
@@ -119,7 +119,7 @@ Le flux de travail final de bout en bout ressemble à ceci :
        L’exemple de dictionnaire ci-dessous définit les mises à jour de trois champs personnalisés. Le premier est pour un champ personnalisé de table de choix à valeurs multiples, le second pour un champ de nombre et le troisième pour un champ de date. Notez comment **l’index customFieldDictionary** est incrémenté. 
     
        > [!NOTE]
-       > Ces valeurs sont uniquement à des fins d’illustration. Les paires clé-valeur que vous utiliserez dépendent de vos données PWA. 
+       > Ces valeurs sont uniquement à des fins d’illustration. Les paires clé-valeur que vous utiliserez dépendent de vos PWA données. 
   
        |Nom|Type|Valeur|
        |:-----|:-----|:-----|
@@ -133,7 +133,7 @@ Le flux de travail final de bout en bout ressemble à ceci :
        |customFieldDictionary(1)/ValueType  <br/> |String  <br/> |Edm.Double  <br/> |
        |customFieldDictionary(2)/__metadata/type  <br/> |String  <br/> |SP. KeyValue  <br/> |
        |customFieldDictionary(2)/Key  <br/> |String  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
-       |customFieldDictionary(2)/Value  <br/> |String  <br/> |2015-04-01T00:00:00.0000000  <br/> |
+       |customFieldDictionary(2)/Value  <br/> |String  <br/> |2015-04-01T00:00:00  <br/> |
        |customFieldDictionary(2)/ValueType  <br/> |String  <br/> |Edm.DateTime  <br/> |
    
        ![Dictionnaire qui définit le dictionnaire des mises]à jour des champs personnalisés qui définit les mises à jour des champs(media/41a1f18f-a6b2-40ff-904b-437baf962621.png "personnalisés")
@@ -156,13 +156,13 @@ Le flux de travail final de bout en bout ressemble à ceci :
   
 9. Modifiez les propriétés de l’appel de service web pour lier les paramètres **RequestHeader** et **RequestContent** aux dictionnaires que vous avez créés. Vous pouvez également créer une variable pour stocker **le ResponseContent**.
     
-    ![Lier les dictionnaires à l’en-tête de]requête et au contenu Lier les dictionnaires à l’en-tête(media/f96bec92-138e-4eab-b1e7-1ab83d0428a5.png "et au contenu de la demande")
+    ![Lier les dictionnaires à l’en-tête de]requête et au contenu Lier les dictionnaires à l’en-tête et(media/f96bec92-138e-4eab-b1e7-1ab83d0428a5.png "au contenu de la demande")
   
 10. Facultatif. Lisez le dictionnaire de réponses pour vérifier l’état du travail en file d’attente et enregistrez les informations dans l’historique du flux de travail.
     
     ![Configuration de la journalisation](media/7d2f4936-61d7-4906-83e8-7478a5935af5.png "Configuration de la journalisation")
   
-11. Ajoutez un appel de service web au point **de** terminaison Publier pour publier le projet. Utilisez toujours le même en-tête de requête. 
+11. Ajoutez un appel de service web **au** point de terminaison Publier pour publier le projet. Utilisez toujours le même en-tête de requête. 
     
     ![Appeler la méthode Publish Appeler]la méthode(media/3b661091-ffae-4d7e-a0bb-5b96a6292731.png "Publish")
   
@@ -176,19 +176,19 @@ Le flux de travail final de bout en bout ressemble à ceci :
 
 <a name="CreateProjectSite"> </a>
 
-## <a name="create-a-project-site-from-a-workflow"></a>Créer un site de projet à partir d’un flux de travail
+## <a name="create-a-project-site-from-a-workflow"></a>Créer un site Project à partir d’un flux de travail
 
-Chaque projet peut avoir ses propres sites SharePoint dédiés où les membres de l’équipe peuvent collaborer, partager des documents, lever des problèmes, etc. Auparavant, les sites pouvaient uniquement être créés automatiquement lors de la première publication ou manuellement par le responsable de projet dans Project Professionnel ou par l’administrateur dans les paramètres PWA, ou ils pouvaient être désactivés.
+Chaque projet peut avoir ses propres sites SharePoint où les membres de l’équipe peuvent collaborer, partager des documents, lever des problèmes, etc. Auparavant, les sites pouvaient uniquement être créés automatiquement lors de la première publication ou manuellement par le responsable de projet dans Project Professionnel ou par l’administrateur dans les paramètres PWA, ou ils pouvaient être désactivés.
   
 Nous avons ajouté la **méthode CreateProjectSite** pour vous aider à choisir quand créer des sites de projet. Ceci est particulièrement utile pour les organisations qui souhaitent créer leurs sites automatiquement lorsqu’une proposition de projet atteint une étape spécifique dans un flux de travail prédéfiny, plutôt que lors de la première publication. Le report de la création d’un site de projet améliore considérablement les performances de création d’un projet. 
   
-**Conditions préalables :** Avant de pouvoir utiliser **CreateProjectSite,** le paramètre Autoriser les utilisateurs à choisir doit être définie pour la création de site de projet dans **paramètres PWA** > ** Sites SharePoint connectés ** > **paramètres.** 
+**Conditions préalables :** Avant de pouvoir utiliser **CreateProjectSite,** le paramètre Autoriser les utilisateurs à choisir doit être définie pour la création de site de projet dans **PWA Paramètres** > ** Connected SharePoint Sites ** > **Paramètres**. 
   
-![Paramètre « Autoriser les utilisateurs à choisir »]dans les paramètres PWA Paramètre Autoriser les utilisateurs à choisir dans les(media/6c6c8175-eb10-431d-8056-cea55718fdb4.png "paramètres PWA")
+![Paramètre « Autoriser les utilisateurs à choisir » dans]PWA Paramètres Autoriser les utilisateurs à choisir dans PWA(media/6c6c8175-eb10-431d-8056-cea55718fdb4.png "paramètres")
   
-### <a name="to-create-a-workflow-that-creates-a-project-site"></a>Pour créer un flux de travail qui crée un site Project
+### <a name="to-create-a-workflow-that-creates-a-project-site"></a>Pour créer un flux de travail qui crée un site Project site
 
-1. Créez ou modifiez un flux de travail existant et sélectionnez l’étape à laquelle vous souhaitez créer vos sites Project.
+1. Créez ou modifiez un flux de travail existant et sélectionnez l’étape à laquelle vous souhaitez créer Project sites.
     
 2. Créez un **dictionnaire requestHeader** à l’aide de **l’action Créer un dictionnaire.** 
     
@@ -207,9 +207,9 @@ Nous avons ajouté la **méthode CreateProjectSite** pour vous aider à choisir 
     
     `https://<site-url>/_api/ProjectServer/Projects('<guid>')/CreateProjectSite('New web name')`
     
-    ![Création de l’URI de point de terminaison CreateProjectSite], création de l’URI de point de(media/42a90a5e-8d1b-4667-a933-785175212847.png "terminaison CreateProjectSite")
+    ![Création de l’URI de point de terminaison CreateProjectSite]création de l’URI de point de(media/42a90a5e-8d1b-4667-a933-785175212847.png "terminaison CreateProjectSite")
   
-    Passez le nom du site de projet à la **méthode CreateProjectSite** sous la mesure d’une chaîne. Pour utiliser le nom du projet comme nom de site, passez une chaîne vide. N’oubliez pas d’utiliser des noms uniques pour que le site de projet suivant que vous créez fonctionne. 
+    Passez le nom du site Project à la **méthode CreateProjectSite** en tant que chaîne. Pour utiliser le nom du projet comme nom de site, passez une chaîne vide. N’oubliez pas d’utiliser des noms uniques pour que le site de projet suivant que vous créez fonctionne. 
     
 5. Modifiez les propriétés de l’appel de service web pour lier le **paramètre RequestHeader** au dictionnaire que vous avez créé. 
     

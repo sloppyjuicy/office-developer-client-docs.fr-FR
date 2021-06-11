@@ -19,14 +19,14 @@ ms.locfileid: "33405925"
 
 Cette section contient des exemples XML qui utilisent les fonctionnalités, les amis et les éléments XML **activityFeed,** conformément au schéma XML du fournisseur Outlook Social Connector (OSC).   
   
-- [L’exemple XML](capabilities-xml-example.md) de fonctionnalités présente les **fonctionnalités** XML d’un fournisseur OSC, en spécifiant ses fonctionnalités et ses exigences pour OSC. 
+- [L’exemple XML](capabilities-xml-example.md) de fonctionnalités présente les fonctionnalités **XML** d’un fournisseur OSC, en spécifiant ses fonctionnalités et ses exigences pour OSC. 
     
 - [L’exemple XML Friends](friends-xml-example.md) montre le XML **des** amis pour deux personnes sur le réseau social. 
     
-- [L’exemple XML](activity-feed-xml-example.md) de flux d’activités montre le code XML **activityFeed** de quatre activités : deux mises à jour d’image de profil, une mise à jour d’état et un billet de blog. Le XML spécifie également trois modèles d’affichage d’activité pour l’affichage des activités correspondantes. 
+- [L’exemple de code XML](activity-feed-xml-example.md) du flux d’activités montre le code XML **activityFeed** de quatre activités : deux mises à jour d’image de profil, une mise à jour d’état et un billet de blog. Le XML spécifie également trois modèles d’affichage d’activité pour l’affichage des activités correspondantes. 
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Outlook Schéma XML du fournisseur Social Connector](outlook-social-connector-provider-xml-schema.md)
 - [Développement d'un fournisseur avec le schéma XML OSC](developing-a-provider-with-the-osc-xml-schema.md)
 

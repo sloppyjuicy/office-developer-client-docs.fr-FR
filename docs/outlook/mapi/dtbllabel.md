@@ -57,15 +57,15 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLLABEL** décrit un texte de contrôle d’étiquette qui est affiché avec un autre type de contrôle pour ajouter une signification à ce contrôle. Par exemple, la plupart des contrôles d’édition sont placés à côté des étiquettes pour informer l’utilisateur du type d’informations à entrer. Certains contrôles, tels que les zones de groupe et les cases d’radio, tiennent leurs propres étiquettes. 
+Une structure **DTBLLABEL** décrit un texte de contrôle d’étiquette qui est affiché avec un autre type de contrôle pour ajouter une signification à ce contrôle. Par exemple, la plupart des contrôles d’édition sont placés à côté des étiquettes pour informer l’utilisateur du type d’informations à entrer. Certains contrôles, tels que les cases de groupe et les cases d’radio, tiennent leurs propres étiquettes. 
   
-L’étiquette peut inclure un accélérateur Windows, identifié comme le caractère suivant le caractère « ampersand » ( &amp; ). Le fait d’appuyer sur la touche d’accélérateur met le focus sur le premier contrôle sans étiquette, nonbutton, qui suit cette étiquette dans le tableau d’affichage.
+L’étiquette peut inclure un accélérateur Windows, identifié comme le caractère suivant l’eterrable ( &amp; ). Le fait d’appuyer sur la touche d’accélérateur met le focus sur le premier contrôle sans étiquette, nonbutton, qui suit cette étiquette dans le tableau d’affichage.
   
 Il n’existe aucune prise en charge des étiquettes multilignes. L’affichage de plusieurs lignes nécessite plusieurs étiquettes.
   
 Il n’est pas possible d’utiliser une étiquette comme contrôle d’édition en lecture seule. La différence est qu’un contrôle d’édition peut être sélectionné et copié alors qu’une étiquette ne le peut pas. 
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -44,7 +44,7 @@ typedef struct _FILETIME
 
  **dwLowDateTime**
   
-> 32 bits de bas ordre de la valeur de temps du fichier. 
+> 32 bits de faible ordre de la valeur de temps du fichier. 
     
  **dwHighDateTime**
   

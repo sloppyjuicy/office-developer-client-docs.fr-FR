@@ -39,11 +39,11 @@ Les cellules Montage de A à D ne renvoient pas l’erreur #VALEUR! parce que la
 |**Cell**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
 |Scratch.X1  <br/> |="Maison"  <br/> |#VALUE!  <br/> |
-|Scratch.A1  <br/> |= If (ISERRVALUE(Scratch.X1),2,Scratch.X1)  <br/> |2   <br/> |
+|Scratch.A1  <br/> |= If (ISERRVALUE(Scratch.X1),2,Scratch.X1)  <br/> |2  <br/> |
    
 Renvoie 2 parce que la valeur renvoyée est une erreur #VALEUR! et l’expression demande à Microsoft Visio de renvoyer un 2 à la place de l’erreur.
   
-## <a name="example-2"></a>Exemple 2
+## <a name="example-2"></a>Exemple 2
 
 |**Cell**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|

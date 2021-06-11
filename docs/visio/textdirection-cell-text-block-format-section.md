@@ -23,7 +23,7 @@ Détermine le sens des caractères dans un bloc de texte.
 |**Valeur**|**Direction**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Horizontal  <br/> |**visTxtBlkLeftToRight** <br/> |
-| 1   <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
+| 1  <br/> | Vertical  <br/> |**visTxtBlkTopToBottom** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

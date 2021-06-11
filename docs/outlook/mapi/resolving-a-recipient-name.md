@@ -21,7 +21,7 @@ ms.locfileid: "33405863"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Lorsqu’un message est adressé, une liste de destinataires est construite avec des propriétés relatives à chaque destinataire. Au moment où le message est envoyé, l’une de ces propriétés doit être l’identificateur d’entrée à long terme du destinataire. Pour vous assurer que chaque destinataire inclut la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), passez la structure [ADRLIST](adrlist.md) décrivant votre liste des destinataires dans le contenu du paramètre  _lpAdrList_ dans un appel à [IAddrBook::ResolveName](iaddrbook-resolvename.md).
+Lorsqu’un message est adressé, une liste de destinataires est construite avec des propriétés relatives à chaque destinataire. Au moment de l’envoi du message, l’une de ces propriétés doit être l’identificateur d’entrée à long terme du destinataire. Pour vous assurer que chaque destinataire inclut la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), passez la structure [ADRLIST](adrlist.md) décrivant votre liste des destinataires dans le contenu du paramètre  _lpAdrList_ dans un appel à [IAddrBook::ResolveName](iaddrbook-resolvename.md).
   
  **ResolveName** commence le traitement en ignorant les entrées de la structure **ADRLIST** qui ont déjà été résolues, comme indiqué par la présence d’un identificateur d’entrée dans le tableau **SPropValue** de la structure [ADRENTRY](adrentry.md) correspondante. Ensuite, **ResolveName** affecte automatiquement des identificateurs d’entrée uniques à deux types de destinataires : 
   

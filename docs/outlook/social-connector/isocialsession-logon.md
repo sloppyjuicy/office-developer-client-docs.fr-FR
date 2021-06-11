@@ -23,7 +23,7 @@ Se connecte au site de réseau social à l’aide du nom d’utilisateur et du m
 HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _username_
   

@@ -20,9 +20,9 @@ ms.locfileid: "33404210"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Cette section contient la documentation de référence pour les fonctions que Microsoft Excel et le Gestionnaire de modules de développement recherchent dans une XLL.
+Cette section contient la documentation de référence pour les fonctions que Microsoft Excel et le Gestionnaire de modules de développement recherchent dans un XLL.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [xlAddInManagerInfo/xlAddInManagerInfo12](xladdinmanagerinfo-xladdinmanagerinfo12.md)
   

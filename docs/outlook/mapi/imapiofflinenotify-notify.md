@@ -33,19 +33,19 @@ void STDMETHODCALLTYPE Notify(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pNotifyInfo_
   
-> [in] Notification qu’Outlook envoie au client. La notification indique la partie de l’état de connexion qui a changé, l’ancien état de connexion et le nouvel état de connexion.
+> [in] Notification Outlook au client. La notification indique la partie de l’état de connexion qui a changé, l’ancien état de connexion et le nouvel état de connexion.
     
 ## <a name="remarks"></a>Remarques
 
 Outlook utilise cette méthode pour envoyer des rappels de notification à un client. Pour rendre cette interface disponible pour Microsoft Outlook 2010 ou Microsoft Outlook 2013, le client doit implémenter cette interface et lui transmettre un pointeur en tant que membre dans **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** lors de la configuration des rappels à l’aide **[d’IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. 
   
-Le client passe également à **MAPIOFFLINE_ADVISEINFO** un jeton client qu’Outlook 2010 ou Outlook 2013 utilise dans **IMAPIOfflineNotify::Notify** pour identifier le client inscrit pour le rappel de notification. 
+Le client passe également à **MAPIOFFLINE_ADVISEINFO** un jeton client que Outlook 2010 ou Outlook 2013 utilise dans **IMAPIOfflineNotify::Notify** pour identifier le client inscrit pour le rappel de notification. 
   
-En règle générale, Outlook 2010 et Outlook 2013 peuvent notifier un client de modifications en ligne/hors connexion et d’autres changements d’état de connexion, mais l’API d’état hors connexion prend uniquement en charge les notifications pour les modifications en ligne/hors connexion. Le client doit ignorer toutes les autres notifications.
+En règle générale, Outlook 2010 et Outlook 2013 peuvent notifier un client de modifications en ligne/hors connexion et d’autres modifications d’état de connexion, mais l’API d’état hors connexion prend en charge uniquement les notifications pour les modifications en ligne/hors connexion. Le client doit ignorer toutes les autres notifications.
   
 ## <a name="see-also"></a>Voir aussi
 

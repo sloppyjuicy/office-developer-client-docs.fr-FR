@@ -19,7 +19,7 @@ ms.locfileid: "33405554"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’API Store fournit diverses fonctionnalités du Store aux fournisseurs de magasins. Il fournit les définitions, types de données, propriétés et interfaces suivants.
+L’API du Store fournit diverses fonctionnalités du Store aux fournisseurs de magasins. Il fournit les définitions, types de données, propriétés et interfaces suivants.
   
 Définitions :
   
@@ -37,7 +37,7 @@ Propriétés nommées :
     
 - **[CrawlSourceSupportMask](crawlsourcesupportmask.md)**
     
-- **[Tailles des dossiers du serveur d’affichage](display-server-folder-sizes-property.md)**
+- **[Afficher les tailles des dossiers serveur](display-server-folder-sizes-property.md)**
     
 - **[Masquer l’option de mise à jour de réunion](hide-meeting-update-option-property.md)**
     
@@ -68,10 +68,10 @@ Interfaces :
     
 ## <a name="registering-stores-for-indexing"></a>Inscription de magasins pour l’indexation
 
-Le handler de protocole MAPI vérifie dans le Registre Windows les magasins qu’il doit indexer à des fins de recherche. Les fournisseurs du Windows Store qui souhaitent être indexés doivent être inscrits dans le Registre Windows. Pour plus d’informations sur l’inscription de fournisseurs de magasins pour l’indexation dans Outlook 2013 ou Outlook 2010, voir à propos de l’inscription des magasins pour [l’indexation.](about-registering-stores-for-indexing.md)
+Le handler de protocole MAPI vérifie la Windows registre pour les magasins qu’il doit indexer à des fins de recherche. Les fournisseurs du Windows Store qui souhaitent être indexés doivent être inscrits dans Windows registre. Pour plus d’informations sur l’inscription des fournisseurs de magasins pour l’indexation dans Outlook 2013 ou Outlook 2010, voir À propos de l’inscription des magasins pour [l’indexation.](about-registering-stores-for-indexing.md)
   
 ## <a name="indexing-stores"></a>Magasins d’indexation
 
-Les fournisseurs de magasins MAPI peuvent choisir d’autoriser le handler de protocole MAPI à analyser et indexer des messages dans la boutique, ou d’envoyer des notifications à l’indexeur uniquement lorsqu’il existe des messages à indexer. Pour plus d’informations sur l’indexation basée sur les notifications, voir à propos [Notification-Based'indexation dans le Store.](about-notification-based-store-indexing.md)
+Les fournisseurs de magasins MAPI peuvent choisir d’autoriser le handler de protocole MAPI à analyser et indexer des messages dans la boutique, ou d’envoyer des notifications à l’indexeur uniquement lorsqu’il existe des messages à indexer. Pour plus d’informations sur l’indexation basée sur les notifications, voir à propos [Notification-Based'indexation du Store.](about-notification-based-store-indexing.md)
   
 

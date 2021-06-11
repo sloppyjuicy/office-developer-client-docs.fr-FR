@@ -38,7 +38,7 @@ Contient la fonction du destinataire.
 
 Ces propriétés fournissent des informations d’identification et d’accès pour un destinataire. Elles sont définies par le destinataire et l’organisation du destinataire. 
   
-Ces propriétés sont couramment utilisées pour indiquer la fonction formelle du destinataire, telle que programmeur senior, plutôt que pour la classe d’lysant, telle que programmeur. Il n’est généralement pas utilisé pour les titres « suffixe » tels que Esq. ou DDS.
+Ces propriétés sont couramment utilisées pour indiquer la fonction formelle du destinataire, telle que le programmeur senior, plutôt que la classe d’lysant, telle que le programmeur. Il n’est généralement pas utilisé pour les titres « suffixe » tels que Esq. ou DDS.
   
 Les valeurs courantes pour cette propriété sont les suivantes : Managing Director, Programmer II, Associate Prof et Development Lead. 
   
@@ -48,7 +48,7 @@ Les valeurs courantes pour cette propriété sont les suivantes : Managing Direc
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

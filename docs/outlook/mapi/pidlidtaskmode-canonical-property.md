@@ -44,7 +44,7 @@ La valeur doit être l’une des suivantes.
 |0x00000000  <br/> |La tâche n’est pas affectée.  <br/> |
 |0x00000001  <br/> |La tâche est incorporée dans une demande de tâche.  <br/> |
 |0x00000002  <br/> |La tâche a été acceptée par la personne à qui la tâche a été assignée.  <br/> |
-|0x00000003  <br/> |La tâche a été rejetée par la personne à qui la tâche a été assignée.  <br/> |
+|0x00000003  <br/> |La tâche a été rejetée par la personne assignée à la tâche.  <br/> |
 |0x00000004  <br/> |La tâche est incorporée dans une mise à jour de tâche.  <br/> |
 |0x00000005  <br/> |La tâche a été affectée à l’assigneur de la tâche.  <br/> |
    

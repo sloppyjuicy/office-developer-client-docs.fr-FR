@@ -34,7 +34,7 @@ HRESULT COfflineObj::Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Supprime l’inscription pour le rappel qui était associé à  *ulAdviseToken*  renvoyé à partir d’un appel précédent à **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Entraîne **l’objet IMAPIOfflineMgr** à libérer sa référence sur l’objet **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associé  *à ulAdviseToken*  . 
+Supprime l’inscription pour le rappel qui était associé à  *ulAdviseToken*  renvoyé à partir d’un appel précédent à **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Fait que **l’objet IMAPIOfflineMgr** libère sa référence sur l’objet **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** associé  *à ulAdviseToken*  . 
   
 ## <a name="see-also"></a>Voir aussi
 

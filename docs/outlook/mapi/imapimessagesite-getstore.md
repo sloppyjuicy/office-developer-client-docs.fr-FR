@@ -25,7 +25,7 @@ ms.locfileid: "33410468"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie la boutique de messages qui contient le message actuel, si une telle magasin existe. Cette méthode retourne la valeur NULL dans le paramètre  _ppStore_ pour les messages incorporés, qui sont stockés dans un autre message plutôt que directement dans une magasin de messages. 
+Renvoie la magasine de messages qui contient le message actuel, si tel est le cas. Cette méthode retourne null dans le paramètre  _ppStore_ pour les messages incorporés, qui sont stockés dans un autre message plutôt que directement dans une magasin de messages. 
   
 ```cpp
 HRESULT GetStore(
@@ -33,11 +33,11 @@ HRESULT GetStore(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ppStore_
   
-> [out] Pointeur vers un pointeur vers la boutique de messages.
+> [out] Pointeur vers un pointeur vers la magasin de messages.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

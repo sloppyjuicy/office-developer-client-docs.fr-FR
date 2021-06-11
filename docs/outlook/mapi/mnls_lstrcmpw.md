@@ -29,7 +29,7 @@ int MNLS_lstrcmpW(
   LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpString1_
   

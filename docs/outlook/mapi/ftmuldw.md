@@ -40,7 +40,7 @@ FILETIME FtMulDw(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _Multiplicateur_
   
@@ -48,7 +48,7 @@ FILETIME FtMulDw(
     
  _Multiplicand_
   
-> [in] Structure [FILETIME](filetime.md) qui contient l’integer 64 bits non signé à multiplier par la valeur dans le paramètre Multiplicateur.  
+> [in] Structure [FILETIME](filetime.md) qui contient l’integer 64 bits non signé à multiplier par la valeur du paramètre Multiplicateur.  
     
 ## <a name="return-value"></a>Valeur renvoyée
 

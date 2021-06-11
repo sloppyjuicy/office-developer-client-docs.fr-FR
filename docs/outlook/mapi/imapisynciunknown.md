@@ -25,9 +25,9 @@ ms.locfileid: "33405590"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit un mécanisme de synchronisation du courrier électronique au lieu d’utiliser l’API de transport. Cette interface est exposée sur un objet store. À l’aide de cette interface et [de IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), un fournisseur de transport peut fournir des messages d’erreur et de progression meilleurs que ceux qui apparaissent dans la boîte de dialogue d’envoi/réception dans Microsoft Outlook.
+Fournit un mécanisme de synchronisation du courrier électronique au lieu d’utiliser l’API de transport. Cette interface est exposée sur un objet store. En utilisant cette interface et [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), un fournisseur de transport peut fournir des messages de progression et d’erreur plus importants que ceux qui apparaissent dans la boîte de dialogue Envoyer/Recevoir dans Microsoft Outlook.
   
-La boîte d’envoi se trouve toujours dans le magasin par défaut. Outlook continuera à utiliser les API de transport pour envoyer des messages, car le message sortant ne peut pas se trouver dans le magasin externe.
+La boîte d’envoi se trouve toujours dans le magasin par défaut. Outlook continueront d’utiliser les API de transport pour envoyer des messages, car le message sortant ne peut pas se trouver dans le magasin externe.
   
 |||
 |:-----|:-----|

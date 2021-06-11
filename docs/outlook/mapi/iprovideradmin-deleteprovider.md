@@ -33,7 +33,7 @@ HRESULT DeleteProvider(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   

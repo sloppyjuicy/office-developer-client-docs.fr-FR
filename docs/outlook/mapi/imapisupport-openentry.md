@@ -38,7 +38,7 @@ LPUNKNOWN FAR * lppUnk
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID_
   
@@ -62,7 +62,7 @@ MAPI_BEST_ACCESS
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **OpenEntry** de renvoyer correctement, éventuellement avant que l’objet soit entièrement accessible à l’appelant. Si l’objet n’est pas accessible, un appel d’objet ultérieur peut entraîner une erreur. 
+> Permet à **OpenEntry de** renvoyer correctement, éventuellement avant que l’objet soit entièrement accessible à l’appelant. Si l’objet n’est pas accessible, un appel d’objet ultérieur peut entraîner une erreur. 
     
 MAPI_MODIFY 
   
@@ -102,9 +102,9 @@ La **méthode IMAPISupport::OpenEntry** est implémentée pour tous les objets d
 
 Appelez **IMAPISupport::OpenEntry** uniquement lorsque vous ne connaissez pas le type d’objet que vous ouvrez. Si vous savez que vous ouvrez un dossier ou un message, appelez [IMsgStore::OpenEntry](imsgstore-openentry.md) à la place. Si vous savez que vous ouvrez un conteneur de carnet d’adresses, un utilisateur de messagerie ou une liste de distribution, appelez [IAddrBook::OpenEntry](iaddrbook-openentry.md). Ces méthodes plus spécifiques sont plus rapides que **IMAPISupport::OpenEntry**. 
   
- **IMAPISupport::OpenEntry** ouvre tous les objets en lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le paramètre  _ulFlags_ et si vos autorisations sont suffisantes. La définition de l’un de ces indicateurs ne garantit pas un type d’accès particulier ; Les autorisations qui vous sont accordées dépendent de votre niveau d’accès, de l’objet et du fournisseur de services qui détient l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez PR_ACCESS_LEVEL **propriété** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+ **IMAPISupport::OpenEntry** ouvre tous les objets en lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le paramètre  _ulFlags_ et que vos autorisations sont suffisantes. La définition de l’un de ces indicateurs ne garantit pas un type d’accès particulier ; Les autorisations qui vous sont accordées dépendent de votre niveau d’accès, de l’objet et du fournisseur de services qui détient l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez PR_ACCESS_LEVEL **propriété** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
   
-Vérifiez la valeur renvoyée dans  _le paramètre lpulObjType_ pour déterminer que le type d’objet renvoyé est ce que vous attendiez. Si le type d’objet est comme prévu, cast le pointeur du paramètre  _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrent un dossier, cast  _lppUnk_ vers un pointeur de type LPMAPIFOLDER. 
+Vérifiez la valeur renvoyée dans le  _paramètre lpulObjType_ pour déterminer que le type d’objet renvoyé est ce que vous attendiez. Si le type d’objet est comme prévu, cast le pointeur du paramètre  _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrent un dossier, cast  _lppUnk_ vers un pointeur de type LPMAPIFOLDER. 
   
 ## <a name="see-also"></a>Voir aussi
 

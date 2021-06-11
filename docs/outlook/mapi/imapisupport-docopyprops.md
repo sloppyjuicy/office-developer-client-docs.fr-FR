@@ -41,7 +41,7 @@ HRESULT DoCopyProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpSrcInterface_
   
@@ -89,7 +89,7 @@ MAPI_NOREPLACE
     
  _lppProblems_
   
-> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; dans le cas contraire, NULL, qui indique qu’il n’est pas nécessaire d’obtenir des informations sur l’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **DoCopyProps** renvoie des informations détaillées sur les erreurs de copie d’une ou plusieurs propriétés. 
+> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; dans le cas contraire, NULL, qui indique qu’il n’est pas nécessaire d’obtenir des informations sur l’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **DoCopyProps** renvoie des informations détaillées sur les erreurs de copie d’une ou de plusieurs propriétés. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -111,7 +111,7 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative d’accès à un objet pour lequel l’appelant dispose d’autorisations insuffisantes a été tentée. Cette erreur est renvoyée si l’objet de destination est identique à l’objet source.
+> Une tentative d’accès à un objet pour lequel l’appelant ne dispose pas des autorisations suffisantes a été tentée. Cette erreur est renvoyée si l’objet de destination est identique à l’objet source.
     
 Les valeurs suivantes peuvent être renvoyées dans la structure **SPropProblemArray,** mais pas en tant que valeurs de retour **pour DoCopyProps**. Ces erreurs s’appliquent à une seule propriété.
   
@@ -137,7 +137,7 @@ La **méthode IMAPISupport::D oCopyProps** est implémentée pour les objets de 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque vous copiez des propriétés entre des objets du même type, tels que deux messages, les paramètres  _lpSrcInterface_ et  _lpDestInterface_ doivent contenir le même identificateur d’interface, et les paramètres  _lpSrcObj_ et  _lpDestObj_ doivent pointer vers des objets du même type. Si  _lpDestInterface_ est définie sur NULL, **DoCopyProps** renvoie MAPI_E_INVALID_PARAMETER. Si vous définissez  _lpDestInterface_ sur un identificateur d’interface acceptable, mais que vous définissez  _lpDestObj_ sur un pointeur non valide, les résultats sont imprévisibles. Il est fort probable que votre fournisseur échoue. 
+Lorsque vous copiez des propriétés entre des objets du même type, tels que deux messages, les paramètres  _lpSrcInterface_ et  _lpDestInterface_ doivent contenir le même identificateur d’interface, et les paramètres  _lpSrcObj_ et  _lpDestObj_ doivent pointer vers des objets du même type. Si  _lpDestInterface est_ définie sur NULL, **DoCopyProps** renvoie MAPI_E_INVALID_PARAMETER. Si vous définissez  _lpDestInterface_ sur un identificateur d’interface acceptable, mais que vous définissez  _lpDestObj_ sur un pointeur non valide, les résultats sont imprévisibles. Il est fort probable que votre fournisseur échoue. 
   
 Définissez l MAPI_NOREPLACE si vous ne souhaitez pas que les propriétés de l’objet de destination soient écrasées. Les propriétés de l’objet de destination qui existent dans l’objet source et qui ne sont pas écrasées ne sont ni supprimées ni modifiées.
   

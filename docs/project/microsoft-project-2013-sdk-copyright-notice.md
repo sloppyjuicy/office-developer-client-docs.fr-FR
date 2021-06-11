@@ -1,5 +1,5 @@
 ---
-title: Copyright du SDK Microsoft Project 2013
+title: Microsoft Project copyright du SDK 2013
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32357007"
 ---
-# <a name="microsoft-project-2013-sdk-copyright-notice"></a>Copyright du SDK Microsoft Project 2013
+# <a name="microsoft-project-2013-sdk-copyright-notice"></a>Microsoft Project copyright du SDK 2013
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   

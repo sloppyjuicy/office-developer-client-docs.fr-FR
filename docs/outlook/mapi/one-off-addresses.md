@@ -21,7 +21,7 @@ ms.locfileid: "33409110"
   
 Les adresses one-off sont utilisées pour envoyer des messages à des destinataires one-off, destinataires qui n’ont pas d’entrée correspondante dans l’un des conteneurs de carnet d’adresses de la session. Les clients peuvent créer des adresses one-off lorsqu’ils ajoutent de nouvelles entrées au carnet d’adresses ou de nouveaux destinataires à la liste des destinataires d’un message sortant. Des adresses non modifiables peuvent être ajoutées à n’importe quel conteneur.
   
-Pour créer une adresse unique, les clients utilisent un modèle spécial contenant des contrôles de modification pour entrer toutes les informations qui constitue une adresse unique. Les adresses spécifiques, comme les adresses d’autres types, utilisent un format prédéféré. Le format d’adresses est défini par MAPI comme suit :
+Pour créer une adresse unique, les clients utilisent un modèle spécial contenant des contrôles d’édition pour entrer toutes les informations qui constitue une adresse unique. Les adresses spécifiques, comme les adresses d’autres types, utilisent un format prédéféré. Le format d’adresses est défini par MAPI comme suit :
   
 `Display name[Address type:Email address]`
   
@@ -36,13 +36,13 @@ Il existe six composants pour ce format et certaines règles relatives au quotin
 |:  <br/> |Obligatoire  <br/> |Sépare le type d’adresse de l’adresse de messagerie.  <br/> |
 |Adresse e-mail  <br/> |Obligatoire  <br/> |Adresse du destinataire. Peut inclure des espaces vides.  <br/> |
    
-MAPI utilise des jeux particuliers de caractères de quoting pour permettre aux adresses de contenir des caractères spéciaux tels que des virgules (,), des crochets gauches ([) et des deux-points (:) et certains caractères nontypes tels que le retour chariot ou le retour à la ligne ou tout autre équivalent hexadécimal. Le caractère de quoting est la barre oblique inverse ( \) . Par conséquent, si les clients ou les fournisseurs doivent insérer une barre oblique inverse dans une adresse, ils doivent la faire précéder du caractère de quoting ( » \\ « ).
+MAPI utilise des jeux particuliers de caractères de quoting pour permettre aux adresses de contenir des caractères spéciaux tels que des virgules (,), des crochets gauches ([) et des deux-points (:) et certains caractères nontypes tels que le retour chariot ou le retour à la ligne ou tout autre équivalent hexadécimal. Le caractère de quoting est la barre oblique inverse ( \) . Par conséquent, si des clients ou des fournisseurs doivent insérer une barre oblique inverse dans une adresse, ils doivent la faire précéder du caractère de quoting ( » \\ « ).
   
 Les clients et les fournisseurs de services peuvent utiliser cette technique de quoting dans l’un des champs nonfixés et typables. Par exemple, l’entrée suivante se traduit par Bill Lee comme nom d’affichage, MSPEER comme type d’adresse et \\ billll\in comme adresse e-mail :
   
 `Bill Lee[MSPEER:\\\\billl\in]`
 
-Pour insérer des caractères spéciaux nontypes, les clients et les fournisseurs de services utilisent un caractère de quoting suivi d’un x et de deux chiffres hexadécimals pour représenter leur équivalent hexadécimal. Par exemple, si une adresse possède un caractère nontype qui équivaut à un retour chariot (\0d) en hexadécimal, un client les saisira comme :
+Pour insérer des caractères spéciaux nontypes, les clients et les fournisseurs de services utilisent un caractère de quoting suivi d’un x et de deux chiffres hexadécimals pour représenter leur équivalent hexadécimal. Par exemple, si une adresse a un caractère nontypeable qui équivaut à un retour chariot( \0d) en hexadécimal, un client les entre comme :
   
 `Fax Recipient[fax:recipient\x0dbuilding\x0doffice\x0d555-1212\x0d]`
 

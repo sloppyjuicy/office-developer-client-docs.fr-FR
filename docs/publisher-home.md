@@ -18,13 +18,13 @@ ms.locfileid: "32360682"
 Accédez à des procédures, des articles techniques et des références pour le développement de solutions et la personnalisation de Publisher.
 
 > [!NOTE]
-> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
+> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
 
 ### <a name="viewed-most"></a>Articles populaires
 
 - [Référence VBA Publisher](https://docs.microsoft.com/office/vba/api/overview/publisher)
 
-- [Publisher 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604963(v=office.14))
+- [Publisher 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604963(v=office.14))
 
 
 ### <a name="office-add-ins"></a>Compléments Office 

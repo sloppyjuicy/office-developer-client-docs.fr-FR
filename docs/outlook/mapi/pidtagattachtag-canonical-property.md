@@ -38,7 +38,7 @@ Contient un identificateur d’objet ASN.1 spécifiant l’application qui a fou
 
 Cette propriété identifie l’application qui a généré la pièce jointe à l’origine.
   
- **Remarque** Les **propriétés PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) et **PR_ATTACH_TAG** ne doivent pas être confondues. Elles ne sont ni associées ni associées. **PR_ATTACH_ENCODING** identifie l’algorithme utilisé pour transformer les données dans une pièce jointe. « Object » a une signification beaucoup plus générale dans l’identificateur d’objet de terme et dans l’utilisation X.400 que dans la programmation orientée objet. 
+ **Remarque** Les **propriétés PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) et **PR_ATTACH_TAG** ne doivent pas être confondues. Elles ne sont ni associées ni associées. **PR_ATTACH_ENCODING** identifie l’algorithme utilisé pour transformer les données d’une pièce jointe. « Object » a une signification beaucoup plus générale dans l’identificateur d’objet de terme et dans l’utilisation X.400 que dans la programmation orientée objet. 
   
 La syntaxe de l’identificateur d’objet et les exemples d’identificateurs d’objet sont définis dans MAPIOID. Fichier d’en-tête H. Les **valeurs PR_ATTACH_TAG** ne sont pas limitées à celles définies dans MAPIOID.H. 
   

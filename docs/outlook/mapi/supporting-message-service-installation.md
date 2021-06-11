@@ -25,9 +25,9 @@ Le programme d’installation de votre service de message doit :
   
 1. Copiez les fichiers de service de message, tels que le service de messagerie et les DLLs de fournisseur de services, à partir d’un CD ou d’un disque, vers un lecteur local sur la station de travail. Les fichiers qui doivent être copiés dépendent de votre service de message. En règle générale, vous copiez au moins une DLL.
     
-2. Ajoutez des entrées au fichier de configuration Mapisvc.inf. Pour plus d’informations sur la modification de ce fichier pour prendre en charge les fournisseurs de services dans votre service de messagerie, voir Format de fichier [de MapiSvc.inf](file-format-of-mapisvc-inf.md).
+2. Ajoutez des entrées au fichier de configuration Mapisvc.inf. Pour plus d’informations sur la modification de ce fichier afin de prendre en charge les fournisseurs de services dans votre service de messagerie, voir Format de fichier [de MapiSvc.inf](file-format-of-mapisvc-inf.md).
     
-3. Ajoutez, le cas échéant, des entrées au Registre système pour les services de message. Pour plus d’informations sur la façon dont les entrées doivent apparaître dans le Registre système, voir [Installation du sous-système MAPI](installing-the-mapi-subsystem.md).
+3. Ajoutez, le cas échéant, des entrées au Registre système pour les services de messages. Pour plus d’informations sur la façon dont les entrées doivent apparaître dans le Registre système, voir [Installation du sous-système MAPI](installing-the-mapi-subsystem.md).
     
 4. Créez un profil par défaut s’il n’en existe pas encore à l’aide de l’un des éléments suivants :
     
@@ -38,7 +38,7 @@ Le programme d’installation de votre service de message doit :
 Placez le programme d’installation dans un répertoire public désigné. Ceci est important car la plupart des clients de configuration, tels que le Panneau de configuration, exigent que les utilisateurs entrent le nom de l’annuaire. Le Panneau de configuration appelle un programme  d’installation lorsqu’un utilisateur clique sur le bouton Ajouter, appelle la boîte de dialogue Avoir un disque et spécifie le chemin d’accès au programme.  Le Panneau de contrôle exécute le programme et appelle la fonction de point d’entrée de votre service de message avec le paramètre  _ulContext_ paramétré sur MSG_SERVICE_INSTALL. 
   
 > [!CAUTION]
-> Étant donné que les profils font partie intégrante de l’architecture MAPI, assurez-vous que votre programme d’installation ne stocke rien dans le profil par défaut qui serait difficile à recréer. Il n’existe aucun utilitaire de récupération de profil, de déplacement de profils d’un ordinateur à un autre, de sauvegarde hors ligne ou de restauration individuelle ou globale à partir de copies de sauvegarde. 
+> Étant donné que les profils font partie intégrante de l’architecture MAPI, assurez-vous que votre programme d’installation ne stocke rien dans le profil par défaut qui serait difficile à recréer. Il n’existe aucun utilitaire pour la récupération de profil, pour le déplacement de profils d’un ordinateur à un autre, pour la sauvegarde hors ligne ou pour une restauration individuelle ou globale à partir de copies de sauvegarde. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidSharingConfigurationUrl
+title: Propri t canonique PidLidSharingConfigurationUrl
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32358849"
 ---
-# <a name="pidlidsharingconfigurationurl-canonical-property"></a>Propriété canonique PidLidSharingConfigurationUrl
+# <a name="pidlidsharingconfigurationurl-canonical-property"></a>Propri t canonique PidLidSharingConfigurationUrl
 
   
   

@@ -20,9 +20,9 @@ ms.locfileid: "33409299"
   
 Dans Excel 2013, Excel peut décharger les appels User-Defined Function (UDF) vers un cluster informatique hautes performances via une interface de connecteur de cluster dédiée. Les fournisseurs de clusters de calcul fournissent des connecteurs de cluster. Les auteurs UDF peuvent déclarer leurs UDF comme cluster-safe, puis, lorsqu’un connecteur de cluster est présent, Excel envoie des appels à ces UDF au connecteur de cluster pour le déchargement.
   
-Lorsqu’Excel découvre une UDF sécurisée pour le cluster lors du recalcul, il transmet le nom de la XLL en cours d’exécution, le nom de l’UDF sécurisée pour le cluster et tous les paramètres au connecteur de cluster. Le connecteur exécute l’appel UDF à distance et renvoie les résultats à Excel. Les calculs non dépendants se poursuivent et lorsque le connecteur de cluster a terminé l’exécution de l’UDF, il transmet les résultats à Excel et les calculs dépendants se poursuivent. Le mécanisme de ce comportement asynchrone imite le mécanisme utilisé par les UDF asynchrones, sauf que le connecteur de cluster gère les aspects asynchrones au lieu de l’auteur UDF. En règle générale, un connecteur de cluster implémente un shim XLL pour charger des XLL et exécuter des UDF sur des nodes de cluster de calcul.
+Lorsque Excel découvre une UDF sécurisée pour le cluster lors du recalcul, elle transmet le nom de la XLL en cours d’exécution, le nom de l’UDF sécurisée pour le cluster et tous les paramètres au connecteur de cluster. Le connecteur exécute l’appel UDF à distance et renvoie les résultats à Excel. Les calculs non dépendants se poursuivent et lorsque le connecteur de cluster a terminé l’exécution de l’UDF, il transmet les résultats Excel et les calculs dépendants se poursuivent. Le mécanisme de ce comportement asynchrone imite le mécanisme utilisé par les UDF asynchrones, sauf que le connecteur de cluster gère les aspects asynchrones au lieu de l’auteur UDF. En règle générale, un connecteur de cluster implémente un shim XLL pour charger des XLL et exécuter des UDF sur des nodes de cluster de calcul.
   
-Les mécanismes de déclaration des UDF comme étant sécurisés pour les clusters ressemblent à ceux de la déclaration d’UDF comme étant sûrs pour le recalcul multi-thread. Toutefois, étant donné que l’UDF n’est pas nécessairement en cours d’exécution sur le même ordinateur que d’autres UDF de la même session Excel, il existe différentes considérations lors de l’écriture de UDF sécurisées pour le cluster.
+Les mécanismes de déclaration des UDF comme étant sécurisés pour les clusters ressemblent à ceux de la déclaration d’UDF comme étant sûrs pour le recalcul multi-thread. Toutefois, étant donné que l’UDF n’est pas nécessairement en cours d’exécution sur le même ordinateur que les autres UDF de la même session Excel, il existe différentes considérations lors de l’écriture de UDF sécurisées pour le cluster.
   
 Pour inscrire une UDF en tant que cluster-safe, vous devez appeler la fonction de rappel [xlfRegister (Formulaire 1)](xlfregister-form-1.md) via l’interface **Excel12** ou **Excel12v.** Pour plus d’informations sur ces interfaces, voir [Excel4/Excel12](excel4-excel12.md) et [Excel4v/Excel12v.](excel4v-excel12v.md) L’inscription d’une UDF en tant que cluster-safe via l’interface **Excel4** ou **Excel4v** n’est pas prise en charge. 
   
@@ -30,7 +30,7 @@ Si vous inscrivez une fonction en tant que cluster-safe, vous devez vous assurer
   
 - Une UDF ne doit pas dépendre d’un état de mémoire. Par exemple, une UDF ne doit pas dépendre d’un cache en mémoire existant.
     
-- Une UDF ne doit pas effectuer de rappels Excel que le fournisseur de connecteur de cluster ne prend pas en charge.
+- Une UDF ne doit pas effectuer Excel rappels que le fournisseur de connecteur de cluster ne prend pas en charge.
     
 Outre le comportement sécurisé des clusters, il existe les restrictions techniques suivantes sur les UDF sécurisées pour les clusters :
   
@@ -45,6 +45,6 @@ Pour les UDF dont les durées d’exécution sont plus courtes, la surcharge du 
 > [!NOTE]
 > Vous ne pouvez pas déclarer une UDF sécurisée pour le cluster en tant que UDF asynchrone. 
   
-Une UDF peut déterminer si elle est en cours d’utilisation à l’aide d’un connecteur de cluster en appelant la fonction de rappel [xlRunningOnCluster.](xlrunningoncluster.md) 
+Une UDF peut déterminer s’il est exécuté à l’aide d’un connecteur de cluster en appelant la fonction de rappel [xlRunningOnCluster.](xlrunningoncluster.md) 
   
 

@@ -19,7 +19,7 @@ ms.locfileid: "33405134"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-À partir de Microsoft Outlook 2010 et maintenant, y compris Microsoft Outlook 2013, les clients MAPI peuvent s’arrêter de la même manière qu’auparavant, ou ils peuvent utiliser l’arrêt rapide. Pour que l’arrêt rapide se produise correctement, le client MAPI, le fournisseur MAPI et l’administrateur de l’ordinateur client doivent prendre en charge l’arrêt rapide. 
+À partir Microsoft Outlook 2010 et maintenant, y compris Microsoft Outlook 2013, les clients MAPI peuvent s’arrêter de la même manière qu’auparavant, ou ils peuvent utiliser l’arrêt rapide. Pour que l’arrêt rapide se produise correctement, le client MAPI, le fournisseur MAPI et l’administrateur de l’ordinateur client doivent prendre en charge l’arrêt rapide. 
   
 Les rubriques de cette section décrivent la prise en charge mapi pour un client pour effectuer un arrêt rapide.
   

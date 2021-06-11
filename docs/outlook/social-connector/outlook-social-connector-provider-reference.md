@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32359835"
 ---
-# <a name="outlook-social-connector-provider-reference"></a>Référence du fournisseur Outlook Social Connector
+# <a name="outlook-social-connector-provider-reference"></a>Référence du fournisseur Outlook Social Connector
 
 Outlook Social Connector 2013 fournit un concentrateur de communication pour les communications personnelles et professionnelles. Outlook Social Connector (OSC) fonctionne avec SharePoint Server, SharePoint Workspace, le client Lync et toutes les applications clientes Office qui prennent en charge les informations de présence et la Carte de visite prenant en charge OSC. 
 
 Dans Outlook en particulier, en sélectionnant simplement un élément Outlook comme un message électronique ou une demande de réunion et en cliquant sur l'expéditeur ou un destinataire au sein de cet élément, sans quitter Outlook, les utilisateurs peuvent voir les activités du volet Personnes, les photos et les mises à jour de statut de cette personne sur leurs réseaux sociaux favoris. Les utilisateurs peuvent sans problème voir tous les messages électroniques, pièces jointes et réunions Outlook provenant de cette personne. Dans un environnement professionnel, les utilisateurs sur un site SharePoint peuvent également voir, dans le volet Personnes, les mises à jour de documents et d'autres activités de site pour cette personne sur le site SharePoint.
   
-Un réseau social peut développer un fournisseur pour qu’OSC synchronise et expose les mises à jour de réseaux sociaux dans les applications et serveurs de prise en charge. Les réseaux sociaux populaires, comme LinkedIn, Facebook et Windows Live, offrent les fournisseurs pour OSC. 
+Un réseau social peut développer un fournisseur pour qu’OSC synchronise et expose les mises à jour de réseaux sociaux dans les applications et serveurs de prise en charge. Les réseaux sociaux populaires, comme LinkedIn, Facebook et Windows Live, offrent les fournisseurs pour OSC. 
   
 Le fournisseur de référence Outlook Social Connector 2013 décrit comment développer un fournisseur OSC à l'aide de l'extensibilité du fournisseur OSC. 
   
@@ -29,7 +29,7 @@ Si vous débutez en tant que développeur de solutions pour Outlook, consultez [
   
 ## <a name="in-this-section"></a>Dans cette section
 
-- [Prise en main du développement d’un fournisseur Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md): fournit une vue d’ensemble d’OSC, abordant les points suivants : comment un fournisseur OSC peut être utile, les étapes rapides pour apprendre à développer un fournisseur, les exigences techniques, les meilleures pratiques pour développer un fournisseur et quelles sont les nouveautés dans cette version.
+- [Prise en main du développement d’un fournisseur Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md): fournit une vue d’ensemble d’OSC, abordant les points suivants : comment un fournisseur OSC peut être utile, les étapes rapides pour apprendre à développer un fournisseur, les exigences techniques, les meilleures pratiques pour développer un fournisseur et quelles sont les nouveautés dans cette version.
     
 - [Exemples de modèles OSC](osc-sample-templates.md): décrit plusieurs modèles de Visual Studio pour le développement d’un fournisseur.
     

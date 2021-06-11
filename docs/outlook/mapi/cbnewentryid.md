@@ -36,7 +36,7 @@ Calcule le nombre d’octets qui doivent être alloués à une nouvelle structur
 CbNewENTRYID (_cb)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ _cb_
   

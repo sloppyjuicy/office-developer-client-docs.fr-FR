@@ -32,7 +32,7 @@ Vous pouvez mettre en forme la valeur affichée d’un élément de données de 
   
 Par exemple, une forme de planning peut être associée à un élément de données de forme permettant de mesurer le coût d’un processus. Par défaut, un élément de données de forme est une chaîne. Pour mettre en forme la chaîne « 1200 », vous pouvez entrer « ### ###,00 € » dans la cellule Format pour afficher le symbole monétaire.
   
-Microsoft Visio utilise les paramètres de l’onglet **Devise** dans la boîte de dialogue **Personnaliser le format** de l’élément **Région et langue** du Panneau de configuration pour déterminer le symbole monétaire et le séparateur des milliers à afficher. (Dans **le Panneau de configuration,** cliquez sur Région et **langue,** puis sur **Paramètres supplémentaires.)**
+Microsoft Visio utilise les paramètres de l’onglet **Devise** dans la boîte de dialogue **Personnaliser le format** de l’élément **Région et langue** du Panneau de configuration pour déterminer le symbole monétaire et le séparateur des milliers à afficher. (Dans **le Panneau de contrôle,** cliquez sur Région et **langue,** puis cliquez sur **Paramètres.)**
   
 Pour convertir une chaîne en valeur monétaire afin d’effectuer des calculs, utilisez la fonction CY.
   

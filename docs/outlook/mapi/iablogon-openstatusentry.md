@@ -36,7 +36,7 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
@@ -66,7 +66,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de carnet d’adresses **implémentent la méthode OpenStatusEntry** pour accorder l’accès à leur objet d’état. Tous les fournisseurs de carnet d’adresses sont requis pour implémenter un objet d’état qui prend en charge, au minimum, la méthode [IMAPIStatus::ValidateState.](imapistatus-validatestate.md) Pour plus d’informations, voir [Status Object Implementation](status-object-implementation.md).
+Les fournisseurs de carnets d’adresses **implémentent la méthode OpenStatusEntry** pour accorder l’accès à leur objet d’état. Tous les fournisseurs de carnet d’adresses sont requis pour implémenter un objet d’état qui prend en charge, au minimum, la méthode [IMAPIStatus::ValidateState.](imapistatus-validatestate.md) Pour plus d’informations, voir [Status Object Implementation](status-object-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

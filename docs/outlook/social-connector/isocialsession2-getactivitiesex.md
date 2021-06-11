@@ -23,7 +23,7 @@ Obtient une chaîne qui représente une collection d’activités de chacun des 
 HRESULT _stdcall GetActivitiesEx([in] SAFEARRAY(BSTR) hashedAddresses, [in] DATE startTime, [out, retval] BSTR *activities);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _hashedAddresses_
   
@@ -41,7 +41,7 @@ _activities_
 
 L’OSC appelle **GetActivitiesEx** si le fournisseur OSC prend en charge la synchronisation à la demande des activités. L’OSC stocke les informations renvoyées dans  _les activités_ en mémoire. Pour plus d’informations sur la façon dont OSC utilise et met à jour ces informations en mémoire, voir [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).
   
-À compter d’Outlook Social Connector 2013, OSC prend en charge uniquement la synchronisation à la demande des activités et appelle **uniquement GetActivitiesEx** pour obtenir des activités. Pour prendre en charge la recherche d’activités à la demande, définissez **cacheActivities** sur **false** et **getActivities** et **dynamicActivitiesLookupEx** comme **true**, et l’OSC appelle **GetActivitiesEx**.
+À compter Outlook Social Connector 2013, OSC prend en charge uniquement la synchronisation à la demande des activités et appelle **uniquement GetActivitiesEx** pour obtenir des activités. Pour prendre en charge la recherche d’activités à la demande, définissez **cacheActivities** sur **false** et **getActivities** et **dynamicActivitiesLookupEx** comme **true**, et l’OSC appelle **GetActivitiesEx**.
   
 La chaîne XML renvoyée doit être conforme à la définition de schéma pour **activityFeed**, telle que définie dans le schéma pour l’extensibilité du fournisseur OSC.
   

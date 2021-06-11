@@ -42,7 +42,7 @@ SCODE ScDupPropset(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cprop_
   

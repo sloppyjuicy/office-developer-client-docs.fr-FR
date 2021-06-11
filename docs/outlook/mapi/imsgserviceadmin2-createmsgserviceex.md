@@ -37,7 +37,7 @@ HRESULT CreateMsgServiceEx(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpszService_
   
@@ -61,7 +61,7 @@ MAPI_UNICODE
     
 SERVICE_NO_RESTART_WARNING
   
-> Lors de l’ajout d’un nouveau service de message au profil, le sous-système MAPI, en fonction de diverses circonstances et critères, détermine souvent que cette action nécessite un redémarrage d’Outlook. Si l’indicateur SERVICE_NO_RESTART_WARNING n’est pas inclus et que l’interface utilisateur est autorisée (en fonction des indicateurs SERVICE_UI_ALWAYS et SERVICE_UI_ALLOWED) et qu’au moins un processus est connecté au profil actuel, cette fonction affiche le message « Vous devez redémarrer Outlook pour que ces modifications prennent effet ». L’SERVICE_NO_RESTART_WARNING’indicateur supprime l’affichage de ce message d’avertissement.
+> Lors de l’ajout d’un nouveau service de message au profil, le sous-système MAPI, en fonction de diverses circonstances et critères, détermine souvent que cette action nécessite un redémarrage Outlook. Si l’indicateur SERVICE_NO_RESTART_WARNING n’est pas inclus et que l’interface utilisateur est autorisée (en fonction des indicateurs SERVICE_UI_ALWAYS et SERVICE_UI_ALLOWED) et qu’au moins un processus est connecté au profil actuel, cette fonction affiche le message « Vous devez redémarrer Outlook pour que ces modifications prennent effet ». L’SERVICE_NO_RESTART_WARNING’indicateur supprime l’affichage de ce message d’avertissement.
     
 SERVICE_UI_ALLOWED
   
@@ -87,7 +87,7 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgServiceAdmin2::CreateMsgServiceEx** ajoute un service de message au profil actuel. **CreateMsgServiceEx** appelle la fonction de point d’entrée du service de message pour effectuer des tâches de configuration spécifiques au service. Si l SERVICE_UI_ALLOWED est définie dans le paramètre  _ulFlags,_ le service de message en cours d’installation peut afficher une feuille de propriétés permettant à l’utilisateur de configurer ses paramètres. 
+La **méthode IMsgServiceAdmin2::CreateMsgServiceEx** ajoute un service de message au profil actuel. **CreateMsgServiceEx** appelle la fonction de point d’entrée du service de message pour effectuer des tâches de configuration spécifiques au service. Si l’SERVICE_UI_ALLOWED est définie dans le paramètre  _ulFlags,_ le service de message en cours d’installation peut afficher une feuille de propriétés permettant à l’utilisateur de configurer ses paramètres. 
   
 Le fichier MapiSvc.inf contient la liste des fournisseurs qui font un service de messagerie et les propriétés de chacun d’eux. **CreateMsgServiceEx** crée d’abord une section de profil pour le service de message, puis copie toutes les informations de ce service à partir du fichier MapiSvc.inf dans le profil, créant ainsi de nouvelles sections pour chaque fournisseur. 
   
@@ -95,15 +95,15 @@ Une fois toutes les informations copiées à partir de MapiSvc.inf, la fonction 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si l’argument **CreateMsgServiceEx** _lpuidService_ n’est pas NULL, la propriété **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) du service de message qui a été ajouté au profil est renvoyée dans le **GUID** vers lequel elle pointe. 
+Si l’argument **CreateMsgServiceEx** _lpuidService_ n’est pas NULL, la propriété **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) du service de message ajouté au profil est renvoyée dans le **GUID** vers lequel elle pointe. 
   
 Passez la valeur de la **propriété PR_SERVICE_UID** dans le paramètre  _lpuidService_ à la méthode [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) pour configurer le service. 
   
 > [!CAUTION]
-> L’implémentation Microsoft Outlook 2010 du sous-système MAPI ne prend pas en charge MAPI_UNICODE et échouera si elle est utilisée. 
+> L Microsoft Outlook 2010'implémentation du sous-système MAPI ne prend pas en charge MAPI_UNICODE et échouera s’il est utilisé. 
   
 > [!IMPORTANT]
-> L’interface IMsgServiceAdmin2 est exposée par le même objet qui implémente l’interface IMsgServiceAdmin et est disponible à l’aide de l’implémentation d’Outlook du sous-système MAPI depuis Outlook 2003. Son IID est défini comme suit : >> Le `#if !defined(INITGUID) || defined(USES_IID_IMsgServiceAdmin2)` >   `DEFINE_OLEGUID(IID_IMsgServiceAdmin2,0x00020387, 0, 0);` SERVICE_NO_RESTART_WARNING _ulFlags_ peut ne pas être défini dans le fichier d’en-tête téléchargeable dont vous disposez, auquel cas vous pouvez l’ajouter à votre code à l’aide de la valeur suivante : >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
+> L’interface IMsgServiceAdmin2 est exposée par le même objet qui implémente l’interface IMsgServiceAdmin et est disponible à l’aide de l’implémentation de Outlook du sous-système MAPI depuis Outlook 2003. Son IID est défini comme suit : >> Le `#if !defined(INITGUID) || defined(USES_IID_IMsgServiceAdmin2)` >   `DEFINE_OLEGUID(IID_IMsgServiceAdmin2,0x00020387, 0, 0);` SERVICE_NO_RESTART_WARNING _ulFlags_ peut ne pas être défini dans le fichier d’en-tête téléchargeable dont vous disposez, auquel cas vous pouvez l’ajouter à votre code à l’aide de la valeur suivante : >`#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
 ## <a name="see-also"></a>Voir aussi
 

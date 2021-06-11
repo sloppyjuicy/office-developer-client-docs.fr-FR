@@ -28,7 +28,7 @@ Routine de conversion utilisée pour convertir de l’ancienne **XLOPER** vers l
 BOOL XLOperToXLOper12(LPXLOPER pxloper, LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxloper_ (**LPXLOPER**)
   
@@ -44,7 +44,7 @@ Pointeur vers la **xlOPER12** cible pour contenir la valeur convertie.
   
 ## <a name="remarks"></a>Remarques
 
-Selon le type de **XLOPER**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties, qui sont pointées vers la **xlOPER12 cible.** L’appelant est chargé de libérer la mémoire associée à la copie si la conversion est réussie . **FreeXLOper12T** peut être utilisé, ou vous pouvez le faire directement à l’aide **de la gratuité.**
+Selon le type de **XLOPER**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties, qui sont pointées vers la **xlOPER12 cible.** L’appelant est chargé de libérer la mémoire associée à la copie si la conversion est réussie ; **FreeXLOper12T** peut être utilisé, ou vous pouvez le faire directement à l’aide **de la gratuité.**
   
 Si la conversion échoue, l’appelant n’a pas besoin de libérer de mémoire.
   

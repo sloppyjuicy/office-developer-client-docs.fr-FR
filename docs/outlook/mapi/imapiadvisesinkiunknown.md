@@ -40,7 +40,7 @@ Implémente un objet de réception de notification pour la gestion des notificat
 
 |||
 |:-----|:-----|
-|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Répond à une notification en faisant une ou plusieurs tâches. Les tâches effectuées dépendent du type d’événement et de l’objet qui génère la notification.  <br/> |
+|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Répond à une notification en effectuent une ou plusieurs tâches. Les tâches effectuées dépendent du type d’événement et de l’objet qui génère la notification.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

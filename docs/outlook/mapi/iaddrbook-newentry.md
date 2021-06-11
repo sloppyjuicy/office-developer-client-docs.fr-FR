@@ -40,7 +40,7 @@ HRESULT NewEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -102,11 +102,11 @@ Pour utiliser un modèle particulier afin d’ajouter une nouvelle entrée à un
   
 1. Appelez [la méthode IMAPISession::OpenEntry](imapisession-openentry.md) pour ouvrir le conteneur de destination et définissez le paramètre  _lpEntryID_ sur l’identificateur d’entrée du conteneur. 
     
-2. Appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur de destination et définissez le paramètre  _ulPropTag_ sur **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) et le paramètre  _lpiid_ sur IID_IMAPITable. Le conteneur retourne une table unique qui répertorie tous les modèles qu’il prend en charge pour la création de nouvelles entrées. 
+2. Appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur de destination et définissez le paramètre  _ulPropTag_ sur **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) et le paramètre  _lpiid_ sur IID_IMAPITable. Le conteneur retourne une table unique qui répertorie tous les modèles qu’il prend en charge pour la création d’entrées. 
     
 3. Récupérez la ligne qui représente le modèle pour le type particulier d’entrée que vous souhaitez créer. La **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) indique le type d’adresse pris en charge par le modèle.
     
-4. Appelez **la méthode NewEntry** et définissez  _lpEIDNewEntryTpl_ sur l’identificateur d’entrée du modèle sélectionné. L’identificateur **d’entrée sera PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) à partir de la ligne du modèle dans le tableau unique. Passez zéro dans  _cbEIDContainer_ et NULL dans  _lpEIDContainer_. Passez un pointeur valide dans le paramètre  _lppEIDNewEntry_ si vous souhaitez conserver l’identificateur d’entrée de la nouvelle entrée. 
+4. Appelez **la méthode NewEntry** et définissez  _lpEIDNewEntryTpl_ sur l’identificateur d’entrée du modèle sélectionné. L’identificateur **d’entrée** sera PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) à partir de la ligne du modèle dans le tableau unique. Passez zéro dans  _cbEIDContainer_ et NULL dans  _lpEIDContainer_. Passez un pointeur valide dans le paramètre  _lppEIDNewEntry_ si vous souhaitez conserver l’identificateur d’entrée de la nouvelle entrée. 
     
 ## <a name="see-also"></a>Voir aussi
 

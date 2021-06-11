@@ -25,7 +25,7 @@ ms.locfileid: "32357903"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom d’une classe message de formulaire personnalisée.
+Contient le nom d’une classe de message de formulaire personnalisé.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient le nom d’une classe message de formulaire personnalisée.
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété est définie sur un dossier, la valeur doit contenir exactement la classe de message de base (par exemple, « IPM ». Contact » pour un dossier de contacts ou « IPM ». Rendez-vous » pour un dossier de calendrier) ou commencez par la classe de message de base (par exemple, « IPM ». Contact.MyContact »).
+Si cette propriété est définie sur un dossier, la valeur doit contenir exactement la classe de message de base (par exemple, « IPM ». Contact » pour un dossier de contacts ou « IPM ». Rendez-vous » pour un dossier de calendrier) ou commencez par la classe de message de base (par exemple, « IPM. Contact.MyContact »).
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -40,7 +40,7 @@ S’il est définie sur un rapport de non-mise en échec, indique l’ID d’ent
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

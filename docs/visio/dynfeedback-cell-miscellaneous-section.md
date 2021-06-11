@@ -23,8 +23,8 @@ Modifie l'aspect que prend un connecteur lorsqu'il est glissé sur la page de de
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Reste droit (aucune branche)  <br/> |**visDynFBDefault** <br/> |
-| 1   <br/> | Affiche trois branches lors du déplacement.  <br/> |**visDynFBUCon3Leg** <br/> |
-| 2   <br/> | Affiche cinq branches lors du déplacement.  <br/> |**visDynFBUCon5Leg** <br/> |
+| 1  <br/> | Affiche trois branches lors du déplacement.  <br/> |**visDynFBUCon3Leg** <br/> |
+| 2  <br/> | Affiche cinq branches lors du déplacement.  <br/> |**visDynFBUCon5Leg** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
