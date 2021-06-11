@@ -36,7 +36,7 @@ Contient TRUE si un message doit être composé dans le dossier actuel.
    
 ## <a name="remarks"></a>Remarques
 
-La valeur FALSE indique que le message doit être composé comme tout autre message interpersonnel, c’est-à-dire, dans le dossier Boîte d’envoi. 
+La valeur FALSE indique que le message doit être composé comme tout autre message interpersonnel, c’est-à-dire dans le dossier Boîte d’envoi. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

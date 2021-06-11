@@ -17,17 +17,17 @@ ms.locfileid: "33431301"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avant de pouvoir utiliser un add-in d’état hors connexion pour surveiller les changements d’état de connexion, vous devez implémenter des fonctions pour configurer et initialiser le module. Pour plus d’informations, voir [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md).
+Avant de pouvoir utiliser un add-in d’état hors connexion pour surveiller les changements d’état de connexion, vous devez implémenter des fonctions pour configurer et initialiser le module. Pour plus d’informations, [voir Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md).
   
 Après avoir installé le add-in d’état hors connexion, vous devez utiliser la fonction **[HrOpenOfflineObj](hropenofflineobj.md)** pour obtenir un objet hors connexion. À l’aide de cet objet hors connexion, vous pouvez initialiser votre moniteur d’état, puis obtenir et définir l’état actuel. 
   
-Dans cette rubrique, ces fonctions d’analyse d’état sont démontrées à l’aide d’exemples de code de l’exemple de add-in d’état hors connexion. L’exemple de compl?ment d’état hors connexion est un compl?ment COM qui ajoute un **menu** d’état hors connexion dans Outlook et utilise l’API d' ment hors ligne. Dans le menu **État** hors connexion, vous pouvez activer ou désactiver la surveillance de l’état, vérifier l’état actuel et modifier l’état actuel. Pour plus d’informations sur le téléchargement et l’installation de l’exemple de complément d’état hors connexion, reportez-vous à l’article [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md). Pour plus d’informations sur l’API d’état hors connexion, reportez-vous à l’article [À propos de l’API d’état hors connexion](about-the-offline-state-api.md).
+Dans cette rubrique, ces fonctions d’analyse d’état sont démontrées à l’aide d’exemples de code de l’exemple de add-in d’état hors connexion. L’exemple de compl?ment d’état hors ligne est un compl?ment COM qui ajoute un **menu** d’état hors connexion Outlook et utilise l’API d’état hors connexion. Le menu **État** hors connexion vous permet d’activer ou de désactiver la surveillance de l’état, de vérifier l’état actuel et de modifier l’état actuel. Pour plus d’informations sur le téléchargement et l’installation de l’exemple de complément d’état hors connexion, reportez-vous à l’article [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md). Pour plus d’informations sur l’API d’état hors connexion, reportez-vous à l’article [À propos de l’API d’état hors connexion](about-the-offline-state-api.md).
   
 Lorsque le complément d’état hors connexion est déconnecté, vous devez implémenter des fonctions pour l’arrêter et le nettoyer correctement. Pour plus d’informations, voir [Disconnecting an Offline State Add-in](disconnecting-an-offline-state-add-in.md).
   
 ## <a name="open-offline-object-routine"></a>Routine Ouvrir l’objet hors connexion
 
-Pour que le client soit averti en cas de changement d’état de connexion, vous devez appeler la fonction **[HrOpenOfflineObj.](hropenofflineobj.md)** Cette fonction ouvre un objet hors connexion qui prend en charge **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. La **fonction HrOpenOfflineObj** est définie dans le fichier d’en-tête ConnectionState.h. 
+Pour que le client soit averti lorsqu’un changement d’état de connexion se produit, vous devez appeler la fonction **[HrOpenOfflineObj.](hropenofflineobj.md)** Cette fonction ouvre un objet hors connexion qui prend en charge **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. La **fonction HrOpenOfflineObj** est définie dans le fichier d’en-tête ConnectionState.h. 
   
 > [!NOTE]
 > La **fonction HrOpenOfflineObj** est déclarée dans le fichier d’en-tête ImportProcs.h comme suit  `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;` : 
@@ -46,7 +46,7 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ## <a name="initialize-monitor-routine"></a>Routine Initialize Monitor
 
-La `InitMonitor` fonction appelle la fonction **HrOpenOfflineObj.** La `InitMonitor` fonction appelle **CMyOfflineNotify** afin qu’Outlook puisse envoyer des notifications de rappel au client et enregistre le rappel via la variable **[MAPIOFFLINE_ADVISEINFO.](mapioffline_adviseinfo.md)** `AdviseInfo`
+La `InitMonitor` fonction appelle la fonction **HrOpenOfflineObj.** La `InitMonitor` fonction appelle **CMyOfflineNotify** afin que Outlook puisse envoyer des notifications de rappel au client et enregistre le rappel via la variable **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** `AdviseInfo` .
   
 ### <a name="initmonitor-example"></a>Exemple InitMonitor()
 

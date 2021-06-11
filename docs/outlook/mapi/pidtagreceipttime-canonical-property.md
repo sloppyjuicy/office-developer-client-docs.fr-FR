@@ -36,7 +36,7 @@ Contient la date et l’heure à laquelle une rapport de remise est généré.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété doit être définie par le fournisseur de la boutique de messages qui reçoit le message d’origine et génère le rapport. 
+Cette propriété doit être définie par le fournisseur de magasin de messages qui reçoit le message d’origine et génère le rapport. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

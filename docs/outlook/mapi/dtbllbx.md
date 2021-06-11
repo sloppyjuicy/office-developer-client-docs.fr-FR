@@ -45,7 +45,7 @@ typedef struct _DTBLLBX
 
  **ulFlags**
   
-> Masque de bits des indicateurs utilisés pour éliminer une barre de défilement horizontale ou verticale de la liste. Les indicateurs suivants peuvent être définies :
+> Masque de bits d’indicateurs utilisé pour éliminer une barre de défilement horizontale ou verticale de la liste. Les indicateurs suivants peuvent être définies :
     
 MAPI_NO_HBAR 
   
@@ -61,11 +61,11 @@ MAPI_NO_VBAR
     
  **ulPRTableName**
   
-> Balise de propriété pour une propriété de table de type PT_OBJECT qui peut être ouverte à l’aide d’un **appel OpenProperty.** Le nombre de colonnes que le tableau doit avoir varie selon que la liste est une liste de sélection unique ou multiple. Si le **membre ulPRSetProperty** est PR_NULL **(** [PidTagNull](pidtagnull-canonical-property.md)), la liste autorise la sélection multiple.
+> Balise de propriété pour une propriété de table de type PT_OBJECT qui peut être ouvert à l’aide d’un **appel OpenProperty.** Le nombre de colonnes que le tableau doit avoir varie selon que la liste est une liste de sélection unique ou multiple. Si le **membre ulPRSetProperty** est PR_NULL **(** [PidTagNull](pidtagnull-canonical-property.md)), la liste autorise la sélection multiple.
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLLBX** décrit une liste un contrôle qui est utilisé pour afficher plusieurs éléments et permet à un utilisateur de sélectionner un ou plusieurs des éléments. 
+Une structure **DTBLLBX** décrit une liste qui est utilisée pour afficher plusieurs éléments et permet à un utilisateur de sélectionner un ou plusieurs des éléments. 
   
 Le **membre ulPRSetProperty** et le membre **ulPRTableName** fonctionnent ensemble . lorsqu’une valeur est choisie dans le tableau, elle est écrite dans **ulPRSetProperty** lorsque la boîte de dialogue est rejetée. 
   
@@ -85,7 +85,7 @@ Un tableau pour une liste de sélections multiples doit inclure les colonnes sui
   
 Si le **membre ulPRSetProperty** n’est pas PR_NULL **,** la liste est une liste de sélection unique. La valeur initiale de **ulPRSetProperty** détermine la première ligne sélectionnée. Lorsqu’un utilisateur sélectionne l’une des lignes, le membre **ulPRSetProperty** est définie sur la valeur sélectionnée et cette valeur est écrite dans l’implémentation de l’interface de propriétés avec un appel à [IMAPIProp::SetProps](imapiprop-setprops.md). 
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a0fd2123-7c7a-40f3-8249-af2c9e9f272c
-description: Cette section fournit du contenu de référence pour les API exportées par Outlook.
+description: Cette section fournit du contenu de référence pour les API qui Outlook exporte.
 ms.openlocfilehash: 9c8adb8d23dfc44bf739cd5b980204611fb4dd31
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33434311"
 ---
 # <a name="outlook-exported-apis"></a>API exportées Outlook
 
-Cette section fournit du contenu de référence pour les API exportées par Outlook.
+Cette section fournit du contenu de référence pour les API qui Outlook exporte.
 
 - [Constants](constants-outlook-exported-apis.md)
     

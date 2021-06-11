@@ -25,7 +25,7 @@ ms.locfileid: "33434976"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Déconseillé : l’utilisation [d’IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) est recommandée. Ajoute un service de message au profil actuel. 
+Déconseillée : l’utilisation [d’IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) est recommandée. Ajoute un service de message au profil actuel. 
   
 ```cpp
 HRESULT CreateMsgService(
@@ -36,7 +36,7 @@ HRESULT CreateMsgService(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpszService_
   
@@ -60,7 +60,7 @@ MAPI_UNICODE
     
 SERVICE_NO_RESTART_WARNING
   
-> Lors de l’ajout d’un nouveau service de message au profil, le sous-système MAPI, en fonction de diverses circonstances et critères, détermine souvent que cette action nécessite un redémarrage d’Outlook. Si l’indicateur SERVICE_NO_RESTART_WARNING n’est pas inclus et que l’interface utilisateur est autorisée (en fonction des indicateurs SERVICE_UI_ALWAYS et SERVICE_UI_ALLOWED) et qu’au moins un processus est connecté au profil actuel, cette fonction affiche le message « Vous devez redémarrer Outlook pour que ces modifications prennent effet ». L’SERVICE_NO_RESTART_WARNING’indicateur supprime l’affichage de ce message d’avertissement.
+> Lors de l’ajout d’un nouveau service de message au profil, le sous-système MAPI, en fonction de diverses circonstances et critères, détermine souvent que cette action nécessite un redémarrage Outlook. Si l’indicateur SERVICE_NO_RESTART_WARNING n’est pas inclus et que l’interface utilisateur est autorisée (en fonction des indicateurs SERVICE_UI_ALWAYS et SERVICE_UI_ALLOWED) et qu’au moins un processus est connecté au profil actuel, cette fonction affiche le message « Vous devez redémarrer Outlook pour que ces modifications prennent effet ». L’SERVICE_NO_RESTART_WARNING’indicateur supprime l’affichage de ce message d’avertissement.
     
 SERVICE_UI_ALLOWED
   
@@ -103,7 +103,7 @@ Pour récupérer **le MAPIUID** pour le service de message créé, utilisez la p
 4. Passez la valeur de la **propriété PR_SERVICE_UID** dans le paramètre  _lpUid_ à la méthode [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) pour configurer le service. 
     
 > [!CAUTION]
-> L’implémentation Microsoft Outlook 2010 du sous-système MAPI ne prend pas en charge MAPI_UNICODE et échouera si elle est utilisée. 
+> L Microsoft Outlook 2010'implémentation du sous-système MAPI ne prend pas en charge MAPI_UNICODE et échouera s’il est utilisé. 
   
 > [!IMPORTANT]
 > Les  _SERVICE_NO_RESTART_WARNING ulFlags_ peuvent ne pas être définis dans le fichier d’en-tête téléchargeable dont vous disposez actuellement, auquel cas vous pouvez l’ajouter à votre code à l’aide de la valeur suivante : >  `#define SERVICE_NO_RESTART_WARNING 0x00000080`
@@ -114,7 +114,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI utilise la **méthode IMsgServiceAdmin::CreateMsgService** pour ajouter un service à un profil.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin::CreateMsgService** pour ajouter un service à un profil.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

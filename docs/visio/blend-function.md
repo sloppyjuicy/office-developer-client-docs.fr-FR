@@ -38,6 +38,6 @@ BLEND(** *color1* **, ** *color2* **, ** *float[0,1]* ** )
 
 La couleur renvoyée est déterminée par les proportions relatives de fusion de _color2_ et _color1,_ respectivement, comme spécifié par le _paramètre float._ Par exemple, si  _float_ est de 0,25, la couleur renvoyée est composée de 75 % de  _color1_ et de 25 % de  _color2_. 
   
-Une autre façon d’y penser est que la valeur  _float_ correspond au point le long de la gamme de couleurs de  _color1_ à  _color2_. Par conséquent, des nombres plus  petits (plus proches de zéro) pour float produisent des fusions plus proches de _color1_, tandis que les nombres plus grands (plus proches de 1) produisent des fusions plus proches de _color2_.
+Une autre façon d’y penser est que la valeur  _float_ correspond au point le long de la gamme de couleurs de  _color1_ à  _color2_. Par conséquent, des nombres plus petits (proches de zéro) pour  _float_ produisent des fusions plus proches de  _color1_, tandis que les nombres plus grands (plus proches de 1) produisent des fusions plus proches de  _color2_.
   
 

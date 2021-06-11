@@ -23,7 +23,7 @@ Les applications clientes prend généralement en charge deux types de réponses
   
 Pour envoyer une réponse de l’un ou l’autre type, vous implémentez certaines des mêmes tâches que lorsque vous envoyez un message d’origine. Par exemple, vous ouvrez la boîte aux lettres par défaut et le dossier des messages sortants, généralement la boîte d’envoi, et appelez la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) du dossier sortant pour créer la réponse. En outre, vous ouvrez le dossier qui contient le message d’origine, généralement la boîte de réception. Pour plus d’informations sur l’ouverture de différents dossiers, voir [Ouverture d’un dossier de la boutique de messages.](opening-a-message-store-folder.md)
   
-La principale différence entre la création d’une réponse et la création d’un message d’origine est qu’avec une réponse, la plupart des propriétés sont basées sur ou copiées directement à partir des propriétés du message d’origine. Les pièces jointes, la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments)](pidtagmessageattachments-canonical-property.md)d’un message, sont spécifiquement exclues. La liste des destinataires d’une réponse à tous les messages est créée à partir de la liste du message d’origine avec le destinataire représenté par la propriété **PR_RECEIVED_BY_SEARCH_KEY** ([PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)) et tous les destinataires en copie carbone non voyante supprimés. La **PR_RECEIVED_BY_SEARCH_KEY** représente l’utilisateur actuel. 
+La principale différence entre la création d’une réponse et la création d’un message d’origine est qu’avec une réponse, la plupart des propriétés sont basées sur ou copiées directement à partir des propriétés du message d’origine. Les pièces jointes, la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments),](pidtagmessageattachments-canonical-property.md)sont spécifiquement exclues. La liste des destinataires d’une réponse à tous les messages est créée à partir de la liste du message d’origine avec le destinataire représenté par la propriété **PR_RECEIVED_BY_SEARCH_KEY** ([PidTagReceivedBySearchKey](pidtagreceivedbysearchkey-canonical-property.md)) et tous les destinataires en copie carbone non voyante supprimés. La **PR_RECEIVED_BY_SEARCH_KEY** représente l’utilisateur actuel. 
   
 ### <a name="to-send-a-reply"></a>Pour envoyer une réponse
   
@@ -37,7 +37,7 @@ La principale différence entre la création d’une réponse et la création d�
     
    - **PR \_ BODY** ([PidTagBody](pidtagbody-canonical-property.md)) ou **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)), selon que vous prise en charge ou non le format de texte enrichi.
     
-   - **PR \_ MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)), si la réponse est aller à l’intégralité de la liste des destinataires.
+   - **PR \_ MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)), si la réponse sera à l’ensemble de la liste des destinataires.
     
    - **PR \_ NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
     
@@ -80,7 +80,7 @@ La principale différence entre la création d’une réponse et la création d�
         
     6. Ajoutez l’expéditeur à la liste des destinataires, tel que représenté par les propriétés **pr \_ SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) et **PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) du message d’origine. Vérifiez que l’expéditeur n’est pas dupliqué dans la liste.
         
-    7. Appelez la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) du message de réponse, en fixant le paramètre  _ulFlags_ sur zéro, pour créer une nouvelle liste de destinataires pour la réponse ou le message transmis en fonction de la liste du message d’origine. 
+    7. Appelez la méthode [IMessage::ModifyRecipients](imessage-modifyrecipients.md) du message de réponse, en paramétissant le paramètre  _ulFlags_ sur zéro, pour créer une nouvelle liste de destinataires pour la réponse ou le message transmis en fonction de la liste du message d’origine. 
     
 13. Appelez la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) de la réponse pour enregistrer le message ou [IMessage::SubmitMessage](imessage-submitmessage.md) pour l’enregistrer et l’envoyer. 
     

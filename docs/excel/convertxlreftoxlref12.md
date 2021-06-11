@@ -28,7 +28,7 @@ Fonction Framework qui tente de convertir un **xlREF** en **xlREF12**.
 BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pxRef_ (**LPXLREF**)
   

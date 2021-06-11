@@ -34,7 +34,7 @@ HRESULT GetDefaultDir(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpcbEntryID_
   
@@ -52,7 +52,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes et les fournisseurs de services appellent la méthode **GetDefaultDir** pour récupérer l’identificateur d’entrée du conteneur de carnet d’adresses par défaut. Le conteneur par défaut est ce que l’utilisateur voit s’afficher dans le carnet d’adresses lors de la première ouverture du carnet d’adresses. Si un conteneur par défaut n’a pas été définie par un appel à la méthode [IAddrBook::SetDefaultDir,](iaddrbook-setdefaultdir.md) MAPI affecte comme conteneur par défaut le premier conteneur avec des noms qui ne sont pas le carnet d’adresses personnel. Si un tel conteneur est in trouver, le PAB devient le conteneur par défaut. 
+Les applications clientes et les fournisseurs de services appellent la méthode **GetDefaultDir** pour récupérer l’identificateur d’entrée du conteneur de carnet d’adresses par défaut. Le conteneur par défaut est ce que l’utilisateur voit s’afficher dans le carnet d’adresses lors de la première ouverture du carnet d’adresses. Si un conteneur par défaut n’a pas été définie par un appel à la méthode [IAddrBook::SetDefaultDir,](iaddrbook-setdefaultdir.md) MAPI affecte comme conteneur par défaut le premier conteneur avec des noms qui ne sont pas le carnet d’adresses personnel. Si un tel conteneur est in found, le PAB devient le conteneur par défaut. 
   
 Pour définir le répertoire par défaut, un client ou un fournisseur appelle la **méthode SetDefaultDir.** Les clients et fournisseurs n’ont pas besoin d’appeler la [méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) ; étant donné que les modifications apportées au carnet d’adresses ne sont pas prises en compte, les modifications sont immédiatement rendues permanentes. 
   

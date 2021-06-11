@@ -36,7 +36,7 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
@@ -44,7 +44,7 @@ HRESULT OpenProfileSection(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil. Le passage de NULL entraîne le retour d’un pointeur vers son interface standard dans le paramètre _lppProfSect._ L’interface standard pour une section de profil est **IProfSect**.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil. La transmission de NULL entraîne le retour d’un pointeur vers son interface standard dans le _paramètre lppProfSect._ L’interface standard pour une section de profil est **IProfSect**.
     
  _ulFlags_
   
@@ -70,7 +70,7 @@ MAPI_FORCE_ACCESS
 
 S_OK 
   
-> La section de profil a été ouverte avec succès.
+> La section profil a été ouverte avec succès.
     
 MAPI_E_NO_ACCESS 
   
@@ -100,7 +100,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI utilise la **méthode IMsgServiceAdmin::OpenProfileSection** pour ouvrir une section de profil.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin::OpenProfileSection** pour ouvrir une section de profil.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

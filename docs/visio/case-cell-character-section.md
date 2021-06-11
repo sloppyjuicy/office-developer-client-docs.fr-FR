@@ -23,8 +23,8 @@ Détermine la casse du texte de la forme. Toutes les lettres capitales (majuscul
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Casse normale  <br/> |**visCaseNormal** <br/> |
-| 1   <br/> | Toutes les lettres en capitales (majuscules)  <br/> |**visCaseAllCaps** <br/> |
-| 2   <br/> | Capitales initiales uniquement  <br/> |**visCaseInitialCaps** <br/> |
+| 1  <br/> | Toutes les lettres en capitales (majuscules)  <br/> |**visCaseAllCaps** <br/> |
+| 2  <br/> | Capitales initiales uniquement  <br/> |**visCaseInitialCaps** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

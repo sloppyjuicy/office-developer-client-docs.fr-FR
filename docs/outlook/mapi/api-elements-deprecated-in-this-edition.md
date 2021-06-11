@@ -33,9 +33,9 @@ Les éléments d’API suivants sont obsolètes dans cette version en raison des
     
 - **OPTIONCALLBACK**— Ce prototype de fonction, qu’un fournisseur de transport a utilisé pour déclarer une fonction de rappel et qui, à son tour, le sous-système MAPI utilisé pour résoudre les propriétés du fournisseur, est obsolète. Le sous-système MAPI n’appelle plus **IXPLogon::RegisterOptions** ou n’utilise aucune fonction de rappel renvoyée par le fournisseur de transport. 
     
-- **IMAPISession::MessageOptions**—Le client MAPI et les fournisseurs de services ne doivent plus appeler cette méthode pour afficher les propriétés ou permettre aux utilisateurs de définir des propriétés qui contrôlent un type d’adresse et de message particulier. La méthode renvoie toujours MAPI_E_NOT_FOUND, ce qui indique qu’il n’existe aucune option de message pour le message particulier.
+- **IMAPISession::MessageOptions**—Les fournisseurs de services et clients MAPI ne doivent plus appeler cette méthode pour afficher les propriétés ou permettre aux utilisateurs de définir des propriétés qui contrôlent un type d’adresse et de message particulier. La méthode renvoie toujours MAPI_E_NOT_FOUND, ce qui indique qu’il n’existe aucune option de message pour le message particulier.
     
-- **IMAPISession::QueryDefaultMessageOpt**: les fournisseurs de services et clients MAPI ne doivent plus appeler cette méthode pour récupérer les propriétés qui contrôlent les options de message pour un type d’adresse particulier. La méthode ne renvoie plus de pointeur vers un tableau de valeurs de propriétés.
+- **IMAPISession::QueryDefaultMessageOpt**— Les fournisseurs de services et clients MAPI ne doivent plus appeler cette méthode pour récupérer les propriétés qui contrôlent les options de message pour un type d’adresse particulier. La méthode ne renvoie plus de pointeur vers un tableau de valeurs de propriétés.
     
 - **IAddrBook::RecipOptions**— Les fournisseurs de services et clients MAPI ne doivent plus appeler cette méthode pour afficher les propriétés ou permettre aux utilisateurs de définir des propriétés qui contrôlent le traitement pour un destinataire d’un type d’adresse particulier. La méthode renvoie toujours MAPI_W_ERRORS_RETURNED, ce qui indique qu’il n’existe aucune option de destinataire pour le destinataire particulier.
     

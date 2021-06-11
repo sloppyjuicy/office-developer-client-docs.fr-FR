@@ -23,7 +23,7 @@ ms.locfileid: "33432687"
   
 Un client peut créer un profil de deux manières : à l’aide de l’Assistant Profil ou en écrivant du code personnalisé.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Création d’un profil à l’aide de l’Assistant Profil](creating-a-profile-by-using-the-profile-wizard.md)
   

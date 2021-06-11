@@ -22,14 +22,14 @@ Cette rubrique contient des définitions de constantes, des identificateurs de c
 
 |**Constante**|**Définition**|
 |:-----|:-----|
-|E_NOTIMPL  <br/> | *Comme défini dans le fichier d’en-tête winerror.h du Kit de développement logiciel (SDK) Microsoft Windows.*  <br/> |
-|E_OUTOFMEMORY  <br/> | *Comme défini dans le fichier d’en-tête du SDK Windows winerror.h.*  <br/> |
-|S_FALSE  <br/> | *Comme défini dans le fichier d’en-tête du SDK Windows winerror.h.*  <br/> |
-|S_OK  <br/> | *Comme défini dans le fichier d’en-tête du SDK Windows winerror.h.*  <br/> |
+|E_NOTIMPL  <br/> | *Comme défini dans le fichier d’en-tête du Kit de développement logiciel (SDK) microsoft Windows,winerror.h.*  <br/> |
+|E_OUTOFMEMORY  <br/> | *Comme défini dans le fichier d Windows en-tête du SDK winerror.h.*  <br/> |
+|S_FALSE  <br/> | *Comme défini dans le fichier d Windows en-tête du SDK winerror.h.*  <br/> |
+|S_OK  <br/> | *Comme défini dans le fichier d Windows en-tête du SDK winerror.h.*  <br/> |
    
 ## <a name="interface-identifiers"></a>Identificateurs d’interface
 
-Pour les identificateurs d’interface suivants, supposons que la macro DEFINE_GUID définie dans le fichier d’en-tête guiddef.h du SDK Windows associe le nom symbolique GUID à sa valeur.
+Pour les identificateurs d’interface suivants, supposons que la macro DEFINE_GUID définie dans le fichier d’en-tête du SDK Windows guiddef.h associe le nom symbolique GUID à sa valeur.
   
 {00067064-0000-0000-C000-000000000046}
   

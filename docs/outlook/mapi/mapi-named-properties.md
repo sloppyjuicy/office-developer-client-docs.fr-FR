@@ -25,7 +25,7 @@ Pour définir une propriété nommée, un client ou un fournisseur de services c
   
 Pour prendre en charge les propriétés nommées, un fournisseur de services implémente deux méthodes : [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) et [IMAPIProp::GetNamesFromIDs,](imapiprop-getnamesfromids.md) pour traduire entre les noms et les identificateurs et pour autoriser ses méthodes [IMAPIProp::GetProps](imapiprop-getprops.md)[IMAPIProp::SetProps](imapiprop-setprops.md) à récupérer et modifier des propriétés avec des identificateurs dans la plage de propriétés nommée. La plage des identificateurs de propriété nommée est 0x8000 et 0xFFFE. 
   
-Tout objet qui implémente l’interface **IMAPIProp** peut prendre en charge les propriétés nommées. Les fournisseurs de carnet d’adresses qui permettent la copie d’entrées d’autres fournisseurs dans leurs conteneurs et fournisseurs de magasins de messages qui peuvent être utilisés pour créer des types de messages arbitraires sont requis pour fournir cette prise en charge. Il s’agit d’une option pour tous les autres fournisseurs de services. Les fournisseurs qui ne prisent pas en charge les propriétés nommées retournent des MAPI_E_NO_SUPPORT à partir des méthodes **GetIDsFromNames** et **GetNamesFromIDs** et refusent de définir des propriétés avec des identificateurs de 0x8000 ou supérieur, renvoyant les MAPI_E_UNEXPECTED dans **le SPropProblemarray**.
+Tout objet qui implémente l’interface **IMAPIProp** peut prendre en charge les propriétés nommées. Les fournisseurs de carnets d’adresses qui permettent la copie des entrées d’autres fournisseurs dans leurs conteneurs et les fournisseurs de magasins de messages qui peuvent être utilisés pour créer des types de messages arbitraires sont requis pour fournir cette prise en charge. Il s’agit d’une option pour tous les autres fournisseurs de services. Les fournisseurs qui ne prisent pas en charge les propriétés nommées retournent des MAPI_E_NO_SUPPORT à partir des méthodes **GetIDsFromNames** et **GetNamesFromIDs** et refusent de définir des propriétés avec des identificateurs de 0x8000 ou supérieur, en renvoyant des MAPI_E_UNEXPECTED dans **le SPropProblemarray**.
   
 La création de noms pour les propriétés est un moyen pour les clients de définir de nouvelles propriétés pour des classes de message existantes ou personnalisées. Les fournisseurs de services peuvent utiliser des propriétés nommées pour exposer des fonctionnalités uniques de leurs systèmes de messagerie. Une autre utilisation des propriétés nommées consiste à fournir une autre façon de faire référence aux propriétés avec des identificateurs sous 0x8000. 
   
@@ -44,7 +44,7 @@ lpMAPIProp->GetNamesFromIDs (lppPropTags,
  
 ```
 
-Pour demander tous les noms du jeu PS_PUBLIC_STRINGS propriétés, un client remplace la valeur NULL dans le paramètre du jeu de propriétés PS_PUBLIC_STRINGS comme suit : 
+Pour demander tous les noms du jeu PS_PUBLIC_STRINGS propriétés, un client remplace la valeur NULL dans le paramètre de jeu de propriétés PS_PUBLIC_STRINGS comme suit : 
   
 ```cpp
 LPSPropTagArray FAR *    lppPropTags = NULL;

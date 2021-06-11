@@ -44,7 +44,7 @@ Autorise les conversions entre les objets MIME et les messages MAPI. Cela peut �
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Définit la largeur du retour à la ligne pour un flux MIME que le convertisseur renvoie dans **MAPIToMIMEStm**.  <br/> |
+|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Définit la largeur du retour à la ligne de texte pour un flux MIME que le convertisseur renvoie dans **MAPIToMIMEStm**.  <br/> |
 |**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Définit le format que le convertisseur renvoie un flux MIME dans **MAPIToMIMEStm**.  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 |**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Spécifie un jeu de caractères facultatif que le convertisseur MAPI en MIME utilise lors de la conversion d’un message MAPI en flux MIME.  <br/> |

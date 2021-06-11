@@ -41,7 +41,7 @@ Fonctionne avec des fournisseurs de services dans un service de messagerie.
 |||
 |:-----|:-----|
 |[GetLastError](iprovideradmin-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet d’administration du fournisseur.  <br/> |
-|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Permet d’accéder à la table des fournisseurs du service de messagerie, liste des fournisseurs de services dans le service de messagerie.  <br/> |
+|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Permet d’accéder à la table des fournisseurs du service de messagerie, une liste des fournisseurs de services dans le service de messagerie.  <br/> |
 |[CreateProvider](iprovideradmin-createprovider.md) <br/> |Ajoute un fournisseur de services au service de messagerie.  <br/> |
 |[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Supprime un fournisseur de services du service de messagerie.  <br/> |
 |[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Ouvre une section de profil à partir du profil actuel et renvoie un [pointeur IProfSect](iprofsectimapiprop.md) pour un accès supplémentaire.  <br/> |

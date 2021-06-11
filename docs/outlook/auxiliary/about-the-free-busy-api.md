@@ -20,26 +20,26 @@ L’API de libre/occupé permet aux fournisseurs de messagerie de fournir des in
   
 ## <a name="create-a-freebusy-provider"></a>Créer un fournisseur de services de libre-service
 
-Pour fournir des informations de libre/occupé aux utilisateurs de messagerie, un fournisseur de messagerie crée un fournisseur de libre/occupé et l’inscrit auprès d’Outlook. Le fournisseur de libre/occupé doit implémenter les interfaces suivantes. Notez qu’un certain nombre de membres dans ces interfaces ne sont pas pris en charge et doivent renvoyer les valeurs de retour spécifiées. En particulier, l’API de libre/occupé ne prend pas en charge l’accès en écriture aux informations de libre/occupé et déléguer l’accès aux comptes.
+Pour fournir des informations de libre/occupé aux utilisateurs de messagerie, un fournisseur de messagerie crée un fournisseur de services de messagerie et l’inscrit auprès Outlook. Le fournisseur de libre/occupé doit implémenter les interfaces suivantes. Notez qu’un certain nombre de membres dans ces interfaces ne sont pas pris en charge et doivent renvoyer les valeurs de retour spécifiées. En particulier, l’API de libre/occupé ne prend pas en charge l’accès en écriture aux informations de libre/occupé et déléguer l’accès aux comptes.
   
 - [IFreeBusySupport](ifreebusysupport.md) : cette interface prend en charge la spécification des interfaces qui accèdent aux données de libre/occupé pour les utilisateurs spécifiés. Il utilise [FBUser pour](fbuser.md) identifier un utilisateur. 
     
-- [IFreeBusyData](ifreebusydata.md) — Cette interface obtient et définit une plage de temps pour un utilisateur donné et renvoie une interface pour l’éumation des blocs de données de libre/occupé dans cette plage de temps. Il utilise le temps relatif pour obtenir et définir cette plage de temps. Pour plus d’informations, voir [Utiliser l’heure relative pour accéder aux données de libre/occupé.](how-to-use-relative-time-to-access-free-busy-data.md)
+- [IFreeBusyData](ifreebusydata.md) — Cette interface obtient et définit une plage de temps pour un utilisateur donné et renvoie une interface pour l’éumation des blocs de données de la période en question. Il utilise le temps relatif pour obtenir et définir cette plage de temps. Pour plus d’informations, voir [Utiliser l’heure relative pour accéder aux données de libre/occupé.](how-to-use-relative-time-to-access-free-busy-data.md)
     
 - [IEnumFBBlock —](ienumfbblock.md) Cette interface prend en charge l’accès et l’éumation des blocs de données de la période de libre/occupé d’un utilisateur. 
     
    > [!NOTE]
-   > Une éumération contient des blocs de libre/occupé qui indiquent l’état de la période de libre/occupé du calendrier d’un utilisateur, dans une plage de temps (spécifiée par [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)). Éléments d’un calendrier, tels que les rendez-vous et les demandes de réunion, blocs de formulaire dans l’éumération. Les éléments qui sont adjacents les uns aux autres sur le calendrier et qui ont le même statut de libre/occupé sont combinés pour former un seul bloc. Une période gratuite sur un calendrier constitue également un bloc. Par conséquent, deux blocs consécutifs dans une éumération n’auraient pas le même statut de libre/occupé. Ces blocs ne se chevauchent pas dans le temps. Lorsqu’un calendrier se chevauche, Outlook fusionne ces éléments pour former des blocs de libre/occupé non superposés dans l’éumération en fonction de cet ordre de priorité : absence du bureau, occupé, provisoire. 
+   > Une éumération contient des blocs de libre/occupé qui indiquent l’état de libre/occupé des périodes de temps sur le calendrier d’un utilisateur, dans une plage de temps (spécifiée par [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)). Éléments d’un calendrier, tels que les rendez-vous et les demandes de réunion, blocs de formulaire dans l’éumération. Les éléments qui sont adjacents les uns aux autres dans le calendrier et qui ont le même statut de libre/occupé sont combinés pour former un seul bloc. Une période gratuite sur un calendrier constitue également un bloc. Par conséquent, deux blocs consécutifs dans une éumération n’auraient pas le même statut de libre/occupé. Ces blocs ne se chevauchent pas dans le temps. Lorsqu’un calendrier se chevauche, Outlook fusionne ces éléments pour former des blocs de libre/occupé non superposés dans l’éumération en fonction de cet ordre de priorité : absence du bureau, occupé, provisoire. 
   
-Pour inscrire le fournisseur de libre/occupé auprès d’Outlook, le fournisseur de messagerie doit :
+Pour inscrire le fournisseur de services de Outlook, le fournisseur de messagerie doit :
   
 1. Inscrivez le fournisseur de libre/occupé auprès de COM, en fournissant un CLSID qui permet d’accéder à l’implémentation du fournisseur **de IFreeBusySupport**. 
     
-2. Faites savoir à Outlook que le fournisseur de services de libre-service existe en fixant la clé suivante (où représente la version d’Outlook) dans le Registre `<xx.x>` système : 
+2. Faites-Outlook savoir que le fournisseur de services de libre-service existe en fixant la clé suivante (où représente la version de Outlook) dans le Registre `<xx.x>` système : 
     
    `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\<xx.x>\Outlook\SchedulingInformation\FreeBusySupport`
     
-   Par exemple, si le fournisseur de transport est SMTP, pour enregistrer le fournisseur auprès de Microsoft Outlook 2010, définissez la clé suivante sur les données du tableau suivant : 
+   Par exemple, si le fournisseur de transport est SMTP, pour inscrire le fournisseur auprès de Microsoft Outlook 2010, définissez la clé suivante sur les données du tableau suivant : 
     
    `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\14.0\Outlook\SchedulingInformation\FreeBusySupport`
     
@@ -52,7 +52,7 @@ Pour inscrire le fournisseur de libre/occupé auprès d’Outlook, le fournisseu
 Pour prendre en charge un carnet d’adresses et un fournisseur de transport qui utilisent un type d’entrée d’adresse autre que SMTP, modifiez  *le* nom en conséquence. 
   
 > [!NOTE]
-> Pendant l’installation, les fournisseurs de services de libre-service doivent vérifier si un paramètre de Registre pour le même type d’entrée d’adresse existe déjà. Si c’est le cas, le fournisseur de libre/occupé doit le faire pour ce type d’entrée d’adresse et le restaurer lors de sa désinstallation. Toutefois, si un utilisateur a installé plusieurs fournisseurs de libre/occupé pour le même type d’entrée d’adresse, il doit désinstaller ces fournisseurs dans l’ordre inverse en tant qu’installation (autrement dit, désinstaller toujours le dernier fournisseur). Sinon, le Registre peut pointer vers un fournisseur qui a déjà été désinstallé. 
+> Pendant l’installation, les fournisseurs de services de libre-service doivent vérifier si un paramètre de Registre pour le même type d’entrée d’adresse existe déjà. Si c’est le cas, le fournisseur de libre/occupé doit le faire pour ce type d’entrée d’adresse et le restaurer lors de sa désinstallation. Toutefois, si un utilisateur a installé plusieurs fournisseurs de libre/occupé pour le même type d’entrée d’adresse, l’utilisateur doit désinstaller ces fournisseurs dans l’ordre inverse en tant qu’installation (c’est-à-dire, toujours désinstaller le dernier fournisseur). Sinon, le Registre peut pointer vers un fournisseur qui a déjà été désinstallé. 
   
 ## <a name="api-components"></a>Composants d’API
 

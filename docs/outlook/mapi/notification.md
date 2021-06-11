@@ -50,7 +50,7 @@ typedef struct
 
 **ulEventType**
   
-> Type d’événement de notification qui s’est produit. La valeur du **membre ulEventType** correspond à la structure incluse dans l’union **d’informations.** Le **membre ulEventType** peut être définie sur l’une des valeurs suivantes : 
+> Type d’événement de notification qui s’est produit. La valeur du membre **ulEventType** correspond à la structure incluse dans l’union **d’informations.** Le **membre ulEventType** peut être définie sur l’une des valeurs suivantes : 
     
  _fnevCriticalError_
   
@@ -58,7 +58,7 @@ typedef struct
     
  _fnevExtended_
   
-> Un événement interne défini par un fournisseur de services particulier s’est produit. Le **membre d’informations** contient [une structure EXTENDED_NOTIFICATION](extended_notification.md) de données. 
+> Un événement interne défini par un fournisseur de services particulier s’est produit. Le **membre d’informations** contient une structure [EXTENDED_NOTIFICATION](extended_notification.md) de données. 
     
  _fnevNewMail_
   
@@ -66,27 +66,27 @@ typedef struct
     
  _fnevObjectCopied_
   
-> Un objet MAPI a été copié. Le **membre d’informations** contient [une structure OBJECT_NOTIFICATION](object_notification.md) de données. 
+> Un objet MAPI a été copié. Le **membre d’informations** contient une structure [OBJECT_NOTIFICATION](object_notification.md) de données. 
     
  _fnevObjectCreated_
   
-> Un objet MAPI a été créé. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
+> Un objet MAPI a été créé. Le **membre d’informations** contient une structure **OBJECT_NOTIFICATION** de données. 
     
  _fnevObjectDeleted_
   
-> Un objet MAPI a été supprimé. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
+> Un objet MAPI a été supprimé. Le **membre d’informations** contient une structure **OBJECT_NOTIFICATION** de données. 
     
  _fnevObjectModified_
   
-> Un objet MAPI a changé. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
+> Un objet MAPI a changé. Le **membre d’informations** contient une structure **OBJECT_NOTIFICATION** de données. 
     
  _fnevObjectMoved_
   
-> Un objet de magasin de messages ou de carnet d’adresses a été déplacé. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
+> Un objet de magasin de messages ou de carnet d’adresses a été déplacé. Le **membre d’informations** contient une structure **OBJECT_NOTIFICATION** de données. 
     
  _fnevSearchComplete_
   
-> Une opération de recherche est terminée et les résultats sont disponibles. Le **membre d’informations** contient **une structure OBJECT_NOTIFICATION** de données. 
+> Une opération de recherche est terminée et les résultats sont disponibles. Le **membre d’informations** contient une structure **OBJECT_NOTIFICATION** de données. 
     
  _fnevTableModified_
   
@@ -94,11 +94,11 @@ typedef struct
     
 **info**
   
-> Union des structures de notification décrivant les données affectées pour un type particulier d’événement. La structure incluse dans le membre **d’informations** dépend de la valeur du **membre ulEventType.** 
+> Union de structures de notification décrivant les données affectées pour un type particulier d’événement. La structure incluse dans le membre **d’informations** dépend de la valeur du **membre ulEventType.** 
     
 ## <a name="remarks"></a>Remarques
 
-Une ou plusieurs structures **DE NOTIFICATION** sont transmises en tant que paramètres d’entrée à chaque appel à la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) d’un sink de notification inscrit. Les **structures NOTIFICATION** contiennent des informations sur les événements particuliers qui se sont produits et décrivent les objets affectés. 
+Une ou plusieurs structures **de NOTIFICATION** sont transmises en tant que paramètres d’entrée à chaque appel à la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) d’un sink de notification inscrit. Les **structures NOTIFICATION** contiennent des informations sur les événements particuliers qui se sont produits et décrivent les objets affectés. 
   
 Avant que les clients ou fournisseurs de services recevant une notification ne peuvent utiliser la structure pour traiter l’événement, ils doivent vérifier le type d’événement comme indiqué dans le membre **ulEventType.** Par exemple, l’exemple de code présenté ici vérifie l’arrivée d’un nouveau message et, lorsqu’il détecte un événement de ce type, imprime la classe de message du message. 
   

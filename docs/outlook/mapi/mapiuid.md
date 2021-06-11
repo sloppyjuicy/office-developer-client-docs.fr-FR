@@ -50,7 +50,7 @@ typedef struct _MAPIUID
 
 Une structure **MAPIUID** est une structure **GUID** mise dans l’ordre ® processeur Intel. 
   
-MAPI crée des structures **MAPIUID** de manière à ce qu’il soit très rare que deux éléments différents ont le même identificateur. Les structures **MAPIUID** peuvent être stockées en tant que propriétés binaires ou en tant que fichiers, sans prendre en compte l’ordre d’byte de l’ordinateur stockant ou accédant aux informations. 
+MAPI crée des structures **MAPIUID** d’une manière qui rend très rare que deux éléments différents ont le même identificateur. Les structures **MAPIUID** peuvent être stockées en tant que propriétés binaires ou en tant que fichiers, sans prendre en compte l’ordre des bytes de l’ordinateur stockant ou accédant aux informations. 
   
  **Les structures MAPIUID** sont utilisées : 
   

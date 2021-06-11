@@ -23,14 +23,14 @@ ms.locfileid: "33433716"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire contenant **booléen** **TRUE** ou **FALSE**.
+Fonction de bibliothèque d’infrastructure qui crée une **XLOPER** /  **XLOPER12** temporaire contenant **booléen** **TRUE** ou **FALSE**.
   
 ```cs
 LPXLOPER TempBool(int b);
 LPXLOPER12 TempBool12(int b);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _b_ (**int**)
   
@@ -42,7 +42,7 @@ Renvoie un **booléen xltypeBool** **contenant** la valeur logique transmise.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant utilise **la fonction TempBool12** pour effacer la barre d’état. La mémoire temporaire est libérée lorsque la [fonction Excel/Excel12f](excel-excel12f.md) est appelée. 
+L’exemple suivant utilise la **fonction TempBool12** pour effacer la barre d’état. La mémoire temporaire est libérée lorsque la [fonction Excel/Excel12f](excel-excel12f.md) est appelée. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

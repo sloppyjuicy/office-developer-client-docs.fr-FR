@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée du dossier d’affichage commun prédéf
 |Propriétés associées :  <br/> |PR_COMMON_VIEWS_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E6  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Application Outlook  <br/> |
+|Domaine :  <br/> |Outlook application  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

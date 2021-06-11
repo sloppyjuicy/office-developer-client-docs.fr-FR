@@ -36,7 +36,7 @@ Sérialise les propriétés lors du filtrage du format TNEF (Transport Neutral E
    
 ## <a name="remarks"></a>Remarques
 
-Utilisé par Microsoft Outlook et Outlook Web Access (OWA) pour enregistrer le TNEF d’origine dans les cas où le TNEF contient des propriétés nommées qui ne peuvent pas être créées dans le store.
+Utilisé par Microsoft Outlook et Outlook Web Access (OWA) pour enregistrer le TNEF d’origine dans les cas où le TNEF contient des propriétés nommées qui ne peuvent pas être créées dans le Store.
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c103d48d-53ca-4b19-b16f-2862379587ef
-description: L’élément activityDetails stocke les données brutes pour un seul élément de flux d’activités. Chaque élément de flux d’activités doit avoir son propre élément activityDetails. Les données de l’élément activityDetails sont référencés dans les modèles d’activité à l’aide d’éléments de nom.
+description: L’élément activityDetails stocke les données brutes d’un seul élément de flux d’activités. Chaque élément de flux d’activités doit avoir son propre élément activityDetails. Les données de l’élément activityDetails sont référencés dans les modèles d’activité à l’aide d’éléments de nom.
 ms.openlocfilehash: fd9c2136e8e2b687fa281ecda71039809848f63c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -39,6 +39,6 @@ Pour obtenir un exemple de XML de flux d’activités, voir [l’exemple XML des
 - [Variables de modèle](template-variables.md) 
 - [Recommandations en matière d’affichage correct des activités](guidelines-for-properly-displaying-activities.md)  
 - [XML pour les activités](xml-for-activities.md)  
-- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Outlook Schéma XML du fournisseur Social Connector](outlook-social-connector-provider-xml-schema.md)
 - [Développement d'un fournisseur avec le schéma XML OSC](developing-a-provider-with-the-osc-xml-schema.md)
 

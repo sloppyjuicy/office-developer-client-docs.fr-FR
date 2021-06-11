@@ -23,9 +23,9 @@ Détermine la taille de la pointe de flèche à la fin du trait.
 |**Valeur**|**Taille**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Très petite  <br/> |**visArrowSizeVerySmall** <br/> |
-|1   <br/> |Petite  <br/> |**visArrowSizeSmall** <br/> |
-|2   <br/> |Moyen  <br/> |**visArrowSizeMedium** <br/> |
-|3   <br/> |Grande  <br/> |**visArrowSizeLarge** <br/> |
+|1  <br/> |Petite  <br/> |**visArrowSizeSmall** <br/> |
+|2  <br/> |Moyenne  <br/> |**visArrowSizeMedium** <br/> |
+|3  <br/> |Grande  <br/> |**visArrowSizeLarge** <br/> |
 |4   <br/> |Très grande  <br/> |**visArrowSizeVeryLarge** <br/> |
 |5   <br/> |Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
 |6   <br/> |Premier  <br/> |**visArrowSizeColossal** <br/> |

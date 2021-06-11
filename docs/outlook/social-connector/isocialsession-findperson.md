@@ -23,7 +23,7 @@ Obtient une chaîne qui représente une ou plusieurs personnes qui correspondent
 HRESULT _stdcall FindPerson([in] BSTR userId, [out, retval] BSTR* result);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _userId_
   
@@ -35,7 +35,7 @@ _result_
     
 ## <a name="remarks"></a>Remarques
 
-Si une ou plusieurs personnes correspondent à la **demande FindPerson,** cette méthode renvoie les informations de ces personnes dans le  _paramètre de_ résultat. La  _chaîne_ XML de résultat doit être conforme à la définition de schéma pour les **amis,** telle que définie dans le schéma pour l’extensibilité du fournisseur Outlook Social Connector (OSC). 
+Si une ou plusieurs personnes correspondent à la **demande FindPerson,** cette méthode renvoie les informations de ces personnes dans le  _paramètre de_ résultat. La _chaîne_ XML de résultat doit être conforme à la définition de schéma pour les **amis,** telle que définie dans le schéma pour l’extensibilité du fournisseur Outlook Social Connector (OSC). 
   
 ## <a name="see-also"></a>Voir aussi
 

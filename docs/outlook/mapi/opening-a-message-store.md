@@ -38,13 +38,13 @@ Pour ouvrir une magasin de messages, son identificateur d’entrée doit être d
     
 3. Créez une restriction pour filtrer la ligne qui représente la magasin de messages à ouvrir. Pour plus d’informations sur la recherche de la magasin de messages par défaut, voir [Ouverture de la boutique de messages par défaut.](opening-the-default-message-store.md) Pour rechercher un magasin de messages par nom, appliquez l’une des restrictions de propriété suivantes :
     
-   - Correspond **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)) avec le nom général de ce type de magasin de messages. Par exemple, PR_PROVIDER_DISPLAY peut être définie sur « Dossiers personnels ».
+   - Correspondez **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md)) avec le nom général de ce type de magasin de messages. Par exemple, PR_PROVIDER_DISPLAY peut être définie sur « Dossiers personnels ».
     
    - Faire **correspondre PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md)) avec le **MAPIUID** spécifique pour ce type de magasin de messages. 
     
-   - Faire **correspondre PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) avec le nom de ce magasin de messages particulier. Par exemple, **PR_DISPLAY_NAME** peut être définie sur « Mes messages pour l’année fiscale 2010 ». 
+   - Faire **correspondre PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) avec le nom de cette boutique de messages particulière. Par exemple, **PR_DISPLAY_NAME** peut être définie sur « Mes messages pour l’année fiscale 2010 ». 
     
-4. Appelez [HrQueryAllRows pour](hrqueryallrows.md) récupérer la ligne appropriée à partir de la table de la boutique de messages. L’identificateur d’entrée de la ligne sera inclus dans le tableau des valeurs de propriété pour le membre **aRow** du jeu de lignes pointé par le _paramètre pprows._ 
+4. Appelez [HrQueryAllRows](hrqueryallrows.md) pour récupérer la ligne appropriée à partir de la table de la boutique de messages. L’identificateur d’entrée de la ligne sera inclus dans le tableau des valeurs de propriété pour le membre **aRow** du jeu de lignes pointé par le _paramètre pprows._ 
     
 5. Appelez [FreeProws pour](freeprows.md) libérer le jeu de lignes pointé par  _pprows_.
     
@@ -57,7 +57,7 @@ Une fois que vous avez l’identificateur d’entrée d’une boutique de messag
 - [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
 - [IMAPISession::OpenEntry](imapisession-openentry.md)
     
-Appelez **OpenMsgStore** si vous devez spécifier une variété d’options spéciales pour la magasin de messages. **OpenMsgStore** vous permet de supprimer l’affichage des boîtes de dialogue, d’identifier la magasin de messages comme temporaire ou comme magasin de non-hébergement, de définir des niveaux d’accès et de différer les erreurs. **OpenEntry vous permet** uniquement de définir des niveaux d’accès et de différer les erreurs. 
+Appelez **OpenMsgStore** si vous devez spécifier plusieurs options spéciales pour la boutique de messages. **OpenMsgStore** vous permet de supprimer l’affichage des boîtes de dialogue, d’identifier la magasin de messages comme temporaire ou comme magasin de non-hébergement, de définir des niveaux d’accès et de différer les erreurs. **OpenEntry vous permet** uniquement de définir des niveaux d’accès et de différer les erreurs. 
   
 La définition MDB_NO_MAIL’indicateur de message indique à MAPI que la boutique de messages ne sera pas utilisée pour l’envoi ou la réception de messages. MAPI n’informe pas lepooler MAPI de l’existence de ce magasin de messages. L MDB_TEMPORARY désigne une collection de messages comme temporaire, ce qui signifie qu’elle ne peut pas être utilisée pour stocker des informations permanentes. Les magasins de messages temporaires n’apparaissent pas dans la table de la boutique de messages. 
   

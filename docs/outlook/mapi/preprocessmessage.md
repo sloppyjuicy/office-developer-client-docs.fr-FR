@@ -48,7 +48,7 @@ HRESULT PreprocessMessage(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpvSession_
   
@@ -80,7 +80,7 @@ HRESULT PreprocessMessage(
     
  _lpcOutbound_
   
-> [out] Pointeur vers le nombre de messages dans le tableau pointés par _le paramètre lpppMessage._ 
+> [out] Pointeur vers le nombre de messages dans le tableau pointés par le _paramètre lpppMessage._ 
     
  _lpppMessage_
   
@@ -100,9 +100,9 @@ S_OK
 
 Un préprocesseur de message de fournisseur de transport peut présenter un indicateur de progression pendant le prétraitment du message. Toutefois, elle ne doit jamais présenter de boîte de dialogue nécessitant une interaction de l’utilisateur pendant le prétraitment du message. 
   
-Lorsqu’un préprocesseur ajoute de grandes quantités de données à un message sortant, certaines procédures doivent être suivies. Ce type de message peut être stocké dans une magasin de messages basé sur un serveur, ce qui entraîne l’accès du préprocesseur à une magasin distante, une procédure longue. Pour éviter d’avoir à le faire, le préprocesseur doit disposer d’une option qui lui permet de stocker des données qui occupent une grande quantité d’espace dans une magasin de messages locale et de fournir une référence à cette boutique locale dans le message. 
+Lorsqu’un préprocesseur ajoute de grandes quantités de données à un message sortant, certaines procédures doivent être suivies. Ce type de message peut être stocké dans une magasin de messages basé sur un serveur, ce qui entraîne l’accès du préprocesseur à une magasin distante, une procédure longue. Pour éviter d’avoir à le faire, le préprocesseur doit disposer d’une option qui lui permet de stocker des données qui occupent une grande quantité d’espace dans un magasin de messages local et de fournir une référence à cette boutique locale dans le message. 
   
-Le préprocesseur ne doit libérer aucun des objets transmis à l’origine à la **fonction basée sur PreprocessMessage.** 
+Le préprocesseur ne doit libérer aucun des objets transmis à l’origine à la **fonction Basée sur PreprocessMessage.** 
   
 Avant que lepooler MAPI puisse appeler une fonction **PreprocessMessage,** le fournisseur de transport doit avoir inscrit la fonction dans un appel à la méthode [IMAPISupport::RegisterPreprocessor.](imapisupport-registerpreprocessor.md) Après avoir appelé **une fonction PreprocessMessage,** lepooler ne peut pas continuer à envoyer un message tant que la fonction n’est pas revenu. 
   

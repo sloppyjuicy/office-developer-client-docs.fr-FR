@@ -36,7 +36,7 @@ Calcule le nombre d’octets dans une structure [SPropAttrArray](spropattrarray.
 CbSPropAttrArray (_lparray)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ _lparray_
   

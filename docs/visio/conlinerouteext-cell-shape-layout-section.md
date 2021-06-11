@@ -23,8 +23,8 @@ Détermine l'aspect d'un connecteur.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valeur par défaut ; utilise le paramètre de la page  <br/> |**visLORouteExtDefault** <br/> |
-| 1   <br/> | Droite  <br/> |**visLORouteExtStraight** <br/> |
-| 2   <br/> | Courbe  <br/> |**visLORouteExtNURBS** <br/> |
+| 1  <br/> | Droite  <br/> |**visLORouteExtStraight** <br/> |
+| 2  <br/> | Courbe  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

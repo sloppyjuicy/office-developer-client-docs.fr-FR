@@ -44,7 +44,7 @@ Les sections suivantes montrent des symboles que vous pouvez utiliser pour mettr
 
 |**Caractère**|**Description**|
 |:-----|:-----|
-|$  <br/> |Symbole monétaire. Affiche le symbole monétaire défini dans les paramètres **Région et langue** du système (Panneau de configuration).  <br/> |
+|$  <br/> |Symbole monétaire. Affiche le symbole monétaire défini dans les paramètres **Région et langue** du système (Panneau de configuration).<br/> |
 |u ou U  <br/> |Emplacement réservé à un intitulé court. Insère le symbole standard associé à une monnaie locale ou la constante à trois caractères correspondant aux monnaies étrangères. Par exemple, 99,00 €; 42,70 USD. L’espace réservé u insère des minuscules et U insère des étiquettes de cas mixte.  <br/> |
 |uu ou UU  <br/> |Emplacement réservé aux intitulés longs. Insère des intitulés correspondant aux unités monétaires au format complet après chaque sous-unité. Par exemple : Dollar US, euro. L’espace réservé u insère des minuscules et U insère des étiquettes de cas mixte.  <br/> |
 |uuu ou UUU  <br/> |Emplacement réservé à un intitulé universel. Insère la constante à trois chiffres universelle ou toutes les unités monétaires après chaque sous-unité. Par exemple, 99,00 €; 42,70 USD. L’espace réservé u insère des minuscules et U insère des étiquettes de cas mixte. Insère le même nombre d’espaces avant l’intitulé et avant l’emplacement.  <br/> |
@@ -71,7 +71,7 @@ Les sections suivantes montrent des symboles que vous pouvez utiliser pour mettr
 |jjj ou s  <br/> |Emplacement réservé au jour de la semaine au format abrégé. Affiche le jour sous forme d’abréviation (Lun-Dim).  <br/> |
 |dddd ou w  <br/> |Emplacement réservé au jour de la semaine au format complet. Affiche le nom complet du jour (Lundi-Dimanche).  <br/> |
 |ddddd  <br/> |Emplacement réservé à une date courte. Affiche une date sous la forme courte définie dans les paramètres **Région et langue** du système (Panneau de configuration).<br/> |
-|dddd  <br/> |Emplacement réservé à une date longue. Affiche une date sous la forme longue définie dans les paramètres **Région et langue** du système (Panneau de configuration).  <br/> |
+|dddd  <br/> |Emplacement réservé à une date longue. Affiche une date sous la forme longue définie dans les paramètres **Région et langue** du système (Panneau de configuration).<br/> |
 |D  <br/> |Emplacement réservé à la date pour le chinois traditionnel. Affiche le jour du mois sous forme de représentation textuelle du nombre ordinal. Spécifique aux paramètres régionaux.  <br/> |
 |D_c  <br/> |Emplacement réservé à la date pour le chinois traditionnel. Affiche le jour du mois sous forme de représentation textuelle du nombre ordinal. Indépendant des paramètres régionaux de l’utilisateur.  <br/> |
 |w_c ou w_c  <br/> |Emplacement réservé à la date pour le chinois traditionnel. Indépendant des paramètres régionaux de l’utilisateur.  <br/> |

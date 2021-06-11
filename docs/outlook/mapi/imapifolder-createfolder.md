@@ -38,7 +38,7 @@ HRESULT CreateFolder(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFolderType_
   
@@ -62,7 +62,7 @@ FOLDER_SEARCH
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au nouveau dossier. La transmission de null entraîne le fournisseur de magasin de messages à renvoyer l’interface de dossier standard, [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les clients doivent passer la valeur NULL. D’autres appelants peuvent définir le paramètre  _lpInterface_ sur IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au nouveau dossier. La transmission de null entraîne le fournisseur de magasin de messages à renvoyer l’interface de dossier standard, [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les clients doivent transmettre la valeur NULL. D’autres appelants peuvent définir le paramètre  _lpInterface_ sur IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
     
  _ulFlags_
   
@@ -70,7 +70,7 @@ FOLDER_SEARCH
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **CreateFolder** de renvoyer correctement, éventuellement avant que le nouveau dossier soit entièrement disponible pour le client appelant. Si le nouveau dossier n’est pas disponible, un appel ultérieur peut provoquer une erreur. 
+> Permet à **CreateFolder** de renvoyer correctement, éventuellement avant que le nouveau dossier soit entièrement disponible pour le client appelant. Si le nouveau dossier n’est pas disponible, un appel ultérieur à celui-ci peut provoquer une erreur. 
     
 MAPI_UNICODE 
   

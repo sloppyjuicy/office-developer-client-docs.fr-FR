@@ -28,7 +28,7 @@ Vous pouvez utiliser **l’action DéfinirProperty** pour définir une propriét
 |**Argument de l'action**|**Description**|
 |:-----|:-----|
 | _Nom du contrôle_ : <br/> |Tapez le nom du champ ou du contrôle pour lequel vous souhaitez définir la valeur d’une propriété. Laissez cet argument vide pour définir la propriété de l’affichage.  <br/> |
-| _Propriété_ <br/> |Sélectionnez la propriété dont la valeur doit être définie. Consultez la section **Remarques** de cet article pour accéder à la liste des propriétés qui peuvent être définies via cette action.<br/> |
+| _Property_ <br/> |Sélectionnez la propriété dont la valeur doit être définie. Consultez la section **Remarques** de cet article pour accéder à la liste des propriétés qui peuvent être définies via cette action.<br/> |
 | _Valeur_ <br/> |Tapez la valeur que vous souhaitez définir pour la propriété. Pour les propriétés dont la valeur doit être définie sur Oui ou Non, utilisez **-1** pour Oui et **0** pour Non.<br/> |
    
 ## <a name="remarks"></a>Remarques

@@ -31,7 +31,7 @@ Spécifie la méthode d’authentification à utiliser pour le compte SMTP.
 
 La valeur est un masque de bits des constantes suivantes. Voir [constantes (API de gestion des comptes)](constants-account-management-api.md) pour leurs valeurs. 
   
-- **SMTP_AUTH_SAME_AS_POP** signifie utiliser les mêmes informations d’identification que mon serveur de messagerie entrant, comme fourni par les PROP_INET_USER [et](prop_inet_user.md) [PROP_INET_PASSWORD](prop_inet_password.md).
+- **SMTP_AUTH_SAME_AS_POP** signifie utiliser les mêmes informations d’identification que mon serveur de messagerie entrant, comme fourni par PROP_INET_USER [et](prop_inet_user.md) [PROP_INET_PASSWORD](prop_inet_password.md).
     
 - **SMTP_AUTH_USER_PASS** signifie utiliser les informations d’identification fournies par les [PROP_SMTP_USER](prop_smtp_user.md) et [PROP_SMTP_PASSWORD](prop_smtp_password.md).
     

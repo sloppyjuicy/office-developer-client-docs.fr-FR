@@ -33,7 +33,7 @@ Pour obtenir une référence à la cellule Snap par un nom dans une autre formul
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers.Snap[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Calques. Ancrer[ *i* ] où *i* = <1>, 2, 3...  <br/> |
    
 Pour obtenir une référence à la cellule Snap par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

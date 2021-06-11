@@ -33,7 +33,7 @@ Si vous implémentez une application d’installation, la série d’actions qu�
     
     Les étapes 4 à 6 sont pour l’installation dans une bibliothèque de formulaires locale :
     
-4. Copiez tous les fichiers à l’endroit approprié sur le disque local, si l’installation se fait dans la bibliothèque de formulaires locale sur la station de travail de l’utilisateur. Si nécessaire, modifiez le fichier de configuration du formulaire pour refléter les chemins d’accès actuels des composants. Le fichier de configuration du formulaire peut contenir des chemins d’accès relatifs, auquel cas cette étape n’est peut-être pas nécessaire.
+4. Copiez tous les fichiers à l’endroit approprié sur le disque local, si l’installation se fait dans la bibliothèque de formulaires locale sur la station de travail de l’utilisateur. Si nécessaire, modifiez le fichier de configuration du formulaire pour qu’il reflète les chemins d’accès actuels des composants. Le fichier de configuration du formulaire peut contenir des chemins d’accès relatifs, auquel cas cette étape n’est peut-être pas nécessaire.
     
 5. Effectuer les étapes d’inscription OLE appropriées pour associer le type de message au serveur de formulaire en cours d’installation.
     

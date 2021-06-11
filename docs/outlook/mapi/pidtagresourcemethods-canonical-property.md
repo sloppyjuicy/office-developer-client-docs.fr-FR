@@ -36,9 +36,9 @@ Contient un masque de bits d’indicateurs qui indiquent les méthodes dans l’
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété indique quelles méthodes de l’implémentation **d’IMAPIStatus** d’un objet d’état sont pris en charge. Les objets d’état sont autorisés à renvoyer MAPI_E_NO_SUPPORT à partir de méthodes non pris en MAPI_E_NO_SUPPORT. 
+Cette propriété indique quelles méthodes de l’implémentation **d’IMAPIStatus** d’un objet d’état sont pris en charge. Les objets d’état sont autorisés à renvoyer MAPI_E_NO_SUPPORT des méthodes non pris en MAPI_E_NO_SUPPORT' 
   
-Les clients utilisent  la propriété PR_RESOURCE_METHODS d’un objet d’état pour éviter d’effectuer des appels à des méthodes non pris en compte. Si l’indicateur qui correspond à une méthode particulière est définie, la méthode existe et peut être appelée. Si cet indicateur est clair, la méthode ne doit pas être appelée. 
+Les clients utilisent  la propriété PR_RESOURCE_METHODS d’un objet d’état pour éviter d’appeler des méthodes non pris en compte. Si l’indicateur qui correspond à une méthode particulière est définie, la méthode existe et peut être appelée. Si cet indicateur est clair, la méthode ne doit pas être appelée. 
   
 Les objets d’état implémentés par MAPI prise en charge les méthodes suivantes :
   

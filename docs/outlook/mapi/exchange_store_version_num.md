@@ -21,7 +21,7 @@ ms.locfileid: "33433723"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Stocke les informations de version des Microsoft Exchange Server comptes d’un Microsoft Office Outlook sont connectés.
+Stocke les informations de version des Microsoft Exchange Server à qui les comptes d’un Microsoft Office Outlook sont connectés.
   
 ## <a name="quick-info"></a>Informations rapides
 

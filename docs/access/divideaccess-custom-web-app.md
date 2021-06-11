@@ -22,9 +22,9 @@ Divise un nombre par un autre.
   
 ## <a name="syntax"></a>Syntaxe
 
- *2016*   /   *diviseur* 
+ *24h0*   /   *diviseur* 
   
- *2016*  Est l’expression numérique à diviser. Peut être n’importe quelle expression valide de l’un des types de données de la catégorie de type de données numériques, à l’exception du type de données date/heure. 
+ *24h0*  Est l’expression numérique à diviser. Peut être n’importe quelle expression valide de l’un des types de données de la catégorie de type de données numériques, à l’exception du type de données date/heure. 
   
  *Diviseur*  Est l’expression numérique par laquelle diviser le versement. Peut être n’importe quelle expression valide de l’un des types de données de la catégorie de type de données numériques, à l’exception du type de données date/heure. 
   
@@ -32,7 +32,7 @@ Divise un nombre par un autre.
 
 Renvoie le type de données de l’argument avec la priorité la plus élevée. 
   
-Si un nombre integer  *est*  divisé par un  *diviseur d’un*  nombre integer, le résultat est un nombre integer qui a une partie fractionnaire du résultat tronqué. 
+Si un nombre integer  *est*  divisé par un diviseur  *d’un*  nombre integer, le résultat est un nombre integer qui a une partie fractionnaire du résultat tronqué. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251592
 localization_priority: Normal
 ms.assetid: df88c55f-c098-dd4c-bf53-c7d7b60cf719
-description: Renvoie une chaîne d’image de format qui correspond au code de format du champ de texte interne de Microsoft Visio.
+description: Renvoie une chaîne d’image de format qui correspond au code de format Visio de champ de texte interne Microsoft.
 ms.openlocfilehash: 1ab24c602c7975cf6be22a564a8b9ee9aa0d6f46
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33431455"
 ---
 # <a name="fieldpicture-function"></a>Fonction FIELDPICTURE
 
-Renvoie une chaîne d’image de format qui correspond au code de format du champ de texte interne de Microsoft Visio.
+Renvoie une chaîne d’image de format qui correspond au code de format Visio de champ de texte interne Microsoft.
   
 ## <a name="syntax"></a>Syntaxe
 

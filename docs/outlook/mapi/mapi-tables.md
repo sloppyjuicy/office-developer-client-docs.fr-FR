@@ -37,7 +37,7 @@ Le tableau suivant indique les propriétés qui font la colonne définie pour l�
 |**PR_ORIGINAL_DELIVERY_TIME** ([PidTagOriginalDeliveryTime](pidtagoriginaldeliverytime-canonical-property.md))  <br/> |Date et heure d’envoi du message  <br/> |
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |Ligne d’objet du message  <br/> |
    
-Notez que l’ensemble des propriétés affichées dans le message ne sont pas identiques à l’ensemble des colonnes affichées dans le tableau. L’implémenteur de la table, dans ce cas un fournisseur de magasin de messages, fournit un ensemble par défaut de colonnes dans un ordre par défaut. Le client peut modifier cet ensemble de colonnes, en demandant des colonnes supplémentaires ou en rejetant les colonnes par défaut, et leur demander d’être commandés d’une manière spécifique. Le client peut également trier les lignes en fonction de la valeur d’une ou de plusieurs colonnes.
+Notez que l’ensemble des propriétés affichées dans le message ne sont pas identiques à l’ensemble des colonnes affichées dans le tableau. L’implémenteur de la table, dans ce cas un fournisseur de magasin de messages, fournit un ensemble par défaut de colonnes dans un ordre par défaut. Le client peut modifier cet ensemble de colonnes en demandant des colonnes supplémentaires ou en rejetant les colonnes par défaut, et demander qu’ils soient commandés d’une manière spécifique. Le client peut également trier les lignes en fonction de la valeur d’une ou de plusieurs colonnes.
   
 **Utilisation d’un tableau pour afficher le contenu du dossier**
   

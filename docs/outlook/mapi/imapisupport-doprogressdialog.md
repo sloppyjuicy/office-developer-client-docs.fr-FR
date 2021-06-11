@@ -35,7 +35,7 @@ HRESULT DoProgressDialog(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -47,7 +47,7 @@ HRESULT DoProgressDialog(
     
 MAPI_TOP_LEVEL 
   
-> La progression est calculée pour un élément de niveau supérieur, tel qu’un dossier parent. L’objet de progression doit utiliser les valeurs des paramètres _ulCount_ et _ulTotal_ de la méthode [IMAPIProgress::P rogress,](imapiprogress-progress.md) qui indiquent respectivement l’élément actuel et le nombre total d’éléments de l’opération, pour incrémenter l’indicateur de progression de l’opération. 
+> La progression est calculée pour un élément de niveau supérieur, tel qu’un dossier parent. L’objet de progression doit utiliser les valeurs des paramètres _ulCount_ et _ulTotal_ de la méthode [IMAPIProgress::P rogress](imapiprogress-progress.md) , qui indiquent respectivement l’élément actuel et le nombre total d’éléments de l’opération, pour incrémenter l’indicateur de progression de l’opération. 
     
  _lppProgress_
   

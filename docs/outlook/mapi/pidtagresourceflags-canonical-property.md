@@ -60,7 +60,7 @@ SERVICE_PRIMARY_IDENTITY
     
 SERVICE_SINGLE_COPY 
   
-> Statique. Toute tentative de création ou de copie de ce service de message dans un profil où le service existe déjà échouera. Pour créer un service de message à copie **unique, ajoutez la PR_RESOURCE_FLAGS** à la section du service dans MAPISVC. INF et définissez cet indicateur. 
+> Statique. Toute tentative de création ou de copie de ce service de message dans un profil où le service existe déjà échouera. Pour créer un service de message à copie **unique, ajoutez la propriété PR_RESOURCE_FLAGS** à la section du service dans MAPISVC. INF et définissez cet indicateur. 
     
 Pour un fournisseur de services, un ou plusieurs des indicateurs suivants peuvent être PR_RESOURCE_FLAGS **:**
   

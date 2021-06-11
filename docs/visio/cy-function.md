@@ -35,7 +35,7 @@ CY(** *value* **, ** *cyID* ** )
 
 Pour spécifier une autre devise, vous devez inclure un _cyID valide._ Pour obtenir la liste des constantes monétaires, reportez-vous à la rubrique [À propos des constantes monétaires](about-currency-constants.md).
   
-Si  _la valeur_ n’est pas compatible avec le type de devise désigné ou si un argument non valide tel que « pas un nombre » est spécifié, un #VALUE! est renvoyée. Si  la valeur est supérieure à 922 337 203 685 477,5807 ou inférieure à -922 337 203 685 477,5808, #VALUE! est renvoyée. 
+Si  _la valeur_ n’est pas compatible avec le type de devise désigné, ou si un argument non valide tel que « pas un nombre » est spécifié, un #VALUE! est renvoyée. Si  la valeur est supérieure à 922 337 203 685 477,5807 ou inférieure à -922 337 203 685 477,5808, un #VALUE! est renvoyée. 
   
 Pour une meilleure précision avec des valeurs monétaires très élevées qui incluent des fractions d’une unité, telles que 3,6 billions, utilisez des arguments de chaîne pour la _valeur._
   

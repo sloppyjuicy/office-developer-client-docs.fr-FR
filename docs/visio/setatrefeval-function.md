@@ -32,7 +32,7 @@ SETATREFEVAL(** *expr* ** )
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous affectez *le paramètre set_expression* de la fonction SETATREF à  une cellule référencée, Microsoft Visio écrit set_expression dans la cellule en tant qu’expression par défaut. Toutefois, si une partie du paramètre  *set_expression*  est enveloppée par la fonction SETATREFEVAL, Visio évalue l’expression et remplace la fonction SETATREFEVAL par son résultat avant de résoudre l’expression SETATREF. 
+Lorsque vous affectez le *paramètre set_expression* de la fonction SETATREF à une  cellule référencée, Microsoft Visio écrit set_expression dans la cellule en tant qu’expression par défaut. Toutefois, si une partie du paramètre *set_expression* est enveloppée par la fonction SETATREFEVAL, Visio évalue l’expression et remplace la fonction SETATREFEVAL par son résultat avant de résoudre l’expression SETATREF. 
   
 ## <a name="example"></a>Exemple
 

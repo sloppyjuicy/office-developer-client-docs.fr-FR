@@ -27,7 +27,7 @@ ms.locfileid: "33437419"
     
 2. Définissez le paramètre  _lpEntryID1_ pour qu’il pointe vers **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) et le paramètre  _lpEntryID2_ pour pointer vers **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
-N’ignorez pas que si vous supprimez des messages après leur envoi ou que vous les avez déplacés vers un autre dossier, cette stratégie ne fonctionne pas. 
+N’ignorez pas que si vous supprimez des messages après leur envoi ou que vous avez déplacé l’un des messages envoyés vers un autre dossier, cette stratégie ne fonctionne pas. 
   
 Si, lors de l’examen d’un message entrant, vous remarquez que les propriétés généralement définies par un fournisseur de transport sont manquantes, vous pouvez supposer que le message n’a jamais été géré par un fournisseur de transport. Ces propriétés sont les suivantes :
   

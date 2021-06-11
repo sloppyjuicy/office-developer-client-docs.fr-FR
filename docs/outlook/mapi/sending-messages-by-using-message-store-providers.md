@@ -29,7 +29,7 @@ Pour prendre en charge l’envoi de messages, votre fournisseur de magasins de m
     
 - Prendre en charge les méthodes **IMsgStore** spécifiques aupooler MAPI : [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md), [IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md), [IMsgStore::NotifyNewMail](imsgstore-notifynewmail.md)et [IMsgStore::SetLockState](imsgstore-setlockstate.md).
     
-La **méthode SetLockState** est importante pour une interopération appropriée entre lepooler MAPI et les clients. Lorsque lepooler MAPI appelle **SetLockState** sur un message sortant, le fournisseur de magasin de messages ne doit pas laisser les clients ouvrir le message. Si un client tente d’ouvrir un message verrouillé par lepooler MAPI, le fournisseur de la boutique de messages doit MAPI_E_NO_ACCESS. L’état verrouillé d’un message n’a pas besoin d’être persistant au cas où la boutique serait fermée pendant que le message serait verrouillé par lepooler MAPI. 
+La **méthode SetLockState** est importante pour une interopérabilité appropriée entre lepooler MAPI et les clients. Lorsque lepooler MAPI appelle **SetLockState** sur un message sortant, le fournisseur de magasin de messages ne doit pas laisser les clients ouvrir le message. Si un client tente d’ouvrir un message verrouillé par lepooler MAPI, le fournisseur de la boutique de messages doit MAPI_E_NO_ACCESS. L’état verrouillé d’un message n’a pas besoin d’être persistant au cas où la boutique serait fermée pendant que le message serait verrouillé par lepooler MAPI. 
   
 Que lepooler MAPI ait verrouillé ou non un message sortant, le fournisseur de la boutique de messages ne doit pas autoriser l’ouverture d’un message dans la file d’attente de messages sortants pour l’écriture. Si un client appelle la méthode [IMSgStore::OpenEntry](imsgstore-openentry.md) sur un message sortant avec l’indicateur MAPI_MODIFY, l’appel doit échouer et MAPI_E_SUBMITTED. Si une application cliente appelle **OpenEntry** sur un message sortant avec l’indicateur MAPI_BEST_ACCESS, le fournisseur de magasins de messages doit autoriser l’accès en lecture seule au message. 
   
@@ -81,7 +81,7 @@ S’il n’y a pas eu de prétraitement, ou s’il y a eu un prétraitement et q
     
    - Ex�cute les t�ches suivantes si tous les destinataires sont connus � ce magasin �troitement coupl� et de transport : 
     
-     - Appelle [IMAPISupport::CompleteMsg](imapisupport-completemsg.md) si le message a été prétraité ou si le fournisseur de magasin de messages souhaite que lepooler MAPI termine le traitement des messages. Le flux de messages se poursuit avec lepooler MAPI. 
+     - Appelle [IMAPISupport::CompleteMsg](imapisupport-completemsg.md) si le message a été prétraité ou si le fournisseur de magasins de messages souhaite que lepooler MAPI termine le traitement des messages. Le flux de messages se poursuit avec lepooler MAPI. 
     
      - Effectue les tâches suivantes si le message n’a pas été prétraité ou si le fournisseur de la boutique de messages ne souhaite pas que lepooler MAPI termine le traitement des messages :
     

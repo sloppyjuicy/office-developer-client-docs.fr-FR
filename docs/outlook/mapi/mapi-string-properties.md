@@ -35,9 +35,9 @@ Un client ou un fournisseur de services, ou les deux clients et fournisseurs peu
   
 Par exemple, supposons qu’un client prend en charge Unicode et doit récupérer le nom complet d’un dossier. Toutes les propriétés de PT_TSTRING client sont compilées pour taper PT_UNICODE. Lorsque le client appelle la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) du dossier pour récupérer sa propriété **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), il transmet l’indicateur MAPI_UNICODE pour demander que la chaîne de nom complet soit renvoyée au format Unicode. 
   
-Les clients et les fournisseurs de services doivent savoir que spécifier un jeu de caractères dans un appel de méthode n’est qu’une demande. L’implémenteur de l’objet doit prendre en charge un ou les deux jeux de caractères. Toutefois, les fournisseurs de services sont encouragés à prendre en charge les deux jeux de caractères, car il leur permet d’obtenir une distribution plus étendue que les fournisseurs qui ne le supportent qu’un seul. 
+Les clients et les fournisseurs de services doivent savoir que spécifier un jeu de caractères dans un appel de méthode n’est qu’une demande. L’implémenteur de l’objet doit prendre en charge un ou les deux jeux de caractères. Toutefois, les fournisseurs de services sont encouragés à prendre en charge les deux jeux de caractères, car il leur permet d’obtenir une distribution plus étendue que les fournisseurs qui ne prisent en charge qu’un seul ensemble. 
   
-Les propriétés de chaîne peuvent devenir assez grandes, tout comme les propriétés binaires qui utilisent le type de propriété PT_BINARY. Pour faciliter l’travail avec des propriétés de grande taille, MAPI permet aux fournisseurs de services de définir ces propriétés pour appliquer des limites de taille. Ces limites peuvent varier en fonction des éléments suivants :
+Les propriétés de chaîne peuvent devenir très grandes, tout comme les propriétés binaires qui utilisent le type de propriété PT_BINARY. Pour faciliter l’application de propriétés de grande taille, MAPI permet aux fournisseurs de services de définir ces propriétés pour appliquer des limites de taille. Ces limites peuvent varier en fonction des éléments suivants :
   
 - Si les propriétés sont en cours de lecture ou d’écriture.
     
@@ -47,9 +47,9 @@ Les propriétés de chaîne peuvent devenir assez grandes, tout comme les propri
     
 - Problèmes de traduction de jeu de caractères. 
     
-Les limites de taille peuvent également être placées sur des propriétés de chaîne et binaires lorsqu’elles sont utilisées dans le jeu de colonnes d’un tableau, car il est parfois impossible de rendre visible l’ensemble de la valeur d’une propriété de grande taille. De nombreux fournisseurs de services tronquéent les propriétés binaires ou de chaîne de grande taille utilisées dans les tableaux à 255 octets. 
+Les limites de taille peuvent également être placées sur des propriétés de chaîne et binaires lorsqu’elles sont utilisées dans le jeu de colonnes d’un tableau, car il est parfois impossible de rendre visibles toutes les valeurs d’une propriété de grande taille. De nombreux fournisseurs de services tronquéent les propriétés binaires ou de chaîne de grande taille utilisées dans les tableaux à 255 octets. 
   
-Lorsqu’un client appelle la méthode **GetProps** ou **SetProps** d’un objet pour fonctionner avec une grande chaîne ou une propriété binaire et que l’appel échoue en raison de la taille de la propriété, la méthode renvoie la valeur d’erreur MAPI_E_NOT_ENOUGH_MEMORY. Si **getProps** échoue pour une propriété spécifique, le client peut récupérer en appelant [IMAPIProp::OpenProperty](imapiprop-openproperty.md) et en demandant **l’IStream** pour l’accès en spécifiant IID_IStream comme identificateur d’interface. À **l’aide d’OpenProperty,** le client peut récupérer une propriété de grande taille à l’aide d’une interface telle que **IStream** qui convient mieux à l’utilisation de propriétés de grande taille. 
+Lorsqu’un client appelle la méthode **GetProps** ou **SetProps** d’un objet pour travailler avec une grande chaîne ou une propriété binaire et que l’appel échoue en raison de la taille de la propriété, la méthode renvoie la valeur d’erreur MAPI_E_NOT_ENOUGH_MEMORY. Si **getProps** échoue pour une propriété spécifique, le client peut récupérer en appelant [IMAPIProp::OpenProperty](imapiprop-openproperty.md) et en demandant **l’IStream** pour l’accès en spécifiant IID_IStream comme identificateur d’interface. À **l’aide d’OpenProperty,** le client peut récupérer une propriété de grande taille à l’aide d’une interface telle que **IStream** qui convient mieux à l’utilisation de propriétés de grande taille. 
   
 ## <a name="see-also"></a>Voir aussi
 

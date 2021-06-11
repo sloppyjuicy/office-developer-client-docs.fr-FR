@@ -76,7 +76,7 @@ Lors du débogage d'un modèle de formulaire InfoPath, il est souvent utile de n
     ```
 
 > [!NOTE] 
-> Lorsque vous utilisez Visual Basic, ajoutez-les aux directives en haut du fichier de  `Imports Microsoft.VisualBasic.Constants` code du formulaire. 
+> Lorsque vous utilisez Visual Basic, ajoutez-les aux directives en haut du fichier de `Imports Microsoft.VisualBasic.Constants` code du formulaire. 
   
 ## <a name="test-the-addtodebugfield-function"></a>Tester la fonction AddToDebugField
 

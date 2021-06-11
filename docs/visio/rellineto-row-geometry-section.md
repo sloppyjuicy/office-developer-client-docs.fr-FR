@@ -30,6 +30,6 @@ Une **ligne RelLineTo** contient les cellules suivantes.
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs de **la ligne RelLineTo** sont équivalentes aux valeurs d’une ligne [LineTo](lineto-row-geometry-section.md) multipliées par la largeur et la hauteur de la forme. Par exemple : une ligne **RelLineTo** où la valeur de la cellule **X** est « 0 » et la valeur de la cellule **Y** est « 0,5 » peut être remplacée par une ligne **LineTo** où la valeur de la cellule **X** est la formule « Width 0 » et la cellule ***Y*** la formule « Height 0.5 ». 
+Les valeurs de **la ligne RelLineTo** sont équivalentes aux valeurs d’une ligne [LineTo](lineto-row-geometry-section.md) multipliées par la largeur et la hauteur de la forme. Par exemple , une ligne **RelLineTo** où la valeur de la cellule **X** est « 0 » et la valeur de la cellule **Y** est « 0,5 » peut être remplacée par la ligne **LineTo** où la valeur de la cellule **X** est la formule « Width 0 » et la cellule ***Y*** la formule « Height 0.5 ». 
   
 

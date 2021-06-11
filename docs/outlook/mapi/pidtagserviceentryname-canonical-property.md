@@ -38,7 +38,7 @@ Contient le nom de la fonction de point d’entrée pour la configuration d’un
 
 Il est recommandé que les implémenteurs de service de message fournissent un point d’entrée de service de message, mais le point d’entrée n’est pas obligatoire. Toutefois, le point d’entrée doit être fourni uniquement si les propriétés de configuration associées existent. Si ces propriétés n’existent pas, MAPI suppose qu’aucun point d’entrée n’est fourni.
   
-La bibliothèque de liens dynamiques (DLL) dans laquelle la fonction de point d’entrée apparaît est nommée par la propriété **PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)).
+La bibliothèque de liens dynamiques (DLL) dans laquelle la fonction de point d’entrée apparaît est nommée par la **propriété PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md)).
   
 Pour plus d’informations sur les points d’entrée de service de message, voir [Implementing a Service Provider Entry Point Function](implementing-a-service-provider-entry-point-function.md).
   

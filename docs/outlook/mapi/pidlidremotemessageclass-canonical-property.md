@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidRemoteMessageClass
+title: Propri t canonique PidLidRemoteMessageClass
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434157"
 ---
-# <a name="pidlidremotemessageclass-canonical-property"></a>Propriété canonique PidLidRemoteMessageClass
+# <a name="pidlidremotemessageclass-canonical-property"></a>Propri t canonique PidLidRemoteMessageClass
 
   
   

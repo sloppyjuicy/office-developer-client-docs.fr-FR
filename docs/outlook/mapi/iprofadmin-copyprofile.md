@@ -37,7 +37,7 @@ HRESULTCopyProfile(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpszOldProfileName_
   
@@ -75,7 +75,7 @@ MAPI_E_ACCESS_DENIED
     
 MAPI_E_LOGON_FAILED 
   
-> Le mot de passe du profil à copier est incorrect et une boîte de dialogue n’a pas pu être affichée pour demander le mot de passe correct, car MAPI_DIALOG n’a pas été définie dans le paramètre _ulFlags._ 
+> Le mot de passe du profil à copier est incorrect et l’utilisateur n’a pas pu afficher de boîte de dialogue pour demander le mot de passe correct, car MAPI_DIALOG n’a pas été définie dans le paramètre _ulFlags._ 
     
 MAPI_E_NOT_FOUND 
   

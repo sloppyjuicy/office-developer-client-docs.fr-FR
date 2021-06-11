@@ -27,11 +27,11 @@ Un fournisseur étranger est un fournisseur de carnet d’adresses qui :
     
 - Fournit du code pour la maintenance des destinataires qui existent dans les conteneurs d’autres fournisseurs de carnets d’adresses appelés fournisseurs d’hôtes. Ce code implique un objet de propriété, généralement une implémentation d’interface **IMAPIProp,** qui encapsule un objet de propriété à partir du fournisseur hôte. 
     
-Agir en tant que fournisseur étranger est un rôle facultatif . Tous les fournisseurs n’ont pas besoin de prendre en charge les identificateurs de modèle et leur code associé. Implémentez votre fournisseur en tant que fournisseur étranger si vous souhaitez conserver le contrôle sur les destinataires créés par les fournisseurs hôtes à l’aide de modèles fournis par votre fournisseur. 
+Agir en tant que fournisseur étranger est un rôle facultatif . Tous les fournisseurs n’ont pas besoin de prendre en charge les identificateurs de modèle et leur code associé. Implémentez votre fournisseur en tant que fournisseur étranger si vous souhaitez conserver le contrôle sur les destinataires créés par les fournisseurs d’hôtes à l’aide de modèles fournis par votre fournisseur. 
   
 Le format que votre fournisseur utilise pour ses identificateurs d’entrée peut également être utilisé pour ses identificateurs de modèle. Les identificateurs de modèle doivent inclure le **MAPIUID** enregistré de votre fournisseur pour permettre à MAPI de lier correctement les destinataires aux fournisseurs appropriés. 
   
-MAPI appelle la méthode **IABLogon::OpenTemplateID** de votre fournisseur lorsqu’un fournisseur d’hôte appelle [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). Le fournisseur hôte transmet l’identificateur de modèle du destinataire dans le paramètre  _lpTemplateID_ dans son appel à **IMAPISupport::OpenTemplateID**. MAPI détermine que l’identificateur de modèle appartient à votre fournisseur en faisant correspondre le [MAPIUID](mapiuid.md) dans l’identificateur de modèle avec le **MAPIUID** enregistré par votre fournisseur au moment de l’inscription. MAPI a ensuite transmis l’appel du fournisseur hôte à votre fournisseur via la méthode **IABLogon::OpenTemplateID.** 
+MAPI appelle la méthode **IABLogon::OpenTemplateID** de votre fournisseur lorsqu’un fournisseur d’hôte appelle [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md). Le fournisseur hôte transmet l’identificateur de modèle du destinataire dans le paramètre  _lpTemplateID_ dans son appel à **IMAPISupport::OpenTemplateID**. MAPI détermine que l’identificateur de modèle appartient à votre fournisseur en faisant correspondre le [MAPIUID](mapiuid.md) dans l’identificateur de modèle avec le **MAPIUID** que votre fournisseur a enregistré au moment de l’inscription. MAPI a ensuite transmis l’appel du fournisseur hôte à votre fournisseur via la méthode **IABLogon::OpenTemplateID.** 
   
 Le fournisseur hôte passe également un pointeur vers son implémentation d’objet de propriété pour le destinataire dans le paramètre  _lpMAPIPropData,_ un identificateur d’interface dans le paramètre  _lpInterface_ qui correspond au type d’implémentation d’interface transmis dans  _lpMAPIPropData_ et un indicateur facultatif, FILL_ENTRY. Votre fournisseur est censé renvoyer dans le paramètre  _lppMAPIPropNew_ un pointeur vers une implémentation d’objet de propriété du type spécifié dans  _lpInterface_. Le pointeur renvoyé peut être soit vers l’objet de propriété wrapped implémenté par votre fournisseur, soit vers l’objet fourni par le fournisseur hôte dans  _lpMAPIPropData_. Votre fournisseur doit renvoyer un pointeur d’objet de propriété wrapped lorsque :
   
@@ -41,7 +41,7 @@ Le fournisseur hôte passe également un pointeur vers son implémentation d’o
     
 - Les problèmes de votre fournisseur affichent les notifications du tableau.
     
-L FILL_ENTRY indique à votre fournisseur que le fournisseur hôte requiert la mise à jour de toutes les propriétés du destinataire. Votre fournisseur est tenu de répondre à cette demande.
+L FILL_ENTRY indique à votre fournisseur que le fournisseur d’hôte requiert la mise à jour de toutes les propriétés du destinataire. Votre fournisseur est tenu de répondre à cette demande.
   
 Lorsqu’un fournisseur d’hôte appelle la méthode **OpenTemplateID** de votre fournisseur, votre fournisseur peut : 
   
@@ -57,7 +57,7 @@ Les deux premiers éléments sont des exemples de tâches qui n’exigent pas qu
   
 Les deux deuxièmes tâches nécessitent que votre fournisseur retourne au fournisseur hôte un objet de propriété qui encapsule l’objet du fournisseur hôte avec des fonctionnalités supplémentaires, telles que la possibilité d’afficher une feuille de propriétés pour l’entrée. Cet objet de propriété sera un utilisateur de messagerie ou une liste de distribution, selon le type d’objet transmis par le fournisseur hôte dans le paramètre _lpMAPIPropData_ et indiqué par l’identificateur d’interface dans le paramètre _lpInterface._ Si le _paramètre lpMAPIPropData_ pointe vers un utilisateur de messagerie, l’objet de propriété wrapped de votre fournisseur doit être une implémentation **IMailUser.** Si _lpMAPIPropData_ pointe vers une liste de distribution, il doit s’agit d’une **implémentation IDistList.** 
   
-L’objet de propriété wrapped de votre fournisseur intercepte les appels de méthode **IMAPIProp** pour effectuer une manipulation spécifique du contexte du destinataire du fournisseur hôte (l’objet qu’il enveloppe). MAPI n’a qu’une seule exigence pour les objets de propriété wrapped : tous les appels à [IMAPIProp::OpenProperty](imapiprop-openproperty.md) demandant la propriété **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) doivent être transmis au fournisseur d’hôte. L’implémentation de votre fournisseur peut utiliser le tableau renvoyé pour intercepter les notifications de la table d’affichage ou pour ajouter la vôtre si nécessaire. 
+L’objet de propriété wrapped de votre fournisseur intercepte les appels de méthode **IMAPIProp** pour effectuer une manipulation spécifique du contexte du destinataire du fournisseur hôte (l’objet qu’il enveloppe). MAPI n’a qu’une seule condition requise pour les objets de propriété wrapped : tous les appels à [IMAPIProp::OpenProperty](imapiprop-openproperty.md) demandant la propriété **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) doivent être transmis au fournisseur d’hôte. L’implémentation de votre fournisseur peut utiliser le tableau renvoyé pour intercepter les notifications de la table d’affichage ou pour ajouter la vôtre si nécessaire. 
   
 La liste suivante inclut les tâches qui sont généralement implémentées dans l’objet de propriété wrapped implémenté par des fournisseurs étrangers :
   
@@ -67,7 +67,7 @@ La liste suivante inclut les tâches qui sont généralement implémentées dans
     
 - Validation ou manipulation des valeurs de propriété pour le destinataire hôte dans [IMAPIProp::SetProps](imapiprop-setprops.md).
     
-- Calcul des propriétés requises telles que **PR_EMAIL_ADDRESS** et vérification que toutes les propriétés nécessaires ont été définies avant l’enregistrement du destinataire hôte dans [IMAPIProp::SaveChanges](imapiprop-savechanges.md).
+- Calcul des propriétés requises telles que **PR_EMAIL_ADDRESS** et vérification que toutes les propriétés nécessaires ont été définies avant d’enregistrer le destinataire hôte dans [IMAPIProp::SaveChanges](imapiprop-savechanges.md).
     
 ### <a name="to-implement-iablogonopentemplateid"></a>Pour implémenter IABLogon::OpenTemplateID
   
@@ -95,6 +95,6 @@ La liste suivante inclut les tâches qui sont généralement implémentées dans
     
 5. Définissez le contenu du paramètre  _lppMAPIPropNew_ de façon à pointer vers le nouvel objet de votre fournisseur ou l’objet de propriété transmis avec le paramètre  _lpMAPIPropData,_ selon que votre fournisseur détermine si un objet wrapped est nécessaire. 
     
-6. Si une erreur critique se produit, telle qu’une défaillance réseau ou une condition de mémoire insérable, renvoyez la valeur d’erreur appropriée. Cette valeur doit être propagée au client avec la structure [MAPIERROR](mapierror.md) appropriée, une tâche effectuée par le fournisseur hôte. 
+6. Si une erreur critique se produit, telle qu’une défaillance réseau ou une condition de mémoire insérable, renvoyez la valeur d’erreur appropriée. Cette valeur doit être propagée au client avec la structure [MAPIERROR](mapierror.md) appropriée, une tâche effectuée par le fournisseur d’hôtes. 
     
 

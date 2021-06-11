@@ -37,7 +37,7 @@ HRESULT GetReceiveFolder(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpszMessageClass_
   
@@ -77,7 +77,7 @@ La **méthode IMsgStore::GetReceiveFolder** obtient l’identificateur d’entr�
     
 - Dans _lppEntryID_, l’identificateur d’entrée du dossier de réception pour la classe de base pointée par le paramètre _lppszExplicitClass._ 
     
-Par exemple, supposons que le dossier de réception de la classe de message **IPM. Note** has been set to the entry identifier of the Inbox and **GetReceiveFolder** is called with the contents of  _lpszMessageClass_ set to **IPM. Note.Phone**. Si **IPM. Note.Phone** does not have an explicit receive folder set, **GetReceiveFolder** returns the entry identifier of the Inbox in  _lppEntryID_ and **IPM. Remarque** dans  _lppszExplicitClass_.
+Par exemple, supposons que le dossier de réception de la classe de message **IPM. Note** has been set to the entry identifier of the Inbox and **GetReceiveFolder** is called with the contents of _lpszMessageClass_ set to **IPM. Remarque. Téléphone**. Si **IPM. Remarque. Téléphone** n’a pas de dossier de réception explicite, **GetReceiveFolder** renvoie l’identificateur d’entrée de la boîte de réception dans _lppEntryID_ et **IPM. Remarque** dans _lppszExplicitClass_.
   
 Si le client appelle **GetReceiveFolder** pour une classe de message et n’a pas de dossier de réception pour cette classe de message, _lppszExplicitClass_ est une chaîne de longueur nulle, une chaîne au format Unicode ou une chaîne au format ANSI, selon que le client a ou non paramétré l’indicateur MAPI_UNICODE dans le paramètre _ulFlags._ 
   

@@ -28,11 +28,11 @@ Permet au processeur d’effectuer d’autres tâches dans le système et de vé
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pxRetain_ (**xltypeBool**)
   
-(Facultatif). Si elle a la forme **FALSE,** cette fonction vérifie la condition de rupture et permet d’effacer les coupures en attente. Cela permet à l’utilisateur de continuer malgré la condition d’coupure. Si cet argument est omis ou a la valeur **TRUE,** la fonction vérifie si un utilisateur abandonne sans l’effacer.
+(Facultatif). Si **elle est FALSE,** cette fonction vérifie la condition de rupture et permet d’effacer les coupures en attente. Cela permet à l’utilisateur de continuer malgré la condition d’coupure. Si cet argument est omis ou a la valeur **TRUE,** la fonction vérifie si un utilisateur abandonne sans l’effacer.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
@@ -52,7 +52,7 @@ Les fonctions et commandes qui peuvent prendre beaucoup de temps doivent appeler
   
 ## <a name="example"></a>Exemple
 
-Le code suivant déplace à plusieurs reprises la cellule active d’une feuille jusqu’à ce qu’une minute soit écoulée ou jusqu’à ce que l’utilisateur appuie sur **ÉCHAP.** Il appelle parfois la fonction **xlAbort.** Cela produit le processeur, ce qui facilite la multitâche multinationale. 
+Le code suivant déplace à plusieurs reprises la cellule active d’une feuille jusqu’à ce qu’une minute soit écoulée ou jusqu’à ce que l’utilisateur appuie sur **ÉCHAP.** Il appelle parfois la fonction **xlAbort.** Cela produit le processeur, ce qui facilite le multitâche coopérative. 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   

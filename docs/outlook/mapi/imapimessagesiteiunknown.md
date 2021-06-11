@@ -41,7 +41,7 @@ Manipule les messages et est implémenté par le code de la visionneuse de formu
 |||
 |:-----|:-----|
 |[GetSession](imapimessagesite-getsession.md) <br/> |Renvoie la session MAPI dans laquelle le message actuel a été créé ou ouvert.  <br/> |
-|[GetStore](imapimessagesite-getstore.md) <br/> |Renvoie la boutique de messages qui contient le message actuel, si une telle magasin existe.  <br/> |
+|[GetStore](imapimessagesite-getstore.md) <br/> |Renvoie la magasine de messages qui contient le message actuel, si tel est le cas.  <br/> |
 |[GetFolder](imapimessagesite-getfolder.md) <br/> |Renvoie le dossier dans lequel le message actuel a été créé ou ouvert, s’il existe un tel dossier.  <br/> |
 |[GetMessage](imapimessagesite-getmessage.md) <br/> |Renvoie le message actuel.  <br/> |
 |[GetFormManager](imapimessagesite-getformmanager.md) <br/> |Renvoie une interface de gestionnaire de formulaires, qu’un serveur de formulaires peut utiliser pour ouvrir un autre serveur de formulaires.  <br/> |

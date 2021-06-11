@@ -43,7 +43,7 @@ Permet aux visionneuses de formulaires de fonctionner avec des contextes d’aff
 |[SetViewContext](imapiform-setviewcontext.md) <br/> |Établit un contexte d’affichage pour le formulaire.  <br/> |
 |[GetViewContext](imapiform-getviewcontext.md) <br/> |Renvoie le contexte d’affichage actuel du formulaire.  <br/> |
 |[ShutdownForm](imapiform-shutdownform.md) <br/> |Ferme le formulaire.  <br/> |
-|[DoVerb](imapiform-doverb.md) <br/> |Demande au formulaire d’effectuer toutes les tâches qu’il associe à un verbe spécifique.  <br/> |
+|[DoVerb](imapiform-doverb.md) <br/> |Demande au formulaire d’effectuer les tâches qu’il associe à un verbe spécifique.  <br/> |
 |[Conseiller](imapiform-advise.md) <br/> |Inscrit une visionneuse de formulaires pour les notifications sur les événements qui affectent le formulaire.  <br/> |
 |[Unadvise](imapiform-unadvise.md) <br/> |Annule une inscription pour les notifications auprès d’une visionneuse de formulaires précédemment établie en appelant **Advise**.  <br/> |
 |[GetLastError](imapiform-getlasterror.md) <br/> |Renvoie une structure [MAPIERROR](mapierror.md) qui contient des informations sur l’erreur précédente qui s’est produite sur l’objet de formulaire.  <br/> |

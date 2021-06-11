@@ -25,7 +25,7 @@ ms.locfileid: "33434332"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie l’état et le type du tableau.
+Renvoie l’état et le type de la table.
   
 ```cpp
 HRESULT GetStatus(
@@ -34,7 +34,7 @@ ULONG FAR * lpulTableType
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulTableStatus_
   
@@ -46,11 +46,11 @@ TBLSTAT_COMPLETE
     
 TBLSTAT_QCHANGED 
   
-> Le contenu de la table a changé. Cette valeur d’état n’est pas renvoyée pour les modifications résultant d’opérations de tri ou de restriction.
+> Le contenu de la table a été modifié. Cette valeur d’état n’est pas renvoyée pour les modifications résultant d’opérations de tri ou de restriction.
     
 TBLSTAT_RESTRICT_ERROR 
   
-> Une erreur s’est produite lors [d’une opération IMAPITable::Restrict.](imapitable-restrict.md) 
+> Une erreur s’est produite [lors d’une opération IMAPITable::Restrict.](imapitable-restrict.md) 
     
 TBLSTAT_RESTRICTING 
   

@@ -21,7 +21,7 @@ ms.locfileid: "33436432"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Compare deux entrées de carnet **d’adresses** en toute sécurité dans un profil Exchange multiple. Cette fonction est une fonction de remplacement [pour IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).
+Compare deux entrées de carnet **d’adresses** en toute sécurité dans un profil Exchange multiples. Cette fonction est une fonction de remplacement [pour IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).
   
 |||
 |:-----|:-----|
@@ -43,7 +43,7 @@ HRESULT HrCompareABEntryIDsWithExchangeContext(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pmsess_
   
@@ -51,7 +51,7 @@ HRESULT HrCompareABEntryIDsWithExchangeContext(
     
  _pEmsmdbUID_
   
-> [in] Pointeur vers **un emsmdbUID** qui identifie le service Exchange qui contient le fournisseur de carnet d’adresses Exchange que cette fonction doit utiliser pour afficher des détails sur l’identificateur d’entrée. Si l’identificateur d’entrée entrante n’est pas un identificateur d’entrée du fournisseur de carnet d’adresses Exchange, ce paramètre est ignoré et l’appel de fonction se comporte comme [IAddrBook::D etails](iaddrbook-details.md). Si ce paramètre est NULL ou un MAPIUID zéro, cette fonction se comporte comme [IAddrBook::D etails](iaddrbook-details.md).
+> [in] Pointeur vers **un élément emsmdbUID** qui identifie le service Exchange qui contient le fournisseur de carnet d’adresses Exchange que cette fonction doit utiliser pour afficher des détails sur l’identificateur d’entrée. Si l’identificateur d’entrée entrante n’est pas un identificateur d’entrée du fournisseur de carnet d’adresses Exchange, ce paramètre est ignoré et l’appel de fonction se comporte comme [IAddrBook::D etails](iaddrbook-details.md). Si ce paramètre est NULL ou un MAPIUID zéro, cette fonction se comporte comme [IAddrBook::D etails](iaddrbook-details.md).
     
  _pAddrBook_
   

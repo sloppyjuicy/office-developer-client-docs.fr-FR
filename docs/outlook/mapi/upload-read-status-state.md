@@ -1,5 +1,5 @@
 ---
-title: Télécharger l’état de lecture
+title: Télécharger État de lecture
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431539"
 ---
-# <a name="upload-read-status-state"></a>Télécharger l’état de lecture
+# <a name="upload-read-status-state"></a>Télécharger État de lecture
 
   
   
@@ -27,17 +27,17 @@ ms.locfileid: "33431539"
 |:-----|:-----|
 |Identificateur d’état :  <br/> |**LR_SYNC_UPLOAD_MESSAGE_READ** <br/> |
 |Structure de données associée :  <br/> |**[UPREAD](upread.md)** <br/> |
-|À partir de cet état :  <br/> |[Télécharger l’état de la table](upload-table-state.md) <br/> |
-|À cet état :  <br/> |Télécharger l’état de la table  <br/> |
+|À partir de cet état :  <br/> |[Télécharger table](upload-table-state.md) <br/> |
+|À cet état :  <br/> |Télécharger table  <br/> |
    
 > [!NOTE]
 > La machine à états de réplication est une machine à états déterministe. Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second. 
   
 ## <a name="description"></a>Description
 
-Cet état initie le téléchargement de l’état de lecture des éléments dans un dossier spécifié dans un état de table de chargement précédent. Pendant cet état, Outlook initialise la structure de données **UPREAD** associée avec les informations pour les éléments du dossier dont l’état de lecture a changé. Le client met ensuite à jour l’état de lecture de ces éléments sur le serveur comme étant lu ou non lu. 
+Cet état initie le téléchargement de l’état de lecture des éléments dans un dossier spécifié dans un état de table de chargement précédent. Au cours de cet état, Outlook initialise la structure de données **UPREAD** associée avec les informations pour les éléments du dossier dont l’état de lecture a changé. Le client met ensuite à jour l’état de lecture de ces éléments sur le serveur comme étant lu ou non lu. 
   
-Lorsque cet état se termine, Outlook clears the internal information about the item’s read status, preventing the item’s read status from being uploaded again. La boutique locale revient à l’état de la table de chargement.
+Lorsque cet état se termine, Outlook les informations internes sur l’état de lecture de l’élément, ce qui empêche le téléchargement de l’état de lecture de l’élément à nouveau. La boutique locale revient à l’état de la table de chargement.
   
 ## <a name="see-also"></a>Voir aussi
 

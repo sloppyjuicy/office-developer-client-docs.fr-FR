@@ -36,7 +36,8 @@ PLAYSOUND( » ** *filename* ** « | » ** *alias* ** « , ** *isAlias* **, *
    
 ## <a name="remarks"></a>Remarques
 
-Vous devez généralement lire les sons de manière asynchrone pour que Visio puisse poursuivre le traitement pendant la lecture du son. Pour enchaîner plusieurs sons ensemble, lisez-les de manière synchrone afin d’éviter les échecs de lecture. 
+Vous devez généralement lire les sons de manière asynchrone pour que Visio puisse poursuivre le traitement pendant la lecture du son. Pour enchaîner plusieurs sons ensemble, lisez-les de manière synchrone afin d’éviter les échecs de lecture.
+ 
   
 ## <a name="example-1"></a>Exemple 1
 

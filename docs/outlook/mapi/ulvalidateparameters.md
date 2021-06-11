@@ -62,6 +62,6 @@ MAPI_E_CALL_FAILED
     
 ## <a name="remarks"></a>Remarques
 
-La macro **UlValidateParameters** a été reprise par la macro [UlValidateParms.](ulvalidateparms.md) **UlValidateParameters ne** fonctionne pas correctement sur les plateformes RISC et n’est plus en mesure de les compiler. Il est toujours compilé et fonctionne correctement sur les plateformes Intel, mais **UlValidateParms** est recommandé sur toutes les plateformes. 
+La macro **UlValidateParameters** a été recalée par la macro [UlValidateParms.](ulvalidateparms.md) **UlValidateParameters** ne fonctionne pas correctement sur les plateformes RISC et n’est plus en mesure de les compiler. Il est toujours compilé et fonctionne correctement sur les plateformes Intel, mais **UlValidateParms** est recommandé sur toutes les plateformes. 
   
 

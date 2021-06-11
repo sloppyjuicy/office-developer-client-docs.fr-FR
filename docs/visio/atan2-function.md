@@ -35,7 +35,7 @@ ATAN2(** *y* **, ** *x* ** )
 
 L’arcange est l’angle mesuré dans le sens inverse des aiguilles d’une montre, de l’axe  *des x*  positifs à une ligne qui coupe l’origine (0,0) et le point représenté par  *x*  et  *y*  . Dans Microsoft Visio, ATAN2(0,0) renvoie 0. Pour exprimer le résultat de la fonction ATAN2 dans une unité de mesure d’angle différente, utilisez les fonctions DEG ou RAD. 
   
-La fonction ATAN2 est la fonction antifonction de la fonction TAN. La fonction ATAN2 renvoie l’angle dont l’angle est égal à  *y*  divisé par  *x*  . Si ATAN2(*y,x*) représente un angle dans un triangle droit,  *y*  est le « côté opposé » et  *x*  le « côté adjacent », de sorte que la fonction peut être écrite en tant que ATAN2(opposé,adjacent). 
+La fonction ATAN2 est l’antifonction de la fonction TAN. La fonction ATAN2 renvoie l’angle dont l’angle est égal à  *y*  divisé par  *x*  . Si ATAN2(*y,x*) représente un angle dans un triangle droit,  *y*  est le « côté opposé » et  *x*  le « côté adjacent », afin que la fonction puisse être écrite en tant que ATAN2(opposé,adjacent). 
   
 ## <a name="example-1"></a>Exemple 1
 

@@ -39,7 +39,7 @@ HRESULT CopyMsgService(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpUID_
   
@@ -51,7 +51,7 @@ HRESULT CopyMsgService(
     
  _lpInterfaceToCopy_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil du service de message à copier. Transmission de résultats NULL dans l’interface de section de profil standard, [IProfSect](iprofsectimapiprop.md), utilisé.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil du service de message à copier. Transmission de résultats NULL dans l’interface de section de profil standard, [IProfSect](iprofsectimapiprop.md), en cours d’utilisation.
     
  _lpInterfaceDst_
   
@@ -89,9 +89,9 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgServiceAdmin::CopyMsgService** copie un service de message dans un profil, le profil actif ou un autre profil. Le profil qui contient le service de message à copier et la destination ne doivent pas être du même profil, mais ils peuvent l’être. 
+La **méthode IMsgServiceAdmin::CopyMsgService** copie un service de message dans un profil, le profil actif ou un autre profil. Le profil qui contient le service de message à copier et la destination n’ont pas besoin d’être identiques, mais ils peuvent l’être. 
   
-La fonction de point d’entrée du service de message n’est pas appelée pour une opération de copie. Le service de message copié a les mêmes paramètres de configuration que son original. Pour modifier ces paramètres, un client doit appeler la méthode [IMsgServiceAdmin::ConfigureMsgService.](imsgserviceadmin-configuremsgservice.md) 
+La fonction de point d’entrée du service de message n’est pas appelée pour une opération de copie. Le service de message copié possède les mêmes paramètres de configuration que son original. Pour modifier ces paramètres, un client doit appeler la méthode [IMsgServiceAdmin::ConfigureMsgService.](imsgserviceadmin-configuremsgservice.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

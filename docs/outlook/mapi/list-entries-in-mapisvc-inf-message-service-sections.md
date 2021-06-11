@@ -53,7 +53,7 @@ PR_RESOURCE_FLAGS=SERVICE_SINGLE_COPY
 
 ```
 
-**L’entrée Sections** de la section **[MsgService]** répertorie deux sections supplémentaires, l’une appelée **[First_Special_Section]** et l’autre appelée **[Second_Special_Section]**. Les données qui peuvent apparaître dans des sections supplémentaires sont significatives pour le service de message spécifique. Ces sections s’affichent ci-dessous pour illustrer des sections supplémentaires. 
+**L’entrée Sections** de la section **[MsgService]** répertorie deux sections supplémentaires, l’une appelée **[First_Special_Section]** et l’autre appelée **[Second_Special_Section].** Les données qui peuvent apparaître dans des sections supplémentaires sont significatives pour le service de message spécifique. Ces sections s’affichent ci-dessous pour illustrer des sections supplémentaires. 
   
 ```cpp
 [First_Special_Section]

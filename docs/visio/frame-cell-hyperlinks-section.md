@@ -26,7 +26,7 @@ Pour obtenir une référence à la cellule Frame par un nom à partir d'une autr
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Lien hypertexte.  *nom*  . Cadre où Lien hypertexte.  *nom est*  le nom de ligne  <br/> |
+| Nom de la cellule :  <br/> | Lien hypertexte.  *nom*  . Cadre où lien hypertexte.  *nom est*  le nom de ligne  <br/> |
    
 Pour obtenir une référence à la cellule Frame à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

@@ -16,12 +16,12 @@ ms.locfileid: "33433100"
 ---
 # <a name="pagelockreplace-cell-page-properties-section"></a>PageLockReplace Cell (Page Properties Section)
 
-Indique si le **bouton Remplacer la** forme doit être désactivé pour cette page. 
+Indique si le bouton **Remplacer la** forme doit être désactivé pour cette page. 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Le **bouton Modifier la** forme est grisé lorsque cette page est active.  <br/> |
-|FALSE  <br/> |Le **bouton Modifier la** forme n’est pas désactivé par cette page. Le bouton peut toujours être grisé si : le **DocLockReplace** de la feuille de **document** est définie sur **TRUE**; la **cellule LockReplace** de la forme sélectionnée est définie sur **TRUE**.  <br/> |
+|FALSE  <br/> |Le **bouton Modifier la** forme n’est pas désactivé par cette page. Le bouton peut encore être grisé si : le **DocLockReplace** de la feuille de **document** est définie sur **TRUE**; la **cellule LockReplace** de la forme sélectionnée est définie sur **TRUE**.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -35,7 +35,7 @@ Le tableau suivant décrit comment ces propriétés affectent ce que vous faites
   
 |||
 |:-----|:-----|
-|Si aucune des propriétés n’est définie :  <br/> |Laissez le message dans le dossier à partir duquel il a été envoyé (généralement la boîte d’envoi).  <br/> |
+|Si aucune des deux propriétés n’est définie :  <br/> |Laissez le message dans le dossier à partir duquel il a été envoyé (généralement la boîte d’envoi).  <br/> |
 |Si **PR_SENTMAIL_ENTRYID** est définie :  <br/> |Déplacez le message vers le dossier indiqué.  <br/> |
 |Si **PR_DELETE_AFTER_SUBMIT** est définie :  <br/> |Supprimez le message.  <br/> |
    

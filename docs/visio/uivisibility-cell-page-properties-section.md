@@ -23,11 +23,11 @@ Détermine si le nom de la page est exposé dans l'interface utilisateur (IU).
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Affiche le nom de la page dans l'IU (par défaut).  <br/> |**visUIVNormal** <br/> |
-|1   <br/> |N'affiche pas le nom de la page dans l'IU.  <br/> |**visUIVHidden** <br/> |
+|1  <br/> |N'affiche pas le nom de la page dans l'IU.  <br/> |**visUIVHidden** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Définir la cellule UIVisibility sur **visUIVHidden** empêche la page d’apparaître n’importe où dans l’interface utilisateur où la chaîne contenant le nom de la page apparaît. Par exemple, la page ne serait pas présentée comme option dans l’**Explorateur de dessin** ou dans les onglets de page. La page reste toutefois accessible si vous utilisez Automation ou des chemins d’accès d’interface utilisateur qui n’incluent pas le nom de la page, par exemple, la **commande Imprimer.** 
+Définir la cellule UIVisibility sur **visUIVHidden** empêche la page d’apparaître n’importe où dans l’interface utilisateur où la chaîne contenant le nom de la page apparaît. Par exemple, la page ne serait pas présentée comme option dans l’**Explorateur de dessin** ou dans les onglets de page. La page reste toutefois accessible si vous utilisez automation ou des chemins d’accès d’interface utilisateur qui n’incluent pas le nom de la page, par exemple, la commande **Imprimer.** 
   
  Cette cellule est destinée à être utilisée uniquement avec des pages de document  elle n'est pas destinée à être utilisée avec des pages de superposition de marque de révision, dont la cellule UIVisibility est définie par défaut sur **visUIVHidden** et ne doit pas être modifiée. 
   

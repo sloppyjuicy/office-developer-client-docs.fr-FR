@@ -21,7 +21,7 @@ ms.locfileid: "33435102"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le principal défi lors de l’envoi de messages au format RTF (Rich Text Format) est de conserver le texte synchronisé avec la mise en forme. Pour s’assurer que lorsque les messages arrivent à destination, ils sont comme prévu par leurs créateurs et que le texte et la mise en forme sont synchronisés, MAPI fournit la [fonction RTFSync.](rtfsync.md) **RtFSync** est généralement appelé par les clients rtF avant d’afficher les messages entrants et par lepooler MAPI lorsqu’il télécharge les messages vers un fournisseur de transport. Les appelants spécifient la zone de incohérence possible en passant un ou deux indicateurs à **RTFSync**:
+Le principal défi lors de l’envoi de messages au format RTF (Rich Text Format) est de maintenir le texte synchronisé avec la mise en forme. Pour s’assurer que lorsque les messages arrivent à destination, ils sont comme prévu par leurs créateurs et que le texte et la mise en forme sont synchronisés, MAPI fournit la [fonction RTFSync.](rtfsync.md) **RtFSync** est généralement appelé par les clients rtF avant d’afficher les messages entrants et par lepooler MAPI lorsqu’il télécharge les messages vers un fournisseur de transport. Les appelants spécifient la zone de incohérence possible en passant un ou deux indicateurs à **RTFSync**:
   
 - RTF_SYNC_BODY_CHANGED pour indiquer une modification dans le texte du message.
     

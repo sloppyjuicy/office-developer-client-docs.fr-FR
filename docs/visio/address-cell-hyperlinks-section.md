@@ -20,7 +20,7 @@ ms.locfileid: "33438035"
 
 Indique une adresse d’URL, un nom de fichier ou un chemin d’accès UNC auxquels accéder.
   
-Vous pouvez spécifier l’adresse comme chemin d’accès relatif basé sur  le chemin d’accès de base  défini pour le document dans la zone de **base Lien hypertexte** sous l’onglet Résumé de la boîte de dialogue Propriétés (cliquez sur l’onglet Fichier, cliquez sur **Info,** sur ** Propriétés **, puis sur **Propriétés** avancées).  Si le document n’a pas de chemin de base, l’application utilise le chemin d’accès du document. Si le document n’a pas encore été enregistré, le lien hypertexte n’est pas défini.
+Vous pouvez spécifier l’adresse comme chemin d’accès relatif basé sur  le chemin d’accès de base  défini pour le document dans la zone de **base Lien hypertexte** de l’onglet Résumé de la boîte de dialogue Propriétés (cliquez sur l’onglet Fichier, cliquez sur **Info,** sur ** Propriétés **, puis sur **Propriétés** avancées).  Si le document n’a pas de chemin de base, l’application utilise le chemin d’accès du document. Si le document n’a pas encore été enregistré, le lien hypertexte n’est pas défini.
   
 ## <a name="remarks"></a>Remarques
 
@@ -30,7 +30,7 @@ Pour obtenir une référence à la cellule Address à l’aide d’un index à p
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Lien hypertexte. *nom*  . Adresse où Hyperlink. *nom*  est le nom de la ligne de lien hypertexte  <br/> |
+|Nom de cellule :  <br/> |Lien hypertexte. *nom*  . Adresse où Lien hypertexte. *nom*  est le nom de la ligne de lien hypertexte  <br/> |
    
 Pour obtenir une référence à la cellule Address par un nom à partir d’une autre formule ou d’un programme, à l’aide de la propriété **CellsU,** utilisez : 
   

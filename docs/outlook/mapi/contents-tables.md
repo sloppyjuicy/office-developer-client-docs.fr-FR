@@ -41,9 +41,9 @@ Une table des matières est accessible en appelant :
     
 Les fournisseurs de magasins de messages et de carnets d’adresses doivent prendre en charge les deux techniques d’extraction des propriétés de table. Il est inacceptable pour les fournisseurs de prendre en charge une seule façon d’accéder à ces tables, car les clients s’attendent à avoir le choix. 
   
- **GetContentsTable** accepte comme entrée plusieurs indicateurs qui spécifient des préférences. Lorsqu’il est MAPI_ASSOCIATED, l’indicateur récupère une table des matières associée. Étant donné que certains dossiers ne peuvent pas prendre en charge le contenu associé et qu’il n’existe aucun moyen pour les clients de le déterminer à l’avance, **GetContentsTable** renvoie parfois le MAPI_E_NO_SUPPORT d’erreur lorsqu’une table des matières associée est demandée. 
+ **GetContentsTable** accepte comme entrée plusieurs indicateurs qui spécifient des préférences. Lorsqu’il est MAPI_ASSOCIATED, l’indicateur récupère une table des matières associée. Étant donné que certains dossiers ne peuvent pas prendre en charge le contenu associé et qu’il n’existe aucun moyen pour les clients de le déterminer à l’avance, **GetContentsTable** renvoie parfois la MAPI_E_NO_SUPPORT d’erreur lorsqu’une table des matières associée est demandée. 
   
-L MAPI_DEFERRED_ERRORS indique à l’implémenteur de la table que les erreurs rencontrées au cours de l’appel n’ont pas besoin d’être signalées avant un certain temps. 
+L MAPI_DEFERRED_ERRORS indique à l’implémenteur de la table que les erreurs rencontrées pendant l’appel n’ont pas besoin d’être signalées avant un certain temps. 
   
 L’appel à **IMAPIProp::OpenProperty** implique d’accéder à une table des matières en ouvrant sa propriété correspondante, **des PR_CONTAINER_CONTENTS** pour les tables de contenu du carnet d’adresses et des tables de contenu de dossier standard et **des PR_FOLDER_ASSOCIATED_CONTENTS** pour les tables de contenu associées. Bien qu’aucune de ces propriétés ne puisse être récupérée par le biais de la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) d’un dossier ou d’un conteneur, elles sont incluses dans le tableau de balises de propriétés renvoyé par la méthode [IMAPIProp::GetPropList.](imapiprop-getproplist.md) 
   
@@ -72,12 +72,12 @@ Les colonnes requises pour chacun des types de tables des matières sont les sui
 |**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md))  <br/> |Toutes les tables de contenu de dossier  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Toutes les tables des matières  <br/> |
 |**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))  <br/> |Tables des dossiers de la boutique de messages  <br/> |
-|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Tables de dossiers de conteneur de carnet d’adresses et de magasin de messages  <br/> |
+|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Tables des dossiers de conteneur de carnet d’adresses et de magasin de messages  <br/> |
 |**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |Tables des dossiers de transport à distance  <br/> |
 |**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Tables des dossiers de la boutique de messages  <br/> |
 |**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Tables des dossiers de la boutique de messages  <br/> |
    
-L’identificateur d’entrée disponible avec chaque ligne peut être un identificateur d’entrée à court ou long terme, en fonction de l’implémentation du tableau. Les identificateurs d’entrée à court terme sont généralement utilisés dans les situations où les performances sont un problème. Les deux types d’identificateur d’entrée peuvent être utilisés pour accéder à l’objet correspondant. 
+L’identificateur d’entrée disponible avec chaque ligne peut être un identificateur d’entrée à court ou long terme, en fonction de l’implémentation de la table. Les identificateurs d’entrée à court terme sont généralement utilisés dans les situations où les performances sont un problème. Les deux types d’identificateur d’entrée peuvent être utilisés pour accéder à l’objet correspondant. 
   
 Les tables de contenu ont également un ensemble de colonnes facultatives, mais couramment incluses par les fournisseurs de services dans leurs implémentations. Ces colonnes facultatives sont :
   
@@ -103,7 +103,7 @@ Les fournisseurs de magasins de messages doivent également inclure **PR_PARENT_
   
 Les propriétés nommées peuvent être ajoutées à l’ensemble de colonnes d’une table de contenu de dossier uniquement si tous les messages du dossier ont la même signature de mappage, c’est-à-dire le même mappage des noms de propriétés aux identificateurs de propriété. Les tables de contenu de dossier doivent prendre en charge l’ajout de propriétés spécifiques à la classe de message au jeu de colonnes, s’ils la prise en charge de la création de messages arbitraires dans le dossier.
   
-Les clients peuvent enregistrer l’ordre de tri par défaut d’une table de contenu de dossier en appelant sa méthode [IMAPIFolder::SaveContentsSort.](imapifolder-savecontentssort.md) Si l RECURSIVE_SORT est spécifié dans l’appel, l’ordre de tri peut être appliqué à tous les sous-dossiers du dossier. 
+Les clients peuvent enregistrer l’ordre de tri par défaut d’une table de contenu de dossier en appelant sa méthode [IMAPIFolder::SaveContentsSort.](imapifolder-savecontentssort.md) Si l RECURSIVE_SORT est spécifié lors de l’appel, l’ordre de tri peut être appliqué à tous les sous-dossiers du dossier. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -42,7 +42,7 @@ Cette interface fournit des fonctionnalités d’aide lors de la réplication vi
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Définit un magasin local pour émuler le Gestionnaire de protocole Outlook afin de mettre en file d’ensemble les messages sortants sur un serveur.  <br/> |
+|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Définit un magasin local pour émuler le gestionnaire Outlook protocole pour mettre en file d’ensemble les messages sortants sur un serveur.  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |

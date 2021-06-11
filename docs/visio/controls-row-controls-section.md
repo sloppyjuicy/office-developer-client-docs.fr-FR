@@ -24,12 +24,12 @@ Les lignes Controls sont nommées Controls. *et*  contiennent les cellules suiva
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[x](x-cell-controls-section.md) <br/> |Représente la coordonnée  *x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.  <br/> |
+|[x](x-cell-controls-section.md) <br/> |Représente la  *coordonnée x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.  <br/> |
 |[y](y-cell-controls-section.md) <br/> |Représente la coordonnée  *y*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.  <br/> |
 |[X Dynamics](x-dynamics-cell-controls-section.md) <br/> |Représente la coordonnée  *x*  du point d’ancrage d’une poignée de contrôle dans les coordonnées locales.  <br/> |
 |[Y Dynamics](y-dynamics-cell-controls-section.md) <br/> |Représente la coordonnée  *y*  du point d’ancrage d’une poignée de contrôle dans les coordonnées locales.  <br/> |
-|[X Behavior](x-behavior-cell-controls-section.md) <br/> |Contrôle le type de comportement de la  *coordonnée x*  de la poignée de contrôle une fois la poignée déplacée.  <br/> |
-|[Y Behavior](y-behavior-cell-controls-section.md) <br/> |Contrôle le type de comportement de la coordonnée  *y*  de la poignée de contrôle une fois le handle déplacé.  <br/> |
+|[X Behavior](x-behavior-cell-controls-section.md) <br/> |Contrôle le type de comportement de  *la coordonnée x*  de la poignée de contrôle une fois le handle déplacé.  <br/> |
+|[Y Behavior](y-behavior-cell-controls-section.md) <br/> |Contrôle le type de comportement de la coordonnée  *y*  de la poignée de contrôle une fois la poignée déplacée.  <br/> |
 |[Can Glue](can-glue-cell-controls-section.md) <br/> |Détermine si une poignée de contrôle peut être collée à d'autres formes.  <br/> |
 |[Conseil](tip-cell-controls-section.md) <br/> |Représente une chaîne de texte descriptive qui apparaît sous la forme d'une info-bulle lorsqu'un utilisateur maintient quelques instants le pointeur sur la poignée de contrôle d'une forme.  <br/> |
    

@@ -20,7 +20,7 @@ ms.locfileid: "33431833"
   
 Cette section contient des informations sur la création et l’appel de DLLs qui fonctionnent avec Microsoft Excel.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Développement des fichiers DLL](developing-dlls.md)
   
@@ -28,7 +28,7 @@ Cette section contient des informations sur la création et l’appel de DLLs qu
     
 [Accès aux DLL dans Excel](how-to-access-dlls-in-excel.md)
   
-> Décrit comment appeler des fonctions et des commandes DLL via un module de code Visual Basic pour Applications (VBA), directement à partir d’une feuille de calcul ou de l’interface utilisateur Excel. 
+> Décrit comment appeler des fonctions et des commandes DLL via un module de code Visual Basic pour Applications (VBA), directement à partir d’une feuille de calcul ou de l’interface Excel utilisateur. 
     
 [Appel User-Defined fonctions à partir de DLLs](calling-user-defined-functions-from-dlls.md)
   

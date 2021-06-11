@@ -29,9 +29,9 @@ Cette rubrique contient un exemple en C++, qui montre comment utiliser la struct
     
 -  *ulFlags est un*  paramètre d’entrée représentant un masque de bits contenant des indicateurs d’accès d’objet au message de contact MAPI. 
     
--  *lpContactMessage*  est un paramètre de sortie qui représente un pointeur vers le message de contact MAPI. 
+-  *lpContactMessage*  est un paramètre de sortie représentant un pointeur vers le message de contact MAPI. 
     
-Pour ouvrir le message de contact MAPI sous-jacent, il envoie d’abord  `HrOpenContact`  *lpEntryID*  à un pointeur **vers CONTAB_ENTRYID**. Il appelle ensuite [IMAPISession::OpenEntry](imapisession-openentry.md) pour obtenir le message de contact MAPI, en passant en tant que paramètres les champs  *cbeid*  et  *abeid*  de l’entrée dans le carnet d’adresses des contacts qui identifient respectivement la taille de l’identificateur d’entrée et l’identificateur d’entrée du message de contact MAPI. 
+Pour ouvrir le message de contact MAPI sous-jacent, lance d’abord  `HrOpenContact`  *lpEntryID*  vers un pointeur **vers CONTAB_ENTRYID**. Il appelle ensuite [IMAPISession::OpenEntry](imapisession-openentry.md) pour obtenir le message de contact MAPI, en passant en tant que paramètres les champs  *cbeid*  et  *abeid*  de l’entrée dans le carnet d’adresses des contacts qui identifient respectivement la taille de l’identificateur d’entrée et l’identificateur d’entrée du message de contact MAPI. 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

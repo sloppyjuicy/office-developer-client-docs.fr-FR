@@ -38,7 +38,7 @@ HRESULT CompareStoreIDs(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cbEntryID1_
   
@@ -76,7 +76,7 @@ MAPI appelle la méthode **IMSProvider::CompareStoreIDs** lorsqu’elle traite u
   
 Les identificateurs d’entrée comparés par **compares CompareStoreID** sont tous deux pour la bibliothèque de liens dynamiques (DLL) du fournisseur de magasins actuel et sont tous deux des identificateurs d’entrée de magasin non veloppés. Pour plus d’informations sur l’habillage des identificateurs d’entrée de magasin, voir [IMAPISupport::WrapStoreEntryID](imapisupport-wrapstoreentryid.md).
   
-La comparaison des identificateurs d’entrée est utile, car un objet peut avoir plusieurs identificateurs d’entrée valides. Cela peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de magasins de messages. 
+La comparaison des identificateurs d’entrée est utile car un objet peut avoir plusieurs identificateurs d’entrée valides. Cela peut se produire, par exemple, après l’installation d’une nouvelle version d’un fournisseur de magasins de messages. 
   
 ## <a name="see-also"></a>Voir aussi
 

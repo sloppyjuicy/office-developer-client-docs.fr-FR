@@ -23,8 +23,8 @@ Détermine si la page est imprimée en orientation portrait ou paysage.
 |**Valeur**|**Orientation**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Identique au papier de l'imprimante  <br/> |**visPPOSameAsPrinter** <br/> |
-| 1   <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
-|2   <br/> |Paysage  <br/> |**visPPOLandscape** <br/> |
+| 1  <br/> | Portrait  <br/> |**visPPOPortrait** <br/> |
+|2  <br/> |Paysage  <br/> |**visPPOLandscape** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

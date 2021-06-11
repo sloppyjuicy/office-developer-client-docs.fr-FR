@@ -102,7 +102,7 @@ Le type indique le format de la valeur de la propriété. MAPI définit des cons
   
 Pour obtenir la liste complète des plages de propriétés valides pour les identificateurs et les types de propriétés, voir l’annexe Identificateurs et [types de](property-identifiers-and-types.md) propriétés. 
   
-Le **membre dwAlignPad** est utilisé comme remplissage pour s’assurer d’un alignement correct sur les ordinateurs qui nécessitent un alignement de 8 byte pour des valeurs de 8 byte. Les développeurs qui écrivent du code sur ces ordinateurs doivent utiliser des routines d’allocation de mémoire qui allouent les tableaux **SPropValue** aux limites de 8 byte. 
+Le **membre dwAlignPad** est utilisé comme remplissage pour assurer un alignement correct sur les ordinateurs qui nécessitent un alignement de 8 byte pour les valeurs de 8 byte. Les développeurs qui écrivent du code sur ces ordinateurs doivent utiliser des routines d’allocation de mémoire qui allouent les tableaux **SPropValue** aux limites de 8 byte. 
   
 Pour plus d’informations, voir [Vue d’ensemble](mapi-property-type-overview.md) du type de propriété MAPI et [mise à jour des propriétés MAPI.](updating-mapi-properties.md) 
   

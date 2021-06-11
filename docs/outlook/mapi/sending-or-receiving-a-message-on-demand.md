@@ -37,7 +37,7 @@ La [méthode IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) supprime tous
     
 6. Appelez la méthode [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) dupooler MAPI, en passant l’indicateur FLUSH_NO_UI pour supprimer l’interface utilisateur et l’indicateur FLUSH_DOWNLOAD ou FLUSH_UPLOAD pour vider les files d’attente sortantes ou entrantes. 
     
-7. Release the status object and the status table, as well as the [SRowSet](srowset.md) structure that is allocated for the table. 
+7. Relâchez l’objet d’état et la table d’état, ainsi que la structure [SRowSet](srowset.md) allouée à la table. 
     
 ### <a name="to-flush-incoming-or-outgoing-queues-individually-by-transport-provider"></a>Pour vider les files d’attente entrantes ou sortantes individuellement par fournisseur de transport
   
@@ -57,7 +57,7 @@ La [méthode IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) supprime tous
         
     3. Si pris en charge, [appelez IMAPIStatus::FlushQueues](imapistatus-flushqueues.md). Si ce paramètre n’est pas pris en compte, appelez la méthode **IMAPIStatus::FlushQueues** dupooler MAPI, en passant l’identificateur d’entrée du transport dans le paramètre _lpTargetTransport._ Consultez la procédure précédente pour obtenir des instructions sur l’accès à l’objet d’état dupooler MAPI. Définissez l FLUSH_DOWNLOAD pour vider les files d’attente sortantes ou l’indicateur FLUSH_UPLOAD pour vider les files d’attente entrantes. 
         
-    4. Release the status object and the status table, as well as the [SRowSet](srowset.md) structure that is allocated for the table. 
+    4. Relâchez l’objet d’état et la table d’état, ainsi que la structure [SRowSet](srowset.md) allouée à la table. 
     
 Lepooler MAPI honore l’FLUSH_NO_UI comme la plupart des fournisseurs de transport LAN. Toutefois, tous les fournisseurs de transport ne respectent pas cet indicateur, en particulier ceux qui utilisent un modem explicitement et le service d’accès à distance (RAS). Ras n’a pas été conçu pour permettre aux clients de supprimer l’interface utilisateur. Il est possible pour un client d’être configuré de sorte qu’il puisse se connecter sans nécessiter l’interaction d’un utilisateur, mais il est difficile et nécessite une connaissance approfondie des services de message du client.
   

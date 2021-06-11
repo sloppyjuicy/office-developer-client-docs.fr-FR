@@ -23,7 +23,7 @@ ms.locfileid: "33432379"
  
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit une fonction de rappel invoquée par l’Assistant Profil pour permettre à un fournisseur de services de réagir aux événements utilisateur lorsque les feuilles de propriétés ou les pages du fournisseur sont affichées. 
+Définit une fonction de rappel invoquée par l’Assistant Profil pour permettre à un fournisseur de services de réagir aux événements utilisateur lorsque les pages ou les feuilles de propriétés du fournisseur sont affichées. 
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ BOOL SERVICEWIZARDDLGPROC(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _hDlg_
   
@@ -111,7 +111,7 @@ Lorsque l’utilisateur passe d’une page de propriétés à une autre, le four
     
 4. L’Assistant Profil appelle **SERVICEWIZARDDLGPROC**, envoyant le WIZ_QUERYNUMPAGES message. Le fournisseur renvoie le nombre de pages à voir. 
     
-5. L’Assistant Profil appelle **SERVICEWIZARDDLGPROC**, en envoyant le message WM_COMMAND avec le paramètre  _wParam_ paramétré sur WIZ_NEXT ou WIZ_PREV. À ce stade, le fournisseur renvoie false {error} ou révèle ses contrôles et renvoie TRUE {success}. Si l’Assistant Profil ID_NEXT, la première page du fournisseur s’affiche. Si ID_PREV est transmis, la dernière page s’affiche. 
+5. L’Assistant Profil appelle **SERVICEWIZARDDLGPROC,** envoyant le message WM_COMMAND avec le paramètre  _wParam_ paramétré sur WIZ_NEXT ou WIZ_PREV. À ce stade, le fournisseur renvoie false {error} ou révèle ses contrôles et renvoie TRUE {success}. Si l’Assistant Profil ID_NEXT, la première page du fournisseur s’affiche. Si ID_PREV est transmis, la dernière page s’affiche. 
     
 6. L’Assistant Profil appelle la fonction **SERVICEWIZARDDLGPROC** du fournisseur, envoyant le message WM_COMMAND avec le paramètre  _wParam_ paramétré sur WIZ_NEXT ou WIZ_PREV (selon le bouton sur lequel l’utilisateur a cliqué). Le fournisseur est chargé d’afficher ou de masquer ses contrôles et d’écrire ses données dans **l’IMAPIProp** transmis à l’Assistant Profil pour passer pas à pas dans sa séquence de pages. Le fournisseur doit renvoyer TRUE si la page suivante ou précédente a été affichée avec succès, et FALSE si ni la page suivante ni la page précédente ne peuvent être affichées. Le fournisseur doit savoir quand il se trouve en dehors de sa séquence de pages et répondre de manière appropriée en masquant ses contrôles et en écrivant ses données dans le profil. 
     

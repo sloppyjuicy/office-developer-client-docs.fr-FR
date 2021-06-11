@@ -33,11 +33,11 @@ HRESULT RemoveForm(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _szMessageClass_
   
-> [in] Chaîne qui nomme la classe de message du formulaire à supprimer du conteneur de formulaires. Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
+> [in] Chaîne qui nomme la classe de message du formulaire à supprimer du conteneur de formulaire. Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -55,7 +55,7 @@ typedef struct _SSortOrderSet
     
  **cExpanded**
   
-> Nombre de catégories qui commencent dans un état développé, où toutes les lignes qui s’appliquent à la catégorie sont visibles dans l’affichage Tableau. Les valeurs possibles vont de 0 au nombre indiqué par **cCategories**.
+> Nombre de catégories qui commencent par un état développé, où toutes les lignes qui s’appliquent à la catégorie sont visibles dans l’affichage Tableau. Les valeurs possibles vont de 0 au nombre indiqué par **cCategories**.
     
  **aSort**
   
@@ -69,7 +69,7 @@ Chaque structure **SSortOrderSet** contient au moins une structure **SSortOrder*
   
 Par exemple, si **cSorts** est définie sur 3 et **cCategories** est définie sur 2, les colonnes décrites par le membre **ulPropTag** des deux premières entrées dans le tableau **SSortOrder** sont utilisées comme colonnes de catégorie. La première entrée sert de regroupement de catégories de niveau supérieur ; deuxième entrée en tant que regroupement secondaire. Toutes les lignes qui correspondent aux deux colonnes de catégorie sont triées à l’aide de la clé de tri définie dans la troisième entrée. 
   
-Le **membre cExpanded** spécifie le nombre de catégories qui sont d’abord étendues. Lorsqu’il existe plusieurs catégories, l’implémentation de tableau commence par la première colonne à désigner en tant que catégorie et continue dans l’ordre séquentiel avec les colonnes de catégorie suivantes jusqu’à ce que le nombre de **catégories** ait été dépassé. S’il y a plus de colonnes de catégorie que de colonnes étendues, les colonnes de catégorie sont réduire. Si **cExpanded est** égal à zéro, seule la ligne de titre de niveau supérieur est disponible pour l’affichage de l’utilisateur du tableau. Si **cExpanded** est égal à une de moins que le nombre de catégories, toutes les lignes de titre et aucune ligne de feuille ne sont disponibles. Si **cExpanded** est égal au nombre de catégories, le tableau est entièrement développé. 
+Le **membre cExpanded** spécifie le nombre de catégories qui sont d’abord étendues. Lorsqu’il existe plusieurs catégories, l’implémentation de tableau commence par la première colonne à désigner en tant que catégorie et continue dans l’ordre séquentiel avec les colonnes de catégorie suivantes jusqu’à ce que le nombre de **catégories** ait été dépassé. S’il y a plus de colonnes de catégorie que de colonnes étendues, les colonnes de catégorie sont réduire. Si **cExpanded est** égal à zéro, seule la ligne de titre de niveau supérieur est disponible pour l’affichage de l’utilisateur du tableau. Si **cExpanded** est égal à une de moins que le nombre de catégories, toutes les lignes de titre et aucune ligne de feuille ne sont disponibles. Si **cExpanded est** égal au nombre de catégories, le tableau est entièrement développé. 
   
 Pour plus d’informations sur le tri standard et catégorisé, voir [Tri et catégorisation.](sorting-and-categorization.md)
   

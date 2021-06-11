@@ -21,14 +21,14 @@ Dans le cadre d’une URL (Uniform Resource Locator) MAPI, un fournisseur de mag
   
 Cette rubrique décrit un algorithme que Microsoft Office Outlook utilise pour calculer un numéro de hachage de magasin en fonction de la signature de mappage de la boutique ou de l’ID d’entrée et du nom du fichier de la boutique. 
   
-Le blob binaire à coder est le PR_ENTRYID de la banque dans la plupart des cas, mais pour les magasins Exchange mis en cache, publics et privés, le blob binaire doit être le PR_MAPPING_SIGNATURE trouvé dans le profil.
+Le blob binaire à coder est le PR_ENTRYID du magasin dans la plupart des cas, mais pour les magasins de Exchange mis en cache, publics et privés, l’objet blob binaire doit être le PR_MAPPING_SIGNATURE trouvé dans le profil.
   
-Après avoir calculé le hachage pour le blob binaire d’une magasin de dossiers publics, mais avant le hachage dans le chemin d’accès OST, la constante 0x2E505542, qui représente la chaîne « . PUB » est haché pour s’assurer qu’il est unique, c’est-à-dire distinct du hachage du magasin privé.
+Après avoir calculé le hachage pour le blob binaire d’une magasin de dossiers publics, mais avant le hachage dans le chemin d’accès OST, la constante 0x2E505542, qui représente la chaîne « . PUB » est haché pour garantir qu’il est unique, c’est-à-dire distinct du hachage du magasin privé.
   
-Le code de prise en charge annule les bits pertinents du profil, qui peuvent être utilisés pour déterminer si une banque est publique ou privée, si elle est mise en cache et le chemin d’accès à l’OST. Pour incorporer ce code dans un projet, appelez la fonction ComputeStoreHash, qui prend comme entrée le pointeur de session, ainsi que pr ENTRYID, PR SERVICE_UID et pr MDB_PROVIDER à partir de la table de magasin de \_ \_ \_ messages. Le reste des informations dont il a besoin est issu du profil. Pour la sortie, cette fonction renvoie le hachage tel que calculé à partir de pr MAPPING_SIGNATURE si la boutique est une magasine Exchange mise en cache ou le hachage tel que calculé à partir de \_ PR \_ ENTRYID.
+Le code de prise en charge annule les bits pertinents du profil, qui peuvent être utilisés pour déterminer si une banque est publique ou privée, si elle est mise en cache et le chemin d’accès à l’OST. Pour incorporer ce code dans un projet, appelez la fonction ComputeStoreHash, qui prend comme entrée le pointeur de session, ainsi que pr ENTRYID, PR SERVICE_UID et pr MDB_PROVIDER à partir de la table de la boutique de \_ \_ \_ messages. Le reste des informations dont il a besoin est issu du profil. Pour la sortie, cette fonction renvoie le hachage tel que calculé à partir de pr MAPPING_SIGNATURE si le magasin est un magasin de Exchange mis en cache ou le hachage tel que calculé à partir de \_ PR \_ ENTRYID.
   
 > [!NOTE]
-> La fonction de prise en charge HrEmsmdbUIDFromStore est un remplacement de comptes [Exchange multiples](using-multiple-exchange-accounts.md)qui permet d’utiliser pbGlobalProfileSectionGuid pour ouvrir la section profil d’une boîte aux lettres Exchange. 
+> La fonction de prise en charge HrEmsmdbUIDFromStore est un remplacement de comptes Exchange [multiples](using-multiple-exchange-accounts.md)pour utiliser pbGlobalProfileSectionGuid pour ouvrir la section de profil d’une boîte aux lettres Exchange. 
   
 ```cpp
 #define PR_PROFILE_OFFLINE_STORE_PATH_A PROP_TAG(PT_STRING8, 0x6610)
@@ -242,6 +242,6 @@ void ComputeStoreHash(LPMAPISESSION lpMAPISession, LPSBinary lpEntryID, LPSBinar
   
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos Notification-Based'indexation dans le Store](about-notification-based-store-indexing.md)
+- [À propos Notification-Based'indexation du Store](about-notification-based-store-indexing.md)
 - [À propos des URL MAPI pour lNotification-Based indexation](about-mapi-urls-for-notification-based-indexing.md)
 

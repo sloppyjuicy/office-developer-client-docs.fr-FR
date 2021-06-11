@@ -26,7 +26,7 @@ Renvoie la définition d’un nom tel qu’il  apparaît dans la colonne **Réf�
 Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInfoType);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxNameText_ (**xltypeStr**)
   
@@ -38,9 +38,9 @@ Spécifie le type d’informations à renvoyer sur le nom. Si **false** ou omis,
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-_pxRes_ (**xltypeStr,** **xltypeBool** ou **xltypeErr**)
+_pxRes_ (**xltypeStr**, **xltypeBool** ou **xltypeErr**)
   
-Selon la valeur passée pour  _pxInfoType_, renvoie la définition du nom spécifié (**xltypeStr**), ou **TRUE** ou **FALSE** (**xltypeBool**).
+En fonction de la valeur passée pour  _pxInfoType_, renvoie la définition du nom spécifié (**xltypeStr**), ou **TRUE** ou **FALSE** (**xltypeBool**).
   
 ## <a name="remarks"></a>Remarques
 

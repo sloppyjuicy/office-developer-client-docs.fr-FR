@@ -36,7 +36,7 @@ Contient un masque de bits d’indicateurs que les applications clientes doivent
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété révèle les fonctionnalités d’un magasin de messages aux applications clientes qui prévoient de lui envoyer un message. Les indicateurs peuvent faciliter les décisions prises par un client ou un autre magasin, par exemple s’il faut envoyer **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) ou uniquement **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Un client ne doit jamais définir cette propriété. Une tentative renvoie **MAPI_E_COMPUTED**. 
+Cette propriété révèle les fonctionnalités d’une boutique de messages aux applications clientes qui prévoient de lui envoyer un message. Les indicateurs peuvent faciliter les décisions prises par un client ou un autre magasin, par exemple s’il faut envoyer **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) ou uniquement **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Un client ne doit jamais définir cette propriété. Une tentative renvoie **MAPI_E_COMPUTED**. 
   
 Un ou plusieurs des indicateurs suivants peuvent être définies pour cette propriété : 
   
@@ -58,7 +58,7 @@ STORE_CREATE_OK
     
 STORE_ENTRYID_UNIQUE 
   
-> (1, 0x00000001) Les identificateurs d’entrée pour les objets de la boutique de messages sont uniques, c’est-à-dire qu’ils ne sont jamais réutilisés pendant la durée de vie du magasin. 
+> (1, 0x00000001) Les identificateurs d’entrée pour les objets de la boutique de messages sont uniques, c’est-à-dire qu’ils ne sont jamais réutilisés pendant la durée de vie de la boutique. 
     
 STORE_HTML_OK 
   
@@ -98,11 +98,11 @@ STORE_PUSHER_OK
     
 STORE_READONLY 
   
-> (2, 0x00000002) Toutes les interfaces de la magasin de messages ont un niveau d’accès en lecture seule. 
+> (2, 0x00000002) Toutes les interfaces de la boutique de messages ont un niveau d’accès en lecture seule. 
     
 STORE_RESTRICTION_OK 
   
-> (4096, 0x00001000) La magasin de messages prend en charge les restrictions. 
+> (4096, 0x00001000) La boutique de messages prend en charge les restrictions. 
     
 STORE_RTF_OK 
   
@@ -128,7 +128,7 @@ STORE_UNICODE_OK
   
 > (262144, 0x00040000) La banque de messages prend en charge les propriétés contenant des caractères Unicode.
     
-Une version RTF d’un message peut toujours être stockée, même si la boutique de messages n’est pas sensible au RTF. Si le bit STORE_RTF_OK n’est pas définie pour un magasin particulier, un client conservant des versions RTF doit lui-même appeler la fonction [RTFSync](rtfsync.md) pour que les versions **PR_BODY** et **PR_RTF_COMPRESSED** restent synchronisées pour le contenu texte. RtF est toujours stocké dans PR_RTF_COMPRESSED **,** qu’il soit réellement compressé ou non. 
+Une version RTF d’un message peut toujours être stockée, même si la boutique de messages n’est pas sensible au RTF. Si le bit STORE_RTF_OK n’est pas définie pour un magasin particulier, un client conservant les versions RTF doit lui-même appeler la fonction [RTFSync](rtfsync.md) pour que les versions **PR_BODY** et **PR_RTF_COMPRESSED** restent synchronisées pour le contenu de texte. RtF est toujours stocké dans PR_RTF_COMPRESSED **,** qu’il soit en réalité compressé ou non. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

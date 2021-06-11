@@ -34,7 +34,7 @@ HRESULT GetOutgoingQueue(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -42,7 +42,7 @@ HRESULT GetOutgoingQueue(
     
  _lppTable_
   
-> [out] Pointeur vers un pointeur vers la table de file d’attente sortante.
+> [out] Pointeur vers un pointeur vers la table de files d’attente sortantes.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

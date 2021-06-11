@@ -37,7 +37,7 @@ Lorsqu’un message de nouvelle réception est reçu, il doit ressembler exactem
     
    - Pour chaque destinataire, définissez MAPI_SUBMITTED la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). 
     
-   - Dupliquer chaque destinataire en échec. Modifiez **la PR_RECIPIENT_TYPE** du destinataire dupliqué en MAPI_P1. Par conséquent, pour chaque destinataire ayant échoué, il existe désormais deux entrées dans la table  des destinataires : une avec **PR_RECIPIENT_TYPE** définie sur sa valeur d’origine et l’autre avec PR_RECIPIENT_TYPE définie sur MAPI_P1. 
+   - Dupliquer chaque destinataire en échec. Modifiez **la PR_RECIPIENT_TYPE** du destinataire dupliqué en MAPI_P1. Par conséquent, pour chaque destinataire ayant échoué, il existe désormais deux entrées dans la table des destinataires : une avec **PR_RECIPIENT_TYPE** définie sur sa valeur d’origine et l’autre avec **PR_RECIPIENT_TYPE** définie sur MAPI_P1. 
     
 3. Appelez [ScCreateConversationIndex](sccreateconversationindex.md) pour configurer le suivi des conversations si vous le souhaitez. 
     

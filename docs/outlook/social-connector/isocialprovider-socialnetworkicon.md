@@ -29,7 +29,7 @@ Pointeur vers une structure qui spécifie un tableau d’octets qui contient l�
   
 ## <a name="remarks"></a>Remarques
 
-Les ressources d’image pris en charge sont les formats .bmp, .jpeg et .png.
+Les ressources d’image .bmp, .jpeg et les formats .png pris en charge.
   
 ## <a name="see-also"></a>Voir aussi
 

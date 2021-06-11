@@ -96,6 +96,6 @@ Le modèle de formulaire doit être signé avec un certificat qui a une chaîne 
 > [!NOTE]
 > [!REMARQUE] Si un modèle de formulaire signé demande un accès au domaine ou un accès restreint, InfoPath ne vérifie pas la signature, sauf pour déterminer si InfoPath peut mettre à jour le modèle automatiquement. 
   
-Vous trouverez plus d’informations sur le déploiement du courrier électronique dans les niveaux de sécurité, le déploiement de messagerie électronique [et les modèles de formulaires distants.](security-levels-email-deployment-and-remote-form-templates.md)
+Vous trouverez plus d’informations sur le déploiement du courrier électronique dans les niveaux de sécurité, le déploiement de messagerie électronique [et les modèles de formulaire distants.](security-levels-email-deployment-and-remote-form-templates.md)
   
 

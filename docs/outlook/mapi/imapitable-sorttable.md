@@ -23,7 +23,7 @@ ms.locfileid: "33432365"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La **méthode IMAPITable::SortTable** trie les lignes du tableau, selon les critères de tri. 
+La **méthode IMAPITable::SortTable** trie les lignes du tableau, en fonction des critères de tri. 
   
 ```cpp
 HRESULT SortTable(
@@ -32,7 +32,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _lpSortCriteria_
   
@@ -66,7 +66,7 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_TOO_COMPLEX 
   
-> La table ne peut pas effectuer l’opération, car les critères de tri spécifiques pointés par  _le paramètre lpSortCriteria_ sont trop complexes. **SortTable** peut renvoyer MAPI_E_TOO_COMPLEX dans les conditions suivantes. 
+> La table ne peut pas effectuer l’opération car les critères de tri spécifiques pointés par  _le paramètre lpSortCriteria_ sont trop complexes. **SortTable** peut renvoyer MAPI_E_TOO_COMPLEX dans les conditions suivantes. 
     
    - Une opération de tri est demandée pour une colonne de propriété que l’implémentation ne peut pas trier.
     
@@ -82,13 +82,13 @@ MAPI_E_TOO_COMPLEX
     
    - Une balise de propriété pour une propriété **dans SSortOrderSet** spécifie une propriété ou un type que l’implémentation ne prend pas en charge. 
     
-   - Une opération de tri autre qu’une opération de tri qui passe par le tableau à partir de la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) est spécifiée uniquement pour une table de pièces jointes qui prend en charge ce type de tri.
+   - Une opération de tri autre qu’une opération de tri qui passe par la table à partir de la propriété **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) est spécifiée uniquement pour une table de pièces jointes qui prend en charge ce type de tri.
     
 ## <a name="remarks"></a>Remarques
 
 La **méthode IMAPITable::SortTable** trie les lignes dans un affichage Tableau. Alors que certains tableaux peuvent à la fois être triés standard et catégorisés sur différentes colonnes de clé de tri, d’autres tableaux sont plus limités dans leur prise en charge. Les fournisseurs de carnets d’adresses ne peuvent généralement pas prendre en charge le tri des tables. Les fournisseurs de magasins de messages prend généralement en charge le tri dans la mesure où ils conservent l’ordre de tri des dossiers qui en résulte lorsqu’un tableau complet (un tableau sans restrictions) est trié. 
   
-Certains tableaux permettent le tri sur n’importe quelle colonne de tableau. Les autres tables ne le font pas ; les colonnes non incluses dans l’affichage Tableau ne sont pas affectées par un **appel SortTable.** Certains tableaux exigent que les clés de tri ne soient construites qu’avec les colonnes du jeu de colonnes actuel du tableau. 
+Certains tableaux permettent le tri sur n’importe quelle colonne de tableau. Les autres tables ne le font pas ; les colonnes non incluses dans l’affichage Tableau ne sont pas affectées par un **appel SortTable.** Certains tableaux nécessitent que les clés de tri ne soient construites qu’avec les colonnes de l’ensemble de colonnes actuel du tableau. 
   
 Un tableau peut renvoyer des MAPI_E_NO_SUPPORT ou des MAPI_E_TOO_COMPLEX **sortTable** lorsqu’il ne peut pas effectuer une opération de tri. En outre, il n’est pas garanti que les fournisseurs de magasins respectent l’ordre de tri spécifié pour les tables hiérarchiques. 
   
@@ -96,7 +96,7 @@ Lorsqu’il n’y a aucune colonne dans la structure [SSortOrderSet](ssortorders
   
 Tous les signets d’une table sont invalidés et doivent être supprimés lorsqu’un appel à **SortTable** est effectué, et le signet BOOKMARK_CURRENT qui indique la position actuelle du curseur doit être placé au début du tableau. 
   
-Si vous triez sur une colonne qui contient une propriété à valeurs multiples sans l’indicateur MVI_FLAG, les valeurs de la colonne sont traitées comme un tuple entièrement trié. Une comparaison de deux colonnes à valeurs multiples compare les éléments de colonne dans l’ordre, en signalant la relation entre les colonnes à la première égalité et renvoie l’égalité uniquement si les colonnes comparées contiennent les mêmes valeurs dans le même ordre. Si une colonne a moins de valeurs que l’autre, la relation signalée est celle d’une valeur null par rapport à l’autre valeur.
+Si vous triez sur une colonne qui contient une propriété à valeurs multiples sans l’indicateur MVI_FLAG, les valeurs de la colonne sont traitées comme un tuple entièrement ordonné. Une comparaison de deux colonnes à valeurs multiples compare les éléments de colonne dans l’ordre, en signalant la relation des colonnes à la première indiquité et renvoie l’égalité uniquement si les colonnes comparées contiennent les mêmes valeurs dans le même ordre. Si une colonne a moins de valeurs que l’autre, la relation signalée est celle d’une valeur null par rapport à l’autre valeur.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

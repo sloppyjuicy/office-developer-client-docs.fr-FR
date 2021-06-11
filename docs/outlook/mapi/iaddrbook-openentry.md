@@ -36,7 +36,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _cbEntryID_
   
@@ -48,7 +48,7 @@ _lpEntryID_
     
 _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’interface à utiliser pour accéder à l’entrée ouverte. La transmission null renvoie l’interface standard de l’objet. Pour les utilisateurs de messagerie, l’interface standard [est IMailUser : IMAPIProp](imailuserimapiprop.md). Pour les listes de distribution, il s’agit [d’IDistList : IMAPIContainer](idistlistimapicontainer.md) et pour les conteneurs, il s’agit de [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Les appelants peuvent définir  _lpInterface_ sur l’interface standard appropriée ou une interface dans la hiérarchie d’héritage. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’interface à utiliser pour accéder à l’entrée ouverte. La transmission null renvoie l’interface standard de l’objet. Pour les utilisateurs de messagerie, l’interface standard [est IMailUser : IMAPIProp](imailuserimapiprop.md). Pour les listes de distribution, il s’agit de [IDistList : IMAPIContainer](idistlistimapicontainer.md) et pour les conteneurs, il s’agit de [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Les appelants peuvent définir  _lpInterface_ sur l’interface standard appropriée ou une interface dans la hiérarchie d’héritage. 
     
 _ulFlags_
   
@@ -60,18 +60,18 @@ MAPI_BEST_ACCESS
     
 MAPI_CACHE_ONLY
   
-> Ouvre une entrée de carnet d’adresses et y accède uniquement à partir du cache. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> Ouvre une entrée de carnet d’adresses et y accède uniquement à partir du cache. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur Exchange de carnet d’adresses.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet de réussir l’appel, éventuellement avant que l’entrée soit entièrement ouverte et disponible, ce qui signifie que les appels ultérieurs à l’entrée peuvent renvoyer une erreur.
+> Permet de réussir l’appel, éventuellement avant que l’entrée soit entièrement ouverte et disponible, ce qui implique que les appels ultérieurs à l’entrée peuvent renvoyer une erreur.
     
 MAPI_GAL_ONLY
   
-> Utilisez uniquement la LA GAL pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> Utilisez uniquement la LA GAL pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
   > [!NOTE]
-  > Les  _MAPI_GAL_ONLY ulFlags_ peuvent ne pas être définis dans le fichier d’en-tête téléchargeable dont vous disposez actuellement, auquel cas vous pouvez l’ajouter à votre code à l’aide de la valeur suivante : >  `#define MAPI_GAL_ONLY (0x00000080)`
+  > Les  _MAPI_GAL_ONLY ulFlags_ peuvent ne pas être définies dans le fichier d’en-tête téléchargeable dont vous disposez actuellement, auquel cas vous pouvez l’ajouter à votre code à l’aide de la valeur suivante : >  `#define MAPI_GAL_ONLY (0x00000080)`
   
 MAPI_MODIFY 
   
@@ -79,7 +79,7 @@ MAPI_MODIFY
     
 MAPI_NO_CACHE
   
-> N’utilisez pas le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le fournisseur de carnet d’adresses Exchange.
+> N’utilisez pas le carnet d’adresses en mode hors connexion pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
 _lpulObjType_
   

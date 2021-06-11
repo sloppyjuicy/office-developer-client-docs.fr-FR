@@ -21,7 +21,7 @@ ms.locfileid: "33434465"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les problèmes de système d’exploitation et d’environnement d’exploitation sont importants lorsque les développeurs MAPI choisissent un environnement de développement et un environnement pour l’installation du SDK Windows.
+Les problèmes de système d’exploitation et d’environnement d’exploitation sont importants lorsque les développeurs MAPI choisissent un environnement de développement et un environnement pour Windows’installation du SDK.
   
 Les développeurs MAPI doivent savoir que ces choix affectent le système d’exploitation sur qui leur composant s’exécutera et la plage de composants qu’ils pourront cibler.
   

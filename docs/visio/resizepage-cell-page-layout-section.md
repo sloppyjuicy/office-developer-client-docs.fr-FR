@@ -18,7 +18,7 @@ ms.locfileid: "33438091"
 ---
 # <a name="resizepage-cell-page-layout-section"></a>ResizePage, cellule (section Page Layout)
 
-Détermine s’il faut agrandir la page pour entourer le  dessin après la disposition  des formes  à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition **de** page, puis cliquez sur Autres **options** de disposition).
+Détermine si la page doit être agrandie pour entourer le  dessin après la disposition  des formes  à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur **Re-disposition** de la page, puis cliquez sur Autres **options** de disposition).
   
 |**Valeur**|**Description**|
 |:-----|:-----|

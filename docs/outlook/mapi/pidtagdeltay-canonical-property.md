@@ -25,7 +25,7 @@ ms.locfileid: "33434787"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la hauteur d’un contrôle de boîte de dialogue dans les unités de boîte de dialogue Windows standard. 
+Contient la hauteur d’un contrôle de boîte de dialogue en unités Windows dialogue standard. 
   
 |||
 |:-----|:-----|

@@ -19,7 +19,7 @@ ms.locfileid: "33433177"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le forwarding d’un message implique de nombreuses tâches identiques à l’envoi d’un message d’origine. Tout d’abord, vous devez ouvrir la magasin de messages par défaut et le dossier désigné pour contenir les messages sortants, généralement la boîte d’envoi, et appeler la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) de ce dossier pour créer le message à transmettre. Vous devez également ouvrir le dossier qui contient le message d’origine, généralement la boîte de réception. Pour plus d’informations sur l’ouverture de différents dossiers, voir [Ouverture d’un dossier de la boutique de messages.](opening-a-message-store-folder.md)
+Le forwarding d’un message implique de nombreuses tâches identiques à l’envoi d’un message d’origine. Tout d’abord, vous devez ouvrir la boîte aux lettres par défaut et le dossier désigné pour contenir les messages sortants, généralement la boîte d’envoi, et appeler la méthode [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) de ce dossier pour créer le message à transmettre. Vous devez également ouvrir le dossier qui contient le message d’origine, généralement la boîte de réception. Pour plus d’informations sur l’ouverture de différents dossiers, voir [Ouverture d’un dossier de la boutique de messages.](opening-a-message-store-folder.md)
   
 La principale différence entre la création d’un message à transmettre et la création de l’original est qu’avec un message transmis, la plupart des propriétés sont basées sur ou copiées directement à partir des propriétés du message d’origine. 
   

@@ -30,7 +30,7 @@ La **fonction SubString** contient les arguments suivants.
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
 | *TextExpression*  <br/> |Expression de texte.  <br/> |
-| *Démarrage*  <br/> |Expression d’un nombre integer qui spécifie l’endroit où commencent les caractères renvoyés. Si le début est inférieur à 1, l’expression renvoyée commence au premier caractère spécifié dans l’expression. Dans ce cas, le nombre de caractères renvoyés est la plus grande valeur de la somme de début + longueur - 1 ou 0. Si le début est supérieur au nombre de caractères dans l’expression de valeur, une expression de longueur nulle est renvoyée.  <br/> |
+| *Start*  <br/> |Expression d’un nombre integer qui spécifie l’endroit où commencent les caractères renvoyés. Si le début est inférieur à 1, l’expression renvoyée commence au premier caractère spécifié dans l’expression. Dans ce cas, le nombre de caractères renvoyés est la plus grande valeur de la somme de début + longueur - 1 ou 0. Si le début est supérieur au nombre de caractères dans l’expression de valeur, une expression de longueur nulle est renvoyée.  <br/> |
 | *Length*  <br/> |Expression d’un nombre integer positif qui spécifie le nombre de caractères de l’expression qui seront renvoyés. Si la longueur est négative, une erreur est générée et l’instruction est terminée. Si la somme du début et de la longueur est supérieure au nombre de caractères dans l’expression, l’expression de valeur entière commençant au début est renvoyée.  <br/> |
    
 

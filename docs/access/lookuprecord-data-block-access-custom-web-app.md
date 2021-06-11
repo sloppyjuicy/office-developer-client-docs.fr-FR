@@ -24,7 +24,7 @@ Un bloc de données **RechercherEnregistrement** effectue un ensemble d'actions 
 > [!NOTE]
 > Le bloc de données **RechercherEnregistrement** est disponible uniquement dans les macros de données. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Paramètre
 
 L’action **DéfinirChamp** utilise les arguments suivants. 
   

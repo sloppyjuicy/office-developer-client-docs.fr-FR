@@ -25,7 +25,7 @@ ms.locfileid: "33433982"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Avertit la visionneuse de formulaire que le message actuel a été envoyé aupooler MAPI.
+Avertit la visionneuse de formulaires que le message actuel a été envoyé aupooler MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -47,7 +47,7 @@ Un objet de formulaire appelle la méthode **IMAPIViewAdviseSink::OnSubmitted** 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Après **avoir appelé OnSubmitted,** vous pouvez continuer sur l’hypothèse que le message a été mis à jour. Mettez à jour vos fenêtres pour refléter les modifications qui se sont produites. 
+Après **l’appel de OnSubmitted,** vous pouvez continuer sur l’hypothèse que le message a été mis à jour. Mettez à jour vos fenêtres pour refléter les modifications qui se sont produites. 
   
 Pour plus d’informations sur les notifications de formulaire, voir [Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   

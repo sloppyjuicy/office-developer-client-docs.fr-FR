@@ -44,11 +44,11 @@ GREEN(Sheet.4! FillForegnd)
   
 Renvoie la composante verte de la couleur de premier plan de remplissage de Sheet.4.
   
-## <a name="example-2"></a>Exemple 2
+## <a name="example-2"></a>Exemple 2
 
 GREEN(11)
   
-Renvoie 128 si le document utilise la palette de couleurs par défaut de Visio, où le jaune foncé est la couleur à l’index 11.
+Renvoie 128 si le document utilise la palette de couleurs Visio par défaut, où le jaune foncé est la couleur à l’index 11.
   
 ## <a name="example-3"></a>Exemple 3
 

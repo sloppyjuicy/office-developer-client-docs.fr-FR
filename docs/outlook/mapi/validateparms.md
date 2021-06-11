@@ -88,7 +88,7 @@ Les fournisseurs implémentant des interfaces courantes telles que **IMAPITable*
     
 - [FBadSortOrderSet](fbadsortorderset.md)
     
-Les méthodes héritées utilisent la même validation de paramètre que l’interface dont elles héritent. Par exemple, la vérification des **paramètres IMessage** et **IMAPIProp** doit être identique. 
+Les méthodes héritées utilisent la même validation de paramètre que l’interface à partir de laquelle elles héritent. Par exemple, la vérification des **paramètres IMessage** et **IMAPIProp** doit être la même. 
   
 ## <a name="see-also"></a>Voir aussi
 

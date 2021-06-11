@@ -25,7 +25,7 @@ ms.locfileid: "33433583"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriétés.
+Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriété.
   
 ```cpp
 HRESULT GetIDsFromNames(
@@ -36,7 +36,7 @@ HRESULT GetIDsFromNames(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _cPropNames_
   
@@ -56,7 +56,7 @@ MAPI_CREATE
     
  _lppPropTags_
   
-> [out] Pointeur vers un pointeur vers un tableau de balises de propriété qui contient des identificateurs de propriétés existants ou nouvellement attribués. Les types de propriétés pour les balises de propriété dans ce tableau sont PT_UNSPECIFIED **.**
+> [out] Pointeur vers un pointeur vers un tableau de balises de propriété qui contient des identificateurs de propriétés existants ou nouvellement attribués. Les types de propriété pour les balises de propriété dans ce tableau sont PT_UNSPECIFIED **.**
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -78,7 +78,7 @@ MAPI_E_TOO_BIG
     
 MAPI_W_ERRORS_RETURNED 
   
-> L’appel a réussi globalement, mais un ou plusieurs identificateurs de propriété n’ont pas pu être renvoyés. Le type de propriété correspondant pour chaque propriété non disponible est PT_ERROR **et** son identificateur sur zéro. Lorsque cet avertissement est renvoyé, traitez l’appel comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi globalement, mais un ou plusieurs identificateurs de propriété n’ont pas pu être renvoyés. Le type de propriété correspondant pour chaque propriété indisponible est PT_ERROR **et** son identificateur sur zéro. Lorsque cet avertissement est renvoyé, traitez l’appel comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
     
 ## <a name="remarks"></a>Remarques
 
@@ -90,7 +90,7 @@ La **méthode IMAPIProp::GetIDsFromNames** récupère un tableau de balises de p
     
 - Récupérez les identificateurs de toutes les propriétés nommées incluses dans le mappage de l’objet.
     
-Les propriétés nommées sont généralement utilisées par les fournisseurs de magasins de messages pour les dossiers et les messages. D’autres objets, tels que les utilisateurs de messagerie et les sections de profil, peuvent ne pas prendre en charge l’association de noms aux identificateurs de propriété et peuvent renvoyer MAPI_E_NO_SUPPORT à partir de **GetIDsFromNames**.
+Les propriétés nommées sont généralement utilisées par les fournisseurs de magasins de messages pour les dossiers et les messages. D’autres objets, tels que les utilisateurs de messagerie et les sections de profil, peuvent ne pas prendre en charge l’association de noms aux identificateurs de propriété et peuvent renvoyer des MAPI_E_NO_SUPPORT à partir de **GetIDsFromNames**.
   
 En cas d’erreur qui renvoie un identificateur pour un nom particulier, **GetIDsFromNames** renvoie MAPI_W_ERRORS_RETURNED et définit le type de propriété dans l’entrée du tableau de balises de propriétés qui correspond au nom à **PT_ERROR** et à l’identificateur sur zéro. 
   
@@ -100,7 +100,7 @@ Le mappage de nom à identificateur est représenté par la propriété **PR_MAP
 
 Les identificateurs que vous passez dans le tableau de balises de propriétés pointant vers le paramètre  _lppPropNames_ doivent se trouver dans la 0x8000 pour 0xFFFE plage. Les entrées de ce tableau doivent être dans le même ordre que les noms transmis dans le tableau de noms de propriétés pointés par  _lppPropNames_. 
   
-Si vous prise en charge des propriétés nommées sur un conteneur, utilisez le même mappage nom à identificateur pour tous les objets de votre conteneur (c’est-à-dire, n’utilisez pas de mappage différent pour chaque dossier de votre magasin de messages ou chaque message de votre dossier).
+Si vous utilisez des propriétés nommées sur un conteneur, utilisez le même mappage nom à identificateur pour tous les objets de votre conteneur (c’est-à-dire, n’utilisez pas de mappage différent pour chaque dossier de votre magasin de messages ou chaque message de votre dossier).
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

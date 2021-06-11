@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
@@ -71,7 +71,7 @@ Toutes les implémentations de **GetLastError** fournies par MAPI sont des impl�
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Les détails de l’implémentation de cette méthode par un fournisseur de transport distant et les messages qu’elle renvoie sont dus au fournisseur de transport, car les conditions d’erreur particulières qui entraînent diverses valeurs HRESULT sont différentes pour différents fournisseurs de transport.
+Les détails de l’implémentation de cette méthode par un fournisseur de transport distant et les messages qu’elle renvoie sont dus au fournisseur de transport, car les conditions d’erreur particulières qui entraînent diverses valeurs HRESULT seront différentes pour différents fournisseurs de transport.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

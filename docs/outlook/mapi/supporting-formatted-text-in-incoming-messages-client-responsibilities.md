@@ -27,7 +27,7 @@ Lorsque l’application cliente RTF du destinataire ouvre le message pour affich
   
  **Pour ouvrir un message, clients rtF**
   
-1. Appelez **RTFSync pour** synchroniser le texte du message avec la mise en forme si la boutique de messages n’est pas sensible au format RTF. L’RTF_SYNC_BODY_CHANGED doit être transmis dans le paramètre  _ulFlags_ si la propriété **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) est manquante ou définie sur FALSE. Les clients qui travaillent avec des magasins de messages rtF n’ont pas besoin d’effectuer l’appel **RTFSync,** car la boutique de messages s’en charge. 
+1. Appelez **RTFSync** pour synchroniser le texte du message avec la mise en forme si la boutique de messages n’est pas sensible au format RTF. L’RTF_SYNC_BODY_CHANGED doit être transmis dans le paramètre  _ulFlags_ si la propriété **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) est manquante ou définie sur FALSE. Les clients qui travaillent avec des magasins de messages rtF n’ont pas besoin d’effectuer l’appel **RTFSync,** car la boutique de messages s’en charge. 
     
 2. Appelez [IMAPIProp::SaveChanges](imapiprop-savechanges.md) si le texte du message a été mis à jour. 
     

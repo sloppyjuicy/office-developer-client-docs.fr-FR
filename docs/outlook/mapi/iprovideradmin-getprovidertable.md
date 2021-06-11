@@ -25,7 +25,7 @@ ms.locfileid: "33434472"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table des fournisseurs du service de messagerie, liste des fournisseurs de services dans le service de messagerie.
+Permet d’accéder à la table des fournisseurs du service de messagerie, une liste des fournisseurs de services dans le service de messagerie.
   
 ```cpp
 HRESULT GetProviderTable(
@@ -34,7 +34,7 @@ HRESULT GetProviderTable(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -58,7 +58,7 @@ S_OK
 
 La **méthode IProviderAdmin::GetProviderTable** récupère un pointeur vers la table des fournisseurs du service de message, une table que MAPI maintient et qui contient des informations sur chaque fournisseur de services dans le service de messagerie. 
   
-Contrairement à la table fournisseur renvoyée par la méthode [IMsgServiceAdmin::GetProviderTable,](imsgserviceadmin-getprovidertable.md) la table fournisseur renvoyée par **IProviderAdmin::GetProviderTable** peut inclure des lignes supplémentaires qui représentent les informations associées à un ou plusieurs fournisseurs de services dans le service de messagerie. Ces informations supplémentaires sont ajoutées au profil avec le mot clé « Sections » du fichier Mapisvc.inf. Lorsqu’un fournisseur possède des sections de profil supplémentaires, il stocke les structures **MAPIUID** pour ces sections dans la propriété **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)). **PR_SERVICE_EXTRA_UIDS** est enregistré dans la section profil du service de message. 
+Contrairement à la table fournisseur renvoyée par la méthode [IMsgServiceAdmin::GetProviderTable,](imsgserviceadmin-getprovidertable.md) la table fournisseur renvoyée par **IProviderAdmin::GetProviderTable** peut inclure des lignes supplémentaires qui représentent des informations associées à un ou plusieurs fournisseurs de services dans le service de messagerie. Ces informations supplémentaires sont ajoutées au profil avec le mot clé « Sections » du fichier Mapisvc.inf. Lorsqu’un fournisseur possède des sections de profil supplémentaires, il stocke les structures **MAPIUID** pour ces sections dans la propriété **PR_SERVICE_EXTRA_UIDS** ([PidTagServiceExtraUids](pidtagserviceextrauids-canonical-property.md)). **PR_SERVICE_EXTRA_UIDS** est enregistré dans la section profil du service de message. 
   
 Les fournisseurs qui ont été supprimés ou qui sont en cours d’utilisation mais qui ont été marqués pour suppression ne sont pas inclus dans la table des fournisseurs. Les tables de fournisseurs sont statiques, ce qui signifie que les ajouts ou suppressions ultérieurs du service de messagerie ne sont pas reflétés dans le tableau. 
   
@@ -72,7 +72,7 @@ Pour obtenir la liste complète des colonnes dans la table provider, voir [Provi
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour récupérer les lignes d’une table de fournisseurs dans l’ordre de transport, t PR_PROVIDER_ORDINAL **(** [PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
+Pour récupérer les lignes d’une table de fournisseurs dans l’ordre de transport, tez le tableau en PR_PROVIDER_ORDINAL **(** [PidTagProviderOrdinal](pidtagproviderordinal-canonical-property.md)). 
   
 Pour récupérer uniquement les lignes qui représentent des fournisseurs de services (sans inclure de lignes supplémentaires), limitez votre récupération aux lignes qui ont une valeur de PT_ERROR dans leur colonne **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)).
   

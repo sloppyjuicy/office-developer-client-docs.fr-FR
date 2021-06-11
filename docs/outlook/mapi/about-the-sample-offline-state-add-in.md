@@ -21,7 +21,7 @@ ms.locfileid: "33431182"
   
 L’API d’état hors connexion prend en charge les rappels indiquant les modifications apportées à l’état de connexion d’un utilisateur dans Outlook, par exemple, d’être en ligne dans Outlook à être hors connexion. L’exemple de compl?ment d’état hors connexion est un compl?ment COM écrit en C++ qui montre comment recevoir des notifications de changements d’état de connexion et modifier l’état actuel en utilisant l’API d’état hors connexion. Pour plus d’informations sur l’API d’état hors connexion, reportez-vous à l’article [À propos de l’API d’état hors connexion](about-the-offline-state-api.md).
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Installation de l’exemple de complément d’état hors connexion](installing-the-sample-offline-state-add-in.md)
     

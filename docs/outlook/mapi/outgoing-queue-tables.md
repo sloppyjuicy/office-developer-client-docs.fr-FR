@@ -27,7 +27,7 @@ Pour accéder à une table de files d’attente sortantes, lepooler MAPI appelle
   
 Il est obligatoire que les messages soient prétraités et envoyés au fournisseur de transport dans le même ordre qu’ils ont été envoyés par l’application cliente. Lepooler MAPI est conçu pour accepter les messages de la boutique de messages dans l’ordre croissant du temps d’envoi. En raison de cette exigence, il peut y avoir un certain délai avant que certains messages apparaissent dans la table des files d’attente sortantes. 
   
-Les magasins de messages doivent autoriser le tri dans la table des files d’attente sortantes afin que lepooler MAPI puisse trier les messages par heure d’envoi, ou l’ordre de tri par défaut doit être croissant. 
+Les magasins de messages doivent autoriser le tri dans la table des files d’attente sortantes afin que lepooler MAPI puisse trier les messages par heure de soumission, ou l’ordre de tri par défaut doit être croissant. 
   
 La table des files d’attente sortantes doit envoyer des notifications lorsque le contenu de la file d’attente change.
   
@@ -42,7 +42,7 @@ Les propriétés suivantes définissent la colonne requise dans les tables de fi
 |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
 |**PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md))  <br/> | <br/> |
    
-Pour plus d’informations sur l’utilisation de la table des files d’attente sortantes, voir [Sending Messages by Using Message Store Providers](sending-messages-by-using-message-store-providers.md).
+Pour plus d’informations sur l’utilisation de la table de files d’attente sortantes, voir [Sending Messages by Using Message Store Providers](sending-messages-by-using-message-store-providers.md).
   
 ## <a name="see-also"></a>Voir aussi
 

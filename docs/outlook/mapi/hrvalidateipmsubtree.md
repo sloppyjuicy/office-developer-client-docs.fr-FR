@@ -43,7 +43,7 @@ HrValidateIPMSubtree(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMDB_
   
@@ -55,7 +55,7 @@ HrValidateIPMSubtree(
     
 MAPI_FORCE_CREATE 
   
-> Les dossiers doivent être vérifiés avant leur création, même si les propriétés de la boutique de messages indiquent qu’elles sont valides. Une application cliente définit généralement cet indicateur lorsqu’une erreur indique que la structure d’un dossier existant a été endommagée. 
+> Les dossiers doivent être vérifiés avant leur création, même si les propriétés de la boutique de messages indiquent qu’ils sont valides. Une application cliente définit généralement cet indicateur lorsqu’une erreur indique que la structure d’un dossier existant a été endommagée. 
     
 MAPI_FULL_IPM_TREE 
   
@@ -89,7 +89,7 @@ MAPI_FULL_IPM_TREE
     
  _lppMapiError_
   
-> [out] Pointeur vers un pointeur vers une structure [MAPIERROR](mapierror.md) qui contient les informations de version, de composant et de contexte d’une erreur. Le  _paramètre lppMAPIError_ a la valeur NULL si aucune structure **MAPIERROR** n’est renvoyée. 
+> [out] Pointeur vers un pointeur vers une structure [MAPIERROR](mapierror.md) qui contient des informations de version, de composant et de contexte pour une erreur. Le  _paramètre lppMAPIError_ a la valeur NULL si aucune structure **MAPIERROR** n’est renvoyée. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -97,7 +97,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-MAPI utilise la fonction **HrValidateIPMSubtree** en interne pour construire la sous-arbre IPM standard dans une magasin de messages lors de la première ouverture de la boutique, ou lorsqu’une boutique est rendue la boutique par défaut. Cette fonction peut également être utilisée par les applications clientes pour valider ou réparer des dossiers de messages standard. 
+MAPI utilise la fonction **HrValidateIPMSubtree** en interne pour construire la sous-arbre IPM standard dans une magasin de messages lors de la première ouverture de la boutique ou lorsqu’une boutique est la boutique par défaut. Cette fonction peut également être utilisée par les applications clientes pour valider ou réparer des dossiers de messages standard. 
   
  **HrValidateIPMSubtree** crée toujours les dossiers Racine de recherche et Sous-arbre IPM dans le dossier racine de la boutique et le dossier Éléments supprimés dans le dossier sous-arbre IPM. Le dossier sous-arbre IPM est la racine de la hiérarchie IPM dans cette magasin de messages. Le dossier Racine de la recherche peut être utilisé comme racine d’une sous-arbre pour les dossiers de résultats de recherche. 
   

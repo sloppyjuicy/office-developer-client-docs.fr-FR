@@ -35,7 +35,7 @@ HRESULT HrQueryRow(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpSPropValue_
   
@@ -63,7 +63,7 @@ MAPI_E_INVALID_PARAMETER
 
 La **méthode ITableData::HrQueryRow** récupère toutes les propriétés de la ligne qui possède une colonne d’index qui correspond à la valeur de la colonne d’index incluse dans la structure de propriétés pointée par  _lpSPropValue_. **HrQueryRow renvoie** également le numéro de ligne, si l’appelant le demande, qui identifie la position de la ligne dans le tableau. 
   
-Étant donné que **HrQueryRow** ne modifie pas la structure **SPropValue** pointée par _lpSPropValue_, les appelants doivent libérer la structure lors du retour de **HrQueryRow.** Les appelants doivent également libérer la structure **SRow** qui contient la ligne récupérée. 
+Étant donné que **HrQueryRow** ne modifie pas la structure **SPropValue** pointée par _lpSPropValue_, les appelants doivent libérer la structure lorsque **HrQueryRow renvoie.** Les appelants doivent également libérer la structure **SRow** qui contient la ligne récupérée. 
   
 ## <a name="see-also"></a>Voir aussi
 

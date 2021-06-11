@@ -47,11 +47,11 @@ _ulFlags_
     
   - UPR_OK
     
-    - [in] Le chargement a réussi. Le client définit cette information après le téléchargement d’informations sur le serveur.
+    - [in] Télécharger a réussi. Le client définit cette information après le téléchargement d’informations sur le serveur.
     
   - UPR_COMMIT
     
-    - [in] Téléchargez l’état de lecture de l’élément maintenant, au lieu d’attendre la fin de l’état de [la table](upload-table-state.md) de chargement pour traiter par lots plusieurs éléments. 
+    - [in] Télécharger l’état de lecture de l’élément maintenant, au lieu d’attendre la fin de l’état de [la table](upload-table-state.md) de chargement pour traiter par lots plusieurs éléments. 
     
 _skey_
   

@@ -48,7 +48,7 @@ BOOL FBadRglpNameID(
     
  _cNames_
   
-> [in] Nombre de structures de propriétés nommées dans le tableau pointés par _le paramètre lppNameId._ 
+> [in] Nombre de structures de propriétés nommées dans le tableau pointant vers le _paramètre lppNameId._ 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

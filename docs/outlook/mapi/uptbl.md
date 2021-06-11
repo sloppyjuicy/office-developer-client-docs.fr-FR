@@ -19,7 +19,7 @@ ms.locfileid: "33438112"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Informations pour le chargement du contenu d’un dossier pendant [l’état de la table de téléchargement.](upload-table-state.md)
+Informations pour le chargement du contenu d’un dossier pendant [l’état de la table de chargement.](upload-table-state.md)
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -47,7 +47,7 @@ _ulFlags_
     
   - UPT_OK
     
-    - [in] Le chargement a réussi. Le client le définit après avoir chargé le contenu du dossier sur le serveur.
+    - [in] Télécharger a réussi. Le client le définit après avoir chargé le contenu du dossier sur le serveur.
     
 _pstmReserved_
   

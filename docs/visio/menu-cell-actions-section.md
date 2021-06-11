@@ -31,7 +31,7 @@ Pour obtenir une référence à la cellule Menu par un nom à partir d’une aut
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Actions. *nom*  . Menu où actions.  *name*  est le nom de la ligne Actions  <br/> |
+|Nom de cellule :  <br/> |Actions. *nom*  . Menuwhere Actions.  *name*  est le nom de la ligne Actions  <br/> |
    
 Pour obtenir une référence à la cellule Menu à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

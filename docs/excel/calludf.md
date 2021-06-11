@@ -24,7 +24,7 @@ Appelle une fonction définie par l’utilisateur dans un environnement informat
 int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHandle, int (*CallBackAddr)(), int ArgCount, LPXLOPER12 Parameter1, ...)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _SessionId_
   
@@ -56,7 +56,7 @@ _Parameter1_
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess si** l’appel UDF est correctement initié ; **xlHpcRetInvalidSessionId** si l’argument  _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs, y compris le délai d’arrêt. Si l’appel renvoie un code d’erreur (sauf **xlHpcRetSuccess),** Excel considère que l’appel UDF a échoué, invalide  _pxAsyncHandle_ et ne s’attend pas à ce qu’un rappel se produise.
+**xlHpcRetSuccess si** l’appel UDF est correctement initié ; **xlHpcRetInvalidSessionId** si l’argument _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs, y compris le délai d’arrêt. Si l’appel renvoie un code d’erreur (sauf **xlHpcRetSuccess),** alors Excel considère que l’appel UDF a échoué, invalide _pxAsyncHandle_ et ne s’attend pas à ce qu’un rappel se produise.
   
 ## <a name="remarks"></a>Remarques
 

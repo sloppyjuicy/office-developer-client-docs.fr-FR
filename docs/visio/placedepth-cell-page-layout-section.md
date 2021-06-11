@@ -23,9 +23,9 @@ Détermine la méthode utilisée pour analyser le dessin avant la création de l
 |**Valeur**|**Profondeur de placement pour les mises en page verticales et horizontales**|**Constante d'automation**|
 |:-----|:-----|:-----|
 | 0  <br/> | Valeur par défaut de la page  <br/> |**visPLOPlaceDepthDefault** <br/> |
-| 1   <br/> | Moyen  <br/> |**visPLOPlaceDepthMedium** <br/> |
-| 2   <br/> | Deep  <br/> |**visPLOPlaceDepthDeep** <br/> |
-| 3   <br/> | Superficiel  <br/> |**visPLOPlaceDepthShallow** <br/> |
+| 1  <br/> | Moyenne  <br/> |**visPLOPlaceDepthMedium** <br/> |
+| 2  <br/> | Deep  <br/> |**visPLOPlaceDepthDeep** <br/> |
+| 3  <br/> | Superficiel  <br/> |**visPLOPlaceDepthShallow** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

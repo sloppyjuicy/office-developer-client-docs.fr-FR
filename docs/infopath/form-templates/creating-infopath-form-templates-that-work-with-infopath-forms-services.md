@@ -7,7 +7,7 @@ keywords:
 - browser-compatible form templates [infopath 2007],forms [InfoPath 2007], browser-compatible,browser-compatible forms [InfoPath 2007],form templates [InfoPath 2007], browser-compatible,InfoPath 2007, browser-compatible forms,business logic, InfoPath Forms Services,InfoPath Forms Services, creating forms,InfoPath Forms Services, supported object model members,InfoPath Forms Services, supported classes and members
 localization_priority: Normal
 ms.assetid: 7bd4fbbb-49c6-46a1-9584-895e5aa9a772
-description: Les formulaires compatibles avec les navigateurs déployés sur Microsoft SharePoint Server 2013 avec Services des formulaires InfoPath prise en charge des fonctionnalités et des contrôles qui couvrent la plupart des scénarios d’utilisation des formulaires InfoPath. Toutefois, les formulaires compatibles avec le navigateur, fournis par InfoPath Forms Services, ne prennent pas en charge toutes les fonctionnalités InfoPath. Certaines fonctionnalités et certains contrôles ne sont pas implémentés sur le serveur. D'autres fonctionnalités n'ont pas une représentation significative sur le serveur.
+description: Les formulaires compatibles avec le navigateur déployés sur Microsoft SharePoint Server 2013 avec InfoPath Forms Services prise en charge des fonctionnalités et des contrôles qui couvrent la plupart des scénarios d’utilisation des formulaires InfoPath. Toutefois, les formulaires compatibles avec le navigateur, fournis par InfoPath Forms Services, ne prennent pas en charge toutes les fonctionnalités InfoPath. Certaines fonctionnalités et certains contrôles ne sont pas implémentés sur le serveur. D'autres fonctionnalités n'ont pas une représentation significative sur le serveur.
 ms.openlocfilehash: e2db35dc535af58b5f5116448f346cd7a527b681
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33437104"
 ---
 # <a name="creating-infopath-form-templates-that-work-with-infopath-forms-services"></a>Création de modèles de formulaires InfoPath fonctionnant avec InfoPath Forms Services
 
-Les formulaires compatibles avec les navigateurs déployés sur Microsoft SharePoint Server 2013 avec Services des formulaires InfoPath prise en charge des fonctionnalités et des contrôles qui couvrent la plupart des scénarios d’utilisation des formulaires InfoPath. Toutefois, les formulaires compatibles avec le navigateur, fournis par InfoPath Forms Services, ne prennent pas en charge toutes les fonctionnalités InfoPath. Certaines fonctionnalités et certains contrôles ne sont pas implémentés sur le serveur. D'autres fonctionnalités n'ont pas une représentation significative sur le serveur.
+Les formulaires compatibles avec le navigateur déployés sur Microsoft SharePoint Server 2013 avec InfoPath Forms Services prise en charge des fonctionnalités et des contrôles qui couvrent la plupart des scénarios d’utilisation des formulaires InfoPath. Toutefois, les formulaires compatibles avec le navigateur, fournis par InfoPath Forms Services, ne prennent pas en charge toutes les fonctionnalités InfoPath. Certaines fonctionnalités et certains contrôles ne sont pas implémentés sur le serveur. D'autres fonctionnalités n'ont pas une représentation significative sur le serveur.
   
 Les sections qui suivent spécifient les fonctionnalités prises en charge dans les formulaires compatibles avec le navigateur, celles qui ne peuvent pas être utilisées dans ce type de formulaire, ainsi que les fonctionnalités qui peuvent être spécifiées pour les formulaires compatibles avec le navigateur mais qui ne fonctionnent pas dans un navigateur Web.
   
@@ -360,7 +360,7 @@ Les classes et les membres suivants du modèle objet InfoPath avec code managé,
   
 |**Classe parent**|**Membres**|
 |:-----|:-----|
-|[ActionType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.aspx) <br/> |[Copy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Copy.aspx) <br/> |
+|[ActionType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.aspx) <br/> |[Copier](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Copy.aspx) <br/> |
 ||[Cut](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Cut.aspx) <br/> |
 ||[Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Delete.aspx) <br/> |
 ||[Paste](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ActionType.Paste.aspx) <br/> |
@@ -398,7 +398,7 @@ Les classes et les membres suivants du modèle objet InfoPath avec code managé,
 ||[IssuedBy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Certificate.IssuedBy.aspx) <br/> |
 ||[IssuedTo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Certificate.IssuedTo.aspx) <br/> |
 ||[État](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Certificate.Status.aspx) <br/> |
-|[CertificateStatus](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.CertificateStatus.aspx) <br/> |[Error](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.CertificateStatus.Error.aspx) <br/> |
+|[CertificateStatus](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.CertificateStatus.aspx) <br/> |[Erreur](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.CertificateStatus.Error.aspx) <br/> |
 ||[Expiré](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.CertificateStatus.Expired.aspx) <br/> |
 ||[NotTrusted](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.CertificateStatus.NotTrusted.aspx) <br/> |
 ||[Revoked](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.CertificateStatus.Revoked.aspx) <br/> |
@@ -473,7 +473,7 @@ Les classes et les membres suivants du modèle objet InfoPath avec code managé,
 |[SignatureRelation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureRelation.aspx) <br/> |[Cosigner](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureRelation.Cosign.aspx) <br/> |
 ||[CounterSign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureRelation.CounterSign.aspx) <br/> |
 ||[Single](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureRelation.Single.aspx) <br/> |
-|[SignatureStatus](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureStatus.aspx) <br/> |[Error](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureStatus.Error.aspx) <br/> |
+|[SignatureStatus](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureStatus.aspx) <br/> |[Erreur](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureStatus.Error.aspx) <br/> |
 ||[Invalid](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureStatus.Invalid.aspx) <br/> |
 ||[Unsupported](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureStatus.Unsupported.aspx) <br/> |
 ||[Valid](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureStatus.Valid.aspx) <br/> |
@@ -498,7 +498,7 @@ Les classes et les membres suivants du modèle objet InfoPath avec code managé,
 ||[Élément](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneCollection.Item.aspx) <br/> |
 |[TaskPaneType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneType.aspx) <br/> |[BulletsNumbering](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneType.BulletsNumbering.aspx) <br/> |
 ||[ClipArt](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneType.ClipArt.aspx) <br/> |
-||[Find](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneType.Find.aspx) <br/> |
+||[Chercher](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneType.Find.aspx) <br/> |
 ||[Mise en forme](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneType.Formatting.aspx) <br/> |
 ||[Html](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneType.Html.aspx) <br/> |
 ||[ParagraphFormatting](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneType.ParagraphFormatting.aspx) <br/> |

@@ -37,7 +37,7 @@ INDEX(** *index* **, » ** *list* ** « [,[ ** *delimiter* ** ][,[ ** *errorva
 
 Si la liste commence ou se termine par un délimiteur, on considère qu’une chaîne nulle est placée avant ou après la liste. Si plusieurs délimiteurs se suivent, on considère qu’ils sont séparés par une chaîne nulle. 
   
-Si l’index est hors de portée, Visio renvoie une chaîne vide ou le jeton facultatif fourni en tant qu’argument *valeur d’erreur.* 
+Si l’index est en dehors de la plage, Visio renvoie une chaîne vide ou le jeton facultatif fourni en tant qu’argument *valeur d’erreur.* 
   
 ## <a name="example-1"></a>Exemple 1
 

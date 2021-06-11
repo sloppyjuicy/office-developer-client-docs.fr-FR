@@ -25,14 +25,14 @@ Le tableau suivant décrit les propriétés que les clients peuvent s’attendre
   
 |**Propriété**|**Description**|
 |:-----|:-----|
-|**PR_CREATION_TIME** propriété canonique [PidTagCreationTime](pidtagcreationtime-canonical-property.md) ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |Définie par les fournisseurs de magasins de messages sur les messages sortants.  <br/> |
+|**PR_CREATION_TIME** Propriété canonique [PidTagCreationTime](pidtagcreationtime-canonical-property.md) ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |Définie par les fournisseurs de magasins de messages sur les messages sortants.  <br/> |
 |**PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))  <br/> **PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))  <br/> **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |Définie par les fournisseurs de magasins de messages sur les messages sortants.  <br/> |
 |||
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Définie par les fournisseurs de magasins de messages sur les messages sortants.  <br/> |
 |**PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |Définie par les fournisseurs de magasins de messages sur les messages sortants.  <br/> |
 |**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Définie par les fournisseurs de magasins de messages sur les messages sortants.  <br/> |
 |**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |Peut être définie par les clients sur les messages sortants ; doit être définie par les fournisseurs de magasins de messages s’il n’est pas définie par les clients.  <br/> |
-|**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |Définir par les clients sur les messages sortants avant qu’ils ne soient enregistrés et fournisseurs de magasins de messages après leur enregistré.  <br/> |
+|**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |Définie par les clients sur les messages sortants avant d’être enregistrés et les fournisseurs de magasins de messages après leur enregistré.  <br/> |
 |**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Définie par les fournisseurs de magasins de messages sur les messages sortants.  <br/> |
 |**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |Définie par les fournisseurs de magasins de messages sur les messages sortants.  <br/> |
 |**PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))  <br/> **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))  <br/> **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))  <br/> |Définie par les fournisseurs de transport sur les messages entrants.  <br/> |

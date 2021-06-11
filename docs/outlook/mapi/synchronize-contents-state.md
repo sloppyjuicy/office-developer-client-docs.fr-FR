@@ -35,7 +35,7 @@ ms.locfileid: "33438469"
   
 ## <a name="description"></a>Description
 
-Cet état initie l’un des deux processus de réplication : le téléchargement du contenu des dossiers spécifiés sur un magasin local ou une synchronisation complète. Dans une synchronisation complète, pour chacun des dossiers spécifiés, le contenu est d’abord chargé, puis téléchargé. Selon les  *ulFlags définies*  dans la structure **[SYNC](sync.md)** correspondante dans l’état de synchronisation précédent, Outlook initialise les membres [out] dans la structure **SYNCCONT** pour fournir des informations sur le contenu. 
+Cet état initie l’un des deux processus de réplication : le téléchargement du contenu des dossiers spécifiés sur un magasin local ou une synchronisation complète. Dans une synchronisation complète, pour chacun des dossiers spécifiés, le contenu est téléchargé en premier, puis téléchargé. Selon les *ulFlags définies* dans la structure **[SYNC](sync.md)** correspondante à l’état de synchronisation précédent, Outlook initialise les membres [out] dans la structure **SYNCCONT** pour fournir des informations sur le contenu. 
   
 Par le biais de la même structure **SYNCCONT,** le client obtient le nombre de dossiers dont le contenu doit être téléchargé ou téléchargé. Le client parse en boucle dans chacun de ces dossiers en déplaçant la boutique locale vers l’état de la table de téléchargement pour télécharger un dossier, ou en déplaçant la boutique locale vers l’état de la table de téléchargement pour télécharger le dossier. 
   

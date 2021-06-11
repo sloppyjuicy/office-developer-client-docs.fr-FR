@@ -25,7 +25,7 @@ ms.locfileid: "33434836"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété contient true si un expéditeur de message demande une preuve de remise pour un destinataire particulier.
+Cette propriété contient TRUE si un expéditeur de message demande une preuve de remise pour un destinataire particulier.
   
 |||
 |:-----|:-----|

@@ -27,7 +27,7 @@ Les fournisseurs de carnets d’adresses sont requis pour prendre en charge troi
     
 - Restrictions de propriété clé d’instance
     
-- Restrictions de contenu de nom d’affichage préfixées
+- Restrictions de contenu de nom d’affichage préfixé
     
 Les restrictions de nom ambigu sont des restrictions de propriété qui utilisent **la propriété PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)) pour faire correspondre les noms des destinataires aux entrées dans les conteneurs de carnet d’adresses. La restriction **PR_ANR** de propriété est un type de recherche de « meilleure estimation » qui permet aux fournisseurs de carnets d’adresses de choisir la propriété correspondante qui fonctionne le mieux pour leur conteneur. Par exemple, un fournisseur de carnet d’adresses peut implémenter la restriction **PR_ANR** en mettant en correspondance les noms des destinataires avec la propriété **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) de chaque entrée de conteneur, alors qu’un autre fournisseur peut utiliser **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   

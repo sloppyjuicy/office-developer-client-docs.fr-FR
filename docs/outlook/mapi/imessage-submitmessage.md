@@ -33,7 +33,7 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -55,7 +55,7 @@ MAPI_E_NO_RECIPIENTS
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMessage::SubmitMessage** marque un message comme étant prêt à être transmis. MAPI transmet les messages au système de messagerie sous-jacent dans l’ordre dans lequel ils sont marqués pour l’envoi. En raison de cette fonctionnalité, un message peut rester dans une magasin de messages pendant un certain temps avant que le système de messagerie sous-jacent puisse en prendre la responsabilité. L’ordre de réception à la destination se trouve dans le contrôle du système de messagerie sous-jacent et ne correspond pas nécessairement à l’ordre dans lequel les messages ont été envoyés. 
+La **méthode IMessage::SubmitMessage** marque un message comme étant prêt à être transmis. MAPI transmet les messages au système de messagerie sous-jacent dans l’ordre dans lequel ils sont marqués pour l’envoi. En raison de cette fonctionnalité, un message peut rester dans une magasin de messages pendant un certain temps avant que le système de messagerie sous-jacent puisse en prendre la responsabilité. L’ordre de réception à destination se trouve dans le contrôle du système de messagerie sous-jacent et ne correspond pas nécessairement à l’ordre dans lequel les messages ont été envoyés. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
@@ -63,7 +63,7 @@ Appelez la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) du messag
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque **SubmitMessage** renvoie, tous les pointeurs vers le message et ses sous-objets associés messages, dossiers, pièces jointes, flux, tables, etc. ne sont plus valides. MAPI n’autorise pas d’autres opérations sur ces pointeurs, sauf pour appeler leurs méthodes **IUnknown::Release.** MAPI est conçu de telle sorte qu’une fois **SubmitMessage** appelé, vous devez libérer le message et tous les sous-objets associés. Toutefois, si **SubmitMessage** renvoie une valeur d’erreur indiquant des informations manquantes ou non valides, le message reste ouvert et les pointeurs restent valides. 
+Lorsque **SubmitMessage** est de retour, tous les pointeurs vers le message et ses sous-objets associés messages, dossiers, pièces jointes, flux, tables, etc. ne sont plus valides. MAPI n’autorise pas d’autres opérations sur ces pointeurs, sauf pour appeler leurs méthodes **IUnknown::Release.** MAPI est conçu de telle sorte qu’une fois **SubmitMessage** appelé, vous devez libérer le message et tous les sous-objets associés. Toutefois, si **SubmitMessage** renvoie une valeur d’erreur indiquant des informations manquantes ou non valides, le message reste ouvert et les pointeurs restent valides. 
   
 Pour annuler une opération d’envoi, obtenez et stockez un pointeur vers la propriété PR_ENTRYID **(** [PidTagEntryId](pidtagentryid-canonical-property.md)) du message avant l’envoi du message. Étant donné que l’identificateur d’entrée d’un message est invalidé une fois le message envoyé, il est nécessaire de l’enregistrer avant d’appeler **SubmitMessage**. Pour annuler l’envoi, pointez le paramètre  _lpEntryId_ vers cet identificateur d’entrée et appelez [IMsgStore::AbortSubmit](imsgstore-abortsubmit.md).
   

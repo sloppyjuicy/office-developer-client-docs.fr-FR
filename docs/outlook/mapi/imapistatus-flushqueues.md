@@ -36,7 +36,7 @@ HRESULT FlushQueues(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -48,7 +48,7 @@ HRESULT FlushQueues(
     
  _lpTargetTransport_
   
-> [in] Pointeur vers l’identificateur d’entrée du fournisseur de transport qui doit vider ses files d’attente de messages. Le  _paramètre lpTargetTransport_ est uniquement définie sur les appels à l’objet d’état dupooler MAPI. Pour les appels à un fournisseur de transport,  _le paramètre lpTargetTransport_ est définie sur NULL. 
+> [in] Pointeur vers l’identificateur d’entrée du fournisseur de transport qui doit vider ses files d’attente de messages. Le  _paramètre lpTargetTransport est_ uniquement définie sur les appels à l’objet d’état dupooler MAPI. Pour les appels à un fournisseur de transport,  _le paramètre lpTargetTransport_ est définie sur NULL. 
     
  _ulFlags_
   
@@ -72,7 +72,7 @@ FLUSH_NO_UI
     
 FLUSH_UPLOAD 
   
-> Les files d’attente de messages sortantes doivent être vidées.
+> Les files d’attente de messages sortants doivent être vidées.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -82,7 +82,7 @@ S_OK
     
 MAPI_E_BUSY 
   
-> Une autre opération est en cours ; Il doit être autorisé à se terminer, ou doit être arrêté, avant que cette opération puisse être lancée.
+> Une autre opération est en cours ; Il doit être autorisé à se terminer ou arrêté avant que cette opération puisse être lancée.
     
 MAPI_E_NO_SUPPORT 
   
@@ -98,7 +98,7 @@ Par défaut, **FlushQueues est** une opération synchrone ; ne revient pas à l�
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L’implémentation de **FlushQueues** par un fournisseur de transport distant définit des bits dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la ligne d’état de l’objet d’authentification pour contrôler la façon dont les files d’attente sont vidées. Si une visionneuse distante passe dans l’indicateur FLUSH_UPLOAD, la méthode **FlushQueues** doit définir les STATUS_INBOUND_ENABLED et STATUS_INBOUND_ACTIVE bits. Si une visionneuse distante passe dans l’indicateur FLUSH_DOWNLOAD, la méthode **FlushQueues** doit définir les bits STATUS_OUTBOUND_ENABLED et STATUS_OUTBOUND_ACTIVE distants. **FlushQueues** doit ensuite renvoyer S_OK. Lepooler MAPI lancera ensuite les actions appropriées pour charger et télécharger des messages. 
+L’implémentation de **FlushQueues** par un fournisseur de transport distant définit des bits dans la propriété **PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)) de la ligne d’état de l’objet d’authentification pour contrôler la façon dont les files d’attente sont vidées. Si une visionneuse distante passe dans l’indicateur FLUSH_UPLOAD, la méthode **FlushQueues** doit définir les STATUS_INBOUND_ENABLED et STATUS_INBOUND_ACTIVE bits. Si une visionneuse distante passe dans l’indicateur FLUSH_DOWNLOAD, la méthode **FlushQueues** doit définir les bits STATUS_OUTBOUND_ENABLED et STATUS_OUTBOUND_ACTIVE distants. **FlushQueues** doit ensuite renvoyer S_OK. Lepooler MAPI lance ensuite les actions appropriées pour charger et télécharger des messages. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

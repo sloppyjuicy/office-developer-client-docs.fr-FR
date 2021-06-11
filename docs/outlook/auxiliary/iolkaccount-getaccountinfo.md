@@ -31,7 +31,7 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pclsidType_
   
@@ -69,7 +69,7 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
 
 Après le retour de cette méthode, vous devez libérer  *prgclsidCategory*  à l’aide de [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
-**IOlkAccount::GetAccountInfo** ne prend pas en charge la catégorie de carnet d’adresses pour un compte Exchange. Si le compte est un compte Exchange *(pclsidType*  est **CLSID_OlkMAPIAccount** ), et que le compte implémente le carnet d’adresses, l’appel de **IOlkAccount::GetAccountInfo** ne retournera pas **CLSID_OlkAddressBook** en tant que catégorie dans  *prgclsidCategory*  . 
+**IOlkAccount::GetAccountInfo** ne prend pas en charge la catégorie de carnet d’adresses pour Exchange compte. Si le compte est un compte Exchange (*pclsidType* est **CLSID_OlkMAPIAccount** ), et que le compte implémente le carnet d’adresses, l’appel de **IOlkAccount::GetAccountInfo** ne retournera pas **CLSID_OlkAddressBook** en tant que catégorie dans *prgclsidCategory* . 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -39,7 +39,7 @@ BOOL FPropContainsProp(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _lpSPropValueDst_
   
@@ -67,7 +67,7 @@ _ulFuzzyLevel_
         
     - FL_IGNORENONSPACE : la comparaison doit ignorer les caractères non définis par Unicode, tels que les signes diacritiques. 
         
-    - FL_LOOSE : la comparaison doit indiquer une correspondance dans la mesure du possible, en ignorant la sensibilité de la cas et les caractères non espacement.
+    - FL_LOOSE : la comparaison doit indiquer une correspondance dans la mesure du possible, en ignorant les caractères de respect de la cas et d’espacement.
     
 ## <a name="return-value"></a>Valeur renvoyée
 

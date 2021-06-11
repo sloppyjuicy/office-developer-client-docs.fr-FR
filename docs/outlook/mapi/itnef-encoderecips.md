@@ -25,7 +25,7 @@ ms.locfileid: "33437650"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Code une vue de la table des destinataires d’un message dans le flux de données Transport-Neutral format Encapsulation (TNEF) du message.
+Encode une vue de la table des destinataires d’un message dans le flux de données Transport-Neutral Encapsulation Format (TNEF) du message.
   
 ```cpp
 HRESULT EncodeRecips(
@@ -34,7 +34,7 @@ HRESULT EncodeRecips(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -58,7 +58,7 @@ Un fournisseur ou une passerelle transmet la vue de table à coder dans le param
   
 L’appel de **EncodeRecips** avec NULL dans _lpRecipientTable_ code donc tous les destinataires du message et équivaut à appeler la méthode [ITnef::AddProps](itnef-addprops.md) avec l’indicateur TNEF_PROP_INCLUDE dans son paramètre _ulFlags_ et la propriété **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) dans son paramètre _lpPropList._ 
   
-Notez qu’il est rarement nécessaire d’appeler **EncodeRecips,** sauf s’il est nécessaire d’encoder un affichage de table de destinataires particulier. Les systèmes de messagerie étrangers ont presque toujours des installations pour la gestion des listes de destinataires qui sont suffisamment puissantes pour gérer les besoins courants de codage des listes de destinataires ; par conséquent, ces systèmes ne nécessitent presque jamais le TNEF à cet effet. 
+Notez qu’il est rarement nécessaire d’appeler **EncodeRecips,** sauf s’il est nécessaire d’encoder un affichage de table de destinataires particulier. Les systèmes de messagerie étrangers ont presque toujours des installations pour la gestion des listes de destinataires qui sont suffisamment puissantes pour gérer les besoins courants de codage des listes de destinataires ; Par conséquent, ces systèmes ne nécessitent presque jamais le TNEF à cet effet. 
   
 ## <a name="see-also"></a>Voir aussi
 

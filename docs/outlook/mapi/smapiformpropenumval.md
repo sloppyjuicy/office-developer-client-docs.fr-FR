@@ -25,7 +25,7 @@ ms.locfileid: "33435410"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette propriété m’indique si une valeur d’un nom complet est un nom complet. 
+Cartes une valeur d’un nom complet pour cette valeur. 
   
 |||
 |:-----|:-----|

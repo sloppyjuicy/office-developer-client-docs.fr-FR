@@ -34,7 +34,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpProviderID_
   
@@ -58,7 +58,7 @@ MAPI utilise la structure **MAPIUID** lorsqu’il envoie des messages sortants a
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **SetProviderUID** au moment de l’inscription pour inscrire votre structure **MAPIUID.** MAPI permet aux fournisseurs de carnet d’adresses et de magasin de messages d’inscrire plusieurs identificateurs. Lorsque vous faites plusieurs appels à **SetProviderUID,** il ajoute toujours la structure **MAPIUID** à l’ensemble de structures **MAPIUID** du fournisseur, même si **mapIUID** est un doublon. **SetProviderUID ne** peut pas supprimer **un MAPIUID**. 
+Appelez **SetProviderUID** au moment de l’inscription pour inscrire votre structure **MAPIUID.** MAPI permet aux fournisseurs de carnet d’adresses et de magasin de messages d’inscrire plusieurs identificateurs. Lorsque vous faites plusieurs appels à **SetProviderUID,** il ajoute toujours la structure **MAPIUID** à l’ensemble de structures **MAPIUID** du fournisseur, même si **mapIUID** est un doublon. **SetProviderUID ne** peut pas supprimer un **MAPIUID**. 
   
 ## <a name="see-also"></a>Voir aussi
 

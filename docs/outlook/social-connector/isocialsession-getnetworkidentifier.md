@@ -23,7 +23,7 @@ Obtient une chaîne qui représente un identificateur de réseau social unique p
 HRESULT _stdcall GetNetworkIdentifier([out, retval] BSTR* networkIdentifier);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _networkIdentifier_
   
@@ -31,7 +31,7 @@ _networkIdentifier_
     
 ## <a name="remarks"></a>Remarques
 
-Un identificateur réseau unique est une chaîne qui identifie le réseau social du fournisseur Outlook Social Connector (OSC). Cette méthode peut également renvoyer E_NOTIMPL.
+Un identificateur réseau unique est une chaîne qui identifie Outlook réseau social du fournisseur OSC (Social Connector). Cette méthode peut également renvoyer E_NOTIMPL.
   
 ## <a name="see-also"></a>Voir aussi
 

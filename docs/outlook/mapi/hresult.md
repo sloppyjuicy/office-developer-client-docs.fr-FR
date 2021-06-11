@@ -45,7 +45,7 @@ Une **valeur HRESULT** se compose des champs suivants :
     
 - Code 16 bits décrivant l’erreur ou l’avertissement.
     
-La plupart des méthodes et fonctions d’interface MAPI retournent **des valeurs HRESULT** pour fournir une formation de cause détaillée. **Les valeurs HRESULT** sont également largement utilisées dans les méthodes d’interface OLE. OLE fournit plusieurs macros pour la conversion entre les valeurs **HRESULT** et les valeurs **SCODE,** un autre type de données courant pour la gestion des erreurs. 
+La plupart des méthodes et fonctions d’interface MAPI retournent des **valeurs HRESULT** pour fournir une formation de cause détaillée. **Les valeurs HRESULT** sont également largement utilisées dans les méthodes d’interface OLE. OLE fournit plusieurs macros pour la conversion entre les valeurs **HRESULT** et les valeurs **SCODE,** un autre type de données courant pour la gestion des erreurs. 
   
 > [!NOTE]
 > Dans MAPI 64 bits, **HRESULT** est toujours une valeur 32 bits. 

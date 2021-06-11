@@ -36,7 +36,7 @@ Contient un objet table incorporé qui contient des identificateurs d’entrée 
    
 ## <a name="remarks"></a>Remarques
 
-Pour savoir quels objets modèles peuvent être créés à l’intérieur d’un conteneur, appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur cette propriété. L’objet résultant est le tableau unique qui fournit les identificateurs d’entrée pour tous les modèles que vous pouvez créer à l’intérieur du conteneur. 
+Pour savoir quels objets modèle peuvent être créés à l’intérieur d’un conteneur, appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur cette propriété. L’objet résultant est le tableau unique qui fournit les identificateurs d’entrée pour tous les modèles que vous pouvez créer à l’intérieur du conteneur. 
   
 Pour créer les objets de modèle, appelez la méthode **CreateEntry** de l’objet conteneur sur les valeurs de colonne **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) de la table unique.
   

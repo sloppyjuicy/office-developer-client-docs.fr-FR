@@ -35,7 +35,7 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pfrminfoarray_
   
@@ -73,7 +73,7 @@ MAPI_E_BAD_CHARWIDTH
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::CalcFormPropSet** pour obtenir un tableau des propriétés utilisées par un groupe de formulaires. **CalcFormPropSet** prend une intersection ou une union des jeux de propriétés de ces formulaires, en fonction de l’indicateur définie dans le paramètre  _ulFlags,_ et il renvoie une structure **SMAPIFormPropArray** qui contient le groupe de propriétés résultant. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::CalcFormPropSet** pour obtenir un tableau des propriétés utilisées par un groupe de formulaires. **CalcFormPropSet** prend une intersection ou une union des jeux de propriétés de ces formulaires, en fonction de l’indicateur définie dans le paramètre  _ulFlags,_ et renvoie une structure **SMAPIFormPropArray** qui contient le groupe de propriétés résultant. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 

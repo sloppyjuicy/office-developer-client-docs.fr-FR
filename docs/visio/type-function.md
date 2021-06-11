@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251573
 localization_priority: Normal
 ms.assetid: aff1b5e6-beeb-bd30-ce29-8c6ad589566c
-description: Renvoie le type interne d’un objet sous la forme d’un nombre.
+description: Renvoie le type interne d’un objet sous forme de nombre.
 ms.openlocfilehash: 2c67a5b2adbad0f439c3c2ce201a846b1c5338c0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33432561"
 ---
 # <a name="type-function"></a>Fonction TYPE
 
-Renvoie le type interne d’un objet sous la forme d’un nombre. 
+Renvoie le type interne d’un objet sous forme de nombre. 
   
 ## <a name="syntax"></a>Syntaxe
 

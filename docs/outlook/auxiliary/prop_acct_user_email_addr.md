@@ -31,7 +31,7 @@ Voir [IOlkAccount](iolkaccount.md).
    
 ## <a name="remarks"></a>Remarques
 
- **PROP_ACCT_USER_EMAIL_ADDR** n’est pas censé exister sur chaque compte. Par exemple, un compte [](prop_mapi_identity_entryid.md) Exchange peut avoir des PROP_MAPI_IDENTITY_ENTRYID mais pas PROP_ACCT_USER_EMAIL_ADDR **,** alors que pour un compte SMTP/POP3, la situation est inversée.
+ **PROP_ACCT_USER_EMAIL_ADDR** n’est pas censé exister sur chaque compte. Par exemple, un compte Exchange [](prop_mapi_identity_entryid.md) peut avoir des PROP_MAPI_IDENTITY_ENTRYID mais pas PROP_ACCT_USER_EMAIL_ADDR **,** alors que pour un compte SMTP/POP3, la situation est inversée.
   
 ## <a name="see-also"></a>Voir aussi
 

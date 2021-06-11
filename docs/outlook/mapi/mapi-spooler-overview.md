@@ -39,17 +39,17 @@ L’illustration suivante montre à un niveau élevé comment un message circule
   
 ![Flux de messages sortants](media/amapi_46.gif "Flux de messages sortants")
   
-L’utilisateur d’une application cliente envoie un message à un ou plusieurs destinataires. Le fournisseur de la boutique de messages lance le processus d’envoi, en formatant le message avec des informations supplémentaires nécessaires à la transmission.
+L’utilisateur d’une application cliente envoie un message à un ou plusieurs destinataires. Le fournisseur de la boutique de messages lance le processus d’envoi, en formatant le message avec des informations supplémentaires nécessaires pour la transmission.
   
 Lepooler MAPI reçoit le message à traiter si l’une des conditions suivantes se produit :
   
-- Le fournisseur de magasin de messages n’est pas étroitement associé à un fournisseur de transport.
+- Le fournisseur de la boutique de messages n’est pas étroitement associé à un fournisseur de transport.
     
 - Le message nécessite un prétraitment.
     
 - La magasin de messages et le fournisseur de transport sont étroitement associés, mais ils ne peuvent pas gérer tous les destinataires auxquels le message est adressé.
     
-Si lepooler MAPI reçoit le message, il effectue tout prétraitage requis et le remettre au fournisseur de transport approprié. Le fournisseur de transport envoie le message à son système de messagerie, qui l’envoie à son destinataire prévu.
+Si lepooler MAPI reçoit le message, il effectue les prétraitations requises et le remettre au fournisseur de transport approprié. Le fournisseur de transport envoie le message à son système de messagerie, qui l’envoie à son destinataire prévu.
   
 Avec les messages entrants, le flux est inversé. Le fournisseur de transport reçoit un message de son système de messagerie et avertit lepooler MAPI. Spooler effectue tout post-traitement nécessaire et informe le fournisseur de la boutique de messages qu’un nouveau message est arrivé. Cette notification entraîne l’actualisation de l’affichage du message par le client, ce qui permet à l’utilisateur de lire le nouveau message.
   

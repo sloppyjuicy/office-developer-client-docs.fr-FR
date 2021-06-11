@@ -26,7 +26,7 @@ Pour obtenir une référence à la cellule **LineGradientAngle** par un nom à p
 |:-----|:-----|
 | Nom de cellule :  <br/> | LineGradientAngle  <br/> |
    
-Pour obtenir une référence à la cellule **LineGradientAngle** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la cellule **LineGradientAngle** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

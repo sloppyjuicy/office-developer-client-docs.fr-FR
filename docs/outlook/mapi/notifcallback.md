@@ -41,7 +41,7 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpvContext_
   
@@ -49,7 +49,7 @@ ULONG (STDAPICALLTYPE NOTIFCALLBACK)(
     
  _cNotification_
   
-> [in] Nombre de notifications d’événement dans le tableau indiqué par _le paramètre lpNotifications._ 
+> [in] Nombre de notifications d’événement dans le tableau indiqué par le _paramètre lpNotifications._ 
     
  _lpNotifications_
   
@@ -61,7 +61,7 @@ L’ensemble des valeurs de retour valides pour le prototype de fonction **NOTIF
   
 ## <a name="remarks"></a>Remarques
 
-CALLBACK_DISCONTINUE est une valeur de retour valide pour les fonctions de rappel synchrones uniquement ; Il demande à MAPI d’arrêter immédiatement le traitement des rappels pour cette notification. Lorsque CALLBACK_DISCONTINUE est renvoyé, MAPI définit le paramètre  _lpUlFlags_ sur NOTIFY_CANCELED lorsqu’il revient à partir [d’IMAPISupport::Notify](imapisupport-notify.md). 
+CALLBACK_DISCONTINUE est une valeur de retour valide pour les fonctions de rappel synchrones uniquement ; il demande à MAPI d’arrêter immédiatement le traitement des rappels pour cette notification. Lorsque CALLBACK_DISCONTINUE est renvoyé, MAPI définit le paramètre  _lpUlFlags_ sur NOTIFY_CANCELED lorsqu’il revient à partir [d’IMAPISupport::Notify](imapisupport-notify.md). 
   
 Les limitations suivantes limitent ce que peut faire une fonction de rappel synchrone :
   

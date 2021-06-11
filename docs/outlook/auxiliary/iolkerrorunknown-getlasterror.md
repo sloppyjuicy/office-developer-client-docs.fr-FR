@@ -30,7 +30,7 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _hr_
   

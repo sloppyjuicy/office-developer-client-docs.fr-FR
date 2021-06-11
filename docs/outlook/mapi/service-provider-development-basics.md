@@ -21,7 +21,7 @@ ms.locfileid: "33437804"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette section contient des informations générales que vous devez examiner avant de créer vos propres fournisseurs de services MAPI.
+Cette section contient des informations générales que vous devez consulter avant de créer vos propres fournisseurs de services MAPI.
   
 ## <a name="see-also"></a>Voir aussi
 

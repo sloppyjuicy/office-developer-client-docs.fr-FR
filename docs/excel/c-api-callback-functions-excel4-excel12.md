@@ -20,15 +20,15 @@ ms.locfileid: "33434430"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Les fonctions **Excel4** et **Excel12** sont fournies pour permettre aux DLL d’appeler une fonction de feuille de calcul Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une fonction ou commande spéciale XLL uniquement. Toutes les versions récentes d’Excel la prise en charge **de la fonction Excel4.** À compter d’Excel 2007, la **fonction Excel12** est prise en charge. Les deux fonctions sont fournies sous deux formes : 
+Les fonctions **Excel4** et **Excel12** sont fournies pour permettre aux DLL d’appeler une fonction de feuille de calcul Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une fonction ou commande spéciale XLL uniquement. Toutes les versions récentes Excel la fonction **Excel4.** À compter Excel 2007, la **fonction Excel12** est prise en charge. Les deux fonctions sont fournies sous deux formes : 
   
 - Un formulaire de liste d’arguments de longueur variable (**Excel4/Excel12**)
     
 - Une forme de tableau d’arguments (**Excel4v/Excel12v**)
     
-À l’exception de la manière dont les arguments sont transmis à ces rappels, les deux formulaires sont équivalents sur le plan fonctionnel. Les concepts de base des deux formulaires sont entièrement décrits [dans Excel4/Excel12.](excel4-excel12.md) [Excel4v/Excel12v traite](excel4v-excel12v.md) d’autres problèmes concernant ce formulaire. 
+À l’exception de la manière dont les arguments sont transmis à ces rappels, les deux formulaires sont équivalents sur le plan fonctionnel. Les concepts de base des deux formulaires sont entièrement décrits [dans Excel4/Excel12.](excel4-excel12.md) [Excel4v/Excel12v](excel4v-excel12v.md) traite d’autres problèmes concernant ce formulaire. 
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [Excel4/Excel12](excel4-excel12.md)
   

@@ -39,7 +39,7 @@ HRESULT RemovePreprocessInfo(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
@@ -53,7 +53,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Lepooler MAPI appelle une fonction basée sur **RemovePreprocessInfo**. Un fournisseur de transport inscrit la fonction basée sur **RemovePreprocessInfo** en même temps qu’il inscrit la fonction **basée sur PreprocessMessage** parallèle dans un appel à la méthode [IMAPISupport::RegisterPreprocessor.](imapisupport-registerpreprocessor.md) 
+Lepooler MAPI appelle une fonction basée sur **RemovePreprocessInfo**. Un fournisseur de transport inscrit la fonction basée **removePreprocessInfo** en même temps qu’il inscrit la fonction **basée sur PreprocessMessage** parallèle dans un appel à la méthode [IMAPISupport::RegisterPreprocessor.](imapisupport-registerpreprocessor.md) 
   
 Un rendu d’image approprié pour la transmission de télécopie est un exemple d’informations prétraitées écrites par une fonction définie par le prototype de fonction [PreprocessMessage.](preprocessmessage.md) Lepooler MAPI appelle généralement une **fonction RemovePreprocessInfo** après l’envoi d’un message contenant des informations prétraitées. 
   

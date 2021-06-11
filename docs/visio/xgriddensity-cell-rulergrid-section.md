@@ -23,7 +23,7 @@ Indique le type de grille horizontale à utiliser.
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
-|2   <br/> |Entâyé  <br/> |**visGridCoarse** <br/> |
+|2  <br/> |Entâyé  <br/> |**visGridCoarse** <br/> |
 |4   <br/> |Normal (valeur par défaut)  <br/> |**visGridNormal** <br/> |
 |8   <br/> |Fine  <br/> |**visGridFine** <br/> |
    

@@ -21,7 +21,7 @@ ms.locfileid: "33432694"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les applications clientes au sein du sous-système MAPI attendent un certain nombre de propriétés dans un message reçu. Lorsque le fournisseur de transport envoie un message dans MAPI, il doit définir ces propriétés, car il s’agit soit du seul processus avec les informations nécessaires pour le faire, soit au moins de la meilleure source d’informations.
+Les applications clientes dans le sous-système MAPI attendent un certain nombre de propriétés dans un message reçu. Lorsque le fournisseur de transport envoie un message dans MAPI, il doit définir ces propriétés, car il s’agit soit du seul processus avec les informations nécessaires pour le faire, soit au moins de la meilleure source d’informations.
   
 Les fournisseurs sont encouragés à définir les valeurs de toutes ces propriétés dans les messages entrants.
   
@@ -29,9 +29,9 @@ Les fournisseurs sont encouragés à définir les valeurs de toutes ces proprié
 |:-----|:-----|
 |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |Objet du message.  <br/> |
 |**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |Texte du message en texte simple.  <br/> |
-|**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))  <br/> |Texte compressé du message RTF.  <br/> |
+|**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))  <br/> |Texte de message RTF compressé.  <br/> |
 |**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |Date et heure de livraison du message.  <br/> |
-|**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |Nom complet de l’auteur du message.  <br/> |
+|**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |Nom d’affichage de l’auteur du message.  <br/> |
 |**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md))  <br/> |Entrée du carnet d’adresses de l’auteur du message.  <br/> |
 |**PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md))  <br/> |Clé de recherche du carnet d’adresses de l’auteur du message.  <br/> |
 |**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |Heure à quoi le message a été envoyé à son système de messagerie par le client de messagerie de l’expéditeur.  <br/> |
@@ -49,6 +49,6 @@ Les fournisseurs sont encouragés à définir les valeurs de toutes ces proprié
    
 Les fournisseurs qui n’ont aucun mappage apparent peuvent définir le groupe de propriétés **PR_SENT_REPRESENTING** sur les mêmes valeurs que le groupe **PR_SENDER,** le groupe de propriétés **PR_RCVD_REPRESENTING** sur les mêmes valeurs que le groupe **PR_RECEIVED_BY** et peuvent créer le groupe de propriétés **PR_REPLY_RECIPIENT** en fonction des valeurs du groupe **PR_SENDER.** Par exemple, **PR_SENT_REPRESENTING_NAME** peut être définie sur la même valeur que **PR_SENDER_NAME**.
   
-La **PR_ENTRYID** ou **PR_ENTRYLIST** peut être générée, si nécessaire, en appelant la méthode [IMAPISupport::CreateOneOff.](imapisupport-createoneoff.md) Le **groupe** de propriétés PR_SEARCH_KEY peut être généré en concassant la propriété **PR_ADDRTYPE** associée à un utilisateur, un deux-points (:) et la propriété **PR_EMAIL_ADDRESS** associée à l’utilisateur, puis en modifiant le résultat en minuscules. La fonction d’API Windows **CharUpperBuff** est une fonction pratique à utiliser à cet effet. Ce processus exige la création d’une forme canonique de l’adresse qui peut être comparée en tant que quantité binaire. Notez que cela n’est pas nécessaire si le fournisseur de transport respecte la cas par rapport aux adresses e-mail. 
+La **PR_ENTRYID** ou **PR_ENTRYLIST** peut être générée, si nécessaire, en appelant la méthode [IMAPISupport::CreateOneOff.](imapisupport-createoneoff.md) Le **groupe** de propriétés PR_SEARCH_KEY peut être généré en concassant la propriété **PR_ADDRTYPE** associée à un utilisateur, un deux-points (:) et la propriété **PR_EMAIL_ADDRESS** associée à l’utilisateur, puis en modifiant le résultat en minuscules. La Windows API **CharUpperBuff** est une fonction pratique à utiliser à cet effet. Ce processus exige la création d’une forme canonique de l’adresse qui peut être comparée en tant que quantité binaire. Notez que cela n’est pas nécessaire si le fournisseur de transport respecte la cas par rapport aux adresses e-mail. 
   
 

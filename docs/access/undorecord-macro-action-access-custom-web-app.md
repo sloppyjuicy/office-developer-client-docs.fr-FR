@@ -23,6 +23,6 @@ Rejette les modifications apportées à l’enregistrement actuel.
   
 ## <a name="remarks"></a>Remarques
 
-**L’action AnnulerEnregistrement** équivaut à utiliser le bouton **Annuler** dans la barre d’action pour annuler les modifications. 
+**L’action AnnulerEnregistrement** équivaut à utiliser le bouton **Annuler** dans les modifications d’annulation de la barre d’action. 
   
 

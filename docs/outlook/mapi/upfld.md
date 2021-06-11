@@ -37,7 +37,7 @@ struct UPFLD
 
 _ulFlags_
   
->  [out]/[in] Indicateurs pour déterminer les actions appropriées pour le uplaod. 
+>  [out]/[in] Indicateurs pour déterminer les actions appropriées pour la mettre à jour. 
     
   - UPF_NEW
     
@@ -57,7 +57,7 @@ _ulFlags_
     
   - UPF_OK
     
-    - [in] Le chargement a réussi. Le client définit cette information après le chargement des informations de dossier sur le serveur.
+    - [in] Télécharger a réussi. Le client définit cette information après le chargement des informations de dossier sur le serveur.
     
 _pfld_
   

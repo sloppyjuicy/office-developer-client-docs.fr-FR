@@ -21,13 +21,13 @@ Représente une connexion à un site de réseau social.
   
 ## <a name="members"></a>Members
 
-Le tableau suivant indique les membres disponibles sur l’interface **ISocialSession.** 
+Le tableau suivant indique les membres qui sont disponibles sur l’interface **ISocialSession.** 
   
 |**Name**|**Type de membre**|**Description**|
 |:-----|:-----|:-----|
 |[FindPerson](isocialsession-findperson.md) <br/> |Méthode  <br/> |Obtient une chaîne qui représente une ou plusieurs personnes qui correspondent au _paramètre userID._  <br/> |
 |[FollowPerson](isocialsession-followperson.md) <br/> |Méthode  <br/> |Ajoute la personne identifiée par le  _paramètre emailAddress_ en tant qu’ami de l’utilisateur connecté sur le réseau social.  <br/> |
-|[GetActivities](isocialsession-getactivities.md) <br/> |Méthode  <br/> |Cette méthode a été dépréciée dans Outlook Social Connector (OSC) 1.1.  <br/> |
+|[GetActivities](isocialsession-getactivities.md) <br/> |Méthode  <br/> |Cette méthode a été Outlook Social Connector (OSC) 1.1.  <br/> |
 |[GetLoggedOnUser](isocialsession-getloggedonuser.md) <br/> |Méthode  <br/> |Obtient une interface [ISocialProfile](isocialprofileisocialperson.md) qui représente l’utilisateur connecté.  <br/> |
 |[GetLogonUrl](isocialsession-getlogonurl.md) <br/> |Méthode  <br/> |Obtient une chaîne qui représente une URL utilisée pour présenter un formulaire basé sur un navigateur à l’utilisateur pendant l’authentification web.  <br/> |
 |[GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) <br/> |Méthode  <br/> |Obtient une chaîne qui représente un identificateur de réseau social unique pour une connexion de réseau social donnée.  <br/> |
@@ -45,5 +45,5 @@ Un fournisseur OSC doit implémenter cette interface pour communiquer avec l’O
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Interfaces de fournisseur Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
+- [Outlook Interfaces de fournisseur de connecteurs sociaux](outlook-social-connector-provider-interfaces.md)
 

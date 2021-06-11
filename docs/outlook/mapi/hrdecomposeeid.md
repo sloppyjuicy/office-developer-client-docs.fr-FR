@@ -45,7 +45,7 @@ HrDecomposeEID(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _psession_
   
@@ -53,7 +53,7 @@ HrDecomposeEID(
     
  _cbEID_
   
-> [in] Taille, en octets, de l’identificateur d’entrée composé à séparer. 
+> [in] Taille, en octets, de l’identificateur d’entrée composée à séparer. 
     
  _pEID_
   
@@ -61,11 +61,11 @@ HrDecomposeEID(
     
  _pcbStoreEID_
   
-> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de la boutique de messages qui contient l’objet. Si le  _paramètre pEID_ pointe vers un identificateur d’entrée non saisie, le paramètre  _pcbStoreEID_ pointe sur une valeur de zéro. 
+> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de la boutique de messages qui contient l’objet. Si le  _paramètre pEID_ pointe vers un identificateur d’entrée non fourni, le paramètre  _pcbStoreEID_ pointe sur une valeur de zéro. 
     
  _ppStoreEID_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de la magasin de messages qui contient l’objet. Si le _paramètre pEID_ pointe vers un identificateur d’entrée non fourni, NULL est renvoyé dans le _paramètre ppStoreEID._ 
+> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de la boutique de messages qui contient l’objet. Si le _paramètre pEID_ pointe vers un identificateur d’entrée non saisie, NULL est renvoyé dans le _paramètre ppStoreEID._ 
     
  _pcbMsgEID_
   
@@ -73,7 +73,7 @@ HrDecomposeEID(
     
  _ppMsgEID_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de l’objet. Si le paramètre  _pEID_ pointe vers un identificateur d’entrée noncompound,  _ppMsgEID_ pointe vers un pointeur vers une copie de l’identificateur d’entrée non saisie. 
+> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de l’objet. Si le paramètre  _pEID_ pointe vers un identificateur d’entrée non saisie,  _ppMsgEID_ pointe vers un pointeur vers une copie de l’identificateur d’entrée non saisie. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -81,7 +81,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si l’identificateur spécifié par le paramètre  _pEID_ est composé, il est divisé en identificateur d’entrée de l’objet au sein de sa magasin de messages et de l’identificateur d’entrée de la boutique. Les chaînes d’identificateur d’entrée non saisie sont simplement copiées. L’identificateur composé à séparer est généralement un identificateur créé par la fonction [HrComposeEID.](hrcomposeeid.md) 
+Si l’identificateur spécifié par le paramètre  _pEID_ est composé, il est divisé en identificateur d’entrée de l’objet dans sa magasin de messages et l’identificateur d’entrée de la boutique. Les chaînes d’identificateur d’entrée non saisie sont simplement copiées. L’identificateur composé à séparer est généralement un identificateur créé par [la fonction HrComposeEID.](hrcomposeeid.md) 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

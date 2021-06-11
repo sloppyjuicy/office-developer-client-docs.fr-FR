@@ -37,7 +37,7 @@ LPBYTE FAR * lppbCollapseState
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -45,7 +45,7 @@ LPBYTE FAR * lppbCollapseState
     
  _cbInstanceKey_
   
-> [in] Nombre d’octets dans la clé d’instance pointée par le _paramètre lpbInstanceKey._ 
+> [in] Nombre d’octets dans la clé d’instance pointée par _le paramètre lpbInstanceKey._ 
     
  _lpbInstanceKey_
   
@@ -91,7 +91,7 @@ Stockez l’état actuel de tous les nodes d’une table dans le _paramètre lpp
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Toujours appeler **GetCollapseState avant** d’appeler **SetCollapseState**. 
+Toujours appeler **GetCollapseState** avant d’appeler **SetCollapseState**. 
   
 ## <a name="see-also"></a>Voir aussi
 

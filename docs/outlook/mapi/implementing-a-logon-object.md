@@ -21,9 +21,9 @@ ms.locfileid: "33433044"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Chaque carnet d’adresses, magasin de messages et fournisseur de transport ins instante un objet d’ouverture de messagerie dans le cadre de son implémentation de [IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)ou [IXPProvider::TransportLogon](ixpprovider-transportlogon.md). Les objets d' logon implémentent des méthodes qui aident les demandes clientes de service MAPI. Selon votre type de fournisseur de services, votre objet d’accès prendra en charge l’une des interfaces suivantes. 
+Chaque carnet d’adresses, magasin de messages et fournisseur de transport ins instantique un objet d’ouverture de messagerie dans le cadre de son implémentation de [IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)ou [IXPProvider::TransportLogon](ixpprovider-transportlogon.md). Les objets d' logon implémentent des méthodes qui aident les demandes clientes de service MAPI. Selon votre type de fournisseur de services, votre objet d’accès prendra en charge l’une des interfaces suivantes. 
   
-|**Interface d’objet d’logon**|**Fournisseur de services**|
+|**Interface d’objet d' logon**|**Fournisseur de services**|
 |:-----|:-----|
 |[IABLogon : IUnknown](iablogoniunknown.md) <br/> |Fournisseur de carnet d’adresses  <br/> |
 |[IMSLogon : IUnknown](imslogoniunknown.md) <br/> |Fournisseur de magasin de messages  <br/> |
@@ -31,11 +31,11 @@ Chaque carnet d’adresses, magasin de messages et fournisseur de transport ins 
    
 Les fournisseurs de carnet d’adresses et de magasin de messages implémentent les fonctionnalités suivantes dans leurs objets d’ouverture de messagerie :
   
-- Prise en charge de la notification **d’événement (méthodes Advise** et **Unadvise).** Pour une vue d’ensemble de la notification d’événement, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). Pour plus d’informations sur la prise en charge de la notification dans votre objet d’accès, voir [Notification d’événement de prise en charge.](supporting-event-notification.md) 
+- Prise en charge de la notification **d’événement (méthodes Advise** et **Unadvise).** Pour une vue d’ensemble de la notification d’événement, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). Pour plus d’informations sur la prise en charge des notifications dans votre objet d’accès, voir [Notification d’événement de prise en charge.](supporting-event-notification.md) 
     
-- Comparaison des identificateurs **d’entrée (méthode CompareEntryIDs).** Pour obtenir des informations générales sur les identificateurs d’entrée, voir [identificateurs d’entrée MAPI.](mapi-entry-identifiers.md) Pour plus d’informations sur la comparaison des identificateurs d’entrée dans la méthode **CompareEntryIDs** de votre objet d’inscription, voir [Supporting Object Access and Comparison](supporting-object-access-and-comparison.md).
+- Comparaison des identificateurs **d’entrée (méthode CompareEntryIDs).** Pour obtenir des informations générales sur les identificateurs d’entrée, voir [Identificateurs d’entrée MAPI.](mapi-entry-identifiers.md) Pour plus d’informations sur la comparaison des identificateurs d’entrée dans la méthode **CompareEntryIDs** de votre objet d’inscription, voir [Supporting Object Access and Comparison](supporting-object-access-and-comparison.md).
     
-- Accès à des informations supplémentaires sur les erreurs **(méthode GetLastError).** Pour plus d’informations sur la gestion des erreurs dans MAPI, voir [Gestion des erreurs dans MAPI](error-handling-in-mapi.md). 
+- Accès à des informations supplémentaires sur les erreurs **(méthode GetLastError).** Pour plus d’informations sur la gestion des erreurs dans MAPI, voir Gestion des erreurs [dans MAPI](error-handling-in-mapi.md). 
     
 - Accès aux objets implémentés par le fournisseur de services **(méthode OpenEntry).** Pour plus d’informations, voir [Supporting Object Access and Comparison](supporting-object-access-and-comparison.md).
     
@@ -55,13 +55,13 @@ L’objet d’logon d’un fournisseur de transport, qui implémente [IXPLogon :
   
 - Inscription pour les types d’adresses ([méthode IXPLogon::AddressTypes).](ixplogon-addresstypes.md) Pour plus d’informations sur l’inscription d’un type d’adresse, voir Fournisseur de transport et modèle opérationnel [dupooler MAPI.](transport-provider-and-mapi-spooler-operational-model.md)
     
-- Contrôle de la transmission des messages ([méthodes IXPLogon::StartMessage,](ixplogon-startmessage.md) [IXPLogon::EndMessage](ixplogon-endmessage.md)et [IXPLogon::SubmitMessage).](ixplogon-submitmessage.md) Pour plus d’informations, [voir Modèle de réception de](message-reception-model.md)message, Interaction avec le [spooler MAPI](interacting-with-the-mapi-spooler.md)et modèle [d’envoi de message.](message-submission-model.md)
+- Contrôle de la transmission des messages ([méthodes IXPLogon::StartMessage,](ixplogon-startmessage.md) [IXPLogon::EndMessage](ixplogon-endmessage.md)et [IXPLogon::SubmitMessage).](ixplogon-submitmessage.md) Pour plus d’informations, [voir modèle de réception de message](message-reception-model.md), Interaction avec lepooler [MAPI](interacting-with-the-mapi-spooler.md)et modèle [de soumission de messages](message-submission-model.md).
     
 - Validation d’état interne ([méthode IXPLogon::ValidateState).](ixplogon-validatestate.md) 
     
 - Possibilité de télécharger ou de télécharger des messages à la demande ([méthode IXPLogon::FlushQueues).](ixplogon-flushqueues.md) Pour plus d’informations, [voir Implementing the FlushQueues Method](implementing-the-flushqueues-method.md).
     
-- Possibilité d’interroger les messages en attente[(méthode IXPLogon::P).](ixplogon-poll.md) Pour plus d’informations, [consultez le modèle de réception des messages.](message-reception-model.md)
+- Possibilité d’interroger les messages en attente (méthode[IXPLogon::P).](ixplogon-poll.md) Pour plus d’informations, [consultez le modèle de réception des messages.](message-reception-model.md)
     
 - Détection d’état[d’inactivité ( méthode IXPLogon::Idle).](ixplogon-idle.md) 
     

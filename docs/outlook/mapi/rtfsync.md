@@ -39,7 +39,7 @@ HRESULT RTFSync(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _lpMessage_
   
@@ -71,7 +71,7 @@ Si la propriété **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonica
   
 Si l’indicateur STORE_RTF_OK n’est pas définie dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask),](pidtagstoresupportmask-canonical-property.md)cette fonction doit être appelée avec l’indicateur RTF_SYNC_RTF_CHANGED définie après la modification **PR_RTF_COMPRESSED**. 
   
-Si les **deux PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) et **PR_RTF_COMPRESSED** ont été modifiés, la **fonction RTFSync** doit être appelée avec les deux indicateurs. 
+Si les **deux PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) et **PR_RTF_COMPRESSED** ont été modifiées, la **fonction RTFSync** doit être appelée avec les deux indicateurs. 
   
 Si la valeur du paramètre  _lpfMessageUpdated_ est définie sur TRUE, la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) doit être appelée pour le message. Si **SaveChanges n’est** pas appelé, les modifications ne seront pas enregistrées dans le message. 
   

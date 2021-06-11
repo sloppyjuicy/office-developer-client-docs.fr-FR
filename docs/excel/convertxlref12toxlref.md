@@ -22,13 +22,13 @@ ms.locfileid: "33432652"
 
 **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Tente de convertir un **xlREF12** en **xlREF**.
+Tente de convertir un **xlREF12** en **XLREF**.
   
 ```cs
 BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pxRef12_ (**LPXLREF12**)
   

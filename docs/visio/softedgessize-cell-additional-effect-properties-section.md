@@ -26,7 +26,7 @@ Pour obtenir une référence à la cellule **SoftEdgesSize** par un nom à parti
 |:-----|:-----|
 | Nom de cellule :  <br/> | SoftEdgesSize  <br/> |
    
-Pour obtenir une référence à la cellule **SoftEdgesSize** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la **cellule SoftEdgesSize** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

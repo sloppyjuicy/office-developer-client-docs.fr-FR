@@ -22,17 +22,17 @@ ms.locfileid: "33432491"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Lorsqu’une boîte de dialogue modale est affichée sur la fenêtre Microsoft Excel, le curseur est un curseur occupé au-dessus de la fenêtre Excel. Ce **WndProc** capture les WM_SETCURSOR messages Windows et modifie le curseur en flèche normale. 
+Lorsqu’une boîte de dialogue modale est affichée sur la fenêtre Microsoft Excel, le curseur est un curseur occupé au-dessus de la Excel fenêtre. Ce **WndProc** capture WM_SETCURSOR type Windows messages et modifie le curseur en flèche normale. 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hWndDlg_ (**HWND**)
   
-Contient le handle Windows HWND de la boîte de dialogue.
+Contient le handle de Windows HWND de la boîte de dialogue.
   
  _message_ (**UINT**)
   

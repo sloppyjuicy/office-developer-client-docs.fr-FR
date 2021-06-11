@@ -25,7 +25,7 @@ ms.locfileid: "33436663"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Maillons vers l’en-tête APPROUVÉ MIME.
+Cartes’en-tête APPROUVÉ MIME.
   
 |||
 |:-----|:-----|

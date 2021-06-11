@@ -33,7 +33,7 @@ HRESULT GetMax(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpulMax_
   

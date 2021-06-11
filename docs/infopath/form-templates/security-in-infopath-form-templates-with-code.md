@@ -19,13 +19,13 @@ ms.locfileid: "33433877"
 
 Cette section traite du modèle de sécurité pour les modèles de formulaires Microsoft InfoPath utilisant du code managé.
   
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 [À propos du modèle de sécurité pour les modèles de formulaires avec code](about-the-security-model-for-form-templates-with-code.md)
   
 > Décrit le modèle de sécurité pour les modèles de formulaires avec code managé.
     
-[Configurer les paramètres de sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md)
+[Configurer l’Paramètres sécurité pour les modèles de formulaires avec code](how-to-configure-security-settings-for-form-templates-with-code.md)
   
 > Décrit la configuration des paramètres de sécurité .NET Framework pour les modèles de formulaires avec code managé.
     

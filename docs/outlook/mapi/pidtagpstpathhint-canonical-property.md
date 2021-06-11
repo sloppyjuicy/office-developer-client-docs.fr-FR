@@ -42,7 +42,7 @@ Si la **propriété PR_PST_PATH** ([PidTagPstPath](pidtagpstpath-canonical-prope
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

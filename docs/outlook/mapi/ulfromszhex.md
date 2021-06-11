@@ -25,7 +25,7 @@ ms.locfileid: "33433051"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Convertit une chaîne de chiffres hexadécimals terminée par null en un nombre long non signé. 
+Convertit une chaîne terminée par null de chiffres hexadécimals en un nombre long non signé. 
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ LPCSTR lpsz
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   

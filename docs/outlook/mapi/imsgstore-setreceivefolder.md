@@ -36,7 +36,7 @@ HRESULT SetReceiveFolder(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpszMessageClass_
   
@@ -66,9 +66,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgStore::SetReceiveFolder** définit ou modifie le dossier de réception d’une classe de message particulière. Avec **SetReceiveFolder,** un client peut, à l’aide d’appels successifs, spécifier un dossier de réception différent pour chaque classe de message définie ou spécifier que les messages entrants pour plusieurs classes de messages sont tous placés dans le même dossier. Par exemple, un client peut avoir sa propre classe de messages arrive dans son propre dossier. Une application de télécopie peut désigner un dossier dans lequel le fournisseur de magasins place les télécopies entrantes et un autre dossier dans lequel le fournisseur place les télécopies sortantes.
+La **méthode IMsgStore::SetReceiveFolder** définit ou modifie le dossier de réception d’une classe de message particulière. Avec **SetReceiveFolder,** un client peut, à l’aide d’appels successifs, spécifier un dossier de réception différent pour chaque classe de message définie ou spécifier que les messages entrants pour plusieurs classes de messages sont tous placés dans le même dossier. Par exemple, un client peut avoir sa propre classe de messages arrive dans son propre dossier. Une application de télécopie peut désigner un dossier dans lequel le fournisseur de magasins place les télécopies entrantes et un autre dossier dans lequel il place les télécopies sortantes.
   
-Si une erreur se produit pendant l’appel à **SetReceiveFolder,** le paramètre du dossier de réception reste inchangé. 
+Si une erreur se produit pendant l’appel de **SetReceiveFolder,** le paramètre du dossier de réception reste inchangé. 
   
 Si **SetReceiveFolder** modifie le paramètre du dossier de réception avec  _lpEntryID_ définie sur NULL, indiquant que le dossier de réception par défaut doit être définie, **SetReceiveFolder** renvoie S_OK même s’il n’y avait aucun paramètre existant pour la classe de message indiquée. 
   

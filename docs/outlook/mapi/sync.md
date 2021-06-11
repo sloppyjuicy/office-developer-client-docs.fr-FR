@@ -49,7 +49,7 @@ struct SYNC
     
 - UPS_DNLOAD_ONLY
     
-  - [in] Le client effectue uniquement le téléchargement. Outlook ne doit pas effacer les bits de chargement pour les dossiers.
+  - [in] Le client effectue uniquement le téléchargement. Outlook ne doit pas effacer les bits de chargement des dossiers.
     
 - UPS_THESE_FOLDERS
     
@@ -70,11 +70,11 @@ struct SYNC
     
  _Reserved1_
   
-- Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge.
+- Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge.
     
  _Reserved2_
   
-- Ce membre est réservé à l’utilisation interne d’Outlook et n’est pas pris en charge.
+- Ce membre est réservé à l’utilisation interne de Outlook et n’est pas pris en charge.
     
  *pel* 
   

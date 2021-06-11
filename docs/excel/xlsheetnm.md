@@ -28,13 +28,13 @@ Renvoie le nom d’une feuille de calcul ou d’une feuille macro à partir de s
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _pxExtref_ (**xltypeRef** ou **xltypeSRef**)
   
 Référence à la feuille dont vous souhaitez le nom.
   
-Si vous transmettre une référence externe (**xltypeRef**), il ne doit contenir que l’ID de la feuille. Les structures de données qui décrivent les cellules de la feuille de calcul sont ignorées et n’ont pas besoin d’être fournies. Si l’ID est définie sur zéro, **xlSheetNm** renvoie le nom de la feuille actuelle. 
+Si vous transmettre une référence externe (**xltypeRef**), il doit uniquement contenir l’ID de la feuille. Les structures de données qui décrivent les cellules de la feuille de calcul sont ignorées et n’ont pas besoin d’être fournies. Si l’ID est définie sur zéro, **xlSheetNm** renvoie le nom de la feuille actuelle. 
   
 Si vous transmettre une référence interne (**xltypeSef**), **xlSheetNm** renvoie le nom de la feuille actuelle. 
   
@@ -44,7 +44,7 @@ Renvoie le nom de la feuille (**xltypeStr**) au formulaire  `[Book1]Sheet1` .
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant affiche le nom de la feuille à partir de laquelle la fonction a été appelée. La fonction fonctionne correctement uniquement si elle est appelée à partir d’une feuille macro lors de l’exécution d’une macro de commande XLM. En effet, il appelle **xlcAlert,** ce que seules les commandes peuvent faire, et il doit être appelé à partir d’une feuille plutôt que d’une boîte de dialogue, d’un menu ou d’une barre de commandes pour que **xlfCaller** retourne une référence. 
+L’exemple suivant affiche le nom de la feuille à partir de laquelle la fonction a été appelée. La fonction fonctionne correctement uniquement si elle est appelée à partir d’une feuille macro lors de l’exécution d’une macro de commande XLM. Cela est dû au fait qu’il appelle **xlcAlert,** ce que seules les commandes peuvent faire, et qu’il doit être appelé à partir d’une feuille plutôt que d’une boîte de dialogue, d’un menu ou d’une barre de commandes afin que **xlfCaller** retourne une référence. 
   
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

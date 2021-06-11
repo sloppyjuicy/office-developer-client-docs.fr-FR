@@ -23,7 +23,7 @@ ms.locfileid: "33436866"
   
 L’exemple de fournisseur de magasins PST wrapped utilise un fournisseur de fichiers de dossiers personnels (PST) comme système de stockage des données. Le fournisseur de magasin PST wrapped doit être utilisé avec l’API de réplication. 
   
-L’API de réplication vous permet de répliquer des éléments à partir d’un référentiel de données back-end dans un magasin PST Microsoft Outlook. Vous utilisez l’API de réplication pour répliquer les données dans un magasin PST dédié et suivre l’état de synchronisation. Pour plus d’informations, voir [à propos de l’API de réplication.](about-the-replication-api.md)
+L’API de réplication vous permet de répliquer des éléments à partir d’un référentiel de données back end dans un magasin PST Outlook Microsoft. Vous utilisez l’API de réplication pour répliquer les données dans un magasin PST dédié et suivre l’état de synchronisation. Pour plus d’informations, voir [à propos de l’API de réplication.](about-the-replication-api.md)
   
 La plupart des fonctions dans l’exemple de fournisseur de magasin PST Wrapped passent leurs arguments directement au fournisseur PST sous-jacent. Certaines fonctions nécessitent une implémentation spéciale et sont décrites dans les rubriques suivantes.
   
@@ -36,7 +36,7 @@ La plupart des fonctions dans l’exemple de fournisseur de magasin PST Wrapped 
    
 ## <a name="supported-features"></a>Fonctionnalités prise en charge
 
-Cet exemple prend en charge Microsoft Outlook 2010 64 bits et a été révisé pour Outlook 2013. Pour plus d’informations, consultez les rubriques suivantes :
+Cet exemple prend en charge Microsoft Outlook 2010 64 bits et a été révisé Outlook 2013. Pour plus d’informations, consultez les rubriques suivantes :
   
 - [À propos de l’API de réplication](about-the-replication-api.md)
     
@@ -50,15 +50,15 @@ Cet exemple prend en charge Microsoft Outlook 2010 64 bits et a été révisé p
     
  **Pour installer l’exemple de fournisseur de magasin PST Wrapped**
   
-1. Pour télécharger l’exemple de fournisseur PST Wrapped, voir [Téléchargement des exemples MAPI Outlook.](downloading-the-outlook-mapi-samples.md)
+1. Pour télécharger l’exemple de fournisseur PST Wrapped, voir Téléchargement des exemples [Outlook MAPI.](downloading-the-outlook-mapi-samples.md)
     
-2. Recherchez le dossier dans lequel vous avez enregistré les exemples MAPI Outlook. Cliquez avec le bouton droit sur le dossier zip du numéro de **\< \> version d’OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
+2. Recherchez le dossier dans lequel vous avez enregistré Outlook exemples MAPI. Cliquez avec le bouton droit sur le dossier zip du numéro de **\< \> version d’OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
     
 3. Cliquez **sur Parcourir,** sélectionnez l’emplacement où vous souhaitez enregistrer l’exemple, puis cliquez sur **Extraire.**
     
 4. Exécutez Microsoft Visual Studio 2008.
     
-5. Dans Microsoft Visual Studio 2008, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Projet/Solution.**
+5. Dans Microsoft Visual Studio 2008, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Project/Solution.**
     
 6. Accédez à l’emplacement où vous avez enregistré l’exemple, cliquez sur **WrapPST.vcproj,** puis cliquez sur **Ouvrir**.
     

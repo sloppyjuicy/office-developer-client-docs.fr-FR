@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433919"
 ---
-# <a name="setvariable-macro-action-access-custom-web-app"></a>SetVariable Macro Action (Application web personnalisée Access)
+# <a name="setvariable-macro-action-access-custom-web-app"></a>SetVariable Macro Action (Access custom web app)
 
 Vous pouvez utiliser **l’action DéfinirVariable** pour créer une variable temporaire et la définir sur une valeur spécifique. La variable peut ensuite être utilisée comme condition ou argument dans les actions suivantes, ou vous pouvez utiliser la variable dans une autre macro d’interface utilisateur . 
   

@@ -25,7 +25,7 @@ ms.locfileid: "33436852"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la coordonnée y de la position de départ (coin supérieur gauche) d’un contrôle de boîte de dialogue, dans les unités de boîte de dialogue Windows standard.
+Contient la coordonnée y de la position de départ (coin supérieur gauche) d’un contrôle de boîte de dialogue, en unités Windows dialogue standard.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient la coordonnée y de la position de départ (coin supérieur gauche) d�
    
 ## <a name="remarks"></a>Remarques
 
-Les **PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), cette propriété, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) et les propriétés **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) positionnent et dimensionnent le contrôle.
+Les **propriétés PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), cette propriété, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) et **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) positionnent et dimensionnent le contrôle.
   
 ## <a name="related-resources"></a>Ressources connexes
 

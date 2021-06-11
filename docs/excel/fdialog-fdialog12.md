@@ -29,7 +29,7 @@ Exemple de commande définie par l’utilisateur qui montre comment créer un UD
 int WINAPI fDialog(void);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 La fonction ne prend aucun paramètre.
   

@@ -21,9 +21,9 @@ ms.locfileid: "33431602"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les applications clientes définissent la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou la propriété **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) pour un message sortant. Les clients qui ne supportent que le texte simple définissent uniquement **PR_BODY** propriété. Les clients au format RTF (Rich  Text Format) peuvent définir les propriétés PR_BODY et **PR_RTF_COMPRESSED,** ou uniquement **PR_RTF_COMPRESSED,** en fonction du fournisseur de magasin de messages utilisé. Les clients html définissent la **propriété PR_HTML.** 
+Les applications clientes définissent la propriété **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), la propriété **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) ou la propriété **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) pour un message sortant. Les clients qui ne supportent que le texte simple définissent uniquement **PR_BODY** propriété. Les clients au format RTF (Rich  Text Format) peuvent définir les propriétés PR_BODY et **PR_RTF_COMPRESSED,** ou uniquement **PR_RTF_COMPRESSED,** en fonction du fournisseur de magasins de messages utilisé. Les clients html définissent la **propriété PR_HTML.** 
   
-Il est important pour un client de vérifier la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de sa magasin pour déterminer si la magasin prend en charge RTF. Si la magasin de messages n’est pas sensible au  rtf, un client rtf définit les propriétés PR_BODY et **PR_RTF_COMPRESSED** pour chaque message sortant. 
+Il est important pour un client de vérifier la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de sa magasin pour déterminer si la boutique prend en charge RTF. Si la magasin de messages n’est pas sensible au  rtf, un client rtf définit les propriétés PR_BODY et **PR_RTF_COMPRESSED** pour chaque message sortant. 
   
 Si la magasin de messages est sensible au rtf, seule la **propriété PR_RTF_COMPRESSED** doit être définie. 
   
@@ -37,6 +37,6 @@ Si la magasin de messages est sensible au rtf, seule la **propriété PR_RTF_COM
     
 4. Valider et libérer les flux non compressés et non compressés.
     
-À ce stade, si le fournisseur de magasin de messages prend en charge rtf, vous avez effectué tout ce qui est nécessaire. Vous pouvez dépendre du fournisseur de la boutique de messages pour gérer le processus de synchronisation et la création de la **propriété PR_BODY,** si nécessaire. Toutefois, si le fournisseur de magasin de messages ne prend pas en charge le format RTF, vous devez appeler la fonction [RTFSync](rtfsync.md) pour synchroniser le texte avec la mise en forme, en RTF_SYNC_RTF_CHANGED’indicateur. 
+À ce stade, si le fournisseur de magasin de messages prend en charge rtf, vous avez effectué tout ce qui est nécessaire. Vous pouvez dépendre du fournisseur de la boutique de messages pour gérer le processus de synchronisation et la création de la **propriété PR_BODY,** si nécessaire. Toutefois, si le fournisseur de la boutique de messages ne prend pas en charge le format RTF, vous devez appeler la fonction [RTFSync](rtfsync.md) pour synchroniser le texte avec la mise en forme, en RTF_SYNC_RTF_CHANGED’indicateur. 
   
 

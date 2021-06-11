@@ -41,7 +41,7 @@ Pour ouvrir un conteneur de niveau inférieur, appelez **OpenEntry** et spécifi
     
 3. Si le conteneur à ouvrir est d’un type spécifique :
     
-   - Créez une structure **SPropertyRestriction** avec **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) pour la balise de propriété, le type du conteneur pour la valeur de propriété et RELOP_EQ pour la relation. **PR_DISPLAY_TYPE** peuvent être définies sur plusieurs valeurs, parmi celles-ci : 
+   - Créez une structure **SPropertyRestriction** avec **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) pour la balise de propriété, le type du conteneur pour la valeur de propriété et RELOP_EQ pour la relation. **PR_DISPLAY_TYPE** peuvent être définies sur de nombreuses valeurs, parmi celles-ci : 
     
    - DT_GLOBAL pour limiter la table de hiérarchie aux conteneurs qui appartiennent à la liste d’adresses globale.
     

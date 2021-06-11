@@ -33,7 +33,7 @@ Si MIME est utilisé sans TNEF, les fichiers joints sont envoyés en tant que co
     
      *Content-Transfer-Encoding: quoted-printable* 
     
-- Si 25 % ou plus des caractères ont le jeu de bits élevé, la pièce jointe est binaire. Il est codé à l’aide de l’algorithme Base64. *Type de contenu : application/octet-stream*  (par défaut ; basé sur l’extension de fichier) 
+- Si 25 % ou plus des caractères ont le jeu de bits élevé, la pièce jointe est binaire. Il est codé à l’aide de l’algorithme Base64. *Content-type: application/octet-stream*  (par défaut ; en fonction de l’extension de fichier) 
     
      * Content-Transfer-Encoding: base64 * 
     

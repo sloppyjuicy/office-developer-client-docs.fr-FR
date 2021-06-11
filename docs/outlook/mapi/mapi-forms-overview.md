@@ -29,7 +29,7 @@ L’illustration suivante montre la relation entre les composants MAPI impliqué
   
 ![Architecture de formulaire MAPI - Architecture](media/forms01.gif "de formulaire MAPI")
   
-Dans le diagramme, notez que le gestionnaire de formulaires joue un rôle semblable à d’autres fournisseurs de services MAPI, bien qu’il ne s’agit pas d’un fournisseur de services lui-même. Le gestionnaire de formulaires est une DLL remplaçable qui implémente certaines interfaces MAPI. Bien que les développeurs peuvent implémenter leur propre gestionnaire de formulaires, la plupart des environnements utiliseront le gestionnaire de formulaires fourni par Microsoft en raison de la complexité du gestionnaire de formulaires.
+Dans le diagramme, notez que le gestionnaire de formulaires joue un rôle semblable à d’autres fournisseurs de services MAPI, bien qu’il ne soit pas un fournisseur de services lui-même. Le gestionnaire de formulaires est une DLL remplaçable qui implémente certaines interfaces MAPI. Bien que les développeurs peuvent implémenter leur propre gestionnaire de formulaires, la plupart des environnements utiliseront le gestionnaire de formulaires fourni par Microsoft en raison de la complexité du gestionnaire de formulaires.
   
 La liste suivante décrit les composants du diagramme et leur relation avec d’autres composants :
   

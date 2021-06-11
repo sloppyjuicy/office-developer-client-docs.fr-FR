@@ -25,7 +25,7 @@ ms.locfileid: "33431959"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Maillons vers l’en-tête du contrôle MIME.
+Cartes à l’en-tête du contrôle MIME.
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ Maillons vers l’en-tête du contrôle MIME.
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

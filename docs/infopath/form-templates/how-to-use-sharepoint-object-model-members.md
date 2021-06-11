@@ -1,5 +1,5 @@
 ---
-title: Utiliser les membres du modèle objet SharePoint
+title: Utiliser SharePoint membres du modèle objet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431658"
 ---
-# <a name="use-sharepoint-object-model-members"></a>Utiliser les membres du modèle objet SharePoint
+# <a name="use-sharepoint-object-model-members"></a>Utiliser SharePoint membres du modèle objet
 
 avant de pouvoir programmer en faisant référence aux membres du modèle objet de SharePoint à partir du code exécuté dans un modèle de formulaire InfoPath, vous devez référencer l'assembly Microsoft.SharePoint.dll dans le projet Visual Studio 2012 de votre formulaire. Pour cela, vous devez avoir accès au système de fichiers d'une copie de Microsoft SharePoint Server 2010 ou à un serveur Microsoft SharePoint Foundation 2010 afin de pouvoir obtenir une copie de l'assembly Microsoft.SharePoint.dll. 
   

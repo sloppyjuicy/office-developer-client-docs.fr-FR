@@ -23,8 +23,8 @@ Détermine le mode de sélection d'une forme de groupe et de ses membres.
 |**Valeur**|**Mode de sélection**|**Constante d'automation**|
 |:-----|:-----|:-----|
 |0  <br/> |Sélectionner uniquement la forme de groupe.  <br/> |**visGrpSelModeGroupOnly** <br/> |
-|1   <br/> |Sélectionner la forme de groupe en premier.  <br/> |**visGrpSelModeGroup1st** <br/> |
-|2   <br/> |Sélectionner les membres du groupe en premier.  <br/> |**visGrpSelModeMembers1st** <br/> |
+|1  <br/> |Sélectionner la forme de groupe en premier.  <br/> |**visGrpSelModeGroup1st** <br/> |
+|2  <br/> |Sélectionner les membres du groupe en premier.  <br/> |**visGrpSelModeMembers1st** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

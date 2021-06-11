@@ -39,7 +39,7 @@ ISERR(** *cellreference* ** )
    
 Renvoie FALSE parce que l’erreur #N/A! n’est pas reconnue par la fonction ISERR. Utilisez ISERROR pour trouver tous les types d’erreur.
   
-## <a name="example-2"></a>Exemple 2
+## <a name="example-2"></a>Exemple 2
 
 |**Cell**|**Formula**|**Valeur renvoyée**|
 |:-----|:-----|:-----|

@@ -19,7 +19,7 @@ ms.locfileid: "33436026"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Dans une session particulière, une magasin de messages fait office de magasin de messages par défaut. Une magasin de messages par défaut présente les caractéristiques suivantes :
+Dans une session particulière, une seule magasin de messages fait office de magasin de messages par défaut. Une magasin de messages par défaut présente les caractéristiques suivantes :
   
 - La **PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md)) est définie sur TRUE.
     
@@ -27,7 +27,7 @@ Dans une session particulière, une magasin de messages fait office de magasin d
     
 - MAPI crée automatiquement la sous-arbre IPM et les dossiers racine pour les résultats de recherche, les affichages communs et les affichages personnels lorsque la magasin de messages est ouverte. Pour plus d’informations sur ces dossiers, voir [Sous-arbre IPM](ipm-subtree.md) et [Dossiers spéciaux MAPI.](mapi-special-folders.md) 
     
-Pour récupérer l’identificateur d’entrée pour la magasin de messages par défaut, vous devez appeler [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) pour ouvrir la table de la boutique de messages et appliquer une restriction appropriée dans un appel à [HrQueryAllRows](hrqueryallrows.md). **HrQueryAllRows** retourne un ensemble de lignes avec la seule ligne qui représente la magasin de messages par défaut. La restriction que vous passez à **HrQueryAllRows** peut prendre l’une des formes suivantes : 
+Pour récupérer l’identificateur d’entrée de la magasin de messages par défaut, vous devez appeler [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) pour ouvrir la table de la boutique de messages et appliquer une restriction appropriée dans un appel à [HrQueryAllRows](hrqueryallrows.md). **HrQueryAllRows** retourne un ensemble de lignes avec la seule ligne qui représente la magasin de messages par défaut. La restriction que vous passez à **HrQueryAllRows** peut prendre l’une des formes suivantes : 
   
 1. Restriction **AND** qui utilise une structure **SAndRestriction** pour combiner : 
     

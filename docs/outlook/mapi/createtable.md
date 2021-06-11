@@ -47,7 +47,7 @@ SCODE CreateTable(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
@@ -71,7 +71,7 @@ SCODE CreateTable(
     
  _ulTableType_
   
-> [in] Un type de table qui est disponible pour une application cliente ou un fournisseur de services dans le cadre de [l’IMAPITable::GetStatus](imapitable-getstatus.md) retourne des données sur ses vues de table. Les valeurs possibles sont les suivantes : 
+> [in] Un type de table disponible pour une application cliente ou un fournisseur de services dans le cadre de [LMAPITable::GetStatus](imapitable-getstatus.md) retourne des données sur ses vues de table. Les valeurs possibles sont les suivantes : 
     
 TBLTYPE_DYNAMIC 
   
@@ -105,7 +105,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les paramètres d’entrée _lpAllocateBuffer,_ _lpAllocateMore_ et _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer.](mapifreebuffer.md) Une application cliente appelant **CreateTable** transmet des pointeurs vers les fonctions MAPI nommées ; un fournisseur de services transmet les pointeurs vers ces fonctions qu’il a reçues dans son appel d’initialisation ou récupérées avec un appel à la méthode [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
+Les paramètres d’entrée _lpAllocateBuffer,_ _lpAllocateMore_ et _lpFreeBuffer_ pointent respectivement vers les fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer.](mapifreebuffer.md) Une application cliente appelant **CreateTable** transmet des pointeurs vers les fonctions MAPI nommées ; un fournisseur de services transmet les pointeurs vers ces fonctions reçues dans son appel d’initialisation ou récupérées avec un appel à la méthode [IMAPISupport::GetMemAllocRoutines.](imapisupport-getmemallocroutines.md) 
   
 ## <a name="see-also"></a>Voir aussi
 

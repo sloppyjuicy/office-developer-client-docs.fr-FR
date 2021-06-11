@@ -23,7 +23,7 @@ Se connecte au site de réseau social à l’aide des informations d’identific
 HRESULT _stdcall LogonCached([in] BSTR connectIn, [in] BSTR userName, [in] BSTR password,  [out] BSTR connectOut);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _connectIn_
   
@@ -45,9 +45,9 @@ _connectOut_
 
 Cette méthode est appelée pour l’authentification uniquement si **useLogonCached** est définie comme **true** dans les fonctionnalités **XML** renvoyées par [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md).
   
-Outlook Social Connector (OSC) appelle **LogonCached** et transmet une chaîne vide pour les chaînes  _connectIn_ et  _userName_ et  _password_ non vides. Le fournisseur utilise _userName_ et le mot de passe pour se connecter au réseau social et renvoie un paramètre _opaque connectOut_ à l’OSC si l’authentification réussit.  En cas d’échec de l’authentification, le fournisseur renvoie OSC_E_LOGON_FAILURE erreur de message à l’OSC. 
+Le Outlook Social Connector (OSC) appelle **LogonCached** et transmet une chaîne vide pour les chaînes _connectIn_ et _userName_ et _password_ non vides. Le fournisseur utilise _userName_ et le mot de passe pour se connecter au réseau social et renvoie un paramètre _opaque connectOut_ à l’OSC si l’authentification réussit.  En cas d’échec de l’authentification, le fournisseur renvoie OSC_E_LOGON_FAILURE erreur de message à l’OSC. 
   
-Le  _paramètre connectOut_ est une chaîne opaque à OSC et est transmis au paramètre  _connectIn_ lors des tentatives ultérieures de connexion au réseau social par l’OSC. Le fournisseur doit placer toutes les informations d’identification dans la  _chaîne connectOut_ que le fournisseur souhaite que l’OSC stocke sur plusieurs connexions. L’OSC n’interprète pas la chaîne dans  _connectOut_ et chiffre la chaîne à des fins de sécurité avant de la stocker dans le Registre Windows.
+Le  _paramètre connectOut_ est une chaîne opaque à OSC et est transmis au paramètre  _connectIn_ lors des tentatives ultérieures de connexion au réseau social par l’OSC. Le fournisseur doit placer toutes les informations d’identification dans la  _chaîne connectOut_ que le fournisseur souhaite que l’OSC stocke sur plusieurs connexions. L’OSC n’interprète pas la chaîne dans _connectOut_ et chiffre la chaîne à des fins de sécurité avant de la stocker dans Windows registre.
   
 ## <a name="see-also"></a>Voir aussi
 

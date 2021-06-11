@@ -27,13 +27,13 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
   
 - Taille : DWORD (4 octets), taille, en nombre d’octets, de l’élément de données de contenu.
     
-- Contenu : tableau de byte. Le nombre de ce tableau est égal à l’élément de données Size. La signification de l’élément de données Content dépend de l’emplacement de la structure SkipBlock dans la série et de la version d’Outlook. Si la première structure SkipBlock n’est pas la structure de fin, Outlook considère la première structure SkipBlock comme la structure de flux [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) qui spécifie le nom du champ dans Unicode. 
+- Contenu : tableau de BYTE. Le nombre de ce tableau est égal à l’élément de données Size. La signification de l’élément de données Content dépend de l’emplacement de la structure SkipBlock dans la série et de la version de Outlook. Si la première structure SkipBlock n’est pas la structure de fin, Outlook considère la première structure SkipBlock comme la structure de flux [FirstSkipBlockContent](firstskipblockcontent-stream-structure.md) qui spécifie le nom du champ dans Unicode. 
     
 ## <a name="see-also"></a>Voir aussi
 
 
 
-[Éléments et champs Outlook](outlook-items-and-fields.md)
+[Outlook Éléments et champs](outlook-items-and-fields.md)
   
 [Structures de flux](stream-structures.md)
   

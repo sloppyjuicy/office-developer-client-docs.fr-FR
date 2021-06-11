@@ -21,16 +21,16 @@ Spécifie le type de biseau inférieur du biseau d’une forme.
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun biseau  <br/> |
-|1   <br/> |Biseau de cercle  <br/> |
-|2   <br/> |Biseau d’ensemble relâché  <br/> |
-|3   <br/> |Biseau croisé  <br/> |
+|1  <br/> |Biseau de cercle  <br/> |
+|2  <br/> |Biseau d’ensemble relâché  <br/> |
+|3  <br/> |Biseau croisé  <br/> |
 |4   <br/> |Biseau incliné froid  <br/> |
 |5   <br/> |Biseau d’angle  <br/> |
 |6   <br/> |Biseau arrondi  <br/> |
 |7   <br/> |Biseau convexe  <br/> |
 |8   <br/> |Biseau de pente  <br/> |
 |9   <br/> |Biseau de Divot  <br/> |
-|10   <br/> |Biseau de l’let  <br/> |
+|10  <br/> |Biseau de l’let  <br/> |
 |11  <br/> |Biseau du bord dur  <br/> |
 |12   <br/> |Biseau Deco Art  <br/> |
    

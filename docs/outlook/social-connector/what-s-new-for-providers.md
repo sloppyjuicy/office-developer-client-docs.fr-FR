@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
-description: Cette rubrique répertorie les principales modifications apportées à Outlook Social Connector 2013 (OSC). Il présente une comparaison des fonctionnalités disponibles entre Outlook Social Connector 2013 et Outlook Social Connector 1.1.
+description: Cette rubrique répertorie les principales modifications apportées Outlook Social Connector 2013 (OSC). Il présente une comparaison des fonctionnalités disponibles entre Outlook Social Connector 2013 et Outlook Social Connector 1.1.
 ms.openlocfilehash: 6b735555d312c149d7dc8b827990b96bfc229678
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,23 +17,23 @@ ms.locfileid: "33435452"
 ---
 # <a name="whats-new-for-providers"></a>Nouveautés pour les fournisseurs
 
-Cette rubrique répertorie les principales modifications apportées à Outlook Social Connector 2013 (OSC). Il présente une comparaison des fonctionnalités disponibles entre Outlook Social Connector 2013 et Outlook Social Connector 1.1. Il décrit également les membres d’interface et les éléments XML qui ont été ajoutés, modifiés ou supprimés. 
+Cette rubrique répertorie les principales modifications apportées Outlook Social Connector 2013 (OSC). Il présente une comparaison des fonctionnalités disponibles entre Outlook Social Connector 2013 et Outlook Social Connector 1.1. Il décrit également les membres de l’interface et les éléments XML qui ont été ajoutés, modifiés ou supprimés. 
   
-Dans Office 2013, OSC fonctionne non seulement avec Outlook, mais également avec SharePoint Server, SharePoint Workspace, le client Lync et toutes les autres applications clientes Office qui prendre en charge les informations de présence et la carte de visite. Un fournisseur OSC peut faire surface des mises à jour des informations sociales dans **l’onglet NOUVEAUTÉS** dans le volet Contacts Outlook, ainsi que dans la carte de visite. 
+Dans Office 2013, OSC fonctionne avec non seulement Outlook, mais également SharePoint Server, SharePoint Workspace, le client Lync et toutes les autres applications clientes Office qui prendre en charge les informations de présence et la carte de visite. Un fournisseur OSC peut faire surface des mises à jour d’informations sociales dans **l’onglet NOUVEAUTÉS** du Outlook Contacts, ainsi que dans la carte de visite. 
   
-Voici quelques modifications majeures apportées à Outlook Social Connector 2013 : 
+Voici quelques modifications majeures apportées Outlook Social Connector 2013 : 
   
 - Si un fournisseur prend en charge l’affichage des activités, il synchronise toujours les activités à la demande et ne s’appuie plus sur les activités précédemment mises en cache. Cela signifie que le fournisseur stocke les activités des amis et des non-amis en mémoire pour afficher des activités plus récentes.
     
 - Pour des raisons de sécurité, les fournisseurs qui communiquent avec des serveurs sur Internet doivent utiliser le protocole HTTPS (Hypertext Transfer Protocol) avec SSL (Secure Socket Layer). Dans le cas contraire, il existe un risque que les adresses de messagerie, les activités de réseau social et d’autres données utilisateur sont interceptées ou exposées pendant le transit.
     
-- Si vous avez des fournisseurs qui fonctionnent avec une version antérieure d’Outlook, pour prendre en charge Office 2013, vous devez mettre à jour le package d’installation. Pour plus [d’informations, voir Liste](installation-checklist.md) de contrôle d’installation. 
+- Si vous avez des fournisseurs qui fonctionnent avec une version antérieure de Outlook, pour prendre en charge Office 2013, vous devez mettre à jour le package d’installation. Pour plus [d’informations, voir Liste](installation-checklist.md) de contrôle d’installation. 
     
 Le tableau suivant indique la disponibilité de différentes fonctionnalités dans Outlook Social Connector 2013 par rapport à Outlook Social Connector 1.1.
   
 |**Fonctionnalité**|**Outlook Social Connector 2013**|**Outlook Social Connector 1.1**|
 |:-----|:-----|:-----|
-|Interface utilisateur final  <br/> |SharePoint Server, SharePoint Workspace, client Lync, carte de visite dans toutes les applications clientes Office et volet Contacts dans Outlook  <br/> |Volet Personnes dans Outlook  <br/> |
+|Interface utilisateur final  <br/> |SharePoint Serveur, espace SharePoint de travail, client Lync, carte de visite dans toutes les applications clientes Office et volet Contacts dans Outlook  <br/> |Volet Personnes dans Outlook  <br/> |
 |Authentification de base  <br/> |Oui  <br/> |Oui  <br/> |
 |Authentification basée sur les formulaires  <br/> |Oui  <br/> |Oui  <br/> |
 |Authentification mise en cache  <br/> |Oui  <br/> |Oui  <br/> |
@@ -62,7 +62,7 @@ Le tableau suivant indique les éléments de schéma qui ont été modifiés.
 |**Élément Schema**|**Commentaire**|
 |:-----|:-----|
 |**fonctionnalités** <br/> |Ajouté dans Outlook Social Connector 2013 : **élément allowChangesToAutoConfigure.**  <br/> Supprimé dans Outlook Social Connector 2013 : **élément cacheActivities.**  <br/> |
-|**person** <br/> |Ajouté dans Outlook Social Connector 2013 : **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, **industries**, **interests**, **location**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **skills**, **schools**, and **website** elements.  <br/> |
+|**person** <br/> |Ajouté dans Outlook Social Connector 2013 : **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, industries , **interests**, **location**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **skills**, **schools**, and **website** elements.   <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

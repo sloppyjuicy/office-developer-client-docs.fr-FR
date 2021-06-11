@@ -21,21 +21,21 @@ Détermine le type d’éclairage utilisé par l’effet de biseau.
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aucun éclairage  <br/> |
-|1   <br/> |Trois points  <br/> |
-|2   <br/> |Solde  <br/> |
-|3   <br/> |Doux  <br/> |
+|1  <br/> |Trois points  <br/> |
+|2  <br/> |Solde  <br/> |
+|3  <br/> |Doux  <br/> |
 |4   <br/> |En-dent  <br/> |
 |5   <br/> |Flood  <br/> |
 |6   <br/> |Contraste  <br/> |
 |7   <br/> |Matin  <br/> |
 |8   <br/> |Aube  <br/> |
 |9   <br/> |Dissolution progressive  <br/> |
-|10   <br/> |Toy  <br/> |
+|10  <br/> |Toy  <br/> |
 |11  <br/> |Figation  <br/> |
 |12   <br/> |À deux dimensions  <br/> |
-|13   <br/> |Deux points  <br/> |
+|13  <br/> |Deux points  <br/> |
 |14   <br/> |Lumière  <br/> |
-|15   <br/> |Bright Room  <br/> |
+|15  <br/> |Bright Room  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

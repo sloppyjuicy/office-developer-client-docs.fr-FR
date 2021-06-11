@@ -55,7 +55,7 @@ Lorsqu’un client télécharge ou synchronise les dossiers et le contenu d’un
     
 3. Le client appelle **IOSTX::SetSyncResult** pour renvoyer le résultat de la réplication. 
     
-4. Le client appelle **IOSTX::SyncEnd** pour mettre fin à la réplication, fournissant à Outlook les informations nécessaires pour la réplication ultérieure. 
+4. Le client appelle **IOSTX::SyncEnd** pour mettre fin à la réplication, Outlook les informations nécessaires pour la réplication ultérieure. 
     
 En particulier, lors du téléchargement d’éléments de message, le client utilise **IOSTX::SyncHdrBeg** et **IOSTX::SyncHdrEnd** pour mettre à jour un élément de message complet avec l’en-tête du message dans la boutique locale : 
   

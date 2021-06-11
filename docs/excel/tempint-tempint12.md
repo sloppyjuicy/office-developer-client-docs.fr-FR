@@ -23,14 +23,14 @@ ms.locfileid: "33438749"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire contenant unger. 
+Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire qui contient unger. 
   
 ```cs
 LPXLOPER TempInt(short int i);
 LPXLOPER12 TempInt12(int i);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _i_
   

@@ -61,7 +61,7 @@ Il existe généralement deux types de listes de distribution :
     
 - Listes de distribution qui existent dans un conteneur local et qui sont étendues par l’application cliente.
     
-Les propriétés de liste de distribution facultatives sont les suivantes :
+Les propriétés facultatives de la liste de distribution sont les suivantes :
   
 - **PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))
     

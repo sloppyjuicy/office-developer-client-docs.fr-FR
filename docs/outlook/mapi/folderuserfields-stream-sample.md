@@ -55,7 +55,7 @@ Voici une analyse des exemples de données pour le flux **FolderUserFields** :
       
     - FieldNameLength : décalage 0x8, 2 octets : 0x000A (10)
       
-    - FieldName : offset 0xA, tableau de 10 chars. Valeur de chaîne ANSI : « TextField1 ».
+    - FieldName : décalage 0xA, tableau de 10 chars. Valeur de chaîne ANSI : « TextField1 ».
       
     - Courant : décalage 0x14.
     
@@ -69,7 +69,7 @@ Voici une analyse des exemples de données pour le flux **FolderUserFields** :
         
       - dwDisplay : décalage 0x30, 4 octets : 0x00000000.
         
-      - iFmt : décalage 0x34, 4 octets : 0x00000000.
+      - iFmt : Décalage 0x34, 4 octets : 0x00000000.
         
       - wszFormulaLength : Décalage 0x38, 2 octets : 0x0000 (0).
         
@@ -77,17 +77,17 @@ Voici une analyse des exemples de données pour le flux **FolderUserFields** :
     
     **Deuxième élément de tableau**:
     
-    - Type de champ : décalage 0x3A, 4 octets : 0x00000000 (ftNone).
+    - FieldType : décalage 0x3A, 4 octets : 0x00000000 (ftNone).
       
     - FieldNameLength : Décalage 0x3E, 2 octets : 0x0000 (0).
       
-    - FieldName : Offset 0x40, tableau de 0 CHAR. Valeur de chaîne vide.
+    - FieldName : Décalage 0x40, tableau de 0 CHAR. Valeur de chaîne vide.
       
     - Courant : décalage 0x40.
     
-      - PropSetGuid : décalage 0x40, 16 octets : {00000000-0000-0000-0000-000000000000} (GUID_NULL).
+      - PropSetGuid : Décalage 0x40, 16 octets : {00000000-0000-0000-0000-000000000000} (GUID_NULL).
         
-      - fcapm : décalage 0x50, 4 octets : 0x00000000 (0).
+      - fcapm : Décalage 0x50, 4 octets : 0x00000000 (0).
         
       - dwString : décalage 0x54, 4 octets : 0x00000000.
         
@@ -95,7 +95,7 @@ Voici une analyse des exemples de données pour le flux **FolderUserFields** :
         
       - dwDisplay : décalage 0x5C, 4 octets : 0x00000000.
         
-      - iFmt : décalage 0x60, 4 octets : 0x00000000.
+      - iFmt : Décalage 0x60, 4 octets : 0x00000000.
         
       - wszFormulaLength : Décalage 0x64, 2 octets : 0x0000 (0).
         
@@ -135,7 +135,7 @@ Voici une analyse des exemples de données pour le flux **FolderUserFields** :
     
     **Deuxième élément de tableau**:
     
-    - Type de champ : décalage 0xAA, 4 octets : 0x00000000 (ftNone).
+    - FieldType : décalage 0xAA, 4 octets : 0x00000000 (ftNone).
       
     - FieldNameLength : Décalage 0xAE, 2 octets : 0x0000 (0).
       
@@ -153,7 +153,7 @@ Voici une analyse des exemples de données pour le flux **FolderUserFields** :
         
       - dwDisplay : décalage 0xCC, 4 octets : 0x00000000.
         
-      - iFmt : décalage 0xD0, 4 octets : 0x00000000.
+      - iFmt : Décalage 0xD0, 4 octets : 0x00000000.
         
       - wszFormulaLength : Décalage 0xD4, 2 octets : 0x0000 (0).
         
@@ -161,7 +161,7 @@ Voici une analyse des exemples de données pour le flux **FolderUserFields** :
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments et champs Outlook](outlook-items-and-fields.md)
+- [Outlook Éléments et champs](outlook-items-and-fields.md)
 - [Structure de flux PropertyDefinition](propertydefinition-stream-structure.md)
 - [Structure de flux FieldDefinition](fielddefinition-stream-structure.md)
 - [Structure de flux SkipBlock](skipblock-stream-structure.md)

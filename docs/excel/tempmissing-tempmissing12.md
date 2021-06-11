@@ -30,7 +30,7 @@ LPXLOPER TempMissing(void);
 LPXLOPER12 TempMissing12(void);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 Cette fonction n’utilise aucun paramètre.
   

@@ -21,11 +21,11 @@ ms.locfileid: "33437300"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Certains conteneurs de carnet d’adresses peuvent prendre en charge une fonctionnalité de recherche avancée qui permet aux clients d’effectuer des recherches sur des propriétés autres que **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Les conteneurs de carnet d’adresses qui prendre en charge les recherches avancées ont une propriété d’objet conteneur **appelée PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Cet objet conteneur permet d’accéder à un tableau d’affichage qui décrit la boîte de dialogue de recherche , une boîte de dialogue permettant d’entrer et de modifier les critères de recherche avancée.
+Certains conteneurs de carnet d’adresses peuvent prendre en charge une fonctionnalité de recherche avancée qui permet aux clients d’effectuer des recherches sur des propriétés autres que **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). Les conteneurs de carnet d’adresses qui prendre en charge les recherches avancées ont une propriété d’objet conteneur **appelée PR_SEARCH** ([PidTagSearch](pidtagsearch-canonical-property.md)). Cet objet conteneur permet d’accéder à un tableau d’affichage qui décrit la boîte de dialogue de recherche , une boîte de dialogue utilisée pour entrer et modifier les critères de recherche avancée.
   
  **Pour effectuer une recherche avancée sur un conteneur de carnet d’adresses**
   
-1. Appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du  conteneur, en spécifiant PR_SEARCH pour la balise de propriété et IID_IMAPIContainer pour l’identificateur d’interface. 
+1. Appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du  conteneur, en spécifiant la PR_SEARCH de la balise de propriété et IID_IMAPIContainer l’identificateur d’interface. 
     
 2. Appelez la méthode **IMAPIProp::OpenProperty** de l’objet de recherche, en spécifiant **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) pour la balise de propriété et IID_IMAPITable pour l’identificateur d’interface. 
     

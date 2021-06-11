@@ -47,10 +47,10 @@ Un contexte d’affichage est un objet qui implémente l’interface [IMAPIViewC
     
 - Obtenez un flux qui peut être utilisé pour enregistrer la version texte d’un message.
     
-Similaires aux méthodes de l’interface [IMAPIMessageSite : IUnknown,](imapimessagesiteiunknown.md) les méthodes dans **IMAPIViewContext** correspondent aux actions utilisateur et aux fonctionnalités clientes liées au contexte d’affichage. Par exemple, un contexte d’affichage est impliqué dans l’activation du message suivant ou précédent, le tri du contenu du dossier et le filtrage du contenu du dossier. 
+Similaires aux méthodes de l’interface [IMAPIMessageSite : IUnknown,](imapimessagesiteiunknown.md) les méthodes dans **IMAPIViewContext** correspondent aux actions de l’utilisateur et aux fonctionnalités clientes liées au contexte d’affichage. Par exemple, un contexte d’affichage est impliqué dans l’activation du message suivant ou précédent, le tri du contenu du dossier et le filtrage du contenu du dossier. 
   
-Il n’est pas important de savoir quel mécanisme vous fournissez aux utilisateurs pour activer ces fonctionnalités, mais il est important que la sémantique de ces fonctionnalités soit bien m mappérée avec les méthodes de l’interface **IMAPIViewContext.** 
+Il n’est pas important de savoir quel mécanisme vous fournissez aux utilisateurs pour activer ces fonctionnalités, mais il est important que la sémantique de ces fonctionnalités soit bien m me aux méthodes de l’interface **IMAPIViewContext.** 
   
-Un réception de conseil d’affichage est un objet qui implémente l’interface [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) et gère les notifications provenant de serveurs de formulaires qui affectent votre visionneuse et aident les utilisateurs à travailler ensemble. Pour plus d’informations, voir [Envoyer et recevoir des notifications de formulaire.](sending-and-receiving-form-notifications.md) 
+Un réception de conseil d’affichage est un objet qui implémente l’interface [IMAPIViewAdviseSink : IUnknown](imapiviewadvisesinkiunknown.md) et gère les notifications provenant de serveurs de formulaires qui affectent votre visionneuse et aident les utilisateurs de formulaires et de formulaires à collaborer. Pour plus d’informations, voir [Envoyer et recevoir des notifications de formulaire.](sending-and-receiving-form-notifications.md) 
   
 

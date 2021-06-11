@@ -29,7 +29,7 @@ La **fonction Exp** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Expression de type Double ou d’un type qui peut être implicitement convertie en Double.  <br/> |
+| *NumericExpression*  <br/> |Expression de type Double ou d’un type qui peut être implicitement converti en Double.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

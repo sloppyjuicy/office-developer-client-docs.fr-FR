@@ -28,7 +28,7 @@ Exemple de commande définie par l’utilisateur qui charge et affiche un exempl
 int WINAPI fShowDialog(void);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 La fonction ne prend aucun paramètre.
   
@@ -38,9 +38,9 @@ La fonction retourne l’integer zéro pour indiquer l’achèvement réussi
   
 ## <a name="remarks"></a>Remarques
 
-Les étapes d’affichage de la boîte de dialogue Windows native sont les suivantes :
+Les étapes d’affichage de la boîte Windows dialogue native sont les suivantes :
   
-1. Obtenez le handle Windows principal De Microsoft Excel à **l’aide de GetHwnd**.
+1. Obtenez le Microsoft Excel principal Windows à **l’aide de GetHwnd**.
     
 2. Hook the Excel main window using **HookExcelWindow**.
     

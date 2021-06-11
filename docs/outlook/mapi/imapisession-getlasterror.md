@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
@@ -61,7 +61,7 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L’MAPI_UNICODE a été définie et la session ne prend pas en charge Unicode.
+> L MAPI_UNICODE a été définie et la session ne prend pas en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 

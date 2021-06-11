@@ -40,7 +40,7 @@ LPSTR SzFindCh(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
@@ -52,10 +52,10 @@ LPSTR SzFindCh(
     
 ## <a name="return-value"></a>Valeur renvoyée
 
- **SzFindSz** renvoie un pointeur vers le premier caractère de la première occurrence de la sous-chaîne dans la chaîne. Si la sous-chaîne ne se produit pas dans la chaîne, si  _lpszKey_ est supérieur à  _lpsz_ ou si l’un des paramètres est NULL, une valeur NULL est renvoyée. 
+ **SzFindSz** renvoie un pointeur vers le premier caractère de la première occurrence de la sous-chaîne dans la chaîne. Si la sous-chaîne ne se produit nulle part dans la chaîne, si  _lpszKey_ est supérieur à  _lpsz_ ou si l’un des paramètres est NULL, une valeur NULL est renvoyée. 
   
 ## <a name="remarks"></a>Remarques
 
-La **fonction SzFindSz** recherche uniquement une correspondance exacte . il est sensible aux différences diacritiques et de cas. Les recherches au format Unicode et DBCS sont pris en charge. La limite de longueur pour les deux paramètres est en caractères, pas nécessairement en octets. 
+La **fonction SzFindSz** recherche une correspondance exacte uniquement ; il est sensible aux différences diacritiques et de cas. Les recherches au format Unicode et DBCS sont pris en charge. La limite de longueur pour les deux paramètres est en caractères, pas nécessairement en octets. 
   
 

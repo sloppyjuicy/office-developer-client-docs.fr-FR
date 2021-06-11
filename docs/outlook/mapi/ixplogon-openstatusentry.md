@@ -36,11 +36,11 @@ HRESULT OpenStatusEntry(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpInterface_
   
-> [in] Pointeur vers un identificateur d’interface (IID) pour l’objet d’identification de transport. La transmission null renvoie [l’interface IMAPIStatus.](imapistatusimapiprop.md) Le  _paramètre lpInterface_ peut également être définie sur un identificateur pour une interface pour l’objet. 
+> [in] Pointeur vers un identificateur d’interface (IID) pour l’objet d’identification de transport. La transmission null renvoie [l’interface IMAPIStatus.](imapistatusimapiprop.md) Le  _paramètre lpInterface peut_ également être définie sur un identificateur pour une interface pour l’objet. 
     
  _ulFlags_
   
