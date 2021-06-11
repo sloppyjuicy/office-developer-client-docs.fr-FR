@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidFax3RichTextFormat
+title: Propri t canonique PidLidFax3RichTextFormat
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32346388"
 ---
-# <a name="pidlidfax3richtextformat-canonical-property"></a>Propriété canonique PidLidFax3RichTextFormat
+# <a name="pidlidfax3richtextformat-canonical-property"></a>Propri t canonique PidLidFax3RichTextFormat
 
   
   

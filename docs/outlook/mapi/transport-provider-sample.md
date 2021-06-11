@@ -23,7 +23,7 @@ ms.locfileid: "32356587"
   
 Cet exemple utilise des fichiers et des répertoires pour transmettre et recevoir des messages. Il implémente et inscrit un préprocesseur très simple qui ajoute une ligne de texte à chaque message sortant. L’exemple montre comment fractionner le contenu des messages entre le format TNEF (Transport Neutral Encapsulation Format) et le texte. Il prend également en charge toutes les options de configuration (feuilles de propriétés, assistants et configuration par programme) et les options de message. Il ne prend pas en charge les interfaces de transport à distance. 
   
-Vous pouvez télécharger cet exemple à partir d’exemples de [code MAPI (Outlook Messaging API).](https://go.microsoft.com/fwlink/?LinkId=129740)
+Vous pouvez télécharger cet exemple à partir [Outlook de code MAPI (Messaging API).](https://go.microsoft.com/fwlink/?LinkId=129740)
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ Cet exemple prend en charge les fonctionnalités suivantes :
   
 - Fonctionnalités de base telles que l’envoi, la réception et l’interrogation de nouveaux messages.
     
-- Configuration interactive et par programme.
+- Configuration interactive et par programmation.
     
 - Interface **IMAPIStatus,** à l’exception du paramètre de propriété. Pour plus d’informations, voir [l’interface IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) 
     
@@ -52,15 +52,15 @@ Cet exemple ne prend pas en charge la détection asynchrone des messages entrant
   
  **Pour installer l’exemple de fournisseur de transport**
   
-1. Pour télécharger l’exemple de fournisseur de transport, voir [Téléchargement des exemples MAPI Outlook.](downloading-the-outlook-mapi-samples.md)
+1. Pour télécharger l’exemple de fournisseur de transport, consultez la Outlook [exemples MAPI.](downloading-the-outlook-mapi-samples.md)
     
-2. Recherchez le dossier dans lequel vous avez enregistré les exemples MAPI Outlook. Cliquez avec le bouton droit sur le dossier zip du numéro de **\< \> version d’OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
+2. Recherchez le dossier dans lequel vous avez enregistré Outlook exemples MAPI. Cliquez avec le bouton droit sur le dossier zip du numéro de **\< \> version d’OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
     
 3. Cliquez **sur Parcourir,** sélectionnez l’emplacement où vous souhaitez enregistrer l’exemple, puis cliquez sur **Extraire.**
     
 4. Exécutez Visual Studio 2008.
     
-5. Dans Visual Studio 2008, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Projet/Solution.**
+5. Dans Visual Studio 2008, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Project/Solution**.
     
 6. Accédez à l’emplacement où vous avez enregistré l’exemple, cliquez **sur mrxp32.vcproj,** puis cliquez sur **Ouvrir**.
     
@@ -72,20 +72,20 @@ Cet exemple ne prend pas en charge la détection asynchrone des messages entrant
     
 10. Dans la **boîte de dialogue Enregistrer le fichier sous,** cliquez sur **Enregistrer.**
     
-11. Dans le dossier où vous avez enregistré l’exemple, cliquez avec le bouton droit sur le fichier de lot d’installation et cliquez sur **Exécuter en tant qu’administrateur.**
+11. Dans le dossier où vous avez enregistré l’exemple, cliquez avec le bouton droit sur le fichier de lot d’installation, puis cliquez sur **Exécuter en tant qu’administrateur.**
     
 12. Dans la boîte **de dialogue Contrôle de compte** d’utilisateur, cliquez sur **Continuer.**
     
     > [!NOTE]
-    > **install.bat** copie le fichier .dll dans le dossier d Microsoft Office d’installation par défaut, C:\Program Files\Microsoft Office\Office12\. Si vous avez installé les produits Office à un autre emplacement, cliquez avec le bouton droit sur **install.bat** puis cliquez sur **Modifier**. Le fichier s’ouvre dans le Bloc-notes. Remplacez le chemin d’installation par défaut par le chemin d’installation utilisé sur votre ordinateur. 
+    > **install.bat** copie le .dll dans le dossier d Microsoft Office d’installation par défaut, C:\Program Files\Microsoft Office\Office12\. Si vous avez installé Office produits à un autre emplacement, cliquez avec le bouton droit sur **install.bat** puis cliquez sur **Modifier**. Le fichier s’ouvre en Bloc-notes. Remplacez le chemin d’installation par défaut par le chemin d’installation utilisé sur votre ordinateur. 
   
  **Pour configurer le fournisseur de transport dans Outlook**
   
-1. Dans le menu **Outils** d’Outlook, cliquez **sur Paramètres du compte.**
+1. Dans le menu **Outils** de Outlook, cliquez **sur Compte Paramètres**.
     
-2. Dans la **boîte de dialogue Paramètres du** compte, sous **l’onglet Courrier,** cliquez sur **Nouveau**.
+2. Dans la **boîte de dialogue Paramètres** compte, sous l’onglet **Courrier,** cliquez sur **Nouveau**.
     
-3. Under **Choose Email Service** click **Other**, select **MRXP Sample Transport,** and then click **Next**.
+3. Sous **Choisir un service de messagerie,** cliquez sur **Autre,** sélectionnez l’exemple de **transport MRXP,** puis cliquez sur **Suivant.**
     
 4. Dans la boîte de dialogue Configuration de **transport MRXP,** tapez un **nom complet d’utilisateur.**
     
@@ -96,7 +96,7 @@ Cet exemple ne prend pas en charge la détection asynchrone des messages entrant
   
 6. Cliquez sur **OK**.
     
-7. Dans la boîte **de dialogue Ajouter un compte** de messagerie, cliquez sur **OK.** Cliquez **sur Terminer,** puis sur **Fermer.**
+7. Dans la boîte **de dialogue Ajouter un compte de** messagerie, cliquez sur **OK.** Cliquez **sur Terminer,** puis sur **Fermer.**
     
 8. Pour commencer à utiliser le compte MRXP, quittez et redémarrez Outlook.
     
@@ -116,7 +116,7 @@ Cet exemple ne prend pas en charge la détection asynchrone des messages entrant
     
 4. Tapez votre message, puis cliquez sur **Envoyer.** Le message est envoyé à l’aide du fournisseur de transport MRXP.
     
- **Pour utiliser l’exemple de fournisseur de transport pour recevoir un message dans Outlook**
+ **Pour utiliser l’exemple de fournisseur de transport afin de recevoir un message dans Outlook**
   
 1. Dans **le** menu Fichier, cliquez **sur Nouveau,** puis sur **Message électronique.**
     
@@ -126,7 +126,7 @@ Cet exemple ne prend pas en charge la détection asynchrone des messages entrant
     
 4. Dans la **boîte de dialogue Enregistrer sous,** accédez au partage UNC ou au dossier local que vous définissez comme boîte de réception. 
     
-5. In the **Save as type drop** down, click Outlook Message **Format**.
+5. Dans la **baisse Type de fichier** Enregistrer sous, cliquez sur Outlook format de **message.**
     
 6. Tapez un nom pour le fichier, puis cliquez sur **Enregistrer.**
     

@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidClassified
+title: Propri t canonique PidLidClassified
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32349237"
 ---
-# <a name="pidlidclassified-canonical-property"></a>Propriété canonique PidLidClassified
+# <a name="pidlidclassified-canonical-property"></a>Propri t canonique PidLidClassified
 
   
   

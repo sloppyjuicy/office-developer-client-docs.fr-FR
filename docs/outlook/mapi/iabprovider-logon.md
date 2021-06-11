@@ -40,7 +40,7 @@ HRESULT Logon(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMAPISup_
   
@@ -56,7 +56,7 @@ HRESULT Logon(
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle l’utilisation de l’logo. Les indicateurs suivants peuvent être définies :
+> [in] Masque de bits d’indicateurs qui contrôle l’utilisation de la logon. Les indicateurs suivants peuvent être définies :
     
 AB_NO_DIALOG 
   
@@ -84,7 +84,7 @@ MAPI_UNICODE
     
  _lppABLogon_
   
-> [out] Pointeur vers un pointeur vers l’objet d’logo du fournisseur.
+> [out] Pointeur vers un pointeur vers l’objet d’accès au fournisseur.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -132,11 +132,11 @@ Vous pouvez inclure le nom de profil transmis dans le paramètre  _lpszProfileNa
   
 Créez un objet de logo et renvoyez un pointeur vers celui-ci dans le _paramètre lppABLogon._ MAPI utilise cet objet de logon pour appeler les méthodes dans votre [implémentation IABLogon.](iablogoniunknown.md) 
   
-Si vous avez besoin d’un mot de passe lors de l’affichage, affichez une boîte de dialogue d’AB_NO_DIALOG si l’indicateur de AB_NO_DIALOG n’est pas définie. Si l’utilisateur annule le processus d’MAPI_E_USER_CANCEL, en cliquant généralement sur le bouton Annuler dans la boîte de dialogue. 
+Si vous avez besoin d’un mot de passe lors de l’accès, affichez une boîte de dialogue d’AB_NO_DIALOG uniquement si l’indicateur de AB_NO_DIALOG n’est pas définie. Si l’utilisateur annule le processus d’MAPI_E_USER_CANCEL, généralement en cliquant sur le bouton Annuler dans la boîte de dialogue, MAPI_E_USER_CANCEL à partir de **l’MAPI_E_USER_CANCEL.** 
   
 En règle générale, lorsqu’un fournisseur de carnet d’adresses ne peut pas se connecter, MAPI désactive le service de messagerie auquel appartient le fournisseur défaillant, autrement dit, MAPI ne tente pas d’établir de connexions pour les autres fournisseurs qui appartiennent au service pendant le reste de la durée de vie de la session. Toutefois, si votre fournisseur ne peut pas établir de connexion et que vous ne souhaitez pas désactiver l’intégralité du service, renvoyez MAPI_E_FAILONEPROVIDER ou MAPI_E_UNCONFIGURED. MAPI ne désactive pas le service de messagerie auquel appartient le fournisseur. 
   
-Renvoyer MAPI_E_FAILONEPROVIDER si une erreur se produit et n’est pas suffisamment grave pour empêcher les autres fournisseurs du service de messagerie d’établir des connexions. Renvoyer MAPI_E_UNCONFIGURED si les informations de configuration nécessaires sont manquantes dans le profil et que vous ne pouvez pas afficher de boîte de dialogue pour inviter l’utilisateur. MAPI répond en appelant la fonction de point d’entrée du service de messagerie de votre fournisseur avec MSG_SERVICE_CONFIGURE définie en tant que paramètre  _ulContext_ pour donner au service la possibilité de se configurer lui-même, par programme ou à l’aide d’une feuille de propriétés. Lorsque la fonction de point d’entrée du service de message est terminée, MAPI esse la nouvelle fois. 
+Renvoyer MAPI_E_FAILONEPROVIDER si une erreur n’est pas suffisamment grave pour empêcher les autres fournisseurs du service de messagerie d’établir des connexions. Renvoyer MAPI_E_UNCONFIGURED si les informations de configuration nécessaires sont manquantes dans le profil et que vous ne pouvez pas afficher de boîte de dialogue pour inviter l’utilisateur. MAPI répond en appelant la fonction de point d’entrée du service de messagerie de votre fournisseur avec MSG_SERVICE_CONFIGURE définie comme paramètre  _ulContext_ pour donner au service la possibilité de se configurer lui-même, par programme ou à l’aide d’une feuille de propriétés. Lorsque la fonction de point d’entrée du service de message est terminée, MAPI retente l’accès. 
   
 ## <a name="see-also"></a>Voir aussi
 

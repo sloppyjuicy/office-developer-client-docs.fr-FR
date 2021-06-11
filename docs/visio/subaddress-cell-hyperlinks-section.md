@@ -22,7 +22,7 @@ Indique un emplacement au sein du document cible vers lequel établir un lien.
   
 ## <a name="remarks"></a>Remarques
 
-Par exemple, si la cellule Address est « Drawing1.vsdx », la cellule SubAddress peut spécifier un nom de page tel que « Page-3 ». Si la cellule Address est le fichier Microsoft Excel « Samples.xlsx », la valeur de cette cellule peut être une feuille de calcul ou une plage dans une feuille de calcul, telle que « Fonctions de feuille de calcul » ou « Feuille1 ! A1:D10 ». Si la cellule Address est « », la valeur de cette cellule peut être une ancre nommée dans le document, telle que « https://www.microsoft.com/office/ solutions ».
+Par exemple, si la cellule Address est « Drawing1.vsdx », la cellule SubAddress peut spécifier un nom de page tel que « Page-3 ». Si la cellule Address est le fichier Microsoft Excel « Samples.xlsx », la valeur de cette cellule peut être une feuille de calcul ou une plage dans une feuille de calcul, telle que « Fonctions de feuille de calcul » ou « Feuille1 ! A1:D10 ». Si la cellule Address est « », la valeur de cette cellule peut être une ancre nommée dans le document, telle que https://www.microsoft.com/office/ « solutions ».
   
 Vous pouvez également définir la valeur de cette cellule dans la boîte de dialogue **Liens hypertexte** (dans le groupe **Liens** sous l’onglet **Insertion**, cliquez sur **Lien hypertexte**).
   

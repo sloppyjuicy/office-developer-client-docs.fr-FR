@@ -36,7 +36,7 @@ Contient un indicateur qui décrit l’état de la boutique de messages.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est dynamique et peut changer en fonction des actions de l’utilisateur, contrairement à la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Cette propriété est dynamique et peut changer en fonction des actions de l’utilisateur, contrairement à la **propriété PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
 La valeur suivante peut être définie :
   
@@ -50,7 +50,7 @@ STORE_HAS_SEARCHES
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   

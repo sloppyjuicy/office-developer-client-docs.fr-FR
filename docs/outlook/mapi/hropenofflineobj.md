@@ -45,7 +45,7 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulReserved_
   
@@ -79,11 +79,11 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-Il s’agit du premier appel qu’un client effectue lorsqu’il souhaite être averti des changements d’état de connexion pour un profil donné. Lors de **l’appel de HrOpenOfflineObj,** le client obtient un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. Le client peut vérifier les types de rappels pris en charge par l’objet (à l’aide de [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)), puis configurer les rappels pour celui-ci (à l’aide de [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
+Il s’agit du premier appel qu’un client effectue lorsque celui-ci souhaite être averti des changements d’état de connexion pour un profil donné. Lors de **l’appel de HrOpenOfflineObj,** le client obtient un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. Le client peut vérifier les types de rappels pris en charge par l’objet (à l’aide de [IMAPIOffline::GetCapabilities](imapioffline-getcapabilities.md)), puis configurer les rappels pour celui-ci (à l’aide de [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)).
   
 Lorsque vous [utilisez GetProcAddress](https://msdn.microsoft.com/library/ms683212.aspx) pour rechercher l’adresse de cette fonction dans msmapi32.dll, spécifiez **HrOpenOfflineObj@20** comme nom de procédure. 
   
- **HrOpenOfflineObj** fonctionne uniquement pour les clients qui sont des fournisseurs MAPI, des compl?ments COM et des extensions client Exchange en cours d’exécution dans le processus Outlook. Dans le **cas contraire, HrOpenOfflineObj** renvoie **MAPI_E_NOT_FOUND**. 
+ **HrOpenOfflineObj** fonctionne uniquement pour les clients qui sont des fournisseurs MAPI, des compl?ments COM et des extensions client Exchange en cours d’exécution dans le processus de Outlook. Dans le **cas contraire, HrOpenOfflineObj** renvoie **MAPI_E_NOT_FOUND**. 
   
 ## <a name="see-also"></a>Voir aussi
 

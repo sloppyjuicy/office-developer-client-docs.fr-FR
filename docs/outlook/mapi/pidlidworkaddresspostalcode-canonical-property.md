@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidWorkAddressPostalCode
+title: Propri t canonique PidLidWorkAddressPostalCode
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32350931"
 ---
-# <a name="pidlidworkaddresspostalcode-canonical-property"></a>Propriété canonique PidLidWorkAddressPostalCode
+# <a name="pidlidworkaddresspostalcode-canonical-property"></a>Propri t canonique PidLidWorkAddressPostalCode
 
   
   

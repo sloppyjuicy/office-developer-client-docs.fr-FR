@@ -31,7 +31,7 @@ Votre implémentation **d’IMsgStore::StoreLogoff** doit commencer par appeler 
   
 MAPI effectue les tâches suivantes dans son implémentation de **IUnknown::Release** pour les magasins de messages : 
   
-1. Supprime toutes les structures [MAPIUID](mapiuid.md) inscrites par le fournisseur de magasins de messages. 
+1. Supprime toutes les structures [MAPIUID](mapiuid.md) inscrites par le fournisseur de la boutique de messages. 
     
 2. Supprime la ligne du fournisseur de la boutique de messages de la table d’état.
     
@@ -39,7 +39,7 @@ MAPI effectue les tâches suivantes dans son implémentation de **IUnknown::Rele
     
 4. Appelle [IUnknown::Release pour](https://msdn.microsoft.com/library/4b494c6f-f0ee-4c35-ae45-ed956f40dc7a%28Office.15%29.aspx) libérer l’objet d’ouverture de messagerie du fournisseur de magasins de messages. 
     
-Certains clients peuvent omettre l’appel à **IMsgStore::StoreLogoff**, en initie l’arrêt de votre fournisseur de magasins de messages avec l’appel à la méthode **IUnknown::Release** de la boutique de messages. Un arrêt dans ces circonstances sans l’appel **de StoreLogoff** est moins ordonné et contrôlé. Écrivez la méthode **Release** de votre magasin de messages pour gérer cette possibilité et savoir si un appel à **IMAPISupport::StoreLogoffTransports** s’est produit ou non. **StoreLogoffTransports** doit être appelé une seule fois pendant le processus d’arrêt. Si vous détectez dans votre méthode **Release** que **StoreLogoffTransports** n’a pas encore été appelé, étiquetez-le avec l’LOGOFF_ABORT de publication. 
+Certains clients peuvent omettre l’appel à **IMsgStore::StoreLogoff**, en initie l’arrêt de votre fournisseur de magasins de messages avec l’appel à la méthode **IUnknown::Release** de la boutique de messages. Un arrêt dans ces circonstances sans l’appel **de StoreLogoff** est moins ordonné et contrôlé. Écrivez la méthode **Release** de votre magasin de messages pour gérer cette possibilité et savoir si un appel à **IMAPISupport::StoreLogoffTransports** s’est produit ou non. **StoreLogoffTransports doit** être appelé une seule fois pendant le processus d’arrêt. Si vous détectez dans votre méthode **Release** que **StoreLogoffTransports** n’a pas encore été appelé, étiquetez-le avec l’LOGOFF_ABORT de publication. 
   
 ## <a name="see-also"></a>Voir aussi
 

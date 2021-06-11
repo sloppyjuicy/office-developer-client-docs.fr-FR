@@ -37,7 +37,7 @@ Représente la date et l’heure de début d’un rendez-vous.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie la date et l’heure de début de l’événement. Cette propriété doit être en temps universel coordonné (UTC) et doit être inférieure à la valeur de la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Pour une série périodique, cette propriété est la date et l’heure de début de la première instance en fonction de la récurrence.
+Cette propriété spécifie la date et l’heure de début de l’événement. Cette propriété doit être au temps universel coordonné (UTC) et doit être inférieure à la valeur de la propriété **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Pour une série périodique, cette propriété est la date et l’heure de début de la première instance en fonction de la récurrence.
   
 ## <a name="related-resources"></a>Ressources connexes
 

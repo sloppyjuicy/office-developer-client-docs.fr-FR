@@ -34,7 +34,7 @@ Spécifie si l’ajout de destinataires supplémentaires, lors du forwarding du 
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est définie en fonction de la valeur PR_SENSITIVITY **du** message électronique ([PidTagSensitivity).](pidtagsensitivity-canonical-property.md) Si **PR_SENSITIVITY** est définie sur « 0x00000000 » (normal) ou « 0x00000003 » (confidentiel), cette propriété doit être définie sur « 0x00 » ou ne signifie pas que l’ajout de destinataires supplémentaires ou différents au message électronique est autorisé. Si **l’PR_SENSITIVITY** de l’objet de messagerie est définie sur « 0x00000001 » (personnel) ou « 0x00000002 » (privé), cette propriété doit être définie sur « 0x01 » pour empêcher l’ajout de destinataires supplémentaires ou différents de ce message électronique par le biais du forwarding. 
+Cette propriété est définie en fonction  de la valeur PR_SENSITIVITY[(PidTagSensitivity)](pidtagsensitivity-canonical-property.md)du message électronique. Si **PR_SENSITIVITY** est définie sur « 0x00000000 » (normal) ou « 0x00000003 » (confidentiel), cette propriété doit être définie sur « 0x00 » ou ne signifie pas que l’ajout de destinataires supplémentaires ou différents au message électronique est autorisé. Si **l’PR_SENSITIVITY** de l’objet de messagerie est définie sur « 0x00000001 » (personnel) ou « 0x00000002 » (privé), cette propriété doit être définie sur « 0x01 » pour empêcher l’ajout de destinataires supplémentaires ou différents de ce message électronique par le biais du forwarding. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -42,7 +42,7 @@ Cette propriété est définie en fonction de la valeur PR_SENSITIVITY **du** me
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

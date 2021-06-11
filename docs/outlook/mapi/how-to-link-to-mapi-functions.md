@@ -23,7 +23,7 @@ Il existe trois méthodes de liaison : liaison implicite, liaison explicite et n
   
 ## <a name="implicit-linking"></a>Liaison implicite
 
-Historiquement, l’appel de fonctions MAPI dans une application de messagerie impliquait toujours la liaison à la bibliothèque Mapi32.lib. Cela inclut le routage des appels MAPI vers la bibliothèque stub MAPI de Windows, Mapi32.dll, qui a ensuite transmis les appels à l’implémentation du client MAPI par défaut au moment de l’exécution. Ce processus d’appel est appelé liaison implicite. Le côté gauche de la figure suivante montre un exemple de liaison implicite utilisée dans un processus d’appel de fonction MAPI. Le processus est initié par une application MAPI et implique la bibliothèque MAPI (Mapi32.lib) et le stub MAPI Windows (Mapi32.dll) et est effectué par l’implémentation du client MAPI Outlook du stub MAPI (Msmapi32.dll).
+Historiquement, l’appel de fonctions MAPI dans une application de messagerie impliquait toujours la liaison à la bibliothèque Mapi32.lib. Cela inclut le routage des appels MAPI vers la bibliothèque Windows stub MAPI, Mapi32.dll, qui a ensuite transmis les appels à l’implémentation du client MAPI par défaut au moment de l’exécution. Ce processus d’appel est appelé liaison implicite. Le côté gauche de la figure suivante montre un exemple de liaison implicite utilisée dans un processus d’appel de fonction MAPI. Le processus est initié par une application MAPI et implique la bibliothèque MAPI (Mapi32.lib) et le stub MAPI Windows (Mapi32.dll) et est effectué par l’implémentation du client MAPI Outlook du stub MAPI (Msmapi32.dll).
   
 **Comparaison des liaisons implicites et explicites.**
 
@@ -31,14 +31,14 @@ Historiquement, l’appel de fonctions MAPI dans une application de messagerie i
   
 ## <a name="explicit-linking"></a>Liaison explicite
 
-Étant donné que le client MAPI par défaut prend en charge l’installation à la demande à l’aide de Windows Installer (MSI), vous pouvez développer des applications de messagerie directement sur le stub MAPI Outlook au lieu d’utiliser la bibliothèque MAPI et le stub MAPI Windows. Le côté droit de la figure précédente montre un exemple de processus d’appel de fonction MAPI, en commençant par une application MAPI qui recherche le chemin d’accès et le nom de la DLL pour le stub MAPI Outlook (étape 2 dans la section suivante) et qui appelle la fonction dans le stub MAPI Outlook (étape 3 dans la section suivante). La procédure suivante montre comment appeler des fonctions MAPI à l’aide d’une liaison explicite. 
+Étant donné que le client MAPI par défaut prend en charge l’installation à la demande à l’aide du programme d’installation Windows (MSI), vous pouvez développer des applications de messagerie directement sur le stub MAPI Outlook au lieu d’utiliser la bibliothèque MAPI et le stub MAPI Windows. Le côté droit de la figure précédente montre un exemple de processus d’appel de fonction MAPI, en commençant par une application MAPI qui recherche le chemin d’accès et le nom de la DLL pour le stub MAPI Outlook (étape 2 dans la section suivante) et qui appelle la fonction dans le stub MAPI Outlook (étape 3 de la section suivante). La procédure suivante montre comment appeler des fonctions MAPI à l’aide d’une liaison explicite. 
   
 > [!NOTE]
-> Ces informations sur la liaison explicite peuvent être superflues pour vos besoins avec l’introduction de MAPIStubLibrary.lib abordée dans la section suivante. Comme le modèle implicite, la nouvelle bibliothèque gère tout et implémente la logique de liaison explicite qui charge directement le MAPI d’Outlook. 
+> Ces informations sur la liaison explicite peuvent être superflues pour vos besoins avec l’introduction de MAPIStubLibrary.lib abordée dans la section suivante. Comme le modèle implicite, la nouvelle bibliothèque gère tout et implémente la logique de liaison explicite qui charge Outlook MAPI directement. 
   
 Pour plus d’informations sur la liaison explicite, voir Linking Explicitly.
   
-### <a name="to-call-mapi-api-elements-without-the-mapi-library-and-the-windows-mapi-stub"></a>Pour appeler des éléments d’API MAPI sans la bibliothèque MAPI et le stub MAPI Windows
+### <a name="to-call-mapi-api-elements-without-the-mapi-library-and-the-windows-mapi-stub"></a>Pour appeler des éléments d’API MAPI sans la bibliothèque MAPI et Windows stub MAPI
 
 1. Dans votre fichier de programme, créez une liste globale de pointeurs de fonction pour chaque élément d’API MAPI que vous utilisez. 
     
@@ -108,9 +108,9 @@ Pour plus d’informations sur la liaison explicite, voir Linking Explicitly.
 
 ## <a name="mapistublibrarylib"></a>MAPIStubLibrary.lib
 
-L’avènement de Microsoft Outlook 2010 et mapi 64 bits, qui s’étend désormais à Microsoft Outlook 2013, nécessite plus que l’API 32 bits traditionnelle pour une implémentation complète. Un nouveau projet, la bibliothèque STUB MAPI, publié sur le site web CodePlex, offre un remplacement de mapi32.lib qui prend en charge la création d’applications MAPI 32 bits et 64 bits. MAPIStubLibrary.lib élimine la nécessité de créer un lien explicite vers MAPI et, une fois créé, vous pouvez supprimer Mapi32.lib de vos paramètres d’linker, en le remplaçant par MAPIStubLibrary.lib ; aucune modification supplémentaire de votre code ne doit être nécessaire. Il élimine également la nécessité d’écrire du code **LoadLibrary,** **GetProcAddress** et **FreeLibrary** pour gérer les nouvelles exportations incluses dans ce fichier bibliothèque, mais pas dans Mapi32.lib, ce qui serait nécessaire si vous utilisiez une liaison explicite. 
+L’avènement de Microsoft Outlook 2010 mapi 64 bits, qui s’étend désormais au Microsoft Outlook 2013, nécessite plus que l’API 32 bits classique pour une implémentation complète. Un nouveau projet, la bibliothèque STUB MAPI, publié sur le site web CodePlex, offre un remplacement de mapi32.lib qui prend en charge la création d’applications MAPI 32 bits et 64 bits. MAPIStubLibrary.lib élimine la nécessité de créer un lien explicite vers MAPI et, une fois créé, vous pouvez supprimer Mapi32.lib de vos paramètres d’linker, en le remplaçant par MAPIStubLibrary.lib ; aucune modification supplémentaire de votre code ne doit être nécessaire. Il élimine également la nécessité d’écrire du code **LoadLibrary,** **GetProcAddress** et **FreeLibrary** pour gérer les nouvelles exportations incluses dans ce fichier bibliothèque, mais pas dans Mapi32.lib, ce qui serait nécessaire si vous utilisiez une liaison explicite. 
   
-Certaines des nouvelles fonctions liées à partir de cette bibliothèque qui ne sont pas disponibles dans Mapi32.lib sont les suivantes :
+Voici quelques-unes des nouvelles fonctions liées à partir de cette bibliothèque qui ne sont pas disponibles dans Mapi32.lib :
   
 - [GetDefCachedMode](getdefcachedmode.md)    
 - [HrGetGALFromEmsmdbUID](hrgetgalfromemsmdbuid.md)   

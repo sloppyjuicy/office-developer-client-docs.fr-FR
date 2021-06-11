@@ -25,7 +25,7 @@ ms.locfileid: "32344939"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie un champ de bits qui indique comment l’objet de réunion a changé.
+Spécifie un champ de bits qui indique la façon dont l’objet de réunion a changé.
   
 |||
 |:-----|:-----|

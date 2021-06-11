@@ -39,7 +39,7 @@ HRESULT CopyProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpIncludeProps_
   
@@ -51,7 +51,7 @@ HRESULT CopyProps(
     
  _lpProgress_
   
-> [in] Pointeur vers une implémentation d’un indicateur de progression. Si **null** est transmis dans  _le paramètre lpProgress,_ l’indicateur de progression s’affiche à l’aide de l’implémentation MAPI. Le _paramètre lpProgress est_ ignoré, sauf si l’MAPI_DIALOG est définie dans le paramètre _ulFlags._ 
+> [in] Pointeur vers une implémentation d’un indicateur de progression. Si **null** est transmis dans le  _paramètre lpProgress,_ l’indicateur de progression s’affiche à l’aide de l’implémentation MAPI. Le _paramètre lpProgress est_ ignoré, sauf si l’MAPI_DIALOG est définie dans le paramètre _ulFlags._ 
     
  _lpInterface_
   
@@ -67,7 +67,7 @@ HRESULT CopyProps(
     
 MAPI_DECLINE_OK 
   
-> Si **CopyProps** appelle la méthode [IMAPISupport::D oCopyProps](imapisupport-docopyprops.md) pour gérer l’opération de copie ou de déplacement, elle doit à la place renvoyer immédiatement avec la valeur d’erreur MAPI_E_DECLINE_COPY. L MAPI_DECLINE_OK est définie par MAPI pour limiter la récursion. Les clients ne définissent pas cet indicateur. 
+> Si **CopyProps** appelle la méthode [IMAPISupport::D oCopyProps](imapisupport-docopyprops.md) pour gérer l’opération de copie ou de déplacement, elle doit à la place retourner immédiatement avec la valeur d’erreur MAPI_E_DECLINE_COPY. L MAPI_DECLINE_OK est définie par MAPI pour limiter la récursion. Les clients ne définissent pas cet indicateur. 
     
 MAPI_DIALOG 
   
@@ -83,7 +83,7 @@ MAPI_NOREPLACE
     
  _lppProblems_
   
-> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; sinon, **null**, indiquant qu’il n’est pas nécessaire d’obtenir des informations sur l’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **CopyProps** renvoie des informations détaillées sur les erreurs de copie d’une ou plusieurs propriétés. 
+> [in, out] Lors de l’entrée, un pointeur vers un pointeur vers une structure [SPropProblemArray](spropproblemarray.md) ; sinon, **null**, indiquant qu’il n’est pas nécessaire d’obtenir des informations sur l’erreur. Si  _lppProblems est_ un pointeur valide sur l’entrée, **CopyProps** renvoie des informations détaillées sur les erreurs de copie d’une ou de plusieurs propriétés. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -109,7 +109,7 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative d’accès à un objet pour lequel l’appelant dispose d’autorisations insuffisantes a été tentée. Cette erreur est renvoyée si l’objet de destination est identique à l’objet source.
+> Une tentative d’accès à un objet pour lequel l’appelant ne dispose pas des autorisations suffisantes a été tentée. Cette erreur est renvoyée si l’objet de destination est identique à l’objet source.
     
 Les valeurs suivantes peuvent être renvoyées dans la structure **SPropProblemArray,** mais pas en tant que valeurs de retour **pour CopyProps**. Ces erreurs s’appliquent à une seule propriété.
   
@@ -137,13 +137,13 @@ Tous les sous-objets de l’objet source sont automatiquement inclus dans l’op
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous pouvez fournir une implémentation complète de **CopyProps** ou vous appuyer sur l’implémentation fournie par MAPI dans son objet de support. Si vous souhaitez utiliser l’implémentation MAPI, appelez la méthode **IMAPISupport::D oCopyProps.** Toutefois, si vous délèguez le traitement à **DoCopyProps** et que vous avez reçu l’indicateur MAPI_DECLINE_OK, évitez l’appel de support et renvoyez-MAPI_E_DECLINE_COPY à la place. MapI vous appelle avec cet indicateur pour éviter toute récursion possible lorsque vous copiez des dossiers. 
+Vous pouvez fournir une implémentation complète de **CopyProps** ou vous appuyer sur l’implémentation fournie par MAPI dans son objet de support. Si vous souhaitez utiliser l’implémentation MAPI, appelez la méthode **IMAPISupport::D oCopyProps.** Toutefois, si vous délèguez le traitement à **DoCopyProps** et que vous êtes passé l’indicateur MAPI_DECLINE_OK, évitez l’appel de support et renvoyez-MAPI_E_DECLINE_COPY à la place. MapI vous appelle avec cet indicateur pour éviter toute récursion possible lorsque vous copiez des dossiers. 
   
 Étant donné que l’opération de copie peut être longue, vous devez afficher un indicateur de progression. Utilisez [l’implémentation IMAPIProgress](imapiprogressiunknown.md) qui est passée dans le  _paramètre lpProgress,_ s’il en existe un. Si  _lpProgress_ est **null,** appelez la méthode [IMAPISupport::D oProgressDialog](imapisupport-doprogressdialog.md) pour utiliser l’implémentation MAPI. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Ne définissez pas l’MAPI_DECLINE_OK de l’indicateur . Il est utilisé par MAPI dans ses appels aux implémentations **CopyProps** du fournisseur de magasins de messages. 
+Ne définissez pas l’MAPI_DECLINE_OK de la recherche ; Il est utilisé par MAPI dans ses appels aux implémentations **CopyProps** du fournisseur de magasins de messages. 
   
 Étant donné que les opérations de copie et de déplacement peuvent prendre du temps, il est judicieux de demander l’affichage d’un indicateur de progression en MAPI_DIALOG’indicateur. Vous pouvez définir le  _paramètre lpProgress_ sur votre implémentation de **IMAPIProgress,** si vous en avez un, ou sur **null**. Si  _lpProgress est_ **null,** **CopyProps** utilise l’indicateur de progression par défaut fourni par MAPI. 
   

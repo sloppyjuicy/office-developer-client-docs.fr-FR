@@ -39,7 +39,7 @@ Contient le texte spécifié par l’utilisateur pour identifier cet objet de me
 
 Cette propriété ne doit pas être définie sur une tâche. Pour indiquer une propriété vide, ne définissez pas cette propriété sur la chaîne de longueur nulle, mais supprimez-la. 
   
-Lorsque vous signalez un objet de message et que la propriété n’existe pas, un client doit écrire la valeur **de PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) dans cette propriété.
+Lorsque vous signalez un objet de message et que la propriété n’existe pas, un client doit écrire la valeur de **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) dans cette propriété.
   
 Dans une liste de choses à faire consolidée, si cette propriété n’existe pas, un client doit remplacer la valeur de la propriété **PR_NORMALIZED_SUBJECT** lors de l’affichage de cette propriété dans la liste des choses à faire. 
   

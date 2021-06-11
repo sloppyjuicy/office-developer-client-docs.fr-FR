@@ -44,7 +44,7 @@ SUBMITFLAG_LOCKED
     
 SUBMITFLAG_PREPROCESS 
   
-> Le message doit être prétraité. Lorsque lepooler MAPI a terminé le prétraitement de ce message, il doit appeler la méthode [IMessage::SubmitMessage.](imessage-submitmessage.md) Le fournisseur de la boutique de messages reconnaît que lepooler, plutôt que l’application cliente, a appelé **SubmitMessage,** effacer l’indicateur et continue l’envoi du message.
+> Le message doit être prétraité. Lorsque lepooler MAPI a terminé le prétraitement de ce message, il doit appeler la méthode [IMessage::SubmitMessage.](imessage-submitmessage.md) Le fournisseur de magasin de messages reconnaît que lepooler, plutôt que l’application cliente, a appelé **SubmitMessage,** effacer l’indicateur et continue l’envoi du message.
     
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -52,7 +52,7 @@ SUBMITFLAG_PREPROCESS
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   

@@ -67,7 +67,7 @@ Si elle existe, cette propriété est un conseil au client. Le client peut ignor
 |Vert de note rouge  <br/> |0x00000301  <br/> |
 |Note rose resserrante  <br/> |0x00000302  <br/> |
 |Jaune de note rouge  <br/> |0x00000303  <br/> |
-|Blanc de note rouge  <br/> |0x00000304  <br/> |
+|Blanc de note pense-tout  <br/> |0x00000304  <br/> |
 |Rendez-vous à instance unique  <br/> |0x00000400  <br/> |
 |Rendez-vous périodique  <br/> |0x00000401  <br/> |
 |Réunion d’instance unique  <br/> |0x00000402  <br/> |
@@ -110,7 +110,7 @@ Si elle existe, cette propriété est un conseil au client. Le client peut ignor
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

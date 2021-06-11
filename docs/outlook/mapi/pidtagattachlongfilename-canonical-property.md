@@ -25,7 +25,7 @@ ms.locfileid: "32339325"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le nom de fichier et l’extension longs d’une pièce jointe, à l’exclusion du chemin d’accès. 
+Contient le nom de fichier long et l’extension d’une pièce jointe, à l’exclusion du chemin d’accès. 
   
 |||
 |:-----|:-----|
@@ -50,7 +50,7 @@ MAPI fonctionne uniquement avec les noms de fichiers dans le jeu de caractères 
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   

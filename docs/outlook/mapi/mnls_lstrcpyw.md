@@ -32,7 +32,7 @@ LPWSTR MNLS_lstrcpyW(
 LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 lpString1
   
@@ -50,7 +50,7 @@ Si la fonction échoue, la valeur de retour est NULL et lpString1 peut ne pas ê
   
 ## <a name="remarks"></a>Remarques
 
-Cette fonction encapsule **la fonction lstrcpy.** Pour plus d’informations, [voir lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
+Cette fonction encapsule **la fonction lstrcpy.** Pour plus d’informations, voir [lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>Voir aussi
 

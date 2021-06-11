@@ -82,7 +82,7 @@ _pfld_
     
 _pxicc_
   
->  [in] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** qui prend en charge le chargement des modifications de contenu lors de l’utilisation de la synchronisation incrémentielle des modifications (ICS). Pour plus d’informations **sur IExchangeImportContentsChanges** et ICS, voir critères d’évaluation [ICS.](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)
+>  [in] Pointeur vers l’interface de contenu **IExchangeImportContentsChanges** qui prend en charge le chargement des modifications de contenu lors de l’utilisation de la synchronisation incrémentielle des modifications (ICS). Pour plus d’informations **sur IExchangeImportContentsChanges** et ICS, voir Critères d’évaluation [ICS.](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx)
     
 _dwReserved_
   

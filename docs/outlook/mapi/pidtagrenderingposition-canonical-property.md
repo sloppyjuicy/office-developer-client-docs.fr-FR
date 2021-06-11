@@ -40,9 +40,9 @@ Lorsque le décalage fourni est -1 (0xFFFFFFFF), la pièce jointe n’est pas re
   
  **Remarque** Le caractère indiqué par cette propriété dans **PR_BODY** est remplacé par la pièce jointe. En règle générale, ce caractère est un espace, bien qu’un caractère d’espace réservé spécial puisse également être utilisé. 
   
-Cette propriété est exprimée en caractères. Dans certains jeux de caractères, cela n’équivaut pas à des octets. Les applications Unicode peuvent calculer la position en fonction de caractères à deux caractères. Double-Byte applications de jeu de caractères (DBCS) doivent analyser le texte jusqu’à cette valeur de propriété, car leur représentation des caractères varie entre un et deux octets par caractère.
+Cette propriété est exprimée en caractères. Dans certains jeux de caractères, cela n’équivaut pas à des octets. Les applications Unicode peuvent calculer la position en fonction de caractères à deux caractères. Double-Byte applications de jeu de caractères (DBCS) doivent analyser le texte jusqu’à cette valeur de propriété, car leur représentation des caractères varie d’un à deux octets par caractère.
   
-Cette propriété ne doit pas être utilisée avec du texte RTF (Rich Text Format). La position de rendu est indiquée au rtf par une séquence d’échappatoire appelée espace réservé à la pièce jointe de l’objet. Cette séquence se compose de la chaîne suivie d’un seul caractère, normalement un espace, qui sera remplacé par le rendu  `\objattph` des pièces jointes. 
+Cette propriété ne doit pas être utilisée avec du texte RTF (Rich Text Format). La position de rendu est indiquée au rtf par une séquence d’échappatoire appelée espace réservé de pièce jointe d’objet. Cette séquence se compose de la chaîne suivie d’un seul caractère, normalement un espace, qui sera remplacé par le rendu  `\objattph` des pièces jointes. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -50,11 +50,11 @@ Cette propriété ne doit pas être utilisée avec du texte RTF (Rich Text Forma
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

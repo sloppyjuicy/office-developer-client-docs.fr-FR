@@ -49,14 +49,14 @@ Dans le tableau suivant, la notation <PropertyName> est utilisée pour spécifie
 |0x00003A11  <br/> |« \< PidTagSurname \> »  <br/> |
 |0x00003A16  <br/> |« \< PidTagCompanyName \> »  <br/> |
 |0x00008017  <br/> |« \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> »  <br/> |
-|0x00008018  <br/> |« \< PidTagCompanyName \> \r\n \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> »  <br/> |
-|0x00008019  <br/> |« \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> \r\n \< PidTagCompanyName \> »  <br/> |
+|0x00008018  <br/> |« \< PidTagCompanyName \>\r\n\< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> »  <br/> |
+|0x00008019  <br/> |« \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName\r\n\> \< PidTagCompanyName \> »  <br/> |
 |0x00008030  <br/> |« \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
 |0x00008031  <br/> |« \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
-|0x00008032  <br/> |« \< PidTagCompanyName \> \r\n \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
-|0x00008033  <br/> |« \< PidTagCompanyName \> \r\n \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
-|0x00008034  <br/> |« \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \r\n \< PidTagCompanyName \> »  <br/> |
-|0x00008035  <br/> |« \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \r\n \< PidTagCompanyName \> »  <br/> |
+|0x00008032  <br/> |« \< PidTagCompanyName \>\r\n\< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
+|0x00008033  <br/> |« \< PidTagCompanyName \>\r\n\< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
+|0x00008034  <br/> |« \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \>\r\n\< PidTagCompanyName \> »  <br/> |
+|0x00008035  <br/> |« \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName\r\n\> \< PidTagCompanyName \> »  <br/> |
 |0x00008036  <br/> |« \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName space \> \< \> \< PidTagGeneration \> »  <br/> |
 |0x00008037  <br/> |« \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \< space \> \< PidTagSurname space \> \< \> \< PidTagGeneration \> »  <br/> |
 |0x00008038  <br/> |« \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \< space \> \< PidTagGeneration \> »  <br/> |

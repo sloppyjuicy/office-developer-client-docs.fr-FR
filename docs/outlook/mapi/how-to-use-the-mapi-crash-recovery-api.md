@@ -21,7 +21,7 @@ Cette rubrique contient un exemple de code en C++ qui montre comment appeler la 
 
 Si la mémoire est dans un état cohérent, la fonction [MAPICrashRecovery](mapicrashrecovery.md) déplace les données sur le disque et empêche tout accès en lecture ou en écriture jusqu’à ce que le processus soit terminé. En vous assurant que les PST ou les systèmes d’exploitation sont dans un état cohérent avant la fin du processus, vous pouvez empêcher Microsoft Outlook 2010 ou Microsoft Outlook 2013 d’afficher le message d’erreur suivant et d’éviter les problèmes de performances : 
   
-**Un fichier de données n’a pas été fermé correctement la dernière fois qu’il a été utilisé et a fait l’objet d’une vérification pour la recherche de problèmes. Les performances peuvent être affectées pendant la vérification.**
+**Un fichier de données n’a pas été fermé correctement la dernière fois qu’il a été utilisé et des problèmes ont été vérifiés. Les performances peuvent être affectées pendant la vérification.**
   
 ```cpp
 LONG WINAPI UnhandledExceptionFilter(__in EXCEPTION_POINTERS* pep) 

@@ -35,7 +35,7 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulUIParam_
   
@@ -51,7 +51,7 @@ MAPI_LOGOFF_SHARED
     
 MAPI_LOGOFF_UI 
   
-> **La ff** de logo peut afficher une boîte de dialogue pendant l’opération, éventuellement en insurant à l’utilisateur une confirmation. 
+> **La ff** de logo peut afficher une boîte de dialogue pendant l’opération, ce qui peut être l’invite à confirmer l’opération. 
     
  _ulReserved_
   
@@ -69,7 +69,7 @@ La **méthode IMAPISession::Logoff** met fin à une session MAPI. Lorsque **la m
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Lorsque **la méthode Logoff est** de retour, relâchez l’objet de session en appelant sa méthode **IUnknown::Release.** 
+Lorsque **la logoff est** de retour, relâchez l’objet de session en appelant sa méthode **IUnknown::Release.** 
   
 Pour plus d’informations sur la fin d’une session, voir [Fin d’une session MAPI.](ending-a-mapi-session.md)
   

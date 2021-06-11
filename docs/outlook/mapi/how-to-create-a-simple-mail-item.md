@@ -36,11 +36,11 @@ Pour plus d’informations sur la façon de télécharger, d’afficher et d’e
     
 5. Envoyez le message en appelant [la méthode IMessage::SubmitMessage.](imessage-submitmessage.md) 
     
-La  `AddMail` fonction dans le fichier source Mails.cpp du projet CreateOutlookItemsAddin illustre ces étapes. La fonction prend les paramètres de la boîte de dialogue Ajouter un message qui s’affiche lorsque vous cliquez sur la commande Ajouter un message dans le menu Des addins de l’exemple `AddMail` d’application  MFCMAPI.   La fonction dans Mails.cpp affiche la boîte de dialogue et transmet les valeurs de la boîte de dialogue  `DisplayAddMailDialog` à la  `AddMail` fonction. La fonction n’est pas directement liée à la création d’un élément de courrier à l’aide de  `DisplayAddMailDialog` MAPI, elle n’est donc pas répertoriée ici. La  `AddMail` fonction est répertoriée ci-dessous. 
+La  `AddMail` fonction dans le fichier source Mails.cpp du projet CreateOutlookItemsAddin illustre ces étapes. La fonction prend les paramètres de la boîte de dialogue Ajouter un message qui s’affiche lorsque vous cliquez sur la commande Ajouter un message dans le menu Ajouter des modules dans l’exemple `AddMail` d’application  MFCMAPI.   La fonction dans Mails.cpp affiche la boîte de dialogue et transmet les valeurs de la boîte de dialogue  `DisplayAddMailDialog` à la  `AddMail` fonction. La fonction n’est pas directement liée à la création d’un élément de courrier à l’aide de  `DisplayAddMailDialog` MAPI, elle n’est donc pas répertoriée ici. La  `AddMail` fonction est répertoriée ci-dessous. 
   
 Notez que le  _paramètre lpFolder_ transmis à la méthode est un pointeur vers une  `AddMail` interface [IMAPIFolder](imapifolderimapicontainer.md) qui représente le dossier dans lequel le nouveau message sera créé. Étant donné _le paramètre lpFolder_ qui représente une interface **IMAPIFolder,** le code appelle la méthode [IMAPIFolder::CreateMessage.](imapifolder-createmessage.md) La **méthode CreateMessage** renvoie un code de réussite et un pointeur vers un pointeur vers une interface [IMessage : IMAPIProp.](imessageimapiprop.md) 
 
-La plupart du code de fonction gère le travail de définition des propriétés en préparation de l’appel de la méthode `AddMail` [IMAPIProp::SetProps.](imapiprop-setprops.md) Si l’appel à la méthode **SetProps** réussit, un appel à la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) validera les modifications apportées au magasin et créera un nouvel élément de courrier. Ensuite, si nécessaire, la [méthode IMessage::SubmitMessage](imessage-submitmessage.md) est appelée pour envoyer le message. 
+La plupart du code de fonction gère le travail de définition des propriétés en préparation de l’appel de la méthode `AddMail` [IMAPIProp::SetProps.](imapiprop-setprops.md) Si l’appel à la méthode **SetProps** réussit, un appel à la méthode [IMAPIProp::SaveChanges commits](imapiprop-savechanges.md) the changes to the store and creates a new mail item. Ensuite, si nécessaire, la méthode [IMessage::SubmitMessage](imessage-submitmessage.md) est appelée pour envoyer le message. 
   
 La `AddMail` fonction utilise deux fonctions d’aide  pour créer des valeurs pour PR_CONVERSATION_INDEX et **PR_REPORT_TAG** propriétés : les fonctions et les `BuildConversationIndex` `AddReportTag` fonctions. La fonction, située dans CreateOutlookItemsAddin.cpp, fait le même travail que la fonction  `BuildConversationIndex` MAPI [ScCreateConversationIndex](sccreateconversationindex.md) intégrée lorsqu’un index de conversation parent ne lui est pas transmis. Le format de la mémoire tampon d’index de conversation que ces fonctions génèrent est documenté dans la propriété canonique [PidTagConversationIndex.](pidtagconversationindex-canonical-property.md) 
 
@@ -139,5 +139,5 @@ HRESULT AddMail(LPMAPISESSION lpMAPISession,
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisation de MAPI pour créer des éléments Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
+- [Utilisation de MAPI pour créer Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

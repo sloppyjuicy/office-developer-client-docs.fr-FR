@@ -66,7 +66,7 @@ STORE_HTML_OK
     
 STORE_ITEMPROC
   
-> (2097152, 0x00200000) Dans un magasin PST enveloppé, indique qu’à l’arrivée d’un nouveau message dans la boutique, celle-ci effectue séparément le traitement des règles et du filtrage du courrier indésirable sur le message. La boutique appelle [IMAPISupport::Notify](imapisupport-notify.md), la définition **de fnevNewMail** dans la structure [notification](notification.md) transmise en tant que paramètre, puis transmet les détails du nouveau message au client d’écoute. Par la suite, lorsque le client à l’écoute reçoit la notification, il ne traite pas de règles dans le message. 
+> (2097152, 0x00200000) Dans un magasin PST enveloppé, indique qu’à l’arrivée d’un nouveau message dans la boutique, celle-ci effectue des règles et un traitement de filtrage du courrier indésirable sur le message séparément. La boutique appelle [IMAPISupport::Notify](imapisupport-notify.md), la définition **de fnevNewMail** dans la structure [notification](notification.md) transmise en tant que paramètre, puis transmet les détails du nouveau message au client d’écoute. Par la suite, lorsque le client à l’écoute reçoit la notification, il ne traite pas de règles dans le message. 
     
 STORE_LOCALSTORE
   
@@ -98,11 +98,11 @@ STORE_PUSHER_OK
     
 STORE_READONLY 
   
-> (2, 0x00000002) Toutes les interfaces de la magasin de messages ont un niveau d’accès en lecture seule. 
+> (2, 0x00000002) Toutes les interfaces de la boutique de messages ont un niveau d’accès en lecture seule. 
     
 STORE_RESTRICTION_OK 
   
-> (4096, 0x00001000) La magasin de messages prend en charge les restrictions. 
+> (4096, 0x00001000) La boutique de messages prend en charge les restrictions. 
     
 STORE_RTF_OK 
   
@@ -132,7 +132,7 @@ STORE_UNICODE_OK
   
 > (262144, 0x00040000) Indique que la banque de messages prend en charge le stockage Unicode. Un client peut rechercher la présence de l’indicateur pour décider s’il doit demander des informations Unicode à la banque ou les y enregistrer. 
     
-Une version RTF d’un message peut toujours être stockée, même si la boutique de messages n’est pas sensible au RTF. Si le bit STORE_RTF_OK n’est pas définie pour un magasin particulier, un client conservant des versions RTF doit lui-même appeler la fonction [RTFSync](rtfsync.md) pour que les versions **PR_BODY** et **PR_RTF_COMPRESSED** restent synchronisées pour le contenu texte. RtF est toujours stocké dans PR_RTF_COMPRESSED **,** qu’il soit en réalité compressé ou non. 
+Une version RTF d’un message peut toujours être stockée, même si la boutique de messages n’est pas sensible au RTF. Si le bit STORE_RTF_OK n’est pas définie pour un magasin particulier, un client conservant les versions RTF doit lui-même appeler la fonction [RTFSync](rtfsync.md) pour que les versions **PR_BODY** et **PR_RTF_COMPRESSED** restent synchronisées pour le contenu de texte. RtF est toujours stocké dans PR_RTF_COMPRESSED **,** qu’il soit en réalité compressé ou non. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

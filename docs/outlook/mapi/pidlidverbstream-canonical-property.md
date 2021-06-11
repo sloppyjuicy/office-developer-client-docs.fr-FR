@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidVerbStream
+title: Propri t canonique PidLidVerbStream
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32341250"
 ---
-# <a name="pidlidverbstream-canonical-property"></a>Propriété canonique PidLidVerbStream
+# <a name="pidlidverbstream-canonical-property"></a>Propri t canonique PidLidVerbStream
 
   
   

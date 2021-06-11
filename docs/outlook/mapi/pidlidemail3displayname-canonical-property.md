@@ -25,7 +25,7 @@ ms.locfileid: "32337953"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie le nom complet lisible par l’utilisateur pour la troisième adresse e-mail.
+Spécifie le nom complet lisible par l’utilisateur pour la troisième adresse de messagerie.
   
 |||
 |:-----|:-----|

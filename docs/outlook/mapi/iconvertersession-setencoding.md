@@ -31,7 +31,7 @@ HRESULT IConverterSession:: SetEncoding (
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _et_
   
@@ -51,9 +51,9 @@ E_INVALIDARG
     
 ## <a name="remarks"></a>Remarques
 
-Appelez **SetEncoding** avant [d’utiliser IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) pour effectuer la conversion. 
+Appelez **SetEncoding** avant d’utiliser [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) pour effectuer la conversion. 
   
-Utilisez **SetEncoding pour** définir le codage uniquement pour le corps de message le plus à l’extérieur d’un élément de courrier. Microsoft Outlook 2010 et Microsoft Outlook 2013 choisissent le codage des pièces jointes individuelles. 
+Utilisez **SetEncoding pour** définir le codage uniquement pour le corps de message le plus à l’extérieur d’un élément de courrier. Microsoft Outlook 2010 et Microsoft Outlook 2013 choisir le codage des pièces jointes individuelles. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

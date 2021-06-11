@@ -25,7 +25,7 @@ ms.locfileid: "32355964"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le deuxième prénom d’un contact.
+Contient le deuxième nom d’un contact.
   
 |||
 |:-----|:-----|

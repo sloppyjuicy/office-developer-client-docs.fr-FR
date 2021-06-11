@@ -37,7 +37,7 @@ Active l’authentification Kerberos d’une configuration de profil.
 La définition de cette propriété sur le nom de domaine du serveur d’annuaire de l’utilisateur permet une connexion directe au contrôleur de domaine (DC), ce qui est nécessaire pour un profil configuré pour utiliser l’authentification Kerberos par rapport à Microsoft Exchange Server 2007 et versions antérieures, en configurant **RPC_C_AUTHN_GSS_KERBEROS** dans **PR_PROFILE_AUTH_PACKAGE**.
   
 > [!NOTE]
-> Microsoft Exchange Server 2010 et Exchange Server 2013 gèrent les appels de carnet d’adresses effectués vers le serveur d’accès au client différemment de la manière dont Exchange Server 2007 et les versions antérieures les gèrent. Le processus DSProxy n’est plus utilisé, donc l’authentification Kerberos peut réussir. Toutefois, le client communiquerait toujours avec le serveur Exchange au lieu de communiquer directement avec le dc, ce qui n’est peut-être pas souhaité : la configuration PR_PROFILE_HOME_SERVER_FQDN **évite** cela. 
+> Microsoft Exchange Server 2010 et Exchange Server 2013 gèrent les appels de carnet d’adresses effectués vers le serveur d’accès au client différemment de la manière dont Exchange Server 2007 et les versions antérieures les gèrent. Le processus DSProxy n’est plus utilisé, donc l’authentification Kerberos peut réussir. Toutefois, le client communique toujours avec le serveur Exchange au lieu de communiquer directement avec le  dc, ce qui n’est peut-être pas souhaité : la définition de PR_PROFILE_HOME_SERVER_FQDN évite cela. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

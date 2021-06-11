@@ -35,11 +35,11 @@ HRESULT OpenTaggedBody(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpMessage_
   
-> [in] Pointeur vers le message auquel le flux est associé. Ce message ne doit pas nécessairement être le même message que celui transmis dans l’appel à la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) 
+> [in] Pointeur vers le message auquel le flux est associé. Ce message ne doit pas nécessairement être le même que celui transmis dans l’appel à la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) 
     
  _ulFlags_
   
@@ -47,7 +47,7 @@ HRESULT OpenTaggedBody(
     
 MAPI_CREATE 
   
-> Si une propriété n’existe pas dans le message actuel, elle doit être créée. Si la propriété existe, les données actuelles de la propriété doivent être remplacées par les données du flux TNEF (Transport-Neutral Encapsulation Format). Lorsqu’une implémentation définit l’MAPI_CREATE, elle doit également définir l’MAPI_MODIFY’indicateur.
+> Si une propriété n’existe pas dans le message actuel, elle doit être créée. Si la propriété existe, les données actuelles de la propriété doivent être remplacées par les données du flux Transport-Neutral Encapsulation Format (TNEF). Lorsqu’une implémentation définit l’MAPI_CREATE, elle doit également définir l’MAPI_MODIFY’indicateur.
     
 MAPI_MODIFY 
   

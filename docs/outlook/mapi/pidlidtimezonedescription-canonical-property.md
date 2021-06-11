@@ -37,7 +37,7 @@ Spécifie une description de chaîne du fuseau horaire.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie une description lisible du fuseau horaire représenté par les données dans la propriété **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)).
+Cette propriété spécifie une description lisible par l’utilisateur du fuseau horaire qui est représenté par les données dans la propriété **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)).
   
 ## <a name="related-resources"></a>Ressources connexes
 

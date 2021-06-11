@@ -36,7 +36,7 @@ Contient les noms d’affichage des destinataires en copie carbone non voyante (
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés contiennent une liste séparée par des points-virgules. Ils sont fournis par MAPI et sont copiés directement à partir de **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) lorsqu’un rapport de remise ou non remise ou un rapport lu ou non lu est généré. Ces propriétés peuvent être présentes sur d’autres messages tels que définis par leurs classes de messages.
+Ces propriétés contiennent une liste séparée par des points-virgules. Ils sont fournis par MAPI et sont copiés directement à partir de **PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md)) lorsqu’un rapport de remise ou non remise ou un rapport en lecture ou non lu est généré. Ces propriétés peuvent être présentes sur d’autres messages tels que définis par leurs classes de messages.
   
 ## <a name="related-resources"></a>Ressources connexes
 

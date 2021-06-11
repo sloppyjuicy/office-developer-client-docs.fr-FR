@@ -33,6 +33,6 @@ L’objectif du mappage des attributs de message SMTP aux propriétés MAPI (et 
   
 Ce document suppose une connaissance des transports MAPI, du TNEF et du courrier SMTP. Il s’efforce d’être concis plutôt que d’être clairement clair.
   
-En tant que convention, « sortant » fait référence au courrier circulant d’une UC ou d’un MTA compatible MAPI vers Internet, et « entrant » désigne le courrier qui se déplace d’Internet vers un composant MAPI.
+En tant que convention, « sortant » désigne les messages qui circulent d’une UC ou d’un MTA compatible MAPI vers Internet, et « entrant » désigne les messages qui circulent d’Internet vers un composant MAPI.
   
 

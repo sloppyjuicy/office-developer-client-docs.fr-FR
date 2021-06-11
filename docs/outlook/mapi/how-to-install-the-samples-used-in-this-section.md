@@ -21,7 +21,7 @@ ms.locfileid: "32345548"
   
 Pour installer l’application MFCMAPI et le projet CreateOutlookItemsAddin afin d’afficher et d’exécuter l’exemple de code référencé par les rubriques de la section Création d’éléments Outlook à l’aide de [MAPI,](creating-outlook-items-by-using-mapi.md) suivez ces étapes. 
 
-Pour télécharger et installer les exemples utilisés dans la section « Utilisation de MAPI pour créer des éléments Outlook », suivez ces étapes.
+Pour télécharger et installer les exemples utilisés dans la section « Utilisation de MAPI pour créer Outlook éléments », suivez ces étapes.
 
 ### <a name="to-download-and-install-the-mfcmapi-application-and-open-createoutlookitemsaddin-project"></a>Pour télécharger et installer l’application MFCMAPI et ouvrir le projet CreateOutlookItemsAddin
 
@@ -31,11 +31,11 @@ Pour télécharger et installer les exemples utilisés dans la section « Utilis
     
 3. Téléchargez la version actuelle du [projet CreateOutlookItemsAddin.](https://go.microsoft.com/fwlink/?LinkID=127828) 
     
-4. Extrayez tous les fichiers du fichier CreateOutlookItemsAddin.zip vers le dossier où vous avez extrait le MFCMapi.exe à l’étape 2.
+4. Extrayez tous les fichiers du fichier CreateOutlookItemsAddin.zip vers le dossier dans lequel vous avez MFCMapi.exe fichier à l’étape 2.
     
 5. Copiez MFCMapi.exe du dossier utilisé à l’étape 2 dans le répertoire de build pour le projet CreateOutlookItemsAddin (\CreateOutlookItemsAddin\Debug).
     
-6. Ouvrez le projet CreateOutlookItemsAddin (\CreateOutlookItemsAddin\CreateOutlookItemsAddin.vcproj) dans Visual Studio pour examiner le code source. Reportez-vous aux rubriques de la section Création d’éléments Outlook à l’aide de [MAPI](creating-outlook-items-by-using-mapi.md) pour déterminer les fichiers sources à ouvrir. 
+6. Ouvrez le projet CreateOutlookItemsAddin (\CreateOutlookItemsAddin\CreateOutlookItemsAddin.vcproj) dans Visual Studio pour examiner le code source. Reportez-vous aux rubriques de la section Création d Outlook à l’aide de [MAPI](creating-outlook-items-by-using-mapi.md) pour déterminer les fichiers sources à ouvrir. 
     
 ## <a name="run-mfcmapi-and-the-createoutlookitemsaddin-project"></a>Exécuter MFCMAPI et le projet CreateOutlookItemsAddin
 
@@ -48,13 +48,13 @@ Les étapes suivantes supposent que vous avez téléchargé et installé la vers
 
 1. Démarrez Mfcmapi.exe dans le dossier CreateOutlookItemsAddin\Debug créé lorsque vous suivez les instructions d’installation.
     
-2. Cliquez **sur OK** pour faire disparaître l’écran de splash MFCMAPI. 
+2. Cliquez **sur OK** pour fermer l’écran de splash MFCMAPI. 
     
 3. Dans le menu **Session,** cliquez sur **Ouverture de session et afficher la table Store.**
     
 4. Dans la **boîte de dialogue Choisir** un profil, sélectionnez le profil correct, puis cliquez sur **OK.** 
     
-5. Double-cliquez sur **Boîte aux lettres - _[Nom d’utilisateur]_** dans l’affichage Liste de tables du Magasin. 
+5. Double-cliquez sur **Boîte aux lettres - _[Nom d’utilisateur]_** dans l’affichage Liste de la table du magasin. 
     
 6. Dans l’arborescence de dossiers, développez le nœud racine. Le nom affiché pour le nœud racine varie en fonction du type de profil sélectionné. En règle générale, ce nœud s’affiche en tant que **Racine - Boîte aux lettres**.
     
@@ -72,7 +72,7 @@ Certaines rubriques font référence au code source de l’application MFCMAPI e
 
 1. Téléchargez le code source de la version actuelle de l’application [MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) dans un dossier de votre système. 
     
-2. Extrayez les fichiers dans MFCMAPI- _changeset_.zip dans un dossier vide sur votre disque dur.
+2. Extrayez les fichiers du _.zip MFCMAPI_ dans un dossier vide sur votre disque dur.
     
 3. Ouvrez le projet MFCMapi (\ _foldername_\ MFCMapi.vcproj) dans Visual Studio pour examiner le code source.
     

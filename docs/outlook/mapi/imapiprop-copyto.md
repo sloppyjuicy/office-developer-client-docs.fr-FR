@@ -41,13 +41,13 @@ HRESULT CopyTo(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ciidExclude_
   
 > [in] Nombre d’interfaces à exclure lorsque les propriétés sont copiées ou déplacées.
     
- _eaidExclude_
+ _tricidExclude_
   
 > [in] Tableau d’identificateurs d’interface (IID) qui spécifient des interfaces qui ne doivent pas être utilisées lorsque des informations supplémentaires sont copiées ou déplacées vers l’objet de destination.
     
@@ -89,7 +89,7 @@ MAPI_MOVE
     
 MAPI_NOREPLACE 
   
-> Les propriétés existantes dans l’objet de destination ne doivent pas être écrasées. Lorsque cet indicateur n’est pas définie, **CopyTo** se place sur les propriétés existantes. 
+> Les propriétés existantes dans l’objet de destination ne doivent pas être écrasées. Lorsque cet indicateur n’est pas définie, **CopyTo** réécrit les propriétés existantes. 
     
  _lppProblems_
   
@@ -119,7 +119,7 @@ MAPI_E_INTERFACE_NOT_SUPPORTED
     
 MAPI_E_NO_ACCESS 
   
-> Une tentative d’accès à un objet pour lequel l’appelant dispose d’autorisations insuffisantes a été tentée. Cette erreur est renvoyée si l’objet de destination est identique à l’objet source.
+> Une tentative d’accès à un objet pour lequel l’appelant ne dispose pas des autorisations suffisantes a été tentée. Cette erreur est renvoyée si l’objet de destination est identique à l’objet source.
     
 Les valeurs suivantes peuvent être renvoyées dans la structure **SPropProblemArray,** mais pas en tant que valeurs de retour **pour CopyTo**. Les erreurs suivantes s’appliquent à une seule propriété :
   
@@ -153,13 +153,13 @@ Vous pouvez fournir une implémentation complète de **CopyTo** ou vous appuyer 
   
 N’essayez pas de définir des propriétés en lecture seule connues dans l’objet de destination ; renvoyer MAPI_E_NO_ACCESS à la place.
   
-Les objets source et de destination doivent utiliser les mêmes interfaces. Renvoyer MAPI_E_INVALID_PARAMETER  _si lpInterface n’est_ pas définie. 
+Les objets source et de destination doivent utiliser les mêmes interfaces. Renvoyer MAPI_E_INVALID_PARAMETER si  _lpInterface n’est_ pas définie. 
   
 Renvoyer MAPI_E_INTERFACE_NOT_SUPPORTED si toutes les interfaces connues sont exclues.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Ne définissez pas l’MAPI_DECLINE_OK de l’indicateur . MAPI l’utilise dans ses appels aux implémentations **CopyTo** du fournisseur de magasins de messages. 
+Ne définissez pas l’MAPI_DECLINE_OK de la recherche ; MAPI l’utilise dans ses appels aux implémentations **CopyTo** du fournisseur de magasins de messages. 
   
 Étant donné que les opérations de copie et de déplacement peuvent prendre du temps, vous devez demander l’affichage d’un indicateur de progression en MAPI_DIALOG’indicateur. Vous pouvez définir le  _paramètre lpProgress_ sur votre implémentation de **IMAPIProgress,** si vous en avez un, ou sur **null**. Si  _lpProgress est_ **null,** **CopyTo** utilise l’indicateur de progression par défaut que MAPI fournit. 
   
@@ -177,9 +177,9 @@ Pour vous assurer que vous copiez entre des objets du même type, vérifiez que 
   
 Si un pointeur non valide est transmis dans le  _paramètre lpDestObj,_ les résultats sont imprévisibles. 
   
-L’exclusion de propriétés sur un appel **CopyTo** peut être utile. Par exemple, certains objets ont des propriétés spécifiques à une instance unique de l’objet, telles que la date et l’heure de remise du message. Pour éviter de copier l’heure de remise d’un message lorsque vous copiez le message dans un autre dossier, spécifiez **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) dans le tableau d’exclusion de balise de propriété. Pour exclure la liste des destinataires d’un message, ajoutez la propriété **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) au tableau d’exclusion. Pour exclure les pièces jointes d’un message, ajoutez la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) au tableau.
+L’exclusion de propriétés sur un appel **CopyTo** peut être utile. Par exemple, certains objets ont des propriétés spécifiques à une instance unique de l’objet, telles que la date et l’heure de remise du message. Pour éviter de copier le temps de remise d’un message lorsque vous copiez le message dans un autre dossier, spécifiez **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) dans le tableau d’exclusion de balise de propriété. Pour exclure la liste des destinataires d’un message, ajoutez la propriété **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) au tableau d’exclusion. Pour exclure les pièces jointes d’un message, ajoutez la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) au tableau.
   
-De même, empêchez la copie ou le déplacement de la hiérarchie ou de la table des matières d’un conteneur de dossiers ou de carnets d’adresses en incluant **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) dans le tableau d’exclusion de balise de propriété.
+De même, empêchez la copie ou le déplacement de la hiérarchie ou de la table des matières d’un conteneur de dossier ou de carnet d’adresses en incluant **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) ou **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) dans le tableau d’exclusion de balise de propriété.
   
 Pour exclure des propriétés de l’opération de copie ou de déplacement, incluez leurs balises de propriété dans le paramètre _lpExcludeProps._ Si vous passez les résultats de la macro **PROP_TAG** pour créer une balise de propriété à partir d’un identificateur spécifique dans le tableau de balises de propriétés, toutes les propriétés avec cet identificateur seront exclues. Par exemple, l’entrée suivante dans le tableau de balises de propriétés exclut toutes les propriétés dont l’identificateur est 0x8002, quel que soit le type : 
   
@@ -189,7 +189,7 @@ La **PR_NULL** de propriété [( PidTagNull](pidtagnull-canonical-property.md)) 
   
 L’utilité de la fonctionnalité **CopyTo** pour l’exclusion des interfaces n’est peut-être pas aussi évidente que l’utilité de l’exclusion de propriétés. Vous pouvez exclure une interface lorsque vous copiez dans un objet qui n’a aucune connaissance d’un groupe de propriétés. Par exemple, si vous copiez des propriétés d’un dossier vers une pièce jointe, les seules propriétés que la pièce jointe peut utiliser sont les propriétés génériques disponibles avec n’importe quelle implémentation [IMAPIProp.](imapipropiunknown.md) En excluant [IMAPIFolder](imapifolderimapicontainer.md) de l’opération de copie, la pièce jointe ne reçoit aucune des propriétés de dossier plus spécifiques. 
   
-Lorsque vous utilisez le  _paramètre autantidExclude_ que pour exclure une interface, il exclut également toutes les interfaces dérivées de cette interface. Par exemple, l’exclusion [d’IMAPIContainer](imapicontainerimapiprop.md) entraîne l’exclusion des dossiers ou des conteneurs de carnet d’adresses, selon le type de fournisseur. N’excluez **pas IMAPIProp** ou [IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) car de nombreuses interfaces en dérivent. 
+Lorsque vous utilisez le  _paramètre autantidExclude_ que pour exclure une interface, il exclut également toutes les interfaces dérivées de cette interface. Par exemple, l’exclusion [d’IMAPIContainer](imapicontainerimapiprop.md) entraîne l’exclusion des dossiers ou des conteneurs de carnet d’adresses, en fonction du type de fournisseur. N’excluez **pas IMAPIProp** ou [IUnknown,](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) car de nombreuses interfaces en dérivent. 
   
 Ignorez MAPI_E_COMPUTED erreurs renvoyées dans la structure **SPropProblemArray** dans le paramètre _lppProblems._ 
   

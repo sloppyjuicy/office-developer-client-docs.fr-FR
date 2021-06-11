@@ -40,7 +40,7 @@ Ces propriétés contiennent des informations sur la source d’origine d’une 
   
 Pour un rapport non lu, ces propriétés contiennent une copie du nom complet du destinataire du message d’origine pour lequel le rapport est généré. Lorsque le destinataire d’origine fait partie d’une liste de distribution, le nom complet de la liste de distribution est conservé pour le rapport.
   
-Une application cliente peut utiliser ces propriétés pour empêcher l’altération ou l’usurpation d’entrées, en donnant une copie sans modification du nom complet à comparer.
+Une application cliente peut utiliser ces propriétés pour empêcher l’altération ou l’usurpation d’entrées, en donnant une copie inchangée du nom complet à comparer.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -48,7 +48,7 @@ Une application cliente peut utiliser ces propriétés pour empêcher l’altér
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

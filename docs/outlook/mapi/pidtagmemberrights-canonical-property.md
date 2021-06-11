@@ -25,7 +25,7 @@ ms.locfileid: "32342693"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un ensemble de bits qui indiquent les droits de ce membre sur un dossier ou une boîte aux lettres.
+Contient un ensemble de bits qui indique les droits de ce membre sur un dossier ou une boîte aux lettres.
   
 |||
 |:-----|:-----|
@@ -100,7 +100,7 @@ rightsAll
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   

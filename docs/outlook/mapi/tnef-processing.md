@@ -39,7 +39,7 @@ La série d’actions suivante décrit comment les transports utilisent les mét
     
  **Pour récupérer des propriétés encapsulées**
   
-1. Écrivez les propriétés prise en charge par le système de messagerie dans un nouveau message, y compris le texte du message marqué qui contient les propriétés encapsulées.
+1. Écrivez les propriétés prise en charge par le système de messagerie dans un nouveau message, y compris le texte de message balisé qui contient les propriétés encapsulées.
     
 2. Décodez le flux TNEF à partir de la pièce jointe appropriée.
     

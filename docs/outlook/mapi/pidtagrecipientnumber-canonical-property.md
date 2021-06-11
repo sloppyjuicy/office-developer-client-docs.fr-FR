@@ -32,7 +32,7 @@ Représente le numéro de destinataire d’un destinataire du message.
 |Propriétés associées :  <br/> |PR_RECIPIENT_NUMBER  <br/> |
 |Identificateur :  <br/> |0x6662  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Message Exchange en lecture-écriture  <br/> |
+|Domaine :  <br/> |Exchange Message en lecture-écriture  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -40,7 +40,7 @@ Représente le numéro de destinataire d’un destinataire du message.
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

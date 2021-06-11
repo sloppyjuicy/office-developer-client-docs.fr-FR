@@ -64,7 +64,7 @@ STDMETHODIMP STATUS_QueryInterface(LPMYSTATUSOBJ lpMyObj, REFIID riid,
 
 ```
 
-Alors que l’implémentation de la méthode **AddRef** en C est similaire à une implémentation C++, une implémentation C de la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) peut être plus élaborée qu’une version C++. Cela est dû au fait que la plupart des fonctionnalités impliquées dans la libération d’un objet peuvent être incorporées dans le constructeur et le destructeur C++, et C n’a pas ce mécanisme. Toutes ces fonctionnalités doivent être incluses dans la **méthode Release.** En outre, en raison du paramètre supplémentaire et de sa vtable explicite, une validation supplémentaire est requise. 
+Alors que l’implémentation de la méthode **AddRef** en C est similaire à une implémentation C++, une implémentation C de la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) peut être plus élaborée qu’une version C++. Cela est dû au fait que la plupart des fonctionnalités impliquées dans la libération d’un objet peuvent être incorporées dans le constructeur et le destructeur C++, et C n’a pas ce mécanisme. Toutes ces fonctionnalités doivent être incluses dans la **méthode Release.** En outre, en raison du paramètre supplémentaire et de son vtable explicite, une validation supplémentaire est requise. 
   
 L’appel **de méthode AddRef** suivant illustre une implémentation C classique pour un objet d’état. 
   

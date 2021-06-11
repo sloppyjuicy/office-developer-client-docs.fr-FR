@@ -25,7 +25,7 @@ ms.locfileid: "32338611"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Valeur interprétée comme une combinaison de masque de bits d’indicateurs spécifiant l’état de la règle.
+Valeur interprétée comme une combinaison de masques de bits d’indicateurs spécifiant l’état de la règle.
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ EN (ST_ENABLED, masque de bits 0x00000001)
     
 ER (ST_ERROR, masque de bits 0x00000002)
   
-> Le serveur a rencontré une erreur de traitement de la règle.
+> Le serveur a rencontré une erreur lors du traitement de la règle.
     
 OF (ST_ONLY_WHEN_OOF, masque de bits 0x00000004)
   
-> La règle est exécutée uniquement lorsque l’utilisateur définit l’état d’absence du bureau sur la boîte aux lettres. Cet indicateur ne doit pas être définie dans une règle de dossier public.
+> La règle est exécutée uniquement lorsque l’utilisateur définit l’état Office hors Office la boîte aux lettres. Cet indicateur ne doit pas être définie dans une règle de dossier public.
     
 HI (ST_KEEP_OOF_HIST, masque de bits 0x00000008)
   
@@ -56,7 +56,7 @@ HI (ST_KEEP_OOF_HIST, masque de bits 0x00000008)
     
 EL (ST_EXIT_LEVEL, masque de bits 0x00000010)
   
-> L’évaluation de la règle se termine après l’exécution de cette règle, à l’exception de l’évaluation des règles d’int office.
+> L’évaluation de la règle se termine après l’exécution de cette règle, à l’exception de l’évaluation des règles Office hors projet.
     
 SCL (ST_SKIP_IF_SCL_IS_SAFE, masque de bits 0x00000020)
   
@@ -72,7 +72,7 @@ X
     
 Notez l’interaction entre ST_ONLY_WHEN_OOF et ST_EXIT_LEVEL indicateurs : 
   
-Lorsque l’état « Out of Office » est définie sur la boîte aux lettres et qu’une condition de règle est évaluée à TRUE, 
+Lorsque l’état « Hors Office » est définie sur la boîte aux lettres et qu’une condition de règle est évaluée à TRUE, 
   
 ET :
   

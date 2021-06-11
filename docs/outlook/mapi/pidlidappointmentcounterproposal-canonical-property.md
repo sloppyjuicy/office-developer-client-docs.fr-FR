@@ -25,7 +25,7 @@ ms.locfileid: "32345366"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique que cette réponse à la réunion est une proposition de compteur.
+Indique que cette réponse de réunion est une proposition de compteur.
   
 |||
 |:-----|:-----|

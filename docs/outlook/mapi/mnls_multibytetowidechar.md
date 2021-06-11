@@ -33,7 +33,7 @@ int MNLS_MultiByteToWideChar(
   int cchWideChar);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _uCodePage_
   

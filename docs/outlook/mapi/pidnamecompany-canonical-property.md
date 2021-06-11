@@ -31,7 +31,7 @@ Spécifie la société pour laquelle le fichier a été créé.
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |Company  <br/> |
+|Nom de la propriété :  <br/> |Société  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Courant  <br/> |
    

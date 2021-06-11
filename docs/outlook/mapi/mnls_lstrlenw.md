@@ -31,7 +31,7 @@ int MNLS_lstrlen(
   LPCWSTR lpsz);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   

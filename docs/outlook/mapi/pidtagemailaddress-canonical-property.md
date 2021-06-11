@@ -38,7 +38,7 @@ Contient l’adresse e-mail de l’utilisateur de messagerie.
 
 Ces propriétés sont des exemples de propriétés d’adresse de base pour tous les utilisateurs de messagerie. Il s’agit d’une chaîne terminée par null dont le format n’a de signification que pour le système de messagerie sous-jacent. 
   
-Ces propriétés sont utilisées conjointement avec les propriétés **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) et **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) dans l’adressarage des messages. Le format de chaîne est qualifié **par PR_ADDRTYPE**. 
+Ces propriétés sont utilisées conjointement avec les propriétés **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) et **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) dans l’adressarage des messages. Le format de chaîne est qualifié par **PR_ADDRTYPE**. 
   
 Les valeurs valides pour cette propriété sont les suivantes : 
   

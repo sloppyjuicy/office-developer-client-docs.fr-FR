@@ -65,7 +65,7 @@ Vous pouvez ajouter, afficher, masquer et supprimer des sections dans la feuille
 
 1. Cliquez dans la fenêtre Feuille ShapeSheet pour l'activer.
     
-2. Sous **Outils Feuille ShapeSheet** sous **l’onglet** Création, dans la section **Affichage,** cliquez sur **Sections.** Vous pouvez également cliquer avec le bouton droit de la souris dans la fenêtre Feuille ShapeSheet, puis choisir **Afficher les sections**.
+2. Sous **Outils ShapeSheet** sous **l’onglet** Création, dans la section **Affichage,** cliquez sur **Sections.** Vous pouvez également cliquer avec le bouton droit de la souris dans la fenêtre Feuille ShapeSheet, puis choisir **Afficher les sections**.
     
 3. Sélectionnez les sections que vous voulez afficher ou supprimez les sections que vous voulez masquer.
     

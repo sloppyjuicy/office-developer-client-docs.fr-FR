@@ -1,5 +1,5 @@
 ---
-title: Envoi de messages à l’aide du traitement personnalisé des pièces jointes TNEF
+title: Envoi de messages à l’aide du traitement des pièces jointes personnalisé TNEF
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32339696"
 ---
-# <a name="sending-messages-by-using-tnef-custom-attachment-processing"></a>Envoi de messages à l’aide du traitement personnalisé des pièces jointes TNEF
+# <a name="sending-messages-by-using-tnef-custom-attachment-processing"></a>Envoi de messages à l’aide du traitement des pièces jointes personnalisé TNEF
 
  
   
@@ -29,7 +29,7 @@ Pour personnaliser le traitement des pièces jointes lors de l’envoi d’un me
     
 3. Utilisez [les méthodes IMAPIProp](imapipropiunknown.md) pour exclure toutes les propriétés pris en charge par le système de messagerie. Au moment approprié, écrivez ces propriétés dans le système de messagerie au format requis par le système de messagerie. 
     
-4. Appelez la méthode [ITnef::AddProps](itnef-addprops.md) pour ajouter uniquement les propriétés du message , c’est-à-dire, aucune des propriétés sur les pièces jointes, en TNEF_PROP_MESSAGE_ONLY’indicateur. 
+4. Appelez la méthode [ITnef::AddProps](itnef-addprops.md) pour ajouter uniquement les propriétés du message , c’est-à-dire, aucune des propriétés sur les pièces jointes, en TNEF_PROP_MESSAGE_ONLY indicateur. 
     
 5. Appelez [ITnef::AddProps](itnef-addprops.md) avec ces éléments : l’indicateur TNEF_PROP_EXCLUDE, un tableau de balises de propriétés qui contient la propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) et un identificateur de pièce jointe qui spécifie la pièce jointe à traiter.
     
@@ -47,8 +47,8 @@ Pour personnaliser le traitement des pièces jointes lors de l’envoi d’un me
     
 Votre fournisseur de transport doit utiliser la procédure décrite précédemment pour traiter les pièces jointes. Si ce n’est pas possible, le fournisseur de transport doit suivre les étapes suivantes pour le traitement personnalisé des pièces jointes :
   
-1. Le fournisseur de transport  garantit que les PR_ATTACH_TRANSPORT_NAME de toutes les pièces jointes contiennent des valeurs uniques qui sont des identificateurs de pièces jointes valides pour le système de messagerie. 
+1. Le fournisseur de transport garantit que les **PR_ATTACH_TRANSPORT_NAME** de toutes les pièces jointes contiennent des valeurs uniques qui sont des identificateurs de pièces jointes valides pour le système de messagerie. 
     
-2. Le fournisseur de transport utilise ensuite un seul appel à **ITnef::AddProps** pour chaque pièce jointe, en passant l’indicateur TNEF_PROP_CONTAINED’appel. 
+2. Le fournisseur de transport utilise ensuite un seul appel à **ITnef::AddProps** pour chaque pièce jointe, en passant l’indicateur TNEF_PROP_CONTAINED. 
     
 

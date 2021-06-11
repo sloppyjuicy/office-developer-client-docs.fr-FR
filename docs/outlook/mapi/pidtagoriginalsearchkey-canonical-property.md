@@ -38,7 +38,7 @@ Contient la clé de recherche d’origine d’une entrée copiée à partir d’
 
 Cette propriété est l’une des propriétés qui contiennent des informations sur la source d’origine d’une entrée copiée.
   
-Pour un état non lu, cette propriété contient une copie de la clé de recherche du destinataire du message d’origine pour lequel le rapport est généré. Lorsque le destinataire d’origine fait partie d’une liste de distribution, la clé de recherche de la liste de distribution est conservée pour le rapport.
+Pour un rapport non lu, cette propriété contient une copie de la clé de recherche du destinataire du message d’origine pour lequel le rapport est généré. Lorsque le destinataire d’origine fait partie d’une liste de distribution, la clé de recherche de la liste de distribution est conservée pour le rapport.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Pour un état non lu, cette propriété contient une copie de la clé de recherc
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

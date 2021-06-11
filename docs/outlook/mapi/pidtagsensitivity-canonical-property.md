@@ -66,7 +66,7 @@ SENSITIVITY_COMPANY_CONFIDENTIAL
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

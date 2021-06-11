@@ -25,7 +25,7 @@ ms.locfileid: "32339283"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un objet de pièce jointe généralement accessible via l’interface **IStorage** OLE (Object Linking and Embedding). 
+Contient un objet pièce jointe généralement accessible via l’interface **IStorage** OLE (Object Linking and Embedding). 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ Contient un objet de pièce jointe généralement accessible via l’interface *
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient la pièce jointe lorsque la valeur de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) **est** ATTACH_EMBEDDED_MSG ou **ATTACH_OLE**. Le type de codage OLE peut être déterminé à partir **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+Cette propriété contient la pièce jointe lorsque la valeur de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) **est ATTACH_EMBEDDED_MSG** ou **ATTACH_OLE**. Le type de codage OLE peut être déterminé à partir **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
 Pour une pièce jointe associée à **la ATTACH_EMBEDDED_MSG,** l’interface [IMessage:IMAPIProp](imessageimapiprop.md) peut être utilisée pour un accès plus rapide. 
   
@@ -56,7 +56,7 @@ Pour plus d’informations sur les interfaces et les formats OLE, voir [OLE et T
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 ## <a name="header-files"></a>Fichiers d’en-tête
 

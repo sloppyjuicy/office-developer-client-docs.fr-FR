@@ -46,7 +46,7 @@ Pour une liste des cellules dont une cellule en particulier est dépendante, sé
   
 ![La cellule Geometry1.X2 est sélectionnée](media/ShapeSheetPrecedents_UI_01_ZA01039817.gif)
   
-Pour afficher ses cellules précédentes, dans le groupe **Suivi** des **formules, cliquez sur Suivi des antécédents.**
+Pour afficher ses cellules précédentes, dans le groupe **Suivi** des formules, cliquez **sur Suivi des antécédents.**
   
 La liste de toutes les cellules dont dépend la cellule Geometry1.X2 apparaît dans la fenêtre Suivi **des** formules. Vous pouvez accéder à n’importe quelle cellule de la liste en double-cliquant sur son entrée dans la fenêtre **Suivi des formules**. 
   

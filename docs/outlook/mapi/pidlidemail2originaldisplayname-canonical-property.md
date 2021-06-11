@@ -37,7 +37,7 @@ Spécifie le deuxième nom complet qui correspond à l’adresse de messagerie s
    
 ## <a name="remarks"></a>Remarques
 
-Si la valeur de la propriété **dispidEmail2AddrType** ([PidLidEmail2AddressType](pidlidemail2addresstype-canonical-property.md)) est « SMTP », la valeur de la propriété **PidLidEmail2OriginalDisplayName** respective doit être égale à la valeur de la propriété **dispidEmail2EmailAddress** ([PidLidEmail2EmailAddress](pidlidemail2emailaddress-canonical-property.md)) respective. L’objectif de cette propriété est d’afficher une adresse conviviale de remplacement équivalente à celle de **dispidEmail2EmailAddress**.
+Si la valeur de la propriété **dispidEmail2AddrType** ([PidLidEmail2AddressType](pidlidemail2addresstype-canonical-property.md)) est « SMTP », la valeur de la propriété **PidLidEmail2OriginalDisplayName respective** doit être égale à la valeur de la propriété **dispidEmail2EmailAddress** ([PidLidEmail2EmailAddress](pidlidemail2emailaddress-canonical-property.md)) respective. L’objectif de cette propriété est d’afficher une adresse conviviale de remplacement équivalente à celle de **dispidEmail2EmailAddress**.
   
 ## <a name="related-resources"></a>Ressources connexes
 

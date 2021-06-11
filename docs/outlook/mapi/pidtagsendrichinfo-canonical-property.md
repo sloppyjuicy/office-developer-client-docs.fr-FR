@@ -40,11 +40,11 @@ Il est recommandé que les objets utilisateur de liste de distribution et de mes
   
 Cette propriété indique si l’expéditeur considère que le destinataire est activé pour MAPI. 
   
-Lorsque cette propriété est définie sur TRUE, le transport et la passerelle peuvent transmettre le contenu complet du message, y compris les objets RTF et OLE. Le fournisseur de transport et la passerelle doivent utiliser le format TNEF (Transport Neutral Encapsulation Format) pour encapsuler toutes les propriétés qui ne sont pas natives pour tous les systèmes de messagerie impliqués. 
+Lorsque cette propriété est définie sur TRUE, le transport et la passerelle peuvent transmettre l’intégralité du contenu du message, y compris les objets RTF et OLE. Le fournisseur de transport et la passerelle doivent utiliser le format TNEF (Transport Neutral Encapsulation Format) pour encapsuler toutes les propriétés qui ne sont pas natives pour tous les systèmes de messagerie impliqués. 
   
 Lorsque cette propriété est définie sur FALSE, le fournisseur de transport et la passerelle sont libres d’ignorer le contenu des messages que leurs clients natifs ne peuvent pas utiliser. Par exemple, lorsque les clients ne le font pas, le fournisseur de transport ne peut envoyer que du texte simple. 
   
-Lorsque cette propriété n’est pas définie, le comportement par défaut est déterminé par l’implémentation du fournisseur de transport, de l’agent de transfert de messages (MTA) ou de la passerelle. Les fournisseurs de carnet d’adresses ne sont pas requis pour prendre en charge cette propriété. Par exemple, un fournisseur de transport et de carnet d’adresses étroitement couplé peut choisir d’envoyer le TNEF, mais ne jamais utiliser rtf. 
+Lorsque cette propriété n’est pas définie, le comportement par défaut est déterminé par l’implémentation du fournisseur de transport, de l’agent de transfert de messages (MTA) ou de la passerelle. Les fournisseurs de carnet d’adresses ne sont pas requis pour prendre en charge cette propriété. Par exemple, un carnet d’adresses et un fournisseur de transport étroitement couplés peuvent choisir d’envoyer le TNEF, mais ne jamais utiliser rtf. 
   
 Le client ne doit pas supposer que le fournisseur de transport et la passerelle utiliseront le TNEF de leur propre initiative. Certains fournisseurs de transport et passerelles qui la transmettent au TNEF sans prendre en compte la valeur de cette propriété, mais d’autres refusent de construire ou d’envoyer le TNEF s’il n’est pas définie sur TRUE. 
   
@@ -53,7 +53,7 @@ Le client ne doit pas supposer que le fournisseur de transport et la passerelle 
   
 Par défaut, MAPI définit la valeur sur TRUE. Un client appelant [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md) ou un fournisseur appelant [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) peut définir le bit **MAPI_SEND_NO_RICH_INFO** dans le paramètre  _ulFlags,_ ce qui entraîne mapI à définir cette propriété sur FALSE. Les one-offs créés par l’interface utilisateur utilisent la valeur spécifiée par le modèle de création. 
   
-Lors des appels à la méthode [IAddrBook::ResolveName](iaddrbook-resolvename.md) lorsque le nom ne peut pas être résolu mais peut être interprété comme une adresse Internet (SMTP), cette propriété est définie sur FALSE. Pour être interprété comme une adresse Internet, le nom complet de l’entrée non résolue doit être au format X@Y. Z, par exemple « pete@pinecone.com ». 
+Lors des appels à la méthode [IAddrBook::ResolveName](iaddrbook-resolvename.md) lorsque le nom ne peut pas être résolu mais qu’il peut être interprété comme une adresse Internet (SMTP), cette propriété est définie sur FALSE. Pour être interprété comme une adresse Internet, le nom complet de l’entrée non résolue doit être au format X@Y. Z, par exemple « pete@pinecone.com ». 
   
 ## <a name="related-resources"></a>Ressources connexes
 

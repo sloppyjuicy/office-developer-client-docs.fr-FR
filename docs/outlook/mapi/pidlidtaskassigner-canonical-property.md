@@ -37,7 +37,7 @@ ms.locfileid: "32340088"
    
 ## <a name="remarks"></a>Remarques
 
-Si la tâche n’a pas été affectée, cette propriété n’est pas affectée. Étant donné que le client définit cette propriété une fois que la personne à la tâche a reçu une demande de tâche, la propriété n’est pas définie sur la copie de la tâche de l’assigneur de la tâche. Lorsque le client ajoute ou supprime un assigneur de tâches de la liste des personnes qui affectent des tâches dans la propriété **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), la propriété **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) doit être définie sur l’assigneur de tâche ajouté ou supprimé.
+Si la tâche n’a pas été affectée, cette propriété n’est pas affectée. Étant donné que le client définit cette propriété une fois que la personne à la tâche a reçu une demande de tâche, la propriété n’est pas définie sur la copie de la tâche de l’assigneur de la tâche. Lorsque le client ajoute ou supprime un assigneur de tâches de la liste des personnes qui affectent la tâche dans la propriété **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), la propriété **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) doit être définie sur l’assigneur de tâche ajouté ou supprimé.
   
 ## <a name="related-resources"></a>Ressources connexes
 

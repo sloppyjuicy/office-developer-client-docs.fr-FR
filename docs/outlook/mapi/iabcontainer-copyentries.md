@@ -36,7 +36,7 @@ HRESULT CopyEntries(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpEntries_
   
@@ -48,7 +48,7 @@ HRESULT CopyEntries(
     
  _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression, ou NULL. Si _lpProgress_ est NULL, un indicateur de progression doit être affiché à l’aide de l’objet de progression fourni par MAPI via la méthode [IMAPISupport::D oProgressDialog.](imapisupport-doprogressdialog.md) Le  _paramètre lpProgress_ est ignoré si l’AB_NO_DIALOG est définie dans  _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression, ou NULL. Si _lpProgress_ est NULL, un indicateur de progression doit être affiché à l’aide de l’objet de progression fourni par MAPI via la méthode [IMAPISupport::D oProgressDialog.](imapisupport-doprogressdialog.md) Le  _paramètre lpProgress est_ ignoré si l’AB_NO_DIALOG est définie dans  _ulFlags_.
     
  _ulFlags_
   
@@ -110,7 +110,7 @@ Renvoyer l’avertissement MAPI_W_PARTIAL_COMPLETION uniquement si une entrée n
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Utilisez les indicateurs CREATE_CHECK_DUP_LOOSE et CREATE_CHECK_DUP_STRICT pour indiquer au fournisseur comment vous souhaitez que le conteneur effectue la vérification des entrées en double. Si une entrée doit être ajoutée, qu’il s’agit d’un doublon ou non, ne définissez pas l’un ou l’autre de ces indicateurs ou CREATE_REPLACE’indicateur. CREATE_REPLACE indique que vous ne vous souciez pas si une entrée est en double ; vous souhaitez toujours qu’elle remplace l’entrée d’origine. 
+Utilisez les indicateurs CREATE_CHECK_DUP_LOOSE et CREATE_CHECK_DUP_STRICT pour indiquer au fournisseur comment vous souhaitez que le conteneur effectue la vérification des entrées en double. Si une entrée doit être ajoutée, qu’il s’agit d’un doublon ou non, ne définissez pas l’un de ces indicateurs ou définissez l’CREATE_REPLACE’indicateur. CREATE_REPLACE indique que vous ne vous souciez pas si une entrée est en double ; vous souhaitez toujours qu’elle remplace l’entrée d’origine. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -47,7 +47,7 @@ Ces méthodes ont des implémentations similaires. Les principales tâches effec
     
   - Suppression de l’objet d' logon dans la liste des objets d' logo que votre fournisseur stocke.
     
-  - En mode débogage, émission de suivis pour localiser les objets dont la mémoire a été divulguée.
+  - En mode débogage, en émettant des suivis pour localiser les objets dont la mémoire a été divulguée.
     
 Lorsque votre méthode de ff de logo renvoie, MAPI appelle les appels suivants :
   
@@ -55,7 +55,7 @@ Lorsque votre méthode de ff de logo renvoie, MAPI appelle les appels suivants :
     
 - Méthode d’arrêt **de** votre objet fournisseur pour effectuer les tâches de nettoyage finales. Selon le type de votre fournisseur, l’une des méthodes suivantes est appelée : 
     
-  - [IABProvider::Shutdown](iabprovider-shutdown.md) pour les fournisseurs de carnets d’adresses 
+  - [IABProvider::Shutdown](iabprovider-shutdown.md) pour les fournisseurs de carnet d’adresses 
     
   - [IMSProvider::Shutdown](imsprovider-shutdown.md) pour les fournisseurs de magasins de messages 
     
@@ -63,7 +63,7 @@ Lorsque votre méthode de ff de logo renvoie, MAPI appelle les appels suivants :
     
 - Méthode **IUnknown::Release** de votre objet fournisseur. 
     
-Si votre fournisseur est un magasin de messages, un appel client à [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) lancera également le processus d’arrêt. **StoreLogoff** arrête un fournisseur de magasin de messages particulier et n’a aucun effet sur la session. Seul un fournisseur de magasin de messages peut être arrêté avec cette méthode ; il n’existe aucun moyen explicite d’arrêter un carnet d’adresses ou un fournisseur de transport particulier. Pour plus d’informations sur la réponse à un appel **StoreLogoff,** voir [Shutting Down a Message Store Provider](shutting-down-a-message-store-provider.md).
+Si votre fournisseur est un magasin de messages, un appel client à [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) lance également le processus d’arrêt. **StoreLogoff** arrête un fournisseur de magasin de messages particulier et n’a aucun effet sur la session. Seul un fournisseur de magasin de messages peut être arrêté avec cette méthode ; il n’existe aucun moyen explicite d’arrêter un carnet d’adresses ou un fournisseur de transport particulier. Pour plus d’informations sur la réponse à un appel **StoreLogoff,** voir [Shutting Down a Message Store Provider](shutting-down-a-message-store-provider.md).
   
 La DLL de votre fournisseur sera déchargée lorsque MAPI appelle la fonction API Win32 **FreeLibrary**, un appel effectué après que le dernier client actif a appelé [MAPIUninitialize](mapiuninitialize.md). À ce moment-là, votre fournisseur de services aura fini de s’arrêter. 
   

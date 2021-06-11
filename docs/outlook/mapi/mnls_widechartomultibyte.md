@@ -35,11 +35,11 @@ int MNLS_WideCharToMultiByte(
   BOOL FAR *lpfUsedDefaultChar);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _uCodePage_
   
-> [in] Page de code à utiliser pour effectuer la conversion.
+> [in] Page de code à utiliser lors de la conversion.
     
  _dwFlags_
   

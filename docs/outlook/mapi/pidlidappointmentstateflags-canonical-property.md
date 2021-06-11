@@ -49,7 +49,7 @@ R (asfReceived, 0x00000002)
     
 C (asfCanceled, 0x00000004)
   
-> Cet indicateur indique que l’objet réunion représenté par l’objet a été annulé.
+> Cet indicateur indique que l’objet de réunion représenté par l’objet a été annulé.
     
 ## <a name="related-resources"></a>Ressources connexes
 

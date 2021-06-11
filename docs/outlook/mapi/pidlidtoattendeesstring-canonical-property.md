@@ -25,7 +25,7 @@ ms.locfileid: "32339811"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la liste de tous les participants à envoyer qui sont également des participants obligatoires.
+Contient une liste de tous les participants à envoyer qui sont également des participants obligatoires.
   
 |||
 |:-----|:-----|

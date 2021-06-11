@@ -31,7 +31,7 @@ Pour obtenir une référence à la cellule NewWindow par un nom à partir d'une 
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Lien hypertexte.  *Nom*  . NewWindow où Lien hypertexte.  *Le nom*  est le nom de la ligne  <br/> |
+| Nom de la cellule :  <br/> | Lien hypertexte.  *Nom*  . NewWindow où Hyperlink.  *Le nom*  est le nom de la ligne  <br/> |
    
 Pour obtenir une référence à la cellule NewWindow à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   

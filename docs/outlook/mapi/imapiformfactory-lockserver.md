@@ -34,7 +34,7 @@ HRESULT LockServer(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -56,7 +56,7 @@ Les visionneuses de formulaires appellent la méthode **IMAPIFormFactory::LockSe
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-La **méthode IMAPIFormFactory::LockServer** est très similaire à la [méthode IClassFactory::LockServer.](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) En fait, la **méthode IMAPIFormFactory::LockServer** conserve le nombre de fois qu’elle a été appelée ; Tant que ce nombre est supérieur à 0, la méthode empêche le serveur de formulaires d’être déchargé de la mémoire. Vous pouvez utiliser la [fonction CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) pour implémenter cela. 
+La **méthode IMAPIFormFactory::LockServer** est très similaire à la [méthode IClassFactory::LockServer.](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) La méthode **IMAPIFormFactory::LockServer** tient essentiellement compte du nombre de fois qu’elle a été appelée . Tant que ce nombre est supérieur à 0, la méthode empêche le serveur de formulaires d’être déchargé de la mémoire. Vous pouvez utiliser la [fonction CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) pour implémenter cela. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidCalendarType
+title: Propri t canonique PidLidCalendarType
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32341992"
 ---
-# <a name="pidlidcalendartype-canonical-property"></a>Propriété canonique PidLidCalendarType
+# <a name="pidlidcalendartype-canonical-property"></a>Propri t canonique PidLidCalendarType
 
   
   

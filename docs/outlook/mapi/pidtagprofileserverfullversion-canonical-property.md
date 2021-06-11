@@ -21,7 +21,7 @@ ms.locfileid: "32341600"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la version complète et les informations de build sur les Microsoft Exchange Server les comptes d’un profil sont connectés.
+Spécifie la version complète et les informations de build sur les Microsoft Exchange Server à laquelle les comptes d’un profil sont connectés.
   
 ## 
 
@@ -36,11 +36,11 @@ Spécifie la version complète et les informations de build sur les Microsoft Ex
 
 Un profil peut spécifier un ou plusieurs comptes qui se connectent à un Exchange Server, mais ils doivent être connectés au même Exchange Server.
   
-Les versions d’Outlook antérieures Microsoft Office Outlook 2007 ne la prise en charge. Pour ces versions d’Outlook, vérifiez l’existence de **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** dans le profil. 
+Les versions Outlook antérieures à Microsoft Office Outlook 2007 ne la prise en charge. Pour ces versions de Outlook, vérifiez l’existence de PR_PROFILE_SERVER_VERSION **[dans](pidtagprofileserverversion-canonical-property.md)** le profil. 
   
-En règle générale, si la boîte aux lettres active est connectée à un Exchange Server, Outlook 2007 stocke des informations complètes sur la version Exchange Server la propriété **PR_PROFILE_SERVER_FULL_VERSION** dans le profil actif. Outlook stocke les informations dans une structure **EXCHANGE_STORE_VERSION_NUM** qui contient les numéros de version principaux et mineurs, ainsi que les numéros de build principaux et mineurs. Par exemple, pour stocker l’identificateur de version Exchange Server de **8.0.685.24,** le numéro de version principal est 8 et le numéro de version mineure est 0, et le numéro de build principal est 685 et le numéro de build mineure est 24.
+En règle générale, si la boîte aux lettres active est connectée à un Exchange Server, Outlook 2007 stocke toutes les informations de version Exchange Server dans la propriété **PR_PROFILE_SERVER_FULL_VERSION** dans le profil actif. Outlook stocke les informations dans une structure **EXCHANGE_STORE_VERSION_NUM** qui contient les numéros de version principaux et mineurs, ainsi que les numéros de build principaux et mineurs. Par exemple, pour stocker l’identificateur de version Exchange Server de **8.0.685.24,** le numéro de version principal est 8 et le numéro de version mineure est 0, et le numéro de build principal est 685 et le numéro de build mineure est 24.
   
-Une seule **des** PR_PROFILE_SERVER_VERSION ou **PR_PROFILE_SERVER_FULL_VERSION** est susceptible d’exister dans un profil, mais il n’existe aucune garantie qu’il existe toujours dans un profil. Outlook n’écrit dans aucune des propriétés tant qu’il ne s’est pas connecté au Exchange Server. 
+Une seule **des** PR_PROFILE_SERVER_VERSION ou **PR_PROFILE_SERVER_FULL_VERSION** est susceptible d’exister dans un profil, mais il n’existe aucune garantie qu’il existe toujours dans un profil. Outlook n’écrit dans aucune des propriétés tant qu’elle ne s’est pas connectée au Exchange Server. 
   
 Dans le modèle objet Outlook, vous pouvez utiliser la propriété **ExchangeMailboxServerVersion** de l’objet **NameSpace** pour rechercher la version de Exchange Server sur laquelle la boîte aux lettres active est hébergée. 
   

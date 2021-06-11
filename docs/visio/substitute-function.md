@@ -40,7 +40,7 @@ Chaîne
   
 ## <a name="remarks"></a>Remarques
 
- Si vous spécifiez  _start_num_opt_, seule cette occurrence de  _old_text_ est remplacée. Dans le cas contraire, chaque occurrence  _de old_text_  _texte_ est modifiée en  _new_text._
+ Si vous spécifiez  _start_num_opt_, seule cette occurrence de  _old_text_ est remplacée. Dans le cas contraire, chaque occurrence  _de old_text_  _dans_ le texte est modifiée en  _new_text._
   
 Utilisez la fonction SUBSTITUTE lorsque vous souhaitez remplacer un texte spécifique dans une chaîne de texte. Si vous souhaitez remplacer le texte qui se trouve à un emplacement spécifique dans une chaîne de texte, utilisez la fonction REPLACE.
   

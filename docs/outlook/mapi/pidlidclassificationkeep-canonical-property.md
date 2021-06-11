@@ -25,7 +25,7 @@ ms.locfileid: "32349223"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique si la classification du message doit persister avec le message si le message est transmis ou répondu.
+Indique si la classification du message doit être persistante avec le message si le message est transmis ou répondu.
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ Indique si la classification du message doit persister avec le message si le mes
    
 ## <a name="remarks"></a>Remarques
 
-Pour plus d’informations, [voir Comment déployer la classification des messages pour Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx).
+Pour plus d’informations, [voir How to Deploy Message Classification for Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx).
   
 ## <a name="related-resources"></a>Ressources connexes
 

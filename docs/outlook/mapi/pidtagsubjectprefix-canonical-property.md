@@ -38,13 +38,13 @@ Contient un préfixe d’objet qui indique généralement une action sur un mess
 
 Ces propriétés sont recommandées sur tous les objets de message. 
   
-Le préfixe de l’objet se compose d’un ou plusieurs caractères alphanumériques, suivis d’un point deux-points et d’un espace (qui font partie du préfixe). Il ne doit pas contenir de caractères non alphanumériques avant le deux-points. L’absence de préfixe peut être représentée par une chaîne vide ou par cette propriété qui n’est pas définie. 
+Le préfixe de l’objet se compose d’un ou plusieurs caractères alphanumériques, suivis d’un deux-points et d’un espace (qui font partie du préfixe). Il ne doit pas contenir de caractères non alphanumériques avant le deux-points. L’absence de préfixe peut être représentée par une chaîne vide ou par cette propriété qui n’est pas définie. 
   
-Si ces propriétés sont définies explicitement, la chaîne peut être de toute longueur et utiliser des caractères alphanumériques, mais elle doit correspondre à une sous-chaîne au début de la propriété **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). Si ces propriétés ne sont pas définies par l’expéditeur et doivent être calculées, leur contenu est plus restreint. La règle de calcul du  préfixe est que PR_SUBJECT doit commencer par une, deux ou trois lettres (alphabétique uniquement) suivies d’un deux-points et d’un espace. Si une telle sous-chaîne est trouvée au début de **PR_SUBJECT**, elle devient alors la chaîne de ces propriétés (et reste également au début de **PR_SUBJECT**). Dans le cas contraire, ces propriétés restent non jeun. 
+Si ces propriétés sont définies explicitement, la chaîne peut être de toute longueur et utiliser des caractères alphanumériques, mais elle doit correspondre à une sous-chaîne au début de la propriété **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). Si ces propriétés ne sont pas définies par l’expéditeur et doivent être calculées, leur contenu est plus restreint. La règle de calcul du  préfixe est que PR_SUBJECT doit commencer par une, deux ou trois lettres (alphabétiques uniquement) suivies d’un deux-points et d’un espace. Si une telle sous-chaîne se trouve au début de **PR_SUBJECT**, elle devient alors la chaîne de ces propriétés (et reste également au début de **PR_SUBJECT**). Dans le cas contraire, ces propriétés restent non jeun. 
   
 Ces propriétés **et PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)) doivent être calculées dans le cadre de l’implémentation [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Un client ne doit pas demander [à IMAPIProp::GetProps](imapiprop-getprops.md) leurs valeurs tant qu’ils n’ont pas été engagés par un appel **IMAPIProp::SaveChanges.** 
   
-Les propriétés de l’objet sont généralement de petites chaînes de moins de 256 caractères, et un fournisseur de magasins de messages n’est pas obligé de prendre en charge l’interface OLE **IStream** sur ces derniers. Un client doit toujours essayer d’accéder à l’interface **IMAPIProp** en premier, et recourir à **IStream** uniquement si MAPI_E_NOT_ENOUGH_MEMORY **est** renvoyé. 
+Les propriétés de l’objet sont généralement de petites chaînes de moins de 256 caractères, et un fournisseur de magasins de messages n’est pas obligé de prendre en charge l’interface **OLE IStream** sur ces derniers. Un client doit d’abord essayer d’accéder à l’interface **IMAPIProp** et recourir à **IStream** uniquement si MAPI_E_NOT_ENOUGH_MEMORY **est** renvoyé. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -52,11 +52,11 @@ Les propriétés de l’objet sont généralement de petites chaînes de moins d
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

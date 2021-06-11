@@ -39,7 +39,7 @@ HRESULT HrDispatchNotifications(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -65,6 +65,6 @@ La **fonction HrDispatchNotifications** fait en sorte que MAPI envoie toutes les
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Certaines applications attendent un message de notification dans une boucle de délai d’attente à l’aide des fonctions Windows [PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) et [DispatchMessage.](https://msdn.microsoft.com/library/ms644934.aspx) Sur toutes les plateformes, sauf sur les plateformes les plus rapides, ces applications peuvent faire l’expérience de performances médiocres ou même d’un blocage des notifications. **L’utilisation de HrDispatchNotifications réduit** non seulement le code, mais améliore les performances. 
+Certaines applications attendent un message de notification dans une boucle de délai d’attente à l’aide Windows [fonctions PeekMessage](https://msdn.microsoft.com/library/ms644943.aspx) et [DispatchMessage.](https://msdn.microsoft.com/library/ms644934.aspx) Sur toutes les plateformes, sauf sur les plateformes les plus rapides, ces applications peuvent faire l’expérience de performances médiocres ou même d’un blocage des notifications. **L’utilisation de HrDispatchNotifications réduit** non seulement le code, mais améliore les performances. 
   
 

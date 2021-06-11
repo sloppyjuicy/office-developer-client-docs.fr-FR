@@ -25,7 +25,7 @@ ms.locfileid: "32349244"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie la date et l’heure de début de l’événement en temps universel coordonné (UTC) pour les objets de calendrier d’instance unique et spécifie minuit à la date de la première instance de l’UTC pour une série périodique.
+Spécifie la date et l’heure de début de l’événement en temps universel coordonné (UTC) pour les objets de calendrier d’instance unique, et spécifie minuit à la date de la première instance de l’UTC pour une série périodique.
   
 |||
 |:-----|:-----|

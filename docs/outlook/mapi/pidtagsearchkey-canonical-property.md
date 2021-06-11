@@ -46,7 +46,7 @@ Le tableau suivant récapitule les différences importantes entre les PR_ENTRYID
   
 |**Caractéristique**|PR_ENTRYID****|PR_RECORD_KEY****|PR_SEARCH_KEY****|
 |:-----|:-----|:-----|:-----|
-|Obligatoire pour les objets pièce jointe  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |
+|Obligatoire sur les objets de pièce jointe  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |
 |Obligatoire pour les objets de dossier  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Obligatoire sur les objets de la boutique de messages  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Obligatoire sur les objets d’état  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |
@@ -54,8 +54,8 @@ Le tableau suivant récapitule les différences importantes entre les PR_ENTRYID
 |Disponible avant **SaveChanges** <br/> |Dépend de l’implémentation du fournisseur  <br/> |Dépend de l’implémentation du fournisseur  <br/> |Pour les messages, Oui. Pour d’autres, cela dépend de l’implémentation du fournisseur.  <br/> |
 |Modifié dans une opération de copie  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Modification possible par client après une copie  <br/> |Non  <br/> |Non  <br/> |Oui  <br/> |
-|Unique dans ...  <br/> |Monde entier  <br/> |Instance de fournisseur  <br/> |Monde entier  <br/> |
-|Binary comparable (comme avec memcmp)  <br/> |No -- use [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Oui  <br/> |Oui  <br/> |
+|Unique au sein de ...  <br/> |Monde entier  <br/> |Instance du fournisseur  <br/> |Monde entier  <br/> |
+|Comparaison binaire (comme avec memcmp)  <br/> |No -- use [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Oui  <br/> |Oui  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -63,7 +63,7 @@ Le tableau suivant récapitule les différences importantes entre les PR_ENTRYID
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   

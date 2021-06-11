@@ -41,7 +41,7 @@ Cette propriété n’est pas obligatoire. Voici les indicateurs individuels qui
 |**Valeur**|**Description**|
 |:-----|:-----|
 |S (recipSendable, 0x00000001)  <br/> |Le destinataire est un **participant à l’envoi.** Cet indicateur est utilisé uniquement dans la propriété **dispidApptUnsendableRecips** ([PidLidAppointmentUnsendableRecipients](pidlidappointmentunsendablerecipients-canonical-property.md)).  <br/> |
-|O (recipOrganizer, 0x0000002)  <br/> |Le **RecipientRow** sur lequel cet indicateur est définie représente l’organisateur de la réunion.  <br/> |
+|O (recipOrganizer, 0x0000002)  <br/> |La **recipientRow** sur laquelle cet indicateur est définie représente l’organisateur de la réunion.  <br/> |
 |ER (recipExceptionalResponse, 0x00000010)  <br/> |Indique que le participant a donné une réponse pour l’exception sur laquelle réside **ce RecipientRow.** Cet indicateur est utilisé uniquement dans **un RecipientRow** d’un objet message incorporé d’exception de l’objet de réunion de l’organisateur.  <br/> |
 |ED (recipExceptionalDeleted, 0x00000020)  <br/> |Indique que bien que **recipientRow** existe, il doit être traité comme si le destinataire correspondant ne le fait pas. Cet indicateur est utilisé uniquement dans **un RecipientRow** d’un objet message incorporé d’exception de l’objet de réunion de l’organisateur.  <br/> |
 |X (réservé, 0x00000040)  <br/> |Ne doit pas être définie.  <br/> |
@@ -55,7 +55,7 @@ Cette propriété n’est pas obligatoire. Voici les indicateurs individuels qui
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   

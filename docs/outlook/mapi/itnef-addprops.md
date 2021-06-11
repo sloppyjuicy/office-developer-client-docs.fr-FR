@@ -36,7 +36,7 @@ HRESULT AddProps(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ulFlags_
   
@@ -44,11 +44,11 @@ HRESULT AddProps(
     
 TNEF_PROP_ATTACHMENTS_ONLY 
   
-> Encode uniquement les propriétés du  _paramètre lpPropList_ qui font partie des pièces jointes dans le message. 
+> Encode uniquement les propriétés du paramètre  _lpPropList_ qui font partie des pièces jointes dans le message. 
     
 TNEF_PROP_CONTAINED 
   
-> Encode uniquement les propriétés de la pièce jointe spécifiée par _le paramètre ulElemID._ Si le paramètre  _lpvData_ n’est pas NULL, les données pointées vers sont écrites dans l’encapsulation de la pièce jointe dans le fichier indiqué par la propriété **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
+> Encode uniquement les propriétés de la pièce jointe spécifiée par le _paramètre ulElemID._ Si le paramètre  _lpvData_ n’est pas NULL, les données pointées vers sont écrites dans l’encapsulation de la pièce jointe dans le fichier indiqué par la propriété **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
     
 TNEF_PROP_CONTAINED_TNEF 
   
@@ -68,7 +68,7 @@ TNEF_PROP_MESSAGE_ONLY
     
  _ulElemID_
   
-> [in] Propriété de PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), qui contient un nombre qui identifie de manière unique la pièce jointe dans son message parent. Le  _paramètre ulElemID_ est utilisé lorsque la gestion spéciale d’une pièce jointe est demandée. Le _paramètre ulElemID_ doit être 0, sauf si l’indicateur TNEF_PROP_CONTAINED ou TNEF_PROP_CONTAINED_TNEF est définie dans le _paramètre ulFlags._ 
+> [in] Propriété de PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), qui contient un nombre qui identifie de manière unique la pièce jointe dans son message parent. Le  _paramètre ulElemID_ est utilisé lorsque la gestion spéciale est demandée pour une pièce jointe. Le _paramètre ulElemID_ doit être 0, sauf si l’indicateur TNEF_PROP_CONTAINED ou TNEF_PROP_CONTAINED_TNEF est définie dans le _paramètre ulFlags._ 
     
  _lpvData_
   
@@ -88,9 +88,9 @@ S_OK
 
 Les fournisseurs de transport, les fournisseurs de magasins de messages et les passerelles appellent la méthode **ITnef::AddProps** pour ré lister les propriétés à inclure ou à exclure du traitement TNEF (Transport-Neutral Encapsulation Format) d’un message ou d’une pièce jointe. À l’aide d’appels successifs, le fournisseur ou la passerelle peut spécifier une liste de propriétés à ajouter et coder ou à exclure de l’encodage. Les fournisseurs et passerelles peuvent également utiliser **AddProps** pour fournir des informations sur toute gestion spéciale des pièces jointes. 
   
- **AddProps est** pris en charge uniquement pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) 
+ **AddProps est** uniquement pris en charge pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) 
   
-Notez qu’aucun codage TNEF réel ne se produit pour **AddProps** tant que la méthode [ITnef::Finish](itnef-finish.md) n’est pas appelée. Cette fonctionnalité signifie que les pointeurs passés dans **AddProps** doivent rester valides jusqu’à la fin de **l’appel.** À ce stade, tous les objets et données transmis avec les appels **AddProps** peuvent être libérés ou libérés. 
+Notez qu’aucun codage TNEF réel ne se produit pour **AddProps** tant que la méthode [ITnef::Finish](itnef-finish.md) n’est pas appelée. Cette fonctionnalité signifie que les pointeurs passés dans **AddProps** doivent rester valides jusqu’à ce que l’appel à **Finish** soit effectué. À ce stade, tous les objets et données transmis avec les appels **AddProps** peuvent être libérés ou libérés. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

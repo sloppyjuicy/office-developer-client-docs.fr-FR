@@ -25,7 +25,7 @@ ms.locfileid: "32345765"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Indique l’existence d’une pièce jointe pour un contact.
+Indique l’existence d’une pièce jointe photo pour un contact.
   
 |||
 |:-----|:-----|

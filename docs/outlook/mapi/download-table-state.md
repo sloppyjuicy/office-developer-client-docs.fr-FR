@@ -19,7 +19,7 @@ ms.locfileid: "32338338"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
- Cette rubrique décrit ce qui se produit pendant l’état de la table de téléchargement de la machine à états de réplication. 
+ Cette rubrique décrit ce qui se produit lors de l’état de la table de téléchargement de la machine à états de réplication. 
   
 ## <a name="quick-info"></a>Informations rapides
 
@@ -35,7 +35,7 @@ ms.locfileid: "32338338"
   
 ## <a name="description"></a>Description
 
-Cet état lance le téléchargement d’un dossier. Pendant cet état, Outlook initialise la structure de données **DNTBL** associée avec des informations sur le dossier. Le client télécharge le contenu du dossier et met à jour le dossier sur la boutique locale avec de nouveaux contenus, modifications ou suppressions à partir du serveur. Le processus de téléchargement adopte microsoft Exchange Incremental Change Synchronization (ICS). Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+Cet état lance le téléchargement d’un dossier. Au cours de cet état, Outlook initialise la structure de données **DNTBL** associée avec des informations sur le dossier. Le client télécharge le contenu du dossier et met à jour le dossier sur la boutique locale avec de nouveaux contenus, modifications ou suppressions à partir du serveur. Le processus de téléchargement adopte Microsoft Exchange synchronisation incrémentielle des changements (ICS). Pour plus d’informations sur ICS, reportez-vous à [Critères d’évaluation ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
   
 Lorsque cet état se termine, la boutique locale revient à l’état de synchronisation du contenu.
   

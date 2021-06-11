@@ -45,7 +45,7 @@ HRESULT HrGetAutoDiscoverXML(
 
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pwzAddress_
   
@@ -57,7 +57,7 @@ HRESULT HrGetAutoDiscoverXML(
     
  _hCancelEvent_
   
-> [in] Handle d’événement Win32 non jeu facultatif qui peut être utilisé pour annuler l’opération. Pour annuler l’opération, définissez l’événement et passez le handle d’événement en  _tant que hCancelEvent_; passez **null si** vous ne souhaitez pas annuler l’opération. Notez que la transmission d’une valeur qui ne représente pas un handle d’événement n’a aucun effet et est ignorée par la fonction. 
+> [in] Handle d’événement Win32 non jeu facultatif qui peut être utilisé pour annuler l’opération. Pour annuler l’opération, définissez l’événement et passez le handle d’événement comme  _hCancelEvent_; passez **la valeur null** si vous ne souhaitez pas annuler l’opération. Notez que la transmission d’une valeur qui ne représente pas un handle d’événement n’a aucun effet et est ignorée par la fonction. 
     
  _ulFlags_
   
@@ -79,7 +79,7 @@ E_INVALIDARG
     
 MAPI_E_NOT_FOUND 
   
-- L’ordinateur client n’est pas connecté au réseau, l’ordinateur client n’est pas connecté à un serveur Microsoft Exchange 2007,  _pwzAddress_ n’est pas un compte sur un serveur Exchange 2007 ou  _pwzAddress_ est un compte qui ne prend pas en charge le service de découverte automatique Exchange. 
+- L’ordinateur client n’est pas connecté au réseau, l’ordinateur client n’est pas connecté à un serveur Microsoft Exchange 2007, _pwzAddress_ n’est pas un compte sur un serveur Exchange 2007 ou _pwzAddress_ est un compte qui ne prend pas en charge le service de découverte automatique Exchange. 
     
 MAPI_E_USER_CANCEL 
   

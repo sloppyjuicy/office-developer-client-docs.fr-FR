@@ -27,7 +27,7 @@ Propriété Store contrôlant la journalisation des inférences.
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INFERENCES_ENABLED  <br/> |
 |Identificateur :  <br/> |0x3439000  <br/> |
-|Type de données :  <br/> |Boolean  <br/> |
+|Type de données :  <br/> |Booléen  <br/> |
 |Domaine :  <br/> |Magasin de messages  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes

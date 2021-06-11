@@ -38,7 +38,7 @@ Contient des données de pièces jointes binaires généralement accessibles via
 
 Cette propriété contient la pièce jointe lorsque la valeur de la propriété **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) est ATTACH_BY_VALUE, qui est la méthode de pièce jointe habituelle et la seule à être prise en charge. **PR_ATTACH_DATA_BIN** contient également une pièce jointe OLE 1.0 **OLESTREAM** lorsque la valeur de PR_ATTACH_METHOD **est** ATTACH_OLE. 
   
- **Les pièces jointes OLESTREAM** peuvent être copiées dans un fichier en appelant la méthode OLE **IStream::CopyTo.** Le type de codage OLE peut être déterminé à partir de **la propriété PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+ **Les pièces jointes OLESTREAM** peuvent être copiées dans un fichier en appelant la méthode OLE **IStream::CopyTo.** Le type de codage OLE peut être déterminé à partir de la **propriété PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
 Pour une pièce jointe de document OLE, le fournisseur de magasin de messages doit répondre à un appel [IMAPIProp::OpenProperty](imapiprop-openproperty.md) sur **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) et peut éventuellement répondre à un appel sur **PR_ATTACH_DATA_BIN**. Notez **que PR_ATTACH_DATA_BIN** et **PR_ATTACH_DATA_OBJ** partagent le même identificateur de propriété et sont donc deux rendus de la même propriété. 
   

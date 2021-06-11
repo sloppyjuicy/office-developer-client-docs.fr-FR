@@ -25,7 +25,7 @@ ms.locfileid: "32345730"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un numéro de téléphone secondaire chez le destinataire. 
+Contient un numéro de téléphone secondaire sur le lieu de travail du destinataire. 
   
 |||
 |:-----|:-----|
@@ -44,7 +44,7 @@ Ces propriétés sont des exemples de propriétés qui fournissent des informati
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   

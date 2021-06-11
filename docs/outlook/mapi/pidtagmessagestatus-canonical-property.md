@@ -76,9 +76,9 @@ Les **MSGSTATUS_DELMARKED,** **MSGSTATUS_HIDDEN,** **MSGSTATUS_HIGHLIGHTED** et 
   
 Les clients peuvent interpréter ces valeurs de n’importe quelle manière appropriée pour leurs applications. L’une des façons dont de nombreux clients utilisent cette propriété consiste à afficher les messages marqués pour suppression avec une icône représentative. 
   
-Un client de visionneuse distante peut définir des MSGSTATUS_REMOTE_DELETE **ou** **des MSGSTATUS_REMOTE_DOWNLOAD** sur les messages dans le dossier d’en-tête qui lui est présenté par le fournisseur de transport distant. L’application cliente peut examiner chaque en-tête de message dans ce dossier pour déterminer si le message doit être téléchargé ou supprimé dans la boutique de messages distante. Il utilise ensuite [la méthode IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) pour définir l’indicateur approprié. **SetMessageStatus est** le seul moyen de définir l’un des indicateurs de cette propriété . La [méthode IMAPIProp::SetProps ne](imapiprop-setprops.md) peut pas être utilisée. Pour récupérer cette propriété, les clients appellent [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md) plutôt que [IMAPIProp::GetProps](imapiprop-getprops.md).
+Un client de visionneuse distante peut définir des MSGSTATUS_REMOTE_DELETE **ou** **des MSGSTATUS_REMOTE_DOWNLOAD** sur les messages dans le dossier d’en-tête qui lui est présenté par le fournisseur de transport distant. L’application cliente peut examiner chaque en-tête de message dans ce dossier pour déterminer si le message doit être téléchargé ou supprimé dans la boutique de messages distante. Il utilise ensuite la [méthode IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) pour définir l’indicateur approprié. **SetMessageStatus est** le seul moyen de définir l’un des indicateurs de cette propriété . La [méthode IMAPIProp::SetProps ne](imapiprop-setprops.md) peut pas être utilisée. Pour récupérer cette propriété, les clients appellent [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md) plutôt que [IMAPIProp::GetProps](imapiprop-getprops.md).
   
-Les bits 16 à 31 (0x10000 à 0x80000000) de cette propriété peuvent être utilisés par l’application cliente de message interpersonnel (IPM). Tous les autres bits sont réservés pour être utilisés par MAPI ; Celles qui ne sont pas définies dans le tableau précédent doivent être initialement définies sur zéro et ne pas être modifiées par la suite. 
+Les bits 16 à 31 (0x10000 à 0x80000000) de cette propriété peuvent être utilisés par l’application cliente de message interpersonnel (IPM). Tous les autres bits sont réservés à l’utilisation par MAPI ; Celles qui ne sont pas définies dans le tableau précédent doivent être initialement définies sur zéro et ne pas être modifiées par la suite. 
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -86,7 +86,7 @@ Les bits 16 à 31 (0x10000 à 0x80000000) de cette propriété peuvent être uti
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   

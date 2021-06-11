@@ -37,7 +37,7 @@ Spécifie le troisième nom complet qui correspond à l’adresse de messagerie 
    
 ## <a name="remarks"></a>Remarques
 
-Si la valeur de la propriété **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) est « SMTP », la valeur de la propriété **dispidEmail3OriginalDisplayName** respective doit être égale à la valeur de la propriété **dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). L’objectif de cette propriété est d’afficher une adresse conviviale de remplacement équivalente à celle de **dispidEmail3EmailAddress**.
+Si la valeur de la propriété **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) est « SMTP », la valeur de la propriété **dispidEmail3OriginalDisplayName** respective doit être égale à la valeur de l’adresse **dispidEmail3EmailAddress** respective ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). L’objectif de cette propriété est d’afficher une adresse conviviale de remplacement équivalente à celle de **dispidEmail3EmailAddress**.
   
 ## <a name="related-resources"></a>Ressources connexes
 

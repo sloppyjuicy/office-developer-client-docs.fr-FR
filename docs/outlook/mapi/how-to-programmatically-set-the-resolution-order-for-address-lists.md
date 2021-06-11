@@ -17,9 +17,9 @@ ms.locfileid: "32345961"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique contient un exemple de code en C++ qui définit par programme l’ordre des listes d’adresses selon laquelle les destinataires des messages électroniques et les participants aux demandes de réunion sont résolus.
+Cette rubrique contient un exemple de code en C++ qui définit par programme l’ordre des listes d’adresses par lequel les destinataires des messages électroniques et les participants aux demandes de réunion sont résolus.
   
-Dans MAPI, chaque profil peut prendre en charge plusieurs listes d’adresses et chaque liste d’adresses réside dans son propre conteneur. MAPI prend en charge **[la méthode SetSearchPath](https://support.microsoft.com/kb/292590)** dans l’interface qui vous permet de définir un nouveau chemin de recherche dans le profil utilisé pour la résolution de noms. Pour utiliser la méthode **IAddrBook::SetSearchPath,** vous devez définir l’ordre de résolution souhaité dans un tableau **[SRowSet](srowset.md)** qui contient les conteneurs des carnets d’adresses appropriés dans l’ordre souhaité, puis spécifier le tableau comme paramètre *lpSearchPath.* La première propriété de chaque entrée dans le tableau **SRowSet** doit être la propriété PR_ENTRYID **[du](pidtagentryid-canonical-property.md)** carnet d’adresses correspondant. 
+Dans MAPI, chaque profil peut prendre en charge plusieurs listes d’adresses et chaque liste d’adresses réside dans son propre conteneur. MAPI prend en charge **[la méthode SetSearchPath](https://support.microsoft.com/kb/292590)** dans l’interface qui vous permet de définir un nouveau chemin de recherche dans le profil utilisé pour la résolution de noms. Pour utiliser la méthode **IAddrBook::SetSearchPath,** vous devez définir l’ordre de résolution souhaité dans un tableau **[SRowSet](srowset.md)** qui contient les conteneurs des carnets d’adresses appropriés dans l’ordre souhaité, puis spécifier le tableau comme paramètre *lpSearchPath.* La première propriété de chaque entrée dans le tableau **SRowSet** doit être la propriété **[PR_ENTRYID](pidtagentryid-canonical-property.md)** du carnet d’adresses correspondant. 
   
 L’exemple de code définit l’ordre de résolution dans les étapes suivantes :
   
@@ -51,7 +51,7 @@ L’exemple de code définit l’ordre de résolution dans les étapes suivantes
     
 14. Uninitalizes MAPI.
     
-Cet exemple de code utilise des listes d’adresses disponibles dans l’installation par défaut de Microsoft Office Outlook : Tous les **contacts,** Tous les groupes **et** **Contacts**. Vous devez exécuter l’exemple une fois Outlook démarré et exécuté sur un profil initialisé. L’exemple fonctionne bien avec les noms qui sont dans une langue (par exemple, tous les noms sont en anglais). Il n’est pas conçu pour fonctionner dans des déploiements multilingues, par exemple le dossier **Contacts** localisé pour un utilisateur exécutant un build Outlook non anglais. 
+Cet exemple de code utilise des listes d’adresses disponibles dans l’installation par défaut de Microsoft Office Outlook : Tous les **contacts,** Tous les groupes **et** **Contacts**. Vous devez exécuter l’exemple après Outlook est démarré et s’exécute sur un profil initialisé. L’exemple fonctionne bien avec les noms qui sont dans une langue (par exemple, tous les noms sont en anglais). Il n’est pas conçu pour fonctionner dans des déploiements multilingues, par exemple le dossier **Contacts** localisé pour un utilisateur exécutant une version Outlook non-anglais. 
   
 ```cpp
 #include "stdafx.h" 
@@ -266,5 +266,5 @@ STDMETHODIMP CopySBinary(
 
 ## <a name="see-also"></a>Voir aussi
 
-- [À propos de la définition de l’ordre de résolution des listes d’adresses dans Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
+- [À propos de la définition de l’ordre de résolution des listes d’adresses Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
 

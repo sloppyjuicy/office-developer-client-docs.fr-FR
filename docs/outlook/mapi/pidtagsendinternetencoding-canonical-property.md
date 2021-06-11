@@ -25,7 +25,7 @@ ms.locfileid: "32342671"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un masque de bits de préférences d’encodage. 
+Contient un masque de bits des préférences d’encodage. 
   
 |||
 |:-----|:-----|

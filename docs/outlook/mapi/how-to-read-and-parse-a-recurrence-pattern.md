@@ -35,7 +35,7 @@ L’application de référence MFCMAPI illustre la dernière étape avec la fonc
   
 Pour plus d’informations sur le format de la mémoire tampon, voir la propriété canonique [PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md). La majeure partie des données dans la mémoire tampon se compose de champs d’un nombre fixe d’octets, qui doivent être lus l’un après l’autre. Certains champs sont présents uniquement si d’autres champs contiennent certaines valeurs, et la taille de certains champs peut dépendre de la valeur d’autres champs. L’étude de la mémoire tampon pour lire les différents champs implique un grand nombre de comptabilité. MFCMAPI utilise une classe d’aide interne nommée  `CBinaryParser` pour encapsuler ce manuel. Par exemple, la fonction vérifie si suffisamment d’octets restent dans la mémoire tampon pour lire un DWORD, puis lit la valeur et met à jour  `CBinaryParser::GetDWORD` les pointeurs. 
   
-Une fois la mémoire tampon en structure, l’application MFCMAPI utilise la fonction pour convertir la structure en chaîne à afficher à  `AppointmentRecurrencePatternStructToString` l’utilisateur. Ce n’est pas la même chaîne qu’Outlook afficherait, mais il s’agit à la place d’une vue brute des données sur lesquelles Outlook crée sa logique. 
+Une fois la mémoire tampon en structure, l’application MFCMAPI utilise la fonction pour convertir la structure en chaîne à afficher à  `AppointmentRecurrencePatternStructToString` l’utilisateur. Il ne s’agit pas de la même chaîne que Outlook afficher, mais plutôt d’une vue brute des données sur lesquelles Outlook sa logique. 
   
 Il est possible de rencontrer une mémoire tampon qui contient des données endommagées ou plus de données que nécessaire pour encoder une récurrence. Pour vous aider à identifier ces scénarios, l’application MFCMAPI assure le suivi de la quantité de données qui a été correctement analyse et de la quantité qui reste dans la mémoire tampon. Si les données restent dans la mémoire tampon une fois l’analyse terminée, MFCMAPI inclut ces « données indésirables » dans la structure afin qu’elles soient examinées.
   
@@ -212,5 +212,5 @@ AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULON
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Utilisation de MAPI pour créer des éléments Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
+- [Utilisation de MAPI pour créer Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
 

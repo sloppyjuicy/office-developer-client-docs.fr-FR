@@ -33,7 +33,7 @@ HRESULT SetViewContext(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pViewContext_
   

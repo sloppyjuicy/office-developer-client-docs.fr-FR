@@ -37,7 +37,7 @@ Contient des mots clés ou des catégories pour l’objet message.
    
 ## <a name="remarks"></a>Remarques
 
-Une valeur à chaînes multiples qui spécifie les catégories d’un objet message, la longueur de chaque chaîne au sein de cette chaîne à valeurs multiples, doit être inférieure à 256.
+Une valeur à chaînes multiples qui spécifie les catégories d’un objet message, la longueur de chaque chaîne au sein de cette chaîne à valeurs multiples de propriété, doit être inférieure à 256.
   
 ## <a name="related-resources"></a>Ressources connexes
 

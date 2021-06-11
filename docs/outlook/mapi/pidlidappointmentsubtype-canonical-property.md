@@ -25,7 +25,7 @@ ms.locfileid: "32345415"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Spécifie si l’événement est de la journée.
+Spécifie si l’événement s’agit de la journée.
   
 |||
 |:-----|:-----|

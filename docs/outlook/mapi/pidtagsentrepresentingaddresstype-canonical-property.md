@@ -36,7 +36,7 @@ Contient le type d’adresse de l’utilisateur de messagerie représenté par l
    
 ## <a name="remarks"></a>Remarques
 
-Ces propriétés sont des exemples de propriétés d’adresse pour l’utilisateur de messagerie représenté par l’expéditeur. Lorsqu’une application cliente envoie un message pour le compte d’un autre client, elle doit définir toutes les propriétés d’expéditeur représentées sur les valeurs de ce client. Un utilisateur de messagerie qui envoie en son propre nom laisse généralement les propriétés de l’expéditeur représenté non jeu.
+Ces propriétés sont des exemples de propriétés d’adresse pour l’utilisateur de messagerie représenté par l’expéditeur. Lorsqu’une application cliente envoie un message pour le compte d’un autre client, elle doit définir toutes les propriétés d’expéditeur représentées sur les valeurs de ce client. Un utilisateur de messagerie envoyant en son propre nom laisse généralement les propriétés de l’expéditeur représenté non jeu.
   
 Le fournisseur de transport sortant doit toujours laisser cette propriété inchangée si elle a été définie par le client d’envoi. S’il n’est pas définie, le fournisseur de transport doit la définir sur la propriété **PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) sur la copie sortante du message et la laisser non définie sur la copie locale.
   
@@ -46,7 +46,7 @@ Le fournisseur de transport sortant doit toujours laisser cette propriété inch
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
@@ -78,7 +78,7 @@ Le fournisseur de transport sortant doit toujours laisser cette propriété inch
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

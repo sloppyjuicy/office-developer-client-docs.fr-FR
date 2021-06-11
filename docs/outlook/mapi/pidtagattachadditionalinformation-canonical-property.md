@@ -25,7 +25,7 @@ ms.locfileid: "32339871"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit des informations de type de fichier pour une pièce jointe non Windows.
+Fournit des informations de type de fichier pour une pièce jointe Windows non jointe.
   
 |||
 |:-----|:-----|
@@ -44,7 +44,7 @@ Cette propriété fournit des métadonnées sur une pièce jointe particulière 
 
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets de message et de pièce jointe.
+> Gère les objets message et pièce jointe.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

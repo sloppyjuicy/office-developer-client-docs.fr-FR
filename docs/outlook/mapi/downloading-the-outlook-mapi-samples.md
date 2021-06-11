@@ -1,5 +1,5 @@
 ---
-title: Téléchargement des exemples MAPI Outlook
+title: Téléchargement des exemples Outlook MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32338359"
 ---
-# <a name="downloading-the-outlook-mapi-samples"></a>Téléchargement des exemples MAPI Outlook
+# <a name="downloading-the-outlook-mapi-samples"></a>Téléchargement des exemples Outlook MAPI
 
   
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les exemples MAPI Microsoft Outlook incluent un fournisseur de carnet d’adresses, un fournisseur de magasins de messages et un fournisseur de transport.
+Les exemples MAPI Outlook Microsoft incluent un fournisseur de carnet d’adresses, un fournisseur de magasins de messages et un fournisseur de transport.
   
  **Pour télécharger l’exemple de fournisseur de carnet d’adresses**
   
-1. Pour télécharger les exemples MAPI  Outlook, cliquez sur l’onglet Accueil de la page Exemples de [code MAPI (Outlook Messaging API).](https://ol2010mapisamples.codeplex.com/) 
+1. Pour télécharger les Outlook MAPI, cliquez  sur l’onglet Accueil de la page d’Outlook de [code MAPI (Messaging API).](https://ol2010mapisamples.codeplex.com/) 
     
-2. Sous **l’onglet** Accueil, cliquez ici pour télécharger la source pour les **exemples MAPI Outlook 2010.**
+2. Sous **l’onglet** Accueil, cliquez ici pour télécharger la source des Outlook **MAPI 2010.**
     
 3. Lisez le contrat de licence et, si vous acceptez, cliquez **sur J’accepte.**
     

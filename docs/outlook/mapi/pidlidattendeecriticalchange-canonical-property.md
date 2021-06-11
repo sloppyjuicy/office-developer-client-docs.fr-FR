@@ -1,5 +1,5 @@
 ---
-title: Propriété canonique PidLidAttendeeCriticalChange
+title: Propri t canonique PidLidAttendeeCriticalChange
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,7 +19,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32342041"
 ---
-# <a name="pidlidattendeecriticalchange-canonical-property"></a>Propriété canonique PidLidAttendeeCriticalChange
+# <a name="pidlidattendeecriticalchange-canonical-property"></a>Propri t canonique PidLidAttendeeCriticalChange
 
   
   

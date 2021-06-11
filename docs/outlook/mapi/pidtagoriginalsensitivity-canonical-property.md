@@ -38,7 +38,7 @@ Contient la valeur de sensibilité attribuée par l’expéditeur de la premièr
 
 Une application cliente doit définir cette propriété sur la même valeur que la propriété **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md)) lorsque le message est envoyé pour la première fois. Elle ne doit jamais être modifiée par la suite.
   
-Cette propriété est utilisée par le fournisseur de transport pour protéger la sensibilité sur les entrées copiées. Elle permet, par exemple, de bloquer la modification du texte du message d’origine dans un avant ou une réponse à un message qui a été marqué à l’origine **SENSITIVITY_PRIVATE**.
+Cette propriété est utilisée par le fournisseur de transport pour protéger la sensibilité sur les entrées copiées. Elle permet, par exemple, de bloquer la modification du texte du message d’origine dans un avant ou d’une réponse à un message qui a été initialement marqué **comme SENSITIVITY_PRIVATE**.
   
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -46,7 +46,7 @@ Cette propriété est utilisée par le fournisseur de transport pour protéger l
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   

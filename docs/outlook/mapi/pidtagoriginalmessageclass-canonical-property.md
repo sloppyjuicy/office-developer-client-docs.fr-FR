@@ -25,7 +25,7 @@ ms.locfileid: "32342622"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la classe du message d’origine à utiliser dans un rapport.
+Contient la classe du message d’origine à utiliser dans un état.
   
 |||
 |:-----|:-----|
@@ -44,11 +44,11 @@ Ces propriétés contiennent une copie **de la propriété PR_MESSAGE_CLASS** ([
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 [[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Code et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
+> Encode et décode les objets de message et de pièce jointe dans une représentation de flux efficace.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 
