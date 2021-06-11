@@ -16,16 +16,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404539"
 ---
-# <a name="manager-function"></a><span data-ttu-id="f694a-103">Fonction MANAGER</span><span class="sxs-lookup"><span data-stu-id="f694a-103">MANAGER Function</span></span>
+# <a name="manager-function"></a><span data-ttu-id="525e9-103">Fonction MANAGER</span><span class="sxs-lookup"><span data-stu-id="525e9-103">MANAGER Function</span></span>
 
-<span data-ttu-id="f694a-104">Renvoie le texte à partir du **champ Gestionnaire** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="f694a-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
+<span data-ttu-id="525e9-104">Renvoie le texte à partir du **champ Gestionnaire** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="525e9-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f694a-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f694a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="525e9-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="525e9-105">Syntax</span></span>
 
-<span data-ttu-id="f694a-106">MANAGER ()</span><span class="sxs-lookup"><span data-stu-id="f694a-106">MANAGER ()</span></span>
+<span data-ttu-id="525e9-106">MANAGER ()</span><span class="sxs-lookup"><span data-stu-id="525e9-106">MANAGER ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="f694a-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="f694a-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="525e9-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="525e9-107">Return value</span></span>
 
-<span data-ttu-id="f694a-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="f694a-108">String</span></span>
+<span data-ttu-id="525e9-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="525e9-108">String</span></span>
   
 

@@ -16,16 +16,16 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409348"
 ---
-# <a name="hyperlinkbase-function"></a><span data-ttu-id="f6fb9-103">Fonction HYPERLINKBASE</span><span class="sxs-lookup"><span data-stu-id="f6fb9-103">HYPERLINKBASE Function</span></span>
+# <a name="hyperlinkbase-function"></a><span data-ttu-id="fda67-103">Fonction HYPERLINKBASE</span><span class="sxs-lookup"><span data-stu-id="fda67-103">HYPERLINKBASE Function</span></span>
 
-<span data-ttu-id="f6fb9-104">Renvoie le texte du champ **de base Lien hypertexte** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="f6fb9-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
+<span data-ttu-id="fda67-104">Renvoie le texte du champ **de base Lien hypertexte** des propriétés d’un document.</span><span class="sxs-lookup"><span data-stu-id="fda67-104">Returns the text from the **Hyperlink base** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f6fb9-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f6fb9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fda67-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="fda67-105">Syntax</span></span>
 
-<span data-ttu-id="f6fb9-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="f6fb9-106">HYPERLINKBASE ()</span></span>
+<span data-ttu-id="fda67-106">HYPERLINKBASE ()</span><span class="sxs-lookup"><span data-stu-id="fda67-106">HYPERLINKBASE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="f6fb9-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="f6fb9-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="fda67-107">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="fda67-107">Return value</span></span>
 
-<span data-ttu-id="f6fb9-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="f6fb9-108">String</span></span>
+<span data-ttu-id="fda67-108">Chaîne</span><span class="sxs-lookup"><span data-stu-id="fda67-108">String</span></span>
   
 

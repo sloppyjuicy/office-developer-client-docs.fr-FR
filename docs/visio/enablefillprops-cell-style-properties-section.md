@@ -16,29 +16,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406009"
 ---
-# <a name="enablefillprops-cell-style-properties-section"></a><span data-ttu-id="99d0f-103">EnableFillProps, cellule (section Style Properties)</span><span class="sxs-lookup"><span data-stu-id="99d0f-103">EnableFillProps Cell (Style Properties Section)</span></span>
+# <a name="enablefillprops-cell-style-properties-section"></a><span data-ttu-id="ae8bc-103">EnableFillProps, cellule (section Style Properties)</span><span class="sxs-lookup"><span data-stu-id="ae8bc-103">EnableFillProps Cell (Style Properties Section)</span></span>
 
-<span data-ttu-id="99d0f-104">Détermine si un style comporte des propriétés de remplissage.</span><span class="sxs-lookup"><span data-stu-id="99d0f-104">Determines whether a style includes fill properties.</span></span>
+<span data-ttu-id="ae8bc-104">Détermine si un style comporte des propriétés de remplissage.</span><span class="sxs-lookup"><span data-stu-id="ae8bc-104">Determines whether a style includes fill properties.</span></span>
   
-|<span data-ttu-id="99d0f-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="99d0f-105">**Value**</span></span>|<span data-ttu-id="99d0f-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="99d0f-106">**Description**</span></span>|
+|<span data-ttu-id="ae8bc-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="ae8bc-105">**Value**</span></span>|<span data-ttu-id="ae8bc-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="ae8bc-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="99d0f-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="99d0f-107">TRUE</span></span>  <br/> |<span data-ttu-id="99d0f-108">Comprend des propriétés de remplissage.</span><span class="sxs-lookup"><span data-stu-id="99d0f-108">Include fill properties.</span></span>  <br/> |
-|<span data-ttu-id="99d0f-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="99d0f-109">FALSE</span></span>  <br/> |<span data-ttu-id="99d0f-110">Exclut les propriétés de remplissage.</span><span class="sxs-lookup"><span data-stu-id="99d0f-110">Exclude fill properties.</span></span>  <br/> |
+|<span data-ttu-id="ae8bc-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="ae8bc-107">TRUE</span></span>  <br/> |<span data-ttu-id="ae8bc-108">Comprend des propriétés de remplissage.</span><span class="sxs-lookup"><span data-stu-id="ae8bc-108">Include fill properties.</span></span>  <br/> |
+|<span data-ttu-id="ae8bc-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="ae8bc-109">FALSE</span></span>  <br/> |<span data-ttu-id="ae8bc-110">Exclut les propriétés de remplissage.</span><span class="sxs-lookup"><span data-stu-id="ae8bc-110">Exclude fill properties.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="99d0f-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="99d0f-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ae8bc-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="ae8bc-111">Remarks</span></span>
 
-<span data-ttu-id="99d0f-112">Pour obtenir une référence à la cellule EnableFillProps par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="99d0f-112">To get a reference to the EnableFillProps cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="ae8bc-112">Pour obtenir une référence à la cellule EnableFillProps par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="ae8bc-112">To get a reference to the EnableFillProps cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="99d0f-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="99d0f-113">Cell name:</span></span>  <br/> |<span data-ttu-id="99d0f-114">EnableFillProps</span><span class="sxs-lookup"><span data-stu-id="99d0f-114">EnableFillProps</span></span>  <br/> |
+|<span data-ttu-id="ae8bc-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="ae8bc-113">Cell name:</span></span>  <br/> |<span data-ttu-id="ae8bc-114">EnableFillProps</span><span class="sxs-lookup"><span data-stu-id="ae8bc-114">EnableFillProps</span></span>  <br/> |
    
-<span data-ttu-id="99d0f-115">Pour obtenir une référence à la cellule EnableFillProps à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="99d0f-115">To get a reference to the EnableFillProps cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="ae8bc-115">Pour obtenir une référence à la cellule EnableFillProps à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="ae8bc-115">To get a reference to the EnableFillProps cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="99d0f-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="99d0f-116">Section index:</span></span>  <br/> |<span data-ttu-id="99d0f-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="99d0f-117">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="99d0f-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="99d0f-118">Row index:</span></span>  <br/> |<span data-ttu-id="99d0f-119">**visRowStyle**</span><span class="sxs-lookup"><span data-stu-id="99d0f-119">**visRowStyle**</span></span> <br/> |
-|<span data-ttu-id="99d0f-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="99d0f-120">Cell index:</span></span>  <br/> |<span data-ttu-id="99d0f-121">**visStyleIncludesFill**</span><span class="sxs-lookup"><span data-stu-id="99d0f-121">**visStyleIncludesFill**</span></span> <br/> |
+|<span data-ttu-id="ae8bc-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="ae8bc-116">Section index:</span></span>  <br/> |<span data-ttu-id="ae8bc-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="ae8bc-117">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="ae8bc-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="ae8bc-118">Row index:</span></span>  <br/> |<span data-ttu-id="ae8bc-119">**visRowStyle**</span><span class="sxs-lookup"><span data-stu-id="ae8bc-119">**visRowStyle**</span></span> <br/> |
+|<span data-ttu-id="ae8bc-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="ae8bc-120">Cell index:</span></span>  <br/> |<span data-ttu-id="ae8bc-121">**visStyleIncludesFill**</span><span class="sxs-lookup"><span data-stu-id="ae8bc-121">**visStyleIncludesFill**</span></span> <br/> |
    
 

@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409782"
 ---
-# <a name="iabprovidershutdown"></a><span data-ttu-id="02472-103">IABProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="02472-103">IABProvider::Shutdown</span></span>
+# <a name="iabprovidershutdown"></a><span data-ttu-id="62ae1-103">IABProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="62ae1-103">IABProvider::Shutdown</span></span>
 
   
   
-<span data-ttu-id="02472-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="02472-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="62ae1-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="62ae1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="02472-105">Annule une connexion à une session active.</span><span class="sxs-lookup"><span data-stu-id="02472-105">Cancels a connection to an active session.</span></span>
+<span data-ttu-id="62ae1-105">Annule une connexion à une session active.</span><span class="sxs-lookup"><span data-stu-id="62ae1-105">Cancels a connection to an active session.</span></span>
   
 ```cpp
 HRESULT Shutdown(
@@ -33,25 +33,25 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="02472-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="02472-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="62ae1-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="62ae1-106">Parameters</span></span>
 
- <span data-ttu-id="02472-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="02472-107">_lpulFlags_</span></span>
+ <span data-ttu-id="62ae1-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="62ae1-107">_lpulFlags_</span></span>
   
-> <span data-ttu-id="02472-108">[In] Réservé ; doit être un pointeur vers zéro.</span><span class="sxs-lookup"><span data-stu-id="02472-108">[In] Reserved; must be a pointer to zero.</span></span>
+> <span data-ttu-id="62ae1-108">[In] Réservé ; doit être un pointeur vers zéro.</span><span class="sxs-lookup"><span data-stu-id="62ae1-108">[In] Reserved; must be a pointer to zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="02472-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="02472-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="62ae1-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="62ae1-109">Return value</span></span>
 
-<span data-ttu-id="02472-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="02472-110">S_OK</span></span> 
+<span data-ttu-id="62ae1-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="62ae1-110">S_OK</span></span> 
   
-> <span data-ttu-id="02472-111">La connexion a été correctement annulée.</span><span class="sxs-lookup"><span data-stu-id="02472-111">The connection was successfully canceled.</span></span>
+> <span data-ttu-id="62ae1-111">La connexion a été correctement annulée.</span><span class="sxs-lookup"><span data-stu-id="62ae1-111">The connection was successfully canceled.</span></span>
     
-## <a name="notes-to-implementers"></a><span data-ttu-id="02472-112">Remarques pour les responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="02472-112">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="62ae1-112">Remarques pour les responsables de l’implémentation</span><span class="sxs-lookup"><span data-stu-id="62ae1-112">Notes to implementers</span></span>
 
-<span data-ttu-id="02472-113">Dans votre implémentation de la méthode **Shutdown,** effectuez les tâches que vous jugez nécessaires.</span><span class="sxs-lookup"><span data-stu-id="02472-113">In your implementation of the **Shutdown** method, perform whatever tasks you consider necessary.</span></span> <span data-ttu-id="02472-114">MAPI appelle votre **méthode d’arrêt** uniquement après avoir libéré tous vos objets d' logo.</span><span class="sxs-lookup"><span data-stu-id="02472-114">MAPI calls your **Shutdown** method only after you have released all your logon objects.</span></span> 
+<span data-ttu-id="62ae1-113">Dans votre implémentation de la méthode **Shutdown,** effectuez les tâches que vous jugez nécessaires.</span><span class="sxs-lookup"><span data-stu-id="62ae1-113">In your implementation of the **Shutdown** method, perform whatever tasks you consider necessary.</span></span> <span data-ttu-id="62ae1-114">MAPI appelle votre **méthode d’arrêt** uniquement après avoir libéré tous vos objets d' logo.</span><span class="sxs-lookup"><span data-stu-id="62ae1-114">MAPI calls your **Shutdown** method only after you have released all your logon objects.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="02472-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="02472-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="62ae1-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="62ae1-115">See also</span></span>
 
 
 
-[<span data-ttu-id="02472-116">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="02472-116">IABProvider : IUnknown</span></span>](iabprovideriunknown.md)
+[<span data-ttu-id="62ae1-116">IABProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="62ae1-116">IABProvider : IUnknown</span></span>](iabprovideriunknown.md)
 

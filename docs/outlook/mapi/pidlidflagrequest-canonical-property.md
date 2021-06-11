@@ -19,55 +19,55 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32357805"
 ---
-# <a name="pidlidflagrequest-canonical-property"></a><span data-ttu-id="4ec81-103">Propriété canonique PidLidFlagRequest</span><span class="sxs-lookup"><span data-stu-id="4ec81-103">PidLidFlagRequest Canonical Property</span></span>
+# <a name="pidlidflagrequest-canonical-property"></a><span data-ttu-id="92a8d-103">Propriété canonique PidLidFlagRequest</span><span class="sxs-lookup"><span data-stu-id="92a8d-103">PidLidFlagRequest Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4ec81-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4ec81-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="92a8d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="92a8d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4ec81-105">Représente l’état d’une demande de réunion.</span><span class="sxs-lookup"><span data-stu-id="4ec81-105">Represents the status of a meeting request.</span></span>
+<span data-ttu-id="92a8d-105">Représente l’état d’une demande de réunion.</span><span class="sxs-lookup"><span data-stu-id="92a8d-105">Represents the status of a meeting request.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4ec81-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="4ec81-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4ec81-107">dispidRequest</span><span class="sxs-lookup"><span data-stu-id="4ec81-107">dispidRequest</span></span>  <br/> |
-|<span data-ttu-id="4ec81-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="4ec81-108">Property set:</span></span>  <br/> |<span data-ttu-id="4ec81-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="4ec81-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="4ec81-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="4ec81-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="4ec81-111">0x00008530</span><span class="sxs-lookup"><span data-stu-id="4ec81-111">0x00008530</span></span>  <br/> |
-|<span data-ttu-id="4ec81-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="4ec81-112">Data type:</span></span>  <br/> |<span data-ttu-id="4ec81-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="4ec81-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="4ec81-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="4ec81-114">Area:</span></span>  <br/> |<span data-ttu-id="4ec81-115">Marquage</span><span class="sxs-lookup"><span data-stu-id="4ec81-115">Flagging</span></span>  <br/> |
+|<span data-ttu-id="92a8d-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="92a8d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="92a8d-107">dispidRequest</span><span class="sxs-lookup"><span data-stu-id="92a8d-107">dispidRequest</span></span>  <br/> |
+|<span data-ttu-id="92a8d-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="92a8d-108">Property set:</span></span>  <br/> |<span data-ttu-id="92a8d-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="92a8d-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="92a8d-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="92a8d-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="92a8d-111">0x00008530</span><span class="sxs-lookup"><span data-stu-id="92a8d-111">0x00008530</span></span>  <br/> |
+|<span data-ttu-id="92a8d-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="92a8d-112">Data type:</span></span>  <br/> |<span data-ttu-id="92a8d-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="92a8d-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="92a8d-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="92a8d-114">Area:</span></span>  <br/> |<span data-ttu-id="92a8d-115">Marquage</span><span class="sxs-lookup"><span data-stu-id="92a8d-115">Flagging</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4ec81-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="4ec81-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="92a8d-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="92a8d-116">Remarks</span></span>
 
-<span data-ttu-id="4ec81-117">Dans Microsoft Office Outlook, une demande de réunion est un élément de rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="4ec81-117">In Microsoft Office Outlook, a meeting request is an appointment item.</span></span>
+<span data-ttu-id="92a8d-117">Dans Microsoft Office Outlook, une demande de réunion est un élément de rendez-vous.</span><span class="sxs-lookup"><span data-stu-id="92a8d-117">In Microsoft Office Outlook, a meeting request is an appointment item.</span></span>
   
-<span data-ttu-id="4ec81-118">Cette propriété contient le texte spécifié par l’utilisateur à associer à l’indicateur et doit être définie si l’objet message est marqué ou terminé, mais qu’il ne doit pas exister pour un objet lié à une réunion.</span><span class="sxs-lookup"><span data-stu-id="4ec81-118">This property contains user-specifiable text to be associated with the flag and should be set if the message object is flagged or completed, but should not exist for a meeting-related object.</span></span> <span data-ttu-id="4ec81-119">Les clients peuvent choisir de ne pas prendre en charge cette propriété et toujours écrire « Suivi » (traduit dans la langue de l’utilisateur, le cas échéant) comme valeur de la chaîne lorsque cette propriété doit être définie.</span><span class="sxs-lookup"><span data-stu-id="4ec81-119">Clients may choose not to support this property, and always write "Follow up" (translated to the user's language if appropriate) as the value of the string when this property should be set.</span></span> <span data-ttu-id="4ec81-120">Cette propriété doit être ignorée de manière conditionnée en fonction des valeurs des propriétés **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) et **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="4ec81-120">This property should be conditionally ignored based on the values of the **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) and **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)) properties.</span></span>
+<span data-ttu-id="92a8d-118">Cette propriété contient le texte spécifié par l’utilisateur à associer à l’indicateur et doit être définie si l’objet message est marqué ou terminé, mais qu’il ne doit pas exister pour un objet lié à une réunion.</span><span class="sxs-lookup"><span data-stu-id="92a8d-118">This property contains user-specifiable text to be associated with the flag and should be set if the message object is flagged or completed, but should not exist for a meeting-related object.</span></span> <span data-ttu-id="92a8d-119">Les clients peuvent choisir de ne pas prendre en charge cette propriété et toujours écrire « Suivi » (traduit dans la langue de l’utilisateur, le cas échéant) comme valeur de la chaîne lorsque cette propriété doit être définie.</span><span class="sxs-lookup"><span data-stu-id="92a8d-119">Clients may choose not to support this property, and always write "Follow up" (translated to the user's language if appropriate) as the value of the string when this property should be set.</span></span> <span data-ttu-id="92a8d-120">Cette propriété doit être ignorée de manière conditionnée en fonction des valeurs des propriétés **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) et **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="92a8d-120">This property should be conditionally ignored based on the values of the **dispidFlagStringEnum** ([PidLidFlagString](pidlidflagstring-canonical-property.md)) and **dispidValidFlagStringProof** ([PidLidValidFlagStringProof](pidlidvalidflagstringproof-canonical-property.md)) properties.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="4ec81-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="4ec81-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="92a8d-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="92a8d-121">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="4ec81-122">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="4ec81-122">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="92a8d-122">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="92a8d-122">Protocol specifications</span></span>
 
-<span data-ttu-id="4ec81-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4ec81-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="92a8d-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="92a8d-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4ec81-124">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="4ec81-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="92a8d-124">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="92a8d-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="4ec81-125">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4ec81-125">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="92a8d-125">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="92a8d-125">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4ec81-126">Spécifie les propriétés et les opérations liées au marquage.</span><span class="sxs-lookup"><span data-stu-id="4ec81-126">Specifies the properties and operations related to flagging.</span></span>
+> <span data-ttu-id="92a8d-126">Spécifie les propriétés et les opérations liées au marquage.</span><span class="sxs-lookup"><span data-stu-id="92a8d-126">Specifies the properties and operations related to flagging.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="4ec81-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="4ec81-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="92a8d-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="92a8d-127">Header files</span></span>
 
-<span data-ttu-id="4ec81-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4ec81-128">Mapidefs.h</span></span>
+<span data-ttu-id="92a8d-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="92a8d-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4ec81-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="4ec81-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="92a8d-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="92a8d-129">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4ec81-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4ec81-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="92a8d-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="92a8d-130">See also</span></span>
 
 
 
-[<span data-ttu-id="4ec81-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="4ec81-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="92a8d-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="92a8d-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4ec81-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="4ec81-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="92a8d-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="92a8d-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4ec81-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="4ec81-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="92a8d-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="92a8d-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4ec81-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="4ec81-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="92a8d-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="92a8d-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

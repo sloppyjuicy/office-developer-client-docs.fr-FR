@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
-description: Renvoie un identificateur de compte unique dans les profils Outlook.
+description: Renvoie un identificateur de compte unique dans Outlook profils.
 ms.openlocfilehash: 209f7dd89b8d947b999f2a068373aaf61a3e9784
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,30 +14,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409432"
 ---
-# <a name="prop_acct_mini_uid"></a><span data-ttu-id="69550-103">PROP_ACCT_MINI_UID</span><span class="sxs-lookup"><span data-stu-id="69550-103">PROP_ACCT_MINI_UID</span></span>
+# <a name="prop_acct_mini_uid"></a><span data-ttu-id="107c7-103">PROP_ACCT_MINI_UID</span><span class="sxs-lookup"><span data-stu-id="107c7-103">PROP_ACCT_MINI_UID</span></span>
 
-<span data-ttu-id="69550-104">Renvoie un identificateur de compte unique dans les profils Outlook.</span><span class="sxs-lookup"><span data-stu-id="69550-104">Returns an account identifier that is unique across Outlook profiles.</span></span>
+<span data-ttu-id="107c7-104">Renvoie un identificateur de compte unique dans Outlook profils.</span><span class="sxs-lookup"><span data-stu-id="107c7-104">Returns an account identifier that is unique across Outlook profiles.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="69550-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="69550-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="107c7-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="107c7-105">Quick info</span></span>
 
-<span data-ttu-id="69550-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="69550-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="107c7-106">Voir [IOlkAccount](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="107c7-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="69550-107">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="69550-107">Identifier:</span></span>  <br/> |<span data-ttu-id="69550-108">0x0003</span><span class="sxs-lookup"><span data-stu-id="69550-108">0x0003</span></span>  <br/> |
-|<span data-ttu-id="69550-109">Type de propriété :</span><span class="sxs-lookup"><span data-stu-id="69550-109">Property type:</span></span>  <br/> |<span data-ttu-id="69550-110">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="69550-110">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="69550-111">Balise de propriété :</span><span class="sxs-lookup"><span data-stu-id="69550-111">Property tag:</span></span>  <br/> |<span data-ttu-id="69550-112">0x00030003</span><span class="sxs-lookup"><span data-stu-id="69550-112">0x00030003</span></span>  <br/> |
-|<span data-ttu-id="69550-113">Accès :</span><span class="sxs-lookup"><span data-stu-id="69550-113">Access:</span></span>  <br/> |<span data-ttu-id="69550-114">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="69550-114">Read-only</span></span>  <br/> |
+|<span data-ttu-id="107c7-107">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="107c7-107">Identifier:</span></span>  <br/> |<span data-ttu-id="107c7-108">0x0003</span><span class="sxs-lookup"><span data-stu-id="107c7-108">0x0003</span></span>  <br/> |
+|<span data-ttu-id="107c7-109">Type de propriété :</span><span class="sxs-lookup"><span data-stu-id="107c7-109">Property type:</span></span>  <br/> |<span data-ttu-id="107c7-110">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="107c7-110">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="107c7-111">Balise de propriété :</span><span class="sxs-lookup"><span data-stu-id="107c7-111">Property tag:</span></span>  <br/> |<span data-ttu-id="107c7-112">0x00030003</span><span class="sxs-lookup"><span data-stu-id="107c7-112">0x00030003</span></span>  <br/> |
+|<span data-ttu-id="107c7-113">Accès :</span><span class="sxs-lookup"><span data-stu-id="107c7-113">Access:</span></span>  <br/> |<span data-ttu-id="107c7-114">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="107c7-114">Read-only</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="69550-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="69550-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="107c7-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="107c7-115">Remarks</span></span>
 
-<span data-ttu-id="69550-116">Obtenez cette propriété à [l’aide de IOlkAccount::GetProp](iolkaccount-getprop.md).</span><span class="sxs-lookup"><span data-stu-id="69550-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span> <span data-ttu-id="69550-117">Si le client tente de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**.</span><span class="sxs-lookup"><span data-stu-id="69550-117">If the client attempts to set this property, this property returns **E_OLK_PROP_READ_ONLY**.</span></span> 
+<span data-ttu-id="107c7-116">Obtenez cette propriété à [l’aide de IOlkAccount::GetProp](iolkaccount-getprop.md).</span><span class="sxs-lookup"><span data-stu-id="107c7-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span> <span data-ttu-id="107c7-117">Si le client tente de définir cette propriété, cette propriété renvoie **E_OLK_PROP_READ_ONLY**.</span><span class="sxs-lookup"><span data-stu-id="107c7-117">If the client attempts to set this property, this property returns **E_OLK_PROP_READ_ONLY**.</span></span> 
   
-<span data-ttu-id="69550-118">Cette propriété est différente de [PROP_ACCT_ID](prop_acct_id.md) en ce que sa valeur identifie de manière unique le compte à l’intérieur et à l’extérieur du profil dans lequel le compte a été créé, tandis que PROP_ACCT_ID est unique uniquement parmi tous les comptes au sein de ce profil dans lequel le compte **a** été créé.</span><span class="sxs-lookup"><span data-stu-id="69550-118">This property is different from [PROP_ACCT_ID](prop_acct_id.md) in that its value uniquely identifies the account within and outside of the profile in which the account was created, whereas **PROP_ACCT_ID** is unique only among all the accounts within that one profile in which the account was created.</span></span> <span data-ttu-id="69550-119">Lorsqu’un message avec ces propriétés se déplace sur un deuxième ordinateur avec un profil Outlook différent et un ensemble de comptes différent, **PROP_ACCT_MINI_UID** peut identifier de manière unique le compte d’origine dans le profil d’origine.</span><span class="sxs-lookup"><span data-stu-id="69550-119">When a message with these properties roams onto a second computer with a different Outlook profile and different set of accounts, **PROP_ACCT_MINI_UID** can uniquely identify the original account in the original profile.</span></span> <span data-ttu-id="69550-120">Toutefois, **PROP_ACCT_ID** peut être en conflit avec un compte dans le profil du deuxième ordinateur.</span><span class="sxs-lookup"><span data-stu-id="69550-120">However, **PROP_ACCT_ID** can possibly conflict with an account in the profile of the second computer.</span></span> 
+<span data-ttu-id="107c7-118">Cette propriété est différente de [PROP_ACCT_ID](prop_acct_id.md) en ce que sa valeur identifie de manière unique le compte à l’intérieur et à l’extérieur du profil dans lequel le compte a été créé, tandis que PROP_ACCT_ID est unique uniquement parmi tous les comptes au sein de ce profil dans lequel le compte **a** été créé.</span><span class="sxs-lookup"><span data-stu-id="107c7-118">This property is different from [PROP_ACCT_ID](prop_acct_id.md) in that its value uniquely identifies the account within and outside of the profile in which the account was created, whereas **PROP_ACCT_ID** is unique only among all the accounts within that one profile in which the account was created.</span></span> <span data-ttu-id="107c7-119">Lorsqu’un message avec ces propriétés se déplace sur un deuxième ordinateur avec un profil Outlook différent et un ensemble de comptes différent, **PROP_ACCT_MINI_UID** peut identifier de manière unique le compte d’origine dans le profil d’origine.</span><span class="sxs-lookup"><span data-stu-id="107c7-119">When a message with these properties roams onto a second computer with a different Outlook profile and different set of accounts, **PROP_ACCT_MINI_UID** can uniquely identify the original account in the original profile.</span></span> <span data-ttu-id="107c7-120">Toutefois, **PROP_ACCT_ID** peut être en conflit avec un compte dans le profil du deuxième ordinateur.</span><span class="sxs-lookup"><span data-stu-id="107c7-120">However, **PROP_ACCT_ID** can possibly conflict with an account in the profile of the second computer.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="69550-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="69550-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="107c7-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="107c7-121">See also</span></span>
 
-- [<span data-ttu-id="69550-122">PROP_ACCT_ID</span><span class="sxs-lookup"><span data-stu-id="69550-122">PROP_ACCT_ID</span></span>](prop_acct_id.md)  
-- [<span data-ttu-id="69550-123">À propos de l'API de gestion de compte</span><span class="sxs-lookup"><span data-stu-id="69550-123">About the Account Management API</span></span>](about-the-account-management-api.md) 
-- [<span data-ttu-id="69550-124">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="69550-124">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="107c7-122">PROP_ACCT_ID</span><span class="sxs-lookup"><span data-stu-id="107c7-122">PROP_ACCT_ID</span></span>](prop_acct_id.md)  
+- [<span data-ttu-id="107c7-123">À propos de l'API de gestion de compte</span><span class="sxs-lookup"><span data-stu-id="107c7-123">About the Account Management API</span></span>](about-the-account-management-api.md) 
+- [<span data-ttu-id="107c7-124">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="107c7-124">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

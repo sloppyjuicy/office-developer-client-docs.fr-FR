@@ -19,54 +19,54 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32361067"
 ---
-# <a name="pidtagattachtransportname-canonical-property"></a><span data-ttu-id="3ff68-103">Propriété canonique PidTagAttachTransportName</span><span class="sxs-lookup"><span data-stu-id="3ff68-103">PidTagAttachTransportName Canonical Property</span></span>
+# <a name="pidtagattachtransportname-canonical-property"></a><span data-ttu-id="df31b-103">Propriété canonique PidTagAttachTransportName</span><span class="sxs-lookup"><span data-stu-id="df31b-103">PidTagAttachTransportName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="3ff68-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3ff68-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="df31b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="df31b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3ff68-105">Contient le nom d’un fichier de pièce jointe modifié afin qu’il puisse être associé à des messages TNEF.</span><span class="sxs-lookup"><span data-stu-id="3ff68-105">Contains the name of an attachment file modified so that it can be associated with TNEF messages.</span></span> 
+<span data-ttu-id="df31b-105">Contient le nom d’un fichier de pièce jointe modifié afin qu’il puisse être associé à des messages TNEF.</span><span class="sxs-lookup"><span data-stu-id="df31b-105">Contains the name of an attachment file modified so that it can be associated with TNEF messages.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3ff68-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="3ff68-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3ff68-107">PR_ATTACH_TRANSPORT_NAME, PR_ATTACH_TRANSPORT_NAME_A, PR_ATTACH_TRANSPORT_NAME_W</span><span class="sxs-lookup"><span data-stu-id="3ff68-107">PR_ATTACH_TRANSPORT_NAME, PR_ATTACH_TRANSPORT_NAME_A, PR_ATTACH_TRANSPORT_NAME_W</span></span>  <br/> |
-|<span data-ttu-id="3ff68-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="3ff68-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3ff68-109">0x370C</span><span class="sxs-lookup"><span data-stu-id="3ff68-109">0x370C</span></span>  <br/> |
-|<span data-ttu-id="3ff68-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="3ff68-110">Data type:</span></span>  <br/> |<span data-ttu-id="3ff68-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="3ff68-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="3ff68-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="3ff68-112">Area:</span></span>  <br/> |<span data-ttu-id="3ff68-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="3ff68-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="df31b-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="df31b-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="df31b-107">PR_ATTACH_TRANSPORT_NAME, PR_ATTACH_TRANSPORT_NAME_A, PR_ATTACH_TRANSPORT_NAME_W</span><span class="sxs-lookup"><span data-stu-id="df31b-107">PR_ATTACH_TRANSPORT_NAME, PR_ATTACH_TRANSPORT_NAME_A, PR_ATTACH_TRANSPORT_NAME_W</span></span>  <br/> |
+|<span data-ttu-id="df31b-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="df31b-108">Identifier:</span></span>  <br/> |<span data-ttu-id="df31b-109">0x370C</span><span class="sxs-lookup"><span data-stu-id="df31b-109">0x370C</span></span>  <br/> |
+|<span data-ttu-id="df31b-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="df31b-110">Data type:</span></span>  <br/> |<span data-ttu-id="df31b-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="df31b-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="df31b-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="df31b-112">Area:</span></span>  <br/> |<span data-ttu-id="df31b-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="df31b-113">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3ff68-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="3ff68-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="df31b-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="df31b-114">Remarks</span></span>
 
-<span data-ttu-id="3ff68-115">Le TNEF et le fournisseur de transport utilisent ces propriétés.</span><span class="sxs-lookup"><span data-stu-id="3ff68-115">TNEF and the transport provider use these properties.</span></span> <span data-ttu-id="3ff68-116">Elles ne sont généralement pas disponibles pour les applications clientes.</span><span class="sxs-lookup"><span data-stu-id="3ff68-116">They are usually not available to client applications.</span></span> 
+<span data-ttu-id="df31b-115">Le TNEF et le fournisseur de transport utilisent ces propriétés.</span><span class="sxs-lookup"><span data-stu-id="df31b-115">TNEF and the transport provider use these properties.</span></span> <span data-ttu-id="df31b-116">Elles ne sont généralement pas disponibles pour les applications clientes.</span><span class="sxs-lookup"><span data-stu-id="df31b-116">They are usually not available to client applications.</span></span> 
   
-<span data-ttu-id="3ff68-117">Ces propriétés sont couramment utilisées par TNEF lorsque le système de messagerie sous-jacent ne prend pas en charge les noms de fichiers fournis.</span><span class="sxs-lookup"><span data-stu-id="3ff68-117">These properties are commonly used by TNEF when the underlying messaging system does not support the supplied filenames.</span></span> <span data-ttu-id="3ff68-118">Par exemple, ils sont utilisés lorsque l’utilisateur joint plusieurs fichiers portant le même nom, tels que cinq fichiers nommés CONFIG.SYS.</span><span class="sxs-lookup"><span data-stu-id="3ff68-118">For example, they are used when the user attaches multiple files with the same name, such as five files named CONFIG.SYS.</span></span> <span data-ttu-id="3ff68-119">Le fournisseur de transport doit modifier les noms pour s’assurer qu’ils sont uniques.</span><span class="sxs-lookup"><span data-stu-id="3ff68-119">The transport provider must modify the names to make sure they are unique.</span></span> <span data-ttu-id="3ff68-120">Chaque nom modifié apparaît dans le nom de la pièce jointe et **PR_ATTACH_TRANSPORT_NAME** propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="3ff68-120">Each modified name appears in its attachment's **PR_ATTACH_TRANSPORT_NAME** and associated properties.</span></span> 
+<span data-ttu-id="df31b-117">Ces propriétés sont couramment utilisées par TNEF lorsque le système de messagerie sous-jacent ne prend pas en charge les noms de fichiers fournis.</span><span class="sxs-lookup"><span data-stu-id="df31b-117">These properties are commonly used by TNEF when the underlying messaging system does not support the supplied filenames.</span></span> <span data-ttu-id="df31b-118">Par exemple, ils sont utilisés lorsque l’utilisateur joint plusieurs fichiers portant le même nom, tels que cinq fichiers nommés CONFIG.SYS.</span><span class="sxs-lookup"><span data-stu-id="df31b-118">For example, they are used when the user attaches multiple files with the same name, such as five files named CONFIG.SYS.</span></span> <span data-ttu-id="df31b-119">Le fournisseur de transport doit modifier les noms pour s’assurer qu’ils sont uniques.</span><span class="sxs-lookup"><span data-stu-id="df31b-119">The transport provider must modify the names to make sure they are unique.</span></span> <span data-ttu-id="df31b-120">Chaque nom modifié apparaît dans le nom de la pièce jointe et **PR_ATTACH_TRANSPORT_NAME** propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="df31b-120">Each modified name appears in its attachment's **PR_ATTACH_TRANSPORT_NAME** and associated properties.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="3ff68-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="3ff68-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="df31b-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="df31b-121">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="3ff68-122">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="3ff68-122">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="df31b-122">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="df31b-122">Protocol specifications</span></span>
 
-<span data-ttu-id="3ff68-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3ff68-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="df31b-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="df31b-123">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="3ff68-124">Gère les objets message et pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="3ff68-124">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="df31b-124">Gère les objets message et pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="df31b-124">Handles message and attachment objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="3ff68-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="3ff68-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="df31b-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="df31b-125">Header files</span></span>
 
-<span data-ttu-id="3ff68-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3ff68-126">Mapidefs.h</span></span>
+<span data-ttu-id="df31b-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="df31b-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="3ff68-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="3ff68-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="df31b-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="df31b-127">Provides data type definitions.</span></span>
     
-<span data-ttu-id="3ff68-128">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="3ff68-128">Mapitags.h</span></span>
+<span data-ttu-id="df31b-128">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="df31b-128">Mapitags.h</span></span>
   
-> <span data-ttu-id="3ff68-129">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="3ff68-129">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="df31b-129">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="df31b-129">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3ff68-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3ff68-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df31b-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="df31b-130">See also</span></span>
 
 
 
-[<span data-ttu-id="3ff68-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="3ff68-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="df31b-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="df31b-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="3ff68-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="3ff68-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="df31b-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="df31b-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="3ff68-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="3ff68-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="df31b-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="df31b-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="3ff68-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="3ff68-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="df31b-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="df31b-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

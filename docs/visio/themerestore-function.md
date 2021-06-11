@@ -14,20 +14,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404287"
 ---
-# <a name="themerestore-function"></a><span data-ttu-id="8e191-103">Fonction THEMERESTORE</span><span class="sxs-lookup"><span data-stu-id="8e191-103">THEMERESTORE Function</span></span>
+# <a name="themerestore-function"></a><span data-ttu-id="32d20-103">Fonction THEMERESTORE</span><span class="sxs-lookup"><span data-stu-id="32d20-103">THEMERESTORE Function</span></span>
 
-<span data-ttu-id="8e191-104">Stocke la valeur de mise en forme locale d’une forme lorsque vous appliquez un thème afin que vous pouvez restaurer la mise en forme locale si l’utilisateur supprime ensuite le thème.</span><span class="sxs-lookup"><span data-stu-id="8e191-104">Stores the local formatting value of a shape when you apply a theme so that you can restore the local formatting if the user subsequently removes the theme.</span></span>
+<span data-ttu-id="32d20-104">Stocke la valeur de mise en forme locale d’une forme lorsque vous appliquez un thème afin de pouvoir restaurer la mise en forme locale si l’utilisateur supprime ensuite le thème.</span><span class="sxs-lookup"><span data-stu-id="32d20-104">Stores the local formatting value of a shape when you apply a theme so that you can restore the local formatting if the user subsequently removes the theme.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="8e191-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="8e191-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="32d20-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="32d20-105">Syntax</span></span>
 
-<span data-ttu-id="8e191-106">THEMERESTORE()</span><span class="sxs-lookup"><span data-stu-id="8e191-106">THEMERESTORE()</span></span>
+<span data-ttu-id="32d20-106">THEMERESTORE()</span><span class="sxs-lookup"><span data-stu-id="32d20-106">THEMERESTORE()</span></span>
   
-## <a name="example"></a><span data-ttu-id="8e191-107">Exemple</span><span class="sxs-lookup"><span data-stu-id="8e191-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="32d20-107">Exemple</span><span class="sxs-lookup"><span data-stu-id="32d20-107">Example</span></span>
 
 ```vb
 Shape.FillForegnd = THEME("FillColor") + THEMERESTORE(RGB(255,102,0)
 ```
 
-<span data-ttu-id="8e191-108">Restaure la mise en forme de couleur de remplissage locale appliquée précédemment à une forme si le thème actif est supprimé.</span><span class="sxs-lookup"><span data-stu-id="8e191-108">Restores local fill color formatting previously applied to a shape when the current theme is removed.</span></span>
+<span data-ttu-id="32d20-108">Restaure la mise en forme de couleur de remplissage locale appliquée précédemment à une forme si le thème actif est supprimé.</span><span class="sxs-lookup"><span data-stu-id="32d20-108">Restores local fill color formatting previously applied to a shape when the current theme is removed.</span></span>
   
 

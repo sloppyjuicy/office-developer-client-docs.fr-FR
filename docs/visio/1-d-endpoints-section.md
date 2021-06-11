@@ -16,8 +16,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410405"
 ---
-# <a name="1-d-endpoints-section"></a><span data-ttu-id="618ed-104">1-D Endpoints Section</span><span class="sxs-lookup"><span data-stu-id="618ed-104">1-D Endpoints Section</span></span>
+# <a name="1-d-endpoints-section"></a><span data-ttu-id="edfde-104">1-D Endpoints Section</span><span class="sxs-lookup"><span data-stu-id="edfde-104">1-D Endpoints Section</span></span>
 
-<span data-ttu-id="618ed-105">Contient les coordonnées x et y des points de début et d'extrémité d'une forme 1D.</span><span class="sxs-lookup"><span data-stu-id="618ed-105">Contains x- and y-coordinates of the begin point and endpoint of a 1-D shape.</span></span> <span data-ttu-id="618ed-106">Cette section apparaît uniquement pour les formes 1D.</span><span class="sxs-lookup"><span data-stu-id="618ed-106">This section appears for 1-D shapes only.</span></span>
+<span data-ttu-id="edfde-p102">Contient les coordonnées x et y des points de début et d'extrémité d'une forme 1D. Cette section apparaît uniquement pour les formes 1D.</span><span class="sxs-lookup"><span data-stu-id="edfde-p102">Contains x- and y-coordinates of the begin point and endpoint of a 1-D shape. This section appears for 1-D shapes only.</span></span>
   
 

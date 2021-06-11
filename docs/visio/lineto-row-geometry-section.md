@@ -16,15 +16,15 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404728"
 ---
-# <a name="lineto-row-geometry-section"></a><span data-ttu-id="e3de4-103">LineTo Row (Geometry Section)</span><span class="sxs-lookup"><span data-stu-id="e3de4-103">LineTo Row (Geometry Section)</span></span>
+# <a name="lineto-row-geometry-section"></a><span data-ttu-id="32acc-103">LineTo Row (Geometry Section)</span><span class="sxs-lookup"><span data-stu-id="32acc-103">LineTo Row (Geometry Section)</span></span>
 
-<span data-ttu-id="e3de4-104">Contient  *les coordonnées x*  et  *y*  du sommet de fin d’un segment de ligne droite.</span><span class="sxs-lookup"><span data-stu-id="e3de4-104">Contains  *x*  -and  *y*  -coordinates of the ending vertex of a straight line segment.</span></span> 
+<span data-ttu-id="32acc-104">Contient  *les coordonnées x*  et  *y*  du sommet de fin d’un segment de ligne droite.</span><span class="sxs-lookup"><span data-stu-id="32acc-104">Contains  *x*  -and  *y*  -coordinates of the ending vertex of a straight line segment.</span></span> 
   
-<span data-ttu-id="e3de4-105">Une ligne LineTo contient les cellules suivantes.</span><span class="sxs-lookup"><span data-stu-id="e3de4-105">A LineTo row contains the following cells.</span></span>
+<span data-ttu-id="32acc-105">Une ligne LineTo contient les cellules suivantes.</span><span class="sxs-lookup"><span data-stu-id="32acc-105">A LineTo row contains the following cells.</span></span>
   
-|<span data-ttu-id="e3de4-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="e3de4-106">**Cell**</span></span>|<span data-ttu-id="e3de4-107">**Description**</span><span class="sxs-lookup"><span data-stu-id="e3de4-107">**Description**</span></span>|
+|<span data-ttu-id="32acc-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="32acc-106">**Cell**</span></span>|<span data-ttu-id="32acc-107">**Description**</span><span class="sxs-lookup"><span data-stu-id="32acc-107">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="e3de4-108">X</span><span class="sxs-lookup"><span data-stu-id="e3de4-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="e3de4-109">Coordonnée  *x*  du sommet de fin d’un segment de ligne droite.</span><span class="sxs-lookup"><span data-stu-id="e3de4-109">The  *x*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
-|[<span data-ttu-id="e3de4-110">Y</span><span class="sxs-lookup"><span data-stu-id="e3de4-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="e3de4-111">Coordonnée  *y*  du sommet de fin d’un segment de ligne droite.</span><span class="sxs-lookup"><span data-stu-id="e3de4-111">The  *y*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
+|[<span data-ttu-id="32acc-108">X</span><span class="sxs-lookup"><span data-stu-id="32acc-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="32acc-109">Coordonnée  *x*  du sommet de fin d’un segment de ligne droite.</span><span class="sxs-lookup"><span data-stu-id="32acc-109">The  *x*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
+|[<span data-ttu-id="32acc-110">Y</span><span class="sxs-lookup"><span data-stu-id="32acc-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="32acc-111">Coordonnée  *y*  du sommet de fin d’un segment de ligne droite.</span><span class="sxs-lookup"><span data-stu-id="32acc-111">The  *y*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
    
 

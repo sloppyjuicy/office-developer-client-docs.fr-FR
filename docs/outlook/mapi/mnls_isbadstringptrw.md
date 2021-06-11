@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356853"
 ---
-# <a name="mnls_isbadstringptrw"></a><span data-ttu-id="22b8d-103">MNLS_IsBadStringPtrW</span><span class="sxs-lookup"><span data-stu-id="22b8d-103">MNLS_IsBadStringPtrW</span></span>
+# <a name="mnls_isbadstringptrw"></a><span data-ttu-id="b4bef-103">MNLS_IsBadStringPtrW</span><span class="sxs-lookup"><span data-stu-id="b4bef-103">MNLS_IsBadStringPtrW</span></span>
 
   
   
-<span data-ttu-id="22b8d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="22b8d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b4bef-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b4bef-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="22b8d-105">Vérifie qu’un pointeur vers une chaîne large est valide.</span><span class="sxs-lookup"><span data-stu-id="22b8d-105">Verifies that a pointer to a wide string is valid.</span></span>
+<span data-ttu-id="b4bef-105">Vérifie qu’un pointeur vers une chaîne large est valide.</span><span class="sxs-lookup"><span data-stu-id="b4bef-105">Verifies that a pointer to a wide string is valid.</span></span>
   
 ```cpp
 BOOL MNLS_IsBadStringPtrW(
@@ -29,22 +29,22 @@ BOOL MNLS_IsBadStringPtrW(
   UINT ucchMax);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="22b8d-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="22b8d-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b4bef-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="b4bef-106">Parameters</span></span>
 
- <span data-ttu-id="22b8d-107">_lpsz_</span><span class="sxs-lookup"><span data-stu-id="22b8d-107">_lpsz_</span></span>
+ <span data-ttu-id="b4bef-107">_lpsz_</span><span class="sxs-lookup"><span data-stu-id="b4bef-107">_lpsz_</span></span>
   
-> <span data-ttu-id="22b8d-108">[in] Pointeur vers la chaîne de caractères large.</span><span class="sxs-lookup"><span data-stu-id="22b8d-108">[in] A pointer to the wide character string.</span></span>
+> <span data-ttu-id="b4bef-108">[in] Pointeur vers la chaîne de caractères large.</span><span class="sxs-lookup"><span data-stu-id="b4bef-108">[in] A pointer to the wide character string.</span></span>
     
- <span data-ttu-id="22b8d-109">_ucchMax_</span><span class="sxs-lookup"><span data-stu-id="22b8d-109">_ucchMax_</span></span>
+ <span data-ttu-id="b4bef-109">_ucchMax_</span><span class="sxs-lookup"><span data-stu-id="b4bef-109">_ucchMax_</span></span>
   
-> <span data-ttu-id="22b8d-110">[in] Longueur maximale de la chaîne en caractères, y compris terminateur.</span><span class="sxs-lookup"><span data-stu-id="22b8d-110">[in] The maximum length of the string in characters including terminator.</span></span>
+> <span data-ttu-id="b4bef-110">[in] Longueur maximale de la chaîne en caractères, y compris terminateur.</span><span class="sxs-lookup"><span data-stu-id="b4bef-110">[in] The maximum length of the string in characters including terminator.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="22b8d-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="22b8d-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b4bef-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="b4bef-111">Return value</span></span>
 
-<span data-ttu-id="22b8d-112">Renvoie un booléen qui est true si la chaîne est mauvaise.</span><span class="sxs-lookup"><span data-stu-id="22b8d-112">Returns a Boolean that is true if the string is bad.</span></span>
+<span data-ttu-id="b4bef-112">Renvoie un booléen qui est true si la chaîne est mauvaise.</span><span class="sxs-lookup"><span data-stu-id="b4bef-112">Returns a Boolean that is true if the string is bad.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="22b8d-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="22b8d-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b4bef-113">Remarques</span><span class="sxs-lookup"><span data-stu-id="b4bef-113">Remarks</span></span>
 
-<span data-ttu-id="22b8d-114">Cette fonction [encapsule IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="22b8d-114">This function wraps [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span></span> <span data-ttu-id="22b8d-115">Pour plus d’informations, [voir IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="22b8d-115">For more information, see [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="b4bef-114">Cette fonction [encapsule IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="b4bef-114">This function wraps [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span></span> <span data-ttu-id="b4bef-115">Pour plus d’informations, [voir IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="b4bef-115">For more information, see [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).</span></span>
   
 

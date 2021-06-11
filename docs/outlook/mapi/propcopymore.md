@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404469"
 ---
-# <a name="propcopymore"></a><span data-ttu-id="8a4df-103">PropCopyMore</span><span class="sxs-lookup"><span data-stu-id="8a4df-103">PropCopyMore</span></span>
+# <a name="propcopymore"></a><span data-ttu-id="d5d6d-103">PropCopyMore</span><span class="sxs-lookup"><span data-stu-id="d5d6d-103">PropCopyMore</span></span>
 
   
   
-<span data-ttu-id="8a4df-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8a4df-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d5d6d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d5d6d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8a4df-105">Copie une valeur de propriété unique d’un emplacement source vers un emplacement de destination.</span><span class="sxs-lookup"><span data-stu-id="8a4df-105">Copies a single property value from a source location to a destination location.</span></span> 
+<span data-ttu-id="d5d6d-105">Copie une valeur de propriété unique d’un emplacement source vers un emplacement de destination.</span><span class="sxs-lookup"><span data-stu-id="d5d6d-105">Copies a single property value from a source location to a destination location.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8a4df-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="8a4df-106">Header file:</span></span>  <br/> |<span data-ttu-id="8a4df-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="8a4df-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="8a4df-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="8a4df-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="8a4df-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="8a4df-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="8a4df-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="8a4df-110">Called by:</span></span>  <br/> |<span data-ttu-id="8a4df-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="8a4df-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="d5d6d-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="d5d6d-106">Header file:</span></span>  <br/> |<span data-ttu-id="d5d6d-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="d5d6d-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="d5d6d-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="d5d6d-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="d5d6d-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="d5d6d-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="d5d6d-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="d5d6d-110">Called by:</span></span>  <br/> |<span data-ttu-id="d5d6d-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="d5d6d-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE PropCopyMore(
@@ -42,40 +42,40 @@ SCODE PropCopyMore(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8a4df-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="8a4df-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d5d6d-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="d5d6d-112">Parameters</span></span>
 
- <span data-ttu-id="8a4df-113">_lpSPropValueDest_</span><span class="sxs-lookup"><span data-stu-id="8a4df-113">_lpSPropValueDest_</span></span>
+ <span data-ttu-id="d5d6d-113">_lpSPropValueDest_</span><span class="sxs-lookup"><span data-stu-id="d5d6d-113">_lpSPropValueDest_</span></span>
   
-> <span data-ttu-id="8a4df-114">[out] Pointeur vers l’emplacement auquel cette fonction écrit une structure [SPropValue](spropvalue.md) définissant la valeur de la propriété copiée.</span><span class="sxs-lookup"><span data-stu-id="8a4df-114">[out] Pointer to the location to which this function writes an [SPropValue](spropvalue.md) structure defining the copied property value.</span></span> 
+> <span data-ttu-id="d5d6d-114">[out] Pointeur vers l’emplacement où cette fonction écrit une structure [SPropValue](spropvalue.md) définissant la valeur de la propriété copiée.</span><span class="sxs-lookup"><span data-stu-id="d5d6d-114">[out] Pointer to the location to which this function writes an [SPropValue](spropvalue.md) structure defining the copied property value.</span></span> 
     
- <span data-ttu-id="8a4df-115">_lpSPropValueSrc_</span><span class="sxs-lookup"><span data-stu-id="8a4df-115">_lpSPropValueSrc_</span></span>
+ <span data-ttu-id="d5d6d-115">_lpSPropValueSrc_</span><span class="sxs-lookup"><span data-stu-id="d5d6d-115">_lpSPropValueSrc_</span></span>
   
-> <span data-ttu-id="8a4df-116">[in] Pointeur vers la structure [SPropValue](spropvalue.md) qui contient la valeur de propriété à copier.</span><span class="sxs-lookup"><span data-stu-id="8a4df-116">[in] Pointer to the [SPropValue](spropvalue.md) structure that contains the property value to be copied.</span></span> 
+> <span data-ttu-id="d5d6d-116">[in] Pointeur vers la structure [SPropValue](spropvalue.md) qui contient la valeur de propriété à copier.</span><span class="sxs-lookup"><span data-stu-id="d5d6d-116">[in] Pointer to the [SPropValue](spropvalue.md) structure that contains the property value to be copied.</span></span> 
     
- <span data-ttu-id="8a4df-117">_lpfAllocMore_</span><span class="sxs-lookup"><span data-stu-id="8a4df-117">_lpfAllocMore_</span></span>
+ <span data-ttu-id="d5d6d-117">_lpfAllocMore_</span><span class="sxs-lookup"><span data-stu-id="d5d6d-117">_lpfAllocMore_</span></span>
   
-> <span data-ttu-id="8a4df-118">[in] Pointeur vers la [fonction MAPIAllocateMore](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire si l’emplacement de destination n’est pas assez grand pour contenir la propriété à copier.</span><span class="sxs-lookup"><span data-stu-id="8a4df-118">[in] Pointer to the [MAPIAllocateMore](mapiallocatemore.md) function to be used to allocate additional memory if the destination location is not large enough to hold the property to be copied.</span></span> 
+> <span data-ttu-id="d5d6d-118">[in] Pointeur vers la [fonction MAPIAllocateMore](mapiallocatemore.md) à utiliser pour allouer de la mémoire supplémentaire si l’emplacement de destination n’est pas assez grand pour contenir la propriété à copier.</span><span class="sxs-lookup"><span data-stu-id="d5d6d-118">[in] Pointer to the [MAPIAllocateMore](mapiallocatemore.md) function to be used to allocate additional memory if the destination location is not large enough to hold the property to be copied.</span></span> 
     
- <span data-ttu-id="8a4df-119">_lpvObject_</span><span class="sxs-lookup"><span data-stu-id="8a4df-119">_lpvObject_</span></span>
+ <span data-ttu-id="d5d6d-119">_lpvObject_</span><span class="sxs-lookup"><span data-stu-id="d5d6d-119">_lpvObject_</span></span>
   
-> <span data-ttu-id="8a4df-120">[in] Pointeur vers un objet pour lequel **MAPIAllocateMore alloue** de l’espace si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="8a4df-120">[in] Pointer to an object for which **MAPIAllocateMore** will allocate space if necessary.</span></span> 
+> <span data-ttu-id="d5d6d-120">[in] Pointeur vers un objet pour lequel **MAPIAllocateMore alloue** de l’espace si nécessaire.</span><span class="sxs-lookup"><span data-stu-id="d5d6d-120">[in] Pointer to an object for which **MAPIAllocateMore** will allocate space if necessary.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="8a4df-121">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="8a4df-121">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d5d6d-121">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="d5d6d-121">Return value</span></span>
 
-<span data-ttu-id="8a4df-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="8a4df-122">S_OK</span></span>
+<span data-ttu-id="d5d6d-122">S_OK</span><span class="sxs-lookup"><span data-stu-id="d5d6d-122">S_OK</span></span>
   
-> <span data-ttu-id="8a4df-123">La valeur de propriété unique a été correctement copiée.</span><span class="sxs-lookup"><span data-stu-id="8a4df-123">The single property value was copied successfully.</span></span>
+> <span data-ttu-id="d5d6d-123">La valeur de propriété unique a été correctement copiée.</span><span class="sxs-lookup"><span data-stu-id="d5d6d-123">The single property value was copied successfully.</span></span>
     
-<span data-ttu-id="8a4df-124">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="8a4df-124">MAPI_E_NO_SUPPORT</span></span>
+<span data-ttu-id="d5d6d-124">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="d5d6d-124">MAPI_E_NO_SUPPORT</span></span>
   
-> <span data-ttu-id="8a4df-125">Un type de propriété inconnu a été rencontré.</span><span class="sxs-lookup"><span data-stu-id="8a4df-125">An unknown property type was encountered.</span></span>
+> <span data-ttu-id="d5d6d-125">Un type de propriété inconnu a été rencontré.</span><span class="sxs-lookup"><span data-stu-id="d5d6d-125">An unknown property type was encountered.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="8a4df-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="8a4df-126">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d5d6d-126">Remarques</span><span class="sxs-lookup"><span data-stu-id="d5d6d-126">Remarks</span></span>
 
-<span data-ttu-id="8a4df-127">Une application cliente ou un fournisseur de services peut utiliser la fonction **PropCopyMore** pour copier une propriété d’une table qui est sur le point d’être libérée afin de l’utiliser ailleurs.</span><span class="sxs-lookup"><span data-stu-id="8a4df-127">A client application or service provider can use the **PropCopyMore** function to copy a property out of a table that is about to be freed in order to use it elsewhere.</span></span> 
+<span data-ttu-id="d5d6d-127">Une application cliente ou un fournisseur de services peut utiliser la fonction **PropCopyMore** pour copier une propriété d’une table qui est sur le point d’être libérée afin de l’utiliser ailleurs.</span><span class="sxs-lookup"><span data-stu-id="d5d6d-127">A client application or service provider can use the **PropCopyMore** function to copy a property out of a table that is about to be freed in order to use it elsewhere.</span></span> 
   
- <span data-ttu-id="8a4df-128">**PropCopyMore** n’a pas besoin d’allouer de mémoire, sauf si la valeur de propriété copiée est d’un type, tel que PT_STRING8, qui ne correspond pas à une structure [SPropValue.](spropvalue.md)</span><span class="sxs-lookup"><span data-stu-id="8a4df-128">**PropCopyMore** does not need to allocate memory unless the property value copied is of a type, such as PT_STRING8, that does not fit in an [SPropValue](spropvalue.md) structure.</span></span> <span data-ttu-id="8a4df-129">Pour ces propriétés de grande taille, la fonction alloue de la mémoire à l’aide de la [fonction MAPIAllocateMore](mapiallocatemore.md) à laquelle un pointeur est transmis dans le paramètre _lpfAllocMore._</span><span class="sxs-lookup"><span data-stu-id="8a4df-129">For these large properties, the function allocates memory using the [MAPIAllocateMore](mapiallocatemore.md) function to which a pointer is passed in the  _lpfAllocMore_ parameter.</span></span> 
+ <span data-ttu-id="d5d6d-128">**PropCopyMore** n’a pas besoin d’allouer de mémoire, sauf si la valeur de propriété copiée est d’un type, tel que PT_STRING8, qui ne correspond pas à une structure [SPropValue.](spropvalue.md)</span><span class="sxs-lookup"><span data-stu-id="d5d6d-128">**PropCopyMore** does not need to allocate memory unless the property value copied is of a type, such as PT_STRING8, that does not fit in an [SPropValue](spropvalue.md) structure.</span></span> <span data-ttu-id="d5d6d-129">Pour ces propriétés de grande taille, la fonction alloue de la mémoire à l’aide de la [fonction MAPIAllocateMore](mapiallocatemore.md) à laquelle un pointeur est transmis dans le paramètre _lpfAllocMore._</span><span class="sxs-lookup"><span data-stu-id="d5d6d-129">For these large properties, the function allocates memory using the [MAPIAllocateMore](mapiallocatemore.md) function to which a pointer is passed in the  _lpfAllocMore_ parameter.</span></span> 
   
-<span data-ttu-id="8a4df-130">Utilisationjudicious de la mémoire des fragments **PropCopyMore** ; envisagez plutôt d’utiliser la fonction [ScCopyProps.](sccopyprops.md)</span><span class="sxs-lookup"><span data-stu-id="8a4df-130">Injudicious use of **PropCopyMore** fragments memory; consider using the [ScCopyProps](sccopyprops.md) function instead.</span></span> 
+<span data-ttu-id="d5d6d-130">Utilisationjudicious de la mémoire des fragments **PropCopyMore** ; envisagez plutôt d’utiliser la fonction [ScCopyProps.](sccopyprops.md)</span><span class="sxs-lookup"><span data-stu-id="d5d6d-130">Injudicious use of **PropCopyMore** fragments memory; consider using the [ScCopyProps](sccopyprops.md) function instead.</span></span> 
   
 

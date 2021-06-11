@@ -16,31 +16,31 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405449"
 ---
-# <a name="visible-cell-layers-section"></a><span data-ttu-id="bcd4c-103">Visible, cellule (section Layers)</span><span class="sxs-lookup"><span data-stu-id="bcd4c-103">Visible Cell (Layers Section)</span></span>
+# <a name="visible-cell-layers-section"></a><span data-ttu-id="03383-103">Visible, cellule (section Layers)</span><span class="sxs-lookup"><span data-stu-id="03383-103">Visible Cell (Layers Section)</span></span>
 
-<span data-ttu-id="bcd4c-104">Indique si les formes appartenant au calque sont visibles sur la page de dessin.</span><span class="sxs-lookup"><span data-stu-id="bcd4c-104">Specifies whether shapes belonging to the layer are visible on the drawing page.</span></span>
+<span data-ttu-id="03383-104">Indique si les formes appartenant au calque sont visibles sur la page de dessin.</span><span class="sxs-lookup"><span data-stu-id="03383-104">Specifies whether shapes belonging to the layer are visible on the drawing page.</span></span>
   
-|<span data-ttu-id="bcd4c-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="bcd4c-105">**Value**</span></span>|<span data-ttu-id="bcd4c-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="bcd4c-106">**Description**</span></span>|
+|<span data-ttu-id="03383-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="03383-105">**Value**</span></span>|<span data-ttu-id="03383-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="03383-106">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="bcd4c-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="bcd4c-107">TRUE</span></span>  <br/> |<span data-ttu-id="bcd4c-108">Les formes sont visibles.</span><span class="sxs-lookup"><span data-stu-id="bcd4c-108">Shapes are visible.</span></span>  <br/> |
-|<span data-ttu-id="bcd4c-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="bcd4c-109">FALSE</span></span>  <br/> |<span data-ttu-id="bcd4c-110">Les formes sont masquées.</span><span class="sxs-lookup"><span data-stu-id="bcd4c-110">Shapes are hidden.</span></span>  <br/> |
+|<span data-ttu-id="03383-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="03383-107">TRUE</span></span>  <br/> |<span data-ttu-id="03383-108">Les formes sont visibles.</span><span class="sxs-lookup"><span data-stu-id="03383-108">Shapes are visible.</span></span>  <br/> |
+|<span data-ttu-id="03383-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="03383-109">FALSE</span></span>  <br/> |<span data-ttu-id="03383-110">Les formes sont masquées.</span><span class="sxs-lookup"><span data-stu-id="03383-110">Shapes are hidden.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="bcd4c-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="bcd4c-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="03383-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="03383-111">Remarks</span></span>
 
-<span data-ttu-id="bcd4c-112">Cette cellule correspond à l’option **Visible** dans la  boîte de  dialogue Propriétés des calques (sous l’onglet Accueil, dans le groupe Édition, cliquez sur Calques, puis sur Propriétés des **calques).**  </span><span class="sxs-lookup"><span data-stu-id="bcd4c-112">This cell corresponds to the **Visible** option in the **Layer Properties** dialog box (on the **Home** tab, in the **Editing** group, click **Layers**, and then click **Layer Properties** ).</span></span> 
+<span data-ttu-id="03383-112">Cette cellule correspond à l’option **Visible** dans la  boîte de  dialogue Propriétés des calques (sous l’onglet Accueil, dans le groupe Édition, cliquez sur Calques, puis sur Propriétés des **calques).**  </span><span class="sxs-lookup"><span data-stu-id="03383-112">This cell corresponds to the **Visible** option in the **Layer Properties** dialog box (on the **Home** tab, in the **Editing** group, click **Layers**, and then click **Layer Properties** ).</span></span> 
   
-<span data-ttu-id="bcd4c-113">Pour obtenir une référence à la cellule Visible par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="bcd4c-113">To get a reference to the Visible cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="03383-113">Pour obtenir une référence à la cellule Visible par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="03383-113">To get a reference to the Visible cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bcd4c-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="bcd4c-114">Cell name:</span></span>  <br/> |<span data-ttu-id="bcd4c-115">Layers.Visible[ *i*  ] où  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="bcd4c-115">Layers.Visible[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+|<span data-ttu-id="03383-114">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="03383-114">Cell name:</span></span>  <br/> |<span data-ttu-id="03383-115">Layers.Visible[ *i*  ] où  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="03383-115">Layers.Visible[ *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="bcd4c-116">Pour obtenir une référence à la cellule Visible par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="bcd4c-116">To get a reference to the Visible cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="03383-116">Pour obtenir une référence à la cellule Visible par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="03383-116">To get a reference to the Visible cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bcd4c-117">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="bcd4c-117">Section index:</span></span>  <br/> |<span data-ttu-id="bcd4c-118">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="bcd4c-118">**visSectionLayer**</span></span> <br/> |
-|<span data-ttu-id="bcd4c-119">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="bcd4c-119">Row index:</span></span>  <br/> |<span data-ttu-id="bcd4c-120">**visRowLayer**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="bcd4c-120">**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-|<span data-ttu-id="bcd4c-121">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="bcd4c-121">Cell index:</span></span>  <br/> |<span data-ttu-id="bcd4c-122">**visLayerVisible**</span><span class="sxs-lookup"><span data-stu-id="bcd4c-122">**visLayerVisible**</span></span> <br/> |
+|<span data-ttu-id="03383-117">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="03383-117">Section index:</span></span>  <br/> |<span data-ttu-id="03383-118">**visSectionLayer**</span><span class="sxs-lookup"><span data-stu-id="03383-118">**visSectionLayer**</span></span> <br/> |
+|<span data-ttu-id="03383-119">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="03383-119">Row index:</span></span>  <br/> |<span data-ttu-id="03383-120">**visRowLayer**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="03383-120">**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+|<span data-ttu-id="03383-121">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="03383-121">Cell index:</span></span>  <br/> |<span data-ttu-id="03383-122">**visLayerVisible**</span><span class="sxs-lookup"><span data-stu-id="03383-122">**visLayerVisible**</span></span> <br/> |
    
 

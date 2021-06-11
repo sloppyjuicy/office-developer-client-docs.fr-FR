@@ -16,29 +16,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409677"
 ---
-# <a name="lockformat-cell-protection-section"></a><span data-ttu-id="ae6fd-103">LockFormat, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="ae6fd-103">LockFormat Cell (Protection Section)</span></span>
+# <a name="lockformat-cell-protection-section"></a><span data-ttu-id="49a3f-103">LockFormat, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="49a3f-103">LockFormat Cell (Protection Section)</span></span>
 
-<span data-ttu-id="ae6fd-104">Verrouille la mise en forme d'une forme afin d'empêcher sa modification.</span><span class="sxs-lookup"><span data-stu-id="ae6fd-104">Locks the formatting of a shape so it cannot be changed.</span></span>
+<span data-ttu-id="49a3f-104">Verrouille la mise en forme d'une forme afin d'empêcher sa modification.</span><span class="sxs-lookup"><span data-stu-id="49a3f-104">Locks the formatting of a shape so it cannot be changed.</span></span>
   
-|<span data-ttu-id="ae6fd-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="ae6fd-105">**Value**</span></span>|<span data-ttu-id="ae6fd-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="ae6fd-106">**Description**</span></span>|
+|<span data-ttu-id="49a3f-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="49a3f-105">**Value**</span></span>|<span data-ttu-id="49a3f-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="49a3f-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="ae6fd-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="ae6fd-107">TRUE</span></span>  <br/> | <span data-ttu-id="ae6fd-108">La mise en forme ne peut pas être modifiée.</span><span class="sxs-lookup"><span data-stu-id="ae6fd-108">Formatting cannot be changed.</span></span>  <br/> |
-| <span data-ttu-id="ae6fd-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="ae6fd-109">FALSE</span></span>  <br/> | <span data-ttu-id="ae6fd-110">La mise en forme peut être modifiée.</span><span class="sxs-lookup"><span data-stu-id="ae6fd-110">Formatting can be changed.</span></span>  <br/> |
+| <span data-ttu-id="49a3f-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="49a3f-107">TRUE</span></span>  <br/> | <span data-ttu-id="49a3f-108">La mise en forme ne peut pas être modifiée.</span><span class="sxs-lookup"><span data-stu-id="49a3f-108">Formatting cannot be changed.</span></span>  <br/> |
+| <span data-ttu-id="49a3f-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="49a3f-109">FALSE</span></span>  <br/> | <span data-ttu-id="49a3f-110">La mise en forme peut être modifiée.</span><span class="sxs-lookup"><span data-stu-id="49a3f-110">Formatting can be changed.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ae6fd-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="ae6fd-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="49a3f-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="49a3f-111">Remarks</span></span>
 
-<span data-ttu-id="ae6fd-112">Pour obtenir une référence à la cellule LockFormat par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="ae6fd-112">To get a reference to the LockFormat cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="49a3f-112">Pour obtenir une référence à la cellule LockFormat par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="49a3f-112">To get a reference to the LockFormat cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ae6fd-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="ae6fd-113">Cell name:</span></span>  <br/> | <span data-ttu-id="ae6fd-114">LockFormat</span><span class="sxs-lookup"><span data-stu-id="ae6fd-114">LockFormat</span></span>  <br/> |
+| <span data-ttu-id="49a3f-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="49a3f-113">Cell name:</span></span>  <br/> | <span data-ttu-id="49a3f-114">LockFormat</span><span class="sxs-lookup"><span data-stu-id="49a3f-114">LockFormat</span></span>  <br/> |
    
-<span data-ttu-id="ae6fd-115">Pour obtenir une référence à la cellule LockFormat à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="ae6fd-115">To get a reference to the LockFormat cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="49a3f-115">Pour obtenir une référence à la cellule LockFormat à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="49a3f-115">To get a reference to the LockFormat cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="ae6fd-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="ae6fd-116">Section index:</span></span>  <br/> |<span data-ttu-id="ae6fd-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="ae6fd-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="ae6fd-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="ae6fd-118">Row index:</span></span>  <br/> |<span data-ttu-id="ae6fd-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="ae6fd-119">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="ae6fd-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="ae6fd-120">Cell index:</span></span>  <br/> |<span data-ttu-id="ae6fd-121">**visLockFormat**</span><span class="sxs-lookup"><span data-stu-id="ae6fd-121">**visLockFormat**</span></span> <br/> |
+| <span data-ttu-id="49a3f-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="49a3f-116">Section index:</span></span>  <br/> |<span data-ttu-id="49a3f-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="49a3f-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="49a3f-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="49a3f-118">Row index:</span></span>  <br/> |<span data-ttu-id="49a3f-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="49a3f-119">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="49a3f-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="49a3f-120">Cell index:</span></span>  <br/> |<span data-ttu-id="49a3f-121">**visLockFormat**</span><span class="sxs-lookup"><span data-stu-id="49a3f-121">**visLockFormat**</span></span> <br/> |
    
 

@@ -19,57 +19,57 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32361088"
 ---
-# <a name="pidtagattachsize-canonical-property"></a><span data-ttu-id="65c65-103">Propriété canonique PidTagAttachSize</span><span class="sxs-lookup"><span data-stu-id="65c65-103">PidTagAttachSize Canonical Property</span></span>
+# <a name="pidtagattachsize-canonical-property"></a><span data-ttu-id="6e84f-103">Propriété canonique PidTagAttachSize</span><span class="sxs-lookup"><span data-stu-id="6e84f-103">PidTagAttachSize Canonical Property</span></span>
 
   
   
-<span data-ttu-id="65c65-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="65c65-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6e84f-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6e84f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="65c65-105">Contient la somme, en octets, de la taille de toutes les propriétés d’une pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="65c65-105">Contains the sum, in bytes, of the sizes of all properties on an attachment.</span></span> 
+<span data-ttu-id="6e84f-105">Contient la somme, en octets, de la taille de toutes les propriétés d’une pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="6e84f-105">Contains the sum, in bytes, of the sizes of all properties on an attachment.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="65c65-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="65c65-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="65c65-107">PR_ATTACH_SIZE</span><span class="sxs-lookup"><span data-stu-id="65c65-107">PR_ATTACH_SIZE</span></span>  <br/> |
-|<span data-ttu-id="65c65-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="65c65-108">Identifier:</span></span>  <br/> |<span data-ttu-id="65c65-109">0x0E20</span><span class="sxs-lookup"><span data-stu-id="65c65-109">0x0E20</span></span>  <br/> |
-|<span data-ttu-id="65c65-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="65c65-110">Data type:</span></span>  <br/> |<span data-ttu-id="65c65-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="65c65-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="65c65-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="65c65-112">Area:</span></span>  <br/> |<span data-ttu-id="65c65-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="65c65-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="6e84f-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="6e84f-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6e84f-107">PR_ATTACH_SIZE</span><span class="sxs-lookup"><span data-stu-id="6e84f-107">PR_ATTACH_SIZE</span></span>  <br/> |
+|<span data-ttu-id="6e84f-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="6e84f-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6e84f-109">0x0E20</span><span class="sxs-lookup"><span data-stu-id="6e84f-109">0x0E20</span></span>  <br/> |
+|<span data-ttu-id="6e84f-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="6e84f-110">Data type:</span></span>  <br/> |<span data-ttu-id="6e84f-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="6e84f-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="6e84f-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="6e84f-112">Area:</span></span>  <br/> |<span data-ttu-id="6e84f-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="6e84f-113">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="65c65-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="65c65-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6e84f-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="6e84f-114">Remarks</span></span>
 
-<span data-ttu-id="65c65-115">Il est recommandé que les sous-objets de pièce jointe exposent **PR_ATTACH_SIZE** propriété.</span><span class="sxs-lookup"><span data-stu-id="65c65-115">It is recommended that attachment subobjects expose the **PR_ATTACH_SIZE** property.</span></span> <span data-ttu-id="65c65-116">La somme contenue dans **PR_ATTACH_SIZE** inclut la taille de la propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="65c65-116">The sum contained in **PR_ATTACH_SIZE** includes the size of the **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) or **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property.</span></span> <span data-ttu-id="65c65-117">Par conséquent, **PR_ATTACH_SIZE** est généralement plus grand que le contenu de la pièce jointe uniquement.</span><span class="sxs-lookup"><span data-stu-id="65c65-117">Accordingly, **PR_ATTACH_SIZE** is usually larger than the contents of the attachment alone.</span></span> 
+<span data-ttu-id="6e84f-115">Il est recommandé que les sous-objets de pièce jointe exposent **PR_ATTACH_SIZE** propriété.</span><span class="sxs-lookup"><span data-stu-id="6e84f-115">It is recommended that attachment subobjects expose the **PR_ATTACH_SIZE** property.</span></span> <span data-ttu-id="6e84f-116">La somme contenue dans **PR_ATTACH_SIZE** inclut la taille de la propriété **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) ou **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="6e84f-116">The sum contained in **PR_ATTACH_SIZE** includes the size of the **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) or **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) property.</span></span> <span data-ttu-id="6e84f-117">Par conséquent, **PR_ATTACH_SIZE** est généralement plus grand que le contenu de la pièce jointe uniquement.</span><span class="sxs-lookup"><span data-stu-id="6e84f-117">Accordingly, **PR_ATTACH_SIZE** is usually larger than the contents of the attachment alone.</span></span> 
   
-<span data-ttu-id="65c65-118">Cette propriété permet de vérifier la taille approximative de la pièce jointe avant d’effectuer un transfert à distance par modem et d’afficher des indicateurs de progression lors de l’enregistrement de la pièce jointe sur le disque.</span><span class="sxs-lookup"><span data-stu-id="65c65-118">This property can be used to check the approximate size of the attachment before performing a remote transfer by modem and to display progress indicators when saving the attachment to disk.</span></span> <span data-ttu-id="65c65-119">Il est particulièrement utile avec les objets OLE attachés.</span><span class="sxs-lookup"><span data-stu-id="65c65-119">It is particularly useful with attached OLE objects.</span></span> 
+<span data-ttu-id="6e84f-118">Cette propriété permet de vérifier la taille approximative de la pièce jointe avant d’effectuer un transfert à distance par modem et d’afficher des indicateurs de progression lors de l’enregistrement de la pièce jointe sur le disque.</span><span class="sxs-lookup"><span data-stu-id="6e84f-118">This property can be used to check the approximate size of the attachment before performing a remote transfer by modem and to display progress indicators when saving the attachment to disk.</span></span> <span data-ttu-id="6e84f-119">Il est particulièrement utile avec les objets OLE attachés.</span><span class="sxs-lookup"><span data-stu-id="6e84f-119">It is particularly useful with attached OLE objects.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="65c65-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="65c65-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="6e84f-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="6e84f-120">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="65c65-121">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="65c65-121">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="6e84f-121">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="6e84f-121">Protocol specifications</span></span>
 
-<span data-ttu-id="65c65-122">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="65c65-122">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="6e84f-122">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6e84f-122">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="65c65-123">Gère les objets message et pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="65c65-123">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="6e84f-123">Gère les objets message et pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="6e84f-123">Handles message and attachment objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="65c65-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="65c65-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="6e84f-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="6e84f-124">Header files</span></span>
 
-<span data-ttu-id="65c65-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="65c65-125">Mapidefs.h</span></span>
+<span data-ttu-id="6e84f-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="6e84f-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="65c65-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="65c65-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="6e84f-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="6e84f-126">Provides data type definitions.</span></span>
     
-<span data-ttu-id="65c65-127">mapitags.h</span><span class="sxs-lookup"><span data-stu-id="65c65-127">mapitags.h</span></span>
+<span data-ttu-id="6e84f-127">mapitags.h</span><span class="sxs-lookup"><span data-stu-id="6e84f-127">mapitags.h</span></span>
   
-> <span data-ttu-id="65c65-128">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="65c65-128">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="6e84f-128">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="6e84f-128">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="65c65-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="65c65-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6e84f-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6e84f-129">See also</span></span>
 
 
 
-[<span data-ttu-id="65c65-130">Propriété canonique PidTagMessageSize</span><span class="sxs-lookup"><span data-stu-id="65c65-130">PidTagMessageSize Canonical Property</span></span>](pidtagmessagesize-canonical-property.md)
+[<span data-ttu-id="6e84f-130">Propriété canonique PidTagMessageSize</span><span class="sxs-lookup"><span data-stu-id="6e84f-130">PidTagMessageSize Canonical Property</span></span>](pidtagmessagesize-canonical-property.md)
 
 
-[<span data-ttu-id="65c65-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="65c65-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="6e84f-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="6e84f-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="65c65-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="65c65-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="6e84f-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="6e84f-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="65c65-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="65c65-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="6e84f-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="6e84f-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="65c65-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="65c65-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="6e84f-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="6e84f-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

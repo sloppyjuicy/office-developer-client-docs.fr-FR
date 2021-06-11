@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405113"
 ---
-# <a name="imapiforminfomakeiconfrombinary"></a><span data-ttu-id="0f329-103">IMAPIFormInfo::MakeIconFromBinary</span><span class="sxs-lookup"><span data-stu-id="0f329-103">IMAPIFormInfo::MakeIconFromBinary</span></span>
+# <a name="imapiforminfomakeiconfrombinary"></a><span data-ttu-id="12f91-103">IMAPIFormInfo::MakeIconFromBinary</span><span class="sxs-lookup"><span data-stu-id="12f91-103">IMAPIFormInfo::MakeIconFromBinary</span></span>
 
   
   
-<span data-ttu-id="0f329-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0f329-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="12f91-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="12f91-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0f329-105">Crée une icône à partir de l’une des propriétés d’icône d’un formulaire.</span><span class="sxs-lookup"><span data-stu-id="0f329-105">Builds an icon from one of the icon properties of a form.</span></span>
+<span data-ttu-id="12f91-105">Crée une icône à partir de l’une des propriétés d’icône d’un formulaire.</span><span class="sxs-lookup"><span data-stu-id="12f91-105">Builds an icon from one of the icon properties of a form.</span></span>
   
 ```cpp
 HRESULT MakeIconFromBinary(
@@ -34,29 +34,29 @@ HRESULT MakeIconFromBinary(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0f329-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="0f329-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="12f91-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="12f91-106">Parameters</span></span>
 
- <span data-ttu-id="0f329-107">_nPropID_</span><span class="sxs-lookup"><span data-stu-id="0f329-107">_nPropID_</span></span>
+ <span data-ttu-id="12f91-107">_nPropID_</span><span class="sxs-lookup"><span data-stu-id="12f91-107">_nPropID_</span></span>
   
-> <span data-ttu-id="0f329-108">[in] Identificateur de propriété pour une propriété d’icône.</span><span class="sxs-lookup"><span data-stu-id="0f329-108">[in] A property identifier for an icon property.</span></span>
+> <span data-ttu-id="12f91-108">[in] Identificateur de propriété pour une propriété d’icône.</span><span class="sxs-lookup"><span data-stu-id="12f91-108">[in] A property identifier for an icon property.</span></span>
     
- <span data-ttu-id="0f329-109">_phicon_</span><span class="sxs-lookup"><span data-stu-id="0f329-109">_phicon_</span></span>
+ <span data-ttu-id="12f91-109">_phicon_</span><span class="sxs-lookup"><span data-stu-id="12f91-109">_phicon_</span></span>
   
-> <span data-ttu-id="0f329-110">[out] Pointeur vers l’icône renvoyée.</span><span class="sxs-lookup"><span data-stu-id="0f329-110">[out] A pointer to the returned icon.</span></span>
+> <span data-ttu-id="12f91-110">[out] Pointeur vers l’icône renvoyée.</span><span class="sxs-lookup"><span data-stu-id="12f91-110">[out] A pointer to the returned icon.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="0f329-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="0f329-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="12f91-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="12f91-111">Return value</span></span>
 
-<span data-ttu-id="0f329-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="0f329-112">S_OK</span></span> 
+<span data-ttu-id="12f91-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="12f91-112">S_OK</span></span> 
   
-> <span data-ttu-id="0f329-113">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="0f329-113">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="12f91-113">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="12f91-113">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="0f329-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="0f329-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="12f91-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="12f91-114">Remarks</span></span>
 
-<span data-ttu-id="0f329-115">Les applications clientes appellent la méthode **IMAPIFormInfo::MakeIconFromBinary** pour créer une icône à partir de l’une des propriétés d’icône d’un formulaire.</span><span class="sxs-lookup"><span data-stu-id="0f329-115">Client applications call the **IMAPIFormInfo::MakeIconFromBinary** method to build an icon from one of the icon properties of a form.</span></span> <span data-ttu-id="0f329-116">Dans le  _paramètre nPropID,_ **MakeIconFromBinary** prend l’identificateur de propriété de l’une des propriétés d’icône d’un formulaire.</span><span class="sxs-lookup"><span data-stu-id="0f329-116">In the  _nPropID_ parameter, **MakeIconFromBinary** takes the property identifier of one of the icon properties of a form.</span></span> <span data-ttu-id="0f329-117">À l’aide de cet identificateur de propriété, il crée une icône qui peut être affichée dans les vues de tableau qui incluent des colonnes de propriété pour les icônes.</span><span class="sxs-lookup"><span data-stu-id="0f329-117">Using this property identifier, it builds an icon that can be displayed in table views that include property columns for icons.</span></span> 
+<span data-ttu-id="12f91-115">Les applications clientes appellent la méthode **IMAPIFormInfo::MakeIconFromBinary** pour créer une icône à partir de l’une des propriétés d’icône d’un formulaire.</span><span class="sxs-lookup"><span data-stu-id="12f91-115">Client applications call the **IMAPIFormInfo::MakeIconFromBinary** method to build an icon from one of the icon properties of a form.</span></span> <span data-ttu-id="12f91-116">Dans le  _paramètre nPropID,_ **MakeIconFromBinary** prend l’identificateur de propriété d’une des propriétés d’icône d’un formulaire.</span><span class="sxs-lookup"><span data-stu-id="12f91-116">In the  _nPropID_ parameter, **MakeIconFromBinary** takes the property identifier of one of the icon properties of a form.</span></span> <span data-ttu-id="12f91-117">À l’aide de cet identificateur de propriété, il crée une icône qui peut être affichée dans les vues de tableau qui incluent des colonnes de propriété pour les icônes.</span><span class="sxs-lookup"><span data-stu-id="12f91-117">Using this property identifier, it builds an icon that can be displayed in table views that include property columns for icons.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="0f329-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0f329-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="12f91-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="12f91-118">See also</span></span>
 
 
 
-[<span data-ttu-id="0f329-119">IMAPIFormInfo : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="0f329-119">IMAPIFormInfo : IMAPIProp</span></span>](imapiforminfoimapiprop.md)
+[<span data-ttu-id="12f91-119">IMAPIFormInfo : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="12f91-119">IMAPIFormInfo : IMAPIProp</span></span>](imapiforminfoimapiprop.md)
 

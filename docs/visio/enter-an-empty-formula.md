@@ -16,13 +16,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405680"
 ---
-# <a name="enter-an-empty-formula"></a><span data-ttu-id="27f05-102">Entrer une formule vide</span><span class="sxs-lookup"><span data-stu-id="27f05-102">Enter an Empty Formula</span></span>
+# <a name="enter-an-empty-formula"></a><span data-ttu-id="c8529-102">Entrer une formule vide</span><span class="sxs-lookup"><span data-stu-id="c8529-102">Enter an Empty Formula</span></span>
 
-1. <span data-ttu-id="27f05-103">Sélectionnez la cellule devant contenir la formule.</span><span class="sxs-lookup"><span data-stu-id="27f05-103">Select the cell that will contain the formula.</span></span>
+1. <span data-ttu-id="c8529-103">Sélectionnez la cellule devant contenir la formule.</span><span class="sxs-lookup"><span data-stu-id="c8529-103">Select the cell that will contain the formula.</span></span>
     
-2. <span data-ttu-id="27f05-104">Appuyez sur Suppr, puis sur Entrée.</span><span class="sxs-lookup"><span data-stu-id="27f05-104">Press DELETE, and then press ENTER.</span></span>
+2. <span data-ttu-id="c8529-104">Appuyez sur Suppr, puis sur Entrée.</span><span class="sxs-lookup"><span data-stu-id="c8529-104">Press DELETE, and then press ENTER.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="27f05-105">Essayez cela dans une **cellule Scratch** après avoir inséré une formule locale.</span><span class="sxs-lookup"><span data-stu-id="27f05-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="27f05-106">La cellule revient à « Aucune formule » car il n’existe aucune formule à hériter de la base.</span><span class="sxs-lookup"><span data-stu-id="27f05-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
+> <span data-ttu-id="c8529-105">Essayez cela dans une **cellule Scratch** après avoir inséré une formule locale.</span><span class="sxs-lookup"><span data-stu-id="c8529-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="c8529-106">La cellule revient à « Aucune formule » car il n’existe aucune formule à hériter de la base.</span><span class="sxs-lookup"><span data-stu-id="c8529-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
   
 
