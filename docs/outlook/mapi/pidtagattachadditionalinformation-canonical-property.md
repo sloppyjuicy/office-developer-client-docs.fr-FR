@@ -19,52 +19,52 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32339871"
 ---
-# <a name="pidtagattachadditionalinformation-canonical-property"></a><span data-ttu-id="4ae9a-103">Propriété canonique PidTagAttachAdditionalInformation</span><span class="sxs-lookup"><span data-stu-id="4ae9a-103">PidTagAttachAdditionalInformation Canonical Property</span></span>
+# <a name="pidtagattachadditionalinformation-canonical-property"></a><span data-ttu-id="1a917-103">Propriété canonique PidTagAttachAdditionalInformation</span><span class="sxs-lookup"><span data-stu-id="1a917-103">PidTagAttachAdditionalInformation Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4ae9a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4ae9a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1a917-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a917-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4ae9a-105">Fournit des informations de type de fichier pour une pièce jointe non Windows.</span><span class="sxs-lookup"><span data-stu-id="4ae9a-105">Provides file type information for a non-Windows attachment.</span></span>
+<span data-ttu-id="1a917-105">Fournit des informations de type de fichier pour une pièce jointe Windows non jointe.</span><span class="sxs-lookup"><span data-stu-id="1a917-105">Provides file type information for a non-Windows attachment.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4ae9a-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="4ae9a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4ae9a-107">PR_ATTACH_ADDITIONAL_INFO</span><span class="sxs-lookup"><span data-stu-id="4ae9a-107">PR_ATTACH_ADDITIONAL_INFO</span></span>  <br/> |
-|<span data-ttu-id="4ae9a-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="4ae9a-108">Identifier:</span></span>  <br/> |<span data-ttu-id="4ae9a-109">0x370F</span><span class="sxs-lookup"><span data-stu-id="4ae9a-109">0x370F</span></span>  <br/> |
-|<span data-ttu-id="4ae9a-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="4ae9a-110">Data type:</span></span>  <br/> |<span data-ttu-id="4ae9a-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="4ae9a-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="4ae9a-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="4ae9a-112">Area:</span></span>  <br/> |<span data-ttu-id="4ae9a-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="4ae9a-113">Message attachment</span></span>  <br/> |
+|<span data-ttu-id="1a917-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="1a917-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1a917-107">PR_ATTACH_ADDITIONAL_INFO</span><span class="sxs-lookup"><span data-stu-id="1a917-107">PR_ATTACH_ADDITIONAL_INFO</span></span>  <br/> |
+|<span data-ttu-id="1a917-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="1a917-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1a917-109">0x370F</span><span class="sxs-lookup"><span data-stu-id="1a917-109">0x370F</span></span>  <br/> |
+|<span data-ttu-id="1a917-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="1a917-110">Data type:</span></span>  <br/> |<span data-ttu-id="1a917-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="1a917-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="1a917-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="1a917-112">Area:</span></span>  <br/> |<span data-ttu-id="1a917-113">Pièce jointe de message</span><span class="sxs-lookup"><span data-stu-id="1a917-113">Message attachment</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4ae9a-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="4ae9a-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1a917-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="1a917-114">Remarks</span></span>
 
-<span data-ttu-id="4ae9a-115">Cette propriété fournit des métadonnées sur une pièce jointe particulière en fonction du codage de la pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="4ae9a-115">This property provides metadata about a particular attachment based on the attachment's encoding.</span></span> <span data-ttu-id="4ae9a-116">Par exemple, lorsque la propriété **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) contient MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contient une chaîne qui représente le créateur et le type de fichier Macintosh, au format « :CREA:TYPE » pour le fichier Macintosh codé.</span><span class="sxs-lookup"><span data-stu-id="4ae9a-116">For example, when the **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) property contains MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contains a string that represents the Macintosh file creator and file type, formatted as ":CREA:TYPE" for the encoded Macintosh file.</span></span> 
+<span data-ttu-id="1a917-115">Cette propriété fournit des métadonnées sur une pièce jointe particulière en fonction du codage de la pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="1a917-115">This property provides metadata about a particular attachment based on the attachment's encoding.</span></span> <span data-ttu-id="1a917-116">Par exemple, lorsque la propriété **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) contient MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contient une chaîne qui représente le créateur et le type de fichier Macintosh, au format « :CREA:TYPE » pour le fichier Macintosh codé.</span><span class="sxs-lookup"><span data-stu-id="1a917-116">For example, when the **PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md)) property contains MacBinary, **PR_ATTACH_ADDITIONAL_INFO** contains a string that represents the Macintosh file creator and file type, formatted as ":CREA:TYPE" for the encoded Macintosh file.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="4ae9a-117">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="4ae9a-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="1a917-117">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="1a917-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="4ae9a-118">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="4ae9a-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="1a917-118">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="1a917-118">Protocol specifications</span></span>
 
-<span data-ttu-id="4ae9a-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4ae9a-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="1a917-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1a917-119">[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4ae9a-120">Gère les objets de message et de pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="4ae9a-120">Handles message and attachment objects.</span></span>
+> <span data-ttu-id="1a917-120">Gère les objets message et pièce jointe.</span><span class="sxs-lookup"><span data-stu-id="1a917-120">Handles message and attachment objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="4ae9a-121">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="4ae9a-121">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="1a917-121">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="1a917-121">Header files</span></span>
 
-<span data-ttu-id="4ae9a-122">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4ae9a-122">Mapidefs.h</span></span>
+<span data-ttu-id="1a917-122">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1a917-122">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4ae9a-123">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="4ae9a-123">Provides data type definitions.</span></span>
+> <span data-ttu-id="1a917-123">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="1a917-123">Provides data type definitions.</span></span>
     
-<span data-ttu-id="4ae9a-124">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="4ae9a-124">Mapitags.h</span></span>
+<span data-ttu-id="1a917-124">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="1a917-124">Mapitags.h</span></span>
   
-> <span data-ttu-id="4ae9a-125">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="4ae9a-125">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="1a917-125">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="1a917-125">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4ae9a-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4ae9a-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1a917-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1a917-126">See also</span></span>
 
 
 
-[<span data-ttu-id="4ae9a-127">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="4ae9a-127">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="1a917-127">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="1a917-127">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4ae9a-128">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="4ae9a-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="1a917-128">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="1a917-128">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4ae9a-129">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="4ae9a-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="1a917-129">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="1a917-129">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4ae9a-130">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="4ae9a-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="1a917-130">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="1a917-130">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

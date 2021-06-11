@@ -19,55 +19,55 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32349181"
 ---
-# <a name="pidlidclipend-canonical-property"></a><span data-ttu-id="91b70-103">Propriété canonique PidLidClipEnd</span><span class="sxs-lookup"><span data-stu-id="91b70-103">PidLidClipEnd Canonical Property</span></span>
+# <a name="pidlidclipend-canonical-property"></a><span data-ttu-id="b9c9c-103">Propriété canonique PidLidClipEnd</span><span class="sxs-lookup"><span data-stu-id="b9c9c-103">PidLidClipEnd Canonical Property</span></span>
 
   
   
-<span data-ttu-id="91b70-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="91b70-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b9c9c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b9c9c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="91b70-105">Spécifie la date et l’heure de fin de l’événement en temps universel coordonné (UTC) pour les objets calendrier d’instance unique.</span><span class="sxs-lookup"><span data-stu-id="91b70-105">Specifies the end date and time of the event in Coordinated Universal Time (UTC) for single instance calendar objects.</span></span> 
+<span data-ttu-id="b9c9c-105">Spécifie la date et l’heure de fin de l’événement en temps universel coordonné (UTC) pour les objets calendrier d’instance unique.</span><span class="sxs-lookup"><span data-stu-id="b9c9c-105">Specifies the end date and time of the event in Coordinated Universal Time (UTC) for single instance calendar objects.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="91b70-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="91b70-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="91b70-107">dispidClipEnd</span><span class="sxs-lookup"><span data-stu-id="91b70-107">dispidClipEnd</span></span>  <br/> |
-|<span data-ttu-id="91b70-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="91b70-108">Property set:</span></span>  <br/> |<span data-ttu-id="91b70-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="91b70-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="91b70-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="91b70-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="91b70-111">0x00008236</span><span class="sxs-lookup"><span data-stu-id="91b70-111">0x00008236</span></span>  <br/> |
-|<span data-ttu-id="91b70-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="91b70-112">Data type:</span></span>  <br/> |<span data-ttu-id="91b70-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="91b70-113">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="91b70-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="91b70-114">Area:</span></span>  <br/> |<span data-ttu-id="91b70-115">Calendrier</span><span class="sxs-lookup"><span data-stu-id="91b70-115">Calendar</span></span>  <br/> |
+|<span data-ttu-id="b9c9c-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="b9c9c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b9c9c-107">dispidClipEnd</span><span class="sxs-lookup"><span data-stu-id="b9c9c-107">dispidClipEnd</span></span>  <br/> |
+|<span data-ttu-id="b9c9c-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="b9c9c-108">Property set:</span></span>  <br/> |<span data-ttu-id="b9c9c-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="b9c9c-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="b9c9c-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="b9c9c-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="b9c9c-111">0x00008236</span><span class="sxs-lookup"><span data-stu-id="b9c9c-111">0x00008236</span></span>  <br/> |
+|<span data-ttu-id="b9c9c-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="b9c9c-112">Data type:</span></span>  <br/> |<span data-ttu-id="b9c9c-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="b9c9c-113">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="b9c9c-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="b9c9c-114">Area:</span></span>  <br/> |<span data-ttu-id="b9c9c-115">Calendrier</span><span class="sxs-lookup"><span data-stu-id="b9c9c-115">Calendar</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="91b70-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="91b70-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b9c9c-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="b9c9c-116">Remarks</span></span>
 
-<span data-ttu-id="91b70-117">Pour les objets de calendrier d’instance unique, il spécifie la date et l’heure de fin de l’événement au UTC.</span><span class="sxs-lookup"><span data-stu-id="91b70-117">For single instance calendar objects, it specifies the end date and time of the event in UTC.</span></span> <span data-ttu-id="91b70-118">Pour une série périodique, cette propriété spécifie minuit à la date de la dernière instance de la série périodique au UTC, sauf si la série périodique n’a pas de fin, auquel cas la valeur doit être 31 août 4500, 23:59.</span><span class="sxs-lookup"><span data-stu-id="91b70-118">For a recurring series, this property specifies midnight on the date of the last instance of the recurring series in UTC, unless the recurring series has no end, in which case the value must be 31 August 4500, 11:59 p.m.</span></span>
+<span data-ttu-id="b9c9c-117">Pour les objets de calendrier d’instance unique, il spécifie la date et l’heure de fin de l’événement au UTC.</span><span class="sxs-lookup"><span data-stu-id="b9c9c-117">For single instance calendar objects, it specifies the end date and time of the event in UTC.</span></span> <span data-ttu-id="b9c9c-118">Pour une série périodique, cette propriété spécifie minuit à la date de la dernière instance de la série périodique au UTC, sauf si la série périodique n’a pas de fin, auquel cas la valeur doit être 31 août 4500, 23:59.</span><span class="sxs-lookup"><span data-stu-id="b9c9c-118">For a recurring series, this property specifies midnight on the date of the last instance of the recurring series in UTC, unless the recurring series has no end, in which case the value must be 31 August 4500, 11:59 p.m.</span></span>
   
-<span data-ttu-id="91b70-119">La valeur de cette propriété doit être définie sur la valeur du **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="91b70-119">The value of this property must be set to the value of the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).</span></span>
+<span data-ttu-id="b9c9c-119">La valeur de cette propriété doit être définie sur la valeur du **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="b9c9c-119">The value of this property must be set to the value of the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="91b70-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="91b70-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="b9c9c-120">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="b9c9c-120">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="91b70-121">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="91b70-121">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="b9c9c-121">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="b9c9c-121">Protocol specifications</span></span>
 
-<span data-ttu-id="91b70-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="91b70-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="b9c9c-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b9c9c-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="91b70-123">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="91b70-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="b9c9c-123">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="b9c9c-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="91b70-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="91b70-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="b9c9c-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b9c9c-124">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="91b70-125">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="91b70-125">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="b9c9c-125">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="b9c9c-125">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="91b70-126">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="91b70-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="b9c9c-126">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="b9c9c-126">Header files</span></span>
 
-<span data-ttu-id="91b70-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="91b70-127">Mapidefs.h</span></span>
+<span data-ttu-id="b9c9c-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b9c9c-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="91b70-128">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="91b70-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="b9c9c-128">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="b9c9c-128">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="91b70-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="91b70-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b9c9c-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b9c9c-129">See also</span></span>
 
 
 
-[<span data-ttu-id="91b70-130">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="91b70-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="b9c9c-130">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="b9c9c-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="91b70-131">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="91b70-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="b9c9c-131">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="b9c9c-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="91b70-132">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="91b70-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="b9c9c-132">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="b9c9c-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="91b70-133">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="91b70-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="b9c9c-133">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="b9c9c-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

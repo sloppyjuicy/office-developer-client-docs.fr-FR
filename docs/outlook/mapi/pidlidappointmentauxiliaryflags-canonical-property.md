@@ -19,65 +19,65 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32345429"
 ---
-# <a name="pidlidappointmentauxiliaryflags-canonical-property"></a><span data-ttu-id="c79b6-103">Propriété canonique PidLidAppointmentAuxiliaryFlags</span><span class="sxs-lookup"><span data-stu-id="c79b6-103">PidLidAppointmentAuxiliaryFlags Canonical Property</span></span>
+# <a name="pidlidappointmentauxiliaryflags-canonical-property"></a><span data-ttu-id="c0254-103">Propriété canonique PidLidAppointmentAuxiliaryFlags</span><span class="sxs-lookup"><span data-stu-id="c0254-103">PidLidAppointmentAuxiliaryFlags Canonical Property</span></span>
 
   
   
-<span data-ttu-id="c79b6-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c79b6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c0254-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c0254-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c79b6-105">Spécifie un champ de bits qui décrit l’état auxiliaire de l’objet.</span><span class="sxs-lookup"><span data-stu-id="c79b6-105">Specifies a bit field that describes the auxiliary state of the object.</span></span>
+<span data-ttu-id="c0254-105">Spécifie un champ de bits qui décrit l’état auxiliaire de l’objet.</span><span class="sxs-lookup"><span data-stu-id="c0254-105">Specifies a bit field that describes the auxiliary state of the object.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c79b6-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c79b6-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c79b6-107">dispidApptAuxFlags</span><span class="sxs-lookup"><span data-stu-id="c79b6-107">dispidApptAuxFlags</span></span>  <br/> |
-|<span data-ttu-id="c79b6-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="c79b6-108">Property set:</span></span>  <br/> |<span data-ttu-id="c79b6-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="c79b6-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="c79b6-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="c79b6-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="c79b6-111">0x00008207</span><span class="sxs-lookup"><span data-stu-id="c79b6-111">0x00008207</span></span>  <br/> |
-|<span data-ttu-id="c79b6-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c79b6-112">Data type:</span></span>  <br/> |<span data-ttu-id="c79b6-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="c79b6-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="c79b6-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c79b6-114">Area:</span></span>  <br/> |<span data-ttu-id="c79b6-115">Réunions</span><span class="sxs-lookup"><span data-stu-id="c79b6-115">Meetings</span></span>  <br/> |
+|<span data-ttu-id="c0254-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c0254-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c0254-107">dispidApptAuxFlags</span><span class="sxs-lookup"><span data-stu-id="c0254-107">dispidApptAuxFlags</span></span>  <br/> |
+|<span data-ttu-id="c0254-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="c0254-108">Property set:</span></span>  <br/> |<span data-ttu-id="c0254-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="c0254-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="c0254-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="c0254-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="c0254-111">0x00008207</span><span class="sxs-lookup"><span data-stu-id="c0254-111">0x00008207</span></span>  <br/> |
+|<span data-ttu-id="c0254-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c0254-112">Data type:</span></span>  <br/> |<span data-ttu-id="c0254-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="c0254-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="c0254-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c0254-114">Area:</span></span>  <br/> |<span data-ttu-id="c0254-115">Réunions</span><span class="sxs-lookup"><span data-stu-id="c0254-115">Meetings</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c79b6-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="c79b6-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c0254-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="c0254-116">Remarks</span></span>
 
-<span data-ttu-id="c79b6-117">Cette propriété n’est pas obligatoire.</span><span class="sxs-lookup"><span data-stu-id="c79b6-117">This property is not required.</span></span> <span data-ttu-id="c79b6-118">Vous trouverez ci-dessous les indicateurs individuels qui peuvent être définies.</span><span class="sxs-lookup"><span data-stu-id="c79b6-118">Below are the individual flags that can be set.</span></span>
+<span data-ttu-id="c0254-117">Cette propriété n’est pas obligatoire.</span><span class="sxs-lookup"><span data-stu-id="c0254-117">This property is not required.</span></span> <span data-ttu-id="c0254-118">Vous trouverez ci-dessous les indicateurs individuels qui peuvent être définies.</span><span class="sxs-lookup"><span data-stu-id="c0254-118">Below are the individual flags that can be set.</span></span>
   
-<span data-ttu-id="c79b6-119">C (auxApptFlagCopied, 0x00000001)</span><span class="sxs-lookup"><span data-stu-id="c79b6-119">C (auxApptFlagCopied, 0x00000001)</span></span>
+<span data-ttu-id="c0254-119">C (auxApptFlagCopied, 0x00000001)</span><span class="sxs-lookup"><span data-stu-id="c0254-119">C (auxApptFlagCopied, 0x00000001)</span></span>
   
-> <span data-ttu-id="c79b6-120">Cet indicateur indique que l’objet calendrier a été copié à partir d’un autre dossier de calendrier.</span><span class="sxs-lookup"><span data-stu-id="c79b6-120">This flag indicates that the calendar object was copied from another calendar folder.</span></span>
+> <span data-ttu-id="c0254-120">Cet indicateur indique que l’objet calendrier a été copié à partir d’un autre dossier de calendrier.</span><span class="sxs-lookup"><span data-stu-id="c0254-120">This flag indicates that the calendar object was copied from another calendar folder.</span></span>
     
-<span data-ttu-id="c79b6-121">R (auxApptFlagForceMtgResponse, 0x00000002)</span><span class="sxs-lookup"><span data-stu-id="c79b6-121">R (auxApptFlagForceMtgResponse, 0x00000002)</span></span>
+<span data-ttu-id="c0254-121">R (auxApptFlagForceMtgResponse, 0x00000002)</span><span class="sxs-lookup"><span data-stu-id="c0254-121">R (auxApptFlagForceMtgResponse, 0x00000002)</span></span>
   
-> <span data-ttu-id="c79b6-122">Cet indicateur sur une demande de réunion indique que le client ou le serveur doit renvoyer une réponse à la réunion à l’organisateur lorsqu’une réponse est choisie.</span><span class="sxs-lookup"><span data-stu-id="c79b6-122">This flag on a meeting request indicates that the client or server should send a meeting response back to the organizer when a response is chosen.</span></span>
+> <span data-ttu-id="c0254-122">Cet indicateur sur une demande de réunion indique que le client ou le serveur doit renvoyer une réponse à la réunion à l’organisateur lorsqu’une réponse est choisie.</span><span class="sxs-lookup"><span data-stu-id="c0254-122">This flag on a meeting request indicates that the client or server should send a meeting response back to the organizer when a response is chosen.</span></span>
     
-<span data-ttu-id="c79b6-123">F (auxApptFlagForwarded, 0x00000004)</span><span class="sxs-lookup"><span data-stu-id="c79b6-123">F (auxApptFlagForwarded, 0x00000004)</span></span>
+<span data-ttu-id="c0254-123">F (auxApptFlagForwarded, 0x00000004)</span><span class="sxs-lookup"><span data-stu-id="c0254-123">F (auxApptFlagForwarded, 0x00000004)</span></span>
   
-> <span data-ttu-id="c79b6-124">Cet indicateur sur une demande de réunion indique qu’il a été transmis (y compris par l’organisateur), au lieu d’être une invitation de l’organisateur.</span><span class="sxs-lookup"><span data-stu-id="c79b6-124">This flag on a meeting request indicates that it was forwarded (including being forwarded by the organizer), rather than being an invitation from the organizer.</span></span>
+> <span data-ttu-id="c0254-124">Cet indicateur sur une demande de réunion indique qu’il a été transmis (y compris par l’organisateur), au lieu d’être une invitation de l’organisateur.</span><span class="sxs-lookup"><span data-stu-id="c0254-124">This flag on a meeting request indicates that it was forwarded (including being forwarded by the organizer), rather than being an invitation from the organizer.</span></span>
     
-## <a name="related-resources"></a><span data-ttu-id="c79b6-125">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="c79b6-125">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c0254-125">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="c0254-125">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="c79b6-126">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="c79b6-126">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="c0254-126">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="c0254-126">Protocol specifications</span></span>
 
-<span data-ttu-id="c79b6-127">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c79b6-127">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c0254-127">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c0254-127">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c79b6-128">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="c79b6-128">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="c0254-128">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="c0254-128">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="c79b6-129">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c79b6-129">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c0254-129">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c0254-129">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c79b6-130">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="c79b6-130">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="c0254-130">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="c0254-130">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="c79b6-131">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="c79b6-131">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c0254-131">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="c0254-131">Header files</span></span>
 
-<span data-ttu-id="c79b6-132">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c79b6-132">Mapidefs.h</span></span>
+<span data-ttu-id="c0254-132">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c0254-132">Mapidefs.h</span></span>
   
-> <span data-ttu-id="c79b6-133">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="c79b6-133">Provides data type definitions.</span></span>
+> <span data-ttu-id="c0254-133">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="c0254-133">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="c79b6-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c79b6-134">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c0254-134">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c0254-134">See also</span></span>
 
 
 
-[<span data-ttu-id="c79b6-135">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="c79b6-135">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c0254-135">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="c0254-135">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="c79b6-136">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="c79b6-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c0254-136">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="c0254-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="c79b6-137">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="c79b6-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c0254-137">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="c0254-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="c79b6-138">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="c79b6-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c0254-138">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="c0254-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

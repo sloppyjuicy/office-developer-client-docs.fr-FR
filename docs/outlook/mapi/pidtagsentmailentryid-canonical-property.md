@@ -19,62 +19,62 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32342510"
 ---
-# <a name="pidtagsentmailentryid-canonical-property"></a><span data-ttu-id="c30d8-103">Propriété canonique PidTagSentMailEntryId</span><span class="sxs-lookup"><span data-stu-id="c30d8-103">PidTagSentMailEntryId Canonical Property</span></span>
+# <a name="pidtagsentmailentryid-canonical-property"></a><span data-ttu-id="e15f8-103">Propriété canonique PidTagSentMailEntryId</span><span class="sxs-lookup"><span data-stu-id="e15f8-103">PidTagSentMailEntryId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="c30d8-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c30d8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e15f8-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e15f8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c30d8-105">Contient l’identificateur d’entrée du dossier dans lequel le message doit être déplacé après l’envoi.</span><span class="sxs-lookup"><span data-stu-id="c30d8-105">Contains the entry identifier of the folder where the message should be moved after submission.</span></span>
+<span data-ttu-id="e15f8-105">Contient l’identificateur d’entrée du dossier dans lequel le message doit être déplacé après l’envoi.</span><span class="sxs-lookup"><span data-stu-id="e15f8-105">Contains the entry identifier of the folder where the message should be moved after submission.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c30d8-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c30d8-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c30d8-107">PR_SENTMAIL_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="c30d8-107">PR_SENTMAIL_ENTRYID</span></span>  <br/> |
-|<span data-ttu-id="c30d8-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="c30d8-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c30d8-109">0x0E0A</span><span class="sxs-lookup"><span data-stu-id="c30d8-109">0x0E0A</span></span>  <br/> |
-|<span data-ttu-id="c30d8-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c30d8-110">Data type:</span></span>  <br/> |<span data-ttu-id="c30d8-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="c30d8-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="c30d8-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c30d8-112">Area:</span></span>  <br/> |<span data-ttu-id="c30d8-113">MAPI non transmetteable</span><span class="sxs-lookup"><span data-stu-id="c30d8-113">MAPI non-transmittable</span></span>  <br/> |
+|<span data-ttu-id="e15f8-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="e15f8-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e15f8-107">PR_SENTMAIL_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="e15f8-107">PR_SENTMAIL_ENTRYID</span></span>  <br/> |
+|<span data-ttu-id="e15f8-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="e15f8-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e15f8-109">0x0E0A</span><span class="sxs-lookup"><span data-stu-id="e15f8-109">0x0E0A</span></span>  <br/> |
+|<span data-ttu-id="e15f8-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="e15f8-110">Data type:</span></span>  <br/> |<span data-ttu-id="e15f8-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="e15f8-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="e15f8-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="e15f8-112">Area:</span></span>  <br/> |<span data-ttu-id="e15f8-113">MAPI non transmetteable</span><span class="sxs-lookup"><span data-stu-id="e15f8-113">MAPI non-transmittable</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c30d8-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="c30d8-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e15f8-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="e15f8-114">Remarks</span></span>
 
-<span data-ttu-id="c30d8-115">Cette propriété est souvent copiée à partir de **la propriété PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), le dossier Éléments envoyés standard de l’application cliente.</span><span class="sxs-lookup"><span data-stu-id="c30d8-115">This property is often copied from the **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) property, the client application's standard Sent Items folder.</span></span>
+<span data-ttu-id="e15f8-115">Cette propriété est souvent copiée à partir de **la propriété PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), le dossier Éléments envoyés standard de l’application cliente.</span><span class="sxs-lookup"><span data-stu-id="e15f8-115">This property is often copied from the **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) property, the client application's standard Sent Items folder.</span></span>
   
-<span data-ttu-id="c30d8-116">L’application cliente utilise cette propriété **avec la propriété PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) pour contrôler ce qu’il advient d’un message après qu’il a été envoyé.</span><span class="sxs-lookup"><span data-stu-id="c30d8-116">The client application uses this property with the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property to control what happens to a message after it is submitted.</span></span> <span data-ttu-id="c30d8-117">L’une ou l’autre doit être définie, mais pas les deux.</span><span class="sxs-lookup"><span data-stu-id="c30d8-117">Either one or the other should be set, but not both.</span></span>
+<span data-ttu-id="e15f8-116">L’application cliente utilise cette propriété **avec la propriété PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) pour contrôler ce qu’il advient d’un message après qu’il a été envoyé.</span><span class="sxs-lookup"><span data-stu-id="e15f8-116">The client application uses this property with the **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) property to control what happens to a message after it is submitted.</span></span> <span data-ttu-id="e15f8-117">L’une ou l’autre doit être définie, mais pas les deux.</span><span class="sxs-lookup"><span data-stu-id="e15f8-117">Either one or the other should be set, but not both.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="c30d8-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="c30d8-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e15f8-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="e15f8-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="c30d8-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="c30d8-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="e15f8-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="e15f8-119">Protocol specifications</span></span>
 
-<span data-ttu-id="c30d8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c30d8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e15f8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e15f8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c30d8-121">Fournit des références aux spécifications Exchange Server de protocole associées.</span><span class="sxs-lookup"><span data-stu-id="c30d8-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="e15f8-121">Fournit des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="e15f8-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="c30d8-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c30d8-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e15f8-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e15f8-122">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c30d8-123">Spécifie les propriétés et opérations autorisées pour les objets de message électronique.</span><span class="sxs-lookup"><span data-stu-id="c30d8-123">Specifies the properties and operations that are permissible for email message objects.</span></span>
+> <span data-ttu-id="e15f8-123">Spécifie les propriétés et opérations autorisées pour les objets de message électronique.</span><span class="sxs-lookup"><span data-stu-id="e15f8-123">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-<span data-ttu-id="c30d8-124">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c30d8-124">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e15f8-124">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e15f8-124">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="c30d8-125">Convertit les objets RFC2445, RFC2446 et RFC2447 de l’IETF, ainsi que les objets de rendez-vous et de réunion.</span><span class="sxs-lookup"><span data-stu-id="c30d8-125">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="e15f8-125">Convertit les objets RFC2445, RFC2446 et RFC2447 de l’IETF, ainsi que les objets de rendez-vous et de réunion.</span><span class="sxs-lookup"><span data-stu-id="e15f8-125">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="c30d8-126">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="c30d8-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e15f8-126">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="e15f8-126">Header files</span></span>
 
-<span data-ttu-id="c30d8-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c30d8-127">Mapidefs.h</span></span>
+<span data-ttu-id="e15f8-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e15f8-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="c30d8-128">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="c30d8-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="e15f8-128">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="e15f8-128">Provides data type definitions.</span></span>
     
-<span data-ttu-id="c30d8-129">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="c30d8-129">Mapitags.h</span></span>
+<span data-ttu-id="e15f8-129">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="e15f8-129">Mapitags.h</span></span>
   
-> <span data-ttu-id="c30d8-130">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="c30d8-130">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="e15f8-130">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="e15f8-130">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="c30d8-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c30d8-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e15f8-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e15f8-131">See also</span></span>
 
 
 
-[<span data-ttu-id="c30d8-132">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="c30d8-132">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e15f8-132">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="e15f8-132">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="c30d8-133">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="c30d8-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e15f8-133">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="e15f8-133">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="c30d8-134">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="c30d8-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e15f8-134">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="e15f8-134">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="c30d8-135">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="c30d8-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e15f8-135">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="e15f8-135">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
