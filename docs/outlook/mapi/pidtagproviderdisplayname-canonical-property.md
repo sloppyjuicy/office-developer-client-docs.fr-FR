@@ -19,42 +19,42 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410090"
 ---
-# <a name="pidtagproviderdisplayname-canonical-property"></a><span data-ttu-id="36bcb-103">Propriété canonique PidTagProviderDisplayName</span><span class="sxs-lookup"><span data-stu-id="36bcb-103">PidTagProviderDisplayName Canonical Property</span></span>
+# <a name="pidtagproviderdisplayname-canonical-property"></a><span data-ttu-id="522e2-103">Propriété canonique PidTagProviderDisplayName</span><span class="sxs-lookup"><span data-stu-id="522e2-103">PidTagProviderDisplayName Canonical Property</span></span>
 
   
   
-<span data-ttu-id="36bcb-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="36bcb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="522e2-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="522e2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="36bcb-105">Contient le nom complet d’un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="36bcb-105">Contains the display name of a provider.</span></span>
+<span data-ttu-id="522e2-105">Contient le nom complet d’un fournisseur.</span><span class="sxs-lookup"><span data-stu-id="522e2-105">Contains the display name of a provider.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="36bcb-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="36bcb-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="36bcb-107">PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A, PR_PROVIDER_DISPLAY_NAME_W</span><span class="sxs-lookup"><span data-stu-id="36bcb-107">PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A, PR_PROVIDER_DISPLAY_NAME_W</span></span>  <br/> |
-|<span data-ttu-id="36bcb-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="36bcb-108">Identifier:</span></span>  <br/> |<span data-ttu-id="36bcb-109">0x3418</span><span class="sxs-lookup"><span data-stu-id="36bcb-109">0x3418</span></span>  <br/> |
-|<span data-ttu-id="36bcb-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="36bcb-110">Data type:</span></span>  <br/> |<span data-ttu-id="36bcb-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="36bcb-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="36bcb-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="36bcb-112">Area:</span></span>  <br/> |<span data-ttu-id="36bcb-113">Magasin de messages MAPI</span><span class="sxs-lookup"><span data-stu-id="36bcb-113">MAPI message store</span></span>  <br/> |
+|<span data-ttu-id="522e2-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="522e2-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="522e2-107">PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A, PR_PROVIDER_DISPLAY_NAME_W</span><span class="sxs-lookup"><span data-stu-id="522e2-107">PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A, PR_PROVIDER_DISPLAY_NAME_W</span></span>  <br/> |
+|<span data-ttu-id="522e2-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="522e2-108">Identifier:</span></span>  <br/> |<span data-ttu-id="522e2-109">0x3418</span><span class="sxs-lookup"><span data-stu-id="522e2-109">0x3418</span></span>  <br/> |
+|<span data-ttu-id="522e2-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="522e2-110">Data type:</span></span>  <br/> |<span data-ttu-id="522e2-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="522e2-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="522e2-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="522e2-112">Area:</span></span>  <br/> |<span data-ttu-id="522e2-113">Magasin de messages MAPI</span><span class="sxs-lookup"><span data-stu-id="522e2-113">MAPI message store</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="36bcb-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="36bcb-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="522e2-114">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="522e2-114">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="36bcb-115">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="36bcb-115">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="522e2-115">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="522e2-115">Header files</span></span>
 
-<span data-ttu-id="36bcb-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="36bcb-116">Mapidefs.h</span></span>
+<span data-ttu-id="522e2-116">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="522e2-116">Mapidefs.h</span></span>
   
-> <span data-ttu-id="36bcb-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="36bcb-117">Provides data type definitions.</span></span>
+> <span data-ttu-id="522e2-117">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="522e2-117">Provides data type definitions.</span></span>
     
-<span data-ttu-id="36bcb-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="36bcb-118">Mapitags.h</span></span>
+<span data-ttu-id="522e2-118">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="522e2-118">Mapitags.h</span></span>
   
-> <span data-ttu-id="36bcb-119">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="36bcb-119">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="522e2-119">Contient les définitions des propriétés répertoriées en tant que noms de remplacement.</span><span class="sxs-lookup"><span data-stu-id="522e2-119">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="36bcb-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="36bcb-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="522e2-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="522e2-120">See also</span></span>
 
 
 
-[<span data-ttu-id="36bcb-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="36bcb-121">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="522e2-121">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="522e2-121">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="36bcb-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="36bcb-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="522e2-122">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="522e2-122">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="36bcb-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="36bcb-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="522e2-123">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="522e2-123">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="36bcb-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="36bcb-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="522e2-124">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="522e2-124">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

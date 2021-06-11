@@ -19,45 +19,45 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417111"
 ---
-# <a name="pidlidremoteattachment-canonical-property"></a><span data-ttu-id="d839c-103">Propriété canonique PidLidRemoteAttachment</span><span class="sxs-lookup"><span data-stu-id="d839c-103">PidLidRemoteAttachment Canonical Property</span></span>
+# <a name="pidlidremoteattachment-canonical-property"></a><span data-ttu-id="b3819-103">Propriété canonique PidLidRemoteAttachment</span><span class="sxs-lookup"><span data-stu-id="b3819-103">PidLidRemoteAttachment Canonical Property</span></span>
 
   
   
-<span data-ttu-id="d839c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d839c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b3819-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b3819-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d839c-105">Indique si une pièce jointe est associée à un élément distant.</span><span class="sxs-lookup"><span data-stu-id="d839c-105">Indicates whether a remote item has an attachment associated with it.</span></span>
+<span data-ttu-id="b3819-105">Indique si une pièce jointe est associée à un élément distant.</span><span class="sxs-lookup"><span data-stu-id="b3819-105">Indicates whether a remote item has an attachment associated with it.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d839c-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="d839c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="d839c-107">dispidRemoteAttachment</span><span class="sxs-lookup"><span data-stu-id="d839c-107">dispidRemoteAttachment</span></span>  <br/> |
-|<span data-ttu-id="d839c-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="d839c-108">Property set:</span></span>  <br/> |<span data-ttu-id="d839c-109">PSETID_Remote</span><span class="sxs-lookup"><span data-stu-id="d839c-109">PSETID_Remote</span></span>  <br/> |
-|<span data-ttu-id="d839c-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="d839c-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="d839c-111">0x00008F07</span><span class="sxs-lookup"><span data-stu-id="d839c-111">0x00008F07</span></span>  <br/> |
-|<span data-ttu-id="d839c-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="d839c-112">Data type:</span></span>  <br/> |<span data-ttu-id="d839c-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="d839c-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="d839c-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="d839c-114">Area:</span></span>  <br/> |<span data-ttu-id="d839c-115">Message distant</span><span class="sxs-lookup"><span data-stu-id="d839c-115">Remote message</span></span>  <br/> |
+|<span data-ttu-id="b3819-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="b3819-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b3819-107">dispidRemoteAttachment</span><span class="sxs-lookup"><span data-stu-id="b3819-107">dispidRemoteAttachment</span></span>  <br/> |
+|<span data-ttu-id="b3819-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="b3819-108">Property set:</span></span>  <br/> |<span data-ttu-id="b3819-109">PSETID_Remote</span><span class="sxs-lookup"><span data-stu-id="b3819-109">PSETID_Remote</span></span>  <br/> |
+|<span data-ttu-id="b3819-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="b3819-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="b3819-111">0x00008F07</span><span class="sxs-lookup"><span data-stu-id="b3819-111">0x00008F07</span></span>  <br/> |
+|<span data-ttu-id="b3819-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="b3819-112">Data type:</span></span>  <br/> |<span data-ttu-id="b3819-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="b3819-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="b3819-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="b3819-114">Area:</span></span>  <br/> |<span data-ttu-id="b3819-115">Message distant</span><span class="sxs-lookup"><span data-stu-id="b3819-115">Remote message</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="d839c-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="d839c-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="b3819-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="b3819-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="d839c-117">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="d839c-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="b3819-117">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="b3819-117">Protocol specifications</span></span>
 
-<span data-ttu-id="d839c-118">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="d839c-118">[[MS-OXPROPS]]</span></span> 
+<span data-ttu-id="b3819-118">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="b3819-118">[[MS-OXPROPS]]</span></span> 
   
-> <span data-ttu-id="d839c-119">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="d839c-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="b3819-119">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="b3819-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="d839c-120">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="d839c-120">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="b3819-120">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="b3819-120">Header files</span></span>
 
-<span data-ttu-id="d839c-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="d839c-121">Mapidefs.h</span></span>
+<span data-ttu-id="b3819-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="b3819-121">Mapidefs.h</span></span>
   
-> <span data-ttu-id="d839c-122">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="d839c-122">Provides data type definitions.</span></span>
+> <span data-ttu-id="b3819-122">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="b3819-122">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d839c-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d839c-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b3819-123">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="b3819-123">See also</span></span>
 
 
 
-[<span data-ttu-id="d839c-124">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="d839c-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="b3819-124">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="b3819-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="d839c-125">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="d839c-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="b3819-125">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="b3819-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="d839c-126">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="d839c-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="b3819-126">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="b3819-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="d839c-127">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="d839c-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="b3819-127">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="b3819-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

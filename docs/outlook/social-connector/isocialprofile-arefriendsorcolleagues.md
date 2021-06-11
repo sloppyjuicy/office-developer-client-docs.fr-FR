@@ -15,29 +15,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412561"
 ---
-# <a name="isocialprofilearefriendsorcolleagues"></a><span data-ttu-id="0db34-103">ISocialProfile::AreFriendsOrColleagues</span><span class="sxs-lookup"><span data-stu-id="0db34-103">ISocialProfile::AreFriendsOrColleagues</span></span>
+# <a name="isocialprofilearefriendsorcolleagues"></a><span data-ttu-id="38fb9-103">ISocialProfile::AreFriendsOrColleagues</span><span class="sxs-lookup"><span data-stu-id="38fb9-103">ISocialProfile::AreFriendsOrColleagues</span></span>
 
-<span data-ttu-id="0db34-104">Détermine si les utilisateurs spécifiés sont des amis.</span><span class="sxs-lookup"><span data-stu-id="0db34-104">Determines whether the specified users are friends.</span></span>
+<span data-ttu-id="38fb9-104">Détermine si les utilisateurs spécifiés sont des amis.</span><span class="sxs-lookup"><span data-stu-id="38fb9-104">Determines whether the specified users are friends.</span></span>
   
 ```cpp
 HRESULT _stdcall AreFriendsOrColleagues(SAFEARRAY(BSTR) userIds, [out, retval] SAFEARRAY(VARIANT_BOOL)* results);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0db34-105">Paramètres</span><span class="sxs-lookup"><span data-stu-id="0db34-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="38fb9-105">Parameters</span><span class="sxs-lookup"><span data-stu-id="38fb9-105">Parameters</span></span>
 
-<span data-ttu-id="0db34-106">_userIds_</span><span class="sxs-lookup"><span data-stu-id="0db34-106">_userIds_</span></span>
+<span data-ttu-id="38fb9-106">_userIds_</span><span class="sxs-lookup"><span data-stu-id="38fb9-106">_userIds_</span></span>
   
-> <span data-ttu-id="0db34-107">[in] Structure qui spécifie un tableau de valeurs d’ID d’utilisateur qui correspondent à un ensemble de personnes sur le réseau social.</span><span class="sxs-lookup"><span data-stu-id="0db34-107">[in] A structure that specifies an array of user ID values that correspond to a set of persons on the social network.</span></span>
+> <span data-ttu-id="38fb9-107">[in] Structure qui spécifie un tableau de valeurs d’ID d’utilisateur qui correspondent à un ensemble de personnes sur le réseau social.</span><span class="sxs-lookup"><span data-stu-id="38fb9-107">[in] A structure that specifies an array of user ID values that correspond to a set of persons on the social network.</span></span>
     
-<span data-ttu-id="0db34-108">_results_</span><span class="sxs-lookup"><span data-stu-id="0db34-108">_results_</span></span>
+<span data-ttu-id="38fb9-108">_results_</span><span class="sxs-lookup"><span data-stu-id="38fb9-108">_results_</span></span>
   
-> <span data-ttu-id="0db34-109">[out] Pointeur vers une structure qui spécifie un tableau de valeurs Boolean, indiquant si la personne correspondante dans le tableau  _userIds_ est un ami.</span><span class="sxs-lookup"><span data-stu-id="0db34-109">[out] A pointer to structure that specifies an array of Boolean values, indicating whether the corresponding person in the  _userIds_ array is a friend.</span></span> 
+> <span data-ttu-id="38fb9-109">[out] Pointeur vers une structure qui spécifie un tableau de valeurs Boolean, indiquant si la personne correspondante dans le tableau  _userIds_ est un ami.</span><span class="sxs-lookup"><span data-stu-id="38fb9-109">[out] A pointer to structure that specifies an array of Boolean values, indicating whether the corresponding person in the  _userIds_ array is a friend.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="0db34-110">Remarques</span><span class="sxs-lookup"><span data-stu-id="0db34-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="38fb9-110">Remarques</span><span class="sxs-lookup"><span data-stu-id="38fb9-110">Remarks</span></span>
 
-<span data-ttu-id="0db34-111">Pour chaque personne représentée dans le tableau d’entrée du paramètre  _userIds,_ cette méthode définit l’élément correspondant dans le tableau de sortie du  _paramètre de_ résultats.</span><span class="sxs-lookup"><span data-stu-id="0db34-111">For each person represented in the input array of the  _userIds_ parameter, this method sets the corresponding element in the output array of the  _results_ parameter.</span></span> <span data-ttu-id="0db34-112">**true** indique que la personne est un ami et **false** indique que la personne n’est pas un ami.</span><span class="sxs-lookup"><span data-stu-id="0db34-112">**true** indicates that the person is a friend, and **false** indicates that the person is not a friend.</span></span> 
+<span data-ttu-id="38fb9-111">Pour chaque personne représentée dans le tableau d’entrée du paramètre  _userIds,_ cette méthode définit l’élément correspondant dans le tableau de sortie du  _paramètre de_ résultats.</span><span class="sxs-lookup"><span data-stu-id="38fb9-111">For each person represented in the input array of the  _userIds_ parameter, this method sets the corresponding element in the output array of the  _results_ parameter.</span></span> <span data-ttu-id="38fb9-112">**true** indique que la personne est un ami, et **false** indique que la personne n’est pas un ami.</span><span class="sxs-lookup"><span data-stu-id="38fb9-112">**true** indicates that the person is a friend, and **false** indicates that the person is not a friend.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="0db34-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0db34-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="38fb9-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="38fb9-113">See also</span></span>
 
-- [<span data-ttu-id="0db34-114">ISocialProfile : ISocialPerson</span><span class="sxs-lookup"><span data-stu-id="0db34-114">ISocialProfile : ISocialPerson</span></span>](isocialprofileisocialperson.md)
+- [<span data-ttu-id="38fb9-114">ISocialProfile : ISocialPerson</span><span class="sxs-lookup"><span data-stu-id="38fb9-114">ISocialProfile : ISocialPerson</span></span>](isocialprofileisocialperson.md)
 

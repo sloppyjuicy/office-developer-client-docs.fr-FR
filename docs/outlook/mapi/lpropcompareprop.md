@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414612"
 ---
-# <a name="lpropcompareprop"></a><span data-ttu-id="f0e98-103">LPropCompareProp</span><span class="sxs-lookup"><span data-stu-id="f0e98-103">LPropCompareProp</span></span>
+# <a name="lpropcompareprop"></a><span data-ttu-id="c7647-103">LPropCompareProp</span><span class="sxs-lookup"><span data-stu-id="c7647-103">LPropCompareProp</span></span>
 
   
   
-<span data-ttu-id="f0e98-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f0e98-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c7647-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c7647-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f0e98-105">Compare deux valeurs de propriété pour déterminer si elles sont égales.</span><span class="sxs-lookup"><span data-stu-id="f0e98-105">Compares two property values to determine whether they are equal.</span></span> 
+<span data-ttu-id="c7647-105">Compare deux valeurs de propriété pour déterminer si elles sont égales.</span><span class="sxs-lookup"><span data-stu-id="c7647-105">Compares two property values to determine whether they are equal.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f0e98-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="f0e98-106">Header file:</span></span>  <br/> |<span data-ttu-id="f0e98-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="f0e98-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="f0e98-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="f0e98-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="f0e98-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="f0e98-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="f0e98-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="f0e98-110">Called by:</span></span>  <br/> |<span data-ttu-id="f0e98-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="f0e98-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="c7647-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="c7647-106">Header file:</span></span>  <br/> |<span data-ttu-id="c7647-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="c7647-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="c7647-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="c7647-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="c7647-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="c7647-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="c7647-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="c7647-110">Called by:</span></span>  <br/> |<span data-ttu-id="c7647-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="c7647-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 LONG LPropCompareProp(
@@ -40,34 +40,34 @@ LONG LPropCompareProp(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f0e98-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="f0e98-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c7647-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="c7647-112">Parameters</span></span>
 
- <span data-ttu-id="f0e98-113">_lpSPropValueA_</span><span class="sxs-lookup"><span data-stu-id="f0e98-113">_lpSPropValueA_</span></span>
+ <span data-ttu-id="c7647-113">_lpSPropValueA_</span><span class="sxs-lookup"><span data-stu-id="c7647-113">_lpSPropValueA_</span></span>
   
-> <span data-ttu-id="f0e98-114">[in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant la première valeur de propriété à comparer.</span><span class="sxs-lookup"><span data-stu-id="f0e98-114">[in] Pointer to an [SPropValue](spropvalue.md) structure defining the first property value to be compared.</span></span> 
+> <span data-ttu-id="c7647-114">[in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant la première valeur de propriété à comparer.</span><span class="sxs-lookup"><span data-stu-id="c7647-114">[in] Pointer to an [SPropValue](spropvalue.md) structure defining the first property value to be compared.</span></span> 
     
- <span data-ttu-id="f0e98-115">_lpSPropValueB_</span><span class="sxs-lookup"><span data-stu-id="f0e98-115">_lpSPropValueB_</span></span>
+ <span data-ttu-id="c7647-115">_lpSPropValueB_</span><span class="sxs-lookup"><span data-stu-id="c7647-115">_lpSPropValueB_</span></span>
   
-> <span data-ttu-id="f0e98-116">[in] Pointeur vers une structure **SPropValue** définissant la deuxième valeur de propriété à comparer.</span><span class="sxs-lookup"><span data-stu-id="f0e98-116">[in] Pointer to an **SPropValue** structure defining the second property value to be compared.</span></span> 
+> <span data-ttu-id="c7647-116">[in] Pointeur vers une structure **SPropValue** définissant la deuxième valeur de propriété à comparer.</span><span class="sxs-lookup"><span data-stu-id="c7647-116">[in] Pointer to an **SPropValue** structure defining the second property value to be compared.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="f0e98-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="f0e98-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c7647-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c7647-117">Return value</span></span>
 
- <span data-ttu-id="f0e98-118">**LPropCompareProp renvoie l’une** des valeurs suivantes pour la plupart des types de propriétés :</span><span class="sxs-lookup"><span data-stu-id="f0e98-118">**LPropCompareProp** returns one of the following values for most property types:</span></span> 
+ <span data-ttu-id="c7647-118">**LPropCompareProp renvoie l’une** des valeurs suivantes pour la plupart des types de propriétés :</span><span class="sxs-lookup"><span data-stu-id="c7647-118">**LPropCompareProp** returns one of the following values for most property types:</span></span> 
   
-- <span data-ttu-id="f0e98-119">Inférieur à zéro si la valeur indiquée par le paramètre _lpSPropValueA_ est inférieure à celle indiquée par le paramètre _lpSPropValueB._</span><span class="sxs-lookup"><span data-stu-id="f0e98-119">Less than zero if the value indicated by the  _lpSPropValueA_ parameter is less than that indicated by the  _lpSPropValueB_ parameter.</span></span> 
+- <span data-ttu-id="c7647-119">Inférieur à zéro si la valeur indiquée par le paramètre _lpSPropValueA_ est inférieure à celle indiquée par le paramètre _lpSPropValueB._</span><span class="sxs-lookup"><span data-stu-id="c7647-119">Less than zero if the value indicated by the  _lpSPropValueA_ parameter is less than that indicated by the  _lpSPropValueB_ parameter.</span></span> 
     
-- <span data-ttu-id="f0e98-120">Supérieur à zéro si la valeur indiquée par  _lpSPropValueA_ est supérieure à celle indiquée par  _lpSPropValueB_.</span><span class="sxs-lookup"><span data-stu-id="f0e98-120">Greater than zero if the value indicated by  _lpSPropValueA_ is greater than that indicated by  _lpSPropValueB_.</span></span>
+- <span data-ttu-id="c7647-120">Supérieur à zéro si la valeur indiquée par  _lpSPropValueA_ est supérieure à celle indiquée par  _lpSPropValueB_.</span><span class="sxs-lookup"><span data-stu-id="c7647-120">Greater than zero if the value indicated by  _lpSPropValueA_ is greater than that indicated by  _lpSPropValueB_.</span></span>
     
-- <span data-ttu-id="f0e98-121">Zéro si la valeur indiquée par  _lpSPropValueA_ est égale à la valeur indiquée par  _lpSPropValueB_.</span><span class="sxs-lookup"><span data-stu-id="f0e98-121">Zero if the value indicated by  _lpSPropValueA_ equals the value indicated by  _lpSPropValueB_.</span></span> 
+- <span data-ttu-id="c7647-121">Zéro si la valeur indiquée par  _lpSPropValueA_ est égale à la valeur indiquée par  _lpSPropValueB_.</span><span class="sxs-lookup"><span data-stu-id="c7647-121">Zero if the value indicated by  _lpSPropValueA_ equals the value indicated by  _lpSPropValueB_.</span></span> 
     
-<span data-ttu-id="f0e98-122">Pour les types de propriétés qui n’ont aucun ordre intrinsèque, comme les types booléens ou d’erreur, la fonction **LPropCompareProp** renvoie une valeur non définie si les deux valeurs de propriété ne sont pas égales.</span><span class="sxs-lookup"><span data-stu-id="f0e98-122">For property types that have no intrinsic ordering, such as Boolean or error types, the **LPropCompareProp** function returns an undefined value if the two property values are not equal.</span></span> <span data-ttu-id="f0e98-123">Cette valeur non définie est non zéro et cohérente entre les appels.</span><span class="sxs-lookup"><span data-stu-id="f0e98-123">This undefined value is nonzero and consistent across calls.</span></span> 
+<span data-ttu-id="c7647-122">Pour les types de propriétés qui n’ont aucun ordre intrinsèque, comme les types booléens ou d’erreur, la fonction **LPropCompareProp** renvoie une valeur non définie si les deux valeurs de propriété ne sont pas égales.</span><span class="sxs-lookup"><span data-stu-id="c7647-122">For property types that have no intrinsic ordering, such as Boolean or error types, the **LPropCompareProp** function returns an undefined value if the two property values are not equal.</span></span> <span data-ttu-id="c7647-123">Cette valeur non définie est non zéro et cohérente entre les appels.</span><span class="sxs-lookup"><span data-stu-id="c7647-123">This undefined value is nonzero and consistent across calls.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="f0e98-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="f0e98-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c7647-124">Remarques</span><span class="sxs-lookup"><span data-stu-id="c7647-124">Remarks</span></span>
 
-<span data-ttu-id="f0e98-125">Utilisez la **fonction LPropCompareProp** uniquement si les types des deux propriétés à comparer sont identiques.</span><span class="sxs-lookup"><span data-stu-id="f0e98-125">Use the **LPropCompareProp** function only if the types of the two properties to be compared are the same.</span></span> 
+<span data-ttu-id="c7647-125">Utilisez la **fonction LPropCompareProp** uniquement si les types des deux propriétés à comparer sont identiques.</span><span class="sxs-lookup"><span data-stu-id="c7647-125">Use the **LPropCompareProp** function only if the types of the two properties to be compared are the same.</span></span> 
   
-<span data-ttu-id="f0e98-126">Avant d’appeler **LPropCompareProp,** une application cliente ou un fournisseur de services doit d’abord récupérer les propriétés à des fins de comparaison avec un appel à la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md)</span><span class="sxs-lookup"><span data-stu-id="f0e98-126">Before calling **LPropCompareProp**, a client application or service provider must first retrieve the properties for comparison with a call to the [IMAPIProp::GetProps](imapiprop-getprops.md) method.</span></span> <span data-ttu-id="f0e98-127">Lorsqu’un client ou un fournisseur appelle **LPropCompareProp,** la fonction examine d’abord les balises de propriété pour s’assurer que la comparaison des valeurs de propriété est valide.</span><span class="sxs-lookup"><span data-stu-id="f0e98-127">When a client or provider calls **LPropCompareProp**, the function first examines the property tags to make sure that the comparison of property values is valid.</span></span> <span data-ttu-id="f0e98-128">La fonction compare ensuite les valeurs de propriété, en renvoyant une valeur appropriée.</span><span class="sxs-lookup"><span data-stu-id="f0e98-128">The function then compares the property values, returning an appropriate value.</span></span> 
+<span data-ttu-id="c7647-126">Avant **d’appeler LPropCompareProp,** une application cliente ou un fournisseur de services doit d’abord récupérer les propriétés à des fins de comparaison avec un appel à la méthode [IMAPIProp::GetProps.](imapiprop-getprops.md)</span><span class="sxs-lookup"><span data-stu-id="c7647-126">Before calling **LPropCompareProp**, a client application or service provider must first retrieve the properties for comparison with a call to the [IMAPIProp::GetProps](imapiprop-getprops.md) method.</span></span> <span data-ttu-id="c7647-127">Lorsqu’un client ou un fournisseur appelle **LPropCompareProp,** la fonction examine d’abord les balises de propriété pour s’assurer que la comparaison des valeurs de propriété est valide.</span><span class="sxs-lookup"><span data-stu-id="c7647-127">When a client or provider calls **LPropCompareProp**, the function first examines the property tags to make sure that the comparison of property values is valid.</span></span> <span data-ttu-id="c7647-128">La fonction compare ensuite les valeurs des propriétés, en renvoyant une valeur appropriée.</span><span class="sxs-lookup"><span data-stu-id="c7647-128">The function then compares the property values, returning an appropriate value.</span></span> 
   
-<span data-ttu-id="f0e98-129">Si les valeurs de propriété sont différentes, **LPropCompareProp** détermine celle qui est la plus grande.</span><span class="sxs-lookup"><span data-stu-id="f0e98-129">If the property values are unequal, **LPropCompareProp** determines which one is the greater.</span></span> <span data-ttu-id="f0e98-130">Les propriétés **que LPropCompareProp** compare n’ont pas besoin d’appartenir au même objet.</span><span class="sxs-lookup"><span data-stu-id="f0e98-130">The properties that **LPropCompareProp** compares do not have to belong to the same object.</span></span> 
+<span data-ttu-id="c7647-129">Si les valeurs de propriété sont différentes, **LPropCompareProp** détermine celle qui est la plus grande.</span><span class="sxs-lookup"><span data-stu-id="c7647-129">If the property values are unequal, **LPropCompareProp** determines which one is the greater.</span></span> <span data-ttu-id="c7647-130">Les propriétés **que LPropCompareProp** compare n’ont pas besoin d’appartenir au même objet.</span><span class="sxs-lookup"><span data-stu-id="c7647-130">The properties that **LPropCompareProp** compares do not have to belong to the same object.</span></span> 
   
 

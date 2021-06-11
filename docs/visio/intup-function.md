@@ -16,36 +16,36 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416138"
 ---
-# <a name="intup-function"></a><span data-ttu-id="3c895-103">Fonction INTUP</span><span class="sxs-lookup"><span data-stu-id="3c895-103">INTUP Function</span></span>
+# <a name="intup-function"></a><span data-ttu-id="d1315-103">Fonction INTUP</span><span class="sxs-lookup"><span data-stu-id="d1315-103">INTUP Function</span></span>
 
-<span data-ttu-id="3c895-104">Arrondit un nombre à l’integer suivant.</span><span class="sxs-lookup"><span data-stu-id="3c895-104">Rounds a number up to the next integer.</span></span>
+<span data-ttu-id="d1315-104">Arrondit un nombre à l’integer suivant.</span><span class="sxs-lookup"><span data-stu-id="d1315-104">Rounds a number up to the next integer.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="3c895-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="3c895-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d1315-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="d1315-105">Syntax</span></span>
 
-<span data-ttu-id="3c895-106">INTUP(\*\* *number* \*\* )</span><span class="sxs-lookup"><span data-stu-id="3c895-106">INTUP(\*\* *number* \*\* )</span></span> 
+<span data-ttu-id="d1315-106">INTUP(\*\* *number* \*\* )</span><span class="sxs-lookup"><span data-stu-id="d1315-106">INTUP(\*\* *number* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="3c895-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="3c895-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="d1315-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="d1315-107">Parameters</span></span>
 
-|<span data-ttu-id="3c895-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="3c895-108">**Name**</span></span>|<span data-ttu-id="3c895-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="3c895-109">**Required/Optional**</span></span>|<span data-ttu-id="3c895-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="3c895-110">**Data Type**</span></span>|<span data-ttu-id="3c895-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="3c895-111">**Description**</span></span>|
+|<span data-ttu-id="d1315-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="d1315-108">**Name**</span></span>|<span data-ttu-id="d1315-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="d1315-109">**Required/Optional**</span></span>|<span data-ttu-id="d1315-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="d1315-110">**Data Type**</span></span>|<span data-ttu-id="d1315-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="d1315-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="3c895-112">_number_</span><span class="sxs-lookup"><span data-stu-id="3c895-112">_number_</span></span> <br/> |<span data-ttu-id="3c895-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="3c895-113">Required</span></span>  <br/> |<span data-ttu-id="3c895-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="3c895-114">**Number**</span></span> <br/> |<span data-ttu-id="3c895-115">Nombre à arrondir à la valeur supérieure</span><span class="sxs-lookup"><span data-stu-id="3c895-115">The number to round up.</span></span>  <br/> |
+| <span data-ttu-id="d1315-112">_number_</span><span class="sxs-lookup"><span data-stu-id="d1315-112">_number_</span></span> <br/> |<span data-ttu-id="d1315-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="d1315-113">Required</span></span>  <br/> |<span data-ttu-id="d1315-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="d1315-114">**Number**</span></span> <br/> |<span data-ttu-id="d1315-115">Nombre à arrondir à la valeur supérieure</span><span class="sxs-lookup"><span data-stu-id="d1315-115">The number to round up.</span></span>  <br/> |
    
-## <a name="example-1"></a><span data-ttu-id="3c895-116">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="3c895-116">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="d1315-116">Exemple 1</span><span class="sxs-lookup"><span data-stu-id="d1315-116">Example 1</span></span>
 
-<span data-ttu-id="3c895-117">INTUP(3.2)</span><span class="sxs-lookup"><span data-stu-id="3c895-117">INTUP(3.2)</span></span>
+<span data-ttu-id="d1315-117">INTUP(3.2)</span><span class="sxs-lookup"><span data-stu-id="d1315-117">INTUP(3.2)</span></span>
   
-<span data-ttu-id="3c895-118">Renvoie 4.</span><span class="sxs-lookup"><span data-stu-id="3c895-118">Returns 4.</span></span>
+<span data-ttu-id="d1315-118">Renvoie 4.</span><span class="sxs-lookup"><span data-stu-id="d1315-118">Returns 4.</span></span>
   
-## <a name="example-2"></a><span data-ttu-id="3c895-119">Exemple 2</span><span class="sxs-lookup"><span data-stu-id="3c895-119">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="d1315-119">Exemple 2</span><span class="sxs-lookup"><span data-stu-id="d1315-119">Example 2</span></span>
 
-<span data-ttu-id="3c895-120">INTUP(-3.2)</span><span class="sxs-lookup"><span data-stu-id="3c895-120">INTUP(-3.2)</span></span>
+<span data-ttu-id="d1315-120">INTUP(-3.2)</span><span class="sxs-lookup"><span data-stu-id="d1315-120">INTUP(-3.2)</span></span>
   
-<span data-ttu-id="3c895-121">Renvoie -3.</span><span class="sxs-lookup"><span data-stu-id="3c895-121">Returns -3.</span></span>
+<span data-ttu-id="d1315-121">Renvoie -3.</span><span class="sxs-lookup"><span data-stu-id="d1315-121">Returns -3.</span></span>
   
-## <a name="example-3"></a><span data-ttu-id="3c895-122">Exemple 3</span><span class="sxs-lookup"><span data-stu-id="3c895-122">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="d1315-122">Exemple 3</span><span class="sxs-lookup"><span data-stu-id="d1315-122">Example 3</span></span>
 
-<span data-ttu-id="3c895-123">INTUP(3)</span><span class="sxs-lookup"><span data-stu-id="3c895-123">INTUP(3)</span></span>
+<span data-ttu-id="d1315-123">INTUP(3)</span><span class="sxs-lookup"><span data-stu-id="d1315-123">INTUP(3)</span></span>
   
-<span data-ttu-id="3c895-124">Renvoie 3.</span><span class="sxs-lookup"><span data-stu-id="3c895-124">Returns 3.</span></span>
+<span data-ttu-id="d1315-124">Renvoie 3.</span><span class="sxs-lookup"><span data-stu-id="d1315-124">Returns 3.</span></span>
   
 

@@ -18,32 +18,32 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412463"
 ---
-# <a name="xlgetbinaryname"></a><span data-ttu-id="f3487-104">xlGetBinaryName</span><span class="sxs-lookup"><span data-stu-id="f3487-104">xlGetBinaryName</span></span>
+# <a name="xlgetbinaryname"></a><span data-ttu-id="865db-104">xlGetBinaryName</span><span class="sxs-lookup"><span data-stu-id="865db-104">xlGetBinaryName</span></span>
 
-<span data-ttu-id="f3487-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="f3487-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="865db-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="865db-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="f3487-106">Utilisé pour renvoyer un handle pour les données enregistrées par la [fonction xlDefineBinaryName](xldefinebinaryname.md).</span><span class="sxs-lookup"><span data-stu-id="f3487-106">Used to return a handle for data saved by the [xlDefineBinaryName function](xldefinebinaryname.md).</span></span> <span data-ttu-id="f3487-107">Les données avec un nom binaire défini sont enregistrées avec le workbook et sont accessibles par nom à tout moment.</span><span class="sxs-lookup"><span data-stu-id="f3487-107">Data with a defined binary name is saved with the workbook and can be accessed by name at any time.</span></span> <span data-ttu-id="f3487-108">Pour plus d’informations, voir « Limite d’étendue du nom binaire » dans [Problèmes connus dans le développement XLL Excel.](known-issues-in-excel-xll-development.md)</span><span class="sxs-lookup"><span data-stu-id="f3487-108">For more information, see "Binary name Scope Limitation" in [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).</span></span>
+<span data-ttu-id="865db-106">Utilisé pour renvoyer un handle pour les données enregistrées par la [fonction xlDefineBinaryName](xldefinebinaryname.md).</span><span class="sxs-lookup"><span data-stu-id="865db-106">Used to return a handle for data saved by the [xlDefineBinaryName function](xldefinebinaryname.md).</span></span> <span data-ttu-id="865db-107">Les données avec un nom binaire défini sont enregistrées avec le workbook et sont accessibles par nom à tout moment.</span><span class="sxs-lookup"><span data-stu-id="865db-107">Data with a defined binary name is saved with the workbook and can be accessed by name at any time.</span></span> <span data-ttu-id="865db-108">Pour plus d’informations, voir « Limite d’étendue de nom binaire » dans Problèmes connus [Excel développement XLL .](known-issues-in-excel-xll-development.md)</span><span class="sxs-lookup"><span data-stu-id="865db-108">For more information, see "Binary name Scope Limitation" in [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).</span></span>
   
 ```cs
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f3487-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="f3487-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="865db-109">Parameters</span><span class="sxs-lookup"><span data-stu-id="865db-109">Parameters</span></span>
 
-<span data-ttu-id="f3487-110">_pxRes_ (**xltypeBigData** ou **xltypeErr**)</span><span class="sxs-lookup"><span data-stu-id="f3487-110">_pxRes_ (**xltypeBigData** or **xltypeErr**)</span></span>
+<span data-ttu-id="865db-110">_pxRes_ (**xltypeBigData** ou **xltypeErr**)</span><span class="sxs-lookup"><span data-stu-id="865db-110">_pxRes_ (**xltypeBigData** or **xltypeErr**)</span></span>
   
-<span data-ttu-id="f3487-111">Structure bigdata spécifiant les données récupérées ou une erreur indique que les données n’ont pas pu être récupérées ou que le nom n’est pas défini.</span><span class="sxs-lookup"><span data-stu-id="f3487-111">Bigdata structure specifying the retrieved data or an error is the data could not be retrieved or the name is not defined.</span></span> <span data-ttu-id="f3487-112">Lorsque la fonction est de retour, le **membre hdata** de **la** /  **XLOPER XLOPER12** contient un handle pour les données nommées.</span><span class="sxs-lookup"><span data-stu-id="f3487-112">When the function returns, the **hdata** member of the **XLOPER**/ **XLOPER12** contains a handle for the named data.</span></span>  <span data-ttu-id="f3487-113">_PxRes doit_ être libéré dans un appel à **xlFree** lorsque ce n’est plus nécessaire.</span><span class="sxs-lookup"><span data-stu-id="f3487-113">_pxRes_ should be freed in a call to **xlFree** when no longer required.</span></span> 
+<span data-ttu-id="865db-111">Structure Bigdata spécifiant les données récupérées ou une erreur indique que les données n’ont pas pu être récupérées ou que le nom n’est pas défini.</span><span class="sxs-lookup"><span data-stu-id="865db-111">Bigdata structure specifying the retrieved data or an error is the data could not be retrieved or the name is not defined.</span></span> <span data-ttu-id="865db-112">Lorsque la fonction est de retour, le **membre hdata** de **la** /  **XLOPER XLOPER12** contient un handle pour les données nommées.</span><span class="sxs-lookup"><span data-stu-id="865db-112">When the function returns, the **hdata** member of the **XLOPER**/ **XLOPER12** contains a handle for the named data.</span></span>  <span data-ttu-id="865db-113">_PxRes doit_ être libéré dans un appel à **xlFree** lorsque ce n’est plus nécessaire.</span><span class="sxs-lookup"><span data-stu-id="865db-113">_pxRes_ should be freed in a call to **xlFree** when no longer required.</span></span> 
   
-<span data-ttu-id="f3487-114">_pxName_ (**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="f3487-114">_pxName_ (**xltypeStr**)</span></span>
+<span data-ttu-id="865db-114">_pxName_ (**xltypeStr**)</span><span class="sxs-lookup"><span data-stu-id="865db-114">_pxName_ (**xltypeStr**)</span></span>
   
-<span data-ttu-id="f3487-115">Chaîne spécifiant le nom des données.</span><span class="sxs-lookup"><span data-stu-id="f3487-115">A string specifying the name of the data.</span></span>
+<span data-ttu-id="865db-115">Chaîne spécifiant le nom des données.</span><span class="sxs-lookup"><span data-stu-id="865db-115">A string specifying the name of the data.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="f3487-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="f3487-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="865db-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="865db-116">Remarks</span></span>
 
-<span data-ttu-id="f3487-117">Microsoft Excel possède la poignée de mémoire renvoyée **en hdata**.</span><span class="sxs-lookup"><span data-stu-id="f3487-117">Microsoft Excel owns the memory handle returned in **hdata**.</span></span> <span data-ttu-id="f3487-118">Dans Windows, le handle est un handle de mémoire global (alloué par la **fonction GlobalAlloc).**</span><span class="sxs-lookup"><span data-stu-id="f3487-118">In Windows, the handle is a global memory handle (allocated by the **GlobalAlloc** function).</span></span> 
+<span data-ttu-id="865db-117">Microsoft Excel la poignée de mémoire renvoyée en **hdata**.</span><span class="sxs-lookup"><span data-stu-id="865db-117">Microsoft Excel owns the memory handle returned in **hdata**.</span></span> <span data-ttu-id="865db-118">Dans Windows, le handle est un dent de mémoire global (alloué par la **fonction GlobalAlloc).**</span><span class="sxs-lookup"><span data-stu-id="865db-118">In Windows, the handle is a global memory handle (allocated by the **GlobalAlloc** function).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f3487-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f3487-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="865db-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="865db-119">See also</span></span>
 
-- [<span data-ttu-id="f3487-120">xlDefineBinaryName</span><span class="sxs-lookup"><span data-stu-id="f3487-120">xlDefineBinaryName</span></span>](xldefinebinaryname.md)
-- [<span data-ttu-id="f3487-121">Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="f3487-121">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="865db-120">xlDefineBinaryName</span><span class="sxs-lookup"><span data-stu-id="865db-120">xlDefineBinaryName</span></span>](xldefinebinaryname.md)
+- [<span data-ttu-id="865db-121">Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL</span><span class="sxs-lookup"><span data-stu-id="865db-121">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

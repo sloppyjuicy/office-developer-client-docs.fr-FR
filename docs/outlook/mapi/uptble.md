@@ -15,13 +15,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413839"
 ---
-# <a name="uptble"></a><span data-ttu-id="06545-103">UPTBLE</span><span class="sxs-lookup"><span data-stu-id="06545-103">UPTBLE</span></span>
+# <a name="uptble"></a><span data-ttu-id="8647a-103">UPTBLE</span><span class="sxs-lookup"><span data-stu-id="8647a-103">UPTBLE</span></span>
 
-<span data-ttu-id="06545-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="06545-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8647a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8647a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="06545-105">Informations étendues pour le chargement du contenu d’un dossier pendant [l’état de la table de téléchargement.](upload-table-state.md)</span><span class="sxs-lookup"><span data-stu-id="06545-105">Extended information for uploading the contents of a folder during the [upload table state](upload-table-state.md).</span></span>
+<span data-ttu-id="8647a-105">Informations étendues pour le chargement du contenu d’un dossier pendant [l’état de la table de téléchargement.](upload-table-state.md)</span><span class="sxs-lookup"><span data-stu-id="8647a-105">Extended information for uploading the contents of a folder during the [upload table state](upload-table-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="06545-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="06545-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="8647a-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="8647a-106">Quick info</span></span>
 
 ```cpp
 struct UPTBLE 
@@ -35,35 +35,35 @@ struct UPTBLE
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="06545-107">Membres</span><span class="sxs-lookup"><span data-stu-id="06545-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="8647a-107">Membres</span><span class="sxs-lookup"><span data-stu-id="8647a-107">Members</span></span>
 
- <span data-ttu-id="06545-108">_iEntMod_</span><span class="sxs-lookup"><span data-stu-id="06545-108">_iEntMod_</span></span>
+ <span data-ttu-id="8647a-108">_iEntMod_</span><span class="sxs-lookup"><span data-stu-id="8647a-108">_iEntMod_</span></span>
   
->  <span data-ttu-id="06545-109">[out] Index pour suivre le téléchargement du  _nombre cEntMod_ d’éléments nouveaux ou modifiés.</span><span class="sxs-lookup"><span data-stu-id="06545-109">[out] Index to track uploading the  _cEntMod_ number of new or modified items.</span></span> 
+>  <span data-ttu-id="8647a-109">[out] Index pour suivre le téléchargement du  _nombre cEntMod_ d’éléments nouveaux ou modifiés.</span><span class="sxs-lookup"><span data-stu-id="8647a-109">[out] Index to track uploading the  _cEntMod_ number of new or modified items.</span></span> 
     
- <span data-ttu-id="06545-110">_cEntMod_</span><span class="sxs-lookup"><span data-stu-id="06545-110">_cEntMod_</span></span>
+ <span data-ttu-id="8647a-110">_cEntMod_</span><span class="sxs-lookup"><span data-stu-id="8647a-110">_cEntMod_</span></span>
   
->  <span data-ttu-id="06545-111">[out] Nombre d’éléments nouveaux ou modifiés dans le dossier.</span><span class="sxs-lookup"><span data-stu-id="06545-111">[out] Number of new or modified items in the folder.</span></span> 
+>  <span data-ttu-id="8647a-111">[out] Nombre d’éléments nouveaux ou modifiés dans le dossier.</span><span class="sxs-lookup"><span data-stu-id="8647a-111">[out] Number of new or modified items in the folder.</span></span> 
     
- <span data-ttu-id="06545-112">_iEntRead_</span><span class="sxs-lookup"><span data-stu-id="06545-112">_iEntRead_</span></span>
+ <span data-ttu-id="8647a-112">_iEntRead_</span><span class="sxs-lookup"><span data-stu-id="8647a-112">_iEntRead_</span></span>
   
->  <span data-ttu-id="06545-113">[out] Index pour suivre le téléchargement du nombre d’éléments de lecture _cEntRead._</span><span class="sxs-lookup"><span data-stu-id="06545-113">[out] Index to track uploading the number of  _cEntRead_ read items.</span></span> 
+>  <span data-ttu-id="8647a-113">[out] Index pour suivre le téléchargement du nombre d’éléments de lecture _cEntRead._</span><span class="sxs-lookup"><span data-stu-id="8647a-113">[out] Index to track uploading the number of  _cEntRead_ read items.</span></span> 
     
- <span data-ttu-id="06545-114">_cEntRead_</span><span class="sxs-lookup"><span data-stu-id="06545-114">_cEntRead_</span></span>
+ <span data-ttu-id="8647a-114">_cEntRead_</span><span class="sxs-lookup"><span data-stu-id="8647a-114">_cEntRead_</span></span>
   
->  <span data-ttu-id="06545-115">[out] Nombre d’éléments lus dans le dossier.</span><span class="sxs-lookup"><span data-stu-id="06545-115">[out] Number of read items in the folder.</span></span> 
+>  <span data-ttu-id="8647a-115">[out] Nombre d’éléments lus dans le dossier.</span><span class="sxs-lookup"><span data-stu-id="8647a-115">[out] Number of read items in the folder.</span></span> 
     
- <span data-ttu-id="06545-116">_iEntDel_</span><span class="sxs-lookup"><span data-stu-id="06545-116">_iEntDel_</span></span>
+ <span data-ttu-id="8647a-116">_iEntDel_</span><span class="sxs-lookup"><span data-stu-id="8647a-116">_iEntDel_</span></span>
   
->  <span data-ttu-id="06545-117">[out] Index pour suivre le téléchargement du nombre d’éléments _supprimés par cEntDel._</span><span class="sxs-lookup"><span data-stu-id="06545-117">[out] Index to track uploading the number of  _cEntDel_ deleted items.</span></span> 
+>  <span data-ttu-id="8647a-117">[out] Index pour suivre le téléchargement du nombre d’éléments _supprimés par cEntDel._</span><span class="sxs-lookup"><span data-stu-id="8647a-117">[out] Index to track uploading the number of  _cEntDel_ deleted items.</span></span> 
     
- <span data-ttu-id="06545-118">_cEntDel_</span><span class="sxs-lookup"><span data-stu-id="06545-118">_cEntDel_</span></span>
+ <span data-ttu-id="8647a-118">_cEntDel_</span><span class="sxs-lookup"><span data-stu-id="8647a-118">_cEntDel_</span></span>
   
->  <span data-ttu-id="06545-119">[out] Nombre d’éléments supprimés dans le dossier.</span><span class="sxs-lookup"><span data-stu-id="06545-119">[out] Number of deleted items in the folder.</span></span> 
+>  <span data-ttu-id="8647a-119">[out] Nombre d’éléments supprimés dans le dossier.</span><span class="sxs-lookup"><span data-stu-id="8647a-119">[out] Number of deleted items in the folder.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="06545-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="06545-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8647a-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8647a-120">See also</span></span>
 
-- [<span data-ttu-id="06545-121">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="06545-121">About the Replication API</span></span>](about-the-replication-api.md) 
-- [<span data-ttu-id="06545-122">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="06545-122">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
-- [<span data-ttu-id="06545-123">UPTBL</span><span class="sxs-lookup"><span data-stu-id="06545-123">UPTBL</span></span>](uptbl.md)
+- [<span data-ttu-id="8647a-121">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="8647a-121">About the Replication API</span></span>](about-the-replication-api.md) 
+- [<span data-ttu-id="8647a-122">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="8647a-122">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+- [<span data-ttu-id="8647a-123">UPTBL</span><span class="sxs-lookup"><span data-stu-id="8647a-123">UPTBL</span></span>](uptbl.md)
 

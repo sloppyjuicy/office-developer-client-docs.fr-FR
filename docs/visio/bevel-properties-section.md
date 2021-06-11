@@ -14,12 +14,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417237"
 ---
-# <a name="bevel-properties-section"></a><span data-ttu-id="710d8-103">Bevel Properties Section</span><span class="sxs-lookup"><span data-stu-id="710d8-103">Bevel Properties Section</span></span>
+# <a name="bevel-properties-section"></a><span data-ttu-id="6f4e1-103">Bevel Properties Section</span><span class="sxs-lookup"><span data-stu-id="6f4e1-103">Bevel Properties Section</span></span>
 
-<span data-ttu-id="710d8-104">Affiche les attributs des effets de biseau appliqués à la forme.</span><span class="sxs-lookup"><span data-stu-id="710d8-104">Shows the attributes for any bevel effects applied to the shape.</span></span> 
+<span data-ttu-id="6f4e1-104">Affiche les attributs des effets de biseau appliqués à la forme.</span><span class="sxs-lookup"><span data-stu-id="6f4e1-104">Shows the attributes for any bevel effects applied to the shape.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="710d8-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="710d8-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6f4e1-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="6f4e1-105">Remarks</span></span>
 
-<span data-ttu-id="710d8-106">Vous pouvez appliquer un biseau à une forme dans le volet **Format** de forme **(** Options  >    >    >  **3D** de style Forme de la page d’accueil, ou en a apporté des modifications aux cellules de la section **Propriétés** du biseau de la feuille ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="710d8-106">You can apply a bevel to a shape in the **Format Shape** pane (**Home** > **Shape Styles** > **Bevel** > **3-D Options**, or by making changes to the cells in the **Bevel Properties** section of the ShapeSheet.</span></span> 
+<span data-ttu-id="6f4e1-106">Vous pouvez appliquer un biseau à une forme dans le volet **Format** de forme **(Options**  >    >    >  **3D** de biseau style Forme d’accueil, ou en a apporté des modifications aux cellules de la section **Propriétés** du biseau de la feuille ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="6f4e1-106">You can apply a bevel to a shape in the **Format Shape** pane (**Home** > **Shape Styles** > **Bevel** > **3-D Options**, or by making changes to the cells in the **Bevel Properties** section of the ShapeSheet.</span></span> 
   
 

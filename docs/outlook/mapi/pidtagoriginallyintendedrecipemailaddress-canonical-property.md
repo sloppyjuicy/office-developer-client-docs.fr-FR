@@ -19,48 +19,48 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411371"
 ---
-# <a name="pidtagoriginallyintendedrecipemailaddress-canonical-property"></a><span data-ttu-id="10244-103">Propriété canonique PidTagOriginallyIntendedRecipEmailAddress</span><span class="sxs-lookup"><span data-stu-id="10244-103">PidTagOriginallyIntendedRecipEmailAddress Canonical Property</span></span>
+# <a name="pidtagoriginallyintendedrecipemailaddress-canonical-property"></a><span data-ttu-id="cdcee-103">Propriété canonique PidTagOriginallyIntendedRecipEmailAddress</span><span class="sxs-lookup"><span data-stu-id="cdcee-103">PidTagOriginallyIntendedRecipEmailAddress Canonical Property</span></span>
 
   
   
-<span data-ttu-id="10244-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="10244-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cdcee-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cdcee-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="10244-105">Contient l’adresse e-mail du destinataire initialement prévu d’un message autoforwarded.</span><span class="sxs-lookup"><span data-stu-id="10244-105">Contains the email address of the originally intended recipient of an autoforwarded message.</span></span>
+<span data-ttu-id="cdcee-105">Contient l’adresse e-mail du destinataire initialement prévu d’un message autoforwarded.</span><span class="sxs-lookup"><span data-stu-id="cdcee-105">Contains the email address of the originally intended recipient of an autoforwarded message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="10244-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="10244-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="10244-107">PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_A, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W</span><span class="sxs-lookup"><span data-stu-id="10244-107">PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_A, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W</span></span>  <br/> |
-|<span data-ttu-id="10244-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="10244-108">Identifier:</span></span>  <br/> |<span data-ttu-id="10244-109">0x007C</span><span class="sxs-lookup"><span data-stu-id="10244-109">0x007C</span></span>  <br/> |
-|<span data-ttu-id="10244-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="10244-110">Data type:</span></span>  <br/> |<span data-ttu-id="10244-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="10244-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="10244-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="10244-112">Area:</span></span>  <br/> |<span data-ttu-id="10244-113">Server</span><span class="sxs-lookup"><span data-stu-id="10244-113">Server</span></span>  <br/> |
+|<span data-ttu-id="cdcee-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="cdcee-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="cdcee-107">PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_A, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W</span><span class="sxs-lookup"><span data-stu-id="cdcee-107">PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_A, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W</span></span>  <br/> |
+|<span data-ttu-id="cdcee-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="cdcee-108">Identifier:</span></span>  <br/> |<span data-ttu-id="cdcee-109">0x007C</span><span class="sxs-lookup"><span data-stu-id="cdcee-109">0x007C</span></span>  <br/> |
+|<span data-ttu-id="cdcee-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="cdcee-110">Data type:</span></span>  <br/> |<span data-ttu-id="cdcee-111">PT_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="cdcee-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="cdcee-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="cdcee-112">Area:</span></span>  <br/> |<span data-ttu-id="cdcee-113">Server</span><span class="sxs-lookup"><span data-stu-id="cdcee-113">Server</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="10244-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="10244-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cdcee-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="cdcee-114">Remarks</span></span>
 
-<span data-ttu-id="10244-115">Ces propriétés sont des exemples de propriétés d’adresse pour le destinataire du message initialement prévu.</span><span class="sxs-lookup"><span data-stu-id="10244-115">These properties are examples of the address properties for the originally intended message recipient.</span></span> <span data-ttu-id="10244-116">Elles doivent être définies par l’agent automatique qui a transmis le message.</span><span class="sxs-lookup"><span data-stu-id="10244-116">They must be set by the automatic agent that has forwarded the message.</span></span>
+<span data-ttu-id="cdcee-115">Ces propriétés sont des exemples de propriétés d’adresse pour le destinataire du message initialement prévu.</span><span class="sxs-lookup"><span data-stu-id="cdcee-115">These properties are examples of the address properties for the originally intended message recipient.</span></span> <span data-ttu-id="cdcee-116">Elles doivent être définies par l’agent automatique qui a transmis le message.</span><span class="sxs-lookup"><span data-stu-id="cdcee-116">They must be set by the automatic agent that has forwarded the message.</span></span>
   
-<span data-ttu-id="10244-117">Ces propriétés correspondent à l’attribut de rapport X.400 par destinataire.</span><span class="sxs-lookup"><span data-stu-id="10244-117">These properties correspond to the X.400 report per-recipient attribute.</span></span>
+<span data-ttu-id="cdcee-117">Ces propriétés correspondent à l’attribut de rapport X.400 par destinataire.</span><span class="sxs-lookup"><span data-stu-id="cdcee-117">These properties correspond to the X.400 report per-recipient attribute.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="10244-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="10244-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="cdcee-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="cdcee-118">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="10244-119">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="10244-119">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="cdcee-119">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="cdcee-119">Header files</span></span>
 
-<span data-ttu-id="10244-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="10244-120">Mapidefs.h</span></span>
+<span data-ttu-id="cdcee-120">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cdcee-120">Mapidefs.h</span></span>
   
-> <span data-ttu-id="10244-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="10244-121">Provides data type definitions.</span></span>
+> <span data-ttu-id="cdcee-121">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="cdcee-121">Provides data type definitions.</span></span>
     
-<span data-ttu-id="10244-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="10244-122">Mapitags.h</span></span>
+<span data-ttu-id="cdcee-122">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="cdcee-122">Mapitags.h</span></span>
   
-> <span data-ttu-id="10244-123">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="10244-123">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="cdcee-123">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="cdcee-123">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="10244-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="10244-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cdcee-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cdcee-124">See also</span></span>
 
 
 
-[<span data-ttu-id="10244-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="10244-125">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="cdcee-125">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="cdcee-125">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="10244-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="10244-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="cdcee-126">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="cdcee-126">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="10244-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="10244-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="cdcee-127">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="cdcee-127">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="10244-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="10244-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="cdcee-128">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="cdcee-128">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

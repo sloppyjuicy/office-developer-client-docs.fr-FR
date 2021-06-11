@@ -14,25 +14,25 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413513"
 ---
-# <a name="prop_inet_use_spa"></a><span data-ttu-id="a0092-103">PROP_INET_USE_SPA</span><span class="sxs-lookup"><span data-stu-id="a0092-103">PROP_INET_USE_SPA</span></span>
+# <a name="prop_inet_use_spa"></a><span data-ttu-id="83265-103">PROP_INET_USE_SPA</span><span class="sxs-lookup"><span data-stu-id="83265-103">PROP_INET_USE_SPA</span></span>
 
-<span data-ttu-id="a0092-104">Spécifie s’il faut utiliser l’authentification par mot de passe sécurisé (SPA) pour une boîte aux lettres Internet générale.</span><span class="sxs-lookup"><span data-stu-id="a0092-104">Specifies whether to use Secure Password Authentication (SPA) for a general Internet mailbox.</span></span>
+<span data-ttu-id="83265-104">Spécifie s’il faut utiliser l’authentification par mot de passe sécurisé (SPA) pour une boîte aux lettres Internet générale.</span><span class="sxs-lookup"><span data-stu-id="83265-104">Specifies whether to use Secure Password Authentication (SPA) for a general Internet mailbox.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="a0092-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="a0092-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="83265-105">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="83265-105">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="a0092-106">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="a0092-106">Identifier:</span></span>  <br/> |<span data-ttu-id="a0092-107">0x0108</span><span class="sxs-lookup"><span data-stu-id="a0092-107">0x0108</span></span>  <br/> |
-|<span data-ttu-id="a0092-108">Type de propriété :</span><span class="sxs-lookup"><span data-stu-id="a0092-108">Property type:</span></span>  <br/> |<span data-ttu-id="a0092-109">PT_DWORD</span><span class="sxs-lookup"><span data-stu-id="a0092-109">PT_DWORD</span></span>  <br/> |
-|<span data-ttu-id="a0092-110">Balise de propriété :</span><span class="sxs-lookup"><span data-stu-id="a0092-110">Property tag:</span></span>  <br/> |<span data-ttu-id="a0092-111">0x01080003</span><span class="sxs-lookup"><span data-stu-id="a0092-111">0x01080003</span></span>  <br/> |
-|<span data-ttu-id="a0092-112">Accès :</span><span class="sxs-lookup"><span data-stu-id="a0092-112">Access:</span></span>  <br/> |<span data-ttu-id="a0092-113">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="a0092-113">Read-only</span></span>  <br/> |
+|<span data-ttu-id="83265-106">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="83265-106">Identifier:</span></span>  <br/> |<span data-ttu-id="83265-107">0x0108</span><span class="sxs-lookup"><span data-stu-id="83265-107">0x0108</span></span>  <br/> |
+|<span data-ttu-id="83265-108">Type de propriété :</span><span class="sxs-lookup"><span data-stu-id="83265-108">Property type:</span></span>  <br/> |<span data-ttu-id="83265-109">PT_DWORD</span><span class="sxs-lookup"><span data-stu-id="83265-109">PT_DWORD</span></span>  <br/> |
+|<span data-ttu-id="83265-110">Balise de propriété :</span><span class="sxs-lookup"><span data-stu-id="83265-110">Property tag:</span></span>  <br/> |<span data-ttu-id="83265-111">0x01080003</span><span class="sxs-lookup"><span data-stu-id="83265-111">0x01080003</span></span>  <br/> |
+|<span data-ttu-id="83265-112">Accès :</span><span class="sxs-lookup"><span data-stu-id="83265-112">Access:</span></span>  <br/> |<span data-ttu-id="83265-113">Lecture seule</span><span class="sxs-lookup"><span data-stu-id="83265-113">Read-only</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a0092-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="a0092-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="83265-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="83265-114">Remarks</span></span>
 
-<span data-ttu-id="a0092-115">Une valeur zéro signifie que vous n’utilisez pas SPA, sinon utilisez SPA.</span><span class="sxs-lookup"><span data-stu-id="a0092-115">A zero value means do not use SPA, otherwise use SPA.</span></span>
+<span data-ttu-id="83265-115">Une valeur zéro signifie que vous n’utilisez pas SPA, sinon utilisez SPA.</span><span class="sxs-lookup"><span data-stu-id="83265-115">A zero value means do not use SPA, otherwise use SPA.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="a0092-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a0092-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="83265-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="83265-116">See also</span></span>
 
-- [<span data-ttu-id="a0092-117">Gestion des téléchargements de messages pour les comptes POP3</span><span class="sxs-lookup"><span data-stu-id="a0092-117">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
-- [<span data-ttu-id="a0092-118">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="a0092-118">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="83265-117">Gestion des téléchargements de messages pour les comptes POP3</span><span class="sxs-lookup"><span data-stu-id="83265-117">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
+- [<span data-ttu-id="83265-118">Constantes (API de gestion des comptes)</span><span class="sxs-lookup"><span data-stu-id="83265-118">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

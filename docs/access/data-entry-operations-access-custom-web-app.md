@@ -13,21 +13,21 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415676"
 ---
-# <a name="data-entry-operations-access-custom-web-app"></a><span data-ttu-id="58fb4-102">Opérations d’entrée de données (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="58fb4-102">Data entry operations (Access custom web app)</span></span>
+# <a name="data-entry-operations-access-custom-web-app"></a><span data-ttu-id="439af-102">Opérations d’entrée de données (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="439af-102">Data entry operations (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="58fb4-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="58fb4-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="439af-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="439af-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="58fb4-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="58fb4-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="439af-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="439af-105">In this section</span></span>
 
-- [<span data-ttu-id="58fb4-106">DeleteRecord Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="58fb4-106">DeleteRecord Macro Action (Access custom web app)</span></span>](deleterecord-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="439af-106">DeleteRecord Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="439af-106">DeleteRecord Macro Action (Access custom web app)</span></span>](deleterecord-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="58fb4-107">EditRecord Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="58fb4-107">EditRecord Macro Action (Access custom web app)</span></span>](editrecord-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="439af-107">EditRecord Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="439af-107">EditRecord Macro Action (Access custom web app)</span></span>](editrecord-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="58fb4-108">NewRecord Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="58fb4-108">NewRecord Macro Action (Access custom web app)</span></span>](newrecord-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="439af-108">NewRecord Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="439af-108">NewRecord Macro Action (Access custom web app)</span></span>](newrecord-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="58fb4-109">SaveRecord Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="58fb4-109">SaveRecord Macro Action (Access custom web app)</span></span>](saverecord-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="439af-109">SaveRecord Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="439af-109">SaveRecord Macro Action (Access custom web app)</span></span>](saverecord-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="58fb4-110">AnnulerEnregistrement, action de macro (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="58fb4-110">UndoRecord Macro Action (Access custom web app)</span></span>](undorecord-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="439af-110">AnnulerEnregistrement, action de macro (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="439af-110">UndoRecord Macro Action (Access custom web app)</span></span>](undorecord-macro-action-access-custom-web-app.md)
     
 

@@ -13,41 +13,41 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417118"
 ---
-# <a name="download-message-header-state"></a><span data-ttu-id="73ca0-103">Télécharger l’état d’en-tête de message</span><span class="sxs-lookup"><span data-stu-id="73ca0-103">Download Message Header State</span></span>
+# <a name="download-message-header-state"></a><span data-ttu-id="6d427-103">Télécharger l’état d’en-tête de message</span><span class="sxs-lookup"><span data-stu-id="6d427-103">Download Message Header State</span></span>
 
   
   
-<span data-ttu-id="73ca0-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="73ca0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6d427-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6d427-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="73ca0-105">Cette rubrique décrit ce qui se produit pendant l’état d’en-tête du message de téléchargement de la machine à états de réplication.</span><span class="sxs-lookup"><span data-stu-id="73ca0-105">This topic describes what happens during the download message header state of the replication state machine.</span></span> 
+ <span data-ttu-id="6d427-105">Cette rubrique décrit ce qui se produit pendant l’état d’en-tête du message de téléchargement de la machine à états de réplication.</span><span class="sxs-lookup"><span data-stu-id="6d427-105">This topic describes what happens during the download message header state of the replication state machine.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="73ca0-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="73ca0-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="6d427-106">Informations rapides</span><span class="sxs-lookup"><span data-stu-id="6d427-106">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="73ca0-107">Identificateur d’état :</span><span class="sxs-lookup"><span data-stu-id="73ca0-107">State Identifier:</span></span>  <br/> |<span data-ttu-id="73ca0-108">**LR_SYNC_DOWNLOAD_HEADER**</span><span class="sxs-lookup"><span data-stu-id="73ca0-108">**LR_SYNC_DOWNLOAD_HEADER**</span></span> <br/> |
-|<span data-ttu-id="73ca0-109">Structure de données associée :</span><span class="sxs-lookup"><span data-stu-id="73ca0-109">Related Data Structure:</span></span>  <br/> |<span data-ttu-id="73ca0-110">**[HDRSYNC](hdrsync.md)**</span><span class="sxs-lookup"><span data-stu-id="73ca0-110">**[HDRSYNC](hdrsync.md)**</span></span> <br/> |
-|<span data-ttu-id="73ca0-111">À partir de cet état :</span><span class="sxs-lookup"><span data-stu-id="73ca0-111">From this state:</span></span>  <br/> |[<span data-ttu-id="73ca0-112">État inactif</span><span class="sxs-lookup"><span data-stu-id="73ca0-112">Idle state</span></span>](idle-state.md) <br/> |
-|<span data-ttu-id="73ca0-113">À cet état :</span><span class="sxs-lookup"><span data-stu-id="73ca0-113">To this state:</span></span>  <br/> |<span data-ttu-id="73ca0-114">État inactif</span><span class="sxs-lookup"><span data-stu-id="73ca0-114">Idle state</span></span>  <br/> |
+|<span data-ttu-id="6d427-107">Identificateur d’état :</span><span class="sxs-lookup"><span data-stu-id="6d427-107">State Identifier:</span></span>  <br/> |<span data-ttu-id="6d427-108">**LR_SYNC_DOWNLOAD_HEADER**</span><span class="sxs-lookup"><span data-stu-id="6d427-108">**LR_SYNC_DOWNLOAD_HEADER**</span></span> <br/> |
+|<span data-ttu-id="6d427-109">Structure de données associée :</span><span class="sxs-lookup"><span data-stu-id="6d427-109">Related Data Structure:</span></span>  <br/> |<span data-ttu-id="6d427-110">**[HDRSYNC](hdrsync.md)**</span><span class="sxs-lookup"><span data-stu-id="6d427-110">**[HDRSYNC](hdrsync.md)**</span></span> <br/> |
+|<span data-ttu-id="6d427-111">À partir de cet état :</span><span class="sxs-lookup"><span data-stu-id="6d427-111">From this state:</span></span>  <br/> |[<span data-ttu-id="6d427-112">État inactif</span><span class="sxs-lookup"><span data-stu-id="6d427-112">Idle state</span></span>](idle-state.md) <br/> |
+|<span data-ttu-id="6d427-113">À cet état :</span><span class="sxs-lookup"><span data-stu-id="6d427-113">To this state:</span></span>  <br/> |<span data-ttu-id="6d427-114">État inactif</span><span class="sxs-lookup"><span data-stu-id="6d427-114">Idle state</span></span>  <br/> |
    
 > [!NOTE]
-> <span data-ttu-id="73ca0-115">La machine à états de réplication est une machine à états déterministe.</span><span class="sxs-lookup"><span data-stu-id="73ca0-115">The replication state machine is a deterministic state machine.</span></span> <span data-ttu-id="73ca0-116">Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second.</span><span class="sxs-lookup"><span data-stu-id="73ca0-116">A client departing from one state to another must eventually return to the former from the latter.</span></span> 
+> <span data-ttu-id="6d427-115">La machine à états de réplication est une machine à états déterministe.</span><span class="sxs-lookup"><span data-stu-id="6d427-115">The replication state machine is a deterministic state machine.</span></span> <span data-ttu-id="6d427-116">Un client s’écartant d’un état à un autre doit finalement revenir au premier à partir du second.</span><span class="sxs-lookup"><span data-stu-id="6d427-116">A client departing from one state to another must eventually return to the former from the latter.</span></span> 
   
-## <a name="description"></a><span data-ttu-id="73ca0-117">Description</span><span class="sxs-lookup"><span data-stu-id="73ca0-117">Description</span></span>
+## <a name="description"></a><span data-ttu-id="6d427-117">Description</span><span class="sxs-lookup"><span data-stu-id="6d427-117">Description</span></span>
 
-<span data-ttu-id="73ca0-118">Pendant cet état, le client met à jour l’en-tête d’un message dans un magasin local.</span><span class="sxs-lookup"><span data-stu-id="73ca0-118">During this state, the client updates the header of a message on a local store.</span></span> <span data-ttu-id="73ca0-119">Le magasin local entre cet état sur **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** et se quitte lorsque **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** est appelé.</span><span class="sxs-lookup"><span data-stu-id="73ca0-119">The local store enters this state upon **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** and exits when **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** is called.</span></span> <span data-ttu-id="73ca0-120">Pendant cet état, Outlook initialise les membres de la structure de données **HDRSYNC** associée avec des informations sur l’en-tête d’un message.</span><span class="sxs-lookup"><span data-stu-id="73ca0-120">During this state, Outlook initializes members of the associated **HDRSYNC** data structure with information about the header of a message.</span></span> <span data-ttu-id="73ca0-121">Le client télécharge d’abord l’élément de message complet à partir du serveur, puis met à jour l’en-tête de l’élément de message localement.</span><span class="sxs-lookup"><span data-stu-id="73ca0-121">The client first downloads the full message item from the server and then updates the header of the message item locally.</span></span> 
+<span data-ttu-id="6d427-118">Pendant cet état, le client met à jour l’en-tête d’un message dans un magasin local.</span><span class="sxs-lookup"><span data-stu-id="6d427-118">During this state, the client updates the header of a message on a local store.</span></span> <span data-ttu-id="6d427-119">Le magasin local entre cet état sur **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** et se quitte lorsque **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** est appelé.</span><span class="sxs-lookup"><span data-stu-id="6d427-119">The local store enters this state upon **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)** and exits when **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)** is called.</span></span> <span data-ttu-id="6d427-120">Au cours de cet état, Outlook initialise les membres de la structure de données **HDRSYNC** associée avec des informations sur l’en-tête d’un message.</span><span class="sxs-lookup"><span data-stu-id="6d427-120">During this state, Outlook initializes members of the associated **HDRSYNC** data structure with information about the header of a message.</span></span> <span data-ttu-id="6d427-121">Le client télécharge d’abord l’élément de message complet à partir du serveur, puis met à jour l’en-tête de l’élément de message localement.</span><span class="sxs-lookup"><span data-stu-id="6d427-121">The client first downloads the full message item from the server and then updates the header of the message item locally.</span></span> 
   
-<span data-ttu-id="73ca0-122">Lorsque la synchronisation se termine, le client définit les résultats du téléchargement.</span><span class="sxs-lookup"><span data-stu-id="73ca0-122">When syncrhonization ends, the client sets the download results.</span></span> <span data-ttu-id="73ca0-123">Le magasin local revient à l’état inactif.</span><span class="sxs-lookup"><span data-stu-id="73ca0-123">The local store returns to the idle state.</span></span>
+<span data-ttu-id="6d427-122">Lorsque la synchronisation se termine, le client définit les résultats du téléchargement.</span><span class="sxs-lookup"><span data-stu-id="6d427-122">When syncrhonization ends, the client sets the download results.</span></span> <span data-ttu-id="6d427-123">Le magasin local revient à l’état inactif.</span><span class="sxs-lookup"><span data-stu-id="6d427-123">The local store returns to the idle state.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="73ca0-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="73ca0-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6d427-124">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="6d427-124">See also</span></span>
 
 
 
-[<span data-ttu-id="73ca0-125">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="73ca0-125">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="6d427-125">À propos de l’API de réplication</span><span class="sxs-lookup"><span data-stu-id="6d427-125">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="73ca0-126">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="73ca0-126">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="6d427-126">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="6d427-126">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="73ca0-127">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="73ca0-127">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="6d427-127">À propos de la machine à états de réplication</span><span class="sxs-lookup"><span data-stu-id="6d427-127">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="73ca0-128">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="73ca0-128">SYNCSTATE</span></span>](syncstate.md)
+[<span data-ttu-id="6d427-128">SYNCSTATE</span><span class="sxs-lookup"><span data-stu-id="6d427-128">SYNCSTATE</span></span>](syncstate.md)
 

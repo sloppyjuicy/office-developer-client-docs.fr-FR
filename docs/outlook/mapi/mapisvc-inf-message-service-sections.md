@@ -15,12 +15,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415368"
 ---
-# <a name="mapisvcinf-message-service-sections"></a><span data-ttu-id="3d945-103">MapiSvc.inf Message Service Sections</span><span class="sxs-lookup"><span data-stu-id="3d945-103">MapiSvc.inf Message Service Sections</span></span>
+# <a name="mapisvcinf-message-service-sections"></a><span data-ttu-id="61905-103">MapiSvc.inf Message Service Sections</span><span class="sxs-lookup"><span data-stu-id="61905-103">MapiSvc.inf Message Service Sections</span></span>
 
   
   
-<span data-ttu-id="3d945-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3d945-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="61905-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="61905-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3d945-105">mapisvc.inf comprend une section de service de message pour chacune des entrées répertoriées dans la section **[Services].**</span><span class="sxs-lookup"><span data-stu-id="3d945-105">mapisvc.inf includes one message service section for each of the entries listed in the **[Services]** section.</span></span> <span data-ttu-id="3d945-106">Il existe deux types d’entrées dans ces sections : l’une pour définir certaines propriétés et l’autre pour répertorier les noms des sections liées au service de message en cours de configuration.</span><span class="sxs-lookup"><span data-stu-id="3d945-106">There are two types of entries in these sections: one for setting certain properties and the other for listing names of sections that are related to the message service being configured.</span></span> 
+<span data-ttu-id="61905-105">mapisvc.inf comprend une section de service de message pour chacune des entrées répertoriées dans la section **[Services].**</span><span class="sxs-lookup"><span data-stu-id="61905-105">mapisvc.inf includes one message service section for each of the entries listed in the **[Services]** section.</span></span> <span data-ttu-id="61905-106">Il existe deux types d’entrées dans ces sections : l’une pour définir certaines propriétés et l’autre pour répertorier les noms des sections liées au service de message en cours de configuration.</span><span class="sxs-lookup"><span data-stu-id="61905-106">There are two types of entries in these sections: one for setting certain properties and the other for listing names of sections that are related to the message service being configured.</span></span> 
   
 

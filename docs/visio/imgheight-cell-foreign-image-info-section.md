@@ -16,26 +16,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411196"
 ---
-# <a name="imgheight-cell-foreign-image-info-section"></a><span data-ttu-id="beb54-104">ImgHeight, cellule (section Foreign Image Info)</span><span class="sxs-lookup"><span data-stu-id="beb54-104">ImgHeight Cell (Foreign Image Info Section)</span></span>
+# <a name="imgheight-cell-foreign-image-info-section"></a><span data-ttu-id="248cd-104">ImgHeight, cellule (section Foreign Image Info)</span><span class="sxs-lookup"><span data-stu-id="248cd-104">ImgHeight Cell (Foreign Image Info Section)</span></span>
 
-<span data-ttu-id="beb54-105">Détermine la hauteur de l'image de l'objet à l'intérieur de ses bordures.</span><span class="sxs-lookup"><span data-stu-id="beb54-105">Determines the height of the object's image within its border.</span></span> <span data-ttu-id="beb54-106">La formule par défaut est la suivante :</span><span class="sxs-lookup"><span data-stu-id="beb54-106">The default formula is:</span></span>
+<span data-ttu-id="248cd-p102">Détermine la hauteur de l'image de l'objet à l'intérieur de ses bordures. La formule par défaut est la suivante :</span><span class="sxs-lookup"><span data-stu-id="248cd-p102">Determines the height of the object's image within its border. The default formula is:</span></span>
   
-<span data-ttu-id="beb54-107">= Hauteur \* 1</span><span class="sxs-lookup"><span data-stu-id="beb54-107">= Height \* 1</span></span>
+<span data-ttu-id="248cd-107">= Hauteur \* 1</span><span class="sxs-lookup"><span data-stu-id="248cd-107">= Height \* 1</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="beb54-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="beb54-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="248cd-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="248cd-108">Remarks</span></span>
 
-<span data-ttu-id="beb54-109">Pour obtenir une référence à la cellule ImgHeight par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="beb54-109">To get a reference to the ImgHeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="248cd-109">Pour obtenir une référence à la cellule ImgHeight par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="248cd-109">To get a reference to the ImgHeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="beb54-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="beb54-110">Cell name:</span></span>  <br/> | <span data-ttu-id="beb54-111">ImgHeight</span><span class="sxs-lookup"><span data-stu-id="beb54-111">ImgHeight</span></span>  <br/> |
+| <span data-ttu-id="248cd-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="248cd-110">Cell name:</span></span>  <br/> | <span data-ttu-id="248cd-111">ImgHeight</span><span class="sxs-lookup"><span data-stu-id="248cd-111">ImgHeight</span></span>  <br/> |
    
-<span data-ttu-id="beb54-112">Pour obtenir une référence à la cellule ImgHeight à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="beb54-112">To get a reference to the ImgHeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="248cd-112">Pour obtenir une référence à la cellule ImgHeight à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="248cd-112">To get a reference to the ImgHeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="beb54-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="beb54-113">Section index:</span></span>  <br/> |<span data-ttu-id="beb54-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="beb54-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="beb54-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="beb54-115">Row index:</span></span>  <br/> |<span data-ttu-id="beb54-116">**visRowForeign**</span><span class="sxs-lookup"><span data-stu-id="beb54-116">**visRowForeign**</span></span> <br/> |
-| <span data-ttu-id="beb54-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="beb54-117">Cell index:</span></span>  <br/> |<span data-ttu-id="beb54-118">**visFrgnImgHeight**</span><span class="sxs-lookup"><span data-stu-id="beb54-118">**visFrgnImgHeight**</span></span> <br/> |
+| <span data-ttu-id="248cd-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="248cd-113">Section index:</span></span>  <br/> |<span data-ttu-id="248cd-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="248cd-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="248cd-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="248cd-115">Row index:</span></span>  <br/> |<span data-ttu-id="248cd-116">**visRowForeign**</span><span class="sxs-lookup"><span data-stu-id="248cd-116">**visRowForeign**</span></span> <br/> |
+| <span data-ttu-id="248cd-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="248cd-117">Cell index:</span></span>  <br/> |<span data-ttu-id="248cd-118">**visFrgnImgHeight**</span><span class="sxs-lookup"><span data-stu-id="248cd-118">**visFrgnImgHeight**</span></span> <br/> |
    
 

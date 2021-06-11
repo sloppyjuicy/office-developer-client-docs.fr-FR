@@ -16,13 +16,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412001"
 ---
-# <a name="display-formulas-or-values-in-cells"></a><span data-ttu-id="104c0-102">Afficher des formules ou des valeurs dans les cellules</span><span class="sxs-lookup"><span data-stu-id="104c0-102">Display Formulas or Values in Cells</span></span>
+# <a name="display-formulas-or-values-in-cells"></a><span data-ttu-id="a872b-102">Afficher des formules ou des valeurs dans les cellules</span><span class="sxs-lookup"><span data-stu-id="a872b-102">Display Formulas or Values in Cells</span></span>
 
-1. <span data-ttu-id="104c0-103">Cliquez dans la fenêtre Feuille ShapeSheet pour l'activer.</span><span class="sxs-lookup"><span data-stu-id="104c0-103">Click in the ShapeSheet window to make it active.</span></span>
+1. <span data-ttu-id="a872b-103">Cliquez dans la fenêtre Feuille ShapeSheet pour l'activer.</span><span class="sxs-lookup"><span data-stu-id="a872b-103">Click in the ShapeSheet window to make it active.</span></span>
     
-2. <span data-ttu-id="104c0-104">Sous l’onglet **Outils Feuille ShapeSheet**, dans le groupe **Affichage**, cliquez sur **Formules** pour afficher les formules ou sur **Valeurs** pour afficher les valeurs.</span><span class="sxs-lookup"><span data-stu-id="104c0-104">On the **ShapeSheet Tools** tab, in the **View** group, click **Formulas** to view formulas, or click **Values** to view values.</span></span> 
+2. <span data-ttu-id="a872b-104">Sous l’onglet **Outils Feuille ShapeSheet**, dans le groupe **Affichage**, cliquez sur **Formules** pour afficher les formules ou sur **Valeurs** pour afficher les valeurs.</span><span class="sxs-lookup"><span data-stu-id="a872b-104">On the **ShapeSheet Tools** tab, in the **View** group, click **Formulas** to view formulas, or click **Values** to view values.</span></span> 
     
     > [!NOTE]
-    > <span data-ttu-id="104c0-105">Vous pouvez également cliquer avec le bouton droit de la souris dans la fenêtre Feuille ShapeSheet, puis cliquer sur **Formules** ou **Valeurs** dans le menu contextuel.</span><span class="sxs-lookup"><span data-stu-id="104c0-105">You can also right-click in the ShapeSheet window and then click **Formulas** or **Values** on the shortcut menu.</span></span> 
+    > <span data-ttu-id="a872b-105">Vous pouvez également cliquer avec le bouton droit de la souris dans la fenêtre Feuille ShapeSheet, puis cliquer sur **Formules** ou **Valeurs** dans le menu contextuel.</span><span class="sxs-lookup"><span data-stu-id="a872b-105">You can also right-click in the ShapeSheet window and then click **Formulas** or **Values** on the shortcut menu.</span></span> 
   
 

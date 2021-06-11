@@ -19,18 +19,18 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416971"
 ---
-# <a name="smapiforminfoarray"></a><span data-ttu-id="901d2-103">SMAPIFormInfoArray</span><span class="sxs-lookup"><span data-stu-id="901d2-103">SMAPIFormInfoArray</span></span>
+# <a name="smapiforminfoarray"></a><span data-ttu-id="9d3b5-103">SMAPIFormInfoArray</span><span class="sxs-lookup"><span data-stu-id="9d3b5-103">SMAPIFormInfoArray</span></span>
 
   
   
-<span data-ttu-id="901d2-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="901d2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9d3b5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9d3b5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="901d2-105">Contient un tableau de pointeurs vers des objets d’informations de formulaire.</span><span class="sxs-lookup"><span data-stu-id="901d2-105">Contains an array of pointers to form information objects.</span></span> 
+<span data-ttu-id="9d3b5-105">Contient un tableau de pointeurs vers des objets d’informations de formulaire.</span><span class="sxs-lookup"><span data-stu-id="9d3b5-105">Contains an array of pointers to form information objects.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="901d2-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="901d2-106">Header file:</span></span>  <br/> |<span data-ttu-id="901d2-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="901d2-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="901d2-108">Macro associée :</span><span class="sxs-lookup"><span data-stu-id="901d2-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="901d2-109">CbMAPIFormInfoArray</span><span class="sxs-lookup"><span data-stu-id="901d2-109">CbMAPIFormInfoArray</span></span>](cbmapiforminfoarray.md) <br/> |
+|<span data-ttu-id="9d3b5-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="9d3b5-106">Header file:</span></span>  <br/> |<span data-ttu-id="9d3b5-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="9d3b5-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="9d3b5-108">Macro associée :</span><span class="sxs-lookup"><span data-stu-id="9d3b5-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="9d3b5-109">CbMAPIFormInfoArray</span><span class="sxs-lookup"><span data-stu-id="9d3b5-109">CbMAPIFormInfoArray</span></span>](cbmapiforminfoarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -41,31 +41,31 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="901d2-110">Members</span><span class="sxs-lookup"><span data-stu-id="901d2-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="9d3b5-110">Members</span><span class="sxs-lookup"><span data-stu-id="9d3b5-110">Members</span></span>
 
- <span data-ttu-id="901d2-111">**cForms**</span><span class="sxs-lookup"><span data-stu-id="901d2-111">**cForms**</span></span>
+ <span data-ttu-id="9d3b5-111">**cForms**</span><span class="sxs-lookup"><span data-stu-id="9d3b5-111">**cForms**</span></span>
   
-> <span data-ttu-id="901d2-112">Nombre de pointeurs dans le tableau pointés par le **membre aFormInfo.**</span><span class="sxs-lookup"><span data-stu-id="901d2-112">Count of pointers in the array pointed to by the **aFormInfo** member.</span></span> 
+> <span data-ttu-id="9d3b5-112">Nombre de pointeurs dans le tableau pointés par le **membre aFormInfo.**</span><span class="sxs-lookup"><span data-stu-id="9d3b5-112">Count of pointers in the array pointed to by the **aFormInfo** member.</span></span> 
     
- <span data-ttu-id="901d2-113">**aFormInfo**</span><span class="sxs-lookup"><span data-stu-id="901d2-113">**aFormInfo**</span></span>
+ <span data-ttu-id="9d3b5-113">**aFormInfo**</span><span class="sxs-lookup"><span data-stu-id="9d3b5-113">**aFormInfo**</span></span>
   
-> <span data-ttu-id="901d2-114">Pointeur vers un tableau de pointeurs vers des objets d’informations de formulaire.</span><span class="sxs-lookup"><span data-stu-id="901d2-114">Pointer to an array of pointers to form information objects.</span></span>
+> <span data-ttu-id="9d3b5-114">Pointeur vers un tableau de pointeurs vers des objets d’informations de formulaire.</span><span class="sxs-lookup"><span data-stu-id="9d3b5-114">Pointer to an array of pointers to form information objects.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="901d2-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="901d2-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9d3b5-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="9d3b5-115">Remarks</span></span>
 
-<span data-ttu-id="901d2-116">La structure **SMAPIFormInfoArray** est passée en tant que paramètre dans les méthodes suivantes :</span><span class="sxs-lookup"><span data-stu-id="901d2-116">The **SMAPIFormInfoArray** structure is passed as a parameter in the following methods:</span></span> 
+<span data-ttu-id="9d3b5-116">La structure **SMAPIFormInfoArray** est passée en tant que paramètre dans les méthodes suivantes :</span><span class="sxs-lookup"><span data-stu-id="9d3b5-116">The **SMAPIFormInfoArray** structure is passed as a parameter in the following methods:</span></span> 
   
-- [<span data-ttu-id="901d2-117">IMAPIFormMgr::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="901d2-117">IMAPIFormMgr::ResolveMultipleMessageClasses</span></span>](imapiformmgr-resolvemultiplemessageclasses.md)
+- [<span data-ttu-id="9d3b5-117">IMAPIFormMgr::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="9d3b5-117">IMAPIFormMgr::ResolveMultipleMessageClasses</span></span>](imapiformmgr-resolvemultiplemessageclasses.md)
     
-- [<span data-ttu-id="901d2-118">IMAPIFormMgr::CalcFormPropSet</span><span class="sxs-lookup"><span data-stu-id="901d2-118">IMAPIFormMgr::CalcFormPropSet</span></span>](imapiformmgr-calcformpropset.md)
+- [<span data-ttu-id="9d3b5-118">IMAPIFormMgr::CalcFormPropSet</span><span class="sxs-lookup"><span data-stu-id="9d3b5-118">IMAPIFormMgr::CalcFormPropSet</span></span>](imapiformmgr-calcformpropset.md)
     
-- [<span data-ttu-id="901d2-119">IMAPIFormMgr::SelectMultipleForms</span><span class="sxs-lookup"><span data-stu-id="901d2-119">IMAPIFormMgr::SelectMultipleForms</span></span>](imapiformmgr-selectmultipleforms.md)
+- [<span data-ttu-id="9d3b5-119">IMAPIFormMgr::SelectMultipleForms</span><span class="sxs-lookup"><span data-stu-id="9d3b5-119">IMAPIFormMgr::SelectMultipleForms</span></span>](imapiformmgr-selectmultipleforms.md)
     
-- [<span data-ttu-id="901d2-120">IMAPIFormContainer::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="901d2-120">IMAPIFormContainer::ResolveMultipleMessageClasses</span></span>](imapiformcontainer-resolvemultiplemessageclasses.md)
+- [<span data-ttu-id="9d3b5-120">IMAPIFormContainer::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="9d3b5-120">IMAPIFormContainer::ResolveMultipleMessageClasses</span></span>](imapiformcontainer-resolvemultiplemessageclasses.md)
     
-## <a name="see-also"></a><span data-ttu-id="901d2-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="901d2-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9d3b5-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9d3b5-121">See also</span></span>
 
 
 
-[<span data-ttu-id="901d2-122">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="901d2-122">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="9d3b5-122">Structures MAPI</span><span class="sxs-lookup"><span data-stu-id="9d3b5-122">MAPI Structures</span></span>](mapi-structures.md)
 

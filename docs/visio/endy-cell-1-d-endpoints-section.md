@@ -16,24 +16,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414192"
 ---
-# <a name="endy-cell-1-d-endpoints-section"></a><span data-ttu-id="45d1b-103">EndY, cellule (section 1-D Endpoints)</span><span class="sxs-lookup"><span data-stu-id="45d1b-103">EndY Cell (1-D Endpoints Section)</span></span>
+# <a name="endy-cell-1-d-endpoints-section"></a><span data-ttu-id="d7cd6-103">EndY, cellule (section 1-D Endpoints)</span><span class="sxs-lookup"><span data-stu-id="d7cd6-103">EndY Cell (1-D Endpoints Section)</span></span>
 
-<span data-ttu-id="45d1b-104">Représente la  *coordonnée y*  du point de terminaison de la forme 1D, par rapport à l’origine de son parent.</span><span class="sxs-lookup"><span data-stu-id="45d1b-104">Represents the  *y*  -coordinate of the endpoint of the 1-D shape, in relation to the origin of its parent.</span></span> 
+<span data-ttu-id="d7cd6-104">Représente la  *coordonnée y*  du point de terminaison de la forme 1D, par rapport à l’origine de son parent.</span><span class="sxs-lookup"><span data-stu-id="d7cd6-104">Represents the  *y*  -coordinate of the endpoint of the 1-D shape, in relation to the origin of its parent.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="45d1b-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="45d1b-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d7cd6-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="d7cd6-105">Remarks</span></span>
 
-<span data-ttu-id="45d1b-106">Pour obtenir une référence à la cellule EndY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="45d1b-106">To get a reference to the EndY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d7cd6-106">Pour obtenir une référence à la cellule EndY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="d7cd6-106">To get a reference to the EndY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="45d1b-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="45d1b-107">Cell name:</span></span>  <br/> | <span data-ttu-id="45d1b-108">EndY</span><span class="sxs-lookup"><span data-stu-id="45d1b-108">EndY</span></span>  <br/> |
+| <span data-ttu-id="d7cd6-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="d7cd6-107">Cell name:</span></span>  <br/> | <span data-ttu-id="d7cd6-108">EndY</span><span class="sxs-lookup"><span data-stu-id="d7cd6-108">EndY</span></span>  <br/> |
    
-<span data-ttu-id="45d1b-109">Pour obtenir une référence à la cellule EndY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="45d1b-109">To get a reference to the EndY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d7cd6-109">Pour obtenir une référence à la cellule EndY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="d7cd6-109">To get a reference to the EndY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="45d1b-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="45d1b-110">Section index:</span></span>  <br/> |<span data-ttu-id="45d1b-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="45d1b-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="45d1b-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="45d1b-112">Row index:</span></span>  <br/> |<span data-ttu-id="45d1b-113">**visRowXForm1D**</span><span class="sxs-lookup"><span data-stu-id="45d1b-113">**visRowXForm1D**</span></span> <br/> |
-| <span data-ttu-id="45d1b-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="45d1b-114">Cell index:</span></span>  <br/> |<span data-ttu-id="45d1b-115">**vis1DEndY**</span><span class="sxs-lookup"><span data-stu-id="45d1b-115">**vis1DEndY**</span></span> <br/> |
+| <span data-ttu-id="d7cd6-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="d7cd6-110">Section index:</span></span>  <br/> |<span data-ttu-id="d7cd6-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="d7cd6-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="d7cd6-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="d7cd6-112">Row index:</span></span>  <br/> |<span data-ttu-id="d7cd6-113">**visRowXForm1D**</span><span class="sxs-lookup"><span data-stu-id="d7cd6-113">**visRowXForm1D**</span></span> <br/> |
+| <span data-ttu-id="d7cd6-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d7cd6-114">Cell index:</span></span>  <br/> |<span data-ttu-id="d7cd6-115">**vis1DEndY**</span><span class="sxs-lookup"><span data-stu-id="d7cd6-115">**vis1DEndY**</span></span> <br/> |
    
 

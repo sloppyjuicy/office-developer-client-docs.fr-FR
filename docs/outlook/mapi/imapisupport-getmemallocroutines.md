@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415536"
 ---
-# <a name="imapisupportgetmemallocroutines"></a><span data-ttu-id="49053-103">IMAPISupport::GetMemAllocRoutines</span><span class="sxs-lookup"><span data-stu-id="49053-103">IMAPISupport::GetMemAllocRoutines</span></span>
+# <a name="imapisupportgetmemallocroutines"></a><span data-ttu-id="3c1b2-103">IMAPISupport::GetMemAllocRoutines</span><span class="sxs-lookup"><span data-stu-id="3c1b2-103">IMAPISupport::GetMemAllocRoutines</span></span>
 
   
   
-<span data-ttu-id="49053-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="49053-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3c1b2-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3c1b2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="49053-105">Récupère les adresses des fonctions d’allocation et de désallocation de mémoire MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md)).</span><span class="sxs-lookup"><span data-stu-id="49053-105">Retrieves the addresses of the MAPI memory allocation and deallocation functions ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md)).</span></span>
+<span data-ttu-id="3c1b2-105">Récupère les adresses des fonctions d’allocation et de désallocation de mémoire MAPI ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer](mapifreebuffer.md)).</span><span class="sxs-lookup"><span data-stu-id="3c1b2-105">Retrieves the addresses of the MAPI memory allocation and deallocation functions ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md)).</span></span>
   
 ```cpp
 HRESULT GetMemAllocRoutines(
@@ -35,39 +35,39 @@ HRESULT GetMemAllocRoutines(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="49053-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="49053-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="3c1b2-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="3c1b2-106">Parameters</span></span>
 
- <span data-ttu-id="49053-107">_lppAllocateBuffer_</span><span class="sxs-lookup"><span data-stu-id="49053-107">_lppAllocateBuffer_</span></span>
+ <span data-ttu-id="3c1b2-107">_lppAllocateBuffer_</span><span class="sxs-lookup"><span data-stu-id="3c1b2-107">_lppAllocateBuffer_</span></span>
   
-> <span data-ttu-id="49053-108">[out] Pointeur vers un pointeur vers la **fonction MAPIAllocateBuffer.**</span><span class="sxs-lookup"><span data-stu-id="49053-108">[out] A pointer to a pointer to the **MAPIAllocateBuffer** function.</span></span> <span data-ttu-id="49053-109">**MAPIAllocateBuffer alloue** de la mémoire.</span><span class="sxs-lookup"><span data-stu-id="49053-109">**MAPIAllocateBuffer** allocates memory.</span></span> 
+> <span data-ttu-id="3c1b2-108">[out] Pointeur vers un pointeur vers la **fonction MAPIAllocateBuffer.**</span><span class="sxs-lookup"><span data-stu-id="3c1b2-108">[out] A pointer to a pointer to the **MAPIAllocateBuffer** function.</span></span> <span data-ttu-id="3c1b2-109">**MAPIAllocateBuffer alloue** de la mémoire.</span><span class="sxs-lookup"><span data-stu-id="3c1b2-109">**MAPIAllocateBuffer** allocates memory.</span></span> 
     
- <span data-ttu-id="49053-110">_lppAllocateMore_</span><span class="sxs-lookup"><span data-stu-id="49053-110">_lppAllocateMore_</span></span>
+ <span data-ttu-id="3c1b2-110">_lppAllocateMore_</span><span class="sxs-lookup"><span data-stu-id="3c1b2-110">_lppAllocateMore_</span></span>
   
-> <span data-ttu-id="49053-111">[out] Pointeur vers un pointeur vers la **fonction MAPIAllocateMore.**</span><span class="sxs-lookup"><span data-stu-id="49053-111">[out] A pointer to a pointer to the **MAPIAllocateMore** function.</span></span> <span data-ttu-id="49053-112">**MAPIAllocateMore alloue** de la mémoire supplémentaire pour la mémoire initialement allouée à l’aide de **MAPIAllocateBuffer**.</span><span class="sxs-lookup"><span data-stu-id="49053-112">**MAPIAllocateMore** allocates additional memory for memory that was originally allocated by using **MAPIAllocateBuffer**.</span></span>
+> <span data-ttu-id="3c1b2-111">[out] Pointeur vers un pointeur vers la **fonction MAPIAllocateMore.**</span><span class="sxs-lookup"><span data-stu-id="3c1b2-111">[out] A pointer to a pointer to the **MAPIAllocateMore** function.</span></span> <span data-ttu-id="3c1b2-112">**MAPIAllocateMore alloue** de la mémoire supplémentaire pour la mémoire initialement allouée à l’aide de **MAPIAllocateBuffer**.</span><span class="sxs-lookup"><span data-stu-id="3c1b2-112">**MAPIAllocateMore** allocates additional memory for memory that was originally allocated by using **MAPIAllocateBuffer**.</span></span>
     
- <span data-ttu-id="49053-113">_lppFreeBuffer_</span><span class="sxs-lookup"><span data-stu-id="49053-113">_lppFreeBuffer_</span></span>
+ <span data-ttu-id="3c1b2-113">_lppFreeBuffer_</span><span class="sxs-lookup"><span data-stu-id="3c1b2-113">_lppFreeBuffer_</span></span>
   
-> <span data-ttu-id="49053-114">[out] Pointeur vers un pointeur vers la **fonction MAPIFreeBuffer.**</span><span class="sxs-lookup"><span data-stu-id="49053-114">[out] A pointer to a pointer to the **MAPIFreeBuffer** function.</span></span> <span data-ttu-id="49053-115">**MAPIFreeBuffer libère** de la mémoire.</span><span class="sxs-lookup"><span data-stu-id="49053-115">**MAPIFreeBuffer** frees memory.</span></span> 
+> <span data-ttu-id="3c1b2-114">[out] Pointeur vers un pointeur vers la **fonction MAPIFreeBuffer.**</span><span class="sxs-lookup"><span data-stu-id="3c1b2-114">[out] A pointer to a pointer to the **MAPIFreeBuffer** function.</span></span> <span data-ttu-id="3c1b2-115">**MAPIFreeBuffer libère** de la mémoire.</span><span class="sxs-lookup"><span data-stu-id="3c1b2-115">**MAPIFreeBuffer** frees memory.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="49053-116">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="49053-116">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="3c1b2-116">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="3c1b2-116">Return value</span></span>
 
-<span data-ttu-id="49053-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="49053-117">S_OK</span></span> 
+<span data-ttu-id="3c1b2-117">S_OK</span><span class="sxs-lookup"><span data-stu-id="3c1b2-117">S_OK</span></span> 
   
-> <span data-ttu-id="49053-118">Les adresses de fonction ont été renvoyées avec succès.</span><span class="sxs-lookup"><span data-stu-id="49053-118">The function addresses were successfully returned.</span></span>
+> <span data-ttu-id="3c1b2-118">Les adresses de fonction ont été renvoyées avec succès.</span><span class="sxs-lookup"><span data-stu-id="3c1b2-118">The function addresses were successfully returned.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="49053-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="49053-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3c1b2-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="3c1b2-119">Remarks</span></span>
 
-<span data-ttu-id="49053-120">La **méthode IMAPISupport::GetMemAllocRoutines** est implémentée pour tous les objets de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="49053-120">The **IMAPISupport::GetMemAllocRoutines** method is implemented for all support objects.</span></span> <span data-ttu-id="49053-121">Les fournisseurs de services appellent **GetMemAllocRoutines** pour obtenir les adresses des trois fonctions d’allocation de mémoire transmises à leur fonction d’initialisation ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)).</span><span class="sxs-lookup"><span data-stu-id="49053-121">Service providers call **GetMemAllocRoutines** to get the addresses of the three memory allocation functions that are passed to their initialization function ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md), or [XPProviderInit](xpproviderinit.md)).</span></span> 
+<span data-ttu-id="3c1b2-120">La **méthode IMAPISupport::GetMemAllocRoutines** est implémentée pour tous les objets de prise en charge.</span><span class="sxs-lookup"><span data-stu-id="3c1b2-120">The **IMAPISupport::GetMemAllocRoutines** method is implemented for all support objects.</span></span> <span data-ttu-id="3c1b2-121">Les fournisseurs de services **appellent GetMemAllocRoutines** pour obtenir les adresses des trois fonctions d’allocation de mémoire transmises à leur fonction d’initialisation ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md)ou [XPProviderInit](xpproviderinit.md)).</span><span class="sxs-lookup"><span data-stu-id="3c1b2-121">Service providers call **GetMemAllocRoutines** to get the addresses of the three memory allocation functions that are passed to their initialization function ( [ABProviderInit](abproviderinit.md), [MSProviderInit](msproviderinit.md), or [XPProviderInit](xpproviderinit.md)).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="49053-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="49053-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3c1b2-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3c1b2-122">See also</span></span>
 
 
 
-[<span data-ttu-id="49053-123">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="49053-123">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
+[<span data-ttu-id="3c1b2-123">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="3c1b2-123">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
   
-[<span data-ttu-id="49053-124">MAPIAllocateMore</span><span class="sxs-lookup"><span data-stu-id="49053-124">MAPIAllocateMore</span></span>](mapiallocatemore.md)
+[<span data-ttu-id="3c1b2-124">MAPIAllocateMore</span><span class="sxs-lookup"><span data-stu-id="3c1b2-124">MAPIAllocateMore</span></span>](mapiallocatemore.md)
   
-[<span data-ttu-id="49053-125">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="49053-125">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
+[<span data-ttu-id="3c1b2-125">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="3c1b2-125">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
   
-[<span data-ttu-id="49053-126">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="49053-126">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="3c1b2-126">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="3c1b2-126">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

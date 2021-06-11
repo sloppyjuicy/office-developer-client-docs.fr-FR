@@ -16,26 +16,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414059"
 ---
-# <a name="txtlocpiny-cell-text-transform-section"></a><span data-ttu-id="5e6f1-104">TxtLocPinY, cellule (section Text Transform)</span><span class="sxs-lookup"><span data-stu-id="5e6f1-104">TxtLocPinY Cell (Text Transform Section)</span></span>
+# <a name="txtlocpiny-cell-text-transform-section"></a><span data-ttu-id="4ccaf-104">TxtLocPinY, cellule (section Text Transform)</span><span class="sxs-lookup"><span data-stu-id="4ccaf-104">TxtLocPinY Cell (Text Transform Section)</span></span>
 
-<span data-ttu-id="5e6f1-105">Détermine la coordonnée  *y*  du centre de rotation du bloc de texte par rapport à l’origine du bloc de texte.</span><span class="sxs-lookup"><span data-stu-id="5e6f1-105">Determines the  *y*  -coordinate of the text block's center of rotation relative to the origin of the text block.</span></span> <span data-ttu-id="5e6f1-106">La formule par défaut est la suivante :</span><span class="sxs-lookup"><span data-stu-id="5e6f1-106">The default formula is:</span></span> 
+<span data-ttu-id="4ccaf-105">Détermine la coordonnée  *y*  du centre de rotation du bloc de texte par rapport à l’origine du bloc de texte.</span><span class="sxs-lookup"><span data-stu-id="4ccaf-105">Determines the  *y*  -coordinate of the text block's center of rotation relative to the origin of the text block.</span></span> <span data-ttu-id="4ccaf-106">La formule par défaut est la suivante :</span><span class="sxs-lookup"><span data-stu-id="4ccaf-106">The default formula is:</span></span> 
   
-<span data-ttu-id="5e6f1-107">= TxtHeight \* 0.5</span><span class="sxs-lookup"><span data-stu-id="5e6f1-107">= TxtHeight \* 0.5</span></span>
+<span data-ttu-id="4ccaf-107">= TxtHeight \* 0.5</span><span class="sxs-lookup"><span data-stu-id="4ccaf-107">= TxtHeight \* 0.5</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="5e6f1-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="5e6f1-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4ccaf-108">Remarques</span><span class="sxs-lookup"><span data-stu-id="4ccaf-108">Remarks</span></span>
 
-<span data-ttu-id="5e6f1-109">Pour obtenir une référence à la cellule TxtLocPinY par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="5e6f1-109">To get a reference to the TxtLocPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="4ccaf-109">Pour obtenir une référence à la cellule TxtLocPinY par un nom dans une autre formule ou dans un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="4ccaf-109">To get a reference to the TxtLocPinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="5e6f1-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="5e6f1-110">Cell name:</span></span>  <br/> | <span data-ttu-id="5e6f1-111">TxtLocPinY</span><span class="sxs-lookup"><span data-stu-id="5e6f1-111">TxtLocPinY</span></span>  <br/> |
+| <span data-ttu-id="4ccaf-110">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="4ccaf-110">Cell name:</span></span>  <br/> | <span data-ttu-id="4ccaf-111">TxtLocPinY</span><span class="sxs-lookup"><span data-stu-id="4ccaf-111">TxtLocPinY</span></span>  <br/> |
    
-<span data-ttu-id="5e6f1-112">Pour obtenir une référence à la cellule TxtLocPinY par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="5e6f1-112">To get a reference to the TxtLocPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="4ccaf-112">Pour obtenir une référence à la cellule TxtLocPinY par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="4ccaf-112">To get a reference to the TxtLocPinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="5e6f1-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="5e6f1-113">Section index:</span></span>  <br/> |<span data-ttu-id="5e6f1-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="5e6f1-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="5e6f1-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="5e6f1-115">Row index:</span></span>  <br/> |<span data-ttu-id="5e6f1-116">**visRowTextXForm**</span><span class="sxs-lookup"><span data-stu-id="5e6f1-116">**visRowTextXForm**</span></span> <br/> |
-| <span data-ttu-id="5e6f1-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="5e6f1-117">Cell index:</span></span>  <br/> |<span data-ttu-id="5e6f1-118">**visXFormLocPinY**</span><span class="sxs-lookup"><span data-stu-id="5e6f1-118">**visXFormLocPinY**</span></span> <br/> |
+| <span data-ttu-id="4ccaf-113">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="4ccaf-113">Section index:</span></span>  <br/> |<span data-ttu-id="4ccaf-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="4ccaf-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="4ccaf-115">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="4ccaf-115">Row index:</span></span>  <br/> |<span data-ttu-id="4ccaf-116">**visRowTextXForm**</span><span class="sxs-lookup"><span data-stu-id="4ccaf-116">**visRowTextXForm**</span></span> <br/> |
+| <span data-ttu-id="4ccaf-117">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="4ccaf-117">Cell index:</span></span>  <br/> |<span data-ttu-id="4ccaf-118">**visXFormLocPinY**</span><span class="sxs-lookup"><span data-stu-id="4ccaf-118">**visXFormLocPinY**</span></span> <br/> |
    
 

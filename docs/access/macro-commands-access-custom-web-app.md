@@ -14,17 +14,17 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411686"
 ---
-# <a name="macro-commands-access-custom-web-app"></a><span data-ttu-id="6dce0-102">Macro commands (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="6dce0-102">Macro commands (Access custom web app)</span></span>
+# <a name="macro-commands-access-custom-web-app"></a><span data-ttu-id="ba4ba-102">Macro commands (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="ba4ba-102">Macro commands (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="6dce0-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="6dce0-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="ba4ba-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="ba4ba-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="6dce0-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="6dce0-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ba4ba-105">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="ba4ba-105">In this section</span></span>
 
-- [<span data-ttu-id="6dce0-106">RunDataMacro Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="6dce0-106">RunDataMacro Macro Action (Access custom web app)</span></span>](rundatamacro-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="ba4ba-106">RunDataMacro Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="ba4ba-106">RunDataMacro Macro Action (Access custom web app)</span></span>](rundatamacro-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="6dce0-107">RunMacro Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="6dce0-107">RunMacro Macro Action (Access custom web app)</span></span>](runmacro-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="ba4ba-107">RunMacro Macro Action (Application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="ba4ba-107">RunMacro Macro Action (Access custom web app)</span></span>](runmacro-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="6dce0-108">SetVariable Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="6dce0-108">SetVariable Macro Action (Access custom web app)</span></span>](setvariable-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="ba4ba-108">SetVariable Macro Action (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="ba4ba-108">SetVariable Macro Action (Access custom web app)</span></span>](setvariable-macro-action-access-custom-web-app.md)
     
 

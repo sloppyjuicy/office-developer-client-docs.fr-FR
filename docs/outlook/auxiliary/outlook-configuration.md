@@ -14,14 +14,14 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411021"
 ---
-# <a name="outlook-configuration"></a><span data-ttu-id="3337e-103">Configuration d’Outlook</span><span class="sxs-lookup"><span data-stu-id="3337e-103">Outlook configuration</span></span>
+# <a name="outlook-configuration"></a><span data-ttu-id="fb8b7-103">Configuration d’Outlook</span><span class="sxs-lookup"><span data-stu-id="fb8b7-103">Outlook configuration</span></span>
 
-<span data-ttu-id="3337e-104">Cette section décrit comment configurer Outlook pour résoudre les conflits d’éléments, déterminer l’heure de mise à jour d’un carnet d’adresses en mode hors connexion et inscrire un domaine pour la configuration automatique.</span><span class="sxs-lookup"><span data-stu-id="3337e-104">This section describes how to configure Outlook to resolve item conflicts, determine the update time for an Offline Address Book, and register a domain for automatic configuration.</span></span>
+<span data-ttu-id="fb8b7-104">Cette section décrit comment configurer Outlook pour résoudre les conflits d’éléments, déterminer l’heure de mise à jour d’un carnet d’adresses en mode hors connexion et inscrire un domaine pour la configuration automatique.</span><span class="sxs-lookup"><span data-stu-id="fb8b7-104">This section describes how to configure Outlook to resolve item conflicts, determine the update time for an Offline Address Book, and register a domain for automatic configuration.</span></span>
 
-- [<span data-ttu-id="3337e-105">À propos de la résolution de conflit pour les types d’éléments personnalisés</span><span class="sxs-lookup"><span data-stu-id="3337e-105">About conflict resolution for custom item types</span></span>](about-conflict-resolution-for-custom-item-types.md)
+- [<span data-ttu-id="fb8b7-105">À propos de la résolution de conflit pour les types d’éléments personnalisés</span><span class="sxs-lookup"><span data-stu-id="fb8b7-105">About conflict resolution for custom item types</span></span>](about-conflict-resolution-for-custom-item-types.md)
     
-- [<span data-ttu-id="3337e-106">À propos de l’heure de la dernière mise à jour d’un carnet d’adresses en mode hors connexion</span><span class="sxs-lookup"><span data-stu-id="3337e-106">About the last update time of an Offline Address Book</span></span>](about-the-last-update-time-of-an-offline-address-book.md)
+- [<span data-ttu-id="fb8b7-106">À propos de l’heure de la dernière mise à jour d’un carnet d’adresses en mode hors connexion</span><span class="sxs-lookup"><span data-stu-id="fb8b7-106">About the last update time of an Offline Address Book</span></span>](about-the-last-update-time-of-an-offline-address-book.md)
     
-- [<span data-ttu-id="3337e-107">À propos de l’inscription d’un nouveau domaine pour la configuration automatique</span><span class="sxs-lookup"><span data-stu-id="3337e-107">About registering a new domain for automatic configuration</span></span>](about-registering-a-new-domain-for-automatic-configuration.md)
+- [<span data-ttu-id="fb8b7-107">À propos de l’inscription d’un nouveau domaine pour la configuration automatique</span><span class="sxs-lookup"><span data-stu-id="fb8b7-107">About registering a new domain for automatic configuration</span></span>](about-registering-a-new-domain-for-automatic-configuration.md)
     
 

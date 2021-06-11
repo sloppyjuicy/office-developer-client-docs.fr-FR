@@ -16,24 +16,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411861"
 ---
-# <a name="piny-cell-shape-transform-section"></a><span data-ttu-id="82a04-103">PinY, cellule (section Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="82a04-103">PinY Cell (Shape Transform Section)</span></span>
+# <a name="piny-cell-shape-transform-section"></a><span data-ttu-id="5573b-103">PinY, cellule (section Shape Transform)</span><span class="sxs-lookup"><span data-stu-id="5573b-103">PinY Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="82a04-104">Représente la  *coordonnée y*  de l’axe de la forme (centre de rotation) par rapport à l’origine de son parent.</span><span class="sxs-lookup"><span data-stu-id="82a04-104">Represents the  *y*  -coordinate of the shape's pin (center of rotation) in relation to the origin of its parent.</span></span> 
+<span data-ttu-id="5573b-104">Représente la  *coordonnée y*  de l’axe de la forme (centre de rotation) par rapport à l’origine de son parent.</span><span class="sxs-lookup"><span data-stu-id="5573b-104">Represents the  *y*  -coordinate of the shape's pin (center of rotation) in relation to the origin of its parent.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="82a04-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="82a04-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5573b-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="5573b-105">Remarks</span></span>
 
-<span data-ttu-id="82a04-106">Pour obtenir une référence à la cellule PinY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="82a04-106">To get a reference to the PinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="5573b-106">Pour obtenir une référence à la cellule PinY par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="5573b-106">To get a reference to the PinY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="82a04-107">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="82a04-107">Cell name:</span></span>  <br/> | <span data-ttu-id="82a04-108">PinY</span><span class="sxs-lookup"><span data-stu-id="82a04-108">PinY</span></span>  <br/> |
+| <span data-ttu-id="5573b-107">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="5573b-107">Cell name:</span></span>  <br/> | <span data-ttu-id="5573b-108">PinY</span><span class="sxs-lookup"><span data-stu-id="5573b-108">PinY</span></span>  <br/> |
    
-<span data-ttu-id="82a04-109">Pour obtenir une référence à la cellule PinY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="82a04-109">To get a reference to the PinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="5573b-109">Pour obtenir une référence à la cellule PinY à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="5573b-109">To get a reference to the PinY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="82a04-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="82a04-110">Section index:</span></span>  <br/> |<span data-ttu-id="82a04-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="82a04-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="82a04-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="82a04-112">Row index:</span></span>  <br/> |<span data-ttu-id="82a04-113">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="82a04-113">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="82a04-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="82a04-114">Cell index:</span></span>  <br/> |<span data-ttu-id="82a04-115">**visXFormPinY**</span><span class="sxs-lookup"><span data-stu-id="82a04-115">**visXFormPinY**</span></span> <br/> |
+| <span data-ttu-id="5573b-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="5573b-110">Section index:</span></span>  <br/> |<span data-ttu-id="5573b-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="5573b-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="5573b-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="5573b-112">Row index:</span></span>  <br/> |<span data-ttu-id="5573b-113">**visRowXFormOut**</span><span class="sxs-lookup"><span data-stu-id="5573b-113">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="5573b-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="5573b-114">Cell index:</span></span>  <br/> |<span data-ttu-id="5573b-115">**visXFormPinY**</span><span class="sxs-lookup"><span data-stu-id="5573b-115">**visXFormPinY**</span></span> <br/> |
    
 

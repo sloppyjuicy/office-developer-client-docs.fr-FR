@@ -13,30 +13,30 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411483"
 ---
-# <a name="datetime-functions-access-custom-web-app"></a><span data-ttu-id="b4803-102">Fonctions de date/heure (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="b4803-102">Date/time functions (Access custom web app)</span></span>
+# <a name="datetime-functions-access-custom-web-app"></a><span data-ttu-id="4e4f7-102">Fonctions de date/heure (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-102">Date/time functions (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="b4803-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="b4803-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="4e4f7-p101">Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles.</span><span class="sxs-lookup"><span data-stu-id="4e4f7-p101">Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
 
 
-- [<span data-ttu-id="b4803-105">DateAdd, fonction (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="b4803-105">DateAdd function (Access custom web app)</span></span>](dateadd-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-105">DateAdd, fonction (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-105">DateAdd function (Access custom web app)</span></span>](dateadd-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="b4803-106">DateDiff, fonction (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="b4803-106">DateDiff function (Access custom web app)</span></span>](datediff-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-106">DateDiff, fonction (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-106">DateDiff function (Access custom web app)</span></span>](datediff-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="b4803-107">Fonction DateFromParts (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="b4803-107">DateFromParts function (Access custom web app)</span></span>](datefromparts-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-107">Fonction DateFromParts (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-107">DateFromParts function (Access custom web app)</span></span>](datefromparts-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="b4803-108">Fonction DatePart (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="b4803-108">DatePart function (Access custom web app)</span></span>](datepart-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-108">Fonction DatePart (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-108">DatePart function (Access custom web app)</span></span>](datepart-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="b4803-109">Day function (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="b4803-109">Day function (Access custom web app)</span></span>](day-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-109">Day function (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-109">Day function (Access custom web app)</span></span>](day-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="b4803-110">Fonction EOMonth (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="b4803-110">EOMonth function (Access custom web app)</span></span>](eomonth-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-110">Fonction EOMonth (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-110">EOMonth function (Access custom web app)</span></span>](eomonth-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="b4803-111">Month function (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="b4803-111">Month function (Access custom web app)</span></span>](month-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-111">Month function (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-111">Month function (Access custom web app)</span></span>](month-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="b4803-112">Fonction Now (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="b4803-112">Now function (Access custom web app)</span></span>](now-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-112">Fonction Now (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-112">Now function (Access custom web app)</span></span>](now-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="b4803-113">Fonction Today (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="b4803-113">Today function (Access custom web app)</span></span>](today-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-113">Fonction Today (application web personnalisée Access)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-113">Today function (Access custom web app)</span></span>](today-function-access-custom-web-app.md)
     
-- [<span data-ttu-id="b4803-114">Year function (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="b4803-114">Year function (Access custom web app)</span></span>](year-function-access-custom-web-app.md)
+- [<span data-ttu-id="4e4f7-114">Year function (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="4e4f7-114">Year function (Access custom web app)</span></span>](year-function-access-custom-web-app.md)
     
 

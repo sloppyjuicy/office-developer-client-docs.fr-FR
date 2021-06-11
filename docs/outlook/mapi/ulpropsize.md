@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416901"
 ---
-# <a name="ulpropsize"></a><span data-ttu-id="a0cb5-103">UlPropSize</span><span class="sxs-lookup"><span data-stu-id="a0cb5-103">UlPropSize</span></span>
+# <a name="ulpropsize"></a><span data-ttu-id="54ff1-103">UlPropSize</span><span class="sxs-lookup"><span data-stu-id="54ff1-103">UlPropSize</span></span>
 
   
   
-<span data-ttu-id="a0cb5-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a0cb5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="54ff1-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="54ff1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a0cb5-105">Renvoie la taille d’une valeur de propriété unique.</span><span class="sxs-lookup"><span data-stu-id="a0cb5-105">Returns the size of a single property value.</span></span> 
+<span data-ttu-id="54ff1-105">Renvoie la taille d’une valeur de propriété unique.</span><span class="sxs-lookup"><span data-stu-id="54ff1-105">Returns the size of a single property value.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a0cb5-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="a0cb5-106">Header file:</span></span>  <br/> |<span data-ttu-id="a0cb5-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="a0cb5-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="a0cb5-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="a0cb5-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="a0cb5-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="a0cb5-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="a0cb5-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="a0cb5-110">Called by:</span></span>  <br/> |<span data-ttu-id="a0cb5-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="a0cb5-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="54ff1-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="54ff1-106">Header file:</span></span>  <br/> |<span data-ttu-id="54ff1-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="54ff1-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="54ff1-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="54ff1-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="54ff1-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="54ff1-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="54ff1-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="54ff1-110">Called by:</span></span>  <br/> |<span data-ttu-id="54ff1-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="54ff1-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 ULONG UlPropSize(
@@ -39,24 +39,24 @@ ULONG UlPropSize(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a0cb5-112">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a0cb5-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="54ff1-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="54ff1-112">Parameters</span></span>
 
- <span data-ttu-id="a0cb5-113">_lpSPropValue_</span><span class="sxs-lookup"><span data-stu-id="a0cb5-113">_lpSPropValue_</span></span>
+ <span data-ttu-id="54ff1-113">_lpSPropValue_</span><span class="sxs-lookup"><span data-stu-id="54ff1-113">_lpSPropValue_</span></span>
   
-> <span data-ttu-id="a0cb5-114">[in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant la propriété à mesurer.</span><span class="sxs-lookup"><span data-stu-id="a0cb5-114">[in] Pointer to an [SPropValue](spropvalue.md) structure defining the property to be measured.</span></span> 
+> <span data-ttu-id="54ff1-114">[in] Pointeur vers une structure [SPropValue](spropvalue.md) définissant la propriété à mesurer.</span><span class="sxs-lookup"><span data-stu-id="54ff1-114">[in] Pointer to an [SPropValue](spropvalue.md) structure defining the property to be measured.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="a0cb5-115">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="a0cb5-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="54ff1-115">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="54ff1-115">Return value</span></span>
 
-<span data-ttu-id="a0cb5-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="a0cb5-116">S_OK</span></span> 
+<span data-ttu-id="54ff1-116">S_OK</span><span class="sxs-lookup"><span data-stu-id="54ff1-116">S_OK</span></span> 
   
-> <span data-ttu-id="a0cb5-117">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="a0cb5-117">The call succeeded and has returned the expected value or values.</span></span> 
+> <span data-ttu-id="54ff1-117">L'appel a r�ussi et a renvoy� la valeur attendue ou les valeurs.</span><span class="sxs-lookup"><span data-stu-id="54ff1-117">The call succeeded and has returned the expected value or values.</span></span> 
     
-<span data-ttu-id="a0cb5-118">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="a0cb5-118">MAPI_E_CALL_FAILED</span></span> 
+<span data-ttu-id="54ff1-118">MAPI_E_CALL_FAILED</span><span class="sxs-lookup"><span data-stu-id="54ff1-118">MAPI_E_CALL_FAILED</span></span> 
   
-> <span data-ttu-id="a0cb5-119">Une erreur d’origine inattendue ou inconnue a empêché l’exécution de l’opération.</span><span class="sxs-lookup"><span data-stu-id="a0cb5-119">An error of unexpected or unknown origin prevented the operation from completing.</span></span>
+> <span data-ttu-id="54ff1-119">Une erreur d’origine inattendue ou inconnue a empêché l’exécution de l’opération.</span><span class="sxs-lookup"><span data-stu-id="54ff1-119">An error of unexpected or unknown origin prevented the operation from completing.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="a0cb5-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="a0cb5-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="54ff1-120">Remarques</span><span class="sxs-lookup"><span data-stu-id="54ff1-120">Remarks</span></span>
 
-<span data-ttu-id="a0cb5-121">La **fonction UlPropSize** renvoie la taille, en octets, de la valeur de la propriété spécifiée.</span><span class="sxs-lookup"><span data-stu-id="a0cb5-121">The **UlPropSize** function returns the size, in bytes, of the property value for the specified property.</span></span> <span data-ttu-id="a0cb5-122">Il ignore la taille du reste de la structure **SPropValue.**</span><span class="sxs-lookup"><span data-stu-id="a0cb5-122">It disregards the size of the remainder of the **SPropValue** structure.</span></span> 
+<span data-ttu-id="54ff1-121">La **fonction UlPropSize** renvoie la taille, en octets, de la valeur de la propriété spécifiée.</span><span class="sxs-lookup"><span data-stu-id="54ff1-121">The **UlPropSize** function returns the size, in bytes, of the property value for the specified property.</span></span> <span data-ttu-id="54ff1-122">Il ignore la taille du reste de la structure **SPropValue.**</span><span class="sxs-lookup"><span data-stu-id="54ff1-122">It disregards the size of the remainder of the **SPropValue** structure.</span></span> 
   
 

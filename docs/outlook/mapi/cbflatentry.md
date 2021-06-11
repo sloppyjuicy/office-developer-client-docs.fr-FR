@@ -19,35 +19,35 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413975"
 ---
-# <a name="cbflatentry"></a><span data-ttu-id="f8462-103">CbFLATENTRY</span><span class="sxs-lookup"><span data-stu-id="f8462-103">CbFLATENTRY</span></span>
+# <a name="cbflatentry"></a><span data-ttu-id="1d653-103">CbFLATENTRY</span><span class="sxs-lookup"><span data-stu-id="1d653-103">CbFLATENTRY</span></span>
 
   
   
-<span data-ttu-id="f8462-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f8462-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1d653-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1d653-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f8462-105">Calcule le nombre d’octets dans une structure [FLATENTRY](flatentry.md) existante.</span><span class="sxs-lookup"><span data-stu-id="f8462-105">Computes the number of bytes in an existing [FLATENTRY](flatentry.md) structure.</span></span> 
+<span data-ttu-id="1d653-105">Calcule le nombre d’octets dans une structure [FLATENTRY](flatentry.md) existante.</span><span class="sxs-lookup"><span data-stu-id="1d653-105">Computes the number of bytes in an existing [FLATENTRY](flatentry.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f8462-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="f8462-106">Header file:</span></span>  <br/> |<span data-ttu-id="f8462-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f8462-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="f8462-108">Structure connexe :</span><span class="sxs-lookup"><span data-stu-id="f8462-108">Related structure:</span></span>  <br/> |<span data-ttu-id="f8462-109">**FLATENTRY**</span><span class="sxs-lookup"><span data-stu-id="f8462-109">**FLATENTRY**</span></span> <br/> |
+|<span data-ttu-id="1d653-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="1d653-106">Header file:</span></span>  <br/> |<span data-ttu-id="1d653-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="1d653-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="1d653-108">Structure connexe :</span><span class="sxs-lookup"><span data-stu-id="1d653-108">Related structure:</span></span>  <br/> |<span data-ttu-id="1d653-109">**FLATENTRY**</span><span class="sxs-lookup"><span data-stu-id="1d653-109">**FLATENTRY**</span></span> <br/> |
    
 ```cpp
 CbFLATENTRY (_lpentry)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f8462-110">Paramètres</span><span class="sxs-lookup"><span data-stu-id="f8462-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1d653-110">Parameters</span><span class="sxs-lookup"><span data-stu-id="1d653-110">Parameters</span></span>
 
- <span data-ttu-id="f8462-111">_ _lpentry_</span><span class="sxs-lookup"><span data-stu-id="f8462-111">_ _lpentry_</span></span>
+ <span data-ttu-id="1d653-111">_ _lpentry_</span><span class="sxs-lookup"><span data-stu-id="1d653-111">_ _lpentry_</span></span>
   
-> <span data-ttu-id="f8462-112">Pointeur vers la structure **FLATENTRY** existante.</span><span class="sxs-lookup"><span data-stu-id="f8462-112">Pointer to the existing **FLATENTRY** structure.</span></span> 
+> <span data-ttu-id="1d653-112">Pointeur vers la structure **FLATENTRY** existante.</span><span class="sxs-lookup"><span data-stu-id="1d653-112">Pointer to the existing **FLATENTRY** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="f8462-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f8462-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1d653-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1d653-113">See also</span></span>
 
 
 
-[<span data-ttu-id="f8462-114">FLATENTRY</span><span class="sxs-lookup"><span data-stu-id="f8462-114">FLATENTRY</span></span>](flatentry.md)
+[<span data-ttu-id="1d653-114">FLATENTRY</span><span class="sxs-lookup"><span data-stu-id="1d653-114">FLATENTRY</span></span>](flatentry.md)
 
 
-[<span data-ttu-id="f8462-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="f8462-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="1d653-115">Macros liées aux structures</span><span class="sxs-lookup"><span data-stu-id="1d653-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

@@ -19,49 +19,49 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411028"
 ---
-# <a name="pidtagsearch-canonical-property"></a><span data-ttu-id="c823c-103">Propriété canonique PidTagSearch</span><span class="sxs-lookup"><span data-stu-id="c823c-103">PidTagSearch Canonical Property</span></span>
+# <a name="pidtagsearch-canonical-property"></a><span data-ttu-id="609e3-103">Propriété canonique PidTagSearch</span><span class="sxs-lookup"><span data-stu-id="609e3-103">PidTagSearch Canonical Property</span></span>
 
   
   
-<span data-ttu-id="c823c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c823c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="609e3-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="609e3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c823c-105">Contient un objet conteneur utilisé pour les recherches avancées.</span><span class="sxs-lookup"><span data-stu-id="c823c-105">Contains a container object that is used for advanced searches.</span></span>
+<span data-ttu-id="609e3-105">Contient un objet conteneur utilisé pour les recherches avancées.</span><span class="sxs-lookup"><span data-stu-id="609e3-105">Contains a container object that is used for advanced searches.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="c823c-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="c823c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c823c-107">PR_SEARCH</span><span class="sxs-lookup"><span data-stu-id="c823c-107">PR_SEARCH</span></span>  <br/> |
-|<span data-ttu-id="c823c-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="c823c-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c823c-109">0x3607</span><span class="sxs-lookup"><span data-stu-id="c823c-109">0x3607</span></span>  <br/> |
-|<span data-ttu-id="c823c-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="c823c-110">Data type:</span></span>  <br/> |<span data-ttu-id="c823c-111">PT_OBJECT</span><span class="sxs-lookup"><span data-stu-id="c823c-111">PT_OBJECT</span></span>  <br/> |
-|<span data-ttu-id="c823c-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="c823c-112">Area:</span></span>  <br/> |<span data-ttu-id="c823c-113">Conteneur de carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="c823c-113">Address book container</span></span>  <br/> |
+|<span data-ttu-id="609e3-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="609e3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="609e3-107">PR_SEARCH</span><span class="sxs-lookup"><span data-stu-id="609e3-107">PR_SEARCH</span></span>  <br/> |
+|<span data-ttu-id="609e3-108">Identificateur :</span><span class="sxs-lookup"><span data-stu-id="609e3-108">Identifier:</span></span>  <br/> |<span data-ttu-id="609e3-109">0x3607</span><span class="sxs-lookup"><span data-stu-id="609e3-109">0x3607</span></span>  <br/> |
+|<span data-ttu-id="609e3-110">Type de données :</span><span class="sxs-lookup"><span data-stu-id="609e3-110">Data type:</span></span>  <br/> |<span data-ttu-id="609e3-111">PT_OBJECT</span><span class="sxs-lookup"><span data-stu-id="609e3-111">PT_OBJECT</span></span>  <br/> |
+|<span data-ttu-id="609e3-112">Domaine :</span><span class="sxs-lookup"><span data-stu-id="609e3-112">Area:</span></span>  <br/> |<span data-ttu-id="609e3-113">Conteneur de carnet d’adresses</span><span class="sxs-lookup"><span data-stu-id="609e3-113">Address book container</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="c823c-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="c823c-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="609e3-114">Remarques</span><span class="sxs-lookup"><span data-stu-id="609e3-114">Remarks</span></span>
 
-<span data-ttu-id="c823c-115">Un conteneur qui ne prend pas en charge les fonctionnalités de recherche avancées n’a pas besoin de fournir la propriété.</span><span class="sxs-lookup"><span data-stu-id="c823c-115">A container that does not support advanced search capabilities does not have to supply the property.</span></span>
+<span data-ttu-id="609e3-115">Un conteneur qui ne prend pas en charge les fonctionnalités de recherche avancées n’a pas besoin de fournir la propriété.</span><span class="sxs-lookup"><span data-stu-id="609e3-115">A container that does not support advanced search capabilities does not have to supply the property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="c823c-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="c823c-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="609e3-116">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="609e3-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="c823c-117">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="c823c-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="609e3-117">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="609e3-117">Header files</span></span>
 
-<span data-ttu-id="c823c-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c823c-118">Mapidefs.h</span></span>
+<span data-ttu-id="609e3-118">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="609e3-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="c823c-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="c823c-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="609e3-119">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="609e3-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="c823c-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="c823c-120">Mapitags.h</span></span>
+<span data-ttu-id="609e3-120">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="609e3-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="c823c-121">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="c823c-121">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="609e3-121">Contient les définitions des propriétés répertoriées en tant que propriétés associées.</span><span class="sxs-lookup"><span data-stu-id="609e3-121">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="c823c-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c823c-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="609e3-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="609e3-122">See also</span></span>
 
 
 
-[<span data-ttu-id="c823c-123">IMAPIContainer : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="c823c-123">IMAPIContainer : IMAPIProp</span></span>](imapicontainerimapiprop.md)
+[<span data-ttu-id="609e3-123">IMAPIContainer : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="609e3-123">IMAPIContainer : IMAPIProp</span></span>](imapicontainerimapiprop.md)
 
 
-[<span data-ttu-id="c823c-124">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="c823c-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="609e3-124">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="609e3-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="c823c-125">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="c823c-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="609e3-125">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="609e3-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="c823c-126">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="c823c-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="609e3-126">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="609e3-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="c823c-127">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="c823c-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="609e3-127">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="609e3-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

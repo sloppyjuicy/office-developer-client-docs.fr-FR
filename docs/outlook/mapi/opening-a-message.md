@@ -15,36 +15,36 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411091"
 ---
-# <a name="opening-a-message"></a><span data-ttu-id="acd6d-103">Ouverture d’un message</span><span class="sxs-lookup"><span data-stu-id="acd6d-103">Opening a message</span></span>
+# <a name="opening-a-message"></a><span data-ttu-id="cca5c-103">Ouverture d’un message</span><span class="sxs-lookup"><span data-stu-id="cca5c-103">Opening a message</span></span>
  
-<span data-ttu-id="acd6d-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="acd6d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cca5c-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cca5c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-### <a name="to-open-a-message"></a><span data-ttu-id="acd6d-105">Pour ouvrir un message</span><span class="sxs-lookup"><span data-stu-id="acd6d-105">To open a message</span></span>
+### <a name="to-open-a-message"></a><span data-ttu-id="cca5c-105">Pour ouvrir un message</span><span class="sxs-lookup"><span data-stu-id="cca5c-105">To open a message</span></span>
   
-1. <span data-ttu-id="acd6d-106">Récupérez l’identificateur d’entrée du message à partir de l’une des sources suivantes :</span><span class="sxs-lookup"><span data-stu-id="acd6d-106">Retrieve the message's entry identifier from one of the following sources:</span></span>
+1. <span data-ttu-id="cca5c-106">Récupérez l’identificateur d’entrée du message à partir de l’une des sources suivantes :</span><span class="sxs-lookup"><span data-stu-id="cca5c-106">Retrieve the message's entry identifier from one of the following sources:</span></span>
     
-   - <span data-ttu-id="acd6d-107">Ligne qui représente le message dans la table des matières de son dossier parent.</span><span class="sxs-lookup"><span data-stu-id="acd6d-107">The row that represents the message in the contents table of its parent folder.</span></span> <span data-ttu-id="acd6d-108">Pour plus d’informations sur l’working with a folder contents table, see [Contents Tables](contents-tables.md).</span><span class="sxs-lookup"><span data-stu-id="acd6d-108">For more information about working with a folder contents table, see [Contents Tables](contents-tables.md).</span></span>
+   - <span data-ttu-id="cca5c-107">Ligne qui représente le message dans la table des matières de son dossier parent.</span><span class="sxs-lookup"><span data-stu-id="cca5c-107">The row that represents the message in the contents table of its parent folder.</span></span> <span data-ttu-id="cca5c-108">Pour plus d’informations sur l’working with a folder contents table, see [Contents Tables](contents-tables.md).</span><span class="sxs-lookup"><span data-stu-id="cca5c-108">For more information about working with a folder contents table, see [Contents Tables](contents-tables.md).</span></span>
     
-   - <span data-ttu-id="acd6d-109">Membre **lpEntryID** de la structure [NEWMAIL_NOTIFICATION](newmail_notification.md) envoyée avec une nouvelle notification par courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="acd6d-109">The **lpEntryID** member of the [NEWMAIL_NOTIFICATION](newmail_notification.md) structure that is sent with a new mail notification.</span></span> <span data-ttu-id="acd6d-110">Pour plus d’informations sur la réception et la gestion des notifications, voir [Gestion des notifications.](handling-notifications.md)</span><span class="sxs-lookup"><span data-stu-id="acd6d-110">For more information about receiving and handling notifications, see [Handling Notifications](handling-notifications.md).</span></span>
+   - <span data-ttu-id="cca5c-109">Membre **lpEntryID** de la structure [NEWMAIL_NOTIFICATION](newmail_notification.md) envoyée avec une nouvelle notification par courrier électronique.</span><span class="sxs-lookup"><span data-stu-id="cca5c-109">The **lpEntryID** member of the [NEWMAIL_NOTIFICATION](newmail_notification.md) structure that is sent with a new mail notification.</span></span> <span data-ttu-id="cca5c-110">Pour plus d’informations sur la réception et la gestion des notifications, voir [Gestion des notifications.](handling-notifications.md)</span><span class="sxs-lookup"><span data-stu-id="cca5c-110">For more information about receiving and handling notifications, see [Handling Notifications](handling-notifications.md).</span></span>
     
-   - <span data-ttu-id="acd6d-111">Appel à la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) du message demandant la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="acd6d-111">A call to the message's [IMAPIProp::GetProps](imapiprop-getprops.md) method requesting the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.</span></span> 
+   - <span data-ttu-id="cca5c-111">Appel à la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) du message demandant la propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="cca5c-111">A call to the message's [IMAPIProp::GetProps](imapiprop-getprops.md) method requesting the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.</span></span> 
     
-2. <span data-ttu-id="acd6d-112">Appelez l’une des méthodes **OpenEntry** suivantes pour ouvrir le message, en fixant  _lpEntryID_ sur l’identificateur d’entrée du message :</span><span class="sxs-lookup"><span data-stu-id="acd6d-112">Call one of the following **OpenEntry** methods to open the message, setting  _lpEntryID_ to the message's entry identifier:</span></span> 
+2. <span data-ttu-id="cca5c-112">Appelez l’une des méthodes **OpenEntry** suivantes pour ouvrir le message, en fixant  _lpEntryID_ sur l’identificateur d’entrée du message :</span><span class="sxs-lookup"><span data-stu-id="cca5c-112">Call one of the following **OpenEntry** methods to open the message, setting  _lpEntryID_ to the message's entry identifier:</span></span> 
     
-   - [<span data-ttu-id="acd6d-113">IMAPIContainer::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="acd6d-113">IMAPIContainer::OpenEntry</span></span>](imapicontainer-openentry.md)
+   - [<span data-ttu-id="cca5c-113">IMAPIContainer::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="cca5c-113">IMAPIContainer::OpenEntry</span></span>](imapicontainer-openentry.md)
     
-   - [<span data-ttu-id="acd6d-114">IMsgStore::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="acd6d-114">IMsgStore::OpenEntry</span></span>](imsgstore-openentry.md)
+   - [<span data-ttu-id="cca5c-114">IMsgStore::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="cca5c-114">IMsgStore::OpenEntry</span></span>](imsgstore-openentry.md)
     
-   - [<span data-ttu-id="acd6d-115">IMAPISession::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="acd6d-115">IMAPISession::OpenEntry</span></span>](imapisession-openentry.md)
+   - [<span data-ttu-id="cca5c-115">IMAPISession::OpenEntry</span><span class="sxs-lookup"><span data-stu-id="cca5c-115">IMAPISession::OpenEntry</span></span>](imapisession-openentry.md)
     
-  <span data-ttu-id="acd6d-116">La méthode la plus rapide est utilisable uniquement pour les messages entrants et implique l’appel de la méthode **IMAPIFolder::OpenEntry** du dossier de réception.</span><span class="sxs-lookup"><span data-stu-id="acd6d-116">The fastest method is usable only for incoming messages and involves calling the receive folder's **IMAPIFolder::OpenEntry** method.</span></span> <span data-ttu-id="acd6d-117">La méthode la plus rapide suivante, en appelant la méthode **IMsgStore::OpenEntry** de la boutique de messages, est utilisable pour tous les messages, tout comme la méthode la plus lente, en appelant **IMAPISession::OpenEntry**.</span><span class="sxs-lookup"><span data-stu-id="acd6d-117">The next fastest method, calling the message store's **IMsgStore::OpenEntry** method, is usable for all messages as is the slowest method, calling **IMAPISession::OpenEntry**.</span></span>
+  <span data-ttu-id="cca5c-116">La méthode la plus rapide est utilisable uniquement pour les messages entrants et implique l’appel de la méthode **IMAPIFolder::OpenEntry** du dossier de réception.</span><span class="sxs-lookup"><span data-stu-id="cca5c-116">The fastest method is usable only for incoming messages and involves calling the receive folder's **IMAPIFolder::OpenEntry** method.</span></span> <span data-ttu-id="cca5c-117">La méthode la plus rapide suivante, en appelant la méthode **IMsgStore::OpenEntry** de la boutique de messages, est utilisable pour tous les messages, tout comme la méthode la plus lente, en appelant **IMAPISession::OpenEntry**.</span><span class="sxs-lookup"><span data-stu-id="cca5c-117">The next fastest method, calling the message store's **IMsgStore::OpenEntry** method, is usable for all messages as is the slowest method, calling **IMAPISession::OpenEntry**.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="acd6d-118">Les dossiers et leurs tables de contenu peuvent être fermés à tout moment sans affecter les messages qui ont été ouverts à partir de ces derniers.</span><span class="sxs-lookup"><span data-stu-id="acd6d-118">Folders and their contents tables can be closed at any time without adversely affecting any of the messages that were opened from within them.</span></span> 
+> <span data-ttu-id="cca5c-118">Les dossiers et leurs tables de contenu peuvent être fermés à tout moment sans affecter les messages qui ont été ouverts à partir de ces derniers.</span><span class="sxs-lookup"><span data-stu-id="cca5c-118">Folders and their contents tables can be closed at any time without adversely affecting any of the messages that were opened from within them.</span></span> 
   
-### <a name="to-open-a-message-that-has-been-saved-on-disk"></a><span data-ttu-id="acd6d-119">Pour ouvrir un message qui a été enregistré sur disque</span><span class="sxs-lookup"><span data-stu-id="acd6d-119">To open a message that has been saved on disk</span></span>
+### <a name="to-open-a-message-that-has-been-saved-on-disk"></a><span data-ttu-id="cca5c-119">Pour ouvrir un message qui a été enregistré sur disque</span><span class="sxs-lookup"><span data-stu-id="cca5c-119">To open a message that has been saved on disk</span></span>
   
-1. <span data-ttu-id="acd6d-120">Appelez **StgOpenStorage** pour récupérer un pointeur d’interface **IStorage,** en passant le nom du fichier de message pour le paramètre _pwcsName._</span><span class="sxs-lookup"><span data-stu-id="acd6d-120">Call **StgOpenStorage** to retrieve an **IStorage** interface pointer, passing the name of the message file for the  _pwcsName_ parameter.</span></span> 
+1. <span data-ttu-id="cca5c-120">Appelez **StgOpenStorage** pour récupérer un pointeur d’interface **IStorage,** en passant le nom du fichier de message pour le paramètre _pwcsName._</span><span class="sxs-lookup"><span data-stu-id="cca5c-120">Call **StgOpenStorage** to retrieve an **IStorage** interface pointer, passing the name of the message file for the  _pwcsName_ parameter.</span></span> 
     
    ```cpp
     LPSTORAGE pStorage = NULL;
@@ -56,7 +56,7 @@ ms.locfileid: "33411091"
     
    ```
 
-2. <span data-ttu-id="acd6d-121">Appelez **OpenIMsgOnIStg pour** récupérer un pointeur d’interface **IMessage** pour accéder au message.</span><span class="sxs-lookup"><span data-stu-id="acd6d-121">Call **OpenIMsgOnIStg** to retrieve an **IMessage** interface pointer to access the message.</span></span> 
+2. <span data-ttu-id="cca5c-121">Appelez **OpenIMsgOnIStg** pour récupérer un pointeur d’interface **IMessage** pour accéder au message.</span><span class="sxs-lookup"><span data-stu-id="cca5c-121">Call **OpenIMsgOnIStg** to retrieve an **IMessage** interface pointer to access the message.</span></span> 
     
    ```cpp
     LPMESSAGE pMessage = NULL;

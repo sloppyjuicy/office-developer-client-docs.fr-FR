@@ -16,12 +16,12 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413464"
 ---
-# <a name="prompt-cell-actions-section"></a><span data-ttu-id="db72f-103">Prompt, cellule (section Actions)</span><span class="sxs-lookup"><span data-stu-id="db72f-103">Prompt Cell (Actions Section)</span></span>
+# <a name="prompt-cell-actions-section"></a><span data-ttu-id="81079-103">Prompt, cellule (section Actions)</span><span class="sxs-lookup"><span data-stu-id="81079-103">Prompt Cell (Actions Section)</span></span>
 
-<span data-ttu-id="db72f-104">Cette cellule n'est plus utilisée depuis la version Visio 2002.</span><span class="sxs-lookup"><span data-stu-id="db72f-104">Beginning with Visio 2002, this cell is no longer used.</span></span>
+<span data-ttu-id="81079-104">Cette cellule n'est plus utilisée depuis la version Visio 2002.</span><span class="sxs-lookup"><span data-stu-id="81079-104">Beginning with Visio 2002, this cell is no longer used.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="db72f-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="db72f-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="81079-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="81079-105">Remarks</span></span>
 
-<span data-ttu-id="db72f-106">Dans les versions précédentes de Visio, cette cellule définissait le message descriptif qui s'affichait dans la barre d'état lorsque l'utilisateur sélectionnait un raccourci de commande.</span><span class="sxs-lookup"><span data-stu-id="db72f-106">In earlier versions of Visio, this cell specified a descriptive prompt that appeared in the status bar when you selected the corresponding shortcut command.</span></span>
+<span data-ttu-id="81079-106">Dans les versions précédentes de Visio, cette cellule définissait le message descriptif qui s'affichait dans la barre d'état lorsque l'utilisateur sélectionnait un raccourci de commande.</span><span class="sxs-lookup"><span data-stu-id="81079-106">In earlier versions of Visio, this cell specified a descriptive prompt that appeared in the status bar when you selected the corresponding shortcut command.</span></span>
   
 

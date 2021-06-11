@@ -16,24 +16,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416887"
 ---
-# <a name="getval-function"></a><span data-ttu-id="4b1eb-103">Fonction GETVAL</span><span class="sxs-lookup"><span data-stu-id="4b1eb-103">GETVAL Function</span></span>
+# <a name="getval-function"></a><span data-ttu-id="7136c-103">Fonction GETVAL</span><span class="sxs-lookup"><span data-stu-id="7136c-103">GETVAL Function</span></span>
 
-<span data-ttu-id="4b1eb-104">Obtient la valeur d’une cellule et ne recalcule pas la formule lorsque la valeur de la cellule change.</span><span class="sxs-lookup"><span data-stu-id="4b1eb-104">Gets the value of a cell and doesn't recalculate the formula when the cell's value changes.</span></span>
+<span data-ttu-id="7136c-104">Obtient la valeur d’une cellule et ne recalcule pas la formule lorsque la valeur de la cellule change.</span><span class="sxs-lookup"><span data-stu-id="7136c-104">Gets the value of a cell and doesn't recalculate the formula when the cell's value changes.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="4b1eb-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="4b1eb-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7136c-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7136c-105">Syntax</span></span>
 
-<span data-ttu-id="4b1eb-106">GETVAL(\*\* *cellname* \*\* )</span><span class="sxs-lookup"><span data-stu-id="4b1eb-106">GETVAL(\*\* *cellname* \*\* )</span></span> 
+<span data-ttu-id="7136c-106">GETVAL(\*\* *cellname* \*\* )</span><span class="sxs-lookup"><span data-stu-id="7136c-106">GETVAL(\*\* *cellname* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="4b1eb-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4b1eb-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="7136c-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="7136c-107">Parameters</span></span>
 
-|<span data-ttu-id="4b1eb-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="4b1eb-108">**Name**</span></span>|<span data-ttu-id="4b1eb-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="4b1eb-109">**Required/Optional**</span></span>|<span data-ttu-id="4b1eb-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="4b1eb-110">**Data Type**</span></span>|<span data-ttu-id="4b1eb-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="4b1eb-111">**Description**</span></span>|
+|<span data-ttu-id="7136c-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="7136c-108">**Name**</span></span>|<span data-ttu-id="7136c-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="7136c-109">**Required/Optional**</span></span>|<span data-ttu-id="7136c-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="7136c-110">**Data Type**</span></span>|<span data-ttu-id="7136c-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="7136c-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="4b1eb-112">_cellname_</span><span class="sxs-lookup"><span data-stu-id="4b1eb-112">_cellname_</span></span> <br/> |<span data-ttu-id="4b1eb-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="4b1eb-113">Required</span></span>  <br/> |<span data-ttu-id="4b1eb-114">**String**</span><span class="sxs-lookup"><span data-stu-id="4b1eb-114">**String**</span></span> <br/> |<span data-ttu-id="4b1eb-115">Nom de la cellule dont la valeur doit être obtenue.</span><span class="sxs-lookup"><span data-stu-id="4b1eb-115">The name of the cell to get the value of.</span></span>  <br/> |
+| <span data-ttu-id="7136c-112">_cellname_</span><span class="sxs-lookup"><span data-stu-id="7136c-112">_cellname_</span></span> <br/> |<span data-ttu-id="7136c-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="7136c-113">Required</span></span>  <br/> |<span data-ttu-id="7136c-114">**String**</span><span class="sxs-lookup"><span data-stu-id="7136c-114">**String**</span></span> <br/> |<span data-ttu-id="7136c-115">Nom de la cellule dont la valeur doit être obtenue.</span><span class="sxs-lookup"><span data-stu-id="7136c-115">The name of the cell to get the value of.</span></span>  <br/> |
    
-## <a name="example"></a><span data-ttu-id="4b1eb-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="4b1eb-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7136c-116">Exemple</span><span class="sxs-lookup"><span data-stu-id="7136c-116">Example</span></span>
 
-<span data-ttu-id="4b1eb-117">GETVAL(PinX) + GETVAL(VY) + Width</span><span class="sxs-lookup"><span data-stu-id="4b1eb-117">GETVAL(PinX) + GETVAL(PinY) + Width</span></span> 
+<span data-ttu-id="7136c-117">GETVAL(PinX) + GETVAL(VY) + Width</span><span class="sxs-lookup"><span data-stu-id="7136c-117">GETVAL(PinX) + GETVAL(PinY) + Width</span></span> 
   
-<span data-ttu-id="4b1eb-118">Renvoie la somme des valeurs des cellules PinX, PinY et Width.</span><span class="sxs-lookup"><span data-stu-id="4b1eb-118">Returns the sum of the value of the PinX, PinY, and Width cells.</span></span> 
+<span data-ttu-id="7136c-118">Renvoie la somme des valeurs des cellules PinX, PinY et Width.</span><span class="sxs-lookup"><span data-stu-id="7136c-118">Returns the sum of the value of the PinX, PinY, and Width cells.</span></span> 
   
 

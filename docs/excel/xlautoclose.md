@@ -18,53 +18,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415858"
 ---
-# <a name="xlautoclose"></a><span data-ttu-id="4424e-104">xlAutoClose</span><span class="sxs-lookup"><span data-stu-id="4424e-104">xlAutoClose</span></span>
+# <a name="xlautoclose"></a><span data-ttu-id="d78a3-104">xlAutoClose</span><span class="sxs-lookup"><span data-stu-id="d78a3-104">xlAutoClose</span></span>
 
- <span data-ttu-id="4424e-105">**S’applique à**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="4424e-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="d78a3-105">**S’applique à**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d78a3-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="4424e-106">Activée par Microsoft Excel chaque fois que la XLL est désactivée.</span><span class="sxs-lookup"><span data-stu-id="4424e-106">Called by Microsoft Excel whenever the XLL is deactivated.</span></span> <span data-ttu-id="4424e-107">Le complément est désactivé lorsqu’une session Excel se termine normalement.</span><span class="sxs-lookup"><span data-stu-id="4424e-107">The add-in is deactivated when an Excel session ends normally.</span></span> <span data-ttu-id="4424e-108">Le complément peut être désactivé par l’utilisateur pendant une session Excel et, dans ce cas, cette fonction est activée.</span><span class="sxs-lookup"><span data-stu-id="4424e-108">The add-in can be deactivated by the user during an Excel session, and this function will be called in that case.</span></span>
+<span data-ttu-id="d78a3-106">Activée par Microsoft Excel chaque fois que la XLL est désactivée.</span><span class="sxs-lookup"><span data-stu-id="d78a3-106">Called by Microsoft Excel whenever the XLL is deactivated.</span></span> <span data-ttu-id="d78a3-107">Le complément est désactivé lorsqu’une session Excel se termine normalement.</span><span class="sxs-lookup"><span data-stu-id="d78a3-107">The add-in is deactivated when an Excel session ends normally.</span></span> <span data-ttu-id="d78a3-108">Le complément peut être désactivé par l’utilisateur pendant une session Excel et, dans ce cas, cette fonction est activée.</span><span class="sxs-lookup"><span data-stu-id="d78a3-108">The add-in can be deactivated by the user during an Excel session, and this function will be called in that case.</span></span>
   
-<span data-ttu-id="4424e-109">Excel ne requiert pas de XLL pour exécuter et exporter cette fonction, bien que cela soit conseillé afin que votre XLL puisse désinscrire des fonctions et des commandes, libérer des ressources, annuler des personnalisations et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="4424e-109">Excel does not require an XLL to implement and export this function, although it is advisable so that your XLL can unregister functions and commands, release resources, undo customizations, and so on.</span></span> <span data-ttu-id="4424e-110">Si les fonctions et les commandes ne sont pas explicitement désinscrites par la XLL, Excel l’effectue après avoir activé la fonction **xlAutoClose**.</span><span class="sxs-lookup"><span data-stu-id="4424e-110">If functions and commands are not explicitly unregistered by the XLL, Excel does this after calling the **xlAutoClose** function.</span></span> 
+<span data-ttu-id="d78a3-109">Excel ne requiert pas de XLL pour exécuter et exporter cette fonction, bien que cela soit conseillé afin que votre XLL puisse désinscrire des fonctions et des commandes, libérer des ressources, annuler des personnalisations et ainsi de suite.</span><span class="sxs-lookup"><span data-stu-id="d78a3-109">Excel does not require an XLL to implement and export this function, although it is advisable so that your XLL can unregister functions and commands, release resources, undo customizations, and so on.</span></span> <span data-ttu-id="d78a3-110">Si les fonctions et les commandes ne sont pas explicitement désinscrites par la XLL, Excel l’effectue après avoir activé la fonction **xlAutoClose**.</span><span class="sxs-lookup"><span data-stu-id="d78a3-110">If functions and commands are not explicitly unregistered by the XLL, Excel does this after calling the **xlAutoClose** function.</span></span> 
   
 ```cs
 int WINAPI xlAutoClose(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4424e-111">Paramètres</span><span class="sxs-lookup"><span data-stu-id="4424e-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d78a3-111">Paramètres</span><span class="sxs-lookup"><span data-stu-id="d78a3-111">Parameters</span></span>
 
-<span data-ttu-id="4424e-112">Cette fonction ne prend aucun argument.</span><span class="sxs-lookup"><span data-stu-id="4424e-112">This function takes no arguments.</span></span>
+<span data-ttu-id="d78a3-112">Cette fonction ne prend aucun argument.</span><span class="sxs-lookup"><span data-stu-id="d78a3-112">This function takes no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="4424e-113">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="4424e-113">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="d78a3-113">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="d78a3-113">Property value/Return value</span></span>
 
-<span data-ttu-id="4424e-114">Votre exécution de cette fonction doit renvoyer 1 (**ent**).</span><span class="sxs-lookup"><span data-stu-id="4424e-114">Your implementation of this function must return 1 (**int**).</span></span>
+<span data-ttu-id="d78a3-114">Votre exécution de cette fonction doit renvoyer 1 (**ent**).</span><span class="sxs-lookup"><span data-stu-id="d78a3-114">Your implementation of this function must return 1 (**int**).</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4424e-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="4424e-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d78a3-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="d78a3-115">Remarks</span></span>
 
-<span data-ttu-id="4424e-116">Excel active la fonction **xlAutoClose** chaque fois que la XLL est désactivée, autrement dit, déchargée à partir de la mémoire.</span><span class="sxs-lookup"><span data-stu-id="4424e-116">Excel calls the **xlAutoClose** function whenever the XLL is deactivated, that is, unloaded from memory.</span></span> <span data-ttu-id="4424e-117">La XLL est désactivée dans les situations suivantes :</span><span class="sxs-lookup"><span data-stu-id="4424e-117">The XLL is deactivated in the following situations:</span></span> 
+<span data-ttu-id="d78a3-116">Excel active la fonction **xlAutoClose** chaque fois que la XLL est désactivée, autrement dit, déchargée à partir de la mémoire.</span><span class="sxs-lookup"><span data-stu-id="d78a3-116">Excel calls the **xlAutoClose** function whenever the XLL is deactivated, that is, unloaded from memory.</span></span> <span data-ttu-id="d78a3-117">La XLL est désactivée dans les situations suivantes :</span><span class="sxs-lookup"><span data-stu-id="d78a3-117">The XLL is deactivated in the following situations:</span></span> 
   
-- <span data-ttu-id="4424e-118">À la fin d’une session normale Excel si celle-ci est active au cours de cette session.</span><span class="sxs-lookup"><span data-stu-id="4424e-118">At the normal end of an Excel session if active during that session.</span></span>
+- <span data-ttu-id="d78a3-118">À la fin d’une session normale Excel si celle-ci est active au cours de cette session.</span><span class="sxs-lookup"><span data-stu-id="d78a3-118">At the normal end of an Excel session if active during that session.</span></span>
     
-- <span data-ttu-id="4424e-119">Si elle est explicitement déchargée pendant une session Excel.</span><span class="sxs-lookup"><span data-stu-id="4424e-119">If explicitly unloaded during an Excel session.</span></span>
+- <span data-ttu-id="d78a3-119">Si elle est explicitement déchargée pendant une session Excel.</span><span class="sxs-lookup"><span data-stu-id="d78a3-119">If explicitly unloaded during an Excel session.</span></span>
     
-- <span data-ttu-id="4424e-120">Une XLL peut être déchargée de différentes manières :</span><span class="sxs-lookup"><span data-stu-id="4424e-120">An XLL can be unloaded in several ways:</span></span>
+- <span data-ttu-id="d78a3-120">Une XLL peut être déchargée de différentes manières :</span><span class="sxs-lookup"><span data-stu-id="d78a3-120">An XLL can be unloaded in several ways:</span></span>
     
-- <span data-ttu-id="4424e-121">À l’aide du Gestionnaire de compléments.</span><span class="sxs-lookup"><span data-stu-id="4424e-121">Using the Add-In Manager.</span></span>
+- <span data-ttu-id="d78a3-121">À l’aide du Gestionnaire de compléments.</span><span class="sxs-lookup"><span data-stu-id="d78a3-121">Using the Add-In Manager.</span></span>
     
-- <span data-ttu-id="4424e-122">À partir d’une autre XLL qui active [xlfUnregister](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique.</span><span class="sxs-lookup"><span data-stu-id="4424e-122">From another XLL that calls [xlfUnregister](xlfunregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
+- <span data-ttu-id="d78a3-122">À partir d’une autre XLL qui active [xlfUnregister](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique.</span><span class="sxs-lookup"><span data-stu-id="d78a3-122">From another XLL that calls [xlfUnregister](xlfunregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
     
-- <span data-ttu-id="4424e-123">À partir d’une autre feuille macro XLL qui active [DÉSINCRIRE](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique.</span><span class="sxs-lookup"><span data-stu-id="4424e-123">From an XLM macro sheet that calls [UNREGISTER](xlfunregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
+- <span data-ttu-id="d78a3-123">À partir d’une autre feuille macro XLL qui active [DÉSINCRIRE](xlfunregister-form-1.md) avec le nom de cette DLL comme argument unique.</span><span class="sxs-lookup"><span data-stu-id="d78a3-123">From an XLM macro sheet that calls [UNREGISTER](xlfunregister-form-1.md) with the name of this DLL as the only argument.</span></span> 
     
-<span data-ttu-id="4424e-124">Cette fonction effectue les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="4424e-124">This function should do the following:</span></span>
+<span data-ttu-id="d78a3-124">Cette fonction effectue les opérations suivantes :</span><span class="sxs-lookup"><span data-stu-id="d78a3-124">This function should do the following:</span></span>
   
-- <span data-ttu-id="4424e-125">Supprimer les menus ou les éléments du menu qui ont été ajoutés via la XLL.</span><span class="sxs-lookup"><span data-stu-id="4424e-125">Remove any menus or menu items that were added by the XLL.</span></span>
+- <span data-ttu-id="d78a3-125">Supprimer les menus ou les éléments du menu qui ont été ajoutés via la XLL.</span><span class="sxs-lookup"><span data-stu-id="d78a3-125">Remove any menus or menu items that were added by the XLL.</span></span>
     
-- <span data-ttu-id="4424e-126">Effectuer tout nettoyage général nécessaire.</span><span class="sxs-lookup"><span data-stu-id="4424e-126">Perform any necessary global cleanup.</span></span>
+- <span data-ttu-id="d78a3-126">Effectuer tout nettoyage général nécessaire.</span><span class="sxs-lookup"><span data-stu-id="d78a3-126">Perform any necessary global cleanup.</span></span>
     
-- <span data-ttu-id="4424e-127">Supprimer les noms qui ont été créés en particulier les noms de fonctions exportées.</span><span class="sxs-lookup"><span data-stu-id="4424e-127">Delete any names that were created, especially names of exported functions.</span></span> <span data-ttu-id="4424e-128">N’oubliez pas qu’inscrire les fonctions peut entraîner la création de certains noms, si le quatrième argument de **INSCRIRE** est présent.</span><span class="sxs-lookup"><span data-stu-id="4424e-128">Remember that registering functions may cause some names to be created, if the fourth argument to **REGISTER** is present.</span></span> 
+- <span data-ttu-id="d78a3-127">Supprimer les noms qui ont été créés en particulier les noms de fonctions exportées.</span><span class="sxs-lookup"><span data-stu-id="d78a3-127">Delete any names that were created, especially names of exported functions.</span></span> <span data-ttu-id="d78a3-128">N’oubliez pas qu’inscrire les fonctions peut entraîner la création de certains noms, si le quatrième argument de **INSCRIRE** est présent.</span><span class="sxs-lookup"><span data-stu-id="d78a3-128">Remember that registering functions may cause some names to be created, if the fourth argument to **REGISTER** is present.</span></span> 
     
-## <a name="example"></a><span data-ttu-id="4424e-129">Exemple</span><span class="sxs-lookup"><span data-stu-id="4424e-129">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d78a3-129">Exemple</span><span class="sxs-lookup"><span data-stu-id="d78a3-129">Example</span></span>
 
-<span data-ttu-id="4424e-130">Reportez-vous aux fichiers `SAMPLES\EXAMPLE\EXAMPLE.C` et `SAMPLES\GENERIC\GENERIC.C` pour des exemples d’implémentation de cette fonction.</span><span class="sxs-lookup"><span data-stu-id="4424e-130">See the files  `SAMPLES\EXAMPLE\EXAMPLE.C` and  `SAMPLES\GENERIC\GENERIC.C` for example implementations of this function.</span></span> <span data-ttu-id="4424e-131">Le code suivant provient de `SAMPLES\GENERIC\GENERIC.C`.</span><span class="sxs-lookup"><span data-stu-id="4424e-131">The following code is from  `SAMPLES\GENERIC\GENERIC.C`.</span></span>
+<span data-ttu-id="d78a3-130">Reportez-vous aux fichiers `SAMPLES\EXAMPLE\EXAMPLE.C` et `SAMPLES\GENERIC\GENERIC.C` pour des exemples d’implémentation de cette fonction.</span><span class="sxs-lookup"><span data-stu-id="d78a3-130">See the files  `SAMPLES\EXAMPLE\EXAMPLE.C` and  `SAMPLES\GENERIC\GENERIC.C` for example implementations of this function.</span></span> <span data-ttu-id="d78a3-131">Le code suivant provient de `SAMPLES\GENERIC\GENERIC.C`.</span><span class="sxs-lookup"><span data-stu-id="d78a3-131">The following code is from  `SAMPLES\GENERIC\GENERIC.C`.</span></span>
   
 ```cs
 int WINAPI xlAutoClose(void)
@@ -109,12 +109,12 @@ int WINAPI xlAutoClose(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="4424e-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4424e-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d78a3-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d78a3-132">See also</span></span>
 
 
 
-[<span data-ttu-id="4424e-133">xlAutoOpen</span><span class="sxs-lookup"><span data-stu-id="4424e-133">xlAutoOpen</span></span>](xlautoopen.md)
+[<span data-ttu-id="d78a3-133">xlAutoOpen</span><span class="sxs-lookup"><span data-stu-id="d78a3-133">xlAutoOpen</span></span>](xlautoopen.md)
 
 
-[<span data-ttu-id="4424e-134">Fonctions du Gestionnaire de compléments et de l’interface XLL</span><span class="sxs-lookup"><span data-stu-id="4424e-134">Add-in Manager and XLL Interface Functions</span></span>](add-in-manager-and-xll-interface-functions.md)
+[<span data-ttu-id="d78a3-134">Fonctions du Gestionnaire de compléments et de l’interface XLL</span><span class="sxs-lookup"><span data-stu-id="d78a3-134">Add-in Manager and XLL Interface Functions</span></span>](add-in-manager-and-xll-interface-functions.md)
 
