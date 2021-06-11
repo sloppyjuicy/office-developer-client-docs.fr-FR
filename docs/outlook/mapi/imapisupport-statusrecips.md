@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408767"
 ---
-# <a name="imapisupportstatusrecips"></a><span data-ttu-id="e9f39-103">IMAPISupport::StatusRecips</span><span class="sxs-lookup"><span data-stu-id="e9f39-103">IMAPISupport::StatusRecips</span></span>
+# <a name="imapisupportstatusrecips"></a><span data-ttu-id="1bf5b-103">IMAPISupport::StatusRecips</span><span class="sxs-lookup"><span data-stu-id="1bf5b-103">IMAPISupport::StatusRecips</span></span>
 
   
   
-<span data-ttu-id="e9f39-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e9f39-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1bf5b-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1bf5b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e9f39-105">Génère des rapports de remise et de non remise.</span><span class="sxs-lookup"><span data-stu-id="e9f39-105">Generates delivery and nondelivery reports.</span></span>
+<span data-ttu-id="1bf5b-105">Génère des rapports de remise et de non remise.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-105">Generates delivery and nondelivery reports.</span></span>
   
 ```cpp
 HRESULT StatusRecips(
@@ -34,57 +34,57 @@ LPADRLIST lpRecipList
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e9f39-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="e9f39-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1bf5b-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="1bf5b-106">Parameters</span></span>
 
- <span data-ttu-id="e9f39-107">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="e9f39-107">_lpMessage_</span></span>
+ <span data-ttu-id="1bf5b-107">_lpMessage_</span><span class="sxs-lookup"><span data-stu-id="1bf5b-107">_lpMessage_</span></span>
   
-> <span data-ttu-id="e9f39-108">[in] Pointeur vers le message pour lequel le rapport doit être généré.</span><span class="sxs-lookup"><span data-stu-id="e9f39-108">[in] A pointer to the message for which the report should be generated.</span></span>
+> <span data-ttu-id="1bf5b-108">[in] Pointeur vers le message pour lequel le rapport doit être généré.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-108">[in] A pointer to the message for which the report should be generated.</span></span>
     
- <span data-ttu-id="e9f39-109">_lpRecipList_</span><span class="sxs-lookup"><span data-stu-id="e9f39-109">_lpRecipList_</span></span>
+ <span data-ttu-id="1bf5b-109">_lpRecipList_</span><span class="sxs-lookup"><span data-stu-id="1bf5b-109">_lpRecipList_</span></span>
   
-> <span data-ttu-id="e9f39-110">[in] Pointeur vers une structure [ADRLIST](adrlist.md) qui décrit les destinataires du message pointés par  _lpMessage_.</span><span class="sxs-lookup"><span data-stu-id="e9f39-110">[in] A pointer to an [ADRLIST](adrlist.md) structure that describes the recipients of the message pointed to by  _lpMessage_.</span></span>
+> <span data-ttu-id="1bf5b-110">[in] Pointeur vers une structure [ADRLIST](adrlist.md) qui décrit les destinataires du message pointés par  _lpMessage_.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-110">[in] A pointer to an [ADRLIST](adrlist.md) structure that describes the recipients of the message pointed to by  _lpMessage_.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e9f39-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="e9f39-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1bf5b-111">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="1bf5b-111">Return value</span></span>
 
-<span data-ttu-id="e9f39-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="e9f39-112">S_OK</span></span> 
+<span data-ttu-id="1bf5b-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="1bf5b-112">S_OK</span></span> 
   
-> <span data-ttu-id="e9f39-113">Le rapport a été généré avec succès.</span><span class="sxs-lookup"><span data-stu-id="e9f39-113">The report was successfully generated.</span></span>
+> <span data-ttu-id="1bf5b-113">Le rapport a été généré avec succès.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-113">The report was successfully generated.</span></span>
     
-<span data-ttu-id="e9f39-114">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="e9f39-114">MAPI_W_ERRORS_RETURNED</span></span> 
+<span data-ttu-id="1bf5b-114">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="1bf5b-114">MAPI_W_ERRORS_RETURNED</span></span> 
   
-> <span data-ttu-id="e9f39-115">L’appel a réussi globalement, mais il n’existe aucune option de destinataire pour ce type de destinataire.</span><span class="sxs-lookup"><span data-stu-id="e9f39-115">The call succeeded overall, but there are no recipient options for this type of recipient.</span></span> <span data-ttu-id="e9f39-116">Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi.</span><span class="sxs-lookup"><span data-stu-id="e9f39-116">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="e9f39-117">Pour tester cet avertissement, utilisez la macro **HR_FAILED.**</span><span class="sxs-lookup"><span data-stu-id="e9f39-117">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="e9f39-118">Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)</span><span class="sxs-lookup"><span data-stu-id="e9f39-118">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
+> <span data-ttu-id="1bf5b-115">L’appel a réussi globalement, mais il n’existe aucune option de destinataire pour ce type de destinataire.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-115">The call succeeded overall, but there are no recipient options for this type of recipient.</span></span> <span data-ttu-id="1bf5b-116">Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-116">When this warning is returned, the call should be handled as successful.</span></span> <span data-ttu-id="1bf5b-117">Pour tester cet avertissement, utilisez la macro **HR_FAILED.**</span><span class="sxs-lookup"><span data-stu-id="1bf5b-117">To test for this warning, use the **HR_FAILED** macro.</span></span> <span data-ttu-id="1bf5b-118">Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)</span><span class="sxs-lookup"><span data-stu-id="1bf5b-118">For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="e9f39-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="e9f39-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1bf5b-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="1bf5b-119">Remarks</span></span>
 
-<span data-ttu-id="e9f39-120">La **méthode IMAPISupport::StatusRecips est** implémentée pour les objets de prise en charge du fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="e9f39-120">The **IMAPISupport::StatusRecips** method is implemented for transport provider support objects.</span></span> <span data-ttu-id="e9f39-121">Les fournisseurs de transport **appellent StatusRecips** pour demander à MAPI d’envoyer un rapport de remise ou de non remise à un ensemble d’un ou plusieurs destinataires d’un message.</span><span class="sxs-lookup"><span data-stu-id="e9f39-121">Transport providers call **StatusRecips** to request that MAPI send a delivery or nondelivery report to a set of one or more of the recipients of a message.</span></span> 
+<span data-ttu-id="1bf5b-120">La **méthode IMAPISupport::StatusRecips est** implémentée pour les objets de prise en charge du fournisseur de transport.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-120">The **IMAPISupport::StatusRecips** method is implemented for transport provider support objects.</span></span> <span data-ttu-id="1bf5b-121">Les fournisseurs de transport **appellent StatusRecips** pour demander à MAPI d’envoyer un rapport de remise ou de non remise à un ensemble d’un ou plusieurs destinataires d’un message.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-121">Transport providers call **StatusRecips** to request that MAPI send a delivery or nondelivery report to a set of one or more of the recipients of a message.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="e9f39-122">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="e9f39-122">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="1bf5b-122">Remarques pour les appelants</span><span class="sxs-lookup"><span data-stu-id="1bf5b-122">Notes to callers</span></span>
 
-<span data-ttu-id="e9f39-123">Vous pouvez appeler **StatusRecips plusieurs** fois pendant le traitement d’un message.</span><span class="sxs-lookup"><span data-stu-id="e9f39-123">You can call **StatusRecips** multiple times during the processing of a message.</span></span> <span data-ttu-id="e9f39-124">Toutefois, si vous appelez **StatusRecips** pour un message ouvert, faites de votre mieux pour collecter toutes les informations de remise et de remise pour les destinataires du message et appeler **StatusRecips** pour cette liste de destinataires.</span><span class="sxs-lookup"><span data-stu-id="e9f39-124">However, if you call **StatusRecips** for an open message, do your best to collect all delivery and nondelivery information for the message recipients and call **StatusRecips** for that recipient list.</span></span> <span data-ttu-id="e9f39-125">Un point de collecte unique est important, car plusieurs appels **StatusRecips** pour un destinataire peuvent entraîner l’envoi de plusieurs rapports identiques.</span><span class="sxs-lookup"><span data-stu-id="e9f39-125">A single point of collection is important, because multiple **StatusRecips** calls for one recipient can result in multiple identical reports being sent.</span></span> 
+<span data-ttu-id="1bf5b-123">Vous pouvez appeler **StatusRecips plusieurs** fois pendant le traitement d’un message.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-123">You can call **StatusRecips** multiple times during the processing of a message.</span></span> <span data-ttu-id="1bf5b-124">Toutefois, si vous appelez **StatusRecips** pour un message ouvert, faites de votre mieux pour collecter toutes les informations de remise et de remise pour les destinataires du message et appeler **StatusRecips** pour cette liste de destinataires.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-124">However, if you call **StatusRecips** for an open message, do your best to collect all delivery and nondelivery information for the message recipients and call **StatusRecips** for that recipient list.</span></span> <span data-ttu-id="1bf5b-125">Un point de collecte unique est important, car plusieurs appels **StatusRecips** pour un destinataire peuvent entraîner l’envoi de plusieurs rapports identiques.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-125">A single point of collection is important, because multiple **StatusRecips** calls for one recipient can result in multiple identical reports being sent.</span></span> 
   
-<span data-ttu-id="e9f39-126">Stockez les propriétés liées à la remise ou à la non remise des messages dans la structure **ADRLIST** indiquée par _le paramètre lpRecipList._</span><span class="sxs-lookup"><span data-stu-id="e9f39-126">Store properties that relate to message delivery or nondelivery in the **ADRLIST** structure indicated by the  _lpRecipList_ parameter.</span></span> <span data-ttu-id="e9f39-127">Pour obtenir la liste complète des propriétés obligatoires et facultatives pour les rapports de remise et les rapports non remise, voir [Propriétés](required-report-message-properties.md) de message de rapport requises et [propriétés facultatives](optional-report-message-properties.md)du message de rapport.</span><span class="sxs-lookup"><span data-stu-id="e9f39-127">For a complete list of required and optional properties for delivery reports and nondelivery reports, see [Required Report Message Properties](required-report-message-properties.md) and [Optional Report Message Properties](optional-report-message-properties.md).</span></span> 
+<span data-ttu-id="1bf5b-126">Stockez les propriétés liées à la remise ou à la non remise des messages dans la structure **ADRLIST** indiquée par _le paramètre lpRecipList._</span><span class="sxs-lookup"><span data-stu-id="1bf5b-126">Store properties that relate to message delivery or nondelivery in the **ADRLIST** structure indicated by the  _lpRecipList_ parameter.</span></span> <span data-ttu-id="1bf5b-127">Pour obtenir la liste complète des propriétés obligatoires et facultatives pour les rapports de remise et les rapports non remise, voir [Propriétés](required-report-message-properties.md) de message de rapport obligatoires et [propriétés facultatives](optional-report-message-properties.md)du message de rapport.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-127">For a complete list of required and optional properties for delivery reports and nondelivery reports, see [Required Report Message Properties](required-report-message-properties.md) and [Optional Report Message Properties](optional-report-message-properties.md).</span></span> 
   
-<span data-ttu-id="e9f39-128">Allouez de la mémoire pour la structure **ADRLIST** dans _lpRecipList_ à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore.](mapiallocatemore.md)</span><span class="sxs-lookup"><span data-stu-id="e9f39-128">Allocate memory for the **ADRLIST** structure in  _lpRecipList_ by using the [MAPIAllocateBuffer](mapiallocatebuffer.md) and [MAPIAllocateMore](mapiallocatemore.md) functions.</span></span> <span data-ttu-id="e9f39-129">MAPI libère la mémoire en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) uniquement si **StatusRecips** réussit.</span><span class="sxs-lookup"><span data-stu-id="e9f39-129">MAPI releases the memory by calling the [MAPIFreeBuffer](mapifreebuffer.md) function only if **StatusRecips** succeeds.</span></span> 
+<span data-ttu-id="1bf5b-128">Allouez de la mémoire pour la structure **ADRLIST** dans _lpRecipList_ à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore.](mapiallocatemore.md)</span><span class="sxs-lookup"><span data-stu-id="1bf5b-128">Allocate memory for the **ADRLIST** structure in  _lpRecipList_ by using the [MAPIAllocateBuffer](mapiallocatebuffer.md) and [MAPIAllocateMore](mapiallocatemore.md) functions.</span></span> <span data-ttu-id="1bf5b-129">MAPI libère la mémoire en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) uniquement si **StatusRecips** réussit.</span><span class="sxs-lookup"><span data-stu-id="1bf5b-129">MAPI releases the memory by calling the [MAPIFreeBuffer](mapifreebuffer.md) function only if **StatusRecips** succeeds.</span></span> 
   
-<span data-ttu-id="e9f39-130">Pour une vue d’ensemble des rapports de remise et de non remise, voir [MESSAGES de rapport MAPI](mapi-report-messages.md).</span><span class="sxs-lookup"><span data-stu-id="e9f39-130">For an overview of delivery and nondelivery reports, see [MAPI Report Messages](mapi-report-messages.md).</span></span>
+<span data-ttu-id="1bf5b-130">Pour une vue d’ensemble des rapports de remise et de non remise, voir [messages de rapport MAPI](mapi-report-messages.md).</span><span class="sxs-lookup"><span data-stu-id="1bf5b-130">For an overview of delivery and nondelivery reports, see [MAPI Report Messages](mapi-report-messages.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="e9f39-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e9f39-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1bf5b-131">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1bf5b-131">See also</span></span>
 
 
 
-[<span data-ttu-id="e9f39-132">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="e9f39-132">ADRLIST</span></span>](adrlist.md)
+[<span data-ttu-id="1bf5b-132">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="1bf5b-132">ADRLIST</span></span>](adrlist.md)
   
-[<span data-ttu-id="e9f39-133">IMAPISupport::Address</span><span class="sxs-lookup"><span data-stu-id="e9f39-133">IMAPISupport::Address</span></span>](imapisupport-address.md)
+[<span data-ttu-id="1bf5b-133">IMAPISupport::Address</span><span class="sxs-lookup"><span data-stu-id="1bf5b-133">IMAPISupport::Address</span></span>](imapisupport-address.md)
   
-[<span data-ttu-id="e9f39-134">IMAPISupport::SpoolerNotify</span><span class="sxs-lookup"><span data-stu-id="e9f39-134">IMAPISupport::SpoolerNotify</span></span>](imapisupport-spoolernotify.md)
+[<span data-ttu-id="1bf5b-134">IMAPISupport::SpoolerNotify</span><span class="sxs-lookup"><span data-stu-id="1bf5b-134">IMAPISupport::SpoolerNotify</span></span>](imapisupport-spoolernotify.md)
   
-[<span data-ttu-id="e9f39-135">IXPLogon::EndMessage</span><span class="sxs-lookup"><span data-stu-id="e9f39-135">IXPLogon::EndMessage</span></span>](ixplogon-endmessage.md)
+[<span data-ttu-id="1bf5b-135">IXPLogon::EndMessage</span><span class="sxs-lookup"><span data-stu-id="1bf5b-135">IXPLogon::EndMessage</span></span>](ixplogon-endmessage.md)
   
-[<span data-ttu-id="e9f39-136">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="e9f39-136">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
+[<span data-ttu-id="1bf5b-136">MAPIAllocateBuffer</span><span class="sxs-lookup"><span data-stu-id="1bf5b-136">MAPIAllocateBuffer</span></span>](mapiallocatebuffer.md)
   
-[<span data-ttu-id="e9f39-137">MAPIAllocateMore</span><span class="sxs-lookup"><span data-stu-id="e9f39-137">MAPIAllocateMore</span></span>](mapiallocatemore.md)
+[<span data-ttu-id="1bf5b-137">MAPIAllocateMore</span><span class="sxs-lookup"><span data-stu-id="1bf5b-137">MAPIAllocateMore</span></span>](mapiallocatemore.md)
   
-[<span data-ttu-id="e9f39-138">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="e9f39-138">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
+[<span data-ttu-id="1bf5b-138">MAPIFreeBuffer</span><span class="sxs-lookup"><span data-stu-id="1bf5b-138">MAPIFreeBuffer</span></span>](mapifreebuffer.md)
   
-[<span data-ttu-id="e9f39-139">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e9f39-139">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="1bf5b-139">IMAPISupport : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1bf5b-139">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 

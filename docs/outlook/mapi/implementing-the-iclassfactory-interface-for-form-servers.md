@@ -15,24 +15,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32310030"
 ---
-# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a><span data-ttu-id="1bcab-103">Mise en œuvre de l’interface IClassFactory pour les serveurs de formulaires</span><span class="sxs-lookup"><span data-stu-id="1bcab-103">Implementing the IClassFactory Interface for Form Servers</span></span>
+# <a name="implementing-the-iclassfactory-interface-for-form-servers"></a><span data-ttu-id="89f7f-103">Mise en œuvre de l’interface IClassFactory pour les serveurs de formulaires</span><span class="sxs-lookup"><span data-stu-id="89f7f-103">Implementing the IClassFactory Interface for Form Servers</span></span>
 
   
   
-<span data-ttu-id="1bcab-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1bcab-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="89f7f-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="89f7f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1bcab-105">[IClassFactory est l’interface](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) OLE que les applications clientes utilisent pour créer des objets de formulaire de la classe de message de votre serveur de formulaires.</span><span class="sxs-lookup"><span data-stu-id="1bcab-105">[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) is the OLE interface that client applications use to create new form objects of your form server's message class.</span></span> <span data-ttu-id="1bcab-106">Le tableau suivant répertorie **les méthodes IClassFactory** qui sont requises.</span><span class="sxs-lookup"><span data-stu-id="1bcab-106">The following table lists the **IClassFactory** methods that are required.</span></span> 
+<span data-ttu-id="89f7f-105">[IClassFactory est l’interface](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) OLE que les applications clientes utilisent pour créer des objets de formulaire de la classe de message de votre serveur de formulaires.</span><span class="sxs-lookup"><span data-stu-id="89f7f-105">[IClassFactory](https://msdn.microsoft.com/library/ms694364%28VS.85%29.aspx) is the OLE interface that client applications use to create new form objects of your form server's message class.</span></span> <span data-ttu-id="89f7f-106">Le tableau suivant répertorie **les méthodes IClassFactory** qui sont requises.</span><span class="sxs-lookup"><span data-stu-id="89f7f-106">The following table lists the **IClassFactory** methods that are required.</span></span> 
   
-|<span data-ttu-id="1bcab-107">**Méthode**</span><span class="sxs-lookup"><span data-stu-id="1bcab-107">**Method**</span></span>|<span data-ttu-id="1bcab-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="1bcab-108">**Description**</span></span>|
+|<span data-ttu-id="89f7f-107">**Méthode**</span><span class="sxs-lookup"><span data-stu-id="89f7f-107">**Method**</span></span>|<span data-ttu-id="89f7f-108">**Description**</span><span class="sxs-lookup"><span data-stu-id="89f7f-108">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="1bcab-109">CreateInstance</span><span class="sxs-lookup"><span data-stu-id="1bcab-109">CreateInstance</span></span>](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |<span data-ttu-id="1bcab-110">Crée un objet de formulaire.</span><span class="sxs-lookup"><span data-stu-id="1bcab-110">Creates a new form object.</span></span>  <br/> |
-|[<span data-ttu-id="1bcab-111">LockServer</span><span class="sxs-lookup"><span data-stu-id="1bcab-111">LockServer</span></span>](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |<span data-ttu-id="1bcab-112">Verrouille le serveur de formulaires en mémoire afin d’éviter la surcharge de démarrage lors de la création de plusieurs objets de formulaire.</span><span class="sxs-lookup"><span data-stu-id="1bcab-112">Locks the form server in memory so that startup overhead can be avoided when multiple form objects are created.</span></span>  <br/> |
+|[<span data-ttu-id="89f7f-109">CreateInstance</span><span class="sxs-lookup"><span data-stu-id="89f7f-109">CreateInstance</span></span>](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |<span data-ttu-id="89f7f-110">Crée un objet de formulaire.</span><span class="sxs-lookup"><span data-stu-id="89f7f-110">Creates a new form object.</span></span>  <br/> |
+|[<span data-ttu-id="89f7f-111">LockServer</span><span class="sxs-lookup"><span data-stu-id="89f7f-111">LockServer</span></span>](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |<span data-ttu-id="89f7f-112">Verrouille le serveur de formulaires en mémoire afin d’éviter la surcharge de démarrage lors de la création de plusieurs objets de formulaire.</span><span class="sxs-lookup"><span data-stu-id="89f7f-112">Locks the form server in memory so that startup overhead can be avoided when multiple form objects are created.</span></span>  <br/> |
    
-<span data-ttu-id="1bcab-113">Pour toutes les informations nécessaires pour implémenter ces méthodes, voir la section COM et ActiveX Object Services dans le SDK Windows.</span><span class="sxs-lookup"><span data-stu-id="1bcab-113">For all the information necessary to implement these methods, see the COM and ActiveX Object Services section in the Windows SDK.</span></span>
+<span data-ttu-id="89f7f-113">Pour toutes les informations nécessaires pour implémenter ces méthodes, voir la section COM et ActiveX Object Services dans Windows SDK.</span><span class="sxs-lookup"><span data-stu-id="89f7f-113">For all the information necessary to implement these methods, see the COM and ActiveX Object Services section in the Windows SDK.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1bcab-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="1bcab-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="89f7f-114">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="89f7f-114">See also</span></span>
 
 
 
-[<span data-ttu-id="1bcab-115">Écriture de code serveur de formulaire</span><span class="sxs-lookup"><span data-stu-id="1bcab-115">Writing Form Server Code</span></span>](writing-form-server-code.md)
+[<span data-ttu-id="89f7f-115">Écriture de code serveur de formulaires</span><span class="sxs-lookup"><span data-stu-id="89f7f-115">Writing Form Server Code</span></span>](writing-form-server-code.md)
 

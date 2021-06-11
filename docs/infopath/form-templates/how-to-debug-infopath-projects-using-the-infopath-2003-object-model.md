@@ -15,8 +15,8 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300258"
 ---
-# <a name="debug-infopath-projects-using-the-infopath-2003-object-model"></a><span data-ttu-id="406fd-104">Débogage de projets InfoPath à l’aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="406fd-104">Debug InfoPath Projects Using the InfoPath 2003 Object Model</span></span>
+# <a name="debug-infopath-projects-using-the-infopath-2003-object-model"></a><span data-ttu-id="7ec29-104">Débogage de projets InfoPath à l’aide du modèle objet InfoPath 2003</span><span class="sxs-lookup"><span data-stu-id="7ec29-104">Debug InfoPath Projects Using the InfoPath 2003 Object Model</span></span>
 
-<span data-ttu-id="406fd-105">Pour plus d’informations sur le débogage du modèle de formulaire InfoPath avec code géré, y compris ceux qui sont codés par rapport au modèle objet InfoPath 2003, voir Aperçu et [Débogage](how-to-preview-and-debug-infopath-form-templates-with-code.md)des modèles de formulaire InfoPath avec code.</span><span class="sxs-lookup"><span data-stu-id="406fd-105">For information on debugging InfoPath managed code form template, including those that are coded against the InfoPath 2003 object model, see [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span></span>
+<span data-ttu-id="7ec29-105">Pour plus d’informations sur le débogage du modèle de formulaire InfoPath avec code géré, y compris ceux qui sont codés par rapport au modèle objet InfoPath 2003, voir Aperçu et [Débogage](how-to-preview-and-debug-infopath-form-templates-with-code.md)des modèles de formulaire InfoPath avec code.</span><span class="sxs-lookup"><span data-stu-id="7ec29-105">For information on debugging InfoPath managed code form template, including those that are coded against the InfoPath 2003 object model, see [Preview and Debug InfoPath Form Templates with Code](how-to-preview-and-debug-infopath-form-templates-with-code.md).</span></span>
   
 

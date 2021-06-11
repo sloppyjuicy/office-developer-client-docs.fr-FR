@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407514"
 ---
-# <a name="ipstx2setspoolsuspendstate"></a><span data-ttu-id="44134-103">IPSTX2::SetSpoolSuspendState</span><span class="sxs-lookup"><span data-stu-id="44134-103">IPSTX2::SetSpoolSuspendState</span></span>
+# <a name="ipstx2setspoolsuspendstate"></a><span data-ttu-id="e8068-103">IPSTX2::SetSpoolSuspendState</span><span class="sxs-lookup"><span data-stu-id="e8068-103">IPSTX2::SetSpoolSuspendState</span></span>
 
   
   
-<span data-ttu-id="44134-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="44134-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e8068-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e8068-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="44134-105">Définit l’état suspendu sur lepooler.</span><span class="sxs-lookup"><span data-stu-id="44134-105">Sets the suspended state on the spooler.</span></span>
+<span data-ttu-id="e8068-105">Définit l’état suspendu sur lepooler.</span><span class="sxs-lookup"><span data-stu-id="e8068-105">Sets the suspended state on the spooler.</span></span>
   
 ```cpp
 void SetSpoolSuspendState( 
@@ -33,23 +33,23 @@ void SetSpoolSuspendState(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="44134-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="44134-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e8068-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="e8068-106">Parameters</span></span>
 
- <span data-ttu-id="44134-107">_ulState_</span><span class="sxs-lookup"><span data-stu-id="44134-107">_ulState_</span></span>
+ <span data-ttu-id="e8068-107">_ulState_</span><span class="sxs-lookup"><span data-stu-id="e8068-107">_ulState_</span></span>
   
-> <span data-ttu-id="44134-108">[in] État sur lepooler.</span><span class="sxs-lookup"><span data-stu-id="44134-108">[in] The state to set the spooler to.</span></span> <span data-ttu-id="44134-109">Elle doit avoir l’une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="44134-109">It must be one of the following values:</span></span>
+> <span data-ttu-id="e8068-108">[in] État sur lepooler.</span><span class="sxs-lookup"><span data-stu-id="e8068-108">[in] The state to set the spooler to.</span></span> <span data-ttu-id="e8068-109">Elle doit avoir l’une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="e8068-109">It must be one of the following values:</span></span>
     
- <span data-ttu-id="44134-110">**SS_ACTIVE**</span><span class="sxs-lookup"><span data-stu-id="44134-110">**SS_ACTIVE**</span></span>
-  
-> 
-    
- <span data-ttu-id="44134-111">**SS_SUSPENDED**</span><span class="sxs-lookup"><span data-stu-id="44134-111">**SS_SUSPENDED**</span></span>
+ <span data-ttu-id="e8068-110">**SS_ACTIVE**</span><span class="sxs-lookup"><span data-stu-id="e8068-110">**SS_ACTIVE**</span></span>
   
 > 
     
-## <a name="see-also"></a><span data-ttu-id="44134-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="44134-112">See also</span></span>
+ <span data-ttu-id="e8068-111">**SS_SUSPENDED**</span><span class="sxs-lookup"><span data-stu-id="e8068-111">**SS_SUSPENDED**</span></span>
+  
+> 
+    
+## <a name="see-also"></a><span data-ttu-id="e8068-112">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e8068-112">See also</span></span>
 
 
 
-[<span data-ttu-id="44134-113">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="44134-113">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="e8068-113">Constantes MAPI</span><span class="sxs-lookup"><span data-stu-id="e8068-113">MAPI Constants</span></span>](mapi-constants.md)
 

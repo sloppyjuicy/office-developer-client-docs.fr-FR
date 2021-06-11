@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32360107"
 ---
-# <a name="pidlidreminderoverride-canonical-property"></a><span data-ttu-id="4ffae-103">Propriété canonique PidLidReminderOverride</span><span class="sxs-lookup"><span data-stu-id="4ffae-103">PidLidReminderOverride Canonical Property</span></span>
+# <a name="pidlidreminderoverride-canonical-property"></a><span data-ttu-id="cb0c7-103">Propriété canonique PidLidReminderOverride</span><span class="sxs-lookup"><span data-stu-id="cb0c7-103">PidLidReminderOverride Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4ffae-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4ffae-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cb0c7-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cb0c7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4ffae-105">Spécifie si le client doit respecter les valeurs des propriétés **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)) et **dispidReminderFileParam** ( [ PidLidReminderFileParameter](pidlidreminderfileparameter-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="4ffae-105">Specifies whether the client should respect the values of the **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)) and **dispidReminderFileParam** ( [ PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)) properties.</span></span>
+<span data-ttu-id="cb0c7-105">Spécifie si le client doit respecter les valeurs des propriétés **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)) et **dispidReminderFileParam** ( [ PidLidReminderFileParameter](pidlidreminderfileparameter-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="cb0c7-105">Specifies whether the client should respect the values of the **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)) and **dispidReminderFileParam** ( [ PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)) properties.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4ffae-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="4ffae-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="4ffae-107">dispidReminderOverride</span><span class="sxs-lookup"><span data-stu-id="4ffae-107">dispidReminderOverride</span></span>  <br/> |
-|<span data-ttu-id="4ffae-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="4ffae-108">Property set:</span></span>  <br/> |<span data-ttu-id="4ffae-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="4ffae-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="4ffae-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="4ffae-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="4ffae-111">0x0000851C</span><span class="sxs-lookup"><span data-stu-id="4ffae-111">0x0000851C</span></span>  <br/> |
-|<span data-ttu-id="4ffae-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="4ffae-112">Data type:</span></span>  <br/> |<span data-ttu-id="4ffae-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="4ffae-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="4ffae-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="4ffae-114">Area:</span></span>  <br/> |<span data-ttu-id="4ffae-115">Reminder</span><span class="sxs-lookup"><span data-stu-id="4ffae-115">Reminder</span></span>  <br/> |
+|<span data-ttu-id="cb0c7-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="cb0c7-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="cb0c7-107">dispidReminderOverride</span><span class="sxs-lookup"><span data-stu-id="cb0c7-107">dispidReminderOverride</span></span>  <br/> |
+|<span data-ttu-id="cb0c7-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="cb0c7-108">Property set:</span></span>  <br/> |<span data-ttu-id="cb0c7-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="cb0c7-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="cb0c7-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="cb0c7-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="cb0c7-111">0x0000851C</span><span class="sxs-lookup"><span data-stu-id="cb0c7-111">0x0000851C</span></span>  <br/> |
+|<span data-ttu-id="cb0c7-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="cb0c7-112">Data type:</span></span>  <br/> |<span data-ttu-id="cb0c7-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="cb0c7-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="cb0c7-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="cb0c7-114">Area:</span></span>  <br/> |<span data-ttu-id="cb0c7-115">Reminder</span><span class="sxs-lookup"><span data-stu-id="cb0c7-115">Reminder</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4ffae-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="4ffae-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cb0c7-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="cb0c7-116">Remarks</span></span>
 
-<span data-ttu-id="4ffae-117">Un client peut utiliser des valeurs par défaut à la place des valeurs des propriétés **dispidReminderPlaySound** et **dispidReminderFileParam.**</span><span class="sxs-lookup"><span data-stu-id="4ffae-117">A client may use default values in place of the values of the **dispidReminderPlaySound** and **dispidReminderFileParam** properties.</span></span> 
+<span data-ttu-id="cb0c7-117">Un client peut utiliser des valeurs par défaut à la place des valeurs des propriétés **dispidReminderPlaySound** et **dispidReminderFileParam.**</span><span class="sxs-lookup"><span data-stu-id="cb0c7-117">A client may use default values in place of the values of the **dispidReminderPlaySound** and **dispidReminderFileParam** properties.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="4ffae-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="4ffae-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="cb0c7-118">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="cb0c7-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="4ffae-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="4ffae-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="cb0c7-119">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="cb0c7-119">Protocol specifications</span></span>
 
-<span data-ttu-id="4ffae-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4ffae-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="cb0c7-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cb0c7-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4ffae-121">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="4ffae-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="cb0c7-121">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="cb0c7-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="4ffae-122">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4ffae-122">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="cb0c7-122">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cb0c7-122">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4ffae-123">Spécifie les propriétés et le modèle d’interaction pour les messages électroniques et autres rappels d’objets.</span><span class="sxs-lookup"><span data-stu-id="4ffae-123">Specifies the properties and the interaction model for email and other object reminders.</span></span>
+> <span data-ttu-id="cb0c7-123">Spécifie les propriétés et le modèle d’interaction pour les messages électroniques et autres rappels d’objets.</span><span class="sxs-lookup"><span data-stu-id="cb0c7-123">Specifies the properties and the interaction model for email and other object reminders.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="4ffae-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="4ffae-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="cb0c7-124">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="cb0c7-124">Header files</span></span>
 
-<span data-ttu-id="4ffae-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4ffae-125">Mapidefs.h</span></span>
+<span data-ttu-id="cb0c7-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cb0c7-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4ffae-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="4ffae-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="cb0c7-126">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="cb0c7-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4ffae-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4ffae-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb0c7-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="cb0c7-127">See also</span></span>
 
 
 
-[<span data-ttu-id="4ffae-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="4ffae-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="cb0c7-128">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="cb0c7-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4ffae-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="4ffae-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="cb0c7-129">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="cb0c7-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4ffae-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="4ffae-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="cb0c7-130">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="cb0c7-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4ffae-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="4ffae-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="cb0c7-131">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="cb0c7-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

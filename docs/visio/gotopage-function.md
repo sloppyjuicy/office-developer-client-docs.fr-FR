@@ -16,26 +16,26 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302967"
 ---
-# <a name="gotopage-function"></a><span data-ttu-id="f125f-103">Fonction GOTOPAGE</span><span class="sxs-lookup"><span data-stu-id="f125f-103">GOTOPAGE Function</span></span>
+# <a name="gotopage-function"></a><span data-ttu-id="8e0d0-103">Fonction GOTOPAGE</span><span class="sxs-lookup"><span data-stu-id="8e0d0-103">GOTOPAGE Function</span></span>
 
-<span data-ttu-id="f125f-104">Affiche la page dont le nom est  *nom dans*  la fenêtre active.</span><span class="sxs-lookup"><span data-stu-id="f125f-104">Displays the page that has the name  *pagename*  in the currently active window.</span></span> 
+<span data-ttu-id="8e0d0-104">Affiche la page dont le nom est  *nom dans*  la fenêtre active.</span><span class="sxs-lookup"><span data-stu-id="8e0d0-104">Displays the page that has the name  *pagename*  in the currently active window.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="f125f-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f125f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8e0d0-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="8e0d0-105">Syntax</span></span>
 
-<span data-ttu-id="f125f-106">GOTOPAGE( » \*\* *pagename* \*\* « )</span><span class="sxs-lookup"><span data-stu-id="f125f-106">GOTOPAGE(" \*\* *pagename* \*\* ")</span></span> 
+<span data-ttu-id="8e0d0-106">GOTOPAGE( » \*\* *pagename* \*\* « )</span><span class="sxs-lookup"><span data-stu-id="8e0d0-106">GOTOPAGE(" \*\* *pagename* \*\* ")</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="f125f-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="f125f-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="8e0d0-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="8e0d0-107">Parameters</span></span>
 
-|<span data-ttu-id="f125f-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="f125f-108">**Name**</span></span>|<span data-ttu-id="f125f-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="f125f-109">**Required/Optional**</span></span>|<span data-ttu-id="f125f-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="f125f-110">**Data Type**</span></span>|<span data-ttu-id="f125f-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="f125f-111">**Description**</span></span>|
+|<span data-ttu-id="8e0d0-108">**Nom**</span><span class="sxs-lookup"><span data-stu-id="8e0d0-108">**Name**</span></span>|<span data-ttu-id="8e0d0-109">**Requis/Facultatif**</span><span class="sxs-lookup"><span data-stu-id="8e0d0-109">**Required/Optional**</span></span>|<span data-ttu-id="8e0d0-110">**Type de données**</span><span class="sxs-lookup"><span data-stu-id="8e0d0-110">**Data Type**</span></span>|<span data-ttu-id="8e0d0-111">**Description**</span><span class="sxs-lookup"><span data-stu-id="8e0d0-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="f125f-112">_pagename_</span><span class="sxs-lookup"><span data-stu-id="f125f-112">_pagename_</span></span> <br/> |<span data-ttu-id="f125f-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="f125f-113">Required</span></span>  <br/> |<span data-ttu-id="f125f-114">**String**</span><span class="sxs-lookup"><span data-stu-id="f125f-114">**String**</span></span> <br/> |<span data-ttu-id="f125f-115">Nom de la page à atteindre</span><span class="sxs-lookup"><span data-stu-id="f125f-115">The name of the page to go to.</span></span>  <br/> |
+| <span data-ttu-id="8e0d0-112">_pagename_</span><span class="sxs-lookup"><span data-stu-id="8e0d0-112">_pagename_</span></span> <br/> |<span data-ttu-id="8e0d0-113">Obligatoire</span><span class="sxs-lookup"><span data-stu-id="8e0d0-113">Required</span></span>  <br/> |<span data-ttu-id="8e0d0-114">**String**</span><span class="sxs-lookup"><span data-stu-id="8e0d0-114">**String**</span></span> <br/> |<span data-ttu-id="8e0d0-115">Nom de la page à atteindre</span><span class="sxs-lookup"><span data-stu-id="8e0d0-115">The name of the page to go to.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f125f-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="f125f-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8e0d0-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="8e0d0-116">Remarks</span></span>
 
-<span data-ttu-id="f125f-117">Si la page est déjà ouverte dans une fenêtre, cette fenêtre est activée.</span><span class="sxs-lookup"><span data-stu-id="f125f-117">If a window is already displaying the page, that window becomes active.</span></span> <span data-ttu-id="f125f-118">Si  *le nom de page n’existe*  pas, l’application tente d’accéder https://  *pagename*  /.</span><span class="sxs-lookup"><span data-stu-id="f125f-118">If  *pagename*  does not exist, the application attempts to navigate to https://  *pagename*  /.</span></span> <span data-ttu-id="f125f-119">Si Visio opère comme un serveur de modification sur place, la fonction GOTOPAGE n’a aucun effet.</span><span class="sxs-lookup"><span data-stu-id="f125f-119">If Visio is acting as an in-place server, the GOTOPAGE function has no effect.</span></span> 
+<span data-ttu-id="8e0d0-117">Si la page est déjà ouverte dans une fenêtre, cette fenêtre est activée.</span><span class="sxs-lookup"><span data-stu-id="8e0d0-117">If a window is already displaying the page, that window becomes active.</span></span> <span data-ttu-id="8e0d0-118">Si  *le nom de page n’existe*  pas, l’application tente d’accéder https://  *pagename*  /.</span><span class="sxs-lookup"><span data-stu-id="8e0d0-118">If  *pagename*  does not exist, the application attempts to navigate to https://  *pagename*  /.</span></span> <span data-ttu-id="8e0d0-119">Si Visio opère comme un serveur de modification sur place, la fonction GOTOPAGE n’a aucun effet.</span><span class="sxs-lookup"><span data-stu-id="8e0d0-119">If Visio is acting as an in-place server, the GOTOPAGE function has no effect.</span></span> 
   
-<span data-ttu-id="f125f-120">Vous pouvez utiliser la fonction HYPERLINK pour accéder à n’importe quel chemin DOS, UNC ou URL.</span><span class="sxs-lookup"><span data-stu-id="f125f-120">You can use the HYPERLINK function to navigate to any DOS, UNC, or URL path.</span></span> 
+<span data-ttu-id="8e0d0-120">Vous pouvez utiliser la fonction HYPERLINK pour accéder à n’importe quel chemin DOS, UNC ou URL.</span><span class="sxs-lookup"><span data-stu-id="8e0d0-120">You can use the HYPERLINK function to navigate to any DOS, UNC, or URL path.</span></span> 
   
-<span data-ttu-id="f125f-p102">Dans les versions précédentes de Visio, cette fonction s’appelait _GOTOPAGE. Les versions Visio 4.0 et ultérieures acceptent l’un ou l’autre style.</span><span class="sxs-lookup"><span data-stu-id="f125f-p102">In earlier versions of Visio products, this function appears as _GOTOPAGE. Visio versions 4.0 and later accept either style.</span></span> 
+<span data-ttu-id="8e0d0-p102">Dans les versions précédentes de Visio, cette fonction s’appelait _GOTOPAGE. Les versions Visio 4.0 et ultérieures acceptent l’un ou l’autre style.</span><span class="sxs-lookup"><span data-stu-id="8e0d0-p102">In earlier versions of Visio products, this function appears as _GOTOPAGE. Visio versions 4.0 and later accept either style.</span></span> 
   
 

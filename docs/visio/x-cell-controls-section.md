@@ -16,24 +16,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406450"
 ---
-# <a name="x-cell-controls-section"></a><span data-ttu-id="d8ed3-103">X, cellule (section Controls)</span><span class="sxs-lookup"><span data-stu-id="d8ed3-103">X Cell (Controls Section)</span></span>
+# <a name="x-cell-controls-section"></a><span data-ttu-id="c755d-103">X, cellule (section Controls)</span><span class="sxs-lookup"><span data-stu-id="c755d-103">X Cell (Controls Section)</span></span>
 
-<span data-ttu-id="d8ed3-104">Représente la coordonnée  *x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.</span><span class="sxs-lookup"><span data-stu-id="d8ed3-104">Represents the  *x*  -coordinate that indicates the location of a shape's control handle in local coordinates.</span></span> 
+<span data-ttu-id="c755d-104">Représente la  *coordonnée x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.</span><span class="sxs-lookup"><span data-stu-id="c755d-104">Represents the  *x*  -coordinate that indicates the location of a shape's control handle in local coordinates.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="d8ed3-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="d8ed3-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c755d-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="c755d-105">Remarks</span></span>
 
-<span data-ttu-id="d8ed3-106">Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="d8ed3-106">To get a reference to the X cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="c755d-106">Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une autre formule ou programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="c755d-106">To get a reference to the X cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d8ed3-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="d8ed3-107">Cell name:</span></span>  <br/> | <span data-ttu-id="d8ed3-108">Contrôles.</span><span class="sxs-lookup"><span data-stu-id="d8ed3-108">Controls.</span></span>  <span data-ttu-id="d8ed3-109">*nom*  . X où Controls.</span><span class="sxs-lookup"><span data-stu-id="d8ed3-109">*name*  .X where Controls.</span></span>  <span data-ttu-id="d8ed3-110">*nom*  est le nom de la ligne des contrôles.</span><span class="sxs-lookup"><span data-stu-id="d8ed3-110">*name*  is the name of the controls row.</span></span>  <br/> |
+| <span data-ttu-id="c755d-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="c755d-107">Cell name:</span></span>  <br/> | <span data-ttu-id="c755d-108">Contrôles.</span><span class="sxs-lookup"><span data-stu-id="c755d-108">Controls.</span></span>  <span data-ttu-id="c755d-109">*nom*  . X où Controls.</span><span class="sxs-lookup"><span data-stu-id="c755d-109">*name*  .X where Controls.</span></span>  <span data-ttu-id="c755d-110">*nom*  est le nom de la ligne des contrôles.</span><span class="sxs-lookup"><span data-stu-id="c755d-110">*name*  is the name of the controls row.</span></span>  <br/> |
    
-<span data-ttu-id="d8ed3-111">Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="d8ed3-111">To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="c755d-111">Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="c755d-111">To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d8ed3-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="d8ed3-112">Section index:</span></span>  <br/> |<span data-ttu-id="d8ed3-113">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="d8ed3-113">**visSectionControls**</span></span> <br/> |
-| <span data-ttu-id="d8ed3-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="d8ed3-114">Row index:</span></span>  <br/> |<span data-ttu-id="d8ed3-115">**visRowControl**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="d8ed3-115">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="d8ed3-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="d8ed3-116">Cell index:</span></span>  <br/> |<span data-ttu-id="d8ed3-117">**visCtlX**</span><span class="sxs-lookup"><span data-stu-id="d8ed3-117">**visCtlX**</span></span> <br/> |
+| <span data-ttu-id="c755d-112">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="c755d-112">Section index:</span></span>  <br/> |<span data-ttu-id="c755d-113">**visSectionControls**</span><span class="sxs-lookup"><span data-stu-id="c755d-113">**visSectionControls**</span></span> <br/> |
+| <span data-ttu-id="c755d-114">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="c755d-114">Row index:</span></span>  <br/> |<span data-ttu-id="c755d-115">**visRowControl**  +   *i* où *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="c755d-115">**visRowControl** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="c755d-116">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="c755d-116">Cell index:</span></span>  <br/> |<span data-ttu-id="c755d-117">**visCtlX**</span><span class="sxs-lookup"><span data-stu-id="c755d-117">**visCtlX**</span></span> <br/> |
    
 

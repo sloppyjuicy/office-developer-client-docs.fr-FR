@@ -18,43 +18,43 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406513"
 ---
-# <a name="dialogmsgproc"></a><span data-ttu-id="7fc0c-104">DIALOGMsgProc</span><span class="sxs-lookup"><span data-stu-id="7fc0c-104">DIALOGMsgProc</span></span>
+# <a name="dialogmsgproc"></a><span data-ttu-id="fe11f-104">DIALOGMsgProc</span><span class="sxs-lookup"><span data-stu-id="fe11f-104">DIALOGMsgProc</span></span>
 
-<span data-ttu-id="7fc0c-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="7fc0c-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="fe11f-105">**S’applique à** : Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="fe11f-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="7fc0c-106">Cette procédure est associée à la boîte de dialogue Windows native affichée [par fShowDialog.](fshowdialog.md)</span><span class="sxs-lookup"><span data-stu-id="7fc0c-106">This procedure is associated with the native Windows dialog box that [fShowDialog](fshowdialog.md) displays.</span></span> <span data-ttu-id="7fc0c-107">Il fournit les routines de service appelées par Windows pour les événements (messages) qui se produisent lorsque l’utilisateur exploite l’un des boutons, champs d’entrée ou contrôles de la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7fc0c-107">It provides the service routines called by Windows for the events (messages) that occur when the user operates one of the dialog box's buttons, entry fields, or controls.</span></span> 
+<span data-ttu-id="fe11f-106">Cette procédure est associée à la boîte de dialogue Windows native que [fShowDialog](fshowdialog.md) affiche.</span><span class="sxs-lookup"><span data-stu-id="fe11f-106">This procedure is associated with the native Windows dialog box that [fShowDialog](fshowdialog.md) displays.</span></span> <span data-ttu-id="fe11f-107">Il fournit les routines de service appelées par Windows pour les événements (messages) qui se produisent lorsque l’utilisateur exploite l’un des boutons, champs d’entrée ou contrôles de la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="fe11f-107">It provides the service routines called by Windows for the events (messages) that occur when the user operates one of the dialog box's buttons, entry fields, or controls.</span></span> 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7fc0c-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="7fc0c-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="fe11f-108">Parameters</span><span class="sxs-lookup"><span data-stu-id="fe11f-108">Parameters</span></span>
 
- <span data-ttu-id="7fc0c-109">_hWndDlg_ (**HWND**)</span><span class="sxs-lookup"><span data-stu-id="7fc0c-109">_hWndDlg_ (**HWND**)</span></span>
+ <span data-ttu-id="fe11f-109">_hWndDlg_ (**HWND**)</span><span class="sxs-lookup"><span data-stu-id="fe11f-109">_hWndDlg_ (**HWND**)</span></span>
   
-<span data-ttu-id="7fc0c-110">Contient le handle Windows HWND de la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7fc0c-110">Contains the HWND Windows handle of the dialog box.</span></span>
+<span data-ttu-id="fe11f-110">Contient le handle de Windows HWND de la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="fe11f-110">Contains the HWND Windows handle of the dialog box.</span></span>
   
- <span data-ttu-id="7fc0c-111">_message_ (**UINT**)</span><span class="sxs-lookup"><span data-stu-id="7fc0c-111">_message_ (**UINT**)</span></span>
+ <span data-ttu-id="fe11f-111">_message_ (**UINT**)</span><span class="sxs-lookup"><span data-stu-id="fe11f-111">_message_ (**UINT**)</span></span>
   
-<span data-ttu-id="7fc0c-112">Message à répondre.</span><span class="sxs-lookup"><span data-stu-id="7fc0c-112">The message to respond to.</span></span>
+<span data-ttu-id="fe11f-112">Message à répondre.</span><span class="sxs-lookup"><span data-stu-id="fe11f-112">The message to respond to.</span></span>
   
- <span data-ttu-id="7fc0c-113">_wParam_ (**WPARAM**)</span><span class="sxs-lookup"><span data-stu-id="7fc0c-113">_wParam_ (**WPARAM**)</span></span>
+ <span data-ttu-id="fe11f-113">_wParam_ (**WPARAM**)</span><span class="sxs-lookup"><span data-stu-id="fe11f-113">_wParam_ (**WPARAM**)</span></span>
   
- <span data-ttu-id="7fc0c-114">_lParam_ (**LPARAM**)</span><span class="sxs-lookup"><span data-stu-id="7fc0c-114">_lParam_ (**LPARAM**)</span></span>
+ <span data-ttu-id="fe11f-114">_lParam_ (**LPARAM**)</span><span class="sxs-lookup"><span data-stu-id="fe11f-114">_lParam_ (**LPARAM**)</span></span>
   
-<span data-ttu-id="7fc0c-115">Arguments transmis par Windows.</span><span class="sxs-lookup"><span data-stu-id="7fc0c-115">Arguments passed by Windows.</span></span>
+<span data-ttu-id="fe11f-115">Arguments transmis par Windows.</span><span class="sxs-lookup"><span data-stu-id="fe11f-115">Arguments passed by Windows.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="7fc0c-116">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="7fc0c-116">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="fe11f-116">Valeur de propriété/valeur de renvoi</span><span class="sxs-lookup"><span data-stu-id="fe11f-116">Property value/Return value</span></span>
 
- <span data-ttu-id="7fc0c-117">**TRUE** si le message est traitée, **FALSE** si ce n’est pas le cas.</span><span class="sxs-lookup"><span data-stu-id="7fc0c-117">**TRUE** if message processed, **FALSE** if not.</span></span> 
+ <span data-ttu-id="fe11f-117">**TRUE** si le message est traitée, **FALSE** si ce n’est pas le cas.</span><span class="sxs-lookup"><span data-stu-id="fe11f-117">**TRUE** if message processed, **FALSE** if not.</span></span> 
   
-### <a name="example"></a><span data-ttu-id="7fc0c-118">Exemple</span><span class="sxs-lookup"><span data-stu-id="7fc0c-118">Example</span></span>
+### <a name="example"></a><span data-ttu-id="fe11f-118">Exemple</span><span class="sxs-lookup"><span data-stu-id="fe11f-118">Example</span></span>
 
-<span data-ttu-id="7fc0c-119">Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction.</span><span class="sxs-lookup"><span data-stu-id="7fc0c-119">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
+<span data-ttu-id="fe11f-119">Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction.</span><span class="sxs-lookup"><span data-stu-id="fe11f-119">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="7fc0c-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7fc0c-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fe11f-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="fe11f-120">See also</span></span>
 
 
 
-[<span data-ttu-id="7fc0c-121">Fonctions dans le fichier DLL générique</span><span class="sxs-lookup"><span data-stu-id="7fc0c-121">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
+[<span data-ttu-id="fe11f-121">Fonctions dans le fichier DLL générique</span><span class="sxs-lookup"><span data-stu-id="fe11f-121">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
 

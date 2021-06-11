@@ -14,24 +14,24 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408011"
 ---
-# <a name="reflectionblur-cell-additional-effect-properties-section"></a><span data-ttu-id="860b4-103">ReflectionBlur Cell (Additional Effect Properties Section)</span><span class="sxs-lookup"><span data-stu-id="860b4-103">ReflectionBlur Cell (Additional Effect Properties Section)</span></span>
+# <a name="reflectionblur-cell-additional-effect-properties-section"></a><span data-ttu-id="95d65-103">ReflectionBlur Cell (Additional Effect Properties Section)</span><span class="sxs-lookup"><span data-stu-id="95d65-103">ReflectionBlur Cell (Additional Effect Properties Section)</span></span>
 
-<span data-ttu-id="860b4-104">Détermine la quantité de flou pour une réflexion sur une forme, en points entre 0.0 et 100.0.</span><span class="sxs-lookup"><span data-stu-id="860b4-104">Determines the amount of blur for a reflection on a shape, in points between 0.0 and 100.0.</span></span>
+<span data-ttu-id="95d65-104">Détermine la quantité de flou pour une réflexion sur une forme, en points entre 0.0 et 100.0.</span><span class="sxs-lookup"><span data-stu-id="95d65-104">Determines the amount of blur for a reflection on a shape, in points between 0.0 and 100.0.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="860b4-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="860b4-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="95d65-105">Remarques</span><span class="sxs-lookup"><span data-stu-id="95d65-105">Remarks</span></span>
 
-<span data-ttu-id="860b4-106">Pour obtenir une référence à la cellule **ReflectionBlur** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="860b4-106">To get a reference to the **ReflectionBlur** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="95d65-106">Pour obtenir une référence à la cellule **ReflectionBlur** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez :</span><span class="sxs-lookup"><span data-stu-id="95d65-106">To get a reference to the **ReflectionBlur** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="860b4-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="860b4-107">Cell name:</span></span>  <br/> | <span data-ttu-id="860b4-108">ReflectionBlur</span><span class="sxs-lookup"><span data-stu-id="860b4-108">ReflectionBlur</span></span>  <br/> |
+| <span data-ttu-id="95d65-107">Nom de cellule :</span><span class="sxs-lookup"><span data-stu-id="95d65-107">Cell name:</span></span>  <br/> | <span data-ttu-id="95d65-108">ReflectionBlur</span><span class="sxs-lookup"><span data-stu-id="95d65-108">ReflectionBlur</span></span>  <br/> |
    
-<span data-ttu-id="860b4-109">Pour obtenir une référence à la **cellule ReflectionBlur** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="860b4-109">To get a reference to the **ReflectionBlur** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="95d65-109">Pour obtenir une référence à la **cellule ReflectionBlur** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="95d65-109">To get a reference to the **ReflectionBlur** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="860b4-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="860b4-110">Section index:</span></span>  <br/> |<span data-ttu-id="860b4-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="860b4-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="860b4-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="860b4-112">Row index:</span></span>  <br/> |<span data-ttu-id="860b4-113">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="860b4-113">**visRowOtherEffectProperties**</span></span> <br/> |
-| <span data-ttu-id="860b4-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="860b4-114">Cell index:</span></span>  <br/> |<span data-ttu-id="860b4-115">**visReflectionBlur**</span><span class="sxs-lookup"><span data-stu-id="860b4-115">**visReflectionBlur**</span></span> <br/> |
+| <span data-ttu-id="95d65-110">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="95d65-110">Section index:</span></span>  <br/> |<span data-ttu-id="95d65-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="95d65-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="95d65-112">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="95d65-112">Row index:</span></span>  <br/> |<span data-ttu-id="95d65-113">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="95d65-113">**visRowOtherEffectProperties**</span></span> <br/> |
+| <span data-ttu-id="95d65-114">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="95d65-114">Cell index:</span></span>  <br/> |<span data-ttu-id="95d65-115">**visReflectionBlur**</span><span class="sxs-lookup"><span data-stu-id="95d65-115">**visReflectionBlur**</span></span> <br/> |
    
 

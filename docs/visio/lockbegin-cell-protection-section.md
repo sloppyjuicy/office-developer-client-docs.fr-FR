@@ -16,29 +16,29 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407759"
 ---
-# <a name="lockbegin-cell-protection-section"></a><span data-ttu-id="97ab7-103">LockBegin, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="97ab7-103">LockBegin Cell (Protection Section)</span></span>
+# <a name="lockbegin-cell-protection-section"></a><span data-ttu-id="e9d9e-103">LockBegin, cellule (section Protection)</span><span class="sxs-lookup"><span data-stu-id="e9d9e-103">LockBegin Cell (Protection Section)</span></span>
 
-<span data-ttu-id="97ab7-104">Verrouille le point de début (BeingX, BeginY) d'une forme 1D à un emplacement donné.</span><span class="sxs-lookup"><span data-stu-id="97ab7-104">Locks the begin point (BeginX, BeginY) of a 1-D shape to a specific location.</span></span>
+<span data-ttu-id="e9d9e-104">Verrouille le point de début (BeingX, BeginY) d'une forme 1D à un emplacement donné.</span><span class="sxs-lookup"><span data-stu-id="e9d9e-104">Locks the begin point (BeginX, BeginY) of a 1-D shape to a specific location.</span></span>
   
-|<span data-ttu-id="97ab7-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="97ab7-105">**Value**</span></span>|<span data-ttu-id="97ab7-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="97ab7-106">**Description**</span></span>|
+|<span data-ttu-id="e9d9e-105">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="e9d9e-105">**Value**</span></span>|<span data-ttu-id="e9d9e-106">**Description**</span><span class="sxs-lookup"><span data-stu-id="e9d9e-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="97ab7-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="97ab7-107">TRUE</span></span>  <br/> | <span data-ttu-id="97ab7-108">Le point de début est verrouillé.</span><span class="sxs-lookup"><span data-stu-id="97ab7-108">Begin point is locked.</span></span>  <br/> |
-| <span data-ttu-id="97ab7-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="97ab7-109">FALSE</span></span>  <br/> | <span data-ttu-id="97ab7-110">Le point de début n'est pas verrouillé.</span><span class="sxs-lookup"><span data-stu-id="97ab7-110">Begin is not locked.</span></span>  <br/> |
+| <span data-ttu-id="e9d9e-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="e9d9e-107">TRUE</span></span>  <br/> | <span data-ttu-id="e9d9e-108">Le point de début est verrouillé.</span><span class="sxs-lookup"><span data-stu-id="e9d9e-108">Begin point is locked.</span></span>  <br/> |
+| <span data-ttu-id="e9d9e-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="e9d9e-109">FALSE</span></span>  <br/> | <span data-ttu-id="e9d9e-110">Le point de début n'est pas verrouillé.</span><span class="sxs-lookup"><span data-stu-id="e9d9e-110">Begin is not locked.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="97ab7-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="97ab7-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e9d9e-111">Remarques</span><span class="sxs-lookup"><span data-stu-id="e9d9e-111">Remarks</span></span>
 
-<span data-ttu-id="97ab7-112">Pour obtenir une référence à la cellule LockBegin par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="97ab7-112">To get a reference to the LockBegin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="e9d9e-112">Pour obtenir une référence à la cellule LockBegin par un nom à partir d'une autre formule ou d'un programme en faisant appel à la propriété **CellsU**, utilisez :</span><span class="sxs-lookup"><span data-stu-id="e9d9e-112">To get a reference to the LockBegin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="97ab7-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="97ab7-113">Cell name:</span></span>  <br/> | <span data-ttu-id="97ab7-114">LockBegin</span><span class="sxs-lookup"><span data-stu-id="97ab7-114">LockBegin</span></span>  <br/> |
+| <span data-ttu-id="e9d9e-113">Nom de la cellule :</span><span class="sxs-lookup"><span data-stu-id="e9d9e-113">Cell name:</span></span>  <br/> | <span data-ttu-id="e9d9e-114">LockBegin</span><span class="sxs-lookup"><span data-stu-id="e9d9e-114">LockBegin</span></span>  <br/> |
    
-<span data-ttu-id="97ab7-115">Pour obtenir une référence à la cellule LockBegin à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="97ab7-115">To get a reference to the LockBegin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="e9d9e-115">Pour obtenir une référence à la cellule LockBegin à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants :</span><span class="sxs-lookup"><span data-stu-id="e9d9e-115">To get a reference to the LockBegin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="97ab7-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="97ab7-116">Section index:</span></span>  <br/> |<span data-ttu-id="97ab7-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="97ab7-117">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="97ab7-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="97ab7-118">Row index:</span></span>  <br/> |<span data-ttu-id="97ab7-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="97ab7-119">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="97ab7-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="97ab7-120">Cell index:</span></span>  <br/> |<span data-ttu-id="97ab7-121">**visLockBegin**</span><span class="sxs-lookup"><span data-stu-id="97ab7-121">**visLockBegin**</span></span> <br/> |
+| <span data-ttu-id="e9d9e-116">Index de la section :</span><span class="sxs-lookup"><span data-stu-id="e9d9e-116">Section index:</span></span>  <br/> |<span data-ttu-id="e9d9e-117">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="e9d9e-117">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="e9d9e-118">Index de la ligne :</span><span class="sxs-lookup"><span data-stu-id="e9d9e-118">Row index:</span></span>  <br/> |<span data-ttu-id="e9d9e-119">**visRowLock**</span><span class="sxs-lookup"><span data-stu-id="e9d9e-119">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="e9d9e-120">Index de la cellule :</span><span class="sxs-lookup"><span data-stu-id="e9d9e-120">Cell index:</span></span>  <br/> |<span data-ttu-id="e9d9e-121">**visLockBegin**</span><span class="sxs-lookup"><span data-stu-id="e9d9e-121">**visLockBegin**</span></span> <br/> |
    
 

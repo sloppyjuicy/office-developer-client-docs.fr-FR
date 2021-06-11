@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303064"
 ---
-# <a name="pidlidtaskassigners-canonical-property"></a><span data-ttu-id="4acca-103">Propriété canonique PidLidTaskAssigners</span><span class="sxs-lookup"><span data-stu-id="4acca-103">PidLidTaskAssigners Canonical Property</span></span>
+# <a name="pidlidtaskassigners-canonical-property"></a><span data-ttu-id="d5a0a-103">Propriété canonique PidLidTaskAssigners</span><span class="sxs-lookup"><span data-stu-id="d5a0a-103">PidLidTaskAssigners Canonical Property</span></span>
 
   
   
-<span data-ttu-id="4acca-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4acca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d5a0a-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d5a0a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4acca-105">Contient une pile d’entrées qui représentent les personnes qui affectent des tâches.</span><span class="sxs-lookup"><span data-stu-id="4acca-105">Contains a stack of entries that represent task assigners.</span></span> <span data-ttu-id="4acca-106">L’assigneur de tâches le plus récent apparaît en haut de la pile.</span><span class="sxs-lookup"><span data-stu-id="4acca-106">The most recent task assigner appears at the top of the stack.</span></span>
+<span data-ttu-id="d5a0a-105">Contient une pile d’entrées qui représentent les personnes qui affectent des tâches.</span><span class="sxs-lookup"><span data-stu-id="d5a0a-105">Contains a stack of entries that represent task assigners.</span></span> <span data-ttu-id="d5a0a-106">L’assigneur de tâches le plus récent apparaît en haut de la pile.</span><span class="sxs-lookup"><span data-stu-id="d5a0a-106">The most recent task assigner appears at the top of the stack.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4acca-107">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="4acca-107">Associated properties:</span></span>  <br/> |<span data-ttu-id="4acca-108">dispidTaskMyDelegators</span><span class="sxs-lookup"><span data-stu-id="4acca-108">dispidTaskMyDelegators</span></span>  <br/> |
-|<span data-ttu-id="4acca-109">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="4acca-109">Property set:</span></span>  <br/> |<span data-ttu-id="4acca-110">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="4acca-110">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="4acca-111">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="4acca-111">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="4acca-112">0x00008117</span><span class="sxs-lookup"><span data-stu-id="4acca-112">0x00008117</span></span>  <br/> |
-|<span data-ttu-id="4acca-113">Type de données :</span><span class="sxs-lookup"><span data-stu-id="4acca-113">Data type:</span></span>  <br/> |<span data-ttu-id="4acca-114">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="4acca-114">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="4acca-115">Domaine :</span><span class="sxs-lookup"><span data-stu-id="4acca-115">Area:</span></span>  <br/> |<span data-ttu-id="4acca-116">Tâche</span><span class="sxs-lookup"><span data-stu-id="4acca-116">Task</span></span>  <br/> |
+|<span data-ttu-id="d5a0a-107">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="d5a0a-107">Associated properties:</span></span>  <br/> |<span data-ttu-id="d5a0a-108">dispidTaskMyDelegators</span><span class="sxs-lookup"><span data-stu-id="d5a0a-108">dispidTaskMyDelegators</span></span>  <br/> |
+|<span data-ttu-id="d5a0a-109">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="d5a0a-109">Property set:</span></span>  <br/> |<span data-ttu-id="d5a0a-110">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="d5a0a-110">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="d5a0a-111">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="d5a0a-111">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="d5a0a-112">0x00008117</span><span class="sxs-lookup"><span data-stu-id="d5a0a-112">0x00008117</span></span>  <br/> |
+|<span data-ttu-id="d5a0a-113">Type de données :</span><span class="sxs-lookup"><span data-stu-id="d5a0a-113">Data type:</span></span>  <br/> |<span data-ttu-id="d5a0a-114">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="d5a0a-114">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="d5a0a-115">Domaine :</span><span class="sxs-lookup"><span data-stu-id="d5a0a-115">Area:</span></span>  <br/> |<span data-ttu-id="d5a0a-116">Tâche</span><span class="sxs-lookup"><span data-stu-id="d5a0a-116">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4acca-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="4acca-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d5a0a-117">Remarques</span><span class="sxs-lookup"><span data-stu-id="d5a0a-117">Remarks</span></span>
 
-<span data-ttu-id="4acca-118">Lorsque le client reçoit une demande de tâche, il l’append à cette propriété, dont la structure est définie dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), une entrée qui représente l’expéditeur de la tâche.</span><span class="sxs-lookup"><span data-stu-id="4acca-118">When the client receives a task request, it appends to this property, which structure is defined in [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), an entry that represents the task's sender.</span></span> <span data-ttu-id="4acca-119">Lorsque le client reçoit un rejet de tâche, il supprime la dernière entrée de l’assigneur de la tâche de cette propriété.</span><span class="sxs-lookup"><span data-stu-id="4acca-119">When the client receives a task rejection, the client removes the last task assigner entry from this property.</span></span> <span data-ttu-id="4acca-120">Lorsque le client envoie une réponse de tâche, il l’envoie au dernier assigneur de tâches répertorié dans la valeur de cette propriété.</span><span class="sxs-lookup"><span data-stu-id="4acca-120">When the client sends a task response, the client sends it to the last task assigner listed in the value of this property.</span></span>
+<span data-ttu-id="d5a0a-118">Lorsque le client reçoit une demande de tâche, il l’append à cette propriété, dont la structure est définie dans [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), une entrée qui représente l’expéditeur de la tâche.</span><span class="sxs-lookup"><span data-stu-id="d5a0a-118">When the client receives a task request, it appends to this property, which structure is defined in [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx), an entry that represents the task's sender.</span></span> <span data-ttu-id="d5a0a-119">Lorsque le client reçoit un rejet de tâche, il supprime la dernière entrée de l’assigneur de la tâche de cette propriété.</span><span class="sxs-lookup"><span data-stu-id="d5a0a-119">When the client receives a task rejection, the client removes the last task assigner entry from this property.</span></span> <span data-ttu-id="d5a0a-120">Lorsque le client envoie une réponse de tâche, il l’envoie au dernier assigneur de tâche répertorié dans la valeur de cette propriété.</span><span class="sxs-lookup"><span data-stu-id="d5a0a-120">When the client sends a task response, the client sends it to the last task assigner listed in the value of this property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="4acca-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="4acca-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="d5a0a-121">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="d5a0a-121">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="4acca-122">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="4acca-122">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="d5a0a-122">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="d5a0a-122">Protocol specifications</span></span>
 
-<span data-ttu-id="4acca-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4acca-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="d5a0a-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d5a0a-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4acca-124">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="4acca-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="d5a0a-124">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="d5a0a-124">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="4acca-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="4acca-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="d5a0a-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d5a0a-125">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="4acca-126">Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches</span><span class="sxs-lookup"><span data-stu-id="4acca-126">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates</span></span> 
+> <span data-ttu-id="d5a0a-126">Définit plusieurs objets qui modélisent l’équivalent électronique des tâches, des affectations de tâches et des mises à jour de tâches</span><span class="sxs-lookup"><span data-stu-id="d5a0a-126">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates</span></span> 
     
-### <a name="header-files"></a><span data-ttu-id="4acca-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="4acca-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="d5a0a-127">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="d5a0a-127">Header files</span></span>
 
-<span data-ttu-id="4acca-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="4acca-128">Mapidefs.h</span></span>
+<span data-ttu-id="d5a0a-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="d5a0a-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="4acca-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="4acca-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="d5a0a-129">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="d5a0a-129">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="4acca-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="4acca-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d5a0a-130">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d5a0a-130">See also</span></span>
 
 
 
-[<span data-ttu-id="4acca-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="4acca-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="d5a0a-131">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="d5a0a-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="4acca-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="4acca-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="d5a0a-132">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="d5a0a-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="4acca-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="4acca-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="d5a0a-133">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="d5a0a-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="4acca-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="4acca-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="d5a0a-134">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="d5a0a-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

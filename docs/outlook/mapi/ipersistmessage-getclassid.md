@@ -19,13 +19,13 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309624"
 ---
-# <a name="ipersistmessagegetclassid"></a><span data-ttu-id="d64fe-103">IPersistMessage::GetClassID</span><span class="sxs-lookup"><span data-stu-id="d64fe-103">IPersistMessage::GetClassID</span></span>
+# <a name="ipersistmessagegetclassid"></a><span data-ttu-id="9a5fc-103">IPersistMessage::GetClassID</span><span class="sxs-lookup"><span data-stu-id="9a5fc-103">IPersistMessage::GetClassID</span></span>
 
   
   
-<span data-ttu-id="d64fe-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d64fe-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9a5fc-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9a5fc-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d64fe-105">Renvoie un identificateur qui représente le serveur de formulaires qui peut gérer le formulaire.</span><span class="sxs-lookup"><span data-stu-id="d64fe-105">Returns an identifier that represents the form server that can manage the form.</span></span> 
+<span data-ttu-id="9a5fc-105">Renvoie un identificateur qui représente le serveur de formulaires qui peut gérer le formulaire.</span><span class="sxs-lookup"><span data-stu-id="9a5fc-105">Returns an identifier that represents the form server that can manage the form.</span></span> 
   
 ```cpp
 HRESULT GetClassID(
@@ -33,27 +33,27 @@ HRESULT GetClassID(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d64fe-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="d64fe-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9a5fc-106">Parameters</span><span class="sxs-lookup"><span data-stu-id="9a5fc-106">Parameters</span></span>
 
- <span data-ttu-id="d64fe-107">_lpClassID_</span><span class="sxs-lookup"><span data-stu-id="d64fe-107">_lpClassID_</span></span>
+ <span data-ttu-id="9a5fc-107">_lpClassID_</span><span class="sxs-lookup"><span data-stu-id="9a5fc-107">_lpClassID_</span></span>
   
-> <span data-ttu-id="d64fe-108">[in, out] Pointeur vers l’identificateur de classe (CLSID) du formulaire.</span><span class="sxs-lookup"><span data-stu-id="d64fe-108">[in, out] A pointer to the class identifier (CLSID) of the form.</span></span>
+> <span data-ttu-id="9a5fc-108">[in, out] Pointeur vers l’identificateur de classe (CLSID) du formulaire.</span><span class="sxs-lookup"><span data-stu-id="9a5fc-108">[in, out] A pointer to the class identifier (CLSID) of the form.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="d64fe-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="d64fe-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9a5fc-109">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="9a5fc-109">Return value</span></span>
 
-<span data-ttu-id="d64fe-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="d64fe-110">S_OK</span></span> 
+<span data-ttu-id="9a5fc-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="9a5fc-110">S_OK</span></span> 
   
-> <span data-ttu-id="d64fe-111">L’identificateur de classe a été renvoyé avec succès.</span><span class="sxs-lookup"><span data-stu-id="d64fe-111">The class identifier was successfully returned.</span></span>
+> <span data-ttu-id="9a5fc-111">L’identificateur de classe a été renvoyé avec succès.</span><span class="sxs-lookup"><span data-stu-id="9a5fc-111">The class identifier was successfully returned.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="d64fe-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="d64fe-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9a5fc-112">Remarques</span><span class="sxs-lookup"><span data-stu-id="9a5fc-112">Remarks</span></span>
 
-<span data-ttu-id="d64fe-113">La **méthode IPersistMessge::GetClassID** définit le contenu du paramètre  _lpClassID_ sur l’identificateur de classe du serveur de formulaire et renvoie S_OK.</span><span class="sxs-lookup"><span data-stu-id="d64fe-113">The **IPersistMessge::GetClassID** method sets the contents of the  _lpClassID_ parameter to the form server's class identifier and returns S_OK.</span></span> <span data-ttu-id="d64fe-114">Lorsqu’une visionneuse de formulaire appelle **GetClassID** et qu’elle renvoie correctement, le formulaire est placé dans [l’état Nonnitialisé.](uninitialized-state.md)</span><span class="sxs-lookup"><span data-stu-id="d64fe-114">When a form viewer calls **GetClassID** and it returns successfully, the form is placed in the [Uninitialized](uninitialized-state.md) state.</span></span> 
+<span data-ttu-id="9a5fc-113">La **méthode IPersistMessge::GetClassID** définit le contenu du paramètre  _lpClassID_ sur l’identificateur de classe du serveur de formulaire et renvoie S_OK.</span><span class="sxs-lookup"><span data-stu-id="9a5fc-113">The **IPersistMessge::GetClassID** method sets the contents of the  _lpClassID_ parameter to the form server's class identifier and returns S_OK.</span></span> <span data-ttu-id="9a5fc-114">Lorsqu’une visionneuse de formulaire appelle **GetClassID** et qu’elle renvoie correctement, le formulaire est placé dans [l’état Nonnitialisé.](uninitialized-state.md)</span><span class="sxs-lookup"><span data-stu-id="9a5fc-114">When a form viewer calls **GetClassID** and it returns successfully, the form is placed in the [Uninitialized](uninitialized-state.md) state.</span></span> 
   
-<span data-ttu-id="d64fe-115">Pour plus d’informations sur l’utilisation des identificateurs de classe avec des objets de stockage structuré, voir la documentation de la méthode [IPersist::GetClassID.](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx)</span><span class="sxs-lookup"><span data-stu-id="d64fe-115">For more information about how class identifiers are used with structured storage objects, see the documentation for the [IPersist::GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) method.</span></span> 
+<span data-ttu-id="9a5fc-115">Pour plus d’informations sur l’utilisation des identificateurs de classe avec des objets de stockage structuré, voir la documentation de la méthode [IPersist::GetClassID.](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx)</span><span class="sxs-lookup"><span data-stu-id="9a5fc-115">For more information about how class identifiers are used with structured storage objects, see the documentation for the [IPersist::GetClassID](https://msdn.microsoft.com/library/921a3b86-a240-454e-9411-8d653e02b90e.aspx) method.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="d64fe-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="d64fe-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9a5fc-116">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="9a5fc-116">See also</span></span>
 
 
 
-[<span data-ttu-id="d64fe-117">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d64fe-117">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
+[<span data-ttu-id="9a5fc-117">IPersistMessage : IUnknown</span><span class="sxs-lookup"><span data-stu-id="9a5fc-117">IPersistMessage : IUnknown</span></span>](ipersistmessageiunknown.md)
 

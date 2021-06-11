@@ -19,53 +19,53 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32315448"
 ---
-# <a name="pidlidisexception-canonical-property"></a><span data-ttu-id="5f706-103">Propriété canonique PidLidIsException</span><span class="sxs-lookup"><span data-stu-id="5f706-103">PidLidIsException Canonical Property</span></span>
+# <a name="pidlidisexception-canonical-property"></a><span data-ttu-id="7a3df-103">Propriété canonique PidLidIsException</span><span class="sxs-lookup"><span data-stu-id="7a3df-103">PidLidIsException Canonical Property</span></span>
 
   
   
-<span data-ttu-id="5f706-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5f706-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7a3df-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7a3df-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5f706-105">Indique que l’objet qui représente une exception (y compris une instance orpheline).</span><span class="sxs-lookup"><span data-stu-id="5f706-105">Indicates that the object that represents an exception (including an orphan instance).</span></span>
+<span data-ttu-id="7a3df-105">Indique que l’objet qui représente une exception (y compris une instance orpheline).</span><span class="sxs-lookup"><span data-stu-id="7a3df-105">Indicates that the object that represents an exception (including an orphan instance).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5f706-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="5f706-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5f706-107">LID_IS_EXCEPTION</span><span class="sxs-lookup"><span data-stu-id="5f706-107">LID_IS_EXCEPTION</span></span>  <br/> |
-|<span data-ttu-id="5f706-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="5f706-108">Property set:</span></span>  <br/> |<span data-ttu-id="5f706-109">PSETID_Meeting</span><span class="sxs-lookup"><span data-stu-id="5f706-109">PSETID_Meeting</span></span>  <br/> |
-|<span data-ttu-id="5f706-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="5f706-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="5f706-111">0x0000000A</span><span class="sxs-lookup"><span data-stu-id="5f706-111">0x0000000A</span></span>  <br/> |
-|<span data-ttu-id="5f706-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="5f706-112">Data type:</span></span>  <br/> |<span data-ttu-id="5f706-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="5f706-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="5f706-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="5f706-114">Area:</span></span>  <br/> |<span data-ttu-id="5f706-115">Réunions</span><span class="sxs-lookup"><span data-stu-id="5f706-115">Meetings</span></span>  <br/> |
+|<span data-ttu-id="7a3df-106">Propriétés associées :</span><span class="sxs-lookup"><span data-stu-id="7a3df-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="7a3df-107">LID_IS_EXCEPTION</span><span class="sxs-lookup"><span data-stu-id="7a3df-107">LID_IS_EXCEPTION</span></span>  <br/> |
+|<span data-ttu-id="7a3df-108">Jeu de propriétés :</span><span class="sxs-lookup"><span data-stu-id="7a3df-108">Property set:</span></span>  <br/> |<span data-ttu-id="7a3df-109">PSETID_Meeting</span><span class="sxs-lookup"><span data-stu-id="7a3df-109">PSETID_Meeting</span></span>  <br/> |
+|<span data-ttu-id="7a3df-110">ID long (LID) :</span><span class="sxs-lookup"><span data-stu-id="7a3df-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="7a3df-111">0x0000000A</span><span class="sxs-lookup"><span data-stu-id="7a3df-111">0x0000000A</span></span>  <br/> |
+|<span data-ttu-id="7a3df-112">Type de données :</span><span class="sxs-lookup"><span data-stu-id="7a3df-112">Data type:</span></span>  <br/> |<span data-ttu-id="7a3df-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="7a3df-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="7a3df-114">Domaine :</span><span class="sxs-lookup"><span data-stu-id="7a3df-114">Area:</span></span>  <br/> |<span data-ttu-id="7a3df-115">Réunions</span><span class="sxs-lookup"><span data-stu-id="7a3df-115">Meetings</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5f706-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="5f706-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7a3df-116">Remarques</span><span class="sxs-lookup"><span data-stu-id="7a3df-116">Remarks</span></span>
 
-<span data-ttu-id="5f706-117">La valeur FALSE indique que l’objet qui représente une série périodique ou une instance unique.</span><span class="sxs-lookup"><span data-stu-id="5f706-117">A value of FALSE indicates that the object that represents a recurring series or a single instance.</span></span> <span data-ttu-id="5f706-118">L’absence de cette propriété pour n’importe quel objet indique une valeur de FALSE, à l’exception du message incorporé d’exception, qui suppose une valeur true.</span><span class="sxs-lookup"><span data-stu-id="5f706-118">The absence of this property for any object indicates a value of FALSE except for the exception embedded message, which assumes a value of TRUE.</span></span>
+<span data-ttu-id="7a3df-117">La valeur FALSE indique que l’objet qui représente une série périodique ou une instance unique.</span><span class="sxs-lookup"><span data-stu-id="7a3df-117">A value of FALSE indicates that the object that represents a recurring series or a single instance.</span></span> <span data-ttu-id="7a3df-118">L’absence de cette propriété pour n’importe quel objet indique une valeur de FALSE, à l’exception du message incorporé d’exception, qui suppose une valeur true.</span><span class="sxs-lookup"><span data-stu-id="7a3df-118">The absence of this property for any object indicates a value of FALSE except for the exception embedded message, which assumes a value of TRUE.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="5f706-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="5f706-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="7a3df-119">Ressources connexes</span><span class="sxs-lookup"><span data-stu-id="7a3df-119">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="5f706-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="5f706-120">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="7a3df-120">Spécifications de protocole</span><span class="sxs-lookup"><span data-stu-id="7a3df-120">Protocol specifications</span></span>
 
-<span data-ttu-id="5f706-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5f706-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7a3df-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7a3df-121">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5f706-122">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="5f706-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="7a3df-122">Fournit des définitions de jeu de propriétés et des références aux spécifications Exchange Server protocole.</span><span class="sxs-lookup"><span data-stu-id="7a3df-122">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="5f706-123">[[MS-OXOCAL] ](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5f706-123">[[MS-OXOCAL] ](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7a3df-123">[[MS-OXOCAL] ](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7a3df-123">[[MS-OXOCAL] ](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5f706-124">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="5f706-124">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="7a3df-124">Spécifie les propriétés et les opérations pour les messages de rendez-vous, de demande de réunion et de réponse.</span><span class="sxs-lookup"><span data-stu-id="7a3df-124">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="5f706-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="5f706-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="7a3df-125">Fichiers d’en-tête</span><span class="sxs-lookup"><span data-stu-id="7a3df-125">Header files</span></span>
 
-<span data-ttu-id="5f706-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="5f706-126">Mapidefs.h</span></span>
+<span data-ttu-id="7a3df-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7a3df-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="5f706-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="5f706-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="7a3df-127">Fournit des définitions de type de données.</span><span class="sxs-lookup"><span data-stu-id="7a3df-127">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="5f706-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5f706-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7a3df-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7a3df-128">See also</span></span>
 
 
 
-[<span data-ttu-id="5f706-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="5f706-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="7a3df-129">Propriétés MAPI</span><span class="sxs-lookup"><span data-stu-id="7a3df-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="5f706-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="5f706-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="7a3df-130">Propriétés canoniques MAPI</span><span class="sxs-lookup"><span data-stu-id="7a3df-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="5f706-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="5f706-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="7a3df-131">Mappage des noms de propriétés canoniques aux noms MAPI</span><span class="sxs-lookup"><span data-stu-id="7a3df-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="5f706-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="5f706-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="7a3df-132">Mappage des noms MAPI aux noms de propriétés canoniques</span><span class="sxs-lookup"><span data-stu-id="7a3df-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
