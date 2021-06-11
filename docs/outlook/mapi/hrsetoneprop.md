@@ -19,19 +19,19 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/20/2021
 ms.locfileid: "52589179"
 ---
-# <a name="hrsetoneprop"></a><span data-ttu-id="44680-103">HrSetOneProp</span><span class="sxs-lookup"><span data-stu-id="44680-103">HrSetOneProp</span></span>
+# <a name="hrsetoneprop"></a><span data-ttu-id="59a9f-103">HrSetOneProp</span><span class="sxs-lookup"><span data-stu-id="59a9f-103">HrSetOneProp</span></span>
 
   
   
-<span data-ttu-id="44680-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="44680-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="59a9f-104">**S’applique à** : Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="59a9f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="44680-105">Définit ou modifie la valeur d’une propriété unique sur une interface de propriétés, c’est-à-dire une interface dérivée [d’IMAPIProp](imapipropiunknown.md).</span><span class="sxs-lookup"><span data-stu-id="44680-105">Sets or changes the value of a single property on a property interface, that is, an interface derived from [IMAPIProp](imapipropiunknown.md).</span></span> 
+<span data-ttu-id="59a9f-105">Définit ou modifie la valeur d’une propriété unique sur une interface de propriétés, c’est-à-dire une interface dérivée [d’IMAPIProp](imapipropiunknown.md).</span><span class="sxs-lookup"><span data-stu-id="59a9f-105">Sets or changes the value of a single property on a property interface, that is, an interface derived from [IMAPIProp](imapipropiunknown.md).</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="44680-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="44680-106">Header file:</span></span>  <br/> |<span data-ttu-id="44680-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="44680-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="44680-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="44680-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="44680-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="44680-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="44680-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="44680-110">Called by:</span></span>  <br/> |<span data-ttu-id="44680-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="44680-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="59a9f-106">Fichier d’en-tête :</span><span class="sxs-lookup"><span data-stu-id="59a9f-106">Header file:</span></span>  <br/> |<span data-ttu-id="59a9f-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="59a9f-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="59a9f-108">Implémenté par :</span><span class="sxs-lookup"><span data-stu-id="59a9f-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="59a9f-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="59a9f-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="59a9f-110">Appelé par :</span><span class="sxs-lookup"><span data-stu-id="59a9f-110">Called by:</span></span>  <br/> |<span data-ttu-id="59a9f-111">Applications clientes et fournisseurs de services</span><span class="sxs-lookup"><span data-stu-id="59a9f-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT HrSetOneProp(
@@ -40,24 +40,24 @@ HRESULT HrSetOneProp(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="44680-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="44680-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="59a9f-112">Parameters</span><span class="sxs-lookup"><span data-stu-id="59a9f-112">Parameters</span></span>
 
- <span data-ttu-id="44680-113">_pmp_</span><span class="sxs-lookup"><span data-stu-id="44680-113">_pmp_</span></span>
+ <span data-ttu-id="59a9f-113">_pmp_</span><span class="sxs-lookup"><span data-stu-id="59a9f-113">_pmp_</span></span>
   
-> <span data-ttu-id="44680-114">[in] Pointeur vers une interface [IMAPIProp](imapipropiunknown.md) sur laquelle la valeur de la propriété doit être définie ou modifiée.</span><span class="sxs-lookup"><span data-stu-id="44680-114">[in] Pointer to an [IMAPIProp](imapipropiunknown.md) interface on which the property value is to be set or changed.</span></span> 
+> <span data-ttu-id="59a9f-114">[in] Pointeur vers une interface [IMAPIProp](imapipropiunknown.md) sur laquelle la valeur de la propriété doit être définie ou modifiée.</span><span class="sxs-lookup"><span data-stu-id="59a9f-114">[in] Pointer to an [IMAPIProp](imapipropiunknown.md) interface on which the property value is to be set or changed.</span></span> 
     
- <span data-ttu-id="44680-115">_pprop_</span><span class="sxs-lookup"><span data-stu-id="44680-115">_pprop_</span></span>
+ <span data-ttu-id="59a9f-115">_pprop_</span><span class="sxs-lookup"><span data-stu-id="59a9f-115">_pprop_</span></span>
   
-> <span data-ttu-id="44680-116">[in] Pointeur vers la structure [SPropValue](spropvalue.md) définissant la valeur à définir sur la _propriété pmp._</span><span class="sxs-lookup"><span data-stu-id="44680-116">[in] Pointer to the [SPropValue](spropvalue.md) structure defining the value to be set on the  _pmp_ property.</span></span> 
+> <span data-ttu-id="59a9f-116">[in] Pointeur vers la structure [SPropValue](spropvalue.md) définissant la valeur à définir sur la _propriété pmp._</span><span class="sxs-lookup"><span data-stu-id="59a9f-116">[in] Pointer to the [SPropValue](spropvalue.md) structure defining the value to be set on the  _pmp_ property.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="44680-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="44680-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="59a9f-117">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="59a9f-117">Return value</span></span>
 
-<span data-ttu-id="44680-118">Aucun.</span><span class="sxs-lookup"><span data-stu-id="44680-118">None.</span></span>
+<span data-ttu-id="59a9f-118">Aucun.</span><span class="sxs-lookup"><span data-stu-id="59a9f-118">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="44680-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="44680-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="59a9f-119">Remarques</span><span class="sxs-lookup"><span data-stu-id="59a9f-119">Remarks</span></span>
 
-<span data-ttu-id="44680-120">Contrairement à [la méthode IMAPIProp::SetProps,](imapiprop-setprops.md) la fonction **HrSetOneProp** ne renvoie jamais d’avertissement.</span><span class="sxs-lookup"><span data-stu-id="44680-120">Unlike the [IMAPIProp::SetProps](imapiprop-setprops.md) method, the **HrSetOneProp** function never returns any warnings.</span></span> <span data-ttu-id="44680-121">Comme elle ne définit qu’une seule propriété, elle réussit ou échoue simplement.</span><span class="sxs-lookup"><span data-stu-id="44680-121">Because it sets only one property, it simply either succeeds or fails.</span></span> <span data-ttu-id="44680-122">Pour définir ou modifier plusieurs propriétés, **SetProps** est plus rapide.</span><span class="sxs-lookup"><span data-stu-id="44680-122">For setting or changing multiple properties, **SetProps** is faster.</span></span> 
+<span data-ttu-id="59a9f-120">Contrairement à [la méthode IMAPIProp::SetProps,](imapiprop-setprops.md) la fonction **HrSetOneProp** ne renvoie jamais d’avertissement.</span><span class="sxs-lookup"><span data-stu-id="59a9f-120">Unlike the [IMAPIProp::SetProps](imapiprop-setprops.md) method, the **HrSetOneProp** function never returns any warnings.</span></span> <span data-ttu-id="59a9f-121">Comme elle ne définit qu’une seule propriété, elle réussit ou échoue simplement.</span><span class="sxs-lookup"><span data-stu-id="59a9f-121">Because it sets only one property, it simply either succeeds or fails.</span></span> <span data-ttu-id="59a9f-122">Pour définir ou modifier plusieurs propriétés, **SetProps** est plus rapide.</span><span class="sxs-lookup"><span data-stu-id="59a9f-122">For setting or changing multiple properties, **SetProps** is faster.</span></span> 
   
-<span data-ttu-id="44680-123">Vous pouvez récupérer une propriété unique avec [la fonction HrGetOneProp.](hrgetoneprop.md)</span><span class="sxs-lookup"><span data-stu-id="44680-123">You can retrieve a single property with the [HrGetOneProp](hrgetoneprop.md) function.</span></span> 
+<span data-ttu-id="59a9f-123">Vous pouvez récupérer une propriété unique avec [la fonction HrGetOneProp.](hrgetoneprop.md)</span><span class="sxs-lookup"><span data-stu-id="59a9f-123">You can retrieve a single property with the [HrGetOneProp](hrgetoneprop.md) function.</span></span> 
   
 
