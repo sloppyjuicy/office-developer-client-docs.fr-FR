@@ -52,6 +52,6 @@ Aucune.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|NextID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |L’ID disponible suivant pour les nouvelles connexions.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|NextID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID disponible suivant pour les nouvelles connexions.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
    
 

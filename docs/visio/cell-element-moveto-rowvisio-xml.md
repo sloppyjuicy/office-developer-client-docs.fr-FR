@@ -62,11 +62,11 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
    
 ## <a name="remarks"></a>Remarques
 
-**L’attribut N** de cet **élément Cell** doit être l’un des ensembles limités de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
+**L’attribut N** de cet **élément Cell** doit faire partie d’un ensemble limité de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
-|X  <br/> |Si la **ligne MoveTo** est la première ligne de la section, la cellule X représente la coordonnée **x** du premier sommet d’une forme. Si la **ligne MoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée **x** du premier sommet après la coupure du chemin d’accès.  <br/> |[MoveTo, ligne (section Geometry)](moveto-row-geometry-section.md) <br/> |
-|v  <br/> |Si la **ligne MoveTo** est la première ligne de la section, la cellule Y représente la coordonnée **y** du premier sommet d’une forme. Si la **ligne MoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée **y** du premier sommet après la coupure du chemin d’accès.  <br/> |[MoveTo, ligne (section Geometry)](moveto-row-geometry-section.md) <br/> |
+|X  <br/> |Si la **ligne MoveTo** est la première ligne de la section, la cellule X représente la coordonnée **x** du premier sommet d’une forme. Si la **ligne MoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée **x** du premier sommet après la rupture du chemin d’accès.  <br/> |[MoveTo, ligne (section Geometry)](moveto-row-geometry-section.md) <br/> |
+|v  <br/> |Si la **ligne MoveTo** est la première ligne de la section, la cellule Y représente la coordonnée **y** du premier sommet d’une forme. Si la **ligne MoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée **y** du premier sommet après la rupture du chemin d’accès.  <br/> |[MoveTo, ligne (section Geometry)](moveto-row-geometry-section.md) <br/> |
    
 

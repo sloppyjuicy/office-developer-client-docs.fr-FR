@@ -18,7 +18,7 @@ ms.locfileid: "45160299"
 ---
 # <a name="ang360-function"></a>Fonction ANG360
 
-Normalise la plage d’un angle à 0 = résultat \< \< radians 2PI (0 = résultat \< \< 360 degrés).
+Normalise la plage d’un angle à 0 = résultat \< \< 2PI radians (0 \< = résultat \< 360 degrés).
   
 ## <a name="syntax"></a>Syntaxe
 

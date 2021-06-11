@@ -48,7 +48,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y, la direction horizontale et verticale, et le type d’un point de connexion unique sur une forme.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y, la direction horizontale et verticale et le type d’un point de connexion unique sur une forme.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 
@@ -62,7 +62,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
    
 ## <a name="remarks"></a>Remarques
 
-**L’attribut N** de cet **élément Cell** doit être l’un des ensembles limités de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
+**L’attribut N** de cet **élément Cell** doit faire partie d’un ensemble limité de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|

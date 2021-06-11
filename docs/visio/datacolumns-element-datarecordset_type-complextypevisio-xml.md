@@ -48,7 +48,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Définit l’apparition d’une  colonne de données dans la fenêtre Données externes de l’interface utilisateur de Visio et qualifie les données de la colonne en définissant son type de données et sa mise en forme.  <br/> |
+|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Définit l’apparition d’une  colonne de données dans la fenêtre Données externes de l’interface utilisateur Visio et qualifie les données de la colonne en définissant son type de données et sa mise en forme.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

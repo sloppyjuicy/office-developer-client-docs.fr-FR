@@ -18,7 +18,9 @@ ms.locfileid: "45160257"
 ---
 # <a name="angletopar-function"></a>Fonction ANGLETOPAR
 
-Renvoie un angle transformé dans le système de coordonnées parent de la forme de destination. Convertit un angle des coordonnées locales de la forme source en coordonnées parent de la forme de destination. 
+Renvoie un angle transformé dans le système de coordonnées parent de la forme de destination. Convertit un angle des coordonnées locales de la forme source en coordonnées parent de la forme de destination.
+    
+ 
   
 ## <a name="syntax"></a>Syntaxe
 

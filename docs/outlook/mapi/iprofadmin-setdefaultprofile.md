@@ -25,7 +25,7 @@ ms.locfileid: "33439624"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit ou effacer le profil par défaut d’un client.
+Définit ou définit le profil par défaut d’un client.
   
 ```cpp
 HRESULT SetDefaultProfile(
@@ -34,7 +34,7 @@ HRESULT SetDefaultProfile(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpszProfileName_
   
@@ -60,7 +60,7 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IProfAdmin::SetDefaultProfile** établit un profil particulier en tant que profil par défaut du client ou désinsaisie le profil par défaut actuel. Le profil par défaut est le profil qui est automatiquement utilisé chaque fois que le client commence une session MAPI. **SetDefaultProfile** définit également la propriété PR_DEFAULT_PROFILE **(** [PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) du nouveau profil par défaut sur TRUE.
+La **méthode IProfAdmin::SetDefaultProfile** établit un profil particulier en tant que profil par défaut du client ou désamorce le profil par défaut actuel. Le profil par défaut est le profil qui est automatiquement utilisé chaque fois que le client commence une session MAPI. **SetDefaultProfile** définit également la propriété PR_DEFAULT_PROFILE **(** [PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) du nouveau profil par défaut sur TRUE.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

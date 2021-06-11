@@ -21,7 +21,7 @@ ms.locfileid: "52061312"
 
  
   
-**S'applique** à : Outlook 2013 | Outlook 2016 | Outlook 2019
+**S’applique** à : Outlook 2013 | Outlook 2016 | Outlook 2019
   
 Les entrées alphabétiques suivantes contiennent de la documentation pour les fonctions MAPI, les rappels et les macros. 
   

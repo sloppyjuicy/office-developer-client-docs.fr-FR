@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
-description: Fichier d’interface utilisateur (VSU) MIME (Multipurpose Internet Mail Extensions) codé représentant des barres d’outils personnalisées.
+description: Fichier MIME (Multipurpose Internet Mail Extensions) codé Microsoft Visio interface utilisateur (VSU) représentant des barres d’outils personnalisées.
 ms.openlocfilehash: 99bc85aff23abf11dafb644fb43ee540fff7a2ca
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34537926"
 ---
 # <a name="attachedtoolbars-element-documentsettings_type-complextype-visio-xml"></a>Élément AttachedToolbars (DocumentSettings_Type complexType) (Visio XML)
 
-Fichier d’interface utilisateur (VSU) MIME (Multipurpose Internet Mail Extensions) codé représentant des barres d’outils personnalisées.
+Fichier MIME (Multipurpose Internet Mail Extensions) codé Microsoft Visio interface utilisateur (VSU) représentant des barres d’outils personnalisées.
   
 ## <a name="element-information"></a>Informations sur l’élément
 

@@ -25,7 +25,7 @@ ms.locfileid: "33439778"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Vérifie si une pièce jointe spécifiée est bloquée par Microsoft Outlook 2010 ou Microsoft Outlook 2013 pour l’affichage et l’indexation.
+Vérifie si une pièce jointe spécifiée est bloquée Microsoft Outlook 2010 ou Microsoft Outlook 2013 pour l’affichage et l’indexation.
   
 ```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
@@ -34,7 +34,7 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pwszFileName_
   

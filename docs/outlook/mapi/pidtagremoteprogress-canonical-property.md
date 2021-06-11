@@ -48,7 +48,7 @@ MSGSTATUS_REMOTE_DELETE
     
 MSGSTATUS_REMOTE_DOWNLOAD
   
-> Le transfert de message est en cours.
+> Le transfert des messages est en cours.
     
 ## <a name="related-resources"></a>Ressources connexes
 

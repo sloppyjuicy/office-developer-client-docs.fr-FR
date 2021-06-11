@@ -85,7 +85,7 @@ RES_EXIST
     
 RES_NOT 
   
-> Restriction **NOT,** qui applique une opération **LOGIQUE NOT** à une restriction. 
+> Une restriction **NOT,** qui applique une opération **LOGIQUE NOT** à une restriction. 
     
 RES_OR 
   

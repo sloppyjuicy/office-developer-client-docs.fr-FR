@@ -25,11 +25,11 @@ ms.locfileid: "33439330"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime les dossiers de contacts du carnet d’adresses Microsoft Outlook 2010 et Microsoft Outlook 2013.
+Supprime les dossiers de contacts du carnet Microsoft Outlook 2010 et Microsoft Outlook 2013'adresses.
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |caminemin.h  <br/> |
+|Fichier d’en-tête :  <br/> |c vhmin.h  <br/> |
 |Exposé par :  <br/> ||
 |Implémenté par :  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |Appelé par :  <br/> |CRM  <br/> |

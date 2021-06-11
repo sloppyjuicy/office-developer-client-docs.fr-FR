@@ -33,7 +33,7 @@ HRESULT GetMAPISession(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lppSession_
   

@@ -58,7 +58,7 @@ Aucun.
 |date  <br/> |xs:date  <br/> |obligatoire  <br/> |Spécifie la date de la prévision.  <br/> |Valeur du type xs:date  <br/> |
 |day  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie un jour pour la prévision.  <br/> |Valeur du type xs:string  <br/> |
 |high  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie la température la plus élevée prévue.  <br/> |Valeur du type xs:integer  <br/> |
-|low  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie la température la plus basse prévue.  <br/> |Valeur du type xs:integer  <br/> |
+|faible  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie la température la plus basse prévue.  <br/> |Valeur du type xs:integer  <br/> |
 |precip  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie la possibilité de pourcentage d’éventualité.  <br/> |Valeur du type xs:integer  <br/> |
 |shortday  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie un jour sous forme abrégée.  <br/> |Valeur du type xs:string  <br/> |
 |skycodeday  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie un code pour les conditions prévues.  <br/> |Valeur du type xs:integer  <br/> |

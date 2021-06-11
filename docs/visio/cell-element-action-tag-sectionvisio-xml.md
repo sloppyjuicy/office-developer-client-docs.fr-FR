@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (section ActionTag)](row-element-action-tag-sectionvisio-xml.md) <br/> |[ActionTagRow_Type](actiontag_type-complextypevisio-xml.md) <br/> |Définit une balise d’action sur une forme ou une page.  <br/> |
+|[Row, élément (actiontag, section)](row-element-action-tag-sectionvisio-xml.md) <br/> |[ActionTagRow_Type](actiontag_type-complextypevisio-xml.md) <br/> |Définit une balise d’action sur une forme ou une page.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -69,7 +69,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |ButtonFace  <br/> |Contient l’ID de l’image de la face de bouton qui s’affiche sur le bouton de balise d’action.  <br/> |[ButtonFace, cellule (section Action Tags)](buttonface-cell-action-tags-section.md) <br/> |
 |Description  <br/> |Contient une chaîne qui décrit la balise d’action, qui s’affiche sous forme d’info-bulle lorsque l’utilisateur place le pointeur sur la balise.  <br/> |[Description, cellule (section Action Tags)](description-cell-action-tags-section.md) <br/> |
 |Désactivé  <br/> |Indique si la balise d’action s’affiche dans la fenêtre de dessin.  <br/> |[Disabled, cellule (section Action Tags)](disabled-cell-action-tags-section.md) <br/> |
-|DisplayMode  <br/> |Détermine si la balise d’action s’affiche lorsque l’utilisateur place le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.  <br/> |[DisplayMode, cellule (Section Action Tags)](displaymode-cell-action-tags-section.md) <br/> |
+|DisplayMode  <br/> |Détermine si la balise d’action s’affiche lorsque l’utilisateur déplace le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.  <br/> |[DisplayMode, cellule (Section Action Tags)](displaymode-cell-action-tags-section.md) <br/> |
 |TagName  <br/> |Nom de la balise d’action utilisé comme référence pour associer la balise d’action à ses actions.  <br/> |[TagName, cellule (section Action Tags)](tagname-cell-action-tags-section.md) <br/> |
 |X  <br/> |Position de la coordonnée x dans le système de coordonnées locales de la forme et autour de laquelle est positionné le bouton de balise d’action.  <br/> |[X, cellule (section Action Tags)](x-cell-action-tags-section.md) <br/> |
 |XJustify  <br/> |Décalage x du bouton de balise d’action par rapport au point défini par les cellules X et Y.  <br/> |[X Justify, cellule (section Action Tags)](x-justify-cell-action-tags-section.md) <br/> |

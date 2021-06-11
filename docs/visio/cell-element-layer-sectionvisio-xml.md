@@ -1,5 +1,5 @@
 ---
-title: Élément de cellule (section Layer) (Visio XML)
+title: Élément cell (Layer Section) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539756"
 ---
-# <a name="cell-element-layer-section-visio-xml"></a>Élément de cellule (section Layer) (Visio XML)
+# <a name="cell-element-layer-section-visio-xml"></a>Élément cell (Layer Section) (Visio XML)
 
 Spécifie une propriété pour un calque ou ses propriétés pour une page.
   
@@ -74,7 +74,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |Nom  <br/> |Nom d’un calque.  <br/> |Aucun.  <br/> |
 |NameUniv  <br/> |Spécifie le nom universel d’un calque.  <br/> |Aucun.  <br/> |
 |Imprimer  <br/> |Spécifie si les formes appartenant au calque sont imprimées lors de l’impression du dessin.  <br/> |Aucun.  <br/> |
-|Aligner  <br/> |Spécifie si d’autres formes peuvent s’aligner sur les formes affectées au calque.  <br/> |Aucun.  <br/> |
+|Ancrer  <br/> |Spécifie si d’autres formes peuvent s’aligner sur les formes affectées au calque.  <br/> |Aucun.  <br/> |
 |Statut  <br/> |Spécifie si le calque est un calque valide pour un document.  <br/> |Aucun.  <br/> |
 |Visible  <br/> |Indique si les formes appartenant au calque sont visibles sur la page de dessin.  <br/> |Aucun.  <br/> |
    

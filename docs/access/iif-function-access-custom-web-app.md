@@ -30,8 +30,8 @@ La **fonction IIf** contient les arguments suivants.
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
 | *Condition*  <br/> |Expression que vous souhaitez évaluer.  <br/> |
-| *TrueValue*  <br/> |Valeur ou expression renvoyée si  *la condition*  a la valeur True.  <br/> |
-| *FalseValue*  <br/> |Valeur ou expression renvoyée si  *la condition*  est False.  <br/> |
+| *TrueValue*  <br/> |Valeur ou expression renvoyée si  *la condition*  est True.  <br/> |
+| *FalseValue*  <br/> |Valeur ou expression renvoyée si  *la condition est*  False.  <br/> |
    
 ## <a name="example"></a>Exemple
 

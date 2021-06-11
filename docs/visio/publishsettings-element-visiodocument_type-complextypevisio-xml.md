@@ -48,8 +48,8 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[PublishedPage](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |Spécifie si une page de dessin est visible dans le navigateur à l’aide de Visio Services.  <br/> |
-|[RefreshableData](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |Spécifie si un recordset est actualisable à l’aide de Visio Services.  <br/> |
+|[PublishedPage](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |Spécifie si une page de dessin est consultable dans le navigateur à l’aide de Visio Services.  <br/> |
+|[RefreshableData](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |Spécifie si un recordset est actualisable à l’aide Visio Services.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

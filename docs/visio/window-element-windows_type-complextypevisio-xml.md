@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
-description: Représente une fenêtre ouverte dans une instance de Microsoft Visio. Cet élément contient les informations nécessaires à la re-création d’une fenêtre d’interface utilisateur dans l’espace de travail de l’application lors de l’ouverture initiale du fichier par Visio.
+description: Représente une fenêtre ouverte dans une instance de Microsoft Visio. Cet élément contient les informations nécessaires à la re-création d’une fenêtre d’interface utilisateur dans l’espace de travail de l’application lorsque le fichier est initialement ouvert par Visio.
 ms.openlocfilehash: 2700ee7a9a17460f6ac707f5b1a8f35d622e33e3
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34538458"
 ---
 # <a name="window-element-windows_type-complextype-visio-xml"></a>Élément Window (Windows_Type complexType) (Visio XML)
 
-Représente une fenêtre ouverte dans une instance de Microsoft Visio. Cet élément contient les informations nécessaires à la re-création d’une fenêtre d’interface utilisateur dans l’espace de travail de l’application lors de l’ouverture initiale du fichier par Visio.
+Représente une fenêtre ouverte dans une instance de Microsoft Visio. Cet élément contient les informations nécessaires à la re-création d’une fenêtre d’interface utilisateur dans l’espace de travail de l’application lorsque le fichier est initialement ouvert par Visio.
   
 ## <a name="element-information"></a>Informations sur l’élément
 

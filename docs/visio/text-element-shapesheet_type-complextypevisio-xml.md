@@ -51,7 +51,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |[cp](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Marque le début d’une exécute de propriétés de caractères mise en forme en fonction de l’élément Char correspondant.  <br/> |
 |[fld](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Indique un point d’insertion de champ de texte pour l’élément Field correspondant.  <br/> |
 |[pp](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |Spécifie le début d’une exécute de propriétés de paragraphe.  <br/> |
-|[tp](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Spécifie le début d’une exécuter les propriétés d’onglets.  <br/> |
+|[tp](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Spécifie le début d’une utilisation des propriétés d’onglets.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

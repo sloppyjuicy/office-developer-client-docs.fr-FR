@@ -76,7 +76,7 @@ Une structure **SSortOrder** est utilisée pour décrire comment effectuer une o
     
 - [HrQueryAllRows](hrqueryallrows.md)
     
-La plage de colonnes autorisées dans un tableau qui peut être utilisée comme clé de tri dépend du fournisseur. Les colonnes qui font partie du jeu de colonnes actuel peuvent toujours être utilisées comme clés de tri. Toutefois, chaque fournisseur détermine si les clés de tri peuvent être définies à l’aide des colonnes disponibles qui ne sont pas dans le jeu de colonnes actuel. Une colonne disponible est une colonne renvoyée par [IMAPITable::QueryColumns](imapitable-querycolumns.md) lorsque l’TBL_ALL_COLUMNS est définie. 
+La plage de colonnes autorisées dans un tableau qui peut être utilisée comme clé de tri dépend du fournisseur. Les colonnes qui font partie de l’ensemble de colonnes actuel peuvent toujours être utilisées comme clés de tri. Toutefois, chaque fournisseur détermine si les clés de tri peuvent être définies à l’aide des colonnes disponibles qui ne sont pas dans le jeu de colonnes actuel. Une colonne disponible est une colonne qui est renvoyée par [IMAPITable::QueryColumns](imapitable-querycolumns.md) lorsque l’TBL_ALL_COLUMNS est définie. 
   
 Le **membre ulOrder** indique à la fois l’ordre directionnel et les informations de catégorisation, par exemple, par conversation ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md)), autrement dit, thread de conversation, qui est une série de messages et de réponses. Les lignes peuvent être triées dans une séquence descendante ou ascendante avec toutes les entrées NULL positionnées en dernier. 
   

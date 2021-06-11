@@ -25,7 +25,7 @@ ms.locfileid: "33438350"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient l’index de base zéro de la position d’un fournisseur de services dans la table fournisseur.
+Contient l’index de base 0 de la position d’un fournisseur de services dans la table fournisseur.
   
 |||
 |:-----|:-----|

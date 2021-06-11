@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b9db404-a56a-efeb-90bc-669b61483f81
-description: Cette rubrique répertorie les types dans le schéma XML du format de fichier Visio 2013.
+description: Cette rubrique répertorie les types du schéma XML Visio format de fichier 2013.
 ms.openlocfilehash: 465204a71b991fa0402665086ca146c3e094f641
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34538591"
 ---
 # <a name="types-visio-xml"></a>Types (Visio XML)
 
-Cette rubrique répertorie les types dans le schéma XML du format de fichier Visio 2013.
+Cette rubrique répertorie les types du schéma XML Visio format de fichier 2013.
   
 - [Actions_Type complexType](actions_type-complextypevisio-xml.md)
     

@@ -22,7 +22,7 @@ ms.locfileid: "52062031"
 ---
 # <a name="imapiwaitresultend"></a>IMAPIWaitResult::End
   
-**S'applique** à : Outlook 2013 | Outlook 2016 | 2019
+**S’applique** à : Outlook 2013 | Outlook 2016 | 2019
 
 Lance un appel BLOCKING sur ce thread, qui retourne soit lorsque le nombre de millisecondes spécifié est écoulé, soit que MAPI a été initialisé. INFINITE peut être utilisé pour une attente infinie.
 
@@ -30,10 +30,10 @@ Lance un appel BLOCKING sur ce thread, qui retourne soit lorsque le nombre de mi
 HRESULT IMAPIWaitResult::End(DWORD timeout)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _timeout_
-> [in] Le nombre de millisecondes à attendre pour l'initialisation de MAPI, vous pouvez transmettre INFINITE (0xFFFFFFFF) pour attendre indéfiniment.
+> [in] Le nombre de millisecondes à attendre pour l’initialisation de MAPI, vous pouvez transmettre INFINITE (0xFFFFFFFF) pour attendre indéfiniment.
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -41,7 +41,7 @@ S_OK
 > MAPI a été initialisé avec succès
 
 HRESULT_FROM_WIN32(ERROR_TIMEOUT)
-> En cas de délai non infini, cela indique que MAPI n'a pas été initialisé pendant cette période.
+> En cas de délai non infini, cela indique que MAPI n’a pas été initialisé pendant cette période.
 
 ## <a name="remarks"></a>Remarques
 Cette API se comporte exactement comme [IMAPInitMonitor::Wait](imapiinitmonitor-wait.md).

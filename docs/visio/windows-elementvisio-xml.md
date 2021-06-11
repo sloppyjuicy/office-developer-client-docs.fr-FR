@@ -1,5 +1,5 @@
 ---
-title: Élément Windows (Visio XML)
+title: Windows’élément (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538444"
 ---
-# <a name="windows-element-visio-xml"></a>Élément Windows (Visio XML)
+# <a name="windows-element-visio-xml"></a>Windows’élément (Visio XML)
 
 Contient les **éléments Window** d’un document. 
   

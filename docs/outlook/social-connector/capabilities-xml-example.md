@@ -25,7 +25,7 @@ Dans cet exemple, le fournisseur OSC spécifie les éléments suivants pour affi
   
 - **getFriends comme** **true** pour indiquer que le fournisseur OSC prend en charge la méthode [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) pour obtenir les informations des amis par programme. 
     
-- **CacheFriends comme** **true pour** prendre en charge la mise en cache des informations des amis dans un dossier de contacts Outlook. 
+- **CacheFriends comme** **true pour** prendre en charge la mise en cache des informations des amis dans un Outlook contacts. 
     
 - **contactSyncRestartInterval** comme 60 pour indiquer qu’en cas d’erreur, l’OSC doit réessayer d’actualisation du cache toutes les 60 minutes. 
     
@@ -41,7 +41,7 @@ Le fournisseur OSC spécifie les éléments suivants pour afficher sa capacité 
   
 - **getActivities** comme **true** pour indiquer que le fournisseur OSC prend en charge la méthode [ISocialProfile::GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) pour obtenir les activités des amis par programme. 
     
-- **CacheActivities comme** **false pour prendre** en charge les activités de mise en cache d’amis dans le dossier de flux d’actualités Outlook masqué. 
+- **CacheActivities comme** **false pour prendre** en charge les activités de mise en cache d’amis dans le dossier masqué Outlook News Feed. 
     
 - **dynamicActivitiesLookupEx** comme **true** pour indiquer que l’OSC doit stocker les activités des amis en mémoire. 
     
@@ -53,11 +53,11 @@ Le fournisseur OSC spécifie les éléments suivants pour afficher sa prise en c
     
 - **supportsAutoConfigure** comme **false** pour indiquer que l’OSC ne doit pas tenter de configurer et de se connecter automatiquement au réseau social de l’utilisateur. 
     
-- **useLogonCached** et **hideRememberMyPassword** comme **false** pour indiquer que l’OSC doit à chaque fois indiquer le mot de passe et ne doit pas utiliser les informations d’identification de connexion mises en cache pour se connecter. 
+- **utilisezLogonCached** et **hideRememberMyPassword** comme **false** pour indiquer que l’OSC doit à chaque fois indiquer le mot de passe et ne doit pas utiliser les informations d’identification de connexion mises en cache pour se connecter. 
     
 - **displayUrl comme** **false** pour indiquer que l’OSC ne doit pas afficher l’URL du réseau social dans la boîte de dialogue configuration du compte. 
     
-- **hideHyperlinks**  comme false pour indiquer que le fournisseur OSC prend en charge uniquement les  comptes existants avec des mots de passe connus et que l’OSC ne doit pas afficher les liens **hypertexte** Cliquez ici pour créer un compte et Vous avez oublié votre mot de passe ? dans la boîte de dialogue configuration du compte. 
+- **hideHyperlinks**  comme false pour indiquer que le fournisseur OSC prend en charge uniquement les comptes existants avec des mots de passe connus et que l’OSC ne doit pas afficher les liens hypertexte Click **here pour** créer un compte et **Vous** avez oublié votre mot de passe ? dans la boîte de dialogue configuration du compte. 
     
 ## <a name="xml-example"></a>Exemple de XML
 
@@ -93,5 +93,5 @@ L’exemple suivant montre les **fonctionnalités** XML d’un fournisseur OSC.
 - [XML pour les fonctionnalités](xml-for-capabilities.md)  
 - [Exemple XML Friends](friends-xml-example.md)  
 - [Exemple de XML de flux d’activités](activity-feed-xml-example.md)  
-- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Outlook Schéma XML du fournisseur Social Connector](outlook-social-connector-provider-xml-schema.md)
 

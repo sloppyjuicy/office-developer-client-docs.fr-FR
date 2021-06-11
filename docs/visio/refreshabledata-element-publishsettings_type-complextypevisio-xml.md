@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
-description: Spécifie si un jeu d’enregistrements est actualisable à l’aide de Visio Services dans Microsoft SharePoint Server 2013.
+description: Spécifie si un recordset est actualisable à l’aide Visio Services dans Microsoft SharePoint Server 2013.
 ms.openlocfilehash: 21a0a5c198998c4b230be88c6bd9f96b25265990
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34542876"
 ---
 # <a name="refreshabledata-element-publishsettings_type-complextype-visio-xml"></a>Élément RefreshableData (PublishSettings_Type complexType) (Visio XML)
 
-Spécifie si un jeu d’enregistrements est actualisable à l’aide de Visio Services dans Microsoft SharePoint Server 2013.
+Spécifie si un recordset est actualisable à l’aide Visio Services dans Microsoft SharePoint Server 2013.
   
 ## <a name="element-information"></a>Informations sur l’élément
 

@@ -19,11 +19,11 @@ ms.locfileid: "33438980"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un message entrant est un message qui a été envoyé sur un ou plusieurs systèmes de messagerie. Il a peut-être été envoyé uniquement à vous ou à de nombreux autres destinataires. Les messages entrants sont placés dans un dossier de réception désigné pour contenir les messages d’une classe particulière. Vous pouvez configurer un dossier de réception différent pour chaque classe de message que vous traitez ou utilisez un dossier pour toutes les classes.
+Un message entrant est un message qui a été envoyé sur un ou plusieurs systèmes de messagerie. Il peut avoir été envoyé uniquement à vous ou à de nombreux autres destinataires. Les messages entrants sont placés dans un dossier de réception désigné pour contenir les messages d’une classe particulière. Vous pouvez configurer un dossier de réception différent pour chaque classe de message que vous traitez ou utilisez un dossier pour toutes les classes.
   
 Si vous vous êtes inscrit à de nouvelles notifications par courrier électronique auprès de la boutique de messages, vous êtes averti chaque fois qu’un message est placé dans un dossier de réception. Si vous ne vous êtes pas inscrit aux nouvelles notifications par courrier électronique, vous devez ouvrir régulièrement le dossier de réception approprié pour vérifier manuellement l’arrivée de nouveaux messages.
   
-Les clients s’inscrivent aux nouvelles notifications par courrier électronique en paramétant les paramètres [sur IMsgStore::Advise](imsgstore-advise.md) comme suit : 
+Les clients s’inscrivent pour les nouvelles notifications par courrier électronique en paramétant les paramètres [sur IMsgStore::Advise](imsgstore-advise.md) comme suit : 
   
 - Définissez  _cbEntryID_ sur 0. 
     
@@ -51,13 +51,13 @@ Avant d’afficher un message entrant à un utilisateur, déterminez si sa class
     
 7. Ouvrez une pièce jointe si vous le souhaitez. Pour plus d’informations, [voir Ouverture d’une pièce jointe.](opening-an-attachment.md)
     
-## <a name="in-this-section"></a>Contenu de cette section
+## <a name="in-this-section"></a>Dans cette section
 
 - [Ouverture du texte](opening-message-text.md)du message : décrit comment ouvrir le texte du message.
     
 - [Rendu d’une pièce jointe en texte simple](rendering-an-attachment-in-plain-text.md): décrit comment restituer une pièce jointe en texte simple.
     
-- [Rendu d’une pièce jointe dans un texte RTF :](rendering-an-attachment-in-rtf-text.md)décrit comment restituer une pièce jointe dans du texte formaté.
+- [Rendu d’une pièce jointe dans un](rendering-an-attachment-in-rtf-text.md)texte RTF : décrit comment restituer une pièce jointe dans du texte formaté.
     
 - [Ouverture d’une](opening-an-attachment.md)pièce jointe : décrit comment ouvrir une pièce jointe.
     

@@ -81,7 +81,7 @@ L’exemple suivant montre le XML **des** amis de deux personnes sur le réseau 
 ## <a name="see-also"></a>Voir aussi
 
 - [Exemples XML de fournisseur OSC](osc-provider-xml-examples.md)  
-- [Exemple XML de fonctionnalités](capabilities-xml-example.md) 
+- [Exemple de fonctionnalités XML](capabilities-xml-example.md) 
 - [Exemple de XML de flux d’activités](activity-feed-xml-example.md) 
-- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Outlook Schéma XML du fournisseur Social Connector](outlook-social-connector-provider-xml-schema.md)
 

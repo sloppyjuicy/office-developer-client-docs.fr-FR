@@ -29,7 +29,7 @@ ms.locfileid: "33439568"
    
 **Pour récupérer des informations d’état sur le type et l’opération en cours d’une table**
   
-- Appelez [IMAPITable::GetStatus](imapitable-getstatus.md). Avec **GetStatus,** un utilisateur de table peut déterminer si la table est statique ou dynamique, si une opération est en cours ou est terminée, et si une erreur s’est produite à partir d’une opération terminée. Par exemple, si un client doit annuler une opération de tri parce qu’elle prend trop de temps, le client peut d’abord appeler **GetStatus** pour déterminer si, en fait, une opération de tri est en cours de traitement. Ensuite, le client peut appeler [IMAPITable::Abort](imapitable-abort.md) pour l’arrêter. 
+- Appelez [IMAPITable::GetStatus](imapitable-getstatus.md). Avec **GetStatus,** un utilisateur de table peut déterminer si la table est statique ou dynamique, si une opération est en cours ou est terminée, et si une erreur s’est produite à partir d’une opération terminée. Par exemple, si un client doit annuler une opération de tri car elle prend trop de temps, le client peut d’abord appeler **GetStatus** pour déterminer si, en fait, une opération de tri est en cours de traitement. Ensuite, le client peut appeler [IMAPITable::Abort](imapitable-abort.md) pour l’arrêter. 
     
 **Pour suspendre l’activité jusqu’à ce qu’une tâche asynchrone soit terminée**
   

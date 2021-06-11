@@ -19,7 +19,7 @@ ms.locfileid: "33438875"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-L’API de sécurité des pièces jointes permet aux solutions Outlook de découvrir si une pièce jointe est considérée comme non sûre par Outlook et est bloquée pour l’affichage et l’indexation. Il fournit les définitions et l’interface suivantes.
+L’API de sécurité des pièces jointes permet Outlook solutions de déterminer si une pièce jointe est considérée comme non sûre par Outlook et est bloquée pour l’affichage et l’indexation. Il fournit les définitions et l’interface suivantes.
   
 Définitions
   

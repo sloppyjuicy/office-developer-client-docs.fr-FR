@@ -1,5 +1,5 @@
 ---
-title: Élément de cellule (ligne Lien hypertexte) (Visio XML)
+title: Élément de cellule (ligne Hyperlink) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539792"
 ---
-# <a name="cell-element-hyperlink-row-visio-xml"></a>Élément de cellule (ligne Lien hypertexte) (Visio XML)
+# <a name="cell-element-hyperlink-row-visio-xml"></a>Élément de cellule (ligne Hyperlink) (Visio XML)
 
 Contient les informations d'un seul lien hypertexte associé à une forme. Une forme contient une **ligne Lien hypertexte** pour chaque lien hypertexte. 
   
@@ -62,12 +62,12 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
    
 ## <a name="remarks"></a>Remarques
 
-**L’attribut N** de cet **élément Cell** doit être l’un des ensembles limités de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
+**L’attribut N** de cet **élément Cell** doit faire partie d’un ensemble limité de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |Adresse  <br/> |Indique une adresse d’URL, un nom de fichier ou un chemin d’accès UNC auxquels accéder.  <br/> |[Address, cellule (section Hyperlinks)](address-cell-hyperlinks-section.md) <br/> |
-|Par défaut  <br/> |Détermine le lien hypertexte par défaut d'une forme ou d'une page.  <br/> |[Default, cellule (section Hyperlinks)](default-cell-hyperlinks-section.md) <br/> |
+|Défaut  <br/> |Détermine le lien hypertexte par défaut d'une forme ou d'une page.  <br/> |[Default, cellule (section Hyperlinks)](default-cell-hyperlinks-section.md) <br/> |
 |Description  <br/> |Représente une chaîne de texte descriptive d’un lien hypertexte  <br/> |[Description, cellule (section Hyperlinks)](description-cell-hyperlinks-section.md) <br/> |
 |ExtraInfo  <br/> |Représente une chaîne qui passe l'information à utiliser dans la résolution d'une URL, comme les coordonnées d'un point dans une image interactive.  <br/> |[ExtraInfo, cellule (section Hyperlinks)](extrainfo-cell-hyperlinks-section.md) <br/> |
 |Cadre  <br/> |Représente le nom d'un cadre à prendre comme destination lorsque l'application est ouverte comme document actif dans une application conteneur. La valeur par défaut est une chaîne vide.  <br/> |[Frame, cellule (section Hyperlinks)](frame-cell-hyperlinks-section.md) <br/> |

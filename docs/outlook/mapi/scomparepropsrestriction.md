@@ -69,7 +69,7 @@ typedef struct _SComparePropsRestriction
     
 ## <a name="remarks"></a>Remarques
 
-L’ordre de comparaison _est (balise de propriété 1) (opérateur relationnel) (balise de propriété 2)._ Les propriétés à comparer doivent être du même type. Si vous essayez de comparer des propriétés de différents types, MAPI ou le fournisseur de services retourne la valeur d’erreur MAPI_E_TOO_COMPLEX à partir de la méthode [IMAPITable](imapitableiunknown.md) à laquelle la structure est passée en tant que paramètre. 
+L’ordre de comparaison _est (balise de propriété 1) (opérateur relationnel) (balise de propriété 2)._ Les propriétés à comparer doivent être du même type. Si vous essayez de comparer des propriétés de différents types, MAPI ou le fournisseur de services retournent la valeur d’erreur MAPI_E_TOO_COMPLEX à partir de la méthode [IMAPITable](imapitableiunknown.md) à laquelle la structure est passée en tant que paramètre. 
   
 Le résultat d’une restriction de valeur de propriété de comparaison n’est pas définie lorsqu’une ou les deux propriétés n’existent pas. Lorsqu’un client nécessite un comportement bien défini pour une telle restriction et qu’il n’est pas sûr que la propriété existe (par exemple, il ne s’agit pas d’une colonne obligatoire d’une table), il doit créer une restriction **AND** pour joindre la restriction de comparaison de propriétés à une restriction existante. Utilisez une structure [SExistRestriction](sexistrestriction.md) pour définir la restriction existante et une structure [SAndRestriction](sandrestriction.md) pour définir la restriction **AND.** 
   

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8001249c-ea67-c5c0-3168-485400c43d8c
-description: Contient la couleur, la transparence ou la position d’un dégradé pour un dégradé de trait.
+description: Contient la couleur, la transparence ou la position d’un arrêt de dégradé pour un dégradé de trait.
 ms.openlocfilehash: d8ac664285d24e47a142c22b1483e2ff435aef48
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34539501"
 ---
 # <a name="cell-element-line-gradient-section-visio-xml"></a>Élément de cellule (section Line Gradient) (Visio XML)
 
-Contient la couleur, la transparence ou la position d’un dégradé pour un dégradé de trait.
+Contient la couleur, la transparence ou la position d’un arrêt de dégradé pour un dégradé de trait.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Élément Row (line gradient section)](row-element-line-gradient-sectionvisio-xml.md) <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de trait.  <br/> |
+|[Élément Row (line gradient section)](row-element-line-gradient-sectionvisio-xml.md) <br/> |[LineGradientRow_Type](linegradientrow_type-complextypevisio-xml.md) <br/> |Contient la couleur, la transparence et la position d’un arrêt de dégradé pour un dégradé de trait.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

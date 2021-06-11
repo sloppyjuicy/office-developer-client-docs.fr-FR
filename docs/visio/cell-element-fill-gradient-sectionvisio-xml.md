@@ -1,5 +1,5 @@
 ---
-title: Élément de cellule (section Dégradé de remplissage) (Visio XML)
+title: Élément de cellule (section Fill Gradient) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539550"
 ---
-# <a name="cell-element-fill-gradient-section-visio-xml"></a>Élément de cellule (section Dégradé de remplissage) (Visio XML)
+# <a name="cell-element-fill-gradient-section-visio-xml"></a>Élément de cellule (section Fill Gradient) (Visio XML)
 
 Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de remplissage.
   
@@ -62,12 +62,12 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
    
 ## <a name="remarks"></a>Remarques
 
-**L’attribut N** de cet **élément Cell** doit être l’un des ensembles limités de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
+**L’attribut N** de cet **élément Cell** doit faire partie d’un ensemble limité de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |GradientStopColor  <br/> |Valeur de couleur du dégradé. Cette valeur peut être exprimée en tant que numéro d’index d’une couleur dans la palette de documents ou à l’aide des fonctions **RVB,** **THEMEVAL** ou **HSL.**  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
-|GradientStopColorTrans  <br/> |Quantité de transparence du point de dégradé, sous la mesure d’un pourcentage.  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|GradientStopColorTrans  <br/> |La quantité de transparence du point de dégradé de couleur, sous la mesure d’un pourcentage.  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
 |GradientStopPosition  <br/> |Position du point de dégradé le long de la direction du dégradé de trait, sous la mesure d’un pourcentage entre le point d’origine du dégradé et le bord externe du dégradé.  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
    
 

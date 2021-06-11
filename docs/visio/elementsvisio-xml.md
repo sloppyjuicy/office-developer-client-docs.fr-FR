@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cffc4005-e260-38ab-7142-47f949cc7494
-description: Cette rubrique répertorie les éléments du schéma XML du format de fichier Visio 2013.
+description: Cette rubrique répertorie les éléments du Visio XML du format de fichier 2013.
 ms.openlocfilehash: 8efa50eeac8f236e6879915d920fdb0f38e1f4f2
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34539918"
 ---
 # <a name="elements-visio-xml"></a>Éléments (Visio XML)
 
-Cette rubrique répertorie les éléments du schéma XML du format de fichier Visio 2013.
+Cette rubrique répertorie les éléments du Visio XML du format de fichier 2013.
   
 - [Élément AttachedToolbars](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md)
     

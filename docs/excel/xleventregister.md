@@ -24,21 +24,21 @@ Utilisé pour inscrire un handler d’événements. Introduit dans Excel 2010.
 Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12 pxEvent);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pxProcedure_ (**xltypeStr**)
   
-Nom de la fonction de handler d’événement telle qu’elle apparaît dans le code DLL.
+Nom de la fonction de handler d’événements telle qu’elle apparaît dans le code DLL.
   
  _pxEvent_ (**xltypeInt**)
   
 Événement géré par la fonction désignée dans le _paramètre pxProcedure._ 
   
-À compter d’Excel 2010, Excel prend en charge les événements suivants :
+À compter Excel 2010, Excel prend en charge les événements suivants :
   
-|**Événement**|**Description**|
+|**Event**|**Description**|
 |:-----|:-----|
-|**xleventCalculationEnded** <br/> |Élevé lorsque Excel termine un calcul. Vous pouvez libérer toutes les ressources allouées pendant le calcul après cet événement.  <br/> |
+|**xleventCalculationEnded** <br/> |Cette erreur est Excel à la fin d’un calcul. Vous pouvez libérer toutes les ressources allouées pendant le calcul après cet événement.  <br/> |
 |**xleventCalculationCanceled** <br/> |Élevé lorsque l’utilisateur interrompt le calcul. Le XLL doit arrêter toutes les activités asynchrones. L’événement CalculationEnded est lancé immédiatement après cet événement.  <br/> |
    
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ab7a11a0-a413-d4fe-ddf1-0d2e967dc21d
-description: Propriété d’une information spécifiée par l’utilisateur à qui peuvent faire référence d’autres cellules et outils de module complémentaire.
+description: Propriété d’une information spécifiée par l’utilisateur à qui d’autres cellules et outils de module complémentaire peuvent faire référence.
 ms.openlocfilehash: 5b7e3eb1f4550430e4df51098b86862fcc7400da
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34539313"
 ---
 # <a name="cell-element-user-defined-cells-section-visio-xml"></a>Élément de cellule (section User-defined Cells) (Visio XML)
 
-Propriété d’une information spécifiée par l’utilisateur à qui peuvent faire référence d’autres cellules et outils de module complémentaire.
+Propriété d’une information spécifiée par l’utilisateur à qui d’autres cellules et outils de module complémentaire peuvent faire référence.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (section User-defined Cells)](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |Propriété d’une information spécifiée par l’utilisateur à qui peuvent faire référence d’autres cellules et outils de module complémentaire.  <br/> |
+|[Row, élément (section User-defined Cells)](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |Propriété d’une information spécifiée par l’utilisateur à qui d’autres cellules et outils de module complémentaire peuvent faire référence.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

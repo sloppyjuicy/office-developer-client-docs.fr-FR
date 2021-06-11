@@ -20,7 +20,7 @@ ms.locfileid: "34542281"
 
 Contient les lignes qui répertorient les coordonnées des sommets des traits et des arcs qui constituent la forme. 
   
-La géométrie d’une forme peut être exprimée dans plusieurs sections **Geometry.** Plusieurs chemins peuvent être utiles lorsque plusieurs chemins ont des propriétés différentes (par exemple, des chemins de découpage [d’image).](clippingpath-cell-foreign-image-info-section.md) 
+La géométrie d’une forme peut être exprimée en plusieurs sections **Geometry.** Plusieurs chemins peuvent être utiles lorsque plusieurs chemins ont des propriétés différentes (par exemple, des chemins de découpage [d’image).](clippingpath-cell-foreign-image-info-section.md) 
   
 ## <a name="remarks"></a>Remarques
 
@@ -39,7 +39,7 @@ La section **Geometry** contient les types de lignes suivants. Pour plus de dét
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> |Trace une ligne infinie d’une coordonnée à une autre.  <br/> |
 |[Ellipse](ellipse-row-geometry-section.md) <br/> |Trace une ellipse à partir de la coordonnée du centre et d’un grand/petit axe.  <br/> |
 |[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |Dessinez une courbe de Bézier cubique par rapport à la largeur et à la hauteur de la forme.  <br/> |
-|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |Dessinez un arc elliptique à une coordonnée par rapport à la hauteur et à la largeur de la forme.  <br/> |
+|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |Dessinez un arc elliptique vers une coordonnée par rapport à la hauteur et à la largeur de la forme.  <br/> |
 |[RelLineTo](rellineto-row-geometry-section.md) <br/> |Dessinez un trait vers une coordonnée relative à la hauteur et à la largeur d’une forme.  <br/> |
 |[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Atteindre une coordonnée par rapport à la largeur et à la hauteur de la forme.  <br/> |
 |[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Dessine une courbe de Bézier quadratique par rapport à la largeur et à la hauteur de la forme.  <br/> |

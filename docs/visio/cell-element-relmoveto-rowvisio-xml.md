@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8e91497c-0aa1-2021-9317-cf989e5b84a3
-description: Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après une coupure dans un chemin d’accès, par rapport à la hauteur et à la largeur de la forme.
+description: Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après un rupture de chemin d’accès, par rapport à la hauteur et à la largeur de la forme.
 ms.openlocfilehash: 6ec7990887ed59ae229e88b6ad02a7759c770700
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -67,6 +67,6 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule X représente la coordonnée **x** du premier sommet d’une forme par rapport à la largeur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée **x** du premier sommet après la coupure du chemin d’accès.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
-|v  <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule Y représente la coordonnée **y** du premier sommet d’une forme par rapport à la hauteur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée **y** du premier sommet après la rupture du chemin d’accès.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
+|v  <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule Y représente la coordonnée **y** du premier sommet d’une forme par rapport à la hauteur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée **y** du premier sommet après la coupure du chemin d’accès.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
    
 

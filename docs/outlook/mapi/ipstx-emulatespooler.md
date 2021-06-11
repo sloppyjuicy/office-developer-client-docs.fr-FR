@@ -25,7 +25,7 @@ ms.locfileid: "33438952"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Définit un magasin local pour émuler le Gestionnaire de protocole Outlook afin de mettre en file d’ensemble les messages sortants sur un serveur.
+Définit un magasin local pour émuler le gestionnaire Outlook protocole pour mettre en file d’ensemble les messages sortants sur un serveur.
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -41,12 +41,12 @@ HRESULT EmulateSpooler(
 
 Un magasin local appelle **IPSTX::EmulateSpooler** pour agir en tant que gestionnaire de protocole Outlook, en stockant les messages dans la file d’attente sortante vers le serveur principal (par exemple, le serveur MSN ou le serveur AOL) pour le traitement. Lors de l’émulation d’unpooler lors de la synchronisation, le magasin appelle ensuite les deux méthodes ci-après : 
   
-1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** to get the outgoing queue of messages in the store. Cette méthode réussit uniquement si le magasin émule le Gestionnaire de protocole Outlook. 
+1. **[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** to get the outgoing queue of messages in the store. Cette méthode réussit uniquement si le magasin émule le gestionnaire Outlook protocole. 
     
-2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** pour sécuriser l’accès unique à un message dans la file d’attente sortante juste avant de l’envoyer au serveur. Cette méthode réussit uniquement si le magasin émule le Gestionnaire de protocole Outlook. Après l’envoi du message, la boutique appelle à nouveau cette méthode pour libérer l’accès unique à celui-ci. 
+2. **[IMsgStore::SetLockState](imsgstore-setlockstate.md)** pour sécuriser l’accès unique à un message dans la file d’attente sortante juste avant de l’envoyer au serveur. Cette méthode réussit uniquement si le magasin émule le gestionnaire Outlook protocole. Après l’envoi du message, la boutique appelle à nouveau cette méthode pour libérer l’accès unique à celui-ci. 
     
 > [!NOTE]
-> Depuis Outlook 2002, le Gestionnaire de protocole Outlook a remplacé lepooler MAPI et est devenu responsable dupooling des messages sortants sur les serveurs back-end. 
+> Depuis Outlook 2002, le gestionnaire de protocole Outlook a remplacé lepooler MAPI et est devenu responsable dupooling des messages sortants sur les serveurs back-end. 
   
 ## <a name="see-also"></a>Voir aussi
 

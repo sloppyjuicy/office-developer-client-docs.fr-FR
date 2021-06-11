@@ -25,7 +25,7 @@ Un flux d’activités se compose d’une ou de plusieurs activités se produisa
     
 - **modèles :** conteneur pour les modèles utilisés pour afficher l’élément d’activité correspondant dans **les activités.**
     
-Pour créer un élément de flux d’activités, vous devez vous conformer au schéma XML d’extensibilité du fournisseur Outlook Social Connector (OSC). La figure 1 illustre la structure XML du flux d’activités.
+Pour créer un élément de flux d’activités, vous devez vous conformer au schéma XML d’extensibilité du Outlook Social Connector (OSC). La figure 1 illustre la structure XML du flux d’activités.
   
 **Figure 1. Structure XML du flux d’activités**
 
@@ -41,7 +41,7 @@ Pour un élément de flux d’activités individuel, **l’élément activityTem
   
 - **icône**: spécifie l’URL de l’icône pour afficher l’élément de flux d’activités.
     
-- **titre**: décrit l’élément de flux d’activités.
+- **titre**— Décrit l’élément de flux d’activités.
     
 - **type**: spécifie le type d’activité, tel qu’une mise à jour d’état, de photo ou de document.
     
@@ -65,6 +65,6 @@ Pour obtenir un exemple de données XML de flux d’activités, voir [l’exempl
 ## <a name="see-also"></a>Voir aussi
 
 - [XML pour les activités](xml-for-activities.md) 
-- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Outlook Schéma XML du fournisseur Social Connector](outlook-social-connector-provider-xml-schema.md)
 - [Développement d'un fournisseur avec le schéma XML OSC](developing-a-provider-with-the-osc-xml-schema.md)
 

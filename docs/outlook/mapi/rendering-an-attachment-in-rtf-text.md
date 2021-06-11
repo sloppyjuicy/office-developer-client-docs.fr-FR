@@ -37,7 +37,7 @@ Les clients au format RTF (Rich Text Format) peuvent récupérer les information
     
 5. Appelez **IMAPITable::QueryRows pour** récupérer les lignes appropriées. Pour plus d’informations, [voir IMAPITable::QueryRows](imapitable-queryrows.md).
     
-6. Appelez la méthode **IMAPIProp::OpenProperty** du message pour récupérer **PR_RTF_COMPRESSED’interface** **IStream.** Pour plus d’informations, [voir IMAPIProp::OpenProperty](imapiprop-openproperty.md) et **PR_RTF_COMPRESSED**.
+6. Appelez la méthode **IMAPIProp::OpenProperty**  du message pour récupérer PR_RTF_COMPRESSED’interface **IStream.** Pour plus d’informations, [voir IMAPIProp::OpenProperty](imapiprop-openproperty.md) et **PR_RTF_COMPRESSED**.
     
 7. Analysez le flux, à la recherche de l’espace réservé de rendu,  `\objattph` . Le caractère qui suit cet espace réservé est l’endroit où se trouve la pièce jointe suivante dans le tableau trié.
     

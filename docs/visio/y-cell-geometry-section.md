@@ -22,7 +22,7 @@ Représente une  *coordonnée y*  sur une forme en coordonnées locales. Ce tabl
   
 |Ligne|Description|
 |:-----|:-----|
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Si la ligne MoveTo est la première ligne de la section, la cellule Y représente la coordonnée  *y*  du premier sommet d’un chemin d’accès. Si la ligne MoveTo apparaît entre deux lignes, la cellule Y représente la coordonnée  *y*  du premier sommet après la coupure du chemin d’accès.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Si la ligne MoveTo est la première ligne de la section, la cellule Y représente la coordonnée  *y*  du premier sommet d’un chemin d’accès. Si la ligne MoveTo apparaît entre deux lignes, la cellule Y représente la coordonnée  *y*  du premier sommet après la rupture du chemin d’accès.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | Coordonnée  *y*  du sommet de fin d’un segment de ligne droite.  <br/> |
 |[ArcTo](arcto-row-geometry-section.md) <br/> | Coordonnée  *y*  du sommet de fin d’un arc.  <br/> |
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée  *y*  du sommet de fin d’un arc elliptique.  <br/> |

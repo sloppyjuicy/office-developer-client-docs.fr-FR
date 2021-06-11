@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4c88bde5-45e1-8030-e72c-a735c374a5c4
-description: Contient le nom du fichier d’interface utilisateur (.vsu) de Microsoft Visio qui définit des menus et des accélérateurs personnalisés pour un document.
+description: Contient le nom du fichier d’interface Visio Microsoft (.vsu) qui définit des menus et des accélérateurs personnalisés pour un document.
 ms.openlocfilehash: 69eca703acf30a10296c13452c2f3e2a11521cd4
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34540524"
 ---
 # <a name="custommenusfile-element-documentsettings_type-complextype-visio-xml"></a>Élément CustomMenusFile (DocumentSettings_Type complexType) (Visio XML)
 
-Contient le nom du fichier d’interface utilisateur (.vsu) de Microsoft Visio qui définit des menus et des accélérateurs personnalisés pour un document.
+Contient le nom du fichier d’interface Visio Microsoft (.vsu) qui définit des menus et des accélérateurs personnalisés pour un document.
   
 ## <a name="element-information"></a>Informations sur l’élément
 

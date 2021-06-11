@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _hResult_
   
@@ -69,7 +69,7 @@ La **méthode IMAPISupport::GetLastError** est implémentée pour tous les objet
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser le pointeur vers la structure **MAPIERROR,** si MAPI en fournit un, dans le paramètre  _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur ou il n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas,  _lppMAPIError_ renvoie un pointeur vers NULL à la place. 
+Vous pouvez utiliser le pointeur vers la structure **MAPIERROR,** si MAPI en fournit un, dans le paramètre  _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur ou il n’a rien d’autre à signaler sur l’erreur. Dans ce cas,  _lppMAPIError_ renvoie un pointeur vers NULL à la place. 
   
 Pour plus d’informations **sur la méthode GetLastError,** voir [MAPI Extended Errors](mapi-extended-errors.md).
   

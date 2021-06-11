@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a62fbb51-e2a7-cdae-3516-5ce9ba30f26d
-description: Contient les coordonnées x ou y du dernier point d’une polyligne ou d’une formule polyligne.
+description: Contient les coordonnées x ou y du dernier point d’une polyligne ou d’une formule de polyligne.
 ms.openlocfilehash: b85784a41f4192895f17390f5473757c4bb09166
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34539459"
 ---
 # <a name="cell-element-polylineto-row-visio-xml"></a>Élément de cellule (ligne PolyLineTo) (Visio XML)
 
-Contient les coordonnées x ou y du dernier point d’une polyligne ou d’une formule polyligne.
+Contient les coordonnées x ou y du dernier point d’une polyligne ou d’une formule de polyligne.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[PolylineTo_Type](polylineto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du dernier point d’une polyligne ou d’une formule polyligne.  <br/> |
+|[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[PolylineTo_Type](polylineto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du dernier point d’une polyligne ou d’une formule de polyligne.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -62,7 +62,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
    
 ## <a name="remarks"></a>Remarques
 
-**L’attribut N** de cet **élément Cell** doit être l’un des ensembles limités de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
+**L’attribut N** de cet **élément Cell** doit faire partie d’un ensemble limité de valeurs qui correspondent aux cellules ShapeSheet. Reportez-vous au tableau ci-dessous pour déterminer les valeurs de l’attribut **N** qui sont autorisées pour cet **élément Cell.** 
   
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|

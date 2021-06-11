@@ -1,5 +1,5 @@
 ---
-title: current element (weatherType complexType) (Outlook Weather Information Schema)
+title: élément actuel (weatherType complexType) (Outlook Weather Information Schema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541007"
 ---
-# <a name="current-element-weathertype-complextype-outlook-weather-information-schema"></a>current element (weatherType complexType) (Outlook Weather Information Schema)
+# <a name="current-element-weathertype-complextype-outlook-weather-information-schema"></a>élément actuel (weatherType complexType) (Outlook Weather Information Schema)
 
 Spécifie les conditions météorologiques actuelles.
   
@@ -57,7 +57,7 @@ Aucun.
 |day  <br/> |xs:string  <br/> |facultatif  <br/> |Spécifie un jour pour la prévision.  <br/> |Valeur du type xs:string  <br/> |
 |feelslike  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie la température de la météo actuelle.  <br/> |Valeur du type xs:integer  <br/> |
 |humidité  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie la valeur d’humidité numérique actuelle.  <br/> |Valeur du type xs:integer  <br/> |
-|observationpoint  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie à partir de quel endroit les informations météorologiques actuelles sont observées.  <br/> |Valeur du type xs:string  <br/> |
+|observationpoint  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie d’où les informations météorologiques actuelles sont observées.  <br/> |Valeur du type xs:string  <br/> |
 |observationtime  <br/> |xs:time  <br/> |obligatoire  <br/> |Indique à quel moment les informations météorologiques actuelles sont observées.  <br/> |Valeur du type xs:time  <br/> |
 |shortday  <br/> |xs:string  <br/> |facultatif  <br/> |Spécifie un jour sous forme abrégée.  <br/> |Valeur du type xs:string  <br/> |
 |skycode  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie un code d’un nombre integer pour les conditions météorologiques actuelles.  <br/> |Valeur du type xs:integer  <br/> |

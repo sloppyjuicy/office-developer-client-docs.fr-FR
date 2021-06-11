@@ -1,5 +1,5 @@
 ---
-title: RequeryRecords Macro Action (Access custom web app)
+title: RequeryRecords Macro Action (Application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439246"
 ---
-# <a name="requeryrecords-macro-action-access-custom-web-app"></a>RequeryRecords Macro Action (Access custom web app)
+# <a name="requeryrecords-macro-action-access-custom-web-app"></a>RequeryRecords Macro Action (Application web personnalisée Access)
 
 Vous pouvez utiliser l’action **ActualiserEnregistrements** pour actualiser, trier et filtrer les données dans l’affichage actif en actualisant la source de l’affichage. 
   
@@ -27,7 +27,7 @@ Vous pouvez utiliser l’action **ActualiserEnregistrements** pour actualiser, t
   
 |**Paramètre**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
-|**Where=** <br/> |Non  <br/> |A SQL WHERE clause that restricts the records in the view. Par défaut, cet argument est vide.  <br/> |
+|**Where=** <br/> |Non  <br/> |Une SQL where qui restreint les enregistrements dans l’affichage. Par défaut, cet argument est vide.  <br/> |
 |**OrderBy** <br/> |Non  <br/> |Une expression de chaîne qui inclut le nom du champ ou des champs à partir desquels trier les enregistrements et les mots clés ASC ou DESC facultatifs. Par défaut, cet argument est vide.  <br/> |
    
 ## <a name="remarks"></a>Remarques

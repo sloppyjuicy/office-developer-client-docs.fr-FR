@@ -25,7 +25,7 @@ ms.locfileid: "33439876"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 dans l’envoi de rappels de notification à un client.
+Prend en charge Microsoft Outlook 2010 et Microsoft Outlook 2013 l’envoi de rappels de notification à un client.
   
 |||
 |:-----|:-----|

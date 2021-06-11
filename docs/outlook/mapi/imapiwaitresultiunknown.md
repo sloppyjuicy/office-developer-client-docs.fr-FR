@@ -22,22 +22,22 @@ ms.locfileid: "52062038"
 ---
 # <a name="imapiwaitresult--iunknown"></a>IMAPIWaitResult : IUnknown
   
-**S'applique** à : Outlook 2013 | Outlook 2016 | Outlook 2019
+**S’applique** à : Outlook 2013 | Outlook 2016 | Outlook 2019
 
-Cette interface est utilisée par les consommateurs d'IMAPIInitMonitor pour contrôler l'endroit où l'attente se produit. Il leur permet de créer l'objet sur un thread et de le déplacer sur un autre thread pour effectuer l'attente réelle.
+Cette interface est utilisée par les consommateurs d’IMAPIInitMonitor pour contrôler l’endroit où l’attente se produit. Il leur permet de créer l’objet sur un thread et de le déplacer sur un autre thread pour effectuer l’attente réelle.
 
 ## <a name="vtable-order"></a>Ordre des vtables
 
 | fonction | description |
 |:-----|:-----|
-|[HRESULT IMAPIWaitResult::End()](imapiwaitresult-end.md)|Appelé pour lancer l'attente bloquante sur le thread où il est appelé, qui ne doit pas nécessairement être le même thread que celui appelé *IMAPIInitMonitor::BeginWait*.|
+|[HRESULT IMAPIWaitResult::End()](imapiwaitresult-end.md)|Appelé pour lancer l’attente bloquante sur le thread où il est appelé, qui ne doit pas nécessairement être le même thread que celui appelé *IMAPIInitMonitor::BeginWait*.|
 
 | informations rapides | result |
 |:-----|:-----|
 |Hérite de :  <br/> |IUnknown  <br/> |
 |Implémenté par :  <br/> |  OLMAPI32.DLL<br/> |
 |Appelé par :  <br/> |Applications clientes  <br/> |
-|Identificateur d'interface :  <br/> |IID_IMAPIWaitResult  <br/> |
+|Identificateur d’interface :  <br/> |IID_IMAPIWaitResult  <br/> |
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -76,6 +76,6 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |SortKey  <br/> |Produit une chaîne qui détermine l’ordre dans lequel les éléments de la fenêtre Données de forme sont présentés.  <br/> |[SortKey, cellule (section Shape Data)](sortkey-cell-shape-data-section.md) <br/> |
 |Type  <br/> |Indique le type des données de forme.  <br/> |[Type, cellule (section Shape Data)](type-cell-shape-data-section.md) <br/> |
 |Valeur  <br/> |Contient la valeur de l’élément de données de forme telle qu’elle est saisie dans la boîte de dialogue Définir les données de forme.  <br/> |[Value, cellule (section Shape Data)](value-cell-shape-data-section.md) <br/> |
-|Vérifier  <br/> |Spécifie si l’utilisateur est interrogé pour entrer des informations sur les propriétés personnalisées d’une forme lors de la création d’une instance ou de la duplication ou de la copie de la forme.  <br/> |Aucun.  <br/> |
+|Vérifier  <br/> |Spécifie si l’utilisateur est interrogé pour entrer des informations sur les propriétés personnalisées d’une forme lorsqu’une instance est créée ou si la forme est dupliquée ou copiée.  <br/> |Aucun.  <br/> |
    
 

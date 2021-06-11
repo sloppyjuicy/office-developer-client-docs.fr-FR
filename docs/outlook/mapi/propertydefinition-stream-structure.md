@@ -19,7 +19,7 @@ ms.locfileid: "33438588"
   
 Une structure de flux PropertyDefinition est un tableau de structures de flux [FieldDefinition](fielddefinition-stream-structure.md) qui contiennent des définitions pour tous les champs définis par l’utilisateur dans un élément Microsoft Outlook et des paramètres de liaison de données pour certains champs intégrés. 
   
-Vous pouvez manipuler par programme la structure de flux PropertyDefinition. Toutefois, vous pouvez obtenir des résultats similaires à  l’aide du Concepteur de formulaires Outlook et, en particulier, de la boîte de dialogue Propriétés d’un contrôle lié aux données. 
+Vous pouvez manipuler par programme la structure de flux PropertyDefinition. Toutefois, vous pouvez obtenir des résultats similaires en utilisant Outlook  Forms Designer et, en particulier, la boîte de dialogue Propriétés d’un contrôle lié aux données. 
   
 Les définitions de champ dans une structure de flux PropertyDefinition peuvent être l’un des deux formats : PropDefV1 et PropDefV2. Outlook prend en charge PropDefV1 et PropDefV2. Toutes les définitions de champ dans une structure de flux PropertyDefinition unique doivent être au même format. Pour plus d’informations sur la différence entre PropDefV1 et PropDefV2, voir Structure de flux [FieldDefinition.](fielddefinition-stream-structure.md)
   
@@ -38,7 +38,7 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Éléments et champs Outlook](outlook-items-and-fields.md)
+- [Outlook Éléments et champs](outlook-items-and-fields.md)
 - [Ajouter une définition pour un nouveau champ User-Defined de recherche](how-to-add-a-definition-for-a-new-user-defined-field.md)
 - [Exemple de flux PropertyDefinition](propertydefinition-stream-sample.md)
 - [Structures de flux](stream-structures.md)

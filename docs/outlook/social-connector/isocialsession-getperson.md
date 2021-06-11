@@ -23,11 +23,11 @@ Obtient une interface [ISocialPerson](isocialpersoniunknown.md) basée sur le _p
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
 _userId_
   
-> [in] Chaîne qui contient l’ID d’utilisateur ou l’adresse SMTP d’une personne.
+> [in] Chaîne qui contient un ID d’utilisateur ou une adresse SMTP d’une personne.
     
 _result_
   

@@ -48,9 +48,9 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contient un **élément Connect** pour chaque connexion entre deux formes dans un dessin.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contient un **Connecter** pour chaque connexion entre deux formes dans un dessin.  <br/> |
 |[Icon](icon-element-master_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |Spécifie une icône binaire codée MIME (Multipurpose Internet Mail Extensions) (au format .ico) pour un élément **Master** ou **MasterShortcut** dans un document.  <br/> |
-|[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent la feuille de page pour un **élément Page** **ou Master.**  <br/> |
+|[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent la feuille de page pour un **élément Page** ou **Master.**  <br/> |
 |Formes  <br/> |Shapes_Type  <br/> |Contient une collection **d’éléments Shape.**  <br/> |
    
 ### <a name="attributes"></a>Attributs
@@ -61,13 +61,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |BaseID  <br/> |xsd:string  <br/> |facultatif  <br/> |GUID (identificateur global unique) qui identifie la forme de base dans tous les documents.  <br/> |Valeurs du type xsd:string.  <br/> |
 |Hidden  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Spécifie si la base est masquée dans l’interface utilisateur.  <br/> |Valeurs du type xsd:boolean.  <br/> |
 |IconSize  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> |Taille de l’icône de l’élément.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
-|IconUpdate  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Spécifie si l’icône est générée automatiquement à partir de la forme de forme de forme de passe elle-même.  <br/> |Valeurs du type xsd:boolean.  <br/> |
+|IconUpdate  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Spécifie si l’icône est générée automatiquement à partir de la forme de maître elle-même.  <br/> |Valeurs du type xsd:boolean.  <br/> |
 |ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID unique de l’élément au sein de son élément parent.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|MatchByName  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Détermine comment Microsoft Visio détermine si une forme de maître de document est déjà présente lorsqu’une instance d’une forme de passe est abandonnée sur la page de dessin.  <br/> |Valeurs du type xsd:boolean.  <br/> |
+|MatchByName  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Détermine comment Microsoft Visio si une forme de maître de document est déjà présente lorsqu’une instance d’une forme de maître est abandonnée sur la page de dessin.  <br/> |Valeurs du type xsd:boolean.  <br/> |
 |Nom  <br/> |xsd:string  <br/> |facultatif  <br/> |Nom de l’élément.  <br/> |Valeurs du type xsd:string.  <br/> |
 |NameU  <br/> |xsd:string  <br/> |facultatif  <br/> |Nom universel de l’élément.  <br/> |Valeurs du type xsd:string.  <br/> |
 |PatternFlags  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> |Détermine si une forme de base se comporte comme un motif personnalisé.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
 |Invite  <br/> |xsd:string  <br/> |facultatif  <br/> |Barre d’état et invite d’info-conseil pour l’élément.  <br/> |Valeurs du type xsd:string.  <br/> |
-|UniqueID  <br/> |xsd:string  <br/> |facultatif  <br/> |GUID qui identifie la base dans le document.  <br/> |Valeurs du type xsd:string.  <br/> |
+|UniqueID  <br/> |xsd:string  <br/> |facultatif  <br/> |GUID qui identifie la maître dans le document.  <br/> |Valeurs du type xsd:string.  <br/> |
    
 

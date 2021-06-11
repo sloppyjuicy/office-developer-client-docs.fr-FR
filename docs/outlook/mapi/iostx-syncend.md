@@ -33,7 +33,7 @@ HRESULT SyncEnd();
 
 ## <a name="remarks"></a>Remarques
 
-Le client doit appeler **IOSTX::SyncEnd** pour chaque appel [à IOSTX::SyncBeg](iostx-syncbeg.md). La structure de données correspondante contient des informations pour indiquer si le client a correctement terminé l’état actuel afin qu’Outlook puisse nettoyer son état interne.
+Le client doit appeler **IOSTX::SyncEnd** pour chaque appel [à IOSTX::SyncBeg](iostx-syncbeg.md). La structure de données correspondante contient des informations pour indiquer si le client a correctement terminé l’état actuel afin Outlook nettoyer son état interne.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: forecast element (weatherType complexType) (Outlook Weather Information Schema)
+title: forecast, élément (weatherType complexType) (Outlook Weather Information Schema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540979"
 ---
-# <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>forecast element (weatherType complexType) (Outlook Weather Information Schema)
+# <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>forecast, élément (weatherType complexType) (Outlook Weather Information Schema)
 
 Spécifie les conditions météorologiques futures d’au moins trois jours à l’avance, y compris aujourd’hui : Aujourd’hui, Demain, Jour après Demain.
   

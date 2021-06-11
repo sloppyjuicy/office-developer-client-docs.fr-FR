@@ -44,7 +44,7 @@ typedef struct _SAndRestriction
 
  **cRes**
   
-> Nombre de restrictions de recherche dans le tableau pointés par le membre **lpRes.** 
+> Nombre de restrictions de recherche dans le tableau pointées par le membre **lpRes.** 
     
  **lpRes**
   

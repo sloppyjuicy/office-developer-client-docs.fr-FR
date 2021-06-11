@@ -25,7 +25,7 @@ ms.locfileid: "33439218"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un tableau de structures [MTSID,](mtsid.md) chacune contenant un identificateur d’entrée de système de transport de messages X.400 (MTS). 
+Contient un tableau de structures [MTSID,](mtsid.md) chacune contenant un identificateur d’entrée de système de transport de messages (MTS) X.400. 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Schema map (Outlook Weather Information Schema)
+title: Plan de schéma (Outlook d’informations météorologiques)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4b2bf607-7c56-61a0-e40d-54af2b90aa6d
-description: Cette rubrique présente la définition de schéma pour le schéma XML des informations météorologiques Outlook.
+description: Cette rubrique présente la définition de schéma pour le Outlook XML des informations météorologiques.
 ms.openlocfilehash: b08d40040bc725bd02d48758697fe4657fe1dc8f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541315"
 ---
-# <a name="schema-map-outlook-weather-information-schema"></a>Schema map (Outlook Weather Information Schema)
+# <a name="schema-map-outlook-weather-information-schema"></a>Plan de schéma (Outlook d’informations météorologiques)
 
-Cette rubrique présente la définition de schéma pour le schéma XML des informations météorologiques Outlook.
+Cette rubrique présente la définition de schéma pour le Outlook XML des informations météorologiques.
   
 ```XML
 <?xml version="1.0" ?>

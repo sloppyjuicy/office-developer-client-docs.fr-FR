@@ -1,5 +1,5 @@
 ---
-title: Schéma XML du fournisseur Outlook Social Connector
+title: Outlook Schéma XML du fournisseur Social Connector
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,9 +15,9 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541343"
 ---
-# <a name="outlook-social-connector-provider-xml-schema"></a>Schéma XML du fournisseur Outlook Social Connector
+# <a name="outlook-social-connector-provider-xml-schema"></a>Outlook Schéma XML du fournisseur Social Connector
 
-Tous les données XML renvoyées par les fournisseurs OSC dans les méthodes d’extensibilité des fournisseurs OSC doivent être conformes au schéma XML du fournisseur OSC suivant. Le schéma OSC est reproduit ici dans son intégralité. Le fichier de définition de schéma actuel, OutlookSocialProvider1_1.xsd, est également fourni dans le téléchargement des modèles de fournisseur qui accompagnent cet article. Pour plus d’informations, [voir Outlook Social Connector 2013 : modèles de fournisseur.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c) 
+Tous les données XML renvoyées par les fournisseurs OSC dans les méthodes d’extensibilité des fournisseurs OSC doivent être conformes au schéma XML du fournisseur OSC suivant. Le schéma OSC est reproduit ici dans son intégralité. Le fichier de définition de schéma actuel, OutlookSocialProvider1_1.xsd, est également fourni dans le téléchargement des modèles de fournisseur qui accompagnent cet article. Pour plus d’informations, [voir Outlook Social Connector 2013 : Modèles de fournisseur.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c) 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -460,11 +460,11 @@ Tous les données XML renvoyées par les fournisseurs OSC dans les méthodes d�
 
 ## <a name="see-also"></a>Voir aussi
 
-- [Exemple XML de fonctionnalités](capabilities-xml-example.md)  
+- [Exemple de fonctionnalités XML](capabilities-xml-example.md)  
 - [Exemple XML Friends](friends-xml-example.md) 
 - [Exemple de XML de flux d’activités](activity-feed-xml-example.md)  
 - [XML pour les fonctionnalités](xml-for-capabilities.md)  
 - [XML pour les amis](xml-for-friends.md)  
 - [XML pour les activités](xml-for-activities.md)  
-- [Interfaces de fournisseur Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
+- [Outlook Interfaces de fournisseur de connecteurs sociaux](outlook-social-connector-provider-interfaces.md)
 

@@ -32,7 +32,7 @@ typedef struct {
 
 _cb_
   
-> Nombre d'octets vers _qui pointe le pb._ 
+> Nombre d’octets vers _qui pointe le pb._ 
     
 _pb_
   

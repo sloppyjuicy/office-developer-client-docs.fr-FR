@@ -25,7 +25,7 @@ L’exemple montre le **XML activityFeed** qui contient les quatre activités su
     
 - Mise à jour de l’image de profil par Michael Quéi dont **le ownerID** sur le réseau social est 5015012. Similaire à la dernière activité, cette activité spécifie trois variables de modèle de type **publisherVariable**, **listVariable** et **pictureVariable**. Ces variables spécifient la personne qui a publié l’élément de flux d’activités et les informations pour l’image à mettre à jour.
     
-- Mise à jour de l’état par MichaelEusei, montrant le **même ownerID** de 5015012 que la dernière activité. Cette activité spécifie deux variables de modèle de type **publisherVariable** et **textVariable**. **publisherVariable** spécifie la personne qui a publié l’élément de flux d’activités, et **textVariable** inclut une **valeur** de la ligne d’état  `is hiking on Mount Rainier this weekend!`
+- Mise à jour de l’état par Michael Titrei, montrant le **même ownerID** de 5015012 que la dernière activité. Cette activité spécifie deux variables de modèle de type **publisherVariable** et **textVariable**. **publisherVariable** spécifie la personne qui a publié l’élément de flux d’activités, et **textVariable** inclut une **valeur** de la ligne d’état  `is hiking on Mount Rainier this weekend!`
     
 - Un billet de blog de Michael Quéi, montrant le **même ownerID** de 5015012 que les deux dernières activités. Cette activité spécifie deux variables de modèle de type **publisherVariable** et **linkVariable**. **publisherVariable** spécifie la personne qui a publié l’élément de flux d’activités, et  **linkVariable** inclut des informations supplémentaires (spécifiées par le **nom,** le texte et les éléments enfants de valeur de **linkVariable**) sur le billet de blog.
     
@@ -182,7 +182,7 @@ L’exemple suivant montre le code XML **activityFeed** de quatre activités : d
 
 - [Exemples XML de fournisseur OSC](osc-provider-xml-examples.md)  
 - [XML pour les activités](xml-for-activities.md) 
-- [Exemple XML de fonctionnalités](capabilities-xml-example.md)  
+- [Exemple de fonctionnalités XML](capabilities-xml-example.md)  
 - [Exemple XML Friends](friends-xml-example.md)
-- [Schéma XML du fournisseur Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
+- [Outlook Schéma XML du fournisseur Social Connector](outlook-social-connector-provider-xml-schema.md)
 

@@ -36,7 +36,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pstm_
   
@@ -44,7 +44,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
     
  _pmsg_
   
-> [in] Pointeur vers le message à charger. L’appelant doit fournir un message à remplir par l’API, de sorte que l’objet doit y aller. Voir mapidefs.h pour la définition de type **de LPMESSAGE**.
+> [in] Pointeur vers le message à charger. L’appelant doit fournir un message à remplir par l’API, de sorte que l’objet doit y aller . Voir mapidefs.h pour la définition de type **de LPMESSAGE**.
     
  _pszSrcSrv_
   
@@ -71,7 +71,7 @@ CCSF_USE_RTF
 > Le corps HTML du flux MIME doit être converti au format RTF (Rich Text Format) dans le message MAPI.
 
 CCSF_GLOBAL_MESSAGE
-> Le convertisseur doit gérer le flux MIME en tant que message international (EAI/RFC6530). Non pris en charge sur Outlook 2013.
+> Le convertisseur doit gérer le flux MIME en tant que message international (EAI/RFC6530). Non pris en charge Outlook 2013.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -81,7 +81,7 @@ E_INVALIDARG
     
 ## <a name="remarks"></a>Remarques
 
-Si vous avez spécifié **CCSF_USE_RTF** dans le cadre de  _ulFlags_ et que la boutique de messages de destination prend en charge html et RTF, le message MAPI est converti au format HTML ou RTF. Si le message est converti au format RTF, le format converti sera compressé RTF, tout html sera incorporé dans la chaîne RTF compressée et la chaîne sera contenue dans la propriété canonique [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
+Si vous avez spécifié **CCSF_USE_RTF** dans le cadre de  _ulFlags_ et que la boutique de messages de destination prend en charge html et RTF, le message MAPI sera converti au format HTML ou RTF. Si le message est converti au format RTF, le format converti sera compressé RTF, tout html sera incorporé dans la chaîne RTF compressée et la chaîne sera contenue dans la propriété canonique [PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

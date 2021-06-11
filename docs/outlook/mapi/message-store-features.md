@@ -21,7 +21,7 @@ ms.locfileid: "33439519"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Les fournisseurs de magasins de messages sont plus complexes que les autres fournisseurs de services MAPI, car ils disposent d’un plus large éventail de fonctionnalités facultatives qu’ils peuvent implémenter. La liste des fonctionnalités requises pour un fournisseur de magasins de messages est relativement courte. Toutefois, un fournisseur de magasin de messages classique prendra en charge un certain nombre de fonctionnalités facultatives, car la plupart des fonctionnalités facultatives sont très utiles ou requises par la plupart des clients MAPI. Le tableau suivant répertorie les principales fonctionnalités que les fournisseurs de magasins de messages peuvent implémenter et indique si chaque fonctionnalité est requise ou facultative pour tous les fournisseurs de magasins de messages et pour les fournisseurs de magasins de messages par défaut.
+Les fournisseurs de magasins de messages sont plus complexes que les autres fournisseurs de services MAPI, car ils disposent d’un plus large éventail de fonctionnalités facultatives qu’ils peuvent implémenter. La liste des fonctionnalités requises pour un fournisseur de magasins de messages est relativement courte. Toutefois, un fournisseur de magasin de messages classique prendra en charge un certain nombre de fonctionnalités facultatives, car de nombreuses fonctionnalités facultatives sont très utiles ou requises par la plupart des clients MAPI. Le tableau suivant répertorie les principales fonctionnalités que les fournisseurs de magasins de messages peuvent implémenter et indique si chaque fonctionnalité est requise ou facultative pour tous les fournisseurs de magasins de messages et pour les fournisseurs de magasins de messages par défaut.
   
 |**Fonctionnalité**|**All**|**Par défaut**|
 |:-----|:-----|:-----|
@@ -41,7 +41,7 @@ Les fournisseurs de magasins de messages sont plus complexes que les autres four
 |Prise en charge de fournisseurs de transport/magasin de messages étroitement couplés.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
 |Prise en charge de la non-réutilisation des identificateurs d’entrée.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
    
-Bon nombre des fonctionnalités facultatives peuvent être publiées dans MAPI et les applications clientes en paraxant différents indicateurs dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de l’objet de la boutique de messages. Les fonctionnalités requises ne sont pas associées à des indicateurs. **PR_STORE_SUPPORT_MASK** est nécessaire sur les objets de message, de dossier et de message. 
+Bon nombre des fonctionnalités facultatives peuvent être publiées dans MAPI et les applications clientes en paraélisant différents indicateurs dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de l’objet de la boutique de messages. Les fonctionnalités requises ne sont pas associées à des indicateurs. **PR_STORE_SUPPORT_MASK** est nécessaire sur les objets de message, de dossier et de message. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,5 +1,5 @@
 ---
-title: Élément Row (section Field) (Visio XML)
+title: Row, élément (Field Section) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541756"
 ---
-# <a name="row-element-field-section-visio-xml"></a>Élément Row (section Field) (Visio XML)
+# <a name="row-element-field-section-visio-xml"></a>Row, élément (Field Section) (Visio XML)
 
 Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue Champ.
   

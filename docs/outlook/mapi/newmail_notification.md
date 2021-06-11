@@ -81,9 +81,9 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-La **NEWMAIL_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Lorsque le **membre d’informations** d’une structure **NOTIFICATION** contient une structure **NEWMAIL_NOTIFICATION,** le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevNewMail._
+La **NEWMAIL_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) Lorsque le **membre d’informations** d’une structure **notification** contient une structure **NEWMAIL_NOTIFICATION,** le membre **ulEventType** de la structure **NOTIFICATION** est définie sur  _fnevNewMail._
   
-MAPI utilise la structure **NEWMAIL_NOTIFICATION** uniquement en tant que membre de la structure **notification,** qui contient des informations sur un événement de notification pour le réception de notification. 
+MAPI utilise la structure **NEWMAIL_NOTIFICATION** uniquement en tant que membre de la structure **de notification,** qui contient des informations sur un événement de notification pour le réception de notification. 
   
 Pour plus d’informations sur la notification, voir les rubriques décrites dans le tableau suivant.
   

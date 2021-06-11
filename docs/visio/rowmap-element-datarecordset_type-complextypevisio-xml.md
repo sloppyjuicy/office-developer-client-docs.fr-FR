@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
-description: Mapie une ligne de data-recordset à une forme.
+description: Cartes ligne d’un recordset de données à une forme.
 ms.openlocfilehash: 178ceb06d64bfc9ef50f75dd22f8bd94f09f5c33
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34540769"
 ---
 # <a name="rowmap-element-datarecordset_type-complextype-visio-xml"></a>Élément RowMap (DataRecordSet_Type complexType) (Visio XML)
 
-Mapie une ligne de data-recordset à une forme.
+Cartes ligne d’un recordset de données à une forme.
   
 ## <a name="element-information"></a>Informations sur l’élément
 

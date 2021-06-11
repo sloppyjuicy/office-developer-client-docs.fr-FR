@@ -52,12 +52,12 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|AuthorID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Valeur basée sur un qui identifie l’auteur.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|AuthorID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Valeur basée sur une valeur qui identifie l’auteur.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |CommentID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Valeur unique qui identifie le commentaire dans une page de dessin.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |Date  <br/> |xsd:dateTime  <br/> |obligatoire  <br/> |Indique quand un commentaire a été créé.  <br/> |Valeurs du type xsd:dateTime.  <br/> |
 |Terminé  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Spécifie l’état actuel du commentaire.  <br/> |Valeurs du type xsd:boolean.  <br/> |
 |EditDate  <br/> |xsd:dateTime  <br/> |facultatif  <br/> |Indique quand un commentaire a été modifié pour la dernière fois.  <br/> |Valeurs du type xsd:dateTime.  <br/> |
-|PageID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Valeur qui identifie la page de dessin sur qui se trouve le commentaire.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Valeur qui identifie la page de dessin où se trouve le commentaire.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |ShapeID  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Valeur qui identifie la forme sur quelle forme se trouve le commentaire. Si aucun ShapeID n’est spécifié, le commentaire fait référence à la page de dessin.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
    
 

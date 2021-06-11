@@ -23,7 +23,7 @@ Obtient une interface [ISocialProfile](isocialprofileisocialperson.md) qui repr√
 HRESULT _stdcall GetLoggedOnUser([out, retval] ISocialProfile** result);
 ```
 
-## <a name="parameters"></a>Param√®tres
+## <a name="parameters"></a>Parameters
 
 _result_
   

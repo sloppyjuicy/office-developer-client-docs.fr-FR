@@ -36,7 +36,7 @@ Calcule le nombre d’octets dans une structure [MTSID](mtsid.md) existante.
 CbMTSID (_lpentry)
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _ _lpentry_
   

@@ -45,6 +45,6 @@ Si vous incluez une valeur  _de segment,_ ANGLEALONGPATH renvoie la valeur de ce
   
 Si vous incluez une valeur  _de segment,_ ANGLEALONGPATH détermine le point de la tangente à l’aide de  _travel_ pour calculer la séquence le long du  _segment_.
   
-Si  _l’une ou_  _l’autre section_ ou segment n’existe pas, Microsoft Visio renvoie #REF!. 
+Si _l’une ou_ _l’autre section_ ou segment n’existe pas, Microsoft Visio renvoie #REF!. 
   
 

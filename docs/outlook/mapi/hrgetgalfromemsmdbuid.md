@@ -21,7 +21,7 @@ ms.locfileid: "33439106"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie l’identificateur d’entrée du carnet d’adresses global pour le service Exchange identifié par  _pEmsmdbUID_. L’identificateur d’entrée renvoyé doit être libéré à l’aide [de MAPIFreeBuffer](mapifreebuffer.md).
+Renvoie l’identificateur d’entrée du carnet d’adresses global pour le service Exchange identifié par _pEmsmdbUID_. L’identificateur d’entrée renvoyé doit être libéré à l’aide [de MAPIFreeBuffer](mapifreebuffer.md).
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ HRESULT HrGetGALFromEmsmdbUID(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _pSess_
   
@@ -51,7 +51,7 @@ HRESULT HrGetGALFromEmsmdbUID(
     
  _pEmsmdbUID_
   
-> [in] Pointeur vers **un emsmdbUID** qui identifie la LA GAL du service Exchange à récupérer. Si  _pEmsmdbUID_ a la valeur NULL ou l’UID zéro, cette fonction obtient la LAL héritée du service Exchange. 
+> [in] Pointeur vers **un emsmdbUID** qui identifie la LA GAL du service Exchange à récupérer. Si _pEmsmdbUID_ a la valeur NULL ou l’UID zéro, cette fonction obtient la LAL héritée du service Exchange service. 
     
  _lpcbeid_
   

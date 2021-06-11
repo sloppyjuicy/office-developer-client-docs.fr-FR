@@ -22,9 +22,9 @@ ms.locfileid: "52062024"
 ---
 # <a name="imapiinitmonitorisinitialized"></a>IMAPIInitMonitor::IsInitialized
   
-**S'applique** à : Outlook 2013 | Outlook 2016 | 2019
+**S’applique** à : Outlook 2013 | Outlook 2016 | 2019
   
-Interroge MAPI pour déterminer s'il est actuellement initialisé dans le processus d'appel.
+Interroge MAPI pour déterminer s’il est actuellement initialisé dans le processus d’appel.
 
 ```cpp
 BOOL IMAPIInitMonitor::IsInitialized()  
@@ -34,7 +34,7 @@ BOOL IMAPIInitMonitor::IsInitialized()
 Aucun
 
 ## <a name="return-value"></a>Valeur renvoyée
-Un bool indiquant l'état actuel de l'initialisation MAPI, une valeur true signifie que MAPI a été initialisé et est disponible pour utilisation, tandis qu'une valeur false signifie que MAPI n'est actuellement pas initialisé et n'est pas prêt à être utilisé.
+Une valeur BOOL indiquant l’état actuel de l’initialisation MAPI, une valeur true signifie que MAPI a été initialisé et est disponible pour utilisation, tandis qu’une valeur FALSE signifie que MAPI n’est actuellement pas initialisé et n’est pas prêt à être utilisé.
 
 ## <a name="remarks"></a>Remarques
 Cela peut être utilisé pour déterminer si MAPI est prêt à être utilisé, par exemple, si votre application souhaite faire quelque chose uniquement si MAPI a déjà été initialisé, cela peut être une vérification utile dans une tâche en arrière-plan pour empêcher le coût de rotation de MAPI pour le travail facultatif.

@@ -1,5 +1,5 @@
 ---
-title: élément weatherdata (outlook weather location schema)
+title: élément weatherdata (Outlook Weather Location Schema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540930"
 ---
-# <a name="weatherdata-element-outlook-weather-location-schema"></a>élément weatherdata (outlook weather location schema)
+# <a name="weatherdata-element-outlook-weather-location-schema"></a>élément weatherdata (Outlook Weather Location Schema)
 
 Définit l’élément météo.
   

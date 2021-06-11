@@ -25,7 +25,7 @@ Avant de commencer, vérifiez que vous remplissez les conditions suivantes.
   
 - Vous êtes administrateur de collection de sites sur le site SharePoint Server 2010 ou SharePoint Foundation 2010 sur lequel vous souhaitez publier le formulaire.
     
-- Vérifiez auprès de l’administrateur de la batterie de serveurs que le service de code en bac à sable Microsoft SharePoint Foundation est en cours d’exécution sur le serveur. Pour plus d’informations, [consultez La publication de formulaires avec code.](publishing-forms-with-code.md)
+- Vérifiez auprès de l’administrateur de la batterie de serveurs que le service de code en bac à sable Microsoft SharePoint Foundation est en cours d’exécution sur le serveur. Pour plus d’informations, voir [Publication de formulaires avec code.](publishing-forms-with-code.md)
     
 - Le langage de programmation que vous avez choisi pour le modèle de formulaire est **C#** ou **Visual Basic**, non suivi d'un nom de version antérieure. Les versions des langages de programmation et des modèles objet compatibles InfoPath 2007 ou InfoPath 2003 ne sont pas prises en charge pour solutions bac à sable. Pour plus d’informations sur la spécification du langage de programmation, voir [Développer avec Visual Studio](how-to-develop-with-visual-studio.md).
     
@@ -150,7 +150,7 @@ Pour créer un modèle de formulaire qui trie les données dans un contrôle **T
         
     6. Cliquez sur **Publier**.
     
-## <a name="example-2-managing-vendors-in-a-sharepoint-list"></a>Exemple 2 : Gestion des fournisseurs dans une liste SharePoint
+## <a name="example-2-managing-vendors-in-a-sharepoint-list"></a>Exemple 2 : Gestion des fournisseurs dans une SharePoint liste
 
 Cet exemple comprend de la programmation par rapport au modèle objet Microsoft SharePoint Foundation 2010. Pour cela, vous devez établir une référence à l'assembly Microsoft.SharePoint.dll qui est installé avec une copie sous licence de SharePoint Server 2010.
   
@@ -162,9 +162,9 @@ La bibliothèque Microsoft.SharePoint.Server.dll est installée par défaut dans
   
 ### <a name="to-create-a-form-template-that-can-add-new-items-to-a-combo-box-based-on-a-sharepoint-list"></a>Pour créer un modèle de formulaire qui puisse ajouter de nouveaux éléments à une zone de liste déroulante basée sur une liste SharePoint
 
-1. Créez une liste personnalisée simple sur un serveur SharePoint Server 2010 et nommez-la MyList. L’exemple suivant utilise une **zone de liste déroulante** liée au **champ Titre** de cette liste. 
+1. Créez une liste personnalisée simple sur un serveur SharePoint Server 2010 et nommez-la MyList. L’exemple suivant utilise une zone de liste **déroulante** liée au **champ Titre** de cette liste. 
     
-2. Créez un **formulaire** vide dans le Concepteur InfoPath, insérez un contrôle **Zone** de liste déroulante sur votre formulaire et renommez le champ lié à la zone de liste déroulante myCombo.
+2. Créez un **formulaire** vierge dans le Concepteur InfoPath, insérez un contrôle **Zone** de liste déroulante sur votre formulaire et renommez le champ lié à la zone de liste déroulante myCombo.
     
 3. Créez la connexion de données à la liste qui sera utilisée pour remplir la zone de liste déroulante en suivant les étapes suivantes :
     
@@ -198,7 +198,7 @@ La bibliothèque Microsoft.SharePoint.Server.dll est installée par défaut dans
     
     Si vous n'avez pas encore enregistré votre formulaire, vous êtes invité à le faire. Ensuite, la fenêtre de l’éditeur de code s’ouvre avec le curseur dans le  `myCombo_Changed` handler d’événements. 
     
-6. Ajoutez une référence à l'assembly Microsoft.SharePoint.dll comme décrit plus haut dans cette rubrique. Pour plus d’informations sur le référencement de l’assembly Microsoft.SharePoint, voir Utiliser les membres [du modèle objet SharePoint.](how-to-use-sharepoint-object-model-members.md)
+6. Ajoutez une référence à l'assembly Microsoft.SharePoint.dll comme décrit plus haut dans cette rubrique. Pour plus d’informations sur le référencement de Microsoft. SharePoint assembly, voir [Use SharePoint Object Model Members](how-to-use-sharepoint-object-model-members.md).
     
 7. Collez le code suivant dans le  `myCombo_Changed` handler d’événements. 
     
@@ -294,6 +294,6 @@ La bibliothèque Microsoft.SharePoint.Server.dll est installée par défaut dans
         
     6. Cliquez sur **Publier**.
         
-    7. Une fois le formulaire publié, ouvrez-le à partir de la bibliothèque de formulaires et ajoutez une nouvelle valeur dans la zone de liste déroulante pour tester le code. Lorsque vous quittez le champ myCombo, la nouvelle valeur est écrite dans la liste SharePoint. 
+    7. Une fois le formulaire publié, ouvrez-le à partir de la bibliothèque de formulaires et ajoutez une nouvelle valeur dans la zone de liste déroulante pour tester le code. Lorsque vous quittez le champ myCombo, la nouvelle valeur est écrite dans la SharePoint liste. 
     
 

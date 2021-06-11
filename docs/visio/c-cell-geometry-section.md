@@ -22,7 +22,7 @@ Représente des informations différentes selon la ligne où elle se trouve. Le 
   
 |Ligne|Description|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Angle de l’axe principal d’un arc par rapport à  *l’axe x*  de son parent.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Angle de l’axe principal d’un arc par rapport à  *l’axe X*  de son parent.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Premier nœud de la courbe B-spline rationnelle non uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Dernier nœud d’une spline  <br/> |
 |[Ellipse](ellipse-row-geometry-section.md) <br/> | Coordonnée *x* d’un point sur une ellipse ; couplée à la *coordonnée y* représentée par la cellule [D.](d-cell-geometry-section.md)  <br/> |

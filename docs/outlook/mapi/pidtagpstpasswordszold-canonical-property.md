@@ -38,7 +38,7 @@ Contient le mot de passe de la table de stockage personnel (fichier .pst) en cou
 
 [[MS-OXPROPS]] 
   
-> Fournit des références aux spécifications Exchange Server de protocole associées.
+> Fournit des références aux spécifications Exchange Server protocole.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

@@ -21,7 +21,7 @@ ms.locfileid: "33439813"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Le profil par défaut est le profil utilisé si vous n’en spécifiez pas explicitement un dans l’appel à [MAPILogonEx](mapilogonex.md), en MAPI_USE_DEFAULT indicateur.
+Le profil par défaut est le profil utilisé si vous n’en spécifiez pas explicitement un dans l’appel à [MAPILogonEx](mapilogonex.md), en spécifiant à la place l’indicateur MAPI_USE_DEFAULT.
   
  **Pour établir un profil par défaut**
   

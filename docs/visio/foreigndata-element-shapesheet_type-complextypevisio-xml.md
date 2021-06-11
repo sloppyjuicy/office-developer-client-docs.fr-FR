@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59db25bc-0283-6f56-0aa9-9be98a3e9041
-description: Contient un OBJET BLOB MIME (Multipurpose Internet Mail Extensions) codé de données d’image, telles que des données métafichier Windows, bitmap ou OLE.
+description: Contient un OBJET BLOB MIME (Multipurpose Internet Mail Extensions) codé de données d’image, telles que Windows métafichier, bitmap ou données OLE.
 ms.openlocfilehash: 6b130b5a50a51d5d909b843e805d197735dc7146
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34539841"
 ---
 # <a name="foreigndata-element-shapesheet_type-complextype-visio-xml"></a>Élément ForeignData (ShapeSheet_Type complexType) (Visio XML)
 
-Contient un OBJET BLOB MIME (Multipurpose Internet Mail Extensions) codé de données d’image, telles que des données métafichier Windows, bitmap ou OLE.
+Contient un OBJET BLOB MIME (Multipurpose Internet Mail Extensions) codé de données d’image, telles que Windows métafichier, bitmap ou données OLE.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -48,7 +48,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Rel](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Rel_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Spécifie une relation à une partie contenant les données d’image.  <br/> |
+|[Rel](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Rel_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Spécifie une relation à un élément contenant les données d’image.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 
@@ -61,7 +61,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |ForeignType  <br/> |xsd:token  <br/> |obligatoire  <br/> |Indique le type metafile, EnhMetaFile, Bitmap, Object ou Ink.  <br/> |Valeurs du type xsd:token.  <br/> |
 |MappingMode  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> |Spécifie le mode de mappage de métafichier. Cet attribut n’est significatif que si les données étrangères sont un métafichier.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
 |ObjectHeight  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie la hauteur de l’objet en unités de page. Cet attribut n’est significatif que si les données étrangères sont un objet incorporé OLE2.  <br/> |Valeurs du type xsd:double.  <br/> |
-|ObjectType  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Un indicateur de type objet d’un nombre-nombre. Utilisé lorsque le type étranger est un objet.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|ObjectType  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Un indicateur de type objet d’un nombre. Utilisé lorsque le type étranger est un objet.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |ObjectWidth  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie la largeur de l’objet en unités de page. Cet attribut n’est significatif que si les données étrangères sont un objet incorporé OLE2.  <br/> |Valeurs du type xsd:double.  <br/> |
 |ShowAsIcon  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique s’il faut afficher ou non les données incorporées sous forme d’icône.  <br/> |Valeurs du type xsd:boolean.  <br/> |
    

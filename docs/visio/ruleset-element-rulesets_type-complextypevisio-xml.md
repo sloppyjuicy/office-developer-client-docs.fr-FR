@@ -49,7 +49,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
 |[Règle](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |Représente une règle de validation unique dans un ensemble de règles de validation de diagramme.  <br/> |
-|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés d’ensemble de règles.  <br/> |
+|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés des ensembles de règles.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

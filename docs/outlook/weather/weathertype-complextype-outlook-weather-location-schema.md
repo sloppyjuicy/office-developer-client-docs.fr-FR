@@ -1,5 +1,5 @@
 ---
-title: complexType weatherType (outlook weather location schema)
+title: complexType weatherType (Outlook weather location schema)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542918"
 ---
-# <a name="weathertype-complextype-outlook-weather-location-schema"></a>complexType weatherType (outlook weather location schema)
+# <a name="weathertype-complextype-outlook-weather-location-schema"></a>complexType weatherType (Outlook weather location schema)
 
 Définit les paramètres sur les conditions météorologiques d’un emplacement.
   

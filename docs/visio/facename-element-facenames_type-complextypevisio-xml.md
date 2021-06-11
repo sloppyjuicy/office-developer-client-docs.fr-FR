@@ -55,7 +55,7 @@ Aucun.
 |CharSets  <br/> |xsd:string  <br/> |facultatif  <br/> |Jeux de caractères pris en charge de la police.  <br/> |Valeurs du type xsd:string.  <br/> |
 |Flags  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Indicateurs qui indiquent les éléments suivants : police manquante, police par défaut, police asiatique, police complexe, police verticale et type de police.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |NameU  <br/> |xsd:string  <br/> |obligatoire  <br/> |Nom de la police sous la forme d’une chaîne Unicode UTF-16.  <br/> ||
-|Panos  <br/> |xsd:string  <br/> |facultatif  <br/> |Signature du volet de la police. Panose est un système de classification pour les polices qui les catégorise en fonction de leurs caractéristiques visuelles.  <br/> |Valeurs du type xsd:string.  <br/> |
+|Panos  <br/> |xsd:string  <br/> |facultatif  <br/> |Signature du volet de la police. Panose est un système de classification pour les polices qui les classe en fonction de leurs caractéristiques visuelles.  <br/> |Valeurs du type xsd:string.  <br/> |
 |UnicodeRanges  <br/> |xsd:string  <br/> |facultatif  <br/> |Plages Unicode de la police prise en charge.  <br/> |Valeurs du type xsd:string.  <br/> |
    
 

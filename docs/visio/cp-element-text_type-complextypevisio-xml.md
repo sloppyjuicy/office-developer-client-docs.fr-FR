@@ -52,6 +52,6 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Index de l’élément Char que cette propriété exécute.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Index de l’élément Char que cette propriété run représente.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
    
 

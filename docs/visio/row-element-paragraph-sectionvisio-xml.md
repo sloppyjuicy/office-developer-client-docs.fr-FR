@@ -1,5 +1,5 @@
 ---
-title: Élément Row (section Paragraph) (Visio XML)
+title: Row, élément (Paragraph Section) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540818"
 ---
-# <a name="row-element-paragraph-section-visio-xml"></a>Élément Row (section Paragraph) (Visio XML)
+# <a name="row-element-paragraph-section-visio-xml"></a>Row, élément (Paragraph Section) (Visio XML)
 
 Indique les attributs de mise en forme de paragraphe du texte de la forme, tels que les retraits, l'interligne, les puces et l'alignement horizontal des paragraphes.
   

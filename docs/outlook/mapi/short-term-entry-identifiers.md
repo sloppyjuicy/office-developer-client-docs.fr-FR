@@ -19,9 +19,9 @@ ms.locfileid: "33439561"
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Un identificateur d’entrée à court terme est attribué par un fournisseur de services à un objet lorsque l’identificateur doit être construit rapidement et n’a pas besoin de durer au fil du temps ou de la distance. L’unicité d’un identificateur d’entrée à court terme est garantie uniquement pendant la durée de vie de la session active sur la station de travail actuelle. En règle générale, un identificateur d’entrée à court terme n’est valide que jusqu’à ce que l’objet qu’il représente soit libéré. 
+Un identificateur d’entrée à court terme est attribué par un fournisseur de services à un objet lorsque l’identificateur doit être construit rapidement et n’a pas besoin de durer au fil du temps ou de la distance. L’unicité d’un identificateur d’entrée à court terme est garantie uniquement pendant toute la durée de vie de la session active sur la station de travail actuelle. En règle générale, un identificateur d’entrée à court terme n’est valide que jusqu’à ce que l’objet qu’il représente soit libéré. 
   
-Les identificateurs d’entrée à court terme sont affectés aux lignes des tableaux et aux entrées des boîtes de dialogue, où il est nécessaire de fournir rapidement des données pour la navigation. Par exemple, les fournisseurs de magasins de messages affectent des identificateurs d’entrée à court terme à des lignes de messages dans une table de contenu et à des destinataires dans une table des destinataires. 
+Les identificateurs d’entrée à court terme sont affectés aux lignes des tableaux et aux entrées des boîtes de dialogue, où il est nécessaire de fournir rapidement des données pour la navigation. Par exemple, les fournisseurs de magasins de messages affectent des identificateurs d’entrée à court terme à des lignes de messages dans une table des matières et à des destinataires dans une table des destinataires. 
 
 Les clients peuvent utiliser ces identificateurs d’entrée à court terme pour ouvrir les objets représentés par les lignes du tableau. Toutefois, contrairement aux identificateurs d’entrée à long terme qui peuvent être utilisés avec n’importe quelle méthode **OpenEntry,** les identificateurs d’entrée à court terme doivent être utilisés avec la méthode **OpenEntry** du conteneur. 
   

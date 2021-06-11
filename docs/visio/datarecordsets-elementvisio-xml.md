@@ -52,8 +52,8 @@ Aucune.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |ID du jeu d’enregistrements  de données actif dans la fenêtre Données externes à la fermeture de la fenêtre, afin qu’il puisse être restauré à la prochaine ouverture de la fenêtre.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|DataWindowOrder  <br/> |xsd:string  <br/> |facultatif  <br/> |Ordre des jeux d’enregistrements de données affichés dans les onglets de la **fenêtre Données** externes. Liste ordonnée d’ID de jeu d’enregistrements de données, séparés par des points-virgules.  <br/> |Valeurs du type xsd:string.  <br/> |
+|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |ID du jeu d’enregistrements  de données actif dans la fenêtre Données externes lorsque la fenêtre se ferme, afin qu’il puisse être restauré à la prochaine ouverture de la fenêtre.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|DataWindowOrder  <br/> |xsd:string  <br/> |facultatif  <br/> |Ordre des jeux d’enregistrements de données affichés dans les onglets de la **fenêtre Données** externes. Liste ordonnée des ID de jeu d’enregistrements de données, séparés par des points-virgules.  <br/> |Valeurs du type xsd:string.  <br/> |
 |NextID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID disponible suivant pour un nouveau recordset de données.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
    
 

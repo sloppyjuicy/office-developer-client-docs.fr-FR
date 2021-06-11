@@ -20,7 +20,7 @@ Détermine si les pages du document peuvent être dupliquées, en tant que bool�
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Le doublon** dans le menu raccourci de la page et la **méthode d’automatisation Page.Duplicate** sont tous deux désactivés.  <br/> |
+|TRUE  <br/> |**Le doublon** dans le menu raccourci de page et la **méthode d’automatisation Page.Duplicate** sont tous deux désactivés.  <br/> |
 |FALSE  <br/> |La page peut être dupliquée.  <br/> |
    
 ## <a name="remarks"></a>Remarques

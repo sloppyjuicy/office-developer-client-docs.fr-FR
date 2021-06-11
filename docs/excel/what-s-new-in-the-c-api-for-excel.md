@@ -20,11 +20,11 @@ ms.locfileid: "33439687"
 
  **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
   
-Conjointement avec Microsoft Excel 2013, le Kit de développement logiciel (SDK) XLL Microsoft Excel 2013 inclut la prise en charge des fonctionnalités suivantes.
+Conjointement avec Microsoft Excel 2013, Microsoft Excel 2013 Kit de développement logiciel (SDK) XLL inclut la prise en charge des fonctionnalités suivantes.
   
 - **Nouvelles fonctions**
     
-    Le SDK XLL Microsoft Excel 2013 prend en charge les appels vers toutes les nouvelles fonctions de feuille de calcul dans Excel 2013. Pour plus d’informations sur l’appel de fonctions Excel 2013, voir Appel dans Excel à partir de [la DLL ou XLL](calling-into-excel-from-the-dll-or-xll.md).
+    Le Microsoft Excel 2013 SDK XLL prend en charge les appels vers toutes les nouvelles fonctions de feuille de calcul Excel 2013. Pour plus d’informations sur Excel fonctions 2013, consultez la Excel à partir de la DLL ou [XLL.](calling-into-excel-from-the-dll-or-xll.md)
     
 - **Fonctions asynchrones définies par l’utilisateur**
     
@@ -32,10 +32,10 @@ Conjointement avec Microsoft Excel 2013, le Kit de développement logiciel (SDK)
     
 - **Connecteurs de cluster**
     
-    Les connecteurs de cluster permettent aux UDF de s’exécuter sur des clusters de calcul hautes performances. Pour plus d’informations sur la création de connecteurs de cluster, voir [Développement de connecteurs de cluster Excel.](developing-excel-cluster-connectors.md)
+    Les connecteurs de cluster permettent aux UDF de s’exécuter sur des clusters de calcul hautes performances. Pour plus d’informations sur la création de connecteurs de cluster, [voir Developing Excel Cluster Connectors](developing-excel-cluster-connectors.md).
     
     > [!NOTE]
-    > Les add-ins XLL que vous avez l’intention d’exécuter sur des clusters de calcul doivent appeler uniquement des fonctions sécurisées pour le cluster. Pour plus d’informations sur les fonctions que vous pouvez utiliser, voir Référence des fonctions api [du SDK XLL Excel](excel-xll-sdk-api-function-reference.md) et [Fonctions sécurisées du cluster.](cluster-safe-functions.md) 
+    > Les add-ins XLL que vous avez l’intention d’exécuter sur des clusters de calcul doivent appeler uniquement des fonctions sécurisées pour le cluster. Pour plus d’informations sur les fonctions que vous pouvez utiliser, voir Excel référence des fonctions api [du SDK XLL](excel-xll-sdk-api-function-reference.md) et fonctions [sécurisées de cluster.](cluster-safe-functions.md) 
   
 - **Prise en charge 64 bits**
     

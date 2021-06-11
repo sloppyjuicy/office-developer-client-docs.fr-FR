@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 89349d1e-365a-442e-9ba3-2df601d9323c
-description: Outlook Social Connector (OSC) appelle la méthode ISocialProvider::GetCapabilities pour déterminer les fonctionnalités du fournisseur OSC pour un réseau social.
+description: Le Outlook Social Connector (OSC) appelle la méthode ISocialProvider::GetCapabilities pour déterminer les fonctionnalités du fournisseur OSC pour un réseau social.
 ms.openlocfilehash: 7f716df3ef2e82712374ce3d775cdf66eb07e8b3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33439925"
 ---
 # <a name="basic-authentication"></a>Authentification de base
 
-Outlook Social Connector (OSC) appelle la méthode [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) pour déterminer les fonctionnalités du fournisseur OSC pour un réseau social. L’OSC utilise les fonctionnalités retournées pour déterminer comment prendre en charge un utilisateur Office qui se connecte à ce réseau social. Si l’élément **useLogonWebAuth** dans le **XML** des fonctionnalités renvoyées indique que le fournisseur OSC prend en charge l’authentification de base, l’OSC peut effectuer la séquence d’appels suivante pour permettre à un utilisateur de se connecter à ce réseau social : 
+Le Outlook Social Connector (OSC) appelle la méthode [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) pour déterminer les fonctionnalités du fournisseur OSC pour un réseau social. L’OSC utilise les fonctionnalités retournées pour déterminer comment prendre en charge un utilisateur Office qui se connecte à ce réseau social. Si l’élément **useLogonWebAuth** dans le **XML** des fonctionnalités renvoyées indique que le fournisseur OSC prend en charge l’authentification de base, l’OSC peut effectuer la séquence d’appels suivante pour permettre à un utilisateur de se connecter à ce réseau social : 
   
 1. [ISocialProvider::Load :](isocialprovider-load.md) OSC charge le fournisseur. 
     
@@ -27,7 +27,7 @@ Outlook Social Connector (OSC) appelle la méthode [ISocialProvider::GetCapabili
     
 4. [ISocialProvider::SocialNetworkGuid](isocialprovider-socialnetworkguid.md) : OSC obtient un GUID immuable qui représente le réseau social. 
     
-5. [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) : l’OSC obtient une chaîne qui représente les fonctionnalités du fournisseur et qui est conforme à la définition de schéma pour l’élément **capabilities.** 
+5. [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) — OSC obtient une chaîne qui représente les fonctionnalités du fournisseur et qui est conforme à la définition de schéma pour l’élément **capabilities.** 
     
 6. [ISocialProvider::SocialNetworkIcon](isocialprovider-socialnetworkicon.md) : OSC obtient un tableau d’byte qui représente l’icône du site de réseau social. 
     

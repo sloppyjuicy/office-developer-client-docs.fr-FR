@@ -58,11 +58,11 @@ typedef struct _DTBLDDLBX
     
  **ulPRTableName**
   
-> Balise de propriété pour une propriété de table de type PT_OBJECT qui peut être ouverte à l’aide d’un **appel OpenProperty.** Le tableau doit avoir deux colonnes **: ulPRDisplayProperty** et **ulPRSetProperty**. Les lignes du tableau doivent correspondre aux éléments de la liste.
+> Balise de propriété pour une propriété de table de type PT_OBJECT qui peut être ouvert à l’aide d’un **appel OpenProperty.** Le tableau doit avoir deux colonnes **: ulPRDisplayProperty** et **ulPRSetProperty**. Les lignes du tableau doivent correspondre aux éléments de la liste.
     
 ## <a name="remarks"></a>Remarques
 
-Une structure **DTBLDDLBX** décrit un contrôle de liste qui s’affiche en tant qu’élément unique jusqu’à ce que l’utilisateur le développe. 
+Une structure **DTBLDDLBX** décrit un contrôle de liste qui s’affiche en tant qu’élément unique jusqu’à ce que l’utilisateur choisit de le développer. 
   
 Les trois propriétés identifiées par les balises de propriété fonctionnent ensemble pour afficher les informations dans la liste et définir une propriété associée. Le **membre ulPRTableName** est un objet de table accessible via un appel à [IMAPIProp::OpenProperty](imapiprop-openproperty.md). Le tableau possède deux colonnes : une colonne pour la propriété identifiée par le membre **ulPRDisplayProperty** et l’autre pour la propriété identifiée par le membre **ulPRSetProperty.** 
   
@@ -70,7 +70,7 @@ La **propriété ulPRDisplayProperty** dirige l’affichage de liste. Lorsqu’u
   
 Une valeur initiale est affichée dans la liste si MAPI a récupéré la propriété représentée par le membre **ulPRSetProperty** via un appel à [IMAPIProp::GetProps](imapiprop-getprops.md) et a localisé une ligne dans la table avec la valeur du membre **ulPRSetProperty.** La valeur initiale affichée est le contenu de la colonne **ulPRDisplayProperty** de cette ligne qui correspond à la propriété dans le membre **ulPRDisplayProperty** de la structure. La valeur renvoyée par **GetProps** pour la propriété identifiée par le membre **ulPRDisplayProperty** devient la valeur initiale affichée lors de la première affichage de la liste. 
   
-Pour obtenir une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md). Pour plus d’informations sur les types de propriétés, voir [MAPI Property Type Overview](mapi-property-type-overview.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md). Pour plus d’informations sur les types de propriétés, voir [MAPI Property Type Overview](mapi-property-type-overview.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -21,7 +21,7 @@ ms.locfileid: "34541917"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Cette rubrique maie chaque nom de propriété canonique à la ou aux propriétés MAPI qu’elle représente. Cette rubrique contient trois tableaux : un tableau pour les propriétés nommées avec des identificateurs numériques, un deuxième tableau pour les propriétés nommées avec des identificateurs de chaîne et un troisième tableau pour les propriétés marquées.
+Cette rubrique maie chaque nom de propriété canonique à la ou aux propriétés MAPI qu’elle représente. La rubrique contient trois tableaux : un tableau pour les propriétés nommées avec des identificateurs numériques, un deuxième tableau pour les propriétés nommées avec des identificateurs de chaîne et un troisième tableau pour les propriétés marquées.
   
 Pour plus d’informations sur la relation entre les propriétés canoniques et les propriétés MAPI, voir [propriétés canoniques MAPI.](mapi-canonical-properties.md)
   
@@ -318,7 +318,7 @@ Pour plus d’informations sur la relation entre les propriétés canoniques et 
 |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |Catégorie  <br/> |
 |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |CharCount  <br/> |
 |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |Commentaires  <br/> |
-|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Company  <br/> |
+|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Société  <br/> |
 |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |Content-Base  <br/> |
 |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |Content-Class  <br/> |
 |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |Content-Transfer-Encoding  <br/> |

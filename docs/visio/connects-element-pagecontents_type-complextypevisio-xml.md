@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
-description: Contient un élément Connect pour chaque connexion entre deux formes dans un dessin.
+description: Contient un Connecter pour chaque connexion entre deux formes dans un dessin.
 ms.openlocfilehash: d421068926a40a8f7c24a783388d06091700211f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "34538710"
 ---
 # <a name="connects-element-pagecontents_type-complextype-visio-xml"></a>Élément Connects (PageContents_Type complexType) (Visio XML)
 
-Contient un **élément Connect** pour chaque connexion entre deux formes dans un dessin. 
+Contient un **Connecter** pour chaque connexion entre deux formes dans un dessin. 
   
 ## <a name="element-information"></a>Informations sur l’élément
 

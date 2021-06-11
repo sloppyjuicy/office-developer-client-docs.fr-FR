@@ -25,7 +25,7 @@ ms.locfileid: "34540902"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient la valeur du message qui identifie et marque les messages susceptibles d’être du hameçonnage.
+Contient la valeur de message qui identifie et marque les messages susceptibles d’être du hameçonnage.
   
 |||
 |:-----|:-----|

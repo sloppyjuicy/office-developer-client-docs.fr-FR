@@ -52,7 +52,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Valeur basée sur un qui identifie l’auteur.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |Valeur basée sur une valeur qui identifie l’auteur.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |Initials  <br/> |xsd:string  <br/> |facultatif  <br/> |Initiales de l’auteur.  <br/> |Valeurs du type xsd:string.  <br/> |
 |Nom  <br/> |xsd:string  <br/> |facultatif  <br/> |Nom de l’auteur.  <br/> |Valeurs du type xsd:string.  <br/> |
 |ResolutionID  <br/> |xsd:string  <br/> |facultatif  <br/> |Identificateur unique de l’auteur.  <br/> |Valeurs du type xsd:string.  <br/> |

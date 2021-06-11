@@ -1,5 +1,5 @@
 ---
-title: Élément Connect (Connects_Type complexType) (Visio XML)
+title: Connecter’élément (Connects_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541994"
 ---
-# <a name="connect-element-connects_type-complextype-visio-xml"></a>Élément Connect (Connects_Type complexType) (Visio XML)
+# <a name="connect-element-connects_type-complextype-visio-xml"></a>Connecter’élément (Connects_Type complexType) (Visio XML)
 
 Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme.
   
@@ -42,7 +42,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contient un **élément Connect** pour chaque connexion entre deux formes dans un dessin.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contient un **Connecter** pour chaque connexion entre deux formes dans un dessin.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 

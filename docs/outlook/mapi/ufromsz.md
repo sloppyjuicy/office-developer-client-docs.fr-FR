@@ -39,7 +39,7 @@ UINT UFromSz(
 );
 ```
 
-## <a name="parameters"></a>Paramètres
+## <a name="parameters"></a>Parameters
 
  _lpsz_
   
