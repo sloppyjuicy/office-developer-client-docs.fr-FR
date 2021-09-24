@@ -3,17 +3,17 @@ title: Prise en charge de texte mis en forme  Rendu des pi�ces jointes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 68abe85b-5dc0-40d0-8917-30ea002aa816
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 5f03530f994fd13e7dc4c7eaa4124900c28e613b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: adf7098341243790895927d830caa99dc50f04b9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405295"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549888"
 ---
 # <a name="supporting-formatted-text-rendering-attachments"></a>Prise en charge du texte formaté : rendu des pièces jointes
 

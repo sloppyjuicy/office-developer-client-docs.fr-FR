@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251512
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f2625ef8-3bdb-5a8d-48b9-149be0592533
 description: Renvoie un integer, de 1 à 7, représentant le jour de la semaine dans l’heure ou l’expression.
-ms.openlocfilehash: 7c5d467d8c6ff14b99b64b8b0462d21d0b769998
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 38643d223bbafaeb0b66bfaf4f59ab4dbf9f5159
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404805"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549328"
 ---
 # <a name="weekday-function-visioshapesheet"></a>WEEKDAY Function (VisioShapeSheet)
 

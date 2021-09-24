@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251507
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 53579e0e-fcec-e745-0207-3861b5efa333
 description: Renvoie la valeur d’heure représentée par l’heure ou l’expression, en fonction des paramètres de région et de langue du système.
-ms.openlocfilehash: 61eeafac64ce199eba0f9032c42474d2b44febce
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 19b6d92fa5efeb1f9881e429a3368b20b3bc9893
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432323"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549468"
 ---
 # <a name="timevalue-function-visioshapesheet"></a>TIMEVALUE Function (VisioShapeSheet)
 

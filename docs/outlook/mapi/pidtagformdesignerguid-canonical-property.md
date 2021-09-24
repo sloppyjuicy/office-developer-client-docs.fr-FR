@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFormDesignerGuid
 api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b0e0847a3a9e21f080a852738ec8afbc98a2263f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bbb798ce69dc0a4f66a6c6364e8e691908cee5f1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412239"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550590"
 ---
 # <a name="pidtagformdesignerguid-canonical-property"></a>Propriété canonique PidTagFormDesignerGuid
 

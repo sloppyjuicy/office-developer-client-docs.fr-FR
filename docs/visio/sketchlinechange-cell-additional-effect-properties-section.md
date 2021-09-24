@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 39192535-b55b-4c49-b63f-edb542c7a2e5
 description: Détermine la quantité de randomisation de la ligne de la forme à partir de la géométrie de la forme lors de l’utilisation d’un effet de croquis, sous forme de pourcentage de la longueur d’une section. Si la valeur de la cellule SketchLineChange est définie sur 0 %, la géométrie du trait de la forme correspond à la géométrie de la forme. Si la valeur est 100 %, la géométrie de la ligne de la forme ne suit pas la géométrie de la forme.
-ms.openlocfilehash: ba57a4d2e43a91475f4c3ab4862f723eb2653a89
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 39a5726354ac350e289e6b114f3c1664d2a1aeae
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419505"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549580"
 ---
 # <a name="sketchlinechange-cell-additional-effect-properties-section"></a>SketchLineChange Cell (Additional Effect Properties Section)
 

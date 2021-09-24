@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSearchFolderDefinition
 api_type:
 - COM
 ms.assetid: a61056e7-365c-4972-abf7-26e2ab07105d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b4e5fa7228cf243c79a8ec0c9e2b73b7da21c6f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f35af0a2bf061ffd575d21b48d6c3785eb7e7933
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336357"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550454"
 ---
 # <a name="pidtagsearchfolderdefinition-canonical-property"></a>Propriété canonique PidTagSearchFolderDefinition
 
@@ -32,7 +32,7 @@ Contient des données qui spécifient les critères de recherche.
 |Propriétés associées :  <br/> |PR_WB_SF_DEFINITION  <br/> |
 |Identificateur :  <br/> |0x6845  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Recherche  <br/> |
+|Domaine :  <br/> |Rechercher  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

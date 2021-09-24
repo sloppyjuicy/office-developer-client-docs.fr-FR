@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f62650d-36f8-4c6e-b79f-c9c397a5954d
 description: Représente une valeur de randomisation utilisée pour déterminer la géométrie d’un effet de croquis, sous la forme d’un nombre d’caractères positif. La valeur de la cellule SketchSeed est créée de manière aléatoire lorsqu’un effet de croquis est appliqué à la forme.
-ms.openlocfilehash: 3ec58fbfa183d1a6d7bb6960672658f9a6cca073
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9b7edab031427e34dbff0aac02a4f72110a0821f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434395"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549587"
 ---
 # <a name="sketchseed-cell-additional-effect-properties-section"></a>SketchSeed Cell (Additional Effect Properties Section)
 

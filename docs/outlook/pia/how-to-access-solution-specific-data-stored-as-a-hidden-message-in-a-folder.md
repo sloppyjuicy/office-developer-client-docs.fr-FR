@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623414(v=office.15)
 ms:contentKeyID: 55119861
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: c64caf831f79ab61e5e3e0b9d712a511a7ba4f31
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: medium
+ms.openlocfilehash: 03d2fd590f2b5c6eefdaec691a5ee25e9431f59f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537947"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549727"
 ---
 # <a name="access-solution-specific-data-stored-as-a-hidden-message-in-a-folder"></a>Accéder aux données propres à une solution stockées dans un message masqué dans un dossier
 

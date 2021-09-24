@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagDefCreateDl
 api_type:
 - HeaderDef
 ms.assetid: 172dc15b-7bda-403f-a93a-446b2f9ff1d3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ff5d35104e9effc27c405b716cb61cf4643677b3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 16b9af522adfba01e76a97aeb228c4414b48b79c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417790"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550728"
 ---
 # <a name="pidtagdefcreatedl-canonical-property"></a>Propriété canonique PidTagDefCreateDl
 

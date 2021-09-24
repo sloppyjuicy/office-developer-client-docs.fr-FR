@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PROP_TYPE
 api_type:
 - COM
 ms.assetid: 746d63fa-bfb7-479f-94dc-ba40011c1ec9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0c33633c4decd697cf241f8b7c27360f776a1ade
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5c31622e99079dc7c27d28d95aa26ecd5ac5689f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412834"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550182"
 ---
 # <a name="prop_type"></a>PROP_TYPE
 
@@ -36,7 +36,7 @@ Renvoie le type de propriété d’une balise de propriété spécifiée.
 PROP_TYPE (ulPropTag)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulPropTag_
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagTransportMessageHeaders
 api_type:
 - COM
 ms.assetid: 9f8e3f20-6454-4dfd-9b35-e0401abac6b3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7ad9048a19123b94c10afaddcbedb7f54e8fe477
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7e37035729c81301c6b43fe40e500a407f4750f4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360759"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550294"
 ---
 # <a name="pidtagtransportmessageheaders-canonical-property"></a>Propriété canonique PidTagTransportMessageHeaders
 

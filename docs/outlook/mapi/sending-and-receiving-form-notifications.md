@@ -3,17 +3,17 @@ title: Envoi et réception de notifications de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a4374728-e2bc-47d9-8b03-ba09545a38d8
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4ee47b51a98cf732f4e9af2a87fa1734a7250208
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 57a4e4d1a39130e666b786f51c0ea48c7966c656
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550063"
 ---
 # <a name="sending-and-receiving-form-notifications"></a>Envoi et réception de notifications de formulaire
 

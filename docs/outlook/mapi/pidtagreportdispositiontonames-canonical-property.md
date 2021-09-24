@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 322b915f-d5b8-40cb-b41a-62d08f3d08f9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b9ae59d99a683754ba00ed7363a948f9310adbf6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7a5aa1945eb4835f29312197206ad9fd97b655d7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550553"
 ---
 # <a name="pidtagreportdispositiontonames-canonical-property"></a>Propriété canonique PidTagReportDispositionToNames
 

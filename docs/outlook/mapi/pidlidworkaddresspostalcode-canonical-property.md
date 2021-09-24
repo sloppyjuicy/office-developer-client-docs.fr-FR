@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidWorkAddressPostalCode
 api_type:
 - COM
 ms.assetid: 7a03df7e-9ce9-4720-8e58-bc7fa61eb932
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e1ac9390f02706fe469d5195d9aa435e6874048
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a6c1328938fc83fb220c754094fbecf6314a538c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350931"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550966"
 ---
 # <a name="pidlidworkaddresspostalcode-canonical-property"></a>Propri t canonique PidLidWorkAddressPostalCode
 

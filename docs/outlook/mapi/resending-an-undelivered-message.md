@@ -3,17 +3,17 @@ title: Renvoi d’un message non remis
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 71768db3-a107-47c6-8e6b-775e8d40ac36
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ddd0c1419531b0822bb98df51f47e12e63dcf242
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: abe1e54c4205d8b7d09344dfa09c20af5e560b26
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432666"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550154"
 ---
 # <a name="resending-an-undelivered-message"></a>Renvoi d’un message non remis
   

@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: beb489ab-d43c-51ad-d089-69c87d658a59
-ms.openlocfilehash: 8f1c660899e9109d946d41426b09e03d73ee76dd
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 14ffd9171b6c8d70c328f9820ca58c4d65141655
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538080"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549615"
 ---
 # <a name="masters_type-complextype-visio-xml"></a>Masters_Type complexType (Visio XML)
 

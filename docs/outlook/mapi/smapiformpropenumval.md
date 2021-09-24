@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SMAPIFormPropEnumVal
 api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 353bc574ca5987d71faf4841744de30a3d6c3f19
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9ea204f2f1cf324b4276563005c2cd90ac53e0c0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435410"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549909"
 ---
 # <a name="smapiformpropenumval"></a>SMAPIFormPropEnumVal
 

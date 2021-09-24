@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagConversionEits
 api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ceb9181a3d8669f8cf9a62eff12ad07148b42e48
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 635b79ed1e2d7da0a213bc595c7d99016361aa23
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420002"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550735"
 ---
 # <a name="pidtagconversioneits-canonical-property"></a>Propriété canonique PidTagConversionEits
 

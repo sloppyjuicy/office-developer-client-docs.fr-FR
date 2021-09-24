@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContactAddressTypes
 api_type:
 - HeaderDef
 ms.assetid: 8cfd4c89-a74f-4af9-b9c3-5c1a396ee600
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 949d20d7158639a0b3e8e71f431b76edc048b38e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0828b6b9787649de27787fa8896aad5f88811e98
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550762"
 ---
 # <a name="pidtagcontactaddresstypes-canonical-property"></a>Propriété canonique PidTagContactAddressTypes
 

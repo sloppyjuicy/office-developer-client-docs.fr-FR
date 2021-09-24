@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612380(v=office.15)
 ms:contentKeyID: 55119895
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4346f3bf1b7bba1f26a34e1562997b4d043c8d49
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e543bf22d6403169b25e29a548cae8d30646686a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359744"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549720"
 ---
 # <a name="add-or-remove-a-store"></a>Ajouter ou supprimer un magasin
 
@@ -22,7 +22,7 @@ Cet exemple montre comment ajouter et supprimer un magasin dans un profil donné
 
 Cet exemple de code montre comment ajouter et supprimer un magasin dans un profil spécifié en appelant respectivement la méthode [AddStoreEx](https://msdn.microsoft.com/library/bb623442\(v=office.15\)) et la méthode [RemoveStore](https://msdn.microsoft.com/library/bb610524\(v=office.15\)) sur l'objet [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) .
 
-Dans Outlook, vous pouvez ajouter ou supprimer un magasin PST uniquement par programmation. L’exemple de code suivant ajoute un magasin Unicode et place le fichier .pst dans l’emplacement par défaut des fichiers .pst utilisateur : Documents and Settings\\\<UserName\>\\Local Settings\\Application Data\\Microsoft\\Outlook. L’exemple de code utilise Environment.SpecialFolder.LocalApplicationData pour récupérer le chemin d’accès au dossier Application Data sous le dossier Local Settings. Après avoir ajouté le magasin, l’exemple de code supprime le magasin. Dans la mesure où la méthode **RemoveStore** requiert un objet [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) pour supprimer l'objet [Store](https://msdn.microsoft.com/library/bb609139\(v=office.15\)) , elle énumère la collection [Stores](https://msdn.microsoft.com/library/bb622944\(v=office.15\)) pour trouver l'objet **Store** qui vient d'être ajouté en fonction de la propriété [FilePath](https://msdn.microsoft.com/library/bb646113\(v=office.15\)) de l'objet **Store**.
+Dans Outlook, vous ne pouvez ajouter ou supprimer un magasin PST que par programme. L’exemple de code suivant ajoute un magasin Unicode et place le fichier .pst à l’emplacement par défaut pour les fichiers .pst utilisateur : Documents et Paramètres \\ \<UserName\> \\ Local Paramètres Application Data \\ Microsoft \\ \\ Outlook. L’exemple de code utilise Environment.SpecialFolder.LocalApplicationData pour récupérer le chemin d’accès au dossier Application Data sous le dossier Local Settings. Après avoir ajouté le magasin, l’exemple de code supprime le magasin. Dans la mesure où la méthode **RemoveStore** requiert un objet [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) pour supprimer l'objet [Store](https://msdn.microsoft.com/library/bb609139\(v=office.15\)) , elle énumère la collection [Stores](https://msdn.microsoft.com/library/bb622944\(v=office.15\)) pour trouver l'objet **Store** qui vient d'être ajouté en fonction de la propriété [FilePath](https://msdn.microsoft.com/library/bb646113\(v=office.15\)) de l'objet **Store**.
 
 **RemoveStore** supprime uniquement le magasin à partir du profil actif. Il ne supprime pas le fichier .pst du système de fichiers.
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidSharingRemoteType
 api_type:
 - COM
 ms.assetid: e9bc7c7c-86df-45d8-922b-76e3b076144a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3297ca951097c9f3601086809c6e294854c88656
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d86b305114e7e9854b277d25da1fbddae1b09775
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331208"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551022"
 ---
 # <a name="pidlidsharingremotetype-canonical-property"></a>Propriété canonique PidLidSharingRemoteType
 

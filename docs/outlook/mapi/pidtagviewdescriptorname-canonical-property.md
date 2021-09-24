@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagViewDescriptorName
 api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ab906d83ae4ad46747fd9037728620db1d656d25
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7cb5f25e9e9c4dc26998d164b0450ea5443f61bf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360724"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550280"
 ---
 # <a name="pidtagviewdescriptorname-canonical-property"></a>Propriété canonique PidTagViewDescriptorName
 

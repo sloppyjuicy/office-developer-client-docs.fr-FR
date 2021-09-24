@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610014(v=office.15)
 ms:contentKeyID: 55119789
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 99cdfc2447e6bf63078eb87bb9546d8b07ee83e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e4572a7ed6ba2262874d03252f1bfb4adfefc82f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359057"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549748"
 ---
 # <a name="avoiding-unsupported-technologies-in-managed-outlook-add-ins"></a>Éviter les technologies non prises en charge dans les compléments Outlook managés
 

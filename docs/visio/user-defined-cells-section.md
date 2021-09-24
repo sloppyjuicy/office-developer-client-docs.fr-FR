@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2180
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5630b446-5668-f7c1-1e34-6d4f84600f7f
 description: Zone de travail pour l'entrée de formules dans des cellules spéciales, susceptibles d'être référencées par d'autres cellules et outils complémentaires.
-ms.openlocfilehash: d10336578ae5738b5ffe06cad01ae5075d3ee3dc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7346492d4b4c0e11ebba933d718a93d20d8952f6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405575"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549433"
 ---
 # <a name="user-defined-cells-section"></a>User-defined Cells Section
 

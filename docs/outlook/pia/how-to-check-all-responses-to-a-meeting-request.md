@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184650(v=office.15)
 ms:contentKeyID: 55119881
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 89f3aa7037659bb29346bb70338d535cbbc200b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 755a91f9b7a6577f99109e762e0cf74f58c8eafe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359716"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549713"
 ---
 # <a name="check-all-responses-to-a-meeting-request"></a>Consultation de toutes les réponses à une demande de réunion
 

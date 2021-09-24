@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38fe217d-cf2e-51de-c97a-acb015129fd3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 03501e14740d7b27bd54d761ae701e8863ad79dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 56df6fc294bc75b178a9c03a4aa9df240525863e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358946"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550448"
 ---
 # <a name="pidtagsearchrecipientemailcc-canonical-property"></a>Propriété canonique PidTagSearchRecipientEmailCc
 
@@ -30,7 +30,7 @@ Contient une chaîne Unicode en cours d’interrogation dans la liste des adress
 |Propriétés associées :  <br/> |PR_SEARCH_RECIP_EMAIL_CC_W  <br/> |
 |Identificateur :  <br/> |0x0EA7  <br/> |
 |Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Recherche  <br/> |
+|Domaine :  <br/> |Rechercher  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

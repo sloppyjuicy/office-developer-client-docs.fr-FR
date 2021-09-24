@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFormCategory
 api_type:
 - HeaderDef
 ms.assetid: f4bd5ddb-f1e7-4e2a-b312-b1884f78cc1a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b9d1d76be6f61a1b8e60c2553d74424672d1a6f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9f40b1373bc851f4a71c8a5d8748650e6737f7f2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550609"
 ---
 # <a name="pidtagformcategory-canonical-property"></a>Propriété canonique PidTagFormCategory
 

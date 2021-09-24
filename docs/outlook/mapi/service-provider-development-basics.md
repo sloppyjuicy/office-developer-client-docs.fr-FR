@@ -3,17 +3,17 @@ title: Informations de base sur le développement des fournisseurs de services
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 00efb70f-405e-4efb-94bc-b39c310332cf
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5fcea925b5f66d7ca10c1be1817193d803633634
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1e7050bc6b7d4b053b9dc81f31bc3f1dd6611f3c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437804"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550028"
 ---
 # <a name="service-provider-development-basics"></a>Informations de base sur le développement des fournisseurs de services
 

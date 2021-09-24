@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60080
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96b8c503-67b3-8623-d99b-0dad7b15c224
 description: Indique si cette forme peut fractionner les formes fractionnables.
-ms.openlocfilehash: 46b42e9be070b54095d3e9a5c247d63be6348f77
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: da89333e8a190d2ad573b1d088480c5e0df6efd8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423558"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549608"
 ---
 # <a name="shapesplit-cell-shape-layout-section"></a>ShapeSplit, cellule (section Shape Layout)
 

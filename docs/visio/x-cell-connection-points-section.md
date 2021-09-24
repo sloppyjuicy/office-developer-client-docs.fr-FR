@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251746
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11c69600-4e1f-4c52-ff35-b6a7cc6c734c
 description: Représente la coordonnée x d’un point de connexion dans les coordonnées locales.
-ms.openlocfilehash: 496e5af6ea5b7ba99730b23dcbb510db6af9b23b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5703cd13e6679a97cfdd576e1972e806d3353a39
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436782"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549300"
 ---
 # <a name="x-cell-connection-points-section"></a>X, cellule (section Connection Points)
 

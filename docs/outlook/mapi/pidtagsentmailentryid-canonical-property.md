@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSentMailEntryId
 api_type:
 - COM
 ms.assetid: 8f14dc15-d7d7-4894-b6a8-0d589f576c42
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e7aef8e9ba605d47b110a496e46f629df60a28ea
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 50e80e5d9ae84b9e319fe19276e285cd1cb3ed8a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342510"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550434"
 ---
 # <a name="pidtagsentmailentryid-canonical-property"></a>Propriété canonique PidTagSentMailEntryId
 

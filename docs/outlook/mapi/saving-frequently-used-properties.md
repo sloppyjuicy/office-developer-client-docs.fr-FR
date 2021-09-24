@@ -3,17 +3,17 @@ title: Enregistrement des propriétés fréquemment utilisées
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a8d4d575-7aa0-4542-91e2-322a6e400551
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e32ed3388e95d32a4857a933fb735d170dd71688
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 66dc993df65a12e0e3bc9ff22b043ba0e97b8471
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424552"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550140"
 ---
 # <a name="saving-frequently-used-properties"></a>Enregistrement des propriétés fréquemment utilisées
 

@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
 description: 'Spécifie les conditions météorologiques futures d’au moins trois jours à l’avance, y compris aujourd’hui : Aujourd’hui, Demain, Jour après Demain.'
-ms.openlocfilehash: 5e442ee5995bbd51c5e518162286bc199a625dbd
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 51a4df8c1ee711cb10db70d631ef93edb7d1c356
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540979"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549636"
 ---
 # <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>forecast, élément (weatherType complexType) (Outlook Weather Information Schema)
 

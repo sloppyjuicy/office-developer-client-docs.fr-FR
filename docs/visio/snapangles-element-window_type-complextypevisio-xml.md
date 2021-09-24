@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5997f374-303a-92b6-6dd3-87ef81104af4
 description: Contient une collection d’éléments SnapAngle.
-ms.openlocfilehash: 4dff3d2fa42183c11d2a0ad78e4b4b36a3ce55e2
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: e069b14f4df799b5a568d2b1aa488015740529fd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540363"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549594"
 ---
 # <a name="snapangles-element-window_type-complextype-visio-xml"></a>Élément SnapAngles (Window_Type complexType) (Visio XML)
 

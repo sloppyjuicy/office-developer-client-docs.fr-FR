@@ -3,17 +3,17 @@ title: Écriture de code serveur de formulaires
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ff33badc-ceed-4364-b99c-8af3af83ceb6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a93e53261d56e452f38e38da427585cecccba405
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: daade632a10b48e6db88ece286f53db4ae95a804
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325793"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549762"
 ---
 # <a name="writing-form-server-code"></a>Écriture de code serveur de formulaires
 

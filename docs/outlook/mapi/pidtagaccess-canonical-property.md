@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAccess
 api_type:
 - HeaderDef
 ms.assetid: 8c8a882e-62c1-4c57-8c63-ee5849f656b0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b453a7b0cfa04dd94da01089573427a931fb4d4f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7fb0a4b7ec1ee6d32f30a30a3a319a0ae6c07742
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316512"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550847"
 ---
 # <a name="pidtagaccess-canonical-property"></a>Propriété canonique PidTagAccess
 
@@ -40,8 +40,8 @@ Cette propriété est en lecture seule pour le client. Il doit s’agit d’un *
   
 |**Name**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Write  <br/> |
-|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Lecture  <br/> |
+|MAPI_ACCESS_MODIFY  <br/> |0x00000001  <br/> |Écriture  <br/> |
+|MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Lire  <br/> |
 |MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Supprimer  <br/> |
 |MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |Créer des sous-dossiers dans la hiérarchie de dossiers  <br/> |
 |MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Créer des messages de contenu  <br/> |

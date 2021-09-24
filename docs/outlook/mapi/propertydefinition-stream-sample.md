@@ -3,15 +3,15 @@ title: Exemple de flux PropertyDefinition
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 63a8141221c0ff7a8c6ffee20587b682386f87b5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a027967bfe73e04a554733e041c31875e74733c4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406660"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550161"
 ---
 # <a name="propertydefinition-stream-sample"></a>Exemple de flux PropertyDefinition
 

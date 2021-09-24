@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskComplete
 api_type:
 - COM
 ms.assetid: 5b02d149-e4c7-41ad-aa13-4268d82f4c42
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: db36f8c52ab0aa3033c441780113c9004827dc76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ee5ad250c9914d987db4881b75ce5532514e4814
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303359"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551001"
 ---
 # <a name="pidlidtaskcomplete-canonical-property"></a>Propri t canonique PidLidTaskComplete
 

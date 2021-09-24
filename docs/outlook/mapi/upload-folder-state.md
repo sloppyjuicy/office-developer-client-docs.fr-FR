@@ -3,15 +3,15 @@ title: Télécharger État du dossier
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 270b1df0-c5cd-0d0f-7b57-2726dee978ab
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c20f2998a2fef1ddb53b13708dcf56f9d7b50dbe
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eb9708b63f72533745b3b6e18c96816e1fa4f229
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419568"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549776"
 ---
 # <a name="upload-folder-state"></a>Télécharger État du dossier
 

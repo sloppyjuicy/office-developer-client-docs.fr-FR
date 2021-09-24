@@ -3,17 +3,17 @@ title: Réception de messages à l’aide de fournisseurs de magasins de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4763951e-ccfd-453e-b99c-5c7d5efb90c2
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c93a4b56489c2bfb458e2e1cd872073e64d9998a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8b93327dd95ae24d69ec633ff12252bac8744c87
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418728"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550168"
 ---
 # <a name="receiving-messages-by-using-message-store-providers"></a>Réception de messages à l’aide de fournisseurs de magasins de messages
 

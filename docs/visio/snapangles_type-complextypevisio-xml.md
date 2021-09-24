@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1110a656-d8cd-19d0-1af0-31a6675bf89b
-ms.openlocfilehash: 1ea5c6d907bf3b3af5664ce3c6f97dfbaa3fd442
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: adf68035c66a1a9e423c073df743724763b69e07
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540356"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549573"
 ---
 # <a name="snapangles_type-complextype-visio-xml"></a>SnapAngles_Type complexType (Visio XML)
 

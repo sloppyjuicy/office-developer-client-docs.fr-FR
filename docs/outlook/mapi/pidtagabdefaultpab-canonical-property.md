@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAbDefaultPab
 api_type:
 - HeaderDef
 ms.assetid: 3f6ce4ba-aebe-4b89-87ba-35568a4414d4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8406df2df40a12f039f4108a849700199eb77319
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a2016dec821839d9b115ef2d3a2303b2a81fbda3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550854"
 ---
 # <a name="pidtagabdefaultpab-canonical-property"></a>Propriété canonique PidTagAbDefaultPab
 

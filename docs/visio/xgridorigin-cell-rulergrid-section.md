@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1155
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b1a8902-b1d4-c3d9-8c9f-1a28fddacc59
 description: Définit la coordonnée horizontale de l'origine de la grille.
-ms.openlocfilehash: ee58ea7d950dd7e422f8a60a13bac8aa4ed353a6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0747152b2b5c3040df7233ab2a15a70d5fd8a1e6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428619"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549293"
 ---
 # <a name="xgridorigin-cell-ruler-amp-grid-section"></a>XGridOrigin, cellule (section Ruler &amp; Grid)
 

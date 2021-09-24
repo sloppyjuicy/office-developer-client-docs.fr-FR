@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagUrlComponentName
 api_type:
 - COM
 ms.assetid: a21906f9-5408-41ba-a89b-273ab60eeef3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 26a9d432d98c546aefa8f511ba2c4c9bb26cfd80
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 99aca12724f7f61e88905dd28c711d2e90f7103d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320425"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550287"
 ---
 # <a name="pidtagurlcomponentname-canonical-property"></a>Propriété canonique PidTagUrlComponentName
 

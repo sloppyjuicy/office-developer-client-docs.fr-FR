@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c5182a7-7d7a-48e8-b9cb-5abd7739f0fd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2aae68634778f787c02d76c371a52f83516ac00e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fcc9dae766bdb9d8eb839fd2d2fab619c316201a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359457"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550406"
 ---
 # <a name="pidtagspamjunksenders-canonical-property"></a>Propriété canonique PidTagSpamJunkSenders
 

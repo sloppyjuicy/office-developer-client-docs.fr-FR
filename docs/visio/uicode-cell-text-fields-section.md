@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1075
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d9717c1-4310-0d62-874f-4df77cd81627
 description: Définit le code d'un champ inséré dans les versions de Visio antérieures à Visio 2000.
-ms.openlocfilehash: 293451b61def59ccfdf849dc597def9521fd22e5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 916332de340b4e12e611031cfc49ddcacddb79d4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422214"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549440"
 ---
 # <a name="uicode-cell-text-fields-section"></a>UICode, cellule (section Text Fields)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagDisplayType
 api_type:
 - HeaderDef
 ms.assetid: ee2bc6ca-3769-4b56-a77d-81418d28f768
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: da26fd2a8643817cf60adbfa6f4e85da345b875c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1e48d31ade72639adfa5ea5f9d4d2e87a201b302
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360780"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550700"
 ---
 # <a name="pidtagdisplaytype-canonical-property"></a>Propriété canonique PidTagDisplayType
 

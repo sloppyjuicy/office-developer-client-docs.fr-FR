@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSmtpAddress
 api_type:
 - COM
 ms.assetid: c0ee2db8-7cea-4af4-9646-c02ac7fdeaa3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ba608a265f8757383c5f096d291a91a9092e8319
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 43f835ec726bd856a65880ff5353c9c69603fe95
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359436"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550420"
 ---
 # <a name="pidtagsmtpaddress-canonical-property"></a>Propriété canonique PidTagSmtpAddress
 

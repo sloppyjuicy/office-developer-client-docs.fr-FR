@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SExistRestriction
 api_type:
 - COM
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6e3cdcf3579b26776d9e278bb339758d4f56d890
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8e2cf26b2e4388fac1432308df82ded911cf7501
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418938"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59550035"
 ---
 # <a name="sexistrestriction"></a>SExistRestriction
 

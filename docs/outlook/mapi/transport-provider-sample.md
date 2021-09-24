@@ -3,17 +3,17 @@ title: Exemple de fournisseur de transport
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: def51a752abcb79a35980ed12eb73011c26d2597
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e40bb5049c20923de1ba9cce9cf05e3e90f4aa34
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356587"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59549854"
 ---
 # <a name="transport-provider-sample"></a>Exemple de fournisseur de transport
 
@@ -54,7 +54,7 @@ Cet exemple ne prend pas en charge la détection asynchrone des messages entrant
   
 1. Pour télécharger l’exemple de fournisseur de transport, consultez la Outlook [exemples MAPI.](downloading-the-outlook-mapi-samples.md)
     
-2. Recherchez le dossier dans lequel vous avez enregistré Outlook exemples MAPI. Cliquez avec le bouton droit sur le dossier zip du numéro de **\< \> version d’OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
+2. Recherchez le dossier dans lequel vous avez enregistré Outlook exemples MAPI. Cliquez avec le bouton droit **sur \<version number\> le dossier Zip OutlookMAPISamples,** puis cliquez **sur Extraire tout.**
     
 3. Cliquez **sur Parcourir,** sélectionnez l’emplacement où vous souhaitez enregistrer l’exemple, puis cliquez sur **Extraire.**
     
@@ -94,7 +94,7 @@ Cet exemple ne prend pas en charge la détection asynchrone des messages entrant
     > [!IMPORTANT]
     > Ce chemin d’accès doit exister. 
   
-6. Cliquez sur **OK**.
+6. Cliquez sur **OK**.
     
 7. Dans la boîte **de dialogue Ajouter un compte de** messagerie, cliquez sur **OK.** Cliquez **sur Terminer,** puis sur **Fermer.**
     
@@ -104,7 +104,7 @@ Cet exemple ne prend pas en charge la détection asynchrone des messages entrant
   
 1. Dans **le** menu Fichier, cliquez **sur Nouveau,** puis sur **Message électronique.**
     
-2. Dans la **zone À,** tapez le nom du destinataire au format **[MRXP : \< ADRESSE \> ]**. L’adresse est le partage UNC ou le chemin d’accès au dossier local de la boîte de réception du destinataire.
+2. Dans la **zone À,** tapez le nom du destinataire au format **[MRXP: \<ADDRESS\> ]**. L’adresse est le partage UNC ou le chemin d’accès au dossier local de la boîte de réception du destinataire.
     
     > [!NOTE]
     > Si l’adresse insère des deux-points ou des barre obliques inverses, vous devez insérer une barre oblique inverse avant chaque deux-points ou barre oblique inverse. Par exemple, pour envoyer des messages à [MRXP:C:\Mail\myDir], vous devez taper  `[MRXP:C\:\\Mail\\myDir]` . 
