@@ -11,13 +11,13 @@ f1_keywords:
 - vbaac10.chm5187104
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 9c1ff7584269ce073a805edf8710bb3ea4eb1a36
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7a3eec5e642f4a307fc9f0e812206d1360560f4a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295582"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569278"
 ---
 # <a name="convert-microsoft-access-tables-forms-and-reports"></a>Convertir des tableaux, des formulaires et des rapports Microsoft Access
 

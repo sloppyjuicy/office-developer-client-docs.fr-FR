@@ -3,17 +3,17 @@ title: Propriétés du destinataire pour les rapports d’état de remise
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9b2e287e-1cf8-4b8f-b92c-a065ed264d02
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 784cac21aac5de18952f3768af9b8f189f604981
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1063d1a7a062b8b07d9ff66958efc5e65ef8737e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411084"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591310"
 ---
 # <a name="recipient-properties-for-delivery-status-reports"></a>Propriétés du destinataire pour les rapports d’état de remise
 
@@ -25,7 +25,7 @@ Les propriétés suivantes sont présentes pour les rapports d’état de remise
   
 **Titre du tableau**
 
-|**Property**|**Decription**|
+|**Propriété**|**Decription**|
 |:-----|:-----|
 |**PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md))  <br/> |Contient la date et l’heure de livraison du message d’origine.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contient le nom complet d’un objet MAPI donné.  <br/> |

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251788
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87ea5e8f-c3e0-009f-4bf8-8c34fbdb83a6
 description: Obtient le texte d’une forme.
-ms.openlocfilehash: bb9b1fbe5900cd051828ed6c7ff07546567c1b23
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bfd33bb6fe0aca144372474e484e31f095715e0d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419344"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622892"
 ---
 # <a name="shapetext-function"></a>Fonction SHAPETEXT
 
@@ -45,8 +45,8 @@ Vous pouvez utiliser toute combinaison des indicateurs suivants avec la fonction
 |1  <br/> |Comprend des tirets.  <br/> |
 |2  <br/> |Ne comprend pas de texte développé dans les champs.  <br/> |
 |4   <br/> |Convertit les tabulations en un espace simple.  <br/> |
-|8   <br/> |Convertit les tabulations en un jeu d’espaces.  <br/> |
-|16   <br/> |Convertit les retours chariot et les sauts de ligne en espaces.  <br/> |
+|8   <br/> |Convertit les tabulations en un jeu d’espaces.  <br/> |
+|16   <br/> |Convertit les retours chariot et les sauts de ligne en espaces.  <br/> |
 |32  <br/> |Convertit les guillemets typographiques en guillemets droits.  <br/> |
 |64  <br/> |Convertit plusieurs espaces adjacents en un seul espace.  <br/> |
    

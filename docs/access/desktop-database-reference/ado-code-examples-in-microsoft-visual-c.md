@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249212(v=office.15)
 ms:contentKeyID: 48544550
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a3ffa94797d14e392b52e32022a225489a9d7b2b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ffd5b6881d07cd1cdb07eb17659267068e120cfb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281831"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559324"
 ---
 # <a name="ado-code-examples-in-microsoft-visual-c"></a>Exemples de code ADO dans Microsoft Visual C++
 

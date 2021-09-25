@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1105
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff34a23b-2881-864f-42e4-871c4fde0992
 description: Détermine l'alignement vertical du texte dans le bloc de texte.
-ms.openlocfilehash: 954a0cf0b80d6b675dcc016997f1923041069eac
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 59892b4c28278bf59dbf474f900c0cf7e498dbd8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425791"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622640"
 ---
 # <a name="verticalalign-cell-text-block-format-section"></a>VerticalAlign, cellule (section Text Block Format)
 

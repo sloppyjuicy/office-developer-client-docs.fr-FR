@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249350(v=office.15)
 ms:contentKeyID: 48545176
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: c77b2d1900ae4c2f25139939b3020dfb32e9ea67
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 83bd5b5b7d98715133f02c560e3501a8ade50706
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294063"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569110"
 ---
 # <a name="delete-method-example-vc"></a>Delete, méthode – Exemple (VC++)
 

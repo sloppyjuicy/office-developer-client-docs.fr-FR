@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250032(v=office.15)
 ms:contentKeyID: 48547811
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 99c88249180a0c8aeb7baff0e81a7c9e590a5ef4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: fc74dfc71b578a38755ef0e4e383ed3f859c7370
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280580"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569509"
 ---
 # <a name="actualsize-and-definedsize-properties-example-jscript"></a>ActualSize et DefinedSize, propriétés – Exemple (JScript)
 

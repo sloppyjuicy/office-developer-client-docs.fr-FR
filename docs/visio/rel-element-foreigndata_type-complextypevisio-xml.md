@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7ed604ef-e001-f379-92c3-391a18f22bb3
 description: Spécifie une relation entre une forme et une partie de document qui contient les données d’image associées à la forme.
-ms.openlocfilehash: 5836fd306670600f65eda1f3a998ef4c5479114b
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 1179468fc4679dc3aa6892949d0fe43fba55cb6d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542806"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623102"
 ---
 # <a name="rel-element-foreigndata_type-complextype-visio-xml"></a>Élément Rel (ForeignData_Type complexType) (Visio XML)
 
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[ForeignData](foreigndata-element-shapesheet_type-complextypevisio-xml.md) <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |Spécifie une instance de données d’image stockées dans le dessin.  <br/> |
    

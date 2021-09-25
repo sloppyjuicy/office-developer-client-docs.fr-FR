@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm85126
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 27b4269e9718e425bc5a1307ae311ccaad89e514
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: high
+ms.openlocfilehash: 60726e4c514f9fc8e6a432bac171d6bc35c4c05e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538227"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559121"
 ---
 # <a name="after-update-macro-event"></a>After Update, événement de macro
 
@@ -63,7 +63,7 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <thead>
 <tr class="header">
 <th><p>Type de commande</p></th>
-<th><p>Command</p></th>
+<th><p>Commande</p></th>
 </tr>
 </thead>
 <tbody>
@@ -72,7 +72,7 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <td><p><a href="comment-macro-statement.md">Comment, instruction de macro</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Déroulement de programme</p></td>
+<td><p>Flux de programme</p></td>
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2155
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f743e4ee-343d-0edd-4a6d-5f104781a524
 description: Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue Champ.
-ms.openlocfilehash: ce6a658a553182e360eaa978254fc59b5bd5b59b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 62133f45f37e753c386924ca7a40b32f5106b341
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434948"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559415"
 ---
 # <a name="text-fields-section"></a>Text Fields Section
 

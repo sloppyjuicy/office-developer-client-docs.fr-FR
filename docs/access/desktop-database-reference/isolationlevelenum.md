@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
 ms:contentKeyID: 48544506
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9f0176772b366b39d368f8bae1e402d420f0136c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a54f82a61605700d6691f4adc321114994b9e4a8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568872"
 ---
 # <a name="isolationlevelenum"></a>IsolationLevelEnum
 
@@ -43,7 +43,7 @@ Spécifie le niveau d’isolement de transaction d’un objet [Connection](conne
 </tr>
 <tr class="even">
 <td><p><strong>adXactChaos</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 <td><p>Indique que les modifications en attente de transactions mieux isolées ne peuvent être remplacées.</p></td>
 </tr>
 <tr class="odd">

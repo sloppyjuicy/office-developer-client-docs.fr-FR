@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192887(v=office.15)
 ms:contentKeyID: 48544440
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 41b408f63522902fd1d4f806090eef7563a3492a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ea3d061025619ec2368b1cc3c732c82b2f291ba4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294651"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59581545"
 ---
 # <a name="databaseversion-property-dao"></a>Database.Version, propriété (DAO)
 
@@ -81,7 +81,7 @@ Le tableau suivant montre la version du moteur de base de données incluse dans 
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
 <td><p>2.5 (1995)</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 <td><p>4.0 (16 bits)</p></td>
 <td><p>N/A</p></td>
 <td><p>N/A</p></td>

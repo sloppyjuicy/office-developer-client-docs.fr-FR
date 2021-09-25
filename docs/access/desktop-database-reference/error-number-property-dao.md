@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053363
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 257c403951eff5bbb2f37de8b38a1c63a3445285
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f36a961cd29a0fc86c00af121b21d27e8d8d36f2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293496"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59581384"
 ---
 # <a name="errornumber-property-dao"></a>Error.Number, propriété (DAO)
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424466(v=office.15)
 ms:contentKeyID: 55119867
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3befe70363d1e2226b8a3a3a6ebb8db39aa2c6ef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b339bf003a95e37cf5feb33fb707e220e419c14e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359723"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609102"
 ---
 # <a name="add-voting-options-to-a-mail-item"></a>Ajouter des options de vote à un élément de courrier
 

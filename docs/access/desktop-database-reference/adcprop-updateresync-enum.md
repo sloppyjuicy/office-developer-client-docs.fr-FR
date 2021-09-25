@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249600(v=office.15)
 ms:contentKeyID: 48546145
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1952d473b51048a271a689498ae844cee761b001
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: dab216f84707ec3ff2a05d5d736c6918539586c2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280438"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569446"
 ---
 # <a name="adcprop_updateresync_enum"></a>ADCPROP \_ UPDATERESYNC, \_ ENUM
 
@@ -38,7 +38,7 @@ Indique si la méthode [UpdateBatch](updatebatch-method-ado.md) est suivie d’u
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAll</strong></p></td>
-<td><p>15</p></td>
+<td><p>15 </p></td>
 <td><p>Appelle <strong>Resync</strong> avec la valeur combinée de tous les autres membes ADCPROP_UPDATERESYNC_ENUM.</p></td>
 </tr>
 <tr class="even">
@@ -53,7 +53,7 @@ Indique si la méthode [UpdateBatch](updatebatch-method-ado.md) est suivie d’u
 </tr>
 <tr class="even">
 <td><p><strong>adResyncInserts</strong></p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>Appelle <strong>Resync</strong> pour toutes les lignes insérées avec succès. Toutefois, les valeurs des colonnes AutoIncrement ne sont pas resynchronisées. En fait, le contenu des nouvelles lignes insérées est resynchronisé sur la base de la valeur de clé primaire existante. Si la clé primaire est une valeur AutoIncrement, <strong>Resync</strong> ne recherchera pas le contenu de la ligne concernée. Pour incrémenter automatiquement les valeurs de clé primaire AutoIncrement, appelez <strong>UpdateBatch</strong> avec la valeur combinée <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</p></td>
 </tr>
 <tr class="odd">

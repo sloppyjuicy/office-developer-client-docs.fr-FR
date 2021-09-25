@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248907(v=office.15)
 ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a2d3acf1b236e23522da0143d577bbcbeacbb4b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 034344d469037d33c3dee586ab8bc56f95df906f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283295"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559296"
 ---
 # <a name="ado-md-objects"></a>Objets ADO MD
 
@@ -35,7 +35,7 @@ ms.locfileid: "32283295"
 <td><p>Représente un axe positionnel ou de filtre d'un ensemble de cellules, qui contient des membres sélectionnés d'une ou plusieurs dimensions.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="catalog-object-ado-md.md">Catalog</a></p></td>
+<td><p><a href="catalog-object-ado-md.md">Catalogue</a></p></td>
 <td><p>Contient les informations de schéma multidimensionnel (en d’autres termes, les cubes et dimensions sous-jacentes, les hiérarchies, les niveaux et les membres) spécifiques à un fournisseur de données multidimensionnelles (MDP).</p></td>
 </tr>
 <tr class="odd">

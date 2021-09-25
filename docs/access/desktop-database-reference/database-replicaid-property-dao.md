@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053375
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 2ada9bf23a4b8fc34c5f9b4f24350fc6af91dc85
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 6e756f4037ff9c8708ac5df79061623c3dadba9a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294714"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569138"
 ---
 # <a name="databasereplicaid-property-dao"></a>Database.ReplicaID, propriété (DAO)
 

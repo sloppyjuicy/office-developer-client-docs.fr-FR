@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60113
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ecfdb05-2533-470a-006b-e554026944d8
 description: Redirige les valeurs mises à jour résultant d’actions dans l’interface utilisateur (IU) ou Automation vers une autre cellule.
-ms.openlocfilehash: c4f5fe94aba90ce0a69983d6637a5399b6e42707
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2010cd324d87f9dbcfbfa2c71762ffc94a5484c9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416803"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559587"
 ---
 # <a name="setatref-function"></a>Fonction SETATREF
 

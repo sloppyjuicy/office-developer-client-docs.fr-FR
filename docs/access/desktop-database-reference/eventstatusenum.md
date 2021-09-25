@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249821(v=office.15)
 ms:contentKeyID: 48547059
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 654d2a485c9273072d1daa61321e73418a15e969
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 5a703dcafc981bd5663d01329330dd3cd2b0e23b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293272"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59602681"
 ---
 # <a name="eventstatusenum"></a>EventStatusEnum
 
@@ -58,7 +58,7 @@ Spécifie l'état en cours de l'exécution d'un événement.
 </tr>
 <tr class="odd">
 <td><p><strong>adStatusUnwantedEvent</strong></p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>Empêche l'affichage de nouvelles notifications avant la fin de l'exécution de la méthode de l'événement.</p></td>
 </tr>
 </tbody>

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249950(v=office.15)
 ms:contentKeyID: 48547554
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3c7d9be9b91b3f847516eb3c22aa37e46c8a551d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 63c26ea16f3c93094a877ffb4b9a394b0be89be6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292019"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59602478"
 ---
 # <a name="hellodata-a-simple-ado-application"></a>HelloData : une application ADO simple
 

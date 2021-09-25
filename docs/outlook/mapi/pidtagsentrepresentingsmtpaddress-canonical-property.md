@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ed122a2-0967-4de3-a2ee-69f81ae77b16
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a9114b1c9c3f5b09c5636f7d55d7111dd86afc06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 66e5c66757f84ea72ff111cc6e0d608c904d6d1f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341936"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609705"
 ---
 # <a name="pidtagsentrepresentingsmtpaddress-canonical-property"></a>Propriété canonique PidTagSentRepresentingSmtpAddress
 
@@ -34,7 +34,7 @@ Contient l’adresse de messagerie SMTP (Simple Mail Transport Protocol) de l’
 
 Cette propriété est un exemple des propriétés d’adresse de l’utilisateur de messagerie représenté par l’expéditeur. Lorsqu’une application cliente envoie un message pour le compte d’un autre client, elle doit définir toutes les propriétés d’expéditeur représentées sur les valeurs de ce client. Un utilisateur de messagerie envoyant en son propre nom laisse généralement les propriétés de l’expéditeur représenté non jeu.
   
-Le fournisseur de transport sortant doit toujours laisser cette propriété inchangée si elle a été définie par le client d’envoi. Si elle n’est pas définie, le fournisseur de transport doit la définir sur la propriété **PR_SENDER_SMTP_ADDRESS** ([PidTagSenderSmtpAddress](pidtagsendersmtpaddress-canonical-property.md)) sur la copie sortante du message et la laisser non définie sur la copie locale.
+Le fournisseur de transport sortant doit toujours laisser cette propriété inchangée si elle a été définie par le client d’envoi. S’il n’est pas définie, le fournisseur de transport doit la définir sur la propriété **PR_SENDER_SMTP_ADDRESS** ([PidTagSenderSmtpAddress](pidtagsendersmtpaddress-canonical-property.md)) sur la copie sortante du message et la laisser non définie sur la copie locale.
   
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -4,15 +4,15 @@ TOCTitle: ADO API reference
 ms:assetid: 0fd6aff8-dbff-50c7-649f-2d9c31aedb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248867(v=office.15)
 ms:contentKeyID: 48543275
-ms.date: 09/18/2015
+ms.date: 09/14/2021
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: dac3a8faed269bab138b10d307e9845ca3dda140
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: cb41db854eae6d30f0cf9812551c4721c1bb0d40
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281845"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603052"
 ---
 # <a name="ado-api-reference"></a>Référence des API ADO
 
@@ -30,5 +30,4 @@ Pour plus d'informations, recherchez une rubrique spécifique dans l'index ou re
 - [Événements ADO](ado-events.md)
 - [Constantes énumérées ADO](ado-enumerated-constants.md)
 - [Exemples de code ADO](ado-code-examples.md)
-- [Index de syntaxe ADO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-syntax-indexes)
-
+- [Index de syntaxe ADO](/office/vba/access/concepts/miscellaneous/ado-syntax-indexes.md)

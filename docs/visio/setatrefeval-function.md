@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1042150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3f3a0a0-7b14-0b71-d247-ada81b93b66b
 description: Utilisé dans le set_expression de la fonction SETATREF pour indiquer que les set_expression doivent être évaluées avant d’affecter au paramètre de référence dans SETATREF.
-ms.openlocfilehash: a11a7485e04d4deb31e9497476bb198d675bc68f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2ce7cd796e97a658911d01f667b538b9294ee4a7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559584"
 ---
 # <a name="setatrefeval-function"></a>Fonction SETATREFEVAL
 

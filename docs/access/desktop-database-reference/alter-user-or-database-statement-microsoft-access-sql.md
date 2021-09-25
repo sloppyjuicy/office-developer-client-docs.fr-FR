@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197012(v=office.15)
 ms:contentKeyID: 48546093
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2514ca6403ce70acae9e344d610fbd7b9ba7d73b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 9e2ef710d9a7036cc9f15e2c69d37e84393f978d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297178"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559072"
 ---
 # <a name="alter-user-or-database-statement-microsoft-access-sql"></a>ALTER USER ou DATABASE, instruction (Microsoft Access SQL)
 
@@ -41,7 +41,7 @@ L'instruction ALTER USER ou DATABASE est composée des arguments suivants :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>user</em></p></td>
+<td><p><em>utilisateur</em></p></td>
 <td><p>Nom de l'utilisateur à ajouter au fichier d'informations du groupe de travail.</p></td>
 </tr>
 <tr class="even">

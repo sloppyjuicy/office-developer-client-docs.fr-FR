@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aec47b43-adbe-3344-fbac-29554f244c99
 description: Spécifie les informations relatives à la règle de validation à qui appartient le problème de validation parent.
-ms.openlocfilehash: 29454fdb82d9e12d46fa9eedf73f8a31e8befd95
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 367c678d14531bd9e9d5dc86956aeb0ff42757fe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541686"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623018"
 ---
 # <a name="ruleinfo-element-issue_type-complextype-visio-xml"></a>Élément RuleInfo (Issue_Type complexType) (Visio XML)
 
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Problème](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Représente un problème de validation unique dans le document.  <br/> |
    

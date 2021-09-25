@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248910(v=office.15)
 ms:contentKeyID: 48543371
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: adc8ed771bcba6a4b6532b33b27980f8aab695c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 474b2ccb10fbd4d68e89c352fa8700e33a2923da
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289240"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59602212"
 ---
 # <a name="members-collection-ado-md"></a>Members, collection (ADO MD)
 

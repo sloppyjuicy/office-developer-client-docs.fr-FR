@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249356(v=office.15)
 ms:contentKeyID: 48545203
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3a709a37f84fd90ef497fdf25e523475fae31b7f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 81f5921637ef2de7b6587899ab6fdc5e34c6517a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296989"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558876"
 ---
 # <a name="attributes-and-name-properties-example-vc"></a>Attributes et Name, propriétés – Exemple (VC++)
 

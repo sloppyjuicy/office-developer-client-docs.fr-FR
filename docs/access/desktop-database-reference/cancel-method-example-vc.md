@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249900(v=office.15)
 ms:contentKeyID: 48547393
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b7afa0e4487b1bc01d7a45849df0c58c0e5dc04a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ec748bd1a2d2445ab4e79df935a507ea8b347c5e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296681"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558659"
 ---
 # <a name="cancel-method-example-vc"></a>Cancel, méthode – Exemple (VC++)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFlagStatus
 api_type:
 - HeaderDef
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bca8fccaa43bb3157b3d4e2af7d6aafa64972b41
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9793115f67c5c889d8c674e0279516177aac837a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316295"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616438"
 ---
 # <a name="pidtagflagstatus-canonical-property"></a>Propriété canonique PidTagFlagStatus
 
@@ -40,7 +40,7 @@ Cette propriété ne doit pas exister sur un objet lié à la réunion et elle n
   
 |**Valeur numérique**|**Name**|**Description**|
 |:-----|:-----|:-----|
-|Non présent  <br/> |S/O  <br/> |Non survolé  <br/> |
+|Non présent  <br/> |N/A  <br/> |Non survolé  <br/> |
 |0x00000001  <br/> |followupComplete  <br/> |Marqué comme terminé  <br/> |
 |0x00000002  <br/> |followupFlagged  <br/> |Marqué d’un indicateur  <br/> |
    

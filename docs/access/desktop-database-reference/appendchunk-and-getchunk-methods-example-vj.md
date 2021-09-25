@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249952(v=office.15)
 ms:contentKeyID: 48547562
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9d151d30ad376698d7b54b0795844210a41e701c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d9c86b77c6fe7bf0c302f3aaeca57fcb1daeeb69
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297031"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558960"
 ---
 # <a name="appendchunk-and-getchunk-methods-example-vj"></a>AppendChunk et GetChunk, méthodes – Exemple (VJ++)
 

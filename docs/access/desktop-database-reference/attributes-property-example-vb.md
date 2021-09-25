@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249918(v=office.15)
 ms:contentKeyID: 48547442
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4d324ae976693e635222d2b8d4b4d4571c182fa6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2fda78c35dd0d9b2de0774b0c45a4906059182d3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296954"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558869"
 ---
 # <a name="attributes-property-example-vb"></a>Attributes, propriété – Exemple (VB)
 

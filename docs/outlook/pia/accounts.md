@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/ff184597(v=office.15)
 ms:contentKeyID: 55119790
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: d539f38419a8eaac60cd3054da6283a49bf4cc00
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: bd42bce785f79867e0f612fa65d43bd7eb1d078a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331184"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609172"
 ---
 # <a name="accounts"></a>Comptes 
 

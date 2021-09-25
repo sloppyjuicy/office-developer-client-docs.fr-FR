@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm5267115
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 77d56efd63d6a0841b595f12456baa808751706e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 175f168fdc384570ad99c86db9e0c185b7d6cf38
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295519"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569250"
 ---
 # <a name="convert-dao-code-to-ado"></a>Convertir le code DAO en code ADO
 

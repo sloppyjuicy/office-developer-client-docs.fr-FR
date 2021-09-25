@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249783(v=office.15)
 ms:contentKeyID: 48546919
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a2de9dc7d8dccfc4107dbd802c4013ac794acf61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f086a24ba7069aae02f3001fae9bfe7a360297a9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297080"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558988"
 ---
 # <a name="append-method-adox-procedures"></a>Append, méthode (Procédures ADOX)
 

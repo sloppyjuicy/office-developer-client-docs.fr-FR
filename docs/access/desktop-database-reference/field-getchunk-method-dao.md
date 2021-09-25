@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: c7eabceb1f7c130e349428aeb6b2dc079fe4319d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4219445f4e0369479023cffad59899b0aba95232
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293097"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59602639"
 ---
 # <a name="fieldgetchunk-method-dao"></a>Field.GetChunk, méthode (DAO)
 
@@ -26,11 +26,11 @@ Renvoie l’ensemble ou une partie du contenu d’un objet **Memo** ou **Long Bi
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* GetChunk(***Offset***, ***Bytes***)
+*.* GetChunk(***Offset** _, _*_Bytes_**)
 
 *expression* Variable qui représente un objet **Field**.
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

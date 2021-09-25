@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249158(v=office.15)
 ms:contentKeyID: 48544313
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: edc0d2d5c3036dcf591ff0a73849c66d43b7d975
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c670f1217b9b297d1077a4f2f478546d5b7e0cc6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289734"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59602233"
 ---
 # <a name="marshaloptions-property-example-vj"></a>MarshalOptions, propriété – Exemple (VJ++)
 

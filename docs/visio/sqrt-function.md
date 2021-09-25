@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251500
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 513302d3-3be8-882f-5258-95529098f95d
 description: Renvoie la racine carrée d’un nombre.
-ms.openlocfilehash: f9f31b9360248f002cac74dfb87ac3b292d34620
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c61d5df711ff49d54c0e7c2d43fd60d23bbf06b9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425021"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559436"
 ---
 # <a name="sqrt-function"></a>Fonction SQRT
 

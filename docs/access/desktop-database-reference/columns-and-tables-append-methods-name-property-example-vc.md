@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
 ms:contentKeyID: 48545322
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0fa9f903317e337b06afb4c2d0fdc1c3085df50d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 71869c219a9e8f4ebff0498ea54abae35f8e505b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296219"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569453"
 ---
 # <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Columns et Tables Append, méthodes - Exemple de propriété Name (VC++)
 

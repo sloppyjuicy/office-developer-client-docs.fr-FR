@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagReplyTemplateId
 api_type:
 - COM
 ms.assetid: 3645e7a6-ef30-494f-bf71-fa06f819bc0c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b8506a774c752622affba196f8f6bb03725a6251
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d42c9b9d3fd2f6f095eac57ceaf14d49b1feda5c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327810"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591576"
 ---
 # <a name="pidtagreplytemplateid-canonical-property"></a>Propriété canonique PidTagReplyTemplateId
 
@@ -32,7 +32,7 @@ Contient l’identificateur global unique (GUID) du modèle de réponse.
 |Propriétés associées :  <br/> |PR_REPLY_TEMPLATE_ID  <br/> |
 |Identificateur :  <br/> |0x65C2  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Règles  <br/> |
+|Domaine :  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

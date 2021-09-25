@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60115
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a27663a-9d37-2ac4-5856-edeb0880f16e
 description: Remplace une partie d’une chaîne de texte par une autre chaîne de texte.
-ms.openlocfilehash: fc12ab30ec9c509e2f126931bee837f518e96f3a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 88aeaff349e24d1b6a7e04470061e756acf6598e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346822"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559422"
 ---
 # <a name="substitute-function"></a>Fonction SUBSTITUTE
 

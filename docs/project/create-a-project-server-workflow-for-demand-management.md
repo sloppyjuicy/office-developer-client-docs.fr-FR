@@ -3,15 +3,15 @@ title: Création d’un flux de travail Project Server pour la gestion de la de
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0e4a3b3-d1df-454d-b74c-b980b0b456f6
 description: Cet article explique comment créer un flux de travail simple à l’aide de SharePoint Designer 2013.
-ms.openlocfilehash: bbefc5d30ccb508a24c32fe41e733e6e8187ecd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a4aa2dc748976b3f6f5710e3ab8e90c057e52702
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355519"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616221"
 ---
 # <a name="create-a-project-server-workflow-for-demand-management"></a>Création d’un flux de travail Project Server pour la gestion de la demande
 
@@ -105,17 +105,17 @@ Dans Project Web App, examinez les phases et étapes de flux de travail disponib
 
     **Figure 1. Modification du Project web Fields dans une PDP**
 
-    ![Modification du Project web Fields]dans un PDP Modification du Project Fields dans une(media/pj15_CreateWorkflowSPD_EditPDP.gif "PDP")
+    ![Modification du Project web Fields dans une PDP](media/pj15_CreateWorkflowSPD_EditPDP.gif "Modification du Project web Fields dans une PDP")
 
     **Figure 2. La PDP modifiée inclut le champ personnalisé Coût de la proposition**
 
-    ![La PDP modifiée inclut le champ Coût de la proposition]La PDP modifiée(media/pj15_CreateWorkflowSPD_EditedPDP.gif "inclut le champ Coût de la proposition")
+    ![La PDP modifiée inclut le champ de coût de la proposition](media/pj15_CreateWorkflowSPD_EditedPDP.gif "La PDP modifiée inclut le champ de coût de la proposition")
   
 4. **Étapes du flux de travail** Créez les étapes requises pour chaque phase du flux de travail. Sur la page Paramètres du serveur, sélectionnez **Étapes du flux de travail**, puis **NOUVELLE ÉTAPE DE FLUX DE TRAVAIL**. La figure 3 montre une partie de la page Ajouter une étape de flux de travail.
     
     **Figure 3. Ajout d’une étape de flux de travail dans Project Web App**
 
-    ![Ajout d’une étape de flux de travail](media/pj15_CreateWorkflowSPD_AddWorkflowStage.gif "Project Web App’ajout d’une étape de flux de travail dans Project Web App")
+    ![Ajout d’une étape de flux de travail dans Project Web App](media/pj15_CreateWorkflowSPD_AddWorkflowStage.gif "Ajout d’une étape de flux de travail dans Project Web App")
   
     L’exemple du flux de travail de branchement utilise les quatre étapes présentées dans le tableau 1. Dans la section **Paramètres supplémentaires pour la page de détails de projet visible** de la page Ajouter une étape de flux de travail (non illustrée dans la figure 3), les valeurs sont facultatives ; elles fournissent plus d’informations sur la page État du flux de travail. Par exemple, étant donné que la PDP Détails de la proposition initiale nécessite une entrée de l’utilisateur, vous pouvez cocher La page de détails Project nécessite une **attention** particulière, puis ajouter une description spécifique telle que Définir le nom et le coût du projet pour cette PDP.
     
@@ -132,7 +132,7 @@ Dans Project Web App, examinez les phases et étapes de flux de travail disponib
    
     **Figure 4. Liste des étapes du flux de travail dans Project Web App**
 
-    ![Liste des étapes du flux de travail dans Project Web App]liste des(media/pj15_CreateWorkflowSPD_WorkflowStages.gif "étapes") de flux de travail dans Project Web App
+    ![Liste des étapes du flux de travail dans Project Web App](media/pj15_CreateWorkflowSPD_WorkflowStages.gif "Liste des étapes du flux de travail dans Project Web App")
   
 #### <a name="3-construct-the-workflow-in-the-text-based-designer"></a>3. Construisez le flux de travail dans Text-Based Designer.
 
@@ -142,13 +142,13 @@ Dans SharePoint Designer 2013, construisez le flux de travail à l’aide d’in
     
     **Figure 5. Création d’un flux de travail de site Project Server**
 
-    ![Création d’un flux Project de site Serveur de création]d’un flux de travail de site Project(media/pj15_CreateWorkflowSPD_CreateSiteWorkflow.gif "Server")
+    ![Création d’un flux de travail de site Project Server](media/pj15_CreateWorkflowSPD_CreateSiteWorkflow.gif "Création d’un flux de travail de site Project Server")
   
 2. Sélectionnez l’onglet **Flux de travail de branchement**. Ensuite, sur l’onglet **FLUX DE TRAVAIL** du ruban, dans le groupe **Gérer**, dans la liste déroulante **Vues**, choisissez **Concepteur texte**. Pour afficher la vue avec la ligne d’insertion orange clignotante (voir la figure 6), cliquez dans la vue.
     
     **Figure 6. Utilisation de la vue du Concepteur texte pour le flux de travail**
 
-    ![Utilisation de la vue Text-Based Designer à](media/pj15_CreateWorkflowSPD_TextBasedDesigner.gif "l’aide de la vue Text-Based Designer")
+    ![Utilisation du Concepteur textuel](media/pj15_CreateWorkflowSPD_TextBasedDesigner.gif "Utilisation du Concepteur textuel")
   
 3. Dans la vue du **Concepteur texte**, ajoutez les étapes utilisées par le flux de travail. Sur l’onglet **FLUX DE TRAVAIL** du ruban, dans le groupe **Insérer**, dans la liste déroulante **Étape** sous **Créer**, choisissez **Détails de la proposition initiale**.
     
@@ -156,7 +156,7 @@ Dans SharePoint Designer 2013, construisez le flux de travail à l’aide d’in
     
     **Figure 7. Ajout d’une étape à un flux de travail dans SharePoint Designer**
 
-    ![Ajout d’une étape à un flux de travail dans SPD](media/pj15_CreateWorkflowSPD_AddStageInSPD.gif "Ajout d’une étape à un flux de travail dans SPD")
+    ![Ajout d’une étape à un flux de travail dans SPD](media/pj15_CreateWorkflowSPD_AddStageInSPD.gif "Ajout d’une étape à un flux de travail dans SPD")
   
 4. Ajoutez les étapes et la logique du flux de travail pour chaque étape : 
     
@@ -168,7 +168,7 @@ Dans SharePoint Designer 2013, construisez le flux de travail à l’aide d’in
     
        **Figure 8. Définition d’une valeur de choix dans le flux de travail**
 
-       ![Définition d’une valeur de recherche dans le flux de travail]Définition(media/pj15_CreateWorkflowSPD_DefineWorkflowLookup.gif "d’une valeur de recherche dans le flux de travail")
+       ![Définition d’une valeur de choix dans le flux de travail](media/pj15_CreateWorkflowSPD_DefineWorkflowLookup.gif "Définition d’une valeur de choix dans le flux de travail")
   
     4. Complétez l’instruction de sorte qu’elle affiche les informations suivantes : `If` **si Project Data:Proposal Cost est supérieur à 25 000**
     
@@ -181,7 +181,7 @@ Dans SharePoint Designer 2013, construisez le flux de travail à l’aide d’in
     
        **Figure 9. Logique utilisée pour l’étape Détails de la proposition initiale**
 
-       ![Logique terminée pour la logique de détails de la proposition initiale]Terminée pour les(media/pj15_CreateWorkflowSPD_InitialStageLogic.gif "détails de la proposition initiale")
+       ![Logique utilisée pour les détails de proposition initiale](media/pj15_CreateWorkflowSPD_InitialStageLogic.gif "Logique utilisée pour les détails de proposition initiale")
   
     6. Pour l’étape **Refus automatique**,  laissez la première section vide, sauf si vous voulez suspendre le flux de travail et afficher certaines données dans une PDP. La section **Transition vers la phase** doit contenir une transition ; étant donné qu’il n’existe aucune étape après un refus, saisissez Accéder à Fin du flux de travail dans l’instruction. 
     
@@ -193,7 +193,7 @@ Dans SharePoint Designer 2013, construisez le flux de travail à l’aide d’in
     
     **Figure 10. Rechercher des erreurs dans le flux de travail dans SharePoint Designer**
 
-    ![Vérification des erreurs dans le flux de travail]Vérification des(media/pj15_CreateWorkflowSPD_SPDCheckForErrors.gif "erreurs dans le flux de travail")
+    ![Contrôle des erreurs dans le flux de travail](media/pj15_CreateWorkflowSPD_SPDCheckForErrors.gif "Contrôle des erreurs dans le flux de travail")
   
 6. (Facultatif) Dans le groupe **Gérer** du ruban, dans le menu déroulant **Vues**, choisissez **Concepteur visuel**. Dans la figure 11, un zoom arrière à 50 % est appliqué.
     
@@ -201,7 +201,7 @@ Dans SharePoint Designer 2013, construisez le flux de travail à l’aide d’in
     
     **Figure 11. Utilisation du Concepteur visuel pour un flux de travail**
 
-    ![Utilisation de l Visio de conception du flux]de travail à l’aide de(media/pj15_CreateWorkflowSPD_SwitchView.gif "l Visio de conception du flux de travail")
+    ![Utilisation du mode Création Visio pour le flux de travail](media/pj15_CreateWorkflowSPD_SwitchView.gif "Utilisation du mode Création Visio pour le flux de travail")
   
     Lorsque le flux de travail est dans l’affichage concepteur visuel, pour enregistrer le flux de travail dans un fichier Visio 2013 (.vsdx) en tant que sauvegarde ou pour une utilisation ultérieure, vous pouvez choisir d’exporter **vers Visio**.
     
@@ -215,7 +215,7 @@ Dans Project Web App, créez un EPT pour le flux de travail, puis testez le flux
     
     **Figure 12. Ajout d’un type de projet d’entreprise pour le flux de travail**
 
-    ![Ajout d’un EPT pour le flux de travail]Ajout(media/pj15_CreateWorkflowSPD_EPTs.gif "d’un ept pour le flux de travail")
+    ![Ajout d’un type de projet d’entreprise pour le flux de travail](media/pj15_CreateWorkflowSPD_EPTs.gif "Ajout d’un type de projet d’entreprise pour le flux de travail")
   
     > [!NOTE]
     > Lorsque la valeur **Oui** apparaît dans la colonne **Projet de liste de tâches SharePoint** du tableau des types de projet d’entreprise, cela fait référence à un EPT qui crée une liste de tâches SharePoint, où la liste de tâches est visible dans Project Web App, mais où SharePoint conserve le contrôle du projet. Pour plus d’informations sur la gestion de projets en tant que listes de tâches SharePoint, voir [Project Server 2013 architecture](project-server-2013-architecture.md). 
@@ -224,13 +224,13 @@ Dans Project Web App, créez un EPT pour le flux de travail, puis testez le flux
     
     **Figure 13. Création d’un projet grâce à l’EPT Flux de travail de branchement de test**
 
-    ![Création d’un projet avec l’EPT](media/pj15_CreateWorkflowSPD_NewProject.gif "Création d’un projet avec l’EPT")
+    ![Création d’un projet avec le type de projet d’entreprise](media/pj15_CreateWorkflowSPD_NewProject.gif "Création d’un projet avec le type de projet d’entreprise")
   
 3. Lorsque le flux de travail affiche la PDP **Informations sur le projet**, ajoutez des données aux champs du projet. Par exemple, entrez une **valeur de** coût de proposition de 30 000. La version américaine de Project Server modifie le champ pour afficher 30 000 $ (voir la figure 14).
     
     **Figure 14. Utilisation de la PDP Informations sur le projet modifiée**
 
-    ![Utilisation de la PDP]Informations Project modifiée à l’aide de la(media/pj15_CreateWorkflowSPD_NewProjectStage1.gif "PDP") Informations Project modifiée
+    ![Utilisation de la PDP des informations de projet modifiée](media/pj15_CreateWorkflowSPD_NewProjectStage1.gif "Utilisation de la PDP des informations de projet modifiée")
   
 4. Sur l’onglet **PROJET** du ruban, dans le groupe **Projet**, choisissez **Enregistrer**. Project Server ajoute les données de la PDP dans le projet, puis affiche la page État du flux de travail (voir la figure 15). Pour voir la description complète de l’étape Détails de la proposition initiale dans le diagramme de l’état du flux de travail, placez le pointeur sur l’étape dans le diagramme de visualisation du flux de travail.
     
@@ -238,7 +238,7 @@ Dans Project Web App, créez un EPT pour le flux de travail, puis testez le flux
     
     **Figure 15.Utilisation de la page État du flux de travail dans l’étape Détails de la proposition initiale**
 
-    ![Page d’état du flux de travail après la]première page d’état du flux de travail après la première(media/pj15_CreateWorkflowSPD_NewProjectStage1Status.gif "étape")
+    ![Page d’état du flux de travail après la première phase](media/pj15_CreateWorkflowSPD_NewProjectStage1Status.gif "Page d’état du flux de travail après la première phase")
   
     Le diagramme de visualisation du flux de travail affiche l’étape actuelle en vert. Dans la phase **Créer**, l’étape Détails de la proposition initiale est l’étape en cours. 
     
@@ -251,19 +251,19 @@ Dans Project Web App, créez un EPT pour le flux de travail, puis testez le flux
     
     **Figure 16. Le flux de travail est terminé avec l’étape Refus automatique**
 
-    ![Le flux de travail est terminé en refus automatique Le]flux de travail est terminé dans Refus(media/pj15_CreateWorkflowSPD_AutomatedRejectionCompleted.gif "automatique")
+    ![Le flux de travail est terminé avec Refus automatique](media/pj15_CreateWorkflowSPD_AutomatedRejectionCompleted.gif "Le flux de travail est terminé avec Refus automatique")
   
     La figure 17 montre un autre test avec une proposition de projet nommée **Test 2 - Branchement,** où l’étape Project détails est en cours dans la phase De création. La phase Gérer apparaît en bleu clair, ce qui indique que la phase n’est pas encore active.
     
     **Figure 17. Le flux de travail passe à l’étape Détails du projet si le coût est inférieur à 25 000 $**
 
-    ![État du flux de travail à Project étape Détails]Statut du flux de travail(media/pj15_CreateWorkflowSPD_ProjectDetailsStage.gif "à l Project étape Détails")
+    ![État du flux de travail à l’étape des détails de projet](media/pj15_CreateWorkflowSPD_ProjectDetailsStage.gif "État du flux de travail à l’étape des détails de projet")
   
 6. Si vous passez à l’étape Détails du projet, vous n’avez pas de données supplémentaires à ajouter dans la page par défaut. Cliquez à nouveau sur **Envoyer** pour passer à l’étape Exécution (voir la figure 18). 
     
     **Figure 18. Le flux de travail est prêt à être géré dans l’étape Exécution**
 
-    ![État du flux de travail dans l’état du flux de travail de](media/pj15_CreateWorkflowSPD_ExecutionStage.gif "la") phase Exécution
+    ![État du flux de travail dans la phase d’exécution](media/pj15_CreateWorkflowSPD_ExecutionStage.gif "État du flux de travail dans la phase d’exécution")
   
 Dans l’étape Détails du projet, le flux de travail n’attend pas un événement d’envoi. Si la PDP Détails du projet comprend des champs obligatoires supplémentaires, Project Server attend que vous ajoutiez des données dans les champs avant de passer à l’étape Exécution. Comme défini dans le flux de travail de branchement, l’étape Exécution n’attend pas non plus d’événement d’envoi. Dans l’étape Exécution, vous pouvez modifier le projet en tant que responsable de projet ou choisir **Fermer** dans l’onglet **PROJET** du ruban. Lorsque vous choisissez **Fermer**, vous pouvez archiver le projet et le modifier plus tard, ou laisser le projet extrait.
 
@@ -302,7 +302,7 @@ Vous pouvez également créer ou modifier le flux de travail dans Visio 2013 et 
     
       **Figure 19. Connexion d’une forme d’étape à une forme de condition dans un diagramme de flux de travail Visio**
 
-      ![Création d’un diagramme de flux]de travail Visio(media/pj15_CreateWorkflowSPD_NewVisioWorkflow.gif "création d’un diagramme") de flux de travail dans Visio
+      ![Création d’un diagramme de flux de travail dans Visio](media/pj15_CreateWorkflowSPD_NewVisioWorkflow.gif "Création d’un diagramme de flux de travail dans Visio")
   
    4. Faites glisser deux autres formes d’étape à droite de la forme de condition. Les formes sont nommées **Étape 2** et **Étape 3**.
     
@@ -314,7 +314,7 @@ Vous pouvez également créer ou modifier le flux de travail dans Visio 2013 et 
     
       **Figure 20. Réalisation du flux de travail dans Visio**
 
-      ![Fin du flux de travail dans Visio]fin du flux de travail dans(media/pj15_CreateWorkflowSPD_CompletedVisioWorkflow.gif "Visio")
+      ![Fin du flux de travail dans Visio](media/pj15_CreateWorkflowSPD_CompletedVisioWorkflow.gif "Fin du flux de travail dans Visio")
   
    8. Dans l’onglet **PROCESSUS** du ruban, dans le groupe **Validation de diagramme**, sélectionnez **Vérifier le diagramme**. Corrigez les erreurs éventuelles, puis enregistrez le dessin. Par exemple, nommez le fichier  Flux de travail de test à partir de Visio.vsdx.
     
@@ -334,7 +334,7 @@ Vous pouvez également créer ou modifier le flux de travail dans Visio 2013 et 
     
    **Figure 21. Définition des propriétés de l’étape dans SharePoint Designer**
 
-   ![Définition des propriétés dans les propriétés d’un paramètre de flux]de travail(media/pj15_CreateWorkflowSPD_ImportFromVisio1.gif "importé dans un flux de travail importé")
+   ![Définition des propriétés dans un flux de travail importé](media/pj15_CreateWorkflowSPD_ImportFromVisio1.gif "Définition des propriétés dans un flux de travail importé")
   
    Pour la deuxième étape, définissez la propriété **Phase de projet** sur **Refus automatique**. Pour la troisième étape, définissez la propriété **Phase de projet** sur **Exécution**.
     
@@ -346,7 +346,7 @@ Vous pouvez également créer ou modifier le flux de travail dans Visio 2013 et 
     
    **Figure 22. Affichage du flux de travail importé dans le Concepteur texte**
 
-   ![Affichage du flux de travail importé Affichage]du flux de travail(media/pj15_CreateWorkflowSPD_WorkflowFromVisio.gif "importé")
+   ![Affichage du flux de travail importé](media/pj15_CreateWorkflowSPD_WorkflowFromVisio.gif "Affichage du flux de travail importé")
   
 10. Publiez le flux de travail. Si vous enregistrez le flux de travail, mais que vous ne le publiez pas, il ne sera pas disponible lorsque vous créerez un type de projet d’entreprise.
     

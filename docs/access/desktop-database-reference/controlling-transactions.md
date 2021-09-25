@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248994(v=office.15)
 ms:contentKeyID: 48543685
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ced1ae7b32d25fbae53c670959a4a6c77bcea0be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 78380cda81e7260eee609e01bed0f88ce04f96c7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295547"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59581608"
 ---
 # <a name="controlling-transactions"></a>Contrôle des transactions
 

@@ -3,17 +3,17 @@ title: Rôle du fournisseur de transport dans le sous-système MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7659369a-0952-4f5a-a86b-91958c4c1a3f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7cadb57706e3feec7ed98dd5e4e8d75967036fef
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0cfc1fd71e70fbc3555e63551cb3e48c708b98bc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424055"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609277"
 ---
 # <a name="transport-provider-role-in-the-mapi-subsystem"></a>Rôle du fournisseur de transport dans le sous-système MAPI
   
@@ -21,13 +21,13 @@ ms.locfileid: "33424055"
   
 Les bibliothèques de liens dynamiques (DLL) du fournisseur de transport fournissent l’interface entre lepooler MAPI et la partie d’un système de messagerie responsable de l’envoi et de la réception des messages. Lepooler MAPI et le fournisseur de transport fonctionnent ensemble pour gérer les responsabilités d’envoi ou de réception d’un message. Lepooler MAPI charge la DLL du fournisseur de transport lorsqu’elle est utilisée pour la première fois et la libère lorsqu’elle n’est plus nécessaire. Plusieurs fournisseurs de transport peuvent être installés sur le même système, mais MAPI fournit le seul spooler requis.
   
-En règle générale, les applications clientes ne communiquent pas directement avec le fournisseur de transport. Au lieu de cela, les clients envoient des messages via un fournisseur de magasins et lepooler MAPI envoie des messages sortants au fournisseur de transport approprié et envoie les messages entrants à la boutique de messages appropriée. Lepooler MAPI effectue son travail et effectue ses appels aux fournisseurs de transport lorsque les applications au premier plan sont inactives. Après avoir éventuellement affiché des boîtes de dialogue lorsque le fournisseur de transport est connecté pour la première fois, les fournisseurs de transport fonctionnent en arrière-plan, sauf si le client les appelle pour vider les files d’attente d’envoi et de réception. 
+En règle générale, les applications clientes ne communiquent pas directement avec le fournisseur de transport. Au lieu de cela, les clients envoient des messages par le biais d’un fournisseur de magasins et lepooler MAPI envoie les messages sortants au fournisseur de transport approprié et envoie les messages entrants à la magasin de messages appropriée. Lepooler MAPI effectue son travail et effectue ses appels aux fournisseurs de transport lorsque les applications au premier plan sont inactives. Après avoir éventuellement affiché des boîtes de dialogue lorsque le fournisseur de transport est connecté pour la première fois, les fournisseurs de transport fonctionnent en arrière-plan, sauf si le client les appelle pour vider les files d’attente d’envoi et de réception. 
   
 Les fournisseurs de transport ont les responsabilités suivantes dans un système de messagerie MAPI :
   
-- Enregistrez les types d’adresses qu’ils peuvent accepter avec lepooler MAPI afin que lepooler MAPI puisse envoyer des messages au fournisseur de transport approprié en fonction de l’adresse de destination des messages. Un fournisseur de transport peut inscrire plusieurs types d’adresses. Les fournisseurs de transport peuvent également inscrire des adresses de destinataires spécifiques auprès dupooler MAPI. Les messages adressés à l’une de ces adresses sont envoyés au fournisseur de transport qui a enregistré l’adresse auprès dupooler MAPI. Pour plus d’informations, voir Fournisseur de transport et Modèle opérationnel [dupooler MAPI.](transport-provider-and-mapi-spooler-operational-model.md)
+- Inscrivez les types d’adresses qu’ils peuvent accepter avec lepooler MAPI afin que lepooler MAPI puisse envoyer des messages au fournisseur de transport approprié en fonction de l’adresse de destination des messages. Un fournisseur de transport peut inscrire plusieurs types d’adresses. Les fournisseurs de transport peuvent également inscrire des adresses de destinataires spécifiques auprès dupooler MAPI. Les messages adressés à l’une de ces adresses sont envoyés au fournisseur de transport qui a enregistré l’adresse auprès dupooler MAPI. Pour plus d’informations, voir Fournisseur de transport et Modèle opérationnel [dupooler MAPI.](transport-provider-and-mapi-spooler-operational-model.md)
     
-- Remettre les messages entrants aupooler MAPI. Selon la nature du système de messagerie, un fournisseur de transport peut soit avertir directement lepooler MAPI lorsqu’un nouveau message arrive, soit demander aupooler MAPI d’avertir régulièrement le fournisseur de transport pour vérifier la recherche de nouveaux messages.
+- Remettre les messages entrants aupooler MAPI. Selon la nature du système de messagerie, un fournisseur de transport peut avertir directement lepooler MAPI à l’arrivée d’un nouveau message ou demander aupooler MAPI d’informer régulièrement le fournisseur de transport de la recherche de nouveaux messages.
     
 - Convertissez les propriétés de message MAPI en propriétés de message natives dans le système de messagerie. Par exemple, le fournisseur de transport peut avoir à convertir les adresses de l’expéditeur et du destinataire dans un message sortant en un formulaire acceptable pour le système de messagerie. Certains systèmes de messagerie ne sont pas en charge toutes les propriétés de message MAPI. Pour plus d’informations sur la conservation des propriétés de message MAPI lors de la livraison de messages à un système de messagerie, voir [Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md).
     
@@ -55,6 +55,6 @@ L’illustration suivante illustre le rôle d’un fournisseur de transport par 
   
 **Rôle du fournisseur de transport dans un système de messagerie**
   
-![Rôle du fournisseur de transport dans un rôle de fournisseur]de transport de système de messagerie dans un système de(media/xp01.gif "messagerie")
+![Rôle du fournisseur de transport dans un système de messagerie](media/xp01.gif "Rôle du fournisseur de transport dans un système de messagerie")
   
 

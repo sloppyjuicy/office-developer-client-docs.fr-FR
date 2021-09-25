@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1100
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 495b2aec-e197-75eb-9974-e7c92d26546f
 description: Indique une valeur pour la cellule définie par l'utilisateur correspondante.
-ms.openlocfilehash: 137d22430829f96a9c6ad69a73a6b44e964d5f4f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 00a96f98682ace7c66ddba8c7aa7ac3a284a224c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422987"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559345"
 ---
 # <a name="value-cell-user-defined-cells-section"></a>Value, cellule (section User-Defined Cells)
 

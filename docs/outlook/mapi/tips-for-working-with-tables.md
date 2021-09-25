@@ -3,17 +3,17 @@ title: Astuces pour l’working with Tables
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8f310c6331df941d3093b276b6dec47f740412e1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cc66fd24da4e98c428453b82a03ed65844af5aaa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439736"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609340"
 ---
 # <a name="tips-for-working-with-tables"></a>Astuces pour l’working with Tables
 

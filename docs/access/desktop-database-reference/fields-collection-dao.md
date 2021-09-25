@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193530(v=office.15)
 ms:contentKeyID: 48544702
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: d87d1535afeaf0740627a7af3852b1929a0e6d50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: d1d9afb32230969939a0883c8d473ba410813afc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292530"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569040"
 ---
 # <a name="fields-collection-dao"></a>Collection de champs (DAO)
 
@@ -25,13 +25,13 @@ Une collection de **champs** contient tous les objets **champ** stockés d’un 
 
 Les collections **Fields** des objets **Index**, **QueryDef**, **Relation** et **TableDef** contiennent les spécifications pour les champs que représentent ces objets. La collection **Fields** d'un objet **Recordset** représente les objets **Field** sur une ligne de données ou dans un enregistrement. Vous utilisez les objets **Field** dans un objet **Recordset** pour lire et définir des valeurs pour les champs dans l'enregistrement actuel de l'objet **Recordset**.
 
-Pour faire référence à un objet **Field** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**Name, utilisez l'une formes de syntaxe suivantes :
+Pour faire référence à un objet **Field** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name** Name, utilisez l'une formes de syntaxe suivantes :
 
-**Champs**(0)
+**Fields**(0)
 
-**Champs**(« nom »)
+**Fields**("nom")
 
-**Champs**\!\[nom\]
+**Fields**\!\[nom\]
 
 Avec les mêmes formes de syntaxe, vous pouvez également renvoyer à la propriété **Value** d'un objet **Field** que vous créez et ajoutez à une collection **Fields**. Le contexte de la référence de champ détermine si vous faites référence à l'objet **Field** ou à la propriété **Value** de l'objet **Field**.
 

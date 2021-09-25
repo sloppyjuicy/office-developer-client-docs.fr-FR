@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248909(v=office.15)
 ms:contentKeyID: 48543370
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 845ab6574fa7bc2e5de93d7adbc073fd9f481342
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 6ec3f4a7b4e54cff3957056b6610d8a7253c8a8f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282484"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603087"
 ---
 # <a name="addnew-method-example-vc"></a>AddNew, méthode – Exemple (VC++)
 

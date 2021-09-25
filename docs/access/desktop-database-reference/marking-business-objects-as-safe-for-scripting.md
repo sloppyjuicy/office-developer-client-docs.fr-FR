@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249630(v=office.15)
 ms:contentKeyID: 48546295
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: fe5d331b7f3ab4685cb930323076d111a25ec68e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 942864f1461cc99bd087204cd8c27fc478cb7600
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289776"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59602240"
 ---
 # <a name="marking-business-objects-as-safe-for-scripting"></a>Marquage d’objets métiers comme fiables pour l’écriture de scripts
 
@@ -30,13 +30,13 @@ Categories\{7DD95801-9882-11CF-9FA9-00AA006C42C4}]
 Categories\{7DD95802-9882-11CF-9FA9-00AA006C42C4}] 
 ```
 
-où \< *MyActiveXGUID* est le numéro \> GUID hexadécimal de votre objet métier. Save it and merge it into your registry by using the Registry Editor or double-clicking the .reg file in Windows Explorer.
+où \<*MyActiveXGUID*\> se trouve le numéro DE GUID hexadécimal de votre objet métier. Save it and merge it into your registry by using the Registry Editor or double-clicking the .reg file in Windows Explorer.
 
 Les objets métier créés dans Microsoft Visual Basic peuvent être automatiquement marqués comme « sécurisés pour les scripts » à l’aide de l’Assistant Package et Déploiement. Lorsque l'Assistant vous demande de spécifier les paramètres de sécurité, sélectionnez **Initialisation sécurisée** et **Scripts sécurisés**.
 
 En dernier lieu, l'Assistant Configuration de l'application crée un fichier .htm et un fichier .cab. Vous pouvez copier ces deux fichiers sur l'ordinateur cible et double-cliquer sur le fichier .htm pour charger la page et enregistrer correctement le serveur.
 
-Étant donné que l’objet métier sera installé dans le répertoire Windows System32 Occache par défaut, déplacez-le dans le répertoire Windows System32 et modifiez la clé de Registre \\ \\ \\ **\_ HKEY CLASSES \_ ROOT \\ CLSID \\** \< *MyActiveXGUID* \> \\ **InprocServer32** pour qu’elle corresponde au chemin d’accès correct.
+Étant donné que l’objet métier sera installé dans le répertoire Windows System32 Occache par défaut, déplacez-le dans le répertoire Windows System32 et modifiez la clé de Registre \\ \\ \\ **\_ HKEY CLASSES \_ ROOT \\ CLSID \\** \<*MyActiveXGUID*\> \\ **InprocServer32** pour qu’elle corresponde au chemin d’accès correct.
 
 
 > [!NOTE]

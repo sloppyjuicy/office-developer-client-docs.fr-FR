@@ -3,17 +3,17 @@ title: Propriétés de message de rapport requises
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 68b14538-332d-4bdb-9a5c-8bb27272e089
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 82e951a161445513a05ba78a06387d556fb8bc7d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8ed07bce381f1b2d95c2ac89d37070bd0aa13da7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416201"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609641"
 ---
 # <a name="required-report-message-properties"></a>Propriétés de message de rapport requises
 

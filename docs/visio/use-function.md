@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251510
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 410c4187-21f3-d959-750e-9dc6095fba9a
 description: Applique le nom appelé motif de trait, motif de remplissage ou fin de trait à la forme lorsqu’il est placé dans la cellule LinePattern, FillPattern, BeginArrow ou EndArrow.
-ms.openlocfilehash: ddd15c1c127fafa1a230545d544c74956f5c0262
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 411193444316617e09ee947f34cc4f6a7c49d99e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422823"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622653"
 ---
 # <a name="use-function"></a>Fonction USE
 

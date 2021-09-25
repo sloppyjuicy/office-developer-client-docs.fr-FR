@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
 ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3169b7eaab6ad290bfc385881f5de69edc80111f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 94d7fcdbbbe442bfd7218d70e20b7d306f3f2e01
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283281"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559289"
 ---
 # <a name="ado-methods"></a>Méthodes ADO
 
@@ -113,7 +113,7 @@ ms.locfileid: "32283281"
 <td><p>Exécute la requête, l'instruction SQL, la procédure stockée ou le texte propre au fournisseur spécifiés.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Chercher</a></p></td>
+<td><p><a href="find-method-ado.md">Find</a></p></td>
 <td><p>Recherche, dans un objet <strong>Recordset </strong>, la ligne qui répond aux critères spécifiés.</p></td>
 </tr>
 <tr class="even">
@@ -177,7 +177,7 @@ ms.locfileid: "32283281"
 <td><p>Obtient du fournisseur les informations du schéma de base de données.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="read-method-ado.md">Lire</a></p></td>
+<td><p><a href="read-method-ado.md">Read</a></p></td>
 <td><p>Lit un nombre spécifique d'octets dans un objet <strong>Stream</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -225,7 +225,7 @@ ms.locfileid: "32283281"
 <td><p>Détermine si un objet <strong>Recordset</strong> spécifique prend en charge un type particulier de fonctionnalité.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Mettre à jour</a></p></td>
+<td><p><a href="update-method-ado.md">Mise à jour</a></p></td>
 <td><p>Enregistre les modifications que vous avez apportées à la ligne active d'un objet <strong>Recordset</strong> ou à la collection <strong>Fields</strong> d'un objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">

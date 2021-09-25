@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
 ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: d5051a9842645ac8f93be26bf6309dd05da7ec24
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 20023a62d3f6604d29b8a10ebfb998ba5a530e8f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280300"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559149"
 ---
 # <a name="adox-objects"></a>Objets ADOX
 
@@ -35,7 +35,7 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="catalog-object-adox.md">Catalog</a></p></td>
+<td><p><a href="catalog-object-adox.md">Catalogue</a></p></td>
 <td><p>Contient les collections qui décrivent le catalogue de schémas d'une source de données.</p></td>
 </tr>
 <tr class="even">
@@ -43,7 +43,7 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 <td><p>Représente une colonne d'une table, d'un index ou d'une clé.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-object-adox.md">Groupe</a></p></td>
+<td><p><a href="group-object-adox.md">Group</a></p></td>
 <td><p>Représente un compte de groupe qui dispose d'autorisations d'accès dans une base de données sécurisée.</p></td>
 </tr>
 <tr class="even">
@@ -59,7 +59,7 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 <td><p>Représente une procédure stockée.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="table-object-adox.md">Tableau</a></p></td>
+<td><p><a href="table-object-adox.md">Table</a></p></td>
 <td><p>Représente une table de base de données, comprenant des colonnes, des index et des clés.</p></td>
 </tr>
 <tr class="even">

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
 ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a0efb40d1b5e4c5d675d8add7cdb7a05760578a9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d79c1abb2ce664945c57a147e5e29909420caf5b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283232"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559268"
 ---
 # <a name="ado-properties"></a>Propriétés ADO
 
@@ -27,7 +27,7 @@ ms.locfileid: "32283232"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propriété</th>
+<th>Property</th>
 <th>Description</th>
 </tr>
 <tr class="odd">
@@ -279,7 +279,7 @@ ms.locfileid: "32283232"
 <td><p>Indique l'état SQL d'un objet <strong>Error</strong> donné.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">État</a></p></td>
+<td><p><a href="state-property-ado.md">State</a></p></td>
 <td><p>Indique, pour tous les objets applicables, si l'état de l'objet est ouvert ou fermé. Indique, pour tous les objets applicables exécutant une méthode asynchrone, si l'objet présente actuellement un état de connexion, d'exécution ou d'extraction.</p></td>
 </tr>
 <tr class="even">

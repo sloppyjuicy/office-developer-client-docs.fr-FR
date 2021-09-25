@@ -1,22 +1,23 @@
 ---
 title: DBEngine.Idle, méthode (DAO)
 TOCTitle: Idle Method
+description: Idle, méthode
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
 ms:contentKeyID: 48547666
-ms.date: 09/18/2015
+ms.date: 09/14/2021
 mtps_version: v=office.15
 f1_keywords:
 - dao360.chm1052978
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 7a84e3cc4b35886a12b2e6b4cf92b7483fea293a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0c476e335bc14392ccac304108b9df3056fd7548
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294329"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59581461"
 ---
 # <a name="dbengineidle-method-dao"></a>DBEngine.Idle, méthode (DAO)
 
@@ -32,31 +33,9 @@ Suspend le traitement des données, ce qui permet au moteur de base de données 
 
 ## <a name="parameters"></a>Paramètres
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Nom</p></th>
-<th><p>Obligatoire/facultatif</p></th>
-<th><p>Type de données</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><em>Action</em></p></td>
-<td><p>Facultatif</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Spécifie l’action à effectuer. Il peut s’y trouver dans <strong><a href="idleenum-enumeration-dao.md">l’une des constantes IdleEnum.</a></strong></p></td>
-</tr>
-</tbody>
-</table>
-
+|**Nom**|**Obligatoire/facultatif**|**Type de données**|**Description**|
+|:----------|:----------|:----------|:----------|
+|*Action*|Facultatif|**Variant**|Spécifie l’action à effectuer.|
 
 ## <a name="remarks"></a>Remarques
 
@@ -123,4 +102,3 @@ Sub IdleOutput(rstTemp As Recordset, strTemp As String)
 End Sub 
  
 ```
-

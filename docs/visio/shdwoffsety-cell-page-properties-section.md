@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm930
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3f53a7d-7450-b2b0-b508-6044a87450d9
 description: Détermine, en unités de page, la distance du décalage vertical entre l'ombre d'une forme et la forme.
-ms.openlocfilehash: be7ec4cccd53cc9d74811e2e45122c8bc29497d3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 441b63f8b7fb335ce2d159b70e6086aba9a3c1bc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622878"
 ---
 # <a name="shdwoffsety-cell-page-properties-section"></a>ShdwOffsetY, cellule (section Page Properties)
 

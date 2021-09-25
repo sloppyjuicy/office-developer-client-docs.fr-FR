@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SCommentRestriction
 api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3f66f513cc16bc479dd24c53804d751a396141f4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dbc4de78db26d2e93d34feb5f5846c69a942ce5c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430608"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609431"
 ---
 # <a name="scommentrestriction"></a>SCommentRestriction
 
@@ -45,7 +45,7 @@ typedef struct _SCommentRestriction
 
  **cValues**
   
-> Nombre de valeurs de propriété dans le tableau pointé par **le membre lpProp.** 
+> Nombre de valeurs de propriété dans le tableau pointés par **le membre lpProp.** 
     
  **lpRes**
   
@@ -61,7 +61,7 @@ La structure **SCommentRestriction** associe un objet à un ensemble de proprié
   
 La structure **SCommentRestriction** peut être utilisée pour conserver des informations spécifiques à l’application avec une restriction lorsqu’elle est enregistrée sur le disque. Par exemple, un client qui sauvegarde le nom d’une propriété nommée utilisée dans une restriction de propriété peut le faire dans une structure **SCommentRestriction.** L’enregistrement d’un nom de propriété n’est pas possible dans une restriction de propriété, car la structure [SPropertyRestriction](spropertyrestriction.md) associée contient uniquement la balise de propriété. 
   
-Pour plus d’informations sur la structure et les restrictions **SCommentRestriction** en général, voir [à propos des restrictions](about-restrictions.md). 
+Pour plus d’informations sur la structure et les **restrictions SCommentRestriction** en général, voir [à propos des restrictions](about-restrictions.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

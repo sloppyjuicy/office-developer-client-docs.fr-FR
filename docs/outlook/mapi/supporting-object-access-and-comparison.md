@@ -3,17 +3,17 @@ title: Prise en charge de l’accès et de la comparaison des objets
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2b62f92325fcebf8cd3f0c86d28d98e7ff511ee2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9383cd11a9183032d2aeaa7621b72592700e977c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429032"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609472"
 ---
 # <a name="supporting-object-access-and-comparison"></a>Prise en charge de l’accès et de la comparaison des objets
 

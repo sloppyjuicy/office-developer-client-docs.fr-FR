@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f87cd7a4-b9de-5fb1-20ec-90759c966bd9
 description: Contient des éléments pour créer plusieurs sauts entre une forme ou une page de dessin et une autre page de dessin, un autre fichier ou un site web.
-ms.openlocfilehash: d2147504455c4edb13681a20aab0ade6a100a532
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 46c3e76a7617ad5430e9b3a9b2770803de7e1b4d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540881"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623046"
 ---
 # <a name="row-element-hyperlink-section-visio-xml"></a>Row, élément (Hyperlink Section) (Visio XML)
 
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Contient des éléments pour créer plusieurs sauts entre une forme ou une page de dessin et une autre page de dessin, un autre fichier ou un site web.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-element-hyperlink-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Contient les informations d’un lien hypertexte unique associé à une forme  <br/> |
    

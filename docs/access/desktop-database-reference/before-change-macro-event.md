@@ -12,13 +12,13 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: a180068e805ae11883822ebf26f924e10d34bac5
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: medium
+ms.openlocfilehash: ddfbf772f1c7bf562fa6db1abdda88ac730c3db7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558785"
 ---
 # <a name="before-change-macro-event"></a>Before Change, événement de macro
 

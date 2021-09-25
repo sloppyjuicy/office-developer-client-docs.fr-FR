@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251825
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 871b8601-8117-bc51-17b9-6002234b4bfb
 description: "Une fonction effectue une tâche unique et bien précise. La plupart des fonctions acceptent plusieurs arguments comme entrées. Le type et le nombre d'arguments dépendent des fonctions, mais toutes utilisent la même syntaxe générale :"
-ms.openlocfilehash: 14995b0f7e3c1cc8346d47965038902b8ca4e8bb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 15056f0afc249e0eb6ce124b4acd4e98b159af48
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415977"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616172"
 ---
 # <a name="about-functions"></a>À propos des fonctions
 

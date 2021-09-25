@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1145
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9757dfb4-6d37-0517-17fe-7593ff12bbfe
 description: Représente la coordonnée x du point d’ancrage d’une poignée de contrôle dans les coordonnées locales.
-ms.openlocfilehash: 7aef1fe779ae9b862e88eccf0112eb8696377858
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9389d8e0974a5f89bfc4eee18b107dab5b0c25ca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432127"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559331"
 ---
 # <a name="x-dynamics-cell-controls-section"></a>X Dynamics, cellule (section Controls)
 

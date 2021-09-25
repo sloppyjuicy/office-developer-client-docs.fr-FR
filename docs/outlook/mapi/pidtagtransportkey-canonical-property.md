@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagTransportKey
 api_type:
 - COM
 ms.assetid: 131211b3-e6f9-4dd4-b6d9-b65361bff775
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 05db434ddabbd5f60fccdfeb1a2df8b3fcd0d96a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5a3dc75b0a17455c779f6d5c853d0871f4ab7de9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405547"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609725"
 ---
 # <a name="pidtagtransportkey-canonical-property"></a>Propriété canonique PidTagTransportKey
 

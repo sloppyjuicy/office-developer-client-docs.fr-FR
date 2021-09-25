@@ -3,17 +3,17 @@ title: Tables de profil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 15c07c05af82389bce697c300cd9b1d504e98736
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c1cbba4892f571f93aeaeed6d58e11f9b5757686
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424349"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591317"
 ---
 # <a name="profile-tables"></a>Tables de profil
 

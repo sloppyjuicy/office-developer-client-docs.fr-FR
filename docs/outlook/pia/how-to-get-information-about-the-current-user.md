@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184601(v=office.15)
 ms:contentKeyID: 55119840
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3b169eb1baadee92c08bcb68726ae4d18a9d79d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 1af7bf133090ccfeef6d16fea2dc644fd8f8efa4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349391"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616298"
 ---
 # <a name="get-information-about-the-current-user"></a>Obtention des informations de l’utilisateur actuel
 

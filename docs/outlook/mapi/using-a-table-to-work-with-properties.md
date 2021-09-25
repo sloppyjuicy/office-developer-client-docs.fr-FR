@@ -3,17 +3,17 @@ title: Utilisation d’un tableau pour travailler avec des propriétés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c18ed9f7-c053-4453-b0b1-06234cdfb025
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 59196f136c422be912ac2460cbbd25d8bc2e3330
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: abef70e2d5e9fc2eef1ae07f33552c84ecbe9e23
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439911"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609207"
 ---
 # <a name="using-a-table-to-work-with-properties"></a>Utilisation d’un tableau pour travailler avec des propriétés
 
@@ -25,7 +25,7 @@ De nombreuses propriétés sont disponibles à la fois à partir des objets qui 
   
 Appelez [IMAPITable::SetColumns](imapitable-setcolumns.md) pour inclure toutes les propriétés dont votre client a besoin et [IMAPITable::QueryRows](imapitable-queryrows.md) pour récupérer toutes les lignes du tableau. 
   
-Ces deux appels sont généralement suffisants pour récupérer suffisamment d’informations à afficher à un utilisateur et sont souvent suffisants pour tout traitement interne nécessaire, en appelant **OpenEntry** pour ouvrir l’objet inutile. 
+Ces deux appels sont généralement suffisants pour récupérer suffisamment d’informations à afficher à un utilisateur et sont souvent suffisants pour tout traitement interne nécessaire, en appelant **OpenEntry** pour ouvrir l’objet inutilement. 
   
 Il n’existe que deux exceptions :
   

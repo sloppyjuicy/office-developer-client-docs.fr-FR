@@ -3,15 +3,15 @@ title: Bibliothèque JavaScript et référence REST pour Project Server
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67b47b8b-d34b-4fad-af49-0c258c345ad2
 description: La bibliothèque JavaScript et la référence REST pour Project Server 2013 contiennent des informations sur le modèle objet JavaScript et l’interface REST que vous utilisez pour accéder aux fonctionnalités Project Server. Vous pouvez utiliser ces API pour développer des applications web entre navigateurs, des applications Project Professionnel 2013 et des applications pour les appareils non Windows qui accèdent à Project Server 2013 et Project Online.
-ms.openlocfilehash: fb58de1e3858a39f42cc9a643a7394cec191a462
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 54b7c17d2090fb15eec14d740aa835d6b167a1e6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358106"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616151"
 ---
 # <a name="javascript-library-and-rest-reference-for-project-server"></a>Bibliothèque JavaScript et référence REST pour Project Server
 

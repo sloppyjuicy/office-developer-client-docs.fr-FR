@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
 ms.date: 06/13/2019
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4e9f30401891452970fdbe80123fc373e26f26c6
-ms.sourcegitcommit: d0e1ce095a478d90411abb8c147eb9efe19ffa5f
+ms.localizationpriority: medium
+ms.openlocfilehash: 798e424f1ae7138d15b2bc7db26b17dfebc86d03
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34870856"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569376"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Comparaison de Microsoft Access SQL et d’ANSI SQL
 

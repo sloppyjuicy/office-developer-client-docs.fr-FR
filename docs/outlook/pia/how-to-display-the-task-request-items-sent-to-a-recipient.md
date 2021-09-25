@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184591(v=office.15)
 ms:contentKeyID: 55119930
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9ab5e830003fbfb64b44fc9e0d813c7a7c5163bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 753de29eb19ec73ebb7cf1fb8e407d02e55c1b41
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357420"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616333"
 ---
 # <a name="display-the-task-request-items-sent-to-a-recipient"></a>Afficher les éléments de demande de tâche envoyés à un destinataire
 

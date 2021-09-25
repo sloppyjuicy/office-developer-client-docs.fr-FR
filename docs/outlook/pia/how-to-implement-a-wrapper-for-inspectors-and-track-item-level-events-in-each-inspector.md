@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184620(v=office.15)
 ms:contentKeyID: 55119854
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a70aedf9a8803a2c990f07a77d4fc730f7263aae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7d311b6a119704d8ae0c9f23a2c35498f2c7d594
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320124"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616291"
 ---
 # <a name="implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector"></a>Mettre en œuvre un wrapper pour les inspecteurs et suivre les événements au niveau des éléments dans chaque inspecteur
 

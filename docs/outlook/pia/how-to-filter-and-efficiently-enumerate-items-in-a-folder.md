@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612664(v=office.15)
 ms:contentKeyID: 55119884
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e1d5b293f89c453886cafd9effc3fb5205f9696c
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: medium
+ms.openlocfilehash: 2874f352dad4527fade65a714b231cdae85cf1ec
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542596"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616312"
 ---
 # <a name="filter-and-efficiently-enumerate-items-in-a-folder"></a>Énumération efficace et filtrage des éléments d’un dossier
 

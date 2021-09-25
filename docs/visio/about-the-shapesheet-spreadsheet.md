@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251822
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f403890d-4a3a-bacc-53d7-1b9920b23639
 description: Chaque élément de Microsoft Visio (chaque document, page, style, forme, groupe, forme ou objet appartenant à un groupe, forme de base, objet provenant d’un autre programme, repère et point de repère) a une feuille de calcul ShapeSheet où sont stockées les informations qui le concernent. Cette feuille de calcul contient des informations telles que la hauteur, l’épaisseur, l’angle, la couleur et d’autres attributs qui déterminent l’aspect et le comportement de la forme.
-ms.openlocfilehash: 37b2ae10b1f511197af5ccf739de91edb74e7819
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6247aa8effe036493cc1bd59b0decf3c5cef8b10
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345160"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616158"
 ---
 # <a name="about-the-shapesheet-spreadsheet"></a>À propos de la feuille de calcul ShapeSheet
 

@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052922
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: e14cfde828322fee22b8a833bdbc7934900953a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 76ae2a6ad3a86591c6fe2333d327e105958ce1fb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294721"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569152"
 ---
 # <a name="databaserelations-property-dao"></a>Database.Relations, propriété (DAO)
 

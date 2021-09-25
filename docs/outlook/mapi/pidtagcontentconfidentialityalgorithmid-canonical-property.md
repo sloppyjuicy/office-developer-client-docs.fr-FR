@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContentConfidentialityAlgorithmId
 api_type:
 - HeaderDef
 ms.assetid: 18324a5d-aedc-4456-b2f0-6bc42b6ab882
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9a9a3d30b064bd739a2d12a165f2789d6874f866
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d71d97219ea0aec8040c712164cdef83dd5fad79
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436446"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616550"
 ---
 # <a name="pidtagcontentconfidentialityalgorithmid-canonical-property"></a>Propriété canonique PidTagContentConfidentialityAlgorithmId
 

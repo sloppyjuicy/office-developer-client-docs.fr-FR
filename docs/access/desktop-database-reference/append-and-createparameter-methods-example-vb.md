@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248846(v=office.15)
 ms:contentKeyID: 48543177
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 39b5c89c2e7b72ee4b4511727b83728c46b2ebe7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d4355ce469010dac1b1e59a47ecd9aafd8474648
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297136"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559051"
 ---
 # <a name="append-and-createparameter-methods-example-vb"></a>Append et CreateParameter, méthodes – Exemple (VB)
 

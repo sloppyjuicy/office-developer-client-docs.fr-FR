@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249857(v=office.15)
 ms:contentKeyID: 48547207
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e4549c8817361cfb5b9fa730ee37ca6a07edc98b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 452c6f91ed2899dbc7a31b67d02d9ff100dbf359
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297059"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558918"
 ---
 # <a name="appendix-a-providers"></a>Annexe A : Fournisseurs
 
@@ -43,7 +43,7 @@ Les détails concernant chaque fournisseur de données de Microsoft actuellement
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Domaine</p></th>
+<th><p>Zone</p></th>
 <th><p>Rubrique</p></th>
 </tr>
 </thead>

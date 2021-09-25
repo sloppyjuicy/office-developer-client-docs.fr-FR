@@ -3,15 +3,15 @@ title: Prise en main du modèle objet JavaScript Project Server 2013
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30dc3194-7480-4e7c-b731-4a171d652ee0
 description: Dans Project Server 2013, le modèle objet JavaScript peut être utilisé dans Project Online développement local, mobile et mobile. Cette rubrique fournit une brève vue d’ensemble du modèle objet JavaScript, puis explique comment créer une page d’application qui récupère et itérera les projets à l’aide du modèle objet JavaScript.
-ms.openlocfilehash: ec8a10e987276807dc4648bd8948b2285f76fd37
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5c667b736eb98829cbad538abdab1613b4cd7946
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360472"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616144"
 ---
 # <a name="getting-started-with-the-project-server-2013-javascript-object-model"></a>Prise en main du modèle objet JavaScript Project Server 2013
 
@@ -44,7 +44,7 @@ Pour développer la page d’application décrite dans cette rubrique, vous deve
 - SharePoint Server 2013
 - Project Server 2013 avec au moins un projet publié
 - Visual Studio 2012
-- Outils de développement Office pour Visual Studio 2012
+- Outils de développement Office pour Visual Studio 2012
     
 Vous devez également avoir les autorisations pour déployer l’extension sur SharePoint Server 2013 et récupérer des projets.
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContentCount
 api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7e9994da72bbc38a546f220e5ecf8768b80c6f1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 69c5ab6da80ae4f1e32dfe215338d0eb0872a499
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331954"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616536"
 ---
 # <a name="pidtagcontentcount-canonical-property"></a>Propriété canonique PidTagContentCount
 
@@ -32,7 +32,7 @@ Contient le nombre de messages dans un dossier, tel que calculé par la boutique
 |Propriétés associées :  <br/> |PR_CONTENT_COUNT  <br/> |
 |Identificateur :  <br/> |0x3602  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Dossier  <br/> |
+|Domaine :  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

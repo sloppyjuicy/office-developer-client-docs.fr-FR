@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSearch
 api_type:
 - COM
 ms.assetid: a1929ab8-4813-468b-9768-cdf7f848cfce
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e335caafd2a136724707d04b6679a2971697920f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 695e6c62cff797d62ee59063c1ce9aaba6027234
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411028"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591457"
 ---
 # <a name="pidtagsearch-canonical-property"></a>Propriété canonique PidTagSearch
 

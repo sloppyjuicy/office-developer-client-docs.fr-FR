@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSpoolerStatus
 api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 426d26cae147faf3f843ac547de9d205d766ac44
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 473f2745a6c3019db4994192fa4b138f1298b6cf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408676"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591408"
 ---
 # <a name="pidtagspoolerstatus-canonical-property"></a>Propriété canonique PidTagSpoolerStatus
 

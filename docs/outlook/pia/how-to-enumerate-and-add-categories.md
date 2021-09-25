@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424467(v=office.15)
 ms:contentKeyID: 55119829
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 488e00971adb1f2fa38555039478ac830d3c9f7a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 6a7dd47d288980e11a9571a799fdcb6b19b90621
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320411"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609067"
 ---
 # <a name="enumerate-and-add-categories"></a>Énumérer et ajouter des catégories
 
@@ -41,11 +41,11 @@ Pour exposer la fonctionnalité des catégories, le modèle objet Outlook fourni
 
 Ces propriétés renvoient une valeur **OLE\_COLOR** qui dépend de la propriété **Color** de l'objet **Category**.
 
-Les éléments Outlook sont affichés en fonction du nom de la catégorie. Chaque objet d'élément a une propriété **Categories** qui stocke une chaîne délimitée par des virgules qui représente les noms des catégories. Par exemple, pour l'objet [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)) , il convient d'utiliser la propriété **MailItem** [Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\)) . Cela vous permet d'ajouter une catégorie à l'élément, même si la catégorie ne figure pas dans la liste principale des catégories.
+Les éléments Outlook sont présentés en fonction du nom de la catégorie. Chaque élément objet possède une propriété **Category** qui stocke une chaîne séparée par des virgules représentant les noms de catégorie. (Par exemple, pour l'objet [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)), il convient d'utiliser la propriété **MailItem**[Categories](https://msdn.microsoft.com/library/bb646442\(v=office.15\))). Cela vous permet d’ajouter une catégorie à l’élément, même si la catégorie n’apparaît pas dans la liste principale de catégories.
 
 
 > [!NOTE]
-> [!REMARQUE] Si la propriété **Categories** d'un élément contient un nom de catégorie qui ne figure pas dans la collection **Categories** de l'objet **NameSpace**, le nom de catégorie associé à cet élément Outlook s'affiche, mais sans couleur associée. La propriété **Categories** sur un objet **Item** ne renvoie pas une collection **Categories**.
+> Si la propriété **Categories** d'un élément contient un nom de catégorie qui ne figure pas dans la collection **Categories** de l'objet **NameSpace**, le nom de catégorie associé à cet élément Outlook s'affiche, mais sans couleur associée. La propriété **Categories** sur un objet **Item** ne renvoie pas une collection **Categories**.
 
 Dans l'exemple de code suivant, la première procédure, EnumerateCategories, récupère la liste principale de catégories de l'utilisateur actuel, représentée par la collection **Categories**. Elle énumère ensuite les objets **Category** dans cette collection, puis écrit les propriétés **Name** et **CategoryID** des écouteurs de suivi de la collection [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx). La deuxième procédure, AddACategory, récupère la liste principale de catégories de l'utilisateur actuel et utilise la méthode CategoryExists pour vérifier si une catégorie nommée « ISV » existe dans la collection. Si aucune catégorie n'existe sous le nom « ISV », AddACategory ajoute une catégorie nommée « ISV » à la liste principale de catégories et lui affecte la couleur bleu foncé à l'aide de la méthode **Add** de la collection **Categories**. Il désigne également CTRL + F11 comme touche de raccourci pour la catégorie.
 

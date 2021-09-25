@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15)
 ms:contentKeyID: 48544157
 ms.date: 10/17/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 11e7cecc48ea8908b3784796416dfc3a4af95cdf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b44682a45a5285b5ea688f6200739c06d7a92ced
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280676"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569600"
 ---
 # <a name="activecommand-property-example-vc"></a>ActiveCommand, propriété – Exemple (VC++)
 

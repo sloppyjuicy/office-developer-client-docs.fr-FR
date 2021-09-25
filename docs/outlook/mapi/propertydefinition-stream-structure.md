@@ -3,15 +3,15 @@ title: Structure de flux PropertyDefinition
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 479339762867aa778bc8bc8baa1f21f6bc34b441
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a0bf7e617b58da57c784d43156b73be8c2d6d520
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438588"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609653"
 ---
 # <a name="propertydefinition-stream-structure"></a>Structure de flux PropertyDefinition
 

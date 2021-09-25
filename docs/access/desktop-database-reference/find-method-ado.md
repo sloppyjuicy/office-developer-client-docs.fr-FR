@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249776(v=office.15)
 ms:contentKeyID: 48546887
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 32f14e4aeed669e68d976559932306c3cb76c696
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f1ba79981e59ad18bad6be2046a020b32dd2101c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292411"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59602541"
 ---
 # <a name="find-method-ado"></a>Find, méthode (ADO)
 
@@ -37,7 +37,7 @@ Find (*Criteria*, *SkipRows*, *SearchDirection*, *Start*)
 
 Un seul nom de colonne peut être spécifié dans *Critères*. Cette méthode ne prend pas en charge les recherches dans plusieurs colonnes.
 
-L’opérateur  de comparaison dans Criteria peut être « ( supérieur à **\>** ), » **\<** (inférieur à), « = » (égal à), « = » (supérieur ou égal à), « = » (inférieur ou égal à), « ( non égal à) » (non égal à) ou « like » \> \< \< \> (correspondance de modèle).
+L’opérateur de comparaison dans *Criteria* peut être **\>** « (supérieur à), « ** = » (supérieur ou \<**" (less than), "=" (equal), "\> égal à), « (n’est pas égal) » ou « like » \<=" (less than or equal), "\<\> (correspondance de modèle).
 
 La valeur figurant dans *Critères* peut être une chaîne, un nombre à virgule flottante ou une date. Les valeurs de chaîne sont délimitées par des guillemets simples ou des signes « (di diété) ( par exemple, « \# state = 'WA' » ou « state = WA \# \# »). Les valeurs de date sont délimitées par des signes « (diété) » (par exemple, « date de début \# \_ \> \# 22/07/97 ») et peuvent contenir des heures, des minutes et des secondes pour indiquer des horodatés, mais ne doivent pas contenir de millisecondes, sinon des erreurs se \# produisent.
 

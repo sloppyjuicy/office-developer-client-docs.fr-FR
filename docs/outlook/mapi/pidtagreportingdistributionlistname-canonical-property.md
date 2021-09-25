@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagReportingDistributionListName
 api_type:
 - COM
 ms.assetid: d8b83072-15b9-4b26-875d-147cb6535b2c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 80f15e86d8655e7eae37002f5e322e45944234c4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3cbdda8d2484c38d926f7288059ba88d192f82b1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439890"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591569"
 ---
 # <a name="pidtagreportingdistributionlistname-canonical-property"></a>Propriété canonique PidTagReportingDistributionListName
 

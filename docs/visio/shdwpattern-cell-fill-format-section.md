@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm935
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eca73b80-9835-9011-1dce-187ccee92e76
 description: Détermine le motif de remplissage de l'ombre d'une forme.
-ms.openlocfilehash: c2591fbc9f208b1bf9c7d0c85e6de765cd9825f6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2216cc18149cf36be52b3c034d8c0634fa40e9b8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427611"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559543"
 ---
 # <a name="shdwpattern-cell-fill-format-section"></a>ShdwPattern, cellule (section Fill Format)
 

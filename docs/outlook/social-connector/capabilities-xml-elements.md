@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1951643d-e3ca-4d04-bc0c-10d9d0b35dad
 description: Les tableaux de cette rubrique décrivent les éléments enfants des fonctionnalités XML et sont regroupés par domaines qu’ils supportent.
-ms.openlocfilehash: 6816bbdcd24eceffc47d6b9d0835a90c7089c039
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f7ffd29afdbe1afda0d189a01d7978e2382b7b8e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281189"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616242"
 ---
 # <a name="capabilities-xml-elements"></a>Éléments XML des fonctionnalités
 
@@ -28,7 +28,7 @@ Le tableau suivant présente les éléments qui s’appliquent à toute forme de
 |**Élément**|**Description**|
 |:-----|:-----|
 |**doNotFollowPerson** <br/> |Indique si le fournisseur prend en charge l’appel de méthode [ISocialSession::UnFollowPerson.](isocialsession-unfollowperson.md)  <br/> **followPerson** et **doNotFollowPerson sont** des fonctionnalités indépendantes d’un fournisseur OSC. Un fournisseur OSC peut indiquer la possibilité d’ajouter une personne en tant qu’ami (définition de **followPerson** sur **true**) ou de supprimer une personne en tant qu’ami sur un compte de réseau social (en afouant **doNotFollowPerson** sur **true**). En règle générale, la possibilité de suivre n’implique pas de pouvoir arrêter le suivi. **followPerson** est une fonctionnalité qui ne doit pas être interprétée comme une action de suivi d’une personne spécifique ou de chaque personne sur le compte de réseau social. **followPerson** étant **vrai ne** signifie pas **que doNotFollowPerson** est **false**.  <br/> |
-|**followPerson** <br/> |Indique si le fournisseur prend en charge l’appel de méthode [ISocialSession::FollowPerson.](isocialsession-followperson.md) L’OSC vérifie **followPerson** si **cacheFriends** est vrai **(synchronisation** mise en cache des amis), **dynamicContactsLookup** est **true** (synchronisation à la demande des amis et non-amis) ou les deux **cacheFriends** et **dynamicContactsLookup** sont true (synchronisation hybride d’amis et non-amis). Si le fournisseur définit **followPerson** comme **true,** l’OSC affiche un badge réseau dans le volet Personnes pour les personnes que l’utilisateur suit, et active la commande **on \< NetworkName \>** dans le menu Ajouter **(+)** dans le volet Personnes. Si le fournisseur définit **followPerson** comme **false,** le badge réseau n’est pas affiché et la commande **sur \< NetworkName \>** est masquée.  <br/> |
+|**followPerson** <br/> |Indique si le fournisseur prend en charge l’appel de méthode [ISocialSession::FollowPerson.](isocialsession-followperson.md) L’OSC vérifie **followPerson** si **cacheFriends** est vrai **(synchronisation** mise en cache des amis), **dynamicContactsLookup** est **true** (synchronisation à la demande des amis et non-amis) ou les deux **cacheFriends** et **dynamicContactsLookup** sont true (synchronisation hybride d’amis et non-amis). Si le fournisseur définit **followPerson** comme **true,** l’OSC affiche un badge réseau dans le volet Personnes pour les personnes que l’utilisateur suit, et active la commande **sur \<NetworkName\>** dans le menu Ajouter **(+)** dans le volet Personnes. Si le fournisseur définit **followPerson** comme **false,** le badge réseau n’est pas affiché et la **commande \<NetworkName\> sur** est masquée.  <br/> |
 |**getFriends** <br/> |Indique si le fournisseur prend en charge l’appel de méthode [ISocialPerson::GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) ou [ISocialSession2::GetPeopleDetails.](isocialsession2-getpeopledetails.md) Si le fournisseur définit **getFriends** comme **vrai,** l’OSC utilise la valeur **cacheFriends** ou **dynamicContactsLookup** pour déterminer si le réseau social autorise le stockage d’amis en tant qu’éléments de contact Outlook ou en mémoire. Si le fournisseur définit **getFriends** comme **faux,** le réseau social ne prend pas en charge les amis et les méthodes **ISocialPerson::GetFriendsAndColleagues** et **ISocialSession2::GetPeopleDetails,** et l’OSC ignore les valeurs de **cacheFriends** et **dynamicContactsLookup**.  <br/> |
    
 Les éléments suivants s’appliquent uniquement à la synchronisation mise en cache des amis ou à la synchronisation hybride des amis et des non-amis. Pour plus d’informations sur la synchronisation des amis, voir [Synchronizing Friends and Activities](synchronizing-friends-and-activities.md).

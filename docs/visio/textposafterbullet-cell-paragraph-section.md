@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60089
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08958abb-9d66-5a83-dac3-4cbfd1f6d85e
 description: Représente la distance entre la première ligne du paragraphe et la puce.
-ms.openlocfilehash: a98967cb5f9541434745c3b3d6afafde0878074a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7568babf9d23c1055ce4a68955b43cb98c02f94b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422151"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559401"
 ---
 # <a name="textposafterbullet-cell-paragraph-section"></a>TextPosAfterBullet, cellule (section Paragraph)
 

@@ -3,17 +3,17 @@ title: Recherche d’un message dans une banque
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9e8d4639-7507-4d98-b56f-a65be369dc40
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7240f49a15fdaea4d1f30dae578d25c3f2c1c0f3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8ed987a558b90c22682fd050bf9d1e456eda964f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426036"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591170"
 ---
 # <a name="searching-a-message-store"></a>Recherche d’un message dans une banque
 

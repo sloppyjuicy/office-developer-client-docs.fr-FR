@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 5b3b2da44d817885eb6190a8cbbfc73bf99e9e0a
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: medium
+ms.openlocfilehash: c46bda55387fe0537aeed359091cde77f7976680
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538234"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559135"
 ---
 # <a name="after-delete-macro-event"></a>After Delete, événement de macro
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251267
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a238bf1c-1acd-eacd-22f3-a48acaaa4549
 description: Détermine la couleur d'arrière-plan du texte dans une forme.
-ms.openlocfilehash: 2450bf0cb0e013c0f9310eacfca0f5a20e7e6063
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f8c564a3caf6685ffe0cb0babd3c06cb9a89b11e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406541"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559408"
 ---
 # <a name="textbkgnd-cell-text-block-format-section"></a>TextBkgnd, cellule (section Text Block Format)
 

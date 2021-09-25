@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251497
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fdc032c2-d0bd-1592-de3f-33c478d066ee
 description: Renvoie une valeur qui représente le signe d’un nombre.
-ms.openlocfilehash: 34bbbab17de94b0a8c95b4b0bfd3829a06dc7e70
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ea7ed2ec4cacb6d926d907934f8745b8ab7538ad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420653"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622821"
 ---
 # <a name="sign-function"></a>Fonction SIGN
 
