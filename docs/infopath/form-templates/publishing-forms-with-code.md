@@ -3,15 +3,15 @@ title: Publication de formulaires avec code
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: caafab24-6413-4731-813d-cba3ae9ea97e
 description: Tout administrateur de collection de sites peut publier des formulaires avec du code directement à partir de l’Assistant Publication InfoPath Designer vers une bibliothèque de formulaires sur SharePoint. Le code est exécuté dans un environnement « bac à sable » (sandbox) afin d'éviter que du code malveillant puisse nuire au serveur. On désigne cela par publication d'une solution en bac à sable (sandbox) ou publication sur l'infrastructure sandbox SharePoint.
-ms.openlocfilehash: f8f8a48ea6810b5331198f6ddc112b3bd38ab886
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ddc224826650ecda8f54bc7d882b78bc90377b81
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428325"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557434"
 ---
 # <a name="publishing-forms-with-code"></a>Publication de formulaires avec code
 

@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2007, common tasks
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da678213-fae0-4854-8194-762866600100
 description: Utilisez les liens de cette rubrique pour trouver rapidement les réponses à vos questions de programmation les plus fréquentes concernant l'utilisation des modèles de formulaires InfoPath avec code managé.
-ms.openlocfilehash: 6fb2c565413b2dff67287bf659d8137306bd2860
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: decb22af2997fe378bf6a607317fc97fcbc8a3ed
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419498"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557490"
 ---
 # <a name="how-do-iin-infopath-form-templates-with-code"></a>Comment faire  dans les modèles de formulaires InfoPath avec code
 

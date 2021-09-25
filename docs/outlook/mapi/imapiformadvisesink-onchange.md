@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFormAdviseSink.OnChange
 api_type:
 - COM
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 02663570e3173bbd696af732e71f060d9dee49bc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4ed41bc702d6296d1c714e89f99e9fac63ca055d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431896"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579907"
 ---
 # <a name="imapiformadvisesinkonchange"></a>IMAPIFormAdviseSink::OnChange
 
@@ -33,7 +33,7 @@ HRESULT OnChange(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulDir_
   

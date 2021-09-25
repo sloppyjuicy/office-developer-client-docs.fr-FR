@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249260(v=office.15)
 ms:contentKeyID: 48544798
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0706f216eed6f40c313bc93541aae9d715efd2f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 430d25a40d4a7dbf9ceade14e84ea6434673eb86
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309066"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580879"
 ---
 # <a name="running-the-address-book-sample-application"></a>Exécution de l’exemple de l’application Carnet d’adresses
 
@@ -24,7 +24,7 @@ Pour exécuter l'application Carnet d'adresses, procédez comme suit.
 
 1.  Vérifiez que Microsoft SQL Server est en cours d'exécution. Cliquez sur **Démarrer**, pointez sur **Programmes**, **Microsoft SQL Server 7.0**, puis cliquez sur **Service Manager**. La présence d'une flèche verte dans le cercle blanc indique que SQL Server est en cours d'exécution. Dans le cas contraire (présence d'un carré rouge dans le cercle blanc), cliquez sur **Démarrer/Continuer**.
 
-2.  Dans Microsoft Internet Explorer 4.0 ou ultérieur, tapez l’adresse suivante : **https://***webserver***/RDS/AddressBook/AddrBook.asp** où *webserver* est le nom du serveur web où les composants du serveur RDS sont installés.
+2.  Dans Microsoft Internet Explorer 4.0 ou ultérieur, tapez l’adresse suivante : **https://**_webserver_*_/RDS/AddressBook/AddrBook.asp_* où *webserver* est le nom du serveur web où les composants du serveur RDS sont installés.
 
 3.  Vous pouvez ensuite essayer différents scénarios dans l’exemple d’application carnet d’adresses, par exemple rechercher une personne en fonction de son nom de messagerie, répertorier toutes les personnes ayant le titre « Gestionnaire de programme » ou modifier des enregistrements existants. Cliquez sur **Rechercher** pour remplir la grille de données avec tous les noms disponibles.
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 12/08/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13aa6ae2-47b9-2cf4-a6ef-651f1338dd49
 description: L’interface IFreeBusyData dans l’API de libre/occupé utilise un concept de temps relatif, qui est le nombre de minutes depuis le 1er janvier 1601, exprimé en temps universel (UTC), et est une valeur de type LONG .
-ms.openlocfilehash: 1b977fc3aebd1f2b20e51f24caa36d6bbf2862ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: df42b3af0fa2f0e85a0c89cea060de76996f4a01
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317632"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557301"
 ---
 # <a name="use-relative-time-to-access-freebusy-data"></a>Utiliser l’heure relative pour accéder aux données de libre/occupé
 

@@ -5,15 +5,15 @@ ms.date: 12/07/2015
 ms.audience: Developer
 keywords:
 - form data [infopath 2007],forms [InfoPath 2007], accessing properties,form templates [InfoPath 2007], accessing properties,opening forms [InfoPath 2007],printing forms [InfoPath 2007],forms [InfoPath 2007], printing,closing forms [InfoPath 2007],InfoPath 2007, accessing form data,forms [InfoPath 2007], accessing data source,forms [InfoPath 2007], closing,forms [InfoPath 2007], opening,printing [InfoPath 2007], forms,forms [InfoPath 2007], creating
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: Pour utiliser les fonctionnalités avancées d'un formulaire InfoPath, il est souvent nécessaire d'accéder par programme aux informations sur le document XML sous-jacent du formulaire et aux données qu'il contient, ou d'exécuter certaines actions sur le document XML. Le modèle objet InfoPath prend en charge l'accès et la manipulation d'un document XML sous-jacent d'un formulaire par le biais de l'utilisation de la classe XmlForm en association avec la classe XmlFormCollection .
-ms.openlocfilehash: c8251afcd75391f102215811694515c06b9f3e7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8b54013ee925491f7060dc088975ea65232fe12e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300209"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557476"
 ---
 # <a name="access-form-data"></a>Accéder aux données de formulaire
 

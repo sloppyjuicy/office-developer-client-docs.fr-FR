@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFormFactory.GetLastError
 api_type:
 - COM
 ms.assetid: 4b1d85f6-7996-4839-b985-abf83e305651
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2c83f7788d9c01ab02f1a2bc39a35abe2c5a21c5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8c471d2c96abf9e9159216162e79aae74ac9e552
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417006"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579900"
 ---
 # <a name="imapiformfactorygetlasterror"></a>IMAPIFormFactory::GetLastError
 
@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hResult_
   

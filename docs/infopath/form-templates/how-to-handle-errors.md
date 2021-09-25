@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - errors [infopath 2007], handling,FormErrorCollection [InfoPath 2007],InfoPath 2007, error handling,FormError [InfoPath 2007],error handling [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 132cb698-d9a5-4767-b3d1-5dd1343a1ff4
 description: Lors de la création d'applications personnalisées, les développeurs doivent mettre en place une gestion des erreurs impliquant l'écriture du code de programmation qui leur permette de déceler les erreurs générées par l'application ou de créer et de générer des erreurs personnalisées. Le modèle objet InfoPath fourni par l'espace de noms Microsoft.Office.InfoPath prend en charge la gestion des erreurs par le biais de l'utilisation de la classe FormError en association avec la classe FormErrorCollection .
-ms.openlocfilehash: 30cf649188b7e4cbc35469d2a50540bb13ecb38d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7697a2a40be1f2dda76a6a9f1f218192acad9453
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410776"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557469"
 ---
 # <a name="handle-errors"></a>Gérer les erreurs
 

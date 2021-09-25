@@ -5,15 +5,15 @@ ms.date: 01/13/2015
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], walkthroughs,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2003-compatible form templates, walkthroughs
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
 description: Cette rubrique fournit une procédure pas à pas de création d’un modèle de formulaire InfoPath avec code géré de base qui fonctionne avec le modèle objet compatible InfoPath 2003 fourni par Microsoft. Office espace de noms.Interop.InfoPath.SemiTrust.
-ms.openlocfilehash: c559aedad5c62134c796196c63c1a84f70c4dc3e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 02ad670a7fc72c05466e50287098981ac3e07170
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414339"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557371"
 ---
 # <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>Walkthrough: Create and debug a basic form template using the InfoPath object model
 

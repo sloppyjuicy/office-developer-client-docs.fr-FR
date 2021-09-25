@@ -3,15 +3,15 @@ title: Utilisation des schémas XML dans InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: Un modèle de formulaire que vous créez avec Microsoft InfoPath utilise un schéma XML (XSD) pour effectuer une validation de la structure et des données du code XML qui est en entrée, en modification et en sortie d'un formulaire InfoPath. Chaque modèle de formulaire créé dans le concepteur de formulaires InfoPath contient au moins un fichier de schéma XSD (.xsd) qui est utilisé pour la validation lors de l'exécution.
-ms.openlocfilehash: 25828c3ec21d22a9952452d5a82fe1a3b4bab54c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0c6d079cbe4ed9f37e63ae945eda232fced44995
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557357"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Utilisation des schémas XML dans InfoPath
 
@@ -189,9 +189,9 @@ Si vous chargez des fichiers XSD créés en externe pour créer des modèles de 
   
 ## <a name="the-xsd-namespace-declaration"></a>La déclaration d’espace de noms XSD
 
-De façon similaire à tous les standards W3C, les schémas XML (XSD) ont fait l'objet d'un long processus de révision avant de devenir une recommandation. Il a existé de nombreuses versions de travail et par conséquent, de nombreux fichiers XSD ont été écrits sur la base de ces standards en cours d'évolution. Pendant ce processus, Microsoft a créé un langage de schéma propriétaire appelé XDR (XML-Data Reduced), qui a été inclus dans MSXML 3.0. À partir de MSXML 4.0, Microsoft XML Core Services prend en charge la totalité de la recommandation de XSD. De nombreux programmes de création de schémas n'ont pas attendu que XSD devienne une recommandation complète. Les versions antérieures de ces programmes sont susceptibles de produire des fichiers XSD obsolètes, que l'infrastructure MSXML 5.0, dont dépend InfoPath, ne prend pas en charge.
+De façon similaire à tous les standards W3C, les schémas XML (XSD) ont fait l’objet d’un long processus de révision avant de devenir une recommandation. Il a existé de nombreuses versions de travail et par conséquent, de nombreux fichiers XSD ont été écrits sur la base de ces standards en cours d’évolution. Pendant ce processus, Microsoft a créé un langage de schéma propriétaire appelé XDR (XML-Data Reduced), qui a été inclus dans MSXML 3.0. À partir de MSXML 4.0, Microsoft XML Core Services prend en charge la totalité de la recommandation de XSD. De nombreux programmes de création de schémas n’ont pas attendu que XSD devienne une recommandation complète. Les versions antérieures de ces programmes sont susceptibles de produire des fichiers XSD obsolètes, que l’infrastructure MSXML 5.0, dont dépend InfoPath, ne prend pas en charge.
   
-Pour garantir qu'un fichier XSD prend en charge la recommandation XSD complète, il doit contenir la déclaration d'espace de noms XML suivantes dans la balise \<schema\> :
+Pour vous assurer qu’un fichier XSD prend en charge la recommandation XSD complète, il doit contenir la déclaration d’espace de noms XML suivante dans la \<schema\> balise :
   
 ```XML
 xmlns:xsd="https://www.w3.org/2001/XMLSchema"
@@ -254,11 +254,11 @@ Pour illustrer pourquoi ce segment XSD est non déterministe, supposons que vous
 
 ```
 
-Dans ce fragment XML, il n'apparaît pas clairement si l'élément  *\<file_path\>*  est le nœud requis de la première partie de la déclaration choice ou s'il est le nœud facultatif de la deuxième partie de la déclaration choice. Cette distinction est importante pour les raisons suivantes : 
+Dans ce fragment XML, il n’est pas clair si l’élément est le nœud requis de la première partie de la déclaration choice ou le nœud facultatif de la deuxième partie de la déclaration  *\<file_path\>*  de choix. Cette distinction est importante pour les raisons suivantes : 
   
 1. Si le fragment XML est validé par rapport à la première partie de la déclaration choice, le code XML est valide par rapport au premier schéma.
     
-2. Si le fragment XML est validé par rapport à la seconde partie de la déclaration choice, le schéma n'est pas valide car le nœud \<URI\> requis est manquant. 
+2. Si le fragment XML est validé par rapport à la deuxième partie de la déclaration de choix, le schéma n’est pas valide, car le nœud requis \<URI\> est manquant. 
     
 Certains systèmes de validation XSD ne déclenchent pas d'erreur de validation par rapport à ce schéma car il existe un chemin d'accès valide. MSXML est plus strict et déclenche une erreur indiquant que le schéma est non déterministe.
   

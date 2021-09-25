@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, form windows,form windows [InfoPath 2007], InfoPath 2003-compatible form templates
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fbcf3a04-ee0f-40a6-8edd-583ae203e2e1
 description: Lorsque vous programmez un formulaire InfoPath, vous pouvez écrire du code pour accéder aux fenêtres d'un formulaire, puis personnaliser certains des éléments qu'elles contiennent. Le modèle objet compatible InfoPath 2003 prend en charge l'accès aux fenêtres d'un formulaire grâce à l'utilisation de l'interface WindowObject en association avec l'interface WindowsCollection .
-ms.openlocfilehash: f8939fc562cf16c1bce0f6f88bba659e895254f3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b49007234d99edcf683e69fc94351e2bf4a5ffa2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427576"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557462"
 ---
 # <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Utiliser des formulaires Windows l’aide du modèle objet InfoPath 2003
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845128(v=office.15)
 ms:contentKeyID: 48543168
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a6e6c7409b89058c6be55d9fb83eb85c7af9fb9c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ab21e5493b1c0c3c2d1ef0cf3fffb9a9d4ff965a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314412"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580747"
 ---
 # <a name="tabledefupdatable-property-dao"></a>TableDef.Updatable, propriété (DAO)
 

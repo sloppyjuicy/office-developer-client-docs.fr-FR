@@ -3,15 +3,15 @@ title: Consignes de sécurité pour développer des formulaires InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4690028e-20ac-297b-4651-801f5159c747
 description: Avant de lire cette rubrique, consultez Autres concepts de sécurité pour les formulaires InfoPath pour une présentation générale du modèle de sécurité InfoPath.
-ms.openlocfilehash: 5108d8b1967b72ac4805f892bcf3bbae3aecccbe
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4e1d42fcc47d58b540bff752e183830dcd4f022d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437811"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557399"
 ---
 # <a name="security-guidelines-for-developing-infopath-forms"></a>Consignes de sécurité pour développer des formulaires InfoPath
 

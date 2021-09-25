@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249338(v=office.15)
 ms:contentKeyID: 48545130
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 26eaa93a1abbb3778a2735d50dd5022edb3023d9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 585c0bf9ef5792188ecbb372e2e009499b1cddee
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306222"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580656"
 ---
 # <a name="using-ado-with-microsoft-visual-basic"></a>Utilisation d’ADO avec Microsoft Visual Basic
 
@@ -103,7 +103,7 @@ Vous pouvez également exécuter cette opération en définissant une référenc
 
 L'instanciation d'objets à l'aide de la méthode **CreateObject** est généralement plus lente qu'avec la déclaration **Dim**.
 
-## <a name="handling-events"></a>Gestion des événements
+## <a name="handling-events"></a>Traitement des événements
 
 Pour gérer les événements ADO dans Microsoft Visual Basic, vous devez déclarer une variable de niveau module à l’aide du mot clé **WithEvents.** La variable ne peut être déclarée qu'au sein d'un module de classe et doit être déclarée au niveau du module. Pour une discussion plus complète sur la gestion des événements ADO, voir le chapitre 7 : Gestion des [événements ADO.](chapter-7-handling-ado-events.md)
 

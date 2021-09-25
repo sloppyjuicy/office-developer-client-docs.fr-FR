@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da67171d-d25f-3424-1409-33189ac63a12
 description: Définit un bloc de données de libre/occupé. Il s’agit d’un élément d’un calendrier représenté par un rendez-vous ou une demande de réunion.
-ms.openlocfilehash: 60d2ff50081a8950a397df6f2f6bbfd37d3bdb61
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5cf556e4df99801a56857d55c43b008f4071f714
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413198"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557322"
 ---
 # <a name="fbblock_1"></a>FBBlock_1
 

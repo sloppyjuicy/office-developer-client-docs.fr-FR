@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250180(v=office.15)
 ms:contentKeyID: 48548433
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 91f591513e0a35a70d157b0a640c87efc961fe22
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 860629c41ae580faf68fd8d6067f0f24653c1d4c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314034"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580719"
 ---
 # <a name="role-of-ado-in-microsoft-data-access"></a>Rôle d’ADO dans Microsoft Data Access
 

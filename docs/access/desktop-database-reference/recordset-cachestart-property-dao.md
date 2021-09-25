@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053171
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 514f109f0eed902287e519bcd7a729397e70eaa5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 84ea617bf555b38de79ed36e0209248ef6c2af3b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300615"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580915"
 ---
 # <a name="recordsetcachestart-property-dao"></a>Recordset.CacheStart, propriété (DAO)
 

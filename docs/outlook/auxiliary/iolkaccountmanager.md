@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 544c87e5-887d-82ec-bf1a-0d95027fe0ec
-ms.openlocfilehash: 5657aeb5f710281a1dcb482b3ebf15049e085b11
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 06c0eca60679adc4bbe0f717a1bb870cd32be96a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413653"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557175"
 ---
 # <a name="iolkaccountmanager"></a>IOlkAccountManager
 

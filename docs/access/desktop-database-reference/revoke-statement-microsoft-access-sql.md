@@ -10,13 +10,13 @@ f1_keywords:
 - jetsql40.chm5277479
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 20122fee617597987940766a076d5f968a87c2d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 41ae1f88b89a7fb0293b4f0cd3df500687edd799
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306530"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580887"
 ---
 # <a name="revoke-statement-microsoft-access-sql"></a>REVOKE, instruction (Microsoft Access SQL)
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2007, additional resources
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6d29e3ed-80a2-4879-a2a5-3855992bec1d
 description: Les développeurs qui utilisent des projets Microsoft InfoPath avec code managé peuvent obtenir des informations supplémentaires dans les ressources suivantes.
-ms.openlocfilehash: 3f46ac3754a3cc09d1c6cabbbc6e2fec8d391701
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 916258caae3cbe9062716ba9a85cf35c07898cbe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557504"
 ---
 # <a name="additional-resources-for-infopath-form-template-developers"></a>Autres ressources pour les développeurs de modèles de formulaire InfoPath
 

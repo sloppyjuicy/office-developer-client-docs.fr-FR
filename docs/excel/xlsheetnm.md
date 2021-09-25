@@ -8,19 +8,19 @@ f1_keywords:
 - xlSheetNm
 keywords:
 - fonction xlsheetnm [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 5d62be7ebef71547de3a903db4c1a030984b8640
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cbc33f6405923de007f19c94a69eb53ed045543c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437412"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557539"
 ---
 # <a name="xlsheetnm"></a>xlSheetNm
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Renvoie le nom d’une feuille de calcul ou d’une feuille macro à partir de son ID de feuille interne contenu dans une référence externe, ou le nom de la feuille actuelle si une référence interne est passée.
   
@@ -28,7 +28,7 @@ Renvoie le nom d’une feuille de calcul ou d’une feuille macro à partir de s
 Excel12(xlSheetNm, LPXLOPER12 pxRes, 1, LPXLOPER12 pxExtref);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxExtref_ (**xltypeRef** ou **xltypeSRef**)
   

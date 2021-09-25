@@ -3,15 +3,15 @@ title: Exemples de solutions bac à sable (sandbox)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 415fa0fa-b7b7-4acb-a437-f54c34064004
 description: Cette rubrique fournit deux exemples qui montrent le type de code que vous pouvez écrire dans un modèle de formulaire solution bac à sable InfoPath et comment publier ce modèle.
-ms.openlocfilehash: 56a9a2a765100ef327790265c7cf734903268bed
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9bce60d1141b82343ab021b120ae804d404d6b13
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439337"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557420"
 ---
 # <a name="sample-sandboxed-solutions"></a>Exemples de solutions bac à sable (sandbox)
 
