@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e69dd4f-7281-e988-b1fd-93ac8c775c03
 description: Spécifie la police utilisée pour le texte de l’en-tête et du pied de page.
-ms.openlocfilehash: b87ba96d551bf943dd330aa428f2c943c9d29269
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: a862141d12234efeaecdfe6976a1c19f18cbe6ba
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541084"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574152"
 ---
 # <a name="headerfooterfont-element-headerfooter_type-complextype-visio-xml"></a>Élément HeaderFooterFont (HeaderFooter_Type complexType) (Visio XML)
 

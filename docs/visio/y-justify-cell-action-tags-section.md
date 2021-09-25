@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1026937
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 27042b62-7623-95d7-7e10-f589d74605c7
 description: Décalage y du bouton de balise d’action par rapport au point défini par les cellules X et Y.
-ms.openlocfilehash: d7a1f5c1feda3624c9f96039e7247c737a91a813
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2a06a0fc889ea5e88526da5656550050b5f46d08
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59581698"
 ---
 # <a name="y-justify-cell-action-tags-section"></a>Y Justify, cellule (section Action Tags)
 

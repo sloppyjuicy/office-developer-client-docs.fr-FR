@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidMeetingType
 api_type:
 - COM
 ms.assetid: 290b290c-7836-4a7e-bf1a-8d0225a07e56
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d2b00c67984d090274a17028ee74e46bee482e2b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 24b6d94dbd068698914d8bbd96a7b23f7cb2ae65
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331576"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555733"
 ---
 # <a name="pidlidmeetingtype-canonical-property"></a>Propriété canonique PidLidMeetingType
 

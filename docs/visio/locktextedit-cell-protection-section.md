@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm665
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: Verrouille le texte d’une forme afin d’empêcher sa modification.
-ms.openlocfilehash: f6e5176e3ab654b76c0641b8f642abcf6b1050dd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c7bac80327894c17f05d0895849a0a19e2028fde
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404497"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573942"
 ---
 # <a name="locktextedit-cell-protection-section"></a>LockTextEdit, cellule (section Protection)
 

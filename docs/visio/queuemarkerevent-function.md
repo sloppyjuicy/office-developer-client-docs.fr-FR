@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60107
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4671715-4209-7774-c174-c19dc9721a02
 description: Entraîne le tir d’un événement marqueur par l’application vers votre module, votre code Microsoft Visual Basic pour Applications (VBA) ou votre compl?ment COM.
-ms.openlocfilehash: 841f6acc63497a6f0b8930c89534b5f8b04c0393
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 66b00394897f45ed785e5f537d7bb32b2d2b544a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418805"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573655"
 ---
 # <a name="queuemarkerevent-function"></a>Fonction QUEUEMARKEREVENT
 

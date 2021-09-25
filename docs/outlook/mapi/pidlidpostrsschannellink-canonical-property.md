@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidPostRssChannelLink
 api_type:
 - COM
 ms.assetid: 2ec95ed9-4848-43ac-9b17-8092a37055e9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 06ceac59dc41461c1ee60b012f4bb4470a591e77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d2dc3669f1d4b1e486f4d62a8174ac2c93d77e6b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315973"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555621"
 ---
 # <a name="pidlidpostrsschannellink-canonical-property"></a>Propriété canonique PidLidPostRssChannelLink
 

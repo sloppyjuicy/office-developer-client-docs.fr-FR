@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3030
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5b20257-676c-279d-f730-1b6fbbe98305
 description: Contient les coordonnées x et y du premier sommet d’une forme, ou représente les coordonnées x et y du premier sommet après une coupure dans un chemin d’accès.
-ms.openlocfilehash: fc414093348b8da04fa3503053584395976982dd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 77328e6a8b08099d42703034beb32c3835e2cb8c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429697"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573879"
 ---
 # <a name="moveto-row-geometry-section"></a>MoveTo, ligne (section Geometry)
 

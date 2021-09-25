@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251475
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8df34463-0238-0b0d-9f99-ea912a644f56
 description: Ouvre le bloc de texte de la forme afin que le texte puisse être modifié.
-ms.openlocfilehash: f182943b8ef01ff78c2f606cd0f925110ce83fef
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 431450851e4c8fea01862626d552738be3247961
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414458"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573802"
 ---
 # <a name="opentextwin-function"></a>Fonction OPENTEXTWIN
 

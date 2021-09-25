@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidContactCharacterSet
 api_type:
 - COM
 ms.assetid: a167e199-a9b2-47f9-a90e-2abc7c29828c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0329147463db38fb8c547214788366444daed312
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b471b87c789faf82491f88864d7bb7e5ac6a2f16
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319704"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563972"
 ---
 # <a name="pidlidcontactcharacterset-canonical-property"></a>Propriété canonique PidLidContactCharacterSet
 

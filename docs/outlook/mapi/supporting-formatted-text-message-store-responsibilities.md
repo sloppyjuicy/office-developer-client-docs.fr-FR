@@ -3,17 +3,17 @@ title: Prise en charge des responsabilités du magasin de messages texte format�
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a97993c2-52e4-4b71-ac03-2c02d82447d8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 502ba82279664638c8e7e4ae68f74df74758918d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 698a21901030ded8063753638df3501e5dc5cf78
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435515"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590995"
 ---
 # <a name="supporting-formatted-text-message-store-responsibilities"></a>Prise en charge du texte formaté : responsabilités de la boutique de messages
 

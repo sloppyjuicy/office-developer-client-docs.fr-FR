@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidRemoteTransferSize
 api_type:
 - COM
 ms.assetid: 853e8d91-b599-45bb-8ac7-f7a85e8a8419
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1b29a37920d65eff32bc84446f421ddb4c2fc0ee
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0464943061e01978cfe2ba6ad49058b09e9912e6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426946"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555613"
 ---
 # <a name="pidlidremotetransfersize-canonical-property"></a>Propriété canonique PidLidRemoteTransferSize
 

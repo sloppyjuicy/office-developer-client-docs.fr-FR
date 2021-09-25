@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251340
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c36fc895-5577-59f6-0ff5-5892ca81a58f
 description: Définit la mise en forme d'un élément de données de forme qui est une chaîne, une liste fixe, un nombre, une liste variable, une date, une heure ou une monnaie.
-ms.openlocfilehash: bb02cfefd6dc93798ca5e2b0c657e4616515fd0e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e57e23525219ea1db515f303830464e7da363876
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415361"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574208"
 ---
 # <a name="format-cell-shape-data-section"></a>Format, cellule (section Shape Data)
 
@@ -24,13 +24,13 @@ Définit la mise en forme d'un élément de données de forme qui est une chaîn
 
 |**Type de données d'article de forme**|**Valeur**|**Contenu de la cellule Format**|
 |:-----|:-----|:-----|
-| String  <br/> | 0  <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Chaîne  <br/> | 0  <br/> | Modèle de format approprié pour le type de données.  <br/> |
 | Liste fixe  <br/> | 1  <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
 | Nombre  <br/> | 2  <br/> | Modèle de format approprié pour le type de données.  <br/> |
 | Liste variable  <br/> | 4   <br/> | Éléments de la liste, séparés par des signes deux-points.  <br/> |
-| Date ou heure  <br/> | 5   <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Durée  <br/> | 6   <br/> | Modèle de format approprié pour le type de données.  <br/> |
-| Monétaire  <br/> | 7   <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Date ou heure  <br/> | 5  <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Durée  <br/> | 6   <br/> | Modèle de format approprié pour le type de données.  <br/> |
+| Devise  <br/> | 7   <br/> | Modèle de format approprié pour le type de données.  <br/> |
    
 Un exemple de modèle de format approprié pour le type de données est « 0,000 u », qui fait apparaître le nombre 250 cm sous la forme 250,000 cm. Pour plus d'informations sur les modèles de format, reportez-vous à [À propos des modèles de format](about-format-pictures.md).
   

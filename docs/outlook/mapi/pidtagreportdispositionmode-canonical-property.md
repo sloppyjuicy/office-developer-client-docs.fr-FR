@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 67b3c76a-f6f7-462b-955c-dc7b53e7e7eb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3d598337a4a66b6345b2f7c827b62a2ccd8af366
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2addce1d46b3de02fb70f8f55c0497f666999d98
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428969"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555180"
 ---
 # <a name="pidtagreportdispositionmode-canonical-property"></a>Propriété canonique PidTagReportDispositionMode
 

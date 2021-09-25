@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidImageAttachmentsCompressionLevel
 api_type:
 - COM
 ms.assetid: cc169ba8-e9b7-42ad-8f0e-77b0843f95ea
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8600cc7071fbe5c08d5df074f9bf59f4320b7f18
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bceb1a75cbca5ee92de449c8d36e175131470143
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413828"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555761"
 ---
 # <a name="pidlidimageattachmentscompressionlevel-canonical-property"></a>Propriété canonique PidLidImageAttachmentsCompressionLevel
 

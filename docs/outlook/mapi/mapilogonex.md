@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPILogonEx
 api_type:
 - HeaderDef
 ms.assetid: 98091e5b-1abd-4814-9c7a-583b420ee11d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9f2ec8f0ec00f7314982e9b112415f69901c358c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1a37ad43414efc82cd2418fcaa848a354d116a62
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424118"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556069"
 ---
 # <a name="mapilogonex"></a>MAPILogonEx
 
@@ -43,7 +43,7 @@ HRESULT MAPILogonEx(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulUIParam_
   

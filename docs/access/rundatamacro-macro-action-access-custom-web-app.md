@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6010ac5-6c08-4c1b-a811-ff81b30ed5f0
 description: Vous pouvez utiliser l’action ExécuterMacroDonnées pour exécuter une macro de données autonome.
-ms.openlocfilehash: 68c0e5a3837039bdab1165e686adb3bdf2a5b6f8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4505bf5eadda4cf0c12af73b050826b6493be139
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439344"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580600"
 ---
 # <a name="rundatamacro-macro-action-access-custom-web-app"></a>RunDataMacro Macro Action (Application web personnalisée Access)
 

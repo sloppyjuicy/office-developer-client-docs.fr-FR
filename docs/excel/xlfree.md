@@ -8,19 +8,19 @@ f1_keywords:
 - xlFree
 keywords:
 - fonction xlfree [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: de1c75ad65acacd44644e9bfb111b30abd0a578e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 99e3305d81f383c5b532828736b42aa5a146b9ed
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424713"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564665"
 ---
 # <a name="xlfree"></a>xlFree
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Utilisé pour libérer des ressources mémoire allouées par Microsoft Excel lors de la création de la valeur de retour **XLOPER** XLOPER12 dans un appel à /   [Excel4,](excel4-excel12.md) [Excel4v,](excel4v-excel12v.md) [Excel12](excel4-excel12.md)ou [Excel12v](excel4v-excel12v.md). La **fonction xlFree** libère la mémoire auxiliaire et réinitialise le pointeur sur **NULL,** mais ne détruit pas les autres parties de la  /  **XLOPER XLOPER12**.
   
@@ -29,7 +29,7 @@ Excel4(xlFree, 0, n, LPXLOPER px_1, ..., LPXLOPER px_n);
 Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _px_1, ..., px_n_
   

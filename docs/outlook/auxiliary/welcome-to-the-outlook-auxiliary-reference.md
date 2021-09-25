@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 09/10/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e48a625-b3f7-9fd0-253e-fe12a1aca446
 description: La référence auxiliaire Outlook contient du contenu conceptuel et de la documentation de référence pour quatre ensembles d’API, des exemples de code et un programme d’installation redistribuable qui permettent aux développeurs d’étendre et d’intégrer les Outlook. Les API de cette référence sont exposées Outlook pour l’extensibilité, en dehors Outlook modèle objet.
-ms.openlocfilehash: 445d35c12e4c8984d47adcef3ecf50ebd881875b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 478dbf3057972b01a453d2dda105135c25517607
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328979"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564489"
 ---
 # <a name="welcome-to-the-outlook-auxiliary-reference"></a>Bienvenue dans la Outlook auxiliaire
 

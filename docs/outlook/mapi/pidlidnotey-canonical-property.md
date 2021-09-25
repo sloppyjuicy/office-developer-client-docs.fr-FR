@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidNoteY
 api_type:
 - COM
 ms.assetid: ad6a7dc2-506e-4e22-b2a6-9dd6d0a5dd9f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 73e10bba0886dcc5ae7d55a575d93dd411a1bf15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1f0e65910afcbaacb39c3e4d84ee7ebf345f1daa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331275"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555719"
 ---
 # <a name="pidlidnotey-canonical-property"></a>Propriété canonique PidLidNoteY
 

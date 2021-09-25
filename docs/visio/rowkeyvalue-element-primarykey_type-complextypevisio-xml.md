@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9077ad4b-c539-c0c8-d268-9a009990abdd
 description: Spécifie la valeur d’une clé primaire pour une ligne individuelle d’un recordset.
-ms.openlocfilehash: b21f479a9c0404dc8a3b737208e4d0d634b556f4
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: e1f4e4b7b21503a8f209b6f9466f8ac58510c71d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538129"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573410"
 ---
 # <a name="rowkeyvalue-element-primarykey_type-complextype-visio-xml"></a>Élément RowKeyValue (PrimaryKey_Type complexType) (Visio XML)
 

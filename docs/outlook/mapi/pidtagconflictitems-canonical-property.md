@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagConflictItems
 api_type:
 - HeaderDef
 ms.assetid: 0d147827-f0e2-dcc1-4427-c4a2f48ca801
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 83940d9239bc172d5fab76232f6644f0e89033b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4703924e77c616fdc0ff47bf5b7b4a240ae1f1e2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338016"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563762"
 ---
 # <a name="pidtagconflictitems-canonical-property"></a>Propriété canonique PidTagConflictItems
 

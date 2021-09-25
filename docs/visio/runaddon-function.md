@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251492
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 122c1d30-3cb9-7e7d-b4cc-e93ab8e4da4f
 description: Exécute un module ou une macro dans un projet Microsoft Visual Basic pour Applications (VBA).
-ms.openlocfilehash: 280f6eaf1e5db045d8c1d22965df00960d188112
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9f861cc5b118f7146f9d778226720e45fa5aba73
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432008"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573417"
 ---
 # <a name="runaddon-function"></a>Fonction RUNADDON
 

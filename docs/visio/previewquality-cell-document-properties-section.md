@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm815
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7d90666-a1bb-f0de-32da-b2855977f648
 description: Détermine si l'aperçu du dessin est en mode brouillon ou détaillé.
-ms.openlocfilehash: 9db2d3e1eb829bfd2ad787fcfc94cd9ba5abaf9e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 39aed22a6a489116aab46f9f6ec558775b420961
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416817"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573725"
 ---
 # <a name="previewquality-cell-document-properties-section"></a>PreviewQuality, cellule (section Document Properties)
 

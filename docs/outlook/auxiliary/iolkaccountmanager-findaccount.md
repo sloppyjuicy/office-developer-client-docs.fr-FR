@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
 description: Recherche un compte par valeur de propriété.
-ms.openlocfilehash: d09bce88413f85ee3ccc332c3cb88bb545a0ccaf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2ec221394364ce2c747e7f9aed4ff5d8373c9b96
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428801"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564504"
 ---
 # <a name="iolkaccountmanagerfindaccount"></a>IOlkAccountManager::FindAccount
 
@@ -30,7 +30,7 @@ HRESULT IOlkAccountManager::FindAccount (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _dwProp_
   

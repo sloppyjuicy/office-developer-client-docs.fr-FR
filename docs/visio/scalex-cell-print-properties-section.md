@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60072
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5916eadc-37f8-47af-fe54-f6062aea318f
 description: Spécifie le pourcentage d’agrandissement de la page de dessin sur la page d’impression.
-ms.openlocfilehash: d1c2f6c184f987e1e7190b1c208310b83a823ee3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 457aec2fdb00c082e9689f9b0a98e5104af39893
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410209"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573431"
 ---
 # <a name="scalex-cell-print-properties-section"></a>ScaleX, cellule (section Print Properties)
 

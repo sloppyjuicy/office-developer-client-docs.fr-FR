@@ -3,17 +3,17 @@ title: Restrictions du carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6ace8c03-45a7-484b-8c12-516ac0e40dc2
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7419c174c1f68653794c2dbd836577e8dd3e596e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: decd8a746db45f60c96b008665d503eac5e3ec4c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432799"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564427"
 ---
 # <a name="address-book-restrictions"></a>Restrictions du carnet d’adresses
 

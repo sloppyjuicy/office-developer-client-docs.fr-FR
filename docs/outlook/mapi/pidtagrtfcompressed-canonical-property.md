@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRtfCompressed
 api_type:
 - COM
 ms.assetid: fd0ccb88-55ce-4d7c-9573-6e5d6239b6a8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3091a76a1b755bf5a0d641ed9bd79bcfaa4641b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b762ca668ecc52b2a9a354bbde2a5e8abb923906
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357889"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555096"
 ---
 # <a name="pidtagrtfcompressed-canonical-property"></a>Propriété canonique PidTagRtfCompressed
 

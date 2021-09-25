@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2095
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2f21377-2954-d589-1329-cd23fe3fb4c6
 description: Contient différents attributs de formes et de groupes, comme la visibilité et la représentation de leur sélection.
-ms.openlocfilehash: 16ee384d137dfb4d8544c499519985c712fd56a2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ff7fd4354afe6400b5eee5e8ded40c426b5c6ca7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418798"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573907"
 ---
 # <a name="miscellaneous-section"></a>Miscellaneous, section
 

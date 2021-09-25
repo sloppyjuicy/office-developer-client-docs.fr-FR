@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - solutions [infopath 2007], offline,offline solutions [InfoPath 2007], InfoPath 2003-compatible form templates,InfoPath 2003-compatible form templates, offline solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 634ccd8c-0b5f-4161-875c-0e546a517377
 description: Le modèle objet compatible InfoPath 2003 contient la propriété MachineOnlineState de l'objet Application qui permet au code de votre formulaire de vérifier si l'ordinateur de l'utilisateur est connecté au réseau. Le code de formulaire peut effectuer différentes actions en fonction de l'état de la connexion.
-ms.openlocfilehash: 452eb0d92b09dc0c3f9b2c247f7cda243dc8eb13
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5ac33120d3f88cdff0a0aa3eb8bdffe81962d095
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429242"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580572"
 ---
 # <a name="work-with-offline-solutions-using-the-infopath-object-model"></a>Utiliser des solutions hors connexion à l’aide du modèle objet InfoPath
 

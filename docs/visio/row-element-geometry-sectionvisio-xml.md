@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: Contient les lignes qui répertorient les coordonnées des sommets des traits et des arcs qui constituent la forme.
-ms.openlocfilehash: 6dbf18b749ed072645c4941922729010f74fc0ae
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: cf04e8fad2ccccc135b70d530799cc93f2c42fb3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540853"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573445"
 ---
 # <a name="row-element-geometry-section-visio-xml"></a>Row, élément (Geometry Section) (Visio XML)
 

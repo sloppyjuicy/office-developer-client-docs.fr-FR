@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm600
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cce34aba-caae-51ee-992e-92a490b68ea5
 description: Verrouille le point de début (BeingX, BeginY) d'une forme 1D à un emplacement donné.
-ms.openlocfilehash: 2e6c6284ff82a88677eb46bb13b8ab8afa986584
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e354c9e3ac1dd188a0fc417a9462343633a8934b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407759"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573970"
 ---
 # <a name="lockbegin-cell-protection-section"></a>LockBegin, cellule (section Protection)
 

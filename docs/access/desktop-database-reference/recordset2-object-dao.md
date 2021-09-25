@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197737(v=office.15)
 ms:contentKeyID: 48546446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: a25e980660e1ab098d15b66b17678ef4111ee215
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 2ad74e6c1fc7c6b6a3cb53c1ec51c7075d26116c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307230"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552667"
 ---
 # <a name="recordset2-object-dao"></a>Recordset2 , objet (DAO)
 
@@ -22,7 +22,7 @@ Un objet **Recordset2** représente les enregistrements dans un tableau de base 
 
 ## <a name="remarks"></a>Remarques
 
-A **Recordset2** objet est contient toutes les propriétés et les méthodes que celles même la ** [jeu d’enregistrements](recordset-object-dao.md) ** objet. Le **Recordset2** objet contient une nouvelle propriété ** [ParentRecordset](recordset2-parentrecordset-property-dao.md)**, qui prennent en charge les types de champs multiples.
+A **Recordset2** objet est contient toutes les propriétés et les méthodes que celles même la **[jeu d’enregistrements](recordset-object-dao.md)** objet. Le **Recordset2** objet contient une nouvelle propriété **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, qui prennent en charge les types de champs multiples.
 
 ## <a name="example"></a>Exemple
 

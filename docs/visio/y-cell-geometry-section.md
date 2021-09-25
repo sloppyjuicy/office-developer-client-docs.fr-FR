@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251750
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
 description: Représente une coordonnée y sur une forme en coordonnées locales. Ce tableau décrit la cellule Y suivant la ligne sur laquelle elle se trouve.
-ms.openlocfilehash: 7dea96b544c84f09abe1d72304da0bacaa09432f
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: db663e959e0204630cdd2316f906792227a44a67
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59581734"
 ---
 # <a name="y-cell-geometry-section"></a>Y, cellule (section Geometry)
 

@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88a3356c-0b53-4401-8fcc-64071723c226
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 39d98972c22bd49549bf370ce1699b15cf1e27d2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4e15e7d79bd1103fa2238dffb7105c15db6df425
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408921"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563909"
 ---
 # <a name="pidtagassociatedsharingprovider-canonical-property"></a>Propriété canonique PidTagAssociatedSharingProvider
 

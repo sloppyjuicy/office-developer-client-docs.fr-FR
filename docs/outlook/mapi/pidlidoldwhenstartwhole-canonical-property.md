@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidOldWhenStartWhole
 api_type:
 - COM
 ms.assetid: 73064a22-68bf-4d3f-91f5-1eec807debf8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e7483d887a7033b8137ce9861ff0d9513fe32904
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 74f9ce5aaf77cb97094c08fe4a6796bb610b2df4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358001"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555642"
 ---
 # <a name="pidlidoldwhenstartwhole-canonical-property"></a>Propriété canonique PidLidOldWhenStartWhole
 

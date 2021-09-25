@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPIFreeBuffer
 api_type:
 - HeaderDef
 ms.assetid: 9412594f-8acc-4c7e-a668-4ec1da0ad9cf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8794bb233eb69d0f246fb1019954ab718db6f464
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3b952e6a62af99f9aa1a1afd0ec96102e54318c8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410552"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556076"
 ---
 # <a name="mapifreebuffer"></a>MAPIFreeBuffer
 
@@ -39,7 +39,7 @@ ULONG MAPIFreeBuffer(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpBuffer_
   

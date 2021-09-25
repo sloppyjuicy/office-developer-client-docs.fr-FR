@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
 description: Spécifie si un recordset est actualisable à l’aide Visio Services dans Microsoft SharePoint Server 2013.
-ms.openlocfilehash: 21a0a5c198998c4b230be88c6bd9f96b25265990
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 57e49a946e41629d8ad532b25fb544a7bf2555df
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542876"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573599"
 ---
 # <a name="refreshabledata-element-publishsettings_type-complextype-visio-xml"></a>Élément RefreshableData (PublishSettings_Type complexType) (Visio XML)
 

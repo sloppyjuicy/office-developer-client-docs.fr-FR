@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIProp.DeleteProps
 api_type:
 - COM
 ms.assetid: 5cc642de-21f0-4826-bf21-aac4bcfc1328
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5bfef87baa2dffa4605f9a7afa3833024f514430
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 036ec32924c8bbb0a305b46558180bfe25e02777
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409236"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564133"
 ---
 # <a name="imapipropdeleteprops"></a>IMAPIProp::DeleteProps
 
@@ -34,7 +34,7 @@ HRESULT DeleteProps(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpPropTagArray_
   

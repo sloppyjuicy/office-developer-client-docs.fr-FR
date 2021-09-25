@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251662
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a223dac-538b-cb5d-a32d-61395276f9da
 description: Détermine le style et la direction du positionnement de tous les connecteurs de la page de dessin n'ayant pas de style de positionnement local.
-ms.openlocfilehash: 38de871460c155ee5d495599a239ebeb0ff1c33d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: aa7979183e4e717ef7432c74b8f998274b5a48e6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424783"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573508"
 ---
 # <a name="routestyle-cell-page-layout-section"></a>RouteStyle, cellule (section Page Layout)
 
@@ -27,20 +27,20 @@ Détermine le style et la direction du positionnement de tous les connecteurs de
 |2  <br/> |Droite  <br/> |Aucun  <br/> |**visLORouteStraight** <br/> |
 |3  <br/> |Organigramme  <br/> |De haut en bas  <br/> |**visLORouteOrgChartNS** <br/> |
 |4   <br/> |Organigramme  <br/> |De gauche à droite  <br/> |**visLORouteOrgChartWE** <br/> |
-|5   <br/> |Diagramme de flux  <br/> |De haut en bas  <br/> |**visLORouteFlowchartNS** <br/> |
-|6   <br/> |Diagramme de flux  <br/> |De gauche à droite  <br/> |**visLORouteFlowchartWE** <br/> |
-|7   <br/> |Arborescence  <br/> |De haut en bas  <br/> |**visLORouteTreeNS** <br/> |
-|8   <br/> |Arborescence  <br/> |De gauche à droite  <br/> |**visLORouteTreeWE** <br/> |
-|9   <br/> |Réseau  <br/> |Aucun  <br/> |**visLORouteNetwork** <br/> |
+|5  <br/> |Diagramme de flux  <br/> |De haut en bas  <br/> |**visLORouteFlowchartNS** <br/> |
+|6   <br/> |Diagramme de flux  <br/> |De gauche à droite  <br/> |**visLORouteFlowchartWE** <br/> |
+|7   <br/> |Arborescence  <br/> |De haut en bas  <br/> |**visLORouteTreeNS** <br/> |
+|8   <br/> |Arborescence  <br/> |De gauche à droite  <br/> |**visLORouteTreeWE** <br/> |
+|9   <br/> |Réseau  <br/> |Aucun  <br/> |**visLORouteNetwork** <br/> |
 |10  <br/> |Organigramme  <br/> |De bas en haut  <br/> |**visLORouteOrgChartSN** <br/> |
 |11  <br/> |Organigramme  <br/> |De droite à gauche  <br/> |**visLORouteOrgChartEW** <br/> |
-|12   <br/> |Diagramme de flux  <br/> |De bas en haut  <br/> |**visLORouteFlowchartSN** <br/> |
+|12   <br/> |Diagramme de flux  <br/> |De bas en haut  <br/> |**visLORouteFlowchartSN** <br/> |
 |13  <br/> |Diagramme de flux  <br/> |De droite à gauche  <br/> |**visLORouteFlowchartEW** <br/> |
 |14   <br/> |Arborescence  <br/> |De bas en haut  <br/> |**visLORouteTreeSN** <br/> |
-|15  <br/> |Arborescence  <br/> |De droite à gauche  <br/> |**visLORouteTreeEW** <br/> |
-|16   <br/> |Centre vers centre  <br/> |Aucun  <br/> |**visLORouteCenterToCenter** <br/> |
-|17   <br/> |Simple  <br/> |De haut en bas  <br/> |**visLORouteSimpleNS** <br/> |
-|18   <br/> |Simple  <br/> |De gauche à droite  <br/> |**visLORouteSimpleWE** <br/> |
+|15   <br/> |Arborescence  <br/> |De droite à gauche  <br/> |**visLORouteTreeEW** <br/> |
+|16   <br/> |Centre vers centre  <br/> |Aucun  <br/> |**visLORouteCenterToCenter** <br/> |
+|17   <br/> |Simple  <br/> |De haut en bas  <br/> |**visLORouteSimpleNS** <br/> |
+|18   <br/> |Simple  <br/> |De gauche à droite  <br/> |**visLORouteSimpleWE** <br/> |
 |19  <br/> |Simple  <br/> |De bas en haut  <br/> |**visLORouteSimpleSN** <br/> |
 |20  <br/> |Simple  <br/> |De droite à gauche  <br/> |**visLORouteSimpleEW** <br/> |
 | 21  <br/> |Horizontal-vertical simple  <br/> |Aucun  <br/> |**visLORouteSimpleHV** <br/> |

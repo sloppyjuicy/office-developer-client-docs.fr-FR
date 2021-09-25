@@ -3,17 +3,17 @@ title: Vue d’ensemble du fournisseur de transport MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b193e819-749e-4642-8afc-dbc47b17b617
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 20b03f7c52ec86d1fb554bf69c53947c3dda4f36
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 42c41bd3f09a62c940a9b8b598a7adcd7dfccf08
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404574"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556097"
 ---
 # <a name="mapi-transport-provider-overview"></a>Vue d’ensemble du fournisseur de transport MAPI
 

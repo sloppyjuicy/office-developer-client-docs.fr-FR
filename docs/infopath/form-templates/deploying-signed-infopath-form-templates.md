@@ -3,15 +3,15 @@ title: Déploiement de modèles de formulaire signés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8345a4bc-ad7b-d0b0-7615-f77ade35006d
 description: Avant de lire cette rubrique, consultez la section « Modèles de formulaire signés » dans Autres concepts de sécurité pour les formulaires InfoPath pour une présentation de la sécurité des modèles de formulaire signés. Les informations et les explications de la rubrique Niveaux de sécurité, déploiement de courrier électronique et modèles de formulaire distants sont également pertinentes.
-ms.openlocfilehash: 76cc6dfdbd2c01827182c348281a98ad7cd17b69
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f13b533f0f4e7ba9352b88054c23a87996ff4a09
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426799"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564651"
 ---
 # <a name="deploying-signed-infopath-form-templates"></a>Déploiement de modèles de formulaire signés
 

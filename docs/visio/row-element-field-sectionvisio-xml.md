@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7883cb55-a7db-10c0-be20-5d3c561e490f
 description: Affiche les fonctions et formules insérées dans le texte de la forme à l’aide de la boîte de dialogue Champ.
-ms.openlocfilehash: c05f704610d7061b9e2c8b742adc39f2b72ba4ae
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 13e414114d37c5168538bba9cd767942b72c7a37
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541756"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573466"
 ---
 # <a name="row-element-field-section-visio-xml"></a>Row, élément (Field Section) (Visio XML)
 

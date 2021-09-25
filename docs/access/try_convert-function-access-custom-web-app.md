@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea514f19-4742-4eb4-823d-6f2494668106
 description: Convertit une valeur en un type de données spécifié ou renvoie la valeur Null si la conversion n’est pas valide.
-ms.openlocfilehash: 473d9063da46652afa88dc974cb4c4036e1c326c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0e2aa0d877090812494c2aa53a3325ad2217eaa5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410895"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564679"
 ---
 # <a name="try_convert-function-access-custom-web-app"></a>Try_Convert Function (Application web personnalisée Access)
 

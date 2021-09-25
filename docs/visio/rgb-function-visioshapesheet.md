@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251489
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6b9f65c-6752-16cb-7eb1-44e1ce56e80b
 description: Renvoie une valeur représentant un index dans la palette de couleurs du document. Il spécifie une couleur par ses composants rouge, vert et bleu, où chacun d’eux est un nombre compris entre 0 et 255 inclus, ou une expression qui évalue un tel nombre.
-ms.openlocfilehash: 34f9c2f2043afe6144feba561e545dc7be35a5a2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9705d0e4c881a2d98e176a9982bbc7a95140755c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426302"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573522"
 ---
 # <a name="rgb-function-visioshapesheet"></a>RGB Function (VisioShapeSheet)
 

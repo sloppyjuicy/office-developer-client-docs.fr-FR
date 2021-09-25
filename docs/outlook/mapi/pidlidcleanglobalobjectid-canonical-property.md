@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidCleanGlobalObjectId
 api_type:
 - COM
 ms.assetid: 59b85997-7972-492e-9786-3f0f367dc3e3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c48fa333d407492b69da5287fa75c565bfd10e11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a81d6e0011ba6d4c873cc9eeef3bf81212faec09
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349216"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555894"
 ---
 # <a name="pidlidcleanglobalobjectid-canonical-property"></a>Propriété canonique PidLidCleanGlobalObjectId
 

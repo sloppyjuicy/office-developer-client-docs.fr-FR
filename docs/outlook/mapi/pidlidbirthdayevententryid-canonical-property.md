@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidBirthdayEventEntryId
 api_type:
 - COM
 ms.assetid: 6807dcfc-d9bd-48a1-a093-3097b2cb107c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90d1dc8a9ce7f94238e8754cfbcaf88b702928f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 86a023b42ee40558f0fb8164c0174d1261c0482b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342020"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564007"
 ---
 # <a name="pidlidbirthdayevententryid-canonical-property"></a>Propriété canonique PidLidBirthdayEventEntryId
 

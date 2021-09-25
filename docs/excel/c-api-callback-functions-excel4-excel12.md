@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - functions [excel 2007], c api callback
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f3ae86d-329a-4177-a65b-6288c248297e
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 5fe5eb7486f12d75ce7e42ad57141480ec735c54
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3d309729453506b3a0e78520d7a0aab39ef8e192
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434430"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564686"
 ---
 # <a name="c-api-callback-functions-excel4-excel12"></a>Fonctions de rappel d’API C Excel4, Excel12
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Les fonctions **Excel4** et **Excel12** sont fournies pour permettre aux DLL d’appeler une fonction de feuille de calcul Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une fonction ou commande spéciale XLL uniquement. Toutes les versions récentes Excel la fonction **Excel4.** À compter Excel 2007, la **fonction Excel12** est prise en charge. Les deux fonctions sont fournies sous deux formes : 
   

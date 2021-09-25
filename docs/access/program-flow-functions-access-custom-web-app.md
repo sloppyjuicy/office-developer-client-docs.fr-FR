@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9622cf4-eaa8-400b-b3ea-0409add8b212
 description: ''
-ms.openlocfilehash: 867792ef3e6d9f6754b443a650e6bafa559f0b2e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 21d8ac26c972cc13203e94234d2bdb198b1475f1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410440"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564714"
 ---
 # <a name="program-flow-functions-access-custom-web-app"></a>Program flow functions (Access custom web app)
 

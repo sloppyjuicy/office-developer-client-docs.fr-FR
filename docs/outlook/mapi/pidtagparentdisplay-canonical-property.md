@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagParentDisplay
 api_type:
 - COM
 ms.assetid: 6a36f4fb-17c0-4271-87d4-a92895f35f23
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7aef4c1d83672033662502ad0950b7bac9f58c52
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e9d71c3e62148ac47b51985510ab45fd605fbdb6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429501"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555222"
 ---
 # <a name="pidtagparentdisplay-canonical-property"></a>Propriété canonique PidTagParentDisplay
 

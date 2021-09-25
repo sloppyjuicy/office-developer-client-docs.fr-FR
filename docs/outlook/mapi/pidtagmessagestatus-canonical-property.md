@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMessageStatus
 api_type:
 - HeaderDef
 ms.assetid: e479e863-a8de-4f7e-9eae-3f721cd16e9a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dacd759d978394a5f4ed028915ed1c717bf6efe5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 11abc17f25324b230dafc2ba1a53be78c54153b2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355719"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555320"
 ---
 # <a name="pidtagmessagestatus-canonical-property"></a>Propriété canonique PidTagMessageStatus
 

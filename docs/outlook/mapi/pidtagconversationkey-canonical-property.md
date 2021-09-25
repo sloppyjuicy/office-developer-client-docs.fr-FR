@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52c97d6c-7f4b-4522-aeac-0c1ed8475952
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00c65dae9bc29fe9cdb310b819ba99d6d46ebfe3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c6e6825c0e899693d47457dff8d922db67f3adbb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334698"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555453"
 ---
 # <a name="pidtagconversationkey-canonical-property"></a>Propriété canonique PidTagConversationKey
 

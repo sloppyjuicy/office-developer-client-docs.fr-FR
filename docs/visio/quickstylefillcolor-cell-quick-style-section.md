@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 41250e47-404c-40e7-99be-9bb8c1ed5ba2
 description: Détermine la couleur de thème que le remplissage d’une forme utilise, sous la forme d’un nombre integer de 0 à 7
-ms.openlocfilehash: 3ace0de7e3bfc878a2101eaca3847ef079b8f919
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3e3ca1f38f968dea2e62fd50945e4e46d1de2964
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407962"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573627"
 ---
 # <a name="quickstylefillcolor-cell-quick-style-section"></a>QuickStyleFillColor Cell (Quick Style Section)
 
@@ -26,9 +26,9 @@ Détermine la couleur de thème que le remplissage d’une forme utilise, sous l
 |2  <br/> |La couleur de remplissage de la forme hérite de la couleur de thème Accent 1  <br/> |
 |3  <br/> |La couleur de remplissage de la forme hérite de la couleur de thème Accent 2  <br/> |
 |4   <br/> |La couleur de remplissage de la forme hérite de la couleur de thème Accent 3  <br/> |
-|5   <br/> |La couleur de remplissage de la forme hérite de la couleur de thème Accent 4  <br/> |
-|6   <br/> |La couleur de remplissage de la forme hérite de la couleur de thème Accent 5  <br/> |
-|7   <br/> |La couleur de remplissage de la forme hérite de la couleur de thème Accent 6  <br/> |
+|5  <br/> |La couleur de remplissage de la forme hérite de la couleur de thème Accent 4  <br/> |
+|6   <br/> |La couleur de remplissage de la forme hérite de la couleur de thème Accent 5  <br/> |
+|7   <br/> |La couleur de remplissage de la forme hérite de la couleur de thème Accent 6  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

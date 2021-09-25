@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d67bd395-d324-217d-8ddc-1d48dd724383
 description: Prend en charge le rebasing des rendez-vous dans un dossier de calendrier.
-ms.openlocfilehash: cf4f7c790a8561f149160c83418a0d5ebd91a455
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 28ebe305548127f384dbbd28bd5f29a1de526859
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564497"
 ---
 # <a name="iolkapptrebaser"></a>IOlkApptRebaser
 

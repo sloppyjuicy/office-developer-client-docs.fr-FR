@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ead7c9c33c92240ba5e458b68635b766caaa9760
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3e948b4085e002832df9657d61c87962af9b9fdb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359562"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555152"
 ---
 # <a name="pidtagroamingbinary-canonical-property"></a>Propriété canonique PidTagRoamingBinary
 
@@ -21,7 +21,7 @@ ms.locfileid: "32359562"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient un flux de message associé à une sous-classe de la **classeIPM.Config'uration.** 
+Contient un flux de message associé à une sous-classe de **l’IPM. Classe de** configuration. 
   
 |||
 |:-----|:-----|
@@ -32,7 +32,7 @@ Contient un flux de message associé à une sous-classe de la **classeIPM.Config
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété contient le flux de données associé à un messageIPM.Configmessage de classe de message **d’uration.** Le format du flux dépend de la classe de message. Par exemple, un message de type classe **IPM.Config'uration. La mise encomplet automatique** serait mise en forme en tant que [flux de mise encomplet automatique.](autocomplete-stream.md)
+Cette propriété contient le flux de données associé à un **IPM. Message de classe** de message de configuration. Le format du flux dépend de la classe de message. Par exemple, un message de type **classe IPM. Configuration.Autocomplete** serait formaté en tant que [flux de mise encomplet automatique.](autocomplete-stream.md)
   
 ## <a name="related-resources"></a>Ressources connexes
 

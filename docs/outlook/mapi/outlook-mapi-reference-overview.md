@@ -7,13 +7,13 @@ api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: Dernière modification le 1er février 2013
-localization_priority: Priority
-ms.openlocfilehash: dc743824cf96800c32d4b4006ae86fbff0bd48a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: e0168b6543516969fceb9f63c24483826e9e54aa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348495"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555915"
 ---
 # <a name="outlook-mapi-reference-overview"></a>Vue d’ensemble de la référence MAPI Outlook
 

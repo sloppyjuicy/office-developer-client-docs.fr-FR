@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskResetReminder
 api_type:
 - COM
 ms.assetid: f6da69ff-a913-4a65-bb07-8ad3c5685e5e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9a438fb2b1862d44905a63fda3e5f68b7878cd99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d2b07e58f7311913f7885ce2b8f80ce06adc6cd7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316617"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555488"
 ---
 # <a name="pidlidtaskresetreminder-canonical-property"></a>Propriété canonique PidLidTaskResetReminder
 

@@ -3,17 +3,17 @@ title: Installation des exemples utilisés dans cette section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 288ece7a26fb89fa240339da681f163909124823
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a0ef67ce46c2751f9c38cb6091f8eb1b21108a3e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345548"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564308"
 ---
 # <a name="install-the-samples-used-in-this-section"></a>Installation des exemples utilisés dans cette section
 

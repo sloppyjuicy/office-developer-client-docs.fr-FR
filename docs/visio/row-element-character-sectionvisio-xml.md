@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 764a8e77-5308-e6ce-8763-dc6e6090da9d
 description: Affiche les attributs de mise en forme d’une série de texte de la forme, tels que la police, la couleur, le style de texte, la case, la position par rapport à la ligne de base et la taille du point.
-ms.openlocfilehash: afff4dcb809bf73da6ada25045678711ade75b6b
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: c0e40d313a430d59f415f1f148f37d3ab532e2bf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541784"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573473"
 ---
 # <a name="row-element-character-section-visio-xml"></a>Élément Row (Character Section) (Visio XML)
 

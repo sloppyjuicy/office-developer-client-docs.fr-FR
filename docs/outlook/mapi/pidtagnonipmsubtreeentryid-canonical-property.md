@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagNonIpmSubtreeEntryId
 api_type:
 - HeaderDef
 ms.assetid: 03ad4bd7-3c0f-4355-9a19-51c99e6c6f7d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 15243336dd90d75df2b27c8c1de079419412ee5b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0405555ba9d8f68565d2b309fe4c87eb8d6dc7d7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427590"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555292"
 ---
 # <a name="pidtagnonipmsubtreeentryid-canonical-property"></a>Propriété canonique PidTagNonIpmSubtreeEntryId
 

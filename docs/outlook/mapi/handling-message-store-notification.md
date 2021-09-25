@@ -3,17 +3,17 @@ title: Gestion des notifications de la banque de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d370603dc7cfc015fe7b2757d1cf0525b3092c5e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e8a312db93f3bd8e27c8c1e993bb7d3381f9159e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428024"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564378"
 ---
 # <a name="handling-message-store-notification"></a>Gestion des notifications de la banque de messages
   

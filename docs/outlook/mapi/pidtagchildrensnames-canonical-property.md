@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagChildrensNames
 api_type:
 - HeaderDef
 ms.assetid: 5e09c078-b8e4-46ef-9ee7-e2ba937d53cf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 77c344d2561de1204d24cfcde91ada3f6d7c9a8f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f1113b513946f1a9f927edee49d542c08c6eee32
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336819"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563804"
 ---
 # <a name="pidtagchildrensnames-canonical-property"></a>Propriété canonique PidTagChildrensNames
 

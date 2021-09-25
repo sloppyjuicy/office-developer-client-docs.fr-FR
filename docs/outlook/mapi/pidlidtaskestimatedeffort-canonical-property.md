@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskEstimatedEffort
 api_type:
 - COM
 ms.assetid: c84167d8-f726-45c6-9b21-bcde64473148
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5700ab6baaab2a5e73448582a855e6f243d5361d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7e7f2546d62190239fb30d5a2ac856871e3f4eb1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555509"
 ---
 # <a name="pidlidtaskestimatedeffort-canonical-property"></a>Propriété canonique PidLidTaskEstimatedEffort
 

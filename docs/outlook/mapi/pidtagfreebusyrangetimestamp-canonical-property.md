@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFreeBusyRangeTimestamp
 api_type:
 - HeaderDef
 ms.assetid: 142d955f-f92d-485a-80c9-9c72e82af0f2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 24c3369d1d6db4977d26e4d31678a4f2cc5808a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bdac4563953e2cf2377e83dd69d468713976a49e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316176"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555376"
 ---
 # <a name="pidtagfreebusyrangetimestamp-canonical-property"></a>Propriété canonique PidTagFreeBusyRangeTimestamp
 

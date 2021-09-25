@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidOldLocation
 api_type:
 - COM
 ms.assetid: 5d31791b-c30d-4a97-b2d3-18cbe0e98792
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f985aecb3d685833f3f680adba96cd49a22b6cc0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6cd1f0eec59e35d75fc2f6862c59082e1e3ac7ee
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345030"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555656"
 ---
 # <a name="pidlidoldlocation-canonical-property"></a>Propriété canonique PidLidOldLocation
 

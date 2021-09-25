@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagHomeTelephoneNumber
 api_type:
 - HeaderDef
 ms.assetid: 2c7506c4-82f6-49e2-81c8-3ca316831d93
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 913bce61ef5525d14570d35b8df2f68bf3ff872e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 713bb6be1441a627ec5df6c01b9b61dd94c0fae1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356762"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555362"
 ---
 # <a name="pidtaghometelephonenumber-canonical-property"></a>Propriété canonique PidTagHomeTelephoneNumber
 

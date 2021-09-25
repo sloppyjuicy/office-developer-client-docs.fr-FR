@@ -3,17 +3,17 @@ title: Ouverture d’un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: bf633a971f7e3077ce2f418021ef183a36db8cc8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d74e26f2968758f31a410a428bd75b70803e5141
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411091"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555950"
 ---
 # <a name="opening-a-message"></a>Ouverture d’un message
  

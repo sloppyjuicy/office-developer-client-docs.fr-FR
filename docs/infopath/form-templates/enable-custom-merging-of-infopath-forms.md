@@ -3,15 +3,15 @@ title: Activation de la fusion personnalisée de formulaires InfoPath
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
 description: The Merge Forms feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form.
-ms.openlocfilehash: f79553f7fdf0b59c77a98fd479e0a307e4f2e6a3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 59a1f8a07252c9ae21e165c1377e69122a3953f4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537800"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580579"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>Activation de la fusion personnalisée de formulaires InfoPath
 

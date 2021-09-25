@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3880511-dd27-4dc2-9e50-a49084ef8195
 description: Indique si une forme peut participer à une opération de remplacement (en tant que cible ou forme de remplacement).
-ms.openlocfilehash: 8b0e3175cacd9b906d91a4185dcd98fad604d8bf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e5220d0d9031aaa383a5dadd4c0c4049ec427eb0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573963"
 ---
 # <a name="lockreplace-cell-protection-section"></a>LockReplace Cell (Protection Section)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagExpiryTime
 api_type:
 - HeaderDef
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8d6fa58e61dde30292487c95fb8a74d568a3bbeb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3dfb428ffa6e62883fcebf09d2f8ab2f9ac4cb33
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316372"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555418"
 ---
 # <a name="pidtagexpirytime-canonical-property"></a>Propriété canonique PidTagExpiryTime
 

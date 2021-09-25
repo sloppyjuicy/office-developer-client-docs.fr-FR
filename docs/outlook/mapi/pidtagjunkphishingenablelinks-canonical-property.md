@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagJunkPhishingEnableLinks
 api_type:
 - HeaderDef
 ms.assetid: 6b885c36-6e27-4f74-95c3-ce1cdc8a808a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7caeaa84602c9eb9a4384e9520edd866d72adbb1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 699e4e5f3801b0921ab0a7e5cfc9ef0ee74c832a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342755"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555341"
 ---
 # <a name="pidtagjunkphishingenablelinks-canonical-property"></a>Propriété canonique PidTagJunkPhishingEnableLinks
 

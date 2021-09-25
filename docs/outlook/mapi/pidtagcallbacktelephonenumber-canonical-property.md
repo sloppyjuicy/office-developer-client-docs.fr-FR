@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagCallbackTelephoneNumber
 api_type:
 - HeaderDef
 ms.assetid: e78d7e65-23a4-4359-b057-e06131cabf25
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9a05d8cbe24880d48e9f8efbeda5c8f2c8dae7d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3b208b4cd8ebb61dfea2cb674b83b7d8d4f66bbb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345688"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563818"
 ---
 # <a name="pidtagcallbacktelephonenumber-canonical-property"></a>Propriété canonique PidTagCallbackTelephoneNumber
 

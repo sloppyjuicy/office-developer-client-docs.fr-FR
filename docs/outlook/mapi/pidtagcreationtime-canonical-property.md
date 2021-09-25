@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagCreationTime
 api_type:
 - HeaderDef
 ms.assetid: 13122af2-06c8-4342-983d-e38178743d8f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: de853c66f0ef4270f4c443881bfa163d4abfa3e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3ffc21f6e6bbd3f10ecec73e34863a3e9924e0b8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357896"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563692"
 ---
 # <a name="pidtagcreationtime-canonical-property"></a>Propriété canonique PidTagCreationTime
 

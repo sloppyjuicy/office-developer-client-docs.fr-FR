@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61e30f57-abd6-9378-45ed-51236ab3d3ee
 description: Contient une collection d’éléments FaceName.
-ms.openlocfilehash: ce18847fdd46a0c703a0df5e8d8c7a877f864d35
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 43fbdf8f705a51ea68e7b81e1b50b3bf4f6caa01
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539712"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574250"
 ---
 # <a name="facenames-element-visiodocument_type-complextype-visio-xml"></a>Élément FaceNames (VisioDocument_Type complexType) (Visio XML)
 

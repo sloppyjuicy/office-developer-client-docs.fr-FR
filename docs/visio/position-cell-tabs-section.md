@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251755
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40d7e38e-b3b0-8616-ed27-1f963a841e03
 description: Définit la position d'une tabulation. La position de la tabulation est indépendante de l'échelle du dessin. Si le dessin est mis à l'échelle, la position de la tabulation ne change pas.
-ms.openlocfilehash: ef17b38d708103ca004594ba04ff5b8d1ada13bf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 40cf12b3b2cbbbc0a2ade8055880b4188f09804c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409929"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573739"
 ---
 # <a name="position-cell-tabs-section"></a>Position, cellule (section Tabs)
 

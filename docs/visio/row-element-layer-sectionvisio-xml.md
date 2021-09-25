@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b884be2-3eed-0864-6a6c-877b43d9065f
 description: Contient des éléments qui définissent une couche unique et ses propriétés pour une page.
-ms.openlocfilehash: edd076651838d7522af07013cda5fedd9a28de7f
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: e05aa0c9cb0153a26b71622b1f6ea0e223e8f26a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540861"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573438"
 ---
 # <a name="row-element-layer-section-visio-xml"></a>Élément Row (Layer Section) (Visio XML)
 

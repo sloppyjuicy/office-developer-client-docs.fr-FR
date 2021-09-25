@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm830
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ce43b4fd-816a-6f2f-2019-42eecf747cdd
 description: Cette cellule n'est plus utilisée depuis la version Visio 2002.
-ms.openlocfilehash: bd0eeaa62a1c2a3f667301db48ff301f88d6f8d3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 87e1e9c30ad0aa5cb18a702984db0df0595354ac
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413464"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573711"
 ---
 # <a name="prompt-cell-actions-section"></a>Prompt, cellule (section Actions)
 

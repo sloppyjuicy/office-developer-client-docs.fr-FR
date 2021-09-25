@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagOfficeLocation
 api_type:
 - HeaderDef
 ms.assetid: 90741a98-0941-454e-a3c0-886583bb576e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 618c0cc006270e6ed1fe2b04059b10b15e8d955a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6c73ec49637478dfa3ad0b31af1aceb83cb199a6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329231"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555243"
 ---
 # <a name="pidtagofficelocation-canonical-property"></a>Propriété canonique PidTagOfficeLocation
 

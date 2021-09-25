@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4949aef9-4c96-82cc-cd13-57981e07cc40
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc5f5a42e2b1e57374ff80a9333b927cc8dba120
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f4c08ccffa90702f9e5cbd532445ed6f38f342d5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556013"
 ---
 # <a name="nofolderscan"></a>NoFolderScan
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8438fe4b-f5f7-d4e4-58b7-7ebdc1da197a
 description: Spécifie une relation à un élément avec le XML de solution associé à cette solution.
-ms.openlocfilehash: 1fe48579da28501b74fedd507f3e44d59736ae87
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 836a508442dda28c9628e6cbdc773c018ca5f579
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542764"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573550"
 ---
 # <a name="rel-element-solution_type-complextype-visio-xml"></a>Élément Rel (Solution_Type complexType) (Visio XML)
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - outils visual studio pour applications, installation de l’aide .net framework, VSTA, installation de l’aide .NET Framework, installation de l’aide .NET Framework [InfoPath 2007],InfoPath 2007, installation de l’aide .NET Framework
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 69b293ac-8ddf-4ba6-92c8-37ed51358232
 description: Téléchargez et installez une copie locale de la documentation du SDK .NET Framework 2.0 et effectuez les étapes nécessaires pour intégrer cette documentation à l’environnement de développement Visual Studio 2012.
-ms.openlocfilehash: 9a9bad10e6e2fb585a8d134be4097277ef1bfc64
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 59f2617a46f40e7376fceff02636d970511fb969
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300447"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580565"
 ---
 # <a name="install-local-net-framework-help-for-visual-studio-tools-for-applications"></a>Installation de l’aide locale de .NET Framework pour Visual Studio Tools for Applications
 

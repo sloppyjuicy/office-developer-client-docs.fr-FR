@@ -3,15 +3,15 @@ title: À propos de la machine à états de réplication
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a0644e4bf5c6847d61cc59e203d50f61ad142e84
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c0f0f61c53fa868bfabd29cdb3cfaf278bcd846d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416481"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564483"
 ---
 # <a name="about-the-replication-state-machine"></a>À propos de la machine à états de réplication
 
@@ -46,11 +46,11 @@ Un client appelle **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd,](io
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**État** <br/> |**Données répliquées** <br/> |**Identificateur d’état** <br/> |**Structure des données** <br/> |
+|**State** <br/> |**Données répliquées** <br/> |**Identificateur d’état** <br/> |**Structure des données** <br/> |
 |[État inactif](idle-state.md) <br/> | *Aucune*  <br/> |**LR_SYNC_IDLE** <br/> | *Aucune*  <br/> |
 |[Synchronisation de l’état](synchronize-state.md) <br/> |Dossiers ou éléments  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
 |[Télécharger hiérarchie](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
-|[Télécharger dossier](upload-folder-state.md) <br/> |Dossier  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
+|[Télécharger dossier](upload-folder-state.md) <br/> |Folder  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**[UPFLD](upfld.md)** <br/> |
 |[Synchroniser l’état du contenu](synchronize-contents-state.md) <br/> |Éléments  <br/> |**LR_SYNC_CONTENTS** <br/> |**[SYNCCONT](synccont.md)** <br/> |
 |[Télécharger table](upload-table-state.md) <br/> |Éléments  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |**[UPTBL](uptbl.md)** <br/> |
 |[Télécharger message](upload-message-state.md) <br/> |Item  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |**[UPMSG](upmsg.md)** <br/> |
@@ -72,7 +72,7 @@ Le diagramme suivant illustre les transitions d’état qui se produisent lors d
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**Étape** <br/> |**Action** <br/> |**État** <br/> |**Structure de données associée** <br/> |
+|**Étape** <br/> |**Action** <br/> |**State** <br/> |**Structure de données associée** <br/> |
 |1.  <br/> |Le client lance le chargement de hiérarchie avec **IOSTX::SyncBeg**.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |2.  <br/> |Outlook 2013 ou Outlook 2010 remplit **UPHIER** avec des informations pour le client. Cela inclut l’initialisation des paramètres [out] :  *iEnt*  est définie sur 0 et  *cEnt*  sur le nombre de dossiers dans la hiérarchie qui doivent être téléchargés.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |3.  <br/> |Le client charge la hiérarchie réelle. Par exemple, si  *cEnt*  est 10, pour chacun des 10 dossiers, le client appelle **IOSTX::SyncBeg**, en spécifiant l’identificateur d’état et la structure de données appropriés pour le téléchargement d’un dossier.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FPropContainsProp
 api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ea56996ad56bb4ce93d103a75eba2c29e6059a87
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c20b1bf6ba7a109db4e772e31faf53fa3c3f4179
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432630"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564385"
 ---
 # <a name="fpropcontainsprop"></a>FPropContainsProp
 
@@ -39,7 +39,7 @@ BOOL FPropContainsProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _lpSPropValueDst_
   
