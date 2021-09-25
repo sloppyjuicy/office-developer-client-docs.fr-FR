@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.MAPIINIT_0
 api_type:
 - COM
 ms.assetid: 70739711-ff43-407d-bc8b-6baf7a476fef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: de31fe7d472b143ed8f3c108dca84a019b5ce103
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8f94c4b5eac189a672771a91e6b9969462f187ef
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357294"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610124"
 ---
 # <a name="mapiinit_0"></a>MAPIINIT_0
 

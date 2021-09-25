@@ -3,15 +3,15 @@ title: Création d'un contrôle ActiveX pouvant lier des données de formulaire 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d62047-bf08-9f70-de00-7f81ef1331f1
 description: Vous pouvez héberger des contrôles ActiveX dans les formulaires InfoPath qui sont conçus pour être ouverts dans l'éditeur InfoPath. Ces contrôles peuvent être créés au préalable (avec certaines contraintes) ou ils peuvent être écrits spécialement pour InfoPath.
-ms.openlocfilehash: 70ac6a16b305403ffa99d8fe840a165913642f57
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8a5d19da95e9342182760256891e5701b2ab8a41
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300188"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568158"
 ---
 # <a name="create-an-activex-control-that-can-bind-to-infopath-form-data"></a>Création d'un contrôle ActiveX pouvant lier des données de formulaire InfoPath
 

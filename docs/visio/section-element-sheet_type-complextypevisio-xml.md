@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Spécifie une collection de propriétés connexes.
-ms.openlocfilehash: 2862d2ccf10d235996c2a6fb26691d498bdfdbcf
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: c2d6fdcb39bd99f3ea6bb564794f068dd98e34cd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539032"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598156"
 ---
 # <a name="section-element-sheet_type-complextype-visio-xml"></a>Élément Section (Sheet_Type complexType) (Visio XML)
 
@@ -45,7 +45,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés d’un dessin.  <br/> |
 |[PageSheet](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés d’une page dans un dessin.  <br/> |
 |[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[Master_Type complexType](master_type-complextypevisio-xml.md) <br/> |Spécifie les propriétés de la page de dessin associée à la page de dessin.  <br/> |
-|[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Spécifie une collection de propriétés associées à une forme.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Spécifie une collection de propriétés associées à une forme.  <br/> |
 |[Sheet](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Sheet_Type](sheet_type-complextypevisio-xml.md) <br/> |Spécifie une collection de propriétés associées à un style, un dessin, une page de dessin ou une forme.  <br/> |
 |[StyleSheet](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |Spécifie une feuille de style.  <br/> |
    
@@ -74,7 +74,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |ActionTag  <br/> |Collection de propriétés utilisées uniquement pour l’évaluation de formule. Elle DOIT avoir un **élément ShapeSheet_Type** ou **PageSheet_Type** parent.  <br/> |[Section de balise d'action](action-tag-section.md) <br/> |
 |Connexions  <br/> |Collection de propriétés utilisées uniquement pour l’évaluation de formule. Elle DOIT avoir un **élément ShapeSheet_Type** parent.  <br/> ||
 |Contrôles  <br/> |Collection de propriétés utilisées uniquement pour l’évaluation de formule. Elle DOIT avoir un **élément ShapeSheet_Type** parent.  <br/> |[Controls, section](controls-section.md) <br/> |
-|Hyperlink  <br/> |Collection de propriétés associées qui spécifient les liens hypertexte de forme. Elle DOIT avoir un **élément ShapeSheet_Type** parent.  <br/> |[Hyperlinks, section](hyperlinks-section.md) <br/> |
+|Lien hypertexte  <br/> |Collection de propriétés associées qui spécifient les liens hypertexte de forme. Elle DOIT avoir un **élément ShapeSheet_Type** parent.  <br/> |[Hyperlinks, section](hyperlinks-section.md) <br/> |
 |ShapeData  <br/> |Collection de propriétés associées qui spécifient les données de forme. Elle DOIT avoir un **élément ShapeSheet_Type** parent.  <br/> |[Shape Data, section](shape-data-section.md) <br/> |
 |Utilisateur  <br/> |Collection de propriétés utilisées pour l’évaluation des formules. Elle DOIT avoir un **élément DocumentSheet_Type,** **PageSheet_Type** ou **ShapeSheet_Type** parent.  <br/> |[User-defined Cells, section](user-defined-cells-section.md) <br/> |
    

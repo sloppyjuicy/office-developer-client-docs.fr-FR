@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192940(v=office.15)
 ms:contentKeyID: 48544500
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a81c1ede8a3afb95e39b2c33fb8112119faf8bd8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b39983dcfd0399667c7b19bb67c3fc64c7eac7ca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309289"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589168"
 ---
 # <a name="recordsetscount-property-dao"></a>Recordsets.Count, propriété (DAO)
 

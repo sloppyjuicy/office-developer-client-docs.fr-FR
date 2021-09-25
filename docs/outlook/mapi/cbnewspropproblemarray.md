@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.CbNewSPropProblemArray
 api_type:
 - COM
 ms.assetid: ce018fb0-4e23-4451-a31a-52bd0977a061
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00a57468c2c43c6f3405c04e2e436fbe9e328887
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 77fc60de5bc789bf3c8ff0b3f698ab8dc2233ee1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413338"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567829"
 ---
 # <a name="cbnewspropproblemarray"></a>CbNewSPropProblemArray
 
@@ -36,7 +36,7 @@ Calcule le nombre d’octets à allouer pour une nouvelle structure [SPropProble
 CbNewSPropProblemArray (_cprob)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ _cprob_
   

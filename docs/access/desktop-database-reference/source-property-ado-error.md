@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250316(v=office.15)
 ms:contentKeyID: 48548969
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 47ae7ea790265edc10be8c907869eefbe4e593ba
-ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
+ms.localizationpriority: medium
+ms.openlocfilehash: ebaf5f3a9e0c8ae005c21b0872177e0699c0f9aa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061306"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568417"
 ---
 # <a name="source-property-ado-error"></a>Source, propriété (objet Erreur ADO)
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97f08cde-d6e4-8935-1758-4018a3baf682
 description: Obtient les informations de type et de catégorie pour le compte spécifié.
-ms.openlocfilehash: 88021537cc7ff4c55759081e6f3619c2a9f10ea3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7d5abc2126ff3aa9c66f82d1c104c030f9e029a6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567941"
 ---
 # <a name="iolkaccountgetaccountinfo"></a>IOlkAccount::GetAccountInfo
 
@@ -31,7 +31,7 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pclsidType_
   

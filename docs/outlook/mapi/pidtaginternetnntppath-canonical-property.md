@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInternetNntpPath
 api_type:
 - HeaderDef
 ms.assetid: 8673bb7d-d6dc-4087-95d6-9479b0a59fc4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9ffd597ea8aa3104d54b57610aba3ac6bd044bf7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 18764327224157b5992128054a133f2aac1daeae
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430083"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587621"
 ---
 # <a name="pidtaginternetnntppath-canonical-property"></a>Propriété canonique PidTagInternetNntpPath
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInReplyToId
 api_type:
 - HeaderDef
 ms.assetid: d435a65a-de01-4fb0-bc54-a87a2c4462ac
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 036f38c1228e08cfc9a2093c027195a802904f19
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5e2e9bcc735f777116ae7721efa3b537318fd020
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358834"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587635"
 ---
 # <a name="pidtaginreplytoid-canonical-property"></a>Propriété canonique PidTagInReplyToId
 

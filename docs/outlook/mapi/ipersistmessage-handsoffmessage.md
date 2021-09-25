@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPersistMessage.HandsOffMessage
 api_type:
 - COM
 ms.assetid: 0e56b21d-0a2e-4fe6-83f4-c9daab2f3055
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 84f0ca88403980ff9ea1c91821a8a3d7edae74fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5962da45d4b1cb6d0be53eb1a039657058e3df21
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309715"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587929"
 ---
 # <a name="ipersistmessagehandsoffmessage"></a>IPersistMessage::HandsOffMessage
 

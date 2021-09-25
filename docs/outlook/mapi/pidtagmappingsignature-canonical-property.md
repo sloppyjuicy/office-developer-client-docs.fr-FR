@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMappingSignature
 api_type:
 - HeaderDef
 ms.assetid: a5e9f807-12a9-4bc9-a6a5-17579e747ffa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d12e8510686f51698981c47327f79ef40d3ec342
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3f3f1ca6d0160a13cab0f49b88c893c6b4647e0b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342538"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609865"
 ---
 # <a name="pidtagmappingsignature-canonical-property"></a>Propriété canonique PidTagMappingSignature
 

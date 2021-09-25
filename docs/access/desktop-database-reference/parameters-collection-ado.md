@@ -10,13 +10,13 @@ f1_keywords:
 - ado210.chm1231103
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: feb24e0f498e02bae01ef689a2ad62e487e314bc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 63af27d7856a737361def622e8547560aef8f1fa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287943"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568739"
 ---
 # <a name="parameters-collection-ado"></a>Parameters, collection (ADO)
 

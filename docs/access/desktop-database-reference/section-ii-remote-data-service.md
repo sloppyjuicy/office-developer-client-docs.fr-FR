@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249685(v=office.15)
 ms:contentKeyID: 48546504
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e2b66f6001ed0c8446cb3dac0da9fbd6b43a3f90
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a2147d1fef645b0da47dbc68e19635649bf11125
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314671"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589147"
 ---
 # <a name="section-ii-remote-data-service"></a>Section II : Service de données distant
 

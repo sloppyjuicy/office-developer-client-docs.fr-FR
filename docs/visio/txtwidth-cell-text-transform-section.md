@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251270
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e2215c67-25fa-1d75-9cce-f126bb8760a1
 description: 'Détermine la largeur du bloc de texte. La formule par défaut est la suivante :'
-ms.openlocfilehash: 806307166035ebc2f8e20e7025d5ecb03c4d6e79
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8b292ffc67d7eb5224c5f7bf741602a3dfc77e99
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426092"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597764"
 ---
 # <a name="txtwidth-cell-text-transform-section"></a>TxtWidth, cellule (section Text Transform)
 

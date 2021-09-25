@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMessageCcMe
 api_type:
 - HeaderDef
 ms.assetid: 7310a0f2-a109-40a4-99bf-e963d754a067
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7605739dd6d0f0205a1a4f09eb8c45d235c0c179
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9c9eae5a17b1533d0159dd07bf3224ff1efdacab
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329735"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609844"
 ---
 # <a name="pidtagmessageccme-canonical-property"></a>Propriété canonique PidTagMessageCcMe
 

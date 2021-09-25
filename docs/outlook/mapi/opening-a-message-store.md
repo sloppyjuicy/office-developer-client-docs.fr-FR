@@ -3,17 +3,17 @@ title: Ouverture d’une banque de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 665c14b285db166e4f2a421d46e57f23e2f7ad52
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 428b5b59a5f1a73ae440e4406a5a2971fed26b39
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432372"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610096"
 ---
 # <a name="opening-a-message-store"></a>Ouverture d’une banque de messages
 
@@ -44,7 +44,7 @@ Pour ouvrir une magasin de messages, son identificateur d’entrée doit être d
     
    - Faire **correspondre PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) avec le nom de cette boutique de messages particulière. Par exemple, **PR_DISPLAY_NAME** peut être définie sur « Mes messages pour l’année fiscale 2010 ». 
     
-4. Appelez [HrQueryAllRows](hrqueryallrows.md) pour récupérer la ligne appropriée à partir de la table de la boutique de messages. L’identificateur d’entrée de la ligne sera inclus dans le tableau des valeurs de propriété pour le membre **aRow** du jeu de lignes pointé par le _paramètre pprows._ 
+4. Appelez [HrQueryAllRows pour](hrqueryallrows.md) récupérer la ligne appropriée à partir de la table de la boutique de messages. L’identificateur d’entrée de la ligne sera inclus dans le tableau des valeurs de propriété pour le membre **aRow** du jeu de lignes pointé par le _paramètre pprows._ 
     
 5. Appelez [FreeProws pour](freeprows.md) libérer le jeu de lignes pointé par  _pprows_.
     

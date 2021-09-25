@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInitials
 api_type:
 - HeaderDef
 ms.assetid: db9e0115-99fb-4fa7-8726-0be991505506
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 37631c582e1f1a2ad08b572975e6cbdd9751a2f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f336a9734a08aab2e733290a584475859ef689a7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346570"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620217"
 ---
 # <a name="pidtaginitials-canonical-property"></a>Propriété canonique PidTagInitials
 

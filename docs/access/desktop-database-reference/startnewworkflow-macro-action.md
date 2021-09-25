@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm198223
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 1e37d72754531fc4dd51427eefb355a057d08073
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 3752d0455d51d17108475e767380d2b1f0c2ef5d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306397"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589077"
 ---
 # <a name="startnewworkflow-macro-action"></a>StartNewWorkflow, action de macro
 

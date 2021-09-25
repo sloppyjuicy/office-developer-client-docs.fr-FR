@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c30c80eb-6327-ebc3-7ea4-8b2fc7525cc0
-ms.openlocfilehash: 7fb07f7424e78ffa7b9efec190b839fd7713884a
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 41f3b3346e9f60922f6ab3862856b3cf96dd1f20
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539697"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628870"
 ---
 # <a name="arcto_type-complextype-visio-xml"></a>ArcTo_Type complexType (Visio XML)
 
@@ -50,7 +50,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Cell](cell-element-arcto-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
    

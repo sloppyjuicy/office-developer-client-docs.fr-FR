@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9cfece8d-00e8-5ed6-89ab-a87a29ac5e31
-ms.openlocfilehash: 1f9065861ccda50e1f6165bd3a171b7885a1bff1
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 3c28ebb4e89064e1ccb8bd8281507f45396cc4da
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537681"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597995"
 ---
 # <a name="stencilgrouppos_type-complextype-visio-xml"></a>StencilGroupPos_Type complexType (Visio XML)
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60033
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b367841a-f31c-4b55-4491-2abab5811dbe
 description: Contient le texte qui apparaît dans un commentaire.
-ms.openlocfilehash: fd9dce2618c0b8c967b794b0beea8b772a231003
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eb015489e9a396dc39141ad5b3beb68bbe88e2a5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415529"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628611"
 ---
 # <a name="comment-cell-annotation-section"></a>Comment, cellule (section Annotation)
 

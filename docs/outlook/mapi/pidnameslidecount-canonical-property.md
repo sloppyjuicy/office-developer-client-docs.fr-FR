@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameSlideCount
 api_type:
 - COM
 ms.assetid: c410a34a-f71e-4fe7-815b-13bb6433a7fa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 52210bb74ec033b5f01bed1ee7e807320654e8d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 857050978bfd9e048616f81e5d71cc5313c583f7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314979"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620178"
 ---
 # <a name="pidnameslidecount-canonical-property"></a>Propriété canonique PidNameSlideCount
 

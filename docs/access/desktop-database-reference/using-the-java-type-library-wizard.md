@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249670(v=office.15)
 ms:contentKeyID: 48546455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a27491acabd19f688eca4159a36dcfcfc486a026
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b47bc9254e441a7ccbba371aeea35c798f003402
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32312081"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588888"
 ---
 # <a name="using-the-java-type-library-wizard"></a>Utilisation de l’assistant de bibliothèque de type Java
 
@@ -23,7 +23,7 @@ L'Assistant Bibliothèque de types Java est une fonctionnalité de Visual J++ 1.
 
 L'Assistant Bibliothèque de types Java produit des résultats similaires aux outils de ligne de commande inclus avec le [Kit de développement Microsoft pour Java SDK](using-the-microsoft-sdk-for-java.md). Cependant, vous n'avez pas accès aux wrappers de classes que l'Assistant génère, contrairement aux wrappers de classe générés par le Kit de développement Microsoft pour Java SDK.
 
-L Java’Assistant Bibliothèque de types génère les classes à l’emplacement suivant : répertoire \\ \< Windows Java \> \\ \\ trustlib \\ msado15. Le fichier Summary.txt, situé dans le répertoire dans lequel les classes ont été générées, comporte les définitions de classes qu'il a générées.
+L Java De la bibliothèque de types génère les classes à l’emplacement \\ \<windows directory\> \\ suivant : Java \\ trustlib \\ msado15. Le fichier Summary.txt, situé dans le répertoire dans lequel les classes ont été générées, comporte les définitions de classes qu'il a générées.
 
 L'Assistant Bibliothèque de types Java convertit les types énumérés, trouvés dans une bibliothèque de types donnée, en type INT (nombre entier). Il définit également une interface qui correspond à chaque type énuméré de la bibliothèque de types. Vous pouvez référencer les valeurs d'un type énuméré ADO au moyen de la syntaxe suivante :
 

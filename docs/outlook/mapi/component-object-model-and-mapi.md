@@ -3,17 +3,17 @@ title: COM (Component Object Model) et MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cca4c70d-b73a-4834-80b5-9cb5889f63cc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a91ab8497a690fd4b99f76274d0213284253fd06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bfeedf5073e162744099a22b8febcd8fb544da54
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334467"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567738"
 ---
 # <a name="component-object-model-and-mapi"></a>COM (Component Object Model) et MAPI
 

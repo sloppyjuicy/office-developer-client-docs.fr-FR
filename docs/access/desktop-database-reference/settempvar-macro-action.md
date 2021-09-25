@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm150219
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: b630304774e521162687d4c78a6a97cf18ddb419
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 5e0d73c700acc66eaac40190012965d865c50b7c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306519"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568480"
 ---
 # <a name="settempvar-macro-action"></a>SetTempVar, action de macro
 

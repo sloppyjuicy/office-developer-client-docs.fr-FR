@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidReminderSignalTime
 api_type:
 - COM
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3fcfd00f71a308dce625e6636edbe647f3d7258a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7ece764ca503f0d850510c93aecf05704d2f4bed
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620386"
 ---
 # <a name="pidlidremindersignaltime-canonical-property"></a>Propriété canonique PidLidReminderSignalTime
 

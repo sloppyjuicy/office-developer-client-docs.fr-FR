@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033173
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1461148d-90a9-6f7c-1b28-9310ffaf0e3b
 description: Indique le type d'ombre d'une forme.
-ms.openlocfilehash: 607881e4a520f1376562394c6e40ab5d2508906d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a2c82e41d00151202ee47c2863364e59a3688a66
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430258"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598128"
 ---
 # <a name="shapeshdwtype-cell-fill-format-section"></a>ShapeShdwType Cell (Fill Format Section)
 

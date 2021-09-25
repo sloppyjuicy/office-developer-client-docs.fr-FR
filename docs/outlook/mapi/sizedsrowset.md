@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SizedSRowSet
 api_type:
 - COM
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cb1e19a3f3703dc4943a5f6c322f1c8b429da5fa
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 19f607e1dcf705ea57abee43c49c989fea3f21e2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410930"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619742"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
@@ -34,7 +34,7 @@ Crée une structure [SRowSet nommée](srowset.md) qui contient un nombre spécif
 SizedSRowSet (_crow, _name)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _
   

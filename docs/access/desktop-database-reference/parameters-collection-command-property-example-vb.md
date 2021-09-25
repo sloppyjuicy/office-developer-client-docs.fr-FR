@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
 ms:contentKeyID: 48544290
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2653b0917de14fd10e04d866903bd7275a2f38de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a42506553da935f4d2622ad76b9dabc26573e890
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287929"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568725"
 ---
 # <a name="parameters-collection-command-property-example-vb"></a>Parameters, collection - Exemple de propriété Command (VB)
 

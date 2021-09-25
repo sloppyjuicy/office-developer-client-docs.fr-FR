@@ -3,17 +3,17 @@ title: Vue d’ensemble de l’arrêt rapide
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a7830d73-427c-4f8b-86f4-51e040c142c3
 description: 'Dernière modification : 26 juin 2012'
-ms.openlocfilehash: 8c33214b04e7c41eab173196c09f145c20ddf219
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 49b14c6d627ed90f716eaa607b0e9421662c5ab7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427205"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567661"
 ---
 # <a name="fast-shutdown-overview"></a>Vue d’ensemble de l’arrêt rapide
 

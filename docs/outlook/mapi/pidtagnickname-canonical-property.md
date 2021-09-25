@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagNickname
 api_type:
 - HeaderDef
 ms.assetid: 088ffc58-d456-471b-af2f-7961e9c701f3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 781b71fccd7f2383117e1b1d94c58bbf352ae094
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3e6a95138d0f4bcb497a4cdbe0a7b1bc7cc9ebb5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329385"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619903"
 ---
 # <a name="pidtagnickname-canonical-property"></a>Propriété canonique PidTagNickname
 

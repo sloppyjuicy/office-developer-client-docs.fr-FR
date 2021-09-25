@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c103d48d-53ca-4b19-b16f-2862379587ef
 description: L’élément activityDetails stocke les données brutes d’un seul élément de flux d’activités. Chaque élément de flux d’activités doit avoir son propre élément activityDetails. Les données de l’élément activityDetails sont référencés dans les modèles d’activité à l’aide d’éléments de nom.
-ms.openlocfilehash: fd9c2136e8e2b687fa281ecda71039809848f63c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a9249f3480d1cd72b01d52af15a843bb88b4625f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434871"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629171"
 ---
 # <a name="activitydetails-element"></a>activityDetails, élément
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAutoConfigurationUserName
 api_type:
 - HeaderDef
 ms.assetid: 05dfa0e2-4ab1-4f57-9009-6a815aca87bd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 519acb46a1401b60c47dfbb764b2e0250fd54f89
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c18dd663213db76123c2a7279a16a452ab43bf6c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414325"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609872"
 ---
 # <a name="pidtagautoconfigurationusername-canonical-property"></a>Propriété canonique PidTagAutoConfigurationUserName
 

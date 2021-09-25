@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.OpenTemplateID
 api_type:
 - COM
 ms.assetid: 532f7af0-b2cc-49dd-b1de-e3ec1dc9a3e7
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 07aa508b473f4a87d5b4909f83771549c301a600
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 103feb1641f9537b0f521c0bfd6696879603f852
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418504"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567416"
 ---
 # <a name="imapisupportopentemplateid"></a>IMAPISupport::OpenTemplateID
 
@@ -39,7 +39,7 @@ LPMAPIPROP lpMAPIPropSibling
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbTemplateID_
   

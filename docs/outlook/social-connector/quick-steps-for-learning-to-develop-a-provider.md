@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13c0ae8c-d268-4bf0-942d-2a6160142f5e
 description: Cette rubrique suggère quelques étapes pour en savoir plus sur le développement d’un fournisseur Outlook Social Connector (OSC).
-ms.openlocfilehash: 581997ab257d59062761d97bfef49a88b90bb1e1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3dbb4e40a3cfe3d2b37c7b2fb9ef60515640adc6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424216"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629059"
 ---
 # <a name="quick-steps-for-learning-to-develop-a-provider"></a>Étapes rapides pour apprendre à développer un fournisseur
 

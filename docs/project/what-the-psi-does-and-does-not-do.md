@@ -3,15 +3,15 @@ title: Fonctionnalités de l’interface PSI
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eac6be6a-9a20-4bc0-8da2-b2fd93aab04f
 description: L’interface PSI (Project Server Interface) peut vous aider à automatiser de nombreux processus côté serveur dans les installations sur site de Project Server 2013. Toutefois, plusieurs fonctions nécessitent l’utilisation de Microsoft Project Professionnel 2013.
-ms.openlocfilehash: b93c3535ca6693a84d11370de17bc18375f168ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: dc81b4d559191368bf1c651fb8ea777d9d3bbe47
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346528"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628982"
 ---
 # <a name="what-the-psi-does-and-does-not-do"></a>Fonctionnalités de l’interface PSI
 
@@ -21,7 +21,7 @@ L’interface PSI (Project Server Interface) peut vous aider à automatiser de n
 |:-----|:-----|
 |||
    
-L’interface PSI est conçue pour compléter les fonctionnalités de Project Professionnel 2013, au lieu de fournir une alternative basée sur le serveur pour toutes Project Professionnel fonctions. Les développeurs tiers peuvent utiliser l’interface PSI pour créer des composants WebPart pour les installations locales de Project Web App et d’espaces de travail de projet, créer des applications Windows personnalisées et des applications web qui interagissent avec les données Project Server locales, développer une logique de flux de travail pour la gestion de portefeuille de projets, développer des gestionnaires d’événements de confiance totale locaux et intégrer Project Server à d’autres applications. L’interface PSI ne peut pas être utilisée pour le développement d’applications pour le Office Store, les appareils mobiles ou les tablettes . pour cela, vous pouvez utiliser le modèle objet côté client (CSOM).
+L’interface PSI est conçue pour compléter les fonctionnalités de Project Professionnel 2013, au lieu de fournir une alternative basée sur le serveur pour toutes Project Professionnel fonctions. Les développeurs tiers peuvent utiliser l’interface PSI pour créer des composants WebPart pour les installations locales de Project Web App et d’espaces de travail de projet, créer des applications Windows personnalisées et des applications web qui interagissent avec les données Project Server locales, développer une logique de flux de travail pour la gestion de portefeuille de projets, développer un événement de confiance totale local et intégrer Project Server à d’autres applications. L’interface PSI ne peut pas être utilisée pour le développement d’applications pour le Office Store, les appareils mobiles ou les tablettes . pour cela, vous pouvez utiliser le modèle objet côté client (CSOM).
   
 > [!NOTE]
 > L’interface PSI fournit une interface de programmation plus complète pour Project Server 2013 que le CSOM. Toutefois, sauf si le modèle CSOM ne fournit pas les fonctionnalités dont vous avez besoin, nous vous recommandons d’utiliser le modèle CSOM pour développer de nouvelles applications. Pour plus d’informations, voir ce que fait et ne fait pas le [CSOM.](what-the-csom-does-and-does-not-do.md) 

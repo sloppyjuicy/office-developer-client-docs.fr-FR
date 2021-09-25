@@ -11,13 +11,13 @@ f1_keywords:
 - vbaac10.chm5285627
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 3b530db43a816e66b9fbef254984142aadf0b841
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7f17eb51a0cd1e7dbbafb145d64b2f66716d88f8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32312739"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588937"
 ---
 # <a name="use-activex-data-objects"></a>Utilisation d’ActiveX Data Objects (ADO)
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0872b1b9-c21f-4bba-8cf1-4b010d8d7fb6
 description: Le schéma XML du fournisseur Outlook Social Connector (OSC) définit le format d’une quantité importante d’informations transmises d’un réseau social via le fournisseur OSC du réseau à OSC.
-ms.openlocfilehash: 2346e23beb2de1664ec90263a8f5db5d46c54e6f
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 45a9fcc2aab435b4b82e42b80e6601ca2ef2f7f1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539254"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629178"
 ---
 # <a name="developing-a-provider-with-the-osc-xml-schema"></a>Développement d’un fournisseur avec le schéma XML OSC
 

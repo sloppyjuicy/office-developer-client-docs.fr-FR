@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249361(v=office.15)
 ms:contentKeyID: 48545218
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e4206cedd139b551d687911f00aa9fc5e5782859
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e1bfea1e11421f6302916fa28ea3164bf40b992c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300825"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568585"
 ---
 # <a name="rds-scenario"></a>Scénario RDS
 

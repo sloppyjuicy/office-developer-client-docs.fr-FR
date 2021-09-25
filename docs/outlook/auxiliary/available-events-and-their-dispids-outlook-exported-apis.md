@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1fd848c7-038e-4e2f-8997-c8509b31df79
 description: Cette section décrit les identificateurs de répartition pour les événements Outlook disponibles.
-ms.openlocfilehash: 31843a2eb8f91eabdc0dbf54a269270eb172baa7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d226fa92e96fea9092990b7c5ee290ce2df2cdaf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316876"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568081"
 ---
 # <a name="available-events-and-their-dispids-outlook-exported-apis"></a>Événements disponibles et leur DISPID (Outlook des API exportées)
 

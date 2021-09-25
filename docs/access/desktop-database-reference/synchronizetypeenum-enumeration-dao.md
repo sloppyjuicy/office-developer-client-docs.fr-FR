@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837004(v=office.15)
 ms:contentKeyID: 48548812
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: acd4ca20e9b6e17f28a17b012bb182060471e949
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f0c9e3934d37d9be7bf2d4d50e11252d46b3e7cc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308448"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589021"
 ---
 # <a name="synchronizetypeenum-enumeration-dao"></a>SynchronizeTypeEnum, éumération (DAO)
 
@@ -52,7 +52,7 @@ Cette énumération est utilisée avec la méthode **Synchronize** pour détermi
 </tr>
 <tr class="even">
 <td><p>dbRepSyncInternet</p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 <td><p>Envoie et reçoit les données dans le cadre d'un transfert bidirectionnel.</p></td>
 </tr>
 </tbody>

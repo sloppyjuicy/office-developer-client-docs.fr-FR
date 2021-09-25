@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251398
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c437de23-d2e0-469d-62e6-8eb8b8cfea5c
 description: Renvoie un nombre binaire 16 bits dans lequel chaque bit est définie sur 1 uniquement si le bit correspondant dans binarynumber1 et binarynumber2 est 1. Dans le cas contraire, le bit est définie sur 0.
-ms.openlocfilehash: a3c76a9122d0f02d5ab61460cf3457bb15da4d7b
-ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
+ms.openlocfilehash: ed0844dada0160cd8150762482c8d3b17742ec6b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48293491"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628772"
 ---
 # <a name="bitand-function"></a>Fonction BITAND
 
@@ -22,7 +22,7 @@ Renvoie un nombre binaire 16 bits dans lequel chaque bit est définie sur 1 uniq
   
 ## <a name="syntax"></a>Syntaxe
 
-BITAND(***binarynumber1***, ***binarynumber2*** ) 
+BITAND(***binarynumber1** _, _ *_binarynumber2_** ) 
   
 ### <a name="parameters"></a>Paramètres
 

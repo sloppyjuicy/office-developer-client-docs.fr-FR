@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ArchiveSourceSupportMask
 api_type:
 - COM
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6fc5e8eb74d79d0a30ae6a423772ce741dee4562
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2afdfffe3af123fd9ab3a2c7b06f386bd253bdae
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418091"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567850"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 

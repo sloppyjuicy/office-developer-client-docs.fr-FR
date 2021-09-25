@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm60119
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfdc1a63-c355-c759-bdfa-ce27e3ad10e7
 description: La fenêtre Explorateur de styles fournit aux développeurs de formes un moyen rapide de déterminer quelles cellules de forme héritent d’un style donné ou quel style transmet sa valeur à une cellule donnée.
-ms.openlocfilehash: 55800b692443bae3720b433e5a6178f2709d3675
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bc68dcec0b86a66c3e70b4d9502ce718fbb0c6a2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431784"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628905"
 ---
 # <a name="about-the-style-explorer-window"></a>À propos de la fenêtre Explorateur de styles
 

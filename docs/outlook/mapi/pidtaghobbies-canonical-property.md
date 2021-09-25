@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagHobbies
 api_type:
 - HeaderDef
 ms.assetid: 2cc57464-5b33-4b65-a1bf-abd0ccac209f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3645e8dbf1f4cea3722c93560adb011a49095f01
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7b356e2c4b8625170dffe7448e385d256a4b84d6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316113"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620232"
 ---
 # <a name="pidtaghobbies-canonical-property"></a>Propriété canonique PidTagHobbies
 

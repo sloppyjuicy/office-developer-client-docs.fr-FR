@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9eac3b8c-532c-4312-935d-fe8b63bcaf75
 description: Récupère les valeurs du thème actif.
-ms.openlocfilehash: ba95b8a920174ee44c0349d7227258d3ee8a843c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: af46d000c8a7513cf961573d20d71e28c1c66915
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415753"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597848"
 ---
 # <a name="themeval-function"></a>Fonction THEMEVAL
 

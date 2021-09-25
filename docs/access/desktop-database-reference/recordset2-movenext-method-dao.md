@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845265(v=office.15)
 ms:contentKeyID: 48543254
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 6f500578182aac74b608117ee4105a6b657057df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d664fcc5c4bf911cf232f32829db83f64f996bff
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309554"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589196"
 ---
 # <a name="recordset2movenext-method-dao"></a>Recordset2.MoveNext, méthode (DAO)
 

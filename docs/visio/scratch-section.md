@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2125
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 144dd06f-7225-57db-fd19-a58d6bccf0e1
 description: Zone de travail dans laquelle vous pouvez entrer et tester des formules auxquelles d'autres cellules sont susceptibles de faire référence.
-ms.openlocfilehash: a7d2c6762e96fc19986521c2ba164666b925c928
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 331831b28fd5b06d685639822e7c46268f40abad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411602"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598163"
 ---
 # <a name="scratch-section"></a>Scratch Section
 
@@ -35,7 +35,7 @@ Par exemple, Visio extrait la formule `PNT(3,4)` de ces trois manières.
 |**Cell**|**Si vous entrez**|**Visio la traite en tant que**|**Résultat**|
 |:-----|:-----|:-----|:-----|
 | X  <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 76,2000 mm  <br/> |
-| v  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4,0000 po  <br/> |
+| O  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4,0000 po  <br/> |
 | A-D  <br/> | `PNT(3,4)` <br/> | `PNT(3,4)` <br/> | PNT(3,0000, 4,0000 »)  <br/> |
    
 

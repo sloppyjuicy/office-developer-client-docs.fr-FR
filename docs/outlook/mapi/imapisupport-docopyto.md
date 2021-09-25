@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.DoCopyTo
 api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6f6c802f1d5ead1750c05fafc54533487fe3732a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5c289b22844cdc3f94c14198d4b010228ee195c3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331807"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567465"
 ---
 # <a name="imapisupportdocopyto"></a>IMAPISupport::DoCopyTo
 
@@ -43,7 +43,7 @@ HRESULT DoCopyTo(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpSrcInterface_
   

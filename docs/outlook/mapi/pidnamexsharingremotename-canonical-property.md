@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameXSharingRemoteName
 api_type:
 - COM
 ms.assetid: a9bba733-ee78-4878-aabd-ee70af7db96f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7cc422b88e64cf02d37922277d4f8c263bd6e372
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: dc8358e7faefdc14c9e928979eedbdf7e6a6c426
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609963"
 ---
 # <a name="pidnamexsharingremotename-canonical-property"></a>Propriété canonique PidNameXSharingRemoteName
 

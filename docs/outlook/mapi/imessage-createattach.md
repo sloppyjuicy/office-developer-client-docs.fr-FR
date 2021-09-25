@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.IMessage::CreateAttach
 api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f534912377aadb3c342030fc02fce26693857476
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 22735e5d165fb61043bb6433ba84567bf1b3f957
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417670"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567360"
 ---
 # <a name="imessagecreateattach"></a>IMessage::CreateAttach
 
@@ -36,7 +36,7 @@ LPATTACH FAR * lppAttach
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpInterface_
   

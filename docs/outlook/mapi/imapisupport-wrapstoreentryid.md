@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.WrapStoreEntryID
 api_type:
 - COM
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a623ef24f76dae93bfc13e6613e885a120f3278e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 914b1fb1d9cae010b3ac59ad566705d1beae6eab
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430447"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567401"
 ---
 # <a name="imapisupportwrapstoreentryid"></a>IMAPISupport::WrapStoreEntryID
 
@@ -36,7 +36,7 @@ LPENTRYID FAR * lppWrappedEntry
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbOrigEntry_
   

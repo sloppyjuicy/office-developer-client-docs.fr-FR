@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagNonReceiptReason
 api_type:
 - HeaderDef
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 64f98c8a9f8ab515393bb0fac4bdc10e98d9760f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 64286788e4992a196810a74fbf77bb4594353ea1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405428"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619882"
 ---
 # <a name="pidtagnonreceiptreason-canonical-property"></a>Propriété canonique PidTagNonReceiptReason
 

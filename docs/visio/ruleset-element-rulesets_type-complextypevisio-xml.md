@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ca63b8a-782e-211f-be7a-8e177b61d8fc
 description: Représente un ensemble de règles de validation de diagramme.
-ms.openlocfilehash: c6fc8df6d9c84f44496d69207dfb9cfb878659e3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: ab46da07b39a36bc34f21f73e155ac2e62af6d39
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541637"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598268"
 ---
 # <a name="ruleset-element-rulesets_type-complextype-visio-xml"></a>Élément RuleSet (RuleSets_Type complexType) (Visio XML)
 

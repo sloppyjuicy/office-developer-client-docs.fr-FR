@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidSideEffects
 api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2d57e6a195036ead9eb42666876e91a72f65eb8b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d8c36f1af61318e7291cfd51166755c8f33c7130
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331296"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620309"
 ---
 # <a name="pidlidsideeffects-canonical-property"></a>Propri t canonique PidLidSideEffects
 

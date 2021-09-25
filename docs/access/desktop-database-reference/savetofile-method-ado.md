@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250104(v=office.15)
 ms:contentKeyID: 48548097
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f3b08c9df435c7ce995a40af7b8ad5466b79245d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 49ef7e94d0e196436500d0180a05a2e475660cfc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308924"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589175"
 ---
 # <a name="savetofile-method-ado"></a>SaveToFile, méthode (ADO)
 

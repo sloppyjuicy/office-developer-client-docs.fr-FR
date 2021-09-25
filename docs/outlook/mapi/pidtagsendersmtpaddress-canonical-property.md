@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 321cde5a-05db-498b-a9b8-cb54c8a14e34
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c39fce40fb508370e62cb8b38123fa6ccc0e7d7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 43600035e8fa7b003e43ba8cc22b3f9b510f6662
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342629"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609774"
 ---
 # <a name="pidtagsendersmtpaddress-canonical-property"></a>Propriété canonique PidTagSenderSmtpAddress
 

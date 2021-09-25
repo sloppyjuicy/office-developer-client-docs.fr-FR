@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIForm.Advise
 api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2ed8bace97dee3842243ed835769e80e8aaf6b03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 398644605e3ad1020ce594bc8d74593fdede6ad4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329483"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567598"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
@@ -34,7 +34,7 @@ HRESULT Advise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pAdvise_
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.DeregisterIdleRoutine
 api_type:
 - COM
 ms.assetid: a8ada6fe-9963-4c25-b4b4-db77f9517368
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 62231a900dbe01ebe1e848355226c0589072cd42
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1e77d9a58256b240c45eb106aac1b030b91ee808
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404560"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567710"
 ---
 # <a name="deregisteridleroutine"></a>DeregisterIdleRoutine
 
@@ -39,7 +39,7 @@ VOID DeregisterIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ftg_
   

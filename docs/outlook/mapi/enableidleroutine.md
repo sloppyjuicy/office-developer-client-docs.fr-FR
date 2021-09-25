@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.EnableIdleRoutine
 api_type:
 - COM
 ms.assetid: 332ea831-bdf9-4dbd-b9c7-a80f8ba11b3b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e04c872762665f4b3a22559dc2ed1504e7b8f9af
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d81fec5072b51c26291b16253d0fefa5bfa89f91
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567682"
 ---
 # <a name="enableidleroutine"></a>EnableIdleRoutine
 
@@ -40,7 +40,7 @@ VOID EnableIdleRoutine(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ftg_
   

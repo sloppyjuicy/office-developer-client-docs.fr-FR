@@ -3,17 +3,17 @@ title: MAPI Primary Identity
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8787a873-6752-4b17-8ea3-8fed793e1371
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5bf88de280b012c54d4caaac6bdfe877f476ac37
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dd0ffa1d8c9d2b8b8a65fd8434fc382f6ee77547
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404721"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610236"
 ---
 # <a name="mapi-primary-identity"></a>MAPI Primary Identity
 

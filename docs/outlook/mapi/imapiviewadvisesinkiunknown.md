@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIViewAdviseSink
 api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 70f61fe33baa7870a58c4cbc7d75e0df119b5b1a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b7486139818ede9bd7e4b66472317ab50b05ba4d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429417"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567374"
 ---
 # <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink : IUnknown
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm90
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59d92820-3ff6-a73d-ffb7-d33096e904f7
 description: Représente la coordonnée x du point de début de la forme 1D, par rapport à l’origine de son parent.
-ms.openlocfilehash: 34c1ef1b2500c78791fb4822851eb6d485d77f81
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fcde79389cd86ed6853881790fb2b6764dd59a4f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407598"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628828"
 ---
 # <a name="beginx-cell-1-d-endpoints-section"></a>BeginX, cellule (section 1-D Endpoints)
 

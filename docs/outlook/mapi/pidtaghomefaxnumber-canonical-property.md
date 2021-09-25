@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagHomeFaxNumber
 api_type:
 - HeaderDef
 ms.assetid: 80208900-94b8-4215-8bb8-66017856d4c3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ef4b0b38983e00eeff69ba45173eb2b881139ec1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 11038d7ab9581d81ae6ab6acc270c5463a7f80a3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356783"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587691"
 ---
 # <a name="pidtaghomefaxnumber-canonical-property"></a>Propriété canonique PidTagHomeFaxNumber
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFormHostMap
 api_type:
 - HeaderDef
 ms.assetid: 92742747-cce0-4c54-9ece-1fcf652ac498
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 346776635fc36ffd8efd10cb232846831add20f7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a8c7869e6bcfc926e071b386cc70f446b537ac28
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433765"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587677"
 ---
 # <a name="pidtagformhostmap-canonical-property"></a>Propriété canonique PidTagFormHostMap
 

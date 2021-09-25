@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidSharingInitiatorEntryId
 api_type:
 - COM
 ms.assetid: 47f00706-83df-49cb-bda7-ef572d76a020
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bfe682fc3263278c6e1d02a29a8b6432f41ac79e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7f4838abd14be7f580cc3d709d361056f1dd6caf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309526"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620344"
 ---
 # <a name="pidlidsharinginitiatorentryid-canonical-property"></a>Propriété canonique PidLidSharingInitiatorEntryId
 

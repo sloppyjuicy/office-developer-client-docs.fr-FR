@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1101183
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 3e3da5f7438ae83010c6ecc109dccf5d7a8eb9ef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f385f2f16a9cd28f22891fc753b1a537fda1f346
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292740"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565372"
 ---
 # <a name="field2originalvalue-property-dao"></a>Field2.OriginalValue, propriété (DAO)
 

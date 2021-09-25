@@ -3,17 +3,17 @@ title: Implémentation d’une fonction de point d’entrée de fournisseur de s
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 83ff54c4-86ce-4529-ae45-260dfb763b30
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 14dd11f873493e32b83dbd1960cac8ff8ef8e436
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4a315c0d3ec4ebb32cf337d7c10009c2736c67d8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332990"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567318"
 ---
 # <a name="implementing-a-service-provider-entry-point-function"></a>Implémentation d’une fonction de point d’entrée de fournisseur de services
 

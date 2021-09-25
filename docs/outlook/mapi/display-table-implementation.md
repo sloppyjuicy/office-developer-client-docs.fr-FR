@@ -3,17 +3,17 @@ title: Implémentation du tableau d’affichage
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eb17675a-35e0-4545-b394-789d343510aa
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6990e32445083c3465693df2c1a3d40b980853c4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 38620684bf7912544e5e57caadcfdf2479d6b305
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435263"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567696"
 ---
 # <a name="display-table-implementation"></a>Implémentation du tableau d’affichage
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
 ms:contentKeyID: 48548905
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 593daf08da1b4ce435d17f2a6deedfa3e89dbd32
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 042ede650e6658ef346177491f95e976839c96e2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302610"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568319"
 ---
 # <a name="whats-new-in-ado"></a>Nouveautés dans ADO
 
@@ -51,7 +51,7 @@ Les nouvelles propriétés suivantes sont fournies dans cette version.
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriété</p></th>
+<th><p>Property</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -93,7 +93,7 @@ Les nouvelles propriétés suivantes sont fournies dans cette version.
 <td><p>Indique l'entité représentée par l'objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado.md">État</a></p></td>
+<td><p><a href="state-property-ado.md">State</a></p></td>
 <td><p>Indique, pour tous les objets applicables, si l'état de l'objet est ouvert ou fermé. Indique, pour tous les objets applicables exécutant une méthode asynchrone, si l'état actuel de l'objet est « en cours de connexion », « en cours d'exécution » ou « en cours d'extraction ».</p></td>
 </tr>
 <tr class="odd">
@@ -148,15 +148,15 @@ Les nouvelles méthodes suivantes sont fournies dans cette version.
 <td><p>Déplace un fichier ou un répertoire, avec tout son contenu, vers un autre emplacement.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="open-method-ado-record.md">Open</a></p></td>
+<td><p><a href="open-method-ado-record.md">Ouvert</a></p></td>
 <td><p>Ouvre un objet <strong>Record</strong> existant ou crée un fichier ou un répertoire.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="open-method-ado-stream.md">Open</a></p></td>
+<td><p><a href="open-method-ado-stream.md">Ouvert</a></p></td>
 <td><p>Ouvre un objet <strong>Stream</strong> afin de manipuler des flux de données binaires ou de texte.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="read-method-ado.md">Lire</a></p></td>
+<td><p><a href="read-method-ado.md">Read</a></p></td>
 <td><p>Lit le nombre spécifié d'octets d'un objet <strong>Stream</strong> binaire.</p></td>
 </tr>
 <tr class="odd">

@@ -3,17 +3,17 @@ title: Stockage des formulaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6ddf9158-3c10-408a-aeaf-5a382c4339e7
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 793a34b093ba69f73be7e186bec0a769584bbac4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e41876c3a5f1a36285a2ab766108fa8f7129c0af
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414892"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587964"
 ---
 # <a name="form-storage"></a>Stockage des formulaires
 

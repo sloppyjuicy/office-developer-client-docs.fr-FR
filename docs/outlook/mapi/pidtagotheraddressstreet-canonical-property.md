@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOtherAddressStreet
 api_type:
 - COM
 ms.assetid: 5f440905-8690-489c-ae96-2bc391524de9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3900c863ea2fb2e5255d7e497b4b6ca4846545d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: da6de8e0dac93fc8dd95e45568de495e47a297a1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335461"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619763"
 ---
 # <a name="pidtagotheraddressstreet-canonical-property"></a>Propriété canonique PidTagOtherAddressStreet
 

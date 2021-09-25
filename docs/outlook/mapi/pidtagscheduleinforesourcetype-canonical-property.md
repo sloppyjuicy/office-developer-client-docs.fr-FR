@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagScheduleInfoResourceType
 api_type:
 - COM
 ms.assetid: 9f253378-0a2d-47e3-82d3-8055b5f776dd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fbcc149d6c5b5806a6514da4a3fb8e5615c9bc98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a61d81c5c966ecccd9f1fecdff7c9004535f3c4e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359765"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609823"
 ---
 # <a name="pidtagscheduleinforesourcetype-canonical-property"></a>Propriété canonique PidTagScheduleInfoResourceType
 

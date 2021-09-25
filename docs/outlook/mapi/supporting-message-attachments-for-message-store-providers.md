@@ -3,17 +3,17 @@ title: Prise en charge des pièces jointes de messages pour les fournisseurs de 
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 69d1df5bf206cddd0d25698665c9fd87b81e4ea5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b7b71a55a334ef763fa9c9117b0b218b585d87df
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412134"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619665"
 ---
 # <a name="supporting-message-attachments-for-message-store-providers"></a>Prise en charge des pièces jointes de messages pour les fournisseurs de magasins de messages
 

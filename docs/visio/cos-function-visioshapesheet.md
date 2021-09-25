@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251407
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
 description: Renvoie le cosine d’un angle.
-ms.openlocfilehash: ee8e2f4a256617c37c4aac7876aa33ae04ab2f97
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dfa2aaaafd376980a83c52cb68f80524d5ba3d55
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432736"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628562"
 ---
 # <a name="cos-function-visioshapesheet"></a>COS Function (VisioShapeSheet)
 

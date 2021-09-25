@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
 description: Cette section suggère des tests que vous pouvez faire avant de libérer votre fournisseur Outlook Social Connector (OSC).
-ms.openlocfilehash: 8a36b13f8adc42a1834481d3a5942f0350c43cc3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 32fe16dacb0af5b42b6884de1982452076d5615f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414661"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629185"
 ---
 # <a name="getting-ready-to-release-an-osc-provider"></a>Préparation à la publication d’un fournisseur OSC
 

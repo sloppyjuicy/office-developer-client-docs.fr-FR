@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPITable.QueryColumns
 api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d142e19fc4721cec4dde0df7fc030a001121da63
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: edaacf40bac968b98352bf1b2dc19e01b76eb524
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410104"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567395"
 ---
 # <a name="imapitablequerycolumns"></a>IMAPITable::QueryColumns
 
@@ -34,7 +34,7 @@ LPSPropTagArray FAR * lpPropTagArray
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

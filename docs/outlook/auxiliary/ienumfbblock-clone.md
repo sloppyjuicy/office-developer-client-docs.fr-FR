@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
 description: Crée une copie de l’éumérateur, en utilisant la même restriction de temps, mais en fixant le curseur au début de l’éumérateur.
-ms.openlocfilehash: 1a279430bf6a29611fa223bebbf8023c34967139
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 248b65ccc493f574c8485d228c3e8f853df2a1fa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413401"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567997"
 ---
 # <a name="ienumfbblockclone"></a>IEnumFBBlock::Clone
 
@@ -28,7 +28,7 @@ HRESULT Clone(
 ); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ccplone_
   

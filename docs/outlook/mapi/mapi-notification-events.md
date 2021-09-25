@@ -3,17 +3,17 @@ title: Événements de notification MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ef082d7b-9b2d-4267-beb5-d3ed1d9c7bbf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0d05672a0b136520216357cc85a6b7a125415759
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0558668ddfbb7890dbb59175d6902577f208a33e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427954"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610264"
 ---
 # <a name="mapi-notification-events"></a>Événements de notification MAPI
 

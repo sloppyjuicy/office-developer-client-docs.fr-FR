@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4737cf5af48ef35e5d71cfc1b4525354dbc82bfc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 937b08e2e0eb5e2dde51bd5e7b6fa7749e6cb3b2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314874"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588969"
 ---
 # <a name="system-requirements-for-the-address-book-application"></a>Configuration système requise pour l’application Carnet d’adresses
 

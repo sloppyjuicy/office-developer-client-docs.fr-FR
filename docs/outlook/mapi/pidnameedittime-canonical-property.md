@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameEditTime
 api_type:
 - COM
 ms.assetid: 3f079f46-dd6e-422d-9490-20be39a1dfca
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 08e09dc7aefdcc6211cd6c7a3a2ae5bbb9320606
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8cf9fc23faf625e720db9304db956a182aa40368
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331478"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609991"
 ---
 # <a name="pidnameedittime-canonical-property"></a>Propriété canonique PidNameEditTime
 

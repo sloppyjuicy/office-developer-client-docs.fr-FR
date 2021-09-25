@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSearchFolderStorageType
 api_type:
 - COM
 ms.assetid: 1ec21942-47db-43a5-a6ee-ec6fd2135e8b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: accea8bdea25ac44e6cc5d8fe88cb32caf1961be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 211907bae4c730049f99fba576a552296683dba7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336406"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609816"
 ---
 # <a name="pidtagsearchfolderstoragetype-canonical-property"></a>Propriété canonique PidTagSearchFolderStorageType
 
@@ -32,7 +32,7 @@ Contient des indicateurs spécifiant les données BLOB (Binary Large Object) qui
 |Propriétés associées :  <br/> |PR_WB_SF_STORAGE_TYPE  <br/> |
 |Identificateur :  <br/> |0x6846  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Recherche  <br/> |
+|Domaine :  <br/> |Rechercher  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.CbFLATENTRYLIST
 api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 06fe8d33b98d9d2a211dba497bd99ff0ec21bbf7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 256556631a73866ab8c3d0f56e6e2f40e9fc5dd1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408438"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567822"
 ---
 # <a name="cbflatentrylist"></a>CbFLATENTRYLIST
 
@@ -36,7 +36,7 @@ Calcule le nombre d’octets dans une structure [FLATENTRYLIST](flatentrylist.md
 CbFLATENTRYLIST(_lplist)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ _lplist_
   

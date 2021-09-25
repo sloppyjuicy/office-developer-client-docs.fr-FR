@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMailboxOwnerName
 api_type:
 - HeaderDef
 ms.assetid: c8e7acb7-7596-4710-85ba-1feeac464703
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 762d60123de86b7d18d634cf39d79a4652a5ffec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6146b2f4e1973822a93517838b766789d01726a2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278742"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619980"
 ---
 # <a name="pidtagmailboxownername-canonical-property"></a>Propriété canonique PidTagMailboxOwnerName
 

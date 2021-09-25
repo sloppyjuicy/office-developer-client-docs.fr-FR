@@ -3,17 +3,17 @@ title: Vue d’ensemble des fonctionnalités MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 22cf56c5-2804-40a8-99e6-a6d127897720
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b1087f5156ad79b20eb31ef55c0388ffd82e1601
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4f1e4e09b6e1b200a8930ae7df7781a8e449539b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416922"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567220"
 ---
 # <a name="mapi-feature-overview"></a>Vue d’ensemble des fonctionnalités MAPI
  

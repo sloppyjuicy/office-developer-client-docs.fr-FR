@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 513de39d-6d16-47b6-b2f4-e1bd12a7193f
 description: Cette section décrit les types de données dans l’API de gestion des comptes.
-ms.openlocfilehash: 27bc93dfaf9c5beb07c05772d1195cf995f69286
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 083ceb47a08822317cbc4a9d1fe1a3feecb1f985
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422599"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568067"
 ---
 # <a name="data-types-account-management-api"></a>Types de données (API de gestion des comptes)
 

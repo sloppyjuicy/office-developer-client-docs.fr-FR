@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249507(v=office.15)
 ms:contentKeyID: 48545795
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9c5f9d73a1081bb27c88541ac99307165222ab65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 877a7d17b0f5ad9d5b0c16e6ff2497083c5276a9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306320"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568382"
 ---
 # <a name="status-property-ado-field"></a>Status, propriété (champ ADO)
 

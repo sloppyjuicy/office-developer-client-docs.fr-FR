@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cb95b34-3ce0-07a5-5d57-8ac9b0570b9a
 description: Spécifie l’expression logique qui détermine si l’objet cible satisfait à la règle de validation.
-ms.openlocfilehash: bb1f0cf9b3f712903f6e45d6d09f96607089f920
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: c39996353368cbd58a7a3ec4b30c53b142123a3c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541518"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598254"
 ---
 # <a name="ruletest-element-rule_type-complextype-visio-xml"></a>Élément RuleTest (Rule_Type complexType) (Visio XML)
 

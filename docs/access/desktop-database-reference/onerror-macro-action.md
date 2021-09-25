@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm62274
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: a2288d64241f3289505a8b0fafb98062830b0e97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a9ff662ecd8c52c8caa8060e0c29a9a8f01440c4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565239"
 ---
 # <a name="onerror-macro-action"></a>OnError, action de macro
 

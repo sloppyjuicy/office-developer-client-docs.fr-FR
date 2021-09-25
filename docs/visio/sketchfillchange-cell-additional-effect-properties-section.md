@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 939f8f90-dee5-4175-b32a-e2964eb40681
 description: Détermine la quantité de randomisation du remplissage de la forme à partir de la géométrie de la forme lors de l’utilisation d’un effet de croquis, sous la forme d’un pourcentage de la longueur d’une section. Si la valeur de la cellule SketchFillChange est définie sur 0 %, la géométrie de limite du remplissage d’une forme correspond à la géométrie de la forme. Si la valeur est 100 %, la géométrie de limite du remplissage de la forme ne suit pas la géométrie de la forme.
-ms.openlocfilehash: 8726e9dd6ca6257fb8dbbbef3dce1d4ec344e28b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8f3b566743c650f930a3c0163e89bfe32b77cabb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408074"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598030"
 ---
 # <a name="sketchfillchange-cell-additional-effect-properties-section"></a>SketchFillChange Cell (Additional Effect Properties Section)
 

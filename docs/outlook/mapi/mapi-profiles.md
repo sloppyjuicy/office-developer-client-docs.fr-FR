@@ -3,17 +3,17 @@ title: Profils MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9db1f8e163e44a44df1e798cebccb3639325275e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ef17c0f1cfb3a4cf90e687616b299484be90f44b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340081"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610215"
 ---
 # <a name="mapi-profiles"></a>Profils MAPI
 
@@ -33,7 +33,7 @@ Dans ces rubriques, vous trouverez également une discussion sur le cache de sur
     
 ## <a name="profile-sections"></a>Sections de profil
 
-Les profils sont divisés en sections accessibles aux clients et aux fournisseurs de services pour afficher les propriétés de profil aux utilisateurs ou pour apporter des modifications de configuration. Une section de profil est un objet MAPI qui implémente l’interface **IProfSect,** une interface qui dérive **d’IMAPIProp** et qui n’a aucune méthode supplémentaire. Pour plus d’informations, [voir IProfSect : IMAPIProp](iprofsectimapiprop.md). Son seul objectif est de manipuler les propriétés d’une section de profil. Pour récupérer un **pointeur IProfSect** vers une section de profil particulière, les clients et les fournisseurs de services appellent les méthodes suivantes. 
+Les profils sont divisés en sections accessibles aux clients et aux fournisseurs de services pour afficher les propriétés de profil aux utilisateurs ou pour apporter des modifications de configuration. Une section de profil est un objet MAPI qui implémente l’interface **IProfSect,** une interface qui dérive **d’IMAPIProp** et qui ne possède aucune méthode supplémentaire. Pour plus d’informations, [voir IProfSect : IMAPIProp](iprofsectimapiprop.md). Son seul objectif est de manipuler les propriétés d’une section de profil. Pour récupérer un **pointeur IProfSect** vers une section de profil particulière, les clients et les fournisseurs de services appellent les méthodes suivantes. 
   
 |||
 |:-----|:-----|

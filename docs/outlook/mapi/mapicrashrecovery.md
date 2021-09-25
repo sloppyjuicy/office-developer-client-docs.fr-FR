@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPICrashRecovery
 api_type:
 - COM
 ms.assetid: 4172e2d3-6343-385b-c691-a64c1e198051
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9efafbac55a2925e04b533e7c08388c026540dff
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2451601d50fc17328a5162d38d4a17a0e800a27d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407213"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610117"
 ---
 # <a name="mapicrashrecovery"></a>MAPICrashRecovery
 
@@ -37,7 +37,7 @@ La **fonction MAPICrashRecovery** vérifie l’état de la mémoire partagée du
 void MAPICrashRecovery(ULONG ulFlags);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ulFlags_
   

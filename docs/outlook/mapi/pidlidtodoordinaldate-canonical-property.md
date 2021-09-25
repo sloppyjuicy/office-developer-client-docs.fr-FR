@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidToDoOrdinalDate
 api_type:
 - COM
 ms.assetid: b6a500fc-07f4-4788-ae46-d179a96a48e2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b0c5e3019efeeb0b9788d81e8730e976bfcc9d75
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f91759f10909190a88a35b8841ee51950cf4c44e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345275"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620288"
 ---
 # <a name="pidlidtodoordinaldate-canonical-property"></a>Propriété canonique PidLidToDoOrdinalDate
 

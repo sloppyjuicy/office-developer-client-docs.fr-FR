@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249686(v=office.15)
 ms:contentKeyID: 48546507
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b977fc4273068ac52efe8960761a9e28a6234e2e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 97d4def23493bcbc881fa0a6df5166aba1e116c4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588902"
 ---
 # <a name="understanding-the-customization-file"></a>Présentation du fichier de personnalisation
 
@@ -86,7 +86,7 @@ L'objet **DataFactory** appelle le gestionnaire et lui passe les paramètres cli
 
 Une section spécifique est utilisée dans les circonstances suivantes :
 
-  - Une section **de** connexion est utilisée si la partie valeur du mot clé de chaîne de connexion du client, « **Data Source=***value*», correspond à un identificateur de section **de** *connexion.*
+  - Une section **connect** est utilisée si la partie valeur du mot-clé de la chaîne de connexion « **Data Source=**_valeur_ » cliente correspond à un identificateur de section **connect***.*
 
   - Une section **sql** est utilisée si la chaîne de commande cliente contient une chaîne qui correspond à un identificateur de section **sql**.
 

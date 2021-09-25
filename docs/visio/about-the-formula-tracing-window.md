@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm60118
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cdacd4e-74dc-32c3-2eb2-219bf7fcb532
 description: La fenêtre Suivi des formules est conçue pour fournir aux développeurs de formes des informations à propos d’interdépendances entre des cellules — à la fois des cellules dépendantes (qui dépendent d’une cellule en particulier) et des cellules précédentes (dont dépend une cellule en particulier).
-ms.openlocfilehash: f5f9d6a7ba3ab7049715d31342cfe7aa68ea053f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 77b058337bd1e8ea95f14015acc15fdccb14dbe4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345315"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628933"
 ---
 # <a name="about-the-formula-tracing-window"></a>À propos de la fenêtre Suivi des formules
 

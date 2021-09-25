@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027286
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0c4b668-f31b-336f-4434-e94a4804ff7c
 description: Numéro qui détermine l’ordre des actions qui apparaissent dans un menu contextuel ou de balise d’action.
-ms.openlocfilehash: d4eb98055f199f603003b068dca9fa7b4e377e52
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 563bb5213d2fe1e43c16648ecef0955c779a4348
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419659"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598009"
 ---
 # <a name="sortkey-cell-actions-section"></a>SortKey, cellule (section Actions)
 

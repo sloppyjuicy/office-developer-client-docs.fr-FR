@@ -3,17 +3,17 @@ title: Démarrage d’un fournisseur de services
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c4b61cc3-d9fe-4616-a05c-d1e4096b5abd
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: f67976681ef0283c86e1c09c49e531572668ff50
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dd72648a03b0f304f2ac239bb26154ac8c332b3f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439554"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619700"
 ---
 # <a name="starting-a-service-provider"></a>Démarrage d’un fournisseur de services
 

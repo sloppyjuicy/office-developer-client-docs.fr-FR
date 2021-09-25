@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginCheck
 api_type:
 - COM
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a82b1351c9d2d19c32e34b03a537a12bf93deb8a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f87f2a56c9b0c69875bcf4f139052cc1d0ef4505
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435760"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619791"
 ---
 # <a name="pidtagorigincheck-canonical-property"></a>Propriété canonique PidTagOriginCheck
 
@@ -32,7 +32,7 @@ Contient une valeur de vérification binaire qui permet à un destinataire de ra
 |Propriétés associées :  <br/> |PR_ORIGIN_CHECK  <br/> |
 |Identificateur :  <br/> |0x0027  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Server  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

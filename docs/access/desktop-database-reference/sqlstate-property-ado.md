@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250029(v=office.15)
 ms:contentKeyID: 48547806
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: eb4a9adbc6060b7c33e128a0a3fca8c1eb7bc10d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f5fa247b03efa0391d117b94f3d64184927e4b89
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308550"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589105"
 ---
 # <a name="sqlstate-property-ado"></a>SQLState, propriété (ADO)
 

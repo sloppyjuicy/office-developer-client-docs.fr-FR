@@ -3,15 +3,15 @@ title: Présentation des formulaires entièrement fiables
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
 description: InfoPath permet de créer des formulaires entièrement fiables, qui sont des formulaires qui disposent d’autorisations de sécurité plus élevées et qui peuvent accéder aux ressources système et autres composants sur l’ordinateur d’un utilisateur. Cet article décrit ce qu’est un formulaire entièrement fiable et pourquoi il est utilisé, et crée un formulaire entièrement fiable en convertissant et enregistrant manuellement un formulaire standard, ou en signant numériquement un formulaire standard.
-ms.openlocfilehash: 04560e0c844d6a6ff681fd366ca7da2e4db36ba1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2e4ea0160e9075420b871c17ba06ab9bf21f5964
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430391"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568095"
 ---
 # <a name="understanding-fully-trusted-forms"></a>Présentation des formulaires entièrement fiables
 

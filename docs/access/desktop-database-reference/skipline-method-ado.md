@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249187(v=office.15)
 ms:contentKeyID: 48544456
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 5e49b8379f078ad698a4a0040de0eb2e4429fd34
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 17279e2d36e101b2232a7a9bc0519ad6d25ee0b4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314559"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589112"
 ---
 # <a name="skipline-method-ado"></a>SkipLine, méthode (ADO)
 

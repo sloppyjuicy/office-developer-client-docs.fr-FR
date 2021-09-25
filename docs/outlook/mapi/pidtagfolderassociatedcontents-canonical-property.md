@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFolderAssociatedContents
 api_type:
 - HeaderDef
 ms.assetid: d1f3f589-dc2d-4538-a13f-278dad29bcc7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c85c5d7c3e80508c4d328f69ac4ad15f0f2c355a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: eb2b059d1cf5fa9fc5b1858eadc4142774fd7b6b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316302"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620190"
 ---
 # <a name="pidtagfolderassociatedcontents-canonical-property"></a>Propriété canonique PidTagFolderAssociatedContents
 
@@ -44,7 +44,7 @@ Pour récupérer le contenu de la table, les applications clientes doivent appel
   
 Les **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) et cette propriété sont similaires dans l’utilisation. Plusieurs propriétés MAPI permettent d’accéder aux tables : 
   
-|**Property**|**Tableau**|
+|**Propriété**|**Table**|
 |:-----|:-----|
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Table Contents  <br/> |
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Table Hierarchy  <br/> |

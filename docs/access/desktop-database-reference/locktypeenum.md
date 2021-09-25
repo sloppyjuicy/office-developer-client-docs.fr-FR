@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
 ms:contentKeyID: 48546448
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: d4b9dc49e647bdcd3123ade065da0c74538c9a88
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 754b998336ae8399e7f61257884faaf62a871f88
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289863"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568823"
 ---
 # <a name="locktypeenum"></a>LockTypeEnum
 
@@ -78,7 +78,7 @@ Module : **com.ms.wfc.data**
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.LockType.BATINTIMISTIC</p></td>
+<td><p>AdoEnums.LockType.BATCHOPTIMISTIC</p></td>
 </tr>
 <tr class="even">
 <td><p>AdoEnums.LockType.OPTIMISTIC</p></td>

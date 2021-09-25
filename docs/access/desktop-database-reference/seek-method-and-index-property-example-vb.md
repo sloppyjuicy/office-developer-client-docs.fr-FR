@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15)
 ms:contentKeyID: 48547577
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 652fed01826a69c848753f2666cbb5c973653673
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b3790e6f461bbd88cde26282663298d3aebe854b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308756"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589140"
 ---
 # <a name="seek-method-and-index-property-example-vb"></a>Seek (méthode) et Index (propriété) – Exemple (VB)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple utilise la méthode [Seek](seek-method-ado.md) et la propriété [Index](index-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) avec une valeur ***Employee ID*** donnée pour trouver le nom de l’employé dans la table ***Employees*** de la base de données Nwind.mdb.
+Cet exemple utilise la méthode [Seek](seek-method-ado.md) et la propriété Index de l’objet [Recordset](index-property-ado.md) conjointement avec un [](recordset-object-ado.md) **ID** d’employé donné pour localiser le nom de l’employé dans la table _ *_Employees_** de la base de données Nwind.mdb.
 
 ```vb 
  

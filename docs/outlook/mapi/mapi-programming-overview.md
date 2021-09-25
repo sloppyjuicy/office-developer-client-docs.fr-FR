@@ -3,17 +3,17 @@ title: Vue d’ensemble de la programmation MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 30ac637a-874f-4660-b5d0-d28d69486f64
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: d69d15f0f635c81bea30401b3a6d6e3ccf620112
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: be3cc0c76efc93b32cb0a939065de88ae5217fdd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408340"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567143"
 ---
 # <a name="mapi-programming-overview"></a>Vue d’ensemble de la programmation MAPI
 

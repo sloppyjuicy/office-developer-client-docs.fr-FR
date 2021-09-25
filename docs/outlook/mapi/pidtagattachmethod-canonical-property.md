@@ -5,19 +5,19 @@ ms.date: 9/7/2016
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAttachMethod
 api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
 description: 'Last modified: September 07, 2016'
-ms.openlocfilehash: b84549ab31c939b4e6115795916ebd3520a96dbd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b4e6aa70b793fafc08d0b975641f5bc0d07bc831
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327257"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59609900"
 ---
 # <a name="pidtagattachmethod-canonical-property"></a>Propriété canonique PidTagAttachMethod
 
@@ -88,7 +88,7 @@ Pour plus d’informations sur les interfaces et les formats OLE, voir la réfé
   
 ## <a name="remarks"></a>Remarques
 
-Lorsque le **PR_ATTACH_METHOD** est **ATTACH_BY_WEBREFERENCE,** le contenu de la pièce jointe n’est pas dans le message. Au lieu de cela, **la PR_ATTACH_LONG_FILENAME** contient une URL absolue du contenu de la pièce jointe, qui est stockée en ligne. 
+Lorsque le **PR_ATTACH_METHOD** est **ATTACH_BY_WEBREFERENCE,** le contenu de la pièce jointe n’est pas dans le message. Au lieu de cela, **la PR_ATTACH_LONG_FILENAME** contient une URL absolue vers le contenu de la pièce jointe, qui est stocké en ligne. 
   
 ## <a name="related-resources"></a>Ressources connexes
 

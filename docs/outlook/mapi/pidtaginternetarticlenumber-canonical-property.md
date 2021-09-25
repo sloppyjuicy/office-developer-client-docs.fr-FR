@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInternetArticleNumber
 api_type:
 - HeaderDef
 ms.assetid: a9eaacc9-bade-472a-9932-4dccec2471ae
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bb6e082e4ef284c2e269cd587102995f75f7e344
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0b3158343600173b42af0dfb1607b2fd1596602f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358497"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587628"
 ---
 # <a name="pidtaginternetarticlenumber-canonical-property"></a>Propriété canonique PidTagInternetArticleNumber
 

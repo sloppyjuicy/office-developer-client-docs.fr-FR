@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidSharingResponseTime
 api_type:
 - COM
 ms.assetid: 5cf0cf25-d302-44a4-bee8-53f5cff62647
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 473c7898fec46e55e68b199e9738949c9c231a6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a64e1dc0f6ce9f15af199a33c20adc258c48b050
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331156"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620295"
 ---
 # <a name="pidlidsharingresponsetime-canonical-property"></a>Propriété canonique PidLidSharingResponseTime
 

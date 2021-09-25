@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253240
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: Détermine le niveau de transparence de la couleur d'arrière-plan du bloc de texte de la forme.
-ms.openlocfilehash: f4c4dc7700c553bd4c9bee337220e357c4c5538a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c376f56ffca919b9f07798b3f3da419463b805f4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408690"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597890"
 ---
 # <a name="textbkgndtrans-cell-text-block-format-section"></a>TextBkgndTrans, cellule (section Text Block Format)
 

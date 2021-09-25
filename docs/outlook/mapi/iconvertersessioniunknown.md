@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IConverterSession
 api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2db55d6318cf02dd131d07b34841922e61605147
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 99415e9b3996ead409df7bd99379d39e9a62370e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432316"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567626"
 ---
 # <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 

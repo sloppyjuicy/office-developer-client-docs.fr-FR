@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251391
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 434d7ceb-1050-c667-fb3d-b6634440c18e
 description: Renvoie TRUE (1) si toutes les expressions logiques fournies sont true. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
-ms.openlocfilehash: 74e8301718e69a2ab61f6bf9992d0d6855bbc6f1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 82ce384641c400764356d3288ae7d903ee901292
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422011"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628877"
 ---
 # <a name="and-function"></a>Fonction AND
 

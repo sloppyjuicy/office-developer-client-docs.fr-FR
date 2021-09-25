@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2145
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c6485c6-629c-9aef-d3da-117f34e71cde
 description: Contient les cellules de formes ou de styles qui contrôlent la position de la tabulation et l'alignement.
-ms.openlocfilehash: a543d0a96be8ad3aee485f4171ab3efcdb53d8d7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f75627dc9fb43e5c7886e3f3fb543fe74a0fb9b4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414367"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597967"
 ---
 # <a name="tabs-section"></a>Tabs, section
 

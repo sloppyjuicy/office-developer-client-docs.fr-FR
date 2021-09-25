@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
 ms:contentKeyID: 48546208
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 6e62a01d274752b33f7bf3f6f4af6171e7efb16b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e223eebf5f3fa6c9b4780c6d52fbe41b22b42d5c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32305886"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588587"
 ---
 # <a name="willconnect-event-ado"></a>WillConnect, événement (ADO)
 

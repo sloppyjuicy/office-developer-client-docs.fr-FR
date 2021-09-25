@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1101187
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: ac05510a218d1cf4cf925acc2ca8908b7bcbcd03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: fa4d794ce0cd75cf373d7e56e6aec9de3361315c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303268"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568627"
 ---
 # <a name="querydefprepare-property-dao"></a>QueryDef.Prepare, propriété (DAO)
 

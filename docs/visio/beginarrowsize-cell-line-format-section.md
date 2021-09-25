@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251629
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfddb829-6e13-7d74-b9b9-2cb5c0937bae
 description: Détermine la taille de la pointe de flèche au début du trait.
-ms.openlocfilehash: 9c1288ced747c4e16090013cc043b040f1fbb59c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ed1db98de60368f2c08d8c5e61c1185cce016be2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412281"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628842"
 ---
 # <a name="beginarrowsize-cell-line-format-section"></a>BeginArrowSize, cellule (section Line Format)
 
@@ -27,8 +27,8 @@ Détermine la taille de la pointe de flèche au début du trait.
 | 2  <br/> | Moyenne  <br/> |**visArrowSizeMedium** <br/> |
 | 3  <br/> | Grande  <br/> |**visArrowSizeLarge** <br/> |
 | 4   <br/> | Très grande  <br/> |**visArrowSizeVeryLarge** <br/> |
-| 5   <br/> | Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
-| 6   <br/> | Premier  <br/> |**visArrowSizeColossal** <br/> |
+| 5  <br/> | Jumbo  <br/> |**visArrowSizeJumbo** <br/> |
+| 6   <br/> | Premier  <br/> |**visArrowSizeColossal** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

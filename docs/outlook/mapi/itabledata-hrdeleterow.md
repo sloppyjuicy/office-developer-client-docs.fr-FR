@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ITableData.HrDeleteRow
 api_type:
 - COM
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b187cccc4505256b7ab4d580c30eeb2e15ebf574
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dc516d8792fe87e6b9caf282146ad8ef996715c2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421675"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587845"
 ---
 # <a name="itabledatahrdeleterow"></a>ITableData::HrDeleteRow
 
@@ -33,7 +33,7 @@ HRESULT HrDeleteRow(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpSPropValue_
   

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250281(v=office.15)
 ms:contentKeyID: 48548855
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3e879df56cbf3c35aae67ece0e4c464bc7587e63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f5e6cde9cdc0528e22c092220cc680fa1dc6ef06
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287768"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568676"
 ---
 # <a name="parentcatalog-property-example-vc"></a>ParentCatalog, propriété – Exemple (VC++)
 

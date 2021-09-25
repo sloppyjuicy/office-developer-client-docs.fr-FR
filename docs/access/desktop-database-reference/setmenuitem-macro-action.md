@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: fe61a3368813ba3420920909f818beee2029d993
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: cda7c774e6af9f40d529fe809c49506a57c73c2b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308679"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568472"
 ---
 # <a name="setmenuitem-macro-action"></a>SetMenuItem, action de macro
 

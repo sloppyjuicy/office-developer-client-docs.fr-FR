@@ -3,15 +3,15 @@ title: Arrêt d’un fournisseur de magasin PST wrapped
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c9e5917-1b96-323d-bf8b-1d3aa1f677d0
 description: 'Last modified: July 02, 2012'
-ms.openlocfilehash: fa918920213ee77c4d0c1d3ccc239ae7cffe81fc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3f4aa55a8b557c8c14678bea618b761a22d7f96a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409943"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619756"
 ---
 # <a name="shutting-down-a-wrapped-pst-store-provider"></a>Arrêt d’un fournisseur de magasin PST wrapped
 

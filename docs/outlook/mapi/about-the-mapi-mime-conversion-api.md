@@ -3,15 +3,15 @@ title: À propos de l’API de conversion MAPI-MIME
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ffdfdff8-985d-35de-73b1-c34e1932cb9f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7123b2deaa9ae0f26002b486df229ad589009f53
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c36dd3e6761c5bb63fe6560bfa332d1b0548b689
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420436"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567927"
 ---
 # <a name="about-the-mapi-mime-conversion-api"></a>À propos de l’API de conversion MAPI-MIME
 

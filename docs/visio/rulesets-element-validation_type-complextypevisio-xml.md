@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a0201e6-9a93-83ae-8a0a-47630ed291ce
 description: Inclut un élément RuleSet pour chaque ensemble de règles de validation dans le document.
-ms.openlocfilehash: 0aca3f52bd8b201d1afc2ab7d647757452ff8899
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: b5093403dfe7bea3762195710dba25a975705564
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541574"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598261"
 ---
 # <a name="rulesets-element-validation_type-complextype-visio-xml"></a>Élément RuleSets (Validation_Type complexType) (Visio XML)
 

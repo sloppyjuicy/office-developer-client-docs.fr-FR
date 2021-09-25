@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPIAllocateMore
 api_type:
 - HeaderDef
 ms.assetid: 3e48f76a-bc97-4cbc-9082-c07dd674b73e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 01980b2da735838eeffa9afa5a0d139b69e76d0c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 83867eae14cf147e38ca9a72051bc6f4ba3be0bb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435389"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610145"
 ---
 # <a name="mapiallocatemore"></a>MAPIAllocateMore
 
@@ -41,7 +41,7 @@ SCODE MAPIAllocateMore(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbSize_
   

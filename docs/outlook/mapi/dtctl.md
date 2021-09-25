@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.DTCTL
 api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2a2ca1fba5dceb45b41c2f25a96e163f02c41440
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d0321019c383994fa51f9d205504a0636e2c973b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421500"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567703"
 ---
 # <a name="dtctl"></a>DTCTL
 

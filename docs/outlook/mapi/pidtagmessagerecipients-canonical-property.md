@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMessageRecipients
 api_type:
 - HeaderDef
 ms.assetid: 7f8b0d96-99d6-4f1c-8ac4-4dbb83626382
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d30088ba7398669228a18be825323afa800ec536
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3de07cb20d760a335f90ecacbea3bcc8b0a39512
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355684"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619952"
 ---
 # <a name="pidtagmessagerecipients-canonical-property"></a>Propriété canonique PidTagMessageRecipients
 
@@ -46,7 +46,7 @@ Cette propriété peut être utilisée pour la restriction de sous-objet en la s
   
 La **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) et cette propriété sont similaires dans l’utilisation. Plusieurs propriétés MAPI permettent d’accéder aux tables : 
   
-|**Property**|**Tableau**|
+|**Propriété**|**Table**|
 |:-----|:-----|
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Table Contents  <br/> |
 |**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Table Hierarchy  <br/> |

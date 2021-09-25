@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15)
 ms:contentKeyID: 48545233
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b2e7c70979b5bc5d791350e13fba744a34ee2e82
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0a0a5e3f934b943ef4f8507e5adbf153ea6b36e8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288160"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589289"
 ---
 # <a name="originalvalue-and-underlyingvalue-properties-example-vj"></a>OriginalValue et UnderlyingValue, propriétés – Exemple (VJ++)
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8733aab9-3a8e-4924-b62f-4e871d991c72
 description: Renvoie une chaîne qui contient une collection de détails de personne et d’image pour les utilisateurs spécifiés par le paramètre personsAddresses.
-ms.openlocfilehash: 08b6eca193da59bbdc3c9d21d4dc9b6d0e0c884f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 88fef14135718e7b054cf85f7e12bb7b0f9c0478
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629150"
 ---
 # <a name="isocialsession2getpeopledetails"></a>ISocialSession2::GetPeopleDetails
 
@@ -23,7 +23,7 @@ Renvoie une chaîne qui contient une collection de détails de personne et d’i
 HRESULT _stdcall GetPeopleDetails([in] BSTR personsAddresses, [out, retval] BSTR* personsCollection);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _personsAddresses_
   

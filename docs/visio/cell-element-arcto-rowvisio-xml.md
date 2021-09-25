@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 69f1a0cc-90fe-4b49-653c-bba4a1a2b1b2
 description: Contient la coordonnée x, la coordonnée y ou la courbe d’un arc circulaire.
-ms.openlocfilehash: 6d744366cda7db0f3950ed0962c7ba5bd01b8e36
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 1fd5bd3bb74c1c4b387e8fede3a576f2d816696d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538822"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628716"
 ---
 # <a name="cell-element-arcto-row-visio-xml"></a>Élément de cellule (ligne ArcTo) (Visio XML)
 
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[ArcTo_Type](arcto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x et y et la courbure d'un arc circulaire.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Contient la coordonnée x, la coordonnée y ou la courbe d’un arc circulaire.  <br/> |
    
@@ -68,6 +68,6 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |:-----|:-----|:-----|
 |A  <br/> |Distance entre le milieu de l'arc et le milieu de sa corde.  <br/> |[ArcTo, ligne (section Geometry)](arcto-row-geometry-section.md) <br/> |
 |X  <br/> |Coordonnée xdu sommet de fin d'un arc.  <br/> |[ArcTo, ligne (section Geometry)](arcto-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du sommet de fin d'un arc.  <br/> |[ArcTo, ligne (section Geometry)](arcto-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y du sommet de fin d'un arc.  <br/> |[ArcTo, ligne (section Geometry)](arcto-row-geometry-section.md) <br/> |
    
 

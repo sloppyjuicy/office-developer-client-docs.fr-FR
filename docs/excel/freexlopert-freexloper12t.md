@@ -9,19 +9,19 @@ f1_keywords:
 - FreeXLOperT
 keywords:
 - fonction freexlopert [excel 2007],Fonction FreeXLOper12T [Excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 0b604cbe5cb24ac7d8de28278dfbcf0d4fd92c7d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 182b933585902154d2211ceeaadddb6846938f05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421521"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568179"
 ---
 # <a name="freexlopertfreexloper12t"></a>FreeXLOperT/FreeXLOper12T
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Fonction Framework qui libère la mémoire associée à **une** /  **xlOPER XLOPER12**. La fonction suppose que la mémoire a été allouée avec des appels à malloc au sein de la DLL. Si la mémoire a été allouée par Microsoft Excel ou d’une autre manière ou par un autre processus, cette fonction ne doit pas être utilisée pour libérer la mémoire. Utilisez [xlFree pour](xlfree.md) libérer de la mémoire allouée par Excel **xlOPER** /  **XLOPER12** s. 
   
@@ -30,7 +30,7 @@ void FreeXLOperT(LPXLOPER pxloper);
 void FreeXLOper12T(LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pxloper_ (**LPXLOPER**)
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPersistMessage
 api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7eb65bbae2fca6648c3a701dfa5c83c5bf297ec5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1e95a52056f8ad9936e8071176fc2bd55e16acfc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309603"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587915"
 ---
 # <a name="ipersistmessage--iunknown"></a>IPersistMessage : IUnknown
 

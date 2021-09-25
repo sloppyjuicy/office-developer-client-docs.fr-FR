@@ -3,17 +3,17 @@ title: Mise en œuvre d’une visionneuse de formulaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a567185c-bd72-4307-928c-08cac5494c1a
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: bbd0792b0e3e3f274797fabd7f5d5eb49cfc73fd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 624bc14887f05052f69776d9862716bab3c9e47f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435816"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567353"
 ---
 # <a name="implementing-a-form-viewer"></a>Mise en œuvre d’une visionneuse de formulaires
 

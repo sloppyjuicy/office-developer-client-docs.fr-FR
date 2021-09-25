@@ -3,17 +3,17 @@ title: Allocation et libération de mémoire dans MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e238f6bc-e9f6-4ea4-a2e4-ff5da2a04bd5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 68250c5cbeaa366ed4555bb469c4e68d62302f28
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5a0d6dd27d36c6631e5a66e522fb1f0fe6223e11
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419666"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567864"
 ---
 # <a name="allocating-and-freeing-memory-in-mapi"></a>Allocation et libération de mémoire dans MAPI
 

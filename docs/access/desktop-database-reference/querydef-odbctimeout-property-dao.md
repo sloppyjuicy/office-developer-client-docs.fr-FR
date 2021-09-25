@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053052
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 2d34aee30e649b1c25ddc6af8078da2af9dd3b84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a79f403d49db1137d8b67d2dc7fb27b3ea140fc3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301000"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589238"
 ---
 # <a name="querydefodbctimeout-property-dao"></a>Propriété QueryDef.ODBCTimeout (DAO)
 

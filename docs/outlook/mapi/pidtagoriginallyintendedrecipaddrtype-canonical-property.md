@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginallyIntendedRecipAddrtype
 api_type:
 - COM
 ms.assetid: dcfb6bd5-bff5-4a50-aec7-4bdfdabf7631
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a826f1bdf150b42b61a61b2f53870e9f170e0777
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 012840aa8a19dee70f905e625c770fc36780f264
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416089"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619839"
 ---
 # <a name="pidtagoriginallyintendedrecipaddrtype-canonical-property"></a>Propriété canonique PidTagOriginallyIntendedRecipAddrtype
 
@@ -32,7 +32,7 @@ Contient le type d’adresse du destinataire initialement prévu d’un message 
 |Propriétés associées :  <br/> |PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE, PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_A, PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_W  <br/> |
 |Identificateur :  <br/> |0x007B  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Server  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

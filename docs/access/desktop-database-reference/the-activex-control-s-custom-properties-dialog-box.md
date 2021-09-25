@@ -11,13 +11,13 @@ f1_keywords:
 - vbaac10.chm4040
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: f4574abc86e6eacd38721e601d26c8b8fbf0a0d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 23b34df71d7bef984f16b32dd047aefb3f69d60a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314104"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588983"
 ---
 # <a name="activex-control-custom-properties-dialog-box"></a>Boîte de dialogue Propriétés personnalisées d’un contrôle ActiveX
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal649b5400-8dc5-cc5c-3455-f462e2d31689
+ms.localizationpriority: medium649b5400-8dc5-cc5c-3455-f462e2d31689
 ms.assetid: ''
 description: Identifie un utilisateur qui peut ou non avoir des données de libre/occupé disponibles.
-ms.openlocfilehash: 2511a94678f9ef8f2cb6be868db4f718d92ecb6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e3c67d8cf4e858fa6b5bdde7bb1714c5caacb484
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317660"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568039"
 ---
 # <a name="fbuser"></a>FBUser
 

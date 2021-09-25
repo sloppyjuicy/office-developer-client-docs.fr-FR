@@ -3,15 +3,15 @@ title: EditRecord Macro Action (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2096da45-4269-4a6d-a2bd-a3e1e510b071
 description: Place l’enregistrement actuel en mode édition.
-ms.openlocfilehash: 8cd2dbb388d7fe0111d6112ace8be53ad8fef9f8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 234b3894d65a52306b3abd8bc72a41140b29b6ea
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421745"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568277"
 ---
 # <a name="editrecord-macro-action-access-custom-web-app"></a>EditRecord Macro Action (Access custom web app)
 

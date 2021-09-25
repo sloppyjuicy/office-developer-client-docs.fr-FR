@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: decdd8fc-2184-4d97-b918-3ef6ab1ab40b
 description: Détermine si une chaîne de caractères spécifique correspond à un modèle spécifié. Un modèle peut inclure des caractères réguliers et des caractères génériques. Pendant la correspondance de modèle, les caractères réguliers doivent correspondre exactement aux caractères spécifiés dans la chaîne de caractères. Toutefois, les caractères génériques peuvent être en correspondance avec des fragments arbitraires de la chaîne de caractères. L’utilisation de caractères génériques rend l’opérateur LIKE plus flexible que l’utilisation des opérateurs de comparaison de chaînes = et !=.
-ms.openlocfilehash: 02d1e4f8fc61335e828a1f77579c14b1c7577485
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0ad520b8bf9acd10134f73c016c5ddc984e9e51a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406114"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568228"
 ---
 # <a name="like-access-custom-web-app"></a>LIKE (Application web personnalisée Access)
 

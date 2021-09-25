@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidUseTnef
 api_type:
 - COM
 ms.assetid: 954048d6-e2eb-43e7-b52c-c2f047bb84a4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 56f6e2355ee2e64cc766bafe27cd59454e210ab6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d5d38f98402c0804633d3bcb0f9ca196fa15795f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315420"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610054"
 ---
 # <a name="pidlidusetnef-canonical-property"></a>Propriété canonique PidLidUseTnef
 
