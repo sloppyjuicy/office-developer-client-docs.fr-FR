@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248928(v=office.15)
 ms:contentKeyID: 48543452
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: bb72b0a3d0e0b497b61925b05a2ee6b0c4b98960
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f49c2970c2121393a32933ff24fb0e2ef5fa47a3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290873"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562607"
 ---
 # <a name="item-property-example-vc"></a>Item, propriété – Exemple (VC++)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors*** de la base de données  ***Pubs*** avec une commande paramétrée.
+Cet exemple montre comment la propriété [Item](item-property-ado.md) accède aux membres d’une collection. L’exemple ouvre la table ***Authors** _ de la base de données _ *_Pubs_** avec une commande paramétisée.
 
 Le paramètre de la commande émise sur la base de données est accédé à partir de la collection [Parameters](command-object-ado.md) de l'objet [Command](parameters-collection-ado.md) par index et par nom. Les champs de l'objet [Recordset](recordset-object-ado.md) retourné sont ensuite accédés à partir de la collection [Fields](fields-collection-ado.md) de cet objet par index et par nom.
 

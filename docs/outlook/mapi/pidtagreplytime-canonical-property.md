@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagReplyTime
 api_type:
 - COM
 ms.assetid: d01f89bd-012e-4f08-9afa-e33aad9679a4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 32de1e55fa03825a1f6391d7883107e8a853f6d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1a8480090a49e5829ace2076a9a8081ad2fc88bd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346381"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587177"
 ---
 # <a name="pidtagreplytime-canonical-property"></a>Propriété canonique PidTagReplyTime
 

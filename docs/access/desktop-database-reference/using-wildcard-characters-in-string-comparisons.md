@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e6a013865b9615701b1d99678fc2392e0a896c54
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f46c1cd6ea03b671cf0048b0535d418742a6a673
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32305935"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572647"
 ---
 # <a name="using-wildcard-characters-in-string-comparisons"></a>Utilisation de caractères génériques dans les comparaisons de chaînes
 
@@ -60,7 +60,7 @@ Vous pouvez utiliser un groupe d’un ou plusieurs caractères *(liste* de carac
 
 Outre une simple liste de caractères encadrée par des crochets, *listecar* peut spécifier une plage de caractères en utilisant un tiret (-) pour séparer la borne supérieure et la borne inférieure de la plage. Par exemple, l’utilisation de A à Z dans le modèle entraîne une correspondance si la position du caractère correspondant dans l’expression contient l’une des lettres majuscules de la plage \[ \] A à Z.   Vous pouvez inclure plusieurs plages entre crochets sans les délimiter. Par exemple, \[ a-zA-Z0-9 correspond à tout \] caractère alphanumérique.
 
-Il est important de noter que les caractères génériques ANSI SQL (%) et ( ) sont disponibles uniquement avec Microsoft Jet version 4.X et le fournisseur \_ Microsoft OLE DB pour Jet. Ils sont interprétés comme des caractères littéraux lors de l'utilisation avec Microsoft Access ou DAO.
+Il est important de noter que les caractères génériques ANSI SQL (%) et ( ) sont uniquement disponibles avec Microsoft Jet version 4.X et le fournisseur \_ Microsoft OLE DB pour Jet. Ils sont interprétés comme des caractères littéraux lors de l'utilisation avec Microsoft Access ou DAO.
 
 Les autres règles importantes en matière de correspondance de chaîne sont les suivantes :
 

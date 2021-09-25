@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISession.Unadvise
 api_type:
 - COM
 ms.assetid: 5e608cb0-808d-4418-8521-71dcbce8cdff
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 98a5faca00f5877eb10110406875b46a69244d94
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3520d9e0debda29411b1cfa2a5ca1709c00ed235
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335699"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556545"
 ---
 # <a name="imapisessionunadvise"></a>IMAPISession::Unadvise
 
@@ -33,7 +33,7 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulConnection_
   

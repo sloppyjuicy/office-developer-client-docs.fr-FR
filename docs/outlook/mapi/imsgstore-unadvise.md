@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgStore.Unadvise
 api_type:
 - COM
 ms.assetid: 1394039b-d509-49a5-8421-b7362d906879
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f85b662b7fe710c66a2e69dd3cd3db22e3283ddb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6c0765e2764eced086f2de5c326449919d96b3fc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309722"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571660"
 ---
 # <a name="imsgstoreunadvise"></a>IMsgStore::Unadvise
 
@@ -33,7 +33,7 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulConnection_
   

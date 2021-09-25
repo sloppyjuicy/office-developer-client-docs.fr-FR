@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagComputerNetworkName
 api_type:
 - HeaderDef
 ms.assetid: 69467594-0d88-43e5-a6ab-9987a24cc846
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e670f7d4a822356bc9804b2e1b11d9316f51658e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 82f65a071caceb75f44c3779b8fae33f0c0ceb05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571079"
 ---
 # <a name="pidtagcomputernetworkname-canonical-property"></a>Propriété canonique PidTagComputerNetworkName
 

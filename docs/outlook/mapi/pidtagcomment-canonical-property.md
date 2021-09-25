@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagComment
 api_type:
 - HeaderDef
 ms.assetid: 5750cf95-8581-43a7-a465-f4114b2939f2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7226996d85a1f919cfa54d588c04116dd2d24375
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bfb5b873f75cc138a946c57523167fca1ac3d5d9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336805"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571184"
 ---
 # <a name="pidtagcomment-canonical-property"></a>Propriété canonique PidTagComment
 

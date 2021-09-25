@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMSProvider.CompareStoreIDs
 api_type:
 - COM
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 734e53c1e897c902c72319aa6f2d3d7af2d23fb6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: af34b77eb1a6fe8809d1910c03c80c2fea46fbf6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431707"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579774"
 ---
 # <a name="imsprovidercomparestoreids"></a>IMSProvider::CompareStoreIDs
 
@@ -38,7 +38,7 @@ HRESULT CompareStoreIDs(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbEntryID1_
   

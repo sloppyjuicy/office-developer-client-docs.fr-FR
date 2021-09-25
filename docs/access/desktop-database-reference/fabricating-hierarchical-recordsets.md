@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248836(v=office.15)
 ms:contentKeyID: 48543153
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f644f25a04c5573a93aa106884473fed6b45440e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2cf3af43e288fc95bc7a8b21f90955f1061ac050
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293202"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552961"
 ---
 # <a name="fabricating-hierarchical-recordsets"></a>Fabrication de recordsets hiérarchiques
 

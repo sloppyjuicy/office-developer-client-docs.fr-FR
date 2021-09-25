@@ -3,17 +3,17 @@ title: Mise en œuvre d’un indicateur de progression
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3a062a88-e87e-4c0c-944e-544a8f080930
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6972c960705c336aa6ff96d81b48ccbd490a22ee
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 831523a9ce7c9b0713b86289ddc3fef7a423d5b8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435095"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556454"
 ---
 # <a name="implementing-a-progress-indicator"></a>Mise en œuvre d’un indicateur de progression
 

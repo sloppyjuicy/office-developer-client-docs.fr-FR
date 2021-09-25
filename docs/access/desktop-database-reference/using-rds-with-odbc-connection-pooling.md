@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249437(v=office.15)
 ms:contentKeyID: 48545513
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 87d380fdc52cdee2aa834fd6e78ff1b761a0e93a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 95111c2698fd6a2efd85a889fcc2a3b40691e68f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32312116"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572661"
 ---
 # <a name="using-rds-with-odbc-connection-pooling"></a>Utilisation RDS avec le regroupement de connexion ODBC
 

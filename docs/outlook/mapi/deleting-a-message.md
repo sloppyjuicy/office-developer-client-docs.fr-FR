@@ -3,17 +3,17 @@ title: Suppression d’un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9ed166b4-6b7b-478f-bbe5-4115bb818ac0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 663eebfcd1b8862b22d8c822957024c4f31499de
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dc8f6886f324f38d195f79727af0f0542e8534cd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556804"
 ---
 # <a name="deleting-a-message"></a>Suppression d’un message
 

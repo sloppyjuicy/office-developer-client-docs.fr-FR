@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
 ms:contentKeyID: 48543144
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 566c1e01242f1ac3711211e5f87ff4d176d5c594
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: afdd9a1fd2228b75d37826b08bdbe4ae36acac6a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314601"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552527"
 ---
 # <a name="setoptionenum-enumeration-dao"></a>SetOptionEnum, éumération (DAO)
 
@@ -62,7 +62,7 @@ Cette énumération est utilisée avec la méthode **SetOption** pour spécifier
 </tr>
 <tr class="even">
 <td><p>dbMaxBufferSize</p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>Clé MaxBufferSize.</p></td>
 </tr>
 <tr class="odd">
@@ -72,7 +72,7 @@ Cette énumération est utilisée avec la méthode **SetOption** pour spécifier
 </tr>
 <tr class="even">
 <td><p>dbPageTimeout</p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td><p>Clé PageTimeout.</p></td>
 </tr>
 <tr class="odd">

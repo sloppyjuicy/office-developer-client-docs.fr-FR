@@ -3,17 +3,17 @@ title: Noms des propriétés et jeux de propriétés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fa9d6afcaf1b360f37e8c8873c9d1a823fcd4888
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3dafe9fa75dee6f626197d8974c407dec7ad5a90
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328545"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586844"
 ---
 # <a name="property-names-and-property-sets"></a>Noms des propriétés et jeux de propriétés
 

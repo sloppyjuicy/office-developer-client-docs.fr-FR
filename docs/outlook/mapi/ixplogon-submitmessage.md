@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IXPLogon.SubmitMessage
 api_type:
 - COM
 ms.assetid: a261ba0d-cb56-4935-b745-1d4bbd0b8b9d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ae124cb94cff5be0a655386d31f1bf2c82f66a85
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0d7a58e0aea54c40f44609dcf51e968762f04edf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423320"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571548"
 ---
 # <a name="ixplogonsubmitmessage"></a>IXPLogon::SubmitMessage
 
@@ -36,7 +36,7 @@ HRESULT SubmitMessage(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagJunkAddRecipientsToSafeSendersList
 api_type:
 - HeaderDef
 ms.assetid: 78543caa-e6ec-4ac7-bfdd-70c56f8fd955
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3a87beaa3873b5ccb449e5b1497262bad5bf1497
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9bad8ceba8bc964fcb1d3c531ccb8a4e9d63d386
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282367"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587530"
 ---
 # <a name="pidtagjunkaddrecipientstosafesenderslist-canonical-property"></a>Propriété canonique PidTagJunkAddRecipientsToSafeSendersList
 

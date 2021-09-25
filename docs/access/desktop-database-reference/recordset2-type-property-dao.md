@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052880
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 6646658daf482373ef8b62f6d3420b1d11152cac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 33b4b67da528360640030a2278979327553263a0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307174"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572780"
 ---
 # <a name="recordset2type-property-dao"></a>Recordset2.Type, propriété (DAO)
 

@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm118713
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: efa763a77250e1d5c617358f31421804c772468b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d30b60680065fd3d949e64b11789e6fe6bc3b80c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314643"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572717"
 ---
 # <a name="searchforrecord-macro-action"></a>SearchForRecord, action de macro
 
@@ -121,7 +121,7 @@ L’action **RechercherEnregistrement** accepte les arguments suivants.
     
   - Vous pouvez faire référence à des champs qui se trouvent dans la source d’enregistrement d’un formulaire ou d’un état mais qui n’apparaissent pas dans le formulaire ou l’état. Dans l’exemple précédent, ni Description ni CategoryID ne doivent apparaître dans le formulaire ou l’état pour que les critères fonctionnent.
     
-  - Vous pouvez utiliser des opérateurs logiques, tels que **\<**, **\>**, **ET**, **OU** et **ENTRE**. L'action **TrouverEnregistrement** ne produit que des résultats qui sont égaux à, commencent par ou contiennent la chaîne recherchée.
+  - Vous pouvez utiliser des opérateurs logiques, tels **\<**, **\>** que , **AND**, **OR** et **BETWEEN**. L’action **TrouverEnregistrement** ne produit que des résultats qui sont égaux à, commencent par ou contiennent la chaîne recherchée.
 
 ## <a name="example"></a>Exemple
 

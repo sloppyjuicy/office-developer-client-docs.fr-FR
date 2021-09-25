@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContainerClass
 api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c5b80831607f473208ce987a720c7e80e44b6d80
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 423e5d5cbb2cd66f4bd47c76ef93998420072593
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283148"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571100"
 ---
 # <a name="pidtagcontainerclass-canonical-property"></a>Propriété canonique PidTagContainerClass
 
@@ -32,7 +32,7 @@ Contient une chaîne de texte décrivant le type d’un dossier. Bien que cette 
 |Propriétés associées :  <br/> |PR_CONTAINER_CLASS, PR_CONTAINER_CLASS_A, PR_CONTAINER_CLASS_W  <br/> |
 |Identificateur :  <br/> |0x3613  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Container  <br/> |
+|Domaine :  <br/> |Conteneur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

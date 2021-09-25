@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FNIDLE
 api_type:
 - COM
 ms.assetid: f6b31bb4-69dd-43de-b62b-abfa99557641
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 534f4da15bba5f38bec4cde91206694f8691cbc6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 070ae4c5381dd22e43ed92680c7d3db30c1352ee
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556741"
 ---
 # <a name="fnidle"></a>FNIDLE
  
@@ -38,7 +38,7 @@ BOOL (STDAPICALLTYPE FNIDLE)(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpvContext_
   

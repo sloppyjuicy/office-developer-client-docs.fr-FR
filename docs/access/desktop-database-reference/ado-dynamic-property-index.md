@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249202(v=office.15)
 ms:contentKeyID: 48544502
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2bfe788923d623300edac28f0f27534b3ffd8b32
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 039cb85a1867c84b74627e83621a43fca5f11fc4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283400"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553437"
 ---
 # <a name="ado-dynamic-property-index"></a>Index des propriétés dynamiques ADO
 

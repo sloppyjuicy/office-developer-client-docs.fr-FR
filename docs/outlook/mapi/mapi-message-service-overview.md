@@ -3,17 +3,17 @@ title: Vue d’ensemble du service de message MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8973cdcee2b10346d0ba07033357b50f7e9a6a27
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b4463dcadb73eb44aadd16cb75eb9750968a57bb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406254"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579606"
 ---
 # <a name="mapi-message-service-overview"></a>Vue d’ensemble du service de message MAPI
   
@@ -27,7 +27,7 @@ La figure suivante illustre la relation entre une application cliente basée sur
   
 **Installation et configuration du service de messagerie**
   
-![Installation et configuration du service de message et configuration]du service de(media/amapi_44.gif "message")
+![Installation et configuration du service de messagerie](media/amapi_44.gif "Installation et configuration du service de messagerie")
   
 L’utilisateur appelle le code d’installation de chaque service de messagerie pour ajouter le service et ses fournisseurs de services à un profil. Dans l’un des services de messagerie illustrés dans la figure, il existe trois fournisseurs de services ; dans l’autre service de messagerie, il existe deux fournisseurs de services. Une fois l’installation terminée, généralement au moment de l’installation, les fournisseurs de services de chaque service de messagerie sont configurés. Le code de configuration de chaque service de message gère la configuration des fournisseurs dans le service.
   

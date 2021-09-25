@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.LPFNBUTTON
 api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 804bd23a148b942fd4580d1e3465fc1f65ff5978
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 05cce66e06e32162abf6f3183ed9c7b94d24e9b7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431511"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556209"
 ---
 # <a name="lpfnbutton"></a>LPFNBUTTON
 
@@ -43,7 +43,7 @@ SCODE (STDMETHODCALLTYPE FAR * LPFNBUTTON)(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulUIParam_
   

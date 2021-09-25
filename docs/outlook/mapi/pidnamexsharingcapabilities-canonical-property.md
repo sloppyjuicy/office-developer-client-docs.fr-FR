@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameXSharingCapabilities
 api_type:
 - COM
 ms.assetid: 62319e45-b627-4e5a-b76d-2517bf515956
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3977dc5b05275ee2029158fca8a2c272ee6a1ebd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b360065d4c5e816f14cb886460fed8d1460fc475
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571268"
 ---
 # <a name="pidnamexsharingcapabilities-canonical-property"></a>Propriété canonique PidNameXSharingCapabilities
 

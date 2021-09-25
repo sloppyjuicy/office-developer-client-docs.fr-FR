@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249454(v=office.15)
 ms:contentKeyID: 48545591
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b004f5e952f471ef6c39e4fa40dc9ae6a5a2fce0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7476c34ce07faa763838beddf50cf10ea89481fc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291677"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562628"
 ---
 # <a name="indexes-append-method-example-vb"></a>Indexes Append, méthode – Exemple (VB)
 

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIForm.ShutdownForm
 api_type:
 - COM
 ms.assetid: f1e2a526-40ad-4a93-908f-8ab9a65928a8
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 073a76766a296d86e7a23809921b832d494a8f1b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d0aebc6236a4c364262904baa96fd1d1139c43ca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329476"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571800"
 ---
 # <a name="imapiformshutdownform"></a>IMAPIForm::ShutdownForm
 
@@ -33,7 +33,7 @@ HRESULT ShutdownForm(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulSaveOptions_
   

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195587(v=office.15)
 ms:contentKeyID: 48545538
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 201b284a56fbd3030b41a95424b41c73ee13e385
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a8850aa9ea4dc07abdac7e37943438be34916ffd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308644"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552513"
 ---
 # <a name="showallrecords-macro-action"></a>ShowAllRecords, action de macro
 

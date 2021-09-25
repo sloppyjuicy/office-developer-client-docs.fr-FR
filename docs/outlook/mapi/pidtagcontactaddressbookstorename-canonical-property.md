@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContactAddressBookStoreName
 api_type:
 - HeaderDef
 ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2eb427b99ecef9a6b78b5f7bd92bfbf6e214702f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6faf42fa27fa9fb1f9b7384ba1321753d53df4ad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414010"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571113"
 ---
 # <a name="pidtagcontactaddressbookstorename-canonical-property"></a>Propriété canonique PidTagContactAddressBookStoreName
 

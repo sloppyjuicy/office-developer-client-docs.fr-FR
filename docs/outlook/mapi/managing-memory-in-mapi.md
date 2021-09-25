@@ -3,17 +3,17 @@ title: Gestion de la mémoire dans MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 66489c09be641d8fe9ae5f3ffff46a6d5004f473
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 19a91c02bfb5ba3cd446643ac7039841f17d1a05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298095"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571513"
 ---
 # <a name="managing-memory-in-mapi"></a>Gestion de la mémoire dans MAPI
 

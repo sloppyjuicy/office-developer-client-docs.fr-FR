@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginalSubmitTime
 api_type:
 - COM
 ms.assetid: 2e027c0c-2370-437a-ad98-2bbb5e41e525
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 07aea33f54a29d497646b62f1f8bd96a383cbd7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 34e2d6813367e3fae8fe23009b55fe49edf31718
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341047"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587383"
 ---
 # <a name="pidtagoriginalsubmittime-canonical-property"></a>Propriété canonique PidTagOriginalSubmitTime
 

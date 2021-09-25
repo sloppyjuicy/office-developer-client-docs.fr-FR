@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAttachPayloadClass
 api_type:
 - HeaderDef
 ms.assetid: bc4de217-8241-45e7-9e97-8f0c1b16691a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6a84e51325fcb60c54c2f6b42af0c26a0efd3382
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c4f762357f5af180532de5c3685e0e384a198bd4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327236"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571191"
 ---
 # <a name="pidtagattachpayloadclass-canonical-property"></a>Propriété canonique PidTagAttachPayloadClass
 

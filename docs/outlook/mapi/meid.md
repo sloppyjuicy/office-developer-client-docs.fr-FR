@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
 description: 'Last modified: July 03, 2012'
-ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 81bc97456d0b8ed3cce7071afdd445583a6f0a1d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430307"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571422"
 ---
 # <a name="meid"></a>MEID
 

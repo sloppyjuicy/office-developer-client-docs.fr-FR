@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameManager
 api_type:
 - COM
 ms.assetid: d1883d22-5eca-4d00-8222-3fc74782c7a9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aef8eb4c9f65b5075f12c33768098fb1b6dac095
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 889fde8c253e865e8e1bddab1906112976d998de
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335314"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571261"
 ---
 # <a name="pidnamemanager-canonical-property"></a>Propriété canonique PidNameManager
 
@@ -31,7 +31,7 @@ Spécifie le responsable du fichier joint au document.
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |Manager  <br/> |
+|Nom de la propriété :  <br/> |Responsable  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Courant  <br/> |
    

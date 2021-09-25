@@ -3,17 +3,17 @@ title: Connexion à MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: cce43301ac73a5646e263b2ab92700e57804637d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: df5bb9c117c568889af18c4fd1accd6589390d5f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419708"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579629"
 ---
 # <a name="logging-on-to-mapi"></a>Connexion à MAPI
  

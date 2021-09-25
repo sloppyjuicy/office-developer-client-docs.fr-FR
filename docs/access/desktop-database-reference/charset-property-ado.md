@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
 ms:contentKeyID: 48544551
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ca4640940c217fd81cac4ba1d8ffaf769b506fe0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ca38e10402a8353d6a32a8cd288bd72ce4ec60e2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296387"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562831"
 ---
 # <a name="charset-property-ado"></a>Charset, propriété (ADO)
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249304(v=office.15)
 ms:contentKeyID: 48545023
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f8c479c430dd6d0ca742fefb4948544d31ba2e61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a92d778bcad1f2c58bfc2997f6ac112cc9f6049d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308938"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572745"
 ---
 # <a name="schema-section"></a>Section Schéma
 
@@ -148,7 +148,7 @@ Les exemples suivants illustrent l'insertion d'informations de type dans un sch�
 <s:AttributeType name="title_id" dt:type="int"/> 
 ```
 
-Le deuxième exemple présente une utilisation subtile de l'attribut **rs:fixedlength**. Une colonne dont l'attribut **rs:fixedlength** a la valeur True signifie que les données doivent avoir la longueur définie dans le schéma. Dans ce cas, une valeur légale pour l’ID de titre est « \_ 123456 », tout comme « 123 ». Toutefois, « 123 » ne sera pas une valeur conforme car sa longueur est de trois caractères et non six. Pour plus d'informations sur la propriété **fixedlength**, consultez le manuel OLE DB Programmer's Guide (en anglais).
+Le deuxième exemple présente une utilisation subtile de l'attribut **rs:fixedlength**. Une colonne dont l'attribut **rs:fixedlength** a la valeur True signifie que les données doivent avoir la longueur définie dans le schéma. Dans ce cas, une valeur légale pour l’ID de titre est « 123456 », tout comme \_ « 123 ». Toutefois, « 123 » ne sera pas une valeur conforme car sa longueur est de trois caractères et non six. Pour plus d'informations sur la propriété **fixedlength**, consultez le manuel OLE DB Programmer's Guide (en anglais).
 
 ## <a name="handling-nulls"></a>Gestion des valeurs Null
 

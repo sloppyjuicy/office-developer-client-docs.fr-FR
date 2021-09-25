@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPITable
 api_type:
 - COM
 ms.assetid: f25be2b1-0f94-4a0c-b29d-d2201dc70ab7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d6a13799da4ef9315f9c23317fa18853d71c72f9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8a7e5e2d599f64eeb8c9a33c45ba91e8820e2210
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420114"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556476"
 ---
 # <a name="imapitable--iunknown"></a>IMAPITable : IUnknown
 

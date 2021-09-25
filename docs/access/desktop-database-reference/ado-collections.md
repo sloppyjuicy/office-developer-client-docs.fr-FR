@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
 ms:contentKeyID: 48546833
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ddaab78582429e201e563c01bb3195f585216cbe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 293666598da5ee48ea1a348aba36a9d0a39a0495
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281707"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553493"
 ---
 # <a name="ado-collections"></a>Collections ADO
 

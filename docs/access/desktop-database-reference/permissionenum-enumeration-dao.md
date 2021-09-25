@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835373(v=office.15)
 ms:contentKeyID: 48548147
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8d4f6741bd6203dbdeffb364650b5e3550ea8b1c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 063f643724bea71ac8af6ce13f8eb3b888ae3f7c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287709"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562488"
 ---
 # <a name="permissionenum-enumeration-dao"></a>PermissionEnum, éumération (DAO)
 
@@ -42,7 +42,7 @@ Cette énumération est utilisée avec la propriété **Permissions** pour spéc
 </tr>
 <tr class="even">
 <td><p>dbSecDBAdmin</p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>L'utilisateur peut répliquer une base de données et modifier le mot de passe de la base de données (non valide pour les objets Document).</p></td>
 </tr>
 <tr class="odd">

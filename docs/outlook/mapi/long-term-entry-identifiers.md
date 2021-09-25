@@ -3,17 +3,17 @@ title: Long-Term d’entrée de données
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a514275e-40c2-48db-8072-1dfc392a7ac6
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b65656992681618aa8a1c53217bdd7101bc2502b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eeb134dd883c2f8b4687be0feb83c88e6b45eb05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409222"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571533"
 ---
 # <a name="long-term-entry-identifiers"></a>Long-Term d’entrée de données
 

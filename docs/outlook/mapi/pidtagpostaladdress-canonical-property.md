@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagPostalAddress
 api_type:
 - COM
 ms.assetid: cf400713-3b42-4ee7-9dea-d52b8bf03ac3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f6f67572914ae7dbcc6e6d6b992fb2f8ee463117
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7b5e99d5e33887ee7fc102e78fd02afc7d71d09c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338695"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599732"
 ---
 # <a name="pidtagpostaladdress-canonical-property"></a>Propriété canonique PidTagPostalAddress
 

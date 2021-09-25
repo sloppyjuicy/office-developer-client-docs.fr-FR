@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835760(v=office.15)
 ms:contentKeyID: 48548322
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 475a02c7593188a987a2196663d67d19a5aed0c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e6615333b258fdbd32d45bb5b1ee8e16cd3d85cd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293811"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562726"
 ---
 # <a name="documentdatecreated-property-dao"></a>Document.DateCreated, propriété (DAO)
 

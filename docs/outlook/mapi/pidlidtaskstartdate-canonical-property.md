@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskStartDate
 api_type:
 - COM
 ms.assetid: fe87eb3d-21d1-45bb-b848-e141ce1be6a0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3bc475292e47a9ad8dd9565e17640ef95e7b3c76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 83f57ad55ab5011c9252f5f88f2fff06984394ba
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316680"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579368"
 ---
 # <a name="pidlidtaskstartdate-canonical-property"></a>Propriété canonique PidLidTaskStartDate
 

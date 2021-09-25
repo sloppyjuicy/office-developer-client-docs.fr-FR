@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249394(v=office.15)
 ms:contentKeyID: 48545332
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 226d930f0f4e532a1de4633c00cd72472a94fac1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d599c0f040087a674b89f03c2e35329cb082218d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288594"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552786"
 ---
 # <a name="navigating-through-the-data"></a>Navigation dans les données
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagReceivedByEntryId
 api_type:
 - COM
 ms.assetid: 737f8584-fc52-4324-ac40-2fc554a3095d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2f0203fc787ced9a0198be10c238f6245cb15144
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 93d1f98aa7bf5f9c387cec7ff745e57f5728605f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359219"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587243"
 ---
 # <a name="pidtagreceivedbyentryid-canonical-property"></a>Propriété canonique PidTagReceivedByEntryId
 

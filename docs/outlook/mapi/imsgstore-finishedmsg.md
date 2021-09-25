@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgStore.FinishedMsg
 api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9e7d7ba91791258eca93a2b8bedf95cf121062c5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 45047ea14fe364f8c4d33275ba771d01f77e5110
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427086"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571674"
 ---
 # <a name="imsgstorefinishedmsg"></a>IMsgStore::FinishedMsg
 
@@ -35,7 +35,7 @@ HRESULT FinishedMsg(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

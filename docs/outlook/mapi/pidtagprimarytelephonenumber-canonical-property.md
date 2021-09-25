@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagPrimaryTelephoneNumbe
 api_type:
 - COM
 ms.assetid: eac130cd-51d1-4c73-a301-a7eafa3b7749
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6dd71ff9dd1f39b6ede70f5a3662d1223819033a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f6054d2d37fbbfe70af7ecc19fc7e18b4c2886a8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339241"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599711"
 ---
 # <a name="pidtagprimarytelephonenumber-canonical-property"></a>Propriété canonique PidTagPrimaryTelephoneNumber
 

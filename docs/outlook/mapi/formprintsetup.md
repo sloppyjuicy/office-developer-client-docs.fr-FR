@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FORMPRINTSETUP
 api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c2b9176e21341ef28e6f0bc007757b097a05daee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 589cb1260c5986b8a93da4bfc4dae4624ac3f018
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327285"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556705"
 ---
 # <a name="formprintsetup"></a>FORMPRINTSETUP
 

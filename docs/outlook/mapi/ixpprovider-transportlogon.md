@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IXPProvider.TransportLogon
 api_type:
 - COM
 ms.assetid: 534929f2-36a2-463d-8c4c-d86060cde127
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 53b2733dbf38d680027dc00ecf5513f384e46660
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ab5b98ce47e35c820227bea9d666904026fbd76e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417307"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579715"
 ---
 # <a name="ixpprovidertransportlogon"></a>IXPProvider::TransportLogon
 
@@ -36,7 +36,7 @@ HRESULT TransportLogon(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _lpMAPISup_: [in] Pointeur vers l’objet de support du fournisseur de transport pour les fonctions de rappel dans MAPI pour cette session. Cet objet reste valide jusqu’à ce que le fournisseur de transport le relâche.
     

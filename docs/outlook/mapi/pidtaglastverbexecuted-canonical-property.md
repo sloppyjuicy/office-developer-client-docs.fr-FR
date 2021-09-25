@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagLastVerbExecuted
 api_type:
 - HeaderDef
 ms.assetid: 502f0261-697f-41bf-8530-75e1d0f503e5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9abd4eb955428595ebe41ab9b2c661303ee2779a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4e5e13f54cf33542ac8a73a28e5cfb948e484dba
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279614"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587537"
 ---
 # <a name="pidtaglastverbexecuted-canonical-property"></a>Propriété canonique PidTagLastVerbExecuted
 
@@ -41,7 +41,7 @@ Cette propriété peut avoir l’une des valeurs suivantes :
 |**Verb**|**Valeur de la propriété**|
 |:-----|:-----|
 |Publication  <br/> |0x00000001  <br/> |
-|Autre  <br/> |0x00000003  <br/> |
+|Autres  <br/> |0x00000003  <br/> |
 |Lire le courrier électronique  <br/> |0x00000100  <br/> |
 |Courrier non lu  <br/> |0x00000101  <br/> |
 |Courrier envoyé  <br/> |0x00000102  <br/> |

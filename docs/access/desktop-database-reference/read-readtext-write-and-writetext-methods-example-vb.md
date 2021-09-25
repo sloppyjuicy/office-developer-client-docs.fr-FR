@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248911(v=office.15)
 ms:contentKeyID: 48543377
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 44e961d7b3f4b12d8801429ecb78a1a186f5547a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 205fb492c63cf8bc0257298f117a3a966cd1cc3f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301014"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552688"
 ---
 # <a name="read-readtext-write-and-writetext-methods-example-vb"></a>Read, ReadText, Write et WriteText, méthodes – Exemple (VB)
 

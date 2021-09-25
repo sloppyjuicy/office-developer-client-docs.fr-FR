@@ -3,17 +3,17 @@ title: Définition d’une position de tableau avec un filtre
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0d66124b-a018-4db4-b55b-a0e5ed467e14
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6b21d6746baf438af438787d966d9af886d4a74f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 677312ddc1f5a62d553ccbcb91f675ed31a1979d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586718"
 ---
 # <a name="setting-a-table-position-with-a-filter"></a>Définition d’une position de tableau avec un filtre
 

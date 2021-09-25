@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPropData.HrSetObjAccess
 api_type:
 - COM
 ms.assetid: 01bd3235-22cc-4ff3-b2b6-341ce622128b
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 4e478c9e8978125a37691ee5bd97fa9f1cbce077
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 12e25a49cdb25e253ee0e7033214970c36b11732
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425154"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579746"
 ---
 # <a name="ipropdatahrsetobjaccess"></a>IPropData::HrSetObjAccess
 
@@ -33,7 +33,7 @@ HRESULT HrSetObjAccess(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulAccess_
   

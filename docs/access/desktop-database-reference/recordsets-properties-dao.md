@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125147(v=office.15)
 ms:contentKeyID: 52073272
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 19dc38d23a5514ae8f3472cfbce2815ea39ef90f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 19477db2900965394b7774cad96d8ce32aae9444
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309309"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552555"
 ---
 # <a name="recordsets-properties-dao"></a>Recordsets, propriétés (DAO)
 

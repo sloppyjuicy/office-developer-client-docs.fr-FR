@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.MAPIOpenLocalFormContainer
 api_type:
 - COM
 ms.assetid: 1c53170f-03a6-4a05-913e-de8eeadea692
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ace31079c51aac169f6091af0cb363e7f05f0d14
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4be35e9e337a4013023c1ab48138f104ea1b2842
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427737"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579460"
 ---
 # <a name="mapiopenlocalformcontainer"></a>MAPIOpenLocalFormContainer
 
@@ -39,7 +39,7 @@ MAPIOpenLocalFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ppfcnt_
   

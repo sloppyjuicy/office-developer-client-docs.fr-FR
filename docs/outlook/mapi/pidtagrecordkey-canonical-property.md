@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRecordKey
 api_type:
 - COM
 ms.assetid: a12fb9a2-799d-4112-b26c-4b2854c47cc2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7a3ae7db1fb97e97f7d0939b67f139af62477bf7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 96e509e1348bf3996d1f73d2f7a14d4f386774f3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355264"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587208"
 ---
 # <a name="pidtagrecordkey-canonical-property"></a>Propriété canonique PidTagRecordKey
 

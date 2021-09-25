@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125729(v=office.15)
 ms:contentKeyID: 52074602
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 7832be1c02fd7ef9a2de74c20507999ca626e1f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 4ab0c073771e84c3cda1fc4f47bb9a7b3d98332c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295092"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562768"
 ---
 # <a name="data-definition-language-microsoft-access-sql"></a>Langage de définition de données (SQL Microsoft Access)
 

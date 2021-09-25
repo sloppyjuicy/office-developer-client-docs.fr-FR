@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOtherAddressPostalCode
 api_type:
 - COM
 ms.assetid: 8f6f0491-2a77-4faf-aa8f-303ebf0ea411
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 636a31a897b472bbeee80b930fe91d0e946dbc9e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 56ef4431b654e83c6e815296faa6b137780179ad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599739"
 ---
 # <a name="pidtagotheraddresspostalcode-canonical-property"></a>Propriété canonique PidTagOtherAddressPostalCode
 

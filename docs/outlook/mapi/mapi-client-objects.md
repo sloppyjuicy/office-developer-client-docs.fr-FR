@@ -3,17 +3,17 @@ title: Objets clients MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6e78c80d861a5a56584bfb03bfdf2895efde8730
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cea1d2df5d446887bf4ea3d8768a34456a67df98
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412407"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579655"
 ---
 # <a name="mapi-client-objects"></a>Objets clients MAPI
   

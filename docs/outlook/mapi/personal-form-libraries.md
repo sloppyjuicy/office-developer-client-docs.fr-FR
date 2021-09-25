@@ -3,17 +3,17 @@ title: Bibliothèques de formulaires personnels
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6ffcd93c-3737-4342-9cd0-2ca7c0fba52c
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c84665077f9c8e02647a4d348042515366b0c090
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1d49cb5c464c27fd121a680d95c588bc7916f232
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420408"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571345"
 ---
 # <a name="personal-form-libraries"></a>Bibliothèques de formulaires personnels
 

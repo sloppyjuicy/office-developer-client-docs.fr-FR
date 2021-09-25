@@ -3,17 +3,17 @@ title: MAPI Message Classes
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 64ef2bbb-585c-4908-8ad4-a1c954057e9b
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b2ab5d56c53216152a83ca207ff5ba1d53c9049d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a6e78051b095643b49bc8386364904618105467a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412085"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579599"
 ---
 # <a name="mapi-message-classes"></a>MAPI Message Classes
 

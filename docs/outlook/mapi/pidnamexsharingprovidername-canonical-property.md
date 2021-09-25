@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameXSharingProviderName
 api_type:
 - COM
 ms.assetid: 4d385754-5132-4ae3-9e5d-686d58857b5b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a56a93f425ccba36229e262c0e93815ffc998017
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6a3ccda8aee3b1ccb2004201e479e3382290f6f0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315882"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571275"
 ---
 # <a name="pidnamexsharingprovidername-canonical-property"></a>Propriété canonique PidNameXSharingProviderName
 

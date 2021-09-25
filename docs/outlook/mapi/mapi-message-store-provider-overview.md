@@ -3,17 +3,17 @@ title: Vue d’ensemble du fournisseur de magasin de messages MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eae44469-b217-4d05-b47f-5a0b1fab7056
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5d4ef074523cd654c3db2d686494d9a4f864e7cb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dce839bdeb067abb3702919faad9782a53ebde18
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429312"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556167"
 ---
 # <a name="mapi-message-store-provider-overview"></a>Vue d’ensemble du fournisseur de magasin de messages MAPI
   
@@ -25,7 +25,7 @@ L’illustration suivante illustre l’architecture hiérarchique de la boutique
   
 **Architecture de banque de messages**
   
-![Architecture de la boutique de messages -]Architecture de la boutique de(media/amapi_03.gif "messages")
+![Architecture de banque de messages](media/amapi_03.gif "Architecture de banque de messages")
   
 La figure montre deux dossiers, un avec un sous-dossier. Les utilisateurs de l’application cliente peuvent accéder à un affichage récapitulatif des messages contenus dans chaque dossier ou les afficher individuellement avec un formulaire. Le fait que le client affiche un formulaire standard que MAPI fournit ou un formulaire personnalisé qu’un développeur de formulaire fournit dépend du type ou de la classe du message. Le premier dossier contient les messages de note et utilise le formulaire de note standard MAPI. Le deuxième dossier contient les messages de demande d’inventaire et utilise un formulaire d’inventaire personnalisé. Les informations des deux formulaires représentent les propriétés du message.
   

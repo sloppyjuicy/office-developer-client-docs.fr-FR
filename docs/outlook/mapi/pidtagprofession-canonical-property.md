@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagProcessed
 api_type:
 - COM
 ms.assetid: 3ee0070b-11ac-4add-9c19-4558a1f88577
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8b261a934d3af7fb80ca77ad2e176638b683effa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 375ac973bf36f9a0c282b610f3b20116818ac627
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351337"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587275"
 ---
 # <a name="pidtagprofession-canonical-property"></a>Propriété canonique PidTagProfession
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagPreprocess
 api_type:
 - COM
 ms.assetid: c59a6ce9-6b1f-4395-961e-c3af2945f05e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d573916682e4857b367a898d22f2cff5af47ef27
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 297846a44e255ee519d04e42b2a5b05cf70a9d91
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435382"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587295"
 ---
 # <a name="pidtagpreprocess-canonical-property"></a>Propriété canonique PidTagPreprocess
 

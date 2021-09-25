@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSendInternetEncoding
 api_type:
 - COM
 ms.assetid: ae408b4f-dee3-484b-a19c-f472cfa95996
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e157fa640026d13362084b30ad73cdb66a0b35b5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 92bfef3b339649b18b755cfa231954ebec84d4fe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342671"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586970"
 ---
 # <a name="pidtagsendinternetencoding-canonical-property"></a>Propriété canonique PidTagSendInternetEncoding
 

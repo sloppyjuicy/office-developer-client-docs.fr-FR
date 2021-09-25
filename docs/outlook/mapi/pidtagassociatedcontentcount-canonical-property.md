@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAssociatedContentCount
 api_type:
 - HeaderDef
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f301bb50cc0d28126040a80cccb5d4e5566aebac
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a27754bc62a87ce8c6601c3d774bd2135b4f58ec
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421318"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571205"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>Propriété canonique PidTagAssociatedContentCount
 
@@ -32,7 +32,7 @@ Contient le nombre d’éléments dans la table des matières associée du dossi
 |Propriétés associées :  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |Identificateur :  <br/> |0x3617  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Dossier  <br/> |
+|Domaine :  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123881(v=office.15)
 ms:contentKeyID: 52071521
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: a08e91bfc1172c0a06a8c39eb9221d7f810c8f89
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 6fde22a92d946596fdad785ac5d118f7391adadd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289051"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552835"
 ---
 # <a name="microsoft-access-sql-reference"></a>Référence Microsoft Access SQL
 

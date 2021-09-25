@@ -3,17 +3,17 @@ title: Enregistrement d’un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 97bff16b-dc7c-4eed-8834-d0c076d83ca3
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d5ceeb46bded101700aec696a17d690bde80ce6d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: af55a8a8a48be1ee92cb11ea8e793ac2afef2a1d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420930"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586823"
 ---
 # <a name="saving-a-message"></a>Enregistrement d’un message
 

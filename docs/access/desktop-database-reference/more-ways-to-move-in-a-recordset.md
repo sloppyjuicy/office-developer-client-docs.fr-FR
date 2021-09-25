@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249822(v=office.15)
 ms:contentKeyID: 48547067
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2d10a493aac39934a047c6fa311233fd6c9fac4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d671ba680992f17cf8eab8d36559cb4b88d3b43c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288861"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552807"
 ---
 # <a name="more-ways-to-move-in-a-recordset"></a>Autres méthodes pour se déplacer dans un recordset
 

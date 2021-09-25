@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250261(v=office.15)
 ms:contentKeyID: 48548780
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1cd3d1bec0848255179d37af481e57685ff5322c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: fc4a3665c37e82a2f6291a995b4b0862f581b3af
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306510"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562285"
 ---
 # <a name="resync-method-example-vj"></a>Resync, méthode – Exemple (VJ++)
 

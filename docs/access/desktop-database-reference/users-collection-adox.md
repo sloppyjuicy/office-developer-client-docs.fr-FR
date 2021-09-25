@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249905(v=office.15)
 ms:contentKeyID: 48547413
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 24d7a5cab3260dac80b39e5134938c5f55175851
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7502c378ac3f18ee5cda233342c9a249ba5ac619
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32312935"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562089"
 ---
 # <a name="users-collection-adox"></a>Users, collection (ADOX)
 

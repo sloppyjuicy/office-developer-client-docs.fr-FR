@@ -3,17 +3,17 @@ title: Création d’une restriction
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 38182abd922cd5806a14b6541c22ce675b997387
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5036a4989c8a25cecbe31c20512f8f46fec80c54
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422509"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556923"
 ---
 # <a name="building-a-restriction"></a>Création d’une restriction
 
@@ -29,7 +29,7 @@ Les deuxième et troisième membres du tableau sont plus simples. Elles pointent
   
 **Implémentation de restriction**
   
-![Implémentation de restriction d’implémentation](media/amapi_61.gif "Restriction")
+![Implémentation de restriction](media/amapi_61.gif "Implémentation de restriction")
   
 ## <a name="see-also"></a>Voir aussi
 

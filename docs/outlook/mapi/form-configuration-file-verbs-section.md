@@ -3,17 +3,17 @@ title: Section Fichier de configuration de formulaire [Verbes]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e7e1f371-9e9a-4bec-a0b3-87753a16f5e0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: bb7d49d69fadab54212ff7e8b50ac969e4890c0a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e9eb46f67d205d118c2eef77bd789cd76beff394
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417783"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556699"
 ---
 # <a name="form-configuration-file-verbs-section"></a>Section Fichier de configuration de formulaire [Verbes]
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameKeywords
 api_type:
 - COM
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 90e5b370dace12dbe529465259b8551516fda491
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9e97670402aa98e03f784aa31f93758eae989def
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338058"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571282"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>Propriété canonique PidNameKeywords
 

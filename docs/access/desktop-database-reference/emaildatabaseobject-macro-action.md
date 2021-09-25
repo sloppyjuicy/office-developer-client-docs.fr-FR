@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 15cb7d6c422a9d7b0fae17ab649b6cfbc1b497a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 36524db4773b1b2882bcd5f1864fa2cadad00a70
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293566"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553003"
 ---
 # <a name="emaildatabaseobject-macro-action"></a>EMailDatabaseObject, action de macro
 
@@ -53,7 +53,7 @@ L’action **EnvoyerObjetBaseDeDonnées** utilise les arguments suivants :
 </tr>
 <tr class="odd">
 <td><p><strong>Format de sortie</strong></p></td>
-<td><p>Type de format que vous souhaitez utiliser pour l’objet inclus. La liste des formats que vous pouvez sélectionner change en fonction de ce que vous sélectionnez pour <strong>l’argument Type d’objet.</strong> Les formats disponibles peuvent inclure <strong>Excel 97 - Excel 2003 Workbook (*.xls),</strong> <strong>Excel Binary Workbook (*.xlsb),</strong> <strong>Excel Workbook (*.xlsx)</strong>, <strong>HTML (*.htm, *.html)</strong>, <strong>Microsoft Excel 5.0/95 Workbook (*.xls)</strong>, <strong>PDF Format</strong>, Rich Text <strong>Fomat (*.rtf)</strong>, <strong>Text Files (*.txt)</strong>ou <strong>XPS Format (*.xps)</strong>. dans la <strong>zone Format de</strong> sortie. Les modules ne peuvent être envoyés qu’au format texte. Les pages d’accès aux données peuvent uniquement être envoyées au format HTML. Si vous laissez cet argument vide, Access vous demande de spécifier le format de sortie.</p></td>
+<td><p>Type de format que vous souhaitez utiliser pour l’objet inclus. La liste des formats que vous pouvez sélectionner change en fonction de ce que vous sélectionnez pour <strong>l’argument Type d’objet.</strong> Les formats disponibles peuvent inclure <strong>Excel 97 - Excel 2003 Workbook (*.xls)</strong>, <strong>Excel Binary Workbook (*.xlsb),</strong> <strong>Excel Workbook (*.xlsx)</strong>, <strong>HTML (*.htm, *.html)</strong>, <strong>Microsoft Excel 5.0/95 Workbook (*.xls)</strong>, <strong>PDF Format</strong>, Rich Text <strong>Fomat (*.rtf)</strong>, <strong>Text Files (*.txt)</strong>ou <strong>XPS Format (*. xps)</strong>. dans la <strong>zone Format de</strong> sortie. Les modules ne peuvent être envoyés qu’au format texte. Les pages d’accès aux données peuvent uniquement être envoyées au format HTML. Si vous laissez cet argument vide, Access vous demande de spécifier le format de sortie.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>To</strong></p></td>

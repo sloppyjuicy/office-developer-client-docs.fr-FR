@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.HRESULT
 api_type:
 - COM
 ms.assetid: 2348cce1-07c3-49ed-ae03-79e477d3c6c2
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4208f51af44055b03c65b51c9b3d94e947dc9b68
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 781d0a0485740f5f13175307a5d5c6939d7d71fe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430132"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586760"
 ---
 # <a name="scode"></a>SCODE
 

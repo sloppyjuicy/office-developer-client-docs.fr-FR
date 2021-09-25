@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgServiceAdmin.DeleteMsgService
 api_type:
 - COM
 ms.assetid: 3a6b34eb-9d46-488f-8d02-91b27c35de67
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6cef03e33abab81a407698b73a007f247ef88194
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 053ead29442c847a0b5a786263845a1dc8a6c6ef
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407381"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556426"
 ---
 # <a name="imsgserviceadmindeletemsgservice"></a>IMsgServiceAdmin::DeleteMsgService
 
@@ -33,7 +33,7 @@ HRESULT DeleteMsgService(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpuid_
   

@@ -3,17 +3,17 @@ title: Bibliothèques de formulaires MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 120749ca-a740-4a57-bc70-529e238f4415
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 81dc4e9dda28f4c0a4ea83afdd5cb28bae5b40dd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eb40b283b40e2346dff679fc52049a986cebff41
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411112"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571429"
 ---
 # <a name="mapi-form-libraries"></a>Bibliothèques de formulaires MAPI
 

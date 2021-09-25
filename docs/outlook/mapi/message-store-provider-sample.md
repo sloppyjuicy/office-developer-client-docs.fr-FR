@@ -3,17 +3,17 @@ title: Exemple de fournisseur de magasin de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f1e4077b-7a95-440d-a326-a8dc9cdab4fe
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eb51881aac6e1953a21686857944ba2a15d0dca2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c9cd4c62dfff127763494c2edab0a3ec47ee9413
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436866"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571415"
 ---
 # <a name="message-store-provider-sample"></a>Exemple de fournisseur de magasin de messages
 
@@ -52,7 +52,7 @@ Cet exemple prend en charge Microsoft Outlook 2010 64 bits et a été révisé O
   
 1. Pour télécharger l’exemple de fournisseur PST Wrapped, voir Téléchargement des exemples [Outlook MAPI.](downloading-the-outlook-mapi-samples.md)
     
-2. Recherchez le dossier dans lequel vous avez enregistré Outlook exemples MAPI. Cliquez avec le bouton droit sur le dossier zip du numéro de **\< \> version d’OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
+2. Recherchez le dossier dans lequel vous avez enregistré Outlook exemples MAPI. Cliquez avec le bouton droit **sur \<version number\> le dossier Zip OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
     
 3. Cliquez **sur Parcourir,** sélectionnez l’emplacement où vous souhaitez enregistrer l’exemple, puis cliquez sur **Extraire.**
     

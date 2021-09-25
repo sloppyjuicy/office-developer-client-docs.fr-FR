@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IProfSect
 api_type:
 - COM
 ms.assetid: 4e704044-5230-4521-a0d2-b7c2f981c954
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 99ce944bec94a1e832f77fa8b0916ac1c76f6dc6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3046e8e71af92015ca5fd40e8a81c2afa8db89ff
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406597"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571569"
 ---
 # <a name="iprofsect--imapiprop"></a>IProfSect : IMAPIProp
 

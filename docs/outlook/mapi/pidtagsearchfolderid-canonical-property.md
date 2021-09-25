@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSearchFolderId
 api_type:
 - COM
 ms.assetid: 2a587d8c-f28b-45a6-a3da-cc33052988dc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a8de27358e0987e8f686cc11ab4b02a0bd07f6c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7d806d5306b2584e163ad48b0086b55e89b5744b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336490"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587005"
 ---
 # <a name="pidtagsearchfolderid-canonical-property"></a>Propriété canonique PidTagSearchFolderId
 
@@ -32,7 +32,7 @@ Contient un identificateur global unique (GUID) qui identifie le dossier de rech
 |Propriétés associées :  <br/> |PR_WB_SF_ID  <br/> |
 |Identificateur :  <br/> |0x6842  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Recherche  <br/> |
+|Domaine :  <br/> |Rechercher  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

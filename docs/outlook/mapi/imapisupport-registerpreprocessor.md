@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.RegisterPreprocessor
 api_type:
 - COM
 ms.assetid: 9b5659ab-2b49-41ab-92ce-ca343e35d670
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 58215de6cc4e9e68386f8f017839752acc6e1753
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2d427dbf998a04f36e384baa7f029baa755b5d73
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404896"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556503"
 ---
 # <a name="imapisupportregisterpreprocessor"></a>IMAPISupport::RegisterPreprocessor
 
@@ -38,7 +38,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpMuid_
   

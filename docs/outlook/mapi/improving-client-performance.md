@@ -3,17 +3,17 @@ title: Amélioration des performances du client
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 35d68d27-7e58-4484-be55-a64f467c75cd
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: abf54a7c4c449c0e89bc1f647e7657f6850f4fd5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 81dd3edadbca6f8f903c0848b56e7c614fb44aef
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405960"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571709"
 ---
 # <a name="improving-client-performance"></a>Amélioration des performances du client
  

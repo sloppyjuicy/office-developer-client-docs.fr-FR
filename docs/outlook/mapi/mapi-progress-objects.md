@@ -3,17 +3,17 @@ title: Objets de progression MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 73d905028f8f62ad8cbb9da9b1ad61b8cab1065e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f47abaa8892d6deadbe89eb6c05a152c84f7377f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422025"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579571"
 ---
 # <a name="mapi-progress-objects"></a>Objets de progression MAPI
 

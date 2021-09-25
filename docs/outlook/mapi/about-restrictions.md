@@ -3,17 +3,17 @@ title: À propos des restrictions
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e119fa20-08b8-4c8d-93fc-56037220890d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 139526937380273703a96f91f2bae02a79debc76
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 127e88eef946a4cf9417adbc1860a492cfe825cd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433107"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557007"
 ---
 # <a name="about-restrictions"></a>À propos des restrictions
 

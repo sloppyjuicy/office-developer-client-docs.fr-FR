@@ -3,17 +3,17 @@ title: Objets implémentés par MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 86aa8451b5b127764134f1a3a905366fd014d0c3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 230b7483f284d57a9473502c9c8f21f0f7d85160
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430629"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556181"
 ---
 # <a name="mapi-implemented-objects"></a>Objets implémentés par MAPI
   
@@ -50,7 +50,7 @@ L’illustration suivante montre la relation entre les objets implémentés par 
   
 **Objets implémentés par MAPI**
   
-![Objets implémentés](media/amapi_68.gif "") par MAPI
+![Objets implémentés par MAPI](media/amapi_68.gif "Objets implémentés par MAPI")
   
 ## <a name="see-also"></a>Voir aussi
 

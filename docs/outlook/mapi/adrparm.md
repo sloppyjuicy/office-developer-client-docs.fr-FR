@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ADRPARM
 api_type:
 - COM
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9663a25a50d914f47cff48124898d16318bbbc43
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e6f449728d985de1d263c25ee20239c64a4ad735
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425896"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556951"
 ---
 # <a name="adrparm"></a>ADRPARM
 

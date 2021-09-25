@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm147125
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 5051cfd74f2a745ee430f2ed8a20445d2f9965f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b9f746bc0024b4882454bca686ab6170c3c0b446
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306754"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552534"
 ---
 # <a name="removetempvar-macro-action"></a>RemoveTempVar, action de macro
 

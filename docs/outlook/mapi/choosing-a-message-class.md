@@ -3,17 +3,17 @@ title: Choix d’une classe de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5ca8edd2-41b7-40e2-b755-b28eecb49786
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 279df7f07c8c8b66347488c6224d04f70292e968
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cc7d2f6dc251a280738d2857e46a5d898fde3017
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428052"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556839"
 ---
 # <a name="choosing-a-message-class"></a>Choix d’une classe de message
 

@@ -3,17 +3,17 @@ title: MAPI re�oivent des dossiers
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2e1287a3-0f15-4d9a-b7ee-738fce9cd51f
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: b22b8641d55037d3755fc9ae32b97455223bbd12
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 738d1f28e72e477fcedab46191b600db187877cc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431938"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556153"
 ---
 # <a name="mapi-receive-folders"></a>MAPI re�oivent des dossiers
 

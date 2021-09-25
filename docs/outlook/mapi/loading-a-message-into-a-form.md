@@ -3,17 +3,17 @@ title: Chargement d’un message dans un formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4bdbe021-d694-4967-a105-4b24f1eebc44
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: afecd3b334dd2cf7b2953916872982e6459a8434
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e50eb3a88d39d28721d38f4bfa6c06f19da5e59c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412414"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579713"
 ---
 # <a name="loading-a-message-into-a-form"></a>Chargement d’un message dans un formulaire
 

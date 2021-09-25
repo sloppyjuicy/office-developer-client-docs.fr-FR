@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPSTOVERRIDE1.GetPersistedRegistrations
 api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 822b4164737aa6010ccce108b544410104ac023d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 397eb3ecfeb245a6afe91be98a5def4c35ba4873
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415130"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579753"
 ---
 # <a name="ipstoverride1getpersistedregistrations"></a>IPSTOVERRIDE1::GetPersistedRegistrations
 
@@ -31,7 +31,7 @@ Extrait la liste des inscriptions pour le fichier de dossiers personnels (.pst).
 HRESULT GetPersistedRegistration(SPropValue **ppmval);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ppmval_
   

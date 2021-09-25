@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInternetReturnPath
 api_type:
 - HeaderDef
 ms.assetid: 4530dbcf-9436-4f29-b79e-1bb0f791f60b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c2d8eaf627f789c3e862a83d71e4ca2e3e55e1e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a249ea20688712b31ec068668a1be0dadaa4b884
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327957"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587557"
 ---
 # <a name="pidtaginternetreturnpath-canonical-property"></a>Propriété canonique PidTagInternetReturnPath
 

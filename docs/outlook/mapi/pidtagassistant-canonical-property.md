@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAssistant
 api_type:
 - HeaderDef
 ms.assetid: 24892aff-5a98-4d61-b740-17f74f8ae95d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 855e40052cdeec0f3e12cb2fab8c808c5b715544
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 82ab3e68ef157a07b5b3fff1a22c2542ae506130
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327942"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571219"
 ---
 # <a name="pidtagassistant-canonical-property"></a>Propriété canonique PidTagAssistant
 

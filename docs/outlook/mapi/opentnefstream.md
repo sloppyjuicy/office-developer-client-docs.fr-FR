@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.OpenTnefStream
 api_type:
 - COM
 ms.assetid: 912d7799-53ce-42a7-9fbd-f9a6a3a56047
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 524b52026010b9a06d5822b48b7c04bbf90a113e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bcda2b9445fca40ba2f67e25b3d6ae7a949ceb52
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423957"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571380"
 ---
 # <a name="opentnefstream"></a>OpenTnefStream
 
@@ -43,7 +43,7 @@ HRESULT OpenTnefStream(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _lpvSupport_
   

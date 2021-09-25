@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSearchFolderLastUsed
 api_type:
 - COM
 ms.assetid: e4071307-6205-4079-ab65-7499d14f145c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7ff6df6eddc8e610341cb09ccb152f4ad748a984
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ead7acc202025d8a9381fbf1cf3593afbb60c1aa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586984"
 ---
 # <a name="pidtagsearchfolderlastused-canonical-property"></a>Propriété canonique PidTagSearchFolderLastUsed
 
@@ -32,7 +32,7 @@ Représente la dernière fois que le dossier a été accédé.
 |Propriétés associées :  <br/> |PR_WB_SF_LAST_USED  <br/> |
 |Identificateur :  <br/> |0x6834  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Recherche  <br/> |
+|Domaine :  <br/> |Rechercher  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -3,17 +3,17 @@ title: Initialisation de MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 22ee8157-d74e-4a94-9c76-b9ac736d5211
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5fde3e7eda8d98eb5080fff360616649b1eb96a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7efde83b40ca62fcd19d430f9b261789bac55e18
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309729"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556349"
 ---
 # <a name="initializing-mapi"></a>Initialisation de MAPI
 

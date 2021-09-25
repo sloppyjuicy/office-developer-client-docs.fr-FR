@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgStore.GetOutgoingQueue
 api_type:
 - COM
 ms.assetid: 8316ff89-104d-43fd-902b-476fe567e23b
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8ccb732dd587b2e5107290b2db7c48e85d0145d4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 91cd01e3160ac0f02cf17248c25290480b3e9107
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434150"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556405"
 ---
 # <a name="imsgstoregetoutgoingqueue"></a>IMsgStore::GetOutgoingQueue
 
@@ -34,7 +34,7 @@ HRESULT GetOutgoingQueue(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

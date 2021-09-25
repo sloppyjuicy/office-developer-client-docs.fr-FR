@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250245(v=office.15)
 ms:contentKeyID: 48548699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: eadc448d59814f0573a959c6c1038f9c4afdbac9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e8edb920e5a4786a8e5bfb7908dd942b8172eb9a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306453"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552520"
 ---
 # <a name="shape-compute-clause"></a>Shape Compute, clause
 
@@ -98,12 +98,12 @@ Par exemple, supposons que nous disposons d'une table, Demographics, comportant 
 <td><p>700,000</p></td>
 </tr>
 <tr class="even">
-<td><p>OU</p></td>
+<td><p>OR</p></td>
 <td><p>Medford</p></td>
 <td><p>200 000</p></td>
 </tr>
 <tr class="odd">
-<td><p>OU</p></td>
+<td><p>OR</p></td>
 <td><p>Portland</p></td>
 <td><p>400,000</p></td>
 </tr>
@@ -120,10 +120,10 @@ Par exemple, supposons que nous disposons d'une table, Demographics, comportant 
 <tr class="even">
 <td><p>WA</p></td>
 <td><p>Centre d’ments</p></td>
-<td><p>500 000</p></td>
+<td><p>500 000</p></td>
 </tr>
 <tr class="odd">
-<td><p>OU</p></td>
+<td><p>OR</p></td>
 <td><p>Corvallis</p></td>
 <td><p>300,000</p></td>
 </tr>
@@ -177,7 +177,7 @@ Vous pouvez désormais parcourir l'objet **Recordset** parent et accéder aux ob
 <tr class="odd">
 <td><p>1,100,000</p></td>
 <td><p>Référence à Enfant 3</p></td>
-<td><p>OU</p></td>
+<td><p>OR</p></td>
 </tr>
 </tbody>
 </table>
@@ -237,7 +237,7 @@ Vous pouvez désormais parcourir l'objet **Recordset** parent et accéder aux ob
 <tr class="even">
 <td><p>WA</p></td>
 <td><p>Centre d’ments</p></td>
-<td><p>500 000</p></td>
+<td><p>500 000</p></td>
 </tr>
 </tbody>
 </table>
@@ -260,17 +260,17 @@ Vous pouvez désormais parcourir l'objet **Recordset** parent et accéder aux ob
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>OU</p></td>
+<td><p>OR</p></td>
 <td><p>Medford</p></td>
 <td><p>200 000</p></td>
 </tr>
 <tr class="even">
-<td><p>OU</p></td>
+<td><p>OR</p></td>
 <td><p>Portland</p></td>
 <td><p>400,000</p></td>
 </tr>
 <tr class="odd">
-<td><p>OU</p></td>
+<td><p>OR</p></td>
 <td><p>Corvallis</p></td>
 <td><p>300,000</p></td>
 </tr>

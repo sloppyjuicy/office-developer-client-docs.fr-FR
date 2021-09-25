@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052886
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 2d328160b6c88de61a041c54bcd6f305b73c26da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: fa77494e65148c23e4c65bf2acc81f14359b7c7a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309442"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572829"
 ---
 # <a name="recordset2eof-property-dao"></a>Recordset2.EOF, propriété (DAO)
 

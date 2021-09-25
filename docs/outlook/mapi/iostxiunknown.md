@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IOSTX
 api_type:
 - COM
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6d7de4d6c14179ddaba4e2ad907f1acc1c53b125
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9fd43e4a0e01e774231ddd250a5f20df175f6981
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431994"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556335"
 ---
 # <a name="iostx--iunknown"></a>IOSTX : IUnknown
 

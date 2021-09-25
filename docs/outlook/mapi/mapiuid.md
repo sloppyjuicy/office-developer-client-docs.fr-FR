@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.MAPIUID
 api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: da314205f7d2dd746b72aa7e2b5ff2a13bb0c21b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 807d517c2856c52ca47838f0927db44b0b7dda68
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432204"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579465"
 ---
 # <a name="mapiuid"></a>MAPIUID
 

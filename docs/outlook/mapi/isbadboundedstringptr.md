@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 888c60e3-7376-4d66-8ee2-ce81abafb185
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9d5ebb0e16138c3cc65ff6fd7c635e5498c9c1ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 00675aada9e2f7a9524552d1e3e0c71ea8d59683
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556272"
 ---
 # <a name="isbadboundedstringptr"></a>IsBadBoundedStringPtr
 
@@ -36,7 +36,7 @@ BOOL IsBadBoundedStringPtr(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpsz_
   

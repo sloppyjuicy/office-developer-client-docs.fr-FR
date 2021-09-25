@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248866(v=office.15)
 ms:contentKeyID: 48543270
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8bf2234e5935c2a1a13871e7e45c980fb9f33109
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4b39946c0288de29714eb8416242670c761557dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32312060"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562026"
 ---
 # <a name="using-visual-c-extensions"></a>Utilisation d’extensions Visual C++
 
@@ -112,7 +112,7 @@ _**Entrées de liaison de fin**_
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -209,27 +209,27 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="even">
 <td><p><strong>adFldSignMismatch</strong></p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>La valeur est signée et le type de données de la variable ne l'est pas.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldDataOverFlow</strong></p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td><p>La valeur est supérieure à la capacité de stockage du type de données de la variable.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldCantCreate</strong></p></td>
-<td><p>7 </p></td>
+<td><p>7 </p></td>
 <td><p>Type de colonne inconnu et champ déjà ouvert.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFldUnavailable</strong></p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>La valeur du champ n'a pas pu être déterminée, par exemple, sur un nouveau champ non assigné et ne comportant aucune valeur par défaut.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFldPermissionDenied</strong></p></td>
-<td><p>9 </p></td>
+<td><p>9 </p></td>
 <td><p>Lors d'une mise à jour, absence d'autorisation d'écriture des données.</p></td>
 </tr>
 <tr class="odd">
@@ -244,7 +244,7 @@ Lorsque vous définissez les données, vous pouvez affecter à *État* la valeur
 </tr>
 <tr class="odd">
 <td><p><strong>adFldBadStatus</strong></p></td>
-<td><p>12 </p></td>
+<td><p>12 </p></td>
 <td><p>Lors d'une mise à jour, paramètre d'état incorrect.</p></td>
 </tr>
 <tr class="even">

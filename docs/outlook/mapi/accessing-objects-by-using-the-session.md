@@ -3,17 +3,17 @@ title: Accès aux objets à l’aide de la session
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a76397b74642aedf9ad5c9704735d869f61db7e3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: da0ee486979d02f70f24fed2e6e63a5ce5277564
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410538"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556979"
 ---
 # <a name="accessing-objects-by-using-the-session"></a>Accès aux objets à l’aide de la session
 
@@ -41,7 +41,7 @@ Avec la **méthode OpenEntry et** un identificateur d’entrée valide, vous pou
 |Session  <br/> |[IMAPISession::OpenEntry](imapisession-openentry.md) <br/> |
 |Magasin de messages  <br/> |[IMsgStore::OpenEntry](imsgstore-openentry.md) <br/> |
 |Objet d’ouverture de messagerie du fournisseur de magasins de messages  <br/> |[IMSLogon::OpenEntry](imslogon-openentry.md) <br/> |
-|Dossier  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
+|Folder  <br/> |[IMAPIContainer::OpenEntry](imapicontainer-openentry.md) <br/> |
 |Objet Support  <br/> |[IMAPISupport::OpenEntry](imapisupport-openentry.md) <br/> |
    
 Certaines **méthodes OpenEntry** nécessitent l’ouverture d’un identificateur d’entrée de l’objet, tout comme **IMAPISession::OpenEntry**; d’autres méthodes permettent de spécifier la valeur NULL. Un identificateur d’entrée NULL est interprété différemment en fonction de l’objet. Par exemple, lorsque vous appelez **IAddrBook::OpenEntry** avec un identificateur d’entrée NULL, MAPI ouvre le conteneur racine du carnet d’adresses. La méthode **OpenEntry** de la boutique de messages se comporte de la même manière . il ouvre le dossier racine de la boutique de messages. **IMAPIContainer::OpenEntry**, implémenté par les conteneurs de dossiers et de carnet d’adresses, peut renvoyer MAPI_E_INVALID_PARAMETER ou le conteneur racine, en fonction de l’implémenteur. 

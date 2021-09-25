@@ -3,17 +3,17 @@ title: Jeux de caractères MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: fbe63916-b3eb-4ea7-bc42-80a8b0281b03
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 898883d8c93b69762883a502b7a4313b3417d0d3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a98a9731f9d08f5a223a34faaaa4e14756559ef5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417552"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556202"
 ---
 # <a name="mapi-character-sets"></a>Jeux de caractères MAPI
 

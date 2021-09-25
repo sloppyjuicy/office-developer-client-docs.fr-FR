@@ -3,15 +3,15 @@ title: Algorithme permettant de coder les ID d’entrée et les ID de pièce joi
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9ae6679-99b7-6509-74d4-12aa13d54928
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6c39fe513be122f265fdc316629a3e64a156fdc1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eb8ace42381002d96a4a89e2a9b7eb36898d7927
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420135"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556930"
 ---
 # <a name="algorithm-to-encode-entry-ids-and-attachment-ids"></a>Algorithme permettant de coder les ID d’entrée et les ID de pièce jointe
 

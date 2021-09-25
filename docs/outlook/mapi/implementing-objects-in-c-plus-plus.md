@@ -3,17 +3,17 @@ title: Implémentation des objets dans C++
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 89247ca1b263d6f06af73f1ffa14709a2aff23de
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2b471dc260731aedc3b97a134a0facee1ef7471e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432953"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579882"
 ---
 # <a name="implementing-objects-in-c"></a>Implémentation des objets dans C++
 

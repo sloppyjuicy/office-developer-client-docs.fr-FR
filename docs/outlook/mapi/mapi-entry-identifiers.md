@@ -3,17 +3,17 @@ title: Identificateurs d’entrée MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 84c37696-da7a-42e0-b8c0-29658a6c9a48
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4c414b9f8a1d70fd5eea94da326674a749ccefe2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cdd5486bc68a6799c4da2d44ffc033176d6ada31
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414962"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579613"
 ---
 # <a name="mapi-entry-identifiers"></a>Identificateurs d’entrée MAPI
 

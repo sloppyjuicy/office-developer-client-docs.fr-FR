@@ -3,17 +3,17 @@ title: Tables des matières
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7b8efb4e-b5be-41b8-81bb-9aa1da421433
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 491381c771cae65e682acc8033b6558523847d3d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8114190a263ffbcc72344cd3a051a427238ecb0f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435585"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556825"
 ---
 # <a name="contents-tables"></a>Tables des matières
 

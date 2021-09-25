@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 41fdaf333084b7d567f4e67ae9fd2638a1731349
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 578cdaeaba7ea88249d5f87f5b5ebca2ab28e51d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409663"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571247"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>Propriété canonique PidTagAddressBookChooseDirectoryAutomatically
 

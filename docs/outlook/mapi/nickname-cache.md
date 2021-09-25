@@ -3,15 +3,15 @@ title: Cache de surnoms
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2813c102-6778-4443-ab4b-b573f3568705
 description: 'Last modified: January 30, 2013'
-ms.openlocfilehash: 841b01ae8dfcf841b0a1d64113ce7258c4c61583
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6c1074086f4aec413c09fdfe3ca8e7b879f083e4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334516"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579452"
 ---
 # <a name="nickname-cache"></a>Cache de surnoms
 
@@ -41,7 +41,7 @@ Pour Outlook 2007, le flux de la mise à jour automatique est stocké dans un fi
   
  **Outlook 2010 et Outlook 2013**
   
-Outlook 2010 ou Outlook 2013 lit le flux de la mise à correspondance automatique à partir d’un message dans la table Contenu associé de la boîte de réception de la banque de remise du compte de messagerie. Ce message masqué a une classe de message et l’objet de IPM.Configuration. Autocomplete. Le flux de mise à jour automatique est stocké sur ce message dans la propriété PR_ROAMING_BINARYSTREAM ( Propriété canonique[PidTagRoamingBinary](pidtagroamingbinary-canonical-property.md)). Les données de la mise en cache automatique peuvent être temporairement mises en cache dans un fichier .dat de mise à jour automatique situé dans %USERPROFILE%\AppData\Local\Microsoft\Outlook\RoamCache. Toutefois, le fichier .dat n’est qu’un cache et n’est pas utilisé pour écrire dans le magasin de remise lorsque l’utilisateur quitte Outlook 2010 ou Outlook 2013.
+Outlook 2010 ou Outlook 2013 lit le flux de la mise à correspondance automatique à partir d’un message dans la table Contenu associé de la boîte de réception de la banque de remise du compte de messagerie. Ce message masqué a une classe de message et l’objet de IPM. Configuration.Autocomplete. Le flux de mise à jour automatique est stocké sur ce message dans la propriété PR_ROAMING_BINARYSTREAM ( Propriété canonique[PidTagRoamingBinary](pidtagroamingbinary-canonical-property.md)). Les données de la mise en cache automatique peuvent être temporairement mises en cache dans un fichier .dat de mise à jour automatique situé dans %USERPROFILE%\AppData\Local\Microsoft\Outlook\RoamCache. Toutefois, le fichier .dat n’est qu’un cache et n’est pas utilisé pour écrire dans le magasin de remise lorsque l’utilisateur quitte Outlook 2010 ou Outlook 2013.
   
 ## <a name="loading-the-autocomplete-stream"></a>Chargement du flux de la mise àcomplet automatique
 

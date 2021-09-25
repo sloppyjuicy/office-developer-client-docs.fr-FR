@@ -1,17 +1,17 @@
 ---
-title: À propos de la définition de l’ordre de résolution pour les listes d’adresses dans Outlook
+title: � propos de la d�finition de l'ordre de r�solution des listes d'adresses dans Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: 'Dernière modification : 05 juillet 2012'
-ms.openlocfilehash: 07a4c3e90f686f291f95ff87f337b54d8bf35edc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.openlocfilehash: d5c4a771417e8556e499e50f3476b08d50157e79
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321832"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556993"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>À propos de la définition de l’ordre de résolution pour les listes d’adresses dans Outlook
 
@@ -19,7 +19,7 @@ ms.locfileid: "32321832"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Pour chaque profil, Microsoft Office Outlook prend en charge plusieurs listes d’adresses et les utilisateurs peuvent indiquer manuellement l’ordre des listes d’adresses dans lequel les destinataires des messages électroniques et les participants inclus dans les demandes de réunion sont résolus. Par exemple, vous pouvez définir l’ordre de résolution afin que les noms soient résolus en premier par rapport à votre carnet d’adresses Outlook, puis par rapport à la liste d’adresses globale. Sur un ordinateur, un utilisateur peut ouvrir le carnet d’adresses, cliquer sur **Outils**, puis sur **Options** pour indiquer l’ordre de résolution. Toutefois, dans un environnement d’entreprise, la solution la plus efficace pour les administrateurs informatiques consiste à définir par programmation l’ordre des listes d’adresses dans lequel les noms sont résolus. Ce type de code peut être utilisé dans le cadre d’un script d’automatisation du démarrage qu’un administrateur déploie au sein de l’entreprise. 
+Pour chaque profil, Microsoft Office Outlook prend en charge plusieurs listes d’adresses et les utilisateurs peuvent indiquer manuellement l’ordre des listes d’adresses dans lequel les destinataires des messages électroniques et les participants inclus dans les demandes de réunion sont résolus. Par exemple, vous pouvez définir l’ordre de résolution afin que les noms soient résolus en premier par rapport à votre carnet d’adresses Outlook, puis par rapport à la liste d’adresses globale. Sur un ordinateur, un utilisateur peut ouvrir le carnet d'adresses, cliquez sur **Outils**, puis sur **Options** pour sp�cifier l'ordre de r�solution. Toutefois, dans un environnement d'entreprise, il est plus efficace pour les administrateurs informatiques � d�finir par programme l'ordre des listes d'adresses par lequel les noms sont r�solus. Ce code peut �tre utilis� dans le cadre d'un script d'automation de d�marrage par un administrateur � l'int�rieur de l'entreprise. 
   
 MAPI prend en charge la méthode **[SetSearchPath](iaddrbook-getsearchpath.md)** dans l’interface **[IAddrBook](iaddrbookimapiprop.md)**, ce qui vous permet de définir un nouveau chemin de recherche dans le profil utilisé pour la résolution de noms. Pour utiliser la méthode **IAddrBook::SetSearchPath**, vous devez indiquer l’ordre de résolution de votre choix à l’aide d’un tableau qui conserve les conteneurs des carnets d’adresses pertinents dans l’ordre dans lequel ils doivent être résolus. Chaque entrée de ce tableau doit également contenir l’ID d’entrée du carnet d’adresses correspondant. 
   

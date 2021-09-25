@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - OpenStreamOnFileW
 api_type:
 - COM
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7e67d84320b57fe6e510b70a68088f289ef6030d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bc4bd3f9a5e6c2d8d084ff9bdd1fa1c79781fa29
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406023"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579445"
 ---
 # <a name="openstreamonfilew"></a>OpenStreamOnFileW
 
@@ -44,7 +44,7 @@ HRESULT STDMETHODCALLTYPE OpenStreamOnFileW(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpAllocateBuffer_
   

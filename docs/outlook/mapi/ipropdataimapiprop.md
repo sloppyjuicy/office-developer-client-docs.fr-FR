@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPropData
 api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aed9120ac264a6c47c9d02502093e56d3268d08a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a590f5188d33d7fac0600f341d2c0fdef755b8e0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435144"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579739"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 

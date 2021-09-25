@@ -3,17 +3,17 @@ title: Types d’adresse MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eee97982-29be-4dcf-ae11-8a38f0080ea7
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b0ff4ecff7a6e834f1e017adc11244657896db03
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c6faae3c477c221d2395b28a7104f15621378a89
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405435"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579630"
 ---
 # <a name="mapi-address-types"></a>Types d’adresse MAPI
 

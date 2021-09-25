@@ -3,17 +3,17 @@ title: Dossiers MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8fac3c92-d2f5-479e-a368-ca82bddd8e30
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 6c00dce9ec489ca2b886f3e51551ba57e9eeea33
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 527e72cdd1aa59542bec4fe49ab39c7e7ce0eff8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421843"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571436"
 ---
 # <a name="mapi-folders"></a>Dossiers MAPI
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIProp.GetPropList
 api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f089fa2c608fb9fcb7deba2e061c5cf5886aa02f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dba0ced4c0a0858ebfd89ba1aaea7232d77deb1e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414787"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556594"
 ---
 # <a name="imapipropgetproplist"></a>IMAPIProp::GetPropList
 
@@ -34,7 +34,7 @@ HRESULT GetPropList(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

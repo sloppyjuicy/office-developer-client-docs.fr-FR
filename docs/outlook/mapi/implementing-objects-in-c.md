@@ -3,17 +3,17 @@ title: Implémentation des objets dans C
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 24fc4d78-726d-40ff-bad2-25dc298bd51a
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6026e697cc31545bf7ef518fcbd33ea8db48af5d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 821e59dc006b334383cad6367e19359d0f6006fd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414941"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556447"
 ---
 # <a name="implementing-objects-in-c"></a>Implémentation des objets dans C
 
@@ -27,7 +27,7 @@ L’illustration suivante montre comment cela fonctionne. La zone à l’extrêm
   
 **Implémentation d’objet**
   
-![Implémentation d’objet Implémentation](media/amapi_42.gif "d’objet")
+![Implémentation d’objet](media/amapi_42.gif "Implémentation d’objet")
   
 L’exemple de code suivant montre comment un fournisseur de services C peut définir un objet d’état simple. Le premier membre est le pointeur vtable ; Le reste de l’objet est composé de membres de données. 
   

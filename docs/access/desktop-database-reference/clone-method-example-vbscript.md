@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249893(v=office.15)
 ms:contentKeyID: 48547357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1fc3341f4ec662c17e2a7c274b1cc3af215c877c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 98725eac42e0dcefe96158fb467a3569f3d3820e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296331"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562803"
 ---
 # <a name="clone-method-example-vbscript"></a>Clone, méthode – Exemple (VBScript)
 

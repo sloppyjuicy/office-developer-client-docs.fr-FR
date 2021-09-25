@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagBusinessFaxNumber
 api_type:
 - HeaderDef
 ms.assetid: 3f77a7e4-342e-49da-970f-3ef02f227724
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4e41665b825bd8271acda3a84c2e9f764b74f152
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2f32aa0fe4eb0d8abcb1a1d5dedf73ceaa5847ed
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571170"
 ---
 # <a name="pidtagbusinessfaxnumber-canonical-property"></a>Propriété canonique PidTagBusinessFaxNumber
 
