@@ -3,17 +3,17 @@ title: Développement de serveurs de formulaire MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 30672a2d-2d39-4292-b21a-97a38485d1de
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 63aa9db19c901f47004a7fe52d906846f44b8883
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: af3960938defba5b14a602704ccd5a214951a6e0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420765"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605033"
 ---
 # <a name="developing-mapi-form-servers"></a>Développement de serveurs de formulaire MAPI
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251337
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ebf66729-d794-a398-268a-84d761bf06b6
 description: Indique si une option d’un menu contextuel ou de balise d’action est désactivée.
-ms.openlocfilehash: ddf55f40056d7df7a2403e500bb4bae335930433
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d3756a3077d91e5068fda35e01e304ed3ba39aee
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431350"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582833"
 ---
 # <a name="disabled-cell-actions-section"></a>Disabled, cellule (section Actions)
 

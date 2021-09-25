@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FLATENTRY
 api_type:
 - COM
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e47f4e0d1ab9ab3ecfd53932b8ef26440134c603
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 38b8d06b39ddab2e7c287ee913b24cda26811e26
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407241"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604970"
 ---
 # <a name="flatentry"></a>FLATENTRY
 

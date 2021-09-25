@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835959(v=office.15)
 ms:contentKeyID: 48548367
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: d7b20e2f41074e9f12198477a6abf2f1f1f9f719
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 42f5153ae2804b81fd98c32587bba787020e306d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309414"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596917"
 ---
 # <a name="recordset2getrows-method-dao"></a>Recordset2.GetRows, méthode (DAO)
 
@@ -26,7 +26,7 @@ Récupère plusieurs lignes à partir d’un objet **[Recordset](recordset-objec
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

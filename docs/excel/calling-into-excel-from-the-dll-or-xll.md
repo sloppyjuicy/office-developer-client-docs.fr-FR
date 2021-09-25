@@ -8,13 +8,13 @@ keywords:
 - dialog boxes [excel 2007], invoking excel commands,DLLs [Excel 2007], calling into Excel,passing arguments to C API functions [Excel 2007],commands [Excel 2007], invoking with dialog boxes,commands [Excel 2007], accessible from DLL/XLL,Excel4 function [Excel 2007],Excel12 function [Excel 2007],XLCallVer function [Excel 2007],operRes argument [Excel 2007],functions [Excel 2007], accessible from DLL/XLL,Excel12v function [Excel 2007],DLL-only functions [Excel 2007],C API [Excel 2007], passing arguments,count argument [Excel 2007],commands [Excel 2007], calling in international versions,DLL-only commands [Excel 2007],international versions [Excel 2007], calling functions and commands,XLLs [Excel 2007], calling into Excel,Excel 4v function [Excel 2007],xlfn argument [Excel 2007],functions [Excel 2007], calling in international versions
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-localization_priority: Priority
-ms.openlocfilehash: 8f2b63ba84b0a78bbf317c284913a8ec0986436f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: b3d572159c766d603680096596c63f4bde74b977
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304157"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605658"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>Appel dans Excel à partir du fichier DLL ou XLL
 
@@ -113,7 +113,7 @@ Toutes les fonctions de commande figurent dans la plage de nombres décimaux ent
   
 ### <a name="invoking-excel-commands-that-use-dialog-boxes"></a>Appel de commandes Excel qui utilisent des boîtes de dialogue
 
-Certains codes de commande correspondent aux actions Excel qui utilisent des boîtes de dialogue. Par exemple, **xlcFileDelete** prend un seul argument : un nom de fichier ou un masque. Cet appel peut s’effectuer avec la boîte de dialogue afin que l’utilisateur puisse annuler ou modifier l’opération de suppression. Il peut s’effectuer également sans la boîte de dialogue, auquel cas le ou les fichiers sont supprimés sans autre intervention, en supposant qu’ils existent et que l’appelant dispose des autorisations nécessaires. Pour appeler de telles commandes dans leur formulaire de boîte de dialogue, l’énumération de commande doit être combinée à l’aide de l’opération OR avec 0x1000 (**xlPrompt**).
+Certains codes de commande correspondent aux actions Excel qui utilisent des boîtes de dialogue. Par exemple, **xlcFileDelete** prend un seul argument : un nom de fichier ou un masque. Cet appel peut s’effectuer avec la boîte de dialogue afin que l’utilisateur puisse annuler ou modifier l’opération de suppression. Il peut s’effectuer également sans la boîte de dialogue, auquel cas le ou les fichiers sont supprimés sans autre intervention, en supposant qu’ils existent et que l’appelant dispose des autorisations nécessaires. Pour appeler de telles commandes dans leur formulaire de boîte de dialogue, l’énumération de commande doit être combinée à l’aide de l’opération OR avec 0x1000 (**xlPrompt**).
   
 L�exemple suivant supprime les fichiers dans le r�pertoire actif correspondant au masque my_data\*.bak. Une bo�te de dialogue s�affiche uniquement si l�argument est vrai.
   
@@ -181,7 +181,7 @@ Excel prend en charge un petit nombre de fonctions accessibles uniquement � pa
    
 ## <a name="return-value-xloperxloper12-operres"></a>Renvoyer la valeur XLOPER/XLOPER12 : operRes
 
-L’argument _operRes_ est le deuxième argument pour les rappels et il s’agit d’un pointeur vers un élément **XLOPER** (**Excel4** et **Excel4v**) ou **XLOPER12** (**Excel12** et **Excel12v**). Après un appel réussi, il contient la valeur renvoyée de la fonction ou de la commande. **operRes** peut �tre configur� sur z�ro (pointeur NULL) si aucune valeur de retour n�est requise. Le contenu pr�c�dent de **operRes** est remplac� afin que toute m�moire pr�c�demment point�e soit lib�r�e avant l�appel pour �viter les pertes de m�moire. 
+L’argument _operRes_ est le deuxième argument pour les rappels et il s’agit d’un pointeur vers un **XLOPER** (**Excel4** et **Excel4v**) ou **XLOPER12** (**Excel12** et **Excel12v**). Après un appel réussi, il contient la valeur de retour de la fonction ou de la commande. **operRes** peut être configuré sur zéro (pointeur NULL) si aucune valeur de retour n’est requise. Le contenu précédent de **operRes** est remplacé afin que toute mémoire précédemment pointée soit libérée avant l’appel pour éviter les pertes de mémoire. 
   
 Si la fonction ou la commande ne peut pas �tre appel�e (par exemple, si les arguments sont incorrects), **operRes** est d�finie sur l�erreur **#VALUE!**. Une commande retourne toujours **Boolean** **TRUE** si elle r�ussit, ou **FALSE** si elle a �chou� ou a �t� annul�e par l�utilisateur. 
   

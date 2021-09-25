@@ -3,17 +3,17 @@ title: Ajout d’entrées de carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 63444a65-d56a-4dbd-9aa6-e60f18ba8104
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8dc82a99ee088d42c076ca9a3a75eac6553f7d35
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1a73a432511244726466e3717c58a085455baa18
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421339"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605215"
 ---
 # <a name="adding-address-book-entries"></a>Ajout d’entrées de carnet d’adresses
 

@@ -1,17 +1,17 @@
 ---
 title: Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 manager: lindalu
-ms.date: 12/03/2019
+ms.date: 09/15/2021
 ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: Cet article décrit les API et technologies que vous pouvez utiliser pour étendre Outlook 2013 et Outlook 2016. Il vous aide à choisir l’API ou la technologie adaptée à votre scénario.
-localization_priority: Priority
-ms.openlocfilehash: 42ca5056c49186229ab1689c9aeeb4d34dda60fc
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+ms.localizationpriority: high
+ms.openlocfilehash: 6414b772ffd5af9abb3d9b0f6b0a4b72fae0815e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773749"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594957"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Sélection d’une API ou d’une technologie pour le développement de solutions pour Outlook
 
@@ -67,7 +67,7 @@ Les tableaux de cette section définissent les critères d'évaluation dans les 
 
 Depuis la version Office 2013, les développeurs peuvent utiliser la plateforme des Compléments Office afin d'étendre le contenu et les services web dans le contexte de clients riches et web Office. Une Complément Office est une page web développée à l'aide des technologies web courantes, hébergée dans une application cliente Office (telle qu'Outlook) et qui peut être exécutée en local ou dans le cloud. Parmi les quelques types d'Compléments Office, celui pris en charge par Outlook est nommé applications de messagerie. Si le modèle objet, l'assembly PIA et MAPI sont souvent utilisés pour automatiser Outlook au niveau de l'application, vous pouvez utiliser l'interface API JavaScript pour Office afin d'interagir à un niveau d'élément avec le contenu et les propriétés du message électronique, de la demande de réunion ou du rendez-vous. Vous pouvez publier des applications de messagerie dans l'Office Store ou un catalogue Exchange interne. 
   
-Les utilisateurs finals et les administrateurs peuvent installer des applications de messagerie sur une boîte aux lettres Exchange et les utiliser dans le client riche Outlook, ainsi que dans Outlook Web App. En tant que développeur, vous pouvez choisir de rendre votre application de messagerie disponible uniquement sur ordinateur de bureau, ou également sur tablette et smartphone. La figure 1 montre un exemple d'une application de messagerie YouTube, qui est décrite en détail dans l'article [Exemple : Créer une application de messagerie pour visualiser des vidéos YouTube dans Outlook](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples). Cette application de messagerie permet aux utilisateurs finals de sélectionner l'URL d'une vidéo YouTube et de regarder la vidéo dans Outlook ou Outlook Web App sur ordinateur de bureau ou tablette.
+Les utilisateurs finals et les administrateurs peuvent installer des applications de messagerie sur une boîte aux lettres Exchange et les utiliser dans le client riche Outlook, ainsi que dans Outlook Web App. En tant que développeur, vous pouvez choisir de rendre votre application de messagerie disponible uniquement sur ordinateur de bureau, ou également sur tablette et smartphone. La figure 1 montre un exemple d'une application de messagerie YouTube, qui est décrite en détail dans l'article [Exemple : Créer une application de messagerie pour visualiser des vidéos YouTube dans Outlook](/samples/browse/?redirectedfrom=MSDN-samples.md). Cette application de messagerie permet aux utilisateurs finals de sélectionner l'URL d'une vidéo YouTube et de regarder la vidéo dans Outlook ou Outlook Web App sur ordinateur de bureau ou tablette.
   
 **Figure 1. L'application de messagerie YouTube est active pour le message sélectionné, qui contient une URL vers une vidéo sur YouTube.com**
 
@@ -278,10 +278,10 @@ Pour plus d'informations sur les scénarios pris en charge par le modèle objet 
 
 ### <a name="major-baseline-scenarios-supported-by-the-outlook-object-model-or-pia"></a>Principaux scénarios de base pris en charge par le modèle d’objet Outlook ou PIA
 
-En règle générale, utilisez le modèle objet ou l’assembly PIA si votre solution personnalise l’interface utilisateur Outlook ou dépend de la logique métier d’Outlook. Ce qui suit présente les principaux scénarios de référence dans lesquels les solutions Outlook utilisent le modèle objet ou l’assembly PIA. 
+En règle générale, utilisez le modèle objet ou le PIA si votre solution personnalise l'interface utilisateur Outlook ou dépend de la logique métier d'Outlook. Les éléments suivants présentent les principaux scénarios de référence dans lesquels les solutions Outlook utilisent le modèle objet ou le PIA. 
   
 - [Personnaliser l’interface utilisateur d’Outlook](#OLSelectAPI_CustomizeTheOutlookInterface)
-- [Ajouter, supprimer, lire, écrire, filtrer, rechercher ou trier des éléments Outlook](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects)
+- [Ajouter, supprimer, lire, écrire, filtrer, rechercher ou trier des éléments Outlook](/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects.md)
 - [Personnaliser les propriétés d’élément, les champs et les formulaires](#OLSelectAPI_ItemPropFieldsForms)
 - [Traiter les événements Outlook tels que le changement de dossier ou l’ouverture d’un élément](#OLSelectAPI_Events)
 - [Automatiser Outlook et l’intégrer à d’autres applications Office](#OLSelectAPI_AutomateOutlook)
@@ -295,7 +295,7 @@ En règle générale, utilisez le modèle objet ou l’assembly PIA si votre sol
 
 ### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Scénarios pris en charge par le modèle d’objet ou PIA depuis Outlook 2007
 
-En plus des scénarios de référence, si votre solution Outlook prend en charge l’un des scénarios indiqués dans la liste suivante, et que vous prévoyez d’exécuter votre solution sur Outlook 2007 ou version ultérieure, mais pas sur des versions antérieures, vous pouvez également utiliser le modèle objet ou l’assembly PIA. Cette section indique les principaux objets ou membres que vous pouvez utiliser dans le modèle objet Outlook pour étendre chaque scénario (à l’exception de l’interface [IDTExtensibility2](https://docs.microsoft.com/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017) dans le modèle objet Automation de Visual Studio, et l’interface [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) dans le modèle objet Office, que vous pouvez intégrer au modèle objet Outlook). 
+En plus des scénarios de référence, si votre solution Outlook prend en charge l’un des scénarios indiqués dans la liste suivante, et que vous prévoyez d’exécuter votre solution sur Outlook 2007 ou version ultérieure, mais pas sur des versions antérieures, vous pouvez également utiliser le modèle objet ou l’assembly PIA. Cette section indique les principaux objets ou membres que vous pouvez utiliser dans le modèle objet Outlook pour étendre chaque scénario (à l’exception de l’interface [IDTExtensibility2](/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017.md) dans le modèle objet Automation de Visual Studio, et l’interface [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility.md) dans le modèle objet Office, que vous pouvez intégrer au modèle objet Outlook). 
 
 - [Personnaliser l’interface utilisateur d’Outlook : le ruban Office Fluent, le volet de navigation et le volet des tâches](#OLSelectAPI_CustomizeTheOutlookInterface)1
 - [Personnaliser les formulaires en tant que zones et les déployer à l’aide de compléments](#OLSelectAPI_CustomFormRegions)
@@ -327,14 +327,14 @@ En plus des scénarios de référence, si votre solution Outlook prend en charge
 
 ### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Scénarios pris en charge par le modèle d’objet ou PIA depuis Outlook 2010
 
-Si vous prévoyez d’exécuter votre solution Outlook sur Outlook 2010, et non sur les versions antérieures, vous pouvez choisir d’utiliser le modèle objet ou l’assembly PIA pour prendre en charge les scénarios indiqués à la prochaine section. Cette section indique les objets ou membres principaux que vous pouvez utiliser dans le modèle objet Outlook pour étendre chaque scénario (à l’exception des interfaces [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl), [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) et [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) qui se trouvent dans le modèle objet Office, que vous pouvez intégrer au modèle objet Outlook). 
+Si vous prévoyez d’exécuter votre solution Outlook sur Outlook 2010, et non sur les versions antérieures, vous pouvez choisir d’utiliser le modèle objet ou l’assembly PIA pour prendre en charge les scénarios indiqués à la prochaine section. Cette section indique les objets ou membres principaux que vous pouvez utiliser dans le modèle objet Outlook pour étendre chaque scénario (à l’exception des interfaces [IRibbonControl](/office/vba/api/Office.IRibbonControl.md), [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility.md) et [IRibbonUI](/office/vba/api/Office.IRibbonUI.md) qui se trouvent dans le modèle objet Office, que vous pouvez intégrer au modèle objet Outlook). 
    
 - [Personnaliser l’interface utilisateur d’Outlook 2010 telle que le mode Backstage d’Office et les menus contextuels](#OLSelectAPI_CustomizingUIOutlook2010)
 - [Gérer les éléments hétérogène dans une conversation et y accéder](#OLSelectAPI_Conversations)
 - [Gérer la sélection des éléments dans un explorateur ou repérer une sélection](#OLSelectAPI_ItemSelection)
 - [Gérer la sélection des pièces jointes dans un inspecteur](#OLSelectAPI_AttachmentSelection)
 - [Prendre en charge plusieurs comptes Exchange dans un seul profil](#OLSelectAPI_MultipleAccounts)
-- [Créer une carte de visite pour une entrée d’adresse](https://docs.microsoft.com/office/vba/api/Outlook.NameSpace.CreateContactCard)
+- [Créer une carte de visite pour une entrée d’adresse](/office/vba/api/Outlook.NameSpace.CreateContactCard.md)
 - [Organiser les dossiers propres à la solution au module de solutions](#OLSelectAPI_Folders)
 
 <!--more removed images:
@@ -351,10 +351,10 @@ Si vous prévoyez d’exécuter votre solution Outlook sur Outlook 2010, et non
 
 Si vous prévoyez d’exécuter votre solution sur Outlook 2013, et non sur les versions antérieures, vous pouvez utiliser le modèle objet ou l’assembly PIA afin qu’il prenne en charge les scénarios indiqués dans les ressources suivantes.
 
-- [Afficher tous les contacts du dossier actuel](https://docs.microsoft.com/office/vba/api/Outlook.peopleview)
+- [Afficher tous les contacts du dossier actuel](/office/vba/api/Outlook.peopleview.md)
 - [Sélectionner une réponse incorporée dans le volet de lecture](#OLSelectAPI_InlineResponse)
 - [Afficher la boîte de dialogue de vérification d’adresse ou de nom complet pour un contact](#OLSelectAPI_ContactCheckDialogs)
-- [Détecter si les propriétés d’élément de lecture sont complètes](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects)
+- [Détecter si les propriétés d’élément de lecture sont complètes](/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects.md)
 
 <!--more removed images:
 ![Display view for all contacts in current folder](media/odc_ol15_ta_SelectingAPI_Fig5-1.gif)
@@ -440,10 +440,6 @@ En revanche, Microsoft ne prend pas en charge MAPI dans du code managé car MAPI
   
 ## <a name="niche-apis-and-technologies"></a>API et technologies ciblées
 
-<a name="OLSelectAPI_NicheAPI"> </a>
-
-## <a name="niche-apis-and-technologies"></a>API et technologies ciblées
-
 Outlook Social Connector (OSC) et la barre météorologique prennent en charge l'extension de scénarios très spécifiques dans Outlook. 
   
 ### <a name="outlook-social-connector-osc-provider-extensibility"></a>Extensibilité du fournisseur Outlook Social Connector (OSC)
@@ -467,8 +463,6 @@ OSC dans Outlook permet aux utilisateurs d'afficher, dans le volet Contacts, un 
 Par défaut, Outlook utilise les données météorologiques fournies par MSN Météo. La barre météorologique prend en charge des services web de données météorologiques tiers qui suivent un protocole défini pour communiquer avec Outlook. Tant que le service de données météorologiques tiers prend en charge ce protocole, les utilisateurs peuvent le choisir afin d'obtenir des données météorologiques dans la barre météorologique.
   
 Voir la section [Ressources supplémentaires : références principales, ressources et exemples de code](#OLSelectAPI_AdditionalResourcesRefCode) pour plus d'informations sur l'utilisation de l'extensibilité du fournisseur OSC et l'extensibilité de la barre météorologique. 
-
-<a name="OLSelectAPI_Conclusion"> </a>
 
 ## <a name="conclusion"></a>Conclusion
 
@@ -494,24 +488,20 @@ Après avoir choisi les API ou technologies à utiliser dans votre solution, vou
 
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
 
-[Vue d'ensemble de la plateforme des compléments pour Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins?redirectedfrom=MSDN) fournit une bonne introduction sur les Compléments Office, notamment l'architecture et le cycle de vie de développement. 
+[Vue d'ensemble de la plateforme des compléments pour Office](/office/dev/add-ins/overview/office-add-ins.md) fournit une bonne introduction sur les Compléments Office, notamment l'architecture et le cycle de vie de développement. 
   
-Consultez l’article [Compléments Outlook](https://docs.microsoft.com/outlook/add-ins/?redirectedfrom=MSDN) pour une feuille de route détaillée des ressources concernant le développement d’applications de courrier. 
+Consultez l’article [Compléments Outlook](/outlook/add-ins/) pour une feuille de route détaillée des ressources concernant le développement d’applications de courrier. 
   
-## <a name="see-also-object-model-and-pia"></a>Voir aussi : modèle objet et PIA 
-
-<a name="OLSelectAPI_AdditionalResourcesObjModelPIA"> </a>
-
 ## <a name="see-also-object-model-and-pia"></a>Voir aussi : modèle objet et PIA 
 
 Les ressources suivantes fournissent plus d’informations sur l’utilisation du modèle objet et de l’assembly PIA.
 
 <a name="OLSelectAPI_PrimaryAccount"> </a>
 
-- Objet [Account](https://docs.microsoft.com/office/vba/api/Outlook.Account) 
+- Objet [Account](/office/vba/api/Outlook.Account.md) 
 
     
-- Propriété [NameSpace.Accounts](https://msdn.microsoft.com/library/80e969ea-d2cc-966d-5fe4-68d59951b5c9%28Office.15%29.aspx) 
+- Propriété [NameSpace.Accounts](/office/vba/api/Outlook.NameSpace.Accounts.md) 
 
 <a name="OLSelectAPI_MultipleAccounts"> </a>
 
@@ -917,10 +907,10 @@ Les ressources suivantes fournissent plus d'informations sur les références pr
   
 ### <a name="major-references-and-resources"></a>Références et ressources principales
 
-- [Compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)   
-- [Référence pour développeur Outlook 2013](https://docs.microsoft.com/office/vba/api/overview/outlook)   
-- [Référence pour l'assembly PIA (Primary Interop Assembly) d'Outlook 2010](https://docs.microsoft.com/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference)   
-- [Référence MAPI Outlook](https://docs.microsoft.com/office/client-developer/outlook/mapi/outlook-mapi-reference)   
+- [Compléments Office](/office/dev/add-ins/overview/office-add-ins.md)   
+- [Référence pour développeur Outlook 2013](/office/vba/api/overview/outlook.md)   
+- [Référence pour l'assembly PIA (Primary Interop Assembly) d'Outlook 2010](/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference.md)   
+- [Référence MAPI Outlook](/office/client-developer/outlook/mapi/outlook-mapi-reference.md)   
 - [Référence auxiliaire d'Outlook 2013](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
 - [Référence du fournisseur Outlook Social Connector](social-connector/outlook-social-connector-provider-reference.md)   
 - [Extension de la barre météorologique dans Outlook](weather/extending-the-weather-bar-in-outlook.md)   
@@ -933,9 +923,7 @@ Les ressources suivantes fournissent plus d'informations sur les références pr
 ### <a name="code-samples"></a>Exemples de code
 
 - [Exemples d'applications de messagerie](https://developer.microsoft.com/outlook/gallery/?filterBy=Outlook,Samples)   
-- Exemples de code de modèle objet : [Comment faire... (Référence du développeur outlook 2013)](https://docs.microsoft.com/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference)  
-- Exemples de code d'assembly PIA : [Comment faire... dans Outlook 2010](https://docs.microsoft.com/office/client-developer/outlook/pia/how-do-i-outlook-2013-pia-reference?redirectedfrom=MSDN)  
-- [Exemples MAPI](https://docs.microsoft.com/office/client-developer/outlook/mapi/mapi-samples)
+- Exemples de code de modèle objet : [Comment faire... (Référence du développeur outlook 2013)](/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference.md)  
+- Exemples de code d'assembly PIA : [Comment faire... dans Outlook 2010](/office/client-developer/outlook/pia/how-do-i-outlook-2013-pia-reference.md)  
+- [Exemples MAPI](/office/client-developer/outlook/mapi/mapi-samples.md)
 - Exemples de code d'API auxiliaire : [Exemples de tâches](auxiliary/sample-tasks.md)
-    
-

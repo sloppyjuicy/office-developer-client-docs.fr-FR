@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033772
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38391818-21c9-9450-2ed1-11cc1d862310
 description: Indique la langue par défaut pour le document.
-ms.openlocfilehash: 1a4f9f353821c0b336d0a9a53b8f42b4f4abb0e1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a6608515101955dc8867e9eca8812022f3e2e1ca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594558"
 ---
 # <a name="doclangid-cell-document-properties-section"></a>DocLangID, cellule (section Document Properties)
 

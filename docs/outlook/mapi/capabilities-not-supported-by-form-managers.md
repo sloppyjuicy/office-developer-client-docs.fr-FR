@@ -3,17 +3,17 @@ title: Fonctionnalités non pris en charge par les gestionnaires de formulaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b51e9e03-a333-4fdc-b6fe-87bd4e947b9f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e31eacaae54968fbdbd9fe0345130a8d09c3509f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 50f0bb1159654c5dba1e24d00c36daabca8e4611
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605117"
 ---
 # <a name="capabilities-not-supported-by-form-managers"></a>Fonctionnalités non pris en charge par les gestionnaires de formulaires
 

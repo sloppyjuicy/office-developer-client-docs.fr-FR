@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251599
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b09eed1-1b01-e18e-d28e-674b8fc105fd
 description: Renvoie le texte de la zone Données 1 de la boîte de dialogue Nom de la forme d’une forme (sous l’onglet Développeur, cliquez sur Nom de la forme ), sous forme de chaîne.
-ms.openlocfilehash: 608a61f478e95c309051d5dc47919d6e68c7cb43
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e04243d603187f7c19afde81bede479799b0e2ce
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416271"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582882"
 ---
 # <a name="data1-function"></a>Fonction DATA1
 

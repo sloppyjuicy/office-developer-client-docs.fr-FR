@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm174420
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 9f7c4ab535010dc0329673fd04721615f6eb3cd8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0afc47135ad5ba74fe8490d5046999a1111d7e3b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288882"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597211"
 ---
 # <a name="minimizewindow-macro-action"></a>MinimizeWindow, action de macro
 

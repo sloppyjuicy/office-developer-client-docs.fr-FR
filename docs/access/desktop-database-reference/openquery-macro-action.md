@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 3294efe5ea1ab0f82be19f5c64a51287cc4df9b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: bfe06cf1f1f4ab10d2c35eacb9f9dc5ff858b7c6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288342"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597162"
 ---
 # <a name="openquery-macro-action"></a>OpenQuery, action de macro
 

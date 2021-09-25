@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ef39ca1-ffc0-4ec0-8697-7b4ea7406fa4
 description: Indique les valeurs de couleur du dégradé de trait appliqué à la forme.
-ms.openlocfilehash: 3ebee7eb7cfcb14beb12e26508375e4488e379d5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b47270edae33a0903a5ee294ce340bc5715636be
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415452"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582623"
 ---
 # <a name="line-gradient-section"></a>Line Gradient Section
 

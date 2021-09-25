@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87499dab-977a-45bc-9f6a-8daa80a82abb
 description: Détermine la distance de l’objet à partir du sol en points lorsqu’il est pivoté en 3D.
-ms.openlocfilehash: aa2f1629ecad234d85d4393411bd40215a671e1d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0430f348d55f034206305e15f14d48d7952e6185
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405617"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582798"
 ---
 # <a name="distancefromground-cell-3-d-rotation-properties"></a>Cellule DistanceFromGround (propriétés Rotation 3D)
 

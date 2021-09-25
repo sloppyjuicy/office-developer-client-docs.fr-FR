@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FEqualNames
 api_type:
 - COM
 ms.assetid: 4dd58b0b-dc39-4782-a9ec-05e353c90927
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8f71b30bd02af8f768da86218456feadda8ea1b6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 51052bd3ee46e880f84cbc0fd5ace69f2ae68f21
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414801"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604991"
 ---
 # <a name="fequalnames"></a>FEqualNames
 
@@ -40,7 +40,7 @@ BOOL FEqualNames(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpName1_
   

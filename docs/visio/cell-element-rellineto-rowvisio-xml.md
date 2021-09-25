@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44d369f0-ab37-75ca-727e-b421d6f95ba7
 description: Contient les coordonnées x ou y du sommet de fin d’un segment de trait droit par rapport à la largeur et à la hauteur d’une forme.
-ms.openlocfilehash: 1a3277eac2b0f759d3da6cb93b5339f97a5ac876
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 579c94ab2a71bdd0ff0dc13a1d1b2d963af751dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539417"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582924"
 ---
 # <a name="cell-element-rellineto-row-visio-xml"></a>Élément de cellule (ligne RelLineTo) (Visio XML)
 
@@ -67,6 +67,6 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordonnée x du sommet de fin d’un segment de trait droit par rapport à la largeur de la forme.  <br/> |[RelLineTo Row (Geometry Section)](rellineto-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du sommet de fin d’un segment de trait droit par rapport à la hauteur de la forme.  <br/> |[RelLineTo Row (Geometry Section)](rellineto-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y du sommet de fin d’un segment de trait droit par rapport à la hauteur de la forme.  <br/> |[RelLineTo Row (Geometry Section)](rellineto-row-geometry-section.md) <br/> |
    
 

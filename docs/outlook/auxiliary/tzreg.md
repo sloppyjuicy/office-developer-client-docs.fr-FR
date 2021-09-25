@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a353e1a3-0187-20af-b9ba-43438f6024d5
 description: Définit le début de l’heure d’été, le retour à l’heure standard et le nombre d’heures d’été de l’heure d’été.
-ms.openlocfilehash: 136ff6ad0c1a9bc2ad61ef7ba698d66d645165d8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ff0cda4da16a141be73955af5dcd758d575fe434
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419365"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605243"
 ---
 # <a name="tzreg"></a>TZREG
 

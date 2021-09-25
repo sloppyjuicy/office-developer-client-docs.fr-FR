@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124073(v=office.15)
 ms:contentKeyID: 52071710
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: c0cfc490bf2028f53c307396d4be2dceadf0794c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 307ca387cea6200ae336951bd2e25a0d17f55126
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295057"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594369"
 ---
 # <a name="data-manipulation-language-microsoft-access-sql"></a>Langage de manipulation de données (SQL Microsoft Access)
 

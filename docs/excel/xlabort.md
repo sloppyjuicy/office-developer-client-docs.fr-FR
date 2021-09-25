@@ -8,19 +8,19 @@ f1_keywords:
 - xlAbort
 keywords:
 - fonction xlabort [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 08ab69252520e76a5631c5e32a3970d2d95b1ff4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d19bbf949bc77a67fa84417e2eead2826c970eca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436656"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596847"
 ---
 # <a name="xlabort"></a>xlAbort
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Permet au processeur d’effectuer d’autres tâches dans le système et de vérifier si l’utilisateur a appuyer sur **ÉCHAP** pour annuler une macro. Si l’utilisateur a appuyer sur **ÉCHAP** pendant le recalcul d’un workbook, il peut également être détecté à partir d’une fonction de feuille de calcul en appelant cette fonction. 
   
@@ -28,7 +28,7 @@ Permet au processeur d’effectuer d’autres tâches dans le système et de vé
 Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pxRetain_ (**xltypeBool**)
   

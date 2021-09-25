@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
 ms:contentKeyID: 48545120
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 01bd560e28be09e6a8c67b3d9a10c1c88f85e214
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d571f9de2b0a30db5900267741085f06a9c54aa5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302778"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626063"
 ---
 # <a name="views-collection-commandtext-property-example-vb"></a>Views, collection – Exemple de propriété CommandText (VB)
 

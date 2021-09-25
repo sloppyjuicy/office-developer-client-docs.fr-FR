@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 73e3a261-6282-4051-aec5-9f24abf32ec0
 description: Indique les valeurs de couleur du dégradé de remplissage appliqué à la forme.
-ms.openlocfilehash: ca3aff17d184e566d4d8c054495a03770448830b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1372f9b35b87683763eb8e1362105305368b8e8b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582756"
 ---
 # <a name="fill-gradient-section"></a>Fill Gradient Section
 

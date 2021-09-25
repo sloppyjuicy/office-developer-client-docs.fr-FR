@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3005
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eaac62a5-f516-9b81-587a-8e0e02de59ee
 description: Contient les coordonnées x et y, la direction horizontale et verticale, et le type d’un point de connexion unique sur une forme. Les coordonnées des points de connexion sont mesurées à partir de l'origine de la forme. Une forme contient une ligne Connection Points pour chaque point de connexion.
-ms.openlocfilehash: 301ea4fb446d9acafd4b59af388c3e7b2d419e20
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 49596be9a713d48b6262edcf1a7c3d4f64a735bd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415508"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582937"
 ---
 # <a name="connection-points-row-connection-points-section"></a>Connection Points, ligne (section Connection Points)
 

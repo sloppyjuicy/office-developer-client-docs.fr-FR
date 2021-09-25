@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253223
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abb27f90-21b4-08cd-6995-9520fbcebd78
 description: Renvoie une valeur monétaire.
-ms.openlocfilehash: 65c88d69669e2fa7f708402d9d50dfe035456edb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a94be94db24d9e9f34acf7289878295d4b35c66d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433555"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594663"
 ---
 # <a name="cy-function"></a>Fonction CY
 

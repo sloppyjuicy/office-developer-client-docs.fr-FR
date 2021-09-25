@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033755
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e67dcd83-4a88-a0f8-5c6a-dae51424edbd
 description: Indique si un lien hypertexte apparaît dans le menu contextuel pour une forme ou une page.
-ms.openlocfilehash: b52da8244bf31e75bacbb6f24f73eba6ee8c6e5f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b0c353f30f4438957334ec79090e3598a84e970e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404630"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582602"
 ---
 # <a name="invisible-cell-hyperlinks-section"></a>Invisible, cellule (section Hyperlinks)
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - converting form templates [infopath 2007],InfoPath Toolkit, opening form templates from,form templates [InfoPath 2007], opening,InfoPath 2007, converting InfoPath Toolkit form templates,opening form templates [InfoPath 2007],form templates [InfoPath 2007], converting,script [InfoPath 2007], converting to managed code
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af8eca2e-ba9a-4c37-94af-662815fff518
 description: Si vous avez créé un modèle de formulaire InfoPath 2003 avec code managé au moyen de l'un des kits de ressources InfoPath 2003 pour Visual Studio, pour assurer la compatibilité avec InfoPath 2003, vous pouvez continuer à travailler sur ce modèle de formulaire et poursuivre son développement en l'ouvrant dans Microsoft InfoPath ou Visual Studio 2012.
-ms.openlocfilehash: 0acbfab4a83a71d94a1c70a667a963056f5b9a38
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8a8b4f35857d2ae55c60429c00803eadfdada091
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428584"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625846"
 ---
 # <a name="open-or-convert-a-form-template-created-with-the-infopath-toolkit"></a>Ouvrir ou convertir un modèle de formulaire créé à l’Shared Computer Toolkit
 

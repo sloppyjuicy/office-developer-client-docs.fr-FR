@@ -3,15 +3,15 @@ title: Prise en charge d'Office pour iOS pour le sélectionneur de document iOS
 manager: soliver
 ms.date: 02/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 802224ef-6eea-4929-824c-507da1c073a5
 description: Office pour iOS s'intègre au sélectionneur de documents iOS par le biais de l'extension de fournisseur de documents, ce qui permet à Office d'ouvrir les fichiers stockés par un autre fournisseur de documents.
-ms.openlocfilehash: e3a3374c7fd33bb00ed076075eb6199c24eec923
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 88b1b90f15af608bf0264ffb2a30ba7574d5c1ca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410664"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625811"
 ---
 # <a name="office-for-ios-support-for-the-ios-document-picker"></a>Prise en charge d'Office pour iOS pour le sélectionneur de document iOS
 

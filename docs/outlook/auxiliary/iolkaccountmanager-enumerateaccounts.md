@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dbb8342b-e4e0-f89d-3e14-b4c7049095ef
 description: Obtient un énumérateur pour les comptes de la catégorie spécifique ou un type.
-ms.openlocfilehash: d0d383dee0e76dd6310d01bd1482e307c2374856
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eb7f0c35ba3360c21d4b75cc911d12a2e91f5baf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423047"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625657"
 ---
 # <a name="iolkaccountmanagerenumerateaccounts"></a>IOlkAccountManager::EnumerateAccounts
 
@@ -32,7 +32,7 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pclsidCategory_
   

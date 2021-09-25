@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidEmail2AddressType
 api_type:
 - COM
 ms.assetid: 28efecc4-b4a0-4e0b-bad6-a9005c8e5ddb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 91a6bcf1efef323378e2443fce653b395bfe2edb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b8c2e510e26c8810ef66acd9d1a3ec25049f405b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335006"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604676"
 ---
 # <a name="pidlidemail2addresstype-canonical-property"></a>Propri t canonique PidLidEmail2AddressType
 

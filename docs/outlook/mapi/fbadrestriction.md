@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FBadRestriction
 api_type:
 - HeaderDef
 ms.assetid: 6ad3638c-d088-4a89-9b0d-f5b672162203
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eb3e0d5a96121f63166da2025743b7ef89f4ecf6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b91c33e237af2dc5da3d24961192fff88e64223f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432239"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604998"
 ---
 # <a name="fbadrestriction"></a>FBadRestriction
 

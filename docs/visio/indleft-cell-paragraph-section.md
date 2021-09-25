@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251255
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31a7d0d4-4666-ddef-c5eb-4d13803e6a2f
 description: "Représente la distance entre chaque ligne du paragraphe et la marge gauche du bloc de texte. Cette valeur est indépendante de l'échelle de dessin : elle ne change pas si le dessin est mis à l'échelle."
-ms.openlocfilehash: 2a942ef3d874b8d1ce2ef85f423c93bc0db33230
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 40aa8cab5318aead5167e65b2b701d109b0f05dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405162"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582608"
 ---
 # <a name="indleft-cell-paragraph-section"></a>IndLeft, cellule (section Paragraph)
 

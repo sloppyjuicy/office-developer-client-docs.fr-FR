@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidFax2RichTextFormat
 api_type:
 - COM
 ms.assetid: 4569b418-72db-4ba1-8184-e7a0cbac100f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a9f5a69f9089dcab11eb1cf52dd951bed9c7c9bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0af337aeddb240217c0136ce97c3d95df64d775e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359254"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604690"
 ---
 # <a name="pidlidfax2richtextformat-canonical-property"></a>Propri t canonique PidLidFax2RichTextFormat
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - running in infopath [infopath 2007],run-time environment [InfoPath 2007],running in browser [InfoPath 2007],InfoPath 2007, determining run-time environment
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a43bbdc-666b-47ef-a5e3-cb477a4deb04
 description: La propriété Environment de la classe Application obtient une référence à un objet Environment qui peut être utilisé pour déterminer l'environnement d'exécution (InfoPath, navigateur Web ou navigateur mobile) utilisé pour ouvrir le formulaire.
-ms.openlocfilehash: 31bfd8dcd05d52d6c6e162d4aa4838e423d97e0b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 347633f0dc13b8b001ca146cd56aa734c0edc8b6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408599"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625818"
 ---
 # <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Écrire une logique conditionnelle qui détermine l’environnement d’exécuter
 

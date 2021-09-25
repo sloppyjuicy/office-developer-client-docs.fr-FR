@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195493(v=office.15)
 ms:contentKeyID: 48545465
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a9b51bb4e08546531f95e3795074f90b5d94d4c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 305b94655d46dcbd089f1bfde5b2b0482fdde23f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292922"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597302"
 ---
 # <a name="fieldvalue-property-dao"></a>Field.Value, propriété (DAO)
 

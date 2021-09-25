@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2020
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0c9d25d-933c-1c46-2cdd-3fa6ba3e56af
 description: Contient une ligne et des cellules pour chaque point de connexion défini pour une forme.
-ms.openlocfilehash: 23d5f4a48948be517875577cd05fd253ac16ec09
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d9501b1d37465fd0b52b1591fb597476a03f1711
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422816"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582903"
 ---
 # <a name="connection-points-section"></a>Connection Points, section
 

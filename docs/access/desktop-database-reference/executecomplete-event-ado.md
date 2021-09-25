@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
 ms:contentKeyID: 48544589
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8a094968e70ace5e6cba1df184bf0ba57c2d7789
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f451d61b228d85abb16f5d5e08e0fdd40b1c2d55
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293223"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597344"
 ---
 # <a name="executecomplete-event-ado"></a>ExecuteComplete, événement (ADO)
 

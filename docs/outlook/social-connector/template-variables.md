@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f8f6af2-c7fa-4135-9532-7af5fc643b0d
 description: Les instances de variables de modèle (représentées par un élément templateVariable) spécifient les données d’un élément de flux d’activités dans un modèle d’activité.
-ms.openlocfilehash: 9b37665488f0f1e2bd205fb7d4a5d2201697d7c8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: da52859ac8e1bc598ea517bf92d7530fced4f468
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404371"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583001"
 ---
 # <a name="template-variables"></a>Variables de modèle
 

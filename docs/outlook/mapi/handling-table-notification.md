@@ -3,17 +3,17 @@ title: Gestion des notifications de la table
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6e6c24c3836f295054c1880dc506c5051078a9ab
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 874f5954ad24c2714ba06e0050f3bb00b6ef160c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435893"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604963"
 ---
 # <a name="handling-table-notification"></a>Gestion des notifications de la table
 

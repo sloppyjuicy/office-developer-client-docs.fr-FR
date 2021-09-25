@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: edad1223-a55f-4e4a-8e90-3471f2f559ac
 description: 'L’élément Capabilities du schéma XML du fournisseur (OSC) permet à un fournisseur OSC de spécifier ses fonctionnalités. Ces fonctionnalités incluent les fonctionnalités suivantes :'
-ms.openlocfilehash: ff6abbd4d99eb542a11e3d64a2015fc0585fca79
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6b46567853a2f8a37ff5f9479c9eb8e4f4da7ccf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435004"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582980"
 ---
 # <a name="xml-for-capabilities"></a>XML pour les fonctionnalités
 
@@ -29,7 +29,7 @@ Le schéma XML des **fonctionnalités** est essentiel car il identifie à l’OS
   
 Pour spécifier les fonctionnalités d’un fournisseur OSC en tant que paramètre de sortie de la méthode **ISocialProvider::GetCapabilities,** vous devez vous conformer au schéma XML d’extensibilité du fournisseur OSC. La figure suivante illustre **la** structure XML des fonctionnalités. 
   
-**Figure 1. \<fonctionnalités \> Structure XML**
+**Figure 1. \<capabilities\> Structure XML**
 
 ![Structure XML des fonctionnalités](media/ol14oscref_Specifyingxmlforcapabilities_image1.gif)
   

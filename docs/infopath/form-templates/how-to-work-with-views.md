@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - view class [infopath 2007],InfoPath 2007, working with views,views [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 947b33c3-2acc-45d2-a89d-a712b6bc53df
 description: Lorsque vous utilisez un modèle de formulaire InfoPath, vous pouvez écrire du code permettant d'accéder aux vues du formulaire, puis effectuer une série d'actions sur les données figurant dans les vues. Le modèle d'objet InfoPath fourni par l'espace de noms Microsoft.Office.InfoPath prend en charge l'accès aux vues d'un formulaire par le biais de l'utilisation des membres de la classe View .
-ms.openlocfilehash: 829375a87513634ef0b38b6d92de9f33a605e89f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ac870441f2e8e6f780eaaa45dc0ee26e7c3cf25a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406296"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625832"
 ---
 # <a name="work-with-views"></a>Travailler avec des affichages
 

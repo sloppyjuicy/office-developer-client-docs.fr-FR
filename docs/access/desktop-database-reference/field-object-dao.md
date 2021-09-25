@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193203(v=office.15)
 ms:contentKeyID: 48544587
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: c58896fb0d0a5c5a28844fdd3a6df922dd587f32
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: b2090b35db91cc4750d91019af2814ed14d5e4ed
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293041"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597309"
 ---
 # <a name="field-object-dao"></a>Field Object (DAO)
 
@@ -46,7 +46,7 @@ Pour créer un objet **Field** dans un objet **Index**, **TableDef** ou **Relati
 
 Lorsque vous accédez à un objet **Field** dans le cadre d'un objet **Recordset**, les données de l'enregistrement actif sont affichées dans la propriété **Value** de l'objet **Field**. Pour manipuler les données dans l'objet **Recordset**, vous ne référencez généralement pas directement la collection **Fields**. Au lieu de cela, vous référencez indirectement la propriété **Value** de l'objet **Field** dans la collection **Fields** de l'objet **Recordset**.
 
-Pour faire référence à un objet **Field** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name**Name, utilisez l'une formes de syntaxe suivantes :
+Pour faire référence à un objet **Field** dans une collection par son numéro ordinal ou par son paramètre de propriété **Name** Name, utilisez l'une formes de syntaxe suivantes :
 
 - **Fields**(0)
 

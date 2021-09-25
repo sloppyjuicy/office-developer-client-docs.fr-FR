@@ -8,19 +8,19 @@ f1_keywords:
 - UnhookExcelWindow
 keywords:
 - fonction unhookexcelwindow
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: aef2734aeb4d9cf5df33e3d012cef309e8a1eb6e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 788afcb9a1ca04931f3cb74c5c3b3fe5805541c3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409446"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596861"
 ---
 # <a name="unhookexcelwindow"></a>UnhookExcelWindow
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Supprime **l’ExcelCursorProc** qui a été précédemment installé par **HookExcelWindow**. Cela aurait été fait de sorte **qu’ExcelCursorProc** a été appelé avant le Microsoft Excel **principal WndProc**.
   
@@ -28,7 +28,7 @@ Supprime **l’ExcelCursorProc** qui a été précédemment installé par **Hook
 extern void FAR PASCAL UnhookExcelWindow(HANDLE hWndExcel);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hWndExcel_ (**HANDLE**)
   

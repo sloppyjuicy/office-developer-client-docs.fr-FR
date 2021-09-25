@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1783f05-ced1-917f-8298-eca4ecfa3912
 description: Contient des informations sur une police.
-ms.openlocfilehash: 773b5f10607cc6d515671d93d7d4abd9e39e72ff
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 1d67c8c246236dd39cfc2a1fde39b0e9a0d24014
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541014"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582721"
 ---
 # <a name="facename-element-facenames_type-complextype-visio-xml"></a>Élément FaceName (FaceNames_Type complexType) (Visio XML)
 

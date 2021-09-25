@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 12/08/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 33cb89cb-c967-760c-6bc4-94118a4f872c
-ms.openlocfilehash: 59f43e8b3b0819b0178d60fa357e01937ae19d81
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e18d23847744425bd7feb62dd615a4dcfa1c9287
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322098"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625643"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 

@@ -3,17 +3,17 @@ title: MapiSvc.inf [Services] Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 99f8e623-3138-4def-9778-5580326111a5
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e5bf5242ef673976ebda928d6ce4862e3e7dd072
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 226465baa7b66e8d3453435b62c70445d66420a8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434780"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604739"
 ---
 # <a name="mapisvcinf-services-section"></a>MapiSvc.inf [Services] Section
 

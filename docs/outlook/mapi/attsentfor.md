@@ -3,17 +3,17 @@ title: attSentFor
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: aa8c8d64-d2a0-4cdf-a8aa-21c8d0a0a3fc
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f961348e7be474202273aa97a2922566ef40c3a5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e78fe61824984ab61a9b12fcc4866bc91848be79
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408837"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605145"
 ---
 # <a name="attsentfor"></a>attSentFor
 

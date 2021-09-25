@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053579
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 338e039048779c00dbede76c37f04ce4ecfddb06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 043e034ef9f6d62e2ce04d57503c61a5f75abfc4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300601"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597022"
 ---
 # <a name="recordsetconnection-property-dao"></a>Recordset.Connection, propriété (DAO)
 

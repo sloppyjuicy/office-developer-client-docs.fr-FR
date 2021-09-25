@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a2a1d47-f065-932a-e90e-7a7c56c7dfe6
-ms.openlocfilehash: 8892d70b6b7859687e3ac5856495b51cbfe844db
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: e76f83813a05e52098d7ef6c700b7fb1bf199402
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539955"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582777"
 ---
 # <a name="dynamicgridenabled_type-complextype-visio-xml"></a>DynamicGridEnabled_Type complexType (Visio XML)
 

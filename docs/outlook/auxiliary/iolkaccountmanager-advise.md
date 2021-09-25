@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
 description: Enregistre un client auprès du gestionnaire de comptes pour les notifications concernant tous les comptes.
-ms.openlocfilehash: 5460d55d906d382ce40ecd3fd9277cf370295680
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e17bd2b2f07761b8e381913a1de6113dd8133cad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427709"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625664"
 ---
 # <a name="iolkaccountmanageradvise"></a>IOlkAccountManager::Advise
 
@@ -29,7 +29,7 @@ HRESULT IOlkAccountManager::Advise (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pNotify_
   

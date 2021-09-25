@@ -3,17 +3,17 @@ title: Tables des pièces jointes
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 92a07f7b-d34c-4085-ab11-eadcd918fa1b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4aa800b504e7ffb07d94ace6d8dc30c1463ed637
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3c21c8a27d8cf7fa65951e8ef784a203dafbd057
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427442"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605187"
 ---
 # <a name="attachment-tables"></a>Tables des pièces jointes
 
@@ -27,7 +27,7 @@ Une table de pièces jointes est accessible en appelant l’une des opérations 
   
 - [IMessage::GetAttachmentTable](imessage-getattachmenttable.md)
     
-- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), requesting the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property.
+- [IMAPIProp::OpenProperty](imapiprop-openproperty.md), demandant la propriété **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)).
     
 Les tables de pièces jointes sont dynamiques.
   

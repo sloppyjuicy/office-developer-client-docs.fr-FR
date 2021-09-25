@@ -3,17 +3,17 @@ title: Mappage des attributs de messagerie Internet aux propriétés MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 79d1d2ba-34fe-4851-918f-adbc69c20eee
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c0a71cbd3b6cdbef091e75ade5d190369a4626a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c9f77ea7ba56e7c559cf9b4c41a2d6f4d742b866
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355817"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604732"
 ---
 # <a name="mapping-of-internet-mail-attributes-to-mapi-properties"></a>Mappage des attributs de messagerie Internet aux propriétés MAPI
 

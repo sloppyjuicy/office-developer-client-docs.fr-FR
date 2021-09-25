@@ -3,15 +3,15 @@ title: Développement avec Visual Studio
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: Vous pouvez grandement améliorer les fonctionnalités de vos formulaires InfoPath en les étendant avec du code géré développé dans Visual Studio 2012. Vous pouvez ensuite publier vos formulaires avec du code dans des bibliothèques de formulaires SharePoint Server 2013.
-ms.openlocfilehash: 1c67b85823fe567b494366a505be5dad51d20b32
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b7d2437e671a13ceafc6c11a6dd83d39f8ffa76b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300286"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625902"
 ---
 # <a name="develop-with-visual-studio"></a>Développement avec Visual Studio
 

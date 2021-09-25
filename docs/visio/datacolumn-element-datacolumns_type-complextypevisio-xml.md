@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92469c2f-f809-dff2-d0ee-b3b8f75083d2
 description: Définit l’apparition d’une colonne de données dans la fenêtre Données externes de l’interface utilisateur Visio et qualifie les données de la colonne en définissant son type de données et sa mise en forme.
-ms.openlocfilehash: 021e7ffd154f1e124b9eb163acc27260b90c23eb
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: d218762be73b4bebcfbb500d2c1cb9519179b394
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541224"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582861"
 ---
 # <a name="datacolumn-element-datacolumns_type-complextype-visio-xml"></a>Élément DataColumn (DataColumns_Type complexType) (Visio XML)
 
@@ -54,12 +54,12 @@ Aucun.
 |:-----|:-----|:-----|:-----|:-----|
 |Calendrier  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> |ID de calendrier de la colonne de données.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
 |ColumnNameID  <br/> |xsd:string  <br/> |obligatoire  <br/> |Nom externe de la colonne de données. Apparaît dans les en-tête de la fenêtre **Données** externes et dans les étiquettes des graphiques de données.  <br/> |Valeurs du type xsd:string.  <br/> |
-|Monétaire  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> |ID monétaire de la colonne de données.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
+|Devise  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> |ID monétaire de la colonne de données.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
 |DataType  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> |Type des données dans la colonne de données.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
 |Degree  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Spécifie le degré (puissance) des unités, par exemple un carré ou un cube. La valeur par défaut (attribut absent) est 1.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |DisplayOrder  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Définit la position d’affichage de  la colonne de données dans la fenêtre Données externes, de la colonne la plus à gauche (0) à la colonne la plus à droite (valeur la plus grande).  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |DisplayWidth  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Largeur de la colonne de données dans la **fenêtre Données** externes.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|Hyperlink  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique si la colonne de données crée un lien hypertexte dans une forme lorsque la forme est liée à des données.  <br/> |Valeurs du type xsd:boolean.  <br/> |
+|Lien hypertexte  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique si la colonne de données crée un lien hypertexte dans une forme lorsque la forme est liée à des données.  <br/> |Valeurs du type xsd:boolean.  <br/> |
 |Étiquette  <br/> |xsd:string  <br/> |obligatoire  <br/> |Étiquette de la colonne de données.  <br/> |Valeurs du type xsd:string.  <br/> |
 |LangID  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |ID de langue de la colonne de données.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |Mappée  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Spécifie si la colonne est visible dans la **fenêtre Données** externes. True (1) pour que la colonne soit visible ; False (0) pour que la colonne ne soit pas visible. La valeur par défaut (attribut absent) est que la colonne soit visible.  <br/> |Valeurs du type xsd:boolean.  <br/> |

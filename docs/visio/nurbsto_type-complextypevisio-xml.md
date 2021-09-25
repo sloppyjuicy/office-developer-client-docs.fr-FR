@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f7ae8a1d-5bb7-a92f-79d6-5a358d879c32
-ms.openlocfilehash: 090df2487eb6fabfba4b3917c7d938fe4f841147
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 13e37f524ff4bc07fec12585035bbd4ebf7f6f06
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540916"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594495"
 ---
 # <a name="nurbsto_type-complextype-visio-xml"></a>NURBSTo_Type complexType (Visio XML)
 

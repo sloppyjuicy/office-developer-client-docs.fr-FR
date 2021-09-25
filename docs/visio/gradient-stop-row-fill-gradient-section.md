@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 774c29fa-5515-4c67-9bb3-1387f4bb20a7
 description: Contient la couleur, la transparence et la position d’un dégradé pour un dégradé de remplissage.
-ms.openlocfilehash: 0d4b4c4ef0c2cd35e781d15dd5dbd0240ab07d27
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b5da2c1a0c4ab99bf36537052c718db9d05e7c9e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412904"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582630"
 ---
 # <a name="gradient-stop-row-fill-gradient-section"></a>Gradient Stop Row (Fill Gradient Section)
 

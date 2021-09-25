@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea8b8f02-959f-cd71-9cfe-5ebdf4bae2bc
 description: Obtient le nom de profil d’un compte.
-ms.openlocfilehash: d725f309a29b026395e2795a49d31b45a4a49562
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d24f108aa4227ce8fe38e46b48a8f56a0eb29cdd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322105"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625685"
 ---
 # <a name="iolkaccounthelpergetidentity"></a>IOlkAccountHelper::GetIdentity
 
@@ -29,7 +29,7 @@ HRESULT IOlkAccountHelper::GetIdentity (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pwszIdentity_
   

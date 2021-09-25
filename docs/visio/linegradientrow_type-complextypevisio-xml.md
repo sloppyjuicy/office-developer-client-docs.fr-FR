@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b35d58b-ec6f-9b99-01fb-c665630e65d7
-ms.openlocfilehash: 9c39ddd971f3089bb8b87026616c455e6a0524eb
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 6809978cf6f95183e07ae91b0e47a6950dc9e09e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541140"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582595"
 ---
 # <a name="linegradientrow_type-complextype-visio-xml"></a>LineGradientRow_Type complexType (Visio XML)
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec0aac33-624e-48f7-8177-8f7b8db6af7d
 description: Récupère l’identificateur unique (UID) de la section de profil qui stocke les préférences de compte.
-ms.openlocfilehash: 97f1a858c8f58e13b72b8d5f052b35359581b718
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 34c781f4a6a1692416f4a33b7cc34ebcf3375c9d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327635"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625636"
 ---
 # <a name="prop_acct_preferences_uid"></a>PROP_ACCT_PREFERENCES_UID
 

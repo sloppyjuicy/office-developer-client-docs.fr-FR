@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c0d81a3-1b71-0de3-97e7-024564e62972
-ms.openlocfilehash: 06a7efb1ffe21bafaea321bfef278893fc33b03d
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: f1bd57b893d8fedfd72717170eda80880cd04596
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542176"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582637"
 ---
 # <a name="gluesettings_type-complextype-visio-xml"></a>GlueSettings_Type complexType (Visio XML)
 

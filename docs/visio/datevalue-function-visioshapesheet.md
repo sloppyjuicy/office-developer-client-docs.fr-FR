@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251414
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 514a4053-7729-ec82-c42f-5b780e48cd2a
 description: Renvoie la valeur de date représentée par datetime ou expression.
-ms.openlocfilehash: d5bc1865e76940508ddb67a9b3d2122dc7c43a50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 571d0f319ccbbefa412e2b31bbc01d49ee9ec46c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360311"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582812"
 ---
 # <a name="datevalue-function-visioshapesheet"></a>DATEVALUE Function (VisioShapeSheet)
 

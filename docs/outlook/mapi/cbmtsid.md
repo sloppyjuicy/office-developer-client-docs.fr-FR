@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.CbMTSID
 api_type:
 - COM
 ms.assetid: e408fe16-a2fc-4714-895d-31b8c3763e3e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6c1d0d3a433c98b97d51d507885f6a83712456d4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4d50562a33bc553f2a95e7fef1e9d9e759b9b6e0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438994"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605103"
 ---
 # <a name="cbmtsid"></a>CbMTSID
 
@@ -36,7 +36,7 @@ Calcule le nombre d’octets dans une structure [MTSID](mtsid.md) existante.
 CbMTSID (_lpentry)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ _lpentry_
   

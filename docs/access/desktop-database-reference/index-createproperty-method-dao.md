@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195775(v=office.15)
 ms:contentKeyID: 48545578
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1d7fcaa959c0fa5f8d42d9b00a920e987ca2f126
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d4b792a1b5023f38bac813f0f5ed495de581de7d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291837"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606638"
 ---
 # <a name="indexcreateproperty-method-dao"></a>Index.CreateProperty method (DAO)
 
@@ -22,11 +22,11 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)
+*.* CreateProperty(***Name** _, _*_Type_*_, _*_Value_*_, _*_DDL_**)
 
 *expression* Variable qui représente un objet **Index.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -74,7 +74,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Propriété
+Property
 
 ## <a name="remarks"></a>Remarques
 

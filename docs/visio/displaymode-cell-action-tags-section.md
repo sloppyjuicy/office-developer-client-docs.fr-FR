@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60039
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
 description: Détermine si la balise d’action s’affiche lorsque l’utilisateur déplace le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.
-ms.openlocfilehash: 0254ad361c63dfdeddaf8a1c2173e99aa1c05398
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 382922d55e05ccaef7c5c8232e888fcd15e0143f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415816"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582805"
 ---
 # <a name="displaymode-cell-action-tags-section"></a>DisplayMode Cell (Action Tags Section)
 

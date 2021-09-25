@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053083
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 781679dfbd4050cfde219802db4cd9e1544d83ae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ab01639b3bd60a1e0ec94f04a61e4006a3678b48
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302512"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625993"
 ---
 # <a name="workspaceisolateodbctrans-property-dao"></a>Workspace.IsolateODBCTrans, propriété (DAO)
 

@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm159503
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: fb633977fcc1b39fc2a5c0bb69523bc93c193695
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 41c2be7b412bf043f392fb5d26ba5eb2cbc9971c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293209"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606778"
 ---
 # <a name="exportwithformatting-macro-action"></a>ExportWithFormatting, action de macro
 

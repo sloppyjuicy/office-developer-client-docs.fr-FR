@@ -3,17 +3,17 @@ title: Éviter certaines méthodes au démarrage
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7bb86fc8-d1ae-4937-9919-86c3a0f5651d
 description: 'Dernière modification : 07 décembre 2015'
-ms.openlocfilehash: 21aafebefcb7e10e6ba432f2eb3cc5dc04978c20
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.openlocfilehash: 345633700d921f617f65e0b5fefeba05deba7c72
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318087"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605138"
 ---
 # <a name="avoiding-certain-methods-at-startup"></a>Éviter certaines méthodes au démarrage
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251341
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5f368c2e-2a40-38ee-3568-ed5c57633345
 description: Détermine si l’élément de données de forme est visible ou non dans la fenêtre Données de forme.
-ms.openlocfilehash: 8671fcc249b7ca81c011f697721093e7842c1558
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 046ae26940da77297b1671af29ace286314dd730
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405316"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582616"
 ---
 # <a name="invisible-cell-shape-data-section"></a>Invisible, cellule (section Shape Data)
 

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIOffline.SetCurrentState
 api_type:
 - COM
 ms.assetid: c0aa0df2-79f9-2558-7eb6-accae9bef4b2
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0b6837b51b09ecd9a60630c613e1806cb10c1d87
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 96e00c3a5105a03f8869f893badcfc605b8ce6de
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421738"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604900"
 ---
 # <a name="imapiofflinesetcurrentstate"></a>IMAPIOffline::SetCurrentState
 
@@ -36,7 +36,7 @@ HRESULT SetCurrentState(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1024624
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a57bdcd9-566b-5054-7458-7d84cbb78d23
 description: Contient les cellules qui définissent les coordonnées x et y et le comportement de chaque poignée de contrôle définie pour une forme. Une forme contient une ligne Controls pour chaque poignée de contrôle.
-ms.openlocfilehash: dd5a96fe297cb62996ac2ab4d2974b8d1ae61a14
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d839eb8818263ae630895cc4e3bee0c8a2ec99cb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438189"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582945"
 ---
 # <a name="controls-row-controls-section"></a>Controls Row (Controls Section)
 

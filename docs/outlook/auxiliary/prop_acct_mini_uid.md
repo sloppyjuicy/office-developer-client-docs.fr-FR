@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
 description: Renvoie un identificateur de compte unique dans Outlook profils.
-ms.openlocfilehash: 209f7dd89b8d947b999f2a068373aaf61a3e9784
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bcfede8ad2716bd09ec1abd3420b7e61777f4a0a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409432"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625629"
 ---
 # <a name="prop_acct_mini_uid"></a>PROP_ACCT_MINI_UID
 

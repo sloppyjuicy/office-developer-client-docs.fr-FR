@@ -5,23 +5,20 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgStore.StoreLogoff
 api_type:
 - COM
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: be11c536804682d1baec8188b6d7487c71d411e1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d5a5b25dd41238cf27bf4a7224bb4d5d1eeb1469
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424335"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604837"
 ---
 # <a name="imsgstorestorelogoff"></a>IMsgStore::StoreLogoff
-
-  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
@@ -33,7 +30,7 @@ HRESULT StoreLogoff(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpulFlags_
   
@@ -59,7 +56,7 @@ LOGOFF_QUIET
   
 > Si une activité de fournisseur de transport a lieu, la logoff ne doit pas se produire.
     
-    The following flags are valid on output:
+Les indicateurs suivants sont valides lors de la sortie
     
 LOGOFF_INBOUND 
   
