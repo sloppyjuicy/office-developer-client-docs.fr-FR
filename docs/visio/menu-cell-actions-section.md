@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm690
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29af746c-b081-24cf-a30d-a56353ee849e
 description: Définit le nom d’une option de menu qui s’affiche dans un menu contextuel ou de balise d’action pour une forme ou une page.
-ms.openlocfilehash: adb6915c34946472ada8c4ab4d02fa88bab6651a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b03986c20e578917331cb002850dbb62f9c2deef
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436327"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577870"
 ---
 # <a name="menu-cell-actions-section"></a>Menu, cellule (section Actions)
 

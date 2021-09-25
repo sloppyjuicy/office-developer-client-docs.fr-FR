@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.LAUNCHWIZARDENTRY
 api_type:
 - COM
 ms.assetid: 5778dffa-f01b-46b3-9c19-862793740918
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c1509918eb587c17deebf95317cf57b4ab19928a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ed35eabe27223d8c2af6be0a30e6ec678c0dfc8a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437384"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584191"
 ---
 # <a name="launchwizardentry"></a>LAUNCHWIZARDENTRY
 
@@ -43,7 +43,7 @@ HRESULT LAUNCHWIZARDENTRY(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hParentWnd_
   

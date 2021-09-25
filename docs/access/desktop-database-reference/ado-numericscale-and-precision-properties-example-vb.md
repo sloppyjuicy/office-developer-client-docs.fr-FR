@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15)
 ms:contentKeyID: 48543044
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2c234de05db031790f7241ed686fe4d86d83dc7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: fc9ba423576b2761d1ea4c865203211bbed08394
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283274"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553255"
 ---
 # <a name="ado-numericscale-and-precision-properties-example-vb"></a>ADO NumericScale et Precision, propriétés - Exemple (VB)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple utilise les propriétés [NumericScale](numericscale-property-ado.md) et [Precision](precision-property-ado.md) pour afficher l’échelle numérique et la précision des champs de la table ***Discounts*** dans la base de données ***Pubs***.
+Cet exemple utilise les propriétés [NumericScale](numericscale-property-ado.md) et [Precision](precision-property-ado.md) pour afficher l’échelle numérique et la précision des champs dans la table ***Discount** _ de la base de données _ *_Pubs_** .
 
 ```vb 
  

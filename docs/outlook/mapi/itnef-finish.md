@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ITnef.Finish
 api_type:
 - COM
 ms.assetid: 01a868f4-afda-43ba-bc17-c33ae56b7b7d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5b76f9daec89e9229fc7f81e1332c3075c951067
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 67c8540cf6901e3e077fd8fd269d155043b3c1ce
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435676"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561347"
 ---
 # <a name="itneffinish"></a>ITnef::Finish
 
@@ -35,7 +35,7 @@ HRESULT Finish(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

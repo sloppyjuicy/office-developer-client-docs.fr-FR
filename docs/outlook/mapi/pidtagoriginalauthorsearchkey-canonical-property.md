@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginalAuthorSearchKey
 api_type:
 - COM
 ms.assetid: 4a10cf99-c5e6-4a24-b531-3aebb7800bfe
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 09331e1201b6f6e45bb9e26e618ee59e67efbf8d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 098fc9b44f694ffbc7e7f2240500fe3bc7f1093a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409579"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595181"
 ---
 # <a name="pidtagoriginalauthorsearchkey-canonical-property"></a>Propriété canonique PidTagOriginalAuthorSearchKey
 
@@ -32,7 +32,7 @@ Contient la clé de recherche de l’auteur de la première version d’un messa
 |Propriétés associées :  <br/> |PR_ORIGINAL_AUTHOR_SEARCH_KEY  <br/> |
 |Identificateur :  <br/> |0x0056  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Server  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

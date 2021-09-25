@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45b2ff30-bca1-fbaa-cc9f-fe9b52b631c4
-ms.openlocfilehash: 701676adcb82c2aeee63a975c2a35fc6c5256635
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: f8a461da0fd8eb45643581ddc51e38a98ae0180d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542720"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570196"
 ---
 # <a name="relellipticalarcto_type-complextype-visio-xml"></a>RelEllipticalArcTo_Type complexType (Visio XML)
 

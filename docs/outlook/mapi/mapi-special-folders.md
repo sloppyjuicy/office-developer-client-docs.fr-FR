@@ -3,17 +3,17 @@ title: Dossiers sp�ciaux MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: fa221510a5f6a8c8be24b4869960d1770cef5882
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b55985cb10b708c8c3da20492f96a5a6bc2c690a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410923"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584107"
 ---
 # <a name="mapi-special-folders"></a>Dossiers sp�ciaux MAPI
 

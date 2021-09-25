@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm165
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61c19342-46fb-48d4-6375-c9ea8306286d
 description: Indique la couleur utilisée pour afficher le calque.
-ms.openlocfilehash: a2eef24187165cabfdfc8dee49747a2381562d3e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bc0f08fbac4a542221e47f0f85b36ba15d2c1159
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435130"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577975"
 ---
 # <a name="color-cell-layers-section"></a>Color, cellule (section Layers)
 

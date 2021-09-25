@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPIAdminProfiles
 api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e5043a614ccd94994fe86838f15aa1a43f22733e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c2ff33145b5a1358f12cbccebc79a60a96953d32
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412351"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584087"
 ---
 # <a name="mapiadminprofiles"></a>MAPIAdminProfiles
 
@@ -40,7 +40,7 @@ HRESULT MAPIAdminProfiles(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

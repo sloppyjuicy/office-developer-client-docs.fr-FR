@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HrQueryAllRows
 api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0f09304f21180d9ebc2a1e1dcc54ebadd3622804
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ea4e22a379943429476368ca09e37db5caa8e593
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422893"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561599"
 ---
 # <a name="hrqueryallrows"></a>HrQueryAllRows
 
@@ -44,7 +44,7 @@ HRESULT HrQueryAllRows(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ptable_
   

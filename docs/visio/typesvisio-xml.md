@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b9db404-a56a-efeb-90bc-669b61483f81
 description: Cette rubrique répertorie les types du schéma XML Visio format de fichier 2013.
-ms.openlocfilehash: 465204a71b991fa0402665086ca146c3e094f641
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 36f0d6db8d5a3e04e2974214c129715880b69b2f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538591"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569831"
 ---
 # <a name="types-visio-xml"></a>Types (Visio XML)
 

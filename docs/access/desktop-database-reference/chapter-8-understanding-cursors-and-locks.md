@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249598(v=office.15)
 ms:contentKeyID: 48546139
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3075c0c9bd8267f6b30773a846523172eb2ef603
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f2ddfab5272436b4e6ab070de30329f9c21ea4ff
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296415"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553213"
 ---
 # <a name="chapter-8-understanding-cursors-and-locks"></a>Chapitre 8 : Présentation des curseurs et des verrous
 

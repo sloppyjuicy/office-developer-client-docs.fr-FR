@@ -3,17 +3,17 @@ title: Lancement d’un formulaire pour lire un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 54a4b805-2ab7-4fb7-b0ea-4a33ead27451
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 439927dc78941f086c025d77c76236497d3f4a15
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d12801658fde2155367090f48d23ca969f39b8fd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425931"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561312"
 ---
 # <a name="launching-a-form-to-read-a-message"></a>Lancement d’un formulaire pour lire un message
 

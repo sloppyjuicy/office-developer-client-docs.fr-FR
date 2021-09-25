@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.OBJECT_NOTIFICATION
 api_type:
 - COM
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c637b3b03a22f208123397f7277cf8968f2509a0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fab2b4a20da9681db2ed29ca00beea04b6e42682
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430167"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561193"
 ---
 # <a name="object_notification"></a>OBJECT_NOTIFICATION
 

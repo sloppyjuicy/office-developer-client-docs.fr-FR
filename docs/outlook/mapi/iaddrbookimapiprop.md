@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IAddrBook
 api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: da71e9dd5f2fc20bb1daf528f4466ea29507bf06
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2edbc66be1f2f2ae761677c425616e70b77096d9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429823"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561550"
 ---
 # <a name="iaddrbook--imapiprop"></a>IAddrBook : IMAPIProp
 

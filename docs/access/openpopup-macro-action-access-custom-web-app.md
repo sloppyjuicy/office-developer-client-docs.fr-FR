@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 850de802-e417-4884-8d14-571de52aa391
 description: Ouvre l’affichage spécifié dans une fenêtre popup.
-ms.openlocfilehash: 2a8b67fcbf31c42f13b36f06d14d9d046be68c68
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f381389dad13e2a31fa73009118804ed5588c048
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427387"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576813"
 ---
 # <a name="openpopup-macro-action-access-custom-web-app"></a>OpenPopup Macro Action (Application web personnalisée Access)
 

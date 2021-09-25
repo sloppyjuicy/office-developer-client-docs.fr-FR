@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskFFixOffline
 api_type:
 - COM
 ms.assetid: bbaf7df4-2de0-4da3-9125-eb24dfa94cd8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 226e59ef6aa88bc290cf5aeb4d620979f926e1eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 44852bbdbbd3d742e8cc81082765fe4320b81c46
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303037"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595461"
 ---
 # <a name="pidlidtaskffixoffline-canonical-property"></a>Propriété canonique PidLidTaskFFixOffline
 

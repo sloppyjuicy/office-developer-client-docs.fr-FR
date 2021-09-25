@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e823797e-dde9-6ee7-b5e4-9e57cef90b08
 description: Contient une valeur de chaîne arbitraire utilisée pour fournir des informations supplémentaires sur une forme.
-ms.openlocfilehash: f76300d67cd973850abc529ed5790b581e8c0ef4
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 5f29fc6dbc571619c0c37ab701f9b4b300cb22f5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577933"
 ---
 # <a name="data2-element-shapesheet_type-complextype-visio-xml"></a>Élément Data2 (ShapeSheet_Type complexType) (Visio XML)
 

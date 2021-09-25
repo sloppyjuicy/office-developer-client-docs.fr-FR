@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0f92c2d-b5ba-4558-b8a2-484b2db32bec
 description: 'Last modified: June 18, 2012'
-ms.openlocfilehash: 1a1cf0a607dd4b57353eda74f9b14965e110c071
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ad7323d02a8a3f080614f09b610175976cd4c01f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584037"
 ---
 # <a name="mnls_lstrcpyw"></a>MNLS_lstrcpyW
 
@@ -32,7 +32,7 @@ LPWSTR MNLS_lstrcpyW(
 LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 lpString1
   

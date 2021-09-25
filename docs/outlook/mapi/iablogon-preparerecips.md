@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IABLogon.PrepareRecips
 api_type:
 - COM
 ms.assetid: 3c1845ea-e291-4855-9afd-51d2c64d7e85
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0a9b88d762ca88cebd6d9acecf06db53a0b778f6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a7a9459a1b3eb83540db9ab11e0bb01e7e6cf9de
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423859"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584485"
 ---
 # <a name="iablogonpreparerecips"></a>IABLogon::PrepareRecips
 
@@ -33,7 +33,7 @@ HRESULT PrepareRecips(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ulFlags_
   

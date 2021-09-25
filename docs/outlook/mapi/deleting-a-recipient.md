@@ -3,17 +3,17 @@ title: Suppression d’un destinataire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f7495030-e3b8-4c7c-9e19-284ba820e846
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: bd01c66d9fff7c94ffb1ce9f956f1951bc482020
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 39ad9792fce6c282725f40073bf103b0afb4aee6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421045"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584625"
 ---
 # <a name="deleting-a-recipient"></a>Suppression d’un destinataire
 

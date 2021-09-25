@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60060
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a97e97c-278d-2e1e-6c4f-f5f32e2cdeb0
 description: Indique la marge au bas de la page d'impression.
-ms.openlocfilehash: f546d89b8761c6c1b7340af69d2b48f16c180767
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 32e411b476bdd943e2294b7ba9943653ff0ce41c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438595"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577800"
 ---
 # <a name="pagebottommargin-cell-print-properties-section"></a>PageBottomMargin, cellule (section Print Properties)
 

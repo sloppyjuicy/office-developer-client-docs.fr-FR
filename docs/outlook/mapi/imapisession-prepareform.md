@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISession.PrepareForm
 api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3d8b1901123743b25b5bb9df174b297398c953b8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3567a0bc4c24ecdeefe6d58fe0075b1979001407
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335762"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561515"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
@@ -35,7 +35,7 @@ HRESULT PrepareForm(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpInterface_
   

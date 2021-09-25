@@ -3,17 +3,17 @@ title: Objets et architecture MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c3bcbda5-820d-4ef5-bffd-c254eea9dff6
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4f8bc2a5268d220c17a59148f8b8ba1d320d225b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9f37b5bd452f35e54edee6f98387c6f39d284106
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279786"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561179"
 ---
 # <a name="objects-and-the-mapi-architecture"></a>Objets et architecture MAPI
 
@@ -25,7 +25,7 @@ L’illustration suivante montre où chacun des objets MAPI s’inscrit dans l�
   
 **Couches d’objets dans MAPI**
   
-![Couches d’objet dans les couches](media/amapi_38.gif "de l’objet MAPI dans MAPI")
+![Couches d’objets dans MAPI](media/amapi_38.gif "Couches d’objets dans MAPI")
   
 ## <a name="see-also"></a>Voir aussi
 

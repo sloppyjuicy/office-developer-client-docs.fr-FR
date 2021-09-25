@@ -3,15 +3,15 @@ title: Outlook Éléments et champs
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 605fab0f-c045-4d2b-a2da-447a111f66a9
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b40752d4a5f445368752ad4caf5c919f6e0ce27b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b33f42e4203afeaa5d2f14bc46c84e8db060c468
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409117"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583997"
 ---
 # <a name="outlook-items-and-fields"></a>Outlook Éléments et champs
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60076
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a426f471-d35f-ef87-4c59-2c007ec2653f
 description: Détermine, en unités de page, la distance du décalage horizontal entre l'ombre d'une forme et la forme.
-ms.openlocfilehash: 5c3f994f0ceba84c86585a76c7a67667a0c20a53
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 44a30995953f8fe01cf0e28ba180d0612ddb2fdb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426484"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570084"
 ---
 # <a name="shapeshdwoffsetx-cell-fill-format-section"></a>ShapeShdwOffsetX, cellule (section Fill Format)
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm51095
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b265356-1602-4241-fbe1-4d5a55392a52
 description: Définit le niveau de transparence de la couleur d'un calque.
-ms.openlocfilehash: defe5307e57c433fcf85a4132939d08cb1ddec77
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b6b549ed68a48f900609eb38ceeda82af753b9f0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405834"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569859"
 ---
 # <a name="transparency-cell-image-properties-section"></a>Transparency, cellule (section Image Properties)
 

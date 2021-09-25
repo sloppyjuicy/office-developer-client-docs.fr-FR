@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm50110
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cafd7589-1c94-b9bc-b1a6-40f7c15fba71
 description: Détermine l'aspect d'un connecteur.
-ms.openlocfilehash: 19fe948daf7aa3d67db858849ecb2b15f40ba02d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f3bba289b4b4f4dc880694b40b8bf835f7cdc321
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434612"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577968"
 ---
 # <a name="conlinerouteext-cell-shape-layout-section"></a>ConLineRouteExt, cellule (section Shape Layout)
 

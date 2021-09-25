@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MSProviderInit
 api_type:
 - HeaderDef
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9a5f8b44f9d795282ccfd61fd32a306c5478ed21
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5d9a31a768ca588971fa0e22c1ab8c4d659753d1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416236"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595650"
 ---
 # <a name="msproviderinit"></a>MSProviderInit
 
@@ -47,7 +47,7 @@ HRESULT MSProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hInstance_
   

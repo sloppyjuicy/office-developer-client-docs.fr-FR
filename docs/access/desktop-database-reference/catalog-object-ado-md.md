@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249445(v=office.15)
 ms:contentKeyID: 48545559
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0ee7d2e68df90c8eee4227f949f93ea074b7df97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c7d7c1aac77ff44f253c45c793a61737111dd4a0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296590"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553220"
 ---
 # <a name="catalog-object-ado-md"></a>Objet Catalog (ADO MD)
 

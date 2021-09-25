@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidIsSilent
 api_type:
 - COM
 ms.assetid: e00d8887-0db4-422d-96db-84cefe65dfc1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d8d27240cc3e897949ae365c4efc881729a0134b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d144f3dcae07562315ef6a650bc217220b3db87c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315427"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595496"
 ---
 # <a name="pidlidissilent-canonical-property"></a>Propriété canonique PidLidIsSilent
 

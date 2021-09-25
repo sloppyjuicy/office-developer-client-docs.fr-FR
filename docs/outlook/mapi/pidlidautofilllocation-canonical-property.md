@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAutoFillLocation
 api_type:
 - COM
 ms.assetid: e4db6cae-4730-45d0-8b8a-9bd484c8bd3f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2d1edf371486c5db0aa8b869726c8a9a7b62ab06
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1a39cabe8393c1f7127ee4127dd844de823d7516
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344995"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561151"
 ---
 # <a name="pidlidautofilllocation-canonical-property"></a>Propriété canonique PidLidAutoFillLocation
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.CopyFolder
 api_type:
 - COM
 ms.assetid: c2e0939f-0668-473f-856c-a27af094070b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 11ee944a14f8c9bd881b9c79a4ce66817275e73a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ac2fb6c0ad29e16967b00425d9ca82cd3c52c8c5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420884"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584373"
 ---
 # <a name="imapisupportcopyfolder"></a>IMAPISupport::CopyFolder
 
@@ -42,7 +42,7 @@ HRESULT CopyFolder(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpSrcInterface_
   

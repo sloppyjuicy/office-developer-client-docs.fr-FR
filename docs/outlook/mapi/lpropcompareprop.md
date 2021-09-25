@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.LPropCompareProp
 api_type:
 - COM
 ms.assetid: f14ad568-fe45-4875-957d-415d39dc6f28
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7417ddeb814cafb954d5ab80a6dae771fd0f7a79
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b08be76fa214570dcc336431fe227a8629762de6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414612"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584184"
 ---
 # <a name="lpropcompareprop"></a>LPropCompareProp
 
@@ -40,7 +40,7 @@ LONG LPropCompareProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpSPropValueA_
   

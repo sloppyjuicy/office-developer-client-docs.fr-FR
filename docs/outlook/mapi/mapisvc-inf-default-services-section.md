@@ -3,17 +3,17 @@ title: MapiSvc.inf [Default Services] Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: dec42f8d-0f5c-4665-b53a-11cbc58b8b76
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a7906a9a5e953332dba5c4776c63bb433a937a5d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e99fec901bac6f72ac1ded4934896fd3869e89b6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435319"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595755"
 ---
 # <a name="mapisvcinf-default-services-section"></a>MapiSvc.inf [Default Services] Section
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, object model,InfoPath 2003-compatible object model,object models [InfoPath 2003]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cd0a890b-5a8b-42c0-abdd-5ce28aff1ba1
 description: Cette section présente le modèle objet pour les solutions InfoPath avec code managé et décrit les tâches de programmation courantes.
-ms.openlocfilehash: 0c07201475bb7bfe24182faf61cc1bf6df733709
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8e24f3bba9b187f426b1b08539851cbf7a829562
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416656"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576589"
 ---
 # <a name="understanding-the-infopath-2003-object-model"></a>Présentation du modèle objet InfoPath 2003
 

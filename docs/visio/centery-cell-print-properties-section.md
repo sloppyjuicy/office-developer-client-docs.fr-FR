@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033792
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7ce0bf66-dc8b-9646-7b04-50c969ecd67a
 description: Détermine si la page de dessin est centrée verticalement sur la page d'impression.
-ms.openlocfilehash: 858bf41c74fdcbd82d271a379df7c5816a7796fd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b72acb3db2a56ab44da92dd30a3f748941ca7fbe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437433"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578024"
 ---
 # <a name="centery-cell-print-properties-section"></a>CenterY, cellule (section Print Properties)
 

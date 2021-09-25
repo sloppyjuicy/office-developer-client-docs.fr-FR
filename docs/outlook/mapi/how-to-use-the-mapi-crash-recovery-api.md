@@ -3,15 +3,15 @@ title: Utiliser l’API de récupération sur incident MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a9871c2-b9bb-332e-b67e-85c50f7f685c
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: a73889982e4aa72fb664a8eafd6fc8704e581e98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5398e11320c110e48930f60efb6dc513349d575a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346423"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561676"
 ---
 # <a name="use-the-mapi-crash-recovery-api"></a>Utiliser l’API de récupération sur incident MAPI
 

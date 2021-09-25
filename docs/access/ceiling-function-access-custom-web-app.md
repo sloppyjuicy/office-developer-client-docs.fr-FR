@@ -3,15 +3,15 @@ title: Ceiling function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0245c820-6c60-47e2-8afa-3e56679454a3
 description: Renvoie le plus petit nombre d’nombres supérieur ou égal à l’expression numérique spécifiée.
-ms.openlocfilehash: 28d75ae3db535223566c39819dd3f5482b43002c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2c3ce19766b74ae9963da9a7a75c1708385fc953
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414206"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577765"
 ---
 # <a name="ceiling-function-access-custom-web-app"></a>Ceiling function (Access custom web app)
 

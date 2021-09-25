@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249927(v=office.15)
 ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 539feb1918877189548d0e7cff6ceb28e50abddc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 92599e81fcaf1303bd1c77c1d6f09acfe5dd63a2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283260"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553234"
 ---
 # <a name="ado-objects-and-interfaces"></a>Objets et interfaces ADO
 
@@ -59,11 +59,11 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 <td><p>Représente une colonne de données avec un type de données commun.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parameter-object-ado.md">Parameter</a></p></td>
+<td><p><a href="parameter-object-ado.md">Paramètre</a></p></td>
 <td><p>Représente un paramètre ou un argument associé à un objet <strong>Command </strong> basé sur une requête paramétrée ou une procédure stockée.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="property-object-ado.md">Property</a></p></td>
+<td><p><a href="property-object-ado.md">Propriété</a></p></td>
 <td><p>Représente une caractéristique dynamique d'un objet ADO qui est définie par le fournisseur.</p></td>
 </tr>
 <tr class="odd">

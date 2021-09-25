@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 77777dd4-5a2c-4048-9ea4-9bd876862963
 description: Contient les coordonnées x et y du point de terminaison d’une courbe de Bézier cubique par rapport à la largeur et à la hauteur de la forme, les coordonnées x et y du point de contrôle du début de la largeur et de la hauteur de la forme relative de courbe, et les coordonnées x et y du point de contrôle de la fin de la largeur et de la hauteur de la forme relative de courbe.
-ms.openlocfilehash: cb886706c4c5cbb3488a95b57dcc84e0e45ee326
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a5a3f0e5550b4f4c003e928299a9d129a808282e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430328"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570203"
 ---
 # <a name="relcubbezto-row-geometry-section"></a>RelCubBezTo Row (Geometry Section)
 

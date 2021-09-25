@@ -3,17 +3,17 @@ title: Gestion de la mémoire des structures ADRLIST et SRowSet
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a5636cad7cad23bb5114bdbd34aff48c3639773b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ad3a05a2556512ad06ab52abda29d4bb66fbd605
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407864"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561277"
 ---
 # <a name="managing-memory-for-adrlist-and-srowset-structures"></a>Gestion de la mémoire pour les structures ADRLIST et SRowSet »
 
@@ -31,7 +31,7 @@ Le diagramme suivant illustre la disposition d’une structure de données **ADR
   
 **Allocation de mémoire ADRLIST**
   
-![Allocation de mémoire ADRLIST](media/amapi_52.gif "ADRLIST") allocation de mémoire
+![Allocation de mémoire ADRLIST](media/amapi_52.gif "Allocation de mémoire ADRLIST")
   
 ## <a name="see-also"></a>Voir aussi
 

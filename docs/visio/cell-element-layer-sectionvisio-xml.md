@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9896839-ca36-b82b-7412-e57195d4b8e2
 description: Spécifie une propriété pour un calque ou ses propriétés pour une page.
-ms.openlocfilehash: 119c82f84c76f735a5d9b73b4bea8beda0a7e476
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 9dd15521f54837b4203778472d6545b50c01d34e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539756"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594873"
 ---
 # <a name="cell-element-layer-section-visio-xml"></a>Élément cell (Layer Section) (Visio XML)
 
@@ -74,7 +74,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |Nom  <br/> |Nom d’un calque.  <br/> |Aucun.  <br/> |
 |NameUniv  <br/> |Spécifie le nom universel d’un calque.  <br/> |Aucun.  <br/> |
 |Imprimer  <br/> |Spécifie si les formes appartenant au calque sont imprimées lors de l’impression du dessin.  <br/> |Aucun.  <br/> |
-|Ancrer  <br/> |Spécifie si d’autres formes peuvent s’aligner sur les formes affectées au calque.  <br/> |Aucun.  <br/> |
+|Aligner  <br/> |Spécifie si d’autres formes peuvent s’aligner sur les formes affectées au calque.  <br/> |Aucun.  <br/> |
 |Statut  <br/> |Spécifie si le calque est un calque valide pour un document.  <br/> |Aucun.  <br/> |
 |Visible  <br/> |Indique si les formes appartenant au calque sont visibles sur la page de dessin.  <br/> |Aucun.  <br/> |
    

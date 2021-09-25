@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46bf34be-761e-9d44-ab06-83d4c8932cab
 description: Spécifie une instance de solution XML stockée dans le dessin.
-ms.openlocfilehash: 028decf0ac9b33ac33dd1e44ed3992ef7eb38aed
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 9f5835cb083e98d825d5b486a27b66f238a61d49
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540265"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569936"
 ---
 # <a name="solution-element-solutions_type-complextype-visio-xml"></a>Élément Solution (Solutions_Type complexType) (Visio XML)
 

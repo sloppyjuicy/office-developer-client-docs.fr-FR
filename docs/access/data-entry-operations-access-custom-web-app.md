@@ -3,15 +3,15 @@ title: Opérations d’entrée de données (application web personnalisée Acces
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a63197ca-f2ff-49de-9b1b-11a2a7925d0f
 description: ''
-ms.openlocfilehash: fdfbb6afdabe44caa312f1856479959c895ad3dc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 557c8166de868fe654cd0d6bf4f1907d2a427665
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415676"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577611"
 ---
 # <a name="data-entry-operations-access-custom-web-app"></a>Opérations d’entrée de données (application web personnalisée Access)
 

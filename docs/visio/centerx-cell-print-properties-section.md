@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60030
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 890e2537-66a5-2863-c78d-320b42565ea7
 description: Détermine si la page de dessin est centrée horizontalement sur la page d'impression.
-ms.openlocfilehash: 13b05ed71248a3f8fada947fca6b203c6ab19c6d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5ea835ecd56a00c2697ed77e0dc2ca1559d21ba7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418077"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594795"
 ---
 # <a name="centerx-cell-print-properties-section"></a>CenterX, cellule (section Print Properties)
 

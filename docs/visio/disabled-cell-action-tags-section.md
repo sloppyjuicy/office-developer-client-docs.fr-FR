@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60038
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 description: Indique si la balise d’action s’affiche dans la fenêtre de dessin.
-ms.openlocfilehash: 867d36e27cb890509b0687500caf719362a711fb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b5d638053ffd201afd6e72b248758b8aa1a83ae3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439666"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577898"
 ---
 # <a name="disabled-cell-action-tags-section"></a>Disabled, cellule (section Action Tags)
 

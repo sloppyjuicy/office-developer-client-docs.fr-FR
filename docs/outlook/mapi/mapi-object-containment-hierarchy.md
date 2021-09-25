@@ -3,17 +3,17 @@ title: Hiérarchie de contenu d’objet MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 33747835-6eeb-4e07-8f92-3cfa81eecd0f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f5faf3a3d4971b01509d0ff0cfa59451015ba205
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 321510daf0a978ad369965be983e4001970e24a7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426925"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584135"
 ---
 # <a name="mapi-object-containment-hierarchy"></a>Hiérarchie de contenu d’objet MAPI
   
@@ -31,7 +31,7 @@ L’illustration suivante illustre la hiérarchie de contenu MAPI. La session se
   
 **Hiérarchie d’imbrication MAPI**
   
-![Hiérarchie de contenu MAPI -]Hiérarchie de contenu(media/amapi_41.gif "MAPI")
+![Hiérarchie d’imbrication MAPI](media/amapi_41.gif "Hiérarchie d’imbrication MAPI")
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidCcAttendeesString
 api_type:
 - COM
 ms.assetid: 697d5c93-ec7f-4608-9866-9e249a093dbc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 12cdbfcc140fb5ea3bb15a2db93f3689923d9390
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: cbb3af7fec768d8b8ed46fe8be308393049c67b7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561123"
 ---
 # <a name="pidlidccattendeesstring-canonical-property"></a>Propriété canonique PidLidCcAttendeesString
 

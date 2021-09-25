@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAppointmentReplyTime
 api_type:
 - COM
 ms.assetid: 80a2608b-fc44-455a-86be-d6235caba99e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ba79498569c544d1b0ee22e968477d5b68812c09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bfdae539669ec7bb1191639268a3b96eba81ca88
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331786"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595608"
 ---
 # <a name="pidlidappointmentreplytime-canonical-property"></a>Propriété canonique PidLidAppointmentReplyTime
 

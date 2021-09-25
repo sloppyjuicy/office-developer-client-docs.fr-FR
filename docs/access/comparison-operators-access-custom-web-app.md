@@ -3,15 +3,15 @@ title: Comparison Operators (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e47e1182-e44b-43a2-8254-cc39a9ba1269
 description: ''
-ms.openlocfilehash: 37e693e13da904999973774f8fc1737126a77f03
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1c2b9e8ecfa4da37d85c5c83b03172b9362870f1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412841"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577702"
 ---
 # <a name="comparison-operators-access-custom-web-app"></a>Comparison Operators (Access custom web app)
 

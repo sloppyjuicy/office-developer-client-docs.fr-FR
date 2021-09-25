@@ -3,15 +3,15 @@ title: Exemple de flux FolderUserFields
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e5251a619c70221987847830897ba349d63fd9cb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eed1ad0e1f64af5bf07cc0ca3c842eed10c43c47
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433975"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561788"
 ---
 # <a name="folderuserfields-stream-sample"></a>Exemple de flux FolderUserFields
 

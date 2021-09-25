@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameApplicationName
 api_type:
 - COM
 ms.assetid: 9f7e91f5-63a8-4529-9fb4-6275027af145
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 391f3c57b9ecc7b62eb4320ae9a5ae1d29849445
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ae90f6d189972d8df399c7ea175b862acd846c85
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360934"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595391"
 ---
 # <a name="pidnameapplicationname-canonical-property"></a>Propriété canonique PidNameApplicationName
 

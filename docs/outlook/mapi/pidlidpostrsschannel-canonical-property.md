@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidPostRssChannel
 api_type:
 - COM
 ms.assetid: 249966ee-0d00-4d2d-89b0-fb7525a89735
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 84ff8a5303a15dd73d8f3157a087c57c486fec27
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 688724daa93f342a3975d3a51b86f055b457f707
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315980"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595468"
 ---
 # <a name="pidlidpostrsschannel-canonical-property"></a>Propriété canonique PidLidPostRssChannel
 
@@ -25,7 +25,7 @@ ms.locfileid: "32315980"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient le contenu du champ \< de titre à partir du XML du flux Atom ou du canal \> \< \> \< \> RSS.
+Contient le contenu du \<title\> champ à partir du XML de Atom ou RSS \<feed\> \<channel\> .
   
 |||
 |:-----|:-----|

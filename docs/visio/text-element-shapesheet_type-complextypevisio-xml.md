@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46211968-9ad8-07da-f725-3ad136b7a8a1
 description: Contient le texte d’une forme.
-ms.openlocfilehash: 4b03bc2539b80e49daae9d14f3e2ad07a51de9f1
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: c0a20b1fd1280180f065c58cfb9445806f02a4f9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541924"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569901"
 ---
 # <a name="text-element-shapesheet_type-complextype-visio-xml"></a>Élément Text (ShapeSheet_Type complexType) (Visio XML)
 

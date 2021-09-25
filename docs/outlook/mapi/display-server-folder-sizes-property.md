@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - Display Server Folder Sizes Property
 api_type:
 - COM
 ms.assetid: 38429fdb-be93-213a-a780-80f9837f55fa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 85a8b5216eac1dd4e4cebd1313cb31c9b5d70227
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: de408d947228100553a7768b36882c3c9c3518fe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434549"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584583"
 ---
 # <a name="display-server-folder-sizes-property"></a>Display Server Folder Sizes, propriété
 

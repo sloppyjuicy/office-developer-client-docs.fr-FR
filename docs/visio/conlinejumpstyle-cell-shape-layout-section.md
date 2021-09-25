@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251655
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: baa05a50-97d0-3769-635e-0ea20317d59a
 description: Détermine le style de la déviation de trait pour un connecteur dynamique.
-ms.openlocfilehash: ae8af4e326a6c895b3617a4869f98eaf0db68db1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b95b2b8a2c09ac8ca9a590b2d17a45083455def4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415991"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594712"
 ---
 # <a name="conlinejumpstyle-cell-shape-layout-section"></a>ConLineJumpStyle, cellule (section Shape Layout)
 
@@ -27,11 +27,11 @@ Détermine le style de la déviation de trait pour un connecteur dynamique.
 |2  <br/> |Gap  <br/> |**visLOJumpStyleGap** <br/> |
 |3  <br/> |Square  <br/> |**visLOJumpStyleSquare** <br/> |
 |4   <br/> |Triangle  <br/> |**visLOJumpStyleTriangle** <br/> |
-|5   <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
-|6   <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |
-|7   <br/> |5 côtés  <br/> |**visLOJumpStyle4Point** <br/> |
-|8   <br/> |6 côtés  <br/> |**visLOJumpStyle5Point** <br/> |
-|9   <br/> |7 côtés  <br/> |**visLOJumpStyle6Point** <br/> |
+|5  <br/> |3 côtés  <br/> |**visLOJumpStyle2Point** <br/> |
+|6   <br/> |4 côtés  <br/> |**visLOJumpStyle3Point** <br/> |
+|7   <br/> |5 côtés  <br/> |**visLOJumpStyle4Point** <br/> |
+|8   <br/> |6 côtés  <br/> |**visLOJumpStyle5Point** <br/> |
+|9   <br/> |7 côtés  <br/> |**visLOJumpStyle6Point** <br/> |
    
 |||
 |:-----|:-----|

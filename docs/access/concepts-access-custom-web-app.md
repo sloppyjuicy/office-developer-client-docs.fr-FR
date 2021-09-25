@@ -3,14 +3,14 @@ title: Concepts (application web personnalisé de l'accès)
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9171b1b2-470e-428f-a026-e348d28d9dc2
-ms.openlocfilehash: 169257af588f5a6cf561304bb79c2d7e704d7287
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8c972fc8abca81a88106f89daf1c9f70d06d9b59
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420982"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577695"
 ---
 # <a name="concepts-access-custom-web-app"></a>Concepts (application web personnalisé de l'accès)
 

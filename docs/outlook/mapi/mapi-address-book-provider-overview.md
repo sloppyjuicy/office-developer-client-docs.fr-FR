@@ -3,17 +3,17 @@ title: Vue d’ensemble du fournisseur de carnet d’adresses MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ead51434-ae19-4c34-aa7a-bdeeccca5bd9
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ee628f4b11cb174c05a16ca60c9ec830a0e9abbe
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 262b32b2ee95c3f9eb0a83db00f37bcb78c23b88
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426540"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584149"
 ---
 # <a name="mapi-address-book-provider-overview"></a>Vue d’ensemble du fournisseur de carnet d’adresses MAPI
   
@@ -27,7 +27,7 @@ L’illustration suivante illustre une organisation de carnet d’adresses MAPI 
   
 **Organisation de carnet d’adresses**
   
-![Organisation de carnet d’adresses](media/amapi_04.gif "Organisation Carnet d’adresses")
+![Organisation de carnet d’adresses](media/amapi_04.gif "Organisation de carnet d’adresses")
   
 MAPI intègre toutes les informations fournies par les fournisseurs de carnets d’adresses installés dans un carnet d’adresses unique, en présentant un affichage unifié à l’application cliente. La liste intégrée affiche les conteneurs de niveau supérieur affichés par chacun des fournisseurs de carnet d’adresses installés. La plupart des fournisseurs de carnet d’adresses exposent uniquement quelques conteneurs (généralement un à trois) au niveau supérieur pour être inclus dans le niveau supérieur du carnet d’adresses intégré MAPI. Par exemple, un fournisseur de carnet d’adresses peut rendre disponibles « Tous les utilisateurs » et « Utilisateurs locaux » en tant que deux conteneurs au niveau supérieur.
   

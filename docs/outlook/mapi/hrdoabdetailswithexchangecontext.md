@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4e7fed2-88e4-4e14-90b6-913a1b7e338a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 353a663071a9f23f0d2330169d3ac7747e047c2b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e041597a01774fcdda3d99532bf5b062acdd46ba
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421367"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584533"
 ---
 # <a name="hrdoabdetailswithexchangecontext"></a>HrDoABDetailsWithExchangeContext
 
@@ -47,7 +47,7 @@ HRESULT HrOpenABEntryWithExchangeContext(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pmsess_
   

@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7c9737cc-4da6-46da-9dfa-57dfe91641bf
 description: Renvoie une expression de texte avec des données de caractères minuscules converties en minuscules.
-ms.openlocfilehash: 831e633fbb588994091fb54dcf150ba306d7f670
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dac70e0049718f9fec6b859c8e64e5c7e62f55fe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413436"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576743"
 ---
 # <a name="upper-function-access-custom-web-app"></a>Upper Function (Access custom web app)
 

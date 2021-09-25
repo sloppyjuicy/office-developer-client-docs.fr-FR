@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMSLogon.Unadvise
 api_type:
 - COM
 ms.assetid: 440d61c4-b69a-4010-a22b-0c9c5c376fbc
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9172d4956e78ac31cd15d69e70d05c127a474ca5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c21c61f886a6fcc493a83e0af54f010090e2dd3e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317275"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561459"
 ---
 # <a name="imslogonunadvise"></a>IMSLogon::Unadvise
 
@@ -33,7 +33,7 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulConnection_
   

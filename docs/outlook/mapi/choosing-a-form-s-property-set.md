@@ -3,17 +3,17 @@ title: Sélection d’un ensemble de propriétés pour un formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5680fed2-b2e7-4c4b-9ba8-2c497b9c433c
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d983b71c7c92c395740a8ae6f6d3666a8bc2c0c7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b18ac45fe04f1e299199e4a51bf952856d5bd85d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407192"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584723"
 ---
 # <a name="choosing-a-forms-property-set"></a>Sélection d’un ensemble de propriétés pour un formulaire
 

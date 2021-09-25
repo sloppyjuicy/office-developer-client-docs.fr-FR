@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAddressBookProviderEmailList
 api_type:
 - COM
 ms.assetid: 9c0527ea-e922-4514-b913-d3520350c452
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 053ec531f69ff7734872466b7a661beff3177b2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b8a89ed265b3208d0476c99bd3fb3dc2c80e394e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348481"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584018"
 ---
 # <a name="pidlidaddressbookprovideremaillist-canonical-property"></a>Propriété canonique PidLidAddressBookProviderEmailList
 

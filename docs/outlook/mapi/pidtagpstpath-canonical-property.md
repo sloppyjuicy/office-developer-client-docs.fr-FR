@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a246d1aa-a08c-4687-a24e-168803cfdd6f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 731aa16fb92832465727ea5e59a0dbb0157a3d8f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 92b184cb832bbcbe0d339cee3ba30bf4eed7f8bb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413205"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595048"
 ---
 # <a name="pidtagpstpath-canonical-property"></a>Propriété canonique PidTagPstPath
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInternetApproved
 api_type:
 - HeaderDef
 ms.assetid: 319be396-89fe-48a6-a229-c62ad48b1692
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 215e52dd7dd346ef598a8e99cedcc1edda15a7ed
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ecc1bb58c4d5662c4adc916643843fbb93d4aeb8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436663"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595314"
 ---
 # <a name="pidtaginternetapproved-canonical-property"></a>Propriété canonique PidTagInternetApproved
 

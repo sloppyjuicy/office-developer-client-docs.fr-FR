@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IXPLogon.EndMessage
 api_type:
 - COM
 ms.assetid: bb29e6a0-7a92-46eb-bbeb-6f2df6ac6d21
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 03eccfe27c6f93e42ee01a34fbf5df766c145cf1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5ffe1f2ce233227de0e3a483524fc4dcb6fca7d5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414157"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584219"
 ---
 # <a name="ixplogonendmessage"></a>IXPLogon::EndMessage
 
@@ -34,7 +34,7 @@ HRESULT EndMessage(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulMsgRef_
   

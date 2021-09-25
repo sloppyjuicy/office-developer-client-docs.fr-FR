@@ -8,19 +8,19 @@ f1_keywords:
 - xlSet
 keywords:
 - fonction xlset [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 0912c1d40882933778d0df927ceb9de773063444
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a99d904c4aa9845146ffe2d05dff45859de3b434
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404602"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576603"
 ---
 # <a name="xlset"></a>xlSet
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Place très rapidement des valeurs constantes dans des cellules ou des plages. Pour plus d’informations, voir « xlSet et workbooks with Array Formulas » dans [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).
   
@@ -28,7 +28,7 @@ Place très rapidement des valeurs constantes dans des cellules ou des plages. P
 Excel12(xlSet, LPXLOPER12 pxRes, 2, LPXLOPER12 pxReference, LPXLOPER pxValue);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxReference_ (**xltypeRef** ou **xltypeSRef**)
   

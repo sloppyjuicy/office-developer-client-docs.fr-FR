@@ -3,15 +3,15 @@ title: Structures de flux de champs de dossier
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96051bd2b62fd7c0e908a1018aac0225e44986be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 22b0b3678b5c0cd5690bfb76ed7680b259cf9039
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336889"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561795"
 ---
 # <a name="folder-fields-stream-structures"></a>Structures de flux de champs de dossier
 
@@ -104,7 +104,7 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
 |ftDuration  <br/> |0x7  <br/> |Durée  <br/> |
 |ftMultiString  <br/> |0xB  <br/> |Mots clés  <br/> |
 |ftFloat  <br/> |0xC  <br/> |Nombre ou pourcentage  <br/> |
-|ftCurrency  <br/> |0xE  <br/> |Monétaire  <br/> |
+|ftCurrency  <br/> |0xE  <br/> |Devise  <br/> |
 |ftCalc  <br/> |0x12  <br/> |Formule  <br/> |
 |ftSwitch  <br/> |0x13  <br/> |Combinaison de type affichant uniquement le premier champ non vide , en ignorant les suivants.  <br/> |
 |ftConcat  <br/> |0x17  <br/> |Combinaison de champs de jointage de type et de fragments de texte les uns aux autres.  <br/> |

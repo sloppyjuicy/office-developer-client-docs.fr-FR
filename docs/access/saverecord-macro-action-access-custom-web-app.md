@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f73b950-0ae7-4d5f-b6ec-d257b860383c
 description: Enregistre l’enregistrement actuel.
-ms.openlocfilehash: b8fe0da0ce85f997bad745db17ce53ef32b4ec7c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ad5f1e1a646f17ba867541a91bcf3d5db767ab1a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415557"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576792"
 ---
 # <a name="saverecord-macro-action-access-custom-web-app"></a>SaveRecord Macro Action (Access custom web app)
 

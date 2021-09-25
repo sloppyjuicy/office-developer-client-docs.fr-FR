@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidClassification
 api_type:
 - COM
 ms.assetid: 4b0f1830-a7d3-430a-9a2c-dad3431af744
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 359920f71ce8a4b86f39ea372f86da344f10e3d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2110f65733286fe86267b13c4ff42ae650c45f1a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344925"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595601"
 ---
 # <a name="pidlidclassification-canonical-property"></a>Propriété canonique PidLidClassification
 

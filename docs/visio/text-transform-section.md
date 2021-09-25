@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2160
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29f537e8-27da-9878-3e92-3b9edc9903de
 description: Contient les informations de positionnement du bloc de texte d'une forme.
-ms.openlocfilehash: 89125f75a790e0e4aae040b1ddf6917ac6699edc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b9dc317da4aef1aa9e9c44f80fce483ba7ee5c7b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404161"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569908"
 ---
 # <a name="text-transform-section"></a>Text Transform, section
 

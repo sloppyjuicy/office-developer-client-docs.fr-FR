@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMessageDeliveryId
 api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8c7481657496a0b7c9c3df4ccf37805f587eb82a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 76e8e6166e57b06d3c7bc362de38f3c73f7536b1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429221"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560899"
 ---
 # <a name="pidtagmessagedeliveryid-canonical-property"></a>Propriété canonique PidTagMessageDeliveryId
 
@@ -32,7 +32,7 @@ Contient un identificateur de système de transfert de messages (MTS) pour un me
 |Propriétés associées :  <br/> |PR_MESSAGE_DELIVERY_ID  <br/> |
 |Identificateur :  <br/> |0x001B  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Server  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

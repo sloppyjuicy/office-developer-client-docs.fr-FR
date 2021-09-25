@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIProp.CopyTo
 api_type:
 - COM
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f76b0a5482647fe3e181a36d7dcd8cb60ffc8985
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7d4b2f50954e8435f5aa2a3d647eee4486d61d70
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356391"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584464"
 ---
 # <a name="imapipropcopyto"></a>IMAPIProp::CopyTo
 
@@ -41,7 +41,7 @@ HRESULT CopyTo(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ciidExclude_
   

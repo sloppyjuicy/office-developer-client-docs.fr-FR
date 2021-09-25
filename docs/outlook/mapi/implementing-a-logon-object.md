@@ -3,17 +3,17 @@ title: Implémentation d’un objet Logon
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f9d77313012c2d133dc9352707ebc5e0c69c9973
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4fbc8dbbb3ed82ec4b5f519b96a25ac674df1119
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584303"
 ---
 # <a name="implementing-a-logon-object"></a>Implémentation d’un objet Logon
 

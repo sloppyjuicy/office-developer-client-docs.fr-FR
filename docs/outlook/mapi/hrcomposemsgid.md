@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.HrComposeMsgID
 api_type:
 - COM
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c035780d3d790d94551860a418401e63da1c2151
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2f0f4321a36bca1b2b93a1e40b74892867ecee47
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584527"
 ---
 # <a name="hrcomposemsgid"></a>HrComposeMsgID
 
@@ -44,7 +44,7 @@ HrComposeMsgID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _psession_
   

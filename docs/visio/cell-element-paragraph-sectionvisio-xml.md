@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de0d3aac-1a0f-1bdf-da94-e6699a55d08e
 description: Spécifie un attribut de mise en forme de paragraphe pour le texte de la forme, tel que les retraits, l’espacement des lignes, les puces ou l’alignement horizontal des paragraphes.
-ms.openlocfilehash: fbb837b96d40f412ddefdf1fac9da0d31a709e39
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: adcbd3b595ffa579ecf2b1951ba7c96b9603a296
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539480"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594824"
 ---
 # <a name="cell-element-paragraph-section-visio-xml"></a>Élément de cellule (section Paragraph) (Visio XML)
 

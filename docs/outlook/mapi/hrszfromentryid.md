@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.HrSzFromEntryID
 api_type:
 - COM
 ms.assetid: 5e3ed6b2-8eaf-44ab-bc6a-d3faabe84a93
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4020a9161a51994ebe5b7e339d26f7612ad47361
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3f6731653fdfde158a0a03b8fa3824b39f882dc1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411553"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584506"
 ---
 # <a name="hrszfromentryid"></a>HrSzFromEntryID
 
@@ -41,7 +41,7 @@ HrSzFromEntryID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cb_
   

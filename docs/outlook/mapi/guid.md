@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.GUID
 api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 12c50ab5936d7fffd364c276ba07ca69d3459ae7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8be044edc628143bc7f7a4a33caa1046f0a3e5e3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421584"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561739"
 ---
 # <a name="guid"></a>GUID
 

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IAddrBook.OpenEntry
 api_type:
 - COM
 ms.assetid: bd7746f4-8070-4cc5-8b8e-c527c5847545
 description: Dernière modification le 1er février 2013
-ms.openlocfilehash: 293fe5a65c760f61ab0073e0eafc1a606c69050f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b1b6ebd5e7d1ad30e9cc0ef2ad4c706dac6788b5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434164"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561571"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
@@ -36,7 +36,7 @@ HRESULT OpenEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _cbEntryID_
   

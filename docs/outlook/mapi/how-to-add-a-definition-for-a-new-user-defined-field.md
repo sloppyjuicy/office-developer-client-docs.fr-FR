@@ -3,15 +3,15 @@ title: Ajout de la définition d’un nouveau champ défini par l’utilisateur
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2879299d152d8fea7690162ae55a22f337f5fd59
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 40da92fd14036be5b0bdd22596a120bbb4c69b2d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428164"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561718"
 ---
 # <a name="add-a-definition-for-a-new-user-defined-field"></a>Ajout de la définition d’un nouveau champ défini par l’utilisateur
  

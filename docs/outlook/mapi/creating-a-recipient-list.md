@@ -3,17 +3,17 @@ title: Création d’une liste de destinataires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 270f86dd-2c1f-47eb-80f7-9d0d63936d61
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e3aa1f2b2e1e7c6d8a9be3fff451002952930ffb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e460765d57e4e40cc2739b39521b995c64ba5cf0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428213"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584667"
 ---
 # <a name="creating-a-recipient-list"></a>Création d’une liste de destinataires
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3055
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e327e00-0844-efa4-900b-6954d3b009bb
 description: Contient les coordonnées x et y pour le deuxième point de contrôle d’une spline, son deuxième nœud, son premier nœud, le dernier nœud et le degré de la spline.
-ms.openlocfilehash: 2ec06619770af4e5dbcc1a763595b6e01a39052b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 26ef4d10af7dff9376ac214123f1391b38f84dd5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417475"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569943"
 ---
 # <a name="splinestart-row-geometry-section"></a>SplineStart, ligne (section Geometry)
 

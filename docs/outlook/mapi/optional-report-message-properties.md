@@ -3,17 +3,17 @@ title: Propriétés facultatives du message de rapport
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5a473c40-6e94-48aa-b040-8308d17efbe8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 09da335f8024e81e478ffdef5309707490ca0f1e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b1dd9461e9a9c274d6c0b905421c373ef6a251a8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439505"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584007"
 ---
 # <a name="optional-report-message-properties"></a>Propriétés facultatives du message de rapport
 

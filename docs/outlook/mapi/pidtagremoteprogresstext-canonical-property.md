@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRemoteProgressText
 api_type:
 - COM
 ms.assetid: b74d4350-4ad6-4c3f-8326-bd28537dfa0f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b2a7a415f97af6aee4b9aa62b4349d2c40bfb55c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ce09d3c570828ecc438b98f7f7b5e46fe24e3515
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417012"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594950"
 ---
 # <a name="pidtagremoteprogresstext-canonical-property"></a>Propriété canonique PidTagRemoteProgressText
 

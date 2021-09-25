@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a900e174-d26a-4314-ae4f-d89e186350ce
 description: Contient les coordonnées x et y du sommet de fin d’un segment de trait droit par rapport à la largeur et à la hauteur d’une forme.
-ms.openlocfilehash: 2e85033b4a2e16c2df09b1a09655fcd4b97dd03d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 24f9f5c7de5b71f451f4d2e907d56516cc3b3c25
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437160"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570175"
 ---
 # <a name="rellineto-row-geometry-section"></a>RelLineTo Row (Geometry Section)
 

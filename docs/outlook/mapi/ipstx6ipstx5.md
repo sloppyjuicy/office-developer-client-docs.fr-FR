@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPSTX5
 api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ad17f93f6a24dad8c392d16900a01df05fe71f1d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 379bd557033d548e8aad93da3acbe5ba9c20a45c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561382"
 ---
 # <a name="ipstx6--ipstx5"></a>IPSTX6 : IPSTX5
 

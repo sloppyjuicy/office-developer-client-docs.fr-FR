@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033178
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e0b9754-3e3b-3a26-4e1a-e09102055c20
 description: Contient une valeur indiquant l'angle de la direction oblique lors de l'application du type d'ombre par défaut de la page.
-ms.openlocfilehash: 2eca29bbc735c7101ca82a2f26db30b2e344b8e6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4982d531663eaf7a854e1a50a50e57b8c52086f2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430426"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570063"
 ---
 # <a name="shdwobliqueangle-cell-page-properties-section"></a>ShdwObliqueAngle, cellule (section Page Properties)
 

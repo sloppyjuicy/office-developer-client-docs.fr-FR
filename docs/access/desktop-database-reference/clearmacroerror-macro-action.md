@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: f42386674ff76d550fb47a971860b4e1a5905236
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 675b8926d69b7cb5f52ed299d85d05dcd9cd82b7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296373"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553206"
 ---
 # <a name="clearmacroerror-macro-action"></a>ClearMacroError, action de macro
 
@@ -44,7 +44,7 @@ L’action **EffacerMacroErreur** ne possède aucun argument.
 
 ## <a name="example"></a>Exemple
 
-La macro suivante utilise l'action **SurErreur** avec l'argument **Suivant** pour supprimer les messages d'erreur, puis utilise l'action **OuvrirFormulaire** pour ouvrir un formulaire. Pour les besoins de cet exemple, une erreur a été délibérément créée en utilisant l'action **AtteindreEnregistrement** pour revenir à l'enregistrement précédent. La condition **\[ MacroError \] . \[ La \] \< \> numéro 0** teste **l’objet MacroError.** Si une erreur s'est produite, le numéro de l'erreur est une valeur non nulle et l'action **ZoneMessage** s'exécute. La zone de message affiche le nom de l'action à l'origine de l'erreur (dans le cas présent, l'action **AtteindreEnregistrement** ) et le numéro de l'erreur est affiché. Pour finir, l’action **EffacerMacroErreur** est exécutée afin d’effacer l’objet **MacroError**.
+La macro suivante utilise l'action **SurErreur** avec l'argument **Suivant** pour supprimer les messages d'erreur, puis utilise l'action **OuvrirFormulaire** pour ouvrir un formulaire. Pour les besoins de cet exemple, une erreur a été délibérément créée en utilisant l'action **AtteindreEnregistrement** pour revenir à l'enregistrement précédent. La condition **\[ MacroError \] . \[ La \] \<\> numéro 0** teste **l’objet MacroError.** Si une erreur s'est produite, le numéro de l'erreur est une valeur non nulle et l'action **ZoneMessage** s'exécute. La zone de message affiche le nom de l'action à l'origine de l'erreur (dans le cas présent, l'action **AtteindreEnregistrement** ) et le numéro de l'erreur est affiché. Pour finir, l’action **EffacerMacroErreur** est exécutée afin d’effacer l’objet **MacroError**.
 
 <table>
 <colgroup>

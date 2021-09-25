@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4f93fc5-80fb-3195-d25b-9a407de7848e
 description: Contient un nombre à point flottant qui spécifie un angle d’snap en degrés.
-ms.openlocfilehash: be53b3fdbe7aa04b6bcdf703f1859e866f2af2c2
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 62b60b82e93824ffbd5df20878f2aaa3d9ef74f9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570028"
 ---
 # <a name="snapangle-element-snapangles_type-complextype-visio-xml"></a>Élément SnapAngle (SnapAngles_Type complexType) (Visio XML)
 

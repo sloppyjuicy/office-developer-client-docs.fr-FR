@@ -3,15 +3,15 @@ title: ClosePopup Macro Action (Application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a7dafe5-aa4d-4213-a54b-e24161f83b3b
 description: Vous pouvez utiliser l’action ClosePopup pour fermer la vue de fenêtre du document actif.
-ms.openlocfilehash: 57cdf86f1478d96ee951484f348a21c6e8876f0a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bb23a0ea8c43903df38a71b8ef111b3f3ecbbe38
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417566"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577722"
 ---
 # <a name="closepopup-macro-action-access-custom-web-app"></a>ClosePopup Macro Action (Application web personnalisée Access)
 

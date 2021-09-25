@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96c04a242c477204ea1447fb78c31d189eeac59a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d68efa728b2cd62aca4ffbce02d2ea894ff74c35
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280053"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595636"
 ---
 # <a name="nstserviceentry"></a>NSTServiceEntry
 
@@ -45,7 +45,7 @@ HRESULT NSTServiceEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  **NSTServiceEntry utilise** le prototype de fonction **[MSGSERVICEENTRY.](msgserviceentry.md)** Pour plus d’informations sur ses paramètres, voir **[MSGSERVICEENTRY](msgserviceentry.md)**. 
   

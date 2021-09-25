@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidCustomFlag
 api_type:
 - COM
 ms.assetid: bfb7fd1e-774f-9a2f-fbbe-ba7f68ed8663
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9a131c633b8dcf9b0e5070f01de8fcab90a18ade
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3e2f25cba725c5ce47ba62e9ea9ca69475c56122
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357616"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595517"
 ---
 # <a name="pidlidcustomflag-canonical-property"></a>Propriété canonique PidLidCustomFlag
 

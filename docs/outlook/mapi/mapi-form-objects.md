@@ -3,17 +3,17 @@ title: Objets de formulaire MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eb9107d9-ad5c-4264-a457-dea193597dc9
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5a7c6c575f277a91a18f0d834e26d3d376613fba
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2802cba7fb9933ba55bf5a064691475caf90b109
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404784"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584128"
 ---
 # <a name="mapi-form-objects"></a>Objets de formulaire MAPI
 

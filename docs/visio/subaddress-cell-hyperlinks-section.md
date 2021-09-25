@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm985
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 949448fd-0f85-b56a-945e-1da0e48609e8
 description: Indique un emplacement au sein du document cible vers lequel établir un lien.
-ms.openlocfilehash: 092a53bd7c9d5adb77ed35f3e2ef53888bd6ebea
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: cd3c69e932c393c463b9aa4ee1a0ebff1817d45e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349321"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569922"
 ---
 # <a name="subaddress-cell-hyperlinks-section"></a>SubAddress, cellule (section Hyperlinks)
 

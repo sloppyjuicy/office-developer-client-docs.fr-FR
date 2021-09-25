@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251654
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
 description: Détermine la direction de la déviation de trait dans le cas d'un connecteur dynamique vertical d'une forme.
-ms.openlocfilehash: f86c77da62042d1bc2c0274564efa9fdb0887971
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1e5d19f4f8268b02439889d4448c0ca844850c4e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404770"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594740"
 ---
 # <a name="conlinejumpdiry-cell-shape-layout-section"></a>ConLineJumpDirY, cellule (section Shape Layout)
 

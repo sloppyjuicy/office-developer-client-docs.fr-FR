@@ -8,13 +8,13 @@ keywords:
 - types de données d’inscription [Excel 2007], types de données Excel [Excel 2007], chaînes [Excel 2007], nombres [Excel 2007], structures de données [Excel 2007], types de données [Excel 2007]
 ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-localization_priority: Priority
-ms.openlocfilehash: c546fc80b212301689744d3279a59733d9cc5524
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 76cddf8c63c9cba46181e916194f983bcdd6c1f6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310905"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576736"
 ---
 # <a name="data-types-used-by-excel"></a>Types de données utilisés par Excel
 
@@ -98,9 +98,9 @@ Le tableau suivant est reproduit et décrit plus en détail dans la rubrique [xl
 |XLOPER12  <br/> (introduit dans Excel 2007)  <br/> ||Q  <br/> |Tableaux et valeurs de feuille de calcul de type variable  <br/> |
 |||U  <br/> |Valeurs, tableaux et références de plage  <br/> |
    
-Les types **C%**, **F%**, **D%**, **G%**, **K%**, **O%**, **Q** et **U** étaient tous nouveaux dans Microsoft Office Excel 2007 et ne sont pas pris en charge dans les versions antérieures. Les types de chaînes**F**, **F%**, **G** et **G%** sont utilisés pour les arguments qui sont modifiés directement (modified-in-place). Lorsque les arguments **XLOPER** ou **XLOPER12** sont inscrits comme types **P** ou **Q** respectivement, Excel convertit les références à cellule unique en valeurs simples et les références à plusieurs cellules en tableaux lorsqu’il les prépare. 
+Les types **C%**, **F%**, **D%**, **G%**, **K%**, **O%**, **Q** et **U** étaient tous nouveaux dans Microsoft Office Excel 2007 et ne sont pas pris en charge dans les versions antérieures. Les types de chaînes **F**, **F%**, **G** et **G%** sont utilisés pour les arguments qui sont modifiés directement (modified-in-place). Lorsque les arguments **XLOPER** ou **XLOPER12** sont inscrits comme types **P** ou **Q** respectivement, Excel convertit les références à cellule unique en valeurs simples et les références à plusieurs cellules en tableaux lorsqu’il les prépare. 
   
-Les types **P** et **Q** arrivent toujours dans votre fonction sous la forme d’un des types suivants : **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeMissing**, or **xltypeNil**, mais pas **xltypeRef ** ni **xltypeSRef**, car ceux-ci sont toujours déréférencés. 
+Les types **P** et **Q** arrivent toujours dans votre fonction sous la forme d’un des types suivants : **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeMissing**, or **xltypeNil**, mais pas **xltypeRef** ni **xltypeSRef**, car ceux-ci sont toujours déréférencés. 
   
 Le type **O**, qui représente réellement trois arguments sur la pile, a été introduit pour la compatibilité avec les DLL Fortran où les arguments sont passés par référence. Il ne peut pas être utilisé pour renvoyer une valeur sauf en déclarant l’argument comme une valeur de retour modify-in-place et en plaçant les résultats dans les valeurs référencées. Le type **O %** étend le type **O** dans Excel 2007 pour accéder aux tableaux couvrant des zones plus grandes que la grille Office Excel 2003. 
   

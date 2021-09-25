@@ -3,17 +3,17 @@ title: Tables MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 840c34a64cd0478be8f208799653b9916f50079d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 23f847e525cbfd5d6bc54b54010f09677ec1028c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437083"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595769"
 ---
 # <a name="mapi-tables"></a>Tables MAPI
   
@@ -41,7 +41,7 @@ Notez que l’ensemble des propriétés affichées dans le message ne sont pas i
   
 **Utilisation d’un tableau pour afficher le contenu du dossier**
   
-![Utilisation d’un tableau pour afficher le contenu d’un dossier]À l’aide(media/amapi_54.gif "d’un tableau pour afficher le contenu du dossier")
+![Utilisation d’un tableau pour afficher le contenu du dossier](media/amapi_54.gif "Utilisation d’un tableau pour afficher le contenu du dossier")
   
 Il existe deux interfaces pour l’utilisation des tableaux :
   

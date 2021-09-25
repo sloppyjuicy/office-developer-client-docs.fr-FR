@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.OpenIMsgSession
 api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 607105bd58a14a3510f1ae71246069440a4f05cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 814884510fd2d5b4515c0a213c7a4f763617013e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326193"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584001"
 ---
 # <a name="openimsgsession"></a>OpenIMsgSession
 
@@ -41,7 +41,7 @@ SCODE OpenIMsgSession(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpMalloc_
   

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d21aba9d-71a2-f090-d930-05fc6d84b673
 description: Ce membre est un espace réservé et n’est pas pris en charge.
-ms.openlocfilehash: 06d52f43d585529c1cb7ecf65ea961e6e40d683b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0462de28e009fd0faefde5fb82b684be15d40cc4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425105"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576595"
 ---
 # <a name="ifreebusysupportplaceholder14"></a>IFreeBusySupport::Placeholder14
 

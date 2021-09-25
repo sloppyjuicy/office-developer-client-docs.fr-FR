@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033785
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ba0fd22-65a6-6cb6-da00-08f391705544
 description: Indique la marge en haut de la page d'impression.
-ms.openlocfilehash: ff2bffffed39c5571386e792d2ffc8d20d6b291e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6b91f219f28f148aa6e341668d0ba0bd25437272
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416579"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577772"
 ---
 # <a name="pagetopmargin-cell-print-properties-section"></a>PageTopMargin, cellule (section Print Properties)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAgingPeriod
 api_type:
 - HeaderDef
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d42b58bf4fd445f34064b179c873c8bc15b11b3f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f9628cbde8bf136f4be4536e26ee9c2624cdea05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595328"
 ---
 # <a name="pidtagagingperiod-canonical-property"></a>Propriété canonique PidTagAgingPeriod
 

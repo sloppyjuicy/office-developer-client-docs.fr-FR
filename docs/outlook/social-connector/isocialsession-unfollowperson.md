@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66c83041-ee83-41d5-b9dc-a4dc4c670f82
 description: Supprime la personne identifiée par le paramètre userID en tant qu’ami sur le réseau social.
-ms.openlocfilehash: c276a9e5af18f7e4a3afbaa66d366d55de460a58
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bea5af2abe2d8046f4ff0788e46d9fb57ce5d5ea
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418434"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594908"
 ---
 # <a name="isocialsessionunfollowperson"></a>ISocialSession::UnFollowPerson
 
@@ -23,7 +23,7 @@ Supprime la personne identifiée par le paramètre  _userID_ en tant qu’ami su
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _userID_
   

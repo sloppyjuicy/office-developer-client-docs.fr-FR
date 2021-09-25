@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eca2ba85-27bf-445b-8f87-b56ae879a72f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 20f2c25a75f6d3e4db0bc1550b2d44cc6f914407
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 567d90975ba67e6d3b488d4934a4a478ca8698b2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595055"
 ---
 # <a name="pidtagpstpasswordszold-canonical-property"></a>Propriété canonique PidTagPstPasswordSzOld
 

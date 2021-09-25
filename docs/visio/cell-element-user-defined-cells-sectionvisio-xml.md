@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab7a11a0-a413-d4fe-ddf1-0d2e967dc21d
 description: Propriété d’une information spécifiée par l’utilisateur à qui d’autres cellules et outils de module complémentaire peuvent faire référence.
-ms.openlocfilehash: 5b7e3eb1f4550430e4df51098b86862fcc7400da
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 07961200b907668af4372db1a97e26646325bf31
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539313"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594790"
 ---
 # <a name="cell-element-user-defined-cells-section-visio-xml"></a>Élément de cellule (section User-defined Cells) (Visio XML)
 

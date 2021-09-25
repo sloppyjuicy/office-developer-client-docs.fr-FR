@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9e97f45-2a5c-40c3-8282-a345ae6249d9
 description: Détermine les propriétés transférées de l’ancienne forme vers la forme de remplacement lors d’une opération de remplacement. Les valeurs des cellules de la section Modifier le comportement de la forme de la forme de base du remplacement sont lues pendant l’opération de remplacement de la forme.
-ms.openlocfilehash: 74519b27ab5b2b5bafc7c00010a65769061bf691
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4bc87c7ab77568b06ced5456c74f96c151322761
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577996"
 ---
 # <a name="change-shape-behavior-section"></a>Change Shape Behavior Section
 

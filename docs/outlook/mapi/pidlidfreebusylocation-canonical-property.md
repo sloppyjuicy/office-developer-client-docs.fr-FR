@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidFreeBusyLocation
 api_type:
 - COM
 ms.assetid: 1e7a36e6-2e93-4aa5-bef8-66fd5c407700
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 50fa3c1e1173a91d7c03759f4f635f1bb6e0600d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 49f1b270f3442284538f7be7e5e7cdf3685741b7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282435"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595525"
 ---
 # <a name="pidlidfreebusylocation-canonical-property"></a>Propriété canonique PidLidFreeBusyLocation
 

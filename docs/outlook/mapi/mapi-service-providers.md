@@ -3,17 +3,17 @@ title: Fournisseurs de services MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6511e1b5-697e-4ed1-80af-aa8ca56fd045
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bb40891376ac511869ba157b675e53ee236b24ca
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 369a87b0adc5f36a59beb2663f6204feb8f34e19
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409537"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595783"
 ---
 # <a name="mapi-service-providers"></a>Fournisseurs de services MAPI
 

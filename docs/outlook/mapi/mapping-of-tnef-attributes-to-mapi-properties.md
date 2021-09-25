@@ -3,17 +3,17 @@ title: Mappage des attributs TNEF aux propriétés MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1a724fac-2e64-48a7-92b5-d7cf1528cb2c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 25647a6488fec9a39f8b41441fe9afc4c4aa0a7d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4d4fb30483df5b4754271eac2ed8af9703e723d8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405022"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595741"
 ---
 # <a name="mapping-of-tnef-attributes-to-mapi-properties"></a>Mappage des attributs TNEF aux propriétés MAPI
 

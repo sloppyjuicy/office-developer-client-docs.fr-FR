@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPITable.CollapseRow
 api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e6a180ceb325a705ebf226bb728c52cce7396490
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6f8d1319f5655591bdd11188910e2ac458b4dcfc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416173"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584352"
 ---
 # <a name="imapitablecollapserow"></a>IMAPITable::CollapseRow
 
@@ -36,7 +36,7 @@ ULONG FAR * lpulRowCount
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbInstanceKey_
   

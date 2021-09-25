@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidNonSendToTrackStatus
 api_type:
 - COM
 ms.assetid: 50fec332-e7df-4bc6-8c50-59b9ca545f89
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bdfbd553e130a4e463017168a76dc94fc0df827b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: dee78076daff602536de429d73c97ac972405dac
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331366"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595489"
 ---
 # <a name="pidlidnonsendtotrackstatus-canonical-property"></a>Propriété canonique PidLidNonSendToTrackStatus
 

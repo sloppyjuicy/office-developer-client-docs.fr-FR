@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidCategories
 api_type:
 - COM
 ms.assetid: 6ad2aedc-405b-475e-ac76-7ecbbef28f73
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b2047f04f3f4a8d2b3e58e07a71e7e2463eff9cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 568349edc056db11298668b942130a4e91a8ff3a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344974"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561130"
 ---
 # <a name="pidlidcategories-canonical-property"></a>Propri t canonique PidLidCategories
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49fee70d-6556-887b-003f-4f56916d541d
 description: Spécifie les commentaires d’un dessin.
-ms.openlocfilehash: fbbc7ea668686a8f075f3f11843b2d828c257363
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 73a220c7e25f057a2dbf3eeee97ef64016bba19b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539247"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594768"
 ---
 # <a name="commentlist-element-comments_type-complextype-visio-xml"></a>Élément CommentList (Comments_Type complexType) (Visio XML)
 

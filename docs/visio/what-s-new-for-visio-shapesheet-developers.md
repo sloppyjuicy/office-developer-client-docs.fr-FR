@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1046253
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4f0cf7a-ac4b-c914-7887-e1d65e9d59fa
 description: Visio 2013 fournit une plateforme unique puissante pour vos solutions de dessin personnalisées. Les nouvelles cellules et fonctions ShapeSheet, ainsi que les nouveaux objets, propriétés, méthodes et événements Automation, vous offrent davantage d’options pour définir et contrôler le comportement des éléments dans vos solutions.
-ms.openlocfilehash: 9ab1c447e7cfdf41b8c88a85438ac2904b1395cf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 554ebc4d6622a00155639b860250b49d3e43f843
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413324"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569782"
 ---
 # <a name="whats-new-for-visio-shapesheet-developers"></a>Nouveautés pour les développeurs Visio ShapeSheet
 
@@ -100,7 +100,7 @@ Le tableau suivant répertorie les nouvelles cellules que vous pouvez utiliser p
    
 Le tableau suivant répertorie les cellules qui ont été modifiées Visio 2013.
   
-|**Cellule modifiée**|**Notes**|
+|**Cellule modifiée**|**Remarques**|
 |:-----|:-----|
 |[ShdwType](shdwtype-cell-page-properties-section.md) <br/> |Nouvelle valeur et constante Automation  <br/> |
    
@@ -135,7 +135,7 @@ Le tableau suivant répertorie les nouvelles fonctions dans Visio 2013.
    
 Le tableau suivant répertorie les fonctions Visio 2013.
   
-|**Fonction dépréciée**|**Notes**|
+|**Fonction dépréciée**|**Remarques**|
 |:-----|:-----|
 |**CELLISTHEMED** <br/> |Remplacé par [la fonction ISTHEMED.](isthemed-function.md)  <br/> |
    

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ITableData.HrDeleteRows
 api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fdd6f40b4d7aa7f65bf1a46d3d9a4f18472b19f7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 48810ea68394fa21ad666dfc8464bbf12b2c8359
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416453"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584226"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
@@ -35,7 +35,7 @@ HRESULT HrDeleteRows(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

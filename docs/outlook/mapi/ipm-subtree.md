@@ -3,17 +3,17 @@ title: Sous-arbre IPM
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b5fc6084-722d-44e8-8637-f4160a4fb19b
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 92c7a09d9d608ac31920d49b20f78bedd26f5fcd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 89f29feffa4cbcfc5a9b4351f12d616ae45532c0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561410"
 ---
 # <a name="ipm-subtree"></a>Sous-arbre IPM
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAbProviders
 api_type:
 - HeaderDef
 ms.assetid: 26195406-dcef-4504-bb74-d0705d952897
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8dac0b2684a4b6754e99235f47816f8e5fb84714
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b5823b7669d006e7e43753c98b2347aa8e27ae5d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419785"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560989"
 ---
 # <a name="pidtagabproviders-canonical-property"></a>Propriété canonique PidTagAbProviders
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.MTSID
 api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96da91acec741322e6c07c64555171d35f0f7e00
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 84ffea2a1c5f0cb70cdd49f5aa318921f8a3d044
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435172"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595643"
 ---
 # <a name="mtsid"></a>MTSID
 

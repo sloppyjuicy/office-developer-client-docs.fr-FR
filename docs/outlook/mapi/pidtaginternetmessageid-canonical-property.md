@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInternetMessageId
 api_type:
 - HeaderDef
 ms.assetid: 5c93d00c-a199-4d45-9bf6-87bd2ffe4784
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c2cc0eabd9c329953d9b0d252418549ea1c588a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f84d7fe7e397e2b9bf136d01cc3f30a3999dee06
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358563"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595265"
 ---
 # <a name="pidtaginternetmessageid-canonical-property"></a>Propriété canonique PidTagInternetMessageId
 

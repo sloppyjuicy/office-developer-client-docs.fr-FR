@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251412
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b6c5375-c543-ff2f-f20a-6d92fd65717a
 description: Renvoie la date représentée par l’année, le mois et le jour formatés en fonction du style de date courte dans les Paramètres du système. Les valeurs de l’année, du mois et du jour reflètent le calendrier grégorien.
-ms.openlocfilehash: 0175c1f06ec3dbdf89774759546c65994d38105e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 820329bbe9283cae540625d4232d4095c6a1a530
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360332"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577905"
 ---
 # <a name="date-function-visioshapesheet"></a>DATE Function (VisioShapeSheet)
 

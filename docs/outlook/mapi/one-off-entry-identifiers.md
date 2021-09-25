@@ -3,17 +3,17 @@ title: Identificateurs d’entrée ponctuelle
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 741d21ae-f14a-4b7f-80aa-91d0f0ff3f34
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: abe52cb45e13e6713d28fffe379e245e2483bffa
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: befb72506ee8b31628b10567996a92db6de3f89b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411042"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583999"
 ---
 # <a name="one-off-entry-identifiers"></a>Identificateurs d’entrée ponctuelle
   
@@ -23,7 +23,7 @@ Les identificateurs d’entrée uniques sont créés par MAPI dans la méthode *
   
 **Format d’identificateur d’entrée unique**
   
-![Format d’identificateur d’entrée]unique format(media/amapi_69.gif "d’identificateur d’entrée unique")
+![Format d’identificateur d’entrée unique](media/amapi_69.gif "Format d’identificateur d’entrée unique")
   
 Le premier champ est une structure [MAPIUID](mapiuid.md) spéciale qui identifie l’identificateur d’entrée comme représentant un destinataire personnalisé. Cette structure **MAPIUID** doit être définie sur la constante MAPI_ONE_OFF_UID. MAPI_ONE_OFF_UID est défini dans le fichier d’en-tête MAPIDEFS.H. 
   

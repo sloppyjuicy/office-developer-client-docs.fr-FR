@@ -8,19 +8,19 @@ f1_keywords:
 - XLOper12ToXLOper
 keywords:
 - fonction xloper12toxloper [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b46f87c4-778b-4502-be57-c3725f73a644
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 148353dcec1cc051aa44d18c0a081b6623e3759a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8d55f9b0dd168725260729ecd61663753ee87a1b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422907"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576624"
 ---
 # <a name="xloper12toxloper"></a>XLOper12ToXLOper
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Routine de conversion utilisée pour convertir à partir de la **nouvelle XLOPER12 vers** l’ancienne **XLOPER**.
   
@@ -28,7 +28,7 @@ Routine de conversion utilisée pour convertir à partir de la **nouvelle XLOPER
 BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxloper12_ (**LPXLOPER12**)
   

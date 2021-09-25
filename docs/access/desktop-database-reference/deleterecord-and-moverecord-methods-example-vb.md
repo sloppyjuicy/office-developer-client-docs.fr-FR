@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250268(v=office.15)
 ms:contentKeyID: 48548815
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1fa0ca559c63e1786f55607d94b45f3cc01503dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c49c8afb8228d471b3bff620528301c03ee6d7fb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294021"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553115"
 ---
 # <a name="deleterecord-and-moverecord-methods-example-vb"></a>DeleteRecord et MoveRecord, méthodes – Exemple (VB)
 

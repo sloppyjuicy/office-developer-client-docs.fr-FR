@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bf0d3edc-3280-4500-8fae-bb7f338bb7dd
 description: Cette rubrique décrit comment télécharger les exemples de code qui accompagnent cette documentation.
-ms.openlocfilehash: 19145077d8048ad7117160ffc693fb90827f8fc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4e98b4aba7e37955a36fbd7a56bfc06d72e5a95f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281003"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594936"
 ---
 # <a name="downloading-the-samples"></a>Téléchargement des exemples
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginalSenderAddressType
 api_type:
 - COM
 ms.assetid: bd777f19-cbb1-4497-8a0b-e05b491c6957
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d593b5ae1c2341ae0972ba68bcf42dde64e9a2f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b0df5e3bb9f770d5cae5cd0e5eed06d980a85549
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342678"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595139"
 ---
 # <a name="pidtagoriginalsenderaddresstype-canonical-property"></a>Propriété canonique PidTagOriginalSenderAddressType
 

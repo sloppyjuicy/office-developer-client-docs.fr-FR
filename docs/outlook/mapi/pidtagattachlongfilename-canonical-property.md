@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAttachLongFilename
 api_type:
 - HeaderDef
 ms.assetid: 83b69e8f-0b5a-4992-b5b8-160d3bdfa22a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 45b6b3fb0c67d854fddf3773c06cef7b36f54992
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 00d1ce393958389e757d1729c0c8c4cdc96aff81
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339325"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560934"
 ---
 # <a name="pidtagattachlongfilename-canonical-property"></a>Propriété canonique PidTagAttachLongFilename
 

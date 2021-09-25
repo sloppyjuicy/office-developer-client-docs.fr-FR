@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
 ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3ac650d54d08b77bd0ba3311c1ac7c3005d75dfe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: cbcf8433c9676aed568eb75a566f4c29048bec90
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283288"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553248"
 ---
 # <a name="ado-md-properties"></a>Propriétés ADO MD
 
@@ -27,7 +27,7 @@ ms.locfileid: "32283288"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Propriété</th>
+<th>Property</th>
 <th>Description</th>
 </tr>
 <tr class="odd">
@@ -115,7 +115,7 @@ ms.locfileid: "32283288"
 <td><p>Indique la source des données de l'ensemble de cellules.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado-md.md">État</a></p></td>
+<td><p><a href="state-property-ado-md.md">State</a></p></td>
 <td><p>Indique l'état actuel de l'ensemble de données.</p></td>
 </tr>
 <tr class="odd">

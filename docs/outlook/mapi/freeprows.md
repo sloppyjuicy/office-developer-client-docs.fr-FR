@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FreeProws
 api_type:
 - HeaderDef
 ms.assetid: 0f8f9fc4-4940-4c0a-92cc-2a6409b9a13f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b1109b3201e1b1e4a78c3a0fe0f2eb4d0cd43c05
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a71322552b12e806242ffcf78346f1f6d0b3e08b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438819"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561781"
 ---
 # <a name="freeprows"></a>FreeProws
 
@@ -39,7 +39,7 @@ void FreeProws(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _prows_
   

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3b2a08f-07a0-5f1c-4910-503229927816
 description: Contient les coordonnées x ou y du premier sommet d’une forme, ou représente les coordonnées x ou y du premier sommet après une coupure dans un chemin d’accès.
-ms.openlocfilehash: f0cbe7170bf4462b9aece211a149af396c132766
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 7193d38b55dc38485756e63cd429d1e7fb8a846c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539515"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594838"
 ---
 # <a name="cell-element-moveto-row-visio-xml"></a>Élément de cellule (ligne MoveTo) (Visio XML)
 
@@ -67,6 +67,6 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Si la **ligne MoveTo** est la première ligne de la section, la cellule X représente la coordonnée **x** du premier sommet d’une forme. Si la **ligne MoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée **x** du premier sommet après la rupture du chemin d’accès.  <br/> |[MoveTo, ligne (section Geometry)](moveto-row-geometry-section.md) <br/> |
-|v  <br/> |Si la **ligne MoveTo** est la première ligne de la section, la cellule Y représente la coordonnée **y** du premier sommet d’une forme. Si la **ligne MoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée **y** du premier sommet après la rupture du chemin d’accès.  <br/> |[MoveTo, ligne (section Geometry)](moveto-row-geometry-section.md) <br/> |
+|O  <br/> |Si la **ligne MoveTo** est la première ligne de la section, la cellule Y représente la coordonnée **y** du premier sommet d’une forme. Si la **ligne MoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée **y** du premier sommet après la rupture du chemin d’accès.  <br/> |[MoveTo, ligne (section Geometry)](moveto-row-geometry-section.md) <br/> |
    
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1095
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ca662c8-1ce4-89a9-3264-1ba533fcd444
 description: Contient la fonction d'un champ.
-ms.openlocfilehash: d5a09dd0d59341125db897484f74addff22328de
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b81a384ac5a0327fb1725c2297389e334907579b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430944"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569838"
 ---
 # <a name="value-cell-text-fields-section"></a>Value, cellule (section Text Fields)
 

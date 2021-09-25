@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197940(v=office.15)
 ms:contentKeyID: 48546489
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9510faab9035f2b2cbcccae0a8ddefa484a95cb1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f9789699e39bcb7b7532beb69aaf52c8f0d6e889
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307188"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552653"
 ---
 # <a name="recordset2seek-method-dao"></a>Recordset2.Seek, méthode (DAO)
 
@@ -22,11 +22,11 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .Seek(***Comparison***, ***Key1***, ***Key2***, ***Key3***, ***Key4***, ***Key5***, ***Key6***, ***Key7***, ***Key8***, ***Key9***, ***Key10***, ***Key11***, ***Key12***, ***Key13***)
+*.* Seek(***Comparison** _, _*_Key1_*_, _*_Key2_*_, _*_Key3_*_, _*_Key4_*_, _*_Key5_*_, _*_Key6_*_, _*_Key7_*_, _*_Key8_*_, _*_Key9_*_, _*_Key10 , Key11_*_, _*_Key12_*_, _*_Key13_**) _**_
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

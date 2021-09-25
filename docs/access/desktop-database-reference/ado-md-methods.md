@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248929(v=office.15)
 ms:contentKeyID: 48543456
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 143e26f38afee71078b96fe43ac838817b8393a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c2e3480eea1c4fa52ab51e696370f808397423cc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283330"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553241"
 ---
 # <a name="ado-md-methods"></a>Méthodes ADO MD
 
@@ -35,7 +35,7 @@ ms.locfileid: "32283330"
 <td><p>Ferme un ensemble de cellules ouvert.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="open-method-ado-md.md">Open</a></p></td>
+<td><p><a href="open-method-ado-md.md">Ouvert</a></p></td>
 <td><p>Récupère les résultats d'une requête multidimensionnelle et renvoie les résultats dans un ensemble de cellules.</p></td>
 </tr>
 </tbody>

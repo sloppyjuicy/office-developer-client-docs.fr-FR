@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMessage
 api_type:
 - COM
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 217411dc8bae12a3d7544a4cfd189c4c8f863195
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 03f333c87faf0ea9908d1d366f89a3317ac0632a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432498"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584338"
 ---
 # <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 

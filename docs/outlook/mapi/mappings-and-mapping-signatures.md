@@ -3,17 +3,17 @@ title: Mappages et signatures de mappage
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 773f6671-cc21-4d1f-a11d-308bc71c852d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: cd26ce4bc2da3da639b4a611fc9a69f39b13e5f3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: da1a4fe3027d4bf914e93c1000d37bb73e7875db
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410013"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595748"
 ---
 # <a name="mappings-and-mapping-signatures"></a>Mappages et signatures de mappage
 

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMSProvider.SpoolerLogon
 api_type:
 - COM
 ms.assetid: 79d5af23-efad-4013-a330-56babfb2bb0f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 794674df38266743cac8c947ec93dc1fcfff438b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 60148f32c89de365faa0b1eea66d930a2708a06e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430573"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561452"
 ---
 # <a name="imsproviderspoolerlogon"></a>IMSProvider::SpoolerLogon
 
@@ -44,7 +44,7 @@ HRESULT SpoolerLogon(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpMAPISup_
   

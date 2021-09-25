@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.CreateIProp
 api_type:
 - COM
 ms.assetid: 9bf68814-2564-433d-b762-3d2c83ca3c60
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e318d7a709a09e67ebf423db0263985523d2fc28
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 510230c63eef41816fef29634365d11d2ab2cc42
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406807"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584660"
 ---
 # <a name="createiprop"></a>CreateIProp
 
@@ -44,7 +44,7 @@ SCODE CreateIProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpInterface_
   

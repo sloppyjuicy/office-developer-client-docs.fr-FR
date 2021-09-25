@@ -9,13 +9,13 @@ api_type:
 - COM
 ms.assetid: 3b980217-b65b-442b-8c18-b8b9f3ff487a
 description: Dernière modification le 12 mars 2013
-localization_priority: Priority
-ms.openlocfilehash: d08e0526035010d5eaf272dfa9b3311c7aeda6c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 37a9461fd7f22aa51c127795a4226ff039d9e93d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328174"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584114"
 ---
 # <a name="mapi-properties"></a>Propriétés MAPI
 

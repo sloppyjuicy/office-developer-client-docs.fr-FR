@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameByteCount
 api_type:
 - COM
 ms.assetid: a2d0c3e3-ba49-4e2c-bcfd-27cc5ff78c5b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 908cd5ff37e65ef9b220146df6af64d727767250
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fe63ad998475bc27bbe662d06a9ec05194681009
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360899"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595377"
 ---
 # <a name="pidnamebytecount-canonical-property"></a>Propriété canonique PidNameByteCount
 

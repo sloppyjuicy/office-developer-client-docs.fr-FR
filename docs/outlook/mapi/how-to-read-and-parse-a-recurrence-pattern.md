@@ -3,17 +3,17 @@ title: Lecture et analyse d’une périodicité
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c226fe79fd002cda3c557fc8416c25f98ad33626
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6c5b7addd9a62e8f87bee1435f1c73ae61e34333
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345926"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561690"
 ---
 # <a name="read-and-parse-a-recurrence-pattern"></a>Lecture et analyse d’une périodicité
   

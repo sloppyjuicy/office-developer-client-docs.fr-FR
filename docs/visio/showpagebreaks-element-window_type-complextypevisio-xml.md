@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a8c29d9-31d9-dd77-09c5-6e9eaf870552
 description: Spécifie si les coupures de page sont affichées dans une fenêtre.
-ms.openlocfilehash: 85450dedcfdf07929aafb92e59c29e474a5fb626
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 474ee14d42c4abe1ea77cb384b5e6c67d6c4b894
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541441"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570056"
 ---
 # <a name="showpagebreaks-element-window_type-complextype-visio-xml"></a>Élément ShowPageBreaks (Window_Type complexType) (Visio XML)
 

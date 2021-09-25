@@ -3,17 +3,17 @@ title: Adresses ponctuelles
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9224c694-b26f-42c7-9404-ee2dd832cfbb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e6bda55951d8df5c5da272750c631ec105b2ccf2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1fccf0f3e72cb2619566e074cde3dbb52c539ef2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409110"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583980"
 ---
 # <a name="one-off-addresses"></a>Adresses ponctuelles
 
