@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPIUninitialize
 api_type:
 - HeaderDef
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f7339588bcc6815545e7341eafffe9cf001c1d76
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e06dfe806ca3d99f35a369eb4a7cf6fe8da50717
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408522"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551127"
 ---
 # <a name="mapiuninitialize"></a>MAPIUninitialize
 

@@ -5,20 +5,20 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- expression evaluation [excel 2007],worksheets [Excel 2007], name evaluation,evaluating expressions [Excel 2007],evaluating worksheet names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007] Excel 2007], evaluating,name evaluation [Excel 2007],strings [Excel 2007], converting to values,xlfEvaluate function [Excel 2007],worksheets [Excel 2007], expression evaluation
-localization_priority: Normal
+- expression evaluation [excel 2007],worksheets [Excel 2007], name evaluation,evaluating expressions [Excel 2007],evaluating worksheet names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007], evaluating,name evaluation [Excel 2007],strings [Excel 2007], converting to values,xlfEvaluate function [Excel 2007],worksheets [Excel 2007], expression evaluation
+ms.localizationpriority: medium
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 97328cbc57a9144a133524774e3be10a84a96bf4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f2a9f1221acead606b71eedf6deb09133ad25a39
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406863"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552254"
 ---
 # <a name="evaluating-names-and-other-worksheet-formula-expressions"></a>Évaluation des noms et d’autres expressions de formule dans les feuilles de calcul
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 L’une des fonctionnalités les plus importantes exposées par Excel via l’API C est la possibilité de convertir toute formule de chaîne qui peut légalement être entrée dans une feuille de calcul en une valeur ou un tableau de valeurs. Cela est essentiel pour les fonctions et commandes XLL qui doivent lire le contenu des noms définis, par exemple. Cette capacité est exposée par le biais de la fonction [xlfEvaluate,](xlfevaluate.md)comme illustré dans cet exemple.
   

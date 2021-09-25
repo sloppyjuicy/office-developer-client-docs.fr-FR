@@ -3,15 +3,15 @@ title: Accès à un message dans une banque IMAP sans télécharger le message 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a93ab3e-798f-5741-d5e0-bba8c6b437c7
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 194131148cc36dfff791b4cfae01862e8bbef5cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 61e81b2b078718bdb7d11d3dc5f99e192077eaa9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299075"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551449"
 ---
 # <a name="access-a-message-on-an-imap-store-without-downloading-the-entire-message"></a>Accès à un message dans une banque IMAP sans télécharger le message entier
 

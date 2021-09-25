@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ece15159-6a33-4abd-8775-6fbe1cc43793
 description: Détermine la quantité de flou pour une réflexion sur une forme, en points entre 0.0 et 100.0.
-ms.openlocfilehash: 67ed06d764b90afbc47895c4c714fefadbe6f062
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e3c18cf2016f8b213d37061cfb216f8e76bf2e37
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408011"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570273"
 ---
 # <a name="reflectionblur-cell-additional-effect-properties-section"></a>ReflectionBlur Cell (Additional Effect Properties Section)
 

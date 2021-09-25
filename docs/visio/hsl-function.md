@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251438
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9314c39-1d2e-a18f-c01b-8817286099dc
 description: Renvoie une valeur représentant un index dans la palette de couleurs du document. Il spécifie une couleur par ses composants de teinte, de saturation et de luminosité.
-ms.openlocfilehash: 55703239395c54beedf4b7383435253f9c37006f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1cf21354c5c514327b5cf3a8bd0fd76e5bd099f2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420961"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570476"
 ---
 # <a name="hsl-function"></a>Fonction HSL
 

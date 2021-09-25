@@ -3,17 +3,17 @@ title: Envoi entre domaines de messagerie
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 65594253-66cd-486a-aa5b-0bc719f761f0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ddbaa4aeacf17f2c266ccc0ff963d005f9e403ec
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2161b4d28c668c1a294dff8b666df8afa6eaedef
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410111"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578682"
 ---
 # <a name="sending-across-messaging-domains"></a>Envoi entre domaines de messagerie
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm970
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84f4e5f1-7c28-9e83-8644-28d117bb10a5
 description: Détermine la distance séparant une ligne de texte de la suivante, exprimée en pourcentage, où 100 % représente la hauteur d'une ligne de texte.
-ms.openlocfilehash: 82b2604a62608c0cc4333892d678b1eb886a9c7d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 38a565eafcdd64da9fe4dfb041e76c584e392322
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434913"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553780"
 ---
 # <a name="spline-cell-paragraph-section"></a>SpLine, cellule (section Paragraph)
 

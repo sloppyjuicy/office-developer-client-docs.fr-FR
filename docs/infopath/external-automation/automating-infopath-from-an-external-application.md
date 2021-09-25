@@ -3,15 +3,15 @@ title: Automatisation d’InfoPath à partir d’une application externe
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d2248d9-ab20-bcaa-d75b-62876c5e95eb
 description: Microsoft InfoPath fournit l’automatisation de l’application à partir du code écrit à l’aide de COM et d’un script à l’aide des méthodes de l’objet Application et de la collection XDocuments.
-ms.openlocfilehash: 7eccbca34b93aff7909de92eebc04d012d4dd97c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8bd62af41ff4cc11a4768b1a054c2587081e6a53
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412666"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552128"
 ---
 # <a name="automating-infopath-from-an-external-application"></a>Automatisation d’InfoPath à partir d’une application externe
 

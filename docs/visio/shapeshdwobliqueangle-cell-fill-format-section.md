@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033174
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bad4c512-e91f-d459-d65c-a4ab725c3c14
 description: Indique l'angle de la direction oblique de l'ombre d'une forme.
-ms.openlocfilehash: 005415e497a4d985d3fb8ec70d62ba40d9e80c91
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 504283783040899cf505498264b9a9c50c275f5e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414031"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553878"
 ---
 # <a name="shapeshdwobliqueangle-cell-fill-format-section"></a>ShapeShdwObliqueAngle, cellule (section Fill Format)
 

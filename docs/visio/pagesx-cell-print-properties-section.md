@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60064
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a10bf4c2-24f4-4c53-39ba-2b8cd5b50d2c
 description: Détermine le nombre de pages d'impression sur lesquelles ajuster la page de dessin horizontalement.
-ms.openlocfilehash: e912aef2277f5a7d2af5352897654ee986836c48
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 64bffa3aebda931949a8c0a232599beebec5aaf5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438693"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570357"
 ---
 # <a name="pagesx-cell-print-properties-section"></a>PagesX, cellule (section Print Properties)
 

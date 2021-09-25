@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameAcceptLanguage
 api_type:
 - COM
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 855610c43cfaa64fa69e6987743b137b188d84a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3e1f03e7834a4a67ce7ea61b2e4eaac6ea02a597
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360941"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579319"
 ---
 # <a name="pidnameacceptlanguage-canonical-property"></a>Propriété canonique PidNameAcceptLanguage
 

@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9dfb9b6d-2fb4-45bf-a12f-bd10a799ce29
 description: Cette rubrique décrit les conditions préalables à l’installation réussie d’un fournisseur Outlook Social Connector (OSC) et les vérifications d’installation que votre programme d’installation doit effectuer pour fonctionner correctement.
-ms.openlocfilehash: 8fec8523e57ad2678d02a0c5cbc1ad57340e5267
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: aaed852edd9a3f4e30ec5fdcc4afbdd32eed0442
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286338"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560402"
 ---
 # <a name="installation-checklist"></a>Liste de vérification d’installation
 
@@ -21,7 +21,7 @@ Cette rubrique décrit les conditions préalables à l’installation réussie d
   
 ## <a name="installation-overview"></a>Vue d’ensemble de l’installation
 
-Les utilisateurs doivent installer les fournisseurs OSC uniquement si une version de prise en charge de Outlook est présente et que l’OSC est installé et activé sur l’ordinateur client. Les versions de prise en charge de Outlook sont Office Outlook 2003, Office Outlook 2007, Outlook 2010 et Outlook 2013 (installées sur l’ordinateur client ou, dans le cas de Outlook 2010 et Outlook 2013, livrées par Click-to-Run sur l’ordinateur client). Pour garantir la réussite de l’installation, votre programme d’installation de fournisseur doit :
+Les utilisateurs doivent installer les fournisseurs OSC uniquement si une version de prise en charge de Outlook est présente et que l’OSC est installé et activé sur l’ordinateur client. Les versions de prise en charge de Outlook sont Office Outlook 2003, Office Outlook 2007, Outlook 2010 et Outlook 2013 (installé sur l’ordinateur client ou, dans le cas de Outlook 2010 et Outlook 2013, remis par Click-to-Run sur l’ordinateur client). Pour garantir la réussite de l’installation, votre programme d’installation de fournisseur doit :
   
 - Vérifiez si une version prise en charge de Outlook est présente.
     
@@ -206,6 +206,6 @@ La procédure suivante décrit les vérifications d’installation décrites dan
 ## <a name="see-also"></a>Voir aussi
 
 - [Inscription d’un fournisseur](registering-a-provider.md) 
-- [Étapes rapides pour apprendre à développer un fournisseur](quick-steps-for-learning-to-develop-a-provider.md)
+- [Étapes rapides pour Learning développement d’un fournisseur](quick-steps-for-learning-to-develop-a-provider.md)
 - [Déploiement d'un fournisseur](deploying-a-provider.md)
 

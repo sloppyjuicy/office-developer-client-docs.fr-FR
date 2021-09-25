@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SzFindCh
 api_type:
 - COM
 ms.assetid: 3406d060-bfea-4cea-8253-2a9aeb9e8147
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 522c67b19656c00ea169def98a42ca2b3c1db840
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 78614af6a9f00fb5e4e0904f9774dc3c5b8494da
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421941"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578528"
 ---
 # <a name="szfindch"></a>SzFindCh
  
@@ -38,7 +38,7 @@ LPSTR SzFindCh(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _lpsz_
   

@@ -3,17 +3,17 @@ title: Banques de messages en lecture seule
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 752ff2d6-ca64-4507-adf1-4c054c321203
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 957a7f92963b97e5421bc801a3b046f098d6a08e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5cc97f0d095cd705b9d54cc0efb8f0e51dc0ac3a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405337"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578850"
 ---
 # <a name="read-only-message-stores"></a>Banques de messages en lecture seule
 

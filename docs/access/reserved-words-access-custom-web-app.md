@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b5beeb6-e52d-41be-94df-083d36141a9d
 description: Microsoft Access utilise des mots clés réservés pour définir, manipuler et accéder aux bases de données. Les mots clés réservés font partie de la grammaire de la langue utilisée par Access pour l’SQL des instructions.
-ms.openlocfilehash: 132f912d2b6b5a65980355b18c0a23eaa8c24cbc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3404cc630f774f95d4364792fbfbb31c3f960a0e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424979"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588419"
 ---
 # <a name="reserved-keywords-access-custom-web-app"></a>Mots clés réservés (application web personnalisée Access)
 
@@ -39,7 +39,7 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |BEGIN  <br/> |GOTO  <br/> |RETOUR  <br/> |
 |ENTRE  <br/> |GRANT  <br/> |REVERT  <br/> |
 |Attn  <br/> |GROUP  <br/> |REVOKE  <br/> |
-|BROWSE  <br/> |HAVING  <br/> |Oui  <br/> |
+|BROWSE  <br/> |HAVING  <br/> |OUI  <br/> |
 |BULK  <br/> |HOLDLOCK  <br/> |ROLLBACK  <br/> |
 |BY  <br/> |Heure  <br/> |ROWCOUNT  <br/> |
 |CASCADE  <br/> |IDENTITY  <br/> |ROWGUIDCOL  <br/> |
@@ -60,14 +60,14 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |CONVERT  <br/> |KILL  <br/> |SOME  <br/> |
 |CREATE  <br/> |LEFT  <br/> |STATISTIQUES  <br/> |
 |CROSS  <br/> |J’AIME  <br/> |SYSTEM_USER  <br/> |
-|Monétaire  <br/> |LINENO  <br/> |TABLE  <br/> |
+|Devise  <br/> |LINENO  <br/> |TABLE  <br/> |
 |CURRENT  <br/> |LOAD  <br/> |TABLESAMPLE  <br/> |
 |CURRENT_DATE  <br/> |LongText  <br/> |Texte  <br/> |
 |CURRENT_TIME  <br/> |MERGE  <br/> |TEXTIZE  <br/> |
 |CURRENT_TIMESTAMP  <br/> |Milliseconde  <br/> |THEN  <br/> |
 |CURRENT_USER  <br/> |Minute  <br/> |Temps  <br/> |
 |CURSOR  <br/> |Mois  <br/> |TO  <br/> |
-|DATABASE  <br/> |NATIONAL  <br/> |Retour au début  <br/> |
+|DATABASE  <br/> |NATIONAL  <br/> |RETOUR AU DÉBUT  <br/> |
 |Date  <br/> |Non  <br/> |TRAN  <br/> |
 |DateWithTime  <br/> |NOCHECK  <br/> |TRANSACTION  <br/> |
 |Day  <br/> |NONCLUSTERED  <br/> |TRIGGER  <br/> |
@@ -84,7 +84,7 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |DISTRIBUTED  <br/> |OPENROWSET  <br/> |VALEURS  <br/> |
 |DOUBLE  <br/> |OPENXML  <br/> |VARYING  <br/> |
 |DROP  <br/> |OPTION  <br/> |VIEW  <br/> |
-|DUMP  <br/> |OU  <br/> |WAITFOR  <br/> |
+|DUMP  <br/> |OR  <br/> |WAITFOR  <br/> |
 |ELSE  <br/> |ORDER  <br/> |Semaine  <br/> |
 |Fin  <br/> |OUTER  <br/> |Jour de la semaine  <br/> |
 |ERRLVL  <br/> |OVER  <br/> |WHEN  <br/> |
@@ -129,7 +129,7 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
 |BEGIN  <br/> |GLOBAL  <br/> |RELATIVE  <br/> |
 |ENTRE  <br/> |GO  <br/> |RESTRICT  <br/> |
 |BIT  <br/> |GOTO  <br/> |REVOKE  <br/> |
-|BIT_LENGTH  <br/> |GRANT  <br/> |Oui  <br/> |
+|BIT_LENGTH  <br/> |GRANT  <br/> |OUI  <br/> |
 |BOTH  <br/> |GROUP  <br/> |ROLLBACK  <br/> |
 |BY  <br/> |HAVING  <br/> |LIGNES  <br/> |
 |CASCADE  <br/> |HOUR  <br/> |SCHEMA  <br/> |
@@ -184,7 +184,7 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
 |DOUBLE  <br/> |UNIQUEMENT  <br/> |WHENEVER  <br/> |
 |DROP  <br/> |OPEN  <br/> |WHERE  <br/> |
 |ELSE  <br/> |OPTION  <br/> |WITH  <br/> |
-|Fin  <br/> |OU  <br/> |WORK  <br/> |
+|Fin  <br/> |OR  <br/> |WORK  <br/> |
 |END-EXEC  <br/> |ORDER  <br/> |WRITE  <br/> |
 |ESCAPE  <br/> |OUTER  <br/> |YEAR  <br/> |
 |SAUF  <br/> |OUTPUT  <br/> |ZONE  <br/> |
@@ -240,7 +240,7 @@ Les mots clés suivants peuvent être réservés dans les prochaines SQL Server 
 |COVAR_POP  <br/> |NATURAL  <br/> |TERMINATE  <br/> |
 |COVAR_SAMP  <br/> |NCHAR  <br/> |THAN  <br/> |
 |CUBE  <br/> |NCLOB  <br/> |TIME  <br/> |
-|CUME_DIST  <br/> |Nouveau  <br/> |TIMESTAMP  <br/> |
+|CUME_DIST  <br/> |NOUVEAU  <br/> |TIMESTAMP  <br/> |
 |CURRENT_CATALOG  <br/> |NEXT  <br/> |TIMEZONE_HOUR  <br/> |
 |CURRENT_DEFAULT_TRANSFORM_GROUP  <br/> |NON  <br/> |TIMEZONE_MINUTE  <br/> |
 |CURRENT_PATH  <br/> |AUCUN  <br/> |TRAILING  <br/> |

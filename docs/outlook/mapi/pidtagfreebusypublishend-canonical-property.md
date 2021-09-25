@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFreeBusyPublishEnd
 api_type:
 - HeaderDef
 ms.assetid: df239741-6a63-4cd4-9bbb-42c0f5c668a5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b4a8cb7136eee914dc697d24e0374ccb4b6f8b1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a0e55b45f88a9ba5f3773f7c39224b6c7ab2360d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316183"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579074"
 ---
 # <a name="pidtagfreebusypublishend-canonical-property"></a>Propriété canonique PidTagFreeBusyPublishEnd
 

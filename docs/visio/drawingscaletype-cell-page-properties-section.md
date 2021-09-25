@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm270
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d4f1cf8-bc1f-07b8-1da5-7253808e337e
 description: Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue Mise en page (cliquez sur la flèche Mise en page sous l’onglet Accueil).
-ms.openlocfilehash: d1c1c00ffe025c566646a1f8b9fe034732ad86a8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9cd48ab970b9de0987c655705cc86060ced5cbdb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428738"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590232"
 ---
 # <a name="drawingscaletype-cell-page-properties-section"></a>DrawingScaleType, cellule (section Page Properties)
 
@@ -27,7 +27,7 @@ Détermine l’échelle de dessin sélectionnée dans la boîte de dialogue **Mi
 | 2  <br/> | Échelle Génie civil  <br/> |**visEngineering** <br/> |
 | 3  <br/> | Échelle personnalisée  <br/> |**visScaleCustom** <br/> |
 | 4   <br/> | Métrique  <br/> |**visScaleMetric** <br/> |
-| 5   <br/> | Échelle Génie mécanique  <br/> |**visScaleMechanical** <br/> |
+| 5  <br/> | Échelle Génie mécanique  <br/> |**visScaleMechanical** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

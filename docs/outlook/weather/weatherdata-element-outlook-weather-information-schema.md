@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84b16927-964e-24be-feaa-e0c11cf062f3
 description: Définit l’élément météo.
-ms.openlocfilehash: bb8c76efd03661083a15aa315cf42c3a6c088b6f
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: cd2f761699b0b8ff18486b8705b3bece88a65b67
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538983"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560255"
 ---
 # <a name="weatherdata-element-outlook-weather-information-schema"></a>élément weatherdata (Outlook Weather Information Schema)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagBusinessHomePage
 api_type:
 - HeaderDef
 ms.assetid: bd3e4568-9730-4648-ba31-28813b5bb471
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 827e797377f07e4de5ace069c4783a0b9d7d687a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 56748cc5cac08a7d45bdd79fd67d3018fdd4f047
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345737"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579172"
 ---
 # <a name="pidtagbusinesshomepage-canonical-property"></a>Propriété canonique PidTagBusinessHomePage
 

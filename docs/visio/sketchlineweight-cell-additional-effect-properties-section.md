@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6cb838be-1d6d-48e1-8e9e-bd126f0c2385
 description: Détermine l’épaisseur supplémentaire ajoutée à l’épaisseur de trait à la suite d’un effet d’croquis, en points de 0 à 50. L’épaisseur du trait d’une forme augmente à mesure que la valeur de la cellule SketchLineWeight augmente.
-ms.openlocfilehash: 0ee71bbaec59f5c79b72314b08478f8028b4e0ba
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 935254e6ed7618279a43fe81eda1cf6835e455f4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404511"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553815"
 ---
 # <a name="sketchlineweight-cell-additional-effect-properties-section"></a>SketchLineWeight Cell (Additional Effect Properties Section)
 

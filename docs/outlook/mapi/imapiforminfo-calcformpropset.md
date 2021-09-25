@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFormInfo.CalcFormPropSet
 api_type:
 - COM
 ms.assetid: cc3ffb8d-9cc4-47d3-9aa9-02c3a5b7775c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b62c21348da71c1ee863f70d6e6a549a5d10003
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7b5261a6edfa61cd88fdfba6d5b1891c3c534b4b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438070"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551302"
 ---
 # <a name="imapiforminfocalcformpropset"></a>IMAPIFormInfo::CalcFormPropSet
 
@@ -34,7 +34,7 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

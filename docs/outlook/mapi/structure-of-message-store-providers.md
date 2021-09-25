@@ -3,17 +3,17 @@ title: Structure des fournisseurs de banques de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: eda62a4cd31e0de695d52391a6717e7a0f5ea581
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d2b6c11453ccbb127c684ccde7773bc09c1f7a49
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426421"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578556"
 ---
 # <a name="structure-of-message-store-providers"></a>Structure des fournisseurs de banques de messages
   
@@ -27,7 +27,7 @@ L’illustration suivante montre un plan de haut niveau de la hiérarchie d’ob
   
 **Hiérarchie d’objets de banque de messages**
   
-![Hiérarchie d’objets de magasin de messages Hiérarchie](media/storeobj.gif "d’objets de magasin de messages")
+![Hiérarchie d’objets de banque de messages](media/storeobj.gif "Hiérarchie d’objets de banque de messages")
   
 ## <a name="see-also"></a>Voir aussi
 

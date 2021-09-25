@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c4d07bf-4edc-e241-7827-017f96c11957
 description: Représente un problème de validation unique dans le document.
-ms.openlocfilehash: 73c83fe47ebf9921686ea7b35c5f94a06b803623
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 5c4dd15cc86f22fb465b4b2a1856ec46802d7fdc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541126"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570378"
 ---
 # <a name="issue-element-issues_type-complextype-visio-xml"></a>Élément Issue (Issues_Type complexType) (Visio XML)
 

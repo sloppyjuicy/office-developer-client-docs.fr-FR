@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80db9c0c-13c6-47de-967f-ade6e5899f14
 description: Détermine si un dégradé de remplissage est activé pour cette forme.
-ms.openlocfilehash: 17f617c13b632318be22b86a3354a194f0f835f5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 628ea789b01f760d54c79b4d60ca8529648da2b3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431210"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590204"
 ---
 # <a name="fillgradientenabled-cell-gradient-properties-section"></a>FillGradientEnabled Cell (Gradient Properties Section)
 

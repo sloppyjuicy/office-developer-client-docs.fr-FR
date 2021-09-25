@@ -3,17 +3,17 @@ title: Vue d’ensemble des propriétés de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 447f54de-9f0d-4f73-89b6-bed9cfea9c15
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 515b4637f99b806c5c5bc6304f107f62ca6d9091
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b934a4d431cb9958fb594eba2ab13d27db4c413e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420247"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551120"
 ---
 # <a name="message-properties-overview"></a>Vue d’ensemble des propriétés de message
 

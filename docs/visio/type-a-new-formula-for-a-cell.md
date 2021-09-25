@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251810
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 546dfe1d-de4f-cc53-8fb4-de7672adc9bc
 description: ''
-ms.openlocfilehash: ed130dae07257ea61c9c9ef28dafe780d6d4f4a7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c54193d55d867c7e2f17dd79cd13f4354d7fbecf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413450"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553668"
 ---
 # <a name="type-a-new-formula-for-a-cell"></a>Taper une nouvelle formule dans une cellule
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251416
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 154d76a2-81f5-d8b1-b665-26dbae5da615
 description: Renvoie un nombre integer, de 1 à 366, qui représente le jour séquentiel de l’année dans l’expression ou le datetime. La fonction DAYOFYEAR utilise le calendrier grégorien.
-ms.openlocfilehash: 30c0331a57282baee97e81689b6a8f362581b8f1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8a73d4c8c7df501e1969d8aa9279f720407d2e7b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439450"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559968"
 ---
 # <a name="dayofyear-function"></a>Fonction DAYOFYEAR
 

@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4463d388-f5dd-4c43-71d4-82ba216d8d39
-ms.openlocfilehash: ec0fb78e01afe0d16d959e100a93d053f96bc559
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 1cbac2bad295cc7b726396f7747ce3a646b5e55f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542414"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570406"
 ---
 # <a name="infiniteline_type-complextype-visio-xml"></a>InfiniteLine_Type complexType (Visio XML)
 

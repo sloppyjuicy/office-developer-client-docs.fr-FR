@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f46e8aa3-d2c2-45a2-93fe-1c40107fbf16
 description: Spécifie s’il faut utiliser le protocole SSL (Secure Socket Layer) pour le compte SMTP.
-ms.openlocfilehash: 64856322ec0afce80777417f781c22b927ed5e2d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f30f76d23ad8f6d8474066503e5e7fed41baab18
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407073"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551953"
 ---
 # <a name="prop_smtp_ssl"></a>PROP_SMTP_SSL
 

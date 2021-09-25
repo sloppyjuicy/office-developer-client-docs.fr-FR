@@ -3,17 +3,17 @@ title: Propriétés du destinataire pour tous les messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 18c96796-f38d-4058-9c51-9c5a14990846
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3c5764d74039249ccac47d449f0ebd4042893434
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b0f8c90754959630b6bf11dca74ab6d44014a477
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439715"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578822"
 ---
 # <a name="recipient-properties-for-all-messages"></a>Propriétés du destinataire pour tous les messages
 

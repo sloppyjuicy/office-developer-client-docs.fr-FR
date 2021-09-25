@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82253246
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff74bf11-e693-11e4-23fa-67e93aa203ff
 description: Les objets Visio Microsoft sont stockés en interne sous la mesure d’un ensemble de formules. Vous pouvez afficher un objet Visio dans la fenêtre Feuille ShapeSheet afin de visualiser et de modifier les formules sous-jacentes qui en définissent l'aspect et le comportement.
-ms.openlocfilehash: a0fd5e0305a5520638eebb34f7ec0cdcbeea17fc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 098b61123afb518c9d558adbede9ea075740cd44
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416670"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553829"
 ---
 # <a name="show-an-object-in-the-shapesheet-window"></a>Afficher un objet dans la fenêtre Feuille ShapeSheet
 

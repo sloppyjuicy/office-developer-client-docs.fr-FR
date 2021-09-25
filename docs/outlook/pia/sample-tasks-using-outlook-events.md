@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184651(v=office.15)
 ms:contentKeyID: 55119848
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 6009ea6ede1089d1c08342602681a127d53da151
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e937bb6ca9252bb4f887c70da260159046489a8f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286307"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560424"
 ---
 # <a name="sample-tasks-using-outlook-events"></a>Exemples de tâches utilisant des événements Outlook
 

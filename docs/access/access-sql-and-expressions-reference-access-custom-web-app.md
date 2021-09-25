@@ -3,14 +3,14 @@ title: Référence SQL et les expressions Access (application web personnalisé 
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c68cbbe9-d97f-4d1c-b639-fc067b6cd316
-ms.openlocfilehash: 09f527c1fd77da47287ff41a9d23d6d0b9682c17
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eacc09baad1b1504cee5c7ae8212f3158dd8d50a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408179"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553507"
 ---
 # <a name="access-sql-and-expressions-reference-access-custom-web-app"></a>Référence SQL et les expressions Access (application web personnalisé de l'accès)
 

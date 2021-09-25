@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.DTBLMVDDLBOX
 api_type:
 - COM
 ms.assetid: 0e6283dc-9a08-460f-9400-03f0ceb4081c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 33b4fd87f33c26db15e1a6a28f077c393168db91
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 384282445e6f50fac3d440e4df3a4c8e61e0c8a8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420744"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551666"
 ---
 # <a name="dtblmvddlbox"></a>DTBLMVDDLBOX
 

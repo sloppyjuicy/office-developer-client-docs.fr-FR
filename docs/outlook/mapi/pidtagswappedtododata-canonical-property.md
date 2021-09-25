@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSwappedToDoData
 api_type:
 - COM
 ms.assetid: d2a82fc8-de5d-4819-906e-b8314fd06ea0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3ecfa1e89688ae525a28e221424fb4a8194fc217
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b63e12eb69aff565d3d4ef99b66a5ad364b7cc08
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359135"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578934"
 ---
 # <a name="pidtagswappedtododata-canonical-property"></a>Propriété canonique PidTagSwappedToDoData
 

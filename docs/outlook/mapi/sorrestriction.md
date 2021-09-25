@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SOrRestriction
 api_type:
 - COM
 ms.assetid: 6fee29ce-9a34-4e0c-bb71-03120c3f1117
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9b4ca4628f356142eb5303c064e3916474810fda
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 20d34d3cdb6eb43ef28b829d7d4a987b8525491b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437930"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578570"
 ---
 # <a name="sorrestriction"></a>SOrRestriction
 

@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67c3bdd1-ffe3-4fed-ad7f-d47a2d646e21
 description: ''
-ms.openlocfilehash: 2ede918eb816a5b134db27a2bf25e511b3b01b04
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7855e108658ae8dc288bae9e9788b05427a3e4a3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421689"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552275"
 ---
 # <a name="user-interface-commands-access-custom-web-app"></a>Commandes d’interface utilisateur (application web personnalisée Access)
 

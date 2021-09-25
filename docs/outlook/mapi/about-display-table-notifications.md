@@ -3,17 +3,17 @@ title: Affichage des notifications de table
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 085151e9-4809-4d2b-ae4d-e318355e1f5a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 41e6a2c8b6856bf072972325e7e08aabe3e17446
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 582e970e3a31c6a3da9c96569f7a3c98b795c7eb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430013"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551946"
 ---
 # <a name="about-display-table-notifications"></a>Affichage des notifications de table
 

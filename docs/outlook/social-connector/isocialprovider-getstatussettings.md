@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4fef896-0803-4fdb-a40b-34bf15e20e4b
 description: Cette méthode n’est actuellement pas prise en charge.
-ms.openlocfilehash: 430fa8f73a47eda1bd1cb8caff7917508f76ffa7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f85ba2de2ab07e6dad14bf1e6de2de4e15d1e650
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412008"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560339"
 ---
 # <a name="isocialprovidergetstatussettings"></a>ISocialProvider::GetStatusSettings
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251574
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94c640d8-99e9-9d15-8ada-d9abeb3d66f7
 description: Renvoie le texte à partir du champ Titre des propriétés d’un document.
-ms.openlocfilehash: 395356fcffddfaf8d796708acc31db297ef01b35
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b5f507001348a45db318a7b2f0aa8d508d0f5951
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424412"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553682"
 ---
 # <a name="title-function"></a>Fonction TITLE
 

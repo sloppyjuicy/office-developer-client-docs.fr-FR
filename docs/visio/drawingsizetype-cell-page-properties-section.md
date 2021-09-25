@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm275
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7fe270e8-0dff-bf1f-dfc0-c0608af79f59
 description: Détermine la taille du dessin.
-ms.openlocfilehash: 33c85b6c2f0587654038eaec1a9490ca8bd8301b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eab36fc223c21cc8b943cabb5005649f4b090f05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425448"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570735"
 ---
 # <a name="drawingsizetype-cell-page-properties-section"></a>DrawingSizeType, cellule (section Page Properties)
 
@@ -27,9 +27,9 @@ Détermine la taille du dessin.
 |2  <br/> |Standard  <br/> |**visStandard** <br/> |
 |3  <br/> |Taille de page personnalisée  <br/> |**visCustom** <br/> |
 |4   <br/> |Taille de dessin à l’échelle personnalisée  <br/> |**visLogical** <br/> |
-|5   <br/> |Métrique (ISO)  <br/> |**visDSMetric** <br/> |
-|6   <br/> |Ingénierie ANSI  <br/> |**visDSEngr** <br/> |
-|7   <br/> |Architecturale ANSI  <br/> |**visDSArch** <br/> |
+|5  <br/> |Métrique (ISO)  <br/> |**visDSMetric** <br/> |
+|6   <br/> |Ingénierie ANSI  <br/> |**visDSEngr** <br/> |
+|7   <br/> |Architecturale ANSI  <br/> |**visDSArch** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

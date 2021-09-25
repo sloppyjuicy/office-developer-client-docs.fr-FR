@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFolder.CreateMessage
 api_type:
 - COM
 ms.assetid: e0222afa-c148-4735-a603-cac7be6c91f9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4d38648f5e3084c8342fca8d18f0bd3efc915155
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 426ca9a33444f6130f8ee4eca62164bc835a032c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412631"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551414"
 ---
 # <a name="imapifoldercreatemessage"></a>IMAPIFolder::CreateMessage
 
@@ -35,7 +35,7 @@ HRESULT CreateMessage(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpInterface_
   

@@ -3,17 +3,17 @@ title: Verbes de formulaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a63bf0a7-24e6-4eef-98e8-3744ce5f9f2d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: dbd08437dfdd38c3a43cbf12eae8710cc8e3661e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bdad3d3f1bf09e46cf82db00f5201ee5c928e29d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424027"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587971"
 ---
 # <a name="form-verbs"></a>Verbes de formulaires
 

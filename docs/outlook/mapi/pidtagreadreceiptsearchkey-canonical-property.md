@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagReadReceiptSearchKey
 api_type:
 - COM
 ms.assetid: a0ea5628-1393-4ab8-bc34-a58cf130db51
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aa92e224f10fd652078b965c8e3a0b5ab59cc388
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b971fba1c977557d1079cf71fff8e1873a8f2d29
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320040"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570960"
 ---
 # <a name="pidtagreadreceiptsearchkey-canonical-property"></a>Propriété canonique PidTagReadReceiptSearchKey
 

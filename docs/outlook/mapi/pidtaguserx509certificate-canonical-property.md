@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagUserX509Certificate
 api_type:
 - COM
 ms.assetid: 278bb9e4-3ff6-4bef-b208-7924f7a5e9b1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4e6446283116c39080271e5c2fb3ec128b25d32e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 48b3a895c13ec2838994972e17ccabc29bed1d1c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360717"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578913"
 ---
 # <a name="pidtaguserx509certificate-canonical-property"></a>Propriété canonique PidTagUserX509Certificate
 

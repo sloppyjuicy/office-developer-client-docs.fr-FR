@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameXSharingFlavor
 api_type:
 - COM
 ms.assetid: 7757fde1-564b-4f3a-9b9e-f80a143690ea
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d2afa598bf9b7949f2e9142611570ebbd048f7e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e96fc2f39e8045847aa039b06f1f0ffaeb4a4917
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360885"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579214"
 ---
 # <a name="pidnamexsharingflavor-canonical-property"></a>Propriété canonique PidNameXSharingFlavor
 

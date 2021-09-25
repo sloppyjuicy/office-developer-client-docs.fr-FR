@@ -3,15 +3,15 @@ title: À propos des URL MAPI pour lNotification-Based indexation
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: 'Last modified: November 08, 2011'
-ms.openlocfilehash: 5a3e45809f36b71968560a4b239e268addf00474
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f51ddada87a68a13322641b21acda317a8ce5442
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422480"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588286"
 ---
 # <a name="about-mapi-urls-for-notification-based-indexing"></a>À propos des URL MAPI pour lNotification-Based indexation
 

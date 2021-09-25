@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2007, primary interop assembly,InfoPath primary interop assembly,PIAs [InfoPath 2007],primary interop assemblies [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: Pour prendre en charge la création de solutions InfoPath qui utilisent des langages de code géré tels que Visual C# et Visual Basic, l’option Prise en charge de la programmabilité .NET dans le programme d’installation d’InfoPath installe trois assemblys d’interop.
-ms.openlocfilehash: 51773ad46b1371c410c4249e13a489f0c5550cd1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 659297635627cbf4d7a80c5d0dae7a9bd25ce980
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310135"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552135"
 ---
 # <a name="about-the-microsoft-office-infopath-primary-interop-assembly"></a>À propos de l’assembly PIA (Primary Interop Assembly) InfoPath de Microsoft Office
 
@@ -73,7 +73,7 @@ Dim myXDoc As XDocument = myApp.XDocuments.Open( _
     XdDocumentVersionMode.xdFailOnVersionOlder)
 ```
 
-La liste IntelliSense de fin de l’instruction pour les membres de la classe **XDocument** s’affiche lorsque vous tapez le nom de la variable suivi d’un point. 
+La IntelliSense liste de listes de fin de l’instruction pour les membres de la classe **XDocument** s’affiche lorsque vous tapez le nom de la variable suivi d’un point. 
   
 Pour utiliser le contenu du document XML sous-jacent pour le formulaire à l’aide de Microsoft XML Core Services® (MSXML), vous devez créer une variable de type [IXMLDOMDocument2,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument2.aspx) puis utiliser la propriété [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._XDocument2.DOM.aspx) de la classe **XDocument** pour affecter le dom XML du formulaire à cette variable. 
   

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251403
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 461abfc1-d2cc-2354-1c2f-395c9e351a78
 description: Appelle une procédure dans un projet Microsoft Visual Basic pour Applications (VBA).
-ms.openlocfilehash: 7e0f0bafa39d6c1eb1fd39535506981c937ce8a1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7dff3b6b49eb828b5c73f4aa98da2d5c460a84d4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413814"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560080"
 ---
 # <a name="callthis-function"></a>Fonction CALLTHIS
 

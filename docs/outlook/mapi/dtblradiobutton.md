@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.DTBLRADIOBUTTON
 api_type:
 - COM
 ms.assetid: 64cef938-ef6f-43bb-8f6e-d4cd4d6c9888
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 94e412f2f542298adcedf4414c19b5303330cf2f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 323699bd8964e1da03dff3620bbaa17b78edeca6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434598"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588111"
 ---
 # <a name="dtblradiobutton"></a>DTBLRADIOBUTTON
 

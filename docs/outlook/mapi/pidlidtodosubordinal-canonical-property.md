@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidToDoSubOrdinal
 api_type:
 - COM
 ms.assetid: e3bc15ef-155e-49fd-88e5-64713df9b939
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c4ea125a5bde89e0885be4c04e3f106f202b1e18
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7add56dc1953e06a9842a6412f103c073bc75da8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344918"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579340"
 ---
 # <a name="pidlidtodosubordinal-canonical-property"></a>Propriété canonique PidLidToDoSubOrdinal
 

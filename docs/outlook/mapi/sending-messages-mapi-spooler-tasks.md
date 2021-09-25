@@ -3,17 +3,17 @@ title: Envoi de Messages  T�ches de spouleur MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 81c65f21-03ba-43eb-a6d4-d311e660ac5c
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 8a6730cca5c75a888afb5ff0a44f1e2a0a6465e6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1380d7528f0902ec34ec0af9b7a31a4602d1b071
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420198"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578647"
 ---
 # <a name="sending-messages-mapi-spooler-tasks"></a>Envoi de messages : tâches dupooler MAPI
 

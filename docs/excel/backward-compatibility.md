@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - compatibilité de version [excel 2007],compatibilité XLL [Excel 2007],compatibilité ascendante [Excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3e1368ef55b96be947527456e0f01918afec6663
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 25f4a4b3b47a84846ab0f5ef424d535765a78515
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301679"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588384"
 ---
 # <a name="backward-compatibility"></a>Compatibilité descendante
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Cette rubrique traite des problèmes de compatibilité XLL dans différentes versions de Microsoft Excel.
   

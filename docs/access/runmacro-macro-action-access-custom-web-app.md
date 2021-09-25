@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59ba365d-cff5-4126-bc22-4d5a37578aab
 description: Vous pouvez utiliser l’action ExécuterMacro pour exécuter une macro d’interface utilisateur.
-ms.openlocfilehash: 98e3b17a6c64fa12ac37e4551d45714c873f5ccb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e91fba9461002c1cb9cc029448b72bff5f77c365
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438441"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552338"
 ---
 # <a name="runmacro-macro-action-access-custom-web-app"></a>RunMacro Macro Action (Application web personnalisée Access)
 

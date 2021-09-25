@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62d5b815-f199-499e-85eb-2dff21a8216e
 description: Obtient une chaîne qui représente une collection de personnes.
-ms.openlocfilehash: f755476f66ab2f91471b88c74baff899f31b83e3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 678aaaee4ba1496c013ac59da12770473707f597
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407654"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560367"
 ---
 # <a name="isocialpersongetfriendsandcolleagues"></a>ISocialPerson::GetFriendsAndColleagues
 
@@ -23,7 +23,7 @@ Obtient une chaîne qui représente une collection de personnes.
 HRESULT _stdcall GetFriendsAndColleagues([out, retval] BSTR* personsCollection);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _personsCollection_
   

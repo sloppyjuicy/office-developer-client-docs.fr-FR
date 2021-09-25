@@ -4,21 +4,21 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e1c70713586a7a143f119a2c3e9d34b982dcedba
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 67fd0af130351ad48599c9e6ac82bd280eb4f561
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412596"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552268"
 ---
 # <a name="developing-excel-cluster-connectors"></a>Développement de connecteurs Excel cluster
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Excel connecteurs de cluster fournissent un moyen de décharger automatiquement les appels de fonctions définies par l’utilisateur sécurisés du cluster dans une XLL vers un serveur en cluster. Pour obtenir une description des fonctions définies par l’utilisateur sécurisées pour le cluster, voir [Fonctions sécurisées de cluster.](cluster-safe-functions.md) Ce déchargement peut améliorer les performances en permettant d’utiliser davantage de ressources informatiques. Un connecteur de cluster est généralement développé par un fournisseur de cluster de calcul hautes performances.
+Excel connecteurs de cluster fournissent un moyen de décharger automatiquement les appels de fonctions définies par l’utilisateur sécurisés du cluster dans une XLL vers un serveur en cluster. Pour obtenir une description des fonctions définies par l’utilisateur sécurisées pour le cluster, [voir Cluster Coffre Functions](cluster-safe-functions.md). Ce déchargement peut améliorer les performances en permettant d’utiliser davantage de ressources informatiques. Un connecteur de cluster est généralement développé par un fournisseur de cluster de calcul hautes performances.
   
 ## <a name="cluster-connectors"></a>Connecteurs de cluster
 

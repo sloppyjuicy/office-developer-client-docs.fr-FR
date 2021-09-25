@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb2aace1-fa2d-480e-bfc7-44ae399943f5
 description: Renvoie la variation statistique d’un échantillon de population représenté sous la mesure d’un ensemble de valeurs contenues dans un champ spécifié dans une requête.
-ms.openlocfilehash: 80cea512b0386d9b0461c927675ae51be3e0dcda
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a6ce06ea74c32a52685d1debee14345b193920e6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437755"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588391"
 ---
 # <a name="var-function-access-custom-web-app"></a>Var Function (Access custom web app)
 

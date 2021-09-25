@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c94501e-0ec7-e836-33a7-adcf5a61b375
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6bec29aa0e88e0224f9cd6049553f2df6379e23d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5c72af72d85c40585aa6c3cc75a1aabe3bd28f7f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430531"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578773"
 ---
 # <a name="rtf_wcsinfo"></a>RTF_WCSINFO
 

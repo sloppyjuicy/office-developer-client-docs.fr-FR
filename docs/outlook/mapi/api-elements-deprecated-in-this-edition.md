@@ -3,17 +3,17 @@ title: Éléments d’API supprimés dans cette édition
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d0a6d182-961c-4496-a3bd-f643612527a5
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: abfe734ad8af436f52fc0308d0cd236078bb47df
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ad61750e5b194859e4ed2b8963d017f3cabfb414
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436887"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588230"
 ---
 # <a name="api-elements-deprecated-in-this-edition"></a>Éléments d’API supprimés dans cette édition
 

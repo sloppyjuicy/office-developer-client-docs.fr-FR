@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.ScCountNotifications
 api_type:
 - COM
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f5298620239d1e42e4ba613c22a98f0cf6f7d457
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: de46b401053fa31b93d1dbd2f34a1741a8da1a1b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437993"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578710"
 ---
 # <a name="sccountnotifications"></a>ScCountNotifications
 
@@ -41,7 +41,7 @@ SCODE ScCountNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cntf_
   

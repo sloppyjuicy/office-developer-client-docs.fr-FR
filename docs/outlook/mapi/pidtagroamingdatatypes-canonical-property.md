@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRoamingDatatypes
 api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fe5528f7605412d0cfd4b4b914e9b221c715e1b1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 87dc35830d237ce98f56f6633251f8d1cd1d0e88
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359555"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570879"
 ---
 # <a name="pidtagroamingdatatypes-canonical-property"></a>Propriété canonique PidTagRoamingDatatypes
 

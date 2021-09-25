@@ -3,17 +3,17 @@ title: Recherche d’un nom de profil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 18df25b7-16b7-44cd-a9a0-5276966c1fd4
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b4efdd8d8238d4bc7e89a1153b9be34c7af76355
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8278d0ed8e3f695fc0c516f54c24540ea3c7babb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407920"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588048"
 ---
 # <a name="finding-a-profile-name"></a>Recherche d’un nom de profil
 

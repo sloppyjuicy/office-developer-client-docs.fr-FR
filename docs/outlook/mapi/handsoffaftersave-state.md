@@ -3,17 +3,17 @@ title: HandsOffAfterSave, état
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ffdfed49-2c52-445c-8051-6e566f61eedc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 85630965c7e78e6fa76e348bfe98cc9060665057
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e9027ab37fe5183847ee8181530f9adb1a8cddde
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406604"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551463"
 ---
 # <a name="handsoffaftersave-state"></a>HandsOffAfterSave, état
 

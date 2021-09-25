@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm375
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dac82a4f-4508-541a-e118-7d79df987232
 description: Détermine le motif de remplissage de la forme. Pour définir un motif de remplissage personnalisé, utilisez la fonction UTILISATION dans cette cellule.
-ms.openlocfilehash: 340ccdc9f3819fb29e210832107e270bd302433c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3a8a07add43f980f124ff532e2b04939f2324284
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422928"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570678"
 ---
 # <a name="fillpattern-cell-fill-format-section"></a>FillPattern, cellule (section Fill Format)
 

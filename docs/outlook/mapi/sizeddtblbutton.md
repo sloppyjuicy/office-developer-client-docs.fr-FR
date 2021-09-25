@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SizedDtblButton
 api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a7d62d29638ae234667eb33a8103fb3a716afc32
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f5794df4df73d199bf7b0acfc91cc111b0d783b3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421913"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578640"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 
@@ -36,7 +36,7 @@ Crée une structure nommée qui inclut une structure [DTBLBUTTON](dtblbutton.md)
 SizedDtblButton (n, u)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _n_
   

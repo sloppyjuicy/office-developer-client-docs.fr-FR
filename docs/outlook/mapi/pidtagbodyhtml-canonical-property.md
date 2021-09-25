@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagBodyHtml
 api_type:
 - HeaderDef
 ms.assetid: 93b9215a-5900-411c-a0ae-6bba62cd5a1e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6ed59228ee06a1d3e362115a99bf4b859dfeb698
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ece1ec0de9b619615bbbd77c2c3a3851b6e92476
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579179"
 ---
 # <a name="pidtagbodyhtml-canonical-property"></a>Propriété canonique PidTagBodyHtml
 

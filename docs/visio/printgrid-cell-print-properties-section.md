@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033794
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0504ff7f-2274-7ae3-1f4b-a3d890dbd79a
 description: Indique si la grille sera imprimée lors de l'impression d'une page de document.
-ms.openlocfilehash: 9b98999cd02fa6a47ec8564bbd7337ecf8637306
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e290e28920f3ece4f9493b52b223e85dc3888949
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433205"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559758"
 ---
 # <a name="printgrid-cell-print-properties-section"></a>PrintGrid, cellule (section Print Properties)
 

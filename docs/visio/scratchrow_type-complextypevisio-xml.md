@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 35ed6fc0-d737-a931-fddb-7bbb770c8d37
-ms.openlocfilehash: c2fec0107bba66809536a1cf8bf43fb616a9ef81
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: c856181c40d1507e6755bf5060dc7ef970793cdf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539025"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553941"
 ---
 # <a name="scratchrow_type-complextype-visio-xml"></a>ScratchRow_Type complexType (Visio XML)
 

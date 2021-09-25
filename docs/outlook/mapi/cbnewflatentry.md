@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.CbNewFLATENTRY
 api_type:
 - COM
 ms.assetid: 500437a4-e0bc-4368-b572-8aecded2621d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 33c8f1e8b573b5ff0f3d5f53e5b2cf127548688d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 76ba6a23524c209181ddc0892be29e08e56c3de5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419407"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551834"
 ---
 # <a name="cbnewflatentry"></a>CbNewFLATENTRY
 
@@ -36,7 +36,7 @@ Calcule le nombre d’octets qui doivent être alloués à une nouvelle structur
 CbNewFLATENTRY (_cb)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ _cb_
   

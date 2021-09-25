@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 55268188-8432-4145-9527-f5888949fc24
 description: Outlook Les fournisseurs OSC (Social Connector) peuvent définir les éléments getActivities et dynamicActivitiesLookupEx de manière à ce qu’ILS stockent les éléments d’activité en mémoire.
-ms.openlocfilehash: b2fcaa125ac8bf7924726f4f09ff507769c3a3f7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 77763ca1ec1f95ec0220c1cf59f3bdd61aa53bff
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422914"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560395"
 ---
 # <a name="guidelines-for-properly-displaying-activities"></a>Instructions pour l’affichage correct des activités
 

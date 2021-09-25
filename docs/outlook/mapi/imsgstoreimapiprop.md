@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgStore
 api_type:
 - COM
 ms.assetid: 20090114-b183-4767-8971-a304a9aa47e6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: af4bf73b58f7723066bb8fad7c087ba0238ceec2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 111dee8c5854cdd309cc97a06a64ac5ca3d2ad28
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422326"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551190"
 ---
 # <a name="imsgstore--imapiprop"></a>IMsgStore : IMAPIProp
 

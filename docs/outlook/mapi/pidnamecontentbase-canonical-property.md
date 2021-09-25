@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameContentBase
 api_type:
 - COM
 ms.assetid: ab197ace-6e7d-4ec5-9f6d-4a63a1eda11c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 501b54cfb7846a91aec7172cbe1d846c24704923
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 17c227ecf6451cf5c0b5ca6c8c7fa30c05e0f416
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331499"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579284"
 ---
 # <a name="pidnamecontentbase-canonical-property"></a>Propriété canonique PidNameContentBase
 

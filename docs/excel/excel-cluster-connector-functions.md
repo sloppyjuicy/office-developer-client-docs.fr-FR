@@ -4,19 +4,19 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65927ef9-29f7-499a-a1c1-6f672c09bb6b
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 41a5cf1ecb7c8f38f4aa5b62a493b3f45c2fe090
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: db4dec310a9c100ffba886b89c4cd82f519aa48a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408585"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552261"
 ---
 # <a name="excel-cluster-connector-functions"></a>Excel Fonctions du connecteur de cluster
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Microsoft Excel 2013 DLLs de connecteur de cluster doivent implémenter les fonctions décrites dans cette section.
   

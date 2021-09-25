@@ -5,19 +5,18 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMessage.ModifyRecipients
 api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
-description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 07e1c2104068a6eb242e8ba81f91655edaa92cd8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f8cca47a25157379e6005ca5b0f2dd7cbe934015
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426239"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551281"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
@@ -34,7 +33,7 @@ HRESULT ModifyRecipients(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -81,8 +80,6 @@ Vous pouvez cr�er une liste de destinataires en appelant [IAddrBook::Address](
 Lorsque vous sp�cifiez les propri�t�s d'un destinataire dans la structure [ADRLIST](adrlist.md) , inclure toutes les propri�t�s du destinataire, non seulement celles nouvelles ou modifi�es. Lorsqu'un destinataire est modifi�, toutes les propri�t�s non incluses dans la structure **ADRLIST** sont supprim�es. Pour r�cup�rer l'ensemble actuel des propri�t�s pour tous les destinataires d'un message, appelez [GetRecipientTable](imessage-getrecipienttable.md) et r�cup�rer toutes les lignes. Un **SRowSet** �tant identique en structure � une **ADRLIST**, vous pouvez les utiliser indiff�remment.
   
  **ModifyRecipients** remplace toutes les entr�es dans la liste des destinataires en cours avec les informations d�sign�es par  _lpMods_ lorsque aucun des indicateurs sont d�finies dans le param�tre  _ulFlags_. 
-  
-## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 Lorsque vous d�finissez l'indicateur MODRECIP_MODIFY, **ModifyRecipients** remplace chaque destinataire toute ligne par la ligne associ�e dans la structure [ADRLIST](adrlist.md) transmise dans  _lpMods_. Veillez � sp�cifier toutes les propri�t�s ayant un destinataire doit qu'elles ont chang� pour emp�cher leur involontairement supprim�.
   

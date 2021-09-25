@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMessageSizeExtended
 api_type:
 - HeaderDef
 ms.assetid: e6413cb9-2633-44a0-b408-b5688c47433e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2ff1aa15966d4bd4803c19b3f3317eeb1d57ca9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5173e5a69d5299ceffe95b42fba769ac841be2b3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342531"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579003"
 ---
 # <a name="pidtagmessagesizeextended-canonical-property"></a>Propriété canonique PidTagMessageSizeExtended
 

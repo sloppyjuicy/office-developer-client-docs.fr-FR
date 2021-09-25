@@ -8,19 +8,19 @@ f1_keywords:
 - xlAutoFree
 keywords:
 - fonction xlautofree [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3dfba5ae98b0635c95308eac01bf2f10867678e1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 225562a856ae631fd2bedfcd3ceecf137e836e63
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413289"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552198"
 ---
 # <a name="xlautofreexlautofree12"></a>xlAutoFree/xlAutoFree12
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Appelé par Microsoft Excel immédiatement après qu’une fonction de feuille de calcul XLL lui renvoie une **XLOPER** /  **XLOPER12** avec un indicateur qui lui indique qu’il existe de la mémoire que le XLL doit encore libérer. Le XLL peut ainsi renvoyer des matrices, des chaînes et des références externes allouées dynamiquement vers la feuille de calcul sans pertes de mémoire. Pour plus d’informations, reportez-vous à la rubrique [Gestion de la mémoire dans Excel](memory-management-in-excel.md).
   
@@ -35,7 +35,7 @@ void WINAPI xlAutoFree(LPXLOPER pxFree);
 void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pxFree_ (**LPXLOPER dans le cas de xlAutoFree**)
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameXSharingConfigUrl
 api_type:
 - COM
 ms.assetid: b5c833de-db5d-4b3d-ad9a-6a64d046618e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f29f6f8bbc54ea00f3e5fa8f6ff88b4140079174
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1fe1fbf40d9e3c805bf0305d1a216d7e641f23be
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319235"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579221"
 ---
 # <a name="pidnamexsharingconfigurl-canonical-property"></a>Propriété canonique PidNameXSharingConfigUrl
 

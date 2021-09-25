@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgStore.AbortSubmit
 api_type:
 - COM
 ms.assetid: 9be6b88e-2510-4b82-8b35-5f20a0f99fc0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1486730dfa2d76bf8e97439213851b195504962f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 28275f50db2775e4183a9386ecaea1d3ff450a2f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414381"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551204"
 ---
 # <a name="imsgstoreabortsubmit"></a>IMsgStore::AbortSubmit
 
@@ -35,7 +35,7 @@ AbortSubmit(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbEntryID_
   

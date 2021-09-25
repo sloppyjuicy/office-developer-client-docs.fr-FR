@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a395ca32-c315-4cd2-b93c-43c74fa017ba
 description: Représente le nom de serveur du compte SMTP.
-ms.openlocfilehash: d93582d0be02155632f63be256401afc959f13fe
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 028121ab97ed6393003d31427944e286f000f225
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415704"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551960"
 ---
 # <a name="prop_smtp_server"></a>PROP_SMTP_SERVER
 

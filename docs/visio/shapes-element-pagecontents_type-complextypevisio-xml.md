@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f9d51d7-e2b7-bc68-dede-c79fb9dbcf60
 description: Contient une collection d’éléments Shape.
-ms.openlocfilehash: 5d248dd2683a1ccc153d15477c888e1b13d24d0f
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 7eba7fc1dcba8ee019836734ccf379e34a755dae
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542120"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553921"
 ---
 # <a name="shapes-element-pagecontents_type-complextype-visio-xml"></a>Élément Shapes (PageContents_Type complexType) (Visio XML)
 

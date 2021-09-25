@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df210364-fe20-8e33-a455-9902f04ec739
 description: Supprime le compte spécifié.
-ms.openlocfilehash: 3e39b7b9af57f64dd124e1bf836db68664709b8c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fd4c7570241db450e05ed8394d8360ead3c68451
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431238"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552023"
 ---
 # <a name="iolkaccountmanagerdeleteaccount"></a>IOlkAccountManager::DeleteAccount
 
@@ -28,7 +28,7 @@ HRESULT IOlkAccountManager::DeleteAccount (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _dwAcctID_
   

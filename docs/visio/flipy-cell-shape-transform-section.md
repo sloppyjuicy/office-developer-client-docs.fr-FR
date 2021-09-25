@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251198
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 062022ff-e243-2540-becd-d9b969ce83ce
 description: Indique si la forme a été retournée verticalement.
-ms.openlocfilehash: 44ea0341cda3655e8acc69e82e89acddac69b80d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a8e90ca8b9653fe9c30673868805ded7ca37612b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417447"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570673"
 ---
 # <a name="flipy-cell-shape-transform-section"></a>FlipY, cellule (section Shape Transform)
 

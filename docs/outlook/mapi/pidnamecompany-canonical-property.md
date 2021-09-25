@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameCompany
 api_type:
 - COM
 ms.assetid: 4546dd8d-b901-4381-a715-887a31cea2b9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b25da0beb09a8b5ce9c7f22075d1e9ac2510ca5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 75cc97789239081879ca1cecf1750e85541290e1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356335"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579312"
 ---
 # <a name="pidnamecompany-canonical-property"></a>Propriété canonique PidNameCompany
 
@@ -31,7 +31,7 @@ Spécifie la société pour laquelle le fichier a été créé.
 |:-----|:-----|
 |Noms convivial :  <br/> |Aucun  <br/> |
 |Jeu de propriétés :  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Nom de la propriété :  <br/> |Société  <br/> |
+|Nom de la propriété :  <br/> |Company  <br/> |
 |Type de données :  <br/> |PT_UNICODE  <br/> |
 |Domaine :  <br/> |Courant  <br/> |
    

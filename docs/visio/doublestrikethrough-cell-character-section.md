@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033762
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c48a77e1-ea3c-7a6d-8c05-f9e0cb434cda
 description: Détermine si du texte est barré double.
-ms.openlocfilehash: d8ef5bdb6e086be9657f51c66c10d578414e1deb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0589acb6dcec0664c749f1b48af4a0b3e67db177
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360591"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590274"
 ---
 # <a name="doublestrikethrough-cell-character-section"></a>DoubleStrikethrough, cellule (section Character)
 

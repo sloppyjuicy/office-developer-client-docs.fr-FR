@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ddc9d58-3d6e-4d0e-b189-5b1e9f899ad2
 description: ''
-ms.openlocfilehash: f9388135dd360b1780fcdf57f7af8f6cce8d04c5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 770442ae0dad4095e789aaec6169e1ac9b1d406c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417063"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588454"
 ---
 # <a name="operators-access-custom-web-app"></a>Operators (Access custom web app)
 

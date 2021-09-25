@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRecipientFlags
 api_type:
 - COM
 ms.assetid: 9fbe537f-b5fe-48a2-803c-653c50c82efd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7b791d75c2a76ea1a504c0d8862dd20f5365b475
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 24316203e81ae48f8ef320d7a9f16d08d4120c6e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356699"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570932"
 ---
 # <a name="pidtagrecipientflags-canonical-property"></a>Propriété canonique PidTagRecipientFlags
 

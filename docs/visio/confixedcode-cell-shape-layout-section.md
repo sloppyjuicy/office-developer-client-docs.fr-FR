@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm175
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e7c9080-7ef1-0696-a3d2-d8f57ea5ab9b
 description: Détermine le repositionnement d'un connecteur.
-ms.openlocfilehash: b2b9cde309c720493f0e46962b2fe6c2e79545d2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b7d72fd0de48f70290f7ed59d3861cdd06be9213
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404182"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560017"
 ---
 # <a name="confixedcode-cell-shape-layout-section"></a>ConFixedCode, cellule (section Shape Layout)
 
@@ -27,8 +27,8 @@ Détermine le repositionnement d'un connecteur.
 |2  <br/> |Ne jamais repositionner  <br/> |**visSLOConFixedRerouteNever** <br/> |
 |3  <br/> |Repositionner en cas de croisement  <br/> |**visSLOConFixedRerouteOnCrossover** <br/> |
 |4   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgFrom** <br/> |
-|5   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgTo** <br/> |
-|6   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgFromTo** <br/> |
+|5  <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgTo** <br/> |
+|6   <br/> |Réservé à un usage interne  <br/> |**visSLOConFixedByAlgFromTo** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

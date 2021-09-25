@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa50ca36-8d01-4770-9d9c-30a5baa146ff
 description: L’exemple XML de cette rubrique est une chaîne XML de flux d’activités renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode ISocialSession2::GetActivitiesEx pour un réseau social.
-ms.openlocfilehash: bb8af45f25d8ee2897a3a01e2863466aeacec4e8
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 62e38f1da6e0488d750e8daa51d7fb8a1f6ff1be
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538325"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560429"
 ---
 # <a name="activity-feed-xml-example"></a>Exemple de XML de flux d’activités
 
@@ -23,9 +23,9 @@ L’exemple montre le **XML activityFeed** qui contient les quatre activités su
   
 - Mise à jour de l’image de profil par Melissa Macbeth, dont **le ownerID** sur le réseau social est 4667647. Cette activité spécifie trois variables de modèle de type **publisherVariable**, **listVariable** et **pictureVariable** (qui est entouré de **listVariable**). Ces variables spécifient la personne qui a publié l’élément de flux d’activités et les informations pour l’image à mettre à jour (à l’aide du nom **,** de la valeur **,** **altText** et des éléments enfants **href** de **pictureVariable**).
     
-- Mise à jour de l’image de profil par Michael Quéi dont **le ownerID** sur le réseau social est 5015012. Similaire à la dernière activité, cette activité spécifie trois variables de modèle de type **publisherVariable**, **listVariable** et **pictureVariable**. Ces variables spécifient la personne qui a publié l’élément de flux d’activités et les informations pour l’image à mettre à jour.
+- Mise à jour de l’image de profil par Michael Quéi dont **l’ownerID** sur le réseau social est 5015012. Similaire à la dernière activité, cette activité spécifie trois variables de modèle de type **publisherVariable**, **listVariable** et **pictureVariable**. Ces variables spécifient la personne qui a publié l’élément de flux d’activités et les informations pour l’image à mettre à jour.
     
-- Mise à jour de l’état par Michael Titrei, montrant le **même ownerID** de 5015012 que la dernière activité. Cette activité spécifie deux variables de modèle de type **publisherVariable** et **textVariable**. **publisherVariable** spécifie la personne qui a publié l’élément de flux d’activités, et **textVariable** inclut une **valeur** de la ligne d’état  `is hiking on Mount Rainier this weekend!`
+- Mise à jour de l’état par Michael Quéi, montrant le **même ownerID** de 5015012 que la dernière activité. Cette activité spécifie deux variables de modèle de type **publisherVariable** et **textVariable**. **publisherVariable** spécifie la personne qui a publié l’élément de flux d’activités, et **textVariable** inclut une **valeur** de la ligne d’état  `is hiking on Mount Rainier this weekend!`
     
 - Un billet de blog de Michael Quéi, montrant le **même ownerID** de 5015012 que les deux dernières activités. Cette activité spécifie deux variables de modèle de type **publisherVariable** et **linkVariable**. **publisherVariable** spécifie la personne qui a publié l’élément de flux d’activités, et  **linkVariable** inclut des informations supplémentaires (spécifiées par le **nom,** le texte et les éléments enfants de valeur de **linkVariable**) sur le billet de blog.
     

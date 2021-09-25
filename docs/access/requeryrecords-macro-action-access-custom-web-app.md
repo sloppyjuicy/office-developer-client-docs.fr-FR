@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1dab102f-24af-4984-8020-a9fb06355639
 description: Vous pouvez utiliser l’action ActualiserEnregistrements pour actualiser, trier et filtrer les données dans l’affichage actif en actualisant la source de l’affichage.
-ms.openlocfilehash: 69d88401abc0de417f7dc58e275c66f2037212aa
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bbfd4f2738e7e2dcb46346c83ea0804b8bd7b8b1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439246"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552366"
 ---
 # <a name="requeryrecords-macro-action-access-custom-web-app"></a>RequeryRecords Macro Action (Application web personnalisée Access)
 

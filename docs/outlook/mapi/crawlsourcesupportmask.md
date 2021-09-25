@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CrawlSourceSupportMask
 api_type:
 - COM
 ms.assetid: d0a2f7ea-df6a-89e8-18c2-ac92e0a20edc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cc3fcedb73b4acbd85529615d857403b4c268f3d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 550230a104e00123418bfb9b3213c0384e880311
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420912"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551806"
 ---
 # <a name="crawlsourcesupportmask"></a>CrawlSourceSupportMask
 

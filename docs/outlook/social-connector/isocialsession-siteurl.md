@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95281e78-6517-428a-93c5-2e4a168d4661
 description: Définit l’URL du site de réseau social.
-ms.openlocfilehash: dd7ebc22c611701c68c5575f2cff5779d4cd603b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dc9d35f52ba62aa689bc61c5f357e7085e5af999
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416061"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560283"
 ---
 # <a name="isocialsessionsiteurl"></a>ISocialSession::SiteUrl
 

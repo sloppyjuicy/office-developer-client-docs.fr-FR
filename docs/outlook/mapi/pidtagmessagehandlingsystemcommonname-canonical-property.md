@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMessageHandlingSystemCommonName
 api_type:
 - HeaderDef
 ms.assetid: c6ba2fe9-c183-4d26-854c-f3ac893e75cc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a5c3ad9c5e810e26a80b16fba2a3a1c2f7dd7889
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 602404766fc3b1f07e3512497a66709a147f3131
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325577"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579032"
 ---
 # <a name="pidtagmessagehandlingsystemcommonname-canonical-property"></a>Propriété canonique PidTagMessageHandlingSystemCommonName
 

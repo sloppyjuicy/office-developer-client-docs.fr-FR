@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251363
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ea2b3c7-0c69-a9f2-379f-8daa0c665810
 description: Indique le type de grille verticale à utiliser.
-ms.openlocfilehash: 793fa40316edd591c8b4873d8919507c2393b5d8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 71b592831e6b84ea8ac7ad142ae5ad1b4c475a0e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553535"
 ---
 # <a name="ygriddensity-cell-ruler-amp-grid-section"></a>YGridDensity, cellule (section Ruler &amp; Grid)
 
@@ -25,7 +25,7 @@ Indique le type de grille verticale à utiliser.
 |0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
 |2  <br/> |Entâyé  <br/> |**visGridCoarse** <br/> |
 |4   <br/> |Normal (valeur par défaut)  <br/> |**visGridNormal** <br/> |
-|8   <br/> |Fine  <br/> |**visGridFine** <br/> |
+|8   <br/> |Fine  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

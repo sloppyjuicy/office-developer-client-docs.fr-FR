@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c07f71d-b906-4a7f-b20a-4a7f558dbf11
 description: Renvoie un GUID qui représente un identificateur unique pour le réseau social.
-ms.openlocfilehash: fc96799ada773cc7260e156d3e2ab8423b73884b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3e8e4e4f4fc2ed0a1f853e3f7dee8796ef661805
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407871"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560332"
 ---
 # <a name="isocialprovidersocialnetworkguid"></a>ISocialProvider::SocialNetworkGuid
 

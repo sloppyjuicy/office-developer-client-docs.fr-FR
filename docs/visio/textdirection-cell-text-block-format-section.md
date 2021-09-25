@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm995
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1df3a50e-7ea5-9244-1286-c1d00c217a9a
 description: Détermine le sens des caractères dans un bloc de texte.
-ms.openlocfilehash: 559a2930d9ef62612cabab79ccf55ca2c30e877b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d70cf6152fcb3e7ffbda69f6a6e6aaf758074fd1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406226"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553689"
 ---
 # <a name="textdirection-cell-text-block-format-section"></a>TextDirection, cellule (section Text Block Format)
 

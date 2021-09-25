@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184588(v=office.15)
 ms:contentKeyID: 55119885
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: be65e2818f22e6da289ef8b8da483c2747f941a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: dbe2852de11c34401e1653d8e2b0b25d36e19b37
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335384"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560465"
 ---
 # <a name="use-arrays-to-efficiently-enumerate-items-in-a-folder"></a>Utilisation des tableaux pour énumérer efficacement les éléments d’un dossier
 

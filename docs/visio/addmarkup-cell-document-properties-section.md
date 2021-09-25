@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1030801
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: Indique si le document est en révision pour marque de révision.
-ms.openlocfilehash: 4e0860639b0d89fce2c35a8947bd5ac00fcc63e5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f97dc836d7307c8a35fe0db8f1cd73035c52ac94
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427632"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560150"
 ---
 # <a name="addmarkup-cell-document-properties-section"></a>AddMarkup, cellule (section Document Properties)
 

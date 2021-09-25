@@ -3,22 +3,22 @@ title: PowerPoint
 manager: kelbow
 ms.date: 12/13/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c76c7851-d68f-4f56-8111-e05c764f0ef8
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de PowerPoint.
-ms.openlocfilehash: 21105174e3d06151ef788ab0d81badd2c3e1d952
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7fc5f516ba704487d1d96cfacd1bae2b34c618d3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355026"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570762"
 ---
 # <a name="powerpoint"></a>PowerPoint
 
 Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de PowerPoint.
   
 > [!NOTE]
-> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/). 
+> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/). 
   
 ### <a name="viewed-most"></a>Articles populaires
   

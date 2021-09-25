@@ -3,17 +3,17 @@ title: Réception de messages à l’aide du traitement personnalisé des pièce
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bb5082fa-8fe3-46fe-b2de-b6dd1af79ea7
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 046b537d41b318fa857ef77f1906edcf2c3aa2bf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f1706cd14720cf70b83b1cbf1f72d494164a5ca3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429319"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578829"
 ---
 # <a name="receiving-messages-by-using-tnef-custom-attachment-processing"></a>Réception de messages à l’aide du traitement personnalisé des pièces jointes TNEF
 

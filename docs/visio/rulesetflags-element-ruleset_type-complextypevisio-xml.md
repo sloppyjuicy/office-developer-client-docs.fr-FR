@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c18d3a84-2088-13f7-7b14-1f4c129537b4
 description: Spécifie les propriétés des ensembles de règles.
-ms.openlocfilehash: 03b94abb2d9bbe1f611671a4ac37053747a486fb
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 5bad108795dc5e39dac112932883748ed79efc51
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541595"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553962"
 ---
 # <a name="rulesetflags-element-ruleset_type-complextype-visio-xml"></a>Élément RuleSetFlags (RuleSet_Type complexType) (Visio XML)
 

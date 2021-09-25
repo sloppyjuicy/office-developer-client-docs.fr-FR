@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 85a4c93c-13ad-4a66-9e2c-627661f24082
-ms.openlocfilehash: 252d7d59cedfa463280b97864276315be9954c86
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1ada3d9f76a1838473fd1c9a3b172be72482d872
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420226"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560031"
 ---
 # <a name="cells-visio-shapesheet-reference"></a>Cells (Visio ShapeSheet Reference)
 

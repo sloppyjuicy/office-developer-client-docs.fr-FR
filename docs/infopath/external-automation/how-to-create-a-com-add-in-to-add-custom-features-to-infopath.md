@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2007, création de compl?ments com,InfoPath 2007, ajout de fonctions personnalisées, compl?ments COM [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af0b0bc9-20ef-4503-8b3b-8f2a97b671a2
 description: Microsoft InfoPath prend en charge les compléments COM pour étendre l’expérience utilisateur lors de la modification. Bien que la prise en charge des modules complémentaires COM a été ajoutée pour la première fois dans InfoPath, d’autres applications Office telles que Microsoft Office Word et Microsoft Office Excel ont pris en charge les modules complémentaires COM depuis Office 2000.
-ms.openlocfilehash: f8dd16b161c4ea862cf3b15e56e26a2547c1fc4c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b53d14f637b8f2bd6b8accdf45a331f674a7d91a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303786"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552114"
 ---
 # <a name="create-a-com-add-in-to-add-custom-features-to-infopath"></a>Créer un module complémentaire COM pour ajouter des fonctionnalités personnalisées à InfoPath
 
@@ -58,14 +58,14 @@ La **valeur DWORD** pour **LoadBehavior** doit contenir une valeur décrivant le
 |0  <br/> |Déconnecté. Le compl?ment s’affiche comme inactif dans la **boîte de dialogue Compl?ment COM.**  <br/> |
 |1  <br/> |Connecté. Le compl?ment s’affiche comme actif dans la boîte **de dialogue Compl?ment COM.**  <br/> |
 |2  <br/> |Charger au démarrage. Le add-in est chargé et connecté au démarrage de l’application hôte.  <br/> |
-|8   <br/> |Charger à la demande. Le add-in est chargé et connecté lorsque l’application hôte l’exige, par exemple lorsqu’un utilisateur clique sur un bouton qui utilise les fonctionnalités du module.  <br/> |
-|16   <br/> |Connecter la première fois. Le add-in est chargé et connecté la première fois que l’utilisateur exécute l’application hôte après avoir inscrit le module.  <br/> |
+|8   <br/> |Charger à la demande. Le add-in est chargé et connecté lorsque l’application hôte l’exige, par exemple lorsqu’un utilisateur clique sur un bouton qui utilise les fonctionnalités du module.  <br/> |
+|16   <br/> |Connecter la première fois. Le add-in est chargé et connecté la première fois que l’utilisateur exécute l’application hôte après avoir inscrit le module.  <br/> |
    
 ## <a name="creating-a-managed-com-add-in-with-visual-studio-2005-or-visual-studio-2008"></a>Création d’un compl?ment COM géré avec Visual Studio 2005 ou Visual Studio 2008
 
 Pour créer un add-in COM géré à l’aide de Microsoft Visual Studio 2005 ou Visual Studio 2008, créez un projet Add-In partagé comme suit : 
   
-1. Démarrez Visual Studio.
+1. Démarrez Visual Studio.
     
 2. Dans le menu **Fichier**, cliquez sur **Nouveau projet**.
     

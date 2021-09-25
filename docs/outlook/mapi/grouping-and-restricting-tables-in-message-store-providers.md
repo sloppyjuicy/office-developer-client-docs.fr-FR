@@ -3,17 +3,17 @@ title: Regroupement et restriction des tables dans les fournisseurs de magasins 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 01df4be4-98a1-4159-a06d-9ccf4337198f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8a45a9fd0d40c16d110fd52be1ac1117e1dd4d04
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 01f4d8d6bc6516dd52092f38f4963fd4b4547d2c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428983"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551540"
 ---
 # <a name="grouping-and-restricting-tables-in-message-store-providers"></a>Regroupement et restriction des tables dans les fournisseurs de magasins de messages
 

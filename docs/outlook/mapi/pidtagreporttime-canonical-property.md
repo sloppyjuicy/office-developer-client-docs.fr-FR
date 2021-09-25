@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagReportTime
 api_type:
 - COM
 ms.assetid: b3646505-a9f0-4a72-8277-b238c909f66f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 298c53e537819f800a3acc5cf07c01a7b9f978ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e425d001c6699329f371c575da8a6701b5201298
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330148"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570924"
 ---
 # <a name="pidtagreporttime-canonical-property"></a>Propriété canonique PidTagReportTime
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251698
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62d87db9-b8ca-60b6-bf27-5168c718ec96
 description: Détermine l’endroit où un style est affiché dans l’interface utilisateur Visio Microsoft.
-ms.openlocfilehash: 7b3830488770a66d7be35923e1807dbcdcd1f1c3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 18750f8191d468483b63f7e076ada1b4cd2072f7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423243"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570490"
 ---
 # <a name="hideforapply-cell-style-properties-section"></a>HideForApply, cellule (section Style Properties)
 

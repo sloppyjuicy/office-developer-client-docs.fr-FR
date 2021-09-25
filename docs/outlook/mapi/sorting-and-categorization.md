@@ -3,17 +3,17 @@ title: Tri et catégorisation
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 853c48e4-ef5b-49da-b281-f72784c598ce
 description: 'Last modified: November 08, 2011'
-ms.openlocfilehash: 8a5a07cdeb7f000c9a7da24dbea1a42a6f9fc185
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f7431bf9b6212ebda0a590962a7a74b2945ae6f2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418483"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578563"
 ---
 # <a name="sorting-and-categorization"></a>Tri et catégorisation
 

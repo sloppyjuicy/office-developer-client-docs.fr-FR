@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 182ab0c6-c9d3-4cc8-892f-f6b09312ceb9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 59d0ce192605257dc0aebed46d8093a352fce05f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9d5200a901cc692d4929edfba5a547a45ffe23c8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435284"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551148"
 ---
 # <a name="mapireallocatebuffer"></a>MAPIReallocateBuffer
 
@@ -37,7 +37,7 @@ LPVOID * lppv
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpv_
   

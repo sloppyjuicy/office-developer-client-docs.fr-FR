@@ -3,17 +3,17 @@ title: Affichage des icônes de formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 197e72ab-f9d6-4889-a677-0ce4c27b1aad
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c93912d19f0ad3c3231092c82f27cec9e3f15b3e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2b7177c72d1d60d75c64bfaaf5e85fba46c4aa3d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438630"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551676"
 ---
 # <a name="displaying-form-icons"></a>Affichage des icônes de formulaire
 

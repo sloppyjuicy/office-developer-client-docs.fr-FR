@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251641
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 055764aa-9681-ffb0-83ce-fdd612fe37af
 description: Détermine si les formes positionnables se déplacent et si les connecteurs sont repositionnés autour des autres formes et des connecteurs sur la page de dessin.
-ms.openlocfilehash: d1075ab1b0512d5db1c7b7a5f2895305318dae7d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8579e350379df5798c29ac12436ff6d4edcb1926
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437475"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590239"
 ---
 # <a name="dynamicsoff-cell-page-layout-section"></a>DynamicsOff, cellule (section Page Layout)
 

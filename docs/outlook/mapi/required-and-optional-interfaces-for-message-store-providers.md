@@ -3,17 +3,17 @@ title: Interfaces requises et facultatives pour les fournisseurs de magasins de 
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 35b1d05d742b0d8defabf84b6dbf7d418ece0bbd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 15937321d1f082f93413f541daa40e7bdb4e8f80
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420919"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578808"
 ---
 # <a name="required-and-optional-interfaces-for-message-store-providers"></a>Interfaces requises et facultatives pour les fournisseurs de magasins de messages
 

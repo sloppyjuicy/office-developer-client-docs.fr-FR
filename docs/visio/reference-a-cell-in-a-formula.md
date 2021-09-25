@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251806
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0766ad21-0415-c23d-407c-497fb8f9aaca
 description: ''
-ms.openlocfilehash: 6ba8d9ed2a91418e1e01283e6a9f66254d42235e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b0279525a98b96d51d888b4e02eaf5f1867a0d6f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424643"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570259"
 ---
 # <a name="reference-a-cell-in-a-formula"></a>Référence à une cellule dans une formule
 

@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ee0aec9b-cdb0-4204-8a15-7542d943f096
 description: Utilisez l'action QuitterPourChaqueEnregistrement pour quitter immédiatement un bloc de données PourChaqueEnregistrement.
-ms.openlocfilehash: f4f2a5cd280b26471aa9cc1596b4d6269d059f94
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c33d73d24bf0b8712461445bd80dadce235f96f0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438043"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588510"
 ---
 # <a name="exitforeachrecord-macro-action-access-custom-web-app"></a>ExitForEachRecord Macro Action (Access custom web app)
 

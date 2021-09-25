@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_SDR.chm1175
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3af6c949-d6a0-9560-54d7-b01a2ad99960
 description: Représente la coordonnée y d’un point de connexion dans les coordonnées locales.
-ms.openlocfilehash: b408dc3c07e7bd28c0530b09f649453b4f08c770
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cceced17d52a847a5b1d2fb96e7995a1e543aaad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410846"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553549"
 ---
 # <a name="y-cell-connection-points-section"></a>Y, cellule (section Connection Points)
 

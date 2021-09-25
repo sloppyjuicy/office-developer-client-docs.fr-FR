@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251697
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c59abaf-d2cc-94c9-08ba-004bc40efd9e
 description: Détermine si un style inclut ou non des propriétés de texte.
-ms.openlocfilehash: 3f1d87316955b4e6e40cea16634cff7645a720fe
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 34b1cf25667ba6fd4354ec2bc6ca3afd5b49bf91
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419260"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570644"
 ---
 # <a name="enabletextprops-cell-style-properties-section"></a>EnableTextProps, cellule (section Style Properties)
 

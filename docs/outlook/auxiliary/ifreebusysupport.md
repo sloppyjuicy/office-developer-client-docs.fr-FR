@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 12/08/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17df868b-d329-cefa-bd16-84960cbf5921
-ms.openlocfilehash: f688f02c90e4341fe9cb0a1294b9f0f278bb7065
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9e9fe093f224883aa8d8d97f53ca1411dc5423b6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319326"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552058"
 ---
 # <a name="ifreebusysupport"></a>IFreeBusySupport
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1230
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02c139db-fe67-f550-1d07-8c8a9a4fb427
 description: Détermine la méthode utilisée pour analyser le dessin avant la création de la mise en page et définit le type de mise en page.
-ms.openlocfilehash: 463c7dad39955161538aa89d1482685189bf7fdc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 10c116de99cce8fce65b6949341174aa6a3cf6b4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432036"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559779"
 ---
 # <a name="placedepth-cell-page-layout-section"></a>PlaceDepth, cellule (section Page Layout)
 

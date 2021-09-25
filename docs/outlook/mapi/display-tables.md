@@ -3,17 +3,17 @@ title: Afficher les tableaux
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1b94b0ea69237be3675e1ea02fc3e2bfac337025
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fa65f150639a0604ee84f038c92cec0b0a10e43e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406219"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588169"
 ---
 # <a name="display-tables"></a>Afficher les tableaux
 
@@ -37,7 +37,7 @@ La **fonction BuildDisplayTable** combine les informations des structures de tab
   
 **L’utilisation de BuildDisplayTable** pour créer un tableau d’affichage est simple et facilite la maintenance lorsque les éléments visuels de la modification d’affichage. Toutefois, les fournisseurs de services qui préfèrent ne pas utiliser **BuildDisplayTable** peuvent créer un tableau d’affichage avec du code personnalisé qui utilise les méthodes de **ITableData**. Par exemple, les fournisseurs de services qui ont une structure de modèle existante pour leurs pages de propriétés peuvent vouloir créer du code personnalisé plutôt que d’utiliser **BuildDisplayTable**.
   
-Les fournisseurs de services peuvent implémenter l’interface de propriétés de leur tableau d’affichage de différentes manières. Cela inclut ce qui suit :
+Les fournisseurs de services peuvent implémenter l’interface de propriétés de leur tableau d’affichage de différentes manières. Cela comprend :
   
 - Fourniture d’une [implémentation IMAPIProp : IUnknown](imapipropiunknown.md) standard. 
     

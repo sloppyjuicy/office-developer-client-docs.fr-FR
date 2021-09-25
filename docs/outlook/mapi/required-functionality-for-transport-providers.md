@@ -3,17 +3,17 @@ title: Fonctionnalités requises pour les fournisseurs de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a0d9a3e0-a500-4d72-8859-ecfd1604fc5b
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7f9768d47cf740bdf50b439ee3af4b0d2a191602
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b08057ce597459988fc443f5e7495b45fdef56a7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404441"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578794"
 ---
 # <a name="required-functionality-for-transport-providers"></a>Fonctionnalités requises pour les fournisseurs de transport
 

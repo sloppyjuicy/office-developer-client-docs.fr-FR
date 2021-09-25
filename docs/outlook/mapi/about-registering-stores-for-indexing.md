@@ -3,15 +3,15 @@ title: À propos de l’inscription des magasins pour l’indexation
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 96322d12b3b7b334b5f78f81910dcf34c3fc78e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e972c0a443a0c06b4df5cde5ea0ec82587d077b4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321825"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588265"
 ---
 # <a name="about-registering-stores-for-indexing"></a>À propos de l’inscription des magasins pour l’indexation
 
@@ -58,7 +58,7 @@ La propriété MAPI **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.m
   
 ||||
 |:-----|:-----|:-----|
-|**Type de fournisseur du Store** <br/> |**GUID** <br/> |**Notes** <br/> |
+|**Type de fournisseur du Store** <br/> |**GUID** <br/> |**Remarques** <br/> |
 |Fichiers de dossiers personnels (. PST)  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |Le GUID est documenté dans le fichier d’en-tête public mspst.h **comme MSPST_UID_PROVIDER** <br/> |
 |Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |Le GUID est documenté dans le fichier d’en-tête public edkmdb.h en tant que **pbExchangeProviderPrimaryUserGuid** <br/> |
 |Dossiers publics  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |LE GUID est documenté dans le fichier d’en-tête public edkmdb.h en tant que **pbExchangeProviderPublicGuid** <br/> |

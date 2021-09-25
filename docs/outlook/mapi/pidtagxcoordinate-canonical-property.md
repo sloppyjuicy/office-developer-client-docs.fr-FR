@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagXCoordinate
 api_type:
 - COM
 ms.assetid: 030d5c21-ab02-4047-bf2d-9a402a1e9102
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 87df676dccdb067302d62da2bd1fda6b634ed4f8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6b3b55b6cb66069121ca2989e51c2c46f6077f80
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436194"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578899"
 ---
 # <a name="pidtagxcoordinate-canonical-property"></a>Propriété canonique PidTagXCoordinate
 

@@ -3,17 +3,17 @@ title: Transfert d’un message
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d1df84c37cc2a24806c35ae0c90e4bf2a5e438d2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 37515d7a45115988945112bef892975bb193ff3c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433177"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551589"
 ---
 # <a name="forwarding-a-message"></a>Transfert d’un message
 

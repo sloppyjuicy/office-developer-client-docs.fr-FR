@@ -3,17 +3,17 @@ title: Section Fichier de configuration de formulaire [Extensions]
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4817e446-982d-491c-abcf-cc888a771afa
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 96682dd2bdfedc42ea13c6985cb834f0adffd4df
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3f3ffce0753ef62d8e61f9c6df010882d5bb5178
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423754"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59587985"
 ---
 # <a name="form-configuration-file-extensions-section"></a>Section Fichier de configuration de formulaire [Extensions]
 

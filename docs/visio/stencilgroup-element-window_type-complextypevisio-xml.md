@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40e45007-e5c3-118c-1460-af83b461b014
 description: Spécifie le groupe de fenêtres de gabarit fusionnées dont la fenêtre est membre.
-ms.openlocfilehash: 5550ed60943690a642c0bfcaa32426c599a49940
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: ece67904b30e72a53dc9e472d24651700dd4dcc6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542001"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553766"
 ---
 # <a name="stencilgroup-element-window_type-complextype-visio-xml"></a>Élément StencilGroup (Window_Type complexType) (Visio XML)
 

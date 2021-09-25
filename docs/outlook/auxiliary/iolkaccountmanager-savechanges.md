@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
 description: Enregistre les modifications apportées au compte spécifié.
-ms.openlocfilehash: dbb1dffa1725e96bd2ab635341718ce53738b864
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 48df3b07e9b98a277d0dfe7a210f88a8e3dbbc2f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429606"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551995"
 ---
 # <a name="iolkaccountmanagersavechanges"></a>IOlkAccountManager::SaveChanges
 
@@ -29,7 +29,7 @@ HRESULT IOlkAccountManager::SaveChanges (
 ); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _dwAcctID_
   

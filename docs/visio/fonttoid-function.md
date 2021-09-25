@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58bde69d-4654-681c-d9bb-d4b776ddb4c5
 description: Renvoie l’identificateur (ID) de la police spécifiée.
-ms.openlocfilehash: 720f07d8df51877e864a8ab9ba9df3a08836e1cd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d6c5cd1bcc384d3fb43232ce6b9aede94af72512
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406842"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570636"
 ---
 # <a name="fonttoid-function"></a>Fonction FONTTOID
 

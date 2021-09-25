@@ -3,15 +3,15 @@ title: Structure de flux FieldDefinition
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 98584e450bb820dbce05b0f8d2c6d15551586130
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2277d66a4f46a64f6e5fce9cad747fb98e767701
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334894"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588034"
 ---
 # <a name="fielddefinition-stream-structure"></a>Structure de flux FieldDefinition
 
@@ -65,16 +65,16 @@ Les éléments de données de ce flux sont stockés dans l’ordre des petits bo
     |iTypeString  <br/> |0  <br/> |**Text** <br/> |
     |iTypeNumber  <br/> |1  <br/> |**Number** <br/> |
     |iTypePercent  <br/> |2  <br/> |**Percent** <br/> |
-    |Monétaire  <br/> |3  <br/> |**Currency** <br/> |
+    |Devise  <br/> |3  <br/> |**Currency** <br/> |
     |iTypeBool  <br/> |4   <br/> |**Oui/Non** <br/> |
-    |iTypeDateTime  <br/> |5   <br/> |**Date/Heure** <br/> |
-    |iTypeDuration  <br/> |6   <br/> |**Duration** <br/> |
-    |iTypeCombination  <br/> |7   <br/> |**Combinaison**, avec affichage uniquement du premier champ non vide, en ignorant les options **suivantes sélectionnées** dans la boîte de dialogue Combinaison de champs **de** formule.  <br/> |
-    |iTypeFormula  <br/> |8   <br/> |**Formula** <br/> |
-    |iTypeResult  <br/> |9   <br/> |Ce type n’est pas utilisé pour les champs définis par l’utilisateur.  <br/> |
+    |iTypeDateTime  <br/> |5  <br/> |**Date/Heure** <br/> |
+    |iTypeDuration  <br/> |6   <br/> |**Duration** <br/> |
+    |iTypeCombination  <br/> |7   <br/> |**Combinaison**, avec affichage uniquement du premier champ non vide, en ignorant les options **suivantes sélectionnées** dans la boîte de dialogue Combinaison de champs **de** formule.  <br/> |
+    |iTypeFormula  <br/> |8   <br/> |**Formule** <br/> |
+    |iTypeResult  <br/> |9   <br/> |Ce type n’est pas utilisé pour les champs définis par l’utilisateur.  <br/> |
     |iTypeVariant  <br/> |10  <br/> |Ce type n’est pas utilisé pour les champs définis par l’utilisateur.  <br/> |
     |iTypeFloatResult  <br/> |11  <br/> |Ce type n’est pas utilisé pour les champs définis par l’utilisateur.  <br/> |
-    |iTypeConcat  <br/> |12   <br/> |**Combinaison**, avec les **champs de jointage** et les fragments de texte les uns avec les autres sélectionnés dans la boîte de dialogue **Combinaison de** champs de formule.  <br/> |
+    |iTypeConcat  <br/> |12   <br/> |**Combinaison**, avec les **champs de jointage** et les fragments de texte les uns avec les autres sélectionnés dans la boîte de dialogue **Combinaison de** champs de formule.  <br/> |
     |iTypeKeywords  <br/> |13  <br/> |**Mot clé** <br/> |
     |iTypeInteger  <br/> |14   <br/> |**Integer** <br/> |
    

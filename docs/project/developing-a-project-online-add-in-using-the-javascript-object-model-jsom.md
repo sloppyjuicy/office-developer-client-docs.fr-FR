@@ -3,15 +3,15 @@ title: Développement d’Project Online à l’aide du modèle objet JavaScript
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
 description: Cet article décrit Microsoft Project Online développement de Project Online. Le projet de développement est implémenté comme une walkthrough. Le add-in utilisé pour cet article lit et affiche les noms de projet et les ID des projets publiés à partir de votre compte Project Online et vous permet d’extraire les tâches associées à des projets individuels.
-ms.openlocfilehash: 0a472a6300f18aaa65649f44d944445642a59e1a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b30350a0d78531e304545e551ff61257e52386e8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322685"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560220"
 ---
 # <a name="developing-a-project-online-add-in-using-the-javascript-object-model-jsom"></a>Développement d’Project Online à l’aide du modèle objet JavaScript (JSOM)
 
@@ -19,7 +19,7 @@ Cet article décrit Microsoft Project Online développement de Project Online. L
   
 Au moment de l’exécuter, la liste des modules de recherche ressemble à l’illustration suivante :
   
-![Capture d’écran montrant une liste de projets et]de tâches JSOM Capture d’écran montrant une liste de projets et de tâches(media/766e5914-f048-48f4-9282-291f55e6e90d.png "JSOM")
+![Capture d’écran montrant une liste de tâches et projets JSOM](media/766e5914-f048-48f4-9282-291f55e6e90d.png "Capture d’écran montrant une liste de tâches et projets JSOM")
   
 L’objectif de l’exemple est l’interaction avec le Project Online, l’établissement de requêtes et la définition du contexte pour chaque demande à partir du service. Les éléments d’interface utilisateur (IU) reçoivent une attention minimale. Au lieu de cela, les listes source fournissent des commentaires concernant l’interface utilisateur.
   
@@ -47,7 +47,7 @@ Ajoutez les éléments suivants à un environnement Windows pris en charge :
   
 - **.NET Framework version 4.0** ou ultérieure : les versions complètes de l’infrastructure de la version 4.0 sont compatibles. Le site de téléchargement est https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
-- **Visual Studio 2013 ou ultérieure**:  
+- **Visual Studio 2013 ou ultérieure**:  
     
    - L’édition professionnelle Visual Studio 2015 est prête à l’emploi et est disponible sur https://www.visualstudio.com/en-us/products/visual-studio-professional-with-msdn-vs.aspx .
     
@@ -329,7 +329,7 @@ La fonction displayTasks affiche les tâches associées à un projet spécifié 
   
 Un exemple de sortie pour les tâches d’un seul projet suit.
   
-![Capture d’écran montrant la sortie d’une tâche]de projet Capture d’écran(media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png "montrant la sortie d’une tâche de projet")
+![Capture d’écran montrant la sortie pour une tâche de projet](media/f6500a3f-000b-4f3e-9be6-9a74d0bea15e.png "Capture d’écran montrant la sortie pour une tâche de projet")
   
 ## <a name="see-also"></a>Voir aussi
 

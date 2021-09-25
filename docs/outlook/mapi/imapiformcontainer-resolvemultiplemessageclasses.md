@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFormContainer.ResolveMultipleMessageCla
 api_type:
 - COM
 ms.assetid: f18c2dd1-366f-48b4-b335-ebbc0651f467
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0730da9c3877985853e2cd0a55420e64fbd98e0c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f83ac53c78f822e345e1c68e7255e5342ffd287a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412540"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551386"
 ---
 # <a name="imapiformcontainerresolvemultiplemessageclasses"></a>IMAPIFormContainer::ResolveMultipleMessageClasses
 
@@ -35,7 +35,7 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pMsgClassArray_
   

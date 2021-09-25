@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251256
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0891064-95d9-ae1b-28f3-3aef1406b636
 description: "Représente la distance entre chaque ligne du paragraphe et la marge droite du bloc de texte. Cette valeur est indépendante de l'échelle de dessin : elle ne change pas si le dessin est mis à l'échelle."
-ms.openlocfilehash: e6529bf41cb8fdd40371d9a663291961626afb56
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7689d808f8c1cc886a20488251ae75418c1d8af8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408865"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570455"
 ---
 # <a name="indright-cell-paragraph-section"></a>IndRight, cellule (section Paragraph)
 

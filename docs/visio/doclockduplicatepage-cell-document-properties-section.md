@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b08a6558-519f-44e0-aeff-9919544d515e
 description: Détermine si les pages du document peuvent être dupliquées, en tant que booléens.
-ms.openlocfilehash: 3f3274c6cfadb81ef514a179279bdaed3543b654
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 264b55909a5eb48636601566d6392e62393f00d9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439659"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559919"
 ---
 # <a name="doclockduplicatepage-cell-document-properties-section"></a>DocLockDuplicatePage Cell (Document Properties Section)
 

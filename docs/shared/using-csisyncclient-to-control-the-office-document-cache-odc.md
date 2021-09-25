@@ -3,15 +3,15 @@ title: Utilisation de CSISyncClient pour contrôler le cache Office document (OD
 manager: soliver
 ms.date: 07/13/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: Découvrez comment utiliser CSISyncClient pour contrôler le cache Office document (ODC).
-ms.openlocfilehash: ce33063f88492bcd6f9682a4a6431fb36f138d55
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1ad8c752e573eab894be675a2b0e790d560f4002
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346255"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560199"
 ---
 # <a name="using-csisyncclient-to-control-the-office-document-cache-odc"></a>Utilisation de CSISyncClient pour contrôler le cache Office document (ODC)
 
@@ -51,7 +51,7 @@ DeleteFile est utilisé pour supprimer les informations de fichier du cache. Tou
   
 `HRESULT ILSCLocalSyncClient::DeleteFile ([in] BSTR bstrResourceID)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _bstrResourceID_
   
@@ -76,7 +76,7 @@ GetChanges renvoie un éumérateur d’objets ILSCEvent et renvoie également un
   
 `HRESULT ILSCLocalSyncClient::GetChanges ([in] LONG nPreviousChangesToken, [out] LONG * pnCurrentChangesToken, [out] IEnumLSCEvent ** ppiEvents)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _nPreviousChangesToken_
   
@@ -105,7 +105,7 @@ GetClientNetworkSyncPermission est utilisé pour demander si la synchronisation 
   
 `HRESULT ILSCLocalSyncClient::GetClientNetworkSyncPermission ([in] LSCNetworkSyncPermissionType nspType, [out] VARIANT_BOOL * pfSyncEnabled)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _nspType_
   
@@ -130,7 +130,7 @@ GetFileStatus est utilisé pour collecter des informations pour un fichier spéc
   
 `HRESULT ILSCLocalSyncClient::GetFileStatus ([in] BSTR bstrResourceID, [in] LSCStatusFlag sfRequestedStatus, [out] BSTR * pbstrFileSystemPath, [out] BSTR * pbstrETag, [out] LSCStatusFlag * psfFileStatus)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _bstrResourceID_
   
@@ -172,7 +172,7 @@ Voici un exemple de chaîne renvoyée : « |docx|docm|pptx| »
   
 `HRESULT ILSCLocalSyncClient::GetSupportedFileExtensions ([out] BSTR * pbstrSupportedFileExtensions)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pbstrSupportedFileExtensions_
   
@@ -194,7 +194,7 @@ Initialize doit être la première méthode appelée. Dans le cas contraire, tou
   
 `HRESULT ILSCLocalSyncClient::Initialize ([in] BSTR bstrSuppliedID, [in] BSTR bstrProgID, [in] BSTR bstrFileSystemDirectoryHint, [in] IPartnerActivityCallback * pEventCallback, [out] VARIANT_BOOL * pfCreatedNewCache)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _bstrSuppliedID_
   
@@ -202,7 +202,7 @@ Identifie le consommateur et le cache à utiliser. Doit être non vide avec un m
   
  _bstrProgID_
   
-Identifie l’objet COM du consommateur pour la communication double. Doit être non vide avec un maximum de 39 caractères. Pour plus d’informations sur les ProgID, voir Clé [ \< ProgID. \> ](https://docs.microsoft.com/windows/desktop/com/-progid--key) 
+Identifie l’objet COM du consommateur pour la communication double. Doit être non vide avec un maximum de 39 caractères. Pour [ \<ProgID\> plus d’informations](https://docs.microsoft.com/windows/desktop/com/-progid--key) sur les ProgID, voir Clé. 
   
  _bstrFileSystemDirectoryHint_
   
@@ -236,7 +236,7 @@ Cette méthode autorise les téléchargements s’il a été marqué comme tél�
   
 `HRESULT ILSCLocalSyncClient::LocalFileChange ([in] BSTR bstrFileSystemPath, [in] BSTR bstrWebPath, [in] BSTR bstrResourceID)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _bstrFileSystemPath_
   
@@ -275,7 +275,7 @@ RenameFile associera une nouvelle URL et un chemin local pour un ResourceID donn
   
 `HRESULT ILSCLocalSyncClient::RenameFile ([in] BSTR bstrResourceID, [in] BSTR bstrNewFileSystemPath, [in] BSTR bstrNewWebPath, [in] VARIANT_BOOL fBlockUploads)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _bstrResourceID_
   
@@ -365,7 +365,7 @@ Définit le cache dans un état en ligne ou hors connexion. S’il est hors conn
   
 `HRESULT ILSCLocalSyncClient::SetClientConnectivityState ([in] VARIANT_BOOL fIsOnline)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _fIsOnline_
   
@@ -387,7 +387,7 @@ SetClientNetworkSyncPermission est utilisé pour remplacer ou restaurer l’heur
   
 `HRESULT ILSCLocalSyncClient::SetClientNetworkSyncPermission ([in] LSCNetworkSyncPermissionType nspType, [in] VARIANT_BOOL fEnableSync)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _nspType_
   
@@ -436,7 +436,7 @@ Extrait l’événement suivant de la liste des événements.
   
 `HRESULT IEnumLSCEvent::FNext ([out] ILSCEvent ** ppiLSCEvent)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _ppiLSCEvent_
   
@@ -477,7 +477,7 @@ Cette valeur est remplie uniquement lorsque l’enum [LSCEventType](using-csisyn
   
 `HRESULT ILSCEvent::GetConflictStatus ([out] VARIANT_BOOL * pfIsInConflict)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pfIsInConflict_
   
@@ -493,7 +493,7 @@ Cette valeur est remplie uniquement lorsque l’enum [LSCEventType](using-csisyn
   
 `HRESULT ILSCEvent::GetError ([out] LONG * pnError)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pnError_
   
@@ -509,7 +509,7 @@ Cette valeur est remplie uniquement lorsque l’enum [LSCEventType](using-csisyn
   
 `HRESULT ILSCEvent::GetETag ([out] BSTR * pbstrETag)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pbstrETag_
   
@@ -525,7 +525,7 @@ Obtient le type de cet événement.
   
 `HRESULT ILSCEvent::GetEventType ([out] LSCEventType * pnEventType)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pnEventType_
   
@@ -544,7 +544,7 @@ Obtient le chemin d’accès de travail local pour cet événement.
   
 `HRESULT ILSCEvent::GetLocalWorkingPath ([out] BSTR * pbstrLocalWorkingPath)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pbstrLocalWorkingPath_
   
@@ -560,7 +560,7 @@ Obtient l’ID de ressource pour l’événement.
   
 `HRESULT ILSCEvent::GetResourceID ([out] BSTR * pbstrResourceID)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pbstrResourceID_
   
@@ -576,7 +576,7 @@ Cette valeur est remplie uniquement lorsque l’enum [LSCEventType](using-csisyn
   
 `HRESULT ILSCEvent::GetResourceIDAttempted ([out] BSTR * pbstrResourceIDAttempted)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pbstrResourceIDAttempted_
   
@@ -592,7 +592,7 @@ Cette valeur est remplie uniquement lorsque l’enum [LSCEventType](using-csisyn
   
 `HRESULT ILSCEvent::GetSyncErrorType ([out] LSCEventSyncErrorType * pnSyncErrorType)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pnSyncErrorType_
   
@@ -611,7 +611,7 @@ Cette valeur est remplie uniquement lorsque l’enum [LSCEventType](using-csisyn
   
 `HRESULT ILSCEvent::GetWebPath ([out] BSTR * pbstrWebPath)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pbstrWebPath_
   
@@ -633,7 +633,7 @@ Obtient les informations de chaîne d’erreur sur un événement de synchronisa
   
 `HRESULT ILSCEvent2::GetErrorChain ([out] BSTR * pbstrErrorChain)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _pbstrErrorChain_
   
@@ -660,7 +660,7 @@ Il s’agit d’une fonction de rappel sur l’objet donné à l’objet COM Csi
   
 `HRESULT IPartnerActivityCallback::EventOccurred ([in] LSCEventTypeOccurred eEventTypeOccurred)`
 
-##### <a name="parameters"></a>Parameters
+##### <a name="parameters"></a>Paramètres
 
  _eEventTypeOccurred_
   

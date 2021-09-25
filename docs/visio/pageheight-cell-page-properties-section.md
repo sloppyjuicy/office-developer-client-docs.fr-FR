@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm760
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0184814c-2d67-6ad4-e336-5694612e518d
 description: Contient la hauteur de la page imprimée en unités de dessin.
-ms.openlocfilehash: ac24bee517f29da333a445f276447c1aa682f01c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e0a7ad6ba9fdc887a9aa82feeb02bfd2114ae5f0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427079"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559807"
 ---
 # <a name="pageheight-cell-page-properties-section"></a>PageHeight, cellule (section Page Properties)
 

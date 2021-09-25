@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf9af5a5-e042-4d56-a29f-341d97cdb97b
 description: Détermine l’angle du dégradé de remplissage pour les dégradés avec une direction linéaire, en degrés.
-ms.openlocfilehash: 16277d76b3bc61be335e010c07b2eb4a43973b4f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0931f091ca50b13fe2c7fd8293c785aebdc75f4b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434885"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570665"
 ---
 # <a name="fillgradientangle-cell-gradient-properties-section"></a>FillGradientAngle Cell (Gradient Properties Section)
 

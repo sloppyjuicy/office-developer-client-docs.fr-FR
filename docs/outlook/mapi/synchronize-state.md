@@ -3,15 +3,15 @@ title: Synchroniser l’état
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7abbf049a848d417f640528e5030e37a954413e5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 11d9b10c9872b7f6904cc9268f8954b9953462f7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414626"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578535"
 ---
 # <a name="synchronize-state"></a>Synchroniser l’état
 

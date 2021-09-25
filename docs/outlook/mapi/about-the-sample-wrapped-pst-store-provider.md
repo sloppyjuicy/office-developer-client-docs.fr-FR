@@ -3,15 +3,15 @@ title: À propos de l’exemple de fournisseur de magasins PST wrapped
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 953391ce-31a2-3271-365a-284cf5e15d82
 description: 'Last modified: July 03, 2012'
-ms.openlocfilehash: 779dd96c4f07c0c5eee60ae046cd17db98eebfd9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6814244de23d97e6004490bc85b8a3b503d9b8ea
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432722"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551883"
 ---
 # <a name="about-the-sample-wrapped-pst-store-provider"></a>À propos de l’exemple de fournisseur de magasins PST wrapped
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60016
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a05d668f-70c9-b6fa-cac1-462af37b4f8f
 description: Contient une ligne pour chaque balise d’action définie pour une forme ou une page.
-ms.openlocfilehash: e8d8307abe14058be27e805a191243db8002b4c4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c5ec71926f5d66755b76ffd428931002b9fa5c4d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430951"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560143"
 ---
 # <a name="action-tag-section"></a>Action Tag Section
 

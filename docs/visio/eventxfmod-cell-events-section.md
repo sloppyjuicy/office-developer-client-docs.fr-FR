@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251313
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b88588a2-c651-7eab-9c7a-ed78f20d1ba3
 description: Cellule d’événement évaluée lors de la transformation de la position ou de l’orientation d’une forme sur la page (XF).
-ms.openlocfilehash: c4ed4ddd9b255a9a52fc81349b514dbd25772c98
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2a8a3fd8fdb4095ebf8f5e51ed03cac1b7b060ae
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559849"
 ---
 # <a name="eventxfmod-cell-events-section"></a>EventXFMod, cellule (section Events)
 

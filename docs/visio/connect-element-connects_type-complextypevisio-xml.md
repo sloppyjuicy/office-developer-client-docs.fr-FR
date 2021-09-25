@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6e1ad47b-ee28-6b9a-f2f9-642e09ca28d4
 description: Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme.
-ms.openlocfilehash: 3450a07e042fc633b9cd4952d9b3ad6b8190ed1e
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 933a58a4afece3798e419f1a483b00f0d823961a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541994"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560010"
 ---
 # <a name="connect-element-connects_type-complextype-visio-xml"></a>Connecter’élément (Connects_Type complexType) (Visio XML)
 

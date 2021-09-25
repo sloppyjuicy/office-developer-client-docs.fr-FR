@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRecipientTrackStatus
 api_type:
 - COM
 ms.assetid: d619b5e7-2867-44fc-9b42-123bb1bf7bde
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 074bcf7c051b78bc32caf66502747e7fb1ab6b79
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 26662eb83a757f798fa1117d639705d2cc3c557c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355285"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570906"
 ---
 # <a name="pidtagrecipienttrackstatus-canonical-property"></a>Propriété canonique PidTagRecipientTrackStatus
 

@@ -3,15 +3,15 @@ title: Equals(Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70bc707a-3a61-4d75-816d-0defd0806319
 description: Compare l’égalité de deux expressions.
-ms.openlocfilehash: 8c551e3dbc057433b49bc2558e08feba5ee3d04f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7dbca163a1fb9c49b5557e810eeecf978f999c97
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408928"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588524"
 ---
 # <a name="equals-access-custom-web-app"></a>Equals (Access custom web app)
 

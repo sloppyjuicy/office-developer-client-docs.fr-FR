@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginalAuthorAddressType
 api_type:
 - COM
 ms.assetid: 7cdedb1a-e441-469b-be50-2f18203eb30d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 596e416624fb6f2bf1fdaef64c2179feb7787815
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 53d70d0b8fb17a2e2e7aa77e3087b6f58a12c78c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578962"
 ---
 # <a name="pidtagoriginalauthoraddresstype-canonical-property"></a>Propriété canonique PidTagOriginalAuthorAddressType
 
@@ -32,7 +32,7 @@ Contient le type d’adresse de l’auteur de la première version d’un messag
 |Propriétés associées :  <br/> |PR_ORIGINAL_AUTHOR_ADDRTYPE, PR_ORIGINAL_AUTHOR_ADDRTYPE_A, PR_ORIGINAL_AUTHOR_ADDRTYPE_W  <br/> |
 |Identificateur :  <br/> |0x0079  <br/> |
 |Type de données :  <br/> |PT_STRING8, PT_UNICODE  <br/> |
-|Domaine :  <br/> |Server  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

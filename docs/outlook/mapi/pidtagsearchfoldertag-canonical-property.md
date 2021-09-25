@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b7a88387-72ff-49e5-b73a-8bafab635658
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a4ad72c147abebfe9863d19690bc9f27f00544a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 35fadec5caed51b996c7c314591c9388d497c329
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282319"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570799"
 ---
 # <a name="pidtagsearchfoldertag-canonical-property"></a>Propriété canonique PidTagSearchFolderTag
 
@@ -30,7 +30,7 @@ Contient la valeur utilisée pour synchroniser ce message de définition avec le
 |Propriétés associées :  <br/> |PR_WB_SF_TAG  <br/> |
 |Identificateur :  <br/> |0x6847  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Recherche  <br/> |
+|Domaine :  <br/> |Rechercher  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

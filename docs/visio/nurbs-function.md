@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251579
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f34db20d-6501-2026-a5e8-29c4d4cb2405
 description: Renvoie une ligne B-spline rationnelle nonuniforme (NURBS). Cette fonction est utilisée dans la cellule E des lignes de géométrie NURBSTo.
-ms.openlocfilehash: af92374a829c0df8e71ac81e630abc4fa64988dc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 335b055aef4517a783a7971e9f63bc36fea9dc4c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438455"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590183"
 ---
 # <a name="nurbs-function"></a>Fonction NURBS
 

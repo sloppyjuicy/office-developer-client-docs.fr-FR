@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5e816b5-2ff2-4f59-ba54-c3ed291f8bba
 description: La méthode recommandée pour déployer un fournisseur OSC (Outlook Social Connector) consiste à utiliser un package Windows Installer (.msi).
-ms.openlocfilehash: f606d39bd368609464cdd0ea5b9a56243ec4e27d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 87e20eb297942019d64f90e261cd5e192c268751
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281060"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560409"
 ---
 # <a name="deploying-a-provider"></a>Déploiement d’un fournisseur
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm30
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d094411e-ed65-1d0d-5c35-68b003da2696
 description: Détermine la position horizontale, par rapport à l'origine de son parent, d'un repère vertical ou d'un point de repère sur lequel est aligné le bord gauche de la forme.
-ms.openlocfilehash: 5fdf1251c8829fd644d1a4bfd5eab8890c0d3e71
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c740f9cfb23b2a7403f87b8fd015f80a6d48824f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437566"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570727"
 ---
 # <a name="alignleft-cell-alignment-section"></a>AlignLeft, cellule (section Alignment)
 

@@ -7,13 +7,13 @@ api_type:
 - COM
 ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
 description: 'Dernière modification : 26 juin 2012'
-localization_priority: Priority
-ms.openlocfilehash: 3c60862733c6b38e60650ae9daba9bba578fcd58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 4ce30dc1f81b0cce9cf51c7a05bb4ca2c4346db7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341075"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588069"
 ---
 # <a name="fast-shutdown-user-options"></a>Options utilisateur en cas d’arrêt rapide
 

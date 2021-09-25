@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251696
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9f619416-36ff-1479-6232-225c11827e01
 description: Détermine si un style inclut ou non des propriétés de trait.
-ms.openlocfilehash: 38964194626be052b2a168fa929b69ebe4b28e01
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f2e6c3c74329c196e2e527a2879c0604ef5c5c61
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409999"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559905"
 ---
 # <a name="enablelineprops-cell-style-properties-section"></a>EnableLineProps, cellule (section Style Properties)
 

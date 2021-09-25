@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1880734a-f086-ce6c-5a93-47851bcdd99d
 description: Contient les éléments Window d’un document.
-ms.openlocfilehash: fcffcd5257b14c0ae0203a41f369536e583c1798
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: ac007299f7f73c5839d2ea735f2dcd7a186cf178
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538444"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553626"
 ---
 # <a name="windows-element-visio-xml"></a>Windows’élément (Visio XML)
 

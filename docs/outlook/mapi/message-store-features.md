@@ -3,17 +3,17 @@ title: Fonctionnalités de la boutique de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 092cf56aea2e246fbb7ef2016a2662a1f67f889b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0fe0e9d4e64659f09d314731e72b0048177e8fa8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439519"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551099"
 ---
 # <a name="message-store-features"></a>Fonctionnalités de la boutique de messages
 

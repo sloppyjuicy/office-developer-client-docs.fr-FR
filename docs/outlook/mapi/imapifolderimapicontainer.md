@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFolder
 api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5e31896354141999e02f2cba117ef9739340be61
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 162e31574cc182c93ffcda5f9d38f045f7e7e152
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424237"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551400"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 

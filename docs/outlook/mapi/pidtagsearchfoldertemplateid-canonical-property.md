@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSearchFolderTemplateId
 api_type:
 - COM
 ms.assetid: 56288f55-b3ba-42df-9c90-f9b5857f19a1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bee22a7a435b99f4b94473a3f6eb4b7f32517128
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1e234e679daac7c4367865e5478e7032187587c1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336623"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570792"
 ---
 # <a name="pidtagsearchfoldertemplateid-canonical-property"></a>Propriété canonique PidTagSearchFolderTemplateId
 
@@ -32,7 +32,7 @@ Contient l’ID du modèle utilisé pour la recherche.
 |Propriétés associées :  <br/> |PR_WB_SF_TEMPLATE_ID  <br/> |
 |Identificateur :  <br/> |0x6841  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Recherche  <br/> |
+|Domaine :  <br/> |Rechercher  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

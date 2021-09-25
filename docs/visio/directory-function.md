@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251595
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7fb234a4-f1f9-73d3-a1d0-92ffc981ebfe
 description: Renvoie le chemin d’accès complet du répertoire (dossier) dans lequel un document est enregistré, sous la mesure d’une chaîne. Renvoie une chaîne vide si le document n’a pas été enregistré.
-ms.openlocfilehash: 40ec8dd8f1faf7e6a613dc640455b97854746c22
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0c75d983cb3d8e20516b76fc8f12e6b05b01841d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412939"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59559933"
 ---
 # <a name="directory-function"></a>Fonction DIRECTORY
 

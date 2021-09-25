@@ -3,17 +3,17 @@ title: Affichage des feuilles de propriétés de configuration
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c9386b98-615f-488c-8212-11d9abebbdcf
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a796f458e9d30206dc4c6feb37cbdb1e6b6a704b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 09283aa35b0f464822edc6b389f91a45ce135193
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421311"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551687"
 ---
 # <a name="displaying-configuration-property-sheets"></a>Affichage des feuilles de propriétés de configuration
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251495
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
 description: Renvoie un nombre integer, de 0 à 59, qui représente le composant de secondes de date/heure ou d’expression.
-ms.openlocfilehash: c23bbded12a3886fe3bd4dd2a3c3ba1bd6d11619
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f9f8a3f823ed4b0989abd6f338aaf44a0f56a059
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404875"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553924"
 ---
 # <a name="second-function-visioshapesheet"></a>SECOND Function (VisioShapeSheet)
 

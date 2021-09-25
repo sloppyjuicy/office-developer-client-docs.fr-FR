@@ -3,17 +3,17 @@ title: Enregistrement d’un message dans la boîte de réception
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3df04d4e-7e80-4232-aadc-c05c99ab59cb
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 672a9df55ce711b88451a517a2813c9ad8c599ce
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6f163f2bbcb106e5341d34e616c79efb970c1a55
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407892"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578759"
 ---
 # <a name="saving-a-message-in-the-inbox"></a>Enregistrement d’un message dans la boîte de réception
 

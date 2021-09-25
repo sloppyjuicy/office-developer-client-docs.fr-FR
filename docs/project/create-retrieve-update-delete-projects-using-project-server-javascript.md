@@ -3,15 +3,15 @@ title: Créer, récupérer, mettre à jour et supprimer des projets à l’aide 
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
 description: Obtenir l’instance ProjectContext actuelle ; récupérer et itérer dans la collection de projets publiés sur le serveur ; créer, récupérer, extraire et supprimer un projet à l’aide du modèle objet JavaScript Project Server ; et modifier les propriétés d’un projet.
-ms.openlocfilehash: 10dac7edfa3e84cebfd0585bc8c4bff1ea22ea44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9d114af4a1d90c7de393bd3564a74b9d75d33762
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560227"
 ---
 # <a name="create-retrieve-update-and-delete-projects-using-project-server-javascript"></a>Créer, récupérer, mettre à jour et supprimer des projets à l’aide Project JavaScript pour serveur
 
@@ -27,7 +27,7 @@ Pour effectuer les scénarios décrits dans cet article, vous devez installer et
 - SharePoint Server 2013
 - Project Server 2013
 - Visual Studio 2012
-- Outils de développement Office pour Visual Studio 2012
+- Outils de développement Office pour Visual Studio 2012
     
 Vous devez également avoir les autorisations pour déployer l’extension sur SharePoint Server 2013 et contribuer aux projets.
   
@@ -196,7 +196,7 @@ La procédure de cette section met à jour la **propriété startDate** d’un p
     
 2. Récupérez les projets publiés à partir du serveur à l’aide **ProjectContext.get_projects** fonction. La **get_projects** renvoie un **objet ProjectCollection.** 
     
-3. Exécutez la demande sur le serveur à l’aide de la fonction **ProjectContext.load** et **de laProjectContext.executeQueryAsync.** 
+3. Exécutez la demande sur le serveur à l’aide de la fonction **ProjectContext.load** et de la fonction **ProjectContext.executeQueryAsync.** 
     
 4. Récupérez **un objet PublishedProject** à l’aide de **la fonction ProjectContext.getById.** 
     
@@ -279,7 +279,7 @@ La procédure de cette section supprime un projet à l’aide du modèle objet J
     
 2. Récupérez les projets publiés à partir du serveur à l’aide **ProjectContext.get_projects** fonction. La **get_projects** renvoie un **objet ProjectCollection.** 
     
-3. Exécutez la demande sur le serveur à l’aide de la fonction **ProjectContext.load** et **de laProjectContext.executeQueryAsync.** 
+3. Exécutez la demande sur le serveur à l’aide de la fonction **ProjectContext.load** et de la fonction **ProjectContext.executeQueryAsync.** 
     
 4. Récupérez **un objet PublishedProject** à l’aide de **la fonction ProjectCollection.getById.** 
     

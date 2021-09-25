@@ -3,15 +3,15 @@ title: Créer un complément Project Server hébergé sur SharePoint
 manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: Des trois types d’applications que vous pouvez créer pour Project Online (hébergée automatiquement, hébergée par un fournisseur et hébergée par SharePoint), l’application hébergée par SharePoint est la plus simple à créer et à déployer.
-ms.openlocfilehash: 9b3b41eda40a8419ad72f11bb474acf7acaf81e9
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+ms.openlocfilehash: 2afa297fe61f026977277356b8ad63dbf86992ef
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773756"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560269"
 ---
 # <a name="create-a-sharepoint-hosted-project-server-add-in"></a>Créer un complément Project Server hébergé sur SharePoint
 
@@ -27,7 +27,7 @@ Pour obtenir des informations générales sur l’état, consultez [l’avanceme
 
 ## <a name="prerequisites-for-creating-an-app-for-project-server-2013"></a>Conditions préalables à la création d’une application pour Project Server 2013
 
-Pour développer des applications relativement simples qui peuvent être déployées sur Project Online ou sur une installation sur site de Project Server 2013, vous pouvez utiliser les outils Napa, qui fournissent un environnement de développement en ligne. Pour les applications plus complexes, la modification du ruban Project Web App et la facilité de débogage pendant le développement, vous pouvez utiliser Visual Studio 2012 ou Visual Studio 2013. Par exemple, avec une installation locale, vous pouvez vérifier manuellement les modifications des DataTables brouillons dans la base de données Project Server. Cet article explique comment développer des applications avec Visual Studio.
+Pour développer des applications relativement simples qui peuvent être déployées sur Project Online ou sur une installation sur site de Project Server 2013, vous pouvez utiliser les outils Napa, qui fournissent un environnement de développement en ligne. Pour les applications plus complexes, la modification du ruban Project Web App et la facilité de débogage pendant le développement, vous pouvez utiliser Visual Studio 2012 ou Visual Studio 2013. Par exemple, avec une installation locale, vous pouvez vérifier manuellement les modifications des DataTables brouillons dans la base de données Project Server. Cet article explique comment développer des applications avec Visual Studio.
   
 Le développement d’applications Project Server avec Visual Studio nécessite les éléments suivants :
   

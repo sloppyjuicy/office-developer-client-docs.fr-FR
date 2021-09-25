@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, using msxml5,MSXML5 [InfoPath 2007],MSXML5 script [InfoPath 2007],InfoPath 2007, using MSXML5
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f7a0cac5-26f9-49ed-b52c-0240ef0c9d38
 description: Les projets de modèle de formulaire utilisant le modèle objet InfoPath 2003 utilisent en interne MSXML (Microsoft XML Core Services) pour travailler avec XML. Dans le code managé, il est souvent plus simple d'utiliser le support XML fourni par l'espace de noms System.Xml dans la bibliothèque de classes .NET Framework. MSXML et System.Xml ne peuvent pas échanger d'objets de façon native. Vous devez donc pour transférer des données XML entre InfoPath et un autre code managé convertir ces données XML. Vous pouvez échanger des données XML depuis les objets System.Xml avec du code de formulaire InfoPath à l'aide des techniques décrites dans cette rubrique.
-ms.openlocfilehash: c56939a0cf03b5de6466de37013e154529afd1ee
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7fa559974a542aeb3472f6ef51ac6869a94cf6d4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437398"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588370"
 ---
 # <a name="working-with-msxml-and-systemxml-using-the-infopath-2003-object-model"></a>Utilisation de MSXML et de System.Xml avec le modèle objet InfoPath 2003
 

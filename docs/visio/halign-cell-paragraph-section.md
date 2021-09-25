@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm425
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8d6b622-60b3-e43f-b6a1-55db561204ed
 description: Détermine l'alignement horizontal du texte dans le bloc de texte de la forme.
-ms.openlocfilehash: a48619e2531c0a69ad63af3b88ae9f019019b1fe
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 39f53eeeaed0225f7140f0ab164017d9dada7744
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414738"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570618"
 ---
 # <a name="halign-cell-paragraph-section"></a>HAlign, cellule (section Paragraph)
 

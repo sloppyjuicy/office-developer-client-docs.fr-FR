@@ -3,17 +3,17 @@ title: Acc�s d�l�gu�
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a863494f-0071-4d97-a6c4-26707ee00e04
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 3d6a0eaf8ad125a0ae1ea3abb57e2aa57e0bdfe3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 50fcb0693a72d563bac475e9455aec653742dc2c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427261"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551694"
 ---
 # <a name="delegate-access"></a>Accès délégué
 

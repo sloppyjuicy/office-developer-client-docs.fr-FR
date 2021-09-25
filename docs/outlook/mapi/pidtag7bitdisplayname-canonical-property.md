@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTag7BitDisplayName
 api_type:
 - HeaderDef
 ms.assetid: 803d7c4e-ed80-4d5b-988f-27068a8ccd63
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e5177d47749c2f60a883bd12fbba27045114c601
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 53944e14742c26b88706188539f01ad13d68bd10
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315812"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59579200"
 ---
 # <a name="pidtag7bitdisplayname-canonical-property"></a>Propriété canonique PidTag7BitDisplayName
 

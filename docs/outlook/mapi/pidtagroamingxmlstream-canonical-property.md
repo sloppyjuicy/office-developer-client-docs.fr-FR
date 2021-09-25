@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRoamingXmlStream
 api_type:
 - COM
 ms.assetid: ce55b50e-3dbf-4690-9102-c08f35ada82e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3e7ce1f810a1dd37cd4370ceb423b664d75878a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6aa761d1357e5ae3141ca5589176cc2827a0579c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359541"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570939"
 ---
 # <a name="pidtagroamingxmlstream-canonical-property"></a>Propriété canonique PidTagRoamingXmlStream
 

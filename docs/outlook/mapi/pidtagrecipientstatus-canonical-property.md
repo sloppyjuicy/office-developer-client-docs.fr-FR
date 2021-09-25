@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRecipientStatus
 api_type:
 - COM
 ms.assetid: b483dd42-92c0-42c2-b6f9-621daeee1659
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5494f95aaf554038f43c34e1e1e388f871a52775
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e217734d59dd22259dda0309691905eb96af180a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410713"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570919"
 ---
 # <a name="pidtagrecipientstatus-canonical-property"></a>Propriété canonique PidTagRecipientStatus
 

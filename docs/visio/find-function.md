@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60101
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c827ecd4-5593-6d4f-2746-d13b02b098fe
 description: Recherche une chaîne de texte contenue dans une autre chaîne de texte et renvoie la position de départ de la chaîne de texte que vous recherchez par rapport à sa position dans la chaîne de texte qui la contient.
-ms.openlocfilehash: 40d65af25d89774c1bdf7b235cf653dbb61dd1c7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 313f6b97c5aacbb83e8aeedb91b69ce28cef465a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426575"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590197"
 ---
 # <a name="find-function"></a>Fonction FIND
 

@@ -3,17 +3,17 @@ title: Obtention et définition de plusieurs propriétés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 29b7f5f1-afc1-45d9-8867-9312c072e74b
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: dd25751978eb036531238e6372e35934b3ec145a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c15cee3268f78ee718fecf4fbdbc8b424e745372
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432260"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551547"
 ---
 # <a name="getting-and-setting-multiple-properties"></a>Obtention et définition de plusieurs propriétés
 

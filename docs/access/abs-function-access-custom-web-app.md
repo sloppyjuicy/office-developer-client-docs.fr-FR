@@ -3,15 +3,15 @@ title: Abs Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c880a662-dc4b-4b37-bbd4-3cb681dc1d1c
 description: Renvoie la valeur absolue (positive) de l’expression numérique spécifiée.
-ms.openlocfilehash: ed2368ceb8198365cac5de1b871111e5a9eb86f2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 99bb54a30688061e588ad0e8fc385275d4e2b629
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426316"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553528"
 ---
 # <a name="abs-function-access-custom-web-app"></a>Abs Function (Access custom web app)
 

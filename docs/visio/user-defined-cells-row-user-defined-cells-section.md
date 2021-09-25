@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3060
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c48b9b3-5c62-7d5a-1c8f-fe96606f4dea
 description: Contient la valeur et le message descriptif de toutes les cellules définies par l'utilisateur de votre solution. Une forme contient une ligne User-defined Cells pour chaque paire de cellules Value/Prompt.
-ms.openlocfilehash: 01e2da8ef1e97e8a911df605ab6cf1e9f8a853eb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fe6c51c2586d84996bdce94134df872fd42b91fa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420688"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553647"
 ---
 # <a name="user-defined-cells-row-user-defined-cells-section"></a>User-defined Cells Row (User-defined Cells Section)
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033795
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8354d0d-0ce2-fb33-ddf7-611a2c24a8be
 description: Détermine si la page est imprimée en orientation portrait ou paysage.
-ms.openlocfilehash: f7e73bea5120d878a1b2dbf553a66b349d247fce
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7618077640875c9952a9c05e39ab1307407a3d91
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434864"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59570315"
 ---
 # <a name="printpageorientation-cell-print-properties-section"></a>PrintPageOrientation, cellule (section Print Properties)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SDateTimeArray
 api_type:
 - COM
 ms.assetid: 6a0dff65-1055-487c-9d15-4cfe336f2ad7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9d9fd04776742383f40c6989bcf588b24b33d84b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: af16c7ab02a2cc5dbc72f828d29e292547051d95
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406779"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578689"
 ---
 # <a name="sdatetimearray"></a>SDateTimeArray
 
