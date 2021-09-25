@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60025
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf15b879-a47e-a5a5-bfdd-1d7ea423742f
 description: Identifie l’icône qui s’affiche en regard d’une option de menu contextuel ou de balise d’action.
-ms.openlocfilehash: 7ee9c4e7e857acb34ce75429aa0aaf679320b0e8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 96610ad6e1add550ab6ed940b7dc2ccbfb8373da
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407374"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608612"
 ---
 # <a name="buttonface-cell-actions-section"></a>ButtonFace, cellule (section Actions)
 

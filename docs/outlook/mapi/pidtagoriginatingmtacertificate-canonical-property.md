@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginatingMtaCertificate
 api_type:
 - COM
 ms.assetid: f6b7ff0c-19a0-4cad-8868-c05397fcebf4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6f78609537b85a89617e7b2fa8f30a4ba952805b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 74cb85228ef64c2b6dfe1c31ddfb6efb43ec2814
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414808"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574993"
 ---
 # <a name="pidtagoriginatingmtacertificate-canonical-property"></a>Propriété canonique PidTagOriginatingMtaCertificate
 
@@ -32,7 +32,7 @@ Contient un identificateur pour l’agent de transfert de messages (MTA) à l’
 |Propriétés associées :  <br/> |PR_ORIGINATING_MTA_CERTIFICATE  <br/> |
 |Identificateur :  <br/> |0x0E25  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Server  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

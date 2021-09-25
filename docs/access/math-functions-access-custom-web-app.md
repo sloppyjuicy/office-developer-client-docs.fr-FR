@@ -4,14 +4,14 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88c6cabc-afcd-4b3b-a3df-d0d4eaeae7ca
-ms.openlocfilehash: 63593dc45a083ffec46879f54ff2783d5f945248
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ffb857f970badc501469442282cb372409ba8043
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408844"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593102"
 ---
 # <a name="math-functions-access-custom-web-app"></a>Fonctions mathématiques (application web personnalisée Access)
 

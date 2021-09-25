@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
 ms:contentKeyID: 48545208
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: aa70f275de164716b5b3975b56588e9dc4aec1a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b1085695b76077e4041523def48944a48ffeeb65
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308862"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601806"
 ---
 # <a name="schemaenum"></a>SchemaEnum
 
@@ -72,7 +72,7 @@ CHARACTER_SET_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaCheckConstraints</strong></p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>Renvoie les contraintes de contrôle définies dans le catalogue et dont est propriétaire un utilisateur donné. (CHECK_CONSTRAINTS Rowset)</p></td>
 <td><p>CONSTRAINT_CATALOG<br />
 CONSTRAINT_SCHEMA<br />
@@ -117,7 +117,7 @@ COLUMN_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaConstraintColumnUsage</strong></p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td><p>Renvoie les colonnes utilisées par les contraintes référentielles, uniques et de contrôle, ainsi que par les assertions définies dans le catalogue et dont est propriétaire un utilisateur donné. (CONSTRAINT_COLUMN_USAGE Rowset)</p></td>
 <td><p>TABLE_CATALOG<br />
 TABLE_SCHEMA<br />
@@ -126,7 +126,7 @@ COLUMN_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaConstraintTableUsage</strong></p></td>
-<td><p>7 </p></td>
+<td><p>7 </p></td>
 <td><p>Renvoie les tables utilisées par les contraintes référentielles, uniques et de contrôle, ainsi que par les assertions définies dans le catalogue et dont est propriétaire un utilisateur donné. (CONSTRAINT_TABLE_USAGE Rowset)</p></td>
 <td><p>TABLE_CATALOG<br />
 TABLE_SCHEMA<br />
@@ -144,13 +144,13 @@ CUBE_NAME</p></td>
 <td><p><strong>adSchemaDBInfoKeywords</strong></p></td>
 <td><p>30</p></td>
 <td><p>Renvoie la liste des mots réservés spécifiques aux fournisseur. (IDBInfo::GetKeywords *)</p></td>
-<td><p>&lt;Aucune&gt;</p></td>
+<td><p>&lt;Aucun&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaDBInfoLiterals</strong></p></td>
 <td><p>31</p></td>
 <td><p>Renvoie la liste des chaînes littérales spécifiques aux fournisseurs et utilisées dans les commandes texte. (IDBInfo::GetLiteralInfo *)</p></td>
-<td><p>&lt;Aucune&gt;</p></td>
+<td><p>&lt;Aucun&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaDimensions</strong></p></td>
@@ -186,7 +186,7 @@ HIERARCHY_UNIQUE_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaIndexes</strong></p></td>
-<td><p>12 </p></td>
+<td><p>12 </p></td>
 <td><p>Renvoie les index définis dans le catalogue et dont est propriétaire un utilisateur donné. (INDEXES Rowset)</p></td>
 <td><p>TABLE_CATALOG<br />
 TABLE_SCHEMA<br />
@@ -196,7 +196,7 @@ TABLE_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaKeyColumnUsage</strong></p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>Renvoie les colonnes définies dans le catalogue et qui sont contraintes sous forme de clés par un utilisateur donné. (KEY_COLUMN_USAGE Rowset)</p></td>
 <td><p>CONSTRAINT_CATALOG<br />
 CONSTRAINT_SCHEMA<br />
@@ -273,7 +273,7 @@ PARAMETER_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaProcedures</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 <td><p>Renvoie les procédures définies dans le catalogue et dont est propriétaire un utilisateur donné. (PROCEDURES Rowset)</p></td>
 <td><p>PROCEDURE_CATALOG<br />
 PROCEDURE_SCHEMA<br />
@@ -309,7 +309,7 @@ BEST_MATCH</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>AdSchemaReferentialConstraints</strong></p></td>
-<td><p>9 </p></td>
+<td><p>9 </p></td>
 <td><p>Renvoie les contraintes référentielles définies dans le catalogie et dont est propriétaire un utilisateur donné. (REFERENTIAL_CONSTRAINTS Rowset)</p></td>
 <td><p>CONSTRAINT_CATALOG<br />
 CONSTRAINT_SCHEMA<br />
@@ -317,7 +317,7 @@ CONSTRAINT_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaSchemata</strong></p></td>
-<td><p>17 </p></td>
+<td><p>17 </p></td>
 <td><p>Renvoie les schémas (objets de la base de données) dont est propriétaire un utilisateur donné. (SCHEMATA Rowset)</p></td>
 <td><p>CATALOG_NAME<br />
 SCHEMA_NAME<br />
@@ -325,9 +325,9 @@ SCHEMA_OWNER</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaSQLLanguages</strong></p></td>
-<td><p>18 </p></td>
+<td><p>18 </p></td>
 <td><p>Renvoie les niveaux de conformité, les options et les dialectes pris en charge par les données de traitement d'implémentation SQL définies dans le catalogue. (SQL_LANGUAGES Rowset)</p></td>
-<td><p>&lt;Aucune&gt;</p></td>
+<td><p>&lt;Aucun&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaStatistics</strong></p></td>
@@ -385,7 +385,7 @@ TRANSLATION_NAME</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSchemaUsagePrivileges</strong></p></td>
-<td><p>15</p></td>
+<td><p>15 </p></td>
 <td><p>Renvoie les privilèges USAGE sur les objets définis dans le catalogue et qui sont disponibles pour un utilisateur donné, ou accordés par ce dernier. (USAGE_PRIVILEGES Rowset)</p></td>
 <td><p>OBJECT_CATALOG<br />
 OBJECT_SCHEMA<br />

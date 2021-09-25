@@ -3,17 +3,17 @@ title: attRecipTable
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b0465a67-3c4c-422b-9aa0-7c4c556cbd50
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 57b9c75d2c9ace5fa30441abd9eb07f27b1c698e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1a63d153169c8396ba23d3751dd7c2f5c2d8a153
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584800"
 ---
 # <a name="attreciptable"></a>attRecipTable
 

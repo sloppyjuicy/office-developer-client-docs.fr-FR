@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIProp.OpenProperty
 api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7bf1d6912e44319c36e288cd3870218e8c4e45ff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f344bcb32fea5ee651fa1d4b6c2430a005ed50f0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575882"
 ---
 # <a name="imapipropopenproperty"></a>IMAPIProp::OpenProperty
 
@@ -35,7 +35,7 @@ HRESULT OpenProperty(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulPropTag_
   
@@ -110,7 +110,7 @@ Pour accéder aux pièces jointes des messages, ouvrez la propriété **PR_ATTAC
 |**Type de pièce jointe**|**Identificateur d’interface à utiliser**|
 |:-----|:-----|
 |Binaire  <br/> |IID_IStream  <br/> |
-|String  <br/> |IID_IStream  <br/> |
+|Chaîne  <br/> |IID_IStream  <br/> |
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    

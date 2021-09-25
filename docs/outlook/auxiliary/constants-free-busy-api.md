@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff756bf1-9395-5e50-4f55-1eb0365a84ed
 description: Cette rubrique contient des définitions de constantes, des identificateurs de classe et des identificateurs d’interface pour l’API de libre/occupé.
-ms.openlocfilehash: 13578617eaab45e7194d7a0d4d6995ef925e7f20
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 429c5c5d402a8239b575271dc052dd32bf29b96f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431532"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592822"
 ---
 # <a name="constants-freebusy-api"></a>Constantes (API de libre/occupé)
 

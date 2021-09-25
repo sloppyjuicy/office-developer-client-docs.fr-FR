@@ -8,19 +8,19 @@ f1_keywords:
 - ExcelCursorProc
 keywords:
 - fonction excelcursorproc [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d3cc41487f0cae31e110249fe148f5370319a39a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 621a03c00ee4d1509edd3dd8b14a11dba9ba719a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432491"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584926"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Lorsqu’une boîte de dialogue modale est affichée sur la fenêtre Microsoft Excel, le curseur est un curseur occupé au-dessus de la Excel fenêtre. Ce **WndProc** capture WM_SETCURSOR type Windows messages et modifie le curseur en flèche normale. 
   
@@ -28,7 +28,7 @@ Lorsqu’une boîte de dialogue modale est affichée sur la fenêtre Microsoft E
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hWndDlg_ (**HWND**)
   

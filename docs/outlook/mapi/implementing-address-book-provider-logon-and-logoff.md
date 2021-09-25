@@ -3,17 +3,17 @@ title: Mise en œuvre de l’logo et de la ffage du fournisseur de carnet d’ad
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c4a1fb5d-ae23-445b-a6f0-ef430b03fc9a
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8d33bccdd01075d692e5a887082ba51ee23bb083
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 863fc2caa7bbe3586ba0fb99ad705a95270abf4a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438735"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575672"
 ---
 # <a name="implementing-address-book-provider-logon-and-logoff"></a>Mise en œuvre de l’logo et de la ffage du fournisseur de carnet d’adresses
 

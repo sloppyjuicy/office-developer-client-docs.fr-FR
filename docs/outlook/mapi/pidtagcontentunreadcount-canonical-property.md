@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContentUnreadCount
 api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9572a053182aaa59020a6816736b8a4b92e778b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 61958cba1b73b98e161979984d97c47c54f38017
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331870"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566828"
 ---
 # <a name="pidtagcontentunreadcount-canonical-property"></a>Propriété canonique PidTagContentUnreadCount
 
@@ -32,7 +32,7 @@ Contient le nombre de messages non lus dans un dossier, tel que calculé par la 
 |Propriétés associées :  <br/> |PR_CONTENT_UNREAD  <br/> |
 |Identificateur :  <br/> |0x3603  <br/> |
 |Type de données :  <br/> |PT_LONG  <br/> |
-|Domaine :  <br/> |Dossier  <br/> |
+|Domaine :  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

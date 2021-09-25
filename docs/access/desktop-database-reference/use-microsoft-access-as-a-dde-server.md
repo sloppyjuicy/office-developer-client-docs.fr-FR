@@ -11,13 +11,13 @@ f1_keywords:
 - vbaac10.chm5186349
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 0750bdce0e1cda383c48f9c16e62e00997fdfb0a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0de1c6e053b57fa5ba4c69ba2a999ab35e541f5c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32313390"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593361"
 ---
 # <a name="use-microsoft-access-as-a-dde-server"></a>Utilisation de Microsoft Access en tant que serveur DDE
 
@@ -301,14 +301,14 @@ Le tableau ci-dessous énumère les éléments valides pour les sujets TABLE *no
 <li>2</li>
 <li>3</li>
 <li>4 </li>
-<li>5 </li>
-<li>6 </li>
-<li>7 </li>
-<li>8 </li>
-<li>9 </li>
+<li>5</li>
+<li>6 </li>
+<li>7 </li>
+<li>8 </li>
+<li>9 </li>
 <li>10</li>
 <li>11</li>
-<li>12 </li>
+<li>12 </li>
 </ul>
 </p>
 </td>

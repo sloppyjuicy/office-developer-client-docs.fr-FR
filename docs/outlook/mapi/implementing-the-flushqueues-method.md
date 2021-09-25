@@ -3,17 +3,17 @@ title: Mise en œuvre de la méthode FlushQueues
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1e5c78c71f7fddb04d3517aca0a34efa151ece08
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a2e2476582f4b8ca5b9e0ee819f5eb610344ae4a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411777"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575665"
 ---
 # <a name="implementing-the-flushqueues-method"></a>Mise en œuvre de la méthode FlushQueues
 

@@ -3,15 +3,15 @@ title: À propos de l’API d’état hors connexion
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18b0d284-c224-a022-47d9-b2d82a32f996
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: 56793ae0d2c2ce76c89c7cda4985618e3a40ccfd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 520ee2b76c851cfdb112f7be72fcb48ea9f38c01
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410482"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614324"
 ---
 # <a name="about-the-offline-state-api"></a>À propos de l’API d’état hors connexion
 

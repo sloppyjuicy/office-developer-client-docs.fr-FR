@@ -3,17 +3,17 @@ title: Types de fournisseurs de transport
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 772ecab1-7e91-415b-bae8-af8ffb7b7ed9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ca224658552af105d95794b4dd01d2ac76fe084f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 38cf068c8f05dcd540973760ffe228eb81dbeef8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566261"
 ---
 # <a name="types-of-transport-providers"></a>Types de fournisseurs de transport
 

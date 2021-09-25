@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAppointmentDuration
 api_type:
 - COM
 ms.assetid: 92c07a81-9dec-4118-af1f-02ecad340f07
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8ce9df6290fe6e50e52c632f0a14f226c4d715d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 86e64c8072849c0919b4feadff100d110c20f7dd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345394"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575315"
 ---
 # <a name="pidlidappointmentduration-canonical-property"></a>Propriété canonique PidLidAppointmentDuration
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249721(v=office.15)
 ms:contentKeyID: 48546636
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 5e503fd15d9864cc6ab007de031493e321622246
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b5b72e36d548d729040a3e4f5406daacc3a4fa9d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306761"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593277"
 ---
 # <a name="what-is-a-lock"></a>Qu’est-ce qu’un verrou ?
 

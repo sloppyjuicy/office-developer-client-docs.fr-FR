@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052902
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: e4e9ab3fc79ff4684da37d7c108891b90c5e71d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 973d9678f6a1d1969ed101cefe87e48f9f83d05e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308399"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585199"
 ---
 # <a name="tabledeffields-property-dao"></a>TableDef.Fields, propriété (DAO)
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7cafaa31-c56b-ebb0-3bfb-c339cc93038e
 description: Contient les coordonnées x ou y, la direction horizontale ou verticale, ou le type d’un point de connexion unique sur une forme.
-ms.openlocfilehash: 0c8177767d5c85d505ba8a2a430946fd29cf44aa
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 645272faca5afe580314039cfc66a88e66f0c359
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541875"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608528"
 ---
 # <a name="cell-element-connection-row-visio-xml"></a>Élément de cellule (ligne Connection) (Visio XML)
 
@@ -72,6 +72,6 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |Invite  <br/> |Cet attribut est réservé à un usage ultérieur.  <br/> |Aucun.  <br/> |
 |Type  <br/> |Définit le type du point de connexion.  <br/> |[Type / C, cellule (section Connection Points)](typec-cell-connection-points-section.md) <br/> |
 |X  <br/> |Représente la coordonnée x d'un point de connexion, exprimée dans le système de coordonnées locales.  <br/> |[X, cellule (section Connection Points)](x-cell-connection-points-section.md) <br/> |
-|v  <br/> |Détermine la coordonnée y d’un point de connexion dans les coordonnées locales.  <br/> |[Y, cellule (section Connection Points)](y-cell-connection-points-section.md) <br/> |
+|O  <br/> |Détermine la coordonnée y d’un point de connexion dans les coordonnées locales.  <br/> |[Y, cellule (section Connection Points)](y-cell-connection-points-section.md) <br/> |
    
 

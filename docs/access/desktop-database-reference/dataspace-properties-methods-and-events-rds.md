@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249043(v=office.15)
 ms:contentKeyID: 48543861
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: bfdf8d35224d874380d3adb2f0adf37e27220d84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d3ebb798645bd623e668628dacd5a34f2435fb36
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294434"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558456"
 ---
 # <a name="dataspace-properties-methods-and-events-rds"></a>DataSpace properties, methods, and events (RDS)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SizedDtblLabel
 api_type:
 - COM
 ms.assetid: c7cb8cf9-7abd-4ee3-b88c-d61695f4ed31
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1ae675d1d4adf841e18bbfc8990913136afe8b4b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8d80bbded22016de0410a50d1beddf4d5f504001
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408613"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566660"
 ---
 # <a name="sizeddtbllabel"></a>SizedDtblLabel
 
@@ -34,7 +34,7 @@ Crée une structure nommée qui inclut une structure [DTBLLABEL](dtbllabel.md) p
 SizedDtblLabel (n, u)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _n_
   

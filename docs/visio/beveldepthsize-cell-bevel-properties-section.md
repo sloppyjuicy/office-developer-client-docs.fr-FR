@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6a57e52-c7ed-4a52-940f-1cef9baa70a5
 description: Détermine la taille de la profondeur du biseau en points.
-ms.openlocfilehash: 13c00536d6fc4f19ff2c62cab2afd04f9cdf8985
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 88e9f503c5ca863c888d70d3bd86180a00a50511
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438497"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608626"
 ---
 # <a name="beveldepthsize-cell-bevel-properties-section"></a>BevelDepthSize Cell (Bevel Properties Section)
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm745
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3afee07b-e91a-a91c-fba2-0e3251dd6385
 description: Détermine si les objets sont positionnables ou repositionnables dans les diagrammes lorsque vous utilisez la boîte de dialogue Configurer la disposition pour disposer des formes.
-ms.openlocfilehash: 7a607fdb53ad569e84976b6f9911fbd89f7f2628
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 22a34d21cf383ea12c05bb43588702335ae593ff
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425728"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608185"
 ---
 # <a name="objtype-cell-miscellaneous-section"></a>ObjType, cellule (section Miscellaneous)
 

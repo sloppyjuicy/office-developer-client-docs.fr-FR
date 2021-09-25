@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm160
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c9aab2e-6c2f-0684-4e66-c35ac71883d6
 description: Détermine la couleur utilisée pour le texte de la forme.
-ms.openlocfilehash: a27d957781ca9a784e7ab9d5c1ce4f533b9a55ba
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bff5857a8351004304e75b6000e2937372f9e905
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439988"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608486"
 ---
 # <a name="color-cell-character-section"></a>Color, cellule (section Character)
 

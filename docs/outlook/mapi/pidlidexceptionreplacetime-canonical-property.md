@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidExceptionReplaceTime
 api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b364fb91bda7e895b546f9a281ef14ce33b073f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b96ca4f5e0aa759b681d3bd60a3db04d14241562
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566947"
 ---
 # <a name="pidlidexceptionreplacetime-canonical-property"></a>Propriété canonique PidLidExceptionReplaceTime
 

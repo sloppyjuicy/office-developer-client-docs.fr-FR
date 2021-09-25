@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - modèles de formulaire compatibles infopath 2003, à l’aide des fonctionnalités infopath 2007
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d082f3a3-387a-4db1-bbad-495c326b8ee3
 description: Modèle objet fourni par Microsoft. Office’espace de noms .Interop.InfoPath.SemiTrust inclut des objets et des membres qui fournissent de nouvelles fonctionnalités qui ont été ajoutées à Office InfoPath 2007 et InfoPath.
-ms.openlocfilehash: 45f7607aec8ccfd653780a550df0823730835a86
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f4986a89a07295014aae9e29797ddb0fe1bc94af
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415340"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584877"
 ---
 # <a name="use-microsoftofficeinteropinfopathsemitrust-members-not-compatible-with-infopath"></a>Utilisez Microsoft. Office.Interop.InfoPath.SemiTrust non compatibles avec InfoPath
 
-Lorsque vous ajoutez du code à un modèle de formulaire créé avec la Shared Computer Toolkit infopath 2003 Microsoft Office ou créez un modèle de formulaire compatible avec le modèle objet compatible InfoPath 2003 (comme décrit dans Créer un modèle de formulaire à l’aide du modèle objet [InfoPath 2003),](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)par défaut, Microsoft InfoPath utilise un sous-ensemble des objets et des membres fournis par l’espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) qui sont identiques à ceux utilisés par InfoPath 2003. Cela permet d'assurer la compatibilité avec InfoPath 2003. Toutefois, le modèle objet fourni par l’espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) inclut des objets et des membres supplémentaires qui fournissent de nouvelles fonctionnalités ajoutées à Office InfoPath 2007 et InfoPath. 
+Lorsque vous ajoutez du code à un modèle de formulaire qui a été créé avec la Shared Computer Toolkit infopath 2003 Microsoft Office ou créez un modèle de formulaire qui fonctionne avec le modèle objet compatible InfoPath 2003 (comme décrit dans Créer un modèle de formulaire à l’aide du modèle objet [InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md)), Par défaut, Microsoft InfoPath utilise un sous-ensemble des objets et des membres fournis par [Microsoft. Office’espace de noms.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) identique à celui utilisé par InfoPath 2003. Cela permet d'assurer la compatibilité avec InfoPath 2003. Toutefois, le modèle objet fourni par l’espace de noms [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) inclut des objets et des membres supplémentaires qui fournissent de nouvelles fonctionnalités ajoutées à Office InfoPath 2007 et InfoPath. 
   
 Par exemple, les interfaces [PermissionObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.PermissionObject.aspx) et [Permission](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Permission.aspx) fournissent de nouvelles fonctionnalités de gestion des droits d’information qui ne sont pas disponibles dans InfoPath 2003. Ces dernières, et d'autres objets entièrement nouveaux ajoutés à l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust, ne sont pas disponibles par défaut lorsque vous ouvrez ou créez un modèle de formulaire avec code managé à l'aide du modèle objet compatible InfoPath 2003. 
   

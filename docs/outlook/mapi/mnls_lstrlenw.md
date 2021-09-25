@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d342a956-1164-4c9c-b0bb-7a0b72dc97fc
 description: 'Last modified: February 21, 2012'
-ms.openlocfilehash: 31f699d1193e55a88e57a0f491658e0d537ef75d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 32d9dfef7a03c16998b007a1bddca49ed04118c1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338464"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575406"
 ---
 # <a name="mnls_lstrlenw"></a>MNLS_lstrlenW
 
@@ -31,7 +31,7 @@ int MNLS_lstrlen(
   LPCWSTR lpsz);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpsz_
   

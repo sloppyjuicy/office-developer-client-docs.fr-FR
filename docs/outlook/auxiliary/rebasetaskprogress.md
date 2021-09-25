@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b8368d2-b04b-42a5-fdc3-955fc873c2f5
 description: Signale l’avancement de l’éumération et de la rebasation des rendez-vous.
-ms.openlocfilehash: e5df0cd6df10ab86b1a125b9807637438976726f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8ea71e8a76baf8b7f69afa90ac9f0c06c1a64a1b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326452"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614310"
 ---
 # <a name="rebasetaskprogress"></a>RebaseTaskProgress
 
@@ -37,7 +37,7 @@ void STDAPICALLTYPE RebaseTaskProgress(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ulMin_
   
@@ -51,7 +51,7 @@ _ulCur_
   
 > [in] Élément actuel en cours de traitement.
     
-_État_
+_State_
   
 > [in] Valeur qui indique l’état de l’élément en cours de traitement. L’REBASE_APPT_STATE **est** définie dans tzmovelib.h.  _State_ est l'une des valeurs suivantes : 
     

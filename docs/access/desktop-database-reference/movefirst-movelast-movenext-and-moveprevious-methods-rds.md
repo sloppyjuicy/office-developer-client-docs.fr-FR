@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249101(v=office.15)
 ms:contentKeyID: 48544092
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b5631ce68a0479146e15ba74b41af5669d86175a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c78ea7f7b5ae34c291d9eab272cf893f3d073b95
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288685"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558225"
 ---
 # <a name="movefirst-movelast-movenext-and-moveprevious-methods-rds"></a>Méthodes MoveFirst, MoveLast, MoveNext et MovePrevious (RDS)
 

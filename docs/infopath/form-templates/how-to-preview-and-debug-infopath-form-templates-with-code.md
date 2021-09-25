@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - previewing form templates [infopath 2007],debugging form templates [InfoPath 2007],form templates [InfoPath 2007], previewing,debugging [InfoPath 2007], managed-code form templates,form templates [InfoPath 2007], debugging,InfoPath 2007, debugging form templates,InfoPath 2007, previewing form templates
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
 description: Microsoft InfoPath avec Visual Studio 2012 permet le débogage en exécutant le code du formulaire en mode Aperçu. Lorsque vous commencez à déboguer le code du formulaire, votre projet est compilé et InfoPath affiche votre formulaire dans la fenêtre d'aperçu InfoPath. Lors du passage sur une ligne de code contenant un point d'arrêt, le focus passe dans l'Éditeur de code. Si vous continuez au-delà d'un point d'arrêt, le focus repasse dans la fenêtre d'aperçu. Le débogage s'arrête lorsque vous fermez la fenêtre d'aperçu.
-ms.openlocfilehash: 8f9ff97fdd5b4b016d96129304fa6f994d7b4561
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 186d4db9bad84788cceeb7d0d8c2b677a0d09414
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405239"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584884"
 ---
 # <a name="preview-and-debug-infopath-form-templates-with-code"></a>Aperçu et débogage des modèles de formulaire InfoPath avec code
 

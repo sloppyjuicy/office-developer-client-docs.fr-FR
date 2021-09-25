@@ -3,17 +3,17 @@ title: Éviter d’utiliser IStreamSetSize pour étendre un flux
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b6de594f-e331-4421-956b-86ee0b5518fe
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 614bb3d142b7aaabe89223b6ce3552469edfce27
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c4df52e6be76bd7844ed4b16912a4e1d7642edfb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428913"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584772"
 ---
 # <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Éviter d’utiliser IStream::SetSize pour étendre un flux
 

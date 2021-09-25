@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250037(v=office.15)
 ms:contentKeyID: 48547829
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1f46bfa76506d2913b9e220a268cb2730a3aace2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4b21737afba3a9eb20de6e38d0eb837d0db30d8c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32313558"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585080"
 ---
 # <a name="updatebatch-and-cancelbatch-methods-example-vj"></a>UpdateBatch et CancelBatch, méthodes – Exemple (VJ++)
 

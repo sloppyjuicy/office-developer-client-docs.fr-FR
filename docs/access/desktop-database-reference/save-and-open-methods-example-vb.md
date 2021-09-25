@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249828(v=office.15)
 ms:contentKeyID: 48547081
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2e4eff3eae32cf4d910a44eca5a733ac044a7829
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 39281576ad291aead8cd68d652ecf5b04bc9199b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308980"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601820"
 ---
 # <a name="save-and-open-methods-example-vb"></a>Save et Open, méthodes – Exemple (VB)
 
@@ -83,7 +83,7 @@ End Sub
 
 <br/>
 
-À ce stade, vous êtes arrivé à destination. Accédez à la table ***Authors*** en tant qu’objet **Recordset** local, déconnecté. N’oubliez pas que vous devez avoir le fournisseur **MSPersist** sur l’ordinateur que vous utilisez pour accéder au fichier enregistré, a: \\Pubs.xml.
+À ce stade, vous êtes arrivé à destination. Vous accéderez à la table ***Authors** _ en tant que _*Recordset* local déconnecté. N’oubliez pas que vous devez avoir le fournisseur **MSPersist** sur l’ordinateur que vous utilisez pour accéder au fichier enregistré, a: \\Pubs.xml.
 
 ```vb 
  

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249529(v=office.15)
 ms:contentKeyID: 48545869
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: fef0e19b8cc7b9e5586414d010701dad5e578f39
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f85b370abd0e0e9456744d92146c387cf8b1cf39
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306390"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601799"
 ---
 # <a name="state-property-example-vj"></a>State, propriété – Exemple (VJ++)
 

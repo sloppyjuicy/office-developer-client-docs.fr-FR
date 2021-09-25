@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58a24f46-c61d-432a-a957-d831e960795d
 description: Vérifie si une condition est remplie et renvoie une valeur si TRUE d’une autre sur si elle est FALSE.
-ms.openlocfilehash: 274a923a96b58421f365b03c566a3a1c16b7c48c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 688c17434d9fb8843740989226f82b8a49ee1358
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439078"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593123"
 ---
 # <a name="iif-function-access-custom-web-app"></a>Fonction IIf (application web personnalisée Access)
 

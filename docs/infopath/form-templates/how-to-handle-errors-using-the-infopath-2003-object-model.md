@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, handling errors,InfoPath 2003-compatible form templates, error handling,form templates [InfoPath 2007], error handling,error handling [InfoPath 2007], InfoPath 2003-compatible form templates
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eeb05205-d6f4-4931-b9a9-55a663bb1a25
 description: Lors de la création d'applications personnalisées, les développeurs doivent mettre en place une gestion des erreurs impliquant l'écriture de code de programmation qui leur permette de déceler les erreurs générées par l'application ou de créer et de générer des erreurs personnalisées. Le modèle objet compatible avec InfoPath 2003 prend en charge la gestion des erreurs à travers l'utilisation de l'objet ErrorObject en association avec la collection ErrorsCollection .
-ms.openlocfilehash: 93991e33d8867f89454bec08b41ba83e98ab0a17
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0f2e4e527d9f1599428e926bf278720b3aa2a22c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439477"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584891"
 ---
 # <a name="handle-errors-using-the-infopath-2003-object-model"></a>Gérer les erreurs à l’aide du modèle objet InfoPath 2003
 

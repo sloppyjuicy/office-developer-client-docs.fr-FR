@@ -3,17 +3,17 @@ title: Définition de l’ordre de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4a140ec3-9520-4119-a975-0fb6c1049967
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: efa2d6ab9edbd50634093b5185ef9036689f1379
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dc1ead1b58ed92c67ffba888ee19b589eee6de3f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433597"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566688"
 ---
 # <a name="setting-transport-order"></a>Définition de l’ordre de transport
 

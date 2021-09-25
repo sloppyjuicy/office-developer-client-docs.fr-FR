@@ -3,17 +3,17 @@ title: Gestion de Session MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3bc4aea5-ab01-4ba5-a4ad-7a9a76c6bf55
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 98c4bd0dba630db32fdb2309be3d29ebc13b1131
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 24a3c7bf89d23cddb6dda5344b01aead2ca38a3a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422060"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575504"
 ---
 # <a name="mapi-session-handling"></a>Gestion de Session MAPI
 

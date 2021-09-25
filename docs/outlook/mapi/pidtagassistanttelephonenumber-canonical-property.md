@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAssistantTelephoneNumber
 api_type:
 - HeaderDef
 ms.assetid: edb0782c-6671-4e98-9028-a2f9ad547c1d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6eafe51490b231b9cc64242595aef54bcc85c3ae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 08898fc49d7a0f83d346534c6de5482d44b2af4e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360416"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575077"
 ---
 # <a name="pidtagassistanttelephonenumber-canonical-property"></a>Propriété canonique PidTagAssistantTelephoneNumber
 

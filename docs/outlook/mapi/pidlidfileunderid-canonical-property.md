@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidFileUnderId
 api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7af30866a5fd2846327223b7a58c6de91f5fef7a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 216f927629349b482da874adb07a470b45dd1242
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355705"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575105"
 ---
 # <a name="pidlidfileunderid-canonical-property"></a>Propriété canonique PidLidFileUnderId
 
@@ -44,22 +44,22 @@ Dans le tableau suivant, la notation <PropertyName> est utilisée pour spécifie
 |**Valeur de la **propriété dispidFileUnderId****|**Description de la **propriété dispidFileUnder****|
 |:-----|:-----|
 |0x00000000  <br/> |Vide PT_UNICODE.  <br/> |
-|0x00003001  <br/> |« \< PidTagDisplayName \> »  <br/> |
-|0x00003A06  <br/> |« \< PidTagGivenName \> »  <br/> |
-|0x00003A11  <br/> |« \< PidTagSurname \> »  <br/> |
-|0x00003A16  <br/> |« \< PidTagCompanyName \> »  <br/> |
-|0x00008017  <br/> |« \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> »  <br/> |
-|0x00008018  <br/> |« \< PidTagCompanyName \>\r\n\< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> »  <br/> |
-|0x00008019  <br/> |« \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName\r\n\> \< PidTagCompanyName \> »  <br/> |
-|0x00008030  <br/> |« \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
-|0x00008031  <br/> |« \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
-|0x00008032  <br/> |« \< PidTagCompanyName \>\r\n\< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
-|0x00008033  <br/> |« \< PidTagCompanyName \>\r\n\< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> »  <br/> |
-|0x00008034  <br/> |« \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \>\r\n\< PidTagCompanyName \> »  <br/> |
-|0x00008035  <br/> |« \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName\r\n\> \< PidTagCompanyName \> »  <br/> |
-|0x00008036  <br/> |« \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName space \> \< \> \< PidTagGeneration \> »  <br/> |
-|0x00008037  <br/> |« \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \< space \> \< PidTagSurname space \> \< \> \< PidTagGeneration \> »  <br/> |
-|0x00008038  <br/> |« \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \< space \> \< PidTagGeneration \> »  <br/> |
+|0x00003001  <br/> |"\<PidTagDisplayName\>"  <br/> |
+|0x00003A06  <br/> |"\<PidTagGivenName\>"  <br/> |
+|0x00003A11  <br/> |"\<PidTagSurname\>"  <br/> |
+|0x00003A16  <br/> |"\<PidTagCompanyName\>"  <br/> |
+|0x00008017  <br/> |"\<PidTagSurname\>,\<space\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>"  <br/> |
+|0x00008018  <br/> |« \<PidTagCompanyName\>\r\n\<PidTagSurname\> , \<space\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\> »  <br/> |
+|0x00008019  <br/> |« \<PidTagSurname\> , \<space\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\>\r\n\<PidTagCompanyName\> »  <br/> |
+|0x00008030  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>"  <br/> |
+|0x00008031  <br/> |"\<PidTagSurname\>\<space\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>"  <br/> |
+|0x00008032  <br/> |« \<PidTagCompanyName\>\r\n\<PidTagSurname\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\> »  <br/> |
+|0x00008033  <br/> |« \<PidTagCompanyName\>\r\n\<PidTagSurname\> \<space\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\> »  <br/> |
+|0x00008034  <br/> |« \<PidTagSurname\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\>\r\n\<PidTagCompanyName\> »  <br/> |
+|0x00008035  <br/> |« \<PidTagSurname\> \<space\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\>\r\n\<PidTagCompanyName\> »  <br/> |
+|0x00008036  <br/> |"\<PidTagSurname\>\<space\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagGeneration\>"  <br/> |
+|0x00008037  <br/> |"\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagSurname\>\<space\>\<PidTagGeneration\>"  <br/> |
+|0x00008038  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagGeneration\>"  <br/> |
 |0xfffffffd  <br/> |Spécifie que, lors de l’affichage du contact, l’application doit essayer d’utiliser la valeur actuelle de **dispidFileUnder** et d’autres propriétés de contact pour trouver une « meilleure correspondance » pour **dispidFileUnderId** avec l’une des valeurs précédentes de ce tableau.  <br/> |
 |0xfffffffe  <br/> |Spécifie que, lors de l’affichage du contact, l’application doit choisir les valeurs par défaut appropriées (en fonction des paramètres régionaux de langue) pour **dispidFileUnderId** et mettre à jour **dispidFileUnder** pour qu’elle corresponde au choix.  <br/> |
 |0xffffffff  <br/> |**dispidFileUnder** est une propriété fournie par l’PT_UNICODE et ne doit pas être modifiée lorsqu’une autre propriété de nom de contact change.  <br/> |

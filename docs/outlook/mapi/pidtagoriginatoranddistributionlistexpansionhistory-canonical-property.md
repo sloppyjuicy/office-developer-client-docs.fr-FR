@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginatorAndDistributionListExpansionH
 api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5f2c7d8b49f64e0adb66c9f6d8eae6927e656725
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d3f84f498c8c3ee0a281dd1472ca6434a267e570
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437125"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574951"
 ---
 # <a name="pidtagoriginatoranddistributionlistexpansionhistory-canonical-property"></a>Propriété canonique PidTagOriginatorAndDistributionListExpansionHistory
 

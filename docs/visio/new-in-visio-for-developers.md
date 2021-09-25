@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 09/18/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e3fb858-0ab8-bd2e-217c-c85b10d79785
 description: Ce document fournit un affichage de niveau supérieur des améliorations et des ajouts pour les développeurs dans Visio 2013. Pour les développeurs qui sont prêts à prendre un départ sur la plateforme Visio, il vous fournit suffisamment de détails pour commencer le codage par rapport à Visio 2013.
-ms.openlocfilehash: df4bc1fa493ee3976c99802400ee52691d05d20a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8e55927926c5aa43d0ac879037a5dfeae160b0f5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319816"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608206"
 ---
 # <a name="new-in-visio-for-developers"></a>Nouveautés pour les développeurs Visio 2013
 
@@ -23,7 +23,7 @@ Ce document fournit un affichage de niveau supérieur des améliorations et des 
 
 Visio 2013 fournit une plateforme unique puissante pour vos solutions de dessin personnalisées. De nouveaux objets, collections, propriétés, méthodes, listes et événements, ainsi que de nouvelles cellules et fonctions ShapeSheet, vous offrent davantage d’options pour définir le comportement des éléments dans vos solutions.
   
-Parmi les nouvelles fonctionnalités intéressantes pour les développeurs Visio 2013 figurent le nouveau format de fichier . mises à jour robustes des thèmes ; modifier la fonctionnalité de forme (vous permettant de remplacer des formes par une autre) ; nouveaux effets de forme ; améliorations apportées aux commentaires ; co-édition sur SharePoint Server 2013 ; découpage d’image personnalisable ; géométrie relative ; prise en charge Business Connectivity Services données (BCS) ; mises à jour Visio services de Microsoft SharePoint Server 2013 ; et une fonctionnalité de page en double. Cette rubrique présente brièvement chacune de ces fonctionnalités et évoque certains nouveaux objets et membres Visio associés aux fonctionnalités et exposés dans Visual Basic pour applications (VBA). Pour plus d’informations sur ces fonctionnalités et les exemples de code d’accompagnement, voir [Visio Developer Center](https://msdn.microsoft.com/office/aa905478.aspx).
+Parmi les nouvelles fonctionnalités intéressantes pour les développeurs Visio 2013 figurent le nouveau format de fichier . mises à jour robustes des thèmes ; modifier la fonctionnalité de forme (vous permettant de remplacer des formes par une autre) ; nouveaux effets de forme ; améliorations apportées aux commentaires ; co-édition sur SharePoint Server 2013 ; découpage d’image personnalisable ; géométrie relative ; prise en charge Services Business Connectivity données (BCS) ; mises à jour Visio services de Microsoft SharePoint Server 2013 ; et une fonctionnalité de page en double. Cette rubrique présente brièvement chacune de ces fonctionnalités et évoque certains nouveaux objets et membres Visio associés aux fonctionnalités et exposés dans Visual Basic pour applications (VBA). Pour plus d’informations sur ces fonctionnalités et les exemples de code d’accompagnement, voir [Visio Developer Center](https://msdn.microsoft.com/office/aa905478.aspx).
   
 > [!NOTE]
 > Visio 2013 inclut de nombreuses nouvelles cellules, lignes et fonctions ShapeSheet pour prendre en charge les nouvelles fonctionnalités de Visio. Pour plus d’informations sur les nouveautés de la feuille ShapeSheet pour Visio 2013, consultez l’article Nouveautés pour les développeurs Visio [ShapeSheet.](what-s-new-for-visio-shapesheet-developers.md) 
@@ -93,7 +93,7 @@ Pour obtenir la liste détaillée des nouvelles API dans Visio 2013, voir la sec
 ## <a name="coauthoring"></a>Co-édition
 <a name="vis15_WhatsNew_Coauthoring"> </a>
 
-Visio 2013 inclut la possibilité de co-créer des diagrammes stockés sur SharePoint ou Microsoft OneDrive. Les développeurs ont accès à [l’événement Document.AfterDocumentMerge](https://msdn.microsoft.com/library/50658da5-592a-4d16-908f-c6abe3050f09%28Office.15%29.aspx) qui fournit des informations sur les modifications de diagramme en raison de la co-édition. Les développeurs de solutions ont également la possibilité de désactiver la co-création en fonction de leurs besoins personnalisés à l’aide de la cellule [NoCoauth](nocoauth-cell-document-properties-section.md) de la feuille ShapeSheet du document. 
+Visio 2013 inclut la possibilité de co-créer des diagrammes stockés sur SharePoint ou Microsoft OneDrive. Les développeurs ont accès à [l’événement Document.AfterDocumentMerge](https://msdn.microsoft.com/library/50658da5-592a-4d16-908f-c6abe3050f09%28Office.15%29.aspx) qui fournit des informations sur les modifications de diagramme dues à la co-édition. Les développeurs de solutions ont également la possibilité de désactiver la co-création en fonction de leurs besoins personnalisés à l’aide de la cellule [NoCoauth](nocoauth-cell-document-properties-section.md) de la feuille ShapeSheet du document. 
   
 Pour obtenir la liste détaillée des nouvelles API dans Visio 2013, voir la section Visio [modification](#vis15_WhatsNew_NewOM) du modèle objet dans cet article. 
   
@@ -118,7 +118,7 @@ Pour plus d’informations sur les nouvelles lignes ShapeSheet dans Visio 2013, 
 
 Visio 2013 peuvent désormais être connectés à des listes externes SharePoint serveurs Server 2013. Une liste externe est une source de contenu externe à SharePoint (par exemple, une table SQL Server) qui a été connectée à une liste SharePoint à l’aide de Microsoft Business Connectivity Services (BCS). Visio Services prend en charge la possibilité d'actualiser les diagrammes Visio en tant que les mises à jour de données.
   
-Pour plus d’informations sur les nouveautés de Visio Services, voir l’article [Visio Services dans SharePoint 2013](https://msdn.microsoft.com/library/jj164027%28office.15%29.aspx). Pour plus d’informations sur Business Connectivity Services (BCS), voir Business Connectivity Services [dans SharePoint 2013](https://msdn.microsoft.com/library/jj163782%28office.15%29.aspx).
+Pour plus d’informations sur les nouveautés de Visio Services, voir l’article [Visio Services dans SharePoint 2013](https://msdn.microsoft.com/library/jj164027%28office.15%29.aspx). Pour plus d’informations sur Services Business Connectivity (BCS), voir [Services Business Connectivity dans SharePoint 2013](https://msdn.microsoft.com/library/jj163782%28office.15%29.aspx).
   
 ## <a name="improvements-in-visio-services"></a>Améliorations des services Visio services
 <a name="vis15_WhatsNew_VisioServices"> </a>

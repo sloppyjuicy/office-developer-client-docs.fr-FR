@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidLidAppointmentUnsendableRecipients
 api_type:
 - COM
 ms.assetid: ba154612-1b0f-4ef3-8d9f-7981b1c61a2c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 24cc6e90d5fbdfafc127e100a13c3e5cfe372083
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5f7678f6132d8e1d34748d64db8d7ea53e2cb4c3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345007"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575280"
 ---
 # <a name="pidlidappointmentunsendablerecipients-canonical-property"></a>Propriété canonique PidLidAppointmentUnsendableRecipients
 

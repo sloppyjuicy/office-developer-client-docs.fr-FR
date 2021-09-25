@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidContactLinkEntry
 api_type:
 - COM
 ms.assetid: 2de48f49-53a4-4117-b5bd-c1db9b5a4d7d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 94abe9784dff33a650c2a2f121ea9e8d3590075c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d1a8cf37685dd0439d414c59a3f87de6e33e3016
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319473"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575196"
 ---
 # <a name="pidlidcontactlinkentry-canonical-property"></a>Propriété canonique PidLidContactLinkEntry
 

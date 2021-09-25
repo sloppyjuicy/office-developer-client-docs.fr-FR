@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAutoLog
 api_type:
 - COM
 ms.assetid: 60b7a411-a884-4836-8aca-a205bd503fef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 50510a262a1021c1b9796437d6a005dab838681c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 902d031aebc7586c86f00ed67427be05a237679e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575238"
 ---
 # <a name="pidlidautolog-canonical-property"></a>Propriété canonique PidLidAutoLog
 

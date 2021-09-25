@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 265028b7-a583-f6ba-0214-5a4322f98f35
 description: Initialise un objet IOlkApptRebaser pour une utilisation dans le rebasing de rendez-vous dans Outlook calendriers.
-ms.openlocfilehash: 33ad47d59ee2ca1b2461f730494f3466b9f8b54a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8c9b8e2081904f9e37916a13b904d1595fc108a1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317611"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592780"
 ---
 # <a name="hrcreateapptrebaser"></a>HrCreateApptRebaser
 
@@ -44,7 +44,7 @@ HRESULT HrCreateApptRebaser(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ulFlags_
   
@@ -120,7 +120,7 @@ S_OK si l'appel a réussi ; dans le cas contraire, un code d'erreur.
 
 Lorsque vous [utilisez GetProcAddress](https://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx) pour rechercher l’adresse de cette fonction dans tzmovelib.dll, spécifiez **HrCreateApptRebaser@44** comme nom de procédure. Tous les indicateurs ne sont pas valides en combinaison les uns avec les autres. 
   
-Pour plus d’informations sur les différentes options, voir la section « Glossaire des options de ligne de commande pour l’outil de mise à jour des données de fuseau horaire Outlook » dans la base de données [931667](https://support.microsoft.com/kb/931667/en-us)de la base de données : Comment résoudre les changements de fuseau horaire à l’aide de l’outil de mise à jour des données de fuseau horaire pour Microsoft Office Outlook .
+Pour plus d’informations sur les différentes options, voir la section « Glossaire des options de ligne de commande pour l’outil de mise à jour des données de fuseau horaire Outlook » dans la base de données 931667 : Comment résoudre les changements de fuseau horaire à l’aide de l’outil de mise à jour des données de fuseau horaire [pour Microsoft Office Outlook](https://support.microsoft.com/kb/931667/en-us).
   
 ## <a name="see-also"></a>Voir aussi
 

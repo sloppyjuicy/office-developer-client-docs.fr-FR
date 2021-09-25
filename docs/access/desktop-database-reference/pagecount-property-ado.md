@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249712(v=office.15)
 ms:contentKeyID: 48546609
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b37ccc0c9a61e00b3c2e8f5eb3367831e5ddea43
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: aab5455e4fd54316a2ef9af22b5322f85eb3a4e8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288118"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558141"
 ---
 # <a name="pagecount-property-ado"></a>PageCount, propriété (ADO)
 

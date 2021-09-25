@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidFax1DisplayName
 api_type:
 - COM
 ms.assetid: 433c2ce1-4d18-4986-8416-ea0e7e0f841a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0a6c227382cbe987ef0b55b27f3ab7f1e695fcd7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 075988b9855203934c1415ab64b60e37cd893db4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338030"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575140"
 ---
 # <a name="pidlidfax1displayname-canonical-property"></a>Propri t canonique PidLidFax1DisplayName
 

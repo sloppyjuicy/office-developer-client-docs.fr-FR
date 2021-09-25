@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62912d6e-c39e-4f8b-8cdb-ae9b6376cbc0
 description: Cette rubrique décrit les éumérations dans le modèle objet OneNote 2013.
-ms.openlocfilehash: 3338e444e5b0bfd0239e363c3161aeb1914b2d53
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3c902c05053d3edf9e9edeba56baef3c340b232e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410335"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614485"
 ---
 # <a name="enumerations-onenote-developer-reference"></a>Enumerations (référence OneNote développeur)
 
@@ -55,7 +55,7 @@ Lorsqu’il est transmis à la **méthode SetFilingLocation,** spécifie le type
 |**flTasks** <br/> |2  <br/> |Définit où Outlook tâches seront classées.  <br/> |
 |**flMeetings** <br/> |3  <br/> |Définit l’Outlook les réunions seront classées.  <br/> |
 |**flWebContent** <br/> |4   <br/> |Définit l’endroit où le contenu d’Internet Explorer sera classé.  <br/> |
-|**flPrintOuts** <br/> |5   <br/> |Définit l’endroit où les impressions de l’imprimante OneNote seront classées.  <br/> |
+|**flPrintOuts** <br/> |5  <br/> |Définit l’endroit où les impressions de l’imprimante OneNote seront classées.  <br/> |
    
 ## <a name="filinglocationtype"></a>FilingLocationType
 <a name="odc_CreateFileType"> </a>
@@ -80,7 +80,7 @@ Lorsqu’elle est affectée à la propriété **TreeDepth** de l’interface [IQ
 |**heNotebooks** <br/> |1  <br/> |Fait référence aux éléments notebook.  <br/> |
 |**heSectionGroups** <br/> |2  <br/> |Fait référence aux éléments du groupe de sections.  <br/> |
 |**heSections** <br/> |4   <br/> |Fait référence aux éléments Section.  <br/> |
-|**hePages** <br/> |8   <br/> |Fait référence aux éléments Page.  <br/> |
+|**hePages** <br/> |8   <br/> |Fait référence aux éléments Page.  <br/> |
    
 ## <a name="hierarchyscope"></a>HierarchyScope
 <a name="odc_HierarchyScope"> </a>
@@ -116,7 +116,7 @@ Lorsqu’il est transmis à la méthode **NotebookFilterOut** de l’objet **QFD
 |**nfoLocal** <br/> |1  <br/> |Autoriser uniquement les blocs-notes locaux.  <br/> |
 |**nfoNetwork** <br/> |2  <br/> |Autorise les blocs-notes UNC SharePoint portables.  <br/> |
 |**nfoWeb** <br/> |4   <br/> |Permet d OneDrive blocs-notes.  <br/> |
-|**nfoNoWacUrl** <br/> |8   <br/> |Tous les blocs-notes dans les emplacements qui n’ont pas de client web.  <br/> |
+|**nfoNoWacUrl** <br/> |8   <br/> |Tous les blocs-notes dans les emplacements qui n’ont pas de client web.  <br/> |
    
 ## <a name="pageinfo-updated-for-onenote-2013"></a>PageInfo (mise à jour pour OneNote 2013)
 <a name="odc_PageInfo"> </a>
@@ -130,9 +130,9 @@ Lorsqu’il est transmis à **la méthode GetPageContent,** spécifie le type d�
 |**piSelection** <br/> |2  <br/> |Renvoie le contenu de la page avec le code de sélection, mais pas de données binaires.  <br/> |
 |**piBinaryDataSelection** <br/> |3  <br/> |Renvoie le contenu de la page avec le code de sélection et toutes les données binaires.  <br/> |
 |**piFileType** <br/> |4   <br/> |Renvoie le contenu de la page avec les informations de type de fichier pour les objets de données binaires.  <br/> |
-|**piBinaryDataFileType** <br/> |5   <br/> |Renvoie le contenu de la page avec les informations de type de fichier pour les objets de données binaires et les objets de données binaires  <br/> |
-|**piSelectionFileType** <br/> |6   <br/> |Renvoie le contenu de la page avec le code de sélection et les informations de type de fichier pour les données binaires.  <br/> |
-|**piAll** <br/> |7   <br/> |Renvoie tout le contenu de la page.  <br/> |
+|**piBinaryDataFileType** <br/> |5  <br/> |Renvoie le contenu de la page avec les informations de type de fichier pour les objets de données binaires et les objets de données binaires  <br/> |
+|**piSelectionFileType** <br/> |6   <br/> |Renvoie le contenu de la page avec le code de sélection et les informations de type de fichier pour les données binaires.  <br/> |
+|**piAll** <br/> |7   <br/> |Renvoie tout le contenu de la page.  <br/> |
    
 ## <a name="publishformat"></a>PublishFormat
 <a name="odc_PublishFormat"> </a>
@@ -146,10 +146,10 @@ Lorsqu’il est transmis **à la méthode Publish,** spécifie le format dans le
 |**pfMHTML** <br/> |2  <br/> |La page publiée est au format .mht.  <br/> |
 |**pfPDF** <br/> |3  <br/> |La page publiée est au format .pdf format.  <br/> |
 |**pfXPS** <br/> |4   <br/> |La page publiée est au format .xps.  <br/> |
-|**pfWord** <br/> |5   <br/> |La page publiée est au format .doc ou .docx format.  <br/> |
-|**pfEMF** <br/> |6   <br/> |La page publiée est au format métafichier amélioré (.emf).  <br/> |
-|**pfHTML** <br/> |7   <br/> |La page publiée est au format .html format. Ce membre est nouveau dans OneNote 2013.  <br/> |
-|**pfOneNote2007** <br/> |8   <br/> |La page publiée est au format .one 2007. Ce membre est nouveau dans OneNote 2013.  <br/> |
+|**pfWord** <br/> |5  <br/> |La page publiée est au format .doc ou .docx format.  <br/> |
+|**pfEMF** <br/> |6   <br/> |La page publiée est au format métafichier amélioré (.emf).  <br/> |
+|**pfHTML** <br/> |7   <br/> |La page publiée est au format .html format. Ce membre est nouveau dans OneNote 2013.  <br/> |
+|**pfOneNote2007** <br/> |8   <br/> |La page publiée est au format .one 2007. Ce membre est nouveau dans OneNote 2013.  <br/> |
    
 ## <a name="recentresulttype"></a>RecentResultType
 <a name="odc_RecentResultType"> </a>

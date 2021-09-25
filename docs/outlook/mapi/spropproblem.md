@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SPropProblem
 api_type:
 - COM
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b3a0872c94459fc7c24d13e35adf335ef8012182
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f8fc822d4b3d11b2b310e511d43da612ffcc32c2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407773"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566562"
 ---
 # <a name="spropproblem"></a>SPropProblem
 

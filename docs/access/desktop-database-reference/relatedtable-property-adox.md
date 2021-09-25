@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250185(v=office.15)
 ms:contentKeyID: 48548450
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ec2df7a8fcf53f8f35232fd497a5f93270f4eaba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 8b16f394205607e884b5e30f600bd254c33a2910
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309146"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601925"
 ---
 # <a name="relatedtable-property-adox"></a>RelatedTable, propriété (ADOX)
 

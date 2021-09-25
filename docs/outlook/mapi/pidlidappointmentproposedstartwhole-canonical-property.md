@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAppointmentProposedStartWhole
 api_type:
 - COM
 ms.assetid: acc96b0a-bffb-46ef-8c46-b831d165a346
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 064e57310223de2bcaaf084f7c79d2295fc5bf5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0cfb7b578e8b85df8ebbae480a603070d6a95332
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339305"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567044"
 ---
 # <a name="pidlidappointmentproposedstartwhole-canonical-property"></a>Propriété canonique PidLidAppointmentProposedStartWhole
 

@@ -3,17 +3,17 @@ title: Texte mis en forme dans MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4d0ff834-253b-4e8c-a5be-6e4745a2a66c
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7f37d65e4beb328c2c92cf0c2ab28586af6bee45
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 139eec84a6ea76b7328fc7fe42c648e56f861d75
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408088"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614184"
 ---
 # <a name="formatted-text-in-mapi"></a>Texte mis en forme dans MAPI
 

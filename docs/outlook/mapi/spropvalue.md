@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SPropValue
 api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7f4e8835831af6277cef134bf3961e9928cba33
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f0b26c5d0ef2906945becbfe4dd121d10831ca05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433527"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566527"
 ---
 # <a name="spropvalue"></a>SPropValue
 

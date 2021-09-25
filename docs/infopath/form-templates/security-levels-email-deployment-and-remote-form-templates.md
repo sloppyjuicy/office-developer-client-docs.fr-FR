@@ -3,15 +3,15 @@ title: Niveaux de sécurité, déploiement de messagerie et modèles de formulai
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7fc438ad-ae26-3632-3444-371537eaecb3
 description: Microsoft InfoPath prend en charge le déplacement de modèles de formulaires d’un emplacement à un autre, leur envoi sous forme de pièce jointe à un message électronique et la création de modèles de formulaires Confiance totale signés ou installés numériquement.
-ms.openlocfilehash: 799f2b19bfc4daa4a177d789a811d20ca09e7153
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3980563547796ff22942fba7177e051221535199
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299852"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614597"
 ---
 # <a name="security-levels-email-deployment-and-remote-form-templates"></a>Niveaux de sécurité, déploiement de messagerie et modèles de formulaire distants
 
@@ -65,7 +65,7 @@ Le niveau de confiance le plus élevé pouvant être accordé à un modèle de f
 |Niveau de confiance accordé le plus élevé|Confiance totale|Ordinateur client (mode bac à sable)|Intranet (mode bac à sable)|Internet (mode bac à sable)|Restreint|
 |:-----|:-----:|:-----:|:-----:|:-----:|:-----:|
 |**fichier : chemin d'accès=emplacement d'ouverture** <br/> |||X  <br/> |||
-|**file: Access Path \< \> Opened From Location or no Access Path (regardless of where the form came from)** <br/> |||||X  <br/> |
+|**file: Access Path \<\> Opened From Location or no Access Path (regardless of where the form came from)** <br/> |||||X  <br/> |
 |**Emplacement d'ouverture : Intranet HTTP ou HTTPS** <br/> |||X  <br/> |||
 |**Emplacement d'ouverture : Internet HTTP ou HTTPS** <br/> ||||X  <br/> ||
 |**Emplacement d'ouverture : UNC** <br/> |||X  <br/> |||
@@ -186,7 +186,7 @@ L'exemple suivant montre de quelle manière un modèle de formulaire mis à jour
     
 ### <a name="example-deploying-restricted-form-templates-on-an-extranet"></a>Exemple : déploiement de modèles de formulaire restreints sur un extranet
   
-1. Enregistrez le modèle de formulaire Domaine sur un site web qui exécute Microsoft SharePoint Foundation 2010.
+1. Enregistrez le modèle de formulaire Domaine sur un site web qui exécute Microsoft SharePoint Foundation 2010.
     
 2. Changez le niveau de sécurité du modèle de formulaire en Restreint.
     

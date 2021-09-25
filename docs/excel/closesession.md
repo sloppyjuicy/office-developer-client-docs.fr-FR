@@ -4,19 +4,19 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c2371c8-b0e0-4992-b7ac-3949eadf1ebe
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 9186fb14c33d507b8c9ae709a67f1b43e6206d5b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cba9dbdbcab59dc178a5ae0573ff3e7f0009d72b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422536"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593011"
 ---
 # <a name="closesession"></a>CloseSession
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Met fin à une session avec un cluster.
   
@@ -24,7 +24,7 @@ Met fin à une session avec un cluster.
 int CloseSession(int SessionId)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _SessionId_
   

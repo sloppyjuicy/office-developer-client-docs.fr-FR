@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052903
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 59eb77548d6fc46db99596204cb931c916f5c80c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c0acfcd79cd1232278992a76b193a760e6bae7c6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314342"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585185"
 ---
 # <a name="tabledefindexes-property-dao"></a>TableDef.Indexes, propriété (DAO)
 

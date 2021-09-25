@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, troubleshooting at design time,troubleshooting form templates [InfoPath 2007], design time
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4179b235-e21d-4c37-ae2b-ad01388296ec
 description: Les sections suivantes décrivent les scénarios de dépannage usuels que vous pouvez rencontrer lors de la conception et du débogage des modèles de formulaires avec code managé qui utilisent le modèle objet compatible InfoPath 2003 fourni par l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust.
-ms.openlocfilehash: 106f12602bae86d85c2a7d2f920f59d50326c908
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 37e92034f9d543c2cc12f404d85726d9435877fc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436523"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614506"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model-at-design-time"></a>Résoudre les problèmes de modèles de formulaire qui utilisent le modèle objet InfoPath au moment de la conception
 

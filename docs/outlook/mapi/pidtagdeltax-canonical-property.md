@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagDeltaX
 api_type:
 - HeaderDef
 ms.assetid: 9bbe996b-1cfc-46d7-bb0a-291c760500ef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: efaca709b666458b0cd2f2de2124fa900d2a75b4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cf34d1e3f3a6ce66099b46016e448157ad1a514f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420520"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566716"
 ---
 # <a name="pidtagdeltax-canonical-property"></a>Propriété canonique PidTagDeltaX
 

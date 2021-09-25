@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAutoProcessState
 api_type:
 - COM
 ms.assetid: 9e724af6-5b56-4eb3-a94c-1015ebce197c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0918c15d87219c1ee20b177ae21e718e0289cf04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 407a3ef2c40f190714ce3577a39242d0f7664d7e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567038"
 ---
 # <a name="pidlidautoprocessstate-canonical-property"></a>Propriété canonique PidLidAutoProcessState
 

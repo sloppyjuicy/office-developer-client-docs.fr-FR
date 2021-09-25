@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60028
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7406b46d-b42d-187c-70e8-123c4da7e781
 description: Détermine le calendrier utilisé lorsqu'une formule de cellule contient des informations de Date.
-ms.openlocfilehash: f756b0d445bd3f90b67e0b1412bd7ac51a8cdb7e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: de140c26d238d09f2194cc823e034e9f7020cbf2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421815"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608549"
 ---
 # <a name="calendar-cell-miscellaneous-section"></a>Calendar, cellule (section Miscellaneous)
 

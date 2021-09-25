@@ -3,17 +3,17 @@ title: Indicateurs de progression MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 73a99e52-97fe-40f5-af90-52cfd858ab22
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: cdfb6898146583b7da9b043eadd3acc09edbf292
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d1317290b99fe3e10dec539e0a349382cc880188
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410706"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575644"
 ---
 # <a name="mapi-progress-indicators"></a>Indicateurs de progression MAPI
 

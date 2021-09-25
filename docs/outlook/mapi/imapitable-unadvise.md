@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPITable.Unadvise
 api_type:
 - COM
 ms.assetid: 19f0dad9-9704-4bbe-a689-9531e7198351
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: da11f15dfe9d269b79f465f01f713de401584962
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 00d70472e5d93eb6a9caab60f444afda3a75b03d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430230"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575721"
 ---
 # <a name="imapitableunadvise"></a>IMAPITable::Unadvise
 
@@ -33,7 +33,7 @@ ULONG_PTR ulConnection
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulConnection_
   

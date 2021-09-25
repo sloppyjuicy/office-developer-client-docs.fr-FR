@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
 description: Contient tous les éléments DataRecordset du document.
-ms.openlocfilehash: efa7d58eabc1b1192862dbbe090ddd5008947c1d
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 2465739067d0103e6e90cbb18c1cef6fc251732e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542442"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608262"
 ---
 # <a name="datarecordsets-element-visio-xml"></a>Élément DataRecordSets (Visio XML)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SShortArray
 api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8ea7d51b15a6e6acd44a3c0b6158378661f311bc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 99d2cfb9b4d460ed6a86235a011f9bf244aac0a2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429613"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566464"
 ---
 # <a name="sshortarray"></a>SShortArray
 

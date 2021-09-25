@@ -3,17 +3,17 @@ title: Tableau d’état et objets d’état
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 203765c1-4b08-4032-a5bf-18f3e752a899
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3eb190069b43ea1960c3b6edf30a9e0b782d2c41
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b982b6ba528091e574e927edc8ab5cc9f8233e6d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425175"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566373"
 ---
 # <a name="status-table-and-status-objects"></a>Tableau d’état et objets d’état
 
@@ -53,7 +53,7 @@ Pour communiquer avec un fournisseur de transport, appelez la méthode [IMAPISta
   
 Les clients qui implémentent l’envoi ou la réception de messages à la demande appellent la méthode [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) d’un fournisseur de transport ou dupooler MAPI. Vous pouvez passer trois indicateurs dans la méthode : FLUSH_UPLOAD, FLUSH_DOWNLOAD et FLUSH_FORCE. FLUSH_UPLOAD demande au fournisseur ou aupooler MAPI d’envoyer tous les messages en attente dans la file d’attente de sortie pendant que FLUSH_DOWNLOAD demande au fournisseur ou aupooler MAPI de recevoir les messages entrants. FLUSH_FORCE peut être définie avec l’un des autres indicateurs pour que l’objet d’état effectue le purge indépendamment du minutage. 
   
-Ne vous attendez pas à pouvoir appeler **SettingsDialog** ou [ChangePassword](imapistatus-changepassword.md) sur l’un des objets d’état du sous-système MAPI, dupooler MAPI ou du carnet d’adresses. Les objets d’état du sous-système et du carnet d’adresses ne peuvent prendre en charge **que ValidateState**; l’objet d’état dupooler MAPI prend en charge **FlushQueues** en plus de **ValidateState**.
+Ne vous attendez pas à pouvoir appeler **SettingsDialog** ou [ChangePassword](imapistatus-changepassword.md) sur l’un des objets d’état du sous-système MAPI, dupooler MAPI ou du carnet d’adresses. Les objets d’état du sous-système et du carnet d’adresses ne peuvent prendre en charge **que ValidateState**; l’objet d’état dupooler MAPI prend en charge **FlushQueues en** plus de **ValidateState**.
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -3,15 +3,15 @@ title: Messaging API (MAPI) Copyright-r�f�rence Outlook 2013
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3538355-8ce9-4c79-9970-aea828818d26
 description: 'Last modified: June 22, 2012'
-ms.openlocfilehash: ae04e6a7a3e359f9d2620417a2d00513bb94679a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c740a6fa0683bfca9db6d989f67cea042754518e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407353"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575329"
 ---
 # <a name="outlook-messaging-api-mapi-reference-copyright-notice"></a>Messaging API (MAPI) Copyright-r�f�rence Outlook 2013
 

@@ -5,15 +5,15 @@ ms.date: 01/20/2015
 ms.audience: Developer
 keywords:
 - onafterimport event [infopath 2007],OnAfterChange event [InfoPath 2007],OnBeforeChange event [InfoPath 2007],OnSubmitRequest event [InfoPath 2007],OnVersionUpgrade event [InfoPath 2007],InfoPath 2003-compatible form templates, event handlers,OnLoad event [InfoPath 2007],event handlers [InfoPath 2007], adding using InfoPath 2003 object model,OnValidate event [InfoPath 2007],OnContextChange event [InfoPath 2007],OnSaveRequest event [InfoPath 2007],OnClick event [InfoPath 2007],OnSwitchView event [InfoPath 2007],OnSign event [InfoPath 2007],OnMergeRequest event [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
 description: Les commandes de menu qui permettent d'ajouter des fonctions de gestionnaire d'événements dans un projet de modèle de formulaire compatible avec le modèle objet InfoPath 2003 sont quasiment les mêmes que pour les autres types de modèle de formulaire.
-ms.openlocfilehash: 8533b6bc11dccdad9d0f05de35406ad3cf68eacd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 742af7d5b4a1b1b1c3b90dea2da80f4d85d7fac9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303667"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592899"
 ---
 # <a name="add-an-event-handler-using-the-infopath-object-model"></a>Ajouter un handler d’événements à l’aide du modèle objet InfoPath
 

@@ -3,17 +3,17 @@ title: Balises de propriété MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 380dad4c-7fbf-4c49-b67c-ab612c923499
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 96211d3b6e1e4dfbd4c93a98c8dd04de10eac884
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c0fb964b74539ea05cb638add5d3c964a992c3d9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328233"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59567136"
 ---
 # <a name="mapi-property-tags"></a>Balises de propriété MAPI
   
@@ -23,7 +23,7 @@ Une balise de propriété est un nombre 32 bits qui contient un identificateur d
   
 **Éléments de balise de propriété**
   
-![Éléments de balise de propriété Éléments de]balise(media/amapi_10.gif "Property")
+![Éléments de balise de propriété](media/amapi_10.gif "Éléments de balise de propriété")
   
 Les balises de propriété sont utilisées pour identifier les propriétés MAPI et chaque propriété doit en avoir une, que la propriété soit définie par MAPI, un client ou un fournisseur de services. MAPI définit un ensemble de constantes de balise de propriété pour ses propriétés dans le fichier d’en-tête Mapitags.h ; ces propriétés sont appelées « propriétés définies par MAPI ». 
   

@@ -3,17 +3,17 @@ title: Gestion des erreurs dans MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 99e2c485-af84-46f4-84b4-fca2117b5a21
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 98ee0856411cce3a3e9012185be6c30503de7779
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7186964768f182416d718d42f62f8ee1ce048a3c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287278"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614254"
 ---
 # <a name="error-handling-in-mapi"></a>Gestion des erreurs dans MAPI
 
@@ -27,7 +27,7 @@ L’illustration suivante montre le format HRESULT pour les plateformes 32 bits.
   
 **Format HRESULT**
   
-![Format HRESULT au](media/amapi_49.gif "format HRESULT")
+![Format HRESULT](media/amapi_49.gif "Format HRESULT")
   
 Le bit d’ordre élevé dans hrESULT indique si la valeur de retour représente la réussite ou l’échec. Si la valeur est définie sur zéro, la valeur indique la réussite. S’il est définie sur 1, elle indique un échec.
   

@@ -8,13 +8,13 @@ keywords:
 - forced calculation [excel 2007],selective recalculation [Excel 2007],functions [Excel 2007], volatile,calculation modes,recalculated cells [Excel 2007],dependence [Excel 2007],specified worksheet calculation [Excel 2007],recalculation [Excel 2007],workbook tree rebuild [Excel 2007],range calculation [Excel 2007],Excel recalculation,volatile functions [Excel 2007],functions [Excel 2007], non-volatile,active worksheet calculation [Excel 2007],dirty cells [Excel 2007],non-volatile functions [Excel 2007],forced recalculation [Excel 2007]
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-localization_priority: Priority
-ms.openlocfilehash: c4b6dbad7a31b7155d1bec3a5c867b6c74d0ff42
-ms.sourcegitcommit: 35b723efe168ae4bad461bd16b26f9a2412656f2
+ms.localizationpriority: high
+ms.openlocfilehash: ac4078ca77cacc220e1449d4cf28a9b569f4f550
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53139092"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592962"
 ---
 # <a name="excel-recalculation"></a>Recalcul Excel
 

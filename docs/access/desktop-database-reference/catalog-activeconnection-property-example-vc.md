@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248861(v=office.15)
 ms:contentKeyID: 48543246
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8839d436359a9d08c3ec1d31b1187d74701daac9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d5810af305efdd1d3933979f244b5b1c741d4be9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296597"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558554"
 ---
 # <a name="catalog-activeconnection-property-example-vc"></a>Catalog – ActiveConnection, propriété – Exemple (VC++)
 

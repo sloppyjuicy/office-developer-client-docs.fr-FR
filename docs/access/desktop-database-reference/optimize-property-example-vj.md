@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250067(v=office.15)
 ms:contentKeyID: 48547949
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e2c89b719d61ecfe8cd8369e7aa3c3c1827fe2fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 73000f6611619cf3bb003d05401428ce8976140d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288230"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558169"
 ---
 # <a name="optimize-property-example-vj"></a>Optimize, propriété – Exemple (VJ++)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété dynamique Optimize des objets [Field](field-object-ado.md). Le champ ***zip*** de la table ***Authors*** (base de données ***Pubs***) n’est pas indexé. Si l’on donne à la propriété [Optimize](optimize-property-dynamic-ado.md) la valeur **True** pour le champ ***zip***, ADO peut construire un index qui améliore les performances de la méthode [Find](find-method-ado.md).
+Cet exemple illustre la propriété dynamique Optimize des objets [Field](field-object-ado.md). Le champ ***zip** _ de la table _*_Authors_*_ dans la base de données _*_Pubs_*_ n’est pas indexé. La définition [de la](optimize-property-dynamic-ado.md) propriété Optimize sur _ *True** sur le champ **_zip_** autorise ADO à créer un index qui améliore les performances de la [méthode Find.](find-method-ado.md)
 
 ```java 
  

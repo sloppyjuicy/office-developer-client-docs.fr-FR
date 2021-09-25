@@ -3,15 +3,15 @@ title: Prise en charge des flux de travail SharePoint dans les formulaires InfoP
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a6f8975-f052-39e9-9dbc-4698852fe5e1
 description: Le flux de travail de document est une fonctionnalité de Microsoft SharePoint Server 2010 et de Microsoft SharePoint Foundation 2010 qui vous permet de définir un flux de travail et de l'utiliser dans une bibliothèque de documents. Les scénarios de flux de travail intégrés, tels que le routage d'un document pour approbation ou la collecte de commentaires sur un document, sont des modèles de flux de travail courants qui peuvent être personnalisés pour correspondre à vos besoins particuliers. Il est possible d'associer un flux de travail à tout document Office, mais les modèles de formulaire Microsoft InfoPath peuvent aussi être conçus de façon à permettre l'incorporation des informations de flux de travail dans ces modèles.
-ms.openlocfilehash: f34e01ad1e1b9851ee8281bc2580cb5d5d270c88
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 893c58e7fbea351ad3a7e776b7810fab70313d66
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303464"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614534"
 ---
 # <a name="sharepoint-workflow-support-in-infopath-forms"></a>Prise en charge des flux de travail SharePoint dans les formulaires InfoPath
 

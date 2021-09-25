@@ -3,15 +3,15 @@ title: Concepts de développement InfoPath supplémentaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 917e9a1d-df17-4732-8496-097c6b7bcd1f
 description: Cette section offre des informations sur des concepts et des tâches supplémentaires du développement InfoPath.
-ms.openlocfilehash: 592a2764216bd126e153921d08f37c00abc0df79
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0c4647fc8fa55c60216a03add872e4d78c30a6f5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427541"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584912"
 ---
 # <a name="additional-infopath-development-concepts"></a>Concepts de développement InfoPath supplémentaires
 

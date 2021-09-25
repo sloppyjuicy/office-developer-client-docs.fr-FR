@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249583(v=office.15)
 ms:contentKeyID: 48546082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 617dca5ced5410e2023657ea1b0b748066f7843f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 22735ede3150b8735902fb94e5b774df41592dca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314055"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593452"
 ---
 # <a name="ole-db-provider-for-internet-publishing"></a>Fournisseur OLE DB pour la publication Internet
 

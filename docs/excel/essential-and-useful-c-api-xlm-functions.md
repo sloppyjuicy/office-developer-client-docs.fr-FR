@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - functions [excel 2007], c api xlm
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc80cb3d-0d7e-4cb9-9870-3acc84eeca82
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d6acd5bb171fb2494f2adb23584f4e7f088e1b83
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6aff86a29f22331e4e40e878a7c5e2541e5b3b34
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434514"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592997"
 ---
 # <a name="essential-and-useful-c-api-xlm-functions"></a>Fonctions XLM de l’API C essentielles et utiles
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Les fonctions décrites dans cette section sont Microsoft Excel de rappel qui sont particulièrement utiles pour les développeurs DLL et XLL. Parmi celles-ci, la fonction **xlfRegister** est essentielle pour les XL et les DLL qui souhaitent inscrire leurs fonctions et commandes afin qu’elles soient appelées directement à partir de Excel. Les fonctions **xlfUnregister** et **xlfSetName** sont utilisées en combinaison pour désinsser les fonctions et commandes DLL et XLL. 
   

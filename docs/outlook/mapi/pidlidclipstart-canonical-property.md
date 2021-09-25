@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidClipStart
 api_type:
 - COM
 ms.assetid: d348988d-a84e-4318-8d48-62e4982ebaf1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4a466b31b5411b1c0467896c031c6560d6c5c880
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: aa609bce3f6d74e31f47bc18b97b99dd2a1bc30b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349244"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575217"
 ---
 # <a name="pidlidclipstart-canonical-property"></a>Propriété canonique PidLidClipStart
 

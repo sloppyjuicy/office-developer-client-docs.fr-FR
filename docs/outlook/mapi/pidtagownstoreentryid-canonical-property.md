@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOwnStoreEntryId
 api_type:
 - COM
 ms.assetid: 6a82ee90-10a1-49e0-8f3a-a2cd9f490f99
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 16a23c4e711bf9f7b670dff8b3e8f65371aa6bda
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: af4f4776a97104f0bcf47681195048fce27687d9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427373"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574922"
 ---
 # <a name="pidtagownstoreentryid-canonical-property"></a>Propriété canonique PidTagOwnStoreEntryId
 

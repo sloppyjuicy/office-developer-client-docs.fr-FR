@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821397(v=office.15)
 ms:contentKeyID: 48546899
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0d826781bd668cff0a61c655e55834512a289c17
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 07ccd63bab2b7303b97063e163ad838ac2d37d44
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301091"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558064"
 ---
 # <a name="querydefcachesize-property-dao"></a>QueryDef.CacheSize, propriété (DAO)
 

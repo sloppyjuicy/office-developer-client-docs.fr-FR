@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidDistributionListMembers
 api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f04d1593e2a13a2bfc23412340d7eb9f38f5d9ef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 946c8b12a2410b63bfaa22d9e6bde6de16167ff9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335069"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575182"
 ---
 # <a name="pidliddistributionlistmembers-canonical-property"></a>Propri t canonique PidLidDistributionListMembers
 

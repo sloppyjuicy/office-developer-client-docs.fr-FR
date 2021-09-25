@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMessage.SetReadFlag
 api_type:
 - COM
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 874dba4aa18190792a52e29064155f5afa0ef44d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 98f72229b93c6ae9c5566fc9e277a227469b7e64
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439869"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575763"
 ---
 # <a name="imessagesetreadflag"></a>IMessage::SetReadFlag
 
@@ -31,7 +31,7 @@ HRESULT SetReadFlag(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ulFlags_
   

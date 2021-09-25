@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, using custom assemblies,assemblies [InfoPath 2007], adding custom using InfoPath 2003 object model
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20e1f43e-8279-48fc-8f34-16a2729dbc9b
 description: Lorsque vous ajoutez une référence à un assembly personnalisé dans un projet de modèle de formulaire avec code managé , cet assembly est inclus dans le fichier de modèle de formulaire (.xsn) lors de la compilation et de la publication du projet.
-ms.openlocfilehash: 19b5f06231bb03cfac8b32b157e03956b5fc334e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b6752af815afa663bb2c03e4066dc10cee6ee112
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431168"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592871"
 ---
 # <a name="add-and-reference-custom-assemblies"></a>Ajouter et référencer des assemblys personnalisés
 

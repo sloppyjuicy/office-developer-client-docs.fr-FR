@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250265(v=office.15)
 ms:contentKeyID: 48548795
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ab5dbff4c293bc9f44c3617a18d09a5e73cc16ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 03a0c97048e1128b7206686a4b8a75463a0502f4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288587"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558176"
 ---
 # <a name="nextrecordset-method-example-vb"></a>NextRecordset, méthode – Exemple (VB)
 

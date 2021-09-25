@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d8d6a34-f884-40a4-b330-5c104d16cf97
 description: Insère une chaîne de texte dans une autre chaîne de texte. Elle supprime une longueur spécifiée de caractères dans la première chaîne à la position de début, puis insère la deuxième chaîne dans la première chaîne à la position de début.
-ms.openlocfilehash: 591823952faa0d593b6db1f5bfb00cc68a894a8d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f062ae87982b0c3811891b1fa9df777123c7478d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427674"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593046"
 ---
 # <a name="stuff-function-access-custom-web-app"></a>Stuff Function (Access custom web app)
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Spécifie les éléments de cellule qui peuvent être contenus dans une feuille DocumentSheet, StyleSheet, PageSheet ou ShapeSheet.
-ms.openlocfilehash: 2b76abeb83fb7251bf492e92d8dd1a81feeab092
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: b701431880d7609f6c8cbb265f953c0f0dc7cf36
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542309"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608507"
 ---
 # <a name="cell-element-visio-xml"></a>Élément de cellule (Visio XML)
 
@@ -127,7 +127,7 @@ Spécifie les éléments de cellule qui peuvent être contenus dans une feuille 
 |DisplayLevel  <br/> |Détermine la bande du niveau d’affichage (la plage relative de regroupement de l’ordre de plan) pour la forme.  <br/> |[DisplayLevel Cell (Shape Layout Section)](displaylevel-cell-shape-layout-section.md) <br/> |
 |DisplayMode  <br/> |Détermine le mode d'affichage de la forme de groupe et de ses membres.  <br/> |[DisplayMode, cellule (section Group Properties)](displaymode-cell-group-properties-section.md) <br/> |
 |DisplayMode  <br/> |Détermine si la balise d’action s’affiche lorsque l’utilisateur déplace le pointeur sur la balise, lorsque la forme est sélectionnée ou en tout temps.  <br/> |[DisplayMode, cellule (section Smart Tags)](displaymode-cell-action-tags-section.md) <br/> |
-|DistanceFromGround  <br/> |Détermine la distance de l’objet à partir du sol en points lorsqu’il est pivoté en 3D.  <br/> |[DistanceFromGround Cell (3-D Rotation Properties)](distancefromground-cell-3-d-rotation-properties.md) <br/> |
+|DistanceFromGround  <br/> |Détermine la distance de l’objet à partir du sol en points lors d’une rotation en 3D.  <br/> |[DistanceFromGround Cell (3-D Rotation Properties)](distancefromground-cell-3-d-rotation-properties.md) <br/> |
 |DocLangID  <br/> |Indique la langue par défaut pour le document.  <br/> |[DocLangID, cellule (section Document Properties)](doclangid-cell-document-properties-section.md) <br/> |
 |DocLockDuplicatePage  <br/> |Détermine si les pages du document peuvent être dupliquées, en tant que booléens.  <br/> |[DocLockDuplicatePage Cell (Document Properties Section)](doclockduplicatepage-cell-document-properties-section.md) <br/> |
 |DocLockReplace  <br/> |Détermine si l’interface utilisateur de la forme de remplacement doit être désactivée pour ce document.  <br/> |[DocLockReplace Cell (Document Properties Section)](doclockreplace-cell-document-properties-section.md) <br/> |
@@ -232,7 +232,7 @@ Spécifie les éléments de cellule qui peuvent être contenus dans une feuille 
 |LockThemeConnectors  <br/> |Empêche la cellule ConnectorsSchemeIndex de la ligne Propriétés du thème d’être modifiée en appliquant un nouveau thème ou en sélectionnant un nouveau schéma de connecteur. N’empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet.  <br/> |[LockThemeConnectors Cell (Protection Section)](lockthemeconnectors-cell-protection-section.md) <br/> |
 |LockThemeEffects  <br/> |Correspond au paramètre De la case à cocher Effets du thème dans la boîte de dialogue Protection.  <br/> |[LockThemeEffects Cell (Protection Section)](lockthemeeffects-cell-protection-section.md) <br/> |
 |LockThemeFonts  <br/> |Empêche la cellule FontIndex de la ligne Propriétés du thème d’être modifiée en appliquant un nouveau thème. N’empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet.  <br/> |[LockThemeFonts Cell (Protection Section)](lockthemefonts-cell-protection-section.md) <br/> |
-|LockThemeIndex  <br/> |Empêche toute modification de la cellule ThemeIndex de la ligne Propriétés du thème en appliquant un nouveau thème ou en sélectionnant un nouveau modèle de connecteur. N’empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet.  <br/> |[LockThemeIndex Cell (Protection Section)](lockthemeindex-cell-protection-section.md) <br/> |
+|LockThemeIndex  <br/> |Empêche toute modification de la cellule ThemeIndex dans la ligne Propriétés du thème en appliquant un nouveau thème ou en sélectionnant un nouveau modèle de connecteur. N’empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet.  <br/> |[LockThemeIndex Cell (Protection Section)](lockthemeindex-cell-protection-section.md) <br/> |
 |LockVariation  <br/> |Détermine si la variante de thème appliquée à la page ou à la forme peut être modifiée, en tant que booléen.  <br/> |[LockVariation Cell (Protection Section)](lockvariation-cell-protection-section.md) <br/> |
 |LockVtxEdit  <br/> |Verrouille les sommets d’une forme afin d’empêcher leur modification.  <br/> |[LockVtxEdit, cellule (section Protection)](lockvtxedit-cell-protection-section.md) <br/> |
 |LockWidth  <br/> |Verrouille la largeur d'une forme afin qu'elle demeure intacte lorsque la forme est dimensionnée.  <br/> |[LockWidth, cellule (section Protection)](lockwidth-cell-protection-section.md) <br/> |
@@ -252,7 +252,7 @@ Spécifie les éléments de cellule qui peuvent être contenus dans une feuille 
 |PageHeight  <br/> |Contient la hauteur de la page imprimée en unités de dessin.  <br/> |[PageHeight, cellule (section Page Properties)](pageheight-cell-page-properties-section.md) <br/> |
 |PageLeftMargin  <br/> |Indique la marge de gauche de la page d'impression.  <br/> |[PageLeftMargin, cellule (section Print Properties)](pageleftmargin-cell-print-properties-section.md) <br/> |
 |PageLineJumpDirX  <br/> |Détermine la direction des déviations de trait pour les connecteurs dynamiques horizontaux de la page de dessin n'ayant pas de direction de déviation locale.  <br/> |[PageLineJumpDirX, cellule (section Page Layout)](pagelinejumpdirx-cell-page-layout-section.md) <br/> |
-|PageLineJumpDiry  <br/> |Détermine la direction des déviations de trait pour les connecteurs dynamiques verticaux de la page de dessin n'ayant pas de direction de déviation locale.  <br/> |[PageLineJumpDirY, cellule (section Page Layout)](pagelinejumpdiry-cell-page-layout-section.md) <br/> |
+|PageLineJumpDirY  <br/> |Détermine la direction des déviations de trait pour les connecteurs dynamiques verticaux de la page de dessin n'ayant pas de direction de déviation locale.  <br/> |[PageLineJumpDirY, cellule (section Page Layout)](pagelinejumpdiry-cell-page-layout-section.md) <br/> |
 |PageLockDuplicate  <br/> |Détermine si la page peut être dupliquée, en tant que booléen.  <br/> |[PageLockDuplicate Cell (Page Properties Section)](pagelockduplicate-cell-page-properties-section.md) <br/> |
 |PageLockReplace  <br/> |Indique si le bouton Remplacer la forme doit être désactivé pour cette page.  <br/> |[PageLockReplace Cell (Page Properties Section)](pagelockreplace-cell-page-properties-section.md) <br/> |
 |PageRightMargin  <br/> |Indique la marge de droite de la page d'impression.  <br/> |[PageRightMargin, cellule (section Print Properties)](pagerightmargin-cell-print-properties-section.md) <br/> |

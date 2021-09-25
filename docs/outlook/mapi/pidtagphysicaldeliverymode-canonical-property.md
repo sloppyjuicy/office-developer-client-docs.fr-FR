@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagPhysicalDeliveryMode
 api_type:
 - COM
 ms.assetid: 98597495-7761-4eda-ae75-1ccefa6abb81
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a99760e11c34404f48ec193750b1a7f4ac541674
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d228fe6f317d362fee83885fcfa37def7fa4b7ee
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412302"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574930"
 ---
 # <a name="pidtagphysicaldeliverymode-canonical-property"></a>Propriété canonique PidTagPhysicalDeliveryMode
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195473(v=office.15)
 ms:contentKeyID: 48545455
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: fe319e0f7a811d3bcd3b2fc18c4a3d951187fbe8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 143a1be5e4a21dd8fadf17bf9f50b82f84bfc9db
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308497"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601778"
 ---
 # <a name="stopmacro-macro-action"></a>StopMacro, action de macro
 

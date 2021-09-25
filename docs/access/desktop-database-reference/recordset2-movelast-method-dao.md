@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192306(v=office.15)
 ms:contentKeyID: 48544079
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 829c4dd759bce86388cc65aa5b63276eec438ea0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 1cd29fe99db3cdf3e00556b389328d46d06a6f82
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307258"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601932"
 ---
 # <a name="recordset2movelast-method-dao"></a>Recordset2.MoveLast, méthode (DAO)
 
@@ -26,7 +26,7 @@ Atteint le dernier enregistrement d’un objet **Recordset** spécifié et en fa
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: Spécifie un attribut de mise en forme pour l’exécuter de texte d’une forme, tel que la police, la couleur, le style, la case, la position par rapport à la ligne de base ou la taille du point.
-ms.openlocfilehash: a7d67aa3c53f3a4c673151afc991202904f0557b
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 1dea1b40afad75f59eb171b02dd102a9bcc97fb7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540083"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608542"
 ---
 # <a name="cell-element-character-section-visio-xml"></a>Élément cell (Character Section) (Visio XML)
 
@@ -69,7 +69,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |AsianFont  <br/> |Contient l’éumération de la police utilisée pour mettre en forme une version de texte contenant des caractères asiatiques.  <br/> |[AsianFont, cellule (section Character)](asianfont-cell-character-section.md) <br/> |
 |Cas  <br/> |Détermine la cas d’une utilisation du texte d’une forme.  <br/> |[Case, cellule (section Character)](case-cell-character-section.md) <br/> |
 |Couleur  <br/> |Détermine la couleur utilisée pour l’exécuter de texte d’une forme.  <br/> |[Color, cellule (section Character)](color-cell-character-section.md) <br/> |
-|ColorTrans  <br/> |Détermine le degré de transparence de la couleur d’utilisation du texte d’un calque ou d’une forme, de 0 (complètement opaque) à 1 (complètement transparent).  <br/> |Aucun.  <br/> |
+|ColorTrans  <br/> |Détermine le degré de transparence de la couleur d’utilisation du texte d’une couche ou d’une forme, de 0 (complètement opaque) à 1 (complètement transparent).  <br/> |Aucun.  <br/> |
 |ComplexScriptFont  <br/> |Contient le numéro de la police utilisée pour mettre en forme une séquence de texte composée de caractères de script complexes.  <br/> |[ComplexScriptFont, cellule (section Character)](complexscriptfont-cell-character-section.md) <br/> |
 |ComplexScriptSize  <br/> |Taille de la police utilisée pour mettre en forme une séquence de texte composée de caractères de script complexes.  <br/> |[ComplexScriptSize, cellule (section Character)](complexscriptsize-cell-character-section.md) <br/> |
 |DblUnderline  <br/> |Détermine si la plage d’une série de texte présente un double soulignement en dessous.  <br/> |[DoubleULine, cellule (section Character)](doubleuline-cell-character-section.md) <br/> |

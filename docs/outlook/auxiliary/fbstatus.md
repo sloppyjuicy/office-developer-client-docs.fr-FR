@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f2d6a11e-847d-6bbe-cd77-e78ee961cb12
 description: Une éumération pour l’état de libre/occupé des blocs de libre/occupé.
-ms.openlocfilehash: 2a08ef142f9baddd453166c0ebcb989e69a51ceb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 61ac90849e2a0d40b48281cb6f145fc5d997d545
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424090"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592801"
 ---
 # <a name="fbstatus"></a>FBStatus
 

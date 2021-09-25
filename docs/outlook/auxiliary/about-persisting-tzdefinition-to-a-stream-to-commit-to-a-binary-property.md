@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dec535d-d48f-39a5-97d5-0bd109134b3b
 description: Les propriétés de fuseau horaire, PidLidAppointmentTimeZoneDefinitionEndDisplay, PidLidAppointmentTimeZoneDefinitionRecur et PidLidAppointmentTimeZoneDefinitionStartDisplay sont des propriétés nommées binaires, chacune contenant un flux qui est mapmé sur le format persistant d’une structure TZDEFINITION.
-ms.openlocfilehash: f94b751a55aa852c962eebe5d46968e9e622e315
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6925068faf9e4e4e700ea8d2aae2fd25dc98cdb1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316974"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592836"
 ---
 # <a name="about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property"></a>À propos de la persistance de TZDEFINITION dans un flux de validation dans une propriété binaire
 

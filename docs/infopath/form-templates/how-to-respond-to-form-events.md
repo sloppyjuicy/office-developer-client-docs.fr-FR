@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - order of events [infopath 207],events [InfoPath 2007], responding,events [InfoPath 2007], order,InfoPath 2007, reponding to events,EventArgs classes [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 754db64b-179f-4385-8dd9-c20c9407b186
 description: Vous pouvez écrire du code pour répondre à divers événements susceptibles de se produire pendant qu'un utilisateur remplit un formulaire. Pour utiliser les événements dans InfoPath, vous pouvez ajouter des gestionnaires d'événements lorsque vous travaillez sur un modèle de formulaire en mode Création.
-ms.openlocfilehash: 0db3209dfe005f2a87ad65f3fc89b1714ec7d95c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fdc099e65365eecfc114642760734e7a48c3c5ca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407682"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592850"
 ---
 # <a name="respond-to-form-events"></a>Répondre aux événements de formulaire
 

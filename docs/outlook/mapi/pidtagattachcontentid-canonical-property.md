@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAttachContentId
 api_type:
 - HeaderDef
 ms.assetid: 46f31089-3b66-41a2-8094-e3db52464b9f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5fc7360e3070ed4d20be7ac0155ebdcb04cf2048
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 049eaab7c1ec8289a9b553ecdc8000a08cbde942
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319207"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575084"
 ---
 # <a name="pidtagattachcontentid-canonical-property"></a>Propriété canonique PidTagAttachContentId
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa182f04-0899-ee0e-79e1-b74832933e83
 description: Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données.
-ms.openlocfilehash: e478593f370968db5fe9a65329cb1928c0f7c6ea
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 41390699788b9606bf72473c17683c32b5a3744e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539676"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608269"
 ---
 # <a name="datarecordset-element-datarecordsets_type-complextype-visio-xml"></a>Élément DataRecordSet (DataRecordSets_Type complexType) (Visio XML)
 

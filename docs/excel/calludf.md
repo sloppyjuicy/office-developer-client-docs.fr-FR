@@ -4,19 +4,19 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6421c9a2-07f7-4deb-aa43-c50d82cb0002
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 096f57335572c3788fdf129dd3bcf4a76cf62b01
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f02b20c5a8355f68a937ad96cf4106c37f3a767a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433009"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614618"
 ---
 # <a name="calludf"></a>CallUDF
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Appelle une fonction définie par l’utilisateur dans un environnement informatique hautes performances.
   
@@ -24,7 +24,7 @@ Appelle une fonction définie par l’utilisateur dans un environnement informat
 int CallUDF(int SessionId, WCHAR *XllName, WCHAR *UDFName, LPXLOPER12 pxAsyncHandle, int (*CallBackAddr)(), int ArgCount, LPXLOPER12 Parameter1, ...)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _SessionId_
   

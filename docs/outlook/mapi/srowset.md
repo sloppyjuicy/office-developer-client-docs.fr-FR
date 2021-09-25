@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SRowSet
 api_type:
 - COM
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 63cef6ef2bb26e8b723c60fe01dd6771aa070ae8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a94b5ccf5f5f94d6384202b8499d3b6338d67f8e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407255"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566478"
 ---
 # <a name="srowset"></a>SRowSet
 

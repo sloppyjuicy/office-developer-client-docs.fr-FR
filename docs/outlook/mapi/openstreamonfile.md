@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.OpenStreamOnFile
 api_type:
 - COM
 ms.assetid: 01fa459f-597d-4b16-b340-a79fb270cd71
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b05f5b30eceb7df1bed76c64f4bdda87ede0e463
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f75f781c00fc4fe202e14bc955b2099ffb9ccdbc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439092"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575336"
 ---
 # <a name="openstreamonfile"></a>OpenStreamOnFile
 
@@ -44,7 +44,7 @@ HRESULT STDMETHODCALLTYPE OpenStreamOnFile(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpAllocateBuffer_
   

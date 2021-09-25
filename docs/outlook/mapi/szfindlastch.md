@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SzFindLastCh
 api_type:
 - COM
 ms.assetid: 7c3e5a71-7b78-4328-b8ee-265cc4da4be5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f22d30c1bc7c797834f58bcd1306b14ac2542c6d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0c8d18b39b417e7cf2b0df6e0e271dd432ba9348
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421255"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566338"
 ---
 # <a name="szfindlastch"></a>SzFindLastCh
 
@@ -40,7 +40,7 @@ LPSTR SzFindLastCh(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpsz_
   

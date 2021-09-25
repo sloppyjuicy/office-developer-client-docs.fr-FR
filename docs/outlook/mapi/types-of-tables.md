@@ -3,17 +3,17 @@ title: Types de tableaux
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a1fc4f20-511f-4721-8f09-ec2a5fd0ccb0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 732b3d724c855d978250afff3d05c7f19909a5b2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6a6fb115d3a3105777b1b0e68595c960df0a92b2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566247"
 ---
 # <a name="types-of-tables"></a>Types de tableaux
 
@@ -31,7 +31,7 @@ Les tableaux ont un ensemble de colonnes par défaut, l’ensemble minimal de co
   
 Les tables MAPI et leurs implémenteurs et utilisateurs sont les suivants :
   
-|**Tableau**|**Implementers**|
+|**Table**|**Implementers**|
 |:-----|:-----|
 |Pièce jointe  <br/> |Implémenté par les fournisseurs de magasins de messages. Utilisé par les clients et les fournisseurs de transport.  <br/> |
 |Sommaire  <br/> |Implémenté par les fournisseurs de magasins de messages et de carnets d’adresses. Utilisé par les clients.  <br/> |
@@ -41,7 +41,7 @@ Les tables MAPI et leurs implémenteurs et utilisateurs sont les suivants :
 |Magasin de messages  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
 |Un-off  <br/> |Implémenté par les fournisseurs de carnets d’adresses. Utilisé par MAPI.  <br/> |
 |File d’attente sortante  <br/> |Implémenté par les fournisseurs de magasins de messages. Utilisé par lepooler MAPI.  <br/> |
-|Profil  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
+|Profils  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
 |Fournisseur  <br/> |Implémenté par MAPI. Utilisé par les clients.  <br/> |
 |Dossier de r�ception  <br/> |Implémenté par les fournisseurs de magasins de messages. Utilisé par les clients.  <br/> |
 |Destinataire  <br/> |Implémenté par les fournisseurs de magasins de messages. Utilisé par les clients et les fournisseurs de transport.  <br/> |

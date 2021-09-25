@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7ba98948-b16d-4df5-8d59-7c9e2fdd2367
 description: ''
-ms.openlocfilehash: c820fcb9cfb7327ea2ff55bca31b3c533cdd37d0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fb79612dade3da3cbdf54a4d731873c6dcfe34d8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437664"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593109"
 ---
 # <a name="logical-operators-access-custom-web-app"></a>Logical Operators (Access custom web app)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SSizeRestriction
 api_type:
 - COM
 ms.assetid: 4e7340d1-3cb9-4276-b83f-1c8f94acb909
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 24ceb7b5358447de3a240756227b86224d2c354c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1d96ab1a4bb8e56bd055af05054f5a8f16448a96
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439085"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566450"
 ---
 # <a name="ssizerestriction"></a>SSizeRestriction
 

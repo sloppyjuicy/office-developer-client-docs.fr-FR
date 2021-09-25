@@ -3,15 +3,15 @@ title: Intégration d'un formulaire InfoPath à une base de données Microsoft A
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ec9a9c0-b348-4a31-b377-e95db2f92455
 description: Microsoft InfoPath permet l'utilisation d'une base de données Microsoft Access 2010 comme source de données principale pour un formulaire, ou comme source de données secondaire pour un formulaire ou un contrôle. Cet article explique comment utiliser une base de données Access 2010 comme source de données.
-ms.openlocfilehash: dbc39e0d0908214904d77b8955f3d231f0bfb20b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3cdc5b775ab7890604b33afa707bce6c55034e25
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423110"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584793"
 ---
 # <a name="integrate-an-infopath-form-with-a-microsoft-access-database"></a>Intégration d'un formulaire InfoPath à une base de données Microsoft Access
 

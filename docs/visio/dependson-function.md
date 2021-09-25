@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251420
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8fcfcfdd-69e2-b061-fdb6-d29389d14403
 description: Crée une dépendance de référence de cellule.
-ms.openlocfilehash: 26e7f5fb0620a5f1812d878f02d5bedd43afe524
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f97ba98cbc5e2a56578b5303583a1d2811242f67
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423467"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608234"
 ---
 # <a name="dependson-function"></a>Fonction DEPENDSON
 

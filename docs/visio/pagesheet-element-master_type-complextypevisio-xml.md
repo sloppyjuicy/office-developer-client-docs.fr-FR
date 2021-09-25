@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 824fbeb0-1a2f-35a0-50e3-c57143dc21ab
 description: Spécifie les propriétés de la page de dessin associée à la page de dessin.
-ms.openlocfilehash: 94fde64b130c2a05c4bd70c97552fe4218171ce7
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: ed9bca13e8af1f37861892282596e7d5546c7c52
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540615"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608122"
 ---
 # <a name="pagesheet-element-master_type-complextype-visio-xml"></a>Élément PageSheet (Master_Type complexType) (Visio XML)
 

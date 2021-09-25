@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FLAGLIST
 api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a5e508f5f7e6554a115517da87a8eac39f39aecf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 32789e57bebef3320e413fa67c6352dee43248ff
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412974"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614240"
 ---
 # <a name="flaglist"></a>FLAGLIST
 

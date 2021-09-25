@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: b55fc51f70bcc2c9d2f7e93cf9c79228cd2fe440
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a1f5882119a52c0c3f73d4d4da96e4e8ec8f8377
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296632"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59558596"
 ---
 # <a name="cancelevent-macro-action"></a>CancelEvent, action de macro
 
@@ -56,7 +56,7 @@ Les événements suivants peuvent être annulés par l’action **AnnulerEvénem
 <tr class="odd">
 <td><p><strong>BeforeInsert</strong></p></td>
 <td><p><strong>Filtre</strong></p></td>
-<td><p><strong>Open</strong></p></td>
+<td><p><strong>Ouvert</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>BeforeUpdate</strong></p></td>

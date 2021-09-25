@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: daa5c527-65fe-a1e4-ab3e-24e77bdb522b
 description: Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézier cubique par rapport à la largeur et à la hauteur de la forme, les coordonnées x ou y du point de contrôle du début de la largeur et de la hauteur de la forme relative de courbe, ou les coordonnées x ou y du point de contrôle de la fin de la largeur et de la hauteur de la forme relative de courbe.
-ms.openlocfilehash: c52b0108cc6ed753c0e494d2bce72025cabb1c93
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 9dc19d4ac2059a31cc8be48a0a49ae8e9f53ca90
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539438"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608514"
 ---
 # <a name="cell-element-relcubbezto-row-visio-xml"></a>Élément de cellule (ligne RelCubBezTo) (Visio XML)
 
@@ -67,7 +67,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordonnée x du sommet de fin d’une courbe de Bézier cubique par rapport à la largeur de la forme.  <br/> |[RelCubBezTo Row (Geometry Section)](relcubbezto-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du sommet de fin d’une courbe de Bézier cubique par rapport à la hauteur de la forme.  <br/> |[RelCubBezTo Row (Geometry Section)](relcubbezto-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y du sommet de fin d’une courbe de Bézier cubique par rapport à la hauteur de la forme.  <br/> |[RelCubBezTo Row (Geometry Section)](relcubbezto-row-geometry-section.md) <br/> |
 |A  <br/> |Coordonnée x du point de contrôle de début de la courbe par rapport à la largeur de la forme ; point sur l’arc. Le point de contrôle est mieux situé entre les vertex de début et de fin de l’arc.  <br/> |[RelCubBezTo Row (Geometry Section)](relcubbezto-row-geometry-section.md) <br/> |
 |B  <br/> |Coordonnée y du point de contrôle de début d’une courbe par rapport à la hauteur de la forme.  <br/> |[RelCubBezTo Row (Geometry Section)](relcubbezto-row-geometry-section.md) <br/> |
 |C  <br/> |Coordonnée x du point de contrôle de fin de la courbe par rapport à la largeur de la forme ; point sur l’arc. Le point de contrôle est mieux situé entre le point de contrôle de début et les vertex de fin de l’arc.  <br/> |[RelCubBezTo Row (Geometry Section)](relcubbezto-row-geometry-section.md) <br/> |

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7590a30e-3fd8-7ae3-f077-c80f6cc21d7b
 description: Cette rubrique contient des définitions constantes pour les API qui Outlook exporte.
-ms.openlocfilehash: 65181932b858da1b32c3fbe5fd0bd7e92ca8dc9f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0ba6c94ad8f4e5ed78d8f6b4e2ea56ba8258c4e7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319872"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614464"
 ---
 # <a name="constants-outlook-exported-apis"></a>Constantes (Outlook des API exportées)
 

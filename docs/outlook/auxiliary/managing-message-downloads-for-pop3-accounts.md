@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4218aa6-1591-49db-9782-f286135fc79a
 description: Cette section décrit comment le fournisseur POP3 de Outlook utilise l'historique de la liste d'ID Unique (UIDL) sur un compte POP3 pour identifier les messages que le fournisseur a téléchargé ou supprimés du serveur POP3, pour éviter le téléchargement de plusieurs fois le même message.
-ms.openlocfilehash: 35c50d83c317ebefa52fd9bfcb348c8411a06f25
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b878c551884d8e9a0bd7f85d6f1b5832a6fa8548
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322245"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584786"
 ---
 # <a name="managing-message-downloads-for-pop3-accounts"></a>Message Gestion des téléchargements pour les comptes POP3
 

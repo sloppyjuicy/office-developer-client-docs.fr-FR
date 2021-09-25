@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8a2105c13f5f7ce9a75e7e18e20477d8b283543a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4ede4208d948c87b3c2dbe1a14a1ccc49fd9d142
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302591"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585017"
 ---
 # <a name="workspace-members-dao"></a>Workspace members (DAO)
 
@@ -87,7 +87,7 @@ Un objet Workspace définit une session nommée pour un utilisateur. Il contient
 <td><p>Renvoie une collection <strong>Connections</strong> qui représente les connexions actives dans l'objet <strong>Workspace</strong> spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-databases-property-dao.md">Databases</a></strong></p></td>
+<td><p><strong><a href="workspace-databases-property-dao.md">Bases de données</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Databases</strong> qui représente les bases de données ouvertes dans l'objet <strong>Workspace</strong> spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="odd">

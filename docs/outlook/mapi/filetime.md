@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FILETIME
 api_type:
 - COM
 ms.assetid: 4af8e79a-697e-44a1-8576-fdc57726e9ef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00355546717ca61492750cb1dd113d20114b0695
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ac1a9a4b84e50e1e979a3228d30067877f20eef5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409502"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614205"
 ---
 # <a name="filetime"></a>FILETIME
 

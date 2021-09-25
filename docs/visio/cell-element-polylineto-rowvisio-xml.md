@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a62fbb51-e2a7-cdae-3516-5ce9ba30f26d
 description: Contient les coordonnées x ou y du dernier point d’une polyligne ou d’une formule de polyligne.
-ms.openlocfilehash: b85784a41f4192895f17390f5473757c4bb09166
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: e79f21c6cf966495a8736b7982aa7247a8acc152
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539459"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608500"
 ---
 # <a name="cell-element-polylineto-row-visio-xml"></a>Élément de cellule (ligne PolyLineTo) (Visio XML)
 
@@ -67,7 +67,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordonnée x du sommet de fin d'une polyligne.  <br/> |[PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du sommet de fin d'une polyligne.  <br/> |[PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y du sommet de fin d'une polyligne.  <br/> |[PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md) <br/> |
 |A  <br/> |Formule de la polyligne.  <br/> |[PolylineTo, ligne (section Geometry)](polylineto-row-geometry-section.md) <br/> |
    
 

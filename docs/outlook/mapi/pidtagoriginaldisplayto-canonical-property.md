@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginalDisplayTo
 api_type:
 - COM
 ms.assetid: 8c1cf14c-0339-4ced-8f68-4bfaa1e4d3e9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5a2f60051e5cb0717926a5c3e2f878a49919b04c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9948062ea3835f8177fa50d676c6e8094bdb0706
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575028"
 ---
 # <a name="pidtagoriginaldisplayto-canonical-property"></a>Propriété canonique PidTagOriginalDisplayTo
 

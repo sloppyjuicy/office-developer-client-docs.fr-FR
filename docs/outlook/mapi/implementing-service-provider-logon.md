@@ -3,17 +3,17 @@ title: Mise en œuvre de l’logo du fournisseur de services
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 533c00a0c994e7dfc5adc476899553bc39a2a9ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5651ab674071b832eb14d2ca217bd8cf0fa90196
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310086"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575693"
 ---
 # <a name="implementing-service-provider-logon"></a>Mise en œuvre de l’logo du fournisseur de services
 

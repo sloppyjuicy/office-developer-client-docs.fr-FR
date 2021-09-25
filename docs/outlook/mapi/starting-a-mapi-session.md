@@ -3,17 +3,17 @@ title: Démarrage d’une session MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d88ce382b6a6b5f98ec5f88c4deb1565d3b60151
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 765bfef3ab30ec4a534f78cc7175394d96d5163c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336343"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566380"
 ---
 # <a name="starting-a-mapi-session"></a>Démarrage d’une session MAPI
 

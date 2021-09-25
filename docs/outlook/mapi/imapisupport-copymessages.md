@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.CopyMessages
 api_type:
 - COM
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9cc4e3ba77395e09a6b95e8381fa402fc3cdff61
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3ca7f2b32dd04bf46f1d150ad0d30213045f27e5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575840"
 ---
 # <a name="imapisupportcopymessages"></a>IMAPISupport::CopyMessages
 
@@ -40,7 +40,7 @@ HRESULT CopyMessages(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpSrcInterface_
   

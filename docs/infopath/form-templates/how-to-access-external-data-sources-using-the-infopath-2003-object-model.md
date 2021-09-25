@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - data sources [infopath 2007], accessing with infopath 2003 object model,InfoPath 2003-compatible form templates, accessing external data
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: Lorsque vous travaillez à partir d'un modèle de formulaire InfoPath qui utilise le modèle objet compatible avec InfoPath 2003, vous pouvez écrire du code pour accéder aux sources de données secondaires du formulaire et manipuler les données qu'elles contiennent.
-ms.openlocfilehash: 569f029b412328f4d49e3079eaf207dc1556fc4b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f8cf9bf1d4f94fb2486dff6c436331a66842df67
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431679"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592934"
 ---
 # <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Accéder aux sources de données externes à l’aide du modèle objet InfoPath 2003
 

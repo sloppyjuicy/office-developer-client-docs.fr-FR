@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
 ms:contentKeyID: 48547858
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f4646326469b4db688277885c31b5629aba8d408
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 868fd8a513a830c23ffb75724d9a3873dfe1dd23
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314091"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593396"
 ---
 # <a name="type-property-example-field-vc"></a>Type, propriété – Exemple (Field) (VC++)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [Type](type-property-ado.md) en affichant le nom de la constante qui correspond à la valeur de la propriété **Type** de tous les objets [Field](field-object-ado.md), dans la table ***Employees***. La fonction FieldType est nécessaire pour que cette procédure s’exécute.
+Cet exemple illustre la [propriété Type](type-property-ado.md) en affichant le nom de la constante qui correspond à la valeur de la propriété **Type** de tous les objets [Field](field-object-ado.md) de la table **_Employees._** La fonction FieldType est nécessaire pour que cette procédure s’exécute.
 
 ```cpp 
  

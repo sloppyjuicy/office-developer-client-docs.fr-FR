@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249684(v=office.15)
 ms:contentKeyID: 48546497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8efca4f18f68cbbf14beeea11c4f395afd12621f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: cba0921eb26d88e374f2d4bb4888fa79a4da9043
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301315"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59602079"
 ---
 # <a name="properties-collection-ado-reference"></a>Properties collection (ADO) reference
 

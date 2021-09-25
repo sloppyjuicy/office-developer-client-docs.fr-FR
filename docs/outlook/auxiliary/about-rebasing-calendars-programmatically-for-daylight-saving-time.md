@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38b342d9-ab10-04b6-5490-9a45f847a60f
 description: Dans cette rubrique, cette période entre le ressort et l’automne est appelée période d’été.
-ms.openlocfilehash: 8d9a0ffda89ee9d8847cde59181747588a50e947
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fba3238543630d3960e41abae427a9757c387639
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316953"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614471"
 ---
 # <a name="about-rebasing-calendars-programmatically-for-daylight-saving-time"></a>À propos du changement de base des calendriers par programme pour l’heure d’été
 

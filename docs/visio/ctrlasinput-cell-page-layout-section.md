@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1225
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6fd0aba-7c33-b77f-207b-ba704b3e0756
 description: Détermine la forme parente lors de la manipulation de formes avec des poignées de contrôle. Cette cellule définit le comportement de toutes les formes de la page de dessin.
-ms.openlocfilehash: a530c48156043bec0cd58d79aead1a403c17ddce
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c662407838baa7276e7fedb23c1f5ff63821c855
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422620"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608346"
 ---
 # <a name="ctrlasinput-cell-page-layout-section"></a>CtrlAsInput, cellule (section Page Layout)
 

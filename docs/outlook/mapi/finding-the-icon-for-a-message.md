@@ -3,17 +3,17 @@ title: Recherche de l’icône d’un message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 80a97c3d-4bca-4819-9da4-ca0fbf3a686f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b351cc68e3c3d9f9c01acb4b3d0e52158e302d7a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2016332f5347aeda46d65b03e87cc69f9f359867
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409152"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614198"
 ---
 # <a name="finding-the-icon-for-a-message"></a>Recherche de l’icône d’un message
 

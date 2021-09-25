@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContactVersion
 api_type:
 - HeaderDef
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c6a2206cf75308ad7fb955283f22eca3be9e0b3a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3c4992331ae3d742d9f2a0b4b3280a2a1f38aa0b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407766"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566835"
 ---
 # <a name="pidtagcontactversion-canonical-property"></a>Propriété canonique PidTagContactVersion
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251660
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e43f3d29-7def-d36e-ac64-62f0a389d415
 description: Détermine si les formes positionnables se déplacent lorsque vous déposez une forme positionnable à côté d'une autre forme positionnable sur une page de dessin.
-ms.openlocfilehash: 4ea85ddbaf7662305a2a82fc7f0b814019624841
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: de96a824176c4407527ef96b18a0f1695305070c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420352"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608080"
 ---
 # <a name="plowcode-cell-page-layout-section"></a>PlowCode, cellule (section Page Layout)
 

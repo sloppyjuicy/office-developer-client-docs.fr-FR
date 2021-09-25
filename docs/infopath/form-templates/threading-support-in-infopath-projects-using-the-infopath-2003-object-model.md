@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - multithreading [infopath 2007], infopath 2003-compatible form templates,threading [InfoPath 2007], support for projects using InfoPath 2003 object model,InfoPath 2003-compatible form templates, threading support
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f269d64d-4102-426d-be8e-d2742a993524
 description: Les objets COM auxquels vous accédez via les assemblys d'interopérabilité Microsoft.Office.Interop.InfoPath.dll, Microsoft.Office.Interop.InfoPath.SemiTrust.dll et Microsoft.Office.Interop.InfoPath.Xml.dll installés par Microsoft InfoPath ne prennent pas en charge les appels sur plusieurs threads. Ceci inclut les interfaces pour les objets MSXML (Microsoft XML Core Services) incorporées dans l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust (dont la plupart portent un nom commençant par IXMLDOM) et toutes les interfaces exposées par l'espace de noms Microsoft.Office.Interop.InfoPath.Xml, aucune de ces interfaces n'étant sécurisées pour l'utilisation de threads.
-ms.openlocfilehash: ca00593eebe17586c4f77b4b91adc158c4f649fd
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: e5c4bbee089a772b0f51dec86903b0b46611f018
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537842"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59584807"
 ---
 # <a name="threading-support-in-infopath-projects-using-the-infopath-2003-object-model"></a>Prise en charge du threading dans les projets InfoPath à l'aide du modèle de projet InfoPath 2003
 

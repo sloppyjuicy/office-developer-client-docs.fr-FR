@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033768
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f58687d7-2ba4-ff77-0bcc-3106867d89de
 description: Taille de la police utilisée pour mettre en forme du texte composé de caractères de script complexe.
-ms.openlocfilehash: 38b01c4a0142c7eca2923ee9b13963eaa1a62830
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8d810cecb7f9bd1d80895892a362d808f8adc3f7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428437"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608472"
 ---
 # <a name="complexscriptsize-cell-character-section"></a>ComplexScriptSize, cellule (section Character)
 

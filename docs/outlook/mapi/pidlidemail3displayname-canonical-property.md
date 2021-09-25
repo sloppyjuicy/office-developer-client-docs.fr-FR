@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidEmail3DisplayName
 api_type:
 - COM
 ms.assetid: a42fb112-7be5-4b7b-a2e0-7e7f7f58b9a4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a8cab5659f936f530bc1ac4955dfb3b68cea9223
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 01f2ffca5079d16aa91cf960abec1741a0c2da86
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337953"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566975"
 ---
 # <a name="pidlidemail3displayname-canonical-property"></a>Propriété canonique PidLidEmail3DisplayName
 

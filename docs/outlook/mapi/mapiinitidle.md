@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.MAPIInitIdle
 api_type:
 - COM
 ms.assetid: b6de7c6a-f2e7-4248-adea-d354924a8bbf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b07c40882c0b9974c71eeb03123e7025b948a75e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 43b5168f1d29ead887f884e6c61456c5ab28364b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432442"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59575483"
 ---
 # <a name="mapiinitidle"></a>MAPIInitIdle
 
@@ -39,7 +39,7 @@ LONG MAPIInitIdle(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpvReserved_
   
