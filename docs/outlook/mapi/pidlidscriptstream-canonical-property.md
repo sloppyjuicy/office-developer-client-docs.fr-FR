@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidScriptStream
 api_type:
 - COM
 ms.assetid: 9d54f937-c8de-4789-b134-56835f21aec2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1f39d78d9e5a9fed40085b069a841a69bc597cc4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 93d9ed65d3312b636bdff05f955cbddadb0b4a8c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358869"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591737"
 ---
 # <a name="pidlidscriptstream-canonical-property"></a>Propri t canonique PidLidScriptStream
 

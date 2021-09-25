@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRuleId
 api_type:
 - COM
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8d88838893836c550136be9556299258b44e3e49
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9b8cca70214543658f708beb81785617d79406c5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359492"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624558"
 ---
 # <a name="pidtagruleid-canonical-property"></a>Propriété canonique PidTagRuleId
 

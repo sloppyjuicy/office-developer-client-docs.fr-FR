@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - generic dll [excel 2007], functions,functions [Excel 2007], Generic DLL
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3064e1a09ad8850e121da678f3702a6236574599
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dcbbf753c5029f92b2445233a454233ad3fa8f32
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420597"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617201"
 ---
 # <a name="functions-in-the-generic-dll"></a>Fonctions dans le fichier DLL générique
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Le dossier contient les Microsoft Visual Studio de projet et les fichiers de code source nécessaires pour compiler l’exemple `\EXAMPLES\GENERIC\` DLL GENERIC.xll. Vous pouvez utiliser ce projet comme modèle pour écrire votre propre Microsoft Excel XL. Le code source de ce projet illustre de nombreuses fonctionnalités de l’API Excel C. 
   

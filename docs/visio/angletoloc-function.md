@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253217
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ee5e3898-bb49-57c6-0ebe-12e1fe388e55
 description: Renvoie un angle transformé dans le système de coordonnées locales de la forme de destination. Convertit un angle de coordonnées locales de la forme source en coordonnées locales de la forme de destination.
-ms.openlocfilehash: e971613d4fc33cd991e7e9aeba49ac47871ebe8f
-ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
+ms.openlocfilehash: e223c5517b01c881367da19a8cb3c5e3f1c0780b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160264"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603927"
 ---
 # <a name="angletoloc-function"></a>Fonction ANGLETOLOC
 
@@ -24,7 +24,7 @@ Renvoie un angle transformé dans le système de coordonnées locales de la form
   
 ## <a name="syntax"></a>Syntaxe
 
-ANGLETOLOC(***srcAngle***, ***srcRef***, ***dstRef*** ) 
+ANGLETOLOC(***srcAngle** _, _*_srcRef_*_, _ *_dstRef_** ) 
   
 ### <a name="parameters"></a>Paramètres
 

@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm183441
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: f8c45cdf0d9cf588f61d1b51b728a8a15f6d7e12
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: dda5d6fa69e60c84a76a62a091d429ca27ebfb1c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308749"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593599"
 ---
 # <a name="sendkeys-macro-action"></a>SendKeys, action de macro
 

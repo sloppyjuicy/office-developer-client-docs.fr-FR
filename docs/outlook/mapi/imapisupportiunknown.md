@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport
 api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6da488408d3be9464d6ae1e016d5095707d451e4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1ad54ca8efccebd28ed38ebd457fb258a3f59790
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415438"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625391"
 ---
 # <a name="imapisupport--iunknown"></a>IMAPISupport : IUnknown
 

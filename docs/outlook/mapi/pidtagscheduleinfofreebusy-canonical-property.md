@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagScheduleInfoFreeBusy
 api_type:
 - COM
 ms.assetid: 54e65b23-7c5f-4ef3-9e32-329f5f461e1e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 018e3e907e6ff2250b4c0e5322af52b37d8e2817
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 21c808d1b0138cb92d4c5a3f34aced1eaa5a7172
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330071"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604165"
 ---
 # <a name="pidtagscheduleinfofreebusy-canonical-property"></a>Propriété canonique PidTagScheduleInfoFreeBusy
 

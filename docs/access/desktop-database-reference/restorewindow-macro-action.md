@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm11103
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 35637781035b7a449ba574cf5f6c84f2cb5223db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b70dd9941f5a14dbbb23b5c1bb3939e54e49f2d4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306586"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593662"
 ---
 # <a name="restorewindow-macro-action"></a>RestoreWindow, action de macro
 

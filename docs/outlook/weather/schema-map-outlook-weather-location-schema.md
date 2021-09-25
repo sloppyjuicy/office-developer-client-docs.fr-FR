@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
 description: Cette rubrique présente la définition de schéma pour le Outlook XML de l’emplacement météo.
-ms.openlocfilehash: e35a993c44c9f54168a7ad5c38e13e850d530a2d
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: d9569b69b3be6749ca03082efd60d65d345c4f78
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541280"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604025"
 ---
 # <a name="schema-map-outlook-weather-location-schema"></a>Plan de schéma (schéma Outlook emplacement météo)
 

@@ -3,17 +3,17 @@ title: NoScribble State
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0246138f-c55e-4353-8e53-e973f524d52c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 239f11cf27cdebff3d51645319d7ada3b9bb9ff6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ab70ef11a68b601729138e2ae92adc37cc89266c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326200"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592010"
 ---
 # <a name="noscribble-state"></a>NoScribble State
 

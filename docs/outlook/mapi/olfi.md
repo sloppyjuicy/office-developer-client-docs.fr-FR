@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 027905721b5730b4c3d78f496022b88a8e6b84d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ba40df92e19de903388b930e6264535f521d2a2d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279752"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625181"
 ---
 # <a name="olfi"></a>OLFI
 

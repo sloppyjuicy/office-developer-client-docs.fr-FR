@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250163(v=office.15)
 ms:contentKeyID: 48548333
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 03447b9977c74484eb7455a75fc2255c33c5e4c6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0241d5acc866ef69469fedbfb27694ed13e683da
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593564"
 ---
 # <a name="service-providers-and-components"></a>Fournisseurs de services et composants
 

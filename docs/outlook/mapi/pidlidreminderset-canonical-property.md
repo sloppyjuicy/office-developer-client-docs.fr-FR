@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidReminderSet
 api_type:
 - COM
 ms.assetid: 06b7792c-1b43-4e20-9a3b-44f2664b2125
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 59379b0b1345684a491f2f7f896f2b8fc8fd54c2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ee30d2c986f0da8455f6951213564426a6470b11
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335153"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624824"
 ---
 # <a name="pidlidreminderset-canonical-property"></a>Propriété canonique PidLidReminderSet
 

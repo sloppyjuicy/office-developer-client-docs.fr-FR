@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4292d489-fb7c-9d5d-9bec-2a1a0772d8ba
 description: Spécifie une propriété qui contrôle la position ou l’alignement des tabulations de forme et de style.
-ms.openlocfilehash: c3758f34058c08f98f8d99cf5c03f456e855d7df
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 952c98d5868a6bb60552dca7a84fe5cc00ff28f9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539361"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603766"
 ---
 # <a name="cell-element-tabs-section-visio-xml"></a>Élément de cellule (section Tabs) (Visio XML)
 

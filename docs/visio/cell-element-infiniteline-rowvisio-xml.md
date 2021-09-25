@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e14b8246-0064-3a54-7bd6-ad28180f9ea6
 description: Contient les coordonnées x ou y de deux points sur une ligne infinie.
-ms.openlocfilehash: 1198e516a15e829b9a2da23491ca5f75e88a8e7d
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: b0d9319a2be8f6365207d9dac7c4ee3b4a550d4b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539771"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603780"
 ---
 # <a name="cell-element-infiniteline-row-visio-xml"></a>Élément de cellule (ligne InfiniteLine) (Visio XML)
 
@@ -67,7 +67,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordonnée x d'un point sur la ligne infinie ; associée à la coordonnée y représentée par la cellule Y.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y d'un point sur la ligne infinie ; associée à la coordonnée x représentée par la cellule X.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y d'un point sur la ligne infinie ; associée à la coordonnée x représentée par la cellule X.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
 |A  <br/> |Coordonnée x d'un point sur la ligne infinie ; associée à la coordonnée y représentée par la cellule B.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
 |B  <br/> |Coordonnée y d'un point sur la ligne infinie ; associée à la coordonnée x représentée par la cellule A.  <br/> |[InfiniteLine, ligne (section Geometry)](infiniteline-row-geometry-section.md) <br/> |
    

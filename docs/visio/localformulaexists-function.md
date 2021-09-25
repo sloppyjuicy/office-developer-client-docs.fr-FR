@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60105
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b757c8d-7732-0f9b-c836-ef755dd1c673
 description: Indique si la cellule référencé contient une formule locale.
-ms.openlocfilehash: bd0a5dafecf1bd8dca1567392d880ecaaa3e0374
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2fdd6e547f1f86491fc84d316237d472e767536b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433289"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603654"
 ---
 # <a name="localformulaexists-function"></a>Fonction LOCALFORMULAEXISTS
 

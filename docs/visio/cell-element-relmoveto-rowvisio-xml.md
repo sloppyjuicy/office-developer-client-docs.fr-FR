@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e91497c-0aa1-2021-9317-cf989e5b84a3
 description: Contient les coordonnées x ou y du premier sommet d’une forme, ou les coordonnées x ou y du premier sommet après un rupture de chemin d’accès, par rapport à la hauteur et à la largeur de la forme.
-ms.openlocfilehash: 6ec7990887ed59ae229e88b6ad02a7759c770700
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 9cd7634388eea29b311bf617424253fc061c833e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539403"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578101"
 ---
 # <a name="cell-element-relmoveto-row-visio-xml"></a>Élément de cellule (ligne RelMoveTo) (Visio XML)
 
@@ -67,6 +67,6 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule X représente la coordonnée **x** du premier sommet d’une forme par rapport à la largeur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule X représente la coordonnée **x** du premier sommet après la coupure du chemin d’accès.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
-|v  <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule Y représente la coordonnée **y** du premier sommet d’une forme par rapport à la hauteur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée **y** du premier sommet après la coupure du chemin d’accès.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
+|O  <br/> |Si la **ligne RelMoveTo** est la première ligne de la section, la cellule Y représente la coordonnée **y** du premier sommet d’une forme par rapport à la hauteur de la forme. Si la **ligne RelMoveTo** apparaît entre deux lignes, la cellule Y représente la coordonnée **y** du premier sommet après la coupure du chemin d’accès.  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
    
 

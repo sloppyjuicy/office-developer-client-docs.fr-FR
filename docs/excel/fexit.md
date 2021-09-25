@@ -8,19 +8,19 @@ f1_keywords:
 - fExit
 keywords:
 - fonction fexit [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d85685fa-df70-45bb-b629-a9d43b5cb926
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 97f0a1ec797176fb51c87c58f94e46a323ae5b32
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8a355955d2d31247fce1d5b875472b0e749e554b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429914"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617236"
 ---
 # <a name="fexit"></a>fExit
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Exemple de commande définie par l’utilisateur qui décharge GENERIC.xll. Lorsque GENERIC.xll est chargé, il crée un menu défini par l’utilisateur, Generic, via lequel cette commande est accessible. 
   
@@ -28,7 +28,7 @@ Exemple de commande définie par l’utilisateur qui décharge GENERIC.xll. Lors
 int WINAPI fExit(void);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 La fonction ne prend aucun paramètre.
   

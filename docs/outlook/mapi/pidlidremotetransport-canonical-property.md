@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidRemoteTransport
 api_type:
 - COM
 ms.assetid: b3b30d6a-05cd-4dd1-a162-20768f12e680
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ddedc2ca0785be2fe4850ec3cfdf979d1e5f2798
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 22b497aea3510e7bd2f54b2fd32bbf7dd6f6a16c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439442"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591744"
 ---
 # <a name="pidlidremotetransport-canonical-property"></a>Propri t canonique PidLidRemoteTransport
 

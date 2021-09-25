@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameAttachmentMacInfo
 api_type:
 - COM
 ms.assetid: c46656d5-2cb1-45eb-9f66-9c2b6e3315cf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d2a7fcf06c4e09f46c0d50f9e5f8897874c5f9a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8058ee4c4a1467052df51809ba2f1f75d8b53bbb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360927"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616606"
 ---
 # <a name="pidnameattachmentmacinfo-canonical-property"></a>Propriété canonique PidNameAttachmentMacInfo
 

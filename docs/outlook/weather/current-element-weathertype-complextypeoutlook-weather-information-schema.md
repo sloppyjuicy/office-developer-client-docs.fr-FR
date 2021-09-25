@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d592a396-f935-c44c-409f-b849c327cfbd
 description: Spécifie les conditions météorologiques actuelles.
-ms.openlocfilehash: 1303212da1336112599ae5328498cca0d4ab5f89
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 616c891eb2b941e6376b2845e0844f0b43eb39e1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541007"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604032"
 ---
 # <a name="current-element-weathertype-complextype-outlook-weather-information-schema"></a>élément actuel (weatherType complexType) (Outlook Weather Information Schema)
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b3aea70-a69f-a85e-83d8-c0fa2ee68836
 description: Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézier quadratique par rapport à la largeur et à la hauteur de la forme ou aux coordonnées x ou y du point de contrôle de la largeur et de la hauteur de la forme relative de courbe.
-ms.openlocfilehash: 7bdd55cfd5401c8455f09cf7d237117572d12723
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 5d40d49d7544660e1a525834aeea05d67c1a2f80
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542386"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578073"
 ---
 # <a name="cell-element-relquadbezto-row-visio-xml"></a>Élément de cellule (ligne RelQuadBezTo) (Visio XML)
 
@@ -65,7 +65,7 @@ Contient les coordonnées x ou y du point de terminaison d’une courbe de Bézi
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordonnée x du sommet de fin d’une courbe de Bézier quadratique par rapport à la largeur de la forme.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du sommet de fin d’une courbe de Bézier quadratique par rapport à la hauteur de la forme.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y du sommet de fin d’une courbe de Bézier quadratique par rapport à la hauteur de la forme.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
 |A  <br/> |Coordonnée x du point de contrôle de la courbe par rapport à la largeur de la forme ; point sur l’arc. Le point de contrôle est mieux situé à mi-chemin entre les vertex de début et de fin de l’arc.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
 |B  <br/> |Coordonnée y du point de contrôle d’une courbe par rapport à la hauteur de la forme.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
    

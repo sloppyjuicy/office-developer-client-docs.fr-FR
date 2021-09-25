@@ -3,17 +3,17 @@ title: Gestionnaire de formulaire MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c0bbbd06-d47d-45ad-8179-2372d1d023d0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3059183103ca2552505486b5ec54366729ae4ec3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 67022a2fd85dbbc7be0dbc3f5481318f2a806d7c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430195"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592157"
 ---
 # <a name="mapi-form-manager"></a>Gestionnaire de formulaire MAPI
 

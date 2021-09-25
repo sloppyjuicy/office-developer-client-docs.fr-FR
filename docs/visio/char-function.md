@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251406
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0803d5d3-d804-5ffe-604d-661b35d1fc01
 description: Renvoie le caractère ANSI d’un nombre.
-ms.openlocfilehash: 6f1c459892331ec30ad93bbc860fcd038e8f4732
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9e29a518f81a59fcf63313ef06391a4984944d81
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418189"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603752"
 ---
 # <a name="char-function"></a>Fonction CHAR
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822720(v=office.15)
 ms:contentKeyID: 48547415
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 536e058a0485479cabd1cc2a0aae09f2396bfbcc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ceb75ee4c4e262b39ecd30957270228b94dd0fb5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287873"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59581013"
 ---
 # <a name="parameterscount-property-dao"></a>Parameters.Count, propriété (DAO)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagReceivedByEmailAddress
 api_type:
 - COM
 ms.assetid: 5f9ebe20-b037-422b-9991-69f85122a706
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cea63037f926cdd178b6036c82e87cbba48d7347
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 24d12382b5d76552c4fd041b2af819660128a740
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359233"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624677"
 ---
 # <a name="pidtagreceivedbyemailaddress-canonical-property"></a>Propriété canonique PidTagReceivedByEmailAddress
 

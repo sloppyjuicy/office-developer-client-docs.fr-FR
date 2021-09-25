@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISession.OpenProfileSection
 api_type:
 - COM
 ms.assetid: e2757028-27e7-4fc0-9674-e8e30737ef1d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9d7c1693dfb22ae89afed8cbe1426c1e186f8b2d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0ffa10ee6939ca46a5c6cab2c2d41e1facca5375
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439918"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625517"
 ---
 # <a name="imapisessionopenprofilesection"></a>IMAPISession::OpenProfileSection
 
@@ -36,7 +36,7 @@ HRESULT OpenProfileSection(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpUID_
   

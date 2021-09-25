@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2f8eff88-848c-4ad4-a6be-b1744a0ce4ce
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4688c706629368be0c2a56490020a0cab17c5bf1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 594754f145db02393d651bd636c201a0f47682d9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405939"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624698"
 ---
 # <a name="pidtagpstrememberpassword-canonical-property"></a>Propriété canonique PidTagPstRememberPassword
 

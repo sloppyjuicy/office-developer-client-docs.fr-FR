@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidLogDocumentPrinted
 api_type:
 - COM
 ms.assetid: e01bf0d9-62cf-4fba-8cec-232a46025feb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 16504329d9eb653914d84da2be26e10c54d06376
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 836b2cf09056bfcfcf51224573697ab6d70167aa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604599"
 ---
 # <a name="pidlidlogdocumentprinted-canonical-property"></a>Propriété canonique PidLidLogDocumentPrinted
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRecipientCertificate
 api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c659b77767fddc4c783732082c2eb65c68af8dbf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 88a3b93229f2a2f405da8467225eeabfc1441c5a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624663"
 ---
 # <a name="pidtagrecipientcertificate-canonical-property"></a>Propriété canonique PidTagRecipientCertificate
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm605
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6eb51e5a-03d8-3daa-b4e1-6107d540aed9
 description: Verrouille un rectangle de sélection de la forme de sorte qu'elle ne puisse pas être recalculée lorsqu'un sommet est modifié ou que le type d'une ligne est changé dans la section Geometry.
-ms.openlocfilehash: 2b1d907f480a22a56f5847035da8d1cbde5fdcc5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4d9c6645640c2c53e086cbee384d103421945a72
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423040"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603647"
 ---
 # <a name="lockcalcwh-cell-protection-section"></a>LockCalcWH, cellule (section Protection)
 

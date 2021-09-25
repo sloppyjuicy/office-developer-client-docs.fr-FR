@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc1e059b-7705-8b30-aeab-f56707086416
-ms.openlocfilehash: 5df48bcc69f0bd4aa818f265d0c7db1986165b3e
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 73302c030fd92d7adcbfca846b95342bbdf7e79a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537898"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616032"
 ---
 # <a name="authorlist_type-complextype-visio-xml"></a>AuthorList_Type complexType (Visio XML)
 
@@ -46,7 +46,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[AuthorEntry](authorentry-element-authorlist_type-complextypevisio-xml.md) <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> ||
    

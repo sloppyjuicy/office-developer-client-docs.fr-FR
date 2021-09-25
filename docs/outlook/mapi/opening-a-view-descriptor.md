@@ -3,17 +3,17 @@ title: Ouverture d’un descripteur de vue
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1940feb0-9e0f-4d96-9fb9-b9a35a0aa661
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ce53e5a91f6fa340728872457eae7f6514e287aa
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d510d1f016da2214c46aadd918a7e3cae1804379
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413037"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625146"
 ---
 # <a name="opening-a-view-descriptor"></a>Ouverture d’un descripteur de vue
   

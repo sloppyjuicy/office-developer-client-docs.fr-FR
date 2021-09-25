@@ -5,19 +5,19 @@ ms.date: 09/06/2019
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IConverterSession.MIMEToMAPI
 api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
 description: 'Last modified: September 06, 2019'
-ms.openlocfilehash: c9fcffa8ad4dc982e869f4ccd449e1377fb1ea57
-ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
+ms.openlocfilehash: a24c3cfacaf86369fd5229e9a8beb3dec13d589f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160285"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616844"
 ---
 # <a name="iconvertersessionmimetomapi"></a>IConverterSession::MIMEToMAPI
 
@@ -36,7 +36,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pstm_
   

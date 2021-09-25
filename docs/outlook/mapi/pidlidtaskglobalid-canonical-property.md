@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskGlobalId
 api_type:
 - COM
 ms.assetid: 369d8c78-3cf6-4a55-ba14-9da0377d6ccf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 295eb9dcc6da7b0fb6c6fd7ea0b73134ffaadb3f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f608e2b1f40b6ad40056a49d96a48ea4dba1c63d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303016"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604466"
 ---
 # <a name="pidlidtaskglobalid-canonical-property"></a>Propriété canonique PidLidTaskGlobalId
 

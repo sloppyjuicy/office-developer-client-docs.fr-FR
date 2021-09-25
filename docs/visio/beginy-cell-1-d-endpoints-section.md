@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm95
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2518a70-5755-a15a-a238-bac2ae64a75a
 description: Représente la coordonnée y du point de début de la forme 1D, par rapport à l’origine de son parent.
-ms.openlocfilehash: dbe1cca3a3b969b14b62cb613359d014c7933bd9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 54b5e9593e24d73890254f35a1df5ada598c4cbb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419211"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603808"
 ---
 # <a name="beginy-cell-1-d-endpoints-section"></a>BeginY, cellule (section 1-D Endpoints)
 

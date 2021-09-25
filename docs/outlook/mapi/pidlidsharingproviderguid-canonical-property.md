@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidSharingProviderGuid
 api_type:
 - COM
 ms.assetid: 103c9cf2-42fb-4fa5-b9c2-8a92725d3097
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 68a1fef672b4f32c6ff0ebfea56bf240b7281f0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c1e38013734d2acbf418741501b26df453aa3b0d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336882"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624778"
 ---
 # <a name="pidlidsharingproviderguid-canonical-property"></a>Propriété canonique PidLidSharingProviderGuid
 

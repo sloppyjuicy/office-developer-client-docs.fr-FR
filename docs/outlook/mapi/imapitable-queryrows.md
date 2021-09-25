@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPITable.QueryRows
 api_type:
 - COM
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 26d6ffe66a5e7749c9d8c4e5210e9f72de808932
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7f21172c00f1b5130de657e7018d05f04d16afe5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416292"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625349"
 ---
 # <a name="imapitablequeryrows"></a>IMAPITable::QueryRows
 
@@ -35,7 +35,7 @@ LPSRowSet FAR * lppRows
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lRowCount_
   

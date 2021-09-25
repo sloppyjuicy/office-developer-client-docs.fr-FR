@@ -11,13 +11,13 @@ f1_keywords:
 - vbaac10.chm12286
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: bacbdc100d147be8bf4327a5a775b199c79347bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: d3196db2851804fc09b1479e65122358a7fd1489
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308735"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580859"
 ---
 # <a name="set-form-report-and-control-properties"></a>Définir des propriétés de formulaire, de rapport et de contrôle
 
@@ -33,7 +33,7 @@ Chaque formulaire, état, section et contrôle possède des paramètres de propr
     
    - Une section. Cliquez sur le sélecteur de section de la section que vous voulez sélectionner.
     
-   - Ensemble du formulaire ou rapport. Cliquez sur le sélecteur de formulaire ou le sélecteur de rapport dans le coin supérieur du formulaire ou du rapport.
+   - Le formulaire ou rapport complet. Cliquez sur le sélecteur de formulaire ou le sélecteur de rapport dans le coin supérieur du formulaire ou du rapport.
 
 2. Affichez la feuille des propriétés en cliquant à l'aide du bouton droit de la souris sur l'objet ou la section, puis en cliquant sur **Propriétés** dans le menu contextuel ou en cliquant sur **Propriétés** dans la barre d'outils.
 

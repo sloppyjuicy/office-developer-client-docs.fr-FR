@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIContainer.GetContentsTable
 api_type:
 - COM
 ms.assetid: 88c7a666-875d-473a-b126-dbbb7009f7d9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 28315c5a09eba32816a0b63513cb98d1c30a96bb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: adccaaf30fb2deaf97a6b469170e529fa7121750
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431105"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616802"
 ---
 # <a name="imapicontainergetcontentstable"></a>IMAPIContainer::GetContentsTable
 
@@ -34,7 +34,7 @@ HRESULT GetContentsTable(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

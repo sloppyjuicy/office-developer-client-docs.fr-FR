@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIViewContext.SetAdviseSink
 api_type:
 - COM
 ms.assetid: 4799084a-b5d1-48c3-a889-b2f0e9d68c30
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7ee641214e1eaae667af356fd8dbe51ff7dc7982
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a62c3edce79349e748620d82e7b18d482dfdb187
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419393"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625279"
 ---
 # <a name="imapiviewcontextsetadvisesink"></a>IMAPIViewContext::SetAdviseSink
 
@@ -33,7 +33,7 @@ LPMAPIFORMADVISESINK pmvns
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pmvns_
   

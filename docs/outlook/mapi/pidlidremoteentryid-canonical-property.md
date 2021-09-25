@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidRemoteEntryId
 api_type:
 - COM
 ms.assetid: 3330ce33-fec5-472b-bb28-16b1410b0eab
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9aa39c8ee68de42f1722048cb871d07e9a8151a0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7744a85fdb1669a259de622979f3c99118e8f00f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435305"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604487"
 ---
 # <a name="pidlidremoteentryid-canonical-property"></a>Propriété canonique PidLidRemoteEntryId
 

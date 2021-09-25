@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
 description: Obtient le classement de la catégorie de comptes spécifiée.
-ms.openlocfilehash: 3eb6dd96caa43f81eba86a389c938ef90c9533b2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3a680e7a40197a3edf22e78d4e35ac981802a193
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424622"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617110"
 ---
 # <a name="iolkaccountmanagergetorder"></a>IOlkAccountManager::GetOrder
 
@@ -30,7 +30,7 @@ HRESULT IOlkAccountManager::GetOrder (
 ); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pclsidCategory_
   

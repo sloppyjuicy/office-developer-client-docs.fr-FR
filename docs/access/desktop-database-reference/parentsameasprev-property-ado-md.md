@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248863(v=office.15)
 ms:contentKeyID: 48543263
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0b9f7157dc0f7805f2b10470c00d35f26977584d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2e58ce4d6d3d3e141b25b33957e71e40b50e2950
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287730"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59581019"
 ---
 # <a name="parentsameasprev-property-ado-md"></a>Propriété ParentSameAsPrev (ADO MD)
 

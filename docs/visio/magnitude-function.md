@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251461
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9f443687-9861-5f51-94c4-f056805f736b
 description: Renvoie la magnitude du vecteur dont la montée est A et dont la run est B, multipliée par les constantes respectives constantA et constantB.
-ms.openlocfilehash: 6393c7827e2553ca4948c8b9c51075ca8e4783bd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ac3eb76ad2ad5c20e76f391c6ceedea50d1c3d8d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420457"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582504"
 ---
 # <a name="magnitude-function"></a>Fonction MAGNITUDE
 

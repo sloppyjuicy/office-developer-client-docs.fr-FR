@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eff6d5d6-8855-4e54-a781-9deab8cc0aca
 description: Cette rubrique décrit les langages de programmation pris en charge, la visibilité COM et les exigences de type de retour de méthode, ainsi que les détails de la DLL d’extensibilité du fournisseur OSC (Outlook Social Connector).
-ms.openlocfilehash: 14dfcf52d714177775c5610b5da91d174f81a132
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5d5ca78c7ff1e328257b7e645731e76a2e6e5633
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329154"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604059"
 ---
 # <a name="technical-requirements"></a>Exigences techniques
 
@@ -58,7 +58,7 @@ Il n’y a pas de dépendances sur un parseur XML. Le fournisseur OSC peut utili
 ## <a name="see-also"></a>Voir aussi
 
 - [Meilleures pratiques pour le développement d’un fournisseur](best-practices-for-developing-a-provider.md)  
-- [Étapes rapides pour apprendre à développer un fournisseur](quick-steps-for-learning-to-develop-a-provider.md)
+- [Étapes rapides pour Learning développement d’un fournisseur](quick-steps-for-learning-to-develop-a-provider.md)
 - [Déploiement d'un fournisseur](deploying-a-provider.md)  
 - [Prise en main du développement d'un fournisseur Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)
 

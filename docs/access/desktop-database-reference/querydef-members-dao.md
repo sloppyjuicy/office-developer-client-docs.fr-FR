@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192855(v=office.15)
 ms:contentKeyID: 48544403
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 5b3afc134636d5621f38ece4530be5312e42bc74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 5e3577692f757483c141abf64cc934dfcf5bcec9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302981"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617761"
 ---
 # <a name="querydef-members-dao"></a>QueryDef, membres (DAO)
 
@@ -79,7 +79,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <td><p>Définit ou renvoie le nombre d'enregistrements extraits d'une source de données ODBC qui seront placés dans le cache local. Valeur <strong>Long</strong> en lecture-écriture.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-connect-property-dao.md">Connect</a></strong></p></td>
+<td><p><strong><a href="querydef-connect-property-dao.md">Connecter</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui fournit des informations sur la source de base de données dans une requête SQL directe. Type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
@@ -107,7 +107,7 @@ Un objet QueryDef est une définition stockée d'une requête dans une base de d
 <td><p>Indique le nombre de secondes d'attente avant que ne survienne une erreur d'expiration lors de l'exécution d'un objet <strong><a href="querydef-object-dao.md">QueryDef</a></strong> sur une base de données ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydef-parameters-property-dao.md">Parameters</a></strong></p></td>
+<td><p><strong><a href="querydef-parameters-property-dao.md">Paramètres</a></strong></p></td>
 <td><p>Renvoie une collection <strong><a href="parameters-collection-dao.md">Parameters</a></strong> qui contient tous les objets <strong><a href="parameter-object-dao.md">Parameter</a></strong> de l'objet <strong>QueryDef</strong> spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">

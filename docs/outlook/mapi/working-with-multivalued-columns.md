@@ -3,17 +3,17 @@ title: Travailler avec des colonnes à valeurs multiples
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 34f19e279c86e0c0856d242cf2aa13d744d46f13
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ee6b1f22b7eee25698bbc445c562bdbe849b38f9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420184"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578395"
 ---
 # <a name="working-with-multivalued-columns"></a>Travailler avec des colonnes à valeurs multiples
 

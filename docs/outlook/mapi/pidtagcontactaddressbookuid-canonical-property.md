@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContactAddressBookUid
 api_type:
 - HeaderDef
 ms.assetid: ec1b8e14-b27d-4a28-b9b7-f36f7c3e7427
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2edc65b4c0dad964e83b2731528124a86c87a32d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b00a97bf360abaae949b843c7d9a730441896f02
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418308"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571058"
 ---
 # <a name="pidtagcontactaddressbookuid-canonical-property"></a>Propriété canonique PidTagContactAddressBookUid
 

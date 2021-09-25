@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253218
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d87313a-c09a-582c-04f4-d95800e3e9f2
 description: Renvoie un angle transformé dans le système de coordonnées parent de la forme de destination. Convertit un angle des coordonnées locales de la forme source en coordonnées parent de la forme de destination.
-ms.openlocfilehash: 0fed51e264bfb21da25d4e91f20f4bc0803e46e8
-ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
+ms.openlocfilehash: 15be3a0230f439221b1d6a20be63abd456acc4cb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160257"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603920"
 ---
 # <a name="angletopar-function"></a>Fonction ANGLETOPAR
 
@@ -24,7 +24,7 @@ Renvoie un angle transformé dans le système de coordonnées parent de la forme
   
 ## <a name="syntax"></a>Syntaxe
 
-ANGLETOPAR(***srcAngle***, ***srcRef***, ***dstRef*** ) 
+ANGLETOPAR(***srcAngle** _, _*_srcRef_*_, _ *_dstRef_** ) 
   
 ### <a name="parameters"></a>Paramètres
 

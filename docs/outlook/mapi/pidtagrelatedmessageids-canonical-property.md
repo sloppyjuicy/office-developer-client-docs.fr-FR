@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRelatedMessageIds
 api_type:
 - COM
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d909a121bdc528a04d0f400555a6f98f29da8f0c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 501b5e6acc83a5da27af3ef6024ecc9e049893cd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406051"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624621"
 ---
 # <a name="pidtagrelatedmessageids-canonical-property"></a>Propriété canonique PidTagRelatedMessageIds
 

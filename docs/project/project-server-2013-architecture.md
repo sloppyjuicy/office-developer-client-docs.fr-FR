@@ -5,13 +5,13 @@ ms.date: 05/17/2019
 ms.audience: Developer
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 intègre des fonctionnalités de gestion de projet dans une batterie de serveurs SharePoint et autorise l’utilisation de Project Online avec un modèle objet client (CSOM) et une interface OData pour les données de création de rapports.
-localization_priority: Priority
-ms.openlocfilehash: fd940c9ae74e04587cdfa83354b6ee71da21073c
-ms.sourcegitcommit: e2cff03cb13d6c500942897b234db00476a72f18
+ms.localizationpriority: high
+ms.openlocfilehash: 51e106cb31ee7b4d385baf45082638998a3eeae5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34100894"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566128"
 ---
 # <a name="project-server-architecture"></a>Architecture Project Server
 
@@ -120,11 +120,11 @@ Les commentaires généraux suivants s’appliquent à la figure 3 :
     > [!NOTE]
     > Même si l’option `$metadata` pour le service de création de rapports **ProjectData** est valide, l’option `$metadata` pour le service **ProjectServer** du modèle CSOM est supprimée dans la version publiée de Project Server 2013. Pour plus d’informations sur les requêtes REST pour le modèle CSOM, consultez la rubrique [Modèle objet côté Client (CSOM) pour Project Server](client-side-object-model-csom-for-project-2013.md). 
   
-- **Redirecteur PSI :** l’accès programmatique à l’interface PSI sur un serveur web frontal distinct s’effectue via le redirecteur PSI qui inclut un redirecteur WCF et un redirecteur de service web. Les clients qui utilisent l’interface ASMX accèdent à l’interface PSI via le redirecteur de service web. Les clients qui utilisent l’interface WCF accèdent à l’interface PSI via le redirecteur WCF. L’accès programmatique via le modèle CSOM, OData et REST est redirigé via le redirecteur WCF. 
+- **Redirecteur PSI :** l’accès programmatique au PSI dans un serveur WFE distinct transite via le redirecteur PSI, qui inclut un redirecteur WCF et un redirecteur de service web. Les clients qui utilisent l’interface ASMX accèdent au PSI via le redirecteur de service web, et ceux qui utilisent l’interface WCF y accèdent via le redirecteur WCF. L’accès programmatique via CSOM, OData et REST est redirigé via le redirecteur WCF. 
     
 - **Flux de travail :**  : les flux de travail déclaratifs (flux de travail définis dans SharePoint Designer 2013) sont déchargés vers Workflow Manager Client 1.0 à des fins de traitement. Workflow Manager Client 1.0 peut s’exécuter sur un serveur distinct dans la batterie SharePoint, sur Microsoft Azure dans le cloud ou sur un ordinateur Project Server unique à des fins de test ou de démonstration. Les flux de travail codés développés avec Visual Studio 2012 sont traités dans le runtime de flux de travail dans SharePoint, comme dans Project Server 2010. Pour plus d’informations, consultez la rubrique [Prise en main du développement de flux de travail Project Server](getting-started-developing-project-server-workflows.md).
     
-- **Réseau de périmètre (DMZ) :** la figure 3 ne montre pas qu’un serveur frontal local peut être isolé par un pare-feu supplémentaire dans un réseau de périmètre (également appelé « zone démilitarisée » ou DMZ). Un réseau de périmètre peut autoriser les clients Internet à accéder à SharePoint et Project Server via un pare-feu. 
+- **Réseau de périmètre (DMZ) :** la figure 3 ne montre pas qu’un serveur WFE local peut être isolé par un pare-feu supplémentaire dans un réseau de périmètre (également appelé « zone démilitarisée » ou DMZ). Un réseau de périmètre peut autoriser les clients Internet à accéder à SharePoint et Project Server via un pare-feu. 
     
 - **Services web SharePoint :** la figure 3 ne montre pas l’infrastructure de SharePoint, notamment l’application Services web SharePoint principale, qui fait partie de SharePoint Server 2013. Lorsque vous installez Project Server, l’application de service Project est ajoutée aux services web SharePoint. 
     
@@ -171,7 +171,7 @@ La figure 4 montre le volet **Connexions** dans **Gestionnaire des services Int
   
 **Figure 4. Gestionnaire des services Internet (IIS) affichant les services PSI frontaux (A) et les services PSI principaux (B)**
 
-![Services PSI frontaux et services PSI principaux](media/pj15_Architecture_PSI_IIS.gif "Services PSI frontaux et services PSI principaux")
+![PSI frontal et PSI principal](media/pj15_Architecture_PSI_IIS.gif "PSI frontal et PSI principal")
   
 Les applications clientes ne peuvent pas accéder directement aux services WCF pour l’interface PSI dans l’application de service Project principale. Si elles ne requièrent pas d’accès à Project Online, les applications clientes et les composants des applications métier utilisent des proxys pour l’interface PSI. Une URL principale pour l’interface WCF du service **Resource** dans la figure 4, par exemple, pourrait être `https://ServerName:32843/508c23fb7dfd4c83a8919fae24bc68c5/psi/resource.svc`. Le port 32843 est le port HTTP par défaut pour l’application Services web SharePoint (32844 est le port pour les communications HTTPS). Toutefois, le fichier web.config pour Project Web App bloque l’accès direct aux services PSI principaux.
   

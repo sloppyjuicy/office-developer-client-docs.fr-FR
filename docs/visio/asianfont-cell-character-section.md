@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033764
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45bfaaaa-52cc-f8b4-68e7-8b99e5788ce1
 description: Contient le numéro de la police utilisée pour mettre en forme le texte comportant des caractères asiatiques. Les numéros de police varient en fonction des polices installées sur votre système.
-ms.openlocfilehash: 4af7e590a7bd0733ad622f3df259aa6c01837c4b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f7a831707e79d0afd2fdc08c21d5f074148902b5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406590"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603899"
 ---
 # <a name="asianfont-cell-character-section"></a>AsianFont, cellule (section Character)
 

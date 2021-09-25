@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251832
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56430658-a798-c004-b4ba-363443f43ded
 description: Des valeurs d'erreur s'affichent dans les cellules contenant une formule incorrecte.
-ms.openlocfilehash: 5219becdd1af888e424a2fe33faa7df5a06f61fb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d2d0f9714e0a25078b765c636d0f3c606d241706
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423866"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578304"
 ---
 # <a name="about-error-values"></a>À propos des valeurs d’erreur
 
@@ -32,6 +32,6 @@ Si une formule fait référence à une cellule qui contient une valeur d'erreur,
 | #REF!  <br/> | Une référence à une cellule qui n'existe pas  <br/> | Une cellule faisant référence à une cellule qui n'existe plus  <br/> |
 | #NUM!  <br/> | Un nombre incorrect  <br/> | La racine carrée d'un nombre négatif  <br/> |
 | #N/A!  <br/> | Valeur non disponible  <br/> | Fonction NA( )  <br/> |
-| #DIM !  <br/> | Valeur dimensionnelle qui dépasse la plage de dimensions (les puissances valides sont des nombres -128 \< = n \< = 127)  <br/> Une valeur de cote utilisée dans une opération non appropriée  <br/> |1in^100 1in^100 (le résultat est 1in^200, ce qui se trouve au-delà de la \* plage de dimensions)  <br/> 5,2 cm^1,5 (la puissance n'est pas un entier)  <br/> |
+| #DIM !  <br/> | Valeur dimensionnelle qui dépasse la plage de dimensions (les puissances valides sont des nombres multiples -128 Une valeur dimensionnelle utilisée \<= n \<= 127)  <br/> avec une opération inappropriée  <br/> |1in^100 1in^100 (le résultat est 1in^200, ce qui se trouve au-delà de la \* plage de dimensions)  <br/> 5,2 cm^1,5 (la puissance n'est pas un entier)  <br/> |
    
 

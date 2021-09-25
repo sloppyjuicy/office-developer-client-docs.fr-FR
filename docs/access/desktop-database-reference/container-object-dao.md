@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff191764(v=office.15)
 ms:contentKeyID: 48543720
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: c9ebbeae35387f4fd59c39d4c20df6033edb06b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 39a3bb0f2b0b2c8113644f4d509a7867c7d5c8ad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295631"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577520"
 ---
 # <a name="container-object-dao"></a>Container, objet (DAO)
 
@@ -39,7 +39,7 @@ Certains de ces objets **Container** sont définis par le moteur de base de donn
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Databases</p></td>
+<td><p>Bases de données</p></td>
 <td><p>Bases de données enregistrées</p></td>
 </tr>
 <tr class="even">

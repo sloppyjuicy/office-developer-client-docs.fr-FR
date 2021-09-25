@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm70
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ff2893c-afe5-505e-0b55-48ec1de08a5f
 description: Détermine la quantité d’espace vertical entre les formes de la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition).
-ms.openlocfilehash: 283de8925e34c470fd1f9e78b8ae58882be8b7fc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 08c40814735f4e2db8092221c99f9213857f14ec
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420205"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578185"
 ---
 # <a name="avenuesizey-cell-page-layout-section"></a>AvenueSizeY, cellule (section Page Layout)
 

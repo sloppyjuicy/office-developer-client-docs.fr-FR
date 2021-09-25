@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm117413
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: eade809a6e3982dc0dc4cf94ae382af72e8f454e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f2c98a02702409962f20289128b18e53835e071d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306796"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617495"
 ---
 # <a name="removealltempvars-macro-action"></a>RemoveAllTempVars, action de macro
 

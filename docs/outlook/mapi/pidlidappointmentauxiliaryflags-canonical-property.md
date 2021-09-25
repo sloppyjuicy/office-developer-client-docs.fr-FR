@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAppointmentAuxiliaryFlags
 api_type:
 - COM
 ms.assetid: 56c64e23-4a99-4f80-ba06-dfae2a5fe961
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4414ae866dece0654131d1575fe699676892709f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 66bbaccb056dfeba28d3016023a8093bc05927b9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345429"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591968"
 ---
 # <a name="pidlidappointmentauxiliaryflags-canonical-property"></a>Propriété canonique PidLidAppointmentAuxiliaryFlags
 

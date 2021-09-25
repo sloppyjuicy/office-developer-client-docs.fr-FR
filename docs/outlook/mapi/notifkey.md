@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.NOTIFKEY
 api_type:
 - COM
 ms.assetid: 031b7e18-59b2-445c-a747-348fda92f458
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ab1586696a4b72aa9e88545c2069c3f8b5d22d72
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6665569b157a874aec248312b30e0528f48c0bcb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429627"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625188"
 ---
 # <a name="notifkey"></a>NOTIFKEY
 

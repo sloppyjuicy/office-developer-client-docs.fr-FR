@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.Address
 api_type:
 - COM
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7300c11d5835640fe308430c9bb08d40b397e47b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ee1a45deedc733d016d20fbd5cb43dbfa3b6b495
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407318"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625489"
 ---
 # <a name="imapisupportaddress"></a>IMAPISupport::Address
 
@@ -35,7 +35,7 @@ HRESULT Address(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpulUIParam_
   

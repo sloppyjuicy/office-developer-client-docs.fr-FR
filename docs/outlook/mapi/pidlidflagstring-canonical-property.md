@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidFlagString
 api_type:
 - COM
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b3cd88db7e93b53990cf0181af623ebca75f0c6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f3cf778a4854e29c83c5728671f526788d363fb3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357784"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604605"
 ---
 # <a name="pidlidflagstring-canonical-property"></a>Propriété canonique PidLidFlagString
 

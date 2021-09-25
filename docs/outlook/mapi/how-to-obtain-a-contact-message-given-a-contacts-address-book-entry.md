@@ -3,15 +3,15 @@ title: Obtenir un message de contact en cas d’entrée de carnet d’adresses d
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
 description: 'Last modified: August 13, 2013'
-ms.openlocfilehash: be988a3036c2d882f65e2e588cc9a40bfda146a5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d4f56314dc8b2acac859f519ac2e15e219011b27
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437790"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616970"
 ---
 # <a name="obtain-a-contact-message-given-a-contacts-address-book-entry"></a>Obtenir un message de contact en cas d’entrée de carnet d’adresses de contacts
 

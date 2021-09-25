@@ -3,15 +3,15 @@ title: Surveillance des changements d’état de connexion à l’aide d’un ad
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d24a6d93943883a5503b57ef223d9be777af13d8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f64f2ca3038053f008f29a811de3e4e6c82f53bc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431301"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592031"
 ---
 # <a name="monitoring-connection-state-changes-using-an-offline-state-add-in"></a>Surveillance des changements d’état de connexion à l’aide d’un add-in d’état hors connexion
 

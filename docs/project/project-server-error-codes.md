@@ -13,13 +13,13 @@ keywords:
 - PSI, codes d’erreur, codes d’erreur, Project Server, PSErrorID, interface Project Server, codes d’erreur, Project Server, codes d’erreur
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: Cette rubrique présente des tableaux de codes d’erreur pour l’interface Project Server (PSI) dans Project Server 2013. Les tableaux sont organisés par domaine fonctionnel et par plage de codes d’erreur.
-localization_priority: Priority
-ms.openlocfilehash: c61821bcb85fa3bd83601659850577eaa93eda61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: a36610031e647ea46a18490908617f88608581cf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301476"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566107"
 ---
 # <a name="project-server-error-codes"></a>Codes d’erreur de Project Server
 
@@ -201,7 +201,7 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 
 <a name="pj15_ErrorCodes_ActiveCache"></a>
 
-## <a name="table-4-active-cache"></a>Tableau 4. Cache actif
+## <a name="table-4-active-cache"></a>Tableau 4 : Cache actif
 
 |Code d’erreur relatif au cache actif|Description|
 |:-----|:-----|
@@ -223,7 +223,7 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 
 <a name="pj15_ErrorCodes_ActiveDirectory"></a>
 
-## <a name="table-5-active-directory-synchronization"></a>Tableau 5. Synchronisation Active Directory
+## <a name="table-5-active-directory-synchronization"></a>Tableau 5. Synchronisation Active Directory
 
 |Code d’erreur relatif à la synchronisation Active Directory|Description|
 |:-----|:-----|
@@ -416,7 +416,7 @@ Les processus Project Server 2013 et les méthodes PSI ont des numéros de cod
 
 <a name="pj15_ErrorCodes_CICO"></a>
 
-## <a name="table-11-check-in-and-check-out"></a>Tableau 11. Archiver et extraire
+## <a name="table-11-check-in-and-check-out"></a>Tableau 11. Archivage et extraction
 
 |Code d’erreur d’archivage - extraction|Description|
 |:-----|:-----|
@@ -1028,7 +1028,7 @@ Les codes d’erreur dans le tableau 17 concernent le planificateur, qui est un
 
 <a name="pj15_ErrorCodes_ResourcePlans"></a>
 
-## <a name="table-21-resource-plan"></a>Tableau 21. Plan de ressources
+## <a name="table-21-resource-plan"></a>Tableau 21. Plan des ressources
 
 |Code d’erreur de plan de ressources|Description|
 |:-----|:-----|
@@ -1046,7 +1046,7 @@ Les codes d’erreur dans le tableau 17 concernent le planificateur, qui est un
 |ResourcePlanInvalidProjectUID = 30011  <br/> |GUID de projet non valide pour le plan de charge des ressources.  <br/> |
 |ResourcePlanResourceAlreadyExists = 30012  <br/> |La ressource existe déjà dans le plan de ressources.  <br/> |
    
-Les codes d’erreur du tableau 22 concernent les méthodes **Règles**du service web **PWA**. Ils sont utilisés en interne. 
+Les codes d’erreur du tableau 22 concernent les méthodes **Règles** du service web **PWA**. Ils sont utilisés en interne. 
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
@@ -1332,7 +1332,7 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 |EnterpriseProjectTypeCannotDeleteEnterpriseProjectType = 35203  <br/> |Impossible de supprimer le type de projet d’entreprise.  <br/> |
 |EnterpriseProjectTypeCannotCreateMultipleEnterpriseProjectTypes = 35204  <br/> |Impossible de créer plusieurs types de projet d’entreprise.  <br/> |
 |EnterpriseProjectTypeCannotUpdateMultipleEnterpriseProjectTypes = 35205  <br/> |Impossible de mettre à jour plusieurs types de projet d’entreprise.  <br/> |
-|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |Un modèle de projet d’entreprise (EPT) requiert une page de détails de projet (PDP) associée pour créer un projet à l’aide de l’EPT. Si l’EPT concerne un flux de travail, cette erreur se produit pendant la validation de l’EPT lorsque la page de détails de projet (PDP) n’est pas de type *Créer*. Les autres types PDP sont *Normal* pour modifier un projet et *État du flux de travail* pour afficher les détails d’un projet lié à un flux de travail.  <br/> |
+|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |Un modèle de projet d’entreprise (EPT) requiert une page de détails de projet (PDP) associée pour créer un projet à l’aide de ce modèle. Si ce dernier est lié à un flux de travail, cette erreur se produit au cours de la validation du modèle de projet d’entreprise, lorsque la page de détails de projet (PDP) n’est pas de type *Créer*. Les autres types de PDP sont *Normal* pour la modification d’un projet et *État du flux de travail* pour l’affichage des détails d’un projet lié au flux de travail.<br/> |
 |EnterpriseProjectTypeInvalidProjectPlanTemplateUid = 35207  <br/> |La valeur [ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID.aspx) n’est pas valide.  <br/> |
 |EnterpriseProjectTypeInvalidWorkspaceTemplateName = 35208  <br/> |La valeur [ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME.aspx) n’est pas valide.  <br/> |
 |EnterpriseProjectTypeInvalidWorkflowAssociationUid = 35209  <br/> |La valeur [WORKFLOW_ASSOCIATION_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.WORKFLOW_ASSOCIATION_UID.aspx) n’est pas valide.  <br/> |
@@ -1344,9 +1344,9 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 |EnterpriseProjectTypeCannotDeleteDefault = 35215  <br/> |Impossible de supprimer le type de projet d’entreprise par défaut.  <br/> |
 |EnterpriseProjectTypeCannotChangeDefault = 35216  <br/> |Impossible de modifier le type de projet d’entreprise par défaut.  <br/> |
 |EnterpriseProjectTypeHasProjectsCannotDelete = 35217  <br/> |Impossible de supprimer un type de projet d’entreprise qui comporte des projets.  <br/> |
-|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Un modèle de projet d’entreprise (EPT) pour un flux de travail requiert une page de détails de projet (PDP) associée de type *Créer* pour créer un projet à l’aide du modèle de projet d’entreprise. Cette erreur se produit lorsque la page de détails de projet n’est pas incluse dans la définition du modèle de projet d’entreprise. Les autres types PDP sont *Normal* pour modifier un projet et *État du flux de travail* pour afficher les détails d’un projet lié à un flux de travail.  <br/> |
+|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |Un modèle de projet d’entreprise (EPT) pour un flux de travail requiert une page de détails de projet (PDP) de type *Créer* associée pour créer un projet à l’aide de ce modèle. Cette erreur se produit lorsque la PDP n’est pas incluse dans la définition du modèle de projet d’entreprise. Les autres types de PDP sont *Normal* pour la modification d’un projet et *État du flux de travail* pour l’affichage des détails d’un projet lié à un flux de travail.  <br/> |
 |EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |La définition du modèle de projet d’entreprise n’autorise qu’une seule page de détails de projet de type *Créer*.  <br/> |
-|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Un modèle de projet d’entreprise (EPT) pour un flux de travail requiert une page de détails de projet (PDP) associée de type *Créer* pour créer un projet à l’aide du modèle de projet d’entreprise. Cette erreur se produit lorsque la page de détails de projet dans la définition du modèle de projet d’entreprise du flux de travail est d’un autre type. Les autres types PDP sont *Normal* pour modifier un projet et *État du flux de travail* pour afficher les détails d’un projet lié à un flux de travail.  <br/> |
+|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |Un modèle de projet d’entreprise (EPT) pour un flux de travail requiert une page de détails de projet (PDP) de type *Créer* associée pour créer un projet à l’aide de ce modèle. Cette erreur se produit lorsque la PDP incluse dans la définition du modèle de projet d’entreprise du flux de travail est d’un autre type. Les autres types de PDP sont *Normal* pour la modification d’un projet et *État du flux de travail* pour l’affichage des détails d’un projet lié au flux de travail.  <br/> |
 |EnterpriseProjectTypeInvalidData = 35221  <br/> |Le **WorkflowDataSet** de l’entreprise du type de projet d’entreprise comporte des données qui ne sont pas valides.  <br/> |
 |EnterpriseProjectNoDefaultEnterpriseProjectTypeDefined = 35222  <br/> |Aucun type de projet d’entreprise par défaut n’est défini.  <br/> |
 |EnterpriseProjectTypeAtLeastOnePDPIsRequired = 35223  <br/> |Au moins une page de détails de projet est requise pour le type de projet d’entreprise.  <br/> |
@@ -1396,7 +1396,7 @@ Les codes d’erreur du tableau 26 sont liés aux méthodes **StatusReports** d
 |WSSOLPDeleteWebObjectLinkError = 18001  <br/> |Erreur lors de la suppression d’une liaison d’objet web dans le fournisseur de liaison d’objet SharePoint.  <br/> |
 |WSSInvalidPermissionsToWssList = 18002  <br/> |Autorisations non valides pour la liste SharePoint.  <br/> |
 |WSSWebIsNotUnderDefaultCollection = 18003  <br/> |Le site web SharePoint ne se trouve pas dans la collection par défaut.  <br/> |
-|WSSWorkspaceUrlIsNotUnderPrimaryCollection = 18004  <br/> |L’URL d’espace de travail spécifiée ne se trouve pas dans la collection de sites associée à cette instance de Project Server. Ceci est obligatoire pour le mode d’autorisation actuel.  <br/> |
+|WSSWorkspaceUrlIsNotUnderPrimaryCollection = 18004  <br/> |L’URL d’espace de travail spécifiée ne se trouve pas dans la collection de sites associée à cette instance de Project Server. Obligatoire pour le mode d’autorisation actuel.  <br/> |
 |WSSWorkspacesMustBeRestrictedToDefaultCollection = 18005  <br/> |Les espaces de travail doivent être limités à la collection de sites par défaut dans le mode d’autorisation actuel.  <br/> |
 
 <a name="pj15_ErrorCodes_ASMXExample"> </a>
@@ -1576,7 +1576,7 @@ public static PSLibrary.PSClientError GetPSClientError(FaultException e,
 
 <br/>
 
-Outre les données dans l’objet **PSClientError**, l’objet **FaultException** peut inclure d’autres types d’erreurs, comme l’impossibilité de se connecter à Project Server. Le paramètre _errOut_ de la méthode **GetPSClientError** dans l’exemple précédent affiche des informations supplémentaires. Par exemple, l’exemple de code **CreateProject4Department** dans la méthode [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) inclut des commentaires qui montrent comment créer des erreurs lors de la définition des propriétés dans le tableau ** ProjectCustomFields**. Lors de l’exécution de l’application, le paramètre _errOut_ inclut l’élément **errinfo** et d’autres données (formatées ici à partir de la sortie console). 
+Outre les données dans l’objet **PSClientError**, l’objet **FaultException** peut inclure d’autres types d’erreurs, comme l’impossibilité de se connecter à Project Server. Le paramètre _errOut_ de la méthode **GetPSClientError** dans l’exemple précédent affiche des informations supplémentaires. Par exemple, l’exemple de code **CreateProject4Department** dans la méthode [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) inclut des commentaires qui montrent comment créer des erreurs lors de la définition des propriétés dans le tableau **ProjectCustomFields**. Lors de l’exécution de l’application, le paramètre _errOut_ inclut l’élément **errinfo** et d’autres données (formatées ici à partir de la sortie console). 
   
 ```XML
 ==============================

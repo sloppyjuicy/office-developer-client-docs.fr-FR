@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c0aa7a3-cc54-ffac-2c62-917b3d0a357e
 description: Contient les coordonnées x ou y du point de terminaison, x ou y d’un arc elliptique des points de contrôle sur l’arc, l’angle entre l’axe des X et l’axe principal de l’ellipse, ou le rapport entre les axes principal et mineur de l’ellipse.
-ms.openlocfilehash: 396575c069925fe472fa3df0543e29303881dad3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 07ae0f92a68b0f1b9b4c0051b03658a72227d053
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539827"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578108"
 ---
 # <a name="cell-element-ellipticalarcto-row-visio-xml"></a>Élément de cellule (ligne EllipticalArcTo) (Visio XML)
 
@@ -67,7 +67,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordonnée x du sommet de fin d'un arc.  <br/> |[EllipticalArcTo, ligne (section Geometry)](ellipticalarcto-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du sommet de fin d'un arc.  <br/> |[EllipticalArcTo, ligne (section Geometry)](ellipticalarcto-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y du sommet de fin d'un arc.  <br/> |[EllipticalArcTo, ligne (section Geometry)](ellipticalarcto-row-geometry-section.md) <br/> |
 |A  <br/> |Coordonnée x du point de contrôle de l'arc (un point sur l'arc). La meilleure position pour le point de contrôle est environ le milieu entre les sommets de départ et de fin de l'arc. Sinon, l'arc peut prendre une taille extrême afin de passer par le point de contrôle, avec des résultats imprévisibles.  <br/> |[EllipticalArcTo, ligne (section Geometry)](ellipticalarcto-row-geometry-section.md) <br/> |
 |B  <br/> |Coordonnée y du point de contrôle d'un arc.  <br/> |[EllipticalArcTo, ligne (section Geometry)](ellipticalarcto-row-geometry-section.md) <br/> |
 |C  <br/> |Angle de l’axe principal d’un arc par rapport à l’axe X de sa forme parente.  <br/> |[EllipticalArcTo, ligne (section Geometry)](ellipticalarcto-row-geometry-section.md) <br/> |

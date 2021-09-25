@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAppointmentSubType
 api_type:
 - COM
 ms.assetid: e2e00af3-1fb3-4314-936a-f480674d3d83
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 921d7d8defbdae66bc48072d757f4f58b7d656f0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8b9b1b4615893418374b98403e7d519d3f632d07
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345415"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591891"
 ---
 # <a name="pidlidappointmentsubtype-canonical-property"></a>Propriété canonique PidLidAppointmentSubType
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90bc9be5-282e-4a84-9d8b-e11788070768
 description: Détermine la couleur du contour du biseau dans la valeur RVB ou en fonction du thème actif.
-ms.openlocfilehash: df22f001dc7fa85e192ab93d5ff799a0b424aefe
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ae57283932cd9bc5219b1f82b8404a6fb57c2362
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428381"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603794"
 ---
 # <a name="bevelcontourcolor-cell-bevel-properties-section"></a>BevelContourColor Cell (Bevel Properties Section)
 

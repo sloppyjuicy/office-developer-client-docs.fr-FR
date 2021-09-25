@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251827
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6a9aceb-90d7-fb53-eaf4-416a1ae2a98b
 description: Vous pouvez créer des relations de dépendance entre des formules à l'aide de références de cellule ShapeSheet. Les références de cellule vous permettent de calculer la valeur d'une cellule en fonction de celle d'une autre. Si, par exemple, la cellule Width d'une forme contient une formule permettant de calculer la largeur de la forme en se référant à la valeur de la cellule Height, les proportions de la forme sont conservées si un utilisateur redimensionne la forme verticalement.
-ms.openlocfilehash: a92bcc560c535dc012ec5cb79db72250e78364c7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 90ca190bfa7415a58f21859c0af2fd6e6d47f28d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409803"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603962"
 ---
 # <a name="about-cell-references"></a>À propos des références de cellules
 
@@ -39,7 +39,7 @@ La syntaxe à utiliser et la possibilité ou non de renvoyer à une cellule par 
 |**Pour faire référence à une cellule**|**Utilisez cette syntaxe**|**Exemple**|
 |:-----|:-----|:-----|
 |De la même forme  <br/> | CellName  <br/> | Largeur  <br/> |
-| D'une forme, d'un groupe ou d'un repère  <br/> | Shapename! CellName  <br/> | étoile! Angle  <br/> |
+| D'une forme, d'un groupe ou d'un repère  <br/> | Shapename! CellName  <br/> | Étoile! Angle  <br/> |
 | D'une forme, d'un groupe ou d'un repère nommé alors qu'il existe au même niveau plusieurs formes du même nom  <br/> | Shapename.ID ! CellName  <br/> | Executive.2! Height  <br/> |
 | D'une colonne nommée avec des lignes indexées  <br/> | Section.Column[index]  <br/> | Char.Font[3]  <br/> |
 | D'une colonne non nommée avec des lignes indexées  <br/> | Section.ColumnIndex  <br/> | Scratch.A5  <br/> |

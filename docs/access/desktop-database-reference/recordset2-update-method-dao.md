@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052882
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 4259da0eb48e7ff13e246b326cc6e96d7a916ea7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 9d8dbd5100c13f78eaac4d5ceb6cfa22b55ca532
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307167"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593697"
 ---
 # <a name="recordset2update-method-dao"></a>Recordset2.Update, méthode (DAO)
 
@@ -24,11 +24,11 @@ ms.locfileid: "32307167"
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .Update(***UpdateType***, ***Force***)
+*.* Update(***UpdateType** _, _*_Force_**)
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

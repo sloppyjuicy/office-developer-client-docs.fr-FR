@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197054(v=office.15)
 ms:contentKeyID: 48546136
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: fdfcc9be363e2338a8889dbde4f56d56fce5eb67
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: f431a738407fb39d7f38713f87f5e4c0e6a3cf2e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306432"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593529"
 ---
 # <a name="sql-aggregate-functions-sql"></a>Fonctions d’agrégation SQL (SQL)
 

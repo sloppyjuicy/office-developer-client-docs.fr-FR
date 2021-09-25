@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IABContainer.CreateEntry
 api_type:
 - COM
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9f80130279e3437dd9be947de97d3f0d4181165e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c24adf9f25ab1d8137de76b84b2f612a45b7090e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411273"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616949"
 ---
 # <a name="iabcontainercreateentry"></a>IABContainer::CreateEntry
 
@@ -36,7 +36,7 @@ HRESULT CreateEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbEntryID_
   

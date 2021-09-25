@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAppointmentEndWhole
 api_type:
 - COM
 ms.assetid: f6fd33d6-04fb-4801-a004-fb80a14ca79d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eaff90de919c1bdc04983bce32a2aa808ae56013
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6f0817a02f3a6661032e5e0c67be151d322a036c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358897"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625104"
 ---
 # <a name="pidlidappointmentendwhole-canonical-property"></a>Propriété canonique PidLidAppointmentEndWhole
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249792(v=office.15)
 ms:contentKeyID: 48546962
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: c3ad91f0a288b9908a5af5f92d7bfca3b23cdfe9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 1ea6d8a4ba0bb4a2b9a5a61e8241e853408b6263
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292068"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594208"
 ---
 # <a name="handler-property-rds"></a>Propriété Handler (RDS)
 
@@ -39,5 +39,5 @@ Les noms du gestionnaire et de ses paramètres, le cas échéant, sont séparés
 
 Le gestionnaire par défaut s'appelle **MSDFMAP.Handler**, son paramètre par défaut est un fichier de personnalisation appelé **MSDFMAP.INI**. Utilisez cette propriété pour appeler les autres fichiers de personnalisation créés par votre administrateur serveur.
 
-L’alternative à la définition de la propriété **Handler** consiste à spécifier un handler et des paramètres dans la [propriété ConnectionString](connectionstring-property-ado.md) ; autrement dit, « **Handler=***handlerName,parm1,parm2,...;*».
+Si vous ne souhaitez pas définir la propriété **Handler**, vous pouvez spécifier un gestionnaire et des paramètres dans la propriété [ConnectionString](connectionstring-property-ado.md) : « **Handler=**_handlerName,parm1,parm2,...;_  ».
 

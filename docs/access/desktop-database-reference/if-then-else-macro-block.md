@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845158(v=office.15)
 ms:contentKeyID: 48543188
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: fb6cbd6cc925a3e4841d9e7d6d77332cc36c7a03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: fe8336d95a0982379621a7dd798113fbf882499c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291893"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562635"
 ---
 # <a name="ifthenelse-macro-block"></a>If...Then...Else, bloc de macro
 
@@ -49,7 +49,7 @@ Pour les deux **if** et **Else if**, les arguments suivants sont requis.
 <tbody>
 <tr class="odd">
 <td><p><strong>Expression</strong></p></td>
-<td><p>Condition que vous souhaitez tester. Il doit s’agir d’une expression évaluée à True ou False.</p></td>
+<td><p>Condition que vous souhaitez tester. Il doit s’agir d’une expression qui donne une valeur True ou False.</p></td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ Vous pouvez ajouter autant de blocs **Else if** que vous le souhaitez à un bloc
 
 Vous pouvez cliquer sur **Ajouter Sinon** pour insérer un bloc **Else** facultatif. Dans ce cas, les actions que vous insérez sous **Else** forment le bloc **Else**, qui s'exécute uniquement lorsque les actions plus haut ne s'exécutent pas. Vous pouvez ajouter un seul bloc **Else** à un bloc **If**.
 
-Dans l’exemple de code suivant, les actions de macro dans le premier bloc s’exécutent si la valeur de \[Status\] est supérieure à 0. Si la valeur de \[Status\] n’est pas supérieure à 0, l’expression qui suit le **Else if** est évaluée. Les actions de macro dans le bloc **Else if** s’exécutent si la valeur de \[Status\] est égale à 0. Pour finir, si ni le premier ni le deuxième bloc ne s'exécutent, les actions du bloc **Else** s'exécutent.
+Dans l'exemple de code suivant, les actions de macro du premier bloc s'exécutent si la valeur de \[Status\] est supérieure à 0. Si la valeur de \[Status\] n'est pas supérieure à 0, l'expression qui suit **Else If** est évaluée. Les actions de macro du bloc **Else If** s'exécutent si la valeur de \[Status\] est égale à 0. Pour finir, si ni le premier ni le deuxième bloc ne s'exécutent, les actions du bloc **Else** s'exécutent.
 
 ```vb
     If [Status] > 0 Then 
@@ -77,7 +77,7 @@ Dans l’exemple de code suivant, les actions de macro dans le premier bloc s’
     End If
 ```
 
-Vous pouvez imbriquer des blocs **If**. Il peut être préférable d'imbriquer un bloc **If** dans un bloc **If** si vous souhaitez évaluer une deuxième expression lorsque la première expression a la valeur True. Dans l’exemple de code suivant, le bloc interne **If** s’exécute uniquement si la valeur de \[Status\] est à la fois supérieure à 0 *et* supérieure à 100.
+Vous pouvez imbriquer des blocs **If**. Il peut être préférable d'imbriquer un bloc **If** dans un bloc **If** si vous souhaitez évaluer une deuxième expression lorsque la première expression a la valeur True. Dans l'exemple de code suivant, le bloc **If** interne s'exécute uniquement lorsque la valeur de \[Status\] est à la fois supérieure à 0 *et* supérieure à 100.
 
 ```vb
     If [Status] > 0 Then 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagExplicitConversion
 api_type:
 - HeaderDef
 ms.assetid: 8aabcec6-f735-41fe-a5f4-61d4635b2c58
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 52d4bdbd7dbd44f2957b3efc20cba393dc0eb2f5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0cc74c55301009cf18ca300f7ea8742bcc8a6fac
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433898"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604328"
 ---
 # <a name="pidtagexplicitconversion-canonical-property"></a>Propriété canonique PidTagExplicitConversion
 

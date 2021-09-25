@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidPropertyDefinitionStream
 api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b5ddb87111cfb0039cb1150338945615bbd5afc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2ba6fc19d52e0dbc54c863e0906bf8ff56b512a2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315938"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616676"
 ---
 # <a name="pidlidpropertydefinitionstream-canonical-property"></a>Propriété canonique PidLidPropertyDefinitionStream
 

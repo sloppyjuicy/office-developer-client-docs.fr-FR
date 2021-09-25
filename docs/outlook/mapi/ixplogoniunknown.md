@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IXPLogon
 api_type:
 - COM
 ms.assetid: 4d24ecaf-11d0-4362-8207-be3407736d7b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 46f4e3fc8f554f332ab9b1d8a6cb33e9e21dd9a5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3e508bd1515d629c8f53c0742fd55fdc0c2c5f67
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432533"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592192"
 ---
 # <a name="ixplogon--iunknown"></a>IXPLogon : IUnknown
 

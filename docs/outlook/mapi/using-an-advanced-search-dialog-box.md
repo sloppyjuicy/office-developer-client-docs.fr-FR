@@ -3,17 +3,17 @@ title: Utilisation d’une boîte de dialogue Recherche avancée
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c9a156e6-3472-4409-a4ba-3a1a65b7bdcd
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 70b62eeaf6e737747c98b3abcd6e7053f71d4308
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5498b6309c0c650f96503fbd30c62279c9dfd2ac
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437300"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578402"
 ---
 # <a name="using-an-advanced-search-dialog-box"></a>Utilisation d’une boîte de dialogue Recherche avancée
 

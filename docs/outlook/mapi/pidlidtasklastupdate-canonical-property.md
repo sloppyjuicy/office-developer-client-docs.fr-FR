@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskLastUpdate
 api_type:
 - COM
 ms.assetid: 65b73d0f-f1f1-4c11-8834-f7c736a30ffc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 95af98acad6b2aa4bc95ea5e6478e6ca21c8eb8f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 532733ad7c96466ef8c1b0a078590e2b2f7cff42
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356832"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616683"
 ---
 # <a name="pidlidtasklastupdate-canonical-property"></a>Propriété canonique PidLidTaskLastUpdate
 

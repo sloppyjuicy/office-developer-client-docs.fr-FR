@@ -3,17 +3,17 @@ title: Copie d’un destinataire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b9a41f44-4c7e-4c57-b536-63fb85e4fae6
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3a4fb1a3f76481bf1960c251a33911b871a8791c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c9030d9341ba9aea0ce186ba4205242e5e65b1fb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419085"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617047"
 ---
 # <a name="copying-a-recipient"></a>Copie d’un destinataire
 

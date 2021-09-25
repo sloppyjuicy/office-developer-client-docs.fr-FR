@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc0dc67a-aadf-4a5c-9264-e8df1dcd183f
 description: Compare deux expressions. Lorsque vous comparez des expressions non null, le résultat est TRUE si la valeur de l’opérande gauche est inférieure ou égale à celle de l’opérande droit . Sinon, le résultat est FALSE.
-ms.openlocfilehash: 4a43c83024a7f5318faef25b4505c10246a5eabf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2d095b1849d9e4ee9d7618172596a6ab47beb19a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405652"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617306"
 ---
 # <a name="less-than-or-equal-to-access-custom-web-app"></a>Inférieur ou égal à (application web personnalisée Access)
 

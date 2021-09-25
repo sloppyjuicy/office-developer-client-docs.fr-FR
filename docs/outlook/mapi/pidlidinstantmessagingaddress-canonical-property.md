@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidInstantMessagingAddress
 api_type:
 - COM
 ms.assetid: 9ddc0095-cd65-431c-afa9-f2fb5a7ac382
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: decb1e07925d7be980dfcc17e5f1e619a8395929
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 15a8ad9953d98d6b054d64d7141ec105d5d1fef2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332920"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616711"
 ---
 # <a name="pidlidinstantmessagingaddress-canonical-property"></a>Propriété canonique PidLidInstantMessagingAddress
 

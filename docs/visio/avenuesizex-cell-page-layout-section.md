@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm65
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86fe25ed-590d-b2f0-5dfe-9746a19c6b04
 description: Détermine la quantité d’espace horizontal entre les formes de la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition).
-ms.openlocfilehash: 28eea2589e34c7793e89e01495eb519b987553a9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 99bdeaee634211bbb8e300d8981b8cd66be379cd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411644"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603892"
 ---
 # <a name="avenuesizex-cell-page-layout-section"></a>AvenueSizeX, cellule (section Page Layout)
 

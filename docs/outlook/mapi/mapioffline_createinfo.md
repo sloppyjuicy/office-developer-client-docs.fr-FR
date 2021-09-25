@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 539aa31d-7dec-4dbb-93f7-fa060c43565a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a9b11b134f5d4a32a5a55008f557821d74b474bc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9e31e4c1f81541bcc04bfc41209f2ac5f8ea4f42
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429564"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592101"
 ---
 # <a name="mapioffline_createinfo"></a>MAPIOFFLINE_CREATEINFO
 

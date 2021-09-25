@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251387
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3864aadd-3f86-c20e-1a74-b0aaff5106f7
 description: Indique une adresse d’URL, un nom de fichier ou un chemin d’accès UNC auxquels accéder.
-ms.openlocfilehash: 0fbb89e18a2d7a849e2369c0d41aac4a647f067b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ef893335b25fb400cbfc1f153a3fcdcd7a66be02
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438035"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578290"
 ---
 # <a name="address-cell-hyperlinks-section"></a>Address, cellule (section Hyperlinks)
 
@@ -30,7 +30,7 @@ Pour obtenir une référence à la cellule Address à l’aide d’un index à p
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Lien hypertexte. *nom*  . Adresse où Lien hypertexte. *nom*  est le nom de la ligne de lien hypertexte  <br/> |
+|Nom de cellule :  <br/> |Lien hypertexte. *nom*  . Adresse où Hyperlink. *nom*  est le nom de la ligne de lien hypertexte  <br/> |
    
 Pour obtenir une référence à la cellule Address par un nom à partir d’une autre formule ou d’un programme, à l’aide de la propriété **CellsU,** utilisez : 
   

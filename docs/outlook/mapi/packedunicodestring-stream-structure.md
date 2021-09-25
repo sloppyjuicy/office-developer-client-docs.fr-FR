@@ -3,15 +3,15 @@ title: Structure de flux PackedUnicodeString
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e4cb1613-7e81-432a-ae3a-7fedb05dac65
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fc20c259f30ded2f96f3bf314e74207bebcac980
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 73a3f6f8ca3dd23326f28ea18228c09cf310d444
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422613"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625118"
 ---
 # <a name="packedunicodestring-stream-structure"></a>Structure de flux PackedUnicodeString
 

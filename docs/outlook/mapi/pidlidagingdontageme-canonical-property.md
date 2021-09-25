@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAgingDontAgeMe
 api_type:
 - COM
 ms.assetid: bb5936a2-6f78-428e-8900-dc7f2f1d67b0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 33c4fffb5c74124c8089268f723e0aa9ffa338f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a335d6252274e903149b1f6bcc2649593c27ae12
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278826"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625111"
 ---
 # <a name="pidlidagingdontageme-canonical-property"></a>Propriété canonique PidLidAgingDontAgeMe
 

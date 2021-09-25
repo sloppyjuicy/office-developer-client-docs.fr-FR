@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameLineCount
 api_type:
 - COM
 ms.assetid: 733e07b6-da9f-4ec0-80e4-2267213fceae
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b595a2bffff3323493d3f4f49d843218ea789e16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 280b9a4a34946c8d7354652b1d181e59d675617b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334992"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604354"
 ---
 # <a name="pidnamelinecount-canonical-property"></a>Propriété canonique PidNameLineCount
 

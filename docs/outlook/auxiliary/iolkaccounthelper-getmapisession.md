@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a431787c-6e9a-9be1-165f-98c778d12e3e
 description: Ouvre une session MAPI et maintient une référence à la session pour le gestionnaire de comptes.
-ms.openlocfilehash: 5886ac1ae1bb8f3b43e09f49e48434d9a73656ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 460317b5b83c3d2ef6aca26260d797502f7ea084
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322175"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617124"
 ---
 # <a name="iolkaccounthelpergetmapisession"></a>IOlkAccountHelper::GetMapiSession
 
@@ -28,7 +28,7 @@ HRESULT IOlkAccountHelper::GetMapiSession(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ppmsess_
   

@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6e91b765-a207-4d8c-8763-5d643ca4d0c0
 description: Le Outlook Social Connector (OSC) prend en charge l’affichage d’informations à partir d’un réseau social sur une personne dans la carte de visite ou dans le Outlook contacts. SharePoint Le serveur, SharePoint workspace, le client Lync et toutes les applications clientes Office prise en charge des informations de présence la prise en charge de la carte de visite.
-ms.openlocfilehash: 0d6881c5d596519422d01ca61a00b1a68e610f2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f86441e18697de26fe41cc7b680c85abb28ec27f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329200"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604074"
 ---
 # <a name="synchronizing-friends-and-activities"></a>Synchronisation des amis et des activités
 

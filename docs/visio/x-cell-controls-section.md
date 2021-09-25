@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251281
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7aea554-f491-6a9a-4d07-feeab739a9df
 description: Représente la coordonnée x qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.
-ms.openlocfilehash: 58eea4e9c3cfe127c4adcc7fb75e395f53874dd9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 948b27415d22f4beb2d4c6d0c3a14e53252920f2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406450"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59582519"
 ---
 # <a name="x-cell-controls-section"></a>X, cellule (section Controls)
 

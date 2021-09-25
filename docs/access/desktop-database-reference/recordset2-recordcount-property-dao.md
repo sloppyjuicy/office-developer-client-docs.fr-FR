@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052890
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: c23de433f26b5a54b3fee5cc69f67a07b53f8a3b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f8181738ddf39ba00dca921cc192e2e68deaaf82
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617530"
 ---
 # <a name="recordset2recordcount-property-dao"></a>Recordset2.RecordCount, propriété (DAO)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskDeadOccurrence
 api_type:
 - COM
 ms.assetid: e78287ff-f8cc-45ea-8da8-e7a7359e651c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b740368aae43549e81cf3f4f6de40526c505b6b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8bbcf259518de950e945b049cddfaf3a48206841
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303429"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604480"
 ---
 # <a name="pidlidtaskdeadoccurrence-canonical-property"></a>Propriété canonique PidLidTaskDeadOccurrence
 

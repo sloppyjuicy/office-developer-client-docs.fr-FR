@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidFax1OriginalEntryId
 api_type:
 - COM
 ms.assetid: 0e02dfcd-918e-4d0c-b701-505dee1b32d4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 096d1c785c220b7507e2a178e654b6d54ffea7da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9618ddc52ab89447a35adfe73dfa7f657b7a7be2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328748"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591870"
 ---
 # <a name="pidlidfax1originalentryid-canonical-property"></a>Propriété canonique PidLidFax1OriginalEntryId
 

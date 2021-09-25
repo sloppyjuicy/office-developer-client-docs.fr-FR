@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 98643832-7861-385d-3a52-0060ea413e2e
 description: Spécifie une propriété des données de forme.
-ms.openlocfilehash: 3a6238f19f27d001d3c9eebcbcec720822a0ed40
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 5b0c9ebd56b114e6aaa2ff7c9d55d883099a0965
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539375"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603773"
 ---
 # <a name="cell-element-shape-data-section-visio-xml"></a>Élément de cellule (section Shape Data) (Visio XML)
 

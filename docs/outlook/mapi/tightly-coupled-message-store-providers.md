@@ -3,17 +3,17 @@ title: Fournisseurs de magasins de messages étroitement couplés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2eb493d7-bbd1-45b2-bd82-2bc452b2deab
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3c9996dad1e9aa8c291f1cd593d9651994d86141
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e9052228da750316c68f65d2489549d560ec0cc5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413226"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578514"
 ---
 # <a name="tightly-coupled-message-store-providers"></a>Fournisseurs de magasins de messages étroitement couplés
 

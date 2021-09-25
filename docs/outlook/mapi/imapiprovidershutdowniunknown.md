@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIProviderShutdown
 api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 92067b5badfb2aab40f3b3735a164bc09321702c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5fa47b972be4ed58de052757545d505381e78cbd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409656"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625535"
 ---
 # <a name="imapiprovidershutdown--iunknown"></a>IMAPIProviderShutdown : IUnknown
 

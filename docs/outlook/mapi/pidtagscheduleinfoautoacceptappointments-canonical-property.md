@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagScheduleInfoAutoAcceptAppointments
 api_type:
 - COM
 ms.assetid: 79505b29-2706-472b-b084-ab74be7b3405
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6fe724d70ac86b1c51e72f243ef9255dd452be9c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 38a19ef2c722b0446e9071b9bbec414f6af99c3c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330092"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604193"
 ---
 # <a name="pidtagscheduleinfoautoacceptappointments-canonical-property"></a>Propriété canonique PidTagScheduleInfoAutoAcceptAppointments
 

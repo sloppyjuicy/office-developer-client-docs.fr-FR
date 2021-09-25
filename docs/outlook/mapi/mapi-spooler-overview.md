@@ -3,17 +3,17 @@ title: Présentation du spouleur MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5866b202-883e-454e-aeb1-61526c43dae9
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 162957ea17b5a82d4da68340e971d328c85cd9f7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f92d7a579c2ccd8c945cdbb820bd97b66d6fa2c5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432715"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592122"
 ---
 # <a name="mapi-spooler-overview"></a>Présentation du spouleur MAPI
   
@@ -37,7 +37,7 @@ L’illustration suivante montre à un niveau élevé comment un message circule
   
 **Flux de message sortant**
   
-![Flux de messages sortants](media/amapi_46.gif "Flux de messages sortants")
+![Flux de message sortant](media/amapi_46.gif "Flux de message sortant")
   
 L’utilisateur d’une application cliente envoie un message à un ou plusieurs destinataires. Le fournisseur de la boutique de messages lance le processus d’envoi, en formatant le message avec des informations supplémentaires nécessaires pour la transmission.
   

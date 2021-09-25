@@ -3,15 +3,15 @@ title: Fonctions de date/heure (application web personnalisée Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acd4e050-c3a4-4bcf-bd35-a06e7a93bbb1
 description: ''
-ms.openlocfilehash: 1b22d76687772de212d8abd42022405f51b980b3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a9927e4c12b31e939f6f208d227aac378c1b87e4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411483"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569754"
 ---
 # <a name="datetime-functions-access-custom-web-app"></a>Fonctions de date/heure (application web personnalisée Access)
 

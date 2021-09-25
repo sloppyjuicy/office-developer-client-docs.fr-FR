@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAppointmentNotAllowPropose
 api_type:
 - COM
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aa9aacd8a1d75ed4c14a980e162a68c47995a55c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0c5d3da06bb4c3768148a5437efc51e67942399e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356356"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591961"
 ---
 # <a name="pidlidappointmentnotallowpropose-canonical-property"></a>Propriété canonique PidLidAppointmentNotAllowPropose
 

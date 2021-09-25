@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRtfSyncBodyCount
 api_type:
 - COM
 ms.assetid: b7267be4-8d5c-4dc7-86b2-651e03e84f9b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6f6e687412dfce1e5fcee6b4a4d64f3e5106455f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: cc56dffeb1be879333b98c8469a3c16a11489148
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331254"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604206"
 ---
 # <a name="pidtagrtfsyncbodycount-canonical-property"></a>Propriété canonique PidTagRtfSyncBodyCount
 

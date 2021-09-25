@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8636774b-1fff-4b29-bc12-4d0bd63fcba2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2dac2cb1d40fadbe0cad67b144891b0ece54aae9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b3badd32eb0cf99e512754635b55fc40d08192b8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341110"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624656"
 ---
 # <a name="pidtagrecipientreassignmentprohibited-canonical-property"></a>Propriété canonique PidTagRecipientReassignmentProhibited
 

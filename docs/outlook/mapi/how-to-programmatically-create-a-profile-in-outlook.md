@@ -3,15 +3,15 @@ title: Créer par programme un profil dans Outlook
 manager: soliver
 ms.date: 06/02/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a8561a9-df09-453a-b415-c45910625870
 description: This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the emsuid section of the Profile object.
-ms.openlocfilehash: 85d084705c1e36f5fe3b0ed268094f86b38d6383
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 30373bba054e25ad4c3288cbcdfcb1779df93471
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345940"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616977"
 ---
 # <a name="programmatically-create-a-profile-in-outlook"></a>Créer par programme un profil dans Outlook
 

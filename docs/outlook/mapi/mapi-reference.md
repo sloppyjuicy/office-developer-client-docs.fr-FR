@@ -9,13 +9,13 @@ api_type:
 - COM
 ms.assetid: 807d1b76-ccc1-4cbe-bbe3-5d5cadffbef4
 description: Décrit les éléments de programmation MAPI.
-localization_priority: Priority
-ms.openlocfilehash: 9489343e1ea88aa51bdf09ee5b705a9cfa59fafa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: c38becdc037a9474c3237a97031d68e39217aebc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329728"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592150"
 ---
 # <a name="mapi-reference"></a>Référence MAPI
  

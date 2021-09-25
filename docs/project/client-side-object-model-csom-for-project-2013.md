@@ -4,27 +4,27 @@ manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
 ms.assetid: 716325eb-b092-4934-921f-84129d0a1f5f
-description: Le Modèle objet côté client (CSOM) de Project Server 2013 implémente la fonctionnalité de serveur courante. Le Modèle objet côté client (CSOM) de Project Server inclut un modèle CSOM Microsoft .NET, un modèle CSOM Microsoft Silverlight, un modèle CSOM Windows Phone 8 et un modèle objet JavaScript (JSOM). Par ailleurs, le modèle CSOM inclut un service OData qui active une interface REST. L’interface REST est principalement conçue pour le développement d’applications sur des plateformes autres que Windows comme iOS et Android.
-localization_priority: Priority
-ms.openlocfilehash: b722e316f5cb2054eb6522297c5c5ef3e75f9fa4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Le modèle objet côté client (CSOM) Project Server 2013 met en place une fonctionnalité de serveur commune. Le CSOM Project Server inclut un CSOM Microsoft .NET, un CSOM Microsoft Silverlight, un CSOM Windows Phone 8 et un modèle objet JavaScript (JSOM). En outre, le CSOM inclut un service OData qui active une interface REST. L’interface REST est principalement destinée au développement d’applications sur les plateformes non-Windows, comme iOS et Android.
+ms.localizationpriority: high
+ms.openlocfilehash: 339e5dc9c05402e1be4aed30bf6448bc59b0c422
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355201"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563132"
 ---
 # <a name="client-side-object-model-csom-for-project-2013"></a>Modèle objet côté client (CSOM) pour Project 2013
 
-Le Modèle objet côté client (CSOM) de Project Server 2013 implémente la fonctionnalité de serveur courante. Le Modèle objet côté client (CSOM) de Project Server inclut un modèle CSOM Microsoft .NET, un modèle CSOM Microsoft Silverlight, un modèle CSOM Windows Phone 8 et un modèle objet JavaScript (JSOM). Par ailleurs, le modèle CSOM inclut un service OData qui active une interface REST. L’interface REST est principalement conçue pour le développement d’applications sur des plateformes autres que Windows comme iOS et Android.
+Le modèle objet côté client (CSOM) Project Server 2013 met en place une fonctionnalité de serveur commune. Le CSOM Project Server inclut un CSOM Microsoft .NET, un CSOM Microsoft Silverlight, un CSOM Windows Phone 8 et un modèle objet JavaScript (JSOM). En outre, le CSOM inclut un service OData qui active une interface REST. L’interface REST est principalement destinée au développement d’applications sur les plateformes non-Windows, comme iOS et Android.
   
 > [!NOTE]
-> Les solutions pour Project Online doivent utiliser le modèle CSOM. Toutefois, les applications locales peuvent utiliser le modèle CSOM ou l’interface PSI (Project Server Interface). Si le modèle CSOM inclut la fonctionnalité que vous souhaitez utiliser, nous vous recommandons d’utiliser le modèle CSOM pour les nouvelles applications. 
+> Les solutions pour Microsoft Project Online doivent utiliser le CSOM. Toutefois, les applications locales peuvent utiliser le CSOM ou PSI (Project Server Interface). Si le CSOM inclut la fonctionnalité que vous prévoyez d’utiliser, nous vous recommandons d’utiliser le CSOM pour les nouvelles applications. 
   
 Dans les extensions CSOM, l’objet **ProjectContext** fournit le point d’entrée aux fonctionnalités et au contenu du serveur. Le modèle CSOM .NET, le modèle CSOM Silverlight et le modèle CSOM Windows Phone utilisent l’objet [Microsoft.ProjectServer.Client.ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx), et le modèle JSOM utilise l’objet **PS.ProjectContext**. Les propriétés **ProjectContext** fournissent un accès direct aux objets Project Server de base dans la collection de sites Project Web App actuelle. Pour plus d’informations sur l’emplacement des assemblys CSOM et du fichier JavaScript, consultez [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx). 
   
  **Applications et le modèle de sécurité** Les applications doivent utiliser le modèle CSOM pour les opérations CRUD (créer, lire, mettre à jour, supprimer) avec Project Server 2013 et Project Online. Les applications Project n’utilisent pas le modèle d’authentification d’application uniquement dans SharePoint 2013. Une application Project Server nécessite une demande d’autorisation spécifique indiquant pour qui les commandes sont exécutées. 
   
- **Requêtes REST** Vous pouvez créer des requêtes REST du service OData du modèle CSOM sans consommer les métadonnées. Certains outils tiers permettent d’utiliser les assemblys .NET pour le modèle CSOM pour développer des applications pour d’autres appareils. Par exemple, rechercher sur Internet des « outils de développement .NET multiplateformes pour iOS ou Android. » 
+ **Requêtes REST** Vous pouvez créer des requêtes REST du service OData CSOM sans utiliser les métadonnées. Certains outils tiers permettent d’utiliser les assemblys .NET du CSOM pour développer des applications pour d’autres appareils. Par exemple, recherchez sur Internet « Outils de développement .NET multi-plateformes pour iOS ou Android ». 
   
 > [!NOTE]
 > Même si l’option `$metadata` pour le service de création de rapports **ProjectData** est valide (`https://ServerName/pwaName/_api/ProjectData/$metadata`), l’option `$metadata` pour le service **ProjectServer** du modèle CSOM est supprimée dans la version publiée de Project Server 2013. Pour trouver les objets et les membres du modèle CSOM qui sont disponibles comme points de terminaison REST, reportez-vous à la rubrique relative à la [bibliothèque JavaScript et la référence REST pour Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md). 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IABProvider
 api_type:
 - COM
 ms.assetid: 3f98d982-156d-43d7-8b0b-94d8c24debef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 301be39b71c0f04799037fa069cfe18953e216de
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eccc4c3f7081e069e6c6c09a5498ef35442c55ad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616872"
 ---
 # <a name="iabprovider--iunknown"></a>IABProvider : IUnknown
 

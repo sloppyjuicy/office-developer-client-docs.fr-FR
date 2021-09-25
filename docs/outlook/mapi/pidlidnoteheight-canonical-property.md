@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidNoteHeight
 api_type:
 - COM
 ms.assetid: 2d8ca0e1-6849-4e27-a26f-e77d0df608fd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 71813db684ce1307522c81222d37674ca50cfdac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5957fcd48b393c61111bbf7206caa62c0d5867bd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331352"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604543"
 ---
 # <a name="pidlidnoteheight-canonical-property"></a>Propriété canonique PidLidNoteHeight
 

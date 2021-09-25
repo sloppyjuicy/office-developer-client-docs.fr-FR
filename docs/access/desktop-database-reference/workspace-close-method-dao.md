@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198027(v=office.15)
 ms:contentKeyID: 48546565
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0049fb335c869a050a2c20d5740c487413c76786
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ee787917a95e3716e629f87512caca1f408a6213
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32305956"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617347"
 ---
 # <a name="workspaceclose-method-dao"></a>Workspace.Close, méthode (DAO)
 

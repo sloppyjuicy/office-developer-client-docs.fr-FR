@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagGender
 api_type:
 - HeaderDef
 ms.assetid: a79a139a-6813-49f6-b622-bb66d62c4462
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b8ce3898ac021bc6eec2af6220889d71ff5a18dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ea83f7384c2296efed3c651746deda6d342e2488
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604327"
 ---
 # <a name="pidtaggender-canonical-property"></a>Propriété canonique PidTagGender
 

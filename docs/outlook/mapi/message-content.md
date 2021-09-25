@@ -3,17 +3,17 @@ title: Contenu du message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ce643afe-e5b6-42f2-b3cf-4efb957c4f2e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c4d2439c06da292c9cc72c1506a1ae4d10c6704f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b1523d230ae49e8ca779bab12e5ce6264f6300dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435459"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592059"
 ---
 # <a name="message-content"></a>Contenu du message
 
@@ -33,7 +33,7 @@ Il existe deux codages possibles pour le contenu du message : l’un utilisant M
     
 La manière de choisir MIME ou uuencode pour les messages sortants n’est pas spécifiée.
   
-Les propriétés suivantes sont exclues du TNEF **: \* PR_SENDER_**, **PR_ATTACH_DATA_ \***, **PR_BODY**. Toutes les autres propriétés de message transmises sont incluses dans le flux TNEF.
+Les propriétés suivantes sont exclues du TNEF : **PR_SENDER_ \* *_, _* PR_ATTACH_DATA_ \* *_, _* PR_BODY**. Toutes les autres propriétés de message transmises sont incluses dans le flux TNEF.
   
 Les suggestions suivantes sont destinées à fournir une liste de paramètres que l’implémentation peut prendre en charge :
   

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 896932d7-bd71-4a55-aa58-394a9ccf0d5e
 description: 'La référence du fournisseur Outlook Social Connector 2013 est accompagnée de plusieurs modèles de fournisseur en C++, C# et Visual Basic. Vous pouvez télécharger les modèles sur Outlook Social Connector 2013 : Modèles de fournisseur.'
-ms.openlocfilehash: e99808247fdf9bb2f06018e5ef54e6b9dc23ff3b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9bfb0e3af09765688e309727f13d46128543ddf6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355117"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604081"
 ---
 # <a name="osc-sample-templates"></a>Exemples de modèles OSC
 

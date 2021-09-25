@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginalDisplayCc
 api_type:
 - COM
 ms.assetid: f48d723c-3ad8-4617-952a-ba5216b2129c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9eb90d353705434803ff617ff2b355c7c96359b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4452a84030b17d47e27a522e7839244db485c35a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355621"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624803"
 ---
 # <a name="pidtagoriginaldisplaycc-canonical-property"></a>Propriété canonique PidTagOriginalDisplayCc
 

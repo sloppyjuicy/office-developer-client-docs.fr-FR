@@ -3,17 +3,17 @@ title: Corrélation TNEF dans les passerelles et transports SMTP
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 593f57d7-2891-40d1-a661-478a62d490ff
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0a685e081d319c43daa583d95d163677e81f2480
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3cd51f3f48c236a17ee49f65368672ee849a5ed0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413667"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578479"
 ---
 # <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>Corrélation TNEF dans les passerelles et transports SMTP
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251297
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6d298a4-1602-a53c-bb5d-2ef16b43f722
 description: Détermine la position horizontale, par rapport à l'origine de son parent, d'un repère vertical ou d'un point de repère sur lequel est aligné le bord droit de la forme.
-ms.openlocfilehash: 558808908107a3e42d9d6e4a6fc1cf177150edb9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 121ad494745d7200cbe193c69a1a2d316bf9392e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439771"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616053"
 ---
 # <a name="alignright-cell-alignment-section"></a>AlignRight, cellule (section Alignment)
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm80000
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d2ec869-7ffa-3b41-8126-3f4889501e0c
 description: Détermine si les formes peuvent être placées sur les sauts de page lorsqu’elles sont alignées et/ou espacées de manière incrémentielle.
-ms.openlocfilehash: 5ff5a31e26cc1ab9415eb69b76fc9f64ccd1ae7d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ead0227de3bce06f4bce478f946b86549bff007a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416313"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603885"
 ---
 # <a name="avoidpagebreaks-cell-page-layout-section"></a>AvoidPageBreaks, cellule (section Page Layout)
 

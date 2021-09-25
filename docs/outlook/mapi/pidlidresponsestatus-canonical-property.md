@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidResponseStatus
 api_type:
 - COM
 ms.assetid: e56142fd-204b-497e-83b9-59f9acda6cb4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8c8e284752c6fd47eb7a8f227e2dbfeceebea596
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 62e25b6cb9635aa6598ff912f717ba27239fd3be
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345758"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624777"
 ---
 # <a name="pidlidresponsestatus-canonical-property"></a>Propri t canonique PidLidResponseStatus
 

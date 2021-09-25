@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IExchangeModifyTable
 api_type:
 - COM
 ms.assetid: 45a73c7b-5855-4b70-866b-facb41cb3c32
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 333e1d5cacc069ee1faef01426a1c0a60ef07f8e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 095345eb42a269d8bdf0f952ece20b2fc35b3df1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418105"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616823"
 ---
 # <a name="iexchangemodifytable--iunknown"></a>IExchangeModifyTable : IUnknown
 

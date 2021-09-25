@@ -8,19 +8,19 @@ f1_keywords:
 - debugPrintf
 keywords:
 - fonction debugprintf [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 08bde61573874c137b18856fd24d23b324a35328
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d3c09aed1f818c426ed957e3a3273c3bf7f574b1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424797"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617243"
 ---
 # <a name="debugprintf"></a>debugPrintf
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Fonction de bibliothèque d’infrastructure qui écrit une chaîne d’byte terminée par null dans le déboguer actif via la fonction SDK **OutputDebugStringA** Windows. Si l’application n’a pas de débompeur, le débogger système affiche la chaîne. Si l’application n’a pas de déboguer et que le déboguer système n’est pas actif, **debugPrintf** ne fait rien. 
   
@@ -30,7 +30,7 @@ Cette fonction ne retourne pas de valeur.
 void WINAPI debugPrintf(LPSTR lpFormat, arguments);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpFormat (LPSTR)_
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidBusinessCardCardPicture
 api_type:
 - COM
 ms.assetid: 2c7af147-f7eb-41ef-8403-93584a2041ba
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fd1ad923acca5a75d06e6b15ae7ae7411edefb92
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8f9728986ef5b083091367d33a93013374e1b8a9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342006"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591863"
 ---
 # <a name="pidlidbusinesscardcardpicture-canonical-property"></a>Propriété canonique PidLidBusinessCardCardPicture
 

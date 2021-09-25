@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagResourceMethods
 api_type:
 - COM
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e9aee3280edbed60e97ef6e00e61f3086f6f07ce
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: df8b1b855206a88044114c0d86bda3dd9b609aa1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436334"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604256"
 ---
 # <a name="pidtagresourcemethods-canonical-property"></a>Propriété canonique PidTagResourceMethods
 

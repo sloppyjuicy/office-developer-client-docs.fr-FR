@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - framework library functions [excel 2007],functions [Excel 2007], Framework library
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4eeb9e5db09592e98e9afb763efaa6be18eb2f7e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e828a8a9f8724ac9012955f885238b2ca1b3dd3d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417545"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617215"
 ---
 # <a name="functions-in-the-framework-library"></a>Fonctions dans la bibliothèque d’infrastructure
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 La bibliothèque Framework a été créée pour faciliter l’écriture de XL. Il inclut des fonctions simples pour la gestion de la mémoire **XLOPER** XLOPER12, la création temporaire de XLOPER XLOPER12 , l’appel robuste des fonctions de rappel /   Microsoft Excel  /  (**Excel4**, **Excel4v**, ** Excel12 **, ** Excel12v **) et l’impression de chaînes de débogage sur un terminal attaché.
   

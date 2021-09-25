@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagScheduleInfoDelegatorWantsCopy
 api_type:
 - COM
 ms.assetid: 48e48e3a-1186-46c4-8ff9-34e03905fb93
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c52a1c055792f17477ff5540c4138160544e3b18
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ee99135a99f30df38c53c1257f5252873f67ddbb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321307"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604172"
 ---
 # <a name="pidtagscheduleinfodelegatorwantscopy-canonical-property"></a>Propriété canonique PidTagScheduleInfoDelegatorWantsCopy
 

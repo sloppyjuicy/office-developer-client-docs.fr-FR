@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 60f6df7a-7953-0087-cca3-779199bb9174
-ms.openlocfilehash: 02d2054d824b952ced35faa39c3c04aa32f340bd
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: b391ebfa0cc8c9d6fb0fb43ac0e33f0ccb6a7959
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539690"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578255"
 ---
 # <a name="attachedtoolbars_type-complextype-visio-xml"></a>AttachedToolbars_Type complexType (Visio XML)
 

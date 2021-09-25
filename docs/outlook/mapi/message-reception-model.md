@@ -3,17 +3,17 @@ title: Modèle de réception des messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 487598374f15300cc8b899a50d74b535b5a33c91
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 48cd642cf72a04764c17be5480b10036f61142d1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415116"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592038"
 ---
 # <a name="message-reception-model"></a>Modèle de réception des messages
 

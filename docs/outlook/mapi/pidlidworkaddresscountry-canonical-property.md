@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidWorkAddressCountry
 api_type:
 - COM
 ms.assetid: 15b9db35-7038-40b0-9692-d93ed8ca76ba
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1d90ebd1545f40a6b30ce1abd8c915d1f416d308
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 766bdb0839e63f0d8ac5f317b3f455e742b301e5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358960"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616648"
 ---
 # <a name="pidlidworkaddresscountry-canonical-property"></a>Propriété canonique PidLidWorkAddressCountry
 

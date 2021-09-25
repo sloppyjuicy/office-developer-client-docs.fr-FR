@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidIsException
 api_type:
 - COM
 ms.assetid: 802321fb-4261-4c3e-9de3-8b4f490dae13
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 18dfa8a5936902afe0272274f7a48d01b28f94f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 18c2a4f3534e3dfabc4401f275a59ba9c270ac00
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315448"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616704"
 ---
 # <a name="pidlidisexception-canonical-property"></a>Propriété canonique PidLidIsException
 

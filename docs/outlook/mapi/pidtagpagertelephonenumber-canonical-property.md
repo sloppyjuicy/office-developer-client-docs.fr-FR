@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagPagerTelephoneNumber
 api_type:
 - COM
 ms.assetid: 4206b003-2304-4215-9844-8ff4305cc2f4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a4138f00188f84675ff35e3a77a509be853a7d8c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 09de2cb26887efb8910500aefe7c501870517dd0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331247"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624705"
 ---
 # <a name="pidtagpagertelephonenumber-canonical-property"></a>Propriété canonique PidTagPagerTelephoneNumber
 

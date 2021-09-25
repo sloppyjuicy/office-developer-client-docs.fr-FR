@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1101185
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: ced8fc78729924ce271aa0fe38d77d287a131f13
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b4237ac6062a69d9a649d988015e75424b1d1c7d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307531"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617551"
 ---
 # <a name="recordsetupdateoptions-property-dao"></a>Recordset.UpdateOptions, propriété (DAO)
 

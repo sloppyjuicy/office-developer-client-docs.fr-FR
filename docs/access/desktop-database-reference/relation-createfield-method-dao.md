@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822717(v=office.15)
 ms:contentKeyID: 48547411
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ae322277dd1d357aceb3f9129110dded705f9eca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: bed31b92222351ef6c74e3cb4f4452c29a1a8907
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307062"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617523"
 ---
 # <a name="relationcreatefield-method-dao"></a>Relation.CreateField, méthode (DAO)
 
@@ -22,11 +22,11 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft A
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* CreateField(***Name***, ***Type***, ***Size***)
+*.* CreateField(***Name** _, _*_Type_*_, _*_Size_**)
 
 *expression* Variable qui représente un objet **Relation.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

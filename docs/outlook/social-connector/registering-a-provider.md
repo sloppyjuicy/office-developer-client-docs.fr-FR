@@ -5,15 +5,15 @@ ms.date: 03/05/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b60b3634-4c8b-4273-97a0-0a8a5a8a5342
 description: Cette rubrique décrit les emplacements Windows registre utilisés lors de l’installation d’un fournisseur OSC (Outlook Social Connector).
-ms.openlocfilehash: a5f76850f9bebcba3c2bff31e799a3b012d6b91a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 78f5b102cc5ec50e334aafa4a5fef10c37fa2953
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421759"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604054"
 ---
 # <a name="registering-a-provider"></a>Inscription d’un fournisseur
 
@@ -48,6 +48,6 @@ Pour une version « Click-to-Run de Office , votre programme d’installation de
 ## <a name="see-also"></a>Voir aussi
 
 - [Liste de vérification de l’installation](installation-checklist.md)
-- [Étapes rapides pour apprendre à développer un fournisseur](quick-steps-for-learning-to-develop-a-provider.md)
+- [Étapes rapides pour Learning développement d’un fournisseur](quick-steps-for-learning-to-develop-a-provider.md)
 - [Déploiement d'un fournisseur](deploying-a-provider.md)
 

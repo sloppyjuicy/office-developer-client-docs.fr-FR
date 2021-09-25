@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
 description: Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: dddf23e19f4f53e21de33210f26cf254cb83a750
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ee3f1e783c253ff7661b271dfd3e0407768c4c49
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359891"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604066"
 ---
 # <a name="outlook-auxiliary-reference-copyright-notice"></a>Outlook copyright de référence auxiliaire
 

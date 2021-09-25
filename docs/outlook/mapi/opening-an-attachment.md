@@ -3,17 +3,17 @@ title: Ouverture d’une pièce jointe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c0350698-5304-40cd-903d-279471f3c226
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 39da1e02622d81cd12a2d4673b827d49bf418128
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ab54b14b9497cd9f1e1bc47bdc2c8d8783db65cd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430622"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591982"
 ---
 # <a name="opening-an-attachment"></a>Ouverture d’une pièce jointe
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197799(v=office.15)
 ms:contentKeyID: 48546469
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 19999159f7987be87031f88d1eec87980585f369
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 0eeb52f8885a508de1f9497cdc44df0406e13871
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284517"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562348"
 ---
 # <a name="recordset-object-dao"></a>Objet Recordset (DAO)
 
@@ -37,11 +37,11 @@ Vous utilisez des objets **Recordset** pour manipuler des données dans une base
 > [!NOTE]
 > Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
 
-Vous pouvez choisir le type d'objet**Recordset** que vous voulez créer à l'aide de l'argument type de la méthode**OpenRecordset**.
+Vous pouvez choisir le type d'objet **Recordset** que vous voulez créer à l'aide de l'argument type de la méthode **OpenRecordset**.
 
-Dans un espace de travail Microsoft Access, si vous ne spécifiez pas de type, DAO tente de créer le type de**Recordset**avec le plus de fonctionnalités disponibles, en commençant par un tableau. Si ce type n’est pas disponible, DAO tente une feuille de réponse dynamique, un instantané et pour finir un objet **Recordset** de type transfert uniquement.
+Dans un espace de travail Microsoft Access, si vous ne spécifiez pas de type, DAO tente de créer le type de **Recordset** avec le plus de fonctionnalités disponibles, à partir du type table. Si ce type n'est pas disponible, DAO tente de créer un type de feuille de réponse dynamique, puis un type capture instantanée et enfin un objet **Recordset** de type transfert uniquement.
 
-Dans un espace de travail ODBCDirect, si vous ne spécifiez pas de type, DAO tente de créer le type de**Recordset**avec la réponse de requête la plus rapide, à partir du type de transfert uniquement. Si ce type n'est pas disponible, DAO tente de créer un objet **Recordset** de type capture instantanée, puis de type feuille de réponse dynamique, et enfin de type dynamique.
+Dans un espace de travail ODBCDirect, si vous ne spécifiez pas de type, DAO tente de créer le type de **Recordset** avec la réponse de requête la plus rapide, à partir du type de transfert uniquement. Si ce type n'est pas disponible, DAO tente de créer un type capture instantanée, puis un type de feuille de réponse dynamique, et enfin un objet **Recordset** de type dynamique.
 
 Lors de la création d’un objet **Recordset** à l’aide d’un objet **[TableDef](tabledef-object-dao.md)** non lié dans un espace de travail Microsoft Access, les objets **Recordset** de type table sont créés. Seuls les objets **Recordset** de type feuille de réponse dynamique ou de type capture instantanée peuvent être créés avec des tables liées ou des tables de bases de données ODBC connectées au moteur de base de données Microsoft Access.
 
@@ -144,7 +144,7 @@ L'exemple ci-dessous illustre les objets **Recordset** et la collection **Record
 
 <br/>
 
-Cet exemple utilise la méthode **OpenRecordset** pour ouvrir cinq objets **Recordset** différents et afficher leur contenu.  La procédure OpenRecordsetOutput est obligatoire pour l’exécution de cette procédure.
+Cet exemple utilise la méthode **OpenRecordset** pour ouvrir cinq objets **Recordset** différents et afficher leur contenu. La procédure OpenRecordsetOutput est obligatoire pour l'exécution de cette procédure.
 
 ```vb
     Sub OpenRecordsetX() 

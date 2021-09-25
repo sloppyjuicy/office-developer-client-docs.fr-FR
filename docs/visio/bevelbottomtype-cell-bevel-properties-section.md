@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ac7b39d4-3942-4b23-b188-2c3f69e54929
 description: Spécifie le type de biseau inférieur du biseau d’une forme.
-ms.openlocfilehash: 0cd360f633145c7dea95438ffe2bc746e519ce13
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 54d42bfcb71fba1006e15b57a52b2b7c8dbbaf9f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431749"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578164"
 ---
 # <a name="bevelbottomtype-cell-bevel-properties-section"></a>BevelBottomType Cell (Bevel Properties Section)
 
@@ -25,14 +25,14 @@ Spécifie le type de biseau inférieur du biseau d’une forme.
 |2  <br/> |Biseau d’ensemble relâché  <br/> |
 |3  <br/> |Biseau croisé  <br/> |
 |4   <br/> |Biseau incliné froid  <br/> |
-|5   <br/> |Biseau d’angle  <br/> |
-|6   <br/> |Biseau arrondi  <br/> |
-|7   <br/> |Biseau convexe  <br/> |
-|8   <br/> |Biseau de pente  <br/> |
-|9   <br/> |Biseau de Divot  <br/> |
+|5  <br/> |Biseau d’angle  <br/> |
+|6   <br/> |Biseau arrondi  <br/> |
+|7   <br/> |Biseau convexe  <br/> |
+|8   <br/> |Biseau de pente  <br/> |
+|9   <br/> |Biseau de Divot  <br/> |
 |10  <br/> |Biseau de l’let  <br/> |
 |11  <br/> |Biseau du bord dur  <br/> |
-|12   <br/> |Biseau Deco Art  <br/> |
+|12   <br/> |Biseau Deco Art  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

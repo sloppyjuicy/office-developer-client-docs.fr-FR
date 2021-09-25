@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm625
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9a640f4-0af0-317c-b77b-f32c651e87b4
 description: Verrouille la mise en forme d'une forme afin d'empêcher sa modification.
-ms.openlocfilehash: e0d1bb8a65b8087136e57bb46ad9f5363da30030
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cbc0af1032a25a4939cbf16bb0586cf18a119cf6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409677"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603626"
 ---
 # <a name="lockformat-cell-protection-section"></a>LockFormat, cellule (section Protection)
 

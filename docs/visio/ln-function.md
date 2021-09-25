@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251454
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1265e4d6-58c7-896d-0d13-12944f96cf35
 description: "Renvoie le logarithme népérien d'un nombre. Le nombre doit être positif, ou LN renvoie la valeur d’erreur #NUM."
-ms.openlocfilehash: 867e487d369a7f042c3be297abd1b29e931ffea6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a4e6778749f9d30b2e2bf6bb8a3e52bb3abb72ac
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439974"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603661"
 ---
 # <a name="ln-function"></a>Fonction LN
 

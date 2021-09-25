@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193228(v=office.15)
 ms:contentKeyID: 48544607
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 29374baf16ec6c296f869b6bbf17bfb153d21bb3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2885264d6b48b3d4a86af350e4169a1d1a88d2ad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287775"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593837"
 ---
 # <a name="parametersrefresh-method-dao"></a>Parameters.Refresh, méthode (DAO)
 

@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bdacdafc-728b-4952-b28a-b5c1fe4b4f63
 description: Vous pouvez utiliser l’action MessageBox pour afficher une boîte de message contenant un avertissement ou un message d’information. Par exemple, vous pouvez utiliser l’action MessageBox avec des macros de validation. Lorsqu’un contrôle ou un enregistrement échoue à une condition de validation dans la macro, une boîte de message peut afficher un message d’erreur et fournir des instructions sur le type de données à entrer.
-ms.openlocfilehash: 9f45101fd269ef863e60fd8e69741e5cd7c56ef1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6909ab4a8c782ff2d5acf81f2ddb05ef2caa35c6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433450"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617264"
 ---
 # <a name="messagebox-macro-action-access-custom-web-app"></a>MessageBox Macro Action (Application web personnalisée Access)
 

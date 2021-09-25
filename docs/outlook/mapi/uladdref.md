@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.UlAddRef
 api_type:
 - COM
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f9e55153830dbe41a2b4a48454157c900d96cf90
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 716be1cdd425b7c8f912d33cda875c20e427ea75
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432834"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578430"
 ---
 # <a name="uladdref"></a>UlAddRef
 
@@ -39,7 +39,7 @@ ULONG UlAddRef(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _sous-président_
   

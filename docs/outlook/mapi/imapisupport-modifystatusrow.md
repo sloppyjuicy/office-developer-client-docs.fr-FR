@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.ModifyStatusRow
 api_type:
 - COM
 ms.assetid: a304ca8f-e404-4535-be76-0b673f2061a0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8c76e6059670e782ea6530ec8e94f77abfe5b9fe
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 19292d41e04b4a80d69ce68a1961c1deacbfde71
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417160"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625426"
 ---
 # <a name="imapisupportmodifystatusrow"></a>IMAPISupport::ModifyStatusRow
 
@@ -35,7 +35,7 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cValues_
   

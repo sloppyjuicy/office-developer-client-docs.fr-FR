@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidNoteX
 api_type:
 - COM
 ms.assetid: b8a4f87c-1d7c-46be-88e6-f09aa1525423
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e4cf317cadcb1ef6fa6cf42fe1cf88735b01cf66
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 422480d95d98d504d5133b404ebaa720b7ca2207
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326109"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604501"
 ---
 # <a name="pidlidnotex-canonical-property"></a>Propri t canonique PidLidNoteX
 

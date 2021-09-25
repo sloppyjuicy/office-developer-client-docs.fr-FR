@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidLogDocumentRouted
 api_type:
 - COM
 ms.assetid: 604f8859-469f-4745-b4b5-8f69737867a3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4c2a17e243807fb7517ce08040c6fc65b5f0df83
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f93dc11803a0ab1a4a77f09d723ee329f3978f65
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280331"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591821"
 ---
 # <a name="pidlidlogdocumentrouted-canonical-property"></a>Propriété canonique PidLidLogDocumentRouted
 

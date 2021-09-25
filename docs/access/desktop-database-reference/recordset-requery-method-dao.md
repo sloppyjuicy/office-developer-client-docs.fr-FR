@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821155(v=office.15)
 ms:contentKeyID: 48546840
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: bd6f2fdf7d1f8ba9fc47c6223a8f872a655a1e3f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: ebcfcdb81899254b5e24496dff93f82fa626f7c6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307622"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572899"
 ---
 # <a name="recordsetrequery-method-dao"></a>Méthode Recordset.Requery (DAO)
 
@@ -56,17 +56,17 @@ Met à jour les données dans un objet **[Recordset](recordset-object-dao.md)** 
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez cette méthode pour vous assurer qu’un objet **Recordset** contient les données les plus récentes. Cette méthode renseigne à nouveau l’objet **Recordset** actif à partir des paramètres de la requête actuelle ou (dans un espace de travail Microsoft Access) de ceux, nouveaux, fournis par l’argument newquerydef.
+Cette méthode s’avère utile pour s’assurer qu’un objet **Recordset** contient les données les plus récentes. Cette méthode remplit à nouveau l’objet **Recordset** actif à partir des paramètres de la requête actuelle ou (dans un espace de travail Microsoft Access) de ceux, nouveaux, fournis par l’argument défnouvellerequête.
 
-Si vous ne spécifiez pas d’argument newquerydef, l’objet **Recordset** est de nouveau renseigné à partir de la définition et des paramètres de requête déjà utilisés pour renseigner l’objet **Recordset** à l’origine. Any changes to the underlying data will be reflected during this re-population. If you didn't use a **QueryDef** to create the **Recordset**, the **Recordset** is re-created from scratch.
+Si vous ne spécifiez pas d’argument newquerydef, l’objet **Recordset** est de nouveau renseigné en fonction de la définition et des paramètres de requête déjà utilisés pour renseigner l’objet **Recordset** à l’origine. Toute modification à ces données sous-jacentes sera reflétée lors du nouveau remplissage. Si vous n’utilisez pas **QueryDef** pour créer **Recordset**, **Recorset** est créé à nouveau depuis le début.
 
-Si vous spécifiez l’objet **QueryDef** d’origine dans l’argument newquerydef, **Recordset** fait l’objet d’une nouvelle requête basée sur les paramètres spécifiés par **QueryDef**. Toute modification apportée aux données sous-jacentes sera prise en compte lorsque l’objet sera de nouveau renseigné. Pour répercuter les modifications effectuées au niveau de la valeur des paramètres de la requête dans l’objet **Recordset**, vous devez fournir l’argument newquerydef.
+Si vous spécifiez l'objet **QueryDef** d'origine dans l'argument newquerydef, **Recordset** fait l'objet d'une nouvelle requête basée sur les paramètres spécifiés par **QueryDef**. Les modifications apportées aux données sous-jacentes sont reflétées lors de ce nouveau remplissage. Pour répercuter les modifications effectuées au niveau de la valeur des paramètres de la requête dans l'objet **Recordset**, vous devez fournir l'argument newquerydef.
 
 If you specify a different **QueryDef** than what was originally used to create the **Recordset**, the **Recordset** is re-created from scratch.
 
 Lorsque vous utilisez la méthode **Requery**, le premier enregistrement de l'objet **Recordset** devient l'enregistrement actif.
 
-Vous ne pouvez pas appliquer la méthode **Requery** aux objets **Recordset** de type feuille de réponse dynamique ou instantané dont la propriété **[Restartable](recordset-restartable-property-dao.md)** a la valeur **False**. Toutefois, si vous fournissez l’argument facultatif newquerydef, la propriété **Restartable** est ignorée.
+Vous ne pouvez pas appliquer la méthode **Requery** aux objets **Recordset** de type feuille de réponse dynamique ou capture instantané dont la propriété **[Restartable](recordset-restartable-property-dao.md)** a la valeur **False**. Toutefois, si vous fournissez l'argument facultatif newquerydef, la propriété **Restartable** est ignorée.
 
 Si les propriétés **[BOF](recordset-bof-property-dao.md)** et **[EOF](recordset-eof-property-dao.md)** de l'objet **Recordset** ont toutes deux la valeur **True** après que vous ayez utilisé la méthode **Requery**, la requête ne renvoie aucun enregistrement et l'objet **Recordset** ne contient pas de données.
 

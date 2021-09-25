@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.CompareEntryIDs
 api_type:
 - COM
 ms.assetid: be6991d9-6353-4838-bc6b-39de51a94d8d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6c79943792c8c17ee007c39b5c5c215a6fbc0699
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 393b52fee4da11d63a5c10426405d3b5c35d2f40
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431042"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625496"
 ---
 # <a name="imapisupportcompareentryids"></a>IMAPISupport::CompareEntryIDs
 
@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbEntryID1_
   

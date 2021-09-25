@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b6950c4-7c03-6462-eeab-3176db9a8f7e
 description: Spécifie les auteurs de commentaires dans un dessin.
-ms.openlocfilehash: c6e94c985d2728ba704a9159ec9bf3c4a2a72e95
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: e8775c17ff7b3f97b612fb01a9c212e3778c7f30
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537856"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578213"
 ---
 # <a name="authorlist-element-comments_type-complextype-visio-xml"></a>Élément AuthorList (Comments_Type complexType) (Visio XML)
 

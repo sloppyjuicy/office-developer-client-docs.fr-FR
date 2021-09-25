@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1bcc17e7-d59d-d392-f299-78d7665202fc
-ms.openlocfilehash: 864f4f9b5069fa3968ceb8d3a8db1589113d931a
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: b69177467ca6d11c8a0213f2f5dade1f85568730
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541413"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603934"
 ---
 # <a name="actiontag_type-complextype-visio-xml"></a>ActionTag_Type complexType (Visio XML)
 

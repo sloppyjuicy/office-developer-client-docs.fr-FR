@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginalEits
 api_type:
 - COM
 ms.assetid: 9908039e-6b88-428f-b241-b04144cbcf5c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cdfbf0e8c5118f87ac058d56ebc8f85369bd5494
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 736e5617ff28e46ca03cb9382630a8a6224cec2e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434710"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624787"
 ---
 # <a name="pidtagoriginaleits-canonical-property"></a>Propriété canonique PidTagOriginalEits
 
@@ -32,7 +32,7 @@ Contient une copie des types d’informations codés d’origine (EIT) pour le t
 |Propriétés associées :  <br/> |PR_ORIGINAL_EITS  <br/> |
 |Identificateur :  <br/> |0x0021  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Server  <br/> |
+|Domaine :  <br/> |Serveur  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 021536b9-6724-4b8a-35c2-966e456e5232
 description: Contient des coordonnées x ou y pour le deuxième point de contrôle d’une spline, son deuxième nœud, son premier nœud, le dernier nœud ou le degré de la spline.
-ms.openlocfilehash: e3a99818d897af21e3064e0fc92d9d56ffcf5a15
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 2c6a5caa7ecbc087e9623a789247e9d0f6c23b33
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539354"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578045"
 ---
 # <a name="cell-element-splinestart-row-visio-xml"></a>Élément de cellule (ligne SplineStart) (Visio XML)
 
@@ -67,7 +67,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordonnée x du deuxième point de contrôle d'une spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du deuxième point de contrôle d'une spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y du deuxième point de contrôle d'une spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
 |A  <br/> |Deuxième nœud de la spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
 |B  <br/> |Premier nœud d'une spline.  <br/> |[SplineStart, ligne (section Geometry)](splinestart-row-geometry-section.md) <br/> |
 |C  <br/> |Dernier nœud d'une spline.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |

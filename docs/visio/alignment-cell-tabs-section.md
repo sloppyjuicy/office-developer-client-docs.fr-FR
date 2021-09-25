@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm35
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84234177-a2df-6acc-2761-230bc5d12627
 description: Détermine l'alignement des tabulations.
-ms.openlocfilehash: 461357c9c838fb4c0e5b0159bf027dd6adce26f9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5ec858ecff9222feccebdc84c520b7f3f9ec819f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425539"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59578276"
 ---
 # <a name="alignment-cell-tabs-section"></a>Alignment, cellule (section Tabs)
 

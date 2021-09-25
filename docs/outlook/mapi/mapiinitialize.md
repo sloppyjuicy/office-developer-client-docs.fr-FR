@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPIInitialize
 api_type:
 - HeaderDef
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6464f16d9ad73b332ff20dc007ef162b9525c6d5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5a632b9ccb31220620ae010dd52b7a147a02c050
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411175"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592108"
 ---
 # <a name="mapiinitialize"></a>MAPIInitialize
 
@@ -39,7 +39,7 @@ HRESULT MAPIInitialize(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpMapiInit_
   

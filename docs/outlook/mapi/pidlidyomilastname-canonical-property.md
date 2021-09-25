@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidYomiLastName
 api_type:
 - COM
 ms.assetid: 6d13f8f3-42fb-4942-b8fd-4cad66924811
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 18aa8493b4acd617b47d746a7b958cf6a346c522
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: af47098c85efc5c1913911c0eae177d69b0667fb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360976"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604340"
 ---
 # <a name="pidlidyomilastname-canonical-property"></a>Propri t canonique PidLidYomiLastName
 

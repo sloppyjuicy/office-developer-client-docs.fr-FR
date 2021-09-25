@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248917(v=office.15)
 ms:contentKeyID: 48543405
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1bc0d378428c00882c49f7783892ca2bf4d4638c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 6fa9193c8ff1110fb132051d5a373948d99c0892
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300692"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593781"
 ---
 # <a name="recordcreateoptionsenum"></a>RecordCreateOptionsEnum
 

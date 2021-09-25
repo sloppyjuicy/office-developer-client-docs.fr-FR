@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60055
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1c23f1d-485d-a897-594d-15d6e8d0fb3c
 description: Détermine si l’utilisateur peut ajouter, supprimer ou modifier des données de forme dans l’interface utilisateur à l’aide de la boîte de dialogue Définir les données de forme ou du menu contextuel de la fenêtre Données de forme.
-ms.openlocfilehash: 001123f3bd08d35f6f8e4874e20f2ee073835494
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bf8730523b007f8d7e0f4b936d94c8779d160a63
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422522"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603633"
 ---
 # <a name="lockcustprop-cell-protection-section"></a>LockCustProp, cellule (section Protection)
 

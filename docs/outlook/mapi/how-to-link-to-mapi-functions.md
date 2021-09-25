@@ -3,17 +3,17 @@ title: Lien vers les fonctions MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 71108da8bb9914bb7ed0ad0b3adacc24e1d69e63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4bf9c044ca7aadac9ae097bcd54228e0fba15dcd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346881"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616984"
 ---
 # <a name="link-to-mapi-functions"></a>Lien vers les fonctions MAPI
 
@@ -27,7 +27,7 @@ Historiquement, l’appel de fonctions MAPI dans une application de messagerie i
   
 **Comparaison des liaisons implicites et explicites.**
 
-![Comparaison des liaisons implicites et explicites](media/09d9c49a-a52d-4407-9013-d0d14c8f63f6.gif "Comparaison des liaisons implicites et explicites")
+![Comparaison entre une liaison implicite et une liaison explicite](media/09d9c49a-a52d-4407-9013-d0d14c8f63f6.gif "Comparaison entre une liaison implicite et une liaison explicite")
   
 ## <a name="explicit-linking"></a>Liaison explicite
 

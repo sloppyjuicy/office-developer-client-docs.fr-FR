@@ -3,17 +3,17 @@ title: Installation des fichiers d’en-tête MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae
 description: 'Dernière modification : 23 juillet 2011'
-ms.openlocfilehash: b732b30c59b387f1785c0a43a109613071b2615a
-ms.sourcegitcommit: d89aec850bbf3535b6915104b7cd60097fd8ec0b
+ms.openlocfilehash: db088c450c39a260fa9a5407df730a8fea34ffca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38303160"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617012"
 ---
 # <a name="install-mapi-header-files"></a>Installation des fichiers d’en-tête MAPI
 

@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9cfbf12c-a71c-092b-d86a-c5585b0f1edb
-ms.openlocfilehash: dc2fe6bbaf4515d5c5f5be694b15040bf03ef374
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 60e5a6f7400a3bb7ab2df1fc25cc2c469af29418
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321853"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617082"
 ---
 # <a name="iolkerrorunknown"></a>IOlkErrorUnknown
 

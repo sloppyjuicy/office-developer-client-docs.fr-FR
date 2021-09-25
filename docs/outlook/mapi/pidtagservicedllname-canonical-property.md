@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagServiceDllName
 api_type:
 - COM
 ms.assetid: a651af84-1711-449e-ba7e-5ce09cafa02b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: adf24bcd02d7efc303f911ee01a64325150339ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f01b9396e10d374ed2ddc152d3dadf3e8e5a3120
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330064"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59604123"
 ---
 # <a name="pidtagservicedllname-canonical-property"></a>Propriété canonique PidTagServiceDllName
 

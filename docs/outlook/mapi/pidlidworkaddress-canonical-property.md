@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidWorkAddress
 api_type:
 - COM
 ms.assetid: fc3c0ab3-6920-4e82-bc69-6c083159628f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d09de701b9b7ecf168a914e40d91f514fa636cd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: edf11e9cd418ec79392796f4881bd2509d436d70
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341747"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616662"
 ---
 # <a name="pidlidworkaddress-canonical-property"></a>Propriété canonique PidLidWorkAddress
 

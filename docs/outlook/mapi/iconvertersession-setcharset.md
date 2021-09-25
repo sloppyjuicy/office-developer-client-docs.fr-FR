@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IConverterSession.SetCharSet
 api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 14b2904e57852c564395f4b27c9d5270afd1454a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b951eeb555f800d1e625e68806ba6b19352410b5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336658"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616830"
 ---
 # <a name="iconvertersessionsetcharset"></a>IConverterSession::SetCharSet
 
@@ -34,7 +34,7 @@ HRESULT SetCharset(
      CSETAPPLYTYPE csetapplytype); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _fApply_
   

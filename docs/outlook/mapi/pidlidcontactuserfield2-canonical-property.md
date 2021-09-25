@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidContactUserField2
 api_type:
 - COM
 ms.assetid: 32e33d84-3d75-47e6-9109-d670f9e63d2e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 795ec388693898bf922cba0fa9e17a0de9b72f28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: cd1ee1dfd96b8042d408b0c3dcc7db0d61dab2ef
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319522"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625006"
 ---
 # <a name="pidlidcontactuserfield2-canonical-property"></a>Propriété canonique PidLidContactUserField2
 
