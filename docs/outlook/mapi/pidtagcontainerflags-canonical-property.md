@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContainerFlags
 api_type:
 - HeaderDef
 ms.assetid: 66b8d333-227e-464d-8cf9-cd8a5ff15efb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c9c446097213e5b743a47ec32db17ec0afe63b78
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8816d3cbb4c34330cdc970f1d197aeda415f9ed2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357546"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600371"
 ---
 # <a name="pidtagcontainerflags-canonical-property"></a>Propriété canonique PidTagContainerFlags
 

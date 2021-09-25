@@ -3,17 +3,17 @@ title: Vue d’ensemble de l’identificateur de propriété MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 957aa00f-23d8-4f3b-bbc2-7d54f17b47b5
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 29626f49365a0f37f1e13d965c62bfd5ad0fb774
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 83712c9a432c31e0a02d7eca39397a1bef92271d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414696"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600812"
 ---
 # <a name="mapi-property-identifier-overview"></a>Vue d’ensemble de l’identificateur de propriété MAPI
 

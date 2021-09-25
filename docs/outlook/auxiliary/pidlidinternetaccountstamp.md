@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52003a4e-1b61-2965-5204-6601652dd15b
 description: Renvoie le cachet du compte qui a remis le message.
-ms.openlocfilehash: c5da45268cefbe09588fdcfcda32e4e7a4be9d5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: aa81ce920cc448557bc23a0ba0fde603934f8e39
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572227"
 ---
 # <a name="pidlidinternetaccountstamp"></a>PidLidInternetAccountStamp
 

@@ -3,15 +3,15 @@ title: Programmation de l’ordre de résolution des listes d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9559afb-8db1-ce72-3e11-9b3d47bb80b6
 description: 'Last modified: July 06, 2012'
-ms.openlocfilehash: 4ca3e9d11a3133236d38ef31b01ecded932e8013
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 80facdd226cf599805631fdf12602b13158556d4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345961"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571961"
 ---
 # <a name="programmatically-set-the-resolution-order-for-address-lists"></a>Programmation de l’ordre de résolution des listes d’adresses
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRecipientProposedStartTime
 api_type:
 - COM
 ms.assetid: 6687ff62-7ac6-409c-8c87-4e09d38e45f1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8815728adce809641586c4da5beb4c9fad735507
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9f090cd253b78fd48e07916e9c134d61be14c4c6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283141"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563419"
 ---
 # <a name="pidtagrecipientproposedstarttime-canonical-property"></a>Propriété canonique PidTagRecipientProposedStartTime
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251435
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
 description: Protège l’expression contre la suppression et le changement par des actions effectuées dans la fenêtre de dessin, telles que le déplacement, le resserrage, le regroupement ou la suppression de formes.
-ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 07398bc6360b231ce7a9b8bd6f64635db03d57ed
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408151"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554683"
 ---
 # <a name="guard-function"></a>Fonction GUARD
 

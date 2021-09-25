@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f2095c9-ce09-48f7-b160-c9822d96a96c
 description: Définit si un document stocké sur un serveur microsoft SharePoint 2013 ou un Microsoft OneDrive peut être modifié simultanément par plusieurs auteurs dans une session de co-édition.
-ms.openlocfilehash: a76e2d3b2c3cf6e99e37596b016f448b0be56fd3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 505617992f2a35e0603ed676b1e6dcb1fa1b5511
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420513"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562971"
 ---
 # <a name="nocoauth-cell-document-properties-section"></a>NoCoauth Cell (Document Properties Section)
 

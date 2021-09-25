@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidHtml
 api_type:
 - COM
 ms.assetid: 5598cbaf-cb9a-4d3a-b123-9108a7aa7c1c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dd80c969c3ef7af280248d9570e684cd7278e9e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c6ac6ad0d6fad3e6dfc2f98b04adc4ef1af6b4b2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357574"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600595"
 ---
 # <a name="pidlidhtml-canonical-property"></a>Propri t canonique PidLidHtml
 

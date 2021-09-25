@@ -3,15 +3,15 @@ title: Articles conceptuels et procédures liés à Project
 manager: soliver
 ms.date: 09/15/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da7f2b16-cbd6-4a98-b577-31841e60a656
 description: Trouvez des liens vers des informations dans cette section sur les principales parties de la plateforme Project 2013, la mise en place du développement CSOM à l’aide de JavaScript et des .NET Framework, des modules complémentaires du volet Des tâches dans Project Professionnel 2013, l’interface serveur Project et le service de création de rapports OData.
-ms.openlocfilehash: e09df20f435816444b656927d4f6f0ebf6c38731
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d6287d185187f10d0fa371c2a1f446bc62c371d0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301518"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563111"
 ---
 # <a name="project-conceptual-and-how-to-articles"></a>Articles conceptuels et procédures liés à Project
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17c5e44e-ae56-8de7-3579-90171d996411
 description: L’API de libre/occupé permet aux fournisseurs de messagerie de fournir des informations d’état de libre/occupé pour les comptes d’utilisateur spécifiés dans un délai spécifié.
-ms.openlocfilehash: 1bcd191b57238771ede6f035216fe3997e82e03a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9b57a2958298098bda119ae260453f56d7cd1fca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433758"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580432"
 ---
 # <a name="about-the-freebusy-api"></a>À propos de l’API Disponibilité
 

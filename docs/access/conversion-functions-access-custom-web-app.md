@@ -3,15 +3,15 @@ title: Fonctions de conversion (application web personnalisée Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3dcb0228-9f44-4261-93ea-df519b0ebe38
 description: ''
-ms.openlocfilehash: d89aedd28eb7e725aa35ddcc96ec953db97dda6d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 019222f9bc450ac0544fa14c493f65198d467296
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415879"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573312"
 ---
 # <a name="conversion-functions-access-custom-web-app"></a>Fonctions de conversion (application web personnalisée Access)
 

@@ -8,19 +8,19 @@ f1_keywords:
 - xlAddInManagerInfo
 keywords:
 - fonction xladdinmanagerinfo [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 66d2ac05b9603d6bb587a3898bde2545c1bb844a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ebd7c4f8cd7e93ea9c3b838cc89d48ffdd60d503
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407794"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572353"
 ---
 # <a name="xladdinmanagerinfoxladdinmanagerinfo12"></a>xlAddInManagerInfo/xlAddInManagerInfo12
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Appelé par Microsoft Excel lorsque le Gestionnaire de add-in est appelé pour la première fois dans une session Excel session. Cette fonction est utilisée pour fournir au gestionnaire Add-In des informations sur votre add-in.
   
@@ -35,7 +35,7 @@ LPXLOPER WINAPI xlAddInManagerInfo(LPXLOPER pxAction);
 LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pxAction :_ Pointeur vers un **XLOPER/XLOPER12** numérique (**xltypeInt** ou **xltypeNum**).
   

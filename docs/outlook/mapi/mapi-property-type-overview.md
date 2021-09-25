@@ -3,17 +3,17 @@ title: Vue d’ensemble du type de propriété MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b762f5fb-7c2c-4303-96f7-0b6e657146c9
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 58dd25f09b76d97fd6441915225756a19f4ec3cb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0bdb1c2a631b80015dbc88dbe5a274c0f9b3050b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438196"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600805"
 ---
 # <a name="mapi-property-type-overview"></a>Vue d’ensemble du type de propriété MAPI
   
@@ -29,7 +29,7 @@ L’illustration suivante montre la structure d’une structure [SPropValue](spr
   
 **Propriétés à plusieurs valeurs**
   
-![Propriétés à valeurs multiples](media/amapi_12.gif "Propriétés à valeurs multiples")
+![Propriétés à plusieurs valeurs](media/amapi_12.gif "Propriétés à plusieurs valeurs")
   
 Bien que la prise en charge des propriétés à valeurs multiples soit facultative, MAPI recommande que les clients et les fournisseurs de services les prise en charge des deux types de propriétés, car cela permet une meilleure interaction entre les composants compatibles MAPI.
   
@@ -37,7 +37,7 @@ L’illustration suivante répertorie toutes les différentes constantes de type
   
 **Constantes de type de propriété**
   
-![Constantes de type de propriété Constantes](media/amapi_11.gif "de type propriété")
+![Constantes de type de propriété](media/amapi_11.gif "Constantes de type de propriété")
   
 Les clients et les fournisseurs de services qui travaillent avec une propriété doivent suivre deux étapes :
   

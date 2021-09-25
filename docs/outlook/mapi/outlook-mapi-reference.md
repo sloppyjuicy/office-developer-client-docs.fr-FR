@@ -1,17 +1,17 @@
 ---
-title: R�f�rence MAPI Outlook
+title: Référence MAPI Outlook
 manager: soliver
 ms.date: 04/04/2016
 ms.audience: Developer
 ms.assetid: 3d980b86-7001-4869-9780-121c6bfc7275
 description: MAPI fournit l’architecture de messagerie pour Microsoft Outlook 2013 et Outlook 2016.
-localization_priority: Priority
-ms.openlocfilehash: 7adcf897607a0475699f61f9a771fb642a0b6854
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: b5ff2d213c2073e5ff87aa58ef91bcb73f964e7c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348523"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600735"
 ---
 # <a name="outlook-mapi-reference"></a>Référence MAPI Outlook
   

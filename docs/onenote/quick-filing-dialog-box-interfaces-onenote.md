@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d83e39f0-b259-4c33-8f3e-e03e94c2403d
 description: Cette rubrique décrit les interfaces que vous pouvez utiliser pour personnaliser par programme la boîte de dialogue classement rapide dans OneNote 2013.
-ms.openlocfilehash: dd6b28ae6cb2acb007bae26ea661facaf1f8d4be
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c820765f1a4a19c4576ac8e6ed0bbf6cc140f1dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425336"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572262"
 ---
 # <a name="quick-filing-dialog-box-interfaces-onenote"></a>Rapides interfaces boîte de dialogue remplissage (OneNote 2013)
 
@@ -24,7 +24,7 @@ La boîte de dialogue classement rapide dans OneNote 2013 est une boîte de dial
   
 **La figure 1. Boîte de dialogue Remplissage rapide sans personnalisations**
 
-![Boîte de dialogue Classement rapide sans boîte]de dialogue Classement rapide sans(media/ON15Con_quick_filing_dialog.jpg "personnalisations")
+![Boîte de dialogue Remplissage rapide sans personnalisations](media/ON15Con_quick_filing_dialog.jpg "Boîte de dialogue Remplissage rapide sans personnalisations")
   
 Dans la boîte de dialogue, les utilisateurs peuvent parcourir la hiérarchie de tous les ordinateurs portables pour rechercher les emplacements spécifiques ou rechercher dans la structure d'arborescence OneNote en tapant dans la zone de texte. Aspects de la boîte de dialogue qui peuvent être personnalisés incluent le titre, description, récente liste des résultats, texte de la case à cocher État, profondeur de l'arborescence, boutons et des types d'emplacements sélectionnable.
 

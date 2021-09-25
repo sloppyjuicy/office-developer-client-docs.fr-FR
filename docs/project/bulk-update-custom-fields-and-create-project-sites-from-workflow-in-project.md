@@ -3,15 +3,15 @@ title: Mettre à jour en bloc des champs personnalisés et créer des sites de p
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 815131c6-190c-4f29-83bf-c853eee72821
 description: Pour aider les clients à utiliser au mieux Project Online et à améliorer l’extensibilité et la flexibilité de nos services, nous avons ajouté deux méthodes au modèle objet côté client que vous pouvez utiliser dans les flux de travail et les applications Project Online.
-ms.openlocfilehash: 4de42471cd8c2f12a982447ccffc27ec8104fa31
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: aadb20a85b97dad42c7158e52b7611609cc23496
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355359"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563202"
 ---
 # <a name="bulk-update-custom-fields-and-create-project-sites-from-a-workflow-in-project-online"></a>Mise à jour en bloc des champs personnalisés et création de sites de projet à partir d’un flux de travail dans Project Online
 
@@ -57,17 +57,17 @@ Cette section explique comment créer un flux de travail qui met à jour en bloc
     
 Le flux de travail final de bout en bout ressemble à ceci :
   
-![Flux de travail de bout en](media/8c0741f9-7f76-409d-8c00-e7a8c3ddb89f.png "bout")
+![Flux de travail de bout en bout](media/8c0741f9-7f76-409d-8c00-e7a8c3ddb89f.png "Flux de travail de bout en bout")
   
 ### <a name="to-create-a-workflow-that-bulk-updates-custom-fields"></a>Pour créer un flux de travail qui met à jour en bloc des champs personnalisés
 
 1. Facultatif. Stockez l’URL complète de votre projet dans une variable que vous pouvez utiliser tout au long du flux de travail.
     
-    ![Stocker l’URL du projet dans une variable]Stocker l’URL du projet dans une(media/a880c5c6-8e7a-44dd-87e9-7e532169d489.png "variable")
+    ![Stocker l’URL du projet dans une variable](media/a880c5c6-8e7a-44dd-87e9-7e532169d489.png "Stocker l’URL du projet dans une variable")
   
 2. Ajoutez **l’action Attendre Project événement** au flux de travail et choisissez l’événement Lorsqu’un projet **est** vérifié. 
     
-    ![Attendre que le projet soit vérifié dans Attendre]que le projet soit(media/699aa9c7-b3c9-426e-a775-96993a13559c.png "vérifié")
+    ![Attendre que le projet soit vérifié](media/699aa9c7-b3c9-426e-a775-96993a13559c.png "Attendre que le projet soit vérifié")
   
 3. Créez un **dictionnaire requestHeader** à l’aide de **l’action Créer un dictionnaire.** Vous utiliserez le même en-tête de requête pour tous les appels de service web dans ce flux de travail. 
     
@@ -77,10 +77,10 @@ Le flux de travail final de bout en bout ressemble à ceci :
     
     |Nom|Type|Valeur|
     |:-----|:-----|:-----|
-    |Accepter  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
+    |Accepter  <br/> |Chaîne  <br/> |application/json; odata=verbose  <br/> |
     |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
    
-    ![Ajout d’un en-tête Accept ajout](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "d’un en-tête Accept")
+    ![Ajout d’un en-tête Accept](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Ajout d’un en-tête Accept")
   
 5. Créez **un dictionnaire requestBody** à l’aide de **l’action Créer un dictionnaire.** Ce dictionnaire stocke toutes les mises à jour de champ que vous souhaitez appliquer. 
     
@@ -94,7 +94,7 @@ Le flux de travail final de bout en bout ressemble à ceci :
             
        - Valeur : SP. KeyValue
     
-       ![Définition d’une mise à jour de champ personnalisé]Définition(media/a4423493-6603-42ee-ae50-1ef74c5c59bd.png "d’une mise à jour de champ personnalisé")
+       ![Définition d’une mise à jour de champ personnalisé](media/a4423493-6603-42ee-ae50-1ef74c5c59bd.png "Définition d’une mise à jour de champ personnalisé")
   
     - **Touche** Nom interne du champ personnalisé, au format : *Custom_ce23fbf43fa0e411941000155d3c8201* 
     
@@ -123,32 +123,32 @@ Le flux de travail final de bout en bout ressemble à ceci :
   
        |Nom|Type|Valeur|
        |:-----|:-----|:-----|
-       |customFieldDictionary(0)/__metadata/type  <br/> |String  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary(0)/Key  <br/> |String  <br/> |Custom \_ ce23fbf43fa0e411941000155d3c8201  <br/> |
-       |customFieldDictionary(0)/Value  <br/> |String  <br/> |Entry \_ b9a2fd69279de411940f00155d3c8201;#Entry \_ baa2fd69279de411940f00155d3c8201  <br/> |
-       |customFieldDictionary(0)/ValueType  <br/> |String  <br/> |Edm.String  <br/> |
-       |customFieldDictionary(1)/__metadata/type  <br/> |String  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary(1)/Key  <br/> |String  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
-       |customFieldDictionary(1)/Value  <br/> |String  <br/> |90.5  <br/> |
-       |customFieldDictionary(1)/ValueType  <br/> |String  <br/> |Edm.Double  <br/> |
-       |customFieldDictionary(2)/__metadata/type  <br/> |String  <br/> |SP. KeyValue  <br/> |
-       |customFieldDictionary(2)/Key  <br/> |String  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
-       |customFieldDictionary(2)/Value  <br/> |String  <br/> |2015-04-01T00:00:00  <br/> |
-       |customFieldDictionary(2)/ValueType  <br/> |String  <br/> |Edm.DateTime  <br/> |
+       |customFieldDictionary(0)/__metadata/type  <br/> |Chaîne  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary(0)/Key  <br/> |Chaîne  <br/> |Custom \_ ce23fbf43fa0e411941000155d3c8201  <br/> |
+       |customFieldDictionary(0)/Value  <br/> |Chaîne  <br/> |Entry \_ b9a2fd69279de411940f00155d3c8201;#Entry \_ baa2fd69279de411940f00155d3c8201  <br/> |
+       |customFieldDictionary(0)/ValueType  <br/> |Chaîne  <br/> |Edm.String  <br/> |
+       |customFieldDictionary(1)/__metadata/type  <br/> |Chaîne  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary(1)/Key  <br/> |Chaîne  <br/> |Custom_c7f114c97098e411940f00155d3c8201  <br/> |
+       |customFieldDictionary(1)/Value  <br/> |Chaîne  <br/> |90.5  <br/> |
+       |customFieldDictionary(1)/ValueType  <br/> |Chaîne  <br/> |Edm.Double  <br/> |
+       |customFieldDictionary(2)/__metadata/type  <br/> |Chaîne  <br/> |SP. KeyValue  <br/> |
+       |customFieldDictionary(2)/Key  <br/> |Chaîne  <br/> |Custom_c6fb67e0b9a1e411941000155d3c8201  <br/> |
+       |customFieldDictionary(2)/Value  <br/> |Chaîne  <br/> |2015-04-01T00:00:00  <br/> |
+       |customFieldDictionary(2)/ValueType  <br/> |Chaîne  <br/> |Edm.DateTime  <br/> |
    
-       ![Dictionnaire qui définit le dictionnaire des mises]à jour des champs personnalisés qui définit les mises à jour des champs(media/41a1f18f-a6b2-40ff-904b-437baf962621.png "personnalisés")
+       ![Dictionnaire définissant les mises à jour de champs personnalisés](media/41a1f18f-a6b2-40ff-904b-437baf962621.png "Dictionnaire définissant les mises à jour de champs personnalisés")
   
 6. Ajoutez une action **de service Web HTTP d’appel** pour vérifier le projet. 
     
-    ![Appeler la méthode Checkout Appeler](media/8ce56014-0317-419b-afa7-229d05c86885.png "la méthode Checkout")
+    ![Appeler la méthode Checkout](media/8ce56014-0317-419b-afa7-229d05c86885.png "Appeler la méthode Checkout")
   
 7. Modifiez les propriétés de l’appel de service web pour spécifier l’en-tête de la demande. Pour ouvrir la boîte **de dialogue Propriétés,** cliquez avec le bouton droit sur l’action et choisissez **Propriétés.**
     
-    ![Spécifier l’en-tête de demande dans les propriétés]d’appel de service web Spécifiez l’en-tête de demande(media/d81e92b1-43df-42ad-9cd0-a693f93b164e.png "dans les propriétés d’appel de service web")
+    ![Spécifier l’en-tête de la demande dans les propriétés d’appel de service web](media/d81e92b1-43df-42ad-9cd0-a693f93b164e.png "Spécifier l’en-tête de la demande dans les propriétés d’appel de service web")
   
 8. Ajoutez une action **appeler le service Web HTTP** pour appeler la méthode **UpdateCustomFields.** 
     
-    ![Créer une action appeler le service web HTTP Créer]une action appeler le service web(media/9a73a201-c035-41b4-8798-506ac48b90f8.png "HTTP")
+    ![Créer une action Appeler le service web HTTP](media/9a73a201-c035-41b4-8798-506ac48b90f8.png "Créer une action Appeler le service web HTTP")
   
     Notez le  `/Draft/` segment dans l’URL du service web. L’URL complète doit ressembler à ceci : `https://<site-url>/_api/ProjectServer/Projects('<guid>')/Draft/UpdateCustomFields()`
     
@@ -156,7 +156,7 @@ Le flux de travail final de bout en bout ressemble à ceci :
   
 9. Modifiez les propriétés de l’appel de service web pour lier les paramètres **RequestHeader** et **RequestContent** aux dictionnaires que vous avez créés. Vous pouvez également créer une variable pour stocker **le ResponseContent**.
     
-    ![Lier les dictionnaires à l’en-tête de]requête et au contenu Lier les dictionnaires à l’en-tête et(media/f96bec92-138e-4eab-b1e7-1ab83d0428a5.png "au contenu de la demande")
+    ![Lier les dictionnaires au contenu et à l’en-tête de demande](media/f96bec92-138e-4eab-b1e7-1ab83d0428a5.png "Lier les dictionnaires au contenu et à l’en-tête de demande")
   
 10. Facultatif. Lisez le dictionnaire de réponses pour vérifier l’état du travail en file d’attente et enregistrez les informations dans l’historique du flux de travail.
     
@@ -164,15 +164,15 @@ Le flux de travail final de bout en bout ressemble à ceci :
   
 11. Ajoutez un appel de service web **au** point de terminaison Publier pour publier le projet. Utilisez toujours le même en-tête de requête. 
     
-    ![Appeler la méthode Publish Appeler]la méthode(media/3b661091-ffae-4d7e-a0bb-5b96a6292731.png "Publish")
+    ![Appeler la méthode Publish](media/3b661091-ffae-4d7e-a0bb-5b96a6292731.png "Appeler la méthode Publish")
   
-    ![Propriétés de l’appel de service web](media/6a80a5d3-7e29-4398-993c-f78b3faca8b1.png "Publier les propriétés de l’appel de service web Publier")
+    ![Propriétés pour l’appel de service web Publish](media/6a80a5d3-7e29-4398-993c-f78b3faca8b1.png "Propriétés pour l’appel de service web Publish")
   
 12. Ajoutez un dernier appel de service web au point de terminaison **d’enregistrement** pour vérifier le projet. 
     
-    ![Appeler la méthode Checkin Appeler](media/430510cb-0774-4911-af7f-b565b83eba0e.png "la méthode Checkin")
+    ![Appeler la méthode Checkin](media/430510cb-0774-4911-af7f-b565b83eba0e.png "Appeler la méthode Checkin")
   
-    ![Propriétés de l’appel]de service web Checkin(media/485f48d6-bbb8-4568-9dc3-aae3218f6bd1.png "Propriétés de l’appel") de service web Checkin
+    ![Propriétés de l’appel de service web Checkin](media/485f48d6-bbb8-4568-9dc3-aae3218f6bd1.png "Propriétés de l’appel de service web Checkin")
 
 <a name="CreateProjectSite"> </a>
 
@@ -184,7 +184,7 @@ Nous avons ajouté la **méthode CreateProjectSite** pour vous aider à choisir 
   
 **Conditions préalables :** Avant de pouvoir utiliser **CreateProjectSite,** le paramètre Autoriser les utilisateurs à choisir doit être définie pour la création de site de projet dans **PWA Paramètres** > ** Connected SharePoint Sites ** > **Paramètres**. 
   
-![Paramètre « Autoriser les utilisateurs à choisir » dans]PWA Paramètres Autoriser les utilisateurs à choisir dans PWA(media/6c6c8175-eb10-431d-8056-cea55718fdb4.png "paramètres")
+![Paramètre « Laisser le choix aux utilisateurs » dans les paramètres PWA](media/6c6c8175-eb10-431d-8056-cea55718fdb4.png "Paramètre Autoriser les utilisateurs à choisir dans PWA paramètres")
   
 ### <a name="to-create-a-workflow-that-creates-a-project-site"></a>Pour créer un flux de travail qui crée un site Project site
 
@@ -198,22 +198,22 @@ Nous avons ajouté la **méthode CreateProjectSite** pour vous aider à choisir 
     
     |Nom|Type|Valeur|
     |:-----|:-----|:-----|
-    |Accepter  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
+    |Accepter  <br/> |Chaîne  <br/> |application/json; odata=verbose  <br/> |
     |Content-Type  <br/> |String  <br/> |application/json; odata=verbose  <br/> |
    
-    ![Ajout d’un en-tête Accept ajout](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "d’un en-tête Accept")
+    ![Ajout d’un en-tête Accept](media/2f2e2016-3c49-4cac-b1e7-f2b8118b840c.png "Ajout d’un en-tête Accept")
   
 4. Ajoutez **l’action Appeler le service Web HTTP.** Modifiez le type de requête pour utiliser **POST** et définissez l’URL au format suivant :
     
     `https://<site-url>/_api/ProjectServer/Projects('<guid>')/CreateProjectSite('New web name')`
     
-    ![Création de l’URI de point de terminaison CreateProjectSite]création de l’URI de point de(media/42a90a5e-8d1b-4667-a933-785175212847.png "terminaison CreateProjectSite")
+    ![Construction de l’URI de point de terminaison CreateProjectSite](media/42a90a5e-8d1b-4667-a933-785175212847.png "Construction de l’URI de point de terminaison CreateProjectSite")
   
     Passez le nom du site Project à la **méthode CreateProjectSite** en tant que chaîne. Pour utiliser le nom du projet comme nom de site, passez une chaîne vide. N’oubliez pas d’utiliser des noms uniques pour que le site de projet suivant que vous créez fonctionne. 
     
 5. Modifiez les propriétés de l’appel de service web pour lier le **paramètre RequestHeader** au dictionnaire que vous avez créé. 
     
-    ![Liaison du dictionnaire à la demande]Liaison du dictionnaire à la(media/61a5a0a8-405f-44eb-b5e7-80b11f7caec3.png "demande")
+    ![Liaison du dictionnaire à la demande](media/61a5a0a8-405f-44eb-b5e7-80b11f7caec3.png "Liaison du dictionnaire à la demande")
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -5,13 +5,13 @@ ms.date: 12/13/2017
 ms.audience: Developer
 ms.assetid: c3eccf27-c8a3-4fb3-8fb4-7177474389a5
 description: Recherchez des procédures, des articles techniques, du contenu de référence et des billets de blog pour découvrir des solutions de développement et de personnalisation des applications clientes de bureau OneNote.
-localization_priority: Priority
-ms.openlocfilehash: 47da67c8ca741bcc30b55cb56d88ffe3640c465e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: ccca667de5b90c45a3829dd235c0166efed43966
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317065"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580453"
 ---
 # <a name="onenote"></a>OneNote
 

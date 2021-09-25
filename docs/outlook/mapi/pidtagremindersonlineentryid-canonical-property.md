@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRemindersOnlineEntryId
 api_type:
 - COM
 ms.assetid: cad25cca-248d-4845-9d60-7aa60f2dda62
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d845a37f9248a30dadd4db7722d8bed0f9f8d264
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4c1468b5052c20a4d33e338347016461811852e2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355061"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563391"
 ---
 # <a name="pidtagremindersonlineentryid-canonical-property"></a>Propriété canonique PidTagRemindersOnlineEntryId
 

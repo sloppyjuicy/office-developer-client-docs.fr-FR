@@ -3,17 +3,17 @@ title: Ouverture des entrées du carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 017a62c0-49c6-47fb-acce-db58e6bb9cc5
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6ebd6009700742e9b1159bc95ff0496c423e512c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f18ba37549f0ea6ee1a4dfa4028fb71289bae274
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422158"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600728"
 ---
 # <a name="opening-address-book-entries"></a>Ouverture des entrées du carnet d’adresses
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagHomeAddressPostalCode
 api_type:
 - HeaderDef
 ms.assetid: f89fd4ab-61b1-4405-89de-dfe599117a24
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3504011b99333d4b632c7edbf22136c5b5f0a511
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 635b1392df936e8c89173287c999164f7bf9b585
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316050"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600063"
 ---
 # <a name="pidtaghomeaddresspostalcode-canonical-property"></a>Propriété canonique PidTagHomeAddressPostalCode
 

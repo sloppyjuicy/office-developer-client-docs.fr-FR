@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagJunkThreshold
 api_type:
 - HeaderDef
 ms.assetid: 8067e2b5-02df-4b96-8f66-509f5a48c8aa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 078dfcc7c24870cf95a2a4b2385c34fbeb64fac0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 82fe1f1d12e37e9eb1cc1dbddc7e14da54feb058
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326851"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599951"
 ---
 # <a name="pidtagjunkthreshold-canonical-property"></a>Propriété canonique PidTagJunkThreshold
 

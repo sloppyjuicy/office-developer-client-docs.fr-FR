@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb646996(v=office.15)
 ms:contentKeyID: 55119849
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: df3779a3b92368af75d152e662eedec1a30a97bd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 8b3864864844a34f2c4794af684acdf1226cb330
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349482"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590708"
 ---
 # <a name="get-availability-information-for-an-exchange-users-manager"></a>Obtention des informations de disponibilité du responsable d’un utilisateur Exchange
 

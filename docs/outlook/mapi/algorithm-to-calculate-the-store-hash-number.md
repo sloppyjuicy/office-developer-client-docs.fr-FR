@@ -3,15 +3,15 @@ title: Algorithme permettant de calculer le numéro de hachage de la boutique
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 489e0d74-8ecd-23ba-c874-18fd8c50fd12
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 12797c2ed96ba2db493b5cf425423ffe97fc7a5d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: da084d7469fd1be7483da7a72a1b1fc353524748
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436306"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588251"
 ---
 # <a name="algorithm-to-calculate-the-store-hash-number"></a>Algorithme permettant de calculer le numéro de hachage de la boutique
  

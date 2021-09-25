@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IABLogon.GetLastError
 api_type:
 - COM
 ms.assetid: d157e29e-7731-4e47-b4a7-e8622b223001
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 311299b00143667b3f2fb22bd7be6c3a52c7141d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1a72a65a1d53329a13eac38364b8af8de73a2c0a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434248"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571926"
 ---
 # <a name="iablogongetlasterror"></a>IABLogon::GetLastError
 
@@ -35,7 +35,7 @@ HRESULT GetLastError(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hResult_
   

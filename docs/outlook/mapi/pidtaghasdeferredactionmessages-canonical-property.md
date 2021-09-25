@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagHasDeferredActionMessages
 api_type:
 - HeaderDef
 ms.assetid: f9085c59-18b1-451d-85d7-b08377708a9d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 954a49a05b51a2b58ed4e7a2bb3f6609a3cdb6e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bf6cc3918f35f2bfc8bee9813b12ccb02b9f9aa1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316120"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563489"
 ---
 # <a name="pidtaghasdeferredactionmessages-canonical-property"></a>Propriété canonique PidTagHasDeferredActionMessages
 
@@ -32,7 +32,7 @@ Contient TRUE si un message comporte au moins une règle d’action différée.
 |Propriétés associées :  <br/> |PR_HAS_DAMS  <br/> |
 |Identificateur :  <br/> |0x3FEA  <br/> |
 |Type de données :  <br/> |PT_BOOLEAN  <br/> |
-|Domaine :  <br/> |Règles  <br/> |
+|Domaine :  <br/> |Rules  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

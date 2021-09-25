@@ -1,40 +1,39 @@
 ---
 title: Développement de client Office
-ms.date: 10/09/2018
+ms.date: 09/14/2021
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles portant sur le développement de solutions et la personnalisation d’Office.
-ms.openlocfilehash: 4ecf232e0381fec9acc55582db6c7aaacedde891
-ms.sourcegitcommit: 63e14e1e6124222a0a347aa1ad02ce1bd7e94949
-ms.translationtype: HT
+ms.openlocfilehash: 29a2c6cd0b27bda7714b9ff9ab32ea6256a0de5d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "36849861"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580474"
 ---
 # <a name="office-client-development"></a>Développement de client Office
 
 Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles portant sur le développement de solutions et la personnalisation d’Office.
   
 > [!NOTE]
-> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/). 
+> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](/office/dev/add-ins/overview/office-add-in-availability.md) ? Consultez le nouveau [modèle de compléments Office](/office/dev/add-ins/).
 
+## <a name="office-add-ins"></a>Compléments Office
   
-### <a name="office-add-ins"></a>Compléments Office
+- [Prise en main](/office/dev/add-ins/)
   
-- [Prise en main](https://docs.microsoft.com/office/dev/add-ins/)
+- [Vue d’ensemble de la plateforme](/office/dev/add-ins/overview/office-add-ins.md)
   
-- [Vue d’ensemble de la plateforme](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+## <a name="sharepoint-add-ins"></a>Compléments SharePoint
   
-### <a name="sharepoint-add-ins"></a>Compléments SharePoint
+- [Prise en main](/sharepoint/dev/sp-add-ins/sharepoint-add-ins.md)
   
-- [Prise en main](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
+## <a name="visual-studio-tools-for-office"></a>Visual Studio Tools pour Office
   
-### <a name="visual-studio-tools-for-office"></a>Visual Studio Tools pour Office
+- [Compléments VSTO pour Office](/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio.md)
   
-- [Compléments VSTO pour Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
-  
-### <a name="office-client-vba-references"></a>Références VBA pour les clients Office
+## <a name="office-client-vba-references"></a>Références VBA pour les clients Office
   
 - [Access](access/access-home.md)
   
@@ -42,9 +41,9 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
   
 - [InfoPath](infopath/infopath-home.md)
   
-- [Référence de la bibliothèque d’objets VBA Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
+- [Référence de la bibliothèque d’objets VBA Office](/office/vba/api/overview/library-reference.md)
   
-- [Référence de langage VBA pour Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
+- [Référence de langage VBA pour Office](/office/vba/api/overview/language-reference.md)
   
 - [Office partagé](shared/office-shared.md)
   
@@ -62,14 +61,12 @@ Recherchez des procédures, des exemples de code, de la documentation sur les Ki
   
 - [Word](word/word-home.md)
   
-### <a name="code-samples"></a>Exemples de code
+## <a name="code-samples"></a>Exemples de code
   
 - [Exemples de code client Office](https://developer.microsoft.com/office/gallery/?filterBy=Samples)
   
-- [Exemples de code VBA](https://code.msdn.microsoft.com/office/site/search?query=VBA&f%5B0%5D.Value=VBA&f%5B0%5D.Type=SearchText&ac=4)
+- [Exemples de code VBA](/samples/browse/)
   
-### <a name="other-resources"></a>Autres ressources
+## <a name="other-resources"></a>Autres ressources
   
-- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
-  
-
+- [Open XML SDK](/office/open-xml/open-xml-sdk.md)

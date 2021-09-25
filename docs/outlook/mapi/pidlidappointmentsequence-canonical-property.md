@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAppointmentSequence
 api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 315165f3c46058424986aa8abba16b0df75baaf9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ac4561f14b8cf183d0b7e5e8b82c0a3ed3cb108d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331772"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600700"
 ---
 # <a name="pidlidappointmentsequence-canonical-property"></a>Propriété canonique PidLidAppointmentSequence
 

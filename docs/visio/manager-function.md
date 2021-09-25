@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251583
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2453014-7d45-f4c9-0384-def705c5c4d4
 description: Renvoie le texte à partir du champ Gestionnaire des propriétés d’un document.
-ms.openlocfilehash: f69666fa762a96ecedd9ab4c41a4db34ce78f2cc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0b0a8ca551addd6c3078937855cdac5085f0c92a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404539"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563062"
 ---
 # <a name="manager-function"></a>Fonction MANAGER
 

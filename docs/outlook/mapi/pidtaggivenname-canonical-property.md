@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagGivenName
 api_type:
 - HeaderDef
 ms.assetid: 27b7cbfc-4a76-4ae9-830a-6475dfa18459
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1bcef41eed91d323a50aa8a604000497232310e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7391e6a1023aaad4d28bdcf5a0ad21286beaf4f0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316169"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600070"
 ---
 # <a name="pidtaggivenname-canonical-property"></a>Propriété canonique PidTagGivenName
 

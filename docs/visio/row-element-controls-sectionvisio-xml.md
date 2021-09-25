@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb61870d-3f93-59e3-6671-e545c3a85718
 description: Contient les cellules d’un handle de contrôle particulier défini pour une forme.
-ms.openlocfilehash: 0fb31d8066e0a76bfe00735cb5dcc984d02685f1
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: b022aead461b6c7a74a1f6a4519755ae567e42a5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541742"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554067"
 ---
 # <a name="row-element-controls-section-visio-xml"></a>Row, élément (Controls Section) (Visio XML)
 
@@ -48,7 +48,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-controls-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Contient une propriété pour un handle de contrôle particulier défini pour une forme.  <br/> |
+|[Cell](cell-element-controls-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Contient une propriété pour une poignée de contrôle particulière définie pour une forme.  <br/> |
    
 ### <a name="attributes"></a>Attributs
 

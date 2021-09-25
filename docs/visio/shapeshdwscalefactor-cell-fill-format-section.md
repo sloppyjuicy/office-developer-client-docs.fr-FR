@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033175
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94ec06c5-8d2f-dd27-1eed-1abaf93daba8
 description: Indique le pourcentage d'agrandissement ou de réduction possible de l'ombre d'une forme.
-ms.openlocfilehash: 5862b61ca1f5df25ca97bf8742b9e20bf45091a9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3c68cb9aa7328078ce8d6c56da5297f98afdc908
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436264"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573326"
 ---
 # <a name="shapeshdwscalefactor-cell-fill-format-section"></a>ShapeShdwScaleFactor, cellule (section Fill Format)
 

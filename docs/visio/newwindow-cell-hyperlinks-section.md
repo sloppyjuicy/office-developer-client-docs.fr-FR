@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm695
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44995137-d241-937a-c097-0f9d79203cdf
 description: Définit si le lien hypertexte doit être ouvert dans une nouvelle fenêtre.
-ms.openlocfilehash: 0f9d1e4b1294dea3f211c8d0d69ffc49b6180066
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b77da67f595ff25e235c2b2b01f292fe5b31013e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342230"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562999"
 ---
 # <a name="newwindow-cell-hyperlinks-section"></a>NewWindow, cellule (section Hyperlinks)
 

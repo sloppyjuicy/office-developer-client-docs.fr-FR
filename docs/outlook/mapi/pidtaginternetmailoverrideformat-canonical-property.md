@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInternetMailOverrideFormat
 api_type:
 - HeaderDef
 ms.assetid: 4b57dbad-19b8-4357-b8b1-11f735eafcca
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4845c413232938319d2c6013d334137ebd2a8716
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 394ffbfd173ca2953da39629fcf80f2fbf676bdc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358603"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563440"
 ---
 # <a name="pidtaginternetmailoverrideformat-canonical-property"></a>Propriété canonique PidTagInternetMailOverrideFormat
 

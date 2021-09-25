@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFollowupIcon
 api_type:
 - HeaderDef
 ms.assetid: 374cef41-141a-491b-8dd1-eaf1a2044204
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 205b6ddc2b65297d69a2223aab7b745b223ee553
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8fb1a570f2bad075c69a9328427de53e86fab938
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316281"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563552"
 ---
 # <a name="pidtagfollowupicon-canonical-property"></a>Propriété canonique PidTagFollowupIcon
 
@@ -40,13 +40,13 @@ Cette propriété ne doit pas exister, sauf si la valeur de la propriété **PR_
   
 |**Valeur numérique**|**Name**|**Description**|
 |:-----|:-----|:-----|
-|Non présent  <br/> |S/O  <br/> |Aucune couleur  <br/> |
+|Non présent  <br/> |N/A  <br/> |Aucune couleur  <br/> |
 |1  <br/> |followupIcon1  <br/> |Indicateur violet  <br/> |
 |2  <br/> |followupIcon2  <br/> |Indicateur orange  <br/> |
 |3  <br/> |followupIcon3  <br/> |Indicateur vert  <br/> |
 |4   <br/> |followupIcon4  <br/> |Indicateur jaune  <br/> |
-|5   <br/> |followupIcon5  <br/> |Indicateur bleu  <br/> |
-|6   <br/> |followupIcon6  <br/> |Indicateur rouge  <br/> |
+|5  <br/> |followupIcon5  <br/> |Indicateur bleu  <br/> |
+|6   <br/> |followupIcon6  <br/> |Indicateur rouge  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

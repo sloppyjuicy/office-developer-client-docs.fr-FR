@@ -3,17 +3,17 @@ title: Sélection d’une version spécifique de MAPI à charger
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d353eba55e33b8ab48b3c47d2f31f1b5e0973b58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b410d53dee76a7f812f270d5f81f15bc691431ec
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344519"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580131"
 ---
 # <a name="choose-a-specific-version-of-mapi-to-load"></a>Sélection d’une version spécifique de MAPI à charger
 

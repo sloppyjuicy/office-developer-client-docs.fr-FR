@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184612(v=office.15)
 ms:contentKeyID: 55119858
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: fed1e7eb39f31ddd4340fc82a16e31ec67523a9d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 3d9b6d5c7f2795a3884f320d00f6bf9d389d062a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320285"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590729"
 ---
 # <a name="get-a-folder-based-on-its-folder-path"></a>Obtenir un dossier à partir de son chemin d’accès
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagReportingMessageTransferAgentCertificat
 api_type:
 - COM
 ms.assetid: 02e18d97-25d2-49a3-a63d-26a70895e21c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 04d97dfeeef28aac1d0bbf963074b4262d4fed3d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 352107c8efcbb72d5c21eca8ac12b6844fb16e02
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436586"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563384"
 ---
 # <a name="pidtagreportingmessagetransferagentcertificate-canonical-property"></a>Propriété canonique PidTagReportingMessageTransferAgentCertificate
 

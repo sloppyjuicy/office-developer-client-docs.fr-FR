@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60062
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f864c759-ed94-8ab7-d664-cc04b3ed743e
 description: Indique la marge de droite de la page d'impression.
-ms.openlocfilehash: d30669626fe07379521d61554010ae1bd7b0e83a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 822cdf7fa58a51362b8a67fc4f22c778f522cc8b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33440009"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562922"
 ---
 # <a name="pagerightmargin-cell-print-properties-section"></a>PageRightMargin, cellule (section Print Properties)
 

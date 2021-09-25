@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagScheduleInfoFreeBusyMerged
 api_type:
 - COM
 ms.assetid: 3ebfccb6-967a-4f8e-9d94-94c50ba65438
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8d15c6cb256fb1e80e3c94bdfe7e71bd8625aa35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b8e4b6c1f08b7b192e98c688003b888a538ce832
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338716"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555054"
 ---
 # <a name="pidtagscheduleinfofreebusymerged-canonical-property"></a>Propriété canonique PidTagScheduleInfoFreeBusyMerged
 

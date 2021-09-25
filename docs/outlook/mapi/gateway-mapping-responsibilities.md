@@ -3,17 +3,17 @@ title: Responsabilités de la passerelle en cas de mappage
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ac67bb83-e4f3-4c82-995b-c11a2a195e90
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 214d24bb0b0af525d5e2588c556c37cf720364a0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0611cb7bfd703097f1c168caa4f743f6770971d0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422753"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580215"
 ---
 # <a name="gateway-mapping-responsibilities"></a>Responsabilités de la passerelle en cas de mappage
 

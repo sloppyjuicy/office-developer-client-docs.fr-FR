@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b585200-33e7-4607-a603-0c7e52a6b09d
 description: Cette rubrique décrit certains scénarios que vous devez tester concernant l’installation et la désinstallation d’un fournisseur OSC (Outlook Social Connector).
-ms.openlocfilehash: 9c811683097a08b9f6e575d4ea2fee29cdd545d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3860deb1157477f156b0fae1506c5c6b08699786
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329161"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590351"
 ---
 # <a name="testing-deployment"></a>Test de déploiement
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRuleActions
 api_type:
 - COM
 ms.assetid: 3ec4259a-8fe9-46c3-82b8-42c6907b8515
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ab246414f7caaf76f462d9b80e762fe614c77c21
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c9b750a1cf6a1e393ecff05d1acaf5b2819c24f6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278899"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563342"
 ---
 # <a name="pidtagruleactions-canonical-property"></a>Propriété canonique PidTagRuleActions
 

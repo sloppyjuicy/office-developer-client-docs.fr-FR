@@ -3,17 +3,17 @@ title: Identificateurs de carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 822d83c4b77d06c2e000b391c7e229985470ccd3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f312f07386b74a58e6da814191c8b67a667e9fbd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421570"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572129"
 ---
 # <a name="address-book-identifiers"></a>Identificateurs de carnet d’adresses
 

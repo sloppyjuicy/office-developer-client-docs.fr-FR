@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251852
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6951a92-f32a-5829-5e07-b277b7934df3
 description: Vous pouvez effectuer des opérations dans les formules à l’aide de valeurs de date, d’heure et de durée. Dans Microsoft Visio, une expression de date et d’heure peut être évaluée comme une valeur simple. Une expression de date et d’heure est toute expression reconnue en tant que date et/ou heure ou référence à une cellule contenant une date et/ou une heure. Cette expression peut contenir des chaînes et des nombres avec un format de date et d’heure ainsi que des valeurs de date et d’heure renvoyées par des fonctions.
-ms.openlocfilehash: 56de919fa713c0948bb87f794d1c6e0a5d727aef
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c991a10c1403009b2abb5719d37946469e591c82
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416726"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554942"
 ---
 # <a name="about-date-time-and-duration-values"></a>À propos des valeurs Date, Heure et Durée
 

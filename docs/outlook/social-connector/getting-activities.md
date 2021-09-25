@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8cb8f916-f061-4c4c-ad1b-40d44af3345a
 description: L’OSC appelle la méthode ISocialProvider::GetCapabilities pour déterminer les fonctionnalités du fournisseur OSC pour un réseau social.
-ms.openlocfilehash: 9d504fb64368a6910feaa38f0ef19ed631b4d4e3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c1d34913a372c3959b34322eadf9964dcbbeb054
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420576"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590456"
 ---
 # <a name="getting-activities"></a>Obtention d’activités
 

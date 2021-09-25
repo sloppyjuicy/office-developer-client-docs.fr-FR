@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251219
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 596c62b7-8d42-1854-d709-592db09a6a84
 description: Verrouille la forme afin d'empêcher sa suppression.
-ms.openlocfilehash: 0819969c9ba17a52de19341b359b33ceae5b44d8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dc746ae96dc5f8d359b1f7500b59fdbe7d7d86f8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423138"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554466"
 ---
 # <a name="lockdelete-cell-protection-section"></a>LockDelete, cellule (section Protection)
 

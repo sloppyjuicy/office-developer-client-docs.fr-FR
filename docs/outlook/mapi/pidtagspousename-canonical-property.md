@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSpouseName
 api_type:
 - COM
 ms.assetid: 43263f91-ccab-481a-8491-5189cfa1217d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a239280bee12741daec0dbbb3b288f216208f15d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 61a0f9ce252dc11329b89b33c8597f6512885aef
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355278"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555047"
 ---
 # <a name="pidtagspousename-canonical-property"></a>Propriété canonique PidTagSpouseName
 

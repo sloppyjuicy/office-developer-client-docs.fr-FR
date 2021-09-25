@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fc27888-2809-aa29-4dbb-7e4f8a0c4758
 description: Information spécifiée par l’utilisateur qui peut être référente par d’autres cellules et outils de module complémentaire.
-ms.openlocfilehash: 1573fd6ab27cc1dbec9559552ec33d9a4ad19fd2
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 2abd2433bc5d29470c4b5ba192474b47005db1d9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538171"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554011"
 ---
 # <a name="row-element-user-defined-cells-section-visio-xml"></a>Row, élément (section User-defined Cells) (Visio XML)
 

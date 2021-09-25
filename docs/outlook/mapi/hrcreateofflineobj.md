@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04d57c1d-ce91-42ce-9f0f-00563092f6f4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0a34c441a473154a43a107b4236ccc259d327dba
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6a4f547ad55270eb3a2f4ec0ddb398c2d96fd257
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414388"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571940"
 ---
 # <a name="hrcreateofflineobj"></a>HrCreateOfflineObj
 
@@ -35,7 +35,7 @@ IMAPIOfflineMgr** ppOffline
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ulFlags_
   

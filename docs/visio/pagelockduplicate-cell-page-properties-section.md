@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fbaa7d64-06ef-46d6-81d5-9d7af1c14b65
 description: Détermine si la page peut être dupliquée, en tant que booléen.
-ms.openlocfilehash: 8ce730fcdc2dff5deac44d8c053b84e82a82d4cb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 41ac55f68993f164ae7e31aad0aab4720d58643e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425980"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562936"
 ---
 # <a name="pagelockduplicate-cell-page-properties-section"></a>PageLockDuplicate Cell (Page Properties Section)
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 02/18/2016
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cd5a5ae-118f-c7da-4eda-e97590fc39d4
 description: Obtient une interface qui éumène les blocs de données de la période spécifiée pour un utilisateur.
-ms.openlocfilehash: 51a77b2f47166628db07259ef841e0d6173ee370
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d33d4718707b44c481e5e54be47e4dad6b3b6bfa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317555"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572220"
 ---
 # <a name="ifreebusydataenumblocks"></a>IFreeBusyData::EnumBlocks
 
@@ -31,7 +31,7 @@ HRESULT EnumBlocks(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ppenumfb_
   

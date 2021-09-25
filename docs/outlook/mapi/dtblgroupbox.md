@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.DTBLGROUPBOX
 api_type:
 - COM
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 324cfe9d7c412b3bb0e3150b8eec51aaeb6a0e93
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 43aeba3be0181b4e5f5a203e7d1e4d0a64ec2bbd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438392"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601120"
 ---
 # <a name="dtblgroupbox"></a>DTBLGROUPBOX
 

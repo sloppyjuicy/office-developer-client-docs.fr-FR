@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251481
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b64abbd7-38df-9756-23c6-4457be987464
 description: Renvoie la coordonnée x d’un point.
-ms.openlocfilehash: 3a751fc440457fe11c829319d4b56e64dd9683ce
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 298000bcc2b116d3947ab8358569e39f13438cb9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417034"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554207"
 ---
 # <a name="pntx-function"></a>Fonction PNTX
 

@@ -3,17 +3,17 @@ title: attFrom
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2d405268-bb33-4863-be38-2d17e8fc956e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 496bd5439b9f004d3b13d2d73b31b5cac3f9eec9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a3b149b3b9a28cdf4043ace5da667b18729a077d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432414"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572101"
 ---
 # <a name="attfrom"></a>attFrom
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagDisplayCc
 api_type:
 - HeaderDef
 ms.assetid: 00377e78-a208-4942-a7a6-893b2a71ab0b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2bf862317ca1d2f2a09a71e1af62b82661b33326
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3dcdcdcbcc8b6d8ece3cfc0bff31253bfe6f1f20
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360808"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600175"
 ---
 # <a name="pidtagdisplaycc-canonical-property"></a>Propriété canonique PidTagDisplayCc
 

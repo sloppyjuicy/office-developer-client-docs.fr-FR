@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFormHidden
 api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cda969b43cba9431b986b24ec64ca26f245b7676
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: abf5a086c35ff7625705b02b049e795deac27445
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424706"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563524"
 ---
 # <a name="pidtagformhidden-canonical-property"></a>Propriété canonique PidTagFormHidden
 

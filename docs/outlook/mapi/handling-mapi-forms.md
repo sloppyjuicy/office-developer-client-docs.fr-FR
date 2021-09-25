@@ -3,17 +3,17 @@ title: Gestion des formulaires MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 91347f0c34b8d7b76e4e456397a1faa061f3b2c6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 05a1f1b61a8958bc2a32eb31988318cf43a8541b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423054"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580166"
 ---
 # <a name="handling-mapi-forms"></a>Gestion des formulaires MAPI
 
@@ -33,7 +33,7 @@ Le diagramme suivant illustre la relation entre un client et les autres parties 
   
 ## <a name="mapi-form-architecture"></a>Architecture de formulaire MAPI
   
-![Architecture de formulaire MAPI - Architecture](media/forms01.gif "de formulaire MAPI")
+![Architecture de formulaire MAPI](media/forms01.gif "Architecture de formulaire MAPI")
   
 Si votre client prévoit de gérer des formulaires MAPI, vous utiliserez l’interface [IMAPIFormMgr : IUnknown](imapiformmgriunknown.md) du gestionnaire de formulaires pour effectuer cinq tâches de base : 
   

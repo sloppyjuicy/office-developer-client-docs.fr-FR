@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aaf16c99-5c87-0a58-39b3-8f8b045760f3
-ms.openlocfilehash: 5b1596c42ff13985eb7e663d958c2f286e190808
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 84f4b17ff1337d2f1c22c35d2c71c5d44be4c3db
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540650"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554200"
 ---
 # <a name="protectshapes_type-complextype-visio-xml"></a>ProtectShapes_Type complexType (Visio XML)
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb623114(v=office.15)
 ms:contentKeyID: 55119786
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e2490c15da9c993a1a26b50adeb38207457f8286
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: de51efa4e2c6a60ab91d1c47f0570e13096aa4a0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285146"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590512"
 ---
 # <a name="using-a-separate-application-domain-to-avoid-crashing"></a>Utilisation d’un domaine d’application distinct pour éviter les blocages
 

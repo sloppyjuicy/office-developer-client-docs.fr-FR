@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b10221d-30f8-48f5-81ed-0283fdfc3e5d
 description: Détermine le style de trait Style rapide dont hérite la forme, sous la forme d’un nombre integer de 0 à 6.
-ms.openlocfilehash: e04fc6328d40b0564364aa8feff971628360d813
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0f6d2b8184ca49a96d1b99279da67a99d483d53d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410818"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554109"
 ---
 # <a name="quickstylelinematrix-cell-quick-style-section"></a>QuickStyleLineMatrix Cell (Quick Style Section)
 

@@ -3,15 +3,15 @@ title: Mises à jour pour les développeurs dans Project
 manager: lindalu
 ms.date: 12/03/2019
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
 description: Les nouvelles fonctionnalités comprennent un modèle objet client (CSOM), des interfaces REST, un service OData pour la génération de rapports, des récepteurs d’événements à distance, des flux de travail déclaratifs et des compléments du volet de tâches.
-ms.openlocfilehash: c2bc0b475639a8582422b2091169116428367c60
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 0f9cfc226e7ef4e5c2f81301812578e3ce9e58e9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819279"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554998"
 ---
 # <a name="updates-for-developers-in-project"></a>Mises à jour pour les développeurs dans Project
 
@@ -29,7 +29,7 @@ Pour obtenir des diagrammes et plus d’informations sur les principales modific
 ## <a name="major-new-features-in-project-2013"></a>Principales nouvelles fonctionnalités de Project 2013
 <a name="pj15_WhatsNew_MajorNewFeatures"> </a>
 
-Les nouvelles fonctionnalités de Project Standard 2013 et Project Professionnel 2013 incluent une interface utilisateur améliorée qui correspond à d’autres applications Office 2013 et prend en charge l’interface utilisateur de style moderne dans Windows 8, l’intégration avec les objets Office Art pour les rapports, les rapports de gravement et les nouvelles fonctionnalités de programmabilité pour les rapports. Project Professionnel 2013 permet de partager et de synchroniser des projets plus étendus sur SharePoint Server 2013, ainsi que les applications du volet Des tâches qui sont également implémentées dans d’autres applications Office 2013 telles que Word, Excel et Outlook.
+Les nouvelles fonctionnalités de Project Standard 2013 et Project Professionnel 2013 incluent une interface utilisateur améliorée qui correspond à d’autres applications Office 2013 et prend en charge l’interface utilisateur de style moderne dans Windows 8, l’intégration avec les objets Office Art pour les rapports, les rapports de gravement et les nouveaux fonctionnalités de programmabilité pour les rapports; Project Professionnel 2013 permet de partager et de synchroniser des projets plus étendus sur SharePoint Server 2013, ainsi que les applications du volet Des tâches qui sont également implémentées dans d’autres applications Office 2013 telles que Word, Excel et Outlook.
   
 Il existe de nombreuses nouvelles fonctionnalités dans Project Server 2013. Certaines n’ont pas d’article de programmabilité majeur, par exemple la nouvelle chronologie dans Project Web App. Ces fonctionnalités seront documentées dans l’aide du produit et les documents destinés aux utilisateurs finaux sur Microsoft Office Online, ainsi que dans les rubriques destinées aux administrateurs et professionnels de l’informatique sur Microsoft TechNet. D’autres nouvelles fonctionnalités, telles que les feuilles de temps améliorées, facilitent l’interaction des développeurs tiers avec les feuilles de temps et les états via l’interface Project Server (PSI).
   

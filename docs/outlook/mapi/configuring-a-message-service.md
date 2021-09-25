@@ -3,17 +3,17 @@ title: Configuration d’un service de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d68892e3-7c87-4b3a-a691-bff92f83ed00
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4c3d30c7111e7b26886cbfb069ec2822d2ee0234
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 97952952e48542d6d997285de6847791eefebb49
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434507"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571968"
 ---
 # <a name="configuring-a-message-service"></a>Configuration d’un service de message
 

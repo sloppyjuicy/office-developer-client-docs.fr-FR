@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: Les interfaces Window et Windows sont que des objets OneNote 2013 API qui permet aux utilisateurs de travailler avec les fenêtres OneNote. Ces objets permettent aux utilisateurs d'énumérer l'ensemble des fenêtres OneNote et de modifier certaines propriétés de la fenêtre.
-ms.openlocfilehash: efc34312def588ecff54c63b3db84f8bf909352b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a8dd260c1e56da98f2902922cf25dd5735358100
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317033"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572255"
 ---
 # <a name="window-interfaces-onenote"></a>Interfaces de fenêtre (OneNote 2013)
 
@@ -34,7 +34,7 @@ La figure suivante montre l’apparence de l’affichage Page complète, De la s
   
 **Affichages OneNote**
 
-![OneNote fenêtre et les](media/ON15Con_views.jpg "OneNote fenêtre")
+![Affichages de fenêtre OneNote](media/ON15Con_views.jpg "Affichages de fenêtre OneNote")
   
 ## <a name="interfaces"></a>Interfaces
 

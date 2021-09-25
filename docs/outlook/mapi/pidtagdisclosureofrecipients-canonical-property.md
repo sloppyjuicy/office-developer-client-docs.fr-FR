@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagDisclosureOfRecipients
 api_type:
 - HeaderDef
 ms.assetid: d77d46cd-6e21-485a-bb0d-dffece562a28
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2c047a5972ca475576a3325cef30ebc090a2b3fa
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8b43c09443c43b5b55ce631c453a2cb59ec27306
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409523"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600182"
 ---
 # <a name="pidtagdisclosureofrecipients-canonical-property"></a>Propriété canonique PidTagDisclosureOfRecipients
 

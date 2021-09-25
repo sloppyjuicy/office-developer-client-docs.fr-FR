@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bdbaf263-ae57-2807-f100-8d590ab92927
 description: Zone de travail dans laquelle vous pouvez entrer et tester des formules auxquelles d'autres cellules sont susceptibles de faire référence.
-ms.openlocfilehash: fb346785b9cb6539d970ae1bd1c44fc706bd657d
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 7e4d91be03ac8c4595eac8313009f3cae882b960
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541000"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554060"
 ---
 # <a name="row-element-scratch-section-visio-xml"></a>Row, élément (Scratch Section) (Visio XML)
 

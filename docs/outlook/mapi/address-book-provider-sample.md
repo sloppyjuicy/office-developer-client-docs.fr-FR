@@ -3,17 +3,17 @@ title: Exemple de fournisseur de carnet d’adresses
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fa2a447d0757e75c95d7dc3d9b1dd16b8c7a8084
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 66477d096dae5c9243a251d4c592856297d4456d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331107"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580292"
 ---
 # <a name="address-book-provider-sample"></a>Exemple de fournisseur de carnet d’adresses
 
@@ -69,7 +69,7 @@ Cet exemple ne prend pas en charge les fonctionnalités suivantes :
   
 1. Pour télécharger l’exemple de fournisseur de carnet d’adresses, consultez [la Outlook exemples MAPI.](downloading-the-outlook-mapi-samples.md)
     
-2. Recherchez le dossier dans lequel vous avez enregistré Outlook exemples MAPI. Cliquez avec le bouton droit sur le dossier zip du numéro de **\< \> version d’OutlookMAPISamples,** puis cliquez sur **Extraire tout.**
+2. Recherchez le dossier dans lequel vous avez enregistré Outlook exemples MAPI. Cliquez avec le bouton droit **sur \<version number\> le dossier Zip OutlookMAPISamples,** puis cliquez **sur Extraire tout.**
     
 3. Cliquez **sur Parcourir,** sélectionnez l’emplacement où vous souhaitez enregistrer l’exemple, puis cliquez sur **Extraire.**
     

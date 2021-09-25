@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f33705cc-8add-42be-9d9f-f4e9245d83f5
 description: Le connecteur Outlook Social Connector (OSC) peut s’afficher dans la carte de visite Office Outlook et les activités, l’état ou les mises à jour de photos d’un collègue, d’un ami ou de toute personne à qui vous êtes associé.
-ms.openlocfilehash: 0ee9451e64f12e8ba371c1ba91a1379cff257313
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4193006addd15bdc509fe14cae80c14c107685a1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428010"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555005"
 ---
 # <a name="relating-the-osc-with-outlook-and-social-networks"></a>Lien de l’OSC avec Outlook et les réseaux sociaux
 

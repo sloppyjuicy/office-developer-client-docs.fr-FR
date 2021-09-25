@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70fbdb41-46ea-d016-25a2-37e94962095d
 description: Ignore un nombre spécifié de blocs de données de libre/occupé.
-ms.openlocfilehash: cf8ae18b5ed2c24a48d44d9e8d461da7d95054d2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: baf13acb36d1455873771f1191461b7d17677959
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425721"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580411"
 ---
 # <a name="ienumfbblockskip"></a>IEnumFBBlock::Skip
 
@@ -28,7 +28,7 @@ HRESULT Skip(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _celt_
   

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a2490f2-48c4-5df3-a3b3-40e8e0c80479
 description: Renvoie la mesure de la partie spécifiée du cadre englobant de la forme.
-ms.openlocfilehash: a62d5b82c310e7b99e16b70982b75a68172b7fd8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7a3da5917f38596ff3d277fc01d145752b6bda32
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428276"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554816"
 ---
 # <a name="boundingboxdist-function"></a>Fonction BOUNDINGBOXDIST
 
@@ -48,8 +48,8 @@ BOUNDINGBOXDIST(** *Index* ** )
 |Bord gauche à l’axe de la forme  <br/> |2  <br/> |
 |Axe de la forme au bord droit  <br/> |3  <br/> |
 |Axe de la forme au bord supérieur  <br/> |4   <br/> |
-|Bord inférieur à l’axe de la forme  <br/> |5   <br/> |
-|Centre du cadre englobant à AxeX  <br/> |6   <br/> |
-|Centre du cadre englobant à AxeY  <br/> |7   <br/> |
+|Bord inférieur à l’axe de la forme  <br/> |5  <br/> |
+|Centre du cadre englobant à AxeX  <br/> |6   <br/> |
+|Centre du cadre englobant à AxeY  <br/> |7   <br/> |
    
 

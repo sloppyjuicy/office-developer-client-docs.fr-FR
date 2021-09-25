@@ -3,17 +3,17 @@ title: Meilleures pratiques en matière d’arrêt rapide
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ae8a9214-e53f-4c57-8dbe-aa7cc6903aa8
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8c7225427b80d89c6dd8adfa85f7d91885850365
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 778bd83e1b75ffdf494bc56cf79a5393e0c975ca
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572094"
 ---
 # <a name="best-practices-for-fast-shutdown"></a>Meilleures pratiques en matière d’arrêt rapide
 

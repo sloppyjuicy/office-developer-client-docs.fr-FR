@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ADRLIST
 api_type:
 - COM
 ms.assetid: 85f0d8a5-6dd3-4f33-b31a-246d286d6286
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 319c932862615e063a02ffac07e5541b1b20ac7e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2fdcc3d343eaabf0b34ae9e82099f9c467772868
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415914"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572122"
 ---
 # <a name="adrlist"></a>ADRLIST
 
@@ -59,7 +59,7 @@ L’illustration suivante montre la disposition d’une structure **ADRLIST.**
   
 **Composants ADRLIST**
   
-![Composants ADRLIST](media/amapi_18.gif "des composants ADRLIST")
+![Composants ADRLIST](media/amapi_18.gif "Composants ADRLIST")
   
 Les **parties ADRENTRY** et [SPropValue](spropvalue.md) d’une structure **ADRLIST** doivent être allouées et libérées indépendamment des autres parties. Autrement dit, chaque structure **SPropValue** doit être allouée individuellement une fois que la mémoire de la structure **ADRENTRY a** été allouée et libérée avant la libération de la structure **ADRENTRY.** Cette indépendance dans la gestion de la mémoire permet aux destinataires et aux propriétés des destinataires individuels d’être librement ajoutés ou supprimés de la liste d’adresses. 
   

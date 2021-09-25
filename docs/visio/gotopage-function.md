@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251432
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b131badf-1656-132e-0aae-eeedb917ba7a
 description: Affiche la page dont le nom est nom dans la fenêtre active.
-ms.openlocfilehash: c96585406b6104aeedbe46c35024a4f13bb0953e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: dfbaff34211d5df467d5ff378df9e37ec0e2e3d3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554760"
 ---
 # <a name="gotopage-function"></a>Fonction GOTOPAGE
 

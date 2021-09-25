@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
 description: L’exemple XML de cette rubrique est une chaîne XML d’ami renvoyée à Outlook Social Connector (OSC) après avoir appelé la méthode ISocialPerson::GetFriendsAndColleagues. L’exemple montre le XML des amis pour deux amis, chacun délimité par l’élément person. Chaque ami spécifie une valeur unique pour l’élément userID sur le réseau social.
-ms.openlocfilehash: 593019ec4dcd1b9b578bfe275fb8e6664bbd11a9
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 41b1b368a03a58f964fd05e6714656f6149cfa05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542225"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563271"
 ---
 # <a name="friends-xml-example"></a>Exemple de code XML sur les amis
 

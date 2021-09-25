@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidLogDocumentSaved
 api_type:
 - COM
 ms.assetid: 3809fa35-76d8-44a5-8ad9-a1ed30f91dc0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6b88d2adfd60fe346156f983994d8a74bc22749b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6d84b013b3aac04609c764132c006204c1a1cad0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342846"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600588"
 ---
 # <a name="pidlidlogdocumentsaved-canonical-property"></a>Propriété canonique PidLidLogDocumentSaved
 

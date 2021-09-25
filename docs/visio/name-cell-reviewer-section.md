@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1030992
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be39cd0b-56bf-a070-f5d8-c9a440d81ee2
 description: Contient le nom du réviseur d’un document.
-ms.openlocfilehash: 02f353ab8f2d39cc075211bb13157b93081e9d8f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7f04882b5b5ba8bfed3a275b3700164c52d23cf4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417685"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563020"
 ---
 # <a name="name-cell-reviewer-section"></a>Name, cellule (section Reviewer)
 

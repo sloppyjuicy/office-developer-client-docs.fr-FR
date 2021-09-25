@@ -3,17 +3,17 @@ title: Minutage d’une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6981a3b0-96eb-44a2-b051-1c5efc70e9e3
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fa3b155820c64ff55e324c5611eed7348cb93e2b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 55bc73a914802e8b3d794348d0bc28c4cdbafda9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411147"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590932"
 ---
 # <a name="timing-a-notification"></a>Minutage d’une notification
 

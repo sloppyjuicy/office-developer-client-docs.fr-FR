@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae7ddd55-7bcc-4bb6-bab7-97806122f166
 description: Empêche la cellule ConnectorsSchemeIndex de la ligne Propriétés du thème d’être modifiée en appliquant un nouveau thème ou en sélectionnant un nouveau schéma de connecteur. N’empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet.
-ms.openlocfilehash: 8097e50646fd59f4ac0212cbe9ca2ecfaadab7a2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3e1fd7571795bb5fea7cb4d0a5f8da091b5b7783
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438406"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554396"
 ---
 # <a name="lockthemeconnectors-cell-protection-section"></a>LockThemeConnectors Cell (Protection Section)
 

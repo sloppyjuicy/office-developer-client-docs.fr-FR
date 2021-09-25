@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4217030-5fd1-4ec4-a83f-752717fbb787
 description: Se connecte au site de réseau social à l’aide de l’authentification basée sur les formulaires.
-ms.openlocfilehash: 7ef7af8c1c2cdb783bdecd71b29635468e19dc6a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 923838f0064d979b7901ebe269822059a75400c0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430335"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563195"
 ---
 # <a name="isocialsessionlogonweb"></a>ISocialSession::LogonWeb
 
@@ -23,7 +23,7 @@ Se connecte au site de réseau social à l’aide de l’authentification basée
 HRESULT _stdcall LogonWeb([in] BSTR connectIn, [out] BSTR* connectOut);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _connectIn_
   

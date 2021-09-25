@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5b0db4b3bc7903aae74fa7275d3e27e22d628514
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 364ccc1428585a005135c13180231285df3ffcaa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359156"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563300"
 ---
 # <a name="pidtagsearchrecipientemailbcc-canonical-property"></a>Propriété canonique PidTagSearchRecipientEmailBcc
 
@@ -30,7 +30,7 @@ Contient une chaîne Unicode en cours d’interrogation dans la liste des adress
 |Propriétés associées :  <br/> |PR_SEARCH_RECIP_EMAIL_BCC_W  <br/> |
 |Identificateur :  <br/> |0x0EA8  <br/> |
 |Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Accès :  <br/> |Recherche  <br/> |
+|Accès :  <br/> |Rechercher  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251444
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d8dc1915-f055-e858-1323-9e8c1cb7f2f1
 description: Renvoie la coordonnée x (dans le système de coordonnées local) du point où deux lignes se coupent.
-ms.openlocfilehash: 857f81d667e33ad9ce79405ef5d59874903098e6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0b8c22357c6eb6ac6b5d0fc43117f0749dd1b106
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418273"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554557"
 ---
 # <a name="intersectx-function"></a>Fonction INTERSECTX
 

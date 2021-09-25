@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ad752f2d-25c9-8890-885b-87266a8052b8
 description: Contient la chaîne de texte qui apparaît dans la partie droite du pied de groupe d’un document.
-ms.openlocfilehash: e3aa56790e7875ee2ef146b6234c02eafc2ede8b
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: d1d0174815f314b7ac3bb74258f0a1181222dd02
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538626"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554774"
 ---
 # <a name="footerright-element-headerfooter_type-complextype-visio-xml"></a>Élément FooterRight (HeaderFooter_Type complexType) (Visio XML)
 

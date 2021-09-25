@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagImapCachedMsgsize
 api_type:
 - HeaderDef
 ms.assetid: fe2e511b-e2f4-4784-a178-f7f5bc3579dd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3474028ac7fbf32d266ba479ae896a26aa53ecba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ceb3fb36d1ae0b6a2866f9eff71e8e3604060071
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346626"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563461"
 ---
 # <a name="pidtagimapcachedmsgsize-canonical-property"></a>Propriété canonique PidTagImapCachedMsgsize
 

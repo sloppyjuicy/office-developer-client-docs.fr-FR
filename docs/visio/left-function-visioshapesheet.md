@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1021757
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c2f6e06-b772-2006-ec7b-8695d097f146
 description: Renvoie le ou les caractères les plus à gauche d’une chaîne de texte, en fonction du nombre de caractères que vous spécifiez.
-ms.openlocfilehash: aa4141cfc53bd41a6d58e8bc666b18a06fc80245
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 31b690c231f59bed53b8d04b0a4298621a718101
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427520"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554508"
 ---
 # <a name="left-function-visioshapesheet"></a>LEFT Function (VisioShapeSheet)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.MAPIERROR
 api_type:
 - COM
 ms.assetid: e04c2228-aa0a-4958-b5b2-6467e93ab613
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 682e75c4e0a2f60dbd46a13b0b737ca4a8e18f3d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5cdbd4d8f28562e659a5434ab17fe02eb3bf6c51
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409145"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600714"
 ---
 # <a name="mapierror"></a>MAPIERROR
 

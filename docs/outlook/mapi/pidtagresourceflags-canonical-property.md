@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagResourceFlags
 api_type:
 - COM
 ms.assetid: 69be9ad3-006a-459e-9cd4-eb3f609d71ad
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2fb9eed0beaf7269ac90a021dae650355484ebc2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f2e9100993b02f165c58f60b81307b6b5d04c647
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436229"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563356"
 ---
 # <a name="pidtagresourceflags-canonical-property"></a>Propriété canonique PidTagResourceFlags
 

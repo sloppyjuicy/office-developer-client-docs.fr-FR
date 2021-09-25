@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagHasAttachments
 api_type:
 - HeaderDef
 ms.assetid: fd236d74-2868-46a8-bb3d-17f8365931b6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aca9c9f9c22fc4057f1650d1342492d2ed34653c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 95bad8593130ed66868b4b0bffc3c87caf46c1c7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316127"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563496"
 ---
 # <a name="pidtaghasattachments-canonical-property"></a>Propriété canonique PidTagHasAttachments
 

@@ -5,13 +5,13 @@ ms:assetid: 3706be15-f746-4d0d-9ffe-d6f46b2004dc
 ms:contentKeyID: 55119793
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8f56f866e71b1080d5b7a6a33fb17e3e71ab9199
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b681e8cdac2f915dcf2e5c74419fb7f4ac6c6752
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320215"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590635"
 ---
 # <a name="get-the-account-for-a-folder"></a>Obtention du compte lié à un dossier
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2080
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7fb1d8a1-8892-f489-2f58-0008b5b750f5
 description: Comporte une seule ligne dans laquelle sont indiqués tous les calques auxquels la forme est associée.
-ms.openlocfilehash: e7e07ba14147abc8cdfd8b8544e4ee8f34b2be06
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eed980a8a901ca66251ef7d326272404b3047933
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432246"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554491"
 ---
 # <a name="layer-membership-section"></a>Layer Membership, section
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidNonSendableCc
 api_type:
 - COM
 ms.assetid: 170afe1f-1223-4689-825c-d21ab14b213b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d9f166b0d1e180fdb087fbf602e6841c3fdac3dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ea52b172e959d6c71f52e57798095e567b434b50
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319655"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600574"
 ---
 # <a name="pidlidnonsendablecc-canonical-property"></a>Propriété canonique PidLidNonSendableCc
 

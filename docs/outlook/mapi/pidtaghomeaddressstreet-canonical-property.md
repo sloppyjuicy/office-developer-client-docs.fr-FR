@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagHomeAddressStreet
 api_type:
 - HeaderDef
 ms.assetid: 557fd222-8513-4e8a-b605-3def955107dc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 235ea71bcd30b3f9c3f0786a3ca5b119d9bdce21
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b2da6db78c50a5c90659e854f5419ab6f452b7d7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356811"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600055"
 ---
 # <a name="pidtaghomeaddressstreet-canonical-property"></a>Propriété canonique PidTagHomeAddressStreet
 

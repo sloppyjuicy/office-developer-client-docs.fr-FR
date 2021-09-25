@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidSharingFlavor
 api_type:
 - COM
 ms.assetid: c91ab5c7-82ac-4895-bf54-2863ca5e2410
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 21144af15e7a36f54af3032f735c391b3038305b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: df5cb7fe6a45b87d7a382c6d6a928711c0f90f62
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327481"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600525"
 ---
 # <a name="pidlidsharingflavor-canonical-property"></a>Propriété canonique PidLidSharingFlavor
 

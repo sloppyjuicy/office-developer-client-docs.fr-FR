@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7ab8a50-dd30-4ba5-b6d8-e6d1f482e6f1
 description: Outlook permet de spécifier un nouveau domaine de service de messagerie pour la configuration automatique et d’autoriser le fournisseur de services de messagerie à configurer le compte.
-ms.openlocfilehash: bf06ff8d145ed6173e3545f784f8b5b7b5f433be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c038bf3461a3452b692687b1a2f6f541c2e45092
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572241"
 ---
 # <a name="about-registering-a-new-domain-for-automatic-configuration"></a>À propos de l’inscription d’un nouveau domaine pour la configuration automatique
 

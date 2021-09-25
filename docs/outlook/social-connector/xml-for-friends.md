@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3362639a-8098-47ab-ba94-ee89e4920032
 description: L’élément friends du schéma XML du fournisseur Microsoft Outlook Social Connector (OSC) permet à un fournisseur OSC de spécifier des informations pour une liste de personnes associées à un utilisateur Outlook dans le réseau social.
-ms.openlocfilehash: df3bf03c5fd1dcdac3096411bc60bcb1eeec661e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a6d8dbe78e40f94ea5fe30e7361b37ef05c46a02
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361158"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590344"
 ---
 # <a name="xml-for-friends"></a>XML pour les amis
 
@@ -86,7 +86,7 @@ Pour obtenir une définition complète du schéma XML du fournisseur OSC, y comp
 |**businessState** <br/> |Département ou province de l’espace de travail de la personne.  <br/> |
 |**businessZip** <br/> |Code postal ou postal de l’espace de travail de la personne.  <br/> |
 |**cell** <br/> |Numéro de téléphone mobile de la personne.  <br/> |
-|**Ville** <br/> |Ville de l’adresse physique de la personne.  <br/> |
+|**ville** <br/> |Ville de l’adresse physique de la personne.  <br/> |
 |**company** <br/> |Nom de la société associée à la personne.  <br/> |
 |**countryOrRegion** <br/> |Pays ou région de l’adresse physique de la personne.  <br/> |
 |**creationTime** <br/> |Heure de création du profil de la personne sur le réseau social.  <br/> |

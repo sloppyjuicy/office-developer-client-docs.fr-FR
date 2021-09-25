@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 83821a86-abff-460c-bb8e-9fd9d232dc6b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 20344185ffcbd90017fa3c3493218bd9b3ddfd74
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: efea46940881750c0c35765e1a3074a03d3fed81
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408893"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571954"
 ---
 # <a name="hropenabentrywithprovideruid"></a>HrOpenABEntryWithProviderUID
 
@@ -42,7 +42,7 @@ HRESULT HrOpenABEntryWithProviderUID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pEmsmdbUID_
   

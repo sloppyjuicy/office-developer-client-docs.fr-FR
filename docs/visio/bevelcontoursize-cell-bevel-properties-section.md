@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ebde552-f1e6-43d0-8704-4e29eb2b1c9d
 description: Détermine la taille du contour du biseau en points.
-ms.openlocfilehash: bb37c1a9990e1ee4bcca917f065b7872b8ae3bd7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 022de79dc01b6433dfd780c140f8f6689c7f17cb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439960"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554907"
 ---
 # <a name="bevelcontoursize-cell-bevel-properties-section"></a>BevelContourSize Cell (Bevel Properties Section)
 

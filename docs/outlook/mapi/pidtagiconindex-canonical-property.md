@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagIconIndex
 api_type:
 - HeaderDef
 ms.assetid: 35bb0d6d-41d4-47d6-b161-be3721894201
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 35d9d0a50539f8aab2d26730dd4e4544c2535e60
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2149e2d67bedc3aea6927e502a8d497a893a81e6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346619"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600049"
 ---
 # <a name="pidtagiconindex-canonical-property"></a>Propriété canonique PidTagIconIndex
 
@@ -42,7 +42,7 @@ Si elle existe, cette propriété est un conseil au client. Le client peut ignor
 |:-----|:-----|
 |Nouveau courrier  <br/> |0xFFFFFFFF  <br/> |
 |Publication  <br/> |0x00000001  <br/> |
-|Autre  <br/> |0x00000003  <br/> |
+|Autres  <br/> |0x00000003  <br/> |
 |Lire le courrier électronique  <br/> |0x00000100  <br/> |
 |Courrier non lu  <br/> |0x00000101  <br/> |
 |Courrier envoyé  <br/> |0x00000102  <br/> |

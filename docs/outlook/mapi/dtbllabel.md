@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.DTBLLABEL
 api_type:
 - COM
 ms.assetid: 5837facf-acd3-48fe-9610-f88085d99aef
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aa3345740c534b5ff156f062e731c98bc6164eed
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1f0bf5445404b80021350fa70c9b21c5bbbe73fd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410685"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601099"
 ---
 # <a name="dtbllabel"></a>DTBLLABEL
 

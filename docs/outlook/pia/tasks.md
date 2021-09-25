@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184656(v=office.15)
 ms:contentKeyID: 55119928
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0aab3e56bb8519d99b498521153923b024cfe26e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 832a0b110ecddf13c906f4a2b08e3a67a6f0cfd5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357686"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590526"
 ---
 # <a name="tasks"></a>Tâches
 

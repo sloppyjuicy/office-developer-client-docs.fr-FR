@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424477(v=office.15)
 ms:contentKeyID: 55119880
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: dba46c851050c3f948ec829ae2340e0492ca135f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 61d2ece4fcc0ba6301c7642f29a5f2a2f5bb7d86
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360402"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590774"
 ---
 # <a name="create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up"></a>Création d’une règle pour classer les éléments de courrier provenant d’un manager et les marquer pour le suivi
 

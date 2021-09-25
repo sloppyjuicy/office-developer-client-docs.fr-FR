@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251197
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d4f5e14-4f17-05a6-4092-5a102c9dc85f
 description: Indique si la forme a été retournée horizontalement.
-ms.openlocfilehash: b7a4a15e5a7759eddcda3ec391a81f14df545691
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 23dc298b00463da39b9345be59cf7d4267a636a4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415949"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554802"
 ---
 # <a name="flipx-cell-shape-transform-section"></a>FlipX, cellule (section Shape Transform)
 

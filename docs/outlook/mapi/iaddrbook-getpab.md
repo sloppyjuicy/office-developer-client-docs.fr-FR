@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IAddrBook.GetPAB
 api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6c565c088fd4ef7d5df141bf770c560f79535998
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: be1858d1a0e9eb0fe6743fd3d91c533408161d12
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419897"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59571849"
 ---
 # <a name="iaddrbookgetpab"></a>IAddrBook::GetPAB
 
@@ -34,7 +34,7 @@ HRESULT GetPAB(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpcbEntryID_
   

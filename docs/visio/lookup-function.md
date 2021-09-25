@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251457
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb6ec664-6062-75d0-1514-8058b98c2c36
 description: Renvoie un index de base zéro qui indique l’emplacement de la clé de sous-chaîne dans une liste, ou renvoie -1 si la chaîne cible contient le délimiteur.
-ms.openlocfilehash: 10fc32e6e979ab819246161dedfb1183c2683a99
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 00174504149f13d4e00493f8add4bc7de31089f8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410328"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554368"
 ---
 # <a name="lookup-function"></a>Fonction LOOKUP
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251491
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a374fe7d-7302-5365-81ab-64f5474d9d5c
 description: Arrondit un nombre à la précision représentée par numberofdigits .
-ms.openlocfilehash: 6795cbc4d99e293da06c0ec369d2cefb84f9f5b5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e004542ba0cd8b804893698045d3f9d67737b520
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554074"
 ---
 # <a name="round-function-visioshapesheet"></a>ROUND Function (VisioShapeSheet)
 

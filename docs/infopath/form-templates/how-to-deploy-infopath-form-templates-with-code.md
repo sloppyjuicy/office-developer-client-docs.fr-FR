@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - deploying form templates [infopath 2007],InfoPath 2007, deploying form templates,form templates [InfoPath 2007], deploying,.NET Framework security settings [InfoPath 2007],deployment [InfoPath 2007], form templates
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab66e26d-74ee-4211-b387-1385183a6803
 description: Le code du formulaire d'un modèle de formulaire InfoPath avec code managé est compilé pour comment assembly exécuté dans Common Language Runtime (CLR). Chaque fois que vous devez modifier le code du formulaire, vous devez ouvrir le projet correspondant dans Visual Studio 2012, apporter les modifications dans l'éditeur de code, recompiler le modèle de formulaire, puis redéployer le modèle de formulaire. De plus, l'assembly privé étant exécuté dans le domaine d'une application hôte du CLR, les paramètres de sécurité des formulaires qui nécessitent une confiance totale diffèrent légèrement de ceux des modèles de formulaires qui ne nécessitent pas une confiance totale.
-ms.openlocfilehash: ba3629e786a224ea950e78bbec9a9fe94d4499de
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a467352b6537d66d90a1b68cfd145dfff2130e35
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406898"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562005"
 ---
 # <a name="deploy-infopath-form-templates-with-code"></a>Déployer des modèles de formulaire InfoPath avec code
 

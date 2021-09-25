@@ -1,17 +1,17 @@
 ---
 title: Intégration d’applications de gestion Microsoft 365 Apps programme d’installation « Exécuter en un clic
 manager: lindalu
-ms.date: 09/28/2020
+ms.date: 09/14/2021
 ms.audience: ITPro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Découvrez comment intégrer le programme d Microsoft 365 Apps d’installation « En un clic » à une solution de gestion des logiciels.
-ms.openlocfilehash: eccd634f7906acf25b521ed2deb456ca914f37da
-ms.sourcegitcommit: c8c51bd3f51c0a59fe44c014c8e56f1ba7c7aa03
+ms.openlocfilehash: 65f601dc81562a6aad8f19546f22f9948117d1af
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48297313"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554977"
 ---
 # <a name="integrating-manageability-applications-with-microsoft-365-apps-click-to-run-installer"></a>Intégration d’applications de gestion Microsoft 365 Apps programme d’installation « Exécuter en un clic
 
@@ -27,7 +27,7 @@ Le Microsoft 365 Apps installer « En un clic » fournit une interface COM qui p
 Pour utiliser cette interface, une application de gestion appelle l’interface COM et appelle les API exposées qui communiquent directement avec le service d’installation « En un clic ». 
   
 > [!NOTE]
-> Le programme d’installation Office « En un clic » peut être exécuté à partir de la ligne de commande avec des paramètres qui peuvent contrôler le comportement, comme documenté dans [Office Deployment Tool for Click-to-Run](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool). 
+> Le programme d’installation Office « En un clic » peut être exécuté à partir de la ligne de commande avec des paramètres qui peuvent contrôler le comportement, comme documenté dans [Office Deployment Tool for Click-to-Run](/DeployOffice/overview-office-deployment-tool.md). 
   
 **Voici un diagramme conceptuel de l’interface COM**
 
@@ -117,7 +117,7 @@ Dans la documentation de référence de l’API suivante :
     
 - Les paramètres ne sont pas sensibles à la cas.
     
-- Il existe une [liste de paramètres avec](https://blogs.technet.microsoft.com/odsupport/2014/03/03/the-new-update-now-feature-for-office-2013-click-to-run-for-office365-and-its-associated-command-line-and-switches/) la documentation disponible. 
+- Pour plus d’informations, voir Office installations « En un clic » et sur les [applications anti-programme malveillant associées.](/office/troubleshoot/office-suite-issues/office-click-to-run-installation.md)
     
 - Le résumé de l’interface IUpdateNotify2 est désormais inclus.
     
@@ -127,7 +127,7 @@ Dans la documentation de référence de l’API suivante :
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
-#### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Paramètres
 
 -  _displaylevel_: **true pour** afficher l’état de l’installation, y compris les erreurs, pendant le processus de mise à jour ; **false pour** masquer l’état de l’installation, y compris les erreurs, pendant le processus de mise à jour. La valeur par défaut est **False**.
     
@@ -137,7 +137,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
     
 #### <a name="return-results"></a>Renvoyer des résultats
 
-|||
+|**Résultat**|**Description**|
 |:-----|:-----|
 |**S_OK** <br/> |L’action a été envoyée au service « Click-To-Run » pour exécution.  <br/> |
 |**E_ACCESSDENIED** <br/> |L’appelant n’est pas en cours d’exécution avec des privilèges élevés.  <br/> |
@@ -174,7 +174,7 @@ HRESULT Cancel() // Cancel the download action.
 
 #### <a name="return-results"></a>Renvoyer des résultats
 
-|||
+|**Résultat**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |L’action a été envoyée au service « Click-to-Run » pour exécution.  <br/> |
 |E_ILLEGAL_METHOD_CALL  <br/> |L’action n’est pas autorisée pour le moment. Pour plus [d’informations,](#bk_CancelRemarks) voir la section Remarques  <br/> |
@@ -191,7 +191,7 @@ HRESULT Cancel() // Cancel the download action.
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
-#### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Paramètres
 
 -  _displaylevel_: **true pour** afficher l’état de l’installation, y compris les erreurs, pendant le processus de mise à jour ; **false pour** masquer l’état de l’installation, y compris les erreurs, pendant le processus de mise à jour. La valeur par défaut est **False**.
     
@@ -205,7 +205,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
     
 #### <a name="return-results"></a>Renvoyer des résultats
 
-|||
+|**Résultat**|**Description**|
 |:-----|:-----|
 |**S_OK** <br/> |L’action a été envoyée au service « Click-To-Run » pour exécution.  <br/> |
 |**E_ACCESSDENIED** <br/> |L’appelant n’est pas en cours d’exécution avec des privilèges élevés.  <br/> |
@@ -264,15 +264,15 @@ typdef struct _UPDATE_STATUS_REPORT
 HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status of current action
 ```
 
-#### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Paramètres
 
-|||
+|**Paramètre**|**Description**|
 |:-----|:-----|
 | _pUpdateStatusReport_ <br/> |Pointeur vers une UPDATE_STATUS_REPORT structure.  <br/> |
    
 #### <a name="return-results"></a>Renvoyer des résultats
 
-|||
+|**Résultat**|**Description**|
 |:-----|:-----|
 |**S_OK** <br/> |La **méthode Status** renvoie toujours ce résultat. Examinez  `UPDATE_STATUS_RESULT` la structure pour l’état de l’action en cours.  <br/> |
    
@@ -370,7 +370,7 @@ Si vous n’utilisez aucune des nouvelles méthodes, vous n’avez rien à modif
   
 ## <a name="implementing-the-bits-interface"></a>Mise en œuvre de l’interface BITS
 
-Le [service BITS (Background Intelligent Transfer Service)](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) est un service fourni par Microsoft pour transférer des fichiers entre un client et un serveur. BITS est l’un des canaux Office le programme d’installation « Exécuter en un clic » peut utiliser pour télécharger du contenu. Par défaut, le programme d Microsoft 365 Apps d’installation « En un clic » utilise l’implémentation intégrée de BITS du Windows pour télécharger le contenu à partir du CDN. 
+Le [service BITS (Background Intelligent Transfer Service)](/windows/win32/bits/background-intelligent-transfer-service-portal.md) est un service fourni par Microsoft pour transférer des fichiers entre un client et un serveur. BITS est l’un des canaux Office le programme d’installation « Exécuter en un clic » peut utiliser pour télécharger du contenu. Par défaut, le programme d Microsoft 365 Apps d’installation « En un clic » utilise l’implémentation intégrée de BITS du Windows pour télécharger le contenu à partir du CDN. 
   
 En fournissant une implémentation BITS personnalisée à la méthode **download()** de l’interface **IUpdateNotify,** votre logiciel de gestion peut contrôler où et comment le client télécharge le contenu. Une interface BITS personnalisée est utile lorsque vous fournissez un canal de distribution de contenu personnalisé autre que les canaux intégrés « Click-to-Run » tels que les CDN, les serveurs IIS ou les partages de fichiers. 
   
@@ -492,7 +492,7 @@ Paramètres facultatifs de la requête
 | lid <br/>| Spécifie les fichiers de langue à inclure <br/> Facultatif : aucune valeur par défaut <br/> Pour spécifier plusieurs langues, incluez un paramètre de requête de capot pour chaque langue <br/> Utilisez le format d’identificateur de langue, par exemple. 'en-us', 'fr-fr' |
 | alllanguages <br/>| Spécifie d’inclure tous les fichiers de langue <br/> Facultatif : valeurs par défaut sur false |
 
-Réponse HTTP
+**Réponse HTTP**
 
 Si elle réussit, cette méthode renvoie un code de réponse 200 OK et une collection d’objets de fichier dans le corps de la réponse.
 
@@ -501,7 +501,7 @@ Pour créer une image, suivez les étapes suivantes :
 Remarque : les objets de fichier avec l’attribut « lcid » : « 0 » sont des fichiers linguistiquement neutres et doivent être inclus dans l’image.
 2.  Créez une image locale du CDN en itérant les objets de fichier et en copiant les fichiers CDN, tout en créant la structure de dossiers spécifiée par l’attribut « relativePath » défini pour chacun des objets de fichier.
 
-L’exemple suivant récupère la liste des fichiers pour le canal actuel et la version 16.0.4229.1004 pour 64 bits et inclut les fichiers en français et en anglais :
+L’exemple suivant récupère la liste des fichiers pour le canal actuel et la version 16.0.4229.1004 pour 64 bits et inclut les fichiers en français et en anglais.
 
 ```http
 Get https://config.office.com/api/filelist?Channel=Current&Version=16.0.4229.1004&Arch=x64&Lid=fr-fr&Lid=en-US
@@ -553,7 +553,7 @@ Chaque Microsoft 365 Apps mise à jour publiée inclut des métadonnées sur la 
 
 Dans l’exemple suivant, l’API de liste de fichiers est incorporée dans moreInfoURL et commence par « ServicePath= »
 
-http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Insiders&Arch=64&XMLVer=1.6&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml& ServicePath=https://config.office.com/api/filelist?Channel=Insiders&Version=16.0.12527.21104&Arch=64&AllLanguages=True
+https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Insiders&Arch=64&XMLVer=1.6&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml& ServicePath=https://config.office.com/api/filelist?Channel=Insiders&Version=16.0.12527.21104&Arch=64&AllLanguages=True
   
 ### <a name="additional-metadata-for-automating-content-staging"></a>Métadonnées supplémentaires pour l’automatisation de la zone de transit de contenu
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251441
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 943636a6-e135-a626-7924-11e238156548
 description: Permet d’accéder à l’adresse spécifiée, qui peut être un fichier, un unc ou un chemin d’URL.
-ms.openlocfilehash: 5e4952c3d56eff0cb1e6518928a7b8259f645046
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9443f30143a3beb19e31519d0dbe0845ddfd5451
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329945"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554704"
 ---
 # <a name="hyperlink-function"></a>Fonction HYPERLINK
 

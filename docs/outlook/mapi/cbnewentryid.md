@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.CbNewENTRYID
 api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 11f078c0e2071e6f58a85dbe627b2ced676bacb9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d72bdc2f9baebcf4748b3c73c2183a6cb1babfc9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405526"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572059"
 ---
 # <a name="cbnewentryid"></a>CbNewENTRYID
 
@@ -36,7 +36,7 @@ Calcule le nombre d’octets qui doivent être alloués à une nouvelle structur
 CbNewENTRYID (_cb)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ _cb_
   

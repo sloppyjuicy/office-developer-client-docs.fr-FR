@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6aab8be3-b236-029b-1df3-b6860d4f4586
 description: Extrait la communication entre un ou plusieurs éléments DataRecordset et une source de données non XML.
-ms.openlocfilehash: 619f3b4e3d9c93831cc23bc38fba3670107b2b51
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: c37c1076444febdc292fa91933b31f56413bc19e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538402"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563090"
 ---
 # <a name="dataconnection-element-dataconnections_type-complextype-visio-xml"></a>Élément DataConnection (DataConnections_Type complexType) (Visio XML)
 
@@ -58,6 +58,6 @@ Aucun.
 |FileName  <br/> |xsd:string  <br/> |obligatoire  <br/> |Nom du fichier de connexion. Voir la section Remarques pour plus d'informations.  <br/> |Valeurs du type xsd:string.  <br/> |
 |FriendlyName  <br/> |xsd:string  <br/> |facultatif  <br/> |Nom fourni par l’utilisateur pour la connexion de données.  <br/> |Valeurs du type xsd:string.  <br/> |
 |ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID attribué par le Visio pour une connexion donnée, unique dans le document.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|Timeout  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Délai d’attente en minutes lors de la tentative d’établissement d’une connexion avant la fin de la tentative.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|Délai d’expiration  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Délai d’attente en minutes lors de la tentative d’établissement d’une connexion avant la fin de la tentative.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
    
 

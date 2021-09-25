@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de0436de-5cd6-4e13-8794-6dfbdb1e4ea0
 description: Représente le nom d’utilisateur d’une boîte aux lettres Internet générale.
-ms.openlocfilehash: f87399e16b142329debbc2f3259df9d7eb15834e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5a4f7313f1d1a7cbb29df114fa22d3ae419c2404
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413702"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580299"
 ---
 # <a name="prop_inet_user"></a>PROP_INET_USER
 

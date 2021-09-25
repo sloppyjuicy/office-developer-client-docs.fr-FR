@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251666
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90701ecf-3d34-2eac-9ee9-7965e16c0f7c
 description: Détermine si un connecteur peut se positionner verticalement en traversant une forme positionnable.
-ms.openlocfilehash: 62f8bfa0fdfb5c483836f344e8b784dc9092fded
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c4625eadf2d9729c08204eac6d6d12b9b7f69408
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417517"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573354"
 ---
 # <a name="shapepermeabley-cell-shape-layout-section"></a>ShapePermeableY, cellule (section Shape Layout)
 

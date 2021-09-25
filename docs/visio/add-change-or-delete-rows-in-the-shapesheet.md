@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253110
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47aa9737-363b-b57f-14cf-c007f6dbb8be
 description: Vous pouvez ajouter de nouvelles lignes, modifier le type des lignes existantes ou supprimer des lignes dans la feuille ShapeSheet dans Microsoft Visio.
-ms.openlocfilehash: 385d1040527f8c4322fb1f158c1de2deb0e6f59c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2f9a71e93d2db54020355168ccb04fe46ab4abdb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425084"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554928"
 ---
 # <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Ajouter, modifier ou supprimer des lignes dans la feuille ShapeSheet
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagGovernmentIdNumber
 api_type:
 - HeaderDef
 ms.assetid: fa265d37-a1ea-4812-8fe9-21dac374cd7c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4b7ce4620f224597e753fb05ec377461b4c19c9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a3d15de7165a0faaecc178dfe1ca0d27d9a19f85
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316148"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59563531"
 ---
 # <a name="pidtaggovernmentidnumber-canonical-property"></a>Propriété canonique PidTagGovernmentIdNumber
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 27732f6d-e030-4080-9684-69293a57598b
 description: Spécifie s’il faut utiliser SSL (Secure Socket Layer) pour une boîte aux lettres Internet générale.
-ms.openlocfilehash: 12b6d803925b0be546273521b171d59a0a6b29d7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 251eb758dc6fdad4d03a42fedc0ebdf1eef31240
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429361"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580306"
 ---
 # <a name="prop_inet_ssl"></a>PROP_INET_SSL
 

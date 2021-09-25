@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253219
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6e410ef-54d5-9c08-926b-97a2a9786622
 description: Renvoie un nom de page d’arrière-plan en tant que chaîne.
-ms.openlocfilehash: 3b628315052117fe853c8f9c0fc36572de25d871
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 96e475690fafee2aba534419578428ad96320e3f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410314"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554844"
 ---
 # <a name="bkgpagename-function"></a>Fonction BKGPAGENAME
 
@@ -36,7 +36,7 @@ Chaîne
   
 ## <a name="remarks"></a>Remarques
 
-Si la page pour laquelle vous utilisez la fonction n’a pas de page d’arrière-plan, la chaîne « aucun arrière-plan \< \> » est renvoyée. 
+Si la page pour laquelle vous utilisez la fonction n’a pas de page d’arrière-plan, la chaîne \<no background\> « » est renvoyée. 
   
 Si vous utilisez un code de langue interdit, la langue locale est utilisée. 
   

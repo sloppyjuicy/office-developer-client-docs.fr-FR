@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a34539a-0245-4268-bcd3-90a17ee095f4
 description: Renvoie une expression de caractère après avoir supprimé les espaces vides non vides.
-ms.openlocfilehash: 83dba56e4ed8b140bb9f278f9e836ab4006e0955
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 01d16a485df71184a79d6b5b45dc732ac3a318dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430972"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562019"
 ---
 # <a name="ltrim-function-access-custom-web-app"></a>LTrim Function (Access custom web app)
 

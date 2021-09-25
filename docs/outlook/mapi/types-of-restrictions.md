@@ -3,17 +3,17 @@ title: Types de restrictions
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 28159dfb947b4fb0ea54680627588b7c10bee3b3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3fd12f2bed213bf48db18b8dacafc8d522439140
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416285"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590897"
 ---
 # <a name="types-of-restrictions"></a>Types de restrictions
 
@@ -32,11 +32,11 @@ Chacune des structures de restriction spécialisées dans l’union représente 
 |**Type de restriction**|**Structure de données associée**|**Description**|
 |:-----|:-----|:-----|
 |Compare, propriété  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |Compare deux propriétés du même type.  <br/> |
-|**ET** <br/> |[SAndRestriction](sandrestriction.md) <br/> |Effectue une opération **LOGIQUE AND** sur au moins deux restrictions.  <br/> |
+|**AND** <br/> |[SAndRestriction](sandrestriction.md) <br/> |Effectue une opération **LOGIQUE AND** sur au moins deux restrictions.  <br/> |
 |**OR** <br/> |[SOrRestriction](sorrestriction.md) <br/> |Effectue une opération **LOGIQUE OR** sur au moins deux restrictions.  <br/> |
 |**NOT** <br/> |[SNotRestriction](snotrestriction.md) <br/> |Effectue une opération **NOT** logique sur au moins deux restrictions.  <br/> |
-|Contenu  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |Recherche les données spécifiées.  <br/> |
-|Propriété  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |Spécifie une valeur de propriété particulière en tant que critères de correspondance. Peut être utilisé, par exemple, pour rechercher un type particulier de pièce jointe.  <br/> |
+|Content  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |Recherche les données spécifiées.  <br/> |
+|Property  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |Spécifie une valeur de propriété particulière en tant que critères de correspondance. Peut être utilisé, par exemple, pour rechercher un type particulier de pièce jointe.  <br/> |
 |Bitmask  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |Applique un masque de bits à une propriété PT_LONG, généralement pour déterminer si des indicateurs particuliers sont définies.  <br/> |
 |Size  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |Teste la taille d’une propriété à l’aide d’opérateurs relationnels standard.  <br/> |
 |Exist  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |Teste si un objet a une valeur pour une propriété.  <br/> |

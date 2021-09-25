@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm460
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b57fb962-0b3e-f2e5-3b88-3edf33e40496
 description: "Détermine la largeur de l'image de l'objet à l'intérieur de ses bordures. La formule par défaut est la suivante :"
-ms.openlocfilehash: 9da5e06a7fbf6ae77a49fb0410aefb406e2afecb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d09728bcefe1b3f8f795d53cf03b7c09f173e51c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422830"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554606"
 ---
 # <a name="imgwidth-cell-foreign-image-info-section"></a>ImgWidth, cellule (section Foreign Image Info)
 

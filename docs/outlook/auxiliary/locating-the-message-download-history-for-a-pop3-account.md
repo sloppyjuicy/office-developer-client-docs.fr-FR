@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90a51150-5c2c-4d5b-8717-5dacc8532744
 description: Cette rubrique décrit comment un client de messagerie peut accéder à la propriété PidTagAttachDataBinary pour obtenir l’historique de téléchargement des messages pour un compte POP3.
-ms.openlocfilehash: ae12a044098aa4f42e1c2e5936e82da3d7a128dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 95ff3c3970efbaf31f27f245fe433b8a779ba088
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321874"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580320"
 ---
 # <a name="locating-the-message-download-history-for-a-pop3-account"></a>Identification de l’historique de téléchargement de message pour un compte POP3
 

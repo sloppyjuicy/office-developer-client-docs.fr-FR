@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a88adf0-9265-4d49-976d-de0d93269aa9
 description: Tous les données XML renvoyées par les fournisseurs OSC dans les méthodes d’extensibilité des fournisseurs OSC doivent être conformes au schéma XML du fournisseur OSC suivant. Le schéma OSC est reproduit ici dans son intégralité.
-ms.openlocfilehash: ad9b2833991997556f50a927d4552b68d2bfdb50
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 353c655bc4ce2e662cd4aa56f03937090f0ca9b1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541343"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590386"
 ---
 # <a name="outlook-social-connector-provider-xml-schema"></a>Outlook Schéma XML du fournisseur Social Connector
 

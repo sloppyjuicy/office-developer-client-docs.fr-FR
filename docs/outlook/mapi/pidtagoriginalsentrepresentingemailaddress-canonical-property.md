@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e2c3d2c3-5451-45cb-b0ec-bdbf5b39a0ba
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2530e27993163505b28fa7d08fd5caf4cc9b03be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5bc3625826526807244c91186a71aa7ade1285e8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341187"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599895"
 ---
 # <a name="pidtagoriginalsentrepresentingemailaddress-canonical-property"></a>Propriété canonique PidTagOriginalSentRepresentingEmailAddress
 

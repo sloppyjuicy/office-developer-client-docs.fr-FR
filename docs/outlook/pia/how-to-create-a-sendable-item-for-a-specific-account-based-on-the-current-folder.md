@@ -5,13 +5,13 @@ ms:assetid: 665ebdc5-2912-4d85-ac40-835c9ef9a439
 ms:contentKeyID: 55119796
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ccbbaab10dc88d50c1fad3c1eefeb5c222bc8446
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 82d8fc7dc40a70eedc3fa9fd0deeb4e005ad1756
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349531"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590773"
 ---
 # <a name="create-a-sendable-item-for-a-specific-account-based-on-the-current-folder"></a>Créer un élément à envoyer pour un compte spécifique basé sur le dossier actif
 

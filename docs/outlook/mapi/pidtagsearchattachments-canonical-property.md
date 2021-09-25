@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 534c3881-e12f-f228-7760-788fe2b72ae8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 95729474db29fe21f808ec5c8f571bec4600db70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 252c556d08a9073940f7c734f157d735f0c0962a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336322"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59555061"
 ---
 # <a name="pidtagsearchattachments-canonical-property"></a>Propriété canonique PidTagSearchAttachments
 
@@ -30,7 +30,7 @@ Contient une chaîne Unicode en cours d’interrogation dans le contenu des piè
 |Propriétés associées :  <br/> |PR_SEARCH_ATTACHMENTS_W  <br/> |
 |Identificateur :  <br/> |0x0EA5  <br/> |
 |Type de propriété :  <br/> |PT_UNICODE  <br/> |
-|Domaine :  <br/> |Recherche  <br/> |
+|Domaine :  <br/> |Rechercher  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 

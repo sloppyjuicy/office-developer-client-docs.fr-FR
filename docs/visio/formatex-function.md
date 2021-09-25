@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251590
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d375c971-fee2-baa3-dc4f-a26018e70e8a
 description: Renvoie le résultat de l’expression évaluée dans srcUnit sous la forme d’une chaîne mise en forme selon le format exprimé dans dstUnit.
-ms.openlocfilehash: e341cbcb16cc273f0413f98c195f77ad08946ab1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4572c609ddb6a2a60cf34517531495705752ec7a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430965"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59554767"
 ---
 # <a name="formatex-function"></a>Fonction FORMATEX
 

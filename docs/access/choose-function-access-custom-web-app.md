@@ -3,15 +3,15 @@ title: Choose function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70c1ac24-a28f-4401-91d3-61129578bebd
 description: Renvoie l’élément à l’index spécifié à partir d’une liste de valeurs.
-ms.openlocfilehash: e44655b9c2f4055f1f3dc57befa8adc6884c43b6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3b2ce27b0bd43c2db1d28f90a0ffbd5c2c206496
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573333"
 ---
 # <a name="choose-function-access-custom-web-app"></a>Choose function (Access custom web app)
 

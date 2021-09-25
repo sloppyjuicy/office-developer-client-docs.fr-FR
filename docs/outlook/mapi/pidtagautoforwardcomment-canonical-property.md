@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAutoForwardComment
 api_type:
 - HeaderDef
 ms.assetid: a07c0ee3-f6f9-4ae3-81c0-accc939ca99a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8b0b55b5a769ea47c622e3e29e873afb1220dd5f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 72072d77c00051c8b83340c377c338c4a92ecd34
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430895"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600427"
 ---
 # <a name="pidtagautoforwardcomment-canonical-property"></a>Propriété canonique PidTagAutoForwardComment
 

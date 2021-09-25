@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f0853fc-f9f2-4314-ac55-47fe1e52d019
 description: Cette rubrique décrit comment résoudre les conflits pour les types d’éléments personnalisés que vous créez dans Outlook.
-ms.openlocfilehash: 357dd9182f26c4e9e1e264afdee296859e7b3483
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b134d1fcd48cf1274642798f880af5464b8a8ad0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316946"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580439"
 ---
 # <a name="about-conflict-resolution-for-custom-item-types"></a>À propos de la résolution de conflit pour les types d’éléments personnalisés
 
@@ -58,10 +58,10 @@ La définition de la résolution des conflits par le biais de la stratégie de g
 |2  <br/> |Résolution spécifique aux éléments de courrier.  <br/> |
 |3  <br/> |Résolution spécifique aux éléments de réunion.  <br/> |
 |4   <br/> |Résolution spécifique aux éléments de rendez-vous.  <br/> |
-|5   <br/> |Résolution spécifique aux éléments de contact.  <br/> |
-|6   <br/> |Résolution spécifique aux éléments de tâche.  <br/> |
-|7   <br/> |Résolution spécifique aux éléments de note resserrante.  <br/> |
-|8   <br/> |Résolution spécifique aux éléments de journal.  <br/> |
+|5  <br/> |Résolution spécifique aux éléments de contact.  <br/> |
+|6   <br/> |Résolution spécifique aux éléments de tâche.  <br/> |
+|7   <br/> |Résolution spécifique aux éléments de note resserrante.  <br/> |
+|8   <br/> |Résolution spécifique aux éléments de journal.  <br/> |
    
 Si vous spécifiez l’un des schémas de résolution spécifiques à l’élément (données clés 2 à 8),  Outlook essaiera de résoudre automatiquement les conflits dans les champs spécifiques à l’élément (par **exemple,** les champs Début et Fin d’un élément de rendez-vous) sans intervention de l’utilisateur. Si Outlook considère que la résolution peut entraîner la perte de données essentielles, Outlook conserve les copies conflictuelles dans le dossier Conflits et les utilisateurs peuvent choisir d’aller dans le dossier Conflits pour résoudre manuellement ces éléments et remplacer la résolution automatique. 
   

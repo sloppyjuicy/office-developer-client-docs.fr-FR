@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5204ddd-5af4-4dd8-bc83-af96ac390786
 description: Cette section décrit les propriétés de l’API de gestion des comptes.
-ms.openlocfilehash: d0b8c06716bd2f3a3bb2941e098bd9f11ab87183
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b3c7a739234b290d0a032f202a13f663912b7009
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416334"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572199"
 ---
 # <a name="properties-account-management-api"></a>Propriétés (API de gestion des comptes)
 

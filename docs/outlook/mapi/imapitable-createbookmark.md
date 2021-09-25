@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPITable.CreateBookmark
 api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c251dacce0d4e1743a74f1ba45e395b6e1c05064
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e3605dc630b6a7bcff46aa3a038d4a4ec7a1f114
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408823"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59600966"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
@@ -33,7 +33,7 @@ BOOKMARK FAR * lpbkPosition
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpbkPosition_
   

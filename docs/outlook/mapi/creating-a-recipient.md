@@ -3,17 +3,17 @@ title: Création d’un destinataire
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 586c901f-d9f9-44f2-a328-051775a81265
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e14430d1539b90e089a9dabe1315384050f3dd5e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5f09dfbdc22690e20a568dedd9974a9b6633505c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429585"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588216"
 ---
 # <a name="creating-a-recipient"></a>Création d’un destinataire
 
