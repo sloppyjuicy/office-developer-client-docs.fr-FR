@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ce8b52c-b6c1-4764-b4ec-00c7efb8929d
 description: Empêche la cellule FontIndex de la ligne Propriétés du thème d’être modifiée en appliquant un nouveau thème. N’empêche pas les utilisateurs de modifier manuellement cette valeur dans la feuille ShapeSheet.
-ms.openlocfilehash: b3bd21c1dcd8c8c13d843c50cb29edcc5b8c4999
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 037c5a3a4c480e7572add15b7cc36b1506735b17
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421227"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615864"
 ---
 # <a name="lockthemefonts-cell-protection-section"></a>LockThemeFonts Cell (Protection Section)
 

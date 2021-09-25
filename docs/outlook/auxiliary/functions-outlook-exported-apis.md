@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ce650d4-7aa5-45c9-9507-41eb8830d2f0
 description: Cette section décrit les fonctions qu’Outlook exporte.
-ms.openlocfilehash: 2777fdcc17ab2e374025064e42d8155ebbbfbdc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 919e62ff87874c95bc83f9bde46d201a151ee9b0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317675"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596646"
 ---
 # <a name="functions-outlook-exported-apis"></a>Fonctions (Outlook API exportées)
 

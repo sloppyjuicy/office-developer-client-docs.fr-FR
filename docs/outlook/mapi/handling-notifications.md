@@ -3,17 +3,17 @@ title: Gestion des notifications
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 451b71da-a888-4d8f-9814-12f9f846de05
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e261b71a8e94d9db3b1b17168d84798dfe18955d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1d87b4bc2ee33d4a9590f94af868a2d98ba7c7ac
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429158"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576204"
 ---
 # <a name="handling-notifications"></a>Gestion des notifications
 

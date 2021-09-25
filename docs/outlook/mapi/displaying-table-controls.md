@@ -3,17 +3,17 @@ title: Affichage des contrôles de tableau
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0882be14-573c-440c-954f-76ef70eea33e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 37f6cd0320894d500416672c3dd0d90ee3324b40
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 17bc69b5769a12e33ca956c89cfd7570c3ed2b21
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422690"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596598"
 ---
 # <a name="displaying-table-controls"></a>Affichage des contrôles de tableau
 

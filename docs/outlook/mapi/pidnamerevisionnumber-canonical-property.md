@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameRevisionNumber
 api_type:
 - COM
 ms.assetid: f0ea9833-81b8-4d9d-b91d-1a141c3f3725
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dac8ccbbfc0336972ed545f556391ff574f8a81d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0b97850dab9beaa900df00626bcbc6e7438d583f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315028"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629969"
 ---
 # <a name="pidnamerevisionnumber-canonical-property"></a>Propriété canonique PidNameRevisionNumber
 

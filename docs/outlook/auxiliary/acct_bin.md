@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
 description: Une variable de ce type de données contient une valeur binaire.
-ms.openlocfilehash: 8299230a30b65ef8fb7856dc74618dd15ae218ac
-ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
+ms.openlocfilehash: 315336db9a62c3ae7e56feb871bcd0b2f7971d48
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061334"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596647"
 ---
 # <a name="acct_bin"></a>ACCT_BIN
 

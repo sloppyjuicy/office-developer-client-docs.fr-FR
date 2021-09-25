@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FLATMTSIDLIST
 api_type:
 - COM
 ms.assetid: b66c2815-72bc-4535-b34c-899bb830f29e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bd9bfe4d1411b84a7811235aa68728afaefe64ab
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 207978d840272b52ce13422cae9172dd7045cbf7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439218"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576274"
 ---
 # <a name="flatmtsidlist"></a>FLATMTSIDLIST
 

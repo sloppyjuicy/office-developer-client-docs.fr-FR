@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033777
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d3bdf77-0ad4-86a4-d215-1d5a5fbe33f7
 description: Indique si les formes de la page peuvent être fractionnées automatiquement.
-ms.openlocfilehash: 18a40e0876b117556a1e7ab43f640e798dc248c0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d8e50a67746135ca43c3a9bee337be2fae31c827
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422018"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623235"
 ---
 # <a name="pageshapesplit-cell-page-layout-section"></a>PageShapeSplit, cellule (section Page Layout)
 

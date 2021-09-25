@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskAccepted
 api_type:
 - COM
 ms.assetid: 8e31f893-b639-43da-a535-662153c82d82
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0172bf0d69c3f345b592364be754f58c9e7a4420
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 45f745eb32e6b52b271d05cf3a89f2e645b9feb6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331282"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630200"
 ---
 # <a name="pidlidtaskaccepted-canonical-property"></a>Propriété canonique PidLidTaskAccepted
 

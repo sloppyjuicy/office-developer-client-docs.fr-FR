@@ -4,19 +4,19 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c04d243-002c-bb00-a4be-0bcb8e156402
-description: Contient une propriété pour un handle de contrôle particulier défini pour une forme.
-ms.openlocfilehash: 662dfe730c92ae25b3d243364bf1fa22a5eb8605
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+description: Contient une propriété pour une poignée de contrôle particulière définie pour une forme.
+ms.openlocfilehash: 45759522218736ddb6b08c3fd989658e08145fba
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615983"
 ---
 # <a name="cell-element-controls-row-visio-xml"></a>Élément de cellule (ligne Controls) (Visio XML)
 
-Contient une propriété pour un handle de contrôle particulier défini pour une forme.
+Contient une propriété pour une poignée de contrôle particulière définie pour une forme.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row, élément (section Controls)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contient une propriété pour un handle de contrôle particulier défini pour une forme.  <br/> |
+|[Row, élément (section Controls)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contient une propriété pour une poignée de contrôle particulière définie pour une forme.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin.  <br/> |
    
@@ -71,7 +71,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |X  <br/> |Représente la coordonnée x qui indique l'emplacement de la poignée de contrôle d'une forme. Cette coordonnée est exprimée en système de coordonnées locales.  <br/> |[X, cellule (section Controls)](x-cell-controls-section.md) <br/> |
 |xCon  <br/> |Spécifie le type de comportement de la coordonnée x de la poignée de contrôle une fois le handle déplacé.  <br/> |Aucun.  <br/> |
 |xDyn  <br/> |Représente la coordonnée x du point d'ancrage d'une poignée de contrôle. Cette coordonnée est exprimée en système de coordonnées locales.  <br/> |[X Dynamics, cellule (section Controls)](x-dynamics-cell-controls-section.md) <br/> |
-|v  <br/> |Représente la coordonnée y qui indique l'emplacement de la poignée de contrôle d'une forme. Cette coordonnée est exprimée en système de coordonnées locales.  <br/> |[Y, cellule (section Controls)](y-cell-controls-section.md) <br/> |
+|O  <br/> |Représente la coordonnée y qui indique l'emplacement de la poignée de contrôle d'une forme. Cette coordonnée est exprimée en système de coordonnées locales.  <br/> |[Y, cellule (section Controls)](y-cell-controls-section.md) <br/> |
 |YCon  <br/> |Spécifie le type de comportement de la coordonnée y de la poignée de contrôle une fois le handle déplacé.  <br/> |Aucun.  <br/> |
 |YDyn  <br/> |Représente la coordonnée y du point d'ancrage d'une poignée de contrôle. Cette coordonnée est exprimée dans le système de coordonnées locales.  <br/> |[Y Dynamics, cellule (section Controls)](y-dynamics-cell-controls-section.md) <br/> |
    

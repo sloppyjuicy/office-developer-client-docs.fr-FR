@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IAddrBook.SetDefaultDir
 api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3ab01f189734ac30b4c027f4e5596c88031b5f99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6a74b10167506251160d508418a8894b8b7e3c6d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341698"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576141"
 ---
 # <a name="iaddrbooksetdefaultdir"></a>IAddrBook::SetDefaultDir
 
@@ -34,7 +34,7 @@ HRESULT SetDefaultDir(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbEntryID_
   

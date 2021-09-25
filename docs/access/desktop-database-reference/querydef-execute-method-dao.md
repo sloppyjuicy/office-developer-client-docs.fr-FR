@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 7ef7f61ef632617b8d64a3fd9c34e5887e50065c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: a13db599846ebb851b2eb60de2baf813fabf0907
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302960"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565057"
 ---
 # <a name="querydefexecute-method-dao"></a>QueryDef.Execute, méthode (DAO)
 
@@ -100,18 +100,18 @@ Vous pouvez utiliser les constantes **[RecordsetOptionEnum](recordsetoptionenum-
 </tr>
 <tr class="odd">
 <td><p><strong>dbRunAsync</strong></p></td>
-<td><p>Exécute la requête de manière asynchrone (connexion ODBCDirect et objets  uniquement).</p></td>
+<td><p>Exécute la requête en mode asynchrone (objets ODBCDirect Connection et QueryDef uniquement).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbExecDirect</strong></p></td>
-<td><p>Exécute l’instruction sans appeler au préalable la fonction  de l’API ODBC (connexion ODBCDirect et objets  uniquement).</p></td>
+<td><p>Exécute l'instruction sans appeler préalablement la fonction API ODBC SQLPrepare (objets ODBCDirect Connection et QueryDef uniquement).</p></td>
 </tr>
 </tbody>
 </table>
 
 
 > [!NOTE]
-> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
 
 > [!NOTE]
 > Les constantes **dbConsistent** et **dbInconsistent** s’excluent mutuellement. Vous pouvez utiliser l’une ou l’autre dans une instance donnée d’**OpenRecordset**, mais pas les deux à la fois. L’utilisation simultanée de **dbConsistent** et **dbInconsistent** entraîne une erreur.
@@ -126,7 +126,7 @@ Pour des performances optimales dans un espace de travail Microsoft Access, plu
 
 ## <a name="example"></a>Exemple
 
-Cet exemple illustre la méthode **Execute** lorsqu’elle est exécutée à partir d’un objet **QueryDef** et d’un objet **Database**. Les procédures  et  sont requises pour exécuter cette procédure.
+Cet exemple illustre l'exécution de la méthode **Execute** à partir d'un objet **QueryDef** et d'un objet **Database**. Les procédures ExecuteQueryDef et PrintOutput sont nécessaires à l'exécution de cette procédure.
 
 ```vb
     Sub ExecuteX() 
@@ -243,7 +243,7 @@ Cet exemple illustre la méthode **Execute** lorsqu’elle est exécutée à par
 
 <br/>
 
-L’exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters permet de définir le paramètre Organization de la requête myActionQuery avant l’exécution de celle-ci.
+L'exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters est utilisée pour définir le paramètre Organization de la requête myActionQuery avant l'exécution de cette dernière.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

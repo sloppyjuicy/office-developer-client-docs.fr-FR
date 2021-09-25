@@ -3,15 +3,15 @@ title: Vérification du blocage d’une pièce jointe
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: c1c6f960f2e24108bebdc8f6cbf08bf1d94d85ae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 57c7c3861073910a1f5331c71e9e5ecc1c0c83a0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345884"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576197"
 ---
 # <a name="verify-an-attachment-is-blocked"></a>Vérification du blocage d’une pièce jointe
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMailUser
 api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a0e109fe95120483e700bab5b82f6d7cb75e2e28
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1c5485860c6e8efcf7ba768f25c0c13384f0733b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436593"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576106"
 ---
 # <a name="imailuser--imapiprop"></a>IMailUser : IMAPIProp
 

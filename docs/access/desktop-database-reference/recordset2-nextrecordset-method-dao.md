@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053575
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 54d0e49dfbe9dc3fb87eb10af9eefe3aa2f83709
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 89425c64c2c6cf5ebb224709fd3291b9768319a4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307237"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576974"
 ---
 # <a name="recordset2nextrecordset-method-dao"></a>Recordset2.NextRecordset, méthode (DAO)
 

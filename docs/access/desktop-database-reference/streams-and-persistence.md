@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249289(v=office.15)
 ms:contentKeyID: 48544949
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 5a6f49368def305964119edcb06b5bcc80c278d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d4446f6577edbdc855596482a19cc44772942b1a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314433"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564840"
 ---
 # <a name="streams-and-persistence"></a>Flux et persistance
 

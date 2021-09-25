@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm265
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc447f22-a188-2c61-e33c-df0d401a4725
 description: Représente la valeur de l'unité de dessin dans l'échelle de dessin en cours. L'échelle de dessin est le rapport entre l'unité de page représentée dans la cellule PageScale et l'unité de dessin représentée dans la cellule DrawingScale.
-ms.openlocfilehash: 8a3a5f93ff096e42ba3c13b671b46bf1cf97df82
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f1e0ff314aea587334550568ae5067e3acdceec4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413317"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586536"
 ---
 # <a name="drawingscale-cell-page-properties-section"></a>DrawingScale, cellule (section Page Properties)
 

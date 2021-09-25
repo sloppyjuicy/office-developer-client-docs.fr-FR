@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249396(v=office.15)
 ms:contentKeyID: 48545340
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2241d61f66ea8599b60bd83a044f2073664f4bbf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7672f29a615c9cd48e6200657507fe9d2653cb92
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293531"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615493"
 ---
 # <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a>EOS et LineSeparator, propriétés et skipline, méthodes - Exemple (VB)
 

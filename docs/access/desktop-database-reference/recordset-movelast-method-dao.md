@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837192(v=office.15)
 ms:contentKeyID: 48548881
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 79799742499e163a43d51a2d8553adcadf27b36d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ac09a5a63da8748346fa94b4fc661653698c7521
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284531"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606211"
 ---
 # <a name="recordsetmovelast-method-dao"></a>Recordset.MoveLast, méthode (DAO)
 

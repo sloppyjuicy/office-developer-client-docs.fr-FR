@@ -3,15 +3,15 @@ title: Objets de base de données (application web personnalisée Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 069dc9eb-2136-4a9f-9a43-4ca7ce50f9c8
 description: ''
-ms.openlocfilehash: 58d4de1096f285b873c9268fada23f12b1659802
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 300ab46c9c13ca5cc8fe0398e152cbef370b8d46
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421052"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586487"
 ---
 # <a name="database-objects-access-custom-web-app"></a>Objets de base de données (application web personnalisée Access)
 

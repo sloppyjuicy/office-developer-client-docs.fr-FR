@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.DTBLEDIT
 api_type:
 - COM
 ms.assetid: ec3566a0-75ad-466d-a61e-f7d61ccb946d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b07ea265b5dcc6b9a9abb15c6be7ac9e0f94e8ed
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 908cde20bf22f53df7e3025a1f47b623ce00f9e9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404679"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596511"
 ---
 # <a name="dtbledit"></a>DTBLEDIT
 

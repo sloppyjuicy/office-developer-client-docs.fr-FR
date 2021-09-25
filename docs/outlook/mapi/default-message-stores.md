@@ -1,19 +1,19 @@
 ---
-title: Banques de messages par défaut
+title: Banques de messages par d�faut
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: efa178eb-feb2-443f-8f6b-2ea53a456bf2
-description: 'Dernière modification : 23 juillet 2011'
-ms.openlocfilehash: 1ad325c68241c8a3924909b4dbf42c9657e68352
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: 6f25fdeb176b2d885a4ba3fbf2bfb8b094de223f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576414"
 ---
 # <a name="default-message-stores"></a>Banques de messages par défaut
 
@@ -23,19 +23,19 @@ ms.locfileid: "32338044"
   
 Une banque de messages par défaut est une banque de messages pouvant être utilisée par les applications clientes pour des tâches de messagerie à usage général. Certaines fonctionnalités facultatives pour les fournisseurs de banques de messages deviennent nécessaires si le fournisseur de banques de messages doit être utilisé en tant que banque de messages par défaut. Ces fonctionnalités sont les suivantes :
   
-- Implémentation des dossiers spéciaux : les dossiers Boîte de réception, Boîte d’envoi et résultats de recherche.
+- Impl�mentation de dossiers sp�ciaux : les dossiers bo�te de r�ception, bo�te d'envoi et r�sultats de recherche.
     
 - Fournir des rapports de lecture et nonread.
     
 - Autoriser les envois de messages entrants et sortants.
     
-- Autorisation de la création de messages avec classes de messages arbitraires.
+- Autoriser la cr�ation de messages avec des classes de message arbitraires.
     
-- Prise en charge des propriétés nommées et à valeurs multiples.
+- Prise en charge des propri�t�s nomm�es et plusieurs valeurs.
     
-- Prise en charge de la méthode [IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md), même si le fournisseur de banques de messages est étroitement associé à un fournisseur de transport. 
+- Supporting the [IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md) method, even if the message store provider is tightly coupled with a transport provider. 
     
-- Prise en charge des tables des matières associées. Pour plus d’informations, reportez-vous à [Tables des matières](contents-tables.md).
+- Supporting associated contents tables. For more information, see [Tables des mati�res](contents-tables.md).
     
 - Prise en charge des notifications de spouleur MAPI lorsqu'il existe des messages dans la file d'attente de messages sortants.
     

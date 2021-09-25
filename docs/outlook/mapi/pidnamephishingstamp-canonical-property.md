@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNamePhishingStamp
 api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8dbede5391f6913c7869b5f93e6744e10c8081b3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 687b4a43bcd4e78776a2463ed8dc257927530eab
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629976"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>Propriété canonique PidNamePhishingStamp
 

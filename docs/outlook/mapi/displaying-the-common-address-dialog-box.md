@@ -3,17 +3,17 @@ title: Affichage de la boîte de dialogue Adresse commune
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 276f9fa8-c333-4381-b20f-22fe9d2f27cd
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 812c850d1fcb6d3712d76b160b56b839b2e1353d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 81264e5cbf84bf4b8dcbed6ab31c7909fa04483d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596574"
 ---
 # <a name="displaying-the-common-address-dialog-box"></a>Affichage de la boîte de dialogue Adresse commune
 

@@ -3,17 +3,17 @@ title: Notification d’événement dans MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 30d4ad5e0fc1ecdc4c8eb06f75d39e38dd481269
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 64605539d04dcbec1eee53ff6d508d1cf5599b08
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321394"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576309"
 ---
 # <a name="event-notification-in-mapi"></a>Notification d’événement dans MAPI
 
@@ -57,7 +57,7 @@ L’illustration suivante montre la communication entre les objets de sink de co
   
 **Appels de notification d’événement**
   
-![Appels de notification d’événements appels](media/amapi_51.gif "de notification d’événement")
+![Appels de notification d’événement](media/amapi_51.gif "Appels de notification d’événement")
   
 La classe MFCMAPI **CAdviseSink** (à l’aide des fichiers AdviseSink.h et AdviseSink.cpp) implémente l’objet de sink de conseil pour tous les appels à **Advise**. Pour plus d’informations sur MFCMAPI, voir [MFCMAPI en](mfcmapi-as-a-code-sample.md) tant qu’exemple de code et [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154).
   

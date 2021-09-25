@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249678(v=office.15)
 ms:contentKeyID: 48546477
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a7c77a59368851f43b5e7bf2275f9f282546fb4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 32f7ea65274859a7988a145ee426dd361876bce0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293482"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615486"
 ---
 # <a name="error-object-ado"></a>Error, objet (ADO)
 

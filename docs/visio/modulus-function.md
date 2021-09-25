@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251465
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb6326a5-1bf8-b6a3-5c0d-d38c071353a5
 description: Renvoie le reste (module) qui se traduit lorsqu’un nombre est divisé par un diviseur.
-ms.openlocfilehash: f6b713b1b3a9d2afa85f49de9d451642a00d8dad
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6d6d9893800aa8db0e882dd92d4adb0d05acb930
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429270"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623333"
 ---
 # <a name="modulus-function"></a>Fonction MODULUS
 

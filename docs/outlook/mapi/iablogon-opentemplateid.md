@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IABLogon.OpenTemplateID
 api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: bc68878a25873533162df7e1671e483c3bb77865
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f087e5fd301ade7331a3681be6042ec61b48493c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334747"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596448"
 ---
 # <a name="iablogonopentemplateid"></a>IABLogon::OpenTemplateID
 
@@ -39,7 +39,7 @@ HRESULT OpenTemplateID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbTemplateID_
   

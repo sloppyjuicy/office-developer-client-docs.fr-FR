@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 1c37e798e0624a5655b63a76332073e5b57c0823
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4bf5a40d1643861a438e4de4668d845c92ebb93f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288601"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59577212"
 ---
 # <a name="navigateto-macro-action"></a>NavigateTo, action de macro
 
@@ -45,7 +45,7 @@ L’action **AccéderA** possède les arguments suivants.
 <td><p>Obligatoire. Catégorie dans laquelle les objets doivent être affichés dans le volet de navigation. Cliquez sur <strong>Type d’objet</strong>, <strong>Tables et vues</strong>, <strong>Modifié le</strong>, <strong>Créé le</strong> ou <strong>Personnalisé</strong> dans la zone <strong>Catégorie</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Groupe</strong></p></td>
+<td><p><strong>Group</strong></p></td>
 <td><p>Facultatif. L’argument <strong>Groupe</strong> limite les objets de la catégorie qui apparaissent dans le volet de navigation. Si vous laissez l’argument <strong>Groupe</strong> vide, le volet de navigation affiche tous les objets de base de données, classés selon les critères que vous spécifiez dans l’argument <strong>Catégorie.</strong> Des exemples d’arguments <strong>Groupe</strong> valides pour les différents arguments <strong>Catégorie</strong> sont répertoriés dans le tableau ci-après.</p></td>
 </tr>
 </tbody>

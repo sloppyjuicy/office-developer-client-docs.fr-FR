@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm740
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e6c8621-868c-9eac-926b-3049f18023b0
 description: Détermine si les autres formes s'alignent sur un chemin.
-ms.openlocfilehash: 60a6532aee0f391eb38609f6ed87577e5558d5c2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ffb32cf8c0506eb8b4064f455258a7153bc123df
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408543"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623319"
 ---
 # <a name="nosnap-cell-geometry-section"></a>NoSnap, cellule (section Geometry)
 

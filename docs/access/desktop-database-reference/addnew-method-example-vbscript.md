@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249735(v=office.15)
 ms:contentKeyID: 48546699
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 86fc5698cd6463c7236ab4f82a2f4f74374d664e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c6cc847e151c0d8615b79647bef9d6f2bba5c328
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281852"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586165"
 ---
 # <a name="addnew-method-example-vbscript"></a>AddNew, méthode – Exemple (VBScript)
 

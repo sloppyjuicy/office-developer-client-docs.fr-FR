@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251742
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a2bb1a7-e688-d32f-f231-ac6916d838a6
 description: Détermine si un aperçu est enregistré chaque fois que vous enregistrez un dessin.
-ms.openlocfilehash: 91362d8a88cf6db2f4807c655a6d071ebbc731f5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 48ec2c7f8ae49bae5a8e2bfe2d4534a48a681807
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418861"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615871"
 ---
 # <a name="lockpreview-cell-document-properties-section"></a>LockPreview, cellule (section Document Properties)
 

@@ -12,13 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: d78a6c043e99af1ca50ca798b94088400fd09f0d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: c2bfa1366bda0e28520d941ea2b1d2bd8eaec310
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287866"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565169"
 ---
 # <a name="parameters-declaration-microsoft-access-sql"></a>PARAMETERS, déclaration (Microsoft Access SQL)
 

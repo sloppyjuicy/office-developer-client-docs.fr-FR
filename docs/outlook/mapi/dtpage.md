@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.DTPAGE
 api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ad8aec8d015849965bea6ac011c8a45e75c69ca1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0bf031772c9dda44e0496f507975f26313aa452e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408221"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576330"
 ---
 # <a name="dtpage"></a>DTPAGE
 

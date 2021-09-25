@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052872
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 95cf5daa9eac6644b17f47b09ebc749bd9ed928e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 05f7722163e511c75337e879895db644625041d5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284510"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606204"
 ---
 # <a name="recordsetmoveprevious-method-dao"></a>Recordset.MovePrevious, méthode (DAO)
 

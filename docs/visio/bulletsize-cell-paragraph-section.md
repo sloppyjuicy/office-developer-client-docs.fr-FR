@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033780
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ff5d07b-17e2-f6ca-1860-5d498a9ebf06
 description: Indique la taille d'une puce.
-ms.openlocfilehash: 8671bc6f5ec40814b13727bc458f74eb2893f839
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 97f22bc3e4071757de1336dca2efd2b4f1e12c41
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405421"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623543"
 ---
 # <a name="bulletsize-cell-paragraph-section"></a>BulletSize, cellule (section Paragraph)
 

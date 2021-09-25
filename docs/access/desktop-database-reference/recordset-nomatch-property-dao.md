@@ -10,19 +10,19 @@ f1_keywords:
 - dao360.chm1052889
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: e54f8c51787e51785bdaacaecd28a8d24e2cb5b1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 7e90a7858f6755933e842813f9a4d08e9728474d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300426"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606154"
 ---
 # <a name="recordsetnomatch-property-dao"></a>Recordset.NoMatch, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Indique si un enregistrement particulier a été trouvé à l’aide de la méthode**[Seek](recordset-seek-method-dao.md)** ou de l’une des méthodes**[Find](recordset-findfirst-method-dao.md)** (espaces de travail Microsoft Access uniquement).
+Indique si un enregistrement particulier a été trouvé à l’aide de la méthode **[Seek](recordset-seek-method-dao.md)** ou de l’une des méthodes **[Find](recordset-findfirst-method-dao.md)** (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -32,7 +32,7 @@ Indique si un enregistrement particulier a été trouvé à l’aide de la méth
 
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous ouvrez ou créez un ** [jeu d’enregistrements](recordset-object-dao.md) ** objet, son **NoMatch** propriété est définie sur **faux**.
+Lorsque vous ouvrez ou créez un **[jeu d’enregistrements](recordset-object-dao.md)** objet, son **NoMatch** propriété est définie sur **faux**.
 
 Pour localiser un enregistrement, utilisez la **recherche** méthode sur un type de table **jeu d’enregistrements** objet ou l’un de la **trouver** méthodes sur un type feuille de réponse dynamique ou instantané **jeu d’enregistrements** objet. Vérifier le **NoMatch** paramètres de propriété pour voir si l’enregistrement a été trouvé.
 
@@ -40,7 +40,7 @@ Si le **recherche** ou **trouver** méthode est échoué et le **NoMatch** propr
 
 
 > [!NOTE]
-> À l’aide de la ** [déplacer](recordset-movefirst-method-dao.md) ** méthodes sur un **jeu d’enregistrements** objet n’affecte pas son **NoMatch** paramètre de la propriété.
+> À l’aide de la **[déplacer](recordset-movefirst-method-dao.md)** méthodes sur un **jeu d’enregistrements** objet n’affecte pas son **NoMatch** paramètre de la propriété.
 
 
 ## <a name="example"></a>Exemple

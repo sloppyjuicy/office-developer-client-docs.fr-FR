@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidRecurring
 api_type:
 - COM
 ms.assetid: 3d39a053-277f-4d59-ab2e-cee81710f2ab
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 85e78695a7c4fca5a1e5cd28b0254d4559be0c13
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e4354753067f8d0c6760041aae79986dfd96c364
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315917"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630340"
 ---
 # <a name="pidlidrecurring-canonical-property"></a>Propriété canonique PidLidRecurring
 

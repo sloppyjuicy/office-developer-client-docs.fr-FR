@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4edd0a3f-e433-bf54-34cd-3b05fd10a5a5
 description: Marque le début d’une exécute de propriétés de caractères mise en forme en fonction de l’élément Char correspondant. La suite est définie à la fin du texte ou jusqu’à la balise suivante.
-ms.openlocfilehash: 70f7d3f8333ff0f2c109862455fbd8cc3b340bf4
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 1dde00dc4a3f85d0bfc7389f0797dfce33acb444
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540559"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586634"
 ---
 # <a name="cp-element-text_type-complextype-visio-xml"></a>élément cp (Text_Type complexType) (Visio XML)
 

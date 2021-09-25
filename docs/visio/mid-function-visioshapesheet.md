@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027310
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5041d957-1bd9-4d76-cf43-7b4fcd1e7dec
 description: Renvoie un nombre spécifique de caractères à partir d’une chaîne de texte, en commençant à la position que vous spécifiez, en fonction du nombre de caractères que vous spécifiez.
-ms.openlocfilehash: 58d5e784e49c8e9fba0bf668626049298783c158
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7813f123ccd349c3122aa02449f5ed5d9a7038a2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410265"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623340"
 ---
 # <a name="mid-function-visioshapesheet"></a>MID Function (VisioShapeSheet)
 

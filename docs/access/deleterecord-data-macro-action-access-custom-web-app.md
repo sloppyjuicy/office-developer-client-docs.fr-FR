@@ -1,17 +1,16 @@
 ---
 title: SupprimerEnregistrement, action de macro de données (application web personnalisée Access)
-manager: kelbow
-ms.date: 09/05/2017
+manager: lindalu
+ms.date: 09/05/2021
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6b68a9a-e04a-476e-a407-b1779fea1953
-description: Vous pouvez utiliser l'action SupprimerEnregistrement pour supprimer un enregistrement.
-ms.openlocfilehash: 0e8a658b944e894e4d4014fb3d3d9a583efbee8d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 01d0cdeecd7c1401c274822736a3cd40a865db52
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423152"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586431"
 ---
 # <a name="deleterecord-data-macro-action-access-custom-web-app"></a>SupprimerEnregistrement, action de macro de données (application web personnalisée Access)
 
@@ -33,5 +32,3 @@ Vous pouvez utiliser l'action **SupprimerEnregistrement** pour supprimer un enre
 Vous pouvez utiliser la variable locale **IdentitéDernierEnregistrementCréé** pour travailler avec le dernier enregistrement créé dans un bloc de données **CréerEnregistrement**. Par exemple, utilisez la syntaxe suivante pour faire référence au dernier enregistrement créé : 
   
 `[LastCreateRecordIdentity]`
-
-

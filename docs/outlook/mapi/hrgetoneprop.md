@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HrGetOneProp
 api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 95273bf6025d6ef995d7c21c0e44bdbbf59072f6
-ms.sourcegitcommit: fb521c23df785c9c3aefa5062272b2630a32e587
+ms.openlocfilehash: 84685b6d1cc48861da6202f38628330b5ebd0156
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "52589172"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576169"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
@@ -41,7 +41,7 @@ HRESULT HrGetOneProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pmp_
   

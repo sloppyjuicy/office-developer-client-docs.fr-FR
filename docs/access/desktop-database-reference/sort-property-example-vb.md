@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
 ms:contentKeyID: 48545539
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 7f1d82a792961b0be398bb0ef8c2c046d9e8b375
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c2ba63f8563d238f0a6085ace9cac4a6244dff9d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306915"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564868"
 ---
 # <a name="sort-property-example-vb"></a>Sort, propriété – Exemple (VB)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***. Une routine utilitaire secondaire imprime chaque ligne.
+Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorder les lignes d’un jeu **d’enregistrements** dérivé de la table Authors _ de la base de données ***_*_Pubs._** Une routine utilitaire secondaire imprime chaque ligne.
 
 ```vb 
  

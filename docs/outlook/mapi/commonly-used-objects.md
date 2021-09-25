@@ -3,17 +3,17 @@ title: Objets couramment utilisés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: a4f19b68eecc5173acfe21e5c7c7b1f8d836285a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0f724a96921c6f8464a050dd0ab92a580ad336e2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429410"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576428"
 ---
 # <a name="commonly-used-objects"></a>Objets couramment utilisés
 

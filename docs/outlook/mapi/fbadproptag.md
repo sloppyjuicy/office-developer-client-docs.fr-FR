@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FBadPropTag
 api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9764be2788db8d2649be8708cad4ec67a85af845
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d1e5bac98f69080a3b534bfa8f96bbe3f5a3e4f8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433646"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596469"
 ---
 # <a name="fbadproptag"></a>FBadPropTag
 

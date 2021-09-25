@@ -3,17 +3,17 @@ title: Affichage de la table des matières d’un dossier
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 56847283afaf41c1d45cdb875ddf49eaa5881175
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 16b238d28ac059fc3fa5f1e172beba3a077cc96d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412393"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596590"
 ---
 # <a name="displaying-a-folder-contents-table"></a>Affichage de la table des matières d’un dossier
 

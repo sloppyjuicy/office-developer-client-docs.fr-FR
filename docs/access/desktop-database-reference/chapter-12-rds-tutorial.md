@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
 ms:contentKeyID: 48548837
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: aca77ac08688e643327bdbf229ab6c1dec40d109
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 9eacebd7dca32012a9bc645133796158d42abea8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296478"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586144"
 ---
 # <a name="chapter-12-remote-data-service-rds-tutorial"></a>Chapitre 12 : Didacticiel RDS (Remote Data Service)
 

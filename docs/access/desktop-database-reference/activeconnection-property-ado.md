@@ -10,13 +10,13 @@ f1_keywords:
 - ado210.chm1231115
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 037ae753f427c42f147972170dbb2e645b260623
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 3be71b700b670309a021de491c9e2af2e448084d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282529"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586270"
 ---
 # <a name="activeconnection-property-ado"></a>ActiveConnection, propriété (ADO)
 
@@ -36,7 +36,7 @@ Utilisez la propriété **ActiveConnection** pour déterminer l'objet **Connecti
 
 Pour les objets **Command**, la propriété **ActiveConnection** est en lecture/écriture.
 
-Si vous tentez d'appeler la méthode [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) sur un objet **Command** avant d'affecter à cette propriété un objet **Connection** ouvert ou une chaîne de connexion valide, une erreur se produit.
+Si vous tentez d'appeler la méthode [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-command.md) sur un objet **Command** avant d'affecter à cette propriété un objet **Connection** ouvert ou une chaîne de connexion valide, une erreur se produit.
 
 **Microsoft Visual Basic**: la définition de la propriété **ActiveConnection** sur *Nothing*  dissocie l’objet **Command** de la connexion actuelle et entraîne le fournisseur à libérer les ressources associées sur la source de données. Vous pouvez alors associer l’objet **Command** au même objet **Connection** ou à un autre. Certains fournisseurs permettent de remplacer l’objet **Connection** défini dans la propriété par un autre, sans devoir préalablement affecter à la propriété la valeur *Nothing*.
 
@@ -64,6 +64,3 @@ Un objet **Connection** est créé implicitement lorsque l'objet **Record** est 
 
 > [!NOTE]
 > Les URL qui utilisent le schéma http appellent automatiquement le [fournisseur Microsoft OLE DB pour la publication Internet](microsoft-ole-db-provider-for-internet-publishing.md). Pour plus d’informations, voir [URL absolues et relatives.](absolute-and-relative-urls.md)
-
-
-

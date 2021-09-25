@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7dcd5a35-bd3d-447f-e4aa-986091d129de
 description: Détermine la manière dont sont placées les formes sur la page lorsque vous les disposez à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis sur Autres options de disposition).
-ms.openlocfilehash: b3159b765922d6656d12dd42a377322e4a91fc04
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c2d0db15511d5e655318feeabfeb3bc2c29c0101
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420800"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623214"
 ---
 # <a name="placestyle-cell-page-layout-section"></a>PlaceStyle, cellule (section Page Layout)
 

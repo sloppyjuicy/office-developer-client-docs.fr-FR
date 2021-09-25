@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2089db4-39eb-06d3-d2f8-9465baef5c75
 description: Contient les informations d'un seul lien hypertexte associé à une forme. Une forme contient une ligne Hyperlink pour chaque lien hypertexte.
-ms.openlocfilehash: f9526b3e4bb7dc9216a0b72c0a816e136c6e89bf
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 499a5012afdda1b9cc5149fa9e5aa356e39d11c5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539792"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623473"
 ---
 # <a name="cell-element-hyperlink-row-visio-xml"></a>Élément de cellule (ligne Hyperlink) (Visio XML)
 
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Hyperlink Section)](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |Contient les informations d'un seul lien hypertexte associé à une forme. Une forme contient une **ligne Lien hypertexte** pour chaque lien hypertexte.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin.  <br/> |
    
@@ -67,7 +67,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |Adresse  <br/> |Indique une adresse d’URL, un nom de fichier ou un chemin d’accès UNC auxquels accéder.  <br/> |[Address, cellule (section Hyperlinks)](address-cell-hyperlinks-section.md) <br/> |
-|Défaut  <br/> |Détermine le lien hypertexte par défaut d'une forme ou d'une page.  <br/> |[Default, cellule (section Hyperlinks)](default-cell-hyperlinks-section.md) <br/> |
+|Par défaut  <br/> |Détermine le lien hypertexte par défaut d'une forme ou d'une page.  <br/> |[Default, cellule (section Hyperlinks)](default-cell-hyperlinks-section.md) <br/> |
 |Description  <br/> |Représente une chaîne de texte descriptive d’un lien hypertexte  <br/> |[Description, cellule (section Hyperlinks)](description-cell-hyperlinks-section.md) <br/> |
 |ExtraInfo  <br/> |Représente une chaîne qui passe l'information à utiliser dans la résolution d'une URL, comme les coordonnées d'un point dans une image interactive.  <br/> |[ExtraInfo, cellule (section Hyperlinks)](extrainfo-cell-hyperlinks-section.md) <br/> |
 |Cadre  <br/> |Représente le nom d'un cadre à prendre comme destination lorsque l'application est ouverte comme document actif dans une application conteneur. La valeur par défaut est une chaîne vide.  <br/> |[Frame, cellule (section Hyperlinks)](frame-cell-hyperlinks-section.md) <br/> |

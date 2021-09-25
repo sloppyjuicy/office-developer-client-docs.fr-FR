@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251577
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12e45f46-e773-9445-4c7f-c726ab648671
 description: Renvoie le nom de la page sous la mesure d’une chaîne.
-ms.openlocfilehash: d5527bde58a68c96bd75773f3a0a8c30f64fa20d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6c9db7a5820a543f4dbe26d27094f858606917e6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438651"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623284"
 ---
 # <a name="pagename-function"></a>Fonction PAGENAME
 

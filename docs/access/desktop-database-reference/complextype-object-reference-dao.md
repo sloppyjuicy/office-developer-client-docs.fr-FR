@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123787(v=office.15)
 ms:contentKeyID: 52071427
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f62d24a68948451f3700f7b1608711b54f751b4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e72741215bb8a0f610b0db2a80474a6731c07b0c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296023"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586053"
 ---
 # <a name="complextype-object-reference-dao"></a>ComplexType object reference (DAO)
 

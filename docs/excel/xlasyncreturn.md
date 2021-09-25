@@ -4,19 +4,19 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 159bc9bf-8dd5-4cd2-8384-474c74a3f112
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 32d5075af34cda9753c5d082bd4ab00afab1ecff
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 36560fc0362654a209f87feb74e548cd5b68f809
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414108"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596805"
 ---
 # <a name="xlasyncreturn"></a>xlAsyncReturn
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Utilisé pour renvoyer le résultat d’une fonction asynchrone définie par l’utilisateur (UDF).
   
@@ -24,7 +24,7 @@ Utilisé pour renvoyer le résultat d’une fonction asynchrone définie par l�
 Excel12(xlAsyncReturn, LPXLOPER12 pxRes, 2, LPXLOPER12 pxAsyncHandle, LPXLOPER12 pxFunctionResult);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxAsyncHandle_ (**xltypeBigData**)
   

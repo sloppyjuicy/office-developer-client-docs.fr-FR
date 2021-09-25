@@ -8,19 +8,19 @@ f1_keywords:
 - xlfRegisterId
 keywords:
 - fonction xlfregisterid [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d34cf20c-a5cd-45fb-9dcb-d49eac2d99dd
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 05119226d0b6190a2c4b30846c03a59b5c3cd1d8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9c5dc692b641d6ed50ad8464d397657a0f1e3ee8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420058"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596784"
 ---
 # <a name="xlfregisterid"></a>xlfRegisterId
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Peut être appelée à partir d’une DLL qui a elle-même été appelée par Microsoft Excel. Si une fonction est déjà inscrite, elle renvoie l’ID de registre existant pour cette fonction sans l’réinsister. Si une fonction n’est pas encore inscrite, elle l’inscrit et renvoie l’ID de registre résultant.
   
@@ -28,7 +28,7 @@ Peut être appelée à partir d’une DLL qui a elle-même été appelée par Mi
 Excel12(xlfRegisterId, LPXLOPER12 pxRes, 3,     LPXLOPER12 pxModuleText, LPXLOPER12 pxProcedure, LPXLOPER12 pxTypeText);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxModuleText_ (**xltypeStr**)
   

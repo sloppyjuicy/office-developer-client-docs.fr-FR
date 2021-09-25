@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm685
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
 description: 'Représente la coordonnée y de l’axe de la forme (centre de rotation) par rapport à l’origine de la forme. La formule par défaut permettant de déterminer LocPinY est la suivante :'
-ms.openlocfilehash: e65bfec8fdcf2be1ee92c23b7afcb183c95ea9fe
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3e9ff2fd0daf3f75e1e1b341a37836e0ccc70831
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410594"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623361"
 ---
 # <a name="locpiny-cell-shape-transform-section"></a>LocPinY, cellule (section Shape Transform)
 

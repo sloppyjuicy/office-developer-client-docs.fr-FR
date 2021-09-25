@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250106(v=office.15)
 ms:contentKeyID: 48548104
 ms.date: 10/17/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a80b089fa72ef01eb1b4b2f1dae494e002c6a6fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: fd50934eeaf91149f59262a45e9585602ffb73e3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281955"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586312"
 ---
 # <a name="accessing-rows-in-a-hierarchical-recordset"></a>Accès à des lignes dans un recordset hiérarchique
 

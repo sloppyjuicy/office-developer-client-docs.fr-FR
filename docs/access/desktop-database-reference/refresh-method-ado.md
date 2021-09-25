@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: bd7c47e7c3e41a7b42571043cfafc9e4e909a9f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 06c2fb95bbc44f089af6374512097f542f16b4f9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309255"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564959"
 ---
 # <a name="refresh-method-ado"></a>Refresh, méthode (ADO)
 
@@ -28,7 +28,7 @@ Met à jour les objets d’une collection pour qu’ils reflètent les objets di
 
 La méthode **Refresh** exécute différentes tâches selon la collection à partir de laquelle vous l'appelez.
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 Lorsque vous appliquez la méthode **Refresh** à la collection [Parameters](command-object-ado.md) d'un objet [Command](parameters-collection-ado.md), des informations de paramètres côté fournisseur sont extraites pour la procédure stockée ou la requête paramétrée spécifiée dans l'objet **Command**. La collection est vide pour les fournisseurs qui ne prennent pas en charge les appels de procédure stockée et les requêtes paramétrées.
 

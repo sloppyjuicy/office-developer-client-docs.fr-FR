@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249450(v=office.15)
 ms:contentKeyID: 48545571
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8be93b0b7e4b32e3c040e871ff7d97a95f1e247e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 81a96a816a6b1d5b0c6cbd8223469804ed926afc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282851"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586179"
 ---
 # <a name="adcprop_updatecriteria_enum"></a>ADCPROP \_ UPDATECRITERIA \_ ENUM
 

@@ -3,17 +3,17 @@ title: Fin d’une session MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 74c2a7247df02570761247a9e4a6fae378f37312
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 746b14323bfb1b75f4fd0db6ff7e6f0f6c25d0fd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287152"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596503"
 ---
 # <a name="ending-a-mapi-session"></a>Fin d’une session MAPI
 

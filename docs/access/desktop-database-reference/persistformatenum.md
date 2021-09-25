@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249313(v=office.15)
 ms:contentKeyID: 48545050
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4954c09c3eff67bb6f55dfc9e49464ad58fad5e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 79b861831b4edadead1b49e6246de57ada874b55
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287607"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565148"
 ---
 # <a name="persistformatenum"></a>PersistFormatEnum
 

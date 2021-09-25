@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15)
 ms:contentKeyID: 48548140
 ms.date: 10/17/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 11c1ca2102d9cb98503a1e0a8c36621b8d53e447
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 3f62709fe6593dfec01c87ad5231a079ab3a2641
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282550"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586291"
 ---
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a>ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction, propriétés – Exemple (VB)
 

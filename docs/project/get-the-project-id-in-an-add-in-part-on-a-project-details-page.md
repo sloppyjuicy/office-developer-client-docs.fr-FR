@@ -3,15 +3,15 @@ title: Obtenir l’ID du projet dans un composant de complément sur une page de
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: Les composants de add-in sont hébergés dans des éléments iframe totalement isolés de la page d’hébergement. Pour obtenir des informations sur le projet actuel à partir d’un élément de module complémentaire sur la page de détails de Project, vous pouvez utiliser la méthode window.postMessage, un lanceur d’événements et un responsable du traitement des événements qui analyse l’ID de projet à partir du message.
-ms.openlocfilehash: ffaf9cb7dac783a754b2d56b5ece4d5a7a0319be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 78851a6008157741ed489ce8b3868497823d48d1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322595"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623557"
 ---
 # <a name="get-the-project-id-in-an-add-in-part-on-a-project-details-page"></a>Obtenir l’ID du projet dans un composant de complément sur une page de détails du projet
 
@@ -26,7 +26,7 @@ Pour utiliser l’exemple de code de cet article, vous aurez besoin de l’une d
   
 - SharePoint En ligne et Project Online
     
-    - Visual Studio 2013, Visual Studio 2012 avec Office Outils de développement pour Visual Studio 2013 ou Napa
+    - Visual Studio 2013, Visual Studio 2012 avec Office Outils de développement Visual Studio 2013 ou Napa
         
     - Autorisations suffisantes pour l'utilisateur connecté :
         
@@ -45,7 +45,7 @@ Consultez les conditions préalables à la création d’un Project [Server 2013
 
 1. Ouvrez Visual Studio et choisissez **Fichier**  >  **nouveau**  >  **Project**.
     
-2. Dans la boîte de dialogue **Nouveau projet**, sélectionnez **.NET Framework 4.5** dans la liste déroulante située en haut de la boîte de dialogue. 
+2. Dans la boîte de dialogue **Nouveau projet**, sélectionnez **.NET Framework 4.5** dans la liste déroulante située en haut. 
     
 3. Dans la liste **Modèles,** sélectionnez **Visual C#** Office/SharePoint Pour plus d’SharePoint  >    >    >  **2013.**
     

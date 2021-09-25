@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagListUnsubscribe
 api_type:
 - HeaderDef
 ms.assetid: 4e6bfbc7-7586-43cc-9380-daa0fe3d85a5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e057ab2ca0c75d5c0d749ebde8f1bdfb4f1ae66a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e63c933ac41886a37dd6dd73275a3b50b698d532
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278878"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629861"
 ---
 # <a name="pidtaglistunsubscribe-canonical-property"></a>Propriété canonique PidTagListUnsubscribe
 
@@ -40,7 +40,7 @@ Pour générer un champ List-Unsubscribe'en-tête, les clients doivent définir 
   
 Pour définir la valeur de ces propriétés liées au serveur de liste, les clients MIME doivent écrire les champs d’en-tête comme indiqué dans le tableau suivant.
   
-|**Property**|**Nom de champ d’en-tête préféré**|**Autre nom de champ d’en-tête**|
+|**Propriété**|**Nom de champ d’en-tête préféré**|**Autre nom de champ d’en-tête**|
 |:-----|:-----|:-----|
 |**PR_LIST_UNSUBSCRIBE** <br/> |List-Unsubscribe  <br/> |X-List-Unsubscribe  <br/> |
    

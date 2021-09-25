@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052883
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 79c8691fcea7cf04bac7d6cd05711730b510e215
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: a09120299915a879de2019de3ba5326cdc8f0c0a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300643"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606337"
 ---
 # <a name="recordsetaddnew-method-dao"></a>Recordset.AddNew, méthode (DAO)
 

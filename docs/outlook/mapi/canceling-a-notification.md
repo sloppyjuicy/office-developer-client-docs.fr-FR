@@ -3,17 +3,17 @@ title: Annulation d’une notification
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: decd5d7d-1f47-47c2-b9c4-be0e652c99dd
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fb0972638fdd062c99040694222724566281024f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d0381adadcebca05281353abed78916b994df59e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409761"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576533"
 ---
 # <a name="canceling-a-notification"></a>Annulation d’une notification
 

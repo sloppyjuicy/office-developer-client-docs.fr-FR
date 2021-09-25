@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e07d97a4-9896-4b88-9e76-5a1b3f133094
 description: Détermine l’angle de perspective d’une rotation de perspective, en degrés (de 0 à 359,9)
-ms.openlocfilehash: 4cbefc2fa147a418fa792542e1dc57c39ab2490c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2171d8d36ad67ee38df4dfabefde1bccf54b4258
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422529"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623228"
 ---
 # <a name="perspective-cell-3-d-rotation-properties-section"></a>Perspective Cell (3-D Rotation Properties Section)
 

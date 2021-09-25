@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15)
 ms:contentKeyID: 48548415
 ms.date: 10/17/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 80e13c2ad871adf330fb4c607679d542c024a266
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 8cae89650fc0f924d67f99a9eb56afc9d46df333
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282557"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586298"
 ---
 # <a name="activecommand-property-example-vj"></a>ActiveCommand, propriété – Exemple (VJ++)
 

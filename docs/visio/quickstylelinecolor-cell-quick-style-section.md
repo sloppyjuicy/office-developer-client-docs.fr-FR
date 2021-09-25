@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dcfb792f-e02a-4059-acec-a178d221097c
 description: Détermine la couleur de thème que la ligne d’une forme utilise, sous la forme d’un nombre integer de 0 à 7.
-ms.openlocfilehash: 010b943f2266b1e0ee192e5f1341d73851d176fd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2ebcb23a308ef1c28a87860e9d75bb832e87bba1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437042"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623158"
 ---
 # <a name="quickstylelinecolor-cell-quick-style-section"></a>QuickStyleLineColor Cell (Quick Style Section)
 
@@ -26,9 +26,9 @@ Détermine la couleur de thème que la ligne d’une forme utilise, sous la form
 |2  <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 1  <br/> |
 |3  <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 2  <br/> |
 |4   <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 3  <br/> |
-|5   <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 4  <br/> |
-|6   <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 5  <br/> |
-|7   <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 6  <br/> |
+|5  <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 4  <br/> |
+|6   <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 5  <br/> |
+|7   <br/> |La couleur de trait de forme hérite de la couleur de thème Accent 6  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -7,13 +7,13 @@ api_type:
 - COM
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 'Derniére modification : samedi 23 juillet 2011'
-localization_priority: Priority
-ms.openlocfilehash: 8b7c02f2ac39875021cd183bbb1657514912fe8d
-ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
+ms.localizationpriority: high
+ms.openlocfilehash: b6711b1a77b7741602acf5f96755339682ae0d45
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061341"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576288"
 ---
 # <a name="file-format-of-mapisvcinf"></a>Format de fichier de MapiSvc.inf
 

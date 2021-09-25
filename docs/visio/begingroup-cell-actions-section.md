@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60022
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ae7f629-fb9f-1a11-1194-b381d6c9de5b
 description: Indique si un séparateur est inséré dans le menu au-dessus de cette action.
-ms.openlocfilehash: 115dbfe051201dc3ec2b127ff129b077e1067865
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7f6ce3836cf71adcdb7135c390abc84834d57fad
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407836"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616025"
 ---
 # <a name="begingroup-cell-actions-section"></a>BeginGroup, cellule (section Actions)
 

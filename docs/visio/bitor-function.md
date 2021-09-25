@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251400
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d0954c5-b2cb-6c5d-62b3-a68011cf0c85
 description: Renvoie un nombre binaire 16 bits dans lequel chaque bit est définie sur 1 si le bit correspondant dans le nombre binaire numéro1 ou le nombre binaire2 est 1. Le bit est définie sur 0 uniquement si le bit correspondant est 0 dans le nombre binaire 1 et le nombre binaire 2 .
-ms.openlocfilehash: 13bda2c6c65557b1f8372432cf919b2aaf2d75de
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6f6e6176e2e14291547db31514fd105622a44fd4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408081"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59616018"
 ---
 # <a name="bitor-function"></a>Fonction BITOR
 

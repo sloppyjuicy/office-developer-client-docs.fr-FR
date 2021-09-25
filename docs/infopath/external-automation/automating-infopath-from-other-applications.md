@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - automation [infopath 2007], external,automating InfoPath 2007,InfoPath 2007, automating from other applications
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c82daa2d-59d2-44d0-9e82-40483df6dad0
 description: Cette section présente les assemblys d’interop principale et d’interop XML de Microsoft InfoPath et explique comment leurs types et membres sont utilisés pour automatiser InfoPath à partir d’applications externes à l’aide de code géré.
-ms.openlocfilehash: b6618dbe838446555920bf9e79c07712bc66fdda
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0b1215bd57f8cbe04034c7e38a555bfc3f7c3f86
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434255"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596756"
 ---
 # <a name="automating-infopath-from-other-applications"></a>Automatisation d’InfoPath à partir d’autres applications
 

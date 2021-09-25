@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9148c73f-970d-61f8-b5da-e3bc748a6541
 description: Spécifie une relation à un élément avec le recordset associé et les informations de liaison de données.
-ms.openlocfilehash: fa93a3cbc32b6929b159b958ef2a96eafacf204f
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 9e6d94206f3776a83d1a4782ffc38e87a54dc703
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542862"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623144"
 ---
 # <a name="rel-element-datarecordset_type-complextype-visio-xml"></a>Élément Rel (DataRecordSet_Type complexType) (Visio XML)
 
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Spécifie une instance d’un recordset et des informations de liaison de données stockées dans le dessin.  <br/> |
    

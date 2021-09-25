@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251250
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf063c05-5789-e037-700b-1e70df00e254
 description: Détermine la casse du texte de la forme. Toutes les lettres capitales (majuscules) (1) et Capitales initiales uniquement (2) ne modifient pas l'apparence d'un texte qui a été entré tout en lettres capitales. Le texte doit avoir été entré en lettres minuscules pour que les effets de cette option soient visibles.
-ms.openlocfilehash: 50ceaa1188caded40d36b8837c346fbbba2e14d2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b5692f9dd4ec9941001162da36eb4d693c38a8b4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434346"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623508"
 ---
 # <a name="case-cell-character-section"></a>Case, cellule (section Character)
 

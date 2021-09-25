@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 64f2494d-2de7-6bc5-0db4-91b952bdcb5e
 description: Contient les coordonnées x ou y du sommet de fin d’un segment de ligne droite.
-ms.openlocfilehash: 4b1628549e659712a1c2e79ae0fbf53d594e18f9
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 40364dcd20b4e8d70ccac3238921c9a2686d3bbd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539508"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615934"
 ---
 # <a name="cell-element-lineto-row-visio-xml"></a>Élément de cellule (ligne LineTo) (Visio XML)
 
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[LineTo_Type](lineto_type-complextypevisio-xml.md) <br/> |Contient les coordonnées x ou y du sommet de fin d’un segment de ligne droite.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin.  <br/> |
    
@@ -67,6 +67,6 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordonnée x du sommet de fin d'un segment de droite.  <br/> |[LineTo, ligne (section Geometry)](lineto-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du sommet de fin d'un segment de droite.  <br/> |[LineTo, ligne (section Geometry)](lineto-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y du sommet de fin d'un segment de droite.  <br/> |[LineTo, ligne (section Geometry)](lineto-row-geometry-section.md) <br/> |
    
 

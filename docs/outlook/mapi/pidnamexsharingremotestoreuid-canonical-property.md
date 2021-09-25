@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameXSharingRemoteStoreUid
 api_type:
 - COM
 ms.assetid: c820571b-0ef3-4ab3-af81-cc8cbba0d840
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a3094e5dc91b89fd81da6624018d1d9e454a3dc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 91af20ba1dc0b9a3466e971dccf5e7d627f0562b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326900"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629962"
 ---
 # <a name="pidnamexsharingremotestoreuid-canonical-property"></a>Propriété canonique PidNameXSharingRemoteStoreUid
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612528(v=office.15)
 ms:contentKeyID: 55119780
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 90c13559094fbffd2dbe9a99602ee235c92d9445
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 873c2aaea80c132c43d9c3c7334061f8744eecfd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351032"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623613"
 ---
 # <a name="methods-and-properties-in-the-outlook-pia"></a>Méthodes et propriétés dans l'assembly PIA Outlook
 

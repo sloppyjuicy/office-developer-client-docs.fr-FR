@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251487
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a95fd86d-ebc1-66b6-e7d9-9c8ea84d23ab
 description: Renvoie le composant rouge d’une couleur.
-ms.openlocfilehash: e8c6115ac0441b25ce8333485828e8ef0f615459
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 37d54cb5cb35bb285b92ab31eea8482709410911
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415522"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623137"
 ---
 # <a name="red-function"></a>Fonction RED
 

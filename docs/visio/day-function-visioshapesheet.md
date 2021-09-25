@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251415
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b0842ae-6893-2d7b-6cb2-8905198fae30
 description: Renvoie un integer, de 1 à 31, qui représente le jour dans l’expression ou l’heure de date. La fonction DAY utilise le calendrier grégorien.
-ms.openlocfilehash: 49c29d5dc25bf11599f89a20cb2bc2367bd74187
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d8e098f6e3f8646d7cda9fa4070844139b511adf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360295"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586564"
 ---
 # <a name="day-function-visioshapesheet"></a>DAY Function (VisioShapeSheet)
 

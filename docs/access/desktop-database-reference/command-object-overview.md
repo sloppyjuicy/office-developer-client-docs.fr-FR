@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249166(v=office.15)
 ms:contentKeyID: 48544346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f2c7697d4ae8b830afb53eee10e7dd59a7dc8db4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7f8be0fb8e199a33670f8388738b16b197ce9cf2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586136"
 ---
 # <a name="command-object-overview"></a>Vue d’ensemble de l’objet Command
 

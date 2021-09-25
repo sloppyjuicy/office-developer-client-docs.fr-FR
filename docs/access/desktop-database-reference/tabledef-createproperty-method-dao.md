@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197102(v=office.15)
 ms:contentKeyID: 48546197
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3018bf8cc9a62cb866b35992e25ecb1f8f41514f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d4fb1ada9e3823de107602a191e1b54ec488c755
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308420"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564826"
 ---
 # <a name="tabledefcreateproperty-method-dao"></a>TableDef.CreateProperty, méthode (DAO)
 
@@ -22,7 +22,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)
+*.* CreateProperty(***Name** _, _*_Type_*_, _*_Value_*_, _*_DDL_**)
 
 *expression* Variable représentant un objet **TableDef**.
 
@@ -74,7 +74,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Propriété
+Property
 
 ## <a name="remarks"></a>Remarques
 

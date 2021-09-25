@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidForwardInstance
 api_type:
 - COM
 ms.assetid: 055bdcaf-5002-44a6-b2b6-87244b2bea93
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 585e1a5400965288aa4a4c321888a570270021c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2e1d9b7f3a87c8c4fbc6614921640eb2cf11acfe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357770"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630368"
 ---
 # <a name="pidlidforwardinstance-canonical-property"></a>Propriété canonique PidLidForwardInstance
 

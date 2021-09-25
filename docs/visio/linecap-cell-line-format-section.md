@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251231
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3519216b-b6cf-2e8c-e20f-adfa373c9028
 description: Indique si l'extrémité du trait est arrondie, carrée ou étendue.
-ms.openlocfilehash: 44de4bff87fd3d121dfce9eec934ec39bc61065a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b062ff673d561a7c328b361fea8da0c4f67024c0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425197"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615899"
 ---
 # <a name="linecap-cell-line-format-section"></a>LineCap, cellule (section Line Format)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.CbSPropTagArray
 api_type:
 - COM
 ms.assetid: c5053f27-e23d-4a65-b079-5f33765c33f7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1cfc88b12331e94880feaed22869bd7608fb7ca8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 45630630cfb8dcf5fc654f990208feb15c8b1cff
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438427"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576449"
 ---
 # <a name="cbsproptagarray"></a>CbSPropTagArray
 
@@ -36,7 +36,7 @@ Calcule le nombre d’octets dans une structure [SPropTagArray](sproptagarray.md
 CbSPropTagArray (_lparray)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ _lparray_
   

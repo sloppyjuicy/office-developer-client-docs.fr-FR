@@ -3,17 +3,17 @@ title: Affichage des informations du destinataire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7ffec274-ee90-44c7-ab2e-7dfb502517a6
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: e1c31e5edf702dd8f172f67e7055a96ae4cfff1c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9318d375341cf1ed8004b7e2043ffd0ce992b678
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412953"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596595"
 ---
 # <a name="displaying-recipient-information"></a>Affichage des informations du destinataire
 

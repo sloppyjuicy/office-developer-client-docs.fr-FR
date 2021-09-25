@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249744(v=office.15)
 ms:contentKeyID: 48546732
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ee1aaceac3402b878d63ddccb6eb0641c47d918e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4886c571b959965c9807a356b9641aa3f37c1cf5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308378"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564756"
 ---
 # <a name="update-and-cancelupdate-methods-example-vj"></a>Update et CancelUpdate, méthodes – Exemple (VJ++)
 

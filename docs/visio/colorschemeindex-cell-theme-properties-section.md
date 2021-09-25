@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb84f71e-59c4-43d4-a28b-c3d6f267d2ae
 description: Détermine l’index du thème après quoi le modèle de couleurs de la forme prend, sous la forme d’un nombre.
-ms.openlocfilehash: d67363b48454a717914b8ff9e39952609d848118
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 92fb1ea57002496ca61e3bd38c5cf9d9b3edac65
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430762"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586676"
 ---
 # <a name="colorschemeindex-cell-theme-properties-section"></a>ColorSchemeIndex Cell (Theme Properties Section)
 

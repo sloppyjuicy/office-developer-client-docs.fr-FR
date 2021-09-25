@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameLastPrinted
 api_type:
 - COM
 ms.assetid: 6ec8a610-7782-4bb1-9b91-fc43c877268c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b2a2bc4244479749a91697caee917176f6748b3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9cc9fa4ca1b2547b2dea7a6b3d1b1d9f0bdaecde
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338100"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629990"
 ---
 # <a name="pidnamelastprinted-canonical-property"></a>Propriété canonique PidNameLastPrinted
 

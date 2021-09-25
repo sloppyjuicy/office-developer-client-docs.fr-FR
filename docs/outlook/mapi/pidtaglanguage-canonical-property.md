@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagLanguage
 api_type:
 - HeaderDef
 ms.assetid: 74b7bdd0-89d1-4013-a6f1-8ea102974f19
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 820c00d9b375734343af8226fdbd1dca3b8a506e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8ce7dab9587a9ffdd8eb9545494523d41f2a0e59
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279878"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629850"
 ---
 # <a name="pidtaglanguage-canonical-property"></a>Propriété canonique PidTagLanguage
 

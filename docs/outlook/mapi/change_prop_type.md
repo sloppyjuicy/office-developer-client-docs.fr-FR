@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.CHANGE_PROP_TYPE
 api_type:
 - COM
 ms.assetid: 95513b5a-fd3b-46f2-a6c0-094500ae4ca7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3ee1b84e36ef014fab87ca910115675c905f6a09
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 85e2ff237179346d55620c9af638438d9af327ab
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408620"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576435"
 ---
 # <a name="change_prop_type"></a>CHANGE_PROP_TYPE
 
@@ -36,7 +36,7 @@ Met à jour le type de propriété d’une balise de propriété avec une valeur
 CHANGE_PROP_TYPE (ulPropTag, ulPropType)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulPropTag_
   

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6210ff71-fbcd-2c97-6dde-1e334891e08d
 description: Définit une propriété pour une balise d’action sur une forme ou une page.
-ms.openlocfilehash: 3b43206838dae432df677a3ff8792c85328db53b
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: ca7c75f364209b2f40d17b4830128d729d762c34
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538801"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615997"
 ---
 # <a name="cell-element-action-tag-section-visio-xml"></a>Élément de cellule (section Action Tag) (Visio XML)
 
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Row, élément (actiontag, section)](row-element-action-tag-sectionvisio-xml.md) <br/> |[ActionTagRow_Type](actiontag_type-complextypevisio-xml.md) <br/> |Définit une balise d’action sur une forme ou une page.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page de dessin.  <br/> |
    
@@ -73,7 +73,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |TagName  <br/> |Nom de la balise d’action utilisé comme référence pour associer la balise d’action à ses actions.  <br/> |[TagName, cellule (section Action Tags)](tagname-cell-action-tags-section.md) <br/> |
 |X  <br/> |Position de la coordonnée x dans le système de coordonnées locales de la forme et autour de laquelle est positionné le bouton de balise d’action.  <br/> |[X, cellule (section Action Tags)](x-cell-action-tags-section.md) <br/> |
 |XJustify  <br/> |Décalage x du bouton de balise d’action par rapport au point défini par les cellules X et Y.  <br/> |[X Justify, cellule (section Action Tags)](x-justify-cell-action-tags-section.md) <br/> |
-|v  <br/> |Position de la coordonnée y dans le système de coordonnées locales de la forme et autour de laquelle est positionné le bouton de balise d’action.  <br/> |[Y, cellule (section Action Tags)](y-cell-action-tags-section.md) <br/> |
+|O  <br/> |Position de la coordonnée y dans le système de coordonnées locales de la forme et autour de laquelle est positionné le bouton de balise d’action.  <br/> |[Y, cellule (section Action Tags)](y-cell-action-tags-section.md) <br/> |
 |YJustify  <br/> |Décalage y du bouton de balise d’action par rapport au point défini par les cellules X et Y.  <br/> |[Y Justify, cellule (section Action Tags)](y-justify-cell-action-tags-section.md) <br/> |
    
 

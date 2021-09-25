@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm560
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: Détermine le motif de trait d'une forme. La valeur entrée dans la cellule LinePattern est un nombre correspondant à un index d'un ensemble de motifs de trait.
-ms.openlocfilehash: eec5bed18777f7822f9544d59dce7722f2f732bb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e17227418fe358cb66a3ab7983940527510d8c62
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416754"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623410"
 ---
 # <a name="linepattern-cell-line-format-section"></a>LinePattern, cellule (section Line Format)
 

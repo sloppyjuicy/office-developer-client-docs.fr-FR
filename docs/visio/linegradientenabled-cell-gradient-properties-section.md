@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 276a661f-d14e-404a-a494-ae36601a8ce3
 description: Détermine si un dégradé de trait est activé pour un trait ou la bordure d’une forme.
-ms.openlocfilehash: 1d2b33275d26bb0c8e5550bcb7cf282c64d34544
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 93139db462363c53828f62d1036f0075edfc4f96
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416376"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615906"
 ---
 # <a name="linegradientenabled-cell-gradient-properties-section"></a>LineGradientEnabled Cell (Gradient Properties Section)
 

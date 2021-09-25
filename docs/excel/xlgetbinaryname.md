@@ -8,19 +8,19 @@ f1_keywords:
 - xlGetBinaryName
 keywords:
 - fonction xlgetbinaryname [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 6d063213e3f83451e8a072e71f0878174214f73e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 84581705359442ce9366d1602920195c63c36375
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412463"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596791"
 ---
 # <a name="xlgetbinaryname"></a>xlGetBinaryName
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Utilisé pour renvoyer un handle pour les données enregistrées par la [fonction xlDefineBinaryName](xldefinebinaryname.md). Les données avec un nom binaire défini sont enregistrées avec le workbook et sont accessibles par nom à tout moment. Pour plus d’informations, voir « Limite d’étendue de nom binaire » dans Problèmes connus [Excel développement XLL .](known-issues-in-excel-xll-development.md)
   
@@ -28,7 +28,7 @@ Utilisé pour renvoyer un handle pour les données enregistrées par la [fonctio
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxRes_ (**xltypeBigData** ou **xltypeErr**)
   

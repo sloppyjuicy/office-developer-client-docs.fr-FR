@@ -3,15 +3,15 @@ title: À propos des composants de modèle de formulaire
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b51361fe-cf29-f890-9876-5aebe15c73e1
 description: Les modèles de formulaire Microsoft InfoPath se composent de plusieurs fichiers et composants associés pour fournir des fonctionnalités spécifiques en cas de scénario d'utilisateur final particulier ou de besoin métier. Les formulaires InfoPath sont de complexité diverse, selon le type de besoin auquel ils sont associés.
-ms.openlocfilehash: 3c5adc7ec1e24af481dff7f4a8d009b2dcb6ba8a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8fb2faf684816822b5a219ac9c28ad8a972fd49a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419057"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596749"
 ---
 # <a name="about-form-template-components"></a>À propos des composants de modèle de formulaire
 

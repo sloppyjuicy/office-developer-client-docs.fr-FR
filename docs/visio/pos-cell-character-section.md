@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm805
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c02186ce-6a20-fbe7-588d-d64c3ea4dec4
 description: Détermine la position du texte de la forme par rapport à la ligne de base.
-ms.openlocfilehash: d5f6823d6f55493095d29054745f62b579a47893
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bde906d82b7583e86f5e6d2f6bc4a4c14d792a28
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414017"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623186"
 ---
 # <a name="pos-cell-character-section"></a>Pos, cellule (section Character)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidIntendedBusyStatus
 api_type:
 - COM
 ms.assetid: 84221dd3-de71-4c10-abd7-9f15aefd02ed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f64ff019212065efd651fd2562c48519b0c7c2d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e256504e90ac64c5a6cd32e4c0a5c09378464392
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332969"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630304"
 ---
 # <a name="pidlidintendedbusystatus-canonical-property"></a>Propriété canonique PidLidIntendedBusyStatus
 

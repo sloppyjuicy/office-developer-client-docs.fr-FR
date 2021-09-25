@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249844(v=office.15)
 ms:contentKeyID: 48547143
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 53e51f2386658ee975ec8847f7e5550ac22bbd8e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7fe9de4f997397075d5ded328ddd2ecaae38a365
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281900"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586186"
 ---
 # <a name="adcprop_asyncthreadpriority_enum"></a>ADCPROP \_ ASYNCTHREADPRIORITY, \_ ÉUM
 
@@ -50,7 +50,7 @@ Utilisez ces constantes avec la propriété dynamique « **Background Thread Pri
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityHighest</strong></p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>Définit le niveau de priorité le plus élevé possible.</p></td>
 </tr>
 <tr class="even">

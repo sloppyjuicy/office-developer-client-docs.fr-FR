@@ -3,15 +3,15 @@ title: Hébergement d’InfoPath en tant qu’éditeur XML dans une autre applic
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae24b317-f486-763a-7009-e32c5cb85b59
 description: L’environnement d’édition de formulaires Microsoft InfoPath peut être hébergé dans une application Windows personnalisée, ce qui permet aux développeurs d’intégrer l’environnement d’édition de formulaires InfoPath aux applications métier.
-ms.openlocfilehash: b85e47d506b17982bb883c9d56ea13131807d1cf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d5fab1cb5a211f72660e768cf5e9745676847904
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422578"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596742"
 ---
 # <a name="hosting-infopath-as-an-xml-editor-in-another-application"></a>Hébergement d’InfoPath en tant qu’éditeur XML dans une autre application
 

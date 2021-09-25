@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
 ms:contentKeyID: 48547019
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: d49605e923f13cd423b7ad0ac6b0d1ef64b94841
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a5fd38954717e1c8ec92b8f8f2b406fc80a97cec
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307643"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606106"
 ---
 # <a name="recordset-properties-methods-and-events-ado"></a>Recordset properties, methods, and events (ADO)
 

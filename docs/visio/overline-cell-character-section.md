@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251728
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 102cce17-43ee-e313-3412-a72d6ee18fe6
 description: Détermine si le texte est surmonté d'un trait.
-ms.openlocfilehash: d5df39c2f12890d5fb4881346516abdb4f2b8099
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4cf5c75f15fd9e40f5c59c9ff679de3de1dd9ae9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431644"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623312"
 ---
 # <a name="overline-cell-character-section"></a>Overline, cellule (section Character)
 

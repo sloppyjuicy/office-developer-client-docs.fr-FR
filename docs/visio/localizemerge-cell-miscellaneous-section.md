@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033773
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 734d4415-05dd-4c4d-763e-e035fa56dcec
 description: Détermine si les formes sont localisées lors de leur copie d'un document à l'autre.
-ms.openlocfilehash: ddd6041ec6531652deb38a0c16be2c741bac91a6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9f2e3e689814891f1a8cd4c69d7656fe6d1b22c9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405673"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615878"
 ---
 # <a name="localizemerge-cell-miscellaneous-section"></a>LocalizeMerge, cellule (section Miscellaneous)
 

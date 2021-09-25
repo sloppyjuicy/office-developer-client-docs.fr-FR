@@ -12,13 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 72f31c71e710cca79695a7221f0e033d18d2f420
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 217b4dcb13d8ecf55b46674b07841381a565f0f9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301378"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606463"
 ---
 # <a name="procedure-clause-microsoft-access-sql"></a>CLAUSE PROCEDURE (Microsoft Access SQL)
 

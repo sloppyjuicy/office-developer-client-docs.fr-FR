@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250279(v=office.15)
 ms:contentKeyID: 48548843
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0e1df7d4914a247dac6f96a3709f0930bceea0ea
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 6cbd78f769a867d11956b3915536b8cba89a6d60
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301371"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565127"
 ---
 # <a name="procedures-append-method-example-vb"></a>Procedures Append, méthode – Exemple (VB)
 

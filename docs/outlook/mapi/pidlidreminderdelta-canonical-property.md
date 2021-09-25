@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidReminderDelta
 api_type:
 - COM
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 86a0203f930661452bb143e247c17ef6da8ed436
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f96317a5feb607637e3e8c6c689e8ba8ecaf8572
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315889"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630347"
 ---
 # <a name="pidlidreminderdelta-canonical-property"></a>Propriété canonique PidLidReminderDelta
 

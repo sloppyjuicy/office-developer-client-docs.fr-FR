@@ -3,15 +3,15 @@ title: Intégration à Office à partir d'applications universelles Windows
 manager: soliver
 ms.date: 02/06/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
 description: Vous pouvez intégrer vos applications tierces de plateforme d'application universelle Windows à Excel Mobile, PowerPoint Mobile et Word Mobile. Les applications universelles s'intègrent aux applications Office via les contrats de sélecteur de fichiers Windows, les propriétés Expando et les contrats de mise à jour des fichiers mis en cache.
-ms.openlocfilehash: ad04ccc3ceb6e0f1d53e4aebc12cf9724ab8ab66
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3c61e5697fad8e79ca8c8a76843880fd79a842c3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299765"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596721"
 ---
 # <a name="integrate-with-office-from-windows-universal-apps"></a>Intégration à Office à partir d’applications universelles Windows
 
@@ -71,7 +71,7 @@ Votre application doit gérer toutes les communications avec votre service, y co
   
 Le tableau suivant répertorie les paramètres à définir pour gérer les interactions entre votre application et Office.
   
-|**Parameter**|**Description**|
+|**Paramètre**|**Description**|
 |:-----|:-----|
 |[ReadActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Définissez **BeforeAccess** pour autoriser votre application à mettre à jour le fichier avant de l'envoyer à Office.  <br/> |
 |[WriteActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Définissez **ReadOnly** pour faire en sorte que le fichier soit en lecture seule. Définissez **AfterWrite** pour vous assurer que votre application sera déclenchée par l'élément CacheFileUpdater lorsqu'Office aura terminé d'utiliser le fichier.  <br/><br/>**REMARQUE :** si vous ne définissez pas **AfterWrite**, votre application ne sera pas notifiée des modifications, ce qui signifie que les modifications de l’utilisateur seront locales uniquement.           |

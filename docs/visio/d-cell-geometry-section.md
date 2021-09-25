@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251753
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5f1fdf59-db58-561c-e187-1af72a8b87f2
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule D pour chaque ligne.
-ms.openlocfilehash: a76093f028986907b58175bc6b8c81a7056cfe07
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: a36f021096b28e92ff9bd2d78ef089d759cef600
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542498"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586606"
 ---
 # <a name="d-cell-geometry-section"></a>D, cellule (section Geometry)
 
