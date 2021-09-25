@@ -3,17 +3,17 @@ title: Vue d’ensemble des formulaires MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1b3afeaa-4ede-41eb-a3c1-b8947a46ef97
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 4e7d48f6f6a47ce28aa0e1291ccef209b998c18e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c2c47bd25c0ddd05d6a0c518af37763803724e98
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432519"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595867"
 ---
 # <a name="mapi-forms-overview"></a>Vue d’ensemble des formulaires MAPI
   
@@ -27,7 +27,7 @@ L’illustration suivante montre la relation entre les composants MAPI impliqué
   
 **Architecture de formulaire MAPI**
   
-![Architecture de formulaire MAPI - Architecture](media/forms01.gif "de formulaire MAPI")
+![Architecture de formulaire MAPI](media/forms01.gif "Architecture de formulaire MAPI")
   
 Dans le diagramme, notez que le gestionnaire de formulaires joue un rôle semblable à d’autres fournisseurs de services MAPI, bien qu’il ne soit pas un fournisseur de services lui-même. Le gestionnaire de formulaires est une DLL remplaçable qui implémente certaines interfaces MAPI. Bien que les développeurs peuvent implémenter leur propre gestionnaire de formulaires, la plupart des environnements utiliseront le gestionnaire de formulaires fourni par Microsoft en raison de la complexité du gestionnaire de formulaires.
   

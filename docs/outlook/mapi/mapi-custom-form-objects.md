@@ -3,17 +3,17 @@ title: Objets de formulaire personnalisé MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 306d62b1-d541-4039-9759-3903f62e0f26
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4c1c04e5b04be9bb67b050f5cf498be89d380410
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ff73842326134c0e9a7a3e5a98bd0cee9a4c042c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318244"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595881"
 ---
 # <a name="mapi-custom-form-objects"></a>Objets de formulaire personnalisé MAPI
   
@@ -51,7 +51,7 @@ L’illustration suivante montre la relation entre les composants de formulaire 
   
 **Composants de formulaire personnalisé**
   
-![Composants de formulaire personnalisés Composants](media/amapi_67.gif "de formulaire personnalisés")
+![Composants de formulaire personnalisé](media/amapi_67.gif "Composants de formulaire personnalisé")
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -3,17 +3,17 @@ title: Développement d’un fournisseur de banques de messages MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 76332b57b2957b5682efb415121ea6db42409c30
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: aaf4e986b72c4ba34489f5880e95866436580172
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412610"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561830"
 ---
 # <a name="developing-a-mapi-message-store-provider"></a>Développement d’un fournisseur de banques de messages MAPI
   
@@ -25,7 +25,7 @@ L’illustration suivante illustre l’architecture de base de la boutique de me
   
 **Architecture de banque de messages**
   
-![Architecture de la boutique de messages -]Architecture de la boutique de(media/storearc.gif "messages")
+![Architecture de banque de messages](media/storearc.gif "Architecture de banque de messages")
   
 Vous pouvez implémenter un fournisseur de magasins de messages à l’aide de n’importe quel type de mécanisme de stockage sous-jacent que vous aimez. Toutefois, vous devez être conscient des problèmes de performances. En outre, le mécanisme de stockage sous-jacent doit être présenté comme une collection hiérarchique d’objets MAPI. Ces exigences signifient que les banques de messages sont généralement implémentées à l’aide d’un produit de base de données existant qui prend en charge le stockage hiérarchique des objets dans la base de données et qui possède une interface de programmation ou une structure de fichiers bien définie. Par exemple, Microsoft Office bases de données Access, SQL et Oracle peuvent être utilisées comme mécanisme de stockage sous-jacent. Certains produits de base de données ont des ensembles de fonctionnalités qui facilitent l’implémenter des fonctionnalités MAPI, de sorte que votre choix de produit de base de données peut être affecté par les fonctionnalités que votre fournisseur de banque de messages doit prendre en charge.
   

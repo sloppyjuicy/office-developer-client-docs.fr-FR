@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.DoSentMail
 api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 8289b8dd2e0ab3c760e77a37b821d2fe74e4abe9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 296c2df4b3dbee93a54585a932ee06591aecb3aa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423950"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596070"
 ---
 # <a name="imapisupportdosentmail"></a>IMAPISupport::DoSentMail
 
@@ -34,7 +34,7 @@ HRESULT DoSentMail(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

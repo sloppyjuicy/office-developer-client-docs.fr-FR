@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bba97464-472f-4a88-a624-6ec601e1730f
 description: Renvoie la racine carrée de la valeur spécifiée.
-ms.openlocfilehash: 350437a04b9b5ed592444bd8f92679ad9a46441d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b983fbfd397640dfc585148280ccf8c687ddb33a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404791"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614751"
 ---
 # <a name="sqrt-function-access-custom-web-app"></a>Sqrt Function (Access custom web app)
 

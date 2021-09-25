@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 084928ca-efc0-36da-fe4f-5cc45f226178
 description: Une demande de réunion est un e-mail avec IPM. Schedule.Meeting.Request en tant que classe de message. Par défaut, un participant qui reçoit une demande de réunion y répond directement.
-ms.openlocfilehash: 8e7ab7a85d3f9f7c0a67245b8d8ad27442f5c5e4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d6e138fb4639a590e31e5f797ff3604c050c6292
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316995"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605469"
 ---
 # <a name="about-meeting-requests-as-informational-updates-and-full-updates"></a>À propos des demandes de réunion en tant que mises à jour intégrales et mises à jour à caractère informatif
 

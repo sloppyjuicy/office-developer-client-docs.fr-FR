@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm445
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: decb86a4-b711-35e1-b9dc-744a84ee177c
 description: "Détermine la hauteur de l'image de l'objet à l'intérieur de ses bordures. La formule par défaut est la suivante :"
-ms.openlocfilehash: 956bc478604fd19d8dfdbb7079e092e9e8a16e7b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 927b614e7e0b8113c96f7965c5f9b84b9a6c5b78
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411196"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628163"
 ---
 # <a name="imgheight-cell-foreign-image-info-section"></a>ImgHeight, cellule (section Foreign Image Info)
 

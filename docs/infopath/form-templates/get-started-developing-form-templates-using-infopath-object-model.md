@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], getting started,InfoPath 2003-compatible form templates, getting started
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45867711-3231-43ce-bae9-caf588120550
 description: Cette section fournit des informations sur la manière de démarrer la création de modèles de formulaires avec code managé qui fonctionnent avec le modèle objet compatible InfoPath 2003 fourni par les membres de l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust .
-ms.openlocfilehash: 54d60e6d73ee224845c87c08f4de1e554e6182da
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1dab85ad84ebe26eb4285aac1eb2f82439e5dcf1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408053"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621254"
 ---
 # <a name="get-started-developing-form-templates-using-the-infopath-object-model"></a>Commencer à développer des modèles de formulaire à l’aide du modèle objet InfoPath
 

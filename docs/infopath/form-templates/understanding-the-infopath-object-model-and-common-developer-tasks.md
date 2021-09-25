@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - examples [infopath 2007],InfoPath 2007, developer tasks,developer tasks [InfoPath 2007],InfoPath 2007, object models,object models [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a2c18b72-426b-4f63-8454-187e96d26199
 description: Cette section fournit des informations sur les tâches développeur courantes lors du développement de modèles de formulaires InfoPath utilisant du code managé.
-ms.openlocfilehash: a84bf1a70407ca87e1a83f74856d363d8860d4a1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: efd7ec81017e50b810a4535d4219013b5c78f0e3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621212"
 ---
 # <a name="understanding-the-infopath-object-model-and-common-developer-tasks"></a>Présentation du modèle objet InfoPath et des tâches développeur courantes
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834751(v=office.15)
 ms:contentKeyID: 48547861
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4ef268a821d65732e0a54776872387f62c67e999
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: bfb37cd93b457fe3b0a73f6807b82bfd1c376960
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300517"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585458"
 ---
 # <a name="recordsetfillcache-method-dao"></a>Recordset.FillCache, méthode (DAO)
 
@@ -22,7 +22,7 @@ Remplit tout ou partie d'un cache local pour un objet **Recordset** contenant le
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* FillCache(***Rows***, ***StartBookmark***)
+*.* FillCache(***Rows** _, _*_StartBookmark_**)
 
 *expression* Variable qui représente un objet **Recordset**.
 

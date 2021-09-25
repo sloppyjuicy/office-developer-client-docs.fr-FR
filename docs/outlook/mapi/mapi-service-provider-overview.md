@@ -3,17 +3,17 @@ title: Vue d’ensemble du fournisseur de services MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e7cbc79f-3d60-4f21-a378-7b0088ee8ad3
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: bc25158daa9579b5cd6cebe1eee878bf087762a5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: be2ad66f88b4e357d618286403ebefcb73942103
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431427"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595797"
 ---
 # <a name="mapi-service-provider-overview"></a>Vue d’ensemble du fournisseur de services MAPI
 

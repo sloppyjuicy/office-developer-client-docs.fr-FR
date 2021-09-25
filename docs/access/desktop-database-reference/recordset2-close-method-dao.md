@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836412(v=office.15)
 ms:contentKeyID: 48548584
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 178dec604a185da94493e6d586249bd2a633899c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 8609ba5f99703f3dd749f3d5a90253ca6754c892
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307384"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606022"
 ---
 # <a name="recordset2close-method-dao"></a>Recordset2.Close, méthode (DAO)
 

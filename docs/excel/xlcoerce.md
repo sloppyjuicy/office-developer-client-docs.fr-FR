@@ -8,19 +8,19 @@ f1_keywords:
 - xlCoerce
 keywords:
 - fonction xeuseerce [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d84839535d5eb913ca8a62d631238e3330683d0e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e02020b6afe67e9c1035e63866c2dd9bff0b24c6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424832"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621345"
 ---
 # <a name="xlcoerce"></a>xlCoerce
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Convertit un type de **XLOPER** /  **XLOPER12** en un autre ou recherche des valeurs de cellule sur une feuille. 
   
@@ -28,7 +28,7 @@ Convertit un type de **XLOPER** /  **XLOPER12** en un autre ou recherche des val
 Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestType);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pxSource_
   

@@ -3,17 +3,17 @@ title: Section Fichier de configuration de formulaire [Plateformes]
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7439de5b91cefe89eba2f9395595d4a7c8ca3ec5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bda35253d091433fccc69de9b73fd58fa2b3b058
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419127"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621072"
 ---
 # <a name="form-configuration-file-platforms-section"></a>Section Fichier de configuration de formulaire [Plateformes]
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 98f7ebdc-fdd5-4534-97dc-9d4c00490d62
 description: Modifie l’apparence (enjolivement) des formes de l’organigramme, des conteneurs, des chronologies et des graphiques d’organisation.
-ms.openlocfilehash: 089623bbb310f78488a5c8c7261eed1c16a5c6e6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5a303736300c70f73b509cb65fc824f9253d0fe0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427695"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628352"
 ---
 # <a name="embellishmentindex-cell-theme-properties-section"></a>EmbellishmentIndex Cell (Theme Properties Section)
 

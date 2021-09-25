@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 83a3c944-9582-bf80-ec2a-7a752da03cd3
-ms.openlocfilehash: 712632a74b0ffad6d0c9ca8745d67018518d87de
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: efb206e0eb8a0a1f3cdc4f76edc6b8d033db2e6b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542456"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628527"
 ---
 # <a name="dataconnections_type-complextype-visio-xml"></a>DataConnections_Type complexType (Visio XML)
 
@@ -50,7 +50,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> ||
    

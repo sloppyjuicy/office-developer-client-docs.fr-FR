@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 930c906d-d6f0-49ad-8ed7-336e7833d672
 description: Renvoie la valeur minimale dans l’expression d’une requête ou d’une table.
-ms.openlocfilehash: 95407c95dc85b83b1da784ce2ab27cba2137363d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1d49719b011da53cfbb75ecb5e6df32d426920e6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431686"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614786"
 ---
 # <a name="min-function-access-custom-web-app"></a>Min Function (Access custom web app)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagHomeAddressStateOrProvince
 api_type:
 - HeaderDef
 ms.assetid: e92db38a-9ae9-4d75-b768-674453c19fe3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00ae111b7ec8f2c84a49c53c76d9f35d930ac8c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 312c5fedd3184fac1efb7d7209f5e7eefe6a83c0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356804"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613477"
 ---
 # <a name="pidtaghomeaddressstateorprovince-canonical-property"></a>Propriété canonique PidTagHomeAddressStateOrProvince
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15)
 ms:contentKeyID: 48543601
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 68583b1ee211802a3cade63e85f0f62bbf3cb686
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 24b440d9303a45c3b53237529f709e48ffa73910
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308504"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605875"
 ---
 # <a name="status-property-example-field-vb"></a>Status, propriété – Exemple (objet Field) (VB)
 

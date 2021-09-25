@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 32676003-ba32-886f-1185-4760cb0e30e3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2aeca1a65a859ac9502995a463bc4869609bcd15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d40c06b5bd7e2d2523fb81b702c513c6521518e4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334960"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621093"
 ---
 # <a name="fixmapi"></a>FixMAPI
 
@@ -53,7 +53,7 @@ Lorsque **FixMAPI** effectue une copie de sauvegarde de la copie actuelle de map
 
 
 
-[KB 256946 : un message d’erreur de conflit de programme s’Outlook 2000](https://support.microsoft.com/kb/256946)
+[KB 256946 : vous recevez un message d’erreur de conflit de programme lorsque vous Outlook 2000](https://support.microsoft.com/kb/256946)
   
 [KB 228457 : Description de l’outil Fixmapi.exe inclus dans Internet Explorer 5](https://support.microsoft.com/kb/228457)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIStatus.ValidateState
 api_type:
 - COM
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: adcdf04653f8c9fed2ecc6520648abd3acd36134
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 88615e91b89e667504b32ac8a255c6b8acd24752
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438147"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596161"
 ---
 # <a name="imapistatusvalidatestate"></a>IMAPIStatus::ValidateState
 
@@ -32,7 +32,7 @@ HRESULT ValidateState(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ulUIParam_
   
@@ -101,11 +101,11 @@ La **méthode IMAPIStatus::ValidateState** vérifie l’état d’une ressource 
 |Sous-système MAPI  <br/> |Valide l’état de toutes les ressources que les fournisseurs de services actifs et le sous-système lui-même possèdent.  <br/> |
 |Pooler MAPI  <br/> |Effectue une session de tous les fournisseurs de transport, qu’ils soient déjà connectés ou non.  <br/> |
 |Carnet d’adresses MAPI  <br/> |Vérifie les entrées dans sa section de profil.  <br/> |
-|Fournisseur de services  <br/> |L’implémentation dépend du type de fournisseur et des indicateurs définies dans _le paramètre ulFlags._  <br/> |
+|Fournisseur de services  <br/> |L’implémentation dépend du type de fournisseur et des indicateurs définies dans le _paramètre ulFlags._  <br/> |
    
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Les applications clientes distantes **appellent la méthode ValidateState** pour démarrer le traitement à distance pour diverses actions. Cette méthode permet principalement de définir des bits d’état pour communiquer avec lepooler MAPI, au lieu de faire n’importe quel travail. En règle générale, le fournisseur de transport définit des indicateurs dans sa ligne d’état qui indiquent aupooler MAPI quelles actions doivent être lancées pour terminer la demande du client. 
+Les applications clientes distantes appellent **la méthode ValidateState** pour démarrer le traitement à distance pour diverses actions. Cette méthode permet principalement de définir des bits d’état pour communiquer avec lepooler MAPI, au lieu de faire n’importe quel travail. En règle générale, le fournisseur de transport définit des indicateurs dans sa ligne d’état qui indiquent aupooler MAPI quelles actions doivent être lancées pour terminer la demande du client. 
 
 Dans ce modèle d’interaction client-transport-spooler, les actions demandées par le client sont asynchrones, dans ce cas **ValidateState** renvoie avant que les actions demandées soient terminées. Toutefois, les actions qui n’impliquent pas nécessairement le système de messagerie sous-jacent ou qui impliquent une interface spécifique au transport peuvent être synchrones. L’application cliente passe un masque de bits des indicateurs suivants pour spécifier les actions que le fournisseur de transport distant doit prendre. 
   

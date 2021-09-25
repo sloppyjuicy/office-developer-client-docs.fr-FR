@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
 description: Cette rubrique présente une fonction, ReadTimeZones, qui appelle les deux fonctions, BinToTZDEFINITION et BinToTZREG, pour lire les propriétés de fuseau horaire, PidLidAppointmentTimeZoneDefinitionStartDisplay et PidLidTimeZoneStruct, à partir d’un rendez-vous.
-ms.openlocfilehash: 67755ba49c5572005c6138e34329491148a199a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 14774f5a565926bda2bdc16e846f3eed3d2002ce
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317618"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605455"
 ---
 # <a name="read-time-zone-properties-from-an-appointment"></a>Lire les propriétés de fuseau horaire à partir d’un rendez-vous
 

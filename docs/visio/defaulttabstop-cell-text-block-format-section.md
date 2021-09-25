@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm220
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b3e458a-206c-8699-8bf7-da80f4350706
 description: Détermine l’intervalle des taquets de tabulation par défaut dans un bloc de texte.
-ms.openlocfilehash: 1ae923f6373b9cee76238b1fb27ec5eb3acb43ce
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 10589f110ec1121fd04bdd3caea6ca876bbfc3c9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407829"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628478"
 ---
 # <a name="defaulttabstop-cell-text-block-format-section"></a>DefaultTabstop, cellule (section Text Block Format)
 

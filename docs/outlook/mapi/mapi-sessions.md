@@ -3,17 +3,17 @@ title: Sessions MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3dd55d8ee3cb2751fb27184f0069ae831e2164ee
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d4e81b3e3c948d31e1f34e9e6b423ba881302f48
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435872"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595790"
 ---
 # <a name="mapi-sessions"></a>Sessions MAPI
 
@@ -37,7 +37,7 @@ L'illustration suivante montre comment ces param�tres et des indicateurs diff�
   
 **Diagramme de flux de session�MAPI**
   
-![Flowchart de session MAPI]de l’itinéraire de(media/amapi_47.gif "session MAPI")
+![Diagramme de flux de session�MAPI](media/amapi_47.gif "Diagramme de flux de session MAPI")
   
 For information about handling sessions from within a client application, see [Gestion de Session MAPI](mapi-session-handling.md)
   
@@ -46,5 +46,5 @@ For information about handling sessions from within a client application, see [G
 - [MAPILogonEx](mapilogonex.md)  
 - [IMAPISession : IUnknown](imapisessioniunknown.md)
 - [Gestion de Session MAPI](mapi-session-handling.md)  
-- [Vue d’ensemble de la programmation MAPI](mapi-programming-overview.md)
+- [Vue d'ensemble de la programmation MAPI](mapi-programming-overview.md)
 

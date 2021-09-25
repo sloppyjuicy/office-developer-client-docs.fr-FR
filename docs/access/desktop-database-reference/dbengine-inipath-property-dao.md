@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053070
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: f14f9f2d028bb8a9a8e71bc9d7b97ea5672466f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a84c27407ee370c406f791fa691d30fda3e79810
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294294"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585801"
 ---
 # <a name="dbengineinipath-property-dao"></a>DBEngine.IniPath, propriété (DAO)
 

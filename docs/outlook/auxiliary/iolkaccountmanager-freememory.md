@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acb67186-ab38-e918-5402-2526307a5bd0
 description: Libère la mémoire allouée par l’interface IOlkAccountManager.
-ms.openlocfilehash: 3e680e1e26d6c9b12c2dd4a7d48df4dbeae14154
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e51aa8dd165e9cf1d1498386387b422404c7a5d1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408487"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561928"
 ---
 # <a name="iolkaccountmanagerfreememory"></a>IOlkAccountManager::FreeMemory
 
@@ -28,7 +28,7 @@ HRESULT IOlkAccountManager::FreeMemory (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pv_
   

@@ -6,13 +6,13 @@ ms.audience: Developer
 ms.topic: reference
 ms.assetid: cceb8dcb-5ce1-4c32-b057-6201b62a646f
 description: Compare deux expressions selon la relation supérieur ou égal à.
-localization_priority: Priority
-ms.openlocfilehash: 76472544be950c68f3b5d42fe13b3040e9268f48
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: e72991960d1b4ff5d6ac9dcecb17f50bf98871b1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302498"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614863"
 ---
 # <a name="greater-than-or-equal-to-access-custom-web-app"></a>Supérieur ou égal à (application web personnalisée Access)
 
@@ -31,7 +31,7 @@ Compare deux expressions selon la relation supérieur ou égal à.
   
 ## <a name="return-type"></a>Type renvoyé
 
-**Booléen**
+**Boolean**
   
 ## <a name="remarks"></a>Remarques
 

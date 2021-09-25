@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - digital signatures [infopath 2007],InfoPath 2007, digital signatures
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd13fb71-aecf-47bb-8a6b-db70bd90ceeb
 description: Le modèle objet de l'espace de noms Microsoft.Office.InfoPath fournit les fonctionnalités d'utilisation des signatures numériques par programmation.
-ms.openlocfilehash: ea657f80f6e38a06a91e19c245eadc203c7c580c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 705eeeba8426411c2ca5b61c2b9b707da5271e82
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425574"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605532"
 ---
 # <a name="work-with-digital-signatures"></a>Travailler avec des signatures numériques
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249029(v=office.15)
 ms:contentKeyID: 48543818
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 269a782e85fab1e5dc47cd32f2e2c11306e11470
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 23cdfa8fc549e8e868a634142d93779e1dd4ccea
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296310"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573165"
 ---
 # <a name="close-method-ado"></a>Close, méthode (ADO)
 

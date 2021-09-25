@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm655
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d97b31d-9008-307d-273a-1726007eeb34
 description: Empêche de faire pivoter les formes 2D avec la poignée de rotation ou la commande Faire pivoter à gauche de 90° ou Faire pivoter à droite de 90°.
-ms.openlocfilehash: 36da1868e4f974bd19d00e86e31bea96eb8ad5bf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e40ba399c2acc2650152bdcdd639b86a5cd650dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404672"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627967"
 ---
 # <a name="lockrotate-cell-protection-section"></a>LockRotate, cellule (section Protection)
 

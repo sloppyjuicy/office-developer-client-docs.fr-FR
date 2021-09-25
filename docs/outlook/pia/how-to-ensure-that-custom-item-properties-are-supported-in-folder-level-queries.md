@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb608929(v=office.15)
 ms:contentKeyID: 55119863
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9fcba2648988d2de3c208079d2845e2cb4c2f549
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 44164fcdfca049062c52fdae9e7783bc932c8006
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319088"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560576"
 ---
 # <a name="ensure-that-custom-item-properties-are-supported-in-folder-level-queries"></a>Procédure pour vérifier la prise en charge des propriétés des éléments personnalisés dans les requêtes au niveau du dossier
 

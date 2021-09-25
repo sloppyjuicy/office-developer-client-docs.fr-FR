@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249511(v=office.15)
 ms:contentKeyID: 48545813
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: aaa8eb15f1febf83600785c6cbf8c5582d834210
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d6fdee538666c8abd80a76952f025057f6007f57
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292096"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572997"
 ---
 # <a name="group-object-adox-reference"></a>Référence de l’objet Group (ADOX)
 

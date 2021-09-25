@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOriginatorRequestedAlternateRecipient
 api_type:
 - COM
 ms.assetid: c85b7862-18bc-4e17-94db-9097e0ac4a02
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 45cd0e8a95f908d7ef56d03b3ecab5d5df5bcae1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6f98a7cc97cae1fe548d079af0cad92b5f8e7a78
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437860"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560773"
 ---
 # <a name="pidtagoriginatorrequestedalternaterecipient-canonical-property"></a>Propriété canonique PidTagOriginatorRequestedAlternateRecipient
 

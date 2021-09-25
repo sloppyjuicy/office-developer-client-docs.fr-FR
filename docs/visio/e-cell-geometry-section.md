@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251761
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc0154b1-6930-1fe0-655c-05eab2d60230
 description: Contient une formule de courbe B-spline rationnelle non uniforme (NURBS).
-ms.openlocfilehash: 5c9b3cbf96e2a218a8ed790d3a5615843360c95e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6c45db2e1444256c63e72c9fcbafdbba04c97d58
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423565"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628394"
 ---
 # <a name="e-cell-geometry-section"></a>E, cellule (section Geometry)
 

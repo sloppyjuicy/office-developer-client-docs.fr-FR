@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - FBadProp
 api_type:
 - HeaderDef
 ms.assetid: 929330c8-e6f2-4adf-a36e-fba18fa055d4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d899c8af541da231b015f6178eb7bc8f0ffd86e0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2274fa324425bfc3e04ec5a6a45ff1270cbfbca8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426715"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621149"
 ---
 # <a name="fbadprop"></a>FBadProp
 

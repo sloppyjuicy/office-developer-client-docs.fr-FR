@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
 ms:contentKeyID: 48548123
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8bc822abe52b8bc9e71a275f0fd9e5006099317a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 9d14683a3b81c1d0ebb8811a09687a86b3700e96
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301251"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585493"
 ---
 # <a name="propertiesdelete-method-dao"></a>Properties.Delete, méthode (DAO)
 
@@ -26,7 +26,7 @@ Supprime l'objet **Property** spécifié de la collection **Properties**.
 
 *expression* Variable qui représente un objet **Properties.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

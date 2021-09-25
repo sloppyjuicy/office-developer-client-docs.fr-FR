@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48c31987-bb85-e49a-c337-740fa507a02d
-ms.openlocfilehash: ce9a1f5b9a6e402ec157d641f81a82c6df4b92e1
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: ff551b5753f4e3b719fdef73fc0baee4898f2175
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541553"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628184"
 ---
 # <a name="hyperlink_type-complextype-visio-xml"></a>Hyperlink_Type complexType (Visio XML)
 
@@ -48,7 +48,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Row](row-element-hyperlink-sectionvisio-xml.md) <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> ||
    

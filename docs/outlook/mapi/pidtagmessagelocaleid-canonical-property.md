@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMessageLocaleId
 api_type:
 - HeaderDef
 ms.assetid: 4ba2b0a8-9f87-4a5e-ada2-e8c2399a9d94
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e72d398dffb3852d1dd934fd226620b528ef5fb2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c8d87dcf7852a74a2d9b038a6d8681e014d9ce5b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325598"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560857"
 ---
 # <a name="pidtagmessagelocaleid-canonical-property"></a>Propriété canonique PidTagMessageLocaleId
 

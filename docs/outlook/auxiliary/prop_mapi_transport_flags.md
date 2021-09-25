@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12cfe096-6882-c0be-b248-87567cb71e83
 description: Représente les paramètres de transport que Outlook utilise pour déterminer les tâches de synchronisation nécessaires et pour désactiver les éléments d’interface utilisateur que le compte ne prend pas en charge.
-ms.openlocfilehash: 707306c3bfbeebdd18f82bacfc121274be08aa50
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9137fb724fc7702a852861d8f59e5bce1141eb1c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404525"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605315"
 ---
 # <a name="prop_mapi_transport_flags"></a>PROP_MAPI_TRANSPORT_FLAGS
 

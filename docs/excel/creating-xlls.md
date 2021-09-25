@@ -8,13 +8,13 @@ keywords:
 - dll [excel 2007], appel dans excel, fonction xlAutoFree [Excel 2007], fonction xlAutoFree12 [Excel 2007], xlcall32.lib [Excel 2007], fonction xlAutoRegister [Excel 2007], xlcall.cpp [Excel 2007], fonction xlAutoRemove [Excel 2007], fonction xlAddInManagerInfo [Excel 2007], fonction xlAutoAdd [Excel 2007], fonction xlAutoOpen [Excel 2007], fonction xlAutoClose [Excel 2007], DLL [Excel 2007], transformation en XLL, XLL [Excel 2007] appel dans Excel, fonction xlAutoRegister12 [Excel 2007], xlcall.h [Excel 2007], fonction xlAddInManagerInfo12 [Excel 2007]
 ms.assetid: 7754998f-4e13-4a37-9724-43b6ee6c919b
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-localization_priority: Priority
-ms.openlocfilehash: 886b8e74f00f2e724785d43475ee0ffa3c922710
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: dd1f4d591d6131d9f683bbd4630cbb0ceadb03e1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304143"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605616"
 ---
 # <a name="creating-xlls"></a>Création de fichiers XLL
 
@@ -28,7 +28,7 @@ L’API Excel C offre plusieurs fonctions qui permettent aux DLL de rappeler Exc
   
 ## <a name="enabling-dlls-to-call-back-into-excel"></a>Activation du rappel dans Excel pour les DLL
 
-Pour qu’une DLL puisse accéder aux fonctionnalités d’Excel et obtenir ou définir des informations sur l’espace de travail, elle doit tout d’abord obtenir les adresses des fonctions de rappel Excel **Excel4**, **Excel4v**, ** Excel 12** et **Excel12v**. Les deux dernières ont été introduites dans Excel 2007 et sont disponibles dans les versions suivantes. Pour accéder à toutes ces fonctions, le projet de DLL doit contenir des références aux fichiers suivants du SDK XLL Excel 2013. Si vous voulez uniquement accéder aux deux premiers rappels (dans n’importe quelle version d’Excel), votre projet doit seulement inclure les deux premiers fichiers.
+Pour qu’une DLL puisse accéder aux fonctionnalités d’Excel et obtenir ou définir des informations sur l’espace de travail, elle doit tout d’abord obtenir les adresses des fonctions de rappel Excel **Excel4**, **Excel4v**, **Excel 12** et **Excel12v**. Les deux dernières ont été introduites dans Excel 2007 et sont disponibles dans les versions suivantes. Pour accéder à toutes ces fonctions, le projet de DLL doit contenir des références aux fichiers suivants du SDK XLL Excel 2013. Si vous voulez uniquement accéder aux deux premiers rappels (dans n’importe quelle version d’Excel), votre projet doit seulement inclure les deux premiers fichiers.
   
 ### <a name="xlcallh"></a>Xlcall.h
 

@@ -3,17 +3,17 @@ title: Codage des tables des destinataires à l’aide du TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cd2f595f-4dd0-4704-b670-6857d6c843ca
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1ed047424e4a6d64c08b511a15769c081a0d8c4e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4cce961a4b601f433adac1b11a650165ecf71835
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417958"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621142"
 ---
 # <a name="encoding-recipient-tables-by-using-tnef"></a>Codage des tables des destinataires à l’aide du TNEF
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834698(v=office.15)
 ms:contentKeyID: 48547826
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 824372d64d0c75984f5e84ee662ce01ef9c044b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: cbaf84c43aab4e9032c22adda86c54b5bff4f837
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307342"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606008"
 ---
 # <a name="recordset2fields-property-dao"></a>Recordset2.Fields, propriété (DAO)
 

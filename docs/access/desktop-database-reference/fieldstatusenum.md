@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249225(v=office.15)
 ms:contentKeyID: 48544635
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0ccf98f2a740e2a077d6e2451102bfc72bcd1b40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 5fd8afb1d1c8210b81629a004a9b58791d08fab6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292516"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573039"
 ---
 # <a name="fieldstatusenum"></a>FieldStatusEnum
 
@@ -45,7 +45,7 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="even">
 <td><p><strong>adFieldBadStatus</strong></p></td>
-<td><p>12 </p></td>
+<td><p>12 </p></td>
 <td><p>Indique qu’une valeur d’état non valide a été envoyée depuis ADO vers le fournisseur OLE DB. Causes possibles : un fournisseur OLE DB 1.0 ou 1.1, ou une combinaison incorrecte de <a href="value-property-ado.md">Value</a> et <a href="status-property-ado-field.md">Status</a>.</p></td>
 </tr>
 <tr class="odd">
@@ -65,12 +65,12 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="even">
 <td><p><strong>adFieldCantCreate</strong></p></td>
-<td><p>7 </p></td>
+<td><p>7 </p></td>
 <td><p>Indique que le champ n'a pu être ajouté car le fournisseur a dépassé une limite (par exemple, le nombre de champs permis).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDataOverflow</strong></p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td><p>Indique que les données renvoyées par le fournisseur ont débordé le type de données du champ.</p></td>
 </tr>
 <tr class="even">
@@ -80,12 +80,12 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDoesNotExist</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 <td><p>Indique que le champ spécifié n'existe pas.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFieldIgnore</strong></p></td>
-<td><p>15</p></td>
+<td><p>15 </p></td>
 <td><p>Indique que ce champ a été ignoré lors de la définition des valeurs de données dans la source. Le fournisseur n'a pas défini de valeur.</p></td>
 </tr>
 <tr class="odd">
@@ -95,7 +95,7 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="even">
 <td><p><strong>adFieldInvalidURL</strong></p></td>
-<td><p>17 </p></td>
+<td><p>17 </p></td>
 <td><p>Indique l'URL de la source des données contient des caractères non valides.</p></td>
 </tr>
 <tr class="odd">
@@ -140,7 +140,7 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldPermissionDenied</strong></p></td>
-<td><p>9 </p></td>
+<td><p>9 </p></td>
 <td><p>Indique que le champ ne peut être modifié car il est défini en lecture seule.</p></td>
 </tr>
 <tr class="even">
@@ -155,7 +155,7 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="even">
 <td><p><strong>adFieldResourceLocked</strong></p></td>
-<td><p>18 </p></td>
+<td><p>18 </p></td>
 <td><p>Indique que le fournisseur n'a pas pu effectuer l'opération car la source de données est verrouillée par une application ou un processus (ou plusieurs).</p></td>
 </tr>
 <tr class="odd">
@@ -170,7 +170,7 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldSignMismatch</strong></p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>Indique que la valeur de donnée renvoyée par le fournisseur a été signée, contrairement au type de données de la valeur du champ ADO.</p></td>
 </tr>
 <tr class="even">
@@ -180,7 +180,7 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldUnavailable</strong></p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>Indique que le fournisseur n'a pu déterminer la valeur lors de la lecture de la source de données. Par exemple, la ligne venait d'être créée, la valeur par défaut de la colonne n'était pas disponible, et une nouvelle valeur n'avait pas encore été spécifiée.</p></td>
 </tr>
 <tr class="even">

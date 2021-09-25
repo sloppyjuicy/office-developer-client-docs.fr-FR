@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagMemberName
 api_type:
 - HeaderDef
 ms.assetid: e19129bf-d07c-4d2e-9d4d-edbfda088ea7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a119cf1446600153e433c4aae99037d9810015c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e23769d89931519767fb88177c79cd22e013920b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342482"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613365"
 ---
 # <a name="pidtagmembername-canonical-property"></a>Propriété canonique PidTagMemberName
 

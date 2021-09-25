@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 6414c9dd4c3218c2c2bf90f39d0cfb950e6e1018
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e750aebf39a444335194c085900acb8da4380adf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293573"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585724"
 ---
 # <a name="ensuring-sufficient-tempdb-space"></a>Garantie d’espace TempDB suffisant
 

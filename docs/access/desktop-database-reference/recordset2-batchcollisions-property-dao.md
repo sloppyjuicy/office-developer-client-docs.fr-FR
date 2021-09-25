@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1101180
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: ea75da06c0db4eeb4e846bacfddc9f125c03fc84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 1e8f494d74413470d819b5a0cd42449f26f2d8f6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307489"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606015"
 ---
 # <a name="recordset2batchcollisions-property-dao"></a>Recordset2.BatchCollisions, propriété (DAO)
 

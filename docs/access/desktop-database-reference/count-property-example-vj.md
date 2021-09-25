@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249478(v=office.15)
 ms:contentKeyID: 48545666
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 6b875e2b5dff6f3b6927e73105b6732dfaa6fd0b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0bdacbc53139bea4dc737041a2e1b4d7218c2890
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295442"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59586018"
 ---
 # <a name="count-property-example-vj"></a>Count, propriété – Exemple (VJ++)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [Count](count-property-ado.md) avec deux collections dans la base de données ***Employees***. La propriété obtient le nombre d’objets de chaque collection et définit la limite supérieure pour les boucles qui énumèrent ces collections. Une autre façon d’éumérer ces collections sans utiliser la propriété **Count** serait d’utiliser des instructions.
+Cet exemple illustre la propriété [Count](count-property-ado.md) avec deux collections dans la base de données ***Employees** _. La propriété obtient le nombre d’objets de chaque collection et définit la limite supérieure pour les boucles qui énumèrent ces collections. Une autre façon d’éumérer ces collections sans utiliser la propriété _ *Count** serait d’utiliser des instructions.
 
 ```java 
  

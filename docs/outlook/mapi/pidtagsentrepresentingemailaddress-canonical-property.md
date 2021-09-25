@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSentRepresentingEmailAddress
 api_type:
 - COM
 ms.assetid: 5fa4edde-475c-4568-946b-73eb08f97a61
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1b82e1e96a5ffbb5c17dd919e78a9f07342194c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 740cf8acfedadd101c4221f9a69ac21b5f446f25
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341089"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613316"
 ---
 # <a name="pidtagsentrepresentingemailaddress-canonical-property"></a>Propriété canonique PidTagSentRepresentingEmailAddress
 

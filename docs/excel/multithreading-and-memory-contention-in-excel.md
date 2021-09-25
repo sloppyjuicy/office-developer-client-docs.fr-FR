@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: reference
 keywords:
 - multithreading in excel,memory contention in Excel,functions [Excel 2007], thread-safe,thread-safe functions [Excel 2007],thread-local memory [Excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a385728450fc6519d7f5211c186a9d74e623bf7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 74f431357b74a117888eca847151a6145b2473e3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301637"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621422"
 ---
 # <a name="multithreading-and-memory-contention-in-excel"></a>Multithreading et contention de mémoire dans Excel
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Les versions Microsoft Excel antérieures à Excel 2007 utilisent un thread unique pour tous les calculs de feuille de calcul. Toutefois, à compter Excel 2007, Excel peut être configuré pour utiliser entre 1 et 1 024 threads simultanés pour le calcul de feuille de calcul. Sur un ordinateur multi-processeur ou multi cœur, le nombre de threads par défaut est égal au nombre de processeurs ou de cœurs. Par conséquent, les cellules thread-safe, ou les cellules qui contiennent uniquement des fonctions thread-safe, peuvent être allouées à des threads simultanés, sous réserve de la logique de recalcul habituelle de la nécessité d’être calculées après leurs antécédents.
   

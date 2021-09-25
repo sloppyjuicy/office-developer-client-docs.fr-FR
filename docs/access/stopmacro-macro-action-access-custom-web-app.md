@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af28534b-6f0d-43ee-ae89-ee2f85da1af1
 description: Vous pouvez utiliser l’action ArrêterMacro pour arrêter la macro en cours d’exécution.
-ms.openlocfilehash: 8b80422a297647d556fb4b20cc15fb93e8853466
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 873937805bb96584dc08708cf2fe4eeadeec8b03
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429494"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614730"
 ---
 # <a name="stopmacro-macro-action-access-custom-web-app"></a>StopMacro Macro Action (Application web personnalisée Access)
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - security policy deployment package [infopath 2007],URLs [InfoPath 2007], assigning FullTrust,code access security [InfoPath 2007],UNCs [InfoPath 2007], assigning FullTrust,CAS [InfoPath 2007],security [InfoPath 2007], configuring,code groups [InfoPath 2007],FullTrust [InfoPath 2007], assigning to UNCs,FullTrust [InfoPath 2007], assigning to URLs
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24d1a322-581f-497e-b97b-bd02c4516551
 description: Vous pouvez personnaliser le jeu d'autorisations qui est appliqué à un modèle de formulaire InfoPath avec code managé en utilisant le composant logiciel enfichable Configuration .NET.
-ms.openlocfilehash: 77f3546d976bb5ea353aa3fbe58ba7af6cd92a6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c420a88f6c6c1d4e1821efe310722d0f4f6845db
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300158"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621233"
 ---
 # <a name="configure-security-settings-for-form-templates-with-code"></a>Configurer l’Paramètres sécurité pour les modèles de formulaires avec code
 

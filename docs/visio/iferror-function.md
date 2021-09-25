@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 232fa528-2375-90be-8e18-7a064ce1345e
 description: Renvoie le résultat évalué d’une expression primaire, si elle n’est pas évaluée à une erreur. Sinon, cette fonction renvoie le résultat évalué d’une autre expression.
-ms.openlocfilehash: 7b9b42b5c7e7053bae862ddadf17e65015d8ecc3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ecda406ec7d770509accb50328aa7ef49ffcd44c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431175"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628170"
 ---
 # <a name="iferror-function"></a>Fonction SIERROR
 

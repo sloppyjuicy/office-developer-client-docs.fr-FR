@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249164(v=office.15)
 ms:contentKeyID: 48544337
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ff09d69a9cf36246b3367202531a011c4e1aba12
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: fa2261b1d0fa09916a0cea833c00358b8cf77bf5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306544"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615024"
 ---
 # <a name="resyncenum"></a>ResyncEnum
 

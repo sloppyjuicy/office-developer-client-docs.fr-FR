@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192064(v=office.15)
 ms:contentKeyID: 48543902
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 823a9b0e095bb726d749021cca99d26f1cc8ceba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c3458829dde3be3dbee83289ee111221d006b06c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309407"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605966"
 ---
 # <a name="recordset2findfirst-method-dao"></a>Recordset2.FindFirst, méthode (DAO)
 
@@ -26,7 +26,7 @@ Localise le premier enregistrement dans un objet **Recordset** de type feuille d
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

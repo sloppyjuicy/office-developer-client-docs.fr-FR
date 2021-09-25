@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFolder.CopyMessages
 api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 21aa28e1a2c11ee7361fb4921f8d527b3e3ceb44
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5cb92a74e20cddc9a7e86555980d6babdea7b32d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576050"
 ---
 # <a name="imapifoldercopymessages"></a>IMAPIFolder::CopyMessages
 
@@ -38,7 +38,7 @@ HRESULT CopyMessages(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpMsgList_
   

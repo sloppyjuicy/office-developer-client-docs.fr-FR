@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], using infopath 2003 object model,InfoPath 2003-compatible form templates,InfoPath 2007, developing form templates using InfoPath 2003 object model,object models [InfoPath 2003], developing managed code form templates
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b
 description: Microsoft InfoPath prend toujours en charge les projets de modèle de formulaires créés avec Microsoft Office InfoPath 2003 Toolkit pour Visual Studio .NET ou Visual Studio 2005 Tools pour Microsoft Office et dont la logique métier a été écrite en fonction des membres de l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust . Les rubriques de cette section désignent les types et les membres de cet espace de nom par modèle objet compatible InfoPath 2003 ou simplement par modèle objet InfoPath 2003. InfoPath prend également en charge les projets de modèle de formulaire créés avec Microsoft Office InfoPath 2007, qui utilisent le modèle objet compatible avec InfoPath 2003. Par ailleurs, à l'aide de InfoPath, vous pouvez créer des projets de modèle de formulaire intégrant un modèle objet compatible avec InfoPath 2003 afin de préserver la rétrocompatibilité pour les utilisateurs de Office InfoPath 2007. Toutes les rubriques de cette section traitent de la création et du développement de modèles de formulaires utilisant le modèle objet compatible avec InfoPath 2003 fourni par l'espace de noms Microsoft.Office.Interop.InfoPath.SemiTrust .
-ms.openlocfilehash: a39f921f6c7465dbcf469062b866c808fa222851
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8f481f49e56a45dfaf6d84298f80485a733a7665
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300363"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621275"
 ---
 # <a name="developing-form-templates-using-the-infopath-2003-object-model"></a>Développement de modèles de formulaire à l’aide du modèle objet InfoPath 2003
 

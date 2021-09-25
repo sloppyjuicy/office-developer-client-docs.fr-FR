@@ -2,14 +2,14 @@
 title: Éléments à prendre en compte pour l’automatisation sans Office dans le Microsoft 365 pour un environnement RPA sans surveillance
 ms.date: 03/30/2020
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Éléments à prendre en compte pour l’automatisation sans Office dans le Microsoft 365 pour un environnement RPA sans surveillance.
-ms.openlocfilehash: 576217fc85f2980a6d2451e3f930296ea4c11a56
-ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
+ms.openlocfilehash: d12d7a4d3eeb2b68425e56c4f98d5c8f7a9dc446
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43103047"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621184"
 ---
 # <a name="considerations-for-unattended-automation-of-office-in-the-microsoft-365-for-unattended-rpa-environment"></a>Éléments à prendre en compte pour l’automatisation sans Office dans le Microsoft 365 pour un environnement RPA sans surveillance
 

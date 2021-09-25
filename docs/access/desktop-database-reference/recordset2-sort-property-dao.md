@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193917(v=office.15)
 ms:contentKeyID: 48544842
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: a5784054ce195a1a2ea516d4f6a3417c5a8db71c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2ec38f55bf28b93ae35348800aee85bdbc0de512
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309268"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615059"
 ---
 # <a name="recordset2sort-property-dao"></a>Recordset2.Sort, propriété (DAO)
 
@@ -34,7 +34,7 @@ Lorsque vous définissez cette propriété pour un objet, le tri est exécuté l
 
 Par défaut, l'ordre de tri est croissant (A à Z ou 0 à 100).
 
-La propriété **Sort** ne s’applique pas aux objets **Recordset** de type table ou transfert uniquement. Pour trier un objet **Recordset** de type table, utilisez la propriété **[Index](recordset2-index-property-dao.md)**.
+La propriété **Sort** ne s’applique pas aux objets **Recordset** de type table ou avant uniquement. Pour trier un objet **Recordset** de type table, utilisez la propriété **[Index](recordset2-index-property-dao.md)**.
 
 > [!NOTE]
 > Dans la plupart des cas, il est plus rapide d’ouvrir un nouvel objet **Recordset** à l’aide d’une instruction SQL qui comprend les critères de tri.

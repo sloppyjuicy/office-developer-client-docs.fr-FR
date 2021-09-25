@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIMessageSite.GetFormManager
 api_type:
 - COM
 ms.assetid: d48bd537-c562-4deb-8a4c-011208991054
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2d4100d9bcd1b086747d742d9636c4bf7a39f50b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 16d98d92d825870b566f194ff2815c85c581434d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419456"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596217"
 ---
 # <a name="imapimessagesitegetformmanager"></a>IMAPIMessageSite::GetFormManager
 
@@ -33,7 +33,7 @@ HRESULT GetFormManager(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ppFormMgr_
   

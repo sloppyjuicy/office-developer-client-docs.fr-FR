@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 20f09dbfba50526409472f7eb804ba2c47e4d1d5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 06658f6c47eb17cb78829c65ce528e565ff69eb6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294854"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585941"
 ---
 # <a name="databasenewpassword-method-dao"></a>Database.NewPassword, méthode (DAO)
 
@@ -26,11 +26,11 @@ Permet de modifier le mot de passe d’une base de données existante du moteur 
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* NewPassword(***bstrOld***, ***bstrNew***)
+*.* NewPassword(***bstrOld** _, _*_bstrNew_**)
 
 *expression* Expression qui renvoie un objet **Database.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

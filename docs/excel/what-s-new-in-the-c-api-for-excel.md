@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - c api [excel 2007], nouveautés
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 64e3933ec25f0771db5bd36bbf57f3f259cdc8a1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 99a4bc3c1a88dd4b812ced2c7578f61a7d1274a8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439687"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621373"
 ---
 # <a name="whats-new-in-the-c-api-for-excel"></a>Nouveautés de l’API C pour Excel
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Conjointement avec Microsoft Excel 2013, Microsoft Excel 2013 Kit de développement logiciel (SDK) XLL inclut la prise en charge des fonctionnalités suivantes.
   
@@ -35,7 +35,7 @@ Conjointement avec Microsoft Excel 2013, Microsoft Excel 2013 Kit de développem
     Les connecteurs de cluster permettent aux UDF de s’exécuter sur des clusters de calcul hautes performances. Pour plus d’informations sur la création de connecteurs de cluster, [voir Developing Excel Cluster Connectors](developing-excel-cluster-connectors.md).
     
     > [!NOTE]
-    > Les add-ins XLL que vous avez l’intention d’exécuter sur des clusters de calcul doivent appeler uniquement des fonctions sécurisées pour le cluster. Pour plus d’informations sur les fonctions que vous pouvez utiliser, voir Excel référence des fonctions api [du SDK XLL](excel-xll-sdk-api-function-reference.md) et fonctions [sécurisées de cluster.](cluster-safe-functions.md) 
+    > Les add-ins XLL que vous avez l’intention d’exécuter sur des clusters de calcul doivent appeler uniquement des fonctions sécurisées pour le cluster. Pour plus d’informations sur les fonctions que vous pouvez utiliser, voir Excel référence des fonctions de [l’API du SDK XLL](excel-xll-sdk-api-function-reference.md) et les fonctions Coffre [cluster.](cluster-safe-functions.md) 
   
 - **Prise en charge 64 bits**
     

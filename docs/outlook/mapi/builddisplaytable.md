@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - BuildDisplayTable
 api_type:
 - HeaderDef
 ms.assetid: 0846415b-6fe1-4504-8620-108af6719015
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8c5e6078be05ff846b7737ff53e9a6338fcb2141
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c49d7176b74d2d6fafd3da0a4d658dd72c7b54c8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431595"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621156"
 ---
 # <a name="builddisplaytable"></a>BuildDisplayTable
 

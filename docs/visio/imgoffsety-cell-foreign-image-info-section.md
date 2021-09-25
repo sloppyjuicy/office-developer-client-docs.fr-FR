@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm455
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b2991aa-4722-fe3b-39c5-02d38c4c7efc
 description: Détermine la distance du décalage vertical entre l'objet et l'origine de la bordure de l'objet. La valeur par défaut est 0,1 pouce. Le panoramique de l'objet avec l'outil Rognage modifie cette valeur.
-ms.openlocfilehash: 908972216a24370bc48990ddc99a36da9274d648
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 013e8e12550ad7ef65675a62eadc5951dc634d29
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406737"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628142"
 ---
 # <a name="imgoffsety-cell-foreign-image-info-section"></a>ImgOffsetY, cellule (section Foreign Image Info)
 

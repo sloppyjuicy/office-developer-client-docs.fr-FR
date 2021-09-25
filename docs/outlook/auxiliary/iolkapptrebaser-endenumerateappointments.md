@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc4506c7-7a4f-940d-d0a6-e0fab4561a88
 description: Attend pour l'énumération de rendez-vous dans un dossier de calendrier pour terminer et renvoie une liste de rendez-vous à cette nécessité la relocalisation.
-ms.openlocfilehash: 5be6fd9ce33374725b36429cd0fbc717776c9ab9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9472f9b1da9db435b8deba12c4468c02311098ee
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605371"
 ---
 # <a name="iolkapptrebaserendenumerateappointments"></a>IOlkApptRebaser::EndEnumerateAppointments
 
@@ -30,7 +30,7 @@ HRESULT EndEnumerateAppointments(
     SRowSet **ppRows);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pContext_
   

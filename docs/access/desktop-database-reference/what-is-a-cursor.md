@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250013(v=office.15)
 ms:contentKeyID: 48547738
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2023b39620f80e6f770153e381c74d5285d027c6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c8016f5deb22f5d5def560bfde9412624a3f6de7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302743"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572514"
 ---
 # <a name="what-is-a-cursor"></a>Qu’est-ce qu’un curseur ?
 

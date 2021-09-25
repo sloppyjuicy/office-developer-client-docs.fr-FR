@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FBadRglpszW
 api_type:
 - COM
 ms.assetid: 880eb35d-7045-4fdd-bb33-0f14557a7316
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ca436bc83d5170d55475c1dd9702a9d54e4b9d5a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2d677c6d4e1eb416e5dabf466f24d9b77c48c03e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436439"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621114"
 ---
 # <a name="fbadrglpszw"></a>FBadRglpszW
 

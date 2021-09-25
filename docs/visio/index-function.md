@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251443
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc46f91e-733f-e25a-17d2-19df8c8febd2
 description: Renvoie la sous-stration à l’index d’emplacement de base zéro dans la liste délimitée par le délimiteur. Ou, si l’index est en dehors de la plage, renvoie une chaîne vide ou le jeton facultatif fourni en tant qu’argument valeur d’erreur.
-ms.openlocfilehash: 11362ed984a489682d57f007300e60de548ddf11
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 09559640a9d3b1d1da730a125024c9a8f4a11699
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431574"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628135"
 ---
 # <a name="index-function"></a>Fonction INDEX
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251620
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab9fcebc-1550-3b9e-e3b4-e8b92424390b
 description: Détermine si les formes d'une page en premier plan s'alignent sur d'autres objets de la page et sur des formes de la page d'arrière-plan.
-ms.openlocfilehash: 665130e9f9f938349028ffa1d1c06224e746de5d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c559bb97357e75508b8c1da742d970262f0ef6f9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426750"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628079"
 ---
 # <a name="inhibitsnap-cell-page-properties-section"></a>InhibitSnap, cellule (section Page Properties)
 

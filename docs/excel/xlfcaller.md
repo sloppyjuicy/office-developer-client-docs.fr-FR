@@ -8,19 +8,19 @@ f1_keywords:
 - xlfCaller
 keywords:
 - fonction xlfcaller [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de4b119c-ae2e-4207-9783-8d5692a4d052
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: fb788375504cefab75fde9513147c1d54acdaa07
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c4728136a34cc2b2cd60c6f7ec2e057d366df7c0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405729"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605595"
 ---
 # <a name="xlfcaller"></a>xlfCaller
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Retourne des informations sur la cellule, la plage de cellules, la commande d’un menu, l’outil d’une barre d’outils ou l’objet qui a appelé la commande ou la fonction DLL en cours d’exécution.
   

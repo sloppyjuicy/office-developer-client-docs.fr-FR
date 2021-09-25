@@ -3,15 +3,15 @@ title: À propos de la prise en charge InfoPath pour les technologies XML
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
 description: Microsoft InfoPath est un outil hybride qui combine le meilleur d’une expérience d’édition de documents traditionnelle, telle qu’un traitement de texte ou une application de messagerie, avec les fonctionnalités rigoureuses de capture de données d’un package de formulaires. Cet article décrit les problèmes qu'InfoPath est censé résoudre, et détaille les principes de conception et les standards XML que cette solution utilise.
-ms.openlocfilehash: 20831635fba8d76b9d6b45f42a5308ab7236db20
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6417b480308e8444d8e8c3603b0ac7ac39c7b343
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407227"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621289"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>À propos de la prise en charge InfoPath pour les technologies XML
 
@@ -39,9 +39,9 @@ Des outils d’édition aussi flexibles que structurés s’avèrent donc néces
   
 ## <a name="providing-structured-editing-by-displaying-xml-data-as-field-groups"></a>Accès à l’édition structurée grâce à l’affichage de données XML sous forme de groupes de champs
 
-Sur le plan de la conception technique, l'une des principales difficultés fut de trouver comment créer une interface simple d'utilisation permettant d'ajouter et de supprimer des éléments et attributs XML sans les afficher, tout en conservant une arborescence DOM conforme au schéma XML personnalisé défini. Une telle interface utilisateur devait donc permettre d'éditer facilement l'arborescence DOM, notamment en insérant des sous-arborescences facultatives, en remplaçant les sous-arborescences disponibles et en étendant les sous-arborescences existantes.
+Sur le plan de la conception technique, l’une des principales difficultés fut de trouver comment créer une interface simple d’utilisation permettant d’ajouter et de supprimer des éléments et attributs XML sans les afficher, tout en conservant une arborescence DOM conforme au schéma XML personnalisé défini. Une telle interface utilisateur devait donc permettre d’éditer facilement l’arborescence DOM, notamment en insérant des sous-arborescences facultatives, en remplaçant les sous-arborescences disponibles et en étendant les sous-arborescences existantes.
   
-Pour fournir une interface simple d'utilisation, une sous-arborescence DOM s'affiche sous la forme d'un groupe de champs (ou section). Un groupe de champs est un groupe de contrôles d'interface utilisateur (zones de texte, listes déroulantes, etc.) qui joue le rôle d'interface simple permettant à l'utilisateur de visualiser et d'éditer des données XML hiérarchiques. À l'instar des sous-arborescences DOM, qui peuvent contenir d'autres sous-arborescences et être facultatives ou extensibles, un groupe de champs peut contenir d'autres groupes de champs et être facultatif ou extensible. Une sous-arborescence est ajoutée à l'arborescence DOM lorsque l'utilisateur survole un groupe de champs à l'aide du pointeur de la souris, clique sur le menu déroulant qui s'affiche sur le groupe de champs, puis sélectionne **Insérer \<nom du groupe de champs\>**.
+Pour fournir une interface simple d'utilisation, une sous-arborescence DOM s'affiche sous la forme d'un groupe de champs (ou section). Un groupe de champs est un groupe de contrôles d'interface utilisateur (zones de texte, listes déroulantes, etc.) qui joue le rôle d'interface simple permettant à l'utilisateur de visualiser et d'éditer des données XML hiérarchiques. À l'instar des sous-arborescences DOM, qui peuvent contenir d'autres sous-arborescences et être facultatives ou extensibles, un groupe de champs peut contenir d'autres groupes de champs et être facultatif ou extensible. Une sous-arborescence est ajoutée à l’arborescence DOM lorsque l’utilisateur place le pointeur de la souris sur un groupe de champs, clique sur le menu déroulant qui apparaît sur le groupe de champs, puis sélectionne **Insérer. \<field group name\>**
   
 InfoPath permet d'éditer les données XML de façon structurée en utilisant le schéma XML spécifié pour encadrer et guider l'édition. Le schéma détermine notamment si les commandes **Insérer** et **Supprimer** doivent ou non s'afficher dans le menu déroulant d'un groupe de champs. Ce schéma est également utilisé pour la validation. Pour permettre l'édition d'un document XML pour lequel il n'existe pas de schéma, InfoPath peut générer un schéma à partir du document XML. 
   

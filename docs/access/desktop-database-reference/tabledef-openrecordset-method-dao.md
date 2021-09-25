@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836703(v=office.15)
 ms:contentKeyID: 48548696
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2035d4319f7821f2a0469193955c732231f30cf0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a9b6e47d0480228d8f30be9cc06c2d51e896391d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314335"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605826"
 ---
 # <a name="tabledefopenrecordset-method-dao"></a>TableDef.OpenRecordset, méthode (DAO)
 
@@ -22,7 +22,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l’ajoute à la coll
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .OpenRecordset(***Type***, ***Options***)
+*.* OpenRecordset(***Type** _, _*_Options_**)
 
 *expression* Variable représentant un objet **TableDef**.
 

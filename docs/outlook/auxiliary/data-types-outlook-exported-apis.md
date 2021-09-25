@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11833823-35fa-4bed-8dda-e5c74c320d46
 description: Cette section décrit les types de données Outlook exporte.
-ms.openlocfilehash: adca0b613adc887df7a73ea4809b61bb70cf28b3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2705de8bc5fd569ca57e4416790ecaca879ce364
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415221"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605462"
 ---
 # <a name="data-types-outlook-exported-apis"></a>Types de données (Outlook API exportées)
 

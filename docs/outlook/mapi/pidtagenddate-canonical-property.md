@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagEndDate
 api_type:
 - HeaderDef
 ms.assetid: d7ec5c79-1287-4364-b5e5-5d1d6f0ea0f1
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2688e1764b6e4e31a47aeee306987caa66c709a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 300ca55b6d26e0ba46ab268f601db7e6f9ec5120
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361060"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613498"
 ---
 # <a name="pidtagenddate-canonical-property"></a>Propriété canonique PidTagEndDate
 

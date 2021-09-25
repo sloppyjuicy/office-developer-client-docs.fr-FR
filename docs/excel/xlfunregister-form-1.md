@@ -8,19 +8,19 @@ f1_keywords:
 - xlfUnregister
 keywords:
 - fonction xlfunregister [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3f5ebc08f89651331186990d8574e3150d4f484a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d966b51c9f83d80ba74f8aca4cb870278705d711
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410083"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621303"
 ---
 # <a name="xlfunregister-form-1"></a>xlfUnregister (formulaire 1)
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **UNREGISTER** à partir d’Excel feuille macro XLM. 
   
@@ -38,7 +38,7 @@ Appelée dans le formulaire 1, cette fonction réduit le nombre d’utilisations
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxRegisterId_ (**xltypeNum**)
   

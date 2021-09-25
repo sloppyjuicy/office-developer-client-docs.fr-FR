@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIForm.Unadvise
 api_type:
 - COM
 ms.assetid: fdda45e2-631d-404c-8af4-bce68df0968b
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 770ceb7af98f5271baad65043e013feb353d231a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2321489893d8f085931d4dcb61e4688750c9a8ee
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621016"
 ---
 # <a name="imapiformunadvise"></a>IMAPIForm::Unadvise
 
@@ -33,7 +33,7 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulConnection_
   

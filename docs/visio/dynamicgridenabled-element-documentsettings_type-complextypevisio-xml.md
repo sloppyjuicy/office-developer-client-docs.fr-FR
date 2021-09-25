@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f18d797e-9885-f2fb-a521-5172aac7894c
 description: Spécifie si la fonctionnalité de grille dynamique est activée pour un document.
-ms.openlocfilehash: 9f09591ddb918fa883432be0ea89e663bdfbecb7
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: cb27acff54dcf302d2b7ebf649f6cdc022251e74
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539999"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574334"
 ---
 # <a name="dynamicgridenabled-element-documentsettings_type-complextype-visio-xml"></a>Élément DynamicGridEnabled (DocumentSettings_Type complexType) (Visio XML)
 

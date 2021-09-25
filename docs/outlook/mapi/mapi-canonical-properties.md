@@ -3,17 +3,17 @@ title: Propriétés canoniques MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 29151beb-7436-401a-8072-58d4facd8458
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2fc605c57936765f43d7a6941dcc8d40d058db2f
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: eb0d0efe3eb0b6b9ec81fd0bff9a0893c3b950c7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540475"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595895"
 ---
 # <a name="mapi-canonical-properties"></a>Propriétés canoniques MAPI
 
@@ -65,7 +65,7 @@ L’objectif d’une propriété canonique, **PidTagBusiness2TelephoneNumber** d
   
 ## <a name="mapi-support-of-canonical-property-names"></a>Prise en charge MAPI des noms de propriétés canoniques
 
-Étant donné que les propriétés canoniques ne sont pas des propriétés réelles et ne sont pas définies dans les fichiers d’en-tête MAPI, vous ne devez pas utiliser de noms de propriétés canoniques dans le code ; à la place, vous devez continuer à utiliser les noms de propriété MAPI exacts dans le code. Par exemple, vous pouvez faire référence **PR_BUSINESS2_TELEPHONE_NUMBER** et **PR_OFFICE2_TELEPHONE_NUMBER** en dehors du code en tant que  **PidTagBusiness2TelephoneNumber** et utiliser PR_BUSINESS2_TELEPHONE_NUMBER ou **PR_OFFICE2_TELEPHONE_NUMBER** dans le code. 
+Étant donné que les propriétés canoniques ne sont pas des propriétés réelles et ne sont pas définies dans les fichiers d’en-tête MAPI, vous ne devez pas utiliser de noms de propriétés canoniques dans le code ; à la place, vous devez continuer à utiliser les noms de propriété MAPI exacts dans le code. Par exemple, vous pouvez faire référence **PR_BUSINESS2_TELEPHONE_NUMBER** et **PR_OFFICE2_TELEPHONE_NUMBER** en dehors du code comme  **PidTagBusiness2TelephoneNumber** et utiliser PR_BUSINESS2_TELEPHONE_NUMBER ou **PR_OFFICE2_TELEPHONE_NUMBER** dans le code. 
   
 Si vous devez utiliser des noms de propriétés canoniques dans votre code, vous devez d’abord les définir dans vos propres fichiers d’en-tête.
   

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - debugging [infopath 2007], infopath 2003-compatible form templates,previewing InfoPath 2003-compatible form templates,form templates [InfoPath 2007], previewing 2003-compatible,form templates [InfoPath 2007], debugging 2003-compatible,debugging InfoPath 2003-compatible form templates
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c491666-06f0-42ec-967e-1c70cd5e03a0
 description: Par défaut, si vous tentez de déboguer ou d'afficher un projet avec du code managé dont le code appelle un membre de modèle objet qui nécessite une confiance totale, comme la propriété LoginName qui doit accéder aux informations sur le domaine de connexion de l'utilisateur, Microsoft InfoPath affiche les messages d'erreurs suivants.
-ms.openlocfilehash: 0780db286e2ca9cef381c2d24cb621c7c243dcb7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8fef3f0fceb1c9637cc4fbeb59bc8d716db442d2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411259"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605567"
 ---
 # <a name="preview-and-debug-form-templates-that-require-full-trust"></a>Aperçu et débogage des modèles de formulaires qui nécessitent une confiance totale
 

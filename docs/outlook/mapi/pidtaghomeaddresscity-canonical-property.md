@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagHomeAddressCity
 api_type:
 - HeaderDef
 ms.assetid: 9b94b8f6-4a40-4467-a115-4467daf782b9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 40c9b37474391c58b1089694f07ea9e99b418daa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 131ca7c72ad8cd480e8a243b59926217a0749e34
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316071"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613491"
 ---
 # <a name="pidtaghomeaddresscity-canonical-property"></a>Propriété canonique PidTagHomeAddressCity
 

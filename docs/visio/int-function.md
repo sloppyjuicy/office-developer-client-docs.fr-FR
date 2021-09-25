@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251447
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d51120f7-df80-f0bb-8af9-751d3c59f045
 description: Arrondit un nombre à l’nombre suivant.
-ms.openlocfilehash: 6acc150e5291093bc7436c1d8e915b28e4840ca3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4b46f79a27089f216a225d29108600862e5d8ac8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436949"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628086"
 ---
 # <a name="int-function"></a>Fonction INT
 

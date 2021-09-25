@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9356257-4581-44fe-8efa-172964e4c8d4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cd1b54601c55e44ad2b9e1d2cea3d3fdd9e76017
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7bcfcd43cc5c629e65059e97a53111a932b18c5a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346591"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613400"
 ---
 # <a name="pidtaginferenceenabled-canonical-property"></a>Propriété canonique PidTagInferenceEnabled
 
@@ -27,7 +27,7 @@ Propriété Store contrôlant la journalisation des inférences.
 |:-----|:-----|
 |Propriétés associées :  <br/> |PR_INFERENCES_ENABLED  <br/> |
 |Identificateur :  <br/> |0x3439000  <br/> |
-|Type de données :  <br/> |Booléen  <br/> |
+|Type de données :  <br/> |Valeur booléenne  <br/> |
 |Domaine :  <br/> |Magasin de messages  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes

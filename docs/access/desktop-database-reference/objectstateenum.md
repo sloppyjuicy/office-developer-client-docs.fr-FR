@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
 ms:contentKeyID: 48543347
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b6e346db2fb2dac0695e8c9048a210d8e40e6dc4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f0a7feb2b456252dabb14f9bf4963313bd7edd98
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288524"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615191"
 ---
 # <a name="objectstateenum"></a>ObjectStateEnum
 
@@ -58,7 +58,7 @@ Spécifie l'état d'un objet : ouvert ou fermé, en cours de connexion à une so
 </tr>
 <tr class="odd">
 <td><p><strong>adStateFetching</strong></p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>Indique que les lignes de l'objet sont en cours d'extraction.</p></td>
 </tr>
 </tbody>

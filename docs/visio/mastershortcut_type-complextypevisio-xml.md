@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0192c733-09b8-d9ce-1d88-b4d97e2e1a36
-ms.openlocfilehash: ed8dd8ef985c814e41017526144bd7ec8cb63424
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 33ea611bb24f0383d881eb1f669d5be228d0f15d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538059"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627918"
 ---
 # <a name="mastershortcut_type-complextype-visio-xml"></a>MasterShortcut_Type complexType (Visio XML)
 
@@ -83,7 +83,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Icon](icon-element-mastershortcut_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> ||
    

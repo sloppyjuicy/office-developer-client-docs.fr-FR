@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249711(v=office.15)
 ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0d4b877b680c80a10067e19065facd4ce9e4819d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 51296cf120666a855f5a7db94b922670a27c5a69
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32305971"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572486"
 ---
 # <a name="working-with-recordsets"></a>Utilisation de recordsets
 
@@ -54,7 +54,7 @@ La méthode **Find** recherche, dans un objet **Recordset**, une ligne répondan
 
 Seul un nom de colonne unique peut être spécifié comme critère. En effet, cette méthode ne prend pas en charge les recherches sur plusieurs colonnes.
 
-L’opérateur de comparaison pour le critère peut être « ( supérieur à **\>** ), » (inférieur à), « = » (égal à), « = » (supérieur ou égal), « = » (inférieur ou égal à), « (inférieur ou égal **\<** \> à), » (non égal) ou « LIKE » \< \< \> (correspondance de modèle).
+L’opérateur de comparaison pour le critère peut être **\>** « (supérieur à), « ** = » (supérieur ou égal \<**" (less than), "=" (equal), "\> à), « ( n’est pas égal) » ou « LIKE » (correspondance de \<=" (less than or equal), "\<\> modèle).
 
 La valeur du critère doit être une chaîne, un nombre à virgule flottante ou une date. Les valeurs de chaîne sont délimitées par des guillemets simples ou des signes « (di diété) ( par exemple, « \# state = 'WA' » ou « state = WA \# \# »). Les valeurs de date sont délimitées par des signes « (di diété) » (par exemple, « date de début \# \_ \> \# 22/07/97 \# »).
 
@@ -91,9 +91,9 @@ La chaîne de critères est composé de clauses au formulaire *FieldName Operato
 
 - *NomChamp* doit être un nom de champ valide du **Recordset**. Si le nom de champ contient des espaces, vous devez le mettre entre crochets.
 
-- *L’opérateur* doit être l’un des suivants : \< , , , \> \< =, \> =, , \< \> =, =, ou LIKE.
+- *L’opérateur* doit être l’un des suivants \<, \> : , \<=, \> =, , \<\> =, ou LIKE.
 
-- *La* valeur est la valeur à laquelle vous comparerez les valeurs de champ (par exemple, « Smith » \# 8/24/95, \# 12,345 ou 50,00 $). Utilisez des guillemets simples (') avec des chaînes et des signes pointant \# () avec des dates. Pour les nombres, vous pouvez utiliser les points décimaux, le signe dollar et les notations scientifiques. Si la valeur du champ *Opérateur* est LIKE, celle du champ *Valeur* peut utiliser des caractères génériques. Uniquement l’astérisque ( \* ) et le signe pourcentage (%) les caractères génériques sont autorisés et doivent être le dernier caractère de la chaîne. La *valeur* doit être différente de Null.
+- *La* valeur est la valeur à laquelle vous comparerez les valeurs de champ (par exemple, « Smith » \# 8/24/95, \# 12,345 ou 50,00 $). Utilisez des guillemets simples (') avec des chaînes et des signes pointant \# () avec des dates. Pour les nombres, vous pouvez utiliser les points décimaux, le signe dollar et les notations scientifiques. Si la valeur du champ *Opérateur* est LIKE, celle du champ *Valeur* peut utiliser des caractères génériques. Seuls les caractères génériques astérisque ( ) et pourcentage (%) sont autorisés et doivent être le dernier caractère \* de la chaîne. La *valeur* doit être différente de Null.
     
   > [!NOTE]
   > Pour inclure des guillemets simples (’) dans le filtre *Valeur*, utilisez deux guillemets simples pour en afficher un seul. Par exemple, pour filtrer *sur O’Malley*, la chaîne de critères doit être « col1 = 'O''Malley' ». 

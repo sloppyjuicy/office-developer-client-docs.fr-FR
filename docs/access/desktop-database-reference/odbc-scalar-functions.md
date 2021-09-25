@@ -10,13 +10,13 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 33443fda474b3785d34d457719e49f5e358bb254
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b369a3377ba9f76078ed0295e504a9380e77b02c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288510"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585598"
 ---
 # <a name="odbc-scalar-functions"></a>Fonctions scalaires ODBC
 
@@ -56,7 +56,7 @@ Pour une description des arguments et une explication complète de la syntaxe d'
 </tr>
 <tr class="even">
 <td><p>LCASE</p></td>
-<td><p>Oui</p></td>
+<td><p>OUI</p></td>
 <td><p>UCASE</p></td>
 </tr>
 <tr class="odd">

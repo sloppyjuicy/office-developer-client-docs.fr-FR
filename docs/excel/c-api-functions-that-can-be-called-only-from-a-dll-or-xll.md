@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - functions [excel 2007], c api called from dll or xll
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87c9e75b-c364-4428-a169-010886313b85
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e6d2d3c824c482e3726cdaefa869393002a80f44
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8c53a2f68dab76bc68ea756f25d87e351b8700f1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423117"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605651"
 ---
 # <a name="c-api-functions-that-can-be-called-only-from-a-dll-or-xll"></a>Fonctions d’API C qui peuvent être appelées uniquement à partir d’une DLL ou d’une XLL
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-L’API C fournit 15 fonctions de rappel Microsoft Excel qui peuvent uniquement être appelées à l’aide des fonctions **Excel4,** **Excel4v,** **Excel12** ou **Excel12v** (ou par l’une de ces fonctions indirectement à l’aide des fonctions Framework **Excel** ou **Excel12f**). Cela signifie qu’ils ne peuvent être appelés qu’à partir d’une DLL ou d’une XLL.
+L’API C fournit 15 fonctions de rappel Microsoft Excel qui peuvent uniquement être appelées à l’aide des fonctions **Excel4,** **Excel4v,** **Excel12** ou **Excel12v** (ou par l’une de ces fonctions indirectement à l’aide des fonctions Framework **Excel** ou **Excel12f).** Cela signifie qu’ils ne peuvent être appelés qu’à partir d’une DLL ou d’une XLL.
   
 ## <a name="in-this-section"></a>Dans cette section
 

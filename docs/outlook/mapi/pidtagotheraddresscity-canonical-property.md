@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOtherAddressCity
 api_type:
 - COM
 ms.assetid: 480ec0dc-6c04-4284-99da-aa4b26f5d7d0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 119ebd38ecbb3b89ec8dd4e35ea549afa974a100
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 14b91e40487acc93a627630ecbebdcd97738142c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335503"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560759"
 ---
 # <a name="pidtagotheraddresscity-canonical-property"></a>Propriété canonique PidTagOtherAddressCity
 

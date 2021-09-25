@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPropData.HrSetPropAccess
 api_type:
 - COM
 ms.assetid: 02365050-5e8b-437c-925f-4eb0df646356
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 9e443302e49bad4a586b657a6de298dafbeefab4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 13e90fdd80c6a41963dd0f3081739038b190abe5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437853"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596021"
 ---
 # <a name="ipropdatahrsetpropaccess"></a>IPropData::HrSetPropAccess
 
@@ -34,7 +34,7 @@ HRESULT HrSetPropAccess(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpPropTagArray_
   

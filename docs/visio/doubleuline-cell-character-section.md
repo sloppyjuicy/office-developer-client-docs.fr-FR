@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm260
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: Détermine si la plage de texte est soulignée ou non d'une ligne double.
-ms.openlocfilehash: 2708e7f55e1fd04d5fb902b3d382035790cbbcc2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: df544c67163e1c0894763ca227c5063133dc822f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438840"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628422"
 ---
 # <a name="doubleuline-cell-character-section"></a>DoubleULine, cellule (section Character)
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 394e1430-04d6-4d61-be13-eb695309fa73
 description: Cette rubrique décrit la structure du BLOB POP3 qui représente l’historique de téléchargement des messages d’un compte POP3, pour identifier les messages qui ont été téléchargés ou supprimés sur ce compte.
-ms.openlocfilehash: 44a799f6b6fbe2a2841522c18405149a470b0236
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d9257c050fa7bd65922aa766b509b7cf0aa60615
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327760"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561865"
 ---
 # <a name="parsing-the-message-download-history-for-a-pop3-account"></a>Analyse de l’historique de téléchargement de message pour un compte POP3
 

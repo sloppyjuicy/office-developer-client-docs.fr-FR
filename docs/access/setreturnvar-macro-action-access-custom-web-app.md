@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 57965c84-7a52-4d7c-9c7f-be3d4570576d
 description: L’action SetReturnVar crée une variable de retour et la définit sur une valeur spécifique.
-ms.openlocfilehash: 29445f5021bed99fe45cee1d34457f1f91ca417d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0560ec9b1d4adbe215e5c187bcc1135c605b3ee9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409593"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614744"
 ---
 # <a name="setreturnvar-macro-action-access-custom-web-app"></a>SetReturnVar Macro action (Access custom web app)
 

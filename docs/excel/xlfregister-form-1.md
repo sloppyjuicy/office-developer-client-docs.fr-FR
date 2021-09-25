@@ -8,19 +8,19 @@ f1_keywords:
 - xlfRegister
 keywords:
 - fonction xlfregister [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3cd2e5072c8602fe301028e69592220a8345c211
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 167e7be32a7904376e0e40a82965c21d3866e93d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303863"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605554"
 ---
 # <a name="xlfregister-form-1"></a>xlfRegister (formulaire 1)
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **REGISTER** à partir d’Excel feuille macro XLM. 
   
@@ -30,7 +30,7 @@ Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été
     
 - [xlfRegister (formulaire 2)](xlfregister-form-2.md): charge et active une XLL.
     
-Appelée dans le formulaire 1, cette fonction met une fonction ou une commande DLL à la disposition de Excel, définit son nombre d’utilisations sur 1 et renvoie son ID d’inscription, qui peut être utilisé pour appeler la fonction ultérieurement à l’aide de la fonction [xlUDF](xludf.md) ou **xlfCall.** L’ID d’inscription est également utilisé pour désinsister la fonction à l’aide [de xlfUnregister (formulaire 1).](xlfunregister-form-1.md) Si la fonction a été inscrite, l’appel **de xlfRegister** à nouveau incrémente son nombre d’utilisations. 
+Appelée dans le formulaire 1, cette fonction rend une fonction ou une commande DLL disponible pour Excel, définit son nombre d’utilisations sur 1 et renvoie son ID d’inscription, qui peut être utilisé pour appeler la fonction ultérieurement à l’aide de la fonction [xlUDF](xludf.md) ou **xlfCall.** L’ID d’inscription est également utilisé pour désinsister la fonction à l’aide [de xlfUnregister (formulaire 1).](xlfunregister-form-1.md) Si la fonction a été inscrite, l’appel **de xlfRegister** à nouveau incrémente son nombre d’utilisations. 
   
 Cette forme de la fonction définit également un nom masqué qui est l’argument de texte de la fonction,  _pxFunctionText_, et qui évalue l’ID d’inscription de la fonction ou de la commande. Lorsque vous désinssez la fonction, supprimez ce nom à l’aide [de xlfSetName](xlfsetname.md). Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
@@ -45,7 +45,7 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, int iCount,
         ...);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxModuleText_ (**xltypeStr**)
   
@@ -81,7 +81,7 @@ Argument facultatif qui indique le type de point d’entrée XLL. La valeur par 
 | _Valeur pxMacroType_ <br/> |0  <br/> |1  <br/> |2  <br/> |
 |Peut être appelé à partir d’une feuille de calcul  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Peut être appelé à partir d’une feuille macro  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
-|Peut être appelée à partir d’une définition de nom définie  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
+|Peut être appelée à partir d’une définition de nom défini  <br/> |Oui  <br/> |Oui  <br/> |Oui  <br/> |
 |Peut être appelée à partir d’une expression de mise en forme conditionnelle  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Répertorié dans l’Assistant Fonction pour les fonctions de feuille de calcul  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |
 |Répertorié dans l’Assistant Fonction pour les fonctions de feuille macro  <br/> |Non  <br/> |Oui  <br/> |Oui  <br/> |
@@ -109,7 +109,7 @@ Chaîne facultative qui décrit votre fonction personnalisée lorsqu’elle est 
   
 _pxArgumentHelp1_ (**xltypeStr**)
   
-Facultatif. La première des chaînes qui décrivent les arguments personnalisés de la fonction lorsque la fonction est sélectionnée dans l’Assistant Fonction. Dans Excel 2003 et les années antérieures, **xlfRegister** peut prendre, au maximum, 30 arguments afin que vous pouvez fournir cette aide pour les 20 premiers arguments de votre fonction uniquement. À compter Excel 2007, **xlfRegister** peut prendre jusqu’à 255 arguments afin que vous pouvez fournir cette aide pour jusqu’à 245 paramètres de fonction. 
+Facultatif. Première des chaînes qui décrivent les arguments personnalisés de la fonction lorsque la fonction est sélectionnée dans l’Assistant Fonction. Dans Excel 2003 et les années antérieures, **xlfRegister** peut prendre, au maximum, 30 arguments afin que vous pouvez fournir cette aide pour les 20 premiers arguments de votre fonction uniquement. À compter Excel 2007, **xlfRegister** peut prendre jusqu’à 255 arguments afin que vous pouvez fournir cette aide pour jusqu’à 245 paramètres de fonction. 
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
@@ -208,7 +208,7 @@ Le **%O%** est pris en charge Excel 2007 et prend en charge le plus grand nombre
 
 Lorsque les arguments de fonction DLL sont enregistrés comme prenant le type **P** XLOPERs ou **Q** XLOPER12, Excel convertit les références à cellule unique en valeurs simples et les références à plusieurs cellules en tableaux lors de la préparation de ces arguments. En d’autres termes, les types **P** et **Q** arrivent toujours dans votre fonction en tant que l’un de ces types : **xltypeNum**, **xltypeStr**, **xltypeBool**, **xltypeErr**, **xltypeMulti**, **xltypeMissing** ou **xltypeNil**, mais pas **xltypeRef** ou **xltypeSRef,** car ceux-ci sont toujours déférences. Les arguments **XLOPER12** et, par conséquent, les arguments **Q** de type sont uniquement pris en charge à partir Excel 2007. 
   
-Si les types **xltypeMissing** ou **xltypeNil** sont utilisés pour les valeurs de retour, ils sont interprétés par Excel comme zéro numérique. **xltypeMissing est** transmis lorsque l’appelant omette un argument. **XltypeNil est** transmis lorsque l’appelant transmet une référence à une cellule vide. Lorsqu’une plage de cellules est convertie en **xltypeMulti** à passer en tant que type **P** ou **Q,** toutes les cellules vides de la plage sont converties en éléments de tableau **xltypeNil.** Les éléments manquants dans un tableau littéral sont passés de la même manière que les **éléments xltypeNil.** 
+Si les types **xltypeMissing** ou **xltypeNil** sont utilisés pour les valeurs de retour, ils sont interprétés par Excel comme zéro numérique. **xltypeMissing** est transmis lorsque l’appelant omet un argument. **XltypeNil est** transmis lorsque l’appelant transmet une référence à une cellule vide. Lorsqu’une plage de cellules est convertie en **xltypeMulti** à passer en tant que type **P** ou **Q,** toutes les cellules vides de la plage sont converties en éléments de tableau **xltypeNil.** Les éléments manquants dans un tableau littéral sont passés de la même manière que les **éléments xltypeNil.** 
   
 ### <a name="volatile-functions-and-recalculation"></a>Fonctions volatiles et recalcul
 
@@ -227,11 +227,11 @@ Vous pouvez utiliser un chiffre  _unique n_ pour le code de type de retour dans 
   
 Par exemple, une fonction DLL qui prend une chaîne terminée par null et deux pointeurs vers des integers en tant qu’arguments peut modifier la chaîne en place. Utilisez « 1FMM » comme argument  _pxTypeText_ et déclarez la fonction comme nulle. 
   
-Les versions précédentes de Excel utilisées au début de **\>** _pxTypeText_ pour signifier que la fonction a été déclarée comme nulle et que le premier argument devait être modifié sur place, il n’y avait aucun moyen de modifier un autre argument que le premier. L’équivalent de n = 1 dans les versions Excel actuelles et cette utilisation dans les fonctions synchrones est uniquement prise en charge pour la compatibilité **\>**  **\>** ascendante. 
+Les versions précédentes de Excel utilisées au début de **\>** _pxTypeText_ pour signifier que la fonction a été déclarée comme nulle et que le premier argument devait être modifié sur place, il n’y avait aucun moyen de modifier un autre argument que le premier. L’équivalent de n = 1 dans les versions Excel actuelles et cette utilisation dans les fonctions synchrones est uniquement prise en charge pour la **\>** compatibilité  **\>** ascendante. 
   
 #### <a name="asynchronous-functions"></a>Fonctions asynchrones
 
-Une fonction asynchrone, notée à l’aide d’un paramètre de type X dans **pxTypeText**, ne retourne pas son résultat à partir de l’appel de fonction initial. Au lieu de cela, vous devez déclarer une fonction asynchrone comme nulle, puis le add-in renvoie le résultat par le biais d’un rappel. La fonction asynchrone doit être enregistrée à l’aide du **\>** début **de pxTypeText**. Dans les fonctions asynchrones, indique que la fonction est déclarée comme nulle, mais n’indique pas que le **\>** premier argument est modifié sur place. Pour plus d’informations sur les fonctions asynchrones, voir [Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md). 
+Une fonction asynchrone, notée à l’aide d’un paramètre de type X dans **pxTypeText**, ne retourne pas son résultat à partir de l’appel de fonction initial. Au lieu de cela, vous devez déclarer une fonction asynchrone comme nulle, puis le add-in renvoie le résultat par le biais d’un rappel. La fonction asynchrone doit être enregistrée à l’aide du **\>** début **de pxTypeText**. Dans les fonctions asynchrones, indique que la fonction est déclarée comme nulle, mais n’indique pas que le **\>** premier argument est modifié en place. Pour plus d’informations sur les fonctions asynchrones, voir [Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md). 
 
 ### <a name="registering-worksheet-functions-as-macro-sheet-equivalents-handling-uncalculated-cells"></a>Inscription de fonctions de feuille de calcul en tant qu’équivalents de feuille macro (gestion des cellules non calculées)
 
@@ -254,9 +254,9 @@ Si vous avez inscrit une fonction comme thread-safe, vous devez vous assurer qu�
   
 ### <a name="registering-worksheet-functions-as-cluster-safe"></a>Inscription des fonctions de feuille de calcul en tant que cluster-safe
 
-À compter Excel 2010, Excel pouvez décharger les appels de fonction vers un fournisseur de cluster de calcul désigné. Pour plus d’informations, [voir Fonctions sécurisées de cluster.](cluster-safe-functions.md) Toutes les fonctions de feuille de calcul XLL inscrites en tant que cluster-safe prennent part au déchargement si un cluster est disponible. Les fonctions sécurisées pour le cluster sont enregistrées en incluant le caractère après le dernier code de paramètre **&amp;** dans _l’argument pxTypeText._ 
+À compter Excel 2010, Excel pouvez décharger les appels de fonction vers un fournisseur de cluster de calcul désigné. Pour plus d’informations, [voir Cluster Coffre Functions](cluster-safe-functions.md). Toutes les fonctions de feuille de calcul XLL inscrites en tant que cluster-safe prennent part au déchargement si un cluster est disponible. Les fonctions sécurisées pour le cluster sont enregistrées en incluant le caractère après le dernier code de paramètre **&amp;** dans _l’argument pxTypeText._ 
   
-Si vous avez inscrit une fonction en tant que cluster-safe, vous devez vous assurer qu’elle se comporte de manière sécurisée pour le cluster. Pour plus d’informations, [voir Fonctions sécurisées de cluster.](cluster-safe-functions.md)
+Si vous avez inscrit une fonction en tant que cluster-safe, vous devez vous assurer qu’elle se comporte de manière sécurisée pour le cluster. Pour plus d’informations, [voir Cluster Coffre Functions](cluster-safe-functions.md).
   
 > [!NOTE]
 > Seules les fonctions de feuille de calcul peuvent être déclarées comme cluster-safe. Excel ne considère pas qu’une fonction équivalente à une feuille macro soit sécurisée en cluster, de sorte que vous ne pouvez pas l’appender à la fois et des caractères à **#** **&amp;** l’argument _pxTypeText._ Les fonctions de feuille de calcul peuvent être déclarées à la fois comme cluster-safe et thread-safe. Dans ce cas, Excel permet à ces fonctions de prendre part au recalcul multithread lorsque le déchargement de cluster est désactivé. 
@@ -281,11 +281,11 @@ Le tableau suivant répertorie les catégories  standard qui sont visibles lorsq
 |2  <br/> |Heure de &amp; la date  <br/> |
 |3  <br/> |Math &amp; Trig  <br/> |
 |4   <br/> |Texte  <br/> |
-|5   <br/> |Logique  <br/> |
-|6   <br/> |Lookup &amp; Reference  <br/> |
-|7   <br/> |Database  <br/> |
-|8   <br/> |Statistiques  <br/> |
-|9   <br/> |Informations  <br/> |
+|5  <br/> |Logique  <br/> |
+|6   <br/> |Lookup &amp; Reference  <br/> |
+|7   <br/> |Database  <br/> |
+|8   <br/> |Statistiques  <br/> |
+|9   <br/> |Informations  <br/> |
 |14   <br/> |Personnalisées  <br/> |
 ||Ingénierie (depuis Excel 2007)  <br/> |
 ||Cube (à compter de Excel 2007)  <br/> |
@@ -296,7 +296,7 @@ En outre, ces catégories sont également  visibles lorsque vous affichez la bo�
 |:-----|:-----|
 |10  <br/> |Commandes  <br/> |
 |11  <br/> |DDE/Externe  <br/> |
-|12   <br/> |Personnalisation  <br/> |
+|12   <br/> |Personnalisation  <br/> |
 |13  <br/> |Contrôle de macros  <br/> |
    
 ### <a name="example"></a>Exemple

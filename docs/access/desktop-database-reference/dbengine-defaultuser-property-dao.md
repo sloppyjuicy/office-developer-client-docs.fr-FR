@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053071
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: c29f9663ce3591fe5b1633239e8ec0d8866ee16a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4b6a8a8f65b450d38a820bd00468cbde38facbd6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294344"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585815"
 ---
 # <a name="dbenginedefaultuser-property-dao"></a>DBEngine.DefaultUser, propriété (DAO)
 
@@ -33,7 +33,7 @@ Définit le nom d'utilisateur servant à créer l'objet **Workspace** par défau
 
 ## <a name="remarks"></a>Remarques
 
-Le paramètre **defaultUser est** un type de données String. Elle peut comporter de 1 à 20 caractères dans les espaces de travail Microsoft Access et peut inclure des caractères alphabétiques, des caractères accentués, des nombres, des espaces et des symboles à l’exception de : " (guillemets), / (barre oblique \\ inverse), \[ \] (barres obliques inverses), (crochets), : (deux-points), | (pipe), \< (signe inférieur à), (signe supérieur \> à), + (signe plus), = (signe égal), ; (point-virgule), , ( virgule), ? (point d’interrogation), (astérisque), espaces de tête et caractères de contrôle \* (ASCII 00 à ASCII 31).
+Le paramètre **defaultUser est** un type de données String. Elle peut comporter de 1 à 20 caractères dans les espaces de travail Microsoft Access et peut inclure des caractères alphabétiques, des caractères accentués, des nombres, des espaces et des symboles à l’exception de : " (guillemets), / (barre oblique \\ inverse), \[ \] (barres obliques inverses), (crochets), : (deux-points), | (pipe), \< (less-than sign), \> (signe supérieur à), + (signe plus), = (signe égal), ; (point-virgule), , ( virgule), ? (point d’interrogation), (astérisque), espaces de tête et caractères de contrôle \* (ASCII 00 à ASCII 31).
 
 
 > [!NOTE]

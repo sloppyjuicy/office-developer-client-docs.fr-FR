@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623455(v=office.15)
 ms:contentKeyID: 55119932
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4fd2df68ef866008799a7206e7ae041e5bfd82a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 3bfde46f51867f28f21de0807a25af249b56a3f7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349524"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560654"
 ---
 # <a name="create-a-recurring-task"></a>Création d’une tâche périodique
 

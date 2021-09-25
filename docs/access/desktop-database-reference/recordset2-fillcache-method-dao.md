@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052942
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 2098df82375ac47b7d5abe0bd63b0af2bb29ba40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ff230c461290751c436bda5ed6c5e32db01eeee4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309701"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606001"
 ---
 # <a name="recordset2fillcache-method-dao"></a>Recordset2.FillCache, méthode (DAO)
 
@@ -26,11 +26,11 @@ Remplit tout ou partie d'un cache local pour un objet **Recordset** contenant le
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* FillCache(***Rows***, ***StartBookmark***)
+*.* FillCache(***Rows** _, _*_StartBookmark_**)
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

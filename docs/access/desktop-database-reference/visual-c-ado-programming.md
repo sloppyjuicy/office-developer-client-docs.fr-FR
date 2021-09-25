@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248878(v=office.15)
 ms:contentKeyID: 48543319
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2a890b4906fb9f207f12ff17ef0d3ccf1a97a44d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 424a5548f79f42a8d0993c96a946c4636ae093b1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302771"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572549"
 ---
 # <a name="visual-c-ado-programming"></a>Programmation ADO Visual C++
 
@@ -32,7 +32,7 @@ La directive **\# d’importation** du compilateur Visual C++ simplifie l’trav
 
 Pour chaque opération qui se produit à l'intérieur d'une classe (c'est-à-dire, un appel de méthode ou de propriété), il existe une déclaration permettant d'appeler directement l'opération (c'est-à-dire, la forme « brute » de l'opération), et une déclaration qui appelle l'opération brute et lève une exception COM si l'opération ne s'exécute pas correctement. Si l'opération est une propriété, il existe généralement une directive de compilateur qui crée une autre syntaxe si l'opération présente une syntaxe apparentée à Visual Basic.
 
-Les opérations qui récupèrent la valeur d’une propriété ont des noms de formulaire, **Get***Property*. Les opérations qui définissent la valeur d’une propriété ont des noms de forme, **Put***Property*. Les opérations qui définissent la valeur d’une propriété avec un pointeur vers un objet ADO ont des noms de formulaire, **PutRef***, propriété*.
+Les opérations qui extraient la valeur d'une propriété ont un nom qui se présente sous la forme **Get**_Property_. Les opérations qui définissent la valeur d'une propriété ont un nom du type  **Put**_Property_. Quant aux opérations qui définissent la valeur d'une propriété avec un pointeur vers un objet ADO, leur nom se présente sous la forme **PutRef**_Property_.
 
 Vous pouvez obtenir ou définir une propriété avec des appels se présentant comme suit :
 
@@ -61,17 +61,17 @@ objectPtr->PutProperty(value); // set property value
 variable = objectPtr->GetProperty; // get property value 
 ```
 
-Le compilateur génère l’appel de propriété **Get***-*, **Put**-, or **PutRef***Property* approprié en fonction de la syntaxe alternative déclarée et selon que la propriété est en cours de lecture ou d’écriture.
+Le compilateur génère l’appel de propriété **Get,** Put -, ou PutRef approprié en fonction de la syntaxe alternative déclarée et selon que la propriété est en cours de lecture _-_ ou  d’écriture. 
 
-La directive de  **\_ \_ compilateur declspec(property...)** peut uniquement déclarer **obtenir,** placer ou **obtenir** et placer une syntaxe alternative pour une fonction.  Les opérations en lecture seule ne peuvent avoir qu'une déclaration **get** et les opérations en écriture seule une déclaration **put**; les opérations en lecture et en écriture ont à la fois des déclarations **get** et **put**.
+La directive de  **\_ \_ compilateur declspec(property...)** peut uniquement déclarer **obtenir,** placer ou **obtenir** et placer une syntaxe alternative pour une fonction.  Les opérations en lecture seule ne peuvent avoir qu'une déclaration **get** et les opérations en écriture seule une déclaration **put** ; les opérations en lecture et en écriture ont à la fois des déclarations **get** et **put**.
 
-Seules deux déclarations sont possibles avec cette directive ; toutefois, chaque propriété peut avoir trois fonctions de propriété : **Get***Property*, **Put***Property* et **PutRef**Property*. Dans ce cas, deux formes seulement de la propriété possèdent une syntaxe alternative.
+Seules deux déclarations sont possibles avec cette directive ; en revanche, chaque propriété peut intégrer trois fonctions de propriété : **Get**_Property_, **Put**_Property_ et **PutRef**_Property_. Dans ce cas, deux formes seulement de la propriété possèdent une syntaxe alternative.
 
-Par exemple, la propriété **ActiveConnection de** l’objet **Command** est déclarée avec une syntaxe alternative pour **Get***ActiveConnection* et **PutRef***ActiveConnection*. La syntaxe **PutRef**- s'avère un bon choix car, dans la pratique, il est courant de spécifier un objet **Connection** ouvert (c'est-à-dire, un pointeur d'objet **Connection**) dans cette propriété. En revanche, l’objet **Recordset** a **des** opérations Get -, **Put**-, et **PutRef***ActiveConnection,* mais aucune syntaxe alternative.
+Par exemple, la propriété **ActiveConnection** de l'objet **Command** est déclarée avec une syntaxe alternative pour **Get**_ActiveConnection_ et **PutRef**_ActiveConnection_. La syntaxe **PutRef**- s'avère un bon choix car, dans la pratique, il est courant de spécifier un objet **Connection** ouvert (c'est-à-dire, un pointeur d'objet **Connection**) dans cette propriété. En revanche, l'objet **Recordset** possède les opérations **Get**-, **Put**- et **PutRef**_ActiveConnection_, mais pas de syntaxe alternative.
 
 ## <a name="collections-the-getitem-method-and-the-item-property"></a>Collections, méthode GetItem et propriété Item
 
-ADO définit plusieurs collections, notamment **Fields**, **Parameters**, **Properties** et **Errors**. En Visual C++, la **méthode GetItem(***index***)** renvoie un membre de la collection. *Index* est une valeur de type **Variant**, qui représente soit un index numérique du membre de la collection, soit une chaîne contenant le nom du membre.
+ADO définit plusieurs collections, notamment **Fields**, **Parameters**, **Properties** et **Errors**. En Visual C++, la **méthode GetItem(**_index_*_)_* renvoie un membre de la collection. *Index* est une valeur de type **Variant**, qui représente soit un index numérique du membre de la collection, soit une chaîne contenant le nom du membre.
 
 La directive du compilateur **\_ \_ declspec(property...)** déclare la propriété **Item** en tant que syntaxe alternative à la méthode **GetItem()** fondamentale de chaque collection. La syntaxe alternative utilise des crochets droits et présente des similitudes avec une référence de matrice. En règle générale, les deux formes se présentent comme suit:
 
@@ -80,7 +80,7 @@ La directive du compilateur **\_ \_ declspec(property...)** déclare la proprié
     collectionPtr->Item[index]; 
 ```
 
-Par exemple, attribuez une valeur à un champ d'un objet **Recordset**, nommé ***rs***, dérivé de la table **authors** de la base de données **pubs**. Utilisez la **propriété Item()**  pour accéder au troisième champ de la collection **Fields** de l’objet **Recordset** (les collections sont indexées à partir de zéro ; supposons que le troisième champ est nommé ***au \_ fname***). Appelez ensuite la méthode **Value()** sur l'objet **Field** pour attribuer une valeur de chaîne.
+Par exemple, affectez une valeur à un champ d’un objet **Recordset,** nommé **_rs_*_,*** dérivé de la table _ authors de la base de données **pubs.** Utilisez la **propriété Item()**  pour accéder au troisième champ de la collection **Fields** de l’objet **Recordset** (les collections sont indexées à partir de zéro ; supposons que le troisième champ est nommé **_au \_ fname_*_). Appelez ensuite la méthode _* Value()** sur **l’objet Field** pour affecter une valeur de chaîne.
 
 Ceci peut être exprimé en Visual Basic avec les quatre variantes suivantes (les deux dernières sont propres à Visual Basic ; les autres langages n'ont pas d'équivalents) :
 
@@ -281,7 +281,7 @@ Une variable peut être utilisée de deux manières, car l’opérateur « - » 
 
 ### <a name="coding-a-missing-parameter"></a>Codage d’un paramètre manquant
 
-#### <a name="string"></a>String
+#### <a name="string"></a>Chaîne
 
 Lorsque vous devez coder un opérande **String** manquant en Visual Basic, il vous suffit de l'omettre. En Visual C++, vous devez spécifier l'opérande. Codez **\_ un bstr \_ t** qui a une chaîne vide en tant que valeur.
 
@@ -462,7 +462,7 @@ En langage Visual Basic, le fait que le nom d'une propriété soit récupéré, 
     End Sub
 ```
 
-Cet exemple Visual C++ illustre **la propriété Get** / **Put** /* *PutRef***.*
+Cet exemple Visual C++ illustre **la propriété Get** / **Put** / **PutRef**.
 
 > [!NOTE]
 > [!REMARQUE] Les remarques suivantes correspondent aux sections commentées dans l'exemple de code.

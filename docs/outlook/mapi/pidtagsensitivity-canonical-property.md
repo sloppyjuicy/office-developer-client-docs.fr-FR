@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSensitivity
 api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: eab8ce71d28a672d7069a1c16da5cd2cc2e149f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7b1de5f524a62c1684c8554a537827b80cabb205
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342503"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613337"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>Propriété canonique PidTagSensitivity
 

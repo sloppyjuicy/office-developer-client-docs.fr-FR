@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d943560f-66d8-47c3-96d9-202c2548874f
 description: Rejette les modifications apportées à l’enregistrement actuel.
-ms.openlocfilehash: d3d666efdc6b63d2e01c23f9468f469082febd06
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b48cbf8204a123b8bb9c2d9a9e5c3b8d4b919201
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435690"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605693"
 ---
 # <a name="undorecord-macro-action-access-custom-web-app"></a>AnnulerEnregistrement, action de macro (application web personnalisée Access)
 

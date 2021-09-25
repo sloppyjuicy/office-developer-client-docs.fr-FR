@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FPropCompareProp
 api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7726811467324242037ec11a69ae0b1b123d7f21
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5357bd8a2adc470322b772ceabbeaef8596290f5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427156"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621044"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
@@ -39,7 +39,7 @@ BOOL FPropCompareProp(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _lpSPropValue1_
   

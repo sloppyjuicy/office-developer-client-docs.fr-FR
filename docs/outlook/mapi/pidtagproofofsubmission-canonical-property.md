@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagProofOfSubmission
 api_type:
 - COM
 ms.assetid: 30511e6e-aba2-4f47-bdc7-1256b23382c5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f44f453a24b647e66ae49202fa1910dfdff10cda
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 37d2b3eec8f79636d29deb158d4cfc237627c891
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425329"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560710"
 ---
 # <a name="pidtagproofofsubmission-canonical-property"></a>Propriété canonique PidTagProofOfSubmission
 

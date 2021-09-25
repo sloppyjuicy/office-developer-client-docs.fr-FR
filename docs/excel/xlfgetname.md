@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: reference
 keywords:
 - xlfgetname
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65780435-aaa2-47af-b44f-07be7aa769ee
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: fdee0146ae2199097828e98abb96ffe43a64fc80
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 63c883c480f9db4f0680f368fcbbe1f201bfd0b0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436628"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621324"
 ---
 # <a name="xlfgetname"></a>xlfGetName
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Renvoie la définition d’un nom tel qu’il  apparaît dans la colonne **Références**  de la boîte de dialogue Gestionnaire de noms, qui s’affiche lorsque vous cliquez sur Gestionnaire de noms dans la **section** Noms définis sous l’onglet **Formules.** Si la définition contient des références, elles sont données en tant que références de style R1C1. Utilisez **xlfGetName pour vérifier** la valeur définie par un nom. Pour obtenir le nom qui correspond à une définition, utilisez [xlfGetDef](xlfgetdef.md).
   
@@ -26,7 +26,7 @@ Renvoie la définition d’un nom tel qu’il  apparaît dans la colonne **Réf�
 Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInfoType);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxNameText_ (**xltypeStr**)
   

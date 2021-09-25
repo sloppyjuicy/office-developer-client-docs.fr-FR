@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248902(v=office.15)
 ms:contentKeyID: 48543355
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: afea442aa535660b5bb618297640db8fbd546dec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 1390d169af300a382a1cfe7705bc30e0f0a6da6c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293895"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585752"
 ---
 # <a name="dimension-object-ado-md"></a>Dimension, objet (ADO MD)
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb611267(v=office.15)
 ms:contentKeyID: 55119891
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 6bda9cc663af1d1b9167ec78da286fe1c1991d40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 70901903e2c2a24add9b1e43c4e4ae94ce33b043
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320264"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560549"
 ---
 # <a name="filter-recurring-appointments-and-search-for-a-string-in-the-subject"></a>Filtrage des rendez-vous périodiques et recherche d’une chaîne dans l’objet
 

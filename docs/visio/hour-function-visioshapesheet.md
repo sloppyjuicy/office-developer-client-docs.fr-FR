@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251437
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a21d6f9-bad6-92ab-6d36-477bcb9d7f17
 description: Renvoie un nombre integer, de 0 à 23, qui représente l’heure du jour du date/heure ou de l’expression.
-ms.openlocfilehash: 1d0c6ec2bd80605401f44d2a5ef6e3d41bc72556
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 152dc3bc995ebfdcfe3f419f51d761f9ff054f7e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429634"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628198"
 ---
 # <a name="hour-function-visioshapesheet"></a>HOUR Function (VisioShapeSheet)
 

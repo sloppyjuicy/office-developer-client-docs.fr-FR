@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052986
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 7e22645127f18ad815c398fd38f9ac4615dfadc9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c55d0770001c4232327d55cd81d1bd40a435b73d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294189"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585773"
 ---
 # <a name="dbengineversion-property-dao"></a>DBEngine.Version, propriété (DAO)
 

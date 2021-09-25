@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIMessageSite.GetSiteStatus
 api_type:
 - COM
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ab4a06a20c71943f9b649d8f22377f59223e9717
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 48d5f054e53daa4594b06d5240f50ae403c359f0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430125"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59596206"
 ---
 # <a name="imapimessagesitegetsitestatus"></a>IMAPIMessageSite::GetSiteStatus
 
@@ -33,7 +33,7 @@ HRESULT GetSiteStatus(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpulStatus_
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagIpmAppointmentEntryId
 api_type:
 - HeaderDef
 ms.assetid: a6e8c8fb-b76a-4a73-b112-6399e4d94233
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d27506edf6eb40f6b244733336b8b381ea941442
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1604a4de9c97212cffcedba2bed7ab7eb0f6a722
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327915"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613407"
 ---
 # <a name="pidtagipmappointmententryid-canonical-property"></a>Propriété canonique PidTagIpmAppointmentEntryId
 
@@ -32,7 +32,7 @@ Contient **l’EntryID** du dossier Calendrier Outlook dossier.
 |Propriétés associées :  <br/> |PR_IPM_APPOINTMENT_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x36D0  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Dossier  <br/> |
+|Domaine :  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FGetComponentPath
 api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3456d81935a0a94bc2158eefd321da968dda9983
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0ad1e8ef09b3f41c46c0c321e0e3699e9e6020bc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335209"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621100"
 ---
 # <a name="fgetcomponentpath"></a>FGetComponentPath
 
@@ -37,7 +37,7 @@ BOOL FGetComponentPath(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _szComponent_
   

@@ -3,17 +3,17 @@ title: Développement d’une application cliente MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bcb59b08-e6d7-4739-8cb5-e545bd0d478f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7f66d2e4d46519dd186a676a0d0fbb836322893b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6f33616b8dcf37179ea1acf33416ee3e1e0ad617
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410034"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59561851"
 ---
 # <a name="developing-a-mapi-client-application"></a>Développement d’une application cliente MAPI
 

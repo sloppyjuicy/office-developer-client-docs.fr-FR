@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6bd7d2e-3cb8-4be3-9716-1a666c66561e
 description: Multiplie deux expressions.
-ms.openlocfilehash: 73c1f7ff51ba52536ca4896d3a90126377867b9b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1afa2be760fbd909bbadc3def9bcce3a3a011646
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412162"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614779"
 ---
 # <a name="multiply-access-custom-web-app"></a>Multiplier (application web personnalisée Access)
 

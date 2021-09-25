@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ae292b0-fde0-4c2b-ba23-23e90365597d
 description: L'action DéfinirChamp peut être utilisée pour assigner une valeur à un champ.
-ms.openlocfilehash: c67c66c238b68512aec90cf6d82d7d497e16ecf1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 95928aa85e09ef1f5d2b58fa2a02a33c32ebec49
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432925"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605735"
 ---
 # <a name="setfield-macro-action-access-custom-web-app"></a>SetField Macro Action (Access custom web app)
 

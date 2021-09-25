@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197366(v=office.15)
 ms:contentKeyID: 48546271
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 154de04122d67c782b3ae0b4d9a084dadada97bc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d623d3753b79b325e6d9a663e210c5d106ebf4a3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309260"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615045"
 ---
 # <a name="recordsets-members-dao"></a>Recordsets members (DAO)
 

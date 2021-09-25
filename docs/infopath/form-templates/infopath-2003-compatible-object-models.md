@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, object model,InfoPath 2003-compatible object model,object models [InfoPath 2003], compatible with InfoPath 2007,object models [InfoPath 2007], InfoPath 2003 compatible
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: Microsoft InfoPath est conçu comme une application COM (Component Object Model) et offre l'accès à ses interfaces de programmation à la fois pour l'automatisation externe et pour les scripts utilisés depuis des modèles de formulaires comme interfaces COM.
-ms.openlocfilehash: f3351a0fee6e23de0785aa28b0970c6a90361f16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9b77e538e2e907aa28d3eb3d873871c131b07646
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303520"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605504"
 ---
 # <a name="infopath-2003-compatible-object-models"></a>Modèles objet compatibles avec InfoPath 2003
 

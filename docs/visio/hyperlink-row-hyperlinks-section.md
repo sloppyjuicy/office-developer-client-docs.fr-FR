@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm3065
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3c7ae27-2e54-a174-4fb3-d16093faf759
 description: Contient les informations d'un seul lien hypertexte associé à une forme. Une forme contient une ligne Hyperlink pour chaque lien hypertexte.
-ms.openlocfilehash: 36b9b62f248e4f5b9407156a79fa674dc2e8f14d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: cb6cdaffd6f606bf9831a1b7708b02d3f727e274
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329903"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628191"
 ---
 # <a name="hyperlink-row-hyperlinks-section"></a>Hyperlink, ligne (section Hyperlinks)
 

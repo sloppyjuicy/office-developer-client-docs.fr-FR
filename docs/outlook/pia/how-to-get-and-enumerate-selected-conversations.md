@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184621(v=office.15)
 ms:contentKeyID: 55119833
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2d71fc1d582abebc8cb00f4885ec5b5ba348228c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 16b766110a2a5bcb80a1653edd4a4bc37c728d9a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320313"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560535"
 ---
 # <a name="get-and-enumerate-selected-conversations"></a>Obtention et énumération des conversations sélectionnées
 

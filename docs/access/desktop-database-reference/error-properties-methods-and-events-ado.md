@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249607(v=office.15)
 ms:contentKeyID: 48546183
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 06497982f3c338ea3c3eb499e788dd527c05e351
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b1dadd71970f217db485a253eed982281273920d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59585661"
 ---
 # <a name="error-properties-methods-and-events-ado"></a>Error properties, methods, and events (ADO)
 

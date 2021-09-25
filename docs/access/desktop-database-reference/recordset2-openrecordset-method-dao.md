@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835325(v=office.15)
 ms:contentKeyID: 48548082
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 08120f4ebb6b2d9989051171a0c71b6d9fcf6e5c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 290e3f97d6cd9a3fe9f8938c2fe73da712c8a733
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307251"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605959"
 ---
 # <a name="recordset2openrecordset-method-dao"></a>Recordset2.OpenRecordset, méthode (DAO)
 
@@ -22,11 +22,11 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l’ajoute à la coll
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .OpenRecordset(***Type***, ***Options***)
+*.* OpenRecordset(***Type** _, _*_Options_**)
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

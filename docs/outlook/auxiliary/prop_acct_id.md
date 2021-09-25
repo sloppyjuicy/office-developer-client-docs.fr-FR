@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b72124aa-2e85-057c-9343-a40af60b91a0
 description: Renvoie un identificateur qui identifie de manière unique un compte dans le profil dans lequel le compte est créé.
-ms.openlocfilehash: dcb0a7935b9b764c44088971a1acb1f3647cbdb0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e1a4d5cd6594dc4b85b356d76b1e09c96d863364
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407164"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605329"
 ---
 # <a name="prop_acct_id"></a>PROP_ACCT_ID
 

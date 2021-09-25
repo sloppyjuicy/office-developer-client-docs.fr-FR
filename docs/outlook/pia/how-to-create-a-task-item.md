@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184644(v=office.15)
 ms:contentKeyID: 55119894
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: c4f9a8f156ec43f446f27c94b2cb061de181b7d4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 6f48df8b4bc463aecebc728a22ce30be35d116bd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349468"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560619"
 ---
 # <a name="create-a-task-item"></a>Création d’un élément de tâche
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60051
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 815e0df8-5ebf-ef1b-d620-bce8abb69f1a
 description: Indique la langue dans laquelle les formules de la cellule ont été créées.
-ms.openlocfilehash: e1e5b92f01e97bc63003a4b195c159a50f61e77b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: df8a612bf68917fca5cb960e9beb089531a7ae8f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406674"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628037"
 ---
 # <a name="langid-cell-miscellaneous-section"></a>LangID, cellule (section Miscellaneous)
 

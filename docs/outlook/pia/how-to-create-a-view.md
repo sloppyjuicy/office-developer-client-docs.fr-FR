@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424468(v=office.15)
 ms:contentKeyID: 55119902
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 75f414d95818b618cfcae236822bb2f5dacdf5f2
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: medium
+ms.openlocfilehash: 060d49571ec50251eb9d8286c08df19d0f37bb3a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540804"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59560612"
 ---
 # <a name="create-a-view"></a>Créer un affichage
 

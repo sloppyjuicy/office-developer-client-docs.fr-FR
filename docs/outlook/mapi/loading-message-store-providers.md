@@ -3,17 +3,17 @@ title: Chargement des fournisseurs de magasins de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 632d3ef9-43c5-429a-84d7-2dce543d49fb
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fe3a76fa246cba9447db2f99562670973af183ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2cd4cfe3ba259a46752083f12b962c749ef4ce3c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307804"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59595916"
 ---
 # <a name="loading-message-store-providers"></a>Chargement des fournisseurs de magasins de messages
 
