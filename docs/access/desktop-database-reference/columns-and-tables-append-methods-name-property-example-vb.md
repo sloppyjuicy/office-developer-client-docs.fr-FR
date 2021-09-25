@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
 ms:contentKeyID: 48544238
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: d68078c24f2bee9f935b71d60cb15986d26d00ac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 6cb0579c3a14da8f07dc7efcf892794d57e3e0e0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296226"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565813"
 ---
 # <a name="columns-and-tables-append-methods-name-property-example-vb"></a>Columns et Tables Append, méthodes - Exemple de propriété Name (VB)
 

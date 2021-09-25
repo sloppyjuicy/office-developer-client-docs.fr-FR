@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn160922(v=office.15)
 ms:contentKeyID: 52072886
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: afb452f3b415dc1873e4f5395c16edf86981b4f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ac76e8a667418a316ddea46fa6ffc759515f6d64
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306943"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557861"
 ---
 # <a name="relations-object-reference-dao"></a>Relations object reference (DAO)
 

@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - references [excel 2007], worksheet,worksheet references [Excel 2007],external worksheet references [Excel 2007],active worksheet [Excel 2007],current worksheet [Excel 2007],internal worksheet references [Excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 2944f73a3144837a4be8aff7c7fed9a8d2158203
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ddc0c2d1c1dc88e68e51ac7843b990a926244920
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416460"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557616"
 ---
 # <a name="worksheet-references"></a>Références de feuille de calcul
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Une référence dans Microsoft Excel est un type de données qui fait référence à un bloc rectangulaire de cellules (qui ne peut être qu’une seule cellule) ou, dans certains cas, à un certain nombre de blocs de cellules disjoints. En interne, Excel utilise un type de référence pour les cellules de la feuille actuelle, appelé référence interne. Toute cellule qui ne se trouve pas dans la feuille actuelle est décrite par un autre type de référence appelé référence externe. Consultez la section suivante pour obtenir la définition des valeurs active et actuelle.
   

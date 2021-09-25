@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm890
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e27b36c-4fd1-34e0-c168-f49eb5757b0e
 description: Détermine si un connecteur peut se positionner horizontalement en traversant une forme positionnable.
-ms.openlocfilehash: 21fa1683c4b1afd24992ec7a8a6daa52a8280825
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 38245e7ce35943b9973853b58c54200a5d856d67
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409474"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607688"
 ---
 # <a name="shapepermeablex-cell-shape-layout-section"></a>ShapePermeableX, cellule (section Shape Layout)
 

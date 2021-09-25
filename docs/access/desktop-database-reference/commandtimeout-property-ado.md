@@ -10,13 +10,13 @@ f1_keywords:
 - ado210.chm1231124
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 9d44bc8fae0143b183ef54120cdaaf91337f36f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b4edc56b5d0a11158e36bfc3797c9e6dea3a0bfc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296128"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565799"
 ---
 # <a name="commandtimeout-property-ado"></a>CommandTimeout, propriété (ADO)
 

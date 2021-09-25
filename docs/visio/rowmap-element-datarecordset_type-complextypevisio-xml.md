@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
 description: Cartes ligne d’un recordset de données à une forme.
-ms.openlocfilehash: 178ceb06d64bfc9ef50f75dd22f8bd94f09f5c33
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 250829c1199e4936bbdef91fdf3ba61873ff54fb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540769"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607779"
 ---
 # <a name="rowmap-element-datarecordset_type-complextype-visio-xml"></a>Élément RowMap (DataRecordSet_Type complexType) (Visio XML)
 

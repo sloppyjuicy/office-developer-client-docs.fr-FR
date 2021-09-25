@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f61960f7-e018-4d2e-8e32-426ed46d9064
 description: Cette section décrit les séquences d’appels classiques Outlook Social Connector (OSC) des membres dans les interfaces d’extensibilité du fournisseur OSC, qu’un fournisseur OSC implémente.
-ms.openlocfilehash: f7829b710d6840ccd1fa0f990d6e03b2eb879431
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5106bc31cab1854cba07d5188a5888ea5f382d50
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413611"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566177"
 ---
 # <a name="osc-typical-calling-sequences"></a>Séquences d’appels classiques OSC
 

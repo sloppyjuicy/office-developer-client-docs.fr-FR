@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskHistory
 api_type:
 - COM
 ms.assetid: 104ef21c-b607-48b7-9b06-bc53b7d9b68a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 39f2e6aeb4026f0b33be08b3bd8123283e5df3e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0e666e4ddcd72a50f3bcefdbfb2339d33d0123bd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303009"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583687"
 ---
 # <a name="pidlidtaskhistory-canonical-property"></a>Propriété canonique PidLidTaskHistory
 

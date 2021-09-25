@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f92b2c7-9f47-4c84-874b-fec1a2a5b555
 description: Outlook Social Connector (OSC) est une fonctionnalité de Office partagée par les applications clientes Office qui se connecte aux réseaux sociaux et professionnels afin que les utilisateurs restent en contact avec les personnes de leurs réseaux sans quitter Office.
-ms.openlocfilehash: 77759db34f63239473e0682cfaca720860e96768
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d45928fe371a69f5fa47a7b78cb2da7a9e49249b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422809"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566121"
 ---
 # <a name="outlook-social-connector-provider-interfaces"></a>Outlook Interfaces de fournisseur Social Connector
 

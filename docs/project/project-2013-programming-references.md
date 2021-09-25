@@ -13,16 +13,16 @@ f1_keywords:
 - VBA
 - VBA object model
 keywords:
-- interface project server,Project Server, codes d’erreur, VBA, modèle objet Project,Project 2013, platform,Visual Basic pour Applications, Project object model,Object model, Project VBA,Project Server, PSI reference,PSI
-localization_priority: Normal
+- interface project server,Project Server, codes d’erreur, VBA, modèle objet Project,Project 2013, plateforme,Visual Basic pour Applications, modèle objet Project, modèle objet, Project VBA,Project Server, référence PSI ,PSI
+ms.localizationpriority: medium
 ms.assetid: 79c78c44-1e08-4c9b-a7fe-a5089e666055
 description: Découvrez une vue d’ensemble de la référence psi (Project Server Interface), comment utiliser l’interface ASMX et l’interface WCF de l’interface PSI, des informations sur les codes d’erreur Project Server et une référence pour le service OData ProjectData.
-ms.openlocfilehash: 27b2eb27d62ec1abdb1a835b5d874e211e7e793e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 85ec462e811dc4ea37857993949f2ddc09b75232
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357035"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574460"
 ---
 # <a name="project-2013-programming-references"></a>Références de programmation Project 2013
 

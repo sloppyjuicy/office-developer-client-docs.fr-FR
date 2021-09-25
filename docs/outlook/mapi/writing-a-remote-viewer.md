@@ -3,17 +3,17 @@ title: Écriture d’une visionneuse à distance
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1d7fea7f92a315b9671d17c82a82d5d7d180f4bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0a4f5f186c97e3f8cfc0d3e73695e6dfa96a85c3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325661"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566184"
 ---
 # <a name="writing-a-remote-viewer"></a>Écriture d’une visionneuse à distance
 

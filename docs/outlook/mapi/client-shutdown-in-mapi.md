@@ -3,17 +3,17 @@ title: Arrêt du client dans MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 04ec21b8-8cd8-4d2d-92e7-aa73f4315e1e
 description: 'Dernière modification : 26 juin 2012'
-ms.openlocfilehash: f2d41ad36472f39e434e3f17757559ada5e08fbd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e8fc5a071063b30ee5c1c8c5a48209b013f85270
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405134"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592618"
 ---
 # <a name="client-shutdown-in-mapi"></a>Arrêt du client dans MAPI 
   

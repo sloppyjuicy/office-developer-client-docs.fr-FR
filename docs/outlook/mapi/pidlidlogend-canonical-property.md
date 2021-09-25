@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidLogEnd
 api_type:
 - COM
 ms.assetid: 621459ea-adf5-4420-9f0f-6f31b9b95508
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: bed1692a4860d59ba7a6c297ab8e88645b023a86
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3c8445e3fcec1c3fe7be91ba16ba4cd7395d526e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336924"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583778"
 ---
 # <a name="pidlidlogend-canonical-property"></a>Propriété canonique PidLidLogEnd
 

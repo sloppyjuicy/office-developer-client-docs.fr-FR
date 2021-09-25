@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagAbSearchPath
 api_type:
 - HeaderDef
 ms.assetid: dfb7ce1b-8e2f-4360-a7d3-876ff5163c34
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5e74c3fe337ef60ab2e6ff9811270c7b605dd676
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 43cc95e002f5ed36b8b7d0012a3677450dbf39c7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427065"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583589"
 ---
 # <a name="pidtagabsearchpath-canonical-property"></a>Propriété canonique PidTagAbSearchPath
 

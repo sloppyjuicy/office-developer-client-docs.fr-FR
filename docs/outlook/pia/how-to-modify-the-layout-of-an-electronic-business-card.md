@@ -6,13 +6,13 @@ ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-t
 ms:contentKeyID: 55119838
 ms.date: 12/03/2019
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 6da4971883c97bfe1890bbc5e894c09ab665192b
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+ms.localizationpriority: medium
+ms.openlocfilehash: b94119b0625793a2eac80c2ae58a924fb8ed3c35
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773693"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574642"
 ---
 # <a name="modify-the-layout-of-an-electronic-business-card"></a>Modification de la présentation d’une carte de visite électronique
 

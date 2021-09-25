@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidCalendarType
 api_type:
 - COM
 ms.assetid: 06e066f1-2b7d-4a6b-b88c-85a9bfa83bd3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6a33559a3e047890153f6a8e0ab40e49c2bf80cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bd6cd81335d530d2f0077f84d7c6b6d3f86f7db2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341992"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583897"
 ---
 # <a name="pidlidcalendartype-canonical-property"></a>Propri t canonique PidLidCalendarType
 

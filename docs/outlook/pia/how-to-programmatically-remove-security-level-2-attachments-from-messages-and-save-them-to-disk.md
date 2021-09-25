@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184657(v=office.15)
 ms:contentKeyID: 55119822
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 588d1db8ad222462b2648d4fdb85207fd9bdb782
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: medium
+ms.openlocfilehash: dc73bb13c8568511bf79133f2c1046a15684078e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539261"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574654"
 ---
 # <a name="programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk"></a>Supprimer par programmation des pièces jointes de niveau 2 de sécurité des messages et les enregistrer sur disque
 

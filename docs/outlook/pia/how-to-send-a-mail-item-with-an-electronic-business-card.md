@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb624312(v=office.15)
 ms:contentKeyID: 55119839
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 25809fc0d1726c9f56be417ae53fadecc831d62f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 5a85fc88fc69764a46edb30a393a837c0e482151
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331149"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574630"
 ---
 # <a name="send-a-mail-item-with-an-electronic-business-card"></a>Envoi d’un élément de courrier avec une carte de visite électronique
 

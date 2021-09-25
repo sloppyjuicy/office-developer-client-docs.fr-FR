@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISession.Logoff
 api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 317c3702415ddf30038ccd0d40cdf0f19abc61f8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e808f573608a8ba822f0fa8942b2cbfab82b421b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338107"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592416"
 ---
 # <a name="imapisessionlogoff"></a>IMAPISession::Logoff
 
@@ -35,7 +35,7 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulUIParam_
   

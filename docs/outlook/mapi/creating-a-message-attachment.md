@@ -3,17 +3,17 @@ title: Création d’une pièce jointe de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 2bdba3574c962c825f45cd098efa1cba6e21a4ea
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e9d0d0c26dd04593aacba9db61cc85cda0a8aac9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405995"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592668"
 ---
 # <a name="creating-a-message-attachment"></a>Création d’une pièce jointe de message
   

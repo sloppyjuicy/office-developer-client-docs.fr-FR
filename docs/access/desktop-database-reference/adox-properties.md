@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
 ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0056764d80b5cfa19bf8e229d33c2c84c8b08c28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c16858e6ec8e86cc71fcbf8b66a1b3be630e5b45
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285250"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607485"
 ---
 # <a name="adox-properties"></a>Propriétés ADOX
 
@@ -27,7 +27,7 @@ ms.locfileid: "32285250"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriété</p></th>
+<th><p>Property</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

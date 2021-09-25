@@ -3,17 +3,17 @@ title: MFCMAPI comme exemple de code
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f98eb842-fe76-4f60-b5e2-d2217d1a66ad
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d72c224db8b3ae4bb6fee3d34f73d9949cda6b8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e3cd4a473d38b2a006602ad21a9dca0de0df4e85
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356860"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613666"
 ---
 # <a name="mfcmapi-as-a-code-sample"></a>MFCMAPI comme exemple de code
  
@@ -37,7 +37,7 @@ L’exemple MFCMAPI utilise l’API de messagerie pour fournir l’accès aux ma
     
 5. Dans la boîte de dialogue Télécharger **terminé,** cliquez **sur Ouvrir le dossier.** Vous pouvez également cliquer sur **Fermer** pour fermer la boîte de dialogue et localiser les fichiers sources compressés dans le dossier dans qui vous les avez enregistrés. 
     
-6. Cliquez avec le bouton droit sur le numéro de **\< version \>.zipMFCMAPI,** puis cliquez sur **Extraire tout.** Dans la boîte de dialogue qui s’affiche, cliquez sur **Extraire** pour extraire les fichiers dans le dossier qui s’affiche. Vous pouvez également cliquer sur **Parcourir** pour sélectionner ou créer un autre dossier. 
+6. Cliquez avec le bouton droit **sur le fichier.zipMFCMAPI, \<version number\>** puis cliquez sur **Extraire tout.** Dans la boîte de dialogue qui s’affiche, cliquez sur **Extraire** pour extraire les fichiers dans le dossier qui s’affiche. Vous pouvez également cliquer sur **Parcourir** pour sélectionner ou créer un autre dossier. 
     
 7. Exécutez Visual Studio 2008 en tant qu’administrateur.
     

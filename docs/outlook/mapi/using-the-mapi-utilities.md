@@ -3,17 +3,17 @@ title: Utilisation des utilitaires MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5f0e5c97-5089-47cb-b604-2292b2ff945c
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d8ec18ee7b80d8603266cf827f9484ee85bdb03c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1c2ac40be8e0928e92e2f483c236f42ae8a0ee9c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409985"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566219"
 ---
 # <a name="using-the-mapi-utilities"></a>Utilisation des utilitaires MAPI
 

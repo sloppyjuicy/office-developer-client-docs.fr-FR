@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - accessing excel handles,handles [Excel 2007], accessing,Excel instances, accessing,window handles [Excel 2007], accessing
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4b71ccd428e60c9ba2e59fea0e56eb2fc61390db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 98535a729c17ac74ee2dcd18143753aa673b1b6d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310758"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601288"
 ---
 # <a name="access-excel-instance-and-main-window-handles"></a>Accès Excel instance et de la fenêtre principale
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Pour programmer dans l’environnement Windows, vous devez parfois connaître la Microsoft Excel d’instance ou le handle de fenêtre principale. Par exemple, ces poignées sont utiles lorsque vous créez et affichez des boîtes de dialogue Windows personnalisées.
+Pour programmer dans l’environnement Windows, vous devez parfois connaître le Microsoft Excel d’instance ou le handle de fenêtre principale. Par exemple, ces poignées sont utiles lorsque vous créez et affichez des boîtes de dialogue Windows personnalisées.
   
 Il existe deux fonctions api C XLL uniquement qui permettent d’accéder à ces poignées : la fonction [xlGetInst](xlgetinst.md) et la fonction [xlGetHwnd,](xlgethwnd.md) respectivement. Dans Win32, tous les handles sont des integers 32 bits. Toutefois, lorsque **la xlOPER** a été conçue, Windows était un système 16 bits. Par conséquent, la structure n’est autorisée que pour les poignées 16 bits. Dans Win32, lorsqu’elles sont appelées avec **Excel4** ou **Excel4v,** les fonctions **xlGetInst** et **xlGetHwnd** ne retournent que la partie basse de la poignée 32 bits complète. 
   

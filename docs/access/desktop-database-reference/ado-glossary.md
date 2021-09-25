@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249184(v=office.15)
 ms:contentKeyID: 48544438
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 7ecb6208a8c970f037cb0ac699c947544eb8f547
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d9b80155bcd88ac486b01a6b6a272b265463b142
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59553367"
 ---
 # <a name="ado-glossary"></a>Glossaire ADO
 
@@ -127,7 +127,7 @@ Fichier binaire, tel que .dll, .ocx et certains fichiers .exe de données, qui p
 
 Opérateur qui compare deux expressions et renvoie une valeur boolé américaine.
 
-Paramètre de critère qui peut être exprimé sous la forme « ( supérieur à \> ), \< » (inférieur à), « = » (égal à), « = » (supérieur ou égal à), « = » (inférieur ou égal à), « ( non égal à) » (non égal à) ou « like » \> \< \< \> (correspondance de modèle).
+Paramètre de critère qui peut être exprimé sous la forme « ( supérieur à ), « = » (supérieur ou égal à), « (non égal à) » ou « like » \> \<" (less than), "=" (equal), "\> \<=" (less than or equal), "\<\> (correspondance de modèle).
 
 **component**
 

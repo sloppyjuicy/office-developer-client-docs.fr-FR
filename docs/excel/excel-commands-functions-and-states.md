@@ -8,13 +8,13 @@ keywords:
 - états [Excel 2007], commandes [Excel 2007], fonctions de feuille de calcul [Excel 2007], fonctions de feuille macro [Excel 2007], états Excel
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-localization_priority: Priority
-ms.openlocfilehash: c941ba7445f1f0598bf044b5f177ad576df0137c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: a26a1bd43c67f0fcb2b7f916db8ba3f7cb9b389f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310968"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601393"
 ---
 # <a name="excel-commands-functions-and-states"></a>États, fonctions et commandes Excel
 

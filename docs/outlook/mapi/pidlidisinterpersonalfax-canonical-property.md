@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidIsInterpersonalFax
 api_type:
 - COM
 ms.assetid: 061c83ae-f561-41d8-a575-ef27e65c7f97
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: becb058fc6434765c238421f59a8775fb76c2d2f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1c9dc307e823c7fc770836446b0ae90c5a96714f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428332"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583792"
 ---
 # <a name="pidlidisinterpersonalfax-canonical-property"></a>Propriété canonique PidLidIsInterpersonalFax
 

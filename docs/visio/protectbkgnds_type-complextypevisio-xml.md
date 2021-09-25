@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bf2cbdaa-2840-8d0b-da5f-4989bc8cb7d8
-ms.openlocfilehash: 3dc894fcc7f442a2d5f5797a150369f3653b4fd3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 5d31fe3313dbaea20402419ac521ecd232b72f6d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540713"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607975"
 ---
 # <a name="protectbkgnds_type-complextype-visio-xml"></a>ProtectBkgnds_Type complexType (Visio XML)
 

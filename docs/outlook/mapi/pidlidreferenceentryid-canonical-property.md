@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidReferenceEntryId
 api_type:
 - COM
 ms.assetid: 42e7c3ac-1a04-4e3f-bf99-ef3f8fc45892
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f5bad81f6317522430b92324ff497754376e0f19
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e033455e2f939136132dcd4c0e9c5480a24bae55
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315924"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583722"
 ---
 # <a name="pidlidreferenceentryid-canonical-property"></a>Propriété canonique PidLidReferenceEntryId
 

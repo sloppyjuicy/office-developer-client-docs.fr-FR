@@ -4,14 +4,14 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31bda053-637f-4e1c-b9e0-817e5c3c5170
-ms.openlocfilehash: cc911f9598b9c5586b5be727d28195ab5f2662cb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a4316ccffa20199c37e813669e2be07e41442215
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426988"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601421"
 ---
 # <a name="text-functions-access-custom-web-app"></a>Fonctions de texte (application web personnalisée Access)
 

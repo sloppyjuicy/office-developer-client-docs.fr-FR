@@ -3,15 +3,15 @@ title: Jeux de propriétés fréquemment utilisés
 manager: soliver
 ms.date: 09/03/2019
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b68f8bff-1a20-4dfd-92fe-57869328879d
 description: Cette rubrique répertorie les jeux de propriétés nommées couramment utilisés.
-ms.openlocfilehash: aba676f21a311dd04c420b6159ca3841aba589bf
-ms.sourcegitcommit: b27eedbc4538f78ee15134bf19abbc319605c3bc
+ms.openlocfilehash: 9fa3f28c9e4bae91c8a56c2833fd014021e85cb3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2019
-ms.locfileid: "36706179"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592613"
 ---
 # <a name="commonly-used-property-sets"></a>Jeux de propriétés fréquemment utilisés
 
@@ -21,7 +21,7 @@ Cette rubrique répertorie les jeux de propriétés nommées couramment utilisé
   
 Le tableau suivant répertorie chaque ensemble de propriétés avec son GUID et sa zone fonctionnelle.
   
-|Domaine|Nom du jeu de propriétés et valeur GUID|
+|Zone|Nom du jeu de propriétés et valeur GUID|
 |:-----|:-----|
 |Calendrier  <br/> |PSETID_Appointment{00062002-0000-0000-C000-000000000046}  <br/> |
 |Calendrier  <br/> |PSETID_Meeting{6ED8DA90-450B-101B-98DA-00AA003F1305}  <br/> |

@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b370158-374d-a2a8-e494-0e79fe0bc968
-ms.openlocfilehash: b7ea48fe7a6e4c3e9b208a1ebb2030cf90c66764
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: fa1b130d9eb120e67df5385da8ec773d34cc6d88
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34543002"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607653"
 ---
 # <a name="showconnectionpoints_type-complextype-visio-xml"></a>ShowConnectionPoints_Type complexType (Visio XML)
 

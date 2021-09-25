@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a250d68-7583-406e-84e3-0b03bba97234
 description: Compare deux expressions. Lorsque vous comparez des expressions non null, le résultat est TRUE si l’opérande gauche a une valeur supérieure à celle de l’opérande droit ; Sinon, le résultat est FALSE.
-ms.openlocfilehash: aac3ee7ef575e5a982d55d2003c77cb667cc903d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 61188ffa5a02ed7320b432e58d0d3fdbd4e05f33
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407738"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601561"
 ---
 # <a name="greater-than-access-custom-web-app"></a>Greater Than (Application web personnalisée Access)
 

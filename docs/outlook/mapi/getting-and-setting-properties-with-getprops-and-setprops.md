@@ -3,17 +3,17 @@ title: Obtention et définition de propriétés avec GetProps et SetProps
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 309d2b3d-dc71-4222-b293-4bfc467b5429
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7d11f69c6da8560f5879ebc38498d852486bed8b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8bc60dd8241062abb45523393aaf2025ddac03b1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299397"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614114"
 ---
 # <a name="getting-and-setting-properties-with-getprops-and-setprops"></a>Obtention et définition de propriétés avec GetProps et SetProps
  

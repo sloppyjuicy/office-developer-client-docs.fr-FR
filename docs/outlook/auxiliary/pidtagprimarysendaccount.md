@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1bc4900-d261-f692-386b-139ef6960212
 description: Spécifie l’endstamp de compte principal pour un message.
-ms.openlocfilehash: 902c71bd4a1bd5a25ab50c4b26bcfa6d5e8489e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b4d0188d75cdf03a78c198377c03a885fce3654b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327705"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601232"
 ---
 # <a name="pidtagprimarysendaccount"></a>PidTagPrimarySendAccount
 

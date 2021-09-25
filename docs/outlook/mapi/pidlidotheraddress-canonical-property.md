@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidOtherAddress
 api_type:
 - COM
 ms.assetid: 2b8acb69-4c84-4075-8457-d7aadce26c73
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b05e83e48bf144ca317a64f90fb533f6d7d1c24
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 751d5a3e1e96ea560e5c188987d9348fd8258c36
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359072"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583764"
 ---
 # <a name="pidlidotheraddress-canonical-property"></a>Propriété canonique PidLidOtherAddress
 

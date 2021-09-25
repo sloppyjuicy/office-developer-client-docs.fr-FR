@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagDelegatedByRule
 api_type:
 - HeaderDef
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 47458e2468215c6539ad07533c36564d37da8b96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b20c3da209ac862b32f257020c8f7520a2116702
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359918"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613533"
 ---
 # <a name="pidtagdelegatedbyrule-canonical-property"></a>Propriété canonique PidTagDelegatedByRule
 

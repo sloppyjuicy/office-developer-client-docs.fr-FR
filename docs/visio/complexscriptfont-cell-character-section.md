@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60034
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1cf9e97-101b-384f-65fe-0169c89dfccc
 description: Contient le numéro de la police utilisée pour mettre en forme du texte composé de caractères de script complexe. Les numéros de police varient en fonction des polices installées sur votre système.
-ms.openlocfilehash: 5ec8deb59b875a01592b6d7b652204089ecf11e0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c5bba5bcc8881717647f74127d745286615fe660
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404833"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566016"
 ---
 # <a name="complexscriptfont-cell-character-section"></a>ComplexScriptFont, cellule (section Character)
 

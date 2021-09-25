@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 366550fa-e787-4ca0-bfe1-a7890dfc27c6
 description: 'Un flux d’activités se compose d’une ou de plusieurs activités se produisant sur un réseau social. Chaque flux d’activités est représenté par un élément activityFeed et se caractérise par ces trois éléments d’informations :'
-ms.openlocfilehash: 971c54cf69a65bebbe4fd04e8608e88b89145bb4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 528a7e2c32c7a5c4c2947bfad864accd92fcc419
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439946"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566114"
 ---
 # <a name="overview-of-xml-for-an-activity-feed-item"></a>Vue d’ensemble du code XML pour un élément de flux d’activité
 

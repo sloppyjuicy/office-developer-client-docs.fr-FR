@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm870
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6fe2574-b719-f38e-b1f1-592a812f1682
 description: Contrôle la largeur de la police. La valeur par défaut de cette cellule est 100 %.
-ms.openlocfilehash: 60e896772ddd1d59e1a1da7f2c0e90893658c624
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 50708cd670f7d048e2c0321e5752d1826cbf8091
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429151"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607751"
 ---
 # <a name="scale-cell-character-section"></a>Scale, cellule (section Character)
 

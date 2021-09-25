@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250193(v=office.15)
 ms:contentKeyID: 48548482
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8482df5ca2fab110e5b1a77fe227c5f0c583d893
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4c69cdbaf30a2c592790942a04c777b11512631f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296016"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565771"
 ---
 # <a name="configuring-rds-on-windows-2000"></a>Configuration RDS sur Windows 2000
 

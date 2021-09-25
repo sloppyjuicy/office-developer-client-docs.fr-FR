@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
 ms:contentKeyID: 48546728
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 453d84e687a31f7df5082e17b80fe2a1bda756be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f33616eb1ef4d8cc3878e0d818715b9cb387d2c1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295694"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565701"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
 
@@ -53,7 +53,7 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 <td><p>Permet à d'autres utilisateurs d'ouvrir une connexion sans autorisations d'aucune sorte. L'accès en lecture et en écriture ne pourra être interdit.</p></td>
 </tr>
 <tr class="odd">
@@ -63,12 +63,12 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyWrite</strong></p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>Empêche d'autres utilisateurs d'ouvrir une connexion sans autorisation d'écriture.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeShareExclusive</strong></p></td>
-<td><p>12 </p></td>
+<td><p>12 </p></td>
 <td><p>Empêche d'autres utilisateurs d'ouvrir une connexion.</p></td>
 </tr>
 <tr class="even">

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn292518(v=office.15)
 ms:contentKeyID: 55119845
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 7cee8024a622e98be667b9e05ceba63ad79b1edf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 19ddfbd6b1296e9a5a7a461c60dc73871aef4984
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359401"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574775"
 ---
 # <a name="create-a-helper-class-to-access-common-outlook-item-members"></a>Créer une classe d’assistance pour accéder aux membres d’un élément courant Outlook
 

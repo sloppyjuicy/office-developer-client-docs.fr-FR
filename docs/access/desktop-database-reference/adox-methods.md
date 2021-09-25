@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
 ms:contentKeyID: 48543516
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 40c4ca85e28813f9827d959ff202e0036e379e96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d2b418b1b80b3a529e6661763016cf8f342a6713
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270006"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607499"
 ---
 # <a name="adox-methods"></a>Méthodes ADOX
 
@@ -69,7 +69,7 @@ ms.locfileid: "32270006"
 <td><p>Change le mot de passe d'un compte d'utilisateur.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-method-adox.md">Create</a></p></td>
+<td><p><a href="create-method-adox.md">Créer</a></p></td>
 <td><p>Crée un catalogue.</p></td>
 </tr>
 <tr class="odd">

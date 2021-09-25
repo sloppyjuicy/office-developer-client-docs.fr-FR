@@ -3,17 +3,17 @@ title: Création des tables d’affichage et des structures associées
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a8548040-13ed-4a9f-a7ca-de610f94d7df
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 350272324c3827f4630f0cf35e3ade0ff213ac4d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 853a8db028d0e902f785cc3198e7994404af3ef1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416243"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592675"
 ---
 # <a name="creating-display-tables-and-related-structures"></a>Création des tables d’affichage et des structures associées
   
@@ -43,7 +43,7 @@ La relation entre les trois types de structures de tableau d’affichage est ind
   
 **Structures de table d’affichage**
   
-![Structures de tableaux d’affichage](media/dtstruct.gif "Structures de tableaux d’affichage")
+![Structures de table d’affichage](media/dtstruct.gif "Structures de table d’affichage")
   
 ## <a name="see-also"></a>Voir aussi
 

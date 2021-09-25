@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ABProviderInit
 api_type:
 - HeaderDef
 ms.assetid: c3dcd0d4-018a-47b0-b040-227034ed59d8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: acec07df0b72685cf9ec6b21499c730b72f58c59
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ea53639308f96c0b13641119e0e59dcc0a0359c7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428283"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592724"
 ---
 # <a name="abproviderinit"></a>ABProviderInit
  
@@ -45,7 +45,7 @@ HRESULT ABProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hInstance_
   

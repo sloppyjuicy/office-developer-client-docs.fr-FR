@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60084
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 551166d0-3aaa-0fd7-e742-cf3450ba90ed
 description: Indique le type d'ombre par défaut d'une page.
-ms.openlocfilehash: f1fc72484d94788ca2798760ca935c89c3e841ad
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0279aaab9e608f482d0f1ecbc24e48012c087b1c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424097"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607667"
 ---
 # <a name="shdwtype-cell-page-properties-section"></a>ShdwType, cellule (section Page Properties)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidNameHiddenCount
 api_type:
 - COM
 ms.assetid: a1e0e0df-356b-47eb-8572-37b7f3d52887
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ae151e37b9220d1361173bd5a23a4bf36391b179
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e54f2d44c69674b79f6313c3cb7c7a13bc4d779e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337939"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583631"
 ---
 # <a name="pidnamehiddencount-canonical-property"></a>Propriété canonique PidNameHiddenCount
 

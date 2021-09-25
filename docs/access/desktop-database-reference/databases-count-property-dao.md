@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196364(v=office.15)
 ms:contentKeyID: 48545831
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: cd8908492721315202c5bdf26109753c88905a07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 02afe712b1db6ccbd0f959ebbc03ccac29296c6d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294623"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565582"
 ---
 # <a name="databasescount-property-dao"></a>Databases.Count, propriété (DAO)
 

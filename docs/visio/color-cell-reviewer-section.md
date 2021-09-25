@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60032
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1e3d7bf-e6b6-65f1-ae40-80c8ba4821cd
 description: Valeur RVB qui représente la couleur affectée au code d’un réviseur de documents.
-ms.openlocfilehash: d9df6605ca6c8a22353978b9483989ecfc08130d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a5b34ad4902a7b6ba2e8143c358533fb235467b6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430538"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566072"
 ---
 # <a name="color-cell-reviewer-section"></a>Color, cellule (section Reviewer)
 

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0f6d0ee-ae3b-f871-11fd-dc5b955c1bf3
 description: Spécifie si une grille est affichée dans la fenêtre de dessin.
-ms.openlocfilehash: 491dc53bcf5bc49ae26d37e1380ec99e4457e285
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 51650f595de57eb97a7878ba59cc994024f83e4e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542995"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607639"
 ---
 # <a name="showgrid-element-window_type-complextype-visio-xml"></a>Élément ShowGrid (Window_Type complexType) (Visio XML)
 

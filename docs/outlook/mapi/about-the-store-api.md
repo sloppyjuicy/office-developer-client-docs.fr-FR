@@ -3,15 +3,15 @@ title: À propos de l’API de magasin
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 166a8e60-e09d-7473-b61b-35d78a863192
 description: 'Derni�re modification�: lundi 25 juin 2012'
-ms.openlocfilehash: fb9b0a4c8ac1a2f41a0fddcd746dba5fc4bae1a2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: deba8ea99e53d3bc20267d4beb92952af14adfaa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405554"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592742"
 ---
 # <a name="about-the-store-api"></a>À propos de l’API de magasin
 

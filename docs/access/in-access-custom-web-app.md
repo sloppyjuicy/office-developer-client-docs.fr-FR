@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56f1e938-b445-4e1f-952d-9e4627d5dc27
 description: Détermine si une valeur spécifiée correspond à une valeur dans une liste.
-ms.openlocfilehash: 935222bd9b117a93aafb2a2d24db525c6b23fc62
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 33b3f06f9b8e88c6709dc7b7dad563acfaee12a3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430209"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557721"
 ---
 # <a name="in-access-custom-web-app"></a>IN (application web personnalisée Access)
 

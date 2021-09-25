@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm255
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff5bbf05-4851-30ce-7ee1-f0ce7b2781ab
 description: Détermine la possibilité ou non de faire glisser, à l'aide de la souris, des formes dans un groupe.
-ms.openlocfilehash: 2b15d75a98b5f5a72bce8b80758d27b197a346ed
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 904d1cfceed285868279b8dafea6238eda0b638f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416593"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574362"
 ---
 # <a name="dontmovechildren-cell-group-properties-section"></a>DontMoveChildren, cellule (section Group Properties)
 

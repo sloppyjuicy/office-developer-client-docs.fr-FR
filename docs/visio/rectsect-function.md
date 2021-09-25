@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251486
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e83343c5-df5f-bf74-f854-6380176693a2
 description: Calcule le secteur d’un rectangle associé à x et y et renvoie un nombre integer de 0 à 4, indiquant le secteur.
-ms.openlocfilehash: 442ec0d614589c709a097ba314abad044d470df6
-ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
+ms.openlocfilehash: 73e7e3aa440d67eed2a6a2706321092ec101cfdf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "45160271"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607912"
 ---
 # <a name="rectsect-function"></a>Fonction RECTSECT
 
@@ -22,7 +22,7 @@ Calcule le secteur d’un rectangle associé à  *x*  et  *y*  et renvoie un nom
   
 ## <a name="syntax"></a>Syntaxe
 
-RECTSECT(***width***, ***height***, ***x***, ***y***, ***option*** ) 
+RECTSECT(***width** _, _*_height_*_, _*_x_*_, _*_y_*_, _ *_option_** ) 
   
 ### <a name="parameters"></a>Paramètres
 

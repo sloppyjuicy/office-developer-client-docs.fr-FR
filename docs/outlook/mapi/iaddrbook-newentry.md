@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IAddrBook.NewEntry
 api_type:
 - COM
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 285da82d143524d2b2cf73ed3e5f1e3aeef6f9b3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bbf86646322497c7d475589a5fac0e86572c4486
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405099"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613974"
 ---
 # <a name="iaddrbooknewentry"></a>IAddrBook::NewEntry
 
@@ -40,7 +40,7 @@ HRESULT NewEntry(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulUIParam_
   

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 304ee083-e9c8-45df-b411-ba5e7db4c086
 description: Détermine le style de la police pour chaque style rapide, sous la forme d’un nombre integer de 1 à 6.
-ms.openlocfilehash: 0708a243b001c7b4e03158b5a332a3166727cabc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3a6a72d6fab247d223c181480a3fbf2ca6ca1dcd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407248"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607940"
 ---
 # <a name="quickstylefontmatrix-cell-quick-style-section"></a>QuickStyleFontMatrix Cell (Quick Style Section)
 

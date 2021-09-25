@@ -3,15 +3,15 @@ title: Compléments du volet Office pour Project
 manager: soliver
 ms.date: 09/10/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44712b7c-aead-433d-8c0e-76407264166c
 description: Project Standard 2013 et Project Professionnel 2013 2013, les deux volets de tâches Office des modules. Vous pouvez utiliser des applications de volet de tâches pour intégrer des données de projet, de tâche, de ressource et d’affichage dans un projet à d’autres applications clientes Office 2013, applications SharePoint, composants WebPart, autres pages web et données externes.
-ms.openlocfilehash: 26942cab1d1b127872a230a46fbc6242ab27b754
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 826009a2359dd5d9b97a702674206f3a533b6a51
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330015"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566079"
 ---
 # <a name="task-pane-add-ins-for-project"></a>Compléments du volet Office pour Project
 
@@ -30,7 +30,7 @@ Pour plus d’informations sur les Office 2013, voir Office [et SharePoint des m
 
 La documentation pour les développeurs Office et SharePoint de développement inclut des articles complets et des références. Pour obtenir une présentation du développement de add-ins pour Project Professionnel 2013 et d’autres applications clientes Office 2013, ainsi que pour la référence JavaScript et la référence de manifeste XML, voir [Office Add-ins](https://msdn.microsoft.com/library/office/apps/jj220060%28v=office.15%29).
   
-Le téléchargement du SDK Project 2013 inclut l’exemple de add-in **test du** modèle modèle Project qui montre comment obtenir le GUID d’une tâche, d’une ressource et d’une vue, comment obtenir les propriétés du projet actif et comment définir une tâche, une ressource ou un handle d’événement modifié de sélection d’affichage. Lorsque vous extrayez et installez le SDK et les exemples dans le fichier Project2013SDK.msi, consultez le sous-dossier et  `\Samples\Apps\Copy_to_AppSource_FileShare`  `\Samples\Apps\Copy_to_AppManifests_FileShare` le sous-dossier. LJSOMCall.html utilise des fonctions JavaScript dans le fichier office.js et le fichier project-15.js, qui sont inclus dans le téléchargement. Vous pouvez utiliser les fichiers de débogage correspondants (office.debug.js et project-15.debug.js) pour examiner les fonctions. 
+Le téléchargement du SDK Project 2013 inclut l’exemple de add-in **test du** modèle modèle Project qui montre comment obtenir le GUID d’une tâche, d’une ressource et d’une vue, comment obtenir les propriétés du projet actif et comment définir une tâche, une ressource ou un handle d’événement modifié de sélection d’affichage. Lorsque vous extrayez et installez le SDK et les exemples dans le fichier Project2013SDK.msi, consultez le sous-dossier et  `\Samples\Apps\Copy_to_AppSource_FileShare`  `\Samples\Apps\Copy_to_AppManifests_FileShare` le sous-dossier. LJSOMCall.html exemple utilise les fonctions JavaScript dans le fichier office.js et le fichier project-15.js, qui sont inclus dans le téléchargement. Vous pouvez utiliser les fichiers de débogage correspondants (office.debug.js et project-15.debug.js) pour examiner les fonctions. 
   
 **L HelloProject_OData** exemple de Project Professionnel 2013 a été développé avec Visual Studio 2012. Le add-in utilise une requête REST du service **ProjectData** pour obtenir des données de rapport pour le coût du projet et d’autres informations, puis compare le projet actuel avec les valeurs moyennes de tous les projets dans Project Web App. 
   
@@ -41,7 +41,7 @@ Le téléchargement du SDK Project 2013 inclut l’exemple de add-in **test du**
     
 - [Connexion d’Project de volet de tâches à un PWA](https://blogs.msdn.com/b/project_programmability/archive/2012/11/02/connecting-a-project-task-pane-app-to-pwa.aspx)
     
-- [Téléchargement du Kit de développement logiciel (SDK) de Project 2013](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20)
+- [Téléchargement du Kit de développement logiciel (SDK) de Project 2013](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20)
     
 - [Compléments Office et SharePoint](https://msdn.microsoft.com/library/office/fp161507%28v=office.15%29)
     

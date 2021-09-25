@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - information rights management [infopath 2007],InfoPath 2007, Information Rights Management,IRM [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ad91898-b23e-4410-8839-a65259e53d37
 description: "Il existe deux types de paramètres de Gestion des droits relatifs à l'information (IRM) dans Microsoft InfoPath : l'un protège l'accès aux modèles de formulaires InfoPath et l'autre permet de contrôler l'accès aux données contenues dans les formulaires complétés et les actions sur ces données."
-ms.openlocfilehash: 6f7317cfdc4e6bfc89482e813b1670c8b8861a6b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5fc3f688b907d542f28d9d95317b63e371c871e4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420009"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601253"
 ---
 # <a name="work-with-information-rights-management-settings"></a>Travailler avec la gestion des droits Paramètres
 

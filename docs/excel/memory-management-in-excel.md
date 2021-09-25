@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - xloper12 memory [excel 2007],managing memory in Excel,Excel stack,strings [Excel 2007], managing memory,memory management in Excel,XLOPER memory [Excel 2007],memory [Excel 2007], management guidelines
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bf5195b-6235-43cf-8795-0c7b0a63a095
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: f129dac2971f01c8ada15f0028958132b1945746
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
-ms.translationtype: HT
+ms.openlocfilehash: 347835570e956672995d73ff69447d2cec0801cf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419540"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557651"
 ---
 # <a name="memory-management-in-excel"></a>Gestion de la mémoire dans Excel
 
@@ -148,7 +148,7 @@ Vous devez d�finir **xlbitXLFree** apr�s l�appel vers le rappel Excel qui 
 
 Un probl�me semblable � celui-ci se produit lorsque votre XLL a allou� de la m�moire pour une structure **XLOPER**/ **XLOPER12** et souhaite la renvoyer vers Excel. Excel reconna�t un autre bit qui peut �tre d�fini dans le champ **xltype** de la structure **XLOPER**/ **XLOPER12**, d�fini comme **xlbitDLLFree** dans xlcall.h. 
   
-Lorsqu�Excel re�oit **an XLOPER**/ **XLOPER12** avec ce bit d�fini, il essaie d�appeler une fonction qui doit �tre export�e par la XLL appel�e [xlAutoFree ](xlautofree-xlautofree12.md) (pour les **XLOPER**) ou **xlAutoFree12** (pour les **XLOPER12**). Cette fonction est d�crite plus en d�tail dans la r�f�rence de la fonction (voir [Gestionnaire de compl�ments et les fonctions de l'Interface XLL](add-in-manager-and-xll-interface-functions.md)), mais un exemple d�impl�mentation minimale est indiqu� ici. Son but est de lib�rer la m�moire **XLOPER**/ **XLOPER12** de fa�on coh�rente avec la mani�re dont elle a �t� allou�e � l�origine. 
+Lorsqu�Excel re�oit **an XLOPER**/ **XLOPER12** avec ce bit d�fini, il essaie d�appeler une fonction qui doit �tre export�e par la XLL appel�e [xlAutoFree](xlautofree-xlautofree12.md) (pour les **XLOPER**) ou **xlAutoFree12** (pour les **XLOPER12**). Cette fonction est d�crite plus en d�tail dans la r�f�rence de la fonction (voir [Gestionnaire de compl�ments et les fonctions de l'Interface XLL](add-in-manager-and-xll-interface-functions.md)), mais un exemple d�impl�mentation minimale est indiqu� ici. Son but est de lib�rer la m�moire **XLOPER**/ **XLOPER12** de fa�on coh�rente avec la mani�re dont elle a �t� allou�e � l�origine. 
   
 ### <a name="examples"></a>Exemples
 
@@ -420,7 +420,7 @@ void WINAPI reverse_text_xl12(wchar_t *text)
 
 ## <a name="persistent-storage-binary-names"></a>Stockage permanent (noms binaires)
 
-Les noms binaires sont d�finis et associ�s � des blocs de donn�es binaires, autrement dit, non structur�es, qui sont stock�es avec la feuille de calcul. Ils sont cr��s � l�aide de la fonction [xlDefineBinaryName ](xldefinebinaryname.md) et les donn�es sont r�cup�r�es � l�aide de la fonction [xlGetBinaryName ](xlgetbinaryname.md). Les deux fonctions sont d�crites plus en d�tail dans la r�f�rence de la fonction (voir [Fonctions de l�API C qui peuvent �tre appel�es uniquement � partir d�une DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)) et utilisent **xltypeBigData** **XLOPER**/ **XLOPER12**. 
+Les noms binaires sont d�finis et associ�s � des blocs de donn�es binaires, autrement dit, non structur�es, qui sont stock�es avec la feuille de calcul. Ils sont cr��s � l�aide de la fonction [xlDefineBinaryName](xldefinebinaryname.md) et les donn�es sont r�cup�r�es � l�aide de la fonction [xlGetBinaryName](xlgetbinaryname.md). Les deux fonctions sont d�crites plus en d�tail dans la r�f�rence de la fonction (voir [Fonctions de l�API C qui peuvent �tre appel�es uniquement � partir d�une DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)) et utilisent **xltypeBigData** **XLOPER**/ **XLOPER12**. 
   
 Pour plus d�informations sur les probl�mes connus qui limitent les applications pratiques des noms binaires, consultez [Probl�mes connus concernant le d�veloppement de XLL Excel](known-issues-in-excel-xll-development.md).
   

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249175(v=office.15)
 ms:contentKeyID: 48544387
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1a53eb107bab0d31606dc161b9f9c910894c5bc6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2b223e10e6ed8450a881225b76b01761436b12ba
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281625"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607534"
 ---
 # <a name="adorecordconstruction-interface-ado"></a>Interface ADORecordConstruction (ADO)
 
@@ -85,7 +85,7 @@ L'objet **adoR** qui en résulte représente maintenant l'objet **Record** ADO c
 
 Un objet **Record** ADO peut également être créé à partir du conteneur d'un objet **Row** OLE DB.
 
-## <a name="requirements"></a>Conditions requises
+## <a name="requirements"></a>Configuration requise
 
 **Version :** ADO 2.0 et supérieure
 

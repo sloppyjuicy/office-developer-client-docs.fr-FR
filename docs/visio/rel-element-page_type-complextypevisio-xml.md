@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d61b1b97-c360-4d9d-217f-e6f45f760e42
 description: Spécifie une relation à un élément avec le XML de page correspondant.
-ms.openlocfilehash: 19224a7057786677cdb371df887e69e8457649c6
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 300c0b9f5459a82b5f8717d7991922c9d84bc999
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542778"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607856"
 ---
 # <a name="rel-element-page_type-complextype-visio-xml"></a>Élément Rel (Page_Type complexType) (Visio XML)
 

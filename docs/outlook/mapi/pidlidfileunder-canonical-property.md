@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidFileUnder
 api_type:
 - COM
 ms.assetid: 55afc4bb-c5fc-4162-a293-7d82644b1965
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 02aa1766421f7c116eabac4c9661be1b5b1adee1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: eadb15a979e0db24bb0fae73ce02f325d2d6c231
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359569"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613659"
 ---
 # <a name="pidlidfileunder-canonical-property"></a>Propriété canonique PidLidFileUnder
 

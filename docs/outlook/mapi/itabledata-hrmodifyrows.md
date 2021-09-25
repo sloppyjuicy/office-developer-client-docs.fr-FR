@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ITableData.HrModifyRows
 api_type:
 - COM
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d0074dd006fda6d44252011d0b979169e0c3d4cb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 693569c5b7ce6915bc30857445dca5b7e55c63c0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405358"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613764"
 ---
 # <a name="itabledatahrmodifyrows"></a>ITableData::HrModifyRows
 
@@ -34,7 +34,7 @@ HRESULT HrModifyRows(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidFax1EmailType
 api_type:
 - COM
 ms.assetid: 54436af4-b851-49ab-875a-c52f5da6b776
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 89afe48bc023aa15aa4cac133a5022408c42e359
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 721ea6cb4c412d663af3bd220b67437db3837d07
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331751"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583827"
 ---
 # <a name="pidlidfax1emailtype-canonical-property"></a>Propriété canonique PidLidFax1EmailType
 

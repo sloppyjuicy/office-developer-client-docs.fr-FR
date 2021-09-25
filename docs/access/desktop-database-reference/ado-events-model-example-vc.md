@@ -4,21 +4,21 @@ TOCTitle: ADO Events Model example (VC++)
 ms:assetid: 3785406b-844c-419f-e6ac-78aa8c4e78b2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249132(v=office.15)
 ms:contentKeyID: 48544197
-ms.date: 09/18/2015
+ms.date: 09/18/2021
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8e47e8961436be44a78596498754e01e3b0677d1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4f16c7367350d3728a893ee58e657f41075d0c2f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283351"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607611"
 ---
 # <a name="ado-events-model-example-vc"></a>Exemple de modèle d’événements ADO (VC++)
 
 **S’applique à** : Access 2013, Office 2013
 
-La section Visual C++ de la rubrique [Instanciation des événements ADO par langage ](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado) fournit une description générale de la méthode à suivre pour instancier le modèle d'événements ADO. Voici un exemple spécifique d’ins instantiation du modèle d’événement dans l’environnement créé par la directive **\# d’importation.**
+La section Visual C++ de la rubrique [Instanciation des événements ADO par langage ](/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado.md) fournit une description générale de la méthode à suivre pour instancier le modèle d'événements ADO. Voici un exemple spécifique d’ins instantiation du modèle d’événement dans l’environnement créé par la directive **\# d’importation.**
 
 Cette description utilise **adoint.h** comme référence pour les signatures des méthodes. Toutefois, quelques détails de la description générale changent légèrement suite à l’utilisation de la directive **\# d’importation** :
 
@@ -46,7 +46,7 @@ Enfin, l'exemple contient des parties de code exploitables.
 
 <!-- end list -->
 
-```cpp 
+```cpp
  
 // eventmodel.cpp : Defines the entry point for the console application. 
 // 
@@ -551,4 +551,3 @@ int main(int argc, char* argv[])
  return 1; 
 } 
 ```
-

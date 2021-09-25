@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - expression evaluation [excel 2007],errors in worksheets [Excel 2007],long Unicode strings [Excel 2007],evaluating expressions [Excel 2007],evaluating worksheets [Excel 2007],worksheet evaluation [Excel 2007],worksheet errors [Excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47b46a7d-6cfb-4f5b-946d-e0164d18512a
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: cf1e0539136435f7d7df6ef348fc92ec4380e132
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e3f7887d15b5cdb783647f0bbd5b9778354f054e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427765"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601372"
 ---
 # <a name="excel-worksheet-and-expression-evaluation"></a>Feuille de calcul Excel et évaluation d’expression
 

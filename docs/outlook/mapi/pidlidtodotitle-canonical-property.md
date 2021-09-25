@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidToDoTitle
 api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7ed69d9bab84a5c572026bb9480249c1212e3376
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b93ff05c13ab9801e9830e36aeecdf942e53d233
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339941"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583638"
 ---
 # <a name="pidlidtodotitle-canonical-property"></a>Propriété canonique PidLidToDoTitle
 

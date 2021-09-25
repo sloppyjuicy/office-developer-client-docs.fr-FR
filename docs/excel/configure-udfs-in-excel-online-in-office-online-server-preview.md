@@ -3,15 +3,15 @@ title: Configurer des UDF dans Excel Online dans Office Online Server
 manager: lindalu
 ms.date: 12/03/2019
 ms.audience: ITPro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Utilisez des fonctions définies par l’utilisateur (UDF) dans Excel Online Office Online Server pour appeler des fonctions personnalisées.
-ms.openlocfilehash: e1b005079c03ae3028ba6bf9ee1156c6ae2eae80
-ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
+ms.openlocfilehash: caaf2eb4d0be74423759eaa25bb6499a0350006f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601386"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server"></a>Configurer des UDF dans Excel Online dans Office Online Server
 

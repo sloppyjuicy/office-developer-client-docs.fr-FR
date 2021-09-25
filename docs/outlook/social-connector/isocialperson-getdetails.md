@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ca3172a-82a3-4483-b0aa-4e848930f6ed
 description: Obtient une chaîne qui représente les détails de la personne, tels que le prénom, le nom et l’URL d’une image de profil.
-ms.openlocfilehash: 05cc2565ccd0688c7b8f4eccd6d8f42353d8743e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d0b78fad082327db049c5bb0b69308df71f74f1b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427331"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574523"
 ---
 # <a name="isocialpersongetdetails"></a>ISocialPerson::GetDetails
 
@@ -23,7 +23,7 @@ Obtient une chaîne qui représente les détails de la personne, tels que le pr�
 HRESULT _stdcall GetDetails([out, retval] BSTR* details);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _détails_
   

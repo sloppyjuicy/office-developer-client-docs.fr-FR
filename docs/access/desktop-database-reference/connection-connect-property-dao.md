@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194335(v=office.15)
 ms:contentKeyID: 48545001
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e44ce5b4acf58f3f9d9e887d0136baed64c8e227
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 39576c39546e3f02652a0d997044fc2afac80010
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295925"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565764"
 ---
 # <a name="connectionconnect-property-dao"></a>Connexion. Connecter property (DAO)
 

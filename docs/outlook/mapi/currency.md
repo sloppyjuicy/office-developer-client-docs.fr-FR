@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - CURRENCY
 api_type:
 - COM
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dccb6b19af72d0f748a3a513b7f3d78904ebc789
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5da768e4d26ad76e17a1c7271405739b52a2c028
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431119"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592521"
 ---
 # <a name="currency"></a>CURRENCY
 

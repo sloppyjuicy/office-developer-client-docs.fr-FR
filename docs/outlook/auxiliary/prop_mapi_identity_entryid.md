@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c64db8ea-d6ad-4fb9-97aa-958e5a0daf8f
 description: Récupère ou définit l’ID d’entrée du carnet d’adresses pour le compte.
-ms.openlocfilehash: 2352f64b46e9884e95b7bf1f3693321f7cd224ca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9d926b5b68fb41962946700f585d6a3629aacd25
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326431"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601134"
 ---
 # <a name="prop_mapi_identity_entryid"></a>PROP_MAPI_IDENTITY_ENTRYID
 

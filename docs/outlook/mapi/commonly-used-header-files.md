@@ -3,17 +3,17 @@ title: Fichiers d’en-tête couramment utilisés
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ec4923bb5fbe78dfed55bea1b537a33d195cb0cf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7ce0df578c7c5f99d4a6d408c24060aeb87dd822
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406212"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592636"
 ---
 # <a name="commonly-used-header-files"></a>Fichiers d’en-tête couramment utilisés
 

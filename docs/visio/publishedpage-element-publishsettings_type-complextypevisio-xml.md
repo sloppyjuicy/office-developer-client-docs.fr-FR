@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
 description: Spécifie si une page de dessin est consultable dans le navigateur à l’aide de Visio Services dans Microsoft SharePoint Server 2013.
-ms.openlocfilehash: 614c01f12b9a7525620704e5417a106e8703c983
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: df1beb45c6709cac8aa96525b7e068b337d8c791
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538374"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565932"
 ---
 # <a name="publishedpage-element-publishsettings_type-complextype-visio-xml"></a>Élément PublishedPage (PublishSettings_Type complexType) (Visio XML)
 

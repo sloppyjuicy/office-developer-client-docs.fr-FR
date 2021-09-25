@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb609459(v=office.15)
 ms:contentKeyID: 55119778
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 772d857e10068871de16c2a3cd0528ab08088631
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ceeb18bd4ec721f74dc63f086fba95999c298e78
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270248"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574600"
 ---
 # <a name="objects-in-the-outlook-pia"></a>Objets dans l’assembly PIA Outlook
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm860
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c44457ca-997a-5315-44dd-4218e4203550
 description: Indique le rayon de l'arrondi qui est appliqué lorsque deux segments contigus d'un chemin se rejoignent. Par exemple, l'arrondi permet d'attribuer des angles arrondis à un rectangle. Pour le définir, entrez une valeur associée à des unités de mesure (une paire nombre-unité).
-ms.openlocfilehash: d64d3266e3dd2b0a3998955efe271aab04905fbf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8012422c654b3090ee2c007ce8911e53eef28cfd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427009"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607793"
 ---
 # <a name="rounding-cell-line-format-section"></a>Rounding, cellule (section Line Format)
 

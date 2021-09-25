@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ITableData.HrGetView
 api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 375a0f1d39b09b7ad453120f20752e00ffda0e15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7567113d1247b55f1ee5a609964728980d928cac
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278714"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613778"
 ---
 # <a name="itabledatahrgetview"></a>ITableData::HrGetView
 
@@ -36,7 +36,7 @@ HRESULT HrGetView(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpSSortOrderSet_
   

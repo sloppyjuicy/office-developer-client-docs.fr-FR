@@ -8,19 +8,19 @@ f1_keywords:
 - xlfEvaluate
 keywords:
 - fonction xlfevaluate [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 527f7e932a41103c374e327a1bd0dd4c7d8e92a0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 06526e4cf699cc24fd2cbc9d4cf54d6a018f9d99
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439183"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557595"
 ---
 # <a name="xlfevaluate"></a>xlfEvaluate
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Utilise l’Microsoft Excel’analyseur et l’évaluateur de fonction pour évaluer toute expression qui pourrait être entrée dans une cellule de feuille de calcul.
   
@@ -28,7 +28,7 @@ Utilise l’Microsoft Excel’analyseur et l’évaluateur de fonction pour éva
 Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pxFormulaText (xltypeStr)_
   

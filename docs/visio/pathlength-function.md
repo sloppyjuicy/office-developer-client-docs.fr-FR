@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f47ea08-fb5e-7d48-e84a-2a6570564924
 description: Renvoie la longueur du chemin défini dans la section Geometry spécifiée.
-ms.openlocfilehash: e4f90c2bb886f54164bedab5f8d78fc528758414
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: da00d0b144be5526eaa8d253b7b52a397af68538
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405848"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608068"
 ---
 # <a name="pathlength-function"></a>Fonction PATHLENGTH
 

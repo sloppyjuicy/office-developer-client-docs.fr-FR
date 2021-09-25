@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRadioTelephoneNumber
 api_type:
 - COM
 ms.assetid: d6c9b30c-1eb3-45e8-b50a-e664610bc346
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b337c67f1f426715458d5ea31c0a679144c8c3db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 555226de25dbc92fd6d0945684714c657c94c0cd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286349"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574803"
 ---
 # <a name="pidtagradiotelephonenumber-canonical-property"></a>Propriété canonique PidTagRadioTelephoneNumber
 

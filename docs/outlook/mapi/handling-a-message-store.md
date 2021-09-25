@@ -3,17 +3,17 @@ title: Gestion d’une banque de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7eca0e1f-a855-4ef7-b892-0bddee59de5e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 933dbd95a4b2f82d78e6e8035936eb2be4ba09ec
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b696bad603e8cf3b2b4cde402905360dcf09b10d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407542"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614093"
 ---
 # <a name="handling-a-message-store"></a>Gestion d’une banque de messages
   

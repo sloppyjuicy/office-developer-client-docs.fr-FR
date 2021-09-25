@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251373
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92ec9b11-f53f-a1c9-832a-6cac08aa5379
 description: Détermine, en unités de page, la distance du décalage horizontal entre l'ombre d'une forme et la forme.
-ms.openlocfilehash: fbc7d37fc8ba45f3219af6a4350301102954f23d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2f0bb37cb7f79f5721a5e4a7a0b98aacd5cdd99f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431651"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607660"
 ---
 # <a name="shdwoffsetx-cell-page-properties-section"></a>ShdwOffsetX, cellule (section Page Properties)
 

@@ -8,19 +8,19 @@ f1_keywords:
 - xlAutoRemove
 keywords:
 - fonction xlautoremove [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: af8bd2d44883b1820be42b82d4fe4794fa29caab
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5d86d08d05070adb127282cd07a496498fff0567
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425476"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557588"
 ---
 # <a name="xlautoremove"></a>xlAutoRemove
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Appelé par Microsoft Excel chaque fois que l’utilisateur désactive le XLL pendant une session Excel à l’aide du gestionnaire Add-In client. Cette fonction n’est pas appelée lors de la fermeture normale ou anormale d’une session Excel lorsque le complément est installé.
   

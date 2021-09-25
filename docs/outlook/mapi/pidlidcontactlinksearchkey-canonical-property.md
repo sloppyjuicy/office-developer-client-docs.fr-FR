@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidContactLinkSearchKey
 api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ea815631f63b5585a3f2705cfbd2639b8c655e6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c455687a44b0f35a237638eb0c951042a1346932
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319774"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583883"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>Propriété canonique PidLidContactLinkSearchKey
 
@@ -35,7 +35,7 @@ Contient la liste **de SearchKeys pour** le contact lié par cet objet de messag
    
 ## <a name="remarks"></a>Remarques
 
-|**Longueur en octets**|**Description**|**Notes**|
+|**Longueur en octets**|**Description**|**Remarques**|
 |:-----|:-----|:-----|
 |2  <br/> |ContactEntryCount  <br/> |Aucun  <br/> |
 |variable  <br/> |Données SearchKey  <br/> |Répète les heures ContactEntryCount  <br/> |

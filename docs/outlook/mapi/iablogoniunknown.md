@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IABLogon
 api_type:
 - COM
 ms.assetid: fe340182-f41e-42e7-b8e8-cc005b1e9a5f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fc8615fcd984623ae9c17c45fb7b51a4498a723b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d2f7bfd8c1bcc15cc12e4ab6efd26b0591f11b27
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431077"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614023"
 ---
 # <a name="iablogon--iunknown"></a>IABLogon : IUnknown
 

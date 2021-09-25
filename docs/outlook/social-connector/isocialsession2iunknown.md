@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f516e86e-0158-472b-9711-fe7491b24404
 description: Prend en charge l’ajout d’amis, la synchronisation à la demande ou hybride d’amis, la synchronisation à la demande des activités ou la connexion au réseau social à l’aide d’informations d’identification mises en cache.
-ms.openlocfilehash: 6dc581bb812408d7e01f94c375671783445616a1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4c6b34b01092c215cca5c18d332c3ec6e28647fd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408830"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574502"
 ---
 # <a name="isocialsession2--iunknown"></a>ISocialSession2 : IUnknown
 

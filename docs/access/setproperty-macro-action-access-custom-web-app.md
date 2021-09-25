@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e97dd95-23f6-4f49-b3b9-2c7261b3a70d
 description: Vous pouvez utiliser l’action DéfinirProperty pour définir une propriété pour un contrôle sur un affichage.
-ms.openlocfilehash: 1876be32606d66e0570c9e69206a508b8888b157
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1f72d038d522b9ed6e1b1c6d27dd948d8ee7352a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438028"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601491"
 ---
 # <a name="setproperty-macro-action-access-custom-web-app"></a>SetProperty Macro Action (Application web personnalisée Access)
 
@@ -28,7 +28,7 @@ Vous pouvez utiliser **l’action DéfinirProperty** pour définir une propriét
 |**Argument de l'action**|**Description**|
 |:-----|:-----|
 | _Nom du contrôle_ : <br/> |Tapez le nom du champ ou du contrôle pour lequel vous souhaitez définir la valeur d’une propriété. Laissez cet argument vide pour définir la propriété de l’affichage.  <br/> |
-| _Property_ <br/> |Sélectionnez la propriété dont la valeur doit être définie. Consultez la section **Remarques** de cet article pour accéder à la liste des propriétés qui peuvent être définies via cette action.<br/> |
+| _Propriété_ <br/> |Sélectionnez la propriété dont la valeur doit être définie. Consultez la section **Remarques** de cet article pour accéder à la liste des propriétés qui peuvent être définies via cette action.<br/> |
 | _Valeur_ <br/> |Tapez la valeur que vous souhaitez définir pour la propriété. Pour les propriétés dont la valeur doit être définie sur Oui ou Non, utilisez **-1** pour Oui et **0** pour Non.<br/> |
    
 ## <a name="remarks"></a>Remarques

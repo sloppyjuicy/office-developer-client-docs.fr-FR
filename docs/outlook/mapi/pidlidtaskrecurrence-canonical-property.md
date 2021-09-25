@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidTaskRecurrence
 api_type:
 - COM
 ms.assetid: e675bfdd-7598-45f3-a5aa-23b4734670dc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7406bdac6df511ee546f9bf8aa4e5232586a31ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: de3f6f60ab781011124cb4118e265f1a8d747dd0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316624"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583652"
 ---
 # <a name="pidlidtaskrecurrence-canonical-property"></a>Propriété canonique PidLidTaskRecurrence
 

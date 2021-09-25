@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b7da082-5e55-411d-b109-7fb6fa8f6e8e
 description: Contient les coordonnées x et y du point de terminaison d’un arc elliptique par rapport à la largeur et à la hauteur de la forme, les coordonnées x et y des points de contrôle sur l’arc par rapport à la largeur et à la hauteur de la forme, l’angle entre l’axe x et l’axe principal de l’ellipse, ainsi que le rapport entre les axes principal et mineur de l’ellipse.
-ms.openlocfilehash: e38f5f2baf6bb9ade31c2778799a3ece968147f4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ce97c531e199acc74c0b3581dcf24e72dbf2899b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409096"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607821"
 ---
 # <a name="relellipticalarcto-row-geometry-section"></a>RelEllipticalArcTo Row (Geometry Section)
 
@@ -34,6 +34,6 @@ Une **ligne RelEllipticalArcTo contient** les cellules suivantes.
    
 ## <a name="remarks"></a>Remarques
 
-Les valeurs de la **ligne RelEllipticalArcTo** sont équivalentes aux valeurs d’une ligne [EllipticalArcTo,](ellipticalarcto-row-geometry-section.md) multipliées par la largeur et la hauteur de la forme. Par exemple : une ligne **RelEllipticalArcTo** où les cellules **X,** **Y,** **A,** **B,** **C** et **D** ont les valeurs 1, 1, 1.5, 0.5, 15 deg et 1.5 (respectivement) peuvent être remplacées par une ligne **EllipticalArcTo** avec les formules de cellule  `Width*1` , , , ,  `Height*1'`  `Width*1.5`  `Height*0.5` 15 deg et 1,5 (respectivement).
+Les valeurs de la **ligne RelEllipticalArcTo** sont équivalentes aux valeurs d’une ligne [EllipticalArcTo,](ellipticalarcto-row-geometry-section.md) multipliées par la largeur et la hauteur de la forme. Par exemple : une ligne **RelEllipticalArcTo** où les cellules **X,** **Y,** **A,** **B,** **C** et **D** ont les valeurs 1, 1, 1.5, 0.5, 15 deg et 1.5 (respectivement) peuvent être remplacées par une ligne **EllipticalArcTo** avec les formules de cellule  `Width*1` , ,  `Height*1'`  `Width*1.5`  `Height*0.5` 15 deg et 1,5 (respectivement).
   
 

@@ -3,17 +3,17 @@ title: Développement d’un fournisseur de carnet d’adresses MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 821cc42d-eebb-4327-b2d4-594421a5c22c
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1db3ce53a1da60d946e52a03369c10547676277f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b1caebdf75d6b7b7d84e786585199f2e780caa05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409369"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592500"
 ---
 # <a name="developing-a-mapi-address-book-provider"></a>Développement d’un fournisseur de carnet d’adresses MAPI
 

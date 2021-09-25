@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ffa0de2-5abb-4375-9fb5-042ce3c21506
 description: Un bloc de données ForEachRecord répète un ensemble d’instructions pour chaque enregistrement d’un domaine.
-ms.openlocfilehash: 9715824bff7d478fa2880ada5e8770f7a0c88883
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 65c87cfd44796d16310c38da303dfcd3c7c81384
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428234"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601540"
 ---
 # <a name="foreachrecord-data-block-access-custom-web-app"></a>ForEachRecord Data Block (Access custom web app)
 

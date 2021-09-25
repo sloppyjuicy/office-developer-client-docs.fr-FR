@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b86242f3-dfd7-398e-a054-93db85b69752
 description: Renvoie le accountsendstamp.
-ms.openlocfilehash: d860a117e4ab5470f84ff1807cb6246cd852d24b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b86fb4526703802e843f3976655621c4eb676e76
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423005"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601148"
 ---
 # <a name="prop_acct_send_stamp"></a>PROP_ACCT_SEND_STAMP
 

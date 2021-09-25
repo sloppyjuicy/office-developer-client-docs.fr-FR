@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagBusiness2TelephoneNumber
 api_type:
 - HeaderDef
 ms.assetid: 53d94bdb-b95b-48de-bbad-1263ff53e379
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3fdfd8b4c2b1b71b3f3e8f6584b71d9d6b0cf424
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 687ea847c8efa610dbdf5c0221deda4eebab739d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345730"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613638"
 ---
 # <a name="pidtagbusiness2telephonenumber-canonical-property"></a>Propriété canonique PidTagBusiness2TelephoneNumber
 

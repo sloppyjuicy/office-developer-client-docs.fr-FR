@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052904
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: b8374832ad6cd6bac30fa9d129e54fb6ab4c8fd4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 037749f9dfe94cb85bf6444f6d349c861b667ba7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306985"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557882"
 ---
 # <a name="relationsappend-method-dao"></a>Relations.Append, méthode (DAO)
 
@@ -30,7 +30,7 @@ Ajoute un nouvel objet **Relation** à la collection **Relations**.
 
 *expression* Variable qui représente un objet **Relations.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

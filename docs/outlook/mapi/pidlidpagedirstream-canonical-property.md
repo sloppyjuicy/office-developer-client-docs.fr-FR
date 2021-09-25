@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidPageDirStream
 api_type:
 - COM
 ms.assetid: e94f0daf-fccb-41b6-b38b-5ef4167a6e9d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 831c7a200eb1f9bf7db647eeb9b6b778269baea6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1d57fe8a500daad44f97a05fb37c80f6c3df7b0c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334789"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583743"
 ---
 # <a name="pidlidpagedirstream-canonical-property"></a>Propriété canonique PidLidPageDirStream
 

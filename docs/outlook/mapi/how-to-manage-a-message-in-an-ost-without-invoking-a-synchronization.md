@@ -3,15 +3,15 @@ title: Gérer les messages en mode OST sans avoir à invoquer une synchronisatio
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
 description: Contient un exemple de code en C++ qui montre comment utiliser IID_IMessageRaw dans IMsgStore::OpenEntry pour obtenir une interface IMessage qui gère un message dans un fichier de dossiers hors connexion (OST) sans forcer le téléchargement de l’intégralité du message lorsque le client est en mode Exchange mis en cache.
-ms.openlocfilehash: e50637b496ff43daedad2df27d027d8a6d0dc743
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e78743e6e84293d6507762380ac9b1952e420dd7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418756"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59614072"
 ---
 # <a name="manage-messages-in-ost-without-invoking-a-synchronization-in-cached-exchange-mode"></a>Gérer les messages en mode OST sans avoir à invoquer une synchronisation en mode Exchange mis en cache
 

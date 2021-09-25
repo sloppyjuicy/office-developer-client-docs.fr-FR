@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: Spécifie le type de connexion chiffrée à utiliser pour un compte SMTP.
-ms.openlocfilehash: 67eae5c9c5ca1b7f664ceaac0463ef3f3c9a291a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eb267e71f63bd02dc0268e06f62b288f56e4db11
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421283"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59592731"
 ---
 # <a name="prop_smtp_secure_connection"></a>PROP_SMTP_SECURE_CONNECTION
 

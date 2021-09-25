@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a570735-7aa6-45ed-922e-c659a266de76
 description: ''
-ms.openlocfilehash: 90394c29d74ce1ae1967598c159b22ecfa3bd4f2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d6250b6bda21761f55036730c70b2128968e7a16
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557714"
 ---
 # <a name="filterquerysearch-access-custom-web-app"></a>Filtre/requête/recherche (application web personnalisée Access)
 

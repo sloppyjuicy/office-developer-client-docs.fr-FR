@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm575
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d58e23e-b411-c5c1-b785-5014488d42c8
 description: Définit l'écart horizontal entre tous les connecteurs et les formes de la page de dessin.
-ms.openlocfilehash: c5a27edb25ce7b1449ad6e2988027b474bd79fdb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a634e8d3b67566e63286a040f5bb112b63d7ad6e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439708"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59565995"
 ---
 # <a name="linetonodex-cell-page-layout-section"></a>LineToNodeX, cellule (section Page Layout)
 

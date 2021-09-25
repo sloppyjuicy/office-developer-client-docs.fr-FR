@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251813
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 757861ab-7b92-b67a-67ea-8dcbc2ea7573
 description: ''
-ms.openlocfilehash: 5a0685e36bbc2af3250934a70651d97f1bb158b4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5d975b3cfc5cf462fb58d45e9ab43586a3ec5c40
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412001"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574390"
 ---
 # <a name="display-formulas-or-values-in-cells"></a>Afficher des formules ou des valeurs dans les cellules
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm545
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0649672f-f496-ce80-6dc3-3affc9b6f913
 description: Détermine la taille des déviations sur les connecteurs dynamiques horizontaux de la page par rapport à la valeur de la cellule LineToLineX. La valeur de cette cellule est comprise entre 0 et 10 mais des valeurs fractionnelles de 0 à 1 sont proposées.
-ms.openlocfilehash: 8698d99021ca64415417de8e946cbd80b586e759
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 10ca7e60fb809b6adcdef6960322002ee18d0f80
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424993"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59566002"
 ---
 # <a name="linejumpfactorx-cell-page-layout-section"></a>LineJumpFactorX, cellule (section Page Layout)
 

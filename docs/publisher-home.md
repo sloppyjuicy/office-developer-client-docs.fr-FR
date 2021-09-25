@@ -3,15 +3,15 @@ title: Publisher
 manager: kelbow
 ms.date: 12/13/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0f11822-d45e-48e6-bf59-990164e3d6d9
 description: Accédez à des procédures, des articles techniques et des références pour le développement de solutions et la personnalisation de Publisher.
-ms.openlocfilehash: 16e250b1b04a2c5c63e19aa3a6b7e0ad0cd1caef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.openlocfilehash: e5b421b0eb34330ec07418a04ad415edabc0e4a9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360682"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574446"
 ---
 # <a name="publisher"></a>Publisher
 

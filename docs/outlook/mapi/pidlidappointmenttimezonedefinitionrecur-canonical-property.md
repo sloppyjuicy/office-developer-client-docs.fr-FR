@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidAppointmentTimeZoneDefinitionRecur
 api_type:
 - COM
 ms.assetid: 52fd57a0-9e34-4452-9ecd-2acb454446c9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e5e9b06178a1517fc1c8652b0d667faf1afc77cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 83e72d3862ef38d93dace38b91e7a8a70ecb538c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345352"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583932"
 ---
 # <a name="pidlidappointmenttimezonedefinitionrecur-canonical-property"></a>Propriété canonique PidLidAppointmentTimeZoneDefinitionRecur
 
@@ -37,7 +37,7 @@ Contient un flux qui ma visite le format persistant d’une structure [TZDEFINIT
    
 ## <a name="remarks"></a>Remarques
 
-Les versions de Microsoft Outlook depuis Microsoft Office Outlook 2007 et les solutions basées sur CDO (Collaboration Data Objects) 1.2.1 qui exécutent l’outil de mise à jour du calendrier Outlook ou Exchange Server utilisent les propriétés **dispidApptTZDefRecur** et **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)) pour déterminer si la réunion périodique doit être ajustée si les règles du fuseau horaire changent. Ces propriétés doivent être synchronisées, car les clients plus anciens peuvent toujours manipuler la **propriété dispidTimeZoneStruct.** Pour détecter si les deux propriétés sont synchronisées, le membre **wFlags** de la règle qui correspond à **dispidTimeZoneStruct** doit avoir l’indicateur TZRULE_FLAG_RECUR_CURRENT_TZREG définie. Si cet indicateur n’est pas définie ou si elle est définie et que la règle dans la propriété **dispidTimeZoneStruct** ne correspond pas à la règle marquée, la propriété **dispidApptTZDefRecur** doit être ignorée et **dispidTimeZoneStruct** doit être utilisée à la place. 
+Les versions de Microsoft Outlook depuis Microsoft Office Outlook 2007 et les solutions basées sur CDO (Collaboration Data Objects) 1.2.1 qui exécutent l’outil de mise à jour du calendrier Outlook ou Exchange Server utilisent les propriétés **dispidApptTZDefRecur** et **dispidTimeZoneStruct** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)) pour déterminez si la réunion périodique doit être ajustée si les règles du fuseau horaire changent. Ces propriétés doivent être synchronisées, car les clients plus anciens peuvent toujours manipuler la **propriété dispidTimeZoneStruct.** Pour détecter si les deux propriétés sont synchronisées, le membre **wFlags** de la règle qui correspond à **dispidTimeZoneStruct** doit avoir l’indicateur TZRULE_FLAG_RECUR_CURRENT_TZREG définie. Si cet indicateur n’est pas définie ou si elle est définie et que la règle dans la propriété **dispidTimeZoneStruct** ne correspond pas à la règle marquée, la propriété **dispidApptTZDefRecur** doit être ignorée et **dispidTimeZoneStruct** doit être utilisée à la place. 
   
 Lorsque vous écrivez les propriétés **dispidApptTZDefRecur** et **dispidTimeZoneStruct** dans une nouvelle réunion périodique, ou lorsque vous faites un choix arbitraire d’utiliser la propriété **dispidTimeZoneStruct,** la définition actuelle du fuseau horaire (conformément au Registre Windows) doit être utilisée. 
   

@@ -8,19 +8,19 @@ f1_keywords:
 - xlGetHwnd
 keywords:
 - fonction xlgethwnd [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ab4ac1bc040ef2ea9bca182624111e03722c5200
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7698404927e11adec70341e791eacf389aafa4f0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425455"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557602"
 ---
 # <a name="xlgethwnd"></a>xlGetHwnd
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Renvoie le handle de fenêtre de la fenêtre de niveau Microsoft Excel niveau supérieur.
   
@@ -29,7 +29,7 @@ Excel4(xlGetHwnd, LPXLOPER pxRes, 0); /* returns low part only */
 Excel12(xlGetHwnd, LPXLOPER12 pxRes, 0); /* returns full handle */
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 Cette fonction n’a pas d’arguments.
   

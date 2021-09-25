@@ -8,15 +8,15 @@ f1_keywords:
 - xlAutoClose
 keywords:
 - fonction xlAutoClose [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 147e46cd-d4d7-49eb-acdc-5a2ebc2fb6c2
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e27ac922c4ba53a30e8e485d3210acc62b7d4bd3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d4ab67ecc5d94dbd021094e60281031faf8d1085
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415858"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59557609"
 ---
 # <a name="xlautoclose"></a>xlAutoClose
 
