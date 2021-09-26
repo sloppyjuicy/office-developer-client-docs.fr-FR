@@ -3,17 +3,17 @@ title: Envoi de Messages  T�ches de fournisseur de banque de messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: de29707c7a257ea0e7ad658622d2a3054487f8b5
-ms.sourcegitcommit: adcf409d56b6cb25be6117f09794defa41ad6c0f
+ms.openlocfilehash: 3597a74ef789ea591a82a569069679a3dd8e449e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "37495305"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624243"
 ---
 # <a name="sending-messages-message-store-provider-tasks"></a>Sending Messages: Message Store Provider Tasks
 

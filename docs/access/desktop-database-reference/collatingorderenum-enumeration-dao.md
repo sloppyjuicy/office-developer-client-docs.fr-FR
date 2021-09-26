@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193485(v=office.15)
 ms:contentKeyID: 48544667
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: eae8c2a4bead84f76f8aaf07412da7f70e086000
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ba00e459e62a2c87c43ee19dbd1958f42ee0cc0e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296261"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627029"
 ---
 # <a name="collatingorderenum-enumeration-dao"></a>CollatingOrderEnum, éumération (DAO)
 

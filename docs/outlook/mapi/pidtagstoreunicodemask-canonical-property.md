@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagStoreUnicodeMask
 api_type:
 - COM
 ms.assetid: a6082162-2a74-4850-a0df-4bdbc67b41d8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e15c259003ed2cb425eb181f4383f3054967b993
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 438c770e9c004973e6635d575b7a8134891ee964
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437937"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629703"
 ---
 # <a name="pidtagstoreunicodemask-canonical-property"></a>Propriété canonique PidTagStoreUnicodeMask
 

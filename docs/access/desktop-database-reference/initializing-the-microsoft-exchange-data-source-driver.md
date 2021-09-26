@@ -10,13 +10,13 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: b3460786785ae7b21184b6d96384ecc59e89d287
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 1365e21a7b316d6513d1aad2e62a08c60f24289b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291406"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631957"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Initialisation du pilote de source Exchange données Microsoft
 

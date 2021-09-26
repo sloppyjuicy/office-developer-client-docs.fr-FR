@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250021(v=office.15)
 ms:contentKeyID: 48547773
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2ded9721eb2af2f409a4b4a6ea261898a4d1b3fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2fc5d2ba4fe60b86bc9c067cbe4a65223d8fd2d9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288006"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626231"
 ---
 # <a name="parameterattributesenum"></a>ParameterAttributesEnum
 
@@ -37,7 +37,7 @@ Spécifie les attributs d’un objet [Parameter](parameter-object-ado.md).
 <tbody>
 <tr class="odd">
 <td><p><strong>adParamSigned</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 <td><p>Indique que le paramètre accepte les valeurs signées.</p></td>
 </tr>
 <tr class="even">

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm880
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a1736a5c-421c-2bdb-b164-76a8cd06cc3d
 description: Indique le comportement du positionnement d'une forme positionnable.
-ms.openlocfilehash: eae44a0579129fbe8da1c0cc8c37318beb024563
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 71dcee0cd60f702c138389c437c6dc4eb4895eb2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431742"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627477"
 ---
 # <a name="shapefixedcode-cell-shape-layout-section"></a>ShapeFixedCode, cellule (section Shape Layout)
 

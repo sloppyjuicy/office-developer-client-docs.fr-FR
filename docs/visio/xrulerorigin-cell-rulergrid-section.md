@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1170
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 328f8ab5-217f-0336-0d56-611eff509fe8
 description: Indique le point zéro sur l'axe x de la règle de la page.
-ms.openlocfilehash: d66fd324718ec46b1209c4726eeb2d27c21db8b0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5788094abad6cadc2b32f8a9fe9d7e2a80c4209b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435326"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622577"
 ---
 # <a name="xrulerorigin-cell-ruler-amp-grid-section"></a>XRulerOrigin, cellule (section Ruler &amp; Grid)
 

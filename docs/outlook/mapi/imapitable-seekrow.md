@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPITable.SeekRow
 api_type:
 - COM
 ms.assetid: 93ac63ae-f254-45e1-a9b1-347d69d2ed9f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fbc990a8c962883aa07987b200d1d2fd55434f93
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0b54979a9cd61985de58f1d11ddf741f435e8a60
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413044"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630585"
 ---
 # <a name="imapitableseekrow"></a>IMAPITable::SeekRow
 
@@ -35,7 +35,7 @@ LONG FAR * lplRowsSought
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _bkOrigin_
   

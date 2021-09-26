@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844921(v=office.15)
 ms:contentKeyID: 48543032
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4da32f18a2b3e9dddbb0ae04e3257de34ba09761
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 744deba962bec5067a3de3a296bb4e611a573887
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292663"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626700"
 ---
 # <a name="field2type-property-dao"></a>Field2.Type, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. Type **Integer** en lecture-écriture.
+Définit ou renvoie une valeur qui indique le type opérationnel ou le type de données d'un objet. **Integer** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 

@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053320
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: af1a531e57aaca7d497f3f71d6c16e8ea1bab177
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: dfb3799221bd8a5bafcc9a2f1d0aa977d00009d4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293825"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59632034"
 ---
 # <a name="documentcontainer-property-dao"></a>Document.Container, propriété (DAO)
 

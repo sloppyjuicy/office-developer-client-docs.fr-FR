@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: fcab369a-a1f4-4425-a272-e35046914a4d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9e6b9ddf37c1db8ea28ae2f82caed2a487e551e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 59d604d347ff0788c5075a828a42ef47cb3b6212
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345464"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624509"
 ---
 # <a name="pidtagsearchkey-canonical-property"></a>Propriété canonique PidTagSearchKey
 

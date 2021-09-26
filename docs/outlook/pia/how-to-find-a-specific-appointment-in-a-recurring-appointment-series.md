@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184586(v=office.15)
 ms:contentKeyID: 55119812
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 19502895996d4777f2d1a6887aa80883a5398a09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 8b82fa0e06ec8d31043e56fe436f92d8fa182657
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320250"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629318"
 ---
 # <a name="find-a-specific-appointment-in-a-recurring-appointment-series"></a>Trouver un rendez-vous spécifique dans une série de rendez-vous périodiques
 

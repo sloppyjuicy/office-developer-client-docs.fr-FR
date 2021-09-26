@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251345
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
 description: Produit une chaîne qui détermine l’ordre dans lequel les éléments de la fenêtre Données de forme sont présentés.
-ms.openlocfilehash: d166ea18a36f6a4101b8933fce804be2243954bb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dc777cf087ba64ba96374e9363eb202be03a9060
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417853"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627379"
 ---
 # <a name="sortkey-cell-shape-data-section"></a>SortKey, cellule (section Shape Data)
 

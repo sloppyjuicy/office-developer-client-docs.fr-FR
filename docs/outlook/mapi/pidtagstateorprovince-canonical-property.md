@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagStateOrProvince
 api_type:
 - COM
 ms.assetid: 5f17874f-fab5-4119-b2eb-845c1f70d882
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 81beb448c7cdb65ec44b9106bafa3b1636d9c7fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 30067667305e601cb09307c12bb35d623d52b2a6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278840"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624481"
 ---
 # <a name="pidtagstateorprovince-canonical-property"></a>Propriété canonique PidTagStateOrProvince
 

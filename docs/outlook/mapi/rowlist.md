@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.ROWLIST
 api_type:
 - COM
 ms.assetid: ce0be0d5-4962-4d53-828f-c93d1c5aae32
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c13b741b1e0ddfd964b9325d736a26dac4bff2af
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2b2e5255ef48fa90ce57e8b80d9e0a9214fca3f7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419183"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624271"
 ---
 # <a name="rowlist"></a>ROWLIST
 

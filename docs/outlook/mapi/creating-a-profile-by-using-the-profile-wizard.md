@@ -3,17 +3,17 @@ title: Création d’un profil à l’aide de l’Assistant Profil
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4b611818-f99f-43a2-9f6b-1aa5b9564d1d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: a93cfb05d8abfffc9f55a7ea48efc3c3451dddbb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eed28b64effa080a604e1ea97ddf5911796e07ce
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411735"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631033"
 ---
 # <a name="creating-a-profile-by-using-the-profile-wizard"></a>Création d’un profil à l’aide de l’Assistant Profil
 

@@ -3,15 +3,15 @@ title: Autres concepts de sécurité pour les formulaires InfoPath
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 77425a61-bf33-b3d8-442a-caee48e54a48
 description: Le modèle de sécurité Microsoft InfoPath repose sur le modèle de sécurité mis en œuvre par Internet Explorer. Le modèle de sécurité Internet Explorer contribue à protéger votre ordinateur contre les opérations risquées en utilisant des zones et des niveaux de sécurité. En collaborant avec le modèle de sécurité Internet Explorer, InfoPath fournit deux types de déploiement de formulaires qui affectent le fonctionnement d'un formulaire InfoPath au sein de ce modèle de sécurité.
-ms.openlocfilehash: 00b0e306507db19f55059fba91277af1ad1714b9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7d3e06f279eace2e750904cfd741d7ffeff5ac9e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303772"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631369"
 ---
 # <a name="additional-infopath-form-security-concepts"></a>Autres concepts de sécurité pour les formulaires InfoPath
 

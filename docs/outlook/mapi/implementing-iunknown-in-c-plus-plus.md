@@ -3,17 +3,17 @@ title: Implémentation d’IUnknown dans C++
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 08f3f3f937320d8a986b2002c761a37f0f749227
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c64f29c91341209988f7980957468cd96ff70779
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330176"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630550"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implémentation d’IUnknown dans C++
 

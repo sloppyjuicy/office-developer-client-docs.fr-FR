@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836907(v=office.15)
 ms:contentKeyID: 48548761
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 90378dc61d12485a290bbd7857d026a46cd9da96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4081902037e33b5ed940e44b2b27f4ffd75593e2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307398"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631782"
 ---
 # <a name="recordset2cancelupdate-method-dao"></a>Recordset2.CancelUpdate, méthode (DAO)
 
@@ -26,7 +26,7 @@ Annule les mises à jour en attente pour un objet **[Recordset](recordset-object
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

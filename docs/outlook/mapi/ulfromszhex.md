@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.UlFromSzHex
 api_type:
 - COM
 ms.assetid: e2d6b6bf-f96d-460c-859a-21961ac9237c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 950f5513696a9dd9d52db7b7ee912d3f7d12cc48
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7d545e93d9ebd746d50c1e5d4db55f2114551ca1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433051"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623991"
 ---
 # <a name="ulfromszhex"></a>UlFromSzHex
 
@@ -39,7 +39,7 @@ LPCSTR lpsz
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpsz_
   

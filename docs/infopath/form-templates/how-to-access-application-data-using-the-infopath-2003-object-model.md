@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], accessing data using 2003 object model,InfoPath 2003-compatible form templates, accessing application data
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da604c72-c760-4aa3-9574-d59c392753df
 description: Le modèle objet compatible avec InfoPath 2003 fournit des objets et des collections permettant d'accéder aux informations sur l'application InfoPath, notamment des informations relatives au document XML sous-jacent d'un formulaire et au fichier de définition du formulaire (.xsf). Ces données sont accessibles via l'objet de niveau supérieur dans la hiérarchie du modèle objet d'InfoPath, qui est instancié via l'interface Application .
-ms.openlocfilehash: 849882a97109d91a5807a6798d5a62457ab971fd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 006ae3d7d00f7137fd0acd521ed66731a8d73417
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437440"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631350"
 ---
 # <a name="access-application-data-using-the-infopath-2003-object-model"></a>Accéder aux données d’application à l’aide du modèle objet InfoPath 2003
 

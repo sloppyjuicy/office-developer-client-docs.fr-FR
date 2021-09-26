@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184655(v=office.15)
 ms:contentKeyID: 55119850
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 27a9efb76fdbb1c6ac6b0b57e874ca59d002b928
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2f29503f24e5b9df8c034db9a37722e3049db9d2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321328"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623801"
 ---
 # <a name="add-a-folder-to-the-folder-list"></a>Ajouter un dossier à la liste des dossiers
 

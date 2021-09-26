@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.STATUS_OBJECT_NOTIFICATION
 api_type:
 - COM
 ms.assetid: 2872130d-a36b-46ea-bfd1-4700fe3dd41b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 84b44b4b054a2b2617502a6a463a6d4a89546804
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cc0f0b2145b84db8e08dacb56279ef268645ef46
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426267"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624131"
 ---
 # <a name="status_object_notification"></a>STATUS_OBJECT_NOTIFICATION
 

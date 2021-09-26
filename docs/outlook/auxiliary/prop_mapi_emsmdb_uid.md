@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e5b42e3-844f-488c-ba6f-b74c447b1d59
 description: Représente une structure ACCT_BIN qui contient l’UID d’un compte Exchange client.
-ms.openlocfilehash: 6bb529da82cc24e41ddc70c5031f84050a2ece25
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 37718121de2aa8937dd9f1b78244d8da6fc0b662
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326550"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631138"
 ---
 # <a name="prop_mapi_emsmdb_uid"></a>PROP_MAPI_EMSMDB_UID
 

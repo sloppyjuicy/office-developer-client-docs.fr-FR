@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1080
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 description: Définit le format d'un champ inséré dans les versions de Visio antérieures à Visio 2000.
-ms.openlocfilehash: 16cefc5f45d6b5f0f677e35bd5d0937d48fb2680
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e94f2bf72a026450af93ce789e74b4652447d482
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426365"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627211"
 ---
 # <a name="uiformat-cell-text-fields-section"></a>UIFormat, cellule (section Text Fields)
 

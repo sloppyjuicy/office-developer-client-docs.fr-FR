@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], responding to events,InfoPath 2003-compatible form templates, responding to form events
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: Vous pouvez écrire du code pour répondre à différents événements qui se produisent lorsqu'un utilisateur remplit un formulaire. Pour utiliser des événements dans InfoPath, vous créez des gestionnaires d'événements dans le Concepteur InfoPath.
-ms.openlocfilehash: b7347f882df991e64bdf4e76c471b1220a84dc58
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bf3ad11e63cf975d40d0335d98767fa53876c61e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433492"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631306"
 ---
 # <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Répondre aux événements de formulaire à l’aide du modèle objet InfoPath 2003
 

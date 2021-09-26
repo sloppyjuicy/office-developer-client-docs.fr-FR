@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249475(v=office.15)
 ms:contentKeyID: 48545656
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 6159fb08c321eb63f6ce6817bb30e61440ab3b9f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 321b35bc34df8908d619b2f06b5d48da3a0d6e01
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292033"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626490"
 ---
 # <a name="handling-errors-in-other-languages"></a>Gestion des erreurs dans d’autres langages
 

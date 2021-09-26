@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b2d6b8e-e3dd-4a9b-8bb5-53add675605d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d43a0229f232f9437d1746799534c0f2d6fba83f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 01c0a1c0128e378bb47ce2eade6a3184da87fbb1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346311"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624488"
 ---
 # <a name="pidtagspamthreshold-canonical-property"></a>Propriété canonique PidTagSpamThreshold
 

@@ -7,13 +7,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9d3234f1d5f41fd9f07b8d98bf3df395067780ae
-ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
+ms.localizationpriority: medium
+ms.openlocfilehash: b15abbd02ee91013f6ec2d52c88554d1a4f80d96
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734195"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626546"
 ---
 # <a name="filter-property-ado"></a>Filter, propriété (ADO)
 
@@ -42,7 +42,7 @@ La chaîne de critères est composé de clauses au formulaire *FieldName-Operato
 
   - *L’opérateur* doit être l’un des suivants \<, \> : , \<=, \> =, , = ou \<\> **LIKE**.
 
-  - *La* valeur est la valeur à laquelle vous comparerez les valeurs de champ (par exemple, « Smith » \# 8/24/95, \# 12,345 ou 50,00 $). Utilisez des guillemets simples avec des chaînes et des signes de livre \# () avec des dates. Pour les chiffres, vous pouvez utiliser des virgules, des signes dollar et des symboles mathématiques. Si l’*Operateur* est **LIKE**, la *Valeur* peut contenir des caractères génériques. Uniquement l’astérisque ( \* ) et le signe pourcentage (%) les caractères wild cards sont autorisés et doivent être le dernier caractère de la chaîne. La *Valeur* ne peut pas être nulle.
+  - *La* valeur est la valeur à laquelle vous comparerez les valeurs de champ (par exemple, « Smith » \# 8/24/95, \# 12,345 ou 50,00 $). Utilisez des guillemets simples avec des chaînes et des signes de livre \# () avec des dates. Pour les chiffres, vous pouvez utiliser des virgules, des signes dollar et des symboles mathématiques. Si l’*Operateur* est **LIKE**, la *Valeur* peut contenir des caractères génériques. Seuls l’astérisque () et le signe pourcentage (%) sont autorisés et doivent être le \* dernier caractère de la chaîne. La *Valeur* ne peut pas être nulle.
 
     > [!NOTE]
     > [!REMARQUE] Pour insérer des guillemets simples (') dans la valeur Value du filtre, utilisez deux guillemets simples pour en représenter un. Par exemple, pour créer un filtre O'Malley, la chaîne de critères doit être « col1 = 'O''Malley' ». Pour insérer des guillemets simples au début et à la fin de la valeur du filtre, placez un signe dièse (#) devant et derrière la chaîne. Par exemple, pour filtrer la valeur '1', la chaîne de critères doit apparaître ainsi « col1 = #'1'# ».
@@ -103,7 +103,7 @@ Le tableau suivant résume les effets d' **adFilterPendingRecords** dans différ
 <td><p>Clé unique</p></td>
 <td><p>+</p></td>
 <td><p>-</p></td>
-<td><p>S/O</p></td>
+<td><p>N/A</p></td>
 </tr>
 <tr class="odd">
 <td><p>Clés multiples</p></td>

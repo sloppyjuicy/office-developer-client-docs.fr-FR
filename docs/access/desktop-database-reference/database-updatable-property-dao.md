@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837316(v=office.15)
 ms:contentKeyID: 48548967
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: aa1bc0515121027d3be59505d540640bc40b9585
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 81f7b9fd4d17689ab6e68264c47a5d232b4e57c2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622437"
 ---
 # <a name="databaseupdatable-property-dao"></a>Database.Updatable, propriété (DAO)
 

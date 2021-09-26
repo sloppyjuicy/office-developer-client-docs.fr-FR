@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidClipEnd
 api_type:
 - COM
 ms.assetid: 17c8db96-80dd-4a7a-9a1b-ab1b37ba616c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 71a0a50f26b26d65ed34f38c2a0c7f930e6082a8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 115bf8277089fb74c9c969921cf7cf63793c2891
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349181"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630417"
 ---
 # <a name="pidlidclipend-canonical-property"></a>Propriété canonique PidLidClipEnd
 

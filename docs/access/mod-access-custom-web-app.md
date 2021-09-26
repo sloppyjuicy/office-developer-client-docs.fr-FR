@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 561dd741-ebbb-4661-95ea-39d342c32891
 description: Renvoie le reste d’un nombre divisé par un autre.
-ms.openlocfilehash: 6756dd50f7e062b73d6ec9e1d9753f5b7f188058
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 23543cd192410a58f99d7cccca3f8f27a5946fd3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412505"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631558"
 ---
 # <a name="mod-access-custom-web-app"></a>Mod (application web personnalisée Access)
 

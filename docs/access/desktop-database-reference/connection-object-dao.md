@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836694(v=office.15)
 ms:contentKeyID: 48548690
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 73ede9cae5246db3d802125b0f7c4e6df5347930
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ddc4e580d217d35973fa7a96ad1ed7480fc5aa91
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295862"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627001"
 ---
 # <a name="connection-object-dao"></a>Connection, objet (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
 > [!NOTE]
-> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
 
 Un objet **Connection** représente une connexion à une base de données ODBC (espaces de travail ODBCDirect uniquement).
 

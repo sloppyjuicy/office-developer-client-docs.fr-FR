@@ -3,15 +3,15 @@ title: Installation de l’exemple de add-in d’état hors connexion
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1b6ae6c-dcf2-a07f-c417-3a1049b758ad
 description: 'Last modified: July 06, 2012'
-ms.openlocfilehash: b7b9ce539537e0759020ef7e3b4f6541a940d6fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f57055c0c9b5651023f110e9540a49382f275696
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317212"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630437"
 ---
 # <a name="installing-the-sample-offline-state-add-in"></a>Installation de l’exemple de add-in d’état hors connexion
 

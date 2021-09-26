@@ -3,17 +3,17 @@ title: Propriétés requises pour tous les messages
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: df7e122f-0c44-4d81-8174-3a2d51671ba9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 329841a49154763a3e73a234e28def149719cb08
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eddd98f9e8e32c849129ea240083130b2ea93383
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435977"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624355"
 ---
 # <a name="required-properties-for-all-messages"></a>Propriétés requises pour tous les messages
 

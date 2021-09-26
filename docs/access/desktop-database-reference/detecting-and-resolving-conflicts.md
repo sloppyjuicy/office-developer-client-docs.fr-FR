@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249566(v=office.15)
 ms:contentKeyID: 48545983
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ddd7566be2581fe449872eb576bf7f11e5a806fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f88419ff3830d2f9d25bbe72f912720af7f14694
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293923"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59632062"
 ---
 # <a name="detecting-and-resolving-conflicts"></a>Détection et résolution des conflits
 

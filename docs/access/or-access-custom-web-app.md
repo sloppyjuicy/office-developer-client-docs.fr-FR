@@ -4,15 +4,15 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e7190523-87cf-4e04-aef4-d229776cd16b
 description: Combine deux conditions. Renvoie TRUE lorsque l’une des deux conditions est vraie.
-ms.openlocfilehash: ffa605d2403c5aa8396d89f78d0bb7dd11343540
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 18fefc4f5e17f86ac4a307256f8a5b3a6887cdbe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414759"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631530"
 ---
 # <a name="or-access-custom-web-app"></a>OR (Application web personnalisée Access)
 

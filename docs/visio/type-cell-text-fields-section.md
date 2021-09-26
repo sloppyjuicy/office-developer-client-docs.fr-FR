@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1060
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 69d64520-9a47-07ca-09c7-d1e5da620348
 description: Indique un type de données pour la valeur du champ de texte.
-ms.openlocfilehash: 91a2d60133d9a39e152656558f168742a5409883
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1b03caaa36b6c2fbc06a6295599853ef27d7629e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407983"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627235"
 ---
 # <a name="type-cell-text-fields-section"></a>Type, cellule (section Text Fields)
 
@@ -24,9 +24,9 @@ Indique un type de données pour la valeur du champ de texte.
 |:-----|:-----|
 |0  <br/> |Chaîne.  <br/> |
 |2  <br/> |Nombre. Inclut les valeurs de date, d'heure, de durée ainsi que les valeurs monétaires, les échelles, les cotes et les angles. Entrez un modèle de format dans la cellule Format.  <br/> |
-|5   <br/> |Valeur de date ou d'heure. Affiche les jours, les mois et les années ou les secondes, les minutes et les heures ou encore une date et une heure en même temps. Entrez un modèle de format dans la cellule Format.  <br/> |
-|6   <br/> |Valeur de durée. Affiche le temps écoulé. Entrez un modèle de format dans la cellule Format.  <br/> |
-|7   <br/> |Valeur monétaire. Utilise les paramètres régionaux actuels de votre système d'exploitation. Entrez un modèle de format dans la cellule Format.  <br/> |
+|5  <br/> |Valeur de date ou d'heure. Affiche les jours, les mois et les années ou les secondes, les minutes et les heures ou encore une date et une heure en même temps. Entrez un modèle de format dans la cellule Format.  <br/> |
+|6   <br/> |Valeur de durée. Affiche le temps écoulé. Entrez un modèle de format dans la cellule Format.  <br/> |
+|7   <br/> |Valeur monétaire. Utilise les paramètres régionaux actuels de votre système d'exploitation. Entrez un modèle de format dans la cellule Format.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

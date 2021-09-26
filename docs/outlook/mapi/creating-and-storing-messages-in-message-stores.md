@@ -1,19 +1,19 @@
 ---
-title: Création et stockage des messages dans des banques de messages
+title: Cr�ation et le stockage des Messages dans les banques de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cc74b31c-d7ed-4fcf-9535-a2f9222901b7
-description: 'Dernière modification : 23 juillet 2011'
-ms.openlocfilehash: 7c923a330c542dff8b1bbc476461ccd21680a5b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+description: 'Derniére modification : samedi 23 juillet 2011'
+ms.openlocfilehash: a43569352cdcf8c0a8eac533be7a3b6cb7793652
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332899"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631005"
 ---
 # <a name="creating-and-storing-messages-in-message-stores"></a>Création et stockage des messages dans des banques de messages
 
@@ -23,13 +23,13 @@ ms.locfileid: "32332899"
   
 La façon dont votre fournisseur de banques de messages crée et stocke les messages dans le mécanisme de stockage sous-jacent dépend fortement du mécanisme de stockage sous-jacent lui-même. En règle générale, vous devrez uniquement écrire du code pour conserver les propriétés d’un message et leurs valeurs.
   
-Lorsque le fournisseur de banques de messages crée un message, il doit le créer avec les propriétés requises pour les messages. Une liste de ces propriétés est consultable dans la documentation relative à l’interface [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Après cela, les applications clientes ajoutent des propriétés supplémentaires avec les méthodes [IMAPIProp](imapipropiunknown.md). 
+Lors de la banque de messages fournisseur cr�e un nouveau message, le fournisseur a besoin cr�er le message avec les propri�t�s requises pour les messages. Vous trouverez une liste de ces propri�t�s dans la documentation relative � la [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md) interface. Apr�s cela, les applications clientes ajouter des propri�t�s suppl�mentaires avec les m�thodes [IMAPIProp](imapipropiunknown.md) . 
   
-Lorsque le fournisseur de banques de messages enregistre un message dans le mécanisme de stockage sous-jacent, il doit effectuer une itération sur les propriétés du message et les enregistrer dans le mécanisme de stockage sous-jacent de façon à ce qu’elles puissent être récupérées entièrement si le message est ouvert ultérieurement.
+Lors de la banque de messages fournisseur enregistre un message dans le m�canisme de stockage sous-jacent, le fournisseur a besoin effectuer une it�ration sur les propri�t�s de message, puis enregistrez-les dans le m�canisme de stockage sous-jacent, tels qu'ils peuvent �tre enti�rement r�cup�r�s si le message est ouvert par la suite.
   
-MAPI exige que les propriétés sur les interfaces [IMessage](imessageimapiprop.md) soient traitées, ce qui signifie que les modifications apportées à celles-ci ne deviennent pas permanentes tant que la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) n’est pas appelée sur l’objet de message. Le fournisseur de banques de messages est responsable de l’implémentation de ce comportement. Cette opération n’est généralement pas compliquée. Elle consiste simplement à conserver les propriétés en mémoire pendant qu’elles sont modifiées et à les valider dans le mécanisme de stockage sous-jacent lorsque la méthode **SaveChanges** est appelée. 
+MAPI exige que les propri�t�s sur les interfaces [IMessage](imessageimapiprop.md) sont trait�es, ce qui signifie que les modifications apport�es � leur ne sont pas d�finitive jusqu'� ce que la m�thode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) est appel�e sur l'objet du message. Le fournisseur de banque de messages est responsable de l'impl�mentation de ce comportement. Cela n'est g�n�ralement pas difficile ; Cela signifie simplement que contenant des propri�t�s en m�moire pendant qu'ils sont en cours de modification et les rendre permanentes dans le m�canisme de stockage sous-jacent lorsque **SaveChanges** est appel�e. 
   
-Certaines propriétés sur les objets de message ont une sémantique spéciale pour les applications clientes par rapport à la méthode **SaveChanges**, comme suit : 
+Certaines propri�t�s d'objets de message ont une s�mantique sp�ciale pour les applications clientes par rapport � la m�thode **SaveChanges**, comme suit : 
   
 - Certaines propriétés doivent être en lecture/écriture avant que la méthode **SaveChanges** soit appelée, mais en lecture seule ensuite. Par exemple, la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) est initialement définie par l’application cliente qui crée le message (et est donc en lecture/écriture), mais ne peut pas être modifiée après le premier appel à **SaveChanges**.
     

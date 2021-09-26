@@ -3,17 +3,17 @@ title: Types de propriétés
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 43b0090192a2f9b02acee4edf471c5ae6c6de7e8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d211426240d5bee73c1afb59d8905fefa727e6fc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407052"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624390"
 ---
 # <a name="property-types"></a>Types de propriétés
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb646055(v=office.15)
 ms:contentKeyID: 55119876
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f92891188e7c317465ce70fede1dedca7f6344fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a71fcaf90a49689e14bc67ed2f4f2c05ba297bf1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316064"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629332"
 ---
 # <a name="display-the-select-names-dialog-box-to-resolve-recipients"></a>Affichage de la boîte de dialogue Sélectionner des noms pour résoudre des destinataires
 

@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2007, security,code access security [InfoPath 2007],security [InfoPath 2007], security model for managed code,security [InfoPath 2007], levels,CAS [InfoPath 2007],InfoPath 2003-compatible form templates, security,permissions [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e1c1c72-f98d-4871-9c57-82c315277aa1
 description: Les modèles de formulaires InfoPath avec code managé prennent en charge les mêmes niveaux de sécurité que le script exécuté dans les modèles de formulaires non managés, ainsi que les fonctionnalité supplémentaires de sécurité d'accès au code qui s'appliquent au code managé exécuté sous le Common Language Runtime (CLR) de .NET Framework.
-ms.openlocfilehash: 97f0239a5bd6699b539ddaebf4d1d2ed7d1394db
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 97735f0f707cc73d86b313b5aaac2758de71a5f3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436145"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631383"
 ---
 # <a name="about-the-security-model-for-form-templates-with-code"></a>À propos du modèle de sécurité pour les modèles de formulaires avec code
 
@@ -102,7 +102,7 @@ Pour plus d’informations sur la création et la configuration du groupe de cod
   
 Le tableau suivant récapitule les scénarios de déploiement et les jeux d'autorisations qui s'appliquent aux modèles de formulaires avec code managé.
   
-|**Scénario de déploiement**|**Jeu d'autorisations**|**Notes**|
+|**Scénario de déploiement**|**Jeu d'autorisations**|**Remarques**|
 |:-----|:-----|:-----|
 |Le modèle de formulaire est publié sur l'ordinateur local et le développeur utilise Visual Studio pour écrire et déboguer le code du formulaire.  <br/> |Jeu d'autorisations intranet local  <br/> Les assemblys installés dans le Global Assembly Cache (GAC) et marqués avec l'attribut **AllowPartiallyTrustedCallersAttribute** disposent du jeu Autorisation totale.  <br/> |Par défaut, les modèles de formulaires exécutés depuis l'ordinateur local n'obtiennent pas le jeu Autorisation totale. Lors du développement de modèles de formulaire qui utilisent des fonctionnalités et des appels aux membres du modèle objet qui nécessitent des autorisations de confiance totale, vous pouvez utiliser la procédure décrite dans les modèles de formulaires d’aperçu et de [débogage](how-to-preview-and-debug-form-templates-that-require-full-trust.md)qui nécessitent une confiance totale.  <br/> |
 |Le modèle de formulaire est publié sur l'ordinateur local et fait référence à un assembly personnalisé qui exige le jeu d'autorisations Autorisation totale sur l'ordinateur local.  <br/> |Jeu d'autorisations intranet local  <br/> Les assemblys installés dans le Global Assembly Cache (GAC) et marqués avec l'attribut **AllowPartiallyTrustedCallersAttribute** disposent du jeu Autorisation totale. L'assembly personnalisé obtient le jeu d'autorisations Intranet local.<br/> |Pour référencer des assemblys externes et les utiliser dans le code du modèle de formulaire, le développeur doit utiliser le groupe de codes Modèles de formulaires InfoPath pour accorder l'Autorisation totale (ou le jeu d'autorisations approprié) à l'assembly externe référencé dans le code du modèle de formulaire. InfoPath prend aucune décision quant aux assemblys externes autres que ceux installés dans le Global Assembly Cache (GAC). Le développeur doit accorder de manière explicite les autorisations nécessaires à l'aide du groupe de codes Modèles de formulaires InfoPath, même si l'assembly dispose déjà d'autorisations accordées dans le cadre du groupe de codes de la Zone Poste de travail.  <br/> |

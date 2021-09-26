@@ -3,15 +3,15 @@ title: Synchroniser l’état du contenu
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3ebe1f5f48f9becdf01ea184c2b76fa2c8fa21e8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 94707184461794fd64af05a9f19b109c60e9af5f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438469"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624082"
 ---
 # <a name="synchronize-contents-state"></a>Synchroniser l’état du contenu
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c8f7bdc5864c049d8db6f38e92a69c97b6f9dc73
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: edac057e9f8cc76d189d95019eebb969bc9c9e79
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431357"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623956"
 ---
 # <a name="upfld"></a>UPFLD
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184652(v=office.15)
 ms:contentKeyID: 55119797
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 008f66ff1a43f90e756900c467ba6c086829b769
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2771e867cc4e20f35c2d449a62ff6f2acee3b2e8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331163"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629262"
 ---
 # <a name="send-a-mail-item-by-using-a-hotmail-account"></a>Envoi d’un élément de courrier électronique avec un compte Hotmail
 

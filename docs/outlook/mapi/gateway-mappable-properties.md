@@ -3,17 +3,17 @@ title: Propriétés mappables de la passerelle
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6f1a399cac2adbae66dabf9383540bb089424d17
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7fd8608dbe8d0e848778121204ca04b4529e83e2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430475"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630830"
 ---
 # <a name="gateway-mappable-properties"></a>Propriétés mappables de la passerelle
 

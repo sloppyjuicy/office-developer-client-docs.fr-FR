@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa7a176d-ce9c-1ae6-490f-0646b2ee432f
 description: Obtient les paramètres de format du thème actuel.
-ms.openlocfilehash: 949619b5bd4ca8dd0751c09d0b732768d02706c4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 934bd62830cee8941147e4eecc23efa059fa2d9e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421108"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627330"
 ---
 # <a name="theme-function"></a>Fonction THEME
 

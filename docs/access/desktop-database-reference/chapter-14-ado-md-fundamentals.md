@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 44a4e666fb615f7d3870acfbd986e93971606d5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 1a3b816c44b6b3b5e50a8ed492e1ca6240c920b4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296464"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627099"
 ---
 # <a name="chapter-14-ado-md-fundamentals"></a>Chapitre 14 : Principes de base ADO MD
 

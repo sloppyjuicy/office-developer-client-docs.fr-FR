@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.ScCopyNotifications
 api_type:
 - COM
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 08b9b954f856d64214947d81cf700adee42bcce4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 58eef4b8b11b8ef1cfd5df359869f1950a5d8695
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435921"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629591"
 ---
 # <a name="sccopynotifications"></a>ScCopyNotifications
 
@@ -42,7 +42,7 @@ SCODE ScCopyNotifications(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cntf_
   

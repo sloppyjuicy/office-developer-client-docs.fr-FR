@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - xdocument interface [infopath 2007],InfoPath 2003-compatible form templates, accessing form data,XDocumentsCollection interface [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0731014-f454-4417-9f90-19f3387f5776
 description: Pour rendre un formulaire InfoPath plus performant, il est souvent nécessaire d'accéder par programme aux informations sur le document XML sous-jacent du formulaire et aux données qu'il contient ou d'exécuter certaines actions sur le document XML. Le modèle objet d'InfoPath prend en charge l'accès et la manipulation du document XML sous-jacent d'un formulaire grâce à l'utilisation de l'interface XDocument en combinaison avec l'interface XDocumentsCollection .
-ms.openlocfilehash: 803122c6c377686a85f11cf48b76876c056f2ec1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2d4e1affba8a2e42cf82f866905e674e2beeef03
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416474"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631362"
 ---
 # <a name="access-form-data-using-the-infopath-2003-object-model"></a>Accéder aux données de formulaire à l’aide du modèle objet InfoPath 2003
 

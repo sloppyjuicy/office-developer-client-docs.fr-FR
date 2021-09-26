@@ -1,28 +1,28 @@
 ---
 title: IMAPIWaitResult::End
 manager: lindalu
-ms.date: 04/26/2021
+ms.date: 04/27/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIWaitResult.End
 api_type:
 - COM
 ms.assetid: 7463c9e8-d065-4cc3-ac01-d428b57bbc88
 description: IMAPIWaitResult::End
-Last modified: April 26, 2021
-ms.openlocfilehash: 3432bf3b71fa7e15cb4621d461a8d4bbe962f1ba
-ms.sourcegitcommit: 289cececd9fa38a3f4b8a0d7fd1f86adb6be9689
+Last modified: April 27, 2021
+ms.openlocfilehash: 7cc5e122f71399232c07d94a13598b0c9a6fed31
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52062031"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630557"
 ---
 # <a name="imapiwaitresultend"></a>IMAPIWaitResult::End
   
-**S’applique** à : Outlook 2013 | Outlook 2016 | 2019
+**S’applique** à : Outlook 2013 | Outlook 2016 | Outlook 2019
 
 Lance un appel BLOCKING sur ce thread, qui retourne soit lorsque le nombre de millisecondes spécifié est écoulé, soit que MAPI a été initialisé. INFINITE peut être utilisé pour une attente infinie.
 
@@ -30,7 +30,7 @@ Lance un appel BLOCKING sur ce thread, qui retourne soit lorsque le nombre de mi
 HRESULT IMAPIWaitResult::End(DWORD timeout)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _timeout_
 > [in] Le nombre de millisecondes à attendre pour l’initialisation de MAPI, vous pouvez transmettre INFINITE (0xFFFFFFFF) pour attendre indéfiniment.
@@ -52,6 +52,6 @@ Cette API se comporte exactement comme [IMAPInitMonitor::Wait](imapiinitmonitor-
 
 [IMAPIInitMonitor::BeginWait](imapiinitmonitor-beginwait.md)
 
-[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
-
 [IMAPIWaitResult](imapiwaitresultiunknown.md)
+
+[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)

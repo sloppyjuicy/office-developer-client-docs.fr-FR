@@ -1,21 +1,20 @@
 ---
-title: Notice de copyright de la documentation de 2013 Office
+title: Office de la documentation 2013
 author: umas
-manager: soliver
-ms.date: 11/16/2014
+manager: lindalu
+ms.date: 09/16/2021
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
-description: Ce document est fourni tel qu’il est. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent.
-ms.openlocfilehash: c131cd896b281bcf28f69d555e837577544e4f59
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4ec2fef7586cfd982d1750fc7765bf7727ca5468
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308105"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631565"
 ---
-# <a name="office-2013-documentation-copyright-notice"></a>Notice de copyright de la documentation de 2013 Office
+# <a name="copyright-notice-for-office-2013-documentation"></a>Copyright notice for Office 2013 documentation 
 
 Ce document est fourni en l'état. Les informations et les vues exprimées dans ce document, y compris l’URL et d’autres références de site web Internet, peuvent changer sans préavis. Vous assumez tous les risques d’utilisation. 
   
@@ -27,6 +26,4 @@ Ce document ne vous confère aucun droit de propriété intellectuelle sur les p
   
 Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server et Windows Vista sont des marques commerciales du groupe de sociétés Microsoft.
   
-Toutes les autres marques sont la propriété de leur détenteur respectif.
-  
-
+Toutes les autres marques sont la propriété de leur détenteur respectif. 

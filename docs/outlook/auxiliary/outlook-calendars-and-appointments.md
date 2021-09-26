@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7919a255-2935-4cb0-bffa-9d431d77848a
 description: Cette section fournit des informations conceptuelles sur les calendriers Outlook et les rendez-vous, y compris l'API du service de disponibilité mises à jour de la demande de réunion et de relocalisation des calendriers pour l'heure d'été.
-ms.openlocfilehash: 3e265ee962e6f55214e9c26978abe7496561a482
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 58e85a0e3cfd7be7a5933de891aefe4222487650
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420268"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631221"
 ---
 # <a name="outlook-calendars-and-appointments"></a>Les rendez-vous et les calendriers outlook
 

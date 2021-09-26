@@ -8,19 +8,19 @@ f1_keywords:
 - xlUDF
 keywords:
 - fonction xludf [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 569334847c7612b86f6ddc967f159e2ef425cbbb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a68794f61b791e911a6899922311973c5d747ab3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430643"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631390"
 ---
 # <a name="xludf"></a>xlUDF
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Appelle une fonction définie par l’utilisateur (UDF). Cette fonction permet à une DLL d’appeler des fonctions Visual Basic pour Applications (VBA) définies par l’utilisateur, des fonctions de langage de macro XLM et des fonctions inscrites contenues dans d’autres macros.
   
@@ -29,7 +29,7 @@ Excel12(xlUDF, LPXLOPER12 pxRes, int iCount, LPXLOPER12 pxFnRef,
 LPXLOPER12 pxArg1, ...);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxFnRef_ (**xltypeRef**, **xltypeSRef**, **xltypeStr** ou **xltypeNum**)
   

@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053325
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: dd9cc563ecc885fca4fa0ef5829d82aa2f8bfef6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2b8f9c69c4416dbcdb2d2f0bf65143656d7894c1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293741"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631992"
 ---
 # <a name="documentscount-property-dao"></a>Documents.Count, propriété (DAO)
 

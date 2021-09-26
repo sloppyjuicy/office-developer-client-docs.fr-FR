@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250303(v=office.15)
 ms:contentKeyID: 48548920
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1b8e3baf4d147edcc739e59933da4697c08cdef0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 236b6faf0913bdce857674581e8a7d066968a5b6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295043"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626889"
 ---
 # <a name="data-section"></a>Section Données
 
@@ -20,7 +20,7 @@ ms.locfileid: "32295043"
 
 La section des données définit les données du groupe de lignes ainsi que toutes les mises à jour, insertions ou suppressions en attente. Elle peut contenir zéro ou plusieurs lignes. Elle peut uniquement contenir des données d'un seul groupe de lignes, la ligne étant définie par le schéma. En outre, comme mentionné précédemment, les colonnes dépourvues de données peuvent être ignorées. Si un attribut ou un sous-élément est utilisé dans la section des données et que cette construction a été définie dans la section du schéma, il est ignoré de façon silencieuse.
 
-## <a name="string"></a>String
+## <a name="string"></a>Chaîne
 
 Les caractères XML réservés dans les données texte doivent être remplacés par des entités de caractères appropriées. Par exemple, dans le nom de société « Joe's Garage », le guillemet simple doit être remplacé par une entité. La ligne doit donc ressembler à ce qui suit :
 
@@ -28,9 +28,9 @@ Les caractères XML réservés dans les données texte doivent être remplacés 
 <z:row CompanyName="Joe&apos;s Garage"/> 
 ```
 
-Les caractères suivants sont réservés au XML et doivent être remplacés par des entités de caractères : {', »,&, \< , \> }.
+Les caractères suivants sont réservés au XML et doivent être remplacés par des entités de caractères : {', »,&, \<,\> }.
 
-## <a name="binary"></a>Binaire
+## <a name="binary"></a>Binary
 
 Les données binaires sont codées en type de données bin.hex (c'est-à-dire qu'un octet correspond à deux caractères, un caractère par quartet).
 

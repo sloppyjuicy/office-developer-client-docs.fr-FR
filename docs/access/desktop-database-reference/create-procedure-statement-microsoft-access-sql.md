@@ -8,13 +8,13 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-localization_priority: Priority
-ms.openlocfilehash: f223e164bd36a6a1a76140a28dd57cd2005e4a20
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: b54d85a655bcb6ef60560583e8cbe1e2852c603e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295401"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59569215"
 ---
 # <a name="create-procedure-statement-microsoft-access-sql"></a>CREATE PROCEDURE, instruction (Microsoft Access SQL)
 
@@ -33,8 +33,8 @@ L’instruction CREATE PROCEDURE comprend les parties suivantes :
 
 |Quitter|Description|
 |:---|:----------|
-|*procedure*|Nom de la procédure. Ce nom doit respecter les conventions d'affectation des noms standard.|
-|*param1*, *param2*|De un à 255 noms de champs ou paramètres. Par exemple :<br/><br/>`CREATE PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Pour plus d’informations sur les paramètres, voir [PARAMETERS](parameters-declaration-microsoft-access-sql.md).|
+|*procedure*|Nom donné à la procédure. Ce nom doit respecter les conventions d'affectation des noms standard.|
+|*param1*, *param2*|De un à 255 noms de champs ou paramètres. Par exemple :<br/><br/>`CREATE PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Pour plus d’informations sur les paramètres, voir [PARAMETERS](parameters-declaration-microsoft-access-sql.md).|
 |*datatype*|Un des principaux [types de données Microsoft Access SQL](sql-data-types.md) ou un de leurs synonymes.|
 |*sqlstatement*|Instruction SQL telle que SELECT, UPDATE, DELETE, INSERT, CREATE TABLE, DROP TABLE, etc.|
 

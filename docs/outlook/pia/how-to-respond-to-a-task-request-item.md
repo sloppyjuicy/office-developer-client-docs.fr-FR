@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184608(v=office.15)
 ms:contentKeyID: 55119896
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9aa6416680bbf2443506415b5fa871d30fe5f32e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d4a4e65f6b69a4d2ce72fc7066b5f82cfc53cc3b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357392"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623655"
 ---
 # <a name="respond-to-a-task-request-item"></a>Procédure de réponse à un élément de demande de tâche
 

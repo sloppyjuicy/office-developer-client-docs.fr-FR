@@ -3,17 +3,17 @@ title: Fichiers et messages joints
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c4dbe1a761a753bef77168aec8d2674a1b2b100e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eb60d55732c0ba91aca3a6bfce03f45dab069b93
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436838"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631089"
 ---
 # <a name="attached-files-and-messages"></a>Fichiers et messages joints
 

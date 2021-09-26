@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184648(v=office.15)
 ms:contentKeyID: 55119893
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2044fc52370bdadd5c7f01debbd02c88dd881715
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 55349e6196541f62d0c4c92de4fc0fa6b26d59c0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349419"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623676"
 ---
 # <a name="get-information-about-stores-in-a-profile"></a>Obtenir des informations sur les magasins dans un profil
 

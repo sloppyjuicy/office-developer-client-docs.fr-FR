@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SContentRestriction
 api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 87be6df27a3e6729cb514118438521d76a66b30c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c007d2ea61810aa93685a2d91836afdc4209d623
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423663"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624278"
 ---
 # <a name="scontentrestriction"></a>SContentRestriction
  

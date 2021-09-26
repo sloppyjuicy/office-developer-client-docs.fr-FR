@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184641(v=office.15)
 ms:contentKeyID: 55119921
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: bdfccc6432d35b6f39564e4c87404cc57b6ea27e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 99f52c27dc1370a77b7a5956c71a9a77b0112692
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338037"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623641"
 ---
 # <a name="use-setcolumns-to-efficiently-enumerate-items-in-a-folder"></a>Utilisation de SetColumns pour énumérer efficacement les éléments d’un dossier
 

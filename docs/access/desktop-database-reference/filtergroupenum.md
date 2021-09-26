@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)
 ms:contentKeyID: 48543381
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: be2ce54fe743c46468850abc5dc16520e208ec9e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d4527f0fdcd0a6b3840559009c7828d9a6c39f02
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292418"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626553"
 ---
 # <a name="filtergroupenum"></a>FilterGroupEnum
 
@@ -43,7 +43,7 @@ Spécifie le groupe d’enregistrements à filtrer depuis un objet [Recordset](r
 </tr>
 <tr class="even">
 <td><p><strong>adFilterConflictingRecords</strong></p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>Filtres pour visualiser les enregistrements qui ont échoué à la dernière mise à jour par lots.</p></td>
 </tr>
 <tr class="odd">

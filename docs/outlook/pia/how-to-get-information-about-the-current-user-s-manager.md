@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184603(v=office.15)
 ms:contentKeyID: 55119846
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: fd5b49a2b1f1e494a494cf1bea4e105fa261e053
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: cc8c1e940b5baa018141c3c7b6c72bfc11f180a6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349440"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629283"
 ---
 # <a name="get-information-about-the-current-users-manager"></a>Obtention des informations du manager de l’utilisateur actuel
 

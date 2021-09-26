@@ -3,17 +3,17 @@ title: Prise en charge des propri�t�s nomm�es dans des magasins de Message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a1c73bb5-b44a-4ec6-89e4-0e2228572b2d
 description: 'Derni�re modification�: samedi 23 juillet 2011'
-ms.openlocfilehash: 7e33c49d1ed211abf70e04a8bd3c06ca62e88572
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a2b418cb0a075a27b3f319a7790007b4774c0aa7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434920"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624096"
 ---
 # <a name="supporting-named-properties-in-message-stores"></a>Prise en charge des propri�t�s nomm�es dans des magasins de Message
 

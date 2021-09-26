@@ -3,17 +3,17 @@ title: Prise en charge du texte formaté dans les responsabilités du client des
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 79727700-5ef1-4a29-9ed0-fd46c7de3202
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 7f3cf5b245bdcd2c2707f0e2028d52a15c7e0f6b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 36dc6390fcb3ef7e8d3acc2141fe39a4ae2c3518
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434500"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624145"
 ---
 # <a name="supporting-formatted-text-in-incoming-messages-client-responsibilities"></a>Prise en charge du texte formaté dans les messages entrants : responsabilités du client
 

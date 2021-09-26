@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSelectable
 api_type:
 - COM
 ms.assetid: eeecd957-dd50-4849-9698-8bc7106301e9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 17343a721cbcc642c8cffe95112f25710c0c130c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 74dfc2b0976f8a27f892caa45de05ff660c5b94b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359016"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624502"
 ---
 # <a name="pidtagselectable-canonical-property"></a>Propriété canonique PidTagSelectable
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b4307a3-5a8c-89bf-1113-2549556a7fe7
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: afba7fa718a35d33966d45289461313e349ef2e2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 212e55485d449601cd93eca4e63a79fe4a3e0b3f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430405"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624075"
 ---
 # <a name="synccont"></a>SYNCCONT
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60014
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7c414f9c-a7f2-3404-326e-acd4026c7684
 description: Contient les cellules qui contrôlent la manière dont la page de dessin est mise en forme (apparence) sur la page d'impression.
-ms.openlocfilehash: 0ec5eabf3f9d03f704e2a9ea03099eba1e09afd0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7d11dbafd2631f83c5a5d94142360b1effbd2fa9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437181"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627659"
 ---
 # <a name="print-properties-section"></a>Print Properties, section
 

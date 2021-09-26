@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm50916
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 55af2ce884b26b4c3df219e7d1986e7dc2e4c8ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0474df0c026385731a13bf122c87bebab7af9e3c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288279"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626245"
 ---
 # <a name="openvisualbasicmodule-macro-action"></a>OpenVisualBasicModule, action de macro
 

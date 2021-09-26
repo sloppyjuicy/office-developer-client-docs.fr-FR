@@ -10,13 +10,13 @@ f1_keywords:
 - ado210.chm1231104
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 1d64f879f6a65226656bd510703e8b5b0ac8f71a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 56f80b468954f2e1563626a1df6b3692dac6e3bf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301294"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631838"
 ---
 # <a name="properties-collection-ado"></a>Properties, collection (ADO)
 

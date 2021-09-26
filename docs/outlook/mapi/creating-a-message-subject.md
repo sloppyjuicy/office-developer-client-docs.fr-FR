@@ -3,17 +3,17 @@ title: Création d’un objet de message
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 70e18534-054f-49e7-9a5d-10db0db132d0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 753834ba4df6d0239a484af380e4fe0aa45666b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b5ae0c8e16af35b730d6a1fbdcf95b74c6119e1b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332962"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631070"
 ---
 # <a name="creating-a-message-subject"></a>Création d’un objet de message
 

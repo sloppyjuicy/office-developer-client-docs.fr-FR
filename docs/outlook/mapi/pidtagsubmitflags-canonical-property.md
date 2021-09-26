@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSubmitFlags
 api_type:
 - COM
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ca31aece48236227a03d8e2114f8af4b127b8f90
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 90a3807a4dd5edc5a0a18baebbc9754bd35ea1fc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339353"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624425"
 ---
 # <a name="pidtagsubmitflags-canonical-property"></a>Propriété canonique PidTagSubmitFlags
 

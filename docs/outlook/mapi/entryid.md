@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.ENTRYID
 api_type:
 - COM
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c77acb5226361ce31a7f6b1694de7fe23f8dd71b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2922a242a0ac3ebbd071a85fb49ce9375a4cb22f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415270"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630942"
 ---
 # <a name="entryid"></a>ENTRYID
 

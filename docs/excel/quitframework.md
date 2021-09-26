@@ -8,19 +8,19 @@ f1_keywords:
 - QuitFramework
 keywords:
 - fonction quitframework
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d17a3efe-c278-4ef1-b8f9-b958ae012361
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 9408a7938927214802935e54ec8e53b1469e5016
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8349a3511c4ac3bfaf091ff7e29467e8ef228779
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408571"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631509"
 ---
 # <a name="quitframework"></a>QuitFramework
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Fonction de bibliothèque d’infrastructure qui ne initialise pas la bibliothèque Framework, qui initialise simplement les structures de données mémoire /  **XLOPER XLOPER12** temporaires, libérant ainsi toute mémoire déjà allouée. 
   

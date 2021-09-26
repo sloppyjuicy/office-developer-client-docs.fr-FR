@@ -3,17 +3,17 @@ title: attMAPIProps
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 806270c1-30e4-494e-9b03-7d1f2fc04099
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 185bfbb151c4f8d4e36b40b94393d14d50c33edf
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b3fefaa2308a07e73e946910feb58f58b67d54c7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410454"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631096"
 ---
 # <a name="attmapiprops"></a>attMAPIProps
 

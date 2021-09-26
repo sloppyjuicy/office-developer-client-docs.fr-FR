@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm710
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ba7f6da-681b-b749-fe72-afbca23d7e16
 description: Indique si un chemin peut être rempli.
-ms.openlocfilehash: 301f30b644e338ff9e597a7a7d8226b9c8a4462f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1e52e19e15f5a81d95e4509014e34614bed394a2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415018"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627883"
 ---
 # <a name="nofill-cell-geometry-section"></a>NoFill, cellule (section Geometry)
 

@@ -3,15 +3,15 @@ title: Déconnexion d’un complément d’état hors connexion
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
 description: 'Dernière modification : 07 décembre 2015'
-ms.openlocfilehash: c665bae57a72428df7acd92e080f7c31b131253b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.openlocfilehash: 87575d171d96a4c3083b2e9b0b03feb19ec42afe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316652"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630998"
 ---
 # <a name="disconnecting-an-offline-state-add-in"></a>Déconnexion d’un complément d’état hors connexion
 

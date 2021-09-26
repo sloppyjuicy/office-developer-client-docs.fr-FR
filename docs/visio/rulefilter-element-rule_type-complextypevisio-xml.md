@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b05497e6-722f-9203-e03c-0f14a712cddb
 description: Spécifie l’expression logique qui détermine si la règle de validation doit être appliquée à un objet cible.
-ms.openlocfilehash: 3abcd7e2dd093fa8e2321052e73835db22c150db
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 261cd934d0350a9e045f4795c5b5ce58464eb742
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34541679"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627575"
 ---
 # <a name="rulefilter-element-rule_type-complextype-visio-xml"></a>Élément RuleFilter (Rule_Type complexType) (Visio XML)
 
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Règle](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |Représente une règle de validation unique dans un ensemble de règles de validation de diagramme.  <br/> |
    

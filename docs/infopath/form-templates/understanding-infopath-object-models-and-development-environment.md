@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2007, object models,object models [InfoPath 2007],InfoPath 2007, development environments
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 prend en charge deux types de modèles de programmation pour le développement de logique métier dans les modèles de formulaire et prend en charge l’automatisation externe à partir du code géré.
-ms.openlocfilehash: c2ed1254acf86136ab7144c732aef91ac4c14c53
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 99a72dda5e50f856fbf94c88e891f8a2a7e39d1b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303457"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631285"
 ---
 # <a name="understanding-infopath-object-models-and-development-environment"></a>Modèles objet et environnement de développement d'InfoPath
 
@@ -100,7 +100,7 @@ Pour plus d’informations sur les modèles objet fournis par les espaces de nom
   
 ### <a name="the-infopath-forms-services-object-model"></a>Modèle objet InfoPath Forms Services
 
-Le modèle objet avec code géré pour l’automatisation des tâches d’administration InfoPath Forms Services est implémenté dans le Microsoft.Office.InfoPath.Server.dll qui se trouve à l’emplacement lecteur \< \> :\Program Files\Microsoft Office Server\15.0\Bin sur une installation Microsoft SharePoint Server 2013.
+Le modèle objet avec code géré pour l’automatisation des tâches d’administration InfoPath Forms Services est implémenté dans le Microsoft.Office.InfoPath.Server.dll qui se trouve à l’emplacement \<drive\> :\Program Files\Microsoft Office Server\15.0\Bin sur une installation Microsoft SharePoint Server 2013.
   
 |**Assembly**|**Description**|
 |:-----|:-----|

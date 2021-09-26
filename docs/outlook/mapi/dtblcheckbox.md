@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.DTBLCHECKBOX
 api_type:
 - COM
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ed0bbe986f374648e2ee85f3a0d2dfe7bc392e0f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 60bfb43f99ef6831ab7dda837924a00d9c3d94a6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436831"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630963"
 ---
 # <a name="dtblcheckbox"></a>DTBLCHECKBOX
 

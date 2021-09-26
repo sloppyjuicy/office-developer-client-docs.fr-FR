@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1df2c665f8e9d7a0bd6d47ec59b2adf706bead75
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d096c9f50efa4590dc6a6f4fb0fd2f79329e6189
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434143"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629458"
 ---
 # <a name="upreade"></a>UPREADE
 

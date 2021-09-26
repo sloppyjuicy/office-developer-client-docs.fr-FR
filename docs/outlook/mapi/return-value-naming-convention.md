@@ -3,17 +3,17 @@ title: Convention d’attribution de noms de valeur de retour
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2c1cdd7b-82f1-46f2-a7ce-e0efe857b7cd
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 6786e1ca901215abd709a11401c3026d62c6ffc8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 80d8b9e1f38422977ff327aac90830ed7b58a96b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423614"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624285"
 ---
 # <a name="return-value-naming-convention"></a>Convention d’attribution de noms de valeur de retour
 

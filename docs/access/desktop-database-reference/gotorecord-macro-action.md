@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 7534ae84b57d14450009865ea330a4c54d4cfb44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 9041b1e33010f3b80be82c0e80e4a0fe86a7cf80
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292138"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622227"
 ---
 # <a name="gotorecord-macro-action"></a>GoToRecord, action de macro
 

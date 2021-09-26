@@ -3,17 +3,17 @@ title: Arrêt d’un fournisseur de magasins de messages
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e38219db-f867-4c1d-9973-0e025779e8b6
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8e4712572eaff465bb23b55eccc3670f637c0f9c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 98de0a59b3b3526a69d4c75fef4bc453ce122dbe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339199"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59624222"
 ---
 # <a name="shutting-down-a-message-store-provider"></a>Arrêt d’un fournisseur de magasins de messages
 

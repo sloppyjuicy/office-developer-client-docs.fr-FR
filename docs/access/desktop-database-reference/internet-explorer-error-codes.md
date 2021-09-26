@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249489(v=office.15)
 ms:contentKeyID: 48545726
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b68d550137e1523cb929aaaaa97e62231331c439
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 632cc9b97cefb850f0ca1051790148eeecc01ef7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291285"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631943"
 ---
 # <a name="internet-explorer-error-codes"></a>Codes d’erreur Internet Explorer
 

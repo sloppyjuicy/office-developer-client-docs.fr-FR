@@ -8,19 +8,19 @@ f1_keywords:
 - xlfSetName
 keywords:
 - fonction xlfsetname [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e6327ccf2cd18e42c3ef9abe538e6f669e498352
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9ef5f6f557f177e01346beb3ffd7c7bdb00e94d8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404259"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631439"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Utilisé pour créer et supprimer des noms définis associés à la DLL.
   
@@ -28,7 +28,7 @@ Utilisé pour créer et supprimer des noms définis associés à la DLL.
 Excel12(xlfSetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxNameDefinition);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxNameText_ (**xltypeStr**)
   

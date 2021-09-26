@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60058
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc4c373c-f073-e3c9-3aaa-a4abf050cd20
 description: Indique le type de champ de texte.
-ms.openlocfilehash: c2f891620f704a3c48861124b886e49d356960ba
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0186c510ed47550f5c1194b84dbe7eec6ee4c539
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438511"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627827"
 ---
 # <a name="objectkind-cell-text-fields-section"></a>ObjectKind, cellule (section Text Fields)
 

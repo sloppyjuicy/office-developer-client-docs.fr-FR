@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027317
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1bd7819-b53b-bff1-69c1-6d78e8fb278b
 description: Stocke une valeur définie par le biais d’une action dans l’interface utilisateur (IU) ou Automation.
-ms.openlocfilehash: 5ca7b59d0ced9c3da346c416826ac89e6b4001da
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 053e50359eb355e2882957ba1bbd3da963d7627f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439050"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627505"
 ---
 # <a name="setatrefexpr-function"></a>Fonction SETATREFEXPR
 

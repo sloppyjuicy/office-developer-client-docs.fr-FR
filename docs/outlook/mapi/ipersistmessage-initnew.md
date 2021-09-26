@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPersistMessage.InitNew
 api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9f70b178e7c30e1cdf94b485c77f80374113211c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 88a49c09f7f4e2678265fae20dddc8833716a2e4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317149"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630424"
 ---
 # <a name="ipersistmessageinitnew"></a>IPersistMessage::InitNew
 
@@ -34,7 +34,7 @@ HRESULT InitNew(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pMessageSite_
   

@@ -3,17 +3,17 @@ title: Encodage d’un message avec TNEF
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6b86d9a9-6876-4885-ae1e-8571b25b85cc
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: cdaa03cfbc0bbd0fcf6a320ecf8fae9f372d5781
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1d45a79b9b0817e760d53327da5c5e5ef82a67e6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59630949"
 ---
 # <a name="encoding-a-message-with-tnef"></a>Encodage d’un message avec TNEF
 

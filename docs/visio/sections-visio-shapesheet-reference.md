@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 982ed30a-bdf3-4c1a-9788-43b5933ff631
-ms.openlocfilehash: dbfb770b86f768bf4860c7298f27b7b79413fd5a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6b5bb94e1a9b4d327401ea6795555a6ba14e9829
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419225"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627512"
 ---
 # <a name="sections-visio-shapesheet-reference"></a>Sections (Visio ShapeSheet Reference)
 

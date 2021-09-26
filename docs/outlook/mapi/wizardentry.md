@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.WIZARDENTRY
 api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 907984a80dbb6c5464f95def1481d002f9d6638a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1a61d77c98766acf57bdb24865624023e0145557
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430678"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59629444"
 ---
 # <a name="wizardentry"></a>WIZARDENTRY
 
@@ -43,7 +43,7 @@ ULONG WIZARDENTRY(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hProviderDLLInstance_
   

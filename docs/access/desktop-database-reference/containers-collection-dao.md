@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
 ms:contentKeyID: 48544642
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9c874a1555fa6a6f5f948275176c57b5fb1c48bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: f71bd90d6538c7a7ebb06b9f345ecd5cc16009da
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295603"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626966"
 ---
 # <a name="containers-collection-dao"></a>Containers collection (DAO)
 
@@ -47,7 +47,7 @@ Cet exemple énumère la collection **Containers** de la base de données Northw
              ' Enumerate Properties collection of each
              ' Container object.
              For Each prpLoop In ctrLoop.Properties
-                Debug.Print "  " & prpLoop.Name _
+                Debug.Print "  " & prpLoop.Name _
                    & " = " prpLoop
              Next prpLoop
     

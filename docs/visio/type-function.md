@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251573
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aff1b5e6-beeb-bd30-ce29-8c6ad589566c
 description: Renvoie le type interne d’un objet sous forme de nombre.
-ms.openlocfilehash: 2c67a5b2adbad0f439c3c2ce201a846b1c5338c0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e67bdf8318eb1b71e9cf8c0208578b4f69f04f55
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432561"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627234"
 ---
 # <a name="type-function"></a>Fonction TYPE
 

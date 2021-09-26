@@ -3,15 +3,15 @@ title: Utilisation d’un fournisseur d’archive PST encapsulée
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
 description: 'Last modified: July 03, 2012'
-ms.openlocfilehash: b7c651044ab7f4cad7032db69e157c9a3589bde9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7df7e09410d069d53cea57acc49346d0ee74d967
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420821"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623900"
 ---
 # <a name="using-a-wrapped-pst-store-provider"></a>Utilisation d’un fournisseur d’archive PST encapsulée
 

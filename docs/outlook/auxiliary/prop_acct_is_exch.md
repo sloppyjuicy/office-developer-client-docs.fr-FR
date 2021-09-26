@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 599bfc7d-7b62-7cc1-69ff-6db04c96a49b
 description: Cette valeur a la valeur True si le compte est Exchange client.
-ms.openlocfilehash: 2df750b208ff9d2a18cb0d7c22ec6b32b658c7b4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 67562acbb7ee5c29948d9e2dd7bfdbf9a7623135
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418231"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59631166"
 ---
 # <a name="prop_acct_is_exch"></a>PROP_ACCT_IS_EXCH
 

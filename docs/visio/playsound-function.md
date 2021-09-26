@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251479
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 098d216f-e699-0e74-f702-ccfa7809c19b
 description: Lit un fichier audio ou un son système.
-ms.openlocfilehash: 752412aab6584d2b01235fe88644e3ec3fa5daee
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7dab11245389c02054b5f3d626334867dcbad437
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435837"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627715"
 ---
 # <a name="playsound-function"></a>Fonction PLAYSOUND
 

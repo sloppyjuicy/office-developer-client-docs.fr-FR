@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ab57bf2-0d9f-4a3a-4882-c77d7c781cbd
-ms.openlocfilehash: 96812d1911d249ebce02aeab20b0a77ef518fbff
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 1795d9756fba731069ed7d45b49f09b346f89797
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542078"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627519"
 ---
 # <a name="sectiondef_type-complextype-visio-xml"></a>SectionDef_Type complexType (Visio XML)
 
@@ -62,7 +62,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |CellDef <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
 |RowDef <br/> |[RowDef_Type](rowdef_type-complextypevisio-xml.md) <br/> ||

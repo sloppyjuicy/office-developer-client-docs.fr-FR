@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184632(v=office.15)
 ms:contentKeyID: 55119922
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 1c1702ce816714b21da860aea3e49db8a3511701
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: medium
+ms.openlocfilehash: 14c572adec3f8d984c1656eb338187ea8f25630a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542638"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623718"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>Filtrer et afficher des propriétés calculées lors de l’énumération d’éléments dans un dossier
 

@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e8257df-4af0-aab1-a979-df9fa8a56f20
-ms.openlocfilehash: b8d8ed39637bdd692b2ba113525f40a3f91ffc9c
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 317047cb2325662a6b40bb3384e17b016c5a6a62
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538437"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622612"
 ---
 # <a name="windows_type-complextype-visio-xml"></a>Windows_Type complexType (Visio XML)
 
@@ -52,7 +52,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> ||
    

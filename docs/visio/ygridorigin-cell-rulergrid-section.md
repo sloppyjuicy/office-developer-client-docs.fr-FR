@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1205
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eeec59f8-f301-5639-ffd6-8a36b2bf9c8f
 description: Indique l'origine verticale de la grille.
-ms.openlocfilehash: fa8ee15d5ef2b5d581a9532336d3983bed17b1dd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0a8bf07802c69319a79235a556ef46334cad2d37
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404490"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622584"
 ---
 # <a name="ygridorigin-cell-ruler-amp-grid-section"></a>YGridOrigin, cellule (section Ruler &amp; Grid)
 

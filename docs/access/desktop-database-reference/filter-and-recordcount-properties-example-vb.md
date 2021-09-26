@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249167(v=office.15)
 ms:contentKeyID: 48544354
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f892349d2ddb9c8fc5063d3fbec37ca9ef0d469f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 1d2262a3153d7168caa2e27a6eb0f0688e55ec10
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292481"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626588"
 ---
 # <a name="filter-and-recordcount-properties-example-vb"></a>Filter et RecordCount, propriétés – Exemple (VB)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple ouvre un objet **Recordset** sur la table Publishers (base de données ***Pubs***). Il utilise ensuite la propriété [Filter](filter-property-ado.md) pour limiter le nombre d’enregistrements visibles aux éditeurs d’une région ou d’un pays donné. La propriété **CpteEnregistrement** sert à afficher les différences entre les jeux d’enregistrements filtrés et non filtrés.
+Cet exemple ouvre un **recordset** sur la table Publishers dans la **_base_ de données Pubs *_. Il utilise ensuite la [propriété Filter](filter-property-ado.md) pour limiter le nombre d’enregistrements visibles à ces éditeurs dans un pays ou une région particulier. La propriété _* RecordCount** permet d’afficher la différence entre les jeux d’enregistrements filtrés et non filtrés.
 
 ```vb 
  

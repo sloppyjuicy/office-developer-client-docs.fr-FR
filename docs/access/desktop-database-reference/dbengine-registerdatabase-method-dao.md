@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 632f6e10d79d74dfef295b34a52ce62f1690101b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d9de8c220e3f52ba5eef7bb692fe145d21d3a29d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294224"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626821"
 ---
 # <a name="dbengineregisterdatabase-method-dao"></a>DBEngine.RegisterDatabase, méthode (DAO)
 
@@ -26,7 +26,7 @@ Entre les informations de connexion pour une source de données ODBC dans le Reg
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* RegisterDatabase(***Dsn***, ***Driver***, ***Silent***, ***Attributes***)
+*.* RegisterDatabase(***Dsn** _, _*_Driver_*_, _*_Silent_*_, _*_Attributes_**)
 
 *expression* Variable représentant un objet **DBEngine**.
 

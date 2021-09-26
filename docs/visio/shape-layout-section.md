@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2130
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9410f78f-a3da-d48a-b6bf-8b53d50b03bc
 description: Contient les cellules qui définissent le placement des formes et les paramètres de positionnement des liens.
-ms.openlocfilehash: 172a2dae3bd5a316b5f1462a0580e7a86b17d216
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 653593de26e1ebda6ccf9880401ddadf5391ecab
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415382"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627498"
 ---
 # <a name="shape-layout-section"></a>Shape Layout, section
 

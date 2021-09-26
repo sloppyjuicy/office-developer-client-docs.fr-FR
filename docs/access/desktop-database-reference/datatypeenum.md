@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
 ms:contentKeyID: 48546904
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 6ffba234ed1c5dc56138a665d6dd07038f55da7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 91cb6e06d3e0da2c1b6a68710968168930ffefbe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294441"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626840"
 ---
 # <a name="datatypeenum"></a>DataTypeEnum
 
@@ -59,7 +59,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="odd">
 <td><p><strong>adBSTR</strong></p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>Indique une chaîne de caractères terminée par un caractère Null (Unicode) (DBTYPE_BSTR).</p></td>
 </tr>
 <tr class="even">
@@ -74,12 +74,12 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="even">
 <td><p><strong>adCurrency</strong></p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td><p>Indique une valeur monétaire (DBTYPE_CY). Il s'agit d'un nombre à virgule fixe à 4 chiffres à droite de la virgule décimale. Il est stocké dans un nombre entier signé de 8 octets sur une échelle de 10 000.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adDate</strong></p></td>
-<td><p>7 </p></td>
+<td><p>7 </p></td>
 <td><p>Indique une valeur de date (DBTYPE_DATE). Une date est stockée en tant que nombre double, la partie entière étant le nombre de jours depuis le 30 décembre 1899, la partie décimale représentant la fraction d'un jour.</p></td>
 </tr>
 <tr class="even">
@@ -104,7 +104,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="even">
 <td><p><strong>adDouble</strong></p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>Indique une valeur à virgule flottante en double précision (DBTYPE_R8).</p></td>
 </tr>
 <tr class="odd">
@@ -129,7 +129,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="odd">
 <td><p><strong>adIDispatch</strong></p></td>
-<td><p>9 </p></td>
+<td><p>9 </p></td>
 <td><p>Indique un pointeur vers une interface <strong>IDispatch</strong> sur un objet COM (DBTYPE_IDISPATCH).</p><p><strong>REMARQUE</strong>: ce type de données n’est actuellement pas pris en charge par ADO. Nous ne pouvons donc pas garantir leur fiabilité.</p>
 </td>
 </tr>
@@ -181,7 +181,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="odd">
 <td><p><strong>adTinyInt</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16 </p></td>
 <td><p>Indique un nombre entier signé de 1 octet (DBTYPE_I1).</p></td>
 </tr>
 <tr class="even">
@@ -196,12 +196,12 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="even">
 <td><p><strong>adUnsignedSmallInt</strong></p></td>
-<td><p>18 </p></td>
+<td><p>18 </p></td>
 <td><p>Indique un nombre entier non signé de 2 octets (DBTYPE_UI2).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adUnsignedTinyInt</strong></p></td>
-<td><p>17 </p></td>
+<td><p>17 </p></td>
 <td><p>Indique un nombre entier non signé de 1 octet (DBTYPE_UI1).</p></td>
 </tr>
 <tr class="even">
@@ -221,7 +221,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="odd">
 <td><p><strong>adVariant</strong></p></td>
-<td><p>12 </p></td>
+<td><p>12 </p></td>
 <td><p>Indique un objet <strong>Variant</strong> d'automatisation (DBTYPE_VARIANT).</p><p><strong>REMARQUE</strong>: ce type de données n’est actuellement pas pris en charge par ADO. Nous ne pouvons donc pas garantir leur fiabilité.</p></td>
 </tr>
 <tr class="even">

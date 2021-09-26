@@ -3,15 +3,15 @@ title: Télécharger État de la table
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe167c90-c817-b627-0728-5c6393477c22
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a2a9b3f214c76b8ec965c84c4731e0dc57e83352
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e6946b80d57c4bcf4dc14e68cc0023574d884c46
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405820"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59623935"
 ---
 # <a name="upload-table-state"></a>Télécharger État de la table
 

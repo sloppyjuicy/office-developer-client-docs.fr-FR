@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d55b6676-125f-7cf1-509d-21dee548f5a1
 description: Spécifie si un paramètre d’extension d’snap spécifique est activé ou désactivé pour la fenêtre active.
-ms.openlocfilehash: 86ff7f32d6e12b2f0d7a8387d8e5b7ae9870b5fa
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 4a705dc23ae9887c09b922b866cfabec0ddef806
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540377"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627407"
 ---
 # <a name="snapextensions-element-documentsettings_type-complextype-visio-xml"></a>Élément SnapExtensions (DocumentSettings_Type complexType) (Visio XML)
 
@@ -40,7 +40,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document.  <br/> |
    
@@ -59,18 +59,18 @@ La valeur de **l’élément SnapExtensions** peut être la somme des valeurs du
 |**Valeur**|**Description**|
 |:-----|:-----|
 |0  <br/> |Aligne sur rien.  <br/> |
-|1  <br/> |Ancrer l’extension du cadre d’alignement.  <br/> |
-|2  <br/> |Ancrer l’extension de l’axe central.  <br/> |
-|4   <br/> |Ancrer l’extension tangente de courbe.  <br/> |
-|8   <br/> |Ancrer l’extension de point de terminaison.  <br/> |
-|16   <br/> |Ancrer à l’extension midpoint.  <br/> |
-|32  <br/> |Ancrer extension linéaire.  <br/> |
-|64  <br/> |Ancrer extension de courbe.  <br/> |
-|128  <br/> |Ancrer l’extension perpendiculaire du point de terminaison.  <br/> |
-|256  <br/> |Ancrer à l’extension perpendiculaire du milieu.  <br/> |
-|512  <br/> |Ancrer l’extension horizontale du point de terminaison.  <br/> |
-|1024  <br/> |Ancrer l’extension verticale du point de terminaison.  <br/> |
-|2048  <br/> |Ancrer à l’extension centrale de l’ellipse.  <br/> |
-|4096  <br/> |Ancrer l’extension des angles isométriques.  <br/> |
+|1  <br/> |Aligner sur l’extension du cadre d’alignement.  <br/> |
+|2  <br/> |Aligner sur l’extension de l’axe central.  <br/> |
+|4   <br/> |Aligner pour courber l’extension tangente.  <br/> |
+|8   <br/> |Aligner sur l’extension de point de terminaison.  <br/> |
+|16   <br/> |Aligner sur l’extension de point intermédiaire.  <br/> |
+|32  <br/> |Aligner sur une extension linéaire.  <br/> |
+|64  <br/> |Aligner sur l’extension de courbe.  <br/> |
+|128  <br/> |Aligner sur l’extension perpendiculaire du point de terminaison.  <br/> |
+|256  <br/> |Aligner sur l’extension perpendiculaire du milieu.  <br/> |
+|512  <br/> |Aligner sur l’extension horizontale du point de terminaison.  <br/> |
+|1024  <br/> |Aligner sur l’extension verticale du point de terminaison.  <br/> |
+|2048  <br/> |Aligner sur l’extension centrale de l’ellipse.  <br/> |
+|4096  <br/> |Aligner sur l’extension des angles isométriques.  <br/> |
    
 

@@ -4,21 +4,21 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38aedff8-e7b5-0758-c573-0ffa6a244c9c
 description: Cette référence contient une rubrique de vue d’ensemble conceptuelle et des rubriques de référence, y compris des exemples, pour vous guider dans le développement de solutions avec le format Visio format de fichier.
-ms.openlocfilehash: 28e7541515720c5516ce45cd48274becedd63cf3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7115b983362cfd5912f7914eb932dc5774cdc7ba
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335601"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59627176"
 ---
 # <a name="visio-file-format-reference"></a>Référence du format de fichier Visio
 
 Cette référence contient une rubrique de vue d’ensemble conceptuelle et des rubriques de référence, y compris des exemples, pour vous guider dans le développement de solutions avec le format de fichier Visio ( \* .vsdx).
   
-Nous vous invitons à nous faire part de vos questions et commentaires sur ce contenu. Vous pouvez les envoyer à [docthis@microsoft.com](mailto:docthis@microsoft.com).
+Vos commentaires ou questions liés à ce contenu sont les bienvenus. Vous pouvez envoyer vos commentaires à l’adresse [docthis@microsoft.com](mailto:docthis@microsoft.com).
   
  **Publication initiale**: octobre 2012 | **Mise à** jour : mars 2013
   

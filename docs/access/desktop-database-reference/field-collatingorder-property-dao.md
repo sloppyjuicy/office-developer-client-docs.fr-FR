@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052897
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 3d016d779472ec9809d3ac5c77158c2c1d994f3c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c53fcd08555f80eb54a47c146c7183def57e100c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293125"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626721"
 ---
 # <a name="fieldcollatingorder-property-dao"></a>Field.CollatingOrder, propriété (DAO)
 
@@ -81,7 +81,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortHebrew</strong></p></td>
-<td><p>Hébreu</p></td>
+<td><p>Hebrew</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortHungungung</strong></p></td>
@@ -93,11 +93,11 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortJapanese</strong></p></td>
-<td><p>Japanese</p></td>
+<td><p>Japonais</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortKorean</strong></p></td>
-<td><p>Korean</p></td>
+<td><p>Coréen</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSortNeutral</strong></p></td>
@@ -125,7 +125,7 @@ La valeur de retour est une valeur de type **Long** ou une constante pouvant avo
 </tr>
 <tr class="even">
 <td><p><strong>dbSortSlovenian</strong></p></td>
-<td><p>Slovène</p></td>
+<td><p>Slovenian</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSortSpanish</strong></p></td>
