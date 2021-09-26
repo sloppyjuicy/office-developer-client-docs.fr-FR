@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 109c34b6-911b-4dfc-9799-aadf47172e84
 description: Cette rubrique décrit des tests et des scénarios pour vérifier que le fournisseur Outlook Social Connector (OSC) renvoie correctement les données d’amis et de non-amis, le cas échéant, en fonction du mode de synchronisation pris en charge par le fournisseur.
-ms.openlocfilehash: 1c97342fd5b219b15b1f58dbc065fc268f8e81d7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f882a2003675840d4096660a397f9b032a9a1e7c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433667"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608801"
 ---
 # <a name="testing-friends"></a>Test des amis
 
@@ -27,7 +27,7 @@ Un fournisseur OSC implémente [ISocialProvider::GetCapabilities](isocialprovide
   
 ### <a name="initiate-synchronization"></a>Lancer la synchronisation
 
-Pour lancer la synchronisation, vous pouvez activer et utiliser le bouton de débogage **Synchroniser** les contacts dans le composant ruban de l’interface utilisateur Microsoft Office Fluent. Pour plus d’informations sur les boutons de débogage OSC, voir [Débogage d’un fournisseur.](debugging-a-provider.md) 
+Pour lancer la synchronisation, vous pouvez activer et utiliser le bouton de débogage **Synchroniser** les contacts dans le composant ruban de l Microsoft Office Fluent’interface utilisateur. Pour plus d’informations sur les boutons de débogage OSC, voir [Débogage d’un fournisseur.](debugging-a-provider.md) 
   
 ### <a name="test-scenarios"></a>Scénarios de test
 
@@ -69,7 +69,7 @@ Pour vérifier que votre fournisseur fournit correctement des informations sur l
 
 ## <a name="hybrid-synchronization"></a>Synchronisation hybride
 
-Si un fournisseur OSC prend en charge la synchronisation hybride d’amis et de non-amis, l’OSC fait les choses suivantes : 
+Si un fournisseur OSC prend en charge la synchronisation hybride des amis et des non-amis, l’OSC fait les choses suivantes : 
   
 - OsC stocke les informations des amis de l’utilisateur connecté dans le dossier de contacts spécifique au réseau social.
     

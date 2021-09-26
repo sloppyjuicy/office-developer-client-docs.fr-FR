@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFormMgr.OpenFormContainer
 api_type:
 - COM
 ms.assetid: df02bdc5-903a-4ce2-9f43-5f4513ea19b3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 68a358c91e35c5a075e220794c78f4e5c96e43ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3db7c66235366bc6f6d4c7d39b9388d9f3f329fc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321636"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610558"
 ---
 # <a name="imapiformmgropenformcontainer"></a>IMAPIFormMgr::OpenFormContainer
 
@@ -35,7 +35,7 @@ HRESULT OpenFormContainer(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hfrmreg_
   
@@ -83,7 +83,7 @@ Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::OpenFormCo
 
 Si la valeur dans _hfrmreg_ est HFRMREG_FOLDER, l’identificateur d’interface utilisé dans _lpunk_ doit être non **null** et autoriser les appels de méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) à une interface [IMAPIFolder.](imapifolderimapicontainer.md) 
   
-Pour ouvrir le conteneur de formulaires local, vous devez utiliser un appel à la méthode **OpenFormContainer** ou à la fonction [MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) ; vous ne pouvez pas utiliser [la méthode IMAPIFormMgr::SelectFormContainer](imapiformmgr-selectformcontainer.md) pour permettre à l’utilisateur de sélectionner le conteneur de formulaire local. 
+Pour ouvrir le conteneur de formulaires local, vous devez utiliser un appel à la méthode **OpenFormContainer** ou à la [fonction MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) ; vous ne pouvez pas utiliser [la méthode IMAPIFormMgr::SelectFormContainer](imapiformmgr-selectformcontainer.md) pour permettre à l’utilisateur de sélectionner le conteneur de formulaire local. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

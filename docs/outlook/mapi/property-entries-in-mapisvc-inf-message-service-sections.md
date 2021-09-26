@@ -3,17 +3,17 @@ title: Entrées de propriété dans les sections du service de message MapiSvc.i
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 714f99e2-80fc-4785-b707-611d8a6c229f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ad2732f2f8dba4f506318a1b6faefb617a60584a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8b6028e3c15f9c42f2fc8ad5672546d7fcf66b20
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427996"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599234"
 ---
 # <a name="property-entries-in-mapisvcinf-message-service-sections"></a>Entrées de propriété dans les sections du service de message MapiSvc.inf
 

@@ -3,17 +3,17 @@ title: Implémentation de feuille de propriétés
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f3475206-0237-4b5b-8efd-abd5d5e0b6c3
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3f1c6497a182231645691f669d8900d33b495503
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8037845cce7a3c24f2904a380bbf3fac8c8868a6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430048"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599227"
 ---
 # <a name="property-sheet-implementation"></a>Implémentation de feuille de propriétés
 

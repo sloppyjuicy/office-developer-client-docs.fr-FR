@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837277(v=office.15)
 ms:contentKeyID: 48548940
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 32ddfbbf21e62d5967fa1f2f31bab0222664eb39
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 02debed4adf3c9579b65660fcfcd27c73ed77588
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293594"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589644"
 ---
 # <a name="editrecord-data-block"></a>Bloc de données EditRecord
 

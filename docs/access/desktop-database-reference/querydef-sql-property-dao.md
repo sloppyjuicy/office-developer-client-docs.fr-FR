@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053054
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: c51f0da8541cf0ba2790827c58a0b017bd6ed875
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 3213cf90bc1f2b07f93f19561d24dbd2ee31dd8e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300979"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59576995"
 ---
 # <a name="querydefsql-property-dao"></a>QueryDef.SQL, propriété (DAO)
 
@@ -32,16 +32,16 @@ Définit ou renvoie l’instruction SQL qui définit la requête exécutée par 
 
 ## <a name="remarks"></a>Remarques
 
-Le **SQL** propriété contient l’instruction SQL qui détermine la manière dont les enregistrements sont sélectionnés, regroupées et triées lorsque vous exécutez la requête. Vous pouvez utiliser la requête pour sélectionner des enregistrements à inclure dans un ** [jeu d’enregistrements](recordset-object-dao.md) ** objet. Vous pouvez également définir des requêtes action pour modifier les données sans renvoi d’enregistrements.
+Le **SQL** propriété contient l’instruction SQL qui détermine la manière dont les enregistrements sont sélectionnés, regroupées et triées lorsque vous exécutez la requête. Vous pouvez utiliser la requête pour sélectionner des enregistrements à inclure dans un **[jeu d’enregistrements](recordset-object-dao.md)** objet. Vous pouvez également définir des requêtes action pour modifier les données sans renvoi d’enregistrements.
 
 La syntaxe SQL utilisée dans une requête doit respecter le langage SQL du moteur de requête est déterminé par le type d’espace de travail. Dans un espace de travail Microsoft Access, utilisez le langage SQL Microsoft Access, sauf si vous créez une requête SQL directe, auquel cas, vous devez utiliser le langage du serveur.
 
 Si l’instruction SQL inclut des paramètres pour la requête, vous devez définir ces avant l’exécution. Jusqu'à ce que vous réinitialisez les paramètres, les mêmes valeurs de paramètre sont appliqués à chaque fois que vous exécutez la requête.
 
-Dans un espace de travail Microsoft Access, à l’aide un **QueryDef** objet est la meilleure méthode pour effectuer des opérations directes SQL sur sources de données ODBC connectées moteur de base de données Microsoft Access. En définissant une source de données ODBC pour la propriété **[Connect](querydef-connect-property-dao.md)** d’un objet **QueryDef**, vous pouvez utilisez un langage SQL non Microsoft Access dans la requête à transmettre au serveur externe. Par exemple, vous pouvez utiliser des instructions TRANSACT SQL (avec Microsoft SQL Server ou Sybase SQL Server bases de données), le moteur de base de données Microsoft Access serait sinon Évitez de traiter.
+Dans un espace de travail Microsoft Access, c'est l'objet **QueryDef** qui est généralement utilisé pour exécuter des requêtes SQL directes sur les sources de données ODBC connectées au moteur de base de données Microsoft Access. En définissant une source de données ODBC pour la propriété [**Connect**](querydef-connect-property-dao.md) d'un objet **QueryDef**, vous pouvez utilisez un langage SQL non Microsoft Access dans la requête à transmettre au serveur externe. Vous pouvez, par exemple utiliser des instructions TRANSACT SQL (avec des bases de données Microsoft SQL Server ou Sybase SQL Server), qui, sinon, ne seraient pas traitées par le moteur de base de données Microsoft Access.
 
 > [!NOTE]
-> Si vous affectez à la propriété une chaîne concaténée avec une valeur non entière et que les paramètres système spécifient un caractère décimal américain tel que la virgule (par exemple, `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50`), une erreur est générée lorsque vous tentez d’exécuter l’objet **QueryDef** dans une base de données du moteur de base de données Microsoft Access. Il s’agit, car lors de la concaténation, le nombre est converti en une chaîne à l’aide du caractère décimal par défaut de votre système et Microsoft Access SQL accepte uniquement des caractères décimaux américains.
+> [!REMARQUE] Si vous affectez à la propriété une chaîne concaténée avec une valeur non entière et que les paramètres système spécifient un caractère décimal américain tel que la virgule (par exemple,  `strSQL = "PRICE > " & lngPrice, and lngPrice = 125,50` et  ), une erreur est générée lorsque vous tentez d'exécuter l'objet **QueryDef** dans une base de données du moteur de base de données Microsoft Access. En effet, au cours de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut de votre système et le langage SQL Microsoft Access n'accepte que les caractères décimaux américains.
 
 ## <a name="example"></a>Exemple
 
@@ -99,7 +99,7 @@ Cet exemple illustre la **SQL** propriété en définissant et en modifiant le *
 
 <br/>
 
-Cet exemple utilise la **CopyQueryDef** méthode pour créer une copie d’un **QueryDef** à partir d’un existant **jeu d’enregistrements** et modifie la copie en ajoutant une clause à la ** SQL** propriété. Lorsque vous créez un permanente **QueryDef**, espaces, des points-virgules ou des sauts de ligne pourraient être ajoutés à la **SQL** propriété ; ces caractères supplémentaires doivent être supprimés avant des nouvelles clauses pouvant joint à l’instruction SQL.
+Cet exemple utilise la **CopyQueryDef** méthode pour créer une copie d’un **QueryDef** à partir d’un existant **jeu d’enregistrements** et modifie la copie en ajoutant une clause à la **SQL** propriété. Lorsque vous créez un permanente **QueryDef**, espaces, des points-virgules ou des sauts de ligne pourraient être ajoutés à la **SQL** propriété ; ces caractères supplémentaires doivent être supprimés avant des nouvelles clauses pouvant joint à l’instruction SQL.
 
 ```vb
     Function CopyQueryNew(rstTemp As Recordset, _ 
@@ -254,7 +254,7 @@ Cet exemple utilise les méthodes **CreateQueryDef** et **OpenRecordset**, ainsi
 
 <br/>
 
-L’exemple suivant montre comment créer une requête avec paramètres. Une requête nommée **myQuery** est créée avec deux paramètres nommés Param1 et Param2. Pour ce faire, la propriété SQL de la requête est définie sur une instruction SQL qui définit les paramètres.
+L'exemple suivant montre comment créer une requête avec paramètres. Une requête nommée **myQuery** est créée avec deux paramètres, nommés  Param1 et  Param2. Pour ce faire, la propriété SQL de la requête est définie sur une instruction SQL (Structured Query Language) qui définit les paramètres.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

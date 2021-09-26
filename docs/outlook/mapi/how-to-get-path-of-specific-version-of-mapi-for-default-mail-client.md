@@ -3,15 +3,15 @@ title: Obtention du chemin d’accès d’une version spécifique de MAPI pour l
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1992e34a684a6b5894963eae0c299b21c064578c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 696e1ea9fc3eedbdb8c3e113498d06ad0b7920fe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346458"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610845"
 ---
 # <a name="get-the-path-of-a-specific-version-of-mapi-for-the-default-mail-client"></a>Obtention du chemin d’accès d’une version spécifique de MAPI pour le client de messagerie par défaut
 

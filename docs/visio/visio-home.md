@@ -6,20 +6,20 @@ ms.audience: Developer
 ms.topic: overview
 ms.assetid: f5310aa0-75f5-4c33-897e-8cae5de2100a
 description: Recherchez des procédures, des exemples de code, de la documentation sur les kits de développement logiciel et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de Visio.
-localization_priority: Priority
-ms.openlocfilehash: b54e784576fa32d6a6ae654bb192bb2a58a85aa4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 3975645a6129e1b415b16138f76c85cd7d2b87ee
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359576"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603185"
 ---
 # <a name="visio"></a>Visio
 
 Recherchez des procédures, des exemples de code, de la documentation sur les kits de développement logiciel et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de Visio.
   
 > [!NOTE]
-> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
+> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
   
 ### <a name="viewed-most"></a>Articles populaires
 

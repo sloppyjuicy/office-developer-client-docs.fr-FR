@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagSendRichInfo
 api_type:
 - COM
 ms.assetid: e85fc766-197a-484f-b600-68cd28a052a2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a7ad27d757d4ed6df58c597bf17d9e5412f83457
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 11d6b8cc633707512d8f4cb7447076f88dd0f74e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342517"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599437"
 ---
 # <a name="pidtagsendrichinfo-canonical-property"></a>Propriété canonique PidTagSendRichInfo
 

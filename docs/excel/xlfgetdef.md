@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: reference
 keywords:
 - xlfgetdef
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 68f5edbd-9040-46d3-acd5-dd51ca82f6fa
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 014db553156849d84bd07e0e416f8cb3fefb4e0b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c6f3f8de3fc3a4fcc3c6ade8d3378e578f4fb193
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421997"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611195"
 ---
 # <a name="xlfgetdef"></a>xlfGetDef
 
-**S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Renvoie le nom, en tant que texte, qui est défini pour une zone, une valeur ou une formule particulière dans un workbook. Dans Excel, cette valeur s’affiche dans la  colonne Nom de la boîte de  dialogue Gestionnaire de noms, qui s’affiche lorsque vous cliquez sur Gestionnaire de noms dans la **section** Noms définis sous l’onglet **Formules.**  Utilisez **xlfGetDef** pour obtenir le nom qui correspond à une définition. Pour obtenir la définition d’un nom, utilisez [xlfGetName](xlfgetname.md).
   
@@ -26,7 +26,7 @@ Renvoie le nom, en tant que texte, qui est défini pour une zone, une valeur ou 
 Excel12(xlfGetDef, LPXLOPER12 pxRes, 3, LPXLOPER12 pxDefText, LPXLOPER12 pxDocumentText, LPXLOPER12 pxTypeNum);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _pxDefText_ (**xltypeStr**)
   
@@ -60,10 +60,10 @@ Le tableau suivant répertorie quatre exemples de valeurs renvoyées par un appe
   
 |**Nom défini dans Excel**|**_pxDefText_**|**_pxDocumentText_**|**_pxTypeNum_**|**Valeur renvoyée**|
 |:-----|:-----|:-----|:-----|:-----|
-|La plage spécifiée dans la feuille Sheet4 est nommée Ventes.  <br/> |« R2C2:R9C6 »  <br/> |« Sheet4 »  <br/> |\<omis\>  <br/> |« Ventes »  <br/> |
-|La valeur 100 dans la feuille Sheet4 est définie comme Constante.  <br/> |"100"  <br/> |« Sheet4 »  <br/> |\<omis\>  <br/> |« Constante »  <br/> |
-|La formule spécifiée dans la feuille Sheet4 est nommée SumTotal.  <br/> |« SUM(R1C1:R10C1) »  <br/> |« Sheet4 »  <br/> |\<omis\>  <br/> |« SumTotal »  <br/> |
-|3 est défini comme le nom masqué Counter de la feuille active.  <br/> |"3"  <br/> |\<omis\>  <br/> |2  <br/> |« Counter »  <br/> |
+|La plage spécifiée dans la feuille Sheet4 est nommée Ventes.  <br/> |« R2C2:R9C6 »  <br/> |« Sheet4 »  <br/> |\<omitted\>  <br/> |« Ventes »  <br/> |
+|La valeur 100 dans la feuille Sheet4 est définie comme Constante.  <br/> |"100"  <br/> |« Sheet4 »  <br/> |\<omitted\>  <br/> |« Constante »  <br/> |
+|La formule spécifiée dans la feuille Sheet4 est nommée SumTotal.  <br/> |« SUM(R1C1:R10C1) »  <br/> |« Sheet4 »  <br/> |\<omitted\>  <br/> |« SumTotal »  <br/> |
+|3 est défini comme le nom masqué Counter de la feuille active.  <br/> |"3"  <br/> |\<omitted\>  <br/> |2  <br/> |« Counter »  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

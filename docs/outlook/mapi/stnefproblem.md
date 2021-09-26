@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.STnefProblem
 api_type:
 - COM
 ms.assetid: 3fe651b7-0ddf-42fd-8277-9224505be1a8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 19d20a3fb06f6a0a0671ba4bfd938da314001778
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8e43586edf3e707201d4a05b7b01160f42e89d4f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435179"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591058"
 ---
 # <a name="stnefproblem"></a>STnefProblem
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251397
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 524278fb-196e-9cf9-e27b-d03642beeee4
 description: Renvoie l’angle entre le vecteur représenté par x,y et la direction de l’axe des x. Le résultat est un nombre exprimé dans l’unité actuelle de mesure des angles.
-ms.openlocfilehash: 906c024f2a78d6e11c1bbf770c14d04299cadca8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: faa4e450483e920d0ffc7b40e17a48018dfc4d87
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436481"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598821"
 ---
 # <a name="atan2-function"></a>Fonction ATAN2
 

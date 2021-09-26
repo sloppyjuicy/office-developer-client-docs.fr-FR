@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HrGetAutoDiscoverXML
 api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 77f28654ffe0f6f459fde229bb7428f2c39e96c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9b3803a416f81a47f01532ac865df93135cc6420
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347802"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610796"
 ---
 # <a name="hrgetautodiscoverxml"></a>HrGetAutoDiscoverXML
 
@@ -45,7 +45,7 @@ HRESULT HrGetAutoDiscoverXML(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pwzAddress_
   
@@ -57,7 +57,7 @@ HRESULT HrGetAutoDiscoverXML(
     
  _hCancelEvent_
   
-> [in] Handle d’événement Win32 non jeu facultatif qui peut être utilisé pour annuler l’opération. Pour annuler l’opération, définissez l’événement et passez le handle d’événement comme  _hCancelEvent_; passez **la valeur null** si vous ne souhaitez pas annuler l’opération. Notez que la transmission d’une valeur qui ne représente pas un handle d’événement n’a aucun effet et est ignorée par la fonction. 
+> [in] Handle d’événement Win32 non jeu facultatif qui peut être utilisé pour annuler l’opération. Pour annuler l’opération, définissez l’événement et passez le handle d’événement comme  _hCancelEvent_; passez **null si** vous ne souhaitez pas annuler l’opération. Notez que la transmission d’une valeur qui ne représente pas un handle d’événement n’a aucun effet et est ignorée par la fonction. 
     
  _ulFlags_
   

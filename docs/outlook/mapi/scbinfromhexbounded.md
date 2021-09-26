@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.ScBinFromHexBounded
 api_type:
 - COM
 ms.assetid: edac715c-6edb-4b05-82e5-c08c3c7cb6d4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 813fab28e3e865c9f04f85c854b292ce7229dad5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4afb140d8c273d274b4d8e7417c39e6dffb97764
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439757"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599038"
 ---
 # <a name="scbinfromhexbounded"></a>ScBinFromHexBounded
 
@@ -41,7 +41,7 @@ SCODE ScBinFromHexBounded(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _sz_
   

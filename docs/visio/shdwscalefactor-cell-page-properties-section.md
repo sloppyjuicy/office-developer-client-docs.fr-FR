@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60083
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10979706-6dfe-5241-e862-3f94716d14fa
 description: Indique le pourcentage d'agrandissement ou de réduction de la forme d'une ombre.
-ms.openlocfilehash: 9175e9a1148779524fdce96ff18eac22fe8dd421
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bc5f5fb3fa4fc3d922c0ac8e629f784212a5e3c5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429004"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603521"
 ---
 # <a name="shdwscalefactor-cell-page-properties-section"></a>ShdwScaleFactor, cellule (section Page Properties)
 

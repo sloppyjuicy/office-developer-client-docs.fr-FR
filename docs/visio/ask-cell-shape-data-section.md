@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b499a5eb-db8f-ebd0-d505-c9a002205e7d
 description: Détermine si un utilisateur est invité à entrer les données de forme d’une forme lorsqu’une occurrence est créée ou lorsque la forme est dupliquée ou copiée.
-ms.openlocfilehash: 0aa270ff918866d8f683a6408ccd71b6a22d555d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a6d588721f34426a7af60e09ca5d1c463d1b5d77
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426863"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608661"
 ---
 # <a name="ask-cell-shape-data-section"></a>Ask, cellule (section Shape Data)
 

@@ -8,13 +8,13 @@ keywords:
 - DLL [Excel 2007], création, création de DLL [Excel 2007]
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-localization_priority: Priority
-ms.openlocfilehash: 89dd7b65ad94ba2fc7e1cf3f99ee163d3003d0fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 365095dfaf1528663a358f69ad632b990f9ea1ce
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310919"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59605609"
 ---
 # <a name="developing-dlls"></a>Développement de DLL
 
@@ -52,7 +52,7 @@ Vous pouvez créer des DLL en plusieurs langages : C/C++, Pascal et Visual Bas
   
 ## <a name="exporting-functions-and-commands"></a>Exportation de fonctions et de commandes
 
-Lors de la compilation d’un projet DLL, le compilateur et l’éditeur de liens doivent savoir quelles fonctions doivent être exportées afin qu’elles soient disponibles pour l’application. Cette section décrit la façon de le faire.
+Lors de la compilation d’un projet DLL, le compilateur et l’éditeur de liens doivent savoir quelles fonctions doivent être exportées afin de pouvoir les rendre accessibles à l’application. Cette section décrit les façons de procéder.
   
 Lorsque les compilateurs compilent le code source, en général, ils modifient les noms des fonctions à partir de leur apparence dans le code source. Pour ce faire, ils effectuent un ajout généralement à la fin et/ou au début du nom, lors d’un processus appelé décoration de nom. Vous devez vérifier que la fonction est exportée avec un nom reconnaissable pour l’application qui charge la DLL. Ainsi, il est possible d’indiquer à l’éditeur de liens d’associer le nom décoré à un nom d’exportation plus simple. Le nom d’exportation peut être le nom tel qu’il apparaissait à l’origine dans le code source, ou quelque chose d’autre.
   
@@ -132,7 +132,7 @@ double WINAPI my_Cdecorated_Cpp_export(double x);
 #endif
 ```
 
-### <a name="using-the-declspecdllexport-declarator"></a>Utilisation du déclarateur __declspec (dllexport)
+### <a name="using-the-__declspecdllexport-declarator"></a>Utilisation du déclarateur __declspec (dllexport)
 
 Le mot clé **__declspec (dllexport)** peut être utilisé dans la déclaration de la fonction comme suit. 
   

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b3c9a23-6378-4054-ad1c-193fc15c473c
 description: Se connecte au site de réseau social à l’aide du nom d’utilisateur et du mot de passe spécifiés.
-ms.openlocfilehash: 7915097e456d6fafa713901f8074e6531bfaa001
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 03d37024f8c537d85134e9abc4ca6b0f6c097cf6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361039"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608820"
 ---
 # <a name="isocialsessionlogon"></a>ISocialSession::Logon
 
@@ -23,7 +23,7 @@ Se connecte au site de réseau social à l’aide du nom d’utilisateur et du m
 HRESULT _stdcall Logon([in] BSTR username, [in] BSTR password);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _username_
   

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af5eb7fd-89c6-49bf-4e45-431b63d6cd6a
 description: Définit une règle qui compare une colonne de l’élément DataRecordset parent à un élément de données de forme de la dernière action de liaison automatique réussie effectuée dans l’interface utilisateur.
-ms.openlocfilehash: 7d25d12844fe33ec1f1abb66984c5be40c4995c3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: b8b2ea090946968de8fbc5a9e265a8e41a084e85
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537870"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598828"
 ---
 # <a name="autolinkcomparison-element-datarecordset_type-complextype-visio-xml"></a>Élément AutoLinkComparison (DataRecordSet_Type complexType) (Visio XML)
 

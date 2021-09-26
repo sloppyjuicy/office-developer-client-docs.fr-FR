@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb646840(v=office.15)
 ms:contentKeyID: 55119774
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 45584ae0a7050aa769368db518c9efcd5db9975a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a18e781e99b29bef464a96d9ae2c7927b7a196ff
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336875"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583092"
 ---
 # <a name="installing-and-referencing-the-outlook-pia"></a>Installation et référencement de l’assembly PIA Outlook
 

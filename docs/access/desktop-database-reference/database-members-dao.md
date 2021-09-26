@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
 ms:contentKeyID: 48545392
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: d2254aeff94aeb2b8b078fc4f4cd4d3ef807e597
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0f6688f09a542ade2b47c4e9909dc67977b7b163
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294924"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589805"
 ---
 # <a name="database-members-dao"></a>Database Members (DAO)
 
@@ -102,7 +102,7 @@ Un objet Database représente une base de données ouverte.
 <td><p>Renvoie une valeur qui spécifie la séquence de l'ordre de tri du texte pour la comparaison ou le tri de chaînes de caractères (espaces de travail Microsoft Access uniquement). Valeur <strong>Long</strong> en lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-connect-property-dao.md">Connect</a></strong></p></td>
+<td><p><strong><a href="database-connect-property-dao.md">Connecter</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui fournit des informations sur la source d'une base de données ouverte. Valeur de type <strong>String</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="odd">

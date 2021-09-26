@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 13e41dcd182f720b3611108311db6cd56fb4847e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: ef1ea7dd482c94407691c7c7cfc8f2b1175f6b01
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294364"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589700"
 ---
 # <a name="dbenginecreatedatabase-method-dao"></a>DBEngine.CreateDatabase, méthode (DAO)
 
@@ -26,7 +26,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* CreateDatabase(***Name***, ***Locale***, ***Option***)
+*.* CreateDatabase(***Name** _, _*_Locale_*_, _*_Option_**)
 
 *expression* Variable représentant un objet **DBEngine**.
 

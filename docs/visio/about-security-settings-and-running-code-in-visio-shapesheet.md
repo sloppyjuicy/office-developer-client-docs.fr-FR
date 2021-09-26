@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm1042370
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 506b3d81-9c93-aeff-f5b2-3354ffd3e075
 description: La création d’applications sécurisées constitue l’un des principaux défis auxquels sont confrontés les développeurs de solutions. Les utilisateurs, les administrateurs et les développeurs sont de plus en plus conscients du risque d’exécution de code qui peut être dangereux pour leurs ordinateurs sans le savoir. Il est plus important que jamais que vous contribuiez à la garantie de l’intégrité de vos applications.
-ms.openlocfilehash: 3ad2aef9096ad2ad344b2d6fb22ed610756916bb
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: c7cd3c22a2d6200a8d4c4f00a53bf27a189d726b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819265"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608738"
 ---
 # <a name="about-security-settings-and-running-code-in-visio-shapesheet"></a>À propos des Paramètres sécurité et du code d’exécution dans Visio (ShapeSheet)
 

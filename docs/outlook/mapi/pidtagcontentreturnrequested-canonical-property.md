@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContentReturnRequested
 api_type:
 - HeaderDef
 ms.assetid: f86f7c59-42ab-4ac0-80fe-c985103e6bd6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c64288f393f15ee330065a43a92930f2e6f4e134
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7c6e3cd64f667298570823832b25e24f9882af6a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33419771"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583526"
 ---
 # <a name="pidtagcontentreturnrequested-canonical-property"></a>Propriété canonique PidTagContentReturnRequested
 

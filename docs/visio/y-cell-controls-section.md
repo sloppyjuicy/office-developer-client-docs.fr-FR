@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251282
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dd7ea5fa-1d34-44e8-5a29-69ca542aecba
 description: Représente la coordonnée y qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.
-ms.openlocfilehash: 14aaa7aef7e7250baeb8ffb863244ece26a201e7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5fc0fa7d0219993d4790eece205010cce33fca82
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407948"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597708"
 ---
 # <a name="y-cell-controls-section"></a>Y, cellule (section Controls)
 

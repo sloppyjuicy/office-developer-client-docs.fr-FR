@@ -3,17 +3,17 @@ title: Recherche dans le carnet d’adresses
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 20ff2b63-e4a3-4ba9-bad0-2c1873fb69b5
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d40419291f4b09c5880a769ce231015511e8f269
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 59a82ff1ab8880fc89b3195f4631a74923b41722
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424370"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599010"
 ---
 # <a name="searching-the-address-book"></a>Recherche dans le carnet d’adresses
 

@@ -8,19 +8,19 @@ f1_keywords:
 - xlfRegister
 keywords:
 - fonction xlfregister [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 66af741456ab763ef346a8777429f0ae1be77c11
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e6268339f9dddff6d61ec843bb7d498fc0710d38
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416040"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611167"
 ---
 # <a name="xlfregister-form-2"></a>xlfRegister (formulaire 2)
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été appelée par Microsoft Excel. Cela équivaut à appeler **REGISTER** à partir d’Excel feuille macro XLM. 
   
@@ -36,7 +36,7 @@ Appelée dans le formulaire 2, cette fonction ne peut être utilisée que pour c
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pxModuleText_ (**xltypeStr**)
   

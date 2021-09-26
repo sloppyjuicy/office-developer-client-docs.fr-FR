@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822782(v=office.15)
 ms:contentKeyID: 48547481
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 2c734d5e0f022faec4ebb9efe2dfc2f7dd7b7979
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: d6f676033c5619915f15605eababaaf7aaeb01c2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308357"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59588562"
 ---
 # <a name="workspace-object-dao"></a>Workspace, objet (DAO)
 
@@ -32,7 +32,7 @@ A **espace de travail** est un objet non persistant qui définit la manière don
 
 - Utiliser le **BeginTrans**, **CommitTrans**, et **restauration** méthodes permettent de gérer des transactions imbriquées processing au sein d’un **espace de travail** et utiliser plusieurs **espace de travail** objets pour effectuer les transactions multiples, simultanées et qui se chevauchent.
 
-Lorsque vous utilisez ou référencez un objet **Workspace** pour la première fois, vous créez automatiquement l’espace de travail par défaut DBEngine.Workspaces(0). Les paramètres des propriétés **Name** et **UserName** de l’espace de travail par défaut sont respectivement « \##Default Workspace#\# » et « Admin ». Si la sécurité est activée, la **nom d’utilisateur** paramètre de la propriété est le nom de l’utilisateur connecté.
+Lorsque vous utilisez ou référencez un objet **Workspace** pour la première fois, vous créez automatiquement l'espace de travail par défaut, appelé DBEngine.Workspaces(0). Les paramètres des propriétés **Name** et **UserName** de l'espace par défaut sont respectivement « \#Espace de travail par défaut\# » et « Administrateur ». Si la sécurité est activée, le paramètre de propriété **UserName** est le nom de l’utilisateur qui s’est connecté.
 
 Lorsque vous utilisez des transactions, toutes les bases de données de la valeur **espace de travail** sont affectés, même si plusieurs **base de données** objets sont ouverts dans le **espace de travail**. Par exemple, vous utilisez un **BeginTrans** méthode, mettre à jour plusieurs enregistrements dans une base de données, puis supprimer des enregistrements dans une autre base de données. Si vous utilisez ensuite la **restauration** méthode, les opérations de mise à jour et supprimer sont et annulées. Vous pouvez créer supplémentaires **espace de travail** objets gérer séparément ensemble des transactions **base de données** objets.
 
@@ -89,7 +89,7 @@ End Sub
 
 <br/>
 
-Cet exemple utilise la **CreateWorkspace** méthode pour créer un espace de travail Microsoft Access. Il répertorie les propriétés de l’espace d’ensuite.
+Cet exemple utilise la méthode **CreateWorkspace** pour créer un espace de travail Microsoft Access. Il répertorie ensuite les propriétés de l'espace de travail.
 
 ```vb 
 Sub CreateWorkspaceX() 

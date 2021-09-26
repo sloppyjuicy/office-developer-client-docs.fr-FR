@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1210
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30766e13-c90d-62fc-9c98-35ad7b0b4056
 description: Précise la distance entre les lignes verticales dans une grille fixe (YGridDensity = 0).
-ms.openlocfilehash: fc355b4e509494e9e7570122a8a3a7a3ce2e0588
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0e031f8fd54ef8ce9e52cd2ee09afbbd452cfc53
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417461"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597694"
 ---
 # <a name="ygridspacing-cell-ruler-amp-grid-section"></a>YGridSpacing, cellule (section Ruler &amp; Grid)
 

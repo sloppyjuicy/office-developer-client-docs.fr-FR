@@ -5,21 +5,21 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2dfaeed-7635-4c6b-9c35-b955ca1a85e9
 description: 'Il existe plusieurs façons de déboguer un fournisseur Outlook Social Connector (OSC) :'
-ms.openlocfilehash: 39deb7b6c0b11460826bdbf1957ffd8404d926e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 60856866359521923c225a41a5399b8e20093b1a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281068"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608920"
 ---
 # <a name="debugging-a-provider"></a>Débogage d’un fournisseur
 
 Il existe plusieurs façons de déboguer un fournisseur Outlook Social Connector (OSC) : 
   
-- À l’aide des commandes de débogage dans le composant ruban de l’interface utilisateur Office Fluent dans Outlook ou de l’application cliente Office de prise en charge pour que l’OSC prenne différentes mesures.
+- À l’aide des commandes de débogage dans le composant ruban de l’interface utilisateur Office Fluent dans Outlook ou de l’application cliente Office prise en charge, OSC doit prendre différentes mesures.
     
 - Utilisation de Fiddler pour suivre les appels d’API et le XML envoyés entre un réseau social et son fournisseur OSC
     
@@ -51,7 +51,7 @@ Fiddler est un outil de débogage over-the-wire pour vérifier les appels d’AP
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Étapes rapides pour apprendre à développer un fournisseur](quick-steps-for-learning-to-develop-a-provider.md)  
+- [Étapes rapides pour Learning développement d’un fournisseur](quick-steps-for-learning-to-develop-a-provider.md)  
 - [Synchronisation des amis et des activités](synchronizing-friends-and-activities.md) 
 - [Meilleures pratiques pour le développement d’un fournisseur](best-practices-for-developing-a-provider.md)
 - [Séquences d'appels classiques OSC](osc-typical-calling-sequences.md)  

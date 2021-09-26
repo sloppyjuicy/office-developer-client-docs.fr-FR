@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ITnef.AddProps
 api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6a7bb7265d29d2acfce17a1a09c95f7f7b539064
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fb9591794ae6606ef06b0fc756380fcd0ffab3fe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348621"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610404"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
@@ -36,7 +36,7 @@ HRESULT AddProps(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -88,7 +88,7 @@ S_OK
 
 Les fournisseurs de transport, les fournisseurs de magasins de messages et les passerelles appellent la méthode **ITnef::AddProps** pour ré lister les propriétés à inclure ou à exclure du traitement TNEF (Transport-Neutral Encapsulation Format) d’un message ou d’une pièce jointe. À l’aide d’appels successifs, le fournisseur ou la passerelle peut spécifier une liste de propriétés à ajouter et coder ou à exclure de l’encodage. Les fournisseurs et passerelles peuvent également utiliser **AddProps** pour fournir des informations sur toute gestion spéciale des pièces jointes. 
   
- **AddProps est** uniquement pris en charge pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) 
+ **AddProps est** pris en charge uniquement pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) 
   
 Notez qu’aucun codage TNEF réel ne se produit pour **AddProps** tant que la méthode [ITnef::Finish](itnef-finish.md) n’est pas appelée. Cette fonctionnalité signifie que les pointeurs passés dans **AddProps** doivent rester valides jusqu’à ce que l’appel à **Finish** soit effectué. À ce stade, tous les objets et données transmis avec les appels **AddProps** peuvent être libérés ou libérés. 
   

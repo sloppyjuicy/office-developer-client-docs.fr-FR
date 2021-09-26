@@ -3,14 +3,14 @@ title: Modèles d’URI Office
 manager: luken
 ms.date: 01/14/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ea99a8f-b005-4b92-b313-923294d20fbf
-ms.openlocfilehash: 246c1da3647b61c6281c1a52a24826b3f22e5d7e
-ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
+ms.openlocfilehash: cd6f55f5727782bae5880f89bb983c08db413a4f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48293498"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611048"
 ---
 # <a name="office-uri-schemes"></a>Modèles d’URI Office
 

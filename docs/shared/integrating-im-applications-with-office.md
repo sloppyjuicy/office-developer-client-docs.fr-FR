@@ -5,13 +5,13 @@ ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013 et version ultérieure, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
-localization_priority: Priority
-ms.openlocfilehash: 3494d42af82c174469272928286c3fc5f847eebc
-ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
+ms.localizationpriority: high
+ms.openlocfilehash: 1d7a091568a6f133db2a1c834ccbbf565547b874
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734230"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608836"
 ---
 # <a name="integrating-im-applications-with-office"></a>Intégration des applications de messagerie instantanée à Office
 
@@ -20,10 +20,10 @@ Cet article montre comment configurer une application cliente de message instant
 ## <a name="introduction"></a>Introduction
 <a name="off15_IMIntegration_Intro"> </a>
 
-Office 2013 (et versions ultérieures) permet une intégration enrichie avec les applications clientes de messagerie instantanée, y compris Lync 2013 et Teams. Cette intégration permet aux utilisateurs de bénéficier des fonctionnalités de messagerie instantanée à partir de Word, Excel, PowerPoint, Outlook, Visio, Project et OneNote, ainsi que d’une intégration de la présence aux pages SharePoint. Les utilisateurs peuvent voir la photo, le nom, le statut de présence et les données de contact des personnes de leur liste de contacts. Ils peuvent démarrer une session de messagerie instantanée, un appel vidéo ou un appel téléphonique directement à partir de la carte de visite (élément d’interface utilisateur dans Office qui affiche les informations de contact et les options de communication). Office vous permet de rester en contact avec vos contacts sans vous sortir de votre e-mail ou de vos documents. 
+Office 2013 (et versions ultérieures) permet une intégration enrichie avec les applications clientes de messagerie instantanée, y compris Lync 2013 et Teams. Cette intégration fournit aux utilisateurs des fonctionnalités de messagerie instantanée à partir de Word, Excel, PowerPoint, Outlook, Visio, Project et OneNote ainsi qu'une intégration de présence sur les pages SharePoint. Les utilisateurs peuvent voir la photo, le nom, le statut de présence et les données de contact des personnes de leur liste de contacts. Ils peuvent démarrer une session de messagerie instantanée, passer un appel vidéo ou appeler directement à partir de la carte de visite (l'élément d'interface utilisateur dans Office affichant les options de communication et les informations de contact). Office vous permet de rester facilement connecté à vos contacts sans vous forcer à quitter votre messagerie électronique ou vos documents. 
   
 > [!NOTE]
-> Cet article utilise le terme application cliente de messagerie instantanée pour faire spécifiquement référence à l'application installée sur l'ordinateur d'un utilisateur qui communique vers le service de messagerie instantanée. Par exemple, Lync 2013 et Teams sont considérés comme une application cliente de messagerie instantanée. Cet article ne fournit pas de détails sur la façon dont l’application cliente de messagerie instantanée communique avec le service de messagerie instantanée ou sur le service de messagerie instantanée lui-même. 
+> Cet article utilise le terme application cliente de messagerie instantanée pour faire spécifiquement référence à l'application installée sur l'ordinateur d'un utilisateur qui communique vers le service de messagerie instantanée. Par exemple, Lync 2013 et Teams sont considérées comme des applications clientes de messagerie instantanée. Cet article ne fournit pas de détails sur la façon dont l'application cliente de messagerie instantanée communique avec le service de messagerie instantanée ou sur le service de messagerie instantanée lui-même. 
   
 Vous pouvez personnaliser une application cliente de messagerie instantanée afin qu’elle communique avec Office. Vous pouvez notamment modifier votre application de messagerie instantanée pour qu’elle affiche les informations suivantes dans l’interface utilisateur d’Office :
   
@@ -241,7 +241,7 @@ public class LitwareClientAppObject : IUCOfficeIntegration
 
 ```
 
-La méthode **GetAuthenticationInfo** prend une chaîne comme argument pour le paramètre  _version_. Lorsque l’application Office appelle cette méthode, elle transfert l’une des deux chaînes comme argument, en fonction de la version d’Office. Lorsque l'application Office fournit la méthode avec la version d'Office prise en charge par l'application cliente de messagerie instantanée (autrement dit, qui prend en charge la fonctionnalité), la méthode **GetAuthenticationInfo** renvoie une chaîne XML `<authenticationinfo>` codée en dur. 
+La méthode **GetAuthenticationInfo** prend une chaîne comme argument pour le paramètre _version_. Lorsque l'application Office appelle cette méthode, elle transfert l'une des deux chaînes comme argument, en fonction de la version d'Office. Lorsque l'application Office fournit la méthode avec la version d'Office prise en charge par l'application cliente de messagerie instantanée (autrement dit, qui prend en charge la fonctionnalité), la méthode **GetAuthenticationInfo** renvoie une chaîne XML « `<authenticationinfo>` » codée en dur. 
   
 Utilisez le code suivant pour implémenter la méthode **GetAuthentication** dans le code d’application cliente de messagerie instantanée. 
   
@@ -336,7 +336,7 @@ En outre, la classe qui implémente l'interface **ILyncClient** doit également 
 Le tableau 3 affiche les membres qui doivent être implémentés dans la classe qui hérite de **ILyncClient** et **_ILyncClientEvents**.
   
 > [!NOTE]
-> Tout membre de l'interface **ILyncClient** ou **\_ILyncClientEvents** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E\_NOTIMPL**. 
+> Tout membre de l’interface **ILyncClient** ou **\_ILyncClientEvents** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement implémenté. Les membres qui sont présents sans être implémentés peuvent lever une erreur **NotImplementedException** ou **E\_NOTIMPL**. 
 > 
 > Pour plus d'informations sur les interfaces **ILyncClient** et **_ILyncClientEvents**, ainsi que leurs membres, consultez [UCCollaborationLib.ILyncClient](https://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) et [UCCollaborationLib._ILyncClientEvents](https://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
   
@@ -663,7 +663,7 @@ L'interface **IAutomation** automatise les fonctionnalités de l'application cli
 Le tableau 4 indique les membres qui doivent être implémentés dans la classe qui hérite de **IAutomation**.
   
 > [!NOTE]
-> Tout membre de l'interface **IAutomation** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l’interface **IAutomation** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**. 
 > 
 > Pour plus d'informations sur l'interface **IAutomation** et ses membres, consultez [UCCollaborationLib.IAutomation](https://msdn.microsoft.com/library/UCCollaborationLib.IAutomation). 
   
@@ -700,7 +700,7 @@ L'interface **IContact** représente un utilisateur de l'application cliente de 
 Le tableau 5 indique les membres qui doivent être implémentés dans la classe qui hérite de **IContact**.
   
 > [!NOTE]
-> Tout membre de l'interface **IContact** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l’interface **IContact** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**. 
 >
 > Pour plus d'informations sur l'interface **IContact** et ses membres, consultez [UCCollaborationLib.IContact](https://msdn.microsoft.com/library/UCCollaborationLib.IContact). 
   
@@ -872,7 +872,7 @@ L'objet **IContactManager** gère les contacts de l'utilisateur local, notamment
 Le tableau 7 affiche les membres qui doivent être implémentés dans la classe qui hérite de **IContactManager** et **_IContactManagerEvents**.
   
 > [!NOTE]
-> Tout membre de l’interface **IContactManager** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E\_NOTIMPL**. 
+> Tout membre de l’interface **IContactManager** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E\_NOTIMPL**. 
 >
 > Pour plus d'informations sur les interfaces **IContactManager** et **_IContactManagerEvents**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IContactManager](https://msdn.microsoft.com/library/UCCollaborationLib.IContactManager) et [UCCollaborationLib._IContactManagerEvents](https://msdn.microsoft.com/library/UCCollaborationLib._IContactManagerEvents). 
   
@@ -938,7 +938,7 @@ L'objet **IGroup** représente un ensemble de contacts avec des propriétés sup
 Le tableau 9 affiche les membres qui doivent être implémentés dans les classes qui héritent de **IGroup** et **IGroupCollection** dans le tableau suivant. 
   
 > [!NOTE]
-> Tout membre de l'interface **IGroup** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**. 
+> Tout membre de l’interface **IGroup** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**. 
 >
 > Pour plus d'informations sur les interfaces **IGroup** et **IGroupCollection**, ainsi que sur leurs membres, consultez [UCCollaborationLib.IGroup](https://msdn.microsoft.com/library/UCCollaborationLib.IGroup) et [UCCollaborationLib.IGroupCollection](https://msdn.microsoft.com/library/UCCollaborationLib.IGroupCollection). 
   
@@ -960,7 +960,7 @@ L'interface **IContactSubscription** vous permet de spécifier des contacts dont
 Le tableau 10 indique les membres qui doivent être implémentés dans les classes qui héritent de **IContactSubscription**.
   
 > [!NOTE]
-> Tout membre de l'interface **IContactSubscription** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l’interface **IContactSubscription** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**.
 >
 > Pour plus d'informations sur l'interface **IContactSubscription** et ses membres, consultez [UCCollaborationLib.IContactSubscription](https://msdn.microsoft.com/library/UCCollaborationLib.IContactSubscription). 
   
@@ -993,7 +993,7 @@ L'interface **IContactEndPoint** représente un numéro de téléphone à partir
 Le tableau 11 indique les membres qui doivent être implémentés dans les classes qui héritent de **IContactEndPoint**.
   
 > [!NOTE]
-> Tout membre de l'interface **IContactEndPoint** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l’interface **IContactEndPoint** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**.
 >
 > Pour plus d'informations sur l'interface **IContactEndPoint** et ses membres, consultez [UCCollaborationLib.IContactEndpoint](https://msdn.microsoft.com/library/UCCollaborationLib.IContactEndpoint). 
   
@@ -1013,7 +1013,7 @@ L'interface **ILocaleString** est une structure de chaîne localisée contenant 
 Le tableau 12 affiche les membres qui doivent être implémentés dans les classes qui héritent de **ILocaleString**.
   
 > [!NOTE]
-> Tout membre de l'interface **ILocaleString** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent générer une erreur **NotImplementedException** ou **E_NOTIMPL**.
+> Tout membre de l’interface **ILocaleString** non répertorié dans le tableau doit être présent, mais ne doit pas nécessairement être implémenté. Les membres présents, mais non implémentés, peuvent lever une erreur **NotImplementedException** ou **E_NOTIMPL**.
 >
 > Pour plus d'informations sur l'interface **ILocalString** et ses membres, voir [UCCollaborationLib.ILocaleString](https://msdn.microsoft.com/library/UCCollaborationLib.ILocaleString). 
   

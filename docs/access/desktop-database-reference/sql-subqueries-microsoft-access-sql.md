@@ -12,13 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 7beda04d1f18014101f00078de1d125c1fd67a69
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 292522cd40fe66951d9c68671fde90449672a2f6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314566"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589070"
 ---
 # <a name="sql-subqueries-microsoft-access-sql"></a>Sous-requêtes SQL (Microsoft Access SQL)
 

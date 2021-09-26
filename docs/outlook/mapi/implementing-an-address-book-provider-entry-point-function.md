@@ -3,17 +3,17 @@ title: Implémentation d’une fonction de point d’entrée du fournisseur de c
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00b3b30101ee1efb984cf45afb35b0b085d545ac
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d411ef555fe3cd3134bd28bfc66c85d32bda9859
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409712"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610474"
 ---
 # <a name="implementing-an-address-book-provider-entry-point-function"></a>Implémentation d’une fonction de point d’entrée du fournisseur de carnet d’adresses
 

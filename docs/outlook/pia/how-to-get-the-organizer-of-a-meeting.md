@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184615(v=office.15)
 ms:contentKeyID: 55119872
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e19b293b581984e9dbb1fe27c9564cb78a73caa1
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: medium
+ms.openlocfilehash: 321cf15e0f1144518d526c3897863e9bf3d681dd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542534"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583148"
 ---
 # <a name="get-the-organizer-of-a-meeting"></a>Obtention de l’organisateur d’une réunion
 

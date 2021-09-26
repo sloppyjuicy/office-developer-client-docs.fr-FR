@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagFreeBusyEntryIds
 api_type:
 - HeaderDef
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 57b65f8423cbbc48e3eac066c45cab0fcc90fe18
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 132b4979a7be99ee4a1635383a8ae1700e92fe89
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316197"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583477"
 ---
 # <a name="pidtagfreebusyentryids-canonical-property"></a>Propriété canonique PidTagFreeBusyEntryIds
 

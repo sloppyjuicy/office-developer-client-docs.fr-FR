@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgServiceAdmin.MsgServiceTransportOrder
 api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3d532e0eb46daa412711344421936a58da309b7b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cc9efe43bcccf0af6f0b67e2091e4490234bbc3b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420093"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610418"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
@@ -35,7 +35,7 @@ HRESULT MsgServiceTransportOrder(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cUID_
   

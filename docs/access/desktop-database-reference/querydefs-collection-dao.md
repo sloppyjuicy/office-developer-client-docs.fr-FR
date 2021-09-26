@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194892(v=office.15)
 ms:contentKeyID: 48545215
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 3543d882e0584c35c88a5475032d9fe5505f516c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 740b128ce246c108f283489f8e2e172c12eb868c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303233"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568606"
 ---
 # <a name="querydefs-collection-dao"></a>Collection QueryDefs (DAO)
 
@@ -22,7 +22,7 @@ Une collection **QueryDefs** contient tous les objets **QueryDef** d’un objet 
 
 ## <a name="remarks"></a>Remarques
 
-Pour créer un objet **QueryDef**, utilisez la méthode **CreateQueryDef**. Dans un espace de travail Microsoft Access, si vous fournissez une chaîne pour l’argument name ou si vous définissez explicitement la propriété **Name** du nouvel objet **QueryDef** sur une chaîne comportant au moins un caractère, vous créez un objet **QueryDef** permanent qui est automatiquement ajouté à la collection **QueryDefs** et enregistré sur le disque. La fourniture d’une chaîne nulle en tant qu’argument name ou la définition explicite de la propriété **Name** sur une chaîne nulle entraîne la création d’un objet **QueryDef** temporaire.
+Pour créer un nouvel objet **QueryDef**, utilisez la méthode **CreateQueryDef**. Dans un espace de travail Microsoft Access, si vous fournissez une chaîne pour l'argument de nom ou si vous définissez explicitement la propriété **Name** du nouvel objet **QueryDef** sur une chaîne comportant au moins un caractère, vous créez un objet **QueryDef** permanent qui est automatiquement ajouté à la collection **QueryDefs** et enregistré sur le disque. La fourniture d'une chaîne nulle en tant qu'argument de nom ou la définition explicite de la propriété **Name** sur une chaîne nulle entraîne la création d'un objet **QueryDef** temporaire.
 
 Pour faire référence à un objet **QueryDef** dans une collection selon son nombre ordinal ou son paramètre de propriété **Name**, utilisez l’une des formes de syntaxe suivantes :
 
@@ -87,7 +87,7 @@ Cet exemple crée un objet **QueryDef** et l’ajoute à la collection **QueryDe
 
 <br/>
 
-Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter un objet **QueryDef** à la fois temporaire et permanent. La fonction GetrstTemp est nécessaire à l’exécution de cette procédure.
+Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter deux objets **QueryDef**, l'un temporaire et l'autre permanent. La fonction GetrstTemp est obligatoire pour l'exécution de cette procédure.
 
 ```vb
     Sub CreateQueryDefX() 
@@ -142,7 +142,7 @@ Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter un o
 
 <br/>
 
-L’exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters permet de définir le paramètre Organization de la requête myActionQuery avant l’exécution de celle-ci.
+L'exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters est utilisée pour définir le paramètre Organization de la requête myActionQuery avant l'exécution de cette dernière.
 
 **Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 

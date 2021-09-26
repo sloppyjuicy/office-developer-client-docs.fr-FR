@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821175(v=office.15)
 ms:contentKeyID: 48546850
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 82dc6e175c7168d5c1b042e85dce7b77aa96b575
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: d6b39af36089784f86f5dd7c286da7329c9e6aeb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300538"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606295"
 ---
 # <a name="recordsetedit-method-dao"></a>Recordset.Edit, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Copie l’enregistrement actif à partir d’un objet**[Recordset](recordset-object-dao.md)** actualisable dans la mémoire tampon de copie à des fins de modification future.
+Copie l’enregistrement actif à partir d’un objet **[Recordset](recordset-object-dao.md)** actualisable dans la mémoire tampon de copie à des fins de modification future.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,12 +28,12 @@ Copie l’enregistrement actif à partir d’un objet**[Recordset](recordset-obj
 
 ## <a name="remarks"></a>Remarques
 
-Lorsque vous utilisez le **modifier** méthode, les modifications apportées aux champs de l’enregistrement actif est copié dans la mémoire tampon de copie. Après avoir apporté les modifications souhaitées à l’enregistrement, utilisez la ** [mise à jour](recordset-update-method-dao.md) ** méthode pour enregistrer vos modifications.
+Lorsque vous utilisez le **modifier** méthode, les modifications apportées aux champs de l’enregistrement actif est copié dans la mémoire tampon de copie. Après avoir apporté les modifications souhaitées à l’enregistrement, utilisez la **[mise à jour](recordset-update-method-dao.md)** méthode pour enregistrer vos modifications.
 
 L’enregistrement actif reste actif après avoir utilisé **modifier**.
 
 > [!NOTE]
-> Si vous modifiez un enregistrement et puis d’effectuer une opération qui déplace vers un autre enregistrement, mais sans utiliser première **mise à jour**, vos modifications sont perdues sans avertissement. De plus, si vous fermez l’objet Recordset ou mettez fin à la procédure déclarant l’objet **Recordset**, l’objet parent **[Database](database-object-dao.md)** ou l’objet **[Connection](connection-object-dao.md)**, votre enregistrement modifié est ignoré sans avertissement.
+> Si vous modifiez un enregistrement et que vous effectuez ensuite une opération qui atteint un autre enregistrement sans avoir préalablement utilisé **Update**, vos modifications **sont perdues sans avertissement**. De plus, si vous fermez  **[JeuEnregistrements](database-object-dao.md)** ou que vous terminez la procédure déclarant l'objet Recordset, l'objet parent  **[Database ou l'objet Connection](connection-object-dao.md)**, votre enregistrement modifié est ignoré sans avertissement.
 
 À l’aide de **modifier** génère une erreur si :
 
@@ -47,10 +47,10 @@ L’enregistrement actif reste actif après avoir utilisé **modifier**.
 
 - Un autre utilisateur a verrouillé la page contenant votre enregistrement (espace de travail Microsoft Access).
 
-Dans un espace de travail Microsoft Access, lorsque le **jeu d’enregistrements** d’objet ** [LockEdits](recordset-lockedits-property-dao.md) ** paramètre de la propriété est **vrai** (verrouillage pessimiste ) dans un environnement multi-utilisateur reste verrouillé de l’heure de l’enregistrement **modifier** sert jusqu'à ce que la mise à jour est terminée. Si le **LockEdits** paramètre de la propriété est **faux** (verrouillage optimiste), l’enregistrement est verrouillé et par rapport à l’enregistrement déjà modifiée juste avant qu’il est mis à jour dans la base de données. Si l’enregistrement a changé, car vous avez utilisé le **modifier** méthode, le **mise à jour** opération échoue avec une erreur d’exécution si vous utilisez **OpenRecordset** sans spécifiant **dbSeeChanges**. Par défaut, base de données Microsoft Access connectées moteur ODBC et bases de données ISAM toujours utilisent le verrouillage optimiste.
+Dans un espace de travail Microsoft Access, lorsque le **jeu d’enregistrements** d’objet **[LockEdits](recordset-lockedits-property-dao.md)** paramètre de la propriété est **vrai** (verrouillage pessimiste ) dans un environnement multi-utilisateur reste verrouillé de l’heure de l’enregistrement **modifier** sert jusqu'à ce que la mise à jour est terminée. Si le **LockEdits** paramètre de la propriété est **faux** (verrouillage optimiste), l’enregistrement est verrouillé et par rapport à l’enregistrement déjà modifiée juste avant qu’il est mis à jour dans la base de données. Si l’enregistrement a changé, car vous avez utilisé le **modifier** méthode, le **mise à jour** opération échoue avec une erreur d’exécution si vous utilisez **OpenRecordset** sans spécifiant **dbSeeChanges**. Par défaut, base de données Microsoft Access connectées moteur ODBC et bases de données ISAM toujours utilisent le verrouillage optimiste.
 
 > [!NOTE]
-> Pour ajouter, modifier ou supprimer un enregistrement, il doit y avoir un index unique sur l’enregistrement dans la source de données sous-jacentes. Si non, une erreur « Autorisation refusée » doit se produire sur le ** [AddNew](recordset-addnew-method-dao.md)**, ** [supprimer](fields-delete-method-dao.md)**, ou **modifier** méthode Appelez dans un espace de travail Microsoft Access.
+> Pour ajouter, modifier ou supprimer un enregistrement, il doit y avoir un index unique sur l’enregistrement dans la source de données sous-jacentes. Si non, une erreur « Autorisation refusée » doit se produire sur le **[AddNew](recordset-addnew-method-dao.md)**, **[supprimer](fields-delete-method-dao.md)**, ou **modifier** méthode Appelez dans un espace de travail Microsoft Access.
 
 ## <a name="example"></a>Exemple
 

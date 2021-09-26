@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagStoreProviders
 api_type:
 - COM
 ms.assetid: a2c4a933-b371-43ec-af0f-6140d8b5c7ea
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 45d19b35f05b3347e78973bb72e526a2198d9bad
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 68f2f554df9d76dd58623513610673a83bb2ce50
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415837"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599360"
 ---
 # <a name="pidtagstoreproviders-canonical-property"></a>Propriété canonique PidTagStoreProviders
 

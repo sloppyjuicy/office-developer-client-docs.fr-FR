@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
 description: Stocke les informations relatives à la validation du diagramme pour le document.
-ms.openlocfilehash: b1b1bcbd70d57d7a7316e91d137cf8c3c3750722
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: c17cd06a602ccf4e9ae93cb4babd12b0a584d0a1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538549"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597750"
 ---
 # <a name="validation-element-visio-xml"></a>Élément Validation (Visio XML)
 

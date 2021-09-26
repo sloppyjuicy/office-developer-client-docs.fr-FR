@@ -6,13 +6,13 @@ ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-t
 ms:contentKeyID: 55119926
 ms.date: 12/03/2019
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 5bae79531e7d2be39610194e0b59477fcee28c15
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+ms.localizationpriority: high
+ms.openlocfilehash: 2cbf3f41ad7205111da63669e39bb7224d5f5fa0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773700"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590715"
 ---
 # <a name="get-and-sign-in-to-an-instance-of-outlook"></a>Obtention d’une instance d’Outlook pour s’y connecter
 
@@ -31,7 +31,7 @@ Si Outlook ne s’exécute pas sur l’ordinateur local, GetApplicationObject cr
 
 L’exemple suivant est un exemple de code Visual Basic, suivi de l’exemple de code C\#.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **Imports** ou **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration de classe publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFolder.SetMessageStatus
 api_type:
 - COM
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: fbb05efff67fa90c68db86249d4657e489e7bd63
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8514a24ebe56d1ae533b4f2b247a34a9f7d7c8e5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417272"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610635"
 ---
 # <a name="imapifoldersetmessagestatus"></a>IMAPIFolder::SetMessageStatus
 
@@ -37,7 +37,7 @@ HRESULT SetMessageStatus(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbEntryID_
   

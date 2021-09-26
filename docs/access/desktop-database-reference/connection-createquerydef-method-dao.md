@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: b6600d4508a33a31098d6a2e7c92f5904beb0e95
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 6f54768e9c6297fb9e0d129f9545f88aaad8cdf7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295932"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590083"
 ---
 # <a name="connectioncreatequerydef-method-dao"></a>Connection.CreateQueryDef method (DAO)
 
@@ -26,11 +26,11 @@ Crée un objet **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .CreateQueryDef(***Name***, ***SQLText***)
+*.* CreateQueryDef(***Name** _, _*_SQLText_**)
 
 *expression* Variable qui représente un objet **Connection**.
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194099(v=office.15)
 ms:contentKeyID: 48544893
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: a9ef8f1714244b02ed5423a38cf3fb8fa328ec1e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 216a15a6152fd1920562ad04b9c0f1a4d150bf86
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300636"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568508"
 ---
 # <a name="recordsetfindnext-method-dao"></a>Recordset.FindNext, méthode (DAO)
 
@@ -106,7 +106,7 @@ Vérifiez toujours la valeur de la propriété **NoMatch** pour déterminer si l
 
 L’utilisation des méthodes **Find** avec les recordsets ODBC connectés au moteur de base de données Microsoft Access peut s’avérer inefficace. Il se peut que la reformulation de vos critères pour localiser un enregistrement spécifique soit plus rapide, surtout si vous travaillez avec des recordsets volumineux.
 
-Dans un espace de travail ODBCDirect, la **trouver** et **recherche** méthodes non disponibles sur n’importe quel type de **jeu d’enregistrements** objet, car l’exécution un **trouver**ou **recherche** via une ODBC connexion n’est pas très efficace via le réseau. Au lieu de cela, vous devez concevoir la requête (en utilisant l’argument source pour la méthode **OpenRecordset**) avec une clause WHERE appropriée qui limite les enregistrements renvoyés à ceux qui répondent aux critères que vous utiliseriez autrement dans une méthode **Find** ou **Seek**.
+Dans un espace de travail ODBCDirect, les méthodes **Find** et **Seek** ne sont disponibles pour aucun objet **Recordset**, quel qu'en soit le type, car l'exécution d'une méthode **Find** ou **Seek** via une connexion ODBC n'est pas très efficace sur un réseau. Au lieu de cela, vous devez concevoir la requête (c'est-à-dire, en utilisant l'argument source pour la méthode **OpenRecordset**) avec une clause WHERE appropriée qui limite les enregistrements renvoyés, uniquement à ceux qui répondent aux critères que vous utiliseriez autrement dans une méthode **Find** ou **Seek**.
 
 Lorsque vous utilisez des bases de données ODBC connectées au moteur de base de données Microsoft Access et de grands objets **Recordset** de type feuille de réponse dynamique, il se peut que l’utilisation des méthodes **Find** ou des propriétés **Sort** ou **Filter** soit lente. Pour améliorer les performances, utilisez des requêtes SQL avec des clauses ORDER BY ou WHERE personnalisées, des requêtes avec paramètres ou des objets QueryDef qui récupèrent des enregistrements indexés spécifiques.
 
@@ -117,7 +117,7 @@ Vous devez utiliser un format de date américain (mois-jour-année) lorsque vous
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-Si les critères se composent d’une chaîne concaténée comportant une valeur non entière, et que les paramètres système spécifient un caractère décimal d’un format différent de celui des États-Unis, tel qu’une virgule (par exemple, strSQL = "PRICE \> " & lngPrice, et lngPrice = 125,50), une erreur se produit lorsque vous tentez d’appeler la méthode. Il s’agit, car lors de la concaténation, le nombre est converti en une chaîne à l’aide du caractère décimal par défaut de votre système et Microsoft Access SQL accepte uniquement des caractères décimaux américains.
+Si les critères sont composés d’une chaîne concaténée avec une valeur non entière, et que les paramètres système indiquent un caractère décimal non américain, comme une virgule (par exemple, strSQL = "PRICE \> " & lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous tentez d’appeler la méthode. Ceci est dû au fait que, lors de la concaténation, le nombre sera converti en chaîne à l’aide du caractère décimal par défaut de votre système, et Microsoft Access SQL accepte uniquement les caractères décimaux américains.
 
 > [!NOTE]
 > - Pour des performances optimales, les *critères* doivent être au format «*champ* = *valeur*» où *champ* est un champ indexé dans la table de base sous-jacente, ou au format «*champ* LIKE *préfixe*» où *champ* est un champ indexé dans la table de base sous-jacente et *préfixe* une chaîne de recherche de préfixe (par exemple, « ART* »).

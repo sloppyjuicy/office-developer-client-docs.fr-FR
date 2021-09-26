@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagTelecommunicationsDeviceForDeafTelephon
 api_type:
 - COM
 ms.assetid: 9b1bea60-1946-48ea-8312-c85fcbe944a8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8f116aade555fc3d5fa1ab63635b540826652ec3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 061635ba447aa38344d5d22f771f79dfccb86dff
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358852"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599269"
 ---
 # <a name="pidtagtelecommunicationsdevicefordeaftelephonenumber-canonical-property"></a>Propriété canonique PidTagTelecommunicationsDeviceForDeafTelephoneNumber
 

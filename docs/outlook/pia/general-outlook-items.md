@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn292516(v=office.15)
 ms:contentKeyID: 55119843
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4133baf2a1b8c84ab887896e4c563fe0f8ece533
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 414217d5e34f891f0dde7b66e0c999ed161564cd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269956"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583197"
 ---
 # <a name="general-outlook-items"></a>Éléments Outlook généraux
 

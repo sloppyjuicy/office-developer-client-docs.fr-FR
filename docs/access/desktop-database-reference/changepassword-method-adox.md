@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249690(v=office.15)
 ms:contentKeyID: 48546519
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: df67774b9b38b5fbcc836a2ea0dfc17886d67107
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 5fdc08b191e735ddcad0b9dae9962cb657521993
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296527"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590092"
 ---
 # <a name="changepassword-method-adox"></a>ChangePassword, méthode (ADOX)
 

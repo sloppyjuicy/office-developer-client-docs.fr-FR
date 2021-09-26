@@ -1,25 +1,25 @@
 ---
 title: Filtrage d’une vue à l’aide d’une macro dans l’application Access
-manager: kelbow
-ms.date: 08/18/2017
+manager: lindalu
+ms.date: 08/18/2021
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: Découvrez comment filtrer un affichage dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
-localization_priority: Priority
-ms.openlocfilehash: 861851a3497f290fe0bcda38e51794194fbe7bbe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 9ff0e63731c60d48e6bc98619b131c38b2122974
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302672"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572437"
 ---
 # <a name="filter-a-view-by-using-a-macro-in-an-access-app"></a>Filtrage d’une vue à l’aide d’une macro dans l’application Access
 
 Découvrez comment filtrer un affichage dans une application Access à l’aide de l’action de macro RequeryRecords et une macro de données.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-FR/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
 
 L’affichage de liste par défaut dans une application Access vous permet de filtrer les problèmes sur les valeurs contenues dans les champs. Vous voudrez peut-être filtrer un affichage en fonction d’un ensemble de conditions au lieu de la mise en correspondance d’une valeur. Pour ce faire, vous devez créer une macro. Cet article vous explique comment créer une macro qui filtre un affichage afin de présenter les tâches dont l’échéance est passée ou arrive dans les 7 prochains jours.
   
@@ -37,7 +37,7 @@ Pour suivre les étapes de cet exemple, vous avez besoin des éléments suivants
 ## <a name="create-the-app"></a>Création de l’application
 <a name="Access2013FilterViewByUsingMacro_CreateApp"> </a>
 
-Supposons que vous vouliez créer une application Access qui assure le suivi des tâches pour votre entreprise. Avant de commencer à créer les tables et affichages, vous devriez rechercher un modèle de schéma.
+Supposons que vous vouliez créer une application Access qui assure le suivi des problèmes pour votre entreprise. Avant de commencer à créer les tables et affichages à partir de rien, vous devriez rechercher un modèle de schéma correspondant à vos besoins.
   
 ### <a name="to-create-the-task-tracking-app"></a>Créer l’application de suivi des tâches
 
@@ -51,7 +51,7 @@ Supposons que vous vouliez créer une application Access qui assure le suivi des
     
    **Figure 1. Modèles appropriés pour la recherche des tâches**
 
-   ![Modèles appropriés pour la recherche des problèmes](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modèles appropriés pour la recherche des problèmes")
+   ![Modèles correspondant à la recherche de problèmes](media/odc_Access15_CreateAndCustomizeWebApp_Figure01.JPG "Modèles correspondant à la recherche de problèmes")
   
 4. Sélectionnez **Tâches**.
     
@@ -113,7 +113,7 @@ La macro d’interface utilisateur va appeler la macro de données, qui va tente
     
 4. Dans la zone de liste **Rechercher un enregistrement**, sélectionnez **Tâches**.
     
-5. Dans la zone **Condition Where**, saisissez **[Tasks].[Due Date]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>"Completed"**. 
+5. Dans la zone **Condition Où** , entrez **[Tâches]. [Date d’échéance]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>« Terminé »**. 
     
 6. Dans la zone de liste **Ajouter une nouvelle Action**, sélectionnez **SetReturnVar**. 
     
@@ -122,7 +122,7 @@ La macro d’interface utilisateur va appeler la macro de données, qui va tente
   
    **Figure 1. Zone de liste Ajouter une nouvelle action**
 
-   ![Liste déroulante Ajouter une nouvelle Action](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Liste déroulante Ajouter une nouvelle action")
+   ![ Capture d’écran Ajouter une nouvelle action dans la liste déroulante ](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Liste déroulante Ajouter une nouvelle action")
   
 7. Dans la zone **Nom**, saisissez **TaskFound**. 
     
@@ -199,9 +199,9 @@ La macro d’interface utilisateur va appeler la macro de données, qui va tente
   
    **Figure 6. Zone de liste Ajouter une nouvelle action**
 
-   ![Liste déroulante Ajouter une nouvelle Action](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Liste déroulante Ajouter une nouvelle action")
+   ![Liste déroulante Ajouter une nouvelle action](media/odc_Access2013_FilterFormByUsingMacro_Figure06.jpg "Liste déroulante Ajouter une nouvelle action")
   
-7. Dans la zone **Where**, saisissez ** [Tasks].[Due Date]\<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>"Completed"**. 
+7. Dans la zone **Où**, entrez **[Tâches].[ Date d’échéance] \<DateAdd(Day,7,Today()) AND [Tasks].[Status]\<\>« Terminé »**. 
     
 8. Dans la zone **Trier par**, saisissez **[Date d’échéance]**. 
     
@@ -209,7 +209,7 @@ La macro d’interface utilisateur va appeler la macro de données, qui va tente
     
    **Figure 7. Lien Ajouter sinon**
 
-   ![Lien Ajouter sinon](media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg "Lien Ajouter sinon")
+   ![Ajouter lien Sinon](media/odc_Access2013_FilterFormByUsingMacro_Figure07.jpg "Lien Ajouter Sinon")
   
     Une clause Else est ajoutée au bloc If.
     

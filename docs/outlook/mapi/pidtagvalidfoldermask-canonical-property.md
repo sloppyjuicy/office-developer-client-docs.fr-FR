@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagValidFolderMask
 api_type:
 - COM
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 925e0eb60d55349ded114b827b6ca67e3b5ac1ce
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d8f501d4692e1e4ef735355f723ad8201e8a001d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427793"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599255"
 ---
 # <a name="pidtagvalidfoldermask-canonical-property"></a>Propriété canonique PidTagValidFolderMask
 

@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Découvrez comment ajouter un service web météorologique tiers à la barre météorologique dans Outlook 2013, afin de fournir des données de conditions météorologiques pour un lieu choisi par l'utilisateur.
-ms.openlocfilehash: 0423e149306bf7562dd525f1b7460a63cbace372
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 080fea920848139b61e738cb5f78a22329b57daf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336569"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598968"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>Extension de la barre météorologique dans Outlook
 

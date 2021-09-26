@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a556eadc-9ee6-7a29-ca05-6250b612790c
 description: Protège les cellules de mise en forme d’une forme pour s’assurer qu’elles utilisent les aspects appropriés du thème actuel.
-ms.openlocfilehash: c20d43f9d03296a3c529a6c8f59cf27489dcdc51
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e29fdd9c148940e047a7f97a8e6d5b72d685f7cb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404945"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603346"
 ---
 # <a name="themeguard-function"></a>Fonction THEMEGUARD
 

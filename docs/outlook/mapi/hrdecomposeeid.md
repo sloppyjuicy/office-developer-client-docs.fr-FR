@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.HrDecomposeEID
 api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d3ef8b61b6042d9c3e715168d9131a74facef000
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b8b1f2d590616a30464181bde9bb0d0ad989bb5a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436110"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610817"
 ---
 # <a name="hrdecomposeeid"></a>HrDecomposeEID
 
@@ -45,7 +45,7 @@ HrDecomposeEID(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _psession_
   
@@ -73,7 +73,7 @@ HrDecomposeEID(
     
  _ppMsgEID_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de l’objet. Si le paramètre  _pEID_ pointe vers un identificateur d’entrée non saisie,  _ppMsgEID_ pointe vers un pointeur vers une copie de l’identificateur d’entrée non saisie. 
+> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de l’objet. Si le paramètre  _pEID_ pointe vers un identificateur d’entrée noncompound,  _ppMsgEID_ pointe vers un pointeur vers une copie de l’identificateur d’entrée non saisie. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

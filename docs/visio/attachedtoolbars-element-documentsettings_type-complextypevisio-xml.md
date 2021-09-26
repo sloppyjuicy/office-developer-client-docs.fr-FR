@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
 description: Fichier MIME (Multipurpose Internet Mail Extensions) codé Microsoft Visio interface utilisateur (VSU) représentant des barres d’outils personnalisées.
-ms.openlocfilehash: 99bc85aff23abf11dafb644fb43ee540fff7a2ca
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 8e219fd3bab07d6683b74f655f613d2eac5f924a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537926"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608636"
 ---
 # <a name="attachedtoolbars-element-documentsettings_type-complextype-visio-xml"></a>Élément AttachedToolbars (DocumentSettings_Type complexType) (Visio XML)
 

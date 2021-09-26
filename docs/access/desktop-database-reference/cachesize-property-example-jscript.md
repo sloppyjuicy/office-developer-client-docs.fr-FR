@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15)
 ms:contentKeyID: 48547473
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: c660d2b0f1d3545b6e7c2cbab72c42056d9ded99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 612551b5374a4d2068c3c83b99c38e91cf0abe99
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296737"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607065"
 ---
 # <a name="cachesize-property-example-jscript"></a>CacheSize, propriété – Exemple (JScript)
 

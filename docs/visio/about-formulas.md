@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251823
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec0de3e1-21dc-c5d6-2c2a-d5fef80d89bd
 description: Les actions sur les formes sont commandées au moyen de formules que vous écrivez pour définir le comportement désiré. Vous pouvez modifier la formule d’une cellule pour en changer la valeur, et modifier ainsi le comportement d’une forme particulière. Par exemple, la cellule Height de la section Shape Transform contient une formule que vous pouvez modifier pour changer la hauteur de la forme.
-ms.openlocfilehash: e8e1a2b77cc355e930af6f31f0b375dfba321e74
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 31585f7da6170628da7e41455c448e417b48d823
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426260"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598891"
 ---
 # <a name="about-formulas"></a>À propos des formules
 

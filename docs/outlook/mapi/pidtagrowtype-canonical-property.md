@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagRowType
 api_type:
 - COM
 ms.assetid: d57ce5c8-1f60-4709-b86a-4468c4208dfe
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 962e8c92ae61e8b60862a3ae26a7cdfbf5034e89
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6722d02f549979381e20a5179b573c027773e72b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359513"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599557"
 ---
 # <a name="pidtagrowtype-canonical-property"></a>Propriété canonique PidTagRowType
 

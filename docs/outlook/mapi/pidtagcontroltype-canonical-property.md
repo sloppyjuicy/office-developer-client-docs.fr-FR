@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagControlType
 api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7bdb02f72ba14a36c8a4c218cd5f0631e7145e6a
-ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
+ms.openlocfilehash: 059fc990a3d5644878e2fc7990e49565b3f9da53
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734202"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583519"
 ---
 # <a name="pidtagcontroltype-canonical-property"></a>Propriété canonique PidTagControlType
 

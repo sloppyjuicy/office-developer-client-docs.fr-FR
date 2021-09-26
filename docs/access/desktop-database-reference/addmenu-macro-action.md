@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm37891
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 119e824cae71d54bb398aa68f476a667f14a6888
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b788fa30f143d5810cc9a64fa041b401518e87e5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280272"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597701"
 ---
 # <a name="addmenu-macro-action"></a>AddMenu, action de macro
 

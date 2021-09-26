@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197681(v=office.15)
 ms:contentKeyID: 48546422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 098f44d87390351c23e61000ecbe47eae35810ae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: df81fc1fe146832799d8af3b02c13ce8df65d5a7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295904"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597583"
 ---
 # <a name="connection-members-dao"></a>Connection Members (DAO)
 
@@ -74,11 +74,11 @@ ms.locfileid: "32295904"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="connection-connect-property-dao.md">Connect</a></strong></p></td>
+<td><p><strong><a href="connection-connect-property-dao.md">Connecter</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui fournit des informations sur la source d'une connexion ouverte. Valeur de type <strong>String</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
+<td><p><strong><a href="connection-database-property-dao.md">Base de données</a></strong></p></td>
 <td><p>Renvoie l'objet <strong><a href="database-object-dao.md">Database</a></strong> qui correspond à cette connexion (espaces de travail ODBCDirect uniquement).</p></td>
 </tr>
 <tr class="odd">

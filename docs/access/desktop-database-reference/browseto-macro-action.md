@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm35083
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 0bcf0a37f8c1596856f5d7b921430371d620f7a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 53cc7fd0b085efee9b52d53371b08e338ccd4665
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296772"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607079"
 ---
 # <a name="browseto-macro-action"></a>BrowseTo, action de macro
 

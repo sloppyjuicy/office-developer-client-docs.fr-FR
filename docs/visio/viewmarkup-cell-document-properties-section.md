@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1030802
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: Détermine si les marques de révision apparaissent dans la fenêtre de dessin.
-ms.openlocfilehash: eeccdd0d14bf28630937b0e480822abb6fb19da5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 29a4ec7b1d773e8f9d4fade27cf7d000d31a2c54
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416404"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597729"
 ---
 # <a name="viewmarkup-cell-document-properties-section"></a>ViewMarkup, cellule (section Document Properties)
 

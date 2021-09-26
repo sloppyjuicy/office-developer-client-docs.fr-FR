@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb609881(v=office.15)
 ms:contentKeyID: 55119817
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 48b299ad4d3afe5c0c9aaa05f5d8af3b92bf655d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d6e1031e5d4b387aee7297dd91584f0916b4f00b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332078"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608941"
 ---
 # <a name="share-calendar-information-through-email"></a>Partage des informations de calendrier par e-mail
 

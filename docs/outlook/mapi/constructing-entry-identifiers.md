@@ -3,17 +3,17 @@ title: Construction d’identificateurs d’entrée
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bc2a9116-948e-4da3-96b8-26d73bcd63c4
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8d48c2584fa5b7e862102e401ea8165821607f77
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a68ac05659d6116bb40ea136aa40b49110d4226a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427947"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611021"
 ---
 # <a name="constructing-entry-identifiers"></a>Construction d’identificateurs d’entrée
 

@@ -1,7 +1,7 @@
 ---
 title: Documentation du développeur Project 2013
 manager: lindalu
-ms.date: 12/19/2019
+ms.date: 09/19/2021
 ms.audience: Developer
 f1_keywords:
 - Project
@@ -15,23 +15,22 @@ keywords:
 - Kit de développement logiciel, Project 2013, Project 2013, vue d’ensemble du kit de développement logiciel
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: Trouvez de la documentation, des exemples de code, des articles pratiques et des références de programmation pour vous aider à créer des applications pour Office ou un catalogue d’applications privé, et à personnaliser et intégrer des clients Project et Project Server avec une grande variété d’autres applications de bureau et d’entreprise pour la gestion de projet d’entreprise.
-localization_priority: Priority
-ms.openlocfilehash: 1b6227bb25810be04bc87abb418f9966b593bf1c
-ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
+ms.localizationpriority: high
+ms.openlocfilehash: 3fb57b99ad927fec29a885a3329c3f92956e7da9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40825757"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574481"
 ---
 # <a name="project-2013-developer-documentation"></a>Documentation du développeur Project 2013
 
-Trouvez des documentations, des exemples de codes, des articles pratiques et des références de programmation pour vous aider à créer des applications pour AppSource. Découvrez la personnalisation et l’intégration de clients Project et Project Server à d’autres applications professionnelles et de bureau pour la gestion des projets d’entreprise (EPM).
+Recherchez de la documentation, des exemples de code, des articles pratiques et des références de programmation pour vous aider à créer des applications pour AppSource. Découvrez comment personnaliser et intégrer Project Server et les clients Project à un large éventail d’autres applications de bureau et métier pour la gestion de projet d’entreprise (EPM).
    
 > [!NOTE]
-> Project Server 2013 est basé sur la plateforme SharePoint Server 2013 et Project 2013 inclut pratiquement la même infrastructure que les autres applications Office 2013. Pour la documentation du modèle pour les compléments SharePoint, les flux de travail SharePoint, les composants WebPart, le développement avec d’autres fonctionnalités de SharePoint et la documentation des compléments Office, consultez [Compléments SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins) et [Compléments Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
+> Project Server 2013 est basé sur la plateforme SharePoint Server 2013 et Project 2013 inclut pratiquement la même infrastructure que les autres applications Office 2013. Pour la documentation du modèle pour les compléments SharePoint, les flux de travail SharePoint, les composants WebPart, le développement avec d’autres fonctionnalités de SharePoint et la documentation des compléments Office, consultez [Compléments SharePoint](/sharepoint/dev/sp-add-ins/sharepoint-add-ins.md) et [Compléments Office](/office/dev/add-ins/overview/office-add-ins.md). 
   
 ## <a name="introduction-to-the-project-software-development-kit-sdk"></a>Présentation du kit de développement logiciel (SDK) Project
-<a name="pj15_Welcome_IntroToSDK"> </a>
 
 Project Server 2013 est une plateforme permettant de créer des solutions de gestion de projet d’entreprise en local ou sur le cloud et des applications que les utilisateurs finaux peuvent découvrir et acquérir via AppSource (précédemment appelé Office Store). L’architecture de Project Server 2013 est basée sur la plateforme introduite dans Microsoft Office Project Server 2007, avec de nombreux ajouts et améliorations. Les nouvelles fonctionnalités incluent un modèle objet côté client (CSOM) pour activer l’accès à Project Online, un service OData pour l’accès en ligne aux données de création de rapports de Project Server, des récepteurs d’événements à distance, une architecture de flux de travail basée sur la version 4 de Windows Workflow Foundation (WF4) et des compléments Office, qui est une architecture courante pour les extensions de volet de tâches dans les applications clientes Microsoft Office 2013.
   
@@ -41,13 +40,11 @@ Project Server 2013 est créé sur Microsoft .NET Framework 4 et Microsoft S
   
 Le kit de développement logiciel Project 2013 inclut des informations destinées aux développeurs pour Project Server 2013, Project Web App, Project Professionnel 2013 et Project Standard 2013. Les articles de kit de développement logiciel sont conçus pour aider les développeurs et les administrateurs à évaluer l’extensibilité de Project et Project Server, et à planifier des solutions personnalisées.
   
-### <a name="feedback"></a>Commentaires
-<a name="pj15_Welcome_Feedback"> </a>
+### <a name="welcome-feedback"></a>Commentaires de bienvenue
 
 Vos commentaires sont les bienvenus. Dans les rubriques en ligne sur MSDN, vous pouvez ajouter des commentaires, des exemples de code ou marquer le contenu comme bogue dans la section **Contenu de la communauté** en bas de chaque page. Lorsque vous installez le téléchargement du kit de développement logiciel (SDK) Project 2013, les articles de la documentation locale ont un lien *Envoyer des commentaires* sous le titre. À tout moment de la lecture du kit de développement logiciel, cliquez sur le lien pour envoyer un e-mail à l’équipe du kit de développement logiciel. Vous pouvez envoyer des corrections, une demande de clarification ou un exemple de code, ou d’autres commentaires pour nous aider à améliorer le contenu. 
   
 ### <a name="download"></a>Téléchargement
-<a name="pj15_Welcome_Download"> </a>
 
 Le téléchargement du kit de développement logiciel (SDK) de Project 2013 est disponible dans le [Centre de téléchargement Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20) (`https://www.microsoft.com/en-us/download/details.aspx?id=30435%20`). Le téléchargement inclut Project2013SDK.HxS (le fichier qui inclut cet article), les exemples de code associés, les assemblys redistribuables et d’autres ressources. Le kit de développement logiciel Project 2013 n’inclut pas encore la référence des tables de bases de données de création de rapports.
   
@@ -88,12 +85,10 @@ Voici quelques-unes des nouvelles rubriques :
 Les rubriques dans l’espace de noms **Microsoft.ProjectServer.Client** et les nouvelles méthodes dans les services PSI ont une documentation minimale uniquement. La plupart des rubriques de référence pour les services PSI n’ont pas été modifiées depuis la version de juillet 2011 du kit de développement Project 2010. 
   
 ### <a name="future-sdk-releases"></a>Versions du kit de développement logiciel à venir
-<a name="pj15_Welcome_FutureReleases"> </a>
 
 Le kit de développement logiciel Project 2013 sera mis à jour avec des nouveaux articles et contenu de référence pour la version de disponibilité générale.
   
 ## <a name="sections-in-the-project-sdk"></a>Sections du kit de développement logiciel Project
-<a name="pj15_Welcome_SectionsInTheSDK"> </a>
 
 Il existe deux sections de niveau supérieur dans le kit de développement logiciel Project 2013 :
   
@@ -137,6 +132,6 @@ La section **Articles conceptuels et pratiques** comprend les éléments suivant
     
 - [Accessibilité dans Microsoft Office 365](https://www.microsoft.com/enable/products/office365/)
     
-- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/fr-FR/privacystatement)
+- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/en-us/privacystatement)
     
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FtSubFt
 api_type:
 - COM
 ms.assetid: 6619fc41-5518-44ce-85c1-6b0077ed5cb9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: edd789a586adc71289ff821aa7cf7a33f79fb738
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c50b658a956b1ccbaccafb707c9b60ffa13747f1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408417"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610915"
 ---
 # <a name="ftsubft"></a>FtSubFt
 
@@ -40,7 +40,7 @@ FILETIME FtSubFt(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _Minuend_
   

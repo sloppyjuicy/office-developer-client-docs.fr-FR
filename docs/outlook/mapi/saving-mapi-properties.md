@@ -3,17 +3,17 @@ title: Enregistrement des propriétés MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ed0c14f9-3dcf-49ad-928e-ba872d4d6b5a
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5d4653492028151d7e19a5d5490c8c8949002a4f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2db022929516caa6b0aaad96d8e1997b70249546
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425889"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599080"
 ---
 # <a name="saving-mapi-properties"></a>Enregistrement des propriétés MAPI
 

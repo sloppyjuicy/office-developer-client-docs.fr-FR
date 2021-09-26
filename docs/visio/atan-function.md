@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251396
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19b77fbb-32c9-4fc9-4c07-a0a713f7fdca
 description: Renvoie l’arc tangente d’un nombre (par exemple, l’angle dont la tangente a la valeur number). L’angle obtenu se situe dans la limite -PI/2 <= angle <= PI/2 radians (soit -90 <= angle <= 90 degrés).
-ms.openlocfilehash: b690d1267503e704549bd74eacf06b414db98137
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 075dac885582464bd000622d04e1a833efb8e472
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434542"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598835"
 ---
 # <a name="atan-function"></a>Fonction ATAN
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251501
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc97cef7-59c3-5be1-34fe-a40b4b33d1d6
 description: Renvoie la somme d’une liste de nombres.
-ms.openlocfilehash: 749bf1620a26c6f4cf793a2f9e596d5720175be0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c5ac28949a97283195fc4b205eee3472c3027274
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436313"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603381"
 ---
 # <a name="sum-function"></a>Fonction SUM
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIContainer.GetHierarchyTable
 api_type:
 - COM
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: efc7f7a2fa703004afe361d766e0209ba40ffe46
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5ac46c2e7da57f7d1c5aabdbcbcec815c1408edf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426197"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610677"
 ---
 # <a name="imapicontainergethierarchytable"></a>IMAPIContainer::GetHierarchyTable
 
@@ -34,7 +34,7 @@ HRESULT GetHierarchyTable(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   
@@ -50,7 +50,7 @@ MAPI_DEFERRED_ERRORS
     
 MAPI_UNICODE 
   
-> Demande que les colonnes qui contiennent des données de chaîne soient renvoyées au format Unicode. Si l MAPI_UNICODE n’est pas définie, les chaînes doivent être renvoyées au format ANSI. 
+> Demande que les colonnes qui contiennent des données de chaîne soient renvoyées au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes doivent être renvoyées au format ANSI. 
     
 SHOW_SOFT_DELETES
   

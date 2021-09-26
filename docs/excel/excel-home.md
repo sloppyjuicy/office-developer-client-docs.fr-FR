@@ -5,20 +5,20 @@ ms.audience: Developer
 ms.topic: overview
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation d’Excel.
-localization_priority: Priority
-ms.openlocfilehash: af840c94620f445689a5b7dcdd20341485a4a6d7
-ms.sourcegitcommit: e2cff03cb13d6c500942897b234db00476a72f18
+ms.localizationpriority: high
+ms.openlocfilehash: 0d4355be208d28726567eb09f498147c4129d4a7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34100871"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59572402"
 ---
 # <a name="develop-solutions-and-customize-excel"></a>Développer des solutions et personnaliser Excel
 
 Recherchez des procédures, des exemples de code, de la documentation sur les Kits de développement logiciel (SDK) et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation d’Excel.
   
 > [!NOTE]
-> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Découvrez le nouveau [modèle de compléments Excel](https://docs.microsoft.com/office/dev/add-ins/excel/excel-add-ins-overview). 
+> Vous voulez développer des solutions qui étendent l’expérience Office sur [plusieurs plateformes](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability) ? Consultez le nouveau [modèle de compléments Excel](https://docs.microsoft.com/office/dev/add-ins/excel/excel-add-ins-overview). 
   
 ### <a name="viewed-most"></a>Articles populaires
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagIpmWastebasketEntryId
 api_type:
 - HeaderDef
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3794386c4461c90f973e4028132cb8220dfaa19b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8b5054fb12202d1db8dab575031c711bbb8fff5a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426351"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583407"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>Propriété canonique PidTagIpmWastebasketEntryId
 
@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée du dossier Éléments supprimés du mess
 |Propriétés associées :  <br/> |PR_IPM_WASTEBASKET_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E3  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Dossier  <br/> |
+|Domaine :  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

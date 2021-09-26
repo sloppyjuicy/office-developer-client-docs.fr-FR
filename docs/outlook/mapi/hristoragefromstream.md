@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - HrIStorageFromStream
 api_type:
 - HeaderDef
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1362b1131d937ef240aa1962db8c1b5116786c67
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fed8b12b1541e0ca952fc54ff9028c49d11d600f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416831"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610775"
 ---
 # <a name="hristoragefromstream"></a>HrIStorageFromStream
 
@@ -42,7 +42,7 @@ HRESULT HrIStorageFromStream(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpUnkIn_
   
@@ -50,7 +50,7 @@ HRESULT HrIStorageFromStream(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet de flux. L’une des valeurs suivantes peut être transmise dans le paramètre  _lpInterface_ : NULL, IID_IStream ou IID_ILockBytes. La transmission de null  _dans lpInterface_ est la même que la transmission IID_IStream. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’objet de flux. L’une des valeurs suivantes peut être transmise dans le paramètre  _lpInterface_ : NULL, IID_IStream ou IID_ILockBytes. La transmission de la valeur NULL  _dans lpInterface_ est la même que la transmission IID_IStream. 
     
  _ulFlags_
   

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInternetFollowupTo
 api_type:
 - HeaderDef
 ms.assetid: 15a91ba5-f317-4f62-826b-4d6f9b41cd4a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e2ca25e814e814819632614c1b43620f82062c3c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 96ce252e60affabbd34a95645fd11e4b9c553630
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405309"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583421"
 ---
 # <a name="pidtaginternetfollowupto-canonical-property"></a>Propriété canonique PidTagInternetFollowupTo
 

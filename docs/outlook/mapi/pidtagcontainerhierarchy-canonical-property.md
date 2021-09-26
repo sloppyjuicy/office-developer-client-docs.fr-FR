@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagContainerHierarchy
 api_type:
 - HeaderDef
 ms.assetid: 6917510d-ca1e-4049-9eab-09313753ecf0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f009d7ce5cd1856ccff1e00953188c8edde7a6bc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 65460c148c812793b72220e3d2b2bba6ccd227ba
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332857"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583533"
 ---
 # <a name="pidtagcontainerhierarchy-canonical-property"></a>Propriété canonique PidTagContainerHierarchy
 
@@ -32,7 +32,7 @@ Contient un objet table de hiérarchie incorporé qui fournit des informations s
 |Propriétés associées :  <br/> |PR_CONTAINER_HIERARCHY  <br/> |
 |Identificateur :  <br/> |0x360E  <br/> |
 |Type de données :  <br/> |PT_OBJECT  <br/> |
-|Domaine :  <br/> |Container  <br/> |
+|Domaine :  <br/> |Conteneur  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -42,7 +42,7 @@ Pour récupérer le contenu de la table, une application cliente doit appeler la
   
  **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) et cette propriété sont similaires dans l’utilisation. Plusieurs propriétés MAPI permettent d’accéder aux tables : 
   
-|**Property**|**Tableau**|
+|**Propriété**|**Table**|
 |:-----|:-----|
 |**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Table Contents  <br/> |
 |**PR_CONTAINER_HIERARCHY** <br/> |Table Hierarchy  <br/> |

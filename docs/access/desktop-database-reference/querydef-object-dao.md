@@ -6,17 +6,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845129(v=office.15)
 ms:contentKeyID: 48543169
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: a94d34a2dbe8043e6db637b649f59047cf3f1dda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: c66c9f6dc891b7be513746206c40d249a5a198f4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301056"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589267"
 ---
 # <a name="querydef-object-dao"></a>Objet QueryDef (DAO)
 
-**S’applique à** : Access 2013 | Office 2013 
+**S’applique à :** Access 2013 | Office 2013 
 
 Un objet **QueryDef** est une définition stockée d’une requête dans une base de données du moteur de base de données Microsoft Access.
 
@@ -44,7 +44,7 @@ Vous pouvez envisager un objet **QueryDef** permanent dans un espace de travail 
 
 Pour utiliser le dialecte SQL natif d’un moteur de base de données externe accessible via le moteur de base de données Microsoft Access, il est recommandé d’utiliser des objets **QueryDef**. Par exemple, vous pouvez créer une requête Microsoft SQL Server et l’enregistrer dans un objet **QueryDef**. Lorsque vous devez utiliser une requête SQL d’un moteur de base de données non-Microsoft Access, vous devez fournir une chaîne de propriété **Connect** faisant référence à la source de données externe. Les requêtes contenant des propriétés **Connect** valables contournent le moteur de base de données Microsoft Access et transmettent directement la requête au serveur de base de données externe à des fins de traitement.
 
-Pour créer un objet **QueryDef**, utilisez la méthode **CreateQueryDef**. Dans un espace de travail Microsoft Access, si vous fournissez une chaîne pour l’argument name ou si vous définissez explicitement la propriété **Name** du nouvel objet **QueryDef** sur une chaîne comportant au moins un caractère, vous créez un objet **QueryDef** permanent qui est automatiquement ajouté à la collection **QueryDefs** et enregistré sur le disque. La fourniture d’une chaîne nulle en tant qu’argument name ou la définition explicite de la propriété **Name** sur une chaîne nulle entraîne la création d’un objet **QueryDef** temporaire.
+Pour créer un objet **QueryDef**, utilisez la méthode **CreateQueryDef**. Dans un espace de travail Microsoft Access, si vous fournissez une chaîne pour l’argument name ou si vous définissez explicitement la propriété **Name** du nouvel objet **QueryDef** sur une chaîne de longueur non-nulle, vous allez créer une **QueryDef** permanente qui sera automatiquement ajoutée à la collection **QueryDefs** et enregistrée sur le disque. Le fait de fournir une chaîne de longueur nulle comme argument de nom ou de définir explicitement la **Name** sur une chaîne de longueur nulle entraîne un objet **QueryDef** temporaire.
 
 Pour faire référence à un objet **QueryDef** dans une collection selon son nombre ordinal ou son paramètre de propriété **Name**, utilisez l’une des formes de syntaxe suivantes :
 
@@ -113,7 +113,7 @@ Cet exemple crée un objet **QueryDef** et l’ajoute à la collection **QueryDe
 
 <br/>
 
-Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter un objet **QueryDef** à la fois temporaire et permanent. La fonction GetrstTemp est nécessaire à l’exécution de cette procédure.
+Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter deux objets **QueryDef** (un temporaire et un permanent). La fonction GetrstTemp est requise pour exécuter de cette procédure.
 
 ```vb
     Sub CreateQueryDefX() 

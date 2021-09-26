@@ -8,13 +8,13 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 dev_langs:
 - sql
-localization_priority: Priority
-ms.openlocfilehash: c6e37cd68d586e39a06fd650ccb453f35477253f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 01c1c1b095d37d7505524af5360b0079e6dd1c0e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290144"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59602359"
 ---
 # <a name="left-join-right-join-operations-microsoft-access-sql"></a>Opérations LEFT JOIN, RIGHT JOIN (Microsoft Access SQL)
 
@@ -73,7 +73,7 @@ FROM Categories LEFT JOIN Products
 ON Categories.CategoryID = Products.CategoryID;
 ```
 
-Dans cet exemple, CategoryID est le champ joint, mais il n'est pas inclus dans les résultats de la requête, car il n'est pas inclus dans l'instruction [SELECT](select-statement-microsoft-access-sql.md). Pour inclure le champ joint, entrez le nom du champ dans l’instruction SELECT : dans ce cas, Categories.CategoryID.
+Dans cet exemple, CategoryID est le champ joint, mais il n’est pas inclus dans les résultats de la requête, car il n’est pas inclus dans l’instruction [SELECT](select-statement-microsoft-access-sql.md). Pour inclure le champ joint, entrez son nom de champ dans l’instruction SELECT, dans ce cas, Categories.CategoryID.
 
 > [!NOTE]
 > - Pour créer une requête qui n’indique que les enregistrements dans lesquels les données dans les champs joints sont identiques, utilisez une opération [INNER JOIN](inner-join-operation-microsoft-access-sql.md).
@@ -84,7 +84,7 @@ Dans cet exemple, CategoryID est le champ joint, mais il n'est pas inclus dans l
 ## <a name="example"></a>Exemple
 
 Cet exemple :
-- Suppose l'existence de champs hypothétiques de nom de département et d'ID de département dans une table Employés. Notez que ces champs n’existent pas dans la table d’employés de la base de données Northwind.
+- Dans cet exemple, les champs hypothétiques Department Name et Department ID sont censés exister dans une table Employees. Notez que ces champs n'existent pas dans la table Employees de la base de données Northwind.
 
 - Sélectionne tous les services, y compris ceux sans employés.
 

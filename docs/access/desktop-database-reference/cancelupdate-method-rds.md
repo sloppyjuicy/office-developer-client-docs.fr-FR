@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249130(v=office.15)
 ms:contentKeyID: 48544188
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b0c02a9ca72add763e1d3ccf62d5ede8adaecc6b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 381d54f95e229ad38d1980746d4126a3cb654111
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296667"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606960"
 ---
 # <a name="cancelupdate-method-rds"></a>CancelUpdate, méthode (RDS)
 

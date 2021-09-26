@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagConversationTopic
 api_type:
 - HeaderDef
 ms.assetid: db852b99-ce04-49bf-a714-7549571502e2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dfd437fac3a784212807c495f6e8f1adbe759cb0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f49bc6988ff7f7f06c22882e19d54dde6af44ce0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334684"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583511"
 ---
 # <a name="pidtagconversationtopic-canonical-property"></a>Propriété canonique PidTagConversationTopic
 

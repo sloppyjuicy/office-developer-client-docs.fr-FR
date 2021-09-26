@@ -10,19 +10,19 @@ f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 4fee5e9e8878274f2c20dd83a3dbedaf2903ca62
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 0a4c94e90e2c9efd29d0d07eae852ab2a2c009f2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291332"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568900"
 ---
 # <a name="insert-into-statement-microsoft-access-sql"></a>Instruction INSERT INTO (Microsoft Access SQL)
 
 **S’applique à** : Access 2013, Office 2013
 
-Ajoute un ou plusieurs enregistrements à une table. Cette opération est une requête Ajout.
+Ajoute un ou plusieurs enregistrements à un tableau. Cette opération est une requête Ajout.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -100,7 +100,7 @@ Une requête Ajout copie des enregistrements à partir d’une ou plusieurs tabl
 
 Au lieu d’ajouter des enregistrements existants à partir d’une autre table, vous pouvez spécifier la valeur de chaque champ dans un nouvel enregistrement unique à l’aide de la clause VALUES. Si vous omettez la liste de champs, la clause VALUES doit inclure une valeur pour chaque champ de la table. Sinon, l’opération INSERT échoue. Utilisez une instruction INSERT INTO supplémentaire avec une clause VALUES pour chaque enregistrement supplémentaire que vous souhaitez créer.
 
-**Lien fourni par **la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
+**Lien fourni par** la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 
 - [Générer des numéros séquentiels pour les instructions INSERT/UPDATE](https://www.utteraccess.com/forum/generating-sequential-num-t446039.html)
 

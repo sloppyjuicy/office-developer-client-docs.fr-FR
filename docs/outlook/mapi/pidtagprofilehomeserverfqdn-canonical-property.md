@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80273b50-bc16-4be2-8471-1a127b6786bb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aef4a932da35f3c4955bc2f4b265b146775c6d87
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f0050c89d69c8dd42a17b7eba1adbc1b6ff18cbe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341593"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583274"
 ---
 # <a name="pidtagprofilehomeserverfqdn-canonical-property"></a>Propriété canonique PidTagProfileHomeServerFQDN
 

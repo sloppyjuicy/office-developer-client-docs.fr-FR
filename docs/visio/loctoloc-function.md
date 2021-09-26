@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251586
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1f09482a-0b1b-1bef-bc23-7f7793c4c65f
 description: Renvoie un point transformé en coordonnées locales dans le système de coordonnées de destination.
-ms.openlocfilehash: f08feb6137c3022027d19b45f06285fb8b6441a7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a53798312d81c10baa6bb25ed473424bc41624f7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427485"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603570"
 ---
 # <a name="loctoloc-function"></a>Fonction LOCTOLOC
 

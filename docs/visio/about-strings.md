@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251826
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1174d8f-70cb-4595-7906-889da15367db
 description: 'Les formules peuvent contenir des chaînes. Pour mettre en forme une chaîne, dans une cellule de message, une valeur d’élément de données de forme ou un champ, par exemple, vous devez définir un modèle de format. Le résultat peut être formaté sous forme de paire nombre-unité, de chaîne, de date-heure, de durée ou d’unité monétaire. Par exemple, le format picture0 #/10 uuformats la paire nombre-unité 10,9cm comme 10 9/10 centimètres.'
-ms.openlocfilehash: aa95e11db387913edbb40292f7da6a0f4b8a5cf7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: edc9cf9f2eb6a6b32d88944e0443f449084b79bc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409516"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598877"
 ---
 # <a name="about-strings"></a>À propos des chaînes
 

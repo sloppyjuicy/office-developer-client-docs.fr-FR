@@ -3,15 +3,15 @@ title: Vérification de la version d’Outlook
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 672fc380-a29b-4e99-9211-949fd5065723
 description: 'Derni�re modification�: lundi 7 d�cembre 2015'
-ms.openlocfilehash: 0a24ae43c84a0631f355a4d7d8dc98a76519563b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 057147886136802446f10aa68b07e5fc8ec67ac3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298473"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610894"
 ---
 # <a name="check-the-version-of-outlook"></a>Vérification de la version d’Outlook
 

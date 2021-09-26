@@ -7,13 +7,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 384a575ae5e15b75ba7b0b891529c695cc3de599
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: high
+ms.openlocfilehash: e09d7881b16b492fc7b82e350f142dd0482d0748
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537828"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59552842"
 ---
 # <a name="hide-the-ribbon-when-access-starts"></a>Masquer le ruban au démarrage d’Access
 
@@ -25,7 +25,7 @@ Pour charger le ruban personnalisé au démarrage d'Access, vous devez stocker s
 
 Cette **table** doit être créée en utilisant des noms de colonnes spécifiques afin que les personnalisations du ruban soient implémentées. 
 
-Le tableau suivant répertorie les paramètres à utiliser lors de la création du tableau**USysRibbons**.
+Le tableau suivant répertorie les paramètres à utiliser lors de la création du tableau **USysRibbons**.
 
 <table>
 <colgroup>
@@ -72,7 +72,7 @@ Pour appliquer un ruban personnalisé disponible au démarrage de l'application,
 
 2.  Redémarrez l'application.
 
-3.  Sélectionnez le **bouton Microsoft Office**![O12FileMenuButton\_ZA10077102](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102") , puis **Access Options**.
+3.  Choisissez le **Microsoft Office bouton**![O12FileMenuButton \_ ZA10077102,](media/access-file-menu-button.gif "O12FileMenuButton_ZA10077102")puis choisissez **Options Access.**
 
 4.  Cliquez sur l'option **Base de données active**, dans la section **Options de la barre d'outils et du ruban**, puis sur la liste **Nom du ruban** et sélectionnez **MasquerLeRuban**.
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, troubleshooting,troubleshooting form templates [InfoPath 2007],form templates [InfoPath 2007], troubleshooting,troubleshooting [InfoPath 2007], InfoPath 2003-compatible form templates
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e31f5ef-6692-40ea-b737-bfd1c3775b02
 description: Cette section contient des conseils pour la résolution de problèmes courants, susceptibles d'apparaître lors de la création d'un modèle de formulaire avec code managé qui utilise le modèle objet compatible InfoPath 2003.
-ms.openlocfilehash: 52f7adbe9283ac299759c2837b487e57b9640834
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 509d4fad5bb595d47b5d7b3735d003a7dafbab08
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413660"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611125"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model"></a>Résoudre les problèmes des modèles de formulaire qui utilisent le modèle objet InfoPath
 

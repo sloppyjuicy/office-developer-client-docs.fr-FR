@@ -7,13 +7,13 @@ api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: Dernière modification le 9 mars 2015
-localization_priority: Priority
-ms.openlocfilehash: 74f321d2c6c8b5159191d4dcdb62e0db21132435
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 6c6ba946c0428b13394f304a21683d9a7f56dc24
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326465"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59556909"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Création d’applications MAPI sur les plateformes 32 bits et 64 bits
 
@@ -49,7 +49,7 @@ Les sections suivantes expliquent chaque scénario de façon plus détaillée. P
   
 ### <a name="32-bit-mapi-application-and-32-bit-outlook"></a>Application MAPI 32 bits et Outlook 32 bits
 
-Les applications MAPI compilées pour un sous-système MAPI 32 bits qui est disponible dans des versions 32 bits d’Outlook (y compris les versions antérieures à Microsoft Outlook 2013), continuent à être prises en charge sur les ordinateurs sur lesquels sont installés Outlook 32 bits et un système d’exploitation Windows 32 bits ou 64 bits. Aucune action n’est nécessaire pour les développeurs d’applications.
+Les applications MAPI compilées pour un sous-système MAPI 32 bits qui est disponible dans des versions 32 bits d’Outlook (y compris les versions antérieures à Microsoft Outlook 2013), continuent à être prises en charge sur les ordinateurs sur lesquels sont installés Outlook 32 bits et un système d’exploitation Windows 32 bits ou 64 bits. Aucune action spécifique n’est nécessaire pour les développeurs d’applications.
   
 ### <a name="32-bit-mapi-application-and-64-bit-outlook"></a>Application MAPI 32 bits et Outlook 64 bits
 
@@ -65,11 +65,11 @@ Les applications MAPI 64 bits ne peuvent pas s’exécuter sur un ordinateur su
   
 ### <a name="exception-mapisendmail"></a>Exception : MAPISendMail
 
-En règle générale, une application MAPI 32 bits ne doit pas s’exécuter sur une plateforme 64 bits (Outlook 64 bits sur Windows 64  bits) sans avoir été reconstruite au préalable comme une application 64 bits, et une application MAPI 64 bits ne doit pas s’exécuter sur un ordinateur sur lequel sont installés Outlook 32 bits et Windows 32 bits ou 64 bits sans avoir été reconstruite au préalable comme une application 32 bits. La figure 1 illustre la boîte de dialogue d’alerte qui s’afficherait dans l’un de ces scénarios.
+En règle générale, une application MAPI 32 bits ne doit pas s’exécuter sur une plateforme 64 bits (Outlook 64 bits sur Windows 64 bits) sans avoir été reconstruite au préalable comme une application 64 bits, et une application MAPI 64 bits ne doit pas s’exécuter sur un ordinateur sur lequel sont installés Outlook 32 bits et Windows 32 bits ou 64 bits sans avoir été reconstruite au préalable comme une application 32 bits. La figure 1 montre une boîte de dialogue d’alerte qui s’affiche si l’un de ces scénarios se produit.
   
 **Figure 1. Message d’erreur pour la plupart des appels MAPI avec incohérence du nombre de bits.**
 
-![Message d’erreur pour la plupart des appels MAPI avec incohérence du nombre de bits](media/738905fb-57ae-4af7-b54b-a1676c80d3c3.JPG "Message d’erreur pour la plupart des appels MAPI avec incohérence du nombre de bits")
+![Message d’erreur pour la plupart des appels MAPI entre bits](media/738905fb-57ae-4af7-b54b-a1676c80d3c3.JPG "Message d’erreur pour la plupart des appels MAPI avec incohérence du nombre de bits")
   
 Toutefois, un appel de fonction parmi tous les éléments Simple MAPI et MAPI, **MAPISendMail**, aurait lieu dans un scénario Windows-32-bits-sur-Windows-64-bits (WOW64) ou Windows-64-bits-sur-Windows-32-bits (WOW32) et n’entraînerait pas l’alerte précédente. Ce scénario WOW64 s’applique uniquement à Windows 7. 
 

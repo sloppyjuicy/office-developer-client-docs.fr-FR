@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm420
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fffbefd6-8b0b-0023-6b03-026d1c6e885e
 description: Détermine si une forme 1D utilise un collage statique (point à point) ou dynamique (forme à forme) lorsqu'elle est attachée à une autre forme.
-ms.openlocfilehash: ae4eddf17c6e7b5e56cb3397f03d0721d965c9b7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 42fa54ffc9590db3eabc887a03b3bda6052a5335
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410671"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598555"
 ---
 # <a name="gluetype-cell-glue-info-section"></a>GlueType, cellule (section Glue Info)
 

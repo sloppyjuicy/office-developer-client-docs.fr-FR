@@ -5,20 +5,20 @@ ms.date: 08/18/2017
 ms.audience: Developer
 ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: Découvrez comment contrôler l’affichage d’un nombre en créant un format numérique défini par l’utilisateur.
-localization_priority: Priority
-ms.openlocfilehash: b23b1f7ee806a03df8f1c0d6ec1de0f3282b427b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: c9b7c1b828be0efecb9194657a7e8b321b024e5a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282200"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59573319"
 ---
 # <a name="custom-numeric-formats-for-the-format-function-access-custom-web-app"></a>Formats numériques personnalisés pour la fonction Format (application web personnalisée Access)
 
 Découvrez comment contrôler l’affichage d’un nombre en créant un format numérique défini par l’utilisateur.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/fr-FR/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
 
 Vous pouvez modifier l'affichage d'un nombre en créant un format numérique défini par l'utilisateur. Un format numérique défini par l'utilisateur peut comporter entre une et trois sections séparées par des points-virgules (;). Si l'argument Style de la fonction [Fonction de format (application web personnalisé de l'accès)](format-function-access-custom-web-app.md) contient l'un des formats numériques prédéfinis, une seule section est autorisée. 
   
@@ -39,7 +39,7 @@ Le tableau suivant présente les caractères que vous pouvez utiliser pour crée
 |/ (barre oblique)  <br/> |Séparateur de date. Dans certains paramètres régionaux, le séparateur de date est représenté par d’autres caractères. Le séparateur de date dissocie le jour, le mois et l’année lorsque des valeurs de date sont mises en forme. Le caractère effectivement utilisé comme séparateur de date dans la sortie mise en forme dépend des paramètres du système.  <br/> |
 |**E- , E+ , e- , e+** <br/> |Format scientifique. Si l’expression de mise en forme contient au moins un espace réservé à un chiffre (0 ou #) à droite de E-, E+, e- ou e+, le nombre est affiché au format scientifique, et E ou e est inséré entre le nombre et son exposant. Le nombre d’espaces réservés à un chiffre sur la gauche détermine le nombre de chiffres de l’exposant. Utilisez E- ou e- pour placer un signe moins devant des exposants négatifs. Utilisez E+ ou e+ pour placer un signe moins devant des exposants négatifs et un signe plus devant des exposants positifs. Vous devez également inclure des espaces réservés à des chiffres à droite de ce symbole pour obtenir une mise en forme adéquate.  <br/> |
 |**- + $ ( )** <br/> |Caractères littéraux. Ces caractères sont affichés exactement tels que vous les avez saisis dans la chaîne de mise en forme. Pour afficher un autre caractère que ceux répertoriés, faites-le précéder d'une barre oblique inversée (\) ou placez-le entre guillemets (« »).  <br/> |
-|\ (barre oblique inversée)  <br/> |Affichage du caractère suivant de la chaîne de mise en forme. Pour afficher un caractère doté d'une signification spéciale sous la forme de caractère littéral, faites-le précéder d'une barre oblique inverse (\). La barre oblique inverse n'est pas affichée. Son utilisation revient à placer entre guillemets doubles le caractère suivant. Pour afficher une barre oblique inverse, utilisez deux barres obliques inverses (\\).  <br/> Les caractères de mise en forme de date et heure (a, c, d, h, m, n, p, q, s, t, w, y, / et :), les caractères de mise en forme numérique (#, 0, %, E, e, séparateur décimal et séparateur des milliers) et les caractères de mise en forme de chaîne (@, &amp;, \<, \> et !) sont des exemples de caractères qui ne peuvent pas être affichés comme caractères littéraux.  <br/> |
+|\ (barre oblique inversée)  <br/> |Affichage du caractère suivant de la chaîne de mise en forme. Pour afficher un caractère doté d'une signification spéciale sous la forme de caractère littéral, faites-le précéder d'une barre oblique inverse (\). La barre oblique inverse n'est pas affichée. Son utilisation revient à placer entre guillemets doubles le caractère suivant. Pour afficher une barre oblique inverse, utilisez deux barres obliques inverses (\\).<br/> Les caractères qui ne peuvent pas être affichés en tant que caractères littéraux sont les caractères de mise en forme de date et d’heure (a, c, d, h, m, n, p, q, s, t, w, y, /, et :), les caractères de mise en forme numérique (#, 0, %, E, e, virgule et point) et les caractères de mise en forme de chaîne (@, &amp;, \<, \>, et !).  <br/> |
 |"ABC"  <br/> |Affichage de la chaîne entre guillemets doubles (" "). Pour inclure une chaîne dans l’argument Style dans du code, vous devez utiliser la fonction Chr(34) pour placer le texte entre guillemets doubles (34 est le code de caractère correspondant aux guillemets doubles (")).  <br/> |
    
 Le tableau suivant contient des exemples d’expressions de mise en forme pour les nombres. (Tous ces exemples supposent que les paramètres régionaux de votre système sont English-US). La première colonne contient les chaînes de mise en forme pour la fonction Format. Les autres colonnes contiennent le résultat obtenu si les données mises en forme ont la valeur donnée dans les en-têtes de colonne.

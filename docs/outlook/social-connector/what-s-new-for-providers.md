@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
 description: Cette rubrique répertorie les principales modifications apportées Outlook Social Connector 2013 (OSC). Il présente une comparaison des fonctionnalités disponibles entre Outlook Social Connector 2013 et Outlook Social Connector 1.1.
-ms.openlocfilehash: 6b735555d312c149d7dc8b827990b96bfc229678
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a9f8836313ee49e0e3d7fa18ffcf1ee7e2babb75
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435452"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598961"
 ---
 # <a name="whats-new-for-providers"></a>Nouveautés pour les fournisseurs
 
@@ -53,13 +53,13 @@ Le tableau suivant indique la disponibilité de différentes fonctionnalités da
 
 Le tableau suivant indique les membres qui ont été ajoutés ou sont supprimés de l’interface correspondante.
   
-|**Interface et membre**|**Commentaire**|
+|**Interface et membre**|**Comment**|
 |:-----|:-----|
 |**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |Supprimé dans Outlook Social Connector 2013. Notez **que ISocialSession::GetActivities** a également été supprimé depuis Outlook Social Connector 1.1.  <br/> Pour synchroniser les flux d’activités, vous devez implémenter la méthode [ISocialSession2::GetActivitiesEx.](isocialsession2-getactivitiesex.md) Définissez **dynamicActivitiesLookupEx** sur **true,** ce qui invite l’OSC à appeler **ISocialSession2::GetActivitiesEx** à la place.  <br/> |
    
 Le tableau suivant indique les éléments de schéma qui ont été modifiés.
   
-|**Élément Schema**|**Commentaire**|
+|**Élément Schema**|**Comment**|
 |:-----|:-----|
 |**fonctionnalités** <br/> |Ajouté dans Outlook Social Connector 2013 : **élément allowChangesToAutoConfigure.**  <br/> Supprimé dans Outlook Social Connector 2013 : **élément cacheActivities.**  <br/> |
 |**person** <br/> |Ajouté dans Outlook Social Connector 2013 : **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, industries , **interests**, **location**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **skills**, **schools**, and **website** elements.   <br/> |

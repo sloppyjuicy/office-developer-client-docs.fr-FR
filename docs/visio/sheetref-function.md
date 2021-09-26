@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eab68d7a-e281-fc2e-5531-91e7a4e1485f
 description: Renvoie une référence à la feuille (forme) spécifiée dans sheetref, ou la feuille active s’il n’y a pas de qualificatif sheetref.
-ms.openlocfilehash: 2c6441b5e984557035271de7d84d42078ac87804
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 885421fb73a01e3456645262f8bb263f59e99bf7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33405183"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603500"
 ---
 # <a name="sheetref-function"></a>Fonction SHEETREF
 
@@ -25,7 +25,7 @@ Version ajoutée : Visio 2010
   
 ## <a name="syntax"></a>Syntaxe
 
- *\<sheetref \> !*  SHEETREF() 
+ *\<sheetref\>!*  SHEETREF() 
   
 ### <a name="return-value"></a>Valeur renvoyée
 

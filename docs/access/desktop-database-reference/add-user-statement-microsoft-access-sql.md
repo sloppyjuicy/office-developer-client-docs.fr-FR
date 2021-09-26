@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845862(v=office.15)
 ms:contentKeyID: 48543652
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8ba60a646fd234748bcc39b9a5604a33675caee5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 9eed2a6f66a2e23294aa3354178a051fe4a699b7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280424"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59590169"
 ---
 # <a name="add-user-statement-microsoft-access-sql"></a>ADD USER, instruction (Microsoft Access SQL)
 
@@ -39,7 +39,7 @@ L'instruction ADD USER comporte trois parties :
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>user</em></p></td>
+<td><p><em>utilisateur</em></p></td>
 <td><p>Nom de l'utilisateur à ajouter au fichier d'informations du groupe de travail.</p></td>
 </tr>
 <tr class="even">

@@ -7,21 +7,21 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ618413(v=office.15)
 ms:contentKeyID: 49106417
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: de2ff21598639b445f5ff84240b115704b484209
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 142dc9e933ff11c8ee942ccd2a66145c52eced5b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296499"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59562887"
 ---
 # <a name="changes-in-access"></a>Modifications apportées dans Access
 
-**S’applique à** : Access 2013, Office 2013
+**S’applique à :** Access 2013, Office 2013
 
 Access ne prend pas en charge les projets de données Access (ADP). Access introduit un nouveau type d'application qui vous permet de créer des applications web Access. Ce nouveau type vous permet de créer des applications web qui utilisent la puissance de SQL Server sur site ou dans le cloud.
 
-Dans une application Access sur SharePoint Server, lorsque vous créez un tableau, une requête ou une macro de données dans le client Access dans lequel vous créez des tableaux des vues ou des déclencheurs dans une base de données SQL Server, vous pouvez ouvrir votre base de données dans d'autres applications qui se connectent à SQL Server à l'aide du client Access.  Cette option vous permet de partager des données ou de charger des données à partir d'autres systèmes dans votre application Access.
+Dans une application Access sur SharePoint Server, lorsque vous créez un tableau, une requête ou une macro de données dans le client Access dans lequel vous créez des tableaux, des vues ou des déclencheurs dans une base de données SQL Server, vous pouvez ouvrir votre base de données dans d'autres applications qui se connectent à SQL Server à l'aide du client Access. Cette option vous permet de partager des données ou de charger des données à partir d'autres systèmes dans votre application Access.
 
 Avec Office 365 et Access, vous pouvez créer des applications directement pour les utilisateurs sans avoir à vous soucier des défis de déploiement, des problèmes d'installation de logiciels ou de la compatibilité avec le système d'exploitation. Créez votre application à un emplacement et partagez-la sur le web avec la puissance de SQL Azure et de SQL Server.
 
@@ -39,7 +39,7 @@ Pour la suite, les développeurs de projets ADP peuvent envisager différentes p
 
 - **Procéder à une conversion en une base de données de bureau liée**: Access prend toujours en charge la création de bases de données de bureau au format .accdb. Vous pouvez convertir votre application au format .accdb, avec l'ensemble de vos formulaires et états existants, et laisser les données dans SQL Server. Vous pouvez créer une liaison avec la base de données SQL Server à l'aide de tableaux liés et votre application continuera à fonctionner avec les mêmes données.
 
-- **Créer une application hybride**: si votre application est volumineuse et que vous ne voulez pas convertir tout le contenu en même temps, vous pouvez importer vos données dans une application Access et créer une liaison avec la base de données SQL Server à partir d'un fichier .accdb. Cela permet de migrer progressivement, d'ajouter des formulaires et des fonctionnalités au fil du temps à votre application Access tout en conservant votre application cliente en tant que fichier .accdb avec des tables liées à la base de données SQL Server sous-jacente de l'application Access.
+- **Créer une application hybride**: si votre application est volumineuse et que vous ne voulez pas convertir tout le contenu en même temps, vous pouvez importer vos données dans une application Access et créer une liaison avec la base de données SQL Server à partir d'un fichier .accdb. Cela permet de migrer progressivement, d'ajouter des formulaires et des fonctionnalités au fil du temps à votre application Access tout en conservant votre application cliente en tant que fichier .accdb avec des tableaux liés à la base de données SQL Server sous-jacente de l'application Access.
 
 - **Procéder à une mise niveau vers .NET Framework**: si votre application est complexe, vous pouvez envisager de passer à une plateforme de développement professionnel, comme .NET Framework. SQL Server est conçu pour faciliter l'utilisation de votre infrastructure de base de données existante que vous avez déjà créée et le développement des fonctionnalités de votre application, sans avoir à réécrire la quasi-intégralité de votre code.
 

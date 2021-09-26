@@ -10,19 +10,19 @@ f1_keywords:
 - dao360.chm1053064
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 2d8aef3c8bdaac93bd84231b3098d98ee896a81f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: e267a739b3bf4187d8a00ce027d3c31262e4b16b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314384"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59564833"
 ---
 # <a name="tabledefconnect-property-dao"></a>TableDef.Connect, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui fournit des informations sur une table liée. **String** en lecture/écriture.
+Définit ou retourne une valeur qui fournit des informations sur une table liée.**String** en lecture/écriture .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -36,7 +36,7 @@ Le **Connect** paramètre de la propriété est un **chaîne** composé d’un s
 
 Pour un **TableDef** objet qui représente une table liée, le **Connect** paramètre de la propriété se compose d’une ou deux parties (un spécificateur de type base de données et un chemin d’accès à la base de données), chacune se termine par un point-virgule.
 
-Le chemin d’accès, comme illustré dans le tableau suivant est le chemin d’accès complet pour l’annuaire contenant les fichiers de base de données et doit être précédée de l’identificateur de base de données =. Dans certains cas (comme avec Microsoft Excel et Microsoft Access base de données de bases de données moteur), un nom de fichier spécifiques à inclure dans l’argument de chemin d’accès de base de données.
+Le chemin présenté dans le tableau suivant représente le chemin complet du répertoire contenant les fichiers de base de données ; il doit être précédé par l'identificateur DATABASE=. Dans certains cas (comme avec Microsoft Excel et les bases de données avec moteur de base de données Microsoft Access), vous devez inclure un nom de fichier spécifique à l'argument du chemin de la base de données.
 
 Le tableau suivant indique les types de base de données possible et leur spécificateurs de base de données correspondantes et les chemins d’accès relatifs le **Connect** paramètre de la propriété.
 
@@ -75,17 +75,17 @@ Le tableau suivant indique les types de base de données possible et leur spéci
 <td><p>drive:\path</p></td>
 </tr>
 <tr class="odd">
-<td><p>Paradox 3.x</p></td>
+<td><p>Paradox 3.x</p></td>
 <td><p>Paradox 3.x</p></td>
 <td><p>drive:\path</p></td>
 </tr>
 <tr class="even">
-<td><p>Paradox 4.x</p></td>
+<td><p>Paradox 4.x</p></td>
 <td><p>Paradox 4.x</p></td>
 <td><p>drive:\path</p></td>
 </tr>
 <tr class="odd">
-<td><p>Paradox 5.x</p></td>
+<td><p>Paradox 5.x</p></td>
 <td><p>Paradox 5.x</p></td>
 <td><p>drive:\path</p></td>
 </tr>
@@ -155,7 +155,7 @@ Le tableau suivant indique les types de base de données possible et leur spéci
 
 Si un mot de passe est requis sans être fourni dans le **Connect** propriété définissant, une boîte de dialogue Connexion s’affiche la première fois une table est accessible par le pilote ODBC puis de nouveau si la connexion est fermée et rouvert.
 
-Pour les données dans Microsoft Exchange, vous devez définir la clé MAPILEVEL obligatoire pour un chemin d’accès du dossier entièrement résolu (par exemple, « boîte aux lettres – Pat SmithIAlpha/aujourd'hui »). Le chemin n’inclut pas le nom du dossier qui sera ouvert en tant que table. Au lieu de cela, le nom du dossier doit être spécifié comme argument Name de la méthode **CreateTable**. La clé TABLETYPE doit être définie sur « 0 » pour ouvrir un dossier (par défaut) ou « 1 » pour ouvrir le carnet d’adresses. Les valeurs par défaut clés profil au profil actuellement utilisent.
+Pour les données dans Microsoft Exchange, la clé MAPILEVEL obligatoire doit être définie avec un chemin de dossier entièrement résolu (par exemple, « Mailbox – Pat SmithIAlpha/Today »). Le chemin n'inclut pas le nom du dossier qui sera ouvert comme une table ; au lieu de cela, le nom du dossier doit être spécifié comme argument nom de la méthode **CreateTable**. La clé TABLETYPE doit avoir la valeur « 0 » pour ouvrir un dossier (par défaut) ou « 1 » pour ouvrir un carnet d'adresses. La clé PROFILE prend la valeur par défaut du profil en cours d'utilisation.
 
 Pour les tables de base dans une base de données Microsoft Access, la **Connect** paramètre de la propriété est une chaîne nulle (« »).
 

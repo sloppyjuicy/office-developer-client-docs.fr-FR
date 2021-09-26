@@ -6,20 +6,20 @@ ms.audience: Developer
 ms.topic: reference
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
 description: Renvoie une valeur mise en forme selon un modèle spécifié.
-localization_priority: Priority
-ms.openlocfilehash: 5331df30f276a7edd0571e9bf24c759d57ec6a54
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 22d56077571405f3b79040cc6739dbd5c77ea405
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308203"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59568256"
 ---
 # <a name="format-function-access-custom-web-app"></a>Fonction de format (application web personnalisée Access)
 
 Renvoie une valeur mise en forme selon un modèle spécifié.
   
 > [!NOTE]
-> La fonctionnalité de stockage cloud décrite dans cet article n’est plus prise en charge dans Office 2013 et Office 2016 et peut entraîner le message d’erreur suivant : > *Sorry, we’re having server problems, so we can’t add \<service\> right now. Please try again later.* (« Nous rencontrons actuellement des problèmes de serveur et nous sommes dans l’incapacité d’ajouter le service. Merci de réessayer ultérieurement. ») > En ce qui concerne le stockage cloud pour Office Online, Office pour iOS et Office pour Android, consultez notre [programme de partenariat de stockage cloud Office](https://dev.office.com/programs/officecloudstorage). 
+> La fonctionnalité de stockage cloud décrite dans cet article n’est plus prise en charge dans Office 2013 et Office 2016 et peut entraîner l’erreur suivante : >  *Désolé, nous rencontrons des problèmes de serveur. Nous ne pouvons donc pas ajouter \<service\> pour le moment. Veuillez réessayer plus tard.* > En ce qui concerne le stockage cloud pour Office Online, Office pour iOS et Office pour Android, consultez notre [programme de partenariat de stockage cloud Office](https://dev.office.com/programs/officecloudstorage). 
   
 ## <a name="syntax"></a>Syntaxe
 

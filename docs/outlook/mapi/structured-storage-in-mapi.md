@@ -3,17 +3,17 @@ title: Structure Stockage mapi
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 642a678b-4bf2-4246-85cb-c798de23e36f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f58fa70e98841db5507323a63737f1df6c1b7a6d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: afc817e963a4855aaa5f13ee01b74a82e9ab225e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411749"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591030"
 ---
 # <a name="structured-storage-in-mapi"></a>Structure Stockage mapi
 

@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c65d2df-86a3-48d5-9fec-a9040f3b878c
 description: La Outlook du fournisseur OSC (OsC) décrit comment développer un fournisseur OSC à l’aide de l’extensibilité du fournisseur OSC.
-ms.openlocfilehash: 24f8eabe33103f53e848f055b72fd402bc5dd89a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 78a4ed1fe9a88fe2f90b88ed2aa97aafcdce4e5c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327159"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583043"
 ---
 # <a name="getting-started-with-developing-an-outlook-social-connector-provider"></a>Mise en place du développement d’un fournisseur Outlook Social Connector
 
@@ -29,7 +29,7 @@ Cette section donne une vue d’ensemble d’OSC, de la façon dont un fournisse
     
 - [Relating the OSC with Outlook and Social Networks:](relating-the-osc-with-outlook-and-social-networks.md)Provides an architectural view of how the OSC connects Outlook users with social networks. Définit également la façon dont les termes courants, tels que « réseaux sociaux », « amis », « non-amis » et « contacts » sont utilisés dans le reste de cette référence.
     
-- [Étapes rapides pour apprendre à développer](quick-steps-for-learning-to-develop-a-provider.md)un fournisseur : fournit un résumé des étapes à suivre pour apprendre à développer un fournisseur OSC.
+- [Étapes rapides Learning développement d’un](quick-steps-for-learning-to-develop-a-provider.md)fournisseur : fournit un résumé des étapes à suivre pour apprendre à développer un fournisseur OSC.
     
 - [Exigences techniques](technical-requirements.md): décrit les langages de programmation pris en charge, les exigences de visibilité COM, les exigences de type de retour de méthode et les détails de la DLL d’extensibilité du fournisseur OSC.
     

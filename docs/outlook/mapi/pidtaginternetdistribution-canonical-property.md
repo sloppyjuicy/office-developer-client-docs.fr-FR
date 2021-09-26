@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInternetDistribution
 api_type:
 - HeaderDef
 ms.assetid: a1b4d27d-d1ef-4462-bbe8-5ec965883a6e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: aa74bb2c4ca40757cd62a7add6dd567b4b77a977
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7bcfe70e08bc1488543e205cadf055ad11871f42
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411056"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583428"
 ---
 # <a name="pidtaginternetdistribution-canonical-property"></a>Propriété canonique PidTagInternetDistribution
 

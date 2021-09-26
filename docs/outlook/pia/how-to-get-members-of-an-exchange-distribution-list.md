@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb645998(v=office.15)
 ms:contentKeyID: 55119837
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: d5c615eb811d5dc4a0f4170bfe432179acaa4666
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 9ddb7e2c89bd869909c27f25c34d3a01c7e9d66a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320194"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59574663"
 ---
 # <a name="get-members-of-an-exchange-distribution-list"></a>Obtenir les membres d’une liste de distribution Exchange
 
@@ -28,7 +28,7 @@ Cet exemple de code appelle la méthode [GetExchangeDistributionListMembers](htt
 
 Pour obtenir les membres d’une liste de distribution, l’utilisateur doit être connecté à un serveur Exchange en ligne.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L'instruction **Importer** ou **utilisation** ne doit pas se produire juste avant les fonctions de l'exemple de code, mais doit être ajoutée avant la déclaration publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **Imports** ou **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. Les lignes de code suivantes montrent comment effectuer l’importation et l’affectation dans Visual Basic et dans C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

@@ -5,15 +5,15 @@ ms.date: 12/07/2015
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], creating managed code,managed code form templates [InfoPath 2007], creating,form templates [InfoPath 2007], walkthroughs,InfoPath 2007, walkthroughs
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
 description: Dans Microsoft InfoPath, vous pouvez écrire une logique métier dans Visual Basic ou C# en ouvrant un modèle de formulaire dans le concepteur InfoPath, puis en utilisant l’une des commandes de l’interface utilisateur pour ajouter un handler d’événements, qui ouvre l’environnement de développement Visual Studio 2012 pour écrire votre code.
-ms.openlocfilehash: cc09856750ced28d35c8da172a08a31c4e3cd4a2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: de6edb87ee29ea7ea6fcf0f9a658bcd013a410da
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420646"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611132"
 ---
 # <a name="walkthrough-create-a-basic-form-template-with-code"></a>Procédure pas à pas : créer un modèle de formulaire de base avec du code
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb644806(v=office.15)
 ms:contentKeyID: 55119924
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: dc8e0fb2b82ae9660e292a6ec1dea70e82fe36ef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c083e11034324f0be80d56a714635ee265914a2e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316029"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608948"
 ---
 # <a name="search-for-a-phrase-in-the-body-of-items-in-a-folder"></a>Recherche dans un dossier d’une expression employée dans le corps des éléments
 

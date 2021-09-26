@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1024505
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 616c822e-1bb2-4980-7e45-0c2be77dd801
 description: Contient des informations sur les commentaires insérés sur une page de document.
-ms.openlocfilehash: f874a574940a5f56b1d1680b9b4b32730e1e79f7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1d0b32af29aa1ea0f06654a43b6ab659db89ecae
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427422"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608668"
 ---
 # <a name="annotation-section"></a>Annotation Section
 

@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm176660
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 091b9717b9a2e35cfc8d0c8555e28570628065ef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: d552874568fe0e081ab4fe86e4f8a73c36281bc7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314587"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59580845"
 ---
 # <a name="setlocalvar-macro-action"></a>SetLocalVar, action de macro
 
@@ -50,19 +50,19 @@ L’action **DéfinirVarTemp** utilise les arguments suivants :
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
 <td><p>Oui</p></td>
-<td><p>Expression destiné à être utilisé pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression d’un signe égal (=). Vous pouvez cliquer sur le bouton <strong>Générer</strong> afin d’utiliser le <strong>Générateur d’expressions</strong> pour définir cet argument.</p></td>
+<td><p>Expression qui sera utilisée pour définir la valeur de cette variable temporaire. Ne faites pas précéder l’expression du signe égal (=). Vous pouvez cliquer sur le bouton <strong>Générer</strong> pour utiliser le <strong>Générateur d’expression</strong> pour définir cet argument.</p></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="remarks"></a>Remarques
 
-Variables créés par le **DéfinirVarLocale** action peut être utilisée uniquement dans la macro dans lequel ils sont définis. Utilisez le ** [DéfinirVarTemp](settempvar-macro-action.md) ** action pour définir une variable qui peut être utilisée dans une autre macro dans une procédure événementielle ou dans un formulaire ou état.
+Variables créés par le **DéfinirVarLocale** action peut être utilisée uniquement dans la macro dans lequel ils sont définis. Utilisez le **[DéfinirVarTemp](settempvar-macro-action.md)** action pour définir une variable qui peut être utilisée dans une autre macro dans une procédure événementielle ou dans un formulaire ou état.
 
 Une fois une variable temporaire a été créée, vous pouvez la consulter dans une expression. Par exemple, si vous avez créé une variable temporaire nommée TotalAmount, vous pouvez l’utiliser comme source contrôle pour une zone de texte à l’aide de la syntaxe suivante.
 
 `=[LocalVars]![TotalAmount]`
 
 > [!NOTE]
-> Dans une macro de données, vous devez ne pas utiliser la collection VarLocale pour faire référence à une variable. Par exemple, si vous avez créé une variable temporaire dans une macro de données nommée TotalAmount, vous pouvez utiliser la variable comme source contrôle pour une zone de texte à l’aide de la syntaxe suivante : `=[TotalAmount]`.
+> Dans une macro de données, vous n’avez pas besoin d’utiliser la collection LocalVars pour faire référence à une variable. Par exemple, si vous avez créé une variable temporaire dans une macro de données nommée TotalAmount, vous pouvez utiliser la variable comme source contrôle pour une zone de texte à l’aide de la syntaxe suivante`=[TotalAmount]`.
 

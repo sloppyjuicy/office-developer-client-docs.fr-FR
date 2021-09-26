@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagInternetControl
 api_type:
 - HeaderDef
 ms.assetid: 77442ad2-7f89-4364-8327-5f95c59b720d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8165ac7a5d0d711d94738cf2d4408f90e887a30f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 077cfe5190ab626b25a82efe2b5f3795b6eefb61
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431959"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583435"
 ---
 # <a name="pidtaginternetcontrol-canonical-property"></a>Propriété canonique PidTagInternetControl
 

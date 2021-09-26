@@ -5,15 +5,15 @@ ms.date: 04/04/2016
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13661393-adf6-4870-86c4-303262317675
 description: Outlook Social Connector 2013 fournit une plateforme de communications pour les communications personnelles et professionnelles.
-ms.openlocfilehash: e570fe69cbbe0e8d472e712fb3b8592c97fe43c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.openlocfilehash: 37d8872e2c6445c2a623dd43b1c7d434548182f4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359835"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583022"
 ---
 # <a name="outlook-social-connector-provider-reference"></a>Référence du fournisseur Outlook Social Connector
 
@@ -50,6 +50,6 @@ Si vous débutez en tant que développeur de solutions pour Outlook, consultez [
 - [Mention de droits d'auteur sur la référence du fournisseur Outlook Social Connector 2013](outlook-social-connector-2013-provider-reference-copyright-notice.md) 
 - [Conventions de document](https://msdn.microsoft.com/office/aa905365.aspx)   
 - [Accessibilité dans les produits Microsoft (éventuellement en anglais)](https://www.microsoft.com/enable/products/default.aspx)  
-- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/fr-FR/privacystatement)
+- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/en-us/privacystatement)
     
 

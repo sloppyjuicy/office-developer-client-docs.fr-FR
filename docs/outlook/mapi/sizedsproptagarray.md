@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.SizedSPropTagArray
 api_type:
 - COM
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f873ad5234460f9f1781c7427b60d285f7486196
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8ea830c9a198c7483459b6c96087f7c8529f9bf5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429347"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59591107"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
@@ -34,7 +34,7 @@ Crée une structure [nommée SPropTagArray](sproptagarray.md) qui inclut un nomb
 SizedSPropTagArray (_ctag, _name)
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _ _ctag_
   

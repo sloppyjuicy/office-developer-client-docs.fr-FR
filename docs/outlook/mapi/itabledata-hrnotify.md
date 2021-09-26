@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - ITableData.HrNotify
 api_type:
 - COM
 ms.assetid: 98548b50-342e-434a-9ad3-c37ba418c5ce
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: aa2170bf4bedfb441ad4808f774f6f71d5caf85e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b89aef1aff41f7fd1f84d687c72d37ce306cc31e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413268"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610397"
 ---
 # <a name="itabledatahrnotify"></a>ITableData::HrNotify
 
@@ -35,7 +35,7 @@ HRESULT HrNotify(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

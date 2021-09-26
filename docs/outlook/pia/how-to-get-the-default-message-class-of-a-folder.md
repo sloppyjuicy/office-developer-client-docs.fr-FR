@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184594(v=office.15)
 ms:contentKeyID: 55119860
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 031b7736ed397b9218ea677442f80595da2aa919
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: medium
+ms.openlocfilehash: 78646e5ef2263d7478eb3caf54c83d41e4eff890
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542561"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583141"
 ---
 # <a name="get-the-default-message-class-of-a-folder"></a>Obtention de la classe de message par défaut d’un dossier
 
@@ -25,7 +25,7 @@ Cet exemple montre comment utiliser la propriété [DefaultMessageClass](https:/
 
 Pour obtenir la classe de message par défaut d’un dossier, utilisez la propriété **DefaultMessageClass** de l’objet [MAPIFolder](https://msdn.microsoft.com/library/bb624369\(v=office.15\)). Par exemple, un objet [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) avec IPM.Contact comme **DefaultMessageClass** représente un dossier Contact. Cependant, si le formulaire par défaut du dossier est un formulaire personnalisé ou un formulaire de remplacement, vous devez utiliser l'objet [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) pour déterminer la classe de message du formulaire par défaut. La propriété **DefaultMessageClass** ne renvoie pas la classe de message du formulaire par défaut du dossier.
 
-Dans l’exemple de code suivant, la procédure GetDefaultMessageClass utilise **PropertyAccessor** pour déterminer le formulaire par défaut d’un dossier. Si la propriété de dossier **PR \_ DEF \_ POST \_ MSGCLASS** [(PidTagDefaultPostMessageClass)](https://msdn.microsoft.com/library/cc815305\(v=office.15\)) est in trouvée et Outlook une erreur, **essayez... le** bloc catch renvoie **la propriété DefaultMessageClass** pour le **dossier**.
+Dans l’exemple de code suivant, la procédure GetDefaultMessageClass utilise **PropertyAccessor** pour déterminer le formulaire par défaut d’un dossier. Si la propriété de dossier **PR\_DEF\_POST\_MSGCLASS** [(PidTagDefaultPostMessageClass)](https://msdn.microsoft.com/library/cc815305\(v=office.15\)) est introuvable et qu’Outlook déclenche une erreur, le bloc **try…catch** renvoie la propriété **DefaultMessageClass** de **Folder**.
 
 Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
 

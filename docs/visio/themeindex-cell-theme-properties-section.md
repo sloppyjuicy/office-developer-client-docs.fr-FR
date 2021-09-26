@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21002267-1400-4398-b937-f5b289cf0ed2
 description: Stocke l’éumération du thème microsoft Visio intégré appliqué au document, sous la mesure d’un nombre. Lorsqu’un nouveau thème est choisi pour le document, la cellule ThemeIndex du document et toutes les pages et formes qu’il contient est mise à jour avec l’index du thème intégré.
-ms.openlocfilehash: 6ddede864a54fbd7127552499d3ee1ae3d36efc1
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a016fdef87fd0324b71cb912482fa9f1d797b946
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411910"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603304"
 ---
 # <a name="themeindex-cell-theme-properties-section"></a>ThemeIndex Cell (Theme Properties Section)
 

@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 411948f3c0ac4d6c353cd2722136dffb6a25fb17
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 8c12d87cd9d5730c8e64add44254bc429256e741
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294707"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589763"
 ---
 # <a name="databasesynchronize-method-dao"></a>Database.Synchronize, méthode (DAO)
 
@@ -27,7 +27,7 @@ Synchronise deux réplicas. (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* Synchronize(***DbPathName***, ***ExchangeType***)
+*.* Synchronize(***DbPathName** _, _*_ExchangeType_**)
 
 *expression* Variable qui représente un objet **Database**.
 

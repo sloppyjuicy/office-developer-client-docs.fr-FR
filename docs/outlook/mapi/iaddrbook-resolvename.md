@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IAddrBook.ResolveName
 api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8a6a73153b857078cb37d94a634a6b0215a0a8c5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9b371214b9f782fcf0afab0943c4a0654a5716d8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408130"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610733"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
@@ -36,7 +36,7 @@ HRESULT ResolveName(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulUIParam_
   
@@ -86,7 +86,7 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent **la méthode ResolveName** pour lancer le processus de résolution de noms. Une entrée non résolue est une entrée qui n’a pas encore d’identificateur d’entrée **ou de PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Les clients et les fournisseurs de services appellent **la méthode ResolveName** pour lancer le processus de résolution de noms. Une entrée non résolue est une entrée qui n’a pas encore d’identificateur d’entrée ou **de PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
  **ResolveName** suit le processus suivant pour chaque entrée non résolue dans la liste d’adresses transmise dans _le paramètre lpAdrList._ 
   
@@ -100,7 +100,7 @@ Les clients et les fournisseurs de services appellent **la méthode ResolveName*
     
 5. Si tous les conteneurs de la **propriété PR_AB_SEARCH_PATH** ont été appelés et qu’aucune correspondance n’a été trouvée, le destinataire reste non résolu. 
     
-Si un ou plusieurs destinataires ne sont pas résolus, **ResolveName** renvoie MAPI_E_NOT_FOUND. Si un ou plusieurs destinataires avaient une résolution ambiguë qui n’a pas pu être résolue avec une boîte de dialogue ou parce que l’indicateur MAPI_DIALOG n’a pas été définie, **ResolveName** renvoie MAPI_E_AMBIGUOUS_RECIP. Lorsque certains destinataires sont ambigus et que certains ne peuvent pas être résolus, **ResolveName** peut renvoyer l’une ou l’autre des valeurs d’erreur. 
+Si un ou plusieurs destinataires ne sont pas résolus, **ResolveName** renvoie MAPI_E_NOT_FOUND. Si un ou plusieurs destinataires avaient une résolution ambiguë qui n’a pas pu être résolue avec une boîte de dialogue ou parce que l’indicateur MAPI_DIALOG n’a pas été définie, **ResolveName** renvoie MAPI_E_AMBIGUOUS_RECIP. Lorsque certains destinataires sont ambigus et que d’autres ne peuvent pas être résolus, **ResolveName** peut renvoyer l’une ou l’autre des valeurs d’erreur. 
   
 Si un nom ne peut pas être résolu, le client peut créer une adresse unique avec un identificateur d’adresse et d’entrée spécialement mis en forme. Pour plus d’informations sur le format des identificateurs d’entrée uniques, voir Identificateurs d’entrée [uniques.](one-off-entry-identifiers.md) Pour plus d’informations sur le format des adresses one-off, voir [Adresses one-off.](one-off-addresses.md)
   

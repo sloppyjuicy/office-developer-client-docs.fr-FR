@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagTelexNumber
 api_type:
 - COM
 ms.assetid: 49311177-17a5-415c-bcb2-dfeb48a5b491
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 95259cf654af6f767e8c6fea6c075f83e2bda75a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d16f5d8663953f0a5b45b52d40aa5e8b6c21bbaf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358883"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599289"
 ---
 # <a name="pidtagtelexnumber-canonical-property"></a>Propriété canonique PidTagTelexNumber
 

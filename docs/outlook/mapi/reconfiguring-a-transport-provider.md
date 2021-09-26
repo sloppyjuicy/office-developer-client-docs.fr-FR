@@ -3,17 +3,17 @@ title: Reconfiguration d’un fournisseur de transport
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3d466bde-b70d-44b6-ba03-6ad8353ec759
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b35ca2bb52439cf2ba1750c6fad2883730c4c3f8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: af5479c5116637f36a14b1157f21e648ed83d474
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408409"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599143"
 ---
 # <a name="reconfiguring-a-transport-provider"></a>Reconfiguration d’un fournisseur de transport
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82253123
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d94c740f-29e1-1e7f-39f6-8aa215f3111d
 description: Pour mettre en forme un nombre en tant que valeur monétaire, vous pouvez utiliser la fonction CY et transmettre une constante facultative afin de définir la devise à utiliser. Les constantes monétaires peuvent être définies sous forme de numéros d’ID correspondant à un pays/une région ou sous forme de chaîne (placée entre guillemets) représentant une abréviation ISO 4217 de 3 caractères.
-ms.openlocfilehash: 4492f4901779d94a32b881c973eab9e32a9c0514
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 17e559e9c2cdc2a09ce437af5918ce4457b144dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421794"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59608759"
 ---
 # <a name="about-currency-constants"></a>À propos des constantes de devise
 
@@ -31,13 +31,13 @@ Si vous affichez des symboles monétaires ne figurant pas dans les paramètres r
 | 2 - 9  <br/> | Reserved  <br/> |
 | 10  <br/> | EUR  <br/> | Euro  <br/> |
 | 11  <br/> | USD  <br/> | Dollar américain  <br/> |
-| 12   <br/> | ATS  <br/> | Schilling autrichien  <br/> |
+| 12   <br/> | ATS  <br/> | Schilling autrichien  <br/> |
 | 13  <br/> | AUD  <br/> | Dollar australien  <br/> |
 | 14   <br/> | BEF  <br/> | Franc belge  <br/> |
-| 15  <br/> | CAD  <br/> | Dollar canadien  <br/> |
-| 16   <br/> | CHF  <br/> | Franc suisse  <br/> |
-| 17   <br/> | CNY  <br/> | Yuan renminbi chinois  <br/> |
-| 18   <br/> | DEM  <br/> | Deutsche Mark  <br/> |
+| 15   <br/> | CAD  <br/> | Dollar canadien  <br/> |
+| 16   <br/> | CHF  <br/> | Franc suisse  <br/> |
+| 17   <br/> | CNY  <br/> | Yuan renminbi chinois  <br/> |
+| 18   <br/> | DEM  <br/> | Deutsche Mark  <br/> |
 | 19  <br/> | DKK  <br/> | Couronne danoise  <br/> |
 | 20  <br/> | ESP  <br/> | Peseta espagnole  <br/> |
 |  21  <br/> | FIM  <br/> | Mark finlandais  <br/> |
@@ -206,7 +206,7 @@ Si vous affichez des symboles monétaires ne figurant pas dans les paramètres r
 | 188  <br/> | TJR (Historique. Utiliser TJS.)  <br/> | Rouble tajik  <br/> |
 | 189  <br/> | TJS  <br/> | Somoni (ajouté dans Visio 2002)  <br/> |
 | 190  <br/> | TZS  <br/> | Shilling tanzanien (ajouté dans Visio 2002)  <br/> |
-| 191  <br/> | Retour au début  <br/> | Pa’anga (ajouté dans Visio 2002)  <br/> |
+| 191  <br/> | RETOUR AU DÉBUT  <br/> | Pa’anga (ajouté dans Visio 2002)  <br/> |
 | 192  <br/> | TND  <br/> | Dinar tunisien (ajouté dans Visio 2002)  <br/> |
 | 193  <br/> | TMM  <br/> | Manat (ajouté dans Visio 2002)  <br/> |
 | 194  <br/> | UGX  <br/> | Shilling ougandais (ajouté dans Visio 2002)  <br/> |

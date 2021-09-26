@@ -3,17 +3,17 @@ title: Mise en œuvre d’une table One-Off conteneur
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eabbde74-49a1-4eeb-a01d-67e45ae4b343
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 72dc73b6ed8519be2d8010544fdd5dc5b7b0f759
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 62951a7c4330fb8e909e0b6b978c210a5f5c1938
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417419"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610495"
 ---
 # <a name="implementing-a-container-one-off-table"></a>Mise en œuvre d’une table One-Off conteneur
 

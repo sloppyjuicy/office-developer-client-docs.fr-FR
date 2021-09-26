@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagStatus
 api_type:
 - COM
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: de2342ef4d3e9d06f198e06dc19c65b7b144624f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 68ab44134fd26f4a29b3048126bae73bf4dd0c82
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278791"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599409"
 ---
 # <a name="pidtagstatus-canonical-property"></a>Propriété canonique PidTagStatus
 

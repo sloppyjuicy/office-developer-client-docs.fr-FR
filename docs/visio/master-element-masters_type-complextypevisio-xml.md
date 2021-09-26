@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c102fd71-c621-2bde-9fbb-8e9203fdf31e
 description: Contient des éléments qui définissent une base pour le document.
-ms.openlocfilehash: 83727b89eaf44aae5dddecacff1f05f369ee0bf0
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 9bed3001bdf40fe54a32e6680c5de92a3035442f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538045"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603528"
 ---
 # <a name="master-element-masters_type-complextype-visio-xml"></a>Élément Master (Masters_Type complexType) (Visio XML)
 

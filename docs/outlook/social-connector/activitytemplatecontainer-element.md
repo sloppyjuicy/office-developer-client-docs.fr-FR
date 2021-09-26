@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74662f25-5e18-4d0b-999c-a144427ad9e3
 description: Un élément activityTemplateContainer est un modèle qui vous permet de mettre en forme vos éléments de flux d’activités et de réutiliser le code XML qui spécifie une disposition.
-ms.openlocfilehash: c2540b1d871e440e8f8f343a1788194c32d7dcc2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7b0d8e8d995721e3a58b3b0db1bb7b403be445dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413716"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583050"
 ---
 # <a name="activitytemplatecontainer-element"></a>activityTemplateContainer, élément
 

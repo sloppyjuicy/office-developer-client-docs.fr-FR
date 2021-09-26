@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0812437-f6ca-6ab6-734d-a5f44376ac7c
-ms.openlocfilehash: 0250eda2b5c3550e3cef3a29d074b9f78097be21
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: e061a88fb26f9885454c10db3d27949aa5f136b9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539571"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598681"
 ---
 # <a name="footercenter_type-complextype-visio-xml"></a>FooterCenter_Type complexType (Visio XML)
 

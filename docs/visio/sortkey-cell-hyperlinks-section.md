@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60086
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 93d7b00c-bd34-6b4e-44fe-afeb8aa9a294
 description: Nombre qui détermine l'ordre des liens hypertexte apparaissant dans un menu contextuel.
-ms.openlocfilehash: 002ab036f5305aa6daa631c15b0e9eb6148a9635
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1bf3a5f77905f130a37d911550411343747b803d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406380"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603465"
 ---
 # <a name="sortkey-cell-hyperlinks-section"></a>SortKey, cellule (section Hyperlinks)
 

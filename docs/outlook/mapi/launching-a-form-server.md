@@ -3,17 +3,17 @@ title: Lancement d’un serveur de formulaires
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a439e75a-92b3-4830-9dfc-e723d046be7b
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: dec8706ba00356660ec82c25e0213ef3e638691d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f5f76dd0e17abe53b3666f3f00580cc6af1cdcf0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270048"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610376"
 ---
 # <a name="launching-a-form-server"></a>Lancement d’un serveur de formulaires
 

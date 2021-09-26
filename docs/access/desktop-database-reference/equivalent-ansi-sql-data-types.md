@@ -10,20 +10,20 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 3ea0641c7325bfcb4339572bc8b50724115af8d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: b6a4a9cb420911bc5220e43abd1753eceb14d2e2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293510"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589623"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Types de données équivalents ANSI SQL
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Le tableau suivant énumère les types de données ANSI SQL, les types de données SQL équivalents du moteur de base de données Microsoft Access et leurs synonymes valides. Il répertorie également les types de données Microsoft SQL Server™ équivalents.
+Le tableau suivant répertorie les types de données ANSI SQL, leurs équivalents SQL du moteur de base de données Microsoft Access et leurs synonymes valides. Il répertorie également les types de données Microsoft SQL Server ™ équivalents.
 
 <table>
 <colgroup>
@@ -117,7 +117,7 @@ Le tableau suivant énumère les types de données ANSI SQL, les types de donné
 <td><p>INTERVAL</p></td>
 <td><p>Non pris en charge</p></td>
 <td><p></p></td>
-<td><p>Non prise en charge</p></td>
+<td><p>Non pris en charge</p></td>
 </tr>
 <tr class="even">
 <td><p>Non pris en charge</p></td>

@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
 description: Représente une fenêtre ouverte dans une instance de Microsoft Visio. Cet élément contient les informations nécessaires à la re-création d’une fenêtre d’interface utilisateur dans l’espace de travail de l’application lorsque le fichier est initialement ouvert par Visio.
-ms.openlocfilehash: 2700ee7a9a17460f6ac707f5b1a8f35d622e33e3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 44282149246dc4bfb93e583d8db4025d63ce542b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538458"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603199"
 ---
 # <a name="window-element-windows_type-complextype-visio-xml"></a>Élément Window (Windows_Type complexType) (Visio XML)
 
@@ -66,7 +66,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Container  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |ID du conteneur : Page, Feuille ou Maître. Pertinent et nécessaire uniquement si **ContainerType** est spécifié.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|Conteneur  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |ID du conteneur : Page, Feuille ou Maître. Pertinent et nécessaire uniquement si **ContainerType** est spécifié.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
 |ContainerType  <br/> |xsd:token  <br/> |facultatif  <br/> |Peut être l’une des valeurs suivantes : Document, Page ou Master. Pertinent uniquement **lorsque WindowType** est spécifié en tant que Dessin ou Feuille.  <br/> |Valeurs du type xsd:token.  <br/> |
 |Document  <br/> |xsd:string  <br/> |facultatif  <br/> |Chemin d’accès au fichier du document affiché dans cette fenêtre.  <br/> |Valeurs du type xsd:string.  <br/> |
 |ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID unique de l’élément au sein de son élément parent.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |

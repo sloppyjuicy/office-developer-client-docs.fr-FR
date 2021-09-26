@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagNonDeliveryReportDiagCode
 api_type:
 - HeaderDef
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a3cf1d32ac4c21137e1b1cbb04f64d7efbc0729d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ed0196f88ca5295dba109743d60c1e59c33c53b3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406233"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583337"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>Propriété canonique PidTagNonDeliveryReportDiagCode
 

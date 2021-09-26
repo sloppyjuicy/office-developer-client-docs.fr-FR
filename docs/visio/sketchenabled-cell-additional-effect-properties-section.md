@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0baef353-41a1-4071-b5b4-ae342086fe34
 description: Détermine si un effet de croquis est affiché sur la forme ou non, en tant que booléen.
-ms.openlocfilehash: 713b9b5579ca0503157b9810ebf6ec849651c9c3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 552870931687fe5da349fec82c564beed460bb55
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33418441"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603493"
 ---
 # <a name="sketchenabled-cell-additional-effect-properties-section"></a>SketchEnabled Cell (Additional Effect Properties Section)
 

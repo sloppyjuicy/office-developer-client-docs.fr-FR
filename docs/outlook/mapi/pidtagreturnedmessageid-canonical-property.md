@@ -5,17 +5,17 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e56d7851b1fe28ddea1703d9ec3ffb7737abeda6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f68df73ab071e1fb0108d54f518dbc34ce7f5c1c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435627"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599564"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>Propriété canonique PidTagReturnedMessageid
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.XPProviderInit
 api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ee0ff8d32436f71020be2cdc91d6677bd4ec8e43
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6935eb7aebf718065486e686184e98b84b156acc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428535"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583225"
 ---
 # <a name="xpproviderinit"></a>XPProviderInit
 
@@ -47,7 +47,7 @@ HRESULT XPProviderInit(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _hInstance_
   

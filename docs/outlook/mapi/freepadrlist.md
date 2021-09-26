@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.FreePadrlist
 api_type:
 - COM
 ms.assetid: ca8fbac6-b6f1-46ab-90a1-fc16f0d5824c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 95c2e52760bd7d65351b4dd2091b68a43cd2f97c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b90b6705909219acfe7337baedce105de301feb2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408641"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610943"
 ---
 # <a name="freepadrlist"></a>FreePadrlist
 
@@ -39,7 +39,7 @@ void FreePadrlist(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _padrlist_
   

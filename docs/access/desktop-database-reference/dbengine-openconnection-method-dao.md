@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 845c710954d83003f49a6cd9db21ae3f3bfab383
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 61014716b78af9cbfcd2b7c24e131cbd63c89095
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294259"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597456"
 ---
 # <a name="dbengineopenconnection-method-dao"></a>DBEngine.OpenConnection, méthode (DAO)
 
@@ -24,7 +24,7 @@ ms.locfileid: "32294259"
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* OpenConnection(***Name***, ***Options***, ***ReadOnly***, ***Connecter***)
+*.* OpenConnection(***Name** _, _*_Options_*_, _*_ReadOnly_*_, _*_Connecter_**)
 
 *expression* Variable représentant un objet **DBEngine**.
 

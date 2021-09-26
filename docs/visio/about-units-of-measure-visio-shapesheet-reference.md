@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251828
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48f765a8-7485-03c0-3484-d4ec07822600
 description: Lorsque vous insérez des champs dans du texte ou construisez des formules, vous devez souvent indiquer l’unité de mesure des valeurs que vous tapez.
-ms.openlocfilehash: d23c3f30841c81d07c09e57c0802e09edb0fe3c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e4b6b4e568627c12d26a68aafca22f7dff236bf1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360451"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598870"
 ---
 # <a name="about-units-of-measure-visio-shapesheet-reference"></a>About Units of Measure (Visio ShapeSheet Reference)
 
@@ -41,7 +41,7 @@ Dans les formules ShapeSheet, entrez les unités de mesure en utilisant les abr�
 | Minutes écoulées  <br/> | em  <br/> |**visElapsedMin (46)** <br/> |
 | Secondes écoulées  <br/> | es  <br/> |**visElapsedSec (47)** <br/> |
 | Pieds  <br/> | ft  <br/> |**visFeet (66)** <br/> |
-| Pouces  <br/> | in  <br/> |**visInches (65)** <br/> |
+| Pouces  <br/> | dans  <br/> |**visInches (65)** <br/> |
 | Kilomètres  <br/> | km  <br/> |**visKilometers (72)** <br/> |
 | Mètres  <br/> | m  <br/> |**visMeters (71)** <br/> |
 | Miles  <br/> | mi  <br/> |**visMiles (68)** <br/> |
@@ -53,7 +53,7 @@ Dans les formules ShapeSheet, entrez les unités de mesure en utilisant les abr�
 | Points  <br/> | pt  <br/> |**visPoints (50)** <br/> |
 | Radians  <br/> | rad  <br/> |**visRadians (83)** <br/> |
 | Secondes  <br/> | "  <br/> |**visSec (85)** <br/> |
-| yards  <br/> | yd  <br/> |**visYards (75)** <br/> |
+| Yards  <br/> | yd  <br/> |**visYards (75)** <br/> |
    
 ## <a name="compound-units-of-measure"></a>Unités de mesure composées
 
@@ -99,7 +99,7 @@ Dans les formules, vous pouvez exprimer des unités de mesure pour les nombres m
 | Mètres  <br/> | M. CARRE, M CARRE, M.^2, M ^2  <br/> |**visMeters (71)** <br/> |
 | Miles  <br/> | MI. CARRE, MI CARRE, MI.^2, MI ^2  <br/> |**visMiles (68)** <br/> |
 | Millimètres  <br/> | MM. CARRE, MM CARRE, MM.^2, MM ^2  <br/> |**visMillimeters (70)** <br/> |
-| yards  <br/> | YD. CARRE, YD CARRE, YD.^2, YD^2  <br/> |**visYards (75)** <br/> |
+| Yards  <br/> | YD. CARRE, YD CARRE, YD.^2, YD^2  <br/> |**visYards (75)** <br/> |
    
 ## <a name="universal-strings"></a>Chaînes universelles
 
@@ -136,7 +136,7 @@ Dans les versions localisées de Visio, les chaînes reconnues changent en fonct
 | Points  <br/> | PT  <br/> |
 | Radians  <br/> | RAD  <br/> |
 | Secondes  <br/> | "  <br/> |
-| yards  <br/> | YD  <br/> |
+| Yards  <br/> | YD  <br/> |
    
 ## <a name="implicit-units-of-measure"></a>Unités de mesure implicites
 

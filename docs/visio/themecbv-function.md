@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef62f63f-b2ce-4d12-a294-93dbdc9a869d
 description: Renvoie une valeur RVB ou un nombre qui représente un index dans la palette de couleurs du document, où la couleur (nombre) passée en tant qu’argument a été modifiée par la teinte ou la valeur de nuance spécifiée stockée dans les paramètres de dégradé du thème actif.
-ms.openlocfilehash: 014dc04c5114e296cd2226f3cf04dfb729817578
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 1d9a95aedee2f04e72bd4868ddfaec149c872b62
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429137"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603327"
 ---
 # <a name="themecbv-function"></a>Fonction THEMECBV
 

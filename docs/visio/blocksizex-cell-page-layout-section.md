@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm105
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 253aac17-077e-48e0-39a8-a3abd5d4a257
 description: Détermine la taille horizontale du bloc, la zone dans laquelle chacune de vos formes doit tenir sur la page de dessin lorsque vous les avez mises en page à l’aide de la boîte de dialogue Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Re-Layout Page, puis sur Autres options de disposition).
-ms.openlocfilehash: 8e4cee4b2059d9b8f2fe77c2d4902e67246eac2f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c5002566dca3772ab78fcfebf01f15d4cbde129d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424188"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598737"
 ---
 # <a name="blocksizex-cell-page-layout-section"></a>BlockSizeX, cellule (section Page Layout)
 

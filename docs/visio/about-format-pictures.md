@@ -6,22 +6,22 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251831
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df4c1c70-8b41-c046-7415-643188af0e06
 description: Un modèle de format sert à déterminer l’affichage d’une valeur. Par exemple, vous pouvez contrôler le nombre de chiffres à droite ou à gauche de la virgule décimale ou l’affichage d’une chaîne de texte en majuscules ou minuscules.
-ms.openlocfilehash: 7043c9819f41ec2c08345c84010328be75677918
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3e9510f4e2056477f5c0a1298d9fd76894a07ec2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436817"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598947"
 ---
 # <a name="about-format-pictures"></a>À propos des modèles de format
 
 Un modèle de format sert à déterminer l’affichage d’une valeur. Par exemple, vous pouvez contrôler le nombre de chiffres à droite ou à gauche de la virgule décimale ou l’affichage d’une chaîne de texte en majuscules ou minuscules.
   
 > [!NOTE]
-> Pour définir un modèle de format de date ou d’heure à l’aide de la mise en forme du système Microsoft Office, placez le modèle de format entre deux accolades, par exemple, « {{j/m/aa}} ». Si vous utilisez un format prédéféré, par exemple, 201, inséz-le entre accolades et crochets, comme ceci : « { \< 201 \> } » 
+> Pour définir un modèle de format de date ou d’heure à l’aide de la mise en forme du système Microsoft Office, placez le modèle de format entre deux accolades, par exemple, « {{j/m/aa}} ». Si vous utilisez un format prédéféré, par exemple, 201, inséz-le entre accolades et crochets, comme ceci : « { \<201\> } » 
   
 Les sections suivantes montrent des symboles que vous pouvez utiliser pour mettre en forme différents types de valeurs à afficher.
   

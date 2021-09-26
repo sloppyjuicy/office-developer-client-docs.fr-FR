@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249239(v=office.15)
 ms:contentKeyID: 48544698
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f0ef026bdb4f15e78286599705f741c194741194
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 78e59fe0f1db2c46a390902298bc41744c1fe2be
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296891"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607177"
 ---
 # <a name="axis-object-ado-md-reference"></a>Objet Axis (référence ADO MD)
 

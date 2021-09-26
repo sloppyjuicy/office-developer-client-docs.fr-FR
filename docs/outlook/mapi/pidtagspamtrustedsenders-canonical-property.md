@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e3f0094-e64b-4828-ba8f-5eed35f85366
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 50230a742b093e59e335466d9ab03aa9022e2e61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1e31627e2fa36b26d4efa8f1ab12087f21da450a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348299"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599423"
 ---
 # <a name="pidtagspamtrustedsenders-canonical-property"></a>Propriété canonique PidTagSpamTrustedSenders
 

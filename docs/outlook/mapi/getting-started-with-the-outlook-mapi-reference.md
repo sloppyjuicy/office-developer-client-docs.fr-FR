@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.assetid: a191f5e0-2a60-4d01-9010-892360b3bfa6
 description: La référence Messaging API (MAPI) Microsoft Outlook décrit comment créer des solutions MAPI qui fonctionnent avec Microsoft Outlook 2013 et Microsoft Outlook 2016.
-localization_priority: Priority
-ms.openlocfilehash: 879495949423de7ebfe01ba584adc91ce387ef97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: dc7be2f87bc0707c657db01b6eddf3ef0e81a489
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299474"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59551554"
 ---
 # <a name="getting-started-with-the-outlook-mapi-reference"></a>Mise en route avec la référence MAPI pour Outlook
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-La référence Messaging API (MAPI) Microsoft Outlook décrit comment créer des solutions MAPI qui fonctionnent avec Microsoft Outlook 2013 et Microsoft Outlook 2016. Cette section explique comment rechercher la référence et les ressources conceptuelles différentes dans la référence MAPI Outlook.
+La référence Microsoft Outlook Messaging API (MAPI) décrit comment créer des solutions MAPI qui fonctionnent avec Microsoft Outlook 2013 et Outlook 2016. Cette section décrit comment trouver les différentes ressources de référence et conceptuelles dans la Référence MAPI Outlook.
   
 Si vous débutez en tant que développeur de solutions pour Outlook, consultez [Sélection d'une API ou d'une technologie pour développer des solutions pour Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) pour identifier les API et technologies les plus adaptées à vos besoins. 
   

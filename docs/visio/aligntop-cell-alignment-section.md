@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm50
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56e0b544-8504-0fbb-5810-7cf94d775f7c
 description: Détermine la position verticale, par rapport à l'origine de son parent, d'un repère horizontal ou d'un point de repère sur lequel est aligné le bord supérieur de la forme.
-ms.openlocfilehash: a52527b8a0ef6398f475b3d6241e03afa6cd697b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fc3b0e1c009deb81106bc238e3f58b579b5944eb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406695"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598842"
 ---
 # <a name="aligntop-cell-alignment-section"></a>AlignTop, cellule (section Alignment)
 

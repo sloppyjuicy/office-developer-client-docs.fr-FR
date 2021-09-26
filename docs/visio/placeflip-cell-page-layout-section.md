@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253251
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df014b98-cfd5-b6d3-4b8a-b0acb3b94412
 description: Détermine la façon dont les formes positionnables sont retournées et/ou pivotent lorsque vous utilisez la commande Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition).
-ms.openlocfilehash: d1c31654782012b3536d35f3a12a923c2cc7a8f3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 10165312a0ad4c595a58f4ab94d319b0a3d61d29
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434297"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59598429"
 ---
 # <a name="placeflip-cell-page-layout-section"></a>PlaceFlip, cellule (section Page Layout)
 

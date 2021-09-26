@@ -1,20 +1,20 @@
 ---
-title: Connection.Execute method (DAO)
+title: Connection.Execute, méthode (DAO)
 TOCTitle: Execute Method
 ms:assetid: d6140d4e-fa14-6455-525e-49d8aab3dff7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
 ms:contentKeyID: 48547978
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 8140dbe9bc0c68d467c011d77bc0c00cec7ad560
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 9f4d2159e50c54b6dc448cf2b2963ec05df6ffeb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295911"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597586"
 ---
-# <a name="connectionexecute-method-dao"></a>Connection.Execute method (DAO)
+# <a name="connectionexecute-method-dao"></a>Connection.Execute, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,11 +22,11 @@ Exécute une requête action ou exécute une instruction SQL sur l’objet spéc
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .Execute(***Query***, ***Options***)
+*.* Execute(***Query** _, _*_Options_**)
 
 *expression* Variable qui représente un objet **Connection**.
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>
@@ -112,7 +112,7 @@ Vous pouvez utiliser les constantes **[RecordsetOptionEnum](recordsetoptionenum-
 </table>
 
 > [!NOTE]
-> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
 
 > [!NOTE]
 > Les constantes **dbConsistent** et **dbInconsistent** s’excluent mutuellement. Vous pouvez utiliser l’une ou l’autre dans une instance donnée d’**OpenRecordset**, mais pas les deux à la fois. L’utilisation simultanée de **dbConsistent** et **dbInconsistent** entraîne une erreur.

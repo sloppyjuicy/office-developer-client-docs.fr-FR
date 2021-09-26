@@ -3,17 +3,17 @@ title: Composition d’un nouveau message à l’aide d’un formulaire
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c92181c4-79ca-4310-8bf1-2bc335c8e0cd
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 1c5ba8631ba39309b7131440f04564f80b5dbb57
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4356fadc307ce260315a306693ef18e348722485
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412799"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611034"
 ---
 # <a name="composing-a-new-message-by-using-a-form"></a>Composition d’un nouveau message à l’aide d’un formulaire
 

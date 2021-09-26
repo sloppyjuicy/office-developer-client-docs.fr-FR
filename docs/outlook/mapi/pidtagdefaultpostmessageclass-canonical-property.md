@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagDefaultPostMessageClass
 api_type:
 - HeaderDef
 ms.assetid: 231c288f-547b-4463-9442-1499661b925e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0ab904625d3a23462a4fedf3b64f49c54b34ad28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bb813792b864fa414a9bd9b6f7160df6dbd2ae23
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357903"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583491"
 ---
 # <a name="pidtagdefaultpostmessageclass-canonical-property"></a>Propriété canonique PidTagDefaultPostMessageClass
 

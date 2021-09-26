@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142571(v=office.15)
 ms:contentKeyID: 52073808
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 8d34553c4229c8ad737853439342a24ed3afd181
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 0fe67104a669785308cb466dc330aed62fbb5ddc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291684"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59589413"
 ---
 # <a name="access-desktop-database-reference"></a>Référence de base de données de bureau Access
 

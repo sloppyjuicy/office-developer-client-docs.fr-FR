@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db7b353f-4379-8865-1c35-36b89cf93257
 description: Indique le type de grille horizontale à utiliser.
-ms.openlocfilehash: 5ebd172e56a66bfb39bd9bfa20967bb6b52c5aa2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ef2e65acde1121c1c4e822697867bf5a17d9102f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436040"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597715"
 ---
 # <a name="xgriddensity-cell-ruler-amp-grid-section"></a>XGridDensity, cellule (section Ruler &amp; Grid)
 
@@ -25,7 +25,7 @@ Indique le type de grille horizontale à utiliser.
 |0  <br/> |Fixed  <br/> |**visGridFixed** <br/> |
 |2  <br/> |Entâyé  <br/> |**visGridCoarse** <br/> |
 |4   <br/> |Normal (valeur par défaut)  <br/> |**visGridNormal** <br/> |
-|8   <br/> |Fine  <br/> |**visGridFine** <br/> |
+|8   <br/> |Fine  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

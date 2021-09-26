@@ -12,13 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 07a83c16368caa6e5c05c7554300c5589a437067
-ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
+ms.localizationpriority: high
+ms.openlocfilehash: 2c9247063173c4e7ad2006c008469b2b79881b17
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/28/2020
-ms.locfileid: "49734181"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607401"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>ALTER TABLE (Microsoft Access SQL), instruction
 
@@ -27,7 +27,7 @@ ms.locfileid: "49734181"
 Modifie la structure d’une table après qu’elle a été créée avec l’instruction [CREATE TABLE](create-table-statement-microsoft-access-sql.md).
 
 > [!NOTE]
-> Le moteur de base de données Access ne prend pas en charge l’utilisation de l’instruction ALTER TABLE ou d’instructions en langage de définition de données (DDL) avec des bases de données autres que Microsoft Access. Utilisez plutôt les méthodes **Create** de DAO.
+> Le moteur de base de données Microsoft Access ne prend pas en charge l’utilisation d’ALTER TABLE ou d’instructions en langage de définition de données (DDL), avec des bases de données non-Microsoft Access. Utilisez plutôt les méthodes DAO **Create** .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -81,7 +81,7 @@ L'instruction ALTER TABLE est composée des arguments suivants :
 
 ## <a name="remarks"></a>Remarques
 
-L’instruction ALTER TABLE permet de modifier une table existante de plusieurs manières. Vous pouvez :
+En utilisant l’instruction ALTER TABLE, vous pouvez modifier une table existante de plusieurs façons. Vous pouvez:
 
 - Utilisez ADD COLUMN pour ajouter un champ à la table. Vous devez pour cela spécifier le nom du champ, le type des données et éventuellement la taille du champ (pour les champs texte et binaires). Par exemple, l'instruction suivante ajoute un champ texte de 25 caractères appelé Notes à la table Employees :
     
@@ -109,7 +109,8 @@ L’instruction ALTER TABLE permet de modifier une table existante de plusieurs 
 > [!NOTE] 
 > - Vous ne pouvez pas ajouter ou supprimer plus d'un champ ou d'un index à la fois.
 > - Vous pouvez utiliser l’instruction [CREATE INDEX](create-index-statement-microsoft-access-sql.md) pour ajouter un index d’un ou de plusieurs champs à une table et l’instruction ALTER TABLE ou [DROP](drop-statement-microsoft-access-sql.md) pour supprimer un index créé avec ALTER TABLE ou CREATE INDEX.
-> - Vous pouvez utiliser l’instruction NON NULL sur un champ unique ou à l’intérieur d’une clause CONSTRAINT nommée qui s’applique à une instruction CONSTRAINT nommée portant sur un ou plusieurs champs. Toutefois, vous ne pouvez appliquer la restriction NON NULL qu’une seule fois à un champ. Une tentative d’appliquer cette restriction plusieurs fois génère une erreur d’exécution.
+> - Vous pouvez utiliser NOT NULL sur un seul champ ou dans une clause CONSTRAINT nommée qui s'applique à un index d'un ou de plusieurs champs nommé CONSTRAINT. En revanche, vous ne pouvez appliquer la restriction NOT NULL à un champ qu'une seule fois. Si vous appliquez plusieurs fois cette restriction, une erreur d'exécution de produit. 
+
 
 ## <a name="example"></a>Exemple
 

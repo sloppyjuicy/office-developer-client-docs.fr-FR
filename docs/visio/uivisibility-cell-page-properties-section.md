@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60090
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df7f79df-770a-4868-e7e2-05c3828e23eb
 description: Détermine si le nom de la page est exposé dans l'interface utilisateur (IU).
-ms.openlocfilehash: 51ccd34cb40c286fe6b61818aea5a6b9c0b6d1a4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 564cb13d5b8e1cf1394787bba1d5bdab82a9c85a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33437328"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603227"
 ---
 # <a name="uivisibility-cell-page-properties-section"></a>UIVisibility, cellule (section Page Properties)
 

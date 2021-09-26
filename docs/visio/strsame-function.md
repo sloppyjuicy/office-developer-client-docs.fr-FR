@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251786
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
 description: Détermine si les chaînes sont identiques. Elle renvoie TRUE si elles sont identiques et FALSE si ce n’est pas le cas.
-ms.openlocfilehash: 0f298c966ec7a3f1e23c89473fecc555ed950f79
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 502d1b782c900d872b95a790cad38416b8d851dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428682"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603437"
 ---
 # <a name="strsame-function"></a>Fonction STRSAME
 

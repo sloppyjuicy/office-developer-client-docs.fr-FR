@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidTagIpmSubtreeEntryId
 api_type:
 - HeaderDef
 ms.assetid: 5763fc78-5192-4162-be27-4aadc7ed65bc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 815685696dfc93bb6241f608ca0157e87e758e7b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9a68227c61abe65f785739e42a2d09a01ba6ef3c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412729"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583400"
 ---
 # <a name="pidtagipmsubtreeentryid-canonical-property"></a>Propriété canonique PidTagIpmSubtreeEntryId
 
@@ -32,7 +32,7 @@ Contient l’identificateur d’entrée de la racine de la sous-arborescence du 
 |Propriétés associées :  <br/> |PR_IPM_SUBTREE_ENTRYID  <br/> |
 |Identificateur :  <br/> |0x35E0  <br/> |
 |Type de données :  <br/> |PT_BINARY  <br/> |
-|Domaine :  <br/> |Dossier  <br/> |
+|Domaine :  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

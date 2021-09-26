@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 713f2530369a824a6d7204655ded4333f7fe2765
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 9a4f117592e58c282b83f3456c275c6b081c1419
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308441"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59601701"
 ---
 # <a name="tabledefcreatefield-method-dao"></a>TableDef.CreateField, méthode (DAO)
 
@@ -64,7 +64,7 @@ Crée un objet **[Field](field-object-dao.md)** (espaces de travail Microsoft A
 <td><p><em>Size</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Nombre entier indiquant la taille maximale, en octets, d’un objet <strong>Field</strong> contenant du texte. Pour connaître les valeurs de taille valides, voir la propriété <strong><a href="field-size-property-dao.md">Size</a></strong>. Cet argument est ignoré pour les champs numériques et de longueur fixe.</p></td>
+<td><p>Integer qui indique la taille maximale, en octets, d'un objet <strong>Field</strong> qui contient du texte. Reportez-vous à la propriété <strong><a href="field-size-property-dao.md">Taille</a></strong> pour connaître les valeurs  size valables. Cet argument est ignoré pour les champs numériques et de longueur fixe.  </p></td>
 </tr>
 </tbody>
 </table>
@@ -78,7 +78,7 @@ Field
 
 Vous pouvez utiliser la méthode **CreateField** pour créer un champ, spécifier le nom, le type de données et la taille du champ. Si vous omettez une ou plusieurs des parties facultatives lorsque vous utilisez la méthode **CreateField**, vous pouvez utiliser une instruction d’affectation appropriée pour définir ou réinitialiser la propriété correspondante avant d’ajouter le nouvel objet à la collection. Une fois que vous avez ajouté le nouvel objet, vous pouvez modifier une partie de ses paramètres de propriété, mais pas tous. Pour plus d’informations, reportez-vous aux rubriques concernant cette propriété.
 
-Les arguments Type et Size ne s’appliquent qu’aux objets **Field** dans un objet **TableDef**. Les arguments suivants sont ignorés quand un objet **Field** est associé un objet **Index** ou **Relation**.
+Les arguments  type et  Size ne s'appliquent qu'aux objets **Field** dans un objet **TableDef**. Ces arguments sont ignorés lorsqu'un objet **Field** est associé à un objet **Index** ou **Relation**.
 
 Si l’argument Name renvoie à un objet qui est déjà membre de la collection, une erreur d’exécution se produit lorsque vous utilisez la méthode **[Append](fields-append-method-dao.md)**.
 

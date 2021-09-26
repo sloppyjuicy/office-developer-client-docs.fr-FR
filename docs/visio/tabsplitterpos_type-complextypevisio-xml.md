@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2140a17e-682f-7bc8-be79-e9860372f4ef
-ms.openlocfilehash: 4bef03bc9af15bdc88e7cd6f4ba08a49ce2a996d
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: cfa0c78cb368977e28dfd1d2ea57b963530f12dc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538829"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59603367"
 ---
 # <a name="tabsplitterpos_type-complextype-visio-xml"></a>TabSplitterPos_Type complexType (Visio XML)
 

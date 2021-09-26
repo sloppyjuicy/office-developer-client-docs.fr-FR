@@ -2,15 +2,15 @@
 title: Créer un profil Outlook en utilisant MFCMAPI
 ms.date: 05/18/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 85581bc7-2d81-46af-8836-adef39c933fc
 description: MFCMAPI permet d’accéder aux magasins MAPI pour faciliter l’examen des problèmes Exchange et Outlook et fournir aux développeurs la prise en charge du développement MAPI.
-ms.openlocfilehash: 8a300ad53918b22cc3de5554a1e3c29289cd9365
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0776619fc97ee94ae557b72cf7576b9ff6b779ae
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345989"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610852"
 ---
 # <a name="create-an-outlook-profile-using-mfcmapi"></a>Créer un profil Outlook en utilisant MFCMAPI
 
@@ -56,11 +56,11 @@ Pour les non-développeurs, il est recommandé d’utiliser l’interface utilis
     
 13. Dans le menu **Session,** cliquez sur **Ouverture** de session et Magasin d’affichage, puis sélectionnez le profil (s’il n’est pas déjà sélectionné). 
     
-### <a name="outlook-2016"></a>Outlook 2016
+### <a name="outlook-2016"></a>Outlook 2016
   
 ||||
 |:-----|:-----|:-----|
-|**Property** <br/> |**Tag** <br/> |**Description** <br/> |
+|**Propriété** <br/> |**Tag** <br/> |**Description** <br/> |
 | PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W  <br/> |0x6641001F  <br/> |Adresse SMTP de l’utilisateur  <br/> |
 |PR_DISPLAY_NAME_W  <br/> |0x3001001F  <br/> |Nom d’affichage de l’utilisateur  <br/> |
 |PR_STORE_PROVIDERS  <br/> |0x3D000102  <br/> |Configurer la valeur de cette propriété, située dans la section **EMSMDB,** et mettre à jour l’UID correspondant pour la propriété correspondante  <br/> |
@@ -78,7 +78,7 @@ Pour les non-développeurs, il est recommandé d’utiliser l’interface utilis
 |PR_PROFILE_AUTH_PACKAGE  <br/> |RPC_C_AUTHN_NONE (0x0)  <br/> |Décrit le schéma d’authentification à utiliser pour le nœud de découverte automatique *RPC*  : Response/Account/Protocol/AuthPackage (EXCH) <sup>3</sup> <br/> |
 |PR_ROH_PROXY_PRINCIPAL_NAME  <br/> |Élément CertPrincipalName  <br/> |Utilisé pour prendre en charge l’authentification mutuelle ; par exemple, msstd:outlook.com *Autodiscover Node*  : Response/Account/Protocol/CertPrincipalName (EXPR) <sup>) 2</sup> <br/> |
    
-### <a name="exchange-2013"></a>Exchange 2013
+### <a name="exchange-2013"></a>Exchange 2013
   
 ||||
 |:-----|:-----|:-----|

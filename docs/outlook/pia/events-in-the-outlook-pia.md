@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb644571(v=office.15)
 ms:contentKeyID: 55119782
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 29217a633c02390587a370847291ef62d5621ce8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 8124c34e979d76cca6d2e5ab0c1e9896a3c8ecc0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325788"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59583204"
 ---
 # <a name="events-in-the-outlook-pia"></a>Événements dans l’assembly PIA Outlook
 

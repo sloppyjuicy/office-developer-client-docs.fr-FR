@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIFolder.SetReadFlags
 api_type:
 - COM
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 15504ecc88188ed7bc4eed0e64b1871dbc6a5e8d
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 69eaaf4e2f4997af48013760e843c56a044c435e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406912"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59610607"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
@@ -34,7 +34,7 @@ HRESULT SetReadFlags(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 _lpMsgList_
   
@@ -140,7 +140,7 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
 |**SetReadFlags n’a** pas pu traiter correctement chaque message.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
 |**SetReadFlags n’a** pas pu se terminer.  <br/> |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
    
-Lorsque **SetReadFlags n’est** pas en mesure de se terminer, ne supposez pas qu’aucun travail n’a été effectué. **SetReadFlags** a peut-être pu définir ou effacer l’MSGFLAG_READ pour un ou plusieurs des messages avant de rencontrer l’erreur. 
+Lorsque **SetReadFlags ne** parvient pas à se terminer, ne supposez pas qu’aucun travail n’a été effectué. **SetReadFlags** a peut-être pu définir ou effacer l’MSGFLAG_READ pour un ou plusieurs des messages avant de rencontrer l’erreur. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
