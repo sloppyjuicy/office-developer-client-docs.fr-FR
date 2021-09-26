@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm80003
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2405457-843c-0d46-5f4f-9c413826c3f1
 description: Détermine si la ligne est un menu flottant enfant de la dernière ligne se trouvant au-dessus d’elle si cette dernière n’est pas un menu flottant enfant.
-ms.openlocfilehash: 85524ea33258449f5c9ee0991ac9a64f8f0eebae
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e5409d16df7b91c855a95e7b9deb2121ec4e63b3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420863"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612798"
 ---
 # <a name="flyoutchild-cell-actions-section"></a>FlyoutChild, cellule (section Actions)
 

@@ -3,17 +3,17 @@ title: Interaction avec le spooler MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5cc1d0a8-ad23-4173-b220-b7c0169073fa
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: da94347dcb47e5fdbd4a6c1d404b795f4f7938ab
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bb620bc68239e5353d30b99cc9e76e907343c37b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432148"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620603"
 ---
 # <a name="interacting-with-the-mapi-spooler"></a>Interaction avec le spooler MAPI
 

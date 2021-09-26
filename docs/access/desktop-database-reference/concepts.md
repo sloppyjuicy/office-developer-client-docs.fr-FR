@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Mt346017(v=office.15)
 ms:contentKeyID: 67946324
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 44a1e549349e73708da1fa0176162492e5c808d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 55740a6ad6b080547c95a18ac54a50bb1c6463fa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296030"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618475"
 ---
 # <a name="concepts"></a>Concepts
 

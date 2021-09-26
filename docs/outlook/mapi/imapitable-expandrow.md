@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPITable.ExpandRow
 api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5e2ce756baaefef7bd0028e746b1dbe10756365e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ca03023d7edd81db214c080b8d4a744c1bf661cc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415165"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620827"
 ---
 # <a name="imapitableexpandrow"></a>IMAPITable::ExpandRow
 
@@ -38,7 +38,7 @@ ULONG FAR * lpulMoreRows
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbInstanceKey_
   

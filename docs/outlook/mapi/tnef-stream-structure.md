@@ -3,17 +3,17 @@ title: Structure de flux TNEF
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8eda1251-3858-4832-ac43-d817b4a7ea59
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7e77c043e4f152740af9bdb2b8fb5b7bedece1c0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f4898c6bfab4ee93c70455999f3e95e47be6bd23
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430202"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619623"
 ---
 # <a name="tnef-stream-structure"></a>Structure de flux TNEF
 

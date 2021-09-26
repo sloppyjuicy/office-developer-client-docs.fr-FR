@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251265
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47d84d7d-08a0-1934-d156-702da848e01c
 description: Définit la distance entre le bord gauche du bloc de texte et le texte qui y figure. La valeur par défaut est de 2,5 mm. Cette valeur est indépendante de l'échelle du dessin. Si le dessin est mis à l'échelle, la marge gauche ne change pas.
-ms.openlocfilehash: fee8eca8b5730e40518babe0c76549e10bebd902
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 57dcc1a0b99a8fc3d2a205555ccbee5520b1dac7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411336"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618678"
 ---
 # <a name="leftmargin-cell-text-block-format-section"></a>LeftMargin, cellule (section Text Block Format)
 

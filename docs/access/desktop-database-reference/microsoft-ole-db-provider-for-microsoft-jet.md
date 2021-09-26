@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249228(v=office.15)
 ms:contentKeyID: 48544660
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 9b4f1c46b390e1f059e57f3b7a70fc667da4b09b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 91852f8d08ae8ea7f71d079c625b9d17b7ddf427
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288924"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611930"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-jet"></a>Fournisseur Microsoft OLE DB pour Microsoft Jet
 
@@ -87,7 +87,7 @@ Le tableau suivant répertorie ces propriétés en indiquant entre parenthèses 
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Parameter</p></th>
+<th><p>Paramètre</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn180179(v=office.15)
 ms:contentKeyID: 52075128
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ca0257beededcec9f082cb58992a1152c661a0ed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 5f307c65ff370833e3a84bb38e08f3522a115615
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294889"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612259"
 ---
 # <a name="database-methods-dao"></a>Database Methods (DAO)
 

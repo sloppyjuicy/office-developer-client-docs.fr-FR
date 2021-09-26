@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198366(v=office.15)
 ms:contentKeyID: 48546682
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: f2c45aa1bd6f470b342ffec51f2affd39c7cb552
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 78f5cfcc9c4ff2d4f42312341fee889130e07d2c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314244"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611356"
 ---
 # <a name="tabledefvalidationtext-property-dao"></a>TableDef.ValidationText, propriété (DAO)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPSTX
 api_type:
 - COM
 ms.assetid: 73752f57-6fbc-0201-bf95-0e75c56c04e6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4c758ecd0134ca11ced6f771303896bd885a22c4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a2394b684751d2ff57d55e7c1fb2ac327545cb95
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436222"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620463"
 ---
 # <a name="ipstx--iunknown"></a>IPSTX : IUnknown
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm390
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 935760a9-307e-90bc-c301-d04283d97427
 description: Représente le numéro de la police utilisée pour mettre le texte en forme. Ce numéro dépend des polices installées sur votre système. 0 représente la police par défaut, généralement Arial.
-ms.openlocfilehash: d9182932b8fa63c30473b93e420aa9efe30bf5eb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2c85c979d2e08c44c9abd6797ca36252bc96199e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438665"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618930"
 ---
 # <a name="font-cell-character-section"></a>Font, cellule (section Character)
 

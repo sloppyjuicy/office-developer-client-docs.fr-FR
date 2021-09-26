@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249160(v=office.15)
 ms:contentKeyID: 48544318
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 95026d878270757c983e42164c92923570c898c6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 2d1cbc4e1c87e0c63ccbd397b74abd0ce1292cd4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314727"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611552"
 ---
 # <a name="saving-to-the-xml-dom-object"></a>Enregistrement dans un objet DOM XML
 

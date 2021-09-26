@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248815(v=office.15)
 ms:contentKeyID: 48543047
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4948cd9a5f1436e4e1afc61bef87b63675e115ff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 315a6a3f2dac22a3938c81d350dbd62078f1dade
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293328"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612203"
 ---
 # <a name="eventreasonenum"></a>EventReasonEnum
 
@@ -43,7 +43,7 @@ Spécifie la cause à l'origine d'un événement.
 </tr>
 <tr class="even">
 <td><p><strong>adRsnClose</strong></p></td>
-<td><p>9 </p></td>
+<td><p>9 </p></td>
 <td><p>Une opération a fermé l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -63,12 +63,12 @@ Spécifie la cause à l'origine d'un événement.
 </tr>
 <tr class="even">
 <td><p><strong>adRsnMoveFirst</strong></p></td>
-<td><p>12 </p></td>
+<td><p>12 </p></td>
 <td><p>Une opération a déplacé le pointeur vers le premier enregistrement à l'intérieur de l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMoveLast</strong></p></td>
-<td><p>15</p></td>
+<td><p>15 </p></td>
 <td><p>Une opération a déplacé le pointeur vers le dernier enregistrement dans l'objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -83,22 +83,22 @@ Spécifie la cause à l'origine d'un événement.
 </tr>
 <tr class="even">
 <td><p><strong>adRsnRequery</strong></p></td>
-<td><p>7 </p></td>
+<td><p>7 </p></td>
 <td><p>Une opération a de nouveau interrogé l’objet <a href="recordset-object-ado.md">Recordset</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnResynch</strong></p></td>
-<td><p>8 </p></td>
+<td><p>8 </p></td>
 <td><p>Une opération a resynchronisé l'objet <strong>Recordset</strong> avec la base de données.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnUndoAddNew</strong></p></td>
-<td><p>5 </p></td>
+<td><p>5</p></td>
 <td><p>Une opération a annulé l'ajout d'un nouvel enregistrement.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnUndoDelete</strong></p></td>
-<td><p>6 </p></td>
+<td><p>6 </p></td>
 <td><p>Une opération a annulé la suppression d'un enregistrement.</p></td>
 </tr>
 <tr class="even">

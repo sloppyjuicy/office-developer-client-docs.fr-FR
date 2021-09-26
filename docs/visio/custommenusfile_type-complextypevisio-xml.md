@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c129e2d5-1ba1-2248-6d5b-587c35dc0a0c
-ms.openlocfilehash: 070d20fea1a74059c6860fd6b52a0b1fabca7d0e
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: ea522160842c66c9db1d8dbef479353a41926ee8
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540517"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612987"
 ---
 # <a name="custommenusfile_type-complextype-visio-xml"></a>CustomMenusFile_Type complexType (Visio XML)
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251436
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b358c38-6ed1-3fbe-c1d1-1a56ebbaa870
 description: Ouvre un fichier d’aide HTML avec le mot clé spécifique dans la zone de recherche.
-ms.openlocfilehash: 639d10bf489d1ad09aef1522d3cbc743bbe66f6f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a4243a9ddbcfda7ef327efd108e1f9954c0fb7b1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431336"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618881"
 ---
 # <a name="help-function"></a>Fonction HELP
 

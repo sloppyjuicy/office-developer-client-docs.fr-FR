@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60099
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: Limite la valeur d’une cellule à une plage ou à un ensemble de plages.
-ms.openlocfilehash: 85fbe66d4e458ac4e42c9eb3c65b9a3a1d8211df
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0190ae3b3066ffc15232574c83719b732bedc2a7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425959"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613113"
 ---
 # <a name="bound-function"></a>Fonction BOUND
 

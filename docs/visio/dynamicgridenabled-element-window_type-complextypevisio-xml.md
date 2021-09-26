@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ac14d132-bc91-194b-4a0b-8a4b72acdbfd
 description: Spécifie si la fonctionnalité de grille dynamique est activée pour une fenêtre.
-ms.openlocfilehash: d239b5604d384e14711d26b12cc8bd381a3778a8
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 21eda99c234634c279921aa82f8979de9ffd3645
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539962"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612868"
 ---
 # <a name="dynamicgridenabled-element-window_type-complextype-visio-xml"></a>Élément DynamicGridEnabled (Window_Type complexType) (Visio XML)
 

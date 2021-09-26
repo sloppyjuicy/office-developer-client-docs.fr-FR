@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0a80959f-941f-451c-9049-dc661ff4930f
 description: Détermine la couleur de thème que l’ombre d’une forme utilise, sous la forme d’un nombre integer de 0 à 7.
-ms.openlocfilehash: b623eee89d214bade2706b12fcb344eccd8814b8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5578a8da853020234338119f147dfc610610f7f2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414955"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618615"
 ---
 # <a name="quickstyleshadowcolor-cell-quick-style-section"></a>QuickStyleShadowColor Cell (Quick Style Section)
 
@@ -26,9 +26,9 @@ Détermine la couleur de thème que l’ombre d’une forme utilise, sous la for
 |2  <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 1.  <br/> |
 |3  <br/> |La couleur de l’ombre de la forme hérite de la couleur de thème Accent 2.  <br/> |
 |4   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 3.  <br/> |
-|5   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 4.  <br/> |
-|6   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 5.  <br/> |
-|7   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 6.  <br/> |
+|5  <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 4.  <br/> |
+|6   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 5.  <br/> |
+|7   <br/> |La couleur d’ombre de forme hérite de la couleur de thème Accent 6.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

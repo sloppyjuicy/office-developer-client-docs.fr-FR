@@ -4,14 +4,14 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 234bbe07-004e-0604-144c-376d7b06994b
-ms.openlocfilehash: 70ca3c5717ef6f85899a9be2ab4299dcefbd8fa0
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 487bef55cc71131c29de57b94f63f570134bebc5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542421"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619021"
 ---
 # <a name="facenames_type-complextype-visio-xml"></a>FaceNames_Type complexType (Visio XML)
 
@@ -46,7 +46,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[FaceName](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> ||
    

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822714(v=office.15)
 ms:contentKeyID: 48547408
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ff9f6841b50b70f8846c829f0ee7b911c84c0e04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0961a55176e002b0d9d5c8b57c9f222024b52cfe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314902"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611447"
 ---
 # <a name="tabledef-members-dao"></a>TableDef, membres (DAO)
 
@@ -82,7 +82,7 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 <td><p>Renvoie le nom d'une table de conflits contenant les enregistrements de base de données qui sont entrés en conflit lors de la synchronisation de deux réplicas (espaces de travail Microsoft Access uniquement). Valeur de type <strong>String</strong> en lecture seule.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-connect-property-dao.md">Connect</a></strong></p></td>
+<td><p><strong><a href="tabledef-connect-property-dao.md">Connecter</a></strong></p></td>
 <td><p>Définit ou renvoie une valeur qui donne des informations sur une table liée. Type de données <strong>String</strong> en lecture/écriture.</p></td>
 </tr>
 <tr class="even">
@@ -94,7 +94,7 @@ Un objet TableDef représente la définition stockée d'une table de base ou d'u
 <td><p>Renvoie une collection <strong>Fields</strong> qui représente tous les objets <strong>Field</strong> stockés pour l'objet spécifié. En lecture seule.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-indexes-property-dao.md">Index</a></strong></p></td>
+<td><p><strong><a href="tabledef-indexes-property-dao.md">Indexes</a></strong></p></td>
 <td><p>Renvoie une collection <strong>Indexes</strong> qui contient tous les objets <strong>Index</strong> stockés pour la table spécifiée. En lecture seule.</p></td>
 </tr>
 <tr class="odd">

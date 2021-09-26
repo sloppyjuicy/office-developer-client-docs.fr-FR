@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 646c1393cc798c1f827e6ceaebf46bfe7c87bcbd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e028531d91e0c96f167b28dd6e69314a54d8bcab
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306831"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621884"
 ---
 # <a name="runcode-macro-action"></a>RunCode, action de macro
 

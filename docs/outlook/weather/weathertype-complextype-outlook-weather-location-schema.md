@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8054fd9-85ba-fcf6-c96d-a54095d5238c
 description: Définit les paramètres sur les conditions météorologiques d’un emplacement.
-ms.openlocfilehash: f7d33cb018daf4ece2ba468b9ebe92b0fc7b1545
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 2f5080102379ec250c33983a93a76be7a2a7b8df
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542918"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619273"
 ---
 # <a name="weathertype-complextype-outlook-weather-location-schema"></a>complexType weatherType (Outlook weather location schema)
 

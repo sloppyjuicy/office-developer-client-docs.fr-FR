@@ -3,15 +3,15 @@ title: Conditions préalables pour les exemples de code basés sur WCF
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 60d2afc8-10b6-465d-8ce8-c073da6e5054
 description: Découvrez des informations pour vous aider à créer des projets dans Visual Studio à l’aide des exemples de code WCF inclus dans les rubriques de référence psi (Project Server Interface).
-ms.openlocfilehash: 2222e1b3651044c41f45e57481f80093aac67bdb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e41b16f653776d57de4961f591782ef27bce5b9d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357155"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619245"
 ---
 # <a name="prerequisites-for-wcf-based-code-samples-in-project"></a>Conditions préalables pour les exemples de code basés sur WCF
 
@@ -52,7 +52,7 @@ Avant d’exécutez les exemples de code, vous devez configurer l’environnemen
     
        - Microsoft.Office.Project.Server.Library.dll
     
-    3. Pour plus d’informations sur la compilation et l’utilisation de l’assembly de proxy ProjectServerServices.dll pour les services WCF dans l’interface PSI, voir Utilisation d’un assembly de proxy PSI et [descriptions IntelliSense.](#pj15_PrerequisitesWCF_BuildingProxy)
+    3. Pour plus d’informations sur la compilation et l’utilisation de l’assembly proxy ProjectServerServices.dll pour les services WCF dans l’interface PSI, voir Utilisation d’un assembly de proxy PSI et [descriptions IntelliSense données.](#pj15_PrerequisitesWCF_BuildingProxy)
     
 3. **Installez les IntelliSense fichiers.**
     
@@ -99,7 +99,7 @@ Avant d’exécutez les exemples de code, vous devez configurer l’environnemen
     
     - Ajoutez une référence de service à l’aide Visual Studio. Voir [Ajout d’une référence de service.](#pj15_PrerequisitesWCF_AddingServiceReference)
     
-### <a name="using-a-psi-proxy-assembly-and-intellisense-descriptions"></a>Utilisation d’un assembly de proxy PSI et de descriptions IntelliSense données
+### <a name="using-a-psi-proxy-assembly-and-intellisense-descriptions"></a>Utilisation d’un assembly de proxy PSI et IntelliSense descriptions
 <a name="pj15_PrerequisitesWCF_BuildingProxy"> </a>
 
 Vous pouvez utiliser un assembly proxy pour tous les services WCF publics dans l’interface PSI. Compilez lProjectServerServices.dll assembly de proxy à l’aide du script dans le téléchargement du `Documentation\IntelliSense\WCF\CompileWCFProxyAssembly.cmd` SDK Project 2013, puis copiez l’assembly proxy sur votre ordinateur de développement. Copiez ProjectServerServices.xml fichier de IntelliSense au même emplacement. Dans Visual Studio, définissez une référence à l’assembly ProjectServerServices.dll proxy. 
@@ -111,7 +111,7 @@ Pour les Service Packs et les mises à jour Project Server, vous pouvez mettre �
 > 
 > Les scripts du dossier  `Documentation\IntelliSense\ASMX` ne fonctionnent pas pour les applications WCF. Le script GenASMXProxyAssembly.cmd appelle Wsdl.exe, qui génère des fichiers de code source pour les services ASMX. Les fichiers proxy ASMX incluent différentes classes et propriétés. Par exemple, le service web ressource basé sur ASMX inclut la classe **Resource,** tandis que le service de ressources WCF inclut l’interface **Resource,** l’interface **ResourceChannel** et la classe **ResourceClient.** 
   
-Les espaces de noms arbitraires créés pour les services web ASMX et les services WCF sont identiques, de sorte que le fichier ProjectServerServices.xml pour IntelliSense fonctionne avec l’un ou l’autre assembly. Par exemple, l’espace de noms du service ressource dans l’assembly de proxy WCF et dans l’assembly de proxy ASMX est **SvcResource**. Vous pouvez bien entendu modifier les noms des espaces de noms si vous vous assurez qu’ils correspondent dans l’assembly proxy et dans le fichier ProjectServerServices.xml IntelliSense.
+Les espaces de noms arbitraires créés pour les services web ASMX et les services WCF sont identiques, de sorte que le fichier ProjectServerServices.xml pour IntelliSense fonctionne avec les deux assemblys. Par exemple, l’espace de noms du service ressource dans l’assembly de proxy WCF et dans l’assembly de proxy ASMX est **SvcResource**. Vous pouvez bien entendu modifier les noms des espaces de noms si vous vous assurez qu’ils correspondent dans l’assembly proxy et dans le fichier ProjectServerServices.xml IntelliSense.
   
 Si un exemple de code utilise un nom différent pour un espace de noms de service PSI, par exemple **ProjectWebSvc**, pour que IntelliSense fonctionne, vous devez modifier l’exemple pour utiliser **SvcProject** afin que l’espace de noms corresponde à l’assembly de proxy. 
   
@@ -125,9 +125,9 @@ Les avantages de l’utilisation de l’assembly de proxy WCF sont les suivants 
     
 **Figure 2. Utilisation IntelliSense pour une méthode dans le service de ressources**
 
-![Utilisation d’Intellisense pour la méthode ReadResource à l’aide](media/pj15_PrerequisitesWCF_Intellisense.gif "d’Intellisense pour la méthode ReadResource")
+![Utilisation d’IntelliSense pour la méthode ReadResource](media/pj15_PrerequisitesWCF_Intellisense.gif "Utilisation d’IntelliSense pour la méthode ReadResource")
   
-Les inconvénients de l’utilisation de l’assembly de proxy sont que la solution est plus grande et que vous devez distribuer et installer l’assembly de proxy avec la solution. Vous devez également utiliser les mêmes espaces de noms que dans l’assembly de proxy et les fichiers IntelliSense, sauf si vous modifiez le script pour créer un assembly de proxy et modifier le fichier ProjectServerServices.xml IntelliSense afin d’utiliser différents espaces de noms.
+Les inconvénients de l’utilisation de l’assembly de proxy sont que la solution est plus grande et que vous devez distribuer et installer l’assembly de proxy avec la solution. Vous devez également utiliser les mêmes espaces de noms que dans l’assembly de proxy et les fichiers IntelliSense, sauf si vous modifiez le script pour créer un assembly de proxy et modifier le fichier ProjectServerServices.xml IntelliSense pour utiliser différents espaces de noms.
   
 ### <a name="adding-a-psi-proxy-file"></a>Ajout d’un fichier proxy PSI
 <a name="pj15_PrerequisitesWCF_AddingProxyFile"> </a>
@@ -211,7 +211,7 @@ Les étapes suivantes montrent comment définir une référence de service à l�
     
     **Figure 3. Ajout de la référence du service de ressources basé sur WCF**
 
-    ![Ajout de la référence de service de]ressources WCF Ajout de la référence de service de ressources basée sur(media/pj15_PrerequisitesWCF_AddSvcReference.gif "WCF")
+    ![Ajout de la référence de service de ressources WCF](media/pj15_PrerequisitesWCF_AddSvcReference.gif "Ajout de la référence de service de ressources WCF")
   
 5. Remplacez le fichier web.config temporaire dans l’annuaire Project Service par l’original (renommé web.config), puis réexécutez `iisreset` .
     
@@ -326,13 +326,13 @@ Vous pouvez modifier un fichier app.config à l’aide de l’Éditeur de config
   
 **Figure 4. Utilisation de l’éditeur de configuration de service WCF**
 
-![Utilisation de l’éditeur de configuration]de service WCF(media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "à l’aide de l’éditeur de configuration de service WCF")
+![Utilisation de l’Éditeur de configuration de service WCF](media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "Utilisation de l’Éditeur de configuration de service WCF")
   
 Si la solution utilise un fichier proxy de service, tel que wcfResource.cs, compilez l’application, puis ouvrez le fichier exécutable dans  `bin\debug` le répertoire. Pour plus d’informations sur la modification du fichier app.config, voir [Walkthrough: Developing PSI applications using WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
 **Figure 5. Utilisation de l’explorateur de types de contrat dans l’éditeur de configuration du service WCF**
 
-![Utilisation de l’explorateur de types de contrat]à(media/pj15_PrerequisitesWCF_ContractTypeBrowser.gif "l’aide de l’explorateur de types de contrat")
+![Utilisation de l’explorateur de types de contrat](media/pj15_PrerequisitesWCF_ContractTypeBrowser.gif "Utilisation de l’explorateur de types de contrat")
   
 ## <a name="using-multiple-authentication"></a>Utilisation de l’authentification multiple
 <a name="pj15_PrerequisitesWCF_ClaimsMultiAuth"> </a>
@@ -448,7 +448,7 @@ Voici quelques-uns des liens sur la page Serveur Paramètres à utiliser pour le
     
 - **Classifications des lignes**
     
-Les paramètres supplémentaires sont gérés par SharePoint Server 2013 pour chaque instance Project Web App, plutôt que par une page Project Web App Server Paramètres spécifique. In the SharePoint Central Administration application, choose **General Application Paramètres,** choose **Manage** under Project **Server Paramètres**, and then choose the Project Web App instance in the drop-down list on the Server Paramètres page. Par exemple, sélectionnez **Les handlers** d’événements côté serveur pour ajouter ou supprimer des handlers d’événements pour l’instance Project Web App sélectionnée. 
+Les paramètres supplémentaires sont gérés par SharePoint Server 2013 pour chaque instance Project Web App, plutôt que par une page Project Web App Server Paramètres spécifique. Dans l’application Administration centrale de SharePoint, sélectionnez  Application générale **Paramètres,** gérer sous **Project Server Paramètres,** puis choisissez l’instance de Project Web App dans la liste de listes listes dans la liste Paramètres page. Par exemple, sélectionnez **Les handlers** d’événements côté serveur pour ajouter ou supprimer des handlers d’événements pour l’instance Project Web App sélectionnée. 
   
 ## <a name="see-also"></a>Voir aussi
 

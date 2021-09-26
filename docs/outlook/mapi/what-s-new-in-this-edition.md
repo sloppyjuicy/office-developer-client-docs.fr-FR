@@ -3,17 +3,17 @@ title: Nouveautés de cette édition
 manager: soliver
 ms.date: 2/09/2020
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
 description: 'Last modified: February 09, 2020'
-ms.openlocfilehash: 3a3d38d83311b63686a2379c3321194e538ff840
-ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
+ms.openlocfilehash: a35e9ce774c0228014faa902e6768547a8b4fd92
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52061327"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619462"
 ---
 # <a name="whats-new-in-this-edition"></a>Nouveautés de cette édition
 

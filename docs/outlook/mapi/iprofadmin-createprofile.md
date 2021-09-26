@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IProfAdmin.CreateProfile
 api_type:
 - COM
 ms.assetid: 10cda14a-8f93-41e0-b1fb-500098bdc392
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b104c62eb617e6c68f85dea4ef6379c831733844
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 06fe432cbf1c1a577d612b1212123f9db206ad29
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404399"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620568"
 ---
 # <a name="iprofadmincreateprofile"></a>IProfAdmin::CreateProfile
 
@@ -36,7 +36,7 @@ HRESULT CreateProfile(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpszProfileName_
   

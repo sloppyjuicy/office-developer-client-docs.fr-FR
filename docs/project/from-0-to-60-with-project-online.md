@@ -3,15 +3,15 @@ title: De 0 à 60 avec Project Online
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: 'Un développeur d’applications peut personnaliser un site Project Online (hébergé SharePoint) à l’aide d’applications autonomes et/ou de Project de sites. Un grand nombre d’applications sont possibles, qu’il s’agit de répondre aux besoins de ceux impliqués dans un projet ou de fonctions de prise en charge PMO, telles que l’une des suivantes :'
-ms.openlocfilehash: 00f79b05b886bfd2c54c118245e22f10bb5451bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3ea7c451022c3c7b55d1ce788b002df6bb8bb591
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344407"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619238"
 ---
 # <a name="from-0-to-60-with-project-online"></a>De 0 à 60 avec Project Online
 
@@ -67,7 +67,7 @@ La documentation de référence décrit le modèle objet commun aux trois interf
 
 Un add-in hébergé est un module qui réside sur le serveur et qui est téléchargé dans un navigateur pour exécution. Les add-ins hébergés peuvent utiliser les interfaces JSOM ou REST et sont écrits en JavaScript. Project Online fournit des références à la bibliothèque JSOM pour l’exécution. En supposant que le développement se trouve sur une plateforme Windows, les ressources nécessaires suivent :
   
-- Visual Studio 2015 (de préférence) ou Visual Studio 2013
+- Visual Studio 2015 (de préférence) ou Visual Studio 2013
     
 - Office de développement pour Visual Studio
     
@@ -95,7 +95,7 @@ Les applications hébergées par un fournisseur sont des applications écrites e
   
 Un exemple de l’environnement Windows de développement pour ce type d’application comprend les éléments suivants :
   
--  Visual Studio 2015 (de préférence) ou Visual Studio 2013 
+-  Visual Studio 2015 (de préférence) ou Visual Studio 2013 
     
 - Microsoft Office Outils de développement Visual Studio (fournis avec Visual Studio 2015 Professional et Enterprise éditions)
     
@@ -127,7 +127,7 @@ Une application autonome peut appeler Project Online à l’aide du modèle obje
   
 Un exemple de l’environnement Windows de développement pour ce type d’application comprend les éléments suivants :
   
-- Visual Studio 2015 (de préférence) ou Visual Studio 2013 
+- Visual Studio 2015 (de préférence) ou Visual Studio 2013 
     
 - Microsoft Office Outils de développement Visual Studio (fournis avec Visual Studio 2015 Professional et Enterprise éditions)
     

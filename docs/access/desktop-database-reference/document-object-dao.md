@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822082(v=office.15)
 ms:contentKeyID: 48547247
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 0f82ace31a991a6700417d4c0d66bf775fcb7b26
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: e7e4592d589c5039ff834106614d9ea45a26f3c2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293776"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618188"
 ---
 # <a name="document-object-dao"></a>Document, objet (DAO)
 
@@ -33,7 +33,7 @@ Chaque objet **Container** comporte une collection **Documents** qui contient de
 <thead>
 <tr class="header">
 <th><p>Document</p></th>
-<th><p>Container</p></th>
+<th><p>Conteneur</p></th>
 <th><p>Contient des informations sur</p></th>
 </tr>
 </thead>

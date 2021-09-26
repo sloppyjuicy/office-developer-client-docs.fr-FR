@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMSProvider.Logon
 api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 9c7f62c69c7a06f7ca0e4bfddcf789cddc536ea6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1cc5d841e28275ad4ccdcaa6f7a41ff1f7bd4b4e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309666"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620659"
 ---
 # <a name="imsproviderlogon"></a>IMSProvider::Logon
 
@@ -44,7 +44,7 @@ HRESULT Logon(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpMAPISup_
   

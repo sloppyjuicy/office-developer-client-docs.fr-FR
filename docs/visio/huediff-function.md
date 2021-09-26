@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52f9a53c-1292-4f8a-2a76-82bca650f5ac
 description: Renvoie la différence de teinte entre color1 et color2.
-ms.openlocfilehash: b427be9f6d46f11aaa18b33dab21b10c05e9dda0
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: be826dff0600c73e8205e53f5fcb7e7b7817dbdc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33416663"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612665"
 ---
 # <a name="huediff-function"></a>Fonction HUEDIFF
 

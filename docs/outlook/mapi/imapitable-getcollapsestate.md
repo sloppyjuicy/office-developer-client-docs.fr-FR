@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPITable.GetCollapseState
 api_type:
 - COM
 ms.assetid: fd4ea496-4c83-49cd-854e-f373cc1ed2af
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 97575a65cd6825e07d6f11c813beec539f99f53a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 64a63e860f423b7de56bce277f778576c2ed44c1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436075"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620834"
 ---
 # <a name="imapitablegetcollapsestate"></a>IMAPITable::GetCollapseState
 
@@ -37,7 +37,7 @@ LPBYTE FAR * lppbCollapseState
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulFlags_
   

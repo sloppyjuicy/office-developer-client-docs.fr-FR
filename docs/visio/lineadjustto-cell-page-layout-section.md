@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm525
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81cd9670-8a6f-824b-528c-e9b88c86f525
 description: Indique les connecteurs dynamiques qui se superposent.
-ms.openlocfilehash: e4fb32c0fcb488173324ea597edc2c9d13f6bfca
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5f0d12107f760d9e442ab733fa8a03bb4bda6f55
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414024"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618657"
 ---
 # <a name="lineadjustto-cell-page-layout-section"></a>LineAdjustTo, cellule (section Page Layout)
 

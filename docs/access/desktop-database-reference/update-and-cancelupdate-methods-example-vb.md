@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249614(v=office.15)
 ms:contentKeyID: 48546223
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3a37dc4ec91d100d6eb5d0ca7dced02e8bda7e45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c639b67ba6295ec97c35ce07cd9da75942548df5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308364"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611337"
 ---
 # <a name="update-and-cancelupdate-methods-example-vb"></a>Update et CancelUpdate, méthodes – Exemple (VB)
 

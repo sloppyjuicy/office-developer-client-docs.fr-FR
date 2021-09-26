@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248952(v=office.15)
 ms:contentKeyID: 48543535
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 32333ab98f717e48b3411ff48b4a1f88cb107812
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7e514e66d302a88c68fc49261cb44eacc202741a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314517"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611454"
 ---
 # <a name="stayinsync-property-example-vb"></a>StayInSync, propriété – Exemple (VB)
 

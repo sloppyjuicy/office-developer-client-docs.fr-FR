@@ -10,13 +10,13 @@ api_type:
 - COM
 ms.assetid: 2f6df879-7546-4ac0-a4e3-6b009aee9463
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-localization_priority: Priority
-ms.openlocfilehash: e116021a3dc24de7decbe0dad76cc762cd66d032
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 998d279258294657624d2ee9673947bd96bf8569
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304122"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621450"
 ---
 # <a name="excel-xll-sdk-api-function-reference"></a>Référence des fonctions XLL SDK API Excel 2013
 

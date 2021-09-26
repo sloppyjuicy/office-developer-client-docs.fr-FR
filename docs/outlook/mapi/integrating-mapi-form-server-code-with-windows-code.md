@@ -3,17 +3,17 @@ title: Intégration du code de serveur de formulaire MAPI à Windows code
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 47ec3e97-ad2b-43ea-842a-b2a0675eef48
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 33b205c0ac5caf5fc049a0732cd219aa2c321326
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 53213ca6fb5bd22f4d952c317869e707c7034736
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332178"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620610"
 ---
 # <a name="integrating-mapi-form-server-code-with-windows-code"></a>Intégration du code de serveur de formulaire MAPI à Windows code
 

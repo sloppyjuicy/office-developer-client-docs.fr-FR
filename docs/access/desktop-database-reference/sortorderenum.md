@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249393(v=office.15)
 ms:contentKeyID: 48545327
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 3c953e1f6cd6f0a508260e838295f25aa1996844
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d198bd0da7b0cb09d68766c25625f64d0d85a22c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306460"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611475"
 ---
 # <a name="sortorderenum"></a>SortOrderEnum
 

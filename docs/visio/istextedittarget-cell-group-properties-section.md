@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251627
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: Détermine l'attribution de texte à un groupe.
-ms.openlocfilehash: 78a70dc0398745765bca12a1e768390b35fce8ce
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8f33be46a6d5da733c34f4e0d57e39495fb8e36a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432645"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612581"
 ---
 # <a name="istextedittarget-cell-group-properties-section"></a>IsTextEditTarget, cellule (section Group Properties)
 

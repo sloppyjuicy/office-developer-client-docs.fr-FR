@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm350
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f84afe83-8391-0c13-f442-ea8794b38642
 description: Cellule Event qui est évaluée lorsqu'une forme est insérée sur la page de dessin, soit comme instance, soit lorsqu'elle est dupliquée ou collée.
-ms.openlocfilehash: f1433394dbd58c7c4422c6bca1e79a4f2c8e0c4e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a2e65d4a62f9323580913c0d23eb4b15aa0835e9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408592"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619084"
 ---
 # <a name="eventdrop-cell-events-section"></a>EventDrop, cellule (section Events)
 

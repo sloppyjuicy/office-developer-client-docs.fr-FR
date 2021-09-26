@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251227
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04b0fa5b-1680-cfe2-6aaf-0502ad196027
 description: Verrouille un groupe afin d'empêcher sa dissociation.
-ms.openlocfilehash: 0cb2c0653780dcb653e5903faaaa0ebf30ea9d69
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: cdb251fb66e522d2b2200f324b63410d9e83be1c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404308"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612497"
 ---
 # <a name="lockgroup-cell-protection-section"></a>LockGroup, cellule (section Protection)
 

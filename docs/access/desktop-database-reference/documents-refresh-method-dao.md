@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192321(v=office.15)
 ms:contentKeyID: 48544100
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b1e0ecf94a2442d742475bdf00311bbfa1e222f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 005d1eb8be98a620cae1ee488faddfc9c3cb79cf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293671"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612231"
 ---
 # <a name="documentsrefresh-method-dao"></a>Documents.Refresh, méthode (DAO)
 

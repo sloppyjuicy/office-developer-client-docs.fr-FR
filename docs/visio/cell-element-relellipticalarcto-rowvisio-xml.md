@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
 description: Contient les coordonnées x ou y du point de terminaison d’un arc elliptique par rapport à la largeur et à la hauteur de la forme, les coordonnées x ou y des points de contrôle sur l’arc par rapport à la largeur et à la hauteur de la forme, l’angle entre l’axe des x et l’axe principal de l’ellipse, ou le rapport entre les axes principal et mineur de l’ellipse.
-ms.openlocfilehash: 84d7fe222cd46b54f38bc03e058103cc1d7a9620
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 6e71b5f3eb8201cfa6bfd7b9f529fab4d2558585
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539431"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613085"
 ---
 # <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Élément de cellule (ligne RelEllipticalArcTo) (Visio XML)
 
@@ -67,7 +67,7 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |**Valeur**|**Description**|**Plus d’informations**|
 |:-----|:-----|:-----|
 |X  <br/> |Coordonnée x du sommet de fin sur un arc par rapport à la largeur de la forme.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
-|v  <br/> |Coordonnée y du sommet de fin sur un arc par rapport à la hauteur de la forme.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
+|O  <br/> |Coordonnée y du sommet de fin sur un arc par rapport à la hauteur de la forme.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
 |A  <br/> |Coordonnée x du point de contrôle de l’arc par rapport à la largeur de la forme ; point sur l’arc.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
 |B  <br/> |Coordonnée y du point de contrôle d’un arc par rapport à la largeur de la forme.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
 |C  <br/> |Angle de l’axe principal d’un arc par rapport à l’axe X de son parent.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |

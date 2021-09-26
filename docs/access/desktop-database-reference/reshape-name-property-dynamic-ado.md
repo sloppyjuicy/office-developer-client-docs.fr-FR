@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249307(v=office.15)
 ms:contentKeyID: 48545030
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: b606960238e2f9a08d034ed92a79f7a767a1a5f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 35e4f2b3ac743339c1b53863bc737239b96c32a2
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306600"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621933"
 ---
 # <a name="reshape-name-dynamic-property-ado"></a>Reshape Name dynamic property (ADO)
 

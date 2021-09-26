@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251811
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6d1ed913-8329-3bb9-d275-9b76597781ee
 description: ''
-ms.openlocfilehash: 213436da43ef66bc85b0caf6bef20fb9972edc19
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ff9c52bc866be8cd9e19e7826b5a36d6ab8fe800
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439827"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612847"
 ---
 # <a name="edit-a-part-of-a-formula"></a>Modifier une partie de formule
 

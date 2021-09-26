@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b09b48d0-9008-4e43-9506-93a830ad9452
 description: Détermine la hauteur du biseau supérieur d’une forme en points.
-ms.openlocfilehash: 4da2fd1d61b530450f9020b12d5016015fd59dba
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bf24850c4e9707d98301b7ae10fead1d48a47e09
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421864"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613133"
 ---
 # <a name="beveltopheight-cell-bevel-properties-section"></a>BevelTopHeight Cell (Bevel Properties Section)
 

@@ -3,17 +3,17 @@ title: Écriture d’un client automatisé
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b8f9ac1a-b377-4f83-8fb6-ed85ab9053d0
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: f9ce3452bbc2d3297cc67168835a9387235746a8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: eaa7e53902aa2a862c8f1ff279b05892ad891001
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33439764"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619448"
 ---
 # <a name="writing-an-automated-client"></a>Écriture d’un client automatisé
 

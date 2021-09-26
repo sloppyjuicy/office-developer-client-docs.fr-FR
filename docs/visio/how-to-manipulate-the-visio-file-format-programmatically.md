@@ -1,18 +1,18 @@
 ---
 title: Manipuler le format de fichier Visio par programmation
 manager: lindalu
-ms.date: 04/17/2019
+ms.date: 09/17/2021
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Créez une solution dans Visual Studio 2012 pour lire le nouveau package de format de fichier dans Visio 2013, sélectionner des composants du package, modifier les données d’un composant et ajouter de nouveaux composants au package.
-localization_priority: Priority
-ms.openlocfilehash: 7103e094f58ee26ea2335d6cccd822dced1e1375
-ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
+ms.localizationpriority: high
+ms.openlocfilehash: 762522a972b7c51eb5daa98388cf26e736d12cde
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "48293512"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618825"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Manipuler le format de fichier Visio par programmation
 
@@ -28,14 +28,14 @@ Les versions précédentes de Visio enregistraient les fichiers dans un format d
 Dans cet article, nous expliquons comment utiliser le format de fichier Visio 2013 par programmation, à l’aide de Microsoft .NET Framework 4.5, C# ou Visual Basic et Visual Studio 2012. Vous découvrirez comment ouvrir un fichier Visio 2013, sélectionner des composants de document dans ce fichier, modifier des données dans les composants et créer un composant de document.
   
 > [!NOTE]
-> Les exemples de code présentés dans cet article supposent que vous disposiez d’une connaissance rudimentaire des classes dans les espaces de noms [System.Xml.Linq](https://docs.microsoft.com/dotnet/api/system.xml.linq?view=netframework-4.8) et [System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8). > Cet article repose également sur l’hypothèse selon laquelle vous comprenez les concepts et la terminologie des OPC (Open Packaging Conventions). Vous devez être familier avec les concepts de packages, les composants de document ou les composants de package et les relations. Pour plus d’informations, voir [OPC : une nouvelle norme pour les packages de données](https://docs.microsoft.com/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data). > Le code montre comment créer des requêtes LINQ (Language Integrated Query) pour sélectionner XML. La plupart des exemples de code utilisent la syntaxe de la requête pour créer des requêtes LINQ. Vous pouvez réécrire n’importe quelle requête LINQ fournie dans le code à l’aide de la syntaxe de la méthode LINQ, le cas échéant. Pour plus d’informations sur la syntaxe de la requête LINQ et la syntaxe de la méthode, voir [Comparaisons entre la syntaxe de la requête LINQ et la syntaxe de la méthode (C#)](https://docs.microsoft.com/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)> Le Tableau 1 indique les rubriques essentielles que vous devez connaître avant de parcourir cet article. 
+> Les exemples de code présentés dans cet article supposent que vous disposiez d’une connaissance rudimentaire des classes dans les espaces de noms [System.Xml.Linq](https://docs.microsoft.com/dotnet/api/system.xml.linq?view=netframework-4.8) et [System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8). > Cet article repose également sur l’hypothèse selon laquelle vous comprenez les concepts et la terminologie des OPC (Open Packaging Conventions). Vous devez être familier avec les concepts de packages, les composants de document ou les composants de package et les relations. Pour plus d’informations, voir [OPC : une nouvelle norme pour les packages de données](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data.md). > Le code montre comment créer des requêtes LINQ (Language Integrated Query) pour sélectionner XML. La plupart des exemples de code utilisent la syntaxe de la requête pour créer des requêtes LINQ. Vous pouvez réécrire n’importe quelle requête LINQ fournie dans le code à l’aide de la syntaxe de la méthode LINQ, le cas échéant. Pour plus d’informations sur la syntaxe de la requête LINQ et la syntaxe de la méthode, voir [Comparaisons entre la syntaxe de la requête LINQ et la syntaxe de la méthode (C#)](/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq.md)> Le Tableau 1 indique les rubriques essentielles que vous devez connaître avant de parcourir cet article. 
   
 **Tableau 1. Principes de base pour la manipulation du format de fichier Visio 2013**
 
 |**Titre d’article**|**Description**|
 |:-----|:-----|
 |[Présentation du format de fichier Visio (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |Cette vue d’ensemble de haut niveau décrit quelques-unes des principales fonctionnalités du format de fichier Visio 2013. Elle traite des OPC (Open Packaging Conventions) qui ont été appliqués au format de fichier Visio 2013. Elle répertorie également quelques différences entre le format de fichier Visio 2013 et le format de fichier de dessin Visio XML précédent (.vdx).  <br/> |
-|[OPC : une nouvelle norme pour les packages de données](https://docs.microsoft.com/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data) <br/> |Cet article de MSDN Magazine décrit les spécifications des normes Open Packaging Conventions sous forme de concept.  <br/> |
+|[OPC : une nouvelle norme pour les packages de données](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data.md) <br/> |Cet article de MSDN Magazine décrit les spécifications des normes Open Packaging Conventions sous forme de concept.  <br/> |
 |[Éléments fondamentaux des OPC (Open Packaging Conventions)](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Présentation des formats de fichier Office (2007) Open XML](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |Ces deux articles traitent de la manière dont les spécifications des normes Open Packaging Conventions ont été appliquées aux fichiers Microsoft Office. Ils contiennent des descriptions sur le fonctionnement des relations dans un package, et incluent également quelques exemples de code.  <br/> |
    
 ## <a name="create-a-vsdx-file-and-a-new-visual-studio-solution"></a>Créer un fichier .vsdx et une nouvelle solution Visual Studio
@@ -86,7 +86,7 @@ Les procédures suivantes utilisent une application console Windows pour manipul
     
 3. Dans le menu **Projet**, choisissez **Ajouter une référence**. 
     
-    Dans la boîte de dialogue **Gestionnaire de références**, sous **Montages**, choisissez **Framework**, puis ajoutez une référence aux composants **System.Xml ** et **WindowsBase**. 
+    Dans la boîte de dialogue **Gestionnaire de références**, sous **Montages**, choisissez **Framework**, puis ajoutez une référence aux composants **System.Xml** et **WindowsBase**. 
     
 4. Dans le fichier Program.cs ou Module1.vb du projet, ajoutez les directives **using** suivantes (instructions **imports** dans Visual Basic) : 
     
@@ -216,7 +216,7 @@ Utilisez le code suivant pour obtenir le chemin d’accès complet du fichier «
 ## <a name="select-and-read-package-parts-from-a-package"></a>Sélectionner et lire des composants d’un package
 <a name="vis15_ManipulateFF_SelectPart"> </a>
 
-Une fois que le fichier Visio 2013 est ouvert sous forme de package, vous pouvez accéder aux composants de documents qu’il contient à l’aide de la classe [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) incluse dans l’espace de noms **System.IO.Packaging**. Les objets **PackagePart** peuvent être instanciés individuellement ou comme un ensemble. La classe **Package** présente une méthode [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) et une méthode [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) pour extraire les objets **PackagePart** du ** Package**. La méthode **Package.GetParts** renvoie une instance de la classe [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx), avec laquelle vous pouvez interagir comme toute autre collection qui implémente l’interface [IEnumerator \<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2). 
+Une fois que le fichier Visio 2013 est ouvert sous forme de package, vous pouvez accéder aux composants de documents qu’il contient à l’aide de la classe [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) incluse dans l’espace de noms **System.IO.Packaging**. Les objets **PackagePart** peuvent être instanciés individuellement ou comme un ensemble. La classe **Package** présente une méthode [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) et une méthode [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) pour extraire les objets **PackagePart** du **Package**. La méthode **Package.GetParts** renvoie une instance de la classe [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx), avec laquelle vous pouvez interagir comme toute autre collection qui implémente l’interface [IEnumerator \<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2). 
   
 Utilisez le code de la procédure suivante pour obtenir un objet **PackagePartCollection** du **Package** sous forme de collection, effectuez une itération dans les objets **PackagePart** de la collection et écrivez l’URI et le type de contenu de chaque **PackagePart** dans la console. 
   
@@ -301,9 +301,9 @@ L’application console produit une sortie semblable à la suivante (un composan
   
  `Press any key to continue …`
   
-Bien souvent, vous devez sélectionner un objet **PackagePart** sans avoir à effectuer d’itération dans tous les composants. Vous pouvez obtenir un objet **PackagePart** à partir d’un **Package** à l’aide de sa relation avec un **Package** ou un autre **PackagePart**. Une relation dans le format de fichier Visio 2013 est une entité discrète qui décrit comment un composant de document est lié au package de fichiers ou comment deux composants de document sont liés entre eux. Par exemple, le package de fichiers Visio 2013 a lui-même une relation avec son composant de document Visio et le composant de document Visio a une relation avec le composant Windows. Ces relations sont représentées par des instances des classes [PackageRelationship](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationship?view=netframework-4.8) ou [PackageRelationshipCollection](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationshipcollection?view=netframework-4.8). 
+Bien souvent, vous devez sélectionner un objet **PackagePart** sans avoir à effectuer d’itération dans tous les composants. Vous pouvez obtenir un objet **PackagePart** à partir d’un **Package** à l’aide de sa relation avec un **Package** ou un autre **PackagePart**. Une relation dans le format de fichier Visio 2013 est une entité discrète qui décrit comment un composant de document est lié au package de fichiers ou comment deux composants de document sont liés entre eux. Par exemple, le package de fichiers Visio 2013 a lui-même une relation avec son composant de document Visio et le composant de document Visio a une relation avec le composant Windows. Ces relations sont représentées par des instances des classes [PackageRelationship](/dotnet/api/system.io.packaging.packagerelationship.md) ou [PackageRelationshipCollection](/dotnet/api/system.io.packaging.packagerelationshipcollection.md). 
 
-La classe **Package** présente plusieurs méthodes pour obtenir les relations qu’elle contient en tant qu’objet **PackageRelationship** ou **PackageRelationshipCollection**. Vous pouvez utiliser la méthode [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) pour instancier un objet **PackageRelationshipCollection** qui contient les objets **PackageRelationship** d’un type spécifique. Bien entendu, l’utilisation de la méthode **Package.GetRelationshipsByType** nécessite que vous connaissiez déjà le type de relation dont vous avez besoin. Les types de relations sont des chaînes au format d’espace de noms XML. Par exemple, le type de relation du composant de document Visio est http://schemas.microsoft.com/visio/2010/relationships/document. 
+La classe **Package** présente plusieurs méthodes pour obtenir les relations qu’elle contient en tant qu’objet **PackageRelationship** ou **PackageRelationshipCollection**. Vous pouvez utiliser la méthode [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) pour instancier un objet **PackageRelationshipCollection** qui contient les objets **PackageRelationship** d’un type spécifique. Bien entendu, l’utilisation de la méthode **Package.GetRelationshipsByType** nécessite que vous connaissiez déjà le type de relation dont vous avez besoin. Les types de relations sont des chaînes au format d’espace de noms XML. Par exemple, le type de relation du composant de document Visio est https://schemas.microsoft.com/visio/2010/relationships/document. 
   
 Une fois que vous connaissez la relation entre un **PackagePart** et un **Package** ou un autre **PackagePart** (autrement dit, lorsque vous avez un objet **PackageRelationship** qui fait référence au **PackagePart** de votre choix), vous pouvez utiliser cette relation pour obtenir l’URI de ce **PackagePart**. Vous devez ensuite transmettre l’URI à la méthode **Package.GetPart** pour renvoyer le **PackagePart**.
   
@@ -702,7 +702,6 @@ Utilisez la procédure suivante pour enregistrer le code XML à partir de la pag
 La forme Début/fin doit contenir le texte « Démarrer le processus ».
   
 ## <a name="recalculate-data-in-the-file"></a>Recalculer des données dans le fichier
-<a name="vis15_ManipulateFF_Recalculate"> </a>
 
 Certaines modifications apportées aux données dans un fichier peuvent exiger de Visio qu’il recalcule le document lors de l’ouverture du fichier. Visio propose un grand nombre de logiques pour un diagramme, en particulier pour les relations de la forme (c’est-à-dire, lorsqu’une forme dépend d’une autre) et la connexion des formes. Si des données sur lesquelles repose la logique personnalisée sont modifiées, Visio doit propager les modifications à toutes les données calculées concernées dans le fichier. 
   
@@ -1173,14 +1172,12 @@ Le fichier XML créé par la méthode `CreateCustomUI` se présente comme suit.
 ```
 
 ## <a name="acknowledgements"></a>Remerciements
-<a name="vis15_ManipulateFF_Ackn"> </a>
 
 Nous aimerions saluer la contribution et les apports de Visio MVP **Al Edlund** pour la création d’exemples de code contenus dans cet article technique. Al est un expert reconnu dans la manipulation du format de fichier Visio, y compris le format de dessin Visio XML (.vdx) et le nouveau format de fichier Visio (.vsdx). Al a créé des projets qui permettent d’explorer les formats de fichier Visio par programme et présente les structures à l’intérieur. 
   
 Pour plus d’informations sur son travail avec le format de fichier Visio, consultez les liens dans la section Ressources supplémentaires ci-dessous.
   
 ## <a name="see-also"></a>Voir aussi
-<a name="vis15_ManipulateFF_Additional"> </a>
 
 - Par Al Edlund :
     
@@ -1197,5 +1194,4 @@ Pour plus d’informations sur son travail avec le format de fichier Visio, cons
 - [Créer un document avec des espaces de noms (C#) (LINQ vers XML)](https://docs.microsoft.com/previous-versions/bb387075(v=vs.140))
     
 - [Ajouter des composants XML personnalisés à des documents sans démarrer Microsoft Office](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/bb608597(v=vs.90))
-    
-
+- 

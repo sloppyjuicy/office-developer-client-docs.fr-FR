@@ -3,17 +3,17 @@ title: Mise en œuvre d’une table One-Off fournisseur
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 023686702b76b5b29acf4304fcfdb3377e8cfcff
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 060f69c28484b8fe3a805af22ebe631c746425de
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33436292"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620785"
 ---
 # <a name="implementing-a-provider-one-off-table"></a>Mise en œuvre d’une table One-Off fournisseur
 

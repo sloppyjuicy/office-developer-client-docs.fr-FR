@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 4de869866e2aeb28032553be78bee7af16f60402
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 98a401552dfeda9a456a09a144cdd10246a0bc8a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307510"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611776"
 ---
 # <a name="recordset2absoluteposition-property-dao"></a>Recordset2.AbsolutePosition, propriété (DAO)
 

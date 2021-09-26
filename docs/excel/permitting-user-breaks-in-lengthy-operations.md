@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - xlabort function [excel 2007],concurrent tasks [Excel 2007],user breaks [Excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 650af14e4e97ebd2642a4442a87965f313d3b556
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: fdaa4fa7212dddf330b1b6159f9eceefc88b2090
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414689"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611300"
 ---
 # <a name="permitting-user-breaks-in-lengthy-operations"></a>Autorisation des interruptions utilisateur dans les opérations longues
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Même si Windows utilise le multitâche préemptif, où l’exécution de vos fonctions ou commandes peut prendre beaucoup de temps, il est bon de donner un peu de temps au système d’exploitation de temps en temps pour l’aider à planifier des tâches simultanées. À l’aide Windows appels natifs, vous pouvez le faire à l’aide de la fonction de veille. À l’aide de l’API C, vous pouvez le faire à l’aide de la fonction [xlAbort](xlabort.md), qui produit non seulement le processeur pendant un instant, mais vérifie également si l’utilisateur a appuy sur la touche d’annulation, **ÉCHAP**.
   

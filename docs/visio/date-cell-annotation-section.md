@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60036
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f1f11803-614b-a40d-0a2d-131093e7609e
 description: Contient la date et l'heure du dernier commentaire modifié.
-ms.openlocfilehash: 60fd726db1056075f96519050cffa67c76977126
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e899fe5b74f45a41a38f48710d5da297a50d5915
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423880"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612882"
 ---
 # <a name="date-cell-annotation-section"></a>Date, cellule (section Annotation)
 

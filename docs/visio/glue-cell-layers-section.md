@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm415
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 75f2ea45-52ac-ddfa-14ea-402933ae2449
 description: Détermine si les formes du calque peuvent être collées.
-ms.openlocfilehash: 55886a7e96bd2c08966cb85f5edad6a7174e30cd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 64935dfd8964757f3b8590519fbb0c883200e178
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408515"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612777"
 ---
 # <a name="glue-cell-layers-section"></a>Glue, cellule (section Layers)
 

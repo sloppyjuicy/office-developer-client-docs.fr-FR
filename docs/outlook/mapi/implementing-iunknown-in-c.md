@@ -3,17 +3,17 @@ title: Implémentation d’IUnknown dans C
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 3c634defcad76755fc6604a23d2091bb21e15111
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 11c52770251528f58edd09b66fdf855c6669fdf4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346773"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620743"
 ---
 # <a name="implementing-iunknown-in-c"></a>Implémentation d’IUnknown dans C
 

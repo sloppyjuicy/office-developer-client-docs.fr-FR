@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251424
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52f5ef4d-07c6-ab36-bf74-b30b50eea221
 description: Renvoie le résultat de l’expression sous la forme d’une chaîne mise en forme selon la mise en forme.
-ms.openlocfilehash: 5eb2195c2bc52e9cc8e7aa8bc4068826a5cd14c5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bc5af650fdb4f5012963206f24a56d4bdd1c2592
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404651"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618944"
 ---
 # <a name="format-function"></a>Fonction FORMAT
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
 ms:contentKeyID: 48545417
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 488e37f53218a7dabfa6248ea1da7630f82818a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d7049161c4d9a0ecfdebd2e8130faed100513379
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291468"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618090"
 ---
 # <a name="indexnulls-property-example-vb"></a>IndexNulls, propriété – Exemple (VB)
 

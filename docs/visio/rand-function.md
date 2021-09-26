@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251485
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
 description: Renvoie un nombre à flottant aléatoire de 0,0 à 1,0. Elle renvoie un nombre différent chaque fois que la fonction est évaluée, qui est une fois par minute en fonction de l’horloge système.
-ms.openlocfilehash: bab2fd74aff85be85f886e3ac8fe7df113664ae5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5526be9479b5c3f6d889779aab61d393a50914c1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424524"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618608"
 ---
 # <a name="rand-function"></a>Fonction RAND
 

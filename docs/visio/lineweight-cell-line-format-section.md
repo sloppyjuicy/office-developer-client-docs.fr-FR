@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm585
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16b0e293-eeef-34b4-aeb0-4472815dd543
 description: Détermine l’épaisseur d’un trait. Pour définir l’épaisseur, entrez un nombre accompagné d’une unité de mesure valide.
-ms.openlocfilehash: 654a93f939226bedab2e40ab591dad0e3f872267
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c38e1b2736c409e3362586bc651a4815394511ce
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33412246"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618636"
 ---
 # <a name="lineweight-cell-line-format-section"></a>LineWeight, cellule (section Line Format)
 

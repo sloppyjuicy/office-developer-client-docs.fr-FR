@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052927
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 94453b5bd8f5a405c5ad5b7c8a175468df2adfa2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: a200c9ecab66b40ff6d9ac8fc474734702d5bdf9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307426"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611762"
 ---
 # <a name="recordset2cachesize-property-dao"></a>Recordset2.CacheSize, propriété (DAO)
 

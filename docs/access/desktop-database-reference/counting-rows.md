@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250312(v=office.15)
 ms:contentKeyID: 48548963
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 2388978185ac29149f7f15150ccfdbc559cc910f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 62f4b0ae95e7887b5a3fda134d5cafb9117e2009
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295414"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618377"
 ---
 # <a name="counting-rows"></a>Décompte des lignes
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248786(v=office.15)
 ms:contentKeyID: 48542942
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: ba27bfdf6cc1317b441e626c61784e2c50b589f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 7070fc6a7eeb9b2a41a15e2deaa24adb3bb7ba05
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288917"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611958"
 ---
 # <a name="microsoft-ole-db-provider-for-microsoft-indexing-service"></a>Fournisseur Microsoft OLE DB pour le service d’indexation Microsoft
 
@@ -96,7 +96,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Propriété</p></th>
+<th><p>Property</p></th>
 <th><p>Disponibilité</p></th>
 </tr>
 </thead>
@@ -174,7 +174,7 @@ Disponibilité des propriétés ADO standard d'un **Recordset** :
 <td><p>lecture/écriture</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">État</a></p></td>
+<td><p><a href="state-property-ado.md">State</a></p></td>
 <td><p>lecture seule</p></td>
 </tr>
 <tr class="even">
@@ -246,7 +246,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="open-method-ado-recordset.md">Open</a></p></td>
+<td><p><a href="open-method-ado-recordset.md">Ouvert</a></p></td>
 <td><p>Oui</p></td>
 </tr>
 <tr class="odd">
@@ -262,7 +262,7 @@ Disponibilité des méthodes ADO standard d'un **Recordset** :
 <td><p>Oui</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-method-ado.md">Mettre à jour</a></p></td>
+<td><p><a href="update-method-ado.md">Mise à jour</a></p></td>
 <td><p>Non</p></td>
 </tr>
 <tr class="odd">

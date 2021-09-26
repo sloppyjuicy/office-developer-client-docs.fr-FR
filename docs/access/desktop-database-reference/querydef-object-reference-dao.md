@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123782(v=office.15)
 ms:contentKeyID: 52071422
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: f785ef787bc1d7e80586d2fd2db2efc2a42657cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 9d616ed9d27bbd40166f9874db80d1adda4426bb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302841"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622017"
 ---
 # <a name="querydef-object-reference-dao"></a>QueryDef, référence d’objet (DAO)
 

@@ -3,15 +3,15 @@ title: Télécharger État de la hiérarchie
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f789f4d7bbaf585d0d80f2208c35313542dfc191
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f765d62565e24437b477c46fe115c6b5427939cf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415424"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619553"
 ---
 # <a name="upload-hierarchy-state"></a>Télécharger État de la hiérarchie
 

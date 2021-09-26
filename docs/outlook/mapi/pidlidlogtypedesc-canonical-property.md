@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidLogTypeDesc
 api_type:
 - COM
 ms.assetid: 39ccc69a-0226-4dd7-9068-53b496b50e0f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fec0e397cb2cdb49b5805f072f943908cffea7a4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2201707cc658964b13922532a46f443ae0c24abf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359800"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620393"
 ---
 # <a name="pidlidlogtypedesc-canonical-property"></a>Propriété canonique PidLidLogTypeDesc
 

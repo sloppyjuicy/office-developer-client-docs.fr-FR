@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgStore.CompareEntryIDs
 api_type:
 - COM
 ms.assetid: 33d70748-0d3f-4be4-bcb5-7ec048887944
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2a2439bae79b497f018391983e2c4b03a35eee70
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 23982628a21a2eb5e3816e378977dc9bf35b1690
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424251"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620694"
 ---
 # <a name="imsgstorecompareentryids"></a>IMsgStore::CompareEntryIDs
 
@@ -38,7 +38,7 @@ HRESULT CompareEntryIDs(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _cbEntryID1_
   

@@ -3,17 +3,17 @@ title: Fournisseur de transport et modèle opérationnel du spooler MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5987111844f087801c63989b905992900ff6909c
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9613c46ee105d24317c6c902f8d5f122cf4689cb
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426624"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619595"
 ---
 # <a name="transport-provider-and-mapi-spooler-operational-model"></a>Fournisseur de transport et modèle opérationnel du spooler MAPI
 

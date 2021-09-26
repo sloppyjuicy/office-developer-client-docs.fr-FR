@@ -1,25 +1,23 @@
 ---
 title: Enveloppe de message
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 09/14/2021
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 613956da-c49b-4836-9fde-4601510e8b89
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ccd14244bf7ee76396dc239437ca19f080edb170
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+description: 'Last modified: September 09, 2021'
+ms.openlocfilehash: 787460bfbaebc6294f38dea4889cefec373c25a6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33427191"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620442"
 ---
 # <a name="message-envelope"></a>Enveloppe de message
 
-  
-  
-**S’applique à** : Outlook 2013 | Outlook 2016 
+**S’applique à** : Outlook 2013 | Outlook 2016
   
 Les en-têtes RFC 822 sont mappés aux propriétés MAPI comme suit. PR_SENDER_ est \* une abréviation des 5 propriétés suivantes :
   
@@ -63,6 +61,4 @@ L’en-tête X-MS-Attachment est formaté sous la forme de quatre jetons, sépar
 Le premier jeton est le nom de fichier, qui peut contenir des espaces incorporés, de sorte que cet en-tête doit être paré à partir de la droite sur les messages entrants. La taille est en octets ; la date est mise en  _forme mm-dd-yyyy et_ l’heure sous la forme  _hh:mm._
   
 > [!NOTE]
-> MessageID n’est pas mappé à **PR_SEARCH_KEY,** car le domaine SMTP a des exigences spécifiques sur le format de l’identificateur de message, ce qui rend impossible le code d’un identificateur de message MAPI arbitraire. Au lieu de cela, MessageID est mappé à **PR_TNEF_CORRELATION_KEY**. Cette propriété est une propriété définie par le transport qui est définie par le transport envoyant un message sortant et utilisée par un transport recevant un message entrant. Pour plus d’informations, [voir Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md). 
-  
-
+> MessageID n’est pas mappé à **PR_SEARCH_KEY,** car le domaine SMTP a des exigences spécifiques sur le format de l’identificateur de message, ce qui rend impossible le code d’un identificateur de message MAPI arbitraire. Au lieu de cela, MessageID est mappé à **PR_TNEF_CORRELATION_KEY**. Cette propriété est une propriété définie par le transport qui est définie par le transport envoyant un message sortant et utilisée par un transport recevant un message entrant. Pour plus d’informations, [voir Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md).

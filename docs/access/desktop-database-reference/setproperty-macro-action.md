@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm139044
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: c5972ad630efe3afe27565924c7c6a8a2230a9f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 15ad7954c7c6af3f500fad7075deb175905ae667
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314573"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621821"
 ---
 # <a name="setproperty-macro-action"></a>SetProperty, action de macro
 
@@ -45,7 +45,7 @@ L’action **DéfinirPropriété** utilise les arguments suivants :
 <td><p>Tapez le nom du champ ou du contrôle pour lequel vous souhaitez définir la valeur d’une propriété. Utilisez uniquement le nom du contrôle, et non la syntaxe complète. Laissez cet argument vide si vous souhaitez définir cette propriété pour le formulaire ou l’état actif.</p></td>
 </tr>
 <tr class="even">
-<td><p>Propriété</p></td>
+<td><p>Property</p></td>
 <td><p>Sélectionnez la propriété dont la valeur doit être définie. Consultez la section <strong>Remarques</strong> de cet article pour accéder à la liste des propriétés qui peuvent être définies via cette action.</p></td>
 </tr>
 <tr class="odd">

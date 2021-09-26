@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: 365835bc579a431d34b65cd27ed4de4e12bca309
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 61c666aaddbdb3da94be04048cc522605cab1a24
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294952"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612273"
 ---
 # <a name="databasecreaterelation-method-dao"></a>Database.CreateRelation method (DAO)
 
@@ -26,7 +26,7 @@ Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* CreateRelation(***Name***, ***Table***, ***ForeignTable***, ***Attributes***)
+*.* CreateRelation(***Name** _, _*_Table_*_, _*_ForeignTable_*_, _*_Attributes_**)
 
 *expression* Variable qui représente un objet **Database**.
 
@@ -55,7 +55,7 @@ Crée un nouvel objet **[Relation](relation-object-dao.md)** (Espaces de travail
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) qui identifie par un nom unique le nouvel objet <strong>Relation</strong>. Consultez la propriété <strong><a href="connection-name-property-dao.md">Name</a></strong> pour plus d’informations sur les noms d’objets <strong>Relation</strong> valides.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Tableau</em></p></td>
+<td><p><em>Table</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Variant</strong> (sous-type <strong>String</strong>) représentant le nom de la table primaire dans la relation. Si la table n’existe pas avant que vous ajoutiez l’objet <strong>Relation</strong>, une erreur d’exécution se produit.</p></td>

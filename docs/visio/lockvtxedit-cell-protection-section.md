@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251224
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 966cde5c-f04e-7149-3660-720ffa4f7079
 description: Verrouille les sommets d’une forme afin d’empêcher leur modification.
-ms.openlocfilehash: 1703769fe54171a14f7052f0f6686e1eb5ec92fc
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: ca90a85a327f9f51380957bcdd3fd5c3ff4a6d36
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417664"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612469"
 ---
 # <a name="lockvtxedit-cell-protection-section"></a>LockVtxEdit, cellule (section Protection)
 

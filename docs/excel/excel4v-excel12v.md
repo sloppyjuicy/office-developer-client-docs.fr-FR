@@ -9,19 +9,19 @@ f1_keywords:
 - Excel4v
 keywords:
 - fonction excel12v [excel 2007],fonction Excel4v [Excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 11ab86a95dde2ad52840822b28ce4d74dd05d148
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3969fb3d9e8323b6857ea11bfed5989232287fdf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414990"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621457"
 ---
 # <a name="excel4vexcel12v"></a>Excel4v/Excel12v
 
- **S’applique à** : Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
 Appelle une fonction de feuille de Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une commande ou une fonction spéciale XLL uniquement, à partir d’une DLL, XLL ou ressource de code.
   
@@ -36,7 +36,7 @@ int _cdecl Excel4v(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER rgx[]);
 int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[]);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _iFunction_ (**int**)
   

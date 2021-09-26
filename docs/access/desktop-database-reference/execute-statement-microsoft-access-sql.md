@@ -10,13 +10,13 @@ f1_keywords:
 - jetsql40.chm5277471
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: df70d2728732f33161622ce71fc9273bd9f016f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: fda44d6b78b089f144216eb224ff3d2812b528be
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293237"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612189"
 ---
 # <a name="execute-statement-microsoft-access-sql"></a>EXECUTE, instruction (Microsoft Access SQL)
 

@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm570
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db9a8232-25c5-7087-2ae9-50470d0cf16e
 description: Définit l'écart vertical entre tous les connecteurs de la page de dessin.
-ms.openlocfilehash: e98c3e05ffb1739f9b2739ce4e0ee8012afe2266
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 43161369775a46e2083454e581ba443f255f1dcd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33428472"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612511"
 ---
 # <a name="linetoliney-cell-page-layout-section"></a>LineToLineY, cellule (section Page Layout)
 

@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IProfAdmin
 api_type:
 - COM
 ms.assetid: 274899cc-2894-4d99-84ec-f18121e856a0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cbdfba68490b1e756f277c6e552235368a86f310
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a6387de14e7b4ee513168ddd65383c39481c8699
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33434115"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620575"
 ---
 # <a name="iprofadmin--iunknown"></a>IProfAdmin : IUnknown
 

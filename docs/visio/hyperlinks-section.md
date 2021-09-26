@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251381
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fdf442ea-2c86-8bd5-b95d-59ad0e4da719
 description: Contient des cellules pour créer plusieurs sauts entre une forme ou une page de dessin et une autre page de dessin, un autre fichier ou un site web.
-ms.openlocfilehash: 42979a6b0f1b3dff6e950959d33a803263d9b046
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 82c81f52131bdafb4f27b09692563415afd2315d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344799"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612651"
 ---
 # <a name="hyperlinks-section"></a>Hyperlinks Section
 

@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249051(v=office.15)
 ms:contentKeyID: 48543896
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 138364f58024f20d547a898ef4c0c00d4bd7893d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 64e7b6f1481b263b4002d25545a5ae36f3d42de6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308609"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621814"
 ---
 # <a name="sort-property-example-vj"></a>Sort, propriété – Exemple (VJ++)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorganiser les lignes d’un **Recordset** dérivé de la table ***Authors*** de la base de données ***Pubs***. Une routine utilitaire secondaire imprime chaque ligne.
+Cet exemple utilise la propriété [Sort](sort-property-ado.md) de l’objet [Recordset](recordset-object-ado.md) pour réorder les lignes d’un jeu **d’enregistrements** dérivé de la table Authors _ de la base de données ***_*_Pubs._** Une routine utilitaire secondaire imprime chaque ligne.
 
 ```java 
  

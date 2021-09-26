@@ -3,17 +3,17 @@ title: Écriture d’une visionneuse de hiérarchies
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4c939a8c-8148-4add-b181-5a12e6d32309
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5f6ebd20afc3b8d029fa7c632c55982862664055
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 462d3ca97dacd231c167fb4834008f4ff79f5c08
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421129"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619455"
 ---
 # <a name="writing-a-hierarchy-viewer"></a>Écriture d’une visionneuse de hiérarchies
 

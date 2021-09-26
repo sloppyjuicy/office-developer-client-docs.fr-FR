@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822737(v=office.15)
 ms:contentKeyID: 48547446
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: cf35138a4782e1f16d230ba120bf5482a9a8ce40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 785ba0608a2a62c7a95c14e134424f47e2013eb5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32292845"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612161"
 ---
 # <a name="field2createproperty-method-dao"></a>Field2.CreateProperty method (DAO)
 
@@ -22,7 +22,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)
+*.* CreateProperty(***Name** _, _*_Type_*_, _*_Value_*_, _*_DDL_**)
 
 *expression* une variable qui représente une **champ2** objet.
 
@@ -74,7 +74,7 @@ Crée un objet utilisateur **[Property](property-object-dao.md)** (espaces de tr
 
 ## <a name="return-value"></a>Valeur renvoyée
 
-Propriété
+Property
 
 ## <a name="remarks"></a>Remarques
 

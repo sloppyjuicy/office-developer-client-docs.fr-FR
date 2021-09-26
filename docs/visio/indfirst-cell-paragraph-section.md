@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251254
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f2e362a-3ace-787d-6326-b5bf707f0727
 description: Représente la distance entre la première ligne de chaque paragraphe du bloc de texte et le retrait gauche du paragraphe. Cette valeur est indépendante de l'échelle de dessin. Elle ne change pas si le dessin est mis à l'échelle.
-ms.openlocfilehash: aa6d9fd14a40f4fe6b269d9750f603d8faf1d550
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 16b3d13afa81958d1b428b417c28683441703fd9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410321"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612602"
 ---
 # <a name="indfirst-cell-paragraph-section"></a>IndFirst, cellule (section Paragraph)
 

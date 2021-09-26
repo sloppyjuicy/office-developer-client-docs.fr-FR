@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251824
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 43128ea2-c0d9-c45f-31e6-768a80ae59b2
 description: Vous pouvez utiliser des opérateurs dans des formules pour effectuer des opérations arithmétiques (addition, soustraction, multiplication, etc.) ou des comparaisons logiques (supérieur à, inférieur à, égal à, etc.). Vous pouvez également définir l’ordre d’évaluation dans une formule en plaçant les expressions entre parenthèses. Utilisez l’opérateur & pour combiner (concaténer) des chaînes de caractères.
-ms.openlocfilehash: 4f095df73f9bd1d6a876d975d262c9217c696fb9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 81829e04445652ce45b3b1ff92339b2090c2fcb9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33406128"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619175"
 ---
 # <a name="about-operators"></a>À propos des opérateurs
 
@@ -42,7 +42,7 @@ Les opérateurs arithmétiques réalisent des opérations sur des nombres. Les o
 | ^  <br/> | Exponentiation  <br/> | 5 ^ 2  <br/> | 25  <br/> |
 | \*  <br/> | Multiplication  <br/> | 5 \* 2  <br/> | 10  <br/> |
 | /  <br/> | Division  <br/> | 5/2  <br/> | 2,5  <br/> |
-| +  <br/> | Ajout  <br/> | 5 + 2  <br/> | 7   <br/> |
+| +  <br/> | Ajout  <br/> | 5 + 2  <br/> | 7   <br/> |
 | -  <br/> | Soustraction  <br/> | 5 - 2  <br/> | 3  <br/> |
    
 ## <a name="comparison-operators"></a>Opérateurs de comparaison
@@ -54,9 +54,9 @@ Les opérateurs de comparaison sont utilisés pour construire des expressions lo
 | \>  <br/> | _GT_  <br/> | Supérieur à  <br/> | 5 \> 2  <br/> | TRUE  <br/> |
 | \<  <br/> | _LT_  <br/> | Inférieur à  <br/> | 5 \< 2  <br/> | FALSE  <br/> |
 | \>=  <br/> | _GE_  <br/> | Supérieur ou égal à  <br/> | 5 \> = 2  <br/> | TRUE  <br/> |
-| \<=  <br/> | _LE_  <br/> | Inférieur ou égal à  <br/> | 5 \< = 2  <br/> | FALSE  <br/> |
+| \<=  <br/> | _LE_  <br/> | Inférieur ou égal à  <br/> | 5 \<= 2  <br/> | FALSE  <br/> |
 | =  <br/> | _EQ_  <br/> | Égal à  <br/> | 5 = 2  <br/> | FALSE  <br/> |
-| \<\>  <br/> | _NE_  <br/> | Différent de  <br/> | 5 \< \> 2  <br/> | TRUE  <br/> |
+| \<\>  <br/> | _NE_  <br/> | Différent de  <br/> | 5 \<\> 2  <br/> | TRUE  <br/> |
    
 Les opérateurs de comparaison symboliques ( et ainsi de suite) sont \> le meilleur choix pour la plupart des \< comparaisons. Les opérateurs alternatifs _(GT,_ _LT,_ etc.) effectuent une comparaison exacte avec les 15 chiffres complets de précision que Visio utilise pour stocker des valeurs en interne.
   
@@ -81,8 +81,8 @@ Lorsqu’une formule contient plusieurs expressions, elles sont évaluées dans 
 |Cinquième  <br/> |Concaténation de chaînes  <br/> |&amp;  <br/> |
 |Sixième  <br/> |Supérieur à  <br/> |\> ou GT  <br/> |
 ||Supérieur ou égal à  <br/> |\>= ou GE  <br/> |
-||Inférieur à  <br/> |\< ou LT  <br/> |
-||Inférieur ou égal à  <br/> |\<= ou LE  <br/> |
+||Inférieur à  <br/> |\< or LT  <br/> |
+||Inférieur ou égal à  <br/> |\<= or LE  <br/> |
 |Septième  <br/> |Égal  <br/> |= ou EQ  <br/> |
 ||Différent de  <br/> |\<\> ou NE  <br/> |
    

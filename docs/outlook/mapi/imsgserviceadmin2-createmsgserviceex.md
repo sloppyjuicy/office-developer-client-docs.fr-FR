@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMsgServiceAdmin2.CreateMsgServiceEx
 api_type:
 - COM
 ms.assetid: 4910dabd-9380-4fde-a440-5c64d74c0bba
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b7fe25491228f00f6865af963db36f27bae5d7a7
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 3317c3c1ed4eed28e12215aac7e64595be094d22
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33410181"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620701"
 ---
 # <a name="imsgserviceadmin2createmsgserviceex"></a>IMsgServiceAdmin2::CreateMsgServiceEx
 
@@ -37,7 +37,7 @@ HRESULT CreateMsgServiceEx(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpszService_
   

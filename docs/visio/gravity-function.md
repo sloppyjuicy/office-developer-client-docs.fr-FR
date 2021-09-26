@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251433
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db80f147-71a0-0b23-bc7e-fe1915dfdd21
 description: Calcule l’angle de rotation correct d’un bloc de texte pour la rotation de forme indiquée afin d’empêcher le texte de se retourner vers le bas.
-ms.openlocfilehash: 77c944d954292e231f8bacbe3c8a4433aad5d689
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f8a564160fae9fe85b531631215de536a8c28406
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429284"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612709"
 ---
 # <a name="gravity-function"></a>Fonction GRAVITY
 

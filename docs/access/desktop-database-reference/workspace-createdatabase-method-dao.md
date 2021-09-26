@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
 ms:contentKeyID: 48547514
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: e6d271676ef91d29dca78ba9ee4b6142e055b36d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: baa83184eff9c52a7401f8e17db3feadf061489a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32305865"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621520"
 ---
 # <a name="workspacecreatedatabase-method-dao"></a>Workspace.CreateDatabase method (DAO)
 
@@ -22,7 +22,7 @@ Crée un objet **[Database](database-object-dao.md)**, enregistre la base de don
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* CreateDatabase(***Name***, ***Connecter***, ***Option***)
+*.* CreateDatabase(***Name** _, _*_Connecter_*_, _*_Option_**)
 
 *expression* Variable qui représente un objet **Workspace**.
 

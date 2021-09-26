@@ -3,17 +3,17 @@ title: Utilisation de macros pour la gestion des erreurs
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 351405ca-b72b-4e9e-bc8e-947344588970
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9e6901d6583e7a7924a4a7c19c0a262bcef74bd3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 0d3c10a167c961dd2dfe8e31313f6b0f5d827abe
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435564"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619497"
 ---
 # <a name="using-macros-for-error-handling"></a>Utilisation de macros pour la gestion des erreurs
 

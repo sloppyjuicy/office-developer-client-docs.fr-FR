@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IProxyStoreObject.UnwrapNoRef
 api_type:
 - COM
 ms.assetid: 1122b6e0-e7e1-e68a-e090-435777343d04
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ef9f506c1a95fec86c7f092b0299198e6149d3ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: db3f247fda5be8f93210215fb83d51114a2165d4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320152"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620540"
 ---
 # <a name="iproxystoreobjectunwrapnoref"></a>IProxyStoreObject::UnwrapNoRef
 
@@ -31,7 +31,7 @@ Obtient un pointeur vers un objet de magasin IMAP (Internet Message Access Proto
 HRESULT IProxyStoreObject::UnwrapNoRef (     LPVOID *ppvObject ); 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ppvObject_
   

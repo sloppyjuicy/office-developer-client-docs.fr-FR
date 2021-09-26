@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagServiceInstallId
 api_type:
 - COM
 ms.assetid: 1dd14858-2ce6-4629-a2f1-82d23cd6576b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 159a25347cd64b44f42dbb5052425ebb67894a9b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b9693835e288d22659d71aee00d27d8478ad129e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33430370"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613225"
 ---
 # <a name="pidtagserviceinstallid-canonical-property"></a>Propriété canonique PidTagServiceInstallId
 

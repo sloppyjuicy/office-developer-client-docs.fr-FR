@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm550
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a14be0d-9e3c-23c4-7782-bda5470d1243
 description: Détermine la taille des déviations sur les connecteurs dynamiques verticaux de la page par rapport à la valeur de la cellule LineToLineY. La valeur de cette cellule est comprise entre 0 et 10 mais des valeurs fractionnelles de 0 à 1 sont proposées.
-ms.openlocfilehash: 36712c1558ff2f50309dc31e8f918061180c8fa4
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: b5faf545682f80cfcc1b6774144791b1083439cc
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33411959"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612525"
 ---
 # <a name="linejumpfactory-cell-page-layout-section"></a>LineJumpFactorY, cellule (section Page Layout)
 

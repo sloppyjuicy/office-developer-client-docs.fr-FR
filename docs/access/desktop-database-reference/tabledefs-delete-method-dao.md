@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845419(v=office.15)
 ms:contentKeyID: 48543358
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 63f543fd86e309372e0432c3e45513cd9d3942ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b7c4c2176f43a6ae586131ad44567208ff7c0ae5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32313992"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621716"
 ---
 # <a name="tabledefsdelete-method-dao"></a>TableDefs.Delete, méthode (DAO)
 
@@ -26,7 +26,7 @@ Supprime l'objet **TableDef** spécifié de la collection **TableDefs**.
 
 *expression* Variable qui représente un **objet TableDefs.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

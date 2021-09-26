@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidFExceptionalAttendees
 api_type:
 - COM
 ms.assetid: f1f489a3-e83a-4e96-bf9a-d98bc17d29f5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 544b5b5ac945eeedf787af0e311491da1f9d0217
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2922b4864d07e53f2a51ae6ac298f1509bc66e01
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327474"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620414"
 ---
 # <a name="pidlidfexceptionalattendees-canonical-property"></a>Propriété canonique PidLidFExceptionalAttendees
 

@@ -5,23 +5,21 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPISupport.StoreLogoffTransports
 api_type:
 - COM
 ms.assetid: f21fba96-c5ca-4d41-9b93-c7955ab7327f
-description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 30c91ec7a5a28b0c270da5223a2a245fb504d8c5
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7b5f3c6d791fc543e892289964fb7ffdab5357e1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421381"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620855"
 ---
 # <a name="imapisupportstorelogofftransports"></a>IMAPISupport::StoreLogoffTransports
-
-  
+ 
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
@@ -33,7 +31,7 @@ ULONG FAR * lpulFlags
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lpulFlags_
   
@@ -58,8 +56,8 @@ LOGOFF_PURGE
 LOGOFF_QUIET 
   
 > La logoff ne doit pas se produire si une activité de fournisseur de transport a lieu. Le type d’activité en cours est renvoyé sous forme d’indicateur sur la sortie.
-    
-    On output, MAPI spooler can return one or more of the following flags:
+
+Lors de la sortie, lepooler MAPI peut renvoyer un ou plusieurs des indicateurs suivants :
     
 LOGOFF_COMPLETE 
   

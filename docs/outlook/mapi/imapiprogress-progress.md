@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIProgress.Progress
 api_type:
 - COM
 ms.assetid: edbf7623-a64e-43b8-8379-e3cde2433d91
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3cf639286a504b9edb600214d13dbe50710e76a9
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 92da3cc185fec19fc8cb1e7e7089ba029cd95cb3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33435494"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620960"
 ---
 # <a name="imapiprogressprogress"></a>IMAPIProgress::Progress
 
@@ -35,7 +35,7 @@ HRESULT Progress(
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _ulValue_
   

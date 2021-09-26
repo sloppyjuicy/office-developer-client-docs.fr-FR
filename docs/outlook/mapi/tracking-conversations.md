@@ -7,13 +7,13 @@ api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
 description: 'Derniére modification : samedi 23 juillet 2011'
-localization_priority: Priority
-ms.openlocfilehash: 3a59a7a15b4647832634adc4757544876b8841b1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 299951304f01532cc9f87e36bd58070524e55331
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349545"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619602"
 ---
 # <a name="tracking-conversations"></a>Suivi de conversations
 

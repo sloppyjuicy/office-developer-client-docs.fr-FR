@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249382(v=office.15)
 ms:contentKeyID: 48545274
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4f9b393e90d579c131865b112263efd0aef3216b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4e9dc5b2f0c1501dd313a0f70c241d8dfa7fbe59
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314580"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621842"
 ---
 # <a name="setpermissions-method-adox"></a>SetPermissions, méthode (ADOX)
 

@@ -11,15 +11,15 @@ f1_keywords:
 - PSI programming
 keywords:
 - exemples de code, serveur de projet, serveur Project, programmation,PSI, compilation d’exemples de code,PSI, programmation
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df584b25-4460-46c8-89a8-3b2c94d20bba
 description: Découvrez des informations pour vous aider à créer des projets dans Visual Studio à l’aide des exemples de code ASMX inclus dans les rubriques de référence psi (Project Server Interface).
-ms.openlocfilehash: 26ad2e388b7e7f6f19e028b47c7f6d1a3fbd020c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c3a5787933bd7dfb3826422e276421844069a770
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357079"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619231"
 ---
 # <a name="prerequisites-for-asmx-based-code-samples-in-project"></a>Conditions préalables pour les exemples de code basés sur ASMX
 
@@ -57,7 +57,7 @@ Avant d’exécutez les exemples de code, vous devez configurer l’environnemen
       - Microsoft.Office.Project.Server.Events.Receivers.dll
       - Microsoft.Office.Project.Server.Library.dll
         
-   3. Pour plus d’informations sur la compilation et l’utilisation de l’assembly de proxy ProjectServerServices.dll pour les services web ASMX dans l’interface PSI, voir Utilisation d’un assembly de proxy PSI et des [descriptions IntelliSense données.](#pj15_PrerequisitesASMX_BuildingProxy)
+   3. Pour plus d’informations sur la compilation et l’utilisation de l’assembly de proxy ProjectServerServices.dll pour les services web ASMX dans l’interface PSI, voir Utilisation d’un assembly de proxy PSI et des [descriptions IntelliSense suivantes.](#pj15_PrerequisitesASMX_BuildingProxy)
     
 3. **Installez les IntelliSense fichiers.**
     
@@ -78,7 +78,7 @@ Avant d’exécutez les exemples de code, vous devez configurer l’environnemen
     
    **Figure 1. Ajout d’une référence dans Visual Studio**
 
-   ![Ajout d’une référence dans Visual Studio](media/pj15_PrerequisitesASMX_AddReference.gif "ajout d’une référence dans Visual Studio")
+   ![Ajout d’une référence dans Visual Studio](media/pj15_PrerequisitesASMX_AddReference.gif "Ajout d’une référence dans Visual Studio")
   
 3. **Copiez le code**.
     
@@ -104,7 +104,7 @@ Avant d’exécutez les exemples de code, vous devez configurer l’environnemen
 
 <a name="pj15_PrerequisitesASMX_BuildingProxy"> </a>
 
-### <a name="using-a-psi-proxy-assembly-and-intellisense-descriptions"></a>Utilisation d’un assembly de proxy PSI et de descriptions IntelliSense données
+### <a name="using-a-psi-proxy-assembly-and-intellisense-descriptions"></a>Utilisation d’un assembly de proxy PSI et IntelliSense descriptions
 
 Vous pouvez créer et utiliser l’assembly proxy ProjectServerServices.dll pour tous les services web ASMX dans l’interface PSI, à l’aide du script CompileASMXProxyAssembly.cmd dans le dossier du téléchargement du `Documentation\IntelliSense\WSDL` SDK Project 2013. Pour obtenir un lien vers le téléchargement, voir [Project 2013 pour les développeurs.](project-2013-developer-documentation.md)
   
@@ -166,15 +166,15 @@ WssInterop
 
 Les scripts créent un assembly nommé ProjectServerServices.dll. Évitez de le confondre avec ProjectServerServices.dll pour l’assembly WCF. Les noms d’assembly sont les mêmes, pour permettre l’utilisation de l’un ou l’autre assembly ProjectServerServices.xml IntelliSense fichier.
   
-L’espace de noms arbitraire créé par les scripts pour les services web ASMX et les services WCF est le même, de sorte que le fichier ProjectServerServices.xml IntelliSense fonctionne avec l’un ou l’autre assembly. Par exemple, l’espace de noms du service ressource dans l’assembly de proxy WCF et dans l’assembly de proxy ASMX est **SvcResource**. Vous pouvez bien entendu modifier les noms des espaces de noms si vous vous assurez qu’ils correspondent dans l’assembly proxy et dans le ProjectServerServices.xml IntelliSense de noms.
+L’espace de noms arbitraire créé par les scripts pour les services web ASMX et les services WCF est identique, de sorte que le fichier ProjectServerServices.xml IntelliSense fonctionne avec l’un ou l’autre assembly. Par exemple, l’espace de noms du service ressource dans l’assembly de proxy WCF et dans l’assembly de proxy ASMX est **SvcResource**. Vous pouvez bien entendu modifier les noms des espaces de noms si vous vous assurez qu’ils correspondent dans l’assembly proxy et dans le fichier ProjectServerServices.xml IntelliSense.
   
 Si un exemple de code utilise un nom différent pour un espace de noms de service web PSI, par exemple **ProjectWebSvc**, pour que IntelliSense fonctionne, vous devez modifier l’exemple pour utiliser **SvcProject** afin que l’espace de noms corresponde à l’assembly de proxy. 
   
-L’un des avantages de l’assembly de proxy ASMX est qu’il inclut tous les espaces de noms du service web PSI ; vous n’avez pas besoin de créer plusieurs références Web. Un autre avantage est que, si vous ajoutez le fichier ProjectServerServices.xml au même répertoire où vous définissez une référence à l’assembly proxy ProjectServerServices.dll, vous pouvez obtenir des descriptions IntelliSense pour les classes et les membres PSI. La figure 2 montre le IntelliSense texte de la **Project. Méthode QueueCreateProject.** Pour plus d’informations, voir le fichier [ReadMe_IntelliSense] dans le dossier IntelliSense du téléchargement du SDK Project 2013. 
+L’un des avantages de l’assembly de proxy ASMX est qu’il inclut tous les espaces de noms du service web PSI ; vous n’avez pas besoin de créer plusieurs références Web. Un autre avantage est que, si vous ajoutez le fichier ProjectServerServices.xml au même répertoire où vous définissez une référence à l’assembly de proxy ProjectServerServices.dll, vous pouvez obtenir des descriptions IntelliSense pour les classes psi et les membres. La figure 2 montre le IntelliSense texte de la **Project. Méthode QueueCreateProject.** Pour plus d’informations, voir le fichier [ReadMe_IntelliSense] dans le dossier IntelliSense du téléchargement du SDK Project 2013. 
   
 **Figure 2. Utilisation IntelliSense pour une méthode dans le service web Project web**
 
-![Utilisation d’Intellisense pour une méthode dans un service PSI]à l’aide d’Intellisense pour une méthode dans un service(media/pj15_PrerequisitesASMX_Intellisense.gif "PSI")
+![Utilisation d’IntelliSense pour une méthode dans un service PSI](media/pj15_PrerequisitesASMX_Intellisense.gif "Utilisation d’IntelliSense pour une méthode dans un service PSI")
   
 Les inconvénients de l’utilisation de l’assembly de proxy sont que la solution est plus grande et que vous devez distribuer et installer l’assembly de proxy avec la solution. Vous devez également utiliser les mêmes espaces de noms que dans l’assembly proxy et les fichiers IntelliSense, sauf si vous modifiez le script et le fichier ProjectServerServices.xml IntelliSense pour utiliser des espaces de noms différents.
   
@@ -231,7 +231,7 @@ Si vous n’utilisez pas l’assembly de proxy ASMX ou n’ajoutez pas de fichie
     
    **Figure 3. Ajout d’une référence de service web ASMX**
 
-   ![Ajout d’une référence de service web ASMX Ajout](media/pj15_PrerequisitesASMX_AddWebSvcReference.gif "d’une référence de service web ASMX")
+   ![Ajout d’une référence de service web ASMX](media/pj15_PrerequisitesASMX_AddWebSvcReference.gif "Ajout d’une référence de service web ASMX")
   
 Pour les composants d’application qui doivent s’exécuter sur l’ordinateur Project Server, utiliser l’emprunt d’identité ou avoir des autorisations élevées, utilisez une référence de service WCF au lieu d’une référence web ASMX. Pour plus d’informations, [voir Conditions préalables pour les exemples](prerequisites-for-wcf-based-code-samples-in-project.md)de code basés sur WCF dans Project .
   
@@ -433,7 +433,7 @@ Voici quelques-uns des liens sur la page Serveur Paramètres que vous pouvez uti
     
 - **Classifications des lignes**
     
-Les paramètres supplémentaires sont gérés par SharePoint Server 2013 pour chaque instance Project Web App, plutôt que par une page Project Web App Server Paramètres spécifique. In the SharePoint Central Administration application, choose **General Application Paramètres,** choose **Manage** under Project **Server Paramètres**, and then choose the Project Web App instance in the drop-down list on the Server Paramètres page. Par exemple, sélectionnez **Les handlers** d’événements côté serveur pour ajouter ou supprimer des handlers d’événements pour l’instance Project Web App sélectionnée. 
+Les paramètres supplémentaires sont gérés par SharePoint Server 2013 pour chaque instance Project Web App, plutôt que par une page Project Web App Server Paramètres spécifique. Dans l’application Administration centrale de SharePoint, sélectionnez  Application générale **Paramètres,** gérer sous **Project Server Paramètres,** puis choisissez l’instance de Project Web App dans la liste de listes listes dans la liste Paramètres page. Par exemple, sélectionnez **Les handlers** d’événements côté serveur pour ajouter ou supprimer des handlers d’événements pour l’instance Project Web App sélectionnée. 
   
 ## <a name="see-also"></a>Voir aussi
 <a name="pj15_PrerequisitesASMX_AR"> </a>

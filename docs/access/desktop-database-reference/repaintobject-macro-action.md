@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: a2ef6c5f38064ae3253cd7e0e58732f63294ceb3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 08fd34680942d47bc6a45abcb54587d7fb29c65e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306684"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611608"
 ---
 # <a name="repaintobject-macro-action"></a>RepaintObject, action de macro
 

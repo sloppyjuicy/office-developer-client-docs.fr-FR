@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: ac1a2c8a603fb74b56d71f73605455ecdbc87035
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: d21690a0444fcae2d45596935969d63ed69fff43
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308693"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611538"
 ---
 # <a name="setfilter-macro-action"></a>SetFilter, action de macro
 

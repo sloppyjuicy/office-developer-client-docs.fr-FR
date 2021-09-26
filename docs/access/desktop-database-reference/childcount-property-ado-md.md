@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250309(v=office.15)
 ms:contentKeyID: 48548956
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: 4f8e0fc98d7868eb5462bd7d8714e1a8eda1cfcf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 0e52bd6cb6296fa8409658892f68d2ab2aefeda4
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296380"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618524"
 ---
 # <a name="childcount-property-ado-md"></a>ChildCount, propriété (ADO MD)
 

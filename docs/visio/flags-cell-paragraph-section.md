@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033782
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 898bf89d-d00f-9769-a89d-787ef708eca5
 description: Indique si l'orientation du texte est de gauche à droite ou de droite à gauche.
-ms.openlocfilehash: af1e79b13d3d8bab2e7271eb79e68cf931871806
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: c2c32bb7316b4a2909c557ac4fdbc69705f481e3
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33413114"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612812"
 ---
 # <a name="flags-cell-paragraph-section"></a>Flags, cellule (section Paragraph)
 

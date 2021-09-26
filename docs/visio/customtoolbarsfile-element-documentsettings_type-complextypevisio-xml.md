@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9789239-a919-97f6-8109-126bb1038be6
 description: Contient le nom du fichier d’interface utilisateur microsoft Visio (.vsu) qui définit les barres d’outils et barres d’état personnalisées d’un document.
-ms.openlocfilehash: c374bc571163936ccdd4812bcf58a8db19a81f1e
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 312da727f251e953de89221669b5fa73e25e12f9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34539233"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613043"
 ---
 # <a name="customtoolbarsfile-element-documentsettings_type-complextype-visio-xml"></a>Élément CustomToolbarsFile (DocumentSettings_Type complexType) (Visio XML)
 

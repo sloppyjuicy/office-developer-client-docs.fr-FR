@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
 ms:contentKeyID: 48548211
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: d57e73c52ca515f13d613ed3aeb9cf361054396e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: 4b1f6995e2c999bd2ecb03fb2fe50ebc4b297e64
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307265"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621940"
 ---
 # <a name="recordset2move-method-dao"></a>Recordset2.Move, méthode (DAO)
 
@@ -22,11 +22,11 @@ Déplace l’enregistrement actif d’un objet **[Recordset](recordset-object-da
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .Move(***Rows***, ***StartBookmark***)
+*.* Move(***Rows** _, _*_StartBookmark_**)
 
 *expression* Variable qui représente un **objet Recordset2.**
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
 <table>
 <colgroup>

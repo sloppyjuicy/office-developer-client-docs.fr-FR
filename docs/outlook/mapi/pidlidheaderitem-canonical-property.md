@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - PidLidHeaderItem
 api_type:
 - COM
 ms.assetid: 69b308dd-d3f5-44fe-8976-e4ed9a433ad8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d883faa6266086127a7722990e84bca00090f0a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f5e685090d7f945988715fa91b281d843781f44a
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33415277"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620407"
 ---
 # <a name="pidlidheaderitem-canonical-property"></a>Propriété canonique PidLidHeaderItem
 

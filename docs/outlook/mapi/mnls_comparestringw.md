@@ -5,15 +5,15 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
 description: 'Last modified: February 20, 2012'
-ms.openlocfilehash: dbb18ce712d7900106f2c8dd18404e47d8bdbdb7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5f77c8457563212335255ec5bd9b76e689ffe757
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356846"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620428"
 ---
 # <a name="mnls_comparestringw"></a>MNLS_CompareStringW
 
@@ -33,7 +33,7 @@ int MNLS_CompareStringW (
   int cch2);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _lcid_
   

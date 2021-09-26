@@ -5,19 +5,19 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IPSTOVERRIDEREQ.RegisterTrustedPSTOverrideHandler
 api_type:
 - COM
 ms.assetid: 4a73c77c-7e32-4302-bffe-a1ea13574731
 description: 'Last modified: February 24, 2013'
-ms.openlocfilehash: acc0986dd80b549b0cb2b941a6937d47a4a959fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c7c074bbfb365d8a975bee12c5611c4d0809dc1e
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279534"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620533"
 ---
 # <a name="ipstoverridereqregistertrustedpstoverridehandler"></a>IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler
 
@@ -35,7 +35,7 @@ HRESULT RegisterTrustedPSTOverrideHandler (
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Paramètres
 
  _pwzDllPath_
   

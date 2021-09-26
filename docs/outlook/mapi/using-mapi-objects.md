@@ -3,17 +3,17 @@ title: Utilisation des objets MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e342c1bd-8bee-4b02-a93f-e3941f4716c1
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d732efe5276f4756f43b4aca46e1c33d6f103844
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6ffa5403121ba86d113647e4da47cdfd8b18eb71
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329675"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619490"
 ---
 # <a name="using-mapi-objects"></a>Utilisation des objets MAPI
 
@@ -25,7 +25,7 @@ Lorsque l’utilisateur d’un objet souhaite appeler une méthode et que cet ob
   
 **Utilisation client d’un objet de dossier**
   
-![Utilisation par le client d’un objet de dossier Utilisation]cliente(media/amapi_40.gif "d’un objet de dossier")
+![Utilisation client d’un objet de dossier](media/amapi_40.gif "Utilisation client d’un objet de dossier")
   
 Ces appels se traduisent en code différemment selon que le client qui passe les appels est écrit en C ou C++. Avant de pouvoir appeler une méthode, un pointeur vers l’implémentation de l’interface doit être récupéré. Les pointeurs d’interface peuvent être obtenus des manières suivantes :
   

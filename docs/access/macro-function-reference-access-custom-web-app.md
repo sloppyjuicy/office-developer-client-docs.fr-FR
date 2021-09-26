@@ -4,14 +4,14 @@ manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb1ef018-6ea4-46b4-b81a-c51f86d80180
-ms.openlocfilehash: fe8640c1ff9773a5ee7254434f39735cd95daff6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 5d7910d7a2c9b99407d60da95d3027674679e430
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426379"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621464"
 ---
 # <a name="macro-function-reference-access-custom-web-app"></a>Référence de fonction macro (application web personnalisé de l'accès)
 

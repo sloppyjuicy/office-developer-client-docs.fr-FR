@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251445
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a298eead-044b-6f40-54c7-e0e6088baa19
 description: Renvoie la coordonnée y (dans le système de coordonnées local) du point où deux lignes se coupent.
-ms.openlocfilehash: 6fcd06e7086d52b9c45f1deb9d4c191f1a7b1fd2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9af2f31df91b0ff4be203a7ad23e680763324aaa
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33426099"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618783"
 ---
 # <a name="intersecty-function"></a>Fonction INTERSECTY
 

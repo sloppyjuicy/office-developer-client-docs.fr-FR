@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3010
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 183fb303-4acb-a486-7b97-f11f7ae3978f
 description: Contient les coordonnées x et y du point central de l’ellipse et deux points sur l’ellipse.
-ms.openlocfilehash: 5121ba0c7bf97eaeaaf8a438dd40eccddada4362
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 15b1047f790d58d65b745c052330b2441cb08a4c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33421829"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619105"
 ---
 # <a name="ellipse-row-geometry-section"></a>Ellipse Row (Geometry Section)
 

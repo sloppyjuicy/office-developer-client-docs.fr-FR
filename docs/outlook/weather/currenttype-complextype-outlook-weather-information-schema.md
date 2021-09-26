@@ -5,15 +5,15 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9f4663ac-13d3-6c46-f839-ba6bca4047a3
 description: Définit les paramètres sur les conditions météorologiques actuelles d’un emplacement.
-ms.openlocfilehash: 6dec923ce45ddc6470d80e1c973528246e01672f
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 42ee25ed01bf748e40b72d4ef9c0c6c62e72af09
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540986"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619364"
 ---
 # <a name="currenttype-complextype-outlook-weather-information-schema"></a>complexType currentType (Outlook Weather Information Schema)
 

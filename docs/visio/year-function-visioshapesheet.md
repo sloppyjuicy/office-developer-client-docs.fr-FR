@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251513
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acc136ef-9946-7c12-a467-9ded732a3549
 description: Renvoie un entier qui représente l’année grégorien dans l’heure ou l’expression date/heure, mise en forme selon le style de date courte définie par les paramètres de région et de langue actuels du système.
-ms.openlocfilehash: c9bacd34557d365841171bee5c9f4683e6a3d296
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: f201e6cf4efe308e0c79e0795ef97d33e1bd5868
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420709"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612426"
 ---
 # <a name="year-function-visioshapesheet"></a>YEAR Function (VisioShapeSheet)
 

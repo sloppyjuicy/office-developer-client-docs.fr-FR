@@ -4,15 +4,15 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af17b1c5-51ee-f46f-79d0-4f33369b66f1
 description: Spécifie une zone de travail pour l’entrée et le test de formules qui peuvent être référentes par d’autres cellules.
-ms.openlocfilehash: 32e7eb2cfe13221ced2a8096acde412625d3ad33
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: f856195c9fb697ac265f23a0348a83c47b4987ba
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542323"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613092"
 ---
 # <a name="cell-element-scratch-section-visio-xml"></a>Élément de cellule (section Scratch) (Visio XML)
 
@@ -40,13 +40,13 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[Élément Row (section Scratch)](row-element-scratch-sectionvisio-xml.md) <br/> |[ScratchRow_Type](scratch_type-complextypevisio-xml.md) <br/> |Spécifie une zone de travail pour l’entrée et le test de formules qui peuvent être référentes par d’autres cellules.  <br/> |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type (Type)**|**Description**|
+|**Élément**|**Type**|**Description**|
 |:-----|:-----|:-----|
 |[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Spécifie une référence à une page.  <br/> |
    
@@ -71,6 +71,6 @@ Si le schéma définit des exigences spécifiques, telles que **séquence**, **m
 |C  <br/> |Cellule de montage utilisable pour entrer ou tester des formules.  <br/> |[Scratch, section](scratch-section.md) <br/> |
 |D  <br/> |Cellule de montage utilisable pour entrer ou tester des formules.  <br/> |[Scratch, section](scratch-section.md) <br/> |
 |X  <br/> |Cellule de montage utilisable pour entrer ou tester des formules.  <br/> |[Scratch, section](scratch-section.md) <br/> |
-|v  <br/> |Cellule de montage utilisable pour entrer ou tester des formules.  <br/> |[Scratch, section](scratch-section.md) <br/> |
+|O  <br/> |Cellule de montage utilisable pour entrer ou tester des formules.  <br/> |[Scratch, section](scratch-section.md) <br/> |
    
 

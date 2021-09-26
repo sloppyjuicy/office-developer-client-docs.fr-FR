@@ -10,13 +10,13 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
-ms.openlocfilehash: c3424fd4b85108120ea4accc2dfa65d55394f0d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: b267e671974d63cd844d04fe93673a8123a95873
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291434"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618048"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Initialisation du pilote Microsoft Excel
 
@@ -147,7 +147,7 @@ Le **dossier Access Connectivity \\ Engines Excel \\ 8.0** contient les entrées
 ## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Utilisation du paramètre TypeGuessRows pour Excel pilote
 Lorsque vous utilisez Microsoft Excel Driver, vous pouvez utiliser la valeur de Registre **TypeGuessRows** pour configurer le nombre de lignes à vérifier pour le type de données. La **valeur TypeGuessRows se** trouve sous la sous-clé de Registre suivante :
 
-# <a name="office-2016"></a>[Office 2016](#tab/office-2016)
+# <a name="office-2016"></a>[Office 2016](#tab/office-2016)
 
 Pour une installation MSI de Office
 
@@ -176,12 +176,12 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Nombre
 - Devise
 - Date
-- Texte
-- Booléen
+- Text
+- Valeur booléenne
 
 Si des données rencontrées ne correspondent pas au type de données de estimation de la colonne, ces données sont renvoyées sous forme **de valeur Null.** Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes.**
 
-# <a name="office-2013"></a>[Office 2013](#tab/office-2013)
+# <a name="office-2013"></a>[Office 2013](#tab/office-2013)
 
 Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
 
@@ -198,12 +198,12 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Nombre
 - Devise
 - Date
-- Texte
-- Booléen
+- Text
+- Valeur booléenne
 
 Si des données rencontrées ne correspondent pas au type de données de estimation de la colonne, ces données sont renvoyées sous forme **de valeur Null.** Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes.**
 
-# <a name="office-2010"></a>[Office 2010](#tab/office-2010)
+# <a name="office-2010"></a>[Office 2010](#tab/office-2010)
 
 Pour les Office 32 bits sur les Windows 32 bits ou les Office 64 bits sur des Windows 64 bits :
 
@@ -220,8 +220,8 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Nombre
 - Devise
 - Date
-- Texte
-- Booléen
+- Text
+- Valeur booléenne
 
 Si des données rencontrées ne correspondent pas au type de données de estimation de la colonne, ces données sont renvoyées sous forme **de valeur Null.** Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes.**
 

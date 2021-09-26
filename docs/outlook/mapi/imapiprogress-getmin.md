@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIProgress.GetMin
 api_type:
 - COM
 ms.assetid: caceddf1-0f7c-47b5-97bf-17ffe3440a6c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6cd31f8ac713c21053db7ef461220a360ebeec74
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 288c25e5dad204e0c5351c675c95d11c8ba497b0
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33404847"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59620974"
 ---
 # <a name="imapiprogressgetmin"></a>IMAPIProgress::GetMin
 

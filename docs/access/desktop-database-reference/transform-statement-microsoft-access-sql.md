@@ -10,13 +10,13 @@ f1_keywords:
 - jetsql40.chm5277581
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 9abe91d4ce6996a725e246da6922015d15a8bd39
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 7194b383f5275daf5501f31833ec0a3f68fa58bd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314041"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59621730"
 ---
 # <a name="transform-statement-microsoft-access-sql"></a>TRANSFORM, instruction (Microsoft Access SQL)
 

@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249915(v=office.15)
 ms:contentKeyID: 48547438
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
-ms.openlocfilehash: febeb3b52eb579647c995b01d6723a5c1f1b0c1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: medium
+ms.openlocfilehash: c2cdd7628e2c5116f92d63c5aae008a19577fec1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32293244"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612175"
 ---
 # <a name="executeoptionenum"></a>ExecuteOptionEnum
 

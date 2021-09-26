@@ -5,19 +5,19 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagProviderIcon
 api_type:
 - COM
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 55e6c8fb013e544ae04740aeaeb23ac23949cffb
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 4eb349be279196ecbdf30bafa698e2b0773f6a6c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33425637"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59599697"
 ---
 # <a name="pidtagprovidericon-canonical-property"></a>Propriété canonique PidTagProviderIcon
 

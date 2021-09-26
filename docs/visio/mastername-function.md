@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251581
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 519d79d4-9178-2231-c26d-aa7f31a43412
 description: Renvoie le nom de la feuille en tant que chaîne, ou renvoie la chaîne « no master » si la feuille n’a pas de master.
-ms.openlocfilehash: 7732cf9e8b23e2fd0fc2e3f2cc8d9ef4f39fd67f
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 209874e1a1c01c607790f5289ab9d8b183c6fc99
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33414752"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612462"
 ---
 # <a name="mastername-function"></a>Fonction MASTERNAME
 
-Renvoie le nom de la feuille en tant que chaîne, ou renvoie la chaîne « no master » si la feuille \< \> n’a pas de master.
+Renvoie le nom de la feuille en tant que chaîne ou la chaîne « » si la feuille \<no master\> n’a pas de master.
   
 ## <a name="syntax"></a>Syntaxe
 

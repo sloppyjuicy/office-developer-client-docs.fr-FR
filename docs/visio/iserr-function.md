@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251448
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87508007-8ad2-3bcf-55dc-f0207c7c6fe3
 description: 'Renvoie TRUE si la valeur de cellreference est un type d’erreur à l’exception #N/A ; Sinon, elle renvoie FALSE. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule.'
-ms.openlocfilehash: e2117c38d3cad2408295ed6894aefc78e107596e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: bb724fdb753ada86baf6cb421a2fa758620317ac
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33432106"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59612609"
 ---
 # <a name="iserr-function"></a>Fonction ISERR
 
@@ -32,7 +32,7 @@ ISERR(** *cellreference* ** )
    
 ## <a name="example-1"></a>Exemple 1
 
-|**Cell**|**Formula**|**Valeur renvoyée**|
+|**Cell**|**Formule**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
 |Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch.B1  <br/> |=ISERR(Scratch.A1)  <br/> |FALSE  <br/> |
@@ -41,7 +41,7 @@ Renvoie FALSE parce que l’erreur #N/A! n’est pas reconnue par la fonction IS
   
 ## <a name="example-2"></a>Exemple 2
 
-|**Cell**|**Formula**|**Valeur renvoyée**|
+|**Cell**|**Formule**|**Valeur renvoyée**|
 |:-----|:-----|:-----|
 |Scratch.X1  <br/> |="House »  <br/> |#VALUE!  <br/> |
 |Scratch.A1  <br/> |=ISERR(Scratch.X1)  <br/> |TRUE  <br/> |
