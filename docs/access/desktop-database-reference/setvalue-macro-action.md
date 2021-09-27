@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff820771(v=office.15)
 ms:contentKeyID: 48546712
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 6b6f16c22e9265159c73279cfa1b2644adbc0277
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 7228c7ccac02cea2c959f968c0e24e1bdfdefadd
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32306817"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617439"
 ---
 # <a name="setvalue-macro-action"></a>Action de macro SetValue
 
@@ -46,8 +46,8 @@ L’action **DéfinirValeur** utilise les arguments suivants.
 </tr>
 <tr class="even">
 <td><p><strong>Expression</strong></p></td>
-<td><p>Expression utilisée par Access pour définir la valeur de cet élément. Vous devez toujours utiliser la syntaxe complète pour faire référence à des objets dans l’expression. Par exemple, pour augmenter de 10 pour cent la valeur d’un contrôle Salaire dans un formulaire Employés, utilisez Forms!Employees!Salary*1.1. Cet argument est obligatoire.</p><p><strong>REMARQUE</strong> : n’utilisez pas de signe égal (=) avant l’expression dans cet argument. Si vous le faites, Access évalue l’expression, puis utilise cette valeur comme expression dans cet argument. Cela peut entraîner des résultats inattendus si l’expression est une chaîne.</p>
-<p>Par exemple, si vous entrez <strong>=&quot;Chaîne1&quot;</strong> pour cet argument, Access évalue d’abord l’expression comme Chaîne1. Il utilise ensuite Chaîne1 comme expression dans cet argument, s’attendant à trouver un contrôle ou une propriété nommé Chaîne1 dans le formulaire ou l’état qui a appelé la macro.</p></td>
+<td><p>Expression utilisée par Access pour définir la valeur de cet élément. Vous devez toujours utiliser la syntaxe complète pour faire référence à des objets dans l’expression. Par exemple, pour augmenter la valeur d’un contrôle Salaire dans un formulaire Employés de 10 pour cent, utilisez Forms!Employees!Salary*1.1.. Il s’agit d’un argument obligatoire.</p><p><strong>REMARQUE</strong> : n’utilisez pas de signe égal (=) avant l’expression dans cet argument. Si vous le faites, Access évalue l’expression, puis utilise cette valeur comme expression dans cet argument. Cela peut entraîner des résultats inattendus si l’expression est une chaîne.</p>
+<p>Par exemple, si vous tapez <strong>=&quot;Chaîne1&quot;</strong> pour cet argument, Access évalue d’abord l’expression comme Chaîne1. Il utilise ensuite Chaîne1 comme expression dans cet argument, s’attendant à trouver un contrôle ou une propriété nommé Chaîne1 dans le formulaire ou l’état qui a appelé la macro.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ L’action **DéfinirValeur** utilise les arguments suivants.
 
 Vous pouvez utiliser cette action pour définir une valeur pour un champ ou un contrôle dans un formulaire, un formulaire feuille de données ou un état. Vous pouvez également définir la valeur de presque toutes les propriétés de contrôle, de formulaire et d’état dans n’importe quel affichage. Pour déterminer si une propriété spécifique peut être configurée à l’aide d’une macro et les affichages pouvant être définis, consultez la rubrique d’aide relative à cette propriété dans Visual Basic Editor.
 
-Vous pouvez également définir la valeur d’un champ dans la table sous-jacente d’un formulaire, même si le formulaire ne contient pas de contrôle lié au champ. Utilisez la syntaxe **Forms**\!*nom_formulaire*\!*nom_champ* dans la zone **Élément** pour définir la valeur d’un tel champ. Vous pouvez également faire référence à un champ dans la table sous-jacente d’un état en utilisant la syntaxe **Reports**\!*nom_état*\!*nom_champ*, mais il doit y avoir un contrôle dans l’état lié à ce champ, ou le champ doit être référencé dans un contrôle calculé de l’état.
+Vous pouvez également définir la valeur d’un champ dans la table sous-jacente d’un formulaire, même si le formulaire ne contient pas de contrôle lié au champ. Utilisez la syntaxe **Formulaires**\!*nomformulaire*\!*nomchamp* dans la zone **Élément** pour définir la valeur d’un tel champ. Vous pouvez également faire référence à un champ dans la table sous-jacente d’un rapport en utilisant la syntaxe **Reports**\!*nomrapport*\!*nomchamp*, mais il doit y avoir un contrôle dans le rapport lié à ce champ, ou le champ doit être référencé dans un contrôle calculé sur le rapport.
 
 Si vous définissez la valeur d'un contrôle dans un formulaire, l'action **DéfinirValeur** ne déclenche pas les règles de validation au niveau du formulaire du contrôle, mais elle déclenche les règles de validation au niveau de la table du champ sous-jacent si le contrôle est un contrôle lié. L'action **DéfinirValeur** déclenche également le recalcul, mais ce dernier peut ne pas avoir lieu immédiatement. Pour déclencher la mise à jour immédiate et forcer l'exécution du recalcul, utilisez l'action **RedessinerObjet**. La valeur que vous définissez dans un contrôle à l'aide de l'action **DéfinirValeur** est également non affectée par un masque de saisie défini dans la propriété **InputMask** du contrôle ou du champ sous-jacent.
 
@@ -71,7 +71,7 @@ Pour modifier la valeur d'un contrôle, vous pouvez utiliser l'action **Définir
 > - Les contrôles calculés dans des formulaires.
 
 > [!TIP]
-> Vous pouvez utiliser l’action **DéfinirValeur** pour masquer ou afficher un formulaire en mode Formulaire. Entrez **Forms**!*nom_formulaire***.Visible** dans la zone **Élément**, et **Non** ou **Oui** dans la zone **Expression**. La définition de la propriété **Visible** d’un formulaire modal sur **Non** masque le formulaire et le rend non modal. La définition de la propriété sur **Oui** affiche le formulaire et le rend à nouveau modal.
+> Vous pouvez utiliser l’action **DéfinirValeur** pour masquer ou afficher un formulaire en mode Formulaire. Entrez **Formulaires**!*nomformulaire***.Visible** dans la zone **Élément**, et **Non** ou **Oui** dans la zone **Expression**. La définition de la propriété **Visible** d’un formulaire modal sur **Non** masque le formulaire et le rend non modal. La définition de la propriété sur **Oui** affiche le formulaire et le rend à nouveau modal.
 
 La modification de la valeur ou l'ajout des nouvelles données dans un contrôle à l'aide de l'action **DéfinirValeur** dans une macro ne déclenche pas des événements tels que **AvantMAJ**, **AvantInsertion** ou **Modifier** qui se produisent lorsque vous modifiez ou entrez des données dans ces contrôles dans l'interface utilisateur. Ces événements ne se produisent pas non plus si vous définissez la valeur du contrôle à l'aide d'un module Visual Basic pour Applications (VBA).
 

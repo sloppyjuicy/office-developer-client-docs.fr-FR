@@ -6,19 +6,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837300(v=office.15)
 ms:contentKeyID: 48548953
 ms.date: 06/04/2019
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 43afbfda8c560eafb90e6a53d85207e19e5b1170
-ms.sourcegitcommit: 4a570873914c58dd4cdbe97b5d9ec41866dc797c
+ms.localizationpriority: high
+ms.openlocfilehash: 12cff0909bba1821857ea07b0558c36f8e14c18b
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "34675749"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597008"
 ---
 # <a name="recordsetfilter-property-dao"></a>Recordset.Filter, propriété (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Définit ou renvoie une valeur qui détermine les enregistrements inclus dans l'objet **Recordset** ouvert ultérieurement (espace de travail Microsoft Access uniquement. **String** en lecture/écriture.
+Définit ou renvoie une valeur qui détermine les enregistrements inclus dans un objet **Recordset** ouvert par la suite (espaces de travail Microsoft Access uniquement). Valeur **String** en lecture-écriture.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -34,7 +34,7 @@ Utilisez la propriété **Filter** pour appliquer un filtre à un objet **Record
 
 La propriété **Filter** permet de limiter le nombre d’enregistrements renvoyés à partir d’un objet existant lorsqu’un nouvel objet **Recordset** est ouvert sur la base d’un objet **Recordset** existant.
 
-Utilisez le format de date américain (mois-jour-année) lorsque vous filtrez des champs contenant des dates, même si vous ne disposez pas de la version américaine du moteur de base de données Microsoft Access (dans ce cas, vous devez assembler les dates en concaténant des chaînes, par exemple strMonth & "-" & strDay & "-" & strYear). Sinon, il est possible que le filtrage des données ne donne pas les résultats escomptés.
+Utilisez le format de date américain (mois-jour-année) lorsque vous filtrez des champs contenant des dates, même si vous n'utilisez pas la version américaine du moteur de base de données Microsoft Access (auquel cas vous devez assembler toutes les dates en concaténant les chaînes. Par exemple, strMonth & "-" & strDay & "-" & strYear). Dans le cas contraire, les données ne sont pas filtrées comme vous le souhaitez.
 
 Dans la plupart des cas, il est plus rapide d’ouvrir un nouvel objet **Recordset** à l’aide d’une instruction SQL qui inclut une clause WHERE.
 

@@ -6,13 +6,13 @@ ms.audience: Developer
 ms.topic: overview
 ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: Découvrez le nouveau format de fichier Visio 2013, explorez certains concepts généraux relatifs à l’utilisation du format de fichier Visio 2013 par programmation, et créez une application de console simple qui examine un fichier Visio 2013.
-localization_priority: Priority
-ms.openlocfilehash: 74c0f05a1db280386f3dc9dfd23da73a9b2daaf5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: f4109d831840466d560d3464b809995c8cf31b24
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357273"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628058"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Présentation du format de fichier Visio (.vsdx)
 
@@ -97,7 +97,7 @@ Dans le format de fichier Visio 2013, toutes les cellules de la feuille ShapeShe
 </Shape>
 ```
 
-L’élément **Cellule** de **PinX** (ainsi que d’autres cellules nommées individuelles, appelées « cellules singleton », telles que **LinePattern** ou **LockSelect**) est un enfant direct de l’élément **Forme**. Aucun élément unique n’est nécessaire pour représenter la ligne qui contient la cellule **PinX**, puisque chaque forme ne peut contenir qu’un élément **PinX**.
+L'élément **Cell** pour **PinX** (ainsi que d'autres cellules nommées « singletons » telles que **LinePattern** ou **LockSelect**) est un enfant direct de l'élément **Shape**. Aucun élément unique n'est nécessaire pour représenter la ligne contenant la cellule **PinX**, car chaque forme ne peut avoir qu'un seul **PinX**.
   
 Traitement des sections qui incluent des données tabulaires, par exemple **Géométrie** Pour les cellules de ces sections, le schéma de format de fichier Visio 2013 utilise des éléments **Section** et **Ligne**, également distingués par leur attribut **N** ou leur attribut **T**, comme illustré ci-dessous, pour contenir les données. Par exemple, la forme de l’exemple précédent peut contenir des données dans la section **Géométrie 1** qui ressemblent au code suivant dans le schéma Dessin XML. 
   
@@ -165,7 +165,7 @@ Dans l'exemple de code suivant, vous pouvez voir comment ouvrir un fichier .vsdx
     
 5. Sous **Visual C#** ou **Visual Basic**, développez **Windows**, puis sélectionnez **Application Console**.
     
-6. Dans la zone **Nom**, entrez « VisioFileExplorer ». Le projet Application Console s’ouvre. 
+6. Dans la zone **Nom**, entrez « VisioFileExplorer ». Le projet Application console s'ouvre. 
     
 7. Dans l’**Explorateur de solutions**, cliquez avec le bouton droit de la souris sur **VisioFileExplorer**, puis cliquez sur **Ajouter une référence**. 
     

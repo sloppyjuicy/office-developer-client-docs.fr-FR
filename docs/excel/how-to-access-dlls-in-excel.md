@@ -8,13 +8,13 @@ keywords:
 - accès aux fichiers dlls [Excel 2007], DLLs [Excel 2007], accès dans Excel
 ms.assetid: e2bfd6ea-efa3-45c1-a5b8-2ccb8650c6ab
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-localization_priority: Priority
-ms.openlocfilehash: fac4ad30048aa1bf3879009bc97ea46a112a9ce5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: c91fe1720e3990d2d496f8b130d8b7464585f470
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304010"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625930"
 ---
 # <a name="access-dlls-in-excel"></a>Accès aux fichiers DLL dans Excel
 
@@ -77,7 +77,7 @@ Vous devez tenir compte de ce qui suit lorsque vous comparez les déclarations d
     
 - Le type de donn�es VBA **Currency** est transmis comme une structure de type **CY**, d�finie dans le fichier d�en-t�te Windows wtypes.h lorsqu�il est transmis **ByVal**, et comme un pointeur vers cet �l�ment lorsqu�il est transmis **ByRef**.
     
-Dans VBA, les �l�ments de donn�es dans les types de donn�es d�finis par l�utilisateur sont compress�s aux limites de 4�octets, tandis que dans Visual�Studio, par d�faut, ils sont compress�s aux limites de 8�octets. Par conséquent, vous devez encadrer la définition de la structure C/C++ dans un bloc `#pragma pack(4) … #pragma pack()` pour éviter l’alignement incorrect des éléments. 
+Dans VBA, les éléments de données dans les types de données définis par l’utilisateur sont compressés aux limites de 4 octets, tandis que dans Visual Studio, par défaut, ils sont compressés aux limites de 8 octets. Par conséquent, vous devez encadrer la définition de la structure C/C++ dans un bloc `#pragma pack(4) … #pragma pack()` pour éviter l’alignement incorrect des éléments. 
   
 Voici un exemple de définitions de types d’utilisateur équivalentes.
   
