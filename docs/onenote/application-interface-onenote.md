@@ -6,13 +6,13 @@ ms.audience: Developer
 ms.topic: overview
 ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
 description: 'L’interface d’application inclut des méthodes qui vous aident à récupérer, à manipuler et à mettre à jour les informations et le contenu de OneNote. Les méthodes se divisent en quatre catégories générales :'
-localization_priority: Priority
-ms.openlocfilehash: 295db4fcb64541ccf461fbd8d48dc19b89e6b1f8
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.localizationpriority: high
+ms.openlocfilehash: ce17adddd93c0b57f57dbccaed4bb2149c855959
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34537821"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59625804"
 ---
 # <a name="application-interface-onenote"></a>Interface d’application (OneNote)
 
@@ -66,7 +66,7 @@ static void GetEntireHierarchy()
 
 |||
 |:-----|:-----|
-|**Description**|Modifie ou met à jour la hiérarchie des blocs-notes. Par exemple, vous pouvez ajouter des sections ou des groupes de sections à un bloc-notes, ajouter un nouveau bloc-notes, déplacer des sections au sein d’un bloc-notes, modifier le nom d’une section, ajouter des pages à une section ou modifier l’ordre des pages dans des sections.|
+|**Description**|Modifie ou met à jour la hiérarchie des bloc-notes. Par exemple, vous pouvez ajouter des sections ou des groupes de sections à un bloc-notes, ajouter un nouveau bloc-notes, déplacer des sections au sein d’un bloc-notes, modifier le nom d’une section, ajouter des pages à une section ou modifier l’ordre des pages dans des sections.|
 |**Syntaxe**| `HRESULT UpdateHierarchy(`<br/>`[in]BSTR bstrChangesXmlIn,`<br/>`[in,defaultvalue(xsCurrent)] XMLSchema xsSchema);`|
 |**Paramètres**| _bstrChangesXmlIn_ &ndash; Chaîne contenant le code XML OneNote qui spécifie les modifications de hiérarchie à apporter. Par exemple, si vous voulez insérer une nouvelle section, vous pouvez ajouter un élément **Section** dans la chaîne XML afin d’indiquer l’emplacement où la nouvelle section doit être ajoutée. Par ailleurs, si vous voulez modifier le nom d’une section existante, vous pouvez conserver le même ID de section et modifier son attribut **name** dans le code XML.<br/><br/>_xsSchema_ &ndash; (Facultatif) Version de schéma OneNote de la chaîne _bstrChangesXmln_. Cette valeur facultative est utilisée pour spécifier la version du schéma XML OneNote qui contient la chaîne _bstrChangesXmlIn_. Si cette valeur n’est pas spécifiée, OneNote part du principe que la version du schéma XML est _xsCurrent_. <br/><br/>**Remarque :** pour que votre complément fonctionne avec les versions ultérieures de OneNote, nous vous recommandons de spécifier une version de OneNote (par exemple, **xs2013**) plutôt que d’utiliser **xsCurrent** ou de laisser le champ vide.           |
    

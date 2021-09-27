@@ -5,18 +5,18 @@ ms.date: 12/18/2019
 ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: 'Cet article décrit le développement d’applications Microsoft Project Online à l’aide de .NET Framework 4.0 et CSOM. '
-localization_priority: Priority
-ms.openlocfilehash: d48cf50b95ecea664cd9eae1b0e642fc2551d5be
-ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
+ms.localizationpriority: high
+ms.openlocfilehash: 87cac0b4cdc18c0496ade60ad2a90ded8f28f6ae
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102967"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619266"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>Développement d’une application Microsoft Project Online à l’aide du modèle objet côté client (CSOM)
 
 >[!NOTE] 
->Cet article décrit le développement d’applications Microsoft Project Online pour utiliser le CSOM. Nous vous recommandons de découvrir le développement d’applications à l’aide d’un [nouveau projet pour le web](https://developer.microsoft.com/fr-FR/office/blogs/developing-applications-and-reports-using-the-new-project/).
+>Cet article décrit le développement d’applications Microsoft Project Online pour utiliser le CSOM. Nous vous recommandons de découvrir le développement d’applications à l’aide d’un [nouveau projet pour le web](https://developer.microsoft.com/en-us/office/blogs/developing-applications-and-reports-using-the-new-project/).
   
 ## <a name="background"></a>Arrière-plan
 
@@ -69,7 +69,7 @@ La récupération des informations à partir de l’hôte est un processus en de
   
 ### <a name="set-up-the-visual-studio-project"></a>Configurer le projet Visual Studio
 
-La configuration de l’application consiste à créer un nouveau projet, lier les assemblys appropriés et déclarer les espaces de noms nécessaires. Visual Studio présente plusieurs types de projets de développement. 
+La configuration de l’application consiste à créer un nouveau projet, lier les assemblys appropriés et déclarer les espaces de noms nécessaires. Visual Studio présente plusieurs types de projets de développement. 
   
 #### <a name="select-a-visual-studio-project"></a>Sélectionner un projet Visual Studio
 
@@ -113,7 +113,7 @@ Ajoutez les assemblys du kit de développement logiciel (SDK) SharePoint 2013 �
   
 1. Dans le menu Outils VS, cliquez sur les menus suivants : **Outils =\> Gestionnaire de package NuGet =\> Console du Gestionnaire de package**. 
     
-2. Dans le menu Console du Gestionnaire de package, saisissez la commande suivante, puis appuyez sur \<ENTRÉE\> :
+2. Dans la console Gestionnaire de package, entrez la commande suivante et appuyez sur \<ENTER\> :
     
    ```cs
     Install-Package Microsoft.SharePointOnline.CSOM
@@ -368,7 +368,7 @@ Project counts:31
 
 ### <a name="retrieve-all-tasks-in-a-project"></a>Récupérer toutes les tâches dans un projet
 
-Chaque projet comporte de nombreuses tâches. Par conséquent, pour extraire les tâches d’un projet spécifique, effectuez les actions suivantes :
+Chaque projet a plusieurs tâches. Par conséquent, pour extraire les tâches d’un projet spécifique, effectuez les actions suivantes :
   
 1. Établir le contexte de la collection de projets.
     

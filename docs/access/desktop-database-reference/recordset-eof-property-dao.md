@@ -6,20 +6,20 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821459(v=office.15)
 ms:contentKeyID: 48546950
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 931de7dfc2cfb80726aafe7077c6107ec65d2f40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 35f1c5fe649b7ecb5509dd27f3a884d0f3879306
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300608"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606274"
 ---
 # <a name="recordseteof-property-dao"></a>Recordset.EOF, propriété (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet **Recordset**. **Boolean** (en lecture seule).
+Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le dernier enregistrement d'un objet **Recordset**. **Boolean** en lecture seule.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -29,21 +29,21 @@ Renvoie une valeur qui indique si la position d'enregistrement actuelle suit le 
 
 ## <a name="remarks"></a>Remarques
 
-Vous pouvez utiliser la **BOF** et **EOF** propriétés pour déterminer si un **jeu d’enregistrements** objet contient des enregistrements ou que vous avez dépassé au-delà des limites d’un ** Jeu d’enregistrements** lorsque vous déplacez à partir d’un enregistrement à l’objet.
+Vous pouvez utiliser la **BOF** et **EOF** propriétés pour déterminer si un **jeu d’enregistrements** objet contient des enregistrements ou que vous avez dépassé au-delà des limites d’un **Jeu d’enregistrements** lorsque vous déplacez à partir d’un enregistrement à l’objet.
 
 Détermine l’emplacement du pointeur d’enregistrement actuel le **BOF** et **EOF** retournent des valeurs.
 
 Si deux le **BOF** ou **EOF** propriété est **vrai**, il n’est aucun enregistrement actif.
 
-Si vous ouvrez un **jeu d’enregistrements** objet ne contenant aucun enregistrement, la **BOF** et **EOF** propriétés sont définies sur **vrai**et le ** Jeu d’enregistrements** d’objet **RecordCount** paramètre de la propriété est égal à 0. Lorsque vous ouvrez un **jeu d’enregistrements** objet qui contient au moins un enregistrement, le premier enregistrement est l’enregistrement actif et le **BOF** et **EOF** propriétés sont ** Faux**; ils restent **faux** jusqu'à ce que vous déplacez au-delà de début ou à la fin de la **jeu d’enregistrements** objet à l’aide de la **MovePrevious** ou ** MoveNext** méthode, respectivement. Lorsque vous déplacez au-delà de début ou à la fin de la **jeu d’enregistrements**, il n’est aucun enregistrement actif ou n’existe aucun enregistrement.
+Si vous ouvrez un **jeu d’enregistrements** objet ne contenant aucun enregistrement, la **BOF** et **EOF** propriétés sont définies sur **vrai** et le **Jeu d’enregistrements** d’objet **RecordCount** paramètre de la propriété est égal à 0. Lorsque vous ouvrez un **jeu d’enregistrements** objet qui contient au moins un enregistrement, le premier enregistrement est l’enregistrement actif et le **BOF** et **EOF** propriétés sont **Faux**; ils restent **faux** jusqu'à ce que vous déplacez au-delà de début ou à la fin de la **jeu d’enregistrements** objet à l’aide de la **MovePrevious** ou **MoveNext** méthode, respectivement. Lorsque vous déplacez au-delà de début ou à la fin de la **jeu d’enregistrements**, il n’est aucun enregistrement actif ou n’existe aucun enregistrement.
 
 Si vous supprimez le dernier enregistrement restant dans la **jeu d’enregistrements** objet, le **BOF** et **EOF** propriétés peuvent restent **faux** jusqu'à ce que vous tentative de repositionner l’enregistrement actif.
 
-Si vous utilisez le **MoveLast** méthode sur un **jeu d’enregistrements** objet contenant les enregistrements, le dernier enregistrement devient l’enregistrement actif ; si vous utilisez ensuite la **MoveNext** méthode, la version actuelle enregistrement devient non valide et le **EOF** propriété est définie sur **vrai**. À l’inverse, si vous utilisez le **MoveFirst** méthode sur un **jeu d’enregistrements** objet contenant les enregistrements, le premier enregistrement devient l’enregistrement actif ; si vous utilisez ensuite la **MovePrevious ** méthode, il n’est aucun enregistrement actif et le **BOF** propriété est définie sur **vrai**.
+Si vous utilisez le **MoveLast** méthode sur un **jeu d’enregistrements** objet contenant les enregistrements, le dernier enregistrement devient l’enregistrement actif ; si vous utilisez ensuite la **MoveNext** méthode, la version actuelle enregistrement devient non valide et le **EOF** propriété est définie sur **vrai**. À l’inverse, si vous utilisez le **MoveFirst** méthode sur un **jeu d’enregistrements** objet contenant les enregistrements, le premier enregistrement devient l’enregistrement actif ; si vous utilisez ensuite la **MovePrevious** méthode, il n’est aucun enregistrement actif et le **BOF** propriété est définie sur **vrai**.
 
 En règle générale, lorsque vous travaillez avec tous les enregistrements dans une **jeu d’enregistrements** objet, votre code sera parcourir les enregistrements à l’aide de la **MoveNext** méthode jusqu'à ce que le **EOF** propriété est définie pour **vrai**.
 
-Si vous utilisez le **MoveNext** méthode lors de la **EOF** propriété est définie sur **vrai** ou le **MovePrevious** méthode lors de la ** BOF** propriété est définie sur **vrai**, une erreur se produit.
+Si vous utilisez le **MoveNext** méthode lors de la **EOF** propriété est définie sur **vrai** ou le **MovePrevious** méthode lors de la **BOF** propriété est définie sur **vrai**, une erreur se produit.
 
 Le tableau suivant répertorie les méthodes Move sont autorisés avec différentes combinaisons de la **BOF** et **EOF** propriétés.
 
@@ -109,7 +109,7 @@ Un **OpenRecordset** méthode appelle en interne une **MoveFirst** méthode. Par
 
 Toutes les méthodes de déplacement qui correctement localiser un enregistrement configurera les deux **BOF** et **EOF** à **faux**.
 
-Dans un espace de travail Microsoft Access, si vous ajoutez un enregistrement à un vide **jeu d’enregistrements**, **BOF** deviendra **faux**, mais **EOF** restent ** True**, indiquant que la position actuelle est à la fin de **jeu d’enregistrements**.
+Dans un espace de travail Microsoft Access, si vous ajoutez un enregistrement à un vide **jeu d’enregistrements**, **BOF** deviendra **faux**, mais **EOF** restent **True**, indiquant que la position actuelle est à la fin de **jeu d’enregistrements**.
 
 N’importe quel **supprimer** méthode, même si elle supprime du seul enregistrement restant à partir d’un **jeu d’enregistrements**, ne modifiez le paramètre de la **BOF** ou **EOF** propriété.
 

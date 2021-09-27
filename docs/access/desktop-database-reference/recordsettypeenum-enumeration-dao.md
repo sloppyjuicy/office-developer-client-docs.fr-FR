@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195231(v=office.15)
 ms:contentKeyID: 48545357
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 7d2700d9b9a514dc4ad02bcb18a1bc3003cd3521
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 1e74250a968186fbb3c7a3386091a1c1a9a7df96
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309065"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615031"
 ---
 # <a name="recordsettypeenum-enumeration-dao"></a>RecordsetTypeEnum, énumération (DAO)
 

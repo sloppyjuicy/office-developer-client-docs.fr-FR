@@ -24,13 +24,13 @@ keywords:
 - Project 2013, architecture et programmabilité, PSI, Projets, versions, Programmabilité, Project Server, PSI, limitations, interface de Project Server, fonctionnalités non prises en charge, interface de Project Server, compatibilité PDS, Interface de Project Server, générique, Project Server, versions de projet, Versions, projets, Project Server, bases de données, Project 2013, plateforme, Interface de Project Server, scénarios d’utilisation, Project Server, événements, Project Server, service de données Project, compatibilité avec PSI, Interface de Project Server
 ms.assetid: a93d2153-5132-4289-af51-69350471e248
 description: Découvrez les principales fonctionnalités de programmabilité dans Project Server 2013. Cet article comprend des informations sur le portage d’applications créées pour des versions précédentes de Project Server.
-localization_priority: Priority
-ms.openlocfilehash: e6991712b87291e90c6b4f277db84686aab384e7
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+ms.localizationpriority: high
+ms.openlocfilehash: a45624c98a2bbd04353daa31eb47655e2c963012
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773728"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59628996"
 ---
 # <a name="project-server-programmability"></a>Programmabilité de Project Server
 
@@ -222,7 +222,7 @@ Les deux moteurs (ancien et nouveau) de planification possèdent les restriction
   
 - **Planification d’un seul projet** La planification affecte uniquement le projet actuel, lorsque des modifications sont apportées par le biais des mises à jour de l’état des tâches avec l’interface PSI ou le modèle CSOM ou avec Project Web App. Si le projet actuel comporte des liens vers d’autres projets, sous-projets ou projets maîtres, les projets liés ne sont pas modifiés. 
     
-- **Tâches récapitulatives** Les tâches récapitulatives sont généralement en lecture seule sur Project Server. Par exemple, les affectations pour les tâches récapitulatives ne peuvent pas être créées et le pourcentage d’achèvement ne peut pas être modifié. Toutefois, Project Server prend en charge la modification des dates et de la durée des tâches récapitulatives planifiées manuellement. 
+- **Tâches récapitulatives** Les tâches récapitulatives sont généralement en lecture seule sur Project Server. Par exemple, les affectations pour les tâches récapitulatives ne peuvent pas être créées et le pourcentage d’achèvement ne peut pas être modifié. Toutefois, Project Server prend en charge la modification des dates et de la durée des tâches récapitulatives planifiées manuellement. 
     
     Les données réelles dans Project Server ne sont pas ajoutées automatiquement à une affectation de tâche récapitulative, car cela contournerait le processus d’approbation dans Project Server. Dans Project Professionnel, lorsque vous ajoutez des données réelles à une tâche subordonnée, ces données sont également ajoutées pour une affectation sur la tâche récapitulative. La différence de comportement peut être source de confusion pour un utilisateur.
     
@@ -237,7 +237,7 @@ Voici les problèmes et limitations de la programmation PSI avec l’ancien mote
     
     Pour plus d’informations sur les tâches inactives et l’ancien moteur de planification, consultez les billets de blog sur la [présentation des tâches inactives dans Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) et [Project Server 2010 : Planification sur le web, l’interface PSI et Project Professionnel](https://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). Pour une comparaison de la planification dans Project Professionnel 2010 et Project Web App dans Project Server 2010, reportez-vous à la rubrique [Comparaison de la gestion de la planification basée sur le Web](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
     
-- **Valeur acquise non calculée** L’ancien moteur de planification ne calcule pas les champs de valeur acquise : CRTE, BAA, VA, CBTP, IPC, VC, VC%, EAA, IPE, ED, ED%, IPAA, VAA, Variation de durée, Variation de début, Variation de fin, Variation de coût et Variation de travail. Si un projet comporte des valeurs pour ces champs et qu’il est mis à jour à l’aide de la méthode **QueueUpdateProject**, les valeurs de champ ne changent pas. Pour éviter ce problème, utilisez la méthode **QueueUpdateProject2**. 
+- **Valeur acquise non calculée** L’ancien moteur de planification ne calcule pas les champs de valeur acquise : CRTE, BAA, VA, CBTP, IPC, VC, VC%, EAA, IPE, ED, ED%, IPAA, VAA, Variation de durée, Variation de début, Variation de fin, Variation de coût et Variation de travail. Si un projet comporte des valeurs pour ces champs et qu’il est mis à jour à l’aide de la méthode **QueueUpdateProject**, les valeurs de champ ne changent pas. Pour éviter ce problème, utilisez la méthode **QueueUpdateProject2**. 
     
 Vous pouvez gérer les limitations de la planification PSI des façons suivantes :
   
@@ -257,11 +257,11 @@ Il existe des indicateurs dans les tables de création de rapports et les cubes 
     
 -  _ProjectRollupsAreStale_ &ndash; Indique qu’un sous-projet est mis à jour dans l’ébauche de base de données, mais que le projet maître ne l’est pas. Les valeurs répétées du sous-projet sont obsolètes. 
     
--  _ProjectHierarchyNotSynchronized_ &ndash; Le projet maître n’est pas synchronisé avec ses enfants. Cela se produit lorsque les projets enfants sont publiés explicitement, et pas dans le cadre de la publication du projet maître. 
+-  _ProjectHierarchyNotSynchronized_ &ndash; Le projet maître n’est pas synchronisé avec ses enfants. Cela se produit lorsque les projets enfants sont publiés explicitement, et pas dans le cadre de la publication du projet maître. 
     
 -  _ProjectCalculationsAreStale_ &ndash; Project Professionnel a enregistré un projet sans calculer la planification (autrement dit, le mode de calcul est défini sur **Manuel** sous l’onglet **Planifier** de la boîte de dialogue **Options de Project**). 
     
--  _ProjectGhostTaskAreStale_ &ndash; Similaire à l’option _ProjectHierarchyNotSynchronized_, mais vous avertit en cas de données de liaisons entre projets. Il est possible qu’aucun projet maître n’existe, mais les données de projet sur un côté du lien sont plus récentes que celles de l’autre côté.
+-  _ProjectGhostTaskAreStale_ &ndash; Semblable à _ProjectHierarchyNotSynchronized_, mais vous avertit sur des données de liaison entre projets. Il est possible qu’aucun projet maître n’existe, mais les données de projet sur un côté du lien sont plus récentes que celles de l’autre côté.
     
 ## <a name="about-accessing-the-project-server-database"></a>À propos de l’accès à la base de données Project Server
 <a name="pj15_Programmability_Databases"> </a>

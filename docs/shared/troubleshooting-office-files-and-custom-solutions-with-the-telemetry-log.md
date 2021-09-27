@@ -5,13 +5,13 @@ ms.date: 09/17/2015
 ms.audience: Developer
 ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Utilisez le Journal de télémétrie pour Office 2013 pour déterminer les problèmes de compatibilité avec Office 2013 et les solutions élaborées pour les précédentes versions d'Office.
-localization_priority: Priority
-ms.openlocfilehash: 0ace7a39c62194816662e49580cf6868edcae295
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+ms.localizationpriority: high
+ms.openlocfilehash: 185f89ccbae78e003e0152211963d744b92c411d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773721"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59619210"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Dépannage des solutions personnalisées et des fichiers Office avec le journal de télémétrie
 
@@ -126,11 +126,11 @@ Utilisez le Tableau 2 suivant pour interpréter les enregistrements affichés da
 |**ID d’évènement**|**Titre**|**Gravité**|**Description**|
 |:-----|:-----|:-----|:-----|
 |1  <br/> |Le document a été chargé  <br/> ||Le fichier indiqué dans la colonne **Fichier** a été ouvert dans l'application Office sans problème.  <br/> |
-|2  <br/> |Échec de chargement du document  <br/> |Avertissement  <br/> | L'application n'a pas pu charger le fichier. Un problème de compatibilité sous-jacente est possible.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](https://office.microsoft.com/fr-FR/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](https://office.microsoft.com/fr-FR/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|2  <br/> |Échec de chargement du document  <br/> |Avertissement  <br/> | L'application n'a pas pu charger le fichier. Un problème de compatibilité sous-jacente est possible.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |3  <br/> |Le modèle a été chargé  <br/> ||Le fichier de modèle indiqué dans la colonne **Fichier** a été ouvert dans l'application Office sans problème.  <br/> |
-|4  <br/> |Échec de chargement du modèle  <br/> |Avertissement  <br/> | L'application n'a pas pu charger le fichier de modèle. Un problème de compatibilité sous-jacent est possible ou la disponibilité du modèle a changé.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](https://office.microsoft.com/fr-FR/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](https://office.microsoft.com/fr-FR/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|4  <br/> |Échec de chargement du modèle  <br/> |Avertissement  <br/> | L'application n'a pas pu charger le fichier de modèle. Un problème de compatibilité sous-jacent est possible ou la disponibilité du modèle a changé.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx).<br/><br/>Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |5  <br/> |Le complément a été chargé  <br/> ||Le complément indiqué dans la colonne **Fichier** a été chargé dans l'application Office sans problème. Aucun problème de compatibilité n'a été détecté.  <br/> |
-|6  <br/> |Échec du chargement du complément  <br/> |Critique  <br/> | L'application n'a pas pu charger le complément indiqué dans la colonne **Fichier**.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](https://office.microsoft.com/fr-FR/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](https://office.microsoft.com/fr-FR/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
+|6  <br/> |Échec du chargement du complément  <br/> |Critique  <br/> | L'application n'a pas pu charger le complément indiqué dans la colonne **Fichier**.  <br/><br/>Pour plus d’informations sur la façon de réparer un classeur endommagé dans Excel 2013, reportez-vous à la section [Réparation d’un classeur endommagé](https://office.microsoft.com/en-us/excel-help/repairing-a-corrupted-workbook-HA102749554.aspx). <br/><br/>  Pour plus d'informations sur la réparation d'un document endommagé dans Word 2013, reportez-vous à la section [Enregistrer et récupérer une copie de sauvegarde d'un document](https://office.microsoft.com/en-us/word-help/save-and-recover-a-backup-copy-of-a-document-HA010121250.aspx). <br/> |
 |7  <br/> |Le manifeste du complément a été correctement téléchargé  <br/> ||L'application hôte a chargé le manifeste de l'Complément Office.  <br/> |
 |8  <br/> |Échec du téléchargement du manifeste du complément  <br/> |Critique  <br/> |L’application hôte n’a pas pu charger le fichier manifeste pour l’Complément Office à partir du catalogue SharePoint, du catalogue d’entreprise ou de l’Office Store.  <br/> |
 |9  <br/> |Échec de l'analyse du balisage du complément  <br/> |Critique  <br/> |L'application hôte a chargé le manifeste de l'Complément Office pour le complément, mais n'a pas pu lire le XML.  <br/> |
