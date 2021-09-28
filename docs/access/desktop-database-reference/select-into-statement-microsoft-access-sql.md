@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
 ms:contentKeyID: 48543897
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: fd7152eaa7dd29f6d0bf5621d1b8b8b6f648673c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 3c5b911c4391dd975c8ed2b1c5ddbf17ccc4bb38
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308721"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59626105"
 ---
 # <a name="selectinto-statement-microsoft-access-sql"></a>SELECT.INTO, instruction (Microsoft Access SQL)
 
@@ -52,7 +52,7 @@ L’instruction SELECT...INTO comprend les parties suivantes :
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>
-<td><p>Nom de la table dans laquelle des enregistrements sont sélectionnés. Il peut s’agir d’une ou plusieurs tables, ou d’une requête.</p></td>
+<td><p>Nom de la table existante dans laquelle des enregistrements sont sélectionnés. Il peut s’agir d’une ou plusieurs tables, ou d’une requête.</p></td>
 </tr>
 </tbody>
 </table>

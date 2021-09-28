@@ -10,19 +10,19 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 35afc836bf2fb2a728453ac1ed240fd50a9673da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 37714f7581631a1cb095c3d2c8564d9a4f8afa6c
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300503"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606281"
 ---
 # <a name="recordsetgetrows-method-dao"></a>Recordset.GetRows, méthode (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
-Récupère plusieurs lignes à partir d’un objet** [Recordset](recordset-object-dao.md) ** .
+Récupère plusieurs lignes à partir d’un objet **[Recordset](recordset-object-dao.md)** .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -64,7 +64,7 @@ Variant
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **GetRows** pour copier des enregistrements d'un objet **Recordset**. **GetRows** renvoie un tableau à deux dimensions. Le premier indice identifie le champ, tandis que le second identifie le numéro de ligne. Par exemple, `intField` représente le champ et `intRecord` identifie le numéro de ligne :
+Utilisez la méthode **GetRows** pour copier des enregistrements d'un objet **Recordset**. **GetRows** renvoie un tableau à deux dimensions. Le premier indice identifie le champ, tandis que le second identifie le numéro de ligne. Par exemple, `intField` représente le champ et `intRecord` identifie le numéro de ligne :
 
 `avarRecords(intField, intRecord)`
 
@@ -78,15 +78,15 @@ Pour obtenir la valeur du deuxième champ de la première ligne, utilisez un cod
 
 La variable avarRecords devient automatiquement un tableau matriciel à deux dimensions quand **GetRows** renvoie des données.
 
-Si vous demandez plus de lignes qu'il n'y en a de disponibles, **GetRows** ne renvoie que le nombre de lignes disponibles. Vous pouvez utiliser la fonction **UBound** de Visual Basic pour Applications pour déterminer le nombre de lignes que **GetRows** extrait réellement, car le tableau est dimensionné en fonction du nombre de lignes renvoyées. Par exemple, si vous avez renvoyé les résultats dans une **Variant** appelée varA, vous pouvez utiliser le code suivant pour déterminer le nombre de lignes réellement renvoyées :
+Si vous demandez plus de lignes qu'il n'y en a de disponibles, **GetRows** ne renvoie que le nombre de lignes disponibles. Vous pouvez utiliser la fonction **UBound** de Visual Basic pour Applications pour déterminer le nombre de lignes que **GetRows** a extrait réellement, car le tableau est dimensionné en fonction du nombre de lignes renvoyées. Par exemple, si vous avez renvoyé les résultats dans un objet **Variant** appelé varA, vous pouvez utiliser le code suivant pour déterminer le nombre de lignes réellement renvoyées :
 
 `numReturned = UBound(varA,2) + 1`
 
-Vous devez utiliser « + 1 », car la première ligne renvoyée est l’élément 0 de la matrice. Le nombre de lignes que vous pouvez extraire est limité par la quantité de mémoire disponible. Vous ne devez pas utiliser **GetRows** pour extraire une table entière dans un tableau si celle-ci est volumineuse.
+Vous devez utiliser « +1 », car la première ligne renvoyée se trouve dans l'élément 0 du tableau. Le nombre de lignes que vous pouvez extraire est limité par la quantité de mémoire disponible. Vous ne devez pas utiliser **GetRows** pour extraire une table entière dans un tableau si celle-ci est volumineuse.
 
 Étant donné que **GetRows** renvoie tous les champs de l'objet **Recordset** dans le tableau, y compris les champs de type Memo et Long Binary, il est recommandé d'utiliser une requête qui limite le nombre de champs renvoyés.
 
-Suite à l'appel de **GetRows**, l'enregistrement actif est positionné au niveau de la ligne non lue suivante. Autrement dit, **GetRows** a le même effet sur l’enregistrement actif que **Move** numrows.
+Une fois que vous avez appelé la méthode **GetRows**, l’enregistrement actif est positionné au niveau de la ligne non lue suivante. Autrement dit, **GetRows** a le même effet sur l’enregistrement actif que **Move** numrows.
 
 Si vous tentez d'extraire toutes les lignes en recourant à plusieurs appels **GetRows**, utilisez la propriété **[EOF](recordset-eof-property-dao.md)** pour être certain d'atteindre la fin de l'objet **Recordset**. La méthode **GetRows** renvoie un nombre de lignes inférieur à ce qui a été demandé si elle se trouve à la fin de l'objet **Recordset**, ou si elle ne peut pas extraire une ligne dans la plage demandée. Par exemple, si vous essayez d'extraire 10 enregistrements mais que vous ne pouvez pas extraire le cinquième, **GetRows** renvoie quatre enregistrements et le cinquième devient l'enregistrement actif. Cela ne génère pas d'erreur d'exécution. En revanche, il pourra s'en produire une si un autre utilisateur supprime un enregistrement dans un objet **Recordset** de type feuille de réponse dynamique. Reportez-vous à l'exemple pour savoir comment traiter ce problème.
 

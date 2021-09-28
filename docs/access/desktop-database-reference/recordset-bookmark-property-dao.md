@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052887
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 1ebf963695b2d754a4501077e2236c52280a9a2e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 08c68c7ff58fb0dc0397ea7895f5efc58b99ccc9
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300650"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59617666"
 ---
 # <a name="recordsetbookmark-property-dao"></a>Recordset.Bookmark, propriété (DAO)
 
@@ -33,13 +33,13 @@ Définit ou renvoie un signet qui identifie l’enregistrement actif dans un obj
 
 ## <a name="remarks"></a>Remarques
 
-Dans le cas d'un objet **Recordset** qui repose entièrement sur les tables du moteur de base de données Microsoft Access, la valeur de la propriété **Bookmarkable** est True et vous pouvez utiliser la propriété **Bookmark** avec ce jeu **Recordset**. En revanche, il est possible que d'autres produits de base de données ne prennent pas en charge les signets. Ainsi, vous ne pouvez pas utiliser de signets dans un objet **Recordset** basé sur une table Paradox liée qui ne possède aucune clé primaire.
+Dans le cas d'un objet **Recordset** reposant exclusivement sur des tables du moteur de base de données Microsoft Access, la valeur de la propriété **Bookmarkable** correspond à True. Vous pouvez alors utiliser la propriété **Bookmark** avec cet objet **Recordset**. Toutefois, il se peut que d'autres produits de base de données ne prennent pas en charge les signets. Par exemple, vous ne pouvez pas utiliser de signets dans un objet **Recordset** basé sur une table Paradox liée qui ne contient pas de clé primaire.
 
 Lorsque vous créez ou que vous ouvrez un objet **Recordset**, chacun de ses enregistrements possède un signet qui lui est propre. Vous pouvez enregistrer le signet de l'enregistrement actif en affectant à la propriété **Bookmark** une variable. Pour revenir rapidement et à tout moment à cet enregistrement après avoir accédé à un autre enregistrement, affectez à la propriété **Bookmark** de l'objet **Recordset** la valeur de cette variable.
 
 Il n'existe aucune limite quant au nombre de signets que vous pouvez définir. Pour créer un signet d'un enregistrement autre que l'enregistrement actif, accédez à l'enregistrement souhaité et affectez à la propriété **Bookmark** une variable de type **String** qui identifie l'enregistrement.
 
-Pour vous assurer que l’objet **Recordset** prend en charge les signets, vérifiez la valeur de sa propriété ** [Bookmarkable](recordset-bookmarkable-property-dao.md) ** avant d’utiliser la propriété **Bookmark**. Si la propriété **Bookmarkable** est False, l'objet **Recordset** ne prend pas en charge les signets et l'utilisation de la propriété **Bookmark** provoquera une erreur piégeable.
+Pour vous assurer que l'objet **Recordset** prend en charge les signets, vérifiez la valeur de sa propriété **[Bookmarkable](recordset-bookmarkable-property-dao.md)** avant d'utiliser la propriété **Bookmark**. Si la propriété **Bookmarkable** est False, l'objet **Recordset** ne prend pas en charge les signets et l'utilisation de la propriété **Bookmark** provoquera une erreur interceptable.
 
 Si vous utilisez la méthode **[Clone](recordset-clone-method-dao.md)** pour créer une copie de l'objet **Recordset**, les paramètres de la propriété **Bookmark** des objets **Recordset** d'origine et dupliqué sont identiques et interchangeables. En revanche, vous ne pouvez pas utiliser indifféremment des signets d'objets **Recordset** différents même s'ils ont été créés à l'aide du même objet ou de la même instruction SQL.
 

@@ -10,13 +10,13 @@ f1_keywords:
 - jetsql40.chm5277563
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: dfcbbd55f2d20589849f63f260d40b507c8639f1
-ms.sourcegitcommit: b27eedbc4538f78ee15134bf19abbc319605c3bc
+ms.localizationpriority: high
+ms.openlocfilehash: 5aea8694c450764f686c226554041da13179aead
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2019
-ms.locfileid: "36706172"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615724"
 ---
 # <a name="create-table-statement-microsoft-access-sql"></a>Instruction CREATE TABLE (Microsoft Access SQL)
 
@@ -25,7 +25,7 @@ ms.locfileid: "36706172"
 Crée une table.
 
 > [!NOTE]
-> Le moteur de base de données Access ne prend pas en charge l’utilisation de l’instruction CREATE TABLE ou de toute instruction DDL avec des bases de données d’un moteur de base de données autre que Microsoft Access. Utilisez plutôt les méthodes **Create** de DAO.
+> Le moteur de base de données Microsoft Access ne prend pas en charge l'utilisation de l'instruction CREATE TABLE, ni d'aucune instruction DDL, avec des bases de données autres que celles du moteur de base de données Microsoft Access. Utilisez les méthodes **Create** DAO à la place.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -81,11 +81,11 @@ Une clause CONSTRAINT établit diverses restrictions sur un champ et peut être 
 
 Vous pouvez utiliser l’instruction NON NULL sur un champ unique ou à l’intérieur d’une clause CONSTRAINT nommée qui s’applique à une instruction CONSTRAINT nommée portant sur un ou plusieurs champs. Toutefois, vous ne pouvez appliquer la restriction NON NULL qu’une seule fois à un champ. Une tentative d’appliquer cette restriction plusieurs fois génère une erreur d’exécution.
 
-Lors de la création d'une table temporaire, celle-ci n'est visible que dans la session dans laquelle elle a été créée. Elle est supprimée automatiquement à la fin de la session. Les tables temporaires sont accessible par plusieurs utilisateurs.
+Lors de la création d'une table TEMPORARY, celle-ci n'est visible que dans la session dans laquelle elle a été créée. Elle est automatiquement supprimée lorsque la session est terminée. Les tables temporaires sont accessibles par plusieurs utilisateurs.
 
-L’attribut WITH COMPRESSION peut être utilisé uniquement avec les types de données CARACTÈRE et MÉMO (également appelé TEXTE) et leurs synonymes.
+L’attribut WITH COMPRESSION peut être utilisé uniquement avec les types de données CHARACTER et MEMO (également appelé TEXT) et leurs synonymes.
 
-L’attribut WITH COMPRESSION a été ajouté pour les colonnes de type CARACTÈRE en raison de la modification du format de représentation de caractère Unicode. Les caractères Unicode nécessitent uniformément deux octets par caractère. Pour les bases de données Microsoft Jet qui contiennent principalement des données caractères, cela pourrait signifier que le fichier de base de données doublerait de taille lors de la conversion au format du moteur de base de données Microsoft Access. Cependant, la représentation Unicode de nombreux jeux de caractères, anciennement appelés jeux de caractères codés sur un octet (SBCS), peut facilement être compressée à un seul octet. Si vous définissez une colonne de type CARACTÈRE avec cet attribut, les données sont automatiquement compressées pour le stockage, et décompressées lors de leur extraction de la colonne.
+L'attribut WITH COMPRESSION a été ajouté pour les colonnes CHARACTER en raison du changement de format de représentation des caractères Unicode. Les caractères Unicode nécessitent uniformément deux octets pour chaque caractère. Pour les bases de données Microsoft Jet qui contiennent principalement des données caractères, cela pourrait signifier que le fichier de base de données doublerait de taille lors de la conversion au format du moteur de base de données Microsoft Access. Cependant, la représentation Unicode de nombreux jeux de caractères, anciennement appelés jeux de caractères codés sur un octet (SBCS), peut facilement être compressée à un seul octet. Si vous définissez une colonne de caractères avec cet attribut, les données seront automatiquement compressées au moment du stockage, et décompressées lors de leur récupération à partir de la colonne.
 
 Des colonnes de type MÉMO peuvent également être définies pour stocker des données dans un format compressé. Il existe cependant une limitation. Seules les instances de colonnes de type MÉMO qui, une fois compressées, ne dépassent pas 4 096 octets, sont compressées. Les autres instances des colonnes de type MÉMO ne sont pas compressées. Cela signifie que, dans un tableau donné, pour une colonne de type MÉMO donnée, certaines données peuvent être compressées et d’autres pas.
 

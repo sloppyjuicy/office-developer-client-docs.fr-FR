@@ -12,13 +12,13 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 356620376658bb927c690056f4de9a01554aa47e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 590a83fef68680325cb9d0b039c996375751edc7
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295645"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59615738"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>CONSTRAINT, clause (Microsoft Access SQL)
 
@@ -29,7 +29,7 @@ Une contrainte est similaire à un index, bien qu'elle puisse être utilisée po
 Utilisez la clause CONSTRAINT dans les instructions [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) et [CREATE TABLE](create-table-statement-microsoft-access-sql.md) pour créer ou supprimer des contraintes. Il existe deux types de clauses CONSTRAINT : une permettant de créer une contrainte sur un seul champ et l'autre permettant de créer une contrainte sur plusieurs champs.
 
 > [!NOTE]
-> Le moteur de base de données Microsoft Access ne prend pas en charge la clause CONSTRAINT, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Utilisez plutôt les méthodes **Create** de DAO.
+> Le moteur de base de données Microsoft Access ne prend pas en charge la clause CONSTRAINT, ni les instructions du langage de définition de données (DDL), avec des bases de données autres que Microsoft Access. Pour cela, utilisez les méthodes **Create** DAO.
 
 ## <a name="syntax"></a>Syntaxe
 

@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052941
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 1f10b5b779141189f114e420b3f7d4827e701161
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 462a6f898770db280356d341590469d5e56cb727
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284798"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606246"
 ---
 # <a name="recordsetmove-method-dao"></a>Recordset.Move, méthode (DAO)
 
@@ -26,9 +26,9 @@ Déplace l’enregistrement actif d’un objet **[Recordset](recordset-object-da
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .Move(***Rows***, ***StartBookmark***)
+*expression* .Move(***Rows** _, _*_StartBookmark_**)
 
-*expression* Variable représentant un objet **Recordset**.
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 

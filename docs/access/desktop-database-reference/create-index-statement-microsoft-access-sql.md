@@ -10,13 +10,13 @@ f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 46bc0a50e31555189c069e0ee09c4c84349c04c7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: a831ae35f91bae1cd81c3db5dfd723ed31389295
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32295428"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618356"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>CREATE INDEX, instruction (Microsoft Access SQL)
 
@@ -25,7 +25,7 @@ ms.locfileid: "32295428"
 Crée un index sur une table existante.
 
 > [!NOTE]
-> Pour les bases de données autres que celles de type Microsoft Access, le moteur de base de données Microsoft Access ne prend pas en charge CREATE INDEX (sauf pour créer un pseudo index sur une table liée ODBC), ni les instructions du langage de définition de données (DDL). Utilisez plutôt les méthodes **Create** de DAO. Pour plus d'informations, voir la section Notes.
+> Pour les bases de données autres que le moteur de base de données Microsoft Access, le moteur de base de données Microsoft Access ne prend pas en charge CREATE INDEX (sauf pour créer un pseudo index sur une table liée ODBC), ni les instructions du langage de définition de données (DDL). Utilisez les méthodes **Create** DAO à la place. Pour plus d'informations, voir la section Notes.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -73,7 +73,7 @@ Vous pouvez appliquer des règles de validation dans la clause WITH facultative.
 
 - désigner les champs indexés en tant que clé primaire en utilisant le mot réservé PRIMARY. Ceci implique que la clé soit unique, aussi vous pouvez omettre le mot réservé UNIQUE.
 
-Vous pouvez utiliser CREATE INDEX pour créer un pseudo index sur une table liée dans une source de données ODBC, telle que Microsoft SQL Server qui ne comporte pas d'index. Pour créer un pseudo-index, vous n’avez pas besoin d’autorisation ou d’accès au serveur distant. La base de données distante ignore l’existence du pseudo-index et n’est nullement affectée par celui-ci. Vous utilisez la même syntaxe pour les tables liées et natives. La création d’un pseudo index sur une table ordinairement en lecture seule peut être particulièrement utile.
+Vous pouvez utiliser CREATE INDEX pour créer un pseudo index sur une table liée dans une source de données ODBC, telle que Microsoft SQL Server qui ne comporte pas d'index. Vous n'avez pas besoin d'une autorisation d'accès particulière au serveur distant pour créer un pseudo index ; la base de données distante ignore l'existence du pseudo index qui n'a par conséquent aucune incidence sur celle-ci. Utilisez la même syntaxe pour les tables liées et natives. Créer un pseudo index sur une table qui est normalement en lecture seule peut s'avérer particulièrement utile.
 
 Vous pouvez également utiliser l'instruction [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) pour ajouter un index d'un seul champ ou de plusieurs champs à une table et l'instruction ALTER TABLE ou [DROP](drop-statement-microsoft-access-sql.md) pour supprimer un index créé avec ALTER TABLE ou CREATE INDEX.
 

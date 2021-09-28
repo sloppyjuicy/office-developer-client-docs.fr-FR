@@ -10,13 +10,13 @@ f1_keywords:
 - vbaac10.chm3180
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: c84a737d08b791bfe560bfe6af6bcc59a14d2678
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 290708e19c7e24259678153df978a1cd089e95c5
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297220"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59607464"
 ---
 # <a name="after-insert-macro-event"></a>After Insert, événement macro
 
@@ -31,7 +31,7 @@ L'événement **AfterInsert** se produit après l'ajout d'un nouvel enregistreme
 
 Utilisez le **après insérer** événement effectuez les actions que vous voulez se produisent lors de l’ajout d’un enregistrement à une table. Utilisations courantes pour la **après insérer** incluent l’application des règles métier, flux de travail, la mise à jour une agrégation total et envoi de notifications.
 
-Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser un **si** instruction à déterminer déterminer si le champ PaidInFull a été modifié.
+Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser une instruction **If** pour déterminer si le champ PaidInFull a été modifié.
 
 ```vb 
  
@@ -43,7 +43,7 @@ End If
  
 ```
 
-Le tableau suivant répertorie les commandes de macro qui peuvent être utilisées dans la**après insérer** événement.
+Le tableau suivant répertorie les commandes de macro qui peuvent être utilisées dans la **après insérer** événement.
 
 <table>
 <colgroup>
@@ -163,7 +163,7 @@ Pour consulter cet exemple dans le Concepteur de macros, procédez comme suit :
 
 3.  Sélectionnez le code dans l’exemple de code suivant et appuyez sur CTRL + C pour copier dans le Presse-papiers.
 
-4.  Activer la fenêtre Concepteur de macro, puis appuyez sur CTRL + V.
+4.  Activez la fenêtre du concepteur de macros, puis appuyez sur Ctrl+V.
 
 <!-- end list -->
 

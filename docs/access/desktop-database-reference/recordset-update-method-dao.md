@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821467(v=office.15)
 ms:contentKeyID: 48546961
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 9f73dfc49a6ec99b726a052c588c032783010081
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 33e613a1760281326873df264673101e8146e80f
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307524"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597015"
 ---
 # <a name="recordsetupdate-method-dao"></a>Recordset.Update, méthode (DAO)
 
@@ -20,9 +20,9 @@ ms.locfileid: "32307524"
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .Update(***UpdateType***, ***Force***)
+*expression* .Update(***UpdateType** _, _*_Force_**)
 
-*expression* Variable représentant un objet **Recordset**.
+*expression* Variable qui représente un objet **Recordset**.
 
 ## <a name="parameters"></a>Paramètres
 
@@ -66,17 +66,17 @@ Utilisez **mise à jour** pour enregistrer l’enregistrement actif et toutes le
 > Enregistrer les modifications apportées à l’enregistrement actif
 > - Vous utilisez le **modifier** ou **AddNew** méthode, puis accéder à un autre enregistrement sans utiliser première **mise à jour**.
 > - Vous utilisez **modifier** ou **AddNew**, puis utilisez **modifier** ou **AddNew** nouveau sans utiliser première **mise à jour**.
-> - Vous définissez la ** [signet](recordset-bookmark-property-dao.md) ** propriété vers un autre enregistrement.
+> - Vous définissez la **[signet](recordset-bookmark-property-dao.md)** propriété vers un autre enregistrement.
 > - Vous fermez le **jeu d’enregistrements** sans utiliser première **mise à jour**.
-> - Vous annulez la **modifier** opération à l’aide ** [CancelUpdate](recordset-cancelupdate-method-dao.md)**.
+> - Vous annulez la **modifier** opération à l’aide **[CancelUpdate](recordset-cancelupdate-method-dao.md)**.
 
 Pour modifier un enregistrement, utilisez la **modifier** méthode pour copier le contenu de l’enregistrement actif dans la mémoire tampon de copie. Si vous n’utilisez **modifier** tout d’abord, une erreur se produit lorsque vous utilisez **mise à jour** ou tenter de modifier la valeur du champ.
 
 Dans un espace de travail ODBCDirect, vous pouvez effectuer par lot mises à jour, sous réserve la bibliothèque curseur prend en charge les mises à jour du lot et le **jeu d’enregistrements** a été ouvert avec l’option de verrouillage par lot optimiste.
 
-Dans un espace de travail Microsoft Access, lorsque le **jeu d’enregistrements** d’objet **LockEdits** paramètre de la propriété est **vrai** (verrouillage pessimiste) dans un environnement multi-utilisateurs, l’enregistrement reste verrouillé à partir du moment **modifier** sert jusqu'à ce que le **mise à jour** méthode est exécutée ou la modification est annulée. Si le **LockEdits** paramètre de la propriété est **faux** (verrouillage optimiste), l’enregistrement est verrouillé et par rapport à l’enregistrement déjà modifiée juste avant qu’il est mis à jour dans la base de données. 
+Dans un espace de travail Microsoft Access, lorsque paramètre de propriété **LockEdits** de l’objet de **Recordset** est défini sur **True** (verrouillage pessimiste ) dans un environnement multi-utilisateur, l’enregistrement reste verrouillé à partir de l’heure de l’utilisation de **Edit** jusqu'à ce que la méthode **Update** soit exécutée ou que la modification soit terminée. Si la propriété **LockEdits** est définie sur **False** (verrouillage optimiste), l’enregistrement est verrouillé et comparé par rapport à l’enregistrement déjà modifié juste avant sa mise à jour dans la base de données. 
 
-Si l’enregistrement a changé, car vous avez utilisé le **modifier** méthode, le **mise à jour** opération échoue. Base de données Microsoft Access connectées moteur ODBC et bases de données ISAM toujours utilisent le verrouillage optimiste. Pour continuer la **mise à jour** opération avec vos modifications, utilisez la **mise à jour** méthode nouveau. Pour revenir à l’enregistrement tel que l’autre utilisateur l’a modifié, actualisez l’enregistrement actif à l’aide de la commande Move 0.
+Si l’enregistrement a été modifié depuis que vous avez utilisé la méthode **Edit**, l’opération **Update** échoue. Les bases de données ODBC connectées au moteur de base de données Microsoft Access et aux bases de données ISAM installables utilisent toujours un verrouillage optimiste. Pour continuer l’opération **Update** avec vos modifications, utilisez à nouveau la méthode **Update**. Pour rétablir l’enregistrement tel que l’autre utilisateur l’avait modifié, actualisez l’enregistrement actif à l’aide de Move 0.
 
 > [!NOTE]
 > Pour ajouter, modifier ou supprimer un enregistrement, il doit y avoir un index unique sur l’enregistrement dans la source de données sous-jacentes. Si non, une erreur « Autorisation refusée » doit se produire sur le **AddNew**, **supprimer**, ou **modifier** méthode appel dans un espace de travail Microsoft Access ou une erreur « Argument non valide » se produit sur la **mise à jour** appeler dans un espace de travail ODBCDirect.
