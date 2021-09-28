@@ -10,17 +10,17 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: b8a6e9a2204a60ecff33555d31f39591308f9b67
-ms.sourcegitcommit: 27a9f3568318470e7ee09ad93a90c3f80d3ef0cd
+ms.localizationpriority: high
+ms.openlocfilehash: 543aa19f98e112aff01b6fadb85e34e4340296bf
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/07/2019
-ms.locfileid: "36790763"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59606904"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset, méthode (DAO)
 
-**S’applique à** : Access 2013 | Office 2013
+**S’applique à :** Access 2013 | Office 2013
 
 Crée un objet **[Recordset](recordset-object-dao.md)** et l’ajoute à la collection **Recordsets**.
 

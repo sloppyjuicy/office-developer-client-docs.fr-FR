@@ -10,13 +10,13 @@ f1_keywords:
 - jetsql40.chm5277573
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: a4ef478e74f9851012d6f749e64b4ddb34f3a959
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 5eba43d04f1d0eccf1b7e0ce63c6c6aedd3946d6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294042"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59618244"
 ---
 # <a name="delete-statement-microsoft-access-sql"></a>DELETE, instruction (Microsoft Access SQL)
 
@@ -70,11 +70,13 @@ Une requête de suppression supprime les enregistrements, et pas seulement les d
 
 > [!IMPORTANT]
 > - Une fois que des enregistrements sont supprimés à l'aide d'une requête de suppression, il n'est pas possible d'annuler cette opération. Si vous voulez savoir quels enregistrements ont été supprimés, examinez d'abord les résultats d'une requête de sélection qui utilise les mêmes critères, puis exécutez la requête de suppression.
-> - Conservez toujours des copies de sauvegarde de vos données. Si vous supprimez des enregistrements par inadvertance, vous pourrez les récupérer à partir de vos copies de sauvegarde.
+> - Conservez toujours des copies de sauvegarde de vos données. Si vous ne supprimez pas les bons enregistrements, vous pouvez les récupérer à partir de vos copies de sauvegarde.
 
 ## <a name="example"></a>Exemple
 
 Dans cet exemple, tous les enregistrements d'employés dont le titre est Trainee, sont supprimés. Lorsque la clause FROM ne comporte qu'une seule table, vous n'avez pas besoin d'indiquer le nom de la table dans l'instruction DELETE.
+
+
 
 ```vb
     Sub DeleteX() 
