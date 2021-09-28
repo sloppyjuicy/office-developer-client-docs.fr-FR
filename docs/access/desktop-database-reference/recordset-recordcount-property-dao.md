@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821452(v=office.15)
 ms:contentKeyID: 48546941
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: b9bdc243aae48bd928468362cb86ca077f4abe52
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 6c857c0723b4efdc14189192c7bdb9dc2b860fe6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307636"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59611818"
 ---
 # <a name="recordsetrecordcount-property-dao"></a>Recordset.RecordCount, propriété (DAO)
 
@@ -28,7 +28,7 @@ Renvoie le nombre d'enregistrements accédés dans un objet **[Recordset](record
 
 ## <a name="remarks"></a>Remarques
 
-Utilisez le **RecordCount** propriété pour déterminer le nombre d’enregistrements dans une **jeu d’enregistrements** ou **TableDef** objet aient été accédé. Le **RecordCount** propriété n’indique pas combien enregistrements sont contenus dans un type vers l’avant uniquement, instantané – ou feuille de réponse dynamique **jeu d’enregistrements** objet jusqu'à ce que tous les enregistrements ont été consultés. Une fois le dernier enregistrement a été accédé, le **RecordCount** propriété indique le nombre total d’enregistrements non supprimés dans la **jeu d’enregistrements** ou **TableDef** objet. Pour forcer le dernier enregistrement pour pouvoir y accéder, utilisez la ** [MoveLast](recordset-movelast-method-dao.md) ** méthode sur le **jeu d’enregistrements** objet. Vous pouvez également utiliser une SQL **Count** fonction pour déterminer le nombre d’enregistrements votre requête renverra approximatif.
+Utilisez la propriété **RecordCount** pour déterminer le nombre d'enregistrements accédés dans un objet **Recordset** ou **TableDef**. La propriété **RecordCount** n'indique pas le nombre d'enregistrements contenus dans un objet **Recordset** de type avant uniquement, instantané ou feuille de réponse dynamique avant que tous les enregistrements aient été accédés. Après avoir accédé au dernier enregistrement, la propriété **RecordCount** indique le nombre total d'enregistrements non supprimés dans l'objet **Recordset** ou **TableDef**. Pour forcer l'accès au dernier enregistrement, appelez la méthode **[MoveLast](recordset-movelast-method-dao.md)** sur l'objet **Recordset**. Vous pouvez également utiliser une fonction SQL **Count** pour déterminer le nombre approximatif d'enregistrements renvoyés par votre requête.
 
 > [!NOTE]
 > À l’aide de la **MoveLast** méthode pour renseigner nouvellement ouverte **jeu d’enregistrements** négatif affecte les performances. Sauf s’il est nécessaire de disposer d’un précises **RecordCount** dès que vous ouvrez un **jeu d’enregistrements**, il est préférable de Patientez jusqu'à ce que vous renseigner le **jeu d’enregistrements** avec d’autres certaines parties du code avant de les chercher la **RecordCount** propriété.
@@ -39,7 +39,7 @@ Le **RecordCount** propriété d’un instantané – ou transférer – uniquem
 
 A **jeu d’enregistrements** ou **TableDef** de l’objet sans enregistrement contient un **RecordCount** paramètre de la propriété de 0.
 
-À l’aide de la ** [interroger à nouveau](recordset-requery-method-dao.md) ** méthode sur un **jeu d’enregistrements** objet réinitialisation le **RecordCount** propriété simplement comme si la requête nouveau exécutée.
+À l’aide de la **[interroger à nouveau](recordset-requery-method-dao.md)** méthode sur un **jeu d’enregistrements** objet réinitialisation le **RecordCount** propriété simplement comme si la requête nouveau exécutée.
 
 ## <a name="example"></a>Exemple
 

@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-localization_priority: Priority
-ms.openlocfilehash: 962e425c2c69511b6d7770fb03e954588249cf2a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 0a407c6b164f2558be46ab2804693121ba07a5c1
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314636"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593634"
 ---
 # <a name="select-statement-microsoft-access-sql"></a>SELECT, instruction (Microsoft Access SQL)
 
-**S’applique à** : Access 2013 | Office 2013
+**S’applique à :** Access 2013 | Office 2013
 
 Demande au moteur de base de données Microsoft Access de renvoyer des informations depuis la base de données sous la forme d'un jeu d'enregistrements.
 

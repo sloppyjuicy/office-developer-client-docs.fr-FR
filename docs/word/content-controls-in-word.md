@@ -1,19 +1,19 @@
 ---
 title: Contrôles de contenu dans Word
-manager: soliver
-ms.date: 09/10/2015
+manager: lindalu
+ms.date: 09/10/2021
 ms.audience: Developer
 keywords:
 - Contrôles de contenu [Word], contrôles de contenu [Word], nouveautés
 ms.assetid: c0e6dd3b-fae1-453d-a9b4-7f456b5172db
 description: Découvrez les nouveaux scénarios de document structuré que permettent de déployer les contrôles de contenu Microsoft Word 2013.
-localization_priority: Priority
-ms.openlocfilehash: 4234425cc8398d87b72108d389953fc0eb802c87
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: fdf9db012ce9d32017aa2ab069d7b42e1e30dd04
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358657"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59622570"
 ---
 # <a name="content-controls-in-word"></a>Contrôles de contenu dans Word
 
@@ -86,7 +86,7 @@ Word 2013 permet aux contrôles de contenu individuels de s’afficher de trois
   
 **Figure 1. Boîte de dialogue Propriétés du contrôle de contenu**
 
-![Boîte de dialogue Propriétés du contrôle de contenu](media/DK2_WordCC_Fig01.jpg "Boîte de dialogue Propriétés du contrôle de contenu")
+![Capture d’écran de la boîte de dialogue Propriétés du contrôle de contenu](media/DK2_WordCC_Fig01.jpg "Boîte de dialogue Propriétés du contrôle de contenu")
   
 Vous pouvez également définir le mode d’affichage d’un contrôle de contenu à l’aide du modèle objet Word 2013 (décrit plus loin dans [Nouveaux membres de modèle objet client de contrôle de contenu Word 2013](#WordCC_NewOM)).
   
@@ -101,13 +101,13 @@ Le rendu par défaut pour les contrôles de contenu dans Word 2013 est de prés
     
 **Figure 2. Contrôle de contenu lors du pointage avec la souris**
 
-![Contrôle de contenu lors du pointage avec la souris](media/DK2_WordCC_Fig02.jpg "Contrôle de contenu lors du pointage avec la souris")
+![Contrôle de contenu lors du pointage avec la souris](media/DK2_WordCC_Fig02.jpg "Contrôle de contenu sur pointage avec la souris")
   
 - Lorsque le contrôle de contenu est activé (c’est-à-dire lorsque l’utilisateur clique sur le contrôle de contenu), il s’affiche comme un « cadre englobant » (avec une ligne autour du contenu et le titre, si un titre a été défini)
     
 **Figure 3. Contrôle de contenu activé**
 
-![Contrôle de contenu activé](media/DK2_WordCC_Fig03.jpg "Contrôle de contenu activé")
+![Contrôle de contenu avec focus](media/DK2_WordCC_Fig03.jpg "Contrôle de contenu avec focus")
   
 ### <a name="startend-tags"></a>Balises de début et de fin
 <a name="WordCC_StartEndTags"> </a>
@@ -116,7 +116,7 @@ Lorsque le contrôle de contenu est configuré pour s’afficher entre des **bal
   
 **Figure 4. Contrôle de contenu défini pour s’afficher entre des balises de début et de fin**
 
-![Contrôle de contenu défini pour s’afficher entre des balises de début et de fin](media/DK2_WordCC_Fig04.jpg "Contrôle de contenu défini pour s’afficher entre des balises de début et de fin")
+![Contrôle de contenu défini pour s’afficher sous forme de balises de début et de fin](media/DK2_WordCC_Fig04.jpg "Contrôle de contenu défini pour s’afficher sous forme de balises de début et de fin")
   
 ### <a name="none"></a>Aucun
 <a name="WordCC_Invisible"> </a>
@@ -126,7 +126,7 @@ Lorsque l’affichage du contrôle de contenu est défini sur **Aucun**, le cont
 ### <a name="content-control-colorization"></a>Colorisation des contrôles de contenu
 <a name="WordCC_CCColorization"> </a>
 
-Outre l’activation d’un autre type d’affichage pour un contrôle de contenu, Word 2013 vous aide également à définir la couleur pour un contrôle de contenu individuel. Vous définissez la couleur d’un contrôle de contenu à l’aide du bouton **Couleur**dans la boîte de dialogue **Propriétés du contrôle de contenu**. 
+Outre l’activation d’un autre type d’affichage pour un contrôle de contenu, Word 2013 vous aide également à définir la couleur pour un contrôle de contenu individuel. Vous définissez la couleur d’un contrôle de contenu à l’aide du bouton **Couleur** dans la boîte de dialogue **Propriétés du contrôle de contenu**. 
   
 Vous pouvez également définir la couleur d’un contrôle de contenu à l’aide du modèle objet Word 2013 (décrit plus loin dans [Nouveaux membres de modèle objet client de contrôle de contenu Word 2013](#WordCC_NewOM)).
   
@@ -153,19 +153,19 @@ Vous insérez le contrôle de contenu répétitif autour de paragraphes entiers 
   
 **Figure 6. Menu contextuel de contrôle de contenu répétitif**
 
-![Menu contextuel de contrôle de contenu répétitif](media/DK2_WordCC_Fig06.jpg "Menu contextuel de contrôle de contenu répétitif")
+![Capture d’écran du contexte de contrôle de contenu répétitif](media/DK2_WordCC_Fig06.jpg "Contexte de contrôle de contenu de section extensible")
   
 Vous pouvez répéter la section insérée en utilisant le contrôle sur la fin du contrôle de contenu (affiché sous la forme d’un bouton avec un signe plus (![Signe plus](media/DK2_WordCC_Fig06A.jpg "Signe plus"))) ou en choisissant une commande dans le menu contextuel, comme illustré dans la Figure 6. Le contenu répété devient une section distincte du contrôle à laquelle vous pouvez attribuer un titre à l’aide de la boîte de dialogue **Propriétés du contrôle de contenu**. 
   
 **Figure 7. Attribution d’un titre de section dans la boîte de dialogue Propriétés du contrôle de contenu**
 
-![Boîte de dialogue Propriétés du contrôle de contenu](media/DK2_WordCC_Fig07.jpg "Boîte de dialogue Propriétés du contrôle de contenu")
+![Capture d'écran de la boîte de dialogue des propriétés de contrôle de contenu](media/DK2_WordCC_Fig07.jpg "Boîte de dialogue Propriétés du contrôle de contenu")
   
 Une fois que vous avez donné un titre à la section, si vous sélectionnez **Autoriser les utilisateurs à ajouter et à supprimer des sections** dans la boîte de dialogue **Propriétés du contrôle de contenu**, les utilisateurs peuvent ajouter ou supprimer la section par nom. 
   
 **Figure 8. Utilisation du menu contextuel de contrôle de contenu répétitif pour supprimer une section**
 
-![Menu contextuel de contrôle de contenu répétitif](media/DK2_WordCC_Fig08.jpg "Menu contextuel de contrôle de contenu répétitif")
+![Contexte de contrôle de contenu répétitif](media/DK2_WordCC_Fig08.jpg "Contexte de contrôle de contenu de section extensible")
   
 Lorsqu’un contrôle de contenu répétitif entoure d’autres contrôles de contenu, les contrôles de contenu entourés sont répétés dans chaque nouvel élément ; mais le contenu de tous ces contrôles de contenu est rétabli sur le texte d’espace réservé. Il existe deux exceptions pour lesquelles le contenu des contrôles enfants est conservé : 
   
@@ -175,11 +175,11 @@ Lorsqu’un contrôle de contenu répétitif entoure d’autres contrôles de co
     
 **Figure 9. Contrôle de contenu répétitif contenant des contrôles enfants avant la répétition**
 
-![Contrôle de contenu répétitif avant la répétition](media/DK2_WordCC_Fig09.jpg "Contrôle de contenu répétitif avant la répétition")
+![Contrôle de contenu répétitif avant répétition](media/DK2_WordCC_Fig09.jpg "Contrôle de contenu de section extensible avant répétition")
   
 **Figure 10. Contrôle de contenu répétitif contenant des contrôles enfants après la répétition**
 
-![Contrôle de contenu répétitif après la répétition](media/DK2_WordCC_Fig10.jpg "Contrôle de contenu répétitif après la répétition")
+![Contrôle de contenu de section extensible après répétition](media/DK2_WordCC_Fig10.jpg "Contrôle de contenu de section extensible après répétition")
   
 ### <a name="repeating-section-content-controls-around-xml-mapped-controls"></a>Contrôles de contenu répétitif autour de contrôles présentant un mappage XML
 <a name="WordCC_RepeatingSectionCCs"> </a>
@@ -211,14 +211,14 @@ Les suggestions suivantes pour utiliser des contrôles de contenu répétitif pe
 ### <a name="working-with-repeating-section-content-controls-that-are-mapped-to-xml-data"></a>Utilisation des contrôles de contenu répétitif mappés à des données XML
 <a name="WordCC_RepeatingSectionCCs"> </a>
 
-Si vous insérez un contrôle de contenu répétitif qui est mappé à des données XML, chaque fois que votre utilisateur ouvre de nouveau le document, Word recrée les éléments de la section répétitive, en fonction des informations du magasin de données. Même si vous enregistrez le document, les modifications que l’utilisateur apporte aux éléments de la section répétitive dans le document qui ne sont pas mappées également dans le magasin de données sont perdues.
+Si vous insérez un contrôle de contenu répétitif qui est mappé à des données XML, chaque fois que l’utilisateur rouvrira le document, Word recréera les éléments de section répétitive, en fonction des informations se trouvant dans le magasin de données. Même si vous enregistrez le document, les modifications que l’utilisateur apporte aux éléments de section répétitive dans le document qui ne sont pas également mappées au magasin de données sont perdues.
   
 Pour éviter que cela ne se produise, verrouillez le contrôle de contenu répétitif et n’autorisez l’utilisateur à apporter des modifications qu’aux contrôles de contenu enfants déverrouillés qui sont également mappés aux données XML.
   
 ### <a name="binding-a-repeating-section-content-control-to-a-table"></a>Liaison d’un contrôle de contenu répétitif à une table
 <a name="WordCC_RepeatingSectionCCs"> </a>
 
-Si vous souhaitez lier un contrôle de contenu répétitif à une table, insérez la table *puis* insérez le contrôle de contenu répétitif, et non l’inverse  (sinon, vous ne pourrez pas sélectionner uniquement la table). 
+Si vous souhaitez lier un contrôle de contenu répétitif à une table, insérer la table, *puis* insérez le contrôle de contenu répétitif, et non l’inverse (sinon, vous ne pourrez pas sélectionner uniquement la table). 
   
 ### <a name="nesting-repeating-section-content-controls-within-a-table"></a>Imbrication de contrôles de contenu répétitif dans un tableau
 <a name="WordCC_RepeatingSectionCCs"> </a>
@@ -237,7 +237,7 @@ Les éléments suivants ont été ajoutés au schéma WordprocessingML au format
 |**Élément**|**Description**|
 |:-----|:-----|
 |\<w:appearance\>  <br/> |\<w:appearance\> est un élément enfant de \<w:sdtPr\>.  <br/> Voici les valeurs valides pour l’attribut val :  <br/> \<w:appearance val= boundingBox|étiquettes|hidden.  <br/> La valeur par défaut est boundingBox.  <br/> |
-|\<w:color\>  <br/> |\<w:color\> est un élément enfant de \<w:sdtPr\>.  <br/> Le modèle de contenu correspond au type complexe CT_Color existant. La valeur par défaut est la couleur utilisée dans Word 2010.  <br/> |
+|\<w:color\>  <br/> |\<w:color\> est un élément enfant de \<w:sdtPr\>.  <br/> Le modèle de contenu correspond au type complexe CT_Color existant. La valeur par défaut est la couleur utilisée dans Word 2010.<br/> |
    
 ## <a name="new-word-2013-content-control-object-model-members"></a>Nouveaux membres du modèle objet contrôle de contenu Word 2013
 <a name="WordCC_NewOM"> </a>
@@ -347,10 +347,10 @@ Le contrôle de contenu répétitif est disponible dans le modèle objet via les
 
 |**Membre**|**Description**|
 |:-----|:-----|
-|**AllowInsertDeleteSection** en tant que **Boolean** <br/> |Indique si les utilisateurs peuvent ajouter ou supprimer des sections du contrôle de contenu à l’aide de l’interface utilisateur. Si cette propriété est appelée pour un contrôle de contenu qui n’est pas de type répétitif, l’appel échoue avec le message d’erreur suivant : « Cette propriété peut uniquement être utilisée avec des contrôles de contenu répétitifs. »  <br/> |
-|**RepeatingSectionItemTitle** en tant que **String** <br/> |Obtient ou définit le nom des éléments répétitifs utilisé dans le menu contextuel. Si cette propriété est appelée pour un contrôle de contenu qui n’est pas de type répétitif, l’appel échoue avec le message d’erreur suivant : « Cette propriété peut uniquement être utilisée avec des contrôles de contenu répétitifs. »  <br/> |
-|**InsertRepeatingSectionItemBefore** en tant que **ContentControl** <br/> |Ajoute un élément répétitif avant l’élément actuel et renvoie le nouvel élément répétitif. Si cette méthode est appelée pour un contrôle de contenu qui n’est pas de type répétitif, l’appel échoue avec le message d’erreur suivant : « Cette propriété peut uniquement être utilisée avec des contrôles de contenu répétitifs. »  <br/> |
-|**InsertRepeatingSectionItemAfter** en tant que **ContentControl** <br/> |Ajoute un élément répétitif après l’élément actuel et renvoie le nouvel élément répétitif. Si cette méthode est appelée pour un contrôle de contenu qui n’est pas de type répétitif, l’appel échoue avec le message d’erreur suivant : « Cette propriété peut uniquement être utilisée avec des contrôles de contenu répétitifs. »  <br/> |
+|**AllowInsertDeleteSection** en tant que **Boolean** <br/> |Obtient ou définit si les utilisateurs peuvent ajouter ou supprimer des sections du contrôle de contenu à l’aide de l’interface utilisateur. Si cette propriété est appelée pour un contrôle de contenu qui n’est pas de type répétitif, l’appel échoue avec le message d’erreur suivant : « Cette propriété ne peut être utilisée qu’avec des contrôle de contenu répétitifs ».  <br/> |
+|**RepeatingSectionItemTitle** en tant que **String** <br/> |Obtient ou définit le nom des éléments répétitifs utilisés dans le menu contextuel. Si cette propriété est appelée pour un contrôle de contenu qui n’est pas de type répétitif, l’appel échoue avec : « Cette propriété ne peut être utilisée qu’avec des contrôle de contenu répétitif ».  <br/> |
+|**InsertRepeatingSectionItemBefore** en tant que **ContentControl** <br/> |Ajoute un élément répétitif avant l’élément actif et retourne le nouvel élément répétitif. Si cette méthode est appelée pour un contrôle de contenu qui n’est pas un élément de type répétitif, l’appel échoue avec : « Cette propriété ne peut être utilisée qu’avec des contrôles de contenu d’élément répétitifs ».  <br/> |
+|**InsertRepeatingSectionItemAfter** en tant que **ContentControl** <br/> |Ajoute un élément répétitif après l’élément actif et renvoie le nouvel élément répétitif. Si cette méthode est appelée pour un contrôle de contenu qui n’est pas de type répétitif, l’appel échoue avec le message suivant : « Cette propriété peut uniquement être utilisée avec des contrôles de contenu répétitifs. »  <br/> |
    
 Le tableau 5 répertorie les membres les plus importants de l’objet **RepeatingSectionItem**. 
   
@@ -424,7 +424,7 @@ End Sub
 ### <a name="open-xml-file-format-changes-for-repeating-section-content-controls"></a>Modifications de format de fichier Open XML pour les contrôles de contenu répétitif
 <a name="WordCC_RepeatingSection"> </a>
 
-La représentation de format de fichier d’un contrôle du contenu répétitif utilise généralement les mêmes noms, valeurs, etc. pour les éléments, comme le balisage XML existant ; cependant, l’élément \<sdt\> représentant le conteneur de la section répétitive extérieure se trouve dans l’espace de noms Word 2013, pour assurer la compatibilité avec les versions antérieures de Word.
+La représentation au format de fichier d’un contrôle de contenu répétitif utilise généralement les mêmes noms d’éléments, valeurs, etc. que le balisage XML existant ; toutefois, l’élément \<sdt\> représentant le conteneur répétitif externe existe dans l’espace de noms Word 2013, afin de garantir la compatibilité avec les versions antérieures de Word.
   
 Les éléments répétitifs individuels dans le contrôle de contenu répétitif (qui entourent chaque élément) sont enregistrés en tant que contrôles de contenu de texte enrichi à l’aide de la représentation WordprocessingML existante. Le tableau 8 répertorie les nouveaux éléments dans le schéma WordprocessingML pour les contrôles de contenu répétitif.
   
@@ -435,7 +435,7 @@ Les éléments répétitifs individuels dans le contrôle de contenu répétitif
 |\<w15:repeatingSection\>  <br/> |Spécifie un contrôle de contenu répétitif. Cet élément est incompatible avec tous les autres types de contrôles et n’a ni attributs enfants, ni éléments.  <br/> |
 |\<w15:repeatingSectionItem\>  <br/> |Spécifie un contrôle de contenu d’élément répétitif. Cet élément est incompatible avec tous les autres types de contrôles et n’a ni attributs enfants, ni éléments enfants.  <br/> |
 |\<w15:doNotAllowInsertDeleteSection\>  <br/> |Spécifie que l’utilisateur ne peut ni ajouter ni supprimer des sections à l’aide des options de l’interface dans Word 2013.  <br/> |
-|\<w15:sectionTitle\>  <br/> |Spécifie le nom des éléments de section répétitive (et est utilisé dans le menu contextuel lorsque le contrôle est sélectionné).  <br/> |
+|\<w15:sectionTitle\>  <br/> |Spécifie le nom des éléments répétés (et est utilisé dans le menu contextuel lorsque le contrôle est sélectionné).  <br/> |
    
 
   

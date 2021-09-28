@@ -6,13 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
 ms:contentKeyID: 48544862
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 09f60cb8dde407aacbb19e6b2124151dbbf9b3c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 564502f04e88d6ac6eba7f7a77c3ddae8dafe8c6
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287894"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59593860"
 ---
 # <a name="parameters-collection-dao"></a>Parameters, collection (DAO)
 
@@ -94,9 +94,9 @@ Cet exemple démontre les objets **Parameter** et la collection **Parameters** e
 
 <br/>
 
-L’exemple suivant montre comment créer une requête avec paramètres. Une requête nommée **myQuery** est créée avec deux paramètres nommés Param1 et Param2. Pour ce faire, la propriété SQL de la requête est définie sur une instruction SQL qui définit les paramètres.
+L'exemple suivant montre comment créer une requête avec paramètres. Une requête nommée **myQuery** est créée avec deux paramètres, nommés Param1 et Param2. Pour ce faire, la propriété SQL de la requête est définie sur une instruction SQL (Structured Query Language) qui définit les paramètres.
 
-**Exemple de code fourni par** [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Exemple de code fourni par** [Informations de référence du programmeur Microsoft Access 2010 (Microsoft Access 2010 Programmer’s Reference)](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -123,7 +123,7 @@ L’exemple suivant montre comment créer une requête avec paramètres. Une req
 
 <br/>
 
-L’exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters permet de définir le paramètre Organization de la requête myActionQuery avant l’exécution de celle-ci.
+L'exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters est utilisée pour définir le paramètre Organization de la requête myActionQuery avant l'exécution de cette dernière.
 
 ```vb
     Public Sub ExecParameterQuery()
