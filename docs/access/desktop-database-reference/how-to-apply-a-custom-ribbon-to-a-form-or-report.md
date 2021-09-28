@@ -7,13 +7,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196428(v=office.15)
 ms:contentKeyID: 48545865
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Priority
-ms.openlocfilehash: 329f184a1bcd3c856ccfd0b15c3fa92bc6230c98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 5bc5b4d9bc231cc7fcbb513170e802c307ffa76d
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291914"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59594194"
 ---
 # <a name="apply-a-custom-ribbon-to-a-form-or-report"></a>Appliquer un ruban personnalisé à un formulaire ou à un rapport
 
@@ -31,7 +31,7 @@ Une méthode que vous pouvez utiliser pour rendre des personnalisations du ruban
 
 **USysRibbons** est un tableau système créé par l’utilisateur. Ce tableau doit être créé en utilisant des noms de colonnes spécifiques afin que les personnalisations du ruban soient implémentées. 
 
-Le tableau suivant répertorie les paramètres à utiliser lors de la création du tableau**USysRibbons**.
+Le tableau suivant répertorie les paramètres à utiliser lors de la création du tableau **USysRibbons**.
 
 <table>
 <colgroup>
@@ -63,11 +63,11 @@ Le tableau suivant répertorie les paramètres à utiliser lors de la création 
 
 ### <a name="load-ribbon-extensibility-xml-programmatically"></a>Charger extensibilité du ruban XML par programme
 
-Vous pouvez utiliser la méthode** [LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI) ** permettant de charger les personnalisations de ruban par programme. En règle générale, pour créer le ruban et le mettre à la disposition de l’application, vous devez tout d’abord créer un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI**, laquelle transmet le nom du Ruban et le code de personnalisation XML.
+Vous pouvez utiliser la méthode **[LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI)** permettant de charger les personnalisations de ruban par programme. En règle générale, pour créer le ruban et le mettre à la disposition de l’application, vous devez tout d’abord créer un module dans la base de données avec une procédure qui appelle la méthode **LoadCustomUI**, laquelle transmet le nom du Ruban et le code de personnalisation XML.
 
 Le code XML peut provenir d’un objet **Recordset** créé à partir d’une table, d’une source externe à la base de données (comme un fichier XML que vous analysez dans un objet de type String) ou de code XML incorporé directement dans la procédure. Vous pouvez rendre plusieurs rubans disponibles à l'aide de plusieurs appels à la méthode **LoadCustomUI**, autre balisage XML, dans la mesure où le nom de chaque ruban et l'attribut **id** des onglets constituant le ruban sont uniques.
 
-Une fois la procédure terminée, vous créez une macro AutoExec qui appelle la procédure à l’aide de l’action ExécuterCode. Ainsi, lorsque l'application est lancée, la méthode **LoadCustomUI** s'exécute automatiquement et tous les rubans personnalisés sont accessibles à l'application.
+Une fois la procédure terminée, vous créez ensuite une macro AutoExec qui appelle la procédure à l'aide de l'action ExécuterCode. Ainsi, lorsque l'application est lancée, la méthode **LoadCustomUI** s'exécute automatiquement et tous les rubans personnalisés sont accessibles par l'application.
 
 ## <a name="assign-custom-ribbons-to-forms-or-reports"></a>Affectation de Rubans personnalisés à des formulaires ou des rapports
 
@@ -83,7 +83,7 @@ Une fois la procédure terminée, vous créez une macro AutoExec qui appelle la 
 
 
 > [!NOTE]
-> Les onglets affichés dans le Ruban sont additifs. Autrement dit, à moins que vous ne masquiez explicitement les onglets ou que vous n’affectiez la valeur**True** à l’attribut *Start from Scratch*, les onglets affichés dans le Ruban d’un formulaire ou d’un état s’ajoutent aux onglets existants.
+> Les onglets affichés dans le Ruban sont additifs. Autrement dit, à moins que vous ne masquiez explicitement les onglets ou que vous n’affectiez la valeur **True** à l’attribut *Start from Scratch*, les onglets affichés dans le Ruban d’un formulaire ou d’un état s’ajoutent aux onglets existants.
 
 > [!NOTE]
 > Pour plus d'informations sur l'interface du ruban dans d'autres applications Office, consultez l'article [Vue d'ensemble du ruban Office Fluent](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).

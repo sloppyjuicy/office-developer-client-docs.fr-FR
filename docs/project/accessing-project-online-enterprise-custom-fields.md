@@ -5,13 +5,13 @@ ms.date: 11/08/2016
 ms.audience: Developer
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online est un service Office 365 que les entreprises peuvent étendre afin de répondre à leurs besoins. Une zone d’extension est constituée par les champs personnalisés d’entreprise. Les champs personnalisés d’entreprise sont des champs où des valeurs sont saisies et qui peuvent être ajoutés à des projets, ressources et tâches. Le tableau suivant répertorie les champs personnalisés d’entreprise qui sont associés à des projets, ressources et tâches, et fournit un exemple de valeur pour une instance de ce champ personnalisé d’entreprise :'
-localization_priority: Priority
-ms.openlocfilehash: 9f754f1446890ae021bf6f7000ffba11e2a2df33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: a445d15adb82c5cb770bf81403ef53a6eb33e012
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355082"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59613204"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Accès aux champs personnalisés d’entreprise Project Online
 
@@ -70,7 +70,7 @@ Le dictionnaire pwaECF stocke les champs personnalisés d’entreprise du projet
 
 ## <a name="main-method"></a>Méthode Main
 
-La méthode Main gère le flux de l’application. Comme avec d’autres applications qui utilisent le CSOM Project Online, Main initialise le contexte du projet. 
+La méthode Main gère le flux d’application. Comme pour les autres applications qui utilisent le modèle CSOM Project Online, Main initialise le contexte du projet. 
   
 1. Récupérer et répertorier les champs personnalisés d’entreprise dans l’instance PWA Project Online.
     
@@ -117,7 +117,7 @@ La méthode Main gère le flux de l’application. Comme avec d’autres applica
     
    Les propriétés de champ personnalisé d’entreprise autres que les valeurs du champ sont stockées dans des objets CustomField (un objet par projet). Utilisez une collection CustomFields pour accéder aux champs personnalisés d’entreprise associés à un projet individuel. 
     
-5. Chaque projet stocke les champs personnalisés d’entreprise associés dans une collection où chaque champ personnalisé d’entreprise est constitué d’une clé (le nom interne du champ personnalisé d’entreprise) et d’un objet qui conserve la valeur du champ personnalisé d’entreprise. Transférez la collection vers un dictionnaire pour accéder à des entrées individuelles. La déclaration suit.
+5. Chaque projet stocke les champs personnalisés d’entreprise associés dans une collection où chaque champ personnalisé d’entreprise est constitué d’une clé (le nom interne du champ personnalisé d’entreprise) et d’un objet qui conserve la valeur du champ personnalisé d’entreprise. Transférez la collection dans un dictionnaire pour accéder à des entrées individuelles. La déclaration suit.
     
    ```cs
     Dictionary<string, object> projDict = pubProj.IncludeCustomFields.FieldValues;
@@ -205,7 +205,7 @@ La méthode ne vérifie pas si un projet utilise un champ personnalisé d’entr
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Portail de développement Project](https://developer.microsoft.com/fr-FR/project)
+- [Portail de développement Project](https://developer.microsoft.com/en-us/project)
 - [Vue d’ensemble : champs personnalisés d’entreprise et tables de choix](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [Champs personnalisés locaux et d’entreprise](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [Ajouter ou modifier des champs personnalisés d’entreprise dans Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)

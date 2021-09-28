@@ -10,13 +10,13 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
-ms.openlocfilehash: 1cd4188931999284a6454064a0906b64cf1f519a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.localizationpriority: high
+ms.openlocfilehash: 4c639f14a414c5bd32d1790631a6c1e6baaf1288
+ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32294252"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59597449"
 ---
 # <a name="dbengineopendatabase-method-dao"></a>DBEngine.OpenDatabase, méthode (DAO)
 
@@ -26,7 +26,7 @@ Ouvre une base de données spécifiée et renvoie une référence à l’objet *
 
 ## <a name="syntax"></a>Syntaxe
 
-*expression* .OpenDatabase(***Name***, ***Options***, ***ReadOnly***, ***Connect***)
+*expression* . OpenDatabase(***Nom** _, _*_Options_*_, _*_en lecture seule_*_, _*_Connect_**)
 
 *expression* Variable représentant un objet **DBEngine**.
 
