@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: d21690a0444fcae2d45596935969d63ed69fff43
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 40e0dc3fa990d9b39801987ed8aedc8baa3879c7
+ms.sourcegitcommit: 759a4c5cff383963ef0d64888bcc0046738e9635
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611538"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327746"
 ---
 # <a name="setfilter-macro-action"></a>SetFilter, action de macro
 
@@ -27,33 +27,11 @@ Vous pouvez utiliser l’action **AppliquerFiltre** pour appliquer un filtre aux
 ## <a name="setting"></a>Paramètre
 
 L’action **AppliquerFiltre** utilise les arguments suivants.
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Argument de l’action</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Nom du filtre</p></td>
-<td><p>Si spécifié, il s’agit du nom d’une requête ou d’un filtre enregistré en tant que requête. Cet argument ou l’argument Condition Where est obligatoire dans une base de données cliente. Dans une base de données web, cet argument n’est pas disponible.</p></td>
-</tr>
-<tr class="even">
-<td><p>Condition Where</p></td>
-<td><p>S'il est fourni, une clause WHERE SQL qui limite les enregistrements d'une feuille de données, d'un formulaire, d'un état ou d'une table. Dans une base de données web, cet argument est obligatoire.</p></td>
-</tr>
-<tr class="odd">
-<td><p>Nom du contrôle</p></td>
-<td><p>Si spécifié, il s'agit du nom du contrôle qui correspond au sous-formulaire ou sous-état à filtrer. Si cet argument est vide, l'objet actif est filtré.</p></td>
-</tr>
-</tbody>
-</table>
+|Argument de l’action  |Description   |
+|----------|-----------|
+|Nom du filtre  |Si spécifié, il s’agit du nom d’une requête ou d’un filtre enregistré en tant que requête. Cet argument ou l’argument Condition Where est obligatoire dans une base de données cliente. Dans une base de données web, cet argument n’est pas disponible.|
+|Condition Where|S'il est fourni, une clause WHERE SQL qui limite les enregistrements d'une feuille de données, d'un formulaire, d'un état ou d'une table. Dans une base de données web, cet argument est obligatoire.|
+|Nom du contrôle|Si spécifié, il s'agit du nom du contrôle qui correspond au sous-formulaire ou sous-état à filtrer. Si cet argument est vide, l'objet actif est filtré.|
 
 
 ## <a name="remarks"></a>Remarques
@@ -85,6 +63,6 @@ L’exemple suivant montre comment utiliser l’action DéfinirFiltre pour filtr
     
     SetFilter
         Filter Name
-        Where Condtion =[display_name] Like "*cheese*"
+        Where Condition =[display_name] Like "*cheese*"
         Control Name
 ```

@@ -7,12 +7,12 @@ ms:contentKeyID: 55119854
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7d311b6a119704d8ae0c9f23a2c35498f2c7d594
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d1f285519686450dc795c79e53f22c5c8cbe2761
+ms.sourcegitcommit: 759a4c5cff383963ef0d64888bcc0046738e9635
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616291"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327767"
 ---
 # <a name="implement-a-wrapper-for-inspectors-and-track-item-level-events-in-each-inspector"></a>Mettre en œuvre un wrapper pour les inspecteurs et suivre les événements au niveau des éléments dans chaque inspecteur
 
@@ -25,7 +25,7 @@ Cette rubrique contient deux exemples de code qui montrent comment implémenter 
 
 Les exemples de deux codes suivants implémentent les classes Connect et OutlookInspector. Le premier met en œuvre des méthodes et des gestionnaires d'événements que vous incluez dans la classe Connect afin d'implémenter un wrapper pour une collection **Inspecteurs**. Le second met en œuvre une implémentation simple de la classe **OutlookInspector**.
 
-Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d’objets Microsoft Outlook 15.0 et spécifier la variable lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration publique. Le code suivant illustre l’importation et l’affectation dans C\#.
+Si vous utilisez Visual Studio pour tester cet exemple de code, vous devez d’abord ajouter une référence au composant Bibliothèque d'objets Microsoft Outlook 15.0 et spécifier la variable Outlook lorsque vous importez l’espace de noms **Microsoft.Office.Interop.Outlook**. L’instruction **using** ne doit pas se produire juste avant les fonctions de l’exemple de code, mais doit être ajoutée avant la déclaration Class publique. La ligne de code suivante montre comment effectuer l’importation et l’affectation dans C \#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -43,12 +43,17 @@ class Connect
     private Outlook.Inspectors inspectors;
 
     // Collection of tracked inspector windows              
-    private List<OutlookInspector> inspectorWindows;    
-
-    // Hook up NewInspector event
-    inspectors.NewInspector += new 
-        Outlook.InspectorsEvents_NewInspectorEventHandler(
-        inspectors_NewInspector);
+    private List<OutlookInspector> inspectorWindows;   
+    
+    public Connect(Outlook.Inspectors Inspectors)
+    {
+        inspectors = Inspectors;
+        inspectorWindows = new List<OutlookInspector>();
+        // Hook up NewInspector event
+        inspectors.NewInspector += new 
+            Outlook.InspectorsEvents_NewInspectorEventHandler(
+                inspectors_NewInspector);
+    }
 
     // NewInspector event creates new instance of OutlookInspector
     void inspectors_NewInspector(Outlook.Inspector Inspector)

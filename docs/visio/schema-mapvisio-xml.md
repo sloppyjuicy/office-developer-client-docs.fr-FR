@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 3ff1f2e1-bdfe-2766-3c0f-0f299cc256e9
 description: Cette rubrique présente la définition de schéma XML pour Visio format de fichier 2013.
-ms.openlocfilehash: 88e6ed519ef87cf4289cf8faef7ee354428864c3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: af57cf9737c87f11cce74f622692f3d8997d19ad
+ms.sourcegitcommit: 759a4c5cff383963ef0d64888bcc0046738e9635
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627533"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327739"
 ---
 # <a name="schema-map-visio-xml"></a>Plan de schéma (Visio XML)
 
@@ -24,7 +24,8 @@ Cette rubrique présente la définition de schéma XML pour Visio format de fich
     Visio VSDX Schema
     Copyright (C) 2013 Microsoft Corporation. All rights reserved.
 -->
-<xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.microsoft.com/office/visio/2011/1/core" xmlns="http://schemas.microsoft.com/office/visio/2011/1/core" elementFormDefault="qualified" attributeFormDefault="unqualified">
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.microsoft.com/office/visio/2011/1/core" xmlns="http://schemas.microsoft.com/office/visio/2011/1/core" elementFormDefault="qualified" attributeFormDefault="unqualified">
     <xsd:annotation>
         <xsd:documentation>
             Permission to copy, display and distribute the contents of this document (the "Specification"), in any medium for any purpose without fee or royalty is hereby granted, provided that you include the following notice on ALL copies of the Specification, or portions thereof, that you make:
