@@ -1,16 +1,16 @@
 ---
 title: Compatibilité entre les versions 32 bits et 64 bits d’Office
-ms.date: 09/14/2021
+ms.date: 10/27/2021
 ms.audience: ITPro
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: Découvrez en quoi la version 32 bits d’Office est compatible avec la version 64 bits d’Office.
 ms.localizationpriority: high
-ms.openlocfilehash: 73c0459c2b5da6f8b63e77a4056fbebf83c88708
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 454eca3abd26d535dce7ddccf56c6ab77f088793
+ms.sourcegitcommit: 759a4c5cff383963ef0d64888bcc0046738e9635
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574439"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327758"
 ---
 # <a name="compatibility-between-the-32-bit-and-64-bit-versions-of-office"></a>Compatibilité entre les versions 32 bits et 64 bits d’Office
 
@@ -23,7 +23,7 @@ Les versions 64 bits d’Office vous permettent de déplacer davantage de donné
 L’implémentation Visual Basic pour Applications 7.0 (VBA 7) est publiée dans les versions 64 bits d’Office, mais elle fonctionne avec les applications 32 bits et 64 bits. Les modifications décrites dans cet article s’appliquent uniquement aux versions 64 bits d’Office. Utiliser les versions 32 bits de Microsoft Office vous permet d’exploiter les solutions intégrées dans les versions précédentes d’Office sans apporter d’autres modifications.
   
 > [!NOTE]
-> Par défaut, lorsque vous installez une version 64 bits d’Office, vous installez également la version 32 bits. Vous devez explicitement sélectionner l’option d’installation de la version 64 bits de Microsoft Office. 
+> Par défaut, lorsque vous installez une version 64 bits d'Office, vous ne pouvez pas installer la version 32 bits à côté de celle-ci. Vous devez explicitement sélectionner l’option d’installation de la version 64 bits de Microsoft Office. 
   
 Dans VBA 7, vous devez mettre à jour les instructions API Windows existantes (instructions **Declare**) pour qu’elles fonctionnent avec la version 64 bits. De plus, vous devez mettre à jour les pointeurs d’adresse et afficher les handles de fenêtre dans les types définis par l’utilisateur utilisés par ces instructions. Ces questions sont abordées plus en détail dans cet article, ainsi que les problèmes de compatibilité entre les versions 32 bits et 64 bits et les solutions suggérées. 
   
@@ -219,7 +219,7 @@ Non.
   
 #### <a name="when-should-i-convert-long-parameters-to-longptr"></a>Quand dois-je convertir des paramètres Long en LongPtr ?
   
-Vous devez vérifier la documentation de l’API Windows sur le Microsoft Developers Network pour la fonction que vous voulez appeler. Les handles et les pointeurs doivent être convertis en **LongPtr**. Par exemple, la documentation relative à [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa.md) fournit la signature suivante : 
+Vous devez vérifier la documentation de l’API Windows sur le Microsoft Developers Network pour la fonction que vous voulez appeler. Les handles et les pointeurs doivent être convertis en **LongPtr**. À titre d'exemple, la documentation de [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa.md) fournit la signature suivante. 
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
