@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 7fd11650-fffa-1316-d302-3122ac5feb14
 description: Représente une chaîne de description qui apparaît sous la forme d'une info-bulle lorsqu'un utilisateur maintient quelques instants le pointeur sur la poignée de contrôle d'une forme. L'application affiche automatiquement ces informations détaillées entre guillemets dans la cellule. Ces guillemets n'apparaissent pas dans l'info-bulle.
-ms.openlocfilehash: 834583eece5c71d42218e67411944fee11279f65
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: eb0356af6da6a712b7cf284f833401b103e39379
+ms.sourcegitcommit: bebcc8c6f480997f9dfa5c476daf62249b8791f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569887"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61558883"
 ---
 # <a name="tip-cell-controls-section"></a>Tip, cellule (section Controls)
 
@@ -26,7 +26,7 @@ Pour obtenir une référence à la cellule Tip par un nom dans une autre formule
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Contrôles.  *nom*  . Tipwhere Controls.  *nom*  est le nom de la ligne des contrôles.  <br/> |
+| Nom de la cellule :  <br/> | Contrôles. *nom* . Invite où contrôles.  *nom*  est le nom de la ligne des contrôles.  <br/> |
    
 Pour obtenir une référence à la cellule Tip par index dans un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
