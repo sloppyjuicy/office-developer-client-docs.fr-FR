@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: eaac62a5-f516-9b81-587a-8e0e02de59ee
 description: Contient les coordonnées x et y, la direction horizontale et verticale, et le type d’un point de connexion unique sur une forme. Les coordonnées des points de connexion sont mesurées à partir de l'origine de la forme. Une forme contient une ligne Connection Points pour chaque point de connexion.
-ms.openlocfilehash: 49596be9a713d48b6262edcf1a7c3d4f64a735bd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6abe42a597102da6a3f57460efe9d0df3813742a
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582937"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179878"
 ---
 # <a name="connection-points-row-connection-points-section"></a>Connection Points, ligne (section Connection Points)
 
@@ -24,16 +24,16 @@ Si les lignes Connection Points sont nommées, leurs noms apparaissent sous la f
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-connection-points-section.md) <br/> |Coordonnée  *x*  d’un point de connexion en coordonnées locales.  <br/> |
-|[Y](y-cell-connection-points-section.md) <br/> |Coordonnée  *y*  d’un point de connexion en coordonnées locales.  <br/> |
-|[DirX/A](dirxa-cell-connection-points-section.md) <br/> |Composant  *x*  pour le vecteur d’alignement requis d’un point de connexion correspondant. Cette cellule sert également à orienter la branche reliée d'un lien dynamique. Elle accepte une valeur à virgule flottante.  <br/> |
-|[Diry/B](diryb-cell-connection-points-section.md) <br/> |Composant  *y*  pour le vecteur d’alignement requis d’un point de connexion correspondant. Cette cellule sert également à orienter la branche reliée d'un lien dynamique. Elle accepte une valeur à virgule flottante.  <br/> |
+|[X](x-cell-connection-points-section.md) <br/> |Coordonnée *x*  d’un point de connexion en coordonnées locales.  <br/> |
+|[Y](y-cell-connection-points-section.md) <br/> |Coordonnée *y*  d’un point de connexion en coordonnées locales.  <br/> |
+|[DirX/A](dirxa-cell-connection-points-section.md) <br/> |Composant *x*  pour le vecteur d’alignement requis d’un point de connexion correspondant. Cette cellule sert également à orienter la branche reliée d'un lien dynamique. Elle accepte une valeur à virgule flottante.  <br/> |
+|[Diry/B](diryb-cell-connection-points-section.md) <br/> |Composant *y*  pour le vecteur d’alignement requis d’un point de connexion correspondant. Cette cellule sert également à orienter la branche reliée d'un lien dynamique. Elle accepte une valeur à virgule flottante.  <br/> |
 |[Type/C](typec-cell-connection-points-section.md) <br/> |Type du point de connexion (0 = vers l'intérieur; 1 = vers l'extérieur; 2 = vers l'intérieur et l'extérieur).  <br/> |
 |[D](d-cell-connection-points-section.md) <br/> |Cellule de montage utilisable pour entrer ou tester des formules. Pour accéder à cette cellule, cliquez avec le bouton droit de la souris sur une ligne, puis choisissez **Modifier le type de ligne** dans le menu contextuel.<br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Les cellules de la ligne Connections. *les*  lignes de nom sont étiquetées DirX/A, DirY/B et Type/C, car ces lignes peuvent être étendues ou non étendues. 
+Les cellules de la ligne Connections. *sont*  étiquetées DirX/A, DirY/B et Type/C, car ces lignes peuvent être étendues ou non étendues. 
   
 La plupart des points de connexion (tous les points de connexion créés via l'interface utilisateur) ne sont pas étendus et possèdent des cellules DirX, DirY et Type. Leur type de ligne est **visTagCnnctPt** ou **visTagCnnctNamed.**
   
@@ -51,7 +51,7 @@ Les lignes étendues possèdent des cellules A, B, C et D et se comportent comme
   
 Vous pouvez désigner les cellules d'une ligne Connection Points à l'aide de leur nom de ligne, qui apparaît en rouge dans la fenêtre Feuille ShapeSheet. Pour modifier le nom de la ligne, cliquez dessus, puis tapez un nom tel que  *Personnalisé,*  par exemple, pour créer le nom de ligne Connections.Custom. Vous pouvez ensuite faire référence à la cellule X à l'aide de l'instruction Connections.Personnalisée.X par exemple, ou Connections.X1 si vous souhaitez utiliser le numéro de ligne. 
   
-Le nom de ligne que vous entrez doit être unique dans la section. Lorsque vous créez un nom pour une ligne dans la section Connection Points, Microsoft Office Visio nomme toutes les lignes de la section avec le nom par défaut, Connections.Row_ *n* . 
+Le nom de ligne que vous entrez doit être unique dans la section. Lorsque vous créez un nom pour une ligne dans la section Connection Points, Microsoft Office Visio toutes les lignes de la section avec le nom par défaut, Connections.Row_ *n* . 
   
 Les lignes Connection Points nommées ne sont pas compatibles avec les versions de Visio antérieures à Visio 5.0. Lorsque vous enregistrez un fichier de dessin Visio 5.0 avec des lignes Connection Points nommées dans le format d'une version antérieure, les références aux lignes Connection Points nommées sont converties en références indexées, et les noms de lignes sont perdus.
   

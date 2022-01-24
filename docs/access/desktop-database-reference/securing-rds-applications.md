@@ -7,12 +7,12 @@ ms:contentKeyID: 48543423
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 49476ab8bf3af8fadf4127fabd2966e888981af6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bab00ba641541f2575eed0927c1bcc4743da813e
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596875"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179346"
 ---
 # <a name="securing-rds-applications"></a>Sécurisation des applications RDS
 
@@ -28,13 +28,13 @@ Pour plus d'informations sur ces problèmes, consultez l'article consacré aux p
 
 Si vous utilisez l’objet [RDSServer.DataFactory](datafactory-object-rdsserver.md) sur votre serveur web Internet, n’oubliez pas que cela crée un risque de sécurité potentiel. Les utilisateurs externes qui obtiennent un nom de source de données (DSN), un ID utilisateur et un mot de passe valides sont en mesure d'écrire des pages pour envoyer une requête à cette source de données. Si vous souhaitez un accès plus limité à une source de données, une solution possible consiste à annuler l'enregistrement de l'objet **RDSServer.DataFactory** (msadcf.dll) et à le supprimer pour utiliser des objets métier personnalisés avec des requêtes codées en dur.
 
-Pour plus d’informations sur les implications en matière de sécurité de l’utilisation de l’objet RDSServer.DataFactory, consultez le Bulletin de sécurité Microsoft MS99-025 sur le site web [De sécurité Microsoft.](https://www.microsoft.com/en-us/security/default.aspx)
+Pour plus d’informations sur les implications en matière de sécurité de l’utilisation de l’objet RDSServer.DataFactory, consultez le Bulletin de sécurité Microsoft MS99-025 sur le site web [De sécurité Microsoft.](https://www.microsoft.com/security/default.aspx)
 
 ## <a name="client-impersonation-and-security"></a>Emprunt d'identité et sécurité client
 
 Si  la propriété d’authentification par mot de passe de votre serveur web IIS Windows la valeur NT Challenge/Response Authentication (pour Windows NT 4.0) ou l’authentification Windows intégrée (pour Windows 2000), les objets métier sont appelés dans le contexte de sécurité du client. Il s'agit d'une nouvelle fonctionnalité de RDS 1.5 qui permet l'emprunt d'identité du client sur HTTP. Lorsque vous travaillez dans ce mode, l’accès au serveur web (IIS) n’est pas anonyme, mais utilise l’ID utilisateur et le mot de passe sous l’ordinateur client. Si les noms des sources de données ODBC sont configurés pour utiliser une connexion approuvée, l'accès aux bases de données, telles que SQL Server, s'opère également dans le contexte de sécurité du client. Mais cela fonctionne uniquement si la base de données réside sur le même ordinateur que Microsft IIS ; les informations d'identification du client ne peuvent pas être transférées sur un autre ordinateur.
 
-Prenons l'exemple du client Jean Dupont, qui est connecté à un ordinateur client sous l'ID utilisateur « JeanD » et le mot de passe « secret ». Il utilise une application de type navigateur qui a besoin d'accéder à l'objet **RDSServer.DataFactory** pour créer un objet [Recordset](recordset-object-ado.md) en exécutant une requête SQL sur l'ordinateur « MonServeur » exécutant IIS. MonServeur, qui est un système fonctionnant sous Windows NT Server 4.0, est configuré pour utiliser l'Authentification par simulation/réponse de Windows NT, son nom de source de données ODBC est configuré pour utiliser une connexion approuvée, et il contient également la source de données SQL Server. Lorsqu’une demande est reçue sur le serveur web, elle demande au client l’ID d’utilisateur et le mot de passe. Par conséquent, la demande est enregistrée sur MyServer comme provenant de « JohnD » /« Secret » au lieu d’IUSER MyServer (qui est la valeur par défaut lorsque l’authentification par mot de passe anonyme est \_ en cours d’authentification). De la même manière, « JeanD »/« Secret » est utilisé pour se connecter à SQL Server.
+Prenons l'exemple du client Jean Dupont, qui est connecté à un ordinateur client sous l'ID utilisateur « JeanD » et le mot de passe « secret ». Il utilise une application de type navigateur qui a besoin d'accéder à l'objet **RDSServer.DataFactory** pour créer un objet [Recordset](recordset-object-ado.md) en exécutant une requête SQL sur l'ordinateur « MonServeur » exécutant IIS. MonServeur, qui est un système fonctionnant sous Windows NT Server 4.0, est configuré pour utiliser l'Authentification par simulation/réponse de Windows NT, son nom de source de données ODBC est configuré pour utiliser une connexion approuvée, et il contient également la source de données SQL Server. Lorsqu’une demande est reçue sur le serveur web, elle demande au client l’ID utilisateur et le mot de passe. Par conséquent, la demande est enregistrée sur MyServer comme provenant de « JohnD » /« Secret » au lieu d’IUSER MyServer (qui est la valeur par défaut lorsque l’authentification par mot de passe anonyme est \_ en cours d’authentification). De la même manière, « JeanD »/« Secret » est utilisé pour se connecter à SQL Server.
 
 Par conséquent, le mode d'authentification par stimulation/réponse de Windows NT permet la création de pages HTML sans que l'utilisateur soit explicitement invité à fournir l'ID utilisateur et le mot de passe nécessaires pour se connecter à la base de données. Si l'authentification de base IIS avait été utilisée, ces informations auraient aussi été nécessaires.
 

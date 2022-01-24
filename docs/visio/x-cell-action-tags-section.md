@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: d13e362b-9b69-30c5-003a-9c5df2aa29f6
 description: Position de coordonnée x dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé.
-ms.openlocfilehash: 76b334daf087fd2fcacf1fd706cfb3186e87110c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b0f0db22e5e5315532945c144086c975a5f6dfe3
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603192"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180809"
 ---
 # <a name="x-cell-action-tags-section"></a>X, cellule (section Action Tags)
 
-Position  *de coordonnée x*  dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé. 
+Position *de coordonnée x*  dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé. 
   
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 

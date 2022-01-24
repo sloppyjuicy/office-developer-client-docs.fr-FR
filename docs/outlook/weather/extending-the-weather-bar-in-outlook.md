@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Découvrez comment ajouter un service web météorologique tiers à la barre météorologique dans Outlook 2013, afin de fournir des données de conditions météorologiques pour un lieu choisi par l'utilisateur.
-ms.openlocfilehash: 080fea920848139b61e738cb5f78a22329b57daf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bc790ecec877a2104eb1d00a77bdfc8333753bda
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598968"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180088"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>Extension de la barre météorologique dans Outlook
 
@@ -181,7 +181,7 @@ Contoso Météo répond avec le code XML suivant afin de fournir les information
 <?xml version="1.0"?>
 <weatherdata>
   <weather timezone="9" attribution="Data provided by Trey Research" 
-    degreetype="F" imagerelativeurl="https://contoso.com/images/en-us/" 
+    degreetype="F" imagerelativeurl="https://contoso.com/images/" 
     url="https://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
     weatherlocationname="Tokyo, JPN" 
     weatherlocationcode="wc:JAXX0085">

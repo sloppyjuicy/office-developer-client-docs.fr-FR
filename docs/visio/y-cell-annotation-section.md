@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm60095
 ms.localizationpriority: medium
 ms.assetid: 527a4615-2013-a4b4-81cd-7f5d71c1803c
-description: Coordonnée y du marqueur de commentaire en coordonnées de page.
-ms.openlocfilehash: 669e395c751770dfe160abff6ee23e227989ce32
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Coordonnée y de la marque de commentaire en coordonnées de page.
+ms.openlocfilehash: 3d14a28f80e935a37d302de46d0b9b1cd4419eb6
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603101"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180522"
 ---
 # <a name="y-cell-annotation-section"></a>Y, cellule (section Annotation)
 
-Coordonnée  *y*  du marqueur de commentaire en coordonnées de page. 
+Coordonnée *y*  de la marque de commentaire en coordonnées de page. 
   
 > [!NOTE]
 > Cette cellule est utilisée pour suivre les commentaires uniquement lors de l’ouverture d’un fichier .vsd dans Microsoft Visio 2013 ou lors de l’enregistrement d’un fichier .vsdx au format de fichier .vsd. Il n’est pas utilisé pour le suivi des commentaires dans les documents .vsdx Visio 2013. 

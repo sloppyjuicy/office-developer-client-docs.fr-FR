@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 1c4937c4-0998-4f81-a994-50d3dd54727c
 description: Recherchez des procédures, des exemples de code, de la documentation sur les kits de développement logiciel et les API, des références VBA, des formations et des articles techniques portant sur le développement de solutions et la personnalisation de Office.
 ms.localizationpriority: high
-ms.openlocfilehash: 613984ec8d1175f8c47dcc2dec68768144c517af
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1b059c74fb0394fe36ff94d2e572f395892148e9
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554949"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179437"
 ---
 # <a name="office-shared"></a>Office partagé
 
@@ -32,7 +32,7 @@ Recherchez des procédures, des exemples de code, de la documentation sur les ki
   
 ### <a name="office-365-apis"></a>API Office 365
   
-- [Prise en main](https://developer.microsoft.com/en-us/office/docs)
+- [Prise en main](https://developer.microsoft.com/office/docs)
   
 - [Vue d’ensemble de la plateforme](https://docs.microsoft.com/previous-versions/office/office-365-api/)
   

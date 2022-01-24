@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251757
 ms.localizationpriority: medium
 ms.assetid: b78a993f-4165-438d-39cf-9461b2877f17
-description: Contient les coordonnées x et y du dernier point d’une polyligne et d’une formule de polyligne.
-ms.openlocfilehash: bd4456109bfd313d67e4778d73b92b9335a99d13
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient les coordonnées x et y du dernier point d’une polyligne et d’une formule polyligne.
+ms.openlocfilehash: 1f30a5a137dc9b57d695e09cfab32c62ac4a403d
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59608045"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180060"
 ---
 # <a name="polylineto-row-geometry-section"></a>PolylineTo, ligne (section Geometry)
 
-Contient  *les coordonnées*  x et  *y*  du dernier point d’une polyligne et d’une formule de polyligne. 
+Contient  *les coordonnées*  x et  *y*  du dernier point d’une polyligne et d’une formule polyligne. 
   
 Une ligne PolylineTo contient les cellules suivantes.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordonnée  *x*  du sommet de fin d’une polyligne.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Coordonnée  *y*  du sommet de fin d’une polyligne.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordonnée *x*  du sommet de fin d’une polyligne.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y*  du sommet de fin d’une polyligne.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |Formule de la polyligne.  <br/> |
    
 ## <a name="remarks"></a>Remarques

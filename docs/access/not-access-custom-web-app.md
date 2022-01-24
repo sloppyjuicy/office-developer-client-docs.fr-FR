@@ -7,19 +7,19 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: f0f0a65f-5248-4d7c-a4a4-a0cc863b15ec
 description: Annule une entrée boolé américaine.
-ms.openlocfilehash: 66706d870961910e7d2544c7eaa2a942528d4d07
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 61b2840724c85cfe079fb1b6980b55caecd034b3
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614765"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179675"
 ---
 # <a name="not-access-custom-web-app"></a>NOT (Application web personnalisée Access)
 
 Annule une entrée boolé américaine.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="syntax"></a>Syntaxe
 

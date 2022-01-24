@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: e47e1182-e44b-43a2-8254-cc39a9ba1269
 description: ''
-ms.openlocfilehash: 1c2b9e8ecfa4da37d85c5c83b03172b9362870f1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 13b04b74c8234a7b33c67e042f90a301a8296003
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577702"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179395"
 ---
 # <a name="comparison-operators-access-custom-web-app"></a>Comparison Operators (Access custom web app)
 
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="in-this-section"></a>Dans cette section
 

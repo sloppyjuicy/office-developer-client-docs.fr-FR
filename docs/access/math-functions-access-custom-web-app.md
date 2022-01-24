@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 88c6cabc-afcd-4b3b-a3df-d0d4eaeae7ca
-ms.openlocfilehash: ffb857f970badc501469442282cb372409ba8043
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d09eb598bceee42701e12f98341df823ab3a0c99
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593102"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180480"
 ---
 # <a name="math-functions-access-custom-web-app"></a>Fonctions mathématiques (application web personnalisée Access)
 
 ## <a name="in-this-section"></a>Dans cette section
 
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 - [Abs Function (Access custom web app)](abs-function-access-custom-web-app.md)
     
@@ -42,7 +42,7 @@ ms.locfileid: "59593102"
     
 - [Pi Function (Access custom web app)](pi-function-access-custom-web-app.md)
     
-- [Power Function (Application web personnalisée Access)](power-function-access-custom-web-app.md)
+- [Power Function (Access custom web app)](power-function-access-custom-web-app.md)
     
 - [Rand Function (Access custom web app)](rand-function-access-custom-web-app.md)
     

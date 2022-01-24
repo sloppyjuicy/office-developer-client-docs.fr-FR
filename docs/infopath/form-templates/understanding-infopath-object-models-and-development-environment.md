@@ -8,18 +8,18 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: Microsoft InfoPath 2013 prend en charge deux types de modèles de programmation pour le développement de logique métier dans les modèles de formulaire et prend en charge l’automatisation externe à partir du code géré.
-ms.openlocfilehash: 99a72dda5e50f856fbf94c88e891f8a2a7e39d1b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7413d4643444ad56a6078b22e468ef7f527c1668
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59631285"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179647"
 ---
 # <a name="understanding-infopath-object-models-and-development-environment"></a>Modèles objet et environnement de développement d'InfoPath
 
 Microsoft InfoPath 2013 prend en charge deux types de modèles de programmation pour le développement de logique métier dans les modèles de formulaire et prend en charge l’automatisation externe à partir du code géré.
   
-InfoPath Forms Services, qui est disponible dans SharePoint Server 2013, fournit une expérience de navigateur Web pour remplir les formulaires InfoPath. Lorsqu’ils sont déployés sur un serveur qui exécute InfoPath Forms Services, les formulaires basés sur des modèles de formulaire compatibles avec le navigateur (.xsn) peuvent être ouverts dans un navigateur Web à partir d’ordinateurs où InfoPath n’est pas installé, mais ils s’ouvrent dans InfoPath lorsqu’il est installé. InfoPath Forms Services fournit également un modèle objet pour automatiser les tâches serveur liées à la publication et à l’administration des modèles de formulaires InfoPath.
+InfoPath Forms Services, disponible dans SharePoint Server 2013, fournit une expérience de navigateur Web pour remplir les formulaires InfoPath. Lorsqu’ils sont déployés sur un serveur qui exécute InfoPath Forms Services, les formulaires basés sur des modèles de formulaire compatibles avec le navigateur (.xsn) peuvent être ouverts dans un navigateur Web à partir d’ordinateurs où InfoPath n’est pas installé, mais ils s’ouvrent dans InfoPath lorsqu’il est installé. InfoPath Forms Services fournit également un modèle objet pour automatiser les tâches serveur liées à la publication et à l’administration des modèles de formulaires InfoPath.
   
 InfoPath 2013 prend en charge l’environnement de programmation Visual Studio 2012 et ses langages de programmation associés, qui sont décrits plus loin dans cette rubrique.
   
@@ -42,7 +42,7 @@ InfoPath Forms Services fournit un modèle objet qui permet l'automatisation des
 
 Le modèle objet InfoPath 2013 avec code géré est implémenté dans deux assemblys nommés Microsoft.Office.Infopath.dll.
   
-Une version de l’assembly implémente un sous-ensemble du modèle objet InfoPath qui contient uniquement les types et les membres pris en charge dans la logique métier des modèles de formulaire déployés en tant que modèles de formulaire activés pour le navigateur s’exécutant sur SharePoint Server 2013 avec InfoPath Forms Services. Les modèles de formulaires associés à une logique métier écrite en prenant en compte cet assembly peuvent être ouverts et exécutés dans InfoPath Filler et dans un navigateur Web.
+Une version de l’assembly implémente un sous-ensemble du modèle objet InfoPath qui contient uniquement les types et les membres pris en charge dans la logique métier des modèles de formulaire déployés en tant que modèles de formulaires activés pour le navigateur s’exécutant sur SharePoint Server 2013 avec InfoPath Forms Services. Les modèles de formulaires associés à une logique métier écrite en prenant en compte cet assembly peuvent être ouverts et exécutés dans InfoPath Filler et dans un navigateur Web.
   
 L'autre version de l'assembly implémente des types et membres supplémentaires qui offrent des fonctions non prises en charge dans la logique métier des modèles de formulaires compatibles avec le navigateur. Les modèles de formulaires associés à une logique métier écrite en prenant en compte les classes et membres supplémentaires de cet assembly s'ouvrent et s'exécutent uniquement dans l'éditeur InfoPath Filler.
   
@@ -68,7 +68,7 @@ En disposant de deux assemblys, vous avez l'assurance que votre logique métier 
   
 Dans les deux versions du modèle objet avec code managé exposé par l'assembly Microsoft.Office.InfoPath, la consultation et la mise à jour des magasins de données XML d'une logique métier nécessitent des appels aux membres de la classe **System.Xml.XPath.XPathNavigator**. Dans InfoPath 2003, la consultation et la mise à jour des magasins de données XML nécessitent l'appel aux membres de classes MSXML (pour une logique métier créée à l'aide de JScript ou VBScript) ou un appel via les wrappers des classes MSXML fournies par l'espace de noms **Microsoft.Office.Interop.InfoPath.SemiTrust** (pour une logique métier créée à l'aide de C# ou Visual Basic et Microsoft Office InfoPath 2003 Toolkit pour Visual Studio .NET). 
   
-L’utilisation de membres de la classe **XPathNavigator** permet au même code logique métier de prendre en charge la manipulation DOM pour les modèles de formulaire ouverts dans le client InfoPath et dans les formulaires web ouverts à partir de SharePoint Server 2013 avec InfoPath Forms Services dans un navigateur Web. 
+L’utilisation de membres de la classe **XPathNavigator** permet au même code de logique métier de prendre en charge la manipulation DOM pour les modèles de formulaire ouverts dans le client InfoPath et dans les formulaires web ouverts à partir de SharePoint Server 2013 avec InfoPath Forms Services dans un navigateur Web. 
   
 Pour plus d’informations sur l’utilisation des membres de la classe **XPathNavigator** dans la logique métier des modèles de formulaire InfoPath avec code manadé, voir Utiliser les [classes XPathNavigator et XPathNodeIterator.](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
   
@@ -83,7 +83,7 @@ Les classes et les membres de ce modèle objet sont exposés via l'espace de nom
 |Microsoft.Office.Interop.InfoPath.SemiTrust.dll  <br/> |Fournit l’interopivité COM par rapport au modèle objet COM InfoPath pour la logique métier du modèle de formulaire écrite à l’aide C# ou Visual Basic.  <br/> |
    
 > [!NOTE]
-> Bien que la création d’une logique métier avec le modèle objet COM interop avec code géré fourni par Microsoft. Office.Interop.InfoPath.SemiTrust assembly is still supported by InfoPath 2013, business logic written using this object model it is not supported for browser-enabled form templates deployed to SharePoint Server 2013 with InfoPath Forms Services. Les modèles de formulaires compatibles avec le navigateur doivent utiliser le modèle objet InfoPath avec code managé dans le cas d'une logique métier personnalisée. 
+> Bien que la création d’une logique métier avec le modèle objet COM interop avec code géré fourni par Microsoft. Office. Interop.InfoPath.SemiTrust assembly is still supported by InfoPath 2013, business logic written using this object model it is not supported for browser-enabled form templates deployed to SharePoint Server 2013 with InfoPath Forms Services. Les modèles de formulaires compatibles avec le navigateur doivent utiliser le modèle objet InfoPath avec code managé dans le cas d'une logique métier personnalisée. 
   
 ### <a name="automating-infopath-from-managed-code"></a>Automatisation d'InfoPath à partir de code managé
 
@@ -93,14 +93,14 @@ Les classes et les membres utilisés pour l'automatisation externe sont exposés
   
 |**Assembly**|**Description**|
 |:-----|:-----|
-|Microsoft.Office.Interop.InfoPath.dll  <br/> |Fournit une interopation COM avec le modèle objet COM InfoPath pour le code d’automatisation externe écrit à l’aide C# ou Visual Basic.  <br/> |
+|Microsoft.Office.Interop.InfoPath.dll  <br/> |Fournit l’interopivité COM par rapport au modèle objet COM InfoPath pour le code d’automatisation externe écrit à l’aide C# ou Visual Basic.  <br/> |
 |Microsoft.Office.Interop.InfoPath.Xml.dll  <br/> |Fournit une interopérabilité COM par rapport à l’analyseur MSXML pour les opérations DOM XML contenues dans le code d’automatisation externe écrit à l’aide de C# ou de Visual Basic.  <br/> |
    
-Pour plus d’informations sur les modèles objet fournis par les espaces de noms **Microsoft.Office.Interop.InfoPath** et **Microsoft.Office.Interop.InfoPath.Xml,** qui sont exclusivement utilisés pour automatiser l’application InfoPath à l’aide de code géré à partir d’applications externes, voir le Centre de développement [InfoPath.](https://msdn.microsoft.com/office/aa905434.aspx)
+Pour plus d’informations sur les modèles objet fournis par **Microsoft.Office. Interop.InfoPath** et **Microsoft.Office.Interop.InfoPath.Xml** espaces de noms, qui sont exclusivement utilisés pour automatiser l’application InfoPath à l’aide de code géré à partir d’applications externes, voir le Centre de développement [InfoPath.](https://msdn.microsoft.com/office/aa905434.aspx)
   
 ### <a name="the-infopath-forms-services-object-model"></a>Modèle objet InfoPath Forms Services
 
-Le modèle objet avec code géré pour l’automatisation des tâches d’administration InfoPath Forms Services est implémenté dans le Microsoft.Office.InfoPath.Server.dll qui se trouve à l’emplacement \<drive\> :\Program Files\Microsoft Office Server\15.0\Bin sur une installation Microsoft SharePoint Server 2013.
+Le modèle objet avec code géré pour l’automatisation des tâches d’administration InfoPath Forms Services est implémenté dans le Microsoft.Office.InfoPath.Server.dll qui se trouve à \<drive\> l’emplacement :\Program Files\Microsoft Office Server\15.0\Bin sur une installation Microsoft SharePoint Server 2013.
   
 |**Assembly**|**Description**|
 |:-----|:-----|
@@ -110,10 +110,10 @@ Pour plus d’informations sur le modèle objet InfoPath Forms Services, voir le
   
 ## <a name="infopath-development-environment"></a>Environnement de développement InfoPath
 
-Le développement de logique métier dans les modèles de formulaire InfoPath 2013 peut être effectué à l’aide de Visual Studio 2012 avec le module complémentaire [Microsoft® Visual Studio® Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) installé. 
+Le développement de la logique métier dans les modèles de formulaire InfoPath 2013 peut être effectué à l’aide de Visual Studio 2012 avec le module complémentaire [Microsoft® Visual Studio® Tools for Applications 2012](https://www.microsoft.com/download/details.aspx?id=38807) installé. 
   
 > [!NOTE]
-> InfoPath 2013 ne prend pas en charge la création ou la modification de modèles de formulaire qui utilisent une logique métier écrite avec JScript ou VBScript, bien que InfoPath Filler prend en charge l’ouverture de modèles de formulaire basés sur des scripts qui ont été créés dans les versions précédentes d’InfoPath. 
+> InfoPath 2013 ne prend pas en charge la création ou la modification de modèles de formulaires qui utilisent une logique métier écrite avec JScript ou VBScript, bien que InfoPath Filler prend en charge l’ouverture de modèles de formulaire basés sur des scripts qui ont été créés dans les versions précédentes d’InfoPath. 
   
 ## <a name="see-also"></a>Voir aussi
 

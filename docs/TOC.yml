@@ -10482,9 +10482,9 @@
                     - name: ProjectData - Référence du service OData
                       href: 'https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)'
             - name: Référence de service web et de bibliothèque de classes
-              href: 'https://docs.microsoft.com/en-us/previous-versions/office/project-class/ee767707(v=office.15)'
+              href: 'https://docs.microsoft.com/previous-versions/office/project-class/ee767707(v=office.15)'
             - name: Référence d’API JavaScript
-              href: 'https://docs.microsoft.com/en-us/previous-versions/office/project-javascript-api/jj712612(v=office.15)'
+              href: 'https://docs.microsoft.com/previous-versions/office/project-javascript-api/jj712612(v=office.15)'
     - name: Publisher
       items:
         - name: Vue d’ensemble

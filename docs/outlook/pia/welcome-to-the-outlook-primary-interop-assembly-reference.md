@@ -16,12 +16,12 @@ f1_keywords:
 - PIA [Outlook 2010]
 - reference [Outlook 2010], primary interop assembly
 ms.localizationpriority: medium
-ms.openlocfilehash: c2b7d262e00457afcfe46e7e02f14447b141b630
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c25def17c07a23d7a14205852ffe2de39116d36a
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583064"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179633"
 ---
 # <a name="outlook-primary-interop-assembly-reference"></a>Référence de l’assembly PIA (Primary Interop Assembly) Outlook
 
@@ -61,5 +61,5 @@ Si vous utilisez les Outils de développement Office pour Visual Studio 2013 
 - [Centre pour développeurs Outlook](../outlook-home.md)
 - [Interopérabilité entre COM et .NET](https://www.apress.com/us/book/9781590590119)
 - [Développement Office dans Visual Studio](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio?view=vs-2017)
-- [Accessibilité des produits Microsoft](https://www.microsoft.com/en-us/accessibility/)
+- [Accessibilité des produits Microsoft](https://www.microsoft.com/accessibility/)
 

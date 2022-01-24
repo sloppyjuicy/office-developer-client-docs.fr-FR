@@ -11,12 +11,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4ded29045ae66d4f4a73b68bc74d695ca8059449
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8c0c57929ed3ac93fccaf40700152fc9b65cf596
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576708"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179479"
 ---
 # <a name="hookexcelwindow"></a>HookExcelWindow
 
@@ -44,7 +44,7 @@ La fonction obtient l’adresse du Excel **WndProc** via l’utilisation de **Ge
   
 ### <a name="example"></a>Exemple
 
-Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

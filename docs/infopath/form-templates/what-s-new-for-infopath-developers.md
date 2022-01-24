@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: InfoPath est conçu pour faciliter la création d'applications basées sur des formulaires riches sur la plateforme Microsoft SharePoint Server. Microsoft InfoPath 2013, Microsoft SharePoint Server 2013 et InfoPath Forms Services offrent de nombreuses fonctionnalités aux développeurs. InfoPath Forms Services, qui est disponible dans SharePoint Server 2013, vous permet de déployer un modèle de formulaire InfoPath vers un SharePoint Server, de manière à ce que les utilisateurs sans le client riche InfoPath puissent ouvrir et remplir les formulaires InfoPath dans un navigateur web.
-ms.openlocfilehash: 61bbf2deba2ccaa91873e83c80f0d8385d97dd41
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ef0d66598227278729f9f58b6fd686e8f61a0498
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614513"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180109"
 ---
 # <a name="whats-new-for-infopath-developers"></a>Nouveautés pour les développeurs InfoPath
 
@@ -45,7 +45,7 @@ Les sections suivantes décrivent brièvement les fonctionnalités et améliorat
     
 ## <a name="new-way-to-write-and-edit-code"></a>Nouvelle méthode pour écrire et modifier du code
 
-L'IDE Microsoft Visual Studio Tools for Applications qui était intégré à InfoPath 2010 a été supprimé dans InfoPath 2013. Pour écrire ou modifier du code de formulaire dans InfoPath 2013, Visual Studio 2012 et le complément [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) doivent être installés. L'expérience de programmation à proprement parler n'a pas changé de manière fondamentale, mais vous pouvez désormais utiliser l'expérience de développement Visual Studio complète lorsque vous écrivez du code managé pour vos formulaires InfoPath. 
+L'IDE Microsoft Visual Studio Tools for Applications qui était intégré à InfoPath 2010 a été supprimé dans InfoPath 2013. Pour écrire ou modifier du code de formulaire dans InfoPath 2013, Visual Studio 2012 et le complément [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/download/details.aspx?id=38807) doivent être installés. L'expérience de programmation à proprement parler n'a pas changé de manière fondamentale, mais vous pouvez désormais utiliser l'expérience de développement Visual Studio complète lorsque vous écrivez du code managé pour vos formulaires InfoPath. 
   
 Les sections suivantes décrivent les fonctionnalités qui ont d'abord été ajoutées dans InfoPath 2010 et SharePoint Server 2010 et qui restent une valeur ajoutée pour les développeurs utilisant InfoPath 2013 et SharePoint Server 2013.
   

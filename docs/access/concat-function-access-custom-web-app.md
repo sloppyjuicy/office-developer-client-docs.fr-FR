@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 38ad6365-79df-4342-9b76-ca27b8ab8952
 description: Renvoie une chaîne qui est le résultat de la combinaison de deux ou plusieurs valeurs de chaîne.
-ms.openlocfilehash: 76e303659ea72a244ad83e12342f00d12c23bf09
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c8d19813da2b4f09f5b71c5597c9e0df49aa6392
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573346"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179388"
 ---
 # <a name="concat-function-access-custom-web-app"></a>Fonction Concat (application web personnalisée Access)
 
 Renvoie une chaîne qui est le résultat de la combinaison de deux ou plusieurs valeurs de chaîne.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="syntax"></a>Syntaxe
 

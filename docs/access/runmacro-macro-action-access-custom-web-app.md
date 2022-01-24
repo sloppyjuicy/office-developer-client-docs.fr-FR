@@ -7,19 +7,19 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 59ba365d-cff5-4126-bc22-4d5a37578aab
 description: Vous pouvez utiliser l’action ExécuterMacro pour exécuter une macro d’interface utilisateur.
-ms.openlocfilehash: e91fba9461002c1cb9cc029448b72bff5f77c365
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fcc79a2d359fe50f6d8d0689e4d7e83ce5b77588
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552338"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179542"
 ---
 # <a name="runmacro-macro-action-access-custom-web-app"></a>RunMacro Macro Action (Application web personnalisée Access)
 
 Vous pouvez utiliser l’action **ExécuterMacro** pour exécuter une macro d’interface utilisateur. 
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="setting"></a>Paramètre
 

@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: Le modèle objet InfoPath fournit la propriété MachineOnlineState de la classe Application qui active votre code de formulaire pour déterminer si l'ordinateur de l'utilisateur est connecté au réseau. En vérifiant la valeur de la propriété MachineOnlineState, votre code de formulaire peut effectuer différentes actions, selon l'état de la connexion.
-ms.openlocfilehash: 3bba72619e5f09a69e2b9b2666dfba77c0ed1dab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fb766b26e8d29361a30850a91ee0cea458706d9b
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605539"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179654"
 ---
 # <a name="work-with-offline-solutions"></a>Utilisation des solutions hors ligne
 
@@ -35,7 +35,7 @@ Cet exemple suppose que vous avez créé un formulaire permettant d'envoyer un r
     
 4. Dans l' **Assistant Connexion de données**, cliquez sur **Envoi des données**, puis sur **Suivant**.
     
-5. Sur la page suivante de l’Assistant, cliquez sur En tant **que message électronique,** puis sur **Suivant**.
+5. Sur la page suivante de l’Assistant, cliquez **sur En tant que message électronique,** puis sur **Suivant**.
     
 6. Sur la page suivante de l’Assistant, tapez votre adresse de messagerie dans la **zone À.** 
     
@@ -160,5 +160,5 @@ Cet exemple suppose que vous avez créé un formulaire permettant d'envoyer un r
     
 ## <a name="see-also"></a>Voir aussi
 
-- [Concevoir un modèle de formulaire pour une utilisation hors connexion](https://support.office.com/en-us/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
+- [Concevoir un modèle de formulaire pour une utilisation hors connexion](https://support.office.com/article/design-a-form-template-for-offline-use-3ab8de84-babc-4bd7-9215-66d308546be4)
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b0fb6a47-47d8-ab9c-854d-0b0bbfdfcc27
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule B pour chaque ligne.
-ms.openlocfilehash: ae275534871245c78df09a3b94fb51cadf7c10cb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3279b350a8a8b9bced0dd99ebaba33202cf04967
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603850"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180816"
 ---
 # <a name="b-cell-geometry-section"></a>B, cellule (section Geometry)
 
@@ -22,7 +22,7 @@ Représente des informations différentes selon la ligne où elle se trouve. Le 
   
 |Ligne|Description|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée  *y*  du point de contrôle d’un arc.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée *y*  du point de contrôle d’un arc.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Dernière épaisseur de la courbe B-spline rationnelle non uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Premier nœud d’une spline  <br/> |
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Coordonnée *y* d’un point sur une ligne infinie ; associé à *la coordonnée x* représentée par la cellule [A.](a-cell-geometry-section.md)  <br/> |

@@ -7,19 +7,19 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 09385b75-ec0e-4dde-b9c3-9ade4a7a2b74
 description: Renvoie la valeur exponentielle de l’expression spécifiée.
-ms.openlocfilehash: 041a81ff92a09afbdbdfb2150912028123e5e05f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cfdc3920b0583b76def28536829ab229600e0945
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593151"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180137"
 ---
 # <a name="exp-function-access-custom-web-app"></a>Exp Function (Access custom web app)
 
 Renvoie la valeur exponentielle de l’expression spécifiée.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -29,7 +29,7 @@ La **fonction Exp** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Expression de type Double ou d’un type qui peut être implicitement converti en Double.  <br/> |
+| *NumericExpression*  <br/> |Expression de type Double ou d’un type qui peut être implicitement convertie en Double.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: c46bda55387fe0537aeed359091cde77f7976680
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ddcdd629d4494f6ce808cc995c9e4b0172f95edf
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559135"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180417"
 ---
 # <a name="after-delete-macro-event"></a>After Delete, événement de macro
 
@@ -35,11 +35,11 @@ Lorsque l'événement **Après suppression** se produit, les valeurs contenues d
 
 Vous pouvez utiliser la fonction **Updated("*Nom de champ*")** pour déterminer si un champ a changé. L’exemple de code suivant montre comment utiliser une instruction If pour déterminer si le champ PaidInFull a été modifié.
 
-```vb 
+```vb
  
 If  Updated("PaidInFull")   Then 
  
-    /* Perform actions based on changes to the field.   */ 
+    /* Perform actions based on changes to the field. */ 
  
 End If 
  
@@ -78,7 +78,7 @@ Les commandes de macro suivantes peuvent être utilisées dans **l’événement
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Flux de programme</p></td>
+<td><p>Déroulement de programme</p></td>
 <td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
 </tr>
 <tr class="even">
@@ -152,12 +152,11 @@ Les commandes de macro suivantes peuvent être utilisées dans **l’événement
 </tbody>
 </table>
 
-
 Pour créer une macro de données qui capture l’événement **Après suppression**, procédez comme suit.
 
-1.  Ouvrez la table pour laquelle vous souhaitez capturer l’événement **Après suppression**.
+1. Ouvrez la table pour laquelle vous souhaitez capturer l’événement **Après suppression**.
 
-2.  Sous l’onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après suppression**.
+2. Sous l’onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après suppression**.
 
 Une macro de données vide s’affiche dans le concepteur de macros.
 
@@ -169,13 +168,13 @@ L'exemple de code suivant utilise l'événement **Après suppression** pour effe
 
 Pour afficher cet exemple dans le concepteur de macros, procédez comme suit.
 
-1.  Ouvrez la table pour laquelle vous souhaitez capturer l’événement **Après suppression**.
+1. Ouvrez la table pour laquelle vous souhaitez capturer l’événement **Après suppression**.
 
-2.  Sous l’onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après suppression**.
+2. Sous l’onglet **Table**, dans le groupe **Événements Après**, cliquez sur **Après suppression**.
 
-3.  Sélectionnez le code ci-dessous et appuyez sur Ctrl+C pour le copier dans le Presse-papiers.
+3. Sélectionnez le code ci-dessous et appuyez sur Ctrl+C pour le copier dans le Presse-papiers.
 
-4.  Activez la fenêtre du concepteur de macros, puis appuyez sur Ctrl+V.
+4. Activez la fenêtre du concepteur de macros, puis appuyez sur Ctrl+V.
 
 <!-- end list -->
 

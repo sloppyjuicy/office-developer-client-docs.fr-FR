@@ -11,12 +11,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 934192ef-8a89-4dbb-bd37-01e92ba24256
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 449886c9f0be9adad6af5dc6c6163eb8f0f64a4f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2278d4b550ef0ac8b25728d15247528a3c233518
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557679"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179486"
 ---
 # <a name="funcsum"></a>FuncSum
 
@@ -38,11 +38,11 @@ Pointeurs vers les arguments **XLOPER12.** La fonction accepte n’importe quel 
 
 (**LPXLOPER12 xltypeNum** ou **xltypeErr**)
   
-Somme des arguments ou des #VALUE! s’il existe des nombres non numériques dans la liste d’arguments fournie ou dans une cellule d’une plage ou d’un élément dans un tableau.
+Somme des arguments ou des #VALUE ! s’il existe des nombres non numériques dans la liste d’arguments fournie ou dans une cellule d’une plage ou d’un élément dans un tableau.
   
 ### <a name="example"></a>Exemple
 
-Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

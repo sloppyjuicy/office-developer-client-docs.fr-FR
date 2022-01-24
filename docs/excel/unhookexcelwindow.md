@@ -11,12 +11,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 788afcb9a1ca04931f3cb74c5c3b3fe5805541c3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7ff706c128c58f40285c09af3d28f46e6022742e
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596861"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180116"
 ---
 # <a name="unhookexcelwindow"></a>UnhookExcelWindow
 
@@ -44,7 +44,7 @@ Cette fonction restaure la Excel **WndProc** par défaut à l’aide de **SetWin
   
 ### <a name="example"></a>Exemple
 
-Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

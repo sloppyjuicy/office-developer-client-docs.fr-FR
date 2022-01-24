@@ -7,17 +7,17 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: d9622cf4-eaa8-400b-b3ea-0409add8b212
 description: ''
-ms.openlocfilehash: 21d8ac26c972cc13203e94234d2bdb198b1475f1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 90ba2b37226557399882dd8bac0d171a7e442b97
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564714"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179549"
 ---
 # <a name="program-flow-functions-access-custom-web-app"></a>Program flow functions (Access custom web app)
 
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="in-this-section"></a>Dans cette section
 

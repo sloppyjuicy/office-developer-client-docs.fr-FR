@@ -11,18 +11,18 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 574d5f446ec4114cfbf94bea984fb0df92f072f0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3a5dfb456ecf511bb79fbfda7688d7f3e63fd246
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611215"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179472"
 ---
 # <a name="xlautoadd"></a>xlAutoAdd
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Ajouté par le Microsoft Excel chaque fois que l’utilisateur active le XLL au cours d’une session Excel à l’aide Add-In manager. Cette fonction n’est pas appelée lorsque Excel démarre et charge un module préinstallé.
+Ajouté par le Microsoft Excel chaque fois que l’utilisateur active le XLL au cours d’une session Excel à l’aide du gestionnaire Add-In client. Cette fonction n’est pas appelée lorsque Excel démarre et charge un add-in préinstallé.
   
 Cette fonction permet d’afficher une boîte de dialogue personnalisée qui indique à l’utilisateur que le module complémentaire a été activé, de lire ou d’écrire dans le Registre, ou de vérifier les informations de licence, par exemple.
   
@@ -46,7 +46,7 @@ Utilisez cette fonction si votre XLL doit faire quelque chose lorsqu’elle est 
   
 ## <a name="example"></a>Exemple
 
-Voir  `\SAMPLES\EXAMPLE\EXAMPLE.C` et par exemple les  `\SAMPLES\GENERIC\GENERIC.C` implémentations de cette fonction. Le code suivant provient de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
+Voir `\SAMPLES\EXAMPLE\EXAMPLE.C` et par exemple les  `\SAMPLES\GENERIC\GENERIC.C` implémentations de cette fonction. Le code suivant provient de `\SAMPLES\EXAMPLE\EXAMPLE.C`.
   
 ```cs
 int WINAPI xlAutoAdd(void)

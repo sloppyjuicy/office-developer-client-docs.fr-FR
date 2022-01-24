@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online est un service Office 365 que les entreprises peuvent étendre afin de répondre à leurs besoins. Une zone d’extension est constituée par les champs personnalisés d’entreprise. Les champs personnalisés d’entreprise sont des champs où des valeurs sont saisies et qui peuvent être ajoutés à des projets, ressources et tâches. Le tableau suivant répertorie les champs personnalisés d’entreprise qui sont associés à des projets, ressources et tâches, et fournit un exemple de valeur pour une instance de ce champ personnalisé d’entreprise :'
 ms.localizationpriority: high
-ms.openlocfilehash: a445d15adb82c5cb770bf81403ef53a6eb33e012
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5aa5b527942dccfbcf1eb6b08e645038a6470edf
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613204"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180081"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Accès aux champs personnalisés d’entreprise Project Online
 
@@ -205,8 +205,8 @@ La méthode ne vérifie pas si un projet utilise un champ personnalisé d’entr
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Portail de développement Project](https://developer.microsoft.com/en-us/project)
-- [Vue d’ensemble : champs personnalisés d’entreprise et tables de choix](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [Portail de développement Project](https://developer.microsoft.com/project)
+- [Vue d’ensemble : champs personnalisés d’entreprise et tables de choix](https://support.office.com/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [Champs personnalisés locaux et d’entreprise](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [Ajouter ou modifier des champs personnalisés d’entreprise dans Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     

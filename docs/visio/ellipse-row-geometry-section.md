@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 183fb303-4acb-a486-7b97-f11f7ae3978f
 description: Contient les coordonnées x et y du point central de l’ellipse et deux points sur l’ellipse.
-ms.openlocfilehash: 15b1047f790d58d65b745c052330b2441cb08a4c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ae17cf7190f8e5f7361986ed7ab3eb08751faab4
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619105"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179626"
 ---
 # <a name="ellipse-row-geometry-section"></a>Ellipse Row (Geometry Section)
 
@@ -24,12 +24,12 @@ Une ligne Ellipse contient les cellules suivantes.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordonnée  *x*  du point central.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Coordonnée  *y*  du point central.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordonnée *x*  du point central.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y*  du point central.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |Coordonnée x d’un point sur l’ellipse ; associé à  *la coordonnée y*  représentée par la cellule B.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |Coordonnée  *y*  d’un point sur l’ellipse ; associé à la coordonnée x représentée par la cellule A.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |Coordonnée  *x*  d’un autre point sur l’ellipse ; associé à  *la coordonnée y*  représentée par la cellule D.  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |Coordonnée  *y*  d’un autre point sur l’ellipse ; associé à  *la coordonnée y*  représentée par la cellule C.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |Coordonnée *y*  d’un point sur l’ellipse ; associé à la coordonnée x représentée par la cellule A.  <br/> |
+|[C](c-cell-geometry-section.md) <br/> |Coordonnée *x*  d’un autre point sur l’ellipse ; associé à  *la coordonnée y*  représentée par la cellule D.  <br/> |
+|[D](d-cell-geometry-section.md) <br/> |Coordonnée *y*  d’un autre point sur l’ellipse ; associé à  *la coordonnée y*  représentée par la cellule C.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 

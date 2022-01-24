@@ -11,12 +11,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ec4d0646cb1525f517a57ace5cee52325548cec0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b589c14311512aa91a9cdae5e3ffca0294b1c60e
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552226"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179500"
 ---
 # <a name="func1"></a>Func1
 
@@ -40,7 +40,7 @@ Cet argument est ignoré et sert uniquement à déclencher Microsoft Excel pour 
   
 ### <a name="example"></a>Exemple
 
-Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

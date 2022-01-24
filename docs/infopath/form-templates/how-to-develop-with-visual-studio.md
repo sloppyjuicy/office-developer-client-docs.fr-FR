@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: Vous pouvez grandement améliorer les fonctionnalités de vos formulaires InfoPath en les étendant avec du code géré développé dans Visual Studio 2012. Vous pouvez ensuite publier vos formulaires avec du code dans des bibliothèques de formulaires SharePoint Server 2013.
-ms.openlocfilehash: b7d2437e671a13ceafc6c11a6dd83d39f8ffa76b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a682ef0b855d4d61a7ae15bd4a314c8099c51b32
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625902"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179899"
 ---
 # <a name="develop-with-visual-studio"></a>Développement avec Visual Studio
 
@@ -19,7 +19,7 @@ Vous pouvez grandement améliorer les fonctionnalités de vos formulaires InfoPa
   
 Vous pouvez commencer à programmer et à développer vos formulaires InfoPath avec code managé en suivant trois étapes importantes :
   
-1. Installez Visual Studio 2012 avec [le module Microsoft® Visual Studio® Tools for Applications 2012.](https://www.microsoft.com/en-us/download/details.aspx?id=38807) 
+1. Installez Visual Studio 2012 avec [le module Microsoft® Visual Studio® Tools for Applications 2012.](https://www.microsoft.com/download/details.aspx?id=38807) 
     
 2. Définissez votre langage de programmation, puis écrivez et déboguer du code dans l’éditeur de code Visual Studio 2012.
     
@@ -45,7 +45,7 @@ InfoPath propose des options de programmation à l’aide de quatre versions du 
 
 1. Ouvrez un projet de modèle de formulaire dans le concepteur InfoPath, cliquez sur **Langage** dans l'onglet **Développeur**. 
     
-2. Dans la catégorie **Programmation** de la boîte de dialogue **Options de formulaire**, sélectionnez le langage que vous voulez utiliser dans la liste déroulante **Langage de code du modèle de formulaire**. Ensuite, sélectionnez la version du modèle objet dans la liste de listes de **listes** bas de la version cible. **L’option de version** cible qui est compatible uniquement avec InfoPath 2013 n’a pas d’année de version suivant le nom **InfoPath.** 
+2. Dans la catégorie **Programmation** de la boîte de dialogue **Options de formulaire**, sélectionnez le langage que vous voulez utiliser dans la liste déroulante **Langage de code du modèle de formulaire**. Ensuite, sélectionnez la version du modèle objet dans la liste de listes listes bas de **la version** cible. **L’option de version** cible qui est compatible uniquement avec InfoPath 2013 n’a pas d’année de version après le nom **InfoPath.** 
     
     > [!NOTE]
     > Not all form template types support code. For example, the **SharePoint List** form template type and **Template Parts** do not support form code. When designing a form template type that does not support code, the **Developer** tab will not be available. En outre, seuls certains types de modèles de formulaires sont en charge dans les quatre versions du modèle objet. Par exemple, le type de modèle Formulaire vide **(InfoPath Filler)** prend en charge les quatre versions du modèle objet  (et crée un modèle de formulaire compatible uniquement avec InfoPath Filler dans ces versions), mais le modèle Formulaire vide prend uniquement en charge InfoPath 2013 et InfoPath (et crée des modèles de formulaire compatibles avec InfoPath Filler et le navigateur). 

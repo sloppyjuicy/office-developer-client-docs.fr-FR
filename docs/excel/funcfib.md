@@ -11,12 +11,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 4f1fceedaf7e152fbbfd5e708d9da55e161f43ba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e93c980b39abc7aaa70efb38a05a9e01a0e24232
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552219"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179493"
 ---
 # <a name="funcfib"></a>FuncFib
 
@@ -42,11 +42,11 @@ Nième numéro Fibonacci.
   
 ## <a name="remarks"></a>Remarques
 
-La fonction utilise une variable statique définie dans le bloc de fonctions en tant que valeur de retour **XLOPER12**. Il ne s’agit pas d’une fonction thread-safe. Cette fonction, ainsi que toute fonction de feuille de calcul qui utilise cette stratégie pour renvoyer des **XLOPER** ou **XLOPER12,** ne doivent pas être inscrites en tant que thread-safe à partir de Excel 2007.
+La fonction utilise une variable statique définie dans le bloc de fonctions comme valeur de retour **XLOPER12**. Cette fonction n’est pas thread-safe. Par exemple, cette fonction et toute fonction de feuille de calcul qui utilise cette stratégie pour renvoyer des **XLOPER** ou **XLOPER12** ne doivent pas être inscrites en tant que thread-safe à partir de Excel 2007.
   
 ### <a name="example"></a>Exemple
 
-Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,24 +1,24 @@
 ---
-title: Développement de connecteurs Excel cluster
-manager: soliver
-ms.date: 11/16/2014
+title: Développement Excel connecteurs de cluster
+manager: lindalu
+ms.date: 1/22/2022
 ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 67fd0af130351ad48599c9e6ac82bd280eb4f561
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 41e7e7e3a52e11fd3229f07c5be4f4c5154300f5
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552268"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179507"
 ---
-# <a name="developing-excel-cluster-connectors"></a>Développement de connecteurs Excel cluster
+# <a name="developing-excel-cluster-connectors"></a>Développement Excel connecteurs de cluster
 
-**S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+**S’applique à**: Excel 2013 | Office 2013 | Visual Studio
   
-Excel connecteurs de cluster fournissent un moyen de décharger automatiquement les appels de fonctions définies par l’utilisateur sécurisés du cluster dans une XLL vers un serveur en cluster. Pour obtenir une description des fonctions définies par l’utilisateur sécurisées pour le cluster, [voir Cluster Coffre Functions](cluster-safe-functions.md). Ce déchargement peut améliorer les performances en permettant d’utiliser davantage de ressources informatiques. Un connecteur de cluster est généralement développé par un fournisseur de cluster de calcul hautes performances.
+Excel connecteurs de cluster fournissent un moyen de décharger automatiquement les appels de fonctions définies par l’utilisateur sécurisés du cluster dans un XLL vers un serveur en cluster. Pour obtenir une description des fonctions définies par l’utilisateur sécurisées pour le cluster, [voir Cluster Coffre Functions](cluster-safe-functions.md). Ce déchargement peut améliorer les performances en permettant d’utiliser davantage de ressources informatiques. Un connecteur de cluster est généralement développé par un fournisseur de cluster de calcul hautes performances.
   
 ## <a name="cluster-connectors"></a>Connecteurs de cluster
 
@@ -34,8 +34,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Excel\Excel Cluster Connectors\
   
 Ajoutez un nœud à cette clé pour le connecteur de cluster qui spécifie les chaînes suivantes :
   
--  `Name`—nom qui apparaîtra dans la liste des connecteurs de cluster dans Excel.
-    
--  `Filename`—chemin d’accès complet de la DLL.
-    
+- `Name`—nom qui apparaîtra dans la liste des connecteurs de cluster dans Excel.
 
+- `Filename`—chemin d’accès complet de la DLL.

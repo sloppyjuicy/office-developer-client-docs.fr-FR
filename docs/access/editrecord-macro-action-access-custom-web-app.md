@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 2096da45-4269-4a6d-a2bd-a3e1e510b071
 description: Place l’enregistrement actuel en mode édition.
-ms.openlocfilehash: 234b3894d65a52306b3abd8bc72a41140b29b6ea
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 44a1ffa0113314b272acea5d97ea29ccaa192215
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568277"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179717"
 ---
 # <a name="editrecord-macro-action-access-custom-web-app"></a>EditRecord Macro Action (Access custom web app)
 
 Place l’enregistrement actuel en mode édition.
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="syntax"></a>Syntaxe
 

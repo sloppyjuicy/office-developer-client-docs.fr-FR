@@ -11,12 +11,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 621a03c00ee4d1509edd3dd8b14a11dba9ba719a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 926c1125e22f4857a4e22a179c1f803db4a8a3d5
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584926"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180235"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
@@ -50,7 +50,7 @@ LRESULT : 0 si le message a été géré, sinon le résultat renvoyé par **le W
   
 ### <a name="example"></a>Exemple
 
-Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

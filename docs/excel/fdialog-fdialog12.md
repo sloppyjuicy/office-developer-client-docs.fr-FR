@@ -12,12 +12,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: afcf924e04f833ff823647eef603824652347e5d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 08037c85264384072d1493ecd3fe1881bb77b158
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568193"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180347"
 ---
 # <a name="fdialogfdialog12"></a>fDialog/fDialog12
 
@@ -39,7 +39,7 @@ La fonction renvoie toujours 1.
   
 ### <a name="example"></a>Exemple
 
-Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

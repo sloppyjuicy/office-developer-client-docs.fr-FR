@@ -3,12 +3,12 @@ title: Gérer une résolution élevée et redimensionner la résolution dans vot
 description: Mettre à jour votre solution Office tels que les volets de tâches personnalisés, ou les contrôles ActiveX, pour prendre en charge des moniteurs à haute résolution.
 ms.date: 03/09/2019
 ms.localizationpriority: medium
-ms.openlocfilehash: 455c8f02e562d3c21190219a1903104dd7d89ba3
-ms.sourcegitcommit: 759a4c5cff383963ef0d64888bcc0046738e9635
+ms.openlocfilehash: 4148a212c08e76a5d1dc976b7346928f7fed6d8a
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327774"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180263"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>Gérer une résolution élevée et redimensionner la résolution dans votre solution Office
 
@@ -250,11 +250,11 @@ Lorsque les utilisateurs rencontrent des compléments ou des solutions qui ne so
 
 Office a défini un paramètre pour optimiser la compatibilité lors de la transition vers différentes échelles PPP sur différents écrans. Le mode de compatibilité désactive la mise à l’échelle PPP afin que tout le contenu dans Office soit étiré bitmap lors du déplacement vers un affichage utilisant une échelle PPP différente. 
 
-Le mode de compatibilité force Office à s’exécuter en mode système PPP pris en compte. Cela amène les fenêtres d’application à un étirement bitmap et peut avoir un aspect flou comme effet secondaire. Votre solution Office ne peut pas contrôler ce paramètre, car l’utilisateur choisit celui-ci. Utiliser le mode de compatibilité d’affichage permet de résoudre la plupart des problèmes d’apparence. Pour plus d’informations, voir [Support Office pour l’affichage haute définition](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d). 
+Le mode de compatibilité force Office à s’exécuter en mode système PPP pris en compte. Cela amène les fenêtres d’application à un étirement bitmap et peut avoir un aspect flou comme effet secondaire. Votre solution Office ne peut pas contrôler ce paramètre, car l’utilisateur choisit celui-ci. Utiliser le mode de compatibilité d’affichage permet de résoudre la plupart des problèmes d’apparence. Pour plus d’informations, voir [Support Office pour l’affichage haute définition](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d). 
 
 ### <a name="configure-windows-to-fix-blurry-apps"></a>Configurez Windows pour résoudre les application floues
 
-Windows 10 (Version 1803) et versions suivantes ont défini un paramètre pour corriger les applications afin qu’elles ne soient pas floues. Il s’agit d’un autre paramètre à essayer si votre solution n’est pas affichée correctement. Votre solution Office ne peut pas contrôler ce paramètre, car l’utilisateur choisit celui-ci. Pour plus d’informations, voir [Corriger les applications qui s’affichent floues dans Windows 10](https://support.microsoft.com/en-us/help/4091364/windows-10-fix-blurry-apps).
+Windows 10 (Version 1803) et versions suivantes ont défini un paramètre pour corriger les applications afin qu’elles ne soient pas floues. Il s’agit d’un autre paramètre à essayer si votre solution n’est pas affichée correctement. Votre solution Office ne peut pas contrôler ce paramètre, car l’utilisateur choisit celui-ci. Pour plus d’informations, voir [Corriger les applications qui s’affichent floues dans Windows 10](https://support.microsoft.com/help/4091364/windows-10-fix-blurry-apps).
 
 ## <a name="how-to-support-dpi-scaling-in-your-solution"></a>Comment prendre en charge le redimensionnement PPP dans votre solution
 
@@ -458,7 +458,7 @@ namespace SharedModule
 
 Un volet de tâches personnalisé est créé comme fenêtre enfant par Office. Lors de l’exécution sur Windows Fall Creators Update (1709), votre volet Office personnalisé s’exécute en utilisant le même mode de présence PPP qu’Office. Lors de l’exécution sur la mise à jour avril 2018 Windows (1803) et versions ultérieures, votre volet de tâches personnalisé s’exécutera sur le mode de présence système PPP. 
 
-Comme les volets de tâches personnalisés sont des fenêtres enfants, ils ne peuvent pas recevoir de notifications PPP. S’ils sont affichés incorrectement, l’utilisateur devra utiliser le[mode de compatibilité Office PPP](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+Comme les volets de tâches personnalisés sont des fenêtres enfants, ils ne peuvent pas recevoir de notifications PPP. S’ils sont affichés incorrectement, l’utilisateur devra utiliser le[mode de compatibilité Office PPP](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 Si votre volet de tâches personnalisé crée des fenêtres de niveau supérieur, ces fenêtres peuvent s’exécuter dans n’importe quel mode de présence PPP et recevoir des notifications de modification PPP. Pour plus d’informations, voir la section [Gestion de la fenêtre de niveau supérieur](#top-level-window-management) de cet article.
 
 <h3 id="com-add-ins">Compléments COM</h3>
@@ -583,7 +583,7 @@ Vous pouvez également trouver ces techniques supplémentaires utiles :
 - [Le développement dPer-Monitor DPI-Aware application WPF fournit](/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) une vue d’ensemble générale et un guide pour l’écriture d’applications de bureau Win32. Bon nombre des techniques décrites dans cet article peuvent être appliquées aux solutions d’extensibilité Office.
 - 
   [Mise à l’échelle PPP mode mixte et API PPP pris en compte](/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) a une liste d’API connexes à PPP.
-- [Guie de développeur - Par moniteur PPP - Aperçu WPF](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer%20Guide%20-%20Per%20Monitor%20DPI%20-%20WPF%20Preview.docx) couvre le guide de développement d’application WPF pour créer des applications WPF PPP pris en compte.
+- [Guide du développeur : la DPI par moniteur](https://github.com/microsoft/WPF-Samples/tree/main/PerMonitorDPI) couvre le guide de développement d’applications WPF pour la création d’applications WPF sensibles aux DPI.
 - [Support technique Office pour l’affichage haute définition](https://support.office.com/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) fournit des informations sur la manière dont un utilisateur peut définir Office afin d’optimiser pour assurer la compatibilité si votre solution Office n’est pas prise en charge correctement lorsque le PPP change.
 - [Afficher les modifications de mise à l’échelle pour la Mise à jour anniversaire Windows 10](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/) est un billet de blog qui présente les modifications introduites avec la mise à jour anniversaire Windows 10. 
 - [Gérer DPI_AWARENESS_CONTEXT](/windows/desktop/hidpi/dpi-awareness-context) contient les détails de programme sur les valeurs et définitions de DPI_AWARENESS_CONTEXT.
@@ -591,6 +591,6 @@ Vous pouvez également trouver ces techniques supplémentaires utiles :
 
 ### <a name="code-samples"></a>Exemples de code
 
-- [Exemple de présence PPP par fenêtre](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow)
-- [Exemples de PPP dynamiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DynamicDPI)
-- [Exemple WPF par moniteur pris en compte](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/PerMonitorDPIAware)
+- [Exemple de présence PPP par fenêtre](https://github.com/Microsoft/Windows-classic-samples/tree/main/Samples/DPIAwarenessPerWindow)
+- [Exemples de PPP dynamiques](https://github.com/Microsoft/Windows-classic-samples/tree/main/Samples/DynamicDPI)
+- [Exemple WPF par moniteur pris en compte](https://github.com/Microsoft/Windows-classic-samples/tree/main/Samples/PerMonitorDPIAware)

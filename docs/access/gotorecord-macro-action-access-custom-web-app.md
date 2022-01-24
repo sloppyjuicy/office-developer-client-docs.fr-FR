@@ -7,19 +7,19 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: d72331d9-a8f3-4fcb-ba26-c93210b74935
 description: Vous pouvez utiliser l’action AfficherEnregistrement pour faire de l’enregistrement spécifié l’enregistrement en cours dans un affichage.
-ms.openlocfilehash: 2e50fbe1ca0023150c53cafe6f446450405a9dff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7112289befb490d395456889ec66824d4df46ddb
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588461"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62179976"
 ---
 # <a name="gotorecord-macro-action-access-custom-web-app"></a>GoToRecord Macro Action (Application web personnalisée Access)
 
 Vous pouvez utiliser **l’action AfficherEnregistrement** pour faire de l’enregistrement spécifié l’enregistrement en cours dans un affichage. 
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
 ## <a name="setting"></a>Paramètre
 
