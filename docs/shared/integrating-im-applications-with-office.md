@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: Cet article montre comment configurer une application cliente de message instantanée (MI) afin qu'elle intègre des fonctionnalités sociales dans Office 2013 et version ultérieure, notamment l'affichage de présence et l'envoi de messages instantanés à partir d'une carte de visite.
 ms.localizationpriority: high
-ms.openlocfilehash: 1d7a091568a6f133db2a1c834ccbbf565547b874
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8898d3c685de01bf54313c3ad781f519b7f6bfe6
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59608836"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180424"
 ---
 # <a name="integrating-im-applications-with-office"></a>Intégration des applications de messagerie instantanée à Office
 
@@ -63,7 +63,7 @@ Pour permettre cette intégration dans Office, l'application cliente de messager
 > [!NOTE]
 >  Une multitude d'applications Office 2010 peuvent également s'intégrer à une application de fournisseur de messagerie instantanée tierce : Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010 et SharePoint Server 2010 (à l'aide d'un contrôle ActiveX). Nombre des étapes nécessaires pour l’intégration avec Office 2013 s’appliquent aussi à Office 2010. Il existe plusieurs différences dans la manière dont Office 2010 est intégré avec une application de fournisseur de messagerie instantanée : 
 >  - Office 2010 n’affiche pas la photo du contact. 
->  - Vous devez télécharger le fichier Microsoft.Office.Uc.dll indépendamment d’Office 2010. Le [SDK Lync 2010](https://www.microsoft.com/en-us/download/details.aspx?id=18898) inclut le fichier Microsoft.Office.UC.dll pour Office 2010. 
+>  - Vous devez télécharger le fichier Microsoft.Office.Uc.dll indépendamment d’Office 2010. Le [SDK Lync 2010](https://www.microsoft.com/download/details.aspx?id=18898) inclut le fichier Microsoft.Office.UC.dll pour Office 2010. 
 >  - Lorsque l’application Office appelle la méthode [IUCOfficeIntegration.GetAuthenticationInfo](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) dans l’application cliente de messagerie instantanée, elle transfère la chaîne « 14.0.0.0 ». 
 >  - Office 2010 énumère tous les groupes et les contacts dès qu'il se connecte à une application cliente de messagerie instantanée. 
   

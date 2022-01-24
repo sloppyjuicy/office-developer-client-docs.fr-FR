@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: eb60d55732c0ba91aca3a6bfce03f45dab069b93
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d89d32b30ec7379756c79fff14b4731b034dbbb1
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59631089"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180326"
 ---
 # <a name="attached-files-and-messages"></a>Fichiers et messages joints
 
@@ -21,9 +21,9 @@ ms.locfileid: "59631089"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Si MIME avec TNEF est utilisé lors du codage du contenu des messages, toutes les propriétés et le contenu des pièces jointes sont dans le flux TNEF. Le format TNEF lui-même est un fichier binaire joint unique nommé Winmail.dat, codé comme décrit pour MIME sans TNEF. 
+Si MIME avec TNEF est utilisé lors du codage du contenu des messages, toutes les propriétés et le contenu des pièces jointes se trouve dans le flux TNEF. Le format TNEF lui-même est un fichier binaire joint unique nommé Winmail.dat, codé comme décrit pour MIME sans TNEF. 
   
-Si MIME est utilisé sans TNEF, les fichiers joints sont envoyés en tant que composants de contenu de message MIME. Le nom de fichier est placé dans le paramètre  *name*  de  *l’en-tête Content-type*  de la pièce jointe. Le jeu de caractères de la pièce jointe est placé dans le  *paramètre charset*  au  *type de contenu*  ; Il et le contenu-transfer-encoding sont déterminés par l’analyse de l’intégralité du contenu de la pièce jointe. Les pièces jointes d’URL sont traitées de manière spéciale : 
+Si MIME est utilisé sans TNEF, les fichiers joints sont envoyés en tant que composants de contenu de message MIME. Le nom de fichier est placé dans le paramètre  *name*  pour  *l’en-tête Content-type*  de la pièce jointe. Le jeu de caractères de la pièce jointe est placé dans le  *paramètre charset*  au  *type de contenu*  ; Il et le contenu-transfer-encoding sont déterminés par l’analyse de l’intégralité du contenu de la pièce jointe. Les pièces jointes d’URL sont traitées de manière spéciale : 
   
 - Si la pièce jointe est une URL (un fichier joint avec une extension . URL) et le mode d’accès défini dans ce fichier est FTP anonyme, il est codé en tant que message externe et le contenu du fichier (l’URL) est copié dans l’en-tête du message externe. *Content-type: message/external-body; access-type=anon-ftp*  (Content-Transfer-Encoding: 7bit is assumed.) 
     
@@ -33,7 +33,7 @@ Si MIME est utilisé sans TNEF, les fichiers joints sont envoyés en tant que co
     
      *Content-Transfer-Encoding: quoted-printable* 
     
-- Si 25 % ou plus des caractères ont le jeu de bits élevé, la pièce jointe est binaire. Il est codé à l’aide de l’algorithme Base64. *Content-type: application/octet-stream*  (par défaut ; en fonction de l’extension de fichier) 
+- Si 25 % ou plus des caractères ont le jeu de bits élevé, la pièce jointe est binaire. Il est codé à l’aide de l’algorithme Base64. *Type de contenu : application/octet-stream*  (par défaut ; basé sur l’extension de fichier) 
     
      * Content-Transfer-Encoding: base64 * 
     
@@ -55,7 +55,7 @@ S’il n’existe aucun mappage pour l’extension de fichier, le flux  *d’app
   
 Sur les messages entrants, le type de contenu d’une pièce jointe doit toujours être copié dans la propriété MAPI **PR_ATTACH_MIME_TAG** ([PidTagAttachMimeTag](pidtagattachmimetag-canonical-property.md)). Même si un nom de fichier est défini pour un fichier joint, l’extension mappée par le type de contenu doit être utilisée dans les propriétés **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) et **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)).
   
-Le  *paramètre*  name est officiellement supprimé par la RFC 821. Au fil de l’évolution des normes, Microsoft envisagera de spécifier un mappage de remplacement pour les noms de fichiers joints. 
+Le *paramètre*  name est officiellement supprimé par la RFC 821. Au fil de l’évolution des normes, Microsoft envisagera de spécifier un mappage de remplacement pour les noms de fichiers joints. 
   
 Les messages joints sortants sont envoyés sous la forme * Type de contenu : message/rfc822 * Les messages joints sont codés de manière récursive, à leur place. Les composants de contenu de message entrant avec  *Content-Type: multipart/digest*  sont également mappés sur des messages incorporés. 
   

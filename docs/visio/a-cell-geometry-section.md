@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
 description: Représente des informations différentes selon la ligne où elle se trouve. Le tableau ci-dessous décrit la cellule A pour chaque ligne.
-ms.openlocfilehash: 260c9cb9a6bc5b538857585208ba9b8d719f07ad
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 68df3606207dae4762ff537b5c7e7db27b24dd84
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59608766"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180319"
 ---
 # <a name="a-cell-geometry-section"></a>A, cellule (section Geometry)
 
@@ -23,7 +23,7 @@ Représente des informations différentes selon la ligne où elle se trouve. Le 
 |Ligne|Description|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | Distance entre le milieu de l’arc et le milieu de sa corde.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée  *x*  du point de contrôle de l’arc, un point sur l’arc. Le point de contrôle est mieux situé à mi-chemin entre les vertex de début et de fin de l’arc. Dans le cas contraire, l’arc peut atteindre une taille extrême afin de passer par le point de contrôle, avec des résultats imprévisibles.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Coordonnée *x*  du point de contrôle de l’arc, un point sur l’arc. Le point de contrôle est mieux situé à mi-chemin entre les vertex de début et de fin de l’arc. Dans le cas contraire, l’arc peut atteindre une taille extrême afin de passer par le point de contrôle, avec des résultats imprévisibles.  <br/> |
 |[PolylineTo](polylineto-row-geometry-section.md) <br/> | Formule de la polyligne  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Avant-dernier nœud de la courbe B-spline rationnelle non uniforme (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Deuxième nœud de la spline  <br/> |

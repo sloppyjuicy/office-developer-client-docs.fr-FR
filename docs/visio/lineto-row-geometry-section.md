@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b385a9a-9294-1703-9d6f-628a11498669
 description: Contient les coordonnées x et y du sommet de fin d’un segment de ligne droite.
-ms.openlocfilehash: d8ed89028b494132204b3415d23258f9518f9e19
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 44f43af97a2e79df96cbbd7f61b85d53d57ed2ec
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554480"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180543"
 ---
 # <a name="lineto-row-geometry-section"></a>LineTo Row (Geometry Section)
 
@@ -24,7 +24,7 @@ Une ligne LineTo contient les cellules suivantes.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordonnée  *x*  du sommet de fin d’un segment de ligne droite.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Coordonnée  *y*  du sommet de fin d’un segment de ligne droite.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordonnée *x*  du sommet de fin d’un segment de ligne droite.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y*  du sommet de fin d’un segment de ligne droite.  <br/> |
    
 

@@ -7,21 +7,21 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 2b5beeb6-e52d-41be-94df-083d36141a9d
 description: Microsoft Access utilise des mots clés réservés pour définir, manipuler et accéder aux bases de données. Les mots clés réservés font partie de la grammaire de la langue utilisée par Access pour l’SQL des instructions.
-ms.openlocfilehash: 3404cc630f774f95d4364792fbfbb31c3f960a0e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: de6fa9778d46638af44a02f3510833df54ce6233
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588419"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180466"
 ---
 # <a name="reserved-keywords-access-custom-web-app"></a>Mots clés réservés (application web personnalisée Access)
 
 Microsoft Access utilise des mots clés réservés pour définir, manipuler et accéder aux bases de données. Les mots clés réservés font partie de la grammaire de la langue utilisée par Access pour l’SQL des instructions. 
   
 > [!IMPORTANT]
-> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
+> Microsoft ne recommande plus la création et l'utilisation d'applications web Access dans SharePoint. En guise d'alternative, vous pouvez utiliser [Microsoft PowerApps](https://powerapps.microsoft.com/) pour générer des solutions d'entreprise sans code pour le web et les appareils mobiles. 
   
-## <a name="access-reserved-keywords"></a>Mots clés réservés Access
+## <a name="access-reserved-keywords"></a>Accéder aux mots clés réservés
 
 Le tableau suivant répertorie les mots clés réservés Access.
   
@@ -39,7 +39,7 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |BEGIN  <br/> |GOTO  <br/> |RETOUR  <br/> |
 |ENTRE  <br/> |GRANT  <br/> |REVERT  <br/> |
 |Attn  <br/> |GROUP  <br/> |REVOKE  <br/> |
-|BROWSE  <br/> |HAVING  <br/> |OUI  <br/> |
+|BROWSE  <br/> |HAVING  <br/> |RIGHT  <br/> |
 |BULK  <br/> |HOLDLOCK  <br/> |ROLLBACK  <br/> |
 |BY  <br/> |Heure  <br/> |ROWCOUNT  <br/> |
 |CASCADE  <br/> |IDENTITY  <br/> |ROWGUIDCOL  <br/> |
@@ -53,7 +53,7 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |COLUMN  <br/> |Entier  <br/> |SEMANTICSIMILARITYDETAILSTABLE  <br/> |
 |COMMIT  <br/> |INTERSECT  <br/> |SEMANTICSIMILARITYTABLE  <br/> |
 |COMPUTE  <br/> |INTO  <br/> |SESSION_USER  <br/> |
-|CONSTRAINT  <br/> | IS  <br/> |SET  <br/> |
+|CONSTRAINT  <br/> |IS  <br/> |SET  <br/> |
 |CONTAINS  <br/> |ISO_Week  <br/> |SETUSER  <br/> |
 |CONTAINSTABLE  <br/> |REJOINDRE  <br/> |ShortText  <br/> |
 |CONTINUER  <br/> |KEY  <br/> |ARRÊT  <br/> |
@@ -62,11 +62,11 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |CROSS  <br/> |J’AIME  <br/> |SYSTEM_USER  <br/> |
 |Devise  <br/> |LINENO  <br/> |TABLE  <br/> |
 |CURRENT  <br/> |LOAD  <br/> |TABLESAMPLE  <br/> |
-|CURRENT_DATE  <br/> |LongText  <br/> |Texte  <br/> |
+|CURRENT_DATE  <br/> |LongText  <br/> |Text  <br/> |
 |CURRENT_TIME  <br/> |MERGE  <br/> |TEXTIZE  <br/> |
 |CURRENT_TIMESTAMP  <br/> |Milliseconde  <br/> |THEN  <br/> |
-|CURRENT_USER  <br/> |Minute  <br/> |Temps  <br/> |
-|CURSOR  <br/> |Mois  <br/> |TO  <br/> |
+|CURRENT_USER  <br/> |Minute  <br/> |Time  <br/> |
+|CURSOR  <br/> |Month  <br/> |TO  <br/> |
 |DATABASE  <br/> |NATIONAL  <br/> |RETOUR AU DÉBUT  <br/> |
 |Date  <br/> |Non  <br/> |TRAN  <br/> |
 |DateWithTime  <br/> |NOCHECK  <br/> |TRANSACTION  <br/> |
@@ -94,8 +94,8 @@ Le tableau suivant répertorie les mots clés réservés Access.
 |EXECUTE  <br/> |PRECISION  <br/> |AU SEIN DU GROUPE  <br/> |
 |EXISTS  <br/> |PRIMARY  <br/> |WRITETEXT  <br/> |
 |EXIT  <br/> |PRINT  <br/> |Year  <br/> |
-|EXTERNE  <br/> |PROC  <br/> |Oui  <br/> |
-|FETCH  <br/> |PROCEDURE  <br/> |YesNo  <br/> |
+|EXTERNAL  <br/> |PROC  <br/> |Oui  <br/> |
+|FETCH  <br/> |PROCÉDURE  <br/> |YesNo  <br/> |
 |FILE  <br/> |PUBLIC  <br/> ||
    
 
@@ -104,16 +104,16 @@ Le tableau suivant répertorie les mots clés réservés Access.
 
 En outre, la norme ISO définit une liste de mots clés réservés. Évitez d’utiliser des mots clés réservés ISO pour les noms d’objets et les identificateurs. La liste de mots clés réservés ODBC, indiquée dans le tableau suivant, est identique à la liste de mots clés réservés ISO.
 
-Les mots suivants sont réservés pour être utilisés dans les appels de fonction ODBC. Ces mots ne limitent pas la grammaire SQL minimale ; toutefois, pour garantir la compatibilité avec les pilotes qui assurent la prise en charge de la grammaire SQL base, les applications doivent éviter d’utiliser ces mots clés.
+Les mots suivants sont réservés pour être utilisés dans les appels de fonction ODBC. Ces mots ne limitent pas la grammaire SQL minimale ; toutefois, pour garantir la compatibilité avec les pilotes qui assurent la prise en charge de la grammaire SQL principale, les applications doivent éviter d’utiliser ces mots clés.
   
 Il s’agit de la liste actuelle des mots clés réservés ODBC.
   
 ||||
 |:-----|:-----|:-----|
-|ABSOLUTE  <br/> |EXEC  <br/> |CHEVAUCHEMENTS  <br/> |
+|ABSOLUTE  <br/> |EXEC  <br/> |OVERLAPS  <br/> |
 |ACTION  <br/> |EXECUTE  <br/> |PAD  <br/> |
 |ADA  <br/> |EXISTS  <br/> |PARTIAL  <br/> |
-|ADD  <br/> |EXTERNE  <br/> |PASCAL  <br/> |
+|ADD  <br/> |EXTERNAL  <br/> |PASCAL  <br/> |
 |TOUT  <br/> |EXTRACT  <br/> |POSITION  <br/> |
 |ALLOCATE  <br/> |FALSE  <br/> |PRECISION  <br/> |
 |ALTER  <br/> |FETCH  <br/> |PREPARE  <br/> |
@@ -121,7 +121,7 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
 |ANY  <br/> |FLOAT  <br/> |PRIMARY  <br/> |
 |ARE  <br/> |FOR  <br/> |PRIOR  <br/> |
 |AS  <br/> |FOREIGN  <br/> |PRIVILEGES  <br/> |
-|CROIS.  <br/> |FORTRAN  <br/> |PROCEDURE  <br/> |
+|CROIS.  <br/> |FORTRAN  <br/> |PROCÉDURE  <br/> |
 |ASSERTION  <br/> |FOUND  <br/> |PUBLIC  <br/> |
 |AT  <br/> |FROM  <br/> |READ  <br/> |
 |AUTHORIZATION  <br/> |FULL  <br/> |REAL  <br/> |
@@ -129,7 +129,7 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
 |BEGIN  <br/> |GLOBAL  <br/> |RELATIVE  <br/> |
 |ENTRE  <br/> |GO  <br/> |RESTRICT  <br/> |
 |BIT  <br/> |GOTO  <br/> |REVOKE  <br/> |
-|BIT_LENGTH  <br/> |GRANT  <br/> |OUI  <br/> |
+|BIT_LENGTH  <br/> |GRANT  <br/> |RIGHT  <br/> |
 |BOTH  <br/> |GROUP  <br/> |ROLLBACK  <br/> |
 |BY  <br/> |HAVING  <br/> |LIGNES  <br/> |
 |CASCADE  <br/> |HOUR  <br/> |SCHEMA  <br/> |
@@ -149,12 +149,12 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
 |COLUMN  <br/> |INTERSECT  <br/> |SQLCODE  <br/> |
 |COMMIT  <br/> |INTERVAL  <br/> |SQLERROR  <br/> |
 |CONNECT  <br/> |INTO  <br/> |SQLSTATE  <br/> |
-|CONNECTION  <br/> | IS  <br/> |SQLWARNING  <br/> |
+|CONNECTION  <br/> |IS  <br/> |SQLWARNING  <br/> |
 |CONSTRAINT  <br/> |ISOLATION  <br/> |SUBSTRING  <br/> |
 |CONTRAINTES  <br/> |REJOINDRE  <br/> |SUM  <br/> |
 |CONTINUER  <br/> |KEY  <br/> |SYSTEM_USER  <br/> |
 |CONVERT  <br/> |LANGUAGE  <br/> |TABLE  <br/> |
-|CORRESPONDANT  <br/> |LAST  <br/> |TEMPORAIRE  <br/> |
+|CORRESPONDANT  <br/> |LAST  <br/> |TEMPORARY  <br/> |
 |COUNT  <br/> |LEADING  <br/> |THEN  <br/> |
 |CREATE  <br/> |LEFT  <br/> |TIME  <br/> |
 |CROSS  <br/> |LEVEL  <br/> |TIMESTAMP  <br/> |
@@ -192,7 +192,7 @@ Il s’agit de la liste actuelle des mots clés réservés ODBC.
    
 ## <a name="future-keywords"></a>Mots clés futurs
 
-Les mots clés suivants peuvent être réservés dans les prochaines SQL Server que de nouvelles fonctionnalités sont implémentées. Évitez d’utiliser ces mots comme identificateurs.
+Les mots clés suivants peuvent être réservés dans les futures SQL Server que de nouvelles fonctionnalités sont implémentées. Évitez d’utiliser ces mots comme identificateurs.
   
 ||||
 |:-----|:-----|:-----|
@@ -236,7 +236,7 @@ Les mots clés suivants peuvent être réservés dans les prochaines SQL Server 
 |CONTRAINTES  <br/> |MODULE  <br/> |SUBSTRING_REGEX  <br/> |
 |CONSTRUCTOR  <br/> |MONTH  <br/> |SYMÉTRIQUE  <br/> |
 |CORR  <br/> |MULTISET  <br/> |SYSTEM  <br/> |
-|CORRESPONDANT  <br/> |NAMES  <br/> |TEMPORAIRE  <br/> |
+|CORRESPONDANT  <br/> |NAMES  <br/> |TEMPORARY  <br/> |
 |COVAR_POP  <br/> |NATURAL  <br/> |TERMINATE  <br/> |
 |COVAR_SAMP  <br/> |NCHAR  <br/> |THAN  <br/> |
 |CUBE  <br/> |NCLOB  <br/> |TIME  <br/> |
@@ -266,7 +266,7 @@ Les mots clés suivants peuvent être réservés dans les prochaines SQL Server 
 |DIAGNOSTICS  <br/> |PREORDER  <br/> |WITHIN  <br/> |
 |DISCONNECT  <br/> |PREPARE  <br/> |WORK  <br/> |
 |DOMAIN  <br/> |PERCENT_RANK  <br/> |WRITE  <br/> |
-|DYNAMIC  <br/> |PERCENTILE_CONT  <br/> |XMLAGG  <br/> |
+|DYNAMIQUE  <br/> |PERCENTILE_CONT  <br/> |XMLAGG  <br/> |
 |CHAQUE  <br/> |PERCENTILE_DISC  <br/> |XMLATTRIBUTES  <br/> |
 |ELEMENT  <br/> |POSITION_REGEX  <br/> |XMLBINARY  <br/> |
 |END-EXEC  <br/> |PRESERVE  <br/> |XMLCAST  <br/> |

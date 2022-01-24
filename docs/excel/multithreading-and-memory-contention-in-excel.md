@@ -9,12 +9,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 74f431357b74a117888eca847151a6145b2473e3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 08b7e83f93d8fd003ce2cc622c2e008d68d97f3b
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621422"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180214"
 ---
 # <a name="multithreading-and-memory-contention-in-excel"></a>Multithreading et contention de mémoire dans Excel
 
@@ -32,9 +32,9 @@ Pour les développeurs XLL, il existe des avantages à créer des fonctions thre
   
 - Ils permettent Excel d’utiliser un ordinateur multi-processeur ou multi cœur.
     
-- Ils ouvrent la possibilité d’utiliser des serveurs distants beaucoup plus efficacement qu’avec un thread unique.
+- Ils ouvrent la possibilité d’utiliser des serveurs distants beaucoup plus efficacement qu’avec un seul thread.
     
-Supposons que vous disposez d’un ordinateur à processeur unique configuré pour utiliser, par exemple, *des threads N.* Supposons qu’une feuille de calcul est en cours d’exécution et qu’elle effectue un grand nombre d’appels à une fonction XLL qui à son tour envoie une demande de données ou un calcul à effectuer sur un serveur distant ou un cluster de serveurs. En fonction de la topologie de l’arborescence des dépendances, Excel peut appeler la fonction N fois presque simultanément. À condition que le ou les serveurs soient suffisamment rapides ou parallèles, le temps de recalcul de la feuille de calcul peut être réduit de 1/N. 
+Supposons que vous disposez d’un ordinateur à processeur unique configuré pour utiliser, par exemple, *des threads N.* Supposons qu’une feuille de calcul est en cours d’exécution et qu’elle effectue un grand nombre d’appels à une fonction XLL qui, à son tour, envoie une demande de données ou un calcul à effectuer sur un serveur distant ou un cluster de serveurs. En fonction de la topologie de l’arborescence des dépendances, Excel peut appeler la fonction N fois presque simultanément. À condition que le ou les serveurs soient suffisamment rapides ou parallèles, le temps de recalcul de la feuille de calcul peut être réduit de 1/N. 
   
 Le problème clé dans l’écriture de fonctions thread-safe consiste à gérer correctement les conflits de ressources. Cela signifie généralement une contention de mémoire et elle peut être décomposée en deux problèmes :
   
@@ -59,11 +59,11 @@ Dans ces deux cas, la mémoire est mise de côté dans le bloc de mémoire de la
 Dans ce cas, la mémoire est mise de côté sur la pile pour chaque instance de l’appel de fonction.
   
 > [!NOTE]
-> L’étendue de la mémoire allouée dynamiquement dépend de l’étendue du pointeur qui pointe vers celle-ci : si le pointeur est accessible par tous les threads, la mémoire l’est également. Si le pointeur est une variable automatique dans une fonction, la mémoire allouée est effectivement privée à ce thread. 
+> L’étendue de la mémoire allouée dynamiquement dépend de l’étendue du pointeur qui pointe vers celle-ci : si le pointeur est accessible par tous les threads, la mémoire l’est également. Si le pointeur est une variable automatique dans une fonction, la mémoire allouée est en fait privée à ce thread. 
   
 ## <a name="memory-accessible-by-only-one-thread-thread-local-memory"></a>Mémoire accessible par un seul thread : Thread-Local mémoire
 
-Étant donné que les variables statiques dans le corps d’une fonction sont accessibles par tous les threads, les fonctions qui les utilisent ne sont clairement pas thread-safe. Une instance de la fonction sur un thread peut modifier la valeur alors qu’une autre instance sur un autre thread suppose qu’il s’agit d’un autre. 
+Étant donné que les variables statiques dans le corps d’une fonction sont accessibles par tous les threads, les fonctions qui les utilisent ne sont clairement pas thread-safe. Une instance de la fonction sur un thread peut être en train de modifier la valeur, tandis qu’une autre instance sur un autre thread suppose qu’il s’agit d’un sujet complètement différent. 
   
 Il existe deux raisons de déclarer des variables statiques au sein d’une fonction :
   
@@ -99,7 +99,7 @@ LPXLOPER12 WINAPI mtr_safe_example_1(LPXLOPER12 pxArg)
 }
 ```
 
-Cette approche est plus simple à implémenter que l’approche décrite dans la section suivante, qui repose sur l’API TLS, mais présente certains inconvénients. Tout d’Excel devez appeler **xlAutoFree** /  **xlAutoFree12** quel que soit le type de **xlOPER** /  **XLOPER12 renvoyé.** Deuxièmement, il existe un problème lors du renvoi de **XLOPER** /  **XLOPER12** qui sont la valeur de retour d’un appel à une fonction de rappel d’API C. La **xlOPER** XLOPER12 peut pointer vers la mémoire qui doit être libérée par Excel, mais la /   **XLOPER** /  **XLOPER12** elle-même doit être libérée de la même façon qu’elle a été allouée. Si une **xlOPER** XLOPER12 de ce type doit être utilisée comme valeur de retour d’une fonction de feuille de calcul XLL, il n’existe aucun moyen simple d’informer /   **xlAutoFree** /  **xlAutoFree12** de la nécessité de libérer les deux pointeurs de la manière appropriée. (La définition de **xlbitXLFree** et **xlbitDLLFree** ne résout pas le problème, car le traitement des **XLOPER/XLOPER12 dans** Excel avec les deux ensembles n’est pas définie et peut changer de version.) Pour contourner ce problème, le XLL peut effectuer des copies approfondies de toutes les **XLOPER/XLOPER12** allouées Excel qu’elle renvoie à la feuille de calcul. 
+Cette approche est plus simple à implémenter que l’approche décrite dans la section suivante, qui repose sur l’API TLS, mais présente certains inconvénients. Tout d’Excel, vous devez appeler **xlAutoFree** /  **xlAutoFree12** quel que soit le type de **xlOPER** /  **XLOPER12 renvoyé.** Deuxièmement, il existe un problème lors du renvoi de **XLOPER** /  **XLOPER12** qui sont la valeur de retour d’un appel à une fonction de rappel d’API C. La **XLOPER** XLOPER12 peut pointer vers la mémoire qui doit être libérée par Excel, mais la /   **XLOPER** /  **XLOPER12** elle-même doit être libérée de la même façon qu’elle a été allouée. Si une **xlOPER** XLOPER12 de ce type doit être utilisée comme valeur de retour d’une fonction de feuille de calcul XLL, il n’existe aucun moyen simple d’informer /   **xlAutoFree** /  **xlAutoFree12** de la nécessité de libérer les deux pointeurs de la manière appropriée. (La définition de **xlbitXLFree** et **xlbitDLLFree** ne résout pas le problème, car le traitement des **XLOPER/XLOPER12** dans Excel avec les deux ensembles n’est pas définie et peut changer de version.) Pour contourner ce problème, le XLL peut effectuer des copies approfondies de toutes les **XLOPER/XLOPER12** allouées Excel qu’elle renvoie à la feuille de calcul. 
   
 Une solution qui évite ces limitations consiste à remplir et renvoyer une **XLOPER/XLOPER12** locale de thread, une approche qui nécessite que **xlAutoFree/xlAutoFree12** ne libère pas le pointeur **XLOPER/XLOPER12** lui-même. 
   
@@ -155,7 +155,7 @@ struct TLS_data
 };
 ```
 
-La fonction suivante obtient un pointeur vers l’instance locale de thread ou en alloue un s’il s’agit du premier appel.
+La fonction suivante obtient un pointeur vers l’instance thread-local, ou en alloue un s’il s’agit du premier appel.
   
 ```cs
 TLS_data *get_TLS_data(void)
@@ -193,13 +193,13 @@ LPXLOPER12 get_thread_local_xloper12(void)
 
 ```
 
-Les **fonctions mtr_safe_example_1** et **mtr_safe_example_2** peuvent être enregistrées en tant que fonctions de feuille de calcul thread-safe lorsque vous exécutez Excel. Toutefois, vous ne pouvez pas combiner les deux approches dans une seule XLL. Votre XLL ne peut exporter qu’une seule implémentation de **xlAutoFree** et **xlAutoFree12**, et chaque stratégie de mémoire nécessite une approche différente. Avec **mtr_safe_example_1,** le pointeur transmis à **xlAutoFree/xlAutoFree12** doit être libéré avec toutes les données vers qui il pointe. Avec **mtr_safe_example_2,** seules les données pointées doivent être libérées.
+Les **fonctions mtr_safe_example_1** et **mtr_safe_example_2** peuvent être enregistrées en tant que fonctions de feuille de calcul thread-safe lorsque vous exécutez Excel. Toutefois, vous ne pouvez pas combiner les deux approches dans une seule XLL. Votre XLL ne peut exporter qu’une seule implémentation de **xlAutoFree** et **xlAutoFree12**, et chaque stratégie de mémoire nécessite une approche différente. Avec **mtr_safe_example_1,** le pointeur transmis à **xlAutoFree/xlAutoFree12** doit être libéré avec toutes les données vers qui il pointe. Avec **mtr_safe_example_2**, seules les données pointées doivent être libérées.
   
 Windows fournit également une fonction **GetCurrentThreadId**, qui renvoie l’ID unique à l’échelle du système du thread actuel. Cela permet au développeur de rendre le thread de code sécurisé ou de rendre son thread de comportement spécifique.
   
 ## <a name="memory-accessible-only-by-more-than-one-thread-critical-sections"></a>Mémoire accessible uniquement par plusieurs threads : sections critiques
 
-Vous devez protéger la mémoire en lecture/écriture accessible par plusieurs threads à l’aide de sections critiques. Vous avez besoin d’une section critique nommée pour chaque bloc de mémoire que vous souhaitez protéger. Vous pouvez initialiser ces éléments pendant l’appel à la fonction **xlAutoOpen,** les libérer et les définir sur null lors de l’appel à la fonction **xlAutoClose.** Vous devez ensuite contenir chaque accès au bloc protégé dans une paire d’appels à **EnterCriticalSection** et **LeaveCriticalSection**. Un seul thread est autorisé dans la section critique à tout moment. Voici un exemple d’initialisation, d’initialisation et d’utilisation d’une section **appelée g_csSharedTable**.
+Vous devez protéger la mémoire en lecture/écriture accessible par plusieurs threads à l’aide de sections critiques. Vous avez besoin d’une section critique nommée pour chaque bloc de mémoire que vous souhaitez protéger. Vous pouvez initialiser ces derniers pendant l’appel à la fonction **xlAutoOpen,** les libérer et les définir sur null lors de l’appel à la fonction **xlAutoClose.** Vous devez ensuite contenir chaque accès au bloc protégé dans une paire d’appels à **EnterCriticalSection** et **LeaveCriticalSection**. Un seul thread est autorisé dans la section critique à tout moment. Voici un exemple d’initialisation, d’initialisation et d’utilisation d’une section appelée **g_csSharedTable**.
   
 ```cs
 CRITICAL_SECTION g_csSharedTable; // global scope (if required)

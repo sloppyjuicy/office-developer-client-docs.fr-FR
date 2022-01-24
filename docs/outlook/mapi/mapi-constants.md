@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: Définitions des constantes, déclarations d’interface MAPI et identificateurs de classe et d’interface utilisés par les API MAPI.
-ms.openlocfilehash: aa31d57e6c3d81cf173ec9e7e825a6c8b9f55e8c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 252be391263779ad2215d824df84dee0739c5ed0
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59595888"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180662"
 ---
 # <a name="mapi-constants"></a>Constantes MAPI
 
@@ -390,7 +390,7 @@ Cette section contient les définitions des constantes et les identificateurs d�
 |MNID_ID  <br/> |Comme définie dans le fichier d’en-tête mapidefs.h du kit de développement logiciel Windows (Kit SDK Windows) de Microsoft  <br/> |Valeur pour le champ **ulKind** de la structure **[MAPINAMEID](mapinameid.md)**.  <br/> |
 |MNID_STRING  <br/> |Comme définie dans le fichier d’en-tête mapidefs.h du kit de développement logiciel Windows (Kit SDK Windows) de Microsoft.  <br/> |Valeur pour le champ **ulKind** de la structure **[MAPINAMEID](mapinameid.md)**.  <br/> |
 |MSCAP_RES_ANNOTATION  <br/> |((ULONG) 0x00000001)  <br/> |Si un client spécifie **MSCAP_SEL_RESTRICTION** dans *mscapSelector* pour **[IMSCapabilities::GetCapabilities](imscapabilities-getcapabilities.md)**, **GetCapabilities** peut renvoyer cette valeur si la banque ignore les paramètres non valides dans une restriction.  <br/> |
-|MSCAP_SECURE_FOLDER_HOMEPAGES  <br/> |((ULONG) 0x00000020)  <br/> |Si un client spécifie **MSCAP_SEL_FOLDER** dans *mscapSelector* pour **IMSCapabilities::GetCapabilities**, **GetCapabilities** peut renvoyer cette valeur si la banque est une banque non définie par défaut qui prend en charge les pages d’accueil du dossier.  <br/> |
+|MSCAP_SECURE_FOLDER_HOMEPAGES  <br/> |((ULONG) 0x00000001)  <br/> |Si un client spécifie **MSCAP_SEL_FOLDER** dans *mscapSelector* pour **IMSCapabilities::GetCapabilities**, **GetCapabilities** peut renvoyer cette valeur si la banque est une banque non définie par défaut qui prend en charge les pages d’accueil du dossier.  <br/> |
 |STORE_PUSHER_OK  <br/> |((ULONG) 0x00800000)  <br/> |Un client peut accéder à la propriété **[PR_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md)** pour déterminer la caractéristique d’une banque de messages. Si le fournisseur de banques définit l’indicateur **STORE_PUSHER_OK** dans le masque de bits, cela signifie que le gestionnaire de protocole MAPI n’analysera pas la banque et que cette dernière est responsable de la transmission des modifications via l’envoi de notifications à l’indexeur afin d’indexer des messages.  <br/> |
    
 ### <a name="definitions-for-namespaces"></a>Définitions pour les espaces de noms

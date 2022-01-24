@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 7e47acfe-5ec0-3689-eb89-0168f596a739
 description: Contient les coordonnées x et y, la position du deuxième au dernier nœud, la position du dernier poids, la position du premier nœud, la position de la première pondération et la formule d’une ligne B-spline rationnelle nonuniforme (NURBS).
-ms.openlocfilehash: 82de180eb691b86dae678c4de71a5eaaf4b36d2f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a817f294a27b673e104f57a59df733cda8266f47
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573823"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180186"
 ---
 # <a name="nurbsto-row-geometry-section"></a>NURBSTo, ligne (section Geometry)
 
@@ -24,8 +24,8 @@ Une ligne NURBSTo contient les cellules suivantes.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordonnée  *x*  du dernier point de contrôle d’une NURBS.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Coordonnée  *y*  du dernier point de contrôle d’une NURBS.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordonnée *x*  du dernier point de contrôle d’une NURBS.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y*  du dernier point de contrôle d’une NURBS.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |Avant-dernier nœud de la courbe NURBS.  <br/> |
 |[B](b-cell-geometry-section.md) <br/> |La dernière épaisseur de la courbe NURBS.  <br/> |
 |[C](c-cell-geometry-section.md) <br/> |Le premier nœud de la courbe NURBS.  <br/> |

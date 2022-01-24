@@ -5,17 +5,17 @@ ms.date: 11/08/2016
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
-description: 'Un développeur d’applications peut personnaliser un site Project Online (hébergé SharePoint) à l’aide d’applications autonomes et/ou de Project de sites. Un grand nombre d’applications sont possibles, qu’il s’agit de répondre aux besoins de ceux impliqués dans un projet ou de fonctions de prise en charge PMO, telles que l’une des suivantes :'
-ms.openlocfilehash: 3ea7c451022c3c7b55d1ce788b002df6bb8bb591
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: 'Un développeur d’applications peut personnaliser un site Project Online (hébergé SharePoint) à l’aide d’applications autonomes et/ou de Project de développement. Un grand nombre d’applications sont possibles, qu’il s’agit de répondre aux besoins de ceux impliqués dans un projet ou de fonctions de prise en charge PMO, telles que l’une des suivantes :'
+ms.openlocfilehash: 40d38d1cb80c98b945fe474ce2d8be51cf5ea6df
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619238"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180557"
 ---
 # <a name="from-0-to-60-with-project-online"></a>De 0 à 60 avec Project Online
 
-Un développeur d’applications peut personnaliser un site Project Online (hébergé SharePoint) à l’aide d’applications autonomes et/ou de Project de sites. Un grand nombre d’applications sont possibles, qu’il s’agit de répondre aux besoins de ceux impliqués dans un projet ou de fonctions de prise en charge PMO, telles que l’une des suivantes :
+Un développeur d’applications peut personnaliser un site Project Online (hébergé SharePoint) à l’aide d’applications autonomes et/ou de Project de développement. Un grand nombre d’applications sont possibles, qu’il s’agit de répondre aux besoins de ceux impliqués dans un projet ou de fonctions de prise en charge PMO, telles que l’une des suivantes :
   
 - Entrée simplifiée des données de carte de temps pour les employés
 - Approbation de carte de temps efficace pour les superviseurs
@@ -39,9 +39,9 @@ Project Online la prise en charge de l’API pour prendre en charge les scénari
     
   - Code qui existe sur un site externe au site Project Online site 
   - Un site externe, qui peut être (mais n’est pas limité à) :  
-  - Autre site SharePoint site  
+  - Un autre site SharePoint site  
   - Application web/service créé sur n’importe quelle plateforme  
-  - Le site externe contient une logique métier  
+  - Le site externe contient la logique métier  
   - Le navigateur est redirigé de Project Online vers un site externe avec des jetons d’accès Project Online  
   - Le site externe peut effectuer des appels vers SharePoint et Project Online
     
@@ -54,7 +54,7 @@ Project Online la prise en charge de l’API pour prendre en charge les scénari
 |Type d’application|Implémentation d’API|Environnement cible|Exemples d’applications|
 |:-----|:-----|:-----|:-----|
 |Project hébergé  <br/> |JSOM (Java Script Object Model)  <br/> REST  <br/> |Navigateur  <br/> |Entrée de carte de temps  <br/> Approbation de carte de temps  <br/> État du projet  <br/> Rapport des problèmes  <br/> |
-|Project Fournisseur hébergé  <br/> |Bibliothèque cliente CSOM  <br/> |Site web/application Azure  <br/> Environnement non Windows (LAMP, etc.)  <br/> |Validateur de feuille de temps externe  <br/> Project Importer  <br/> |
+|Project fournisseur hébergé  <br/> |Bibliothèque cliente CSOM  <br/> |Site web/application Azure  <br/> Environnement non Windows (LAMP, etc.)  <br/> |Validateur de feuille de temps externe  <br/> Project importer  <br/> |
 |Externe/Autonome  <br/> |REST  <br/> CSOM  <br/> |REST - n’importe quelle plateforme  <br/> CSOM : toute plateforme prise en charge par .NET  <br/> |Entrée de carte de temps  <br/> Migration de projets vers un nouveau site  <br/> État de gestion des changements.  <br/> |
    
 ## <a name="what-does-it-take-to-start-developing-applications-for-project-online"></a>Que faut-il pour commencer à développer des applications pour Project Online ?
@@ -97,7 +97,7 @@ Un exemple de l’environnement Windows de développement pour ce type d’appli
   
 -  Visual Studio 2015 (de préférence) ou Visual Studio 2013 
     
-- Microsoft Office Outils de développement Visual Studio (fournis avec Visual Studio 2015 Professional et Enterprise éditions)
+- Microsoft Office de développement pour Visual Studio (fournis avec Visual Studio 2015 Professional et Enterprise éditions)
     
 - .NET Framework 4.0 ou plus
     
@@ -129,7 +129,7 @@ Un exemple de l’environnement Windows de développement pour ce type d’appli
   
 - Visual Studio 2015 (de préférence) ou Visual Studio 2013 
     
-- Microsoft Office Outils de développement Visual Studio (fournis avec Visual Studio 2015 Professional et Enterprise éditions)
+- Microsoft Office de développement pour Visual Studio (fournis avec Visual Studio 2015 Professional et Enterprise éditions)
     
 - .NET Framework 4.0 ou plus
     
@@ -145,7 +145,7 @@ Vous pouvez exécuter l’exemple en quelques étapes :
     
 2. A apporté quelques modifications pour accéder à votre site Project Online site : le nom du site, le compte d’utilisateur et le mot de passe.
     
-   Assurez-vous que l’utilisateur a accès à tous les projets. Project Online utilise les autorisations utilisateur pour régir l’accès aux informations dans le magasin de données.
+   Assurez-vous que l’utilisateur a accès à tous les projets. Project Online utilise les autorisations des utilisateurs pour régir l’accès aux informations dans le magasin de données.
     
 3. Ajoutez l’assembly SharePoint aux références à l’aide de la console Nuget Gestionnaire de package, disponible dans le menu Outils en tapant ce qui suit dans la console Nuget : 
     
@@ -155,7 +155,7 @@ Vous pouvez exécuter l’exemple en quelques étapes :
     
 5. Exécutez le projet.
     
-## <a name="next-steps"></a>Étapes suivantes
+## <a name="next-steps"></a>Prochaines étapes
 
 Chaque exemple d’application dispose d’un article expliquant les points forts de l’utilisation de l’API Project individuelle. Les articles apparaissent dans la liste suivante, ainsi que quelques articles qui décrivent les relations d’entité, les informations sur le système de requête et l’accès aux champs personnalisés. 
   
@@ -167,6 +167,6 @@ Chaque exemple d’application dispose d’un article expliquant les points fort
     
 ## <a name="see-also"></a>Voir aussi
 
-Pour obtenir de la documentation et des exemples relatifs à Microsoft Project Online et au développement d’applications à l’aide de CSOM, consultez le [Portail de développement Project](https://developer.microsoft.com/en-us/project).
+Pour obtenir de la documentation et des exemples relatifs à Microsoft Project Online et au développement d’applications à l’aide de CSOM, consultez le [Portail de développement Project](https://developer.microsoft.com/project).
     
 

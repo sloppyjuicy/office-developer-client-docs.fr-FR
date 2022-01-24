@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 3ff1f2e1-bdfe-2766-3c0f-0f299cc256e9
 description: Cette rubrique présente la définition de schéma XML pour Visio format de fichier 2013.
-ms.openlocfilehash: af57cf9737c87f11cce74f622692f3d8997d19ad
-ms.sourcegitcommit: 759a4c5cff383963ef0d64888bcc0046738e9635
+ms.openlocfilehash: 6d8ba2158561487b220f2d6e8b58e6891a8bda88
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327739"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180536"
 ---
 # <a name="schema-map-visio-xml"></a>Plan de schéma (Visio XML)
 
@@ -29,7 +29,7 @@ Cette rubrique présente la définition de schéma XML pour Visio format de fich
     <xsd:annotation>
         <xsd:documentation>
             Permission to copy, display and distribute the contents of this document (the "Specification"), in any medium for any purpose without fee or royalty is hereby granted, provided that you include the following notice on ALL copies of the Specification, or portions thereof, that you make:
-            Copyright (c) Microsoft Corporation.  All rights reserved.  Permission to copy, display and distribute this document is available at:  https://msdn.microsoft.com/library/en-us/odcXMLRef/html/odcXMLRefLegalNotice.asp?frame=true.
+            Copyright (c) Microsoft Corporation.  All rights reserved.  Permission to copy, display and distribute this document is available at:  https://msdn.microsoft.com/library/odcXMLRef/html/odcXMLRefLegalNotice.asp?frame=true.
             No right to create modifications or derivatives of this Specification is granted herein.
             There is a separate patent license available to parties interested in implementing software programs that can read and write files that conform to the Specification.  This patent license is available at this location:  https://www.microsoft.com/mscorp/ip/format/xmlpatentlicense.asp.
             THE SPECIFICATION IS PROVIDED "AS IS" AND MICROSOFT MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR TITLE; THAT THE CONTENTS OF THE SPECIFICATION ARE SUITABLE FOR ANY PURPOSE; NOR THAT THE IMPLEMENTATION OF SUCH CONTENTS WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.

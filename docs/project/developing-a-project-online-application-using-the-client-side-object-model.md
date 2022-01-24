@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: 'Cet article décrit le développement d’applications Microsoft Project Online à l’aide de .NET Framework 4.0 et CSOM. '
 ms.localizationpriority: high
-ms.openlocfilehash: 87cac0b4cdc18c0496ade60ad2a90ded8f28f6ae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aff361d5330481b30ded0233b166cf098b2e9f8d
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619266"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180564"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>Développement d’une application Microsoft Project Online à l’aide du modèle objet côté client (CSOM)
 
 >[!NOTE] 
->Cet article décrit le développement d’applications Microsoft Project Online pour utiliser le CSOM. Nous vous recommandons de découvrir le développement d’applications à l’aide d’un [nouveau projet pour le web](https://developer.microsoft.com/en-us/office/blogs/developing-applications-and-reports-using-the-new-project/).
+>Cet article décrit le développement d’applications Microsoft Project Online pour utiliser le CSOM. Nous vous recommandons de découvrir le développement d’applications à l’aide d’un [nouveau projet pour le web](https://developer.microsoft.com/office/blogs/developing-applications-and-reports-using-the-new-project/).
   
 ## <a name="background"></a>Arrière-plan
 
@@ -46,9 +46,9 @@ Commencez avec un système de base exécutant Windows 10 et ajoutez les éléme
   
 - .Net Framework 4.0 ou version ultérieure : utilisez la structure complète. Le site de téléchargement est https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
-- Visual Studio 2013 ou version ultérieure : toutes les éditions sont acceptées. L’édition Community Edition de Visual Studio 2015 a été utilisée pour développer l’exemple d’application. L’édition Community Edition est disponible à l’adresse suivante https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.
+- Visual Studio 2013 ou version ultérieure : toutes les éditions sont acceptées. L’édition Community Edition de Visual Studio 2015 a été utilisée pour développer l’exemple d’application. L’édition Community Edition est disponible à l’adresse suivante https://www.visualstudio.com/products/visual-studio-community-vs.aspx.
     
-- Kit de développement logiciel (SDK) des composants clients de SharePoint : les applications Microsoft Project Online et Project Server sont supérieures à SharePoint et aux assemblys SharePoint. Les composants client de SharePoint sont inclus dans les éditions Visual Studio Professional et Enterprise. Si vous utilisez Visual Studio Community Edition, la dernière version du kit de développement logiciel des outils de développement Office est disponible sur le site suivant : https://www.microsoft.com/en-us/download/details.aspx?id=35585.
+- Kit de développement logiciel (SDK) des composants clients de SharePoint : les applications Microsoft Project Online et Project Server sont supérieures à SharePoint et aux assemblys SharePoint. Les composants client de SharePoint sont inclus dans les éditions Visual Studio Professional et Enterprise. Si vous utilisez Visual Studio Community Edition, la dernière version du kit de développement logiciel des outils de développement Office est disponible sur le site suivant : https://www.microsoft.com/download/details.aspx?id=35585.
     
 - Compte Microsoft Project Online : permet d’accéder au site d’hébergement. Pour plus d’informations sur l’obtention d’un compte Microsoft Project Online, visitez le site https://products.office.com/en-gb/project/project-portfolio-management.
     

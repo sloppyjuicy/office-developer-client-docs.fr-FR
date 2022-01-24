@@ -9,12 +9,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 3bf5195b-6235-43cf-8795-0c7b0a63a095
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 347835570e956672995d73ff69447d2cec0801cf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f2f3b66926b6662a4918b81fbde0c69b6ff7249e
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557651"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180221"
 ---
 # <a name="memory-management-in-excel"></a>Gestion de la mémoire dans Excel
 
@@ -307,7 +307,7 @@ Comme pour les structures **XLOPER**/ **XLOPER**, il existe des r�gles et des 
 - Lorsque votre DLL alloue dynamiquement une m�moire tampon de cha�ne pour une structure **XLOPER**/ **XLOPER12**, lib�rez-la de fa�on coh�rente avec la mani�re dont vous l�allouez une fois que vous avez termin� ou d�finissez **xlbitDLLFree** si vous la renvoyez vers Excel � partir d�une fonction XLL, puis lib�rez-la dans **xlAutoFree**/ **xlAutoFree12**.
     
 - Si Excel a allou� la m�moire pour un tableau **xltypeMulti** renvoy� � votre DLL dans un appel d�API C, ne remplacez aucune cha�ne **XLOPER**/ **XLOPER12** dans le tableau. Ces tableaux doivent uniquement �tre lib�r�s � l�aide de **xlFree**, ou en cas de renvoi par une fonction XLL, par la d�finition de **xlbitXLFree**.
-    
+
 ### <a name="string-types-supported"></a>Types de chaîne pris en charge
 
 **API C xltypeStr XLOPER/XLOPER12s**
@@ -317,7 +317,7 @@ Comme pour les structures **XLOPER**/ **XLOPER**, il existe des r�gles et des 
 |Toutes les versions d�Excel  <br/> |D�marrage dans Excel 2007  <br/> |
 |Longueur maximale�: 255�octets ASCII �tendus  <br/> |Longueur maximale�: 32�767 caract�res Unicode  <br/> |
 |Le premier octet (non sign�) = longueur  <br/> |Le premier caract�re Unicode = longueur  <br/> |
-   
+
 > [!IMPORTANT]
 > [!IMPORTANTE] Ne supposez pas que les cha�nes **XLOPER** ou **XLOPER12** se terminent par null. 
   
@@ -327,10 +327,10 @@ Comme pour les structures **XLOPER**/ **XLOPER**, il existe des r�gles et des 
 |:-----|:-----|
 |Longueur maximale de l’élément « C » terminé par null (**char** *) : 255 octets ASCII étendus  <br/> |Longueur maximale de l’élément « C% » terminé par null (**wchar_t** *) : 32 767 caractères Unicode  <br/> |
 |Longueur comptée (**char non signé** *) : « D »  <br/> |Longueur comptée ((**wchar_t** *) *) : « D % »  <br/> |
-   
+
 ### <a name="strings-in-xltypemulti-xloperxloper12-arrays"></a>Chaînes dans les tableaux xltypeMulti XLOPER/XLOPER12
 
-Dans certains cas, Excel cr�e un tableau **xltypeMulti** � utiliser dans votre DLL/XLL. Plusieurs fonctions d�informations XLM renvoient ces tableaux. Par exemple, la fonction de l�API C **xlfGetWorkspace**, lorsque l�argument  *44*  est transmis, renvoie un tableau contenant des chaînes qui d�crivent toutes les proc�dures DLL actuellement inscrites. La fonction de l�API C **xlfDialogBox** renvoie une copie modifi�e de l�argument de tableau, contenant des copies compl�tes des chaînes. Une XLL rencontre peut-�tre le plus couramment un tableau **xltypeMulti** � l�endroit o� il a �t� transmis en tant qu�argument vers une fonction XLL, ou l� o� il a �t� converti en ce type � partir d�une r�f�rence de plage. Dans ce dernier cas, Excel cr�e des copies compl�tes des chaînes dans les cellules sources et pointe vers celles-ci dans le tableau. 
+Dans certains cas, Excel crée un tableau **xltypeMulti** à utiliser dans votre DLL/XLL. Plusieurs fonctions d’informations XLM renvoient ces tableaux. Par exemple, la fonction de l’API C **xlfGetWorkspace**, lorsque l’argument *44* est transmis, renvoie un tableau contenant des chaînes qui décrivent toutes les procédures DLL actuellement inscrites. La fonction de l’API C **xlfDialogBox** renvoie une copie modifiée de l’argument de tableau, contenant des copies complètes des chaînes. Une XLL rencontre peut-être le plus couramment un tableau **xltypeMulti** à l’endroit où il a été transmis en tant qu’argument vers une fonction XLL, ou là où il a été converti en ce type à partir d’une référence de plage. Dans ce dernier cas, Excel crée des copies complètes des chaînes dans les cellules sources et pointe vers celles-ci dans le tableau.
   
 � l�endroit o� vous souhaitez modifier ces cha�nes dans votre DLL, vous devez effectuer vos propres copies compl�tes. Lorsque vous cr�ez vos propres tableaux **xltypeMulti**, vous ne devez pas placer la cha�ne allou�e par Excel **XLOPER**/ **XLOPER12**. Vous risquez ainsi de ne pas les lib�rer correctement ult�rieurement, ou de ne pas les lib�rer du tout. L� encore, vous devez effectuer des copies compl�tes des cha�nes et stocker des pointeurs vers les copies dans le tableau.
   

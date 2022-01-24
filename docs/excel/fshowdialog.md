@@ -11,12 +11,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
 description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 69c4ba0fc535df6787683a42d49441f97c4bebe4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ddb9c73c5c72545216d4f842ba61990b8593ec29
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552247"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180228"
 ---
 # <a name="fshowdialog"></a>fShowDialog
 
@@ -38,7 +38,7 @@ La fonction retourne l’integer zéro pour indiquer l’achèvement réussi
   
 ## <a name="remarks"></a>Remarques
 
-Les étapes d’affichage de la boîte Windows dialogue native sont les suivantes :
+Les étapes à suivre pour afficher la boîte de Windows de dialogue native sont les suivantes :
   
 1. Obtenez le Microsoft Excel principal Windows à **l’aide de GetHwnd**.
     
@@ -50,7 +50,7 @@ Les étapes d’affichage de la boîte Windows dialogue native sont les suivante
     
 ### <a name="example"></a>Exemple
 
-Voir  `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
+Voir `\SAMPLES\GENERIC\GENERIC.C` le code source pour cette fonction. 
   
 ## <a name="see-also"></a>Voir aussi
 

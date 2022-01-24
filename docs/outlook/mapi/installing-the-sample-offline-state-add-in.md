@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: e1b6ae6c-dcf2-a07f-c417-3a1049b758ad
 description: 'Last modified: July 06, 2012'
-ms.openlocfilehash: f57055c0c9b5651023f110e9540a49382f275696
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8cdc2fedc31a43431941fe07d5f30d0bf487dc3e
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630437"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180200"
 ---
 # <a name="installing-the-sample-offline-state-add-in"></a>Installation de l’exemple de add-in d’état hors connexion
 
@@ -23,14 +23,14 @@ Cette rubrique vous fait suivre les étapes de téléchargement et d’installat
   
 ## <a name="install-the-sample-offline-state-add-in"></a>Installer l’exemple de add-in d’état hors connexion
 
-1. Téléchargez l’exemple de add-in d’état hors connexion ici [: Outlook 2007 Auxiliary Reference Code Samples and Redistributable Installer](https://www.microsoft.com/en-us/download/details.aspx?id=24102).
+1. Téléchargez l’exemple de add-in d’état hors connexion ici [: Outlook 2007 Auxiliary Reference Code Samples and Redistributable Installer](https://www.microsoft.com/download/details.aspx?id=24102).
     
 2. Exécutez Visual Studio 2005 en tant qu’administrateur.
     
     > [!NOTE]
     > Si votre ordinateur exécute Windows XP, vous devez être connecté en tant qu’administrateur. Si votre ordinateur exécute Windows Vista, vous devez être connecté en tant qu’administrateur. Cliquez avec le bouton droit sur Visual Studio icône 2005 et cliquez **sur Exécuter en tant qu’administrateur.** 
   
-3. Dans Visual Studio 2005, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Project/Solution.**
+3. Dans Visual Studio 2005, cliquez sur **Fichier,** sélectionnez **Ouvrir,** puis cliquez sur **Project/Solution**.
     
 4. Accédez à l’emplacement où vous avez enregistré l’exemple, cliquez **sur ConnectionStateAddin,** puis cliquez sur **Ouvrir**.
     
@@ -54,7 +54,7 @@ Cette rubrique vous fait suivre les étapes de téléchargement et d’installat
   
 11. Dans la **boîte de dialogue RegSrv32,** cliquez sur **OK.**
     
-12. Redémarrez Outlook pour voir le menu **État** hors connexion. 
+12. Redémarrez Outlook pour voir le menu **État hors** connexion. 
     
 ## <a name="see-also"></a>Voir aussi
 

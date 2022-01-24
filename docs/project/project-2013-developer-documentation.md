@@ -16,12 +16,12 @@ keywords:
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: Trouvez de la documentation, des exemples de code, des articles pratiques et des références de programmation pour vous aider à créer des applications pour Office ou un catalogue d’applications privé, et à personnaliser et intégrer des clients Project et Project Server avec une grande variété d’autres applications de bureau et d’entreprise pour la gestion de projet d’entreprise.
 ms.localizationpriority: high
-ms.openlocfilehash: 3fb57b99ad927fec29a885a3329c3f92956e7da9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2b4b646243a9eb84543eb0669b5ed500ad82b7f2
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574481"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180655"
 ---
 # <a name="project-2013-developer-documentation"></a>Documentation du développeur Project 2013
 
@@ -46,7 +46,7 @@ Vos commentaires sont les bienvenus. Dans les rubriques en ligne sur MSDN, vous 
   
 ### <a name="download"></a>Téléchargement
 
-Le téléchargement du kit de développement logiciel (SDK) de Project 2013 est disponible dans le [Centre de téléchargement Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20) (`https://www.microsoft.com/en-us/download/details.aspx?id=30435%20`). Le téléchargement inclut Project2013SDK.HxS (le fichier qui inclut cet article), les exemples de code associés, les assemblys redistribuables et d’autres ressources. Le kit de développement logiciel Project 2013 n’inclut pas encore la référence des tables de bases de données de création de rapports.
+Le téléchargement du kit de développement logiciel (SDK) de Project 2013 est disponible dans le [Centre de téléchargement Microsoft](https://www.microsoft.com/download/details.aspx?id=30435%20) (`https://www.microsoft.com/download/details.aspx?id=30435%20`). Le téléchargement inclut Project2013SDK.HxS (le fichier qui inclut cet article), les exemples de code associés, les assemblys redistribuables et d’autres ressources. Le kit de développement logiciel Project 2013 n’inclut pas encore la référence des tables de bases de données de création de rapports.
   
 ### <a name="whats-new-in-the-project-sdk"></a>Nouveautés du kit de développement logiciel Project
 <a name="pj15_Welcome_WhatsNew"> </a>
@@ -58,7 +58,7 @@ La technologie sous-jacente pour la communication réseau est Windows Communicat
 > [!NOTE]
 > Même s’il traite uniquement les fonctionnalités de Project Server les plus fréquemment utilisées, nous vous conseillons d’utiliser le modèle CSOM chaque fois que vous le pouvez pour les applications en local et dans le cloud. Même si elle est toujours disponible dans Project Server 2013, l’interface ASMX pour l’interface PSI est déconseillée. Pour les applications en local qui nécessitent un accès complet à l’interface PSI, vous devez utiliser l’interface WCF pour l’interface PSI, au lieu de l’interface ASMX. 
   
-Le développement sur un ordinateur Windows 7 est pris en charge en copiant les assemblys CSOM pour Project Server 2013 et SharePoint Server 2013 sur l’ordinateur de développement. Le téléchargement du kit de développement logiciel inclut les assemblys CSOM pour Project Server et une licence de redistribution. Pour obtenir les assemblys CSOM SharePoint, reportez-vous à l’article relatif au [kit de développement logiciel des composants du client SharePoint Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=35585).
+Le développement sur un ordinateur Windows 7 est pris en charge en copiant les assemblys CSOM pour Project Server 2013 et SharePoint Server 2013 sur l’ordinateur de développement. Le téléchargement du kit de développement logiciel inclut les assemblys CSOM pour Project Server et une licence de redistribution. Pour obtenir les assemblys CSOM SharePoint, reportez-vous à l’article relatif au [kit de développement logiciel des composants du client SharePoint Server 2013](https://www.microsoft.com/download/details.aspx?id=35585).
   
 Pour le développement avec les services WCF, vous pouvez définir une référence sur un assembly de proxy PSI ou ajouter des fichiers proxy PSI à la solution. Vous pouvez définir des références directes sur les services web Project Server ASMX frontaux depuis un ordinateur distant dans le même domaine, ou utiliser un assembly de proxy ou des fichiers de proxy. Le téléchargement du kit de développement logiciel inclut des fichiers de proxy pour les services WCF et les services web ASMX, ainsi que des scripts pour la création d’assemblies de proxy et la génération de fichiers de proxy mis à jour.
   
@@ -116,9 +116,9 @@ La section **Articles conceptuels et pratiques** comprend les éléments suivant
     
 - [Architecture Project Server 2013](project-server-2013-architecture.md)
     
-- [Téléchargement du kit de développement logiciel (SDK) de Project 2013](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20)
+- [Téléchargement du kit de développement logiciel (SDK) de Project 2013](https://www.microsoft.com/download/details.aspx?id=30435%20)
     
-- [Kit de développement logiciel (SDK) des composants du client SharePoint Server 2013](https://www.microsoft.com/en-us/download/details.aspx?id=35585)
+- [Kit de développement logiciel (SDK) des composants du client SharePoint Server 2013](https://www.microsoft.com/download/details.aspx?id=35585)
     
 - [Project pour les développeurs](https://msdn.microsoft.com/project)
     
@@ -132,6 +132,6 @@ La section **Articles conceptuels et pratiques** comprend les éléments suivant
     
 - [Accessibilité dans Microsoft Office 365](https://www.microsoft.com/enable/products/office365/)
     
-- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/en-us/privacystatement)
+- [Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/privacystatement)
     
 
