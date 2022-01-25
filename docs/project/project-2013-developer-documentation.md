@@ -14,14 +14,14 @@ f1_keywords:
 keywords:
 - Kit de développement logiciel, Project 2013, Project 2013, vue d’ensemble du kit de développement logiciel
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
-description: Trouvez de la documentation, des exemples de code, des articles pratiques et des références de programmation pour vous aider à créer des applications pour Office ou un catalogue d’applications privé, et à personnaliser et intégrer des clients Project et Project Server avec une grande variété d’autres applications de bureau et d’entreprise pour la gestion de projet d’entreprise.
+description: Trouvez de la documentation, des exemples de code, des articles pratiques et des références de programmation pour vous aider à créer des applications pour Office ou un catalogue d’applications privé ainsi que pour personnaliser et intégrer des clients Project et Project Server avec une grande variété d’autres applications de bureau et d’entreprise pour la gestion de projet d’entreprise.
 ms.localizationpriority: high
-ms.openlocfilehash: 2b4b646243a9eb84543eb0669b5ed500ad82b7f2
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: d209e48fff143bd1afcd5071971cd39ee3795506
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180655"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199709"
 ---
 # <a name="project-2013-developer-documentation"></a>Documentation du développeur Project 2013
 
