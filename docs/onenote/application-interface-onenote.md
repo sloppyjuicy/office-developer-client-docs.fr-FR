@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
 description: 'L’interface d’application inclut des méthodes qui vous aident à récupérer, à manipuler et à mettre à jour les informations et le contenu de OneNote. Les méthodes se divisent en quatre catégories générales :'
 ms.localizationpriority: high
-ms.openlocfilehash: ce17adddd93c0b57f57dbccaed4bb2149c855959
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6b3f1afec7e323bdb9e1701db41f43fd5d502067
+ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625804"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180102"
 ---
 # <a name="application-interface-onenote"></a>Interface d’application (OneNote)
 
@@ -25,8 +25,8 @@ L’interface d’**application** inclut des méthodes qui vous aident à récup
 - **Navigation** &ndash; Méthodes de recherche, de liaison et de navigation dans les pages et les objets. 
     
 - **Fonctionnelle** &ndash; Toutes les autres méthodes qui effectuent certaines actions ou définissent des paramètres dans OneNote. 
-    
-Par ailleurs, l’interface d’**application** inclut un certain nombre de *propriétés* et d’*événements*. 
+
+En outre, l’interface d’**application** inclut un certain nombre de *propriétés* et d’*événements*.
   
 ## <a name="notebook-structure-methods"></a>Méthodes de structure de bloc-notes
 <a name="ON14DevRef_Application_NotebookStructure"> </a>
