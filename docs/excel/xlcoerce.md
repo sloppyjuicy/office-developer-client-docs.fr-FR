@@ -7,16 +7,15 @@ ms.topic: reference
 f1_keywords:
 - xlCoerce
 keywords:
-- fonction xeuseerce [excel 2007]
+- fonction xièreerce [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e02020b6afe67e9c1035e63866c2dd9bff0b24c6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9b8c561150c34f56393710eab35b3701d8983d81
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621345"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199688"
 ---
 # <a name="xlcoerce"></a>xlCoerce
 
@@ -32,7 +31,7 @@ Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestTyp
 
  _pxSource_
   
-XlOPER  /  **XLOPER12** source à convertir. 
+ /  **XlOPER12** source à convertir. 
   
  _pxDestType_ (**xltypeInt**)
   
@@ -44,7 +43,7 @@ Renvoie la valeur contrainte (**xltypeStr**, **xltypeNum**, **xltypeBool**, **xl
   
 ## <a name="remarks"></a>Remarques
 
- **xlCoerce ne peut** pas convertir vers ou à partir **de xltypeBigData** ou **xltypeFlow**. Passer un type **xltypeMissing** ou **xltypeNil** en tant que  _pxDestType_ équivaut à omettre l’argument. La conversion peut échouer dans certains cas. Par exemple, certaines chaînes ne peuvent pas être converties en nombres, tandis que d’autres le peuvent. 
+ **xlCoerce ne peut** pas convertir vers ou à partir **de xltypeBigData ou** **xltypeFlow**. Passer un type **xltypeMissing** ou **xltypeNil** en tant que  _pxDestType_ équivaut à omettre l’argument. La conversion peut échouer dans certains cas. Par exemple, certaines chaînes ne peuvent pas être converties en nombres, tandis que d’autres le peuvent. 
   
 Si un tableau ou une référence à plusieurs cellules est converti en un seul type de valeur, le résultat est la valeur de la cellule supérieure gauche ou de l’élément de tableau.
   
@@ -53,7 +52,7 @@ Si un tableau ou une référence à plusieurs cellules est converti en un seul t
 Le code suivant se trouve dans  `\SAMPLES\EXAMPLE\EXAMPLE.C` . 
   
 > [!NOTE]
-> La fonction **xlcAlert** tente implicitement de convertir son argument en chaîne afin que l’étape de contrainte indiquée ici puisse en fait être supprimée et **que xInt** soit transmis directement à **xlcAlert**. Comme **xlcAlert est** une macro de commande, ce code ne fonctionne correctement qu’en cas d’appel à partir d’une feuille macro. 
+> La fonction **xlcAlert** tente implicitement de convertir son argument en chaîne afin que l’étape de contrainte indiquée ici puisse en fait être supprimée et **que xInt** puisse être transmis directement à **xlcAlert**. Comme **xlcAlert est** une macro de commande, ce code fonctionne correctement uniquement lorsqu’il est appelé à partir d’une feuille macro. 
   
 ```cs
 short WINAPI xlCoerceExample(short iVal)

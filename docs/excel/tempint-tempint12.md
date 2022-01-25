@@ -11,19 +11,18 @@ keywords:
 - tempint12 function [excel 2007],TempInt function [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 390de41b38b10d3ab794c615824bd8b32cbdbb32
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a827ee31c293437ce699a86fb6b734aef8976bdf
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572360"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198736"
 ---
 # <a name="tempinttempint12"></a>TempInt/TempInt12
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire qui contient unger. 
+Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire contenant unger. 
   
 ```cs
 LPXLOPER TempInt(short int i);

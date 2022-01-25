@@ -10,13 +10,12 @@ keywords:
 - fonction xlstack [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 455de097446af6e96e2655cef66fcc84adbbd203
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 08dcf35236cc3e28dba412f6b3ec3dc95e7be01f
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621296"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198175"
 ---
 # <a name="xlstack"></a>xlStack
 
@@ -38,17 +37,17 @@ Renvoie le nombre d’octets **(xltypeInt)** restants sur la pile.
   
 ## <a name="remarks"></a>Remarques
 
-La quantité d’espace de pile disponible des versions récentes déborde de l’integer signé 16 bits de **la XLOPER**. Cela signifie que **xlStack** peut renvoyer une valeur entre -32767 et 32768 lorsqu’il est appelé à l’aide de **XLOPER** s et **Excel4** ou **Excel4v**. Pour obtenir la valeur correcte dans ce cas, vous devez caster la valeur renvoyée en un raccourci non signé.
+La quantité d’espace pile disponible des versions récentes déborde de l’integer signé 16 bits de **la xlOPER**. Cela signifie que **xlStack** peut renvoyer une valeur entre -32767 et 32768 lorsqu’il est appelé à l’aide de **XLOPER** s et **Excel4** ou **Excel4v**. Pour obtenir la valeur correcte dans ce cas, vous devez caster la valeur renvoyée en un raccourci non signé.
   
 À partir de Excel 2007, vous devez appeler cette fonction à l’aide de **XLOPER12** s et **Excel12** ou **Excel12v**, auquel cas la valeur renvoyée est la quantité d’espace pile disponible ou 64 Ko, selon la valeur la plus faible.
   
 Excel dispose d’une quantité limitée d’espace sur la pile et vous devez prendre soin de ne pas dépasser cet espace. Ne placez jamais de très grandes structures de données sur la pile et faites autant de variables locales que possible statiques. Évitez d’appeler des fonctions de manière récursive, car cela remplira rapidement la pile.
   
-Si vous pensez que vous appelez cette fonction fréquemment pour voir la quantité d’espace de pile qui reste.
+Si vous pensez que vous sur-appelez cette fonction fréquemment, appelez cette fonction pour voir la quantité d’espace de pile qui reste.
   
 ## <a name="example"></a>Exemple
 
-Le premier exemple affiche un message d’alerte contenant la quantité d’espace de pile gauche et est contenu dans  `\SAMPLES\EXAMPLE\EXAMPLE.C` . Le deuxième exemple fait la même chose, en travaillant avec **xlOPER** et n’est pas contenu dans l’exemple de code SDK.
+Le premier exemple affiche un message d’alerte contenant la quantité d’espace de pile gauche et est contenu dans  `\SAMPLES\EXAMPLE\EXAMPLE.C` . Le deuxième exemple fait la même chose, en travaillant avec **xlOPER** et n’est pas contenu dans l’exemple de code du SDK.
   
 ```cs
 short WINAPI xlStackExample(void)

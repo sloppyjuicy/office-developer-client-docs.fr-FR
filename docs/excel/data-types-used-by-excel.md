@@ -7,14 +7,13 @@ ms.topic: reference
 keywords:
 - types de données d’inscription [Excel 2007], types de données Excel [Excel 2007], chaînes [Excel 2007], nombres [Excel 2007], structures de données [Excel 2007], types de données [Excel 2007]
 ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: 76cddf8c63c9cba46181e916194f983bcdd6c1f6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9f813672fe5a55e44daa49ce9247abc8d0114381
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576736"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199464"
 ---
 # <a name="data-types-used-by-excel"></a>Types de données utilisés par Excel
 

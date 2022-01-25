@@ -10,19 +10,18 @@ keywords:
 - fonction xloper12toxloper [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: b46f87c4-778b-4502-be57-c3725f73a644
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 8d55f9b0dd168725260729ecd61663753ee87a1b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 06601a4497e6d05e9efd76f68bf98e7e07b4751a
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576624"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198166"
 ---
 # <a name="xloper12toxloper"></a>XLOper12ToXLOper
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Routine de conversion utilisée pour convertir à partir de la **nouvelle XLOPER12 vers** l’ancienne **XLOPER**.
+Routine de conversion utilisée pour convertir à partir de la **nouvelle XLOPER12** vers l’ancienne **XLOPER**.
   
 ```cs
 BOOL XLOper12ToXLOper(LPXLOPER12 pxloper12, LPXLOPER pxloper);
@@ -44,7 +43,7 @@ Pointeur vers la **XLOPER cible** pour contenir la valeur convertie.
   
 ## <a name="remarks"></a>Remarques
 
-Selon le type de **XLOPER12**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties, qui sont pointées vers la **XLOPER cible**. L’appelant est chargé de libérer la mémoire associée à la copie si la conversion est réussie ; **FreeXLOperT peut** être utilisé, ou vous pouvez le faire directement à l’aide de **la gratuité.**
+Selon le type de **XLOPER12**, cette fonction alloue une nouvelle mémoire tampon pour les valeurs converties, qui sont pointées vers la **XLOPER cible**. L’appelant est chargé de libérer la mémoire associée à la copie si la conversion est réussie . **FreeXLOperT peut être** utilisé, ou vous pouvez le faire directement à l’aide de **la gratuité.**
   
 Si la conversion échoue, l’appelant n’a pas besoin de libérer de mémoire.
   

@@ -6,13 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 4646659b-f932-4d11-a46f-4231bb397243
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 195feaebe15d6306859d8b5112f4fb2f05134ff9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f159b24e8a95fd41318e27d09bac1ae36ccb74b4
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621387"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199730"
 ---
 # <a name="pingsession"></a>PingSession
 

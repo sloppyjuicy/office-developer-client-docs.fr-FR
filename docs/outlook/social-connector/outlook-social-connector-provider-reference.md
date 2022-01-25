@@ -1,21 +1,21 @@
 ---
-title: Référence du fournisseur Outlook Social Connector
-manager: soliver
-ms.date: 04/04/2016
+title: Outlook de fournisseur Social Connector 2013
+manager: lindalu
+ms.date: 01/24/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 13661393-adf6-4870-86c4-303262317675
-description: Outlook Social Connector 2013 fournit une plateforme de communications pour les communications personnelles et professionnelles.
-ms.openlocfilehash: 8e77d9919c42fc896020683be4329a0fe73cd6bc
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+description: Outlook Social Connector 2013 fournit un concentrateur de communication pour les communications personnelles et professionnelles.
+ms.openlocfilehash: 6eee3a3a2497c1b3a2b7f9b5015bddefb9ce5918
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179885"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199044"
 ---
-# <a name="outlook-social-connector-provider-reference"></a>Référence du fournisseur Outlook Social Connector
+# <a name="outlook-social-connector-2013-provider-reference"></a>Outlook de fournisseur Social Connector 2013
 
 Outlook Social Connector 2013 fournit un concentrateur de communication pour les communications personnelles et professionnelles. Outlook Social Connector (OSC) fonctionne avec SharePoint Server, SharePoint Workspace, le client Lync et toutes les applications clientes Office qui prennent en charge les informations de présence et la Carte de visite prenant en charge OSC. 
 

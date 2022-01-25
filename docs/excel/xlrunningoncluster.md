@@ -8,13 +8,12 @@ keywords:
 - xlrunningoncluster
 ms.localizationpriority: medium
 ms.assetid: 7662f255-4184-4af0-97f5-9a89347a201a
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a5c8a231a1b3dbb7288999f0ac782a89c2b6a943
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dcbaae6c926e44aced6ac8e164db21f072252510
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576610"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198718"
 ---
 # <a name="xlrunningoncluster"></a>xlRunningOnCluster
 
@@ -34,7 +33,7 @@ Cette fonction n’a pas d’arguments.
 
 Si la fonction est en cours d’Excel, renvoie 0 dans une **XLOPER12** de type **xlTypeInt**. Si la fonction est en cours d’exécution sur un cluster, le type de retour et la valeur sont déterminés par le fournisseur de connecteur de cluster.
   
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Conditions requises
 
 Cette fonction est définie dans le fichier d’en-tête Xlcall.h.
   

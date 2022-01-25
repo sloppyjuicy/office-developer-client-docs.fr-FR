@@ -1,10 +1,19 @@
 ---
-title: « Power Function (Access custom web app) »
- 
- 
-manager: kelbow ms.date: 09/05/2017 ms.audience: Developer ms.topic: reference ms.localizationpriority: medium ms.assetid: 2cfe965f-e462-452f-a99d-804cb1a2f1c7 description: « Returns the value of the specified expression to the specified power. »
+title: Power Function (Access custom web app)
+manager: kelbow
+ms.date: 09/05/2017
+ms.audience: Developer
+ms.topic: reference
+ms.localizationpriority: medium
+ms.assetid: 2cfe965f-e462-452f-a99d-804cb1a2f1c7
+description: Renvoie la valeur de l’expression spécifiée à la puissance spécifiée.
+ms.openlocfilehash: 7938c1ef21378b78d62fae86e489685bd85c852c
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199548"
 ---
-
 # <a name="power-function-access-custom-web-app"></a>Power Function (Access custom web app)
 
 Renvoie la valeur de l’expression spécifiée à la puissance spécifiée.

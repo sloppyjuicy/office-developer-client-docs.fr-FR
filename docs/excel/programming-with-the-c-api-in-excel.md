@@ -7,14 +7,13 @@ ms.topic: overview
 keywords:
 - c api [excel 2007],programming interfaces [Excel 2007],C API [Excel 2007], when to use,C API [Excel 2007], relation to XLM,Excel programming interfaces
 ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: f8ecad11c44dbe38e44c6160b75fd47a38bfbe9a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8e48ef5a22fe3458f865e7cb25ad571e11ac0552
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617159"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198337"
 ---
 # <a name="programming-with-the-c-api-in-excel"></a>Programmation avec l’API C dans Excel
 

@@ -10,13 +10,12 @@ keywords:
 - fonction funcfib [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e93c980b39abc7aaa70efb38a05a9e01a0e24232
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 36e73e60a99ece68a078137c2c68bf0be5d78b4f
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179493"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199026"
 ---
 # <a name="funcfib"></a>FuncFib
 

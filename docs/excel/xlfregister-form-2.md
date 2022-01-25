@@ -10,13 +10,12 @@ keywords:
 - fonction xlfregister [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e6268339f9dddff6d61ec843bb7d498fc0710d38
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f07d8a722e9df1e8b18d8b03f700b13bd3b037f5
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611167"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199163"
 ---
 # <a name="xlfregister-form-2"></a>xlfRegister (formulaire 2)
 
@@ -44,7 +43,7 @@ Nom de la DLL à charger et à activer.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Si elle réussit, cela renvoie le nom de la DLL (**xltypeStr**). Sinon, elle renvoie une #VALUE! erreur.
+Si elle réussit, cela renvoie le nom de la DLL (**xltypeStr**). Sinon, elle renvoie une #VALUE ! erreur.
   
 ## <a name="see-also"></a>Voir aussi
 

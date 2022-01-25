@@ -10,13 +10,12 @@ keywords:
 - fonction hookexcelwindow [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 8c0c57929ed3ac93fccaf40700152fc9b65cf596
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 34f57a5c8c3eb9b81e2874ae050148831c5fda8b
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179479"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199576"
 ---
 # <a name="hookexcelwindow"></a>HookExcelWindow
 

@@ -10,13 +10,12 @@ keywords:
 - fonction xlfregister [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: c730124c-1886-4a0f-8f06-79763025537d
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 170cb9ff205bc8640ad7c7f274fd83706b19e909
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 7485a9557e3157eee33f6be45bdaf7b22b0c2e0c
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179465"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199170"
 ---
 # <a name="xlfregister-form-1"></a>xlfRegister (formulaire 1)
 

@@ -8,13 +8,12 @@ keywords:
 - generic dll [excel 2007], functions,functions [Excel 2007], Generic DLL
 ms.localizationpriority: medium
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: dcbbf753c5029f92b2445233a454233ad3fa8f32
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a255eac7d7c84313d8d958aa85369dd1fc7f27aa
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617201"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199583"
 ---
 # <a name="functions-in-the-generic-dll"></a>Fonctions dans le fichier DLL générique
 
@@ -26,13 +25,13 @@ Lorsque vous chargez GENERIC.xll, il crée un menu **générique** avec quatre c
   
 - **Boîte** de dialogue : affiche une boîte Microsoft Excel dialogue. 
     
-- **- Déplace** la sélection jusqu’à ce que vous appuyiez sur la **touche ÉCHAP.** 
+- **Dépôt** : déplace la sélection jusqu’à ce que vous appuyiez sur la **touche ÉCHAP.** 
     
 - **Boîte de dialogue** native : affiche une boîte Windows dialogue. 
     
 - **Exit** : décharge GENERIC.xll et supprime le menu **générique.** 
     
-GENERIC.xll fournit également trois fonctions de feuille de calcul, Func1, FuncSum et FuncFib, qui peuvent être utilisées chaque fois que GENERIC.xll est chargé. GENERIC.xll peut être chargé à l’aide du Gestionnaire de Excel, ou il est chargé s’il était actif à la fin normale de la dernière session Excel session.
+GENERIC.xll fournit également trois fonctions de feuille de calcul, Func1, FuncSum et FuncFib, qui peuvent être utilisées chaque fois que GENERIC.xll est chargé. GENERIC.xll peut être chargé à l’aide du Gestionnaire de Excel.
   
 Ce projet utilise la bibliothèque d’infrastructure (FRMWRK32.lib).
   

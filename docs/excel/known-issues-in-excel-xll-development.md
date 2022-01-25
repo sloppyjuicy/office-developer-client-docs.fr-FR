@@ -8,27 +8,26 @@ keywords:
 - problèmes connus [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 3dfecc0b-a91c-448e-8721-5d3486b625fa
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d44a006802bfbb2e86d04e672253c1ad26a71b1d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3d7a1a5bb3e3344e985c17706a4f0d8c3b4ec1e9
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568172"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198848"
 ---
 # <a name="known-issues-in-excel-xll-development"></a>Problèmes connus dans le développement Excel XLL
 
- **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
+ **S’applique à**: Excel 2013 | Office 2013 | Visual Studio
   
 Cette rubrique décrit les problèmes connus dans Microsoft Excel que vous pourriez rencontrer dans le développement XLL.
   
-## <a name="unregistering-xll-commands-and-functions"></a>Désinsistering XLL Commands and Functions
+## <a name="unregistering-xll-commands-and-functions"></a>Désinssion des fonctions et des commandes XLL
 
-Lorsqu’un XLL inscrit une fonction ou une commande, Excel crée un nouveau nom pour la ressource et associe une référence à la fonction DLL à ce nom. Le nom est tiré du quatrième argument, *pxFunctionText* , de la [fonction xlfRegister.](xlfregister-form-1.md) Ce nom est masqué dans les boîtes de dialogue normales pour la gestion des noms de feuille de calcul. Pour désinsister une fonction ou une commande, vous devez supprimer le nom à l’aide de la fonction [xlfSetName,](xlfsetname.md) en passant le nom sans passer de définition. Toutefois, un bogue empêche cette suppression du nom des listes de l’Assistant Fonction. 
+Lorsqu’un XLL inscrit une fonction ou une commande, Excel crée un nouveau nom pour la ressource et associe une référence à la fonction DLL à ce nom. Le nom est tiré du quatrième argument, *pxFunctionText*, de la [fonction xlfRegister.](xlfregister-form-1.md) Ce nom est masqué dans les boîtes de dialogue normales pour la gestion des noms de feuille de calcul. Pour désinsister une fonction ou une commande, vous devez supprimer le nom à l’aide de la fonction [xlfSetName,](xlfsetname.md) en passant le nom sans passer de définition. Toutefois, un bogue empêche cette suppression du nom des listes de l’Assistant Fonction.
   
 ## <a name="argument-description-string-truncation-in-the-function-wizard"></a>Troncation de chaîne de description d’argument dans l’Assistant Fonction
 
-Le  *paramètre pxArgumentHelp1*  et tous les paramètres suivants de la fonction **xlfRegister** sont des chaînes facultatives qui correspondent aux arguments de la fonction XLL. L’Assistant Fonction les affiche pour fournir de l’aide dans la boîte de dialogue de construction des arguments. Parfois, Excel tronque la chaîne qui correspond à l’argument final d’un ou deux caractères lors de son affichage dans la boîte de dialogue. Vous pouvez éviter cela en ajoutant une « chaîne vide » supplémentaire en tant que dernier paramètre « aide de l’argument » de l’inscription de votre fonction.
+Le *paramètre pxArgumentHelp1*  et tous les paramètres suivants de la fonction **xlfRegister** sont des chaînes facultatives qui correspondent aux arguments de la fonction XLL. L’Assistant Fonction les affiche pour fournir de l’aide dans la boîte de dialogue de construction des arguments. Parfois, Excel tronque la chaîne qui correspond à l’argument final d’un ou deux caractères lors de son affichage dans la boîte de dialogue. Vous pouvez éviter cela en ajoutant une « chaîne vide » supplémentaire comme dernier paramètre « aide de l’argument » de l’inscription de votre fonction.
   
 ## <a name="binary-name-scope-limitation"></a>Limite d’étendue du nom binaire
 
@@ -36,7 +35,7 @@ Les noms binaires et leurs données ne peuvent être récupérés que lorsque la
   
 ## <a name="xlset-and-workbooks-with-array-formulas"></a>XlSet et workbooks avec formules ma matrice
 
-Dans Excel 2003 et versions antérieures, la fonction [xlSet](xlset.md) échoue si vous essayez d’affecter des valeurs à une plage d’une feuille de calcul qui n’est pas la feuille de calcul active, où la plage équivalente de la feuille active contient une formule ma matrice. Dans ce cas, Excel affiche le message « Vous ne pouvez pas modifier une partie d’un tableau ». Cette situation a été corrigée Excel 2007. 
+Dans Excel 2003 et versions antérieures, la fonction [xlSet](xlset.md) échoue si vous essayez d’affecter des valeurs à une plage d’une feuille de calcul qui n’est pas la feuille de calcul active, où la plage équivalente de la feuille active contient une formule ma matrice. Dans ce cas, Excel affiche le message « Vous ne pouvez pas modifier une partie d’un tableau ». Cette situation a été corrigée Excel 2007.
   
 ## <a name="circular-references-are-tolerated-in-data-tables"></a>Les références circulaires sont tolérables dans les tables de données
 
@@ -50,20 +49,13 @@ La fonction [Framework XLOper12ToXLOper](xloper12toxloper.md) reflète ce compor
   
 ## <a name="returning-xloper-or-xloper12-by-modifying-arguments-in-place"></a>Renvoi de XLOPER ou XLOPER12 en modifiant les arguments sur place
 
-Excel permet l’inscription des fonctions qui retournent une **XLOPER** ou **XLOPER12** en modifiant un argument en place. Toutefois, si un argument /  **XLOPER XLOPER12** pointe vers la mémoire, et que le pointeur est ensuite remplacé par la valeur de retour de la fonction DLL, Excel la mémoire peut être divulguée. Excel n’affiche pas d’erreur, mais peut se crasher. En outre, si la DLL a alloué de la mémoire pour la valeur de retour, Excel pouvez essayer de libérer cette mémoire, ce qui peut provoquer un arrêt immédiat de l’application. Par conséquent, vous ne devez pas modifier les /  arguments **XLOPER XLOPER12** en place. Tous les arguments **XLOPER** ou **XLOPER12** doivent être traités comme étant strictement en lecture seule. 
+Excel permet l’inscription des fonctions qui retournent une **XLOPER** ou **XLOPER12** en modifiant un argument en place. Toutefois, si un argument /  **XLOPER XLOPER12** pointe vers la mémoire et que le pointeur est ensuite remplacé par la valeur de retour de la fonction DLL, Excel la mémoire peut être divulguée. Excel n’affiche pas d’erreur, mais peut se crasher. En outre, si la DLL a alloué de la mémoire pour la valeur de retour, Excel pouvez essayer de libérer cette mémoire, ce qui peut provoquer un arrêt immédiat de l’application. Par conséquent, vous ne devez pas modifier les /  arguments **XLOPER XLOPER12** en place. Tous les arguments **XLOPER** ou **XLOPER12** doivent être traités comme étant strictement en lecture seule.
   
 Pour plus d’informations, reportez-vous à la rubrique [Gestion de la mémoire dans Excel](memory-management-in-excel.md).
   
 ## <a name="see-also"></a>Voir aussi
 
-
-
-[XLOper12ToXLOper](xloper12toxloper.md)
-
-
-[Développement de XLL de Excel](developing-excel-xlls.md)
-  
-[Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)
-  
+[XLOper12ToXLOper](xloper12toxloper.md) 
+ [Développement Excel XLS](developing-excel-xlls.md)  
+[Référence des fonctions XLL SDK API Excel 2013](excel-xll-sdk-api-function-reference.md)  
 [Gestion de la mémoire dans Excel](memory-management-in-excel.md)
-

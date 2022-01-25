@@ -10,19 +10,18 @@ keywords:
 - fonction debugprintf [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d3c09aed1f818c426ed957e3a3273c3bf7f574b1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 402b3c4cd1e198c8da131c7f596f1acd8e5b6eb5
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617243"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198701"
 ---
 # <a name="debugprintf"></a>debugPrintf
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d’infrastructure qui écrit une chaîne d’byte terminée par null dans le déboguer actif via la fonction SDK **OutputDebugStringA** Windows. Si l’application n’a pas de débompeur, le débogger système affiche la chaîne. Si l’application n’a pas de déboguer et que le déboguer système n’est pas actif, **debugPrintf** ne fait rien. 
+Fonction de bibliothèque d’infrastructure qui écrit une chaîne d’byte terminée par null dans le déboguer actif via la fonction Windows SDK **OutputDebugStringA**. Si l’application n’a pas de débompeur, le débogger système affiche la chaîne. Si l’application n’a pas de déboguer et que le déboguer système n’est pas actif, **debugPrintf ne** fait rien. 
   
 Cette fonction ne retourne pas de valeur.
   

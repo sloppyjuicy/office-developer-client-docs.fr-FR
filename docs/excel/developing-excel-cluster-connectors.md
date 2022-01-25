@@ -6,15 +6,15 @@ ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 41e7e7e3a52e11fd3229f07c5be4f4c5154300f5
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+description: Découvrez comment développer des connecteurs Excel cluster
+ms.openlocfilehash: d6dbb7119f7a0fd849d4e26eb9d95b031f367976
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179507"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198435"
 ---
-# <a name="developing-excel-cluster-connectors"></a>Développement Excel connecteurs de cluster
+# <a name="developing-excel-cluster-connectors"></a>Développement de connecteurs de cluster Excel
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio
   
@@ -26,7 +26,7 @@ Un connecteur de cluster est une DLL qui fournit des points d’entrée définis
   
 Pour créer un connecteur de cluster, créez une DLL qui expose les points d’entrée répertoriés dans Excel fonctions du connecteur [de cluster.](excel-cluster-connector-functions.md)
   
-## <a name="installing-a-cluster-connector"></a>Installation d’un connecteur de cluster
+## <a name="install-a-cluster-connector"></a>Installer un connecteur de cluster
 
 Pour rendre un connecteur de cluster disponible dans Excel, le code d’installation du connecteur doit installer la DLL du connecteur sur l’ordinateur sur lequel Excel est installé. En outre, le code d’installation du connecteur doit ajouter une entrée pour le connecteur sous la clé de Registre suivante :
   

@@ -10,13 +10,12 @@ keywords:
 - fonction xlfcaller [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: de4b119c-ae2e-4207-9783-8d5692a4d052
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: c4728136a34cc2b2cd60c6f7ec2e057d366df7c0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: de74ef8ffc702989c2ab371a2dae41259d3a73cf
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605595"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198757"
 ---
 # <a name="xlfcaller"></a>xlfCaller
 

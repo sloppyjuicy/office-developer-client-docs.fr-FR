@@ -8,13 +8,12 @@ keywords:
 - xll functions [excel 2007], calling from replace dialog box,Replace dialog box [Excel 2007], calling XLL functions,Function Wizard [Excel 2007], calling XLL functions,XLL functions [Excel 2007], calling from Function Wizard
 ms.localizationpriority: medium
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d3709c3f4736a5eb977bbfdd6f13a1fd9b87f1d7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 363b5d610c85641d22ef30f951b228b34a72b538
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592976"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199303"
 ---
 # <a name="call-xll-functions-from-the-function-wizard-or-replace-dialog-boxes"></a>Appeler des fonctions XLL à partir de l’Assistant Fonction ou remplacer des boîtes de dialogue
 
@@ -22,7 +21,7 @@ ms.locfileid: "59592976"
   
 Microsoft Excel appelle généralement des fonctions XLL pendant le recalcul normal du manuel, ou une partie de celui-ci si le calcul est sous le contrôle d’une macro. N’oubliez pas que la fonction peut ne pas résider dans une formule de cellule, mais peut faire partie d’une définition de plage nommée ou d’une expression de mise en forme conditionnelle.
   
-Il existe deux cas où une fonction peut être appelée à partir d’une boîte Excel dialogue. La première est la **boîte de dialogue Arguments de** la fonction coller, dans laquelle les utilisateurs peuvent construire un appel de fonction un argument à la fois. L’autre est lorsque les formules sont modifiées et réentées par Excel dans la **boîte de** dialogue Remplacer. Pour la **boîte de dialogue Arguments de** la fonction coller, vous ne souhaitez peut-être pas que votre fonction s’exécute normalement. Cela peut être dû au fait que l’exécution prend beaucoup de temps et que vous ne souhaitez pas ralentir l’utilisation de la boîte de dialogue. 
+Il existe deux cas où une fonction peut être appelée à partir d’une boîte Excel dialogue. La première est la **boîte de dialogue Arguments de** la fonction coller, dans laquelle les utilisateurs peuvent construire un appel de fonction un argument à la fois. L’autre est lorsque les formules sont modifiées et réentées par Excel dans la **boîte** de dialogue Remplacer. Pour la **boîte de dialogue Arguments de** la fonction coller, vous ne souhaitez peut-être pas que votre fonction s’exécute normalement. Cela peut être dû au fait que l’exécution prend beaucoup de temps et que vous ne souhaitez pas ralentir l’utilisation de la boîte de dialogue. 
   
 La boîte de dialogue  **Coller la** fonction et la boîte de dialogue Remplacer ont le Windows de classe bosa_sdm_XL **n,** où n est un nombre. Windows fournit une fonction API, **GetClassName,** qui obtient ce nom à partir d’un handle Windows, un type de variable HWND. Il fournit également une autre fonction, **EnumWindows,** qui appelle une fonction de rappel fournie (dans votre DLL) une fois pour chaque fenêtre de niveau supérieur actuellement ouverte.
   
@@ -123,5 +122,5 @@ bool called_from_paste_fn_dlg(void)
   
 [Appel dans Excel � partir du fichier DLL ou XLL](calling-into-excel-from-the-dll-or-xll.md)
   
-[Développement de XLL de Excel](developing-excel-xlls.md)
+[Développement de XLL de Excel 2013](developing-excel-xlls.md)
 

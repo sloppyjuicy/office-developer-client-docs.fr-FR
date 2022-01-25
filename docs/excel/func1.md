@@ -10,13 +10,12 @@ keywords:
 - fonction func1 [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: b589c14311512aa91a9cdae5e3ffca0294b1c60e
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 7d690acfc2abe2205d4acaa0f4cb48960e68363e
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179500"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199436"
 ---
 # <a name="func1"></a>Func1
 

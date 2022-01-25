@@ -10,13 +10,12 @@ keywords:
 - fonction xlfsetname [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 9ef5f6f557f177e01346beb3ffd7c7bdb00e94d8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 096c71fa2d96d516b6e0f3f6b1ed3d7e65984f55
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59631439"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199699"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
@@ -46,11 +45,11 @@ TRUE si l’opération a réussi ou FALSE si le nom n’a pas pu être créé ou
   
 ## <a name="remarks"></a>Remarques
 
-Lorsqu’une fonction ou une commande est inscrite à l’aide de **xlfRegister** avec un argument _pxFunctionText_ valide, Excel crée un nom associé à la ressource DLL. Lorsque votre DLL est déchargée, ces noms doivent être supprimés à l’aide de la [fonction xlfSetName](xlfsetname.md). Toutefois, en raison d’un problème connu dans Excel, cette opération de suppression échoue. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
+Lorsqu’une fonction ou une commande est enregistrée à l’aide de **xlfRegister** avec un argument _pxFunctionText_ valide, Excel crée un nom associé à la ressource DLL. Lorsque votre DLL est déchargée, ces noms doivent être supprimés à l’aide de la [fonction xlfSetName](xlfsetname.md). Toutefois, en raison d’un problème connu dans Excel, cette opération de suppression échoue. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ### <a name="example"></a>Exemple
 
-Consultez le code de la **fonction xlAutoClose** dans  `\SAMPLES\GENERIC\GENERIC.C` .
+Voir le code de la **fonction xlAutoClose** dans  `\SAMPLES\GENERIC\GENERIC.C` .
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,14 +7,13 @@ ms.topic: overview
 keywords:
 - compléments - [Excel 2007], développer des fichiers XLL - [Excel 2007], fichiers XLL - [Excel 2007], développer
 ms.assetid: dd27ae4d-ef97-47db-885c-ddd955816900
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: c255e973afa7b8a1ae8fa58b567f980b158a82e1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: dadb3bef8a87c804d961d518467994a9ca2beb49
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614604"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198428"
 ---
 # <a name="developing-excel-xlls"></a>Développement de fichiers XLL Excel
 

@@ -8,13 +8,12 @@ keywords:
 - udfs [excel 2007], calling from dlls,user-defined functions [Excel 2007], calling from DLLs,DLLs [Excel 2007], calling UDFs
 ms.localizationpriority: medium
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 443e111d15365cdc1145e659446a2866f7c0a263
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aef107d27d14fbdb4159aa932adf5443e77e09ff
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614611"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198421"
 ---
 # <a name="calling-user-defined-functions-from-dlls"></a>Appel des fonctions définies par l’utilisateur à partir de fichiers DLL
 
@@ -26,7 +25,7 @@ Vous pouvez obtenir la liste des commandes et fonctions de la XLL actuellement i
   
 - Chemin d’accès complet et nom du XLL
     
-- Nom de l’UDF ou de la commande exportée à partir de la XLL
+- Nom de l’UDF ou de la commande exportée à partir du XLL
     
 - Chaîne de code de retour et d’argument
     
@@ -37,7 +36,7 @@ Vous pouvez obtenir la liste des commandes et fonctions de la XLL actuellement i
   
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre la fonction **xlUDF** utilisée pour appeler la fonction ATP **PRICE** lorsque la version d’exécution de Excel est 2003 ou une version antérieure. Pour plus d’informations sur la définition d’une variable de version globale, telle que **gExcelVersion12plus** dans cet exemple, voir [Compatibilité ascendante.](backward-compatibility.md)
+L’exemple suivant illustre la **fonction xlUDF** utilisée pour appeler la fonction **ATP PRICE** lorsque la version d’exécution de Excel est 2003 ou une version antérieure. Pour plus d’informations sur la définition d’une variable de version globale, telle que **gExcelVersion12plus** dans cet exemple, voir [Compatibilité ascendante.](backward-compatibility.md)
   
 > [!NOTE]
 > Cet exemple utilise les fonctions **Framework TempNum**, **TempStrConst** pour configurer les arguments et Excel l’API C. 
@@ -111,7 +110,7 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 
 Lorsque **UDF \_ 2** appelle **UDF \_ 1,** la valeur de **pxArg** reste inchangée après l’appel à **Excel12** et la valeur renvoyée par **UDF_1** est contenue dans **xRetVal**.
   
-Lorsque vous faites un grand nombre d’appels à une fonction UDF de cette façon, vous pouvez d’abord évaluer le nom de la fonction à l’aide de la fonction [xlfEvaluate](xlfevaluate.md). Le numéro résultant, qui est identique à l’ID d’inscription renvoyé par la fonction **xlfRegister,** peut être passé à la place du nom de la fonction comme premier argument de la fonction **xlUDF.** Cela permet Excel rechercher et appeler la fonction plus rapidement que si elle doit rechercher le nom de la fonction à chaque fois. 
+Lorsque vous faites un grand nombre d’appels à une fonction UDF de cette façon, vous pouvez d’abord évaluer le nom de la fonction à l’aide de la fonction [xlfEvaluate](xlfevaluate.md). Le nombre résultant, qui est identique à l’ID d’inscription renvoyé par la fonction **xlfRegister,** peut être passé à la place du nom de la fonction comme premier argument de la fonction **xlUDF.** Cela permet Excel rechercher et appeler la fonction plus rapidement que si elle doit rechercher le nom de la fonction à chaque fois. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,14 +7,13 @@ ms.topic: reference
 keywords:
 - dll [excel 2007], appel dans excel, fonction xlAutoFree [Excel 2007], fonction xlAutoFree12 [Excel 2007], xlcall32.lib [Excel 2007], fonction xlAutoRegister [Excel 2007], xlcall.cpp [Excel 2007], fonction xlAutoRemove [Excel 2007], fonction xlAddInManagerInfo [Excel 2007], fonction xlAutoAdd [Excel 2007], fonction xlAutoOpen [Excel 2007], fonction xlAutoClose [Excel 2007], DLL [Excel 2007], transformation en XLL, XLL [Excel 2007] appel dans Excel, fonction xlAutoRegister12 [Excel 2007], xlcall.h [Excel 2007], fonction xlAddInManagerInfo12 [Excel 2007]
 ms.assetid: 7754998f-4e13-4a37-9724-43b6ee6c919b
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: dd1f4d591d6131d9f683bbd4630cbb0ceadb03e1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7a2ae2d4a24142efc4300833283abdbc1644f99c
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605616"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199009"
 ---
 # <a name="creating-xlls"></a>Création de fichiers XLL
 

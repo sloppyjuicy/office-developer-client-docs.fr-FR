@@ -11,13 +11,12 @@ keywords:
 - fonction tempactiveref [excel 2007],TempActiveRef12 function [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 7faec0ba405c8bb774cf33fc01edb2247fdbea5b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 56ac8a96bb3a9dea883f6929e07defef1f99484f
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611265"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199723"
 ---
 # <a name="tempactivereftempactiveref12"></a>TempActiveRef/TempActiveRef12
 
@@ -40,7 +39,7 @@ Ligne de début de la référence.
   
 Ligne de fin de la référence.
   
-Les arguments de ligne sont basés sur zéro afin que la ligne 1 soit passée en tant que 0. Dans Microsoft Office Excel 2003 et versions antérieures, et à partir de Excel 2007 exécutant un livre de travail en mode de compatibilité, la valeur maximale est 65 535 = 2^16 - 1 et est la valeur maximale qui peut être prise par un nombre total WORD. À compter Excel 2007 exécutant un manuel, la valeur maximale est 1 048 575 = 2^20 - 1. RW est défini comme un integer signé 32 bits dans XLCALL.H.
+Les arguments de ligne sont basés sur zéro afin que la ligne 1 soit passée en tant que 0. Dans Microsoft Office Excel 2003 et versions antérieures, et à partir de Excel 2007 exécutant un livre de travail en mode de compatibilité, la valeur maximale est 65 535 = 2^16 - 1 et est la valeur maximale qui peut être prise par un nombre total WORD. À partir Excel 2007 exécutant un manuel, la valeur maximale est 1 048 575 = 2^20 - 1. RW est défini comme un integer signé 32 bits dans XLCALL.H.
   
  _colFirst_
   

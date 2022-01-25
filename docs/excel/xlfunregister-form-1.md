@@ -10,13 +10,12 @@ keywords:
 - fonction xlfunregister [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d966b51c9f83d80ba74f8aca4cb870278705d711
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1125cb9966c6ad43ee543f82a3beaa54b9b4e4b7
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621303"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198456"
 ---
 # <a name="xlfunregister-form-1"></a>xlfUnregister (formulaire 1)
 
@@ -32,7 +31,7 @@ Peut être appelée à partir d’une commande DLL ou XLL qui a elle-même été
     
 Appelée dans le formulaire 1, cette fonction réduit le nombre d’utilisations d’une fonction ou d’une commande DLL précédemment inscrite à l’aide de **xlfRegister** ou **REGISTER**. Si le nombre d’utilisations est déjà zéro, cette fonction n’a aucun effet. Lorsque le nombre d’utilisations de toutes les fonctions dans une DLL atteint zéro, la DLL est déchargée de la mémoire.
   
-**xlfRegister** (formulaire 1) définit également un nom masqué qui est l’argument de texte de la fonction,  _pxFunctionText_, et qui évalue l’ID d’inscription de la fonction ou de la commande. Lors de la désinssion de la fonction, ce nom doit être supprimé à l’aide de **xlfSetName** afin que le nom de la fonction ne soit plus répertorié par l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
+**xlfRegister** (formulaire 1) définit également un nom masqué qui est l’argument de texte de la fonction,  _pxFunctionText_, et qui est évalué en fonction de l’ID d’inscription de la fonction ou de la commande. Lors de la désinssion de la fonction, ce nom doit être supprimé à l’aide de **xlfSetName** afin que le nom de la fonction ne soit plus répertorié par l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);

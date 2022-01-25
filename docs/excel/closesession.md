@@ -6,13 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 2c2371c8-b0e0-4992-b7ac-3949eadf1ebe
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: cba9dbdbcab59dc178a5ae0573ff3e7f0009d72b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a19a59e6dddd25c3c47d31299f921f5e5eb6d43a
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593011"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199674"
 ---
 # <a name="closesession"></a>CloseSession
 

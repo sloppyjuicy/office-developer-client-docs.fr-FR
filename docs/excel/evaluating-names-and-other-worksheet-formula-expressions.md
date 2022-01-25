@@ -8,13 +8,12 @@ keywords:
 - expression evaluation [excel 2007],worksheets [Excel 2007], name evaluation,evaluating expressions [Excel 2007],evaluating worksheet names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007], evaluating,name evaluation [Excel 2007],strings [Excel  2007], converting to values,xlfEvaluate function [Excel 2007],worksheets [Excel 2007], expression evaluation
 ms.localizationpriority: medium
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a21a6b1926cc31eadb11ad6573539a466d0d2625
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: c447d69f639dcb353e843ab9f724bcf5ac774c0f
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180298"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199135"
 ---
 # <a name="evaluating-names-and-other-worksheet-formula-expressions"></a>Évaluation des noms et d’autres expressions de formule dans les feuilles de calcul
 

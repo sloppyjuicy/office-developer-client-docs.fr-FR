@@ -6,13 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 787badaf-8782-454d-a016-7eae83bbd8a9
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 178076fecedbe2eb2a254dcd10932e4f4f4ae60d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1f11c283bddd462170b898d6c3b4ce3bd3f0879e
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601413"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199415"
 ---
 # <a name="cluster-safe-functions"></a>Fonctions sécurisées de cluster
 
@@ -45,6 +44,6 @@ Pour les UDF dont les durées d’exécution sont plus courtes, la surcharge du 
 > [!NOTE]
 > Vous ne pouvez pas déclarer une UDF sécurisée pour le cluster en tant que UDF asynchrone. 
   
-Une UDF peut déterminer s’il est exécuté à l’aide d’un connecteur de cluster en appelant la fonction de rappel [xlRunningOnCluster.](xlrunningoncluster.md) 
+Une UDF peut déterminer si elle est en cours d’utilisation à l’aide d’un connecteur de cluster en appelant la fonction de rappel [xlRunningOnCluster.](xlrunningoncluster.md) 
   
 

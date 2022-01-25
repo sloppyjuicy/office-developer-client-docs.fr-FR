@@ -10,13 +10,12 @@ keywords:
 - fonction unhookexcelwindow
 ms.localizationpriority: medium
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 7ff706c128c58f40285c09af3d28f46e6022742e
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 2f5469a54a24421ac3551901d2f95e8b5f69f3f9
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180116"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198764"
 ---
 # <a name="unhookexcelwindow"></a>UnhookExcelWindow
 

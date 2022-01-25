@@ -7,14 +7,13 @@ ms.topic: overview
 keywords:
 - calcul forcé [Excel 2007], recalcul sélectif [Excel 2007], fonctions [Excel 2007], volatile,modes de calcul, cellules recalculées [Excel 2007], dépendance [Excel 2007], calcul feuille de calcul spécifiée [Excel 2007],recalcul [Excel 2007], reconstruction arborescence classeur [Excel 2007], calcul de plage [Excel 2007], recalcul d'Excel, fonctions volatiles [Excel 2007], fonctions [Excel 2007], non-volatiles, calcul de feuille de calcul active [Excel 2007], cellules sales [Excel 2007], fonctions non-volatiles [Excel 2007], recalcul forcé [Excel 2007].
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: ca753ddaae014838047fe48d630bff17f63b4294
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 19823be3a1685d8f64c116db2f36f3abfd71f952
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180249"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198988"
 ---
 # <a name="excel-recalculation"></a>Recalcul Excel
 

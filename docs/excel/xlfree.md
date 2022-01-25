@@ -10,13 +10,12 @@ keywords:
 - fonction xlfree [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 99e3305d81f383c5b532828736b42aa5a146b9ed
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f33254cb1bba4e22e047f9daafd1d5945e395acb
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564665"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199555"
 ---
 # <a name="xlfree"></a>xlFree
 
@@ -41,7 +40,7 @@ Cette fonction ne retourne pas de valeur.
   
 ## <a name="remarks"></a>Remarques
 
-Vous devez libérer chaque **XLOPER** que vous obtenez en tant que valeur de retour à partir d’Excel4 ou **Excel4v** et de chaque **XLOPER12** que vous obtenez en tant que valeur de retour à partir d’Excel12 ou **Excel12v** s’ils sont de l’un des types suivants : **xltypeStr**, **xltypeMulti** ou **xltypeRef**.   Il est toujours sûr de libérer d’autres types même s’ils n’utilisent pas de mémoire auxiliaire, tant que vous les avez obtenus à partir **d’Excel4** ou **Excel12**.
+Vous devez libérer chaque **XLOPER** que vous obtenez en tant que valeur de retour à partir **d’Excel4** ou **Excel4v** et de chaque **XLOPER12** que vous obtenez en tant que valeur de retour d’Excel12 ou **Excel12v** s’ils sont de l’un des types suivants : **xltypeStr,** **xltypeMulti** ou **xltypeRef**.  Il est toujours sûr de libérer d’autres types même s’ils n’utilisent pas de mémoire auxiliaire, tant que vous les avez obtenus à partir **d’Excel4** ou **Excel12**.
   
 Lorsque vous revenir à Excel pointeur vers une **XLOPER** XLOPER12 qui contient encore une mémoire allouée Excel à libérer, vous devez définir /   **xlbitXLFree** pour vous assurer que Excel libère la mémoire. 
   

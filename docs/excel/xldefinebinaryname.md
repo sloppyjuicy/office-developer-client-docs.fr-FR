@@ -10,19 +10,18 @@ keywords:
 - fonction xldefinebinaryname [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: e3e8f91b-cc31-4f09-9941-f950ae96820a
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 17a28b5fac2e2d92beb19def39174a728df1b188
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8fe7ce996dffa826d6cd6cd2870a9781e59be85a
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611209"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199184"
 ---
 # <a name="xldefinebinaryname"></a>xlDefineBinaryName
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Utilisé pour allouer un stockage persistant pour **un xltypeBigData** **XLOPER** /  **XLOPER12**. Les données avec un nom binaire défini sont enregistrées avec le workbook et sont accessibles par nom à tout moment. Pour plus d’informations, voir « Limite d’étendue du nom binaire » dans Problèmes connus [Excel développement XLL .](known-issues-in-excel-xll-development.md)
+Utilisé pour allouer un stockage persistant pour **un xltypeBigData** **XLOPER** /  **XLOPER12**. Les données avec un nom binaire défini sont enregistrées avec le workbook et sont accessibles par nom à tout moment. Pour plus d’informations, voir « Limitation de l’étendue du nom binaire » dans Problèmes connus [Excel développement XLL.](known-issues-in-excel-xll-development.md)
   
 ```cs
 Excel12(xlDefineBinaryName, 0, 2, LPXLOPER12 pxName, LPXLOPER12 pxData);
@@ -36,7 +35,7 @@ Chaîne spécifiant le nom des données. La chaîne est soumise aux mêmes restr
   
  _pxData_ (**xltypeBigData**)
   
-Structure Bigdata spécifiant les données à stocker. Lorsque vous appelez cette fonction, le membre **lpbData** de la structure **bigdata** doit pointer vers les données pour lesquelles le nom est défini et le membre **cbData** doit contenir la longueur des données en octets. 
+Structure bigdata spécifiant les données à stocker. Lorsque vous appelez cette fonction, le membre **lpbData** de la structure **bigdata** doit pointer vers les données pour lesquelles le nom est défini et le membre **cbData** doit contenir la longueur des données en octets. 
   
 Si  _l’argument pxData_ n’est pas spécifié (**xltypeMissing**), l’allocation nommée spécifiée par  _pxName_ est supprimée. 
   

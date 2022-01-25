@@ -10,13 +10,12 @@ keywords:
 - fonction xlautoopen [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 748cecb6-61d0-496b-a1a4-a73d22eb29e2
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 443b6511e0935737187994bf0224bd80b84ada21
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f6acc4051d53f71db59f03e2b902e6092c4e7c11
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621352"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198147"
 ---
 # <a name="xlautoopen"></a>xlAutoOpen
 

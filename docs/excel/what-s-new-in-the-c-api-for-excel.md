@@ -8,13 +8,12 @@ keywords:
 - c api [excel 2007], nouveautés
 ms.localizationpriority: medium
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 99a4bc3c1a88dd4b812ced2c7578f61a7d1274a8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4a63beb8a3021faa0385d6399964a902b62b0630
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621373"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199283"
 ---
 # <a name="whats-new-in-the-c-api-for-excel"></a>Nouveautés de l’API C pour Excel
 
@@ -45,7 +44,7 @@ Conjointement avec Microsoft Excel 2013, Microsoft Excel 2013 Kit de développem
 
 
 
-[Développement de XLL de Excel](developing-excel-xlls.md)
+[Développement de XLL de Excel 2013](developing-excel-xlls.md)
   
 [Programmation avec l�API C dans Excel](programming-with-the-c-api-in-excel.md)
   

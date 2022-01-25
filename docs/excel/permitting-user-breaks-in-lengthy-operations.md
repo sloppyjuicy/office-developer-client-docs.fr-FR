@@ -8,13 +8,12 @@ keywords:
 - xlabort function [excel 2007],concurrent tasks [Excel 2007],user breaks [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: b34be96efa747fe6118389e271522443cb184391
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: fb50be79cad0c1a78bc299a145b1ef309678b522
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180683"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198326"
 ---
 # <a name="permitting-user-breaks-in-lengthy-operations"></a>Autorisation des interruptions utilisateur dans les opérations longues
 
@@ -32,5 +31,5 @@ Lorsque vous détectez une condition d’rupture dans une commande, vous l’eff
 
 [Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)  
 [Recalcul multithread dans Excel](multithreaded-recalculation-in-excel.md)  
-[Développement de XLL de Excel](developing-excel-xlls.md)  
+[Développement de XLL de Excel 2013](developing-excel-xlls.md)  
 [Accès à l’instance Excel et aux handles de fenêtre principaux](how-to-access-excel-instance-and-main-window-handles.md)

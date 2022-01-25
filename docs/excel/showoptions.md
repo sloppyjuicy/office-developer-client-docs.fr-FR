@@ -6,13 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 51acac58-ec39-488f-979c-1887dc2ab94b
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 2fb8616fafd778a6dbd8bf990b2e7b13ffcc7175
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 024ec7d80bd026b3c8228a32efa70b266577ab96
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572374"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199275"
 ---
 # <a name="showoptions"></a>ShowOptions
 

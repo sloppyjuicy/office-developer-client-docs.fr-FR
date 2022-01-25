@@ -7,14 +7,13 @@ ms.topic: overview
 keywords:
 - Programmation Excel, concepts Excel
 ms.assetid: f572a0d4-631a-4adc-a1a3-714d96ff6b39
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: 3e83078f0795d089f3176cdb52f12c045c9e08ba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: eda068b7c8a2beebcfab83b2af078be6f4021582
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592990"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199016"
 ---
 # <a name="excel-programming-concepts"></a>Concepts de programmation Excel
 

@@ -8,25 +8,24 @@ keywords:
 - references [excel 2007], worksheet,worksheet references [Excel 2007],external worksheet references [Excel 2007],active worksheet [Excel 2007],current worksheet [Excel 2007],internal worksheet references [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ddc0c2d1c1dc88e68e51ac7843b990a926244920
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 07033f18054c279244fdbb8ed314396bcd40326b
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557616"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198729"
 ---
 # <a name="worksheet-references"></a>Références de feuille de calcul
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Une référence dans Microsoft Excel est un type de données qui fait référence à un bloc rectangulaire de cellules (qui ne peut être qu’une seule cellule) ou, dans certains cas, à un certain nombre de blocs de cellules disjoints. En interne, Excel utilise un type de référence pour les cellules de la feuille actuelle, appelé référence interne. Toute cellule qui ne se trouve pas dans la feuille actuelle est décrite par un autre type de référence appelé référence externe. Consultez la section suivante pour obtenir la définition des valeurs active et actuelle.
+Une référence dans Microsoft Excel est un type de données qui fait référence à un bloc rectangulaire de cellules (qui ne peut être qu’une seule cellule) ou, dans certains cas, à un certain nombre de blocs de cellules disjoints. En interne, Excel utilise un type de référence pour les cellules de la feuille actuelle, appelée référence interne. Toute cellule qui ne se trouve pas dans la feuille actuelle est décrite par un autre type de référence appelé référence externe. Consultez la section suivante pour obtenir la définition des valeurs active et actuelle.
   
 ## <a name="active-vs-current"></a>Actif ou actif
 
-Dans Excel, le terme actif fait référence à ce que l’utilisateur affiche. Le workbook et la feuille de calcul actifs sont ceux que l’utilisateur recherche actuellement ou, si Excel Excel perdu le focus sur une autre application, était à l’Excel le dernier focus. La feuille active se trouve toujours dans le livre de travail actif. Les cellules sélectionnées dans la feuille active sont appelées cellules actives. Si un objet incorporé a le focus, les dernières cellules sélectionnées sont toujours actives. 
+Dans Excel, le terme actif fait référence à ce que l’utilisateur affiche. Le workbook et la feuille de calcul actifs sont ceux que l’utilisateur recherche actuellement, ou, si Excel a perdu le focus sur une autre application, était à la recherche lorsque Excel a eu le focus pour la dernière fois. La feuille active se trouve toujours dans le livre de travail actif. Les cellules sélectionnées dans la feuille active sont appelées cellules actives. Si un objet incorporé a le focus, les dernières cellules sélectionnées sont toujours actives. 
   
-Le terme actuel fait référence au Excel le recalcul. Le workbook et la feuille de calcul actuels sont ceux qui sont en cours de recalcul. La feuille actuelle se trouve toujours dans le workbook actuel. La cellule en cours de recalcul est appelée la cellule actuelle ou, dans le cas d’une formule de tableau en cours de recalcul, les cellules actuelles. 
+Le terme actuel fait référence au Excel le recalcul. Le workbook et la feuille de calcul actuels sont ceux qui sont actuellement recalculés. La feuille actuelle se trouve toujours dans le manuel en cours. La cellule en cours de recalcul est appelée la cellule actuelle ou, dans le cas d’une formule de tableau en cours de recalcul, les cellules actuelles. 
   
 Les points importants à retenir sont les suivants :
   
@@ -34,7 +33,7 @@ Les points importants à retenir sont les suivants :
     
 - Une fonction de add-in, que ce soit dans un module Visual Basic pour Applications (VBA), une DLL ou une XLL, est toujours appelée à partir de la cellule actuelle de la feuille actuelle, ou l’une d’elles dans le cas d’un recalcul multithread (MTR).
     
-De nombreuses Excel qui fournissent des informations sur une cellule, une plage de cellules ou une feuille dans un workbook font la distinction entre le workbook actif, la feuille ou la cellule et le workbook, la feuille ou la cellule actif. Cette différence est reflétée dans les types de données utilisés pour décrire les références à des blocs de cellules, comme décrit dans la section suivante.
+De nombreuses Excel qui fournissent des informations sur une cellule, une plage de cellules ou une feuille d’un manuel font la distinction entre le workbook actif, la feuille ou la cellule et le workbook, la feuille ou la cellule actif. Cette différence est reflétée dans les types de données utilisés pour décrire les références à des blocs de cellules, comme décrit dans la section suivante.
   
 ## <a name="internal-and-external-worksheet-references"></a>Références internes et externes aux feuilles de calcul
 

@@ -6,13 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 0de9d4e2-eb3f-40e7-aa24-f430892eb9ec
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 33d0b489a8389fbf61f8bfe2abcd0b9619558929
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2cbeb9f4a3e76fa8f8c0449b48396885d9696a76
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588398"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199422"
 ---
 # <a name="canceloutstandingrequests"></a>CancelOutstandingRequests
 
@@ -36,7 +35,7 @@ _SessionID_
   
 ## <a name="remarks"></a>Remarques
 
-Les implémenteurs doivent arrêter tous les processus de la session pour améliorer les performances, car tous les résultats reçus après cet appel sont ignorés par Excel.
+Les implémenteurs doivent arrêter tous les processus de la session pour améliorer les performances, car tous les résultats reçus après cet appel seront ignorés par Excel.
   
 ## <a name="see-also"></a>Voir aussi
 

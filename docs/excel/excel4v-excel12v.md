@@ -11,25 +11,24 @@ keywords:
 - fonction excel12v [excel 2007],fonction Excel4v [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3969fb3d9e8323b6857ea11bfed5989232287fdf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6a290d87ac14985ad3c942d451d7d0f38f441ddd
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621457"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199457"
 ---
 # <a name="excel4vexcel12v"></a>Excel4v/Excel12v
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Appelle une fonction de feuille de Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une commande ou une fonction spéciale XLL uniquement, à partir d’une DLL, XLL ou ressource de code.
+Appelle une fonction de feuille de Microsoft Excel interne, une fonction ou une commande de feuille macro, ou une commande ou une fonction spéciale XLL uniquement, à partir d’une DLL, DLL ou ressource de code.
   
 Toutes les versions récentes de Excel prise **en charge d’Excel4v.** À compter Excel 2007, **Excel12v** est pris en charge. 
   
 Ces fonctions ne peuvent être appelées que si Excel a passé le contrôle à la DLL ou au XLL. Ils peuvent également être appelés lorsque Excel a passé le contrôle indirectement via un appel à Visual Basic pour Applications (VBA). Ils ne peuvent pas être appelés à un autre moment. Par exemple, ils ne peuvent pas être appelés pendant les appels à la fonction DllMain ou à d’autres moments où le système d’exploitation a appelé la DLL, ou à partir d’un thread créé par la DLL. 
   
-Les fonctions Excel4 et [Excel12](excel4-excel12.md) acceptent leurs arguments en tant que liste de longueur variable sur la pile, tandis que les fonctions **Excel4v** et **Excel12v** acceptent leurs arguments en tant que tableau. À tous les autres égards, **Excel4** se comporte de la même manière **qu’Excel4v** et **Excel12** se comporte de la même manière **qu’Excel12v**.
+Les fonctions Excel4 et [Excel12](excel4-excel12.md) acceptent leurs arguments en tant que liste de longueur variable sur la pile, tandis que les fonctions **Excel4v** et **Excel12v** acceptent leurs arguments sous la mesure d’un tableau. À tous les autres égards, **Excel4** se comporte de la même manière **qu’Excel4v** et **Excel12** se comporte de la même manière **qu’Excel12v**.
   
 ```cs
 int _cdecl Excel4v(int iFunction, LPXLOPER pxRes, int iCount, LPXLOPER rgx[]);
@@ -48,7 +47,7 @@ Pointeur vers une **XLOPER** (dans le cas **d’Excel4v)** ou une **XLOPER12** (
   
  _iCount_ (**int**)
   
-Nombre d’arguments ultérieurs qui seront transmis à la fonction. Dans les versions Excel jusqu’en 2003, ce nombre peut être n’importe quel nombre de 0 à 30. À compter Excel 2007, ce nombre peut être n’importe quel nombre entre 0 et 255.
+Nombre d’arguments suivants qui seront transmis à la fonction. Dans les versions Excel jusqu’en 2003, ce nombre peut être n’importe quel nombre de 0 à 30. À compter Excel 2007, ce nombre peut être n’importe quel nombre entre 0 et 255.
   
  _rgx_ (**LPXLOPER []** ou **LPXLOPER12 []**)
   
@@ -64,7 +63,7 @@ Ces fonctions sont utiles lorsque le nombre d’arguments transmis à l’opéra
   
 ### <a name="example"></a>Exemple
 
-Pour obtenir des exemples de code, consultez le code des fonctions **Excel** et **Excel12f** dans le SDK XLL Excel 2010, à l’emplacement suivant où vous avez installé le SDK : 
+Pour obtenir des exemples de code, voir le code des fonctions **Excel** et **Excel12f** dans le SDK XLL Excel 2010, à l’emplacement suivant où vous avez installé le SDK : 
   
 Samples\Framewrk\Framewrk.c
   

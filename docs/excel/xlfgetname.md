@@ -8,13 +8,12 @@ keywords:
 - xlfgetname
 ms.localizationpriority: medium
 ms.assetid: 65780435-aaa2-47af-b44f-07be7aa769ee
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 63c883c480f9db4f0680f368fcbbe1f201bfd0b0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 02dba08632007c9e42c1210424a709cbeea17d78
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621324"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198463"
 ---
 # <a name="xlfgetname"></a>xlfGetName
 
@@ -34,13 +33,13 @@ Il peut s’agit d’un nom défini dans la feuille . une référence externe à
   
 _pxInfoType_ (**xltypeBool**)
   
-Spécifie le type d’informations à renvoyer sur le nom. Si **false** ou omis, la définition est renvoyée. Si **true**, renvoie **TRUE** si le nom est défini uniquement pour la feuille, **FALSE** si le nom est défini pour l’ensemble du workbook. 
+Spécifie le type d’informations à renvoyer sur le nom. Si **false** ou omis, la définition est renvoyée. Si **TRUE**, renvoie **TRUE** si le nom est défini uniquement pour la feuille, **FALSE** si le nom est défini pour l’ensemble du workbook. 
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-_pxRes_ (**xltypeStr**, **xltypeBool** ou **xltypeErr**)
+_pxRes_ (**xltypeStr,** **xltypeBool** ou **xltypeErr**)
   
-En fonction de la valeur passée pour  _pxInfoType_, renvoie la définition du nom spécifié (**xltypeStr**), ou **TRUE** ou **FALSE** (**xltypeBool**).
+Selon la valeur passée pour  _pxInfoType_, renvoie la définition du nom spécifié (**xltypeStr**), ou **TRUE** ou **FALSE** (**xltypeBool**).
   
 ## <a name="remarks"></a>Remarques
 

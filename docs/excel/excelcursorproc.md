@@ -10,13 +10,12 @@ keywords:
 - fonction excelcursorproc [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 926c1125e22f4857a4e22a179c1f803db4a8a3d5
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: e092b1b4823c334b1fae31440a9b7f8ceb928a7b
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180235"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199443"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 

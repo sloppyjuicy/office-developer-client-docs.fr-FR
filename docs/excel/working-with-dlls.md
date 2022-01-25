@@ -6,13 +6,12 @@ ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: b2522b47-5260-4e32-ad57-96dec4a0e3f9
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 636d48c0791f1edea605069b0b8ff8970e26b46b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4883dbff53d23e38608da451ec4a6239a51931a2
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557622"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199296"
 ---
 # <a name="working-with-dlls"></a>Utilisation des fichiers DLL
 
@@ -38,5 +37,5 @@ Cette section contient des informations sur la création et l’appel de DLLs qu
 
 
 
-[Développement de XLL de Excel](developing-excel-xlls.md)
+[Développement de XLL de Excel 2013](developing-excel-xlls.md)
 

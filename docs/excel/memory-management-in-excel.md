@@ -8,13 +8,12 @@ keywords:
 - xloper12 memory [excel 2007],managing memory in Excel,Excel stack,strings [Excel 2007], managing memory,memory management in Excel,XLOPER memory [Excel 2007],memory [Excel 2007], management guidelines
 ms.localizationpriority: medium
 ms.assetid: 3bf5195b-6235-43cf-8795-0c7b0a63a095
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: f2f3b66926b6662a4918b81fbde0c69b6ff7249e
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 8263a46b6659844fc581234dd21976bf65f35df5
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180221"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198316"
 ---
 # <a name="memory-management-in-excel"></a>Gestion de la mémoire dans Excel
 
@@ -448,5 +447,5 @@ Si cela vous pr�occupe, si vous �tes simplement curieux ou si vous souhaitez
   
 [Le multithreading et la Contention de m�moire dans Excel](multithreading-and-memory-contention-in-excel.md)
   
-[Développement de XLL de Excel](developing-excel-xlls.md)
+[Développement de XLL de Excel 2013](developing-excel-xlls.md)
 

@@ -6,13 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6421c9a2-07f7-4deb-aa43-c50d82cb0002
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: f02b20c5a8355f68a937ad96cf4106c37f3a767a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 52b099afc779562af88c4b348225144c43621043
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614618"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198561"
 ---
 # <a name="calludf"></a>CallUDF
 
@@ -56,7 +55,7 @@ _Parameter1_
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**xlHpcRetSuccess si** l’appel UDF est correctement initié ; **xlHpcRetInvalidSessionId** si l’argument _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs, y compris le délai d’arrêt. Si l’appel renvoie un code d’erreur (sauf **xlHpcRetSuccess),** alors Excel considère que l’appel UDF a échoué, invalide _pxAsyncHandle_ et ne s’attend pas à ce qu’un rappel se produise.
+**xlHpcRetSuccess si** l’appel UDF est correctement lancé ; **xlHpcRetInvalidSessionId** si l’argument _SessionId_ n’est pas valide ; **xlHpcRetCallFailed sur** d’autres échecs, y compris le délai d’arrêt. Si l’appel renvoie un code d’erreur (sauf **xlHpcRetSuccess),** alors Excel considère que l’appel UDF a échoué, invalide _pxAsyncHandle_ et ne s’attend pas à ce qu’un rappel se produise.
   
 ## <a name="remarks"></a>Remarques
 

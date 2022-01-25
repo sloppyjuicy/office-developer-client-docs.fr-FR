@@ -10,13 +10,12 @@ keywords:
 - fonction fexit [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: d85685fa-df70-45bb-b629-a9d43b5cb926
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 40c7e7dfafc569e23f8737b74b6ca2c28bb630d1
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 192b04572732778a1d76f262dd3f6ef2c5ae24c8
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180291"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198617"
 ---
 # <a name="fexit"></a>fExit
 

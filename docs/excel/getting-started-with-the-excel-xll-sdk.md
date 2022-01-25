@@ -5,22 +5,21 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- Kit de développement logiciel excel 2007 xll, mise en place
+- Kit de développement de logiciels xll Excel 2007, mise en place
 ms.localizationpriority: medium
 ms.assetid: ba7b5817-f22f-4187-8a5f-316f0fbcb9d2
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 6d43343da46aee450f10ed2ad510ee86c17d4594
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc3eaaebb10b2ab10f5cd503ae38bdbb0a8adc57
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617180"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199324"
 ---
 # <a name="getting-started-with-the-excel-xll-sdk"></a>Mise en route avec le Kit de d�veloppement logiciel XLL Excel 2013
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Le Kit de développement logiciel (SDK) Microsoft Excel 2013 XLL fournit des informations pour vous aider à commencer à créer des modules complémentaires DLL pour Excel 2013 qui utilisent l’API C. Cette section fournit des informations sur l’API C et des liens vers de la documentation de référence pour vous aider à prendre en Excel développement XLL 2013.
+Le kit de développement logiciel (SDK) Microsoft Excel 2013 XLL fournit des informations pour vous aider à commencer à créer des modules complémentaires DLL pour Excel 2013 qui utilisent l’API C. Cette section fournit des informations sur l’API C, ainsi que des liens vers la documentation de référence pour vous aider à prendre en Excel développement XLL 2013.
   
 ## <a name="in-this-section"></a>Dans cette section
 

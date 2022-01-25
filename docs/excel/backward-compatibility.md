@@ -8,13 +8,12 @@ keywords:
 - compatibilité de version [excel 2007],compatibilité XLL [Excel 2007],compatibilité ascendante [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d17a3bbc714ea7ac1ad60bd6852291fd4aa67b2a
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: a13f20ea29eced3713f247f6740d36d22da1b505
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180431"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199681"
 ---
 # <a name="backward-compatibility"></a>Compatibilité descendante
 

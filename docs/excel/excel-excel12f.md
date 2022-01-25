@@ -7,22 +7,21 @@ ms.topic: reference
 f1_keywords:
 - Excel12f
 keywords:
-- fonction Excel [excel 2007],fonction Excel12f [Excel 2007]
+- fonction excel [excel 2007],fonction Excel12f [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: bae0e56648392469dd532259c941e71674f67fd0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a2c846895b5ff59a560ac8f538610c971859fc1f
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601365"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198862"
 ---
 # <a name="excelexcel12f"></a>Excel/Excel12f
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonctions de bibliothèque d’infrastructure. **Excel** est un wrapper pour la [fonction Excel4.](excel4-excel12.md) **Excel12f est** un wrapper pour la [fonction Excel12.](excel4-excel12.md) Chaque vérification vérifie qu’aucun des arguments n’est nul, ce qui indique que la création d’une XLOPER ou **XLOPER12** temporaire a échoué.  Si une erreur se produit, chacun imprime un message de débogage. Lorsque vous avez terminé, chacune libère toute la mémoire temporaire qui a peut-être été créée pour les **xlOPER** et **XLOPER12** temporaires.
+Fonctions de bibliothèque d’infrastructure. **Excel** est un wrapper pour la [fonction Excel4.](excel4-excel12.md) **Excel12f est** un wrapper pour la [fonction Excel12.](excel4-excel12.md) Chaque vérification vérifie qu’aucun des arguments n’est nul, ce qui indique que la création d’une **XLOPER** ou **d’une XLOPER12** temporaire a échoué. Si une erreur se produit, chacun imprime un message de débogage. Lorsque vous avez terminé, chacune libère toute la mémoire temporaire qui a peut-être été créée pour les **xlOPER** et **XLOPER12** temporaires.
   
  **Excel12f ne** peut être appelé qu’à partir d’une DLL à partir de la bibliothèque Excel API C 2007. En outre, il fonctionne uniquement lorsque l’exécution commence Excel 2007 et échoue avec **xlretFailed dans le** cas contraire. 
   

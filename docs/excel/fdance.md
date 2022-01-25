@@ -10,13 +10,12 @@ keywords:
 - fonction fdance [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d6111e5de8df573439cc7bb31898f10804907fcc
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: d38f16f007ae9ad9189971883a195fb9f7bbf4ee
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180354"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198904"
 ---
 # <a name="fdance"></a>fDance
 

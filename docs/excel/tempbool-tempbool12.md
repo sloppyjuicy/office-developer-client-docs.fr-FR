@@ -8,22 +8,21 @@ f1_keywords:
 - TempBool
 - TempBool12
 keywords:
-- tempbool function [excel 2007],TempBool12 function [Excel 2007]
+- fonction tempbool [excel 2007],TempBool12 function [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 47c86ac41c49ae1e3de9a5f065294215f95822db
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 503876c6ce3648abce0784db1cdde657ad69aa7a
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576673"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199177"
 ---
 # <a name="tempbooltempbool12"></a>TempBool/TempBool12
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de bibliothèque d’infrastructure qui crée une **XLOPER** /  **XLOPER12** temporaire contenant **booléen** **TRUE** ou **FALSE**.
+Fonction de bibliothèque d’infrastructure qui crée une **xlOPER** /  **XLOPER12** temporaire contenant **booléen** **TRUE** ou **FALSE**.
   
 ```cs
 LPXLOPER TempBool(int b);
@@ -42,7 +41,7 @@ Renvoie un **booléen xltypeBool** **contenant** la valeur logique transmise.
   
 ## <a name="example"></a>Exemple
 
-L’exemple suivant utilise la **fonction TempBool12** pour effacer la barre d’état. La mémoire temporaire est libérée lorsque la [fonction Excel/Excel12f](excel-excel12f.md) est appelée. 
+L’exemple suivant utilise **la fonction TempBool12** pour effacer la barre d’état. La mémoire temporaire est libérée lorsque la [fonction Excel/Excel12f](excel-excel12f.md) est appelée. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

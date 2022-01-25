@@ -8,13 +8,12 @@ keywords:
 - accessing excel handles,handles [Excel 2007], accessing,Excel instances, accessing,window handles [Excel 2007], accessing
 ms.localizationpriority: medium
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 98535a729c17ac74ee2dcd18143753aa673b1b6d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a7cad6d0c2c6af622fe748bb33a70fe170c4e693
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601288"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198182"
 ---
 # <a name="access-excel-instance-and-main-window-handles"></a>Accès Excel instance et de la fenêtre principale
 
@@ -89,5 +88,5 @@ BOOL GetHwnd(HWND * pHwnd)
   
 [Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
   
-[Développement de XLL de Excel](developing-excel-xlls.md)
+[Développement de XLL de Excel 2013](developing-excel-xlls.md)
 

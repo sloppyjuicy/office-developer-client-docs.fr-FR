@@ -6,13 +6,12 @@ ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 142eb27e-fb6f-4da3-bfb7-a88115bbb5d5
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ab505a5f929ecc258d39abea6ff9553998bb6b01
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5a97e8d43f4800c93a3f1d59ba34fc52ccf77e60
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59614625"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198995"
 ---
 # <a name="asynchronous-user-defined-functions"></a>Fonctions asynchrones définies par l’utilisateur
 
@@ -22,13 +21,13 @@ Microsoft Excel 2013 peut appeler des fonctions définies par l’utilisateur de
   
 ## <a name="when-to-use-asynchronous-user-defined-functions"></a>Quand utiliser des fonctions asynchrones définies par l’utilisateur
 
-Certaines fonctions définies par l’utilisateur doivent attendre des ressources externes. Pendant qu’ils attendent, le thread Excel de calcul est bloqué. Dans Excel 2013, les fonctions définies par l’utilisateur peuvent s’exécuter de manière asynchrone. Cela libère le thread de calcul pour exécuter d’autres calculs pendant que la fonction définie par l’utilisateur attend.
+Certaines fonctions définies par l’utilisateur doivent attendre des ressources externes. Pendant qu’ils attendent, le thread Excel de calcul est bloqué. Dans Excel 2013, les fonctions définies par l’utilisateur peuvent s’exécuter de manière asynchrone. Cela permet au thread de calcul d’exécuter d’autres calculs pendant que la fonction définie par l’utilisateur attend.
   
 Dans Excel 2007, les programmeurs pouvaient exécuter plusieurs fonctions définies par l’utilisateur en même temps en augmentant le nombre de threads utilisés dans les recalculs à plusieurs threads. Cette méthode présente des inconvénients principalement car le nombre de threads est un paramètre d’étendue à une application et ne peut pas être contrôlé au niveau d’une fonction unique ou d’un add-in.
   
-Les programmeurs doivent utiliser des appels de fonction asynchrone définis par l’utilisateur lorsque la fonction doit attendre des ressources externes. Par exemple, une fonction qui envoie une demande SOAP sur Internet doit attendre que le réseau envoie la demande, que le serveur distant termine la demande et que le réseau renvoie le résultat. Dans ce cas, aucun calcul significatif n’est effectué et les Excel peuvent poursuivre d’autres calculs.
+Les programmeurs doivent utiliser des appels de fonction asynchrone définis par l’utilisateur lorsque la fonction doit attendre des ressources externes. Par exemple, une fonction qui envoie une demande SOAP sur Internet doit attendre que le réseau envoie la demande, que le serveur distant termine la demande et que le réseau renvoie le résultat. Dans ce cas, aucun calcul significatif ne se produit et les Excel peuvent continuer avec d’autres calculs.
   
-Les programmeurs peuvent également utiliser des fonctions asynchrones définies par l’utilisateur lorsqu’une fonction envoie des demandes à un cluster de calcul. Dans ce cas, il n’y a pas seulement une latence réseau à attendre, mais le cluster peut exécuter des appels distincts sur des serveurs distincts. En n’attendant pas la fin de chaque appel, les appels peuvent se chevaucher pour améliorer les performances. Dans certains cas, cette amélioration est significative.
+Les programmeurs peuvent également utiliser des fonctions asynchrones définies par l’utilisateur lorsqu’une fonction envoie des demandes à un cluster de calcul. Dans ce cas, il n’y a pas seulement une latence réseau à attendre, mais le cluster peut exécuter des appels distincts sur des serveurs distincts. En n’attendant pas la fin de chaque appel, les appels peuvent être superposés pour améliorer les performances. Dans certains cas, cette amélioration est significative.
   
 > [!NOTE]
 > Les fonctions définies par l’utilisateur ne peuvent pas être enregistrées en tant qu’fonctions asynchrones et sécurisées pour le cluster. 
@@ -44,7 +43,7 @@ Excel fournit un ensemble d’événements qu’un add-in XLL peut utiliser pour
   
 ### <a name="declaring-an-asynchronous-function"></a>Déclaration d’une fonction asynchrone
 
-Vous devez déclarer des fonctions asynchrones définies par l’utilisateur comme asynchrones lorsqu’elles sont inscrites. Pour ce faire, ajoutez un paramètre qui pointe vers une structure XLOPER12, représentée par « X » dans la chaîne du type d’inscription, n’importe où dans la liste des paramètres UDF. Excel utilise ce paramètre pour transmettre le handle d’appel asynchrone. Le add-in XLL doit transmettre le handle d’appel asynchrone et le résultat de la fonction à Excel lorsque le résultat est prêt. En outre, le type de retour de l’UDF doit être **annulé,** désigné par « > » comme premier caractère de la chaîne de type. Le type de retour est nul car la partie synchrone de l’UDF ne retourne pas de valeur à Excel. Au lieu de cela, le add-in XLL renvoie une valeur de manière asynchrone par le biais d’un rappel. 
+Vous devez déclarer des fonctions asynchrones définies par l’utilisateur comme asynchrones lorsqu’elles sont inscrites. Pour ce faire, vous ajoutez un paramètre qui pointe vers une structure XLOPER12, représentée par « X » dans la chaîne du type d’inscription, n’importe où dans la liste des paramètres UDF. Excel utilise ce paramètre pour transmettre le handle d’appel asynchrone. Le add-in XLL doit transmettre le handle d’appel asynchrone et le résultat de la fonction à Excel lorsque le résultat est prêt. En outre, le type de retour de l’UDF doit être **nul,** désigné par « > » comme premier caractère de la chaîne de type. Le type de retour est nul car la partie synchrone de l’UDF ne retourne pas de valeur à Excel. Au lieu de cela, le add-in XLL renvoie une valeur de manière asynchrone par le biais d’un rappel. 
   
 Vous pouvez déclarer des fonctions asynchrones comme thread-safe, puis la partie synchrone de l’UDF est utilisée dans un recalcul multi-thread. 
   
@@ -61,7 +60,7 @@ void MyAsyncUDF(LPXLOPER12 arg1, LPXLOPER12 pxAsyncHandle)
 
 Lorsque le résultat de l’appel asynchrone est prêt, le add-in XLL renvoie le résultat à Excel en faisant un rappel de type [xlAsyncReturn](xlasyncreturn.md).
   
-**xlAsyncReturn** est le seul rappel que vous pouvez utiliser sur des threads sans calcul lors du recalcul. Par conséquent, la partie asynchrone d’une UDF asynchrone ne doit pas effectuer d’autres rappels. 
+**xlAsyncReturn** est le seul rappel que vous pouvez utiliser sur des threads autres que des threads de calcul lors du recalcul. Par conséquent, la partie asynchrone d’une UDF asynchrone ne doit pas effectuer d’autres rappels. 
   
 ### <a name="handling-events"></a>Traitement des événements
 
@@ -69,5 +68,5 @@ Lorsque le résultat de l’appel asynchrone est prêt, le add-in XLL renvoie le
   
 ## <a name="see-also"></a>Voir aussi
 
-- [Développement de XLL de Excel](developing-excel-xlls.md)
+- [Développement de XLL de Excel 2013](developing-excel-xlls.md)
 

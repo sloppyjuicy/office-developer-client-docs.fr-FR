@@ -1,7 +1,7 @@
 ---
 title: xlAbort
-manager: soliver
-ms.date: 11/16/2014
+manager: lindlau
+ms.date: 1/24/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -10,13 +10,12 @@ keywords:
 - fonction xlabort [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d19bbf949bc77a67fa84417e2eead2826c970eca
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f33881d432dfe10ab9d403554870674786865d7b
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596847"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198743"
 ---
 # <a name="xlabort"></a>xlAbort
 
@@ -32,16 +31,12 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
  _pxRetain_ (**xltypeBool**)
   
-(Facultatif). Si **elle est FALSE,** cette fonction vérifie la condition de rupture et permet d’effacer les coupures en attente. Cela permet à l’utilisateur de continuer malgré la condition d’coupure. Si cet argument est omis ou a la valeur **TRUE,** la fonction vérifie si un utilisateur abandonne sans l’effacer.
+(Facultatif). Si elle a la forme **FALSE,** cette fonction vérifie la condition de rupture et permet d’effacer les coupures en attente. Cela permet à l’utilisateur de continuer malgré la condition d’coupure. Si cet argument est omis ou a la valeur **TRUE,** la fonction vérifie si un utilisateur abandonne sans l’effacer.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
 Renvoie **TRUE** (**xltypeBool**) si l’utilisateur a appuyer sur **ÉCHAP**.
   
-## <a name="remarks"></a>Remarques
-
-### 
-
 #### <a name="frequent-calls-may-be-needed"></a>Des appels fréquents peuvent être nécessaires
 
 Les fonctions et commandes qui peuvent prendre beaucoup de temps doivent appeler cette fonction fréquemment pour donner au processeur d’autres tâches dans le système.
@@ -52,7 +47,7 @@ Les fonctions et commandes qui peuvent prendre beaucoup de temps doivent appeler
   
 ## <a name="example"></a>Exemple
 
-Le code suivant déplace à plusieurs reprises la cellule active d’une feuille jusqu’à ce qu’une minute soit écoulée ou jusqu’à ce que l’utilisateur appuie sur **ÉCHAP.** Il appelle parfois la fonction **xlAbort.** Cela produit le processeur, ce qui facilite le multitâche coopérative. 
+Le code suivant déplace à plusieurs reprises la cellule active d’une feuille jusqu’à ce qu’une minute soit écoulée ou jusqu’à ce que l’utilisateur appuie sur **ÉCHAP.** Il appelle parfois la fonction **xlAbort.** Cela produit le processeur, ce qui facilite la multitâche multinationale. 
   
  `\SAMPLES\GENERIC\GENERIC.C`
   
@@ -119,7 +114,4 @@ int WINAPI fDance(void)
 
 ## <a name="see-also"></a>Voir aussi
 
-
-
 [Fonctions de l’API C à appeler à partir d’un fichier DLL ou XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-

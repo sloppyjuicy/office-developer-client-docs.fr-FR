@@ -10,13 +10,12 @@ keywords:
 - fonction fshowdialog [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ddb9c73c5c72545216d4f842ba61990b8593ec29
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: f1afb592448978c230ccc2eb2a3b9a57fb274c55
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180228"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198897"
 ---
 # <a name="fshowdialog"></a>fShowDialog
 

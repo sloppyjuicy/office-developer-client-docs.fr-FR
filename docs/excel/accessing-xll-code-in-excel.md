@@ -7,14 +7,13 @@ ms.topic: overview
 keywords:
 - accéder au code xll [Excel 2007], XLL [Excel 2007] accéder au code, commandes [Excel 2007], inscription, fonctions [Excel 2007], inscription, appel des XLL à partir d’Excel, inscription de commandes [Excel 2007], inscription de fonctions [Excel 2007]
 ms.assetid: 6e4bf1f3-8eca-4be5-9632-75355ac31d61
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: 9f228432da71e406bbff40d760bc3dd38d5d4ee3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b4a77258464405f99a8bc36d77b56dafa24ac3f5
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593018"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199541"
 ---
 # <a name="accessing-xll-code-in-excel"></a>Accès au code XLL dans Excel
 

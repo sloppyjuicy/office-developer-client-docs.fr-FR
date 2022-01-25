@@ -10,13 +10,12 @@ keywords:
 - fonction xlgetinst [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 631a8f4e-ea7c-4743-9ee1-b2233fd7d98d
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 1346eb97fb70912c5acfb49bebffa016e05a17ab
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0b4d2fddd706afdbe41350d8b25a8b0bba8ea96d
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572339"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199149"
 ---
 # <a name="xlgetinst"></a>xlGetInst
 
@@ -44,7 +43,7 @@ Cette fonction peut être utilisée pour faire la distinction entre plusieurs in
 Lorsque vous appelez cette fonction à l’aide [d’Excel4](excel4-excel12.md) ou [d’Excel4v,](excel4v-excel12v.md)la variable d’integer XLOPER renvoyée est un int court signé 16 bits. Cette capacité ne peut contenir que les 16 bits faibles de la poignée de Windows 32 bits. À compter de Excel 2007, la variable entière de la **xlOPER12** est un entier signé 32 bits et contient donc la poignée entière, ce qui supprime la nécessité d’itérer toutes les fenêtres ouvertes. 
   
 > [!IMPORTANT]
-> Si la **fonction xlGetInst** est utilisée avec la version 64 bits de Microsoft Excel, la fonction échoue. Cela est dû au fait que le type de valeur **xltypeInt** n’est pas assez large pour contenir la poignée longue 64 bits renvoyée par Excel dans ce cas. À cet effet, Excel 2010 a introduit une nouvelle fonction nommée [xlGetInstPtr](xlgetinstptr.md), qui s’exécute correctement avec les versions 32 bits et 64 bits de Excel. 
+> Si la **fonction xlGetInst** est utilisée avec la version 64 bits de Microsoft Excel, la fonction échoue. Cela est dû au fait que le type de valeur **xltypeInt** n’est pas suffisamment large pour contenir la poignée longue 64 bits renvoyée par Excel dans ce cas. À cet effet, Excel 2010 a introduit une nouvelle fonction nommée [xlGetInstPtr](xlgetinstptr.md), qui s’exécute correctement avec les versions 32 bits et 64 bits de Excel. 
   
 ## <a name="example"></a>Exemple
 

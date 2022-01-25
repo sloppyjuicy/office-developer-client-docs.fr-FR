@@ -10,19 +10,18 @@ keywords:
 - fonction initframework [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 932d1a42c104b364d6f6d584e4e8848469405688
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ccb04671e94879b2a7b4a961b6981ed89188c543
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621429"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198477"
 ---
 # <a name="initframework"></a>InitFramework
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Fonction de la bibliothèque Framework qui initialise la bibliothèque Framework, qui initialise simplement les structures de données mémoire /  **XLOPER XLOPER12** temporaires, libérant ainsi toute mémoire déjà allouée. 
+Fonction de bibliothèque d’infrastructure qui initialise la bibliothèque Framework, qui initialise simplement les structures de données mémoire /  **XLOPER XLOPER12** temporaires, libérant ainsi toute mémoire qui a déjà été allouée. 
   
 ```cs
 short WINAPI InitFramework(void);

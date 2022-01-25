@@ -7,14 +7,13 @@ ms.topic: overview
 keywords:
 - excel 2007 xll software development kit,add-ins [Excel 2007]
 ms.assetid: abfc9d76-6f22-49b9-ba45-eb7a54b082e0
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: 15b6ca74a2b0fe5901d4f7cf204d2a2265657ddc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ef2c1db0d171f9d7cca289d7e7f895226536f026
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621380"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198295"
 ---
 # <a name="welcome-to-the-excel-software-development-kit"></a>Bienvenue dans le Kit de développement logiciel (SDK) Excel
 

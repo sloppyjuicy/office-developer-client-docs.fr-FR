@@ -10,13 +10,12 @@ keywords:
 - xlfunregister [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ae5188743e4aff9f187e0daff86fc9c78ec32a67
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1b96172d8d7e7428bea9cdd2d9f0f3fab5e54b50
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605559"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198575"
 ---
 # <a name="xlfunregister-form-2"></a>xlfUnregister (formulaire 2)
 
@@ -53,7 +52,7 @@ Si elle réussit, renvoie **TRUE** (**xltypeBool**). En cas d’échec, renvoie 
   
 ### <a name="remember-to-delete-names"></a>N’oubliez pas de supprimer des noms
 
-Si vous avez spécifié l’argument  _pxFunctionText_ à **xlfRegister,** lors de l’inscription des fonctions et commandes de la DLL, vous devez explicitement supprimer les noms en appelant **xlfSetName** pour chacun d’eux, en omettant le deuxième argument afin que la fonction n’apparaisse plus dans l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
+Si vous avez spécifié l’argument  _pxFunctionText_ à **xlfRegister**, lors de l’inscription des fonctions et commandes de la DLL, vous devez explicitement supprimer les noms en appelant **xlfSetName** pour chacun d’eux, en omettant le deuxième argument afin que la fonction n’apparaisse plus dans l’Assistant Fonction. Pour plus d’informations, reportez-vous à la rubrique [Problèmes connus concernant le développement de XLL Excel](known-issues-in-excel-xll-development.md).
   
 ## <a name="see-also"></a>Voir aussi
 

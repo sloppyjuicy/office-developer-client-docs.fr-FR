@@ -1,20 +1,19 @@
 ---
-title: Excel Copyright du SDK XLL
+title: Excel copyright du SDK XLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 92a242e6-c94c-4eef-a4b2-efd1b8f62de8
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 63e15f043613148a07e5470a2ea5d324d314b85c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 09c1adebbbfd5010e163ffed3358724db7313a6a
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572388"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198981"
 ---
-# <a name="excel-xll-sdk-copyright-notice"></a>Excel Copyright du SDK XLL
+# <a name="excel-xll-sdk-copyright-notice"></a>Excel copyright du SDK XLL
 
  **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   

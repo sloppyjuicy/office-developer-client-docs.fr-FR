@@ -7,14 +7,13 @@ ms.topic: overview
 keywords:
 - DLL [Excel 2007], création, création de DLL [Excel 2007]
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: 365095dfaf1528663a358f69ad632b990f9ea1ce
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0cbecb7c9137098afc3fea1776c6b526d0664a18
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605609"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198484"
 ---
 # <a name="developing-dlls"></a>Développement de DLL
 

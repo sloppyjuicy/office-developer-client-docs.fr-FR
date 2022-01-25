@@ -10,13 +10,12 @@ keywords:
 - fonction xlautoadd [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3a5dfb456ecf511bb79fbfda7688d7f3e63fd246
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: f212cf1dbffd864c94fa3c99a395352477bc3210
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179472"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198708"
 ---
 # <a name="xlautoadd"></a>xlAutoAdd
 

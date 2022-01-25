@@ -8,13 +8,12 @@ keywords:
 - framework library functions [excel 2007],functions [Excel 2007], Framework library
 ms.localizationpriority: medium
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e828a8a9f8724ac9012955f885238b2ca1b3dd3d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4c4d1ffd5d3a6db756aed7f18bc4d305c54e4981
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617215"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199002"
 ---
 # <a name="functions-in-the-framework-library"></a>Fonctions dans la bibliothèque d’infrastructure
 
@@ -22,7 +21,7 @@ ms.locfileid: "59617215"
   
 La bibliothèque Framework a été créée pour faciliter l’écriture de XL. Il inclut des fonctions simples pour la gestion de la mémoire **XLOPER** XLOPER12, la création temporaire de XLOPER XLOPER12 , l’appel robuste des fonctions de rappel /   Microsoft Excel  /  (**Excel4**, **Excel4v**, ** Excel12 **, ** Excel12v **) et l’impression de chaînes de débogage sur un terminal attaché.
   
-Les fonctions incluses dans cette bibliothèque facilitent la simplification d’un élément de code qui ressemble à ce qui suit.
+Les fonctions incluses dans cette bibliothèque simplifient un élément de code qui ressemble à ce qui suit.
   
 ```cs
 XLOPER12 xMissing, xBool;

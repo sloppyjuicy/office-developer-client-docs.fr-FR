@@ -11,13 +11,12 @@ keywords:
 - fonction tempnum12 [excel 2007],tempNum function [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 2aad64b2058456eb3e0908387091dcfbc11d284e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 30b29ef9733e1718708896d20b9876c1e0880d62
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605602"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198196"
 ---
 # <a name="tempnumtempnum12"></a>TempNum/TempNum12
 

@@ -8,19 +8,18 @@ keywords:
 - functions [excel 2007], add-in manager,functions [Excel 2007], XLL interface
 ms.localizationpriority: medium
 ms.assetid: e22d425a-75b2-412c-a07f-fb1915d08615
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 7329e30c272fa0abde4676935ba8915d67954f14
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3863fc76a19ba8da5dc75e34360da76724464092
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605679"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198883"
 ---
 # <a name="add-in-manager-and-xll-interface-functions"></a>Fonctions du Gestionnaire de modules et de l’interface XLL
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Cette section contient la documentation de référence pour les fonctions que Microsoft Excel et le Gestionnaire de modules de développement recherchent dans un XLL.
+Cette section contient la documentation de référence pour les fonctions que Microsoft Excel et le Gestionnaire de modules de recherche recherchent dans un XLL.
   
 ## <a name="in-this-section"></a>Dans cette section
 

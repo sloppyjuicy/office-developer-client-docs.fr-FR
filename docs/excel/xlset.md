@@ -10,13 +10,12 @@ keywords:
 - fonction xlset [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: a99d904c4aa9845146ffe2d05dff45859de3b434
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e81adee28f1686e52a1a4e38e07dd6c8bda29535
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576603"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198876"
 ---
 # <a name="xlset"></a>xlSet
 
@@ -42,9 +41,9 @@ Valeur ou valeur à placer dans la ou les cellules. Pour plus d’informations, 
 
 ### <a name="pxvalue-argument"></a>Argument pxValue
 
-_pxValue peut_ être une valeur ou un tableau. S’il s’agit d’une valeur, la plage de destination entière est remplie avec cette valeur. S’il s’agit d’un tableau (**xltypeMulti**), les éléments du tableau sont placés aux emplacements correspondants dans le rectangle.
+_pxValue peut_ être une valeur ou un tableau. S’il s’agit d’une valeur, toute la plage de destination est remplie avec cette valeur. S’il s’agit d’un tableau (**xltypeMulti**), les éléments du tableau sont placés aux emplacements correspondants dans le rectangle.
   
-Si vous utilisez un tableau horizontal pour le deuxième argument, il est dupliqué vers le bas pour remplir le rectangle entier. Si vous utilisez un tableau vertical, il est dupliqué à droite pour remplir le rectangle entier. Si vous utilisez un tableau rectangulaire et qu’il est trop petit pour la plage rectangulaire que vous souhaitez y placer, cette plage est ajoutée avec **#N/A.**
+Si vous utilisez un tableau horizontal pour le deuxième argument, il est dupliqué vers le bas pour remplir tout le rectangle. Si vous utilisez un tableau vertical, il est dupliqué à droite pour remplir le rectangle entier. Si vous utilisez un tableau rectangulaire et qu’il est trop petit pour la plage rectangulaire que vous souhaitez y placer, cette plage est ajoutée avec des **#N/A.**
   
 Si la plage cible est plus petite que le tableau source, les valeurs sont copiées dans les limites de la plage cible et les données supplémentaires sont ignorées.
   
@@ -56,7 +55,7 @@ Pour effacer un élément du rectangle de destination, utilisez un élément de 
   
 **XlSet peut** placer uniquement des constantes, et non des formules, dans les cellules. 
   
-**XlSet se** comporte comme une fonction équivalente à une commande de classe 3 ; autrement dit, elle est disponible uniquement à l’intérieur d’une DLL lorsque la DLL  est appelée à partir d’un  objet, d’une macro, d’un menu, d’une barre d’outils, d’une touche de raccourci ou du bouton Exécuter dans la boîte de dialogue **Macro** (accessible à partir de l’onglet Affichage du ruban à partir de Excel 2007 et du **menu** Outils dans les versions antérieures). 
+**xlSet se** comporte comme une fonction équivalente à une commande de classe 3 ; autrement dit, elle n’est disponible qu’à l’intérieur d’une DLL lorsque la DLL est appelée à partir d’un objet, d’une macro, d’un menu, d’une barre d’outils, d’une touche de raccourci ou du bouton Exécuter dans la boîte de dialogue **Macro** (accessible à partir de l’onglet Affichage du ruban à partir de Excel 2007 et du **menu** Outils dans les versions antérieures).   
   
 ## <a name="example"></a>Exemple
 

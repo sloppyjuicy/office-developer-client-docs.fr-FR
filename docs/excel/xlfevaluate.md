@@ -10,13 +10,12 @@ keywords:
 - fonction xlfevaluate [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 06526e4cf699cc24fd2cbc9d4cf54d6a018f9d99
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4749a83a2eedb88a7871ceb4c02dbd3f50029036
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557595"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198890"
 ---
 # <a name="xlfevaluate"></a>xlfEvaluate
 
@@ -40,7 +39,7 @@ Renvoie le résultat de l’évaluation de la chaîne qui peut être l’un des 
   
 ## <a name="remarks"></a>Remarques
 
-La chaîne peut contenir uniquement des fonctions, et non des équivalents de commande. Cela équivaut à appuyer sur **F9 à** partir de la barre de formule. Si **xlfEvaluate** est appelé à partir d’une fonction de feuille de calcul XLL inscrite comme thread-safe, l’expression doit uniquement contenir des fonctions thread-safe. 
+La chaîne peut contenir uniquement des fonctions, et non des équivalents de commande. Cela équivaut à appuyer sur **F9 à** partir de la barre de formule. Si **xlfEvaluate** est appelé à partir d’une fonction de feuille de calcul XLL inscrite comme thread-safe, l’expression ne doit contenir que des fonctions thread-safe. 
   
 L’utilisation principale de la fonction **xlfEvaluate** consiste à autoriser les DLL à rechercher la valeur affectée à un nom défini qui se trouve sur une feuille ou un nom masqué défini dans la DLL. Notez qu’au sein d’une DLL/XLL, un nom de feuille de calcul doit être précédé d’au moins un point d’exclamation (!) pour garantir qu’il est interprété comme externe à la DLL. Pour plus d’informations, voir [l’évaluation des noms et d’autres expressions de](evaluating-names-and-other-worksheet-formula-expressions.md)formule de feuille de calcul.
   
@@ -50,7 +49,7 @@ L’utilisation principale de la fonction **xlfEvaluate** consiste à autoriser 
 
 Cet exemple utilise **xlfEvaluate** pour forcer le texte « ! B38 " au contenu de la cellule B38. 
   
- `\SAMPLES\EXAMPLE\EXAMPLE.C`. Cette fonction appelle une macro de commande (**xlcAlert**) et ne fonctionne correctement qu’en cas d’appel à partir d’une feuille macro ou d’une commande de macro.
+ `\SAMPLES\EXAMPLE\EXAMPLE.C`. Cette fonction appelle une macro de commande (**xlcAlert**) et ne fonctionne correctement qu’en cas d’appel à partir d’une feuille macro ou d’une commande macro.
   
 ```cs
 short WINAPI EvaluateExample(void)

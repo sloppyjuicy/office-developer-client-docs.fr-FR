@@ -1,5 +1,5 @@
 ---
-title: Fonctions de rappel d’API C Excel4, Excel12
+title: Les fonctions de rappel de l'API C Excel4, Excel12
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,15 +8,14 @@ keywords:
 - functions [excel 2007], c api callback
 ms.localizationpriority: medium
 ms.assetid: 0f3ae86d-329a-4177-a65b-6288c248297e
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 3d309729453506b3a0e78520d7a0aab39ef8e192
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5b54504bf8cc1e22374a5180823fbfae188d100d
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564686"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62199288"
 ---
-# <a name="c-api-callback-functions-excel4-excel12"></a>Fonctions de rappel d’API C Excel4, Excel12
+# <a name="c-api-callback-functions-excel4-excel12"></a>Les fonctions de rappel de l'API C Excel4, Excel12
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
@@ -26,7 +25,7 @@ Les fonctions **Excel4** et **Excel12** sont fournies pour permettre aux DLL d�
     
 - Une forme de tableau d’arguments (**Excel4v/Excel12v**)
     
-À l’exception de la manière dont les arguments sont transmis à ces rappels, les deux formulaires sont équivalents sur le plan fonctionnel. Les concepts de base des deux formulaires sont entièrement décrits [dans Excel4/Excel12.](excel4-excel12.md) [Excel4v/Excel12v](excel4v-excel12v.md) traite d’autres problèmes concernant ce formulaire. 
+À l’exception de la manière dont les arguments sont transmis à ces rappels, les deux formulaires sont équivalents sur le plan fonctionnel. Les concepts de base des deux formulaires sont entièrement décrits [dans Excel4/Excel12.](excel4-excel12.md) [Excel4v/Excel12v traite](excel4v-excel12v.md) d’autres problèmes concernant ce formulaire. 
   
 ## <a name="in-this-section"></a>Dans cette section
 

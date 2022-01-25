@@ -10,13 +10,12 @@ keywords:
 - fonction xladdinmanagerinfo [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ebd7c4f8cd7e93ea9c3b838cc89d48ffdd60d503
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5cc8f1110285e89b88d8e392c7416b9a3e43985e
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572353"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198203"
 ---
 # <a name="xladdinmanagerinfoxladdinmanagerinfo12"></a>xlAddInManagerInfo/xlAddInManagerInfo12
 
@@ -43,13 +42,13 @@ Informations que Excel demande.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Si  _pxAction_ est ou peut être forcé, le numéro 1, votre implémentation de cette fonction doit renvoyer une chaîne contenant des informations sur le module complémentaire, généralement son nom et éventuellement un numéro de version. Sinon, elle doit renvoyer #VALUE!. 
+Si  _pxAction_ est, ou peut être forcé, le numéro 1, votre implémentation de cette fonction doit renvoyer une chaîne contenant des informations sur le module complémentaire, généralement son nom et éventuellement un numéro de version. Sinon, elle doit #VALUE!. 
   
 Si vous ne renvoyez pas de chaîne, Excel tente de convertir la valeur renvoyée en chaîne.
   
 ## <a name="remarks"></a>Remarques
 
-Si la chaîne renvoyée pointe vers une mémoire tampon allouée dynamiquement, vous devez vous assurer que ce tampon est finalement libéré. Si la chaîne a été allouée par Excel, vous le faites en paramètre **xlbitXLFree**. Si la chaîne a été allouée par la DLL, vous le faites en paramètre **xlbitDLLFree** et vous devez également implémenter dans [xlAutoFree](xlautofree-xlautofree12.md) (si vous renvoyez une **XLOPER**) ou **xlAutoFree12** (si vous renvoyez une **XLOPER12**).
+Si la chaîne renvoyée pointe vers une mémoire tampon allouée dynamiquement, vous devez vous assurer que ce tampon est finalement libéré. Si la chaîne a été allouée par Excel, vous le faites en paramètre **xlbitXLFree**. Si la chaîne a été allouée par la DLL, pour ce faire, vous devez définir **xlbitDLLFree** et vous devez également implémenter dans [xlAutoFree](xlautofree-xlautofree12.md) (si vous renvoyez une **XLOPER**) ou **xlAutoFree12** (si vous renvoyez une **XLOPER12**).
   
 ## <a name="example"></a>Exemple
 
