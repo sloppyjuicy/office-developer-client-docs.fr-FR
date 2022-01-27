@@ -5,16 +5,15 @@ ms.date: 01/22/2022
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- dialog boxes [excel 2007], invoking excel commands,DLLs [Excel 2007], calling into Excel,passing arguments to C API functions [Excel 2007],commands [Excel 2007], invoking with dialog boxes,commands [Excel 2007], accessible from DLL/XLL,Excel4 function [Excel 2007],Excel12 function [Excel 2007],XLCallVer function [Excel 2007],operRes argument [Excel 2007],functions [Excel 2007], accessible from DLL/XLL,Excel12v function [Excel 2007],DLL-only functions [Excel 2007],C API [Excel 2007], passing arguments,count argument [Excel 2007],commands [Excel 2007], calling in international versions,DLL-only commands [Excel 2007],international versions [Excel 2007], calling functions and commands,XLLs [Excel 2007], calling into Excel,Excel 4v function [Excel 2007],xlfn argument [Excel 2007],functions [Excel 2007], calling in international versions
+- boîtes de dialogue [excel 2007], invocation des commandes excel, DLL [Excel 2007], appel dans Excel, passage d'arguments aux fonctions de l'API C [Excel 2007], commandes [Excel 2007], invocation avec des boîtes de dialogue, des commandes [Excel 2007], accessible depuis DLL/XLL, fonction Excel4 [Excel 2007],fonction Excel12 [Excel  2007], fonction XLCallVer [Excel 2007], argument operRes [Excel 2007], fonctions [Excel 2007], accessible de DLL/XLL,Excel12v fonction [Excel 2007],seules fonctions DLL [Excel 2007],C API [Excel 2007], passer les arguments, compter les arguments [Excel 2007], commandes [Excel  2007], passer les arguments, compter les arguments [Excel 2007], versions internationales [Excel 2007], appeler des fonctions et des commandes, XLLs [Excel 2007], appel dans Excel, fonction 4v d'Excel [Excel 2007], argument xlfn [Excel 2007], fonctions [Excel  2007], appel dans les versions internationales
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
-description: 'S’applique à : Excel 2013 | Office 2013 | Visual Studio'
 ms.localizationpriority: high
-ms.openlocfilehash: cac045bb41c4cb6d726935434b2efd192da289bb
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 4f0fa6e3fb788eb86340a8dff92301b5ad0bf4d7
+ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180760"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198869"
 ---
 # <a name="calling-into-excel-from-the-dll-or-xll"></a>Appel dans Excel à partir du fichier DLL ou XLL
 
@@ -50,7 +49,7 @@ Pour que la DLL puisse appeler **Excel4**, **Excel4v**, **Excel12** ou **Excel12
 
 Vous ne pouvez pas appeler l’API C Excel dans les scénarios suivants :
   
-- � partir d�un �v�nement de systéme d�exploitation (par exemple, depuis la fonction [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain)).
+- � partir d�un �v�nement de systéme d�exploitation (par exemple, depuis la fonction [DllMain](/windows/win32/dlls/dllmain.md)).
 
 - À partir d’un thread en arrière-plan créé par votre DLL.
 
