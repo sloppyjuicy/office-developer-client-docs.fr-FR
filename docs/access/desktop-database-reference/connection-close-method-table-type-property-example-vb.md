@@ -7,12 +7,12 @@ ms:contentKeyID: 48547754
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5e9b558d5845ff37e8a25e74195ef3d5052c0a3e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8fff770bf31405d18221d82a34c13f03af3ab5e4
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573081"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462044"
 ---
 # <a name="connection-close-method-table-type-property-example-vb"></a>Connection Close, méthode – Exemple de propriété Table Type (VB)
 
@@ -63,7 +63,6 @@ L'affectation de la valeur [Nothing](activeconnection-property-adox.md) à la pr
     ' EndCloseConnectionVB 
 ```
 
-<br/>
 
 La fermeture d'un objet [Connection](connection-object-ado.md) utilisé pour « ouvrir » le catalogue équivaut normalement à attribuer la valeur **Nothing** à la propriété **ActiveConnection**.
 

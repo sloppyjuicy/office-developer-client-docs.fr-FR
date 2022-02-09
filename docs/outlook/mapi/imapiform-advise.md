@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 398644605e3ad1020ce594bc8d74593fdede6ad4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e6200f05e5abd5456d8402b61ca4d56b299438dd
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567598"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459318"
 ---
 # <a name="imapiformadvise"></a>IMAPIForm::Advise
 
@@ -60,13 +60,13 @@ Les visionneuses de formulaire appellent la méthode **IMAPIForm::Advise** d’u
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Conservez une copie du pointeur de l’avis de vue transmis dans le paramètre  _pAdvise_ afin de pouvoir l’utiliser pour appeler la méthode [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) appropriée lorsqu’un événement se produit. Appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de l’affichage pour conserver le pointeur jusqu’à l’annulation de l’inscription de la notification. Définissez le contenu du  _paramètreconnection sur_ un nombre autre que zéro. 
+Conservez une copie du pointeur de l’affichage conseillé transmis dans le paramètre _pAdvise_ afin de pouvoir l’utiliser pour appeler la méthode [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) appropriée lorsqu’un événement se produit. Appelez la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) de l’affichage pour conserver le pointeur jusqu’à l’annulation de l’inscription de la notification. Définissez le contenu du  _paramètreconnection sur_ un nombre autre que zéro. 
   
 De nombreux formulaires implémentent un objet d’aide pour gérer l’inscription et la notification ultérieure des événements. 
   
 Pour plus d’informations sur le processus de notification en général, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). 
   
-Pour plus d’informations sur les notifications et les [formulaires,](sending-and-receiving-form-notifications.md)voir Sending and Receiving Form Notifications .
+Pour plus d’informations sur les notifications et les [formulaires, voir Sending and Receiving Form Notifications](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>Voir aussi
 

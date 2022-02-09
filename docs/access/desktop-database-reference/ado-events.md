@@ -1,5 +1,5 @@
 ---
-title: ActiveX Événements Data Objects (ADO)
+title: ActiveX Data Objects (ADO)
 TOCTitle: ADO events
 ms:assetid: 84ca9525-99cb-4ba6-2a4d-172414b8f0cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)
@@ -7,18 +7,16 @@ ms:contentKeyID: 48546041
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 911ac9e1388f1027ea9f0eab1a817c8e8735c73d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9a5ee16f376df43cb126de010f104fd3336ac61a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553360"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461551"
 ---
 # <a name="ado-events"></a>Événements ADO
 
 **S’applique à** : Access 2013, Office 2013
-
-<br/>
 
 <table>
 <colgroup>
@@ -112,5 +110,3 @@ ms.locfileid: "59553360"
 </tr>
 </tbody>
 </table>
-
-<br/>

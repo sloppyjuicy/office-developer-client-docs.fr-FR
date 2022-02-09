@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bd7746f4-8070-4cc5-8b8e-c527c5847545
 description: Dernière modification le 1er février 2013
-ms.openlocfilehash: b1b6ebd5e7d1ad30e9cc0ef2ad4c706dac6788b5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4ef48009f95d7cca6e9f4a4500494e032b712aa5
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561571"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461932"
 ---
 # <a name="iaddrbookopenentry"></a>IAddrBook::OpenEntry
 
@@ -40,7 +40,7 @@ HRESULT OpenEntry(
 
 _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
 _lpEntryID_
   
@@ -48,7 +48,7 @@ _lpEntryID_
     
 _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) de l’interface à utiliser pour accéder à l’entrée ouverte. La transmission null renvoie l’interface standard de l’objet. Pour les utilisateurs de messagerie, l’interface standard [est IMailUser : IMAPIProp](imailuserimapiprop.md). Pour les listes de distribution, il s’agit de [IDistList : IMAPIContainer](idistlistimapicontainer.md) et pour les conteneurs, il s’agit de [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Les appelants peuvent définir  _lpInterface_ sur l’interface standard appropriée ou une interface dans la hiérarchie d’héritage. 
+> [in] Pointeur vers l’identificateur d’interface (IID) de l’interface à utiliser pour accéder à l’entrée ouverte. La transmission NULL renvoie l’interface standard de l’objet. Pour les utilisateurs de messagerie, l’interface standard [est IMailUser : IMAPIProp](imailuserimapiprop.md). Pour les listes de distribution, il s’agit [d’IDistList : IMAPIContainer](idistlistimapicontainer.md) et pour les conteneurs, il s’agit de [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md). Les appelants peuvent définir  _lpInterface_ sur l’interface standard appropriée ou une interface dans la hiérarchie d’héritage. 
     
 _ulFlags_
   
@@ -60,18 +60,18 @@ MAPI_BEST_ACCESS
     
 MAPI_CACHE_ONLY
   
-> Ouvre une entrée de carnet d’adresses et y accède uniquement à partir du cache. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur Exchange de carnet d’adresses.
+> Ouvre une entrée de carnet d’adresses et y accède uniquement à partir du cache. Par exemple, vous pouvez utiliser cet indicateur pour permettre à une application cliente d’ouvrir la liste d’adresses globale (LAL) en mode Exchange mis en cache et d’accéder à une entrée dans ce carnet d’adresses à partir du cache sans créer de trafic entre le client et le serveur. Cet indicateur est pris en charge uniquement par le fournisseur Exchange carnet d’adresses.
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet de réussir l’appel, éventuellement avant que l’entrée soit entièrement ouverte et disponible, ce qui implique que les appels ultérieurs à l’entrée peuvent renvoyer une erreur.
+> Permet de réussir l’appel, éventuellement avant que l’entrée soit entièrement ouverte et disponible, ce qui signifie que les appels ultérieurs à l’entrée peuvent renvoyer une erreur.
     
 MAPI_GAL_ONLY
   
 > Utilisez uniquement la LA GAL pour effectuer la résolution de noms. Cet indicateur est pris en charge uniquement par le Exchange de carnet d’adresses.
     
   > [!NOTE]
-  > Les  _MAPI_GAL_ONLY ulFlags_ peuvent ne pas être définies dans le fichier d’en-tête téléchargeable dont vous disposez actuellement, auquel cas vous pouvez l’ajouter à votre code à l’aide de la valeur suivante : >  `#define MAPI_GAL_ONLY (0x00000080)`
+  > Les  _MAPI_GAL_ONLY ulFlags_ peuvent ne pas être définis dans le fichier d’en-tête téléchargeable dont vous disposez actuellement, auquel cas vous pouvez l’ajouter à votre code à l’aide de la valeur suivante : >  `#define MAPI_GAL_ONLY (0x00000080)`
   
 MAPI_MODIFY 
   
@@ -109,9 +109,9 @@ MAPI_E_UNKNOWN_ENTRYID
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent **la méthode IAddrBook::OpenEntry** pour ouvrir une entrée de carnet d’adresses. MAPI forwards the call to the appropriate address book provider, based on the [MAPIUID](mapiuid.md) structure included in the entry identifier passed in the  _lpEntryID_ parameter. Le fournisseur de carnet d’adresses ouvre l’entrée en lecture seule, sauf si l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le paramètre  _ulFlags_ est définie. Toutefois, ces indicateurs sont des suggestions. Si le fournisseur de carnet d’adresses n’autorise pas la modification de l’entrée demandée, il renvoie MAPI_E_NO_ACCESS. 
+Les clients et les fournisseurs de services appellent **la méthode IAddrBook::OpenEntry** pour ouvrir une entrée de carnet d’adresses. MAPI forwards the call to the appropriate address book provider, based on the [MAPIUID](mapiuid.md) structure included in the entry identifier passed in the _lpEntryID_ parameter. Le fournisseur de carnet d’adresses ouvre l’entrée en lecture seule, sauf si l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le paramètre _ulFlags_ est définie. Toutefois, ces indicateurs sont des suggestions. Si le fournisseur de carnet d’adresses n’autorise pas la modification de l’entrée demandée, il renvoie MAPI_E_NO_ACCESS. 
   
-Le  _paramètre lpInterface_ indique l’interface à utiliser pour accéder à l’entrée ouverte. La transmission null dans  _lpInterface_ indique que l’interface MAPI standard pour ce type d’entrée doit être utilisée. Étant donné que le fournisseur de carnet d’adresses peut renvoyer une interface différente de celle suggérée par le paramètre  _lpInterface,_ l’appelant doit vérifier la valeur renvoyée dans le paramètre  _lpulObjType_ pour déterminer si le type d’objet renvoyé est ce qui était attendu. Si le type d’objet n’est pas du type attendu, l’appelant peut caster le paramètre  _lppUnk_ vers un type plus approprié. 
+Le  _paramètre lpInterface_ indique l’interface à utiliser pour accéder à l’entrée ouverte. La transmission null dans  _lpInterface_ indique que l’interface MAPI standard pour ce type d’entrée doit être utilisée. Étant donné que le fournisseur de carnet d’adresses peut renvoyer une interface différente de celle suggérée par le paramètre  _lpInterface_ , l’appelant doit vérifier la valeur renvoyée dans le paramètre _lpulObjType_ pour déterminer si le type d’objet renvoyé est ce qui était attendu. Si le type d’objet n’est pas du type attendu, l’appelant peut caster le paramètre  _lppUnk_ vers un type plus approprié. 
   
 ## <a name="see-also"></a>Voir aussi
 

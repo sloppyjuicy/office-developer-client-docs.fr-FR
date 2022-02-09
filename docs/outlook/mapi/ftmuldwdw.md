@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ed3ad2249ccc9246febfed74217ae75b8f2daa47
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 597f1d8fbcbd32f85b382ba575f17150796a88d7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610922"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461138"
 ---
 # <a name="ftmuldwdw"></a>FtMulDwDw
 
@@ -44,7 +44,7 @@ FILETIME FtMulDwDw(
 
  _Multiplicand_
   
-> [in] Mot double qui contient l’integer 32 bits non signé  à multiplier par la valeur du paramètre Multiplicateur. 
+> [in] Mot double qui contient l’integer 32 bits non signé à multiplier par la valeur du paramètre _Multiplicateur_ . 
     
  _Multiplicateur_
   

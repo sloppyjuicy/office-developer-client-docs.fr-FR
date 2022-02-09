@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5d52907f93ee6c33884df41a67fad15fc2133902
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c00fe1d77d7f85b5481da5c178cff3613513dcab
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596231"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462693"
 ---
 # <a name="imapiformmgrisinconflict"></a>IMAPIFormMgr::IsInConflict
 
@@ -65,7 +65,7 @@ S_FALSE
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::IsInConflict** pour découvrir si un formulaire particulier ne gère pas ses propres conflits de messages. **IsInConflict** vérifie la présence d’un indicateur de conflit dans les paramètres _ulMessageFlags_ et _ulMessageStatus._ Si un indicateur de conflit est définie, **IsInConflict** résout la classe de message transmise dans le paramètre  _szMessageClass_ et renvoie S_OK si le formulaire ne gère pas ses propres conflits. **IsInConflict** renvoie S_FALSE si le formulaire gère ses propres conflits. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::IsInConflict** pour découvrir si un formulaire particulier ne gère pas ses propres conflits de messages. **IsInConflict** vérifie la présence d’un indicateur de conflit dans les paramètres _ulMessageFlags_ et  _ulMessageStatus_ . Si un indicateur de conflit est définie, **IsInConflict** résout la classe de message transmise dans le paramètre _szMessageClass_ et renvoie S_OK si le formulaire ne gère pas ses propres conflits. **IsInConflict** renvoie S_FALSE si le formulaire gère ses propres conflits. 
   
 Un formulaire qui ne gère pas ses propres conflits doit être ouvert à l’aide de la méthode [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) et ne peut pas réutiliser un objet de formulaire existant. 
   

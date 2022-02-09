@@ -7,12 +7,12 @@ ms:contentKeyID: 48545921
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: fd67532c35f0efc8a967c0e3bbfa95158562628b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 99110c65cbe459be83c04c15c9800cb1b034b5e6
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618363"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462784"
 ---
 # <a name="connectoptionenum"></a>ConnectOptionEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59618363"
 
 Indique si la méthode [Open](open-method-ado-connection.md) d’un objet [Connection](connection-object-ado.md) doit être exécutée après (de façon synchrone) ou avant (de façon asynchrone) l’établissement de la connexion.
 
-<br/>
 
 <table>
 <colgroup>
@@ -38,7 +37,7 @@ Indique si la méthode [Open](open-method-ado-connection.md) d’un objet [Conne
 <tbody>
 <tr class="odd">
 <td><p><strong>adAsyncConnect</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Ouvre la connexion de manière asynchrone. L’événement <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> peut être utilisé pour déterminer quand la connexion sera disponible.</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +59,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

@@ -7,12 +7,12 @@ ms:contentKeyID: 48547438
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c2cdd7628e2c5116f92d63c5aae008a19577fec1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 900c5469b67d6ba81b973b46b217e251c3a5884a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612175"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462395"
 ---
 # <a name="executeoptionenum"></a>ExecuteOptionEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59612175"
 
 Spécifie la manière dont un fournisseur doit exécuter une commande.
 
-<br/>
 
 <table>
 <colgroup>
@@ -55,12 +54,12 @@ Spécifie la manière dont un fournisseur doit exécuter une commande.
 <tr class="even">
 <td><p><strong>adExecuteNoRecords</strong></p></td>
 <td><p>0x80</p></td>
-<td><p>Indique que le texte de la commande est une commande ou une procédure stockée qui ne renvoie pas de lignes (par exemple, une commande qui ne fait qu'insérer des données). Si des lignes sont extraites, elles sont ignorées et non renvoyées. <strong>adExecuteNoRecords peut</strong> uniquement être transmis en tant que paramètre facultatif à la <strong>méthode Command</strong> ou <strong>Connection</strong> <strong>Execute.</strong></p></td>
+<td><p>Indique que le texte de la commande est une commande ou une procédure stockée qui ne renvoie pas de lignes (par exemple, une commande qui ne fait qu'insérer des données). Si des lignes sont extraites, elles sont ignorées et non renvoyées. <strong>adExecuteNoRecords peut</strong> uniquement être transmis en tant que paramètre facultatif à la <strong>méthode Command</strong> ou <strong>Connection</strong> <strong>Execute</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adExecuteStream</strong></p></td>
 <td><p>0x400</p></td>
-<td><p>Indique que le résultat de l'exécution d'une commande doit être renvoyé sous forme de chaîne. <strong>adExecuteStream</strong> peut uniquement être transmis en tant que paramètre facultatif à la <strong>méthode Command</strong> <strong>Execute.</strong></p></td>
+<td><p>Indique que le résultat de l'exécution d'une commande doit être renvoyé sous forme de chaîne. <strong>adExecuteStream</strong> peut uniquement être transmis en tant que paramètre facultatif à la <strong>méthode Command</strong> <strong>Execute</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adExecuteRecord</strong></p></td>
@@ -87,7 +86,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

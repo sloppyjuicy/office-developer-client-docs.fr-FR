@@ -7,12 +7,12 @@ ms:contentKeyID: 48543601
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 24b440d9303a45c3b53237529f709e48ffa73910
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 426284065296e27a820a6f9d932494e16598e6de
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605875"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461383"
 ---
 # <a name="status-property-example-field-vb"></a>Status, propriété – Exemple (objet Field) (VB)
 
@@ -76,7 +76,6 @@ L'exemple suivant ouvre un document provenant d'un dossier accessible en lecture
     'EndStatusFieldVB
 ```
 
-<br/>
 
 L'exemple suivant supprime un objet **Field** connu du **Record** ouvert à partir d'un document. La propriété **Status** a tout d'abord la valeur **adFieldOK**, puis **adFieldPendingUnknown**.
 
@@ -130,7 +129,6 @@ L'exemple suivant supprime un objet **Field** connu du **Record** ouvert à part
     'EndStatusField2VB
 ```
 
-<br/>
 
 Le code suivant supprime un objet **Field** d'un **Record** ouvert à partir d'un document en lecture seule. La propriété **Status** a tout d'abord la valeur **adFieldPendingDelete**. Au moment de la [mise à jour](update-method-ado.md), la suppression échoue et la propriété **Status** prend les valeurs **adFieldPendingDelete** et **adFieldPermissionDenied**. [CancelUpdate](cancelupdate-method-ado.md) efface le paramètre **Status** actuel.
 

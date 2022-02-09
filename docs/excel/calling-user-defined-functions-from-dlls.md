@@ -8,18 +8,18 @@ keywords:
 - udfs [excel 2007], calling from dlls,user-defined functions [Excel 2007], calling from DLLs,DLLs [Excel 2007], calling UDFs
 ms.localizationpriority: medium
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
-ms.openlocfilehash: aef107d27d14fbdb4159aa932adf5443e77e09ff
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 31b131d3ab40d28d3bf5ed194cfdf2be3ddfaafd
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198421"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461516"
 ---
 # <a name="calling-user-defined-functions-from-dlls"></a>Appel des fonctions définies par l’utilisateur à partir de fichiers DLL
 
 **S’applique à**: Excel 2013 | Office 2013 | Visual Studio 
   
-Appeler des fonctions définies par l’utilisateur à partir d’une feuille de calcul est aussi simple qu’appeler des fonctions intégrées : vous entrez la fonction via une formule de cellule. Toutefois, à partir de l’API C, il n’existe pas de codes de fonction prédéfin définis à utiliser avec les call-backs. Pour vous permettre d’appeler des fonctions UDF, l’API C exporte une fonction XLL uniquement, la [fonction xlUDF.](xludf.md) Le premier argument de la fonction est le nom de la fonction en tant que chaîne, et les arguments suivants sont ceux que l’UDF attend normalement. 
+Appeler des fonctions définies par l’utilisateur à partir d’une feuille de calcul est aussi simple qu’appeler des fonctions intégrées : vous entrez la fonction via une formule de cellule. Toutefois, à partir de l’API C, il n’existe pas de codes de fonction prédéfin définis à utiliser avec les call-backs. Pour vous permettre d’appeler des fonctions UDF, l’API C exporte une fonction XLL uniquement, la [fonction xlUDF ](xludf.md) . Le premier argument de la fonction est le nom de la fonction en tant que chaîne, et les arguments suivants sont ceux que l’UDF attend normalement. 
   
 Vous pouvez obtenir la liste des commandes et fonctions de la XLL actuellement inscrites à l’aide de la fonction **xlfGetWorkspace** avec l’argument 44. Cela renvoie un tableau de trois colonnes où les colonnes représentent les points suivants : 
   
@@ -36,7 +36,7 @@ Vous pouvez obtenir la liste des commandes et fonctions de la XLL actuellement i
   
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre la **fonction xlUDF** utilisée pour appeler la fonction **ATP PRICE** lorsque la version d’exécution de Excel est 2003 ou une version antérieure. Pour plus d’informations sur la définition d’une variable de version globale, telle que **gExcelVersion12plus** dans cet exemple, voir [Compatibilité ascendante.](backward-compatibility.md)
+L’exemple suivant illustre la **fonction xlUDF** utilisée pour appeler la fonction **ATP PRICE** lorsque la version d’exécution de Excel est 2003 ou une version antérieure. Pour plus d’informations sur la définition d’une variable de version globale, telle que **gExcelVersion12plus** dans cet exemple, voir [Compatibilité ascendante](backward-compatibility.md).
   
 > [!NOTE]
 > Cet exemple utilise les fonctions **Framework TempNum**, **TempStrConst** pour configurer les arguments et Excel l’API C. 
@@ -83,7 +83,6 @@ double call_ATP_example(void)
 }
 ```
 
-<br/>
 
 Lorsque vous appelez une fonction XLL qui renvoie une valeur en modifiant un argument en place, la fonction **xlUDF** renvoie toujours la valeur via l’adresse du résultat **XLOPER/XLOPER12**. En d’autres termes, le résultat est renvoyé comme s’il s’agit d’une instruction de retour normale. La **xlOPER/XLOPER12** qui correspond à l’argument utilisé pour la valeur de retour n’est pasmodifiée. Par exemple, prenons les deux UDF suivantes. 
   
@@ -108,9 +107,9 @@ LPXLOPER12 WINAPI UDF_2(LPXLOPER12 pxArg)
 }
 ```
 
-Lorsque **UDF \_ 2** appelle **UDF \_ 1,** la valeur de **pxArg** reste inchangée après l’appel à **Excel12** et la valeur renvoyée par **UDF_1** est contenue dans **xRetVal**.
+Lorsque **UDF2\_** appelle **UDF1\_**, la valeur de **pxArg** reste inchangée après l’appel à **Excel12** et la valeur renvoyée par **UDF_1** est contenue dans **xRetVal**.
   
-Lorsque vous faites un grand nombre d’appels à une fonction UDF de cette façon, vous pouvez d’abord évaluer le nom de la fonction à l’aide de la fonction [xlfEvaluate](xlfevaluate.md). Le nombre résultant, qui est identique à l’ID d’inscription renvoyé par la fonction **xlfRegister,** peut être passé à la place du nom de la fonction comme premier argument de la fonction **xlUDF.** Cela permet Excel rechercher et appeler la fonction plus rapidement que si elle doit rechercher le nom de la fonction à chaque fois. 
+Lorsque vous faites un grand nombre d’appels à une fonction UDF de cette façon, vous pouvez d’abord évaluer le nom de la fonction à l’aide de la fonction [xlfEvaluate](xlfevaluate.md). Le nombre résultant, qui est identique à l’ID d’inscription renvoyé par la fonction **xlfRegister** , peut être passé à la place du nom de la fonction comme premier argument de la fonction **xlUDF** . Cela permet Excel rechercher et appeler la fonction plus rapidement que si elle doit rechercher le nom de la fonction à chaque fois. 
   
 ## <a name="see-also"></a>Voir aussi
 

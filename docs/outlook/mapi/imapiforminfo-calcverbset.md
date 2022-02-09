@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9c7ecf9ae44cb19c6040b713fe77cfb6cf44a066
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ebba3bbf377047d5fcc349d16827b7b00b54842b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551288"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461460"
 ---
 # <a name="imapiforminfocalcverbset"></a>IMAPIFormInfo::CalcVerbSet
 
@@ -60,7 +60,7 @@ MAPI_E_BAD_CHARWIDTH
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes appellent la méthode **IMAPIFormInfo::CalcVerbSet** pour obtenir un pointeur vers l’ensemble de verbes utilisés par un formulaire. Dans la structure **SMAPIVerbArray** renvoyée dans le paramètre _ppMAPIVerbArray,_ les verbes sont renvoyés par ordre de numéro d’index ; L’index de chaque verbe se trouve dans son **membre lVerb.** Les applications clientes peuvent utiliser le tableau de verbes pour créer dynamiquement des menus, masquer ou afficher des boutons, etc. 
+Les applications clientes appellent **la méthode IMAPIFormInfo::CalcVerbSet** pour obtenir un pointeur vers l’ensemble de verbes utilisés par un formulaire. Dans la structure **SMAPIVerbArray** renvoyée dans le paramètre _ppMAPIVerbArray_ , les verbes sont renvoyés par ordre de numéro d’index ; L’index de chaque verbe se trouve dans son **membre lVerb** . Les applications clientes peuvent utiliser le tableau de verbes pour créer dynamiquement des menus, masquer ou afficher des boutons, etc. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

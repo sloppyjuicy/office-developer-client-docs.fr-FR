@@ -7,12 +7,12 @@ ms:contentKeyID: 48545176
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 83bd5b5b7d98715133f02c560e3501a8ade50706
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e95187c42c2df37ebf518e80899df31e65cc9b4d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569110"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461467"
 ---
 # <a name="delete-method-example-vc"></a>Delete, méthode – Exemple (VC++)
 
@@ -292,7 +292,6 @@ void PrintComError(_com_error &e)
 // EndDeleteCpp 
 ```
 
-<br/>
 
 **DeleteX.h**
 

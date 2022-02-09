@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a61d77c98766acf57bdb24865624023e0145557
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a7b237821c2e989e9ef2b9bfdee4668c2d583827
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59629444"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462805"
 ---
 # <a name="wizardentry"></a>WIZARDENTRY
 
@@ -51,11 +51,11 @@ ULONG WIZARDENTRY(
     
  _lpcsResourceName_
   
-> [out] Pointeur vers une chaîne qui contient le nom complet de la ressource de boîte de dialogue qui doit être affichée par l’Assistant Profil lors de la configuration. La taille maximale de la chaîne, y compris le terminateur NULL, est de 32 caractères. 
+> [out] Pointeur vers une chaîne qui contient le nom complet de la ressource de boîte de dialogue qui doit être affichée par l’Assistant Profil pendant la configuration. La taille maximale de la chaîne, y compris le terminateur NULL, est de 32 caractères. 
     
  _lppDlgProc_
   
-> [out] Pointeur vers une procédure Windows boîte de dialogue standard qui sera appelée par l’Assistant Profil pour informer le fournisseur de divers événements. 
+> [out] Pointeur vers une procédure Windows boîte de dialogue standard qui sera appelée par l’Assistant Profil pour notifier le fournisseur de divers événements. 
     
  _lpMAPIProp_
   
@@ -85,8 +85,8 @@ Le nom de la **fonction WIZARDENTRY** doit être placé dans l’entrée WIZARD_
   
 Le nom de la ressource est celui de la ressource de boîte de dialogue qui sera rendue dans le volet de l’Assistant Profil. La ressource qui est passée en arrière doit contenir toutes les pages dans une seule ressource de boîte de dialogue. Lorsque l’Assistant Profil reçoit cette ressource, il ignore le style de la boîte de dialogue, mais pas les styles de contrôle, et crée tous les contrôles en tant qu’enfants de la page Assistant Profil. Tous les contrôles sont initialement masqués. Les fournisseurs doivent s’assurer que les coordonnées de leurs contrôles sont de base zéro ou zéro, et qu’ils ne dépassent pas une largeur maximale de 200 unités de boîte de dialogue et une hauteur maximale de 150 unités de boîte de dialogue. Les identificateurs de contrôle inférieurs à 400 sont réservés à l’Assistant Profil. L’Assistant Profil affiche le titre du fournisseur en gras au-dessus de l’interface utilisateur du fournisseur. 
   
-Le pointeur d’interface de propriétés fourni dans le paramètre  _lpMAPIProp_ doit être conservé par le fournisseur pour référence ultérieure. L’Assistant Profil traite uniquement de l’ensemble de propriétés le plus élémentaire, et le fournisseur peut utiliser l’implémentation de l’interface de propriétés pour inclure des propriétés supplémentaires. Pendant la configuration, les fournisseurs doivent ajouter leurs propriétés de configuration à l’objet qui implémente l’interface de propriétés. Une fois tous les fournisseurs configurés, l’Assistant Profil ajoute ces propriétés au profil. 
+Le pointeur d’interface de propriétés fourni dans le paramètre _lpMAPIProp_ doit être conservé par le fournisseur pour référence ultérieure. L’Assistant Profil traite uniquement de l’ensemble de propriétés le plus élémentaire, et le fournisseur peut utiliser l’implémentation de l’interface de propriétés pour inclure des propriétés supplémentaires. Pendant la configuration, les fournisseurs doivent ajouter leurs propriétés de configuration à l’objet qui implémente l’interface de propriétés. Une fois tous les fournisseurs configurés, l’Assistant Profil ajoute ces propriétés au profil. 
   
-Pour plus d’informations sur l’utilisation de cette fonction, voir [Prise en charge de la configuration du service de message.](supporting-message-service-configuration.md) 
+Pour plus d’informations sur l’utilisation de cette fonction, voir [Supporting Message Service Configuration](supporting-message-service-configuration.md). 
   
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 589cb1260c5986b8a93da4bfc4dae4624ac3f018
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 82d2d52ef2685d520af7996e685d6e894e1e0099
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556705"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462367"
 ---
 # <a name="formprintsetup"></a>FORMPRINTSETUP
 
@@ -71,11 +71,11 @@ MAPI_UNICODE
     
 ## <a name="remarks"></a>Remarques
 
-La structure **FORMPRINTSETUP** est utilisée pour décrire les informations de configuration d’impression d’un objet de formulaire. Les implémentations de [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md) remplissent la structure **FORMPRINTSETUP** et la retournent dans le contenu du paramètre de sortie  _lppFormPrintSetup_ de **GetPrintSetup**.
+La structure **FORMPRINTSETUP** est utilisée pour décrire les informations de configuration d’impression d’un objet de formulaire. Les implémentations de [IMAPIViewContext::GetPrintSetup](imapiviewcontext-getprintsetup.md) remplissent la structure **FORMPRINTSETUP** et la retournent dans le contenu du paramètre  _de sortie lppFormPrintSetup_ de **GetPrintSetup**.
   
-Si l’indicateur MAPI_UNICODE est transmis dans le paramètre  _ulFlags_ de **GetPrintSetup**, les chaînes référencés par les membres **hDevmode** et **hDevnames** doivent être au format Unicode. Dans le cas contraire, les chaînes doivent être au format ANSI. 
+Si l’indicateur MAPI_UNICODE est transmis dans le paramètre _ulFlags_ de **GetPrintSetup**, les chaînes référencés par les membres **hDevmode** et **hDevnames** doivent être au format Unicode. Dans le cas contraire, les chaînes doivent être au format ANSI. 
   
-Les visionneuses de formulaires implémentant **IMAPIViewContext** doivent allouer la structure **FORMPRINTSETUP** à l’aide de la fonction d’allocation [MAPIAllocateBuffer,](mapiallocatebuffer.md)mais allouer les membres individuels, **hDevMode** et **hDevNames,** avec la fonction Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). La libération de mémoire est gérée de la même manière. Les membres **hDevMode** et **hDevNames** doivent être libérés à l’aide de la fonction Windows [GlobalFree,](https://go.microsoft.com/fwlink/?LinkId=132108) tandis que la structure **FORMPRINTSETUP** doit être libérée avec la fonction [MAPIFreeBuffer.](mapifreebuffer.md) 
+Les visionneuses de formulaires implémentant **IMAPIViewContext** doivent allouer la structure **FORMPRINTSETUP** à l’aide de la fonction [d’allocation MAPIAllocateBuffer](mapiallocatebuffer.md), mais allouer les membres individuels, **hDevMode** et **hDevNames**, avec la fonction Windows [GlobalAlloc](https://go.microsoft.com/fwlink/?LinkId=132110). La libération de mémoire est gérée de la même manière. Les membres **hDevMode** et **hDevNames** doivent être libérés à l’aide de la fonction Windows [GlobalFree](https://go.microsoft.com/fwlink/?LinkId=132108), tandis que la structure **FORMPRINTSETUP** doit être libérée avec la fonction [MAPIFreeBuffer](mapifreebuffer.md). 
   
 ## <a name="see-also"></a>Voir aussi
 

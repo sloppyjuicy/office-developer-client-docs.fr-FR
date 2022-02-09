@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 7194b383f5275daf5501f31833ec0a3f68fa58bd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e85d058d2a5ee92c3934a6c8fd840c1e923fffc6
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621730"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462374"
 ---
 # <a name="transform-statement-microsoft-access-sql"></a>TRANSFORM, instruction (Microsoft Access SQL)
 
@@ -107,7 +107,6 @@ Cet exemple utilise la clause SQL transformer pour créer une requête analyse c
     End Sub
 ```
 
-<br/>
 
 Cet exemple utilise la clause SQL transformer pour créer une requête analyse croisée légèrement plus complexe montrant le montant en euros total des commandes prises par chaque employé pour chaque trimestre calendrier 1994. La fonction SQLTRANSFORMOutput est requise pour exécuter cette procédure.
 

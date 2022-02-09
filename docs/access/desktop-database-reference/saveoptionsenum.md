@@ -7,12 +7,12 @@ ms:contentKeyID: 48543906
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 84a2be1107a0180b2c730bf1cb0c9274535c0635
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e25702f816e198747a9d6d73dc3cc57dd0a9fa83
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589161"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459108"
 ---
 # <a name="saveoptionsenum"></a>SaveOptionsEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59589161"
 
 Spécifie si un fichier doit être créé ou remplacé en cas de sauvegarde d'un objet [Stream](stream-object-ado.md). Les valeurs peuvent être combinées avec un opérateur AND.
 
-<br/>
 
 <table>
 <colgroup>

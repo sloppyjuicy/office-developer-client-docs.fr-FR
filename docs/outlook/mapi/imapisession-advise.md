@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 617ff6a5486709691bc5b0283cb01825739e14cd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3a095b6f2cbc0b8f926c010c7397aad35d9eb1e0
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592450"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462637"
 ---
 # <a name="imapisessionadvise"></a>IMAPISession::Advise
 
@@ -41,7 +41,7 @@ HRESULT Advise(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -49,7 +49,7 @@ HRESULT Advise(
     
  _ulEventMask_
   
-> [in] Masque de valeurs qui indiquent les types d’événements de notification qui intéressent le client et doivent être inclus dans l’inscription. Si  _lpEntryID_ est NULL, MAPI inscrit automatiquement le client pour les événements d’erreur critiques qui affectent uniquement la session. Lorsque  _lpEntryID_ pointe vers un identificateur d’entrée, les valeurs suivantes sont valides pour le  _paramètre ulEventMask_ : 
+> [in] Masque de valeurs qui indiquent les types d’événements de notification qui intéressent le client et qui doivent être inclus dans l’inscription. Si  _lpEntryID_ est NULL, MAPI inscrit automatiquement le client pour les événements d’erreur critiques qui affectent uniquement la session. Lorsque  _lpEntryID_ pointe vers un identificateur d’entrée, les valeurs suivantes sont valides pour le  _paramètre ulEventMask_ : 
     
 fnevCriticalError 
   
@@ -93,7 +93,7 @@ fnevSearchComplete
     
  _lpulConnection_
   
-> [out] Pointeur vers un numéro autre que zéro qui représente la connexion entre l’objet de l’objet de conseil de l’appelant et la session.
+> [out] Pointeur vers un numéro autre que zéro qui représente la connexion entre l’objet de l’objet de conseiller de l’appelant et la session.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -107,15 +107,15 @@ MAPI_E_INVALID_ENTRYID
     
 MAPI_E_NO_SUPPORT 
   
-> Le fournisseur de services responsable de l’identificateur d’entrée pointé par  _lpEntryID_ ne prend pas en charge le type d’événements spécifié dans le paramètre  _ulEventMask_ ou ne prend pas en charge la notification. 
+> Le fournisseur de services responsable de l’identificateur d’entrée pointé par  _lpEntryID_ ne prend pas en charge le type d’événements spécifié dans le paramètre _ulEventMask_ ou ne prend pas en charge la notification. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur d’entrée pointé  _par lpEntryID_ ne peut être géré par aucun des fournisseurs de services dans le profil. 
+> L’identificateur d’entrée pointé par  _lpEntryID_ ne peut être géré par aucun des fournisseurs de services dans le profil. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::Advise** établit une connexion entre l’objet de l’appelant qui le conseille, la session et éventuellement un fournisseur de services. Cette connexion est utilisée pour envoyer des notifications au réception de notification lorsqu’un ou plusieurs événements spécifiés dans le paramètre  _ulEventMask_ se produisent à l’objet pointé par  _lpEntryID_. Lorsque  _lpEntryID_ est NULL, l’objet cible est la session et les notifications sont envoyées uniquement pour les erreurs critiques et les événements étendus. 
+La **méthode IMAPISession::Advise** établit une connexion entre l’objet de l’objet de conseiller de l’appelant, la session et éventuellement un fournisseur de services. Cette connexion est utilisée pour envoyer des notifications au réception de notification lorsqu’un ou plusieurs événements spécifiés dans le paramètre _ulEventMask_ se produisent à l’objet pointé par  _lpEntryID_. Lorsque  _lpEntryID_ est NULL, l’objet cible est la session et les notifications sont envoyées uniquement pour les erreurs critiques et les événements étendus. 
   
 Lorsque  _lpEntryID_ pointe vers un identificateur d’entrée valide, MAPI appelle la méthode **Advise** de l’objet d’inscription qui appartient au fournisseur de services responsable. Par exemple, si  _lpEntryID_ pointe vers l’identificateur d’entrée d’une liste de distribution, MAPI appelle la méthode [IABLogon::Advise](iablogon-advise.md) du fournisseur de carnet d’adresses approprié. 
   
@@ -123,7 +123,7 @@ Pour envoyer une notification, le fournisseur de services ou MAPI appelle la mé
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Sur les systèmes qui supportent plusieurs threads d’exécution, l’appel à **OnNotify** peut également se produire sur n’importe quel thread à tout moment. Si vous avez besoin d’assurance que les notifications ne se produisent qu’à un moment particulier sur un thread particulier, appelez la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour générer l’objet de réception de notification que vous passez à la méthode **Advise.** 
+Sur les systèmes qui prendre en charge plusieurs threads d’exécution, l’appel à **OnNotify** peut également se produire sur n’importe quel thread à tout moment. Si vous avez besoin d’assurance que les notifications ne se produisent qu’à un moment particulier sur un thread particulier, appelez la fonction [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) pour générer l’objet de réception de notification que vous passez à la méthode **Advise** . 
   
 Pour déterminer quand un client s’est déconnecté, inscrivez-vous aux notifications dans votre fournisseur de services en appelant **Advise** avec  _lpEntryID_ sur NULL et  _cbEntryID_ sur 0. Lorsque la logoff se produit, vous recevez une notification fnevExtended. 
   
@@ -131,7 +131,7 @@ Une fois qu’un appel à **Advise** a réussi et avant que [IMAPISession::Unadv
   
 Pour une vue d’ensemble du processus de notification, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). 
   
-Pour plus d’informations sur la gestion des notifications, voir [Gestion des notifications.](handling-notifications.md) 
+Pour plus d’informations sur la gestion des notifications, voir [Handling Notifications](handling-notifications.md). 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

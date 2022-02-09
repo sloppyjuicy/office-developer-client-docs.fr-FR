@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 84e34f22338e97e88b67e0bffae07cc011276f6b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9d91c3cb21da3515ea113f1633d9a6c32b727cb4
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593270"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462135"
 ---
 # <a name="workspacedefaultcursordriver-property-dao"></a>Propriété Workspace.DefaultCursorDriver (DAO)
 
@@ -93,7 +93,6 @@ L'exemple ci-dessous utilise la méthode **NextRecordset** pour afficher les don
     End Sub 
 ```
 
-<br/>
 
 Pour effectuer cette tâche, il est également possible de créer une instruction préparée qui contient l'instruction SQL composée. La propriété **CacheSize** de l'objet **QueryDef** doit être définie sur la valeur 1 et l'objet **Recordset** doit être de type avant uniquement et en lecture seule.
 
@@ -159,7 +158,6 @@ End Sub
  
 ```
 
-<br/>
 
 L'exemple ci-dessous fait appel aux propriétés **RecordStatus** et **DefaultCursorDriver** pour indiquer comment le suivi des modifications apportées à un objet **Recordset** local est effectué lors d'une mise à jour par lot. La fonction RecordStatusOutput est requise pour pouvoir exécuter cette procédure.
 

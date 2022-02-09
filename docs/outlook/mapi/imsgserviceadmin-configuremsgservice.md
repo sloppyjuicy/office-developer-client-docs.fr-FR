@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a08f5905-2585-49ca-abb7-a77f2736f604
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 891b2f91042ba920f309ec3f9ae10077149151f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 06f875ccdd7aad50682d8a9e47aae735acd0a0b6
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600819"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461742"
 ---
 # <a name="imsgserviceadminconfiguremsgservice"></a>IMsgServiceAdmin::ConfigureMsgService
 
@@ -61,11 +61,11 @@ MSG_SERVICE_UI_READ_ONLY
     
 SERVICE_UI_ALLOWED 
   
-> Le service de message doit afficher sa feuille des propriétés de configuration uniquement si le service n’est pas entièrement configuré.
+> Le service de message doit afficher sa feuille de propriétés de configuration uniquement si le service n’est pas entièrement configuré.
     
 SERVICE_UI_ALWAYS 
   
-> Le service de message doit toujours afficher sa feuille de propriétés de configuration. Si SERVICE_UI_ALWAYS n’est pas définie, une feuille des propriétés de configuration peut toujours être affichée si SERVICE_UI_ALLOWED est définie et que les informations de configuration valides ne sont pas disponibles à partir du tableau des valeurs de propriétés dans le paramètre _lpProps._ Les SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS doivent être définies pour qu’une feuille de propriétés s’affiche. 
+> Le service de message doit toujours afficher sa feuille de propriétés de configuration. Si SERVICE_UI_ALWAYS n’est pas définie, une feuille des propriétés de configuration peut toujours être affichée si SERVICE_UI_ALLOWED est définie et que les informations de configuration valides ne sont pas disponibles à partir du tableau de valeurs de propriétés dans le paramètre _lpProps_ . Les SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS doivent être définies pour qu’une feuille de propriétés s’affiche. 
     
  _cValues_
   
@@ -83,7 +83,7 @@ S_OK
     
 MAPI_E_EXTENDED_ERROR 
   
-> Erreur spécifique à un service de message. Pour obtenir la structure [MAPIERROR](mapierror.md) qui décrit l’erreur, l’application cliente doit appeler la méthode [IMsgServiceAdmin::GetLastError.](imsgserviceadmin-getlasterror.md) 
+> Erreur spécifique à un service de message. Pour obtenir la structure [MAPIERROR](mapierror.md) qui décrit l’erreur, l’application cliente doit appeler la méthode [IMsgServiceAdmin::GetLastError](imsgserviceadmin-getlasterror.md) . 
     
 MAPI_E_NOT_FOUND 
   
@@ -105,9 +105,9 @@ Pour autoriser la configuration sans affichage de feuille de propriétés, les s
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour récupérer la structure **MAPIUID** pour le service de message à configurer, récupérez la colonne **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) à partir de la ligne du service de message dans la table de service de message. Pour plus d’informations, voir la procédure décrite dans la méthode [IMsgServiceAdmin::CreateMsgService.](imsgserviceadmin-createmsgservice.md) 
+Pour récupérer la structure **MAPIUID** du service de message à configurer, récupérez la colonne **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) à partir de la ligne du service de message dans la table de service de message. Pour plus d’informations, voir la procédure décrite dans la méthode [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) . 
   
-Vous pouvez configurer un service de message sans afficher de feuille de propriétés à un utilisateur uniquement si vous avez des informations préalables sur les valeurs de propriété à définir. Si vous configurez un service de message sans afficher de feuille des propriétés, passez des valeurs de propriété valides dans le paramètre  _lpProps_ et ne définissez pas les indicateurs MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS. 
+Vous pouvez configurer un service de message sans afficher de feuille de propriétés à un utilisateur uniquement si vous avez des informations préalables sur les valeurs de propriété à définir. Si vous configurez un service de message sans afficher de feuille de propriétés, passez des valeurs de propriété valides dans le paramètre _lpProps_ et ne définissez pas les indicateurs MSG_SERVICE_UI_READ_ONLY, SERVICE_UI_ALLOWED ou SERVICE_UI_ALWAYS. 
   
 Si vous recevez l’ensemble ou une partie des informations de configuration de l’utilisateur au moyen d’une feuille de propriétés, SERVICE_UI_ALLOWED dans  _ulFlags_. Si vous utilisez des informations de propriété existantes uniquement pour établir des paramètres par défaut et que l’utilisateur est en mesure de modifier les paramètres, définissez SERVICE_UI_ALWAYS dans  _ulFlags_.
   

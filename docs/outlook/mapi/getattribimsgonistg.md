@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb27b28a-b2bd-4d4a-b0bb-0692f3de8e16
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 32988bc25e32ec3350a6e58e6418130a31f2095b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 627238a50de57ae02100d2f9de83ab1d2b35a561
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580187"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461194"
 ---
 # <a name="getattribimsgonistg"></a>GetAttribIMsgOnIStg
 
@@ -25,7 +25,7 @@ ms.locfileid: "59580187"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Récupère les attributs des propriétés d’un objet [IMessage](imessageimapiprop.md) fourni par la [fonction OpenIMsgOnIStg.](openimsgonistg.md) 
+Récupère les attributs des propriétés d’un objet [IMessage](imessageimapiprop.md) fourni par la [fonction OpenIMsgOnIStg](openimsgonistg.md) . 
   
 |||
 |:-----|:-----|
@@ -45,7 +45,7 @@ HRESULT GetAttribIMsgOnIStg(
 
  _lpObject_
   
-> [in] Pointeur vers un **objet IMessage** obtenu à partir de la [fonction OpenIMsgOnIStg.](openimsgonistg.md) 
+> [in] Pointeur vers un **objet IMessage** obtenu à partir de la [fonction OpenIMsgOnIStg](openimsgonistg.md) . 
     
  _lpPropTagArray_
   
@@ -67,11 +67,11 @@ MAPI_W_ERRORS_RETURNED
     
 ## <a name="remarks"></a>Remarques
 
-Les attributs de propriété sont accessibles uniquement sur les objets de propriété, c’est-à-dire les objets implémentant l’interface [IMAPIProp : IUnknown.](imapipropiunknown.md) Pour rendre les propriétés MAPI disponibles sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) crée un objet [IMessage : IMAPIProp](imessageimapiprop.md) au-dessus de l’objet **OLE IStorage.** Les attributs de propriété sur ces objets peuvent être définies ou modifiées avec [SetAttribIMsgOnIStg](setattribimsgonistg.md) et récupérées avec **GetAttribIMsgOnIStg**. 
+Les attributs de propriété sont accessibles uniquement sur les objets de propriété, c’est-à-dire les objets implémentant l’interface [IMAPIProp : IUnknown](imapipropiunknown.md) . Pour rendre les propriétés MAPI disponibles sur un objet de stockage structuré OLE, [OpenIMsgOnIStg](openimsgonistg.md) crée un objet [IMessage : IMAPIProp](imessageimapiprop.md) au-dessus de l’objet OLE **IStorage** . Les attributs de propriété de ces objets peuvent être définies ou modifiées avec [SetAttribIMsgOnIStg](setattribimsgonistg.md) et récupérées avec **GetAttribIMsgOnIStg**. 
   
 > [!NOTE]
-> **GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous les objets **IMessage.** Ils sont uniquement valides pour les objets **IMessage**-on- **IStorage** renvoyés par **OpenIMsgOnIStg**. 
+> **GetAttribIMsgOnIStg** et **SetAttribIMsgOnIStg** ne fonctionnent pas sur tous **les objets IMessage** . Elles ne sont valides que pour les objets IMessage-on-IStorage renvoyés par **OpenIMsgOnIStg**. 
   
-Le nombre et les positions des attributs dans le paramètre _lppPropAttrArray_ correspondent au nombre et aux positions des balises de propriété dans le paramètre _lpPropTagArray._ 
+Le nombre et les positions des attributs dans le paramètre _lppPropAttrArray_ correspondent au nombre et aux positions des balises de propriété dans le paramètre _lpPropTagArray_ . 
   
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e04c2228-aa0a-4958-b5b2-6467e93ab613
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5cdbd4d8f28562e659a5434ab17fe02eb3bf6c51
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6712e422ebc036c841e92b63aa526667f11951d0
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600714"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462325"
 ---
 # <a name="mapierror"></a>MAPIERROR
 
@@ -51,11 +51,11 @@ typedef struct _MAPIERROR
     
  **lpszError**
   
-> Pointeur vers une chaîne qui décrit l’erreur. Cette chaîne sera au format Unicode si le paramètre  _ulFlags_ de la méthode dans laquelle cette structure est utilisée est MAPI_UNICODE. 
+> Pointeur vers une chaîne qui décrit l’erreur. Cette chaîne sera au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est définie sur MAPI_UNICODE. 
     
  **lpszComponent**
   
-> Pointeur vers une chaîne qui décrit le composant qui a généré l’erreur. Cette chaîne sera au format Unicode si le paramètre  _ulFlags_ de la méthode dans laquelle cette structure est utilisée est MAPI_UNICODE. 
+> Pointeur vers une chaîne qui décrit le composant qui a généré l’erreur. Cette chaîne sera au format Unicode si le paramètre _ulFlags_ de la méthode dans laquelle cette structure est utilisée est définie sur MAPI_UNICODE. 
     
  **ulLowLevelError**
   
@@ -63,17 +63,17 @@ typedef struct _MAPIERROR
     
  **ulContext**
   
-> Valeur qui représente l’emplacement dans le composant pointé par le membre **lpszComponent** qui identifie l’endroit où l’erreur s’est produite. 
+> Valeur qui représente l’emplacement dans le composant pointé par le membre **lpszComponent** qui identifie où l’erreur s’est produite. 
     
 ## <a name="remarks"></a>Remarques
 
-La structure **MAPIERROR** est utilisée pour décrire les informations d’erreur. Les clients et les fournisseurs de services passent un pointeur vers une structure **MAPIERROR** dans le paramètre _lppMAPIError_ de la méthode [IMAPIProp::GetLastError.](imapiprop-getlasterror.md) **GetLastError renvoie des** informations sur l’erreur précédente qui s’est produite sur un objet. Les appelants **de GetLastError** libèrent la mémoire de la structure **MAPIERROR** en appelant [MAPIFreeBuffer](mapifreebuffer.md).
+La structure **MAPIERROR** est utilisée pour décrire les informations d’erreur. Les clients et les fournisseurs de services passent un pointeur vers une structure **MAPIERROR** dans le paramètre _lppMAPIError_ de la méthode [IMAPIProp::GetLastError](imapiprop-getlasterror.md) . **GetLastError renvoie des** informations sur l’erreur précédente qui s’est produite sur un objet. Les appelants **de GetLastError** libèrent la mémoire de la structure **MAPIERROR** en appelant [MAPIFreeBuffer](mapifreebuffer.md).
   
 Le **membre lpszComponent** peut être utilisé pour macalculer le fichier d’aide du composant, s’il en existe un. Les fournisseurs de services doivent limiter la taille de la chaîne de composant à 30 caractères afin qu’elle puisse s’afficher facilement dans une boîte de dialogue. Le **membre ulContext** peut également être utilisé pour faire référence à une rubrique d’aide en ligne pour les erreurs courantes. 
   
-Étant donné que les fournisseurs de services ne sont pas tenus de fournir des informations détaillées sur les erreurs, les clients ne doivent pas s’attendre à ce que les membres de la structure **MAPIERROR** retournés contiennent des données valides. Toutefois, MAPI recommande vivement aux fournisseurs de spécifier des informations dans les membres **lpszComponent** et **ulContext.** 
+Étant donné que les fournisseurs de services ne sont pas tenus de fournir des informations détaillées sur les erreurs, les clients ne doivent pas s’attendre à ce que les membres de la structure **MAPIERROR** retournés contiennent des données valides. Toutefois, MAPI recommande vivement aux fournisseurs de spécifier des informations dans les membres **lpszComponent** et **ulContext** . 
   
-Pour plus d’informations sur la gestion des erreurs dans MAPI, voir [Gestion des erreurs.](error-handling-in-mapi.md)
+Pour plus d’informations sur la gestion des erreurs dans MAPI, voir [Gestion des erreurs](error-handling-in-mapi.md).
   
 ## <a name="see-also"></a>Voir aussi
 

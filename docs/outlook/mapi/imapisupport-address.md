@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ee1a45deedc733d016d20fbd5cb43dbfa3b6b495
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c72b0344ff7e3f4a6429bcdff59a96f78299630b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625489"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462353"
 ---
 # <a name="imapisupportaddress"></a>IMAPISupport::Address
 
@@ -39,7 +39,7 @@ HRESULT Address(
 
  _lpulUIParam_
   
-> [in, out] Pointeur vers le handle de la fenêtre parente de la boîte de dialogue. Lors de l’entrée, une poignée de fenêtre doit toujours être passée. En sortie, si l’indicateur DIALOG_SDI est définie dans la structure [ADRPARM](adrparm.md) pointée par le paramètre  _lpAdrParms,_ la poignée de fenêtre de la boîte de dialogue sans mode est renvoyée. 
+> [in, out] Pointeur vers le handle de la fenêtre parente de la boîte de dialogue. Lors de l’entrée, une poignée de fenêtre doit toujours être passée. En sortie, si l’indicateur DIALOG_SDI est définie dans la structure [ADRPARM](adrparm.md) pointée par le paramètre  _lpAdrParms_ , la poignée de fenêtre de la boîte de dialogue sans mode est renvoyée. 
     
  _lpAdrParms_
   
@@ -57,13 +57,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::Address** est implémentée pour les objets de prise en charge du fournisseur de carnet d’adresses. Les fournisseurs de carnets d’adresses appellent **l’adresse** pour créer ou mettre à jour une liste de destinataires de message. 
+La **méthode IMAPISupport::Address** est implémentée pour les objets de support du fournisseur de carnet d’adresses. Les fournisseurs de carnets d’adresses appellent **l’adresse** pour créer ou mettre à jour une liste de destinataires de message. 
   
-Chaque destinataire est décrit dans une structure [ADRENTRY](adrentry.md) incluse dans la structure [ADRLIST](adrlist.md) pointée par le _paramètre lppAdrList._ La structure **ADRENTRY** contient un tableau de valeurs de propriété de destinataire, l’une d’entre elles est le type du destinataire ou la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). Cette structure **ADRLIST** peut être transmise à un client pour l’utiliser comme paramètre  _lpMods_ dans un appel à [IMessage::ModifyRecipients](imessage-modifyrecipients.md).
+Chaque destinataire est décrit dans une structure [ADRENTRY](adrentry.md) incluse dans la structure [ADRLIST](adrlist.md) pointée par le paramètre  _lppAdrList_ . La structure **ADRENTRY** contient un tableau de valeurs de propriété de destinataire, dont l’une est le type du destinataire ou la propriété **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). Cette structure **ADRLIST** peut être transmise à un client pour l’utiliser comme paramètre  _lpMods_ dans un appel à [IMessage::ModifyRecipients](imessage-modifyrecipients.md).
   
 Chaque destinataire de la structure **ADRLIST** peut être résolu, ce qui indique que l’une de ses valeurs de propriété est sa propriété **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) ou non résolue, ce qui indique que la propriété **PR_ENTRYID** est manquante. 
   
-En plus de **PR_ENTRYID,** les destinataires résolus incluent les propriétés suivantes :
+Outre les **PR_ENTRYID**, les destinataires résolus incluent les propriétés suivantes :
   
 - **PR_RECIPIENT_TYPE**
     
@@ -77,13 +77,13 @@ Les destinataires non résolus incluent généralement uniquement **PR_DISPLAY_N
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La structure **ADRLIST** que l’appelant transmet peut être d’une taille différente de la structure que MAPI renvoie. Lorsque vous allouez de la mémoire pour la structure **ADRLIST,** allouez la mémoire pour chaque structure [SPropValue](spropvalue.md) séparément. 
+La structure **ADRLIST** que l’appelant transmet peut être d’une taille différente de la structure que MAPI renvoie. Lorsque vous allouez de la mémoire pour la structure **ADRLIST** , allouez la mémoire pour chaque structure [SPropValue](spropvalue.md) séparément. 
   
 Utilisez les pointeurs vers les fonctions d’allocation de mémoire MAPI transmises à votre fonction [ABProviderInit](abproviderinit.md) pour allouer de la mémoire. Allouez de la mémoire avec la fonction [MAPIAllocateBuffer](mapiallocatebuffer.md) pour **ADRLIST** et chaque structure de valeur de propriété dans les structures **ADRENTRY** dans **ADRLIST**. 
   
-Si **Address** doit renvoyer une structure **ADRLIST** plus grande, ou si vous avez passé NULL pour  _lppAdrList_, **Address** libère la structure d’origine et en alloue une nouvelle. **L’adresse** alloue également des structures de valeur de propriété supplémentaires dans la structure **ADRLIST** et libère les anciennes selon le cas. Pour plus d’informations sur la gestion de la mémoire pour les structures **ADRLIST,** voir [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
+Si **Address** doit renvoyer une structure **ADRLIST** plus grande ou si vous avez passé null pour  _lppAdrList_, **Address** libère la structure d’origine et en alloue une nouvelle. **L’adresse** alloue également des structures de valeur de propriété supplémentaires dans la structure **ADRLIST** et libère les anciennes selon le cas. Pour plus d’informations sur la gestion de la mémoire pour les structures **ADRLIST** , voir [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
- **L’adresse** renvoie immédiatement si DIALOG_SDI’indicateur a été définie dans la structure **ADRPARM** dans le paramètre _lpAdrParms._ 
+ **L’adresse** renvoie immédiatement si DIALOG_SDI’indicateur a été définie dans la structure **ADRPARM** dans _le paramètre lpAdrParms_ . 
   
 ## <a name="see-also"></a>Voir aussi
 

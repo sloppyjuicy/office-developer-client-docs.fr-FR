@@ -7,22 +7,21 @@ ms:contentKeyID: 48545779
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 159fc73c68e3da4082533009cf67b7381ea9850b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5aebc9bc3c21e4ce3992169a021413fce8e28a3d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569481"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460252"
 ---
-# <a name="adcprop_autorecalc_enum"></a>ADCPROP \_ AUTORECALC \_ ENUM
+# <a name="adcprop_autorecalc_enum"></a>ADCPROPAUTORECALCENUM\_\_
 
 **S’applique à** : Access 2013, Office 2013
 
 Indique si le fournisseur [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) recalcule les colonnes regroupées et calculées dans un Recordset hiérarchique.
 
-Ces constantes sont utilisées uniquement avec le fournisseur **MSDataShape** et la propriété dynamique **Recordset** «**Auto Recalc**», qui est référencé dans l’index des propriétés dynamiques [ADO](ado-dynamic-property-index.md) et documenté dans la documentation du service de curseur Microsoft pour [OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) ou Microsoft Data Shaping Service pour la documentation [OLE DB.](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
+Ces constantes sont utilisées uniquement avec le fournisseur **MSDataShape** et la  propriété dynamique « **Recalc** automatique » du jeu d’enregistrements, qui est référencé dans l’index des propriétés dynamiques [ADO](ado-dynamic-property-index.md) et documenté dans la documentation du service de curseur [Microsoft pour OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) ou [Microsoft Data Shaping Service pour la documentation OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md).
 
-<br/>
 
 <table>
 <colgroup>

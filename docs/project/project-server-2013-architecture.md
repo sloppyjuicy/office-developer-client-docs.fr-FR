@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: Project Server 2013 intègre des fonctionnalités de gestion de projet dans une batterie de serveurs SharePoint et autorise l’utilisation de Project Online avec un modèle objet client (CSOM) et une interface OData pour les données de création de rapports.
 ms.localizationpriority: high
-ms.openlocfilehash: 51e106cb31ee7b4d385baf45082638998a3eeae5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 258a269176d286edb23a9749626038bb48ab48e4
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59566128"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462791"
 ---
 # <a name="project-server-architecture"></a>Architecture Project Server
 
@@ -60,7 +60,6 @@ La figure 1 indique les processus suivants lorsque les projets sont tenus à jou
 
 ![Utilisation de sites de projet en mode Visibilité](media/pj15_Architecture_VisibilityMode.gif "Utilisation de sites de projet en mode Visibilité")
 
-<br/>
 
 ### <a name="managing-projects-with-full-control"></a>Gestion de projets avec contrôle total
 <a name="pj15_Architecture_ManagedMode"> </a>
@@ -93,7 +92,6 @@ Il peut y avoir plusieurs instances Project Web App qui communiquent avec l’
 
 ![Architecture Project Server](media/pj15_Architecture_ProjectServiceApp_WFE.gif "Architecture Project Server")
 
-<br/>
 
 Les commentaires généraux suivants s’appliquent à la figure 3 :
   

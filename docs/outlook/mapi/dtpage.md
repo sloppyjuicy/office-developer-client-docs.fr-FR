@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0bf031772c9dda44e0496f507975f26313aa452e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 428c81eadd540b145aa4fe257729fbda28bd91ec
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576330"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461201"
 ---
 # <a name="dtpage"></a>DTPAGE
 
@@ -25,7 +25,7 @@ ms.locfileid: "59576330"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Décrit la boîte de dialogue qui est conçue à partir d’un tableau d’affichage par la [fonction BuildDisplayTable.](builddisplaytable.md) 
+Décrit la boîte de dialogue qui est conçue à partir d’un tableau d’affichage par la [fonction BuildDisplayTable](builddisplaytable.md) . 
   
 |||
 |:-----|:-----|
@@ -50,7 +50,7 @@ typedef struct DTPAGE
 
  **cctl**
   
-> Nombre de contrôles pointés par **le membre lpctl.** 
+> Nombre de contrôles pointés par **le membre lpctl** . 
     
  **lpszResourceName**
   
@@ -58,25 +58,25 @@ typedef struct DTPAGE
     
  **lpszComponent**
   
-> Pointeur vers la chaîne qui apparaît dans la section [Mappages des fichiers **d’aide]** dans MAPISVC.INF. Étant **donné que lpszComponent** est en union avec le membre **ulItemID,** un seul de ces membres possède des données valides. 
+> Pointeur vers la chaîne qui apparaît dans la section **[Mappages des fichiers d’aide]** dans MAPISVC.INF. Étant **donné que lpszComponent** est en union avec le membre **ulItemID** , un seul de ces membres possède des données valides. 
     
  **ulItemID**
   
-> Identificateur de ressource d’un nombre complet avec une valeur inférieure ou égale à 65535 à partir de laquelle le nom du fichier d’aide peut être lu. Étant **donné qu’ulItemID** est en union avec le membre **lpszComponent,** un seul de ces membres possède des données valides. 
+> Identificateur de ressource d’un nombre complet avec une valeur inférieure ou égale à 65535 à partir de laquelle le nom du fichier d’aide peut être lu. Étant **donné qu’ulItemID** est en union avec le membre **lpszComponent** , un seul de ces membres possède des données valides. 
     
  **lpctl**
   
-> Pointeur vers un tableau de structures [DTCTL,](dtctl.md) un pour chaque contrôle de la page. 
+> Pointeur vers un tableau de structures [DTCTL](dtctl.md) , un pour chaque contrôle de la page. 
     
 ## <a name="remarks"></a>Remarques
 
 Pour identifier le fichier d’aide de la page à onglets, définissez le membre **lpszComponent** sur une chaîne codée en dur ou le membre **ulItemID** sur un identificateur de ressource entière. 
   
-Chaque entrée de la section **[Mappages des fichiers d’aide]** dans MAPISVC. INF se compose d’une chaîne de composants, de 30 caractères au plus, à gauche et d’un chemin d’accès au fichier d’aide à droite. **UlItemID et** **lpszResourceName** se trouvent dans le paramètre _hInstance_ de **BuildDisplayTable**. Pour plus d’informations, [voir MAPISVC. Section INF [Mappages de fichiers d’aide]](mapisvc-inf-help-file-mappings-section.md).
+Chaque entrée de la section **[Mappages des fichiers d’aide]** dans MAPISVC. INF se compose d’une chaîne de composants, de 30 caractères au plus, à gauche et d’un chemin d’accès au fichier d’aide à droite. **UlItemID et** **lpszResourceName** se trouvent dans le paramètre _hInstance_ de **BuildDisplayTable**. Pour plus d’informations, [voir MAPISVC. Section INF [Mappages de fichiers d’aide]](mapisvc-inf-help-file-mappings-section.md)
   
 Bien **que BuildDisplayTable** utilise cette structure pour créer la table d’affichage à partir des ressources de contrôle, la structure **DTPAGE** n’apparaît jamais dans le tableau d’affichage lui-même. 
   
-Pour une vue d’ensemble des tableaux d’affichage, voir [Afficher les tableaux.](display-tables.md) Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
+Pour une vue d’ensemble des tableaux d’affichage, voir [Tableaux d’affichage](display-tables.md). Pour plus d’informations sur l’implémentation d’un tableau d’affichage, voir [Implementing a Display Table](display-table-implementation.md).
   
 ## <a name="see-also"></a>Voir aussi
 

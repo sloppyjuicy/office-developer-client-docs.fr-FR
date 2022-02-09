@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 8514a24ebe56d1ae533b4f2b247a34a9f7d7c8e5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1896e413a1a98973260a239d6aea1cb49bb7068b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610635"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462458"
 ---
 # <a name="imapifoldersetmessagestatus"></a>IMAPIFolder::SetMessageStatus
 
@@ -41,7 +41,7 @@ HRESULT SetMessageStatus(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -53,7 +53,7 @@ HRESULT SetMessageStatus(
     
  _ulNewStatusMask_
   
-> [in] Masque de bits d’indicateurs qui est appliqué au nouvel état et indique les indicateurs à définir. Les indicateurs suivants peuvent être définies :
+> [in] Masque de bits d’indicateurs appliqué au nouvel état et qui indique les indicateurs à définir. Les indicateurs suivants peuvent être définies :
     
 MSGSTATUS_DELMARKED 
   
@@ -69,7 +69,7 @@ MSGSTATUS_HIGHLIGHTED
     
 MSGSTATUS_REMOTE_DELETE 
   
-> Le message a été marqué pour suppression dans la boutique de messages distante sans téléchargement vers le client local.
+> Le message a été marqué pour suppression dans la boutique de messages distante sans téléchargement sur le client local.
     
 MSGSTATUS_REMOTE_DOWNLOAD 
   
@@ -91,17 +91,17 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPIFolder::SetMessageStatus** définit l’état du message sur la valeur stockée dans sa propriété **PR_MSG_STATUS** ([PidTagMessageStatus).](pidtagmessagestatus-canonical-property.md) 
+La **méthode IMAPIFolder::SetMessageStatus** définit l’état du message sur la valeur stockée dans sa propriété **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-La façon dont les bits d’état du message sont définies, effacées et utilisées dépend entièrement de votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être zéro. 
+La façon dont les bits d’état de message sont définies, effacées et utilisées dépend entièrement de votre implémentation, sauf que les bits 0 à 15 sont réservés et doivent être zéro. 
   
 L’implémentation de cette méthode par un fournisseur de transport distant doit suivre la sémantique décrite ici. Il n’existe aucune considération particulière. Les clients utilisent cette méthode pour définir les bits MSGSTATUS_REMOTE_DOWNLOAD et MSGSTATUS_REMOTE_DELETE pour indiquer qu’un message particulier doit être téléchargé ou supprimé de la boutique de messages distante. Un fournisseur de transport distant n’a pas besoin d’implémenter la méthode [IMAPIFolder::GetMessageStatus](imapifolder-getmessagestatus.md) associée. Les clients doivent rechercher dans la table des matières du dossier pour déterminer l’état d’un message. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser la **propriété PR_MSG_STATUS** d’un message pour négocier une opération de verrouillage de message avec d’autres clients. Désignez un bit comme bit de verrouillage. Pour déterminer si le bit de verrouillage a été définie, examinez la valeur précédente pour l’état du message dans le paramètre _lpulOldStatus._ Utilisez les autres bits du paramètre  _ulNewStatus_ pour suivre l’état du message sans interférer avec le bit de verrouillage. 
+Vous pouvez utiliser la **propriété PR_MSG_STATUS** d’un message pour négocier une opération de verrouillage de message avec d’autres clients. Désignez un bit comme bit de verrouillage. Pour déterminer si le bit de verrouillage a été définie, examinez la valeur précédente pour l’état du message dans _le paramètre lpulOldStatus_ . Utilisez les autres bits du paramètre _ulNewStatus_ pour suivre l’état du message sans interférer avec le bit de verrouillage. 
   
 ## <a name="see-also"></a>Voir aussi
 

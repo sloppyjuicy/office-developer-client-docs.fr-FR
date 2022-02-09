@@ -7,12 +7,12 @@ ms:contentKeyID: 48542973
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 199586c22d79b158e78d2a230db8cee081816c56
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 767d45018aad55cdeb8f988eca9dc1c1a396e5be
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577163"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461960"
 ---
 # <a name="openschema-method-example-vb"></a>OpenSchema, méthode – Exemple (VB)
 
@@ -76,9 +76,8 @@ End Sub
 'EndOpenSchemaVB 
 ```
 
-<br/>
 
-Cet exemple spécifie une contrainte de requête TABLE TYPE dans l’argument Criteria _ de la méthode \_ **OpenSchema.** ***Par conséquent, seules les informations de* schéma pour les affichages** spécifiés dans la base de données _ Pubs sont renvoyées. L'exemple affiche ensuite le nom et le type des différentes tables.
+Cet exemple spécifie une contrainte de requête TABLETYPE\_ dans l’argument Criteria_ de la méthode **OpenSchema*****. Par conséquent, seules les informations de schéma pour les affichages spécifiés dans la base de données _*_Pubs_** sont renvoyées. L'exemple affiche ensuite le nom et le type des différentes tables.
 
 ```vb 
  

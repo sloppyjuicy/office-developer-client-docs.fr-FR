@@ -7,12 +7,12 @@ ms:contentKeyID: 48544277
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a53b7029922c2014d63165ee404a164c37c2a98e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: df8ff99353384e1f7bf6bfcb7952985d112e9c06
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59617999"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461159"
 ---
 # <a name="lineseparatorsenum"></a>LineSeparatorsEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59617999"
 
 Spécifie le caractère utilisé comme séparateur de ligne dans les objets texte [Stream](stream-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>

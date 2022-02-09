@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cda633b0b8626dd88e6deaf271aa7f76f65ae213
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bdbc955ff0ee61cede0ced35fe05f6bd8707e61a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596189"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461453"
 ---
 # <a name="imapimessagesitegetstore"></a>IMAPIMessageSite::GetStore
 
@@ -25,7 +25,7 @@ ms.locfileid: "59596189"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie la magasine de messages qui contient le message actuel, si tel est le cas. Cette méthode retourne null dans le paramètre  _ppStore_ pour les messages incorporés, qui sont stockés dans un autre message plutôt que directement dans une magasin de messages. 
+Renvoie la boutique de messages qui contient le message actuel, si une telle magasin existe. Cette méthode retourne la valeur NULL dans le paramètre _ppStore_ pour les messages incorporés, qui sont stockés dans un autre message plutôt que directement dans une magasin de messages. 
   
 ```cpp
 HRESULT GetStore(
@@ -37,7 +37,7 @@ HRESULT GetStore(
 
  _ppStore_
   
-> [out] Pointeur vers un pointeur vers la magasin de messages.
+> [out] Pointeur vers un pointeur vers la boutique de messages.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -51,7 +51,7 @@ S_FALSE
     
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

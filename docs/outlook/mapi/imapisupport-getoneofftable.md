@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 55958af9d68ac27a92f06528dbc8fbc1fc62e574
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 83a30a386603b32d10c2784eb6e28a010c3ea898
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556510"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62458833"
 ---
 # <a name="imapisupportgetoneofftable"></a>IMAPISupport::GetOneOffTable
 
@@ -60,9 +60,9 @@ La **méthode IMAPISupport::GetOneOffTable** est implémentée pour les objets d
   
 Les destinataires nouvellement créés peuvent être utilisés pour adresser un message ou peuvent être ajoutés à un conteneur de carnet d’adresses.
   
-Pour obtenir la liste des propriétés qui font partie de la colonne requise définie dans des tables uniques, voir [Tables uniques.](one-off-tables.md)
+Pour obtenir la liste des propriétés qui définissent les colonnes requises dans des tables uniques, voir [Tableaux uniques](one-off-tables.md).
   
-La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows.](imapitable-queryrows.md) Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
+La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

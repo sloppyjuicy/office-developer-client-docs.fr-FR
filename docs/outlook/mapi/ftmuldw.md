@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e135ba67-97be-4ce0-a72e-93c49ed7d6e2
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 430eff9b19f4052a77d3792ceb4f9b3412ee79ed
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 363c00e8ab2b706d9fd55573abffcc8c04713f2c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630851"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462065"
 ---
 # <a name="ftmuldw"></a>FtMulDw
 
@@ -48,7 +48,7 @@ FILETIME FtMulDw(
     
  _Multiplicand_
   
-> [in] Structure [FILETIME](filetime.md) qui contient l’integer 64 bits non signé à multiplier par la valeur du paramètre Multiplicateur.  
+> [in] Structure [FILETIME](filetime.md) qui contient l’ensemble non signé 64 bits à multiplier par la valeur dans le paramètre Multiplicateur. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

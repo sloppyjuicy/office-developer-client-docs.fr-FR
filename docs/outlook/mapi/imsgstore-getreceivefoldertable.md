@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d115ab58-07d2-4b49-8e08-2881c2924102
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e9f8eb5e8c5bb21e7c1a9a61d6dfd85630d2f553
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5e0ffa89676c74c10837adb0ae95ae12be36d611
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620687"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461117"
 ---
 # <a name="imsgstoregetreceivefoldertable"></a>IMsgStore::GetReceiveFolderTable
 
@@ -25,7 +25,7 @@ ms.locfileid: "59620687"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à la table des dossiers de réception, une table qui contient des informations sur tous les dossiers de réception de la boutique de messages.
+Permet d’accéder à la table des dossiers de réception, une table qui inclut des informations sur tous les dossiers de réception de la boutique de messages.
   
 ```cpp
 HRESULT GetReceiveFolderTable(
@@ -41,7 +41,7 @@ HRESULT GetReceiveFolderTable(
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **GetReceiveFolderTable** de renvoyer correctement, éventuellement avant que la table soit entièrement disponible pour l’appelant. Si la table n’est pas entièrement disponible, la réalisation d’un appel de table ultérieur peut occasioner une erreur. 
+> Permet à **GetReceiveFolderTable de renvoyer** correctement, éventuellement avant que la table soit entièrement disponible pour l’appelant. Si la table n’est pas entièrement disponible, la réalisation d’un appel de table ultérieur peut occasioner une erreur. 
     
 MAPI_UNICODE 
   
@@ -63,13 +63,13 @@ La **méthode IMsgStore::GetReceiveFolderTable** permet d’accéder à une tabl
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Pour obtenir la liste des colonnes requises dans une table de dossiers de réception, voir [Tables des dossiers de réception.](receive-folder-tables.md) 
+Pour obtenir la liste des colonnes requises dans une table de dossiers de réception, voir [Tables des dossiers de réception](receive-folder-tables.md). 
   
 Implémentez vos tables de dossiers de réception pour prendre en charge la définition de restrictions de propriété sur **la PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)). Cela permet d’accéder facilement à des dossiers de réception particuliers.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows.](imapitable-queryrows.md) Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
+La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

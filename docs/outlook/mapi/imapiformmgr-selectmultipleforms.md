@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c4dba3d43c13ef10063acff87a35f6b52c041e6b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 63e8dfd3e389e6201d8ed492353e1b84eb048e42
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610516"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62458518"
 ---
 # <a name="imapiformmgrselectmultipleforms"></a>IMAPIFormMgr::SelectMultipleForms
 
@@ -80,15 +80,15 @@ MAPI_E_BAD_CHARWIDTH
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans la boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** la boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::SelectMultipleForms** pour présenter d’abord une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires, puis de récupérer un tableau d’objets d’informations sur les formulaires qui décrivent les formulaires sélectionnés. La **boîte de dialogue SelectMultipleForms** affiche tous les formulaires, qu’ils soient masqués ou non (autrement dit, si leurs propriétés masquées sont claires ou non). 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::SelectMultipleForms** pour présenter d’abord une boîte de dialogue qui permet à l’utilisateur de sélectionner plusieurs formulaires, puis de récupérer un tableau d’objets d’informations sur les formulaires qui décrivent les formulaires sélectionnés. La **boîte de dialogue SelectMultipleForms** affiche tous les formulaires, qu’ils soient masqués ou non (c’est-à-dire, si leurs propriétés masquées sont claires ou non). 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si une visionneuse de formulaire passe l’MAPI_UNICODE dans le paramètre  _ulFlags,_ toutes les chaînes sont Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prisent pas en charge les chaînes Unicode doivent MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
+Si une visionneuse de formulaire passe l’MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes sont Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prisent pas en charge les chaînes Unicode doivent MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
   
 ## <a name="see-also"></a>Voir aussi
 

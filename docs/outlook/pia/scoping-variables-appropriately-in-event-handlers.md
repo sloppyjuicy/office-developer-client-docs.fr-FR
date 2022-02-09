@@ -7,12 +7,12 @@ ms:contentKeyID: 55119788
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6225a6d2ad8b93fcdd6870ee9a4a5f18802473aa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8c65c07a196c67712e615aefac286ff52264feaa
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590598"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461904"
 ---
 # <a name="scoping-variables-appropriately-in-event-handlers"></a>Définition de l’étendue des variables dans les gestionnaires d’événements
 
@@ -48,7 +48,6 @@ class MyClass
 }
 ```
 
-<br/>
 
 Dans cette situation, vous devez stocker l’objet Inspectors dans une variable plus permanente dont la durée de vie couvre l’ensemble de MyClass, y compris la méthode de rappel MyNewInspector. Dans l’exemple suivant, la portée de MyInspectors est l’ensemble de MyClass et la méthode de rappel est connectée pour la durée de vie de la classe.
 
@@ -82,7 +81,6 @@ class MyClass
 }
 ```
 
-<br/>
 
 En raison des différences syntaxiques dans la manière dont les différents langages connectent les gestionnaires d'événements, ce problème est moins courant dans les langages comme Visual Basic dans lesquels vous pouvez connecter un événement en spécifiant une instance de l'objet parent et définir la méthode de rappel en même temps. L’exemple suivant en Visual Basic utilise le mot clé Handles pour connecter la méthode de rappel Region\_Expanded à l’événement [Expanded](https://msdn.microsoft.com/library/bb609515\(v=office.15\)). Une instance de l’objet parent, Region, a une portée couvrant MyClass, y compris la méthode de rappel Region\_Expanded.
 

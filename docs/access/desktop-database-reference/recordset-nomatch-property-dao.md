@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 7e90a7858f6755933e842813f9a4d08e9728474d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9231b5b2685219cfa9f3751f07833b7fa0b7bd3f
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606154"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461650"
 ---
 # <a name="recordsetnomatch-property-dao"></a>Recordset.NoMatch, propriété (DAO)
 
@@ -166,7 +166,6 @@ Cet exemple de code montre comment utiliser la propriété **NoMatch** pour dét
     End Sub 
 ```
 
-<br/>
 
 L’exemple suivant montre comment utiliser la méthode Seek pour rechercher un enregistrement dans un tableau lié.
 

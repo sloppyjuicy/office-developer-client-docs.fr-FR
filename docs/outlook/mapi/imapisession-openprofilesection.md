@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e2757028-27e7-4fc0-9674-e8e30737ef1d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 0ffa10ee6939ca46a5c6cab2c2d41e1facca5375
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7da8f89cc889dd9df24bbb502a3559d1eee4b83c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625517"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462360"
 ---
 # <a name="imapisessionopenprofilesection"></a>IMAPISession::OpenProfileSection
 
@@ -44,7 +44,7 @@ HRESULT OpenProfileSection(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil. La transmission de null entraîne  _le paramètre lppProfSect_ à renvoyer un pointeur vers l’interface standard de la section de profil, **IProfSect**.
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à la section de profil. Si la valeur NULL est passé, le paramètre  _lppProfSect_ retourne un pointeur vers l’interface standard de la section de profil, **IProfSect**.
     
  _ulFlags_
   
@@ -70,7 +70,7 @@ MAPI_MODIFY
 
 S_OK 
   
-> La section profil a été ouverte avec succès.
+> La section de profil a été ouverte avec succès.
     
 MAPI_E_NO_ACCESS 
   
@@ -82,17 +82,17 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::OpenProfileSection** ouvre une section de profil ou un objet qui prend en charge l’interface **IProfSect.** Les sections de profil sont utilisées pour lire et écrire des informations dans le profil de session. 
+La **méthode IMAPISession::OpenProfileSection** ouvre une section de profil ou un objet qui prend en charge l’interface **IProfSect** . Les sections de profil sont utilisées pour lire et écrire des informations dans le profil de session. 
   
-Vous ne pouvez pas utiliser **OpenProfileSection** pour ouvrir des sections de profil propres à des fournisseurs de services individuels, sauf si vous spécifiez MAPI_FORCE_ACCESS dans le _paramètre ulFlags._ 
+Vous ne pouvez pas utiliser **OpenProfileSection** pour ouvrir des sections de profil propres à des fournisseurs de services individuels, sauf si vous spécifiez MAPI_FORCE_ACCESS dans le paramètre _ulFlags_ . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Plusieurs clients peuvent ouvrir une section de profil avec une autorisation en lecture seule, mais un seul client peut ouvrir une section de profil avec une autorisation de lecture/écriture. Si une section de profil est ouverte sur un autre client que vous essayez d’ouvrir en appelant **OpenProfileSection** avec l’indicateur MAPI_MODIFY, l’appel échoue et retourne MAPI_E_NO_ACCESS. 
+Plusieurs clients peuvent ouvrir une section de profil avec une autorisation en lecture seule, mais un seul client peut ouvrir une section de profil avec une autorisation de lecture/écriture. Si une section de profil est ouverte sur un autre client que vous essayez d’ouvrir en appelant **OpenProfileSection** avec l’indicateur MAPI_MODIFY, l’appel échoue et MAPI_E_NO_ACCESS. 
   
 Une opération d’ouverture en lecture seule échoue si la section est ouverte pour écriture. 
   
-Vous pouvez créer une section de profil en appelant **OpenProfileSection** avec l’indicateur MAPI_MODIFY et une structure **MAPIUID** inexistante dans le paramètre _lpUID._ Assurez-vous de spécifier MAPI_MODIFY. Si vous définissez _lpUID_ de façon à pointer vers un **MAPIUID** inexistant et qu’OpenProfileSection est définie pour utiliser le mode d’accès par défaut en lecture seule, l’appel échouera avec MAPI_E_NOT_FOUND.  
+Vous pouvez créer une section de profil en appelant **OpenProfileSection** avec l’indicateur MAPI_MODIFY et une structure **MAPIUID** inexistante dans le paramètre _lpUID_ . Assurez-vous de spécifier MAPI_MODIFY. Si vous définissez  _lpUID_ de façon à pointer vers un **MAPIUID** inexistant et **qu’OpenProfileSection** est définie pour utiliser le mode d’accès par défaut en lecture seule, l’appel échouera avec MAPI_E_NOT_FOUND. 
   
 ## <a name="see-also"></a>Voir aussi
 

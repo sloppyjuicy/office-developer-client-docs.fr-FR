@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8933e0ea62caaaed2ece303fea380e812034724e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 61501afc8c3e8ff2c64f151d3edeed3b34e38787
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609536"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459129"
 ---
 # <a name="sccountprops"></a>ScCountProps
 
@@ -45,7 +45,7 @@ SCODE ScCountProps(
 
  _cprop_
   
-> [in] Nombre de propriétés dans le tableau indiqué par le _paramètre rgprop._ 
+> [in] Nombre de propriétés dans le tableau indiqué par le  _paramètre rgprop_ . 
     
  _rgprop_
   
@@ -67,7 +67,7 @@ MAPI_E_INVALID_PARAMETER
     
 ## <a name="remarks"></a>Remarques
 
-Si NULL est transmis dans le  _paramètre pcb,_ la **fonction ScCountProps** valide le tableau de notifications, mais aucun décompte n’est effectué. Si une valeur non null est passée dans  _pcb,_ la **fonction ScCountNotifications** détermine la taille du tableau et stocke la  _cause pcb_. Le  _paramètre pcb_ doit être suffisamment grand pour contenir la totalité du tableau. 
+Si NULL est transmis dans le _paramètre pcb_ , la **fonction ScCountProps** valide le tableau de notifications, mais aucun décompte n’est effectué. Si une valeur non null est passée dans  _pcb_, la **fonction ScCountNotifications** détermine la taille du tableau et stocke la  _cause pcb_. Le  _paramètre pcb_ doit être suffisamment grand pour contenir la totalité du tableau. 
   
 Au cours de son comptage, **ScCountProps** valide la mémoire associée au tableau. **ScCountProps fonctionne** uniquement avec les propriétés sur lesquelles MAPI dispose d’informations. 
   

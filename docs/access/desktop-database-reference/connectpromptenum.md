@@ -7,12 +7,12 @@ ms:contentKeyID: 48545965
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a6719f9eff7a6df6baba9ed79bd3e57437b50c77
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a49c49cb914d9311bea869f7030a68abb7eb2809
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59581664"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461404"
 ---
 # <a name="connectpromptenum"></a>ConnectPromptEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59581664"
 
 Spécifie si une boîte de dialogue doit s'afficher pour inviter à entrer les paramètres manquants lors de l'ouverture d'une connexion à une source de données.
 
-<br/>
 
 <table>
 <colgroup>
@@ -53,7 +52,7 @@ Spécifie si une boîte de dialogue doit s'afficher pour inviter à entrer les p
 </tr>
 <tr class="even">
 <td><p><strong>adPromptNever</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Ne jamais demander.</p></td>
 </tr>
 </tbody>
@@ -70,7 +69,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

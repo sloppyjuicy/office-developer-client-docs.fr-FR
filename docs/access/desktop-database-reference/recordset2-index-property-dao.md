@@ -7,12 +7,12 @@ ms:contentKeyID: 48545209
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: a01adf65d4358d12983c7d0c2e90aa9de02f1937
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9fcc3028ab329626bc959f78d1f654fcd58e9080
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59611734"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462749"
 ---
 # <a name="recordset2index-property-dao"></a>Recordset2.Index, propriété (DAO)
 
@@ -24,7 +24,7 @@ Définit ou renvoie une valeur qui indique le nom de l’objet **[Index](index-o
 
 *expression* .Index
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="remarks"></a>Remarques
 
@@ -36,7 +36,7 @@ Examiner la **index** collection d’un **TableDef** objet pour déterminer les 
 
 Vous pouvez créer un nouvel index de la table en créant une nouvelle **Index** objet définissant ses propriétés, en ajoutant le **index** ensemble de sous-jacents **TableDef** objet et rouvrir le **jeu d’enregistrements** objet.
 
-Enregistrements renvoyés à partir d’un type de table **jeu d’enregistrements** objet peut être ordonné de façon uniquement par les index définis pour sous-jacents **TableDef** objet. Pour trier les enregistrements d’une autre façon, vous pouvez ouvrir un objet **Recordset** de type feuille de réponse dynamique, instantané ou avant uniquement à l’aide d’une instruction SQL avec une clause ORDER BY.
+Les enregistrements renvoyés à partir d'un objet **Recordset** de type table peuvent être uniquement classés en fonction des index définis pour l'objet **TableDef** sous-jacent. Pour trier les enregistrements d'une autre façon, vous pouvez ouvrir un objet **Recordset** de type feuille de réponse dynamique, instantané ou avant uniquement à l'aide d'une instruction SQL avec une clause ORDER BY.
 
 > [!NOTE]
 > - Vous ne devez créer d’index pour les tableaux. Avec des tableaux de grande taille, non indexés, accéder à un enregistrement spécifique ou en créant un **jeu d’enregistrements** objet peut prendre un certain temps. Créer des index trop grand nombre en revanche, ralentit la mise à jour, ajouter et supprimer des opérations, car tous les index sont automatiquement mis à jour.
@@ -89,7 +89,6 @@ Cet exemple utilise la propriété **Index** pour définir des ordres d’enregi
     End Sub 
 ```
 
-<br/>
 
 Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à rechercher un produit avec un numéro d’identification.
 

@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 64cb20daaf235ebdd736771d571881cec17950f7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b29792b6d734293ee5b5b48d1de4882df9947fe0
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562747"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461243"
 ---
 # <a name="databasecreatetabledef-method-dao"></a>Database.CreateTableDef, méthode (DAO)
 
@@ -153,7 +153,6 @@ Cet exemple crée un objet **TableDef** dans la base de données Northwind.
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise les méthodes **CreateTableDef** et **FillCache** ainsi que les propriétés **CacheSize**, **CacheStart** et **SourceTableName** pour énumérer deux fois les enregistrements dans une table liée. Ensuite, il énumère également deux fois les enregistrements avec un cache de 50 enregistrements. Enfin, il affiche les statistiques de performance pour les deux exécutions, avec et sans mise en cache, dans la table liée.
 

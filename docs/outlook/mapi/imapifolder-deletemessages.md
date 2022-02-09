@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2f2066ec582b02f92cc17586bdecc7411d847987
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: db3b090ed26a43b71ea47f0bf92ee8d5e95468d9
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580005"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462268"
 ---
 # <a name="imapifolderdeletemessages"></a>IMAPIFolder::DeleteMessages
 
@@ -44,11 +44,11 @@ HRESULT DeleteMessages(
     
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le _paramètre ulUIParam_ est ignoré, sauf si l’MESSAGE_DIALOG est définie dans _le paramètre ulFlags._ 
+> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le  _paramètre ulUIParam_ est ignoré, sauf si l’MESSAGE_DIALOG est définie dans _le paramètre ulFlags_ . 
     
  _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans le paramètre _ulFlags._ 
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress_, le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’MESSAGE_DIALOG est définie dans _le paramètre ulFlags_ . 
     
  _ulFlags_
   
@@ -70,7 +70,7 @@ S_OK
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> L’appel a réussi, mais tous les messages n’ont pas été supprimés avec succès. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi, mais tous les messages n’ont pas été supprimés avec succès. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
@@ -92,7 +92,7 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
    
 Lorsque **DeleteMessages n’est** pas en mesure de se terminer, ne supposez pas qu’aucun travail n’a été effectué. **DeleteMessages a** peut-être pu supprimer un ou plusieurs des messages avant de rencontrer l’erreur. 
   
- **DeleteMessages renvoie** MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, en fonction de l’implémentation de la boutique de messages. 
+ **DeleteMessages** renvoie MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND, en fonction de l’implémentation de la boutique de messages. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

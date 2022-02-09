@@ -1,5 +1,5 @@
 ---
-title: ActiveX Data Objects (ADO) properties
+title: ActiveX Data Objects (ADO)
 TOCTitle: ADO properties
 ms:assetid: 04f08f22-6327-c603-229e-d06a9f1c0d83
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248809(v=office.15)
@@ -7,18 +7,17 @@ ms:contentKeyID: 48543020
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d79c1abb2ce664945c57a147e5e29909420caf5b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 59c76bfe77cc6ff8bd43c57f89865429a633b803
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559268"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461059"
 ---
 # <a name="ado-properties"></a>Propriétés ADO
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -27,7 +26,7 @@ ms.locfileid: "59559268"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Property</th>
+<th>Propriété</th>
 <th>Description</th>
 </tr>
 <tr class="odd">
@@ -139,7 +138,7 @@ ms.locfileid: "59559268"
 <td><p>Indique si la position actuelle est à la fin du flux.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="filter-property-ado.md">Filtre</a></p></td>
+<td><p><a href="filter-property-ado.md">Filter</a></p></td>
 <td><p>Indique un filtre pour les données d'un objet <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -155,7 +154,7 @@ ms.locfileid: "59559268"
 <td><p>Indique le niveau d'isolation d'un objet <strong>Connection</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Élément</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>Spécifie un membre spécifique d'une collection, référencé par son nom ou un nombre ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -279,7 +278,7 @@ ms.locfileid: "59559268"
 <td><p>Indique l'état SQL d'un objet <strong>Error</strong> donné.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="state-property-ado.md">State</a></p></td>
+<td><p><a href="state-property-ado.md">État</a></p></td>
 <td><p>Indique, pour tous les objets applicables, si l'état de l'objet est ouvert ou fermé. Indique, pour tous les objets applicables exécutant une méthode asynchrone, si l'objet présente actuellement un état de connexion, d'exécution ou d'extraction.</p></td>
 </tr>
 <tr class="even">
@@ -317,4 +316,3 @@ ms.locfileid: "59559268"
 </tbody>
 </table>
 
-<br/>

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 98091e5b-1abd-4814-9c7a-583b420ee11d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a37ad43414efc82cd2418fcaa848a354d116a62
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5f912a49f401755bde941f9c0341bf7eda4b3a8f
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556069"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461840"
 ---
 # <a name="mapilogonex"></a>MAPILogonEx
 
@@ -79,7 +79,7 @@ MAPI_EXTENDED
     
 MAPI_FORCE_DOWNLOAD 
   
-> Une tentative de téléchargement de tous les messages de l’utilisateur doit être réalisée avant de revenir. Si l MAPI_FORCE_DOWNLOAD n’est pas définie, les messages peuvent être téléchargés en arrière-plan après le retour de l’appel à MAPILogonEx. 
+> Une tentative doit être réalisée pour télécharger tous les messages de l’utilisateur avant de le renvoyer. Si l’MAPI_FORCE_DOWNLOAD n’est pas définie, les messages peuvent être téléchargés en arrière-plan après le retour de l’appel à MAPILogonEx. 
     
 MAPI_LOGON_UI 
   
@@ -87,15 +87,15 @@ MAPI_LOGON_UI
     
 MAPI_NEW_SESSION 
   
-> Une tentative doit être réalisée pour créer une nouvelle session MAPI au lieu d’acquérir la session partagée. Si l MAPI_NEW_SESSION n’est pas définie, MAPILogonEx utilise une session partagée existante, même si le paramètre  _lpszprofileName_ n’est pas NULL. 
+> Une tentative doit être réalisée pour créer une nouvelle session MAPI au lieu d’acquérir la session partagée. Si l MAPI_NEW_SESSION n’est pas définie, MAPILogonEx utilise une session partagée existante, même si le paramètre _lpszprofileName_ n’est pas NULL. 
     
 MAPI_NO_MAIL 
   
-> MAPI ne doit pas informer lepooler MAPI de l’existence de la session. Le résultat est qu’aucun message ne peut être envoyé ou reçu dans la session, sauf par le biais d’une paire de transport et de magasin étroitement couplée. Un client appelant définit cet indicateur s’il agit en tant qu’agent, si un travail de configuration doit être effectué ou si le client parcourant les magasins de messages disponibles. 
+> MAPI ne doit pas informer lepooler MAPI de l’existence de la session. Le résultat est qu’aucun message ne peut être envoyé ou reçu dans la session, sauf par le biais d’une paire de magasin et de transport étroitement couplée. Un client appelant définit cet indicateur s’il agit en tant qu’agent, si un travail de configuration doit être effectué ou si le client parcourant les magasins de messages disponibles. 
     
 MAPI_NT_SERVICE 
   
-> L’appelant est en cours d’exécution en tant Windows service. Les appelants qui ne s’exécutent pas en tant que service Windows ne doivent pas définir cet indicateur . les appelants qui s’exécutent en tant que service doivent définir cet indicateur. 
+> L’appelant est en cours d’exécution en tant Windows service. Les appelants qui ne s’exécutent pas en tant que service Windows ne doivent pas définir cet indicateur ; les appelants qui s’exécutent en tant que service doivent définir cet indicateur. 
     
 MAPI_SERVICE_UI_ALWAYS 
   
@@ -111,7 +111,7 @@ MAPI_UNICODE
     
 MAPI_USE_DEFAULT 
   
-> Le sous-système de messagerie doit remplacer le nom de profil du profil par défaut par le paramètre _lpszProfileName._ L MAPI_EXPLICIT_PROFILE est ignoré, sauf  _si lpszProfileName_ est NULL ou vide. 
+> Le sous-système de messagerie doit remplacer le nom de profil du profil par défaut par  _le paramètre lpszProfileName_ . L MAPI_EXPLICIT_PROFILE est ignoré, sauf si  _lpszProfileName_ est NULL ou vide. 
     
  _lppSession_
   
@@ -125,23 +125,23 @@ S_OK
     
 MAPI_E_LOGON_FAILED 
   
-> L’ouverture de session a échoué, soit parce qu’un ou plusieurs des paramètres de MAPILogonEx n’étaient pas valides, soit parce qu’il y avait déjà trop de sessions ouvertes.
+> L’ouverture de session a échoué, soit parce qu’un ou plusieurs paramètres de MAPILogonEx n’étaient pas valides, soit parce qu’il y avait déjà trop de sessions ouvertes.
     
 MAPI_E_TIMEOUT 
   
-> MAPI sérialise toutes les connexions via un mutex. Elle est renvoyée si l’MAPI_TIMEOUT_SHORT a été définie et qu’un autre thread a tenu le mutex. 
+> MAPI sérialise toutes les connexions via un mutex. Elle est renvoyée si l’MAPI_TIMEOUT_SHORT a été définie et qu’un autre thread a maintenu le mutex. 
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
 Les applications clientes MAPI appellent la fonction MAPILogonEx pour se connecter à une session avec le système de messagerie. Toutes les chaînes transmises et renvoyées à et à partir d’appels MAPI sont terminées par null et doivent être spécifiées dans le jeu de caractères ou la page de code actuel du système d’exploitation du client ou du fournisseur appelant.
   
-Le  _paramètre lpszProfileName_ est ignoré s’il existe une session précédente qui a appelé MapiLogonEx avec l’indicateur MAPI_ALLOW_OTHERS et si l’indicateur MAPI_NEW_SESSION n’est pas définie. Si le paramètre  _lpszProfileName_ est NULL ou pointe vers une chaîne vide, et que le paramètre  _flFlags_ inclut l’indicateur MAPI_LOGON_UI, la fonction MAPILogonEx génère une boîte de dialogue d’accès avec un champ vide pour le nom de profil. 
+Le  _paramètre lpszProfileName_ est ignoré s’il existe une session précédente qui a appelé MapiLogonEx avec l’indicateur MAPI_ALLOW_OTHERS et si l’indicateur MAPI_NEW_SESSION n’est pas définie. Si le paramètre  _lpszProfileName_ a la valeur NULL ou pointe vers une chaîne vide et que le paramètre  _flFlags_ inclut l’indicateur MAPI_LOGON_UI, la fonction MAPILogonEx génère une boîte de dialogue d’accès avec un champ vide pour le nom du profil. 
   
-Lors de la connexion à un profil spécifique, un client doit transmettre l’indicateur MAPI_NEW_SESSION mapiLogonEx en plus du nom de profil. Dans le cas contraire, si un autre client a établi une session partagée en se connectant avec MAPI_ALLOW_OTHERS, le client est connecté à la session partagée au lieu du profil demandé. 
+Lors de la connexion à un profil spécifique, un client doit transmettre l’indicateur MAPI_NEW_SESSION mapiLogonEx en plus du nom du profil. Dans le cas contraire, si un autre client a établi une session partagée en se connectant avec MAPI_ALLOW_OTHERS, le client est connecté à la session partagée au lieu du profil demandé. 
   
 L MAPI_EXPLICIT_PROFILE ne provoque pas l’utilisation du nom de profil par défaut lorsque  _lpszProfileName_ est NULL ou vide, sauf si l’indicateur MAPI_USE_DEFAULT est également présent. 
   
@@ -155,7 +155,7 @@ L MAPI_NO_MAIL’indicateur a plusieurs effets qui provoquent les effets suivant
     
 - Les options de transport par message et par destinataire ne sont pas disponibles. 
     
-- La table d’état ne contient pas d’entrées pour les fournisseurs de transport et aucune fonctionnalité de transport dépendante des objets d’état (tels que la configuration) n’est disponible. 
+- La table d’état ne contient pas d’entrées pour les fournisseurs de transport et aucune fonctionnalité de transport dépendante des objets d’état (par exemple, la configuration) n’est disponible. 
     
 - La ligne dupooler de message dans la table d’état contient la STATUS_FAILURE valeur. 
     

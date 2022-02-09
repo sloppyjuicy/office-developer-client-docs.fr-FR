@@ -7,18 +7,17 @@ ms:contentKeyID: 48547500
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 0842c3765740d7de803aad3f6f8e880b645dd938
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1606fe329e08b8e466c48b825d839cc4b296b747
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607506"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459992"
 ---
 # <a name="adox-collections"></a>Collections ADOX
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -67,4 +66,3 @@ ms.locfileid: "59607506"
 </tbody>
 </table>
 
-<br/>

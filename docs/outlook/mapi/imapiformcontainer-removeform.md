@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5fc586aba39ac6083e9327c83b13b158cf47ebd6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 444fcabf55b713bb4720395d47ba14ab0f7dada4
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576015"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462700"
 ---
 # <a name="imapiformcontainerremoveform"></a>IMAPIFormContainer::RemoveForm
 
@@ -37,7 +37,7 @@ HRESULT RemoveForm(
 
  _szMessageClass_
   
-> [in] Chaîne qui nomme la classe de message du formulaire à supprimer du conteneur de formulaire. Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
+> [in] Chaîne qui nomme la classe de message du formulaire à supprimer du conteneur de formulaires. Les noms de classe de message sont toujours des chaînes ANSI, jamais Unicode.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -47,7 +47,7 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> La classe de message transmise dans le  _paramètre szMessageClass_ ne correspond à la classe de message d’aucun formulaire dans le conteneur de formulaire. 
+> La classe de message transmise dans le _paramètre szMessageClass_ ne correspond à la classe de message d’aucun formulaire dans le conteneur de formulaire. 
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

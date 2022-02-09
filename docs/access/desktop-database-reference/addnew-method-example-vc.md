@@ -7,12 +7,12 @@ ms:contentKeyID: 48543370
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6ec3f4a7b4e54cff3957056b6610d8a7253c8a8f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 94a81516c80c2a602a9dc3865638c2e9a9245be7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603087"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461173"
 ---
 # <a name="addnew-method-example-vc"></a>AddNew, méthode – Exemple (VC++)
 
@@ -236,7 +236,6 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndAddNewCpp 
 ```
 
-<br/>
 
 **AddNewX.h**
 

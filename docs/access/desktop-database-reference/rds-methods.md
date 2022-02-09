@@ -7,18 +7,17 @@ ms:contentKeyID: 48545899
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 56d07d7edf8b201b3a31e19f8ba208639a27b840
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 73905491ee5cb20c798f18c2e82997f85e113e80
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597043"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457685"
 ---
 # <a name="rds-methods"></a>Méthodes RDS
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -73,4 +72,3 @@ ms.locfileid: "59597043"
 </tbody>
 </table>
 
-<br/>

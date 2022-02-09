@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 543aa19f98e112aff01b6fadb85e34e4340296bf
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: effc2ddb4c1036d2e0457160380795a8ca2677b9
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606904"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461593"
 ---
 # <a name="databaseopenrecordset-method-dao"></a>Database.OpenRecordset, méthode (DAO)
 
@@ -58,7 +58,7 @@ Crée un objet **[Recordset](recordset-object-dao.md)** et l’ajoute à la coll
 <td><p><em>Type</em></p></td>
 <td><p>Facultatif</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> qui indique le type de <strong>Recordset</strong> à ouvrir.</p><p><strong>REMARQUE</strong> : si vous ouvrez un objet <strong>Recordset</strong> dans un espace de travail Microsoft Access et que vous n’indiquez aucun type, <strong>OpenRecordset</strong> crée un objet <strong>Recordset</strong> de type table, si possible. If you specify a linked table or query, <strong>OpenRecordset</strong> creates a dynaset-type <strong>Recordset</strong>.</p>
+<td><p>Constante <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> qui indique le type de <strong>Recordset</strong> à ouvrir.</p><p><strong>REMARQUE</strong> : si vous ouvrez un objet <strong>Recordset</strong> dans un espace de travail Microsoft Access et que vous n’indiquez aucun type, <strong>OpenRecordset</strong> crée un objet <strong>Recordset</strong> de type table, si possible. Si vous spécifiez une table liée ou une requête, <strong>OpenRecordset</strong> crée un <strong>Recordset</strong> de type feuille de réponse dynamique.</p>
 </td>
 </tr>
 <tr class="odd">
@@ -95,7 +95,7 @@ La fermeture d’un **Recordset** avec la méthode **[Close](connection-close-me
 
 
 > [!NOTE]
-> Si l’argument *source* fait référence à une instruction SQL composée d’une chaîne concaténée avec une valeur non entière, et que les paramètres système spécifient un caractère décimal d’un format différent de celui des États-Unis, tel qu’une virgule (par exemple, strSQL = "PRICE &gt; " &amp; lngPrice, et lngPrice = 125,50), une erreur se produit lorsque vous essayez d’ouvrir l’objet **Recordset**. Cela s'explique par le fait que lors de la concaténation, le nombre est converti en chaîne à l'aide du caractère décimal par défaut du système et le langage SQL n'accepte que les caractères décimaux de la notation américaine.
+> Si *source* fait référence à une instruction SQL composée d’une chaîne concaténée avec une valeur non entière, et les paramètres système spécifient un caractère décimal non-américain tel qu’une virgule (par exemple, strSQL = " PRICE &gt; " &amp; lngPrice et lngPrice = 125,50), une erreur se produit lorsque vous essayez d’ouvrir le **Recordset**. En effet, pendant la concaténation, le nombre est converti en chaîne à l’aide du caractère décimal par défaut de votre système, et SQL accepte uniquement les caractères décimaux américains.
 
 **Lien fourni par** la communauté [UtterAccess](https://www.utteraccess.com). UtterAccess est un forum d’aide et wiki de Microsoft Access réputé.
 
@@ -125,7 +125,6 @@ L’exemple suivant montre comment ouvrir un objet Recordset basé sur une requ�
     Set rst = qdf.OpenRecordset()
 ```
 
-<br/>
 
 L’exemple suivant montre comment ouvrir un Recordset basé sur un tableau ou une requête.
 
@@ -143,7 +142,6 @@ L’exemple suivant montre comment ouvrir un Recordset basé sur un tableau ou u
     Set rsQuery = dbs.OpenRecordset("qryMyQuery", dbOpenDynaset)
 ```
 
-<br/>
 
 L’exemple suivant montre comment ouvrir un Recordset basé sur une instruction SQL (Structured Query Language).
 
@@ -159,7 +157,6 @@ L’exemple suivant montre comment ouvrir un Recordset basé sur une instruction
     Set rsSQL = dbs.OpenRecordset(strSQL, dbOpenSnapshot)
 ```
 
-<br/>
 
 L’exemple suivant montre comment utiliser la propriété Filter pour déterminer les enregistrements à inclure dans un Recordset ouvert par la suite.
 

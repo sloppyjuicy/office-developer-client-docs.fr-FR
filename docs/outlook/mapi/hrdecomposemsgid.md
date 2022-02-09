@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3f6fd40860e6b86f8c3a79b14ab228052a972a89
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4ba55aadd62fcbf8ea8c503f6d69bc5d40a00ccc
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564252"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462707"
 ---
 # <a name="hrdecomposemsgid"></a>HrDecomposeMsgID
 
@@ -60,15 +60,15 @@ HrDecomposeMsgID(
     
  _ppStoreEID_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de la boutique de messages qui contient l’objet. Si le _paramètre szMsgID_ pointe vers un identificateur d’entrée non fourni, NULL est renvoyé dans le paramètre _ppStoreEID._ 
+> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de la magasin de messages qui contient l’objet. Si le  _paramètre szMsgID_ pointe vers un identificateur d’entrée non fourni, NULL est renvoyé dans le paramètre _ppStoreEID_ . 
     
  _pcbMsgEID_
   
-> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de l’objet dans son magasin. Si le paramètre _szMsgID_ pointe vers une chaîne d’identificateur d’entrée non saisie, le paramètre _pcbMsgEID_ est égal à la valeur du paramètre _cbEID._ 
+> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de l’objet dans son magasin. Si le paramètre  _szMsgID_ pointe vers une chaîne d’identificateur d’entrée non saisie, le paramètre  _pcbMsgEID_ est égal à la valeur du paramètre  _cbEID_ . 
     
  _ppMsgEID_
   
-> [out] Pointeur vers un pointeur vers la chaîne d’identificateur d’entrée renvoyée de l’objet dans son magasin. Si le paramètre  _szMsgID_ pointe vers un identificateur d’entrée non fourni,  _ppMsgEID_ pointe vers un pointeur vers une copie convertie de l’identificateur d’entrée non saisie. 
+> [out] Pointeur vers un pointeur vers la chaîne d’identificateur d’entrée renvoyée de l’objet dans son magasin. Si le paramètre  _szMsgID_ pointe vers un identificateur d’entrée non saisie,  _ppMsgEID_ pointe vers un pointeur vers une copie convertie de l’identificateur d’entrée non saisie. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -76,8 +76,8 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si l’identificateur spécifié par le paramètre  _szMsgID_ est composé, il est converti à partir d’ASCII et divisé en identificateur d’entrée de l’objet au sein de sa boutique de messages et de l’identificateur d’entrée de la boutique. Les chaînes d’identificateur d’entrée non saisies sont simplement converties et copiées. La chaîne d’identificateur composée à séparer est généralement une chaîne créée par la fonction [HrComposeMsgID.](hrcomposemsgid.md) 
+Si l’identificateur spécifié par le paramètre  _szMsgID_ est composé, il est converti à partir d’ASCII et divisé en identificateur d’entrée de l’objet au sein de sa magasin de messages et de l’identificateur d’entrée de la boutique. Les chaînes d’identificateur d’entrée non saisie sont simplement converties et copiées. La chaîne d’identificateur composée à séparer est généralement une chaîne créée par [la fonction HrComposeMsgID](hrcomposemsgid.md) . 
   
-Appeler la **fonction HrDecomposeMsgID** équivaut à appeler la fonction [HrEntryIDFromSz,](hrentryidfromsz.md) puis la fonction [HrDecomposeEID.](hrdecomposeeid.md) 
+Appeler la **fonction HrDecomposeMsgID** équivaut à appeler la fonction [HrEntryIDFromSz](hrentryidfromsz.md) , puis la fonction [HrDecomposeEID](hrdecomposeeid.md) . 
   
 

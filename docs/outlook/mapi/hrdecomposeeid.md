@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b8b1f2d590616a30464181bde9bb0d0ad989bb5a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 907ed1fa9246699bc158cc903690123b26d3dedb
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610817"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462714"
 ---
 # <a name="hrdecomposeeid"></a>HrDecomposeEID
 
@@ -53,7 +53,7 @@ HrDecomposeEID(
     
  _cbEID_
   
-> [in] Taille, en octets, de l’identificateur d’entrée composée à séparer. 
+> [in] Taille, en octets, de l’identificateur d’entrée composé à séparer. 
     
  _pEID_
   
@@ -61,15 +61,15 @@ HrDecomposeEID(
     
  _pcbStoreEID_
   
-> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de la boutique de messages qui contient l’objet. Si le  _paramètre pEID_ pointe vers un identificateur d’entrée non fourni, le paramètre  _pcbStoreEID_ pointe sur une valeur de zéro. 
+> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de la boutique de messages qui contient l’objet. Si le  _paramètre pEID_ pointe vers un identificateur d’entrée non saisie, le paramètre  _pcbStoreEID_ pointe sur une valeur de zéro. 
     
  _ppStoreEID_
   
-> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de la boutique de messages qui contient l’objet. Si le _paramètre pEID_ pointe vers un identificateur d’entrée non saisie, NULL est renvoyé dans le _paramètre ppStoreEID._ 
+> [out] Pointeur vers un pointeur vers l’identificateur d’entrée renvoyé de la magasin de messages qui contient l’objet. Si le  _paramètre pEID_ pointe vers un identificateur d’entrée non fourni, NULL est renvoyé dans le _paramètre ppStoreEID_ . 
     
  _pcbMsgEID_
   
-> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de l’objet. Si le _paramètre pEID_ pointe vers un identificateur d’entrée non fourni, le paramètre _pcbMsgEID_ est égal à la valeur du paramètre _cbEID._ 
+> [out] Pointeur vers la taille renvoyée, en octets, de l’identificateur d’entrée de l’objet. Si le  _paramètre pEID_ pointe vers un identificateur d’entrée non fourni, le paramètre  _pcbMsgEID_ est égal à la valeur du paramètre  _cbEID_ . 
     
  _ppMsgEID_
   
@@ -81,7 +81,7 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si l’identificateur spécifié par le paramètre  _pEID_ est composé, il est divisé en identificateur d’entrée de l’objet dans sa magasin de messages et l’identificateur d’entrée de la boutique. Les chaînes d’identificateur d’entrée non saisie sont simplement copiées. L’identificateur composé à séparer est généralement un identificateur créé par [la fonction HrComposeEID.](hrcomposeeid.md) 
+Si l’identificateur spécifié par le paramètre  _pEID_ est composé, il est divisé en identificateur d’entrée de l’objet au sein de sa magasin de messages et de l’identificateur d’entrée de la boutique. Les chaînes d’identificateur d’entrée non saisies sont simplement copiées. L’identificateur composé à séparer est généralement un identificateur créé par [la fonction HrComposeEID](hrcomposeeid.md) . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 

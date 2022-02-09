@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 440d61c4-b69a-4010-a22b-0c9c5c376fbc
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c21c61f886a6fcc493a83e0af54f010090e2dd3e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 62f303122e1ebc7c2bf5153266b7e05589b8f0b7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561459"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462623"
 ---
 # <a name="imslogonunadvise"></a>IMSLogon::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "59561459"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime l’inscription d’un objet pour la notification des modifications de magasin de messages précédemment établies à l’aide d’un appel à la méthode [IMSLogon::Advise.](imslogon-advise.md) 
+Supprime l’inscription d’un objet pour la notification des modifications de magasin de messages précédemment établies à l’aide d’un appel à la méthode [IMSLogon::Advise](imslogon-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les fournisseurs de magasins de messages implémentent la méthode **IMSLogon::Unadvise** pour libérer le pointeur vers l’objet de réception de notification transmis dans le paramètre  _lpAdviseSink_ dans l’appel précédent à **IMSLogon::Advise,** ce qui annule l’inscription d’une notification. Dans le cadre de l’ignorer, la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de l’objet est appelée. En règle générale, **Release** est appelé pendant **l’appel Unadvise.** Toutefois, si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de sink de conseil, l’appel de publication est retardé jusqu’à ce que la méthode **OnNotify** renvoie.  
+Les fournisseurs de magasins de messages implémentent la méthode **IMSLogon::Unadvise** pour libérer le pointeur vers l’objet de réception de notification transmis dans le paramètre _lpAdviseSink_ dans l’appel précédent à **IMSLogon::Advise**, ce qui annule l’inscription d’une notification. Dans le cadre de l’ignorer, la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) de l’objet est appelée. En règle générale, **Release** est appelé pendant **l’appel Unadvise** . Toutefois, si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour l’objet de  sink de conseil, l’appel de publication est retardé jusqu’à ce que la méthode **OnNotify** renvoie. 
   
 ## <a name="see-also"></a>Voir aussi
 

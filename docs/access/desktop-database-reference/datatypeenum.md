@@ -7,12 +7,12 @@ ms:contentKeyID: 48546904
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 91cb6e06d3e0da2c1b6a68710968168930ffefbe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 29946cf70f1bfac4bff57f5bcbc3d3f521b3d8d8
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626840"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462515"
 ---
 # <a name="datatypeenum"></a>DataTypeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59626840"
 
 Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Paramètre](parameter-object-ado.md) ou d’une [Propriété](property-object-ado.md). L’indicateur de type OLE DB correspondant est montré entre parenthèses dans la colonne Description du tableau suivant. Pour plus d’informations sur les types de données OLE DB, consultez le chapitre 13 et l’annexe A du manuel *OLE DB Programmer’s Reference*.
 
-<br/>
 
 <table>
 <colgroup>
@@ -130,7 +129,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 <tr class="odd">
 <td><p><strong>adIDispatch</strong></p></td>
 <td><p>9 </p></td>
-<td><p>Indique un pointeur vers une interface <strong>IDispatch</strong> sur un objet COM (DBTYPE_IDISPATCH).</p><p><strong>REMARQUE</strong>: ce type de données n’est actuellement pas pris en charge par ADO. Nous ne pouvons donc pas garantir leur fiabilité.</p>
+<td><p>Indique un pointeur vers une interface <strong>IDispatch</strong> sur un objet COM (DBTYPE_IDISPATCH).</p><p><strong>REMARQUE</strong> : ce type de données n’est actuellement pas pris en charge par ADO. Nous ne pouvons donc pas garantir leur fiabilité.</p>
 </td>
 </tr>
 <tr class="even">
@@ -141,7 +140,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 <tr class="odd">
 <td><p><strong>adIUnknown</strong></p></td>
 <td><p>13</p></td>
-<td><p>Indique un pointeur vers une interface <strong>IUnknown</strong> sur un objet COM (DBTYPE_IUNKNOWN).</p><p><strong>REMARQUE</strong>: ce type de données n’est actuellement pas pris en charge par ADO. Nous ne pouvons donc pas garantir leur fiabilité.
+<td><p>Indique un pointeur vers une interface <strong>IUnknown</strong> sur un objet COM (DBTYPE_IUNKNOWN).</p><p><strong>REMARQUE</strong> : ce type de données n’est actuellement pas pris en charge par ADO. Nous ne pouvons donc pas garantir leur fiabilité.
 </p></td>
 </tr>
 <tr class="even">
@@ -171,7 +170,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="odd">
 <td><p><strong>adSingle</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Indique une valeur à virgule flottante en simple précision (DBTYPE_R4).</p></td>
 </tr>
 <tr class="even">
@@ -181,7 +180,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 </tr>
 <tr class="odd">
 <td><p><strong>adTinyInt</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Indique un nombre entier signé de 1 octet (DBTYPE_I1).</p></td>
 </tr>
 <tr class="even">
@@ -222,7 +221,7 @@ Spécifie le type de données d’un [Champ](field-object-ado.md), d’un [Param
 <tr class="odd">
 <td><p><strong>adVariant</strong></p></td>
 <td><p>12 </p></td>
-<td><p>Indique un objet <strong>Variant</strong> d'automatisation (DBTYPE_VARIANT).</p><p><strong>REMARQUE</strong>: ce type de données n’est actuellement pas pris en charge par ADO. Nous ne pouvons donc pas garantir leur fiabilité.</p></td>
+<td><p>Indique un objet <strong>Variant</strong> d'automatisation (DBTYPE_VARIANT).</p><p><strong>REMARQUE</strong> : ce type de données n’est actuellement pas pris en charge par ADO. Nous ne pouvons donc pas garantir leur fiabilité.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adVarNumeric</strong></p></td>
@@ -253,7 +252,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

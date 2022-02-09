@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 89425c64c2c6cf5ebb224709fd3291b9768319a4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 878c58f407257e2d700ec0cd70c26c9797b3f690
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576974"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461579"
 ---
 # <a name="recordset2nextrecordset-method-dao"></a>Recordset2.NextRecordset, méthode (DAO)
 
@@ -27,7 +27,7 @@ ms.locfileid: "59576974"
 
 *.* NextRecordset
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -35,7 +35,7 @@ Booléen
 
 ## <a name="remarks"></a>Remarques
 
-Dans un espace de travail ODBCDirect, vous pouvez ouvrir un jeu d’enregistrements contenant plusieurs requêtes Select dans l’argument source d’OpenRecordset ou la propriété **[SQL](querydef-sql-property-dao.md)** d’un objet **[QueryDef](querydef-object-dao.md)** de requête select, comme dans l’exemple suivant.  
+Dans un espace de travail ODBCDirect, vous pouvez ouvrir  un jeu d’enregistrements contenant plusieurs requêtes Select dans l’argument source **d’OpenRecordset** ou la propriété **[SQL](querydef-sql-property-dao.md)** d’un objet **[QueryDef](querydef-object-dao.md)** de requête select, comme dans l’exemple suivant.
 
 ```sql
     SELECT LastName, FirstName FROM Authors 
@@ -107,7 +107,6 @@ L'exemple ci-dessous utilise la méthode **NextRecordset** pour afficher les don
     End Sub 
 ```
 
-<br/>
 
 Une autre façon d'accomplir la même tâche serait de créer une instruction préparée contenant l'instruction SQL composée. La propriété **CacheSize** de l'objet **QueryDef** doit avoir la valeur 1, et l'objet **Recordset** doit être de type avant uniquement et en lecture seule.
 

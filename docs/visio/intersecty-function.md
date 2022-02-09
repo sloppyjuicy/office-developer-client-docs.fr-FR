@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: a298eead-044b-6f40-54c7-e0e6088baa19
 description: Renvoie la coordonnée y (dans le système de coordonnées local) du point où deux lignes se coupent.
-ms.openlocfilehash: 9af2f31df91b0ff4be203a7ad23e680763324aaa
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4faa7b9b39bca4555fc748f360ab4788f0c9d6a0
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618783"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461488"
 ---
 # <a name="intersecty-function"></a>Fonction INTERSECTY
 
@@ -22,7 +22,7 @@ Renvoie la  *coordonnée y*  (dans le système de coordonnées local) du point o
   
 ## <a name="syntax"></a>Syntaxe
 
-INTERSECTX(** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *angle2* ** ) 
+INTERSECTX(***x1** _, _*_y1_*_, _*_angle1_*_, _*_x2_*_, _*_y2_*_, _ *_angle2_** ) 
   
 ### <a name="parameters"></a>Paramètres
 
@@ -30,10 +30,10 @@ INTERSECTX(** *x1* **, ** *y1* **, ** *angle1* **, ** *x2* **, ** *y2* **, ** *a
 |:-----|:-----|:-----|:-----|
 | _x1_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _x_ d’un point sur la première ligne.  <br/> |
 | _y1_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _y_ d’un point sur la première ligne.  <br/> |
-| _angle1_ <br/> |Obligatoire  <br/> |**Number** <br/> | Valeur de la cellule Angle de la première ligne.  <br/> |
+| _angle1_ <br/> |Requis  <br/> |**Number** <br/> | Valeur de la cellule Angle de la première ligne.  <br/> |
 | _x2_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _x_ d’un point sur la deuxième ligne.  <br/> |
 | _y2_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _y_ d’un point sur la deuxième ligne.  <br/> |
-| _angle2_ <br/> |Obligatoire  <br/> |**Number** <br/> |Valeur de la cellule Angle de la deuxième ligne.  <br/> |
+| _angle2_ <br/> |Requis  <br/> |**Number** <br/> |Valeur de la cellule Angle de la deuxième ligne.  <br/> |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

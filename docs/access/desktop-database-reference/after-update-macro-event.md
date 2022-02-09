@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 60726e4c514f9fc8e6a432bac171d6bc35c4c05e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 72bd5377ef549459e86425347c94b347b35da083
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559121"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460963"
 ---
 # <a name="after-update-macro-event"></a>After Update, événement de macro
 
@@ -76,7 +76,7 @@ Le tableau suivant répertorie les commandes de macros qui peuvent être utilis�
 <td><p><a href="group-macro-statement.md">Group, instruction de macro</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Flux de programme</p></td>
+<td><p>Déroulement de programme</p></td>
 <td><p><a href="if-then-else-macro-block.md">If...Then...Else, bloc de macro</a></p></td>
 </tr>
 <tr class="even">
@@ -216,7 +216,6 @@ Pour afficher cet exemple dans le concepteur de macros, procédez comme suit :
     </DataMacros>
 ``` 
 
-<br/>
 
 ```vb
 If  Updated("Status")   Then 

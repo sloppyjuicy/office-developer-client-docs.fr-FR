@@ -7,12 +7,12 @@ ms:contentKeyID: 48546608
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 51296cf120666a855f5a7db94b922670a27c5a69
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6d8d09e155d70827aee5ba3fbf7487a114becdc8
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572486"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461636"
 ---
 # <a name="working-with-recordsets"></a>Utilisation de recordsets
 
@@ -32,7 +32,7 @@ Lorsque vous utilisez la propriété **Sort**, la propriété [CursorLocation](c
 
 Si vous définissez une chaîne vide comme valeur de la propriété **Sort**, les lignes sont rétablies dans leur ordre initial et les index temporaires sont supprimés. En revanche, les index existants seront conservés.
 
-Supposons qu’un objet **Recordset** contienne trois champs nommés *firstName*, *middleInitial* et *lastName*. Définissez **la propriété Sort** sur la chaîne  « », qui trie le jeu d’enregistrements par nom de famille dans l’ordre décroit, puis par prénom dans l’ordre croissant. L'initiale du second prénom sera ignorée.
+Supposons qu’un objet **Recordset** contienne trois champs nommés *firstName*, *middleInitial* et *lastName*. Définissez **la propriété Sort** sur la chaîne « », qui trie le  jeu d’enregistrements par nom de famille dans l’ordre décroit, puis par prénom dans l’ordre croissant. L'initiale du second prénom sera ignorée.
 
 Aucun champ référencé dans une chaîne de critères de tri ne peut être nommé « ASC » ou « DESC », car ces noms provoquent des conflits avec les mots clés **ASC** et **DESC**. Attribuez au nom du champ posant problème un alias à l'aide du mot clé **AS** dans la requête qui retourne l'objet **Recordset**.
 
@@ -54,9 +54,9 @@ La méthode **Find** recherche, dans un objet **Recordset**, une ligne répondan
 
 Seul un nom de colonne unique peut être spécifié comme critère. En effet, cette méthode ne prend pas en charge les recherches sur plusieurs colonnes.
 
-L’opérateur de comparaison pour le critère peut être **\>** « (supérieur à), « ** = » (supérieur ou égal \<**" (less than), "=" (equal), "\> à), « ( n’est pas égal) » ou « LIKE » (correspondance de \<=" (less than or equal), "\<\> modèle).
+L’opérateur de comparaison pour le critère peut être «**\>** » (supérieur à), « **\<**" (less than), "=" (equal), "\> = » (supérieur ou égal à),\<=" (less than or equal), "\<\> « » (non égal) ou « LIKE » (correspondance de modèle).
 
-La valeur du critère doit être une chaîne, un nombre à virgule flottante ou une date. Les valeurs de chaîne sont délimitées par des guillemets simples ou des signes « (di diété) ( par exemple, « \# state = 'WA' » ou « state = WA \# \# »). Les valeurs de date sont délimitées par des signes « (di diété) » (par exemple, « date de début \# \_ \> \# 22/07/97 \# »).
+La valeur du critère doit être une chaîne, un nombre à virgule flottante ou une date. Les valeurs de\# chaîne sont délimitées par des guillemets simples ou des signes « » (signe de nombre) (par exemple, « state = 'WA' » ou « state = \#WA\# »). Les valeurs de date sont délimitées\# par des signes « » (di diété) (par exemple, « startdate \#\_\> 22/07/97 »).\#
 
 Si l'opérateur de comparaison est « like », la valeur de la chaîne peut contenir un astérisque (\*) pour rechercher une ou plusieurs occurrences d'un caractère ou d'une sous-chaîne. Par exemple, « state like 'M\*' » correspond à Maine et Massachusetts. Vous pouvez également utiliser des astérisques au début et à la fin pour rechercher une sous-chaîne dans les valeurs. Par exemple, « state like '\*as\* » correspond à Alaska, Arkansas et Massachusetts.
 
@@ -91,14 +91,14 @@ La chaîne de critères est composé de clauses au formulaire *FieldName Operato
 
 - *NomChamp* doit être un nom de champ valide du **Recordset**. Si le nom de champ contient des espaces, vous devez le mettre entre crochets.
 
-- *L’opérateur* doit être l’un des suivants \<, \> : , \<=, \> =, , \<\> =, ou LIKE.
+- *L’opérateur* doit être l’un des suivants : \<, \>, \<=, \>=, \<\>, =, ou LIKE.
 
-- *La* valeur est la valeur à laquelle vous comparerez les valeurs de champ (par exemple, « Smith » \# 8/24/95, \# 12,345 ou 50,00 $). Utilisez des guillemets simples (') avec des chaînes et des signes pointant \# () avec des dates. Pour les nombres, vous pouvez utiliser les points décimaux, le signe dollar et les notations scientifiques. Si la valeur du champ *Opérateur* est LIKE, celle du champ *Valeur* peut utiliser des caractères génériques. Seuls les caractères génériques astérisque ( ) et pourcentage (%) sont autorisés et doivent être le dernier caractère \* de la chaîne. La *valeur* doit être différente de Null.
+- *La* valeur est la valeur à laquelle vous comparerez les valeurs de champ (par exemple, « Smith \#» 8/24/95\#, 12,345 ou 50,00 $). Utilisez des guillemets simples (') avec des chaînes et des signes livres (\#) avec des dates. Pour les nombres, vous pouvez utiliser les points décimaux, le signe dollar et les notations scientifiques. Si la valeur du champ *Opérateur* est LIKE, celle du champ *Valeur* peut utiliser des caractères génériques. Seuls les caractères génériques astérisque (\*) et pourcentage (%) sont autorisés et doivent être le dernier caractère de la chaîne. La *valeur* doit être différente de Null.
     
   > [!NOTE]
   > Pour inclure des guillemets simples (’) dans le filtre *Valeur*, utilisez deux guillemets simples pour en afficher un seul. Par exemple, pour filtrer *sur O’Malley*, la chaîne de critères doit être « col1 = 'O''Malley' ». 
   > 
-  > Pour inclure des guillemets simples au début et à la fin de la valeur du filtre, placez des signes dièse (#) de part et d'autre de la chaîne. Par exemple, pour filtrer sur *« 1*», la chaîne de critères doit être « col1 = #'1'# ».
+  > Pour inclure des guillemets simples au début et à la fin de la valeur du filtre, placez des signes dièse (#) de part et d'autre de la chaîne. Par exemple, pour filtrer sur *« 1* », la chaîne de critères doit être « col1 = #'1'# ».
 
 Il n'existe pas de priorité entre AND et OR. Les clauses peuvent être regroupées dans des parenthèses. Notez toutefois que vous ne pouvez pas regrouper des clauses jointes par OR, puis associer le groupe à une autre clause avec AND, comme ceci :
 
@@ -114,7 +114,7 @@ Le filtre doit être construit comme suit :
 (LastName = 'Smith' AND FirstName = 'John') OR (LastName = 'Jones' AND FirstName = 'John') 
 ```
 
-Dans une clause LIKE, vous pouvez utiliser un caractère générique au début et à la fin du modèle (par exemple, LastName Like 'mit') ou uniquement à la fin du modèle (par exemple) ou uniquement à la fin du modèle \* \* (par exemple, LastName Like 'Smit \* ').
+Dans une clause LIKE, vous pouvez utiliser un caractère générique au début et à la fin du modèle (par exemple, LastName Like '\*mit\*') ou uniquement à la fin du modèle (par exemple, ) ou uniquement à la fin du modèle (par exemple, LastName Like 'Smit\*').
 
 ### <a name="filtering-with-a-constant"></a>Filtrage avec une constante
 
@@ -155,7 +155,6 @@ Les constantes suivantes sont disponibles pour le filtrage des objets **Recordse
 </tbody>
 </table>
 
-<br/>
 
 Les constantes de filtre simplifient la résolution des conflits d'enregistrements individuels pendant le mode de mise à jour par lot en vous permettant de n'afficher, par exemple, que les enregistrements affectés par le dernier appel de la méthode **UpdateBatch**, comme illustré dans l'exemple suivant :
 

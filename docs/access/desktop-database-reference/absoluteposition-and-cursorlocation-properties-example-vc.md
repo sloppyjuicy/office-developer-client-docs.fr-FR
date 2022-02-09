@@ -7,12 +7,12 @@ ms:contentKeyID: 48546739
 ms.date: 10/17/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d346357d0df15da6d61d885e02d6a21584c5a57c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9baa5b7e06536e3a53b2dcb69d91e59c09dd316f
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586375"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460398"
 ---
 # <a name="absoluteposition-and-cursorlocation-properties-example-vc"></a>AbsolutePosition et CursorLocation, propriétés – Exemple (VC++)
 
@@ -301,7 +301,6 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndAbsolutePositionCpp 
 ```
 
-<br/>
 
 **AbsolutePositionX.h**
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48543780
 ms.date: 10/17/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 02269578e00144853fe1521d26f080f41b03c756
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b60fdc6eee17bd56b48d8660bc9377e1d17b3fa4
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569551"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460342"
 ---
 # <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc"></a>ActiveConnection, CommandText, CommandTimeout, CommandType, Size et Direction, propriétés – Exemple (VC++)
 
@@ -200,7 +200,6 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndActiveConnectionCpp 
 ```
 
-<br/>
 
 **ActiveConnectionX.h**
 

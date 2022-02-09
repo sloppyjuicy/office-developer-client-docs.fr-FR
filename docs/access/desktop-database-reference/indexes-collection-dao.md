@@ -1,5 +1,5 @@
 ---
-title: Indexes collection (DAO)
+title: Indexes, collection (DAO)
 TOCTitle: Indexes Collection
 ms:assetid: 26450e85-c79d-b12a-d760-dfc89c37f36c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191889(v=office.15)
@@ -7,14 +7,14 @@ ms:contentKeyID: 48543802
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 73caeebae4a2a33d54d1dcc13cb0a7b79264302f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d9562710e54c0c5ea85645ca13b65395f6570177
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568928"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462009"
 ---
-# <a name="indexes-collection-dao"></a>Indexes collection (DAO)
+# <a name="indexes-collection-dao"></a>Indexes, collection (DAO)
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -115,7 +115,6 @@ Cet exemple crée un nouvel objet **Index**, l'ajoute à la collection **Indexes
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la méthode **CreateIndex** pour créer deux nouveaux objets **Index** et les ajouter à la collection **Indexes** de l'objet **TableDef** Employees. Il énumère ensuite la collection **Indexes** de l'objet **TableDef**, la collection **Fields** des nouveaux objets **Index**, et la collection Properties des nouveaux objets **Index**. La fonction CreateIndexOutput est requise pour exécuter cette opération.
 

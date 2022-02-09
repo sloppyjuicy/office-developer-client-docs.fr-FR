@@ -7,12 +7,12 @@ ms:contentKeyID: 48546451
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 8cfec9192f504fcc36aa51d149e35b73d3baa41c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6ae073a3d8d17493fed4ae71042adf879ebec7a8
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59597183"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462763"
 ---
 # <a name="move-method-example-vc"></a>Move, méthode – Exemple (VC++)
 
@@ -255,7 +255,6 @@ void PrintComError(_com_error &e)
 // EndMoveCpp 
 ```
 
-<br/>
 
 **MoveX.h**
 

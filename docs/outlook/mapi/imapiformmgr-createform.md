@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 995de13df071483e556e1ccd8833231fa93fe0ae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3d5337609d3dec0f15f5a9f569409873f4a5b87d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596280"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461369"
 ---
 # <a name="imapiformmgrcreateform"></a>IMAPIFormMgr::CreateForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "59596280"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ouvre un formulaire pour créer un message basé sur la classe de message du formulaire.
+Ouvre un formulaire pour créer un message en fonction de la classe de message du formulaire.
   
 ```cpp
 HRESULT CreateForm(
@@ -41,7 +41,7 @@ HRESULT CreateForm(
 
  _ulUIParam_
   
-> [in] Poignée vers la fenêtre parente de l’indicateur de progression qui s’affiche pendant l’ouverture du formulaire. Le _paramètre ulUIParam_ est ignoré, sauf si l’MAPI_DIALOG est définie dans le _paramètre ulFlags._ 
+> [in] Poignée vers la fenêtre parente de l’indicateur de progression qui s’affiche pendant l’ouverture du formulaire. Le  _paramètre ulUIParam_ est ignoré, sauf si l’MAPI_DIALOG est définie dans _le paramètre ulFlags_ . 
     
  _ulFlags_
   
@@ -75,11 +75,11 @@ MAPI_E_NO_INTERFACE
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaire appellent la méthode **IMAPIFormMgr::CreateForm** pour ouvrir un formulaire afin de créer un message basé sur la classe de message du formulaire. **CreateForm** ouvre le formulaire en créant une instance du serveur de formulaire pour ce formulaire, comme décrit dans l’objet d’informations du formulaire donné. Si nécessaire, **CreateForm** appelle la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) pour télécharger le code du serveur de formulaire sur le disque de l’utilisateur. 
+Les visionneuses de formulaire appellent la méthode **IMAPIFormMgr::CreateForm** pour ouvrir un formulaire afin de créer un message en fonction de la classe de message du formulaire. **CreateForm** ouvre le formulaire en créant une instance du serveur de formulaire pour ce formulaire, comme décrit dans l’objet d’informations du formulaire donné. Si nécessaire, **CreateForm** appelle la méthode [IMAPIFormMgr::P repareForm](imapiformmgr-prepareform.md) pour télécharger le code du serveur de formulaire sur le disque de l’utilisateur. 
   
-Le  _paramètre pfrminfoToActivate_ doit pointer vers un objet d’informations de formulaire qui a été correctement résolu. 
+Le  _paramètre pfrminfoToActivate doit_ pointer vers un objet d’informations de formulaire qui a été correctement résolu. 
   
-Une fois le formulaire ouvert, la visionneuse de formulaire appelant doit configurer un message à l’aide de l’interface [IPersistMessage](ipersistmessageiunknown.md) et peut éventuellement configurer un contexte d’affichage pour le formulaire. Pour plus d’informations, voir [Lancement d’un serveur de formulaires.](launching-a-form-server.md) 
+Une fois le formulaire ouvert, la visionneuse de formulaire appelant doit configurer un message à l’aide de l’interface [IPersistMessage](ipersistmessageiunknown.md) et peut éventuellement configurer un contexte d’affichage pour le formulaire. Pour plus d’informations, voir [Lancement d’un serveur de formulaires](launching-a-form-server.md). 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

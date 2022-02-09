@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 9412594f-8acc-4c7e-a668-4ec1da0ad9cf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3b952e6a62af99f9aa1a1afd0ec96102e54318c8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4b856d673a0d2afd56a920ef7f4fe4d390227ad3
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556076"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461558"
 ---
 # <a name="mapifreebuffer"></a>MAPIFreeBuffer
 
@@ -25,7 +25,7 @@ ms.locfileid: "59556076"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Libère une mémoire tampon allouée avec un appel à la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) ou [MAPIAllocateMore.](mapiallocatemore.md) 
+Libère une mémoire tampon allouée avec un appel à la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) ou [MAPIAllocateMore](mapiallocatemore.md) . 
   
 |||
 |:-----|:-----|
@@ -43,7 +43,7 @@ ULONG MAPIFreeBuffer(
 
  _lpBuffer_
   
-> [in] Pointeur vers une mémoire tampon précédemment allouée. Si NULL est transmis dans le  _paramètre lpBuffer,_ **MAPIFreeBuffer** ne fait rien. 
+> [in] Pointeur vers une mémoire tampon précédemment allouée. Si NULL est transmis dans _le paramètre lpBuffer_ , **MAPIFreeBuffer** ne fait rien. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -53,14 +53,14 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-En règle générale, lorsqu’une application cliente ou un fournisseur de services appelle [MAPIAllocateBuffer](mapiallocatebuffer.md) ou [MAPIAllocateMore](mapiallocatemore.md), le système d’exploitation construit dans une mémoire tampon contiguë une ou plusieurs structures complexes avec plusieurs niveaux de pointeurs. Lorsqu’une fonction ou une méthode MAPI crée une mémoire tampon avec ce contenu, un client peut ensuite libérer toutes les structures contenues dans la mémoire tampon en passant à **MAPIFreeBuffer** le pointeur vers la mémoire tampon renvoyée par la fonction MAPI qui a créé la mémoire tampon. Pour qu’un fournisseur de services libère une mémoire tampon à l’aide de **MAPIFreeBuffer,** il doit transmettre le pointeur à cette mémoire tampon renvoyée avec l’objet de support du fournisseur. 
+En règle générale, lorsqu’une application cliente ou un fournisseur de services appelle [MAPIAllocateBuffer](mapiallocatebuffer.md) ou [MAPIAllocateMore](mapiallocatemore.md), le système d’exploitation construit dans une mémoire tampon contiguë une ou plusieurs structures complexes avec plusieurs niveaux de pointeurs. Lorsqu’une fonction ou une méthode MAPI crée une mémoire tampon avec ce contenu, un client peut ensuite libérer toutes les structures contenues dans la mémoire tampon en passant à **MAPIFreeBuffer** le pointeur vers la mémoire tampon renvoyée par la fonction MAPI qui a créé la mémoire tampon. Pour qu’un fournisseur de services libère une mémoire tampon à l’aide de **MAPIFreeBuffer**, il doit transmettre le pointeur à cette mémoire tampon renvoyée avec l’objet de support du fournisseur. 
   
 L’appel **à MAPIFreeBuffer** pour libérer une mémoire tampon particulière doit être effectué dès qu’un client ou un fournisseur a terminé d’utiliser cette mémoire tampon. Le simple fait d’appeler la méthode [IMAPISession::Logoff](imapisession-logoff.md) à la fin d’une session MAPI ne libère pas automatiquement les mémoires tampons. 
   
-Un client ou un fournisseur de services doit fonctionner sur l’hypothèse que le pointeur passé dans  _lpBuffer_ n’est pas valide après un retour réussi de **MAPIFreeBuffer**. Si le pointeur indique soit un bloc de mémoire non alloué par le système de messagerie via **MAPIAllocateBuffer** ou **MAPIAllocateMore,** soit un bloc de mémoire libre, le comportement de **MAPIFreeBuffer** n’est pas indéfini. 
+Un client ou un fournisseur de services doit fonctionner sur l’hypothèse que le pointeur passé dans  _lpBuffer_ n’est pas valide après un retour réussi de **MAPIFreeBuffer**. Si le pointeur indique soit un bloc de mémoire non alloué par le système de messagerie via **MAPIAllocateBuffer** ou **MAPIAllocateMore** , soit un bloc de mémoire libre, le comportement de **MAPIFreeBuffer** n’est pas indéfini. 
   
 > [!NOTE]
-> La transmission d’un pointeur null à **MAPIFreeBuffer** simplifie et simplifie le code de nettoyage de l’application, car **MAPIFreeBuffer** peut initialiser les pointeurs sur NULL, puis les libérer dans le code de nettoyage sans avoir à les tester au premier abord. 
+> La transmission d’un pointeur null à **MAPIFreeBuffer** simplifie et simplifie le code de nettoyage de l’application, car **MAPIFreeBuffer** peut initialiser les pointeurs sur NULL, puis les libérer dans le code de nettoyage sans avoir à les tester au départ. 
   
 ## <a name="see-also"></a>Voir aussi
 

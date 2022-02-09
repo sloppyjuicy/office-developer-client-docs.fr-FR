@@ -7,12 +7,12 @@ ms:contentKeyID: 48545208
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: b1085695b76077e4041523def48944a48ffeeb65
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0b49493614de08d65fde0bf58c53562e1c13b85d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601806"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461890"
 ---
 # <a name="schemaenum"></a>SchemaEnum
 
@@ -24,13 +24,12 @@ Spécifie le type de **Recordset** de schéma extrait par la méthode [OpenSchem
 
 D'autres informations sur la fonction et les colonnes renvoyées pour chaque constante ADO sont présentes dans les rubriques de l'Annexe B du manuel *OLE DB Programmers Reference*. Le nom de chaque rubrique est répertorié entre parenthèses dans la section Description du tableau suivant.
 
-D'autres informations sur la fonction et les colonnes renvoyées pour chaque constante ADO MD sont présentes dans les rubriques du chapitre 23 du manuel *OLE DB Programmers Reference*. Le nom de chaque rubrique est répertorié entre parenthèses et marqué d’un astérisque ( ) dans la colonne \* Description du tableau suivant.
+D'autres informations sur la fonction et les colonnes renvoyées pour chaque constante ADO MD sont présentes dans les rubriques du chapitre 23 du manuel *OLE DB Programmers Reference*. Le nom de chaque rubrique est répertorié entre parenthèses et marqué d’un astérisque (\*) dans la colonne Description du tableau suivant.
 
-Convertissez les types de données des colonnes de la documentation OLE DB en types de données ADO en vous reportant à la colonne de la rubrique [DataTypeEnum](datatypeenum.md) ADO. Par exemple, un type de données OLE DB **de DBTYPE \_ WSTR** équivaut à un type de données ADO **d’adWChar**.
+Convertissez les types de données des colonnes de la documentation OLE DB en types de données ADO en vous reportant à la colonne de la rubrique [DataTypeEnum](datatypeenum.md) ADO. Par exemple, un type de données OLE DB **de DBTYPEWSTR\_** équivaut à un type de données ADO **d’adWChar**.
 
-ADO génère des résultats de type schéma pour les constantes **adSchemaDBInfoKeywords** et **adSchemaDBInfoLiterals**. ADO crée un **recordset,** puis remplit chaque ligne avec les valeurs renvoyées respectivement par les méthodes **IDBInfo::GetKeywords** et **IDBInfo::GetLiteralInfo.** Vous pouvez trouver des informations supplémentaires sur ces méthodes dans la section IDBInfo du *OLE DB Programmer’s Reference*.
+ADO génère des résultats de type schéma pour les constantes **adSchemaDBInfoKeywords** et **adSchemaDBInfoLiterals**. ADO crée un **recordset**, puis remplit chaque ligne avec les valeurs renvoyées respectivement par les méthodes **IDBInfo::GetKeywords** et **IDBInfo::GetLiteralInfo** . Pour plus d’informations sur ces méthodes, voir la section IDBInfo du *OLE DB Programmer’s Reference*.
 
-<br/>
 
 <table>
 <colgroup>
@@ -99,7 +98,7 @@ GRANTEE</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaColumns</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Renvoie les colonnes des tables (vues comprises) définies dans le catalogue et accessibles à un utilisateur donné. (COLUMNS Rowset)</p></td>
 <td><p>TABLE_CATALOG<br />
 TABLE_SCHEMA<br />
@@ -273,7 +272,7 @@ PARAMETER_NAME</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adSchemaProcedures</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Renvoie les procédures définies dans le catalogue et dont est propriétaire un utilisateur donné. (PROCEDURES Rowset)</p></td>
 <td><p>PROCEDURE_CATALOG<br />
 PROCEDURE_SCHEMA<br />
@@ -432,7 +431,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

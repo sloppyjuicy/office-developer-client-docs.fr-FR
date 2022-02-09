@@ -7,12 +7,12 @@ ms:contentKeyID: 48546493
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f93c9dbaf4bca487785084b570efaf0bb482ab68
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 98089465dd126dacad9eb6a164f65f74e01425fb
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565624"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461236"
 ---
 # <a name="databases-collection-dao"></a>Databases collection (DAO)
 
@@ -28,11 +28,11 @@ Dans un espace de travail Microsoft Access, la propriété **Name** d'une base d
 
 Pour faire référence à un objet **Database** d'une collection par son numéro ordinal ou par son paramètre de propriété **Name**, utilisez l'une des syntaxes suivantes :
 
-- **Bases de données**(0)
+- **Databases**(0)
 
-- **Bases de données**( »*nom*« )
+- **Databases**(« *name* »)
 
-- **Bases de données** \! \[ *name*\]
+- **Bases de données**\!\[ *name*\]
 
 > [!NOTE]
 > Vous pouvez ouvrir la même source de données ou la même base de données plusieurs fois, en créant des noms dupliqués dans la collection **Databases**. Vous devez affecter des objets **Database** à des variables d’objet et les désigner par nom de variable.
@@ -84,7 +84,6 @@ End Sub
  
 ```
 
-<br/>
 
 Cet exemple utilise **CreateDatabase** pour créer un objet **Database** chiffré.
 

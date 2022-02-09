@@ -7,12 +7,12 @@ ms:contentKeyID: 48547246
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4963e702f6a1d488aa5863c67cd825a1aa63db88
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 00f0384208d6b59b777c1c79794867bd12fa5186
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589299"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462756"
 ---
 # <a name="originalvalue-and-underlyingvalue-properties-example-vc"></a>OriginalValue et UnderlyingValue, propriétés – Exemple (VC++)
 
@@ -229,7 +229,6 @@ void PrintComError(_com_error &e)
 // EndOriginalValueCpp 
 ```
 
-<br/>
 
 **OriginalValueX.h**
 

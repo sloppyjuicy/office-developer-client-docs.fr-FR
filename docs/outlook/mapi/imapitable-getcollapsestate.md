@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fd4ea496-4c83-49cd-854e-f373cc1ed2af
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 64a63e860f423b7de56bce277f778576c2ed44c1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 90edf5340db6d3b3cbce4768503c940a048e9909
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620834"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461614"
 ---
 # <a name="imapitablegetcollapsestate"></a>IMAPITable::GetCollapseState
 
@@ -45,15 +45,15 @@ LPBYTE FAR * lppbCollapseState
     
  _cbInstanceKey_
   
-> [in] Nombre d’octets dans la clé d’instance pointée par _le paramètre lpbInstanceKey._ 
+> [in] Nombre d’octets dans la clé d’instance pointée par le  _paramètre lpbInstanceKey_ . 
     
  _lpbInstanceKey_
   
-> [in] Pointeur vers la **propriété PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la ligne à laquelle l’état actuellement réduire ou développé doit être reconstruit. Le  _paramètre lpbInstanceKey ne_ peut pas être NULL. 
+> [in] Pointeur vers la **propriété PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) de la ligne à partir de laquelle l’état actuellement réduire ou développé doit être reconstruit. Le  _paramètre lpbInstanceKey_ ne peut pas être NULL. 
     
  _lpcbCollapseState_
   
-> [out] Pointeur vers le nombre de structures pointées par _le paramètre lppbCollapseState._ 
+> [out] Pointeur vers le nombre de structures pointées par  _le paramètre lppbCollapseState_ . 
     
  _lppbCollapseState_
   
@@ -75,23 +75,23 @@ MAPI_E_NO_SUPPORT
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPITable::GetCollapseState** fonctionne avec la méthode [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md) pour modifier l’affichage d’une table classée par l’utilisateur. **GetCollapseState** enregistre les données nécessaires à l’utilisation de **SetCollapseState** pour reconstruire les affichages appropriés des catégories d’une table classée. Les fournisseurs de services déterminent les données à enregistrées. Toutefois, la plupart des fournisseurs de services implémentant **GetCollapseState** enregistrent les données suivantes : 
+La **méthode IMAPITable::GetCollapseState** fonctionne avec la méthode [IMAPITable::SetCollapseState](imapitable-setcollapsestate.md) pour modifier l’affichage d’une table classée par l’utilisateur. **GetCollapseState** enregistre les données nécessaires à **l’utilisation de SetCollapseState pour reconstruire** les affichages appropriés des catégories d’une table classée. Les fournisseurs de services déterminent les données à enregistrées. Toutefois, la plupart des fournisseurs de services **implémentant GetCollapseState** enregistrent les données suivantes : 
   
-- Clés de tri (colonnes standard et colonnes de catégorie).
+- Les touches de tri (colonnes standard et colonnes de catégorie).
     
 - Informations sur la ligne représentée par la clé d’instance.
     
 - Informations pour restaurer les catégories collapsed et expanded du tableau.
     
-Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation.](sorting-and-categorization.md)
+Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation](sorting-and-categorization.md).
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Stockez l’état actuel de tous les nodes d’une table dans le _paramètre lppbCollapseState._ 
+Stockez l’état actuel de tous les nodes d’une table dans le _paramètre lppbCollapseState_ . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Toujours appeler **GetCollapseState** avant d’appeler **SetCollapseState**. 
+Appelez toujours **GetCollapseState** avant **d’appeler SetCollapseState**. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48547216
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 1f5448d697cb7cb6c959bc15ccb05abd7a8de5ae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f29d7562cb977bfaa1867d2d7ea6a2834fda4da1
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59585290"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460970"
 ---
 # <a name="streamwriteenum"></a>StreamWriteEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59585290"
 
 Spécifie si un séparateur de ligne est ajouté à la chaîne écrite dans un objet [Stream](stream-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>

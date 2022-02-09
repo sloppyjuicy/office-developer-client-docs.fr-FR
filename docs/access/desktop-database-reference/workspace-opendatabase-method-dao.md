@@ -7,12 +7,12 @@ ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: f7edb66a036c986f1e1d7ed52dcb5985743f930c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cf71b7460463316f9c5c0b03441dbc6029093a2b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621506"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461523"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Méthode Workspace.OpenDatabase (DAO)
 
@@ -103,7 +103,6 @@ Vous pouvez utiliser les valeurs ci-dessous pour l’argument options.
 </tbody>
 </table>
 
-<br/>
 
 Lorsque vous ouvrez une base de données, elle est automatiquement ajoutée à la collection **Databases**.
 

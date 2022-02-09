@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 3597a74ef789ea591a82a569069679a3dd8e449e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 277fff679b8ceccd3a296fa6779d62b1576208fa
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624243"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461735"
 ---
 # <a name="sending-messages-message-store-provider-tasks"></a>Sending Messages: Message Store Provider Tasks
 
@@ -25,9 +25,9 @@ Le fournisseur de banque de messages d�termine s'il faut mettent en �uvre le
   
 La proc�dure suivante d�crit les t�ches requises d'un fournisseur de banque de messages pour envoyer un message. 
   
-**Dans IMessage::SubmitMessage, le fournisseur de la boutique de messages**:
+**Dans IMessage::SubmitMessage, le fournisseur de la boutique de messages** :
   
-1. Appelle [IMAPISupport::P repareSubmit](imapisupport-preparesubmit.md) si l’indicateur MSGFLAG_RESEND est définie dans sa propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) et renvoie les erreurs au client. **PrepareSubmit** vérifie la **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) de chaque destinataire dans la liste des destinataires du message.
+1. Appelle [IMAPISupport::P repareSubmit](imapisupport-preparesubmit.md) si l’indicateur MSGFLAG_RESEND est définie dans sa propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) et renvoie les erreurs au client. **PrepareSubmit** vérifie la **propriété PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) de chaque destinataire dans la liste des destinataires du message.
     
    - Si l’indicateur MAPI_SUBMITTED est définie, indiquant que le destinataire n’a pas reçu le message d’origine, **PrepareSubmit** désinscrit l’indicateur et définit la propriété **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) sur TRUE. 
     
@@ -37,7 +37,7 @@ La proc�dure suivante d�crit les t�ches requises d'un fournisseur de banqu
     
 3. Permet de s'assurer qu'il est une colonne pour **PR_RESPONSIBILITY** dans la table de destinataires et lui affecte la valeur FALSE pour indiquer qu'aucun transport n'a de responsabilit� encore suppos�e pour transmettre le message. 
     
-4. Définit la date et l’heure d’origine dans **la propriété PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)).
+4. Définit la date et l’heure d’origine dans **PR_CLIENT_SUBMIT_TIME** propriété ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)).
     
 5. Calls [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md) to: 
     
@@ -48,19 +48,18 @@ La proc�dure suivante d�crit les t�ches requises d'un fournisseur de banqu
     
 6. Ex�cute les t�ches suivantes si l'indicateur de message NEEDS_PREPROCESSING est d�fini :
     
-   - Place le message dans la file d’attente sortante avec la SUBMITFLAG_PREPROCESS bits définie dans la **propriété PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)).
+   - Place le message dans la file d’attente sortante avec la SUBMITFLAG_PREPROCESS bits définie dans la propriété **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)).
    - Avertit le spouleur MAPI que la file d'attente a �t� modifi�e.
    - Rend le contr�le au client et le flux de messages continue dans le spouleur MAPI. 
    - Le spouleur MAPI effectue les t�ches suivantes :
      - Verrouille le message en appelant IMsgStore::SetLockState. 
-     - Effectue le prétraitage nécessaire en appelant toutes les fonctions de prétraitation dans l’ordre d’inscription. Les fournisseurs de transport appellent IMAPISupport::RegisterPreprocessor pour enregistrer les fonctions de prétraitment. 
+     - Effectue le prétraitage nécessaire en appelant toutes les fonctions de prétraitage dans l’ordre d’inscription. Les fournisseurs de transport appellent IMAPISupport::RegisterPreprocessor pour enregistrer les fonctions de prétraitment. 
      - Appelle IMessage::SubmitMessage sur le message ouvert pour indiquer à la boutique de messages que le prétraitement est terminé.
 
-<br/>
 
-Les deux étapes suivantes se produisent dans le processus client en l’absence de prétraitement et lorsque lepooler MAPI appelle **SubmitMessage** en cas de prétraitement. 
+Les deux étapes suivantes se produisent dans le processus client en l’absence de prétraitement et lorsque lepooler MAPI appelle **SubmitMessage** s’il y a eu un prétraitement. 
 
-**Fournisseur de la boutique de messages**:
+**Fournisseur de la boutique de messages** :
 
 1. Performs the following tasks if the message store is tightly coupled to a transport and the NEEDS_SPOOLER flag was returned from [IMAPISupport::ExpandRecips](imapisupport-expandrecips.md):
     

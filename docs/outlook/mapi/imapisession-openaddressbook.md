@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c7344829c9d4478d098a79b15a0a8cff4824a404
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fac842a208cf24664e9ec3e12587e18763c03af6
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567514"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462686"
 ---
 # <a name="imapisessionopenaddressbook"></a>IMAPISession::OpenAddressBook
 
@@ -44,7 +44,7 @@ HRESULT OpenAddressBook(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au carnet d’adresses. La **transmission de la** valeur null renvoie un pointeur vers l’interface standard du carnet d’adresses, [IAddrBook : IMAPIProp](iaddrbookimapiprop.md). 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au carnet d’adresses. La **transmission de la valeur null** renvoie un pointeur vers l’interface standard du carnet d’adresses, [IAddrBook : IMAPIProp](iaddrbookimapiprop.md). 
     
  _ulFlags_
   
@@ -66,17 +66,17 @@ S_OK
     
 MAPI_W_ERRORS_RETURNED 
   
-> L’appel a réussi, mais les conteneurs d’un ou plusieurs fournisseurs de carnet d’adresses n’ont pas pu être ouverts. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi, mais les conteneurs d’un ou plusieurs fournisseurs de carnet d’adresses n’ont pas pu être ouverts. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::OpenAddressBook** ouvre le carnet d’adresses intégré MAPI, une collection des conteneurs de niveau supérieur de tous les fournisseurs de carnet d’adresses du profil. Le pointeur renvoyé dans le  _paramètre lppAdrBook_ fournit un accès supplémentaire au contenu du carnet d’adresses. Cela permet à l’appelant d’effectuer des tâches telles que l’ouverture de conteneurs individuels, la recherche d’utilisateurs de messagerie et l’affichage de boîtes de dialogue d’adresse communes. 
+La **méthode IMAPISession::OpenAddressBook** ouvre le carnet d’adresses intégré MAPI, une collection des conteneurs de niveau supérieur de tous les fournisseurs de carnet d’adresses du profil. Le pointeur renvoyé dans le _paramètre lppAdrBook_ fournit un accès supplémentaire au contenu du carnet d’adresses. Cela permet à l’appelant d’effectuer des tâches telles que l’ouverture de conteneurs individuels, la recherche d’utilisateurs de messagerie et l’affichage de boîtes de dialogue d’adresse communes. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **OpenAddressBook renvoie** MAPI_W_ERRORS_RETURNED si elle ne peut pas charger un ou plusieurs des fournisseurs de carnet d’adresses dans le profil. Cette valeur est un avertissement, et non une valeur d’erreur . gérer comme vous le feriez S_OK. **OpenAddressBook renvoie** toujours un pointeur valide dans le paramètre  _lppAdrBook,_ quel que soit le nombre de fournisseurs de carnet d’adresses dont le chargement a échoué. Par conséquent, vous devez toujours appeler la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) du carnet d’adresses à un moment donné avant de vous dé connecter. 
+ **OpenAddressBook renvoie** MAPI_W_ERRORS_RETURNED si elle ne peut pas charger un ou plusieurs des fournisseurs de carnet d’adresses dans le profil. Cette valeur est un avertissement, et non une valeur d’erreur . gérer comme vous le feriez S_OK. **OpenAddressBook renvoie** toujours un pointeur valide dans le paramètre _lppAdrBook_ , quel que soit le nombre de fournisseurs de carnet d’adresses dont le chargement a échoué. Par conséquent, vous devez toujours appeler la méthode [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) du carnet d’adresses à un moment donné avant de vous dé connecter. 
   
-Lorsque **OpenAddressBook** renvoie MAPI_W_ERRORS_RETURNED, appelez [IMAPISession::GetLastError](imapisession-getlasterror.md) pour obtenir une structure [MAPIERROR](mapierror.md) qui contient des informations sur les fournisseurs défaillants. Une structure **MAPIERROR unique** qui contient les informations fournies par tous les fournisseurs est renvoyée. 
+Lorsque **OpenAddressBook** renvoie MAPI_W_ERRORS_RETURNED, appelez [IMAPISession::GetLastError](imapisession-getlasterror.md) pour obtenir une structure [MAPIERROR](mapierror.md) qui contient des informations sur les fournisseurs défaillants. Une structure **MAPIERROR** unique qui contient les informations fournies par tous les fournisseurs est renvoyée. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

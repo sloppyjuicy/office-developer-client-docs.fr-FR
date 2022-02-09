@@ -7,12 +7,12 @@ ms:contentKeyID: 48545835
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 926ff13fa01b1bf6dd891116a799f8c77826d08d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 39d724d1b67f2d706e1269a78e104e4799371574
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59606925"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462672"
 ---
 # <a name="cursortypeenum"></a>CursorTypeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59606925"
 
 Spécifie le type de curseur utilisé dans un objet [Recordset](recordset-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -75,7 +74,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: c33233ffc745435949a92ddb788f84b37f0b43d3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e22422666a2ad2008526105f84c0baaaccd4e816
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564210"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462184"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
@@ -25,7 +25,7 @@ ms.locfileid: "59564210"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le dossier dans lequel le message actuel a été créé ou ouvert, s’il existe un tel dossier. Cette méthode renvoie la valeur NULL dans le  _paramètre ppFolder_ pour les messages incorporés, qui ne sont pas stockés directement dans un dossier. 
+Renvoie le dossier dans lequel le message actuel a été créé ou ouvert, s’il existe un tel dossier. Cette méthode renvoie la valeur NULL dans le _paramètre ppFolder_ pour les messages incorporés, qui ne sont pas stockés directement dans un dossier. 
   
 ```cpp
 HRESULT GetFolder(

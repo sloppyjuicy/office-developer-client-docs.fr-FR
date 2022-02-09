@@ -7,12 +7,12 @@ ms:contentKeyID: 48543347
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f0a7feb2b456252dabb14f9bf4963313bd7edd98
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4bb0edabfe8f623502931084ad9702c59784f5fb
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615191"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462198"
 ---
 # <a name="objectstateenum"></a>ObjectStateEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59615191"
 
 Spécifie l'état d'un objet : ouvert ou fermé, en cours de connexion à une source de données, d'exécution d'une commande ou d'extraction de données.
 
-<br/>
 
 <table>
 <colgroup>
@@ -53,7 +52,7 @@ Spécifie l'état d'un objet : ouvert ou fermé, en cours de connexion à une so
 </tr>
 <tr class="even">
 <td><p><strong>adStateExecuting</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Indique que l'objet est en train d'exécuter une commande.</p></td>
 </tr>
 <tr class="odd">
@@ -75,7 +74,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

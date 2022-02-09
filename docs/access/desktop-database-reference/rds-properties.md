@@ -7,18 +7,17 @@ ms:contentKeyID: 48542899
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7cc662abeca7dbc7135b7283631c0c441caaef3b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 65c2a2cc5186526d240e2c20f3668c17dceab840
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564973"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461658"
 ---
 # <a name="rds-properties"></a>Propriétés RDS
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -27,7 +26,7 @@ ms.locfileid: "59564973"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Property</th>
+<th>Propriété</th>
 <th>Description</th>
 </tr>
 <tr class="odd">
@@ -71,7 +70,7 @@ ms.locfileid: "59564973"
 <td><p>Indique l'objet <strong>Recordset</strong> retourné d'un objet métier personnalisé.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="server-property-rds.md">Server</a></p></td>
+<td><p><a href="server-property-rds.md">Serveur</a></p></td>
 <td><p>Indique le nom de l'IIS (Internet Information Services) et du protocole de communication.</p></td>
 </tr>
 <tr class="even">
@@ -93,4 +92,3 @@ ms.locfileid: "59564973"
 </tbody>
 </table>
 
-<br/>

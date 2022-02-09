@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 832e2c18-ddba-4d18-a391-710d21fe23e6
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 5e102832e86317f33348235b3a13ae6dc6838382
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3396503d4836f7db25529202895f264d1918a9c7
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630655"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461607"
 ---
 # <a name="imapitablegetlasterror"></a>IMAPITable::GetLastError
 
@@ -25,7 +25,7 @@ ms.locfileid: "59630655"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie une structure [MAPIERROR](mapierror.md) contenant des informations sur l’erreur précédente sur le tableau. 
+Renvoie une [structure MAPIERROR](mapierror.md) contenant des informations sur l’erreur précédente sur le tableau. 
   
 ```cpp
 HRESULT GetLastError(
@@ -47,7 +47,7 @@ LPMAPIERROR FAR * lppMAPIError
     
 MAPI_UNICODE 
   
-> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre  _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
+> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
  _lppMAPIError_
   
@@ -69,13 +69,13 @@ La **méthode IMAPITable::GetLastError** renvoie des informations détaillées, 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **GetLastError chaque** fois que vous avez besoin d’afficher des informations sur une erreur à l’utilisateur. 
+**Appelez GetLastError chaque** fois que vous avez besoin d’afficher des informations sur une erreur à l’utilisateur. 
   
 Vous pouvez utiliser la structure [MAPIERROR](mapierror.md) pointée par le paramètre  _lppMAPIError_ si l’objet table en fournit un uniquement si **GetLastError** renvoie S_OK. Parfois, l’implémentation de la table ne peut pas déterminer la dernière erreur ou n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas, le pointeur de  _lppMAPIError_ est définie sur NULL. 
   
-Pour libérer toute la mémoire allouée à la structure **MAPIERROR,** appelez la [fonction MAPIFreeBuffer.](mapifreebuffer.md) 
+Pour libérer toute la mémoire allouée à la structure **MAPIERROR** , appelez la [fonction MAPIFreeBuffer](mapifreebuffer.md) . 
   
-Pour plus d’informations **sur la méthode GetLastError,** voir [MAPI Extended Errors](mapi-extended-errors.md).
+Pour plus d’informations **sur la méthode GetLastError** , voir [MAPI Extended Errors](mapi-extended-errors.md).
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48546766
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 7b6eb74e03b4fe892ae479ed99119e2df952f750
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5b0cc41e8c6311e2f6102212506c05b176010958
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59580740"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461643"
 ---
 # <a name="tabledefs-collection-dao"></a>TableDefs, collection (DAO)
 
@@ -93,7 +93,6 @@ Cet exemple crée un objet **TableDef** et l’ajoute à la collection **TableDe
     End Sub 
 ```
 
-<br/>
 
 Cet exemple crée un objet **TableDef** dans la base de données Northwind.
 

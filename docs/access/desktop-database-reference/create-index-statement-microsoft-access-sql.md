@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: a831ae35f91bae1cd81c3db5dfd723ed31389295
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 68902f60b4b912a9f9793c3ba3a7a02c8a005b26
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618356"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461166"
 ---
 # <a name="create-index-statement-microsoft-access-sql"></a>CREATE INDEX, instruction (Microsoft Access SQL)
 
@@ -102,7 +102,6 @@ Dans cet exemple, un index comportant les champs Home Phone et Extension dans la
     End Sub 
 ```
 
-<br/>
 
 Dans cet exemple, un index est créé sur la table Customers utilisant le champ CustomerID. Deux enregistrements ne peuvent pas avoir les mêmes données dans le champ CustomerID et aucune valeur Null n'est autorisée.
 

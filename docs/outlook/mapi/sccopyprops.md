@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9f4b69c62f78805e93f28db73691830515997fa3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 95805c6460669e80a81c31f4ba766047821f0365
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586788"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62458791"
 ---
 # <a name="sccopyprops"></a>ScCopyProps
 
@@ -50,7 +50,7 @@ SCODE ScCopyProps(
     
  _rgprop_
   
-> [in] Pointeur vers un tableau de structures [SPropValue](spropvalue.md) qui définissent les propriétés à copier. Le  _paramètre rgprop_ n’a pas besoin de pointer vers le début du tableau, mais il doit pointer vers le début de l’une des structures **SPropValue** dans le tableau. 
+> [in] Pointeur vers un tableau de structures [SPropValue](spropvalue.md) qui définissent les propriétés à copier. Le  _paramètre rgprop_ ne doit pas pointer vers le début du tableau, mais il doit pointer vers le début de l’une des structures **SPropValue** dans le tableau. 
     
  _pvDst_
   
@@ -58,13 +58,13 @@ SCODE ScCopyProps(
     
  _pcb_
   
-> [out] Pointeur facultatif vers la taille, en octets, du bloc de mémoire pointé par le _paramètre pvDst._ 
+> [out] Pointeur facultatif vers la taille, en octets, du bloc de mémoire pointé par le  _paramètre pvDst_ . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
 S_OK
   
-> Les propriétés ont été correctement copiées.
+> Les propriétés ont été copiées avec succès.
     
 MAPI_E_INVALID_PARAMETER
   
@@ -76,7 +76,7 @@ Le nouveau tableau et ses données résident dans une mémoire tampon créée av
   
  **ScCopyProps** conserve l’ordre des propriétés d’origine pour le tableau de propriétés copiées. 
   
-Le _paramètre pcb_ est facultatif ; si elle n’est pas NULL, elle est définie sur le nombre d’octets stockés dans le _paramètre pvDst._ 
+Le  _paramètre pcb_ est facultatif ; si elle n’est pas NULL, elle est définie sur le nombre d’octets stockés dans le _paramètre pvDst_ . 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545819
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ca33c16c4588127998527b7f4a9cdcedd50d35e0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ea4a84f7a25b8e8c5297e4a093f3eb5caf7fae94
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559107"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459458"
 ---
 # <a name="allownullsenum"></a>AllowNullsEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59559107"
 
 Indique si des enregistrements contenant des valeurs Null sont indexés.
 
-<br/>
 
 <table>
 <colgroup>
@@ -53,7 +52,7 @@ Indique si des enregistrements contenant des valeurs Null sont indexés.
 </tr>
 <tr class="even">
 <td><p><strong>adIndexNullsIgnoreAny</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>L'index n'insère pas d'entrée où une colonne clé contient une valeur Null. Dans le cas d'un index possédant une clé multicolonne, si une valeur Null est entrée dans une colonne, l'entrée est ignorée et aucune erreur ne se produit.</p></td>
 </tr>
 </tbody>

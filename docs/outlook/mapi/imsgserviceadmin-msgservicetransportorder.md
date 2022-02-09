@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: cc9efe43bcccf0af6f0b67e2091e4490234bbc3b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d0408801d8f680392319ac93abe5f10e12e93027
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610418"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462100"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
@@ -39,7 +39,7 @@ HRESULT MsgServiceTransportOrder(
 
  _cUID_
   
-> [in] Nombre d’identificateurs uniques dans le _paramètre lpUIDList._ 
+> [in] Nombre d’identificateurs uniques dans _le paramètre lpUIDList_ . 
     
  _lpUIDList_
   
@@ -57,15 +57,15 @@ S_OK
     
 MAPI_E_BUSY 
   
-> La valeur du  _paramètre cUID_ diffère du nombre de fournisseurs de transport dans le profil. 
+> La valeur du _paramètre cUID_ diffère du nombre de fournisseurs de transport dans le profil. 
     
 MAPI_E_NOT_FOUND 
   
-> Une ou plusieurs structures [MAPIUID](mapiuid.md) transmises dans le paramètre  _lpUIDList_ ne font pas référence à un fournisseur de transport actuellement dans le profil. 
+> Une ou plusieurs structures [MAPIUID](mapiuid.md) transmises dans le paramètre _lpUIDList_ ne font pas référence à un fournisseur de transport actuellement dans le profil. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgServiceAdmin::MsgServiceTransportOrder** définit l’ordre de remise des fournisseurs de transport dans un profil. Le paramètre _lpUIDList_ doit contenir une liste triée d’identificateurs d’entrée de fournisseur de transport obtenus à partir de la propriété **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) de la table renvoyée par la méthode [IMsgServiceAdmin::GetProviderTable.](imsgserviceadmin-getprovidertable.md) Une application cliente doit transmettre la liste complète dans  _lpUIDList_.
+La **méthode IMsgServiceAdmin::MsgServiceTransportOrder** définit l’ordre de remise des fournisseurs de transport dans un profil. Le paramètre  _lpUIDList_ doit contenir une liste triée d’identificateurs d’entrée de fournisseur de transport obtenus à partir de la propriété **PR_PROVIDER_UID** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) de la table renvoyée par la méthode [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) . Une application cliente doit transmettre la liste complète dans  _lpUIDList_.
   
  **SetTransportOrder** remplace les préférences de fournisseur de transport telles que l’indicateur STATUS_XP_PREFER_LAST définie dans la propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   

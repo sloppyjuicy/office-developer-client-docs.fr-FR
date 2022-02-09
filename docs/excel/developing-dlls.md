@@ -8,12 +8,12 @@ keywords:
 - DLL [Excel 2007], création, création de DLL [Excel 2007]
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
 ms.localizationpriority: high
-ms.openlocfilehash: 0cbecb7c9137098afc3fea1776c6b526d0664a18
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: c84b115e259f1ccee9ead677ce1285c9db606dc2
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198484"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459094"
 ---
 # <a name="developing-dlls"></a>Développement de DLL
 
@@ -87,13 +87,11 @@ double WINAPI my_Cpp_export(double x)
 }
 ```
 
-<br/>
 
 Le fichier DEF doit alors contenir ces lignes :
   
 `EXPORTS my_C_export = _my_C_export@8  my_Cpp_export`
 
-<br/>
 
 La syntaxe générale d’une ligne qui suit une instruction **EXPORTS** est : 
   

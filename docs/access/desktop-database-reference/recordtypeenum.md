@@ -7,12 +7,12 @@ ms:contentKeyID: 48545890
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5b5f74e349a030f15457d7bd520e037f757ca107
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b79a6c73cfcd4f684f311b621a13cc37c5c19791
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605928"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461798"
 ---
 # <a name="recordtypeenum"></a>RecordTypeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59605928"
 
 Spécifie le type de l’objet [Record](record-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>

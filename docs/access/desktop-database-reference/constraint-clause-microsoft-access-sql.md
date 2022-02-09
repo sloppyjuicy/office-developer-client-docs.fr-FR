@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 590a83fef68680325cb9d0b039c996375751edc7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c239d808a291ea196581eb8b334663c6f03ade14
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615738"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462609"
 ---
 # <a name="constraint-clause-microsoft-access-sql"></a>CONSTRAINT, clause (Microsoft Access SQL)
 
@@ -147,7 +147,6 @@ Dim dbs As Database
 End Sub
 ```
 
-<br/>
 
 Cet exemple crée une nouvelle table appelée MyTable avec deux champs de texte, un champ Date/Heure et un index unique composé de ces trois champs.
 
@@ -174,7 +173,6 @@ Cet exemple crée une nouvelle table appelée MyTable avec deux champs de texte,
     End Sub
 ```
 
-<br/>
 
 Cet exemple crée une nouvelle table avec deux champs de texte et un champ **Entier**. Le champ SSN correspond à la clé primaire.
 
@@ -199,5 +197,4 @@ Cet exemple crée une nouvelle table avec deux champs de texte et un champ **Ent
     End Sub
 ```
 
-<br/>
 

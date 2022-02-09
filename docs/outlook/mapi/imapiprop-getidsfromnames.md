@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e3f501a4-a8ee-43d7-bd83-c94e7980c398
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4f79e82c1ecbca9f006d60a2eb724fc5900a5d68
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 056ecfceca567b80ea3ed96d6ed95d0c851921a0
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564140"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462578"
 ---
 # <a name="imapipropgetidsfromnames"></a>IMAPIProp::GetIDsFromNames
 
@@ -25,7 +25,7 @@ ms.locfileid: "59564140"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriété.
+Fournit les identificateurs de propriété qui correspondent à un ou plusieurs noms de propriétés.
   
 ```cpp
 HRESULT GetIDsFromNames(
@@ -40,11 +40,11 @@ HRESULT GetIDsFromNames(
 
  _cPropNames_
   
-> [in] Nombre de noms de propriétés pointés par _le paramètre lppPropNames._ Si  _lppPropNames est_ NULL, le paramètre  _cPropNames_ doit être 0. 
+> [in] Nombre de noms de propriétés pointés par  _le paramètre lppPropNames_ . Si  _lppPropNames est_ NULL, le paramètre  _cPropNames_ doit être 0. 
     
  _lppPropNames_
   
-> [in] Pointeur vers un tableau de noms de propriétés, ou NULL. La transmission de NULL demande des identificateurs de propriété pour tous les noms de propriété dans tous les jeux de propriétés sur lesquels l’objet possède des informations. Le _paramètre lppPropNames_ ne doit pas être NULL si l’MAPI_CREATE est définie dans _le paramètre ulFlags._ 
+> [in] Pointeur vers un tableau de noms de propriétés, ou NULL. La transmission de NULL demande des identificateurs de propriété pour tous les noms de propriété dans tous les jeux de propriétés sur lesquels l’objet possède des informations. Le  _paramètre lppPropNames_ ne doit pas être NULL si l’MAPI_CREATE est définie dans _le paramètre ulFlags_ . 
     
  _ulFlags_
   
@@ -56,7 +56,7 @@ MAPI_CREATE
     
  _lppPropTags_
   
-> [out] Pointeur vers un pointeur vers un tableau de balises de propriété qui contient des identificateurs de propriétés existants ou nouvellement attribués. Les types de propriété pour les balises de propriété dans ce tableau sont PT_UNSPECIFIED **.**
+> [out] Pointeur vers un pointeur vers un tableau de balises de propriété qui contient des identificateurs de propriétés existants ou nouvellement attribués. Les types de propriétés pour les balises de propriété dans ce tableau sont **PT_UNSPECIFIED.**
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -78,7 +78,7 @@ MAPI_E_TOO_BIG
     
 MAPI_W_ERRORS_RETURNED 
   
-> L’appel a réussi globalement, mais un ou plusieurs identificateurs de propriété n’ont pas pu être renvoyés. Le type de propriété correspondant pour chaque propriété indisponible est PT_ERROR **et** son identificateur sur zéro. Lorsque cet avertissement est renvoyé, traitez l’appel comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi globalement, mais un ou plusieurs identificateurs de propriété n’ont pas pu être renvoyés. Le type de propriété correspondant pour chaque propriété non disponible est **PT_ERROR et son** identificateur sur zéro. Lorsque cet avertissement est renvoyé, traitez l’appel comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
@@ -94,23 +94,23 @@ Les propriétés nommées sont généralement utilisées par les fournisseurs de
   
 En cas d’erreur qui renvoie un identificateur pour un nom particulier, **GetIDsFromNames** renvoie MAPI_W_ERRORS_RETURNED et définit le type de propriété dans l’entrée du tableau de balises de propriétés qui correspond au nom à **PT_ERROR** et à l’identificateur sur zéro. 
   
-Le mappage de nom à identificateur est représenté par la propriété **PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)). **PR_MAPPING_SIGNATURE** contient une structure [MAPIUID](mapiuid.md) qui indique le fournisseur de services responsable de l’objet. Si la **PR_MAPPING_SIGNATURE** est identique pour deux objets, supposons que ces objets utilisent le même mappage nom à identificateur. 
+Le mappage nom à identificateur est représenté par la propriété **PR_MAPPING_SIGNATURE (**[PidTagMappingSignature](pidtagmappingsignature-canonical-property.md)) d’un objet. **PR_MAPPING_SIGNATURE** contient une structure [MAPIUID](mapiuid.md) qui indique le fournisseur de services responsable de l’objet. Si la **PR_MAPPING_SIGNATURE** est identique pour deux objets, supposons que ces objets utilisent le même mappage nom à identificateur. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
 Les identificateurs que vous passez dans le tableau de balises de propriétés pointant vers le paramètre  _lppPropNames_ doivent se trouver dans la 0x8000 pour 0xFFFE plage. Les entrées de ce tableau doivent être dans le même ordre que les noms transmis dans le tableau de noms de propriétés pointés par  _lppPropNames_. 
   
-Si vous utilisez des propriétés nommées sur un conteneur, utilisez le même mappage nom à identificateur pour tous les objets de votre conteneur (c’est-à-dire, n’utilisez pas de mappage différent pour chaque dossier de votre magasin de messages ou chaque message de votre dossier).
+Si vous prise en charge des propriétés nommées sur un conteneur, utilisez le même mappage nom à identificateur pour tous les objets de votre conteneur (c’est-à-dire, n’utilisez pas de mappage différent pour chaque dossier de votre magasin de messages ou chaque message de votre dossier).
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Étant donné que les types de propriétés pour les identificateurs renvoyés dans le tableau de balises de propriétés pointés par  _lppPropTags_ sont définies sur **PT_UNSPECIFIED**, vous devez appeler la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) pour récupérer les types précis. 
+Étant donné que les types de propriétés pour les identificateurs renvoyés dans le tableau de balises de propriétés pointés par  _lppPropTags sont définies_ sur **PT_UNSPECIFIED**, vous devez appeler la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) pour récupérer les types précis. 
   
-Si vous déplacez ou copiez des objets avec des propriétés nommées et que les objets source et destination ont des signatures de mappage différentes, comme indiqué par les valeurs de leurs propriétés **PR_MAPPING_SIGNATURE,** vous devez conserver les noms au cours de ces opérations. Pour conserver les noms des propriétés, ajustez les identificateurs de propriété correspondants pour qu’ils correspondent au mappage nom à identificateur de l’objet de destination. 
+Si vous déplacez ou copiez des objets avec des propriétés nommées et que les objets source et destination ont des signatures de mappage différentes, comme indiqué par les valeurs de leurs propriétés **PR_MAPPING_SIGNATURE** , vous devez conserver les noms au cours de ces opérations. Pour conserver les noms des propriétés, ajustez les identificateurs de propriété correspondants pour qu’ils correspondent au mappage nom à identificateur de l’objet de destination. 
   
 Certains objets ont une limite quant au nombre d’identificateurs de propriété qu’ils peuvent nommer. Si un appel **à GetIDsFromNames** dépasse cette limite, la méthode renvoie MAPI_E_TOO_BIG. Dans ce cas, interrogez par identificateur. 
   
-Pour plus d’informations, voir [PROPRIÉTÉS nommées MAPI.](mapi-named-properties.md) 
+Pour plus d’informations, voir [Propriétés nommées MAPI](mapi-named-properties.md). 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

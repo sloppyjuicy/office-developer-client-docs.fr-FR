@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: bf0655deb2f145dd46483bfd8dc8d55fbec12584
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fcf79feffd0e0c4f3de43b6127a7da8667310918
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621996"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461152"
 ---
 # <a name="querydefreturnsrecords-property-dao"></a>Propriété QueryDef.ReturnsRecords (DAO)
 
@@ -103,7 +103,6 @@ Sub ClientServerX1()
  
 ```
 
-<br/>
 
 Cet exemple utilise la propriété **ReturnsRecords** et la propriété personnalisée **LogMessages** pour créer une requête SQL directe qui renverra les données et les messages éventuellement générés par le serveur distant.
 

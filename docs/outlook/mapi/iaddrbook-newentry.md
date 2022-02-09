@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: bbf86646322497c7d475589a5fac0e86572c4486
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9f97e1c33ec463f361afb66dc348fdb23c6d174d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613974"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461939"
 ---
 # <a name="iaddrbooknewentry"></a>IAddrBook::NewEntry
 
@@ -56,7 +56,7 @@ MAPI_UNICODE
     
  _cbEIDContainer_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEIDContainer._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEIDContainer_ . 
     
  _lpEIDContainer_
   
@@ -64,7 +64,7 @@ MAPI_UNICODE
     
  _cbEIDNewEntryTpl_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEIDNewEntryTpl._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEIDNewEntryTpl_ . 
     
  _lpEIDNewEntryTpl_
   
@@ -72,7 +72,7 @@ MAPI_UNICODE
     
  _lpcbEIDNewEntry_
   
-> [out] Pointeur vers le nombre d’byte dans l’identificateur d’entrée pointé par _le paramètre lppEIDNewEntry._ 
+> [out] Pointeur vers le nombre d’byte dans l’identificateur d’entrée pointé par  _le paramètre lppEIDNewEntry_ . 
     
  _lppEIDNewEntry_
   
@@ -96,17 +96,17 @@ Si vous souhaitez que la nouvelle entrée soit ajoutée à la liste des destinat
   
 Si vous souhaitez autoriser l’utilisateur d’une application cliente à sélectionner le type d’entrée à créer, passez zéro dans  _cbEIDNewEntryTpl_ et NULL dans  _lpEIDNewEntryTpl_. La **méthode NewEntry** affiche la table UNIQUE MAPI, une liste de modèles pris en charge par MAPI et par chaque fournisseur de carnet d’adresses dans la session. Chaque modèle peut créer une entrée de destinataire pour un ou plusieurs types d’adresses. 
   
-Si vous souhaitez conserver l’identificateur d’entrée de la nouvelle entrée, passez des pointeurs valides dans les paramètres _lpcbEIDNewEntry_ et _lppEIDNewEntry._ Vous devez libérer cet identificateur d’entrée lorsque vous en avez terminé en appelant la [fonction MAPIFreeBuffer.](mapifreebuffer.md) 
+Si vous souhaitez conserver l’identificateur d’entrée de la nouvelle entrée, passez des pointeurs valides dans les paramètres _lpcbEIDNewEntry_ et  _lppEIDNewEntry_ . Vous devez libérer cet identificateur d’entrée lorsque vous en avez terminé en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) . 
   
 Pour utiliser un modèle particulier afin d’ajouter une nouvelle entrée à un conteneur modifiable, utilisez la procédure suivante :
   
 1. Appelez [la méthode IMAPISession::OpenEntry](imapisession-openentry.md) pour ouvrir le conteneur de destination et définissez le paramètre  _lpEntryID_ sur l’identificateur d’entrée du conteneur. 
     
-2. Appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur de destination et définissez le paramètre  _ulPropTag_ sur **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) et le paramètre  _lpiid_ sur IID_IMAPITable. Le conteneur retourne une table unique qui répertorie tous les modèles qu’il prend en charge pour la création d’entrées. 
+2. Appelez la méthode [IMAPIProp::OpenProperty](imapiprop-openproperty.md) du conteneur de destination et définissez le paramètre  _ulPropTag_ sur **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) et le paramètre  _lpiid_ sur IID_IMAPITable. Le conteneur retourne une table unique qui répertorie tous les modèles qu’il prend en charge pour la création de nouvelles entrées. 
     
 3. Récupérez la ligne qui représente le modèle pour le type particulier d’entrée que vous souhaitez créer. La **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) indique le type d’adresse pris en charge par le modèle.
     
-4. Appelez **la méthode NewEntry** et définissez  _lpEIDNewEntryTpl_ sur l’identificateur d’entrée du modèle sélectionné. L’identificateur **d’entrée** sera PR_ENTRYID ([PidTagEntryId](pidtagentryid-canonical-property.md)) à partir de la ligne du modèle dans le tableau unique. Passez zéro dans  _cbEIDContainer_ et NULL dans  _lpEIDContainer_. Passez un pointeur valide dans le paramètre  _lppEIDNewEntry_ si vous souhaitez conserver l’identificateur d’entrée de la nouvelle entrée. 
+4. Appelez **la méthode NewEntry** et définissez  _lpEIDNewEntryTpl_ sur l’identificateur d’entrée du modèle sélectionné. L’identificateur d’entrée sera **PR_ENTRYID** colonne ([PidTagEntryId](pidtagentryid-canonical-property.md)) à partir de la ligne du modèle dans le tableau unique. Passez zéro dans  _cbEIDContainer_ et NULL dans  _lpEIDContainer_. Passez un pointeur valide dans le paramètre _lppEIDNewEntry_ si vous souhaitez conserver l’identificateur d’entrée de la nouvelle entrée. 
     
 ## <a name="see-also"></a>Voir aussi
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 532f7af0-b2cc-49dd-b1de-e3ec1dc9a3e7
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 103feb1641f9537b0f521c0bfd6696879603f852
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 80123df77d76ea6ad04b99df4ab879359d86278b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567416"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461770"
 ---
 # <a name="imapisupportopentemplateid"></a>IMAPISupport::OpenTemplateID
 
@@ -47,7 +47,7 @@ LPMAPIPROP lpMAPIPropSibling
     
  _lpTemplateID_
   
-> [in] Pointeur vers l’identificateur **de modèle PR_TEMPLATEID** ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de l’entrée du destinataire à ouvrir.
+> [in] Pointeur vers l’identificateur **PR_TEMPLATEID** modèle ([PidTagTemplateid](pidtagtemplateid-canonical-property.md)) de l’entrée du destinataire à ouvrir.
     
  _ulTemplateFlags_
   
@@ -59,7 +59,7 @@ FILL_ENTRY
     
  _lpMAPIPropData_
   
-> [in] Pointeur vers l’implémentation de l’interface que l’appelant utilise pour accéder à l’entrée. Il s’agit de l’implémentation que le fournisseur étranger peut encapsuler avec sa propre implémentation et retourner dans le paramètre _lppMAPIPropNew._ Le paramètre _lpMAPIPropData_ doit pointer vers une implémentation d’interface en lecture/écriture qui dérive [d’IMAPIProp : IUnknown](imapipropiunknown.md) et prend en charge l’interface demandée dans le paramètre _lpInterface._ 
+> [in] Pointeur vers l’implémentation de l’interface que l’appelant utilise pour accéder à l’entrée. Il s’agit de l’implémentation que le fournisseur étranger peut encapsuler avec sa propre implémentation et retourner dans le paramètre _lppMAPIPropNew_ . Le  _paramètre lpMAPIPropData_ doit pointer vers une implémentation d’interface en lecture/écriture qui dérive [d’IMAPIProp : IUnknown](imapipropiunknown.md) et prend en charge l’interface demandée dans le paramètre _lpInterface_ . 
     
  _lpInterface_
   
@@ -89,7 +89,7 @@ La **méthode IMAPISupport::OpenTemplateID** est implémentée uniquement pour l
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Appelez **OpenTemplateID uniquement** si vous appelez le stockage d’entrées avec des identificateurs de modèles provenant de fournisseurs de carnets d’adresses étrangers. Cette prise en charge place des exigences supplémentaires sur vos [implémentations IABContainer::CreateEntry](iabcontainer-createentry.md) et [IABLogon::OpenEntry.](iablogon-openentry.md) Pour plus d’informations, voir les descriptions de ces méthodes et agir en tant que fournisseur de [carnet d’adresses hôte.](acting-as-a-host-address-book-provider.md)
+Appelez **OpenTemplateID uniquement** si vous appelez le stockage d’entrées avec des identificateurs de modèles provenant de fournisseurs de carnets d’adresses étrangers. Cette prise en charge place des exigences supplémentaires sur vos [implémentations IABContainer::CreateEntry](iabcontainer-createentry.md) et [IABLogon::OpenEntry](iablogon-openentry.md) . Pour plus d’informations, voir les descriptions de ces méthodes et [agir en tant que fournisseur de carnet d’adresses hôte](acting-as-a-host-address-book-provider.md).
   
 Si **l’appel OpenTemplateID** renvoie en tant qu’interface liée la même implémentation d’objet de propriété que celle que vous avez passée, vous pouvez libérer votre référence à votre objet de propriété. Cela est dû au fait que le fournisseur étranger a appelé la méthode **AddRef** de l’objet pour conserver sa propre référence. Si le fournisseur étranger n’a pas besoin de conserver une référence à l’objet de propriété, **OpenTemplateID** retourne l’objet de propriété indépendant. 
   

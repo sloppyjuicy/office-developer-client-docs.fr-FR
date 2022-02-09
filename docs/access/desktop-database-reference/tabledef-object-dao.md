@@ -7,12 +7,12 @@ ms:contentKeyID: 48545582
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 90f44c1b8d23ea7e9ae265cfa59fb2dcad3cd1c3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ac9909fa48bb40477ea33ad35dc896b12e569c14
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605833"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461145"
 ---
 # <a name="tabledef-object-dao"></a>Objet TableDef (DAO)
 
@@ -129,7 +129,6 @@ Cet exemple crée un objet **TableDef** et l’ajoute à la collection **TableDe
     End Sub 
 ```
 
-<br/>
 
 Cet exemple crée un objet **TableDef** dans la base de données Northwind.
 
@@ -192,7 +191,6 @@ Sub CreateTableDefX()
    dbsNorthwind.Close 
 ```
 
-<br/>
 
 L'exemple suivant montre comment créer un champ calculé. La méthode CreateField crée un champ nommé **FullName**. La propriété Expression est ensuite définie sur l'expression qui calcule la valeur du champ.
 

@@ -7,18 +7,17 @@ ms:contentKeyID: 48548740
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 81bbbabc6948c6b0884f62954593068fa6e2f607
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b477ff63ab64c20eb96c1759813658f6039c5469
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564966"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461995"
 ---
 # <a name="rds-objects"></a>Objets RDS
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -32,7 +31,7 @@ ms.locfileid: "59564966"
 </tr>
 <tr class="odd">
 <td><p><a href="datacontrol-object-rds.md">DataControl (RDS)</a></p></td>
-<td><p>Lie un jeu <strong></strong> d’enregistrements de requête de données à un ou plusieurs contrôles (par <strong></strong> exemple, une zone de texte, un contrôle grille ou une zone de liste déroulante) pour afficher les données du jeu d’enregistrements sur une page web.</p></td>
+<td><p>Lie un jeu d’enregistrements <strong></strong> de requête de données à un ou plusieurs contrôles (par exemple, une zone de texte, un contrôle grille ou une zone <strong></strong> de liste déroulante) pour afficher les données du jeu d’enregistrements sur une page web.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="datafactory-object-rdsserver.md">DataFactory (RDSServer)</a></p></td>
@@ -45,4 +44,3 @@ ms.locfileid: "59564966"
 </tbody>
 </table>
 
-<br/>

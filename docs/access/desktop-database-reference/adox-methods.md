@@ -7,18 +7,17 @@ ms:contentKeyID: 48543516
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d2b418b1b80b3a529e6661763016cf8f342a6713
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c63d56165be8e07a9e412f46e69849f314e36510
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607499"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459985"
 ---
 # <a name="adox-methods"></a>Méthodes ADOX
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -95,4 +94,3 @@ ms.locfileid: "59607499"
 </tbody>
 </table>
 
-<br/>

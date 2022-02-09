@@ -11,25 +11,25 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: c130a63b7949dfb04f9470e0e2e4098042ea26c1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 364ce25b5e95ba7ce52c959dea846fb6660ff004
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596910"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62458525"
 ---
 # <a name="recordset2copyquerydef-method-dao"></a>Recordset2.CopyQueryDef, méthode (DAO)
 
 
 **S’applique à** : Access 2013, Office 2013 
 
-Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l’objet **QueryDef** utilisé pour créer l’objet **[Recordset](recordset-object-dao.md)** représenté par l’espace réservé recordset (espaces de travail Microsoft Access uniquement). .
+Renvoie un objet **[QueryDef](querydef-object-dao.md)** qui est une copie de l’objet **QueryDef** utilisée pour créer l’objet **[Recordset](recordset-object-dao.md)** représenté par l’espace réservé recordset (espaces de travail Microsoft Access uniquement).
 
 ## <a name="syntax"></a>Syntaxe
 
 *.* CopyQueryDef
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -70,7 +70,6 @@ Cet exemple de code montre comment utiliser la méthode **CopyQueryDef** pour cr
     End Function 
 ```     
 
-<br/>
 
 Cet exemple de code illustre une utilisation possible de CopyQueryNew().
 

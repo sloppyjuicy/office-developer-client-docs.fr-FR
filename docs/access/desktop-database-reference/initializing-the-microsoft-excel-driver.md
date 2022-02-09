@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: medium
-ms.openlocfilehash: 44328f99cc5e53ea65002c2af1d4267e7916a7d9
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 7e8f9f010c4e71f4c7fbc52b01e7ced428acbacc
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180165"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461222"
 ---
 # <a name="initializing-the-microsoft-excel-driver"></a>Initialisation du pilote Microsoft Excel
 
@@ -26,7 +26,7 @@ Lorsque vous installez le pilote Excel, le programme d’installation écrit un 
 
 ## <a name="excel-initialization-settings"></a>Excel d’initialisation
 
-Le **dossier d’Excel Access Connectivity \\ \\ Engines** inclut les paramètres d’initialisation du pilote Aceexcl.dll, utilisé pour l’accès externe aux feuilles Microsoft Excel de travail. L'exemple ci-après montre des paramètres par défaut pour les entrées de ce dossier.
+Le **dossier Access Connectivity EngineEngines\\\\ Excel** inclut des paramètres d’initialisation pour le pilote Aceexcl.dll, utilisé pour l’accès externe à Microsoft Excel feuilles de calcul. L'exemple ci-après montre des paramètres par défaut pour les entrées de ce dossier.
 
 ```vb
     win32=<path>\ Aceexcl.dll  
@@ -77,9 +77,8 @@ Le moteur de base de données Microsoft Access utilise les entrées de dossier E
 </tbody>
 </table>
 
-<br/>
 
-Le **dossier Access Connectivity \\ Engines Excel \\ 8.0** contient les entrées suivantes, qui s’appliquent Microsoft Excel 97.
+Le **dossier Access Connectivity EngineEngines\\\\ Excel 8.0** contient les entrées suivantes, qui s’appliquent Microsoft Excel 97.
 
 <table>
 <colgroup>
@@ -145,9 +144,9 @@ Le **dossier Access Connectivity \\ Engines Excel \\ 8.0** contient les entrées
 
 
 ## <a name="using-the-typeguessrows-setting-for-excel-driver"></a>Utilisation du paramètre TypeGuessRows pour Excel pilote
-Lorsque vous utilisez Microsoft Excel Driver, vous pouvez utiliser la valeur de Registre **TypeGuessRows** pour configurer le nombre de lignes à vérifier pour le type de données. La **valeur TypeGuessRows se** trouve sous la sous-clé de Registre suivante :
+Lorsque vous utilisez Microsoft Excel driver, vous pouvez utiliser la valeur de Registre **TypeGuessRows** pour configurer le nombre de lignes à vérifier pour le type de données. La **valeur TypeGuessRows se** trouve sous la sous-clé de Registre suivante :
 
-# <a name="office-2016"></a>[Office 2016](#tab/office-2016)
+# <a name="office-2016"></a>[Office 2016](#tab/office-2016)
 
 Pour une installation MSI de Office
 
@@ -176,10 +175,10 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Nombre
 - Devise
 - Date
-- Text
+- Texte
 - Boolean
 
-Si des données rencontrées ne correspondent pas au type de données de estimation pour la colonne, ces données sont renvoyées sous forme **de valeur Null.** Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes.**
+Si des données rencontrées ne correspondent pas au type de données de estimation pour la colonne, ces données sont renvoyées sous forme **de valeur Null** . Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes** .
 
 # <a name="office-2013"></a>[Office 2013](#tab/office-2013)
 
@@ -198,10 +197,10 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Nombre
 - Devise
 - Date
-- Text
+- Texte
 - Boolean
 
-Si des données rencontrées ne correspondent pas au type de données de estimation pour la colonne, ces données sont renvoyées sous forme **de valeur Null.** Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes.**
+Si des données rencontrées ne correspondent pas au type de données de estimation pour la colonne, ces données sont renvoyées sous forme **de valeur Null** . Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes** .
 
 # <a name="office-2010"></a>[Office 2010](#tab/office-2010)
 
@@ -220,10 +219,10 @@ Le type de données est déterminé par le nombre maximal de types de données t
 - Nombre
 - Devise
 - Date
-- Text
+- Texte
 - Boolean
 
-Si des données rencontrées ne correspondent pas au type de données de estimation pour la colonne, ces données sont renvoyées sous forme **de valeur Null.** Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes.**
+Si des données rencontrées ne correspondent pas au type de données de estimation pour la colonne, ces données sont renvoyées sous forme **de valeur Null** . Lors d’une importation, si une colonne possède des types de données mixtes, la colonne entière est castée vers le type de données qui est définie par le paramètre **ImportMixedTypes** .
 
 ---
 > [!NOTE]

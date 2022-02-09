@@ -7,12 +7,12 @@ ms:contentKeyID: 48546366
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: fd37696d5bf83d96259548cfda7d804183d5fd60
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7a8de78fb8d12684f117ddc6adef80a48f9a4fe3
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593193"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461791"
 ---
 # <a name="xactattributeenum"></a>XactAttributeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59593193"
 
 Spécifie les attributs de transaction d’un objet [Connection](connection-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -39,7 +38,7 @@ Spécifie les attributs de transaction d’un objet [Connection](connection-obje
 <tr class="odd">
 <td><p><strong>adXactAbortRetaining</strong></p></td>
 <td><p>262144</p></td>
-<td><p>Effectue des abandons de rétention ; autrement dit, <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">l’appel de RollbackTrans</a> démarre automatiquement une nouvelle transaction. Les fournisseurs ne prennent pas tous en charge cette fonctionnalité.</p></td>
+<td><p>effectue des abandons de rétention ; autrement dit, <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">l’appel de RollbackTrans</a> démarre automatiquement une nouvelle transaction. Les fournisseurs ne prennent pas tous en charge cette fonctionnalité.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adXactCommitRetaining</strong></p></td>
@@ -60,7 +59,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

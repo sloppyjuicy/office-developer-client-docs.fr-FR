@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: e7c00cc8fa6f651ded26b23522eb4943195c27f2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ff4dffbf34cadd313d6dd5ff42ad88c142b28f75
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620932"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462254"
 ---
 # <a name="imapisessiongetmsgstorestable"></a>IMAPISession::GetMsgStoresTable
 
@@ -56,19 +56,19 @@ S_OK
     
 MAPI_E_BAD_CHARWIDTH 
   
-> L MAPI_UNICODE a été définie et la session ne prend pas en charge Unicode.
+> L’MAPI_UNICODE a été définie et la session ne prend pas en charge Unicode.
     
 ## <a name="remarks"></a>Remarques
 
 La méthode **IMAPISession::GetMsgStoresTable** récupère un pointeur vers la table de la boutique de messages, une table maintenue par MAPI qui contient des informations sur chaque magasin de messages ouvert dans le profil. 
   
-Pour obtenir la liste complète des colonnes obligatoires et facultatives dans la table de la boutique de messages, voir [Tables de la boutique de messages.](message-store-tables.md) 
+Pour obtenir la liste complète des colonnes obligatoires et facultatives dans la table de la boutique de messages, voir [Tableaux de la boutique de messages](message-store-tables.md). 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 Étant donné que MAPI met à jour la table de la boutique de messages pendant la session chaque fois que des modifications se produisent, appelez la méthode **Advise** de la table de la boutique de messages pour être averti de ces modifications. Les modifications possibles incluent l’ajout de nouvelles magasins de messages, la suppression de magasins existants et les modifications apportées à la boutique par défaut. 
   
-La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows.](imapitable-queryrows.md) Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder.](imapitable-querysortorder.md) 
+La définition de l’indicateur MAPI_UNICODE dans le paramètre _ulFlags_ affecte le format des colonnes renvoyées par les méthodes [IMAPITable::QueryColumns](imapitable-querycolumns.md) et [IMAPITable::QueryRows](imapitable-queryrows.md) . Cet indicateur contrôle également les types de propriétés dans l’ordre de tri renvoyé par la méthode [IMAPITable::QuerySortOrder](imapitable-querysortorder.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

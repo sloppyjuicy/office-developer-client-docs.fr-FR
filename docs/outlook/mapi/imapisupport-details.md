@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1a62efa2-dd6b-4acb-a760-defa601c20c9
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: d641412a631b60c8f113555b20268cdefb94f2d1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d799cbc6a84974dc1e3bb5fcd3d721cf90002614
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630669"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460769"
 ---
 # <a name="imapisupportdetails"></a>IMAPISupport::Details
 
@@ -53,11 +53,11 @@ HRESULT Details(
     
  _lpvDismissContext_
   
-> [in] Pointeur vers les informations de contexte à transmettre à la **fonction DISMISSMODELESS** pointée par le paramètre _lpfnDismiss._ Ce paramètre s’applique uniquement à la version sans mode de la boîte de dialogue, en incluant l’indicateur DIALOG_SDI dans le _paramètre ulFlags._ 
+> [in] Pointeur vers les informations de contexte à transmettre à la **fonction DISMISSMODELESS** pointée par  _le paramètre lpfnDismiss_ . Ce paramètre s’applique uniquement à la version sans mode de la boîte de dialogue, en incluant l’indicateur DIALOG_SDI dans le _paramètre ulFlags_ . 
     
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -65,11 +65,11 @@ HRESULT Details(
     
  _lpfButtonCallback_
   
-> [in] Pointeur vers une fonction basée sur le prototype de fonction [LPFNBUTTON.](lpfnbutton.md) Une **fonction LPFNBUTTON** ajoute un bouton à la boîte de dialogue Détails. 
+> [in] Pointeur vers une fonction basée sur le prototype [de fonction LPFNBUTTON](lpfnbutton.md) . Une **fonction LPFNBUTTON** ajoute un bouton à la boîte de dialogue Détails. 
     
  _lpvButtonContext_
   
-> [in] Pointeur vers des données utilisées comme paramètre pour la fonction spécifiée par le paramètre _lpfButtonCallback._ 
+> [in] Pointeur vers des données utilisées comme paramètre pour la fonction spécifiée par le paramètre  _lpfButtonCallback_ . 
     
  _lpszButtonText_
   
@@ -77,7 +77,7 @@ HRESULT Details(
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type du texte pour le _paramètre lpszButtonText._ L’indicateur suivant peut être définie : 
+> [in] Masque de bits d’indicateurs qui contrôle le type du texte pour le  _paramètre lpszButtonText_ . L’indicateur suivant peut être définie : 
     
 DIALOG_MODAL
   
@@ -99,7 +99,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::D etails** est implémentée pour les objets de prise en charge du fournisseur de carnet d’adresses. Les fournisseurs de carnets d’adresses appellent **Details** pour afficher une boîte de dialogue qui fournit des détails sur une entrée particulière dans le carnet d’adresses. Les  _paramètres lpfButtonCallback,_  _lpvButtonContext_ et  _lpszButtonText_ peuvent être utilisés pour ajouter un bouton défini par le client à la boîte de dialogue. Lorsque vous cliquez sur le bouton, MAPI appelle la fonction de rappel pointée par  _lpfButtonCallback_, en passant l’identificateur d’entrée du bouton et les données dans  _lpvButtonContext_. Si un bouton extensible n’est pas nécessaire,  _lpszButtonText_ doit être NULL. 
+La **méthode IMAPISupport::D etails** est implémentée pour les objets de prise en charge du fournisseur de carnet d’adresses. Les fournisseurs de carnet d’adresses appellent **Details** pour afficher une boîte de dialogue qui fournit des détails sur une entrée particulière dans le carnet d’adresses. Les  _paramètres lpfButtonCallback_,  _lpvButtonContext_ et  _lpszButtonText_ peuvent être utilisés pour ajouter un bouton défini par le client à la boîte de dialogue. Lorsque vous cliquez sur le bouton, MAPI appelle la fonction de rappel pointée par  _lpfButtonCallback_, en passant l’identificateur d’entrée du bouton et les données dans  _lpvButtonContext_. Si un bouton extensible n’est pas nécessaire,  _lpszButtonText_ doit avoir la valeur NULL. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,14 +7,14 @@ ms:contentKeyID: 48547143
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7fe9de4f997397075d5ded328ddd2ecaae38a365
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3397a3c797293e619a0416159e9e6e6a1ad7711c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59586186"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461481"
 ---
-# <a name="adcprop_asyncthreadpriority_enum"></a>ADCPROP \_ ASYNCTHREADPRIORITY, \_ ÉUM
+# <a name="adcprop_asyncthreadpriority_enum"></a>ADCPROPASYNCTHREADPRIORITYENUM\_\_
 
 **S’applique à** : Access 2013, Office 2013
 
@@ -22,7 +22,6 @@ Pour un objet [Recordset](recordset-object-ado.md) RDS, spécifie la priorité d
 
 Utilisez ces constantes avec la propriété dynamique « **Background Thread Priority** » du **Recordset**, qui est référencée dans l’index des propriétés dynamiques ADO et expliquée dans la documentation [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -40,7 +39,7 @@ Utilisez ces constantes avec la propriété dynamique « **Background Thread Pri
 <tbody>
 <tr class="odd">
 <td><p><strong>adPriorityAboveNormal</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Définit le niveau de priorité, normal ou maximum.</p></td>
 </tr>
 <tr class="even">
@@ -76,7 +75,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

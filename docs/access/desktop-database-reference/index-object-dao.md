@@ -7,12 +7,12 @@ ms:contentKeyID: 48546380
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 319cc60b882d631b1c187fa707e80b3eca391920
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a6371bff96e58bf0dbac0939d9deec079466d22c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589455"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462381"
 ---
 # <a name="index-object-dao"></a>Index, objet (DAO)
 
@@ -147,7 +147,6 @@ Cet exemple crée un nouvel objet **Index**, l'ajoute à la collection **Indexes
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la méthode **CreateIndex** pour créer deux nouveaux objets **Index** et les ajouter à la collection **Indexes** de l'objet **TableDef** Employees. Il énumère ensuite la collection **Indexes** de l'objet **TableDef**, la collection **Fields** des nouveaux objets **Index**, et la collection Properties des nouveaux objets **Index**. La fonction CreateIndexOutput est requise pour exécuter cette opération.
 

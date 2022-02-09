@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 91c78852092e6f6de9d64574e0b8369a63f6d3a6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 54cd92883360cb4b76d468d7eff3a2abcfc39d19
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596315"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459136"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
@@ -25,7 +25,7 @@ ms.locfileid: "59596315"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Demande au formulaire d’effectuer les tâches qu’il associe à un verbe spécifique.
+Demande au formulaire d’effectuer toutes les tâches qu’il associe à un verbe spécifique.
   
 ```cpp
 HRESULT DoVerb(
@@ -68,33 +68,33 @@ OLEOBJ_S_CANNOT_DOVERB_NOW
 
 Les visionneuses de formulaire appellent la méthode **IMAPIForm::D oVerb** pour demander au formulaire d’effectuer les tâches qu’il associe à chaque verbe qu’il prend en charge. 
   
-Chacun des verbes pris en charge est identifié par une valeur numérique, transmise à **DoVerb** dans le _paramètre iVerb._ Les implémentations classiques **de DoVerb** contiennent une instruction **switch** qui teste les valeurs valides pour le paramètre  _iVerb_ du formulaire. 
+Chacun des verbes pris en charge est identifié par une valeur numérique, transmise à **DoVerb** dans le _paramètre iVerb_ . Les implémentations classiques **de DoVerb** contiennent une instruction **switch** qui teste les valeurs valides pour le  _paramètre iVerb_ du formulaire. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si la visionneuse de formulaire spécifie un contexte d’affichage dans le paramètre _lpViewContext,_ utilisez-le dans votre implémentation **DoVerb** au lieu du contexte d’affichage passé dans un appel précédent à la méthode [IMAPIForm::SetViewContext.](imapiform-setviewcontext.md) A apporter les modifications nécessaires à vos structures de données internes et n’enregistrez pas le contexte d’affichage. 
+Si la visionneuse de formulaire spécifie un contexte d’affichage dans le paramètre _lpViewContext_ , utilisez-le dans votre implémentation **DoVerb** au lieu du contexte d’affichage passé dans un appel précédent à la méthode [IMAPIForm::SetViewContext](imapiform-setviewcontext.md) . A apporter les modifications nécessaires à vos structures de données internes et n’enregistrez pas le contexte d’affichage. 
   
 Effectuez les tâches suivantes dans votre **implémentation DoVerb** : 
   
-- Exécutez le code nécessaire pour le verbe particulier associé au _paramètre iVerb._ 
+- Exécutez le code nécessaire pour le verbe particulier associé au  _paramètre iVerb_ . 
     
-- Si nécessaire, restituer le contexte de l’affichage d’origine.
+- Si nécessaire, restituer le contexte d’affichage d’origine.
     
-- Si un nombre de verbes inconnu a été transmis, renvoyez-MAPI_E_NO_SUPPORT. Sinon, renvoyer un résultat en fonction de la réussite ou de l’échec du verbe exécuté.
+- Si un nombre de verbes inconnu a été transmis, renvoyez MAPI_E_NO_SUPPORT. Sinon, renvoyer un résultat en fonction de la réussite ou de l’échec du verbe exécuté.
     
 - Fermez le formulaire. Il est toujours de votre responsabilité de fermer le formulaire une fois qu’un appel **DoVerb** est terminé. 
     
-Certains verbes, tels que Print, doivent être modaux par rapport à l’appel **DoVerb,** c’est-à-dire que l’opération indiquée doit être terminée avant le retour de **l’appel DoVerb.** 
+Certains verbes, tels que Print, doivent être modaux par rapport à l’appel **DoVerb** , c’est-à-dire que l’opération indiquée doit être terminée avant le retour de l’appel **DoVerb** . 
   
-Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la [fonction GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
+Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez la [fonction GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
   
-N’enregistrez pas le handle dans le paramètre  _hwndParent_ car, bien qu’il reste généralement valide jusqu’à la fin de **DoVerb,** il peut être détruit immédiatement au retour de l’appel.
+N’enregistrez pas le handle dans le paramètre _hwndParent_ car, bien qu’il reste généralement valide jusqu’à la fin de **DoVerb**, il peut être détruit immédiatement au retour de l’appel.
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez faire en sorte que les verbes non modaux agissent en tant que verbes modaux en pointant _lpViewContext_ vers une implémentation de contexte d’affichage qui renvoie l’indicateur VCSTATUS_MODAL à partir de sa méthode [IMAPIViewContext::GetViewStatus.](imapiviewcontext-getviewstatus.md) 
+Vous pouvez faire en sorte que les verbes non modaux agissent en tant que verbes modaux en pointant  _lpViewContext_ vers une implémentation de contexte d’affichage qui renvoie l’indicateur VCSTATUS_MODAL à partir de sa méthode [IMAPIViewContext::GetViewStatus](imapiviewcontext-getviewstatus.md) . 
   
-Pour plus d’informations sur les verbes dans MAPI, voir [Verbes de formulaire.](form-verbs.md) Pour plus d’informations sur la façon dont les verbes sont gérés dans OLE, voir [OLE et Transfert de données.](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx)
+Pour plus d’informations sur les verbes dans MAPI, voir [Verbes de formulaire](form-verbs.md). Pour plus d’informations sur la façon dont les verbes sont gérés dans OLE, voir [OLE et Transfert de données](https://msdn.microsoft.com/library/ms693425%28VS.85%29.aspx).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

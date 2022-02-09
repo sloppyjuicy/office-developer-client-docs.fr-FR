@@ -1,5 +1,5 @@
 ---
-title: ActiveX Propriétés Data Objects (ADO) MD
+title: ActiveX data objects (ADO) MD
 TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
@@ -7,18 +7,17 @@ ms:contentKeyID: 48544416
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: cbcf8433c9676aed568eb75a566f4c29048bec90
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 54b21685686d168eb415d119dcabd34164d56e90
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553248"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460090"
 ---
 # <a name="ado-md-properties"></a>Propriétés ADO MD
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -27,7 +26,7 @@ ms.locfileid: "59553248"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Property</th>
+<th>Propriété</th>
 <th>Description</th>
 </tr>
 <tr class="odd">
@@ -71,11 +70,11 @@ ms.locfileid: "59553248"
 <td><p>Indique les informations de filtre pour l'ensemble de cellules actif.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado-md-cellset.md">Élément</a></p></td>
+<td><p><a href="item-property-ado-md-cellset.md">Item</a></p></td>
 <td><p>Extrait une cellule d'un ensemble de cellules à l'aide de ses coordonnées.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Élément</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>Renvoie un membre spécifique d'une collection en fonction de son nom ou d'un nombre ordinal.</p></td>
 </tr>
 <tr class="odd">
@@ -115,7 +114,7 @@ ms.locfileid: "59553248"
 <td><p>Indique la source des données de l'ensemble de cellules.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="state-property-ado-md.md">State</a></p></td>
+<td><p><a href="state-property-ado-md.md">État</a></p></td>
 <td><p>Indique l'état actuel de l'ensemble de données.</p></td>
 </tr>
 <tr class="odd">
@@ -133,4 +132,3 @@ ms.locfileid: "59553248"
 </tbody>
 </table>
 
-<br/>

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 5b4290d9-230f-416a-9644-188578565c7b
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 15884634ea80b48dfade4f0ef86f617b60cd6bd4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1e35a272dd2dddd4fd8d9bb49b5baca401db9972
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59567458"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461847"
 ---
 # <a name="imapisupportgetlasterror"></a>IMAPISupport::GetLastError
 
@@ -47,7 +47,7 @@ HRESULT GetLastError(
     
 MAPI_UNICODE 
   
-> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre  _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
+> Les chaînes de la structure **MAPIERROR renvoyées** dans le paramètre _lppMAPIError_ sont au format Unicode. Si l’MAPI_UNICODE n’est pas définie, les chaînes sont au format ANSI. 
     
  _lppMAPIError_
   
@@ -69,11 +69,11 @@ La **méthode IMAPISupport::GetLastError** est implémentée pour tous les objet
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser le pointeur vers la structure **MAPIERROR,** si MAPI en fournit un, dans le paramètre  _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur ou il n’a rien d’autre à signaler sur l’erreur. Dans ce cas,  _lppMAPIError_ renvoie un pointeur vers NULL à la place. 
+Vous pouvez utiliser le pointeur vers la structure **MAPIERROR** , si MAPI en fournit un, dans le paramètre _lppMAPIError_ uniquement si **GetLastError** renvoie S_OK. Parfois, MAPI ne peut pas déterminer la dernière erreur ou il n’a rien d’autre à signaler à propos de l’erreur. Dans ce cas,  _lppMAPIError_ renvoie un pointeur vers NULL à la place. 
   
-Pour plus d’informations **sur la méthode GetLastError,** voir [MAPI Extended Errors](mapi-extended-errors.md).
+Pour plus d’informations **sur la méthode GetLastError** , voir [MAPI Extended Errors](mapi-extended-errors.md).
   
-Pour libérer toute la mémoire allouée par MAPI, appelez la [fonction MAPIFreeBuffer](mapifreebuffer.md) pour la structure **MAPIERROR renvoyée.** 
+Pour libérer toute la mémoire allouée par MAPI, appelez la [fonction MAPIFreeBuffer](mapifreebuffer.md) pour la structure **MAPIERROR renvoyée** . 
   
 ## <a name="see-also"></a>Voir aussi
 

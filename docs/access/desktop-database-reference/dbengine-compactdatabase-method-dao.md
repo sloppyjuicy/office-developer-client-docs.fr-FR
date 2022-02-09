@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: d42cc4c2c136adbc9c3e07544752e16e93c94083
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e999a1241f793e988a07312d21cf18d78aad765c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59589707"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462665"
 ---
 # <a name="dbenginecompactdatabase-method-dao"></a>DBEngine.CompactDatabase Method (DAO)
 
@@ -194,7 +194,6 @@ Vous pouvez utiliser l'une des constantes suivantes pour l'argument DstLocale af
 </tbody>
 </table>
 
-<br/>
 
 Vous pouvez utiliser l'une des constantes suivantes dans l'argument options pour spécifier s'il faut chiffrer ou déchiffrer la base de données pendant son compactage.
 
@@ -224,7 +223,6 @@ Vous pouvez utiliser l'une des constantes suivantes dans l'argument options pour
 </tbody>
 </table>
 
-<br/>
 
 Si vous ne spécifiez pas de constante de chiffrement ou que vous incluez à la fois **dbDecrypt** et **dbEncrypt**, DstName aura le même chiffrement que SrcName.
 
@@ -269,7 +267,6 @@ Vous pouvez utiliser l'une des constantes suivantes dans l'argument options pour
 </tbody>
 </table>
 
-<br/>
 
 Vous ne pouvez spécifier qu'une seule constante de version. Si vous l'omettez, NomDest aura la même version que NomSource. Vous ne pouvez compacter NomDest que dans une version identique ou supérieure à celle de NomSource.
 
@@ -316,7 +313,6 @@ Vous pouvez utiliser l’exemple suivant du code VBA pour un bouton de commande�
     End Sub 
 ```
 
-<br/>
 
 Exemple de code suivant montre comment utiliser CompactDatabase avec un mot de passe (clé de chiffrement) et créer un lien à un tableau dans cette base de données compactée. Notez qu’un mot de passe doit être fourni.
 

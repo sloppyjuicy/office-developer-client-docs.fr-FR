@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 27741887-8405-49ed-b080-613613faf91b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7d46d400263cc3ab0ef6cf19689abbdfc4fcae66
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f56cebf86ad80bf7280c87e9f430b484c810bdaa
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584513"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462128"
 ---
 # <a name="hrdoabdetailswithprovideruid"></a>HrDoABDetailsWithProviderUID
 
@@ -21,7 +21,7 @@ ms.locfileid: "59584513"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Garantit que la **méthode OpenEntry** est ouverte par le fournisseur de carnet d’adresses Exchange attendu. Cette fonction fonctionne de la même manière que [IAddrBook::D etails,](iaddrbook-details.md) mais ouvre **entryID** à l’aide du carnet d’adresses Exchange identifié par _pEmsabpUID_.
+Garantit que la **méthode OpenEntry** est ouverte par le fournisseur de carnet d’adresses Exchange attendu. Cette fonction fonctionne de la même manière que [IAddrBook::D etails](iaddrbook-details.md), mais ouvre **entryID** à l’aide du carnet d’adresses Exchange identifié par _pEmsabpUID_.
   
 |||
 |:-----|:-----|
@@ -65,11 +65,11 @@ HRESULT HrDoABDetailsWithProviderUID(
     
  _lpvDismissContext_
   
-> [in] Pointeur vers les informations de contexte à transmettre à la **fonction DISMISSMODELESS** pointée par le paramètre _lpfnDismiss._ Ce paramètre s’applique uniquement à la version sans mode de la boîte de dialogue en incluant **l’indicateur DIALOG_SDI** dans le _paramètre ulFlags._ 
+> [in] Pointeur vers les informations de contexte à transmettre à la **fonction DISMISSMODELESS** pointée par  _le paramètre lpfnDismiss_ . Ce paramètre s’applique uniquement à la version sans mode de la boîte de dialogue en incluant **l’indicateur DIALOG_SDI** dans le _paramètre ulFlags_ . 
     
  _cbEntryID_
   
-> [in] Nombre d’bytes de l’identificateur d’entrée spécifié par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes de l’identificateur d’entrée spécifié par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -77,11 +77,11 @@ HRESULT HrDoABDetailsWithProviderUID(
     
  _lpfButtonCallback_
   
-> [in] Pointeur vers une fonction basée sur le prototype de fonction **LPFNBUTTON.** Une **fonction LPFNBUTTON** ajoute un bouton à la boîte de dialogue Détails. 
+> [in] Pointeur vers une fonction basée sur le prototype **de fonction LPFNBUTTON** . Une **fonction LPFNBUTTON** ajoute un bouton à la boîte de dialogue Détails. 
     
  _lpvButtonContext_
   
-> [in] Pointeur vers des données qui a été utilisé comme paramètre pour la fonction spécifiée par le _paramètre lpfButtonCallback._ 
+> [in] Pointeur vers des données qui a été utilisé comme paramètre pour la fonction spécifiée par  _le paramètre lpfButtonCallback_ . 
     
  _lpszButtonText_
   
@@ -89,7 +89,7 @@ HRESULT HrDoABDetailsWithProviderUID(
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle le type du texte pour le _paramètre lpszButtonText._ Les indicateurs suivants peuvent être définies : 
+> [in] Masque de bits d’indicateurs qui contrôle le type du texte pour le  _paramètre lpszButtonText_ . Les indicateurs suivants peuvent être définies : 
     
 AB_TELL_DETAILS_CHANGE
   
@@ -97,7 +97,7 @@ AB_TELL_DETAILS_CHANGE
     
 DIALOG_MODAL
   
-> Affiche la version modale de la boîte de dialogue d’adresse commune. Cet indicateur s’exclue mutuellement avec DIALOG_SDI.
+> Affiche la version modale de la boîte de dialogue Adresse commune. Cet indicateur s’exclue mutuellement avec DIALOG_SDI.
     
 DIALOG_SDI
   

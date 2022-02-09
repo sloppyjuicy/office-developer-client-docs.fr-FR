@@ -7,12 +7,12 @@ ms:contentKeyID: 48544862
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 564502f04e88d6ac6eba7f7a77c3ddae8dafe8c6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e2feda85231903374b633eedc394630516832cfa
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593860"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462002"
 ---
 # <a name="parameters-collection-dao"></a>Parameters, collection (DAO)
 
@@ -92,7 +92,6 @@ Cet exemple démontre les objets **Parameter** et la collection **Parameters** e
     End Sub 
 ```
 
-<br/>
 
 L'exemple suivant montre comment créer une requête avec paramètres. Une requête nommée **myQuery** est créée avec deux paramètres, nommés Param1 et Param2. Pour ce faire, la propriété SQL de la requête est définie sur une instruction SQL (Structured Query Language) qui définit les paramètres.
 
@@ -121,7 +120,6 @@ L'exemple suivant montre comment créer une requête avec paramètres. Une requ�
     End Sub
 ```
 
-<br/>
 
 L'exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters est utilisée pour définir le paramètre Organization de la requête myActionQuery avant l'exécution de cette dernière.
 
@@ -148,7 +146,6 @@ L'exemple suivant montre comment exécuter une requête avec paramètres. La col
     End Sub
 ```
 
-<br/>
 
 L’exemple suivant montre comment ouvrir un objet Recordset basé sur une requête avec paramètres.
 

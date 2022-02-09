@@ -7,12 +7,12 @@ ms:contentKeyID: 48546915
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 3f6c3692749e0915fc9e26faf55fc948ee1c96ff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a78d8a441bb47188cda1b653e848a4c1ee99bd7a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602961"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461088"
 ---
 # <a name="ado-dynamic-properties"></a>Propriétés dynamiques ADO
 
@@ -24,7 +24,6 @@ L'[index de propriétés dynamiques ADO](ado-dynamic-property-index.md) fournit 
 
 Les propriétés dynamiques suivantes sont destinées à un emploi particulier ; elles sont également présentées dans les sources mentionnées précédemment. Les fonctionnalités spéciales fournies avec ADO sont présentées dans les rubriques d'aide d'ADO indiquées au bas de la page.
 
-<br/>
 
 <table>
 <colgroup>
@@ -63,5 +62,4 @@ Les propriétés dynamiques suivantes sont destinées à un emploi particulier ;
 </tbody>
 </table>
 
-<br/>
 

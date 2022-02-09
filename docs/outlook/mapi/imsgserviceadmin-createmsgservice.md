@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0135f049-0311-45e5-9685-78597d599a4e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b3d8327607db0546a4737cdddb3d913e54077eb
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cb96a571169532ddc37375cf89246b0f17c9eac8
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59579872"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461124"
 ---
 # <a name="imsgserviceadmincreatemsgservice"></a>IMsgServiceAdmin::CreateMsgService
 
@@ -25,7 +25,7 @@ ms.locfileid: "59579872"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Déconseillée : l’utilisation [d’IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) est recommandée. Ajoute un service de message au profil actuel. 
+Déconseillé : l’utilisation [d’IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) est recommandée. Ajoute un service de message au profil actuel. 
   
 ```cpp
 HRESULT CreateMsgService(
@@ -78,19 +78,19 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> Le nom du service de message ne se trouve pas dans la section **[Services]** de MapiSvc.inf. 
+> Le nom du service de message ne se trouve pas dans **la section [Services]** de MapiSvc.inf. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMsgServiceAdmin::CreateMsgService** ajoute un service de message au profil actuel. **CreateMsgService appelle** la fonction de point d’entrée du service de message pour effectuer des tâches de configuration spécifiques au service. Si l SERVICE_UI_ALLOWED est définie dans le paramètre  _ulFlags,_ le service de message en cours d’installation peut afficher une feuille de propriétés pour permettre à l’utilisateur de configurer ses paramètres. 
+La **méthode IMsgServiceAdmin::CreateMsgService** ajoute un service de message au profil actuel. **CreateMsgService appelle** la fonction de point d’entrée du service de message pour effectuer des tâches de configuration spécifiques au service. Si l’SERVICE_UI_ALLOWED est définie dans le paramètre _ulFlags_ , le service de message en cours d’installation peut afficher une feuille de propriétés pour permettre à l’utilisateur de configurer ses paramètres. 
   
 Le fichier MapiSvc.inf contient la liste des fournisseurs qui font un service de messagerie et les propriétés de chacun d’eux. **CreateMsgService** crée d’abord une section de profil pour le service de message, puis copie toutes les informations de ce service à partir du fichier MapiSvc.inf dans le profil, créant ainsi de nouvelles sections pour chaque fournisseur. 
   
-Une fois toutes les informations copiées à partir de MapiSvc.inf, la fonction de point d’entrée du service de message est appelée avec la valeur MSG_SERVICE_CREATE définie dans le paramètre _ulContext._ Si l’indicateur SERVICE_UI_ALLOWED est définie dans le paramètre _ulFlags_ de la méthode **CreateMsgService,** les valeurs des paramètres _ulUIParam_ et _ulFlags_ sont également transmises lorsque la fonction de point d’entrée du service de message est appelée. Les fournisseurs de services doivent afficher leurs feuilles de propriétés de configuration afin que les utilisateurs peuvent configurer le service de messagerie. 
+Une fois toutes les informations copiées à partir de MapiSvc.inf, la fonction de point d’entrée du service de message est appelée avec la valeur MSG_SERVICE_CREATE définie dans le paramètre _ulContext_ . Si l’indicateur SERVICE_UI_ALLOWED est définie dans le paramètre _ulFlags_ de la méthode **CreateMsgService**, les valeurs des paramètres _ulUIParam_ et _ulFlags sont également transmises_ lorsque la fonction de point d’entrée du service de message est appelée. Les fournisseurs de services doivent afficher leurs feuilles de propriétés de configuration afin que les utilisateurs peuvent configurer le service de messagerie. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **CreateMsgService** ne retourne pas la structure [MAPIUID](mapiuid.md) pour le service de message qui a été ajouté au profil. 
+ **CreateMsgService ne retourne** pas la structure [MAPIUID](mapiuid.md) pour le service de message qui a été ajouté au profil. 
   
 Pour récupérer **le MAPIUID** pour le service de message créé, utilisez la procédure suivante : 
   
@@ -100,7 +100,7 @@ Pour récupérer **le MAPIUID** pour le service de message créé, utilisez la p
     
 3. Récupérez la propriété **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) du service. 
     
-4. Passez la valeur de la **propriété PR_SERVICE_UID** dans le paramètre  _lpUid_ à la méthode [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) pour configurer le service. 
+4. Passez la valeur de la **propriété PR_SERVICE_UID** dans le paramètre _lpUid_ à la méthode [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) pour configurer le service. 
     
 > [!CAUTION]
 > L Microsoft Outlook 2010'implémentation du sous-système MAPI ne prend pas en charge MAPI_UNICODE et échouera s’il est utilisé. 
@@ -114,7 +114,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI utilise la méthode **IMsgServiceAdmin::CreateMsgService** pour ajouter un service à un profil.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI utilise la **méthode IMsgServiceAdmin::CreateMsgService** pour ajouter un service à un profil.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 65c9727a2af44a939263342dfca01ac7b9c128ff
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5c4ddba0719056966021b73caf0d0bdbdb3364ab
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630823"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462275"
 ---
 # <a name="imapifoldercopyfolder"></a>IMAPIFolder::CopyFolder
 
@@ -44,7 +44,7 @@ HRESULT CopyFolder(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -52,7 +52,7 @@ HRESULT CopyFolder(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au dossier vers qui pointe le paramètre _lpDestFolder._ La transmission de null entraîne le fournisseur de services à renvoyer l’interface de dossier standard, [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les valeurs  _valides pour lpInterface_ sont IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer et IID_IMAPIFolder. 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au dossier vers qui pointe le paramètre  _lpDestFolder_ . Si la valeur NULL est passé, le fournisseur de services retourne l’interface de dossier standard [, IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les valeurs  _valides pour lpInterface_ sont IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer et IID_IMAPIFolder. 
     
  _lpDestFolder_
   
@@ -64,11 +64,11 @@ HRESULT CopyFolder(
     
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le  _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG dans le  _paramètre ulFlags_ est définie. 
+> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le  _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG dans le _paramètre ulFlags_ est définie. 
     
  _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’FOLDER_DIALOG est définie dans  _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress_, le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’FOLDER_DIALOG est définie dans  _ulFlags_.
     
  _ulFlags_
   
@@ -76,7 +76,7 @@ HRESULT CopyFolder(
     
 COPY_SUBFOLDERS 
   
-> Tous les sous-sous-foldeurs à copier doivent également être copiés. Lorsque COPY_SUBFOLDERS n’est pas défini pour une opération de copie, seul le sous-folder identifié par  _lpEntryID_ est copié. Avec une opération de déplacement, le comportement COPY_SUBFOLDERS est le comportement par défaut, que l’indicateur soit ou non définie. 
+> Tous les sous-sous-foldeurs à copier doivent également être copiés. Lorsque COPY_SUBFOLDERS n’est pas défini pour une opération de copie, seul le sous-foldeur identifié par  _lpEntryID_ est copié. Avec une opération de déplacement, le comportement COPY_SUBFOLDERS est le comportement par défaut, que l’indicateur soit ou non définie. 
     
 FOLDER_DIALOG 
   
@@ -118,7 +118,7 @@ MAPI_E_FOLDER_CYCLE
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> L’appel a réussi, mais toutes les entrées n’ont pas été correctement copiées. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi, mais toutes les entrées n’ont pas été correctement copiées. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
@@ -158,7 +158,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFolder::CopyFolder** pour copier des dossiers d’un emplacement à un autre. MFCMAPI mémorisera le dossier source pendant l’opération de copie et effectuera en fait la copie pendant l’opération de coller.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI utilise la **méthode IMAPIFolder::CopyFolder** pour copier des dossiers d’un emplacement à un autre. MFCMAPI se souvenir du dossier source pendant l’opération de copie et effectue en fait la copie pendant l’opération de coller.  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

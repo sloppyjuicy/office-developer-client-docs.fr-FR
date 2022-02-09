@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: a13db599846ebb851b2eb60de2baf813fabf0907
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 43d9555be3282e29bbb1a4efaccb1af5899e4689
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565057"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461700"
 ---
 # <a name="querydefexecute-method-dao"></a>QueryDef.Execute, méthode (DAO)
 
@@ -111,7 +111,7 @@ Vous pouvez utiliser les constantes **[RecordsetOptionEnum](recordsetoptionenum-
 
 
 > [!NOTE]
-> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans avoir recours au moteur de base de données Microsoft Access.
+> Les espaces de travail ODBCDirect ne sont pas pris en charge dans Microsoft Access 2013. Utilisez ADO si vous voulez accéder aux sources de données externes sans utiliser le moteur de base de données Microsoft Access.
 
 > [!NOTE]
 > Les constantes **dbConsistent** et **dbInconsistent** s’excluent mutuellement. Vous pouvez utiliser l’une ou l’autre dans une instance donnée d’**OpenRecordset**, mais pas les deux à la fois. L’utilisation simultanée de **dbConsistent** et **dbInconsistent** entraîne une erreur.
@@ -241,7 +241,6 @@ Cet exemple illustre l'exécution de la méthode **Execute** à partir d'un obje
     End Sub 
 ```
 
-<br/>
 
 L'exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters est utilisée pour définir le paramètre Organization de la requête myActionQuery avant l'exécution de cette dernière.
 

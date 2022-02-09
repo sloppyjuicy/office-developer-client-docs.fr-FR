@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d423f7b5-23b8-44dd-bca3-6590182dc42d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 461cd536641e338cd29c849bb8069d3ac34f1667
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 43ccaf50aedf94e041e6975325a0bf553aac4c4b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613953"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461925"
 ---
 # <a name="iaddrbookpreparerecips"></a>IAddrBook::PrepareRecips
 
@@ -47,7 +47,7 @@ MAPI_CACHE_ONLY
     
  _lpSPropTagArray_
   
-> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété qui indiquent les propriétés, le cas contraire, qui nécessitent une mise à jour. Le  _paramètre lpSPropTagArray_ peut être NULL. 
+> [in] Pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriétés qui indiquent les propriétés, le cas contraire, qui nécessitent une mise à jour. Le  _paramètre lpSPropTagArray_ peut être NULL. 
     
  _lpRecipList_
   
@@ -63,15 +63,15 @@ S_OK
 
 Les clients et les fournisseurs de services appellent **la méthode PrepareRecips** pour : 
   
-- Assurez-vous que tous les destinataires du  _paramètre lpRecipList_ ont des identificateurs d’entrée à long terme. 
+- Assurez-vous que tous les destinataires du _paramètre lpRecipList_ ont des identificateurs d’entrée à long terme. 
     
-- Assurez-vous que chaque destinataire du paramètre  _lpRecipList_ possède les propriétés répertoriées dans le paramètre  _lpSPropTagArray_ et que ces propriétés apparaissent au début de la liste des destinataires. 
+- Assurez-vous que chaque destinataire du paramètre _lpRecipList_ possède les propriétés répertoriées dans le paramètre _lpSPropTagArray_ et que ces propriétés apparaissent au début de la liste des destinataires. 
     
 MAPI convertit les identificateurs d’entrée à court terme de chaque destinataire en identificateurs d’entrée à long terme. Si nécessaire, les identificateurs d’entrée à long terme des destinataires sont extraits du fournisseur de carnet d’adresses approprié et toutes les propriétés supplémentaires sont demandées.
   
-Dans une entrée de destinataire individuelle, les propriétés demandées sont d’abord commandées, suivies des propriétés déjà présentes pour l’entrée. Si une ou plusieurs des propriétés demandées dans le paramètre  _lpSPropTagArray_ ne sont pas gérées par le fournisseur de carnet d’adresses approprié, leurs types de propriétés sont PT_ERROR. Leurs valeurs de propriété seront définies sur MAPI_E_NOT_FOUND ou sur une autre valeur qui donne une raison plus spécifique pour laquelle les propriétés ne sont pas disponibles. Chaque structure [SPropValue](spropvalue.md) incluse dans le paramètre  _lpRecipList_ doit être allouée séparément à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore](mapiallocatemore.md) afin qu’elle puisse être libérée individuellement. 
+Dans une entrée de destinataire individuelle, les propriétés demandées sont d’abord ordre, suivies de toutes les propriétés déjà présentes pour l’entrée. Si une ou plusieurs des propriétés demandées dans le paramètre _lpSPropTagArray_ ne sont pas gérées par le fournisseur de carnet d’adresses approprié, leurs types de propriétés sont PT_ERROR. Leurs valeurs de propriété sont définies sur MAPI_E_NOT_FOUND ou sur une autre valeur qui donne une raison plus spécifique pour laquelle les propriétés ne sont pas disponibles. Chaque structure [SPropValue](spropvalue.md) incluse dans le paramètre _lpRecipList_ doit être allouée séparément à l’aide des fonctions [MAPIAllocateBuffer](mapiallocatebuffer.md) et [MAPIAllocateMore](mapiallocatemore.md) afin qu’elle puisse être libérée individuellement. 
   
-Pour plus d’informations PT_ERROR, voir [Types de propriétés.](property-types.md)
+Pour plus d’informations PT_ERROR, voir [Types de propriétés](property-types.md).
   
 ## <a name="see-also"></a>Voir aussi
 

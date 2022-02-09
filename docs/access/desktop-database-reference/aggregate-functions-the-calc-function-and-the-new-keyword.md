@@ -7,12 +7,12 @@ ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 33bb2aa973e91293c45d3d8bebbf57d6d7b7c20d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bcfadc9d0faf0b8a13c26918c1be91c05a987ae9
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607436"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461544"
 ---
 # <a name="aggregate-functions-the-calc-function-and-the-new-keyword"></a>Fonctions d’agrégation, fonction CALC et mot-clé NEW
 
@@ -62,12 +62,11 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 <tr class="odd">
 <td><p>ANY(<em>chapter-alias</em>.<em> column-name</em>)</p></td>
 <td><p>Valeur de la colonne spécifiée. ANY a une valeur prévisible uniquement si la valeur de la colonne est identique pour toutes les lignes du chapitre.
-</p><p><strong>REMARQUE</strong>: si la colonne ne contient pas la même valeur pour toutes les lignes du chapitre, la commande SHAPE renvoie arbitrairement l’une des valeurs comme valeur de la fonction ANY.</p></td>
+</p><p><strong>REMARQUE</strong> : si la colonne ne contient pas la même valeur pour toutes les lignes du chapitre, la commande SHAPE renvoie arbitrairement l’une des valeurs comme valeur de la fonction ANY.</p></td>
 </tr>
 </tbody>
 </table>
 
-<br/>
 
 <table>
 <colgroup>
@@ -88,7 +87,6 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 </tbody>
 </table>
 
-<br/>
 
 <table>
 <colgroup>
@@ -103,13 +101,12 @@ Un alias-chapitre peut être complètement qualifié et se composer de chaque no
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NEW <em>field-type</em> [(<em>width</em>  |  <em>scale</em>  |  <em>precision</em>  |  <em>error</em> [, <em>scale</em>  |  <em>error</em>])]</p></td>
+<td><p>NEW <em>field-type</em> [(<em></em><em>widthscaleprecisionerror</em> | <em></em> |  |  [,<em></em> <em>scaleerror</em><em></em> | ])]</p></td>
 <td><p>Ajoute une colonne vide du type spécifié au <strong>recordset</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
-<br/>
 
 Le *type de champ transmis* avec le mot clé NEW peut être l’un des types de données suivants.
 
@@ -209,5 +206,5 @@ Le *type de champ transmis* avec le mot clé NEW peut être l’un des types de 
 </table>
 
 
-Lorsque le nouveau champ est de type décimal (dans OLE DB, DBTYPE DECIMAL ou dans \_ ADO, adDecimal), vous devez spécifier les valeurs de précision et d’échelle.
+Lorsque le nouveau champ est de type décimal (dans OLE DB, DBTYPEDECIMAL\_ ou dans ADO, adDecimal), vous devez spécifier les valeurs de précision et d’échelle.
 

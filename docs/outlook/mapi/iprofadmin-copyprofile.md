@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: c82485e0da5457d069b6248b16b0fc3aa2a95a22
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1fdde1a490694f5e0f63aacda3f7f684a54ff1be
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613799"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462177"
 ---
 # <a name="iprofadmincopyprofile"></a>IProfAdmin::CopyProfile
 
@@ -75,7 +75,7 @@ MAPI_E_ACCESS_DENIED
     
 MAPI_E_LOGON_FAILED 
   
-> Le mot de passe du profil à copier est incorrect et l’utilisateur n’a pas pu afficher de boîte de dialogue pour demander le mot de passe correct, car MAPI_DIALOG n’a pas été définie dans le paramètre _ulFlags._ 
+> Le mot de passe du profil à copier est incorrect et une boîte de dialogue n’a pas pu être affichée pour demander le mot de passe correct, car MAPI_DIALOG n’a pas été définie dans le paramètre _ulFlags_ . 
     
 MAPI_E_NOT_FOUND 
   
@@ -83,7 +83,7 @@ MAPI_E_NOT_FOUND
     
 MAPI_E_USER_CANCEL 
   
-> L’utilisateur a annulé l’opération, généralement en cliquant sur le bouton **Annuler** dans une boîte de dialogue. 
+> L’utilisateur a annulé l’opération, généralement en cliquant sur le **bouton Annuler dans** une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 

@@ -7,19 +7,19 @@ ms:contentKeyID: 48543039
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 22dba78c2a9ad1c7fb20a355801a13c100da0239
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 471f44c46a7ff6d8fe053ef5444dda1085aea315
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602366"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462149"
 ---
 # <a name="indexnulls-property-example-vc"></a>IndexNulls, propriété – Exemple (VC++)
 
 
 **S’applique à** : Access 2013, Office 2013
 
-Cet exemple illustre la propriété [IndexNulls](indexnulls-property-adox.md) d’un objet [Index](index-object-adox.md). Le code crée un index et définit la valeur de **IndexNulls** en fonction de l’entrée utilisateur. Ensuite, **l’index** est appendué à la [table](table-object-adox.md) **Employees** dans *le catalogue Northwind* [.](catalog-object-adox.md) Le nouvel objet **Index** est appliqué à un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** et le **Recordset** est ouvert. Un nouvel enregistrement est ajouté à la table **Employees**, avec la valeur **Null** dans le champ indexé. Selon le paramètre de la propriété **IndexNulls**, ce nouvel enregistrement est affiché ou non.
+Cet exemple illustre la propriété [IndexNulls](indexnulls-property-adox.md) d’un objet [Index](index-object-adox.md). Le code crée un index et définit la valeur de **IndexNulls** en fonction de l’entrée utilisateur. Ensuite, **l’index** est appendué à la [table](table-object-adox.md) **Employees** dans *le catalogue Northwind*[.](catalog-object-adox.md) Le nouvel objet **Index** est appliqué à un objet [Recordset](recordset-object-ado.md) basé sur la table **Employees** et le **Recordset** est ouvert. Un nouvel enregistrement est ajouté à la table **Employees**, avec la valeur **Null** dans le champ indexé. Selon le paramètre de la propriété **IndexNulls**, ce nouvel enregistrement est affiché ou non.
 
 ```cpp 
  
@@ -214,7 +214,6 @@ void IndexNullsX(_bstr_t strSel)
 // EndIndexNullCpp 
 ```
 
-<br/>
 
 **IndexNullX.h**
 

@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 80d31611-e508-4b17-b482-bedf76db26ff
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: b22cefe52bf525f31041dcf87c94a0c32751c5a3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a569f99065acbb7a099839b078c56c0a0db0658d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550042"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462226"
 ---
 # <a name="setting-table-position-with-a-fractional-value"></a>Définition de la position du tableau avec une valeur fractionnaire
 
@@ -25,11 +25,11 @@ Les utilisateurs de tableau peuvent se déplacer vers une position qui représen
   
  **Pour déplacer le curseur un nombre approximatif de lignes**
   
-- Appelez [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** se déplace vers la ligne qui représente un pourcentage particulier de lignes par rapport au début du tableau. Ce pourcentage est spécifié dans les _paramètres ulNumerator_ et _ulDenominator._ **SeekRowApprox est fréquemment utilisé** pour implémenter des barres de défilement. 
+- [Appelez IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** se déplace vers la ligne qui représente un pourcentage particulier de lignes par rapport au début du tableau. Ce pourcentage est spécifié dans les _paramètres ulNumerator_ et  _ulDenominator_ . **SeekRowApprox est fréquemment utilisé** pour implémenter des barres de défilement. 
     
  **Pour déterminer la position approximative d’un tableau**
   
-- Appelez [IMAPITable::QueryPosition](imapitable-queryposition.md). **QueryPosition peut** être utilisé pour informer l’utilisateur de la position actuelle. Il définit une valeur fractionnaire en fonction du nombre de lignes du tableau et du numéro de la ligne actuelle. Attendez-vous à ce que cette valeur représente une estimation. Les implémenteurs de tableau sont encouragés à ne pas calculer la position exacte, car les implémentations précises peuvent être coûteuses à appeler, en particulier sur les tableaux catégorisés. 
+- [Appelez IMAPITable::QueryPosition](imapitable-queryposition.md). **QueryPosition** peut être utilisé pour informer l’utilisateur de la position actuelle. Il définit une valeur fractionnaire en fonction du nombre de lignes du tableau et du numéro de la ligne actuelle. Attendez-vous à ce que cette valeur représente une estimation. Les implémenteurs de tableau sont encouragés à ne pas calculer la position exacte, car les implémentations précises peuvent être coûteuses à appeler, en particulier sur les tableaux catégorisés. 
     
 ## <a name="see-also"></a>Voir aussi
 

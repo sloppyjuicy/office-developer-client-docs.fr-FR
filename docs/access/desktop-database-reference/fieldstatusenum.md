@@ -7,12 +7,12 @@ ms:contentKeyID: 48544635
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 5fd8afb1d1c8210b81629a004a9b58791d08fab6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 55951e98a439606333efe9cb0dc5c74320d31f86
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573039"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461390"
 ---
 # <a name="fieldstatusenum"></a>FieldStatusEnum
 
@@ -22,7 +22,6 @@ Spécifie l'état d'un objet **Field**.
 
 Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état ; elles peuvent être combinées avec d'autres valeurs d'état.
 
-<br/>
 
 <table>
 <colgroup>
@@ -80,7 +79,7 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="odd">
 <td><p><strong>adFieldDoesNotExist</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Indique que le champ spécifié n'existe pas.</p></td>
 </tr>
 <tr class="even">
@@ -175,7 +174,7 @@ Les valeurs **adFieldPending\*** indiquent l'opération à l'origine de l'état 
 </tr>
 <tr class="even">
 <td><p><strong>adFieldTruncated</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Indique que des données de longueur variable ont été tronquées lors de la lecture de la source de données.</p></td>
 </tr>
 <tr class="odd">

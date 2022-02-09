@@ -7,12 +7,12 @@ ms:contentKeyID: 48546489
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f9789699e39bcb7b7532beb69aaf52c8f0d6e889
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 15a92844e568c69ad490eb612125eff26a4c081e
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59552653"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462303"
 ---
 # <a name="recordset2seek-method-dao"></a>Recordset2.Seek, méthode (DAO)
 
@@ -22,9 +22,9 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 
 ## <a name="syntax"></a>Syntaxe
 
-*.* Seek(***Comparison** _, _*_Key1_*_, _*_Key2_*_, _*_Key3_*_, _*_Key4_*_, _*_Key5_*_, _*_Key6_*_, _*_Key7_*_, _*_Key8_*_, _*_Key9_*_, _*_Key10 , Key11_*_, _*_Key12_*_, _*_Key13_**) _**_
+*expression* .Seek(***Comparison** _, _*_Key1_*_, _*_Key2_*_, _*_Key3_*_, _*_Key4_*_, _*_Key5_*_, _*_Key6_*_, _*_Key7_*_, _*_Key8_*_, _*_Key9_*_, _*_Key10_*_, _*_Key11_*_, _*_Key12_*_, _*_Key13_**)
 
-*expression* Variable qui représente un **objet Recordset2.**
+*expression* Variable qui représente un **objet Recordset2** .
 
 ## <a name="parameters"></a>Paramètres
 
@@ -54,7 +54,7 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 <td><p><em>Key1, Key2...Key13</em></p></td>
 <td><p>Obligatoire</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Une ou plusieurs valeurs correspondant aux champs dans l'index actuel de l'objet <strong>Recordset</strong>, comme indiqué par son paramètre de propriété <strong>Index</strong>. Vous pouvez utiliser jusqu'à 13 arguments clés.</p></td>
+<td><p>Une ou plusieurs valeurs correspondant aux champs dans l'index actuel de l'objet <strong>Recordset</strong>, comme indiqué par son paramètre de propriété <strong>Index</strong>. Vous pouvez utiliser jusqu'à 13 arguments clés.</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,15 +64,15 @@ Localise l’enregistrement dans un objet **Recordset** de type table indexé qu
 
 Vous devez définir l’index actuel avec la propriété **Index** avant d’utiliser la méthode **Seek**. Si l’index identifie un champ de clé non unique, la méthode **Seek** localise le premier enregistrement qui correspond aux critères.
 
-La méthode **Seek** effectue une recherche dans les champs de clé spécifiés et localise le premier enregistrement qui correspond aux critères spécifiés par comparaison et key1. Une fois trouvé, cet enregistrement devient l’enregistrement actif et la propriété **NoMatch** est définie sur **False**. Si la méthode **Seek** ne trouve pas de correspondance, la propriété **NoMatch** est définie sur **True**, et l’enregistrement actif n’est pas défini.
+La méthode **Seek** effectue une recherche dans les champs clés spécifiés et recherche le premier enregistrement qui répond aux critères spécifiés par comparaison et key1. Une fois trouvé, il rend cet enregistrement actif et définit la propriété **NoMatch** sur **False**. Si la méthode **Seek** ne parvient pas à trouver une correspondance, la propriété **NoMatch** est définie sur **True** et l’enregistrement actuel n’est pas défini.
 
 Si le paramètre de comparaison est égal (=), supérieur ou égal (\>=) ou supérieur à (\>), la méthode **Seek** commence au début de l’index et effectue une recherche vers l’avant.
 
-Si le paramètre de comparaison est inférieur (\<) ou inférieur ou égal à (\<=), la méthode **Seek** commence à la fin de l’index et effectue une recherche vers l’arrière. Toutefois, s'il existe des doublons à la fin de l'index, la méthode **Seek** démarre arbitrairement à partir de l'un des doublons, puis effectue une recherche vers l'arrière.
+Si la comparaison est inférieure à (\<) ou inférieure ou égale (\<=), **Seek** commence à la fin de l’index et effectue une recherche vers l’arrière. Toutefois, s’il existe des entrées d’index en double à la fin de l’index, **Seek** commence par une entrée arbitraire parmi les doublons, puis effectue une recherche vers l’arrière.
 
-Vous devez spécifier des valeurs pour tous les champs définis dans l'index. Si vous utilisez la méthode **Seek** avec un index à plusieurs colonnes et que vous ne spécifiez pas de valeur de comparaison pour chaque champ de l’index, vous ne pouvez pas utiliser l’opérateur égal (=) dans la comparaison. C’est parce que certains champs de critères (key2, key3 et ainsi de suite) utilisent par défaut Null, ce qui ne correspondra pas. Par conséquent, pour que l’opérateur d’égalité (=) fonctionne correctement, vous devez avoir un enregistrement entièrement **null** à l’exception de la clé que vous recherchez. Nous vous recommandons d’utiliser l’opérateur supérieur ou égal (\>=) à la place.
+Vous devez spécifier des valeurs pour tous les champs définis dans l’index. Si vous utilisez **Seek** avec un index à plusieurs colonnes et que vous ne spécifiez pas de valeur de comparaison pour chaque champ de l’index, vous ne pouvez pas utiliser l’opérateur égal (=) dans la comparaison. Cela est dû au fait que certains champs de critères (key2, key3, etc.) ont la valeur Null par défaut, ce qui ne correspond probablement pas. Par conséquent, l’opérateur égal fonctionne correctement uniquement si vous avez un enregistrement qui est tout **null** à l’exception de la clé que vous recherchez. Il est recommandé d’utiliser à la place l’opérateur supérieur ou égal (\>=).
 
-L’argument key1 doit être identique à celui du champ de données correspondant dans l’index actuel. Par exemple, si l’index actuel fait référence à un champ numérique (par exemple, « ID employé »), key1 doit être numérique. De même, si l’index actuel fait référence à un champ de texte (par exemple, « Nom »), key1 doit être une chaîne.
+L'argument key1 doit être du même type de données que le champ correspondant dans l'index actuel. Par exemple, si l'index actuel fait référence à un champ de type Numérique (tel que le numéro d'identification de l'employé), key1 doit être numérique. De même, si l'index actuel fait référence à un champ de type Texte (par exemple, celui accueillant le nom de famille), key1 doit être une chaîne.
 
 Il n’est pas obligatoire qu’un enregistrement soit actif lorsque vous utilisez la méthode **Seek**.
 
@@ -144,7 +144,6 @@ Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à reche
     End Sub 
 ```
 
-<br/>
 
 Cet exemple de code montre comment utiliser la propriété **NoMatch** pour déterminer si les opérations **Seek** et **FindFirst** ont abouti. Si ce n'est pas le cas, l'utilisateur en est informé de façon appropriée. Les procédures SeekMatch et FindMatch sont nécessaires à l'exécution de cette procédure.
 

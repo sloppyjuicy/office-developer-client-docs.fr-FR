@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: ab302bfd-5cff-49b4-b0d2-308ae5af478d
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 894181e01fbe09fba018fe2cbff58f65ef4eb84c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b1e904a6f904869c7f5030afdec383b100889cb5
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571793"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461679"
 ---
 # <a name="imapiformmgrcalcformpropset"></a>IMAPIFormMgr::CalcFormPropSet
 
@@ -43,7 +43,7 @@ HRESULT CalcFormPropSet(
     
  _ulFlags_
   
-> [in] Masque de bits d’indicateurs qui contrôle la façon dont le tableau de propriétés dans le  _paramètre ppResults_ est renvoyé. Les indicateurs suivants peuvent être définies : 
+> [in] Masque de bits d’indicateurs qui contrôle la façon dont le tableau de _propriétés dans le paramètre ppResults_ est renvoyé. Les indicateurs suivants peuvent être définies : 
     
 FORMPROPSET_INTERSECTION 
   
@@ -73,11 +73,11 @@ MAPI_E_BAD_CHARWIDTH
     
 ## <a name="remarks"></a>Remarques
 
-Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::CalcFormPropSet** pour obtenir un tableau des propriétés utilisées par un groupe de formulaires. **CalcFormPropSet** prend une intersection ou une union des jeux de propriétés de ces formulaires, en fonction de l’indicateur définie dans le paramètre  _ulFlags,_ et renvoie une structure **SMAPIFormPropArray** qui contient le groupe de propriétés résultant. 
+Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::CalcFormPropSet** pour obtenir un tableau des propriétés utilisées par un groupe de formulaires. **CalcFormPropSet** prend une intersection ou une union des jeux de propriétés de ces formulaires, en fonction de l’indicateur définie dans le paramètre _ulFlags_ , et il renvoie une structure **SMAPIFormPropArray** qui contient le groupe de propriétés résultant. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Si une visionneuse de formulaire passe l’MAPI_UNICODE dans le paramètre  _ulFlags,_ toutes les chaînes doivent être renvoyées sous forme de chaînes Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prisent pas en charge les chaînes Unicode doivent MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
+Si une visionneuse de formulaire passe l’MAPI_UNICODE dans le paramètre _ulFlags_ , toutes les chaînes doivent être renvoyées sous forme de chaînes Unicode. Les fournisseurs de bibliothèques de formulaires qui ne prisent pas en charge les chaînes Unicode doivent MAPI_E_BAD_CHARWIDTH si MAPI_UNICODE est passé. 
   
 ## <a name="see-also"></a>Voir aussi
 

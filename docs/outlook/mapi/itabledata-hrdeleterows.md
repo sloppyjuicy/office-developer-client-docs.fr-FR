@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 48810ea68394fa21ad666dfc8464bbf12b2c8359
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e5b8bfaa1b09d3302be249f195dd01004297277e
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584226"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461981"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
@@ -47,7 +47,7 @@ TAD_ALL_ROWS
     
  _lprowsetToDelete_
   
-> [in] Pointeur vers un ensemble de lignes qui décrit les lignes à supprimer. Le _paramètre lprowsetToDelete_ peut être NULL si l’TAD_ALL_ROWS est définie dans le _paramètre ulFlags._ 
+> [in] Pointeur vers un ensemble de lignes qui décrit les lignes à supprimer. Le  _paramètre lprowsetToDelete_ peut être NULL si l’TAD_ALL_ROWS est définie dans _le paramètre ulFlags_ . 
     
  _cRowsDeleted_
   
@@ -61,7 +61,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode ITableData::HrDeleteRows** localise et supprime les lignes de tableau qui contiennent les colonnes qui correspondent à la propriété pointée par le membre **lpProps** de chaque entrée **aRow** dans le jeu de lignes. Une colonne d’index est utilisée pour identifier chaque ligne ; Cette colonne doit avoir la même balise de propriété que la balise de propriété transmise dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la [fonction CreateTable.](createtable.md) 
+La **méthode ITableData::HrDeleteRows** localise et supprime les lignes de tableau qui contiennent les colonnes qui correspondent à la propriété pointée par le membre **lpProps** de chaque entrée **aRow** dans le jeu de lignes. Une colonne d’index est utilisée pour identifier chaque ligne ; Cette colonne doit avoir la même balise de propriété que la balise de propriété transmise dans le paramètre _ulPropTagIndexColumn_ dans l’appel à la [fonction CreateTable](createtable.md) . 
   
 Le nombre de lignes réellement supprimées est renvoyé dans  _cRowsDeleted_. Aucune erreur n’est renvoyée si une ou plusieurs lignes sont in trouvées. 
   

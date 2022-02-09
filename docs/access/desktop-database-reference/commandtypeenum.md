@@ -7,12 +7,12 @@ ms:contentKeyID: 48546549
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: df4cd648d900e62fc699f1cd96286bd196c4eeb9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 56f7ddc717e1df284c77127cb9ebff05e0151797
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565785"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462402"
 ---
 # <a name="commandtypeenum"></a>CommandTypeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59565785"
 
 Spécifie comment interpréter un argument de commande.
 
-<br/>
 
 <table>
 <colgroup>
@@ -53,7 +52,7 @@ Spécifie comment interpréter un argument de commande.
 </tr>
 <tr class="even">
 <td><p><strong>adCmdStoredProc</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Evalue <strong>CommandText</strong> comme nom de procédure stockée.</p></td>
 </tr>
 <tr class="odd">
@@ -85,7 +84,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

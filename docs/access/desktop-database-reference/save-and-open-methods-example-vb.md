@@ -7,12 +7,12 @@ ms:contentKeyID: 48547081
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 39281576ad291aead8cd68d652ecf5b04bc9199b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6721fe8d4fb007395ced41f03e0246d00ce50da2
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59601820"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462296"
 ---
 # <a name="save-and-open-methods-example-vb"></a>Save et Open, méthodes – Exemple (VB)
 
@@ -81,9 +81,8 @@ End Sub
 'EndSaveVB 
 ```
 
-<br/>
 
-À ce stade, vous êtes arrivé à destination. Vous accéderez à la table ***Authors** _ en tant que _*Recordset* local déconnecté. N’oubliez pas que vous devez avoir le fournisseur **MSPersist** sur l’ordinateur que vous utilisez pour accéder au fichier enregistré, a: \\Pubs.xml.
+À ce stade, vous êtes arrivé à destination. Vous accéderez à la table ***Authors** _ en tant que _*Recordset* local et déconnecté. N’oubliez pas que vous devez avoir le fournisseur **MSPersist** sur l’ordinateur que vous utilisez pour accéder au fichier enregistré, a:\\Pubs.xml.
 
 ```vb 
  
@@ -131,7 +130,6 @@ End Sub
 'EndSave2VB 
 ```
 
-<br/>
 
 Enfin, vous êtes de retour et vous mettez à présent la base de données à jour avec vos modifications.
 

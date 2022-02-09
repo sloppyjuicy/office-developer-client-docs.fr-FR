@@ -7,12 +7,12 @@ ms:contentKeyID: 48545648
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 29e882685fe06d98984d15a4d5bd7e517f794a6c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d6d72a95b1f400050d40f1b40ffd4fcc146e2f57
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618517"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461411"
 ---
 # <a name="chapter-3-examining-data"></a>Chapitre 3 : Examen de données
 
@@ -55,7 +55,6 @@ End Sub
 'EndRsTour 
 ```
 
-<br/>
 
 Cette requête SQL renvoie un **jeu d'enregistrements** constitué de cinq lignes (enregistrements) et de trois colonnes (champs). Les valeurs de chaque ligne sont indiquées dans le tableau suivant.
 
@@ -105,10 +104,10 @@ Name = UnitPrice</p></th>
 </table>
 
 
-La section suivante explique comment localiser la position actuelle du curseur dans cet exemple **de jeu d’enregistrements.**
+La section suivante explique comment localiser la position actuelle du curseur dans cet exemple **de jeu d’enregistrements**.
 
 Ce chapitre présente les rubriques suivantes :
 
-- [Recherche de l’enregistrement actuel (ADO)](locating-the-current-record.md)
+- [Localisation de l’enregistrement actuel (ADO)](locating-the-current-record.md)
 - [Navigation dans les données (ADO)](navigating-through-the-data.md)
 - [Understanding Recordset structure (ADO)](understanding-recordset-structure.md)

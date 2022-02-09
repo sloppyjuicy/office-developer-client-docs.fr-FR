@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: c16c668e-2c8b-4759-bbca-d0c5662b62e9
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 67d60bf7e2da26f51eafcc0192d864b447aa3b9f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6edda10d54e80f982785f65ecec0bdd950f8de59
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620876"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461362"
 ---
 # <a name="imapisupportnotify"></a>IMAPISupport::Notify
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Envoie une notification d’un événement spécifié à une source de conseil qui s’est inscrite à l’origine pour la notification via la méthode [IMAPISupport::Subscribe.](imapisupport-subscribe.md) 
+Envoie une notification d’un événement spécifié à une source de conseil qui s’est inscrite à l’origine pour la notification via la méthode [IMAPISupport::Subscribe](imapisupport-subscribe.md) . 
   
 ```cpp
 HRESULT Notify(
@@ -42,7 +42,7 @@ _lpKey_
     
 _cNotification_
   
-> [in] Nombre de structures de notifications pointées par _le paramètre lpNotifications._ 
+> [in] Nombre de structures de notifications pointées par  _le paramètre lpNotifications_ . 
     
 _lpNotifications_
   
@@ -70,19 +70,19 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::Notify** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services appellent **Notify** pour demander à MAPI de générer une notification pour un recevoir de notification qui s’est précédemment inscrit pour la notification via la méthode **IMAPISupport::Subscribe.** 
+La **méthode IMAPISupport::Notify** est implémentée pour tous les objets de support du fournisseur de services. Les fournisseurs de services appellent **Notify** pour demander à MAPI de générer une notification pour un réception de notification qui s’est précédemment inscrit pour la notification via la méthode **IMAPISupport::Subscribe** . 
   
 **Notify** copie les structures pointées vers le paramètre  _lpNotifications_ dans la mémoire et appelle la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) du sink de notification approprié. Une fois la notification terminée, **OnNotify** libère la mémoire impliquée. L’appelant n’a pas besoin d’allouer de mémoire . MAPI effectue toutes les allocations de mémoire nécessaires. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-La clé de notification transmise dans le paramètre _lpKey_ doit être identique à la clé transmise dans _lpKey_ à la méthode **IMAPISupport::Subscribe.** De nombreux fournisseurs utilisent l’identificateur d’entrée de la source de conseil comme clé, mais d’autres données, telles qu’un chemin d’accès à un fichier, peuvent être utilisées. MAPI utilise cette clé pour rechercher toutes les inscriptions pour les notifications sur la source de notification identifiée. 
+La clé de notification transmise dans le paramètre _lpKey_ doit être identique à la clé transmise dans  _lpKey_ à la méthode **IMAPISupport::Subscribe** . De nombreux fournisseurs utilisent l’identificateur d’entrée de la source de conseil comme clé, mais d’autres données, telles qu’un chemin d’accès au fichier, peuvent être utilisées. MAPI utilise cette clé pour rechercher toutes les inscriptions pour les notifications sur la source de notification identifiée. 
   
-Assurez-vous de définir le membre **lpEntryID** de la structure de notification sur un identificateur d’entrée à long terme. 
+Assurez-vous de définir le **membre lpEntryID** de la structure de notification sur un identificateur d’entrée à long terme. 
   
-Si vous définissez l’indicateur  NOTIFY_SYNC sur l’appel d’abonnement pour l’une des notifications en attente, **Notify** appelle les fonctions de rappel de la méthode **IMAPIAdviseSink::OnNotify** avant de les renvoyer. Un sink de conseil peut être créé manuellement ou en appelant [HrAllocAdviseSink](hrallocadvisesink.md). La **fonction HrAllocAdviseSink** permet à son appelant de  spécifier une fonction de rappel qui notifie les appels dans le cadre de la notification. La fonction de rappel est conforme au prototype [NOTIFCALLBACK.](notifcallback.md) Les fonctions de rappel implémentées par les clients retournent toujours S_OK ; les fonctions de rappel implémentées par les fournisseurs de services peuvent renvoyer CALLBACK_DISCONTINUE. 
+Si vous définissez l’indicateur NOTIFY_SYNC sur l’appel d’abonnement pour l’une des notifications en attente, **Notify** appelle les fonctions de rappel de méthode **IMAPIAdviseSink::OnNotify** avant de renvoyer. Un sink de conseil peut être créé manuellement ou en appelant [HrAllocAdviseSink](hrallocadvisesink.md). La **fonction HrAllocAdviseSink** permet à son appelant de spécifier une fonction de rappel qui  notifie les appels dans le cadre de la notification. La fonction de rappel est conforme au prototype [NOTIFCALLBACK](notifcallback.md) . Les fonctions de rappel implémentées par les clients retournent toujours S_OK ; les fonctions de rappel implémentées par les fournisseurs de services peuvent renvoyer CALLBACK_DISCONTINUE. 
   
-Si une fonction de rappel renvoie CALLBACK_DISCONTINUE, MAPI cesse d’envoyer des notifications et renvoie NOTIFY_CANCELED dans le paramètre _lpulFlags_ de la méthode **Notify.** Vous pouvez supposer que le processus est inactif et arrêter de générer des notifications pour ce processus. Si **Notify** renvoie 0 dans  _lpulFlags,_ le processus est toujours actif et vous devez continuer à envoyer des notifications, le cas échéant.
+Si une fonction de rappel renvoie CALLBACK_DISCONTINUE, MAPI cesse d’envoyer des notifications et renvoie NOTIFY_CANCELED dans le paramètre _lpulFlags_ de la méthode **Notify**. Vous pouvez supposer que le processus est inactif et arrêter de générer des notifications pour ce processus. Si **Notify** renvoie 0 dans  _lpulFlags_, le processus est toujours actif et vous devez continuer à envoyer des notifications, le cas échéant.
   
 Lorsque vous utilisez des notifications synchrones, évitez les blocages.
   

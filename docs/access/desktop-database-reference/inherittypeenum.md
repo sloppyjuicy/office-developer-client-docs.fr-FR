@@ -7,12 +7,12 @@ ms:contentKeyID: 48546944
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 7b4a66853fcb51c617d8afdd9b806a6faa567a2f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ffd5d7792a135fb8f6d63db1452b22a0eaef9a57
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59626371"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462142"
 ---
 # <a name="inherittypeenum"></a>InheritTypeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59626371"
 
 Indique comment les objets hériteront des autorisations définies à l’aide de la méthode [SetPermissions](setpermissions-method-adox.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -53,7 +52,7 @@ Indique comment les objets hériteront des autorisations définies à l’aide d
 </tr>
 <tr class="even">
 <td><p><strong>adInheritNoPropagate</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Les indicateurs <strong>adInheritObjects</strong> et <strong>adInheritContainers</strong> ne sont pas transmis à une entrée héritée.</p></td>
 </tr>
 <tr class="odd">

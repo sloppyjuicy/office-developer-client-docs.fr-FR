@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3406d060-bfea-4cea-8253-2a9aeb9e8147
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 78614af6a9f00fb5e4e0904f9774dc3c5b8494da
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ec1e2510b11f5162a8bfc7f2467c4b5213288a53
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578528"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461721"
 ---
 # <a name="szfindch"></a>SzFindCh
  
@@ -50,7 +50,7 @@ _ch_
     
 ## <a name="return-value"></a>Valeur renvoyée
 
-**SzFindCh renvoie** un pointeur vers la première occurrence du caractère dans la chaîne. Si le caractère ne se produit nulle part dans la chaîne, ou si le paramètre  _lpsz_ est NULL, une valeur NULL est renvoyée. 
+**SzFindCh renvoie** un pointeur vers la première occurrence du caractère dans la chaîne. Si le caractère ne se produit nulle part dans la chaîne, ou si le paramètre _lpsz_ est NULL, une valeur NULL est renvoyée. 
   
 ## <a name="remarks"></a>Remarques
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48545801
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 6478cc18cd76cfc5f5b1fa47e3b5d1bbd7950fbd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e2eab4b24cd46968d5bbbc844858ebe43717fe02
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618468"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462205"
 ---
 # <a name="compareenum"></a>CompareEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59618468"
 
 Spécifie la position relative de deux enregistrements représentés par leurs signets.
 
-<br/>
 
 <table>
 <colgroup>
@@ -53,7 +52,7 @@ Spécifie la position relative de deux enregistrements représentés par leurs s
 </tr>
 <tr class="even">
 <td><p><strong>adCompareNotComparable</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Indique que les signets ne peuvent être ouverts.</p></td>
 </tr>
 <tr class="odd">
@@ -75,7 +74,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

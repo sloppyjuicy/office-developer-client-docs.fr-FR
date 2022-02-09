@@ -7,18 +7,17 @@ ms:contentKeyID: 48545675
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c16858e6ec8e86cc71fcbf8b66a1b3be630e5b45
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 168b847de25e6e14943dfcb1e85efb6f691a501b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607485"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459803"
 ---
 # <a name="adox-properties"></a>Propriétés ADOX
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -27,7 +26,7 @@ ms.locfileid: "59607485"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Property</p></th>
+<th><p>Propriété</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
@@ -73,7 +72,7 @@ ms.locfileid: "59607485"
 <td><p>Indique si des enregistrements comprenant des valeurs Null dans leurs champs d'index ont des entrées d'index.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">Élément</a></p></td>
+<td><p><a href="item-property-ado.md">Item</a></p></td>
 <td><p>Indique un membre spécifique d'une collection, par son nom ou nombre ordinal.</p></td>
 </tr>
 <tr class="even">

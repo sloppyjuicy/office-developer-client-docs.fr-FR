@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5d291d49e07112082e5bf36c774fb0c687ea1f4b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ebc1c587ce663036f633971086fecccf0d0ff9d6
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592635"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461693"
 ---
 # <a name="accelerateabsdi"></a>ACCELERATEABSDI
  
@@ -42,7 +42,7 @@ BOOL (STDMETHODCALLTYPE ACCELERATEABSDI)(
 
  _ulUIParam_
   
-> [in] Valeur spécifique à l’implémentation utilisée pour transmettre des informations d’interface utilisateur à une fonction. Dans les applications en cours d’exécution sur Microsoft Windows, _ulUIParam_ est le handle de fenêtre parent d’une boîte de dialogue et est de type HWND, cast vers un **ULONG_PTR**. La valeur zéro indique qu’il n’y a pas de fenêtre parente. 
+> [in] Valeur spécifique à l’implémentation utilisée pour transmettre des informations d’interface utilisateur à une fonction. Dans les applications en cours d’exécution sur Microsoft Windows, _ulUIParam_ est le handle de fenêtre parent d’une boîte de dialogue et est de type HWND, cast en **ULONG_PTR**. La valeur zéro indique qu’il n’y a pas de fenêtre parente. 
     
  _lpvmsg_
   
@@ -54,10 +54,10 @@ Une fonction avec le prototype **ACCELERATEABSDI renvoie** true si elle gère le
   
 ## <a name="remarks"></a>Remarques
 
-Une fonction basée sur le prototype **ACCELERATEABSDI** est utilisée uniquement avec une boîte de dialogue sans mode, c’est-à-dire, uniquement si l’application cliente a définie l’indicateur DIALOG_SDI dans le membre _ulFlags_ de la structure [ADRPARM.](adrparm.md) 
+Une fonction basée sur le prototype **ACCELERATEABSDI** est utilisée uniquement avec une boîte de dialogue sans mode, c’est-à-dire, uniquement si l’application cliente a définie l’indicateur DIALOG_SDI dans le membre _ulFlags_ de la structure [ADRPARM](adrparm.md) . 
   
-Une boîte de dialogue sans mode partage la boucle de messages Windows de l’application cliente, au lieu d’avoir sa propre boucle. L’application, qui contrôle la boucle de messages, ne sait pas quelles touches d’accès rapide la boîte de dialogue utilise. Elle appelle donc une fonction **ACCELERATEABSDI** pour tester et agir sur des touches d’accès rapide telles que Ctrl+P pour l’impression. 
+Une boîte de dialogue sans mode partage la boucle Windows message de l’application cliente, au lieu d’avoir sa propre boucle. L’application, qui contrôle la boucle de message, ne sait pas quelles touches d’accès rapide la boîte de dialogue utilise, elle appelle donc une fonction **ACCELERATEABSDI** pour tester et agir sur des touches d’accès rapide telles que Ctrl+P pour l’impression. 
   
-La boucle de messages d’un client appelle la fonction **ACCELERATEABSDI** lorsque le client appelle une boîte de dialogue de carnet d’adresses sans mode avec la méthode [IAddrBook::Address.](iaddrbook-address.md) Cet appel est interrompu lorsque MAPI appelle une fonction basée sur le prototype de fonction [DISMISSMODELESS.](dismissmodeless.md) 
+La boucle de messages d’un client appelle la fonction **ACCELERATEABSDI** lorsque le client appelle une boîte de dialogue de carnet d’adresses sans mode avec la méthode [IAddrBook::Address](iaddrbook-address.md) . Cet appel est interrompu lorsque MAPI appelle une fonction basée sur le prototype de fonction [DISMISSMODELESS](dismissmodeless.md) . 
   
 

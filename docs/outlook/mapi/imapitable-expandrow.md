@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ca03023d7edd81db214c080b8d4a744c1bf661cc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d3b426588e67562935a00a32d1390b6b98f41257
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620827"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461763"
 ---
 # <a name="imapitableexpandrow"></a>IMAPITable::ExpandRow
 
@@ -25,7 +25,7 @@ ms.locfileid: "59620827"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Développe une catégorie de tableaux réduit, en ajoutant les lignes de titre de niveau inférieur ou feuille appartenant à la catégorie à l’affichage Tableau.
+Développe une catégorie de tableaux réduit, en ajoutant les lignes de titre de niveau inférieur ou feuille appartenant à la catégorie à l’affichage tableau.
   
 ```cpp
 HRESULT ExpandRow(
@@ -42,15 +42,15 @@ ULONG FAR * lpulMoreRows
 
  _cbInstanceKey_
   
-> [in] Nombre d’octets dans la propriété PR_INSTANCE_KEY pointant vers le _paramètre pbInstanceKey._ 
+> [in] Nombre d’octets dans la propriété PR_INSTANCE_KEY pointant vers le  _paramètre pbInstanceKey_ . 
     
  _pbInstanceKey_
   
-> [in] Pointeur vers la **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne de titre de la catégorie. 
+> [in] Pointeur vers la **propriété PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne de titre de la catégorie. 
     
  _ulRowCount_
   
-> [in] Nombre maximal de lignes à renvoyer dans le _paramètre lppRows._ 
+> [in] Nombre maximal de lignes à renvoyer dans le _paramètre lppRows_ . 
     
  _ulFlags_
   
@@ -58,7 +58,7 @@ ULONG FAR * lpulMoreRows
     
  _lppRows_
   
-> [out] Pointeur vers une structure [SRowSet](srowset.md) recevant les premières lignes (jusqu’à  _ulRowCount)_ qui ont été insérées dans l’affichage Tableau suite à l’expansion. Ces lignes sont insérées après la ligne de titre identifiée par le _paramètre pbInstanceKey._ Le  _paramètre lppRows_ peut être NULL si  _le paramètre ulRowCount_ est zéro. 
+> [out] Pointeur vers une structure [SRowSet](srowset.md) recevant les premières lignes (  _jusqu’à ulRowCount_) qui ont été insérées dans l’affichage Tableau suite à l’expansion. Ces lignes sont insérées après la ligne de titre identifiée par le  _paramètre pbInstanceKey_ . Le  _paramètre lppRows_ peut être NULL si _le paramètre ulRowCount_ est zéro. 
     
  _lpulMoreRows_
   
@@ -76,7 +76,7 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPITable::ExpandRow** développe une catégorie de tableaux réduit, en ajoutant les lignes de titre de niveau inférieur ou feuille qui appartiennent à la catégorie à l’affichage Tableau. Une limite au nombre de lignes à retourner dans le paramètre _lppRows_ peut être spécifiée dans le _paramètre ulRowCount._ Lorsque  _ulRowCount_ est définie sur une valeur supérieure à zéro et qu’une ou plusieurs lignes sont renvoyées dans le jeu de lignes pointé par  _lppRows,_ la position du signet BOOKMARK_CURRENT est déplacée vers la ligne qui suit immédiatement la dernière ligne du jeu de lignes.
+La **méthode IMAPITable::ExpandRow** développe une catégorie de tableaux réduit, en ajoutant les lignes de titre de niveau inférieur ou feuille qui appartiennent à la catégorie à l’affichage Tableau. Une limite au nombre de lignes à retourner dans le paramètre _lppRows_ peut être spécifiée dans le _paramètre ulRowCount_ . Lorsque  _ulRowCount_ est définie sur une valeur supérieure à zéro et qu’une ou plusieurs lignes sont renvoyées dans le jeu de lignes pointé par  _lppRows_, la position du signet BOOKMARK_CURRENT est déplacée vers la ligne qui suit immédiatement la dernière ligne du jeu de lignes.
   
 Lorsque  _ulRowCount_ est défini sur zéro, en demandant l’ajout de lignes d’en-tête de feuille ou de bas niveau à la catégorie, ou qu’il n’y a aucune ligne de titre de niveau inférieur ou feuille dans la catégorie, la position de BOOKMARK_CURRENT est définie sur la ligne qui suit la ligne identifiée par  _pbInstanceKey_. 
   
@@ -86,11 +86,11 @@ Ne générez pas de notifications sur les lignes qui sont ajoutées à un affich
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Le nombre de lignes dans le jeu de lignes pointé par le paramètre  _lppRows_ peut ne pas être égal au nombre de lignes réellement ajoutées au tableau, à l’ensemble des lignes de titre de niveau inférieur ou feuille pour la catégorie. Des erreurs peuvent se produire, telles qu’une mémoire insuffisante ou le nombre de lignes de la catégorie dépassant le nombre spécifié dans _le paramètre ulRowCount._ Dans les deux cas, BOOKMARK_CURRENT sera positionné à la dernière ligne renvoyée. Pour récupérer immédiatement le reste des lignes de la catégorie, appelez [IMAPITable::QueryRows](imapitable-queryrows.md).
+Le nombre de lignes dans le jeu de lignes pointé par le paramètre  _lppRows_ peut ne pas être égal au nombre de lignes réellement ajoutées au tableau, à l’ensemble des lignes de titre de niveau inférieur ou feuille pour la catégorie. Des erreurs peuvent se produire, telles qu’une mémoire insuffisante ou le nombre de lignes de la catégorie dépassant le nombre spécifié dans  _le paramètre ulRowCount_ . Dans les deux cas, BOOKMARK_CURRENT sera positionné à la dernière ligne renvoyée. Pour récupérer immédiatement le reste des lignes de la catégorie, appelez [IMAPITable::QueryRows](imapitable-queryrows.md).
   
-Ne vous attendez pas à recevoir une notification de tableau lorsqu’une catégorie change d’état. Vous pouvez gérer un cache local de lignes qui peut être mis à jour avec chaque **appel ExpandRow** **ou CollapseRow.** 
+Ne vous attendez pas à recevoir une notification de tableau lorsqu’une catégorie change d’état. Vous pouvez gérer un cache local de lignes qui peut être mis à jour avec chaque **appel ExpandRow** **ou CollapseRow** . 
   
-Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation.](sorting-and-categorization.md)
+Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation](sorting-and-categorization.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

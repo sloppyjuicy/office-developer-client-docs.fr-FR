@@ -7,18 +7,17 @@ ms:contentKeyID: 48543366
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 034344d469037d33c3dee586ab8bc56f95df906f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3430bce9d131bce459c6460a9e10d0dcbca1c67c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559296"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461073"
 ---
 # <a name="ado-md-objects"></a>Objets ADO MD
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -56,7 +55,7 @@ ms.locfileid: "59559296"
 </tr>
 <tr class="odd">
 <td><p><a href="hierarchy-object-ado-md.md">Hierarchy</a></p></td>
-<td><p>Représente un moyen d’agréger ou de cumuler les membres &quot; d’une dimension. &quot; Une dimension peut être agrégée le long d’une ou plusieurs hiérarchies.</p></td>
+<td><p>Représente une façon d’agréger ou de cumuler les membres d’une dimension &quot;.&quot; Une dimension peut être agrégée le long d’une ou plusieurs hiérarchies.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="level-object-ado-md.md">Level</a></p></td>
@@ -73,11 +72,9 @@ ms.locfileid: "59559296"
 </tbody>
 </table>
 
-<br/>
 
 En outre, l'objet **Catalog** est lié à un objet ADO **Connection**, qui est inclus dans la bibliothèque ADO standard :
 
-<br/>
 
 <table>
 <colgroup>
@@ -98,7 +95,6 @@ En outre, l'objet **Catalog** est lié à un objet ADO **Connection**, qui est i
 </tbody>
 </table>
 
-<br/>
 
 De nombreux objets ADO MD peuvent être contenus dans une collection correspondante. Par exemple, un objet [CubeDef](cubedef-object-ado-md.md) peut être contenu dans une collection [CubeDefs](cubedefs-collection-ado-md.md) d’un objet **Catalog**. Pour plus d’informations, consultez la rubrique [Collections ADO MD](ado-md-collections.md).
 

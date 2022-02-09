@@ -1,5 +1,5 @@
 ---
-title: ActiveX Data Objects (ADO) methods
+title: ActiveX data objects (ADO)
 TOCTitle: ADO methods
 ms:assetid: 1fd965a0-711c-e199-822c-b9575c5034bd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248984(v=office.15)
@@ -7,18 +7,17 @@ ms:contentKeyID: 48543651
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 94d7fcdbbbe442bfd7218d70e20b7d306f3f2e01
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ae535bbc91bac884debc896838a28940aed28610
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559289"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461066"
 ---
 # <a name="ado-methods"></a>Méthodes ADO
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -44,9 +43,7 @@ ms.locfileid: "59559289"
 </tr>
 <tr class="even">
 <td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans et RollbackTrans</a></p></td>
-<td><p>Gère le traitement des transactions dans un objet <strong>Connection</strong> comme suit :<br/><br/><strong>BeginTrans</strong>: lance une nouvelle transaction.<br/><br/>
-<strong>CommitTrans</strong>: enregistre les modifications apportées et termine la transaction active. Lance aussi parfois une nouvelle transaction.<br/><br/>
-<strong>RollbackTrans</strong> : annule toutes les modifications et met fin à la transaction en cours. Cette méthode peut également lancer une nouvelle transaction.</p></td>
+<td><p>Gère le traitement des transactions dans un objet <strong>Connection</strong> comme suit :<br/><br/><strong>BeginTrans</strong>: lance une nouvelle transaction.<br/><strong>CommitTrans</strong>: enregistre les modifications apportées et termine la transaction active. Lance aussi parfois une nouvelle transaction.<br/><strong>RollbackTrans</strong> : annule toutes les modifications et met fin à la transaction en cours. Cette méthode peut également lancer une nouvelle transaction.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cancel-method-ado.md">Cancel</a></p></td>
@@ -225,7 +222,7 @@ ms.locfileid: "59559289"
 <td><p>Détermine si un objet <strong>Recordset</strong> spécifique prend en charge un type particulier de fonctionnalité.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">Mise à jour</a></p></td>
+<td><p><a href="update-method-ado.md">Mettre à jour</a></p></td>
 <td><p>Enregistre les modifications que vous avez apportées à la ligne active d'un objet <strong>Recordset</strong> ou à la collection <strong>Fields</strong> d'un objet <strong>Record</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -243,4 +240,3 @@ ms.locfileid: "59559289"
 </tbody>
 </table>
 
-<br/>

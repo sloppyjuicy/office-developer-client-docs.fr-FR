@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
-ms.openlocfilehash: 1a50fc9045f9f8d087255c70d46c98941451f2ba
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: 48e891ee61d8af1facf4b8609310a408987ea21b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62199697"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462595"
 ---
 # <a name="xleventregister"></a>xlEventRegister
 
@@ -31,7 +31,7 @@ Nom de la fonction de handler d’événement telle qu’elle apparaît dans le 
   
  _pxEvent_ (**xltypeInt**)
   
-Événement géré par la fonction désignée dans le _paramètre pxProcedure._ 
+Événement géré par la fonction désignée dans le _paramètre pxProcedure_ . 
   
 À compter Excel 2010, Excel prend en charge les événements suivants :
   

@@ -7,12 +7,12 @@ ms:contentKeyID: 55119778
 ms.date: 07/24/2014
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: ceeb18bd4ec721f74dc63f086fba95999c298e78
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 765ecd2ba2b72f9e9c32c7b3a1a7f1b4c06c74f5
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574600"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62458686"
 ---
 # <a name="objects-in-the-outlook-pia"></a>Objets dans l’assembly PIA Outlook
 
@@ -56,7 +56,6 @@ Sub DemoFormRegion(ByVal Region As Outlook.FormRegion)
 End Sub
 ```
 
-<br/>
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook; 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0b13d12d78d9b24174d708778648040b67f69da8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 288c0b126693846ff27e32901a8c8b3660686adf
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59600868"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461826"
 ---
 # <a name="imapitablerestrict"></a>IMAPITable::Restrict
 
@@ -38,7 +38,7 @@ ULONG ulFlags
 
  _lpRestriction_
   
-> [in] Pointeur vers une structure [SRestriction](srestriction.md) définissant les conditions du filtre. La transmission de null dans  _le paramètre lpRestriction_ supprime le filtre actuel. 
+> [in] Pointeur vers une structure [SRestriction](srestriction.md) définissant les conditions du filtre. La transmission de null dans _le paramètre lpRestriction_ supprime le filtre actuel. 
     
  _ulFlags_
   
@@ -46,7 +46,7 @@ ULONG ulFlags
     
 TBL_ASYNC 
   
-> Démarre l’opération de manière asynchrone et la renvoie avant la fin de l’opération.
+> Démarre l’opération de manière asynchrone et renvoie avant la fin de l’opération.
     
 TBL_BATCH 
   
@@ -76,20 +76,20 @@ Les notifications pour les lignes de tableau masquées par les appels à **Restr
   
 Une restriction de propriété sur une propriété à valeurs multiples fonctionne comme une restriction sur une propriété à valeur unique. Une propriété à valeurs multiples à utiliser dans une restriction de propriété doit avoir l’indicateur MVI_FLAG définie. S’il n’a pas cet indicateur, il est traité comme un tuple totalement ordonné. Une comparaison de deux colonnes à valeurs multiples compare les éléments de colonne dans l’ordre, en signalant la relation des colonnes à la première indiquité. L’égalité est renvoyée uniquement si les colonnes comparées contiennent les mêmes valeurs dans le même ordre. Si une colonne a moins de valeurs que l’autre, la relation signalée est celle d’une valeur null par rapport à l’autre valeur.
   
-Pour plus d’informations sur les restrictions, voir [À propos des restrictions.](about-restrictions.md)
+Pour plus d’informations sur les restrictions, voir [À propos des restrictions](about-restrictions.md).
   
 > [!NOTE]
 > Si vous créez des requêtes dynamiques pour rechercher des données sur le serveur, utilisez la méthode **FindRow** au lieu d’utiliser les méthodes **Restrict** et **QueryRows** ensemble. La **méthode Restrict** crée une vue mise en cache qui est utilisée pour évaluer tous les messages ajoutés ou modifiés dans le dossier de base. Si une application cliente utilise **la méthode Restrict** pour chaque requête dynamique, une vue mise en cache est créée pour chaque requête. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour ignorer la restriction actuelle sans en créer une nouvelle, passez NULL dans  _lpRestriction_.
+Pour ignorer la restriction actuelle sans en créer une, passez NULL dans  _lpRestriction_.
   
-Si un autre appel de table asynchrone est en cours, ce qui a pour effet de restreindre le retour de MAPI_E_BUSY, vous pouvez appeler [IMAPITable::Abort](imapitable-abort.md) pour arrêter l’appel.  
+Si un autre appel de table asynchrone est en cours,  ce qui a pour effet de restreindre le retour de MAPI_E_BUSY, vous pouvez appeler [IMAPITable::Abort](imapitable-abort.md) pour arrêter l’appel. 
   
- **La** restriction fonctionne de manière synchrone, sauf si vous définissez l’un des indicateurs. Si vous définissez l’TBL_BATCH, **Restrict** reporte l’évaluation de la restriction, sauf si vous demandez les données. Si l TBL_ASYNC est définie, **Restrict** fonctionne de manière asynchrone, ce qui peut renvoyer le résultat avant la fin de l’opération.
+ **La** restriction fonctionne de manière synchrone, sauf si vous définissez l’un des indicateurs. Si vous définissez l’TBL_BATCH, **Restrict** reporte l’évaluation de la restriction, sauf si vous demandez les données. Si l TBL_ASYNC est définie, Restrictoperates de manière asynchrone, ce qui peut renvoyer le résultat avant la fin de l’opération.
   
-Tous les signets d’une table  sont ignorés lorsqu’un appel à Restreindre est effectué et BOOKMARK_CURRENT, la position actuelle du curseur, est définie au début du tableau. 
+Tous les signets d’une table sont ignorés lorsqu’un appel à Restreindre est effectué et BOOKMARK_CURRENT, la position actuelle du curseur, est définie au début du tableau. 
   
 Si vous tentez d’imposer une restriction de propriété à une propriété qui ne se trouve pas dans le jeu de colonnes du tableau, les résultats ne sont pas définies. Chaque fois que vous ne savez pas si une propriété est prise en charge dans une table, combinez la restriction de propriété avec une restriction qui existe. La restriction existe vérifie l’existence de la propriété avant d’essayer d’imposer la restriction de propriété. 
   

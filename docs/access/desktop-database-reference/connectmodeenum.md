@@ -7,12 +7,12 @@ ms:contentKeyID: 48546728
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f33616eb1ef4d8cc3878e0d818715b9cb387d2c1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4cd15467e627dac1bb08b5686bc7deff4fc5f793
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565701"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462543"
 ---
 # <a name="connectmodeenum"></a>ConnectModeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59565701"
 
 Spécifie les autorisations disponibles pour modifier les données dans une [Connexion](connection-object-ado.md), en ouvrant un [Enregistrement](record-object-ado.md), ou en spécifiant des valeurs pour la propriété [Mode](mode-property-ado.md) de l’**Enregistrement** et des objets [Stream](stream-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -49,16 +48,16 @@ Spécifie les autorisations disponibles pour modifier les données dans une [Con
 <tr class="odd">
 <td><p><strong>adModeRecursive</strong></p></td>
 <td><p>0x400000</p></td>
-<td><p>Utilisé conjointement avec les autres valeurs <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong>ou <strong>adModeShareDenyRead</strong>) pour propager les restrictions de partage à tous les sous-enregistrements de l’enregistrement <strong>actuel</strong>. Elle n'a pas d'effet si l'<strong>Enregistrement</strong> n'a pas d'enfant.</p><p>Une erreur d'exécution est générée si elle n'est associée qu'avec <strong>adModeShareDenyNone</strong>. Elle peut toutefois être s'appliquer à <strong>adModeShareDenyNone</strong> lorsqu'elle est associée à d'autres valeurs. Par exemple, vous pouvez utiliser &quot; <strong>adModeRead</strong> ou <strong>adModeShareDenyNone</strong> ou <strong>adModeRecursive</strong> &quot; .</p></td>
+<td><p>Utilisé conjointement avec les autres valeurs <em>*ShareDeny*</em> (<strong>adModeShareDenyNone</strong>, <strong>adModeShareDenyWrite</strong> ou <strong>adModeShareDenyRead</strong>) pour propager les restrictions de partage à tous les sous-enregistrements de l’enregistrement <strong>actuel.</strong> Elle n'a pas d'effet si l'<strong>Enregistrement</strong> n'a pas d'enfant.</p><p>Une erreur d'exécution est générée si elle n'est associée qu'avec <strong>adModeShareDenyNone</strong>. Elle peut toutefois être s'appliquer à <strong>adModeShareDenyNone</strong> lorsqu'elle est associée à d'autres valeurs. Par exemple, vous pouvez &quot; utiliser <strong>adModeRead</strong> ou <strong>adModeShareDenyNone</strong> ou <strong>adModeRecursive</strong>&quot;.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
-<td><p>16 </p></td>
+<td><p>16</p></td>
 <td><p>Permet à d'autres utilisateurs d'ouvrir une connexion sans autorisations d'aucune sorte. L'accès en lecture et en écriture ne pourra être interdit.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeShareDenyRead</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Empêche d'autres utilisateurs d'ouvrir une connexion sans autorisation de lecture.</p></td>
 </tr>
 <tr class="even">
@@ -95,7 +94,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

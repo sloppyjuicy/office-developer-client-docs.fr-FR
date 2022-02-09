@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: cf4f3954b529dd40fe3b273f0bc469766645da33
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 14d26dce5aa9a4caba2134a7e1bdb121b0ee1c8a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592388"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461275"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 
@@ -61,7 +61,7 @@ MAPI_MODIFY
 
 S_OK 
   
-> La section profil a été ouverte avec succès.
+> La section de profil a été ouverte avec succès.
     
 MAPI_E_NO_ACCESS 
   
@@ -77,13 +77,13 @@ MAPI_E_UNKNOWN_FLAGS
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISupport::OpenProfileSection** est implémentée pour tous les objets de prise en charge. Les fournisseurs de services et les services de messagerie appellent **OpenProfileSection** pour ouvrir une section de profil et récupérer un pointeur vers son implémentation d’interface **IProfSect.** 
+La **méthode IMAPISupport::OpenProfileSection** est implémentée pour tous les objets de prise en charge. Les fournisseurs de services et les services de messagerie appellent **OpenProfileSection** pour ouvrir une section de profil et récupérer un pointeur vers son implémentation d’interface **IProfSect** . 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
- **OpenProfileSection** ouvre les sections de profil en lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY dans le paramètre  _ulFlags_ et que votre autorisation est suffisante. La définition de cet indicateur ne garantit pas l’autorisation de lecture/écriture . Les autorisations qui vous sont accordées dépendent de votre niveau d’accès et de l’objet. 
+ **OpenProfileSection** ouvre les sections de profil en lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY dans le paramètre _ulFlags_ et que votre autorisation est suffisante. La définition de cet indicateur ne garantit pas l’autorisation de lecture/écriture . Les autorisations qui vous sont accordées dépendent de votre niveau d’accès et de l’objet. 
   
-Si **OpenProfileSection** tente d’ouvrir une section de profil inexistante en lecture seule, elle renvoie MAPI_E_NOT_FOUND. Si **OpenProfileSection** tente d’ouvrir une section de profil inexistante en lecture/écriture, il crée la section de profil et renvoie le pointeur **IProfSect.** 
+Si **OpenProfileSection** tente d’ouvrir une section de profil inexistante en lecture seule, elle renvoie MAPI_E_NOT_FOUND. Si **OpenProfileSection** tente d’ouvrir une section de profil inexistante en lecture/écriture, il crée la section de profil et renvoie le pointeur **IProfSect** . 
   
 ## <a name="see-also"></a>Voir aussi
 

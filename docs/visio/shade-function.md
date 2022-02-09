@@ -7,16 +7,16 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 4b4fbcb8-1ae4-c9fb-6337-b72f49aedd91
 description: Modifie la couleur en réduisant sa luminosité par la quantité (positive ou négative) spécifiée dans le paramètre int.
-ms.openlocfilehash: 1e9c967cb72a838f4792d3ac47fa61da54dd424a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d4e00520a077012798c879957fd553473e0204ed
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570091"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62458119"
 ---
 # <a name="shade-function"></a>Fonction SHADE
 
-Modifie la couleur en réduisant sa luminosité par la quantité (positive ou négative) spécifiée dans le _paramètre int._ 
+Modifie la couleur en réduisant sa luminosité par la quantité (positive ou négative) spécifiée dans le _paramètre int_ . 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -35,7 +35,7 @@ SHADE(** *color* **, ** *int* ** )
   
 ## <a name="remarks"></a>Remarques
 
-Les limites basse et haute de luminosité sont respectivement 0 et 240. Il n’y a aucune limite sur la taille de l’nombre integer que vous pouvez transmettre pour le paramètre  _int,_ mais la luminosité ne dépasse jamais ces limites. 
+Les limites basse et haute de luminosité sont respectivement 0 et 240. Il n’y a aucune limite sur la taille de l’nombre  _integer_ que vous pouvez transmettre pour le paramètre int, mais la luminosité ne dépasse jamais ces limites. 
   
 ![Limites supérieures et inférieures de luminosité](media/image199_ZA10173627.gif)
   

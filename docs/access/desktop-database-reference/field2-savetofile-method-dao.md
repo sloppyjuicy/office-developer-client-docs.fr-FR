@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 7ca7906c9c80c8b16eba5a1c32739d0dad5c9da1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5fb3d98823296f09a3ce6c7d15fb4c0e78ab6002
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573053"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462388"
 ---
 # <a name="field2savetofile-method-dao"></a>Méthode Field2.SaveToFile (DAO)
 
@@ -85,7 +85,6 @@ L'extrait de code suivant montre comment utiliser la méthode **SaveToFile** pou
        Wend 
 ```
 
-<br/>
 
 L’exemple suivant montre comment enregistrer des fichiers stockés dans un champ pièce jointe vers un chemin d’accès de dossier spécifié.
 

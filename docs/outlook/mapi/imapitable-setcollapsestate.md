@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 31325e8f-1cf9-49b2-8118-953996b0037f
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: 25cd7e09b08e9a7069cef4c718af86b829022015
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 338e3aaeb11ff11a80737d06b9b084865112460e
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625300"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62458798"
 ---
 # <a name="imapitablesetcollapsestate"></a>IMAPITable::SetCollapseState
 
@@ -25,7 +25,7 @@ ms.locfileid: "59625300"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Reconstruit l’état étendu ou réduire actuel d’une table classée à l’aide de données enregistrées par un appel précédent à la méthode [IMAPITable::GetCollapseState.](imapitable-getcollapsestate.md) 
+Reconstruit l’état étendu ou réduire actuel d’une table classée à l’aide de données enregistrées par un appel précédent à la méthode [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) . 
   
 ```cpp
 HRESULT SetCollapseState(
@@ -44,7 +44,7 @@ BOOKMARK FAR * lpbkLocation
     
  _cbCollapseState_
   
-> [in] Nombre d’octets dans la structure pointée par le _paramètre pbCollapseState._ 
+> [in] Nombre d’octets dans la structure pointée par le  _paramètre pbCollapseState_ . 
     
  _pbCollapseState_
   
@@ -52,7 +52,7 @@ BOOKMARK FAR * lpbkLocation
     
  _lpbkLocation_
   
-> [out] Pointeur vers un signet identifiant la ligne du tableau à partir de laquelle l’état réduire ou développé doit être reconstruit. Ce signet et la clé d’instance transmises dans le paramètre  _lpbInstanceKey_ dans l’appel à [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identifient la même ligne. 
+> [out] Pointeur vers un signet identifiant la ligne dans le tableau à partir de laquelle l’état réduire ou développé doit être reconstruit. Ce signet et la clé d’instance transmises dans le paramètre _lpbInstanceKey_ dans l’appel à [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identifient la même ligne. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -66,7 +66,7 @@ MAPI_E_BUSY
     
 MAPI_E_UNABLE_TO_COMPLETE 
   
-> Le tableau n’a pas pu terminer la reconstruction de la vue collapsed ou expanded.
+> Le tableau n’a pas pu terminer la reconstruction de la vue réduire ou étendue.
     
 ## <a name="remarks"></a>Remarques
 
@@ -78,15 +78,15 @@ La **méthode IMAPITable::SetCollapseState** rétablit l’état développé ou 
     
 3. **SetCollapseState** renvoie en tant que paramètre de sortie un signet qui identifie la même ligne que la clé d’instance transmise en tant qu’entrée à **GetCollapseState**.
     
-Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation.](sorting-and-categorization.md) 
+Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation](sorting-and-categorization.md). 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Vous devez vérifier que l’ordre de tri et les restrictions sont exactement les mêmes qu’au moment de l’appel **getCollapseState.** Si une modification a été faite, **SetCollapseState** ne doit pas être appelé, car les résultats peuvent être imprévisibles. Cela peut se produire si, par exemple, un client appelle **GetCollapseState,** puis **SortTable** pour modifier la clé de tri avant d’appeler **SetCollapseState**. Pour des raisons de sécurité, vérifiez que les données enregistrées sont toujours valides avant de poursuivre la restauration. 
+Vous devez vérifier que l’ordre de tri et les restrictions sont exactement les mêmes qu’au moment de l’appel **getCollapseState** . Si une modification a été réalisée, **SetCollapseState** ne doit pas être appelé, car les résultats peuvent être imprévisibles. Cela peut se produire si, par exemple, un client appelle **GetCollapseState** , puis **SortTable** pour modifier la clé de tri avant d’appeler **SetCollapseState**. Pour des raisons de sécurité, vérifiez que les données enregistrées sont toujours valides avant de poursuivre la restauration. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour appeler **SetCollapseState,** vous devez avoir précédemment **appelé GetCollapseState**. L’ordre de tri qui établit les catégories doit être le même pour les deux méthodes. Si les ordres de tri diffèrent, les résultats de l’opération **SetCollapseState** sont imprévisibles. 
+Pour appeler **SetCollapseState**, vous devez avoir précédemment **appelé GetCollapseState**. L’ordre de tri qui établit les catégories doit être le même pour les deux méthodes. Si les ordres de tri diffèrent, les résultats de l’opération **SetCollapseState** sont imprévisibles. 
   
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,12 +7,12 @@ ms:contentKeyID: 48544836
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: d81a086e2ead45dbc56f5be5f24ba8bf5937f7a3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b9b86ad957cad07db6e1834cfd2f48ac9580d2e4
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615633"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461397"
 ---
 # <a name="cursorlocationenum"></a>CursorLocationEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59615633"
 
 Spécifie l'emplacement du service de curseur.
 
-<br/>
 
 <table>
 <colgroup>
@@ -49,7 +48,7 @@ Spécifie l'emplacement du service de curseur.
 <tr class="odd">
 <td><p><strong>adUseServer</strong></p></td>
 <td><p>2</p></td>
-<td><p>Valeur par défaut. Utilise des curseurs de type données ou pilote. Ces curseurs sont parfois très souples et acceptent plus facilement les modifications apportées aux données sources. Toutefois, certaines fonctionnalités du service de curseur Microsoft pour <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">OLE DB</a> (telles que les objets <a href="recordset-object-ado.md">Recordset</a> dissociés) ne peuvent pas être simulées avec des curseurs côté serveur, et ces fonctionnalités ne seront pas disponibles avec ce paramètre.</p></td>
+<td><p>Valeur par défaut. Utilise des curseurs de type données ou pilote. Ces curseurs sont parfois très souples et acceptent plus facilement les modifications apportées aux données sources. Toutefois, certaines fonctionnalités du service de curseur <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Microsoft pour OLE DB</a> (telles que les objets <a href="recordset-object-ado.md">Recordset</a> dissociés) ne peuvent pas être simulées avec des curseurs côté serveur, et ces fonctionnalités ne seront pas disponibles avec ce paramètre.</p></td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +64,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

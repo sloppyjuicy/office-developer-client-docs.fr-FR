@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 940813b7a7fbcf751472c7b0e2e75d748d7446a0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3cea70b1d34b284276a2ee93e19189a389c3ac86
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59581559"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461812"
 ---
 # <a name="database-object-dao"></a>Objet Database (DAO)
 
@@ -115,7 +115,6 @@ End Sub
  
 ```
 
-<br/>
 
 Cet exemple utilise **CreateDatabase** pour créer un objet **Database** chiffré.
 

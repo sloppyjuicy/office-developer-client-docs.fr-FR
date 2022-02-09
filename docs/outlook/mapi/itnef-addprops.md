@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fb9591794ae6606ef06b0fc756380fcd0ffab3fe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a439783c47da5bddf842f03d140dd74a617cb944
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610404"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462616"
 ---
 # <a name="itnefaddprops"></a>ITnef::AddProps
 
@@ -44,19 +44,19 @@ HRESULT AddProps(
     
 TNEF_PROP_ATTACHMENTS_ONLY 
   
-> Encode uniquement les propriétés du paramètre  _lpPropList_ qui font partie des pièces jointes dans le message. 
+> Encode uniquement les propriétés du _paramètre lpPropList_ qui font partie des pièces jointes dans le message. 
     
 TNEF_PROP_CONTAINED 
   
-> Encode uniquement les propriétés de la pièce jointe spécifiée par le _paramètre ulElemID._ Si le paramètre  _lpvData_ n’est pas NULL, les données pointées vers sont écrites dans l’encapsulation de la pièce jointe dans le fichier indiqué par la propriété **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
+> Encode uniquement les propriétés de la pièce jointe spécifiée par  _le paramètre ulElemID_ . Si le paramètre  _lpvData_ n’est pas NULL, les données pointées vers sont écrites dans l’encapsulation de la pièce jointe dans le fichier indiqué par la propriété **PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md)).
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Encode uniquement les propriétés du message ou de la pièce jointe spécifiés par le _paramètre ulElemID._ Si cet indicateur est définie, la valeur dans _lpvData_ doit être un [pointeur IStream.](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) 
+> Encode uniquement les propriétés du message ou de la pièce jointe spécifiés par le  _paramètre ulElemID_ . Si cet indicateur est définie, la valeur dans  _lpvData_ doit être un [pointeur IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) . 
     
 TNEF_PROP_EXCLUDE 
   
-> Encode toutes les propriétés non spécifiées dans _le paramètre lpPropList._ 
+> Encode toutes les propriétés non spécifiées dans _le paramètre lpPropList_ . 
     
 TNEF_PROP_INCLUDE 
   
@@ -68,7 +68,7 @@ TNEF_PROP_MESSAGE_ONLY
     
  _ulElemID_
   
-> [in] Propriété de PR_ATTACH_NUM **(** [PidTagAttachNumber](pidtagattachnumber-canonical-property.md)), qui contient un nombre qui identifie de manière unique la pièce jointe dans son message parent. Le  _paramètre ulElemID_ est utilisé lorsque la gestion spéciale est demandée pour une pièce jointe. Le _paramètre ulElemID_ doit être 0, sauf si l’indicateur TNEF_PROP_CONTAINED ou TNEF_PROP_CONTAINED_TNEF est définie dans le _paramètre ulFlags._ 
+> [in] Propriété **PR_ATTACH_NUM (**[PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) d’une pièce jointe, qui contient un nombre qui identifie de manière unique la pièce jointe dans son message parent. Le  _paramètre ulElemID_ est utilisé lorsque la gestion spéciale d’une pièce jointe est demandée. Le  _paramètre ulElemID_ doit être 0, sauf si l’indicateur TNEF_PROP_CONTAINED ou TNEF_PROP_CONTAINED_TNEF est définie dans le _paramètre ulFlags_ . 
     
  _lpvData_
   
@@ -88,9 +88,9 @@ S_OK
 
 Les fournisseurs de transport, les fournisseurs de magasins de messages et les passerelles appellent la méthode **ITnef::AddProps** pour ré lister les propriétés à inclure ou à exclure du traitement TNEF (Transport-Neutral Encapsulation Format) d’un message ou d’une pièce jointe. À l’aide d’appels successifs, le fournisseur ou la passerelle peut spécifier une liste de propriétés à ajouter et coder ou à exclure de l’encodage. Les fournisseurs et passerelles peuvent également utiliser **AddProps** pour fournir des informations sur toute gestion spéciale des pièces jointes. 
   
- **AddProps est** pris en charge uniquement pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx.](opentnefstreamex.md) 
+ **AddProps est** pris en charge uniquement pour les objets TNEF ouverts avec l’indicateur TNEF_ENCODE pour la fonction [OpenTnefStream](opentnefstream.md) ou [OpenTnefStreamEx](opentnefstreamex.md) . 
   
-Notez qu’aucun codage TNEF réel ne se produit pour **AddProps** tant que la méthode [ITnef::Finish](itnef-finish.md) n’est pas appelée. Cette fonctionnalité signifie que les pointeurs passés dans **AddProps** doivent rester valides jusqu’à ce que l’appel à **Finish** soit effectué. À ce stade, tous les objets et données transmis avec les appels **AddProps** peuvent être libérés ou libérés. 
+Notez qu’aucun codage TNEF réel ne se produit pour **AddProps** tant que la méthode [ITnef::Finish](itnef-finish.md) n’est pas appelée. Cette fonctionnalité signifie que les pointeurs passés dans **AddProps** doivent rester valides jusqu’à la fin de **l’appel** . À ce stade, tous les objets et données transmis avec les appels **AddProps** peuvent être libérés ou libérés. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

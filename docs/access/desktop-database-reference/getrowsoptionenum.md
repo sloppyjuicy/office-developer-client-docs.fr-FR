@@ -7,12 +7,12 @@ ms:contentKeyID: 48545082
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 4f1e615efcf86ea1ad9a5221fc062a666c149382
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 281960c1739a4de7fca55508611bc86c578c3c4d
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602492"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462156"
 ---
 # <a name="getrowsoptionenum"></a>GetRowsOptionEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59602492"
 
 Spécifie le nombre d’enregistrements à extraire depuis un objet [Recordset](recordset-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -55,7 +54,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

@@ -1,5 +1,5 @@
 ---
-title: ActiveX Collections d’objets de données (ADO)
+title: ActiveX collections d’objets de données (ADO)
 TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
@@ -7,12 +7,12 @@ ms:contentKeyID: 48546833
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 293666598da5ee48ea1a348aba36a9d0a39a0495
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 24df622689646293724289b040b25dac04e2257b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553493"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461096"
 ---
 # <a name="ado-collections"></a>Collections ADO
 
@@ -20,7 +20,6 @@ ms.locfileid: "59553493"
 
 Chaque collection peut contenir son objet correspondant. Une collection [Errors](error-object-ado.md) peut, par exemple, contenir un objet [Error](errors-collection-ado.md). Pour plus d’informations sur les objets, voir [objets ADO](ado-objects-and-interfaces.md) ou une rubrique d’objet spécifique.
 
-<br/>
 
 <table>
 <colgroup>
@@ -51,5 +50,4 @@ Chaque collection peut contenir son objet correspondant. Une collection [Errors]
 </tbody>
 </table>
 
-<br/>
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9b371214b9f782fcf0afab0943c4a0654a5716d8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c2a5ddd75ee0b817ef780518a7ee7c9a9896bc00
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610733"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462016"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
@@ -48,7 +48,7 @@ HRESULT ResolveName(
     
 AB_UNICODEUI
   
-> Indique que  _lpszNewEntryTitle_ est une chaîne UNICODE. 
+> Indique que  _lpszNewEntryTitle est_ une chaîne UNICODE. 
     
 MAPI_CACHE_ONLY
   
@@ -68,7 +68,7 @@ MAPI_UNICODE
     
  _lpAdrList_
   
-> [in-out] Pointeur vers une structure [ADRLIST](adrlist.md) qui contient la liste des noms de destinataires à résoudre. Cette structure **ADRLIST** peut être créée par la [méthode IAddrBook::Address.](iaddrbook-address.md) 
+> [in-out] Pointeur vers une structure [ADRLIST](adrlist.md) qui contient la liste des noms de destinataires à résoudre. Cette structure **ADRLIST** peut être créée par la [méthode IAddrBook::Address](iaddrbook-address.md) . 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -78,21 +78,21 @@ S_OK
     
 MAPI_E_AMBIGUOUS_RECIP 
   
-> Au moins un destinataire dans le  _paramètre lpAdrList_ correspond à plusieurs entrées dans le carnet d’adresses. En règle générale, cette valeur est renvoyée lorsque l’MAPI_DIALOG est définie, ce qui interdit l’affichage d’une boîte de dialogue. 
+> Au moins un destinataire dans le _paramètre lpAdrList_ correspond à plusieurs entrées dans le carnet d’adresses. En règle générale, cette valeur est renvoyée lorsque l’MAPI_DIALOG est définie, ce qui interdit l’affichage d’une boîte de dialogue. 
     
 MAPI_E_NOT_FOUND 
   
-> Au moins un destinataire dans le  _paramètre lpAdrList_ ne peut pas être résolu. En règle générale, cette valeur est renvoyée lorsque l’MAPI_DIALOG est définie, ce qui interdit l’affichage d’une boîte de dialogue. 
+> Au moins un destinataire dans le _paramètre lpAdrList_ ne peut pas être résolu. En règle générale, cette valeur est renvoyée lorsque l’MAPI_DIALOG est définie, ce qui interdit l’affichage d’une boîte de dialogue. 
     
 ## <a name="remarks"></a>Remarques
 
-Les clients et les fournisseurs de services appellent **la méthode ResolveName** pour lancer le processus de résolution de noms. Une entrée non résolue est une entrée qui n’a pas encore d’identificateur d’entrée ou **de PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Les clients et les fournisseurs de services appellent **la méthode ResolveName** pour lancer le processus de résolution de noms. Une entrée non résolue est une entrée qui n’a pas encore d’identificateur d’entrée **PR_ENTRYID propriété (**[PidTagEntryId](pidtagentryid-canonical-property.md)).
   
- **ResolveName** suit le processus suivant pour chaque entrée non résolue dans la liste d’adresses transmise dans _le paramètre lpAdrList._ 
+ **ResolveName** suit le processus suivant pour chaque entrée non résolue dans la liste d’adresses transmise dans _le paramètre lpAdrList_ . 
   
-1. Si le type d’adresse du destinataire respecte le format d’une adresse SMTP _(nom_ d’affichage @  _domain.top-niveau-domaine),_ **ResolveName** lui attribue un identificateur d’entrée unique. 
+1. Si le type d’adresse du destinataire respecte le format d’une adresse SMTP (_nom_@  d’affichage _domain.top-niveau-domaine_), **ResolveName** lui attribue un identificateur d’entrée unique. 
     
-2. Pour chaque conteneur de la **propriété PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)), **ResolveName** appelle la [méthode IABContainer::ResolveNames.](iabcontainer-resolvenames.md) **ResolveNames tente de** faire correspondre le nom complet de chaque destinataire non résolu avec un nom complet qui appartient à l’une de ses entrées. 
+2. Pour chaque conteneur de la **propriété PR_AB_SEARCH_PATH** ([PidTagAbSearchPath](pidtagabsearchpath-canonical-property.md)), **ResolveName** appelle la méthode [IABContainer::ResolveNames](iabcontainer-resolvenames.md) . **ResolveNames tente de** faire correspondre le nom complet de chaque destinataire non résolu avec un nom complet qui appartient à l’une de ses entrées. 
     
 3. Si un conteneur ne prend pas en charge **ResolveNames**, **ResolveName** limite la table des matières du conteneur à l’aide d’une restriction de propriété **PR_ANR** ([PidTagAnr](pidtaganr-canonical-property.md)). Cette restriction entraîne le conteneur à effectuer un type de recherche de « meilleure estimation » pour localiser un destinataire correspondant. Tous les conteneurs doivent prendre en charge **PR_ANR** restriction de propriété. 
     
@@ -102,9 +102,9 @@ Les clients et les fournisseurs de services appellent **la méthode ResolveName*
     
 Si un ou plusieurs destinataires ne sont pas résolus, **ResolveName** renvoie MAPI_E_NOT_FOUND. Si un ou plusieurs destinataires avaient une résolution ambiguë qui n’a pas pu être résolue avec une boîte de dialogue ou parce que l’indicateur MAPI_DIALOG n’a pas été définie, **ResolveName** renvoie MAPI_E_AMBIGUOUS_RECIP. Lorsque certains destinataires sont ambigus et que d’autres ne peuvent pas être résolus, **ResolveName** peut renvoyer l’une ou l’autre des valeurs d’erreur. 
   
-Si un nom ne peut pas être résolu, le client peut créer une adresse unique avec un identificateur d’adresse et d’entrée spécialement mis en forme. Pour plus d’informations sur le format des identificateurs d’entrée uniques, voir Identificateurs d’entrée [uniques.](one-off-entry-identifiers.md) Pour plus d’informations sur le format des adresses one-off, voir [Adresses one-off.](one-off-addresses.md)
+Si un nom ne peut pas être résolu, le client peut créer une adresse unique avec un identificateur d’adresse et d’entrée spécialement mis en forme. Pour plus d’informations sur le format des identificateurs d’entrée uniques, voir [Identificateurs d’entrée uniques](one-off-entry-identifiers.md). Pour plus d’informations sur le format des adresses one-off, voir [Adresses one-off](one-off-addresses.md).
   
-MAPI prend en charge les chaînes de caractères Unicode pour **ADRLIST** et les nouveaux paramètres de titre d’entrée **pour ResolveName**; Si vous définissez l’MAPI_UNICODE, les propriétés suivantes sont renvoyées en tant que PT_UNICODE dans les structures [ADRENTRY](adrentry.md) : 
+MAPI prend en charge les chaînes de caractères Unicode pour **ADRLIST** et les nouveaux paramètres de titre d’entrée **pour ResolveName** ; Si vous définissez l’MAPI_UNICODE, les propriétés suivantes sont renvoyées en tant que PT_UNICODE dans les structures [ADRENTRY](adrentry.md) : 
   
 - **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     

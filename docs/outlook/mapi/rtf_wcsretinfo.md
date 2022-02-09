@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 65d3758cc0abe8835c43887558cdd9f60aeaca85
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a4380625bc0922ac02146886de98b9811b138765
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609606"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462679"
 ---
 # <a name="rtf_wcsretinfo"></a>RTF_WCSRETINFO
 
@@ -38,12 +38,12 @@ _size_
     
 _ulStreamFlags_
   
-> Il s’agit d’une valeur qui indique le format du corps natif. Cette valeur n’est valide que si l’indicateur **MAPI_NATIVE_BODY** est transmis dans le paramètre _ulFlags_ de la structure [RTF_WCSINFO](rtf_wcsinfo.md) transmise à la fonction [WrapCompressedRTFStreamEx.](wrapcompressedrtfstreamex.md) Il peut s’y trouver avec l’une des valeurs suivantes : 
+> Il s’agit d’une valeur qui indique le format du corps natif. Cette valeur n’est valide que si **l’indicateur MAPI_NATIVE_BODY** est transmis dans le paramètre _ulFlags_ de la structure [RTF_WCSINFO](rtf_wcsinfo.md) transmise à la fonction [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) . Il peut s’en prendre à l’une des valeurs suivantes : 
     
 |||
 |:-----|:-----|
 |MAPI_NATIVE_BODY_TYPE_RTF  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et si le corps est RTF.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et si le corps est au format texte simple.  <br/> |
+|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’MAPI_NATIVE_BODY** et que le corps est au format texte simple.  <br/> |
 |MAPI_NATIVE_BODY_TYPE_HTML  <br/> |Cette valeur est utilisée uniquement si  _ulFlags_ inclut **l’indicateur MAPI_NATIVE_BODY** et que le corps est au format HTML (Hypertext Markup Language).  <br/> |
    
 ## <a name="see-also"></a>Voir aussi

@@ -7,12 +7,12 @@ ms:contentKeyID: 48547481
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: d6f676033c5619915f15605eababaaf7aaeb01c2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f1a30f4f89bcbed932600d8f38b7203582e7b598
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59588562"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462289"
 ---
 # <a name="workspace-object-dao"></a>Workspace, objet (DAO)
 
@@ -87,7 +87,6 @@ Sub WorkspaceX()
 End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la méthode **CreateWorkspace** pour créer un espace de travail Microsoft Access. Il répertorie ensuite les propriétés de l'espace de travail.
 
@@ -128,7 +127,6 @@ Sub CreateWorkspaceX()
 End Sub 
 ```
 
-<br/>
 
 L’exemple suivant montre comment utiliser une transaction dans un espace de travail Data Access Objects (DAO).
 

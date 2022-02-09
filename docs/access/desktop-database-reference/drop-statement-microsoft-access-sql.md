@@ -7,12 +7,12 @@ ms:contentKeyID: 48546907
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 79e844c7694bf399496fb79bebf550e7c51ba8f6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c196727e104ee0c79e7b5781e6d999902df2d67b
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562684"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462777"
 ---
 # <a name="drop-statement-microsoft-access-sql"></a>DROP, instruction (Microsoft Access SQL)
 
@@ -92,7 +92,6 @@ Dans cet exemple, l'index NewIndex est supprimé de la table Employees.
     End Sub
 ```
 
-<br/>
 
 Dans cet exemple, la table Employees est supprimée de la base de données.
 

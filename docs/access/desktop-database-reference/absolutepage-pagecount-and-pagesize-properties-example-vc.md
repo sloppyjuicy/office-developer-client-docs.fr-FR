@@ -7,12 +7,12 @@ ms:contentKeyID: 48546133
 ms.date: 10/17/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f0ab8d32894281fc66967363d4216e7ad68532fc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a008098535e4564c3846183b224b86ecbaa5ea05
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569670"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461418"
 ---
 # <a name="absolutepage-pagecount-and-pagesize-properties-example-vc"></a>AbsolutePage, PageCount et PageSize, propriétés — Exemple (VC++)
 
@@ -196,7 +196,6 @@ void PrintProviderError(_ConnectionPtr pConnection)
 //EndAbsolutePageCpp 
 ```
 
-<br/>
 
 **AbsolutePageX.h**
 

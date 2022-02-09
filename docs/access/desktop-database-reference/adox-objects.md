@@ -7,20 +7,19 @@ ms:contentKeyID: 48548018
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 20023a62d3f6604d29b8a10ebfb998ba5a530e8f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c2dccc9d9dbb30e38856923d7fb321e9fc951826
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559149"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460998"
 ---
 # <a name="adox-objects"></a>Objets ADOX
 
 **S’applique à** : Access 2013, Office 2013
 
-Chaque objet peut être contenu dans sa collection correspondante. Par exemple, un objet **Table** peut être contenu dans une collection [Tables](tables-collection-adox.md). Pour plus d’informations, voir [collections ADOX](adox-collections.md) ou une rubrique de collection spécifique.
+Chaque objet peut être contenu dans sa collection correspondante. Par exemple, un objet **Table** peut être contenu dans une collection [Tables](tables-collection-adox.md). Pour plus d’informations, voir [les collections ADOX](adox-collections.md) ou une rubrique de collection spécifique.
 
-<br/>
 
 <table>
 <colgroup>
@@ -73,7 +72,6 @@ Chaque objet peut être contenu dans sa collection correspondante. Par exemple, 
 </tbody>
 </table>
 
-<br/>
 
 
 

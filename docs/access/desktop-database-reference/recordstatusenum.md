@@ -7,12 +7,12 @@ ms:contentKeyID: 48544022
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c86a7038fdcabfc5a30eaf79ddf87521b68d8f58
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 83562f2140d20415e61b800e2125a22c2de9b437
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59557896"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461805"
 ---
 # <a name="recordstatusenum"></a>RecordStatusEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59557896"
 
 Spécifie l'état d'un enregistrement en cas de mise à jour par lots et autres opérations globales de ce type.
 
-<br/>
 
 <table>
 <colgroup>
@@ -142,7 +141,7 @@ Module : **com.ms.wfc.data**
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Constante</p></th>
+<th><p>Constant</p></th>
 </tr>
 </thead>
 <tbody>

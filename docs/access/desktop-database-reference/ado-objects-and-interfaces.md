@@ -7,12 +7,12 @@ ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 92599e81fcaf1303bd1c77c1d6f09acfe5dd63a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f8cd471e2723c3d07256cf7c90a555c6d9f11c04
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553234"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460027"
 ---
 # <a name="ado-objects-and-interfaces"></a>Objets et interfaces ADO
 
@@ -22,7 +22,6 @@ Les relations entre ces objets sont représentées dans le ActiveX objet Data Ob
 
 Chaque objet peut être contenu dans sa collection correspondante. Un objet [Error](error-object-ado.md) peut, par exemple, être contenu dans une collection [Errors](errors-collection-ado.md). Pour plus d’informations, voir [les collections ADO](ado-collections.md) ou une rubrique de collection spécifique.
 
-<br/>
 
 <table>
 <colgroup>
@@ -81,5 +80,4 @@ Chaque objet peut être contenu dans sa collection correspondante. Un objet [Err
 </tbody>
 </table>
 
-<br/>
 

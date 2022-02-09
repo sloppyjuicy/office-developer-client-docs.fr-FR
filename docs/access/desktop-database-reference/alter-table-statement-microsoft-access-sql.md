@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 2c9247063173c4e7ad2006c008469b2b79881b17
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 88c261ba89439e2364ec010f3953147c216f6496
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607401"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461537"
 ---
 # <a name="alter-table-statement-microsoft-access-sql"></a>ALTER TABLE (Microsoft Access SQL), instruction
 
@@ -135,7 +135,6 @@ Dans cet exemple, un champ Salary avec le type de données **Money** est ajouté
     End Sub 
 ```
 
-<br/>
 
 Dans cet exemple, le type de données **Money** du champ Salary est remplacé par **Char**.
 
@@ -158,7 +157,6 @@ Dans cet exemple, le type de données **Money** du champ Salary est remplacé pa
     End Sub 
 ```
 
-<br/>
 
 Dans cet exemple, le champ Salary est supprimé de la table Employees.
 
@@ -180,7 +178,6 @@ Dans cet exemple, le champ Salary est supprimé de la table Employees.
     End Sub
 ```
 
-<br/>
 
 Dans cet exemple, une clé étrangère est ajoutée à la table Orders. La clé étrangère est basée sur le champ EmployeeID et fait référence au champ EmployeeID de la table Employees. Vous n’avez pas besoin d’indiquer le champ EmployeeID à la suite de la table Employees dans la clause REFERENCES, car EmployeeID est la clé primaire de la table Employees.
 
@@ -204,7 +201,6 @@ Dans cet exemple, une clé étrangère est ajoutée à la table Orders. La clé 
     End Sub 
 ```
 
-<br/>
 
 Dans cet exemple, la clé étrangère est supprimée de la table Orders.
 

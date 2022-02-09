@@ -7,12 +7,12 @@ ms:contentKeyID: 48548178
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: f35ad388e57254cdfcaaae28f94da0490acadd87
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4ef7b76de0acaa53eda4229659f0559bc71e4060
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615626"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462037"
 ---
 # <a name="customization-file-logs-section"></a>Section des journaux du fichier de personnalisation
 
@@ -26,7 +26,6 @@ Une entrée de fichier journal a la forme suivante :
 
 `err=FileName`
 
-<br/>
 
 <table>
 <colgroup>

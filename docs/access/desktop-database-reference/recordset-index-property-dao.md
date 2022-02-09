@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: a2e8b58d60a733e95f23a843cf8c15d3910640ec
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 894212be61c3dfb30ac1846838a04c96a4a27063
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59602072"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462079"
 ---
 # <a name="recordsetindex-property-dao"></a>Recordset.Index, propriété (DAO)
 
@@ -95,7 +95,6 @@ Cet exemple utilise la propriété **Index** pour définir des ordres d’enregi
     End Sub 
 ```
 
-<br/>
 
 Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à rechercher un produit avec un numéro d’identification.
 
@@ -157,7 +156,6 @@ Cet exemple illustre la méthode **Seek** en autorisant l’utilisateur à reche
     End Sub 
 ```
 
-<br/>
 
 L’exemple suivant montre comment utiliser la méthode Seek pour rechercher un enregistrement dans une table liée.
 

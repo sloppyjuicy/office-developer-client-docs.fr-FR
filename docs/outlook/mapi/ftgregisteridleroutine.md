@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0ba14e2cb0b7c41460a54f31e80099ddfb27cfb7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 96a96829dbbac4c45d1b019c06a1e6c9b3085bc3
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59621023"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462282"
 ---
 # <a name="ftgregisteridleroutine"></a>FtgRegisterIdleRoutine
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Ajoute une routine d’inactivité basée sur la fonction [FNIDLE](fnidle.md) au système MAPI. 
+Ajoute une [routine d’inactivité basée sur la fonction FNIDLE](fnidle.md) au système MAPI. 
   
 |||
 |:-----|:-----|
@@ -53,11 +53,11 @@ _pvIdleParam_
     
 _priIdle_
   
-> [in] Priorité initiale de la routine inactive. Les priorités possibles pour les routines définies par l’implémentation sont supérieure ou inférieure à zéro, mais pas à zéro. La priorité zéro est réservée à un événement utilisateur tel qu’un clic de souris ou un WM_PAINT message. Les priorités supérieures à zéro représentent des tâches en arrière-plan dont la priorité est plus élevée que les événements utilisateur et qui sont envoyées dans le cadre de la boucle de boucle de Windows de message standard. Les priorités inférieures à zéro représentent les tâches inactives qui s’exécutent uniquement pendant les périodes d’inactivité des messages. Voici quelques exemples de priorités : 1 pour l’envoi au premier plan, 2 pour l’insertion de caractères avec modification d’alimentation et 3 pour le téléchargement de nouveaux messages.
+> [in] Priorité initiale de la routine inactive. Les priorités possibles pour les routines définies par l’implémentation sont supérieure ou inférieure à zéro, mais pas à zéro. La priorité zéro est réservée à un événement utilisateur tel qu’un clic de souris ou un WM_PAINT message. Les priorités supérieures à zéro représentent des tâches en arrière-plan dont la priorité est plus élevée que les événements utilisateur et qui sont envoyées dans le cadre de la boucle d’Windows de message standard. Les priorités inférieures à zéro représentent les tâches inactives qui s’exécutent uniquement pendant la période d’inactivité des messages. Voici quelques exemples de priorités : 1 pour l’envoi au premier plan, 2 pour l’insertion de caractères avec modification d’alimentation et 3 pour le téléchargement de nouveaux messages.
     
 _csecIdle_
   
-> [in] Valeur de temps initiale, en centièmes de seconde, à utiliser pour spécifier les paramètres de routine inactifs. La signification de la valeur d’heure initiale varie en fonction de ce qui est transmis dans le _paramètre iroIdle._ La signification peut être l’une des suivantes : 
+> [in] Valeur d’heure initiale, en centièmes de seconde, à utiliser pour spécifier les paramètres de routine inactifs. La signification de la valeur d’heure initiale varie en fonction de ce qui est transmis dans le _paramètre iroIdle_ . La signification peut être l’une des suivantes : 
     
   - Période minimale d’inaction de l’utilisateur qui doit s’écoulée avant que le moteur inactif MAPI appelle la routine d’inactivité pour la première fois, si l’indicateur FIROWAIT est définie en  _iroIdle_. Une fois ce délai passé, le moteur inactif peut appeler la routine d’inactivité aussi souvent que nécessaire. 
     
@@ -73,7 +73,7 @@ _iroIdle_
       
   FIRODISABLED
     
-  > La routine d’inactivité doit être désactivée lorsqu’elle est inscrite. L’action par défaut consiste à activer la routine inactive lorsque **FtgRegisterIdleRoutine** l’inscrit. 
+  > La routine inactive doit être désactivée lorsqu’elle est inscrite. L’action par défaut consiste à activer la routine inactive lorsque **FtgRegisterIdleRoutine** l’inscrit. 
       
   FIROINTERVAL 
     
@@ -97,11 +97,11 @@ La **fonction FtgRegisterIdleRoutine** renvoie une balise de fonction identifian
   
 ## <a name="remarks"></a>Remarques
 
-Les fonctions suivantes traitent du moteur inactif MAPI et des routines d’inactivité basées sur le prototype de fonction [FNIDLE.](fnidle.md) 
+Les fonctions suivantes traitent du moteur inactif MAPI et des routines inactives basées sur le prototype de fonction [FNIDLE](fnidle.md) . 
   
 |**Fonction de routine inactive**|**Utilisation**|
 |:-----|:-----|
-|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d’une routine inactive inscrite.  <br/> |
+|[ChangeIdleRoutine](changeidleroutine.md) <br/> |Modifie les caractéristiques d’une routine d’inactivité inscrite.  <br/> |
 |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |Supprime une routine d’inactivité enregistrée du système MAPI.  <br/> |
 |[EnableIdleRoutine](enableidleroutine.md) <br/> |Désactive ou réactive une routine d’inactivité enregistrée sans la supprimer du système MAPI.  <br/> |
 |**FtgRegisterIdleRoutine** <br/> |Ajoute une routine inactive au système MAPI, avec ou sans l’activer.  <br/> |
@@ -110,9 +110,9 @@ Les fonctions suivantes traitent du moteur inactif MAPI et des routines d’inac
    
 **ChangeIdleRoutine**, **DeregisterIdleRoutine** et **EnableIdleRoutine** prennent comme paramètre d’entrée la balise de fonction renvoyée par **FtgRegisterIdleRoutine**. 
   
-Lorsque toutes les tâches au premier plan de la plateforme deviennent inactives, le moteur inactif MAPI appelle la routine d’inactivité la plus prioritaire prête à être exécuté. Il n’existe aucune garantie d’appel de l’ordre parmi les routines inactives de la même priorité. 
+Lorsque toutes les tâches au premier plan de la plateforme deviennent inactives, le moteur inactif MAPI appelle la routine d’inactivité la plus prioritaire prête à être exécuté. Il n’existe aucune garantie d’appel d’ordre parmi les routines inactives de la même priorité. 
   
-Voici un exemple d’utilisation de l’indicateur FIRONOADJUSTMENT dans le _paramètre iroIdle._ 
+Voici un exemple d’utilisation de l’indicateur FIRONOADJUSTMENT dans le _paramètre iroIdle_ . 
   
 1. Inscrivez une routine inactive avec un délai de 5 minutes.
     
@@ -120,6 +120,6 @@ Voici un exemple d’utilisation de l’indicateur FIRONOADJUSTMENT dans le _par
     
 3. Reprendront l’ordinateur 10 minutes plus tard.
     
-Le comportement par défaut, sans FIRONOADJUSTMENT, est que vous devez toujours attendre 4 minutes supplémentaires pour que votre routine s’exécute. Autrement dit, votre système de temps a été ajusté pour autoriser la durée d’veille de l’ordinateur. Toutefois, si vous passez FIRONOADJUSTMENT, votre routine d’inactivité s’exécutera immédiatement car plus de 5 minutes de temps réel se sont écoulées.
+Le comportement par défaut, sans FIRONOADJUSTMENT, est que vous devez toujours attendre 4 minutes supplémentaires pour que votre routine s’exécute. Autrement dit, votre système de temps a été ajusté pour autoriser la durée de veille de l’ordinateur. Toutefois, si vous passez FIRONOADJUSTMENT, votre routine d’inactivité s’exécutera immédiatement car plus de 5 minutes de temps réel se sont écoulées.
   
 

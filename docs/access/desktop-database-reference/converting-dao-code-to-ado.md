@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 175f168fdc384570ad99c86db9e0c185b7d6cf38
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9a0e5025dd79e9cd3d848ed1d4e85cf5dd3690f3
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59569250"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461897"
 ---
 # <a name="convert-dao-code-to-ado"></a>Convertir le code DAO en code ADO
 
@@ -84,8 +84,6 @@ ms.locfileid: "59569250"
 </tbody>
 </table>
 
-<br/>
-<br/>
 
 ### <a name="dao"></a>DAO
 
@@ -133,5 +131,4 @@ ms.locfileid: "59569250"
 
 - [Choisir entre DAO et ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
-<br/>
 

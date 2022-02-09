@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 12b95657-1926-4a24-be63-40305ea6f990
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 338f4336c0d229ccd5d336cdfdbd81f613be8848
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a6a326d49548e59a0476942b3465b1cef19355d4
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604949"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461686"
 ---
 # <a name="hexfrombin"></a>HexFromBin
 
@@ -49,7 +49,7 @@ void HexFromBin(
     
  _cb_
   
-> [in] Taille, en octets, des données binaires pointées par le _paramètre pb._ 
+> [in] Taille, en octets, des données binaires pointées par le  _paramètre pb_ . 
     
  _sz_
   
@@ -61,6 +61,6 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-La **fonction HexFromBin** prend un pointeur vers une unité de données binaires dont la taille est indiquée par le _paramètre cb._ Elle renvoie dans la chaîne  _sz,_ dans (2*  _cb_)+1 octets de mémoire, une représentation de ces informations binaires en nombres hexadécimals. Si la valeur d’octet est décimale 10, par exemple, la chaîne hexadécimale sera 0A, de sorte qu’un octet est converti en deux octets dans la chaîne. 
+La **fonction HexFromBin** prend un pointeur vers une unité de données binaires dont la taille est indiquée par le  _paramètre cb_ . Elle renvoie dans la chaîne _sz_ , dans (2*  _cb_)+1 octets de mémoire, une représentation de ces informations binaires en nombres hexadécimals. Si la valeur d’octet est décimale 10, par exemple, la chaîne hexadécimale sera 0A, de sorte qu’un octet est converti en deux octets dans la chaîne. 
   
 

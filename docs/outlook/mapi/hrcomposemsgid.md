@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2f0f4321a36bca1b2b93a1e40b74892867ecee47
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cbd0d1f69933d2598c4107a250e7d67300e84838
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584527"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462721"
 ---
 # <a name="hrcomposemsgid"></a>HrComposeMsgID
 
@@ -52,7 +52,7 @@ HrComposeMsgID(
     
  _cbStoreRecordKey_
   
-> [in] Taille, en octets, de la clé d’enregistrement de la boutique de messages qui contient le message ou un autre objet. Si zéro est transmis dans le paramètre  _cbStoreRecordKey,_ le paramètre  _pszMsgID_ pointe vers une copie de l’identificateur d’entrée converti en texte. 
+> [in] Taille, en octets, de la clé d’enregistrement de la boutique de messages qui contient le message ou un autre objet. Si zéro est transmis dans le paramètre _cbStoreRecordKey_ , le paramètre  _pszMsgID_ pointe vers une copie de l’identificateur d’entrée converti en texte. 
     
  _pStoreRecordKey_
   
@@ -76,9 +76,9 @@ Aucun.
   
 ## <a name="remarks"></a>Remarques
 
-Si le message ou un autre objet pour lequel l’identificateur d’entrée composée est créé réside dans une magasin de messages, la chaîne d’identificateur est créée à partir de l’identificateur d’entrée de l’objet et de la clé d’enregistrement de la boutique. Si l’objet ne se trouve pas dans un magasin, c’est-à-dire, si le nombre d’bytes pour la clé d’enregistrement de la banque transmise dans le paramètre  _cbStoreRecordKey_ est zéro, l’identificateur d’entrée de l’objet est simplement copié et converti en chaîne. 
+Si le message ou un autre objet pour lequel l’identificateur d’entrée composée est créé réside dans une magasin de messages, la chaîne d’identificateur est créée à partir de l’identificateur d’entrée de l’objet et de la clé d’enregistrement de la boutique. Si l’objet ne se trouve pas dans une banque, c’est-à-dire, si le nombre d’caractères de la clé d’enregistrement de la banque transmise dans le paramètre _cbStoreRecordKey_ est zéro, l’identificateur d’entrée de l’objet est simplement copié et converti en chaîne. 
   
-Appeler la **fonction HrComposeMsgID** équivaut à appeler la fonction [HrComposeEID,](hrcomposeeid.md) puis la [fonction HrSzFromEntryID.](hrszfromentryid.md) 
+Appeler la **fonction HrComposeMsgID** équivaut à appeler la fonction [HrComposeEID](hrcomposeeid.md) , puis la [fonction HrSzFromEntryID](hrszfromentryid.md) . 
   
  **HrComposeMsgID** permet aux applications clientes de travailler avec des objets dans plusieurs magasins via l’utilisation d’identificateurs d’entrée composés. Une application peut appeler la [fonction HrDecomposeMsgID](hrdecomposemsgid.md) pour fractionner l’identificateur d’entrée composé en ses constituants d’origine. 
   

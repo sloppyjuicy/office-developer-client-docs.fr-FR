@@ -7,12 +7,12 @@ ms:contentKeyID: 48545215
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: high
-ms.openlocfilehash: 740b128ce246c108f283489f8e2e172c12eb868c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 654e63c2a5511a9f1d7138efdc9defd199e9d0d5
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59568606"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461953"
 ---
 # <a name="querydefs-collection-dao"></a>Collection QueryDefs (DAO)
 
@@ -85,7 +85,6 @@ Cet exemple crée un objet **QueryDef** et l’ajoute à la collection **QueryDe
     End Sub 
 ```
 
-<br/>
 
 Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter deux objets **QueryDef**, l'un temporaire et l'autre permanent. La fonction GetrstTemp est obligatoire pour l'exécution de cette procédure.
 
@@ -140,7 +139,6 @@ Cet exemple utilise la méthode **CreateQueryDef** pour créer et exécuter deux
     End Function 
 ```
 
-<br/>
 
 L'exemple suivant montre comment exécuter une requête avec paramètres. La collection Parameters est utilisée pour définir le paramètre Organization de la requête myActionQuery avant l'exécution de cette dernière.
 
@@ -169,7 +167,6 @@ L'exemple suivant montre comment exécuter une requête avec paramètres. La col
     End Sub
 ```
 
-<br/>
 
 L’exemple suivant montre comment ouvrir un objet Recordset basé sur une requête avec paramètres.
 

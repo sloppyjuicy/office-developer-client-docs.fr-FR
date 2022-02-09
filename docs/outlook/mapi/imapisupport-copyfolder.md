@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c2e0939f-0668-473f-856c-a27af094070b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: ac2fb6c0ad29e16967b00425d9ca82cd3c52c8c5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a63261b9a830f9ad755dfd91e2dc32f6e5f3ad7e
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584373"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461777"
 ---
 # <a name="imapisupportcopyfolder"></a>IMAPISupport::CopyFolder
 
@@ -70,15 +70,15 @@ HRESULT CopyFolder(
     
  _lpszNewFolderName_
   
-> [in] Pointeur vers le nom du dossier copié ou déplacé ; sinon, NULL, qui indique que le dossier copié ou déplacé doit avoir le même nom que le dossier source (le dossier pointé par  _lpEntryID_).
+> [in] Pointeur vers le nom du dossier copié ou déplacé ; sinon, NULL, qui indique que le dossier copié ou déplacé doit avoir le même nom que le dossier source (dossier pointé par  _lpEntryID_).
     
  _ulUIParam_
   
-> [in] Poignée de la fenêtre pour la boîte de dialogue indicateur de progression et les fenêtres associées. Le _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG est définie dans _le paramètre ulFlags._ 
+> [in] Handle de la fenêtre pour la boîte de dialogue indicateur de progression et les fenêtres associées. Le  _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG est définie dans _le paramètre ulFlags_ . 
     
  _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’FOLDER_DIALOG est définie dans  _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress_, le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’FOLDER_DIALOG est définie dans  _ulFlags_.
     
  _ulFlags_
   
@@ -112,7 +112,7 @@ MAPI_E_COLLISION
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> L’appel a réussi, mais toutes les entrées n’ont pas été correctement copiées. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi, mais toutes les entrées n’ont pas été correctement copiées. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
@@ -132,7 +132,7 @@ Attendez-vous à ce que les valeurs de retour suivantes se placent dans les cond
 |**CopyFolder n’a** pas pu copier ou déplacer tous les dossiers.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
 |**CopyFolder n’a** pas pu se terminer.  <br/> |Toute valeur d’erreur  <br/> |
    
-Si **CopyFolder renvoie** une valeur d’erreur, ne continuez pas sur l’hypothèse qu’aucun travail n’a été effectué. Un ou plusieurs dossiers auraient pu être copiés ou déplacés avant **que CopyFolder** ne soit en panne. 
+Si **CopyFolder renvoie** une valeur d’erreur, ne continuez pas sur l’hypothèse qu’aucun travail n’a été effectué. Un ou plusieurs dossiers ont pu être copiés ou déplacés avant **que CopyFolder** ne soit mis en échec. 
   
 ## <a name="see-also"></a>Voir aussi
 

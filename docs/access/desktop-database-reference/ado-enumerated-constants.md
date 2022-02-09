@@ -7,12 +7,12 @@ ms:contentKeyID: 48545841
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: bef40c027c85621005d02ab16b9606b9784368a6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fc9cbe405b70b7b1cf7756cd62e719696fa44265
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553416"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461081"
 ---
 # <a name="ado-enumerated-constants"></a>Constantes énumérées ADO
 
@@ -20,7 +20,6 @@ ms.locfileid: "59553416"
 
 Pour faciliter le débogage, les énumérations ADO comportent une valeur pour chaque constante. Cependant, cette valeur est fournie uniquement à titre indicatif et peut changer d'une version d'ADO à une autre. Votre code doit dépendre uniquement du nom et non de la valeur réelle de chaque constante énumérée.
 
-<br/>
 
 <table>
 <colgroup>

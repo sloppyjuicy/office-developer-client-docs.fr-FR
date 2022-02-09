@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4cde3fb71eeccd82042787e329f96309eaffa8c3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9965494659751b4069577ec9626d6ce80103ad76
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596175"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461572"
 ---
 # <a name="imapisessionopenentry"></a>IMAPISession::OpenEntry
 
@@ -42,7 +42,7 @@ HRESULT OpenEntry(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -50,7 +50,7 @@ HRESULT OpenEntry(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet ouvert. La transmission null renvoie l’interface standard de l’objet. Par exemple, si l’objet à ouvrir est un message, l’interface standard est [IMessage](imessageimapiprop.md); pour les dossiers, il s’agit [de IMAPIFolder](imapifolderimapicontainer.md). Les interfaces standard pour les objets de carnet d’adresses sont [IDistList](idistlistimapicontainer.md) pour une liste de distribution et [IMailUser](imailuserimapiprop.md) pour un utilisateur de messagerie. 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet ouvert. La transmission NULL renvoie l’interface standard de l’objet. Par exemple, si l’objet à ouvrir est un message, l’interface standard est [IMessage](imessageimapiprop.md) ; pour les dossiers, il s’agit [de IMAPIFolder](imapifolderimapicontainer.md). Les interfaces standard pour les objets de carnet d’adresses sont [IDistList](idistlistimapicontainer.md) pour une liste de distribution et [IMailUser](imailuserimapiprop.md) pour un utilisateur de messagerie. 
     
  _ulFlags_
   
@@ -82,7 +82,7 @@ MAPI_NO_CACHE
     
 SHOW_SOFT_DELETES
   
-> Afficher les éléments actuellement marqués comme supprimés (c’est-à-dire en phase de rétention des éléments supprimés).
+> Afficher les éléments qui sont actuellement marqués comme supprimés (c’est-à-dire qu’ils sont dans la phase de rétention des éléments supprimés).
     
  _lpulObjType_
   
@@ -104,28 +104,28 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NOT_FOUND 
   
-> Il n’existe pas d’objet associé à l’identificateur d’entrée transmis dans _le paramètre lpEntryID._ 
+> Il n’existe pas d’objet associé à l’identificateur d’entrée transmis dans _le paramètre lpEntryID_ . 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> L’identificateur d’entrée transmis dans le paramètre  _lpEntryID_ est dans un format non reconnu. Cette valeur est généralement renvoyée si le fournisseur de services qui contient l’objet n’est pas ouvert. 
+> L’identificateur d’entrée transmis dans _le paramètre lpEntryID_ est dans un format non reconnu. Cette valeur est généralement renvoyée si le fournisseur de services qui contient l’objet n’est pas ouvert. 
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPISession::OpenEntry** ouvre un objet de magasin de messages ou de carnet d’adresses, renvoyant un pointeur vers une interface qui peut être utilisée pour accéder à l’objet. 
+La **méthode IMAPISession::OpenEntry** ouvre un objet de carnet d’adresses ou de magasin de messages, renvoyant un pointeur vers une interface qui peut être utilisée pour accéder à l’objet. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
 > [!IMPORTANT]
-> Lors de l’ouverture d’entrées de dossiers dans une boutique publique, telles que des dossiers et des messages, utilisez [IMsgStore::OpenEntry](imsgstore-openentry.md) au lieu d’IMAPISession::OpenEntry .  Cela garantit que les dossiers publics fonctionnent correctement lorsque plusieurs Exchange sont définis dans un profil. 
+> Lors de l’ouverture d’entrées de dossiers dans une boutique publique, telles que des dossiers et des messages, utilisez [IMsgStore::OpenEntry](imsgstore-openentry.md) au lieu **d’IMAPISession::OpenEntry**. Cela garantit que les dossiers publics fonctionnent correctement lorsque plusieurs Exchange sont définis dans un profil. 
   
 Appelez **IMAPISession::OpenEntry** uniquement lorsque vous ne connaissez pas le type d’objet que vous ouvrez. Si vous savez que vous ouvrez un dossier ou un message, appelez [IMsgStore::OpenEntry](imsgstore-openentry.md). Si vous savez que vous ouvrez un conteneur de carnet d’adresses, un utilisateur de messagerie ou une liste de distribution, appelez [IAddrBook::OpenEntry](iaddrbook-openentry.md). Ces méthodes plus spécifiques sont plus rapides que **IMAPISession::OpenEntry**. 
   
-MAPI ouvre tous les objets avec une autorisation en lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le _paramètre ulFlags._ La définition de l’un de ces indicateurs ne garantit pas un type d’accès particulier ; Les autorisations accordées dépendent du fournisseur de services, du niveau d’accès et de l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez PR_ACCESS_LEVEL **propriété** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+MAPI ouvre tous les objets avec une autorisation en lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le _paramètre ulFlags_ . La définition de l’un de ces indicateurs ne garantit pas un type d’accès particulier ; Les autorisations accordées dépendent du fournisseur de services, du niveau d’accès et de l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez **PR_ACCESS_LEVEL propriété (**[PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
   
-Appeler **IMAPISession::OpenEntry** et définir  _lpEntryID_ pour qu’il pointe vers l’identificateur d’entrée d’une magasin de messages est identique à l’appel de la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) avec l’indicateur MDB_NO_DIALOG. Les paramètres d’indicateur sont également équivalents, sauf que pour demander une autorisation de lecture/écriture avec **OpenMsgStore,** vous devez définir l’indicateur MDB_WRITE au lieu de MAPI_MODIFY. 
+Appeler **IMAPISession::OpenEntry** et définir  _lpEntryID_ pour qu’il pointe vers l’identificateur d’entrée d’une magasin de messages est identique à l’appel de la méthode [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) avec l’indicateur MDB_NO_DIALOG. Les paramètres d’indicateur sont également équivalents, sauf que pour demander une autorisation de lecture/écriture avec **OpenMsgStore**, vous devez définir l’indicateur MDB_WRITE au lieu de MAPI_MODIFY. 
   
-Vérifiez la valeur renvoyée dans le  _paramètre lpulObjType_ pour déterminer si le type d’objet renvoyé est ce que vous attendiez. Si le type d’objet n’est pas celui attendu, castez le pointeur du paramètre  _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrent un dossier, cast  _lppUnk_ vers un pointeur de type LPMAPIFOLDER. 
+Vérifiez la valeur renvoyée dans le _paramètre lpulObjType_ pour déterminer si le type d’objet renvoyé est ce que vous attendiez. Si le type d’objet n’est pas celui attendu, castez le pointeur du paramètre  _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrent un dossier, cast  _lppUnk_ vers un pointeur de type LPMAPIFOLDER. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 

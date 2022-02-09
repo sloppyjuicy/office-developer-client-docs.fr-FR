@@ -7,12 +7,12 @@ ms:contentKeyID: 48544286
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: c1c6809ddc44c1de61afa064dba7603379bd95a6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 82bbcf7c90e5305081659cecd64af10b4ae93f89
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59593970"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462023"
 ---
 # <a name="membertypeenum"></a>MemberTypeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59593970"
 
 Spécifie le paramétrage de la propriété [Type](type-property-ado-md.md) d’un objet [Member](member-object-ado-md.md).
 
-<br/>
 
 <table>
 <colgroup>
@@ -38,7 +37,7 @@ Spécifie le paramétrage de la propriété [Type](type-property-ado-md.md) d’
 <tbody>
 <tr class="odd">
 <td><p><strong>adMemberAll</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>Indique que l'objet <strong>Member</strong> représente tous les membres du niveau.</p></td>
 </tr>
 <tr class="even">

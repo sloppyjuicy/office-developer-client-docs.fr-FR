@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: c18ed9f7-c053-4453-b0b1-06234cdfb025
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: abef70e2d5e9fc2eef1ae07f33552c84ecbe9e23
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f3051ca3e106fb7cd23b31bacc5e9de77f961c7a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609207"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461714"
 ---
 # <a name="using-a-table-to-work-with-properties"></a>Utilisation d’un tableau pour travailler avec des propriétés
 
@@ -29,7 +29,7 @@ Ces deux appels sont généralement suffisants pour récupérer suffisamment d�
   
 Il n’existe que deux exceptions :
   
-- Si la propriété est de plus de 255 octets. L’interface ** IMAPITable ** peut ne pas renvoyer la valeur de la propriété entière, mais la tronquée à 255 octets. Pensez toutefois à ce compromis. Si vous affichez ces données à l’utilisateur, 255 octets peuvent suffire pour un champ de texte tel qu’un commentaire. 
+- Si la propriété est de plus de 255 octets. Il **se peut que l’interface IMAPITable** ne retourne pas la valeur entière de la propriété, mais la tronquée à 255 octets. Pensez toutefois à ce compromis. Si vous affichez ces données à l’utilisateur, 255 octets peuvent suffire pour un champ de texte tel qu’un commentaire. 
     
 - Si vous avez besoin d’une propriété spécifique d’une seule ligne dans un tableau. Dans ce cas, il est inutile de créer une table avec des propriétés qui ne seront jamais utilisées. La plupart du temps, vous aurez besoin des mêmes propriétés pour toutes les lignes.
     

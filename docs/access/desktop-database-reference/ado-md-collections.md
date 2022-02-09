@@ -1,5 +1,5 @@
 ---
-title: ActiveX Collections Data Objects (ADO) MD
+title: ActiveX collections ADO (Data Objects) MD
 TOCTitle: ADO MD collections
 ms:assetid: dc7df649-80bb-b517-f084-2bfa780fb2f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250115(v=office.15)
@@ -7,18 +7,17 @@ ms:contentKeyID: 48548139
 ms.date: 09/18/2015
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: 531d198113c0c78352e1231d84cc773db285eac1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d7d764fe89eba8b9a8dc0f498c1845ec1705e61a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59553276"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62460104"
 ---
 # <a name="ado-md-collections"></a>Collections ADO MD
 
 **S’applique à** : Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -61,4 +60,3 @@ ms.locfileid: "59553276"
 </tbody>
 </table>
 
-<br/>

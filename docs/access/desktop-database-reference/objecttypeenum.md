@@ -7,12 +7,12 @@ ms:contentKeyID: 48547132
 ms.date: 10/18/2018
 mtps_version: v=office.15
 ms.localizationpriority: medium
-ms.openlocfilehash: af747f5162c0c21e0e421ddd5b0b656345b3cfae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a0176cd57f3079019077e2b4aac63348ecd233d9
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59565246"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461586"
 ---
 # <a name="objecttypeenum"></a>ObjectTypeEnum
 
@@ -20,7 +20,6 @@ ms.locfileid: "59565246"
 
 Indique le type d'objet de base de données dont il faut définir les autorisations ou le propriétaire.
 
-<br/>
 
 <table>
 <colgroup>
@@ -48,7 +47,7 @@ Indique le type d'objet de base de données dont il faut définir les autorisati
 </tr>
 <tr class="odd">
 <td><p><strong>adPermObjProcedure</strong></p></td>
-<td><p>4 </p></td>
+<td><p>4</p></td>
 <td><p>L'objet est une procédure.</p></td>
 </tr>
 <tr class="even">

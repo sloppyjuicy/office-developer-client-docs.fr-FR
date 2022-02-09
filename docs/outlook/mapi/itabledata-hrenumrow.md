@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b25d9f2b-9454-4983-98f7-6a051a3b8a04
 description: 'Derniére modification : samedi 23 juillet 2011'
-ms.openlocfilehash: ea3c421c19174d49e2d46f7799631ccab31eb7e5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cd5ada584faee5df631c81c74ff28f1a23cb40f9
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620435"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62462093"
 ---
 # <a name="itabledatahrenumrow"></a>ITableData::HrEnumRow
 
@@ -38,7 +38,7 @@ HRESULT HrEnumRow(
 
  _ulRowNumber_
   
-> [in] Numéro de la ligne pour laquelle renvoyer les propriétés. La valeur dans le paramètre  _ulRowNumber_ peut être n’importe quelle valeur de 0, ce qui indique la première ligne du tableau, à n - 1, ce qui indique la dernière ligne du tableau. 
+> [in] Numéro de la ligne pour laquelle renvoyer les propriétés. La valeur dans le paramètre _ulRowNumber_ peut être n’importe quelle valeur de 0, ce qui indique la première ligne du tableau, à n - 1, ce qui indique la dernière ligne du tableau. 
     
  _lppSRow_
   
@@ -56,9 +56,9 @@ La **méthode ITableData::HrEnumRow** récupère une ligne basée sur un numéro
   
 Si le nombre spécifié dans  _ulRowNumber_ ne correspond à aucune ligne du tableau, **HrEnumRow** renvoie S_OK et définit le paramètre  _lppSRow_ sur NULL. 
   
-MAPI alloue de la mémoire pour la structure **SRow** renvoyée à l’aide de la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) lors de la création de l’objet de données de table. L’appelant doit libérer cette mémoire en appelant la [fonction MAPIFreeBuffer.](mapifreebuffer.md) 
+MAPI alloue de la mémoire pour la structure **SRow** renvoyée à l’aide de la [fonction MAPIAllocateBuffer](mapiallocatebuffer.md) lors de la création de l’objet de données de table. L’appelant doit libérer cette mémoire en appelant la [fonction MAPIFreeBuffer](mapifreebuffer.md) . 
   
-Pour extraire des lignes d’une table dans l’ordre dans l’ordre où elles ont été insérées, les utilisateurs d’objets de données de table appellent la **méthode HrEnumRow.** 
+Pour extraire des lignes d’une table dans l’ordre dans l’ordre où elles ont été insérées, les utilisateurs d’objets de données de table appellent la **méthode HrEnumRow** . 
   
 ## <a name="see-also"></a>Voir aussi
 

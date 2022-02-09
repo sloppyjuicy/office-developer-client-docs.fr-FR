@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 ms.localizationpriority: high
-ms.openlocfilehash: 290708e19c7e24259678153df978a1cd089e95c5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ed2229de65536f517957804cfeca999ff30b726a
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607464"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62459684"
 ---
 # <a name="after-insert-macro-event"></a>After Insert, événement macro
 
@@ -229,7 +229,6 @@ Pour consulter cet exemple dans le Concepteur de macros, procédez comme suit :
     </DataMacros>
 ```
 
-<br/>
 
 ```vb
     SetLocalVar 

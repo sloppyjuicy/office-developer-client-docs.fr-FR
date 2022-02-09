@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a0b586cd-65f6-4792-851c-4d36eaeec56d
 description: Détermine si les utilisateurs spécifiés sont des amis.
-ms.openlocfilehash: 5f782e998f46485cc5560e13ffbe55394702dbc2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bfe12d63ba489821703f6e970950b2ee729dd77c
+ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563216"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62461432"
 ---
 # <a name="isocialprofilearefriendsorcolleagues"></a>ISocialProfile::AreFriendsOrColleagues
 
@@ -31,11 +31,11 @@ _userIds_
     
 _results_
   
-> [out] Pointeur vers une structure qui spécifie un tableau de valeurs Boolean, indiquant si la personne correspondante dans le tableau  _userIds_ est un ami. 
+> [out] Pointeur vers une structure qui spécifie un tableau de valeurs Boolean, indiquant si la personne correspondante dans le tableau _userIds_ est un ami. 
     
 ## <a name="remarks"></a>Remarques
 
-Pour chaque personne représentée dans le tableau d’entrée du paramètre  _userIds,_ cette méthode définit l’élément correspondant dans le tableau de sortie du  _paramètre de_ résultats. **true** indique que la personne est un ami, et **false** indique que la personne n’est pas un ami. 
+Pour chaque personne représentée dans le tableau d’entrée du paramètre  _userIds_ , cette méthode définit l’élément correspondant dans le tableau de sortie du  _paramètre de_ résultats. **true** indique que la personne est un ami et **false** indique que la personne n’est pas un ami. 
   
 ## <a name="see-also"></a>Voir aussi
 
