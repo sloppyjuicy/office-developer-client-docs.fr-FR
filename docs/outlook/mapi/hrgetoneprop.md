@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 84685b6d1cc48861da6202f38628330b5ebd0156
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 81db1fa425f95643ae2260a1d3d0ddfe41406e0d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576169"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772202"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
@@ -25,7 +25,7 @@ ms.locfileid: "59576169"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Extrait la valeur d’une propriété unique à partir d’une interface de propriété, c’est-à-dire une interface dérivée [d’IMAPIProp](imapipropiunknown.md). 
+Récupère la valeur d’une propriété unique à partir d’une interface de propriété, c’est-à-dire une interface dérivée [d’IMAPIProp](imapipropiunknown.md). 
   
 |||
 |:-----|:-----|
@@ -63,9 +63,9 @@ MAPI_E_NOT_FOUND
     
 ## <a name="remarks"></a>Remarques
 
-Contrairement à [la méthode IMAPIProp::GetProps,](imapiprop-getprops.md) la fonction **HrGetOneProp** ne renvoie jamais d’avertissement. Étant donné qu’elle récupère une seule propriété, elle réussit ou échoue simplement. Pour récupérer plusieurs propriétés, **GetProps** est plus rapide. 
+Contrairement à [la méthode IMAPIProp::GetProps](imapiprop-getprops.md) , la fonction **HrGetOneProp** ne renvoie jamais d’avertissement. Comme elle récupère une seule propriété, elle réussit ou échoue simplement. Pour récupérer plusieurs propriétés, **GetProps** est plus rapide. 
   
-Vous pouvez définir ou modifier une propriété unique avec [la fonction HrSetOneProp.](hrsetoneprop.md) 
+Vous pouvez définir ou modifier une propriété unique avec [la fonction HrSetOneProp](hrsetoneprop.md) . 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -73,7 +73,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI utilise la **méthode HrGetOneProp** pour récupérer le type d’un objet.  <br/> |
+|MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI utilise la **méthode HrGetOneProp** pour récupérer le type d’un objet. |
    
 ## <a name="see-also"></a>Voir aussi
 

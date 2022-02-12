@@ -8,18 +8,18 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
 description: Cette rubrique répertorie les principales modifications apportées Outlook Social Connector 2013 (OSC). Il présente une comparaison des fonctionnalités disponibles entre Outlook Social Connector 2013 et Outlook Social Connector 1.1.
-ms.openlocfilehash: a9f8836313ee49e0e3d7fa18ffcf1ee7e2babb75
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fbaa1b60208ac619e4cdcdc9792ac5db6b6b16ba
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598961"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773018"
 ---
 # <a name="whats-new-for-providers"></a>Nouveautés pour les fournisseurs
 
-Cette rubrique répertorie les principales modifications apportées Outlook Social Connector 2013 (OSC). Il présente une comparaison des fonctionnalités disponibles entre Outlook Social Connector 2013 et Outlook Social Connector 1.1. Il décrit également les membres de l’interface et les éléments XML qui ont été ajoutés, modifiés ou supprimés. 
+Cette rubrique répertorie les principales modifications apportées Outlook Social Connector 2013 (OSC). Il présente une comparaison des fonctionnalités disponibles entre Outlook Social Connector 2013 et Outlook Social Connector 1.1. Il décrit également les membres d’interface et les éléments XML qui ont été ajoutés, modifiés ou supprimés. 
   
-Dans Office 2013, OSC fonctionne avec non seulement Outlook, mais également SharePoint Server, SharePoint Workspace, le client Lync et toutes les autres applications clientes Office qui prendre en charge les informations de présence et la carte de visite. Un fournisseur OSC peut faire surface des mises à jour d’informations sociales dans **l’onglet NOUVEAUTÉS** du Outlook Contacts, ainsi que dans la carte de visite. 
+Dans Office 2013, OSC fonctionne avec non seulement Outlook, mais également SharePoint Server, SharePoint Workspace, le client Lync et toutes les autres applications clientes Office qui prendre en charge les informations de présence et la carte de visite. Un fournisseur OSC peut faire surface des mises à jour **d’informations sociales dans l’onglet NOUVEAUTÉS** du Outlook Contacts, ainsi que dans la carte de visite. 
   
 Voici quelques modifications majeures apportées Outlook Social Connector 2013 : 
   
@@ -33,7 +33,7 @@ Le tableau suivant indique la disponibilité de différentes fonctionnalités da
   
 |**Fonctionnalité**|**Outlook Social Connector 2013**|**Outlook Social Connector 1.1**|
 |:-----|:-----|:-----|
-|Interface utilisateur final  <br/> |SharePoint Serveur, espace SharePoint de travail, client Lync, carte de visite dans toutes les applications clientes Office et volet Contacts dans Outlook  <br/> |Volet Personnes dans Outlook  <br/> |
+|Interface utilisateur final  <br/> |SharePoint server, SharePoint workspace, client Lync, carte de visite dans toutes les applications clientes Office et volet Contacts dans Outlook  <br/> |Volet Personnes dans Outlook  <br/> |
 |Authentification de base  <br/> |Oui  <br/> |Oui  <br/> |
 |Authentification basée sur les formulaires  <br/> |Oui  <br/> |Oui  <br/> |
 |Authentification mise en cache  <br/> |Oui  <br/> |Oui  <br/> |
@@ -55,14 +55,14 @@ Le tableau suivant indique les membres qui ont été ajoutés ou sont supprimés
   
 |**Interface et membre**|**Comment**|
 |:-----|:-----|
-|**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |Supprimé dans Outlook Social Connector 2013. Notez **que ISocialSession::GetActivities** a également été supprimé depuis Outlook Social Connector 1.1.  <br/> Pour synchroniser les flux d’activités, vous devez implémenter la méthode [ISocialSession2::GetActivitiesEx.](isocialsession2-getactivitiesex.md) Définissez **dynamicActivitiesLookupEx** sur **true,** ce qui invite l’OSC à appeler **ISocialSession2::GetActivitiesEx** à la place.  <br/> |
+|**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |Supprimé dans Outlook Social Connector 2013. Notez **que ISocialSession::GetActivities** a également été supprimé depuis Outlook Social Connector 1.1. Pour synchroniser les flux d’activités, vous devez implémenter la méthode [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) . **Définissez dynamicActivitiesLookupEx** sur **true**, ce qui invite l’OSC à appeler **ISocialSession2::GetActivitiesEx** à la place. |
    
 Le tableau suivant indique les éléments de schéma qui ont été modifiés.
   
 |**Élément Schema**|**Comment**|
 |:-----|:-----|
-|**fonctionnalités** <br/> |Ajouté dans Outlook Social Connector 2013 : **élément allowChangesToAutoConfigure.**  <br/> Supprimé dans Outlook Social Connector 2013 : **élément cacheActivities.**  <br/> |
-|**person** <br/> |Ajouté dans Outlook Social Connector 2013 : **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, industries , **interests**, **location**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **skills**, **schools**, and **website** elements.   <br/> |
+|**fonctionnalités** <br/> |Ajouté dans Outlook Social Connector 2013 : **élément allowChangesToAutoConfigure**. Supprimé dans Outlook Social Connector 2013 : **élément cacheActivities**. |
+|**person** <br/> |Ajouté dans Outlook Social Connector 2013 : **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, **industries**, **interests**, **location**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **skills**, **schools**, and **website** elements. |
    
 ## <a name="see-also"></a>Voir aussi
 

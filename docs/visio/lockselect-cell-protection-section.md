@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c96b45a5-719e-8c4b-71b9-cb2224d83e21
 description: Empêche la sélection d'une forme.
-ms.openlocfilehash: 98a0f8151cf2b5b0c08c7a86aec87b8121a9ccb5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a51bbed91f7269f4ffceb6254b04849c020d150f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573949"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771236"
 ---
 # <a name="lockselect-cell-protection-section"></a>LockSelect, cellule (section Protection)
 
@@ -22,8 +22,8 @@ Empêche la sélection d'une forme.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | La forme ne peut pas être sélectionnée.  <br/> |
-| FALSE  <br/> | La forme peut être sélectionnée.  <br/> |
+| TRUE  <br/> | La forme ne peut pas être sélectionnée. |
+| FALSE  <br/> | La forme peut être sélectionnée. |
    
 ## <a name="remarks"></a>Remarques
 

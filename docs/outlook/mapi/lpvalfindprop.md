@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 67461a38-bb60-467b-901b-39c645e764f7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 05b8620469b289969bdcc2bb4f15f940d9c767e1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 558e3f5168ebcc8a17197582c122b6adc9d7779d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592185"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773235"
 ---
 # <a name="lpvalfindprop"></a>LpValFindProp
 
@@ -27,7 +27,7 @@ Recherche une propriété spécifiée dans un jeu de propriétés.
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Applications clientes et fournisseurs de services.  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services. |
    
 ```cpp
 LPSPropValue LpValFindProp(
@@ -41,11 +41,11 @@ LPSPropValue LpValFindProp(
 
  _ulPropTag_
   
-> [in] Balise de la propriété à rechercher dans le jeu de propriétés, indiquée par le _paramètre lpPropArray._ 
+> [in] Balise de la propriété à rechercher dans le jeu de propriétés, indiquée par le  _paramètre lpPropArray_ . 
     
  _cValues_
   
-> [in] Nombre de propriétés dans le jeu de propriétés, indiqué par _le paramètre lpPropArray._ 
+> [in] Nombre de propriétés dans le jeu de propriétés, indiquées par  _le paramètre lpPropArray_ . 
     
  _lpPropArray_
   

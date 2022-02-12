@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f2d84fd-27eb-4c2f-a2e1-43d20e0c78be
 description: Supprime tout l’espace du texte, à l’exception des espaces simples entre les mots.
-ms.openlocfilehash: e6d8263585754db88a1500a5fbe20a56ef4fe633
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a18ed56bba5b1441f6ccaaefa45e74f9cc3cc033
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627260"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62769973"
 ---
 # <a name="trim-function"></a>Fonction TRIM
 
@@ -28,7 +28,7 @@ TRIM (** *texte* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Obligatoire  <br/> |**String** <br/> |Texte dont vous souhaitez supprimer les espaces.  <br/> |
+| _text_ <br/> |Requis  <br/> |**String** <br/> |Texte dont vous souhaitez supprimer les espaces. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

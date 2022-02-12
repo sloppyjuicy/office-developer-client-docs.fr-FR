@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 45047ea14fe364f8c4d33275ba771d01f77e5110
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6c6d66aa6c17bde92061eb6a88e0f4542e9647f8
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571674"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770730"
 ---
 # <a name="imsgstorefinishedmsg"></a>IMsgStore::FinishedMsg
 
@@ -43,7 +43,7 @@ HRESULT FinishedMsg(
     
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -65,18 +65,18 @@ La **méthode IMsgStore::FinishedMsg** effectue un traitement sur un message env
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Dans votre implémentation de **FinishedMsg,** déverrouillez le message identifié par  _lpEntryID_ et effectuez le traitement approprié. Le message cible est toujours verrouillé . lepooler MAPI ne transmet jamais l’identificateur d’entrée d’un message déverrouillé à **FinishedMsg**.
+Dans votre implémentation de **FinishedMsg**, déverrouillez le message identifié par  _lpEntryID_ et effectuez le traitement approprié. Le message cible est toujours verrouillé . Lepooler MAPI ne transmet jamais l’identificateur d’entrée d’un message déverrouillé à **FinishedMsg**.
   
 Il est possible qu’aucun **PR_DELETE_AFTER_SUBMIT** ou **PR_SENTMAIL_ENTRYID** ne soit définie, que les deux soient définies ou que l’une ou l’autre soit définie. Le tableau suivant décrit l’action que vous devez prendre en fonction des paramètres : 
   
 |||
 |:-----|:-----|
-|Si aucune des deux propriétés n’est définie :  <br/> |Laissez le message dans le dossier à partir duquel il a été envoyé (généralement la boîte d’envoi).  <br/> |
-|Si les deux propriétés sont définies :  <br/> |Déplacez le message dans le dossier indiqué, si vous le souhaitez, puis supprimez-le.  <br/> |
-|Si PR_SENTMAIL_ENTRYID est définie :  <br/> |Déplacez le message vers le dossier indiqué.  <br/> |
-|Si PR_DELETE_AFTER_SUBMIT est définie :  <br/> |Supprimez le message.  <br/> |
+|Si aucune des propriétés n’est définie :  <br/> |Laissez le message dans le dossier à partir duquel il a été envoyé (généralement la boîte d’envoi). |
+|Si les deux propriétés sont définies :  <br/> |Déplacez le message dans le dossier indiqué, si vous le souhaitez, puis supprimez-le. |
+|Si PR_SENTMAIL_ENTRYID est définie :  <br/> |Déplacez le message vers le dossier indiqué. |
+|Si PR_DELETE_AFTER_SUBMIT est définie :  <br/> |Supprimez le message. |
    
-Une fois que vous avez pris les mesures appropriées, appelez la méthode [IMAPISupport::D oSentMail.](imapisupport-dosentmail.md) 
+Une fois que vous avez pris les mesures appropriées, appelez la méthode [IMAPISupport::D oSentMail](imapisupport-dosentmail.md) . 
   
 ## <a name="see-also"></a>Voir aussi
 

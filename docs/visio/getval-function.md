@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1da42991-5791-ebab-84cc-286cfe984a61
 description: Obtient la valeur d’une cellule et ne recalcule pas la formule lorsque la valeur de la cellule change.
-ms.openlocfilehash: fe5af032eae84612963913a23f94e65708e5ec8c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 86588806cca0ea2e36aef0e0085c785e344a454e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582665"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774257"
 ---
 # <a name="getval-function"></a>Fonction GETVAL
 
@@ -28,7 +28,7 @@ GETVAL(** *cellname* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellname_ <br/> |Obligatoire  <br/> |**String** <br/> |Nom de la cellule dont la valeur doit être obtenue.  <br/> |
+| _cellname_ <br/> |Requis  <br/> |**String** <br/> |Nom de la cellule dont la valeur doit être obtenue. |
    
 ## <a name="example"></a>Exemple
 

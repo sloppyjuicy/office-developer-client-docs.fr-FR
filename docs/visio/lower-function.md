@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d198ea6-49e0-e462-b2cf-b65fbb920b55
 description: Renvoie une chaîne convertie en minuscules.
-ms.openlocfilehash: 4021eb5952a3718e74e8e1c16f72268d08ae3832
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e445532151146a5580494fff5f49c98eb39ab5be
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615857"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771208"
 ---
 # <a name="lower-function"></a>Fonction LOWER
 
@@ -28,7 +28,7 @@ LOWER(** *expression* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> | Chaîne, référence de cellule ou expression ; le résultat est converti en une chaîne à son tour convertie en minuscules.  <br/> |
+| _expression_ <br/> |Requis  <br/> |**Varie** <br/> | Chaîne, référence de cellule ou expression ; le résultat est converti en une chaîne à son tour convertie en minuscules. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

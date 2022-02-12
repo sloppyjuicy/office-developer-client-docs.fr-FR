@@ -1,5 +1,5 @@
 ---
-title: IMAPISync IUnknown
+title: IMAPISync  IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c14d1012-f3d4-47eb-8a90-3160331f94e8
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6df344d6fc63bef9ee475437810e7dbdc290786d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1e459f0137a005ca9c8011144153224ac5c447e6
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625363"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772076"
 ---
 # <a name="imapisync--iunknown"></a>IMAPISync : IUnknown
 
@@ -25,9 +25,9 @@ ms.locfileid: "59625363"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Fournit un mécanisme de synchronisation du courrier électronique au lieu d’utiliser l’API de transport. Cette interface est exposée sur un objet store. En utilisant cette interface et [IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), un fournisseur de transport peut fournir des messages de progression et d’erreur plus importants que ceux qui apparaissent dans la boîte de dialogue Envoyer/Recevoir dans Microsoft Outlook.
+Fournit un mécanisme de synchronisation du courrier électronique au lieu d’utiliser l’API de transport. Cette interface est exposée sur un objet store. À l’aide de cette interface et [d’IMAPISyncProgressCallback : IUnknown](imapisyncprogresscallbackiunknown.md), un fournisseur de transport peut fournir des messages d’erreur et de progression meilleurs que ceux qui apparaissent dans la boîte de dialogue Envoyer/Recevoir dans Microsoft Outlook.
   
-La boîte d’envoi se trouve toujours dans le magasin par défaut. Outlook continueront d’utiliser les API de transport pour envoyer des messages, car le message sortant ne peut pas se trouver dans le magasin externe.
+La boîte d’envoi se trouve toujours dans le magasin par défaut. Outlook continuer à utiliser les API de transport pour envoyer des messages, car le message sortant ne peut pas se trouver dans le magasin externe.
   
 |||
 |:-----|:-----|
@@ -40,7 +40,7 @@ La boîte d’envoi se trouve toujours dans le magasin par défaut. Outlook cont
 
 |||
 |:-----|:-----|
-|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implémenté par les fournisseurs de magasins de messages. Cette méthode est appelée par Outlook 2010 et Outlook 2013 pour démarrer la synchronisation.  <br/> |
+|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implémenté par les fournisseurs de magasins de messages. Cette méthode est appelée par Outlook 2010 et Outlook 2013 pour démarrer la synchronisation. |
    
 ## <a name="see-also"></a>Voir aussi
 

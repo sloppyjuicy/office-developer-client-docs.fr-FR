@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 0bf7f757-0b7f-dec1-9709-6612c9ad0d53
 description: Renvoie la valeur de date et d’heure représentée par date/heure ou expression.
-ms.openlocfilehash: 2d8d3bd17bf2c89b09b59a203bbe21a33bc6d8f0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 353363945f9646043e421f184445150e169458ab
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594635"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772829"
 ---
 # <a name="datetime-function"></a>Fonction DATETIME
 
-Renvoie la valeur de date et d’heure représentée par  _datetime_ ou  _expression_.
+Renvoie la valeur de date et d’heure représentée par _date/__heure ou expression_.
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,9 +28,9 @@ DATETIME( » ** *datetime* ** « | ** *expression* ** [, ** *lcid* ** ])
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure.  <br/> |
-| _expression_ <br/> |Obligatoire  <br/> |**String** <br/> |Toute expression qui génère une date et une heure.  <br/> |
-| _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Spécifie l’identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système.  <br/> |
+| _datetime_ <br/> |Requis  <br/> |**String** <br/> |Toute chaîne communément reconnue comme date et heure ou comme référence à une cellule contenant une date et une heure. |
+| _expression_ <br/> |Requis  <br/> |**String** <br/> |Toute expression qui génère une date et une heure. |
+| _lcid_ <br/> |Facultatif  <br/> |**Number** <br/> |Spécifie l’identificateur de paramètres régionaux à utiliser pour l’évaluation d’une valeur de date et d’heure non locale. L’identificateur de paramètres régionaux est un nombre décrit dans les fichiers d’en-tête du système. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 
@@ -42,7 +42,7 @@ Si  *datetime*  est manquante ou ne peut pas être interprétée comme une date 
   
 La valeur renvoyée est formatée selon les formats d’heure et de date abrégés définis dans les paramètres régionaux actuels de votre système d’exploitation. 
   
-La fonction DATETIME accepte également une valeur de nombre unique pour  *l’expression*  où la partie en nombres du résultat représente le nombre de jours depuis le 30 décembre 1899, et la partie décimale représente la fraction d’un jour depuis minuit. 
+La fonction DATETIME accepte également une valeur de nombre unique pour  *l’expression*  où la partie nombre inte du résultat représente le nombre de jours depuis le 30 décembre 1899, et la partie décimale représente la fraction d’un jour depuis minuit. 
   
 ## <a name="example-1"></a>Exemple 1
 

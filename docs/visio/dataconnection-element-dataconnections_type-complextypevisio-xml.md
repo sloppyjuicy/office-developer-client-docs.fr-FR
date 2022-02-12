@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6aab8be3-b236-029b-1df3-b6860d4f4586
 description: Extrait la communication entre un ou plusieurs éléments DataRecordset et une source de données non XML.
-ms.openlocfilehash: c37c1076444febdc292fa91933b31f56413bc19e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d4cb93234c4e93a01cf1ef7da748dd24f2b9b5e2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59563090"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770491"
 ---
 # <a name="dataconnection-element-dataconnections_type-complextype-visio-xml"></a>Élément DataConnection (DataConnections_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Extrait la communication entre un ou plusieurs éléments **DataRecordset** et u
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DataConnections](dataconnections-elementvisio-xml.md) <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |Contient les **éléments DataConnection** du document.  <br/> |
+|[DataConnections](dataconnections-elementvisio-xml.md) <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |Contient les **éléments DataConnection** du document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,12 +52,12 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|AlwaysUseConnectionFile  <br/> |xsd:boolean  <br/> |facultatif  <br/> |La valeur par défaut est false. Voir la section Remarques pour plus d'informations.  <br/> |Valeurs du type xsd:boolean.  <br/> |
-|Commande  <br/> |xsd:string  <br/> |facultatif  <br/> |Chaîne de commande utilisée pour interroger la source de données.  <br/> |Valeurs du type xsd:string.  <br/> |
-|ConnectionString  <br/> |xsd:string  <br/> |facultatif  <br/> |Chaîne de connexion qui définit les paramètres nécessaires pour se connecter à une source de données.  <br/> |Valeurs du type xsd:string.  <br/> |
-|FileName  <br/> |xsd:string  <br/> |obligatoire  <br/> |Nom du fichier de connexion. Voir la section Remarques pour plus d'informations.  <br/> |Valeurs du type xsd:string.  <br/> |
-|FriendlyName  <br/> |xsd:string  <br/> |facultatif  <br/> |Nom fourni par l’utilisateur pour la connexion de données.  <br/> |Valeurs du type xsd:string.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID attribué par le Visio pour une connexion donnée, unique dans le document.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|Délai d’expiration  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Délai d’attente en minutes lors de la tentative d’établissement d’une connexion avant la fin de la tentative.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|AlwaysUseConnectionFile  <br/> |xsd:boolean  <br/> |facultatif  <br/> |La valeur par défaut est false. Voir la section Remarques pour plus d'informations. |Valeurs du type xsd:boolean. |
+|Commande  <br/> |xsd:string  <br/> |facultatif  <br/> |Chaîne de commande utilisée pour interroger la source de données. |Valeurs du type xsd:string. |
+|ConnectionString  <br/> |xsd:string  <br/> |facultatif  <br/> |Chaîne de connexion qui définit les paramètres nécessaires pour se connecter à une source de données. |Valeurs du type xsd:string. |
+|FileName  <br/> |xsd:string  <br/> |obligatoire  <br/> |Nom du fichier de connexion. Voir la section Remarques pour plus d'informations. |Valeurs du type xsd:string. |
+|FriendlyName  <br/> |xsd:string  <br/> |facultatif  <br/> |Nom fourni par l’utilisateur pour la connexion de données. |Valeurs du type xsd:string. |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID attribué par Visio pour une connexion donnée, unique dans le document. |Valeurs du type xsd:unsignedInt. |
+|Timeout  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Délai d’attente en minutes lors de la tentative d’établissement d’une connexion avant la fin de la tentative. |Valeurs du type xsd:unsignedInt. |
    
 

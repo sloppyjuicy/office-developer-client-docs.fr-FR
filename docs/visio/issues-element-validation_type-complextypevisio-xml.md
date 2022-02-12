@@ -1,5 +1,5 @@
 ---
-title: Élément Issues (Validation_Type complexType) (Visio XML)
+title: Issues, élément (Validation_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 23544055-c554-28b7-c351-370ab9b3c96c
 description: Contient tous les éléments Issue du document.
-ms.openlocfilehash: 04cb20221c477cb140f601071fd8b92653ce5c6d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 26bc63d40c1fbed149ceb02e1fd90817e280d2ff
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618776"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775601"
 ---
-# <a name="issues-element-validation_type-complextype-visio-xml"></a>Élément Issues (Validation_Type complexType) (Visio XML)
+# <a name="issues-element-validation_type-complextype-visio-xml"></a>Issues, élément (Validation_Type complexType) (Visio XML)
 
 Contient tous les éléments Issue du document.
   
@@ -36,19 +36,19 @@ Contient tous les éléments Issue du document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Valider](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stocke les informations relatives à la validation du diagramme pour le document.  <br/> |
+|[Valider](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stocke les informations relatives à la validation du diagramme pour le document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Problème](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Représente un problème de validation unique dans le document.  <br/> |
+|[Problème](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Représente un problème de validation unique dans le document. |
    
 ### <a name="attributes"></a>Attributs
 

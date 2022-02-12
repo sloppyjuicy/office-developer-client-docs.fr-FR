@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 87508007-8ad2-3bcf-55dc-f0207c7c6fe3
 description: 'Renvoie TRUE si la valeur de cellreference est un type d’erreur à l’exception #N/A ; Sinon, elle renvoie FALSE. La fonction ISERR est utilisée dans les formules qui font référence à une autre cellule.'
-ms.openlocfilehash: bb724fdb753ada86baf6cb421a2fa758620317ac
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a16f906206456b02e18aa3c76315221c0a0f89f7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612609"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775695"
 ---
 # <a name="iserr-function"></a>Fonction ISERR
 
@@ -28,7 +28,7 @@ ISERR(** *cellreference* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à une cellule  <br/> |
+| _cellreference_ <br/> |Requis  <br/> |**String** <br/> |Référence à une cellule |
    
 ## <a name="example-1"></a>Exemple 1
 

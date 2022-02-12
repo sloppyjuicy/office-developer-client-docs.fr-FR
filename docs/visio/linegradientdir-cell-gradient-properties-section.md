@@ -7,30 +7,30 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: c603f9a5-f887-47ce-90bb-d41ec2d1a6a1
 description: Détermine la direction du dégradé de trait. Un dégradé peut être linéaire, radial, rectangulaire ou suivre un chemin d’accès.
-ms.openlocfilehash: 716d38adf430ba142cc3d67fc6ba50fa435a85f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f4d44559a9456d8bd8f91df4fcfc32e95f21f47e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603731"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775514"
 ---
 # <a name="linegradientdir-cell-gradient-properties-section"></a>LineGradientDir Cell (Gradient Properties Section)
 
 Détermine la direction du dégradé de trait. Un dégradé peut être linéaire, radial, rectangulaire ou suivre un chemin d’accès. 
   
 > [!NOTE]
-> Un dégradé linéaire est le seul dégradé qui prend une valeur d’angle supplémentaire (comme déterminé par la cellule **LineGradientDir).** Toutes les autres directions de dégradé ont des éumérations prédéfinie. 
+> Un dégradé linéaire est le seul dégradé qui prend une valeur d’angle supplémentaire (tel que déterminé par la cellule **LineGradientDir** ). Toutes les autres directions de dégradé ont des éumérations prédéfinie. 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0  <br/> |Dégradé linéaire. La **cellule LineGradientAngle** détermine la direction du dégradé.  <br/> |
-|1-7  <br/> |Dégradés radiaux. Le dégradé étend l’extérieur dans un cercle à partir d’un point central.  <br/> |
-|8-12  <br/> |Dégradés rectangulaires. Le dégradé s’étend sous la forme d’une ligne directionnelle à partir d’une origine avec un fondu rectangulaire.  <br/> |
-|13  <br/> |Dégradé de chemin d’accès.  <br/> |
+|0  <br/> |Dégradé linéaire. La **cellule LineGradientAngle** détermine la direction du dégradé. |
+|1-7  <br/> |Dégradés radiaux. Le dégradé étend l’extérieur dans un cercle à partir d’un point central. |
+|8-12  <br/> |Dégradés rectangulaires. Le dégradé s’étend sous la forme d’une ligne directionnelle à partir d’une origine avec un fondu rectangulaire. |
+|13  <br/> |Dégradé de chemin d’accès. |
    
 ## <a name="remarks"></a>Remarques
 
-Pour obtenir une référence à la cellule **LineGradientDir** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
+Pour obtenir une référence à la cellule **LineGradientDir** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
 |||
 |:-----|:-----|

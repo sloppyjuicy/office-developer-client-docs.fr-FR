@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: Dernière modification le 09 mars 2015
-ms.openlocfilehash: 00c2849b642a2434b6711bb584727c6f6d00d936
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: af9e3a4d4eea0dea637e21d7878d9b7791f697cd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584765"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770821"
 ---
 # <a name="autocomplete-stream"></a>Flux de saisie semi-automatique
 
@@ -79,11 +79,11 @@ De manière générale, la mise en page du flux de saisie semi-automatique est c
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Métadonnées  <br/> |4   <br/> |
-|Numéro de version majeure  <br/> |4   <br/> |
-|Numéro de version mineure  <br/> |4   <br/> |
+|Métadonnées  <br/> |4  <br/> |
+|Numéro de version majeure  <br/> |4  <br/> |
+|Numéro de version mineure  <br/> |4  <br/> |
 |Ensemble de lignes  <br/> |Variable  <br/> |
-|Nombre d’octets des infos supplémentaires EI  <br/> |4   <br/> |
+|Nombre d’octets des infos supplémentaires EI  <br/> |4  <br/> |
 |Informations supplémentaires  <br/> |EI   <br/> |
 |Métadonnées  <br/> |8   <br/> |
    
@@ -98,7 +98,7 @@ La disposition de jeu de lignes est comme suit :
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de lignes  <br/> |4   <br/> |
+|Nombre de lignes  <br/> |4  <br/> |
 |Lignes  <br/> |Variable  <br/> |
    
 Le nombre de lignes identifie le nombre de lignes fournies dans la partie suivante de la séquence de flux binaire.
@@ -109,7 +109,7 @@ Chaque ligne correspond au format suivant :
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de propriétés  <br/> |4   <br/> |
+|Nombre de propriétés  <br/> |4  <br/> |
 |Propriétés  <br/> |Variable  <br/> |
    
 Le nombre de lignes identifie le nombre de propriétés fournies dans la partie suivante de la séquence de flux binaire.
@@ -120,8 +120,8 @@ Chaque propriété correspond au format suivant :
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Balise de propriété  <br/> |4   <br/> |
-|Données réservées  <br/> |4   <br/> |
+|Balise de propriété  <br/> |4  <br/> |
+|Données réservées  <br/> |4  <br/> |
 |Union de valeur de la propriété  <br/> ||
 |Données de la valeur  <br/> |0 ou variable (en fonction de la balise de proposition)  <br/> |
    
@@ -152,43 +152,43 @@ PT_STRING8
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre d’octets n  <br/> |4   <br/> |
+|Nombre d’octets n  <br/> |4  <br/> |
 |Les octets seront interprétés comme une chaîne ANSI (y compris terminateur NULL)  <br/> |n  <br/> |
    
 PT_CLSID
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Les octets seront interprétés comme un GUID  <br/> |16   <br/> |
+|Les octets seront interprétés comme un GUID  <br/> |16  <br/> |
 |||
    
 PT_BINARY 
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre d’octets n  <br/> |4   <br/> |
+|Nombre d’octets n  <br/> |4  <br/> |
 |Les octets seront interprétés comme une gamme d’octets  <br/> |n  <br/> |
    
 PT_MV_BINARY
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de matrices binaires X  <br/> |4   <br/> |
-|Une exécution d’octets contenant X matrices binaires. Chaque tableau doit être interprété exactement comme l’exécution d’octet PT_BINARY.  <br/> |Variable  <br/> |
+|Nombre de matrices binaires X  <br/> |4  <br/> |
+|Une exécution d’octets contenant X matrices binaires. Chaque tableau doit être interprété exactement comme l’exécution d’octet PT_BINARY. |Variable  <br/> |
    
 PT_MV_STRING8 (Outlook 2007, Outlook 2010, et Outlook 2013)
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de chaînes ANSI X  <br/> |4   <br/> |
-|Une exécution d’octets contenant X chaînes ANSI. Chaque tableau doit être interprété exactement comme l’exécution d’octets PT_STRING8.  <br/> |Variable  <br/> |
+|Nombre de chaînes ANSI X  <br/> |4  <br/> |
+|Une exécution d’octets contenant X chaînes ANSI. Chaque tableau doit être interprété exactement comme l’exécution d’octets PT_STRING8. |Variable  <br/> |
    
 PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
   
 |**Données de la valeur**|**Nombre d’octets**|
 |:-----|:-----|
-|Nombre de chaînes UNICODE X  <br/> |4   <br/> |
-|Une exécution d’octets contenant X chaînes UNICODE. Chaque tableau doit être interprété exactement comme l’exécution d’octets PT_UNICODE.  <br/> |Variable  <br/> |
+|Nombre de chaînes UNICODE X  <br/> |4  <br/> |
+|Une exécution d’octets contenant X chaînes UNICODE. Chaque tableau doit être interprété exactement comme l’exécution d’octets PT_UNICODE. |Variable  <br/> |
    
 ## <a name="significant-properties"></a>Propriétés importantes
 
@@ -196,15 +196,15 @@ Comme mentionné précédemment dans cette rubrique, les blocs binaires qui repr
   
 |**Nom de la propriété**|**Balise de propriété**|**Description (pour plus d’informations, consultez MSDN)**|
 |:-----|:-----|:-----|
-|PR_NICK_NAME_W (non transmis aux destinataires, spécifiques uniquement aux flux de saisie semi-automatique)  <br/> |0x6001001f  <br/> |Cette propriété doit être la première dans chaque ligne du destinataire. Sur le plan opérationnel, elle correspond à un identificateur de clé pour la ligne du destinataire.  <br/> |
-|PR_ENTRYID  <br/> |0x0FFF0102  <br/> |L’identificateur d’entrée Carnet d’adresses du destinataire.  <br/> |
-|PR_DISPLAY_NAME_W  <br/> |0x3001001F  <br/> |Le nom d’affichage du destinataire.  <br/> |
+|PR_NICK_NAME_W (non transmis aux destinataires, spécifiques uniquement aux flux de saisie semi-automatique)  <br/> |0x6001001f  <br/> |Cette propriété doit être la première dans chaque ligne du destinataire. Sur le plan opérationnel, elle correspond à un identificateur de clé pour la ligne du destinataire. |
+|PR_ENTRYID  <br/> |0x0FFF0102  <br/> |L’identificateur d’entrée Carnet d’adresses du destinataire. |
+|PR_DISPLAY_NAME_W  <br/> |0x3001001F  <br/> |Le nom d’affichage du destinataire. |
 |PR_EMAIL_ADDRESS_W  <br/> |0x3003001F  <br/> |Adresse de courrier du destinataire (par exemple, johndoe@contoso.com ou /o=Contoso/OU=Foo/cn=Destintaires/cn=Durand)  <br/> |
-|PR_ADDRTYPE_W  <br/> |0x3002001F  <br/> |Type d’adresse du destinataire (par exemple, SMTP ou EX).  <br/> |
-|PR_SEARCH_KEY  <br/> |0x300B0102  <br/> |Clé de recherche MAPI du destinataire.  <br/> |
-|PR_SMTP_ADDRESS_W  <br/> |0x39FE001f  <br/> |Adresse SMTP du destinataire.  <br/> |
-|PR_DROPDOWN_DISPLAY_NAME_W (non transmis aux destinataires, spécifiques uniquement aux flux de saisie semi-automatique)  <br/> |0X6003001f  <br/> |La chaîne d’affichage qui s’affiche dans la liste de saisie semi-automatique.  <br/> |
-|PR_NICK_NAME_WEIGHT (non transmis aux destinataires, spécifiques uniquement aux flux de saisie semi-automatique)  <br/> |0x60040003  <br/> |La pondération de cette entrée de saisie semi-automatique. La pondération est utilisée pour déterminer dans quel ordre les entrées de saisie semi-automatique se produisent lorsqu’elles correspondent à la liste de saisie semi-automatique. Les entrées ayant une pondération supérieure s’affichent avant les entrées ayant une pondération inférieure. La liste complète de saisie semi-automatique est triée par cette propriété. La pondération diminue régulièrement au fil du temps et augmente lorsque l’utilisateur envoie un message électronique à ce destinataire. Consultez la description plus loin dans cette rubrique pour plus d’informations sur cette propriété.  <br/> |
+|PR_ADDRTYPE_W  <br/> |0x3002001F  <br/> |Type d’adresse du destinataire (par exemple, SMTP ou EX). |
+|PR_SEARCH_KEY  <br/> |0x300B0102  <br/> |Clé de recherche MAPI du destinataire. |
+|PR_SMTP_ADDRESS_W  <br/> |0x39FE001f  <br/> |Adresse SMTP du destinataire. |
+|PR_DROPDOWN_DISPLAY_NAME_W (non transmis aux destinataires, spécifiques uniquement aux flux de saisie semi-automatique)  <br/> |0X6003001f  <br/> |La chaîne d’affichage qui s’affiche dans la liste de saisie semi-automatique. |
+|PR_NICK_NAME_WEIGHT (non transmis aux destinataires, spécifiques uniquement aux flux de saisie semi-automatique)  <br/> |0x60040003  <br/> |La pondération de cette entrée de saisie semi-automatique. La pondération est utilisée pour déterminer dans quel ordre les entrées de saisie semi-automatique se produisent lorsqu’elles correspondent à la liste de saisie semi-automatique. Les entrées ayant une pondération supérieure s’affichent avant les entrées ayant une pondération inférieure. La liste complète de saisie semi-automatique est triée par cette propriété. La pondération diminue régulièrement au fil du temps et augmente lorsque l’utilisateur envoie un message électronique à ce destinataire. Consultez la description plus loin dans cette rubrique pour plus d’informations sur cette propriété. |
    
 PR_NICK_NAME_WEIGHT
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e56142fd-204b-497e-83b9-59f9acda6cb4
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 62e25b6cb9635aa6598ff912f717ba27239fd3be
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7e5955044838277b94f3a627c55c88b8e22616f8
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624777"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771908"
 ---
 # <a name="pidlidresponsestatus-canonical-property"></a>Propri t canonique PidLidResponseStatus
 
@@ -41,12 +41,12 @@ L’état de la réponse doit être l’une des valeurs du tableau ci-dessous.
   
 |**État de la réponse**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|respNone  <br/> |0x00000000  <br/> |Aucune réponse n’est requise pour cet objet. C’est le cas pour les objets de rendez-vous et les objets de réponse de réunion.  <br/> |
-|respOrganized  <br/> |0x00000001  <br/> |Cette réunion appartient à l’organisateur.  <br/> |
-|respTentative  <br/> |0x00000002  <br/> |Cette valeur sur la réunion du participant indique que le participant a provisoirement accepté la demande de réunion.  <br/> |
-|respAccepted  <br/> |0x00000003  <br/> |Cette valeur sur la réunion du participant indique que le participant a accepté la demande de réunion.  <br/> |
-|respDeclined  <br/> |0x00000004  <br/> |Cette valeur sur la réunion du participant indique que le participant a refusé la demande de réunion.  <br/> |
-|respNotResponded  <br/> |0x00000005  <br/> |Cette valeur sur la réunion du participant indique que le participant n’a pas encore répondu. Cette valeur est sur la demande de réunion, la mise à jour de réunion et l’annulation de la réunion.  <br/> |
+|respNone  <br/> |0x00000000  <br/> |Aucune réponse n’est requise pour cet objet. C’est le cas pour les objets de rendez-vous et les objets de réponse de réunion. |
+|respOrganized  <br/> |0x00000001  <br/> |Cette réunion appartient à l’organisateur. |
+|respTentative  <br/> |0x00000002  <br/> |Cette valeur sur la réunion du participant indique que le participant a provisoirement accepté la demande de réunion. |
+|respAccepted  <br/> |0x00000003  <br/> |Cette valeur sur la réunion du participant indique que le participant a accepté la demande de réunion. |
+|respDeclined  <br/> |0x00000004  <br/> |Cette valeur sur la réunion du participant indique que le participant a refusé la demande de réunion. |
+|respNotResponded  <br/> |0x00000005  <br/> |Cette valeur sur la réunion du participant indique que le participant n’a pas encore répondu. Cette valeur est sur la demande de réunion, la mise à jour de réunion et l’annulation de la réunion. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

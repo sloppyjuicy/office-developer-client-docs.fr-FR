@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b2d51f4b-d64e-fd14-4ff1-ed67c69213bc
 description: Active et désactive l'affichage du rectangle de sélection de la forme sélectionnée.
-ms.openlocfilehash: ee97819af8b2b978d6e6c16ab766d911ab539499
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ee974bdba1f27d5812d4a9e90f36ca99fdefb442
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59562992"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775509"
 ---
 # <a name="noalignbox-cell-miscellaneous-section"></a>NoAlignBox, cellule (section Miscellaneous)
 
@@ -22,8 +22,8 @@ Active et désactive l'affichage du rectangle de sélection de la forme sélecti
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Le rectangle de sélection n'est pas affiché lorsqu'une forme est sélectionnée.  <br/> |
-| FALSE  <br/> | Le rectangle de sélection est affiché lorsqu'une forme est sélectionnée.  <br/> |
+| TRUE  <br/> | Le rectangle de sélection n'est pas affiché lorsqu'une forme est sélectionnée. |
+| FALSE  <br/> | Le rectangle de sélection est affiché lorsqu'une forme est sélectionnée. |
    
 ## <a name="remarks"></a>Remarques
 

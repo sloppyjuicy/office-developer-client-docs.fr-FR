@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2872130d-a36b-46ea-bfd1-4700fe3dd41b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cc0f0b2145b84db8e08dacb56279ef268645ef46
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 346af7cd97889d0585b30654cffdc52f8a03e328
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624131"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773081"
 ---
 # <a name="status_object_notification"></a>STATUS_OBJECT_NOTIFICATION
 
@@ -46,7 +46,7 @@ typedef struct
 
  **cbEntryID**
   
-> Nombre d’octets dans l’identificateur d’entrée pointé par le membre **lpEntryID.** 
+> Nombre d’octets dans l’identificateur d’entrée pointé par **le membre lpEntryID** . 
     
  **lpEntryID**
   
@@ -54,7 +54,7 @@ typedef struct
     
  **cValues**
   
-> Nombre de structures [SPropValue](spropvalue.md) dans le tableau pointées par le membre **lpPropVals.** 
+> Nombre de structures [SPropValue](spropvalue.md) dans le tableau pointées par le membre **lpPropVals** . 
     
  **lpPropVals**
   
@@ -62,15 +62,15 @@ typedef struct
     
 ## <a name="remarks"></a>Remarques
 
-La **STATUS_OBJECT_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION.](notification.md) La **STATUS_OBJECT_NOTIFICATION** structure est incluse avec une notification d’objet d’état pour un événement de type  _fnevStatusObjectModified_. La notification d’objet d’état est une notification MAPI interne ; les clients et les fournisseurs de services ne peuvent pas s’y inscrire et les fournisseurs de services ne peuvent pas le générer.
+La **STATUS_OBJECT_NOTIFICATION** structure est l’un des membres de l’union des structures incluses dans le membre **d’informations** de la structure [NOTIFICATION](notification.md) . La **STATUS_OBJECT_NOTIFICATION** structure est incluse avec une notification d’objet d’état pour un événement de type  _fnevStatusObjectModified_. La notification d’objet d’état est une notification MAPI interne ; les clients et les fournisseurs de services ne peuvent pas s’y inscrire et les fournisseurs de services ne peuvent pas le générer.
   
 Pour plus d’informations sur la notification, voir les rubriques décrites dans le tableau suivant.
   
 |**Rubrique**|**Description**|
 |:-----|:-----|
-|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des événements de notification et de notification.  <br/> |
-|[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications.  <br/> |
-|[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications.  <br/> |
+|[Notification d’événement dans MAPI](event-notification-in-mapi.md) <br/> |Vue d’ensemble des événements de notification et de notification. |
+|[Gestion des notifications](handling-notifications.md) <br/> |Discussion sur la façon dont les clients doivent gérer les notifications. |
+|[Prise en charge des notifications d’événement](supporting-event-notification.md) <br/> |Discussion sur la façon dont les fournisseurs de services peuvent utiliser la méthode **IMAPISupport** pour générer des notifications. |
    
 ## <a name="see-also"></a>Voir aussi
 

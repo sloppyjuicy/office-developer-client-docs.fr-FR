@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 description: Détermine si la plage de texte est soulignée ou non d'une ligne double.
-ms.openlocfilehash: df544c67163e1c0894763ca227c5063133dc822f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cfb0e374226aa0ab9f4d8d84db5778eed31468f2
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628422"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771600"
 ---
 # <a name="doubleuline-cell-character-section"></a>DoubleULine, cellule (section Character)
 
@@ -22,8 +22,8 @@ Détermine si la plage de texte est soulignée ou non d'une ligne double.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Le texte est souligné en double.  <br/> |
-|FALSE  <br/> |Le texte n'est pas souligné en double.  <br/> |
+|TRUE  <br/> |Le texte est souligné en double. |
+|FALSE  <br/> |Le texte n'est pas souligné en double. |
    
 ## <a name="remarks"></a>Remarques
 
@@ -35,14 +35,14 @@ Pour obtenir une référence à la cellule DoubleULine par un nom à partir d'un
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Char.DblUnderline[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Char.DblUnderline[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule DoubleULine à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionCharacter** <br/> |
-|Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visCharacterDblUnderline** <br/> |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4c8e366f-9e9b-30ea-a89f-57c8d7a1168e
 description: Détermine si le calque est actif. Les formes sans calque pré-attribué sont affectées aux calques actifs lorsque vous les faites glisser sur la page de dessin.
-ms.openlocfilehash: bf300a911084cdd05e270bb3e960934d9a4e0e4e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8a4f355246d53790e081f97be9abd7f7a47adf06
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616046"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774628"
 ---
 # <a name="active-cell-layers-section"></a>Active, cellule (section Layers)
 
@@ -22,8 +22,8 @@ Détermine si le calque est actif. Les formes sans calque pré-attribué sont af
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Le calque est actif.  <br/> |
-|FALSE  <br/> |Le calque n'est pas actif.  <br/> |
+|TRUE  <br/> |Le calque est actif. |
+|FALSE  <br/> |Le calque n'est pas actif. |
    
 ## <a name="remarks"></a>Remarques
 
@@ -33,14 +33,14 @@ Pour obtenir une référence à la cellule Active par un nom à partir d'une aut
   
 |||
 |:-----|:-----|
-|Nom de cellule :  <br/> |Layers.Active[ *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+|Nom de cellule :  <br/> |Layers.Active[ *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Active à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionLayer** <br/> |
-|Index de la ligne :  <br/> |**visRowLayer**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowLayer** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visLayerActive** <br/> |
    
 

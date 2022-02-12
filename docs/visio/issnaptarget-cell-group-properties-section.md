@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b58131f6-a566-d9ca-bad4-4f4b66e03aaf
 description: Détermine si des formes peuvent être alignées sur un groupe ou sur des formes au sein du groupe.
-ms.openlocfilehash: 2171c548a1f47bf19ee3dc3b408696364e7667b1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 711036626407c477db09b964d92dd801ab0ea36f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628030"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771341"
 ---
 # <a name="issnaptarget-cell-group-properties-section"></a>IsSnapTarget, cellule (section Group Properties)
 
@@ -22,8 +22,8 @@ Détermine si des formes peuvent être alignées sur un groupe ou sur des formes
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Active l'alignement sur des formes d'un groupe.  <br/> |
-|FALSE  <br/> |Active l'alignement uniquement sur le groupe.  <br/> |
+|TRUE  <br/> |Active l'alignement sur des formes d'un groupe. |
+|FALSE  <br/> |Active l'alignement uniquement sur le groupe. |
    
 ## <a name="remarks"></a>Remarques
 

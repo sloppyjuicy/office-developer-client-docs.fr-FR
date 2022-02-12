@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: abb27f90-21b4-08cd-6995-9520fbcebd78
 description: Renvoie une valeur monétaire.
-ms.openlocfilehash: a94be94db24d9e9f34acf7289878295d4b35c66d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 754b5b2d9f593e562b43da2efa133c738314d1ce
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594663"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770583"
 ---
 # <a name="cy-function"></a>Fonction CY
 
@@ -28,16 +28,16 @@ CY(** *value* **, ** *cyID* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Facultatif  <br/> |**Numéro ou Chaîne** <br/> |Nombre ou chaîne qui inclut une mise en forme spécifique à la devise. Si elle n’est pas spécifiée, la valeur monétaire est mise en forme en fonction du style monétaire dans les paramètres région et langue du système.  <br/> |
-| _cyID_ <br/> |Facultatif  <br/> |**Number** <br/> |ID monétaire numérique ou chaîne entre deux caractères pour l’abréviation ISO 4217.  <br/> |
+| _value_ <br/> |Facultatif  <br/> |**Numéro ou Chaîne** <br/> |Nombre ou chaîne qui inclut une mise en forme spécifique à la devise. Si elle n’est pas spécifiée, la valeur monétaire est mise en forme en fonction du style monétaire dans les paramètres région et langue du système. |
+| _cyID_ <br/> |Facultatif  <br/> |**Number** <br/> |ID monétaire numérique ou chaîne entre deux caractères pour l’abréviation ISO 4217. |
    
 ## <a name="remarks"></a>Remarques
 
-Pour spécifier une autre devise, vous devez inclure un _cyID valide._ Pour obtenir la liste des constantes monétaires, reportez-vous à la rubrique [À propos des constantes monétaires](about-currency-constants.md).
+Pour spécifier une autre devise, vous devez inclure un  _cyID valide_. Pour obtenir la liste des constantes monétaires, reportez-vous à la rubrique [À propos des constantes monétaires](about-currency-constants.md).
   
-Si  _la valeur_ n’est pas compatible avec le type de devise désigné, ou si un argument non valide tel que « pas un nombre » est spécifié, un #VALUE! est renvoyée. Si  la valeur est supérieure à 922 337 203 685 477,5807 ou inférieure à -922 337 203 685 477,5808, un #VALUE! est renvoyée. 
+Si  _la valeur_ n’est pas compatible avec le type de devise désigné ou si un argument non valide tel que « pas un nombre » est spécifié, un #VALUE! est renvoyée. Si  la valeur est supérieure à 922 337 203 685 477,5807 ou inférieure à -922 337 203 685 477,5808, #VALUE ! est renvoyée. 
   
-Pour une meilleure précision avec des valeurs monétaires très élevées qui incluent des fractions d’une unité, telles que 3,6 billions, utilisez des arguments de chaîne pour la _valeur._
+Pour une meilleure précision avec des valeurs monétaires très élevées qui incluent des fractions d’une unité, telles que 3,6 billions, utilisez des arguments de chaîne pour la  _valeur_.
   
 La spécification d’un  _cyID non valide_ renvoie une erreur. 
   

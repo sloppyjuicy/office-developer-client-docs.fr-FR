@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 25ec5dec5a614a94e4410eaec21e7d28ed513cd6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a62635f20329f5473c9f724d956c4bac89e4863e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59576029"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772153"
 ---
 # <a name="imapifolderdeletefolder"></a>IMAPIFolder::DeleteFolder
 
@@ -25,7 +25,7 @@ ms.locfileid: "59576029"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Supprime un sous-foldeur.
+Supprime un sous-folder.
   
 ```cpp
 HRESULT DeleteFolder(
@@ -41,7 +41,7 @@ HRESULT DeleteFolder(
 
  _cbEntryID_
   
-> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par _le paramètre lpEntryID._ 
+> [in] Nombre d’bytes dans l’identificateur d’entrée pointé par  _le paramètre lpEntryID_ . 
     
  _lpEntryID_
   
@@ -49,11 +49,11 @@ HRESULT DeleteFolder(
     
  _ulUIParam_
   
-> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG est définie dans _le paramètre ulFlags._ 
+> [in] Handle vers la fenêtre parent de l’indicateur de progression. Le  _paramètre ulUIParam_ est ignoré, sauf si l’FOLDER_DIALOG est définie dans _le paramètre ulFlags_ . 
     
  _lpProgress_
   
-> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress,_ le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’FOLDER_DIALOG est définie dans  _ulFlags_.
+> [in] Pointeur vers un objet de progression qui affiche un indicateur de progression. Si NULL est transmis dans  _lpProgress_, le fournisseur de magasin de messages affiche un indicateur de progression à l’aide de l’implémentation de l’objet de progression MAPI. Le  _paramètre lpProgress est_ ignoré, sauf si l’FOLDER_DIALOG est définie dans  _ulFlags_.
     
  _ulFlags_
   
@@ -65,7 +65,7 @@ DEL_FOLDERS
     
 DEL_MESSAGES 
   
-> Tous les messages dans le sous-fichier pointé par  _lpEntryID_ doivent être supprimés. 
+> Tous les messages dans le sous-fichier pointés par  _lpEntryID_ doivent être supprimés. 
     
 FOLDER_DIALOG 
   
@@ -87,11 +87,11 @@ MAPI_E_HAS_MESSAGES
     
 MAPI_W_PARTIAL_COMPLETION 
   
-> L’appel a réussi, mais toutes les entrées n’ont pas été supprimées avec succès. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md)
+> L’appel a réussi, mais toutes les entrées n’ont pas été supprimées avec succès. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md).
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPIFolder::D eleteFolder** supprime un sous-ensemble. Par défaut, **DeleteFolder** fonctionne uniquement sur les dossiers vides, mais vous pouvez l’utiliser avec succès sur des dossiers non vides en fixant deux indicateurs : DEL_FOLDERS et DEL_MESSAGES. Seuls les dossiers vides ou les dossiers qui définissent les indicateurs DEL_FOLDERS et DEL_MESSAGES sur l’appel **DeleteFolder** peuvent être supprimés. DEL_FOLDERS tous les sous-dossiers du dossier peuvent être supprimés ; DEL_MESSAGES tous les messages du dossier peuvent être supprimés. 
+La **méthode IMAPIFolder::D eleteFolder** supprime un sous-ensemble. Par défaut, **DeleteFolder** fonctionne uniquement sur les dossiers vides, mais vous pouvez l’utiliser avec succès sur les dossiers non vides en fixant deux indicateurs : DEL_FOLDERS et DEL_MESSAGES. Seuls les dossiers vides ou les dossiers qui définissent les indicateurs DEL_FOLDERS et DEL_MESSAGES sur l’appel **DeleteFolder** peuvent être supprimés. DEL_FOLDERS tous les sous-dossiers du dossier peuvent être supprimés ; DEL_MESSAGES tous les messages du dossier peuvent être supprimés. 
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
@@ -103,9 +103,9 @@ Attendez-vous à ce que ces valeurs de retour se placent dans les conditions sui
   
 |**Condition**|**Valeur renvoy�e**|
 |:-----|:-----|
-|**DeleteFolder a** supprimé tous les messages et sous-fichiers avec succès.  <br/> |S_OK  <br/> |
-|**DeleteFolder n’a** pas pu supprimer tous les messages et sous-fichiers.  <br/> |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
-|**DeleteFolder n’a** pas pu se terminer.  <br/> |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder a** supprimé tous les messages et sous-fichiers avec succès. |S_OK  <br/> |
+|**DeleteFolder n’a** pas pu supprimer tous les messages et sous-fichiers. |MAPI_W_PARTIAL_COMPLETION ou MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder n’a** pas pu se terminer. |Toute valeur d’erreur à l’exception MAPI_E_NOT_FOUND  <br/> |
    
 Lorsque **DeleteFolder ne** parvient pas à se terminer, ne supposez pas qu’aucun travail n’a été effectué. **DeleteFolder a** peut-être pu supprimer un ou plusieurs des messages et sous-fichiers avant de rencontrer l’erreur. 
   
@@ -117,7 +117,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise **la méthode IMAPIFolder::D eleteFolder** pour supprimer des dossiers.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise **la méthode IMAPIFolder::D eleteFolder** pour supprimer des dossiers. |
    
 ## <a name="see-also"></a>Voir aussi
 

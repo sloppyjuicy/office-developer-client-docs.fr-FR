@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6973e2e6-7e7f-48ba-95b3-37c959f6ffb1
 description: Indique si les valeurs des cellules spécifiées dans une forme de base remplacent les valeurs (y compris les valeurs locales) d’une forme remplacée lors d’une opération de remplacement de forme. Si la cellule ReplaceLockFormat d’une forme de base est définie sur TRUE (1), les valeurs de mise en forme de la forme de base remplacent toutes les valeurs correspondantes d’une forme remplacée par la forme de base.
-ms.openlocfilehash: 2e5f7bb373416ed99f7d4f14cba3aba015243940
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2a0cccb26ef6a20cd9332fcf22e2c55d5a095aa1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559681"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773970"
 ---
 # <a name="replacelockformat-cell-change-shape-behavior-section"></a>ReplaceLockFormat Cell (Change Shape Behavior Section)
 
@@ -20,8 +20,8 @@ Indique si les valeurs des cellules spécifiées dans une forme de base remplace
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Si la **cellule ReplaceLockFormat** d’une forme de base est définie sur TRUE, les valeurs de mise en forme de la forme de base remplacent toutes les valeurs correspondantes d’une forme en cours de remplacement par la forme de base.  <br/> |
-|FALSE  <br/> |Si la **cellule ReplaceLockFormat** d’une forme de base a la valeur FALSE, la forme de remplacement contient les valeurs de mise en forme locales de l’ancienne forme après l’opération de remplacement.  <br/> |
+|TRUE  <br/> |Si la **cellule ReplaceLockFormat** d’une forme de base est définie sur TRUE, les valeurs de mise en forme de la forme de base remplacent toutes les valeurs correspondantes d’une forme remplacée par la forme de base. |
+|FALSE  <br/> |Si la **cellule ReplaceLockFormat** d’une forme de base a la valeur FALSE, la forme de remplacement contient les valeurs de mise en forme locales de l’ancienne forme après l’opération de remplacement. |
    
 ## <a name="remarks"></a>Remarques
 
@@ -45,13 +45,13 @@ La **cellule ReplaceLockFormat** détermine si la forme de base remplace les val
     
 - **Section Fill Gradient Stops** 
     
-Pour obtenir une référence à la cellule **ReplaceLockFormat** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU,** utilisez : 
+Pour obtenir une référence à la cellule **ReplaceLockFormat** par un nom à partir d’une autre formule, de l’attribut **N** d’un élément **Cell** ou d’un programme en faisant appel à la propriété **CellsU** , utilisez : 
   
 |||
 |:-----|:-----|
 | Nom de cellule :  <br/> | ReplaceLockFormat  <br/> |
    
-Pour obtenir une référence à la **cellule ReplaceLockFormat** à l’aide d’un index à partir d’un programme, utilisez la **propriété CellsSRC** avec les arguments suivants : 
+Pour obtenir une référence à la **cellule ReplaceLockFormat** à l’aide d’un index à partir d’un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|

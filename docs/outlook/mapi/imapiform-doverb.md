@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 54cd92883360cb4b76d468d7eff3a2abcfc39d19
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 3491bc1418963b03abc1fa507352354344cade20
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62459136"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772167"
 ---
 # <a name="imapiformdoverb"></a>IMAPIForm::DoVerb
 
@@ -102,7 +102,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CallDoVerb  <br/> |MFCMAPI utilise **la méthode IMAPIForm::D oVerb** pour appeler un verbe sur un formulaire.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CallDoVerb  <br/> |MFCMAPI utilise **la méthode IMAPIForm::D oVerb** pour appeler un verbe sur un formulaire. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: a897e812-08dc-49c9-954b-e8908a0daab3
 description: Renvoie le logarithme naturel, ou logarithme de la base donnée, de l’expression spécifiée.
-ms.openlocfilehash: 5c87b604b4eaeb28fe348ba16d8365fe660b563b
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 1fb566922569986e32a133de7f3aa12ad99b6085
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180627"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770856"
 ---
 # <a name="log-function-access-custom-web-app"></a>Log Function (Access custom web app)
 
@@ -29,8 +29,8 @@ La **fonction Log** contient les arguments suivants.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |Nombre positif pour lequel vous souhaitez obtenir le logarithme.  <br/> |
-| *Base*  <br/> |Base du logarithme. Si elle est omise, la **fonction Log** renvoie le logarithme naturel.  <br/> |
+| *NumericExpression*  <br/> |Nombre positif pour lequel vous souhaitez obtenir le logarithme. |
+| *Base*  <br/> |Base du logarithme. Si elle est omise, la **fonction Log** renvoie le logarithme naturel. |
    
 ## <a name="remarks"></a>Remarques
 

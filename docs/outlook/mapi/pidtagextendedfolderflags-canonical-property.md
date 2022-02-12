@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: e0c04f98-3d66-4ab5-ba05-69f9df539fcf
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1ef34f390a3b58d805ed023862a8621d8932de0c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 02b8ae5dbcdf7ec32bb04b7920a7e67ef4af7252
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616466"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773158"
 ---
 # <a name="pidtagextendedfolderflags-canonical-property"></a>Propriété canonique PidTagExtendedFolderFlags
  
@@ -34,7 +34,7 @@ Contient des indicateurs étendus sur un dossier.
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété est un flux binaire qui contient des sous-propriétés codées pour le dossier. Il est formaté comme une série de sous-éléments de longueur variable. Les 8 premiers bits du sous-élément sont un champ ID, qui indique le type d’indicateur que représente le sous-élément. Les 8 derniers bits sont le nombre d’octets de données qui suivent.
+Cette propriété est un flux binaire qui contient des sous-propriétés codées pour le dossier. Il est formaté comme une série de sous-éléments de longueur variable. Les 8 premiers bits du sous-élément sont un champ ID, qui indique le type d’indicateur que représente le sous-élément. Les 8 deuxièmes bits sont le nombre d’octets de données qui suivent.
   
 Les valeurs d’ID possibles sont les suivantes :
   
@@ -48,21 +48,21 @@ Les valeurs d’ID possibles sont les suivantes :
     
    |**Bits**|**Description**|
    |:-----|:-----|
-   |0-1  <br/> |Réservé.  <br/> |
-   |2  <br/> |Définissez ce dernier sur 0 si l’application doit afficher une description de stratégie.  <br/> |
-   |3-5  <br/> |Réservé.  <br/> |
-   |6-7  <br/> |Contrôle l’affichage du nombre de messages dans le dossier.  <br/> 0 : utiliser le paramètre par défaut  <br/> 1 : utiliser le nombre de messages non lus  <br/> 3 : utiliser le nombre total de messages  <br/> |
-   |8-31  <br/> |Réservé.  <br/> |
+   |0-1  <br/> |Réservé. |
+   |2  <br/> |Définir sur 0 si l’application doit afficher une description de stratégie. |
+   |3-5  <br/> |Réservé. |
+   |6-7  <br/> |Contrôle l’affichage du nombre de messages dans le dossier. 0 : utiliser le paramètre par défaut  <br/> 1 : utiliser le nombre de messages non lus  <br/> 3 : utiliser le nombre total de messages  <br/> |
+   |8-31  <br/> |Réservé. |
    
 Les éléments réservés peuvent être ignorés, mais les valeurs existantes doivent être conservées.
     
 - SearchFolderID
     
-   Le champ de données est un champ de 16 byte. Lorsque l’application crée un dossier de recherche persistant, elle doit définir ce champ sur le dossier sur la même valeur que la propriété binaire PR_WB_SF_TAG ([PidTagSearchFolderId)](pidtagsearchfolderid-canonical-property.md)sur le message de dossier de **recherche.**
+   Le champ de données est un champ de 16 byte. Lorsque l’application crée un dossier de recherche persistant, elle doit définir ce champ sur le dossier sur la même valeur que la propriété binaire **PR_WB_SF_TAG** ([PidTagSearchFolderId)](pidtagsearchfolderid-canonical-property.md) sur le message de dossier de recherche.
     
 - ToDoFolderVersion
     
-   Le champ de données est un champ de 4 byte. Lorsque l’application crée le dossier de recherche à faire, elle doit définir la valeur de ce champ sur le dossier sur la valeur d’un petit nombre de finian de « 0x000c0000 » :
+   Le champ de données est un champ de 4 byte. Lorsque l’application crée le dossier de recherche à faire, elle doit définir la valeur de ce champ sur le dossier sur la valeur d’un petit nombre de finian « 0x000c0000 » :
     
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -74,11 +74,11 @@ Les éléments réservés peuvent être ignorés, mais les valeurs existantes do
     
 [[MS-OXOCFG]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx)
   
-> Spécifie l’emplacement et les propriétés des données de configuration client et serveur, telles que les listes de catégories partagées et les heures de travail.
+> Spécifie l’emplacement et les propriétés des données de configuration du client et du serveur, telles que les listes de catégories partagées et les heures de travail.
     
 [[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Spécifie les propriétés et opérations de manipulation d’une configuration de liste de dossiers de recherche.
+> Spécifie les propriétés et les opérations de manipulation d’une configuration de liste de dossiers de recherche.
     
 ### <a name="header-files"></a>Fichiers d’en-tête
 

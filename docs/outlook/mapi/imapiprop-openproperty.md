@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dfab230553280b60a68dfd70362dda68016416c8
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: d4db359a15076882e38b48fd490b58afe03bb2cb
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462051"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772090"
 ---
 # <a name="imapipropopenproperty"></a>IMAPIProp::OpenProperty
 
@@ -110,7 +110,7 @@ Pour accéder aux pièces jointes des messages, ouvrez la propriété **PR_ATTAC
 |**Type de pièce jointe**|**Identificateur d’interface à utiliser**|
 |:-----|:-----|
 |Binary  <br/> |IID_IStream  <br/> |
-|Chaîne  <br/> |IID_IStream  <br/> |
+|String  <br/> |IID_IStream  <br/> |
 |Message  <br/> |IID_IMessage  <br/> |
 |OLE 2.0  <br/> |IID_IStreamDocfile  <br/> |
    
@@ -136,7 +136,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|StreamEditor.cpp  <br/> |CStreamEditor::ReadTextStreamFromProperty  <br/> |MFCMAPI utilise **la méthode IMAPIProp::OpenProperty** pour récupérer une interface de flux pour les propriétés binaires et de texte de grande taille.  <br/> |
+|StreamEditor.cpp  <br/> |CStreamEditor::ReadTextStreamFromProperty  <br/> |MFCMAPI utilise **la méthode IMAPIProp::OpenProperty** pour récupérer une interface de flux pour les propriétés binaires et de texte de grande taille. |
    
 ## <a name="see-also"></a>Voir aussi
 

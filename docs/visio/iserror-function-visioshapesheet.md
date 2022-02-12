@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4864ebc2-fee6-2415-7c59-e0af8611f8d6
 description: Renvoie TRUE si la valeur de cellreference est un type d’erreur ; Sinon, elle renvoie FALSE. La fonction ISERROR est utilisée dans les formules qui font référence à une autre cellule.
-ms.openlocfilehash: b685f4fdc23e0935ddbf59b2082ad70db86ea9a2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 05d1e1fdbcffe99d6861d2b633b1f157a7458c1e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59618790"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775594"
 ---
 # <a name="iserror-function-visioshapesheet"></a>ISERROR Function (VisioShapeSheet)
 
@@ -28,7 +28,7 @@ ISERROR(** *cellreference* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à une cellule  <br/> |
+| _cellreference_ <br/> |Requis  <br/> |**String** <br/> |Référence à une cellule |
    
 ## <a name="example-1"></a>Exemple 1
 

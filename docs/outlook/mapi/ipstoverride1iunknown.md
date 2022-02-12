@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d26cee81-45ea-4fd3-8a54-5f35264b5d6a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0e518fc9ea0e7f4b4b4576b45a06ec7c0fe2e303
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 963749b9921a8e441c4655c238b58765b7e69d12
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59556307"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774824"
 ---
 # <a name="ipstoverride1--iunknown"></a>IPSTOVERRIDE1 : IUnknown
 
@@ -25,12 +25,12 @@ ms.locfileid: "59556307"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet à un fournisseur de magasins de dossiers personnels (PST) de remplacer la stratégie PSTDisableGrow.
+Permet à un fournisseur de magasins de fichiers de dossiers personnels (PST) de remplacer la stratégie PSTDisableGrow.
   
 |||
 |:-----|:-----|
 |Hérite de :  <br/> |IUnknown  <br/> |
-|Implémenté par :  <br/> |Fournisseur de magasins PST  <br/> |
+|Implémenté par :  <br/> |Fournisseur de magasin PST  <br/> |
 |Appelé par :  <br/> |Client  <br/> |
 |Identificateur d’interface :  <br/> |IID_IPSTOVERRIDE1  <br/> |
    
@@ -38,9 +38,9 @@ Permet à un fournisseur de magasins de dossiers personnels (PST) de remplacer l
 
 |||
 |:-----|:-----|
-|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Extrait la liste des inscriptions pour le fichier de dossiers personnels (.pst).  <br/> |
-|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Enregistre les fichiers de dossiers personnels pour le déverrouillage automatique, en évitant d’autres appels à HrTrustedPSTOverrideHandlerCallback.  <br/> |
-|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Déverrouille un fichier de dossiers personnels pour la croissance.  <br/> |
+|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Extrait la liste des inscriptions pour le fichier de dossiers personnels (.pst). |
+|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Enregistre les fichiers dossiers personnels pour le déverrouillage automatique, en évitant d’autres appels à HrTrustedPSTOverrideHandlerCallback. |
+|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Déverrouille un fichier dossiers personnels pour la croissance. |
    
 ## <a name="remarks"></a>Remarques
 

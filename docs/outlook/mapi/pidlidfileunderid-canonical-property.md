@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 216f927629349b482da874adb07a470b45dd1242
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5be5b1abc4a9f853727a9cf7910fd83f65b88235
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575105"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771922"
 ---
 # <a name="pidlidfileunderid-canonical-property"></a>Propriété canonique PidLidFileUnderId
 
@@ -37,32 +37,32 @@ Indique comment générer et recompiler la valeur de la propriété **dispidFile
    
 ## <a name="remarks"></a>Remarques
 
-Si cette propriété est manquante ou définie sur une valeur non détaillée dans le tableau ci-dessous ou dans [[MS-OXOCNTC],](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)l’application peut choisir sa propre logique pour recompiler la valeur de **dispidFileUnder** à mesure que d’autres propriétés de nom de contact changent. 
+Si cette propriété est manquante ou définie sur une valeur non détaillée dans le tableau [ci-dessous ou dans [MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx), l’application peut choisir sa propre logique pour recompiler la valeur de **dispidFileUnder** à mesure que d’autres propriétés de nom de contact changent. 
   
-Dans le tableau suivant, la notation <PropertyName> est utilisée pour spécifier « la valeur de PropertyName ». Par exemple, si la valeur de la propriété **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) est « Smith » et que la valeur de la propriété **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) est « Ben », alors « » spécifie la chaîne « <PidTagGivenName> <PidTagSurname> Ben Smith ». Dans le tableau, « \r » spécifie un caractère de retour chariot, « \n » spécifie un caractère de retour de ligne et représente un <space> espace.
+Dans le tableau suivant, la notation <PropertyName> est utilisée pour spécifier « la valeur de PropertyName ». Par exemple, si la valeur de la propriété **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) est « Smith » et que la valeur de la propriété **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) est « Ben », « »<PidTagGivenName> <PidTagSurname>spécifie la chaîne « Ben Smith ». Dans le tableau, « \r » spécifie un caractère de retour chariot, « \n » spécifie un caractère de retour de ligne et <space> représente un espace.
   
 |**Valeur de la **propriété dispidFileUnderId****|**Description de la **propriété dispidFileUnder****|
 |:-----|:-----|
-|0x00000000  <br/> |Vide PT_UNICODE.  <br/> |
+|0x00000000  <br/> |Vide PT_UNICODE. |
 |0x00003001  <br/> |"\<PidTagDisplayName\>"  <br/> |
 |0x00003A06  <br/> |"\<PidTagGivenName\>"  <br/> |
 |0x00003A11  <br/> |"\<PidTagSurname\>"  <br/> |
 |0x00003A16  <br/> |"\<PidTagCompanyName\>"  <br/> |
 |0x00008017  <br/> |"\<PidTagSurname\>,\<space\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>"  <br/> |
-|0x00008018  <br/> |« \<PidTagCompanyName\>\r\n\<PidTagSurname\> , \<space\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\> »  <br/> |
-|0x00008019  <br/> |« \<PidTagSurname\> , \<space\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\>\r\n\<PidTagCompanyName\> »  <br/> |
+|0x00008018  <br/> |«\<PidTagCompanyName\>\r\n\<PidTagSurname\>,\<PidTagMiddleName\>\<space\>\<PidTagGivenName\>\<space\> »  <br/> |
+|0x00008019  <br/> |« \<PidTagSurname\>,\<space\>\<PidTagMiddleName\>\<PidTagGivenName\>\<space\>\r\n»\<PidTagCompanyName\>  <br/> |
 |0x00008030  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>"  <br/> |
 |0x00008031  <br/> |"\<PidTagSurname\>\<space\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>"  <br/> |
-|0x00008032  <br/> |« \<PidTagCompanyName\>\r\n\<PidTagSurname\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\> »  <br/> |
-|0x00008033  <br/> |« \<PidTagCompanyName\>\r\n\<PidTagSurname\> \<space\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\> »  <br/> |
-|0x00008034  <br/> |« \<PidTagSurname\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\>\r\n\<PidTagCompanyName\> »  <br/> |
-|0x00008035  <br/> |« \<PidTagSurname\> \<space\> \<PidTagGivenName\> \<space\> \<PidTagMiddleName\>\r\n\<PidTagCompanyName\> »  <br/> |
+|0x00008032  <br/> |«\<PidTagCompanyName\>\r\n\<PidTagSurname\>\<space\>\<PidTagGivenName\>\<PidTagMiddleName\>»  <br/> |
+|0x00008033  <br/> |«\<PidTagCompanyName\>\r\n\<PidTagSurname\>\<PidTagMiddleName\>\<space\>\<PidTagGivenName\>\<space\>»  <br/> |
+|0x00008034  <br/> |«\<PidTagSurname\>\<PidTagMiddleName\>\<PidTagGivenName\>\<space\>\r\n»\<PidTagCompanyName\>  <br/> |
+|0x00008035  <br/> |«\<PidTagSurname\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagGivenName\>\r\n»\<PidTagCompanyName\>  <br/> |
 |0x00008036  <br/> |"\<PidTagSurname\>\<space\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagGeneration\>"  <br/> |
 |0x00008037  <br/> |"\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagSurname\>\<space\>\<PidTagGeneration\>"  <br/> |
 |0x00008038  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagGeneration\>"  <br/> |
-|0xfffffffd  <br/> |Spécifie que, lors de l’affichage du contact, l’application doit essayer d’utiliser la valeur actuelle de **dispidFileUnder** et d’autres propriétés de contact pour trouver une « meilleure correspondance » pour **dispidFileUnderId** avec l’une des valeurs précédentes de ce tableau.  <br/> |
-|0xfffffffe  <br/> |Spécifie que, lors de l’affichage du contact, l’application doit choisir les valeurs par défaut appropriées (en fonction des paramètres régionaux de langue) pour **dispidFileUnderId** et mettre à jour **dispidFileUnder** pour qu’elle corresponde au choix.  <br/> |
-|0xffffffff  <br/> |**dispidFileUnder** est une propriété fournie par l’PT_UNICODE et ne doit pas être modifiée lorsqu’une autre propriété de nom de contact change.  <br/> |
+|0xfffffffd  <br/> |Spécifie que, lors de l’affichage du contact, l’application doit essayer d’utiliser la valeur actuelle de **dispidFileUnder** et d’autres propriétés de contact pour trouver une « meilleure correspondance » pour **dispidFileUnderId** avec l’une des valeurs précédentes de ce tableau. |
+|0xfffffffe  <br/> |Spécifie que, lors de l’affichage du contact, l’application doit choisir les valeurs par défaut appropriées (en fonction des paramètres régionaux de langue) pour **dispidFileUnderId** et mettre à jour **dispidFileUnder** pour qu’elle corresponde au choix. |
+|0xffffffff  <br/> |**dispidFileUnder** est une propriété fournie par l’PT_UNICODE et ne doit pas être modifiée lorsqu’une autre propriété de nom de contact change. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

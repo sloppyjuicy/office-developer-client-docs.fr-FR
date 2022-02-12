@@ -7,17 +7,17 @@ ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: c603c3c6-62c8-4895-93e1-b2e146dfaa4f
-description: Cette rubrique décrit des scénarios pour tester la capacité du fournisseur Outlook Social Connector (OSC) à suivre un ami et à arrêter de suivre un ami sur le réseau social.
-ms.openlocfilehash: 7d4051185d62240fd2fe3ca93a7e8bee3a4141d0
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Cette rubrique décrit les scénarios pour tester la capacité du fournisseur Outlook Social Connector (OSC) à suivre un ami et à arrêter le suivi d’un ami sur le réseau social.
+ms.openlocfilehash: 8f599214b8b8bc42f7aad38c06db3c9a5a7b9888
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590358"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773032"
 ---
 # <a name="testing-following-and-stop-following-persons"></a>Test du suivi et de l’arrêt de suivi de personnes
 
-Cette rubrique décrit des scénarios pour tester la capacité du fournisseur Outlook Social Connector (OSC) à suivre un ami et à arrêter de suivre un ami sur le réseau social.
+Cette rubrique décrit les scénarios pour tester la capacité du fournisseur Outlook Social Connector (OSC) à suivre un ami et à arrêter le suivi d’un ami sur le réseau social.
   
 ## <a name="following-a-person"></a>Suivi d’une personne
 
@@ -25,10 +25,10 @@ Suivre une personne consiste à ajouter une personne en tant qu’ami sur le ré
   
 |**Scénario**|**Comportement attendu**|
 |:-----|:-----|
-|Tentative de suivi d’une personne sur le réseau social qui existe sur le réseau social.  <br/> |Pour un réseau social qui ne nécessite pas d’autorisation de la personne, le réseau social l’ajoute immédiatement en tant qu’ami.  <br/> Pour un réseau qui requiert l’autorisation de cette personne, le réseau social envoie une notification. Le Outlook Personnes affiche une icône en attente pour cette personne.  <br/> |
-|Tentative de suivi d’une personne sur le réseau social qui n’existe pas sur le réseau social.  <br/> |Le fournisseur OSC affiche l’erreur appropriée dans [ISocialSession::FollowPerson](isocialsession-followperson.md) ou [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md).  <br/> |
-|Suivi d’un ami sur le réseau social.  <br/> |Pour l’ami sélectionné dans le volet Personnes, le badge du réseau social et l’image de profil de l’ami pour ce réseau social sont affichés.  <br/> |
-|Sélection du lien vers la page de profil d’un ami.  <br/> |La page de l’ami sur le réseau social s’ouvre dans le navigateur par défaut de l’utilisateur connecté.  <br/> |
+|Tentative de suivi d’une personne sur le réseau social qui existe sur le réseau social. |Pour un réseau social qui ne nécessite pas d’autorisation de la personne, le réseau social l’ajoute immédiatement en tant qu’ami. Pour un réseau qui requiert l’autorisation de cette personne, le réseau social envoie une notification. Le Outlook Personnes affiche une icône en attente pour cette personne. |
+|Tentative de suivi d’une personne sur le réseau social qui n’existe pas sur le réseau social. |Le fournisseur OSC affiche l’erreur appropriée dans [ISocialSession::FollowPerson](isocialsession-followperson.md) ou [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md). |
+|Suivi d’un ami sur le réseau social. |Pour l’ami sélectionné dans le volet Personnes, le badge du réseau social et l’image de profil de l’ami pour ce réseau social sont affichés. |
+|Sélection du lien vers la page de profil d’un ami. |La page de l’ami sur le réseau social s’ouvre dans le navigateur par défaut de l’utilisateur connecté. |
    
 ## <a name="stop-following-a-person"></a>Arrêter le suivi d’une personne
 
@@ -36,7 +36,7 @@ Arrêter le suivi d’une personne consiste à supprimer cette personne en tant 
   
 |**Scénario**|**Comportement attendu**|
 |:-----|:-----|
-|Tentative de suppression d’une personne en tant qu’ami sur le réseau social.  <br/> |Le réseau social ne répertorie plus cette personne en tant qu’ami sur le compte de l’utilisateur connecté.  <br/> |
+|Tentative de suppression d’une personne en tant qu’ami sur le réseau social. |Le réseau social ne répertorie plus cette personne en tant qu’ami sur le compte de l’utilisateur connecté. |
    
 ## <a name="see-also"></a>Voir aussi
 

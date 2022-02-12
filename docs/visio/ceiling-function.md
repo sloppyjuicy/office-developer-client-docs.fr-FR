@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1a8d6d48-7ae3-5483-28d2-5b1706088a53
 description: Arrondit un nombre de 0 (zéro) à l’instance suivante de plusieurs. Si plusieurs n’est pas spécifié, le nombre est arrondi de 0 à l’integer suivant.
-ms.openlocfilehash: e544be99fe035e1394d55acb0af5a8ee78e7a06f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: be017d3e414e74e74d315144d001df13e9120fbf
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59578115"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771747"
 ---
 # <a name="ceiling-function"></a>Fonction CEILING
 
@@ -28,8 +28,8 @@ CEILING(** *number* **, ** *multiple* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Number** <br/> |Nombre à arrondir.  <br/> |
-| _multiple_ <br/> |Obligatoire  <br/> |**Number** <br/> |Multiple à arrondir.  <br/> |
+| _number_ <br/> |Requis  <br/> |**Number** <br/> |Nombre à arrondir. |
+| _multiple_ <br/> |Requis  <br/> |**Number** <br/> |Multiple à arrondir. |
    
 ## <a name="remarks"></a>Remarques
 

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 4e69dd4f-7281-e988-b1fd-93ac8c775c03
 description: Spécifie la police utilisée pour le texte de l’en-tête et du pied de page.
-ms.openlocfilehash: a862141d12234efeaecdfe6976a1c19f18cbe6ba
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f528be9c11cc1f1610939f4be2768076c7bec1c8
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574152"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771362"
 ---
 # <a name="headerfooterfont-element-headerfooter_type-complextype-visio-xml"></a>Élément HeaderFooterFont (HeaderFooter_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie la police utilisée pour le texte de l’en-tête et du pied de page.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contient des éléments pour l’en-tête et le pied de groupe d’un document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,19 +52,19 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|CharSet  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie le jeu de caractères de la police. Équivalent au champ GDI LOGFONTlfCharSet.  <br/> |Valeurs du type xsd:unsignedByte.  <br/> |
-|ClipPrecision  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie la précision de découpage de la police. Équivalent au champ GDI LOGFONTlfClipPrecision.  <br/> |Valeurs du type xsd:unsignedByte.  <br/> |
-|Escapement  <br/> |xsd:int  <br/> |facultatif  <br/> |Spécifie l’attribut d’escapement de la police. Équivalent au champ GDI LOGFONTlfEscapement.  <br/> |Valeurs du type xsd:int.  <br/> |
-|FaceName  <br/> |xsd:string  <br/> |facultatif  <br/> |Contient des informations sur une police.  <br/> |Valeurs du type xsd:string.  <br/> |
-|Hauteur  <br/> |xsd:int  <br/> |facultatif  <br/> |Spécifie la hauteur de la forme en unités de dessin.  <br/> |Valeurs du type xsd:int.  <br/> |
-|Italic  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie si la police est en italique. Équivalent au champ GDI LOGFONTlfItalic.  <br/> |Valeurs du type xsd:unsignedByte.  <br/> |
-|Orientation  <br/> |xsd:int  <br/> |facultatif  <br/> |Spécifie l’orientation de la police. Équivalent au champ GDI LOGFONTlfOrientation.  <br/> |Valeurs du type xsd:int.  <br/> |
-|OutPrecision  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie l’attribut de précision de sortie de la police. Équivalent au champ GDI LOGFONTlfOutPrecision.  <br/> |Valeurs du type xsd:unsignedByte.  <br/> |
-|PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie l’emplacement et la famille de la police. Équivalent au champ GDI LOGFONTlfPitchAndFamily.  <br/> |Valeurs du type xsd:unsignedByte.  <br/> |
-|Qualité  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie la qualité de sortie de la police. Équivalent au champ GDI LOGFONTlfQuality.  <br/> |Valeurs du type xsd:unsignedByte.  <br/> |
-|StrikeOut  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie si la police est une police de type « strikeout ». Équivalent au champ GDI LOGFONTlfStrikeOut.  <br/> |Valeurs du type xsd:unsignedByte.  <br/> |
-|Souligner  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie si la police est soulignée. Équivalent au champ GDI LOGFONTlfUnderline.  <br/> |Valeurs du type xsd:unsignedByte.  <br/> |
-|Pondération  <br/> |xsd:int  <br/> |facultatif  <br/> |Spécifie le poids de la police. Équivalent au champ GDI LOGFONTlfWeight.  <br/> |Valeurs du type xsd:int.  <br/> |
-|Largeur  <br/> |xsd:int  <br/> |facultatif  <br/> |Contient la largeur de la forme associée en unités de dessin.  <br/> |Valeurs du type xsd:int.  <br/> |
+|CharSet  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie le jeu de caractères de la police. Équivalent au champ GDI LOGFONTlfCharSet. |Valeurs du type xsd:unsignedByte. |
+|ClipPrecision  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie la précision de découpage de la police. Équivalent au champ GDI LOGFONTlfClipPrecision. |Valeurs du type xsd:unsignedByte. |
+|Escapement  <br/> |xsd:int  <br/> |facultatif  <br/> |Spécifie l’attribut d’escapement de la police. Équivalent au champ GDI LOGFONTlfEscapement. |Valeurs du type xsd:int. |
+|FaceName  <br/> |xsd:string  <br/> |facultatif  <br/> |Contient des informations sur une police. |Valeurs du type xsd:string. |
+|Hauteur  <br/> |xsd:int  <br/> |facultatif  <br/> |Spécifie la hauteur de la forme en unités de dessin. |Valeurs du type xsd:int. |
+|Italic  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie si la police est en italique. Équivalent au champ GDI LOGFONTlfItalic. |Valeurs du type xsd:unsignedByte. |
+|Orientation  <br/> |xsd:int  <br/> |facultatif  <br/> |Spécifie l’orientation de la police. Équivalent au champ GDI LOGFONTlfOrientation. |Valeurs du type xsd:int. |
+|OutPrecision  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie l’attribut de précision de sortie de la police. Équivalent au champ GDI LOGFONTlfOutPrecision. |Valeurs du type xsd:unsignedByte. |
+|PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie l’emplacement et la famille de la police. Équivalent au champ GDI LOGFONTlfPitchAndFamily. |Valeurs du type xsd:unsignedByte. |
+|Qualité  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie la qualité de sortie de la police. Équivalent au champ GDI LOGFONTlfQuality. |Valeurs du type xsd:unsignedByte. |
+|StrikeOut  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie si la police est une police de type « strikeout ». Équivalent au champ GDI LOGFONTlfStrikeOut. |Valeurs du type xsd:unsignedByte. |
+|Souligner  <br/> |xsd:unsignedByte  <br/> |facultatif  <br/> |Spécifie si la police est soulignée. Équivalent au champ GDI LOGFONTlfUnderline. |Valeurs du type xsd:unsignedByte. |
+|Pondération  <br/> |xsd:int  <br/> |facultatif  <br/> |Spécifie le poids de la police. Équivalent au champ GDI LOGFONTlfWeight. |Valeurs du type xsd:int. |
+|Largeur  <br/> |xsd:int  <br/> |facultatif  <br/> |Contient la largeur de la forme associée en unités de dessin. |Valeurs du type xsd:int. |
    
 

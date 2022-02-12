@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2efdf723e38f45c13d53467dd67100b883ed8944
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fd936d0c5cf2d35a11bb8c701451238ffcde5182
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575966"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773431"
 ---
 # <a name="imapimessagesitemovemessage"></a>IMAPIMessageSite::MoveMessage
 
@@ -65,13 +65,13 @@ Les objets form appellent la méthode **IMAPIMessageSite::MoveMessage** pour dé
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-L’implémentation de **MoveMessage** d’une visionneuse de formulaire doit appeler la méthode [IMAPIViewContext::ActivateNext,](imapiviewcontext-activatenext.md) en passant l’indicateur VCDIR_MOVE, avant de déplacer réellement le message vers un nouveau dossier. Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez Windows [fonction GetWindowRect.](https://msdn.microsoft.com/library/ms633519) 
+L’implémentation de **MoveMessage** d’une visionneuse de formulaire doit appeler la méthode [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) , en passant l’indicateur VCDIR_MOVE, avant de déplacer réellement le message vers un nouveau dossier. Pour obtenir la structure **RECT** utilisée par la fenêtre d’un formulaire, appelez Windows [fonction GetWindowRect](https://msdn.microsoft.com/library/ms633519). 
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Après le renvoi de **MoveMessage,** les formulaires doivent vérifier la recherche d’un message actuel, puis se fermer s’il n’en existe aucun. 
+Après le renvoi de **MoveMessage, les formulaires** doivent vérifier la recherche d’un message actuel, puis se fermer s’il n’en existe aucun. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -79,7 +79,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |Non implémenté.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |Non implémenté. |
    
 ## <a name="see-also"></a>Voir aussi
 

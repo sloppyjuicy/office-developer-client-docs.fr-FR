@@ -1,7 +1,7 @@
 ---
 title: HrValidateIPMSubtree
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 02/06/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,17 +11,14 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6454c1fa-5216-4934-a908-48c634ac4a07
-description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2823b094f2f001cac4c2b1715ca4d9dc8c460d38
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: fa4519090427831b0eafaaa8af57fa875f9cd750
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461988"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773711"
 ---
-# <a name="hrvalidateipmsubtree"></a>HrValidateIPMSubtree
-
-  
+# <a name="hrvalidateipmsubtree"></a>HrValidateIPMSubtree  
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
@@ -29,9 +26,9 @@ Ajoute des dossiers de messages interpersonnels standard à une magasin de messa
   
 |||
 |:-----|:-----|
-|Fichier d’en-tête :  <br/> |Mapiutil.h  <br/> |
-|Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Applications clientes  <br/> |
+|Fichier d’en-tête : |Mapiutil.h |
+|Implémenté par : |MAPI |
+|Appelé par : |Applications clientes |
    
 ```cpp
 HrValidateIPMSubtree(
@@ -61,23 +58,16 @@ MAPI_FULL_IPM_TREE
   
 > L’ensemble complet des dossiers IPM doit être créé dans le dossier racine de la boutique de messages. Les titres des dossiers dans la hiérarchie sont :
     
-    - Affichages des dossiers
+ - Affichages des dossiers
+ - Affichages communs
+ - Search Root\*
+ - Sous-arbre IPM\*
+ - Boîte de réception
+ - Boîte d’envoi
+ - Éléments supprimés\*
+ - Éléments envoyés
     
-    - Affichages communs
-    
-    - Search Root\*
-    
-    - Sous-arbre IPM\*
-    
-    - Boîte de réception
-    
-    - Boîte d’envoi
-    
-    - Éléments supprimés\*
-    
-    - Éléments envoyés
-    
-    où les trois dossiers marqués sont \* le jeu minimal créé même lorsque l’MAPI_FULL_IPM_TREE n’a pas été définie. Une application cliente définit généralement cet indicateur lorsque la magasin de messages dans laquelle les dossiers doivent être créés est la boutique par défaut.
+où les trois dossiers marqués sont \* le jeu minimal créé même lorsque l’MAPI_FULL_IPM_TREE n’a pas été définie. Une application cliente définit généralement cet indicateur lorsque la magasin de messages dans laquelle les dossiers doivent être créés est la boutique par défaut.
     
  _lpcValues_
   
@@ -105,7 +95,7 @@ Les clients IPM doivent afficher l’affichage de leur dossier en commençant pa
   
  **HrValidateIPMSubtree** définit la propriété **PR_VALID_FOLDER_MASK** pour indiquer si chaque dossier IPM qu’il crée possède un identificateur d’entrée valide. Les propriétés d’identificateur d’entrée suivantes de la magasin de messages sont définies sur les identificateurs d’entrée des dossiers correspondants et renvoyées dans le paramètre _lppProps_ avec **PR_VALID_FOLDER_MASK :** 
   
- **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
+> **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
   
 > **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))
   
@@ -127,14 +117,9 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MstStoreDlg.cpp  <br/> |CMsgStoreDlg::OnValidateIPMSubtree  <br/> |MFCMAPI utilise la **méthode HrValidateIPMSubtree** pour ajouter des dossiers standard à une magasin de messages.  <br/> |
+|MstStoreDlg.cpp |CMsgStoreDlg::OnValidateIPMSubtree |MFCMAPI utilise la **méthode HrValidateIPMSubtree** pour ajouter des dossiers standard à une magasin de messages. |
    
 ## <a name="see-also"></a>Voir aussi
 
-
-
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
-
-
-[MFCMAPI comme un exemple de Code](mfcmapi-as-a-code-sample.md)
-
+ [MFCMAPI en tant qu’exemple de code](mfcmapi-as-a-code-sample.md)

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 19f0dad9-9704-4bbe-a689-9531e7198351
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 00d70472e5d93eb6a9caab60f444afda3a75b03d
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: aad37ed77d90745f0fb6f58df1dfbf9303648494
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575721"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770751"
 ---
 # <a name="imapitableunadvise"></a>IMAPITable::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "59575721"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Annule l’envoi de notifications précédemment définies avec un appel à la [méthode IMAPITable::Advise.](imapitable-advise.md) 
+Annule l’envoi de notifications précédemment définies avec un appel à la [méthode IMAPITable::Advise](imapitable-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -47,9 +47,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Utilisez la méthode **IMAPITable::Unadvise** pour libérer le pointeur vers l’objet de réception de notification transmis dans le paramètre  _lpAdviseSink_ dans l’appel précédent à **IMAPITable::Advise,** ce qui annule l’inscription d’une notification. Dans le cadre de l’ignorer, la méthode **IUnknown::Release** de l’objet est appelée. En règle générale, **Release** est appelé pendant l’appel **Unadvise,** mais si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour le sink advise, l’appel **de** publication est différé jusqu’à ce que la méthode **OnNotify** soit de retour. 
+Utilisez la méthode **IMAPITable::Unadvise** pour libérer le pointeur vers l’objet de réception de notification transmis dans le paramètre _lpAdviseSink_ dans l’appel précédent à **IMAPITable::Advise**, ce qui annule l’inscription d’une notification. Dans le cadre de l’ignorer, la méthode **IUnknown::Release** de l’objet est appelée. En règle générale, **Release** est appelé pendant l’appel **Unadvise** , mais si un autre thread est en train d’appeler la méthode [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) pour le sink de conseil, l’appel **de** publication est retardé jusqu’à ce que la méthode **OnNotify** renvoie. 
   
-Pour plus d’informations sur le processus de notification, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). Pour plus d’informations sur les notifications de tableau, voir [À propos des notifications de tableau.](about-table-notifications.md) Pour plus d’informations sur l’utilisation des méthodes **IMAPISupport** pour prendre en charge la notification, voir [Notification d’événement de prise en charge.](supporting-event-notification.md)
+Pour plus d’informations sur le processus de notification, voir [notification d’événement dans MAPI](event-notification-in-mapi.md). Pour plus d’informations sur les notifications de tableau, voir [À propos des notifications de tableau](about-table-notifications.md). Pour plus d’informations sur l’utilisation **des méthodes IMAPISupport** pour prendre en charge la notification, voir [Notification d’événement de prise en charge](supporting-event-notification.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -57,7 +57,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |MFCMAPI utilise la **méthode IMAPITable::Unadvise** pour annuler les notifications pour la table.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |MFCMAPI utilise la **méthode IMAPITable::Unadvise** pour annuler les notifications pour la table. |
    
 ## <a name="see-also"></a>Voir aussi
 

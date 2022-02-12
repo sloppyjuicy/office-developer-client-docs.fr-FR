@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
 description: Renvoie les coordonnées x,y d’un point dans le système de coordonnées du parent de la forme.
-ms.openlocfilehash: b3ac20694b7ee2c4031c86a52f7c631685fb8b70
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5300ad10e48f65d1061e505499a4ee8ae8599ac3
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59627743"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775405"
 ---
 # <a name="par-function"></a>Fonction PAR
 
@@ -28,11 +28,11 @@ PAR(** *point* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Obligatoire  <br/> |**Number, Number** <br/> |Coordonnées du point dans le système de coordonnées de la forme actuelle  <br/> |
+| _point_ <br/> |Requis  <br/> |**Number, Number** <br/> |Coordonnées du point dans le système de coordonnées de la forme actuelle |
    
 ## <a name="remarks"></a>Remarques
 
-Dans Microsoft Visio, un point est une valeur unique qui représente une paire de coordonnées *x* et *y.* Si la forme fait partie d’un groupe, son parent est le groupe. Si la forme ne fait pas partie d’un groupe, son parent est la page. 
+Dans Microsoft Visio, un point est une valeur unique qui représente une paire de coordonnées *x* et *y*. Si la forme fait partie d’un groupe, son parent est le groupe. Si la forme ne fait pas partie d’un groupe, son parent est la page. 
   
 ## <a name="example"></a>Exemple
 

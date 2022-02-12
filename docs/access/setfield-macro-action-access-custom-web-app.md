@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 9ae292b0-fde0-4c2b-ba23-23e90365597d
 description: L'action DéfinirChamp peut être utilisée pour assigner une valeur à un champ.
-ms.openlocfilehash: 21b765b238f7bdb5c7507ae84a813891d676e0cb
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 406da2f3fee318ca52ba4eaffff7ade891dca2dc
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180368"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773718"
 ---
 # <a name="setfield-macro-action-access-custom-web-app"></a>SetField Macro Action (Access custom web app)
 
@@ -30,11 +30,11 @@ L’action **DéfinirChamp** utilise les arguments répertoriés dans le tableau
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-|**Nom** <br/> |Chaîne qui identifie le champ.  <br/> |
-|**Valeur** <br/> |Expression qui spécifie la valeur à affecter au champ.  <br/> |
+|**Nom** <br/> |Chaîne qui identifie le champ. |
+|**Valeur** <br/> |Expression qui spécifie la valeur à affecter au champ. |
    
 ## <a name="remarks"></a>Remarques
 
-**L’action DéfinirField** ne peut pas être utilisée en dehors d’un bloc de données **[CreateRecord](createrecord-data-block-access-custom-web-app.md)** ou **[EditRecord.](editrecord-data-block-access-custom-web-app.md)** 
+**L’action DéfinirField** ne peut pas être utilisée en dehors d’un bloc **[de données CreateRecord](createrecord-data-block-access-custom-web-app.md)** ou **[EditRecord](editrecord-data-block-access-custom-web-app.md)**. 
   
 

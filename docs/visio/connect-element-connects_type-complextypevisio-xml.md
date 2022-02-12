@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6e1ad47b-ee28-6b9a-f2f9-642e09ca28d4
 description: Représente une connexion entre deux formes dans un dessin, telles qu’un trait et un cadre dans un organigramme.
-ms.openlocfilehash: 933a58a4afece3798e419f1a483b00f0d823961a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6e10a8cfac78f32f488dbbd1263f7dea5837d6d7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59560010"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772878"
 ---
 # <a name="connect-element-connects_type-complextype-visio-xml"></a>Connecter’élément (Connects_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Représente une connexion entre deux formes dans un dessin, telles qu’un trait
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contient un **Connecter** pour chaque connexion entre deux formes dans un dessin.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contient un **Connecter** pour chaque connexion entre deux formes dans un dessin. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,11 +52,11 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|FromCell  <br/> |xsd:string  <br/> |facultatif  <br/> |Cellule d’où provient une connexion.  <br/> |Valeurs du type xsd:string.  <br/> |
-|FromPart  <br/> |xsd:int  <br/> |facultatif  <br/> |Partie d’une forme d’où provient une connexion.  <br/> |Valeurs du type xsd:int.  <br/> |
-|FromSheet  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de la forme d’où provient une ou plusieurs connexions.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|ToCell  <br/> |xsd:string  <br/> |facultatif  <br/> |Cellule à laquelle une connexion est réalisée.  <br/> |Valeurs du type xsd:string.  <br/> |
-|ToPart  <br/> |xsd:int  <br/> |facultatif  <br/> |Partie d’une forme à laquelle une connexion est établir.  <br/> |Valeurs du type xsd:Int.  <br/> |
-|ToSheet  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de la forme à laquelle une ou plusieurs connexions sont réalisées.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
+|FromCell  <br/> |xsd:string  <br/> |facultatif  <br/> |Cellule d’où provient une connexion. |Valeurs du type xsd:string. |
+|FromPart  <br/> |xsd:int  <br/> |facultatif  <br/> |Partie d’une forme d’où provient une connexion. |Valeurs du type xsd:int. |
+|FromSheet  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de la forme d’où provient une ou plusieurs connexions. |Valeurs du type xsd:unsignedInt. |
+|ToCell  <br/> |xsd:string  <br/> |facultatif  <br/> |Cellule à laquelle une connexion est réalisée. |Valeurs du type xsd:string. |
+|ToPart  <br/> |xsd:int  <br/> |facultatif  <br/> |Partie d’une forme à laquelle une connexion est établir. |Valeurs du type xsd:Int. |
+|ToSheet  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de la forme à laquelle une ou plusieurs connexions sont réalisées. |Valeurs du type xsd:unsignedInt. |
    
 

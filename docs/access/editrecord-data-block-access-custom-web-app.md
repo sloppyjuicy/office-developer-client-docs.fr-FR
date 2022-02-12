@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 54975434-78b2-4010-b2f9-f277831fa92e
 description: Vous pouvez utiliser le bloc de données ModifierEnregistrement pour modifier les valeurs contenues dans un enregistrement existant.
-ms.openlocfilehash: 4cb85380e3d7dbe3d034798e7eb2c45961709b68
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: a548838c38658a6fdf3997403b5cbcd4aa29333d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180158"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775188"
 ---
 # <a name="editrecord-data-block-access-custom-web-app"></a>EditRecord Data Block (Access custom web app)
 
@@ -29,11 +29,11 @@ Le bloc de données **ModifierEnregistrement** utilise les arguments suivants.
   
 |**Argument**|**Description**|
 |:-----|:-----|
-|**Alias** <br/> |Chaîne qui identifie l’enregistrement à modifier. Si l’argument *Alias* n’est pas spécifié, l’enregistrement actif est modifié.<br/> |
+|**Alias** <br/> |Chaîne qui identifie l’enregistrement à modifier. Si l’argument *Alias* n’est pas spécifié, l’enregistrement actif est modifié. |
 
 ## <a name="remarks"></a>Remarques
 
-Après **l’instruction EditRecord,** vous pouvez insérer un bloc de commandes qui s’exécute avant que les modifications apportées à l’enregistrement ne soient enregistrées. Les actions suivantes sont disponibles dans un bloc **de données EditRecord.** 
+Après **l’instruction EditRecord** , vous pouvez insérer un bloc de commandes qui s’exécute avant que les modifications apportées à l’enregistrement ne soient enregistrées. Les actions suivantes sont disponibles dans un bloc **de données EditRecord** . 
   
 ||
 |:-----|

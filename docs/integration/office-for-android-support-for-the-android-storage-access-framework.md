@@ -1,17 +1,17 @@
 ---
 title: Prise en charge d'Office pour Android pour la structure d'accès au stockage Android
-manager: soliver
-ms.date: 06/18/2015
+manager: lindalu
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: Office pour Android s'intègre à la structure d'accès au stockage Android, permettant à Office d'ouvrir les fichiers stockés par un autre fournisseur de documents.
-ms.openlocfilehash: dc6478344b19e81fe766412122abec8312ac88e4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fa548134d5b5b38620514d63ed347228c24486ce
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59605497"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774971"
 ---
 # <a name="office-for-android-support-for-the-android-storage-access-framework"></a>Prise en charge d'Office pour Android pour la structure d'accès au stockage Android
 
@@ -29,19 +29,13 @@ Les utilisateurs peuvent se connecter aux applications Office avec un compte Mic
   
 |**Propriété**|**Index**|**Valeur**|
 |:-----|:-----|:-----|
-|Type de document  <br/> |com_microsoft_office_doctype  <br/> |\<consumer\>  <br/> |
-|Pseudonyme du service  <br/> |com_microsoft_office_servicename  <br/> |Tout pseudonyme du service utilisé pour identifier un document dans la liste des derniers fichiers utilisés des applications Office. Notez que la propriété « Conditions d'utilisation » doit être fournie avant le pseudonyme pour pouvoir afficher le service.  <br/> |
-|Conditions d'utilisation  <br/> |com_microsoft_office_termsofuse  <br/> |\<I agree to the terms located at https://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
+|Type de document  |com_microsoft_office_doctype  |\<consumer\>  |
+|Pseudonyme du service  |com_microsoft_office_servicename tout nom convivial pour le service, utilisé pour identifier un document dans la liste Récents dans les applications Office client. Notez que la propriété « Conditions d'utilisation » doit être fournie avant le pseudonyme pour pouvoir afficher le service. |
+|Conditions d'utilisation  <br/> |com_microsoft_office_termsofuse |\<I agree to the terms located at https://go.microsoft.com/fwlink/p/?LinkId=528381\>  |
    
 ## <a name="see-also"></a>Voir aussi
-<a name="bk_addresources"> </a>
 
-- [Intégration à Office](integrate-with-office.md)
-    
-- [Conditions de base du fournisseur de contenu](hhttps://developer.android.com/guide/topics/providers/content-provider-basics.html)
-    
-- [Création d'un fournisseur de contenu](https://developer.android.com/guide/topics/providers/content-provider-creating.html)
-    
+- [Intégration à Office](integrate-with-office.md)    
+- [Conditions de base du fournisseur de contenu](https://developer.android.com/guide/topics/providers/content-provider-basics.html)    
+- [Création d'un fournisseur de contenu](https://developer.android.com/guide/topics/providers/content-provider-creating.html)    
 - [Guide du développeur de la structure Storage Access Framework](https://developer.android.com/guide/topics/providers/document-provider.html)
-    
-

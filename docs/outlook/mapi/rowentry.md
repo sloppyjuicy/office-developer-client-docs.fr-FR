@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: bd6c0d8e-68cc-4d60-9029-13ed81c816cd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 7620f62cc67b99e863a6fa7442056e29f470f1e2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c4a67513786bfb4a998ab85a90cc2c88f0c83a77
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59591282"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773116"
 ---
 # <a name="rowentry"></a>ROWENTRY
 
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Contient une ligne et l’opération effectuée sur cette ligne dans un tableau via l’interface [IExchangeModifyTable.](iexchangemodifytableiunknown.md) 
+Contient une ligne et l’opération effectuée sur cette ligne dans un tableau via l’interface [IExchangeModifyTable](iexchangemodifytableiunknown.md) . 
   
 ```cpp
 typedef struct
@@ -62,7 +62,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Utilisé pour créer une liste de règles sélectionnées pour les actions **ModifyTable suivantes.**  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Utilisé pour créer une liste de règles sélectionnées pour les actions **ModifyTable suivantes** . |
    
 ## <a name="see-also"></a>Voir aussi
   

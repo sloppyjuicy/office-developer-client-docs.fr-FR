@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 9dd73bae-a8d5-4d8b-b356-01ac72f7e5d9
 description: Vous pouvez utiliser le bloc de données CréerEnregistrement pour créer un nouvel enregistrement dans la table spécifiée.
-ms.openlocfilehash: 6ae2ebdd33c37272ea39b14f4ab4ab470143a7ce
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: f8c09f249e284dd672ef8f29811673ecd909c312
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179759"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770974"
 ---
 # <a name="createrecord-data-block-access-custom-web-app"></a>CreateRecord Data Block (Access custom web app)
 
@@ -31,14 +31,14 @@ Le bloc de données **CréerEnregistrement** utilise les arguments suivants.
   
 |**Nom de l’argument**|**Obligatoire**|**Description**|
 |:-----|:-----|:-----|
-|**Créer un enregistrement dans** <br/> |Oui  <br/> |Nom de la table dans laquelle créer le nouvel enregistrement.  <br/> |
+|**Créer un enregistrement dans** <br/> |Oui  <br/> |Nom de la table dans laquelle créer le nouvel enregistrement. |
 |**Alias** <br/> |Non  <br/> |Chaîne qui identifie l’enregistrement. Vous pouvez utiliser l’alias de l’enregistrement pour l’identifier.  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
 L’enregistrement créé par **CréerEnregistrement** devient automatiquement l’enregistrement actif. 
   
-Après **l’instruction CreateRecord,** vous pouvez insérer un bloc de commandes qui s’exécute avant que le nouvel enregistrement ne soit engagé. Les actions suivantes sont disponibles dans un bloc de données **CréerEnregistrement**. 
+Après **l’instruction CreateRecord** , vous pouvez insérer un bloc de commandes qui s’exécute avant que le nouvel enregistrement ne soit engagé. Les actions suivantes sont disponibles dans un bloc de données **CréerEnregistrement**. 
   
 ||
 |:-----|

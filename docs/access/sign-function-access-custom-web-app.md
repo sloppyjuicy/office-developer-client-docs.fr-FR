@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 5e818c7b-b816-43ca-a051-d5846d4694db
 description: Renvoie le signe positif (+1), zéro (0) ou négatif (-1) de l’expression spécifiée.
-ms.openlocfilehash: 3ff4e1f1d8549df13a80f82f63beca48225853b8
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: fddcf40fc13dfc18fb4502710e94e3f2fe2ccb27
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180445"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775076"
 ---
 # <a name="sign-function-access-custom-web-app"></a>Sign Function (Access custom web app)
 
@@ -29,6 +29,6 @@ La **fonction Sign** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> | Expression numérique.  <br/> |
+| *NumericExpression*  <br/> | Expression numérique. |
    
 

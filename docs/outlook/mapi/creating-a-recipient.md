@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 586c901f-d9f9-44f2-a328-051775a81265
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: a237cc5b04f80d12713d6b3d136ab755a9fe5d05
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 875aeefb3d106a81855d07d7f4ff95989f1f7943
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461376"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774922"
 ---
 # <a name="creating-a-recipient"></a>Création d’un destinataire
 
@@ -35,9 +35,9 @@ Les clients créent des destinataires lorsqu’ils adressent des messages et lor
   
 |**Paire de paramètres**|**Description**|
 |:-----|:-----|
-| _cbEidContainer_ et  _lpEidContainer_ <br/> |Identificateur d’entrée pour le conteneur dans lequel la nouvelle entrée doit être placée.  <br/> |
-| _cbEidNewEntryTpl_ et  _lpEidNewEntryTpl_ <br/> |Identificateur d’entrée du modèle à utiliser pour créer la nouvelle entrée.  <br/> |
-| _lpcbEidNewEntry_ et  _lppEidNewEntry_ <br/> |Identificateur d’entrée de la nouvelle entrée.  <br/> |
+| _cbEidContainer_ et  _lpEidContainer_ <br/> |Identificateur d’entrée pour le conteneur dans lequel la nouvelle entrée doit être placée. |
+| _cbEidNewEntryTpl_ et  _lpEidNewEntryTpl_ <br/> |Identificateur d’entrée du modèle à utiliser pour créer la nouvelle entrée. |
+| _lpcbEidNewEntry_ et  _lppEidNewEntry_ <br/> |Identificateur d’entrée de la nouvelle entrée. |
    
 Pour créer un destinataire pour un message sortant, définissez  _cbEidContainer_ sur zéro et  _lpEidContainer_ sur NULL. **NewEntry** crée un destinataire avec un identificateur d’entrée conforme au format unique, le même type de destinataire produit par un appel à **IAddrBook::CreateOneOff**. 
   

@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 805dcb6c-f405-4c4d-8bca-af4bd9cd44fa
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9669227bbd45cc1a396f0a81ffff0af32a266f9e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e5ad825939725a1eb4bc46bf39cce646a53f2abf
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59604455"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773186"
 ---
 # <a name="pidlidtaskownership-canonical-property"></a>Propriété canonique PidLidTaskOwnership
 
@@ -41,9 +41,9 @@ Cette propriété doit être l’une des valeurs suivantes.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |La tâche n’est pas affectée.  <br/> |
-|0x00000001  <br/> |La tâche est la copie de la tâche de l’assigneur de la tâche.  <br/> |
-|0x00000002  <br/> |La tâche est la copie de la tâche de l’affectation de la tâche.  <br/> |
+|0x00000000  <br/> |La tâche n’est pas affectée. |
+|0x00000001  <br/> |La tâche est la copie de la tâche de l’assigneur de la tâche. |
+|0x00000002  <br/> |La tâche est la copie de la tâche de la personne à qui la tâche est assignée. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

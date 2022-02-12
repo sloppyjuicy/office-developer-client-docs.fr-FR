@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: df02bdc5-903a-4ce2-9f43-5f4513ea19b3
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3db7c66235366bc6f6d4c7d39b9388d9f3f329fc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5d2f2511f9c86382ce6d88d84abeec25e5bc6c76
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610558"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773508"
 ---
 # <a name="imapiformmgropenformcontainer"></a>IMAPIFormMgr::OpenFormContainer
 
@@ -59,7 +59,7 @@ HFRMREG_LOCAL
     
  _lpunk_
   
-> [in] Pointeur vers l’objet pour lequel l’interface est ouverte. Le  _paramètre lpunk_ doit être **null,** sauf si la valeur du paramètre  _hfrmreg_ nécessite un pointeur d’objet. 
+> [in] Pointeur vers l’objet pour lequel l’interface est ouverte. Le  _paramètre lpunk_ doit être **null** , sauf si la valeur du paramètre  _hfrmreg_ nécessite un pointeur d’objet. 
     
  _lppfcnt_
   
@@ -81,7 +81,7 @@ Les visionneuses de formulaires appellent la méthode **IMAPIFormMgr::OpenFormCo
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Si la valeur dans _hfrmreg_ est HFRMREG_FOLDER, l’identificateur d’interface utilisé dans _lpunk_ doit être non **null** et autoriser les appels de méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) à une interface [IMAPIFolder.](imapifolderimapicontainer.md) 
+Si la valeur dans  _hfrmreg_ est HFRMREG_FOLDER, l’identificateur d’interface utilisé dans  _lpunk_ doit être **non null et** autoriser les appels de méthode [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) à une interface [IMAPIFolder](imapifolderimapicontainer.md) . 
   
 Pour ouvrir le conteneur de formulaires local, vous devez utiliser un appel à la méthode **OpenFormContainer** ou à la [fonction MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) ; vous ne pouvez pas utiliser [la méthode IMAPIFormMgr::SelectFormContainer](imapiformmgr-selectformcontainer.md) pour permettre à l’utilisateur de sélectionner le conteneur de formulaire local. 
   
@@ -91,8 +91,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::OpenFormContainer** pour récupérer un conteneur de formulaire afin que le contenu du conteneur puisse être rendu.  <br/> |
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnOpenFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::OpenFormContainer** pour récupérer un conteneur de formulaire pour un dossier afin que le contenu du conteneur puisse être rendu.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::OpenFormContainer** pour récupérer un conteneur de formulaire afin que le contenu du conteneur puisse être rendu. |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnOpenFormContainer  <br/> |MFCMAPI utilise la méthode **IMAPIFormMgr::OpenFormContainer** pour récupérer un conteneur de formulaire pour un dossier afin que le contenu du conteneur puisse être rendu. |
    
 ## <a name="see-also"></a>Voir aussi
 

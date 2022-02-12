@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 88a910ed-b55a-4e5b-a43d-eb3ea795a70e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 1a56ad2d5cd1753b9ed07352174855c28ba373ae
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4c147763dd58f4130a3b4d3d287f2afcd96a9ad6
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59564161"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772125"
 ---
 # <a name="imapiprogressgetmax"></a>IMAPIProgress::GetMax
 
@@ -49,13 +49,13 @@ S_OK
 
 La valeur maximale représente la fin de l’opération sous forme numérique. La valeur peut être une valeur maximale globale, utilisée pour représenter l’étendue de l’intégralité de l’affichage de la progression, ou une valeur locale, utilisée pour représenter uniquement une partie de l’affichage. 
   
-La valeur du paramètre d’indicateur a une incidence sur le fait que l’objet de progression comprenne la valeur maximale à être locale ou globale. Lorsque l MAPI_TOP_LEVEL est définie, la valeur maximale est considérée comme globale et est utilisée pour calculer la progression de l’ensemble de l’opération. Lorsque MAPI_TOP_LEVEL n’est pas définie, la valeur maximale est considérée comme locale et les fournisseurs l’utilisent en interne pour afficher la progression des sous-objets de niveau inférieur. Les objets de progression enregistrent la valeur maximale locale uniquement pour la renvoyer à un fournisseur via un **appel GetMax.** 
+La valeur du paramètre d’indicateur a une incidence sur le fait que l’objet de progression comprenne la valeur maximale à être locale ou globale. Lorsque l MAPI_TOP_LEVEL est définie, la valeur maximale est considérée comme globale et est utilisée pour calculer la progression de l’ensemble de l’opération. Lorsque MAPI_TOP_LEVEL n’est pas définie, la valeur maximale est considérée comme locale et les fournisseurs l’utilisent en interne pour afficher la progression des sous-objets de niveau inférieur. Les objets de progression enregistrent la valeur maximale locale uniquement pour la renvoyer à un fournisseur via un **appel GetMax** . 
   
 Pour plus d’informations sur la méthode et le moment opportun pour appeler un objet de progression, reportez-vous à [Affichage d’un indicateur de progression](how-to-display-a-progress-indicator.md).
   
 ## <a name="notes-to-implementers"></a>Remarques pour les responsables de l’implémentation
 
-Initialise la valeur maximale à 1 000. Les fournisseurs de services peuvent réinitialiser cette valeur en appelant la méthode [IMAPIProgress::SetLimits](imapiprogress-setlimits.md). Pour plus d’informations sur l’implémentation de **GetMax** et des autres méthodes [IMAPIProgress,](imapiprogressiunknown.md) voir [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
+Initialise la valeur maximale à 1 000. Les fournisseurs de services peuvent réinitialiser cette valeur en appelant la méthode [IMAPIProgress::SetLimits](imapiprogress-setlimits.md). Pour plus d’informations sur l’implémentation de **GetMax** et des autres méthodes [IMAPIProgress](imapiprogressiunknown.md) , voir [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -63,7 +63,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMax  <br/> |MFCMAPI utilise la **méthode IMAPIProgress::GetMax** pour obtenir la valeur maximale de l’objet de progression. Renvoie 1000, sauf si des limites ont été précédemment définies avec la méthode **IMAPIProgress::SetLimits.**  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMax  <br/> |MFCMAPI utilise la **méthode IMAPIProgress::GetMax** pour obtenir la valeur maximale de l’objet de progression. Renvoie 1000, sauf si des limites ont été précédemment définies avec la méthode **IMAPIProgress::SetLimits** . |
    
 ## <a name="see-also"></a>Voir aussi
 

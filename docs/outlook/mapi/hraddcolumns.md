@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8c980257-9372-4478-b635-bd91d0a66af9
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 670c5000d3bebc6723b37a5bce9821fdb069f78a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 764c3268786b7429dba24a721be1a1d3c218e257
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561669"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772302"
 ---
 # <a name="hraddcolumns"></a>HrAddColumns
 
@@ -27,7 +27,7 @@ Ajoute ou déplace des colonnes au début d’un tableau existant.
 |:-----|:-----|
 |Fichier d’en-tête :  <br/> |mapiutil.h  <br/> |
 |Implémenté par :  <br/> |MAPI  <br/> |
-|Appelé par :  <br/> |Applications clientes et fournisseurs de services.  <br/> |
+|Appelé par :  <br/> |Applications clientes et fournisseurs de services. |
    
 ```cpp
 HRESULT HrAddColumns(
@@ -50,11 +50,11 @@ HRESULT HrAddColumns(
     
  _lpAllocateBuffer_
   
-> [in] Pointeur vers la **fonction MAPIAllocateBuffer.** Utilisé pour allouer de la mémoire. 
+> [in] Pointeur vers la **fonction MAPIAllocateBuffer** . Utilisé pour allouer de la mémoire. 
     
  _lpFreeBuffer_
   
-> [in] Pointeur vers la **fonction MAPIFreeBuffer.** Utilisé pour libérer de la mémoire. 
+> [in] Pointeur vers la **fonction MAPIFreeBuffer** . Utilisé pour libérer de la mémoire. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -8,17 +8,17 @@ f1_keywords:
 - vis_sdr.chm360
 ms.localizationpriority: medium
 ms.assetid: 55834445-8619-f79a-aea0-0f6a1780e016
-description: Représente une chaîne qui passe l'information à utiliser dans la résolution d'une URL, comme les coordonnées d'un point dans une image interactive. Par exemple, dans la cellule ExtraInfo, x=41 y=7 indique les &amp; coordonnées d’une carte d’image.
-ms.openlocfilehash: 1b913c549bf11d999afb0866b9927fa5fa270be3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Représente une chaîne qui passe l'information à utiliser dans la résolution d'une URL, comme les coordonnées d'un point dans une image interactive. Par exemple, dans la cellule ExtraInfo, x=41y&amp;=7 indique les coordonnées d’une carte image.
+ms.openlocfilehash: b697d425a165cb8bf17519f5466cd626b6fdd878
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570651"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771530"
 ---
 # <a name="extrainfo-cell-hyperlinks-section"></a>ExtraInfo, cellule (section Hyperlinks)
 
-Représente une chaîne qui passe l'information à utiliser dans la résolution d'une URL, comme les coordonnées d'un point dans une image interactive. Par exemple, dans la cellule ExtraInfo, « x=41 y=7 » spécifie les &amp; coordonnées d’un plan d’image.
+Représente une chaîne qui passe l'information à utiliser dans la résolution d'une URL, comme les coordonnées d'un point dans une image interactive. Par exemple, dans la cellule ExtraInfo, « x=41y&amp;=7 » spécifie les coordonnées d’un plan d’image.
   
 ## <a name="remarks"></a>Remarques
 
@@ -35,7 +35,7 @@ Pour obtenir une référence à la cellule ExtraInfo à l'aide d'un index à par
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionHyperlink** <br/> |
-| Index de la ligne :  <br/> |**visRow1stHyperlink**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRow1stHyperlink** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visHLinkExtraInfo** <br/> |
    
 

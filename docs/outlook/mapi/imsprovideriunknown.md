@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d24f2c0697a3aad951625837fa3e56cf6fb9ccd3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e7eca6b089810424854565fbb6dc992afe48c94b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575657"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774873"
 ---
 # <a name="imsprovider--iunknown"></a>IMSProvider : IUnknown
 
@@ -25,7 +25,7 @@ ms.locfileid: "59575657"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Permet d’accéder à un fournisseur de magasins de messages via un objet fournisseur de magasin de messages. Cet objet fournisseur de magasin de messages est renvoyé lors de l’ouverture de connecté du fournisseur par la fonction de point d’entrée [MSProviderInit](msproviderinit.md) du fournisseur de la boutique de messages. L’objet fournisseur de magasin de messages est principalement utilisé par les applications clientes et lepooler MAPI pour ouvrir les magasins de messages. 
+Permet d’accéder à un fournisseur de magasins de messages via un objet fournisseur de magasin de messages. Cet objet fournisseur de magasin de messages est renvoyé à l’ouverture de connecté du fournisseur par la fonction de point d’entrée [MSProviderInit](msproviderinit.md) du fournisseur de magasins de messages. L’objet fournisseur de magasin de messages est principalement utilisé par les applications clientes et lepooler MAPI pour ouvrir les magasins de messages. 
   
 |||
 |:-----|:-----|
@@ -40,20 +40,20 @@ Permet d’accéder à un fournisseur de magasins de messages via un objet fourn
 
 |||
 |:-----|:-----|
-|[Arrêt](imsprovider-shutdown.md) <br/> |Ferme un fournisseur de magasins de messages de manière ordonnée.  <br/> |
-|[Logon](imsprovider-logon.md) <br/> |Connecte MAPI à une instance d’un fournisseur de magasins de messages.  <br/> |
-|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Connecte lepooler MAPI à une boutique de messages.  <br/> |
-|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compare deux identificateurs d’entrée de magasin de messages pour déterminer s’ils font référence au même objet store.  <br/> |
+|[Arrêt](imsprovider-shutdown.md) <br/> |Ferme un fournisseur de magasins de messages de manière ordonnée. |
+|[Logon](imsprovider-logon.md) <br/> |Connecte MAPI à une instance d’un fournisseur de magasins de messages. |
+|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Connecte lepooler MAPI à une magasin de messages. |
+|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compare deux identificateurs d’entrée de magasin de messages pour déterminer s’ils font référence au même objet store. |
    
 ## <a name="remarks"></a>Remarques
 
-MAPI utilise un objet fournisseur de magasin de messages par session, quel que soit le nombre de magasins de messages ouverts par le fournisseur de la boutique. Si une deuxième session MAPI se connecte à des magasins ouverts, MAPI appelle **MSProviderInit** une deuxième fois pour créer un objet fournisseur de magasin de messages à utiliser pour cette session. 
+MAPI utilise un objet fournisseur de magasin de messages par session, quel que soit le nombre de magasins de messages ouverts par le fournisseur de magasin. Si une deuxième session MAPI se connecte à des magasins ouverts, MAPI appelle **MSProviderInit** une deuxième fois pour créer un objet fournisseur de magasin de messages pour cette session à utiliser. 
   
 Un objet fournisseur de magasin de messages doit contenir les éléments suivants pour fonctionner correctement :
   
-- Pointeur de routine d’allocation de mémoire  _lpMalloc_ à utiliser par tous les magasins ouverts à l’aide de cet objet fournisseur. 
+- Pointeur de routine d’allocation de mémoire  _lpMalloc_ à utiliser par toutes les magasins ouverts à l’aide de cet objet fournisseur. 
     
-- Les pointeurs de routine _lpfAllocateBuffer_, _ lpfAllocateMore _, et _lpfFreeBuffer_ pointent vers les fonctions d’allocation de mémoire [MAPIAllocateBuffer,](mapiallocatebuffer.md) [MAPIAllocateMore](mapiallocatemore.md)et [MAPIFreeBuffer.](mapifreebuffer.md) 
+- Les pointeurs de routine  _lpfAllocateBuffer_, _ lpfAllocateMore _, et  _lpfFreeBuffer_ vers les fonctions d’allocation de mémoire [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md) et [MAPIFreeBuffer](mapifreebuffer.md) . 
     
 - Liste liée de toutes les magasins ouvertes à l’aide de cet objet fournisseur et pas encore fermées.
     

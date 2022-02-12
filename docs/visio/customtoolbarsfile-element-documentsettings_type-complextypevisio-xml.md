@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: c9789239-a919-97f6-8109-126bb1038be6
-description: Contient le nom du fichier d’interface utilisateur microsoft Visio (.vsu) qui définit les barres d’outils et barres d’état personnalisées d’un document.
-ms.openlocfilehash: 312da727f251e953de89221669b5fa73e25e12f9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Contient le nom du fichier d’interface Visio Microsoft (.vsu) qui définit les barres d’outils et barres d’état personnalisées d’un document.
+ms.openlocfilehash: 589394cd735c2f86e931833ef40eb5707d0f3a1a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613043"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774460"
 ---
 # <a name="customtoolbarsfile-element-documentsettings_type-complextype-visio-xml"></a>Élément CustomToolbarsFile (DocumentSettings_Type complexType) (Visio XML)
 
-Contient le nom du fichier d’interface utilisateur microsoft Visio (.vsu) qui définit les barres d’outils et barres d’état personnalisées d’un document.
+Contient le nom du fichier d’interface Visio Microsoft (.vsu) qui définit les barres d’outils et barres d’état personnalisées d’un document.
   
 ## <a name="element-information"></a>Informations sur l’élément
 
@@ -36,13 +36,13 @@ Contient le nom du fichier d’interface utilisateur microsoft Visio (.vsu) qui 
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 

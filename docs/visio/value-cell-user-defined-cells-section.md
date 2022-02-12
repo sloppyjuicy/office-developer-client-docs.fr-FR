@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 495b2aec-e197-75eb-9974-e7c92d26546f
 description: Indique une valeur pour la cellule définie par l'utilisateur correspondante.
-ms.openlocfilehash: 00a96f98682ace7c66ddba8c7aa7ac3a284a224c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2cb7530f0bca0cb00018100d00a8fb43640fcb28
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559345"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771051"
 ---
 # <a name="value-cell-user-defined-cells-section"></a>Value, cellule (section User-Defined Cells)
 
@@ -35,7 +35,7 @@ Pour obtenir une référence à la cellule Value par index dans un programme, ut
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionUser** <br/> |
-| Index de la ligne :  <br/> |**visRowUser**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowUser** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visUserValue** <br/> |
    
 

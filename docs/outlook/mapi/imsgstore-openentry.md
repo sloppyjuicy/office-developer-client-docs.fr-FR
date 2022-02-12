@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a63c42cf-36af-466b-b41e-d6b53ce1c9fb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: cab25a6d0e54490f3f5364e3c5d40fec1584a6de
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: e8a3c1338e7452f18d54cc5a862c84eb838ed278
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571667"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774880"
 ---
 # <a name="imsgstoreopenentry"></a>IMsgStore::OpenEntry
 
@@ -50,7 +50,7 @@ HRESULT OpenEntry(
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet ouvert. La transmission DE NULL entraîne le retour de l’interface standard de l’objet[(IMAPIFolder](imapifolderimapicontainer.md) pour les dossiers et [IMessage](imessageimapiprop.md) pour les messages). 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder à l’objet ouvert. La transmission DE NULL entraîne le retour de l’interface standard de l’objet ([IMAPIFolder](imapifolderimapicontainer.md) pour les dossiers et [IMessage](imessageimapiprop.md) pour les messages). 
     
  _ulFlags_
   
@@ -95,15 +95,15 @@ MAPI_NO_CACHE
 La **méthode IMsgStore::OpenEntry** ouvre un dossier ou un message et renvoie un pointeur vers une interface qui peut être utilisée pour un accès supplémentaire. 
   
 > [!IMPORTANT]
-> Lors de l’ouverture d’entrées de dossiers dans une boutique publique, telles que des dossiers et des messages, utilisez **IMsgStore::OpenEntry** au lieu d’IMAPISession::OpenEntry . [](imapisession-openentry.md) Cela garantit que les dossiers publics fonctionnent correctement lorsque plusieurs Exchange sont définis dans un profil. 
+> Lors de l’ouverture d’entrées de dossiers dans une boutique publique, telles que des dossiers et des messages, utilisez **IMsgStore::OpenEntry** au lieu [d’IMAPISession::OpenEntry](imapisession-openentry.md). Cela garantit que les dossiers publics fonctionnent correctement lorsque plusieurs Exchange sont définis dans un profil. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Les dossiers et messages sont automatiquement ouverts avec une autorisation de lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le _paramètre ulFlags._ La définition de l’un de ces indicateurs ne garantit pas un type d’autorisation particulier ; Les autorisations qui vous sont accordées dépendent du fournisseur de la boutique de messages, de votre niveau d’accès et de l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez PR_ACCESS_LEVEL **propriété** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
+Les dossiers et messages sont automatiquement ouverts avec une autorisation de lecture seule, sauf si vous définissez l’indicateur MAPI_MODIFY ou MAPI_BEST_ACCESS dans le paramètre _ulFlags_ . La définition de l’un de ces indicateurs ne garantit pas un type d’autorisation particulier ; Les autorisations qui vous sont accordées dépendent du fournisseur de la boutique de messages, de votre niveau d’accès et de l’objet. Pour déterminer le niveau d’accès de l’objet ouvert, récupérez **PR_ACCESS_LEVEL propriété (**[PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)).
   
 Bien que **IMsgStore::OpenEntry** puisse être utilisé pour ouvrir n’importe quel dossier ou message, il est généralement plus rapide d’utiliser la méthode [IMAPIContainer::OpenEntry](imapicontainer-openentry.md) si vous avez accès au dossier parent du dossier ou du message à ouvrir. 
   
-Vérifiez la valeur renvoyée dans le  _paramètre lpulObjType_ pour déterminer si le type d’objet renvoyé est ce que vous attendiez. Si le type d’objet n’est pas le type attendu, cast le pointeur du paramètre  _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrent un dossier, cast  _lppUnk_ vers un pointeur de type **LPMAPIFOLDER**.
+Vérifiez la valeur renvoyée dans le _paramètre lpulObjType_ pour déterminer si le type d’objet renvoyé est ce que vous attendiez. Si le type d’objet n’est pas le type attendu, cast le pointeur du paramètre  _lppUnk_ vers un pointeur du type approprié. Par exemple, si vous ouvrent un dossier, cast  _lppUnk_ vers un pointeur de type **LPMAPIFOLDER**.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -111,7 +111,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI utilise la méthode **IMsgStore::OpenEntry** pour ouvrir l’objet associé à un ID d’entrée.  <br/> |
+|MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI utilise la méthode **IMsgStore::OpenEntry** pour ouvrir l’objet associé à un ID d’entrée. |
    
 ## <a name="see-also"></a>Voir aussi
 

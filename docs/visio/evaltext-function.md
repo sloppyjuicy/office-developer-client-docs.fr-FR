@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c9b5b96c-d8c8-6119-e3f1-a2ce9d7c043e
 description: Évalue le texte dans le nom de la forme comme s’il s’agit d’une formule et renvoie le résultat.
-ms.openlocfilehash: 2ba21cc55ea24144396fe4ef029b9a3e1014484a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3413adf189af1e623cd9911658cb38aa3d8d8070
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574299"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774318"
 ---
 # <a name="evaltext-function"></a>Fonction EVALTEXT
 
@@ -28,7 +28,7 @@ EVALTEXT(** *shapename!theText* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _shapename!theText_ <br/> |Obligatoire  <br/> |**String** <br/> |Cellule générée lorsque la composition du texte de la forme associée est modifiée.  <br/> |
+| _shapename!theText_ <br/> |Requis  <br/> |**String** <br/> |Cellule générée lorsque la composition du texte de la forme associée est modifiée. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

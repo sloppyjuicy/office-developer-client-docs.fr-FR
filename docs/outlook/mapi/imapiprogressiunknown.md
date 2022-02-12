@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5d5756aca0afdbad732b09b4dc79d8b7e4c08021
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5483d02bee37974b05a2a41ce4b39bc7df48a3f5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625573"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773375"
 ---
 # <a name="imapiprogress--iunknown"></a>IMAPIProgress : IUnknown
 
@@ -25,7 +25,7 @@ ms.locfileid: "59625573"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Implémente un objet de progression qui fournit aux applications clientes un indicateur de progression. Un indicateur de progression est un affichage de l’interface utilisateur qui indique le pourcentage d’achèvement d’une opération, tel que la copie de dossiers entre les magasins de messages. MapI et les applications clientes implémentent des objets de progression et les fournisseurs de services les utilisent. 
+Implémente un objet de progression qui fournit aux applications clientes un indicateur de progression. Un indicateur de progression est un affichage de l’interface utilisateur qui indique le pourcentage d’achèvement d’une opération, tel que la copie de dossiers entre les magasins de messages. MAPI et les applications clientes implémentent des objets de progression et les fournisseurs de services les utilisent. 
   
 |||
 |:-----|:-----|
@@ -40,15 +40,15 @@ Implémente un objet de progression qui fournit aux applications clientes un ind
 
 |||
 |:-----|:-----|
-|[Progress](imapiprogress-progress.md) <br/> |Met à jour l’indicateur de progression avec un affichage de la progression à mesure qu’il est effectué vers la fin de l’opération.  <br/> |
-|[GetFlags](imapiprogress-getflags.md) <br/> |Renvoie les paramètres d’indicateur de l’objet de progression pour le niveau d’opération sur lequel les informations de progression sont calculées.  <br/> |
-|[GetMax](imapiprogress-getmax.md) <br/> |Renvoie le nombre maximal d’éléments dans l’opération pour lesquels les informations de progression sont affichées.  <br/> |
-|[GetMin](imapiprogress-getmin.md) <br/> |Renvoie la valeur minimale dans la [méthode SetLimits](imapiprogress-setlimits.md) pour laquelle les informations de progression sont affichées.  <br/> |
-|[SetLimits](imapiprogress-setlimits.md) <br/> |Définit les limites inférieure et supérieure du nombre d’éléments dans l’opération, ainsi que les indicateurs qui contrôlent la façon dont les informations de progression sont calculées pour l’opération.  <br/> |
+|[Progress](imapiprogress-progress.md) <br/> |Met à jour l’indicateur de progression avec un affichage de la progression à mesure qu’il est effectué vers la fin de l’opération. |
+|[GetFlags](imapiprogress-getflags.md) <br/> |Renvoie les paramètres d’indicateur de l’objet de progression pour le niveau d’opération sur lequel les informations de progression sont calculées. |
+|[GetMax](imapiprogress-getmax.md) <br/> |Renvoie le nombre maximal d’éléments dans l’opération pour lesquels les informations de progression sont affichées. |
+|[GetMin](imapiprogress-getmin.md) <br/> |Renvoie la valeur minimale dans la [méthode SetLimits](imapiprogress-setlimits.md) pour laquelle les informations de progression sont affichées. |
+|[SetLimits](imapiprogress-setlimits.md) <br/> |Définit les limites inférieure et supérieure du nombre d’éléments dans l’opération, ainsi que les indicateurs qui contrôlent la façon dont les informations de progression sont calculées pour l’opération. |
    
 ## <a name="remarks"></a>Remarques
 
-MAPI inclut  _un paramètre lpProgress_ dans de nombreuses méthodes qui effectuent des opérations potentiellement longues.  _LpProgress_ pointe vers une implémentation cliente d’un objet de progression. Les clients qui implémentent **l’interface IMAPIProgress** définissent ce paramètre pour qu’il pointe vers leur implémentation ; les clients qui n’implémentent **pas IMAPIProgress** définissent le paramètre sur NULL. Pour afficher un indicateur de progression pendant le traitement de l’opération, les fournisseurs de services utilisent l’objet de progression fourni par le client, s’il est disponible, ou une implémentation MAPI (indiquée lorsque  _lpProgress_ est définie sur NULL). 
+MAPI inclut  _un paramètre lpProgress_ dans de nombreuses méthodes qui effectuent des opérations potentiellement longues.  _LpProgress pointe vers_ une implémentation cliente d’un objet de progression. Les clients qui **implémentent l’interface IMAPIProgress** définissent ce paramètre pour qu’il pointe vers leur implémentation ; les clients qui n’implémentent **pas IMAPIProgress** définissent le paramètre sur NULL. Pour afficher un indicateur de progression pendant le traitement de l’opération, les fournisseurs de services utilisent l’objet de progression fourni par le client, s’il est disponible, ou une implémentation MAPI (indiquée lorsque  _lpProgress_ est définie sur NULL). 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -56,7 +56,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Files**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MapiProgress.h et MapiProgress.cpp  <br/> |Non applicable  <br/> |Si le paramètre IMAPIProgress est activé, MFCMAPI passe une implémentation **IMAPIProgress** à toutes les fonctions que MFCMAPI appelle et qui acceptent une implémentation.  <br/> |
+|MapiProgress.h et MapiProgress.cpp  <br/> |Non applicable  <br/> |Si le paramètre IMAPIProgress est activé, MFCMAPI passe une implémentation **IMAPIProgress** à toutes les fonctions que MFCMAPI appelle et qui acceptent une implémentation. |
    
 ## <a name="see-also"></a>Voir aussi
 

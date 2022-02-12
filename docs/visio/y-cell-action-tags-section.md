@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b213fc46-7f80-99fd-60ba-8ddf3d0f6ee3
 description: Position de la coordonnée y dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé.
-ms.openlocfilehash: 3b459f10e1e1eda5429da0e61638cc091793b204
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 3946c436a73bcfb2892fa30e20f282b6915a83ff
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179430"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773823"
 ---
 # <a name="y-cell-action-tags-section"></a>Y, cellule (section Action Tags)
 
-Position de la coordonnée *y*  dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé. 
+Position *de*  la coordonnée y dans les coordonnées locales de la forme autour de laquelle le bouton de balise d’action est placé. 
   
 > [!NOTE]
 > Dans les versions précédentes de Microsoft Visio, les balises d’action sont appelées « balises actives ». 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule Y à l'aide d'un index à partir d'un
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visSmartTagY** <br/> |
    
 

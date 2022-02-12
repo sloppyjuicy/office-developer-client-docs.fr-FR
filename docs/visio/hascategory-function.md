@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: ed3c997b-0a58-0432-c468-a24614b67f2e
 description: Renvoie TRUE si la chaîne spécifiée est trouvée dans la liste des catégories de la forme.
-ms.openlocfilehash: 953894bbc2914a363c4db99338528fa5f8ac7504
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 65786db68e5be4ec6b83ce17963cc79332ff7772
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598541"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771382"
 ---
 # <a name="hascategory-function"></a>Fonction HASCATEGORY
 
@@ -31,7 +31,7 @@ HASCATEGORY(** *category* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _category_ <br/> |Obligatoire  <br/> |**String** <br/> |Catégorie à rechercher.  <br/> |
+| _category_ <br/> |Requis  <br/> |**String** <br/> |Catégorie à rechercher. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

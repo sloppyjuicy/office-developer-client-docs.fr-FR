@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 29a7464a-b9d4-a8ea-161b-3044de32ed23
 description: Contient des cellules qui spécifient les actions associées à une commande personnalisée dans un menu de raccourci ou de balise d’action. La section Actions contient une ligne Actions pour chaque action.
-ms.openlocfilehash: 21b0fe801b7041f7de9a7b4dfcd559e8ea553356
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f0271ea3097dd77b7a0c9f3a0edc70b5cac727d1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616130"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774635"
 ---
 # <a name="actions-row-actions-section"></a>Actions, ligne (section Actions)
 
@@ -27,16 +27,16 @@ Les lignes Actions sont nommées Actions. *et*  contiennent les cellules suivant
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[Action](action-cell-actions-section.md) <br/> |Contient la formule à exécuter lorsqu’un utilisateur choisit une option dans un menu contextuel ou de balise d’action.  <br/> |
-|[Menu](menu-cell-actions-section.md) <br/> |Définit le nom de l’élément de menu qui apparaît dans une balise d’action ou un menu raccourci.  <br/> |
-|[TagName](tagname-cell-actions-section.md) <br/> |Nom logique de la balise d’action dans laquelle cette action doit apparaître.  <br/> |
-|[ButtonFace](buttonface-cell-actions-section.md) <br/> |Identifie l’icône qui s’affiche en regard d’une option de menu contextuel ou de balise d’action.  <br/> |
-|[SortKey](sortkey-cell-actions-section.md) <br/> |Numéro qui détermine l’ordre des options dans un menu contextuel ou de balise d’action.  <br/> |
-|[Checked](checked-cell-actions-section.md) <br/> |Indique si l’élément de menu est vérifié dans une balise d’action ou un menu raccourci.  <br/> |
-|[Disabled](disabled-cell-actions-section.md) <br/> |Indique si une option d’un menu contextuel ou de balise d’action est désactivée.  <br/> |
-|[ReadOnly](readonly-cell-actions-section.md) <br/> |Indique si l'option de menu est en lecture seule (il est impossible de cliquer dessus).  <br/> |
-|[Invisible](invisible-cell-actions-section.md) <br/> |Indique si l’option de menu est visible dans le menu contextuel ou de balise d’action.  <br/> |
-|[BeginGroup](begingroup-cell-actions-section.md) <br/> |Indique s’il faut insérer un séparateur dans le menu, au-dessus de l’élément de menu.  <br/> |
+|[Action](action-cell-actions-section.md) <br/> |Contient la formule à exécuter lorsqu’un utilisateur choisit une option dans un menu contextuel ou de balise d’action. |
+|[Menu](menu-cell-actions-section.md) <br/> |Définit le nom de l’élément de menu qui apparaît dans une balise d’action ou un menu raccourci. |
+|[TagName](tagname-cell-actions-section.md) <br/> |Nom logique de la balise d’action dans laquelle cette action doit apparaître. |
+|[ButtonFace](buttonface-cell-actions-section.md) <br/> |Identifie l’icône qui s’affiche en regard d’une option de menu contextuel ou de balise d’action. |
+|[SortKey](sortkey-cell-actions-section.md) <br/> |Numéro qui détermine l’ordre des options dans un menu contextuel ou de balise d’action. |
+|[Checked](checked-cell-actions-section.md) <br/> |Indique si l’élément de menu est vérifié dans une balise d’action ou un menu raccourci. |
+|[Disabled](disabled-cell-actions-section.md) <br/> |Indique si une option d’un menu contextuel ou de balise d’action est désactivée. |
+|[ReadOnly](readonly-cell-actions-section.md) <br/> |Indique si l'option de menu est en lecture seule (il est impossible de cliquer dessus). |
+|[Invisible](invisible-cell-actions-section.md) <br/> |Indique si l’option de menu est visible dans le menu contextuel ou de balise d’action. |
+|[BeginGroup](begingroup-cell-actions-section.md) <br/> |Indique s’il faut insérer un séparateur dans le menu, au-dessus de l’élément de menu. |
    
 ## <a name="remarks"></a>Remarques
 

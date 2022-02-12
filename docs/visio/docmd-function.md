@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6574edeb-eb6f-afd9-89c4-eb5996dffa30
 description: Exécute la commande identifiée.
-ms.openlocfilehash: b6ab817dd437cd844bab4662fbb76f6921cd36a6
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: cd9cae4a9c5c50b5a12dd86466f88a58bae578b1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628450"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774404"
 ---
 # <a name="docmd-function"></a>Fonction DOCMD
 
@@ -28,7 +28,7 @@ Exécute la commande identifiée.
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _commandID_ <br/> |Obligatoire  <br/> |**Number** <br/> | Commande à exécuter  <br/> |
+| _commandID_ <br/> |Requis  <br/> |**Number** <br/> | Commande à exécuter |
    
 ## <a name="remarks"></a>Remarques
 

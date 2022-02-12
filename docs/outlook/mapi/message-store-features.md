@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: d9167cd2-fc88-46b1-9a26-151955fb606c
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0fe0e9d4e64659f09d314731e72b0048177e8fa8
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f744924b260acbce5a97c8ee5bc58d434655705b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551099"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770709"
 ---
 # <a name="message-store-features"></a>Fonctionnalités de la boutique de messages
 
@@ -25,23 +25,23 @@ Les fournisseurs de magasins de messages sont plus complexes que les autres four
   
 |**Fonctionnalité**|**All**|**Par défaut**|
 |:-----|:-----|:-----|
-|Fourniture de l’état avec la table d’état MAPI.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Mise en œuvre d’objets de dossier.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Mise en œuvre d’objets de message.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Fournir des rapports de lecture et nonread.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Fourniture d’une interface de progression.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Fourniture d’une interface de configuration.  <br/> |Obligatoire  <br/> |Obligatoire  <br/> |
-|Prise en charge des tables de contenu associées pour la prise en charge des formulaires et des affichages.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Envoi de messages avec le fournisseur de la boutique de messages.  <br/> |Facultatif  <br/> |Obligatoire  <br/> |
-|Réception de messages avec le fournisseur de la boutique de messages.  <br/> |Facultatif  <br/> |Obligatoire  <br/> |
-|Prise en charge des pièces jointes de message.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Prise en charge du format texte enrichi pour les messages.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Fourniture de notifications.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Prise en charge des recherches.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Prise en charge de fournisseurs de transport/magasin de messages étroitement couplés.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
-|Prise en charge de la non-réutilisation des identificateurs d’entrée.  <br/> |Facultatif  <br/> |Facultatif  <br/> |
+|Fourniture de l’état avec la table d’état MAPI. |Obligatoire  <br/> |Obligatoire  <br/> |
+|Mise en œuvre d’objets de dossier. |Obligatoire  <br/> |Obligatoire  <br/> |
+|Mise en œuvre d’objets de message. |Obligatoire  <br/> |Obligatoire  <br/> |
+|Fournir des rapports de lecture et nonread. |Obligatoire  <br/> |Obligatoire  <br/> |
+|Fourniture d’une interface de progression. |Obligatoire  <br/> |Obligatoire  <br/> |
+|Fourniture d’une interface de configuration. |Obligatoire  <br/> |Obligatoire  <br/> |
+|Prise en charge des tables de contenu associées pour la prise en charge des formulaires et des affichages. |Facultatif  <br/> |Facultatif  <br/> |
+|Envoi de messages avec le fournisseur de la boutique de messages. |Facultatif  <br/> |Requis  <br/> |
+|Réception de messages avec le fournisseur de la boutique de messages. |Facultatif  <br/> |Requis  <br/> |
+|Prise en charge des pièces jointes de message. |Facultatif  <br/> |Facultatif  <br/> |
+|Prise en charge du format texte enrichi pour les messages. |Facultatif  <br/> |Facultatif  <br/> |
+|Fourniture de notifications. |Facultatif  <br/> |Facultatif  <br/> |
+|Prise en charge des recherches. |Facultatif  <br/> |Facultatif  <br/> |
+|Prise en charge de fournisseurs de transport/magasin de messages étroitement couplés. |Facultatif  <br/> |Facultatif  <br/> |
+|Prise en charge de la non-réutilisation des identificateurs d’entrée. |Facultatif  <br/> |Facultatif  <br/> |
    
-Bon nombre des fonctionnalités facultatives peuvent être publiées dans MAPI et les applications clientes en paraélisant différents indicateurs dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de l’objet de la boutique de messages. Les fonctionnalités requises ne sont pas associées à des indicateurs. **PR_STORE_SUPPORT_MASK** est nécessaire sur les objets de message, de dossier et de message. 
+Bon nombre des fonctionnalités facultatives peuvent être publiées dans MAPI et les applications clientes en paraxant différents indicateurs dans la propriété **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) de l’objet de la boutique de messages. Les fonctionnalités requises ne sont pas associées à des indicateurs. **PR_STORE_SUPPORT_MASK** est requis sur les objets de message, de dossier et de message. 
   
 ## <a name="see-also"></a>Voir aussi
 

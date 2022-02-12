@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 379bd557033d548e8aad93da3acbe5ba9c20a45c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ccbf59fa79c5f687d3bd2a890ebdd5806438c57c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561382"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773263"
 ---
 # <a name="ipstx6--ipstx5"></a>IPSTX6 : IPSTX5
 
@@ -38,7 +38,7 @@ Cette interface fournit des fonctionnalités d’aide lors de la réplication vi
 |:-----|:-----|
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-|**[DisconnectStore](ipstx6-disconnectstore.md)** <br/> |Déconnecte le magasin local.  <br/> |
+|**[DisconnectStore](ipstx6-disconnectstore.md)** <br/> |Déconnecte le magasin local. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
    

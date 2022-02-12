@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
 description: Contient les éléments Page du document.
-ms.openlocfilehash: f74e7eb68a4c2f85013cbc2c74a266e0985def74
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1d1d8982cc78613f3f8c429aefca8348f30f58a0
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554228"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774124"
 ---
 # <a name="pages-element-visio-xml"></a>Élément Pages (Visio XML)
 
@@ -36,7 +36,7 @@ Contient les éléments Page du document.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
@@ -46,7 +46,7 @@ Aucune.
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une page dans le document.  <br/> |
+|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une page dans le document. |
    
 ### <a name="attributes"></a>Attributs
 

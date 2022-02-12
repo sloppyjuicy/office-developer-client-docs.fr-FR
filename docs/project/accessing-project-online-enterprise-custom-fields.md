@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: 'Project Online est un service Office 365 que les entreprises peuvent étendre afin de répondre à leurs besoins. Une zone d’extension est constituée par les champs personnalisés d’entreprise. Les champs personnalisés d’entreprise sont des champs où des valeurs sont saisies et qui peuvent être ajoutés à des projets, ressources et tâches. Le tableau suivant répertorie les champs personnalisés d’entreprise qui sont associés à des projets, ressources et tâches, et fournit un exemple de valeur pour une instance de ce champ personnalisé d’entreprise :'
 ms.localizationpriority: high
-ms.openlocfilehash: 5aa5b527942dccfbcf1eb6b08e645038a6470edf
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 48702c050c3337f73c005e30da117622a07f3a58
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180081"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770597"
 ---
 # <a name="accessing-project-online-enterprise-custom-fields"></a>Accès aux champs personnalisés d’entreprise Project Online
 
@@ -19,7 +19,7 @@ Project Online est un service Office 365 que les entreprises peuvent étendre 
   
 |Nom du champ personnalisé d’entreprise|Type de champ personnalisé d’entreprise|Association|Exemple de valeur|
 |:-----|:-----|:-----|:-----|
-|Justification  <br/> |TEXT  <br/> |Projet  <br/> |Un utilisateur final peut enregistrer des statistiques vitales et des données de santé, avec des résultats qui incluent une évaluation de santé et un plan d’action individualisé vers une meilleure santé.  <br/> |
+|Justification  <br/> |TEXT  <br/> |Projet  <br/> |Un utilisateur final peut enregistrer des statistiques vitales et des données de santé, avec des résultats qui incluent une évaluation de santé et un plan d’action individualisé vers une meilleure santé. |
 |Évaluation du risque  <br/> |TEXT  <br/> |Projet  <br/> |Faible  <br/> |
 |RETOUR SUR INVESTISSEMENT  <br/> |NUMBER  <br/> |Projet  <br/> |2,10  <br/> |
 |Coût total  <br/> |COST  <br/> |Projet  <br/> |1 031 514 $  <br/> |

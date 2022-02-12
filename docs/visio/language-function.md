@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: e372c670-e9a0-4352-b70a-3a054b036124
 description: Permet d’établir des opérations de comparaison entre différentes représentations linguistiques. Il est préférable pour convertir des balises de langue BCP 47 (Internet Engineering Task Force) en valeurs d’ID de paramètres régionaux (LCID).
-ms.openlocfilehash: 319d1a043b43f80accfe5b195a640acaea5a1c52
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4ecbecd8222f1d4ba66d557b953a6dee5d6041f1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554515"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771278"
 ---
 # <a name="language-function"></a>LANGUAGE Function
 
@@ -31,7 +31,7 @@ Version ajoutée : Visio 2013
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _lcid_or_bcp47_ <br/> |Obligatoire  <br/> |**String** <br/> |Valeur LCID ou BCP 47 pour la langue.  <br/> |
+| _lcid_or_bcp47_ <br/> |Requis  <br/> |**String** <br/> |Valeur LCID ou BCP 47 pour la langue. |
    
 ## <a name="return-value"></a>Valeur renvoyée
 

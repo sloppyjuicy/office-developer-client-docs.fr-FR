@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e327e00-0844-efa4-900b-6954d3b009bb
 description: Contient les coordonnées x et y pour le deuxième point de contrôle d’une spline, son deuxième nœud, son premier nœud, le dernier nœud et le degré de la spline.
-ms.openlocfilehash: 6433b5c1552445d54ad8ebde30296b4265a421c0
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: fbf4880813429a3ae848b95da065299f70fc6433
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180529"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773865"
 ---
 # <a name="splinestart-row-geometry-section"></a>SplineStart, ligne (section Geometry)
 
@@ -24,12 +24,12 @@ Une ligne SplineStart contient les cellules suivantes.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |Coordonnée *x*  du deuxième point de contrôle d’une spline.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y*  du deuxième point de contrôle d’une spline.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |Deuxième nœud de la spline.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |Premier nœud d'une spline.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |Dernier nœud d'une spline.  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |Degré d'une spline (entier compris entre 1 et 25).  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Coordonnée *x*  du deuxième point de contrôle d’une spline. |
+|[Y](y-cell-geometry-section.md) <br/> |Coordonnée *y*  du deuxième point de contrôle d’une spline. |
+|[A](a-cell-geometry-section.md) <br/> |Deuxième nœud de la spline. |
+|[B](b-cell-geometry-section.md) <br/> |Premier nœud d'une spline. |
+|[C](c-cell-geometry-section.md) <br/> |Dernier nœud d'une spline. |
+|[D](d-cell-geometry-section.md) <br/> |Degré d'une spline (entier compris entre 1 et 25). |
    
 ## <a name="remarks"></a>Remarques
 

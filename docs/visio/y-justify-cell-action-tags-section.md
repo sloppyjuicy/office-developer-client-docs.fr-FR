@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 27042b62-7623-95d7-7e10-f589d74605c7
 description: Décalage y du bouton de balise d’action par rapport au point défini par les cellules X et Y.
-ms.openlocfilehash: bf65e91d3c7fd13e9e8f3ee051cf4e5ceb6ea305
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: f53824b9458c483ffab1c918c6dea34ede46bd97
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179619"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771023"
 ---
 # <a name="y-justify-cell-action-tags-section"></a>Y Justify, cellule (section Action Tags)
 
@@ -25,9 +25,9 @@ Décalage *y*  du bouton de balise d’action par rapport au point défini par l
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-| 0  <br/> | Aligné en haut (valeur par défaut).  <br/> |**visSmartTagYJustifyTop** <br/> |
-| 1  <br/> | Centré.  <br/> |**visSmartTagYJustifyMiddle** <br/> |
-| 2  <br/> | Aligné en bas.  <br/> |**visSmartTagYJustifyBottom** <br/> |
+| 0  <br/> | Aligné en haut (valeur par défaut). |**visSmartTagYJustifyTop** <br/> |
+| 1  <br/> | Centré. |**visSmartTagYJustifyMiddle** <br/> |
+| 2  <br/> | Aligné en bas. |**visSmartTagYJustifyBottom** <br/> |
    
 ## <a name="remarks"></a>Remarques
 
@@ -44,7 +44,7 @@ Pour obtenir une référence à la cellule Y Justify par index dans un programme
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionSmartTag** <br/> |
-| Index de la ligne :  <br/> |**visRowSmartTag**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowSmartTag** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visSmartTagYJustify** <br/> |
    
 

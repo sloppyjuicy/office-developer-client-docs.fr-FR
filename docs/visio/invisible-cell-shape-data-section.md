@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 5f368c2e-2a40-38ee-3568-ed5c57633345
 description: Détermine si l’élément de données de forme est visible ou non dans la fenêtre Données de forme.
-ms.openlocfilehash: 046ae26940da77297b1671af29ace286314dd730
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 9d9a5244369cd89187186f319098dc7303b24464
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582616"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775674"
 ---
 # <a name="invisible-cell-shape-data-section"></a>Invisible, cellule (section Shape Data)
 
@@ -22,8 +22,8 @@ Détermine si l’élément de données de forme est visible ou non dans la fen�
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Les données de forme ne sont pas visibles.  <br/> |
-| FALSE  <br/> | L'élément de données de forme est visible.  <br/> |
+| TRUE  <br/> | Les données de forme ne sont pas visibles. |
+| FALSE  <br/> | L'élément de données de forme est visible. |
    
 ## <a name="remarks"></a>Remarques
 
@@ -40,7 +40,7 @@ Pour obtenir une référence à la cellule Invisible à l'aide d'un index à par
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionProp** <br/> |
-| Index de la ligne :  <br/> |**visRowProp**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowProp** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCustPropsInvis** <br/> |
    
 

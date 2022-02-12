@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 94c44952-d297-4705-9778-90373dfa5ad6
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d825474be850a8e2a27341e09b07234ec1d07b38
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f5d7c8031dfcf6a0142603205eb9a334806a1067
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59571716"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773403"
 ---
 # <a name="imapimessagesitesavemessage"></a>IMAPIMessageSite::SaveMessage
 
@@ -43,9 +43,9 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les formulaires appellent la méthode **IMAPIMessageSite::SaveMessage** pour demander qu’un message soit enregistré. 
+Les formulaires **appellent la méthode IMAPIMessageSite::SaveMessage** pour demander qu’un message soit enregistré. 
   
-Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [MAPI Form Interfaces](mapi-form-interfaces.md).
+Pour obtenir la liste des interfaces liées aux serveurs de formulaires, voir [INTERFACES DE FORMULAIRE MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -53,7 +53,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI utilise la **méthode IMAPIMessageSite::SaveMessage** pour enregistrer le message.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI utilise la **méthode IMAPIMessageSite::SaveMessage** pour enregistrer le message. |
    
 ## <a name="see-also"></a>Voir aussi
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c0c4b668-f31b-336f-4434-e94a4804ff7c
 description: Numéro qui détermine l’ordre des actions qui apparaissent dans un menu contextuel ou de balise d’action.
-ms.openlocfilehash: 563bb5213d2fe1e43c16648ecef0955c779a4348
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: bc85e9d3aae9c914ddb088d44536b48b5dc26d36
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598009"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773900"
 ---
 # <a name="sortkey-cell-actions-section"></a>SortKey, cellule (section Actions)
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule SortKey par index dans un programme, 
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visActionSortKey** <br/> |
    
 

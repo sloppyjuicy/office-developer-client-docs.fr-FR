@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 59db25bc-0283-6f56-0aa9-9be98a3e9041
 description: Contient un OBJET BLOB MIME (Multipurpose Internet Mail Extensions) codé de données d’image, telles que Windows métafichier, bitmap ou données OLE.
-ms.openlocfilehash: 64e61e8919f780e9a3cc8d776d267af38929aba9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3bc7583c9b38fd1e0a19a06e67959771c3fcc688
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554781"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771511"
 ---
 # <a name="foreigndata-element-shapesheet_type-complextype-visio-xml"></a>Élément ForeignData (ShapeSheet_Type complexType) (Visio XML)
 
@@ -36,33 +36,33 @@ Contient un OBJET BLOB MIME (Multipurpose Internet Mail Extensions) codé de don
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une forme dans un **élément de forme de** groupe, page ou maître.   <br/> |
+|[Forme](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contient des éléments qui définissent une forme dans un **élément Master**, **Page** ou Group Shape. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[Rel](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Rel_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Spécifie une relation à un élément contenant les données d’image.  <br/> |
+|[Rel](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Rel_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Spécifie une relation à une partie contenant les données d’image. |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|CompressionLevel  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie le niveau de compression appliqué au fichier. Cet attribut n’est significatif que si les données étrangères sont un objet étranger basé sur raster, tel qu’un fichier DIB, JPG, PNG, TIFF ou GIF.  <br/> |Valeurs du type xsd:double.  <br/> |
-|CompressionType  <br/> |xsd:token  <br/> |facultatif  <br/> |Spécifie le type de compression appliqué au fichier. Cet attribut n’est significatif que si les données étrangères sont un objet étranger basé sur raster, tel qu’un fichier DIB, JPG, PNG, TIFF ou GIF  <br/> |Valeurs du type xsd:token.  <br/> |
-|ExtentX  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie l’étendue horizontale du métafichier. Cet attribut n’est significatif que si les données étrangères sont un métafichier.  <br/> |Valeurs du type xsd:double.  <br/> |
-|Extenty  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie l’étendue verticale du métafichier. Cet attribut n’est significatif que si les données étrangères sont un métafichier.  <br/> |Valeurs du type xsd:double.  <br/> |
-|ForeignType  <br/> |xsd:token  <br/> |obligatoire  <br/> |Indique le type metafile, EnhMetaFile, Bitmap, Object ou Ink.  <br/> |Valeurs du type xsd:token.  <br/> |
-|MappingMode  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> |Spécifie le mode de mappage de métafichier. Cet attribut n’est significatif que si les données étrangères sont un métafichier.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
-|ObjectHeight  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie la hauteur de l’objet en unités de page. Cet attribut n’est significatif que si les données étrangères sont un objet incorporé OLE2.  <br/> |Valeurs du type xsd:double.  <br/> |
-|ObjectType  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Un indicateur de type objet d’un nombre. Utilisé lorsque le type étranger est un objet.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|ObjectWidth  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie la largeur de l’objet en unités de page. Cet attribut n’est significatif que si les données étrangères sont un objet incorporé OLE2.  <br/> |Valeurs du type xsd:double.  <br/> |
-|ShowAsIcon  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique s’il faut afficher ou non les données incorporées sous forme d’icône.  <br/> |Valeurs du type xsd:boolean.  <br/> |
+|CompressionLevel  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie le niveau de compression appliqué au fichier. Cet attribut n’est significatif que si les données étrangères sont un objet étranger basé sur raster, tel qu’un fichier DIB, JPG, PNG, TIFF ou GIF. |Valeurs du type xsd:double. |
+|CompressionType  <br/> |xsd:token  <br/> |facultatif  <br/> |Spécifie le type de compression appliqué au fichier. Cet attribut n’est significatif que si les données étrangères sont un objet étranger basé sur raster, tel qu’un fichier DIB, JPG, PNG, TIFF ou GIF  <br/> |Valeurs du type xsd:token. |
+|ExtentX  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie l’étendue horizontale du métafichier. Cet attribut n’est significatif que si les données étrangères sont un métafichier. |Valeurs du type xsd:double. |
+|Extenty  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie l’étendue verticale du métafichier. Cet attribut n’est significatif que si les données étrangères sont un métafichier. |Valeurs du type xsd:double. |
+|ForeignType  <br/> |xsd:token  <br/> |obligatoire  <br/> |Indique le type metafile, EnhMetaFile, Bitmap, Object ou Ink. |Valeurs du type xsd:token. |
+|MappingMode  <br/> |xsd:unsignedShort  <br/> |facultatif  <br/> |Spécifie le mode de mappage de métafichier. Cet attribut n’est significatif que si les données étrangères sont un métafichier. |Valeurs du type xsd:unsignedShort. |
+|ObjectHeight  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie la hauteur de l’objet en unités de page. Cet attribut n’est significatif que si les données étrangères sont un objet incorporé OLE2. |Valeurs du type xsd:double. |
+|ObjectType  <br/> |xsd:unsignedInt  <br/> |facultatif  <br/> |Un indicateur de type objet d’un nombre-nombre. Utilisé lorsque le type étranger est un objet. |Valeurs du type xsd:unsignedInt. |
+|ObjectWidth  <br/> |xsd:double  <br/> |facultatif  <br/> |Spécifie la largeur de l’objet en unités de page. Cet attribut n’est significatif que si les données étrangères sont un objet incorporé OLE2. |Valeurs du type xsd:double. |
+|ShowAsIcon  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Indique s’il faut afficher ou non les données incorporées sous forme d’icône. |Valeurs du type xsd:boolean. |
    
 

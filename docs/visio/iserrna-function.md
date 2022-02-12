@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 6ee7dc3d-efe9-c862-f71d-034b3d9c3ec6
 description: 'Renvoie TRUE si la valeur de cellreference est de type erreur #N/A! (non disponible) ; Sinon, elle renvoie FALSE. La fonction ISERRNA est utilisée dans les formules qui font référence à une autre cellule.'
-ms.openlocfilehash: ad39cc4fb96600f90ff24673e591fbc409ae4d77
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2976bc61ee566410ef5f5254ed5085b98ab2e150
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612595"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775622"
 ---
 # <a name="iserrna-function"></a>Fonction ISERRNA
 
@@ -28,7 +28,7 @@ ISERRNA(** *cellreference* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à une cellule  <br/> |
+| _cellreference_ <br/> |Requis  <br/> |**String** <br/> |Référence à une cellule |
    
 ## <a name="example-1"></a>Exemple 1
 

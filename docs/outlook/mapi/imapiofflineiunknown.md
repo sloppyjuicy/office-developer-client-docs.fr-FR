@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 211281ff-3c22-1b51-4b72-ca1e313c7202
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 4531b7e4b2d1e88c994bd548721d1a4a88db050b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 758ff54c2745547884fd78592034350ec834411c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630704"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773410"
 ---
 # <a name="imapioffline--iunknown"></a>IMAPIOffline : IUnknown
 
@@ -37,14 +37,14 @@ Fournit des informations pour un objet hors connexion.
 
 |||
 |:-----|:-----|
-|**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Définit l’état actuel d’un objet hors connexion sur en ligne ou hors connexion.  <br/> |
-|**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Obtient les conditions pour lesquelles les rappels sont pris en charge par un objet hors connexion.  <br/> |
-|**[GetCurrentState](imapioffline-getcurrentstate.md)** <br/> |Obtient l’état actuel en ligne ou hors connexion d’un objet hors connexion.  <br/> |
-| *Membre d’espace réservé*  <br/> |Ce membre est un espace réservé et n’est pas pris en charge.  <br/> |
+|**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Définit l’état actuel d’un objet hors connexion sur en ligne ou hors connexion. |
+|**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Obtient les conditions pour lesquelles les rappels sont pris en charge par un objet hors connexion. |
+|**[GetCurrentState](imapioffline-getcurrentstate.md)** <br/> |Obtient l’état actuel en ligne ou hors connexion d’un objet hors connexion. |
+| *Membre d’espace réservé*  <br/> |Ce membre est un espace réservé et n’est pas pris en charge. |
    
 ## <a name="remarks"></a>Remarques
 
-Un client utilise **[HrOpenOfflineObj](hropenofflineobj.md)** pour ouvrir et obtenir un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. Étant donné que **IMAPIOfflineMgr** hérite d’IUnknown, le client peut interroger cette interface (à l’aide de [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)) pour obtenir un pointeur vers le pointeur d’interface pour **IMAPIOffline** pour l’objet hors connexion. [](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) Le client peut ensuite obtenir ou définir l’état actuel de l’objet, ou connaître les fonctionnalités de rappel de l’objet (en appelant **IMAPIOffline::GetCapabilities)** et choisir de configurer des rappels à l’aide d’IMAPIOfflineMgr . **[](imapiofflinemgrimapioffline.md)** 
+Un client utilise **[HrOpenOfflineObj](hropenofflineobj.md)** pour ouvrir et obtenir un objet hors connexion qui prend en charge **IMAPIOfflineMgr**. Étant **donné que IMAPIOfflineMgr** hérite [d’IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx), le client peut interroger cette interface (à l’aide de [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx)) pour obtenir un pointeur vers le pointeur d’interface pour **IMAPIOffline** pour l’objet hors connexion. Le client peut ensuite obtenir ou définir l’état actuel de l’objet, ou connaître les fonctionnalités de rappel de l’objet (en appelant **IMAPIOffline::GetCapabilities** ) et choisir de configurer des rappels à l’aide **[d’IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. 
   
 Un membre de cette interface est un espace réservé à l’utilisation interne de Microsoft Outlook 2013 et peut faire l’objet de changements. Les autres membres de cette interface doivent être utilisés uniquement comme documentés. 
   

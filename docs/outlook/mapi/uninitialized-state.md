@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: e071b50f-2e75-4537-ac7b-4a2f5ebea83d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f2c2d31033ee77e1de581045012be632f15c5dc4
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 5faa0d7680b2be561f97741e7898a15321202551
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59609235"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774761"
 ---
 # <a name="uninitialized-state"></a>État nonnitialisé
 
@@ -25,11 +25,11 @@ L’état Non initialisé est l’état initial dans les objets de formulaire d�
   
 |**Méthode IPersistMessage**|**Action**|**Nouvel état**|
 |:-----|:-----|:-----|
-|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Chargez l’objet de formulaire avec les données par défaut.  <br/> |[Normal](normal-state.md) <br/> |
-|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Chargez l’objet de formulaire avec les données du message cible.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Renvoyer la réussite ou définir la dernière erreur sur et renvoyer E_UNEXPECTED.  <br/> |Nonnitialisé  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Renvoyer la dernière erreur.  <br/> |Nonnitialisé  <br/> |
-|Autres [méthodes IPersistMessage : méthodes ou méthodes IUnknown](ipersistmessageiunknown.md) à partir d’autres interfaces  <br/> |Définissez la dernière erreur sur et renvoyez E_UNEXPECTED.  <br/> |Nonnitialisé  <br/> |
+|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Chargez l’objet de formulaire avec les données par défaut. |[Normal](normal-state.md) <br/> |
+|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Chargez l’objet de formulaire avec les données du message cible. |Normal  <br/> |
+|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Renvoyer la réussite ou définir la dernière erreur sur et renvoyer E_UNEXPECTED. |Nonnitialisé  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Renvoyer la dernière erreur. |Nonnitialisé  <br/> |
+|Autres [méthodes IPersistMessage : méthodes ou méthodes IUnknown](ipersistmessageiunknown.md) à partir d’autres interfaces  <br/> |Définissez la dernière erreur sur et renvoyez E_UNEXPECTED. |Nonnitialisé  <br/> |
    
 ## <a name="see-also"></a>Voir aussi
 

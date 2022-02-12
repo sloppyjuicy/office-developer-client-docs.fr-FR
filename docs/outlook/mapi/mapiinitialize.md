@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 5a632b9ccb31220620ae010dd52b7a147a02c050
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b7182962e149d6dabd4a986347f2c99f18c77657
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592108"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773255"
 ---
 # <a name="mapiinitialize"></a>MAPIInitialize
 
@@ -55,7 +55,7 @@ S_OK
 
 La **fonction MAPIInitialize** incrémente le nombre de références MAPI pour le sous-système MAPI, et la fonction [MAPIUninitialize](mapiuninitialize.md) décrémente le nombre de références internes. Par conséquent, le nombre d’appels à une fonction doit être égal au nombre d’appels à l’autre. **MAPIInitialize** renvoie S_OK si MAPI n’a pas été initialisé précédemment. 
   
-Un client ou un fournisseur de services doit appeler **MAPIInitialize avant** d’effectuer tout autre appel MAPI. Si vous ne le faites pas, les appels du client ou du fournisseur de services retournent la MAPI_E_NOT_INITIALIZED valeur. 
+Un client ou un fournisseur de services doit appeler **MAPIInitialize** avant d’effectuer tout autre appel MAPI. Si vous ne le faites pas, les appels du client ou du fournisseur de services retournent la MAPI_E_NOT_INITIALIZED valeur. 
   
 Lorsque vous appelez **MAPIInitialize** à partir d’une application multithread, définissez le paramètre  _lpMapiInit_ sur une structure [MAPIINIT_0](mapiinit_0.md) déclarée comme suit : 
   
@@ -63,14 +63,14 @@ Lorsque vous appelez **MAPIInitialize** à partir d’une application multithrea
   
 et appelez : 
   
- **MAPIInitialize** ( &amp; MAPIINIT) ; 
+ **MAPIInitialize** (&amp;MAPIINIT) ; 
   
 Lorsque cette structure est déclarée, MAPI crée un thread distinct pour gérer la fenêtre de notification, qui se poursuit jusqu’à ce que le nombre de références d’initialisation tombe à zéro. Un service Windows doit définir le membre **lags** de la structure **MAPIINIT_0** pointée par _lpMapiInit_ sur MAPI_NT_SERVICE. 
   
 > [!NOTE]
 > Vous ne pouvez pas appeler **MAPIInitialize** ou **MAPIUninitialize** à partir d’une fonction **Win32 DllMain** ou toute autre fonction qui crée ou termine des threads. Pour plus d’informations, [voir Using Thread-Safe Objects](using-thread-safe-objects.md). 
   
- **MAPIInitialize ne retourne** aucune information d’erreur étendue. Contrairement à la plupart des autres appels MAPI, les significations de ses valeurs de retour sont strictement définies pour correspondre à l’étape particulière de l’initialisation qui a échoué : 
+ **MAPIInitialize ne** retourne aucune information d’erreur étendue. Contrairement à la plupart des autres appels MAPI, les significations de ses valeurs de retour sont strictement définies pour correspondre à l’étape particulière de l’initialisation qui a échoué : 
   
 1. Vérifie les paramètres et les indicateurs.
     
@@ -106,7 +106,7 @@ Lorsque cette structure est déclarée, MAPI crée un thread distinct pour gére
     
 7. Charge et initialise le fournisseur de profils. Vérifie que **MAPIInitialize** peut accéder à la clé de Registre dans laquelle les données de profil sont stockées. 
     
-    MAPI_E_NOT_INITIALIZED. Le fournisseur de profil a rencontré une erreur. 
+    MAPI_E_NOT_INITIALIZED. Le fournisseur de profils a rencontré une erreur. 
     
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -114,7 +114,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> ||MFCMAPI utilise la **méthode MAPIInitialize** pour initialiser MAPI sur un thread d’arrière-plan pour traiter certaines tables.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> ||MFCMAPI utilise la **méthode MAPIInitialize** pour initialiser MAPI sur un thread d’arrière-plan pour traiter certaines tables. |
    
 ## <a name="see-also"></a>Voir aussi
 

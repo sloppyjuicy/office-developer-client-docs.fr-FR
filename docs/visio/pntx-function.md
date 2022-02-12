@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b64abbd7-38df-9756-23c6-4457be987464
 description: Renvoie la coordonnée x d’un point.
-ms.openlocfilehash: 298000bcc2b116d3947ab8358569e39f13438cb9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8417bf64611a490aa958b52897f3104d78825541
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554207"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775338"
 ---
 # <a name="pntx-function"></a>Fonction PNTX
 
@@ -28,7 +28,7 @@ PNTX(** *point* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Obligatoire  <br/> |**Number** <br/> |Coordonnée  _x_ du point.  <br/> |
+| _point_ <br/> |Requis  <br/> |**Number** <br/> |Coordonnée  _x_ du point. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

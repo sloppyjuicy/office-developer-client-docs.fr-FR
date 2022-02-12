@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c42d4d2e-f8f0-bc5b-6018-4bb4ffa81b64
 description: Détermine le niveau de transparence de la couleur utilisée pour le premier plan (trait) du motif de remplissage de l'ombre de la forme.
-ms.openlocfilehash: 362e4271d44cc44741ef90dc04392b6dda908e51
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 968127e2c254db545e7ef6deeb7016728cdc3ba0
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607681"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771100"
 ---
 # <a name="shdwforegndtrans-cell-fill-format-section"></a>ShdwForegndTrans, cellule (section Fill Format)
 
@@ -22,7 +22,7 @@ Détermine le niveau de transparence de la couleur utilisée pour le premier pla
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque).  <br/> |
+|0 - 100  <br/> |Représente le pourcentage de transparence. La valeur par défaut est 0 % (entièrement opaque). |
    
 ## <a name="remarks"></a>Remarques
 

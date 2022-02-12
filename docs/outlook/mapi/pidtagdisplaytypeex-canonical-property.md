@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 23074402-6ac1-47f1-8a49-b8909f98a26e
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3a40e4c8a7a4380304e57998b8f54a209f463bf9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1b13b1514bf98f38a23b50c8b649bace6f6e4f25
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59550693"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770688"
 ---
 # <a name="pidtagdisplaytypeex-canonical-property"></a>Propriété canonique PidTagDisplayTypeEx
 
@@ -36,7 +36,7 @@ Contient le type d’une entrée, par rapport à la façon dont l’entrée doit
    
 ## <a name="remarks"></a>Remarques
 
-Cette propriété spécifie le type d’une entrée, en ce qui concerne la façon dont elle doit être affichée dans la liste d’adresses globale. Il fournit des informations supplémentaires qui ne peuvent pas être représentées **dans PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
+Cette propriété spécifie le type d’une entrée, par rapport à la façon dont elle doit être affichée dans la liste d’adresses globale. Il fournit des informations supplémentaires qui ne peuvent pas être représentées **dans PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
   
 > [!NOTE]
 > Les valeurs de **PR_DISPLAY_TYPE** et de cette propriété commencent par « DT_ » et sont définies dans Mapitags.h. Toutes les valeurs non documentées sont réservées à MAPI. Les applications clientes ne doivent pas définir de nouvelles valeurs et doivent être prêtes à traiter une valeur nondocumentée. 
@@ -51,7 +51,7 @@ Certaines macros peuvent aider à déterminer les attributs d’un objet, par ex
 |DTE_MASK_LOCAL  <br/> |0x000000ff  <br/> |
 |DTE_IS_REMOTE_VALID(v)  <br/> |(!! ((v) &amp; DTE_FLAG_REMOTE_VALID)  <br/> |
 |DTE_IS_ACL_CAPABLE(v)  <br/> |(!! ((v) &amp; DTE_FLAG_ACL_CAPABLE))  <br/> |
-|DTE_REMOTE(v)  <br/> |((v) &amp; DTE_MASK_REMOTE) \> \> 8)  <br/> |
+|DTE_REMOTE(v)  <br/> |((v) &amp; DTE_MASK_REMOTE) \>\> 8)  <br/> |
 |DTE_LOCAL(v)  <br/> |((v) &amp; DTE_MASK_LOCAL)  <br/> |
 |DT_ROOM  <br/> |((ULONG) 0x00000007)  <br/> |
 |DT_EQUIPMENT  <br/> |((ULONG) 0x00000008)  <br/> |
@@ -59,11 +59,11 @@ Certaines macros peuvent aider à déterminer les attributs d’un objet, par ex
    
 Voici quelques remarques sur l’utilisation de ces macros. 
   
-- Pour vérifier si une entrée est une entrée distante dans une autre forêt, appliquez la macro DTE_IS_REMOTE_VALID à la valeur de cette propriété pour vérifier si l’indicateur DTE_FLAG_REMOTE_VALID est définie dans l’entrée. S’il s’agit d’une entrée distante, vous pouvez ensuite connaître le type de l’entrée distante à l’aide de la macro DTE_REMOTE distante. 
+- Pour vérifier si une entrée est une entrée distante dans une autre forêt, appliquez la macro DTE_IS_REMOTE_VALID à la valeur de cette propriété pour vérifier si l’indicateur DTE_FLAG_REMOTE_VALID est définie dans l’entrée. S’il s’agit d’une entrée distante, vous pouvez ensuite connaître le type de l’entrée distante à l’aide de DTE_REMOTE macro. 
     
 - Dans les configurations à forêt unique et entre forêts, lorsque **PR_DISPLAY_TYPE** a la valeur DT_DISTLIST et DTE_IS_REMOTE_VALID est false, l’application de la DTE_LOCAL macro à la valeur de cette propriété peut vous aider à identifier davantage le type de l’objet en tant que DT_DISTLIST (liste de distribution) ou DT_SEC_DISTLIST (liste de distribution de sécurité). 
     
-- Si vous appliquez la macro DTE_LOCAL la valeur de **PR_DISPLAY_TYPE_EX** et qu’elle renvoie le type DT_REMOTE_MAILUSER, l’entrée est une entrée distante. 
+- Si vous appliquez la DTE_LOCAL macro à la valeur **de PR_DISPLAY_TYPE_EX** et qu’elle renvoie le type DT_REMOTE_MAILUSER, l’entrée est une entrée distante. 
     
 - Dans une forêt unique ou dans une configuration entre forêts où la réplication est contrôlée par une liste de contrôle d’accès (ACL), vous pouvez utiliser la macro DTE_IS_ACL_CAPABLE pour déterminer si une entrée est un principal de sécurité.
     
@@ -71,20 +71,20 @@ Dans une configuration entre forêts, **PR_DISPLAY_TYPE** a la valeur de DT_REMO
   
 |**Type d’entrée distante**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|DT_AGENT  <br/> |((ULONG) 0x00000003)  <br/> |Liste de distribution dynamique.  <br/> |
-|DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Liste de distribution.  <br/> |
-|DT_EQUIPMENT  <br/> |((ULONG) 0x00000008)  <br/> |Équipement, par exemple, une imprimante ou un projecteur.  <br/> |
-|DT_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |Utilisateur avec une boîte aux lettres.  <br/> |
-|DT_REMOTE_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |Une entrée de liste d’adresses dans la liste d’adresses globale.  <br/> |
-|DT_ROOM  <br/> |((ULONG) 0x00000007)  <br/> |Salle de conférence.  <br/> |
-|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Liste de distribution de sécurité.  <br/> |
+|DT_AGENT  <br/> |((ULONG) 0x00000003)  <br/> |Liste de distribution dynamique. |
+|DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Liste de distribution. |
+|DT_EQUIPMENT  <br/> |((ULONG) 0x00000008)  <br/> |Équipement, par exemple, une imprimante ou un projecteur. |
+|DT_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |Utilisateur avec une boîte aux lettres. |
+|DT_REMOTE_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |Une entrée de liste d’adresses dans la liste d’adresses globale. |
+|DT_ROOM  <br/> |((ULONG) 0x00000007)  <br/> |Salle de conférence. |
+|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Liste de distribution de sécurité. |
    
 Dans une seule forêt et dans une configuration entre forêts, lorsque **PR_DISPLAY_TYPE** a la valeur DT_DISTLIST et DTE_IS_REMOTE_VALID est false, l’application de la macro DTE_LOCAL à la valeur de cette propriété peut vous aider à obtenir le type de la liste de distribution. Les types de liste de distribution possibles sont les suivants : 
   
 |**Type de liste de distribution**|**Valeur**|**Description**|
 |:-----|:-----|:-----|
-|DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Liste de distribution.  <br/> |
-|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Liste de distribution de sécurité.  <br/> |
+|DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Liste de distribution. |
+|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Liste de distribution de sécurité. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 28b18e8d-fecf-a798-813e-c1a310002244
 description: Cellule de montage utilisable pour entrer ou tester des formules.
-ms.openlocfilehash: 3db35be72fb80c7f08a751e961535403b5ceff8f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 38562e9e3e784e8e5e336bf37b1de6cada2df997
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613015"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771649"
 ---
 # <a name="d-cell-connection-points-section"></a>D, cellule (section Connection Points)
 
@@ -28,14 +28,14 @@ Pour obtenir une référence à la cellule D par un nom à partir d'une autre fo
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Connections.D[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Connections.D[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule D à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionConnectionPts** <br/> |
-| Index de la ligne :  <br/> |**visRowConnectionPts**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowConnectionPts** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCnnctD** <br/> |
    
 

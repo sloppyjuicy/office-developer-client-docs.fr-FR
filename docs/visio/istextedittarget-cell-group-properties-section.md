@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: Détermine l'attribution de texte à un groupe.
-ms.openlocfilehash: 8f33be46a6d5da733c34f4e0d57e39495fb8e36a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f23e1196221e5140d5ed8f29c4766264eec02c1d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59612581"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771306"
 ---
 # <a name="istextedittarget-cell-group-properties-section"></a>IsTextEditTarget, cellule (section Group Properties)
 
@@ -22,8 +22,8 @@ Détermine l'attribution de texte à un groupe.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Le texte est ajouté à la forme de groupe.  <br/> |
-|FALSE  <br/> |Le texte est ajouté dans le groupe à la forme qui se trouve au premier rang de la pile.  <br/> |
+|TRUE  <br/> |Le texte est ajouté à la forme de groupe. |
+|FALSE  <br/> |Le texte est ajouté dans le groupe à la forme qui se trouve au premier rang de la pile. |
    
 ## <a name="remarks"></a>Remarques
 

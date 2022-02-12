@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: c48a77e1-ea3c-7a6d-8c05-f9e0cb434cda
 description: Détermine si du texte est barré double.
-ms.openlocfilehash: 0589acb6dcec0664c749f1b48af4a0b3e67db177
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 226f39552d0eda012023cf9d841aae9bead6a40a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59590274"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774369"
 ---
 # <a name="doublestrikethrough-cell-character-section"></a>DoubleStrikethrough, cellule (section Character)
 
@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule DoubleStrikethrough par un nom à par
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Char.DoubleStrikethrough[  *i*  ] où  *i*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Char.DoubleStrikethrough[  *i*  ] où  *i*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule DoubleStrikethrough à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionCharacter** <br/> |
-| Index de la ligne :  <br/> |**visRowCharacter**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowCharacter** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCharacterDoubleStrikethrough** <br/> |
    
 

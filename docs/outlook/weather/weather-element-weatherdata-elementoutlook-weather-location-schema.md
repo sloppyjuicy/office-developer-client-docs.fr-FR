@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
 description: Spécifie l’emplacement où signaler la météo.
-ms.openlocfilehash: 89b384579e1bfce38f75f573c642323db9d60cb5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3f38e752c95391aa9f71d36a395c981ef9db3d86
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570749"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770632"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>élément météo (élément weatherdata) (Outlook Weather Location Schema)
 
@@ -37,13 +37,13 @@ Spécifie l’emplacement où signaler la météo.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[weatherdata](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Définit l’élément météo.  <br/> |
+|[weatherdata](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Définit l’élément météo. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -53,7 +53,7 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|weatherlocationcode  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie un code associé à l’emplacement pour distinguer plusieurs emplacements du même nom.  <br/> |Valeur du type xs:string  <br/> |
-|weatherlocationname  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie le nom de l’emplacement.  <br/> |Valeur du type xs:string  <br/> |
+|weatherlocationcode  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie un code associé à l’emplacement pour distinguer plusieurs emplacements du même nom. |Valeur du type xs:string  <br/> |
+|weatherlocationname  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie le nom de l’emplacement. |Valeur du type xs:string  <br/> |
    
 

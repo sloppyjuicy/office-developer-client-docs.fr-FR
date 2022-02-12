@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f18c2dd1-366f-48b4-b335-ebbc0651f467
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: f83ac53c78f822e345e1c68e7255e5342ffd287a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ece6a2170100d6253437cbd31e6d39664583aa64
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551386"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773557"
 ---
 # <a name="imapiformcontainerresolvemultiplemessageclasses"></a>IMAPIFormContainer::ResolveMultipleMessageClasses
 
@@ -51,7 +51,7 @@ MAPIFORM_EXACTMATCH
     
  _ppfrminfoarray_
   
-> [out] Pointeur vers un pointeur vers un tableau d’objets d’informations de formulaire. Si une application cliente transmet la valeur NULL dans le paramètre  _pMsgClassArray,_ le paramètre  _ppfrminfoarray_ contient des objets d’informations de formulaire pour tous les formulaires dans le conteneur. 
+> [out] Pointeur vers un pointeur vers un tableau d’objets d’informations de formulaire. Si une application cliente transmet la valeur NULL dans le paramètre _pMsgClassArray_ , le paramètre  _ppfrminfoarray_ contient des objets d’informations de formulaire pour tous les formulaires dans le conteneur. 
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -61,13 +61,13 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-Les applications clientes appellent la méthode **IMAPIFormContainer::ResolveMultipleMessageClasses** pour résoudre un groupe de classes de message en formulaires dans un conteneur de formulaires. Le tableau des objets d’informations de formulaire renvoyés dans le paramètre  _ppfrminfoarray_ fournit un accès supplémentaire à chacune des propriétés des formulaires. 
+Les applications clientes appellent **la méthode IMAPIFormContainer::ResolveMultipleMessageClasses** pour résoudre un groupe de classes de message en formulaires dans un conteneur de formulaires. Le tableau des objets d’informations de formulaire renvoyés dans le paramètre _ppfrminfoarray_ fournit un accès supplémentaire à chacune des propriétés des formulaires. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Pour résoudre un groupe de classes de message en formulaires, passez un tableau de noms de classes de messages à résoudre. Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message), l’indicateur MAPIFORM_EXACTMATCH peut être transmis dans le paramètre _ulFlags._ 
+Pour résoudre un groupe de classes de message en formulaires, passez un tableau de noms de classes de messages à résoudre. Pour forcer la résolution à être exacte (c’est-à-dire pour empêcher la résolution à une classe de base de la classe de message), l’indicateur MAPIFORM_EXACTMATCH peut être passé dans le paramètre _ulFlags_ . 
   
-Si une classe de message ne peut pas être résolue en formulaire, null est renvoyé pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, ne supposez pas que toutes les classes de message ont été correctement résolues. Vérifiez plutôt les valeurs dans le tableau renvoyé.
+Si une classe de message ne peut pas être résolue en formulaire, la valeur NULL est renvoyée pour cette classe de message dans le tableau d’informations du formulaire. Par conséquent, même si la méthode renvoie S_OK, ne supposez pas que toutes les classes de message ont été correctement résolues. Vérifiez plutôt les valeurs dans le tableau renvoyé.
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -75,7 +75,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMultipleMessageClasses  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::ResolveMultipleMessageClasses** pour localiser un formulaire associé à un ensemble de classes de messages.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnResolveMultipleMessageClasses  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::ResolveMultipleMessageClasses** pour localiser un formulaire associé à un ensemble de classes de messages. |
    
 ## <a name="see-also"></a>Voir aussi
 

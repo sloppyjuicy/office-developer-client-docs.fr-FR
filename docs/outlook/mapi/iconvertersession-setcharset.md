@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: b951eeb555f800d1e625e68806ba6b19352410b5
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 441d9915ee0e3f5832125dfd6677a0f7b0823b74
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616830"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772160"
 ---
 # <a name="iconvertersessionsetcharset"></a>IConverterSession::SetCharSet
 
@@ -42,7 +42,7 @@ HRESULT SetCharset(
     
  _hcharset_
   
-> [in] Handle vers un jeu de caractères défini dans mimeole.h de Windows Mail. Spécifiez **null** pour spécifier que vous ne souhaitez pas appliquer de jeu de caractères spécifique. Pour les valeurs **non null,** utilisez une fonction telle que [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) pour obtenir un handle vers le jeu de caractères. 
+> [in] Handle vers un jeu de caractères défini dans mimeole.h de Windows Mail. **Spécifiez null** pour spécifier que vous ne souhaitez pas appliquer de jeu de caractères spécifique. Pour les valeurs **non null** , utilisez une fonction telle que [MimeOleGetCodePageCharset](https://msdn.microsoft.com/library/ms714746%28VS.85%29.aspx) pour obtenir un handle pour le jeu de caractères. 
     
  _csetapplytype_
   
@@ -60,8 +60,8 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI utilise MimeToMAPI pour convertir un fichier EML en message MAPI. |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI utilise MAPIToMIMEStm pour convertir un message MAPI en fichier EML. |
    
 ## <a name="see-also"></a>Voir aussi
 

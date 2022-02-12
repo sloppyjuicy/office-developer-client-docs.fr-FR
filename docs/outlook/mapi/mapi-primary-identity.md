@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8787a873-6752-4b17-8ea3-8fed793e1371
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: dd0ffa1d8c9d2b8b8a65fd8434fc382f6ee77547
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a407f5e2682e321684003fc11e134219788d7289
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610236"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773242"
 ---
 # <a name="mapi-primary-identity"></a>MAPI Primary Identity
 
@@ -39,7 +39,7 @@ Bien que plusieurs services de message peuvent déclarer leur capacité à fourn
     
 - Lorsqu’un client appelle **IMsgServiceAdmin::SetPrimaryIdentity** pour établir explicitement un service de message particulier en tant que fournisseur de l’identité de session. Pour plus d’informations. Voir [IMsgServiceAdmin::SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md).
     
-Lorsqu’un profil est créé, MAPI désigne le premier service de message à configurer qui inclut un fournisseur avec l’indicateur STATUS_PRIMARY_IDENTITY définie dans sa propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) pour fournir l’identité principale. Dans le service de message désigné, le premier fournisseur à être configuré avec cet indicateur de ressource est choisi pour fournir l’identité du service. L STATUS_PRIMARY_IDENTITY est effacé pour tous les autres fournisseurs du service désigné et d’autres services de messagerie dans le profil. Si, à un moment quelconque, le fournisseur fournissant l’identité principale est supprimé du profil, MAPI attribue le rôle au fournisseur suivant à configurer et qui peut fournir l’identité. Cela est déterminé par l’apparence de l’entrée dans la section du fournisseur  `PR_RESOURCE_FLAGS=STATUS_PRIMARY_IDENTITY` dans MAPISVC.INF. 
+Lorsqu’un profil est créé, MAPI désigne le premier service de message à configurer qui inclut un fournisseur avec l’indicateur STATUS_PRIMARY_IDENTITY définie dans sa propriété **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) pour fournir l’identité principale. Dans le service de message désigné, le premier fournisseur à être configuré avec cet indicateur de ressource est choisi pour fournir l’identité du service. L STATUS_PRIMARY_IDENTITY est effacé pour tous les autres fournisseurs du service désigné et d’autres services de messagerie dans le profil. Si, à un moment quelconque, le fournisseur fournissant l’identité principale est supprimé du profil, MAPI attribue le rôle au fournisseur suivant à configurer et qui peut fournir l’identité. Cela est déterminé par l’apparence de l’entrée  `PR_RESOURCE_FLAGS=STATUS_PRIMARY_IDENTITY` dans la section du fournisseur dans MAPISVC.INF. 
   
 Lorsqu’un client appelle la méthode **IMsgServiceAdmin::SetPrimaryIdentity** d’un service de messagerie, il spécifie le MAPIUID pour un fournisseur de services au sein du service cible. Pour plus d’informations, [voir MAPIUID](mapiuid.md). Le fournisseur de services représenté par **MAPIUID** est affecté pour fournir l’identité principale pour le service de message et pour la session, et tous les autres fournisseurs du service partageront cette identité. 
   
@@ -47,12 +47,12 @@ Chaque fournisseur du service de messagerie responsable de la fourniture de l’
   
 |**Propriété d’identité principale**|**Définition sur**|
 |:-----|:-----|
-|**PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md))  <br/> |Nom complet de l’objet fournissant l’identité principale.  <br/> |
-|**PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md))  <br/> |Clé de recherche de l’objet fournissant l’identité principale.  <br/> |
-|**PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md))  <br/> |Identificateur d’entrée de l’objet fournissant l’identité principale.  <br/> |
+|**PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md))  <br/> |Nom complet de l’objet fournissant l’identité principale. |
+|**PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md))  <br/> |Clé de recherche de l’objet fournissant l’identité principale. |
+|**PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md))  <br/> |Identificateur d’entrée de l’objet fournissant l’identité principale. |
    
  **Pour récupérer l’identificateur d’entrée de l’objet fournissant l’identité principale**
   
-- Appelez **la méthode IMAPISession::QueryIdentity.** Pour plus d’informations, [voir IMAPISession::QueryIdentity](imapisession-queryidentity.md). **QueryIdentity** recherche dans la table d’état la ligne qui contient la valeur STATUS_PRIMARY_IDENTITY dans sa colonne **PR_RESOURCE_FLAGS** et renvoie la **PR_IDENTITY_ENTRYID** correspondante en tant qu’identificateur d’entrée pour l’identité principale. 
+- Appelez **la méthode IMAPISession::QueryIdentity** . Pour plus d’informations, [voir IMAPISession::QueryIdentity](imapisession-queryidentity.md). **QueryIdentity** recherche dans la table d’état la ligne qui contient la valeur STATUS_PRIMARY_IDENTITY dans sa colonne **PR_RESOURCE_FLAGS** et renvoie le **PR_IDENTITY_ENTRYID** correspondant en tant qu’identificateur d’entrée pour l’identité principale. 
     
 

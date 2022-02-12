@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 158b4188-570c-3817-bf34-8dc0c64befa5
 description: Contrôle si l’action d’un menu contextuel ou de balise d’action est en lecture seule.
-ms.openlocfilehash: af4a2d4945032a100d39440c9c3bed427d310c06
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 6f9e2dd875687aa626775e1adbc2df659a663ae1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559737"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774054"
 ---
 # <a name="readonly-cell-actions-section"></a>ReadOnly, cellule (section Actions)
 
@@ -25,8 +25,8 @@ Contrôle si l’action d’un menu contextuel ou de balise d’action est en le
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |L'action apparaît dans le menu mais est en lecture seule.  <br/> |
-|FALSE  <br/> |L'action apparaît dans le menu et peut être sélectionnée (valeur par défaut).  <br/> |
+|TRUE  <br/> |L'action apparaît dans le menu mais est en lecture seule. |
+|FALSE  <br/> |L'action apparaît dans le menu et peut être sélectionnée (valeur par défaut). |
    
 ## <a name="remarks"></a>Remarques
 
@@ -43,7 +43,7 @@ Pour obtenir une référence à la cellule ReadOnly à l'aide d'un index à part
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionAction** <br/> |
-|Index de la ligne :  <br/> |**visRowAction**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRowAction** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visActionReadOnly** <br/> |
    
 

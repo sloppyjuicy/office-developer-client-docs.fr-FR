@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 4168cd98-9674-1233-254f-0afe81b7245b
 description: Stocke les relations entre les conteneurs, les listes, les légendes et les formes.
-ms.openlocfilehash: 43c07585d9d057a57db9df342c3d7df35b0bafd9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7bcff00d67ed32d5b9c11b7b7f10954dc447672f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59607835"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770400"
 ---
 # <a name="relationships-cell-shape-layout-section"></a>Relationships, cellule (section Shape Layout)
 
@@ -26,17 +26,17 @@ Stocke les relations entre les conteneurs, les listes, les légendes et les form
   
 |**Premier paramètre**|**Paramètres supplémentaires**|
 |:-----|:-----|
-|1  <br/> |Formes membres de ce conteneur.  <br/> |
-|2  <br/> |Formes membres de cette liste.  <br/> |
-|3  <br/> |Légendes associées à cette forme.  <br/> |
-|4   <br/> |Conteneurs dont cette forme est membre.  <br/> |
-|5  <br/> |Liste dont cet élément de liste est membre.  <br/> |
-|6   <br/> |Forme associée à cette légende.  <br/> |
-|7   <br/> |Conteneur sur le bord de la limite gauche sur laquelle réside la forme.  <br/> |
-|8   <br/> |Conteneur sur le bord de la limite droite sur laquelle réside la forme.  <br/> |
-|9   <br/> |Conteneur sur le bord de la limite haute sur laquelle réside la forme.  <br/> |
-|10  <br/> |Conteneur sur le bord de la limite basse sur laquelle réside la forme.  <br/> |
-|11  <br/> |Liste sur laquelle chevauche cette liste.  <br/> |
+|1  <br/> |Formes membres de ce conteneur. |
+|2  <br/> |Formes membres de cette liste. |
+|3  <br/> |Légendes associées à cette forme. |
+|4  <br/> |Conteneurs dont cette forme est membre. |
+|5  <br/> |Liste dont cet élément de liste est membre. |
+|6   <br/> |Forme associée à cette légende. |
+|7   <br/> |Conteneur sur le bord de la limite gauche sur laquelle réside la forme. |
+|8   <br/> |Conteneur sur le bord de la limite droite sur laquelle réside la forme. |
+|9   <br/> |Conteneur sur le bord de la limite haute sur laquelle réside la forme. |
+|10  <br/> |Conteneur sur le bord de la limite basse sur laquelle réside la forme. |
+|11  <br/> |Liste sur laquelle chevauche cette liste. |
    
 Pour obtenir une référence à la cellule Relationships par un nom à partir d’une autre formule ou d’un programme en faisant appel à la propriété **CellsU**, utilisez : 
   

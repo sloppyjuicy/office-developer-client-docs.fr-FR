@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 618a973d117af50960c204e4d33684aa29a6dd59
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: c01d8a2e9646ef4fc9270f44a1021da583dfa6eb
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59587145"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771866"
 ---
 # <a name="pidtagresolvemethod-canonical-property"></a>Propriété canonique PidTagResolveMethod
 
@@ -40,11 +40,11 @@ Cette propriété du dossier contenant le message de résolution de conflit indi
   
 |||
 |:-----|:-----|
-|RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |Un message de résolution de conflit doit être généré.  <br/> |
-|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Overwrite target message with current changes being applied.  <br/> |
-|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |N’envoyez pas de message de notification de conflit lors de la génération d’un message de résolution de conflit dans un dossier public.  <br/> |
+|RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |Un message de résolution de conflit doit être généré. |
+|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Overwrite target message with current changes being applied. |
+|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |N’envoyez pas de message de notification de conflit lors de la génération d’un message de résolution de conflit dans un dossier public. |
    
-Un client ou un serveur ne doit pas générer de message de résolution de conflit pour les messages associés. Ces messages doivent être  résolus à l’aide RESOLVE_METHOD_LAST_WRITER_WINS sémantique. 
+Un client ou un serveur ne doit pas générer de message de résolution de conflit pour les messages associés. Ces messages doivent être résolus à l’aide **RESOLVE_METHOD_LAST_WRITER_WINS sémantique** . 
   
 ## <a name="related-resources"></a>Ressources connexes
 

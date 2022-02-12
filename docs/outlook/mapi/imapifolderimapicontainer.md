@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 162e31574cc182c93ffcda5f9d38f045f7e7e152
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8da401207ba3e6341ffbe85de2b474103ff986bc
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59551400"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773578"
 ---
 # <a name="imapifolder--imapicontainer"></a>IMAPIFolder : IMAPIContainer
 
@@ -41,17 +41,17 @@ Effectue des opérations sur les messages et sous-dossiers d’un dossier.
 
 |||
 |:-----|:-----|
-|[CreateMessage](imapifolder-createmessage.md) <br/> |Crée un message.  <br/> |
-|[CopyMessages](imapifolder-copymessages.md) <br/> |Copie ou déplace un ou plusieurs messages.  <br/> |
-|[DeleteMessages](imapifolder-deletemessages.md) <br/> |Supprime un ou plusieurs messages.  <br/> |
-|[CreateFolder](imapifolder-createfolder.md) <br/> |Crée un sous-ensemble.  <br/> |
-|[CopyFolder](imapifolder-copyfolder.md) <br/> |Copie ou déplace un sous-folder.  <br/> |
-|[DeleteFolder](imapifolder-deletefolder.md) <br/> |Supprime un sous-foldeur.  <br/> |
-|[SetReadFlags](imapifolder-setreadflags.md) <br/> |Définit ou désine l’indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d’un ou plusieurs messages du dossier et gère l’envoi de rapports de lecture.  <br/> |
-|[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |Obtient l’état associé à un message dans un dossier particulier.  <br/> |
-|[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |Définit l’état associé à un message.  <br/> |
-|[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Définit l’ordre de tri par défaut pour la table des matières d’un dossier.  <br/> |
-|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Supprime tous les messages et sous-dossiers d’un dossier sans supprimer le dossier lui-même.  <br/> |
+|[CreateMessage](imapifolder-createmessage.md) <br/> |Crée un message. |
+|[CopyMessages](imapifolder-copymessages.md) <br/> |Copie ou déplace un ou plusieurs messages. |
+|[DeleteMessages](imapifolder-deletemessages.md) <br/> |Supprime un ou plusieurs messages. |
+|[CreateFolder](imapifolder-createfolder.md) <br/> |Crée un sous-ensemble. |
+|[CopyFolder](imapifolder-copyfolder.md) <br/> |Copie ou déplace un sous-folder. |
+|[DeleteFolder](imapifolder-deletefolder.md) <br/> |Supprime un sous-folder. |
+|[SetReadFlags](imapifolder-setreadflags.md) <br/> |Définit ou désine l’indicateur MSGFLAG_READ dans la propriété **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) d’un ou plusieurs messages du dossier et gère l’envoi de rapports de lecture. |
+|[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |Obtient l’état associé à un message dans un dossier particulier. |
+|[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |Définit l’état associé à un message. |
+|[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Définit l’ordre de tri par défaut pour la table des matières d’un dossier. |
+|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Supprime tous les messages et sous-dossiers d’un dossier sans supprimer le dossier lui-même. |
    
 |**Propriétés requises**|**Access**|
 |:-----|:-----|

@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 34e25349-d0fa-b3a0-425b-778184e9f58f
 description: Contient tous les éléments DataColumn d’un ensemble d’enregistrements de données.
-ms.openlocfilehash: f850e6c4cb7e069c40f61e8efb63f932775d5ded
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: db382963f020e64a8bd931af8daefcb61a31d29c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582826"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770498"
 ---
 # <a name="datacolumns-element-datarecordset_type-complextype-visio-xml"></a>Élément DataColumns (DataRecordSet_Type complexType) (Visio XML)
 
@@ -36,25 +36,25 @@ Contient tous les **éléments DataColumn** d’un ensemble d’enregistrements 
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stocke, met en forme, actualise et expose dans Microsoft Visio les données qui ont fait l’objet d’une requête dans une base de données. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Définit l’apparition d’une  colonne de données dans la fenêtre Données externes de l’interface utilisateur Visio et qualifie les données de la colonne en définissant son type de données et sa mise en forme.  <br/> |
+|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Définit l’apparition d’une colonne de  données dans la fenêtre Données externes de l’interface utilisateur Visio et qualifie les données de la colonne en définissant son type de données et sa mise en forme. |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|SortAsc  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Colonne sur laquelle trier les données.  <br/> |Valeurs du type xsd:boolean.  <br/> |
-|SortColumn  <br/> |xsd:string  <br/> |facultatif  <br/> |Indique si la colonne **TriColumn** doit être trié par ordre croissant (1) ou décroit (0).  <br/> |Valeurs du type xsd:string.  <br/> |
+|SortAsc  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Colonne sur laquelle trier les données. |Valeurs du type xsd:boolean. |
+|SortColumn  <br/> |xsd:string  <br/> |facultatif  <br/> |Indique si la colonne **TriColumn** doit être trié par ordre croissant (1) ou décroit (0). |Valeurs du type xsd:string. |
    
 

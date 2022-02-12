@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: eccec432-32d3-15c2-06b3-dd02b6313d4c
 description: Renvoie le composant vert d’une couleur.
-ms.openlocfilehash: fa80526aebc21fc227f54f6c6bb25d397a46b5a1
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b9db7ac656bb81421e9aa5d0c300f1c06c177f0a
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554711"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774229"
 ---
 # <a name="green-function"></a>Fonction GREEN
 
@@ -28,7 +28,7 @@ GREEN(** *expression* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Obligatoire  <br/> |**Varie** <br/> |Index d’une couleur dans le tableau des couleurs du document, expression qui se résout en une couleur personnalisée (par exemple, RVB ou HSL) ou une référence à une cellule qui contient un index de couleur ou un résultat de couleur.  <br/> |
+| _expression_ <br/> |Requis  <br/> |**Varie** <br/> |Index d’une couleur dans le tableau des couleurs du document, expression qui se résout en une couleur personnalisée (par exemple, RVB ou HSL) ou une référence à une cellule qui contient un index de couleur ou un résultat de couleur. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

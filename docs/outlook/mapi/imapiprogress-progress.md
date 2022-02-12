@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: edbf7623-a64e-43b8-8379-e3cde2433d91
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 92da3cc185fec19fc8cb1e7e7089ba029cd95cb3
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 637fdf05ea2b16f9d204d825b14c974ac9a54c33
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620960"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770779"
 ---
 # <a name="imapiprogressprogress"></a>IMAPIProgress::Progress
 
@@ -39,7 +39,7 @@ HRESULT Progress(
 
  _ulValue_
   
-> [in] Nombre qui indique le niveau actuel de progression (calculé à partir des paramètres  _ulCount_ et  _ulTotal_ ou des paramètres  _lpulMin_ et  _lpulMax_ de la méthode [IMAPIProgress::SetLimits)](imapiprogress-setlimits.md) entre la limite inférieure globale et la limite supérieure globale. 
+> [in] Nombre qui indique le niveau actuel de progression (calculé à partir des paramètres  _ulCount_ et  _ulTotal_ ou des paramètres  _lpulMin_ et  _lpulMax_ de la méthode [IMAPIProgress::SetLimits](imapiprogress-setlimits.md) ) entre la limite inférieure globale et la limite supérieure globale. 
     
  _ulCount_
   
@@ -59,9 +59,9 @@ S_OK
 
 Le  _paramètre ulValue_ sera égal à la valeur minimale globale uniquement au début de l’opération et à la valeur maximale globale uniquement à la fin de l’opération. 
   
-Utilisez les  _paramètres ulCount_ et  _ulTotal,_ si disponible, pour afficher un message facultatif tel que « 5 éléments terminés sur 10 ». Si  _ulCount et_  _ulTotal_ sont définies sur 0, décidez s’il faut modifier visuellement l’indicateur de progression. Certains fournisseurs de services définissent ces paramètres sur 0 pour indiquer qu’ils traitent un sous-objet dont la progression est surveillée par rapport à un objet parent. Dans ce cas, il est logique de modifier l’affichage uniquement lorsque l’objet parent signale la progression. Certains fournisseurs de services passent 0 pour ces paramètres à chaque fois. 
+Utilisez les  _paramètres ulCount_ et  _ulTotal_ , si disponible, pour afficher un message facultatif tel que « 5 éléments terminés sur 10 ». Si  _ulCount et_  _ulTotal_ sont définies sur 0, décidez s’il faut modifier visuellement l’indicateur de progression. Certains fournisseurs de services définissent ces paramètres sur 0 pour indiquer qu’ils traitent un sous-objet dont la progression est surveillée par rapport à un objet parent. Dans ce cas, il est logique de modifier l’affichage uniquement lorsque l’objet parent signale la progression. Certains fournisseurs de services passent 0 pour ces paramètres à chaque fois. 
   
-Pour plus d’informations sur l’implémentation de **Progress** et des autres méthodes [IMAPIProgress,](imapiprogressiunknown.md) voir [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
+Pour plus d’informations sur l’implémentation de **Progress** et des autres méthodes [IMAPIProgress](imapiprogressiunknown.md) , voir [Implementing a Progress Indicator](implementing-a-progress-indicator.md).
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
@@ -77,7 +77,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::P rogress  <br/> |MFCMAPI utilise la méthode **IMAPIProgress::P rogress** pour mettre à jour la barre d’état MFCMAPI avec le pourcentage actuel de progression, calculé à partir  _d’uValue_ et des valeurs maximales et minimales actuelles.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::P rogress  <br/> |MFCMAPI utilise la méthode **IMAPIProgress::P rogress** pour mettre à jour la barre d’état MFCMAPI avec le pourcentage actuel de progression, calculé à partir  _d’uValue_ et des valeurs maximales et minimales actuelles. |
    
 ## <a name="see-also"></a>Voir aussi
 

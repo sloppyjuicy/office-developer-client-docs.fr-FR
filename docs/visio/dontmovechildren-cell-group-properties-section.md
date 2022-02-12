@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ff5bbf05-4851-30ce-7ee1-f0ce7b2781ab
 description: Détermine la possibilité ou non de faire glisser, à l'aide de la souris, des formes dans un groupe.
-ms.openlocfilehash: 904d1cfceed285868279b8dafea6238eda0b638f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 946cb739c7b801585e66b8c261b5299546e08a31
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574362"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774362"
 ---
 # <a name="dontmovechildren-cell-group-properties-section"></a>DontMoveChildren, cellule (section Group Properties)
 
@@ -22,8 +22,8 @@ Détermine la possibilité ou non de faire glisser, à l'aide de la souris, des 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Les formes d'un groupe ne peuvent pas être déplacées avec la souris.  <br/> |
-| FALSE  <br/> | Les formes d'un groupe peuvent être déplacées avec la souris.  <br/> |
+| TRUE  <br/> | Les formes d'un groupe ne peuvent pas être déplacées avec la souris. |
+| FALSE  <br/> | Les formes d'un groupe peuvent être déplacées avec la souris. |
    
 ## <a name="remarks"></a>Remarques
 

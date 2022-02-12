@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: fac842a208cf24664e9ec3e12587e18763c03af6
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: e40a315f1517821bfa926d63d023cc785cb23266
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462686"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770772"
 ---
 # <a name="imapisessionopenaddressbook"></a>IMAPISession::OpenAddressBook
 
@@ -84,7 +84,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI utilise la **méthode IMAPISession::OpenAddressBook** pour obtenir le carnet d’adresses intégré.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI utilise la **méthode IMAPISession::OpenAddressBook** pour obtenir le carnet d’adresses intégré. |
    
 ## <a name="see-also"></a>Voir aussi
 

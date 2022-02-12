@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 5a34539a-0245-4268-bcd3-90a17ee095f4
 description: Renvoie une expression de caractère après avoir supprimé les espaces vides non vides.
-ms.openlocfilehash: 240e2b8672055557ccee18bdf45e27ddd3e327e5
-ms.sourcegitcommit: 2411ec8262cd0ed92f8a072fb53b51e3e496d49e
+ms.openlocfilehash: 5608b57e1c477702229fff6f3ad9b700f3268ece
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62179605"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775111"
 ---
 # <a name="ltrim-function-access-custom-web-app"></a>LTrim Function (Access custom web app)
 
@@ -29,6 +29,6 @@ La **fonction LTrim** contient l’argument suivant.
   
 |**Nom de l’argument**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Expression de chaîne.  <br/> |
+| *TextExpression*  <br/> |Expression de chaîne. |
    
 

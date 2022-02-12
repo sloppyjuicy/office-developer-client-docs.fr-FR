@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 104ef21c-b607-48b7-9b06-bc53b7d9b68a
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0e666e4ddcd72a50f3bcefdbfb2339d33d0123bd
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0795df38d8e97a1b2810d6ace5b4ff84cdaece7e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59583687"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771859"
 ---
 # <a name="pidlidtaskhistory-canonical-property"></a>Propriété canonique PidLidTaskHistory
 
@@ -37,16 +37,16 @@ Indique le type de modification qui a été apporté pour la dernière fois à l
    
 ## <a name="remarks"></a>Remarques
 
-Lorsque la valeur de cette propriété est définie, la propriété **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) doit également être définie sur l’heure actuelle. Le tableau suivant indique les valeurs de la **propriété dispidTaskHistory,** répertoriées par ordre de priorité décroissante. 
+Lorsque la valeur de cette propriété est définie, la propriété **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) doit également être définie sur l’heure actuelle. Le tableau suivant indique les valeurs **de propriété dispidTaskHistory** , répertoriées par ordre de priorité décroissante. 
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|0x00000004  <br/> |La **propriété dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) a été modifiée.  <br/> |
-|0x00000003  <br/> |Une autre propriété a été modifiée.  <br/> |
-|0x00000001  <br/> |L’affectation de la tâche a accepté cette tâche.  <br/> |
-|0x00000002  <br/> |La personne à l’emploi de la tâche a rejeté cette tâche.  <br/> |
-|0x00000005  <br/> |La tâche a été affectée à une personne affectée à la tâche.  <br/> |
-|0x00000000  <br/> |Aucune modification n’a été apportée.  <br/> |
+|0x00000004  <br/> |La **propriété dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) a été modifiée. |
+|0x00000003  <br/> |Une autre propriété a été modifiée. |
+|0x00000001  <br/> |L’affectation de la tâche a accepté cette tâche. |
+|0x00000002  <br/> |L’affectation de la tâche a rejeté cette tâche. |
+|0x00000005  <br/> |La tâche a été affectée à une personne affectée à la tâche. |
+|0x00000000  <br/> |Aucune modification n’a été apportée. |
    
 ## <a name="related-resources"></a>Ressources connexes
 

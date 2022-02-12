@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 890e2537-66a5-2863-c78d-320b42565ea7
 description: Détermine si la page de dessin est centrée horizontalement sur la page d'impression.
-ms.openlocfilehash: 5ea835ecd56a00c2697ed77e0dc2ca1559d21ba7
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4adfe7c43e7e8ef2ec52ce391422518191ad2e67
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59594795"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774453"
 ---
 # <a name="centerx-cell-print-properties-section"></a>CenterX, cellule (section Print Properties)
 
@@ -22,8 +22,8 @@ Détermine si la page de dessin est centrée horizontalement sur la page d'impre
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Centre la page de dessin horizontalement sur la page d'impression.  <br/> |
-| FALSE  <br/> | Ne centre pas la page de dessin horizontalement sur la page d'impression (valeur par défaut).  <br/> |
+| TRUE  <br/> | Centre la page de dessin horizontalement sur la page d'impression. |
+| FALSE  <br/> | Ne centre pas la page de dessin horizontalement sur la page d'impression (valeur par défaut). |
    
 ## <a name="remarks"></a>Remarques
 

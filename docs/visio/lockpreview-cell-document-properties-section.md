@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 5a2bb1a7-e688-d32f-f231-ac6916d838a6
 description: Détermine si un aperçu est enregistré chaque fois que vous enregistrez un dessin.
-ms.openlocfilehash: 48ec2c7f8ae49bae5a8e2bfe2d4534a48a681807
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 022145e20a2749e2e5dea83ebed2bc16c0be8e06
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59615871"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771257"
 ---
 # <a name="lockpreview-cell-document-properties-section"></a>LockPreview, cellule (section Document Properties)
 
@@ -22,8 +22,8 @@ Détermine si un aperçu est enregistré chaque fois que vous enregistrez un des
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Un aperçu n'est pas enregistré chaque fois que vous enregistrez un dessin.  <br/> |
-| FALSE  <br/> | Un aperçu est enregistré chaque fois que vous enregistrez un dessin.  <br/> |
+| TRUE  <br/> | Un aperçu n'est pas enregistré chaque fois que vous enregistrez un dessin. |
+| FALSE  <br/> | Un aperçu est enregistré chaque fois que vous enregistrez un dessin. |
    
 ## <a name="remarks"></a>Remarques
 

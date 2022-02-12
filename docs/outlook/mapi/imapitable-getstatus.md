@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 8127a09582c98fc82fb5be92dbf24a4e84911ada
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d9f79bfa3375f102862e61eb2d359895904ea509
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59575784"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772055"
 ---
 # <a name="imapitablegetstatus"></a>IMAPITable::GetStatus
 
@@ -25,7 +25,7 @@ ms.locfileid: "59575784"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie l’état et le type de la table.
+Renvoie l’état et le type du tableau.
   
 ```cpp
 HRESULT GetStatus(
@@ -46,11 +46,11 @@ TBLSTAT_COMPLETE
     
 TBLSTAT_QCHANGED 
   
-> Le contenu de la table a été modifié. Cette valeur d’état n’est pas renvoyée pour les modifications résultant d’opérations de tri ou de restriction.
+> Le contenu de la table a changé. Cette valeur d’état n’est pas renvoyée pour les modifications résultant d’opérations de tri ou de restriction.
     
 TBLSTAT_RESTRICT_ERROR 
   
-> Une erreur s’est produite [lors d’une opération IMAPITable::Restrict.](imapitable-restrict.md) 
+> Une erreur s’est produite lors [d’une opération IMAPITable::Restrict](imapitable-restrict.md) . 
     
 TBLSTAT_RESTRICTING 
   
@@ -58,7 +58,7 @@ TBLSTAT_RESTRICTING
     
 TBLSTAT_SETCOL_ERROR 
   
-> Une erreur s’est produite [lors d’une opération IMAPITable::SetColumns.](imapitable-setcolumns.md) 
+> Une erreur s’est produite [lors d’une opération IMAPITable::SetColumns](imapitable-setcolumns.md) . 
     
 TBLSTAT_SETTING_COLS 
   
@@ -66,7 +66,7 @@ TBLSTAT_SETTING_COLS
     
 TBLSTAT_SORT_ERROR 
   
-> Une erreur s’est produite [lors d’une opération IMAPITable::SortTable.](imapitable-sorttable.md) 
+> Une erreur s’est produite lors d’une [opération IMAPITable::SortTable](imapitable-sorttable.md) . 
     
 TBLSTAT_SORTING 
   
@@ -100,7 +100,7 @@ La **méthode IMAPTable::GetStatus** récupère des informations sur le type et 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
-Vous pouvez utiliser **GetStatus** conjointement avec trois autres méthodes **IMAPITable** pour surveiller l’état de ces opérations et déterminer l’effet sur le tableau. Appelez **GetStatus après** avoir passé l’un des appels **IMAPITable** suivants : 
+Vous pouvez utiliser **GetStatus** conjointement avec trois autres méthodes **IMAPITable** pour surveiller l’état de ces opérations et déterminer l’effet sur le tableau. **Appelez GetStatus après** avoir passé l’un des appels **IMAPITable** suivants : 
   
 - [IMAPITable::Restrict](imapitable-restrict.md) pour définir une restriction. 
     
@@ -114,7 +114,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI utilise la **méthode IMAPITable::GetStatus** pour signaler l’état d’une table.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI utilise la **méthode IMAPITable::GetStatus** pour signaler l’état d’une table. |
    
 ## <a name="see-also"></a>Voir aussi
 

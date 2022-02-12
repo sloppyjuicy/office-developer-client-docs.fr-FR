@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251391
 ms.localizationpriority: medium
 ms.assetid: 434d7ceb-1050-c667-fb3d-b6634440c18e
-description: Renvoie TRUE (1) si toutes les expressions logiques fournies sont true. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
-ms.openlocfilehash: 82ce384641c400764356d3288ae7d903ee901292
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Renvoie TRUE (1) si toutes les expressions logiques fournies sont TRUE. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
+ms.openlocfilehash: 99c1c5e4fbde4570352376294b889d741d578037
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628877"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774621"
 ---
 # <a name="and-function"></a>Fonction AND
 
-Renvoie TRUE (1) si toutes les expressions logiques fournies sont true. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
+Renvoie TRUE (1) si toutes les expressions logiques fournies sont TRUE. Si l’une des expressions logiques est FALSE ou 0, la fonction AND renvoie FALSE (0).
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,7 +28,7 @@ AND(** *logical expression1* **, ** *logical expression2* **,..., ** *logical ex
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression logique_ <br/> |Obligatoire  <br/> |**String** <br/> | Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur. Toute expression donnant une valeur différente de zéro est considérée comme vraie (valeur TRUE).  <br/> |
+| _expression logique_ <br/> |Requis  <br/> |**String** <br/> | Combinaison de constantes, d’opérateurs, de fonctions et de références à des cellules ShapeSheet constituant une valeur. Toute expression donnant une valeur différente de zéro est considérée comme vraie (valeur TRUE). |
    
 ## <a name="example"></a>Exemple
 

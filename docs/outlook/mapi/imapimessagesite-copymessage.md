@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d4e18483-409a-4d81-91dc-f4aec29a82bb
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 34cfe5f263efea1f7366cc271656be626f15bb8a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b69428c585909733d49332a8f4b9d6e2c590ffc0
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59630788"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773459"
 ---
 # <a name="imapimessagesitecopymessage"></a>IMAPIMessageSite::CopyMessage
 
@@ -59,9 +59,9 @@ Une implémentation classique de la **méthode CopyMessage** effectue les tâche
   
 1. Crée un message pour le message actuel à copier.
     
-2. Appelle la méthode [IPersistMessage::Save](ipersistmessage-save.md) avec un pointeur vers le nouveau message dans le paramètre _pMessage_ et FALSE dans le paramètre _fSameAsLoad._ 
+2. Appelle la [méthode IPersistMessage::Save](ipersistmessage-save.md) avec un pointeur vers le nouveau message dans le paramètre _pMessage_ et FALSE dans le paramètre _fSameAsLoad_ . 
     
-3. Appelle la [méthode IPersistMessage::SaveCompleted,](ipersistmessage-savecompleted.md) en passant NULL dans le _paramètre pMessage._ 
+3. Appelle la [méthode IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) , en passant NULL dans le _paramètre pMessage_ . 
     
 4. Appelle la [méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) sur le nouveau message. 
     
@@ -73,7 +73,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CopyMessage  <br/> |Non implémenté.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CopyMessage  <br/> |Non implémenté. |
    
 ## <a name="see-also"></a>Voir aussi
 

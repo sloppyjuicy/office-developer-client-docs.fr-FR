@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 567bede4-39a3-bfb4-af85-ba678e2cf4a5
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3dad9c850c4564fd1af206df23dc3cd621ea60ac
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f105362eb85f3ec198c35bb023954982e33221cf
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596028"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774831"
 ---
 # <a name="iproxystoreobject"></a>IProxyStoreObject
 
@@ -40,13 +40,13 @@ Fournit un objet de magasin IMAP (Internet Message Access Protocol) qui a été 
 |||
 |:-----|:-----|
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
-|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Obtient un pointeur vers un magasin IMAP non enveloppé.  <br/> |
+|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Obtient un pointeur vers un magasin IMAP non enveloppé. |
 | *Membre d’espace réservé*  <br/> | *Non pris en charge ou documenté.*  <br/> |
    
 ## <a name="remarks"></a>Remarques
 
-Appelez [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) sur la boutique de messages source pour obtenir l’interface **IProxyStoreObject.** Ensuite, **appelez IProxyStoreObject::UnwrapNoRef** pour obtenir l’objet store non enveloppé. Si **QueryInterface renvoie** l’erreur **MAPI_E_INTERFACE_NOT_SUPPORTED**, le magasin n’a pas été wrapped. 
+[Appelez IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) sur la boutique de messages source pour obtenir l’interface **IProxyStoreObject**. Ensuite, appelez **IProxyStoreObject::UnwrapNoRef** pour obtenir l’objet store non enveloppé. Si **QueryInterface renvoie** **l’erreur MAPI_E_INTERFACE_NOT_SUPPORTED**, le magasin n’a pas été wrapped. 
   
-Étant donné que **UnwrapNoRef** n’incrémente pas le nombre de références pour ce nouveau pointeur vers l’objet store non enveloppé, après avoir correctement appelé **UnwrapNoRef,** vous devez appeler [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour conserver le nombre de références. 
+Comme **UnwrapNoRef** n’incrémente pas le nombre de références pour ce nouveau pointeur vers l’objet store non enveloppé, après avoir correctement appelé **UnwrapNoRef**, vous devez appeler [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) pour conserver le nombre de références. 
   
 

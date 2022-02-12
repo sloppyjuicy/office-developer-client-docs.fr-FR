@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 0101d291-00ca-4f66-b857-75d74b9f91a1
 description: 'Derni�re modification�: lundi 9 mars 2015'
-ms.openlocfilehash: 1c93967a60aafb12d673fbd06aada7aaeee03a81
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 91233da24d99249eaa78b236ddcbf6703f6545fd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59613820"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774852"
 ---
 # <a name="ipropdatahrgetpropaccess"></a>IPropData::HrGetPropAccess
 
@@ -46,8 +46,8 @@ HRESULT HrGetPropAccess(
     
 |**Indicateur de niveau d'acc�s**|**Indicateur d'�tat**|
 |:-----|:-----|
-|IPROP_READONLY, ce qui indique que la propri�t� ne peut pas �tre modifi�e.  <br/> |IPROP_CLEAN, ce qui indique que la propri�t� n'a pas �t� modifi�e.  <br/> |
-|IPROP_READWRITE, ce qui indique que la propri�t� peut �tre modifi�e.  <br/> |IPROP_DIRTY, ce qui indique que la propri�t� a �t� modifi�e.  <br/> |
+|IPROP_READONLY, ce qui indique que la propri�t� ne peut pas �tre modifi�e. |IPROP_CLEAN, ce qui indique que la propri�t� n'a pas �t� modifi�e. |
+|IPROP_READWRITE, ce qui indique que la propri�t� peut �tre modifi�e. |IPROP_DIRTY, ce qui indique que la propri�t� a �t� modifi�e. |
    
 ## <a name="return-value"></a>Valeur renvoyée
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
 description: Renvoie un point transformé dans les coordonnées parent dans le système de coordonnées de destination.
-ms.openlocfilehash: bda87efec541b36f69e76ab14e2778a7c9fcdc1b
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b3540f0ff68c7492dc1643cc5c0a4ec0a66e1295
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59554382"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775538"
 ---
 # <a name="loctopar-function"></a>Fonction LOCTOPAR
 
@@ -28,9 +28,9 @@ LOCTOPAR(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _srcPoint_ <br/> |Obligatoire  <br/> |**String** <br/> | Point en coordonnées locales du système de coordonnées source  <br/> |
-| _srcRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Référence à une cellule de l’objet source  <br/> |
-| _dstRef_ <br/> |Obligatoire  <br/> |**String** <br/> | Référence à une cellule de l’objet cible  <br/> |
+| _srcPoint_ <br/> |Requis  <br/> |**String** <br/> | Point en coordonnées locales du système de coordonnées source |
+| _srcRef_ <br/> |Requis  <br/> |**String** <br/> | Référence à une cellule de l’objet source |
+| _dstRef_ <br/> |Requis  <br/> |**String** <br/> | Référence à une cellule de l’objet cible |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

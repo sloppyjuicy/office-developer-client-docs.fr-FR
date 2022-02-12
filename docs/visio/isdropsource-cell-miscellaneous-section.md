@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b20e6ef-f1ac-5bb0-5ac3-4df3ae5e9bf9
 description: Détermine si la forme peut être ajoutée à un groupe en la faisant glisser sur ce groupe.
-ms.openlocfilehash: c56b456f76f0f211648caf183e88380a23942dac
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 81f006319a9712daa07e29a21b78ea1aad4ed237
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59628051"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775688"
 ---
 # <a name="isdropsource-cell-miscellaneous-section"></a>IsDropSource, cellule (section Miscellaneous)
 
@@ -22,8 +22,8 @@ Détermine si la forme peut être ajoutée à un groupe en la faisant glisser su
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |La forme peut être ajoutée à un groupe par glisser-déposer sur ce groupe.  <br/> |
-|FALSE  <br/> |La forme ne peut être ajoutée au groupe.  <br/> |
+|TRUE  <br/> |La forme peut être ajoutée à un groupe par glisser-déposer sur ce groupe. |
+|FALSE  <br/> |La forme ne peut être ajoutée au groupe. |
    
 ## <a name="remarks"></a>Remarques
 

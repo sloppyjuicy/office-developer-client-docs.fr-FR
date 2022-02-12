@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: fcab369a-a1f4-4425-a272-e35046914a4d
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 59d604d347ff0788c5075a828a42ef47cb3b6212
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d4c99fe94c840bfa35f9aad8a20a42e89cb66ce4
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59624509"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773144"
 ---
 # <a name="pidtagsearchkey-canonical-property"></a>Propriété canonique PidTagSearchKey
 
@@ -38,24 +38,24 @@ Cette propriété fournit un suivi pour les objets associés, tels que les copie
   
 MAPI utilise des règles spécifiques pour la construction de clés de recherche pour les destinataires du message. La clé de recherche est formée en concassant le type d’adresse (en caractères en minuscules), le caractère deux-points « : », l’adresse e-mail sous la forme canonique et le caractère null de fin. La forme canonique ici signifie que les adresses sensibles à la cas apparaissent dans le cas correct et que les adresses qui ne sont pas sensibles à la cas sont converties en minuscules. Ceci est important pour la conservation des corrélations entre les messages.
   
-Pour les objets de message, cette propriété est disponible via la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) immédiatement après la création du message. Pour d’autres objets, il est disponible après le premier appel à la [méthode IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Étant donné que cette propriété est modifiable, il n’est pas fiable de l’obtenir via **GetProps** jusqu’à ce qu’un appel SaveChanges ait engagé des **valeurs définies** ou modifiées par la méthode [IMAPIProp::SetProps.](imapiprop-setprops.md) 
+Pour les objets de message, cette propriété est disponible via la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) immédiatement après la création du message. Pour d’autres objets, il est disponible après le premier appel à la [méthode IMAPIProp::SaveChanges](imapiprop-savechanges.md) . Étant donné que cette propriété est modifiable, il n’est pas fiable de l’obtenir via **GetProps** jusqu’à ce qu’un appel **SaveChanges ait engagé des valeurs définies** ou modifiées par la méthode [IMAPIProp::SetProps](imapiprop-setprops.md) . 
   
-Pour les profils, MAPI fournit également une section de profil codée en dur MUID_PROFILE_INSTANCE **,** avec cette propriété comme propriété unique. Cette clé est garantie d’être unique parmi tous les profils créés et peut être plus fiable que la propriété **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)), qui peut, par exemple, être supprimée et recréée avec le même nom.
+Pour les profils, MAPI fournit également une section de profil codée en dur **MUID_PROFILE_INSTANCE, avec** cette propriété comme propriété unique. Cette clé est garantie d’être unique parmi tous les profils créés et peut être plus fiable que la propriété **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)), qui peut, par exemple, être supprimée et recréée avec le même nom.
   
-Le tableau suivant récapitule les différences importantes entre les PR_ENTRYID **(** [PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) et cette propriété.
+Le tableau suivant récapitule les différences importantes entre les **PR_ENTRYID (**[PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) et cette propriété.
   
 |**Caractéristique**|PR_ENTRYID****|PR_RECORD_KEY****|PR_SEARCH_KEY****|
 |:-----|:-----|:-----|:-----|
-|Obligatoire sur les objets de pièce jointe  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |
+|Obligatoire pour les objets pièce jointe  <br/> |Non  <br/> |Oui  <br/> |Non  <br/> |
 |Obligatoire pour les objets de dossier  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Obligatoire sur les objets de la boutique de messages  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Obligatoire sur les objets d’état  <br/> |Oui  <br/> |Non  <br/> |Non  <br/> |
 |Créatable par client  <br/> |Non  <br/> |Non  <br/> |Oui  <br/> |
-|Disponible avant **SaveChanges** <br/> |Dépend de l’implémentation du fournisseur  <br/> |Dépend de l’implémentation du fournisseur  <br/> |Pour les messages, Oui. Pour d’autres, cela dépend de l’implémentation du fournisseur.  <br/> |
+|Disponible avant **SaveChanges** <br/> |Dépend de l’implémentation du fournisseur  <br/> |Dépend de l’implémentation du fournisseur  <br/> |Pour les messages, Oui. Pour d’autres, cela dépend de l’implémentation du fournisseur. |
 |Modifié dans une opération de copie  <br/> |Oui  <br/> |Oui  <br/> |Non  <br/> |
 |Modification possible par client après une copie  <br/> |Non  <br/> |Non  <br/> |Oui  <br/> |
-|Unique au sein de ...  <br/> |Monde entier  <br/> |Instance du fournisseur  <br/> |Monde entier  <br/> |
-|Comparaison binaire (comme avec memcmp)  <br/> |No -- use [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Oui  <br/> |Oui  <br/> |
+|Unique dans ... |Monde entier  <br/> |Instance de fournisseur  <br/> |Monde entier  <br/> |
+|Binary comparable (comme avec memcmp)  <br/> |No -- use [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Oui  <br/> |Oui  <br/> |
    
 ## <a name="related-resources"></a>Ressources connexes
 
@@ -67,7 +67,7 @@ Le tableau suivant récapitule les différences importantes entre les PR_ENTRYID
     
 [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Gère les objets message et pièce jointe.
+> Gère les objets de message et de pièce jointe.
     
 [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   

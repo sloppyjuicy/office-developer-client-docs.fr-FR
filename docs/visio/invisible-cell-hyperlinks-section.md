@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: e67dcd83-4a88-a0f8-5c6a-dae51424edbd
 description: Indique si un lien hypertexte apparaît dans le menu contextuel pour une forme ou une page.
-ms.openlocfilehash: b0c353f30f4438957334ec79090e3598a84e970e
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: d0626184550e44826a54bb669d428980e969067f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582602"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774166"
 ---
 # <a name="invisible-cell-hyperlinks-section"></a>Invisible, cellule (section Hyperlinks)
 
@@ -22,8 +22,8 @@ Indique si un lien hypertexte apparaît dans le menu contextuel pour une forme o
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Le lien hypertexte n'apparaît pas comme un élément de menu dans le menu contextuel.  <br/> |
-|FALSE  <br/> |Le lien hypertexte apparaît comme un élément de menu dans le menu contextuel (valeur par défaut).  <br/> |
+|TRUE  <br/> |Le lien hypertexte n'apparaît pas comme un élément de menu dans le menu contextuel. |
+|FALSE  <br/> |Le lien hypertexte apparaît comme un élément de menu dans le menu contextuel (valeur par défaut). |
    
 ## <a name="remarks"></a>Remarques
 
@@ -38,7 +38,7 @@ Pour obtenir une référence à la cellule Invisible à l'aide d'un index à par
 |||
 |:-----|:-----|
 |Index de la section :  <br/> |**visSectionHyperlink** <br/> |
-|Index de la ligne :  <br/> |**visRow1stHyperlink**  +   *i* où *i* = 0, 1, 2...  <br/> |
+|Index de la ligne :  <br/> |**visRow1stHyperlink** +   *i* où *i* = 0, 1, 2... |
 |Index de la cellule :  <br/> |**visHLinkInvisible** <br/> |
    
 

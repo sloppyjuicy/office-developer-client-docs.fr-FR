@@ -7,12 +7,12 @@ ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: e6900ad7-c147-4816-93a9-5773170b115a
 description: Les interfaces Window et Windows sont que des objets OneNote 2013 API qui permet aux utilisateurs de travailler avec les fenêtres OneNote. Ces objets permettent aux utilisateurs d'énumérer l'ensemble des fenêtres OneNote et de modifier certaines propriétés de la fenêtre.
-ms.openlocfilehash: a8dd260c1e56da98f2902922cf25dd5735358100
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 674fe3dbcc3574b3509be3d839d2622755cad5b4
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59572255"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774943"
 ---
 # <a name="window-interfaces-onenote"></a>Interfaces de fenêtre (OneNote 2013)
 
@@ -48,9 +48,9 @@ L'interface **Windows** permet à l'utilisateur d'accéder à l'ensemble des fen
 
 |**Name**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|**Count** <br/> |ulong  <br/> |Obtient le nombre d'objets de **Window** dans le jeu de **Windows**.  <br/> |
-|**CurrentWindow** <br/> |**Window** <br/> |Obtient l'objet **Window** de la fenêtre OneNote active.  <br/> |
-|**Items** <br/> |**Window** <br/> |Renvoie l'objet **Window** qui correspond à la valeur d'index transmise. Cette propriété n'est pas accessible directement. Pour renvoyer un objet **Window**, utilisez **Windows [(uint) index]**. <br/> |
+|**Count** <br/> |ulong  <br/> |Obtient le nombre d'objets de **Window** dans le jeu de **Windows**. |
+|**CurrentWindow** <br/> |**Window** <br/> |Obtient l'objet **Window** de la fenêtre OneNote active. |
+|**Items** <br/> |**Window** <br/> |Renvoie l'objet **Window** qui correspond à la valeur d'index transmise. Cette propriété n'est pas accessible directement. Pour renvoyer un objet **Window**, utilisez **Windows [(uint) index]**.  |
    
 ### <a name="window-interface"></a>Interface de fenêtre
 
@@ -60,16 +60,16 @@ L'interface **Window** permet à l'utilisateur d'accéder à certaines propriét
 
 |**Name**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|**Active** <br/> |bool  <br/> |Obtient ou définit une valeur qui indique si la fenêtre est la fenêtre active de OneNote.  <br/> |
-|**Application** <br/> |**Application** <br/> |Obtient l'objet **Application** OneNote qui est associé à la fenêtre.  <br/> |
-|**CurrentPageId** <br/> |string  <br/> |Obtient l'ID d'objet de la page OneNote active de la fenêtre.  <br/> |
-|**CurrentSectionId** <br/> |string  <br/> |Obtient l'ID d'objet de la section OneNote active de la fenêtre.  <br/> |
-|**CurrentSectionGroupId** <br/> |string  <br/> |Obtient l'ID d'objet du groupe de section OneNote active de la fenêtre.  <br/> |
-|**CurrentNotebookId** <br/> |string  <br/> |Obtient l'ID d'objet du bloc-notes OneNote actif de la fenêtre.  <br/> |
-|**DockedLocation** <br/> |**DockedLocation** <br/> |Obtient ou définit l'emplacement d'ancrage de la fenêtre OneNote.  <br/> |
-|**FullPageView** <br/> |bool  <br/> |Obtient ou définit une valeur qui indique si la fenêtre est en mode Page entière (affichage de l'interface utilisateur minimale).  <br/> |
-|**SideNote** <br/> |bool  <br/> |Obtient ou définit une valeur qui indique si la fenêtre est une fenêtre de note rapide.  <br/> |
-|**WindowHandle** <br/> |ulong  <br/> |Obtient l'ID de handle de la fenêtre OneNote.  <br/> |
+|**Active** <br/> |bool  <br/> |Obtient ou définit une valeur qui indique si la fenêtre est la fenêtre active de OneNote. |
+|**Application** <br/> |**Application** <br/> |Obtient l'objet **Application** OneNote qui est associé à la fenêtre. |
+|**CurrentPageId** <br/> |string  <br/> |Obtient l'ID d'objet de la page OneNote active de la fenêtre. |
+|**CurrentSectionId** <br/> |string  <br/> |Obtient l'ID d'objet de la section OneNote active de la fenêtre. |
+|**CurrentSectionGroupId** <br/> |string  <br/> |Obtient l'ID d'objet du groupe de section OneNote active de la fenêtre. |
+|**CurrentNotebookId** <br/> |string  <br/> |Obtient l'ID d'objet du bloc-notes OneNote actif de la fenêtre. |
+|**DockedLocation** <br/> |**DockedLocation** <br/> |Obtient ou définit l'emplacement d'ancrage de la fenêtre OneNote. |
+|**FullPageView** <br/> |bool  <br/> |Obtient ou définit une valeur qui indique si la fenêtre est en mode Page entière (affichage de l'interface utilisateur minimale). |
+|**SideNote** <br/> |bool  <br/> |Obtient ou définit une valeur qui indique si la fenêtre est une fenêtre de note rapide. |
+|**WindowHandle** <br/> |ulong  <br/> |Obtient l'ID de handle de la fenêtre OneNote. |
    
 **Méthodes**
   
@@ -79,25 +79,25 @@ Vous pouvez utiliser les méthodes suivantes de l'interface **Window** pour navi
 
 |||
 |:-----|:-----|
-|**Description** <br/> |Accède à l'objet spécifié dans la fenêtre OneNote. Par exemple, vous pouvez naviguer vers des sections, des pages et des éléments du plan au sein de pages.  <br/> |
+|**Description** <br/> |Accède à l'objet spécifié dans la fenêtre OneNote. Par exemple, vous pouvez naviguer vers des sections, des pages et des éléments du plan au sein de pages. |
 |**Syntaxe** <br/> | `HRESULT NavigateTo(`           ` [in]BSTR bstrHierarchyObjectID, `           ` [in]BSTR bstrObjectID); ` <br/> |
-|**Paramètres** <br/> | _bstrHierarchyObjectID_ la hiérarchie OneNote des ID de l'objet que vous voulez atteindre. L'ID d'objet peut faire référence à un bloc-notes OneNote, section, le groupe de section ou page. <br/>  _bstrObjectID_ l'ID de OneNote de l'objet spécifique à accéder à l'intérieur d'une page OneNote. Si l'utilisateur ne souhaite pas d'accéder à un objet spécifique dans une page, ce paramètre est défini sur null. <br/> |
+|**Paramètres** <br/> | _bstrHierarchyObjectID_ la hiérarchie OneNote des ID de l'objet que vous voulez atteindre. L'ID d'objet peut faire référence à un bloc-notes OneNote, section, le groupe de section ou page.  _bstrObjectID_ l'ID de OneNote de l'objet spécifique à accéder à l'intérieur d'une page OneNote. Si l'utilisateur ne souhaite pas d'accéder à un objet spécifique dans une page, ce paramètre est défini sur null. |
    
 **NavigateToUrl**
 
 |||
 |:-----|:-----|
-|**Description** <br/> |Si un lien OneNote est transmis (onenote://), cette méthode ouvre la fenêtre OneNote à l’emplacement correspondant dans OneNote. Toutefois, si le lien est un lien externe, tel https:// ou file://, une boîte de dialogue de sécurité s’affiche. Après le renvoi, OneNote essaie d'ouvrir la liaison et une erreur HResult.hrObjectDoesNotExist est renvoyée.  <br/> |
+|**Description** <br/> |Si un lien OneNote est transmis (onenote://), cette méthode ouvre la fenêtre OneNote à l’emplacement correspondant dans OneNote. Toutefois, si le lien est un lien externe, tel https:// ou file://, une boîte de dialogue de sécurité s’affiche. Après le renvoi, OneNote essaie d'ouvrir la liaison et une erreur HResult.hrObjectDoesNotExist est renvoyée. |
 |**Syntaxe** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
-|**Paramètres** <br/> | _bstrUrl_ l'URL à atteindre.  <br/> |
+|**Paramètres** <br/> | _bstrUrl_ l'URL à atteindre. |
    
 **SetDockedLocation**
 
 |||
 |:-----|:-----|
-|**Description** <br/> |Ancre la fenêtre à l'emplacement spécifié par **dockLocation** et le moniteur au **ptMonitor**.  <br/> |
+|**Description** <br/> |Ancre la fenêtre à l'emplacement spécifié par **dockLocation** et le moniteur au **ptMonitor**. |
 |**Syntaxe** <br/> | `HRESULT SetDockedLocation`(           `[in] DockLocation dockLocation,`           `[in] POINT ptMonitor);` <br/> |
-|**Paramètres** <br/> | _dockLocation_ - indique l'emplacement d'ancrage d'une fenêtre OneNote 2013.  <br/>  _ptMonitor_ - indique (facultatif) dans x, y coordonnées dont la fenêtre de surveillance doit être ancré dans.  <br/> |
+|**Paramètres** <br/> | _dockLocation_ - indique l'emplacement d'ancrage d'une fenêtre OneNote 2013.  _ptMonitor_ - indique (facultatif) dans x, y coordonnées dont la fenêtre de surveillance doit être ancré dans. |
    
 ## <a name="example"></a>Exemple
 

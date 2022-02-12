@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 39d07fc8-09aa-4122-af32-b02f2c893d29
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 41590cc2968c919afac714c348beda8a653f81ce
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a9acc4a2c8c0bd28cdf837113ec52897d0b31945
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59610649"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773599"
 ---
 # <a name="imapifoldercreatefolder"></a>IMAPIFolder::CreateFolder
 
@@ -54,15 +54,15 @@ FOLDER_SEARCH
     
  _lpszFolderName_
   
-> [in] Pointeur vers une chaîne qui contient le nom du nouveau dossier. Ce nom est la base de  la propriété PR_DISPLAY_NAME[(PidTagDisplayName](pidtagdisplayname-canonical-property.md)) du nouveau dossier.
+> [in] Pointeur vers une chaîne qui contient le nom du nouveau dossier. Ce nom est la base de la propriété **PR_DISPLAY_NAME (**[PidTagDisplayName](pidtagdisplayname-canonical-property.md)) du nouveau dossier.
     
  _lpszFolderComment_
   
-> [in] Pointeur vers une chaîne qui contient un commentaire associé au nouveau dossier. Cette chaîne devient la valeur de  la propriété PR_COMMENT[(PidTagComment](pidtagcomment-canonical-property.md)). Si la valeur NULL est passée, le dossier n’a pas de commentaire initial.
+> [in] Pointeur vers une chaîne qui contient un commentaire associé au nouveau dossier. Cette chaîne devient la valeur de la propriété **PR_COMMENT (**[PidTagComment](pidtagcomment-canonical-property.md)) du nouveau dossier. Si la valeur NULL est passée, le dossier n’a pas de commentaire initial.
     
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au nouveau dossier. La transmission de null entraîne le fournisseur de magasin de messages à renvoyer l’interface de dossier standard, [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les clients doivent transmettre la valeur NULL. D’autres appelants peuvent définir le paramètre  _lpInterface_ sur IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au nouveau dossier. Si la valeur NULL est passé, le fournisseur de magasin de messages retourne l’interface de dossier standard [, IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md). Les clients doivent passer la valeur NULL. D’autres appelants peuvent définir le paramètre  _lpInterface_ sur IID_IUnknown, IID_IMAPIProp, IID_IMAPIContainer ou IID_IMAPIFolder. 
     
  _ulFlags_
   
@@ -70,7 +70,7 @@ FOLDER_SEARCH
     
 MAPI_DEFERRED_ERRORS 
   
-> Permet à **CreateFolder** de renvoyer correctement, éventuellement avant que le nouveau dossier soit entièrement disponible pour le client appelant. Si le nouveau dossier n’est pas disponible, un appel ultérieur à celui-ci peut provoquer une erreur. 
+> Permet à **CreateFolder de renvoyer** correctement, éventuellement avant que le nouveau dossier soit entièrement disponible pour le client appelant. Si le nouveau dossier n’est pas disponible, un appel ultérieur peut provoquer une erreur. 
     
 MAPI_UNICODE 
   
@@ -78,7 +78,7 @@ MAPI_UNICODE
     
 OPEN_IF_EXISTS 
   
-> Permet à la méthode de réussir même si le dossier nommé dans le paramètre  _lpszFolderName_ existe déjà en ouvrant le dossier existant portant ce nom. Notez que les fournisseurs de magasins de messages qui autorisent les dossiers frères à avoir le même nom peuvent ne pas ouvrir un dossier existant s’il en existe plusieurs avec le nom fourni. 
+> Permet à la méthode de réussir même si le dossier nommé dans le paramètre _lpszFolderName_ existe déjà en ouvrant le dossier existant portant ce nom. Notez que les fournisseurs de magasins de messages qui autorisent les dossiers frères à avoir le même nom peuvent ne pas ouvrir un dossier existant s’il en existe plusieurs avec le nom fourni. 
     
  _lppFolder_
   
@@ -96,7 +96,7 @@ MAPI_E_BAD_CHARWIDTH
     
 MAPI_E_COLLISION 
   
-> Un dossier dont le nom est donné dans le  _paramètre lpszFolderName_ existe déjà. Les noms de dossier doivent être uniques. 
+> Un dossier dont le nom est donné dans le _paramètre lpszFolderName_ existe déjà. Les noms de dossier doivent être uniques. 
     
 ## <a name="remarks"></a>Remarques
 
@@ -106,7 +106,7 @@ La **méthode IMAPIFolder::CreateFolder** crée un sous-dossier dans le dossier 
 
 Lorsque **CreateFolder est** de retour, sachez que l’identificateur d’entrée pour le nouveau dossier n’est peut-être pas disponible. Certains fournisseurs de magasins de messages ne rendent les identificateurs d’entrée disponibles qu’après avoir appelé la méthode [IMAPIProp::SaveChanges](imapiprop-savechanges.md) du nouveau dossier pour l’enregistrer définitivement. Cela est particulièrement vrai si vous avez MAPI_DEFERRED_ERRORS’indicateur. 
   
-Sachez que certains fournisseurs de magasins de messages pointent toujours le paramètre _lppFolder_ vers l’interface standard du dossier, quelle que soit la valeur que vous passez pour le paramètre _lpInterface._ Étant donné que le pointeur d’interface renvoyé peut ne pas être du type prévu, appelez la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) du nouveau dossier pour récupérer la propriété **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)). Si nécessaire, castez le pointeur vers un type plus approprié avant d’effectuer d’autres appels.
+Sachez que certains fournisseurs de magasins de messages pointent toujours le paramètre  _lppFolder_ vers l’interface standard du dossier, quelle que soit la valeur que vous passez pour le paramètre  _lpInterface_ . Étant donné que le pointeur d’interface renvoyé peut ne pas être du type prévu, appelez la méthode [IMAPIProp::GetProps](imapiprop-getprops.md) du nouveau dossier pour récupérer la propriété **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)). Si nécessaire,  castez le pointeur vers un type plus approprié avant d’effectuer d’autres appels.
   
 La plupart des fournisseurs de magasins de messages exigent que le nom du nouveau dossier soit unique par rapport aux noms de ses dossiers frères. Être en mesure de gérer la valeur MAPI_E_COLLISION’erreur, qui est renvoyée si cette règle n’est pas suivie. 
   
@@ -118,7 +118,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnCreateSubFolder  <br/> |MFCMAPI utilise **la méthode CMsgStoreDlg::OnCreateSubFolder** pour créer des dossiers dans MFCMAPI.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnCreateSubFolder  <br/> |MFCMAPI utilise **la méthode CMsgStoreDlg::OnCreateSubFolder** pour créer des dossiers dans MFCMAPI. |
    
 ## <a name="see-also"></a>Voir aussi
 

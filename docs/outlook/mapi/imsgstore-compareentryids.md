@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 33d70748-0d3f-4be4-bcb5-7ec048887944
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 23982628a21a2eb5e3816e378977dc9bf35b1690
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 0d77ebf5b0fbfaffa88bfdc27e1c98e3b9613de1
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59620694"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773361"
 ---
 # <a name="imsgstorecompareentryids"></a>IMsgStore::CompareEntryIDs
 
@@ -82,7 +82,7 @@ La **méthode IMsgStore::CompareEntryIDs** compare deux identificateurs d’entr
 
  **CompareEntryIDs est** utile car un objet peut avoir plusieurs identificateurs d’entrée valides (par exemple, après l’installation d’une nouvelle version d’un fournisseur de magasins de messages). 
   
-Si **CompareEntryIDs** renvoie une erreur, ne pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, prenez l’approche la plus prudent possible. **CompareEntryIDs peut** échouer si, par exemple, l’un des identificateurs d’entrée ou les deux contiennent un **MAPIUID non valide.** 
+Si **CompareEntryIDs** renvoie une erreur, ne pas prendre d’action en fonction du résultat de la comparaison. Au lieu de cela, prenez l’approche la plus prudent possible. **CompareEntryIDs** peut échouer si, par exemple, l’un des identificateurs d’entrée ou les deux contiennent un **MAPIUID non valide**. 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -90,7 +90,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|BaseDialog.cpp  <br/> |CBaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI utilise la **méthode IMsgStore::CompareEntryIDs** pour comparer les ID d’entrée.  <br/> |
+|BaseDialog.cpp  <br/> |CBaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI utilise la **méthode IMsgStore::CompareEntryIDs** pour comparer les ID d’entrée. |
    
 ## <a name="see-also"></a>Voir aussi
 

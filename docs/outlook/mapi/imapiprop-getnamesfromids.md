@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 9b968f76ee5b7f8b76b1ede9d8ce23b363c40e0f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3e77685bbc9cdd20b11b85789a8a44375d6c7e13
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59625559"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773354"
 ---
 # <a name="imapipropgetnamesfromids"></a>IMAPIProp::GetNamesFromIDs
 
@@ -41,7 +41,7 @@ HRESULT GetNamesFromIDs(
 
  _lppPropTags_
   
-> [in, out] Lors de l’entrée, un pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété ; Sinon, NULL, indiquant que tous les noms doivent être renvoyés. Le **membre cValues** du tableau de balises de propriétés ne peut pas être 0. Si  _lppPropTags est_ un pointeur valide lors de l’entrée, **GetNamesFromIDs** renvoie les noms de chaque identificateur de propriété inclus dans le tableau. 
+> [in, out] Lors de l’entrée, un pointeur vers une structure [SPropTagArray](sproptagarray.md) qui contient un tableau de balises de propriété ; sinon, NULL, indiquant que tous les noms doivent être renvoyés. Le **membre cValues** du tableau de balises de propriétés ne peut pas être 0. Si  _lppPropTags est_ un pointeur valide lors de l’entrée, **GetNamesFromIDs** renvoie les noms de chaque identificateur de propriété inclus dans le tableau. 
     
  _lpPropSetGuid_
   
@@ -61,7 +61,7 @@ MAPI_NO_STRINGS
     
  _lpcPropNames_
   
-> [out] Pointeur vers un nombre de pointeurs de nom de propriété dans le tableau pointé par _le paramètre lppPropNames._ 
+> [out] Pointeur vers un nombre de pointeurs de nom de propriété dans le tableau pointé par  _le paramètre lppPropNames_ . 
     
  _lpppPropNames_
   
@@ -79,7 +79,7 @@ MAPI_E_NO_SUPPORT
     
 MAPI_W_ERRORS_RETURNED 
   
-> L’appel a réussi globalement, mais les noms d’une ou plusieurs propriétés n’ont pas pu être renvoyés. Les balises de propriété pour les propriétés défaillantes ont un type de propriété **PT_ERROR**. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED.** Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs.](using-macros-for-error-handling.md) 
+> L’appel a réussi globalement, mais les noms d’une ou plusieurs propriétés n’ont pas pu être renvoyés. Les balises de propriété pour les propriétés défaillantes ont un type de propriété **PT_ERROR**. Lorsque cet avertissement est renvoyé, l’appel doit être traité comme réussi. Pour tester cet avertissement, utilisez la macro **HR_FAILED’avertissement** . Pour plus d’informations, voir [Utilisation de macros pour la gestion des erreurs](using-macros-for-error-handling.md). 
     
 MAPI_E_INVALID_PARAMETER 
   
@@ -91,7 +91,7 @@ Bien que l’accès à la plupart des propriétés se fait par identificateur de
   
 - Récupérer les noms des identificateurs de propriété spécifiques dans un jeu de propriétés spécifique.
     
-- Récupérer des noms pour des identificateurs de propriété spécifiques dans n’importe quel jeu de propriétés.
+- Récupérer les noms des identificateurs de propriété spécifiques dans n’importe quel jeu de propriétés.
     
 - Récupérer les noms de toutes les propriétés nommées incluses dans le mappage de l’objet.
     
@@ -107,7 +107,7 @@ Lorsqu’il n’y a aucun nom à retourner, peut-être parce qu’il n’y a auc
   
 - Renvoie S_OK.
     
-- Alloue une nouvelle structure **SPropTagArray,** en fixant le membre **cValues** sur 0. 
+- Alloue une nouvelle structure **SPropTagArray** , en fixant le membre **cValues** sur 0. 
     
 - Définit le contenu de  _lpcPropNames_ sur 0. 
     
@@ -131,7 +131,7 @@ Si vous passez un jeu de propriétés valide mais pas un tableau de balises de p
   
 Lorsque vous avez terminé avec les noms des propriétés, vérifiez le contenu du paramètre  _lpcPropNames_ pour déterminer si des noms ont été renvoyés. Si c’est le cas, appelez la fonction [MAPIFreeBuffer](mapifreebuffer.md) pour libérer la mémoire pointée par  _lppPropTags_ et  _lpppPropNames_ lorsqu’un résultat réussi est renvoyé. Un appel à **MAPIFreeBuffer est** suffisant pour chaque paramètre ; vous n’avez pas besoin de parcourir le tableau de pointeurs et de libérer chaque structure **MAPINAMEID** individuellement. 
   
-Pour plus d’informations sur les propriétés nommées, voir [MAPI Named Properties](mapi-named-properties.md). 
+Pour plus d’informations sur les propriétés nommées, voir [PROPRIÉTÉS nommées MAPI](mapi-named-properties.md). 
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -139,7 +139,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedProps  <br/> |MFCMAPI utilise la méthode **IMAPIProp::GetNamesFromIDs** pour rechercher les propriétés nommées qui ont été précédemment mappées.  <br/> |
+|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::FindAllNamedProps  <br/> |MFCMAPI utilise la méthode **IMAPIProp::GetNamesFromIDs pour rechercher les propriétés nommées** qui ont été précédemment mappées. |
    
 ## <a name="see-also"></a>Voir aussi
 

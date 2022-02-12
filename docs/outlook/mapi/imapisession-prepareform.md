@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 3567a0bc4c24ecdeefe6d58fe0075b1979001407
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 04a3ba5b1af8b3a2c37864410d5f280a7d030f0c
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59561515"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770758"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
@@ -39,7 +39,7 @@ HRESULT PrepareForm(
 
  _lpInterface_
   
-> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au message. La **transmission de** null entraîne l’utilisation de l’interface standard, ou [IMessage.](imessageimapiprop.md) Le  _paramètre lpInterface_ doit être **null** ou IID_IMessage. 
+> [in] Pointeur vers l’identificateur d’interface (IID) qui représente l’interface à utiliser pour accéder au message. La **transmission de** null entraîne l’utilisation de l’interface standard, [ou IMessage](imessageimapiprop.md). Le  _paramètre lpInterface_ doit être **null** ou IID_IMessage. 
     
  _lpMessage_
   
@@ -47,7 +47,7 @@ HRESULT PrepareForm(
     
  _lpulMessageToken_
   
-> [out] Pointeur vers un jeton de message, qui est utilisé par la méthode **IMAPISession::ShowForm** pour accéder au message pointé par  _lpMessage_.
+> [out] Pointeur vers un jeton de message, utilisé par la méthode **IMAPISession::ShowForm** pour accéder au message pointé par  _lpMessage_.
     
 ## <a name="return-value"></a>Valeur renvoyée
 
@@ -57,7 +57,7 @@ S_OK
     
 ## <a name="remarks"></a>Remarques
 
-La méthode **IMAPISession::P repareForm** crée un jeton de message pour le message pointé par le paramètre  _lpMessage_ et appelle la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) du message. Ce jeton est transmis dans le  _paramètre ulMessageToken_ à **IMAPISession::ShowForm**. 
+La méthode **IMAPISession::P repareForm** crée un jeton de message pour le message pointé par le paramètre  _lpMessage_ et appelle la méthode [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) du message. Ce jeton est transmis dans le _paramètre ulMessageToken_ à **IMAPISession::ShowForm**. 
   
 ## <a name="notes-to-callers"></a>Remarques pour les appelants
 
@@ -69,7 +69,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI utilise la méthode **IMAPISession::P repareForm,** avec **IMAPISession::ShowForm**, pour afficher un message sous forme modale.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |MFCMAPI utilise la méthode **IMAPISession::P repareForm** , avec **IMAPISession::ShowForm**, pour afficher un message sous forme modale. |
    
 ## <a name="see-also"></a>Voir aussi
 

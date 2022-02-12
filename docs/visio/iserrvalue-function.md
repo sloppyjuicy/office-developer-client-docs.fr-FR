@@ -8,13 +8,13 @@ f1_keywords:
 - Vis_DSS.chm82251453
 ms.localizationpriority: medium
 ms.assetid: c7feec6f-f47a-60ee-b056-7b2dc51ed9a9
-description: 'Renvoie TRUE si la valeur de cellreference est de type erreur #VALUE, où un argument dans la formule est du type erroné. La fonction ISERRVALUE est utilisée dans les expressions logiques qui font référence à une autre cellule.'
-ms.openlocfilehash: 0186b0b51e89fad3106bb1df034615ce9e512060
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: 'Renvoie TRUE si la valeur de cellreference est de type #VALUE, où un argument dans la formule est du type erroné. La fonction ISERRVALUE est utilisée dans les expressions logiques qui font référence à une autre cellule.'
+ms.openlocfilehash: 509ed277070babc54a0b2c05430a328581e3bc77
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574096"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775587"
 ---
 # <a name="iserrvalue-function"></a>Fonction ISERRVALUE
 
@@ -28,7 +28,7 @@ ISERRVALUE(** *cellreference* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à une cellule  <br/> |
+| _cellreference_ <br/> |Requis  <br/> |**String** <br/> |Référence à une cellule |
    
 ## <a name="remarks"></a>Remarques
 

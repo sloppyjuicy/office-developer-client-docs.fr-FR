@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6829e273-4a75-4278-b58a-ae7543e075ac
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 2164a117b4a7119761f21ee0e4692cd8284ae211
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 1abe89956b8c33189257a3c3696f75672d14dc19
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59596308"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773605"
 ---
 # <a name="imapiformcontainergetdisplay"></a>IMAPIFormContainer::GetDisplay
 
@@ -25,7 +25,7 @@ ms.locfileid: "59596308"
   
 **S’applique à** : Outlook 2013 | Outlook 2016 
   
-Renvoie le nom complet d’un conteneur de formulaire.
+Renvoie le nom complet d’un conteneur de formulaires.
   
 ```cpp
 HRESULT GetDisplay(
@@ -60,7 +60,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::GetDisplay** pour obtenir le nom du conteneur de formulaires lors du rendu de CFormContainerDlg.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |MFCMAPI utilise la méthode **IMAPIFormContainer::GetDisplay** pour obtenir le nom du conteneur de formulaires lors du rendu de CFormContainerDlg. |
    
 ## <a name="see-also"></a>Voir aussi
 

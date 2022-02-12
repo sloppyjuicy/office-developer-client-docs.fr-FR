@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 40d7e38e-b3b0-8616-ed27-1f963a841e03
 description: Définit la position d'une tabulation. La position de la tabulation est indépendante de l'échelle du dessin. Si le dessin est mis à l'échelle, la position de la tabulation ne change pas.
-ms.openlocfilehash: 40cf12b3b2cbbbc0a2ade8055880b4188f09804c
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 7260490c9d59da434fa7d14860c88ca257f26f16
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59573739"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771121"
 ---
 # <a name="position-cell-tabs-section"></a>Position, cellule (section Tabs)
 
@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule Position par un nom à partir d'une a
   
 |||
 |:-----|:-----|
-| Nom de la cellule :  <br/> | Onglets.  *ij*            où  *i*  et  *j*  = <1>, 2, 3...  <br/> |
+| Nom de la cellule :  <br/> | Onglets.  *ij*            où  *i*  et  *j*  = <1>, 2, 3... |
    
 Pour obtenir une référence à la cellule Position à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionTab** <br/> |
-| Index de la ligne :  <br/> |**visRowTab**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowTab** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> | (*j*  *3) + **visTabPos** <br/> |
    
 

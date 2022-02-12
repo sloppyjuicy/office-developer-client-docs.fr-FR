@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 371a475d-50f7-6b4c-4b47-581cd778dcba
 description: Renvoie le caractère Unicode d’un nombre.
-ms.openlocfilehash: 8f37e4890b785a0b3557efc1167dc80868f72c7a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 75d907e4aa06ab531c28aad031b8e76682a1ea19
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59603220"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771058"
 ---
 # <a name="unichar-function"></a>Fonction UNICHAR
 
@@ -28,7 +28,7 @@ UNICHAR (** *nombre* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Entier compris entre 1 et 65 535 (inclus), ou la fonction renvoie une erreur.  <br/> |
+| _number_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Entier compris entre 1 et 65 535 (inclus), ou la fonction renvoie une erreur. |
    
 ## <a name="remarks"></a>Remarques
 

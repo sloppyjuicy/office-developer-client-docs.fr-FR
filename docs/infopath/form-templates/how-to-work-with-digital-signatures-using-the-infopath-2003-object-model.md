@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: medium
 ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
 description: Le modèle objet compatible avec InfoPath 2003 propose des fonctionnalités qui permettent l'utilisation de signatures numériques par programme.
-ms.openlocfilehash: c9e317d15536842f5a9378485829be19018baa6a
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 48865c645fbdb9ff2bfeb334b9eb039641edfde3
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59592843"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774992"
 ---
 # <a name="work-with-digital-signatures-using-the-infopath-2003-object-model"></a>Utiliser des signatures numériques à l’aide du modèle objet InfoPath 2003
 
@@ -43,15 +43,15 @@ Le modèle objet des signatures numériques fournit l'événement qui suit.
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) <br/> |Se produit une fois qu'un ensemble de données à signer a été sélectionné pour une signature.  <br/> Vous pouvez utiliser cet événement pour manipuler les données stockées dans la signature numérique. Par exemple, vous pouvez ajouter les données d'un serveur d'horodatage fiable ou une contre-signature côté serveur de la transaction. Vous pouvez également utiliser cet événement pour bloquer la signature si l'utilisateur actuel n'est pas membre d'un groupe spécifique.  <br/> |
+|[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) <br/> |Se produit une fois qu'un ensemble de données à signer a été sélectionné pour une signature. Vous pouvez utiliser cet événement pour manipuler les données stockées dans la signature numérique. Par exemple, vous pouvez ajouter les données d'un serveur d'horodatage fiable ou une contre-signature côté serveur de la transaction. Vous pouvez également utiliser cet événement pour bloquer la signature si l'utilisateur actuel n'est pas membre d'un groupe spécifique. |
    
 L'événement **OnSign** renvoie une référence à l'objet [SignEventObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEventObject.aspx) , qui fournit les propriétés suivantes. 
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[ReturnStatus](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SignEvent.ReturnStatus.aspx) <br/> |Récupère ou définit une valeur **Boolean** (booléenne) indiquant l'état de retour de l'événement **OnSign**.  <br/> |
-|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SignEvent.SignedDataBlock.aspx) <br/> |Récupère le bloc de données signées qui a déclenché l'événement **OnSign**.  <br/> |
-|[XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.XDocument.aspx) <br/> |Récupère une référence à l'objet **XDocument** associé à l'événement **OnSign**.  <br/> |
+|[ReturnStatus](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SignEvent.ReturnStatus.aspx) <br/> |Récupère ou définit une valeur **Boolean** (booléenne) indiquant l'état de retour de l'événement **OnSign**. |
+|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SignEvent.SignedDataBlock.aspx) <br/> |Récupère le bloc de données signées qui a déclenché l'événement **OnSign**. |
+|[XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.XDocument.aspx) <br/> |Récupère une référence à l'objet **XDocument** associé à l'événement **OnSign**. |
    
 ### <a name="collections-and-objects"></a>Collections et objets
 
@@ -59,16 +59,16 @@ Le modèle objet des signatures numériques fournit les collections suivantes.
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[SignedDataBlocksCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlocksCollection.aspx) <br/> |Collection des objets [SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) dans le modèle de formulaire tel que défini dans le fichier de définition du formulaire (.xsf).  <br/> La collection **SignedDataBlocksCollection** implémente des propriétés qui permettent d'accéder aux objets **SignedDataBlockObjects** associés à un formulaire. La collection **SignedDataBlocks est** accessible via la propriété [SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SignedDataBlocks.aspx) de l’objet [XDocument.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx)  <br/> |
-|[SignaturesCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignaturesCollection.aspx) <br/> |Contient une collection [d’objets SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) pour **chaque objet SignedDataBlockObject** du formulaire.  <br/> La collection **SignaturesCollection** implémente des propriétés et une méthode qui permettent d'accéder aux objets **SignatureObject** associés au formulaire et de créer une signature. Cette collection est accessible via l'objet **SignedDataBlockObject**. <br/> Lorsque vous utilisez la méthode [Create](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signatures.Create.aspx) de la collection **SignaturesCollection,** n’oubliez pas que la signature n’est pas écrite tant que la méthode [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) n’est pas appelée sur l’objet **SignatureObject.** Ces méthodes peuvent être appelées uniquement depuis le gestionnaire d'événements **OnSign** d'un modèle de formulaire avec confiance totale.  <br/> |
+|[SignedDataBlocksCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlocksCollection.aspx) <br/> |Collection des objets [SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) dans le modèle de formulaire tel que défini dans le fichier de définition du formulaire (.xsf). La collection **SignedDataBlocksCollection** implémente des propriétés qui permettent d'accéder aux objets **SignedDataBlockObjects** associés à un formulaire. La collection **SignedDataBlocks est** accessible via la propriété [SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SignedDataBlocks.aspx) de l’objet [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . |
+|[SignaturesCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignaturesCollection.aspx) <br/> |Contient une collection [d’objets SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) pour **chaque objet SignedDataBlockObject** du formulaire. La collection **SignaturesCollection** implémente des propriétés et une méthode qui permettent d'accéder aux objets **SignatureObject** associés au formulaire et de créer une signature. Cette collection est accessible via l'objet **SignedDataBlockObject**. Lorsque vous utilisez la méthode [Create](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signatures.Create.aspx) de la collection **SignaturesCollection** , n’oubliez pas que la signature n’est pas écrite tant que la méthode [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) n’est pas appelée sur l’objet **SignatureObject** . Ces méthodes peuvent être appelées uniquement depuis le gestionnaire d'événements **OnSign** d'un modèle de formulaire avec confiance totale. |
    
 Le modèle objet des signatures numériques fournit les objets suivants.
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) <br/> |Représente un ensemble de données à signer dans un formulaire. L'objet **SignedDataBlock** fournit une méthode et un certain nombre de propriétés qui peuvent être utilisées pour interagir par programme avec un ensemble de données à signer.<br/> |
-|[SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) <br/> |Représente une signature numérique qui a été ajoutée à un formulaire ou à un ensemble de données signables dans un formulaire. La collection **SignatureObject** implémente des propriétés qui peuvent être utilisées pour récupérer des informations sur la signature numérique et la méthode [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) pour écrire le bloc de signature numérique XML et calculer sa valeur de hachage de chiffrement.  <br/> |
-|[CertificateObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.CertificateObject.aspx) <br/> |Représente le certificat numérique X.509 utilisé pour créer la signature.  <br/> |
+|[SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) <br/> |Représente un ensemble de données à signer dans un formulaire. L'objet **SignedDataBlock** fournit une méthode et un certain nombre de propriétés qui peuvent être utilisées pour interagir par programme avec un ensemble de données à signer. |
+|[SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) <br/> |Représente une signature numérique qui a été ajoutée à un formulaire ou à un ensemble de données signables dans un formulaire. La collection **SignatureObject** implémente des propriétés qui peuvent être utilisées pour récupérer des informations sur la signature numérique et la méthode [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) pour écrire le bloc de signature numérique XML et calculer sa valeur de hachage de chiffrement. |
+|[CertificateObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.CertificateObject.aspx) <br/> |Représente le certificat numérique X.509 utilisé pour créer la signature. |
    
 ## <a name="working-with-digital-signatures-programmatically"></a>Utilisation de signatures numériques par programme
 

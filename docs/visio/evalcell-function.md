@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 4aa3a1c9-dec9-5eb0-5743-0534c0b3bb5f
 description: Prend une référence à une cellule qui contient une fonction personnalisée, ainsi qu’une ou plusieurs paires nom-valeur à transmettre à la fonction personnalisée en tant qu’arguments (facultatif). Renvoie le résultat calculé de la fonction personnalisée en fonction des arguments et valeurs spécifiés.
-ms.openlocfilehash: 17378fee5d2e0abdaece930d3f454871989a997f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: fb0c92eb7fd683f76f3c17a6b98704b9896d011e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574292"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771579"
 ---
 # <a name="evalcell-function"></a>Fonction EVALCELL
 
@@ -26,11 +26,11 @@ EVALCELL(** *cellRef* **,[ ** *arg1Name,arg1* ** ],[ ** *arg2Name,arg2* ** ],...
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellRef_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à la cellule contenant la fonction personnalisée. Les références inter-feuilles sont acceptées.  <br/> |
-| _arg1Name_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom du premier argument à transmettre à la fonction personnalisée. Les espaces sont acceptés.  <br/> |
-| _arg1_ <br/> |Facultatif  <br/> |**Varie** <br/> |Valeur du _paramètre arg1._  <br/> |
-| _arg2Name_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom du deuxième argument à passer à la fonction personnalisée. Les espaces sont acceptés.  <br/> |
-| _arg2_ <br/> |Facultatif  <br/> |**Varie** <br/> |Valeur du _paramètre arg2._  <br/> |
+| _cellRef_ <br/> |Requis  <br/> |**String** <br/> |Référence à la cellule contenant la fonction personnalisée. Les références inter-feuilles sont acceptées. |
+| _arg1Name_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom du premier argument à transmettre à la fonction personnalisée. Les espaces sont acceptés. |
+| _arg1_ <br/> |Facultatif  <br/> |**Varie** <br/> |Valeur du  _paramètre arg1_ . |
+| _arg2Name_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Nom du deuxième argument à passer à la fonction personnalisée. Les espaces sont acceptés. |
+| _arg2_ <br/> |Facultatif  <br/> |**Varie** <br/> |Valeur du  _paramètre arg2_ . |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: df014b98-cfd5-b6d3-4b8a-b0acb3b94412
 description: Détermine la façon dont les formes positionnables sont retournées et/ou pivotent lorsque vous utilisez la commande Configurer la disposition (sous l’onglet Création, dans le groupe Disposition, cliquez sur Nouvelle disposition de page, puis cliquez sur Autres options de disposition).
-ms.openlocfilehash: 10165312a0ad4c595a58f4ab94d319b0a3d61d29
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 54aacfcf504ef4598573fd91f6078593b918c6cd
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59598429"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774096"
 ---
 # <a name="placeflip-cell-page-layout-section"></a>PlaceFlip, cellule (section Page Layout)
 
@@ -22,11 +22,11 @@ Détermine la façon dont les formes positionnables sont retournées et/ou pivot
   
 |**Valeur**|**Description**|**Constante d'automation**|
 |:-----|:-----|:-----|
-|&amp;H0  <br/> |Par défaut. Pas de retournement.  <br/> |**visLOFlipDefault** <br/> |
-|&amp;H1  <br/> |Retournement horizontal.  <br/> |**visLOFlipX** <br/> |
-|&amp;H2  <br/> |Retournement vertical.  <br/> |**visLOFlipY** <br/> |
-|&amp;H4  <br/> |Retournement par incréments de 90 degrés.  <br/> |**visLOFlipRotate** <br/> |
-|&amp;H8  <br/> |Pas de retournement.  <br/> |**visLOFlipNone** <br/> |
+|&amp;H0  <br/> |Par défaut. Pas de retournement. |**visLOFlipDefault** <br/> |
+|&amp;H1  <br/> |Retournement horizontal. |**visLOFlipX** <br/> |
+|&amp;H2  <br/> |Retournement vertical. |**visLOFlipY** <br/> |
+|&amp;H4  <br/> |Retournement par incréments de 90 degrés. |**visLOFlipRotate** <br/> |
+|&amp;H8  <br/> |Pas de retournement. |**visLOFlipNone** <br/> |
    
 ## <a name="remarks"></a>Remarques
 

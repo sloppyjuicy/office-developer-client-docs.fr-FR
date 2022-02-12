@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 1ecfdb05-2533-470a-006b-e554026944d8
 description: Redirige les valeurs mises à jour résultant d’actions dans l’interface utilisateur (IU) ou Automation vers une autre cellule.
-ms.openlocfilehash: 2010cd324d87f9dbcfbfa2c71762ffc94a5484c9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3c69664ae9f1a1dcc6f28c42a18e1aa0c021fa0d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559587"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771107"
 ---
 # <a name="setatref-function"></a>Fonction SETATREF
 
@@ -28,13 +28,13 @@ SETATREF(** *reference* ** [, ** *set_expression* ** [, ** *ignore_eval* ** ]])
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _reference_ <br/> |Obligatoire  <br/> |**String** <br/> |Référence à une cellule vers laquelle les mises à jour sont redirigées.  <br/> |
-| _set_expression_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Expression affectée à la _référence._  <br/> |
-| _ignore_eval_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Si la valeur est TRUE, la fonction SETATREF est évaluée à (0) zéro ; si FALSE (valeur par défaut) la fonction SETATREF évalue la valeur de  _référence_.  <br/> |
+| _reference_ <br/> |Requis  <br/> |**String** <br/> |Référence à une cellule vers laquelle les mises à jour sont redirigées. |
+| _set_expression_ <br/> |Facultatif  <br/> |**Chaîne** <br/> |Expression affectée à la  _référence_. |
+| _ignore_eval_ <br/> |Facultatif  <br/> |**Boolean** <br/> |Si la valeur est TRUE, la fonction SETATREF est évaluée à (0) zéro ; Si false (valeur par défaut), la fonction SETATREF évalue la valeur de  _référence_. |
    
 ## <a name="remarks"></a>Remarques
 
-Lorsqu’une action de l’utilisateur dans la fenêtre de dessin ou une méthode Automation entraîne la mise à jour par Microsoft Visio d’une cellule contenant une formule SETATREF, la valeur est plutôt redirigée vers la cellule référencée par la formule SETATREF (référence). La formule dans la cellule contenant la fonction SETATREF reste intacte.
+Lorsqu’une action de l’utilisateur dans la fenêtre de dessin ou une méthode Automation entraîne la mise à jour par Microsoft Visio d’une cellule contenant une formule SETATREF, la valeur est plutôt redirigée vers la cellule référencée par la formule SETATREF _(référence_). La formule dans la cellule contenant la fonction SETATREF reste intacte.
   
 Si  _set_expression_ est omis, la valeur définie dans l’interface utilisateur ou à l’aide d’Automation est affectée à la cellule référencé ; Dans le cas contraire, le contenu  _set_expression_ est affecté à la cellule référencé. Cela permet à la nouvelle valeur d’être modifiée ou transformée avant d’être attribuée à cette cellule. 
   
@@ -42,9 +42,9 @@ La fonction SETATREF possède deux fonctions connexes :
   
 - Fonction SETATREFEXPR, que vous pouvez utiliser pour représenter la nouvelle valeur dans  _set_expression_. Par exemple, une  _set_expression_ setATREFEXPR()-2 in. peut être utilisé pour soustraire 2 pouces du résultat SETATREFEXPR. 
     
-- Fonction SETATREFEVAL, que vous pouvez utiliser pour  indiquer qu’une partie set_expression doit être évaluée et remplacée par son résultat. 
+- Fonction SETATREFEVAL, que vous pouvez utiliser pour indiquer qu’une partie set_expression  doit être évaluée et remplacée par son résultat. 
     
-La fonction SETATREF est conçue pour être utilisé dans des cellules qui peuvent être modifiées par des actions de l’utilisateur dans la fenêtre de dessin. Les cellules suivantes sont prises en charge :
+La fonction SETATREF est conçue pour une utilisation dans des cellules qui peuvent être modifiées par des actions de l’utilisateur dans la fenêtre de dessin. Les cellules suivantes sont prises en charge :
   
 - Section ShapeTransform — cellules Width, Height, Angle, PinX et PinY
     

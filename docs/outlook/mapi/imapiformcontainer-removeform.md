@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 444fcabf55b713bb4720395d47ba14ab0f7dada4
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 7e811d5a02993d626cf2c26ab758bb15004b58a5
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462700"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772139"
 ---
 # <a name="imapiformcontainerremoveform"></a>IMAPIFormContainer::RemoveForm
 
@@ -55,7 +55,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise la **méthode IMAPIFormContainer::RemoveForm** pour supprimer un formulaire d’un conteneur de formulaires.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI utilise la **méthode IMAPIFormContainer::RemoveForm** pour supprimer un formulaire d’un conteneur de formulaires. |
    
 ## <a name="see-also"></a>Voir aussi
 

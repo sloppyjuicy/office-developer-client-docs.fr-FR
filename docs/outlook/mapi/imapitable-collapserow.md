@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 6f8d1319f5655591bdd11188910e2ac458b4dcfc
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: a7220e4767094547826d008891f19b5469727c54
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59584352"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772034"
 ---
 # <a name="imapitablecollapserow"></a>IMAPITable::CollapseRow
 
@@ -40,11 +40,11 @@ ULONG FAR * lpulRowCount
 
  _cbInstanceKey_
   
-> [in] Nombre d’octets dans la propriété PR_INSTANCE_KEY pointant vers le _paramètre pbInstanceKey._ 
+> [in] Nombre d’octets dans la propriété PR_INSTANCE_KEY pointant vers le  _paramètre pbInstanceKey_ . 
     
  _pbInstanceKey_
   
-> [in] Pointeur vers la **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne de titre de la catégorie. 
+> [in] Pointeur vers la **propriété PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) qui identifie la ligne de titre de la catégorie. 
     
  _ulFlags_
   
@@ -70,13 +70,13 @@ MAPI_E_INVALID_ENTRYID
     
 ## <a name="remarks"></a>Remarques
 
-La **méthode IMAPITable::CollapseRow** permet de réduire une catégorie de tableau et de la supprimer de l’affichage Tableau. Les lignes sont réduire à partir de la ligne identifiée par la **propriété PR_INSTANCE_KEY** pointée par le _paramètre pbInstanceKey._ Le nombre de lignes supprimées de l’affichage est renvoyé dans le contenu du _paramètre lpulRowCount._ 
+La **méthode IMAPITable::CollapseRow** permet de réduire une catégorie de tableau et de la supprimer de l’affichage Tableau. Les lignes sont réduire à partir de la ligne identifiée par la **propriété PR_INSTANCE_KEY** pointée par le  _paramètre pbInstanceKey_ . Le nombre de lignes supprimées de l’affichage est renvoyé dans le contenu du  _paramètre lpulRowCount_ . 
   
 Les notifications ne sont jamais générées pour les lignes de tableau qui sont supprimées d’un affichage suite à une opération de réduire. 
   
 Lorsqu’une ligne définie par un signet est en dehors de l’affichage, le signet est déplacé pour pointer vers la ligne visible suivante. 
   
-Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation.](sorting-and-categorization.md)
+Pour plus d’informations sur les tableaux classés, voir [Tri et catégorisation](sorting-and-categorization.md).
   
 ## <a name="mfcmapi-reference"></a>Référence MFCMAPI
 
@@ -84,7 +84,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI utilise la **méthode IMAPITable::CollapseRow** pour réduire une catégorie de tableau.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI utilise la **méthode IMAPITable::CollapseRow** pour réduire une catégorie de tableau. |
    
 ## <a name="see-also"></a>Voir aussi
 

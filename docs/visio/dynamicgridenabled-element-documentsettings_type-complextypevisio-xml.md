@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: f18d797e-9885-f2fb-a521-5172aac7894c
 description: Spécifie si la fonctionnalité de grille dynamique est activée pour un document.
-ms.openlocfilehash: cb27acff54dcf302d2b7ebf649f6cdc022251e74
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 2931c0215139edac4c04fb8e5186d54c60143e9b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59574334"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771586"
 ---
 # <a name="dynamicgridenabled-element-documentsettings_type-complextype-visio-xml"></a>Élément DynamicGridEnabled (DocumentSettings_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Spécifie si la fonctionnalité de grille dynamique est activée pour un documen
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contient des éléments qui spécifient les paramètres de document. |
    
 ### <a name="child-elements"></a>Éléments enfants
 

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: b94d848e-868a-5d5e-ad82-39ed9bd5b357
 description: Spécifie les conditions météorologiques d’un emplacement.
-ms.openlocfilehash: 56d4364e521cadd9a3a7062a0caf2cb82dcbd079
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 8882883678db2ac3e0e7f9c4627844c7bd8f2645
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59616186"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770625"
 ---
 # <a name="weathertype-complextype-outlook-weather-information-schema"></a>complexType weatherType (Outlook Weather Information Schema)
 
@@ -50,25 +50,25 @@ Spécifie les conditions météorologiques d’un emplacement.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="child-elements"></a>Éléments enfants
 
-|**Élément**|**Type**|**Description**|
+|**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[current](current-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |Spécifie les conditions météorologiques actuelles.  <br/> |
-|[forecast](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |Spécifie les conditions météorologiques futures d’au moins trois jours à l’avance, y compris aujourd’hui : Aujourd’hui, Demain, Jour après Demain.  <br/> |
+|[current](current-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |Spécifie les conditions météorologiques actuelles. |
+|[forecast](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |Spécifie les conditions météorologiques futures d’au moins trois jours à l’avance, y compris aujourd’hui : Aujourd’hui, Demain, Jour après Demain. |
    
 ### <a name="attributes"></a>Attributs
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|attribution  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie la source des informations météorologiques.  <br/> |Valeur du type xs:string  <br/> |
-|degreetype  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie l’unité de température de l’emplacement, par exemple, Celsius.  <br/> |C, F  <br/> |
-|imagerelativeurl  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie l’URL de l’image pour l’emplacement.  <br/> |Valeur du type xs:string  <br/> |
-|timezone  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie le décalage GMT.  <br/> |Valeur entre -11 et 12 inclus  <br/> |
-|url  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie l’URL de la page web du service météo qui contient des informations météorologiques pour l’emplacement spécifié.  <br/> |Valeur du type xs:string  <br/> |
-|weatherlocationcode  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie le code associé à l’emplacement utilisé pour distinguer plusieurs emplacements qui ont le même nom.  <br/> |Valeur du type xs:string  <br/> |
-|weatherlocationname  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie le nom de l’emplacement qui apparaît dans le contrôle de la zone de baisse.  <br/> |Valeur du type xs:string  <br/> |
+|attribution  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie la source des informations météorologiques. |Valeur du type xs:string  <br/> |
+|degreetype  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie l’unité de température de l’emplacement, par exemple, Celsius. |C, F  <br/> |
+|imagerelativeurl  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie l’URL de l’image pour l’emplacement. |Valeur du type xs:string  <br/> |
+|timezone  <br/> |xs:integer  <br/> |obligatoire  <br/> |Spécifie le décalage GMT. |Valeur entre -11 et 12 inclus  <br/> |
+|url  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie l’URL de la page web du service météo qui contient des informations météorologiques pour l’emplacement spécifié. |Valeur du type xs:string  <br/> |
+|weatherlocationcode  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie le code associé à l’emplacement utilisé pour distinguer plusieurs emplacements qui ont le même nom. |Valeur du type xs:string  <br/> |
+|weatherlocationname  <br/> |xs:string  <br/> |obligatoire  <br/> |Spécifie le nom de l’emplacement qui apparaît dans le contrôle de la zone de baisse. |Valeur du type xs:string  <br/> |
    
 

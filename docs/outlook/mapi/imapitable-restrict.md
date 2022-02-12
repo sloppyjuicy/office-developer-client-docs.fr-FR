@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 288c0b126693846ff27e32901a8c8b3660686adf
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 83acc597abb44542b9300bcb8c8da45a5efcdd40
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461826"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771992"
 ---
 # <a name="imapitablerestrict"></a>IMAPITable::Restrict
 
@@ -101,7 +101,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::ApplyRestriction  <br/> |MFCMAPI utilise la **méthode IMAPITable::Restrict** pour définir une restriction sur une table.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::ApplyRestriction  <br/> |MFCMAPI utilise la **méthode IMAPITable::Restrict** pour définir une restriction sur une table. |
    
 ## <a name="see-also"></a>Voir aussi
 

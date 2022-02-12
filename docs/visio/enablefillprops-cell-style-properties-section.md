@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 2b3334de-588c-6cf3-bc88-be03ae71b1a6
 description: Détermine si un style comporte des propriétés de remplissage.
-ms.openlocfilehash: 4621b40287b8e03464e2f27db3a5639ac7eb6d6f
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 3ddcb8502d89b6b65f5c7770224296ad8f7bfc85
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570742"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772801"
 ---
 # <a name="enablefillprops-cell-style-properties-section"></a>EnableFillProps, cellule (section Style Properties)
 
@@ -22,8 +22,8 @@ Détermine si un style comporte des propriétés de remplissage.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Comprend des propriétés de remplissage.  <br/> |
-|FALSE  <br/> |Exclut les propriétés de remplissage.  <br/> |
+|TRUE  <br/> |Comprend des propriétés de remplissage. |
+|FALSE  <br/> |Exclut les propriétés de remplissage. |
    
 ## <a name="remarks"></a>Remarques
 

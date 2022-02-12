@@ -9,16 +9,16 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: b7aea554-f491-6a9a-4d07-feeab739a9df
 description: Représente la coordonnée x qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales.
-ms.openlocfilehash: 948b27415d22f4beb2d4c6d0c3a14e53252920f2
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: b32426116945facceebbd10b9595c35e4a55996f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582519"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775174"
 ---
 # <a name="x-cell-controls-section"></a>X, cellule (section Controls)
 
-Représente la  *coordonnée x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales. 
+Représente la coordonnée  *x*  qui indique l’emplacement de la poignée de contrôle d’une forme dans les coordonnées locales. 
   
 ## <a name="remarks"></a>Remarques
 
@@ -26,14 +26,14 @@ Pour obtenir une référence à la cellule X à l'aide d'un nom à partir d'une 
   
 |||
 |:-----|:-----|
-| Nom de cellule :  <br/> | Contrôles.  *nom*  . X où Controls.  *nom*  est le nom de la ligne des contrôles.  <br/> |
+| Nom de cellule :  <br/> | Contrôles.  *nom*  . X où Controls.  *nom*  est le nom de la ligne des contrôles. |
    
 Pour obtenir une référence à la cellule X à l'aide d'un index à partir d'un programme, utilisez la propriété **CellsSRC** avec les arguments suivants : 
   
 |||
 |:-----|:-----|
 | Index de la section :  <br/> |**visSectionControls** <br/> |
-| Index de la ligne :  <br/> |**visRowControl**  +   *i* où *i* = 0, 1, 2...  <br/> |
+| Index de la ligne :  <br/> |**visRowControl** +   *i* où *i* = 0, 1, 2... |
 | Index de la cellule :  <br/> |**visCtlX** <br/> |
    
 

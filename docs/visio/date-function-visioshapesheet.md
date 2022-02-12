@@ -8,17 +8,17 @@ f1_keywords:
 - Vis_DSS.chm82251412
 ms.localizationpriority: medium
 ms.assetid: 2b6c5375-c543-ff2f-f20a-6d92fd65717a
-description: Renvoie la date représentée par l’année, le mois et le jour formatés en fonction du style de date courte dans les Paramètres du système. Les valeurs de l’année, du mois et du jour reflètent le calendrier grégorien.
-ms.openlocfilehash: 820329bbe9283cae540625d4232d4095c6a1a530
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+description: Renvoie la date représentée par l’année, le mois et le jour formatés en fonction du style de date courte dans l’Paramètres du système. Les valeurs de l’année, du mois et du jour reflètent le calendrier grégorien.
+ms.openlocfilehash: 83b704a55e145f50d685c6dc9dde9d838dda9e8f
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59577905"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62770470"
 ---
 # <a name="date-function-visioshapesheet"></a>DATE Function (VisioShapeSheet)
 
-Renvoie la date représentée par l’année, le mois et le jour formatés en fonction du style de date courte dans le Paramètres du système.   Les valeurs  *de l’année,* *du mois*  et du  *jour*  reflètent le calendrier grégorien. 
+Renvoie la date représentée par l’année *,* le mois  et le jour formatés en fonction du style de date courte dans l’Paramètres du système. Les valeurs  *de l’année*, *du mois*  et  *du*  jour reflètent le calendrier grégorien. 
   
 ## <a name="syntax"></a>Syntaxe
 
@@ -28,9 +28,9 @@ DATE(** *year* **, ** *month* **, ** *day* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _year_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Année  <br/> |
-| _Mois_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Mois  <br/> |
-| _day_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Jour  <br/> |
+| _year_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Année |
+| _Mois_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Mois |
+| _day_ <br/> |Obligatoire  <br/> |**Entier** <br/> |Jour |
    
 ## <a name="example-1"></a>Exemple 1
 

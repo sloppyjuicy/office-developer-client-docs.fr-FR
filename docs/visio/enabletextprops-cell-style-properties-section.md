@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 8c59abaf-d2cc-94c9-08ba-004bc40efd9e
 description: Détermine si un style inclut ou non des propriétés de texte.
-ms.openlocfilehash: 34b1cf25667ba6fd4354ec2bc6ca3afd5b49bf91
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: ca1667e2f47a3c2fcab83890c55d111b658deb7b
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59570644"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62774312"
 ---
 # <a name="enabletextprops-cell-style-properties-section"></a>EnableTextProps, cellule (section Style Properties)
 
@@ -22,8 +22,8 @@ Détermine si un style inclut ou non des propriétés de texte.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Inclut les propriétés de texte.  <br/> |
-|FALSE  <br/> |Exclut les propriétés de texte.  <br/> |
+|TRUE  <br/> |Inclut les propriétés de texte. |
+|FALSE  <br/> |Exclut les propriétés de texte. |
    
 ## <a name="remarks"></a>Remarques
 

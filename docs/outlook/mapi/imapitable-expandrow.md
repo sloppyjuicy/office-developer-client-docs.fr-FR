@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: d3b426588e67562935a00a32d1390b6b98f41257
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 39661ee76acd556a459a718cec4dd6b17fdda3df
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62461763"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62772041"
 ---
 # <a name="imapitableexpandrow"></a>IMAPITable::ExpandRow
 
@@ -98,7 +98,7 @@ Pour voir un exemple de code MFCMAPI, consultez le tableau suivant.
   
 |**Fichier**|**Fonction**|**Commentaire**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI utilise la **méthode IMAPITable::ExpandRow** pour développer une catégorie de tableaux réduire.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::D oExpandCollapse  <br/> |MFCMAPI utilise la **méthode IMAPITable::ExpandRow** pour développer une catégorie de tableaux réduire. |
    
 ## <a name="see-also"></a>Voir aussi
 

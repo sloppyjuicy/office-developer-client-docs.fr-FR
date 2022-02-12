@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 351405ca-b72b-4e9e-bc8e-947344588970
 description: Dernière modification le 9 mars 2015
-ms.openlocfilehash: 0d3c10a167c961dd2dfe8e31313f6b0f5d827abe
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: f3d464effa1ba4c906acf7bd83645ad51938852e
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59619497"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773046"
 ---
 # <a name="using-macros-for-error-handling"></a>Utilisation de macros pour la gestion des erreurs
 
@@ -31,13 +31,13 @@ Les macros couramment utilisées sont brièvement décrites dans le tableau suiv
   
 |**Macro**|**Description**|
 |:-----|:-----|
-|**MAKE_HRESULT** <br/> |Construit un HRESULT à partir de ses composants.  <br/> |
-|**HR_SUCCEEDED** <br/> |Teste un HRESULT pour une condition de réussite ou d’avertissement.  <br/> |
-|**HR_FAILED** <br/> |Teste une condition d’erreur HRESULT.  <br/> |
-|**HRESULT_CODE** <br/> |Extrait la partie code d’erreur du HRESULT.  <br/> |
-|**HRESULT_FACILITY** <br/> |Extrait la fonction du HRESULT.  <br/> |
-|**HRESULT_SEVERITY** <br/> |Extrait le bit de gravité de la GRAVITÉ.  <br/> |
-|**SUCCEEDED** <br/> |Teste un HRESULT pour une condition de réussite ou d’avertissement.  <br/> |
-|**FAILED** <br/> |Teste une condition d’erreur HRESULT.  <br/> |
+|**MAKE_HRESULT** <br/> |Construit un HRESULT à partir de ses composants. |
+|**HR_SUCCEEDED** <br/> |Teste un HRESULT pour une condition de réussite ou d’avertissement. |
+|**HR_FAILED** <br/> |Teste une condition d’erreur HRESULT. |
+|**HRESULT_CODE** <br/> |Extrait la partie code d’erreur du HRESULT. |
+|**HRESULT_FACILITY** <br/> |Extrait la fonction du HRESULT. |
+|**HRESULT_SEVERITY** <br/> |Extrait le bit de gravité de la GRAVITÉ. |
+|**SUCCEEDED** <br/> |Teste un HRESULT pour une condition de réussite ou d’avertissement. |
+|**FAILED** <br/> |Teste une condition d’erreur HRESULT. |
    
 

@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 513302d3-3be8-882f-5258-95529098f95d
 description: Renvoie la racine carrée d’un nombre.
-ms.openlocfilehash: c61d5df711ff49d54c0e7c2d43fd60d23bbf06b9
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 4a1a3dc8651d71ff50ccebf77f0b461d8e3043e9
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559436"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773851"
 ---
 # <a name="sqrt-function"></a>Fonction SQRT
 
@@ -28,7 +28,7 @@ SQRT(** *number* ** )
 
 |**Nom**|**Requis/Facultatif**|**Type de données**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Obligatoire  <br/> |**Numérique** <br/> |Nombre dont vous souhaitez trouver la racine carrée.  <br/> |
+| _number_ <br/> |Requis  <br/> |**Numérique** <br/> |Nombre dont vous souhaitez trouver la racine carrée. |
    
 ### <a name="return-value"></a>Valeur renvoyée
 

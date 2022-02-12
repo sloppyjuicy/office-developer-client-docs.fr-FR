@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
-ms.openlocfilehash: 48e891ee61d8af1facf4b8609310a408987ea21b
-ms.sourcegitcommit: 5969c693475e22a3f5a4fdde3473ecc33013b76f
+ms.openlocfilehash: 9a6edcfb850d6263bde572f302ae8b31002a4a83
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62462595"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62773738"
 ---
 # <a name="xleventregister"></a>xlEventRegister
 
@@ -37,8 +37,8 @@ Nom de la fonction de handler d’événement telle qu’elle apparaît dans le 
   
 |**Event**|**Description**|
 |:-----|:-----|
-|**xleventCalculationEnded** <br/> |Cette erreur est Excel à la fin d’un calcul. Vous pouvez libérer toutes les ressources allouées pendant le calcul après cet événement.  <br/> |
-|**xleventCalculationCanceled** <br/> |Élevé lorsque l’utilisateur interrompt le calcul. Le XLL doit arrêter toutes les activités asynchrones. L’événement CalculationEnded est lancé immédiatement après cet événement.  <br/> |
+|**xleventCalculationEnded** <br/> |Cette erreur est Excel à la fin d’un calcul. Vous pouvez libérer toutes les ressources allouées pendant le calcul après cet événement. |
+|**xleventCalculationCanceled** <br/> |Élevé lorsque l’utilisateur interrompt le calcul. Le XLL doit arrêter toutes les activités asynchrones. L’événement CalculationEnded est lancé immédiatement après cet événement. |
    
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 

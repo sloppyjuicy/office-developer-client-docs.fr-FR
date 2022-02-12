@@ -7,12 +7,12 @@ ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6b347117-a1c1-d090-0d71-ea8528ac70c6
 description: Encapsule un code d’événement.
-ms.openlocfilehash: 7a7c1c3ba86971f0711ef01173f8704fb6989430
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 42cb7664dbb762de6f775158e0f986dac3827ac7
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59582762"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771565"
 ---
 # <a name="eventitem-element-eventlist_type-complextype-visio-xml"></a>Élément EventItem (EventList_Type complexType) (Visio XML)
 
@@ -36,13 +36,13 @@ Encapsule un code d’événement.
 
 ## <a name="elements-and-attributes"></a>Éléments et attributs
 
-Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, voir la section de définition. 
+Si le schéma définit des exigences spécifiques, telles que **séquence**, **minOccurs**, **maxOccurs** et **choix**, consultez la section définition. 
   
 ### <a name="parent-elements"></a>Éléments parents
 
 |**Élément**|**Type (Type)**|**Description**|
 |:-----|:-----|:-----|
-|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Contient un **élément EventItem** pour chaque événement auquel un objet doit répondre.  <br/> |
+|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Contient un **élément EventItem** pour chaque événement auquel un objet doit répondre. |
    
 ### <a name="child-elements"></a>Éléments enfants
 
@@ -52,11 +52,11 @@ Aucun.
 
 |**Attribut**|**Type**|**Obligatoire**|**Description**|**Valeurs possibles**|
 |:-----|:-----|:-----|:-----|:-----|
-|Action  <br/> |xsd:unsignedShort  <br/> |obligatoire  <br/> |Spécifie le code d’action de **l’élément EventItem** parent.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
-|Activé  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Représente un indicateur indiquant si l’événement est activé ou désactivé.  <br/> |Valeurs du type xsd:boolean.  <br/> |
-|EventCode  <br/> |xsd:unsignedShort  <br/> |obligatoire  <br/> |Code indiquant l’événement qui déclenche l’module.  <br/> |Valeurs du type xsd:unsignedShort.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de l’événement.  <br/> |Valeurs du type xsd:unsignedInt.  <br/> |
-|Target  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie la cible d’un événement.  <br/> |Valeurs du type xsd:string.  <br/> |
-|TargetArgs  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie une chaîne contenant des arguments à envoyer à la cible d’un événement.  <br/> |Valeurs du type xsd:string.  <br/> |
+|Action  <br/> |xsd:unsignedShort  <br/> |obligatoire  <br/> |Spécifie le code d’action de **l’élément EventItem** parent. |Valeurs du type xsd:unsignedShort. |
+|Activé  <br/> |xsd:boolean  <br/> |facultatif  <br/> |Représente un indicateur indiquant si l’événement est activé ou désactivé. |Valeurs du type xsd:boolean. |
+|EventCode  <br/> |xsd:unsignedShort  <br/> |obligatoire  <br/> |Code indiquant l’événement qui déclenche l’module. |Valeurs du type xsd:unsignedShort. |
+|ID  <br/> |xsd:unsignedInt  <br/> |obligatoire  <br/> |ID de l’événement. |Valeurs du type xsd:unsignedInt. |
+|Target  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie la cible d’un événement. |Valeurs du type xsd:string. |
+|TargetArgs  <br/> |xsd:string  <br/> |obligatoire  <br/> |Spécifie une chaîne contenant des arguments à envoyer à la cible d’un événement. |Valeurs du type xsd:string. |
    
 

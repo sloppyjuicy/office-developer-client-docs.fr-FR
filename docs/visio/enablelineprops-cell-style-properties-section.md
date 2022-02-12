@@ -9,12 +9,12 @@ f1_keywords:
 ms.localizationpriority: medium
 ms.assetid: 9f619416-36ff-1479-6232-225c11827e01
 description: Détermine si un style inclut ou non des propriétés de trait.
-ms.openlocfilehash: f2e6c3c74329c196e2e527a2879c0604ef5c5c61
-ms.sourcegitcommit: a1d9041c20256616c9c183f7d1049142a7ac6991
+ms.openlocfilehash: 220593a0f6797c0b9eb3c1886de9068dc3b90d9d
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59559905"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62771593"
 ---
 # <a name="enablelineprops-cell-style-properties-section"></a>EnableLineProps, cellule (section Style Properties)
 
@@ -22,8 +22,8 @@ Détermine si un style inclut ou non des propriétés de trait.
   
 |**Valeur**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Inclut des propriétés de trait.  <br/> |
-|FALSE  <br/> |Exclut les propriétés de trait.  <br/> |
+|TRUE  <br/> |Inclut des propriétés de trait. |
+|FALSE  <br/> |Exclut les propriétés de trait. |
    
 ## <a name="remarks"></a>Remarques
 

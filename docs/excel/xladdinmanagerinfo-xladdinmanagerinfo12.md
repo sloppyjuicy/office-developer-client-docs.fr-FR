@@ -10,12 +10,12 @@ keywords:
 - fonction xladdinmanagerinfo [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
-ms.openlocfilehash: 5cc8f1110285e89b88d8e392c7416b9a3e43985e
-ms.sourcegitcommit: 193df57ebf141020852d2ebc8cf0931edb71574a
+ms.openlocfilehash: d96270a2920de9b6c820421499ab7cc805eade26
+ms.sourcegitcommit: c0fae34cd3a9c75a7cffcf9ae8e417ddde07a989
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198203"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "62775034"
 ---
 # <a name="xladdinmanagerinfoxladdinmanagerinfo12"></a>xlAddInManagerInfo/xlAddInManagerInfo12
 
@@ -23,9 +23,9 @@ ms.locfileid: "62198203"
   
 Appelé par Microsoft Excel lorsque le Gestionnaire de add-in est appelé pour la première fois dans une session Excel session. Cette fonction est utilisée pour fournir au gestionnaire Add-In des informations sur votre add-in.
   
-Excel 2007 et versions ultérieures appellent **xlAddInManagerInfo12** de préférence à **xlAddInManagerInfo** s’il est exporté par le XLL. La **fonction xlAddInManagerInfo12** doit fonctionner de la même manière que **xlAddInManagerInfo** pour éviter les différences propres à la version du XLL. Excel s’attend à ce que **xlAddInManagerInfo12** retourne un type de données **XLOPER12,** tandis que **xlAddInManagerInfo** doit renvoyer un **XLOPER**.
+Excel 2007 et versions ultérieures appellent **xlAddInManagerInfo12** de préférence à **xlAddInManagerInfo** s’il est exporté par le XLL. La **fonction xlAddInManagerInfo12** doit fonctionner de la même manière que **xlAddInManagerInfo** pour éviter les différences propres à la version du XLL. Excel s’attend à ce que **xlAddInManagerInfo12** retourne un type de données **XLOPER12**, tandis que **xlAddInManagerInfo** doit renvoyer un **XLOPER**.
   
-La **fonction xlAddInManagerInfo12** n’est pas appelée par les versions de Excel antérieures à Excel 2007, car elles ne sont pas en charge par **xlOPER12**.
+La **fonction xlAddInManagerInfo12** n’est pas appelée par les versions de Excel antérieures à Excel 2007, car elles ne sont pas en charge par **XLOPER12**.
   
 Excel ne nécessite pas de XLL pour implémenter et exporter l’une de ces fonctions.
   
@@ -42,13 +42,13 @@ Informations que Excel demande.
   
 ## <a name="property-valuereturn-value"></a>Valeur de propriété/valeur de renvoi
 
-Si  _pxAction_ est, ou peut être forcé, le numéro 1, votre implémentation de cette fonction doit renvoyer une chaîne contenant des informations sur le module complémentaire, généralement son nom et éventuellement un numéro de version. Sinon, elle doit #VALUE!. 
+Si _pxAction_ est, ou peut être forcé, le numéro 1, votre implémentation de cette fonction doit renvoyer une chaîne contenant des informations sur le module complémentaire, généralement son nom et éventuellement un numéro de version. Sinon, elle doit #VALUE!. 
   
 Si vous ne renvoyez pas de chaîne, Excel tente de convertir la valeur renvoyée en chaîne.
   
 ## <a name="remarks"></a>Remarques
 
-Si la chaîne renvoyée pointe vers une mémoire tampon allouée dynamiquement, vous devez vous assurer que ce tampon est finalement libéré. Si la chaîne a été allouée par Excel, vous le faites en paramètre **xlbitXLFree**. Si la chaîne a été allouée par la DLL, pour ce faire, vous devez définir **xlbitDLLFree** et vous devez également implémenter dans [xlAutoFree](xlautofree-xlautofree12.md) (si vous renvoyez une **XLOPER**) ou **xlAutoFree12** (si vous renvoyez une **XLOPER12**).
+Si la chaîne renvoyée pointe vers une mémoire tampon allouée dynamiquement, vous devez vous assurer que ce tampon est finalement libéré. Si la chaîne a été allouée par Excel, vous devez définir **xlbitXLFree**. Si la chaîne a été allouée par la DLL, vous devez définir **xlbitDLLFree** et implémenter également dans [xlAutoFree](xlautofree-xlautofree12.md) (si vous renvoyez une **XLOPER**) ou **xlAutoFree12** (si vous renvoyez une **XLOPER12**).
   
 ## <a name="example"></a>Exemple
 
